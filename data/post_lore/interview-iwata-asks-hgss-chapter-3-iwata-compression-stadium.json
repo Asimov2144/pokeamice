@@ -1,0 +1,156 @@
+{
+ "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+ "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 47
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     10,
+     12
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     0,
+     3,
+     5,
+     7,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     1,
+     6,
+     8,
+     10,
+     21,
+     29
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     13,
+     15,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "众人",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     16,
+     30
+    ]
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "石原恒和说《金·银》发售于1999年11月，花了三年半",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "森本茂树说《金·银》和《赤·绿》时期程序员大约只有4人",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为社长问心金魂银，第1章在前"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为社长问心金魂银，第2章在前"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "海野在金银发售时排队，涉金银"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "首藤手记提及金银延期"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

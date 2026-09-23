@@ -1,0 +1,547 @@
+{
+ "id": "scan-davinci-2011-01-masuda-interview",
+ "stem": "2010-12-06-scan-davinci-2011-01-masuda-interview",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 74
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     52
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     47,
+     59
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     34,
+     35
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     30
+    ],
+    "as": [
+     "君主蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     34,
+     35,
+     59
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     34,
+     35
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     42
+    ],
+    "as": [
+     "索罗亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     41,
+     42
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     37
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     37
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     5,
+     6,
+     13,
+     54,
+     58,
+     59
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 钻石・珍珠 幻影的霸者 索罗亚克",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑・白 官方完全冒险通关指南",
+    "slug": null,
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑・白 官方合众图鉴完成指南",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂DS 宝可梦 黑・白 超级音乐收藏",
+    "slug": null,
+    "seg": [
+     61
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "游戏的人",
+    "slug": null,
+    "seg": [
+     65
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "游戏与人",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "基业长青——超越时代的生存原则",
+    "slug": null,
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "动机领导力 引领组织的30条原则",
+    "slug": null,
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "史蒂夫·乔布斯 偶像复活",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     11,
+     54,
+     55,
+     58,
+     59,
+     60
+    ]
+   },
+   {
+    "name": "野本由起",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森荣喜",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     42
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     37
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "魁奇思",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赫伊津哈",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     65
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高桥英夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     65
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "罗歇·凯卢瓦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "多田道太郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "冢崎干夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "詹姆斯·C·柯林斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杰里·I·波拉斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山冈洋一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小笹芳央",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杰弗里·S·扬",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "威廉·L·西蒙",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "井口耕二",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "史蒂夫·乔布斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     37
+    ],
+    "what": "游戏新舞台",
+    "via": "llm"
+   },
+   {
+    "name": "鹿子镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     45
+    ],
+    "what": "冒险起点",
+    "via": "llm"
+   },
+   {
+    "name": "冠军之路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     45
+    ],
+    "what": "游戏关卡",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦联盟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     45
+    ],
+    "what": "游戏关卡",
+    "via": "llm"
+   },
+   {
+    "name": "王冠市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     42
+    ],
+    "what": "剧场版舞台",
+    "via": "llm"
+   },
+   {
+    "name": "连入",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     17
+    ],
+    "what": "合众中心的岛屿",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "系列1996年诞生，截至2010年全球累计销量突破1亿5000万套"
+  },
+  {
+   "seg": 9,
+   "text": "开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-1146-matsumiya-bw-scenario",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "同为黑·白开发访谈，松宫谈剧本与N构想"
+  },
+  {
+   "id": "scan-ndream-2011-01-bw-design-secrets",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "why": "同为黑·白发售期开发访谈，涉增田与设计"
+  },
+  {
+   "id": "gamefreak-staff-202",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "why": "同为黑·白开发期GAME FREAK成员访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

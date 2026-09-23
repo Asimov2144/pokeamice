@@ -1,0 +1,224 @@
+{
+ "id": "interview-famitsu-2023-cedec-sound",
+ "stem": "2023-08-24-interview-famitsu-2023-cedec-sound",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 111
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "メリープ",
+    "ndex": 179,
+    "seg": [
+     92
+    ],
+    "as": [
+     "メリープ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     3,
+     28,
+     45,
+     76
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毛辫羊",
+    "ndex": 831,
+    "seg": [
+     26
+    ],
+    "as": [
+     "毛辫羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "故勒顿",
+    "ndex": 1007,
+    "seg": [
+     40
+    ],
+    "as": [
+     "故勒顿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "密勒顿",
+    "ndex": 1008,
+    "seg": [
+     40
+    ],
+    "as": [
+     "密勒顿"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     3,
+     17,
+     29,
+     40,
+     49,
+     64
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "北村一树",
+    "slug": "kitamura-kazuki",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "岩本翔",
+    "slug": "iwamoto-sho",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "横须贺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     20
+    ],
+    "what": "收录环境音的山中公园",
+    "via": "llm"
+   },
+   {
+    "name": "东武动物公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     50
+    ],
+    "what": "确认动物叫声的场所",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "《红宝石·蓝宝石》首次引入环境叫声，从遭遇表随机选一只播放",
+   "anchor": 13
+  },
+  {
+   "seg": 20,
+   "text": "北村在横须贺山中公园用约5厘米扬声器播放宝可梦叫声",
+   "anchor": 21
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,329 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch217",
+ "stem": "2010-03-24-interview-takeshi-shudo-pokemon-memoir-ch217",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 121
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     74
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     74
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     74
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     74
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使（甜甜仙子）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "巴里之伊莎贝拉",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "永不结束的故事",
+    "slug": null,
+    "seg": [
+     32,
+     34
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "战国魔神豪将军",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "毛毛",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "巴黎的伊莎贝拉",
+    "slug": null,
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "巴黎在燃烧",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "新世纪福音战士",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     26,
+     92,
+     102
+    ]
+   },
+   {
+    "name": "宫崎骏",
+    "slug": "gong-qi-jun",
+    "role": "mentioned",
+    "seg": [
+     61
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "米切尔·恩德",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ]
+   },
+   {
+    "name": "猪股睦美",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     102
+    ]
+   },
+   {
+    "name": "富野由悠季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     116
+    ]
+   },
+   {
+    "name": "北原白秋",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     97,
+     98
+    ]
+   },
+   {
+    "name": "马克思",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     38
+    ]
+   },
+   {
+    "name": "大佛次郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     39
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     48
+    ],
+    "what": "首藤定居的海滨古城",
+    "via": "llm"
+   },
+   {
+    "name": "小田原文学馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     95
+    ],
+    "what": "举办首藤手稿展",
+    "via": "llm"
+   },
+   {
+    "name": "拉雪兹神父公墓",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     40
+    ],
+    "what": "巴黎公社决战地",
+    "via": "llm"
+   },
+   {
+    "name": "公社社员墙",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     43
+    ],
+    "what": "公社战士就义处",
+    "via": "llm"
+   },
+   {
+    "name": "小田原急救医院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     50
+    ],
+    "what": "首藤住院处",
+    "via": "llm"
+   },
+   {
+    "name": "JR早川站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     114
+    ],
+    "what": "散步线路起点",
+    "via": "llm"
+   },
+   {
+    "name": "小田原城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     113
+    ],
+    "what": "当地核心名片",
+    "via": "llm"
+   },
+   {
+    "name": "小田原市立图书馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     109
+    ],
+    "what": "可预约调阅文献",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 74,
+   "text": "首藤称《超梦的逆袭》居全日本影史全球海外票房第一，第二为《洛奇亚爆诞》",
+   "anchor": 75
+  },
+  {
+   "seg": 83,
+   "text": "首藤说全球电影年产量第二的是印度，第三是尼日利亚",
+   "anchor": 84
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为手记系列，216回紧接217回前一篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为手记系列，218回紧接217回后一篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

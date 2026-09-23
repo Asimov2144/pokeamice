@@ -1,0 +1,364 @@
+{
+ "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+ "stem": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 116
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     30
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     30
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "スリープ",
+    "ndex": 96,
+    "seg": [],
+    "as": [
+     "スリープ"
+    ],
+    "via": "title"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     25,
+     28,
+     32,
+     102
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉普拉斯",
+    "ndex": 131,
+    "seg": [
+     85
+    ],
+    "as": [
+     "拉普拉斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     8,
+     55,
+     68,
+     70,
+     72,
+     79,
+     7
+    ],
+    "as": [
+     "卡比兽",
+     "カビゴン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷公",
+    "ndex": 243,
+    "seg": [
+     77
+    ],
+    "as": [
+     "雷公"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "炎帝",
+    "ndex": 244,
+    "seg": [
+     77
+    ],
+    "as": [
+     "炎帝"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水君",
+    "ndex": 245,
+    "seg": [
+     77
+    ],
+    "as": [
+     "水君"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     1,
+     13,
+     17,
+     27,
+     44,
+     61
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Sleep",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Ingress",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "活下去！翻车鱼！～3亿条伙伴全都死了",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Hunt Cook -从狩猎开始的野味料理餐厅-",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "跳跃吧！鲤鱼王",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Fami通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     11,
+     19,
+     28,
+     34,
+     37,
+     40
+    ]
+   },
+   {
+    "name": "宇都宫崇人",
+    "slug": "utsunomiya-takato",
+    "role": "speaker",
+    "seg": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "中畑虎也",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     32,
+     36,
+     38,
+     45,
+     51,
+     54
+    ]
+   },
+   {
+    "name": "宮川佳祐",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     50,
+     53,
+     55,
+     93,
+     107,
+     111
+    ]
+   },
+   {
+    "name": "塚田拓実",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     58,
+     85,
+     112
+    ]
+   },
+   {
+    "name": "小川慧",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ゆーみん17",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "竹内白州",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     16
+    ],
+    "what": "Ingress线下活动",
+    "via": "llm"
+   },
+   {
+    "name": "天青石湖畔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     84
+    ],
+    "what": "新增场地",
+    "via": "llm"
+   },
+   {
+    "name": "黄金旧发电厂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     84
+    ],
+    "what": "新增场地",
+    "via": "llm"
+   },
+   {
+    "name": "拉普拉斯湖畔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     85
+    ],
+    "what": "场地夜晚时段",
+    "via": "llm"
+   },
+   {
+    "name": "黄金旧港",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     85
+    ],
+    "what": "一周年新营地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "2024年6月达成全球累计下载量2000万次",
+   "anchor": 8
+  },
+  {
+   "seg": 29,
+   "text": "宇都宫称《跳跃吧！鲤鱼王》下载量已超2700万",
+   "anchor": 30
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

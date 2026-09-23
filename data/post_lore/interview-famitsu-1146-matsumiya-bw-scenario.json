@@ -1,0 +1,144 @@
+{
+ "id": "interview-famitsu-1146-matsumiya-bw-scenario",
+ "stem": "2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 17
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "週刊ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     5,
+     7,
+     9,
+     11
+    ]
+   },
+   {
+    "name": "松宫稔展",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     6,
+     8,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     4
+    ]
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "魁奇思",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑连",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白露",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "松宫称《宝可梦》系列自首作面世已过去整整14年",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一提出N的构想早于游戏主题定下",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-202",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "松宫谈黑白的剧本构思与角色塑造，可作背景"
+  },
+  {
+   "id": "interview-wedge-ishihara-pokemon-disney",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "石原称宝可梦1996年发售至今14年，与松宫说法对应"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

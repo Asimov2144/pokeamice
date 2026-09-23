@@ -652,7 +652,23 @@ def split_blog(body: str) -> dict:
 
 # ---------------------------------------------------------------- posts
 
+def load_lore() -> dict:
+    """tools/build-post-lore.py 的成品：每篇提到的宝可梦 / 作品 / 地点 / 人（带段号）、
+    一两条带段号的观察、与别的文章的关系。没跑过就是空的，导出照常。"""
+    folder = ROOT / "data" / "post_lore"
+    out = {}
+    for path in sorted(folder.glob("*.json")):
+        try:
+            rec = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if rec.get("id"):
+            out[rec["id"]] = rec
+    return out
+
+
 def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict, covers: dict, out: Path):
+    lore_by_id = load_lore()
     index = []
     speakers: dict[str, list] = collections.defaultdict(list)
     search_text: dict[str, str] = {}
@@ -765,6 +781,16 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             "cover_kind": cover_kind,
             "size": size,
         }
+        #  索引里只放够挑选的那几样：图鉴号、对得上旅图的地点、有没有观察。完整的条目在 posts/<id>.json 的 lore 里
+        lore = lore_by_id.get(slug)
+        if lore:
+            facets = lore.get("facets") or {}
+            dex = [p["ndex"] for p in facets.get("pokemon", []) if isinstance(p.get("ndex"), int)][:12]
+            spots = [{k: v for k, v in (("id", p.get("id")), ("entity", p.get("entity")), ("name", p.get("name"))) if v}
+                     for p in facets.get("places", []) if p.get("id") or p.get("entity")][:6]
+            summary_item["lore"] = {"dex": dex, "places": spots,
+                                    "obs": len(lore.get("observations") or []),
+                                    "rel": len(lore.get("relations") or [])}
         index.append(summary_item)
         # 全文检索用的正文（译文优先），单独一个文件，App 第一次搜正文时才拉
         if full_text:
@@ -787,6 +813,23 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             },
             "body": body,
         }
+        if lore:
+            post["lore"] = {k: lore[k] for k in ("facets", "observations", "relations", "sources", "built", "edited") if k in lore}
+            #  段号 -> 这一段里有什么：读者摘了某一段，App 拿段号一查就知道该接什么话
+            by_seg: dict[str, dict] = {}
+            for facet, key, value in (("pokemon", "dex", "ndex"), ("people", "people", "slug"),
+                                      ("works", "works", "slug"), ("places", "places", "id")):
+                for row in (lore.get("facets") or {}).get(facet) or []:
+                    what = row.get(value) or (row.get("entity") if facet == "places" else None) or row.get("name")
+                    for n in row.get("seg") or []:
+                        bucket = by_seg.setdefault(str(n), {})
+                        bucket.setdefault(key, [])
+                        if what not in bucket[key]:
+                            bucket[key].append(what)
+            for i, ob in enumerate(lore.get("observations") or []):
+                if isinstance(ob.get("seg"), int):
+                    by_seg.setdefault(str(ob["seg"]), {})["obs"] = i
+            post["lore"]["by_seg"] = by_seg
         sizes.append(dump(out / "posts" / f"{slug}.json", post))
 
     index.sort(key=lambda x: (x["date"], x["id"]), reverse=True)
@@ -942,6 +985,9 @@ def build_topics(people: dict, works: dict, out: Path) -> list[dict]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    #  从 git archive 导出的干净树里跑时，那棵树没有 .git：把仓库的 HEAD 传进来，
+    #  不然 docs_commit 是空的——App 拿它当缓存版本键
+    ap.add_argument("--commit", default="")
     args = ap.parse_args()
     out: Path = args.out
     out.mkdir(parents=True, exist_ok=True)
@@ -1002,7 +1048,7 @@ def main() -> int:
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "docs_commit": git_head(ROOT),
+        "docs_commit": args.commit or git_head(ROOT),
         "site": SITE,
         "base": f"{SITE}/assets/data/app",
         "counts": {
@@ -1025,6 +1071,13 @@ def main() -> int:
             "relations": len(relations_raw),
             "glossary": len(glossary_raw.get("entries", []) if isinstance(glossary_raw, dict) else glossary_raw),
             "topics": len(topics),
+            "lore": {
+                "posts": sum(1 for it in index if it.get("lore")),
+                "dex": len({n for it in index for n in (it.get("lore") or {}).get("dex", [])}),
+                "places": len({(p.get("id") or p.get("entity")) for it in index for p in (it.get("lore") or {}).get("places", [])}),
+                "observations": sum((it.get("lore") or {}).get("obs", 0) for it in index),
+                "relations": sum((it.get("lore") or {}).get("rel", 0) for it in index),
+            },
             "unresolved_people_mentions": sum(1 for it in index for p in it["people"] if not p["slug"]),
             "duplicate_ids": len(index) - len({it["id"] for it in index}),
             "posts_bytes": sum(post_sizes),

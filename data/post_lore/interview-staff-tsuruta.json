@@ -1,0 +1,99 @@
+{
+ "id": "interview-staff-tsuruta",
+ "stem": "2013-01-22-interview-staff-tsuruta",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     17
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金/魂银",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻石·珍珠",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白金",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "心金/魂银",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "HG·SS 畅谈！",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "鹤田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "作者在《心金/魂银》中主要负责跟随宝可梦的图形设计",
+   "anchor": 4
+  },
+  {
+   "seg": 16,
+   "text": "作者称绝不让步的部分是异色宝可梦的再现",
+   "anchor": 17
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

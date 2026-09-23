@@ -1,0 +1,78 @@
+{
+ "id": "gamefreak-lineblog-2681233",
+ "stem": "2016-04-10-gamefreak-lineblog-2681233",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 103
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "八丈岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     32
+    ],
+    "what": "岛椒酱油产地",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     12
+    ],
+    "what": "斑节虾产地",
+    "via": "llm"
+   },
+   {
+    "name": "明石",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     12
+    ],
+    "what": "章鱼产地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "列出醋拌海参、萤乌贼、蛤蜊三样"
+  },
+  {
+   "seg": 12,
+   "text": "列出北海道斑节虾、明石章鱼、紫萁嫩芽"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

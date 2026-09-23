@@ -1,0 +1,259 @@
+{
+ "id": "interview-tpc-pikachu-origin-sugimori-nishino-nishida",
+ "stem": "2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     3,
+     27,
+     28,
+     64
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     3,
+     27,
+     28,
+     64
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     3,
+     27,
+     28,
+     64
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     3,
+     4,
+     6,
+     7,
+     10,
+     23
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "雷丘",
+    "ndex": 26,
+    "seg": [
+     15
+    ],
+    "as": [
+     "雷丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "ピッピ",
+    "ndex": 35,
+    "seg": [
+     31,
+     32
+    ],
+    "as": [
+     "ピッピ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ゲンガー",
+    "ndex": 94,
+    "seg": [
+     32
+    ],
+    "as": [
+     "ゲンガー"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     71
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红／绿",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赤・绿",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "精灵宝可梦",
+    "slug": null,
+    "seg": [
+     65
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     1,
+     7,
+     9,
+     12,
+     16,
+     21
+    ]
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "speaker",
+    "seg": [
+     2,
+     20,
+     34,
+     41,
+     55,
+     58
+    ]
+   },
+   {
+    "name": "にしだあつこ",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     15,
+     17,
+     23,
+     35,
+     38
+    ]
+   },
+   {
+    "name": "西田敦子",
+    "slug": "nishida-atsuko",
+    "role": "mentioned",
+    "seg": [
+     10,
+     25,
+     28,
+     50
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     12,
+     24
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     64
+    ]
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     68
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "常青森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     58
+    ],
+    "what": "皮卡丘遭遇地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "初代《红／绿》时期创作者直接坐在电脑前逐点敲打像素点阵",
+   "anchor": 10
+  },
+  {
+   "seg": 12,
+   "text": "杉森建称核心发起人全为男性，故拜托西田设计可爱宝可梦",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -34,3 +34,5 @@ search: false
 @import "minimal-mistakes/atlas";
 /* the trail at the top of every page and the site-wide tooltip, last so the position rules win */
 @import "minimal-mistakes/crumbs";
+/* 本篇提到：文章页末尾的图鉴条目，用的是阅读器的排版变量，排在它后面 */
+@import "minimal-mistakes/post-lore";

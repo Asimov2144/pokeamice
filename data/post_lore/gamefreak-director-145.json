@@ -1,0 +1,64 @@
+{
+ "id": "gamefreak-director-145",
+ "stem": "2009-03-27-gamefreak-director-145",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 37
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     0,
+     20
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "Wi-Fi广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     3
+    ],
+    "what": "游戏内设施",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "3月22日，北美版《宝可梦 白金》发售"
+  },
+  {
+   "seg": 2,
+   "text": "日本和北美玩家可跨越国界一起游玩"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

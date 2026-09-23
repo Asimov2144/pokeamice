@@ -1,0 +1,171 @@
+{
+ "id": "scan-ndream-2010-04-creatures-ranger-interview",
+ "stem": "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     56
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     33
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "雷公",
+    "ndex": 243,
+    "seg": [
+     35
+    ],
+    "as": [
+     "雷公"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "炎帝",
+    "ndex": 244,
+    "seg": [
+     35
+    ],
+    "as": [
+     "炎帝"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦巡护员 光之轨迹",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦巡护员 巴特纳吉",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     2,
+     4,
+     6,
+     11,
+     21,
+     45
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "MOTHER 2 ギーグの逆襲",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "EarthBound",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "入江勝義",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "鳥居康功",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "五十嵐寛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "漁康智",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "古代神殿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     50
+    ],
+    "what": "收集石板的关卡",
+    "via": "llm"
+   },
+   {
+    "name": "神殿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     51
+    ],
+    "what": "联机征战的场所",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "入江称画圈对开发者简单，但低龄玩家后半程高难BOSS门槛过高"
+  },
+  {
+   "seg": 11,
+   "text": "五十岚称当时没有其他游戏需要玩家握触控笔疯狂画圈"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

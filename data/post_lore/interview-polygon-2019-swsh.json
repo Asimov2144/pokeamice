@@ -1,0 +1,195 @@
+{
+ "id": "interview-polygon-2019-swsh",
+ "stem": "2019-10-24-interview-polygon-2019-swsh",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     42,
+     43
+    ],
+    "as": [
+     "大葱鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "球球海狮",
+    "ndex": 728,
+    "seg": [
+     48,
+     49
+    ],
+    "as": [
+     "球球海狮"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "敲音猴",
+    "ndex": 810,
+    "seg": [
+     49
+    ],
+    "as": [
+     "敲音猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炎兔儿",
+    "ndex": 813,
+    "seg": [
+     49
+    ],
+    "as": [
+     "炎兔儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泪眼蜥",
+    "ndex": 816,
+    "seg": [
+     48,
+     49
+    ],
+    "as": [
+     "泪眼蜥"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     45
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超级马力欧 奥德赛",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达传说 旷野之息",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Polygon",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     9,
+     11,
+     15,
+     19,
+     21
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     5,
+     6,
+     7,
+     16,
+     17,
+     20
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     8,
+     10,
+     12,
+     18,
+     24,
+     33
+    ]
+   },
+   {
+    "name": "岩田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     43
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     43
+    ],
+    "what": "地区灵感来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《宝可梦 剑·盾》下月成为首款在主机上首发的主系列RPG",
+   "anchor": 1
+  },
+  {
+   "seg": 1,
+   "text": "采访在两周前进行，受访者为增田顺一和大森滋",
+   "anchor": 2
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

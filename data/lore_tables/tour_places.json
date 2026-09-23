@@ -1,0 +1,4791 @@
+{
+ "source": "pokeamice-platform/event/public/tour-places.json",
+ "synced": "2026-09-23",
+ "count": 224,
+ "of_total": 714,
+ "categories": [
+  "default",
+  "ex",
+  "game_freak",
+  "gym",
+  "hiking",
+  "masuda",
+  "museum",
+  "pc",
+  "prototype",
+  "ps",
+  "restaurant",
+  "shop",
+  "venue"
+ ],
+ "places": [
+  {
+   "id": "author",
+   "name": "关于作者",
+   "category": "default",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "上海",
+   "pref": "上海",
+   "tags": [
+    "上海",
+    "绍兴",
+    "作者",
+    "宝可梦狂热爱好者",
+    "宝可梦友会"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "carrot_tower",
+   "name": "胡萝卜塔-Game Freak",
+   "category": "game_freak",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "世田谷",
+    "开发地点",
+    "大森滋",
+    "增田顺一",
+    "打卡"
+   ],
+   "aliases": [
+    "胡萝卜塔",
+    "胡萝卜塔-GameFreak"
+   ]
+  },
+  {
+   "id": "convenience_store_ginza",
+   "name": "7-11便利店-银座",
+   "category": "default",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "银座",
+    "便利店"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "gym_beijing_larvitar",
+   "name": "宝可梦卡牌官方道馆 幼基拉斯",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-01-30",
+   "to": null,
+   "city": "北京",
+   "pref": "北京",
+   "tags": [
+    "官方道馆",
+    "北京",
+    "宝可梦集换式卡牌游戏",
+    "海淀区",
+    "中关村",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆幼基拉斯"
+   ]
+  },
+  {
+   "id": "gym_beijing_nosepass",
+   "name": "宝可梦卡牌官方道馆 北京 朝北鼻",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-09-12",
+   "to": null,
+   "city": "北京",
+   "pref": "北京",
+   "tags": [
+    "官方道馆",
+    "北京",
+    "宝可梦集换式卡牌游戏",
+    "朝阳区",
+    "朝阳大悦城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆北京朝北鼻"
+   ]
+  },
+  {
+   "id": "gym_beijing_onix",
+   "name": "宝可梦卡牌官方道馆 大岩蛇",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-09-10",
+   "to": null,
+   "city": "北京",
+   "pref": "北京",
+   "tags": [
+    "官方道馆",
+    "北京",
+    "宝可梦集换式卡牌游戏",
+    "大兴区",
+    "荟聚中心",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆大岩蛇"
+   ]
+  },
+  {
+   "id": "gym_changsha_scovillain",
+   "name": "宝可梦卡牌官方道馆 狠辣椒",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-12-19",
+   "to": null,
+   "city": "长沙",
+   "pref": "湖南",
+   "tags": [
+    "官方道馆",
+    "长沙",
+    "宝可梦集换式卡牌游戏",
+    "天心区",
+    "国金街",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆狠辣椒"
+   ]
+  },
+  {
+   "id": "gym_chengdu_slakoth",
+   "name": "宝可梦卡牌官方道馆 成都 懒人獭",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-08-29",
+   "to": null,
+   "city": "成都",
+   "pref": "四川",
+   "tags": [
+    "官方道馆",
+    "成都",
+    "宝可梦集换式卡牌游戏",
+    "金牛区",
+    "凯德广场金牛",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆成都懒人獭"
+   ]
+  },
+  {
+   "id": "gym_chengdu_spinda",
+   "name": "宝可梦卡牌官方道馆 成都 晃晃斑",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-05-15",
+   "to": null,
+   "city": "成都",
+   "pref": "四川",
+   "tags": [
+    "官方道馆",
+    "成都",
+    "宝可梦集换式卡牌游戏",
+    "武侯区",
+    "大悦城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆成都晃晃斑"
+   ]
+  },
+  {
+   "id": "gym_chongqing_fletchinder",
+   "name": "宝可梦卡牌官方道馆 火箭雀",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-11-21",
+   "to": null,
+   "city": "重庆",
+   "pref": "重庆",
+   "tags": [
+    "官方道馆",
+    "重庆",
+    "宝可梦集换式卡牌游戏",
+    "渝中区",
+    "大坪",
+    "龙湖时代天街",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆火箭雀"
+   ]
+  },
+  {
+   "id": "gym_chongqing_volcarona",
+   "name": "宝可梦卡牌官方道馆 重庆 火神蛾",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-09-05",
+   "to": null,
+   "city": "重庆",
+   "pref": "重庆",
+   "tags": [
+    "官方道馆",
+    "重庆",
+    "宝可梦集换式卡牌游戏",
+    "渝中区",
+    "朝天门",
+    "来福士",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆重庆火神蛾"
+   ]
+  },
+  {
+   "id": "gym_dalian_shellder",
+   "name": "宝可梦卡牌官方道馆 大连 大舌贝",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-07-11",
+   "to": null,
+   "city": null,
+   "pref": "辽宁",
+   "tags": [
+    "官方道馆",
+    "大连",
+    "宝可梦集换式卡牌游戏",
+    "甘井子区",
+    "华南亿合城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆大连大舌贝"
+   ]
+  },
+  {
+   "id": "gym_dongguan_beldum",
+   "name": "宝可梦卡牌官方道馆 东莞 铁哑铃",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-07-25",
+   "to": null,
+   "city": null,
+   "pref": "广东",
+   "tags": [
+    "官方道馆",
+    "东莞",
+    "宝可梦集换式卡牌游戏",
+    "东城街道",
+    "民盈国贸城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆东莞铁哑铃"
+   ]
+  },
+  {
+   "id": "gym_fuzhou_pomponne",
+   "name": "宝可梦卡牌官方道馆 福州 粉香香",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-04-30",
+   "to": null,
+   "city": "福州",
+   "pref": "福建",
+   "tags": [
+    "官方道馆",
+    "福州",
+    "宝可梦集换式卡牌游戏",
+    "鼓楼区",
+    "大洋地铁商城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆福州粉香香"
+   ]
+  },
+  {
+   "id": "gym_guangzhou_lilligant",
+   "name": "宝可梦卡牌官方道馆 广州 裙儿小姐",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-08-25",
+   "to": null,
+   "city": "广州",
+   "pref": "广东",
+   "tags": [
+    "官方道馆",
+    "广州",
+    "宝可梦集换式卡牌游戏",
+    "天河区",
+    "正佳广场",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆广州裙儿小姐"
+   ]
+  },
+  {
+   "id": "gym_hangzhou_goldeen",
+   "name": "宝可梦卡牌官方道馆 角金鱼",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-07-11",
+   "to": null,
+   "city": "杭州",
+   "pref": "浙江",
+   "tags": [
+    "官方道馆",
+    "杭州",
+    "宝可梦集换式卡牌游戏",
+    "上城区",
+    "工联CC",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆角金鱼"
+   ]
+  },
+  {
+   "id": "gym_hangzhou_swirlix",
+   "name": "宝可梦卡牌官方道馆 杭州 溜溜糖球",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-09-12",
+   "to": null,
+   "city": "杭州",
+   "pref": "浙江",
+   "tags": [
+    "官方道馆",
+    "杭州",
+    "宝可梦集换式卡牌游戏",
+    "拱墅区",
+    "杭州大悦城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆杭州溜溜糖球"
+   ]
+  },
+  {
+   "id": "gym_harbin_articuno",
+   "name": "宝可梦卡牌官方道馆 哈尔滨 急冻鸟",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-08-22",
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "官方道馆",
+    "哈尔滨",
+    "宝可梦集换式卡牌游戏",
+    "南岗区",
+    "西城红场",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆哈尔滨急冻鸟"
+   ]
+  },
+  {
+   "id": "gym_hefei_solrock",
+   "name": "宝可梦卡牌官方道馆 合肥 太阳岩",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-08-29",
+   "to": null,
+   "city": null,
+   "pref": "安徽",
+   "tags": [
+    "官方道馆",
+    "合肥",
+    "宝可梦集换式卡牌游戏",
+    "包河区",
+    "包河万象汇",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆合肥太阳岩"
+   ]
+  },
+  {
+   "id": "gym_nanjing_togekiss",
+   "name": "宝可梦卡牌官方道馆 南京 波克基斯",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-08-22",
+   "to": null,
+   "city": null,
+   "pref": "江苏",
+   "tags": [
+    "官方道馆",
+    "南京",
+    "宝可梦集换式卡牌游戏",
+    "江宁区",
+    "景枫中心",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆南京波克基斯"
+   ]
+  },
+  {
+   "id": "gym_ningbo_yukihiko",
+   "name": "宝可梦卡牌官方道馆 宁波 由克希",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-04-30",
+   "to": null,
+   "city": "宁波",
+   "pref": "浙江",
+   "tags": [
+    "官方道馆",
+    "宁波",
+    "宝可梦集换式卡牌游戏",
+    "鄞州区",
+    "万象汇",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆宁波由克希"
+   ]
+  },
+  {
+   "id": "gym_qingdao_staryu",
+   "name": "宝可梦卡牌官方道馆 青岛 海星星",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-08-02",
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "官方道馆",
+    "青岛",
+    "宝可梦集换式卡牌游戏",
+    "市北区",
+    "凯德MALL新都心",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆青岛海星星"
+   ]
+  },
+  {
+   "id": "gym_shanghai_cramorant",
+   "name": "宝可梦卡牌官方道馆 古月鸟",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2023-12-06",
+   "to": null,
+   "city": "上海",
+   "pref": "上海",
+   "tags": [
+    "官方道馆",
+    "上海",
+    "宝可梦集换式卡牌游戏",
+    "长宁区",
+    "龙之梦",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆古月鸟"
+   ]
+  },
+  {
+   "id": "gym_shanghai_veluza",
+   "name": "宝可梦卡牌官方道馆 轻身鳕",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-10-30",
+   "to": null,
+   "city": "上海",
+   "pref": "上海",
+   "tags": [
+    "官方道馆",
+    "上海",
+    "宝可梦集换式卡牌游戏",
+    "杨浦区",
+    "五角场",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆轻身鳕"
+   ]
+  },
+  {
+   "id": "gym_shanghai_venonat",
+   "name": "宝可梦卡牌官方道馆 上海 蚊香君",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-09-12",
+   "to": null,
+   "city": "上海",
+   "pref": "上海",
+   "tags": [
+    "官方道馆",
+    "上海",
+    "宝可梦集换式卡牌游戏",
+    "嘉定区",
+    "南翔",
+    "印象城MEGA",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆上海蚊香君"
+   ]
+  },
+  {
+   "id": "gym_shenyang_eiscue",
+   "name": "宝可梦卡牌官方道馆 冰砌鹅",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-12-19",
+   "to": null,
+   "city": "沈阳",
+   "pref": "辽宁",
+   "tags": [
+    "官方道馆",
+    "沈阳",
+    "宝可梦集换式卡牌游戏",
+    "铁西区",
+    "万象汇",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆冰砌鹅"
+   ]
+  },
+  {
+   "id": "gym_shenzhen_charjabug",
+   "name": "宝可梦卡牌官方道馆 虫电宝",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2025-12-04",
+   "to": null,
+   "city": "深圳",
+   "pref": "广东",
+   "tags": [
+    "官方道馆",
+    "深圳",
+    "宝可梦集换式卡牌游戏",
+    "龙华区",
+    "壹方天地",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆虫电宝"
+   ]
+  },
+  {
+   "id": "gym_shenzhen_magnemite",
+   "name": "宝可梦卡牌官方道馆 小磁怪",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2024-12-27",
+   "to": null,
+   "city": "深圳",
+   "pref": "广东",
+   "tags": [
+    "官方道馆",
+    "深圳",
+    "宝可梦集换式卡牌游戏",
+    "宝安区",
+    "前海壹方城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆小磁怪"
+   ]
+  },
+  {
+   "id": "gym_tianjin_chatot",
+   "name": "宝可梦卡牌官方道馆 天津 聒噪鸟",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-09-12",
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "官方道馆",
+    "天津",
+    "宝可梦集换式卡牌游戏",
+    "和平区",
+    "天河城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆天津聒噪鸟"
+   ]
+  },
+  {
+   "id": "gym_wenzhou_deerling",
+   "name": "宝可梦卡牌官方道馆 温州 萌芽鹿",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-07-18",
+   "to": null,
+   "city": null,
+   "pref": "浙江",
+   "tags": [
+    "官方道馆",
+    "温州",
+    "宝可梦集换式卡牌游戏",
+    "瓯海区",
+    "温州万象城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆温州萌芽鹿"
+   ]
+  },
+  {
+   "id": "gym_wuhan_bronzor",
+   "name": "宝可梦卡牌官方道馆 武汉 青铜钟",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-04-30",
+   "to": null,
+   "city": "武汉",
+   "pref": "湖北",
+   "tags": [
+    "官方道馆",
+    "武汉",
+    "宝可梦集换式卡牌游戏",
+    "武昌区",
+    "万象城",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆武汉青铜钟"
+   ]
+  },
+  {
+   "id": "gym_wuhan_klink",
+   "name": "宝可梦卡牌官方道馆 武汉 齿轮组",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-07-03",
+   "to": null,
+   "city": "武汉",
+   "pref": "湖北",
+   "tags": [
+    "官方道馆",
+    "武汉",
+    "宝可梦集换式卡牌游戏",
+    "洪山区",
+    "光谷",
+    "世界城广场",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆武汉齿轮组"
+   ]
+  },
+  {
+   "id": "gym_xian_regidrago",
+   "name": "宝可梦卡牌官方道馆 西安 雷吉铎拉戈",
+   "category": "gym",
+   "entity": null,
+   "status": "current",
+   "from": "2026-04-24",
+   "to": null,
+   "city": "西安",
+   "pref": "陕西",
+   "tags": [
+    "官方道馆",
+    "西安",
+    "宝可梦集换式卡牌游戏",
+    "雁塔区",
+    "大明宫万达广场",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦卡牌官方道馆西安雷吉铎拉戈"
+   ]
+  },
+  {
+   "id": "haneda_airport",
+   "name": "羽田机场 宝可梦出张所",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "羽田机场",
+    "出张所",
+    "增田顺一",
+    "打卡"
+   ],
+   "aliases": [
+    "羽田机场宝可梦出张所"
+   ]
+  },
+  {
+   "id": "honda_theatre",
+   "name": "本多剧场-High Town",
+   "category": "prototype",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "下北泽",
+    "Game Freak",
+    "打卡"
+   ],
+   "aliases": [
+    "本多剧场",
+    "本多剧场-HighTown"
+   ]
+  },
+  {
+   "id": "ishitsubute_park_kitakami",
+   "name": "小拳石公园 北上",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2025-04-02",
+   "to": null,
+   "city": null,
+   "pref": "岩手",
+   "tags": [
+    "pokepark",
+    "official",
+    "岩手县",
+    "北上市",
+    "小拳石公园"
+   ],
+   "aliases": [
+    "小拳石公园北上"
+   ]
+  },
+  {
+   "id": "ishitsubute_park_kuji",
+   "name": "小拳石公园 久慈",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2023-04-28",
+   "to": null,
+   "city": null,
+   "pref": "岩手",
+   "tags": [
+    "pokepark",
+    "official",
+    "岩手县",
+    "久慈市",
+    "小拳石公园"
+   ],
+   "aliases": [
+    "小拳石公园久慈"
+   ]
+  },
+  {
+   "id": "kanda_square",
+   "name": "神田广场-Game Freak",
+   "category": "game_freak",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "千代田区",
+    "开发地点",
+    "大森滋",
+    "岩尾和昌",
+    "打卡"
+   ],
+   "aliases": [
+    "神田广场",
+    "神田广场-GameFreak"
+   ]
+  },
+  {
+   "id": "kashiwa_3rd",
+   "name": "Kashiwa 3rd-Game Freak",
+   "category": "game_freak",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "下北泽",
+    "开发地点",
+    "田尻智",
+    "增田顺一",
+    "打卡"
+   ],
+   "aliases": [
+    "Kashiwa 3rd",
+    "Kashiwa3rd",
+    "Kashiwa3rd-GameFreak"
+   ]
+  },
+  {
+   "id": "kasumicho_soba_masudaya",
+   "name": "霞町 蕎麦処 ますだ屋",
+   "category": "masuda",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "六本木",
+    "荞麦面",
+    "增田顺一",
+    "餐厅",
+    "打卡"
+   ],
+   "aliases": [
+    "霞町蕎麦処ますだ屋"
+   ]
+  },
+  {
+   "id": "lapras_park_miyagi",
+   "name": "拉普拉斯公园 宫城",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2025-10-31",
+   "to": null,
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "pokepark",
+    "official",
+    "宫城县",
+    "利府町",
+    "拉普拉斯公园"
+   ],
+   "aliases": [
+    "拉普拉斯公园宫城"
+   ]
+  },
+  {
+   "id": "lucky_park_koriyama",
+   "name": "吉利蛋公园 郡山",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2022-03-28",
+   "to": null,
+   "city": null,
+   "pref": "福岛",
+   "tags": [
+    "pokepark",
+    "official",
+    "福岛县",
+    "郡山市",
+    "吉利蛋公园"
+   ],
+   "aliases": [
+    "吉利蛋公园郡山"
+   ]
+  },
+  {
+   "id": "mijumaru_park_suzuka",
+   "name": "水水獭公园 铃鹿",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2025-07-14",
+   "to": null,
+   "city": null,
+   "pref": "三重",
+   "tags": [
+    "pokepark",
+    "official",
+    "三重县",
+    "铃鹿市",
+    "水水獭公园"
+   ],
+   "aliases": [
+    "水水獭公园铃鹿"
+   ]
+  },
+  {
+   "id": "mijumaru_park_toba",
+   "name": "水水獭公园 鸟羽",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2025-07-14",
+   "to": null,
+   "city": null,
+   "pref": "三重",
+   "tags": [
+    "pokepark",
+    "official",
+    "三重县",
+    "鸟羽市",
+    "水水獭公园"
+   ],
+   "aliases": [
+    "水水獭公园鸟羽"
+   ]
+  },
+  {
+   "id": "mintei",
+   "name": "中国珉亭",
+   "category": "restaurant",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "下北泽",
+    "拉面",
+    "Game Freak",
+    "餐厅",
+    "打卡"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "nagoya_okinawa_shop",
+   "name": "名古屋-冲绳物产店",
+   "category": "default",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "名古屋",
+    "冲绳",
+    "物产店"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "nagoya_science_museum",
+   "name": "名古屋科学馆",
+   "category": "masuda",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "名古屋",
+    "科学馆",
+    "宝可梦研究所",
+    "增田顺一",
+    "打卡"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "nasu_oyaji",
+   "name": "茄子老爹-下北泽咖喱店",
+   "category": "restaurant",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "下北泽",
+    "Game Freak",
+    "玉虹市",
+    "玉虹食堂",
+    "餐厅",
+    "咖喱"
+   ],
+   "aliases": [
+    "茄子老爹"
+   ]
+  },
+  {
+   "id": "pc_fukuoka",
+   "name": "宝可梦中心 福冈",
+   "category": "pc",
+   "entity": "pokemon_center_fukuoka",
+   "status": "current",
+   "from": "2025-06-27",
+   "to": null,
+   "city": "福冈",
+   "pref": "福冈",
+   "tags": [
+    "pc",
+    "official",
+    "福岡県",
+    "九州地区",
+    "福冈",
+    "博多",
+    "丰缘地区",
+    "增田顺一打卡"
+   ],
+   "aliases": [
+    "宝可梦中心福冈"
+   ]
+  },
+  {
+   "id": "pc_fukuoka_canalcity_2003",
+   "name": "宝可梦中心 福冈（キャナルシティ初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_fukuoka",
+   "status": "relocated",
+   "from": "2003-11-01",
+   "to": "2011-02-25",
+   "city": "福冈",
+   "pref": "福冈",
+   "tags": [
+    "pc",
+    "official",
+    "福冈",
+    "博多",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心福冈（キャナルシティ初代店址）"
+   ]
+  },
+  {
+   "id": "pc_fukuoka_jrhakata_2011",
+   "name": "宝可梦中心 福冈（JR博多シティ二代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_fukuoka",
+   "status": "relocated",
+   "from": "2011-03-03",
+   "to": "2025-05-12",
+   "city": "福冈",
+   "pref": "福冈",
+   "tags": [
+    "pc",
+    "official",
+    "福冈",
+    "博多",
+    "历史地点",
+    "二代店址"
+   ],
+   "aliases": [
+    "宝可梦中心福冈（JR博多シティ二代店址）"
+   ]
+  },
+  {
+   "id": "pc_hiroshima",
+   "name": "宝可梦中心 广岛",
+   "category": "pc",
+   "entity": "pokemon_center_hiroshima",
+   "status": "current",
+   "from": "2025-04-11",
+   "to": null,
+   "city": null,
+   "pref": "广岛",
+   "tags": [
+    "pc",
+    "official",
+    "広島県",
+    "広島市",
+    "中国地区",
+    "广岛",
+    "广岛市",
+    "增田顺一打卡"
+   ],
+   "aliases": [
+    "宝可梦中心广岛"
+   ]
+  },
+  {
+   "id": "pc_hiroshima_sogo_2015",
+   "name": "宝可梦中心 广岛（そごう初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_hiroshima",
+   "status": "relocated",
+   "from": "2015-06-26",
+   "to": "2025-03-30",
+   "city": null,
+   "pref": "广岛",
+   "tags": [
+    "pc",
+    "official",
+    "广岛",
+    "纸屋町",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心广岛（そごう初代店址）"
+   ]
+  },
+  {
+   "id": "pc_kagawa",
+   "name": "宝可梦中心 香川",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2025-10-24",
+   "to": null,
+   "city": null,
+   "pref": "香川",
+   "tags": [
+    "pc",
+    "official",
+    "香川県",
+    "高松市",
+    "四国地区",
+    "香川",
+    "增田顺一打卡"
+   ],
+   "aliases": [
+    "宝可梦中心香川"
+   ]
+  },
+  {
+   "id": "pc_kanazawa",
+   "name": "宝可梦中心 金泽",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2020-11-20",
+   "to": null,
+   "city": null,
+   "pref": "石川",
+   "tags": [
+    "pc",
+    "official",
+    "石川県",
+    "金沢市",
+    "北陆地区",
+    "金泽市",
+    "石川县",
+    "石原恒和打卡"
+   ],
+   "aliases": [
+    "宝可梦中心金泽"
+   ]
+  },
+  {
+   "id": "pc_kyoto",
+   "name": "宝可梦中心 京都",
+   "category": "pc",
+   "entity": "pokemon_center_kyoto",
+   "status": "current",
+   "from": "2019-03-16",
+   "to": null,
+   "city": "京都",
+   "pref": "京都",
+   "tags": [
+    "pc",
+    "official",
+    "京都府",
+    "关西地区",
+    "城都地区",
+    "京都",
+    "增田顺一打卡"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "pc_kyoto_takashimaya_2016",
+   "name": "宝可梦中心 京都（髙島屋初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_kyoto",
+   "status": "relocated",
+   "from": "2016-03-16",
+   "to": "2019-02-17",
+   "city": "京都",
+   "pref": "京都",
+   "tags": [
+    "pc",
+    "official",
+    "京都",
+    "四条",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心京都（髙島屋初代店址）"
+   ]
+  },
+  {
+   "id": "pc_mega_tokyo",
+   "name": "宝可梦中心 Mega东京",
+   "category": "pc",
+   "entity": "pokemon_center_tokyo",
+   "status": "current",
+   "from": "2014-12-12",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "东京",
+    "池袋",
+    "MEGA东京"
+   ],
+   "aliases": [
+    "宝可梦中心Mega东京"
+   ]
+  },
+  {
+   "id": "pc_nagoya",
+   "name": "宝可梦中心 名古屋",
+   "category": "pc",
+   "entity": "pokemon_center_nagoya",
+   "status": "current",
+   "from": "2024-10-12",
+   "to": null,
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "pc",
+    "official",
+    "愛知県",
+    "名古屋",
+    "栄",
+    "Parco",
+    "先辈打卡"
+   ],
+   "aliases": [
+    "宝可梦中心名古屋"
+   ]
+  },
+  {
+   "id": "pc_nagoya_matsuzakaya_2013",
+   "name": "宝可梦中心 名古屋（松坂屋二代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_nagoya",
+   "status": "relocated",
+   "from": "2013-03-20",
+   "to": "2024-09-08",
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "pc",
+    "official",
+    "爱知县",
+    "名古屋",
+    "栄",
+    "历史地点",
+    "二代店址"
+   ],
+   "aliases": [
+    "宝可梦中心名古屋（松坂屋二代店址）"
+   ]
+  },
+  {
+   "id": "pc_nagoya_oasis21_2002",
+   "name": "宝可梦中心 名古屋（オアシス21初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_nagoya",
+   "status": "relocated",
+   "from": "2002-10-11",
+   "to": "2013-03-16",
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "pc",
+    "official",
+    "爱知县",
+    "名古屋",
+    "栄",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心名古屋（オアシス21初代店址）"
+   ]
+  },
+  {
+   "id": "pc_new_york_2001",
+   "name": "Pokémon Center New York（纽约洛克菲勒中心）",
+   "category": "pc",
+   "entity": null,
+   "status": "closed",
+   "from": "2001-11-16",
+   "to": "2005-01",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "pc",
+    "official",
+    "美国",
+    "纽约",
+    "历史地点",
+    "海外"
+   ],
+   "aliases": [
+    "PokémonCenterNewYork（纽约洛克菲勒中心）"
+   ]
+  },
+  {
+   "id": "pc_okinawa",
+   "name": "宝可梦中心 冲绳",
+   "category": "pc",
+   "entity": "pokemon_center_okinawa",
+   "status": "current",
+   "from": "2022-08-11",
+   "to": null,
+   "city": null,
+   "pref": "冲绳",
+   "tags": [
+    "pc",
+    "official",
+    "沖縄県"
+   ],
+   "aliases": [
+    "宝可梦中心冲绳"
+   ]
+  },
+  {
+   "id": "pc_osaka",
+   "name": "宝可梦中心 大阪",
+   "category": "pc",
+   "entity": "pokemon_center_osaka",
+   "status": "current",
+   "from": "2010-11-26",
+   "to": null,
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "pc",
+    "official",
+    "大阪府",
+    "关西地区",
+    "城都地区",
+    "大阪市",
+    "梅田",
+    "大森滋打卡"
+   ],
+   "aliases": [
+    "宝可梦中心大阪"
+   ]
+  },
+  {
+   "id": "pc_osaka_dx",
+   "name": "宝可梦中心 大阪DX",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2019-09-20",
+   "to": null,
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "pc",
+    "official",
+    "大阪府",
+    "心斎橋",
+    "关西地区",
+    "城都地区",
+    "大阪市",
+    "心斋桥",
+    "增田顺一打卡"
+   ],
+   "aliases": [
+    "宝可梦中心大阪DX"
+   ]
+  },
+  {
+   "id": "pc_osaka_umeda_center_1998",
+   "name": "宝可梦中心 大阪（梅田センタービル初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_osaka",
+   "status": "relocated",
+   "from": "1998-11-14",
+   "to": "2010-11-23",
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "pc",
+    "official",
+    "大阪",
+    "梅田",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心大阪（梅田センタービル初代店址）"
+   ]
+  },
+  {
+   "id": "pc_sapporo",
+   "name": "宝可梦中心 札幌",
+   "category": "pc",
+   "entity": "pokemon_center_sapporo",
+   "status": "current",
+   "from": "2016-12-01",
+   "to": null,
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "pc",
+    "official",
+    "札幌",
+    "北海道"
+   ],
+   "aliases": [
+    "宝可梦中心札幌"
+   ]
+  },
+  {
+   "id": "pc_sapporo_ana_hotel_2002",
+   "name": "宝可梦中心 札幌（全日空ホテル季节限定店）",
+   "category": "pc",
+   "entity": "pokemon_center_sapporo",
+   "status": "historical",
+   "from": "2002",
+   "to": "2006",
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "pc",
+    "official",
+    "北海道",
+    "札幌",
+    "历史地点",
+    "期间限定"
+   ],
+   "aliases": [
+    "宝可梦中心札幌（全日空ホテル季节限定店）"
+   ]
+  },
+  {
+   "id": "pc_sapporo_esta_2009",
+   "name": "宝可梦中心 札幌（エスタ初代常设店址）",
+   "category": "pc",
+   "entity": "pokemon_center_sapporo",
+   "status": "relocated",
+   "from": "2009-03-06",
+   "to": "2016-11-27",
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "pc",
+    "official",
+    "北海道",
+    "札幌",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心札幌（エスタ初代常设店址）"
+   ]
+  },
+  {
+   "id": "pc_shibuya",
+   "name": "宝可梦中心 涩谷",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2019-11-22",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "渋谷区",
+    "东京",
+    "涉谷",
+    "先辈打卡"
+   ],
+   "aliases": [
+    "宝可梦中心涩谷"
+   ]
+  },
+  {
+   "id": "pc_singapore",
+   "name": "宝可梦中心 新加坡",
+   "category": "pc",
+   "entity": "pokemon_center_singapore",
+   "status": "current",
+   "from": "2019-04-11",
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "新加坡",
+    "樟宜机场",
+    "星耀樟宜",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦中心新加坡"
+   ]
+  },
+  {
+   "id": "pc_skytree_town",
+   "name": "宝可梦中心 晴空塔",
+   "category": "pc",
+   "entity": "pokemon_center_skytree_town",
+   "status": "current",
+   "from": "2017-01-01",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "墨田区",
+    "晴空塔"
+   ],
+   "aliases": [
+    "宝可梦中心晴空塔"
+   ]
+  },
+  {
+   "id": "pc_skytree_town_5f_2016",
+   "name": "宝可梦中心 晴空塔（ソラマチ 5F 初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_skytree_town",
+   "status": "relocated",
+   "from": "2016-07-06",
+   "to": "2016-12-25",
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "押上",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心晴空塔（ソラマチ5F初代店址）"
+   ]
+  },
+  {
+   "id": "pc_taipei",
+   "name": "宝可梦中心 台北",
+   "category": "pc",
+   "entity": "pokemon_center_taipei",
+   "status": "current",
+   "from": "2023-12-08",
+   "to": null,
+   "city": "台北",
+   "pref": "台湾",
+   "tags": [
+    "台北",
+    "信义",
+    "新光三越",
+    "official"
+   ],
+   "aliases": [
+    "宝可梦中心台北"
+   ]
+  },
+  {
+   "id": "pc_tohoku",
+   "name": "宝可梦中心 东北",
+   "category": "pc",
+   "entity": "pokemon_center_tohoku",
+   "status": "current",
+   "from": "2025-03-14",
+   "to": null,
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "pc",
+    "official",
+    "宮城県",
+    "仙台市",
+    "东北地区",
+    "北上乡",
+    "宫城县",
+    "仙台"
+   ],
+   "aliases": [
+    "宝可梦中心东北"
+   ]
+  },
+  {
+   "id": "pc_tohoku_aer_2011",
+   "name": "宝可梦中心 东北（AER 初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_tohoku",
+   "status": "relocated",
+   "from": "2011-12-04",
+   "to": "2017-06-18",
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "pc",
+    "official",
+    "宫城",
+    "仙台",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心东北（AER初代店址）"
+   ]
+  },
+  {
+   "id": "pc_tohoku_parco8f_2017",
+   "name": "宝可梦中心 东北（仙台PARCO 8F 二代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_tohoku",
+   "status": "relocated",
+   "from": "2017-06-30",
+   "to": "2025-02-16",
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "pc",
+    "official",
+    "宫城",
+    "仙台",
+    "历史地点",
+    "二代店址"
+   ],
+   "aliases": [
+    "宝可梦中心东北（仙台PARCO8F二代店址）"
+   ]
+  },
+  {
+   "id": "pc_tokyo_bay",
+   "name": "宝可梦中心 东京湾",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2013-11-22",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "千葉県",
+    "船橋市"
+   ],
+   "aliases": [
+    "宝可梦中心东京湾"
+   ]
+  },
+  {
+   "id": "pc_tokyo_dx",
+   "name": "宝可梦中心 东京DX",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2018-03-14",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "日本橋",
+    "中央区",
+    "东京",
+    "日本桥",
+    "高岛屋"
+   ],
+   "aliases": [
+    "宝可梦中心东京DX"
+   ]
+  },
+  {
+   "id": "pc_tokyo_hamamatsucho_2007",
+   "name": "宝可梦中心 东京（浜松町二代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_tokyo",
+   "status": "relocated",
+   "from": "2007-07-20",
+   "to": "2014-12-07",
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "浜松町",
+    "历史地点",
+    "二代店址"
+   ],
+   "aliases": [
+    "宝可梦中心东京（浜松町二代店址）"
+   ]
+  },
+  {
+   "id": "pc_tokyo_nihonbashi_1998",
+   "name": "宝可梦中心 东京（日本桥初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_tokyo",
+   "status": "relocated",
+   "from": "1998-04-25",
+   "to": "2007-07-16",
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pc",
+    "official",
+    "東京都",
+    "日本桥",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心东京（日本桥初代店址）"
+   ]
+  },
+  {
+   "id": "pc_yokohama",
+   "name": "宝可梦中心 横滨",
+   "category": "pc",
+   "entity": "pokemon_center_yokohama",
+   "status": "current",
+   "from": "2018-11-09",
+   "to": null,
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "pc",
+    "official",
+    "神奈川県",
+    "横浜市",
+    "关东地区",
+    "神奈川县",
+    "横滨市"
+   ],
+   "aliases": [
+    "宝可梦中心横滨"
+   ]
+  },
+  {
+   "id": "pc_yokohama_landmark_2005",
+   "name": "宝可梦中心 横滨（ランドマークプラザ初代店址）",
+   "category": "pc",
+   "entity": "pokemon_center_yokohama",
+   "status": "relocated",
+   "from": "2005-03-05",
+   "to": "2018-10-28",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "pc",
+    "official",
+    "神奈川",
+    "横滨",
+    "港未来",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦中心横滨（ランドマークプラザ初代店址）"
+   ]
+  },
+  {
+   "id": "pc_yokohama_sattelite",
+   "name": "宝可梦中心 横滨卫星店",
+   "category": "pc",
+   "entity": null,
+   "status": "current",
+   "from": "2026-04-09",
+   "to": null,
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "pc",
+    "official",
+    "神奈川県",
+    "横浜市",
+    "横滨站"
+   ],
+   "aliases": [
+    "宝可梦中心横滨卫星店"
+   ]
+  },
+  {
+   "id": "pcafe_osaka",
+   "name": "宝可梦咖啡厅 大阪·心斋桥",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2019-09-20",
+   "to": null,
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "pokemon_cafe",
+    "official",
+    "大阪府"
+   ],
+   "aliases": [
+    "宝可梦咖啡厅大阪心斋桥"
+   ]
+  },
+  {
+   "id": "pcafe_pikachu_sweets",
+   "name": "皮卡丘甜点店",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2019-12-19",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pokemon_cafe",
+    "official",
+    "東京都",
+    "池袋"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "pcafe_tokyo",
+   "name": "宝可梦咖啡厅 东京·日本桥",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2018-03-14",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pokemon_cafe",
+    "official",
+    "東京都",
+    "中央区",
+    "日本桥"
+   ],
+   "aliases": [
+    "宝可梦咖啡厅东京日本桥"
+   ]
+  },
+  {
+   "id": "pokepark_kanto",
+   "name": "宝可梦乐园 关都",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2026-02-05",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pokepark",
+    "official",
+    "东京都",
+    "稻城市",
+    "读卖乐园"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "pokepark_nagoya_2005",
+   "name": "Pokémon The Park 2005（ポケパーク 名古屋）",
+   "category": "hiking",
+   "entity": null,
+   "status": "historical",
+   "from": "2005-03-18",
+   "to": "2005-09-25",
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "pokepark",
+    "official",
+    "爱知县",
+    "名古屋",
+    "历史地点",
+    "期间限定"
+   ],
+   "aliases": [
+    "PokémonThePark2005（ポケパーク名古屋）"
+   ]
+  },
+  {
+   "id": "ps_aeon_okayama_2016",
+   "name": "宝可梦商店 イオンモール岡山店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2016-12-16",
+   "to": "2021-08-31",
+   "city": null,
+   "pref": "冈山",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "冈山",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店イオンモール岡山店"
+   ]
+  },
+  {
+   "id": "ps_aeon_tokoname_2015",
+   "name": "宝可梦商店 イオンモール常滑店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2015-12-04",
+   "to": "2017-01-31",
+   "city": null,
+   "pref": "爱知",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "爱知",
+    "常滑",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店イオンモール常滑店"
+   ]
+  },
+  {
+   "id": "ps_amu_kagoshima_2014",
+   "name": "宝可梦商店 アミュプラザ鹿児島店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2014-08-01",
+   "to": "2021-07-11",
+   "city": null,
+   "pref": "鹿儿岛",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "鹿儿岛",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店アミュプラザ鹿児島店"
+   ]
+  },
+  {
+   "id": "ps_amu_oita_2015",
+   "name": "宝可梦商店 アミュプラザおおいた店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2015-04-16",
+   "to": "2021-08-31",
+   "city": null,
+   "pref": "大分",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "大分",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店アミュプラザおおいた店"
+   ]
+  },
+  {
+   "id": "ps_centrair_2016",
+   "name": "宝可梦商店 中部国际机场店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2016-08-10",
+   "to": "2021-05-09",
+   "city": null,
+   "pref": "爱知",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "爱知",
+    "机场",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店中部国际机场店"
+   ]
+  },
+  {
+   "id": "ps_emifull_masaki_2017",
+   "name": "宝可梦商店 エミフルMASAKI店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2017-09-22",
+   "to": "2025-08-17",
+   "city": null,
+   "pref": "爱媛",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "爱媛",
+    "松前",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店エミフルMASAKI店"
+   ]
+  },
+  {
+   "id": "ps_gotemba",
+   "name": "宝可梦商店 御殿场",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2015-08-29",
+   "to": null,
+   "city": null,
+   "pref": "静冈",
+   "tags": [
+    "pokemon_store",
+    "official",
+    "静岡県",
+    "御殿场"
+   ],
+   "aliases": [
+    "宝可梦商店御殿场"
+   ]
+  },
+  {
+   "id": "ps_itami_airport_2018",
+   "name": "宝可梦商店 伊丹机场店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2018-04-18",
+   "to": "2021-07-11",
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "大阪",
+    "机场",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店伊丹机场店"
+   ]
+  },
+  {
+   "id": "ps_kansai_airport_2014",
+   "name": "宝可梦商店 关西机场店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2014-06-26",
+   "to": "2021-08-27",
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "大阪",
+    "机场",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店关西机场店"
+   ]
+  },
+  {
+   "id": "ps_kisarazu",
+   "name": "宝可梦商店 木更津奥特莱斯",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2020-06-01",
+   "to": null,
+   "city": null,
+   "pref": "千叶",
+   "tags": [
+    "pokemon_store",
+    "official",
+    "千葉県",
+    "木更津市"
+   ],
+   "aliases": [
+    "宝可梦商店木更津奥特莱斯"
+   ]
+  },
+  {
+   "id": "ps_narita_airport",
+   "name": "宝可梦商店 成田机场",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2015-04-29",
+   "to": null,
+   "city": null,
+   "pref": "千叶",
+   "tags": [
+    "pokemon_store",
+    "official",
+    "千葉県",
+    "成田市",
+    "成田机场"
+   ],
+   "aliases": [
+    "宝可梦商店成田机场"
+   ]
+  },
+  {
+   "id": "ps_new_chitose_airport",
+   "name": "宝可梦商店 新千岁机场",
+   "category": "ps",
+   "entity": null,
+   "status": "current",
+   "from": "2014-07-10",
+   "to": null,
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "pokemon_store",
+    "official",
+    "北海道",
+    "千岁市",
+    "新千岁机场"
+   ],
+   "aliases": [
+    "宝可梦商店新千岁机场"
+   ]
+  },
+  {
+   "id": "ps_okinawa_kokusaidori_2015",
+   "name": "宝可梦商店 冲绳国际通店",
+   "category": "ps",
+   "entity": null,
+   "status": "relocated",
+   "from": "2015-03-12",
+   "to": "2017-06-11",
+   "city": null,
+   "pref": "冲绳",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "冲绳",
+    "那霸",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店冲绳国际通店"
+   ]
+  },
+  {
+   "id": "ps_okinawa_rycom_2017",
+   "name": "宝可梦商店 イオンモール沖縄ライカム店（冲绳店前身）",
+   "category": "ps",
+   "entity": "pokemon_center_okinawa",
+   "status": "relocated",
+   "from": "2017-07-15",
+   "to": "2022-07-24",
+   "city": null,
+   "pref": "冲绳",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "冲绳",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦商店イオンモール沖縄ライカム店（冲绳店前身）"
+   ]
+  },
+  {
+   "id": "ps_outlet_oyabe_2015",
+   "name": "宝可梦商店 アウトレット小矢部店",
+   "category": "ps",
+   "entity": null,
+   "status": "closed",
+   "from": "2015-07-17",
+   "to": "2020-03-01",
+   "city": null,
+   "pref": "富山",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "富山",
+    "小矢部",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店アウトレット小矢部店"
+   ]
+  },
+  {
+   "id": "ps_ryubo_2017",
+   "name": "宝可梦商店 デパートリウボウ店",
+   "category": "ps",
+   "entity": null,
+   "status": "relocated",
+   "from": "2017-06-17",
+   "to": "2021-05-09",
+   "city": null,
+   "pref": "冲绳",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "冲绳",
+    "那霸",
+    "历史地点"
+   ],
+   "aliases": [
+    "宝可梦商店デパートリウボウ店"
+   ]
+  },
+  {
+   "id": "ps_tokyo_station",
+   "name": "宝可梦商店 东京站",
+   "category": "ps",
+   "entity": "pokemon_store_tokyo_station",
+   "status": "current",
+   "from": "2024-07-10",
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "pokemon_store",
+    "official",
+    "東京都",
+    "千代田区",
+    "东京站"
+   ],
+   "aliases": [
+    "宝可梦商店东京站"
+   ]
+  },
+  {
+   "id": "ps_tokyo_station_b1f_2013",
+   "name": "宝可梦商店 东京站（B1F 初代店址）",
+   "category": "ps",
+   "entity": "pokemon_store_tokyo_station",
+   "status": "relocated",
+   "from": "2013-12-09",
+   "to": "2024-06-23",
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "ps",
+    "pokemon_store",
+    "official",
+    "東京都",
+    "东京站",
+    "历史地点",
+    "初代店址"
+   ],
+   "aliases": [
+    "宝可梦商店东京站（B1F初代店址）"
+   ]
+  },
+  {
+   "id": "sandshrew_park_tottori",
+   "name": "穿山鼠公园 鸟取",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2023-05-05",
+   "to": null,
+   "city": null,
+   "pref": "鸟取",
+   "tags": [
+    "pokepark",
+    "official",
+    "鸟取县",
+    "鸟取市",
+    "穿山鼠公园"
+   ],
+   "aliases": [
+    "穿山鼠公园鸟取"
+   ]
+  },
+  {
+   "id": "serigaya_park",
+   "name": "芹ヶ谷公园",
+   "category": "prototype",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "町田",
+    "田尻智",
+    "真新镇",
+    "常青森林",
+    "井盖",
+    "公园"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "suzuki_building_2nd",
+   "name": "第2鈴木ビル",
+   "category": "game_freak",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "下北泽",
+    "开发地点",
+    "田尻智",
+    "打卡"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "tonatsu",
+   "name": "都夏 下北泽本店",
+   "category": "restaurant",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "东京",
+    "下北泽",
+    "日本料理",
+    "Game Freak",
+    "餐厅",
+    "打卡"
+   ],
+   "aliases": [
+    "都夏下北泽本店"
+   ]
+  },
+  {
+   "id": "venue_01d0fd4980",
+   "name": "三重县总合博物馆（MieMu）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2026-01-17",
+   "to": "2026-04-05",
+   "city": null,
+   "pref": "三重",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "三重県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_02f8c62da8",
+   "name": "阪急うめだ本店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_03c926d862",
+   "name": "夏威夷会议中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-08-16",
+   "to": "2024-08-18",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_07ab287ee3",
+   "name": "苏州国际博览中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-03-03",
+   "to": "2025-10-19",
+   "city": null,
+   "pref": "江苏",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "宝可梦大师赛",
+    "超级赛",
+    "大师赛",
+    "苏州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_08654c4d0a",
+   "name": "广交会展馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-04-05",
+   "to": "2024-04-06",
+   "city": "广州",
+   "pref": "广东",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "广州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_08c6022e59",
+   "name": "仙台七北田公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-05-30",
+   "to": "2024-06-02",
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "宮城県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_08e057f5f5",
+   "name": "岩手县立博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-12-19",
+   "to": "2024-03-03",
+   "city": null,
+   "pref": "岩手",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "岩手県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_0a0cfd702c",
+   "name": "MOA美术馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-07-06",
+   "to": "2024-09-09",
+   "city": null,
+   "pref": "静冈",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "静岡県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_0f47d725ac",
+   "name": "纽约兰德尔岛公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-08-18",
+   "to": "2024-07-07",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_1266aa718c",
+   "name": "丰桥市自然史博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "temporary",
+   "from": "2022-07-16",
+   "to": "2026-12-06",
+   "city": null,
+   "pref": "爱知",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "宝可梦天文台",
+    "愛知県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_1577f03d8a",
+   "name": "万博纪念公园（大阪）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-08-04",
+   "to": "2023-08-06",
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "大阪府",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_182c6a9760",
+   "name": "佐川美术馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-03-30",
+   "to": "2024-06-09",
+   "city": null,
+   "pref": "滋贺",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "滋賀県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_193c170704",
+   "name": "岐阜县博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-07-19",
+   "to": "2024-10-27",
+   "city": null,
+   "pref": "岐阜",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "岐阜県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_1bcac5ec00",
+   "name": "麻布台Hills画廊",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-11-01",
+   "to": "2025-02-02",
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "東京都",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_20b5b6958a",
+   "name": "Grand Mall 公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2019-08-06",
+   "to": "2019-08-12",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": [
+    "GrandMall公园"
+   ]
+  },
+  {
+   "id": "venue_213163c9ca",
+   "name": "御船町恐龙博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-03-20",
+   "to": "2024-06-23",
+   "city": null,
+   "pref": "熊本",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "熊本県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_22a2d60d7e",
+   "name": "三笠市立博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2021-07-04",
+   "to": "2021-09-20",
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "北海道",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_251ea89c8d",
+   "name": "马德里胡安·卡洛斯一世公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-06-14",
+   "to": "2024-06-16",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "西班牙"
+   ],
+   "aliases": [
+    "马德里胡安卡洛斯一世公园"
+   ]
+  },
+  {
+   "id": "venue_2abfa44ce4",
+   "name": "东北历史博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "temporary",
+   "from": "2026-10-10",
+   "to": "2026-12-27",
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "宮城県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_2cb8929f7c",
+   "name": "长崎市恐龙博物馆（Benex恐龙博物馆）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-06-07",
+   "to": "2025-09-21",
+   "city": null,
+   "pref": "长崎",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "長崎県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_2da38a90c6",
+   "name": "新潟县立自然科学馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-03-04",
+   "to": "2023-06-25",
+   "city": null,
+   "pref": "新潟",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "新潟県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_2f4c547a9e",
+   "name": "角田田园大厅（角田市市民中心）",
+   "category": "ex",
+   "entity": null,
+   "status": "current",
+   "from": "2026-07-05",
+   "to": null,
+   "city": null,
+   "pref": "宫城",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦天文台",
+    "宮城県",
+    "日本",
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_355801b347",
+   "name": "梅小路公園",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "京都",
+   "pref": "京都",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_373445df64",
+   "name": "波士顿海因斯会议中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2015-08-21",
+   "to": "2015-08-23",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_3ac2ff8ddb",
+   "name": "华盛顿会议中心（Walter E. Washington Convention Center）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2014-08-15",
+   "to": "2019-08-19",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": [
+    "华盛顿会议中心（WalterE.WashingtonConventionCenter）"
+   ]
+  },
+  {
+   "id": "venue_3ba2a7410a",
+   "name": "福州海峡国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-03-16",
+   "to": "2025-03-16",
+   "city": "福州",
+   "pref": "福建",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "福州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_3d21366bb4",
+   "name": "圣迭戈 Town and Country 度假村",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2005-08-19",
+   "to": "2005-08-21",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_3e692190eb",
+   "name": "西安临空会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "current",
+   "from": "2026-05-31",
+   "to": null,
+   "city": "西安",
+   "pref": "陕西",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "西安市",
+    "中国",
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_3f43ff63d4",
+   "name": "防府市青少年科学馆 Solar",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-11-09",
+   "to": "2025-02-24",
+   "city": null,
+   "pref": "山口",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "山口県",
+    "日本"
+   ],
+   "aliases": [
+    "防府市青少年科学馆Solar"
+   ]
+  },
+  {
+   "id": "venue_40043d28ed",
+   "name": "丸由百貨店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": "鸟取",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_417b336ba2",
+   "name": "横滨国际平和会议场（PACIFICO横滨）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2014-08-08",
+   "to": "2023-08-13",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "皮卡丘大量发生",
+    "WCS",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_42f3a1ca84",
+   "name": "皇后广场横滨",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2015-08-08",
+   "to": "2019-08-12",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_4585295310",
+   "name": "旧金山莫斯康尼中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2026-08-28",
+   "to": "2026-08-30",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_4597a1e988",
+   "name": "福井县立恐龙博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-03-08",
+   "to": "2025-05-25",
+   "city": null,
+   "pref": "福井",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "福井県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_45a7df7bd6",
+   "name": "中国国际展览中心（朝阳馆）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-06-23",
+   "to": "2023-06-24",
+   "city": "北京",
+   "pref": "北京",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "北京市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_486c57705b",
+   "name": "重庆城投国际会议展览中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-02-16",
+   "to": "2025-02-16",
+   "city": "重庆",
+   "pref": "重庆",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "重庆市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_492ec1b676",
+   "name": "中国国际展览中心（顺义馆）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-07-13",
+   "to": "2025-09-21",
+   "city": "北京",
+   "pref": "北京",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "北京市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_4b3d0065c5",
+   "name": "临港公园（横滨）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2016-08-07",
+   "to": "2019-08-18",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_4e0fb884cd",
+   "name": "成都世纪城新国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-01-14",
+   "to": "2024-01-14",
+   "city": "成都",
+   "pref": "四川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_578fdedb3f",
+   "name": "大连世界博览广场",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-05-19",
+   "to": "2024-05-19",
+   "city": null,
+   "pref": "辽宁",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "大连市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_620ccff15d",
+   "name": "西雅图中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2022-07-22",
+   "to": "2022-07-24",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_63f18e9ef6",
+   "name": "山下公园（横滨）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2019-08-06",
+   "to": "2019-08-18",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_6424207284",
+   "name": "岛根县立三瓶自然馆サヒメル",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2021-10-09",
+   "to": "2022-01-30",
+   "city": null,
+   "pref": "岛根",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "島根県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_65305ed2dd",
+   "name": "阿纳海姆（2006 年会场待考）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2006-08-18",
+   "to": "2006-08-20",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": [
+    "阿纳海姆（2006年会场待考）"
+   ]
+  },
+  {
+   "id": "venue_6a59c1929b",
+   "name": "柏林布里茨花园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2022-07-01",
+   "to": "2022-07-03",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "德国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_70f1b659bf",
+   "name": "杭州国际博览中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-07-26",
+   "to": "2025-07-27",
+   "city": "杭州",
+   "pref": "浙江",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "杭州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_725e7de19d",
+   "name": "宝可梦中心 新加坡店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": [
+    "宝可梦中心新加坡店"
+   ]
+  },
+  {
+   "id": "venue_78d6b15791",
+   "name": "横滨地标塔·Landmark Plaza",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2014-08-08",
+   "to": "2018-08-16",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": [
+    "横滨地标塔LandmarkPlaza"
+   ]
+  },
+  {
+   "id": "venue_7b8b1e88a1",
+   "name": "七条甘春堂",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_7f4c9305d1",
+   "name": "芝加哥格兰特公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2017-07-22",
+   "to": "2019-06-16",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_8029dfaacb",
+   "name": "沈阳新世界博览馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-08-27",
+   "to": "2025-11-09",
+   "city": "沈阳",
+   "pref": "辽宁",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "沈阳市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_80fef670b5",
+   "name": "天津梅江会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-11-26",
+   "to": "2023-11-26",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "天津市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_8310d037e3",
+   "name": "パルクアベニュー・カワトク",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": "岩手",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": [
+    "パルクアベニューカワトク"
+   ]
+  },
+  {
+   "id": "venue_88936b0999",
+   "name": "松菱百货店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": "三重",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_88f4c78efc",
+   "name": "德岛县立博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-10-04",
+   "to": "2025-12-28",
+   "city": null,
+   "pref": "德岛",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "徳島県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_8a699efe60",
+   "name": "深圳会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-12-21",
+   "to": "2025-12-07",
+   "city": "深圳",
+   "pref": "广东",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "深圳市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_8b479ece25",
+   "name": "八户市美术馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-06-28",
+   "to": "2025-08-31",
+   "city": null,
+   "pref": "青森",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "青森県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_8d6827f6b0",
+   "name": "新加坡博览中心（Singapore EXPO）",
+   "category": "ex",
+   "entity": null,
+   "status": "temporary",
+   "from": "2027-08-13",
+   "to": "2027-08-15",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "新加坡"
+   ],
+   "aliases": [
+    "新加坡博览中心（SingaporeEXPO）"
+   ]
+  },
+  {
+   "id": "venue_8ec43839a0",
+   "name": "北海道立近代美术馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2026-04-25",
+   "to": "2026-06-21",
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "北海道",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_90f32d442e",
+   "name": "アクアシティお台場",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_963c25f4e7",
+   "name": "相模原市立博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-11-01",
+   "to": "2026-01-12",
+   "city": null,
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦天文台",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_97318f6103",
+   "name": "长崎县厅",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": "长崎",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_981ef2afa7",
+   "name": "合肥滨湖国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-09-08",
+   "to": "2024-09-08",
+   "city": null,
+   "pref": "安徽",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "合肥市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_a0aa6fbe50",
+   "name": "西安国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-10-15",
+   "to": "2023-10-15",
+   "city": "西安",
+   "pref": "陕西",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "西安市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_a0c6cc5103",
+   "name": "JAPAN HOUSE 洛杉矶",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-07-25",
+   "to": "2024-01-07",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "美国"
+   ],
+   "aliases": [
+    "JAPANHOUSE洛杉矶"
+   ]
+  },
+  {
+   "id": "venue_aa3c2a757e",
+   "name": "群马县立自然史博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-07-15",
+   "to": "2023-09-18",
+   "city": null,
+   "pref": "群马",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "群馬県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_aa7a714829",
+   "name": "悉尼大学 Wentworth Building",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2000-09-12",
+   "to": "2000-10-03",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可公园",
+    "澳大利亚"
+   ],
+   "aliases": [
+    "悉尼大学WentworthBuilding"
+   ]
+  },
+  {
+   "id": "venue_ab51f71936",
+   "name": "日本丸纪念公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2018-08-10",
+   "to": "2019-08-12",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ae8152879d",
+   "name": "希尔顿威可洛亚村",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2007-08-10",
+   "to": "2012-08-12",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_aeonmall",
+   "name": "AEON MALL盛冈",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": [
+    "AEONMALL盛冈"
+   ]
+  },
+  {
+   "id": "venue_b17647983b",
+   "name": "横滨 Cosmo World",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2014-08-08",
+   "to": "2018-08-16",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": [
+    "横滨CosmoWorld"
+   ]
+  },
+  {
+   "id": "venue_b1a1d77293",
+   "name": "大分县立美术馆（OPAM）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2022-12",
+   "to": "2023-02",
+   "city": null,
+   "pref": "大分",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "大分県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_b4d739e9ee",
+   "name": "甲骨文球场",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_b59d8f46ed",
+   "name": "新港中央广场",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2018-08-10",
+   "to": "2018-08-16",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_b6124ef385",
+   "name": "济南黄河国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-11-25",
+   "to": "2024-11-25",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "济南市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_b6d9eb9e62",
+   "name": "纳什维尔音乐城会议中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2018-08-21",
+   "to": "2018-08-23",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_b6db9be95f",
+   "name": "札幌市（GO Fest 2022）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2022-08-05",
+   "to": "2022-08-07",
+   "city": null,
+   "pref": "北海道",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "北海道",
+    "日本"
+   ],
+   "aliases": [
+    "札幌市（GOFest2022）"
+   ]
+  },
+  {
+   "id": "venue_b6eee71c24",
+   "name": "县信郡山文化中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2026-04-11",
+   "to": "2026-06-14",
+   "city": null,
+   "pref": "福岛",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦天文台",
+    "福島県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_b772f84939",
+   "name": "旧金山万豪侯爵酒店",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2016-08-19",
+   "to": "2016-08-21",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_bce11e8cc1",
+   "name": "青岛国信体育馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-04-30",
+   "to": "2023-04-30",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "青岛市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_bdc2650746",
+   "name": "松坂屋美术馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-04-26",
+   "to": "2025-06-15",
+   "city": "名古屋",
+   "pref": "爱知",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "愛知県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_c0880eb669",
+   "name": "深圳国际会展中心（宝安）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-09-16",
+   "to": "2023-09-17",
+   "city": "深圳",
+   "pref": "广东",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "深圳市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_c9ee1b9334",
+   "name": "国家会展中心（上海）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-12-16",
+   "to": "2023-12-17",
+   "city": "上海",
+   "pref": "上海",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "上海市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ccd03c2dc3",
+   "name": "横滨红砖仓库",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2014-08-08",
+   "to": "2019-08-18",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_cd8fa3f104",
+   "name": "武汉国际博览中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-05-28",
+   "to": "2025-05-18",
+   "city": "武汉",
+   "pref": "湖北",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "武汉市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_cfe01e3081",
+   "name": "宁波国际会议中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2026-08-02",
+   "to": "2026-08-02",
+   "city": "宁波",
+   "pref": "浙江",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "宁波市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_d2759efa6a",
+   "name": "圣迭戈海湾希尔顿酒店",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2009-08-13",
+   "to": "2011-08-14",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_d380eb6036",
+   "name": "多特蒙德威斯特法伦公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2019-07-04",
+   "to": "2019-07-07",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "德国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_d3c4ddc3ff",
+   "name": "樱木町站前广场",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2018-08-10",
+   "to": "2019-08-12",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_d55e991ea7",
+   "name": "郑州国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-06-08",
+   "to": "2025-06-08",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "郑州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_da504d4587",
+   "name": "广岛县立美术馆",
+   "category": "ex",
+   "entity": null,
+   "status": "temporary",
+   "from": "2026-07-10",
+   "to": "2026-09-23",
+   "city": null,
+   "pref": "广岛",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "広島県",
+    "日本",
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_df2ffc2dd4",
+   "name": "厦门国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-07-30",
+   "to": "2023-07-30",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "厦门市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e0ce6f6274",
+   "name": "芝加哥林肯公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2018-07-14",
+   "to": "2018-07-15",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e0f1f0560d",
+   "name": "奥兰多布埃纳维斯塔湖希尔顿酒店",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2004-08-20",
+   "to": "2008-08-17",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e4890d3a21",
+   "name": "阿纳海姆会议中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2017-08-15",
+   "to": "2025-08-17",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "美国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e4c4b44e10",
+   "name": "横滨 World Porters",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2018-08-10",
+   "to": "2018-08-16",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": [
+    "横滨WorldPorters"
+   ]
+  },
+  {
+   "id": "venue_e6311e29fc",
+   "name": "温哥华会议中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2013-08-10",
+   "to": "2013-08-12",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦世界锦标赛",
+    "WCS",
+    "加拿大"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e6fac838d4",
+   "name": "伦敦布罗克韦尔公园",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-08-04",
+   "to": "2023-08-06",
+   "city": null,
+   "pref": null,
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "Pokémon GO Fest",
+    "英国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e7761533cd",
+   "name": "东京格兰德凯悦酒店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_e96d6a2e16",
+   "name": "湖南国际会展中心",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2024-06-09",
+   "to": "2024-06-09",
+   "city": "长沙",
+   "pref": "湖南",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦卡牌超级赛",
+    "超级赛",
+    "长沙市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ea32e0a339",
+   "name": "国立工艺馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-03-21",
+   "to": "2023-06-11",
+   "city": null,
+   "pref": "石川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "石川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_eb59bbe75b",
+   "name": "长崎历史文化博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-09-12",
+   "to": "2025-12-07",
+   "city": null,
+   "pref": "长崎",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦×工艺展",
+    "長崎県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ec1e983706",
+   "name": "广州灵感创新展馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2023-03-25",
+   "to": "2023-03-26",
+   "city": "广州",
+   "pref": "广东",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "广州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ec8a2ce696",
+   "name": "保利世贸博览馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2025-04-05",
+   "to": "2025-04-06",
+   "city": "广州",
+   "pref": "广东",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦大师赛",
+    "大师赛",
+    "广州市",
+    "中国"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ecb970d9e7",
+   "name": "穴水町物产馆「四季彩彩」（道之驿あなみず）",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_ed45f4c724",
+   "name": "国立科学博物馆",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2022-03-15",
+   "to": "2022-06-19",
+   "city": "东京",
+   "pref": "东京",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可梦化石博物馆",
+    "東京都",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_f7b437c515",
+   "name": "神奇宝贝乐园（台北 PokéPark 2006）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2006-06-23",
+   "to": "2006-09-24",
+   "city": "台北",
+   "pref": "台湾",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "宝可公园",
+    "台湾"
+   ],
+   "aliases": [
+    "神奇宝贝乐园（台北PokéPark2006）"
+   ]
+  },
+  {
+   "id": "venue_fcdc891e32",
+   "name": "日本大道（横滨）",
+   "category": "ex",
+   "entity": null,
+   "status": "historical",
+   "from": "2017-08-09",
+   "to": "2017-08-15",
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_kiddyland",
+   "name": "KIDDY LAND大阪梅田店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": "大阪",
+   "pref": "大阪",
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": [
+    "KIDDYLAND大阪梅田店"
+   ]
+  },
+  {
+   "id": "venue_markis",
+   "name": "MARK IS みなとみらい",
+   "category": "ex",
+   "entity": null,
+   "status": "current",
+   "from": "2014-08-08",
+   "to": null,
+   "city": "横滨",
+   "pref": "神奈川",
+   "tags": [
+    "venue",
+    "official",
+    "52poke",
+    "活动会场",
+    "皮卡丘大量发生",
+    "神奈川県",
+    "日本",
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": [
+    "MARKISみなとみらい"
+   ]
+  },
+  {
+   "id": "venue_rimowa",
+   "name": "RIMOWA表参道店",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "venue_zozomarinestadium",
+   "name": "ZOZO Marine Stadium",
+   "category": "venue",
+   "entity": null,
+   "status": "current",
+   "from": null,
+   "to": null,
+   "city": null,
+   "pref": null,
+   "tags": [
+    "promoted",
+    "ai-audit"
+   ],
+   "aliases": [
+    "ZOZOMarineStadium"
+   ]
+  },
+  {
+   "id": "yadon_park_kagawa",
+   "name": "呆呆兽公园 香川",
+   "category": "hiking",
+   "entity": null,
+   "status": "current",
+   "from": "2023-04-14",
+   "to": null,
+   "city": null,
+   "pref": "香川",
+   "tags": [
+    "pokepark",
+    "official",
+    "香川县",
+    "绫川町",
+    "呆呆兽公园"
+   ],
+   "aliases": [
+    "呆呆兽公园香川"
+   ]
+  }
+ ]
+}

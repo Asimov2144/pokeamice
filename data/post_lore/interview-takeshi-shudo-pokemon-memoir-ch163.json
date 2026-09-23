@@ -1,0 +1,128 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch163",
+ "stem": "2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     12,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     13
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "久保雅一",
+    "slug": "kubo-masakazu",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   },
+   {
+    "name": "铃木敏夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东京湾",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     10
+    ],
+    "what": "游轮庆功宴地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "首藤刚志以系列构成身份受邀时，动画化企划已定",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "单集剧本基础稿酬比业界行规高5000日元，系列构成总费被砍2万日元",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch165",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为手记连载，第165回紧接第163回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch166",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为手记连载，第166回续第163回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch167",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为手记连载，第167回续第163回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch168",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为手记连载，第168回续第163回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

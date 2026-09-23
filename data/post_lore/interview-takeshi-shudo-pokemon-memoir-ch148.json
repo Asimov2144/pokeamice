@@ -1,0 +1,112 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch148",
+ "stem": "2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 6
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "石英高原联盟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     2
+    ],
+    "what": "保送资格目标",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "第9话标题为《宝可梦胜负指南》，由首藤刚志执笔剧本",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "前8集紧扣《红/绿》卡带框架，第9话出现游戏未提的补习学校体制",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第138回讲首藤接宝可梦委托的源起"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第139回讲游戏改编动画的最初思索"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第140回讲首次企划会与皮卡丘抉择"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第141回讲首藤亲自通关红绿卡带"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,499 @@
+{
+ "id": "scan-ndream-2008-10-platinum-special",
+ "stem": "2008-08-21-scan-ndream-2008-10-platinum-special",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 235
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     40
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰马",
+    "ndex": 78,
+    "seg": [
+     173
+    ],
+    "as": [
+     "烈焰马"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     182
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "多边兽",
+    "ndex": 137,
+    "seg": [
+     29,
+     31
+    ],
+    "as": [
+     "多边兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "果然翁",
+    "ndex": 202,
+    "seg": [
+     205,
+     206
+    ],
+    "as": [
+     "果然翁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吞食兽",
+    "ndex": 317,
+    "seg": [
+     201,
+     202
+    ],
+    "as": [
+     "吞食兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "夜巡灵",
+    "ndex": 355,
+    "seg": [
+     83,
+     84
+    ],
+    "as": [
+     "夜巡灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "草苗龟",
+    "ndex": 387,
+    "seg": [
+     122
+    ],
+    "as": [
+     "草苗龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火焰猴",
+    "ndex": 390,
+    "seg": [
+     121
+    ],
+    "as": [
+     "小火焰猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     123
+    ],
+    "as": [
+     "波加曼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "结草儿",
+    "ndex": 412,
+    "seg": [
+     29,
+     33
+    ],
+    "as": [
+     "结草儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "浮潜鼬",
+    "ndex": 419,
+    "seg": [
+     53
+    ],
+    "as": [
+     "浮潜鼬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铃铛响",
+    "ndex": 433,
+    "seg": [
+     35
+    ],
+    "as": [
+     "铃铛响"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "青铜钟",
+    "ndex": 437,
+    "seg": [
+     34
+    ],
+    "as": [
+     "青铜钟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "魔尼尼",
+    "ndex": 439,
+    "seg": [
+     203,
+     204
+    ],
+    "as": [
+     "魔尼尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "自爆磁怪",
+    "ndex": 462,
+    "seg": [
+     29,
+     30
+    ],
+    "as": [
+     "自爆磁怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "天蝎王",
+    "ndex": 472,
+    "seg": [
+     29,
+     36,
+     37
+    ],
+    "as": [
+     "天蝎王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     4,
+     5,
+     6,
+     8,
+     10,
+     13
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     4
+    ],
+    "as": [
+     "谢米"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     23,
+     24,
+     71,
+     127,
+     154,
+     155
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "山梨博士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赤日",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "帅哥",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     129
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "玛姿",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     139
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "瓢太",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "菜种",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梅丽莎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿李",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吉宪",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "东瓜",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小菘",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电次",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "毁坏的世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     8
+    ],
+    "what": "骑拉帝纳出现之地",
+    "via": "llm"
+   },
+   {
+    "name": "花苑镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     59
+    ],
+    "what": "获得葛拉西蒂亚花之地",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     74
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "双叶镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     93
+    ],
+    "what": "冒险开始之地",
+    "via": "llm"
+   },
+   {
+    "name": "心齐湖",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     104
+    ],
+    "what": "《钻石·珍珠》中与博士相遇之地",
+    "via": "llm"
+   },
+   {
+    "name": "天冠山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     143
+    ],
+    "what": "《钻石·珍珠》中首次遇到赤日之地",
+    "via": "llm"
+   },
+   {
+    "name": "对战开拓区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     161
+    ],
+    "what": "新增对战设施",
+    "via": "llm"
+   },
+   {
+    "name": "兵库县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     186
+    ],
+    "what": "预选赛举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "《钻石·珍珠》中的骑拉帝纳是别种形态，《白金》中起源形态的身高、体重和特性也发生变化。"
+  },
+  {
+   "seg": 18,
+   "text": "剪影2的真身无法在通常游玩中见到，需要某个道具，该道具配信期间为2008年9月28日至11月4日。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2008-12-game-freak-interview",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "why": "同刊后篇谈白金起源形态、谢米形态等新要素"
+  },
+  {
+   "id": "scan-ndream-2008-12-platinum-battle-dojo",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "why": "同刊白金特辑，附白金专访与获取攻略"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

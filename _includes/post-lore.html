@@ -1,0 +1,85 @@
+{%- comment -%}
+本篇提到：这篇文章点名的宝可梦、作品、地点与人，一两条带段号的观察，以及和别的文章的关系。
+
+数据是 tools/build-post-lore.py 写的 _data/post_lore.yml，按文件名索引（键是 _posts 下的
+文件名去掉 .md）。跑过的篇目才有；没有就什么都不输出。
+
+段号有两套：`seg` 是 App 用的（导出时过滤过的序号），`anchor` 是这一页上的 id="segment-N"。
+只有 anchor 在时才做成链接——扫描件的版面按页重排，两套号对不上，那就只写文字。
+
+人名连人物页、作品连制作名单页，两个都会带出 tip.js 的悬停卡片；宝可梦与地点站内没有页面，
+宝可梦交给检索，地点只写名字（对得上旅图的，App 那边才用得上 id）。
+{%- endcomment -%}
+{%- assign lore_stem = page.path | split: "/" | last | split: "." | first -%}
+{%- assign lore = site.data.post_lore[lore_stem] -%}
+{%- if lore -%}
+{%- assign lf = lore.facets -%}
+{%- assign lore_people = lf.people | where_exp: "p", "p.role == 'mentioned'" -%}
+{%- if lf.pokemon.size > 0 or lf.places.size > 0 or lore_people.size > 0 or lore.observations.size > 0 or lore.relations.size > 0 -%}
+<section class="lore" aria-label="本篇提到">
+  <h2 class="lore__title"><span class="lore__eyebrow">Index</span> 本篇提到</h2>
+
+  {%- if lore.observations.size > 0 -%}
+  <ul class="lore__obs">
+    {%- for o in lore.observations -%}
+      <li class="lore__ob">
+        {%- if o.anchor -%}<a class="lore__seg" href="#segment-{{ o.anchor }}" data-tip="跳到这一段">§{{ o.anchor }}</a>{%- endif -%}
+        <span class="lore__ob-text">{{ o.text }}</span>
+      </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  <dl class="lore__facets">
+    {%- if lore_people.size > 0 -%}
+    <div class="lore__row">
+      <dt>人</dt>
+      {%- comment -%} 动画角色与只被引述的人物（kind: character / figure）在人物库里有 slug 却没有页，不做成链接 {%- endcomment -%}
+      <dd>{%- for p in lore_people limit: 12 -%}
+        {%- if p.slug and p.kind == nil -%}<a href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }}</a>
+        {%- else -%}<span>{{ p.name }}</span>{%- endif -%}
+      {%- endfor -%}</dd>
+    </div>
+    {%- endif -%}
+    {%- if lf.works.size > 0 -%}
+    <div class="lore__row">
+      <dt>作品</dt>
+      <dd>{%- for w in lf.works limit: 12 -%}
+        {%- if w.slug -%}<a href="{{ '/credits/' | append: w.slug | append: '/' | relative_url }}">{{ w.name }}</a>
+        {%- else -%}<a href="{{ '/search/?q=' | append: w.name | uri_escape | relative_url }}">{{ w.name }}</a>{%- endif -%}
+      {%- endfor -%}</dd>
+    </div>
+    {%- endif -%}
+    {%- if lf.pokemon.size > 0 -%}
+    <div class="lore__row">
+      <dt>宝可梦 <b>{{ lf.pokemon.size }}</b></dt>
+      <dd>{%- for k in lf.pokemon limit: 18 -%}
+        <a href="{{ '/search/?q=' | append: k.name | uri_escape | relative_url }}" data-tip="全国图鉴 No.{{ k.ndex }}">{{ k.name }}</a>
+      {%- endfor -%}{%- if lf.pokemon.size > 18 -%}<span class="lore__more">另 {{ lf.pokemon.size | minus: 18 }} 只</span>{%- endif -%}</dd>
+    </div>
+    {%- endif -%}
+    {%- if lf.places.size > 0 -%}
+    <div class="lore__row">
+      <dt>地点</dt>
+      <dd>{%- for s in lf.places limit: 10 -%}
+        <span{% if s.what %} data-tip="{{ s.what | escape }}"{% endif %}{% if s.world == "game" %} class="lore__game"{% endif %}>{{ s.name }}</span>
+      {%- endfor -%}</dd>
+    </div>
+    {%- endif -%}
+  </dl>
+
+  {%- if lore.relations.size > 0 -%}
+  <ul class="lore__rel">
+    {%- for r in lore.relations -%}
+      {%- comment -%} id 是 URL 的最后一段，两头都带斜杠地比，免得短 id 撞进长 id 的地址里 {%- endcomment -%}
+      {%- assign rel_tail = r.id | prepend: "/" | append: "/" -%}
+      {%- assign other = site.posts | where_exp: "p", "p.url contains rel_tail" | first -%}
+      {%- if other -%}
+      <li><span class="lore__rel-kind">{{ r.label }}</span><a href="{{ other.url | relative_url }}">{{ other.display_title | default: other.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " }}</a>{% if r.why %}<span class="lore__rel-why">{{ r.why }}</span>{% endif %}</li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</section>
+{%- endif -%}
+{%- endif -%}

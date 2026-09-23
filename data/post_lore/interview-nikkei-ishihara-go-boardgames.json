@@ -1,0 +1,131 @@
+{
+ "id": "interview-nikkei-ishihara-go-boardgames",
+ "stem": "2020-12-21-interview-nikkei-ishihara-go-boardgames",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "name": "日经记者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     10
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "三重县鸟羽市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     1
+    ],
+    "what": "石原恒和出生地",
+    "via": "llm"
+   },
+   {
+    "name": "筑波大学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     1
+    ],
+    "what": "石原恒和母校",
+    "via": "llm"
+   },
+   {
+    "name": "伊势湾",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     3
+    ],
+    "what": "父亲出海垂钓处",
+    "via": "llm"
+   },
+   {
+    "name": "松阪市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     3
+    ],
+    "what": "母亲出身地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "石原恒和1957年生于三重县鸟羽市，1983年毕业于筑波大学研究生院",
+   "anchor": 2
+  },
+  {
+   "seg": 7,
+   "text": "父亲围棋为业余五段乃至六段，石原的围棋由父亲启蒙",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

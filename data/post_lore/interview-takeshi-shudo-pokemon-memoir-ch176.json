@@ -1,0 +1,205 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch176",
+ "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 85
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     79
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     2,
+     79
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使 甜甜仙子",
+    "slug": null,
+    "seg": [
+     51,
+     76
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "战国魔神豪将军",
+    "slug": null,
+    "seg": [
+     76
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "银河英雄传说",
+    "slug": null,
+    "seg": [
+     76
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "漫画原来如此物语",
+    "slug": null,
+    "seg": [
+     74
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     12
+    ]
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     79
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     2,
+     79
+    ],
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     6
+    ],
+    "what": "看艺术院线电影",
+    "via": "llm"
+   },
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     5
+    ],
+    "what": "旧工作室所在地",
+    "via": "llm"
+   },
+   {
+    "name": "新宿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     51
+    ],
+    "what": "与制片人对饮处",
+    "via": "llm"
+   },
+   {
+    "name": "目黑",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     52
+    ],
+    "what": "就诊卡上的医院所在",
+    "via": "llm"
+   },
+   {
+    "name": "吉卜力工作室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     71
+    ],
+    "what": "内部试映会地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "工作室从小田原搬迁至东京，阳台被100英寸幕布遮蔽",
+   "anchor": 6
+  },
+  {
+   "seg": 39,
+   "text": "第二次送医前在便利店归途，记忆断片后已在救护车上",
+   "anchor": 40
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch171",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同为《超梦的逆袭》主题系列，前接第171回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch172",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "克隆与本体讨论，紧接第171回之后"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch173",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同属《超梦的逆袭》母题系列，第173回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch170",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第170回交代首藤已离开宝可梦脚本创作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

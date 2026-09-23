@@ -1,0 +1,463 @@
+{
+ "id": "长文-拨云见日-从百代市到水脉图书馆",
+ "stem": "2024-10-24-[长文]-拨云见日-从百代市到水脉图书馆",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "article",
+ "body": {
+  "kind": "markdown",
+  "n": 185
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "风速狗",
+    "ndex": 59,
+    "seg": [
+     108
+    ],
+    "as": [
+     "风速狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火暴兽",
+    "ndex": 157,
+    "seg": [
+     2
+    ],
+    "as": [
+     "火暴兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克比",
+    "ndex": 175,
+    "seg": [
+     64
+    ],
+    "as": [
+     "波克比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     27,
+     29,
+     111
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     27,
+     29,
+     111
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     16
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "由克希",
+    "ndex": 480,
+    "seg": [
+     45
+    ],
+    "as": [
+     "由克希"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "艾姆利多",
+    "ndex": 481,
+    "seg": [
+     45
+    ],
+    "as": [
+     "艾姆利多"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "亚克诺姆",
+    "ndex": 482,
+    "seg": [
+     45
+    ],
+    "as": [
+     "亚克诺姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     21,
+     74
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "席多蓝恩",
+    "ndex": 485,
+    "seg": [
+     16,
+     25,
+     26,
+     111
+    ],
+    "as": [
+     "席多蓝恩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛纳霏",
+    "ndex": 490,
+    "seg": [
+     64
+    ],
+    "as": [
+     "玛纳霏"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     1,
+     10,
+     12,
+     13,
+     63,
+     74
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "打击鬼",
+    "ndex": 539,
+    "seg": [
+     55
+    ],
+    "as": [
+     "打击鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蕾冠王",
+    "ndex": 898,
+    "seg": [
+     118
+    ],
+    "as": [
+     "蕾冠王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "太乐巴戈斯",
+    "ndex": 1024,
+    "seg": [
+     61
+    ],
+    "as": [
+     "太乐巴戈斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     1,
+     12,
+     13,
+     136
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "珍珠·钻石",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白金",
+    "slug": null,
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     117
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Mikaru",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赤日",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "北尚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     109
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吾思",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     146
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马加木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     159
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "水脉图书馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     0
+    ],
+    "what": "神奥神话藏书地",
+    "via": "llm"
+   },
+   {
+    "name": "百代市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     0
+    ],
+    "what": "神奥城市",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     10
+    ],
+    "what": "取材构思之旅地",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     21
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "心齐湖",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     57
+    ],
+    "what": "三大湖之一",
+    "via": "llm"
+   },
+   {
+    "name": "随意遗迹",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     57
+    ],
+    "what": "岩壁文字遗迹",
+    "via": "llm"
+   },
+   {
+    "name": "神和镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     57
+    ],
+    "what": "壁画讲解地",
+    "via": "llm"
+   },
+   {
+    "name": "天冠山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     57
+    ],
+    "what": "枪之柱所在",
+    "via": "llm"
+   },
+   {
+    "name": "祝庆村",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     137
+    ],
+    "what": "LA起始村落",
+    "via": "llm"
+   },
+   {
+    "name": "云雾遗迹",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     146
+    ],
+    "what": "红色锁链取得地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "文章开头写明故事将从水脉图书馆一路讲到百代市"
+  },
+  {
+   "seg": 5,
+   "text": "作者称本文三年前LA发售时就起了稿，无需借助泄露线索"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

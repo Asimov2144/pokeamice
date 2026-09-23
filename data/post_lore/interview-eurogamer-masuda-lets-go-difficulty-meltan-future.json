@@ -1,0 +1,299 @@
+{
+ "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+ "stem": "2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     14
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     2,
+     5,
+     12,
+     21,
+     22
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     19
+    ],
+    "as": [
+     "可达鸭",
+     "Psyduck"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "风速狗",
+    "ndex": 59,
+    "seg": [
+     13,
+     14
+    ],
+    "as": [
+     "风速狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鸭嘴火兽",
+    "ndex": 126,
+    "seg": [
+     38
+    ],
+    "as": [
+     "鸭嘴火兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [],
+    "as": [
+     "伊布"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "菊草叶",
+    "ndex": 152,
+    "seg": [
+     29
+    ],
+    "as": [
+     "菊草叶"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "宝宝丁",
+    "ndex": 174,
+    "seg": [
+     38,
+     39
+    ],
+    "as": [
+     "宝宝丁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鸭嘴炎兽",
+    "ndex": 467,
+    "seg": [
+     38
+    ],
+    "as": [
+     "鸭嘴炎兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美录坦",
+    "ndex": 808,
+    "seg": [
+     2,
+     25,
+     26,
+     29,
+     31,
+     32
+    ],
+    "as": [
+     "美录坦",
+     "Meltan"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     5,
+     26,
+     29,
+     31,
+     32,
+     34
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黄",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达传说：旷野之息",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马力欧：奥德赛",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "金·银",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     5,
+     9,
+     12,
+     14,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "菜花健作",
+    "slug": "nabana-kensaku",
+    "role": "speaker",
+    "seg": [
+     18
+    ]
+   },
+   {
+    "name": "Chris Tapsell",
+    "slug": "ke-li-si-ta-pu-sai-er",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     2
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     40
+    ],
+    "what": "续作可能舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田称首要目标群体是没智能手机、错过《Pokémon GO》的孩子",
+   "anchor": 6
+  },
+  {
+   "seg": 12,
+   "text": "增田说当年在3DS VC重温初代皮卡丘版通关需三四十小时",
+   "anchor": 13
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamer-pokemon-press-conference-2018",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "why": "同为2018年5月30日新作发布会报道，含增田谈Let's Go"
+  },
+  {
+   "id": "interview-gq-spain-sun-moon-masuda-ohmori",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "增田谈系列核心概念与受众年龄跨度"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

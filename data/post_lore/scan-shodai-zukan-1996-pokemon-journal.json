@@ -1,0 +1,476 @@
+{
+ "id": "scan-shodai-zukan-1996-pokemon-journal",
+ "stem": "1996-04-05-scan-shodai-zukan-1996-pokemon-journal",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 105
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙草",
+    "ndex": 2,
+    "seg": [
+     18,
+     30
+    ],
+    "as": [
+     "妙蛙草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     30
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     30
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "绿毛虫",
+    "ndex": 10,
+    "seg": [
+     93
+    ],
+    "as": [
+     "绿毛虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巴大蝶",
+    "ndex": 12,
+    "seg": [
+     96
+    ],
+    "as": [
+     "巴大蝶"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大针蜂",
+    "ndex": 15,
+    "seg": [
+     51
+    ],
+    "as": [
+     "大针蜂"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大比鸟",
+    "ndex": 18,
+    "seg": [
+     56,
+     95
+    ],
+    "as": [
+     "大比鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大嘴雀",
+    "ndex": 22,
+    "seg": [
+     56
+    ],
+    "as": [
+     "大嘴雀"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     6,
+     18,
+     48,
+     56
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮可西",
+    "ndex": 36,
+    "seg": [
+     49
+    ],
+    "as": [
+     "皮可西"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哥达鸭",
+    "ndex": 55,
+    "seg": [
+     87
+    ],
+    "as": [
+     "哥达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火暴猴",
+    "ndex": 57,
+    "seg": [
+     12
+    ],
+    "as": [
+     "火暴猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "风速狗",
+    "ndex": 59,
+    "seg": [
+     74
+    ],
+    "as": [
+     "风速狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "隆隆岩",
+    "ndex": 76,
+    "seg": [
+     101
+    ],
+    "as": [
+     "隆隆岩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰马",
+    "ndex": 78,
+    "seg": [
+     103
+    ],
+    "as": [
+     "烈焰马"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     36
+    ],
+    "as": [
+     "大葱鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "嘟嘟利",
+    "ndex": 85,
+    "seg": [
+     56
+    ],
+    "as": [
+     "嘟嘟利"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "白海狮",
+    "ndex": 87,
+    "seg": [
+     78
+    ],
+    "as": [
+     "白海狮"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大岩蛇",
+    "ndex": 95,
+    "seg": [
+     93
+    ],
+    "as": [
+     "大岩蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蔓藤怪",
+    "ndex": 114,
+    "seg": [
+     83
+    ],
+    "as": [
+     "蔓藤怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "肯泰罗",
+    "ndex": 128,
+    "seg": [
+     82
+    ],
+    "as": [
+     "肯泰罗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     54,
+     77
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     54,
+     56,
+     93
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     100
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "急冻鸟",
+    "ndex": 144,
+    "seg": [
+     56
+    ],
+    "as": [
+     "急冻鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "闪电鸟",
+    "ndex": 145,
+    "seg": [
+     56
+    ],
+    "as": [
+     "闪电鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸟",
+    "ndex": 146,
+    "seg": [
+     56
+    ],
+    "as": [
+     "火焰鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哈克龙",
+    "ndex": 148,
+    "seg": [
+     93
+    ],
+    "as": [
+     "哈克龙"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "大木雪成",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西之森教授",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "正辉",
+    "slug": "zheng-hui",
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "曾崎正辉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "达尔文",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "玉虹大学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     2
+    ],
+    "what": "演讲主办地",
+    "via": "llm"
+   },
+   {
+    "name": "玉虹市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     41
+    ],
+    "what": "百货商店所在地",
+    "via": "llm"
+   },
+   {
+    "name": "华蓝市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     44
+    ],
+    "what": "正辉住处附近",
+    "via": "llm"
+   },
+   {
+    "name": "5号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     67
+    ],
+    "what": "培育屋报名处",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     38
+    ],
+    "what": "朋友居住地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "1925年西之森教授弄错用药量，火暴猴钻进远视眼镜盒"
+  },
+  {
+   "seg": 27,
+   "text": "正辉称一个人冒险能收集到的极限约130种"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,113 @@
+{
+ "id": "corporate-topic-42-taiwan-localized-anime-song-yoga-lin",
+ "stem": "2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "捉夢大師",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケットモンスター（2023年アニメ）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 地平线",
+    "slug": null,
+    "seg": [
+     10,
+     12
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "林宥嘉（Yoga Lin）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ]
+   },
+   {
+    "name": "林宥嘉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "台湾",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     12
+    ],
+    "what": "独占主题曲地区",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     17
+    ],
+    "what": "原厂所在",
+    "via": "llm"
+   },
+   {
+    "name": "日本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     2
+    ],
+    "what": "动画制作地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "台湾地区2025年5月开播的《宝可梦 地平线》新章节启用本土专属主题曲",
+   "anchor": 13
+  },
+  {
+   "seg": 13,
+   "text": "自1998年初代动画引进台湾，27年间片头片尾曲沿用日版原声或直译翻唱",
+   "anchor": 14
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

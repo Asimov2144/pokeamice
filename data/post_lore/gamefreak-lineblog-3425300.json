@@ -1,0 +1,177 @@
+{
+ "id": "gamefreak-lineblog-3425300",
+ "stem": "2016-05-16-gamefreak-lineblog-3425300",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 173
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     142,
+     150
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     150
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     150
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可拳",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Train Meister",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿盖尔转换",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "大石先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "新藤先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "原田先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "台场DiverCity",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     0
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   },
+   {
+    "name": "山手线",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     21
+    ],
+    "what": "驾驶体验的线路",
+    "via": "llm"
+   },
+   {
+    "name": "新桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     37
+    ],
+    "what": "驾驶起点站",
+    "via": "llm"
+   },
+   {
+    "name": "东京站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     37
+    ],
+    "what": "驾驶终点站",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一去的是台场DiverCity内限时开放的VR ZONE"
+  },
+  {
+   "seg": 21,
+   "text": "可以享受驾驶山手线的《Train Meister》"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

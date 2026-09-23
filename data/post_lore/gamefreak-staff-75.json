@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-75",
+ "stem": "2008-06-13-gamefreak-staff-75",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "しゃち",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "蜀葵从近地面的花蕾依次开放，梅雨结束顶端花谢"
+  },
+  {
+   "seg": 19,
+   "text": "しゃち小时候把捉到的萤火虫放进萤袋花里当灯玩"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

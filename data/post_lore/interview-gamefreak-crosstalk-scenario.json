@@ -1,0 +1,130 @@
+{
+ "id": "interview-gamefreak-crosstalk-scenario",
+ "stem": "2021-12-27-interview-gamefreak-crosstalk-scenario",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛托姆",
+    "ndex": 479,
+    "seg": [
+     12,
+     13,
+     14
+    ],
+    "as": [
+     "洛托姆",
+     "Rotom"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     1
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 究极之日·究极之月",
+    "slug": "usum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "K.I.",
+    "slug": "k-i",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     9,
+     11,
+     13,
+     16
+    ]
+   },
+   {
+    "name": "K.M.",
+    "slug": "k-m",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     10,
+     12,
+     14,
+     17
+    ]
+   },
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松岛贤二",
+    "slug": "matsushima-kenji",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "K.I.现任开发二部副部长，兼世界概念团队成员",
+   "anchor": 4
+  },
+  {
+   "seg": 2,
+   "text": "K.M.1993年入职，负责跨媒体衍生作品设定监修",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,165 @@
+{
+ "id": "corporate-topic-14-toyota-miraidon-project-future-mobility",
+ "stem": "2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "密勒顿",
+    "ndex": 1008,
+    "seg": [
+     0,
+     2,
+     3,
+     5,
+     6,
+     11
+    ],
+    "as": [
+     "密勒顿",
+     "Miraidon"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "丰田密勒顿企划",
+    "slug": null,
+    "seg": [
+     0,
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Toyota Engineering Society MIRAIDON",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 紫",
+    "slug": null,
+    "seg": [
+     2,
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "密勒顿",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     3,
+     5,
+     6,
+     11
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "心动世界",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "闪电冲锋",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "トヨタ技術会",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "丰田市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     3
+    ],
+    "what": "心动世界举办地",
+    "via": "llm"
+   },
+   {
+    "name": "爱知县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     3
+    ],
+    "what": "问卷征集对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "东京中城日比谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     21
+    ],
+    "what": "实车展出地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "2023年度以爱知县小学生为对象征集梦想的未来移动载具",
+   "anchor": 4
+  },
+  {
+   "seg": 9,
+   "text": "项目初期约30名成员，最终超过300名专家加入",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "corporate-topic-15-pokemon-battle-scope-ai-esports",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "Topics第15篇，紧接本篇第14篇的系列下一篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

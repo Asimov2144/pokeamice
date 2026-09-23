@@ -1,0 +1,316 @@
+{
+ "id": "interview-wedge-ishihara-pokemon-disney",
+ "stem": "2010-05-12-interview-wedge-ishihara-pokemon-disney",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 246
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     190,
+     199,
+     205,
+     210,
+     211,
+     213
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     108
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     186,
+     187
+    ],
+    "as": [
+     "波加曼",
+     "Piplup"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     107
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     28,
+     76,
+     146,
+     162,
+     244
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电视游戏——电视游戏大全",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 超梦的逆袭",
+    "slug": null,
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "幻影的霸者 索罗亚克",
+    "slug": null,
+    "seg": [
+     107
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "寅次郎的故事",
+    "slug": null,
+    "seg": [
+     235
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "浜野保树",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     23,
+     24,
+     42,
+     54,
+     66
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     13,
+     14,
+     15,
+     27,
+     28,
+     37
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "华特·迪士尼",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     63
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑泽明",
+    "slug": "hei-ze-ming",
+    "role": "mentioned",
+    "seg": [
+     227
+    ],
+    "via": "llm",
+    "kind": "figure"
+   },
+   {
+    "name": "山田洋次",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     227
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "圆谷英二",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     137
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "谷口智彦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "渥美清",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     234
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     7
+    ],
+    "what": "宝可梦公司总部",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦中心TOKYO",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     82
+    ],
+    "what": "滨松町附近设施",
+    "via": "llm"
+   },
+   {
+    "name": "伊势志摩国立公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     123
+    ],
+    "what": "石原家乡海湾",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     178
+    ],
+    "what": "世界锦标赛举办地",
+    "via": "llm"
+   },
+   {
+    "name": "乐天影院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     118
+    ],
+    "what": "韩国上映影院",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "《宝可梦》1996年发售，至今14年，全球累计市场3万亿日元",
+   "anchor": 2
+  },
+  {
+   "seg": 7,
+   "text": "石原恒和今年53岁，手持iPad现身六本木新城18层会议室",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

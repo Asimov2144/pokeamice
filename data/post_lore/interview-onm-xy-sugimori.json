@@ -1,0 +1,159 @@
+{
+ "id": "interview-onm-xy-sugimori",
+ "stem": "2013-10-24-interview-onm-xy-sugimori",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 5
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "仙子伊布",
+    "ndex": 700,
+    "seg": [
+     3
+    ],
+    "as": [
+     "仙子伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哲尔尼亚斯",
+    "ndex": 716,
+    "seg": [
+     1,
+     2
+    ],
+    "as": [
+     "哲尔尼亚斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊裴尔塔尔",
+    "ndex": 717,
+    "seg": [
+     1,
+     2
+    ],
+    "as": [
+     "伊裴尔塔尔"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     3
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X／Y",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Y",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Fami通",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     2,
+     3
+    ]
+   },
+   {
+    "name": "Thomas East",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西田敦子",
+    "slug": "nishida-atsuko",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "杉森建称创作哲尔尼亚斯与伊裴尔塔尔时遭遇困难，与另一位艺术家合作完成",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "杉森建说这是第一次不得不借助他人摆脱创作瓶颈",
+   "anchor": 3
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

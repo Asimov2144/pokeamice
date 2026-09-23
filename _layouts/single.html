@@ -42,6 +42,8 @@ layout: default
             </aside>
           {% endif %}
           {{ content }}
+          {%- comment -%} 站内长文也有图鉴条目（跑过的篇目才出，其余什么都不输出） {%- endcomment -%}
+          {% include post-lore.html %}
           {% include article-link-analysis.html %}
           {% include article-references.html %}
           {% include resource-related.html %}

@@ -1,0 +1,50 @@
+{
+ "id": "interview-pokemon-recruit-staff-furutani",
+ "stem": "2016-01-10-interview-pokemon-recruit-staff-furutani",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "古谷翔",
+    "slug": "gu-gu-xiang",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "求职时全盘以游戏行业为核心展开",
+   "anchor": 3
+  },
+  {
+   "seg": 9,
+   "text": "入职至今已走过5个年头",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

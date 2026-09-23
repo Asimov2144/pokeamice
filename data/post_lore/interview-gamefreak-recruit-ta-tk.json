@@ -1,0 +1,113 @@
+{
+ "id": "interview-gamefreak-recruit-ta-tk",
+ "stem": "2021-12-27-interview-gamefreak-recruit-ta-tk",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     7
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Houdini管线研发",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "动作捕捉系统",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "耀西的蛋",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.K.",
+    "slug": "t-k",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "T.K.在PC游戏开发公司工作10年后跳槽到影像公司",
+   "anchor": 4
+  },
+  {
+   "seg": 7,
+   "text": "《宝可梦 剑／盾》中他负责宝可梦模型制作环境整备，模型超1000只",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

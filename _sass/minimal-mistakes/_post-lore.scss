@@ -1,0 +1,201 @@
+/* ==========================================================================
+   本篇提到 (_includes/post-lore.html)
+
+   The index the dex machine reads, shown on the page it was read off: one or
+   two observations with the paragraph they sit in, then the Pokémon, works,
+   places and people the piece names, then the articles it is tied to.
+
+   A register, not a card wall: a hairline box, labels in the margin, the names
+   as plain links on one line each. Nothing here should read louder than the
+   interview above it, so it takes the reader's type size minus a step and the
+   archive's grey, and only the rule at the top marks it off.
+   ========================================================================== */
+
+.lore {
+  max-width: $ed-measure;
+  margin: 40px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid $ed-rule;
+  font-family: $ed-text;
+  font-size: 14px;
+  line-height: 1.7;
+  color: $ed-ink-soft;
+}
+
+.lore__title {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: $ed-ink;
+}
+
+.lore__eyebrow {
+  font-family: $ed-display;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $ed-ink-faint;
+}
+
+/* ---- the observations: the one line the dex machine would say ------------ */
+
+.lore__obs {
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.lore__ob {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+  margin: 0 0 5px;
+  color: $ed-ink;
+}
+
+.lore__seg {
+  flex: 0 0 auto;
+  font-family: $ed-display;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: $ed-ink-faint;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+
+  &:hover,
+  &:focus-visible { color: $ed-ink; border-bottom-color: currentColor; text-decoration: none; }
+}
+
+.lore__ob-text { min-width: 0; }
+
+/* ---- the facets: a label in the margin, the names after it --------------- */
+
+.lore__facets {
+  margin: 0;
+  display: grid;
+  gap: 4px 0;
+}
+
+.lore__row {
+  display: grid;
+  grid-template-columns: 4.5em 1fr;
+  gap: 0 10px;
+  align-items: baseline;
+
+  dt {
+    margin: 0;
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    color: $ed-ink-faint;
+    white-space: nowrap;
+
+    b { font-weight: 400; font-variant-numeric: tabular-nums; }
+  }
+
+  dd {
+    margin: 0;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 12px;
+  }
+
+  a,
+  dd > span {
+    color: $ed-ink;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  a:hover,
+  a:focus-visible { border-bottom-color: currentColor; text-decoration: none; }
+
+  dd > span { color: $ed-ink-soft; }
+  dd > span[data-tip] { border-bottom: 1px dotted $ed-rule; cursor: help; }
+}
+
+/* a place that exists in a game rather than on the map */
+.lore__game::after {
+  content: "·游戏";
+  margin-left: 3px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: $ed-ink-faint;
+}
+
+.lore__more { color: $ed-ink-faint; }
+
+/* ---- the articles this one is tied to ------------------------------------ */
+
+.lore__rel {
+  margin: 14px 0 0;
+  padding: 12px 0 0;
+  border-top: 1px dashed $ed-rule;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 3px 9px;
+    margin: 0 0 5px;
+  }
+
+  a {
+    color: $ed-ink;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover,
+    &:focus-visible { border-bottom-color: currentColor; text-decoration: none; }
+  }
+}
+
+.lore__rel-kind {
+  flex: 0 0 auto;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: $ed-ink-faint;
+}
+
+.lore__rel-why {
+  flex: 1 1 100%;
+  padding-left: 0;
+  font-size: 12.5px;
+  color: $ed-ink-faint;
+}
+
+@media (max-width: 600px) {
+  .lore { font-size: 13.5px; }
+  .lore__row { grid-template-columns: 1fr; gap: 0; }
+  .lore__row dt { margin-top: 6px; }
+}
+
+/* the dark reading theme paints the reader; the register follows it */
+.ed[data-reading-theme="dark"] .lore {
+  border-top-color: rgba(255, 255, 255, 0.14);
+  color: rgba(235, 238, 243, 0.72);
+
+  .lore__title,
+  .lore__ob,
+  .lore__row a,
+  .lore__rel a { color: #eceff4; }
+
+  .lore__row dd > span { color: rgba(235, 238, 243, 0.72); }
+  .lore__eyebrow,
+  .lore__row dt,
+  .lore__seg,
+  .lore__rel-kind,
+  .lore__rel-why,
+  .lore__more { color: rgba(235, 238, 243, 0.45); }
+  .lore__rel { border-top-color: rgba(255, 255, 255, 0.14); }
+}
+
+@media print {
+  .lore__rel { display: none; }
+}

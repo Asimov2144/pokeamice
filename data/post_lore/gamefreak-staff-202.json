@@ -1,0 +1,172 @@
+{
+ "id": "gamefreak-staff-202",
+ "stem": "2010-10-08-gamefreak-staff-202",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 297
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     74,
+     222
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "まつみや",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2,
+     6,
+     70,
+     82,
+     90,
+     100
+    ]
+   },
+   {
+    "name": "ジェイミー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     133,
+     285
+    ]
+   },
+   {
+    "name": "おおむら",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35,
+     55,
+     133,
+     182,
+     203,
+     285
+    ]
+   },
+   {
+    "name": "一之濑",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     122,
+     126,
+     127
+    ]
+   },
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "吹寄市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     39
+    ],
+    "what": "道馆馆主风露所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "まつみや从《金・银》起一直写宝可梦剧本"
+  },
+  {
+   "seg": 97,
+   "text": "从《白金》结束后加入，含大纲约花一年半"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-1146-matsumiya-bw-scenario",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "why": "同为松宫谈黑白的剧本与N构想"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

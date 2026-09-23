@@ -1,0 +1,268 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
+ "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 111
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "拉普拉斯",
+    "ndex": 131,
+    "seg": [
+     71
+    ],
+    "as": [
+     "拉普拉斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     105
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     2,
+     6,
+     8,
+     18,
+     19,
+     55
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     105
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     56
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "永远的菲莱娜",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     18,
+     37,
+     50,
+     108
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     47,
+     71,
+     73
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     70,
+     108,
+     109
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     108
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小刚",
+    "slug": "xiao-gang",
+    "role": "mentioned",
+    "seg": [
+     96,
+     98,
+     99,
+     101,
+     104,
+     105
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小建",
+    "slug": "xiao-jian",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "牛顿",
+    "slug": "niu-dun",
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "爱因斯坦",
+    "slug": "ai-yin-si-tan",
+    "role": "mentioned",
+    "seg": [
+     10,
+     12
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "居里夫人",
+    "slug": "ju-li-fu-ren",
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "kind": "figure"
+   }
+  ],
+  "places": [
+   {
+    "name": "拉斯维加斯",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     2
+    ],
+    "what": "庆功旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "涉谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     70
+    ],
+    "what": "提议的起点",
+    "via": "llm"
+   },
+   {
+    "name": "品川",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     70
+    ],
+    "what": "提议的途经地",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     70
+    ],
+    "what": "提议的终点",
+    "via": "llm"
+   },
+   {
+    "name": "橘子群岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "seg": [
+     72
+    ],
+    "what": "动画原创篇章",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "首藤刚志拒绝了《超梦的逆袭》全美大卖庆功的拉斯维加斯之旅。",
+   "anchor": 3
+  },
+  {
+   "seg": 12,
+   "text": "该音乐剧讲述牛顿、爱迪生、居里夫人与爱因斯坦同台歌唱辩论。",
+   "anchor": 13
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "第186回紧接第185回，续谈第二部剧场版筹备"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch163",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第163回介绍“御前样”久保雅一，即被拂逆者"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch181",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "第181回讲《超梦的逆袭》公映，即庆功拉斯维加斯之旅背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

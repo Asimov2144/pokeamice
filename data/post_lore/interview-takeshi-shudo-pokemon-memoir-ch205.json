@@ -1,0 +1,424 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+ "stem": "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 148
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     25,
+     36,
+     39
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     1,
+     29,
+     32,
+     34,
+     36,
+     37
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     1,
+     32,
+     52,
+     82,
+     90,
+     102
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "风といっしょに",
+    "slug": null,
+    "seg": [
+     100
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "仁医",
+    "slug": null,
+    "seg": [
+     109,
+     113,
+     117,
+     130,
+     141
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "似曾相识",
+    "slug": null,
+    "seg": [
+     133,
+     142,
+     144
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "回到未来",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "终结者",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "千与千寻",
+    "slug": null,
+    "seg": [
+     104
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白色巨塔",
+    "slug": null,
+    "seg": [
+     124
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高达",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三个火枪手",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     24,
+     106,
+     144
+    ]
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     5,
+     21
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     25,
+     30,
+     33,
+     36,
+     39,
+     43
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     25,
+     36,
+     39
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     29,
+     32,
+     34,
+     36,
+     37
+    ]
+   },
+   {
+    "name": "芙卢拉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     66,
+     67,
+     97
+    ]
+   },
+   {
+    "name": "小林幸子",
+    "slug": "kobayashi-sachiko",
+    "role": "mentioned",
+    "seg": [
+     100
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     105
+    ]
+   },
+   {
+    "name": "南方仁",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     142
+    ]
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     66
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "花子",
+    "slug": "hua-zi",
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "坂木",
+    "slug": "ban-mu",
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "理查德·马瑟森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吉诺特·兹瓦克",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "克里斯托弗·里夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "简·西摩",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "约翰·巴里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "坂本龙马",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     122
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "村上纪香",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     132
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吉拉尔丹",
+    "slug": "ji-la-er-dan",
+    "role": "mentioned",
+    "seg": [
+     95
+    ],
+    "via": "llm",
+    "kind": "figure"
+   }
+  ],
+  "places": [
+   {
+    "name": "江户",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     112
+    ],
+    "what": "《仁医》穿越的幕末时代",
+    "via": "llm"
+   },
+   {
+    "name": "北美",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     104
+    ],
+    "what": "宝可梦电影上映市场",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 41,
+   "text": "三人组因不甘沦为累赘，主动松开洛奇亚脚爪坠向冰原",
+   "anchor": 42
+  },
+  {
+   "seg": 63,
+   "text": "冰面出现融化的冰洞水面，三人组落入冰水捡回性命",
+   "anchor": 64
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "why": "同系列手记，第185回紧接第205回前谈洛奇亚爆诞"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "同系列谈野生与驯化奴役悖论，为洛奇亚伦理铺垫"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch184",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "why": "同系列披露宝可梦被奴役角斗士的最终回构想"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,7903 @@
+# 每篇文章的图鉴条目：提到的宝可梦 / 作品 / 地点 / 人（带段号），一两条带段号的观察，与别的文章的关系。
+# 由 tools/build-post-lore.py 生成（规则 + DeepSeek，data/post_lore/<id>.json 是单篇的原件，可手改）。
+# 表：宝可梦写法 2026-09-23 / 旅图地点 2026-09-23
+1996-04-05-scan-shodai-zukan-1996-pokemon-journal:
+  facets:
+    people:
+    - kind: character
+      name: 大木博士
+      role: mentioned
+      seg:
+      - 2
+      slug: da-mu-bo-shi
+      via: llm
+    - name: 大木雪成
+      role: mentioned
+      seg:
+      - 13
+      slug: null
+      via: llm
+    - name: 西之森教授
+      role: mentioned
+      seg:
+      - 12
+      slug: null
+      via: llm
+    - kind: character
+      name: 正辉
+      role: mentioned
+      seg:
+      - 22
+      slug: zheng-hui
+      via: llm
+    - name: 曾崎正辉
+      role: mentioned
+      seg:
+      - 44
+      slug: null
+      via: llm
+    - name: 达尔文
+      role: mentioned
+      seg:
+      - 8
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 玉虹大学
+      seg:
+      - 2
+      via: llm
+      what: 演讲主办地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 玉虹市
+      seg:
+      - 41
+      via: llm
+      what: 百货商店所在地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 华蓝市
+      seg:
+      - 44
+      via: llm
+      what: 正辉住处附近
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 5号道路
+      seg:
+      - 67
+      via: llm
+      what: 培育屋报名处
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 京都
+      seg:
+      - 38
+      via: llm
+      what: 朋友居住地
+      world: real
+    pokemon:
+    - as:
+      - 妙蛙草
+      name: 妙蛙草
+      ndex: 2
+      seg:
+      - 18
+      - 30
+      via: body
+    - as:
+      - 小火龙
+      name: 小火龙
+      ndex: 4
+      seg:
+      - 30
+      via: body
+    - as:
+      - 杰尼龟
+      name: 杰尼龟
+      ndex: 7
+      seg:
+      - 30
+      via: body
+    - as:
+      - 绿毛虫
+      name: 绿毛虫
+      ndex: 10
+      seg:
+      - 93
+      via: body
+    - as:
+      - 巴大蝶
+      name: 巴大蝶
+      ndex: 12
+      seg:
+      - 96
+      via: body
+    - as:
+      - 大针蜂
+      name: 大针蜂
+      ndex: 15
+      seg:
+      - 51
+      via: body
+    - as:
+      - 大比鸟
+      name: 大比鸟
+      ndex: 18
+      seg:
+      - 56
+      - 95
+      via: body
+    - as:
+      - 大嘴雀
+      name: 大嘴雀
+      ndex: 22
+      seg:
+      - 56
+      via: body
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 6
+      - 18
+      - 48
+      - 56
+      via: body
+    - as:
+      - 皮可西
+      name: 皮可西
+      ndex: 36
+      seg:
+      - 49
+      via: body
+    - as:
+      - 哥达鸭
+      name: 哥达鸭
+      ndex: 55
+      seg:
+      - 87
+      via: body
+    - as:
+      - 火暴猴
+      name: 火暴猴
+      ndex: 57
+      seg:
+      - 12
+      via: body
+    - as:
+      - 风速狗
+      name: 风速狗
+      ndex: 59
+      seg:
+      - 74
+      via: body
+    - as:
+      - 隆隆岩
+      name: 隆隆岩
+      ndex: 76
+      seg:
+      - 101
+      via: body
+    - as:
+      - 烈焰马
+      name: 烈焰马
+      ndex: 78
+      seg:
+      - 103
+      via: body
+    - as:
+      - 大葱鸭
+      name: 大葱鸭
+      ndex: 83
+      seg:
+      - 36
+      via: body
+    - as:
+      - 嘟嘟利
+      name: 嘟嘟利
+      ndex: 85
+      seg:
+      - 56
+      via: body
+    - as:
+      - 白海狮
+      name: 白海狮
+      ndex: 87
+      seg:
+      - 78
+      via: body
+    - as:
+      - 大岩蛇
+      name: 大岩蛇
+      ndex: 95
+      seg:
+      - 93
+      via: body
+    - as:
+      - 蔓藤怪
+      name: 蔓藤怪
+      ndex: 114
+      seg:
+      - 83
+      via: body
+    - as:
+      - 肯泰罗
+      name: 肯泰罗
+      ndex: 128
+      seg:
+      - 82
+      via: body
+    - as:
+      - 鲤鱼王
+      name: 鲤鱼王
+      ndex: 129
+      seg:
+      - 54
+      - 77
+      via: body
+    - as:
+      - 暴鲤龙
+      name: 暴鲤龙
+      ndex: 130
+      seg:
+      - 54
+      - 56
+      - 93
+      via: body
+    - as:
+      - 卡比兽
+      name: 卡比兽
+      ndex: 143
+      seg:
+      - 100
+      via: body
+    - as:
+      - 急冻鸟
+      name: 急冻鸟
+      ndex: 144
+      seg:
+      - 56
+      via: body
+    - as:
+      - 闪电鸟
+      name: 闪电鸟
+      ndex: 145
+      seg:
+      - 56
+      via: body
+    - as:
+      - 火焰鸟
+      name: 火焰鸟
+      ndex: 146
+      seg:
+      - 56
+      via: body
+    - as:
+      - 哈克龙
+      name: 哈克龙
+      ndex: 148
+      seg:
+      - 93
+      via: body
+    works:
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+  id: scan-shodai-zukan-1996-pokemon-journal
+  observations:
+  - seg: 12
+    text: 1925年西之森教授弄错用药量，火暴猴钻进远视眼镜盒
+  - seg: 27
+    text: 正辉称一个人冒险能收集到的极限约130种
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+1997-05-23-interview-famimaga-tajiri-pokemon2-secret:
+  facets:
+    people:
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 62
+      slug: masuda-junichi
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 23
+      - 55
+      slug: tajiri-satoshi
+    - name: 杉森建
+      role: mentioned
+      seg:
+      - 23
+      slug: sugimori-ken
+    - name: 森本茂树
+      role: mentioned
+      seg: []
+      slug: morimoto-shigeki
+    - name: 裕木奈江
+      role: mentioned
+      seg:
+      - 55
+      slug: null
+    - name: 久保雅一
+      role: mentioned
+      seg:
+      - 38
+      slug: kubo-masakazu
+      via: llm
+    - name: 忍者增田
+      role: mentioned
+      seg:
+      - 40
+      slug: null
+      via: llm
+    - name: 高桥Pyon太
+      role: mentioned
+      seg:
+      - 40
+      slug: null
+      via: llm
+    - name: 渡边
+      role: mentioned
+      seg:
+      - 62
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 华蓝市
+      seg:
+      - 20
+      via: llm
+      what: 西北洞穴所在城市
+      world: game
+    pokemon:
+    - as:
+      - 妙蛙种子
+      name: 妙蛙种子
+      ndex: 1
+      seg:
+      - 10
+      via: body
+    - as:
+      - 小火龙
+      name: 小火龙
+      ndex: 4
+      seg:
+      - 3
+      via: body
+    - as:
+      - 喷火龙
+      name: 喷火龙
+      ndex: 6
+      seg:
+      - 3
+      via: body
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 57
+      via: body
+    - as:
+      - 吉利蛋
+      name: 吉利蛋
+      ndex: 113
+      seg:
+      - 38
+      via: body
+    - as:
+      - 飞天螳螂
+      name: 飞天螳螂
+      ndex: 123
+      seg:
+      - 38
+      via: body
+    - as:
+      - 卡比兽
+      name: 卡比兽
+      ndex: 143
+      seg:
+      - 38
+      via: body
+    - as:
+      - 梦幻
+      name: 梦幻
+      ndex: 151
+      seg:
+      - 38
+      via: llm
+    - as:
+      - 凤王
+      name: 凤王
+      ndex: 250
+      seg:
+      - 48
+      via: llm
+    - as:
+      - 波波
+      name: 波波
+      ndex: 16
+      seg:
+      - 10
+      via: llm
+    works:
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: 宝可梦 金·银
+      seg: []
+      slug: gold-silver
+      via: entities
+    - name: 宝可梦 皮卡丘
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦2
+      seg:
+      - 25
+      slug: null
+      via: llm
+    - name: Family Computer Magazine
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: FamiMaga64
+      seg:
+      - 24
+      slug: null
+      via: llm
+    - name: Fami通
+      seg:
+      - 39
+      slug: null
+      via: llm
+    - name: 快乐快乐月刊
+      seg:
+      - 36
+      slug: null
+      via: llm
+    - name: 电击Nintendo64
+      seg:
+      - 58
+      slug: null
+      via: llm
+    - name: The 64 DREAM
+      seg:
+      - 60
+      slug: null
+      via: llm
+    - name: 宝可梦·故事
+      seg:
+      - 38
+      slug: null
+      via: llm
+    - name: 巫术外传Ⅰ
+      seg:
+      - 45
+      slug: null
+      via: llm
+    - name: 忍者增田的复古游戏忍法帖
+      seg:
+      - 45
+      slug: null
+      via: llm
+    - name: 鼹鼠～ニャ
+      seg:
+      - 48
+      slug: null
+      via: llm
+    - name: 炸弹人合集
+      seg:
+      - 48
+      slug: null
+      via: llm
+    - name: Login
+      seg:
+      - 40
+      slug: null
+      via: llm
+  id: interview-famimaga-tajiri-pokemon2-secret
+  observations:
+  - anchor: 4
+    seg: 3
+    text: 记载为12月21日发售预定，实际延期至1996年2月27日
+  - anchor: 7
+    seg: 6
+    text: 96年3月8日号用4页做特集，被称异例待遇
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world:
+  facets:
+    people:
+    - name: N.O.M采访者
+      role: speaker
+      seg:
+      - 5
+      - 7
+      - 9
+      - 11
+      - 13
+      - 15
+      slug: null
+    - name: 石原恒和
+      role: speaker
+      seg:
+      - 6
+      - 8
+      - 10
+      - 12
+      - 14
+      - 16
+      slug: ishihara-tsunekazu
+    places: []
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 8
+      - 10
+      via: body
+    works:
+    - name: 宝可梦集换式卡牌游戏
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦 金·银
+      seg: []
+      slug: gold-silver
+      via: entities
+    - name: 宝可梦 水晶版
+      seg: []
+      slug: crystal
+      via: entities
+    - name: 宝可梦迷你
+      seg:
+      - 6
+      slug: null
+      via: llm
+    - name: 宝可梦卡牌e
+      seg:
+      - 27
+      slug: null
+      via: llm
+  id: interview-nom-2001-ishihara-tsunekazu-pokemon-world
+  observations:
+  - anchor: 7
+    seg: 6
+    text: 宝可梦迷你画面像素数为96×64，采用1位色图形
+  - anchor: 27
+    seg: 26
+    text: 软件发售目标为大约每3个月两款
+  relations:
+  - id: interview-nom-2001-pokemon-card-e-creatures
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同属N.O.M 2001年11月号卡牌e与迷你专题
+  - id: interview-nom-2001-pokemon-mini-developers
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同属N.O.M 2001年11月号宝可梦迷你专题
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2004-08-02-gamefreak-director-001:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places: []
+    pokemon: []
+    works: []
+  id: gamefreak-director-001
+  observations:
+  - seg: 1
+    text: 增田自称是 GAME FREAK 的增田
+  - seg: 7
+    text: GAME FREAK 最重视的是「讲究地创作」
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2006-09-28-gamefreak-director-060:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 新宿高岛屋
+      seg:
+      - 4
+      via: llm
+      what: 举办发售活动
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 钻石·珍珠
+      seg: []
+      slug: diamond-pearl
+      via: entities
+    - name: 宝可梦 钻石
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 宝可梦 珍珠
+      seg:
+      - 2
+      slug: null
+      via: llm
+  id: gamefreak-director-060
+  observations:
+  - seg: 4
+    text: 增田顺一早上去了新宿高岛屋的活动，活动7点45分开始。
+  - seg: 5
+    text: 有人从昨晚开始彻夜排队，也有人从凌晨4点开始排队。
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori:
+  facets:
+    people:
+    - name: N.O.M采访者
+      role: speaker
+      seg:
+      - 1
+      - 6
+      - 8
+      - 11
+      - 13
+      - 16
+      slug: null
+    - name: 杉森建
+      role: speaker
+      seg:
+      - 2
+      - 14
+      - 20
+      - 22
+      - 35
+      - 38
+      slug: sugimori-ken
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 3
+      - 5
+      - 10
+      - 15
+      - 18
+      - 24
+      slug: masuda-junichi
+    - name: 石原恒和
+      role: speaker
+      seg:
+      - 4
+      - 7
+      - 9
+      - 12
+      - 17
+      - 31
+      slug: ishihara-tsunekazu
+    - name: 岩田
+      role: mentioned
+      seg:
+      - 4
+      slug: null
+      via: llm
+    - name: 田尻
+      role: mentioned
+      seg:
+      - 52
+      slug: null
+      via: llm
+    places: []
+    pokemon:
+    - as:
+      - 喷火龙
+      name: 喷火龙
+      ndex: 6
+      seg:
+      - 46
+      via: body
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 46
+      via: body
+    - as:
+      - 波加曼
+      name: 波加曼
+      ndex: 393
+      seg:
+      - 36
+      via: body
+    - as:
+      - 超梦
+      name: 超梦
+      ndex: 150
+      seg:
+      - 46
+      via: llm
+    works:
+    - name: 宝可梦 钻石·珍珠
+      seg:
+      - 0
+      - 7
+      - 8
+      slug: diamond-pearl
+      via: entities
+    - name: 宝可梦对战革命
+      seg:
+      - 58
+      slug: battle-revolution
+      via: entities
+    - name: 绿宝石
+      seg:
+      - 17
+      slug: null
+      via: llm
+    - name: 锻炼大脑的成年人的DS训练
+      seg:
+      - 31
+      slug: null
+      via: llm
+    - name: 马力欧
+      seg:
+      - 50
+      slug: null
+      via: llm
+    - name: New超级马力欧兄弟
+      seg:
+      - 50
+      slug: null
+      via: llm
+  id: interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori
+  observations:
+  - anchor: 25
+    seg: 24
+    text: 物理与特殊攻击不再按属性划分，改为按招式分别分类
+  - anchor: 37
+    seg: 36
+    text: 增田推荐水属性波加曼，因首个道馆馆主是岩石属性
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2007-10-03-gamefreak-director-108:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places: []
+    pokemon: []
+    works: []
+  id: gamefreak-director-108
+  observations:
+  - seg: 6
+    text: 增田顺一说想到点子会立刻记在手帐里
+  - seg: 10
+    text: 他说手机邮件记点子的极限是没法画插图
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148:
+  facets:
+    people:
+    - name: 首藤刚志
+      role: mentioned
+      seg: []
+      slug: shudo-takeshi
+    - name: 汤山邦彦
+      role: mentioned
+      seg: []
+      slug: yuyama-kunihiko
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 石英高原联盟
+      seg:
+      - 2
+      via: llm
+      what: 保送资格目标
+      world: game
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 5
+      via: body
+    works:
+    - name: 宝可梦 动画系列
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+  id: interview-takeshi-shudo-pokemon-memoir-ch148
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 第9话标题为《宝可梦胜负指南》，由首藤刚志执笔剧本
+  - anchor: 3
+    seg: 2
+    text: 前8集紧扣《红/绿》卡带框架，第9话出现游戏未提的补习学校体制
+  relations:
+  - id: interview-takeshi-shudo-pokemon-memoir-ch138
+    kind: background
+    label: 为这篇提供背景
+    why: 第138回讲首藤接宝可梦委托的源起
+  - id: interview-takeshi-shudo-pokemon-memoir-ch139
+    kind: background
+    label: 为这篇提供背景
+    why: 第139回讲游戏改编动画的最初思索
+  - id: interview-takeshi-shudo-pokemon-memoir-ch140
+    kind: background
+    label: 为这篇提供背景
+    why: 第140回讲首次企划会与皮卡丘抉择
+  - id: interview-takeshi-shudo-pokemon-memoir-ch141
+    kind: background
+    label: 为这篇提供背景
+    why: 第141回讲首藤亲自通关红绿卡带
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2008-06-13-gamefreak-staff-75:
+  facets:
+    people:
+    - name: しゃち
+      role: mentioned
+      seg:
+      - 0
+      slug: null
+      via: llm
+    places: []
+    pokemon: []
+    works: []
+  id: gamefreak-staff-75
+  observations:
+  - seg: 10
+    text: 蜀葵从近地面的花蕾依次开放，梅雨结束顶端花谢
+  - seg: 19
+    text: しゃち小时候把捉到的萤火虫放进萤袋花里当灯玩
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2008-08-21-scan-ndream-2008-10-platinum-special:
+  facets:
+    people:
+    - name: 山梨博士
+      role: mentioned
+      seg:
+      - 92
+      slug: null
+      via: llm
+    - name: 赤日
+      role: mentioned
+      seg:
+      - 91
+      slug: null
+      via: llm
+    - name: 帅哥
+      role: mentioned
+      seg:
+      - 129
+      slug: null
+      via: llm
+    - name: 玛姿
+      role: mentioned
+      seg:
+      - 139
+      slug: null
+      via: llm
+    - name: 瓢太
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 菜种
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 梅丽莎
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 阿李
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 吉宪
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 东瓜
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 小菘
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    - name: 电次
+      role: mentioned
+      seg:
+      - 81
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 毁坏的世界
+      seg:
+      - 8
+      via: llm
+      what: 骑拉帝纳出现之地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 花苑镇
+      seg:
+      - 59
+      via: llm
+      what: 获得葛拉西蒂亚花之地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 神奥地区
+      seg:
+      - 74
+      via: llm
+      what: 游戏舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 双叶镇
+      seg:
+      - 93
+      via: llm
+      what: 冒险开始之地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 心齐湖
+      seg:
+      - 104
+      via: llm
+      what: 《钻石·珍珠》中与博士相遇之地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 天冠山
+      seg:
+      - 143
+      via: llm
+      what: 《钻石·珍珠》中首次遇到赤日之地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 对战开拓区
+      seg:
+      - 161
+      via: llm
+      what: 新增对战设施
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 兵库县
+      seg:
+      - 186
+      via: llm
+      what: 预选赛举办地
+      world: real
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 40
+      via: body
+    - as:
+      - 烈焰马
+      name: 烈焰马
+      ndex: 78
+      seg:
+      - 173
+      via: body
+    - as:
+      - 暴鲤龙
+      name: 暴鲤龙
+      ndex: 130
+      seg:
+      - 182
+      via: body
+    - as:
+      - 多边兽
+      name: 多边兽
+      ndex: 137
+      seg:
+      - 29
+      - 31
+      via: body
+    - as:
+      - 果然翁
+      name: 果然翁
+      ndex: 202
+      seg:
+      - 205
+      - 206
+      via: body
+    - as:
+      - 吞食兽
+      name: 吞食兽
+      ndex: 317
+      seg:
+      - 201
+      - 202
+      via: body
+    - as:
+      - 夜巡灵
+      name: 夜巡灵
+      ndex: 355
+      seg:
+      - 83
+      - 84
+      via: body
+    - as:
+      - 草苗龟
+      name: 草苗龟
+      ndex: 387
+      seg:
+      - 122
+      via: body
+    - as:
+      - 小火焰猴
+      name: 小火焰猴
+      ndex: 390
+      seg:
+      - 121
+      via: body
+    - as:
+      - 波加曼
+      name: 波加曼
+      ndex: 393
+      seg:
+      - 123
+      via: body
+    - as:
+      - 结草儿
+      name: 结草儿
+      ndex: 412
+      seg:
+      - 29
+      - 33
+      via: body
+    - as:
+      - 浮潜鼬
+      name: 浮潜鼬
+      ndex: 419
+      seg:
+      - 53
+      via: body
+    - as:
+      - 铃铛响
+      name: 铃铛响
+      ndex: 433
+      seg:
+      - 35
+      via: body
+    - as:
+      - 青铜钟
+      name: 青铜钟
+      ndex: 437
+      seg:
+      - 34
+      via: body
+    - as:
+      - 魔尼尼
+      name: 魔尼尼
+      ndex: 439
+      seg:
+      - 203
+      - 204
+      via: body
+    - as:
+      - 自爆磁怪
+      name: 自爆磁怪
+      ndex: 462
+      seg:
+      - 29
+      - 30
+      via: body
+    - as:
+      - 天蝎王
+      name: 天蝎王
+      ndex: 472
+      seg:
+      - 29
+      - 36
+      - 37
+      via: body
+    - as:
+      - 骑拉帝纳
+      name: 骑拉帝纳
+      ndex: 487
+      seg:
+      - 4
+      - 5
+      - 6
+      - 8
+      - 10
+      - 13
+      via: body
+    - as:
+      - 谢米
+      name: 谢米
+      ndex: 492
+      seg:
+      - 4
+      via: llm
+    works:
+    - name: 宝可梦 白金
+      seg:
+      - 23
+      - 24
+      - 71
+      - 127
+      - 154
+      - 155
+      slug: platinum
+      via: entities
+    - name: 宝可梦 钻石·珍珠
+      seg:
+      - 5
+      slug: diamond-pearl
+      via: llm
+  id: scan-ndream-2008-10-platinum-special
+  observations:
+  - seg: 5
+    text: 《钻石·珍珠》中的骑拉帝纳是别种形态，《白金》中起源形态的身高、体重和特性也发生变化。
+  - seg: 18
+    text: 剪影2的真身无法在通常游玩中见到，需要某个道具，该道具配信期间为2008年9月28日至11月4日。
+  relations:
+  - id: scan-ndream-2008-12-game-freak-interview
+    kind: responds
+    label: 后来回应了这篇
+    why: 同刊后篇谈白金起源形态、谢米形态等新要素
+  - id: scan-ndream-2008-12-platinum-battle-dojo
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同刊白金特辑，附白金专访与获取攻略
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163:
+  facets:
+    people:
+    - name: 首藤刚志
+      role: mentioned
+      seg:
+      - 13
+      slug: shudo-takeshi
+    - name: 汤山邦彦
+      role: mentioned
+      seg: []
+      slug: yuyama-kunihiko
+    - name: 久保雅一
+      role: mentioned
+      seg:
+      - 2
+      slug: kubo-masakazu
+    - name: 铃木敏夫
+      role: mentioned
+      seg:
+      - 11
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 东京湾
+      seg:
+      - 10
+      via: llm
+      what: 游轮庆功宴地点
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 动画系列
+      seg: []
+      slug: null
+      via: entities
+    - name: 超梦的逆袭
+      seg:
+      - 12
+      - 13
+      slug: null
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+  id: interview-takeshi-shudo-pokemon-memoir-ch163
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 首藤刚志以系列构成身份受邀时，动画化企划已定
+  - anchor: 8
+    seg: 7
+    text: 单集剧本基础稿酬比业界行规高5000日元，系列构成总费被砍2万日元
+  relations:
+  - id: interview-takeshi-shudo-pokemon-memoir-ch165
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为手记连载，第165回紧接第163回
+  - id: interview-takeshi-shudo-pokemon-memoir-ch166
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为手记连载，第166回续第163回
+  - id: interview-takeshi-shudo-pokemon-memoir-ch167
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为手记连载，第167回续第163回
+  - id: interview-takeshi-shudo-pokemon-memoir-ch168
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为手记连载，第168回续第163回
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176:
+  facets:
+    people:
+    - name: 首藤刚志
+      role: mentioned
+      seg:
+      - 12
+      slug: shudo-takeshi
+    - kind: character
+      name: 小霞
+      role: mentioned
+      seg:
+      - 79
+      slug: xiao-xia
+    - kind: character
+      name: 超梦
+      role: mentioned
+      seg:
+      - 2
+      - 79
+      slug: chao-meng
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 涩谷
+      seg:
+      - 6
+      via: llm
+      what: 看艺术院线电影
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 小田原
+      seg:
+      - 5
+      via: llm
+      what: 旧工作室所在地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 新宿
+      seg:
+      - 51
+      via: llm
+      what: 与制片人对饮处
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 目黑
+      seg:
+      - 52
+      via: llm
+      what: 就诊卡上的医院所在
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 吉卜力工作室
+      seg:
+      - 71
+      via: llm
+      what: 内部试映会地点
+      world: real
+    pokemon:
+    - as:
+      - 超梦
+      name: 超梦
+      ndex: 150
+      seg:
+      - 79
+      via: llm
+    works:
+    - name: 超梦的逆袭
+      seg:
+      - 2
+      - 79
+      slug: null
+      via: entities
+    - name: 魔法小天使 甜甜仙子
+      seg:
+      - 51
+      - 76
+      slug: null
+      via: entities
+    - name: 战国魔神豪将军
+      seg:
+      - 76
+      slug: null
+      via: entities
+    - name: 银河英雄传说
+      seg:
+      - 76
+      slug: null
+      via: entities
+    - name: 漫画原来如此物语
+      seg:
+      - 74
+      slug: null
+      via: entities
+  id: interview-takeshi-shudo-pokemon-memoir-ch176
+  observations:
+  - anchor: 6
+    seg: 5
+    text: 工作室从小田原搬迁至东京，阳台被100英寸幕布遮蔽
+  - anchor: 40
+    seg: 39
+    text: 第二次送医前在便利店归途，记忆断片后已在救护车上
+  relations:
+  - id: interview-takeshi-shudo-pokemon-memoir-ch171
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为《超梦的逆袭》主题系列，前接第171回
+  - id: interview-takeshi-shudo-pokemon-memoir-ch172
+    kind: continues
+    label: 同一系列的前后篇
+    why: 克隆与本体讨论，紧接第171回之后
+  - id: interview-takeshi-shudo-pokemon-memoir-ch173
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同属《超梦的逆袭》母题系列，第173回
+  - id: interview-takeshi-shudo-pokemon-memoir-ch170
+    kind: background
+    label: 为这篇提供背景
+    why: 第170回交代首藤已离开宝可梦脚本创作
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2009-03-27-gamefreak-director-145:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: Wi-Fi广场
+      seg:
+      - 3
+      via: llm
+      what: 游戏内设施
+      world: game
+    pokemon: []
+    works:
+    - name: 宝可梦 白金
+      seg:
+      - 0
+      - 20
+      slug: platinum
+      via: entities
+  id: gamefreak-director-145
+  observations:
+  - seg: 0
+    text: 3月22日，北美版《宝可梦 白金》发售
+  - seg: 2
+    text: 日本和北美玩家可跨越国界一起游玩
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2009-04-16-gamefreak-director-146:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places:
+    - category: pc
+      entity: pokemon_center_tokyo
+      id: null
+      name: 宝可梦中心东京
+      seg:
+      - 5
+      via: gazetteer
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 筑地市场
+      seg:
+      - 3
+      via: llm
+      what: 排名第1的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 东京迪士尼乐园
+      seg:
+      - 4
+      via: llm
+      what: 排名第2的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 六本木新城
+      seg:
+      - 6
+      via: llm
+      what: 排名第4的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 东京迪士尼海洋
+      seg:
+      - 7
+      via: llm
+      what: 排名第5的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 浅草寺 浅草观音堂
+      seg:
+      - 8
+      via: llm
+      what: 排名第6的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 金阁寺
+      seg:
+      - 9
+      via: llm
+      what: 排名第7的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 伏见稻荷大社
+      seg:
+      - 10
+      via: llm
+      what: 排名第8的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: Spa World
+      seg:
+      - 11
+      via: llm
+      what: 排名第9的景点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 日本环球影城
+      seg:
+      - 12
+      via: llm
+      what: 排名第10的景点
+      world: real
+    pokemon: []
+    works: []
+  id: gamefreak-director-146
+  observations:
+  - seg: 0
+    text: 外国人想去的日本旅游景点2008中排名第3
+  - seg: 1
+    text: 排名根据TripAdvisor网站用户使用动向统计
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185:
+  facets:
+    people:
+    - name: 首藤刚志
+      role: mentioned
+      seg:
+      - 18
+      - 37
+      - 50
+      - 108
+      slug: shudo-takeshi
+    - name: 汤山邦彦
+      role: mentioned
+      seg:
+      - 47
+      - 71
+      - 73
+      slug: yuyama-kunihiko
+    - kind: character
+      name: 小智
+      role: mentioned
+      seg:
+      - 70
+      - 108
+      - 109
+      slug: xiao-zhi
+    - kind: character
+      name: 小霞
+      role: mentioned
+      seg:
+      - 108
+      slug: xiao-xia
+    - kind: character
+      name: 小刚
+      role: mentioned
+      seg:
+      - 96
+      - 98
+      - 99
+      - 101
+      - 104
+      - 105
+      slug: xiao-gang
+    - kind: character
+      name: 小建
+      role: mentioned
+      seg: []
+      slug: xiao-jian
+    - kind: figure
+      name: 牛顿
+      role: mentioned
+      seg:
+      - 12
+      slug: niu-dun
+    - kind: figure
+      name: 爱因斯坦
+      role: mentioned
+      seg:
+      - 10
+      - 12
+      slug: ai-yin-si-tan
+    - kind: figure
+      name: 居里夫人
+      role: mentioned
+      seg:
+      - 12
+      slug: ju-li-fu-ren
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 拉斯维加斯
+      seg:
+      - 2
+      via: llm
+      what: 庆功旅行地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 涉谷
+      seg:
+      - 70
+      via: llm
+      what: 提议的起点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 品川
+      seg:
+      - 70
+      via: llm
+      what: 提议的途经地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 京都
+      seg:
+      - 70
+      via: llm
+      what: 提议的终点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 橘子群岛
+      seg:
+      - 72
+      via: llm
+      what: 动画原创篇章
+      world: game
+    pokemon:
+    - as:
+      - 拉普拉斯
+      name: 拉普拉斯
+      ndex: 131
+      seg:
+      - 71
+      via: body
+    - as:
+      - 洛奇亚
+      name: 洛奇亚
+      ndex: 249
+      seg:
+      - 105
+      via: body
+    works:
+    - name: 超梦的逆袭
+      seg:
+      - 2
+      - 6
+      - 8
+      - 18
+      - 19
+      - 55
+      slug: null
+      via: entities
+    - name: 洛奇亚爆诞
+      seg:
+      - 105
+      slug: null
+      via: entities
+    - name: 宝可梦 金·银
+      seg:
+      - 56
+      slug: gold-silver
+      via: entities
+    - name: 永远的菲莱娜
+      seg:
+      - 58
+      slug: null
+      via: entities
+  id: interview-takeshi-shudo-pokemon-memoir-ch185
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 首藤刚志拒绝了《超梦的逆袭》全美大卖庆功的拉斯维加斯之旅。
+  - anchor: 13
+    seg: 12
+    text: 该音乐剧讲述牛顿、爱迪生、居里夫人与爱因斯坦同台歌唱辩论。
+  relations:
+  - id: interview-takeshi-shudo-pokemon-memoir-ch186
+    kind: continues
+    label: 同一系列的前后篇
+    why: 第186回紧接第185回，续谈第二部剧场版筹备
+  - id: interview-takeshi-shudo-pokemon-memoir-ch163
+    kind: background
+    label: 为这篇提供背景
+    why: 第163回介绍“御前样”久保雅一，即被拂逆者
+  - id: interview-takeshi-shudo-pokemon-memoir-ch181
+    kind: background
+    label: 为这篇提供背景
+    why: 第181回讲《超梦的逆袭》公映，即庆功拉斯维加斯之旅背景
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium:
+  facets:
+    people:
+    - name: 岩田聪
+      role: speaker
+      seg:
+      - 0
+      - 3
+      - 5
+      - 7
+      - 9
+      - 12
+      slug: iwata-satoru
+    - name: 石原恒和
+      role: speaker
+      seg:
+      - 1
+      - 6
+      - 8
+      - 10
+      - 21
+      - 29
+      slug: ishihara-tsunekazu
+    - name: 森本茂树
+      role: speaker
+      seg:
+      - 2
+      - 4
+      - 13
+      - 15
+      - 17
+      - 19
+      slug: morimoto-shigeki
+    - name: 众人
+      role: speaker
+      seg:
+      - 16
+      - 30
+      slug: null
+    - name: 宫本茂
+      role: mentioned
+      seg:
+      - 12
+      slug: miyamoto-shigeru
+      via: llm
+    - name: 田尻
+      role: mentioned
+      seg:
+      - 32
+      slug: null
+      via: llm
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 金·银
+      seg: []
+      slug: gold-silver
+      via: entities
+    - name: 宝可梦竞技场
+      seg:
+      - 10
+      - 12
+      slug: stadium
+      via: entities
+    - name: 宝可梦 心金·魂银
+      seg: []
+      slug: heartgold-soulsilver
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+  id: interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 石原恒和说《金·银》发售于1999年11月，花了三年半
+  - anchor: 3
+    seg: 2
+    text: 森本茂树说《金·银》和《赤·绿》时期程序员大约只有4人
+  relations:
+  - id: interview-iwata-asks-hgss-chapter-1-red-green-mew
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为社长问心金魂银，第1章在前
+  - id: interview-iwata-asks-hgss-chapter-2-portable-toy-king
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为社长问心金魂银，第2章在前
+  - id: interview-iwata-asks-b2w2-chapter-2-100-player-co-op
+    kind: background
+    label: 为这篇提供背景
+    why: 海野在金银发售时排队，涉金银
+  - id: interview-takeshi-shudo-pokemon-memoir-ch185
+    kind: background
+    label: 为这篇提供背景
+    why: 首藤手记提及金银延期
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205:
+  facets:
+    people:
+    - name: 首藤刚志
+      role: mentioned
+      seg:
+      - 24
+      - 106
+      - 144
+      slug: shudo-takeshi
+    - kind: character
+      name: 武藏
+      role: mentioned
+      seg:
+      - 5
+      slug: wu-cang
+    - kind: character
+      name: 小次郎
+      role: mentioned
+      seg:
+      - 5
+      slug: xiao-ci-lang
+    - kind: character
+      name: 喵喵
+      role: mentioned
+      seg:
+      - 5
+      - 21
+      slug: miao-miao
+    - kind: character
+      name: 小智
+      role: mentioned
+      seg:
+      - 25
+      - 30
+      - 33
+      - 36
+      - 39
+      - 43
+      slug: xiao-zhi
+    - kind: character
+      name: 皮卡丘
+      role: mentioned
+      seg:
+      - 25
+      - 36
+      - 39
+      slug: pi-ka-qiu
+    - name: 洛奇亚
+      role: mentioned
+      seg:
+      - 1
+      - 29
+      - 32
+      - 34
+      - 36
+      - 37
+      slug: null
+    - name: 芙卢拉
+      role: mentioned
+      seg:
+      - 66
+      - 67
+      - 97
+      slug: null
+    - name: 小林幸子
+      role: mentioned
+      seg:
+      - 100
+      slug: kobayashi-sachiko
+    - name: 汤山邦彦
+      role: mentioned
+      seg:
+      - 105
+      slug: yuyama-kunihiko
+    - name: 南方仁
+      role: mentioned
+      seg:
+      - 142
+      slug: null
+    - kind: character
+      name: 小霞
+      role: mentioned
+      seg:
+      - 66
+      slug: xiao-xia
+      via: llm
+    - kind: character
+      name: 花子
+      role: mentioned
+      seg:
+      - 70
+      slug: hua-zi
+      via: llm
+    - kind: character
+      name: 坂木
+      role: mentioned
+      seg:
+      - 20
+      slug: ban-mu
+      via: llm
+    - name: 理查德·马瑟森
+      role: mentioned
+      seg:
+      - 133
+      slug: null
+      via: llm
+    - name: 吉诺特·兹瓦克
+      role: mentioned
+      seg:
+      - 133
+      slug: null
+      via: llm
+    - name: 克里斯托弗·里夫
+      role: mentioned
+      seg:
+      - 133
+      slug: null
+      via: llm
+    - name: 简·西摩
+      role: mentioned
+      seg:
+      - 133
+      slug: null
+      via: llm
+    - name: 约翰·巴里
+      role: mentioned
+      seg:
+      - 133
+      slug: null
+      via: llm
+    - name: 坂本龙马
+      role: mentioned
+      seg:
+      - 122
+      slug: null
+      via: llm
+    - name: 村上纪香
+      role: mentioned
+      seg:
+      - 132
+      slug: null
+      via: llm
+    - kind: figure
+      name: 吉拉尔丹
+      role: mentioned
+      seg:
+      - 95
+      slug: ji-la-er-dan
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 江户
+      seg:
+      - 112
+      via: llm
+      what: 《仁医》穿越的幕末时代
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 北美
+      seg:
+      - 104
+      via: llm
+      what: 宝可梦电影上映市场
+      world: real
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 25
+      - 36
+      - 39
+      via: body
+    - as:
+      - 洛奇亚
+      name: 洛奇亚
+      ndex: 249
+      seg:
+      - 1
+      - 29
+      - 32
+      - 34
+      - 36
+      - 37
+      via: body
+    works:
+    - name: 洛奇亚爆诞
+      seg:
+      - 1
+      - 32
+      - 52
+      - 82
+      - 90
+      - 102
+      slug: null
+      via: entities
+    - name: 超梦的逆袭
+      seg:
+      - 102
+      slug: null
+      via: entities
+    - name: 风といっしょに
+      seg:
+      - 100
+      slug: null
+      via: entities
+    - name: 仁医
+      seg:
+      - 109
+      - 113
+      - 117
+      - 130
+      - 141
+      slug: null
+      via: entities
+    - name: 似曾相识
+      seg:
+      - 133
+      - 142
+      - 144
+      slug: null
+      via: entities
+    - name: 回到未来
+      seg:
+      - 116
+      slug: null
+      via: llm
+    - name: 终结者
+      seg:
+      - 116
+      slug: null
+      via: llm
+    - name: 千与千寻
+      seg:
+      - 104
+      slug: null
+      via: llm
+    - name: 白色巨塔
+      seg:
+      - 124
+      slug: null
+      via: llm
+    - name: 高达
+      seg:
+      - 5
+      slug: null
+      via: llm
+    - name: 三个火枪手
+      seg:
+      - 5
+      slug: null
+      via: llm
+  id: interview-takeshi-shudo-pokemon-memoir-ch205
+  observations:
+  - anchor: 42
+    seg: 41
+    text: 三人组因不甘沦为累赘，主动松开洛奇亚脚爪坠向冰原
+  - anchor: 64
+    seg: 63
+    text: 冰面出现融化的冰洞水面，三人组落入冰水捡回性命
+  relations:
+  - id: interview-takeshi-shudo-pokemon-memoir-ch185
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同系列手记，第185回紧接第205回前谈洛奇亚爆诞
+  - id: interview-takeshi-shudo-pokemon-memoir-ch175
+    kind: background
+    label: 为这篇提供背景
+    why: 同系列谈野生与驯化奴役悖论，为洛奇亚伦理铺垫
+  - id: interview-takeshi-shudo-pokemon-memoir-ch184
+    kind: background
+    label: 为这篇提供背景
+    why: 同系列披露宝可梦被奴役角斗士的最终回构想
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-01-15-gamefreak-staff-164:
+  facets:
+    people:
+    - name: マー
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    places: []
+    pokemon: []
+    works: []
+  id: gamefreak-staff-164
+  observations:
+  - seg: 1
+    text: 「我」说想把一日三餐全换成糯米饭，自称策划マー
+  - seg: 12
+    text: 「我」在日本生活已有二十多年
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-02-20-scan-ndream-2010-04-creatures-ranger-interview:
+  facets:
+    people:
+    - name: 入江勝義
+      role: mentioned
+      seg: []
+      slug: null
+    - name: 鳥居康功
+      role: mentioned
+      seg: []
+      slug: null
+    - name: 五十嵐寛
+      role: mentioned
+      seg: []
+      slug: null
+    - name: 漁康智
+      role: mentioned
+      seg: []
+      slug: null
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 古代神殿
+      seg:
+      - 50
+      via: llm
+      what: 收集石板的关卡
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 神殿
+      seg:
+      - 51
+      via: llm
+      what: 联机征战的场所
+      world: game
+    pokemon:
+    - as:
+      - 代欧奇希斯
+      name: 代欧奇希斯
+      ndex: 386
+      seg:
+      - 56
+      via: body
+    - as:
+      - 皮丘
+      name: 皮丘
+      ndex: 172
+      seg:
+      - 33
+      via: llm
+    - as:
+      - 雷公
+      name: 雷公
+      ndex: 243
+      seg:
+      - 35
+      via: llm
+    - as:
+      - 炎帝
+      name: 炎帝
+      ndex: 244
+      seg:
+      - 35
+      via: llm
+    works:
+    - name: 宝可梦巡护员 光之轨迹
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦巡护员 巴特纳吉
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦巡护员
+      seg:
+      - 2
+      - 4
+      - 6
+      - 11
+      - 21
+      - 45
+      slug: null
+      via: entities
+    - name: MOTHER 2 ギーグの逆襲
+      seg:
+      - 25
+      slug: null
+      via: entities
+    - name: EarthBound
+      seg:
+      - 25
+      slug: null
+      via: llm
+  id: scan-ndream-2010-04-creatures-ranger-interview
+  observations:
+  - seg: 10
+    text: 入江称画圈对开发者简单，但低龄玩家后半程高难BOSS门槛过高
+  - seg: 11
+    text: 五十岚称当时没有其他游戏需要玩家握触控笔疯狂画圈
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-03-24-interview-takeshi-shudo-pokemon-memoir-ch217:
+  facets:
+    people:
+    - name: 首藤刚志
+      role: mentioned
+      seg:
+      - 26
+      - 92
+      - 102
+      slug: shudo-takeshi
+    - kind: figure
+      name: 宫崎骏
+      role: mentioned
+      seg:
+      - 61
+      slug: gong-qi-jun
+    - name: 米切尔·恩德
+      role: mentioned
+      seg:
+      - 32
+      slug: null
+    - name: 猪股睦美
+      role: mentioned
+      seg:
+      - 102
+      slug: null
+    - name: 富野由悠季
+      role: mentioned
+      seg:
+      - 116
+      slug: null
+    - name: 北原白秋
+      role: mentioned
+      seg:
+      - 97
+      - 98
+      slug: null
+    - name: 马克思
+      role: mentioned
+      seg:
+      - 38
+      slug: null
+    - name: 大佛次郎
+      role: mentioned
+      seg:
+      - 39
+      slug: null
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 小田原
+      seg:
+      - 48
+      via: llm
+      what: 首藤定居的海滨古城
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 小田原文学馆
+      seg:
+      - 95
+      via: llm
+      what: 举办首藤手稿展
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 拉雪兹神父公墓
+      seg:
+      - 40
+      via: llm
+      what: 巴黎公社决战地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 公社社员墙
+      seg:
+      - 43
+      via: llm
+      what: 公社战士就义处
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 小田原急救医院
+      seg:
+      - 50
+      via: llm
+      what: 首藤住院处
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: JR早川站
+      seg:
+      - 114
+      via: llm
+      what: 散步线路起点
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 小田原城
+      seg:
+      - 113
+      via: llm
+      what: 当地核心名片
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 小田原市立图书馆
+      seg:
+      - 109
+      via: llm
+      what: 可预约调阅文献
+      world: real
+    pokemon:
+    - as:
+      - 洛奇亚
+      name: 洛奇亚
+      ndex: 249
+      seg:
+      - 74
+      via: body
+    works:
+    - name: 超梦的逆袭
+      seg:
+      - 74
+      slug: null
+      via: entities
+    - name: 洛奇亚爆诞
+      seg:
+      - 74
+      slug: null
+      via: entities
+    - name: 结晶塔的帝王
+      seg:
+      - 74
+      slug: null
+      via: entities
+    - name: 魔法小天使（甜甜仙子）
+      seg: []
+      slug: null
+      via: entities
+    - name: 巴里之伊莎贝拉
+      seg: []
+      slug: null
+      via: entities
+    - name: 永不结束的故事
+      seg:
+      - 32
+      - 34
+      slug: null
+      via: entities
+    - name: 战国魔神豪将军
+      seg:
+      - 102
+      slug: null
+      via: entities
+    - name: 宝可梦
+      seg:
+      - 14
+      slug: null
+      via: llm
+    - name: 魔法小天使
+      seg:
+      - 24
+      slug: null
+      via: llm
+    - name: 毛毛
+      seg:
+      - 32
+      slug: null
+      via: llm
+    - name: 巴黎的伊莎贝拉
+      seg:
+      - 38
+      slug: null
+      via: llm
+    - name: 巴黎在燃烧
+      seg:
+      - 39
+      slug: null
+      via: llm
+    - name: 新世纪福音战士
+      seg:
+      - 116
+      slug: null
+      via: llm
+  id: interview-takeshi-shudo-pokemon-memoir-ch217
+  observations:
+  - anchor: 75
+    seg: 74
+    text: 首藤称《超梦的逆袭》居全日本影史全球海外票房第一，第二为《洛奇亚爆诞》
+  - anchor: 84
+    seg: 83
+    text: 首藤说全球电影年产量第二的是印度，第三是尼日利亚
+  relations:
+  - id: interview-takeshi-shudo-pokemon-memoir-ch216
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为手记系列，216回紧接217回前一篇
+  - id: interview-takeshi-shudo-pokemon-memoir-ch218
+    kind: continues
+    label: 同一系列的前后篇
+    why: 同为手记系列，218回紧接217回后一篇
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-05-12-interview-wedge-ishihara-pokemon-disney:
+  facets:
+    people:
+    - name: 浜野保树
+      role: speaker
+      seg:
+      - 8
+      - 23
+      - 24
+      - 42
+      - 54
+      - 66
+      slug: null
+    - name: 石原恒和
+      role: speaker
+      seg:
+      - 13
+      - 14
+      - 15
+      - 27
+      - 28
+      - 37
+      slug: ishihara-tsunekazu
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 33
+      slug: tajiri-satoshi
+      via: llm
+    - name: 华特·迪士尼
+      role: mentioned
+      seg:
+      - 11
+      slug: null
+      via: llm
+    - name: 岩田聪
+      role: mentioned
+      seg:
+      - 63
+      slug: iwata-satoru
+      via: llm
+    - kind: figure
+      name: 黑泽明
+      role: mentioned
+      seg:
+      - 227
+      slug: hei-ze-ming
+      via: llm
+    - name: 山田洋次
+      role: mentioned
+      seg:
+      - 227
+      slug: null
+      via: llm
+    - name: 圆谷英二
+      role: mentioned
+      seg:
+      - 137
+      slug: null
+      via: llm
+    - name: 谷口智彦
+      role: mentioned
+      seg:
+      - 72
+      slug: null
+      via: llm
+    - name: 渥美清
+      role: mentioned
+      seg:
+      - 234
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 六本木新城
+      seg:
+      - 7
+      via: llm
+      what: 宝可梦公司总部
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 宝可梦中心TOKYO
+      seg:
+      - 82
+      via: llm
+      what: 滨松町附近设施
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 伊势志摩国立公园
+      seg:
+      - 123
+      via: llm
+      what: 石原家乡海湾
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 夏威夷
+      seg:
+      - 178
+      via: llm
+      what: 世界锦标赛举办地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 乐天影院
+      seg:
+      - 118
+      via: llm
+      what: 韩国上映影院
+      world: real
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 190
+      - 199
+      - 205
+      - 210
+      - 211
+      - 213
+      via: body
+    - as:
+      - 时拉比
+      name: 时拉比
+      ndex: 251
+      seg:
+      - 108
+      via: body
+    - as:
+      - 波加曼
+      - Piplup
+      name: 波加曼
+      ndex: 393
+      seg:
+      - 186
+      - 187
+      via: body
+    - as:
+      - 索罗亚克
+      name: 索罗亚克
+      ndex: 571
+      seg:
+      - 107
+      via: body
+    works:
+    - name: 宝可梦 红·绿
+      seg:
+      - 28
+      - 76
+      - 146
+      - 162
+      - 244
+      slug: red-green
+      via: entities
+    - name: 宝可梦 动画系列
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦 金·银
+      seg:
+      - 32
+      slug: gold-silver
+      via: llm
+    - name: 宝可梦 黑·白
+      seg:
+      - 39
+      slug: black-white
+      via: llm
+    - name: 电视游戏——电视游戏大全
+      seg:
+      - 10
+      slug: null
+      via: llm
+    - name: 剧场版宝可梦 超梦的逆袭
+      seg:
+      - 100
+      slug: null
+      via: llm
+    - name: 幻影的霸者 索罗亚克
+      seg:
+      - 107
+      slug: null
+      via: llm
+    - name: 寅次郎的故事
+      seg:
+      - 235
+      slug: null
+      via: llm
+  id: interview-wedge-ishihara-pokemon-disney
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 《宝可梦》1996年发售，至今14年，全球累计市场3万亿日元
+  - anchor: 8
+    seg: 7
+    text: 石原恒和今年53岁，手持iPad现身六本木新城18层会议室
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-08-04-interview-cd-anime-ost-miyazaki-soundteam:
+  facets:
+    people:
+    - name: 宫崎慎二
+      role: speaker
+      seg:
+      - 5
+      - 7
+      - 9
+      - 11
+      - 45
+      - 47
+      slug: null
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 14
+      - 16
+      - 18
+      - 20
+      - 33
+      - 35
+      slug: masuda-junichi
+    - name: 一之濑刚
+      role: speaker
+      seg:
+      - 21
+      - 23
+      - 25
+      - 27
+      - 31
+      - 34
+      slug: ichinose-go
+    - name: 佐藤仁美
+      role: speaker
+      seg:
+      - 26
+      - 28
+      - 30
+      - 66
+      - 68
+      - 70
+      slug: sato-hitomi
+    - name: 武满彻
+      role: mentioned
+      seg:
+      - 9
+      slug: null
+      via: llm
+    - name: 船木一夫
+      role: mentioned
+      seg:
+      - 7
+      slug: null
+      via: llm
+    - name: 西尔维·瓦尔坦
+      role: mentioned
+      seg:
+      - 7
+      slug: null
+      via: llm
+    - name: 玛丽莲·曼森
+      role: mentioned
+      seg:
+      - 20
+      slug: null
+      via: llm
+    - name: 活结乐队
+      role: mentioned
+      seg:
+      - 20
+      slug: null
+      via: llm
+    - name: 肖邦
+      role: mentioned
+      seg:
+      - 23
+      slug: null
+      via: llm
+    - name: 李斯特
+      role: mentioned
+      seg:
+      - 27
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 四谷站
+      seg:
+      - 11
+      via: llm
+      what: 宫崎等消息处
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 京都
+      seg:
+      - 52
+      via: llm
+      what: 城都地区原型
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 城都地区
+      seg:
+      - 52
+      via: llm
+      what: 游戏地区
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 水脉市
+      seg:
+      - 58
+      via: llm
+      what: 曲目名中的城镇
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 白岱森林
+      seg:
+      - 98
+      via: llm
+      what: 曲目名中的地点
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 206号道路
+      seg:
+      - 98
+      via: llm
+      what: 曲目名中的道路
+      world: game
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 37
+      via: body
+    works:
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: 宝可梦 红宝石·蓝宝石
+      seg: []
+      slug: ruby-sapphire
+      via: entities
+    - name: 宝可梦 钻石·珍珠
+      seg: []
+      slug: diamond-pearl
+      via: entities
+    - name: 宝可梦 动画系列
+      seg: []
+      slug: null
+      via: entities
+    - name: 桂河大桥
+      seg:
+      - 14
+      slug: null
+      via: llm
+    - name: 宾虚
+      seg:
+      - 14
+      slug: null
+      via: llm
+    - name: 电视动画 宝可梦 原声音乐精选集 1997-2010
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 寻找偶像
+      seg:
+      - 7
+      slug: null
+      via: llm
+  id: interview-cd-anime-ost-miyazaki-soundteam
+  observations:
+  - anchor: 47
+    seg: 46
+    text: 增田顺一说《红／绿》时代是3个音加背景噪声
+  - anchor: 53
+    seg: 52
+    text: 增田顺一提到城都地区城市以京都一带为原型，说过不要做得太和风
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-10-08-gamefreak-staff-202:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    - name: 杉森建
+      role: mentioned
+      seg: []
+      slug: sugimori-ken
+    - name: まつみや
+      role: mentioned
+      seg:
+      - 2
+      - 6
+      - 70
+      - 82
+      - 90
+      - 100
+      slug: null
+    - name: ジェイミー
+      role: mentioned
+      seg:
+      - 133
+      - 285
+      slug: null
+    - name: おおむら
+      role: mentioned
+      seg:
+      - 35
+      - 55
+      - 133
+      - 182
+      - 203
+      - 285
+      slug: null
+    - name: 一之濑
+      role: mentioned
+      seg:
+      - 122
+      - 126
+      - 127
+      slug: null
+    - name: にょろリカ
+      role: mentioned
+      seg:
+      - 0
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 吹寄市
+      seg:
+      - 39
+      via: llm
+      what: 道馆馆主风露所在城市
+      world: game
+    pokemon:
+    - as:
+      - 皮卡丘
+      - ピカチュウ
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 74
+      - 222
+      via: body
+    works:
+    - name: 宝可梦 黑·白
+      seg: []
+      slug: black-white
+      via: entities
+    - name: 宝可梦 金·银
+      seg: []
+      slug: gold-silver
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: 宝可梦 皮卡丘版
+      seg: []
+      slug: yellow
+      via: entities
+    - name: 宝可梦 白金
+      seg: []
+      slug: platinum
+      via: entities
+    - name: 宝可梦 钻石·珍珠
+      seg: []
+      slug: diamond-pearl
+      via: entities
+  id: gamefreak-staff-202
+  observations:
+  - seg: 8
+    text: まつみや从《金・银》起一直写宝可梦剧本
+  - seg: 97
+    text: 从《白金》结束后加入，含大纲约花一年半
+  relations:
+  - id: interview-famitsu-1146-matsumiya-bw-scenario
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为松宫谈黑白的剧本与N构想
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-11-20-scan-ndream-2011-01-bw-design-secrets:
+  facets:
+    people:
+    - name: 杉森建
+      role: speaker
+      seg:
+      - 24
+      - 26
+      - 37
+      - 40
+      - 42
+      - 44
+      slug: sugimori-ken
+    - name: 海野隆雄
+      role: speaker
+      seg:
+      - 25
+      - 39
+      - 45
+      - 54
+      - 64
+      - 66
+      slug: unno-takao
+    - name: 大村祐介
+      role: speaker
+      seg:
+      - 47
+      - 49
+      - 73
+      - 75
+      - 106
+      - 109
+      slug: ohmura-yusuke
+    - kind: character
+      name: N
+      role: speaker
+      seg:
+      - 169
+      slug: n
+    - name: 增田
+      role: mentioned
+      seg:
+      - 69
+      slug: null
+      via: llm
+    - name: 魁奇思
+      role: mentioned
+      seg:
+      - 69
+      slug: null
+      via: llm
+    - name: 西田
+      role: mentioned
+      seg:
+      - 134
+      slug: null
+      via: llm
+    - name: 红豆杉博士
+      role: mentioned
+      seg:
+      - 163
+      slug: null
+      via: llm
+    - name: 黑连
+      role: mentioned
+      seg:
+      - 167
+      slug: null
+      via: llm
+    - name: 白露
+      role: mentioned
+      seg:
+      - 167
+      slug: null
+      via: llm
+    - name: 真菰
+      role: mentioned
+      seg:
+      - 171
+      slug: null
+      via: llm
+    - name: 芦荟
+      role: mentioned
+      seg:
+      - 178
+      slug: null
+      via: llm
+    - name: 风露
+      role: mentioned
+      seg:
+      - 189
+      slug: null
+      via: llm
+    - name: 菊老大
+      role: mentioned
+      seg:
+      - 187
+      slug: null
+      via: llm
+    - name: 伯特
+      role: mentioned
+      seg:
+      - 176
+      slug: null
+      via: llm
+    - name: 天桐
+      role: mentioned
+      seg:
+      - 176
+      slug: null
+      via: llm
+    - name: 寇恩
+      role: mentioned
+      seg:
+      - 176
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 合众地区
+      seg:
+      - 69
+      via: llm
+      what: 游戏舞台
+      world: real
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 123
+      - 136
+      - 137
+      via: body
+    - as:
+      - 臭臭花
+      name: 臭臭花
+      ndex: 44
+      seg:
+      - 157
+      via: body
+    - as:
+      - 小拳石
+      name: 小拳石
+      ndex: 74
+      seg:
+      - 25
+      - 26
+      via: body
+    - as:
+      - 吉利蛋
+      name: 吉利蛋
+      ndex: 113
+      seg:
+      - 129
+      via: body
+    - as:
+      - 正电拍拍
+      name: 正电拍拍
+      ndex: 311
+      seg:
+      - 137
+      via: body
+    - as:
+      - 帕奇利兹
+      name: 帕奇利兹
+      ndex: 417
+      seg:
+      - 137
+      via: body
+    - as:
+      - 帝牙卢卡
+      name: 帝牙卢卡
+      ndex: 483
+      seg:
+      - 83
+      via: body
+    - as:
+      - 帕路奇亚
+      name: 帕路奇亚
+      ndex: 484
+      seg:
+      - 83
+      via: body
+    - as:
+      - 比克提尼
+      name: 比克提尼
+      ndex: 494
+      seg:
+      - 119
+      via: body
+    - as:
+      - 藤藤蛇
+      name: 藤藤蛇
+      ndex: 495
+      seg:
+      - 91
+      - 96
+      - 99
+      - 108
+      via: body
+    - as:
+      - 青藤蛇
+      name: 青藤蛇
+      ndex: 496
+      seg:
+      - 100
+      via: body
+    - as:
+      - 君主蛇
+      name: 君主蛇
+      ndex: 497
+      seg:
+      - 99
+      - 101
+      - 108
+      via: body
+    - as:
+      - 暖暖猪
+      name: 暖暖猪
+      ndex: 498
+      seg:
+      - 95
+      via: body
+    - as:
+      - 炒炒猪
+      name: 炒炒猪
+      ndex: 499
+      seg:
+      - 96
+      - 99
+      - 102
+      - 103
+      - 108
+      via: body
+    - as:
+      - 炎武王
+      name: 炎武王
+      ndex: 500
+      seg:
+      - 63
+      - 108
+      - 115
+      via: body
+    - as:
+      - 水水獭
+      name: 水水獭
+      ndex: 501
+      seg:
+      - 96
+      via: body
+    - as:
+      - 双刃丸
+      name: 双刃丸
+      ndex: 502
+      seg:
+      - 114
+      via: body
+    - as:
+      - 大剑鬼
+      name: 大剑鬼
+      ndex: 503
+      seg:
+      - 106
+      - 110
+      via: body
+    - as:
+      - 探探鼠
+      name: 探探鼠
+      ndex: 504
+      seg:
+      - 124
+      - 126
+      via: body
+    - as:
+      - 步哨鼠
+      name: 步哨鼠
+      ndex: 505
+      seg:
+      - 124
+      via: body
+    - as:
+      - 花椰猴
+      name: 花椰猴
+      ndex: 511
+      seg:
+      - 139
+      - 140
+      via: body
+    - as:
+      - 花椰猿
+      name: 花椰猿
+      ndex: 512
+      seg:
+      - 140
+      - 141
+      via: body
+    - as:
+      - 爆香猴
+      name: 爆香猴
+      ndex: 513
+      seg:
+      - 140
+      - 143
+      via: body
+    - as:
+      - 爆香猿
+      name: 爆香猿
+      ndex: 514
+      seg:
+      - 140
+      - 143
+      via: body
+    - as:
+      - 冷水猴
+      name: 冷水猴
+      ndex: 515
+      seg:
+      - 140
+      - 144
+      via: body
+    - as:
+      - 冷水猿
+      name: 冷水猿
+      ndex: 516
+      seg:
+      - 140
+      - 144
+      via: body
+    - as:
+      - 食梦梦
+      name: 食梦梦
+      ndex: 517
+      seg:
+      - 134
+      - 135
+      via: body
+    - as:
+      - 梦梦蚀
+      name: 梦梦蚀
+      ndex: 518
+      seg:
+      - 134
+      - 138
+      via: body
+    - as:
+      - 豆豆鸽
+      name: 豆豆鸽
+      ndex: 519
+      seg:
+      - 125
+      - 126
+      via: body
+    - as:
+      - 咕咕鸽
+      name: 咕咕鸽
+      ndex: 520
+      seg:
+      - 127
+      via: body
+    - as:
+      - 高傲雉鸡
+      name: 高傲雉鸡
+      ndex: 521
+      seg:
+      - 126
+      - 130
+      via: body
+    - as:
+      - 石丸子
+      name: 石丸子
+      ndex: 524
+      seg:
+      - 25
+      via: body
+    - as:
+      - 差不多娃娃
+      name: 差不多娃娃
+      ndex: 531
+      seg:
+      - 129
+      - 131
+      via: body
+    - as:
+      - 搬运小匠
+      name: 搬运小匠
+      ndex: 532
+      seg:
+      - 148
+      - 150
+      via: body
+    - as:
+      - 铁骨土人
+      name: 铁骨土人
+      ndex: 533
+      seg:
+      - 148
+      - 150
+      via: body
+    - as:
+      - 修建老匠
+      name: 修建老匠
+      ndex: 534
+      seg:
+      - 150
+      - 151
+      via: body
+    - as:
+      - 投摔鬼
+      name: 投摔鬼
+      ndex: 538
+      seg:
+      - 143
+      via: body
+    - as:
+      - 打击鬼
+      name: 打击鬼
+      ndex: 539
+      seg:
+      - 141
+      - 142
+      via: body
+    - as:
+      - 火红不倒翁
+      name: 火红不倒翁
+      ndex: 554
+      seg:
+      - 51
+      via: body
+    - as:
+      - 象征鸟
+      name: 象征鸟
+      ndex: 561
+      seg:
+      - 158
+      via: body
+    - as:
+      - 破破袋
+      name: 破破袋
+      ndex: 568
+      seg:
+      - 151
+      via: body
+    - as:
+      - 索罗亚
+      name: 索罗亚
+      ndex: 570
+      seg:
+      - 117
+      - 118
+      via: body
+    - as:
+      - 索罗亚克
+      name: 索罗亚克
+      ndex: 571
+      seg:
+      - 118
+      - 121
+      via: body
+    - as:
+      - 泡沫栗鼠
+      name: 泡沫栗鼠
+      ndex: 572
+      seg:
+      - 122
+      - 123
+      via: body
+    - as:
+      - 奇诺栗鼠
+      name: 奇诺栗鼠
+      ndex: 573
+      seg:
+      - 128
+      via: body
+    - as:
+      - 人造细胞卵
+      name: 人造细胞卵
+      ndex: 579
+      seg:
+      - 47
+      via: body
+    - as:
+      - 电飞鼠
+      name: 电飞鼠
+      ndex: 587
+      seg:
+      - 133
+      via: body
+    - as:
+      - 盖盖虫
+      name: 盖盖虫
+      ndex: 588
+      seg:
+      - 146
+      - 147
+      via: body
+    - as:
+      - 骑士蜗牛
+      name: 骑士蜗牛
+      ndex: 589
+      seg:
+      - 148
+      via: body
+    - as:
+      - 喷嚏熊
+      name: 喷嚏熊
+      ndex: 613
+      seg:
+      - 155
+      via: body
+    - as:
+      - 小嘴蜗
+      name: 小嘴蜗
+      ndex: 616
+      seg:
+      - 146
+      - 147
+      via: body
+    - as:
+      - 敏捷虫
+      name: 敏捷虫
+      ndex: 617
+      seg:
+      - 148
+      via: body
+    - as:
+      - 莱希拉姆
+      name: 莱希拉姆
+      ndex: 643
+      seg:
+      - 18
+      - 55
+      - 84
+      - 86
+      - 88
+      via: body
+    - as:
+      - 捷克罗姆
+      name: 捷克罗姆
+      ndex: 644
+      seg:
+      - 18
+      - 83
+      - 86
+      - 88
+      - 89
+      via: body
+    - as:
+      - 皮丘
+      name: 皮丘
+      ndex: 172
+      seg:
+      - 137
+      via: llm
+    - as:
+      - 波波
+      name: 波波
+      ndex: 16
+      seg:
+      - 126
+      via: llm
+    - as:
+      - 拉达
+      name: 阿罗拉拉达
+      ndex: 20
+      seg:
+      - 126
+      via: llm
+    works:
+    - name: 宝可梦 黑·白
+      seg:
+      - 6
+      - 7
+      - 23
+      slug: black-white
+      via: entities
+    - name: 宝可梦 心金·魂银
+      seg:
+      - 58
+      slug: heartgold-soulsilver
+      via: llm
+    - name: 宝可梦 红・绿
+      seg:
+      - 126
+      slug: null
+      via: llm
+    - name: 宝可梦 钻石·珍珠
+      seg:
+      - 142
+      slug: diamond-pearl
+      via: llm
+  id: scan-ndream-2011-01-bw-design-secrets
+  observations:
+  - seg: 37
+    text: 宝可梦设计由17人分工完成，各自提交草图后集体选拔
+  - seg: 62
+    text: 重的宝可梦着地时加入扬尘演出，依据图鉴重量数值
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario:
+  facets:
+    people:
+    - name: 週刊ファミ通
+      role: speaker
+      seg:
+      - 1
+      - 3
+      - 5
+      - 7
+      - 9
+      - 11
+      slug: null
+    - name: 松宫稔展
+      role: speaker
+      seg:
+      - 2
+      - 4
+      - 6
+      - 8
+      - 10
+      - 12
+      slug: null
+    - name: 增田顺一
+      role: mentioned
+      seg:
+      - 4
+      slug: masuda-junichi
+    - kind: character
+      name: N
+      role: mentioned
+      seg:
+      - 3
+      slug: n
+      via: llm
+    - name: 魁奇思
+      role: mentioned
+      seg:
+      - 6
+      slug: null
+      via: llm
+    - name: 黑连
+      role: mentioned
+      seg:
+      - 14
+      slug: null
+      via: llm
+    - name: 白露
+      role: mentioned
+      seg:
+      - 14
+      slug: null
+      via: llm
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 黑·白
+      seg: []
+      slug: black-white
+      via: entities
+    - name: 宝可梦 黑／白
+      seg:
+      - 6
+      slug: null
+      via: llm
+    - name: 宝可梦
+      seg:
+      - 2
+      slug: null
+      via: llm
+  id: interview-famitsu-1146-matsumiya-bw-scenario
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 松宫称《宝可梦》系列自首作面世已过去整整14年
+  - anchor: 5
+    seg: 4
+    text: 增田顺一提出N的构想早于游戏主题定下
+  relations:
+  - id: gamefreak-staff-202
+    kind: background
+    label: 为这篇提供背景
+    why: 松宫谈黑白的剧本构思与角色塑造，可作背景
+  - id: interview-wedge-ishihara-pokemon-disney
+    kind: background
+    label: 为这篇提供背景
+    why: 石原称宝可梦1996年发售至今14年，与松宫说法对应
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2010-12-06-scan-davinci-2011-01-masuda-interview:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg:
+      - 11
+      - 54
+      - 55
+      - 58
+      - 59
+      - 60
+      slug: masuda-junichi
+    - name: 野本由起
+      role: mentioned
+      seg:
+      - 10
+      slug: null
+      via: llm
+    - name: 森荣喜
+      role: mentioned
+      seg:
+      - 56
+      slug: null
+      via: llm
+    - kind: character
+      name: 小智
+      role: mentioned
+      seg:
+      - 42
+      slug: xiao-zhi
+      via: llm
+    - kind: character
+      name: N
+      role: mentioned
+      seg:
+      - 37
+      slug: n
+      via: llm
+    - name: 魁奇思
+      role: mentioned
+      seg:
+      - 62
+      slug: null
+      via: llm
+    - name: 赫伊津哈
+      role: mentioned
+      seg:
+      - 65
+      slug: null
+      via: llm
+    - name: 高桥英夫
+      role: mentioned
+      seg:
+      - 65
+      slug: null
+      via: llm
+    - name: 罗歇·凯卢瓦
+      role: mentioned
+      seg:
+      - 67
+      slug: null
+      via: llm
+    - name: 多田道太郎
+      role: mentioned
+      seg:
+      - 67
+      slug: null
+      via: llm
+    - name: 冢崎干夫
+      role: mentioned
+      seg:
+      - 67
+      slug: null
+      via: llm
+    - name: 詹姆斯·C·柯林斯
+      role: mentioned
+      seg:
+      - 69
+      slug: null
+      via: llm
+    - name: 杰里·I·波拉斯
+      role: mentioned
+      seg:
+      - 69
+      slug: null
+      via: llm
+    - name: 山冈洋一
+      role: mentioned
+      seg:
+      - 69
+      slug: null
+      via: llm
+    - name: 小笹芳央
+      role: mentioned
+      seg:
+      - 70
+      slug: null
+      via: llm
+    - name: 杰弗里·S·扬
+      role: mentioned
+      seg:
+      - 72
+      slug: null
+      via: llm
+    - name: 威廉·L·西蒙
+      role: mentioned
+      seg:
+      - 72
+      slug: null
+      via: llm
+    - name: 井口耕二
+      role: mentioned
+      seg:
+      - 72
+      slug: null
+      via: llm
+    - name: 史蒂夫·乔布斯
+      role: mentioned
+      seg:
+      - 72
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 合众地区
+      seg:
+      - 37
+      via: llm
+      what: 游戏新舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 鹿子镇
+      seg:
+      - 45
+      via: llm
+      what: 冒险起点
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 冠军之路
+      seg:
+      - 45
+      via: llm
+      what: 游戏关卡
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 宝可梦联盟
+      seg:
+      - 45
+      via: llm
+      what: 游戏关卡
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 王冠市
+      seg:
+      - 42
+      via: llm
+      what: 剧场版舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 连入
+      seg:
+      - 17
+      via: llm
+      what: 合众中心的岛屿
+      world: game
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 52
+      via: body
+    - as:
+      - 比克提尼
+      name: 比克提尼
+      ndex: 494
+      seg:
+      - 47
+      - 59
+      via: body
+    - as:
+      - 藤藤蛇
+      name: 藤藤蛇
+      ndex: 495
+      seg:
+      - 34
+      - 35
+      via: body
+    - as:
+      - 君主蛇
+      name: 君主蛇
+      ndex: 497
+      seg:
+      - 30
+      via: body
+    - as:
+      - 暖暖猪
+      name: 暖暖猪
+      ndex: 498
+      seg:
+      - 34
+      - 35
+      - 59
+      via: body
+    - as:
+      - 水水獭
+      name: 水水獭
+      ndex: 501
+      seg:
+      - 34
+      - 35
+      via: body
+    - as:
+      - 索罗亚
+      name: 索罗亚
+      ndex: 570
+      seg:
+      - 42
+      via: body
+    - as:
+      - 索罗亚克
+      name: 索罗亚克
+      ndex: 571
+      seg:
+      - 41
+      - 42
+      via: body
+    - as:
+      - 莱希拉姆
+      name: 莱希拉姆
+      ndex: 643
+      seg:
+      - 37
+      via: body
+    - as:
+      - 捷克罗姆
+      name: 捷克罗姆
+      ndex: 644
+      seg:
+      - 37
+      via: body
+    works:
+    - name: 宝可梦 黑·白
+      seg:
+      - 5
+      - 6
+      - 13
+      - 54
+      - 58
+      - 59
+      slug: black-white
+      via: entities
+    - name: 宝可梦 红·绿
+      seg:
+      - 5
+      slug: red-green
+      via: llm
+    - name: 宝可梦 金·银
+      seg:
+      - 5
+      slug: gold-silver
+      via: llm
+    - name: 宝可梦 红宝石·蓝宝石
+      seg:
+      - 5
+      slug: ruby-sapphire
+      via: llm
+    - name: 宝可梦 钻石·珍珠
+      seg:
+      - 5
+      slug: diamond-pearl
+      via: llm
+    - name: 宝可梦 水晶版
+      seg:
+      - 59
+      slug: crystal
+      via: llm
+    - name: 剧场版宝可梦 钻石・珍珠 幻影的霸者 索罗亚克
+      seg:
+      - 41
+      slug: null
+      via: llm
+    - name: 宝可梦 黑・白 官方完全冒险通关指南
+      seg:
+      - 44
+      slug: null
+      via: llm
+    - name: 宝可梦 黑・白 官方合众图鉴完成指南
+      seg:
+      - 46
+      slug: null
+      via: llm
+    - name: 任天堂DS 宝可梦 黑・白 超级音乐收藏
+      seg:
+      - 61
+      slug: null
+      via: llm
+    - name: 游戏的人
+      seg:
+      - 65
+      slug: null
+      via: llm
+    - name: 游戏与人
+      seg:
+      - 67
+      slug: null
+      via: llm
+    - name: 基业长青——超越时代的生存原则
+      seg:
+      - 69
+      slug: null
+      via: llm
+    - name: 动机领导力 引领组织的30条原则
+      seg:
+      - 70
+      slug: null
+      via: llm
+    - name: 史蒂夫·乔布斯 偶像复活
+      seg:
+      - 72
+      slug: null
+      via: llm
+  id: scan-davinci-2011-01-masuda-interview
+  observations:
+  - seg: 4
+    text: 系列1996年诞生，截至2010年全球累计销量突破1亿5000万套
+  - seg: 9
+    text: 开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成
+  relations:
+  - id: interview-famitsu-1146-matsumiya-bw-scenario
+    kind: background
+    label: 为这篇提供背景
+    why: 同为黑·白开发访谈，松宫谈剧本与N构想
+  - id: scan-ndream-2011-01-bw-design-secrets
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为黑·白发售期开发访谈，涉增田与设计
+  - id: gamefreak-staff-202
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为黑·白开发期GAME FREAK成员访谈
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2011-03-07-interview-gameinformer-masuda-past-present-future:
+  facets:
+    people:
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      slug: masuda-junichi
+    - name: 井部真那
+      role: speaker
+      seg:
+      - 21
+      - 22
+      - 23
+      - 25
+      - 28
+      slug: ibe-mana
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 3
+      - 6
+      slug: tajiri-satoshi
+    - name: 杉森建
+      role: mentioned
+      seg: []
+      slug: sugimori-ken
+    - name: 宫本茂
+      role: mentioned
+      seg:
+      - 26
+      slug: miyamoto-shigeru
+      via: llm
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 黑·白
+      seg: []
+      slug: black-white
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: 宝可梦 金·银
+      seg: []
+      slug: gold-silver
+      via: entities
+    - name: 宝可梦 心金·魂银
+      seg: []
+      slug: heartgold-soulsilver
+      via: entities
+    - name: Quinty
+      seg:
+      - 3
+      slug: null
+      via: llm
+    - name: Mendel Palace
+      seg:
+      - 3
+      slug: null
+      via: llm
+  id: interview-gameinformer-masuda-past-present-future
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 《黑／白》于本周发售，为第五世代作品
+  - anchor: 9
+    seg: 8
+    text: 最初两款游戏开发历时六年
+  relations:
+  - id: interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium
+    kind: background
+    label: 为这篇提供背景
+    why: 岩田聪讲金·银压缩代码，与初代容量压缩背景相关
+  - id: scan-davinci-2011-01-masuda-interview
+    kind: background
+    label: 为这篇提供背景
+    why: 增田谈黑·白开发，同为其访谈背景
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon:
+  facets:
+    people:
+    - name: 杉森建
+      role: speaker
+      seg:
+      - 15
+      - 17
+      - 32
+      - 35
+      - 37
+      - 43
+      slug: sugimori-ken
+    - name: 海野隆雄
+      role: speaker
+      seg:
+      - 16
+      - 34
+      - 48
+      - 50
+      - 60
+      - 71
+      slug: unno-takao
+    - name: 大村祐介
+      role: speaker
+      seg:
+      - 61
+      - 63
+      - 84
+      - 87
+      - 160
+      - 203
+      slug: ohmura-yusuke
+    - name: 西田
+      role: mentioned
+      seg:
+      - 110
+      slug: null
+      via: llm
+    - name: 增田
+      role: mentioned
+      seg:
+      - 255
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 合众地区
+      seg:
+      - 200
+      via: llm
+      what: 宝可梦黑·白的舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 纽约
+      seg:
+      - 200
+      via: llm
+      what: 合众地区的原型
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 电气石洞穴
+      seg:
+      - 220
+      via: llm
+      what: 坚果哑铃出现地点
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 黑色市
+      seg:
+      - 279
+      via: llm
+      what: 单幅画画廊作品
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 白森林
+      seg:
+      - 279
+      via: llm
+      what: 单幅画画廊作品
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 飞云市
+      seg:
+      - 281
+      via: llm
+      what: 单幅画画廊作品
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 对战地铁
+      seg:
+      - 273
+      via: llm
+      what: 单幅画画廊作品
+      world: game
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 103
+      - 114
+      - 117
+      via: body
+    - as:
+      - 臭臭花
+      name: 臭臭花
+      ndex: 44
+      seg:
+      - 148
+      via: body
+    - as:
+      - 三地鼠
+      name: 三地鼠
+      ndex: 51
+      seg:
+      - 136
+      - 194
+      via: body
+    - as:
+      - 蚊香蝌蚪
+      name: 蚊香蝌蚪
+      ndex: 60
+      seg:
+      - 186
+      via: body
+    - as:
+      - イシツブテ
+      - 小拳石
+      name: イシツブテ
+      ndex: 74
+      seg:
+      - 16
+      - 17
+      via: body
+    - as:
+      - 三合一磁怪
+      name: 三合一磁怪
+      ndex: 82
+      seg:
+      - 136
+      - 194
+      via: body
+    - as:
+      - 吉利蛋
+      name: 吉利蛋
+      ndex: 113
+      seg:
+      - 105
+      via: body
+    - as:
+      - 正电拍拍
+      name: 正电拍拍
+      ndex: 311
+      seg:
+      - 117
+      via: body
+    - as:
+      - 帕奇利兹
+      name: 帕奇利兹
+      ndex: 417
+      seg:
+      - 117
+      via: body
+    - as:
+      - 帝牙卢卡
+      name: 帝牙卢卡
+      ndex: 483
+      seg:
+      - 246
+      via: body
+    - as:
+      - 帕路奇亚
+      name: 帕路奇亚
+      ndex: 484
+      seg:
+      - 246
+      via: body
+    - as:
+      - 比克提尼
+      name: 比克提尼
+      ndex: 494
+      seg:
+      - 239
+      via: body
+    - as:
+      - 藤藤蛇
+      name: 藤藤蛇
+      ndex: 495
+      seg:
+      - 68
+      - 75
+      - 78
+      - 86
+      via: body
+    - as:
+      - 青藤蛇
+      name: 青藤蛇
+      ndex: 496
+      seg:
+      - 73
+      via: body
+    - as:
+      - 君主蛇
+      name: 君主蛇
+      ndex: 497
+      seg:
+      - 78
+      - 79
+      - 86
+      via: body
+    - as:
+      - 暖暖猪
+      name: 暖暖猪
+      ndex: 498
+      seg:
+      - 38
+      - 74
+      - 75
+      - 78
+      - 80
+      - 86
+      via: body
+    - as:
+      - 炒炒猪
+      name: 炒炒猪
+      ndex: 499
+      seg:
+      - 81
+      via: body
+    - as:
+      - 炎武王
+      name: 炎武王
+      ndex: 500
+      seg:
+      - 86
+      - 90
+      via: body
+    - as:
+      - 水水獭
+      name: 水水獭
+      ndex: 501
+      seg:
+      - 75
+      - 83
+      - 84
+      - 86
+      - 87
+      - 88
+      via: body
+    - as:
+      - 双刃丸
+      name: 双刃丸
+      ndex: 502
+      seg:
+      - 89
+      via: body
+    - as:
+      - 大剑鬼
+      name: 大剑鬼
+      ndex: 503
+      seg:
+      - 83
+      - 84
+      via: body
+    - as:
+      - 探探鼠
+      name: 探探鼠
+      ndex: 504
+      seg:
+      - 92
+      - 94
+      via: body
+    - as:
+      - 步哨鼠
+      name: 步哨鼠
+      ndex: 505
+      seg:
+      - 93
+      via: body
+    - as:
+      - 花椰猴
+      name: 花椰猴
+      ndex: 511
+      seg:
+      - 96
+      - 98
+      via: body
+    - as:
+      - 花椰猿
+      name: 花椰猿
+      ndex: 512
+      seg:
+      - 96
+      - 99
+      via: body
+    - as:
+      - 爆香猴
+      name: 爆香猴
+      ndex: 513
+      seg:
+      - 96
+      - 98
+      via: body
+    - as:
+      - 爆香猿
+      name: 爆香猿
+      ndex: 514
+      seg:
+      - 97
+      - 99
+      via: body
+    - as:
+      - 冷水猴
+      name: 冷水猴
+      ndex: 515
+      seg:
+      - 96
+      - 98
+      via: body
+    - as:
+      - 冷水猿
+      name: 冷水猿
+      ndex: 516
+      seg:
+      - 99
+      - 100
+      via: body
+    - as:
+      - 食梦梦
+      name: 食梦梦
+      ndex: 517
+      seg:
+      - 107
+      - 108
+      via: body
+    - as:
+      - 梦梦蚀
+      name: 梦梦蚀
+      ndex: 518
+      seg:
+      - 107
+      - 108
+      via: body
+    - as:
+      - 豆豆鸽
+      name: 豆豆鸽
+      ndex: 519
+      seg:
+      - 92
+      - 94
+      - 95
+      via: body
+    - as:
+      - 咕咕鸽
+      name: 咕咕鸽
+      ndex: 520
+      seg:
+      - 92
+      via: body
+    - as:
+      - 高傲雉鸡
+      name: 高傲雉鸡
+      ndex: 521
+      seg:
+      - 93
+      via: body
+    - as:
+      - 石丸子
+      - ダンゴロ
+      name: 石丸子
+      ndex: 524
+      seg:
+      - 16
+      via: body
+    - as:
+      - 差不多娃娃
+      name: 差不多娃娃
+      ndex: 531
+      seg:
+      - 105
+      - 106
+      via: body
+    - as:
+      - 搬运小匠
+      name: 搬运小匠
+      ndex: 532
+      seg:
+      - 127
+      - 131
+      via: body
+    - as:
+      - 铁骨土人
+      name: 铁骨土人
+      ndex: 533
+      seg:
+      - 129
+      - 131
+      via: body
+    - as:
+      - 圆蝌蚪
+      name: 圆蝌蚪
+      ndex: 535
+      seg:
+      - 181
+      via: body
+    - as:
+      - 蓝蟾蜍
+      name: 蓝蟾蜍
+      ndex: 536
+      seg:
+      - 171
+      - 178
+      - 184
+      via: body
+    - as:
+      - 蟾蜍王
+      name: 蟾蜍王
+      ndex: 537
+      seg:
+      - 183
+      - 186
+      via: body
+    - as:
+      - 投摔鬼
+      name: 投摔鬼
+      ndex: 538
+      seg:
+      - 227
+      - 255
+      - 256
+      - 258
+      via: body
+    - as:
+      - 打击鬼
+      name: 打击鬼
+      ndex: 539
+      seg:
+      - 227
+      - 255
+      - 257
+      - 258
+      via: body
+    - as:
+      - 木棉球
+      name: 木棉球
+      ndex: 546
+      seg:
+      - 112
+      - 114
+      via: body
+    - as:
+      - 风妖精
+      name: 风妖精
+      ndex: 547
+      seg:
+      - 113
+      - 114
+      - 200
+      - 212
+      via: body
+    - as:
+      - 百合根娃娃
+      name: 百合根娃娃
+      ndex: 548
+      seg:
+      - 113
+      - 114
+      via: body
+    - as:
+      - 裙儿小姐
+      name: 裙儿小姐
+      ndex: 549
+      seg:
+      - 113
+      - 114
+      - 200
+      via: body
+    - as:
+      - 野蛮鲈鱼
+      name: 野蛮鲈鱼
+      ndex: 550
+      seg:
+      - 197
+      via: body
+    - as:
+      - 火红不倒翁
+      name: 火红不倒翁
+      ndex: 554
+      seg:
+      - 168
+      - 178
+      via: body
+    - as:
+      - 达摩狒狒
+      name: 达摩狒狒
+      ndex: 555
+      seg:
+      - 170
+      via: body
+    - as:
+      - 石居蟹
+      name: 石居蟹
+      ndex: 557
+      seg:
+      - 185
+      - 187
+      - 267
+      via: body
+    - as:
+      - 岩殿居蟹
+      name: 岩殿居蟹
+      ndex: 558
+      seg:
+      - 182
+      via: body
+    - as:
+      - 头巾混混
+      name: 头巾混混
+      ndex: 560
+      seg:
+      - 221
+      via: body
+    - as:
+      - 象征鸟
+      name: 象征鸟
+      ndex: 561
+      seg:
+      - 116
+      via: body
+    - as:
+      - 哭哭面具
+      name: 哭哭面具
+      ndex: 562
+      seg:
+      - 175
+      via: body
+    - as:
+      - 破破袋
+      name: 破破袋
+      ndex: 568
+      seg:
+      - 142
+      - 268
+      via: body
+    - as:
+      - 灰尘山
+      name: 灰尘山
+      ndex: 569
+      seg:
+      - 146
+      via: body
+    - as:
+      - 索罗亚
+      name: 索罗亚
+      ndex: 570
+      seg:
+      - 217
+      - 218
+      via: body
+    - as:
+      - 索罗亚克
+      name: 索罗亚克
+      ndex: 571
+      seg:
+      - 218
+      - 223
+      via: body
+    - as:
+      - 泡沫栗鼠
+      name: 泡沫栗鼠
+      ndex: 572
+      seg:
+      - 102
+      - 103
+      via: body
+    - as:
+      - 奇诺栗鼠
+      name: 奇诺栗鼠
+      ndex: 573
+      seg:
+      - 104
+      via: body
+    - as:
+      - 迷你冰
+      name: 迷你冰
+      ndex: 582
+      seg:
+      - 196
+      via: body
+    - as:
+      - 多多冰
+      name: 多多冰
+      ndex: 583
+      seg:
+      - 196
+      via: body
+    - as:
+      - 双倍多多冰
+      name: 双倍多多冰
+      ndex: 584
+      seg:
+      - 194
+      - 197
+      via: body
+    - as:
+      - 四季鹿
+      name: 四季鹿
+      ndex: 585
+      seg:
+      - 150
+      - 154
+      via: body
+    - as:
+      - 萌芽鹿
+      name: 萌芽鹿
+      ndex: 586
+      seg:
+      - 152
+      - 154
+      via: body
+    - as:
+      - 电飞鼠
+      name: 电飞鼠
+      ndex: 587
+      seg:
+      - 52
+      - 115
+      - 267
+      via: body
+    - as:
+      - 盖盖虫
+      name: 盖盖虫
+      ndex: 588
+      seg:
+      - 108
+      - 110
+      via: body
+    - as:
+      - 骑士蜗牛
+      name: 骑士蜗牛
+      ndex: 589
+      seg:
+      - 109
+      via: body
+    - as:
+      - 哎呀球菇
+      name: 哎呀球菇
+      ndex: 590
+      seg:
+      - 214
+      - 215
+      - 216
+      - 269
+      via: body
+    - as:
+      - 败露球菇
+      name: 败露球菇
+      ndex: 591
+      seg:
+      - 214
+      - 215
+      - 216
+      - 269
+      via: body
+    - as:
+      - 轻飘飘
+      name: 轻飘飘
+      ndex: 592
+      seg:
+      - 114
+      - 173
+      via: body
+    - as:
+      - 胖嘟嘟
+      name: 胖嘟嘟
+      ndex: 593
+      seg:
+      - 171
+      via: body
+    - as:
+      - 电电虫
+      name: 电电虫
+      ndex: 595
+      seg:
+      - 160
+      via: body
+    - as:
+      - 种子铁球
+      name: 种子铁球
+      ndex: 597
+      seg:
+      - 215
+      - 219
+      via: body
+    - as:
+      - 坚果哑铃
+      name: 坚果哑铃
+      ndex: 598
+      seg:
+      - 216
+      via: body
+    - as:
+      - 齿轮儿
+      name: 齿轮儿
+      ndex: 599
+      seg:
+      - 134
+      - 136
+      via: body
+    - as:
+      - 齿轮组
+      name: 齿轮组
+      ndex: 600
+      seg:
+      - 137
+      via: body
+    - as:
+      - 齿轮怪
+      name: 齿轮怪
+      ndex: 601
+      seg:
+      - 139
+      via: body
+    - as:
+      - 麻麻小鱼
+      name: 麻麻小鱼
+      ndex: 602
+      seg:
+      - 161
+      via: body
+    - as:
+      - 麻麻鳗
+      name: 麻麻鳗
+      ndex: 603
+      seg:
+      - 161
+      via: body
+    - as:
+      - 麻麻鳗鱼王
+      name: 麻麻鳗鱼王
+      ndex: 604
+      seg:
+      - 161
+      via: body
+    - as:
+      - 烛光灵
+      name: 烛光灵
+      ndex: 607
+      seg:
+      - 120
+      - 121
+      via: body
+    - as:
+      - 灯火幽灵
+      name: 灯火幽灵
+      ndex: 608
+      seg:
+      - 120
+      - 125
+      via: body
+    - as:
+      - 水晶灯火灵
+      name: 水晶灯火灵
+      ndex: 609
+      seg:
+      - 123
+      via: body
+    - as:
+      - 斧牙龙
+      name: 斧牙龙
+      ndex: 611
+      seg:
+      - 166
+      - 167
+      - 178
+      via: body
+    - as:
+      - 双斧战龙
+      name: 双斧战龙
+      ndex: 612
+      seg:
+      - 167
+      - 168
+      - 169
+      via: body
+    - as:
+      - 喷嚏熊
+      name: 喷嚏熊
+      ndex: 613
+      seg:
+      - 146
+      - 147
+      via: body
+    - as:
+      - 冻原熊
+      name: 冻原熊
+      ndex: 614
+      seg:
+      - 149
+      via: body
+    - as:
+      - 小嘴蜗
+      name: 小嘴蜗
+      ndex: 616
+      seg:
+      - 109
+      - 110
+      via: body
+    - as:
+      - 敏捷虫
+      name: 敏捷虫
+      ndex: 617
+      seg:
+      - 109
+      via: body
+    - as:
+      - 泥巴鱼
+      name: 泥巴鱼
+      ndex: 618
+      seg:
+      - 177
+      - 178
+      - 179
+      via: body
+    - as:
+      - 功夫鼬
+      name: 功夫鼬
+      ndex: 619
+      seg:
+      - 228
+      via: body
+    - as:
+      - 师父鼬
+      name: 师父鼬
+      ndex: 620
+      seg:
+      - 225
+      via: body
+    - as:
+      - 泥偶小人
+      name: 泥偶小人
+      ndex: 622
+      seg:
+      - 192
+      via: body
+    - as:
+      - 泥偶巨人
+      name: 泥偶巨人
+      ndex: 623
+      seg:
+      - 190
+      - 191
+      - 193
+      - 194
+      - 212
+      via: body
+    - as:
+      - 驹刀小兵
+      name: 驹刀小兵
+      ndex: 624
+      seg:
+      - 158
+      - 159
+      via: body
+    - as:
+      - 劈斩司令
+      name: 劈斩司令
+      ndex: 625
+      seg:
+      - 157
+      - 158
+      via: body
+    - as:
+      - 毛头小鹰
+      name: 毛头小鹰
+      ndex: 627
+      seg:
+      - 208
+      - 211
+      via: body
+    - as:
+      - 勇士雄鹰
+      name: 勇士雄鹰
+      ndex: 628
+      seg:
+      - 210
+      - 211
+      - 212
+      via: body
+    - as:
+      - 秃鹰丫头
+      name: 秃鹰丫头
+      ndex: 629
+      seg:
+      - 209
+      - 212
+      via: body
+    - as:
+      - 秃鹰娜
+      name: 秃鹰娜
+      ndex: 630
+      seg:
+      - 207
+      - 211
+      - 212
+      via: body
+    - as:
+      - 单首龙
+      name: 单首龙
+      ndex: 633
+      seg:
+      - 237
+      via: body
+    - as:
+      - 双首暴龙
+      name: 双首暴龙
+      ndex: 634
+      seg:
+      - 233
+      via: body
+    - as:
+      - 三首恶龙
+      name: 三首恶龙
+      ndex: 635
+      seg:
+      - 230
+      - 231
+      - 235
+      via: body
+    - as:
+      - 燃烧虫
+      name: 燃烧虫
+      ndex: 636
+      seg:
+      - 202
+      - 206
+      via: body
+    - as:
+      - 火神蛾
+      name: 火神蛾
+      ndex: 637
+      seg:
+      - 202
+      - 203
+      - 205
+      via: body
+    - as:
+      - 勾帕路翁
+      name: 勾帕路翁
+      ndex: 638
+      seg:
+      - 260
+      - 261
+      - 263
+      via: body
+    - as:
+      - 代拉基翁
+      name: 代拉基翁
+      ndex: 639
+      seg:
+      - 260
+      - 261
+      - 263
+      via: body
+    - as:
+      - 毕力吉翁
+      name: 毕力吉翁
+      ndex: 640
+      seg:
+      - 260
+      - 261
+      - 263
+      via: body
+    - as:
+      - 龙卷云
+      name: 龙卷云
+      ndex: 641
+      seg:
+      - 252
+      - 255
+      via: body
+    - as:
+      - 雷电云
+      name: 雷电云
+      ndex: 642
+      seg:
+      - 254
+      - 255
+      via: body
+    - as:
+      - 莱希拉姆
+      name: 莱希拉姆
+      ndex: 643
+      seg:
+      - 243
+      - 250
+      via: body
+    - as:
+      - 捷克罗姆
+      name: 捷克罗姆
+      ndex: 644
+      seg:
+      - 246
+      - 247
+      - 250
+      via: body
+    - as:
+      - 土地云
+      name: 土地云
+      ndex: 645
+      seg:
+      - 253
+      - 255
+      via: body
+    - as:
+      - 花洁夫人
+      name: 花洁夫人
+      ndex: 671
+      seg:
+      - 212
+      via: body
+    works:
+    - name: 宝可梦 黑·白
+      seg:
+      - 6
+      - 14
+      - 57
+      - 167
+      slug: black-white
+      via: entities
+    - name: 宝可梦 红·绿
+      seg:
+      - 94
+      slug: red-green
+      via: llm
+    - name: 宝可梦 白金
+      seg:
+      - 167
+      slug: platinum
+      via: llm
+    - name: Nintendo DREAM
+      seg:
+      - 20
+      slug: null
+      via: llm
+    - name: 宝可梦音乐剧
+      seg:
+      - 275
+      slug: null
+      via: llm
+    - name: 魁奇思的演说
+      seg:
+      - 277
+      slug: null
+      via: llm
+  id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
+  observations:
+  - seg: 16
+    text: 海野隆雄说洞窟里以往多是石丸子，这次设计成滚滚石
+  - seg: 34
+    text: 海野隆雄称未被采用的创意数量是被采用者的好几倍
+  relations:
+  - id: scan-ndream-2011-01-bw-design-secrets
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为Nintendo DREAM黑·白美术访谈，同三人讲述设计流程
+  - id: scan-ndream-bw-tanjou-hiwa-2011-characters
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为2011-05-21 Nintendo DREAM附录总集篇，同三人讲述
+  - id: scan-ndream-bw-tanjou-hiwa-2011-popularity-poll
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为2011-05-21 Nintendo DREAM附录，同刊总集篇内容
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2011-09-16-gamefreak-staff-234:
+  facets:
+    people:
+    - name: Yochiyochi
+      role: mentioned
+      seg:
+      - 0
+      slug: null
+      via: llm
+    places: []
+    pokemon: []
+    works: []
+  id: gamefreak-staff-234
+  observations:
+  - seg: 3
+    text: Yochiyochi 说照片里的是他家的白腰鹦鹉
+  - seg: 7
+    text: 文中称白腰鹦鹉智力相当于人类2岁至5岁幼儿
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op:
+  facets:
+    people:
+    - name: 岩田聪
+      role: speaker
+      seg:
+      - 0
+      - 2
+      - 4
+      - 7
+      - 11
+      - 13
+      slug: iwata-satoru
+    - name: 海野隆雄
+      role: speaker
+      seg:
+      - 1
+      - 9
+      - 17
+      - 20
+      - 22
+      - 24
+      slug: unno-takao
+    - name: 石原恒和
+      role: speaker
+      seg:
+      - 3
+      - 5
+      - 8
+      - 10
+      - 12
+      - 14
+      slug: ishihara-tsunekazu
+    - name: 众人
+      role: speaker
+      seg:
+      - 15
+      - 33
+      slug: null
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 26
+      - 31
+      slug: masuda-junichi
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 黑2·白2
+      seg: []
+      slug: black2-white2
+      via: entities
+    - name: 宝可梦 黑·白
+      seg:
+      - 9
+      - 10
+      slug: black-white
+      via: entities
+    - name: 宝可梦 金·银
+      seg:
+      - 1
+      slug: gold-silver
+      via: llm
+    - name: 宝可梦 火红·叶绿
+      seg:
+      - 13
+      slug: firered-leafgreen
+      via: llm
+  id: interview-iwata-asks-b2w2-chapter-2-100-player-co-op
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 海野隆雄说《金·银》发售时他早上5点就去排队
+  - anchor: 4
+    seg: 3
+    text: 石原恒和说宝可梦世界锦标赛从2009年开始，前身从2004年开始
+  relations:
+  - id: interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium
+    kind: background
+    label: 为这篇提供背景
+    why: 同为「社长问」系列，前作心金魂银篇
+  - id: scan-ndream-2011-01-bw-design-secrets
+    kind: background
+    label: 为这篇提供背景
+    why: 海野隆雄任黑·白3D美术总监的背景
+  - id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
+    kind: background
+    label: 为这篇提供背景
+    why: 海野隆雄谈黑·白设计与演出细节
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2013-01-22-interview-staff-tsuruta:
+  facets:
+    people:
+    - name: 鹤田
+      role: mentioned
+      seg:
+      - 2
+      slug: null
+      via: llm
+    places: []
+    pokemon:
+    - as:
+      - 暴鲤龙
+      name: 暴鲤龙
+      ndex: 130
+      seg:
+      - 17
+      via: body
+    works:
+    - name: 宝可梦 心金/魂银
+      seg:
+      - 3
+      slug: null
+      via: llm
+    - name: 钻石·珍珠
+      seg:
+      - 22
+      slug: null
+      via: llm
+    - name: 白金
+      seg:
+      - 22
+      slug: null
+      via: llm
+    - name: 心金/魂银
+      seg:
+      - 23
+      slug: null
+      via: llm
+    - name: HG·SS 畅谈！
+      seg:
+      - 41
+      slug: null
+      via: llm
+  id: interview-staff-tsuruta
+  observations:
+  - anchor: 4
+    seg: 3
+    text: 作者在《心金/魂银》中主要负责跟随宝可梦的图形设计
+  - anchor: 17
+    seg: 16
+    text: 作者称绝不让步的部分是异色宝可梦的再现
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2013-10-24-interview-onm-xy-sugimori:
+  facets:
+    people:
+    - name: 杉森建
+      role: speaker
+      seg:
+      - 2
+      - 3
+      slug: sugimori-ken
+    - name: Thomas East
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 大村祐介
+      role: mentioned
+      seg:
+      - 2
+      slug: ohmura-yusuke
+      via: llm
+    - name: 西田敦子
+      role: mentioned
+      seg:
+      - 3
+      slug: nishida-atsuko
+      via: llm
+    places: []
+    pokemon:
+    - as:
+      - 仙子伊布
+      name: 仙子伊布
+      ndex: 700
+      seg:
+      - 3
+      via: body
+    - as:
+      - 哲尔尼亚斯
+      name: 哲尔尼亚斯
+      ndex: 716
+      seg:
+      - 1
+      - 2
+      via: body
+    - as:
+      - 伊裴尔塔尔
+      name: 伊裴尔塔尔
+      ndex: 717
+      seg:
+      - 1
+      - 2
+      via: body
+    - as:
+      - 伊布
+      name: 伊布
+      ndex: 133
+      seg:
+      - 3
+      via: llm
+    works:
+    - name: 宝可梦 X·Y
+      seg: []
+      slug: x-y
+      via: entities
+    - name: 宝可梦 X／Y
+      seg:
+      - 0
+      slug: null
+      via: llm
+    - name: 宝可梦 X
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 宝可梦 Y
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: Fami通
+      seg:
+      - 1
+      slug: null
+      via: llm
+  id: interview-onm-xy-sugimori
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 杉森建称创作哲尔尼亚斯与伊裴尔塔尔时遭遇困难，与另一位艺术家合作完成
+  - anchor: 3
+    seg: 2
+    text: 杉森建说这是第一次不得不借助他人摆脱创作瓶颈
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto:
+  facets:
+    people:
+    - name: 杉森建
+      role: speaker
+      seg:
+      - 9
+      - 12
+      - 14
+      - 16
+      - 21
+      - 28
+      slug: sugimori-ken
+    - name: 提问
+      role: speaker
+      seg:
+      - 10
+      - 17
+      - 22
+      - 24
+      - 27
+      - 29
+      slug: null
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 11
+      - 13
+      - 15
+      - 18
+      - 23
+      - 25
+      slug: masuda-junichi
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 6
+      slug: tajiri-satoshi
+      via: llm
+    - name: 森本茂树
+      role: mentioned
+      seg:
+      - 0
+      slug: morimoto-shigeki
+      via: llm
+    - name: 船津稔
+      role: mentioned
+      seg:
+      - 119
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 爱媛县
+      seg:
+      - 58
+      via: llm
+      what: 程序员团队所在地
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 金·银
+      seg:
+      - 117
+      slug: gold-silver
+      via: entities
+    - name: 旋转方块
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 超级马力欧兄弟
+      seg:
+      - 101
+      slug: null
+      via: llm
+    - name: 铁板阵
+      seg:
+      - 49
+      slug: null
+      via: llm
+    - name: 迷宫塔
+      seg:
+      - 82
+      slug: null
+      via: llm
+    - name: Mappy
+      seg:
+      - 82
+      slug: null
+      via: llm
+  id: interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 《旋转方块》7月2日起在Wii U虚拟主机配信，514日元含税
+  - anchor: 3
+    seg: 2
+    text: 《旋转方块》1989年6月发售，GAME FREAK当时是同人志团体
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2016-01-10-interview-pokemon-recruit-staff-furutani:
+  facets:
+    people:
+    - name: 古谷翔
+      role: mentioned
+      seg: []
+      slug: gu-gu-xiang
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 X·Y
+      seg: []
+      slug: x-y
+      via: entities
+  id: interview-pokemon-recruit-staff-furutani
+  observations:
+  - anchor: 3
+    seg: 1
+    text: 求职时全盘以游戏行业为核心展开
+  - anchor: 11
+    seg: 9
+    text: 入职至今已走过5个年头
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2016-04-10-gamefreak-lineblog-2681233:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 八丈岛
+      seg:
+      - 32
+      via: llm
+      what: 岛椒酱油产地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 北海道
+      seg:
+      - 12
+      via: llm
+      what: 斑节虾产地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 明石
+      seg:
+      - 12
+      via: llm
+      what: 章鱼产地
+      world: real
+    pokemon: []
+    works: []
+  id: gamefreak-lineblog-2681233
+  observations:
+  - seg: 8
+    text: 列出醋拌海参、萤乌贼、蛤蜊三样
+  - seg: 12
+    text: 列出北海道斑节虾、明石章鱼、紫萁嫩芽
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2016-05-16-gamefreak-lineblog-3425300:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    - name: 大石先生
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 新藤先生
+      role: mentioned
+      seg:
+      - 2
+      slug: null
+      via: llm
+    - name: 原田先生
+      role: mentioned
+      seg:
+      - 45
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 台场DiverCity
+      seg:
+      - 0
+      via: llm
+      what: 活动举办地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 山手线
+      seg:
+      - 21
+      via: llm
+      what: 驾驶体验的线路
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 新桥
+      seg:
+      - 37
+      via: llm
+      what: 驾驶起点站
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 东京站
+      seg:
+      - 37
+      via: llm
+      what: 驾驶终点站
+      world: real
+    pokemon:
+    - as:
+      - 喷火龙
+      name: 喷火龙
+      ndex: 6
+      seg:
+      - 142
+      - 150
+      via: body
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 150
+      via: body
+    - as:
+      - 超梦
+      name: 超梦
+      ndex: 150
+      seg:
+      - 150
+      via: llm
+    works:
+    - name: 宝可拳
+      seg:
+      - 2
+      slug: null
+      via: llm
+    - name: Train Meister
+      seg:
+      - 21
+      slug: null
+      via: llm
+    - name: 阿盖尔转换
+      seg:
+      - 45
+      slug: null
+      via: llm
+  id: gamefreak-lineblog-3425300
+  observations:
+  - seg: 0
+    text: 增田顺一去的是台场DiverCity内限时开放的VR ZONE
+  - seg: 21
+    text: 可以享受驾驶山手线的《Train Meister》
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2016-06-17-gamefreak-lineblog-4245921:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 洛杉矶国际机场
+      seg:
+      - 0
+      via: llm
+      what: 出发地机场
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: LAX
+      seg:
+      - 0
+      via: llm
+      what: 机场代码
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 台湾
+      seg:
+      - 2
+      via: llm
+      what: 伴手礼购买地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 日月潭
+      seg:
+      - 20
+      via: llm
+      what: 麻辣花生产地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 淡水
+      seg:
+      - 30
+      via: llm
+      what: 买铁蛋的地方
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 日本
+      seg:
+      - 1
+      via: llm
+      what: 返回地
+      world: real
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 46
+      via: body
+    works: []
+  id: gamefreak-lineblog-4245921
+  observations:
+  - seg: 0
+    text: 增田顺一在洛杉矶国际机场LAX，准备回日本
+  - seg: 20
+    text: 麻辣花生产自日月潭，位于台湾岛中央附近的湖
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2016-10-05-gamefreak-lineblog-7840175:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg: []
+      slug: masuda-junichi
+    - name: Kit
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: Krysta
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 大卫
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 茂
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: 增田
+      role: mentioned
+      seg:
+      - 1
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 旧金山
+      seg:
+      - 1
+      via: llm
+      what: 采访所在地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 任天堂公司
+      seg:
+      - 1
+      via: llm
+      what: 采访地点
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 太阳·月亮
+      seg: []
+      slug: sun-moon
+      via: entities
+  id: gamefreak-lineblog-7840175
+  observations:
+  - seg: 0
+    text: 增田顺一写道今天顺利结束了全部的媒体采访
+  - seg: 1
+    text: 采访在旧金山的任天堂公司进行
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori:
+  facets:
+    people:
+    - name: GQ
+      role: speaker
+      seg:
+      - 4
+      - 6
+      - 11
+      - 14
+      - 16
+      slug: null
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 5
+      - 7
+      - 12
+      - 15
+      - 17
+      slug: masuda-junichi
+    - name: 大森滋
+      role: mentioned
+      seg:
+      - 1
+      slug: ohmori-shigeru
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 阿罗拉地区
+      seg:
+      - 10
+      via: llm
+      what: 游戏舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 夏威夷
+      seg:
+      - 10
+      via: llm
+      what: 阿罗拉灵感来源
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 科隆群岛
+      seg:
+      - 13
+      via: llm
+      what: 地点灵感来源
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 马德里
+      seg:
+      - 2
+      via: llm
+      what: 专访地点
+      world: real
+    pokemon:
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 6
+      via: body
+    - as:
+      - 可达鸭
+      name: 可达鸭
+      ndex: 54
+      seg:
+      - 18
+      via: body
+    - as:
+      - 椰蛋树
+      name: 椰蛋树
+      ndex: 103
+      seg:
+      - 18
+      via: body
+    - as:
+      - 岩狗狗
+      name: 岩狗狗
+      ndex: 744
+      seg:
+      - 18
+      via: body
+    works:
+    - name: 宝可梦 太阳·月亮
+      seg: []
+      slug: sun-moon
+      via: entities
+    - name: Pokémon GO
+      seg:
+      - 0
+      slug: null
+      via: llm
+  id: interview-gq-spain-sun-moon-masuda-ohmori
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 截至11月底，《宝可梦 太阳／月亮》在3DS系列售出近18.5万份
+  - anchor: 16
+    seg: 15
+    text: 增田顺一称起初目标受众是10岁孩子，如今他们已30岁
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2017-08-15-interview-gi-2017-spinoffs:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      seg:
+      - 1
+      slug: masuda-junichi
+    - name: 大森滋
+      role: mentioned
+      seg:
+      - 1
+      slug: ohmori-shigeru
+    - name: Kyle Hilliard
+      role: mentioned
+      seg:
+      - 1
+      slug: kai-er-xi-li-ya-de
+      via: llm
+    places: []
+    pokemon:
+    - as:
+      - 钻角犀兽
+      name: 钻角犀兽
+      ndex: 112
+      seg:
+      - 6
+      via: body
+    works:
+    - name: Pokémon GO
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦 随乐拍
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦GO
+      seg:
+      - 4
+      slug: null
+      via: llm
+    - name: 宝可梦 红宝石·蓝宝石
+      seg:
+      - 4
+      slug: ruby-sapphire
+      via: llm
+    - name: 宝可梦随乐拍
+      seg:
+      - 5
+      slug: snap
+      via: llm
+    - name: 宝可梦 金／银
+      seg:
+      - 4
+      slug: null
+      via: llm
+    - name: 宝可梦 X／Y
+      seg:
+      - 6
+      slug: null
+      via: llm
+  id: interview-gi-2017-spinoffs
+  observations:
+  - anchor: 5
+    seg: 4
+    text: 增田称宝可梦GO与红蓝宝石是他最难制作的两款游戏
+  - anchor: 6
+    seg: 5
+    text: 大森说可把游戏带到便利店打印照片当贴纸用
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida:
+  facets:
+    people:
+    - name: 杉森建
+      role: speaker
+      seg:
+      - 1
+      - 7
+      - 9
+      - 12
+      - 16
+      - 21
+      slug: sugimori-ken
+    - name: 西野弘二
+      role: speaker
+      seg:
+      - 2
+      - 20
+      - 34
+      - 41
+      - 55
+      - 58
+      slug: nishino-koji
+    - name: にしだあつこ
+      role: speaker
+      seg:
+      - 3
+      - 15
+      - 17
+      - 23
+      - 35
+      - 38
+      slug: null
+    - name: 西田敦子
+      role: mentioned
+      seg:
+      - 10
+      - 25
+      - 28
+      - 50
+      slug: nishida-atsuko
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 12
+      - 24
+      slug: tajiri-satoshi
+    - name: 汤山邦彦
+      role: mentioned
+      seg:
+      - 64
+      slug: yuyama-kunihiko
+    - name: 大谷育江
+      role: mentioned
+      seg:
+      - 68
+      slug: otani-ikue
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 常青森林
+      seg:
+      - 58
+      via: llm
+      what: 皮卡丘遭遇地
+      world: game
+    pokemon:
+    - as:
+      - 妙蛙种子
+      name: 妙蛙种子
+      ndex: 1
+      seg:
+      - 3
+      - 27
+      - 28
+      - 64
+      via: tag
+    - as:
+      - 小火龙
+      name: 小火龙
+      ndex: 4
+      seg:
+      - 3
+      - 27
+      - 28
+      - 64
+      via: tag
+    - as:
+      - 杰尼龟
+      name: 杰尼龟
+      ndex: 7
+      seg:
+      - 3
+      - 27
+      - 28
+      - 64
+      via: tag
+    - as:
+      - 皮卡丘
+      - Pikachu
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 0
+      - 3
+      - 4
+      - 6
+      - 7
+      - 10
+      - 23
+      via: tag
+    - as:
+      - 雷丘
+      name: 雷丘
+      ndex: 26
+      seg:
+      - 15
+      via: tag
+    - as:
+      - ピッピ
+      name: ピッピ
+      ndex: 35
+      seg:
+      - 31
+      - 32
+      via: body
+    - as:
+      - ゲンガー
+      name: ゲンガー
+      ndex: 94
+      seg:
+      - 32
+      via: body
+    works:
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: Pokémon GO
+      seg:
+      - 71
+      slug: null
+      via: entities
+    - name: 宝可梦 红／绿
+      seg:
+      - 2
+      slug: null
+      via: llm
+    - name: 赤・绿
+      seg:
+      - 10
+      slug: null
+      via: llm
+    - name: 精灵宝可梦
+      seg:
+      - 65
+      slug: null
+      via: llm
+  id: interview-tpc-pikachu-origin-sugimori-nishino-nishida
+  observations:
+  - anchor: 10
+    seg: 9
+    text: 初代《红／绿》时期创作者直接坐在电脑前逐点敲打像素点阵
+  - anchor: 13
+    seg: 12
+    text: 杉森建称核心发起人全为男性，故拜托西田设计可爱宝可梦
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future:
+  facets:
+    people:
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 5
+      - 9
+      - 12
+      - 14
+      - 17
+      - 19
+      slug: masuda-junichi
+    - name: 菜花健作
+      role: speaker
+      seg:
+      - 18
+      slug: nabana-kensaku
+    - name: Chris Tapsell
+      role: mentioned
+      seg:
+      - 2
+      slug: ke-li-si-ta-pu-sai-er
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 关都地区
+      seg:
+      - 2
+      via: llm
+      what: 游戏舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 城都地区
+      seg:
+      - 40
+      via: llm
+      what: 续作可能舞台
+      world: game
+    pokemon:
+    - as:
+      - 喷火龙
+      name: 喷火龙
+      ndex: 6
+      seg:
+      - 14
+      via: body
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 2
+      - 5
+      - 12
+      - 21
+      - 22
+      via: tag
+    - as:
+      - 可达鸭
+      - Psyduck
+      name: 可达鸭
+      ndex: 54
+      seg:
+      - 19
+      via: body
+    - as:
+      - 风速狗
+      name: 风速狗
+      ndex: 59
+      seg:
+      - 13
+      - 14
+      via: body
+    - as:
+      - 鸭嘴火兽
+      name: 鸭嘴火兽
+      ndex: 126
+      seg:
+      - 38
+      via: body
+    - as:
+      - 伊布
+      name: 伊布
+      ndex: 133
+      seg: []
+      via: tag
+    - as:
+      - 菊草叶
+      name: 菊草叶
+      ndex: 152
+      seg:
+      - 29
+      via: body
+    - as:
+      - 宝宝丁
+      name: 宝宝丁
+      ndex: 174
+      seg:
+      - 38
+      - 39
+      via: body
+    - as:
+      - 鸭嘴炎兽
+      name: 鸭嘴炎兽
+      ndex: 467
+      seg:
+      - 38
+      via: body
+    - as:
+      - 美录坦
+      - Meltan
+      name: 美录坦
+      ndex: 808
+      seg:
+      - 2
+      - 25
+      - 26
+      - 29
+      - 31
+      - 32
+      via: tag
+    works:
+    - name: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+      seg: []
+      slug: lets-go
+      via: entities
+    - name: Pokémon GO
+      seg:
+      - 5
+      - 26
+      - 29
+      - 31
+      - 32
+      - 34
+      slug: null
+      via: entities
+    - name: 宝可梦 皮卡丘版
+      seg: []
+      slug: yellow
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: 宝可梦 红／蓝
+      seg:
+      - 2
+      slug: null
+      via: llm
+    - name: 宝可梦 黄
+      seg:
+      - 5
+      slug: null
+      via: llm
+    - name: 塞尔达传说：旷野之息
+      seg:
+      - 36
+      slug: null
+      via: llm
+    - name: 超级马力欧：奥德赛
+      seg:
+      - 36
+      slug: null
+      via: llm
+    - name: 金·银
+      seg:
+      - 40
+      slug: null
+      via: llm
+  id: interview-eurogamer-masuda-lets-go-difficulty-meltan-future
+  observations:
+  - anchor: 6
+    seg: 5
+    text: 增田称首要目标群体是没智能手机、错过《Pokémon GO》的孩子
+  - anchor: 13
+    seg: 12
+    text: 增田说当年在3DS VC重温初代皮卡丘版通关需三四十小时
+  relations:
+  - id: interview-gamer-pokemon-press-conference-2018
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    why: 同为2018年5月30日新作发布会报道，含增田谈Let's Go
+  - id: interview-gq-spain-sun-moon-masuda-ohmori
+    kind: background
+    label: 为这篇提供背景
+    why: 增田谈系列核心概念与受众年龄跨度
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2019-10-24-interview-polygon-2019-swsh:
+  facets:
+    people:
+    - name: Polygon
+      role: speaker
+      seg:
+      - 4
+      - 9
+      - 11
+      - 15
+      - 19
+      - 21
+      slug: null
+    - name: 大森滋
+      role: speaker
+      seg:
+      - 5
+      - 6
+      - 7
+      - 16
+      - 17
+      - 20
+      slug: ohmori-shigeru
+    - name: 增田顺一
+      role: speaker
+      seg:
+      - 8
+      - 10
+      - 12
+      - 18
+      - 24
+      - 33
+      slug: masuda-junichi
+    - name: 岩田
+      role: mentioned
+      seg:
+      - 12
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 伽勒尔地区
+      seg:
+      - 43
+      via: llm
+      what: 游戏舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 英国
+      seg:
+      - 43
+      via: llm
+      what: 地区灵感来源
+      world: real
+    pokemon:
+    - as:
+      - 大葱鸭
+      name: 大葱鸭
+      ndex: 83
+      seg:
+      - 42
+      - 43
+      via: body
+    - as:
+      - 球球海狮
+      name: 球球海狮
+      ndex: 728
+      seg:
+      - 48
+      - 49
+      via: body
+    - as:
+      - 敲音猴
+      name: 敲音猴
+      ndex: 810
+      seg:
+      - 49
+      via: body
+    - as:
+      - 炎兔儿
+      name: 炎兔儿
+      ndex: 813
+      seg:
+      - 49
+      via: body
+    - as:
+      - 泪眼蜥
+      name: 泪眼蜥
+      ndex: 816
+      seg:
+      - 48
+      - 49
+      via: body
+    works:
+    - name: 宝可梦 剑·盾
+      seg:
+      - 0
+      - 45
+      slug: sword-shield
+      via: entities
+    - name: 超级马力欧 奥德赛
+      seg:
+      - 0
+      slug: null
+      via: llm
+    - name: 塞尔达传说 旷野之息
+      seg:
+      - 0
+      slug: null
+      via: llm
+  id: interview-polygon-2019-swsh
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 《宝可梦 剑·盾》下月成为首款在主机上首发的主系列RPG
+  - anchor: 2
+    seg: 1
+    text: 采访在两周前进行，受访者为增田顺一和大森滋
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2020-12-21-interview-nikkei-ishihara-go-boardgames:
+  facets:
+    people:
+    - name: 石原恒和
+      role: speaker
+      seg:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 9
+      slug: ishihara-tsunekazu
+    - name: 日经记者
+      role: speaker
+      seg:
+      - 8
+      - 10
+      slug: null
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 三重县鸟羽市
+      seg:
+      - 1
+      via: llm
+      what: 石原恒和出生地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 筑波大学
+      seg:
+      - 1
+      via: llm
+      what: 石原恒和母校
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 伊势湾
+      seg:
+      - 3
+      via: llm
+      what: 父亲出海垂钓处
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 松阪市
+      seg:
+      - 3
+      via: llm
+      what: 母亲出身地
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: 宝可梦
+      seg:
+      - 7
+      slug: null
+      via: llm
+    - name: 宝可梦集换式卡牌游戏
+      seg:
+      - 7
+      slug: null
+      via: llm
+  id: interview-nikkei-ishihara-go-boardgames
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 石原恒和1957年生于三重县鸟羽市，1983年毕业于筑波大学研究生院
+  - anchor: 8
+    seg: 7
+    text: 父亲围棋为业余五段乃至六段，石原的围棋由父亲启蒙
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2021-12-27-interview-gamefreak-crosstalk-scenario:
+  facets:
+    people:
+    - name: K.I.
+      role: speaker
+      seg:
+      - 4
+      - 6
+      - 9
+      - 11
+      - 13
+      - 16
+      slug: k-i
+    - name: K.M.
+      role: speaker
+      seg:
+      - 5
+      - 7
+      - 10
+      - 12
+      - 14
+      - 17
+      slug: k-m
+    - name: 岩尾和昌
+      role: mentioned
+      seg:
+      - 1
+      slug: iwao-kazumasa
+      via: llm
+    - name: 松岛贤二
+      role: mentioned
+      seg:
+      - 2
+      slug: matsushima-kenji
+      via: llm
+    places: []
+    pokemon:
+    - as:
+      - 洛托姆
+      - Rotom
+      name: 洛托姆
+      ndex: 479
+      seg:
+      - 12
+      - 13
+      - 14
+      via: body
+    - as:
+      - 阿尔宙斯
+      name: 阿尔宙斯
+      ndex: 493
+      seg:
+      - 1
+      via: body
+    works:
+    - name: 宝可梦 剑·盾
+      seg:
+      - 6
+      slug: sword-shield
+      via: entities
+    - name: 宝可梦 究极之日·究极之月
+      seg: []
+      slug: usum
+      via: entities
+    - name: 宝可梦传说 阿尔宙斯
+      seg:
+      - 1
+      slug: legends-arceus
+      via: entities
+  id: interview-gamefreak-crosstalk-scenario
+  observations:
+  - anchor: 4
+    seg: 1
+    text: K.I.现任开发二部副部长，兼世界概念团队成员
+  - anchor: 6
+    seg: 2
+    text: K.M.1993年入职，负责跨媒体衍生作品设定监修
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2021-12-27-interview-gamefreak-recruit-ta-tk:
+  facets:
+    people:
+    - name: T.K.
+      role: speaker
+      seg:
+      - 3
+      - 4
+      - 7
+      - 8
+      - 11
+      - 12
+      slug: t-k
+    places: []
+    pokemon:
+    - as:
+      - 阿尔宙斯
+      name: 阿尔宙斯
+      ndex: 493
+      seg:
+      - 7
+      via: body
+    works:
+    - name: 宝可梦 剑·盾
+      seg: []
+      slug: sword-shield
+      via: entities
+    - name: 宝可梦传说 阿尔宙斯
+      seg:
+      - 7
+      slug: legends-arceus
+      via: entities
+    - name: Houdini管线研发
+      seg: []
+      slug: null
+      via: entities
+    - name: 动作捕捉系统
+      seg: []
+      slug: null
+      via: entities
+    - name: 耀西的蛋
+      seg:
+      - 3
+      slug: null
+      via: llm
+    - name: 宝可梦 剑／盾
+      seg:
+      - 7
+      slug: null
+      via: llm
+    - name: 宝可梦
+      seg:
+      - 3
+      slug: null
+      via: llm
+  id: interview-gamefreak-recruit-ta-tk
+  observations:
+  - anchor: 4
+    seg: 3
+    text: T.K.在PC游戏开发公司工作10年后跳槽到影像公司
+  - anchor: 8
+    seg: 7
+    text: 《宝可梦 剑／盾》中他负责宝可梦模型制作环境整备，模型超1000只
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2022-05-31-Updates:
+  facets:
+    people:
+    - name: 杉森建
+      role: mentioned
+      seg:
+      - 20
+      slug: sugimori-ken
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 20
+      slug: tajiri-satoshi
+    - name: 石原
+      role: mentioned
+      seg:
+      - 2
+      slug: null
+      via: llm
+    - name: 森下的等式
+      role: mentioned
+      seg:
+      - 13
+      slug: null
+      via: llm
+    - name: 水谷惠
+      role: mentioned
+      seg:
+      - 16
+      slug: null
+      via: llm
+    - name: 田尻
+      role: mentioned
+      seg:
+      - 20
+      slug: null
+      via: llm
+    - name: 远藤雅伸
+      role: mentioned
+      seg:
+      - 20
+      slug: endo-masanobu
+      via: llm
+    - name: yumi
+      role: mentioned
+      seg:
+      - 20
+      slug: null
+      via: llm
+    - name: 仙布
+      role: mentioned
+      seg:
+      - 22
+      slug: null
+      via: llm
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 朱&紫
+      seg:
+      - 9
+      slug: null
+      via: llm
+    - name: 宝可梦 红宝石·蓝宝石
+      seg:
+      - 21
+      slug: ruby-sapphire
+      via: llm
+    - name: 宝可梦剧场版 美术设定大全
+      seg:
+      - 22
+      slug: null
+      via: llm
+    - name: 铁板阵
+      seg:
+      - 20
+      slug: null
+      via: llm
+    - name: Nintendo Dream Vol.84
+      seg:
+      - 21
+      slug: null
+      via: llm
+  id: Updates
+  observations:
+  - seg: 6
+    text: 完成全世代OST附录小册子扫描件和盘面照片上传，素材来自musicbrainz.org
+  - seg: 20
+    text: 完成一篇田尻16年采访的校对工作，感谢yumi的翻译
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2023-08-24-interview-famitsu-2023-cedec-sound:
+  facets:
+    people:
+    - name: 一之濑刚
+      role: mentioned
+      seg:
+      - 3
+      slug: ichinose-go
+    - name: 北村一树
+      role: mentioned
+      seg:
+      - 3
+      slug: kitamura-kazuki
+    - name: 岩本翔
+      role: mentioned
+      seg:
+      - 3
+      slug: iwamoto-sho
+    - name: 增田顺一
+      role: mentioned
+      seg:
+      - 34
+      slug: masuda-junichi
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 横须贺
+      seg:
+      - 20
+      via: llm
+      what: 收录环境音的山中公园
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 东武动物公园
+      seg:
+      - 50
+      via: llm
+      what: 确认动物叫声的场所
+      world: real
+    pokemon:
+    - as:
+      - メリープ
+      name: メリープ
+      ndex: 179
+      seg:
+      - 92
+      via: body
+    - as:
+      - 阿尔宙斯
+      name: 阿尔宙斯
+      ndex: 493
+      seg:
+      - 3
+      - 28
+      - 45
+      - 76
+      via: body
+    - as:
+      - 毛辫羊
+      name: 毛辫羊
+      ndex: 831
+      seg:
+      - 26
+      via: body
+    - as:
+      - 故勒顿
+      name: 故勒顿
+      ndex: 1007
+      seg:
+      - 40
+      via: body
+    - as:
+      - 密勒顿
+      name: 密勒顿
+      ndex: 1008
+      seg:
+      - 40
+      via: body
+    works:
+    - name: 宝可梦 朱·紫
+      seg:
+      - 3
+      - 17
+      - 29
+      - 40
+      - 49
+      - 64
+      slug: scarlet-violet
+      via: entities
+    - name: 宝可梦 金·银
+      seg:
+      - 3
+      slug: gold-silver
+      via: llm
+    - name: 宝可梦传说 阿尔宙斯
+      seg:
+      - 3
+      slug: legends-arceus
+      via: llm
+    - name: 宝可梦 红宝石·蓝宝石
+      seg:
+      - 12
+      slug: ruby-sapphire
+      via: llm
+    - name: 宝可梦 太阳·月亮
+      seg:
+      - 14
+      slug: sun-moon
+      via: llm
+    - name: 宝可梦 剑·盾
+      seg:
+      - 16
+      slug: sword-shield
+      via: llm
+    - name: 宝可梦 红·绿
+      seg:
+      - 33
+      slug: red-green
+      via: llm
+    - name: 宝可梦 心金·魂银
+      seg:
+      - 69
+      slug: heartgold-soulsilver
+      via: llm
+  id: interview-famitsu-2023-cedec-sound
+  observations:
+  - anchor: 13
+    seg: 12
+    text: 《红宝石·蓝宝石》首次引入环境叫声，从遭遇表随机选一只播放
+  - anchor: 21
+    seg: 20
+    text: 北村在横须贺山中公园用约5厘米扬声器播放宝可梦叫声
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility:
+  facets:
+    people:
+    - name: トヨタ技術会
+      role: mentioned
+      seg: []
+      slug: null
+    - name: 株式会社ポケモン
+      role: mentioned
+      seg: []
+      slug: null
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 丰田市
+      seg:
+      - 3
+      via: llm
+      what: 心动世界举办地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 爱知县
+      seg:
+      - 3
+      via: llm
+      what: 问卷征集对象地区
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 东京中城日比谷
+      seg:
+      - 21
+      via: llm
+      what: 实车展出地
+      world: real
+    pokemon:
+    - as:
+      - 密勒顿
+      - Miraidon
+      name: 密勒顿
+      ndex: 1008
+      seg:
+      - 0
+      - 2
+      - 3
+      - 5
+      - 6
+      - 11
+      via: tag
+    works:
+    - name: 丰田密勒顿企划
+      seg:
+      - 0
+      - 2
+      slug: null
+      via: entities
+    - name: Toyota Engineering Society MIRAIDON
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦 紫
+      seg:
+      - 2
+      - 5
+      slug: null
+      via: entities
+    - name: 密勒顿
+      seg:
+      - 0
+      - 2
+      - 3
+      - 5
+      - 6
+      - 11
+      slug: null
+      via: entities
+    - name: 心动世界
+      seg:
+      - 3
+      slug: null
+      via: llm
+    - name: 闪电冲锋
+      seg:
+      - 27
+      slug: null
+      via: llm
+  id: corporate-topic-14-toyota-miraidon-project-future-mobility
+  observations:
+  - anchor: 4
+    seg: 3
+    text: 2023年度以爱知县小学生为对象征集梦想的未来移动载具
+  - anchor: 10
+    seg: 9
+    text: 项目初期约30名成员，最终超过300名专家加入
+  relations:
+  - id: corporate-topic-15-pokemon-battle-scope-ai-esports
+    kind: continues
+    label: 同一系列的前后篇
+    why: Topics第15篇，紧接本篇第14篇的系列下一篇
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2024-10-24-[长文]-拨云见日-从百代市到水脉图书馆:
+  facets:
+    people:
+    - name: 大森
+      role: mentioned
+      seg:
+      - 10
+      slug: null
+      via: llm
+    - name: Mikaru
+      role: mentioned
+      seg:
+      - 16
+      slug: null
+      via: llm
+    - name: 赤日
+      role: mentioned
+      seg:
+      - 46
+      slug: null
+      via: llm
+    - name: 增田
+      role: mentioned
+      seg:
+      - 48
+      slug: null
+      via: llm
+    - name: 石原
+      role: mentioned
+      seg:
+      - 51
+      slug: null
+      via: llm
+    - name: 田尻智
+      role: mentioned
+      seg:
+      - 54
+      slug: tajiri-satoshi
+      via: llm
+    - name: 北尚
+      role: mentioned
+      seg:
+      - 109
+      slug: null
+      via: llm
+    - name: 吾思
+      role: mentioned
+      seg:
+      - 146
+      slug: null
+      via: llm
+    - name: 马加木
+      role: mentioned
+      seg:
+      - 159
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 水脉图书馆
+      seg:
+      - 0
+      via: llm
+      what: 神奥神话藏书地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 百代市
+      seg:
+      - 0
+      via: llm
+      what: 神奥城市
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 北海道
+      seg:
+      - 10
+      via: llm
+      what: 取材构思之旅地
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 神奥地区
+      seg:
+      - 21
+      via: llm
+      what: 游戏舞台
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 心齐湖
+      seg:
+      - 57
+      via: llm
+      what: 三大湖之一
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 随意遗迹
+      seg:
+      - 57
+      via: llm
+      what: 岩壁文字遗迹
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 神和镇
+      seg:
+      - 57
+      via: llm
+      what: 壁画讲解地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 天冠山
+      seg:
+      - 57
+      via: llm
+      what: 枪之柱所在
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 祝庆村
+      seg:
+      - 137
+      via: llm
+      what: LA起始村落
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 云雾遗迹
+      seg:
+      - 146
+      via: llm
+      what: 红色锁链取得地
+      world: game
+    pokemon:
+    - as:
+      - 风速狗
+      name: 风速狗
+      ndex: 59
+      seg:
+      - 108
+      via: body
+    - as:
+      - 火暴兽
+      name: 火暴兽
+      ndex: 157
+      seg:
+      - 2
+      via: body
+    - as:
+      - 波克比
+      name: 波克比
+      ndex: 175
+      seg:
+      - 64
+      via: body
+    - as:
+      - 盖欧卡
+      name: 盖欧卡
+      ndex: 382
+      seg:
+      - 27
+      - 29
+      - 111
+      via: body
+    - as:
+      - 固拉多
+      name: 固拉多
+      ndex: 383
+      seg:
+      - 27
+      - 29
+      - 111
+      via: body
+    - as:
+      - 代欧奇希斯
+      name: 代欧奇希斯
+      ndex: 386
+      seg:
+      - 16
+      via: body
+    - as:
+      - 由克希
+      name: 由克希
+      ndex: 480
+      seg:
+      - 45
+      via: body
+    - as:
+      - 艾姆利多
+      name: 艾姆利多
+      ndex: 481
+      seg:
+      - 45
+      via: body
+    - as:
+      - 亚克诺姆
+      name: 亚克诺姆
+      ndex: 482
+      seg:
+      - 45
+      via: body
+    - as:
+      - 帝牙卢卡
+      name: 帝牙卢卡
+      ndex: 483
+      seg:
+      - 21
+      - 74
+      via: body
+    - as:
+      - 席多蓝恩
+      name: 席多蓝恩
+      ndex: 485
+      seg:
+      - 16
+      - 25
+      - 26
+      - 111
+      via: body
+    - as:
+      - 玛纳霏
+      name: 玛纳霏
+      ndex: 490
+      seg:
+      - 64
+      via: body
+    - as:
+      - 阿尔宙斯
+      name: 阿尔宙斯
+      ndex: 493
+      seg:
+      - 1
+      - 10
+      - 12
+      - 13
+      - 63
+      - 74
+      via: body
+    - as:
+      - 打击鬼
+      name: 打击鬼
+      ndex: 539
+      seg:
+      - 55
+      via: body
+    - as:
+      - 蕾冠王
+      name: 蕾冠王
+      ndex: 898
+      seg:
+      - 118
+      via: body
+    - as:
+      - 太乐巴戈斯
+      name: 太乐巴戈斯
+      ndex: 1024
+      seg:
+      - 61
+      via: body
+    works:
+    - name: 宝可梦传说 阿尔宙斯
+      seg:
+      - 1
+      - 12
+      - 13
+      - 136
+      slug: legends-arceus
+      via: entities
+    - name: 珍珠·钻石
+      seg:
+      - 40
+      slug: null
+      via: llm
+    - name: 白金
+      seg:
+      - 59
+      slug: null
+      via: llm
+    - name: 宝可梦
+      seg:
+      - 117
+      slug: null
+      via: llm
+  id: 长文-拨云见日-从百代市到水脉图书馆
+  observations:
+  - seg: 0
+    text: 文章开头写明故事将从水脉图书馆一路讲到百代市
+  - seg: 5
+    text: 作者称本文三年前LA发售时就起了稿，无需借助泄露线索
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata:
+  facets:
+    people:
+    - name: Fami通
+      role: speaker
+      seg:
+      - 11
+      - 19
+      - 28
+      - 34
+      - 37
+      - 40
+      slug: null
+    - name: 宇都宫崇人
+      role: speaker
+      seg:
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 18
+      slug: utsunomiya-takato
+    - name: 中畑虎也
+      role: speaker
+      seg:
+      - 32
+      - 36
+      - 38
+      - 45
+      - 51
+      - 54
+      slug: null
+    - name: 宮川佳祐
+      role: speaker
+      seg:
+      - 50
+      - 53
+      - 55
+      - 93
+      - 107
+      - 111
+      slug: null
+    - name: 塚田拓実
+      role: speaker
+      seg:
+      - 58
+      - 85
+      - 112
+      slug: null
+    - name: 小川慧
+      role: mentioned
+      seg:
+      - 16
+      slug: null
+      via: llm
+    - name: 石原恒和
+      role: mentioned
+      seg:
+      - 41
+      slug: ishihara-tsunekazu
+      via: llm
+    - name: ゆーみん17
+      role: mentioned
+      seg:
+      - 0
+      slug: null
+      via: llm
+    - name: 竹内白州
+      role: mentioned
+      seg:
+      - 0
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 涩谷
+      seg:
+      - 16
+      via: llm
+      what: Ingress线下活动
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 天青石湖畔
+      seg:
+      - 84
+      via: llm
+      what: 新增场地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 黄金旧发电厂
+      seg:
+      - 84
+      via: llm
+      what: 新增场地
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 拉普拉斯湖畔
+      seg:
+      - 85
+      via: llm
+      what: 场地夜晚时段
+      world: game
+    - category: null
+      entity: null
+      id: null
+      name: 黄金旧港
+      seg:
+      - 85
+      via: llm
+      what: 一周年新营地
+      world: game
+    pokemon:
+    - as:
+      - 妙蛙种子
+      name: 妙蛙种子
+      ndex: 1
+      seg:
+      - 30
+      via: body
+    - as:
+      - 皮卡丘
+      name: 皮卡丘
+      ndex: 25
+      seg:
+      - 30
+      via: body
+    - as:
+      - スリープ
+      name: スリープ
+      ndex: 96
+      seg: []
+      via: title
+    - as:
+      - 鲤鱼王
+      name: 鲤鱼王
+      ndex: 129
+      seg:
+      - 25
+      - 28
+      - 32
+      - 102
+      via: body
+    - as:
+      - 拉普拉斯
+      name: 拉普拉斯
+      ndex: 131
+      seg:
+      - 85
+      via: body
+    - as:
+      - 卡比兽
+      - カビゴン
+      name: 卡比兽
+      ndex: 143
+      seg:
+      - 8
+      - 55
+      - 68
+      - 70
+      - 72
+      - 79
+      - 7
+      via: body
+    - as:
+      - 雷公
+      name: 雷公
+      ndex: 243
+      seg:
+      - 77
+      via: llm
+    - as:
+      - 炎帝
+      name: 炎帝
+      ndex: 244
+      seg:
+      - 77
+      via: llm
+    - as:
+      - 水君
+      name: 水君
+      ndex: 245
+      seg:
+      - 77
+      via: llm
+    works:
+    - name: Pokémon GO
+      seg:
+      - 1
+      - 13
+      - 17
+      - 27
+      - 44
+      - 61
+      slug: null
+      via: entities
+    - name: 宝可梦 红·绿
+      seg: []
+      slug: red-green
+      via: entities
+    - name: Pokémon Sleep
+      seg:
+      - 1
+      slug: null
+      via: llm
+    - name: Ingress
+      seg:
+      - 15
+      slug: null
+      via: llm
+    - name: 活下去！翻车鱼！～3亿条伙伴全都死了
+      seg:
+      - 21
+      slug: null
+      via: llm
+    - name: Hunt Cook -从狩猎开始的野味料理餐厅-
+      seg:
+      - 23
+      slug: null
+      via: llm
+    - name: 跳跃吧！鲤鱼王
+      seg:
+      - 25
+      slug: null
+      via: llm
+  id: interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
+  observations:
+  - anchor: 8
+    seg: 7
+    text: 2024年6月达成全球累计下载量2000万次
+  - anchor: 30
+    seg: 29
+    text: 宇都宫称《跳跃吧！鲤鱼王》下载量已超2700万
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2024-12-24-[技能机]-卡图下载-查询时间-Download & Inqury:
+  facets:
+    people: []
+    places: []
+    pokemon:
+    - as:
+      - 妙蛙种子
+      name: 妙蛙种子
+      ndex: 1
+      seg:
+      - 2
+      via: body
+    works:
+    - name: 宝可梦集换式卡牌游戏
+      seg: []
+      slug: null
+      via: entities
+  id: 技能机-卡图下载-查询时间-Download & Inqury
+  observations:
+  - seg: 2
+    text: 点开卡图后可发现静态链接格式，如151 001
+  - seg: 7
+    text: 脚本用for i in range(1,151)循环，zfill(3)补零
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'
+2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin:
+  facets:
+    people:
+    - name: 林宥嘉（Yoga Lin）
+      role: mentioned
+      seg:
+      - 15
+      slug: null
+    - name: 林宥嘉
+      role: mentioned
+      seg:
+      - 15
+      slug: null
+      via: llm
+    places:
+    - category: null
+      entity: null
+      id: null
+      name: 台湾
+      seg:
+      - 12
+      via: llm
+      what: 独占主题曲地区
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 东京
+      seg:
+      - 17
+      via: llm
+      what: 原厂所在
+      world: real
+    - category: null
+      entity: null
+      id: null
+      name: 日本
+      seg:
+      - 2
+      via: llm
+      what: 动画制作地
+      world: real
+    pokemon: []
+    works:
+    - name: 捉夢大師
+      seg: []
+      slug: null
+      via: entities
+    - name: ポケットモンスター（2023年アニメ）
+      seg: []
+      slug: null
+      via: entities
+    - name: 宝可梦 地平线
+      seg:
+      - 10
+      - 12
+      slug: null
+      via: entities
+  id: corporate-topic-42-taiwan-localized-anime-song-yoga-lin
+  observations:
+  - anchor: 13
+    seg: 12
+    text: 台湾地区2025年5月开播的《宝可梦 地平线》新章节启用本土专属主题曲
+  - anchor: 14
+    seg: 13
+    text: 自1998年初代动画引进台湾，27年间片头片尾曲沿用日版原声或直译翻唱
+  relations: []
+  sources:
+    model: deepseek-chat
+    pokemon_names: '2026-09-23'
+    tour_places: '2026-09-23'

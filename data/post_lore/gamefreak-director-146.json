@@ -1,0 +1,161 @@
+{
+ "id": "gamefreak-director-146",
+ "stem": "2009-04-16-gamefreak-director-146",
+ "rev": 1,
+ "built": "2026-09-23",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "seg": [
+     5
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "筑地市场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     3
+    ],
+    "what": "排名第1的景点",
+    "via": "llm"
+   },
+   {
+    "name": "东京迪士尼乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     4
+    ],
+    "what": "排名第2的景点",
+    "via": "llm"
+   },
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     6
+    ],
+    "what": "排名第4的景点",
+    "via": "llm"
+   },
+   {
+    "name": "东京迪士尼海洋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     7
+    ],
+    "what": "排名第5的景点",
+    "via": "llm"
+   },
+   {
+    "name": "浅草寺 浅草观音堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     8
+    ],
+    "what": "排名第6的景点",
+    "via": "llm"
+   },
+   {
+    "name": "金阁寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     9
+    ],
+    "what": "排名第7的景点",
+    "via": "llm"
+   },
+   {
+    "name": "伏见稻荷大社",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     10
+    ],
+    "what": "排名第8的景点",
+    "via": "llm"
+   },
+   {
+    "name": "Spa World",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     11
+    ],
+    "what": "排名第9的景点",
+    "via": "llm"
+   },
+   {
+    "name": "日本环球影城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "seg": [
+     12
+    ],
+    "what": "排名第10的景点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "外国人想去的日本旅游景点2008中排名第3"
+  },
+  {
+   "seg": 1,
+   "text": "排名根据TripAdvisor网站用户使用动向统计"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}
