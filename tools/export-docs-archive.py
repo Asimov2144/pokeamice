@@ -801,11 +801,16 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
         if lore:
             facets = lore.get("facets") or {}
             dex = [p["ndex"] for p in facets.get("pokemon", []) if isinstance(p.get("ndex"), int)][:12]
+            #  只有模型点出来的那几只（via: llm）：正文与标签里都没有这个写法，算推测。
+            #  App 的证据闸拿它把推测从「这篇说到的」里排掉（App 侧 worklist D-2）。
+            guess = [p["ndex"] for p in facets.get("pokemon", []) if p.get("via") == "llm" and p.get("ndex") in dex]
             spots = [{k: v for k, v in (("id", p.get("id")), ("entity", p.get("entity")), ("name", p.get("name"))) if v}
                      for p in facets.get("places", []) if p.get("id") or p.get("entity")][:6]
             summary_item["lore"] = {"dex": dex, "places": spots,
                                     "obs": len(lore.get("observations") or []),
                                     "rel": len(lore.get("relations") or [])}
+            if guess:
+                summary_item["lore"]["guess"] = guess
         index.append(summary_item)
         # 全文检索用的正文（译文优先），单独一个文件，App 第一次搜正文时才拉
         if full_text:
