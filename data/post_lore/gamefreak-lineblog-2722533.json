@@ -1,0 +1,78 @@
+{
+ "id": "gamefreak-lineblog-2722533",
+ "stem": "2016-04-12-gamefreak-lineblog-2722533",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "肯特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "爱美",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "北野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "长岛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "肯特和爱美对宝可梦充满热爱，卡牌与电子游戏知识丰富"
+  },
+  {
+   "seg": 20,
+   "text": "照片左起为制作人北野先生、一位创作者、导演长岛先生"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

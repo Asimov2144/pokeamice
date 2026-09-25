@@ -1,0 +1,107 @@
+{
+ "id": "interview-pokemon-center-president-kamigo-yamaoka",
+ "stem": "2023-03-01-interview-pokemon-center-president-kamigo-yamaoka",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦中心",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦中心线上商城",
+    "slug": null,
+    "seg": [
+     3,
+     7,
+     8,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦咖啡馆",
+    "slug": null,
+    "seg": [
+     3,
+     23
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     8,
+     10,
+     12,
+     16
+    ]
+   },
+   {
+    "name": "上乡赖臣",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     17,
+     19,
+     23,
+     25
+    ]
+   },
+   {
+    "name": "山冈梢",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     11,
+     13
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "宝可梦中心线上商城于2016年正式上线运营",
+   "anchor": 10
+  },
+  {
+   "seg": 19,
+   "text": "上乡赖臣称不要求入职前掌握宝可梦全部设定",
+   "anchor": 20
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,86 @@
+{
+ "id": "interview-gamefreak-recruit-planner-kf",
+ "stem": "2021-12-27-interview-gamefreak-recruit-planner-kf",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon HOME",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     7,
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦系列生态架构",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "K.F.",
+    "slug": "k-f",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "K.F.最初是自由职业音效设计师，从事视频广告等制作",
+   "anchor": 4
+  },
+  {
+   "seg": 7,
+   "text": "K.F.称『Pokémon HOME』构想从进公司时已存在，在休息区闲聊中听到",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-crosstalk-planner",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-planner/",
+   "why": "同日同系列策划篇，K.F.谈《Pokémon HOME》总监"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

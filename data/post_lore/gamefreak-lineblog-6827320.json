@@ -1,0 +1,135 @@
+{
+ "id": "gamefreak-lineblog-6827320",
+ "stem": "2016-09-06-gamefreak-lineblog-6827320",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 78
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "卡蒂狗",
+    "ndex": 58,
+    "seg": [
+     74
+    ],
+    "as": [
+     "卡蒂狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "飞天螳螂",
+    "ndex": 123,
+    "seg": [
+     41
+    ],
+    "as": [
+     "飞天螳螂"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "化石盔",
+    "ndex": 140,
+    "seg": [
+     0,
+     5,
+     50,
+     62
+    ],
+    "as": [
+     "化石盔"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "三轩茶屋",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "extra",
+    "what": "GAME FREAK 胡萝卜塔所在"
+   },
+   {
+    "name": "GAME FREAK",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     56
+    ],
+    "what": "他所在的公司",
+    "via": "extra"
+   },
+   {
+    "name": "世田谷公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "抓化石盔的公园",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "因为想抓化石盔，第一次来到世田谷公园"
+  },
+  {
+   "seg": 24,
+   "text": "世田谷公园里有D51，昵称Degoichi，是他最喜欢的机车"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

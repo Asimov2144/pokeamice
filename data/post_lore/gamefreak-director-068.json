@@ -1,0 +1,74 @@
+{
+ "id": "gamefreak-director-068",
+ "stem": "2007-01-17-gamefreak-director-068",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 45
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "增田顺一说让画面相对于主角稍微延迟一点"
+  },
+  {
+   "seg": 14,
+   "text": "在楼梯等地方上下移动时应该能察觉到"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-067",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第67回",
+   "url": "/gamefreak-director/entry-067/",
+   "why": "同系列前一篇，谈DP画面表现"
+  },
+  {
+   "id": "gamefreak-director-069",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第69回",
+   "url": "/gamefreak-director/entry-069/",
+   "why": "同系列后一篇，谈DP画面演出"
+  },
+  {
+   "id": "gamefreak-director-065",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第65回",
+   "url": "/gamefreak-director/entry-065/",
+   "why": "前篇预告将写钻石珍珠幕后话题"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

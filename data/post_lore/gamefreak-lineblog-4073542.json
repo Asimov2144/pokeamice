@@ -1,0 +1,76 @@
+{
+ "id": "gamefreak-lineblog-4073542",
+ "stem": "2016-06-12-gamefreak-lineblog-4073542",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 23
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     8
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基格尔德",
+    "ndex": 718,
+    "seg": [
+     5
+    ],
+    "as": [
+     "基格尔德"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "今年8月举办宝可梦世界锦标赛"
+  },
+  {
+   "seg": 8,
+   "text": "任天堂香港工作人员亲手制作可达鸭，附带留言"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

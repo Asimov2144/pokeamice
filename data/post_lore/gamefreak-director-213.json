@@ -1,0 +1,84 @@
+{
+ "id": "gamefreak-director-213",
+ "stem": "2011-10-07-gamefreak-director-213",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "乔布斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     21
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "开头写「谢谢你，乔布斯」"
+  },
+  {
+   "seg": 8,
+   "text": "写单键鼠标直到现在依然令人震撼"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-181",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第181回",
+   "url": "/gamefreak-director/entry-181/",
+   "why": "同为増田部長のめざめるパワー系列，第181回在前"
+  },
+  {
+   "id": "gamefreak-director-182",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第182回",
+   "url": "/gamefreak-director/entry-182/",
+   "why": "同为増田部長のめざめるパワー系列，第182回在前"
+  },
+  {
+   "id": "gamefreak-director-183",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第183回",
+   "url": "/gamefreak-director/entry-183/",
+   "why": "同为増田部長のめざめるパワー系列，第183回在前"
+  },
+  {
+   "id": "gamefreak-director-184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为増田部長のめざめるパワー系列，第184回在后"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

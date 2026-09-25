@@ -1,0 +1,170 @@
+{
+ "id": "interview-gi-2012-b2w2-sequel",
+ "stem": "2012-09-17-interview-gi-2012-b2w2-sequel",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 16
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 灰",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧RPG",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蓝",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     8,
+     10,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "盖奇斯",
+    "slug": "gai-qi-si",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "宇野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "增田称同事对N和盖奇斯结局后的去向感到好奇",
+   "anchor": 4
+  },
+  {
+   "seg": 5,
+   "text": "增田称玩过原作的玩家肯定拥有任天堂DS",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendodream-221-unno-masuda-b2w2-direction",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo DREAM Vol.221 独家专访总监海野隆雄 × 制作人增田顺一（前篇）：“从3D美术向总监请缨的两年”——Game Freak不设壁垒的创作文化、N流浪两年后的真实去向与暗黑·焰白酋雷姆",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-221-unno-masuda-b2w2-direction/",
+   "why": "同为增田谈B2W2续作与N去向的专访"
+  },
+  {
+   "id": "interview-game-informer-masuda-b2w2-numbered-sequel",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Game Informer 独家专访增田顺一：“为什么不是《宝可梦 灰》？GAME FREAK首度破例打造正统带编号续作《黑2·白2》的真正考量”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E7%BA%B8%E5%AA%92%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%93%E8%AE%BF/interview-game-informer-masuda-b2w2-numbered-sequel/",
+   "why": "同为Game Informer专访增田谈不做灰做B2W2"
+  },
+  {
+   "id": "interview-pokemon-com-b2w2-masuda-unno",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁",
+   "url": "/developer-interviews/official-archives/interview-pokemon-com-b2w2-masuda-unno/",
+   "why": "同为增田海野谈B2W2两年后合众的专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,278 @@
+{
+ "id": "corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+ "stem": "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 37
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     1,
+     2,
+     4,
+     8,
+     17
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "信使鸟",
+    "ndex": 225,
+    "seg": [
+     36
+    ],
+    "as": [
+     "信使鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "耿鬼",
+    "ndex": 94,
+    "seg": [
+     14
+    ],
+    "as": [
+     "耿鬼"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "被災地支援「ピカチュウかぶと」（皮卡丘折纸头盔）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "『ポケモンといつもいっしょ～せいかつおうえんブック～』",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "被災地支援「ピカチュウかぶと」",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱／紫",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "与宝可梦一直在一起～灾区生活应援手账～",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "一般財団法人ポケモン・ウィズ・ユー財団",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン デザインチーム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "北國新聞社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "NHK交響楽団",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "石川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "发行与援助地区",
+    "via": "llm"
+   },
+   {
+    "name": "能登半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "地震灾区",
+    "via": "llm"
+   },
+   {
+    "name": "阿苏",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "熊本地震灾区",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "宝可梦地区",
+    "via": "llm"
+   },
+   {
+    "name": "轮岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "能登灾区",
+    "via": "llm"
+   },
+   {
+    "name": "东北",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "过往援助灾区",
+    "via": "llm"
+   },
+   {
+    "name": "熊本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "过往援助灾区",
+    "via": "llm"
+   },
+   {
+    "name": "关都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "宝可梦地区",
+    "via": "llm"
+   },
+   {
+    "name": "城都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "宝可梦地区",
+    "via": "llm"
+   },
+   {
+    "name": "帕底亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "宝可梦地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "《北国新闻》跨页中缝印有皮卡丘黄色特刊广告，剪裁折叠可成皮卡丘武士头盔",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "该企划由一般财团法人POKÉMON with YOU财团在5月5日儿童节推行",
+   "anchor": 4
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

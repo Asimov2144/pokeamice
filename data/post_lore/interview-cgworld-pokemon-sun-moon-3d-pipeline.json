@@ -1,0 +1,271 @@
+{
+ "id": "interview-cgworld-pokemon-sun-moon-3d-pipeline",
+ "stem": "2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 179
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     23
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小笃儿",
+    "ndex": 731,
+    "seg": [
+     143,
+     145
+    ],
+    "as": [
+     "小笃儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬少",
+    "ndex": 734,
+    "seg": [
+     132,
+     134
+    ],
+    "as": [
+     "猫鼬少"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬探长",
+    "ndex": 735,
+    "seg": [
+     142
+    ],
+    "as": [
+     "猫鼬探长"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超坏星",
+    "ndex": 748,
+    "seg": [
+     127,
+     131
+    ],
+    "as": [
+     "超坏星"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "穿着熊",
+    "ndex": 760,
+    "seg": [
+     52,
+     56
+    ],
+    "as": [
+     "穿着熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索尔迦雷欧",
+    "ndex": 791,
+    "seg": [
+     38,
+     65,
+     66,
+     86
+    ],
+    "as": [
+     "索尔迦雷欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "露奈雅拉",
+    "ndex": 792,
+    "seg": [
+     49,
+     85,
+     86
+    ],
+    "as": [
+     "露奈雅拉"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "精灵宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红・绿",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探皮卡丘～新组合诞生～",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦加傲乐",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦GO",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "X·Y",
+    "slug": null,
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "欧米伽红宝石·阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "氏家淳子",
+    "slug": "shi-jia-chun-zi",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "畠祐贵",
+    "slug": "tian-you-gui",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中广健吾",
+    "slug": "zhong-guang-jian-wu",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "植松俊介",
+    "slug": "uematsu-shunsuke",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm",
+    "kind": "staff"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "自研引擎实现10%的处理负荷削减",
+   "anchor": 9
+  },
+  {
+   "seg": 9,
+   "text": "超过140只宝可梦被全新制作",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cgworld-creatures-3d-character-life",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术",
+   "url": "/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/",
+   "why": "同为2017年CGWORLD宝可梦3D资产专访"
+  },
+  {
+   "id": "interview-denfami-ohmori-onoue-gamefreak-heritage",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）",
+   "url": "/developer-interviews/official-archives/interview-denfami-ohmori-onoue-gamefreak-heritage/",
+   "why": "大森滋任日月总监的背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

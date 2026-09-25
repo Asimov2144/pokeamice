@@ -1,0 +1,103 @@
+{
+ "id": "gamefreak-director-200",
+ "stem": "2011-08-07-gamefreak-director-200",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "マイマイ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "さとちん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ヒロ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "しほ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "第200回纪念要公布《黑·白》未公开的小秘密"
+  },
+  {
+   "seg": 28,
+   "text": "采样了《红·绿》的“叮铃！”并用于游戏"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

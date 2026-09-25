@@ -1,0 +1,144 @@
+{
+ "id": "interview-corocoro-masuda-diamond-pearl-scoop",
+ "stem": "2005-07-15-interview-corocoro-masuda-diamond-pearl-scoop",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 7
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 珍珠",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "コロコロコミック",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     5
+    ]
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "丰缘",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "以往系列舞台",
+    "via": "llm"
+   },
+   {
+    "name": "关都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "以往系列舞台",
+    "via": "llm"
+   },
+   {
+    "name": "城都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "以往系列舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一称钻石珍珠由Game Freak全体开发人员研发中",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一称上屏展现原野与对战，下屏可用触控笔操作",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-022",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第22回",
+   "url": "/gamefreak-director/entry-022/",
+   "why": "增田宣布钻石珍珠正在GAME FREAK开发"
+  },
+  {
+   "id": "gamefreak-director-055",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第55回",
+   "url": "/gamefreak-director/entry-055/",
+   "why": "后续谈DP双屏与无线通信开发进展"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

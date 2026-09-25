@@ -1,0 +1,55 @@
+{
+ "id": "gamefreak-lineblog-4699666",
+ "stem": "2016-07-04-gamefreak-lineblog-4699666",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 7
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     1,
+     6
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "6月16日的博客"
+  },
+  {
+   "seg": 1,
+   "text": "喷火龙？！"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

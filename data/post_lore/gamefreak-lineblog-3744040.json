@@ -1,0 +1,82 @@
+{
+ "id": "gamefreak-lineblog-3744040",
+ "stem": "2016-05-28-gamefreak-lineblog-3744040",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 75
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     30,
+     38
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心大阪",
+    "id": null,
+    "entity": "pokemon_center_osaka",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27,
+     61
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "大阪站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "早上9点前",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田的签名会今天举行"
+  },
+  {
+   "seg": 17,
+   "text": "450人左右的朋友来参加抽选了"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

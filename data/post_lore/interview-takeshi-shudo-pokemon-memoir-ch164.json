@@ -1,0 +1,92 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch164",
+ "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "久保雅一",
+    "slug": "kubo-masakazu",
+    "role": "mentioned",
+    "seg": [
+     9,
+     11,
+     13
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "3D龙事件中全日本数百名儿童抽搐倒地、口吐白沫",
+   "anchor": 12
+  },
+  {
+   "seg": 13,
+   "text": "相同画面红蓝交替闪烁致儿童抽搐的惨剧在宝可梦之前数月已发生",
+   "anchor": 14
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch165",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch165/",
+   "why": "同为3D龙事件系列，第165回是八章终结篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch165",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch165/",
+   "why": "续篇交代NHK隐瞒败露后媒体围剿作鸟兽散"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

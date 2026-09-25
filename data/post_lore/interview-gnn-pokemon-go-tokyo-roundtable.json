@@ -1,0 +1,279 @@
+{
+ "id": "interview-gnn-pokemon-go-tokyo-roundtable",
+ "stem": "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     4,
+     6,
+     7,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Ingress",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者鬥惡龍",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 赤 ‧ 綠",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO Plus",
+    "slug": null,
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "GNN取材班",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     0,
+     9,
+     13,
+     15,
+     17,
+     20
+    ]
+   },
+   {
+    "name": "江上周作",
+    "slug": "egami-shusaku",
+    "role": "speaker",
+    "seg": [
+     2,
+     49
+    ]
+   },
+   {
+    "name": "野村达雄",
+    "slug": "nomura-tatsuo",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     11,
+     14,
+     18,
+     19
+    ]
+   },
+   {
+    "name": "须贺健人",
+    "slug": "xu-he-jian-ren",
+    "role": "speaker",
+    "seg": [
+     8,
+     16
+    ]
+   },
+   {
+    "name": "河合敬一",
+    "slug": "he-he-jing-yi",
+    "role": "speaker",
+    "seg": [
+     30,
+     36,
+     40
+    ]
+   },
+   {
+    "name": "村井说人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吉川佳一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "远藤宪司",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小川慧",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "本山敬一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "川島優志",
+    "slug": "kawashima-masashi",
+    "role": "mentioned",
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "東京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "圆桌会议举行地",
+    "via": "llm"
+   },
+   {
+    "name": "纽西兰",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     34
+    ],
+    "what": "先行上架地区",
+    "via": "llm"
+   },
+   {
+    "name": "美国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     34
+    ],
+    "what": "先行上架地区",
+    "via": "llm"
+   },
+   {
+    "name": "日本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     36
+    ],
+    "what": "7月22日上市地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "圆桌会议于2016年9月27日在東京举行，由Pokémon公司与Niantic主办",
+   "anchor": 1
+  },
+  {
+   "seg": 45,
+   "text": "野村称只完成了想做的10%，想做的事还有很多",
+   "anchor": 46
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-denfaminicogamer-pokemon-go-miracle",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
+   "why": "同为2014谷歌愚人节企划与石原恒和合作起点"
+  },
+  {
+   "id": "interview-nikkei-utsunomiya-pokemon-go",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+   "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
+   "why": "同述2014宝可梦挑战企划与日美合作经过"
+  },
+  {
+   "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-server-miracle/",
+   "why": "补充上线首日流量超预想50倍"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

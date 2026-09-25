@@ -1,0 +1,117 @@
+{
+ "id": "gamefreak-staff-44",
+ "stem": "2007-11-15-gamefreak-staff-44",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ミュウ",
+    "ndex": 151,
+    "seg": [
+     35,
+     37,
+     16
+    ],
+    "as": [
+     "ミュウ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "三轩茶屋",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1,
+     20
+    ],
+    "via": "extra",
+    "what": "GAME FREAK 胡萝卜塔所在"
+   },
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2,
+     3,
+     4,
+     11,
+     14,
+     15
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   },
+   {
+    "name": "下北泽一番街商店街",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "主楼到分馆经过的商店街",
+    "via": "llm"
+   },
+   {
+    "name": "GF分馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "GAME FREAK分馆",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "下周GAME FREAK将搬往三轩茶屋"
+  },
+  {
+   "seg": 2,
+   "text": "今晚网络停止运行，今天是下北泽最后一篇博客"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

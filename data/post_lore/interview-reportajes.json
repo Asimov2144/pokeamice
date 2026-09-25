@@ -1,0 +1,251 @@
+{
+ "id": "interview-reportajes",
+ "stem": "2016-12-12-interview-reportajes",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 36
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "椰蛋树",
+    "ndex": 103,
+    "seg": [
+     19
+    ],
+    "as": [
+     "椰蛋树"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 珍珠／钻石",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "节奏猎人和声骑士",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／绿",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 随乐拍",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦GO",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     12,
+     15,
+     16,
+     19,
+     22
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     26,
+     27,
+     31,
+     35
+    ]
+   },
+   {
+    "name": "Sergio González",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "马德里",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "接受采访地",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "增田出生地",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     15
+    ],
+    "what": "阿罗拉灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "第七世代舞台",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     29
+    ],
+    "what": "珍珠钻石舞台",
+    "via": "llm"
+   },
+   {
+    "name": "城都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     17
+    ],
+    "what": "被问及的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 15,
+   "text": "大森滋说选择夏威夷因人与自然关系紧密",
+   "anchor": 16
+  },
+  {
+   "seg": 19,
+   "text": "大森滋举例椰蛋树在岛上脖子变长",
+   "anchor": 20
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Switch 就是未来。",
+   "url": "//interview-meristation-sun-moon-switch-masuda-ohmori/",
+   "why": "同为2016年马德里MeriStation采访大森与增田"
+  },
+  {
+   "id": "interview-25043",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-25043/",
+   "why": "同为2016年采访大森谈阿罗拉以夏威夷为原型"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

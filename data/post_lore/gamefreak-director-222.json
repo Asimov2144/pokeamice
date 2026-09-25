@@ -1,0 +1,124 @@
+{
+ "id": "gamefreak-director-222",
+ "stem": "2012-02-29-gamefreak-director-222",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     11,
+     33
+    ],
+    "as": [
+     "莱希拉姆",
+     "Reshiram"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     11,
+     33
+    ],
+    "as": [
+     "捷克罗姆",
+     "Zekrom"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "酋雷姆",
+    "ndex": 646,
+    "seg": [
+     9,
+     10,
+     30,
+     31
+    ],
+    "as": [
+     "酋雷姆",
+     "Kyurem"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑2",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白2",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "《宝可梦 黑2》《宝可梦 白2》将于6月在日本发售"
+  },
+  {
+   "seg": 11,
+   "text": "听说暗黑酋雷姆、焰白酋雷姆的新力量与捷克罗姆、莱希拉姆有关"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-225",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第225回",
+   "url": "/gamefreak-director/entry-225/",
+   "why": "补充黑2白2具体发售日6月23日并开启预订"
+  },
+  {
+   "id": "interview-nintendodream-221-unno-masuda-b2w2-direction",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Nintendo DREAM Vol.221 独家专访总监海野隆雄 × 制作人增田顺一（前篇）：“从3D美术向总监请缨的两年”——Game Freak不设壁垒的创作文化、N流浪两年后的真实去向与暗黑·焰白酋雷姆",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-221-unno-masuda-b2w2-direction/",
+   "why": "专访解释暗黑焰白酋雷姆身体残缺与叫声微弱"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

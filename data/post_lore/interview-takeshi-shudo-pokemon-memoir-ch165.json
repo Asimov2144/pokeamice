@@ -1,0 +1,186 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch165",
+ "stem": "2008-11-26-interview-takeshi-shudo-pokemon-memoir-ch165",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 16
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电脑战士3D龙",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "罗生门",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "七武士",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "我想成为贝壳",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "久保雅一",
+    "slug": "kubo-masakazu",
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   },
+   {
+    "name": "桥本忍",
+    "slug": "qiao-ben-ren",
+    "role": "mentioned",
+    "seg": [
+     13,
+     14,
+     15
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "黑泽明",
+    "slug": "hei-ze-ming",
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm",
+    "kind": "figure"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "第38话《电脑战士3D龙》被永久除名，1998年4月16日复播",
+   "anchor": 8
+  },
+  {
+   "seg": 9,
+   "text": "1998年4月8日NHK与民放联颁布《动画等映像手法指针》",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch158",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch158/",
+   "why": "第158回详述3D龙事件当晚与第38话首播"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch163",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch163/",
+   "why": "第163回写久保雅一，本篇提其力排众议"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch166",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch166/",
+   "why": "第166回接续停播4个月与剧场版档期"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch167",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch167/",
+   "why": "第167回续写《超梦的逆袭》剧本"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,315 @@
+{
+ "id": "corporate-topic-38-pokemon-parks-community-playground",
+ "stem": "2025-06-13-corporate-topic-38-pokemon-parks-community-playground",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "穿山鼠",
+    "ndex": 27,
+    "seg": [
+     11,
+     12,
+     21,
+     26
+    ],
+    "as": [
+     "穿山鼠"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "小拳石",
+    "ndex": 74,
+    "seg": [
+     8,
+     9,
+     21,
+     26
+    ],
+    "as": [
+     "小拳石"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     21,
+     22,
+     26
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大岩蛇",
+    "ndex": 95,
+    "seg": [
+     10
+    ],
+    "as": [
+     "大岩蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吉利蛋",
+    "ndex": 113,
+    "seg": [
+     5,
+     7,
+     21,
+     26
+    ],
+    "as": [
+     "吉利蛋"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     21
+    ],
+    "as": [
+     "水水獭",
+     "ミジュマル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     21
+    ],
+    "as": [
+     "大剑鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "宝宝暴龙",
+    "ndex": 696,
+    "seg": [
+     10
+    ],
+    "as": [
+     "宝宝暴龙"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケモン公園",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンローカルActs",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ラッキー公園",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "イシツブテ公園",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "サンド公園",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ヤドン公園",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ミジュマル公園",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社ポケモン 地域共生チーム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社コトブキ（游乐设施制造巨头）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社コトブキ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0,
+     1,
+     2,
+     5,
+     21,
+     23
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   },
+   {
+    "name": "福岛县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "吉利蛋公园所在地",
+    "via": "llm"
+   },
+   {
+    "name": "岩手县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "小拳石公园所在地",
+    "via": "llm"
+   },
+   {
+    "name": "鸟取县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "穿山鼠公园所在地",
+    "via": "llm"
+   },
+   {
+    "name": "鸟取砂丘",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "穿山鼠公园设计意象",
+    "via": "llm"
+   },
+   {
+    "name": "香川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     21
+    ],
+    "what": "呆呆兽公园所在地",
+    "via": "llm"
+   },
+   {
+    "name": "三重县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     21
+    ],
+    "what": "水水獭公园所在地",
+    "via": "llm"
+   },
+   {
+    "name": "香川县绫川町",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     22
+    ],
+    "what": "呆呆兽公园实景地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "项目负责人回忆企划初心：孩子们户外玩耍最常去的地方是公园。",
+   "anchor": 4
+  },
+  {
+   "seg": 5,
+   "text": "各地宝可梦公园以各自治体专属的应援宝可梦为灵感定制设计。",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

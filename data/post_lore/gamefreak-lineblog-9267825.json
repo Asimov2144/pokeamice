@@ -1,0 +1,84 @@
+{
+ "id": "gamefreak-lineblog-9267825",
+ "stem": "2017-03-22-gamefreak-lineblog-9267825",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "化石盔",
+    "ndex": 140,
+    "seg": [
+     0
+    ],
+    "as": [
+     "化石盔"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小山猪",
+    "ndex": 220,
+    "seg": [
+     0
+    ],
+    "as": [
+     "小山猪"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "西雅图",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "看到身影的地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "増田顺一在西雅图看到了某个身影"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

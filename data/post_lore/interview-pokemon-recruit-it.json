@@ -1,0 +1,90 @@
+{
+ "id": "interview-pokemon-recruit-it",
+ "stem": "2023-11-20-interview-pokemon-recruit-it",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "铃木",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     4
+    ]
+   },
+   {
+    "name": "新井",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     9
+    ]
+   },
+   {
+    "name": "中野",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     14
+    ]
+   },
+   {
+    "name": "柴山",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     17,
+     19
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "铃木负责内部IT技术支持台，服务株式会社宝可梦及宝可梦中心全员",
+   "anchor": 5
+  },
+  {
+   "seg": 12,
+   "text": "中野称新官网上线需1至3个月推敲服务器架构与扩缩容策略",
+   "anchor": 19
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-data",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-data/",
+   "why": "同为2023年宝可梦公司官方专访系列，分数据篇与IT篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

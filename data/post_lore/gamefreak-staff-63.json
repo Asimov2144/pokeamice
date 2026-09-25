@@ -1,0 +1,49 @@
+{
+ "id": "gamefreak-staff-63",
+ "stem": "2008-03-24-gamefreak-staff-63",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 74
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ホーホー",
+    "ndex": 163,
+    "seg": [
+     21,
+     53,
+     58,
+     71
+    ],
+    "as": [
+     "ホーホー"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "文中称 GAME FREAK 的技术传承项目名为“项目·咕咕”"
+  },
+  {
+   "seg": 28,
+   "text": "该项目在公司内部网络上建立可自由阅览的机制"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,261 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch198",
+ "stem": "2009-09-30-interview-takeshi-shudo-pokemon-memoir-ch198",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 97
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     50,
+     56,
+     73
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     1,
+     37,
+     67,
+     79,
+     87
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     53
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     65
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     1,
+     65
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     1,
+     37,
+     67,
+     79
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "伴我同行",
+    "slug": null,
+    "seg": [
+     60
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     5
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     38,
+     50,
+     56,
+     61,
+     73,
+     75
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     50,
+     56,
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [
+     53
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     53
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     53
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     1,
+     65
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     37,
+     67,
+     79,
+     87
+    ]
+   },
+   {
+    "name": "吉拉尔丹",
+    "slug": "ji-la-er-dan",
+    "role": "mentioned",
+    "seg": [
+     87
+    ],
+    "kind": "figure"
+   }
+  ],
+  "places": [
+   {
+    "name": "长崎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     29
+    ],
+    "what": "遭核弹浩劫之地",
+    "via": "llm"
+   },
+   {
+    "name": "广岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     29
+    ],
+    "what": "遭核弹浩劫之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "首藤刚志称《超梦的逆袭》核心母题是「我究竟是谁」",
+   "anchor": 2
+  },
+  {
+   "seg": 19,
+   "text": "文中称几十年前生物灭绝速率约为每四天一种",
+   "anchor": 20
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch202",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第202回：火箭队才是真正主角（自我存在的悖论、被抹杀的反派尊严与秋叶原无差别事件的社会冷思）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch202/",
+   "why": "同为火箭队主题，紧接第198回续论共存与自我存在"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
+   "why": "标题即回应第198回火箭队共存问题，同系列后篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch181",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch181/",
+   "why": "第198回提《超梦的逆袭》母题，此篇讲该片公映前夜"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,43 @@
+{
+ "id": "gamefreak-staff-74",
+ "stem": "2008-06-11-gamefreak-staff-74",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "第二次招募应聘作品截止9月1日必须送达，选拔9月上旬开始"
+  },
+  {
+   "seg": 6,
+   "text": "森本说搬到新办公室已半年多，仍常把钥匙卡忘在座位上被关在门外"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

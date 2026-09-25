@@ -1,0 +1,59 @@
+{
+ "id": "gamefreak-staff-132",
+ "stem": "2009-06-26-gamefreak-staff-132",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 66
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "佐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     16,
+     49
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "入职的公司",
+    "via": "extra"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "佐藤从外部加入GAME FREAK，是1年前的6月"
+  },
+  {
+   "seg": 19,
+   "text": "应届毕业生招聘申请材料接收截止2009年7月3日星期五"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

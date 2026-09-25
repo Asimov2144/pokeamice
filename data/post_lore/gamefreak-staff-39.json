@@ -1,0 +1,91 @@
+{
+ "id": "gamefreak-staff-39",
+ "stem": "2007-10-23-gamefreak-staff-39",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 78
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "乔尼",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "小吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "奥多摩",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "溪流垂钓与烧烤地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "集合时间是早上9点，与悠闲宗旨相反"
+  },
+  {
+   "seg": 9,
+   "text": "小吉亲手制作宾果卡并放进活动手册"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

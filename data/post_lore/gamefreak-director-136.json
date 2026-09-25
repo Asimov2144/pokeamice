@@ -1,0 +1,74 @@
+{
+ "id": "gamefreak-director-136",
+ "stem": "2009-02-13-gamefreak-director-136",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 24
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "川内丸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《白金》的导演川内丸也会出场"
+  },
+  {
+   "seg": 0,
+   "text": "节目在2月15日星期日播出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-142",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第142回",
+   "url": "/gamefreak-director/entry-142/",
+   "why": "后续回预告同一节目登场并公开未解密情报"
+  },
+  {
+   "id": "gamefreak-director-135",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第135回",
+   "url": "/gamefreak-director/entry-135/",
+   "why": "同为《白金》北美发售前的专栏报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,114 @@
+{
+ "id": "gamefreak-director-045",
+ "stem": "2005-06-29-gamefreak-director-045",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     16
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   },
+   {
+    "name": "宝可梦嘉年华",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "即将开始的活动",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "增田顺一写「梦幻的配发开始了」。"
+  },
+  {
+   "seg": 17,
+   "text": "增田顺一写「宝可梦嘉年华也要开始了」。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-032",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第32回",
+   "url": "/gamefreak-director/entry-032/",
+   "why": "红·绿九周年背景，与配发活动时间线相接"
+  },
+  {
+   "id": "gamefreak-director-033",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第33回",
+   "url": "/gamefreak-director/entry-033/",
+   "why": "九周年特别企划，与线下活动脉络相关"
+  },
+  {
+   "id": "gamefreak-director-034",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第34回",
+   "url": "/gamefreak-director/entry-034/",
+   "why": "名古屋宝可梦乐园活动，属线下活动背景"
+  },
+  {
+   "id": "gamefreak-director-036",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第36回",
+   "url": "/gamefreak-director/entry-036/",
+   "why": "看我嘛活动记录，属线下活动背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,187 @@
+{
+ "id": "gamefreak-staff-160",
+ "stem": "2009-12-18-gamefreak-staff-160",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 120
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     47,
+     107
+    ],
+    "as": [
+     "呆呆兽",
+     "ヤドン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "クラブ",
+    "ndex": 98,
+    "seg": [
+     79
+    ],
+    "as": [
+     "クラブ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火球鼠",
+    "ndex": 155,
+    "seg": [
+     46,
+     106
+    ],
+    "as": [
+     "火球鼠",
+     "ヒノアラシ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小锯鳄",
+    "ndex": 158,
+    "seg": [
+     45,
+     105
+    ],
+    "as": [
+     "小锯鳄",
+     "ワニノコ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "松岛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2,
+     51
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3,
+     32,
+     64,
+     93
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "呆呆兽之井",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "搭话地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "松岛在ＨＧ・ＳＳ中担任策划负责人"
+  },
+  {
+   "seg": 3,
+   "text": "策划负责人按森本导演的意向整理汇总企划和规格"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-126",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年宝可梦新作开发现场",
+   "url": "/gamefreak-staff/entry-126/",
+   "why": "同为晴れたり時々曇ったり开发连载，森本谈心金魂银现场"
+  },
+  {
+   "id": "gamefreak-staff-155",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年《心金·魂银》的美术设计",
+   "url": "/gamefreak-staff/entry-155/",
+   "why": "同为该连载ＨＧ・ＳＳ語っちゃいます系列，海野谈美术"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同作开发访谈，增田森本谈重制经过与标题由来"
+  },
+  {
+   "id": "interview-dengeki-hgss-shigeki-morimoto",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛",
+   "url": "/developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/",
+   "why": "同作总监森本访谈，谈重制构想与新要素"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

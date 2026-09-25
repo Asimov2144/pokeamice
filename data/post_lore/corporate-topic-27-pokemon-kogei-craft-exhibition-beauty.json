@@ -1,0 +1,156 @@
+{
+ "id": "corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
+ "stem": "2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "多龙巴鲁托",
+    "ndex": 887,
+    "seg": [
+     0,
+     16
+    ],
+    "as": [
+     "多龙巴鲁托"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦×工艺展",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "美とわざの大発見",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "多龙巴鲁托",
+    "slug": null,
+    "seg": [
+     0,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦全图鉴",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "唐泽昌宏",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ]
+   },
+   {
+    "name": "今井阳子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12,
+     16
+    ]
+   },
+   {
+    "name": "今井完眞",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     16
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "国立工艺馆",
+    "id": "venue_ea32e0a339",
+    "entity": null,
+    "category": "ex",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1,
+     2,
+     4,
+     7,
+     12,
+     17
+    ],
+    "via": "gazetteer",
+    "when": "after"
+   },
+   {
+    "name": "关都大陆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "玩家漫步的剧情舞台",
+    "via": "llm"
+   },
+   {
+    "name": "金泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "展览首发城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "展览2023年3月启幕，以金泽国立工艺馆为全球首发第一站",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "最终敲定20位领军艺术家，含人间国宝与新锐匠人",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,143 @@
+{
+ "id": "gamefreak-director-204",
+ "stem": "2011-08-14-gamefreak-director-204",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 73
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     19,
+     56,
+     57
+    ],
+    "as": [
+     "捷克罗姆",
+     "Zekrom"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "成田",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "出发机场",
+    "via": "llm"
+   },
+   {
+    "name": "海湾前线",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "发报道处",
+    "via": "llm"
+   },
+   {
+    "name": "圣迭戈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "酒店所在地",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "转机抵达地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "在成田听到雷声轰鸣，收到飞机延误通知"
+  },
+  {
+   "seg": 7,
+   "text": "比预定时间晚约1小时抵达洛杉矶"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为増田部長专栏系列，第184回接第204回"
+  },
+  {
+   "id": "gamefreak-director-182",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第182回",
+   "url": "/gamefreak-director/entry-182/",
+   "why": "同为増田部長专栏系列，第182回"
+  },
+  {
+   "id": "gamefreak-director-183",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第183回",
+   "url": "/gamefreak-director/entry-183/",
+   "why": "同为増田部長专栏系列，第183回"
+  },
+  {
+   "id": "gamefreak-director-181",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第181回",
+   "url": "/gamefreak-director/entry-181/",
+   "why": "同为増田部長专栏系列，第181回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

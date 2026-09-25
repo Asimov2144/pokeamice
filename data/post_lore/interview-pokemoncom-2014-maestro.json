@@ -1,0 +1,245 @@
+{
+ "id": "interview-pokemoncom-2014-maestro",
+ "stem": "2014-05-14-interview-pokemoncom-2014-maestro",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 36
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     0,
+     34
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Mendel Palace",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲超人",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 银",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝宝石",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "纽约市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     30
+    ],
+    "what": "《黑·白》灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     30
+    ],
+    "what": "《黑·白》游戏地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田最早的音乐记忆是9岁，父母给他买了卡带播放器。",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "增田第一台合成器是Korg MS-10，由父母陪同购买。",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
+   "why": "增田回顾红绿声音制作与合成器使用"
+  },
+  {
+   "id": "scan-ndream-2012-10-pokemon-music-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦音乐以进化为目标",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-10-pokemon-music-interview/",
+   "why": "增田谈系列音乐创作历程"
+  },
+  {
+   "id": "interview-gameinformer-masuda-past-present-future",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Informer 专访增田顺一与井部真那：宝可梦 15 年的过去、现在与未来",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-past-present-future/",
+   "why": "增田回顾宝可梦十五年经历"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

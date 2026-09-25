@@ -1,0 +1,56 @@
+{
+ "id": "gamefreak-lineblog-2608231",
+ "stem": "2016-04-07-gamefreak-lineblog-2608231",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "日枝神社",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     38
+    ],
+    "what": "赏樱地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "增田顺一说花瓣已落下相当多，落樱铺成地毯也美丽"
+  },
+  {
+   "seg": 15,
+   "text": "增田顺一写只有雨声回响，仿佛能听见樱花和树干的呼吸"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

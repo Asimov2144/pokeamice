@@ -1,0 +1,167 @@
+{
+ "id": "interview-nintendodream-084-masuda-sugimori-ruby-sapphire",
+ "stem": "2003-02-21-interview-nintendodream-084-masuda-sugimori-ruby-sapphire",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木守宫",
+    "ndex": 252,
+    "seg": [
+     7,
+     8
+    ],
+    "as": [
+     "木守宫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火稚鸡",
+    "ndex": 255,
+    "seg": [
+     7,
+     8
+    ],
+    "as": [
+     "火稚鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水跃鱼",
+    "ndex": 258,
+    "seg": [
+     7,
+     8
+    ],
+    "as": [
+     "水跃鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     7,
+     8
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     7
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     4
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     6,
+     8
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "地理原型",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "増田順一称丰缘地区地理原型来源于他热爱的九州",
+   "anchor": 3
+  },
+  {
+   "seg": 8,
+   "text": "杉森建称封面神兽背负「大地与海洋」碰撞的核心母题",
+   "anchor": 9
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

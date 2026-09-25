@@ -1,0 +1,82 @@
+{
+ "id": "gamefreak-director-020",
+ "stem": "2004-09-30-gamefreak-director-020",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一写今天9月30日，宝可梦资讯网站palette要关闭"
+  },
+  {
+   "seg": 7,
+   "text": "增田顺一回忆宝可梦水晶版时期，反复讨论任天堂服务器运营到何时"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-001",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第1回",
+   "url": "/gamefreak-director/entry-001/",
+   "why": "同为增田部长专栏系列，第1回在前"
+  },
+  {
+   "id": "gamefreak-director-002",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第2回",
+   "url": "/gamefreak-director/entry-002/",
+   "why": "同为增田部长专栏系列，第2回在前"
+  },
+  {
+   "id": "gamefreak-director-003",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第3回",
+   "url": "/gamefreak-director/entry-003/",
+   "why": "同为增田部长专栏系列，第3回在前"
+  },
+  {
+   "id": "gamefreak-director-004",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第4回",
+   "url": "/gamefreak-director/entry-004/",
+   "why": "同为增田部长专栏系列，第4回在前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

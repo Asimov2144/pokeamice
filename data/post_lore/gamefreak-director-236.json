@@ -1,0 +1,130 @@
+{
+ "id": "gamefreak-director-236",
+ "stem": "2013-05-31-gamefreak-director-236",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     50
+    ],
+    "as": [
+     "Mewtwo"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖诺赛克特",
+    "ndex": 649,
+    "seg": [
+     10,
+     50
+    ],
+    "as": [
+     "盖诺赛克特",
+     "Genesect"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦剧场版：极速的盖诺赛克特 超梦觉醒",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "笑脸",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "いきものがかりのgarden☆party",
+    "slug": null,
+    "seg": [
+     16,
+     27
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "水野良树",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ]
+   },
+   {
+    "name": "吉冈圣惠",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "山下穗尊",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田顺一第一次去的地方是广播节目的录音室"
+  },
+  {
+   "seg": 15,
+   "text": "增田顺一作为嘉宾参加生物股长主持的广播节目"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-239",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第239回",
+   "url": "/gamefreak-director/entry-239/",
+   "why": "同系列后篇，都写增田与生物股长合作"
+  },
+  {
+   "id": "gamefreak-director-237",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第237回",
+   "url": "/gamefreak-director/entry-237/",
+   "why": "同系列后篇，接续广播节目之后的专栏"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

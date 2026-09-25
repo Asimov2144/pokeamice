@@ -1,0 +1,95 @@
+{
+ "id": "gamefreak-lineblog-3571634",
+ "stem": "2016-05-20-gamefreak-lineblog-3571634",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 18
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "恶魔岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "远处可见的地点",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山海湾大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "夜间灯光动画",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "世界锦标赛举办地",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山港口区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "照片拍摄地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "2016年世界锦标赛将于8月举行"
+  },
+  {
+   "seg": 1,
+   "text": "增田顺一在太阳镜上拍到了自己的手"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -2,7 +2,7 @@
  "id": "interview-cd-anime-ost-miyazaki-soundteam",
  "stem": "2010-08-04-interview-cd-anime-ost-miyazaki-soundteam",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -204,46 +204,11 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      11
     ],
     "what": "宫崎等消息处",
-    "via": "llm"
-   },
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     52
-    ],
-    "what": "城都地区原型",
-    "via": "llm"
-   },
-   {
-    "name": "城都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     52
-    ],
-    "what": "游戏地区",
-    "via": "llm"
-   },
-   {
-    "name": "水脉市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     58
-    ],
-    "what": "曲目名中的城镇",
     "via": "llm"
    },
    {
@@ -252,6 +217,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      98
     ],
@@ -264,10 +230,50 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      98
     ],
     "what": "曲目名中的道路",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     52
+    ],
+    "what": "城都地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     52
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "水脉市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     58
+    ],
+    "what": "曲目名中的城镇",
     "via": "llm"
    }
   ]
@@ -284,11 +290,29 @@
    "anchor": 53
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
+   "why": "同增田、一之濑、佐藤谈红绿音源与亚洲元素"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同增田谈金·银及城都地区开发回忆"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

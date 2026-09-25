@@ -1,0 +1,120 @@
+{
+ "id": "gamefreak-lineblog-3059194",
+ "stem": "2016-04-28-gamefreak-lineblog-3059194",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     0,
+     21
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0,
+     18
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   },
+   {
+    "name": "Disk Union",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "门前拍摄地",
+    "via": "llm"
+   },
+   {
+    "name": "珉亭",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "GAME FREAK 员工食堂",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "拍摄是为长篇采访用的照片"
+  },
+  {
+   "seg": 5,
+   "text": "在从那时起就已存在的 Disk Union 门前拍摄"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-4991670",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "【活动】2016年宝可梦音乐与攻略采访",
+   "url": "/gamefreak-director/lineblog-4991670/",
+   "why": "同为2016年围绕红绿音乐的采访取材"
+  },
+  {
+   "id": "gamefreak-lineblog-2413352",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【日记】2016增田博客启程",
+   "url": "/gamefreak-director/lineblog-2413352/",
+   "why": "介绍增田博客与红绿音乐由他制作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,219 @@
+{
+ "id": "interview-pokemon-recruit-passion",
+ "stem": "2017-05-10-interview-pokemon-recruit-passion",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     13,
+     42
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉普拉斯",
+    "ndex": 131,
+    "seg": [
+     42
+    ],
+    "as": [
+     "拉普拉斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     5,
+     24,
+     36
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "小岛彬",
+    "slug": "xiao-dao-bin",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "的场昂树",
+    "slug": "de-chang-ang-shu",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "寺田佑贵",
+    "slug": "si-tian-you-gui",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "髙草真生",
+    "slug": "gao-cao-zhen-sheng",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "林祐衣",
+    "slug": "lin-you-yi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "的场负责的门店",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "早稻田大学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "小岛彬毕业院校",
+    "via": "llm"
+   },
+   {
+    "name": "庆应义塾大学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "髙草真生毕业院校",
+    "via": "llm"
+   },
+   {
+    "name": "名古屋大学大学院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "寺田佑贵毕业院校",
+    "via": "llm"
+   },
+   {
+    "name": "东京艺术大学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "的场昂树毕业院校",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "小岛彬2016年4月应届入职，属营销本部营业企划部。",
+   "anchor": 6
+  },
+  {
+   "seg": 24,
+   "text": "寺田佑贵称入职时《Pokémon GO》尚未推出，7月全球开服前处于内部封测。",
+   "anchor": 31
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-growth",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-growth/",
+   "why": "同一批2016年入职五人，五年后同系列专访"
+  },
+  {
+   "id": "interview-pokemon-recruit-world-egami",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦公司官方专访 『Pokémon GO』特别篇：开启次时代大门的那一天（江上周作）",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-world-egami/",
+   "why": "寺田谈的GO上线前封测，此篇讲上线后运营"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

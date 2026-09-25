@@ -48,9 +48,11 @@ import argparse
 import collections
 import io
 import json
+import os
 import re
 import subprocess
 import sys
+import time
 import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
@@ -311,9 +313,21 @@ def git_head(path: Path) -> str:
 
 
 def dump(path: Path, obj) -> int:
+    """一个文件写出去。先写同目录的临时文件再改名——一口气写一千多个文件时，
+    偶尔会撞上杀毒软件或同步客户端正拿着那一个（Windows 报 Errno 22），
+    整轮导出就此中断太亏；改名是原子的，撞上了等一下再试。"""
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
-    path.write_text(text, encoding="utf-8")
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    for attempt in range(4):
+        try:
+            tmp.write_text(text, encoding="utf-8")
+            os.replace(tmp, path)
+            break
+        except OSError:
+            if attempt == 3:
+                raise
+            time.sleep(0.4 * (attempt + 1))
     return len(text.encode("utf-8"))
 
 
@@ -669,6 +683,7 @@ def load_lore() -> dict:
 
 def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict, covers: dict, out: Path):
     lore_by_id = load_lore()
+    known_ids = {jekyll_title_slug(DATE_PREFIX.sub("", f.stem)) for f in (ROOT / "_posts").glob("*.md")}
     index = []
     speakers: dict[str, list] = collections.defaultdict(list)
     search_text: dict[str, str] = {}
@@ -815,6 +830,8 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
         }
         if lore:
             post["lore"] = {k: lore[k] for k in ("facets", "observations", "relations", "sources", "built", "edited") if k in lore}
+            #  只留导出里确实有的那几篇：记录是照工作区写的，可能提到还没提交的帖子
+            post["lore"]["relations"] = [r for r in post["lore"].get("relations") or [] if r.get("id") in known_ids]
             #  段号 -> 这一段里有什么：读者摘了某一段，App 拿段号一查就知道该接什么话
             by_seg: dict[str, dict] = {}
             for facet, key, value in (("pokemon", "dex", "ndex"), ("people", "people", "slug"),

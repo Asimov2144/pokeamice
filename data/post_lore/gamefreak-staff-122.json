@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-122",
+ "stem": "2009-04-17-gamefreak-staff-122",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "ほず",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "入职转眼已经两周"
+  },
+  {
+   "seg": 16,
+   "text": "正值应届毕业生招聘期间，偶尔看到穿西装的学生"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

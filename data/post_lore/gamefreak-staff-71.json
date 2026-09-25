@@ -1,0 +1,74 @@
+{
+ "id": "gamefreak-staff-71",
+ "stem": "2008-05-23-gamefreak-staff-71",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 65
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "斯蒂克",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ]
+   },
+   {
+    "name": "スティック",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "Carrot Tower",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "办公室所在大楼",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "现在 GAME FREAK 大约有60名员工"
+  },
+  {
+   "seg": 18,
+   "text": "スティック的桌上有6台游戏机"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

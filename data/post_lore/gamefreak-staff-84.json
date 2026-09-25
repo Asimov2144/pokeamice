@@ -1,0 +1,289 @@
+{
+ "id": "gamefreak-staff-84",
+ "stem": "2008-08-22-gamefreak-staff-84",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 130
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "佐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ]
+   },
+   {
+    "name": "ディア",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8,
+     16,
+     73,
+     81
+    ]
+   },
+   {
+    "name": "っゃっゃ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17,
+     21,
+     82
+    ]
+   },
+   {
+    "name": "小玛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ]
+   },
+   {
+    "name": "埃尔卡茨",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ]
+   },
+   {
+    "name": "げいのう",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33,
+     37,
+     98,
+     102
+    ]
+   },
+   {
+    "name": "尤菲",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     43
+    ]
+   },
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ]
+   },
+   {
+    "name": "马修",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     54
+    ]
+   },
+   {
+    "name": "浩先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     34
+    ]
+   },
+   {
+    "name": "蟹子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心名古屋",
+    "id": null,
+    "entity": "pokemon_center_nagoya",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "石川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "埃尔卡茨的老家",
+    "via": "llm"
+   },
+   {
+    "name": "能登",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "埃尔卡茨开车游览地",
+    "via": "llm"
+   },
+   {
+    "name": "七尾",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "埃尔卡茨开车游览地",
+    "via": "llm"
+   },
+   {
+    "name": "金泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     28
+    ],
+    "what": "埃尔卡茨开车游览地",
+    "via": "llm"
+   },
+   {
+    "name": "栃木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     34
+    ],
+    "what": "夏令营所在的山里",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "カニ子负责网站，上周大家放了盂兰盆假期"
+  },
+  {
+   "seg": 12,
+   "text": "ディア趁回老家去了刚搬完家的宝可梦中心名古屋"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-47",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2007年三味线学习记",
+   "url": "/gamefreak-staff/entry-47/",
+   "why": "同为晴れたり時々曇ったり工作日志系列"
+  },
+  {
+   "id": "gamefreak-staff-231",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2011年想象力训练",
+   "url": "/gamefreak-staff/entry-231/",
+   "why": "同为晴れたり時々曇ったり工作日志系列"
+  },
+  {
+   "id": "gamefreak-staff-149",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年新家人与工作效率",
+   "url": "/gamefreak-staff/entry-149/",
+   "why": "同为晴れたり時々曇ったり工作日志系列"
+  },
+  {
+   "id": "gamefreak-staff-39",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2007年秋日溪流垂钓与烧烤",
+   "url": "/gamefreak-staff/entry-39/",
+   "why": "同为晴れたり時々曇ったり工作日志系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

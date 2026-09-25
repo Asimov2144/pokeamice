@@ -1,0 +1,112 @@
+{
+ "id": "gamefreak-director-126",
+ "stem": "2008-02-29-gamefreak-director-126",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 72
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     1,
+     2,
+     4,
+     25,
+     34
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     11
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田顺一当时是程序员，制作了把声音转换成1比特数据的转换器"
+  },
+  {
+   "seg": 22,
+   "text": "利用Game Boy的点击噪声，0不发声、1发声，高速执行"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-125",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第125回",
+   "url": "/gamefreak-director/entry-125/",
+   "why": "同为増田部長のめざめるパワー系列，第125回紧接第126回"
+  },
+  {
+   "id": "gamefreak-director-119",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第119回",
+   "url": "/gamefreak-director/entry-119/",
+   "why": "同为増田部長のめざめるパワー系列第119回"
+  },
+  {
+   "id": "gamefreak-director-120",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第120回",
+   "url": "/gamefreak-director/entry-120/",
+   "why": "同为増田部長のめざめるパワー系列第120回"
+  },
+  {
+   "id": "gamefreak-director-121",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第121回",
+   "url": "/gamefreak-director/entry-121/",
+   "why": "同为増田部長のめざめるパワー系列第121回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

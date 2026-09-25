@@ -1,0 +1,79 @@
+{
+ "id": "gamefreak-lineblog-9293972",
+ "stem": "2017-08-17-gamefreak-lineblog-9293972",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ミュウツー",
+    "ndex": 150,
+    "seg": [
+     0
+    ],
+    "as": [
+     "ミュウツー"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "标题写2017年超梦现身横滨，日期为8月14日"
+  },
+  {
+   "seg": 0,
+   "text": "页面标注皮卡丘大量出现中"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

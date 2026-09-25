@@ -1,0 +1,136 @@
+{
+ "id": "interview-nintendo-power-265-masuda-sugimori-bw-dexit",
+ "stem": "2011-03-01-interview-nintendo-power-265-masuda-sugimori-bw-dexit",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     3,
+     4,
+     5
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     3,
+     4,
+     5
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "Ken Sugimori",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     2
+    ]
+   },
+   {
+    "name": "Junichi Masuda",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     5,
+     8
+    ]
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "合众地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "游戏中的生态地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "美术团队提交400至500个初稿候选设计",
+   "anchor": 3
+  },
+  {
+   "seg": 2,
+   "text": "最终选出156只全新合众生态群落",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-eurogamer-masuda-sugimori-black-white-brains",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/",
+   "why": "同为2011-03-01黑·白海外发售期增田与杉森专访"
+  },
+  {
+   "id": "interview-nintendo-power-bw-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-bw-masuda-sugimori/",
+   "why": "同为Nintendo Power第265期增田与杉森专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

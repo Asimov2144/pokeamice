@@ -1,0 +1,198 @@
+{
+ "id": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+ "stem": "2004-05-13-interview-2004-05-13-ign-e3-2004-pokemon-creators",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 36
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     6
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     6
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红／叶绿",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 叶绿",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金／银",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "IGN记者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     10,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     9,
+     11,
+     20,
+     23,
+     25
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     12,
+     15,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "克雷格·哈里斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "美版《火红／叶绿》预计今年九月在美国发售",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一在初代《红／蓝》负责声音设计，后任导演",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendodream-108-masuda-watanabe-unno-frlg",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo DREAM Vol.108 独家专访增田顺一 × 渡边哲也 × 海野隆雄：“让60岁的母亲也能单指享受RPG”——《宝可梦 火红／叶绿》无线适配器革命、帮助电视与七宝群岛诞生秘话",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-108-masuda-watanabe-unno-frlg/",
+   "why": "同为2004年FRLG主创访谈，均谈无线适配器"
+  },
+  {
+   "id": "gamefreak-director-011",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第11回",
+   "url": "/gamefreak-director/entry-011/",
+   "why": "补充美版火红叶绿9月9日发售日期"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

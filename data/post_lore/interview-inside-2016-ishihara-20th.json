@@ -1,0 +1,348 @@
+{
+ "id": "interview-inside-2016-ishihara-20th",
+ "stem": "2016-02-27-interview-inside-2016-ishihara-20th",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 81
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     41
+    ],
+    "as": [
+     "妙蛙种子",
+     "Bulbasaur"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     41
+    ],
+    "as": [
+     "小火龙",
+     "Charmander"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     22,
+     65
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小拉达",
+    "ndex": 19,
+    "seg": [
+     22
+    ],
+    "as": [
+     "小拉达"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿柏蛇",
+    "ndex": 23,
+    "seg": [
+     41
+    ],
+    "as": [
+     "阿柏蛇",
+     "Ekans"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     40,
+     41,
+     43
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     57
+    ],
+    "as": [
+     "大葱鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     57
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     26
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     0,
+     6,
+     9,
+     10,
+     26,
+     30
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokemon GO",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可拳",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁拳",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "俄罗斯方块",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "INSIDE",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     11,
+     17,
+     21,
+     23,
+     25
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     9,
+     10,
+     12,
+     13,
+     18,
+     19
+    ]
+   },
+   {
+    "name": "平林久和",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "土本学",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山内溥",
+    "slug": "yamauchi-hiroshi",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm",
+    "kind": "staff"
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "迈克尔·杰克逊",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "碧昂丝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "三重县鸟羽市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "石原恒和出生地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "石原说《红·绿》实际开发从90年左右开始，从那时算起已26年",
+   "anchor": 10
+  },
+  {
+   "seg": 24,
+   "text": "石原说真正有成功实感是在5月左右通信线缆开始断货时",
+   "anchor": 25
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+   "why": "同谈《红·绿》企划1990年启动与发售经过"
+  },
+  {
+   "id": "interview-oricon-2021-ishihara-25th",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "宝可梦25年：连接人与人的核心",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-oricon-2021-ishihara-25th/",
+   "why": "25周年回顾，同样提到1990年左右开始开发"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

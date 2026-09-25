@@ -1,0 +1,97 @@
+{
+ "id": "gamefreak-lineblog-5865812",
+ "stem": "2016-08-12-gamefreak-lineblog-5865812",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 119
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     0,
+     23,
+     83,
+     92
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     118
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 23,
+   "text": "增田顺一提到Pokémon GO收到了许多关于问题的指正"
+  },
+  {
+   "seg": 33,
+   "text": "增田顺一曾与社交媒体保持了一定距离"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-5162122",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦GO日本上线",
+   "url": "/gamefreak-director/lineblog-5162122/",
+   "why": "同为2016年7月Pokémon GO日本上线相关记录"
+  },
+  {
+   "id": "gamefreak-lineblog-5235956",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年宝可梦开始游玩",
+   "url": "/gamefreak-director/lineblog-5235956/",
+   "why": "同为增田顺一体验Pokémon GO的日记系列"
+  },
+  {
+   "id": "gamefreak-lineblog-5298007",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016惠比寿偶遇伊布",
+   "url": "/gamefreak-director/lineblog-5298007/",
+   "why": "同为增田顺一Pokémon GO游玩日记系列"
+  },
+  {
+   "id": "gamefreak-lineblog-6143081",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【日记】2016年宝可梦与Niantic",
+   "url": "/gamefreak-director/lineblog-6143081/",
+   "why": "同为Pokémon GO开发合作方Niantic相关记录"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

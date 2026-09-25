@@ -1,0 +1,82 @@
+{
+ "id": "gamefreak-director-032",
+ "stem": "2005-02-25-gamefreak-director-032",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦红·绿",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "宝可梦红·绿版发售到这一年迎来第9个年头"
+  },
+  {
+   "seg": 18,
+   "text": "英文版写明2005年2月27日是红·绿发售9周年"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-033",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第33回",
+   "url": "/gamefreak-director/entry-033/",
+   "why": "同为增田部长专栏，第33回接第32回谈九周年企划"
+  },
+  {
+   "id": "gamefreak-director-030",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第30回",
+   "url": "/gamefreak-director/entry-030/",
+   "why": "同为增田部长专栏，第30回在前谈2005年挑战"
+  },
+  {
+   "id": "gamefreak-director-031",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第31回",
+   "url": "/gamefreak-director/entry-031/",
+   "why": "同为增田部长专栏，第31回紧接第32回之前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

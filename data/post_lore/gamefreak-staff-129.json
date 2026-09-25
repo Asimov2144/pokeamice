@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-129",
+ "stem": "2009-06-05-gamefreak-staff-129",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カラシ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "自称踏入社会第二年的平面设计师，名叫カラシ"
+  },
+  {
+   "seg": 4,
+   "text": "从四年前开始养狗"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

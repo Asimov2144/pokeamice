@@ -1,0 +1,81 @@
+{
+ "id": "gamefreak-director-171",
+ "stem": "2010-08-04-gamefreak-director-171",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦Pia",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "北原里英",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ]
+   },
+   {
+    "name": "指原莉乃",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "采访地点",
+    "via": "extra"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一接受了AKB48北原小姐和指原小姐的采访"
+  },
+  {
+   "seg": 9,
+   "text": "《宝可梦Pia》预计于9月10日发售"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

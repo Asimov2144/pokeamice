@@ -1,0 +1,289 @@
+{
+ "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+ "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 118
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     102
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙草",
+    "ndex": 2,
+    "seg": [
+     102
+    ],
+    "as": [
+     "妙蛙草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     102
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     33,
+     35,
+     36,
+     40,
+     41,
+     45
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     110
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凤王",
+    "ndex": 250,
+    "seg": [
+     110
+    ],
+    "as": [
+     "凤王"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "雷公",
+    "ndex": 243,
+    "seg": [
+     110
+    ],
+    "as": [
+     "雷公"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "生活节拍器DS",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "步行记录 生活节奏DS",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "口袋皮卡丘彩色版 与金·银同行！",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     7,
+     9,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     8,
+     10,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     12,
+     18,
+     42,
+     48,
+     56,
+     64
+    ]
+   },
+   {
+    "name": "众人",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     53,
+     98,
+     103,
+     117
+    ]
+   },
+   {
+    "name": "汤山导演",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石川辽",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     94
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "石原恒和回忆自己曾追问无线适配器能离多远使用",
+   "anchor": 11
+  },
+  {
+   "seg": 51,
+   "text": "宝可计步器直径48毫米、厚度13.9毫米",
+   "anchor": 52
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+   "why": "同为社长问心金魂银系列，第1章"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+   "why": "同为社长问心金魂银系列，第3章"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
+   "why": "同为社长问心金魂银系列，第2章"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同期心金魂银访谈，也谈宝可梦计步器"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

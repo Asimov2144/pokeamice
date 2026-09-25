@@ -1,0 +1,43 @@
+{
+ "id": "gamefreak-staff-168",
+ "stem": "2010-02-05-gamefreak-staff-168",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "佐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "さとう（佐藤）说自己负责招聘"
+  },
+  {
+   "seg": 2,
+   "text": "GAME FREAK正在接受2011年度应届毕业生招聘报名"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

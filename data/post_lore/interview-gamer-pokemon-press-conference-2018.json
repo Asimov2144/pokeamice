@@ -1,0 +1,295 @@
+{
+ "id": "interview-gamer-pokemon-press-conference-2018",
+ "stem": "2018-05-30-interview-gamer-pokemon-press-conference-2018",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 79
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     32,
+     33,
+     35,
+     37,
+     39
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿罗拉椰蛋树",
+    "ndex": 103,
+    "seg": [
+     67,
+     77
+    ],
+    "as": [
+     "阿罗拉椰蛋树"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 探险寻宝",
+    "slug": null,
+    "seg": [
+     5,
+     6,
+     7,
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     32,
+     33,
+     35,
+     37,
+     67,
+     73
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     3,
+     32,
+     36,
+     37,
+     60,
+     66
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     14
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦拳 POKKÉN TOURNAMENT DX",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     0,
+     2,
+     3,
+     78
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0,
+     36,
+     37,
+     72,
+     78
+    ]
+   },
+   {
+    "name": "高桥伸也",
+    "slug": "takahashi-shinya",
+    "role": "mentioned",
+    "seg": [
+     0,
+     53,
+     58,
+     78
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     0,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "松崎翼",
+    "slug": "song-qi-yi",
+    "role": "mentioned",
+    "seg": [
+     0,
+     8,
+     11
+    ]
+   },
+   {
+    "name": "齐田和生",
+    "slug": "qi-tian-he-sheng",
+    "role": "mentioned",
+    "seg": [
+     0,
+     8,
+     11
+    ]
+   },
+   {
+    "name": "野村达雄",
+    "slug": "nomura-tatsuo",
+    "role": "mentioned",
+    "seg": [
+     0,
+     61,
+     66
+    ]
+   },
+   {
+    "name": "约翰·汉克",
+    "slug": "john-hanke",
+    "role": "mentioned",
+    "seg": [
+     67
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "东京Bellesalle涩谷First",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "发布会会场",
+    "via": "llm"
+   },
+   {
+    "name": "方可乐岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     67
+    ],
+    "what": "联动宝可梦来源",
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     77
+    ],
+    "what": "阿罗拉宝可梦来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 28,
+   "text": "Switch版5月30日起配信，手机版计划6月底配信，数据无法继承",
+   "anchor": 29
+  },
+  {
+   "seg": 73,
+   "text": "本作与精灵球Plus均定于2018年11月16日发售",
+   "anchor": 74
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamespot-lgpe-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》",
+   "url": "//interview-gamespot-lgpe-masuda/",
+   "why": "同为Let's Go皮卡丘·伊布发售前增田顺一访谈"
+  },
+  {
+   "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
+   "why": "同为Let's Go皮卡丘·伊布发售前增田顺一访谈"
+  },
+  {
+   "id": "interview-eurogamer-masuda-nabana-lets-go",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学",
+   "url": "/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/",
+   "why": "同为Let's Go皮卡丘·伊布发售前增田顺一访谈"
+  },
+  {
+   "id": "interview-pokemoncom-2018-letsgo-makers",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦 Let's Go 开发者访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/",
+   "why": "同为Let's Go皮卡丘·伊布增田顺一访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

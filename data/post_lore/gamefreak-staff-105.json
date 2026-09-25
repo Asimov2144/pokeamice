@@ -1,0 +1,63 @@
+{
+ "id": "gamefreak-staff-105",
+ "stem": "2009-01-06-gamefreak-staff-105",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "昆蒂",
+    "slug": null,
+    "seg": [
+     4,
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "もりもと（森本）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "もりもと说今年GAME FREAK迎来创立20周年"
+  },
+  {
+   "seg": 6,
+   "text": "《昆蒂》发售至今已过去20年"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

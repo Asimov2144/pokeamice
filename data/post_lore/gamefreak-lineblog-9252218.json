@@ -1,0 +1,123 @@
+{
+ "id": "gamefreak-lineblog-9252218",
+ "stem": "2016-12-31-gamefreak-lineblog-9252218",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     0
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波尔凯尼恩",
+    "ndex": 721,
+    "seg": [
+     0
+    ],
+    "as": [
+     "波尔凯尼恩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛机雅娜",
+    "ndex": 801,
+    "seg": [
+     0
+    ],
+    "as": [
+     "玛机雅娜"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一以属猴之人的身份开始2016年"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3375970",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3375970/",
+   "why": "同为2016年20周年，日月新情报"
+  },
+  {
+   "id": "gamefreak-lineblog-3437015",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦20周年纪念板",
+   "url": "/gamefreak-director/lineblog-3437015/",
+   "why": "同为2016年20周年，纪念板"
+  },
+  {
+   "id": "gamefreak-lineblog-3476333",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年仙台宝可梦中心",
+   "url": "/gamefreak-director/lineblog-3476333/",
+   "why": "同为2016年20周年，仙台签名会"
+  },
+  {
+   "id": "gamefreak-lineblog-3864200",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016巴黎日本博览会",
+   "url": "/gamefreak-director/lineblog-3864200/",
+   "why": "同为2016年20周年，巴黎Japan Expo"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,181 @@
+{
+ "id": "interview-yomiuri-sugimori-nishino-nishida-pikachu-birth",
+ "stem": "2018-05-02-interview-yomiuri-sugimori-nishino-nishida-pikachu-birth",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     1,
+     3,
+     4,
+     5,
+     7,
+     8,
+     0
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "雷丘",
+    "ndex": 26,
+    "seg": [
+     7
+    ],
+    "as": [
+     "雷丘",
+     "Raichu"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     8
+    ],
+    "as": [
+     "Pichu"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "読売新聞",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     2,
+     8
+    ]
+   },
+   {
+    "name": "にしだあつこ",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     7
+    ]
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "speaker",
+    "seg": [
+     5
+    ]
+   },
+   {
+    "name": "西田敦子",
+    "slug": "nishida-atsuko",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "常磐森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "皮卡丘难遇之处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "杉森建说设计条件是电属性，并要求能在游戏中实现两次进化",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "にしだあつこ说最初没以老鼠为原型，想养小松鼠",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-tpc-pikachu-origin-sugimori-nishino-nishida",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
+   "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
+   "why": "同为2018年5月皮卡丘诞生秘话公开"
+  },
+  {
+   "id": "interview-creators-of-pikachu",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-creators-of-pikachu/",
+   "why": "同一批创作者谈皮卡丘诞生秘辛"
+  },
+  {
+   "id": "interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E8%A7%92%E8%89%B2%E8%AE%BE%E8%AE%A1/%E5%AF%B9%E8%B0%88/interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/",
+   "why": "西田敦子同谈大福饼与松鼠颊囊"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,158 @@
+{
+ "id": "gamefreak-lineblog-3884210",
+ "stem": "2016-06-02-gamefreak-lineblog-3884210",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛托姆",
+    "ndex": 479,
+    "seg": [
+     34,
+     41
+    ],
+    "as": [
+     "洛托姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索尔迦雷欧",
+    "ndex": 791,
+    "seg": [
+     12
+    ],
+    "as": [
+     "索尔迦雷欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "露奈雅拉",
+    "ndex": 792,
+    "seg": [
+     19
+    ],
+    "as": [
+     "露奈雅拉"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "库库伊",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "莉莉艾",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哈乌",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "阿罗拉地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "新的冒险舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一提到宝可梦官方网站公开了新情报"
+  },
+  {
+   "seg": 41,
+   "text": "文中称洛托姆图鉴能给主角提供建议"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3264233",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3264233/",
+   "why": "同为日月新情报公开系列，5月6日预告5月10日"
+  },
+  {
+   "id": "gamefreak-lineblog-3296364",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年宝可梦倒计时",
+   "url": "/gamefreak-director/lineblog-3296364/",
+   "why": "同为日月新情报公开倒计时系列"
+  },
+  {
+   "id": "gamefreak-lineblog-3345139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3345139/",
+   "why": "同为日月新情报公开倒计时系列"
+  },
+  {
+   "id": "gamefreak-lineblog-3297485",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年宝可梦新情报",
+   "url": "/gamefreak-director/lineblog-3297485/",
+   "why": "同为日月新情报公开倒计时系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

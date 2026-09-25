@@ -1,0 +1,279 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch152",
+ "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     6,
+     7,
+     8
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙草",
+    "ndex": 2,
+    "seg": [
+     8
+    ],
+    "as": [
+     "妙蛙草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     8
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     7
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     6,
+     8
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     7
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "水户黄门",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "幽灵宝可梦与夏日祭典",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "正辉的灯塔",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "时光倒流七十年",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小刚",
+    "slug": "xiao-gang",
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "理查德·马瑟森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "约翰·巴里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "积丹半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "神威岩所在之地",
+    "via": "llm"
+   },
+   {
+    "name": "神威岩",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "又名少女岩的巨岩",
+    "via": "llm"
+   },
+   {
+    "name": "少女峡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "第20话副题地点",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "首藤刚志童年旅居地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "第17话《巨大宝可梦之岛！？》为宝可梦啼鸣配上字幕",
+   "anchor": 2
+  },
+  {
+   "seg": 1,
+   "text": "此后制作组再未制作附带字幕的宝可梦回目",
+   "anchor": 2
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch150",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch150/",
+   "why": "第150回谈克制不早揭宝可梦心声与对战本质，本篇正论此议题"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch156",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/",
+   "why": "第156回谈喵喵充当倾听宝可梦悲喜的耳朵，关联叫声含义"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch143",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/",
+   "why": "第143回确立十岁成年等世界观，为本篇对战伦理提供前提"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

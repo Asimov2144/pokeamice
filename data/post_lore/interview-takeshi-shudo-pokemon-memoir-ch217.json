@@ -2,7 +2,7 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch217",
  "stem": "2010-03-24-interview-takeshi-shudo-pokemon-memoir-ch217",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -197,28 +197,33 @@
   ],
   "places": [
    {
-    "name": "小田原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     48
-    ],
-    "what": "首藤定居的海滨古城",
-    "via": "llm"
-   },
-   {
     "name": "小田原文学馆",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
-     95
+     95,
+     96,
+     114
     ],
-    "what": "举办首藤手稿展",
-    "via": "llm"
+    "via": "extra",
+    "what": "展出首藤的剧本手稿"
+   },
+   {
+    "name": "小田原市立图书馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     109,
+     110
+    ],
+    "via": "extra",
+    "what": "保管首藤捐赠的资料"
    },
    {
     "name": "拉雪兹神父公墓",
@@ -226,6 +231,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      40
     ],
@@ -238,6 +244,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      43
     ],
@@ -250,6 +257,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      50
     ],
@@ -262,6 +270,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      114
     ],
@@ -274,6 +283,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      113
     ],
@@ -281,15 +291,16 @@
     "via": "llm"
    },
    {
-    "name": "小田原市立图书馆",
+    "name": "小田原",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "area",
     "seg": [
-     109
+     48
     ],
-    "what": "可预约调阅文献",
+    "what": "首藤定居的海滨古城",
     "via": "llm"
    }
   ]
@@ -311,19 +322,40 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "why": "同为手记系列，216回紧接217回前一篇"
+   "title": "首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch216/",
+   "why": "同为手记系列，第216回紧接第217回前一篇"
   },
   {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "why": "同为手记系列，218回紧接217回后一篇"
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "同写病房处境，第209回交代住院与点滴针头"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "第208回讲《超梦的逆袭》《洛奇亚爆诞》剧作背景"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+   "why": "第210回讲幻之第三弹霸王龙化石企划"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

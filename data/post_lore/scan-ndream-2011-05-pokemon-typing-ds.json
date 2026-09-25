@@ -1,0 +1,179 @@
+{
+ "id": "scan-ndream-2011-05-pokemon-typing-ds",
+ "stem": "2011-03-21-scan-ndream-2011-05-pokemon-typing-ds",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 66
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     17
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     45,
+     46
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     36,
+     37
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "四季鹿",
+    "ndex": 585,
+    "seg": [
+     57
+    ],
+    "as": [
+     "四季鹿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电飞鼠",
+    "ndex": 587,
+    "seg": [
+     22,
+     25
+    ],
+    "as": [
+     "电飞鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     34,
+     47
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦打字DS",
+    "slug": "learn-with-pokemon-typing-adventure",
+    "seg": [
+     1,
+     2
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "木内英二",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "青叶キイ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "小火龙山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "委托调查地点",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     34
+    ],
+    "what": "宝可梦来源地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "DS 卡带附带任天堂无线键盘与 DS 紧凑支架，CERO 全年龄。"
+  },
+  {
+   "seg": 12,
+   "text": "键盘宽 264mm、高 113mm、厚 20mm，重约 300g，键距 17mm。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2011-05-bw-design-secrets-ex",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 黑·白 诞生秘话EX",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/",
+   "why": "同为2011年5月号Nintendo DREAM的黑白报道"
+  },
+  {
+   "id": "scan-ndream-2011-05-ohmura-character-making",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "角色之神：大村祐介",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-ohmura-character-making/",
+   "why": "同为2011年5月号Nintendo DREAM的报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

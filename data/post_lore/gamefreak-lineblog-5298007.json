@@ -1,0 +1,116 @@
+{
+ "id": "gamefreak-lineblog-5298007",
+ "stem": "2016-07-24-gamefreak-lineblog-5298007",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小拉达",
+    "ndex": 19,
+    "seg": [
+     37
+    ],
+    "as": [
+     "小拉达"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "惠比寿花园广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "举办集市的广场",
+    "via": "llm"
+   },
+   {
+    "name": "惠比寿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     41
+    ],
+    "what": "玩Pokémon GO的地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "惠比寿花园广场每周日举办集市"
+  },
+  {
+   "seg": 37,
+   "text": "蛋里孵出了小拉达"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-5235956",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年宝可梦开始游玩",
+   "url": "/gamefreak-director/lineblog-5235956/",
+   "why": "同为增田顺一宝可梦GO游玩日记，前一日"
+  },
+  {
+   "id": "gamefreak-lineblog-5162122",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦GO日本上线",
+   "url": "/gamefreak-director/lineblog-5162122/",
+   "why": "宝可梦GO日本上线，才有随后的游玩记录"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,155 @@
+{
+ "id": "corporate-topic-31-ana-in-flight-safety-video",
+ "stem": "2025-01-31-corporate-topic-31-ana-in-flight-safety-video",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "铁甲蛹",
+    "ndex": 11,
+    "seg": [
+     11
+    ],
+    "as": [
+     "铁甲蛹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     6,
+     15,
+     20,
+     21,
+     24
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "穿山鼠",
+    "ndex": 27,
+    "seg": [
+     11
+    ],
+    "as": [
+     "穿山鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "怪力",
+    "ndex": 68,
+    "seg": [
+     10
+    ],
+    "as": [
+     "怪力"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     3
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "ANA機内安全ビデオ ポケモン特別版",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "そらとぶピカチュウプロジェクト",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ピカチュウジェットNH",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "イーブイジェットNH",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "降机视频",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红·绿",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "朱·紫",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "全日本空輸（ANA）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "ANA于2023年3月加入飞翔皮卡丘企划，投入皮卡丘喷气机NH与伊布喷气机NH",
+   "anchor": 4
+  },
+  {
+   "seg": 10,
+   "text": "团队曾提议让怪力演示系安全带，后改在商务舱演示三点式肩带安全带",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,141 @@
+{
+ "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+ "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 53
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     30
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     0,
+     2,
+     4,
+     6,
+     9,
+     11
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     10,
+     12,
+     14,
+     17
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     7,
+     31,
+     34,
+     37,
+     39,
+     41
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     19
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "石原恒和说《宝可梦》企划启动是在1990年。",
+   "anchor": 11
+  },
+  {
+   "seg": 11,
+   "text": "岩田聪说《红·绿》发售于1996年2月，距企划启动6年。",
+   "anchor": 12
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+   "why": "同为社长问心金魂银系列，第3章接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+   "why": "同为社长问心金魂银系列，第4章接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
+   "why": "同为社长问心金魂银系列，第2章接第1章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

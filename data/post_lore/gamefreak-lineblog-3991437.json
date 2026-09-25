@@ -1,0 +1,212 @@
+{
+ "id": "gamefreak-lineblog-3991437",
+ "stem": "2016-06-08-gamefreak-lineblog-3991437",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 136
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     38
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     132,
+     134
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     42
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "爆香猿",
+    "ndex": 514,
+    "seg": [
+     128
+    ],
+    "as": [
+     "爆香猿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "甲贺忍蛙",
+    "ndex": 658,
+    "seg": [
+     49,
+     57,
+     62,
+     65,
+     69,
+     93
+    ],
+    "as": [
+     "甲贺忍蛙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "仙子伊布",
+    "ndex": 700,
+    "seg": [
+     36
+    ],
+    "as": [
+     "仙子伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     40
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田中",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐香君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松本梨香",
+    "slug": "matsumoto-rica",
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Shokotan",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     109
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "PANTHER",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "extra",
+    "what": "宝可梦公司总部所在"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 36,
+   "text": "第5名是仙子伊布"
+  },
+  {
+   "seg": 38,
+   "text": "第4名是皮卡丘"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3895109",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "【活动】2016年宝可梦总选举",
+   "url": "/gamefreak-director/lineblog-3895109/",
+   "why": "同一场总选举结果公布典礼的预告与结果"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

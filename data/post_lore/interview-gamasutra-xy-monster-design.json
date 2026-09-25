@@ -1,0 +1,127 @@
+{
+ "id": "interview-gamasutra-xy-monster-design",
+ "stem": "2013-10-10-interview-gamasutra-xy-monster-design",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     3
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X/Y",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     7
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "speaker",
+    "seg": [
+     5,
+     10,
+     12,
+     14,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "宝可梦是Pocket Monsters的缩写合成词，早期曾译口袋妖怪",
+   "anchor": 1
+  },
+  {
+   "seg": 12,
+   "text": "吉田称被否决的创意数量约为最终入选设计的5到10倍",
+   "anchor": 13
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "同为2013年X·Y发售期增田与吉田专访"
+  },
+  {
+   "id": "interview-nintendolife-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/",
+   "why": "同期增田与吉田谈X·Y的专访"
+  },
+  {
+   "id": "interview-nwr-xy-masuda-yoshida",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训",
+   "url": "//interview-nwr-xy-masuda-yoshida/",
+   "why": "同期增田与吉田谈X·Y设计流程"
+  },
+  {
+   "id": "interview-eurogamer-spain-xy-masuda-yoshida",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道",
+   "url": "//interview-eurogamer-spain-xy-masuda-yoshida/",
+   "why": "同期增田与吉田谈X·Y设计流程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,100 @@
+{
+ "id": "interview-pokemon-recruit-staff-izawa",
+ "stem": "2016-01-10-interview-pokemon-recruit-staff-izawa",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "伊泽景胜",
+    "slug": "yi-ze-jing-sheng",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "因收看东京电视台《宝可梦☆星期天》得知株式会社宝可梦存在",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "负责宝可梦集换式卡牌游戏的统筹制作",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-staff-furutani",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写03 古谷翔：App事业部——知识与新颖脑洞，皆是创造宝可梦未来的强大武器",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-furutani/",
+   "why": "同为宝可梦公司官方员工特写系列第3篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-hayakawa",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写05 早川裕崇：法务部——构筑守护全球宝可梦世界观的法律长城",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-hayakawa/",
+   "why": "同为该员工特写系列第5篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-kosugi",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写04 小杉要：集团统括部——传统与革新并行，维系长盛不衰的经营中枢",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-kosugi/",
+   "why": "同为该员工特写系列第4篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-yoshihara",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写02 吉原有香：品牌管理部——发掘足以与皮卡丘比肩的代表性宝可梦",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-yoshihara/",
+   "why": "同为该员工特写系列第2篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,159 @@
+{
+ "id": "gamefreak-staff-85",
+ "stem": "2008-08-29-gamefreak-staff-85",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 66
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     18,
+     51
+    ],
+    "as": [
+     "暴鲤龙",
+     "ギャラドス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨钳螳螂",
+    "ndex": 212,
+    "seg": [
+     18,
+     25,
+     51,
+     58
+    ],
+    "as": [
+     "巨钳螳螂",
+     "ハッサム"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黑夜魔灵",
+    "ndex": 477,
+    "seg": [
+     18,
+     51
+    ],
+    "as": [
+     "黑夜魔灵",
+     "ヨノワール"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉奇卡斯",
+    "ndex": 486,
+    "seg": [
+     18,
+     51
+    ],
+    "as": [
+     "雷吉奇卡斯",
+     "レジギガス"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦卡牌游戏 破空的激斗",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "小玛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "特拉什",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "白金的工作告一段落，所以这是久违的大会"
+  },
+  {
+   "seg": 13,
+   "text": "这次草、超、水牌组很流行"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-78",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2008年招聘与狮舞惊喜",
+   "url": "/gamefreak-staff/entry-78/",
+   "why": "同为白金开发期工作日志，提到同事忙于白金开发"
+  },
+  {
+   "id": "gamefreak-staff-80",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2008年电视节目探访办公室",
+   "url": "/gamefreak-staff/entry-80/",
+   "why": "同为白金发售前工作日志，探访白金最新消息"
+  },
+  {
+   "id": "gamefreak-staff-87",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】宝可梦白金版明日发售",
+   "url": "/gamefreak-staff/entry-87/",
+   "why": "同为晴れたり時々曇ったり工作日志，白金发售前后篇"
+  },
+  {
+   "id": "gamefreak-director-131",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第131回",
+   "url": "/gamefreak-director/entry-131/",
+   "why": "白金正式发售，回应大会时工作告一段落"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

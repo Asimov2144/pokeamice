@@ -1,0 +1,162 @@
+{
+ "id": "gamefreak-director-193",
+ "stem": "2011-05-29-gamefreak-director-193",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     5,
+     37,
+     38
+    ],
+    "as": [
+     "比克提尼",
+     "Victini"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     5,
+     38
+    ],
+    "as": [
+     "莱希拉姆",
+     "Reshiram"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     5,
+     37
+    ],
+    "as": [
+     "捷克罗姆",
+     "Zekrom"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "比克提尼与黑英雄捷克罗姆",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "比克提尼与白英雄莱希拉姆",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "宫崎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "东京塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1,
+     19,
+     24,
+     31,
+     58,
+     64
+    ],
+    "via": "extra",
+    "what": "多次办宝可梦活动"
+   },
+   {
+    "name": "赤羽桥站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "出发地",
+    "via": "llm"
+   },
+   {
+    "name": "音乐录音室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "前往地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "今年电影是宝可梦史上首次上映两部作品"
+  },
+  {
+   "seg": 6,
+   "text": "两部作品的音乐由两位作曲家分别负责"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-184",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为增田专栏，前篇讲黑白欧美发售背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

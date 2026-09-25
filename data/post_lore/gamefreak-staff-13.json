@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-staff-13",
+ "stem": "2007-08-22-gamefreak-staff-13",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "大比鸟",
+    "ndex": 18,
+    "seg": [
+     11,
+     45
+    ],
+    "as": [
+     "大比鸟",
+     "ピジョット"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "急冻鸟",
+    "ndex": 144,
+    "seg": [
+     11,
+     45
+    ],
+    "as": [
+     "急冻鸟",
+     "フリーザー"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "エノキ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "群马的山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "滑翔伞体验地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "エノキ自称是GAME FREAK的平面设计师"
+  },
+  {
+   "seg": 15,
+   "text": "エノキ第一次体验滑翔伞，挑战由大叔载着飞的双人飞行"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

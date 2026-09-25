@@ -1,0 +1,219 @@
+{
+ "id": "interview-denfami-2026-cedec-battle",
+ "stem": "2026-07-22-interview-denfami-2026-cedec-battle",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     22
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     22
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "甲贺忍蛙",
+    "ndex": 658,
+    "seg": [
+     24
+    ],
+    "as": [
+     "甲贺忍蛙"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [
+     59,
+     64,
+     66
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红·绿",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太阳／月亮",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太阳·月亮",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "X・Y",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "金·银",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剑·盾",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Wind・Wave",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "宗像快",
+    "slug": "munakata-kai",
+    "role": "mentioned",
+    "seg": [
+     11
+    ]
+   },
+   {
+    "name": "小幡敏宏",
+    "slug": "obata-toshihiro",
+    "role": "mentioned",
+    "seg": [
+     11
+    ]
+   },
+   {
+    "name": "シェループ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "截至2026年，宝可梦1000只以上，招式900种以上，道具200种以上，特性300种以上。",
+   "anchor": 4
+  },
+  {
+   "seg": 9,
+   "text": "每做一部新作，包含新宝可梦和招式等在内，大致追加200种以上数据。",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-4gamer-2026-cedec-battle",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦战斗系统的共通基础",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2026-cedec-battle/",
+   "why": "同为CEDEC2026宗像快、小幡敏宏讲宝可梦战斗系统"
+  },
+  {
+   "id": "interview-cedec-2026-battle-system-deck",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦战斗系统基础设计",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-battle-system-deck/",
+   "why": "CEDEC2026同一演讲的讲演资料，Section与Event设计一致"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

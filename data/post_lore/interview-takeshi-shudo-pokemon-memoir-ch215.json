@@ -1,0 +1,172 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch215",
+ "stem": "2010-03-10-interview-takeshi-shudo-pokemon-memoir-ch215",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦！我就在这里（超梦我在此处）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使（甜甜仙子）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦！我就在这里",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "明琪桃子",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "小田原文学馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "via": "extra",
+    "what": "展出首藤的剧本手稿"
+   },
+   {
+    "name": "小田原城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "赏樱胜地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "首藤刚志称其宝可梦剧场版执笔至第三部《结晶塔的帝王》为止",
+   "anchor": 3
+  },
+  {
+   "seg": 2,
+   "text": "交出《结晶塔的帝王》第一稿后他被救护车送进医院，出院后辞去系列构成",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch216/",
+   "why": "第216回紧接第215回，续谈住院一个月"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch213",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第213回：“我的《宝可梦》电影在《结晶塔的帝王》画上句号”（深渊伦理拷问、病榻口述急送医院、园田英树接棒改稿与隐退宣言）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch213/",
+   "why": "第213回详述结晶塔执笔崩溃与辞任"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "第209回记病房中写第三弹剧本"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
+   "why": "第211回讲幻之第三弹转向结晶塔"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,71 @@
+{
+ "id": "gamefreak-staff-79",
+ "stem": "2008-07-11-gamefreak-staff-79",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "风速狗",
+    "ndex": 59,
+    "seg": [
+     13,
+     35
+    ],
+    "as": [
+     "风速狗",
+     "ウインディ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "亚克诺姆",
+    "ndex": 482,
+    "seg": [
+     16,
+     38
+    ],
+    "as": [
+     "亚克诺姆",
+     "アグノム"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "いわし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "いわし说自己是今年春天入职的游戏策划"
+  },
+  {
+   "seg": 13,
+   "text": "いわし的名片上画的宝可梦是风速狗"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

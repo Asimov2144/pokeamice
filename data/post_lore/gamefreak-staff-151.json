@@ -1,0 +1,208 @@
+{
+ "id": "gamefreak-staff-151",
+ "stem": "2009-10-27-gamefreak-staff-151",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 219
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "一之濑",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     103
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     85,
+     88,
+     197,
+     201
+    ]
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "若叶镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "以开始和风为主题编曲",
+    "via": "llm"
+   },
+   {
+    "name": "桧皮镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     37
+    ],
+    "what": "偏僻乡下景象",
+    "via": "llm"
+   },
+   {
+    "name": "29号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     44
+    ],
+    "what": "尝试冒险感编曲",
+    "via": "llm"
+   },
+   {
+    "name": "空木博士的研究所",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     84
+    ],
+    "what": "编曲被命令重做",
+    "via": "llm"
+   },
+   {
+    "name": "满金市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     29
+    ],
+    "what": "设施热闹繁华",
+    "via": "llm"
+   },
+   {
+    "name": "缘朱市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     30
+    ],
+    "what": "红叶与瓦片屋顶",
+    "via": "llm"
+   },
+   {
+    "name": "烟墨市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     37
+    ],
+    "what": "偏僻乡下景象",
+    "via": "llm"
+   },
+   {
+    "name": "湛蓝市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     39
+    ],
+    "what": "与缘朱市景象不同",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "道路作曲理念由增田传承，越往远处音乐越壮阔"
+  },
+  {
+   "seg": 39,
+   "text": "缘朱市与湛蓝市原曲相同但景象不同，准备两种编曲"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-152",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第152回",
+   "url": "/gamefreak-director/entry-152/",
+   "why": "原声带发售，补充金银音乐制作幕后"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "增田谈金银重制经过与标题由来"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

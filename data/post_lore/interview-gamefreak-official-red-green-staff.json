@@ -1,0 +1,418 @@
+{
+ "id": "interview-gamefreak-official-red-green-staff",
+ "stem": "1997-10-16-interview-gamefreak-official-red-green-staff",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 196
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     163
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙草",
+    "ndex": 2,
+    "seg": [
+     163
+    ],
+    "as": [
+     "妙蛙草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     33,
+     62,
+     65,
+     163
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     2,
+     8,
+     13,
+     16,
+     20,
+     35
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多朗",
+    "ndex": 32,
+    "seg": [
+     166
+    ],
+    "as": [
+     "尼多朗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多王",
+    "ndex": 34,
+    "seg": [
+     163
+    ],
+    "as": [
+     "尼多王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "霸王花",
+    "ndex": 45,
+    "seg": [
+     56
+    ],
+    "as": [
+     "霸王花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     158,
+     161,
+     163
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蝌蚪",
+    "ndex": 60,
+    "seg": [
+     15,
+     114,
+     116
+    ],
+    "as": [
+     "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     163,
+     164
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆壳兽",
+    "ndex": 80,
+    "seg": [
+     4,
+     5
+    ],
+    "as": [
+     "呆壳兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "椰蛋树",
+    "ndex": 103,
+    "seg": [
+     163
+    ],
+    "as": [
+     "椰蛋树"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "海星星",
+    "ndex": 120,
+    "seg": [
+     13
+    ],
+    "as": [
+     "海星星"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "耿鬼",
+    "ndex": 94,
+    "seg": [
+     58
+    ],
+    "as": [
+     "耿鬼"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     107
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "麦森探险",
+    "slug": null,
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "莫特鲁指挥官GUY",
+    "slug": null,
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "春之祭",
+    "slug": null,
+    "seg": [
+     180
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Get Wild",
+    "slug": null,
+    "seg": [
+     183
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "星际力量",
+    "slug": null,
+    "seg": [
+     187
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "R-TYPE",
+    "slug": null,
+    "seg": [
+     187
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲人",
+    "slug": null,
+    "seg": [
+     187
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "皮卡丘（记者）",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     10,
+     12,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     37,
+     40,
+     43,
+     46,
+     49,
+     52
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     91,
+     93,
+     95,
+     97,
+     99,
+     101
+    ]
+   },
+   {
+    "name": "太田健典",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     125,
+     127,
+     130,
+     132,
+     134,
+     136
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     158,
+     160,
+     163,
+     166,
+     169,
+     172
+    ]
+   },
+   {
+    "name": "太田健程",
+    "slug": "ota-takenori",
+    "role": "mentioned",
+    "seg": [
+     121,
+     122
+    ]
+   },
+   {
+    "name": "林原惠美",
+    "slug": "hayashibara-megumi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "國府田マリ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     172
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 37,
+   "text": "杉森建说画画工具是10年前别人送的荷尔拜因彩色墨水、中号毛笔、笔洗和康颂纸。",
+   "anchor": 38
+  },
+  {
+   "seg": 40,
+   "text": "杉森建列出的游戏机包括红白机、磁盘系统、PC Engine DUO-RX、世嘉Mark 3、初代Mega Drive等。",
+   "anchor": 41
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famimaga-tajiri-pokemon2-secret",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+   "url": "/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/",
+   "why": "同为1997年前后杂志对初代主创的访谈整理"
+  },
+  {
+   "id": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/",
+   "why": "同为1997年GAME FREAK主创访谈，含杉森建座谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

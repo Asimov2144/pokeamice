@@ -1,0 +1,415 @@
+{
+ "id": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+ "stem": "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 178
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     140
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "飞天螳螂",
+    "ndex": 123,
+    "seg": [
+     72
+    ],
+    "as": [
+     "飞天螳螂"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     17
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     113
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场2",
+    "slug": null,
+    "seg": [
+     164
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦·故事",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "互联网杂志",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "教科书上不记载的日本互联网历史教科书",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Fami-Maga",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "64马里奥体育场",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "目标！宝可梦卡牌大师",
+    "slug": null,
+    "seg": [
+     138
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "THE！宝可梦完美攻略",
+    "slug": null,
+    "seg": [
+     88
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "hiwasa",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ひめはじめ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "斯特拉塔·飞天螳螂",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松田纯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     93
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ひらちゅー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     98
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "でめりん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     101
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佩科奇",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     121
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     127
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "盖茨",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     132
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "けろりん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     135
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水玉螢之丞",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     135
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "JUN",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     162
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "翔",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     173
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "なにものか",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     138
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   },
+   {
+    "name": "宝可梦中心下北泽本店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "GAME FREAK宝可梦专区",
+    "via": "llm"
+   },
+   {
+    "name": "任天堂太空世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     81
+    ],
+    "what": "金银试玩活动",
+    "via": "llm"
+   },
+   {
+    "name": "利姆网",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     60
+    ],
+    "what": "网站迁移地之一",
+    "via": "llm"
+   },
+   {
+    "name": "贝可阿美",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     60
+    ],
+    "what": "网站迁移地之一",
+    "via": "llm"
+   },
+   {
+    "name": "MacCentral",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     60
+    ],
+    "what": "网站迁移地之一",
+    "via": "llm"
+   },
+   {
+    "name": "玉虹市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     84
+    ],
+    "what": "钓梦幻传闻地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 18,
+   "text": "最初发布仅外观的梦幻制造技巧是在1996年5月20日",
+   "anchor": 19
+  },
+  {
+   "seg": 19,
+   "text": "发展成真正的梦幻制造技巧的发布在同年11月25日",
+   "anchor": 20
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famimaga-tajiri-pokemon2-secret",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+   "url": "/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/",
+   "why": "同为1995–2000年杂志报道整理，涉红绿发售前"
+  },
+  {
+   "id": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/",
+   "why": "同为sunanohi站整理，涉1997年宝可梦报道"
+  },
+  {
+   "id": "interview-gamefreak-official-red-green-staff",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+   "url": "//interview-gamefreak-official-red-green-staff/",
+   "why": "GAME FREAK官网初代访谈，属黎明期网站"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

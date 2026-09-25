@@ -1,0 +1,178 @@
+{
+ "id": "interview-bw-music-collection-liner-notes",
+ "stem": "2010-10-20-interview-bw-music-collection-liner-notes",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     13
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "N之龙",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "龙之觉醒",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "speaker",
+    "seg": [
+     5,
+     6
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     8,
+     9
+    ]
+   },
+   {
+    "name": "佐藤仁美",
+    "slug": "sato-hitomi",
+    "role": "speaker",
+    "seg": [
+     11
+    ]
+   },
+   {
+    "name": "足立美奈子",
+    "slug": "adachi-minako",
+    "role": "speaker",
+    "seg": [
+     13
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "天堂之塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "钟鸣之塔",
+    "via": "llm"
+   },
+   {
+    "name": "2号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "季节差分BGM道路",
+    "via": "llm"
+   },
+   {
+    "name": "12号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "季节差分BGM道路",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "本作冒险舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一称开发结束时自己能量几乎枯竭",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "增田顺一建议按顺位连续听合众各城镇BGM",
+   "anchor": 3
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

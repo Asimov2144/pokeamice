@@ -1,0 +1,204 @@
+{
+ "id": "interview-cedec-2023-sound-design-ichinose-paldea",
+ "stem": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 69
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     48,
+     50
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     15,
+     31
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毛辫羊",
+    "ndex": 831,
+    "seg": [
+     30
+    ],
+    "as": [
+     "毛辫羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "故勒顿",
+    "ndex": 1007,
+    "seg": [
+     49
+    ],
+    "as": [
+     "故勒顿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "密勒顿",
+    "ndex": 1008,
+    "seg": [
+     49
+    ],
+    "as": [
+     "密勒顿"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     15,
+     49,
+     55,
+     62
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     14
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "北村一树",
+    "slug": "kitamura-kazuki",
+    "role": "mentioned",
+    "seg": [
+     4,
+     6
+    ]
+   },
+   {
+    "name": "岩本翔",
+    "slug": "iwamoto-sho",
+    "role": "mentioned",
+    "seg": [
+     5,
+     6
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     36
+    ]
+   },
+   {
+    "name": "箭本進一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 14,
+   "text": "环境叫声在2002年红宝石·蓝宝石引入，参照区域遭遇表播放图鉴叫声",
+   "anchor": 15
+  },
+  {
+   "seg": 31,
+   "text": "阿尔宙斯中一只宝可梦有5种叫声，按3种距离共15种，242只合计3630种",
+   "anchor": 32
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-2023-cedec-sound",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦环境音的制作幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2023-cedec-sound/",
+   "why": "同为CEDEC2023一之濑刚等讲环境叫声的报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

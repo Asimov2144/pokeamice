@@ -1,0 +1,94 @@
+{
+ "id": "gamefreak-staff-82",
+ "stem": "2008-08-01-gamefreak-staff-82",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "コダック",
+    "ndex": 54,
+    "seg": [
+     5,
+     33,
+     34,
+     35
+    ],
+    "as": [
+     "コダック"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "乔尼",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "ジョニー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "柯达剧院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "说明会会场",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "说明会所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "ジョニー前往洛杉矶参加说明会"
+  },
+  {
+   "seg": 6,
+   "text": "柯达剧院每年举行奥斯卡颁奖典礼"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

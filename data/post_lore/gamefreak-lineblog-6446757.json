@@ -1,0 +1,83 @@
+{
+ "id": "gamefreak-lineblog-6446757",
+ "stem": "2016-08-30-gamefreak-lineblog-6446757",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 72
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可拍乐乐",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "画的是人的侧脸和3DS，写于2010年8月20日"
+  },
+  {
+   "seg": 31,
+   "text": "把区分自己和他人的判断从设定中删去了"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2968236",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【创作】2010宝可梦X·Y的起点",
+   "url": "/gamefreak-director/lineblog-2968236/",
+   "why": "同为X·Yの作り方系列，第1回在前"
+  },
+  {
+   "id": "gamefreak-lineblog-7013851",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【创作】2010年巴黎与闪耀洞窟",
+   "url": "/gamefreak-director/lineblog-7013851/",
+   "why": "同为X·Yの作り方系列，第3回在后"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

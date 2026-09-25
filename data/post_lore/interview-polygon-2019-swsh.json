@@ -2,7 +2,7 @@
  "id": "interview-polygon-2019-swsh",
  "stem": "2019-10-24-interview-polygon-2019-swsh",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -153,6 +153,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "area",
     "seg": [
      43
     ],
@@ -165,6 +166,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "area",
     "seg": [
      43
     ],
@@ -185,11 +187,45 @@
    "anchor": 2
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+   "why": "同为2019-10-24发售前采访增田顺一与大森滋"
+  },
+  {
+   "id": "interview-vg247-2019-swsh",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与大森滋谈剑盾",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-vg247-2019-swsh/",
+   "why": "同为2019-10-24采访增田顺一与大森滋谈剑盾"
+  },
+  {
+   "id": "interview-gi-2019-burning",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦主创的胡闹问答",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/",
+   "why": "同为2019-10-24增田顺一与大森滋问答"
+  },
+  {
+   "id": "interview-gi-2019-champion",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "大森滋与增田顺一谈《剑／盾》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
+   "why": "同为2019-10-24大森滋与增田顺一访谈"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

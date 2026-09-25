@@ -1,0 +1,114 @@
+{
+ "id": "gamefreak-lineblog-7296420",
+ "stem": "2016-09-20-gamefreak-lineblog-7296420",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     51
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "渡边将也",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "津坚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "斋藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 22,
+   "text": "增田顺一写初代红绿的全部曲目都被演奏"
+  },
+  {
+   "seg": 28,
+   "text": "增田顺一称编曲的渡边将也太厉害了"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2413352",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【日记】2016增田博客启程",
+   "url": "/gamefreak-director/lineblog-2413352/",
+   "why": "同为增田博客，介绍其负责红绿音乐音效的背景"
+  },
+  {
+   "id": "gamefreak-lineblog-3059194",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【创作】2016年下北泽拍摄",
+   "url": "/gamefreak-director/lineblog-3059194/",
+   "why": "同为其博客，记录红绿音乐合集采访拍摄"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

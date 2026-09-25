@@ -1,0 +1,229 @@
+{
+ "id": "interview-dengeki-morimoto-hgss-walking-pokemon",
+ "stem": "2009-09-18-interview-dengeki-morimoto-hgss-walking-pokemon",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 11
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     10
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     6
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "晃晃斑",
+    "ndex": 327,
+    "seg": [
+     7
+    ],
+    "as": [
+     "晃晃斑",
+     "Spinda"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水君",
+    "ndex": 245,
+    "seg": [
+     8
+    ],
+    "as": [
+     "水君"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "金·银",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻石·珍珠",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水晶版",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "口袋皮卡丘",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "電撃オンライン",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     5,
+     8
+    ]
+   },
+   {
+    "name": "森本茂樹",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     6,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "阿蜜",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "米那君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "浅黄",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "道馆所在地",
+    "via": "llm"
+   },
+   {
+    "name": "城都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "关东",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "森本茂樹说《钻石·珍珠》时期团队内部已有重制构想",
+   "anchor": 3
+  },
+  {
+   "seg": 6,
+   "text": "为全部493只宝可梦绘制地图行走像素图",
+   "anchor": 7
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+   "why": "同为2009-09-18电击对森本茂树的专访"
+  },
+  {
+   "id": "interview-dengeki-hgss-shigeki-morimoto",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛",
+   "url": "/developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/",
+   "why": "同为电击编辑部对森本茂树谈心金魂银"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同谈心金魂银重制经过与计步器"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

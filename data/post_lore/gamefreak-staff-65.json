@@ -1,0 +1,55 @@
+{
+ "id": "gamefreak-staff-65",
+ "stem": "2008-04-03-gamefreak-staff-65",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 54
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     2,
+     6,
+     29,
+     33
+    ]
+   },
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "杉森问要画什么，员工出的题目是训练家"
+  },
+  {
+   "seg": 12,
+   "text": "训练家像素画只有几名平面设计师能负责"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

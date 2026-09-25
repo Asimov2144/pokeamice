@@ -1,0 +1,1 @@
+{"key": "c1ee2c72409e9a40", "answer": {"observations": [{"seg": 0, "text": "正文写「竟然能和神对谈」"}, {"seg": 1, "text": "称堀井雄二为《勇者斗恶龙》的创始人"}, {"seg": 5, "text": "对谈在桥本长官的店「84」举行"}], "pokemon": [], "places": [{"name": "84", "seg": 5, "what": "举行对谈的店", "world": "real"}], "works": [{"name": "勇者斗恶龙", "seg": 1}], "people": [{"name": "堀井雄二", "seg": 1}, {"name": "桥本长官", "seg": 5}]}}

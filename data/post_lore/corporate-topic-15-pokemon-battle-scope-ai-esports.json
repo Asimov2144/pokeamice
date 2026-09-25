@@ -1,0 +1,90 @@
+{
+ "id": "corporate-topic-15-pokemon-battle-scope-ai-esports",
+ "stem": "2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon Battle Scope",
+    "slug": null,
+    "seg": [
+     0,
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモン竜王戦2024",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケットモンスター スカーレット・バイオレット",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "将棋Wars",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "HEROZ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     16,
+     17
+    ]
+   },
+   {
+    "name": "読売新聞社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "日本将棋連盟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "株式会社宝可梦与HEROZ共同研发PBS，用于实时可视化对战战况",
+   "anchor": 5
+  },
+  {
+   "seg": 20,
+   "text": "PBS立项之初便瞄准2024年2月25日宝可梦龙王战2024游戏部门实装",
+   "anchor": 21
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,150 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch189",
+ "stem": "2009-06-24-interview-takeshi-shudo-pokemon-memoir-ch189",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 55
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     35
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     29,
+     30,
+     31,
+     41,
+     44
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "大江户搜查网",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     13
+    ]
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29,
+     30,
+     31,
+     41,
+     44
+    ]
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     35
+    ],
+    "kind": "character"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "本片是当年日本公映国产电影年度票房总冠军，欧美榜仅次于《超梦的逆袭》",
+   "anchor": 7
+  },
+  {
+   "seg": 19,
+   "text": "首藤刚志称这是从业20多年来第2次无法自我信服，第1次是《大江户搜查网》",
+   "anchor": 20
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与原创宝可梦“X爆诞”解禁）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch186/",
+   "why": "同系列前篇，讲《洛奇亚爆诞》筹备与主题"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch193",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第193回：对《洛奇亚爆诞》的厚望与自我信服（商业狂热背后的生理排异、早期CG海流试验、神秘GS球伏线与拯救全片的火箭队）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch193/",
+   "why": "同系列后篇，续谈《洛奇亚爆诞》与自我信服"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+   "why": "同系列后篇，续谈《洛奇亚爆诞》神兽性别"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch184",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch184/",
+   "why": "提到欧美榜前三含《洛奇亚爆诞》"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

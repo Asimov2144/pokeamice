@@ -1,0 +1,162 @@
+{
+ "id": "gamefreak-staff-212",
+ "stem": "2010-12-17-gamefreak-staff-212",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 95
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     22,
+     30,
+     31,
+     33,
+     35,
+     71,
+     79,
+     80,
+     82,
+     84
+    ],
+    "as": [
+     "君主蛇",
+     "ジャローダ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炎武王",
+    "ndex": 500,
+    "seg": [
+     22,
+     71
+    ],
+    "as": [
+     "炎武王",
+     "エンブオー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     22,
+     30,
+     32,
+     36,
+     71,
+     79,
+     80,
+     85
+    ],
+    "as": [
+     "大剑鬼",
+     "ダイケンキ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦卡牌游戏BW初学者套装",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦卡牌游戏BW 黑色收藏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦卡牌游戏BW 白色收藏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "鹤野刚士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ]
+   },
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "かつお",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25,
+     28,
+     30,
+     74,
+     77,
+     79
+    ]
+   },
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "举办卡牌教学活动",
+    "via": "extra",
+    "category_link": "pc"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "教学活动使用了宝可梦卡牌游戏BW初学者套装"
+  },
+  {
+   "seg": 11,
+   "text": "该套装附带可与鹤野刚士一起学习步骤的玩法DVD"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

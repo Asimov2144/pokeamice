@@ -1,0 +1,108 @@
+{
+ "id": "gamefreak-director-105",
+ "stem": "2007-09-27-gamefreak-director-105",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 73
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "松山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "此行目的地",
+    "via": "llm"
+   },
+   {
+    "name": "松山城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "观光的城堡",
+    "via": "llm"
+   },
+   {
+    "name": "爱媛县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "松山城所在县",
+    "via": "llm"
+   },
+   {
+    "name": "四国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "日本地区",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "比较天气之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "9月23日与24日两天，增田顺一去了四国的松山"
+  },
+  {
+   "seg": 1,
+   "text": "邀请他的是因结婚而离职的一位员工"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

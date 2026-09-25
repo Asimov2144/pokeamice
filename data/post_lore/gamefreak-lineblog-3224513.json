@@ -1,0 +1,76 @@
+{
+ "id": "gamefreak-lineblog-3224513",
+ "stem": "2016-05-04-gamefreak-lineblog-3224513",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     3,
+     14,
+     24,
+     27
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "用鱼眼镜头应用拍摄皮卡丘"
+  },
+  {
+   "seg": 24,
+   "text": "只让皮卡丘动起来，演技难到这种程度"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2463891",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【日记】2016年宝可梦中心头图拍摄",
+   "url": "/gamefreak-director/lineblog-2463891/",
+   "why": "同一皮卡丘拍摄，头图拍摄为其背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

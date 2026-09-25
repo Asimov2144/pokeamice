@@ -1,0 +1,77 @@
+{
+ "id": "gamefreak-director-085",
+ "stem": "2007-06-11-gamefreak-director-085",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 45
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "中村老师",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "JT生命志研究馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "生命研究展示馆",
+    "via": "llm"
+   },
+   {
+    "name": "大阪府高槻市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "研究馆所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一去了大阪府高槻市的JT生命志研究馆。"
+  },
+  {
+   "seg": 7,
+   "text": "文中说这一切始于38亿年前。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

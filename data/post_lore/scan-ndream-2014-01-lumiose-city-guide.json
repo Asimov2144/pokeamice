@@ -1,0 +1,305 @@
+{
+ "id": "scan-ndream-2014-01-lumiose-city-guide",
+ "stem": "2013-11-21-scan-ndream-2014-01-lumiose-city-guide",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 215
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "双尾怪手",
+    "ndex": 424,
+    "seg": [
+     175
+    ],
+    "as": [
+     "双尾怪手"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电飞鼠",
+    "ndex": 587,
+    "seg": [
+     175
+    ],
+    "as": [
+     "电飞鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "坐骑山羊",
+    "ndex": 673,
+    "seg": [
+     7,
+     8,
+     9
+    ],
+    "as": [
+     "坐骑山羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "多丽米亚",
+    "ndex": 676,
+    "seg": [
+     98,
+     162
+    ],
+    "as": [
+     "多丽米亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "光电伞蜥",
+    "ndex": 695,
+    "seg": [
+     175
+    ],
+    "as": [
+     "光电伞蜥"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     164
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "佐藤仁美",
+    "slug": "sato-hitomi",
+    "role": "speaker",
+    "seg": [
+     77,
+     79,
+     81,
+     83,
+     85,
+     87
+    ]
+   },
+   {
+    "name": "景山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     86
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三色堇",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "布拉塔诺博士",
+    "slug": "bu-la-ta-nuo-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     50
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "卡露妮",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     141
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "弗拉达利",
+    "slug": "fu-la-da-li",
+    "role": "mentioned",
+    "seg": [
+     152
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "希特隆",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     173
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "柚丽嘉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     193
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "莎娜",
+    "slug": "sha-na",
+    "role": "mentioned",
+    "seg": [
+     173
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "棱镜塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "密阿雷市象征",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷美术馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     52
+    ],
+    "what": "展示卡洛斯艺术",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷车站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     57
+    ],
+    "what": "TMV乘车车站",
+    "via": "llm"
+   },
+   {
+    "name": "试炼屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     59
+    ],
+    "what": "对战测试设施",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦研究所",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     50
+    ],
+    "what": "布拉塔诺博士的研究所",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷出版社",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "可参观的出版社",
+    "via": "llm"
+   },
+   {
+    "name": "弗拉达利咖啡店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     151
+    ],
+    "what": "弗拉达利经营的咖啡馆",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "卡洛斯最大城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "出租车起步价710日元，司机或许会给时尚的你优惠"
+  },
+  {
+   "seg": 9,
+   "text": "坐骑山羊穿梭车只需200日元即可乘坐"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

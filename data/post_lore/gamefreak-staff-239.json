@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-239",
+ "stem": "2011-12-27-gamefreak-staff-239",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 99
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "茂木健一郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     52
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "ラッティ是今年4月刚入职的新手规划师"
+  },
+  {
+   "seg": 12,
+   "text": "调试兼职的应聘条件是提交一份企划书和一份履历书"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

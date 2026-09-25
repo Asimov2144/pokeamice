@@ -1,0 +1,75 @@
+{
+ "id": "gamefreak-director-140",
+ "stem": "2009-02-19-gamefreak-director-140",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "野生宝可梦只会出现在草丛里"
+  },
+  {
+   "seg": 5,
+   "text": "HP归零就会陷入濒死"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第139回",
+   "url": "/gamefreak-director/entry-139/",
+   "why": "同为专栏相邻回，均谈游戏规则"
+  },
+  {
+   "id": "gamefreak-director-141",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第141回",
+   "url": "/gamefreak-director/entry-141/",
+   "why": "同为专栏相邻回，均谈游戏规则与草丛"
+  },
+  {
+   "id": "gamefreak-director-142",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第142回",
+   "url": "/gamefreak-director/entry-142/",
+   "why": "同为专栏相邻回，接续第140回"
+  },
+  {
+   "id": "gamefreak-director-143",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第143回",
+   "url": "/gamefreak-director/entry-143/",
+   "why": "同为专栏相邻回，接续第140回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

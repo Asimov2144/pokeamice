@@ -1,0 +1,160 @@
+{
+ "id": "interview-elpais-oras-masuda-ohmori",
+ "stem": "2014-11-01-interview-elpais-oras-masuda-ohmori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     1,
+     2
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "巴塞罗那",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "漫展举办地",
+    "via": "llm"
+   },
+   {
+    "name": "莱斯托纳克学校礼堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "专访活动场地",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "增田童年度过地",
+    "via": "llm"
+   },
+   {
+    "name": "西班牙",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "系列销量统计地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "宝可梦系列销量超过2.6亿份，仅次于超级马力欧",
+   "anchor": 1
+  },
+  {
+   "seg": 3,
+   "text": "该系列在西班牙已售出超过700万份",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-topofarmer-ideame-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录",
+   "url": "/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/",
+   "why": "同为2014年巴塞罗那漫画沙龙期间增田顺一与大森滋的采访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

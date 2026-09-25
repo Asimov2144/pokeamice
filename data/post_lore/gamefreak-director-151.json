@@ -1,0 +1,127 @@
+{
+ "id": "gamefreak-director-151",
+ "stem": "2009-08-24-gamefreak-director-151",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 87
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     26,
+     78
+    ],
+    "as": [
+     "帝牙卢卡",
+     "Dialga"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     26,
+     78
+    ],
+    "as": [
+     "帕路奇亚",
+     "Palkia"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "川内丸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "洛杉矶机场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "往南开车起点",
+    "via": "llm"
+   },
+   {
+    "name": "圣迭戈湾希尔顿酒店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "世界锦标赛会场",
+    "via": "llm"
+   },
+   {
+    "name": "圣迭戈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一8月12日至17日在美国圣迭戈"
+  },
+  {
+   "seg": 10,
+   "text": "签名会有超过130位大家排队等候"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

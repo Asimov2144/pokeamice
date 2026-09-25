@@ -1,0 +1,143 @@
+{
+ "id": "gamefreak-staff-100",
+ "stem": "2008-12-05-gamefreak-staff-100",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 100
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     40,
+     90
+    ],
+    "as": [
+     "暴鲤龙",
+     "ギャラドス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "幸福蛋",
+    "ndex": 242,
+    "seg": [
+     43,
+     93
+    ],
+    "as": [
+     "幸福蛋",
+     "ハピナス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     41,
+     91
+    ],
+    "as": [
+     "巨金怪",
+     "メタグロス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰猴",
+    "ndex": 392,
+    "seg": [
+     42,
+     92
+    ],
+    "as": [
+     "烈焰猴",
+     "ゴウカザル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克基斯",
+    "ndex": 468,
+    "seg": [
+     39,
+     89
+    ],
+    "as": [
+     "波克基斯",
+     "トゲキッス"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ]
+   },
+   {
+    "name": "鲣鱼",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ]
+   },
+   {
+    "name": "鱼子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21,
+     26
+    ]
+   },
+   {
+    "name": "いわし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "各联盟循环赛胜场最多的6人进入决胜淘汰赛"
+  },
+  {
+   "seg": 15,
+   "text": "かつお在半决赛中击败了もりもと"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

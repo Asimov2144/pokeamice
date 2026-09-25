@@ -1,0 +1,58 @@
+{
+ "id": "gamefreak-staff-96",
+ "stem": "2008-11-10-gamefreak-staff-96",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK的休息区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "灵感来源地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "输入文字提交后会排列成像脸的图案"
+  },
+  {
+   "seg": 8,
+   "text": "休息区本子上曾流行「へのへのもへじ」式颜文字"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

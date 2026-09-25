@@ -1,0 +1,140 @@
+{
+ "id": "interview-tpc-leaders-challenge",
+ "stem": "2014-05-01-interview-tpc-leaders-challenge",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 66
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     40,
+     49
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     10,
+     31
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "履历档案",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     6,
+     28,
+     45
+    ]
+   },
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     12,
+     15,
+     18,
+     21,
+     24
+    ]
+   },
+   {
+    "name": "河本拓",
+    "slug": "he-ben-tuo",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "鹿瀬島英介",
+    "slug": "lu-lai-dao-ying-jie",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "福嶋ゆかり",
+    "slug": "fu-dao",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "东北",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     40
+    ],
+    "what": "地震灾区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "在《宝可梦 X·Y》发售日宣布举办游戏与卡牌复合大会「ポケモン竜王戦」"
+  },
+  {
+   "seg": 25,
+   "text": "与日本邮政「海鸥明信片」联名企划首年发行量突破1,452万张",
+   "anchor": 29
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-tpc-global-business-hirobe",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/",
+   "why": "同日同系列官方专访，均谈X·Y全球同步宣发"
+  },
+  {
+   "id": "interview-tpc-youth-roundtable",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/",
+   "why": "同日同系列官方专访，同为TPC员工访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

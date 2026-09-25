@@ -1,0 +1,149 @@
+{
+ "id": "gamefreak-staff-227",
+ "stem": "2011-03-25-gamefreak-staff-227",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "青森县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "秋田县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "岩手县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "宫城县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "山形县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "福岛县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "茨城县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "延期对象地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "发帖人自称负责招聘，名为にょろリカ"
+  },
+  {
+   "seg": 6,
+   "text": "北海道等八地的申请材料接收期限延期"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

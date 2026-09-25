@@ -1,0 +1,320 @@
+{
+ "id": "interview-gi-2019-champion",
+ "stem": "2019-10-24-interview-gi-2019-champion",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     41,
+     42
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美录坦",
+    "ndex": 808,
+    "seg": [
+     22
+    ],
+    "as": [
+     "美录坦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美录梅塔",
+    "ndex": 809,
+    "seg": [
+     22
+    ],
+    "as": [
+     "美录梅塔"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     1,
+     51
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "X／Y",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太阳／月亮",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Let's Go，皮卡丘",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Let's Go，伊布",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "PokéNatomy：宝可梦的科学（非官方指南）",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     9,
+     10,
+     14,
+     18
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     11,
+     15,
+     20,
+     23,
+     25,
+     27
+    ]
+   },
+   {
+    "name": "丹帝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "Brian Shea",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "雷德伍德城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "试玩与采访地点",
+    "via": "llm"
+   },
+   {
+    "name": "加州旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "雷德伍德城所在地区",
+    "via": "llm"
+   },
+   {
+    "name": "旷野地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "可与其他玩家互动区域",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "GAME FREAK办公室所在地",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "《剑／盾》游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     27
+    ],
+    "what": "媒体巡访去的地方",
+    "via": "llm"
+   },
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     24
+    ],
+    "what": "伽勒尔地区灵感来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "大森滋是《剑／盾》总监，增田顺一是制作人",
+   "anchor": 2
+  },
+  {
+   "seg": 9,
+   "text": "Y-Comm可广播状态，匹配后进入同步连接",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gi-2019-burning",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦主创的胡闹问答",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/",
+   "why": "同为Game Informer 2019-10-24剑盾采访"
+  },
+  {
+   "id": "interview-vg247-2019-swsh",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与大森滋谈剑盾",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-vg247-2019-swsh/",
+   "why": "同日VG247采访增田顺一与大森滋"
+  },
+  {
+   "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+   "why": "同日Eurogamer采访增田顺一与大森滋"
+  },
+  {
+   "id": "interview-polygon-2019-swsh",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦剑盾开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/",
+   "why": "同日Polygon采访增田顺一与大森滋"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

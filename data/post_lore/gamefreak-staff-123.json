@@ -1,0 +1,59 @@
+{
+ "id": "gamefreak-staff-123",
+ "stem": "2009-04-27-gamefreak-staff-123",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 92
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "田尻社长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "纳吉自称26岁，入职第三年"
+  },
+  {
+   "seg": 4,
+   "text": "纪念庆典于2009年4月20日举行"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

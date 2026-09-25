@@ -1,0 +1,78 @@
+{
+ "id": "gamefreak-lineblog-3654479",
+ "stem": "2016-05-24-gamefreak-lineblog-3654479",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森川",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "皇居",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "眼前的景观",
+    "via": "llm"
+   },
+   {
+    "name": "日本武道馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "右侧的建筑",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "今天听取了会长森川先生的介绍，还一起吃了顿饭"
+  },
+  {
+   "seg": 6,
+   "text": "眼前就是皇居，右边是日本武道馆"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

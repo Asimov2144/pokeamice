@@ -1,0 +1,132 @@
+{
+ "id": "interview-steinberg-gamefreak-sound-cubase",
+ "stem": "2010-11-20-interview-steinberg-gamefreak-sound-cubase",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 41
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红／绿",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金／魂银",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Nintendo DS 宝可梦 心金＆魂银 Music Super Complete",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Nintendo DS 宝可梦 黑／白 Super Music Collection",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伏尔塔瓦河",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "speaker",
+    "seg": [
+     4,
+     5,
+     7,
+     9,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "Yamaha 青木讲师",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "GAME FREAK声音开发使用Cubase，采访2010年DS新作声音领队景山将太",
+   "anchor": 2
+  },
+  {
+   "seg": 9,
+   "text": "声音团队四人体制，成员既做BGM也做音效",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-bw-music-collection-liner-notes",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
+   "why": "同为2010年BW音频主创景山将太受访谈音乐"
+  },
+  {
+   "id": "gamefreak-staff-203",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "【工作日志】2010年宝可梦音乐开发",
+   "url": "/gamefreak-staff/entry-203/",
+   "why": "景山将太同谈BW合众音乐与互动声音"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

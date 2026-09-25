@@ -1,0 +1,59 @@
+{
+ "id": "gamefreak-director-220",
+ "stem": "2012-02-10-gamefreak-director-220",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一说明活动举办方式已为安全与健康调整"
+  },
+  {
+   "seg": 4,
+   "text": "现场设有提问环节，对签名不感兴趣也可参加"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-219",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第219回",
+   "url": "/gamefreak-director/entry-219/",
+   "why": "第219回讲签名会从提议扩展到全国宝可梦中心"
+  },
+  {
+   "id": "gamefreak-director-224",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第224回",
+   "url": "/gamefreak-director/entry-224/",
+   "why": "第224回回顾全国七家宝可梦中心签名会之旅"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

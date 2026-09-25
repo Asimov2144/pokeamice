@@ -1,0 +1,105 @@
+{
+ "id": "gamefreak-staff-80",
+ "stem": "2008-07-18-gamefreak-staff-80",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 62
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     1,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     22,
+     27
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "かわちまる",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     2,
+     32,
+     33
+    ]
+   },
+   {
+    "name": "罗伯特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK的新办公室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24
+    ],
+    "what": "受访地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 22,
+   "text": "前来采访的是《宝可梦☆星期天》"
+  },
+  {
+   "seg": 27,
+   "text": "《宝可梦☆星期天》将于7月20日播出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-130",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第130回",
+   "url": "/gamefreak-director/entry-130/",
+   "why": "同预告7月20日《宝可梦☆星期天》增田出场"
+  },
+  {
+   "id": "gamefreak-director-127",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第127回",
+   "url": "/gamefreak-director/entry-127/",
+   "why": "提供《宝可梦 白金》2008年秋发售背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

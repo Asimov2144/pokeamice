@@ -1,0 +1,210 @@
+{
+ "id": "gamefreak-staff-99",
+ "stem": "2008-12-01-gamefreak-staff-99",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 86
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ピッピ",
+    "ndex": 35,
+    "seg": [
+     49,
+     6
+    ],
+    "as": [
+     "ピッピ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮可西",
+    "ndex": 36,
+    "seg": [
+     31,
+     76
+    ],
+    "as": [
+     "皮可西",
+     "ピクシー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "肯泰罗",
+    "ndex": 128,
+    "seg": [
+     29,
+     74
+    ],
+    "as": [
+     "肯泰罗",
+     "ケンタロス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "溶食兽",
+    "ndex": 316,
+    "seg": [
+     6,
+     49
+    ],
+    "as": [
+     "溶食兽",
+     "ゴクリン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬斩",
+    "ndex": 335,
+    "seg": [
+     27,
+     37,
+     72,
+     82
+    ],
+    "as": [
+     "猫鼬斩",
+     "ザングース"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "变隐龙",
+    "ndex": 352,
+    "seg": [
+     30,
+     75
+    ],
+    "as": [
+     "变隐龙",
+     "カクレオン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大尾狸",
+    "ndex": 400,
+    "seg": [
+     32,
+     77
+    ],
+    "as": [
+     "大尾狸",
+     "ビーダル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双尾怪手",
+    "ndex": 424,
+    "seg": [
+     28,
+     73
+    ],
+    "as": [
+     "双尾怪手",
+     "エテボース"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "いわし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     44,
+     50,
+     63,
+     66,
+     71
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ]
+   },
+   {
+    "name": "蟹子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "カビ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23,
+     68
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 22,
+   "text": "本次大会共有26名员工参加"
+  },
+  {
+   "seg": 24,
+   "text": "参赛者分成两个联盟进行循环赛"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-85",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2008年夏日卡牌大会",
+   "url": "/gamefreak-staff/entry-85/",
+   "why": "白金工作告一段落后重启社内对战活动"
+  },
+  {
+   "id": "gamefreak-staff-87",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】宝可梦白金版明日发售",
+   "url": "/gamefreak-staff/entry-87/",
+   "why": "白金发售前夜，本篇为发售纪念大会"
+  },
+  {
+   "id": "gamefreak-director-131",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第131回",
+   "url": "/gamefreak-director/entry-131/",
+   "why": "白金9月13日发售，本篇为发售纪念大会"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

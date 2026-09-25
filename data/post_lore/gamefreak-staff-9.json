@@ -1,0 +1,109 @@
+{
+ "id": "gamefreak-staff-9",
+ "stem": "2007-08-10-gamefreak-staff-9",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 72
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "小吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ]
+   },
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ]
+   },
+   {
+    "name": "尤菲",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ]
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "よっしー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "エノキ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ユッフィー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "熟人居住地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "よっしー回忆的夏天发生在他21岁还是22岁时"
+  },
+  {
+   "seg": 7,
+   "text": "他和几个朋友去拜访住在九州的熟人"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,119 @@
+{
+ "id": "gamefreak-staff-88",
+ "stem": "2008-09-19-gamefreak-staff-88",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 78
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     22,
+     62
+    ],
+    "as": [
+     "路卡利欧",
+     "ルカリオ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "エノキ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "佛罗里达州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "大会举办地",
+    "via": "llm"
+   },
+   {
+    "name": "奥兰多",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "大会举办城市",
+    "via": "llm"
+   },
+   {
+    "name": "自由对战区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "会场交流区域",
+    "via": "llm"
+   },
+   {
+    "name": "绘画区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     26
+    ],
+    "what": "卡牌大会旁作画区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "エノキ说今年夏天完全沉浸在宝可梦里"
+  },
+  {
+   "seg": 7,
+   "text": "エノキ为感受大会现场气氛前往佛罗里达州奥兰多"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

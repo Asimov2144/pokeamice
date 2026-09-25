@@ -1,0 +1,115 @@
+{
+ "id": "gamefreak-lineblog-4220652",
+ "stem": "2016-06-16-gamefreak-lineblog-4220652",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 93
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Gran Turismo",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ReCore",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦交响进化",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧卡丁车",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达传说",
+    "slug": null,
+    "seg": [
+     75
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "Chad",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "L.A.会议中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "E3会场",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一写会场是L.A.会议中心"
+  },
+  {
+   "seg": 5,
+   "text": "他写任天堂展台在Treehouse Live中多次承蒙关照"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-4261374",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年美国游戏展直播回顾",
+   "url": "/gamefreak-director/lineblog-4261374/",
+   "why": "同为E3 2016现场见闻，次日回顾直播"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

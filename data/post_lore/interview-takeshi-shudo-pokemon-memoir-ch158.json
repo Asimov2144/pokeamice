@@ -1,0 +1,183 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch158",
+ "stem": "2008-08-27-interview-takeshi-shudo-pokemon-memoir-ch158",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "火箭队永远在一起",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "林原惠美",
+    "slug": "hayashibara-megumi",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三木真一郎",
+    "slug": "miki-shinichiro",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "犬山犬子",
+    "slug": "inuyama-inuko",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "小田原渔港",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "首藤刚志工作室附近",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "妻子妹妹所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "首藤刚志称填词不到30分钟一气呵成，并直接手书原稿纸",
+   "anchor": 6
+  },
+  {
+   "seg": 5,
+   "text": "该单曲CD于1997年12月10日正式发售",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch157",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch157/",
+   "why": "同为手记连载，157回为158回前一篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch165",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch165/",
+   "why": "165回终结篇续写3D龙事件后续处理"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch167",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch167/",
+   "why": "167回讲事件前夕剧场版剧本创作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

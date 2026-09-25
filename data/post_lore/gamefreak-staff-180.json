@@ -1,0 +1,48 @@
+{
+ "id": "gamefreak-staff-180",
+ "stem": "2010-04-30-gamefreak-staff-180",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [],
+  "places": [
+   {
+    "name": "东京都内",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "赏花地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "公司里几位自愿参加的同事聚在一起，一大早就到东京都内某处占好了位置"
+  },
+  {
+   "seg": 8,
+   "text": "这次去的地方樱花数量惊人，让人忍不住看得入迷，最后还是喝醉了"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,183 @@
+{
+ "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+ "stem": "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     0,
+     2,
+     19,
+     34
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     3,
+     8,
+     10,
+     16,
+     26,
+     28
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "钻石·珍珠",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红宝石·蓝宝石",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "绿宝石",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "火红·叶绿",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     0,
+     2,
+     5,
+     7,
+     9,
+     12
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     10,
+     13,
+     15,
+     17,
+     26,
+     31
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     19,
+     22,
+     24,
+     28,
+     30,
+     34
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "石原恒和说很多玩家预测会沿用以往模式，为给愉快意外首次挑战标题带“2”的作品。",
+   "anchor": 7
+  },
+  {
+   "seg": 10,
+   "text": "增田顺一说《宝可梦 黑·白》开发中构思了一个系统，因时间不够未加入，成为发售两作的契机。",
+   "anchor": 11
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑2·白2》第2章：百人实时同屏的庆典任务与遗迹通信挑战",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-2-100-player-co-op/",
+   "why": "同为社长问黑2白2系列，第2章"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑2·白2》第3章：双版本同时发售的双钥匙联动机制与宝可梦好莱坞太空幻想",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy/",
+   "why": "同为社长问黑2白2系列，第3章"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑2·白2》第4章：为什么在3DS已上市时坚守NDS硬件（桧扇市全新开局、宝可梦本质与三神器联动）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures/",
+   "why": "同为社长问黑2白2系列，第4章"
+  },
+  {
+   "id": "scan-ndream-2012-09-b2w2-developer-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "只有《2》才能做到的冒险",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
+   "why": "同期采访增田海野，谈首次编号续作与双版本原因"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

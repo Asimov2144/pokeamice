@@ -1,0 +1,387 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
+ "stem": "2009-05-27-interview-takeshi-shudo-pokemon-memoir-ch186",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 117
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     95
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "急冻鸟",
+    "ndex": 144,
+    "seg": [
+     89
+    ],
+    "as": [
+     "急冻鸟",
+     "フリーザー"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "闪电鸟",
+    "ndex": 145,
+    "seg": [
+     89
+    ],
+    "as": [
+     "闪电鸟",
+     "サンダー"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "火焰鸟",
+    "ndex": 146,
+    "seg": [
+     89
+    ],
+    "as": [
+     "火焰鸟",
+     "ファイヤー"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     2,
+     7,
+     9,
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "永远的菲莱娜",
+    "slug": null,
+    "seg": [
+     38,
+     39
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "卡美拉",
+    "slug": null,
+    "seg": [
+     94
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "幽灵公主",
+    "slug": null,
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蓝宝石王子",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "凡尔赛玫瑰",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三大怪兽 地球最大决战",
+    "slug": null,
+    "seg": [
+     90
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     93
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     2,
+     7,
+     9,
+     25,
+     84,
+     87
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "梦幻",
+    "slug": "meng-huan",
+    "role": "mentioned",
+    "seg": [
+     84,
+     87
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "凤王",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     85
+    ]
+   },
+   {
+    "name": "急冻鸟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     89
+    ]
+   },
+   {
+    "name": "闪电鸟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     89
+    ]
+   },
+   {
+    "name": "火焰鸟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     89
+    ]
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     95
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "金子修介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     94
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "手冢治虫",
+    "slug": "shou-zhong-zhi-chong",
+    "role": "mentioned",
+    "seg": [
+     55
+    ],
+    "via": "llm",
+    "kind": "figure"
+   },
+   {
+    "name": "池田理代子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "早川",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     52
+    ],
+    "what": "JR车站与渔港",
+    "via": "llm"
+   },
+   {
+    "name": "高知",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     68
+    ],
+    "what": "深层海水抽取地",
+    "via": "llm"
+   },
+   {
+    "name": "箱根",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     71
+    ],
+    "what": "小田原近邻名泉地",
+    "via": "llm"
+   },
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     52
+    ],
+    "what": "首藤居住地",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     52
+    ],
+    "what": "原工作根据地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "首藤刚志称写《超梦的逆袭》时喝下30大瓶一升瓶烈酒、吃了几十盒精神安定剂",
+   "anchor": 10
+  },
+  {
+   "seg": 34,
+   "text": "深层海流被描述为耗费两千年巡游地球一周的巨型洋流",
+   "anchor": 35
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch183",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第183回：《超梦的逆袭》心力交瘁（盛名重负下的创作焦虑、英国国教条文赞赏与安定剂相伴的绝望追问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch183/",
+   "why": "同系列前篇，写《超梦的逆袭》心力交瘁与安定剂"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第185回：迈向《宝可梦》电影第二部（拒绝赌城背后的超现实音乐剧、金银延期的“游戏时间”、橘子群岛诞生与小刚被除名的荒唐内幕）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch185/",
+   "why": "第185回紧接本篇，谈第二部筹备与拉斯维加斯"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch184",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch184/",
+   "why": "第184回谈洛奇亚爆诞票房与拒绝拉斯维加斯"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch187",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第187回：洛奇亚默示录（小智妈妈“无需赌命拯救世界”台词、反派吉拉尔丹被剪掉的10分钟戏份与御前大人的白板造词“爆诞”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch187/",
+   "why": "第187回紧接本篇，续谈洛奇亚爆诞剧本"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

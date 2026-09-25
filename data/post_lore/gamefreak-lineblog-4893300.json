@@ -1,0 +1,121 @@
+{
+ "id": "gamefreak-lineblog-4893300",
+ "stem": "2016-07-12-gamefreak-lineblog-4893300",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宗像大社",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "参拜的神社",
+    "via": "llm"
+   },
+   {
+    "name": "织女神社",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "供奉织女的神社",
+    "via": "llm"
+   },
+   {
+    "name": "牵牛神社",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "供奉牵牛的神社",
+    "via": "llm"
+   },
+   {
+    "name": "宗像大社中津宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "正式参拜之处",
+    "via": "llm"
+   },
+   {
+    "name": "大岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "此行所在的岛",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     36
+    ],
+    "what": "学习会所在地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田顺一写距上次来这座岛已过去35年"
+  },
+  {
+   "seg": 30,
+   "text": "他在宗像大社中津宫进行了正式参拜"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

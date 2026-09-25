@@ -1,0 +1,76 @@
+{
+ "id": "gamefreak-director-062",
+ "stem": "2006-11-22-gamefreak-director-062",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "中川翔子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "中川翔子于本月20日来访，昵称是Shokotan"
+  },
+  {
+   "seg": 2,
+   "text": "她是来接受《宝可梦☆星期天》采访的"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-061",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第61回",
+   "url": "/gamefreak-director/entry-061/",
+   "why": "同为増田部长专栏，第61回为前一篇"
+  },
+  {
+   "id": "gamefreak-director-060",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第60回",
+   "url": "/gamefreak-director/entry-060/",
+   "why": "《钻石·珍珠》发售活动背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

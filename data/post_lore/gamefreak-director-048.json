@@ -1,0 +1,99 @@
+{
+ "id": "gamefreak-director-048",
+ "stem": "2005-08-03-gamefreak-director-048",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 65
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "苏联",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "冷战另一方",
+    "via": "llm"
+   },
+   {
+    "name": "美国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "冷战一方",
+    "via": "llm"
+   },
+   {
+    "name": "德国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "当时分成东西两边",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "列举以前没有便利店，也没有录像带出租店"
+  },
+  {
+   "seg": 11,
+   "text": "说没有条形码，价格由收银员逐项敲入收银机"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-035",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第35回",
+   "url": "/gamefreak-director/entry-035/",
+   "why": "都谈以前游戏厅与电视游戏时代"
+  },
+  {
+   "id": "gamefreak-director-032",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第32回",
+   "url": "/gamefreak-director/entry-032/",
+   "why": "同为增田部长专栏系列前后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,83 @@
+{
+ "id": "gamefreak-staff-217",
+ "stem": "2011-01-28-gamefreak-staff-217",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "めめた",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "参赛宝可梦来源地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "大会规定不能使用合众地区以外的宝可梦参赛"
+  },
+  {
+   "seg": 17,
+   "text": "参赛者分为黑队和白队两组，争夺积分"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-214",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2011年新年问候",
+   "url": "/gamefreak-staff/entry-214/",
+   "why": "新年问候已预告公司内部对战大会"
+  },
+  {
+   "id": "gamefreak-staff-218",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2011年销量庆祝蛋糕",
+   "url": "/gamefreak-staff/entry-218/",
+   "why": "同为晴れたり時々曇ったり工作日志系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

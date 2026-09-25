@@ -1,0 +1,151 @@
+{
+ "id": "gamefreak-lineblog-4800598",
+ "stem": "2016-07-08-gamefreak-lineblog-4800598",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 104
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4,
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "夜盗火蜥",
+    "ndex": 757,
+    "seg": [
+     80
+    ],
+    "as": [
+     "夜盗火蜥"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     32
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 走吧",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "Bertrand",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Florent",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Newtiteuf",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "里昂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "增田独自去过",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "现场来了三千多人"
+  },
+  {
+   "seg": 80,
+   "text": "夜盗火蜥在这里全球首次公开"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

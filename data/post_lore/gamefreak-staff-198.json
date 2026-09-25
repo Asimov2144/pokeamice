@@ -1,0 +1,97 @@
+{
+ "id": "gamefreak-staff-198",
+ "stem": "2010-09-10-gamefreak-staff-198",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 54
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     13,
+     40
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "藤和",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "T氏",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "S先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "夏威夷岛科纳",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "赛事举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "藤和是中途入职后的第二年，这次是第一次参加这类活动"
+  },
+  {
+   "seg": 8,
+   "text": "他拿相机的手抖个不停，照片全都拍糊了"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

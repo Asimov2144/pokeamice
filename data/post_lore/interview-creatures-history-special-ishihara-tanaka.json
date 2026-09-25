@@ -1,0 +1,291 @@
+{
+ "id": "interview-creatures-history-special-ishihara-tanaka",
+ "stem": "2021-11-08-interview-creatures-history-special-ishihara-tanaka",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 80
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     26,
+     30
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     7,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "MOTHER2 ～基格的逆袭～",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "迷你四驱GB Let's&Go!!",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦乐园Wii～皮卡丘的大冒险～",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦卡牌e",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Ingress",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "万智牌",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电视游戏——电子游戏大全",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "指环王",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "星际迷航（宇宙大作战）",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "巫术",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "创世纪",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "最终幻想",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "精灵球 Plus",
+    "slug": null,
+    "seg": [
+     61
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon HOME",
+    "slug": null,
+    "seg": [
+     61
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Ray-Ban Stories",
+    "slug": null,
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     13,
+     21,
+     24,
+     26
+    ]
+   },
+   {
+    "name": "田中宏和",
+    "slug": "tanaka-hirokazu",
+    "role": "speaker",
+    "seg": [
+     12,
+     14,
+     23,
+     25,
+     30,
+     44
+    ]
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山内溥",
+    "slug": "yamauchi-hiroshi",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm",
+    "kind": "staff"
+   },
+   {
+    "name": "三浦明彦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "野元圣矢",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   },
+   {
+    "name": "任天堂神田事务所",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "Creatures初期办公地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "石原说借到任天堂神田事务所一层楼作为支持",
+   "anchor": 6
+  },
+  {
+   "seg": 13,
+   "text": "山内溥对石原说诞生了百年一遇的内容",
+   "anchor": 14
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,139 @@
+{
+ "id": "interview-spaceworld-tajiri-miyamoto-ishihara-pokemon2",
+ "stem": "1997-11-27-interview-spaceworld-tajiri-miyamoto-ishihara-pokemon2",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [],
+    "as": [
+     "梦幻"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦2",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红·绿",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "インタビュアー",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     2,
+     7
+    ]
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "初代《红·绿》设计团队曾绘制200种以上宝可梦草图",
+   "anchor": 3
+  },
+  {
+   "seg": 2,
+   "text": "第一作中精挑细选压缩到了150只",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-official-red-green-staff",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+   "url": "//interview-gamefreak-official-red-green-staff/",
+   "why": "同为1997年GF官网访谈，田尻谈尚在开发的宝可梦2构想"
+  },
+  {
+   "id": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/",
+   "why": "同为1997年GF座谈会与田尻访谈，涉金·银开发期"
+  },
+  {
+   "id": "interview-nom-special-dialogue-tajiri-ishihara",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+   "url": "//interview-nom-special-dialogue-tajiri-ishihara/",
+   "why": "田尻与石原对谈，述六年长征与制作前经历"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

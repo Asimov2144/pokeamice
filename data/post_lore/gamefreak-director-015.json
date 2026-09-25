@@ -1,0 +1,125 @@
+{
+ "id": "gamefreak-director-015",
+ "stem": "2004-09-09-gamefreak-director-015",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 67
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "福冈县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "增田顺一父母出生地",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "丰缘地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "鞍手郡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "父母出生的郡",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "游戏中的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "红宝石、蓝宝石和绿宝石中出现丰缘地区"
+  },
+  {
+   "seg": 19,
+   "text": "把九州作为丰缘地区的舞台"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-emerald-battle-frontier-evolution",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "N.O.M 2004年9月号宝可梦总力特集",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-emerald-battle-frontier-evolution/",
+   "why": "同提绿宝石舞台为丰缘地方"
+  },
+  {
+   "id": "gamefreak-director-024",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第24回",
+   "url": "/gamefreak-director/entry-024/",
+   "why": "红蓝宝石开发末期丰缘地名设计背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

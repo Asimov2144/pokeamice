@@ -1,0 +1,76 @@
+{
+ "id": "gamefreak-lineblog-3553810",
+ "stem": "2016-05-21-gamefreak-lineblog-3553810",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 2
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "正文标题处列出《宝可梦 太阳·月亮》"
+  },
+  {
+   "seg": 1,
+   "text": "正文写有「还有12天！」"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3296364",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年宝可梦倒计时",
+   "url": "/gamefreak-director/lineblog-3296364/",
+   "why": "同为日月新情报公开前的倒计时记录"
+  },
+  {
+   "id": "gamefreak-lineblog-3345139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3345139/",
+   "why": "同为日月新情报公开前的倒计时记录"
+  },
+  {
+   "id": "gamefreak-lineblog-3297485",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年宝可梦新情报",
+   "url": "/gamefreak-director/lineblog-3297485/",
+   "why": "同为日月新情报公开前的倒计时记录"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

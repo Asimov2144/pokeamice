@@ -1,0 +1,184 @@
+{
+ "id": "interview-famitsu-b2w2-fanmeeting-masuda-unno",
+ "stem": "2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 8
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     6
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     6
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     0,
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "name": "活动现场粉丝提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     5
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     6
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "活动关联店铺",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "横滨地标大厦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   },
+   {
+    "name": "地标大厅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "活动会场",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "活动于2012年8月5日在横滨地标大厦地标大厅举办",
+   "anchor": 2
+  },
+  {
+   "seg": 6,
+   "text": "藤藤蛇、暖暖猪、水水獭从《宝可梦 黑·白》起重新制作动画",
+   "anchor": 7
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学",
+   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E9%BB%91%E7%99%BD2/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/",
+   "why": "同为2012年8月5日横滨地标大厦见面会增田海野对谈"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+   "why": "同为增田与海野谈黑2白2开发原委"
+  },
+  {
+   "id": "scan-ndream-2012-09-b2w2-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "只有《2》才能做到的冒险",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
+   "why": "同为增田海野谈黑2白2新要素与开发"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,262 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch171",
+ "stem": "2009-01-14-interview-takeshi-shudo-pokemon-memoir-ch171",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 29
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     16
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     16,
+     18,
+     21,
+     22,
+     24,
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "哥斯拉",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "谈谈情跳跳舞",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "空海的风景",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "罗马人的故事",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     6,
+     14
+    ]
+   },
+   {
+    "name": "萨卡基",
+    "slug": "sa-ka-ji",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "司马辽太郎",
+    "slug": "si-ma-liao-tai-lang",
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "盐野七生",
+    "slug": "yan-ye-qi-sheng",
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "萨蒂亚吉特·雷伊",
+    "slug": "sa-di-ya-ji-te-lei-yi",
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "坂木",
+    "slug": "ban-mu",
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "芦屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "阪神大地震灾区",
+    "via": "llm"
+   },
+   {
+    "name": "日比谷高中",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "公立名校",
+    "via": "llm"
+   },
+   {
+    "name": "比基尼环礁",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "美军核试爆地",
+    "via": "llm"
+   },
+   {
+    "name": "广岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "二妹外派地",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     26
+    ],
+    "what": "哥斯拉践踏之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "首藤刚志说自己初中一个班50人，一个年级有10个班",
+   "anchor": 8
+  },
+  {
+   "seg": 14,
+   "text": "日本银行信用评估中编剧评级仅排在风俗夜总会店长之后",
+   "anchor": 15
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch170",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第170回：新年寄语与心境（英国国教会认证、海外版税长流与无印时代的距离感）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch170/",
+   "why": "同为手记连载，第170回为第171回前一篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch173",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第173回：请不要直白喊出《宝可梦》的主题（地狱启示录作派、合家欢的成人隐线与绝不能挑明的“歧视”母题）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch173/",
+   "why": "同为手记连载，第173回紧接第171回之后"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch175/",
+   "why": "同为手记连载，第175回属同一系列后续"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch177",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch177/",
+   "why": "同为手记连载，第177回属同一系列后续"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

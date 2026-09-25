@@ -1,0 +1,66 @@
+{
+ "id": "gamefreak-director-172",
+ "stem": "2010-08-05-gamefreak-director-172",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一写这次战斗音乐，称其带有很强的增田风格"
+  },
+  {
+   "seg": 10,
+   "text": "标题演示音乐是红绿演示音乐的改编版"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cd-anime-ost-miyazaki-soundteam",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂",
+   "url": "/developer-interviews/music-archives/interview-cd-anime-ost-miyazaki-soundteam/",
+   "why": "同月圆桌谈红绿音源限制，助理解其音乐改编"
+  },
+  {
+   "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "宝可梦 黑·白 乐曲魂特别篇",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/",
+   "why": "同谈黑白的音乐创作与声音总监工作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

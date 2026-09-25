@@ -1,0 +1,121 @@
+{
+ "id": "interview-tpc-employee-oohinata",
+ "stem": "2012-05-01-interview-tpc-employee-oohinata",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "大日向俊",
+    "slug": "da-ri-xiang-jun",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "name": "小透",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1,
+     3,
+     11
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心大阪",
+    "id": null,
+    "entity": "pokemon_center_osaka",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心福冈",
+    "id": null,
+    "entity": "pokemon_center_fukuoka",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "via": "gazetteer"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "大日向俊2009年应届大学毕业生入职，任宝可梦中心东京店长",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "他统筹了宝可梦中心大阪与福冈的移迁重装项目",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-tpc-employee-morotsuki",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方员工特写 诸月纱保子：授权企划部——小学生眼中的宝可梦工作与跨界无尽可能",
+   "url": "/developer-interviews/pokemon-recruit/interview-tpc-employee-morotsuki/",
+   "why": "同为2012-05-01宝可梦公司员工特写系列"
+  },
+  {
+   "id": "interview-tpc-president-ishihara-what-we-do",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/",
+   "why": "同为2012-05-01宝可梦公司官方采访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

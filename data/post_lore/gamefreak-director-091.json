@@ -1,0 +1,57 @@
+{
+ "id": "gamefreak-director-091",
+ "stem": "2007-07-30-gamefreak-director-091",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 11
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Poke’mon DIAMOND & PEARL",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "欧洲版《Poke’mon DIAMOND & PEARL》于2007年7月27日发售"
+  },
+  {
+   "seg": 4,
+   "text": "欧洲版包含德语、法语、西班牙语和意大利语版本"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,324 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+ "stem": "2009-12-16-interview-takeshi-shudo-pokemon-memoir-ch206",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 132
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     73
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     1,
+     5,
+     9,
+     16,
+     26,
+     30
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     1,
+     9,
+     16,
+     26,
+     59,
+     76
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     1,
+     2,
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "杜子春",
+    "slug": null,
+    "seg": [
+     48,
+     49
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "凝视爱与死",
+    "slug": null,
+    "seg": [
+     48
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "梦幻之轮舞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     95
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "海螺小姐",
+    "slug": null,
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哆啦A梦",
+    "slug": null,
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     8,
+     70,
+     107,
+     126
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     12,
+     55,
+     64,
+     70,
+     71,
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     55
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     5,
+     9,
+     16,
+     26,
+     30
+    ]
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "芥川龙之介",
+    "slug": "jie-chuan-long-zhi-jie",
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "斋藤武市",
+    "slug": "zhai-teng-wu-shi",
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "吉永小百合",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ]
+   },
+   {
+    "name": "中岛丈博",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     112
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "市川森一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     112
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "橘子群岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     61
+    ],
+    "what": "动画原创篇章",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     76
+    ],
+    "what": "首藤寓所所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "大制片人要求第二部电影副标题必须塞进「爆诞」二字",
+   "anchor": 5
+  },
+  {
+   "seg": 55,
+   "text": "汤山总监督称催泪点是给小智做人工呼吸的戏",
+   "anchor": 56
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch205/",
+   "why": "同为手记系列，205回紧接206回前一篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "208回为206回后两篇，同系列"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "209回紧接208回，同系列手记"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch201",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第201回：对不起，我差点忘了小霞的事（打破智霞恋爱幻想、菜盘香菜的残酷隐喻与被删减的愤怒殴打）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch201/",
+   "why": "201回已提人工呼吸改自殴打小智胸口"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

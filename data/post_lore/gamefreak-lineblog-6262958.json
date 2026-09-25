@@ -1,0 +1,162 @@
+{
+ "id": "gamefreak-lineblog-6262958",
+ "stem": "2016-08-22-gamefreak-lineblog-6262958",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 122
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     3
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Shunto Sadahiro",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Jesper Eriksen",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Shintaro Ito",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Cory Connor",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Carson Confer",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Wolfe Glick",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "雷君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     85
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿伦君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     85
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "阿纳海姆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     76
+    ],
+    "what": "2017年大会举办地",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     75
+    ],
+    "what": "阿纳海姆附近城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 14,
+   "text": "少年组世界第一是日本的 Shunto Sadahiro 选手"
+  },
+  {
+   "seg": 17,
+   "text": "老年组世界第一是丹麦的 Jesper Eriksen 选手"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

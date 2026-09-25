@@ -1,0 +1,80 @@
+{
+ "id": "gamefreak-lineblog-2859701",
+ "stem": "2016-04-17-gamefreak-lineblog-2859701",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心名古屋",
+    "id": null,
+    "entity": "pokemon_center_nagoya",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "名古屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "签名会举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "今天在名古屋举办了增田的签名会"
+  },
+  {
+   "seg": 25,
+   "text": "增田提到和上次一样的话未免太单调"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

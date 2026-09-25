@@ -1,0 +1,413 @@
+{
+ "id": "interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design",
+ "stem": "2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 103
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     59
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     59,
+     60,
+     61
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     9
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     21
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "太阳伊布",
+    "ndex": 196,
+    "seg": [
+     22
+    ],
+    "as": [
+     "太阳伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火稚鸡",
+    "ndex": 255,
+    "seg": [
+     61
+    ],
+    "as": [
+     "火稚鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "圆法师",
+    "ndex": 401,
+    "seg": [
+     54,
+     55,
+     56
+    ],
+    "as": [
+     "圆法师"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "音箱蟀",
+    "ndex": 402,
+    "seg": [
+     56
+    ],
+    "as": [
+     "音箱蟀"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "罗丝雷朵",
+    "ndex": 407,
+    "seg": [
+     52,
+     53
+    ],
+    "as": [
+     "罗丝雷朵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "风妖精",
+    "ndex": 547,
+    "seg": [
+     45,
+     53
+    ],
+    "as": [
+     "风妖精"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     57
+    ],
+    "as": [
+     "索罗亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     57
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泡沫栗鼠",
+    "ndex": 572,
+    "seg": [
+     24
+    ],
+    "as": [
+     "泡沫栗鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "仙子伊布",
+    "ndex": 700,
+    "seg": [
+     11,
+     13,
+     15,
+     17,
+     27,
+     53
+    ],
+    "as": [
+     "仙子伊布"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "阿罗拉六尾",
+    "ndex": 37,
+    "seg": [
+     58
+    ],
+    "as": [
+     "六尾"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉九尾",
+    "ndex": 38,
+    "seg": [
+     58
+    ],
+    "as": [
+     "九尾"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     27
+    ],
+    "as": [
+     "谢米"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "皮卡丘与伊布☆朋友们",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Smash！",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小狐狸海伦",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     84
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太阳战队三火鸟",
+    "slug": null,
+    "seg": [
+     82
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黄金战士黄金莱坦",
+    "slug": null,
+    "seg": [
+     82
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔法天使奶油咪咪",
+    "slug": null,
+    "seg": [
+     82
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "中川翔子",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "西田敦子",
+    "slug": "nishida-atsuko",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     10,
+     12,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "罗伯特·秋山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Takanori Kuroda",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "熊本县长洲町",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     78
+    ],
+    "what": "女儿节举办地",
+    "via": "llm"
+   },
+   {
+    "name": "濑户市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     94
+    ],
+    "what": "猫咪展示合作地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "中川翔子说在宝可梦官网读到皮卡丘诞生秘闻，最初像大福",
+   "anchor": 6
+  },
+  {
+   "seg": 30,
+   "text": "西田敦子说设计时尽可能减少部件数量，只加一个特征性部件",
+   "anchor": 31
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-tpc-pikachu-origin-sugimori-nishino-nishida",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
+   "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
+   "why": "同为2018年5月皮卡丘诞生秘话三人访谈"
+  },
+  {
+   "id": "interview-yomiuri-sugimori-nishino-nishida-pikachu-birth",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "读卖新闻 深层采访 杉森建 × 西野弘二 × 西田敦子：“皮卡丘的原型是大福？首次公开的雷丘后进化型‘高老大（Gorochu）’与初代像素绘制秘闻”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-yomiuri-sugimori-nishino-nishida-pikachu-birth/",
+   "why": "同为2018年5月大福原型与哥罗丘披露"
+  },
+  {
+   "id": "interview-creators-of-pikachu",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-creators-of-pikachu/",
+   "why": "同为西田敦子等三人复盘皮卡丘诞生"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

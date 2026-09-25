@@ -1,0 +1,215 @@
+{
+ "id": "interview-nwr-xy-masuda-yoshida",
+ "stem": "2013-10-04-interview-nwr-xy-masuda-yoshida",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     9
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     9
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "仙子伊布",
+    "ndex": 700,
+    "seg": [
+     9
+    ],
+    "as": [
+     "仙子伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     9
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X／Y",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦+织田信长之野望",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂明星大乱斗",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠／白金",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "NWR",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "樱井",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田称10月12日全球同步发售，发售日当天玩家可互相连接对战交换",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "增田在《X／Y》中创作了野生宝可梦战斗音乐和训练家战斗音乐",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "同谈X·Y超级进化与3D化开发"
+  },
+  {
+   "id": "interview-nintendolife-2013-xy",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/",
+   "why": "同谈X·Y全3D转型与开发团队"
+  },
+  {
+   "id": "interview-gamasutra-xy-monster-design",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gamasutra-xy-monster-design/",
+   "why": "同谈X·Y宝可梦设计流程"
+  },
+  {
+   "id": "interview-hobbyconsolas-xy-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访",
+   "url": "//interview-hobbyconsolas-xy-masuda/",
+   "why": "同谈X·Y全球同步发售与超级进化"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

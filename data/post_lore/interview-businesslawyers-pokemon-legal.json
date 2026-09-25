@@ -1,0 +1,83 @@
+{
+ "id": "interview-businesslawyers-pokemon-legal",
+ "stem": "2018-09-12-interview-businesslawyers-pokemon-legal",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 46
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     19,
+     23
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "富田裕介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "横滨市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "合作活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "法务部门含总监共7人，2人负责合同与一般法务，4人负责知识产权",
+   "anchor": 10
+  },
+  {
+   "seg": 27,
+   "text": "印度尼西亚法律规定合同正文必须用印尼语制作",
+   "anchor": 28
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

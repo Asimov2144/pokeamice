@@ -1,0 +1,74 @@
+{
+ "id": "gamefreak-staff-94",
+ "stem": "2008-10-31-gamefreak-staff-94",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 56
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [],
+  "places": [
+   {
+    "name": "熊本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "太平燕名产地",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "什锦面名产地",
+    "via": "llm"
+   },
+   {
+    "name": "中国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "太平燕发源地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "太平燕在日本是熊本的名产"
+  },
+  {
+   "seg": 5,
+   "text": "太平燕的构成大多与什锦面相似"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

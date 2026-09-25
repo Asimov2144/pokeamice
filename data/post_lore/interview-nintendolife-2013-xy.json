@@ -1,0 +1,347 @@
+{
+ "id": "interview-nintendolife-2013-xy",
+ "stem": "2013-09-21-interview-nintendolife-2013-xy",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 67
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     57
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     57
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     57
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸡",
+    "ndex": 257,
+    "seg": [
+     61
+    ],
+    "as": [
+     "火焰鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     61
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哈力栗",
+    "ndex": 650,
+    "seg": [
+     2,
+     6
+    ],
+    "as": [
+     "哈力栗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火狐狸",
+    "ndex": 653,
+    "seg": [
+     2,
+     3
+    ],
+    "as": [
+     "火狐狸"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呱呱泡蛙",
+    "ndex": 656,
+    "seg": [
+     2,
+     4,
+     6
+    ],
+    "as": [
+     "呱呱泡蛙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哲尔尼亚斯",
+    "ndex": 716,
+    "seg": [
+     6
+    ],
+    "as": [
+     "哲尔尼亚斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊裴尔塔尔",
+    "ndex": 717,
+    "seg": [
+     6
+    ],
+    "as": [
+     "伊裴尔塔尔"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     53
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     1,
+     13,
+     16,
+     37,
+     42,
+     43
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     7,
+     10,
+     13,
+     14,
+     18
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "speaker",
+    "seg": [
+     4,
+     8,
+     16,
+     28,
+     34,
+     45
+    ]
+   },
+   {
+    "name": "岩田先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "布拉塔诺博士",
+    "slug": "bu-la-ta-nuo-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     57
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "Katy Ellis",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "朝香镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "游戏城镇",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     15
+    ],
+    "what": "游戏城市",
+    "via": "llm"
+   },
+   {
+    "name": "法国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "地区灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     64
+    ],
+    "what": "宝可梦游戏展举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "增田称标题在传说宝可梦设计前就已想好，取自X轴与Y轴",
+   "anchor": 8
+  },
+  {
+   "seg": 21,
+   "text": "增田称约200人参与开发，制作人员名单约500个名字",
+   "anchor": 22
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "同为2013年9月增田与吉田谈X·Y命名的采访"
+  },
+  {
+   "id": "interview-gameinformer-masuda-afterwords-xy",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-afterwords-xy/",
+   "why": "事后专访补充X·Y概念规划与卡洛斯剧情细节"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

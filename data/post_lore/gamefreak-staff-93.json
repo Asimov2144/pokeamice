@@ -1,0 +1,66 @@
+{
+ "id": "gamefreak-staff-93",
+ "stem": "2008-10-24-gamefreak-staff-93",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 78
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     8
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "松田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "蟹子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "なぎー（纳吉）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 21,
+   "text": "我开始负责3D方面的工作，和新入职的图形设计师一起参加公司内部3D图形培训。"
+  },
+  {
+   "seg": 25,
+   "text": "培训主要围绕3D图形的制作方法和工具的使用方式展开。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,178 @@
+{
+ "id": "interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+ "stem": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "土龙弟弟",
+    "ndex": 206,
+    "seg": [
+     26
+    ],
+    "as": [
+     "土龙弟弟"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦不可思议迷宫 极大之门与∞迷宫",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦不可思议迷宫",
+    "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Rogue",
+    "slug": null,
+    "seg": [
+     6,
+     10,
+     12,
+     13,
+     14
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "风来的西林",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "不可思议的迷宫",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "特鲁内克",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     6,
+     8,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "长畑成一郎",
+    "slug": "nagahata-seiichiro",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     9,
+     16,
+     19
+    ]
+   },
+   {
+    "name": "富江慎一郎",
+    "slug": "tomie-shinichiro",
+    "role": "speaker",
+    "seg": [
+     10,
+     12,
+     21,
+     24,
+     29
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     14,
+     26,
+     30
+    ]
+   },
+   {
+    "name": "众人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "长畑称先按自己想法做，再观察员工游玩氛围调整难度。",
+   "anchor": 4
+  },
+  {
+   "seg": 5,
+   "text": "长畑称在牢记搭建能实时修改的开发环境前提下推进。",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、AR圆环与现实连接）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/",
+   "why": "同为社长问该作访谈，第2章在前"
+  },
+  {
+   "id": "interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第3章：“决定版”（单一包装的魄力、Chunsoft自DQ时代传承的亲切感与难度哲学）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition/",
+   "why": "同为社长问该作访谈，第3章在前"
+  },
+  {
+   "id": "interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第1章：不可思议的组合（石原恒和千次游玩之缘与醒来变成宝可梦的原点）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination/",
+   "why": "同为社长问该作访谈，第1章在前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

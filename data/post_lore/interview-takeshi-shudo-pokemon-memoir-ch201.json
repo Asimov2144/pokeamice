@@ -1,0 +1,231 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch201",
+ "stem": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 71
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     12,
+     13
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     1,
+     5,
+     57,
+     62,
+     67,
+     69
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     1,
+     5,
+     57,
+     62,
+     67,
+     69
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小仙女",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "伴我同行",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     66
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     12
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     0,
+     4,
+     5,
+     6,
+     7,
+     13
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     12,
+     13
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "饭冢雅弓",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     66
+    ]
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "芙卢拉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ]
+   },
+   {
+    "name": "小刚",
+    "slug": "xiao-gang",
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "小霞名言：我正好想去的地方恰巧都有小智在",
+   "anchor": 6
+  },
+  {
+   "seg": 58,
+   "text": "首藤原稿写小霞猛殴小智胸口，成片改为人工呼吸",
+   "anchor": 59
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch202",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第202回：火箭队才是真正主角（自我存在的悖论、被抹杀的反派尊严与秋叶原无差别事件的社会冷思）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch202/",
+   "why": "同为手记系列，第202回紧接第201回后一篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+   "why": "第206回提到给小智做人工呼吸的戏"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
+   "why": "同为手记系列，第204回在201回前后"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch198",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第198回：想让火箭队出尽风头是好事，但是……（消灭自我的伪善共存、全员皆主角的群像剧革命与配角人设深渊）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch198/",
+   "why": "同为手记系列，第198回在201回之前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

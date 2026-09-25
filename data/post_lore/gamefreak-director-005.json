@@ -1,0 +1,143 @@
+{
+ "id": "gamefreak-director-005",
+ "stem": "2004-08-06-gamefreak-director-005",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 49
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     12,
+     15,
+     39,
+     43
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     15,
+     43
+    ],
+    "as": [
+     "洛奇亚",
+     "Lugia"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     12,
+     39
+    ],
+    "as": [
+     "固拉多",
+     "Groudon"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     12,
+     39
+    ],
+    "as": [
+     "基拉祈",
+     "Jirachi"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "增田顺一写明天起 GAME FREAK 放暑假"
+  },
+  {
+   "seg": 7,
+   "text": "增田顺一写《红宝石》《蓝宝石》《火红》《叶绿》已可与全世界的人对战、交换"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-021",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第21回",
+   "url": "/gamefreak-director/entry-021/",
+   "why": "同为増田部長のめざめるパワー系列第3回"
+  },
+  {
+   "id": "gamefreak-director-011",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第11回",
+   "url": "/gamefreak-director/entry-011/",
+   "why": "同为増田部長のめざめるパワー系列第11回"
+  },
+  {
+   "id": "gamefreak-director-010",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第10回",
+   "url": "/gamefreak-director/entry-010/",
+   "why": "同为増田部長のめざめるパワー系列第10回"
+  },
+  {
+   "id": "interview-nom-emerald-battle-frontier-evolution",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "N.O.M 2004年9月号宝可梦总力特集",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-emerald-battle-frontier-evolution/",
+   "why": "同提《绿宝石》9月16日发售"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

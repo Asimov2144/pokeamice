@@ -1,0 +1,180 @@
+{
+ "id": "interview-pokemon-center-pop-up-store-project",
+ "stem": "2023-09-01-interview-pokemon-center-pop-up-store-project",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小拳石",
+    "ndex": 74,
+    "seg": [
+     22
+    ],
+    "as": [
+     "小拳石"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     22
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     22
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦中心 出张所",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Center POP UP STORE",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦中心 线上商城",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Sleep",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     8,
+     12,
+     14,
+     17
+    ]
+   },
+   {
+    "name": "K.K",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     7,
+     9,
+     13,
+     15,
+     18
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "日本桥高岛屋",
+    "id": "pc_tokyo_dx",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "via": "extra",
+    "what": "宝可梦中心东京DX所在"
+   },
+   {
+    "name": "日本桥高岛屋店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "Pokémon Center TOKYO DX所在门店",
+    "via": "llm"
+   },
+   {
+    "name": "香川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "有地域应援宝可梦的县",
+    "via": "llm"
+   },
+   {
+    "name": "岩手县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "有地域应援宝可梦的县",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "K.K说学生时代曾在宝可梦中心做过兼职打工",
+   "anchor": 4
+  },
+  {
+   "seg": 7,
+   "text": "入职第1年他在Pokémon Center TOKYO DX当现场店员，第2年调任总部电商部门",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

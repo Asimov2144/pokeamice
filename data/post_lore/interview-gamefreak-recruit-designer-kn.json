@@ -1,0 +1,93 @@
+{
+ "id": "interview-gamefreak-recruit-designer-kn",
+ "stem": "2021-12-27-interview-gamefreak-recruit-designer-kn",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4,
+     7
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘・Let's Go！伊布",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "K.N.",
+    "slug": "k-n",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "K.N.研究生阶段在工学部专攻机器人工程学，并绘制游戏和小说的插画。",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "K.N.入职第5年时在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》中担任场景组长。",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

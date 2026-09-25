@@ -1,0 +1,158 @@
+{
+ "id": "gamefreak-lineblog-4457959",
+ "stem": "2016-06-25-gamefreak-lineblog-4457959",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 88
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "绿毛虫",
+    "ndex": 10,
+    "seg": [
+     28
+    ],
+    "as": [
+     "绿毛虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小笃儿",
+    "ndex": 731,
+    "seg": [
+     27
+    ],
+    "as": [
+     "小笃儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬少",
+    "ndex": 734,
+    "seg": [
+     29,
+     30
+    ],
+    "as": [
+     "猫鼬少"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "强颚鸡母虫",
+    "ndex": 736,
+    "seg": [
+     11,
+     21,
+     40,
+     43,
+     82,
+     84
+    ],
+    "as": [
+     "强颚鸡母虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     30
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "田边先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "幕张国际展示场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "活动会场",
+    "via": "llm"
+   },
+   {
+    "name": "WHF会场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     61
+    ],
+    "what": "活动会场",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "E3全球首次现场实况试玩中强颚鸡母虫没有出现"
+  },
+  {
+   "seg": 20,
+   "text": "早上彩排时强颚鸡母虫出现了两次"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

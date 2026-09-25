@@ -1,0 +1,106 @@
+{
+ "id": "gamefreak-director-055",
+ "stem": "2005-12-28-gamefreak-director-055",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "スクリューブレイカー",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石＆珍珠",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "三枝成彰",
+    "slug": "saegusa-shigeaki",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "GBA《スクリューブレイカー》发售，并推出了相关网站"
+  },
+  {
+   "seg": 6,
+   "text": "GAME FREAK 员工总数将近 50 名"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-corocoro-masuda-diamond-pearl-scoop",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "月刊CoroCoro Comic 2005年8月号附录 增田顺一全国初公开独家专访：“今世纪最大的事件！双屏幕与神奥大陆的全新冒险黎明”——《宝可梦 钻石／珍珠》开发机密独家批露",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-corocoro-masuda-diamond-pearl-scoop/",
+   "why": "同为增田谈钻石珍珠双屏与无线通信开发构想"
+  },
+  {
+   "id": "gamefreak-director-056",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第56回",
+   "url": "/gamefreak-director/entry-056/",
+   "why": "同为部长专栏，第56回紧接第55回"
+  },
+  {
+   "id": "gamefreak-director-022",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第22回",
+   "url": "/gamefreak-director/entry-022/",
+   "why": "宣布钻石珍珠在GAME FREAK开发中"
+  },
+  {
+   "id": "gamefreak-director-030",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第30回",
+   "url": "/gamefreak-director/entry-030/",
+   "why": "同为部长专栏，第30回早于第55回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

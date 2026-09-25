@@ -1,0 +1,173 @@
+{
+ "id": "interview-denfami-2023-cedec-visual",
+ "stem": "2023-08-24-interview-denfami-2023-cedec-visual",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 116
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     11,
+     13
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "润水鸭",
+    "ndex": 912,
+    "seg": [
+     43
+    ],
+    "as": [
+     "润水鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "苍炎刃鬼",
+    "ndex": 937,
+    "seg": [
+     47
+    ],
+    "as": [
+     "苍炎刃鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "故勒顿",
+    "ndex": 1007,
+    "seg": [
+     4
+    ],
+    "as": [
+     "故勒顿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "密勒顿",
+    "ndex": 1008,
+    "seg": [
+     4,
+     42
+    ],
+    "as": [
+     "密勒顿"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     0,
+     1,
+     7,
+     9,
+     11,
+     41
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "前泽圭一",
+    "slug": "maezawa-keiichi",
+    "role": "mentioned",
+    "seg": [
+     17
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "帕底亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "CEDEC于8月23日至25日举办，本文报道首日会议",
+   "anchor": 1
+  },
+  {
+   "seg": 17,
+   "text": "演讲者前泽圭一是GAME FREAK的CG技术实验室总监",
+   "anchor": 18
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cedec-2023-paldea-rendering-pipeline-maeza",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦SV如何描绘帕底亚",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2023-paldea-rendering-pipeline-maeza/",
+   "why": "同为CEDEC2023前泽圭一讲宝可梦SV视觉表现"
+  },
+  {
+   "id": "interview-famitsu-2023-cedec-sound",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦环境音的制作幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2023-cedec-sound/",
+   "why": "同为CEDEC2023首日宝可梦相关演讲报道"
+  },
+  {
+   "id": "interview-cedec-2023-sound-design-ichinose-paldea",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦世界的音响设计",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2023-sound-design-ichinose-paldea/",
+   "why": "同为CEDEC2023宝可梦相关演讲报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

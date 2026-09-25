@@ -1,0 +1,816 @@
+{
+ "id": "scan-ndream-bw-tanjou-hiwa-2011-popularity-poll",
+ "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-popularity-poll",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 286
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     63
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     20,
+     21,
+     25,
+     27,
+     87,
+     181
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     19,
+     20,
+     21,
+     87
+    ],
+    "as": [
+     "君主蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     23,
+     26,
+     27,
+     77,
+     87
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     77
+    ],
+    "as": [
+     "大剑鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "花椰猴",
+    "ndex": 511,
+    "seg": [
+     45,
+     47
+    ],
+    "as": [
+     "花椰猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "差不多娃娃",
+    "ndex": 531,
+    "seg": [
+     74
+    ],
+    "as": [
+     "差不多娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "圆蝌蚪",
+    "ndex": 535,
+    "seg": [
+     76
+    ],
+    "as": [
+     "圆蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蜈蚣王",
+    "ndex": 545,
+    "seg": [
+     48,
+     86
+    ],
+    "as": [
+     "蜈蚣王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木棉球",
+    "ndex": 546,
+    "seg": [
+     177,
+     178,
+     179
+    ],
+    "as": [
+     "木棉球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "风妖精",
+    "ndex": 547,
+    "seg": [
+     6,
+     30,
+     86,
+     87,
+     162,
+     167
+    ],
+    "as": [
+     "风妖精"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百合根娃娃",
+    "ndex": 548,
+    "seg": [
+     178
+    ],
+    "as": [
+     "百合根娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "裙儿小姐",
+    "ndex": 549,
+    "seg": [
+     29,
+     30
+    ],
+    "as": [
+     "裙儿小姐"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "流氓鳄",
+    "ndex": 553,
+    "seg": [
+     188
+    ],
+    "as": [
+     "流氓鳄"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "达摩狒狒",
+    "ndex": 555,
+    "seg": [
+     231
+    ],
+    "as": [
+     "达摩狒狒"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "迭失棺",
+    "ndex": 563,
+    "seg": [
+     83
+    ],
+    "as": [
+     "迭失棺"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "灰尘山",
+    "ndex": 569,
+    "seg": [
+     269
+    ],
+    "as": [
+     "灰尘山"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     79
+    ],
+    "as": [
+     "索罗亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     54,
+     79
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泡沫栗鼠",
+    "ndex": 572,
+    "seg": [
+     66
+    ],
+    "as": [
+     "泡沫栗鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "人造细胞卵",
+    "ndex": 579,
+    "seg": [
+     16,
+     86,
+     87
+    ],
+    "as": [
+     "人造细胞卵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双倍多多冰",
+    "ndex": 584,
+    "seg": [
+     84
+    ],
+    "as": [
+     "双倍多多冰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电飞鼠",
+    "ndex": 587,
+    "seg": [
+     51
+    ],
+    "as": [
+     "电飞鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "胖嘟嘟",
+    "ndex": 593,
+    "seg": [
+     190,
+     284
+    ],
+    "as": [
+     "胖嘟嘟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电电虫",
+    "ndex": 595,
+    "seg": [
+     22,
+     23,
+     33,
+     86,
+     87
+    ],
+    "as": [
+     "电电虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电蜘蛛",
+    "ndex": 596,
+    "seg": [
+     33,
+     34,
+     35,
+     86
+    ],
+    "as": [
+     "电蜘蛛"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烛光灵",
+    "ndex": 607,
+    "seg": [
+     59,
+     61,
+     137,
+     144,
+     145,
+     147
+    ],
+    "as": [
+     "烛光灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "灯火幽灵",
+    "ndex": 608,
+    "seg": [
+     143,
+     144,
+     145
+    ],
+    "as": [
+     "灯火幽灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水晶灯火灵",
+    "ndex": 609,
+    "seg": [
+     2,
+     4,
+     132,
+     145,
+     149,
+     153,
+     142
+    ],
+    "as": [
+     "水晶灯火灵",
+     "Chandelure"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双斧战龙",
+    "ndex": 612,
+    "seg": [
+     73
+    ],
+    "as": [
+     "双斧战龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泥巴鱼",
+    "ndex": 618,
+    "seg": [
+     78
+    ],
+    "as": [
+     "泥巴鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "师父鼬",
+    "ndex": 620,
+    "seg": [
+     82
+    ],
+    "as": [
+     "师父鼬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "劈斩司令",
+    "ndex": 625,
+    "seg": [
+     70,
+     71
+    ],
+    "as": [
+     "劈斩司令"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "三首恶龙",
+    "ndex": 635,
+    "seg": [
+     17
+    ],
+    "as": [
+     "三首恶龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火神蛾",
+    "ndex": 637,
+    "seg": [
+     41,
+     86
+    ],
+    "as": [
+     "火神蛾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "龙卷云",
+    "ndex": 641,
+    "seg": [
+     189
+    ],
+    "as": [
+     "龙卷云"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     9,
+     10,
+     87,
+     193,
+     199,
+     202
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     9,
+     36,
+     37,
+     87,
+     206,
+     207
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     159
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "112票",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     24,
+     28
+    ]
+   },
+   {
+    "name": "西田敦子",
+    "slug": "nishida-atsuko",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     89
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "北尚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "南厦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     94
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "风露",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     96
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小菊儿",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     98
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑连",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "天桐",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     110
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "贝尔",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "嘉德丽雅",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     114
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "菊野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     119
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "竹兰",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "亚堤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     122
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "艾莉丝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     123
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "志米",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     158
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "盖奇斯",
+    "slug": "gai-qi-si",
+    "role": "mentioned",
+    "seg": [
+     245
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "天堂之塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     149
+    ],
+    "what": "获取烛光灵处",
+    "via": "llm"
+   },
+   {
+    "name": "10号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     146
+    ],
+    "what": "可获得暗之石",
+    "via": "llm"
+   },
+   {
+    "name": "矢车森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     178
+    ],
+    "what": "木棉球出现地",
+    "via": "llm"
+   },
+   {
+    "name": "N之城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     202
+    ],
+    "what": "捕获莱希拉姆处",
+    "via": "llm"
+   },
+   {
+    "name": "对战地铁",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     251
+    ],
+    "what": "北尚南厦任职处",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "投票对象地区",
+    "via": "llm"
+   },
+   {
+    "name": "七宝市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     178
+    ],
+    "what": "交换木棉球处",
+    "via": "llm"
+   },
+   {
+    "name": "雷文市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     228
+    ],
+    "what": "与N同乘摩天轮",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "水晶灯火灵以领先第2名100票以上的优势获第1名"
+  },
+  {
+   "seg": 8,
+   "text": "投票可对合众地区152+1只宝可梦投3票、对31名角色投2票"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-bw-tanjou-hiwa-2011-characters",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦诞生秘话 29个角色的幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-characters/",
+   "why": "同为Nintendo DREAM 2011年7月号附录"
+  },
+  {
+   "id": "scan-ndream-2011-05-bw-design-secrets-ex",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦 黑·白 诞生秘话EX",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/",
+   "why": "同刊《宝可梦诞生秘话》系列前后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

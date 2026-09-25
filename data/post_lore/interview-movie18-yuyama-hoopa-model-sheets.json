@@ -1,0 +1,234 @@
+{
+ "id": "interview-movie18-yuyama-hoopa-model-sheets",
+ "stem": "2015-07-14-interview-movie18-yuyama-hoopa-model-sheets",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 253
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     28,
+     48,
+     62,
+     64,
+     67,
+     91
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉帝欧斯",
+    "ndex": 381,
+    "seg": [
+     164
+    ],
+    "as": [
+     "拉帝欧斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "酋雷姆",
+    "ndex": 646,
+    "seg": [
+     137
+    ],
+    "as": [
+     "酋雷姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凯路迪欧",
+    "ndex": 647,
+    "seg": [
+     137
+    ],
+    "as": [
+     "凯路迪欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "胡帕",
+    "ndex": 720,
+    "seg": [
+     119
+    ],
+    "as": [
+     "胡帕"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剧场版 光轮的超魔神 胡帕",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "皮卡丘与宝可梦音乐队",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "酋雷姆VS圣剑士 凯路迪欧",
+    "slug": null,
+    "seg": [
+     137
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "speaker",
+    "seg": [
+     67,
+     68,
+     69,
+     70,
+     72,
+     73
+    ]
+   },
+   {
+    "name": "藤原龙也",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中川翔子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山本美月",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     106
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "荒漠塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     34
+    ],
+    "what": "城市地标建筑",
+    "via": "llm"
+   },
+   {
+    "name": "阿尔凯谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     55
+    ],
+    "what": "巴尔扎玛丽成长地",
+    "via": "llm"
+   },
+   {
+    "name": "迪拜",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     154
+    ],
+    "what": "取景地原型",
+    "via": "llm"
+   },
+   {
+    "name": "哈利法塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     167
+    ],
+    "what": "取景登顶建筑",
+    "via": "llm"
+   },
+   {
+    "name": "荒漠市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     27
+    ],
+    "what": "故事舞台城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 67,
+   "text": "汤山称短片是电视系列刚开始时就想找机会做的东西",
+   "anchor": 68
+  },
+  {
+   "seg": 75,
+   "text": "汤山说从最初想到主意算起已做了19(?)年",
+   "anchor": 76
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

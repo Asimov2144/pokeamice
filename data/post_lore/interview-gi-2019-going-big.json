@@ -1,0 +1,298 @@
+{
+ "id": "interview-gi-2019-going-big",
+ "stem": "2019-11-13-interview-gi-2019-going-big",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 106
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     79
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "苍响",
+    "ndex": 888,
+    "seg": [
+     45
+    ],
+    "as": [
+     "Zacian"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藏玛然特",
+    "ndex": 889,
+    "seg": [
+     45
+    ],
+    "as": [
+     "Zamazenta"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     2,
+     8,
+     9,
+     18,
+     23,
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·蓝",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon Go",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "James Turner",
+    "slug": "james-turner",
+    "role": "mentioned",
+    "seg": [
+     28,
+     65
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     27
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     8
+    ]
+   },
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "mentioned",
+    "seg": [
+     13
+    ]
+   },
+   {
+    "name": "Brian Shea",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "胡萝卜塔",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": "game_freak",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "旷野地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     91
+    ],
+    "what": "可自由漫游的开阔区域",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "GAME FREAK总部所在",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     27
+    ],
+    "what": "启发伽勒尔地区",
+    "via": "llm"
+   },
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     28
+    ],
+    "what": "伽勒尔地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     32
+    ],
+    "what": "以英国为原型的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "主线系列此前只存在于掌机平台，Switch发布改变了一切",
+   "anchor": 2
+  },
+  {
+   "seg": 8,
+   "text": "大森滋说Switch的图形和渲染方式与3DS如此不同",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gi-2019-champion",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "大森滋与增田顺一谈《剑／盾》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
+   "why": "同为Game Informer剑盾封面故事采访大森滋与增田顺一"
+  },
+  {
+   "id": "interview-gi-2019-burning",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦主创的胡闹问答",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/",
+   "why": "Game Informer封面故事后同一轮采访大森滋与增田顺一"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

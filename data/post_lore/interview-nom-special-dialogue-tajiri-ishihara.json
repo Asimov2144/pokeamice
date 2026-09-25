@@ -1,0 +1,323 @@
+{
+ "id": "interview-nom-special-dialogue-tajiri-ishihara",
+ "stem": "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     25,
+     26,
+     54,
+     59,
+     65
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     56
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦卡牌",
+    "slug": null,
+    "seg": [
+     60
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "耀西的蛋",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马里奥与瓦里奥",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔界塔士SaGa",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "打砖块",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Mission X",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Scramble",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太空侵略者",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "银河战争",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "导弹指令",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伴我同行",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "GAME FREAK",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     13,
+     15,
+     20,
+     28
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     7,
+     9,
+     11,
+     14
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10,
+     17,
+     21
+    ]
+   },
+   {
+    "name": "岩井俊雄",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "林原惠美",
+    "slug": "hayashibara-megumi",
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "町田",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "田尻成长之地",
+    "via": "llm"
+   },
+   {
+    "name": "加利福尼亚半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "石原比对的地形",
+    "via": "llm"
+   },
+   {
+    "name": "佛罗里达半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "石原比对的地形",
+    "via": "llm"
+   },
+   {
+    "name": "六本木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "二人相遇之地",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     35
+    ],
+    "what": "宝可梦游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "石原1980年代初期在六本木老式民宅的CG影像公司任职",
+   "anchor": 5
+  },
+  {
+   "seg": 14,
+   "text": "田尻看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏",
+   "anchor": 15
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

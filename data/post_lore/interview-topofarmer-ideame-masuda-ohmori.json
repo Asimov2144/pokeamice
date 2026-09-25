@@ -1,0 +1,212 @@
+{
+ "id": "interview-topofarmer-ideame-masuda-ohmori",
+ "stem": "2014-11-01-interview-topofarmer-ideame-masuda-ohmori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 91
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     64,
+     65,
+     73,
+     89
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火稚鸡",
+    "ndex": 255,
+    "seg": [
+     67,
+     68
+    ],
+    "as": [
+     "火稚鸡",
+     "Torchic"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水跃鱼",
+    "ndex": 258,
+    "seg": [
+     66
+    ],
+    "as": [
+     "水跃鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     70,
+     73,
+     77,
+     71
+    ],
+    "as": [
+     "固拉多",
+     "Groudon"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     26,
+     28,
+     29,
+     30,
+     33,
+     35
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     27,
+     31,
+     32,
+     38,
+     44,
+     57
+    ]
+   },
+   {
+    "name": "西班牙少年听众",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     42,
+     51,
+     53,
+     65
+    ]
+   },
+   {
+    "name": "现场孩子们",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     55,
+     58
+    ]
+   },
+   {
+    "name": "罗达巴略",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     88
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "巴塞罗那",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "活动举办城市",
+    "via": "llm"
+   },
+   {
+    "name": "Lestonnac 学校",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "活动举办学校",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "巴塞罗那第20届漫画沙龙，宝可梦为20周年选出的主角",
+   "anchor": 6
+  },
+  {
+   "seg": 59,
+   "text": "《宝可梦 X／Y》全球同步发售，有七种语言，约500人参与",
+   "anchor": 60
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-elpais-oras-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "“为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋",
+   "url": "//interview-elpais-oras-masuda-ohmori/",
+   "why": "同为2014年巴塞罗那漫画展二十周年期间对增田、大森的专访"
+  },
+  {
+   "id": "interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+   "why": "提供《X·Y》全球同日发售与七国语言的背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

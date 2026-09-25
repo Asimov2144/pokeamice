@@ -1,0 +1,160 @@
+{
+ "id": "interview-multiplayer-2013-xy",
+ "stem": "2013-09-20-interview-multiplayer-2013-xy",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     29
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哲尔尼亚斯",
+    "ndex": 716,
+    "seg": [
+     9
+    ],
+    "as": [
+     "哲尔尼亚斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊裴尔塔尔",
+    "ndex": 717,
+    "seg": [
+     9
+    ],
+    "as": [
+     "伊裴尔塔尔"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     1,
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "黑／白 2",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑／白",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "X／Y",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦X和Y",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦银行",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦传送器",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     9,
+     12,
+     14,
+     16
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田称X的两条臂膀汇聚于中心，不同观点在共同点相遇",
+   "anchor": 5
+  },
+  {
+   "seg": 24,
+   "text": "约两百人花三年完成，Creatures参与多边形模型与动画",
+   "anchor": 25
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "同为2013年9月增田谈X·Y命名与3D开发"
+  },
+  {
+   "id": "interview-nintendolife-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/",
+   "why": "同期增田吉田谈X·Y命名与团队规模"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,268 @@
+{
+ "id": "interview-famitsu-new-pokemon-snap-ishihara-suzaki",
+ "stem": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 74
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "大嘴鸥",
+    "ndex": 279,
+    "seg": [
+     61
+    ],
+    "as": [
+     "大嘴鸥"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "由克希",
+    "ndex": 480,
+    "seg": [
+     35
+    ],
+    "as": [
+     "由克希"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "艾姆利多",
+    "ndex": 481,
+    "seg": [
+     35
+    ],
+    "as": [
+     "艾姆利多"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "亚克诺姆",
+    "ndex": 482,
+    "seg": [
+     35
+    ],
+    "as": [
+     "亚克诺姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "轻飘飘",
+    "ndex": 592,
+    "seg": [
+     63,
+     65
+    ],
+    "as": [
+     "轻飘飘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "New 宝可梦随乐拍",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可拳 POKKÉN TOURNAMENT",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑・盾",
+    "slug": null,
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁拳",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Fami通编辑部",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     12,
+     14,
+     17,
+     19,
+     21
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     10,
+     13,
+     15,
+     18,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "须崎春树",
+    "slug": "xu-qi-chun-shu",
+    "role": "speaker",
+    "seg": [
+     34,
+     38,
+     40,
+     43,
+     45,
+     47
+    ]
+   },
+   {
+    "name": "岩田先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中村光一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "蓝蒂尔群岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "本作冒险舞台",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     35
+    ],
+    "what": "传说宝可梦所在地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "本作是1999年3月21日发售的NINTENDO 64版《宝可梦随乐拍》的完全新作",
+   "anchor": 2
+  },
+  {
+   "seg": 45,
+   "text": "须崎春树说本作一个关卡可拍摄张数上限定为72张",
+   "anchor": 46
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-inside-pokken-tournament-developers",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡",
+   "url": "/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/",
+   "why": "须崎春树任总监，前作《宝可拳》开发经历"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+   "why": "岩田聪与宝可梦早期开发背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

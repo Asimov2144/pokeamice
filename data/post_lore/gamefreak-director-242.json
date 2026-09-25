@@ -1,0 +1,109 @@
+{
+ "id": "gamefreak-director-242",
+ "stem": "2014-10-31-gamefreak-director-242",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Y",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "颁奖典礼举办地",
+    "via": "llm"
+   },
+   {
+    "name": "日本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "日本游戏大奖获奖地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "Golden Joystick Awards 2014 上，《宝可梦 X》《宝可梦 Y》获掌机游戏大奖"
+  },
+  {
+   "seg": 2,
+   "text": "该奖由玩家投票选出，是世界上历史第二悠久的游戏大奖"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-elpais-oras-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "“为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋",
+   "url": "//interview-elpais-oras-masuda-ohmori/",
+   "why": "同为2014-11-01增田顺一在巴塞罗那的专访报道"
+  },
+  {
+   "id": "interview-topofarmer-ideame-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录",
+   "url": "/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/",
+   "why": "同为2014-11-01增田顺一在巴塞罗那的活动记录"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

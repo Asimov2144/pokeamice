@@ -1,0 +1,51 @@
+{
+ "id": "gamefreak-staff-5",
+ "stem": "2007-08-07-gamefreak-staff-5",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "螺旋破坏者 轰振钻子",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "カニ子入职后从公司的人那里收到这款游戏，所以最近一直在玩。"
+  },
+  {
+   "seg": 7,
+   "text": "每次使出钻头动作，游戏机都会嗡嗡地震动起来。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,285 @@
+{
+ "id": "interview-nintendo-power-bw-masuda-sugimori",
+ "stem": "2011-03-01-interview-nintendo-power-bw-masuda-sugimori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 72
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     27
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "四季鹿",
+    "ndex": 585,
+    "seg": [
+     52,
+     53
+    ],
+    "as": [
+     "四季鹿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "萌芽鹿",
+    "ndex": 586,
+    "seg": [
+     53
+    ],
+    "as": [
+     "萌芽鹿"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金／银",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／绿",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝／红",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻地小子",
+    "slug": null,
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻孔钻机",
+    "slug": null,
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     8,
+     10,
+     14,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     6,
+     9,
+     11,
+     15,
+     19,
+     21
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     16,
+     30,
+     34,
+     35,
+     59,
+     61
+    ]
+   },
+   {
+    "name": "Steve Thomason",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Dr. Lava",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Megmar",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "白森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "白版自然区域",
+    "via": "llm"
+   },
+   {
+    "name": "黑色市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "黑版独占大都市",
+    "via": "llm"
+   },
+   {
+    "name": "曼哈顿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     50
+    ],
+    "what": "黑／白设定原型",
+    "via": "llm"
+   },
+   {
+    "name": "纽约市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     50
+    ],
+    "what": "增田顺一曾到访",
+    "via": "llm"
+   },
+   {
+    "name": "日本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "访谈提及地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田顺一称标题选黑白是为表达两极对立主题",
+   "anchor": 7
+  },
+  {
+   "seg": 9,
+   "text": "增田顺一举例黑版有黑色市、白版有白森林",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendo-power-265-masuda-sugimori-bw-dexit",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power Issue 265 封面专访 增田顺一 × 杉森建：“《宝可梦 黑·白》500只候选方案大筛选、阴阳哲学与未来是否会精简宝可梦”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E6%89%AB%E6%9C%AC%E4%B8%93%E8%AE%BF/interview-nintendo-power-265-masuda-sugimori-bw-dexit/",
+   "why": "同为Nintendo Power第265期增田杉森封面专访"
+  },
+  {
+   "id": "interview-eurogamer-masuda-sugimori-black-white-brains",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/",
+   "why": "同谈黑·白封印旧宝可梦与156只新设计"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

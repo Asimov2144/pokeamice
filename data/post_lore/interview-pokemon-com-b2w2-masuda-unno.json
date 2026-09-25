@@ -1,0 +1,283 @@
+{
+ "id": "interview-pokemon-com-b2w2-masuda-unno",
+ "stem": "2012-10-01-interview-pokemon-com-b2w2-masuda-unno",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑版2",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白版2",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑版",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白版",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红",
+    "slug": null,
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     10,
+     11,
+     12,
+     25,
+     26
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     6,
+     7,
+     8,
+     14
+    ]
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "盖奇斯",
+    "slug": "gai-qi-si",
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "芬兰",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "粉丝推文来源地",
+    "via": "llm"
+   },
+   {
+    "name": "阿根廷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "粉丝推文来源地",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "续作故事舞台",
+    "via": "llm"
+   },
+   {
+    "name": "曼哈顿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     36
+    ],
+    "what": "黑白的主题原型",
+    "via": "llm"
+   },
+   {
+    "name": "纽约市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     36
+    ],
+    "what": "黑白的主题原型",
+    "via": "llm"
+   },
+   {
+    "name": "意大利",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     47
+    ],
+    "what": "粉丝推文来源地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "海野称设定在两年后，有两个大顾虑",
+   "anchor": 7
+  },
+  {
+   "seg": 10,
+   "text": "增田称初代两作发售前三四个月开始讨论续作",
+   "anchor": 11
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+   "why": "同为增田、海野谈打破惯例做编号续篇与两年后设定"
+  },
+  {
+   "id": "interview-gi-2012-b2w2-sequel",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "增田顺一谈首款编号续作",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2012-b2w2-sequel/",
+   "why": "增田谈首款编号续作由来，补充本篇续作决策"
+  },
+  {
+   "id": "scan-ndream-2012-09-b2w2-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "只有《2》才能做到的冒险",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
+   "why": "同刊访谈谈首次编号续作与双版本原因"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

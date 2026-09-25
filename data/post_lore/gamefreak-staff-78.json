@@ -1,0 +1,71 @@
+{
+ "id": "gamefreak-staff-78",
+ "stem": "2008-07-01-gamefreak-staff-78",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     16
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "さとう（佐藤）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "从今天开始接受2009年度应届毕业生招聘第二轮报名"
+  },
+  {
+   "seg": 5,
+   "text": "报名截止日期是9月1日收到的报名材料"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-85",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2008年夏日卡牌大会",
+   "url": "/gamefreak-staff/entry-85/",
+   "why": "同为工作日志，提到白金开发进度"
+  },
+  {
+   "id": "gamefreak-staff-87",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】宝可梦白金版明日发售",
+   "url": "/gamefreak-staff/entry-87/",
+   "why": "同为工作日志，记录白金发售前夜"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

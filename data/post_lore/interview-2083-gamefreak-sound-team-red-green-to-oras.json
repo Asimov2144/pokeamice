@@ -1,0 +1,308 @@
+{
+ "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
+ "stem": "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 107
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     37
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     37
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈雀",
+    "ndex": 21,
+    "seg": [
+     37
+    ],
+    "as": [
+     "烈雀"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     63,
+     64,
+     65,
+     77,
+     79,
+     80
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     1,
+     2,
+     3,
+     9,
+     14,
+     22
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "纸牌跑马",
+    "slug": null,
+    "seg": [
+     84
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Gallop Racer",
+    "slug": null,
+    "seg": [
+     97
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "2083取材班",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     9,
+     11,
+     13,
+     21
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     12,
+     18,
+     20,
+     24
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     5,
+     17,
+     22,
+     28,
+     31,
+     33
+    ]
+   },
+   {
+    "name": "足立美奈子",
+    "slug": "adachi-minako",
+    "role": "speaker",
+    "seg": [
+     10,
+     32,
+     55,
+     61,
+     66,
+     72
+    ]
+   },
+   {
+    "name": "佐藤仁美",
+    "slug": "sato-hitomi",
+    "role": "speaker",
+    "seg": [
+     14,
+     16,
+     19,
+     36,
+     38,
+     41
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "齐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     87
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "紫苑镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     41
+    ],
+    "what": "设有墓地的城镇",
+    "via": "llm"
+   },
+   {
+    "name": "东京竞马场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     95
+    ],
+    "what": "闭园曲被引用",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     77
+    ],
+    "what": "游戏中的地区",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     77
+    ],
+    "what": "增田父母老家",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田顺一称自己负责整体程序、音乐播放程序及全部音乐、叫声和音效",
+   "anchor": 5
+  },
+  {
+   "seg": 7,
+   "text": "增田称自己编写程序扭曲PSG波形来表现宝可梦叫声",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cd-anime-ost-miyazaki-soundteam",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂",
+   "url": "/developer-interviews/music-archives/interview-cd-anime-ost-miyazaki-soundteam/",
+   "why": "同为增田、一之濑、佐藤谈红绿音源限制的座谈"
+  },
+  {
+   "id": "scan-ndream-2012-10-pokemon-music-interview",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦音乐以进化为目标",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-10-pokemon-music-interview/",
+   "why": "同为一之濑、佐藤、增田的系列音乐访谈"
+  },
+  {
+   "id": "interview-pokemoncom-2014-maestro",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "增田顺一谈宝可梦音乐创作",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2014-maestro/",
+   "why": "增田谈红绿三声道限制与创作历程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

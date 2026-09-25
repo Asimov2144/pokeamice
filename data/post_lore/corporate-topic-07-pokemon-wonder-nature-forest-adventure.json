@@ -1,0 +1,161 @@
+{
+ "id": "corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+ "stem": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "绿毛虫",
+    "ndex": 10,
+    "seg": [
+     12
+    ],
+    "as": [
+     "绿毛虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "派拉斯",
+    "ndex": 46,
+    "seg": [
+     12
+    ],
+    "as": [
+     "派拉斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon WONDER",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     8,
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "津田明子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10,
+     14
+    ]
+   },
+   {
+    "name": "本山敬一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   },
+   {
+    "name": "松丸亮吾",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     1,
+     2
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "伊奈木之森",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "探险核心舞台",
+    "via": "llm"
+   },
+   {
+    "name": "读卖乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "森林所在地",
+    "via": "llm"
+   },
+   {
+    "name": "东京近郊",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "原始自然风貌",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "伊奈木之森位于读卖乐园深处，近二十年未对外开放",
+   "anchor": 4
+  },
+  {
+   "seg": 11,
+   "text": "全体创作者提出的设计方案超过100套，并在森林现场实地盲测",
+   "anchor": 12
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

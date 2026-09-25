@@ -1,0 +1,150 @@
+{
+ "id": "gamefreak-director-219",
+ "stem": "2012-01-23-gamefreak-director-219",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东北",
+    "id": null,
+    "entity": "pokemon_center_tohoku",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "大阪",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "推文中提到的地点",
+    "via": "llm"
+   },
+   {
+    "name": "福冈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "推文中提到的地点",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "推文中提到的地点",
+    "via": "llm"
+   },
+   {
+    "name": "北美",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "举办过签名会",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "举办过签名会",
+    "via": "llm"
+   },
+   {
+    "name": "韩国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "举办过签名会",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "一位朋友发推文问增田顺一是不是不办签名会"
+  },
+  {
+   "seg": 5,
+   "text": "最后决定在全国的宝可梦中心举办签名会"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-220",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第220回",
+   "url": "/gamefreak-director/entry-220/",
+   "why": "同为宝可梦中心签名会，第220回讲举办方式调整"
+  },
+  {
+   "id": "gamefreak-director-224",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第224回",
+   "url": "/gamefreak-director/entry-224/",
+   "why": "同为签名会，第224回回顾全国七家中心之旅"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

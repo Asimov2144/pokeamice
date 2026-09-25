@@ -1,0 +1,119 @@
+{
+ "id": "gamefreak-director-142",
+ "stem": "2009-03-13-gamefreak-director-142",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "中川翔子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "金门大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "想去看的桥",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "任天堂所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "3月15日早上7点30分在东京电视台节目中登场"
+  },
+  {
+   "seg": 7,
+   "text": "因14日起采访宝可梦 白金，临时决定去旧金山任天堂"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-136",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第136回",
+   "url": "/gamefreak-director/entry-136/",
+   "why": "同为增田上宝可梦电视节目预告"
+  },
+  {
+   "id": "gamefreak-director-143",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第143回",
+   "url": "/gamefreak-director/entry-143/",
+   "why": "旧金山采访结束，回应此行"
+  },
+  {
+   "id": "gamefreak-director-145",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第145回",
+   "url": "/gamefreak-director/entry-145/",
+   "why": "北美版白金发售，回应采访行程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,68 @@
+{
+ "id": "gamefreak-lineblog-3914082",
+ "stem": "2016-06-04-gamefreak-lineblog-3914082",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 54
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     10
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "札幌宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     31
+    ],
+    "what": "签名会举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "札幌的签名会来了整整330位"
+  },
+  {
+   "seg": 39,
+   "text": "拍完照后大家一起为增田顺一鼓掌"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,78 @@
+{
+ "id": "gamefreak-lineblog-7881457",
+ "stem": "2016-10-06-gamefreak-lineblog-7881457",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "海底总动员2",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "蒙特雷湾水族馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     56
+    ],
+    "what": "水族馆兼研究所",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     71
+    ],
+    "what": "顺路可去之处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一摸了企鹅Rey"
+  },
+  {
+   "seg": 14,
+   "text": "沙丁鱼有两万条，还和其他鱼一起生活"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

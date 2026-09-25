@@ -1,0 +1,222 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch195",
+ "stem": "2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喵喵",
+    "ndex": 52,
+    "seg": [
+     23
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     1,
+     43,
+     44,
+     47
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     1,
+     43,
+     44,
+     47
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "时间飞船",
+    "slug": null,
+    "seg": [
+     7,
+     33
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "小双侠",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "飞天小女警/猿飞",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "火箭队直到永远",
+    "slug": null,
+    "seg": [
+     40,
+     41,
+     43
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "林原惠",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35
+    ]
+   },
+   {
+    "name": "三木真一郎",
+    "slug": "miki-shinichiro",
+    "role": "mentioned",
+    "seg": [
+     35
+    ]
+   },
+   {
+    "name": "犬山犬子",
+    "slug": "inuyama-inuko",
+    "role": "mentioned",
+    "seg": [
+     35
+    ]
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     43,
+     44,
+     47
+    ]
+   },
+   {
+    "name": "坂木",
+    "slug": "ban-mu",
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "首藤刚志说《洛奇亚爆诞》真正想做的是刻画各人物处境与视线，让万物共存浮现。",
+   "anchor": 2
+  },
+  {
+   "seg": 4,
+   "text": "首藤刚志就任系列构成总编剧前，早期企划会议已敲定创造贯穿全剧的常驻反派。",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch197",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第197回：《洛奇亚爆诞》在自我主张中实现共存（从庄周梦蝶与全共斗幻灭谈起、反套路恶役与火箭队对剧本的强行主宰）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch197/",
+   "why": "同系列第197回，同谈《洛奇亚爆诞》共存主题"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch205/",
+   "why": "同系列第205回，同谈火箭队松开洛奇亚脚爪"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch193",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第193回：对《洛奇亚爆诞》的厚望与自我信服（商业狂热背后的生理排异、早期CG海流试验、神秘GS球伏线与拯救全片的火箭队）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch193/",
+   "why": "同系列第193回，同谈《洛奇亚爆诞》与火箭队"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+   "why": "同系列第194回，同谈《洛奇亚爆诞》复眼视角"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

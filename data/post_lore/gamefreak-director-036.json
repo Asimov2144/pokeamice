@@ -1,0 +1,109 @@
+{
+ "id": "gamefreak-director-036",
+ "stem": "2005-04-28-gamefreak-director-036",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "さとう",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おおもり",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "sato",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ohmori",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK 公司内部的大会议室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "活动于2005年4月23日星期六举办"
+  },
+  {
+   "seg": 1,
+   "text": "活动地点在GAME FREAK公司内部大会议室"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-033",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第33回",
+   "url": "/gamefreak-director/entry-033/",
+   "why": "第33回介绍同一九周年特别企划及报名"
+  },
+  {
+   "id": "gamefreak-director-034",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第34回",
+   "url": "/gamefreak-director/entry-034/",
+   "why": "第34回公布同一“看我嘛”活动报名截止与安排"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

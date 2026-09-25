@@ -1,0 +1,683 @@
+{
+ "id": "scan-gs-guidebook-1999-staff-zukan-journal",
+ "stem": "1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 115
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     114
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     114
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "独角虫",
+    "ndex": 13,
+    "seg": [
+     114
+    ],
+    "as": [
+     "独角虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿柏怪",
+    "ndex": 24,
+    "seg": [
+     100
+    ],
+    "as": [
+     "阿柏怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     114
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多兰",
+    "ndex": 29,
+    "seg": [
+     46,
+     47,
+     57,
+     70
+    ],
+    "as": [
+     "尼多兰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多娜",
+    "ndex": 30,
+    "seg": [
+     89
+    ],
+    "as": [
+     "尼多娜"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多朗",
+    "ndex": 32,
+    "seg": [
+     46,
+     47,
+     70
+    ],
+    "as": [
+     "尼多朗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多力诺",
+    "ndex": 33,
+    "seg": [
+     89
+    ],
+    "as": [
+     "尼多力诺"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "走路草",
+    "ndex": 43,
+    "seg": [
+     114
+    ],
+    "as": [
+     "走路草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     4
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蝌蚪",
+    "ndex": 60,
+    "seg": [
+     83,
+     114
+    ],
+    "as": [
+     "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     87
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小磁怪",
+    "ndex": 81,
+    "seg": [
+     94,
+     95
+    ],
+    "as": [
+     "小磁怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大舌贝",
+    "ndex": 90,
+    "seg": [
+     114
+    ],
+    "as": [
+     "大舌贝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大岩蛇",
+    "ndex": 95,
+    "seg": [
+     114
+    ],
+    "as": [
+     "大岩蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "霹雳电球",
+    "ndex": 100,
+    "seg": [
+     95,
+     114
+    ],
+    "as": [
+     "霹雳电球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "椰蛋树",
+    "ndex": 103,
+    "seg": [
+     85
+    ],
+    "as": [
+     "椰蛋树"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吉利蛋",
+    "ndex": 113,
+    "seg": [
+     56
+    ],
+    "as": [
+     "吉利蛋"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "海星星",
+    "ndex": 120,
+    "seg": [
+     114
+    ],
+    "as": [
+     "海星星"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凯罗斯",
+    "ndex": 127,
+    "seg": [
+     87
+    ],
+    "as": [
+     "凯罗斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "肯泰罗",
+    "ndex": 128,
+    "seg": [
+     47,
+     87
+    ],
+    "as": [
+     "肯泰罗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     53,
+     114
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     49
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉普拉斯",
+    "ndex": 131,
+    "seg": [
+     114
+    ],
+    "as": [
+     "拉普拉斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     84,
+     94,
+     95,
+     96
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "闪电鸟",
+    "ndex": 145,
+    "seg": [
+     38
+    ],
+    "as": [
+     "闪电鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克比",
+    "ndex": 175,
+    "seg": [
+     57
+    ],
+    "as": [
+     "波克比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     49
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     1,
+     2
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太田健程",
+    "slug": "ota-takenori",
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "藤原 基文",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松岛 贤二",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "渡边 哲也",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "玉田 宗介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太田 哲司",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一之濑 刚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "关根 一仁",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太田 聪",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "青木 守一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吉田 宏信",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "奥谷 淳",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松宫 敏信",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "濑谷 伸宏",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "空木博士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     34
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   },
+   {
+    "name": "若叶镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     53
+    ],
+    "what": "空木博士所在",
+    "via": "llm"
+   },
+   {
+    "name": "愤怒之湖",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     49
+    ],
+    "what": "发现异色暴鲤龙",
+    "via": "llm"
+   },
+   {
+    "name": "满金市B1F",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "关根一仁的分布",
+    "via": "llm"
+   },
+   {
+    "name": "犬吠埼",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "一之濑刚的分布",
+    "via": "llm"
+   },
+   {
+    "name": "东京Joypolis",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "一之濑刚的分布",
+    "via": "llm"
+   },
+   {
+    "name": "新宿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "森本茂树的分布",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "森本茂树的分布",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田顺一的身高体重为1.72／62Kg，A型。"
+  },
+  {
+   "seg": 26,
+   "text": "一之濑刚身高57m、体重550t，属性为娱乐型。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-gs-guidebook-1999-developer-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "金·银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-developer-interview/",
+   "why": "同为1999年小学馆金·银官方攻略本卷末特集"
+  },
+  {
+   "id": "interview-nintendopower-gold-silver-roundtable",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+   "url": "/developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/",
+   "why": "同列增田、杉森、森本、一之濑等金·银开发成员"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,78 @@
+{
+ "id": "gamefreak-staff-128",
+ "stem": "2009-05-29-gamefreak-staff-128",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 98
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Made in Ore",
+    "slug": null,
+    "seg": [
+     20,
+     33,
+     40,
+     42
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Made in Wario",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "ギン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREEK",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "ギン所在的公司",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 20,
+   "text": "最近让ギン沉迷的游戏是《Made in Ore》"
+  },
+  {
+   "seg": 23,
+   "text": "ギン用一句话说明《Made in Ore》是「做游戏的游戏」"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

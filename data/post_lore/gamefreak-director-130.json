@@ -1,0 +1,124 @@
+{
+ "id": "gamefreak-director-130",
+ "stem": "2008-07-16-gamefreak-director-130",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Wii Music",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "E3",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "明天要去的展会",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "完成工作的地方",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "当前所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一在纽约忙完工作后，来到洛杉矶"
+  },
+  {
+   "seg": 10,
+   "text": "7月20日星期日《宝可梦☆星期天》节目中增田顺一会出场"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-076",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第76回",
+   "url": "/gamefreak-director/entry-076/",
+   "why": "同为增田专栏，预告再上《宝可梦☆星期天》"
+  },
+  {
+   "id": "gamefreak-director-110",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第110回",
+   "url": "/gamefreak-director/entry-110/",
+   "why": "同为增田专栏，均涉《宝可梦☆星期天》出演"
+  },
+  {
+   "id": "gamefreak-director-084",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第84回",
+   "url": "/gamefreak-director/entry-084/",
+   "why": "同记增田纽约之行，可作前次背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

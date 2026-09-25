@@ -1,0 +1,105 @@
+{
+ "id": "gamefreak-director-152",
+ "stem": "2009-11-16-gamefreak-director-152",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     17
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "via": "gazetteer"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田顺一在宝可梦中心东京看到CD整齐摆放，感到有点感动。"
+  },
+  {
+   "seg": 11,
+   "text": "制作金银时用一台叫Amiga的电脑作曲。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同为心金魂银开发访谈，含金银开发回忆"
+  },
+  {
+   "id": "gamefreak-staff-151",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2009年HG・SS音乐编曲随笔",
+   "url": "/gamefreak-staff/entry-151/",
+   "why": "同为HGSS音乐编曲话题，涉原曲改编"
+  },
+  {
+   "id": "gamefreak-staff-126",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2009年宝可梦新作开发现场",
+   "url": "/gamefreak-staff/entry-126/",
+   "why": "同为心金魂银开发进展报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

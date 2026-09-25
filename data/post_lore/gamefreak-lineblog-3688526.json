@@ -1,0 +1,77 @@
+{
+ "id": "gamefreak-lineblog-3688526",
+ "stem": "2016-05-25-gamefreak-lineblog-3688526",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦GO",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Ingress",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "正文写「尚未游玩……使用前」，配图展示使用前状态"
+  },
+  {
+   "seg": 19,
+   "text": "正文写「宝可梦GO正在游玩！！！ 使用后」"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-4594908",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年宝可梦GO测试结束",
+   "url": "/gamefreak-director/lineblog-4594908/",
+   "why": "同为宝可梦GO现场测试，前篇记录开始，此篇记录结束"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

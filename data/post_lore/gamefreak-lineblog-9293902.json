@@ -1,0 +1,70 @@
+{
+ "id": "gamefreak-lineblog-9293902",
+ "stem": "2017-08-15-gamefreak-lineblog-9293902",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ピカチュウ",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "ピカチュウ",
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "バリヤード",
+    "ndex": 122,
+    "seg": [
+     0
+    ],
+    "as": [
+     "バリヤード",
+     "魔墙人偶"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "アンノーン",
+    "ndex": 201,
+    "seg": [
+     0
+    ],
+    "as": [
+     "アンノーン",
+     "未知图腾"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

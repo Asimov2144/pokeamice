@@ -1,0 +1,373 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+ "stem": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 141
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     43
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     71
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "少年肯尼亚",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "侏罗纪公园",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     106,
+     117
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "拉曼查骑士",
+    "slug": null,
+    "seg": [
+     115
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "追梦奇缘",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "甜甜仙子",
+    "slug": null,
+    "seg": [
+     106
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "来自费纳里纳萨的男人",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "美女与野兽",
+    "slug": null,
+    "seg": [
+     110
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "野性之火",
+    "slug": null,
+    "seg": [
+     84
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "镜之国的公主：音乐剧 甜甜仙子",
+    "slug": null,
+    "seg": [
+     132
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     90,
+     130
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     31,
+     43
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     43
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     18,
+     33,
+     35
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "坂木",
+    "slug": "ban-mu",
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "山川惣治",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "达尔文",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西顿",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     84
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞万提斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     115
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "堂吉诃德",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     115
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     98
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   },
+   {
+    "name": "真新镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     31
+    ],
+    "what": "小智的故乡",
+    "via": "llm"
+   },
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     62
+    ],
+    "what": "首藤离开的病房所在地",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     83
+    ],
+    "what": "忠犬八公守候处",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     135
+    ],
+    "what": "初代仙子转世之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "约十年前构思大纲时，现实发掘出史上最巨型霸王龙骨架",
+   "anchor": 8
+  },
+  {
+   "seg": 8,
+   "text": "化石被冠名‘苏’，拍卖价折合日元十亿",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "同为手记第208至211回，续写幻之第三弹"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
+   "why": "第211回交代暴龙化石企划被枪毙原因"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-72",
+ "stem": "2008-05-30-gamefreak-staff-72",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "在住宿处附近的工坊体验玻璃吹制"
+  },
+  {
+   "seg": 11,
+   "text": "因玻璃非常烫，用护臂保护手臂"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

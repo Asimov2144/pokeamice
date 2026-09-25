@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-169",
+ "stem": "2010-02-12-gamefreak-staff-169",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 94
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "ほず",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 28,
+   "text": "ほず说2年前情绪低落时突然决定去国外旅行一周。"
+  },
+  {
+   "seg": 30,
+   "text": "朋友担心地问ほず「你该不会是疯了吧」。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

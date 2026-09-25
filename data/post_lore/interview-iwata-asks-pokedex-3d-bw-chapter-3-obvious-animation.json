@@ -1,0 +1,155 @@
+{
+ "id": "interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+ "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     32
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦立体图鉴BW",
+    "slug": "pokedex-3d",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     41
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     6,
+     8,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "小笠原裕",
+    "slug": "ogasawara-yutaka",
+    "role": "speaker",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "折本哲也",
+    "slug": "orimoto-tetsuya",
+    "role": "speaker",
+    "seg": [
+     13,
+     21,
+     23,
+     25,
+     48
+    ]
+   },
+   {
+    "name": "竹内敦",
+    "slug": "takeuchi-atsushi",
+    "role": "speaker",
+    "seg": [
+     38,
+     40,
+     42,
+     45
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 13,
+   "text": "折本哲也说AR标记为4×4共16格，用黑白两色填涂组合编码",
+   "anchor": 14
+  },
+  {
+   "seg": 47,
+   "text": "石原恒和说收集贴纸印章后AR同屏上限可增至12只",
+   "anchor": 48
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/",
+   "why": "同为《立体图鉴BW》社长问，第2章接第3章"
+  },
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/",
+   "why": "同为《立体图鉴BW》社长问，第1章在前"
+  },
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all/",
+   "why": "同为《立体图鉴BW》社长问，第4章为完结篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

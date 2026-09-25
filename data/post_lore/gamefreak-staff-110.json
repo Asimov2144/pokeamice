@@ -1,0 +1,53 @@
+{
+ "id": "gamefreak-staff-110",
+ "stem": "2009-01-30-gamefreak-staff-110",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 94
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     31
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "KAGE",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     48
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "KAGE从4岁左右开始学习钢琴。"
+  },
+  {
+   "seg": 31,
+   "text": "KAGE当时常把《勇者斗恶龙》等游戏音乐凭耳朵听写出来。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

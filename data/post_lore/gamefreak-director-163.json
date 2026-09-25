@@ -1,0 +1,98 @@
+{
+ "id": "gamefreak-director-163",
+ "stem": "2010-06-28-gamefreak-director-163",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 34
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Oha Star",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "《宝可梦黑·白》发售日为2010年9月18日周六"
+  },
+  {
+   "seg": 2,
+   "text": "发售日在27日《宝可梦☆星期天》和28日《Oha Star》公布"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-161",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第161回",
+   "url": "/gamefreak-director/entry-161/",
+   "why": "第161回已公布2010年9月发售"
+  },
+  {
+   "id": "gamefreak-director-162",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第162回",
+   "url": "/gamefreak-director/entry-162/",
+   "why": "第162回记莱希拉姆捷克罗姆公开活动"
+  },
+  {
+   "id": "gamefreak-director-167",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第167回",
+   "url": "/gamefreak-director/entry-167/",
+   "why": "同为增田专栏，谈黑白全面变化"
+  },
+  {
+   "id": "gamefreak-director-169",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第169回",
+   "url": "/gamefreak-director/entry-169/",
+   "why": "第169回记黑白开始接受预约"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

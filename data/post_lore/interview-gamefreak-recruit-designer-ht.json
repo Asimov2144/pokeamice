@@ -1,0 +1,97 @@
+{
+ "id": "interview-gamefreak-recruit-designer-ht",
+ "stem": "2021-12-27-interview-gamefreak-recruit-designer-ht",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "小镇英雄",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "H.T.",
+    "slug": "h-t",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "E3",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "游戏展会",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "H.T.应届毕业后进入一家主机游戏开发公司担任背景设计师",
+   "anchor": 4
+  },
+  {
+   "seg": 3,
+   "text": "H.T.因方案被采纳后交到策划手中而考虑跳槽",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-crosstalk-designer",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+   "why": "同一H.T.，对谈补充其背景美术经历与设计理念"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

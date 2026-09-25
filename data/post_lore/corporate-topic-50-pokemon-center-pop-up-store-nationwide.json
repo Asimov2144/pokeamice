@@ -1,0 +1,214 @@
+{
+ "id": "corporate-topic-50-pokemon-center-pop-up-store-nationwide",
+ "stem": "2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 24
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     14,
+     15
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鬼斯通",
+    "ndex": 93,
+    "seg": [
+     7
+    ],
+    "as": [
+     "鬼斯通"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "谜拟丘",
+    "ndex": 778,
+    "seg": [
+     7
+    ],
+    "as": [
+     "谜拟丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケモンセンター出張所（Pokemon Center Pop-up Store）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンセンタートウホク",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [
+     11,
+     12
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社ポケモンセンター（宝可梦中心运营管理）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "茨城县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "出张所举办地",
+    "via": "llm"
+   },
+   {
+    "name": "永旺梦乐城水户内原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "出张所合作商场",
+    "via": "llm"
+   },
+   {
+    "name": "青森",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "东北巡回县",
+    "via": "llm"
+   },
+   {
+    "name": "秋田",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "东北巡回县",
+    "via": "llm"
+   },
+   {
+    "name": "山形",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "东北巡回县",
+    "via": "llm"
+   },
+   {
+    "name": "仙台",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "东北巡回起点",
+    "via": "llm"
+   },
+   {
+    "name": "岩手",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "东北巡回县",
+    "via": "llm"
+   },
+   {
+    "name": "宫城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "东北巡回县",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "宝可梦中心运营22家常设直营门店，含Pokémon Center与Pokémon Store",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "2025年9至10月在茨城县永旺梦乐城水户内原出张，融入万圣节装潢",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

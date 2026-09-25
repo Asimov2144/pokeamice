@@ -1,0 +1,80 @@
+{
+ "id": "interview-gamefreak-recruit-programmer-ht",
+ "stem": "2021-12-27-interview-gamefreak-recruit-programmer-ht",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "开发环境全云端架构",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "H.T.",
+    "slug": "h-t",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "H.T. 从专科学校毕业后进入手机游戏初创公司。",
+   "anchor": 4
+  },
+  {
+   "seg": 12,
+   "text": "H.T. 每周有 3 天远程办公，也能兼顾育儿。",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

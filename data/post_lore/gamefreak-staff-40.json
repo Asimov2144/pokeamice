@@ -1,0 +1,66 @@
+{
+ "id": "gamefreak-staff-40",
+ "stem": "2007-10-26-gamefreak-staff-40",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 70
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "鹤田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ]
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK办公室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "搬迁前的办公室",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "距离搬家不到一个月，公司内部忙忙碌碌"
+  },
+  {
+   "seg": 9,
+   "text": "周五最后离开的员工放下门帘并设置防盗设备"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

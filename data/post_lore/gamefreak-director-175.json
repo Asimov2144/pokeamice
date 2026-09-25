@@ -1,0 +1,116 @@
+{
+ "id": "gamefreak-director-175",
+ "stem": "2010-09-10-gamefreak-director-175",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     2,
+     3,
+     18,
+     19
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦ぴあ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "指原莉乃",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "北原里英",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《宝可梦ぴあ》于当天正式发售"
+  },
+  {
+   "seg": 9,
+   "text": "9月12日周日的《宝可梦☆星期天》有特别节目"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-174",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第174回",
+   "url": "/gamefreak-director/entry-174/",
+   "why": "同为増田部長专栏，第174回在前一篇"
+  },
+  {
+   "id": "gamefreak-director-163",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第163回",
+   "url": "/gamefreak-director/entry-163/",
+   "why": "同为増田部長专栏，第163回更早"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为2010-09-10黑白发售前访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

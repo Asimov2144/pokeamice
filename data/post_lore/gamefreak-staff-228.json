@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-staff-228",
+ "stem": "2011-04-22-gamefreak-staff-228",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 159
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "妮洛莉卡",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "和本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ]
+   },
+   {
+    "name": "まるしお",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24,
+     25,
+     32,
+     100,
+     101,
+     110
+    ]
+   },
+   {
+    "name": "いっちー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33,
+     35,
+     42,
+     111,
+     113,
+     120
+    ]
+   },
+   {
+    "name": "正幸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ]
+   },
+   {
+    "name": "希特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     54
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "わも自称入职第二年，是平面设计师"
+  },
+  {
+   "seg": 36,
+   "text": "いっちー说从4月1日起进入第二年"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

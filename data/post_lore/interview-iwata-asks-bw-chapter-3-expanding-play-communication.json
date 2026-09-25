@@ -1,0 +1,158 @@
+{
+ "id": "interview-iwata-asks-bw-chapter-3-expanding-play-communication",
+ "stem": "2010-09-10-interview-iwata-asks-bw-chapter-3-expanding-play-communication",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 53
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "食梦梦",
+    "ndex": 517,
+    "seg": [
+     16
+    ],
+    "as": [
+     "食梦梦"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     1,
+     19,
+     20,
+     21
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦全球连接",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "生活节奏DS",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Game Boy Color",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     0,
+     2,
+     4,
+     6,
+     9,
+     11
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     1,
+     5,
+     7,
+     10,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     3,
+     49
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "增田说直到想到「梦境世界」这个设定，花了相当长的时间",
+   "anchor": 8
+  },
+  {
+   "seg": 23,
+   "text": "增田说从构思到实现大概花了两年时间",
+   "anchor": 24
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为社长问《黑·白》系列，第1章"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
+   "why": "同为社长问《黑·白》系列，第2章"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence/",
+   "why": "同为社长问《黑·白》系列，第4章"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/",
+   "why": "同为社长问《黑·白》系列，第5章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

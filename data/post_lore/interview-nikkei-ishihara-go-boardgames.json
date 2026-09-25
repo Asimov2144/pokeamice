@@ -2,7 +2,7 @@
  "id": "interview-nikkei-ishihara-go-boardgames",
  "stem": "2020-12-21-interview-nikkei-ishihara-go-boardgames",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -60,23 +60,12 @@
   ],
   "places": [
    {
-    "name": "三重县鸟羽市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     1
-    ],
-    "what": "石原恒和出生地",
-    "via": "llm"
-   },
-   {
     "name": "筑波大学",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      1
     ],
@@ -89,10 +78,24 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      3
     ],
     "what": "父亲出海垂钓处",
+    "via": "llm"
+   },
+   {
+    "name": "三重县鸟羽市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "石原恒和出生地",
     "via": "llm"
    },
    {
@@ -101,6 +104,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "area",
     "seg": [
      3
     ],
@@ -125,7 +129,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

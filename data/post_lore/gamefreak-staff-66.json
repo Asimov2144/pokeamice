@@ -1,0 +1,146 @@
+{
+ "id": "gamefreak-staff-66",
+ "stem": "2008-04-11-gamefreak-staff-66",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     33
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ピッピ",
+    "ndex": 35,
+    "seg": [
+     24,
+     25,
+     34,
+     35,
+     36,
+     46,
+     4
+    ],
+    "as": [
+     "ピッピ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克比",
+    "ndex": 175,
+    "seg": [
+     3,
+     33
+    ],
+    "as": [
+     "波克比",
+     "トゲピー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "向尾喵",
+    "ndex": 300,
+    "seg": [
+     3,
+     33
+    ],
+    "as": [
+     "向尾喵",
+     "エネコ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卷卷耳",
+    "ndex": 427,
+    "seg": [
+     3,
+     33
+    ],
+    "as": [
+     "卷卷耳",
+     "ミミロル"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "大家的宝可梦牧场",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "卡比",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "森本的劲敌兼策划卡比自我介绍"
+  },
+  {
+   "seg": 14,
+   "text": "WiiWare 开始下载销售"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-56",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2008年公司宝可梦对战大会",
+   "url": "/gamefreak-staff/entry-56/",
+   "why": "森本与劲敌卡比的对战，是皮皮牧场作者同一人的前篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

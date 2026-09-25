@@ -1,0 +1,251 @@
+{
+ "id": "interview-denfami-ohmori-onoue-gamefreak-heritage",
+ "stem": "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 318
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     209
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬少",
+    "ndex": 734,
+    "seg": [
+     74
+    ],
+    "as": [
+     "猫鼬少"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "弱丁鱼",
+    "ndex": 746,
+    "seg": [
+     99
+    ],
+    "as": [
+     "弱丁鱼"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦GO",
+    "slug": null,
+    "seg": [
+     63
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "我的世界",
+    "slug": null,
+    "seg": [
+     101
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "奇怪电话",
+    "slug": null,
+    "seg": [
+     104
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "GIGA WRECKER",
+    "slug": null,
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑2／白2",
+    "slug": null,
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达传说 旷野之息",
+    "slug": null,
+    "seg": [
+     175
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "烤肉奉行",
+    "slug": null,
+    "seg": [
+     205
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "电玩志",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     21,
+     24,
+     37,
+     41,
+     47,
+     51
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     25,
+     32,
+     42,
+     52,
+     54,
+     58
+    ]
+   },
+   {
+    "name": "尾上将之",
+    "slug": "wei-shang-jiang-zhi",
+    "role": "speaker",
+    "seg": [
+     38,
+     43,
+     48,
+     77,
+     104,
+     123
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     123
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     161
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "mentioned",
+    "seg": [
+     208
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     189
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "薗部博之",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     126
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 21,
+   "text": "电玩志首先询问两位总监的年龄",
+   "anchor": 22
+  },
+  {
+   "seg": 24,
+   "text": "电玩志问大森是否应届毕业生入职",
+   "anchor": 25
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

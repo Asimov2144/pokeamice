@@ -1,0 +1,238 @@
+{
+ "id": "interview-vg247-2019-swsh",
+ "stem": "2019-10-24-interview-vg247-2019-swsh",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     38
+    ],
+    "as": [
+     "大葱鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "葱游兵",
+    "ndex": 865,
+    "seg": [
+     38
+    ],
+    "as": [
+     "葱游兵"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     2,
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokemon Go",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokemon Let's Go",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokemon Home",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太阳／月亮",
+    "slug": null,
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "VG247",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     8,
+     10,
+     13,
+     16,
+     19
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     6,
+     7,
+     9,
+     11,
+     17,
+     18
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     14,
+     15,
+     20,
+     22,
+     23,
+     28
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "彼得兔博物馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "提供灵感的地点",
+    "via": "llm"
+   },
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "伽勒尔地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "湖区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "开发者参观地",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "本作游戏地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "大森滋称本作主题是打造最强宝可梦，画面为历代最强",
+   "anchor": 7
+  },
+  {
+   "seg": 9,
+   "text": "大森滋说个人喜欢英国摇滚乐和英国电视节目",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+   "why": "同为2019-10-24伦敦剑盾主创专访"
+  },
+  {
+   "id": "interview-gi-2019-champion",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "大森滋与增田顺一谈《剑／盾》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
+   "why": "同日Game Informer剑盾主创访谈"
+  },
+  {
+   "id": "interview-polygon-2019-swsh",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦剑盾开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/",
+   "why": "同日Polygon剑盾主创访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

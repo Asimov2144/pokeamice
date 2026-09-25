@@ -1,0 +1,98 @@
+{
+ "id": "gamefreak-director-201",
+ "stem": "2011-08-08-gamefreak-director-201",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 149
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "UT岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "往返船的终点",
+    "via": "llm"
+   },
+   {
+    "name": "配发岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     40
+    ],
+    "what": "配发船的终点",
+    "via": "llm"
+   },
+   {
+    "name": "飞云市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "栈桥所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "C3船舶码头的栈桥呈手掌形，手掌是C3的设计意象"
+  },
+  {
+   "seg": 29,
+   "text": "等离子队秘密船在质数日出航，质数日以外停泊"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendodream-bw-bridges-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻",
+   "url": "/developer-interviews/official-archives/interview-nintendodream-bw-bridges-masuda/",
+   "why": "同谈合众桥梁设定，飞云码头栈桥设计背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

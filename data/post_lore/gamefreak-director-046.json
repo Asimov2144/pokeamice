@@ -1,0 +1,124 @@
+{
+ "id": "gamefreak-director-046",
+ "stem": "2005-07-27-gamefreak-director-046",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 55
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     10,
+     40
+    ],
+    "as": [
+     "洛奇亚",
+     "Lugia"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     2,
+     9,
+     13,
+     21,
+     37,
+     45
+    ],
+    "as": [
+     "路卡利欧",
+     "Lucario"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     1
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "增田顺一说电影开场描写战争，还提出宝可梦防具设定。"
+  },
+  {
+   "seg": 16,
+   "text": "增田顺一称电影开头的梦幻系谱图以GAME FREAK的绝密资料为基础。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-047",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第47回",
+   "url": "/gamefreak-director/entry-047/",
+   "why": "同为増田部長のめざめるパワー系列，第47回紧接第46回"
+  },
+  {
+   "id": "gamefreak-director-055",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第55回",
+   "url": "/gamefreak-director/entry-055/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  },
+  {
+   "id": "gamefreak-director-022",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第22回",
+   "url": "/gamefreak-director/entry-022/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  },
+  {
+   "id": "gamefreak-director-023",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第23回",
+   "url": "/gamefreak-director/entry-023/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,154 @@
+{
+ "id": "interview-nom-2003-pokemon-colosseum-staff",
+ "stem": "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     1,
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     15,
+     20,
+     23,
+     27
+    ]
+   },
+   {
+    "name": "山名学",
+    "slug": "shan-ming-xue",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     9,
+     11,
+     13,
+     18
+    ]
+   },
+   {
+    "name": "折尾",
+    "slug": "orio-kazunori",
+    "role": "speaker",
+    "seg": [
+     5,
+     12,
+     30,
+     33
+    ]
+   },
+   {
+    "name": "三浦昌幸",
+    "slug": "miura-masayuki",
+    "role": "speaker",
+    "seg": [
+     8,
+     10,
+     25,
+     31,
+     34
+    ]
+   },
+   {
+    "name": "多和田吏",
+    "slug": "tawada-tsukasa",
+    "role": "speaker",
+    "seg": [
+     14,
+     16
+    ]
+   },
+   {
+    "name": "广本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "和田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "菲尼克斯",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "音乐世界原型",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "公司名由“Sonority”前加“天才”定名",
+   "anchor": 5
+  },
+  {
+   "seg": 14,
+   "text": "多和田说世界原型是亚利桑那州菲尼克斯",
+   "anchor": 15
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

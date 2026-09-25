@@ -1,0 +1,381 @@
+{
+ "id": "interview-gi-2019-burning",
+ "stem": "2019-10-24-interview-gi-2019-burning",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     69
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     69,
+     70
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     69,
+     71
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     14,
+     24,
+     26,
+     45,
+     56,
+     60
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "走路草",
+    "ndex": 43,
+    "seg": [
+     68
+    ],
+    "as": [
+     "走路草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     52,
+     53,
+     54,
+     56
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰马",
+    "ndex": 78,
+    "seg": [
+     52,
+     53,
+     54
+    ],
+    "as": [
+     "烈焰马"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿罗拉椰蛋树",
+    "ndex": 103,
+    "seg": [
+     66
+    ],
+    "as": [
+     "阿罗拉椰蛋树"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     9
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "穿着熊",
+    "ndex": 760,
+    "seg": [
+     18,
+     20
+    ],
+    "as": [
+     "穿着熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "敲音猴",
+    "ndex": 810,
+    "seg": [
+     66
+    ],
+    "as": [
+     "敲音猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "来电汪",
+    "ndex": 835,
+    "seg": [
+     60
+    ],
+    "as": [
+     "来电汪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莫鲁贝可",
+    "ndex": 877,
+    "seg": [
+     60
+    ],
+    "as": [
+     "莫鲁贝可"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藏玛然特",
+    "ndex": 889,
+    "seg": [
+     16
+    ],
+    "as": [
+     "藏玛然特"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     14
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "苍响",
+    "ndex": 888,
+    "seg": [
+     16
+    ],
+    "as": [
+     "苍响"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     58,
+     75
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦大师",
+    "slug": null,
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "究极之日／究极之月",
+    "slug": null,
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大侦探皮卡丘",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     9,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     20,
+     22,
+     24,
+     47,
+     49,
+     51
+    ]
+   },
+   {
+    "name": "西野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "约翰·卡比",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "维罗博士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿渡",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "丹帝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "旷野地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "穿着熊出没处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "增田顺一称耀西不是宝可梦，但参与过老耀西游戏的叫声与音效。",
+   "anchor": 8
+  },
+  {
+   "seg": 9,
+   "text": "增田顺一说卡比兽日文名Kabigon来自绰号卡比的西野先生。",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gi-2019-champion",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "大森滋与增田顺一谈《剑／盾》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
+   "why": "同为Game Informer 2019-10-24剑盾主创采访"
+  },
+  {
+   "id": "interview-game-informer-101-rapid-fire-questions",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "Game Informer 101个宝可梦终极快问快答：增田顺一 × 大森滋 东京演播室现场直击",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/%E4%B8%96%E7%95%8C%E8%A7%82%E4%B8%8E%E8%B6%A3%E9%97%BB%E8%80%83%E6%8D%AE/interview-game-informer-101-rapid-fire-questions/",
+   "why": "同为Game Informer东京快问快答系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

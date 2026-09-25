@@ -1,0 +1,42 @@
+{
+ "id": "gamefreak-lineblog-3120877",
+ "stem": "2016-04-30-gamefreak-lineblog-3120877",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 36
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一写「竞争游戏的力量真是强得不得了」"
+  },
+  {
+   "seg": 5,
+   "text": "增田顺一认为游戏制作时最容易做的是排名和时间限制"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

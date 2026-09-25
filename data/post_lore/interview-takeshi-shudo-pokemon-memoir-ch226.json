@@ -1,0 +1,218 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch226",
+ "stem": "2010-06-30-interview-takeshi-shudo-pokemon-memoir-ch226",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 133
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "轻飘飘",
+    "ndex": 592,
+    "seg": [
+     16,
+     125
+    ],
+    "as": [
+     "轻飘飘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "漫画日本物语",
+    "slug": null,
+    "seg": [
+     20,
+     100,
+     115
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "日本沉没",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "复活之日",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "战国魔神豪将军",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法公主明琪桃子",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "机动战士高达",
+    "slug": null,
+    "seg": [
+     115
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "漫画世界民间童话",
+    "slug": null,
+    "seg": [
+     106
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "竹林中",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "机动战士高达0079",
+    "slug": null,
+    "seg": [
+     115
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     30,
+     32,
+     33,
+     66,
+     105,
+     109
+    ]
+   },
+   {
+    "name": "小松左京",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     102,
+     110,
+     111
+    ]
+   },
+   {
+    "name": "富野由悠季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     115
+    ]
+   },
+   {
+    "name": "小黑祐一郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ]
+   },
+   {
+    "name": "赤冢不二夫",
+    "slug": "chi-zhong-bu-er-fu",
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "芥川龙之介",
+    "slug": "jie-chuan-long-zhi-jie",
+    "role": "mentioned",
+    "seg": [
+     58
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "大宅壮一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 100,
+   "text": "《漫画日本物语》最初预定播出周期仅半年，档期定在每周六下午五点半。",
+   "anchor": 101
+  },
+  {
+   "seg": 115,
+   "text": "《漫画日本物语》系列最终连播了整整十三年。",
+   "anchor": 116
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch207",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch207/",
+   "why": "同为连载手记，前文交代住院与病榻写作背景"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch216/",
+   "why": "同为连载手记，交代住院与身体恶化背景"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch223",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第223回：“从《宝可梦》中消失的我”（小说第三卷梦碎、小田原深夜跳海获救与诀别系列构成）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch223/",
+   "why": "同为连载手记，交代辞去系列构成背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

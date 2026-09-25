@@ -1,0 +1,190 @@
+{
+ "id": "interview-tpc-global-business-hirobe",
+ "stem": "2014-05-01-interview-tpc-global-business-hirobe",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 25
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     1,
+     3,
+     15,
+     17,
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokemon Direct",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Nintendo Direct",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "采用团队",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     10,
+     18,
+     22
+    ]
+   },
+   {
+    "name": "广部圭太",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     11,
+     12,
+     15
+    ]
+   },
+   {
+    "name": "廣部圭太",
+    "slug": "hirobe-keita",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "美国西雅图",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "TPCi所在地",
+    "via": "llm"
+   },
+   {
+    "name": "巴西",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24
+    ],
+    "what": "卡牌业务增长市场",
+    "via": "llm"
+   },
+   {
+    "name": "新加坡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24
+    ],
+    "what": "X·Y首日出货佳绩",
+    "via": "llm"
+   },
+   {
+    "name": "首尔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "Pokémon Korea所在地",
+    "via": "llm"
+   },
+   {
+    "name": "澳大利亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     20
+    ],
+    "what": "创任天堂首周纪录",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "广部圭太在发售日倒推2年前正式介入项目管理",
+   "anchor": 5
+  },
+  {
+   "seg": 4,
+   "text": "此前正统系列先在日本上市，海外晚约半年",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gameinformer-masuda-afterwords-xy",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-afterwords-xy/",
+   "why": "同为X·Y事后解密，增田谈开发起点与浪漫元素"
+  },
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "增田谈X·Y命名、3D化与开发周期，可作背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,132 @@
+{
+ "id": "interview-eurogamer-masuda-sugimori-black-white-brains",
+ "stem": "2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 45
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     44
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "井部真那",
+    "slug": "ibe-mana",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "伊部麻奈",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊部真奈",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊部小姐",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "新系列提供全新宝可梦，通关前不会遇到旧宝可梦",
+   "anchor": 6
+  },
+  {
+   "seg": 8,
+   "text": "三打对战中左边宝可梦无法攻击右边，中间可攻击任意一只",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为黑白通关前封印旧宝可梦、156只新宠的决断"
+  },
+  {
+   "id": "scan-dengeki-games-vol14-bw-gamefreak-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦 黑·白 改变与不变",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-dengeki-games-vol14-bw-gamefreak-interview/",
+   "why": "同提结局前只出现新宝可梦的目标"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

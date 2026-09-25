@@ -1,0 +1,100 @@
+{
+ "id": "gamefreak-lineblog-8443131",
+ "stem": "2016-10-23-gamefreak-lineblog-8443131",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 29
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "JAGMO",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "真新镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "曲目名",
+    "via": "llm"
+   },
+   {
+    "name": "常青",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "曲目名",
+    "via": "llm"
+   },
+   {
+    "name": "火箭队基地",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "曲目名",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "开场曲后列出曲目：真新镇、通往常青的道路、自行车手、火箭队基地、最后的道路、最终战"
+  },
+  {
+   "seg": 28,
+   "text": "音乐会预定11月6日星期日晚上10点50分在BS高级频道播出"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

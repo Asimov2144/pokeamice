@@ -1,0 +1,107 @@
+{
+ "id": "gamefreak-director-231",
+ "stem": "2012-12-17-gamefreak-director-231",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 124
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "节奏猎人 和谐骑士",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "詹姆斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ]
+   },
+   {
+    "name": "清水店长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "动画店秋叶原店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "签名会举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "有人从凌晨4点就开始排队"
+  },
+  {
+   "seg": 11,
+   "text": "因报名人数达上限，临时加开第三场"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-229",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第229回",
+   "url": "/gamefreak-director/entry-229/",
+   "why": "预告12月16日秋叶原签名会，本篇记录其盛况"
+  },
+  {
+   "id": "gamefreak-director-219",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第219回",
+   "url": "/gamefreak-director/entry-219/",
+   "why": "签名会从东北提议扩展到全国宝可梦中心的由来"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

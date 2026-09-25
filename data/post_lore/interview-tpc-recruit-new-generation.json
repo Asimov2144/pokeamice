@@ -1,0 +1,199 @@
+{
+ "id": "interview-tpc-recruit-new-generation",
+ "stem": "2022-03-01-interview-tpc-recruit-new-generation",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 46
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "伊藤",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     18,
+     32,
+     38
+    ]
+   },
+   {
+    "name": "天天",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     6,
+     24,
+     30,
+     41
+    ]
+   },
+   {
+    "name": "查查",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     22,
+     28,
+     44
+    ]
+   },
+   {
+    "name": "余",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     19,
+     29,
+     42
+    ]
+   },
+   {
+    "name": "石黑",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     20,
+     23,
+     40
+    ]
+   },
+   {
+    "name": "星",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     10,
+     21,
+     31,
+     43
+    ]
+   },
+   {
+    "name": "山口",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     11,
+     16,
+     33,
+     39
+    ]
+   },
+   {
+    "name": "赵",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     17,
+     34,
+     45
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     32
+    ],
+    "what": "销售商品的店铺",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "宝可梦商店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     32
+    ],
+    "what": "销售商品的店铺",
+    "via": "llm"
+   },
+   {
+    "name": "泰国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "查查的祖国",
+    "via": "llm"
+   },
+   {
+    "name": "印度",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     40
+    ],
+    "what": "留言者所在城市",
+    "via": "llm"
+   },
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "石黑幼时居住地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "伊藤说从小喜欢宝可梦，认为公司可不受限尝试各种事。",
+   "anchor": 7
+  },
+  {
+   "seg": 11,
+   "text": "山口引用面试员工的话：公司只做宝可梦，否则失去存在意义。",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

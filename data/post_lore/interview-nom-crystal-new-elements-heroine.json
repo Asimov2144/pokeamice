@@ -1,0 +1,171 @@
+{
+ "id": "interview-nom-crystal-new-elements-heroine",
+ "stem": "2000-12-14-interview-nom-crystal-new-elements-heroine",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "尼多娜",
+    "ndex": 30,
+    "seg": [
+     12
+    ],
+    "as": [
+     "尼多娜"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超音蝠",
+    "ndex": 41,
+    "seg": [
+     16
+    ],
+    "as": [
+     "超音蝠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮宝宝",
+    "ndex": 173,
+    "seg": [
+     14
+    ],
+    "as": [
+     "皮宝宝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "果然翁",
+    "ndex": 202,
+    "seg": [
+     16
+    ],
+    "as": [
+     "果然翁"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     0,
+     7,
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [],
+  "places": [
+   {
+    "name": "对战塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "新增的对战设施",
+    "via": "llm"
+   },
+   {
+    "name": "PCC（宝可梦交流中心）",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "移动通信服务点",
+    "via": "llm"
+   },
+   {
+    "name": "浅葱市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "对战塔所在地",
+    "via": "llm"
+   },
+   {
+    "name": "满金市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "PCC所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "选女孩当主角时，背包物品和宝可齿轮颜色会变",
+   "anchor": 4
+  },
+  {
+   "seg": 10,
+   "text": "对战塔在浅葱市西边，只能带3只宝可梦",
+   "anchor": 11
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-gold-silver-gamefreak",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+   "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
+   "why": "同为N.O.M对GAME FREAK的采访，介绍金·银系统"
+  },
+  {
+   "id": "interview-nom-special-dialogue-tajiri-ishihara",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+   "url": "//interview-nom-special-dialogue-tajiri-ishihara/",
+   "why": "同为N.O.M的宝可梦对谈，可作杂志背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

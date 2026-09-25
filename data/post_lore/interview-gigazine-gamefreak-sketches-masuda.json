@@ -1,0 +1,171 @@
+{
+ "id": "interview-gigazine-gamefreak-sketches-masuda",
+ "stem": "2017-09-05-interview-gigazine-gamefreak-sketches-masuda",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 71
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "雷吉洛克",
+    "ndex": 377,
+    "seg": [
+     16,
+     17
+    ],
+    "as": [
+     "雷吉洛克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉艾斯",
+    "ndex": 378,
+    "seg": [
+     16,
+     17
+    ],
+    "as": [
+     "雷吉艾斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉斯奇鲁",
+    "ndex": 379,
+    "seg": [
+     16,
+     17
+    ],
+    "as": [
+     "雷吉斯奇鲁"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     8,
+     15,
+     26,
+     41,
+     49,
+     53
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "桧皮镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "钢铁先生所在城镇",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "柑果球设定手稿右上角盖有丸秘红色印章，记录各色球材质与捕获机能"
+  },
+  {
+   "seg": 14,
+   "text": "1990年代开发周报残卷写着电脑系统崩溃导致损失2天进度"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gameinformer-why-ruby-and-sapphire-were-most-challenging",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%BC%80%E5%8F%91%E5%8E%86%E5%8F%B2/%E6%80%BB%E7%9B%91%E4%B8%93%E8%AE%BF/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/",
+   "why": "同为Game Informer 2017探访GAME FREAK增田访谈"
+  },
+  {
+   "id": "interview-gi-2017-gs-history",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《宝可梦 金·银》开发史",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2017-gs-history/",
+   "why": "同为Game Informer 2017探访GAME FREAK增田访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

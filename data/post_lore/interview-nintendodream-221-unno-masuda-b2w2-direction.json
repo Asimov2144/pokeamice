@@ -1,0 +1,198 @@
+{
+ "id": "interview-nintendodream-221-unno-masuda-b2w2-direction",
+ "stem": "2012-07-21-interview-nintendodream-221-unno-masuda-b2w2-direction",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     11
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "酋雷姆",
+    "ndex": 646,
+    "seg": [
+     10,
+     11
+    ],
+    "as": [
+     "酋雷姆",
+     "Kyurem"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     4
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "黑／白",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红·绿",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "心金／魂银",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     2,
+     7,
+     9,
+     11
+    ]
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     6
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "盖奇斯",
+    "slug": "gai-qi-si",
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "2年后剧变的舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《黑／白》开发结束后，我主动向增田请缨当总监"
+  },
+  {
+   "seg": 6,
+   "text": "以往从未推出带阿拉伯数字编号的正统续作",
+   "anchor": 7
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendodream-222-unno-b2w2-pwt-pokewood",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "Nintendo DREAM Vol.222 独家专访总监海野隆雄 × 策划团队（后篇）：“历代馆主与冠军的全明星嘉年华”——《宝可梦 黑2／白2》PWT世界锦标赛、绿幕好莱坞电影与“龙之谐音”音乐秘辛",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-222-unno-b2w2-pwt-pokewood/",
+   "why": "同为Nintendo DREAM海野专访，Vol.222为后篇"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+   "why": "社长问第1章讲打破惯例做正统数字续篇的原委"
+  },
+  {
+   "id": "interview-gi-2012-b2w2-sequel",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈首款编号续作",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2012-b2w2-sequel/",
+   "why": "增田谈首款编号续作，与请缨当总监同题"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

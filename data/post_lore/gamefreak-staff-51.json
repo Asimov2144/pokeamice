@@ -1,0 +1,61 @@
+{
+ "id": "gamefreak-staff-51",
+ "stem": "2008-01-07-gamefreak-staff-51",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "斯蒂克",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ]
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "スティック",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "截止时间为2008年1月31日（星期四）18:00"
+  },
+  {
+   "seg": 13,
+   "text": "配图作品由GF程序员斯蒂克创作"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

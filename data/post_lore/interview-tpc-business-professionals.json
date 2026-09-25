@@ -1,0 +1,186 @@
+{
+ "id": "interview-tpc-business-professionals",
+ "stem": "2020-03-01-interview-tpc-business-professionals",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     28,
+     32
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     28
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     28
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     45
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     45
+    ],
+    "as": [
+     "索罗亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     45
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     1,
+     6,
+     8,
+     11,
+     12,
+     19
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     36
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     53
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     45
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "大侦探皮卡丘",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "破晓之翼",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大洞翔一",
+    "slug": "da-dong-xiang-yi",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "早川和湖",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松永充代",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "早川和湖隶属Pokémon GO推进室，主要业务是监修",
+   "anchor": 12
+  },
+  {
+   "seg": 28,
+   "text": "松永充代参与2019年电影《大侦探皮卡丘》，约三分之一时间在海外出差",
+   "anchor": 29
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

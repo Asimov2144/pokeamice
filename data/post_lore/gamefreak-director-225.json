@@ -1,0 +1,117 @@
+{
+ "id": "gamefreak-director-225",
+ "stem": "2012-04-17-gamefreak-director-225",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     0,
+     24,
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "海野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "井部",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     21
+    ],
+    "what": "预订特典地点",
+    "via": "extra",
+    "category_link": "pc"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "《宝可梦 黑2·白2》发售日定为6月23日星期六，并已开始接受预订"
+  },
+  {
+   "seg": 21,
+   "text": "在宝可梦中心同时预订两款游戏，附赠井部先生绘制的新插画"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-243",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【工作日志】2012年宝可梦新作发售现场",
+   "url": "/gamefreak-staff/entry-243/",
+   "why": "同为6月23日发售日，记录发售现场"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+   "why": "解释黑2白2为何做成续篇"
+  },
+  {
+   "id": "scan-ndream-2012-09-b2w2-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "只有《2》才能做到的冒险",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
+   "why": "说明双版本与编号续作原因"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

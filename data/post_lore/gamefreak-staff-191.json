@@ -1,0 +1,58 @@
+{
+ "id": "gamefreak-staff-191",
+ "stem": "2010-07-16-gamefreak-staff-191",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "一树",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "作者入职的公司",
+    "via": "extra"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "4月1日入社，结束为期3个月的培训"
+  },
+  {
+   "seg": 2,
+   "text": "7月1日正式成为正式员工"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

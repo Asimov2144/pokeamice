@@ -1,0 +1,118 @@
+{
+ "id": "gamefreak-staff-69",
+ "stem": "2008-05-09-gamefreak-staff-69",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 88
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "桃太郎电铁",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "佐久间明",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "犬吠站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "桃太郎电铁活动地",
+    "via": "llm"
+   },
+   {
+    "name": "栃木县日光东照宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "黄金周观光地",
+    "via": "llm"
+   },
+   {
+    "name": "高千穗峡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "白天去的景点",
+    "via": "llm"
+   },
+   {
+    "name": "宫崎县高千穗町",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     27
+    ],
+    "what": "住宿一晚的地方",
+    "via": "llm"
+   },
+   {
+    "name": "仙台",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     33
+    ],
+    "what": "音乐节举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "白天一直去合气道道场"
+  },
+  {
+   "seg": 8,
+   "text": "房间里到处都是常春藤"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

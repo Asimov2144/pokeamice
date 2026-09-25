@@ -1,0 +1,151 @@
+{
+ "id": "corporate-topic-54-noto-goita-traditional-game-revival",
+ "stem": "2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "ポケモンごいた",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "伝承娯楽「ごいた」",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦五目",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "五目（Goita）",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "能登ごいた保存会",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "石川县能登町宇出津",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "五目发祥渔村",
+    "via": "llm"
+   },
+   {
+    "name": "能登半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "五目流传地域",
+    "via": "llm"
+   },
+   {
+    "name": "日本海",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "渔民出海海域",
+    "via": "llm"
+   },
+   {
+    "name": "能登",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "灾后文化复兴之地",
+    "via": "llm"
+   },
+   {
+    "name": "Game Market（游戏市集）",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "实体桌游年度盛会",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "1999年当地有识之士联合成立能登ごいた保存会，已设8处传承分会",
+   "anchor": 6
+  },
+  {
+   "seg": 8,
+   "text": "对局4人，隔桌相对结为阵营，清空8张竹牌，先积满150分者胜",
+   "anchor": 9
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

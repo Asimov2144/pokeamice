@@ -1,0 +1,112 @@
+{
+ "id": "gamefreak-lineblog-2502729",
+ "stem": "2016-04-02-gamefreak-lineblog-2502729",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 100
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     10,
+     19,
+     48,
+     75,
+     93,
+     98
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "藤川先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     93
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "八丈岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "举办花毯画的地方",
+    "via": "llm"
+   },
+   {
+    "name": "八丈富士",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     39
+    ],
+    "what": "能看到它的地方有花田",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 19,
+   "text": "约50人齐心协力，做出10米长的皮卡丘"
+  },
+  {
+   "seg": 28,
+   "text": "准备了整整10万枝黄色小苍兰，结果用完了"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2484438",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年八丈岛小苍兰节",
+   "url": "/gamefreak-director/lineblog-2484438/",
+   "why": "同为八丈岛小苍兰节，前一日抵达期待皮卡丘花绘"
+  },
+  {
+   "id": "gamefreak-lineblog-2540602",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016八丈岛邂逅小麂",
+   "url": "/gamefreak-director/lineblog-2540602/",
+   "why": "同在八丈岛参加花卉节，记录见到皮卡丘花绘当天"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

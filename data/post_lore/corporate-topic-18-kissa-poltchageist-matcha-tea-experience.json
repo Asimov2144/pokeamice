@@ -1,0 +1,214 @@
+{
+ "id": "corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
+ "stem": "2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "斯魔茶",
+    "ndex": 1012,
+    "seg": [
+     0,
+     2,
+     3,
+     5,
+     6,
+     7
+    ],
+    "as": [
+     "斯魔茶",
+     "チャデス",
+     "Poltchageist"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "来悲粗茶",
+    "ndex": 1013,
+    "seg": [
+     0,
+     3,
+     5,
+     9,
+     12,
+     13
+    ],
+    "as": [
+     "来悲粗茶",
+     "ヤバソチャ",
+     "Sinistcha"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "喫茶チャデス",
+    "slug": null,
+    "seg": [
+     0,
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンカフェ（Pokemon Cafe）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 朱／紫 零之秘宝",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ポケモンカフェ",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社ポケモン 商品企画チーム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン カフェ事業チーム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン アートディレクションチーム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "日本桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "via": "extra",
+    "what": "初代宝可梦中心所在"
+   },
+   {
+    "name": "北上乡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon Center TOKYO DX",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "官方宝可梦咖啡厅",
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon Center OSAKA DX",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "官方宝可梦咖啡厅",
+    "via": "llm"
+   },
+   {
+    "name": "心斋桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "大阪所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "企划核心概念是「由宝可梦们来店里帮忙打理的茶馆」",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "斯魔茶与来悲粗茶图鉴分类均为「抹茶宝可梦」",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦官方专题：传统与革新的甘甜共鸣——“宝可梦京菓子”与七条甘春堂",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo/",
+   "why": "同为抹茶/和菓子传统点心跨界，京菓子先例"
+  },
+  {
+   "id": "corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦官方专题：送往能登地震灾区孩子的“皮卡丘武士头盔”——传统折纸与心灵抚慰",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support/",
+   "why": "Topics第17篇，本篇为第18篇，前后相邻"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

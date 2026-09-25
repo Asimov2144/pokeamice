@@ -1,0 +1,83 @@
+{
+ "id": "gamefreak-lineblog-6172283",
+ "stem": "2016-08-20-gamefreak-lineblog-6172283",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "好胜蟹",
+    "ndex": 739,
+    "seg": [
+     2,
+     4,
+     12
+    ],
+    "as": [
+     "好胜蟹"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "渔人码头",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "拍纪念照处",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "大会举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "2016宝可梦世界大会在旧金山举行"
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一自称螃蟹爱好者，在旧金山介绍好胜蟹"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

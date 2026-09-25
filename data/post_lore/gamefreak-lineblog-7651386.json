@@ -1,0 +1,121 @@
+{
+ "id": "gamefreak-lineblog-7651386",
+ "stem": "2016-10-01-gamefreak-lineblog-7651386",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "催眠貘",
+    "ndex": 96,
+    "seg": [
+     5
+    ],
+    "as": [
+     "催眠貘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "迷唇姐",
+    "ndex": 124,
+    "seg": [
+     5
+    ],
+    "as": [
+     "迷唇姐"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小茂",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "白金汉宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "拍照留念处",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "采访与游览地",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     34
+    ],
+    "what": "下一站目的地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "在伦敦接受欧洲媒体的采访"
+  },
+  {
+   "seg": 1,
+   "text": "和小茂一起接受了好多采访"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

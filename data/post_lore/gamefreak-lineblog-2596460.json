@@ -1,0 +1,59 @@
+{
+ "id": "gamefreak-lineblog-2596460",
+ "stem": "2016-04-06-gamefreak-lineblog-2596460",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可拍乐乐",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田顺一写它来家里时只有这么小一只"
+  },
+  {
+   "seg": 17,
+   "text": "增田顺一写「Kiki！今后也请多多关照啦」"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

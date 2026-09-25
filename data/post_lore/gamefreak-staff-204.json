@@ -1,0 +1,171 @@
+{
+ "id": "gamefreak-staff-204",
+ "stem": "2010-10-22-gamefreak-staff-204",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 164
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "迷你冰",
+    "ndex": 582,
+    "seg": [
+     33,
+     73,
+     113,
+     159
+    ],
+    "as": [
+     "迷你冰",
+     "バニプッチ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泥偶小人",
+    "ndex": 622,
+    "seg": [
+     33,
+     113
+    ],
+    "as": [
+     "泥偶小人",
+     "ゴビット"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "秃鹰丫头",
+    "ndex": 629,
+    "seg": [
+     33,
+     113
+    ],
+    "as": [
+     "秃鹰丫头",
+     "バルチャイ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケットモンスターブラック・ホワイト",
+    "slug": null,
+    "seg": [
+     79
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "海野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24,
+     103
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ジェイミー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2,
+     6,
+     8,
+     32,
+     65,
+     71
+    ]
+   },
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "ジェイミー说这个月正好入职满一年"
+  },
+  {
+   "seg": 22,
+   "text": "「城堡」那一幕做成双画面是ジェイミー的点子"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-202",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2010年宝可梦剧本幕后",
+   "url": "/gamefreak-staff/entry-202/",
+   "why": "同为「つくりかた」系列工作日志，编号2与4"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为黑白的创作访谈，可补开发背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

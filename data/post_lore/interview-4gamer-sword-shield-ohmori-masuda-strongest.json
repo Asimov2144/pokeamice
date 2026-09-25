@@ -1,0 +1,392 @@
+{
+ "id": "interview-4gamer-sword-shield-ohmori-masuda-strongest",
+ "stem": "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 125
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     98
+    ],
+    "as": [
+     "妙蛙种子",
+     "Bulbasaur"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     57
+    ],
+    "as": [
+     "大葱鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双弹瓦斯",
+    "ndex": 110,
+    "seg": [
+     43,
+     60
+    ],
+    "as": [
+     "双弹瓦斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "直冲熊",
+    "ndex": 264,
+    "seg": [
+     102
+    ],
+    "as": [
+     "直冲熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     54
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     54
+    ],
+    "as": [
+     "帕路奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "钢铠鸦",
+    "ndex": 823,
+    "seg": [
+     9
+    ],
+    "as": [
+     "钢铠鸦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "堵拦熊",
+    "ndex": 862,
+    "seg": [
+     102
+    ],
+    "as": [
+     "堵拦熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "葱游兵",
+    "ndex": 865,
+    "seg": [
+     57,
+     58
+    ],
+    "as": [
+     "葱游兵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藏玛然特",
+    "ndex": 889,
+    "seg": [
+     6,
+     7,
+     8,
+     47
+    ],
+    "as": [
+     "藏玛然特"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "苍响",
+    "ndex": 888,
+    "seg": [
+     6
+    ],
+    "as": [
+     "苍响"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     2,
+     3,
+     4,
+     18,
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     48
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     88
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "4Gamer",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     12
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     7,
+     11,
+     13,
+     15,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     29,
+     48,
+     50,
+     53,
+     55,
+     68
+    ]
+   },
+   {
+    "name": "Gueed",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     87
+    ],
+    "what": "寄存与取出宝可梦处",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "旷野地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "广阔自然区域",
+    "via": "llm"
+   },
+   {
+    "name": "八重洲口",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     117
+    ],
+    "what": "曾发放神秘礼物处",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "本作舞台",
+    "via": "llm"
+   },
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "伽勒尔地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "法国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     48
+    ],
+    "what": "卡洛斯地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     48
+    ],
+    "what": "X·Y的舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "大森滋说在Switch上制作新作时以“最强《宝可梦》”为主题",
+   "anchor": 6
+  },
+  {
+   "seg": 11,
+   "text": "大森滋说伽勒尔地区以英国为原型，由“最强《宝可梦》”主题决定",
+   "anchor": 12
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gi-2019-going-big",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "打造终极宝可梦",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-going-big/",
+   "why": "同为剑盾发售期Game Informer东京采访大森滋"
+  },
+  {
+   "id": "interview-game-informer-101-rapid-fire-questions",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Game Informer 101个宝可梦终极快问快答：增田顺一 × 大森滋 东京演播室现场直击",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/%E4%B8%96%E7%95%8C%E8%A7%82%E4%B8%8E%E8%B6%A3%E9%97%BB%E8%80%83%E6%8D%AE/interview-game-informer-101-rapid-fire-questions/",
+   "why": "同为剑盾发售期东京采访增田与大森"
+  },
+  {
+   "id": "interview-famitsu-2019-swsh-autosave",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与大森滋谈剑盾培育",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2019-swsh-autosave/",
+   "why": "同为剑盾发售前采访增田与大森"
+  },
+  {
+   "id": "interview-famitsu-sword-shield-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
+   "url": "//interview-famitsu-sword-shield-masuda-ohmori/",
+   "why": "同为剑盾发售前采访增田与大森"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,339 @@
+{
+ "id": "interview-hobonichi-2021-kubo",
+ "stem": "2021-10-25-interview-hobonichi-2021-kubo",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 577
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     345,
+     346,
+     349,
+     352,
+     354,
+     357
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     372
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦：超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "快乐快乐漫画",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "富家少爷",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "周刊少年Magazine",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おこっちゃまくん",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电影哆啦A梦 大雄的恐龙",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超时空要塞Macross 爱·还记得吗",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电视君",
+    "slug": null,
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超时空要塞",
+    "slug": null,
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "龙漫CORO-CORO",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     236
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探柯南",
+    "slug": null,
+    "seg": [
+     236
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "进击的巨人",
+    "slug": null,
+    "seg": [
+     257
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "爆走兄弟Let's & Go！！",
+    "slug": null,
+    "seg": [
+     270
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "冲刺！四驱郎",
+    "slug": null,
+    "seg": [
+     273
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "SD高达",
+    "slug": null,
+    "seg": [
+     275
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Comic Bonbon",
+    "slug": null,
+    "seg": [
+     275
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "MOTHER",
+    "slug": null,
+    "seg": [
+     338
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おはスタ",
+    "slug": null,
+    "seg": [
+     444
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "周刊少年Jump",
+    "slug": null,
+    "seg": [
+     446
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一郎くんの写真",
+    "slug": null,
+    "seg": [
+     180
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ほぼ日",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "久保雅一",
+    "slug": "kubo-masakazu",
+    "role": "speaker",
+    "seg": [
+     4,
+     8,
+     12,
+     14,
+     15,
+     18
+    ]
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     338
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     353
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铃木敏夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     480
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小林よしのり",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     547
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "井泽",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     451
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宫崎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     429
+    ],
+    "what": "真人电影外景地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 69,
+   "text": "久保在《龙漫CORO-CORO》14年里，有7年负责《富家少爷》，是第4代编辑",
+   "anchor": 70
+  },
+  {
+   "seg": 367,
+   "text": "第151只宝可梦是开发程序员因游戏容量有空余、出于玩心悄悄放入的",
+   "anchor": 368
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "久保雅一谈宝可梦",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2000-kubo-masakazu-pokemon-hit/",
+   "why": "久保雅一谈宝可梦媒体展开，含《龙漫CORO-CORO》任职背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

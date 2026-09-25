@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-232",
+ "stem": "2011-08-05-gamefreak-staff-232",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "マッツン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "睡前2小时吃完饭、喝花草茶等方法中，他选了按压穴位"
+  },
+  {
+   "seg": 13,
+   "text": "晴明穴按压法为重复约5次「按压10秒，松开10秒」"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

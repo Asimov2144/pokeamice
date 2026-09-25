@@ -1,0 +1,108 @@
+{
+ "id": "gamefreak-lineblog-7013851",
+ "stem": "2016-09-15-gamefreak-lineblog-7013851",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 137
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "巴黎地下墓穴",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "世界最大的地下墓地",
+    "via": "llm"
+   },
+   {
+    "name": "闪耀洞窟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     77
+    ],
+    "what": "参考地下墓穴制作的地点",
+    "via": "llm"
+   },
+   {
+    "name": "巴黎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "增田顺一到访的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 37,
+   "text": "增田顺一写下2010年10月22日参观巴黎地下墓穴后的笔记"
+  },
+  {
+   "seg": 26,
+   "text": "地下据说有多达600万人的遗骨"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2968236",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【创作】2010宝可梦X·Y的起点",
+   "url": "/gamefreak-director/lineblog-2968236/",
+   "why": "同为X·Y作り方系列，第1回在前"
+  },
+  {
+   "id": "gamefreak-lineblog-6446757",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【创作】2013宝可梦亲密关系设计",
+   "url": "/gamefreak-director/lineblog-6446757/",
+   "why": "同为X·Y作り方系列，第2回在前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

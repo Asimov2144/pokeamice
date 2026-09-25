@@ -1,0 +1,102 @@
+{
+ "id": "gamefreak-director-150",
+ "stem": "2009-06-18-gamefreak-director-150",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Game Informer 6月号",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Gamasutra",
+    "slug": null,
+    "seg": [
+     4,
+     16
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "接受采访之地",
+    "via": "llm"
+   },
+   {
+    "name": "美国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "地区大会举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "美国地区大会5月9日开始，6月13日结束"
+  },
+  {
+   "seg": 7,
+   "text": "六个地区大会来了很多人"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-142",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第142回",
+   "url": "/gamefreak-director/entry-142/",
+   "why": "第142回预告将去旧金山采访《白金》"
+  },
+  {
+   "id": "gamefreak-director-141",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第141回",
+   "url": "/gamefreak-director/entry-141/",
+   "why": "同谈北美版《白金》采访消息"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

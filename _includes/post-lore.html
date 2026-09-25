@@ -71,11 +71,23 @@
   {%- if lore.relations.size > 0 -%}
   <ul class="lore__rel">
     {%- for r in lore.relations -%}
-      {%- comment -%} id 是 URL 的最后一段，两头都带斜杠地比，免得短 id 撞进长 id 的地址里 {%- endcomment -%}
-      {%- assign rel_tail = r.id | prepend: "/" | append: "/" -%}
-      {%- assign other = site.posts | where_exp: "p", "p.url contains rel_tail" | first -%}
-      {%- if other -%}
-      <li><span class="lore__rel-kind">{{ r.label }}</span><a href="{{ other.url | relative_url }}">{{ other.display_title | default: other.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " }}</a>{% if r.why %}<span class="lore__rel-why">{{ r.why }}</span>{% endif %}</li>
+      {%- comment -%}
+        地址与标题在生成时就写进记录了（build-post-lore.py 照导出器的 canonical_url 算），
+        这里直接用——否则每篇的每条关系都要把 site.posts 扫一遍，上千篇乘下来是几百万次比较。
+        旧记录没有这两样，才退回去按 id 找；id 是 URL 的最后一段，两头带斜杠比，免得短 id 撞进长 id 里。
+      {%- endcomment -%}
+      {%- assign rel_url = r.url -%}
+      {%- assign rel_title = r.title -%}
+      {%- if rel_url == nil -%}
+        {%- assign rel_tail = r.id | prepend: "/" | append: "/" -%}
+        {%- assign other = site.posts | where_exp: "p", "p.url contains rel_tail" | first -%}
+        {%- if other -%}
+          {%- assign rel_url = other.url -%}
+          {%- assign rel_title = other.display_title | default: other.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if rel_url -%}
+      <li><span class="lore__rel-kind">{{ r.label }}</span><a href="{{ rel_url | relative_url }}">{{ rel_title | default: r.id }}</a>{% if r.why %}<span class="lore__rel-why">{{ r.why }}</span>{% endif %}</li>
       {%- endif -%}
     {%- endfor -%}
   </ul>

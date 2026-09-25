@@ -1,0 +1,104 @@
+{
+ "id": "采访-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言",
+ "stem": "2022-10-10-[采访]-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "article",
+ "body": {
+  "kind": "markdown",
+  "n": 26
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "アルセウス",
+    "ndex": 493,
+    "seg": [
+     2,
+     17,
+     24,
+     27,
+     4,
+     11,
+     14
+    ],
+    "as": [
+     "アルセウス",
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     4,
+     11,
+     14
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "mentioned",
+    "seg": [
+     14
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "洗翠地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "玩家进行宝可梦调查之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "岩尾代表全体开发人员感谢投票者与洗翠地区调查的玩家"
+  },
+  {
+   "seg": 11,
+   "text": "今年秋天『宝可梦 朱·紫』将发售，由GAME FREAK操刀"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

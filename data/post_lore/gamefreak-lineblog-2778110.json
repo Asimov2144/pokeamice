@@ -1,0 +1,63 @@
+{
+ "id": "gamefreak-lineblog-2778110",
+ "stem": "2016-04-13-gamefreak-lineblog-2778110",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心横滨",
+    "id": null,
+    "entity": "pokemon_center_yokohama",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心名古屋",
+    "id": null,
+    "entity": "pokemon_center_nagoya",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "gazetteer"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一写本周末将举行签名会"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,177 @@
+{
+ "id": "gamefreak-director-189",
+ "stem": "2011-03-08-gamefreak-director-189",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 73
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "成田",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "出发地机场",
+    "via": "llm"
+   },
+   {
+    "name": "肯尼迪机场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "返程出发机场",
+    "via": "llm"
+   },
+   {
+    "name": "布鲁克林大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "第三次走过的大桥",
+    "via": "llm"
+   },
+   {
+    "name": "第五大道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "Nintendo World所在街",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "发售活动城市",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "发售活动城市",
+    "via": "llm"
+   },
+   {
+    "name": "新泽西",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "商场巡回活动地",
+    "via": "llm"
+   },
+   {
+    "name": "布鲁克林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "过桥的起点一侧",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "3月3日在伦敦市中心的著名俱乐部举行发售活动"
+  },
+  {
+   "seg": 9,
+   "text": "3月4日早上9点，伦敦“ＧＡＭＥ”店门口排起长队"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-spong-bw-launch-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱",
+   "url": "/developer-interviews/official-archives/interview-spong-bw-launch-masuda-sugimori/",
+   "why": "同为伦敦首发夜增田、杉森专访"
+  },
+  {
+   "id": "gamefreak-director-190",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第190回",
+   "url": "/gamefreak-director/entry-190/",
+   "why": "同专栏第190回，续记伦敦纽约发售活动"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

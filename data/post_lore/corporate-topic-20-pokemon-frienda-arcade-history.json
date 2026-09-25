@@ -1,0 +1,139 @@
+{
+ "id": "corporate-topic-20-pokemon-frienda-arcade-history",
+ "stem": "2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "ポケモンフレンダ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンメザスタ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンガオーレ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモントレッタ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンバトリオ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦Frienda",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Battrio",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Tretta",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Ga-Olé",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Mezastar",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "マーベラス（Marvelous）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "タカラトミーアーツ（Takara Tomy Arts）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "マーベラス",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "タカラトミーアーツ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "宝可梦AM机台受众年龄聚焦在4岁至8岁。",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "宝可梦全权企划监修，Marvelous负责程序与硬件，Takara Tomy Arts负责推广与配出品制造。",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

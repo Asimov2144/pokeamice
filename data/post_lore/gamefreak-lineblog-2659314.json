@@ -1,0 +1,87 @@
+{
+ "id": "gamefreak-lineblog-2659314",
+ "stem": "2016-04-09-gamefreak-lineblog-2659314",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 63
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "FROGMAN",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "FRIGMAN",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "Mediage",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "活动会场",
+    "via": "llm"
+   },
+   {
+    "name": "台场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "活动会场所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田顺一写活动会场在台场的Mediage"
+  },
+  {
+   "seg": 26,
+   "text": "增田顺一写笑个不停，转眼就是两小时"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

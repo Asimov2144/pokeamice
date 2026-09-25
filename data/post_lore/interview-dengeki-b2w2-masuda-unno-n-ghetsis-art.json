@@ -1,0 +1,255 @@
+{
+ "id": "interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
+ "stem": "2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     0,
+     1,
+     5,
+     18,
+     20,
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白2",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "电击Online",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     11,
+     15,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     6,
+     9,
+     10,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     24,
+     36,
+     42
+    ]
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "魁奇思",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑暗铁三角",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心横滨",
+    "id": null,
+    "entity": "pokemon_center_yokohama",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     46
+    ],
+    "what": "发放纪念卡",
+    "via": "llm"
+   },
+   {
+    "name": "横滨地标塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "粉丝见面会会场",
+    "via": "llm"
+   },
+   {
+    "name": "白森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "白2的地点",
+    "via": "llm"
+   },
+   {
+    "name": "黑色摩天楼",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "黑色市的设施",
+    "via": "llm"
+   },
+   {
+    "name": "白色树洞",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "白森林的设施",
+    "via": "llm"
+   },
+   {
+    "name": "黑色市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     15
+    ],
+    "what": "黑2的城镇",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     20
+    ],
+    "what": "故事舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "8月5日在横滨地标塔举办发售纪念粉丝见面会",
+   "anchor": 1
+  },
+  {
+   "seg": 6,
+   "text": "开发最初全体工作人员先拍了纪念照",
+   "anchor": 7
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-b2w2-fanmeeting-masuda-unno",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-b2w2-fanmeeting-masuda-unno/",
+   "why": "同为2012年8月5日横滨地标大厦发售纪念粉丝见面会对谈"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑2·白2》第2章：百人实时同屏的庆典任务与遗迹通信挑战",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-2-100-player-co-op/",
+   "why": "庆典任务最多100人同乐，本篇点名提及"
+  },
+  {
+   "id": "scan-ndream-2012-09-b2w2-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "只有《2》才能做到的冒险",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
+   "why": "联合任务100人同玩，与本篇庆典任务对应"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

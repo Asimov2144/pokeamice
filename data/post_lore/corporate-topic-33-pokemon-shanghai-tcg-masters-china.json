@@ -1,0 +1,174 @@
+{
+ "id": "corporate-topic-33-pokemon-shanghai-tcg-masters-china",
+ "stem": "2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 26
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     15
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     15,
+     17
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケモンカードゲーム マスターズ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦卡牌大师赛",
+    "slug": null,
+    "seg": [
+     0,
+     22
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦简中版",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "Pokémon Shanghai（宝可梦上海）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "宝可梦上海运营负责人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦上海团队",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "深圳",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "大师赛巡回城市",
+    "via": "llm"
+   },
+   {
+    "name": "万里长城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "北京千年古迹",
+    "via": "llm"
+   },
+   {
+    "name": "广州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "大师赛巡回城市",
+    "via": "llm"
+   },
+   {
+    "name": "北京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "大师赛巡回城市",
+    "via": "llm"
+   },
+   {
+    "name": "上海",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "大师赛巡回城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "大师赛由宝可梦公司在华子公司Pokémon Shanghai负责企划与运营，该公司2020年设立。",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "宝可梦集换式卡牌游戏简体中文版于2022年正式在大陆市场发售。",
+   "anchor": 4
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

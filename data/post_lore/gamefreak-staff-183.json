@@ -1,0 +1,96 @@
+{
+ "id": "gamefreak-staff-183",
+ "stem": "2010-05-21-gamefreak-staff-183",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 54
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "电线",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "胡萝卜塔",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": "game_freak",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "东京圈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "居住者可去看玫瑰",
+    "via": "llm"
+   },
+   {
+    "name": "富士山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "雨天从办公室看不见",
+    "via": "llm"
+   },
+   {
+    "name": "东京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "玫瑰季节所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "电线说胡萝卜塔附近邻居家门前也开着玫瑰"
+  },
+  {
+   "seg": 22,
+   "text": "雨一直下时，从办公室窗户看不见富士山轮廓"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

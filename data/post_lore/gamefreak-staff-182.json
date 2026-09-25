@@ -1,0 +1,87 @@
+{
+ "id": "gamefreak-staff-182",
+ "stem": "2010-05-14-gamefreak-staff-182",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     0,
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ポケットモンスター ハートゴールド・ソウルシルバー",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "ENTERBRAIN",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "颁奖典礼会场",
+    "via": "llm"
+   },
+   {
+    "name": "GAME FREAK 的办公室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "收到蛋糕的地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "我前往 ENTERBRAIN 参加电玩通奖颁奖典礼"
+  },
+  {
+   "seg": 11,
+   "text": "ENTERBRAIN 把巨型获奖纪念卡斯特拉蛋糕送到 GAME FREAK 办公室"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

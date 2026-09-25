@@ -1,0 +1,1 @@
+{"key": "876cc88aa10f5151", "answer": {"observations": [{"seg": 3, "text": "ジョニー前往洛杉矶参加说明会"}, {"seg": 6, "text": "柯达剧院每年举行奥斯卡颁奖典礼"}, {"seg": 25, "text": "ジョニー是第一次前往美国"}], "pokemon": [], "places": [{"name": "洛杉矶", "seg": 3, "what": "说明会所在城市", "world": "real"}, {"name": "柯达剧院", "seg": 4, "what": "说明会会场", "world": "real"}], "works": [], "people": [{"name": "ジョニー", "seg": 0}]}}

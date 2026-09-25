@@ -1,0 +1,169 @@
+{
+ "id": "interview-gpara-2006-yoshida",
+ "stem": "2006-04-24-interview-gpara-2006-yoshida",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     8
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "果然翁",
+    "ndex": 202,
+    "seg": [
+     5
+    ],
+    "as": [
+     "果然翁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "土龙弟弟",
+    "ndex": 206,
+    "seg": [
+     5
+    ],
+    "as": [
+     "土龙弟弟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     5
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "螺丝破坏者 轰振钻头乱转",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "螺丝破坏者 轰振钻头",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "speaker",
+    "seg": [
+     5,
+     6,
+     8,
+     10,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "西田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赤羽卓美",
+    "slug": "chi-yu-zhuo-mei",
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "札幌Hudson总公司",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "电视节目播出的工作场景",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "吉田宏信首次设计的宝可梦是果然翁、土龙弟弟和时拉比三只",
+   "anchor": 6
+  },
+  {
+   "seg": 6,
+   "text": "吉田宏信高二时看节目，Hudson员工说等着喜欢游戏的人成为伙伴",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

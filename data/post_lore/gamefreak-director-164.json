@@ -1,0 +1,171 @@
+{
+ "id": "gamefreak-director-164",
+ "stem": "2010-07-12-gamefreak-director-164",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 55
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     16,
+     17,
+     46,
+     48
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     3,
+     6,
+     7,
+     11,
+     14,
+     26,
+     30,
+     32,
+     33,
+     38,
+     44
+    ],
+    "as": [
+     "时拉比",
+     "Celebi"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     12,
+     13,
+     41,
+     42
+    ],
+    "as": [
+     "索罗亚",
+     "Zorua"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     2,
+     13,
+     25,
+     42
+    ],
+    "as": [
+     "索罗亚克",
+     "Zoroark"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "via": "gazetteer"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "电影院配发的宝可梦是时拉比"
+  },
+  {
+   "seg": 12,
+   "text": "把时拉比带到黑／白会触发特殊事件，索罗亚成为伙伴"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-166",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第166回",
+   "url": "/gamefreak-director/entry-166/",
+   "why": "同为增田专栏，均涉2010年电影配发时拉比"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

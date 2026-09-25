@@ -2,7 +2,7 @@
  "id": "scan-ndream-2008-10-platinum-special",
  "stem": "2008-08-21-scan-ndream-2008-10-platinum-special",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -374,6 +374,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      8
     ],
@@ -386,22 +387,11 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      59
     ],
     "what": "获得葛拉西蒂亚花之地",
-    "via": "llm"
-   },
-   {
-    "name": "神奥地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     74
-    ],
-    "what": "游戏舞台",
     "via": "llm"
    },
    {
@@ -410,6 +400,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      93
     ],
@@ -422,6 +413,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      104
     ],
@@ -434,22 +426,11 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      143
     ],
     "what": "《钻石·珍珠》中首次遇到赤日之地",
-    "via": "llm"
-   },
-   {
-    "name": "对战开拓区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     161
-    ],
-    "what": "新增对战设施",
     "via": "llm"
    },
    {
@@ -458,10 +439,37 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      186
     ],
     "what": "预选赛举办地",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     74
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "对战开拓区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     161
+    ],
+    "what": "新增对战设施",
     "via": "llm"
    }
   ]
@@ -481,19 +489,24 @@
    "id": "scan-ndream-2008-12-game-freak-interview",
    "kind": "responds",
    "label": "后来回应了这篇",
-   "why": "同刊后篇谈白金起源形态、谢米形态等新要素"
+   "title": "GAME FREAK谈宝可梦白金",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/",
+   "why": "同刊后续访谈补充起源形态与毁坏的世界"
   },
   {
    "id": "scan-ndream-2008-12-platinum-battle-dojo",
    "kind": "same-occasion",
    "label": "同一件事的另一种说法",
-   "why": "同刊白金特辑，附白金专访与获取攻略"
+   "title": "GAME FREAK对战专访",
+   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-platinum-battle-dojo/",
+   "why": "同刊同号《白金》特辑的对战报道"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

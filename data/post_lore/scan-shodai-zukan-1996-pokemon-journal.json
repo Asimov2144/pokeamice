@@ -2,7 +2,7 @@
  "id": "scan-shodai-zukan-1996-pokemon-journal",
  "stem": "1996-04-05-scan-shodai-zukan-1996-pokemon-journal",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -395,15 +395,42 @@
   ],
   "places": [
    {
+    "name": "东京塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     104
+    ],
+    "via": "extra",
+    "what": "多次办宝可梦活动"
+   },
+   {
     "name": "玉虹大学",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      2
     ],
     "what": "演讲主办地",
+    "via": "llm"
+   },
+   {
+    "name": "5号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     67
+    ],
+    "what": "培育屋报名处",
     "via": "llm"
    },
    {
@@ -412,6 +439,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "area",
     "seg": [
      41
     ],
@@ -424,22 +452,11 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "area",
     "seg": [
      44
     ],
     "what": "正辉住处附近",
-    "via": "llm"
-   },
-   {
-    "name": "5号道路",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     67
-    ],
-    "what": "培育屋报名处",
     "via": "llm"
    },
    {
@@ -448,6 +465,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "area",
     "seg": [
      38
     ],
@@ -470,7 +488,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

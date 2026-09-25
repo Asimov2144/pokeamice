@@ -1,0 +1,112 @@
+{
+ "id": "gamefreak-staff-60",
+ "stem": "2008-02-29-gamefreak-staff-60",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 86
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "Hiro",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     14
+    ]
+   },
+   {
+    "name": "おせんべい",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "げいのう",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ねこスQ（猫S Q）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "デコ（德科）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おにいさん（哥哥）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "Hiro 自称策划师（游戏设计师）"
+  },
+  {
+   "seg": 2,
+   "text": "Hiro 负责策划游戏创意，也翻译「觉醒力量」"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-124",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第124回",
+   "url": "/gamefreak-director/entry-124/",
+   "why": "同日前后，均涉初代宝可梦发售与时代回顾"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

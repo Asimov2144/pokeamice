@@ -2,7 +2,7 @@
  "id": "gamefreak-lineblog-4245921",
  "stem": "2016-06-17-gamefreak-lineblog-4245921",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "blog",
  "body": {
   "kind": "markdown",
@@ -38,6 +38,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      0
     ],
@@ -50,22 +51,11 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      0
     ],
     "what": "机场代码",
-    "via": "llm"
-   },
-   {
-    "name": "台湾",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     2
-    ],
-    "what": "伴手礼购买地",
     "via": "llm"
    },
    {
@@ -74,6 +64,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      20
     ],
@@ -86,10 +77,24 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      30
     ],
     "what": "买铁蛋的地方",
+    "via": "llm"
+   },
+   {
+    "name": "台湾",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "伴手礼购买地",
     "via": "llm"
    },
    {
@@ -98,6 +103,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "area",
     "seg": [
      1
     ],
@@ -120,7 +126,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

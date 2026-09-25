@@ -1,0 +1,120 @@
+{
+ "id": "interview-famitsu-xy-music-fanmeeting-masuda-kageyama",
+ "stem": "2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 18
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     1,
+     7
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     6,
+     14,
+     15
+    ]
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "speaker",
+    "seg": [
+     7
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心横滨",
+    "id": null,
+    "entity": "pokemon_center_yokohama",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心横滨店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "活动在宝可梦中心横滨店举办，主题是音乐，会场内准备了合成器。",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "午前10时30分发放抽选券，共150名（每回50名）参加粉丝见面会。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-dengeki-xy-masuda-kageyama-setting-art",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典",
+   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-xy-masuda-kageyama-setting-art/",
+   "why": "同为2013-11-16横滨宝可梦中心增田景山见面会报道"
+  },
+  {
+   "id": "interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录",
+   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/",
+   "why": "同为横滨宝可梦中心增田景山原声CD对谈报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

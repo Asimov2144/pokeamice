@@ -2,7 +2,7 @@
  "id": "gamefreak-director-146",
  "stem": "2009-04-16-gamefreak-director-146",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "blog",
  "body": {
   "kind": "markdown",
@@ -26,10 +26,25 @@
     "entity": "pokemon_center_tokyo",
     "category": "pc",
     "world": "real",
+    "scale": "spot",
     "seg": [
      5
     ],
     "via": "gazetteer"
+   },
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6,
+     36
+    ],
+    "via": "extra",
+    "what": "宝可梦公司总部所在"
    },
    {
     "name": "筑地市场",
@@ -37,6 +52,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      3
     ],
@@ -49,22 +65,11 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      4
     ],
     "what": "排名第2的景点",
-    "via": "llm"
-   },
-   {
-    "name": "六本木新城",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     6
-    ],
-    "what": "排名第4的景点",
     "via": "llm"
    },
    {
@@ -73,6 +78,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      7
     ],
@@ -85,6 +91,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      8
     ],
@@ -97,6 +104,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      9
     ],
@@ -109,34 +117,11 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      10
     ],
     "what": "排名第8的景点",
-    "via": "llm"
-   },
-   {
-    "name": "Spa World",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     11
-    ],
-    "what": "排名第9的景点",
-    "via": "llm"
-   },
-   {
-    "name": "日本环球影城",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     12
-    ],
-    "what": "排名第10的景点",
     "via": "llm"
    }
   ]
@@ -144,18 +129,19 @@
  "observations": [
   {
    "seg": 0,
-   "text": "外国人想去的日本旅游景点2008中排名第3"
+   "text": "增田顺一听说宝可梦中心东京在排名中列第3"
   },
   {
    "seg": 1,
-   "text": "排名根据TripAdvisor网站用户使用动向统计"
+   "text": "排名依据TripAdvisor网站用户使用动向统计"
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

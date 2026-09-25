@@ -1,0 +1,60 @@
+{
+ "id": "gamefreak-director-119",
+ "stem": "2008-01-10-gamefreak-director-119",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 41
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "增田顺一说今年自己的目标是“好好收束”"
+  },
+  {
+   "seg": 13,
+   "text": "他请读者在1月12日玩《宝可梦 钻石·珍珠》"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-121",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第121回",
+   "url": "/gamefreak-director/entry-121/",
+   "why": "第121回问读者12号是否玩了钻石珍珠，回应本篇的1月12日邀请"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

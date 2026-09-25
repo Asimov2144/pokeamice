@@ -1,0 +1,662 @@
+{
+ "id": "scan-ndream-2009-11-sugimori-charakami-special",
+ "stem": "2009-09-21-scan-ndream-2009-11-sugimori-charakami-special",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 158
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     143,
+     145
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     2,
+     3,
+     5,
+     10,
+     15,
+     31
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "小磁怪",
+    "ndex": 81,
+    "seg": [
+     116
+    ],
+    "as": [
+     "小磁怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     137,
+     138
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     28
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小卡比兽",
+    "ndex": 446,
+    "seg": [
+     149
+    ],
+    "as": [
+     "小卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     147
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     146
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     15
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉雷丘",
+    "ndex": 26,
+    "seg": [
+     15
+    ],
+    "as": [
+     "雷丘"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "凤王",
+    "ndex": 250,
+    "seg": [
+     137
+    ],
+    "as": [
+     "凤王"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     129,
+     136
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     98
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     121
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     119
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲人",
+    "slug": null,
+    "seg": [
+     109
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "昆迪",
+    "slug": null,
+    "seg": [
+     90
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "果冻男孩",
+    "slug": null,
+    "seg": [
+     95
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "螺丝破坏者 轰振钻头",
+    "slug": null,
+    "seg": [
+     95
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场2",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场 金・银",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦对战革命",
+    "slug": "battle-revolution",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦XD 暗之旋风 黑暗洛奇亚",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦弹珠台",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦消除",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦弹珠台 红宝石&蓝宝石",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦拼图",
+    "slug": null,
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "口袋皮卡丘彩色版 与金·银一起！",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂明星大乱斗",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂明星大乱斗DX",
+    "slug": null,
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂明星大乱斗X",
+    "slug": null,
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫 青之救助队·赤之救助队",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫 时之探险队·暗之探险队",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫 空之探险队",
+    "slug": null,
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫 前进！炎之冒险团·出发！风暴冒险团·目标！光之冒险团",
+    "slug": null,
+    "seg": [
+     61
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦洋彩",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮卡丘你好chu",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦冲刺",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员 巴特那奇",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦频道～和皮卡丘一起！～",
+    "slug": null,
+    "seg": [
+     75
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大家的宝可梦牧场 白金对应版",
+    "slug": null,
+    "seg": [
+     77
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙Ⅸ",
+    "slug": null,
+    "seg": [
+     155
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "无限航路",
+    "slug": null,
+    "seg": [
+     155
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太空哈利",
+    "slug": null,
+    "seg": [
+     154
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "巨人之星",
+    "slug": null,
+    "seg": [
+     88
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超人",
+    "slug": null,
+    "seg": [
+     128
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "传说巨神伊迪安",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "人造人009",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "假面骑士",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宇宙战舰大和号",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宇宙海盗哈洛克船长",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "千年女王",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "猿飞小忍者",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Gu-Gu甘莫",
+    "slug": null,
+    "seg": [
+     111
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     84,
+     93
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     90
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "mentioned",
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石森章太郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     103
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松本零士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     103
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "手冢治虫",
+    "slug": "shou-zhong-zhi-chong",
+    "role": "mentioned",
+    "seg": [
+     88
+    ],
+    "via": "llm",
+    "kind": "figure"
+   },
+   {
+    "name": "细野不二彦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     152
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "福冈县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     95
+    ],
+    "what": "杉森建出生地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 15,
+   "text": "皮卡丘有皮丘和雷丘两种进化形，雄性尾巴末端呈棱角状，雌性带心形圆润感。"
+  },
+  {
+   "seg": 100,
+   "text": "《心金·魂银》由美术总监海野先考虑设计，杉森监修并画成插画。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同为Nintendo DREAM 2009-09-21《心金·魂银》特辑"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+   "why": "同涉《心金·魂银》开发与杉森建相关访谈背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

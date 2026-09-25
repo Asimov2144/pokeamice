@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-director-191",
+ "stem": "2011-04-25-gamefreak-director-191",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "东北",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "地震灾区",
+    "via": "llm"
+   },
+   {
+    "name": "韩国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "4月21日，韩国版《黑／白》发售，增田顺一当天去参加了韩国的活动。"
+  },
+  {
+   "seg": 15,
+   "text": "同一天，宝可梦全球连接（PGL）连接起了全世界。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为增田部长专栏，前篇谈欧美发售"
+  },
+  {
+   "id": "gamefreak-director-185",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第185回",
+   "url": "/gamefreak-director/entry-185/",
+   "why": "同为增田部长专栏，接续海外宣传行程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

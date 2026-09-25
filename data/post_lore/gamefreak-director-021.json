@@ -1,0 +1,123 @@
+{
+ "id": "gamefreak-director-021",
+ "stem": "2004-10-04-gamefreak-director-021",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 70
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6,
+     36
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   },
+   {
+    "name": "下北泽站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "导览图所在车站",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田顺一最初对盲文产生兴趣，是在看到下北泽站的导览图时。"
+  },
+  {
+   "seg": 13,
+   "text": "为了让玩家在不知不觉间感到盲文就在身边，他在游戏里加入了一点盲文。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-005",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第5回",
+   "url": "/gamefreak-director/entry-005/",
+   "why": "同为増田部長のめざめるパワー系列第5回"
+  },
+  {
+   "id": "gamefreak-director-010",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第10回",
+   "url": "/gamefreak-director/entry-010/",
+   "why": "同为増田部長のめざめるパワー系列第10回"
+  },
+  {
+   "id": "gamefreak-director-015",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第15回",
+   "url": "/gamefreak-director/entry-015/",
+   "why": "同为増田部長のめざめるパワー系列第15回"
+  },
+  {
+   "id": "gamefreak-director-029",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第29回",
+   "url": "/gamefreak-director/entry-029/",
+   "why": "同为増田部長のめざめるパワー系列第29回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,171 @@
+{
+ "id": "gamefreak-staff-165",
+ "stem": "2010-01-22-gamefreak-staff-165",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 145
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     67,
+     140
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "小太",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ほっしー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "マシュー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "なぎー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ラッペン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "さとう",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ジョニー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おにいさん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おせんべい",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     60
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "もりもと",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "鹿儿岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     62
+    ],
+    "what": "妻子老家",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "继夏天之后，又用 iPhone 3G S 编程"
+  },
+  {
+   "seg": 6,
+   "text": "ほっしー说已无法离开 iPhone 活下去"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

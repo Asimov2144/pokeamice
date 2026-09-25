@@ -1,0 +1,105 @@
+{
+ "id": "gamefreak-staff-157",
+ "stem": "2009-12-04-gamefreak-staff-157",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 88
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     17,
+     61
+    ],
+    "as": [
+     "暴鲤龙",
+     "ギャラドス"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "鹤田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     40
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "鹤田在《心金·魂银》主要负责跟随宝可梦的图形制作"
+  },
+  {
+   "seg": 37,
+   "text": "尝试还原了几种宝可梦的雄雌差异，有的只差一个点阵"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-155",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年《心金·魂银》的美术设计",
+   "url": "/gamefreak-staff/entry-155/",
+   "why": "同为ＨＧ・ＳＳ語っちゃいます连载，其6在其7前"
+  },
+  {
+   "id": "gamefreak-staff-160",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年宝可梦开发幕后",
+   "url": "/gamefreak-staff/entry-160/",
+   "why": "同为该连载，其8在其7后并为连载收尾"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+   "why": "社长问详述全493只跟随与伙伴感设计"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

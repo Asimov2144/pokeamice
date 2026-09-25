@@ -1,0 +1,249 @@
+{
+ "id": "interview-1up-black-white-how-pokemon-get-made",
+ "stem": "2011-03-05-interview-1up-black-white-how-pokemon-get-made",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     7,
+     8,
+     9,
+     12
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "青藤蛇",
+    "ndex": 496,
+    "seg": [
+     9
+    ],
+    "as": [
+     "青藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炒炒猪",
+    "ndex": 499,
+    "seg": [
+     9
+    ],
+    "as": [
+     "炒炒猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     7,
+     8,
+     9
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     9
+    ],
+    "as": [
+     "大剑鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     4,
+     5
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     4,
+     5
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Fami通",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "井部真那",
+    "slug": "ibe-mana",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     1,
+     5
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "李贤贞",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田上玲子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "池袋的阳光国际水族馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "看海豹表演",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "设计团队约17人，各自画宝可梦后在小组会议讨论",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "莱希拉姆与捷克罗姆的尾巴基于电力涡轮机",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-bw-tanjou-hiwa-2011-pokemon",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦诞生秘话 总集篇",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/",
+   "why": "同为Nintendo DREAM黑·白诞生秘话总集篇，均述17人设计流程"
+  },
+  {
+   "id": "scan-ndream-2011-01-bw-design-secrets",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 黑·白 美术诞生秘闻",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/",
+   "why": "同刊黑·白美术专题，均述17人分工设计宝可梦"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

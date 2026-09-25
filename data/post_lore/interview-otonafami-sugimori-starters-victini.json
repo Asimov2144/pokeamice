@@ -1,0 +1,219 @@
+{
+ "id": "interview-otonafami-sugimori-starters-victini",
+ "stem": "2010-12-20-interview-otonafami-sugimori-starters-victini",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 10
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "木守宫",
+    "ndex": 252,
+    "seg": [
+     2
+    ],
+    "as": [
+     "木守宫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     3
+    ],
+    "as": [
+     "波加曼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     8,
+     9
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     2,
+     5
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     5
+    ],
+    "as": [
+     "君主蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     2,
+     5
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "炎武王",
+    "ndex": 500,
+    "seg": [
+     5
+    ],
+    "as": [
+     "炎武王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     3,
+     5,
+     7
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     5
+    ],
+    "as": [
+     "大剑鬼"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "钻石／珍珠",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     1,
+     9
+    ]
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "水族馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "大村祐介寻找灵感处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一在立项最初宣言彻底封印旧作、全员起用156只全新宝可梦",
+   "anchor": 2
+  },
+  {
+   "seg": 1,
+   "text": "杉森建曾试探抵抗，提议留一半老宝可梦，被增田顺一坚决回绝",
+   "anchor": 2
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为社长问，均记增田封印旧宝可梦、杉森提议减量"
+  },
+  {
+   "id": "interview-famitsu-1138-masuda-bw-secrets",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "週刊Fami通 No.1138 独家专访总监增田顺一：“让大人重新体验‘踢罐子’的惊喜”——打破宝可梦毕业现象、156只全新精灵、与神秘少年N专属超高速台词系统",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1138-masuda-bw-secrets/",
+   "why": "增田谈全盘替换旧宝可梦以拉平新老玩家差距"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

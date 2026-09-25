@@ -1,0 +1,386 @@
+{
+ "id": "gamefreak-staff-70",
+ "stem": "2008-05-16-gamefreak-staff-70",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 174
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "カイリキー",
+    "ndex": 68,
+    "seg": [
+     132,
+     133,
+     134,
+     135
+    ],
+    "as": [
+     "カイリキー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双弹瓦斯",
+    "ndex": 110,
+    "seg": [
+     21,
+     108
+    ],
+    "as": [
+     "双弹瓦斯",
+     "マタドガス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     44,
+     60,
+     61,
+     62,
+     67,
+     74,
+     131,
+     147,
+     148,
+     154,
+     161,
+     164
+    ],
+    "as": [
+     "暴鲤龙",
+     "ギャラドス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "果然翁",
+    "ndex": 202,
+    "seg": [
+     39,
+     126
+    ],
+    "as": [
+     "果然翁",
+     "ソーナンス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙奈朵",
+    "ndex": 282,
+    "seg": [
+     20,
+     107
+    ],
+    "as": [
+     "沙奈朵",
+     "サーナイト"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     76,
+     77,
+     163,
+     164
+    ],
+    "as": [
+     "巨金怪",
+     "メタグロス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉帝亚斯",
+    "ndex": 380,
+    "seg": [
+     65,
+     66,
+     68,
+     71,
+     72,
+     73,
+     152,
+     153,
+     155,
+     158,
+     159,
+     160
+    ],
+    "as": [
+     "拉帝亚斯",
+     "ラティアス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉帝欧斯",
+    "ndex": 381,
+    "seg": [
+     37,
+     124
+    ],
+    "as": [
+     "拉帝欧斯",
+     "ラティオス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰猴",
+    "ndex": 392,
+    "seg": [
+     26,
+     38,
+     60,
+     61,
+     62,
+     63,
+     113,
+     125,
+     147,
+     148,
+     149,
+     150
+    ],
+    "as": [
+     "烈焰猴",
+     "ゴウカザル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双尾怪手",
+    "ndex": 424,
+    "seg": [
+     21,
+     108
+    ],
+    "as": [
+     "双尾怪手",
+     "エテボース"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "青铜钟",
+    "ndex": 437,
+    "seg": [
+     43,
+     130
+    ],
+    "as": [
+     "青铜钟",
+     "ドータクン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈咬陆鲨",
+    "ndex": 445,
+    "seg": [
+     29,
+     116
+    ],
+    "as": [
+     "烈咬陆鲨",
+     "ガブリアス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴雪王",
+    "ndex": 460,
+    "seg": [
+     25,
+     112
+    ],
+    "as": [
+     "暴雪王",
+     "ユキノオー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛狃拉",
+    "ndex": 461,
+    "seg": [
+     46,
+     47,
+     133,
+     134
+    ],
+    "as": [
+     "玛狃拉",
+     "マニューラ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克基斯",
+    "ndex": 468,
+    "seg": [
+     35,
+     38,
+     67,
+     73,
+     122,
+     125,
+     154,
+     160
+    ],
+    "as": [
+     "波克基斯",
+     "トゲキッス"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ]
+   },
+   {
+    "name": "けむし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     105,
+     107
+    ]
+   },
+   {
+    "name": "ヒサコウ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     106
+    ]
+   },
+   {
+    "name": "ヒカリ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     110
+    ]
+   },
+   {
+    "name": "セガール",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     115,
+     116
+    ]
+   },
+   {
+    "name": "コトラ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     115,
+     117,
+     142,
+     146,
+     147,
+     152
+    ]
+   },
+   {
+    "name": "カビ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33,
+     35,
+     38,
+     39,
+     54,
+     59
+    ]
+   },
+   {
+    "name": "チョコぼう",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     120,
+     123,
+     124,
+     126
+    ]
+   },
+   {
+    "name": "ぎんが",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     129,
+     130,
+     132
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "与宝可梦公司举办公司对抗宝可梦DP对战大会"
+  },
+  {
+   "seg": 13,
+   "text": "主将战2分，其他比赛1分，队伍总分4分获胜"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-56",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2008年公司宝可梦对战大会",
+   "url": "/gamefreak-staff/entry-56/",
+   "why": "同为GAME FREAK社内宝可梦DP对战大会记录"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

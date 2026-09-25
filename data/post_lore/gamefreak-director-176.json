@@ -1,0 +1,136 @@
+{
+ "id": "gamefreak-director-176",
+ "stem": "2010-09-16-gamefreak-director-176",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "社长问问",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18,
+     58
+    ],
+    "via": "extra",
+    "what": "宝可梦公司总部所在"
+   },
+   {
+    "name": "台场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "麦当劳改名地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "距发售还有31小时25分57秒"
+  },
+  {
+   "seg": 8,
+   "text": "任天堂网站《社长问问》已公开BW版"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "社长问问BW版已公开，本篇提及该采访"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
+   "why": "社长问问BW版已公开，本篇提及该采访"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-3-expanding-play-communication",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第3章：因通信而拓展的游玩方式（随时无线连接、红外与C-Gear革命）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-3-expanding-play-communication/",
+   "why": "社长问问BW版已公开，本篇提及该采访"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence/",
+   "why": "社长问问BW版已公开，本篇提及该采访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

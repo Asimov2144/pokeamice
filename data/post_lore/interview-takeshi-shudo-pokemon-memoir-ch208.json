@@ -1,0 +1,256 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+ "stem": "2010-01-13-interview-takeshi-shudo-pokemon-memoir-ch208",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 97
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     35,
+     56,
+     69
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     2,
+     8
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     2,
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     8,
+     62
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     81
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     85
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "水户黄门",
+    "slug": null,
+    "seg": [
+     54,
+     56
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "海螺小姐",
+    "slug": null,
+    "seg": [
+     54
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "镜之国的少女",
+    "slug": null,
+    "seg": [
+     86
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     11,
+     43,
+     62,
+     85,
+     86,
+     88
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     56,
+     69
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     35,
+     56,
+     69
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2,
+     8
+    ]
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     8,
+     62
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     35
+    ],
+    "what": "首藤的家乡",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     44
+    ],
+    "what": "父母老宅所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 47,
+   "text": "首藤刚志打电话问汤山总监督打算让《宝可梦》再搞几年",
+   "anchor": 48
+  },
+  {
+   "seg": 48,
+   "text": "汤山总监督回答至少再干十年",
+   "anchor": 49
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+   "why": "第206回即“宝可梦还要再做十年”，同系列前篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "第209回紧接第208回，同系列后篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+   "why": "第210回紧接第208回，同系列后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

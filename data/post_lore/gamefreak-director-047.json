@@ -1,0 +1,124 @@
+{
+ "id": "gamefreak-director-047",
+ "stem": "2005-07-28-gamefreak-director-047",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 66
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石＆珍珠",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红宝石＆蓝宝石",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "火红＆叶绿",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "绿宝石",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "月刊 CoroCoro 漫画",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "增田顺一正在研究把宝可梦带过去的机制"
+  },
+  {
+   "seg": 9,
+   "text": "整体构想或方向很早以前就已经成形"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-055",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第55回",
+   "url": "/gamefreak-director/entry-055/",
+   "why": "同为增田专栏，第55回续谈DS新作开发进展"
+  },
+  {
+   "id": "gamefreak-director-005",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第5回",
+   "url": "/gamefreak-director/entry-005/",
+   "why": "第5回已谈跨地区交换对战，是传送话题背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

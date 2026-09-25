@@ -1,0 +1,239 @@
+{
+ "id": "gamefreak-staff-106",
+ "stem": "2009-01-09-gamefreak-staff-106",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 162
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "红白歌会",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山手线游戏",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ラッペン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3,
+     6,
+     84,
+     87
+    ]
+   },
+   {
+    "name": "ジョニー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7,
+     8,
+     12,
+     88,
+     89,
+     93
+    ]
+   },
+   {
+    "name": "おにいさん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13,
+     20,
+     94,
+     101
+    ]
+   },
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ]
+   },
+   {
+    "name": "いわし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30,
+     36,
+     111,
+     117
+    ]
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "エノキ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "もりもと",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "なぎー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     42
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "スティック",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "さとう",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "博",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     63
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ユッフィー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "冲绳美丽海水族馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "what": "水族馆",
+    "via": "llm"
+   },
+   {
+    "name": "奥特莱斯购物中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     65
+    ],
+    "what": "购物地点",
+    "via": "llm"
+   },
+   {
+    "name": "不动尊",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     70
+    ],
+    "what": "领取护身符处",
+    "via": "llm"
+   },
+   {
+    "name": "冲绳",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "度假地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "ラッペン通关了约三款DS推理类冒险游戏"
+  },
+  {
+   "seg": 8,
+   "text": "ジョニー在除夕办了跨年火锅聚会"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,1 @@
+{"key": "db3143cd79518736", "answer": {"observations": [{"seg": 2, "text": "M.Y.毕业于武藏野美术大学映像学科，以游戏策划身份入社。"}, {"seg": 9, "text": "M.Y.在《走吧！皮卡丘／走吧！伊布》中主导宝可梦跟随行走系统。"}], "pokemon": [], "places": [{"name": "武藏野美术大学", "seg": 2, "what": "M.Y.的毕业院校", "world": "real"}], "works": [{"name": "宝可梦 走吧！皮卡丘／走吧！伊布", "seg": 9}], "people": [{"name": "M.Y.", "seg": 2}, {"name": "田尻智", "seg": 12}]}}

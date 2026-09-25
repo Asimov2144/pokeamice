@@ -1,0 +1,236 @@
+{
+ "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+ "stem": "2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 41
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火马",
+    "ndex": 77,
+    "seg": [
+     2
+    ],
+    "as": [
+     "小火马"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     8,
+     12
+    ],
+    "as": [
+     "大葱鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双弹瓦斯",
+    "ndex": 110,
+    "seg": [
+     5,
+     7
+    ],
+    "as": [
+     "双弹瓦斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毛辫羊",
+    "ndex": 831,
+    "seg": [
+     2,
+     5,
+     6
+    ],
+    "as": [
+     "毛辫羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "葱游兵",
+    "ndex": 865,
+    "seg": [
+     0,
+     2,
+     4,
+     5,
+     8,
+     12
+    ],
+    "as": [
+     "葱游兵"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "塞尔达传说：旷野之息",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 HOME",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 盾",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金／银",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     6,
+     7,
+     9,
+     11,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     16,
+     25,
+     29,
+     31,
+     36
+    ]
+   },
+   {
+    "name": "Chris Tapsell",
+    "slug": "ke-li-si-ta-pu-sai-er",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "康沃尔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "英国采风地",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "放弃收录全部八九百只宝可梦的全国图鉴，引来粉丝强烈抗议。",
+   "anchor": 2
+  },
+  {
+   "seg": 9,
+   "text": "大森滋称葱游兵是全新设计，以骑士概念把大葱作剑、葱叶作盾。",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-vg247-2019-swsh",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与大森滋谈剑盾",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-vg247-2019-swsh/",
+   "why": "同为2019-10-24剑盾发售前采访增田大森，谈全国图鉴争议"
+  },
+  {
+   "id": "interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/",
+   "why": "E3 2019已说明仅收录伽勒尔图鉴、未收录者无法传送"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

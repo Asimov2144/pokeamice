@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-staff-154",
+ "stem": "2009-11-13-gamefreak-staff-154",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 108
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "ラッペン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Mr.奥克莱",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东南亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "富士宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     48
+    ],
+    "what": "炒面产地",
+    "via": "llm"
+   },
+   {
+    "name": "中野区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     29
+    ],
+    "what": "出生地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "学生时代参加滑雪社团，滑雪合宿时会在夜行巴士停靠的服务区买炒面"
+  },
+  {
+   "seg": 12,
+   "text": "去东南亚旅行，不到一周的旅途中早中晚三顿都吃炒面"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

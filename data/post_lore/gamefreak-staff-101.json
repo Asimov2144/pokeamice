@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-101",
+ "stem": "2008-12-12-gamefreak-staff-101",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 43
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カラシ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "我今年4月入职，职位是图形设计师，名字是カラシ。"
+  },
+  {
+   "seg": 13,
+   "text": "入职半年，已经相当习惯工作，但像素画仍常画不出想要的质量。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

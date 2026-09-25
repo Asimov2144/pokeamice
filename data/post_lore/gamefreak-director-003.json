@@ -1,0 +1,86 @@
+{
+ "id": "gamefreak-director-003",
+ "stem": "2004-08-04-gamefreak-director-003",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 43
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "绿宝石于9月16日星期四发售"
+  },
+  {
+   "seg": 10,
+   "text": "增田顺一请读者预约"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-emerald-battle-frontier-evolution",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "N.O.M 2004年9月号宝可梦总力特集",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-emerald-battle-frontier-evolution/",
+   "why": "同为绿宝石9月16日发售前后的报道"
+  },
+  {
+   "id": "gamefreak-director-015",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第15回",
+   "url": "/gamefreak-director/entry-015/",
+   "why": "同系列专栏，谈绿宝石舞台丰缘地区"
+  },
+  {
+   "id": "gamefreak-director-029",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第29回",
+   "url": "/gamefreak-director/entry-029/",
+   "why": "回顾一年时提到绿宝石已发售"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

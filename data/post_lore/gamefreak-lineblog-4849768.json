@@ -1,0 +1,120 @@
+{
+ "id": "gamefreak-lineblog-4849768",
+ "stem": "2016-07-09-gamefreak-lineblog-4849768",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 46
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     7
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 GO",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "EURO2016",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "埃菲尔铁塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "抓呆呆兽的地点",
+    "via": "llm"
+   },
+   {
+    "name": "凯旋门",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     29
+    ],
+    "what": "他第一次登上",
+    "via": "llm"
+   },
+   {
+    "name": "Japan Expo",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "他登上的舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一在酒店屋顶开会，他说这是第一次"
+  },
+  {
+   "seg": 7,
+   "text": "他在埃菲尔铁塔用宝可梦 GO 抓到呆呆兽，是第一次"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,350 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch202",
+ "stem": "2009-11-18-interview-takeshi-shudo-pokemon-memoir-ch202",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 128
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     51,
+     52,
+     63
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     1,
+     8,
+     69,
+     75,
+     78
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     2,
+     3,
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     1,
+     8,
+     69,
+     75,
+     78
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小仙女",
+    "slug": null,
+    "seg": [
+     47
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "欢欢仙子",
+    "slug": null,
+    "seg": [
+     85,
+     86
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "火箭队直到永远",
+    "slug": null,
+    "seg": [
+     44
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "时间飞船",
+    "slug": null,
+    "seg": [
+     43
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "明日之丈",
+    "slug": null,
+    "seg": [
+     117
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "卡姆伊外传",
+    "slug": null,
+    "seg": [
+     118
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     49,
+     112
+    ]
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [
+     46,
+     47,
+     56
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     56
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     41,
+     56
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     2,
+     3,
+     4,
+     65
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     8,
+     69,
+     75,
+     78
+    ]
+   },
+   {
+    "name": "林原惠",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     46
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     51,
+     52,
+     57,
+     63
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     51,
+     52,
+     63
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "白土三平",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     118
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "松涛中学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [],
+    "what": "首藤刚志母校",
+    "via": "llm"
+   },
+   {
+    "name": "国会议事堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [],
+    "what": "抗议暴动地点",
+    "via": "llm"
+   },
+   {
+    "name": "议员会馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [],
+    "what": "抗议暴动地点",
+    "via": "llm"
+   },
+   {
+    "name": "秋叶原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [],
+    "what": "无差别事件现场",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [],
+    "what": "首藤刚志母校所在",
+    "via": "llm"
+   },
+   {
+    "name": "新宿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [],
+    "what": "与涩谷对比的街区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 41,
+   "text": "首藤刚志说GB游戏《宝可梦》有火箭队组织，但无动画三人组与喵喵这类具体角色。",
+   "anchor": 42
+  },
+  {
+   "seg": 46,
+   "text": "首藤刚志称林原惠当年或是首次在长篇动画里正式出演反派恶役。",
+   "anchor": 47
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch198",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第198回：想让火箭队出尽风头是好事，但是……（消灭自我的伪善共存、全员皆主角的群像剧革命与配角人设深渊）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch198/",
+   "why": "同为火箭队与共存主题的相邻回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
+   "why": "标题即与火箭队共存，接续第202回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch205/",
+   "why": "续谈火箭队松爪自白与共存"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "同论自我存在与生命共存哲学"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

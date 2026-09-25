@@ -1,0 +1,142 @@
+{
+ "id": "interview-pokemon-recruit-communication-egami",
+ "stem": "2018-12-01-interview-pokemon-recruit-communication-egami",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     13
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美录坦",
+    "ndex": 808,
+    "seg": [
+     14
+    ],
+    "as": [
+     "美录坦",
+     "Meltan"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     3,
+     6,
+     7,
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 走吧！皮卡丘／走吧！伊布",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／绿",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "江上周作",
+    "slug": "egami-shusaku",
+    "role": "speaker",
+    "seg": [
+     2,
+     7,
+     10,
+     14,
+     16,
+     19
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     14
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "江上周作自2015年1月起全盘统筹负责Pokémon GO项目",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "每月在游戏内举办一次社群日，并在美洲、欧洲和日本办线下活动",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-denfaminicogamer-pokemon-go-miracle",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
+   "why": "同为2018年Pokémon GO官方/主创访谈，讲GO起源与上线"
+  },
+  {
+   "id": "interview-pokemoncom-2018-letsgo-makers",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦 Let's Go 开发者访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/",
+   "why": "同谈Pokémon GO与Let's Go联动背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

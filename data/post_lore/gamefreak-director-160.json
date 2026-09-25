@@ -1,0 +1,90 @@
+{
+ "id": "gamefreak-director-160",
+ "stem": "2010-04-09-gamefreak-director-160",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦黑",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦白",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一宣布正在开发的新作公布正式名称"
+  },
+  {
+   "seg": 10,
+   "text": "他称宝可梦将通过这部作品以革新姿态重获新生"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-163",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第163回",
+   "url": "/gamefreak-director/entry-163/",
+   "why": "公布黑·白正式名称与9月18日发售日"
+  },
+  {
+   "id": "gamefreak-director-167",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第167回",
+   "url": "/gamefreak-director/entry-167/",
+   "why": "谈黑·白全面变化，称其为最高杰作"
+  },
+  {
+   "id": "gamefreak-director-170",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第170回",
+   "url": "/gamefreak-director/entry-170/",
+   "why": "说明黑·白全程只出现新宝可梦的理念"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

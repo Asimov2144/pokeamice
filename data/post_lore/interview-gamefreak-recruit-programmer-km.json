@@ -1,0 +1,95 @@
+{
+ "id": "interview-gamefreak-recruit-programmer-km",
+ "stem": "2021-12-27-interview-gamefreak-recruit-programmer-km",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦系列专有引擎研发",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "K.M.",
+    "slug": "k-m",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "K.M.曾在大型游戏公司任职15年，负责知名IP超过10年",
+   "anchor": 4
+  },
+  {
+   "seg": 7,
+   "text": "《宝可梦》系列拥有超过1000个模型，且每一个形状都各不相同",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-crosstalk-system-programmer",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK。",
+   "url": "/interviews/interview-gamefreak-crosstalk-system-programmer/",
+   "why": "同日同系列招聘特辑，K.M.研究开发部副部长身份一致"
+  },
+  {
+   "id": "interview-gamefreak-recruit-ta-tk",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道。",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-ta-tk/",
+   "why": "同涉超1000只宝可梦3D模型制作环境"
+  },
+  {
+   "id": "interview-gamefreak-crosstalk-scenario",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/",
+   "why": "同日发布，K.M.参与对谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

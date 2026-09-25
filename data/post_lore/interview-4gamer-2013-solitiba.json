@@ -1,0 +1,185 @@
+{
+ "id": "interview-4gamer-2013-solitiba",
+ "stem": "2013-10-08-interview-4gamer-2013-solitiba",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 262
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "ソリティ馬",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "纸牌赛马",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "螺丝破坏者 轰振钻头",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     96
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "龙之皇冠",
+    "slug": null,
+    "seg": [
+     130
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     197
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "新游戏设计",
+    "slug": null,
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "4Gamer",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     13,
+     15,
+     17,
+     19,
+     21
+    ]
+   },
+   {
+    "name": "渡边哲也",
+    "slug": "watanabe-tetsuya",
+    "role": "speaker",
+    "seg": [
+     14,
+     16,
+     20,
+     24,
+     26,
+     28
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     18,
+     29,
+     34,
+     36,
+     40,
+     48
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     98
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田谷正夫",
+    "slug": "taya-masao",
+    "role": "mentioned",
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一之濑",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     96
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小幡",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     101
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "神谷盛治",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     130
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 110,
+   "text": "正式开发始于2012年4月，企划提出约在半年前即2011年10月",
+   "anchor": 111
+  },
+  {
+   "seg": 96,
+   "text": "一之濑从《宝可梦 红·绿》时期就在公司，约20年",
+   "anchor": 97
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

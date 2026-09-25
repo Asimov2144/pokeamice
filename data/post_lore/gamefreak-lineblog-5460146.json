@@ -1,0 +1,53 @@
+{
+ "id": "gamefreak-lineblog-5460146",
+ "stem": "2016-08-12-gamefreak-lineblog-5460146",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     32
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "增田以宝可梦公司身份参与宝可梦GO开发"
+  },
+  {
+   "seg": 13,
+   "text": "他负责世界观构建、游戏设计、音乐、音效"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2483480",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦GO开启新世界",
+   "url": "/gamefreak-director/lineblog-2483480/",
+   "why": "同为宝可梦GO企划，前篇讲实地测试启动"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

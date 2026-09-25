@@ -1,0 +1,81 @@
+{
+ "id": "gamefreak-director-230",
+ "stem": "2012-12-10-gamefreak-director-230",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 29
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     7,
+     23
+    ],
+    "as": [
+     "代欧奇希斯",
+     "Deoxys"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "原定明年春天赠送的代欧奇希斯礼物"
+  },
+  {
+   "seg": 8,
+   "text": "12月15日（星期六）起在等离子队制压活动会场等地提前送出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-222",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第222回",
+   "url": "/gamefreak-director/entry-222/",
+   "why": "黑2白2新作与酋雷姆登场背景"
+  },
+  {
+   "id": "gamefreak-director-223",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第223回",
+   "url": "/gamefreak-director/entry-223/",
+   "why": "酋雷姆电影登场背景"
+  },
+  {
+   "id": "gamefreak-director-225",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第225回",
+   "url": "/gamefreak-director/entry-225/",
+   "why": "黑2白2发售日与预订背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

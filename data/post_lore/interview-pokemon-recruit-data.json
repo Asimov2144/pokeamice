@@ -1,0 +1,75 @@
+{
+ "id": "interview-pokemon-recruit-data",
+ "stem": "2023-09-10-interview-pokemon-recruit-data",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 23
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "坂上",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     11,
+     15,
+     19,
+     22
+    ]
+   },
+   {
+    "name": "水口",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     10,
+     14,
+     17,
+     21
+    ]
+   },
+   {
+    "name": "寺田佑贵",
+    "slug": "si-tian-you-gui",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "寺田佑贵任开发本部App事业部总监，兼任数据团队核心成员",
+   "anchor": 4
+  },
+  {
+   "seg": 10,
+   "text": "水口此前曾连续3年在影视企划部深耕历练",
+   "anchor": 16
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,1 @@
+{"key": "08f6ad5d60afe904", "answer": {"observations": [{"seg": 0, "text": "今天是会餐，本店在博多中洲的店"}, {"seg": 7, "text": "左边是猪肉，右边是牛肉"}, {"seg": 11, "text": "把肉放进中间的尾汤里煮熟再吃"}, {"seg": 23, "text": "增田顺一把肉以外的地方调暗了"}], "pokemon": [], "places": [{"name": "博多中洲", "seg": 0, "what": "会餐店铺所在地", "world": "real"}], "works": [], "people": [{"name": "增田顺一", "seg": 23}]}}

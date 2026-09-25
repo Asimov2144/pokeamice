@@ -1,0 +1,261 @@
+{
+ "id": "interview-famitsu-detective-pikachu-jinnai-miyashita",
+ "stem": "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 97
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     39
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     39
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     8
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "长尾怪手",
+    "ndex": 190,
+    "seg": [
+     35
+    ],
+    "as": [
+     "长尾怪手"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "结草儿",
+    "ndex": 412,
+    "seg": [
+     64,
+     66,
+     67,
+     69
+    ],
+    "as": [
+     "结草儿"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "名侦探皮卡丘",
+    "slug": "detective-pikachu",
+    "seg": [
+     0,
+     1,
+     5,
+     6,
+     8,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦乐园",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 究极之日／究极之月",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Fami通编辑部",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     11,
+     14,
+     16,
+     18,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "阵内弘之",
+    "slug": "jinnai-hiroyuki",
+    "role": "speaker",
+    "seg": [
+     12,
+     15,
+     17,
+     19,
+     21,
+     23
+    ]
+   },
+   {
+    "name": "宫下尚生",
+    "slug": "miyashita-naoki",
+    "role": "speaker",
+    "seg": [
+     13,
+     26,
+     28,
+     31,
+     35,
+     37
+    ]
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大川透",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "柳泽康敬",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "皮卡丘由大川透配音，不是大谷育江",
+   "anchor": 3
+  },
+  {
+   "seg": 49,
+   "text": "皮卡丘动作捕捉请的是中年男性演员",
+   "anchor": 50
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "Famitsu 专访《名侦探皮卡丘 归来》：石原恒和×阵内弘之——大叔皮卡丘是“会说人类语言的宝可梦”的终点，兼谈《赤·绿》诞生秘话与《Pokémon Sleep》",
+   "url": "/%E8%AE%BF%E8%B0%88/%E4%B8%BB%E5%88%9B%E5%AF%B9%E8%AF%9D/interview-famitsu-detective-pikachu-returns-ishihara-jinnai/",
+   "why": "同为Fami通对谈阵内弘之，谈名侦探皮卡丘"
+  },
+  {
+   "id": "interview-cgworld-creatures-3d-character-life",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术",
+   "url": "/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/",
+   "why": "Creatures团队与名侦探皮卡丘开发背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

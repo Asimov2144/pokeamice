@@ -1,0 +1,138 @@
+{
+ "id": "gamefreak-staff-136",
+ "stem": "2009-07-24-gamefreak-staff-136",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 120
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カニ子（蟹子）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ラッペン（拉彭）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ほず（阿穗）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "デコ（德科）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ユッフィー（尤菲）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "滑板客丸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "呀呀",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "Carrot Tower",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     37
+    ],
+    "what": "买茶的地方",
+    "via": "llm"
+   },
+   {
+    "name": "三茶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "等身大高达走来处",
+    "via": "llm"
+   },
+   {
+    "name": "台场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     42
+    ],
+    "what": "等身大高达所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "「我」是负责网站开发的カニ子（蟹子）"
+  },
+  {
+   "seg": 7,
+   "text": "ラッペン准备了两副日食眼镜，结果错过了"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

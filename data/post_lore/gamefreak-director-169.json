@@ -1,0 +1,136 @@
+{
+ "id": "gamefreak-director-169",
+ "stem": "2010-08-02-gamefreak-director-169",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 62
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦搜查器 黑·白",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "RIKACO",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ]
+   },
+   {
+    "name": "三船",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ]
+   },
+   {
+    "name": "木佐",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6,
+     39
+    ],
+    "via": "extra",
+    "what": "宝可梦公司总部所在"
+   },
+   {
+    "name": "茨城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "表亲所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一当天早上去了茨城，见表亲，阔别30年。"
+  },
+  {
+   "seg": 5,
+   "text": "增田顺一排队预约了宝可梦 黑·白各两份。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-167",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第167回",
+   "url": "/gamefreak-director/entry-167/",
+   "why": "第167回说后天开始接受预订，本篇记录已开始预约"
+  },
+  {
+   "id": "gamefreak-director-170",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第170回",
+   "url": "/gamefreak-director/entry-170/",
+   "why": "第170回为下一篇，同系列黑白话题延续"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

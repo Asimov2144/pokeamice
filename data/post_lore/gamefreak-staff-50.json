@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-50",
+ "stem": "2007-12-27-gamefreak-staff-50",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 74
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "Tsubassā",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "今年包下一家餐厅，举办赌场形式的游戏大会"
+  },
+  {
+   "seg": 13,
+   "text": "游戏内容有扑克、二十一点、黑胡子危机一发等"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,181 @@
+{
+ "id": "gamefreak-staff-134",
+ "stem": "2009-07-10-gamefreak-staff-134",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 124
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "えるかつ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     26,
+     49,
+     88,
+     111
+    ]
+   },
+   {
+    "name": "いわし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28,
+     90
+    ]
+   },
+   {
+    "name": "KAGE",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     38,
+     100
+    ]
+   },
+   {
+    "name": "マー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     40,
+     102
+    ]
+   },
+   {
+    "name": "蟹子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "石川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "えるかつ支持的地方",
+    "via": "llm"
+   },
+   {
+    "name": "三重县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "えるかつ实际出身地",
+    "via": "llm"
+   },
+   {
+    "name": "大分县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "いわし的出身地",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     23
+    ],
+    "what": "公司所在地",
+    "via": "llm"
+   },
+   {
+    "name": "关东",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     23
+    ],
+    "what": "员工出身较多地区",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     24
+    ],
+    "what": "投票数为0的地区",
+    "via": "llm"
+   },
+   {
+    "name": "东北",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     24
+    ],
+    "what": "纳吉的出身地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 15,
+   "text": "问卷投票人数约为员工总数的三分之一到二分之一"
+  },
+  {
+   "seg": 24,
+   "text": "纳吉说自己出身东北，北海道、东北有投票数为0的地方"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

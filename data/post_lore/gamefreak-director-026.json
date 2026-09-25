@@ -1,0 +1,91 @@
+{
+ "id": "gamefreak-director-026",
+ "stem": "2004-12-13-gamefreak-director-026",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2,
+     17
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "GAME FREAK 上周举办了年终聚会。"
+  },
+  {
+   "seg": 2,
+   "text": "聚会包下下北泽的一个地方。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-001",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第1回",
+   "url": "/gamefreak-director/entry-001/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  },
+  {
+   "id": "gamefreak-director-002",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第2回",
+   "url": "/gamefreak-director/entry-002/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  },
+  {
+   "id": "gamefreak-director-003",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第3回",
+   "url": "/gamefreak-director/entry-003/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  },
+  {
+   "id": "gamefreak-director-004",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第4回",
+   "url": "/gamefreak-director/entry-004/",
+   "why": "同为増田部長のめざめるパワー系列专栏"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

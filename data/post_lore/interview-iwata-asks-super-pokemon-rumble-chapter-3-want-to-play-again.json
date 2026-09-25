@@ -1,0 +1,164 @@
+{
+ "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+ "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 67
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "超级宝可梦乱战",
+    "slug": "rumble-blast",
+    "seg": [
+     0,
+     25,
+     44
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦乱战",
+    "slug": "rumble",
+    "seg": [
+     0,
+     19,
+     25,
+     44
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦立体图鉴BW",
+    "slug": "pokedex-3d",
+    "seg": [
+     23,
+     47
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "乱战！",
+    "slug": null,
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     6,
+     8,
+     12,
+     16
+    ]
+   },
+   {
+    "name": "小泽达雄",
+    "slug": "ozawa-tatsuo",
+    "role": "speaker",
+    "seg": [
+     3,
+     7,
+     13,
+     15,
+     17,
+     20
+    ]
+   },
+   {
+    "name": "松村直树",
+    "slug": "matsumura-naoki",
+    "role": "speaker",
+    "seg": [
+     5,
+     9,
+     11,
+     14,
+     27,
+     29
+    ]
+   },
+   {
+    "name": "众人",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     10,
+     57,
+     66
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     21,
+     23,
+     25,
+     28,
+     35,
+     37
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 17,
+   "text": "小泽达雄说测试员表示发售后想自费买一张再通关一遍",
+   "anchor": 18
+  },
+  {
+   "seg": 44,
+   "text": "石原恒和说实体纸雕作为早期购入特典免费赠给预购玩家",
+   "anchor": 45
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
+   "why": "同为《超级宝可梦乱战》社长问第1章"
+  },
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
+   "why": "同为《超级宝可梦乱战》社长问第2章"
+  },
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/",
+   "why": "同为《超级宝可梦乱战》社长问第4章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

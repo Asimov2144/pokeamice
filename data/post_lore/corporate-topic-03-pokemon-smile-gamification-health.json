@@ -1,0 +1,130 @@
+{
+ "id": "corporate-topic-03-pokemon-smile-gamification-health",
+ "stem": "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon Smile",
+    "slug": null,
+    "seg": [
+     0,
+     4,
+     6,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンスマイル",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "怪物猎人",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "LITALICO",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "name": "カナヘイ（卡娜赫拉）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "前田高志（NASU）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "裏谷玲央",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ]
+   },
+   {
+    "name": "カナヘイ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "前田高志",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "调查显示95.4%母亲认同儿童刷牙重要，98%坦言无法完美督促",
+   "anchor": 3
+  },
+  {
+   "seg": 17,
+   "text": "应用免费开放，支持12种语言，在150多个国家和地区上线",
+   "anchor": 18
+  }
+ ],
+ "relations": [
+  {
+   "id": "corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/",
+   "why": "同为官网Topics系列第02篇，本篇为第03篇"
+  },
+  {
+   "id": "corporate-topic-01-pokefuta-manhole-travel",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/",
+   "why": "同为官网Topics系列第01篇，本篇为第03篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,240 @@
+{
+ "id": "interview-nom-dp-ishihara-masuda-sugimori",
+ "stem": "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 95
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     62
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     62
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     49
+    ],
+    "as": [
+     "波加曼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     62
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     1,
+     13,
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 对战革命",
+    "slug": null,
+    "seg": [
+     78
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脑力锻炼",
+    "slug": null,
+    "seg": [
+     42
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     6,
+     12,
+     15,
+     19,
+     21,
+     25
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     7,
+     22,
+     29,
+     32,
+     47,
+     51
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     8,
+     11,
+     17,
+     23,
+     27,
+     34
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     10,
+     13,
+     16,
+     20,
+     26,
+     42
+    ]
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "地下世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     84
+    ],
+    "what": "地下探险空间",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "本作冒险舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 34,
+   "text": "增田顺一称旧规则按属性一刀切，存在不合理组合与矛盾",
+   "anchor": 35
+  },
+  {
+   "seg": 59,
+   "text": "石原恒和称日版起名恒吉的宝可梦在德国卡带显示为日文字符",
+   "anchor": 60
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 钻石·珍珠开发谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/",
+   "why": "同为2006年10月N.O.M《钻石·珍珠》主创访谈"
+  },
+  {
+   "id": "interview-nintendo-power-masuda-gens-1-4",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+   "why": "增田谈《钻石·珍珠》以终极为主题与GTS"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

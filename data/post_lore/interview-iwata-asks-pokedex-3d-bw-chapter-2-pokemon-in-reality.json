@@ -1,0 +1,152 @@
+{
+ "id": "interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+ "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦立体图鉴BW",
+    "slug": "pokedex-3d",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     8,
+     10,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     12,
+     31,
+     33,
+     36
+    ]
+   },
+   {
+    "name": "竹内敦",
+    "slug": "takeuchi-atsushi",
+    "role": "speaker",
+    "seg": [
+     6,
+     9,
+     11,
+     14,
+     16,
+     22
+    ]
+   },
+   {
+    "name": "小笠原裕",
+    "slug": "ogasawara-yutaka",
+    "role": "speaker",
+    "seg": [
+     17,
+     19,
+     21,
+     23,
+     35,
+     37
+    ]
+   },
+   {
+    "name": "折本哲也",
+    "slug": "orimoto-tetsuya",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "竹内敦说3D建模师约30人，骨骼动画约5人。",
+   "anchor": 12
+  },
+  {
+   "seg": 19,
+   "text": "小笠原裕举例：大耳朵遮挡光线产生的阴影投在宝可梦自己的后背与肩膀上。",
+   "anchor": 20
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/",
+   "why": "同为《社长问》立体图鉴BW系列，第1章"
+  },
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第3章：“一目了然被看穿也无妨”（石原恒和现场手绘比克提尼AR码、开发者直呼“欢迎破解”与可成长的图鉴）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation/",
+   "why": "同为《社长问》立体图鉴BW系列，第3章"
+  },
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all/",
+   "why": "同为《社长问》立体图鉴BW系列，第4章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

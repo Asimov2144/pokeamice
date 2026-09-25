@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-director-207",
+ "stem": "2011-08-25-gamefreak-director-207",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 95
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "帆巴市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     30
+    ],
+    "what": "C5对应的城市",
+    "via": "llm"
+   },
+   {
+    "name": "吹寄市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     31
+    ],
+    "what": "C6对应的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "市场销售柜台变化准备了4张室内地图"
+  },
+  {
+   "seg": 22,
+   "text": "田地按冬土、春芽、夏花、秋果实循环"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendodream-bw-bridges-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻",
+   "url": "/developer-interviews/official-archives/interview-nintendodream-bw-bridges-masuda/",
+   "why": "同谈帆巴市桥梁设定，需其背景"
+  },
+  {
+   "id": "scan-ndream-2011-04-bw-design-secrets-part2",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦黑·白诞生秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
+   "why": "同刊开发访谈，谈黑白设定背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

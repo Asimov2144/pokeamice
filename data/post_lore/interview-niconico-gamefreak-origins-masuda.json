@@ -1,0 +1,331 @@
+{
+ "id": "interview-niconico-gamefreak-origins-masuda",
+ "stem": "2014-08-22-interview-niconico-gamefreak-origins-masuda",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 99
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "巴大蝶",
+    "ndex": 12,
+    "seg": [
+     45
+    ],
+    "as": [
+     "巴大蝶"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "旋转方块",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "孟德尔宫殿",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Game Freak",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "猫捉老鼠",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Mappy",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Nova 2001",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "俄罗斯方块",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Tetris",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "亲属的基本结构",
+    "slug": null,
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "人，游戏与游玩",
+    "slug": null,
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Les jeux et les hommes",
+    "slug": null,
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "游戏的人",
+    "slug": null,
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Homo Ludens",
+    "slug": null,
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "樱花樱花",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     10,
+     11,
+     13,
+     14,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "河口洋一郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "克洛德·列维-斯特劳斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "系井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "罗杰·凯约瓦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中村光一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "约翰·霍伊津哈",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "关东平原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "关都地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "紫苑镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     56
+    ],
+    "what": "红绿中的城镇",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "增田出生地",
+    "via": "llm"
+   },
+   {
+    "name": "冲绳",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     48
+    ],
+    "what": "音乐举例地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "增田说约30年前田尻智创办同人志《GAME FREAK》，自己也是忠实读者",
+   "anchor": 11
+  },
+  {
+   "seg": 93,
+   "text": "增田称初代《宝可梦 红／绿》核心开发阵容刚好9人",
+   "anchor": 94
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点",
+   "url": "/%E8%AE%BF%E8%B0%88/%E5%88%9B%E4%B8%9A%E5%8E%86%E5%8F%B2/interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto/",
+   "why": "同为2014年增田回顾GAME FREAK黎明期与《旋转方块》"
+  },
+  {
+   "id": "interview-game-informer-game-freak-origins-pre-pokemon",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/",
+   "why": "同述GAME FREAK由同人志起步及《Quinty》南梦宫发行"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

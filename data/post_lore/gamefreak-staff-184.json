@@ -1,0 +1,96 @@
+{
+ "id": "gamefreak-staff-184",
+ "stem": "2010-05-28-gamefreak-staff-184",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 78
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "菊草叶",
+    "ndex": 152,
+    "seg": [
+     33,
+     72
+    ],
+    "as": [
+     "菊草叶",
+     "チコリータ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦计步器",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "わも",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     37,
+     40,
+     76
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "爱媛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "わも的出身地",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "わも上京后的所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "わも从爱媛来到东京已经3个月"
+  },
+  {
+   "seg": 13,
+   "text": "第一次坐电车上下班是受到冲击的事"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

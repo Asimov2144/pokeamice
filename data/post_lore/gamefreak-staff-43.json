@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-43",
+ "stem": "2007-11-13-gamefreak-staff-43",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "おにいさん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "おにいさん自称是平面设计师，不是收藏家"
+  },
+  {
+   "seg": 3,
+   "text": "GAME FREAK 的搬家正式忙起来，公司里闹哄哄"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

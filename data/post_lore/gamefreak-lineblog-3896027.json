@@ -1,0 +1,188 @@
+{
+ "id": "gamefreak-lineblog-3896027",
+ "stem": "2016-06-06-gamefreak-lineblog-3896027",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 89
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     0,
+     21,
+     86
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心广岛",
+    "id": null,
+    "entity": "pokemon_center_hiroshima",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心福冈",
+    "id": null,
+    "entity": "pokemon_center_fukuoka",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心横滨",
+    "id": null,
+    "entity": "pokemon_center_yokohama",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心名古屋",
+    "id": null,
+    "entity": "pokemon_center_nagoya",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心东京湾",
+    "id": "pc_tokyo_bay",
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     37
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心东北",
+    "id": null,
+    "entity": "pokemon_center_tohoku",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     48
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心大阪",
+    "id": null,
+    "entity": "pokemon_center_osaka",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     59
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心札幌",
+    "id": null,
+    "entity": "pokemon_center_sapporo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     76
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦商店新千岁机场",
+    "id": "ps_new_chitose_airport",
+    "entity": null,
+    "category": "ps",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     80
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "签名会举办地",
+    "via": "extra",
+    "category_link": "pc"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田写到差不多有1000位朋友前来参加，称其为MEGA级别"
+  },
+  {
+   "seg": 11,
+   "text": "增田写第一次来到广岛，和平纪念公园让他很感动"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

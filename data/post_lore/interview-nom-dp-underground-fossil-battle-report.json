@@ -1,0 +1,148 @@
+{
+ "id": "interview-nom-dp-underground-fossil-battle-report",
+ "stem": "2006-10-01-interview-nom-dp-underground-fossil-battle-report",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 18
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火焰猴",
+    "ndex": 390,
+    "seg": [
+     6
+    ],
+    "as": [
+     "小火焰猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     6
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     0,
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "钻石",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [],
+  "places": [
+   {
+    "name": "神奥地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "游戏冒险的舞台",
+    "via": "llm"
+   },
+   {
+    "name": "地下通道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "可潜入的地下世界",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦联盟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "故事上的目标",
+    "via": "llm"
+   },
+   {
+    "name": "名人堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "想登入的目标",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "报告的是《钻石》，主角以男孩开始，最初伙伴选小火焰猴",
+   "anchor": 7
+  },
+  {
+   "seg": 9,
+   "text": "上屏显示宝可梦图像与状态，下屏显示行动按钮",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 钻石·珍珠开发谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/",
+   "why": "同为N.O.M 2006年10月号钻石珍珠报道"
+  },
+  {
+   "id": "interview-nom-dp-ishihara-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）",
+   "url": "//interview-nom-dp-ishihara-masuda-sugimori/",
+   "why": "同为2006年NOM钻石珍珠主创专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

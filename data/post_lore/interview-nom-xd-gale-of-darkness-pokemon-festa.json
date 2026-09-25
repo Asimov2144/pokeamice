@@ -1,0 +1,234 @@
+{
+ "id": "interview-nom-xd-gale-of-darkness-pokemon-festa",
+ "stem": "2005-08-01-interview-nom-xd-gale-of-darkness-pokemon-festa",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "宝石海星",
+    "ndex": 121,
+    "seg": [
+     35
+    ],
+    "as": [
+     "宝石海星"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "化石翼龙",
+    "ndex": 142,
+    "seg": [
+     35
+    ],
+    "as": [
+     "化石翼龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     37
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     0,
+     1,
+     4,
+     19,
+     20,
+     24
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蜥蜴王",
+    "ndex": 254,
+    "seg": [
+     35
+    ],
+    "as": [
+     "蜥蜴王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "金属怪",
+    "ndex": 375,
+    "seg": [
+     21,
+     22,
+     23
+    ],
+    "as": [
+     "金属怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     37
+    ],
+    "as": [
+     "巨金怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉帝亚斯",
+    "ndex": 380,
+    "seg": [
+     35
+    ],
+    "as": [
+     "拉帝亚斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦XD 暗之旋风 黑暗洛奇亚",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     4,
+     20,
+     24,
+     26
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     3,
+     4,
+     32
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "叶绿·火红",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "新井贤一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24,
+     25
+    ]
+   },
+   {
+    "name": "藤野翔太",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "藤田龙明",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "奥雷地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "冒险的舞台",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     31
+    ],
+    "what": "全国大赛决赛地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "预定发售日2005年8月4日，建议零售价5,800日元（含税）",
+   "anchor": 3
+  },
+  {
+   "seg": 32,
+   "text": "对战登记6只宝可梦中可使用4只，限制时间8分钟",
+   "anchor": 33
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

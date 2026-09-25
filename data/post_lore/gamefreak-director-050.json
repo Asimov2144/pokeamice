@@ -1,0 +1,42 @@
+{
+ "id": "gamefreak-director-050",
+ "stem": "2005-08-09-gamefreak-director-050",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "对冰箱、洗衣机这类东西，人们没有那么强烈的欲望"
+  },
+  {
+   "seg": 12,
+   "text": "加上角色性（或品牌性），会让人更想要"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

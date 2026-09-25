@@ -1,0 +1,59 @@
+{
+ "id": "gamefreak-director-072",
+ "stem": "2007-01-24-gamefreak-director-072",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 74
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "「战斗」按钮大，是因为它和接下来出现的4个招式有关"
+  },
+  {
+   "seg": 11,
+   "text": "按下招式影子的部分，也会被视为选择了「战斗」"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-071",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第71回",
+   "url": "/gamefreak-director/entry-071/",
+   "why": "前篇讲触控战斗坚持，本篇讲按钮布局"
+  },
+  {
+   "id": "gamefreak-director-073",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第73回",
+   "url": "/gamefreak-director/entry-073/",
+   "why": "同系列相邻回，续谈DP触控界面设计"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

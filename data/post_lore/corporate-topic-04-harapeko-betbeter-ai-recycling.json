@@ -1,0 +1,140 @@
+{
+ "id": "corporate-topic-04-harapeko-betbeter-ai-recycling",
+ "stem": "2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 17
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "臭泥",
+    "ndex": 88,
+    "seg": [
+     3,
+     0
+    ],
+    "as": [
+     "臭泥",
+     "ベトベター"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "はらぺこベトベター ～ベトベターの満腹大作戦～",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "IBM Watson",
+    "slug": null,
+    "seg": [
+     0,
+     5
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "日本コカ・コーラ株式会社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "日本アイ・ビー・エム株式会社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "池袋太阳城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "首台装置落成地",
+    "via": "llm"
+   },
+   {
+    "name": "东京都池袋太阳城（Sunshine City）",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "装置实装地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "三家企业志愿员工历时约一年完成软硬件构想与装置制作",
+   "anchor": 4
+  },
+  {
+   "seg": 5,
+   "text": "摄像头抓拍后由IBM Watson甄别PET瓶、玻璃瓶或易拉罐",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "corporate-topic-01-pokefuta-manhole-travel",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/",
+   "why": "同为官网Topics系列，本篇为第4篇，该篇为第01篇"
+  },
+  {
+   "id": "corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/",
+   "why": "同为官网Topics系列，该篇为第02篇"
+  },
+  {
+   "id": "corporate-topic-03-pokemon-smile-gamification-health",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/",
+   "why": "同为官网Topics系列，该篇为第03篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

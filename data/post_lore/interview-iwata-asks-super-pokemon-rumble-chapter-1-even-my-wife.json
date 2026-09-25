@@ -1,0 +1,192 @@
+{
+ "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+ "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 65
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超级宝可梦乱战",
+    "slug": "rumble-blast",
+    "seg": [
+     0,
+     2,
+     3,
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦乱战",
+    "slug": "rumble",
+    "seg": [
+     0,
+     2,
+     3,
+     5,
+     6,
+     11
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "皮卡丘你好吗",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦频道",
+    "slug": "channel",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "乱战！宝可梦乱战",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦立体图鉴BW",
+    "slug": "pokedex-3d",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马力欧",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达传说",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     5,
+     8,
+     10,
+     13
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     6,
+     33,
+     35,
+     37,
+     41,
+     43
+    ]
+   },
+   {
+    "name": "松村直树",
+    "slug": "matsumura-naoki",
+    "role": "speaker",
+    "seg": [
+     9,
+     11,
+     14,
+     18,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "小泽达雄",
+    "slug": "ozawa-tatsuo",
+    "role": "speaker",
+    "seg": [
+     15,
+     60
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "岩田聪就发售日突发延期致歉，并说明访谈在决定延期前收录",
+   "anchor": 3
+  },
+  {
+   "seg": 57,
+   "text": "松村直树称周末独自潜回公司，通宵调整技能前后摇与判定",
+   "anchor": 58
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
+   "why": "同为《超级宝可梦乱战》社长问第2章，接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
+   "why": "同为《超级宝可梦乱战》社长问第3章，接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/",
+   "why": "同为《超级宝可梦乱战》社长问第4章，接第1章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

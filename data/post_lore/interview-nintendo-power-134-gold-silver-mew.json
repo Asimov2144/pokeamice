@@ -1,0 +1,130 @@
+{
+ "id": "interview-nintendo-power-134-gold-silver-mew",
+ "stem": "2000-07-01-interview-nintendo-power-134-gold-silver-mew",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     6,
+     7,
+     8
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "Tsunekazu Ishihara",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     2,
+     4
+    ]
+   },
+   {
+    "name": "Shigeki Morimoto",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     7,
+     8
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     2,
+     4
+    ]
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森本茂樹",
+    "slug": "morimoto-shigeki",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "石原恒和称金与银是现实物理世界中沉甸甸存在的贵重金属",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "石原恒和称开发前后奋战约三年半，核心团队约二十人",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendopower-gold-silver-roundtable",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+   "url": "/developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/",
+   "why": "同为Nintendo Power第134期金·银主创圆桌访谈"
+  },
+  {
+   "id": "interview-nom-gold-silver-gamefreak",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+   "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
+   "why": "NOM金·银访谈详述城都舞台与梦幻塞入卡带"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

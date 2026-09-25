@@ -1,0 +1,146 @@
+{
+ "id": "interview-gameinformer-why-ruby-and-sapphire-were-most-challenging",
+ "stem": "2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 8
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     0
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     0
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X／Y",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金／银",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Kyle Hilliard",
+    "slug": "kai-er-xi-li-ya-de",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田称GBA屏幕变长、宽高比不同，颜色和声道增多",
+   "anchor": 3
+  },
+  {
+   "seg": 5,
+   "text": "增田说发售前一晚梦见游戏彻底失败，是一场噩梦",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,213 @@
+{
+ "id": "interview-newspicks-pokemon-job-rotation",
+ "stem": "2021-11-29-interview-newspicks-pokemon-job-rotation",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 69
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     1,
+     43,
+     44
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吉利蛋",
+    "ndex": 113,
+    "seg": [
+     52
+    ],
+    "as": [
+     "吉利蛋"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "GOTCHA!",
+    "slug": null,
+    "seg": [
+     18,
+     19
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     1,
+     43
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 晶灿钻石·明亮珍珠",
+    "slug": "bdsp",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokéfuta（宝可梦井盖）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "飞翔皮卡丘计划（そらとぶピカチュウプロジェクト）",
+    "slug": null,
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "アカシア",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大洞翔一",
+    "slug": "da-dong-xiang-yi",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "今村啓太",
+    "slug": "jin-cun-qi-tai",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "川村元気",
+    "slug": "chuan-cun-yuan-qi",
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "松本理恵",
+    "slug": "matsumoto-rie",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "浅原聪",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "茂田羽生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小谷玖实",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中野佑也",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "海达亮弥",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "福岛县浪江町",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     52
+    ],
+    "what": "发现宝可梦井盖",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "全公司约300名员工，设立约30个独立部门",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "应届生30岁前原则上须轮岗满3个部门",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

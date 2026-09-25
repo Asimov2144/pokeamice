@@ -1,0 +1,97 @@
+{
+ "id": "interview-gamefreak-recruit-programmer-tk",
+ "stem": "2021-12-27-interview-gamefreak-recruit-programmer-tk",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     5,
+     7
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     5,
+     7
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.K.",
+    "slug": "t-k",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "T.K.说加入GAME FREAK是因为对《宝可梦》系列的制作技术感兴趣",
+   "anchor": 4
+  },
+  {
+   "seg": 8,
+   "text": "为稳定处理物理行为和AI引入了Havok，最初完全无法控制",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-crosstalk-designer",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+   "why": "同涉《阿尔宙斯》开发，设计师篇讲机制提案"
+  },
+  {
+   "id": "interview-gamefreak-recruit-designer-ek",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "畅所欲言发表意见，随心所欲钻研学习。这是最让人开心的职场。",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/",
+   "why": "同为GAME FREAK採用情報一线员工特写系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

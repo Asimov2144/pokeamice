@@ -1,0 +1,173 @@
+{
+ "id": "gamefreak-staff-207",
+ "stem": "2010-11-12-gamefreak-staff-207",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 147
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "大村",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "おおむら",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "风露",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "芦荟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白露",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿戴克",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "婉龙",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "吹寄市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "风露任道馆馆主",
+    "via": "llm"
+   },
+   {
+    "name": "七宝市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "芦荟任道馆馆主",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 13,
+   "text": "风露最初接到的要求是“要有点大姐头的感觉”"
+  },
+  {
+   "seg": 16,
+   "text": "得到艺术总监杉森同意后，向策划人员提出建议"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-peer-sugimori-ohmori-designers",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛",
+   "url": "/developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/",
+   "why": "同为2010年黑白角色设计访谈，大村祐介谈设计"
+  },
+  {
+   "id": "gamefreak-staff-202",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2010年宝可梦剧本幕后",
+   "url": "/gamefreak-staff/entry-202/",
+   "why": "同为晴れたり時々曇ったり工作日志系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

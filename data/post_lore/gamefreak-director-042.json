@@ -1,0 +1,65 @@
+{
+ "id": "gamefreak-director-042",
+ "stem": "2005-06-23-gamefreak-director-042",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "澳大利亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "被点名的国家",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田顺一以CD专辑作比，说专辑里从激烈曲子到抒情曲种类丰富。"
+  },
+  {
+   "seg": 13,
+   "text": "增田顺一提出疑问：澳大利亚的孩子真的会这么想吗。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-031",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第31回",
+   "url": "/gamefreak-director/entry-031/",
+   "why": "第31回讲GAME FREAK首作《昆蒂》迷你CD，与CD专辑作比相关"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

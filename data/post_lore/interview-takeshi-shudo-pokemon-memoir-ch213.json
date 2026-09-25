@@ -1,0 +1,247 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch213",
+ "stem": "2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 122
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     76
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     5,
+     7,
+     56,
+     63
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "炎帝",
+    "ndex": 244,
+    "seg": [
+     4
+    ],
+    "as": [
+     "炎帝"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     18,
+     36,
+     44,
+     45
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "龙猫",
+    "slug": null,
+    "seg": [
+     90
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "大江户搜查网",
+    "slug": null,
+    "seg": [
+     101
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     111,
+     115,
+     116,
+     118
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "园田英树",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     80
+    ]
+   },
+   {
+    "name": "宫内妇贵子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     99,
+     107,
+     108,
+     109
+    ]
+   },
+   {
+    "name": "花子",
+    "slug": "hua-zi",
+    "role": "mentioned",
+    "seg": [
+     20,
+     25
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "秀力博士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     34
+    ]
+   },
+   {
+    "name": "小美",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     7,
+     20,
+     24,
+     27,
+     28
+    ]
+   },
+   {
+    "name": "炎帝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     6,
+     7,
+     8,
+     20,
+     26
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     20,
+     21,
+     22,
+     25,
+     26,
+     27
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "竹中直人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 46,
+   "text": "首藤刚志引入雪屋意象，被制作组以看不懂为由删除",
+   "anchor": 47
+  },
+  {
+   "seg": 63,
+   "text": "采纳妻子意见，删掉炎帝与未知图腾决斗约三分之一",
+   "anchor": 64
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch212",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第212回：“梗概轻而易举就通过了的《结晶塔的帝王》”（自我牺牲之伪、自我满足与弑亲、巴拉德结晶世界与怪优竹中直人）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch212/",
+   "why": "同谈《结晶塔的帝王》炎帝弑杀未知图腾的伦理"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch215",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第215回：“小田原的剧本展”（结晶塔后辞去系列构成、坠海消波块自杀未遂惨案与小田原手稿文献展）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch215/",
+   "why": "紧接第213回，交代辞去系列构成与住院"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch216/",
+   "why": "续篇，交代一稿托付他人改稿后住院一月"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,94 @@
+{
+ "id": "gamefreak-director-215",
+ "stem": "2011-10-14-gamefreak-director-215",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 198
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "决战！N",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "N 的本名是纳秋然・哈尔孟尼亚・格罗皮乌斯"
+  },
+  {
+   "seg": 27,
+   "text": "1～2 小节以 C3 为基准 0，白键为 1，音符按素数下降"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-1146-matsumiya-bw-scenario",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "週刊Fami通 No.1146 独家专访剧本主笔松宫稔展：“当双方的主张看起来都有道理时，人究竟会相信什么”——《宝可梦 黑／白》“宝可梦解放”、神秘少年N与双英雄传说诞生原点",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/",
+   "why": "松宫谈N构想原点，早于本篇增田公开N设定"
+  },
+  {
+   "id": "interview-famitsu-1138-masuda-bw-secrets",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "週刊Fami通 No.1138 独家专访总监增田顺一：“让大人重新体验‘踢罐子’的惊喜”——打破宝可梦毕业现象、156只全新精灵、与神秘少年N专属超高速台词系统",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1138-masuda-bw-secrets/",
+   "why": "增田谈N专属台词系统，涉N角色设定"
+  },
+  {
+   "id": "scan-ndream-bw-tanjou-hiwa-2011-characters",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦诞生秘话 29个角色的幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-characters/",
+   "why": "杉森等谈N与等离子团设计幕后"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

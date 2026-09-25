@@ -1,0 +1,137 @@
+{
+ "id": "gamefreak-staff-90",
+ "stem": "2008-10-03-gamefreak-staff-90",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 79
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "魔尼尼",
+    "ndex": 439,
+    "seg": [
+     13,
+     52
+    ],
+    "as": [
+     "魔尼尼",
+     "マネネ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "太田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2,
+     41
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "地下有Wi-Fi广场",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "Wi-Fi广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "通信游玩设施",
+    "via": "llm"
+   },
+   {
+    "name": "多多罗钢铁厂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "碎片交换地点",
+    "via": "llm"
+   },
+   {
+    "name": "钢铁岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "可收集星之碎片",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "Wi-Fi广场位于宝可梦中心地下，可通信游玩"
+  },
+  {
+   "seg": 13,
+   "text": "太田称自己最擅长玩滚滚魔尼尼"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-87",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】宝可梦白金版明日发售",
+   "url": "/gamefreak-staff/entry-87/",
+   "why": "同为白金版发售前工作日志，可对照发售日"
+  },
+  {
+   "id": "gamefreak-director-131",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第131回",
+   "url": "/gamefreak-director/entry-131/",
+   "why": "白金版正式发售，回应前夜日志"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

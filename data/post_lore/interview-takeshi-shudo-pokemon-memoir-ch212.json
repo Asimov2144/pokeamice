@@ -1,0 +1,305 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch212",
+ "stem": "2010-02-17-interview-takeshi-shudo-pokemon-memoir-ch212",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 123
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     1,
+     2,
+     4,
+     5,
+     8,
+     12
+    ],
+    "as": [
+     "未知图腾",
+     "Unown"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "炎帝",
+    "ndex": 244,
+    "seg": [
+     5
+    ],
+    "as": [
+     "炎帝"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "轻飘飘",
+    "ndex": 592,
+    "seg": [
+     22
+    ],
+    "as": [
+     "轻飘飘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     38
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     4,
+     24,
+     29,
+     33
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶世界",
+    "slug": null,
+    "seg": [
+     28,
+     29,
+     32
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "新·飞翔情侣",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     103,
+     109,
+     118
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "明琪桃子",
+    "slug": null,
+    "seg": [
+     103
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "噩梦的祈愿",
+    "slug": null,
+    "seg": [
+     118
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "竹中直人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     38,
+     40,
+     43,
+     46,
+     53
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     38
+    ]
+   },
+   {
+    "name": "市村正亲",
+    "slug": "ichimura-masachika",
+    "role": "mentioned",
+    "seg": [
+     38
+    ]
+   },
+   {
+    "name": "J.G.巴拉德",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ]
+   },
+   {
+    "name": "小美",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     5,
+     8,
+     10,
+     12,
+     13
+    ]
+   },
+   {
+    "name": "炎帝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5,
+     8,
+     10,
+     11,
+     12,
+     15
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     5,
+     65,
+     66
+    ],
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "科隆大教堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     55
+    ],
+    "what": "小美府邸参考对象",
+    "via": "llm"
+   },
+   {
+    "name": "科隆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     55
+    ],
+    "what": "科隆大教堂所在城市",
+    "via": "llm"
+   },
+   {
+    "name": "德国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     55
+    ],
+    "what": "科隆大教堂所在国",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "首藤刚志写的情节大纲顺理成章、轻而易举地获得全盘通过。",
+   "anchor": 8
+  },
+  {
+   "seg": 38,
+   "text": "剧本还没出炉，炎帝的声优就已敲定为竹中直人。",
+   "anchor": 39
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
+   "why": "第211回讲从幻之第三弹走向《结晶塔的帝王》，本篇为下一回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch213",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第213回：“我的《宝可梦》电影在《结晶塔的帝王》画上句号”（深渊伦理拷问、病榻口述急送医院、园田英树接棒改稿与隐退宣言）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch213/",
+   "why": "第213回紧接本篇，讲《结晶塔的帝王》伦理绝境与隐退"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch187",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第187回：洛奇亚默示录（小智妈妈“无需赌命拯救世界”台词、反派吉拉尔丹被剪掉的10分钟戏份与御前大人的白板造词“爆诞”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch187/",
+   "why": "第187回已提《结晶塔的帝王》少女美与存在主义三部曲"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch215",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "首藤刚志动画创作手记 第215回：“小田原的剧本展”（结晶塔后辞去系列构成、坠海消波块自杀未遂惨案与小田原手稿文献展）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch215/",
+   "why": "第215回交代《结晶塔的帝王》后辞去系列构成"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

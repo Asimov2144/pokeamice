@@ -1,0 +1,361 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+ "stem": "2009-08-12-interview-takeshi-shudo-pokemon-memoir-ch194",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 115
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     93,
+     100,
+     103
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     0,
+     1,
+     45,
+     86
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     108
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉雷丘",
+    "ndex": 26,
+    "seg": [
+     101
+    ],
+    "as": [
+     "雷丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     77
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "纳什维尔",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "罗生门",
+    "slug": null,
+    "seg": [
+     61,
+     63
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "竹林中",
+    "slug": null,
+    "seg": [
+     63
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     47,
+     110
+    ]
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     1,
+     45,
+     86
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     89,
+     91,
+     92,
+     93,
+     95,
+     97
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     90,
+     93,
+     95,
+     97,
+     98,
+     99
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "芙卢拉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     90,
+     96,
+     97,
+     98,
+     105
+    ]
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     93,
+     100,
+     103
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "吉拉尔丹",
+    "slug": "ji-la-er-dan",
+    "role": "mentioned",
+    "seg": [
+     52,
+     55,
+     103
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [
+     108
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     108
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     108
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "罗伯特·奥特曼",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     62,
+     70
+    ]
+   },
+   {
+    "name": "黑泽明",
+    "slug": "hei-ze-ming",
+    "role": "mentioned",
+    "seg": [
+     61
+    ],
+    "via": "llm",
+    "kind": "figure"
+   },
+   {
+    "name": "芥川龙之介",
+    "slug": "jie-chuan-long-zhi-jie",
+    "role": "mentioned",
+    "seg": [
+     63
+    ],
+    "via": "llm",
+    "kind": "figure"
+   },
+   {
+    "name": "小刚",
+    "slug": "xiao-gang",
+    "role": "mentioned",
+    "seg": [
+     104
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "花子",
+    "slug": "hua-zi",
+    "role": "mentioned",
+    "seg": [
+     91
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "小田原渔港",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "首藤刚志工作室所在地",
+    "via": "llm"
+   },
+   {
+    "name": "橘子群岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     104
+    ],
+    "what": "动画篇章",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "法语中为阴性名词",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "大纲企划会议上，X被多数决表决判定为雄性",
+   "anchor": 3
+  },
+  {
+   "seg": 24,
+   "text": "首藤刚志从自动售货机买五六罐单杯清酒到海边喝",
+   "anchor": 25
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch191",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第191回：《洛奇亚》雄性？雌性？根本无关紧要（编剧戏剧观批判卓别林黑泽明、深层海流母性象征与御前大人密室表决）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch191/",
+   "why": "同写洛奇亚性别表决，御前会议多数决定为雄性"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch205/",
+   "why": "同系列手记，续谈洛奇亚爆诞决战与火箭队"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+   "why": "同系列手记，续谈洛奇亚爆诞剧本创作"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
+   "why": "同系列手记，续谈宝可梦剧场版与火箭队"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

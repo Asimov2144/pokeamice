@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-242",
+ "stem": "2012-06-15-gamefreak-staff-242",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 98
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "ヒート（希特）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "规划员ヒート（希特）自称挑战戒烟并失败"
+  },
+  {
+   "seg": 18,
+   "text": "第一次戒烟坚持了9天就停下来"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

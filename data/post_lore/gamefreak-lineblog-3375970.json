@@ -1,0 +1,96 @@
+{
+ "id": "gamefreak-lineblog-3375970",
+ "stem": "2016-05-10-gamefreak-lineblog-3375970",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "提到今年是20周年这个值得纪念的年份"
+  },
+  {
+   "seg": 12,
+   "text": "增田顺一表示全体工作人员正怀着感谢之情全力制作"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3264233",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3264233/",
+   "why": "同为5月10日日月新情报公开的预告与报道"
+  },
+  {
+   "id": "gamefreak-lineblog-3345139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3345139/",
+   "why": "同为5月10日新情报公开前的倒计时预告"
+  },
+  {
+   "id": "gamefreak-lineblog-3296364",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年宝可梦倒计时",
+   "url": "/gamefreak-director/lineblog-3296364/",
+   "why": "同为5月10日新情报公开前的倒计时预告"
+  },
+  {
+   "id": "gamefreak-lineblog-3120585",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【创作】2016年《宝可梦》特别影像",
+   "url": "/gamefreak-director/lineblog-3120585/",
+   "why": "同为增田顺一讲解日月特别影像的博文"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

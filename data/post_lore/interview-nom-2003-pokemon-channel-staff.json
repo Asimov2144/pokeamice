@@ -1,0 +1,171 @@
+{
+ "id": "interview-nom-2003-pokemon-channel-staff",
+ "stem": "2003-08-01-interview-nom-2003-pokemon-channel-staff",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 56
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4,
+     8,
+     10,
+     17,
+     19,
+     20
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     36,
+     37
+    ],
+    "as": [
+     "基拉祈"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦频道",
+    "slug": "channel",
+    "seg": [
+     1,
+     20
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "皮卡丘你好吗",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 超世代 七夜的许愿星 基拉祈",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     9,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "小澤宗明",
+    "slug": "ozawa-muneaki",
+    "role": "speaker",
+    "seg": [
+     16,
+     17,
+     28,
+     42,
+     49,
+     52
+    ]
+   },
+   {
+    "name": "松村憲男",
+    "slug": "matsumura-norio",
+    "role": "speaker",
+    "seg": [
+     24,
+     35,
+     43,
+     50,
+     53
+    ]
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "川村",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 14,
+   "text": "开发约一年，含准备期约三年，Umbrella有14人",
+   "anchor": 15
+  },
+  {
+   "seg": 44,
+   "text": "除皮卡丘外出场宝可梦超过100种",
+   "anchor": 45
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
+   "why": "同为石原恒和与Ambrella小泽、松村谈宝可梦游戏开发"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

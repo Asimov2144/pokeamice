@@ -1,0 +1,50 @@
+{
+ "id": "gamefreak-lineblog-9248363",
+ "stem": "2016-12-11-gamefreak-lineblog-9248363",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "魔墙人偶",
+    "ndex": 122,
+    "seg": [
+     0
+    ],
+    "as": [
+     "魔墙人偶"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一写道这一天一大早就有惊喜"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

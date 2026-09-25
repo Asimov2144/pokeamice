@@ -2,7 +2,7 @@
  "id": "interview-famitsu-2023-cedec-sound",
  "stem": "2023-08-24-interview-famitsu-2023-cedec-sound",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -182,6 +182,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      20
     ],
@@ -194,6 +195,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      50
     ],
@@ -214,11 +216,21 @@
    "anchor": 21
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-cedec-2023-sound-design-ichinose-paldea",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦世界的音响设计",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2023-sound-design-ichinose-paldea/",
+   "why": "同为CEDEC2023同一演讲的报道，讲者与内容一致"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

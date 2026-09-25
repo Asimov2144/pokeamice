@@ -1,0 +1,722 @@
+{
+ "id": "scan-dengeki-games-vol14-bw-gamefreak-interview",
+ "stem": "2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 223
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     28
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     38,
+     219,
+     220,
+     221
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     38,
+     219,
+     220,
+     221
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     38,
+     219,
+     220,
+     221
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "探探鼠",
+    "ndex": 504,
+    "seg": [
+     188
+    ],
+    "as": [
+     "探探鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小约克",
+    "ndex": 506,
+    "seg": [
+     188,
+     204
+    ],
+    "as": [
+     "小约克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哈约克",
+    "ndex": 507,
+    "seg": [
+     205
+    ],
+    "as": [
+     "哈约克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "扒手猫",
+    "ndex": 509,
+    "seg": [
+     188
+    ],
+    "as": [
+     "扒手猫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "花椰猴",
+    "ndex": 511,
+    "seg": [
+     188
+    ],
+    "as": [
+     "花椰猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "爆香猴",
+    "ndex": 513,
+    "seg": [
+     188
+    ],
+    "as": [
+     "爆香猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "冷水猴",
+    "ndex": 515,
+    "seg": [
+     188
+    ],
+    "as": [
+     "冷水猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "食梦梦",
+    "ndex": 517,
+    "seg": [
+     188,
+     201
+    ],
+    "as": [
+     "食梦梦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦梦蚀",
+    "ndex": 518,
+    "seg": [
+     34,
+     188,
+     202
+    ],
+    "as": [
+     "梦梦蚀"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "豆豆鸽",
+    "ndex": 519,
+    "seg": [
+     188
+    ],
+    "as": [
+     "豆豆鸽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "咕咕鸽",
+    "ndex": 520,
+    "seg": [
+     188
+    ],
+    "as": [
+     "咕咕鸽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "斑斑马",
+    "ndex": 522,
+    "seg": [
+     188
+    ],
+    "as": [
+     "斑斑马"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "石丸子",
+    "ndex": 524,
+    "seg": [
+     188,
+     198
+    ],
+    "as": [
+     "石丸子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "地幔岩",
+    "ndex": 525,
+    "seg": [
+     200
+    ],
+    "as": [
+     "地幔岩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "庞岩怪",
+    "ndex": 526,
+    "seg": [
+     200
+    ],
+    "as": [
+     "庞岩怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "滚滚蝙蝠",
+    "ndex": 527,
+    "seg": [
+     188
+    ],
+    "as": [
+     "滚滚蝙蝠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "螺钉地鼠",
+    "ndex": 529,
+    "seg": [
+     188
+    ],
+    "as": [
+     "螺钉地鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "差不多娃娃",
+    "ndex": 531,
+    "seg": [
+     188
+    ],
+    "as": [
+     "差不多娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "搬运小匠",
+    "ndex": 532,
+    "seg": [
+     188,
+     192
+    ],
+    "as": [
+     "搬运小匠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "圆蝌蚪",
+    "ndex": 535,
+    "seg": [
+     188
+    ],
+    "as": [
+     "圆蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "投摔鬼",
+    "ndex": 538,
+    "seg": [
+     188
+    ],
+    "as": [
+     "投摔鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "打击鬼",
+    "ndex": 539,
+    "seg": [
+     26,
+     188
+    ],
+    "as": [
+     "打击鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "虫宝包",
+    "ndex": 540,
+    "seg": [
+     188
+    ],
+    "as": [
+     "虫宝包"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "宝包茧",
+    "ndex": 541,
+    "seg": [
+     188
+    ],
+    "as": [
+     "宝包茧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百足蜈蚣",
+    "ndex": 543,
+    "seg": [
+     188
+    ],
+    "as": [
+     "百足蜈蚣"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "车轮球",
+    "ndex": 544,
+    "seg": [
+     32,
+     188
+    ],
+    "as": [
+     "车轮球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木棉球",
+    "ndex": 546,
+    "seg": [
+     188
+    ],
+    "as": [
+     "木棉球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百合根娃娃",
+    "ndex": 548,
+    "seg": [
+     188,
+     195
+    ],
+    "as": [
+     "百合根娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黑眼鳄",
+    "ndex": 551,
+    "seg": [
+     188
+    ],
+    "as": [
+     "黑眼鳄"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火红不倒翁",
+    "ndex": 554,
+    "seg": [
+     188,
+     189
+    ],
+    "as": [
+     "火红不倒翁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙铃仙人掌",
+    "ndex": 556,
+    "seg": [
+     188
+    ],
+    "as": [
+     "沙铃仙人掌"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "石居蟹",
+    "ndex": 557,
+    "seg": [
+     188
+    ],
+    "as": [
+     "石居蟹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "滑滑小子",
+    "ndex": 559,
+    "seg": [
+     188
+    ],
+    "as": [
+     "滑滑小子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "哭哭面具",
+    "ndex": 562,
+    "seg": [
+     188
+    ],
+    "as": [
+     "哭哭面具"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     39,
+     40,
+     42,
+     43,
+     47
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     30,
+     39,
+     40,
+     41,
+     43,
+     47
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     4,
+     19,
+     23,
+     24,
+     147,
+     183
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     7,
+     9,
+     11,
+     13,
+     15,
+     40
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     17,
+     38,
+     44,
+     57,
+     59,
+     84
+    ]
+   },
+   {
+    "name": "太田哲司",
+    "slug": "ota-tetsuji",
+    "role": "speaker",
+    "seg": [
+     19,
+     52,
+     65,
+     144
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     54,
+     113,
+     114,
+     123
+    ]
+   },
+   {
+    "name": "水口舞",
+    "slug": "mizuguchi-mai",
+    "role": "speaker",
+    "seg": [
+     56,
+     128,
+     130
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     208
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "白森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     54
+    ],
+    "what": "通关后可去",
+    "via": "llm"
+   },
+   {
+    "name": "连入之树",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     131
+    ],
+    "what": "通往他人世界",
+    "via": "llm"
+   },
+   {
+    "name": "鹿子镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     184
+    ],
+    "what": "野生宝可梦区域",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     157
+    ],
+    "what": "本作舞台",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     157
+    ],
+    "what": "合众的原型",
+    "via": "llm"
+   },
+   {
+    "name": "黑色市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     54
+    ],
+    "what": "通关后可去",
+    "via": "llm"
+   },
+   {
+    "name": "雷文市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     184
+    ],
+    "what": "野生宝可梦区域",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 15,
+   "text": "增田说精灵球捕捉与草丛遭遇野生宝可梦不会变"
+  },
+  {
+   "seg": 47,
+   "text": "包装做成白色配捷克罗姆、黑色配莱希拉姆以便显眼"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为黑白发售前访谈，谈通关前只用新宝可梦"
+  },
+  {
+   "id": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nintendo-joshi-daisei-bw-kiritani-masuda/",
+   "why": "同为增田杉森谈黑白，涉莱希拉姆捷克罗姆命名"
+  },
+  {
+   "id": "interview-weekly-ascii-masuda-bw",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "周刊 ASCII 专访增田顺一：杂志未及详叙的《宝可梦 黑·白》开发秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-weekly-ascii-masuda-bw/",
+   "why": "同为增田谈黑白，涉156只新宝可梦与二元论"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,276 @@
+{
+ "id": "scan-ndream-2011-04-masuda-bridges",
+ "stem": "2011-02-21-scan-ndream-2011-04-masuda-bridges",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 112
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     77
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凯西",
+    "ndex": 63,
+    "seg": [
+     103
+    ],
+    "as": [
+     "凯西"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     1,
+     2,
+     5,
+     47
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 HG·SS",
+    "slug": null,
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     10,
+     12,
+     14,
+     16,
+     27,
+     29
+    ]
+   },
+   {
+    "name": "桥本长官",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高迪",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "布鲁克林大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "天箭桥参考原型",
+    "via": "llm"
+   },
+   {
+    "name": "彩虹大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "增田最爱的桥",
+    "via": "llm"
+   },
+   {
+    "name": "皇居",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     54
+    ],
+    "what": "连入设计原型",
+    "via": "llm"
+   },
+   {
+    "name": "天箭桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "游戏中最大吊桥",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "合众地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "台场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "彩虹大桥一端",
+    "via": "llm"
+   },
+   {
+    "name": "曼哈顿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "布鲁克林大桥对岸",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "本作游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "增田称合众地区以纽约为原型，意象约2006年已有"
+  },
+  {
+   "seg": 38,
+   "text": "天箭桥设计返工约3次，镜头角度调整到母盘完成前"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2011-04-bw-design-secrets-part2",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦黑·白诞生秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
+   "why": "同为Nintendo DREAM 2011年4月号黑·白开发访谈"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/",
+   "why": "社长问第5章谈天箭大桥等桥梁3D视角"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
+   "why": "社长问第2章谈舞台搬到纽约曼哈顿"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,130 @@
+{
+ "id": "gamefreak-director-205",
+ "stem": "2011-08-22-gamefreak-director-205",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 216
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "中途岛号博物馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     46
+    ],
+    "what": "军舰改成的博物馆",
+    "via": "llm"
+   },
+   {
+    "name": "乔氏螃蟹店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     54
+    ],
+    "what": "吃螃蟹的餐厅",
+    "via": "llm"
+   },
+   {
+    "name": "海洋世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     56
+    ],
+    "what": "每次都会去的景点",
+    "via": "llm"
+   },
+   {
+    "name": "佩科公园球场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     65
+    ],
+    "what": "看大联盟比赛的球场",
+    "via": "llm"
+   },
+   {
+    "name": "圣迭戈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     25
+    ],
+    "what": "举办地与游览地",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     67
+    ],
+    "what": "大都会队所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "早上7点，会场里已经开始彩排了。"
+  },
+  {
+   "seg": 54,
+   "text": "午餐是乔氏螃蟹店的螃蟹，增田顺一称最喜欢。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为増田部長のめざめるパワー系列，第184回接第205回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

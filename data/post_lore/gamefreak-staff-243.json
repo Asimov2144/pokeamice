@@ -1,0 +1,188 @@
+{
+ "id": "gamefreak-staff-243",
+ "stem": "2012-06-29-gamefreak-staff-243",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 64
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "酋雷姆",
+    "ndex": 646,
+    "seg": [
+     25,
+     57
+    ],
+    "as": [
+     "酋雷姆",
+     "キュレム"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凯路迪欧",
+    "ndex": 647,
+    "seg": [
+     25,
+     57
+    ],
+    "as": [
+     "凯路迪欧",
+     "ケルディオ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美洛耶塔",
+    "ndex": 648,
+    "seg": [
+     26,
+     58
+    ],
+    "as": [
+     "美洛耶塔",
+     "メロエッタ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 AR 搜寻器",
+    "slug": null,
+    "seg": [
+     10,
+     23
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦全国图鉴 Pro",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "剧场版宝可梦 超级愿望：酋雷姆 VS 圣剑士凯路迪欧",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "美洛耶塔的闪亮独唱会",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "海野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22,
+     54
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "阿里欧龟有",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "发售日活动举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "发售日为2012年6月23日星期六"
+  },
+  {
+   "seg": 22,
+   "text": "作品介绍由制作人增田和总监海野讲解"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-225",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第225回",
+   "url": "/gamefreak-director/entry-225/",
+   "why": "该篇预告6月23日发售，本篇记录发售日现场"
+  },
+  {
+   "id": "interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学",
+   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E9%BB%91%E7%99%BD2/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/",
+   "why": "同为增田与海野谈黑2白2开发秘闻"
+  },
+  {
+   "id": "interview-famitsu-b2w2-fanmeeting-masuda-unno",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-b2w2-fanmeeting-masuda-unno/",
+   "why": "同为8月5日横滨发售纪念见面会对谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

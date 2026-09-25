@@ -1,0 +1,1 @@
+{"key": "5ff294ac66f30653", "answer": {"observations": [{"seg": 1, "text": "坐F1赛车的地点是大阪站前DOCOMO大楼地下一层展厅"}, {"seg": 19, "text": "纪念卡背面写着体验者人数，他是第2925位"}], "pokemon": [], "places": [{"name": "大阪站", "seg": 1, "what": "赛车体验地附近车站", "world": "real"}, {"name": "DOCOMO大楼", "seg": 1, "what": "地下一层展厅所在", "world": "real"}], "works": [], "people": [{"name": "增田顺一", "seg": 0}]}}

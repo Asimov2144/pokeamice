@@ -1,0 +1,74 @@
+{
+ "id": "gamefreak-lineblog-2755888",
+ "stem": "2016-04-12-gamefreak-lineblog-2755888",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 2
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一在宝可梦20周年之际接受了CNN采访"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3375970",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3375970/",
+   "why": "同为2016年宝可梦20周年增田博客"
+  },
+  {
+   "id": "gamefreak-lineblog-9252218",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【日记】2016年宝可梦回顾",
+   "url": "/gamefreak-director/lineblog-9252218/",
+   "why": "回顾2016年宝可梦20周年活动"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

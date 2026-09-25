@@ -1,0 +1,91 @@
+{
+ "id": "gamefreak-lineblog-8216041",
+ "stem": "2016-10-16-gamefreak-lineblog-8216041",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     12
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     15
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心晴空塔",
+    "id": null,
+    "entity": "pokemon_center_skytree_town",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心晴空塔店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "宝可梦中心门店",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田顺一发给几十个人，但份数不够"
+  },
+  {
+   "seg": 20,
+   "text": "增田顺一感谢宝可梦中心晴空塔店的工作人员"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

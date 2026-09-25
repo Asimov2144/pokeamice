@@ -1,0 +1,206 @@
+{
+ "id": "interview-25043",
+ "stem": "2016-12-05-interview-25043",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     18
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿罗拉椰蛋树",
+    "ndex": 103,
+    "seg": [
+     18
+    ],
+    "as": [
+     "阿罗拉椰蛋树"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "岩狗狗",
+    "ndex": 744,
+    "seg": [
+     19
+    ],
+    "as": [
+     "岩狗狗"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦GO",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "GQ",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     13,
+     14,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     19
+    ]
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "阿罗拉",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "本作游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "加拉帕戈斯群岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "地点灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "阿罗拉灵感来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "截至11月底，《太阳／月亮》在3DS家族售出近18.5万份",
+   "anchor": 2
+  },
+  {
+   "seg": 7,
+   "text": "创造一种宝可梦没有固定系统，有些可能需要半年时间",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Switch 就是未来。",
+   "url": "//interview-meristation-sun-moon-switch-masuda-ohmori/",
+   "why": "同为马德里采访大森滋与增田顺一"
+  },
+  {
+   "id": "interview-reportajes",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-reportajes/",
+   "why": "同为马德里采访大森滋与增田顺一"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

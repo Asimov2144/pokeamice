@@ -1,0 +1,145 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch172",
+ "stem": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 23
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     4
+    ],
+    "as": [
+     "Mewtwo"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     3
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     2,
+     12
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "弗兰肯斯坦",
+    "slug": null,
+    "seg": [
+     13,
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "漫画日本史",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     17
+    ]
+   },
+   {
+    "name": "玛丽·雪莱",
+    "slug": "ma-li-xue-lai",
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "阿尔伯特·爱因斯坦",
+    "slug": "a-er-bo-te-ai-yin-si-tan",
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "kind": "figure"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "超梦在初代游戏图鉴中被分类为「基因宝可梦」",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "首藤刚志推测梦幻因外形缺乏霸气威压而被舍弃",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch166",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch166/",
+   "why": "同系列手记，紧接第172回前谈超梦主题"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch167",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch167/",
+   "why": "同系列手记，前篇谈超梦剧本与梦幻台词"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch168",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第168回：《超梦的逆袭》市村正亲先生（歌剧魅影的宿命投影、现代声优危机与悲剧巨匠降临）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch168/",
+   "why": "同系列手记，前篇谈超梦选角市村正亲"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

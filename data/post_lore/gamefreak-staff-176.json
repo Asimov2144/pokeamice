@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-176",
+ "stem": "2010-04-02-gamefreak-staff-176",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "にょろリカ从12月入职到写文时已过去4个月"
+  },
+  {
+   "seg": 5,
+   "text": "GAME FREAK 昨天对网站设计进行了全面更新"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,98 @@
+{
+ "id": "gamefreak-lineblog-2554691",
+ "stem": "2016-04-04-gamefreak-lineblog-2554691",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 119
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "八丈岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "吃喝过的地方",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "在八丈岛吃喝过觉得美味的东西，想要再现出来"
+  },
+  {
+   "seg": 35,
+   "text": "无论如何都想做出来的是明日叶啤酒"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2484438",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年八丈岛小苍兰节",
+   "url": "/gamefreak-director/lineblog-2484438/",
+   "why": "八丈岛之行前篇，交代前往八丈岛"
+  },
+  {
+   "id": "gamefreak-lineblog-2502729",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016八丈岛花绘皮卡丘",
+   "url": "/gamefreak-director/lineblog-2502729/",
+   "why": "八丈岛花卉节皮卡丘花绘的经过"
+  },
+  {
+   "id": "gamefreak-lineblog-2540602",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "【日记】2016八丈岛邂逅小麂",
+   "url": "/gamefreak-director/lineblog-2540602/",
+   "why": "同在八丈岛，同日日记"
+  },
+  {
+   "id": "gamefreak-lineblog-2579219",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年八丈岛明日叶啤酒",
+   "url": "/gamefreak-director/lineblog-2579219/",
+   "why": "次日再挑战明日叶啤酒并成功"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

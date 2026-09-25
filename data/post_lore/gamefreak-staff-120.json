@@ -1,0 +1,34 @@
+{
+ "id": "gamefreak-staff-120",
+ "stem": "2009-04-03-gamefreak-staff-120",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "自称是平面设计师おにいさん（哥哥）"
+  },
+  {
+   "seg": 19,
+   "text": "十年前游戏店橱窗里一字排开的是高价游戏"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

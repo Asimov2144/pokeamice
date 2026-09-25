@@ -1,0 +1,67 @@
+{
+ "id": "gamefreak-director-154",
+ "stem": "2009-11-27-gamefreak-director-154",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "星际迷航：为何挑战",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "星际迷航",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "威廉·夏特纳",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "蓝光终于发售了"
+  },
+  {
+   "seg": 13,
+   "text": "建议先看威廉·夏特纳担任舰长的旧作，再来看这部"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,310 @@
+{
+ "id": "interview-time-satoshi-tajiri-ultimate-game-freak",
+ "stem": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 94
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     42,
+     43,
+     44,
+     51,
+     57,
+     88
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蝌蚪",
+    "ndex": 60,
+    "seg": [
+     55
+    ],
+    "as": [
+     "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香君",
+    "ndex": 61,
+    "seg": [
+     55
+    ],
+    "as": [
+     "Poliwhirl"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     57
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     60
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "脉冲超人",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "旋转方块",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "太空格斗/太空侵略者",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "太空侵略者",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大金刚",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "扎比乌斯",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "俄罗斯方块",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马里奥兄弟",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "斗牛士",
+    "slug": null,
+    "seg": [
+     79
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "真人快打",
+    "slug": null,
+    "seg": [
+     79
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哈利·波特",
+    "slug": null,
+    "seg": [
+     89
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "时代周刊",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     47,
+     64
+    ]
+   },
+   {
+    "name": "蒂姆·拉里默",
+    "slug": "di-mu-la-li-mo",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "横田隆志",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "町田",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "田尻智成长地",
+    "via": "llm"
+   },
+   {
+    "name": "世田谷区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "GAME FREAK办公室所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "田尻智1990年萌生宝可梦构想，此后近六年投入初代游戏",
+   "anchor": 1
+  },
+  {
+   "seg": 2,
+   "text": "新作11月20日在日本发售，田尻智双眼布满血丝、手和嘴唇颤抖",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-special-dialogue-tajiri-ishihara",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+   "url": "//interview-nom-special-dialogue-tajiri-ishihara/",
+   "why": "同为田尻智谈昆虫采集与六年开发"
+  },
+  {
+   "id": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E7%94%B5%E8%A7%86%E7%8B%AC%E5%AE%B6%E4%B8%93%E8%AE%BF/%E5%88%9B%E5%A7%8B%E4%BA%BA%E4%B8%93%E9%A2%98/interview-game-center-cx-tajiri-man-who-created-pokemon/",
+   "why": "同为田尻智谈六年开发与通信电缆顿悟"
+  },
+  {
+   "id": "interview-niconico-gamefreak-origins-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+   "url": "//interview-niconico-gamefreak-origins-masuda/",
+   "why": "同为1990年立项、1996年发售的初代"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,101 @@
+{
+ "id": "gamefreak-lineblog-3406435",
+ "stem": "2016-05-23-gamefreak-lineblog-3406435",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 49
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     1
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     1
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "太平洋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     36
+    ],
+    "what": "夏威夷所在大洋",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     32
+    ],
+    "what": "新世界原型地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "水水獭和暖暖猪都去过"
+  },
+  {
+   "seg": 32,
+   "text": "点名夏威夷，并写 State of Hawaii"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

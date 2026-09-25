@@ -1,0 +1,144 @@
+{
+ "id": "gamefreak-lineblog-3816260",
+ "stem": "2016-05-31-gamefreak-lineblog-3816260",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 127
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "足利尊氏",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "后醍醐天皇",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "有佳子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "槇子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "岚山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     56
+    ],
+    "what": "此行目的地",
+    "via": "llm"
+   },
+   {
+    "name": "天龙寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     125
+    ],
+    "what": "附赠内容详介的禅寺",
+    "via": "llm"
+   },
+   {
+    "name": "宝严院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "参观的寺院",
+    "via": "llm"
+   },
+   {
+    "name": "祇园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     66
+    ],
+    "what": "夜晚观景之地",
+    "via": "llm"
+   },
+   {
+    "name": "岚山吉兆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     91
+    ],
+    "what": "用餐的料理店",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "足利尊氏为悼念后醍醐天皇的亡灵"
+  },
+  {
+   "seg": 2,
+   "text": "该禅寺于1339年创建"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

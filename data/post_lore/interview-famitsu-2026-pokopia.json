@@ -1,0 +1,221 @@
+{
+ "id": "interview-famitsu-2026-pokopia",
+ "stem": "2026-02-16-interview-famitsu-2026-pokopia",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 157
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     47
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     25,
+     54,
+     73,
+     76,
+     78,
+     81
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     1,
+     19,
+     48,
+     49,
+     62,
+     94
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨蔓藤",
+    "ndex": 465,
+    "seg": [
+     73,
+     76
+    ],
+    "as": [
+     "巨蔓藤"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "ぽこ あ ポケモン",
+    "slug": null,
+    "seg": [
+     1,
+     2,
+     3,
+     6,
+     8,
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦+信长的野望",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三国无双",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     15,
+     18,
+     22,
+     24,
+     26,
+     31
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     16,
+     19,
+     20,
+     29,
+     37,
+     40
+    ]
+   },
+   {
+    "name": "村田佳奈子",
+    "slug": "murata-kanako",
+    "role": "speaker",
+    "seg": [
+     23,
+     25,
+     61,
+     71,
+     82,
+     145
+    ]
+   },
+   {
+    "name": "绫野万里奈",
+    "slug": "ayano-marina",
+    "role": "speaker",
+    "seg": [
+     27,
+     81,
+     93,
+     98,
+     107,
+     131
+    ]
+   },
+   {
+    "name": "枝川拓人",
+    "slug": "edagawa-takuto",
+    "role": "speaker",
+    "seg": [
+     28,
+     32,
+     35,
+     38,
+     56,
+     59
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 19,
+   "text": "《朱·紫》开发结束前后组建3人左右小团队试作",
+   "anchor": 20
+  },
+  {
+   "seg": 37,
+   "text": "大森称认识对齐花了3～4个月",
+   "anchor": 38
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

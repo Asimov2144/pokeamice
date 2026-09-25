@@ -1,0 +1,91 @@
+{
+ "id": "gamefreak-director-235",
+ "stem": "2013-02-05-gamefreak-director-235",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 67
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 AR 搜寻器",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦AR搜寻器",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "海野总监",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4,
+     9
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "用3DS陀螺仪功能、连续按动牡丹键来捕捉宝可梦"
+  },
+  {
+   "seg": 9,
+   "text": "海野总监为传达整体概念画下演示资料中的一页"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-staff-diary",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK STAFF 日记",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-staff-diary/",
+   "why": "同记2012年6月23日《宝可梦AR搜寻器》发售"
+  },
+  {
+   "id": "gamefreak-staff-243",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2012年宝可梦新作发售现场",
+   "url": "/gamefreak-staff/entry-243/",
+   "why": "同记2012年6月23日黑2白2发售日"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

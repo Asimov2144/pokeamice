@@ -1,0 +1,96 @@
+{
+ "id": "interview-gi-2019-dexit",
+ "stem": "2019-10-01-interview-gi-2019-dexit",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     8
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "Brian Shea",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "剑／盾的冒险地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一在E3解释并非所有宝可梦都能进入《剑／盾》",
+   "anchor": 1
+  },
+  {
+   "seg": 6,
+   "text": "增田说未出现的宝可梦绝对会在未来游戏的不同地区回归",
+   "anchor": 7
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/",
+   "why": "同为E3 2019增田谈剑盾收录方针"
+  },
+  {
+   "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+   "why": "Eurogamer再访增田回应全国图鉴删减风波"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

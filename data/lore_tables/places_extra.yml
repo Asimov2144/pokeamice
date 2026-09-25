@@ -1,0 +1,102 @@
+# 文章常说、旅图的地点表里却没有（或对不上）的地方——手写的补充，一条一处。
+#
+# tools/build-post-lore.py 把这张表并进地名索引：规则扫正文、以及模型点出来的地名，
+# 都先在这里对一次，对上了就带上 what / place / entity / area / category。
+#
+#   name      文章里的写法
+#   aliases   别的写法（日文原字、别称）
+#   what      默认说明，八字以内；模型给了更贴合这一篇的说法时用模型的
+#   place     旅图某一处的 id（tour_places.json）
+#   entity    旅图上「同一家店」的键；App 会按文章日期落到当时的那一处
+#   area      App 对照表（src/data/docsPlaceLinks.json）里的一片
+#   category  App 对照表里的一类（categories.pc = 「关于宝可梦中心」）
+#   scale     spot（具体一处）/ area（行政区划、国家、城市）——不写就按名字判
+#   scan      false = 不拿它去扫正文，只在模型点名时才认。公司名、泛称这种词
+#             满篇都是，扫正文会把每一次提及都算成「去过一个地方」
+#   by_year   分时期：from / to（含）之内用这一段的 place / area / what
+#
+# 2026-09-25 编者口述三处（六本木新城 = 宝可梦公司、下北泽 = GAME FREAK 最初的基地、
+# 日本桥 = 宝可梦中心的诞生地），其余按站内文章与旅图地址核过。
+
+# ---- 公司与总部 ----------------------------------------------------------
+
+- name: 六本木新城
+  aliases: [六本木ヒルズ, 六本木Hills, Roppongi Hills, 六本木之丘, 六本木山]
+  what: 宝可梦公司总部所在
+
+- name: GAME FREAK
+  aliases: [ゲームフリーク, Game Freak, GameFreak, ゲーフリ]
+  what: GAME FREAK 办公室
+  scan: false                       # 满篇都是公司名，只认模型点成地点的那些
+  by_year:
+    # 「2007年告别下北泽，搬往三轩茶屋」——员工博客 2007-09-28 写的新办公室
+    - to: 2007
+      area: shimokitazawa-gamefreak
+      what: GAME FREAK 当时的下北泽办公室
+    - from: 2008
+      to: 2019
+      place: carrot_tower
+      what: GAME FREAK 当时在三轩茶屋胡萝卜塔
+    - from: 2020
+      place: kanda_square
+      what: GAME FREAK 现在的神田广场办公室
+
+- name: 下北泽
+  aliases: [下北沢, Shimokitazawa, 北泽]
+  what: GAME FREAK 最初的开发基地
+  area: shimokitazawa-gamefreak
+
+- name: 三轩茶屋
+  aliases: [三軒茶屋, Sangenjaya]
+  what: GAME FREAK 胡萝卜塔所在
+  place: carrot_tower
+
+# ---- 宝可梦中心 ----------------------------------------------------------
+
+- name: 宝可梦中心
+  aliases: [ポケモンセンター, Pokémon Center, Pokemon Center]
+  what: 官方直营店
+  scale: spot
+  scan: false                       # 不带城市名的泛称；带城市名的写法旅图自己认得
+  category: pc
+
+- name: 日本桥
+  aliases: [日本橋]
+  what: 初代宝可梦中心所在
+
+- name: 日本桥高岛屋
+  aliases: [日本橋高島屋, 日本橋髙島屋, 高岛屋日本桥店, 日本橋髙島屋S.C.]
+  what: 宝可梦中心东京DX所在
+  place: pc_tokyo_dx
+
+# ---- 办过宝可梦活动、旅图上还没有条目的会场 ------------------------------
+
+- name: 东京塔
+  aliases: [東京タワー, Tokyo Tower]
+  what: 多次办宝可梦活动
+
+- name: 幕张展览馆
+  aliases: [幕張メッセ, 幕张messe, Makuhari Messe]
+  what: 展会与颁奖典礼会场
+
+- name: 宝可梦乐园
+  aliases: [ポケパーク, PokePark, 宝可梦公园]
+  what: 期间限定的主题乐园
+
+- name: 横滨体育馆
+  aliases: [横浜アリーナ, 横滨arena, Yokohama Arena]
+  what: 大型活动会场
+
+- name: 涩谷十字路口
+  aliases: [渋谷スクランブル交差点, 涩谷全向十字路口]
+  what: 涩谷的地标路口
+
+# ---- 首藤刚志手记里的小田原 ----------------------------------------------
+
+- name: 小田原文学馆
+  aliases: [小田原文学館]
+  what: 展出首藤的剧本手稿
+
+- name: 小田原市立图书馆
+  aliases: [小田原市立図書館]
+  what: 保管首藤捐赠的资料

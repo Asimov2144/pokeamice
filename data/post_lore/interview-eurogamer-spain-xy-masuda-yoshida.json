@@ -1,0 +1,114 @@
+{
+ "id": "interview-eurogamer-spain-xy-masuda-yoshida",
+ "stem": "2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 30
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X／Y",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     9,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "专访会面地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一在伦敦接受 Eurogamer 专访，谈《X／Y》",
+   "anchor": 1
+  },
+  {
+   "seg": 15,
+   "text": "博士赠予初始宝可梦的想法在开发两年后才出现",
+   "anchor": 16
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-multiplayer-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-multiplayer-2013-xy/",
+   "why": "同在伦敦采访增田谈X·Y"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

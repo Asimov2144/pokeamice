@@ -1,0 +1,1 @@
+{"key": "3a1fdb07a3c4d339", "answer": {"observations": [{"seg": 1, "text": "增田顺一说去新潟是11月16日、17日的事。"}, {"seg": 2, "text": "增田顺一在朱鹭展览馆参加了几个活动。"}], "pokemon": [], "places": [{"name": "新潟", "seg": 0, "what": "访问地点", "world": "real"}, {"name": "朱鹭展览馆", "seg": 2, "what": "参加活动的场馆", "world": "real"}], "works": [], "people": [{"name": "增田顺一", "seg": 0}]}}

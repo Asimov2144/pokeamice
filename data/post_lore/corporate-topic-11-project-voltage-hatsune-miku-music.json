@@ -1,0 +1,88 @@
+{
+ "id": "corporate-topic-11-project-voltage-hatsune-miku-music",
+ "stem": "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 26
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Project VOLTAGE 18 Types/Songs",
+    "slug": null,
+    "seg": [
+     0,
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Music Spotlight",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "初音ミク",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "Crypton Future Media",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   },
+   {
+    "name": "初音未来",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "克理普敦未来媒体",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "初音未来2007年问世，与宝可梦同发轫于软件代码世界，以电子合成音为声音原点",
+   "anchor": 8
+  },
+  {
+   "seg": 12,
+   "text": "企划打造18套专属角色设计与插画，并制作18首原创单曲及MV",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

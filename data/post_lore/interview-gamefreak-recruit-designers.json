@@ -1,0 +1,114 @@
+{
+ "id": "interview-gamefreak-recruit-designers",
+ "stem": "2015-10-01-interview-gamefreak-recruit-designers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.W.",
+    "slug": "t-w",
+    "role": "speaker",
+    "seg": [
+     2,
+     7,
+     13,
+     21,
+     24
+    ]
+   },
+   {
+    "name": "A.I.",
+    "slug": "a-i",
+    "role": "speaker",
+    "seg": [
+     3,
+     8,
+     14,
+     19,
+     26
+    ]
+   },
+   {
+    "name": "T.A.",
+    "slug": "t-a",
+    "role": "speaker",
+    "seg": [
+     4,
+     9,
+     15,
+     20,
+     25
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "T.W. 2015年以UI设计师身份中途入社",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "A.I. 2014年入社，任动作设计师",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-recruit-planners",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
+   "why": "同为2015-10-01中途招聘专栏对谈"
+  },
+  {
+   "id": "interview-gamefreak-recruit-programmers",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
+   "why": "同为2015-10-01中途招聘专栏对谈"
+  },
+  {
+   "id": "interview-gamefreak-recruit-3d-graphics-to-fk",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/",
+   "why": "前作3D化动作设计背景，A.I.任动作设计师"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

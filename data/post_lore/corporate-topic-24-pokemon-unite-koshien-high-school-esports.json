@@ -1,0 +1,84 @@
+{
+ "id": "corporate-topic-24-pokemon-unite-koshien-high-school-esports",
+ "stem": "2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon UNITE",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     3,
+     5,
+     7,
+     26
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "全国高校ポケモンユナイト選手権大会（ポケモンユナイト甲子園）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンワールドチャンピオンシップス（WCS）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "日本テレビ放送網株式会社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "《Pokémon UNITE》为5人一队阵营对抗，全球累计下载量突破1.5亿次",
+   "anchor": 4
+  },
+  {
+   "seg": 16,
+   "text": "WCS普遍采用征召选人模式，可禁用宝可梦且对手已选宝可梦不可重复选用",
+   "anchor": 17
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

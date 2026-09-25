@@ -1,0 +1,125 @@
+{
+ "id": "gamefreak-lineblog-3819036",
+ "stem": "2016-05-31-gamefreak-lineblog-3819036",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     15
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "金·银",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "岚山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "增田首次到访",
+    "via": "llm"
+   },
+   {
+    "name": "龙天寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "文中点名的寺院",
+    "via": "llm"
+   },
+   {
+    "name": "鹿苑寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "文中点名的金阁",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "《金·银》灵感来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "京都是《金·银》的创作灵感来源"
+  },
+  {
+   "seg": 2,
+   "text": "增田顺一称这是他第一次来到京都的岚山"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

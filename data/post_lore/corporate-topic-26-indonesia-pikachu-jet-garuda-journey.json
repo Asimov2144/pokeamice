@@ -1,0 +1,190 @@
+{
+ "id": "corporate-topic-26-indonesia-pikachu-jet-garuda-journey",
+ "stem": "2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     6,
+     10,
+     11,
+     12,
+     13
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ",
+     "Pikachu"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pikachu's Indonesia Journey",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "そらとぶピカチュウプロジェクト（飞翔皮卡丘企划）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ピカチュウジェットGA",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "そらとぶピカチュウプロジェクト",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ガルーダ・インドネシア航空（Garuda Indonesia）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "JKT48",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16,
+     17
+    ]
+   },
+   {
+    "name": "株式会社ポケモン アジア事業本部",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ガルーダ・インドネシア航空",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "印度尼西亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "深耕的群岛国家",
+    "via": "llm"
+   },
+   {
+    "name": "雅加达",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "巡回首都站",
+    "via": "llm"
+   },
+   {
+    "name": "巴厘岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "巡回首站",
+    "via": "llm"
+   },
+   {
+    "name": "泗水",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "东爪哇首府",
+    "via": "llm"
+   },
+   {
+    "name": "日惹",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "爪哇古都",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "亚洲事业本部由超过60名跨国成员组成，下设四大专业部门",
+   "anchor": 4
+  },
+  {
+   "seg": 8,
+   "text": "2019年首度发行纯印尼语本地化官方集换式卡牌",
+   "anchor": 9
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

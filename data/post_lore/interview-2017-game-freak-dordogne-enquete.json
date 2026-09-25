@@ -1,0 +1,345 @@
+{
+ "id": "interview-2017-game-freak-dordogne-enquete",
+ "stem": "2017-11-06-interview-2017-game-freak-dordogne-enquete",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 105
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     91
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妖火红狐",
+    "ndex": 655,
+    "seg": [
+     77,
+     82
+    ],
+    "as": [
+     "妖火红狐"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡璞・哞哞",
+    "ndex": 787,
+    "seg": [
+     99
+    ],
+    "as": [
+     "卡璞・哞哞"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "究极之日／究极之月",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 世代",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Z",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     16,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     17,
+     42
+    ]
+   },
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "speaker",
+    "seg": [
+     18
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     24
+    ]
+   },
+   {
+    "name": "Kazugaya",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     71,
+     72
+    ]
+   },
+   {
+    "name": "Goupelin",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     79,
+     80,
+     82
+    ]
+   },
+   {
+    "name": "Pride",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     84,
+     85
+    ]
+   },
+   {
+    "name": "寺地篤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高桥知也",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "玉田壮介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "今泉宜子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森纯一郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "多尔多涅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "取材旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "拉斯科四号洞穴",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "参观洞穴",
+    "via": "llm"
+   },
+   {
+    "name": "孔巴海尔洞穴",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "参观洞穴",
+    "via": "llm"
+   },
+   {
+    "name": "鲁菲尼亚克洞穴",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "参观洞穴",
+    "via": "llm"
+   },
+   {
+    "name": "丰德戈姆洞穴",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "参观洞穴",
+    "via": "llm"
+   },
+   {
+    "name": "布亚克酒店餐厅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "团队下榻处",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     56
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     74
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "2011年增田带团队勘察巴黎、里昂、兰斯、卡纳克",
+   "anchor": 9
+  },
+  {
+   "seg": 49,
+   "text": "增田顺一10月26日参观拉斯科二号遗址",
+   "anchor": 50
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

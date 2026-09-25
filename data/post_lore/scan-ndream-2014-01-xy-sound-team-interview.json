@@ -1,0 +1,318 @@
+{
+ "id": "scan-ndream-2014-01-xy-sound-team-interview",
+ "stem": "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 260
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     222
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大钳蟹",
+    "ndex": 98,
+    "seg": [
+     104
+    ],
+    "as": [
+     "大钳蟹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "戴鲁比",
+    "ndex": 228,
+    "seg": [
+     167,
+     168,
+     169,
+     170,
+     171
+    ],
+    "as": [
+     "戴鲁比"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     5,
+     8,
+     9,
+     217,
+     218,
+     220
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "节奏猎人 和谐",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     154
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     10,
+     12,
+     14,
+     17
+    ]
+   },
+   {
+    "name": "佐藤仁美",
+    "slug": "sato-hitomi",
+    "role": "speaker",
+    "seg": [
+     23,
+     43,
+     51,
+     53,
+     55,
+     57
+    ]
+   },
+   {
+    "name": "足立美奈子",
+    "slug": "adachi-minako",
+    "role": "speaker",
+    "seg": [
+     24,
+     64,
+     78,
+     80,
+     90,
+     92
+    ]
+   },
+   {
+    "name": "全体",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     25,
+     142,
+     148,
+     183
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     130
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "普罗旺斯",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "景山喜欢的地区",
+    "via": "llm"
+   },
+   {
+    "name": "马赛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "法国南部港城",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     21
+    ],
+    "what": "本作舞台",
+    "via": "llm"
+   },
+   {
+    "name": "法国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     21
+    ],
+    "what": "卡洛斯原型",
+    "via": "llm"
+   },
+   {
+    "name": "巴黎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     22
+    ],
+    "what": "取材地",
+    "via": "llm"
+   },
+   {
+    "name": "娑罗市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     52
+    ],
+    "what": "加入东方风元素",
+    "via": "llm"
+   },
+   {
+    "name": "百刻市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     60
+    ],
+    "what": "曲子加入时钟声",
+    "via": "llm"
+   },
+   {
+    "name": "祝庆市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     154
+    ],
+    "what": "佐藤选的曲子",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "增田顺一对景山说声音的一切都交给他"
+  },
+  {
+   "seg": 12,
+   "text": "约1年反复制作原型并试错摸索表现"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-dengeki-xy-masuda-kageyama-setting-art",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典",
+   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-xy-masuda-kageyama-setting-art/",
+   "why": "同为2013年11月增田与景山谈X·Y声音的场合"
+  },
+  {
+   "id": "scan-ndream-2013-12-xy-character-design-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "卡洛斯人物开发秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2013-12-xy-character-design-interview/",
+   "why": "同为X·Y开发访谈，涉法国取材"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

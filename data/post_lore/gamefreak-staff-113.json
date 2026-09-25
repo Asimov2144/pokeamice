@@ -1,0 +1,43 @@
+{
+ "id": "gamefreak-staff-113",
+ "stem": "2009-02-16-gamefreak-staff-113",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "佐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "负责招聘的人自称さとう（佐藤）"
+  },
+  {
+   "seg": 15,
+   "text": "材料筛选3月1日开始，3月31日截止，以寄达为准"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

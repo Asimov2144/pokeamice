@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-192",
+ "stem": "2010-07-23-gamefreak-staff-192",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "さとう（佐藤）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "GAME FREAK 从今天起开始招聘有工作经验的程序员"
+  },
+  {
+   "seg": 4,
+   "text": "并非要求两方面都具备，只要其中一方面就足够"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

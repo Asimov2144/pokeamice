@@ -1,0 +1,292 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch183",
+ "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 99
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     39,
+     45,
+     46
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     90
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     4,
+     6,
+     7,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的诞生",
+    "slug": null,
+    "seg": [
+     88,
+     91,
+     93
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使（甜甜仙子）",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "漫画初体验系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "飞少爷",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "飞少爷（猿飞）",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "漫画初体验",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蜡笔小新剧场版",
+    "slug": null,
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     90
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "电影旬报",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "卫报",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     28,
+     35,
+     75
+    ]
+   },
+   {
+    "name": "手冢治虫",
+    "slug": "shou-zhong-zhi-chong",
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     0,
+     1,
+     4,
+     6,
+     7,
+     9
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     39,
+     45,
+     46
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "安·理查兹（Anne Richards）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "英国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     67
+    ],
+    "what": "本片公映地",
+    "via": "llm"
+   },
+   {
+    "name": "肯特郡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     73
+    ],
+    "what": "教会青年领袖所在",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     71
+    ],
+    "what": "报道发稿地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "首藤刚志说《超梦的逆袭》日本大卖令他感到茫然困惑与忧虑",
+   "anchor": 2
+  },
+  {
+   "seg": 27,
+   "text": "第一届日本动画大奖上，他凭三部作品获编剧奖",
+   "anchor": 28
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch181",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch181/",
+   "why": "同为《超梦的逆袭》手记，第181回在前"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与原创宝可梦“X爆诞”解禁）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch186/",
+   "why": "第186回紧接第183回之后的系列手记"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch178",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/",
+   "why": "第178回讲《超梦的逆袭》高潮抉择的创作定力"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch184/",
+   "why": "第184回紧接第183回，同谈《超梦的逆袭》"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

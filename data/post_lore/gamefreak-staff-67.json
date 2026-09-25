@@ -1,0 +1,149 @@
+{
+ "id": "gamefreak-staff-67",
+ "stem": "2008-04-18-gamefreak-staff-67",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 70
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "松井",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "石川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "作者故乡",
+    "via": "llm"
+   },
+   {
+    "name": "兼六园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "石川县景点",
+    "via": "llm"
+   },
+   {
+    "name": "那谷寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     22
+    ],
+    "what": "石川县景点",
+    "via": "llm"
+   },
+   {
+    "name": "鹤仙溪",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     23
+    ],
+    "what": "石川县景点",
+    "via": "llm"
+   },
+   {
+    "name": "白山超级林道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "石川县景点",
+    "via": "llm"
+   },
+   {
+    "name": "千里浜渚驾车道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "作者推荐的景点",
+    "via": "llm"
+   },
+   {
+    "name": "加贺市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "石川县城市",
+    "via": "llm"
+   },
+   {
+    "name": "金泽市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "石川县城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "えるかつ今年4月刚入社，自称新手策划"
+  },
+  {
+   "seg": 31,
+   "text": "千里浜渚驾车道可开私家车在海岸沙滩行驶"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

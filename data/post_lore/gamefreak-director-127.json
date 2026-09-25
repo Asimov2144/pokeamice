@@ -1,0 +1,126 @@
+{
+ "id": "gamefreak-director-127",
+ "stem": "2008-05-16-gamefreak-director-127",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "雷吉奇卡斯",
+    "ndex": 486,
+    "seg": [
+     6
+    ],
+    "as": [
+     "雷吉奇卡斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     5
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     6
+    ],
+    "as": [
+     "谢米"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ポケットモンスター プラチナ",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "最新作品预计在2008年秋季发售"
+  },
+  {
+   "seg": 5,
+   "text": "骑拉帝纳将可以看到真正的姿态起源形态"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-129",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第129回",
+   "url": "/gamefreak-director/entry-129/",
+   "why": "同一部长专栏，第129回紧接第127回"
+  },
+  {
+   "id": "gamefreak-director-131",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第131回",
+   "url": "/gamefreak-director/entry-131/",
+   "why": "第131回报道白金正式发售，回应秋季发售预告"
+  },
+  {
+   "id": "gamefreak-director-132",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第132回",
+   "url": "/gamefreak-director/entry-132/",
+   "why": "第132回报道白金3天销量破百万，接续发售"
+  },
+  {
+   "id": "gamefreak-director-133",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第133回",
+   "url": "/gamefreak-director/entry-133/",
+   "why": "第133回谈骑拉帝纳新曲，接续起源形态话题"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

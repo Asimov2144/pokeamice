@@ -1,0 +1,112 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch220",
+ "stem": "2010-04-28-interview-takeshi-shudo-pokemon-memoir-ch220",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "正义：一场思辨之旅（哈佛白热教室）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "正义：一场思辨之旅",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哈佛白热教室",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "迈克尔·桑德尔",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "哈佛大学",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "公开课所在大学",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "节目每周日傍晚6点在NHK教育频道播出，深夜时段也有重播。",
+   "anchor": 8
+  },
+  {
+   "seg": 8,
+   "text": "首藤刚志说节目已播到第4集，从半途开始看也不影响理解。",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch219",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第219回：“再次休载致歉与涉谷街头昏厥”（涉谷马路昏迷急救、小田原手稿常设馆与连载终末预告）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch219/",
+   "why": "第219回紧接第220回前一期，同系列连载"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch218/",
+   "why": "第218回讲首藤出院后状态，为病中执笔提供背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

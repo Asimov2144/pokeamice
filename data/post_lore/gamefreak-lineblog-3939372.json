@@ -1,0 +1,105 @@
+{
+ "id": "gamefreak-lineblog-3939372",
+ "stem": "2016-06-05-gamefreak-lineblog-3939372",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     8
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     8,
+     18
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦商店新千岁机场",
+    "id": "ps_new_chitose_airport",
+    "entity": null,
+    "category": "ps",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "新千岁机场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "北海道机场",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦商店新千岁机场店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "机场内的商店",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "可达鸭在CTS皮卡丘的位置大量出现"
+  },
+  {
+   "seg": 24,
+   "text": "增田顺一在留言板上签了名，并让读者找它在哪里"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

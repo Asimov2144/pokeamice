@@ -1,0 +1,115 @@
+{
+ "id": "gamefreak-lineblog-3752587",
+ "stem": "2016-05-28-gamefreak-lineblog-3752587",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 125
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     20,
+     26,
+     87,
+     91,
+     98
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     20,
+     102
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小猫怪",
+    "ndex": 403,
+    "seg": [
+     79
+    ],
+    "as": [
+     "小猫怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     60
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦EXPO Gym",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "活动场馆",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 20,
+   "text": "签名板上画着宝可梦EXPO Gym的皮卡丘和可达鸭"
+  },
+  {
+   "seg": 26,
+   "text": "这只皮卡丘是这里的官方商店限定款"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

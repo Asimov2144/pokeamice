@@ -1,0 +1,131 @@
+{
+ "id": "interview-vgc-gamefreak-gear-project",
+ "stem": "2019-05-09-interview-vgc-gamefreak-gear-project",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     9
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "节奏骑兵",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "口袋卡牌骑师",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "坏坏大象坦博",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "千兆破坏者",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Town",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小镇英雄",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "VGC",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     8,
+     11,
+     14,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "尾上将之",
+    "slug": "wei-shang-jiang-zhi",
+    "role": "speaker",
+    "seg": [
+     6,
+     7,
+     9,
+     10,
+     12,
+     13
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "Gear Project 已推出四款原创游戏，均在2012年后面世",
+   "anchor": 3
+  },
+  {
+   "seg": 12,
+   "text": "内部设制作1组专注Gear Project，制作2组负责宝可梦",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

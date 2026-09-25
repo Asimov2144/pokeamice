@@ -2,7 +2,7 @@
  "id": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
  "stem": "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -193,11 +193,29 @@
    "anchor": 37
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-nom-dp-ishihara-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）",
+   "url": "//interview-nom-dp-ishihara-masuda-sugimori/",
+   "why": "同为2006年NOM对钻石珍珠主创的专访"
+  },
+  {
+   "id": "interview-nintendo-power-masuda-gens-1-4",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+   "why": "增田回顾钻石珍珠以终极为主题及GTS"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

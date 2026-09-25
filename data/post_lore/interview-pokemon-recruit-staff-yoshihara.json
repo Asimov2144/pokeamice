@@ -1,0 +1,96 @@
+{
+ "id": "interview-pokemon-recruit-staff-yoshihara",
+ "stem": "2016-01-10-interview-pokemon-recruit-staff-yoshihara",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     9
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "吉原有香",
+    "slug": "ji-yuan-you-xiang",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "吉原称从学生时代起就渴望从事把某人心爱之物传递出去的工作",
+   "anchor": 3
+  },
+  {
+   "seg": 9,
+   "text": "吉原表示想通过正统游戏、动画、卡牌与盛会协同打造新代表宝可梦",
+   "anchor": 11
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-staff-izawa",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写01 伊泽景胜：卡牌事业部——让触碰宝可梦的人都成为善良温柔的人",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-izawa/",
+   "why": "同为2016年官方员工特写系列，本篇为第02篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-furutani",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写03 古谷翔：App事业部——知识与新颖脑洞，皆是创造宝可梦未来的强大武器",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-furutani/",
+   "why": "同为2016年官方员工特写系列，本篇为第03篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-kosugi",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写04 小杉要：集团统括部——传统与革新并行，维系长盛不衰的经营中枢",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-kosugi/",
+   "why": "同为2016年官方员工特写系列，本篇为第04篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-hayakawa",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写05 早川裕崇：法务部——构筑守护全球宝可梦世界观的法律长城",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-hayakawa/",
+   "why": "同为2016年官方员工特写系列，本篇为第05篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

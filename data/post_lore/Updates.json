@@ -2,7 +2,7 @@
  "id": "Updates",
  "stem": "2022-05-31-Updates",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "article",
  "body": {
   "kind": "markdown",
@@ -145,11 +145,21 @@
    "text": "完成一篇田尻16年采访的校对工作，感谢yumi的翻译"
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-denfami-xevious-tajiri-sugimori-endo",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈",
+   "url": "//interview-denfami-xevious-tajiri-sugimori-endo/",
+   "why": "田尻智2016年鼎谈，本篇校对的是该采访"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

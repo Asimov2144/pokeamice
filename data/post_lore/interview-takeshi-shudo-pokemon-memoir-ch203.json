@@ -1,0 +1,71 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch203",
+ "stem": "2009-11-25-interview-takeshi-shudo-pokemon-memoir-ch203",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 30
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "谁都能当的编剧",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "涉谷警察署",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "报案录笔录的警署",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "首藤刚志称被警车拉到涉谷警察署，配合调查五个多小时",
+   "anchor": 3
+  },
+  {
+   "seg": 4,
+   "text": "从诈骗转账得手到首藤刚志报警，前后不到十分钟",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

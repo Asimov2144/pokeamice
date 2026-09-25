@@ -1,0 +1,195 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch224",
+ "stem": "2010-06-02-interview-takeshi-shudo-pokemon-memoir-ch224",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 75
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "和巴什尔跳华尔兹",
+    "slug": null,
+    "seg": [
+     0,
+     59,
+     66
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "阿凡达",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "入殓师",
+    "slug": null,
+    "seg": [
+     56,
+     57
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "巴德尔和迈因霍夫：理想的尽头",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "积木之家",
+    "slug": null,
+    "seg": [
+     65
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "日本电视放送作家50周年纪念志",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     5
+    ]
+   },
+   {
+    "name": "大宅壮一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ]
+   },
+   {
+    "name": "鸠山由纪夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ]
+   },
+   {
+    "name": "阿里·福尔曼",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "詹姆斯·卡梅隆",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "尤里·诺里斯金",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     65
+    ]
+   },
+   {
+    "name": "加藤久仁生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     65
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "黎巴嫩",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     60
+    ],
+    "what": "以色列入侵的战场",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     53
+    ],
+    "what": "御宅文化出没地",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     53
+    ],
+    "what": "御宅文化出没地",
+    "via": "llm"
+   },
+   {
+    "name": "巴黎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     53
+    ],
+    "what": "御宅文化出没地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 26,
+   "text": "动画编剧的著作权与二次使用收益分成占全行业总额60%以上",
+   "anchor": 27
+  },
+  {
+   "seg": 25,
+   "text": "400页纪念志中提及动画编剧的篇幅只有10页",
+   "anchor": 26
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,105 @@
+{
+ "id": "gamefreak-lineblog-2818987",
+ "stem": "2016-04-16-gamefreak-lineblog-2818987",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 11
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     2
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     4
+    ],
+    "as": [
+     "基拉祈"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波尔凯尼恩",
+    "ndex": 721,
+    "seg": [
+     8
+    ],
+    "as": [
+     "波尔凯尼恩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛机雅娜",
+    "ndex": 801,
+    "seg": [
+     8
+    ],
+    "as": [
+     "玛机雅娜"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "波尔凯尼恩与机巧的玛机雅娜",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一表示大概会选可达鸭"
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一提到不一定非得通过电影院配信"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3895109",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【活动】2016年宝可梦总选举",
+   "url": "/gamefreak-director/lineblog-3895109/",
+   "why": "公布总选举结果与礼物宝可梦，回应本篇总选举"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,204 @@
+{
+ "id": "interview-corocoro-coco-okazaki-taiiku",
+ "stem": "2020-12-25-interview-corocoro-coco-okazaki-taiiku",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 65
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "萨戮德",
+    "ndex": 893,
+    "seg": [
+     6,
+     9,
+     11,
+     40,
+     42,
+     63
+    ],
+    "as": [
+     "萨戮德"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "剧场版 宝可梦 可可",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     2,
+     52,
+     63,
+     64
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "剧场版 宝可梦 超梦的逆袭",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "月刊Corocoro Comic",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "奇妙奇妙的生物",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "戒律之歌",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Show Window",
+    "slug": null,
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "我回来了与欢迎回家",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "与风一起",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "BASIN TECHNO",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "快乐快乐月刊",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     8,
+     10,
+     13,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "冈崎体育",
+    "slug": "okazaki-taiiku",
+    "role": "speaker",
+    "seg": [
+     7,
+     9,
+     16,
+     18,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "乌龟松本",
+    "slug": "wu-gui-song-ben",
+    "role": "mentioned",
+    "seg": [
+     27,
+     28,
+     29,
+     30,
+     33
+    ]
+   },
+   {
+    "name": "木村KAELA",
+    "slug": "kimura-kaela",
+    "role": "mentioned",
+    "seg": [
+     45,
+     46,
+     48
+    ]
+   },
+   {
+    "name": "橘庆太",
+    "slug": "tachibana-keita",
+    "role": "mentioned",
+    "seg": [
+     18
+    ]
+   },
+   {
+    "name": "小林幸子",
+    "slug": "kobayashi-sachiko",
+    "role": "mentioned",
+    "seg": [
+     57,
+     59
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "朋友说孩子出生后人生主角从自己变成孩子",
+   "anchor": 17
+  },
+  {
+   "seg": 40,
+   "text": "《戒律之歌》参考新西兰全黑队哈卡战舞，无旋律只有节奏",
+   "anchor": 41
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

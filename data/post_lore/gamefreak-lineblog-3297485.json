@@ -1,0 +1,76 @@
+{
+ "id": "gamefreak-lineblog-3297485",
+ "stem": "2016-05-10-gamefreak-lineblog-3297485",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 2
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一在文中感谢大家发来的推特消息和博客评论"
+  },
+  {
+   "seg": 1,
+   "text": "文中提到《宝可梦 太阳·月亮》"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3264233",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3264233/",
+   "why": "预告5月10日21点公开日月新情报"
+  },
+  {
+   "id": "gamefreak-lineblog-3345139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3345139/",
+   "why": "同为日月新情报公开倒计时，从一天到三小时"
+  },
+  {
+   "id": "gamefreak-lineblog-3375970",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【活动】2016年宝可梦日月新情报",
+   "url": "/gamefreak-director/lineblog-3375970/",
+   "why": "同日新情报公开后分享最新视频与心情"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

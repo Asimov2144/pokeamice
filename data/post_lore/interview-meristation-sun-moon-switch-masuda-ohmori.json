@@ -1,0 +1,268 @@
+{
+ "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
+ "stem": "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 17
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "椰蛋树",
+    "ndex": 103,
+    "seg": [
+     8
+    ],
+    "as": [
+     "椰蛋树"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "节奏骑士",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     12,
+     14,
+     16
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "阿罗拉",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "四座岛屿的群岛地区",
+    "via": "llm"
+   },
+   {
+    "name": "马德里",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "采访举办城市",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "增田顺一出生地",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "阿罗拉灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "提问提及的地区",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "重制提问所指地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "大森滋说选夏威夷因人类与自然关系紧密",
+   "anchor": 7
+  },
+  {
+   "seg": 8,
+   "text": "大森滋举例椰蛋树在岛上以脖子极长形态登场",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-reportajes",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-reportajes/",
+   "why": "同在马德里MeriStation采访大森增田"
+  },
+  {
+   "id": "interview-25043",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-25043/",
+   "why": "同期GQ西班牙采访大森增田谈日月"
+  },
+  {
+   "id": "interview-gq-spain-sun-moon-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋",
+   "url": "//interview-gq-spain-sun-moon-masuda-ohmori/",
+   "why": "同期GQ西班牙采访大森增田谈日月"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

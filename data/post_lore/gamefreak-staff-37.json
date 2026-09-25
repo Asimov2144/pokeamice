@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-staff-37",
+ "stem": "2007-10-17-gamefreak-staff-37",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "ユッフィー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     7,
+     32,
+     35,
+     41,
+     66
+    ]
+   },
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   },
+   {
+    "name": "エノキ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "ゲームフリーク",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "即将搬家的公司",
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak"
+   },
+   {
+    "name": "貸倉庫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24
+    ],
+    "what": "存放暂不用物品处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "ユッフィー自称仓鼠牧场老板，房间里养了14只"
+  },
+  {
+   "seg": 25,
+   "text": "明天有22箱东西要被搬到出租仓库"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

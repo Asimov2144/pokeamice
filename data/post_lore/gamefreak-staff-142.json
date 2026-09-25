@@ -1,0 +1,108 @@
+{
+ "id": "gamefreak-staff-142",
+ "stem": "2009-09-11-gamefreak-staff-142",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 38
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "社长问",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "任天堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "官网《社长问》栏目",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "发售日为9月12日周六，文中说「明天」发售"
+  },
+  {
+   "seg": 13,
+   "text": "森本称前几天在任天堂官网《社长问》谈了心金·魂银"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+   "why": "森本在《社长问》谈过心金魂银，本篇提及该访谈"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
+   "why": "同属社长问心金魂银系列，本篇提及该访谈"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+   "why": "同属社长问心金魂银系列，本篇提及该访谈"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+   "why": "同属社长问心金魂银系列，本篇提及该访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

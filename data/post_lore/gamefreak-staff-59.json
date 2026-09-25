@@ -1,0 +1,119 @@
+{
+ "id": "gamefreak-staff-59",
+ "stem": "2008-02-21-gamefreak-staff-59",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "small planet",
+    "slug": null,
+    "seg": [
+     13,
+     35
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "本城直季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12,
+     34
+    ]
+   },
+   {
+    "name": "巴比耶里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ]
+   },
+   {
+    "name": "马克·雷德",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ]
+   },
+   {
+    "name": "ねこスＱさん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "東京タワー",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "via": "extra",
+    "what": "多次办宝可梦活动"
+   },
+   {
+    "name": "世田谷线",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "微缩模型题材",
+    "via": "llm"
+   },
+   {
+    "name": "东京铁塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "下次想拍的景物",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "本城直季2006年获木村伊兵卫摄影奖"
+  },
+  {
+   "seg": 19,
+   "text": "照片是前些天下雪时从办公室拍的"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

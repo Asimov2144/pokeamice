@@ -1,0 +1,83 @@
+{
+ "id": "gamefreak-director-227",
+ "stem": "2012-08-29-gamefreak-director-227",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "节奏猎人 和谐骑士",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Rhythm Hunter Harmoknight",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "岩田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "公布渠道是任天堂的Nintendo Direct"
+  },
+  {
+   "seg": 14,
+   "text": "官网首页横幅可跳转到任天堂特别页面"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-229",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第229回",
+   "url": "/gamefreak-director/entry-229/",
+   "why": "同系列第229回，续谈节奏猎人"
+  },
+  {
+   "id": "gamefreak-director-231",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第231回",
+   "url": "/gamefreak-director/entry-231/",
+   "why": "同系列第231回，续谈节奏猎人"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

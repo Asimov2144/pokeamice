@@ -1,0 +1,243 @@
+{
+ "id": "interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
+ "stem": "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 73
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿柏蛇",
+    "ndex": 23,
+    "seg": [
+     68
+    ],
+    "as": [
+     "阿柏蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     16,
+     18,
+     28
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "伦琴猫",
+    "ndex": 405,
+    "seg": [
+     68
+    ],
+    "as": [
+     "伦琴猫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ミツハニー",
+    "ndex": 415,
+    "seg": [
+     21
+    ],
+    "as": [
+     "ミツハニー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ミカルゲ",
+    "ndex": 442,
+    "seg": [
+     21
+    ],
+    "as": [
+     "ミカルゲ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     1,
+     7,
+     10,
+     14,
+     18,
+     23
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "润水鸭",
+    "ndex": 912,
+    "seg": [
+     28
+    ],
+    "as": [
+     "润水鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "密勒顿",
+    "ndex": 1008,
+    "seg": [
+     28
+    ],
+    "as": [
+     "密勒顿"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     2,
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "解说",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     0,
+     1,
+     2,
+     5,
+     7,
+     8
+    ]
+   },
+   {
+    "name": "前座晃宏",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     6
+    ]
+   },
+   {
+    "name": "前泽圭一",
+    "slug": "maezawa-keiichi",
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "帕鲁迪亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "《朱／紫》舞台",
+    "via": "llm"
+   },
+   {
+    "name": "帕底亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "《朱·紫》舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "从初代《红·绿》到《剑·盾》，宝可梦模型总数已超过1000种。",
+   "anchor": 10
+  },
+  {
+   "seg": 28,
+   "text": "《朱／紫》后处理阶段，皮卡丘展现了宝可梦史上最蓬松的质感。",
+   "anchor": 29
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "两款宝可梦同时开发的模型共通化",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/",
+   "why": "同为CEDEC2022前泽圭一讲模型共通化"
+  },
+  {
+   "id": "interview-cgworld-2023-sv-making-1",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦朱紫的动画制作",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/",
+   "why": "同讲朱紫宝可梦3D资产与动作规格"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

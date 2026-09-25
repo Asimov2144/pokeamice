@@ -1,0 +1,100 @@
+{
+ "id": "corporate-topic-08-pokemon-dp-sound-library-music",
+ "stem": "2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 16
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon DP Sound Library",
+    "slug": null,
+    "seg": [
+     6,
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Reconnect",
+    "slug": null,
+    "seg": [
+     8,
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Grown",
+    "slug": null,
+    "seg": [
+     8,
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon Music Spotlight",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Yaffle",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8,
+     9,
+     10
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "2021年早春，宝可梦公司内部员工发起Pokémon Music Spotlight项目",
+   "anchor": 5
+  },
+  {
+   "seg": 6,
+   "text": "Pokémon DP Sound Library免费开放《宝可梦 钻石·珍珠》全部149首BGM与环境音效",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

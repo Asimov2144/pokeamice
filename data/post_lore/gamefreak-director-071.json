@@ -1,0 +1,72 @@
+{
+ "id": "gamefreak-director-071",
+ "stem": "2007-01-23-gamefreak-director-071",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 147
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "增田顺一在任天堂看到试制DS时，宫本茂已在用触控笔操作。"
+  },
+  {
+   "seg": 30,
+   "text": "开发后期，越来越多人提出不喜欢下屏被手指弄脏。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-073",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第73回",
+   "url": "/gamefreak-director/entry-073/",
+   "why": "同为DP触控界面设计话题的系列相邻篇"
+  },
+  {
+   "id": "gamefreak-director-074",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第74回",
+   "url": "/gamefreak-director/entry-074/",
+   "why": "补充DP首次用DS开发时触摸与按键的权衡"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

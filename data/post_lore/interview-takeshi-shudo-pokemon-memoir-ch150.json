@@ -1,0 +1,231 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch150",
+ "stem": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     6
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     6
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     6
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     6,
+     9
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "快龙",
+    "ndex": 149,
+    "seg": [
+     18
+    ],
+    "as": [
+     "快龙"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦必胜指南",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "正辉的灯塔",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔法小仙女/甜甜仙子",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "雾笛",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "正辉",
+    "slug": "zheng-hui",
+    "role": "mentioned",
+    "seg": [
+     0,
+     4,
+     5,
+     6,
+     8,
+     9
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "雷·布拉德伯里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "正辉的灯塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "正辉驻留的灯塔",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "第10、11、12话安排小智收服妙蛙种子、小火龙与杰尼龟",
+   "anchor": 7
+  },
+  {
+   "seg": 5,
+   "text": "每篇剧本要经历三到四轮会议推敲方能定稿",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
+   "why": "同为首藤刚志手记连载，第138回早于第150回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
+   "why": "同为该手记连载，第139回早于第150回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
+   "why": "同为该手记连载，第140回早于第150回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
+   "why": "同为该手记连载，第141回早于第150回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

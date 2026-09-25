@@ -1,0 +1,141 @@
+{
+ "id": "corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+ "stem": "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "POKÉMON CARD LOUNGE",
+    "slug": null,
+    "seg": [
+     0,
+     3,
+     26,
+     31
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンカードゲーム Classic",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "SHIBUYA TSUTAYA",
+    "slug": null,
+    "seg": [
+     2,
+     4,
+     5,
+     26
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "カルチュア・コンビニエンス・クラブ株式会社（CCC）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "カルチュア・コンビニエンス・クラブ株式会社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "涩谷十字路口",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "extra",
+    "what": "涩谷的地标路口"
+   },
+   {
+    "name": "JR涩谷站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "前往的站点",
+    "via": "llm"
+   },
+   {
+    "name": "SHIBUYA TSUTAYA",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "沙龙所在建筑",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "沙龙所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "穿过JR涩谷站前十字路口，乘梯直抵SHIBUYA TSUTAYA五楼。",
+   "anchor": 3
+  },
+  {
+   "seg": 26,
+   "text": "2024年4月25日POKÉMON CARD LOUNGE随SHIBUYA TSUTAYA重开迎宾，预约全月席位秒罄。",
+   "anchor": 27
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

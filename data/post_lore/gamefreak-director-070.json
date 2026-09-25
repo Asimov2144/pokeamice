@@ -1,0 +1,157 @@
+{
+ "id": "gamefreak-director-070",
+ "stem": "2007-01-22-gamefreak-director-070",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 81
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "由克希",
+    "ndex": 480,
+    "seg": [
+     21
+    ],
+    "as": [
+     "由克希"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "艾姆利多",
+    "ndex": 481,
+    "seg": [
+     21,
+     69
+    ],
+    "as": [
+     "艾姆利多",
+     "Mesprit"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "亚克诺姆",
+    "ndex": 482,
+    "seg": [
+     21,
+     69
+    ],
+    "as": [
+     "亚克诺姆",
+     "Azelf"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛纳霏",
+    "ndex": 490,
+    "seg": [
+     21,
+     68
+    ],
+    "as": [
+     "玛纳霏",
+     "Manaphy"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 战斗革命",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 电影",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "幕张展览馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11,
+     52
+    ],
+    "via": "extra",
+    "what": "展会与颁奖典礼会场"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "出发地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一在周六上午去了次世代世界兴趣博览会"
+  },
+  {
+   "seg": 24,
+   "text": "他在各个地方转了约一个小时就回去了"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-069",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第69回",
+   "url": "/gamefreak-director/entry-069/",
+   "why": "同为増田部長专栏第69与70回前后篇"
+  },
+  {
+   "id": "gamefreak-director-071",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第71回",
+   "url": "/gamefreak-director/entry-071/",
+   "why": "同为増田部長专栏第70与71回前后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

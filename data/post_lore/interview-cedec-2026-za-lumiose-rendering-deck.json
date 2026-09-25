@@ -1,0 +1,146 @@
+{
+ "id": "interview-cedec-2026-za-lumiose-rendering-deck",
+ "stem": "2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 156
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [
+     1,
+     3,
+     116
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦X・Y",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱・紫",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "前泽圭一",
+    "slug": "maezawa-keiichi",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "Alfredo Spadafina",
+    "slug": "alfredo-spadafina",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "赤木达也",
+    "slug": "chi-mu-da-ye-2",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "棱镜塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     81
+    ],
+    "what": "阴影被排除的建筑",
+    "via": "llm"
+   },
+   {
+    "name": "皇家骑士",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     81
+    ],
+    "what": "夜间出入的场所",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "游戏舞台城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "地图特征为相同模型实例多、被遮挡渲染物多",
+   "anchor": 13
+  },
+  {
+   "seg": 24,
+   "text": "遮挡体绘制到DepthPrePass，利用阴影贴图用网格减少多边形",
+   "anchor": 25
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-denfami-2026-cedec-pokerig",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "密阿雷市的渲染技术",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-pokerig/",
+   "why": "同为CEDEC2026前泽圭一等讲Z-A渲染"
+  },
+  {
+   "id": "interview-cgworld-2026-cedec-pkmnza",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "密阿雷市如何被画出来",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2026-cedec-pkmnza/",
+   "why": "同为CEDEC2026同一Z-A渲染讲演报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

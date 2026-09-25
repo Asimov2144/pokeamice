@@ -1,0 +1,66 @@
+{
+ "id": "gamefreak-director-228",
+ "stem": "2012-10-05-gamefreak-director-228",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "写这篇博客时，关注增田顺一的人数超过3万3千人。"
+  },
+  {
+   "seg": 17,
+   "text": "北美10月7日星期日、欧洲10月12日星期五发售。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-225",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第225回",
+   "url": "/gamefreak-director/entry-225/",
+   "why": "黑2白2发售日6月23日，本篇宣布其欧美发售"
+  },
+  {
+   "id": "gamefreak-staff-243",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【工作日志】2012年宝可梦新作发售现场",
+   "url": "/gamefreak-staff/entry-243/",
+   "why": "记录黑2白2发售日现场，本篇宣布欧美发售"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

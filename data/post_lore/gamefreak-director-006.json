@@ -1,0 +1,98 @@
+{
+ "id": "gamefreak-director-006",
+ "stem": "2004-08-16-gamefreak-director-006",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "热海",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "吃蝾螺的地方",
+    "via": "llm"
+   },
+   {
+    "name": "栃木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "看烟花吃烧烤",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     5
+    ],
+    "what": "宝可梦庆典举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一今年在栃木一边看烟花大会一边吃烧烤。"
+  },
+  {
+   "seg": 5,
+   "text": "增田顺一昨天去了横滨的宝可梦庆典。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-001",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第1回",
+   "url": "/gamefreak-director/entry-001/",
+   "why": "同为増田部長专栏，第1回在前第6回在后"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

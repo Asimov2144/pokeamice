@@ -1,0 +1,265 @@
+{
+ "id": "gamefreak-director-174",
+ "stem": "2010-09-01-gamefreak-director-174",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 189
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     16,
+     18,
+     103,
+     105
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     39
+    ]
+   },
+   {
+    "name": "古贺",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铃木亚美",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "AAA",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "滨崎步",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "东方神起",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东京塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     61,
+     161
+    ],
+    "via": "extra",
+    "what": "多次办宝可梦活动"
+   },
+   {
+    "name": "夏威夷岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "WCS举办地",
+    "via": "llm"
+   },
+   {
+    "name": "希尔顿酒店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "住宿酒店",
+    "via": "llm"
+   },
+   {
+    "name": "基拉韦厄火山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24
+    ],
+    "what": "活动中火山",
+    "via": "llm"
+   },
+   {
+    "name": "莫纳克亚山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "攀登的山",
+    "via": "llm"
+   },
+   {
+    "name": "希洛市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     21
+    ],
+    "what": "夏威夷盖饭发源城市",
+    "via": "llm"
+   },
+   {
+    "name": "西雅图",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     79
+    ],
+    "what": "出差目的地",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     79
+    ],
+    "what": "出差目的地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "宝可梦世界锦标赛于8月13日至15日在夏威夷岛举行"
+  },
+  {
+   "seg": 35,
+   "text": "抵达海拔4200米，比富士山山顶还高"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-163",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第163回",
+   "url": "/gamefreak-director/entry-163/",
+   "why": "黑白9月18日发售，本篇记其相关工作"
+  },
+  {
+   "id": "gamefreak-director-161",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第161回",
+   "url": "/gamefreak-director/entry-161/",
+   "why": "黑白9月发售与封面宝可梦，本篇涉黑白"
+  },
+  {
+   "id": "gamefreak-director-164",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第164回",
+   "url": "/gamefreak-director/entry-164/",
+   "why": "时拉比触发索罗亚事件，属黑白内容"
+  },
+  {
+   "id": "gamefreak-director-167",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第167回",
+   "url": "/gamefreak-director/entry-167/",
+   "why": "黑白全面变化与预订，本篇涉黑白"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

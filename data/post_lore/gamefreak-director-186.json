@@ -1,0 +1,100 @@
+{
+ "id": "gamefreak-director-186",
+ "stem": "2011-02-17-gamefreak-director-186",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     13,
+     34
+    ],
+    "as": [
+     "捷克罗姆",
+     "Zekrom"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "GameStop",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "零售店",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "作者所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "在北美进行了为期两天的媒体采访"
+  },
+  {
+   "seg": 2,
+   "text": "采访的公司大约有12家"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为部长专栏，第184回记伦敦采访，本篇记北美采访"
+  },
+  {
+   "id": "gamefreak-director-184",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "第184回先记伦敦采访与欧美同期发售背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

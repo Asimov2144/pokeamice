@@ -1,0 +1,174 @@
+{
+ "id": "interview-gi-2012-burning-questions",
+ "stem": "2012-11-23-interview-gi-2012-burning-questions",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     27
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "角金鱼",
+    "ndex": 118,
+    "seg": [
+     36
+    ],
+    "as": [
+     "角金鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "肯泰罗",
+    "ndex": 128,
+    "seg": [
+     10
+    ],
+    "as": [
+     "肯泰罗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     36
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     6,
+     9
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     24
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     6
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·蓝",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂明星大乱斗",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     16,
+     17,
+     33
+    ]
+   },
+   {
+    "name": "樱井",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "增田称精灵球内部对宝可梦极其舒适，人类大概不能进入",
+   "anchor": 6
+  },
+  {
+   "seg": 14,
+   "text": "增田说人类大概能吃神奇糖果，但味道可能不好",
+   "anchor": 15
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

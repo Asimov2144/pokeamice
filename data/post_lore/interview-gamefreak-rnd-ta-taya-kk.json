@@ -1,0 +1,126 @@
+{
+ "id": "interview-gamefreak-rnd-ta-taya-kk",
+ "stem": "2017-06-01-interview-gamefreak-rnd-ta-taya-kk",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 22
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     17
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 青",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "S.T.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     16,
+     20
+    ]
+   },
+   {
+    "name": "K.K.",
+    "slug": "k-k",
+    "role": "speaker",
+    "seg": [
+     3,
+     7,
+     10,
+     12,
+     17,
+     21
+    ]
+   },
+   {
+    "name": "田谷正夫",
+    "slug": "taya-masao",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "S.T. 自 1996 年入社，从《宝可梦 青》起主导正统作品核心系统底层与软件架构设计",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "K.K. 2014 年入社，是 GAME FREAK 历史上第一任专职 TA",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-rnd-launch-taya-mi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/",
+   "why": "同为田谷正夫谈研究开发部设立与沿革"
+  },
+  {
+   "id": "interview-gamefreak-recruit-cross-industry",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/",
+   "why": "S.A.隶属研究开发部，同部门背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

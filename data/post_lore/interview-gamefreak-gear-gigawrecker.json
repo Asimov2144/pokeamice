@@ -1,0 +1,131 @@
+{
+ "id": "interview-gamefreak-gear-gigawrecker",
+ "stem": "2017-03-01-interview-gamefreak-gear-gigawrecker",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "GIGA WRECKER",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     10,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "TEMBO THE BADASS ELEPHANT",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Gear Project（齿轮企划）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "坏象坦博",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "M.O.",
+    "slug": "m-o",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     13,
+     15,
+     19,
+     23
+    ]
+   },
+   {
+    "name": "H.I.",
+    "slug": "h-i",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     12,
+     14,
+     18,
+     24
+    ]
+   },
+   {
+    "name": "James Turner",
+    "slug": "james-turner",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "M.O.与H.I.是2010年应届毕业生入社，从《宝可梦 黑·白》起投身正统系列研发。",
+   "anchor": 3
+  },
+  {
+   "seg": 6,
+   "text": "H.I.称利用《宝可梦 X·Y》研发尾声到杀青调休假期打磨出初版企划书。",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

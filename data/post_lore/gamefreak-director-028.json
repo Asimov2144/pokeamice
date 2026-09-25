@@ -1,0 +1,75 @@
+{
+ "id": "gamefreak-director-028",
+ "stem": "2004-12-21-gamefreak-director-028",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 64
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "增田顺一说自己会换成另一个人的立场反复读文章"
+  },
+  {
+   "seg": 16,
+   "text": "增田顺一认为宣传文案和通知很值得学习"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-001",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第1回",
+   "url": "/gamefreak-director/entry-001/",
+   "why": "同为增田部长专栏，第1回在前"
+  },
+  {
+   "id": "gamefreak-director-002",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第2回",
+   "url": "/gamefreak-director/entry-002/",
+   "why": "同为增田部长专栏，第2回在前"
+  },
+  {
+   "id": "gamefreak-director-003",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第3回",
+   "url": "/gamefreak-director/entry-003/",
+   "why": "同为增田部长专栏，第3回在前"
+  },
+  {
+   "id": "gamefreak-director-004",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第4回",
+   "url": "/gamefreak-director/entry-004/",
+   "why": "同为增田部长专栏，第4回在前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

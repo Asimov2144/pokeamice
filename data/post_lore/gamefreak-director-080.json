@@ -1,0 +1,146 @@
+{
+ "id": "gamefreak-director-080",
+ "stem": "2007-04-19-gamefreak-director-080",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 109
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "费加罗的婚礼",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "塔尼什博士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "小柳老师",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     40
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "法兰克福",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "德国城市",
+    "via": "llm"
+   },
+   {
+    "name": "大教堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "参观的教堂",
+    "via": "llm"
+   },
+   {
+    "name": "烤肉店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "吃晚饭的店",
+    "via": "llm"
+   },
+   {
+    "name": "星巴克",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "买咖啡的店",
+    "via": "llm"
+   },
+   {
+    "name": "美术馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "参观的场馆",
+    "via": "llm"
+   },
+   {
+    "name": "跳蚤市场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     31
+    ],
+    "what": "河边集市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "第4天早上8点从酒店出发"
+  },
+  {
+   "seg": 1,
+   "text": "参观塔尼什博士的场所后抵达法兰克福"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

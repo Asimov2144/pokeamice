@@ -1,0 +1,96 @@
+{
+ "id": "gamefreak-staff-163",
+ "stem": "2010-01-08-gamefreak-staff-163",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿柏蛇",
+    "ndex": 23,
+    "seg": [
+     16,
+     42
+    ],
+    "as": [
+     "阿柏蛇",
+     "アーボ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 银魂",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2,
+     28
+    ]
+   },
+   {
+    "name": "蟹子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "玉虹大厦3楼",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "游戏内地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "にょろリカ自称新任网站负责人，初次见面"
+  },
+  {
+   "seg": 4,
+   "text": "にょろリカ于去年12月加入GAME FREAK，接任网站负责人"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

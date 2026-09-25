@@ -1,0 +1,182 @@
+{
+ "id": "gamefreak-director-079",
+ "stem": "2007-04-18-gamefreak-director-079",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 80
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "游戏大师",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "马库斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14,
+     18,
+     19,
+     23,
+     28
+    ]
+   },
+   {
+    "name": "贝多芬",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "普法尔茨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "出发地区",
+    "via": "llm"
+   },
+   {
+    "name": "凯韦里希酒庄",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "马库斯的酒庄",
+    "via": "llm"
+   },
+   {
+    "name": "摩泽尔河",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "酒店旁的河",
+    "via": "llm"
+   },
+   {
+    "name": "摩泽尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "前往地区",
+    "via": "llm"
+   },
+   {
+    "name": "特里尔市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "吃午饭的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田顺一在巴士上看到城镇间只有道路相连，觉得像宝可梦里的城镇"
+  },
+  {
+   "seg": 14,
+   "text": "凯韦里希酒庄是贝多芬后裔马库斯先生的酒庄"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

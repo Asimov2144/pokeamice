@@ -1,0 +1,381 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch191",
+ "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 110
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "急冻鸟",
+    "ndex": 144,
+    "seg": [
+     63,
+     66,
+     69
+    ],
+    "as": [
+     "急冻鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "闪电鸟",
+    "ndex": 145,
+    "seg": [
+     63,
+     66,
+     69
+    ],
+    "as": [
+     "闪电鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸟",
+    "ndex": 146,
+    "seg": [
+     63,
+     66,
+     69
+    ],
+    "as": [
+     "火焰鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆王",
+    "ndex": 199,
+    "seg": [
+     104
+    ],
+    "as": [
+     "呆呆王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     0,
+     1,
+     61,
+     72,
+     78,
+     79
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     7,
+     24,
+     27,
+     80
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "大独裁者",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "七武士",
+    "slug": null,
+    "seg": [
+     46,
+     51
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "椿三十郎",
+    "slug": null,
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "御前大人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6,
+     84,
+     86,
+     88,
+     94
+    ]
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     1,
+     61,
+     72,
+     78,
+     79
+    ]
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     7,
+     12,
+     13,
+     24,
+     27,
+     80
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     25,
+     27,
+     78,
+     79,
+     82,
+     98
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     25,
+     28,
+     80
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "花子",
+    "slug": "hua-zi",
+    "role": "mentioned",
+    "seg": [
+     82,
+     98
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "吉拉尔丹",
+    "slug": "ji-la-er-dan",
+    "role": "mentioned",
+    "seg": [
+     60,
+     76,
+     77,
+     78,
+     79
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "急冻鸟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     63,
+     66,
+     69
+    ]
+   },
+   {
+    "name": "闪电鸟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     63,
+     66,
+     69
+    ]
+   },
+   {
+    "name": "火焰鸟",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     63,
+     66,
+     69
+    ]
+   },
+   {
+    "name": "呆呆王",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     104
+    ]
+   },
+   {
+    "name": "芙卢拉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     97
+    ]
+   },
+   {
+    "name": "市原悦子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ]
+   },
+   {
+    "name": "奈良冈朋子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ]
+   },
+   {
+    "name": "森光子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ]
+   },
+   {
+    "name": "查理·卓别林",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ]
+   },
+   {
+    "name": "黑泽明",
+    "slug": "hei-ze-ming",
+    "role": "mentioned",
+    "seg": [
+     18,
+     46,
+     51
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "卓别林",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勘兵卫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "御前大人在企划会议上问X是雄性还是雌性、配音用男声还是女声",
+   "anchor": 7
+  },
+  {
+   "seg": 92,
+   "text": "多数决投票以微弱票数之差把X定为雄性（男声）",
+   "anchor": 93
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+   "why": "同系列手记，紧接第191回续谈洛奇亚性别表决"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch187",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第187回：洛奇亚默示录（小智妈妈“无需赌命拯救世界”台词、反派吉拉尔丹被剪掉的10分钟戏份与御前大人的白板造词“爆诞”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch187/",
+   "why": "同系列前篇，交代御前大人与原创宝可梦X企划"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch199",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第199回：《洛奇亚爆诞》登场人物各自鲜明的个性（配角全员皆自我中心、小建的无个性惨败与小智母亲的极端母性）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch199/",
+   "why": "同系列后续，同谈《洛奇亚爆诞》剧作"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch205/",
+   "why": "同系列后续，同谈《洛奇亚爆诞》决战"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

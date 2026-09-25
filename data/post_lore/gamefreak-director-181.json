@@ -1,0 +1,95 @@
+{
+ "id": "gamefreak-director-181",
+ "stem": "2011-01-05-gamefreak-director-181",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "帕尔修斯",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "MEGA DRIVE？LAST ACTION HEROES",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "パルスマン",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "MEGADRIVE ~LAST ACTION HEROES~",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pulseman",
+    "slug": null,
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Mega Drive -Last Action Heroes-",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "增田顺一在1994年时28岁"
+  },
+  {
+   "seg": 9,
+   "text": "当时他负责程序、音乐和音效"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

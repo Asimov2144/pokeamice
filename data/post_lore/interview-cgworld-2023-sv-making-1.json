@@ -1,0 +1,248 @@
+{
+ "id": "interview-cgworld-2023-sv-making-1",
+ "stem": "2023-04-19-interview-cgworld-2023-sv-making-1",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 76
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     60
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "润水鸭",
+    "ndex": 912,
+    "seg": [
+     30,
+     33,
+     34,
+     35,
+     36,
+     37
+    ],
+    "as": [
+     "润水鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "狗仔包",
+    "ndex": 926,
+    "seg": [
+     45,
+     47
+    ],
+    "as": [
+     "狗仔包"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙铁皮",
+    "ndex": 989,
+    "seg": [
+     49,
+     55
+    ],
+    "as": [
+     "沙铁皮"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     0,
+     1,
+     9,
+     10,
+     17,
+     18
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     60
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "深谷卓",
+    "slug": "fukaya-taku",
+    "role": "speaker",
+    "seg": [
+     10,
+     11,
+     14,
+     19,
+     23,
+     27
+    ]
+   },
+   {
+    "name": "小野寺瞬",
+    "slug": "onodera-shun",
+    "role": "speaker",
+    "seg": [
+     12,
+     16,
+     18,
+     21,
+     26,
+     41
+    ]
+   },
+   {
+    "name": "CGWORLD",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     13,
+     17,
+     20,
+     22,
+     24,
+     28
+    ]
+   },
+   {
+    "name": "米谷由贵",
+    "slug": "yonetani-yuki",
+    "role": "speaker",
+    "seg": [
+     15,
+     25,
+     40,
+     43,
+     45,
+     52
+    ]
+   },
+   {
+    "name": "若杉辽",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "尾形美幸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大上阳一郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中川裕介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "弘田充",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     75
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "帕底亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "本作舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 18,
+   "text": "本作登场宝可梦400种以上，其中约120种为新登场",
+   "anchor": 19
+  },
+  {
+   "seg": 60,
+   "text": "面部表情自《宝可梦传说 阿尔宙斯》起由纹理滚动改为关节动画",
+   "anchor": 61
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cgworld-2023-sv-making-3",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦朱紫动作制作幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-3/",
+   "why": "同为CGWORLD采访Creatures三人，续篇谈动作制作"
+  },
+  {
+   "id": "interview-cgworld-2023-sv-making-2",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦朱紫动作制作幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-2/",
+   "why": "同为CGWORLD采访Creatures动画师，前篇谈表情制作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

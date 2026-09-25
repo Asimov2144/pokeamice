@@ -1,0 +1,253 @@
+{
+ "id": "gamefreak-staff-197",
+ "stem": "2010-09-03-gamefreak-staff-197",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 160
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "鬼太郎之妻",
+    "slug": null,
+    "seg": [
+     38
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "天下统一",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝冢DVD",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "にょろリカ（妮洛莉卡）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "カニ子（蟹子）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ジョニー（乔尼）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ほっしー（小星）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "なぎー（纳吉）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "さとう（佐藤）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "カラシ（卡拉希）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "えるかつ（埃尔卡茨）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一池",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "わも（和本）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "澳门",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "what": "赌场所在",
+    "via": "llm"
+   },
+   {
+    "name": "热海",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24
+    ],
+    "what": "桌游旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "青森",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "看白神山地十和田湖",
+    "via": "llm"
+   },
+   {
+    "name": "白神山地",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "青森观光地",
+    "via": "llm"
+   },
+   {
+    "name": "十和田湖",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "青森观光地",
+    "via": "llm"
+   },
+   {
+    "name": "水木茂大道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     37
+    ],
+    "what": "妖怪雕像街道",
+    "via": "llm"
+   },
+   {
+    "name": "甲子园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     64
+    ],
+    "what": "高中棒球观赛地",
+    "via": "llm"
+   },
+   {
+    "name": "法国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "独自旅行地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "妮洛莉卡独自去法国旅行，努力和当地人聊天。"
+  },
+  {
+   "seg": 13,
+   "text": "乔尼在婚礼前拍了婚纱照，按摄影师指示摆姿势。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

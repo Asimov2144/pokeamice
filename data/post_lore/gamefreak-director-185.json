@@ -1,0 +1,135 @@
+{
+ "id": "gamefreak-director-185",
+ "stem": "2011-02-14-gamefreak-director-185",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 72
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     30,
+     68
+    ],
+    "as": [
+     "莱希拉姆",
+     "Reshiram"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     30,
+     68
+    ],
+    "as": [
+     "捷克罗姆",
+     "Zekrom"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "恶魔岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "雾中的景点",
+    "via": "llm"
+   },
+   {
+    "name": "金门大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "两年前也经过的桥",
+    "via": "llm"
+   },
+   {
+    "name": "圣何塞",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "巡回活动地点",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "接受采访和游玩的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "从伦敦到旧金山花了11个小时"
+  },
+  {
+   "seg": 2,
+   "text": "在旧金山两天要接受《黑／白》采访"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

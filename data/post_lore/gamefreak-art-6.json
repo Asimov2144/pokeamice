@@ -1,0 +1,96 @@
+{
+ "id": "gamefreak-art-6",
+ "stem": "2008-08-01-gamefreak-art-6",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 55
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     1,
+     8,
+     9,
+     30,
+     37,
+     38
+    ],
+    "as": [
+     "骑拉帝纳",
+     "ギラティナ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "シェイミ",
+    "ndex": 492,
+    "seg": [
+     30,
+     1
+    ],
+    "as": [
+     "シェイミ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "反转世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "无限独居五年的地方",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "杉森建把零渴望骑拉帝纳力量理解为想变成骑拉帝纳"
+  },
+  {
+   "seg": 11,
+   "text": "因听说零爱干净，底子做成灭菌服样式"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

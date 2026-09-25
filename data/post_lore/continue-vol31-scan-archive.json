@@ -1,0 +1,979 @@
+{
+ "id": "continue-vol31-scan-archive",
+ "stem": "2026-08-29-continue-vol31-scan-archive",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 359
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     54,
+     76
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     240
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     240,
+     305,
+     317,
+     324
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水箭龟",
+    "ndex": 9,
+    "seg": [
+     240
+    ],
+    "as": [
+     "水箭龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5,
+     51,
+     53,
+     54,
+     76,
+     80
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "宝石海星",
+    "ndex": 121,
+    "seg": [
+     76,
+     324
+    ],
+    "as": [
+     "宝石海星"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电击兽",
+    "ndex": 125,
+    "seg": [
+     336
+    ],
+    "as": [
+     "电击兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     167,
+     215,
+     305
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     233,
+     234
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "叉字蝠",
+    "ndex": 169,
+    "seg": [
+     282,
+     283,
+     297,
+     312
+    ],
+    "as": [
+     "叉字蝠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     165,
+     213
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盔甲鸟",
+    "ndex": 227,
+    "seg": [
+     312
+    ],
+    "as": [
+     "盔甲鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     160,
+     208
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火稚鸡",
+    "ndex": 255,
+    "seg": [
+     112
+    ],
+    "as": [
+     "火稚鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沼跃鱼",
+    "ndex": 259,
+    "seg": [
+     112,
+     114
+    ],
+    "as": [
+     "沼跃鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴飞龙",
+    "ndex": 373,
+    "seg": [
+     312,
+     324
+    ],
+    "as": [
+     "暴飞龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "金属怪",
+    "ndex": 375,
+    "seg": [
+     324
+    ],
+    "as": [
+     "金属怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉帝欧斯",
+    "ndex": 381,
+    "seg": [
+     276,
+     312,
+     324
+    ],
+    "as": [
+     "拉帝欧斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     228,
+     242
+    ],
+    "as": [
+     "基拉祈"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     228
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "姆克鹰",
+    "ndex": 398,
+    "seg": [
+     120,
+     283,
+     299
+    ],
+    "as": [
+     "姆克鹰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伦琴猫",
+    "ndex": 405,
+    "seg": [
+     289,
+     305
+    ],
+    "as": [
+     "伦琴猫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕奇利兹",
+    "ndex": 417,
+    "seg": [
+     276
+    ],
+    "as": [
+     "帕奇利兹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "浮潜鼬",
+    "ndex": 419,
+    "seg": [
+     289,
+     317
+    ],
+    "as": [
+     "浮潜鼬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "青铜钟",
+    "ndex": 437,
+    "seg": [
+     297,
+     324
+    ],
+    "as": [
+     "青铜钟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈咬陆鲨",
+    "ndex": 445,
+    "seg": [
+     312
+    ],
+    "as": [
+     "烈咬陆鲨"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小卡比兽",
+    "ndex": 446,
+    "seg": [
+     112
+    ],
+    "as": [
+     "小卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     289
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴雪王",
+    "ndex": 460,
+    "seg": [
+     317
+    ],
+    "as": [
+     "暴雪王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "轻飘飘",
+    "ndex": 592,
+    "seg": [
+     76
+    ],
+    "as": [
+     "轻飘飘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "快龙",
+    "ndex": 149,
+    "seg": [
+     54
+    ],
+    "as": [
+     "快龙"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     54
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "胡地",
+    "ndex": 65,
+    "seg": [
+     289
+    ],
+    "as": [
+     "胡地"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "耿鬼",
+    "ndex": 94,
+    "seg": [
+     299
+    ],
+    "as": [
+     "耿鬼"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 水晶",
+    "slug": null,
+    "seg": [
+     163
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石·绿宝石",
+    "slug": null,
+    "seg": [
+     240
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     240
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     250
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     140
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦卡牌游戏",
+    "slug": null,
+    "seg": [
+     143
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 超梦的逆袭",
+    "slug": null,
+    "seg": [
+     148
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 水都的守护神 拉帝亚斯与拉帝欧斯",
+    "slug": null,
+    "seg": [
+     242
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 超世代 七夜的许愿星 基拉祈",
+    "slug": null,
+    "seg": [
+     242
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 超世代 裂空的访问者 代欧奇希斯",
+    "slug": null,
+    "seg": [
+     242
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 超世代 梦幻与波导的勇者路卡利欧",
+    "slug": null,
+    "seg": [
+     261
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 超世代 宝可梦巡护员与沧海的王子玛纳霏",
+    "slug": null,
+    "seg": [
+     261
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "柔软战车",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "飞跃巅峰2！",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "狂热者的受难",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蜂蜜与四叶草",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "扶桑花女孩",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "虫师",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "青春★金属球棒",
+    "slug": null,
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "乌龙派出所",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "奥特曼",
+    "slug": null,
+    "seg": [
+     137
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "怪兽图鉴",
+    "slug": null,
+    "seg": [
+     137
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "能说出宝可梦吗？",
+    "slug": null,
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "中川翔子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "苍井优",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "志田英邦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "犬山犬子",
+    "slug": "inuyama-inuko",
+    "role": "mentioned",
+    "seg": [
+     54
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     112
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "古泉智浩",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山寺宏一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     148
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "市村正亲",
+    "slug": "ichimura-masachika",
+    "role": "mentioned",
+    "seg": [
+     148
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小林幸子",
+    "slug": "kobayashi-sachiko",
+    "role": "mentioned",
+    "seg": [
+     148
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐藤蓝子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     148
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "细野晴臣",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高桥幸宏",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松本梨香",
+    "slug": "matsumoto-rica",
+    "role": "mentioned",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "林原惠美",
+    "slug": "hayashibara-megumi",
+    "role": "mentioned",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     276
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "永田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     276
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "长谷川",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     289
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊部",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     289
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高嶋",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     297
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "竹村",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     297
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "普奇",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     299
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "木村",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     299
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     305
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白井廉彦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫昌太朗",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     335
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "猿乐厅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     276
+    ],
+    "what": "游戏大会会场",
+    "via": "llm"
+   },
+   {
+    "name": "福冈县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     56
+    ],
+    "what": "苍井优出身地",
+    "via": "llm"
+   },
+   {
+    "name": "Theatral新宿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "影片放映地",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     231
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     234
+    ],
+    "what": "百变怪所在地",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     23
+    ],
+    "what": "文中联想地点",
+    "via": "llm"
+   },
+   {
+    "name": "六本木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     23
+    ],
+    "what": "文中联想地点",
+    "via": "llm"
+   },
+   {
+    "name": "新潟市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     120
+    ],
+    "what": "古泉智浩居住地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 39,
+   "text": "最初试作中宝可梦自动战斗，后改为选择招式系统"
+  },
+  {
+   "seg": 39,
+   "text": "招式最多4个且使用次数固定，用尽后使出战"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

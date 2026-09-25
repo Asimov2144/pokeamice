@@ -1,0 +1,294 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch222",
+ "stem": "2010-05-19-interview-takeshi-shudo-pokemon-memoir-ch222",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 112
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     43
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ニャース",
+    "ndex": 52,
+    "seg": [
+     46
+    ],
+    "as": [
+     "ニャース"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ミュウツー",
+    "ndex": 150,
+    "seg": [
+     51,
+     47
+    ],
+    "as": [
+     "ミュウツー",
+     "Mewtwo"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦重现",
+    "slug": null,
+    "seg": [
+     51
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "喵喵之歌",
+    "slug": null,
+    "seg": [
+     46,
+     48
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "凉宫春日的消失",
+    "slug": null,
+    "seg": [
+     97
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宫本武藏：双剑飞驰之梦",
+    "slug": null,
+    "seg": [
+     96
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "四叠半神话大系",
+    "slug": null,
+    "seg": [
+     108
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "8月的交响曲",
+    "slug": null,
+    "seg": [
+     94
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     68
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     40,
+     85
+    ]
+   },
+   {
+    "name": "林原惠",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     90
+    ]
+   },
+   {
+    "name": "三木真一郎",
+    "slug": "miki-shinichiro",
+    "role": "mentioned",
+    "seg": [
+     90
+    ]
+   },
+   {
+    "name": "犬山犬子",
+    "slug": "inuyama-inuko",
+    "role": "mentioned",
+    "seg": [
+     90
+    ]
+   },
+   {
+    "name": "押井守",
+    "slug": "ya-jing-shou",
+    "role": "mentioned",
+    "seg": [
+     96
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "汤浅政明",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     108
+    ]
+   },
+   {
+    "name": "森见登美彦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     108
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "纽约中央公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "遭遇暴雨之地",
+    "via": "llm"
+   },
+   {
+    "name": "根钏原野",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "北海道原野",
+    "via": "llm"
+   },
+   {
+    "name": "西伯利亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "荒原比较对象",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     30
+    ],
+    "what": "首藤五至九岁居住地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 40,
+   "text": "汤山邦彦在会议桌下用脚踢醒睡着的首藤刚志",
+   "anchor": 41
+  },
+  {
+   "seg": 49,
+   "text": "首藤刚志主动向高层辞退第4部剧场版编剧一职",
+   "anchor": 50
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch218/",
+   "why": "同系列纽约行，御前会议与赴美考察背景"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
+   "why": "幻之第三弹被枪毙，辞退第四作前情"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "病房开剧本会，身心崩溃前情"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+   "why": "幻之第三弹大纲，斯巴达克斯式构想前身"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

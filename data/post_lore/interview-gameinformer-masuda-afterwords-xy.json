@@ -1,0 +1,371 @@
+{
+ "id": "interview-gameinformer-masuda-afterwords-xy",
+ "stem": "2014-02-14-interview-gameinformer-masuda-afterwords-xy",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 66
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "火狐狸",
+    "ndex": 653,
+    "seg": [
+     65
+    ],
+    "as": [
+     "火狐狸"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "钥圈儿",
+    "ndex": 707,
+    "seg": [
+     2,
+     38,
+     42,
+     43
+    ],
+    "as": [
+     "钥圈儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "耿鬼",
+    "ndex": 94,
+    "seg": [
+     29
+    ],
+    "as": [
+     "耿鬼"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "妙喵",
+    "ndex": 677,
+    "seg": [
+     58
+    ],
+    "as": [
+     "妙喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     47
+    ],
+    "as": [
+     "谢米"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     44,
+     52,
+     54,
+     62
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon HOME",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Bank",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·蓝",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石/珍珠",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦银行",
+    "slug": null,
+    "seg": [
+     63
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可拍乐乐",
+    "slug": null,
+    "seg": [
+     65
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     2,
+     5,
+     8,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     7,
+     9,
+     10,
+     13
+    ]
+   },
+   {
+    "name": "莎娜",
+    "slug": "sha-na",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "弗拉达利",
+    "slug": "fu-la-da-li",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "AZ",
+    "slug": "az",
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "井部女士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "布拉塔诺博士",
+    "slug": "bu-la-ta-nuo-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     54
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "Kyle Hilliard",
+    "slug": "kai-er-xi-li-ya-de",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "卢浮宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "设计师实地考察地",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     37
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     25
+    ],
+    "what": "游戏城市",
+    "via": "llm"
+   },
+   {
+    "name": "华盛顿特区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     41
+    ],
+    "what": "2014年世锦赛举办地",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     46
+    ],
+    "what": "画旁人们来自的地区",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     47
+    ],
+    "what": "谢米所属地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田说扮演男孩时加入与莎娜的浪漫元素，扮演女孩时表达深厚友谊",
+   "anchor": 7
+  },
+  {
+   "seg": 53,
+   "text": "增田说X·Y概念规划始于黑白发售前，想法约在2010年6月产生",
+   "anchor": 54
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "同谈X·Y开发起点与三年周期"
+  },
+  {
+   "id": "scan-ndream-2014-01-xy-sound-team-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦X·Y声音团队访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2014-01-xy-sound-team-interview/",
+   "why": "同涉X·Y开发2010年启动与三年"
+  },
+  {
+   "id": "gamefreak-director-161",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第161回",
+   "url": "/gamefreak-director/entry-161/",
+   "why": "黑白发售前时点，对应X·Y规划起点"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

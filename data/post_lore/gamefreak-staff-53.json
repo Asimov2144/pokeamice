@@ -1,0 +1,34 @@
+{
+ "id": "gamefreak-staff-53",
+ "stem": "2008-01-16-gamefreak-staff-53",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 98
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "任天堂卡带大约有一千种以上，绝大多数是同一形状"
+  },
+  {
+   "seg": 40,
+   "text": "为防止插反，卡带没有做成正方形，而是梯形"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

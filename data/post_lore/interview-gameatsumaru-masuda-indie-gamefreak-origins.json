@@ -1,0 +1,224 @@
+{
+ "id": "interview-gameatsumaru-masuda-indie-gamefreak-origins",
+ "stem": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     14,
+     13
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙草",
+    "ndex": 2,
+    "seg": [
+     14,
+     13
+    ],
+    "as": [
+     "妙蛙草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     14,
+     13
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "绿毛虫",
+    "ndex": 10,
+    "seg": [
+     14,
+     13
+    ],
+    "as": [
+     "绿毛虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巴大蝶",
+    "ndex": 12,
+    "seg": [
+     14,
+     13
+    ],
+    "as": [
+     "巴大蝶"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     4,
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "クインティ (Quinty)",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "自作ゲーム担当",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     5,
+     12
+    ]
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     6,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     2,
+     9
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   },
+   {
+    "name": "克劳德·列维-斯特劳斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "南梦宫总部",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "自荐并获发行",
+    "via": "llm"
+   },
+   {
+    "name": "秋叶原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "采购电路基板与元器件",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一称当年买FC主机拆解，逆向分析CPU与内存芯片针脚",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "靠《Quinty》版税资金正式注册成立Game Freak株式会社",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-niconico-gamefreak-origins-masuda",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+   "url": "//interview-niconico-gamefreak-origins-masuda/",
+   "why": "同为2014-08-22增田顺一NicoNico专访，同谈自制FC与九人红绿"
+  },
+  {
+   "id": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E7%94%B5%E8%A7%86%E7%8B%AC%E5%AE%B6%E4%B8%93%E8%AE%BF/%E5%88%9B%E5%A7%8B%E4%BA%BA%E4%B8%93%E9%A2%98/interview-game-center-cx-tajiri-man-who-created-pokemon/",
+   "why": "同述拆解红白机逆向分析、自制开发机做Quinty"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

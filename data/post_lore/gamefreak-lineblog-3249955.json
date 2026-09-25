@@ -1,0 +1,56 @@
+{
+ "id": "gamefreak-lineblog-3249955",
+ "stem": "2016-05-05-gamefreak-lineblog-3249955",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 135
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "楚国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     34
+    ],
+    "what": "端午习俗起源地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 34,
+   "text": "端午习俗据说起源于公元前3世纪的中国楚国"
+  },
+  {
+   "seg": 81,
+   "text": "鲤鱼旗飘带的五种颜色似乎和五行说有关"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

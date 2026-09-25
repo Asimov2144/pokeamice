@@ -1,0 +1,122 @@
+{
+ "id": "gamefreak-director-177",
+ "stem": "2010-09-17-gamefreak-director-177",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 33
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "布鲁克林大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "专栏照片背景",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "取材灵感来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "《黑／白》花了四年时间制作。"
+  },
+  {
+   "seg": 8,
+   "text": "增田顺一为取材去过纽约两次。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-161",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第161回",
+   "url": "/gamefreak-director/entry-161/",
+   "why": "同为黑白发售前专栏，接续公布发售日与封面"
+  },
+  {
+   "id": "gamefreak-director-163",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第163回",
+   "url": "/gamefreak-director/entry-163/",
+   "why": "接续公布黑白具体发售日9月18日"
+  },
+  {
+   "id": "gamefreak-director-167",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第167回",
+   "url": "/gamefreak-director/entry-167/",
+   "why": "同为黑白发售前专栏，谈作品变化"
+  },
+  {
+   "id": "gamefreak-director-170",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第170回",
+   "url": "/gamefreak-director/entry-170/",
+   "why": "同为黑白发售前专栏，谈新宝可梦设计"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

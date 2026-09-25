@@ -1,0 +1,337 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch187",
+ "stem": "2009-06-03-interview-takeshi-shudo-pokemon-memoir-ch187",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 106
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     0,
+     2,
+     4,
+     24,
+     33,
+     48,
+     101
+    ],
+    "as": [
+     "洛奇亚",
+     "Lugia"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     6
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     88
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     1,
+     3,
+     5,
+     7,
+     24,
+     37
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     24,
+     33,
+     85,
+     88,
+     90
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     19,
+     20,
+     24,
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的诞生",
+    "slug": null,
+    "seg": [
+     11,
+     14,
+     16,
+     20
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦！我就在这里",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "剧院魅影",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "悲惨世界",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "变身怪医",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "洛奇亚默示录",
+    "slug": null,
+    "seg": [
+     101
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     51
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     80
+    ]
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     32,
+     42
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小智的母亲（花子）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     42
+    ]
+   },
+   {
+    "name": "洛奇亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     2,
+     4,
+     24,
+     33,
+     48
+    ]
+   },
+   {
+    "name": "吉拉尔丹",
+    "slug": "ji-la-er-dan",
+    "role": "mentioned",
+    "seg": [
+     52,
+     55,
+     57,
+     63,
+     64,
+     65
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "鹿贺丈史",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     52,
+     71,
+     72,
+     75,
+     86
+    ]
+   },
+   {
+    "name": "市村正亲",
+    "slug": "ichimura-masachika",
+    "role": "mentioned",
+    "seg": [
+     69,
+     72
+    ]
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3,
+     5,
+     6,
+     7,
+     11
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "御前大人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小美",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三穗",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "卢浮宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     63
+    ],
+    "what": "断臂维纳斯所在处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "提议让游戏原作中不存在的原创宝可梦代号X登场，获制作委员会首肯",
+   "anchor": 3
+  },
+  {
+   "seg": 81,
+   "text": "汤山邦彦在试映会低声长叹，希望上映时长能再宽限10分钟",
+   "anchor": 82
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与原创宝可梦“X爆诞”解禁）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch186/",
+   "why": "同为《洛奇亚爆诞》筹备，前一篇讲深层海流与X爆诞"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch191",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第191回：《洛奇亚》雄性？雌性？根本无关紧要（编剧戏剧观批判卓别林黑泽明、深层海流母性象征与御前大人密室表决）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch191/",
+   "why": "同系列后篇，续谈洛奇亚与X的性别表决"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch205/",
+   "why": "同系列后篇，续谈洛奇亚决战火箭队自白"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+   "why": "同系列后篇，续谈洛奇亚剧本难产与爆诞副标题"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

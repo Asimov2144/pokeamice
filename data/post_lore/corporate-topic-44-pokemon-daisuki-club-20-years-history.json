@@ -1,0 +1,456 @@
+{
+ "id": "corporate-topic-44-pokemon-daisuki-club-20-years-history",
+ "stem": "2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 43
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     16
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "穿山鼠",
+    "ndex": 27,
+    "seg": [
+     35
+    ],
+    "as": [
+     "穿山鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿罗拉六尾",
+    "ndex": 37,
+    "seg": [
+     35
+    ],
+    "as": [
+     "阿罗拉六尾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "风速狗",
+    "ndex": 59,
+    "seg": [
+     35
+    ],
+    "as": [
+     "风速狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小拳石",
+    "ndex": 74,
+    "seg": [
+     35
+    ],
+    "as": [
+     "小拳石"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     23,
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "as": [
+     "呆呆兽",
+     "ヤドン"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "椰蛋树",
+    "ndex": 103,
+    "seg": [
+     35
+    ],
+    "as": [
+     "椰蛋树"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吉利蛋",
+    "ndex": 113,
+    "seg": [
+     35
+    ],
+    "as": [
+     "吉利蛋"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉普拉斯",
+    "ndex": 131,
+    "seg": [
+     35
+    ],
+    "as": [
+     "拉普拉斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     16,
+     17
+    ],
+    "as": [
+     "基拉祈",
+     "ジラーチ"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     35
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电电虫",
+    "ndex": 595,
+    "seg": [
+     35
+    ],
+    "as": [
+     "电电虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "快龙",
+    "ndex": 149,
+    "seg": [
+     35
+    ],
+    "as": [
+     "快龙"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "土王",
+    "ndex": 980,
+    "seg": [
+     35
+    ],
+    "as": [
+     "土王"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケモンだいすきクラブ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケットモンスター 赤・緑",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンローカルActs",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ヤドンパラダイス",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦超喜欢俱乐部",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦超喜欢俱乐部 夏日大作战！",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "向基拉祈许愿…",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokemon Festa",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦地方振兴计划",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "呆呆兽乐园",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "呆呆兽乐园 in 香川",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Local Acts",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "耕地",
+    "slug": null,
+    "seg": [
+     42
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社宝可梦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "香川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "呆呆兽联动地",
+    "via": "llm"
+   },
+   {
+    "name": "岩手县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   },
+   {
+    "name": "宫城县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   },
+   {
+    "name": "福岛县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   },
+   {
+    "name": "福井县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   },
+   {
+    "name": "三重县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   },
+   {
+    "name": "鸟取县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   },
+   {
+    "name": "枯叶市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "游戏中的俱乐部所在地",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "游戏中的地区",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     35
+    ],
+    "what": "Local Acts道县",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "2004年，作为宝可梦官方首座正统粉丝俱乐部诞生",
+   "anchor": 5
+  },
+  {
+   "seg": 9,
+   "text": "鼎盛期注册会员总数突破300万人以上",
+   "anchor": 10
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

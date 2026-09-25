@@ -1,0 +1,124 @@
+{
+ "id": "gamefreak-director-124",
+ "stem": "2008-02-27-gamefreak-director-124",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 43
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     2
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     2
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     2
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     2
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     2
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "2月27日，《宝可梦 红·绿》在日本发售。"
+  },
+  {
+   "seg": 12,
+   "text": "在全世界支持下，迎来了第12个年头。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-056",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第56回",
+   "url": "/gamefreak-director/entry-056/",
+   "why": "同为2月27日谈《红绿》发售周年"
+  },
+  {
+   "id": "gamefreak-director-075",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第75回",
+   "url": "/gamefreak-director/entry-075/",
+   "why": "同为2月27日前后谈宝可梦周年"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

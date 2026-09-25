@@ -1,0 +1,134 @@
+{
+ "id": "gamefreak-lineblog-4186463",
+ "stem": "2016-06-15-gamefreak-lineblog-4186463",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "芭瓢虫",
+    "ndex": 165,
+    "seg": [
+     38
+    ],
+    "as": [
+     "芭瓢虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小笃儿",
+    "ndex": 731,
+    "seg": [
+     42
+    ],
+    "as": [
+     "小笃儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬少",
+    "ndex": 734,
+    "seg": [
+     46
+    ],
+    "as": [
+     "猫鼬少"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "强颚鸡母虫",
+    "ndex": 736,
+    "seg": [
+     51
+    ],
+    "as": [
+     "强颚鸡母虫"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "任天堂展台",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "E3展台",
+    "via": "llm"
+   },
+   {
+    "name": "Treehouse Live舞台",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "直播舞台",
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     64
+    ],
+    "what": "游戏冒险地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "上午8:00开始化妆。"
+  },
+  {
+   "seg": 13,
+   "text": "上午8:30调试耳机和麦克风。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

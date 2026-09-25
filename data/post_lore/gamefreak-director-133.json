@@ -1,0 +1,104 @@
+{
+ "id": "gamefreak-director-133",
+ "stem": "2008-09-26-gamefreak-director-133",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     2,
+     5,
+     9,
+     15,
+     16,
+     25,
+     29,
+     35,
+     43,
+     46
+    ],
+    "as": [
+     "骑拉帝纳",
+     "Giratina"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "战斗！骑拉帝纳",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "新曲的答案是《战斗！骑拉帝纳》"
+  },
+  {
+   "seg": 8,
+   "text": "底鼓采用仿佛坏掉、充满破坏性的声音"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-127",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第127回",
+   "url": "/gamefreak-director/entry-127/",
+   "why": "第127回宣布白金秋季发售并介绍起源形态"
+  },
+  {
+   "id": "gamefreak-director-131",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第131回",
+   "url": "/gamefreak-director/entry-131/",
+   "why": "同为增田部长专栏，第131回白金正式发售"
+  },
+  {
+   "id": "gamefreak-director-132",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第132回",
+   "url": "/gamefreak-director/entry-132/",
+   "why": "同为增田部长专栏，第132回白金销量破百万"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,1 @@
+{"key": "a8da5e533be39c0a", "answer": {"observations": [{"seg": 16, "text": "增田顺一写「梦幻的配发开始了」。"}, {"seg": 17, "text": "增田顺一写「宝可梦嘉年华也要开始了」。"}], "pokemon": [{"name": "梦幻", "seg": 16}], "places": [{"name": "宝可梦嘉年华", "seg": 17, "what": "即将开始的活动", "world": "real"}, {"name": "宝可梦乐园", "seg": 18, "what": "正在举办活动", "world": "real"}], "works": [], "people": [{"name": "增田顺一", "seg": 0}]}}

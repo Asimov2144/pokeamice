@@ -1,0 +1,102 @@
+{
+ "id": "gamefreak-director-239",
+ "stem": "2013-06-20-gamefreak-director-239",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "笑颜",
+    "slug": null,
+    "seg": [
+     1,
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "水野良树",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "六本木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "清晨拍摄地点",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "当天要飞往的目的地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "当天要去洛杉矶，所以请他们把拍摄安排在最早的时间"
+  },
+  {
+   "seg": 16,
+   "text": "他以为只是彩排，导演却说可以了"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-236",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第236回",
+   "url": "/gamefreak-director/entry-236/",
+   "why": "第236回记录他首次参加生物股长广播节目"
+  },
+  {
+   "id": "gamefreak-director-238",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第238回",
+   "url": "/gamefreak-director/entry-238/",
+   "why": "第238回记录同期洛杉矶E3行程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,160 @@
+{
+ "id": "interview-pokemon-recruit-designer",
+ "stem": "2024-02-15-interview-pokemon-recruit-designer",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 67
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     22,
+     33
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokemon Center",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokemon Local Acts（宝可梦地方应援）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     9,
+     11,
+     15,
+     19,
+     23
+    ]
+   },
+   {
+    "name": "町田",
+    "slug": "ting-tian",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     10,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "李",
+    "slug": "li",
+    "role": "speaker",
+    "seg": [
+     20,
+     22,
+     24,
+     27,
+     29
+    ]
+   },
+   {
+    "name": "川島",
+    "slug": "chuan-dao",
+    "role": "speaker",
+    "seg": [
+     33,
+     36,
+     39,
+     41
+    ]
+   },
+   {
+    "name": "永山",
+    "slug": "yong-shan",
+    "role": "speaker",
+    "seg": [
+     45,
+     47,
+     49,
+     52,
+     54
+    ]
+   },
+   {
+    "name": "為藤",
+    "slug": "wei-teng",
+    "role": "speaker",
+    "seg": [
+     58,
+     61,
+     64,
+     66
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     49
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "日本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "地方联动与赛事",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "町田负责官方艺术资产视觉指导与主题运营活动Logo、宣发物料设计",
+   "anchor": 7
+  },
+  {
+   "seg": 13,
+   "text": "町田毕业于综合类大学工学部设计学科，入社后最初分配在商品部",
+   "anchor": 14
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

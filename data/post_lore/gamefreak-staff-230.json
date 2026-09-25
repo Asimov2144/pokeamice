@@ -1,0 +1,93 @@
+{
+ "id": "gamefreak-staff-230",
+ "stem": "2011-06-29-gamefreak-staff-230",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "めめた",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     32,
+     34,
+     66
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "E3会场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "考察的展会现场",
+    "via": "llm"
+   },
+   {
+    "name": "圣莫尼卡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "what": "看海景的地方",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "E3考察地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "入职第3年，第一次出差，也是第一次出国"
+  },
+  {
+   "seg": 18,
+   "text": "看了圣莫尼卡的海景，吃了很多海鲜"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

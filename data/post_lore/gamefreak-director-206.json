@@ -1,0 +1,82 @@
+{
+ "id": "gamefreak-director-206",
+ "stem": "2011-08-23-gamefreak-director-206",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 53
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 Smash",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦Smash",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森本君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "东京塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5,
+     6,
+     31,
+     32
+    ],
+    "via": "extra",
+    "what": "多次办宝可梦活动"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "活动持续到8月28日周日，每天举办"
+  },
+  {
+   "seg": 15,
+   "text": "增田顺一和森本君两人等待正式拍摄"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

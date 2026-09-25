@@ -1,0 +1,123 @@
+{
+ "id": "gamefreak-staff-199",
+ "stem": "2010-09-17-gamefreak-staff-199",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     21,
+     55
+    ],
+    "as": [
+     "藤藤蛇",
+     "ツタージャ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     21,
+     55
+    ],
+    "as": [
+     "暖暖猪",
+     "ポカブ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     21,
+     55
+    ],
+    "as": [
+     "水水獭",
+     "ミジュマル"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田宣布最终完成的声音响彻办公室楼层，开发员工聚集到办公室中央的流星周围。"
+  },
+  {
+   "seg": 21,
+   "text": "周边集友圈准备的棉花糖上画着藤藤蛇、暖暖猪、水水獭。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-163",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第163回",
+   "url": "/gamefreak-director/entry-163/",
+   "why": "该篇给出9月18日发售日，本篇为完成日"
+  },
+  {
+   "id": "gamefreak-director-167",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第167回",
+   "url": "/gamefreak-director/entry-167/",
+   "why": "该篇谈黑白全面变化，本篇为完成当天"
+  },
+  {
+   "id": "gamefreak-director-170",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第170回",
+   "url": "/gamefreak-director/entry-170/",
+   "why": "该篇谈全程新宝可梦设计，本篇为完成当天"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,326 @@
+{
+ "id": "interview-dengeki-hgss-shigeki-morimoto",
+ "stem": "2009-09-18-interview-dengeki-hgss-shigeki-morimoto",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 153
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4,
+     27,
+     33,
+     34,
+     36,
+     37,
+     44
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     18,
+     26
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "晃晃斑",
+    "ndex": 327,
+    "seg": [
+     18,
+     20
+    ],
+    "as": [
+     "晃晃斑"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     106
+    ],
+    "as": [
+     "基拉祈"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毒骷蛙",
+    "ndex": 454,
+    "seg": [
+     135,
+     136
+    ],
+    "as": [
+     "毒骷蛙",
+     "ドクロッグ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     0,
+     4,
+     53,
+     54,
+     55,
+     56
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银·水晶版",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠·白金",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "走一走就明白 生活节奏DS",
+    "slug": null,
+    "seg": [
+     94
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "电击编辑部",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     11,
+     13,
+     15,
+     17,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     12,
+     14,
+     16,
+     18,
+     21,
+     23
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "狩猎地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     76
+    ],
+    "what": "可自定义区域",
+    "via": "llm"
+   },
+   {
+    "name": "黄色森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     106
+    ],
+    "what": "宝可步数计路线",
+    "via": "llm"
+   },
+   {
+    "name": "夜空尽头",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     106
+    ],
+    "what": "宝可步数计路线",
+    "via": "llm"
+   },
+   {
+    "name": "圣地亚哥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     136
+    ],
+    "what": "世界锦标赛决赛地",
+    "via": "llm"
+   },
+   {
+    "name": "城都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     18
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "关都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     18
+    ],
+    "what": "游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "缘朱市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     50
+    ],
+    "what": "和服女孩所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "电击编辑部问《钻石·珍珠》阶段是否已有重制《金·银》构想",
+   "anchor": 12
+  },
+  {
+   "seg": 12,
+   "text": "森本茂树答在《钻石·珍珠》发售阶段就已有了",
+   "anchor": 13
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同为2009年9月《心金·魂银》重制经过访谈"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+   "why": "森本谈《红·绿》梦幻诞生，本篇涉重制构想"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+   "why": "森本谈《金·银》开发难产，本篇为重制访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

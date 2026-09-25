@@ -1,0 +1,289 @@
+{
+ "id": "interview-nintendopower-gold-silver-roundtable",
+ "stem": "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 62
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     51
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     16,
+     24,
+     58
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     48
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "椰蛋树",
+    "ndex": 103,
+    "seg": [
+     47
+    ],
+    "as": [
+     "椰蛋树"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     52
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "火球鼠",
+    "ndex": 155,
+    "seg": [
+     51
+    ],
+    "as": [
+     "火球鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "咕咕",
+    "ndex": 163,
+    "seg": [
+     50,
+     49
+    ],
+    "as": [
+     "咕咕",
+     "Hoothoot"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "凤王",
+    "ndex": 250,
+    "seg": [
+     19
+    ],
+    "as": [
+     "凤王"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     35
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金／银",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "绿宝石",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "心金／魂银",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦方块",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "嘿，皮卡丘",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "星际迷航",
+    "slug": null,
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     16,
+     18,
+     25,
+     48
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     5,
+     14,
+     24,
+     47,
+     55,
+     59
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     6,
+     26,
+     37,
+     39,
+     49
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     7,
+     27,
+     52,
+     54
+    ]
+   },
+   {
+    "name": "太田健程",
+    "slug": "ota-takenori",
+    "role": "speaker",
+    "seg": [
+     8,
+     29,
+     51
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     9,
+     28
+    ]
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "增田称《金／银》团队约20人，三年前红绿完成后启动",
+   "anchor": 17
+  },
+  {
+   "seg": 39,
+   "text": "杉森称构思了数百只新宝可梦，大部分开发中被删减",
+   "anchor": 40
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendo-power-134-gold-silver-mew",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化与当年最后时刻写入卡带的幻之宝可梦梦幻”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E6%89%AB%E6%9C%AC%E4%B8%93%E8%AE%BF/interview-nintendo-power-134-gold-silver-mew/",
+   "why": "同为Nintendo Power第134期金/银主创专访"
+  },
+  {
+   "id": "interview-nom-gold-silver-gamefreak",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+   "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
+   "why": "同为2000年GAME FREAK金/银开发访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

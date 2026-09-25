@@ -1,0 +1,92 @@
+{
+ "id": "gamefreak-lineblog-4198886",
+ "stem": "2016-06-15-gamefreak-lineblog-4198886",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 55
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "太阳／月亮",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "Jeron",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Chad",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Susie",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "L.A.",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "演出地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一称L.A.的交响乐团太棒了"
+  },
+  {
+   "seg": 11,
+   "text": "增田在舞台侧边紧张不已"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

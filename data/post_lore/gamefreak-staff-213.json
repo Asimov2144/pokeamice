@@ -1,0 +1,106 @@
+{
+ "id": "gamefreak-staff-213",
+ "stem": "2010-12-24-gamefreak-staff-213",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     13,
+     43
+    ],
+    "as": [
+     "杰尼龟",
+     "ゼニガメ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "甜甜萤",
+    "ndex": 314,
+    "seg": [
+     20,
+     50
+    ],
+    "as": [
+     "甜甜萤",
+     "イルミーゼ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "斑斑马",
+    "ndex": 522,
+    "seg": [
+     13
+    ],
+    "as": [
+     "斑斑马"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ゼブライカ",
+    "ndex": 523,
+    "seg": [
+     43
+    ],
+    "as": [
+     "ゼブライカ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     13,
+     43
+    ],
+    "as": [
+     "捷克罗姆",
+     "ゼクロム"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "アーリー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "今年忘年会为团队对抗问答大会"
+  },
+  {
+   "seg": 8,
+   "text": "前半抢答，后半面板问答"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

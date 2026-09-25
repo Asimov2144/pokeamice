@@ -1,0 +1,190 @@
+{
+ "id": "interview-famitsu-sword-shield-masuda-ohmori",
+ "stem": "2019-10-25-interview-famitsu-sword-shield-masuda-ohmori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 43
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5,
+     10,
+     12,
+     13
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     11
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     5,
+     10,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     36
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "周刊Fami通",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Fami通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     10,
+     12,
+     14,
+     17
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     11,
+     16,
+     18,
+     25
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     13,
+     15,
+     21,
+     23,
+     26,
+     30
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     36
+    ],
+    "what": "可回忆招式之处",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "旷野地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "广阔无缝地图",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "本作冒险舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "大森滋说仅确定草丛呈现方式就反复讨论约半年",
+   "anchor": 17
+  },
+  {
+   "seg": 36,
+   "text": "本作中宝可梦中心的大叔从游戏初期出现，回忆招式不再需要心灵鳞片",
+   "anchor": 37
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-2019-swsh-autosave",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与大森滋谈剑盾培育",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2019-swsh-autosave/",
+   "why": "同为2019-10-25 Fami通采访增田大森，草丛半年一致"
+  },
+  {
+   "id": "interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/",
+   "why": "E3采访说明高清化致图鉴缩减，为本文背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

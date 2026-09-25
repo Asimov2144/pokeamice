@@ -1,0 +1,57 @@
+{
+ "id": "gamefreak-staff-109",
+ "stem": "2009-01-23-gamefreak-staff-109",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 95
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "サンド",
+    "ndex": 27,
+    "seg": [
+     50,
+     93
+    ],
+    "as": [
+     "サンド"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "ギン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "客人说没有特别不喜欢的，停顿几秒后要求不放橄榄"
+  },
+  {
+   "seg": 34,
+   "text": "ギン一边吃虾仁牛油果三明治一边听这段对话"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

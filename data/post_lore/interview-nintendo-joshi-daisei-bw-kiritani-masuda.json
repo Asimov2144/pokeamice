@@ -1,0 +1,566 @@
+{
+ "id": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+ "stem": "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 261
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     98
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     88,
+     95,
+     98,
+     103
+    ],
+    "as": [
+     "妙蛙花",
+     "フシギバナ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     13,
+     65,
+     66,
+     79,
+     203
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     69,
+     70,
+     72,
+     73,
+     78
+    ],
+    "as": [
+     "可达鸭",
+     "コダック"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ゲンガー",
+    "ndex": 94,
+    "seg": [
+     90,
+     91
+    ],
+    "as": [
+     "ゲンガー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ピチュー",
+    "ndex": 172,
+    "seg": [
+     79
+    ],
+    "as": [
+     "ピチュー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉洛克",
+    "ndex": 377,
+    "seg": [
+     131
+    ],
+    "as": [
+     "雷吉洛克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉奇卡斯",
+    "ndex": 486,
+    "seg": [
+     130,
+     131
+    ],
+    "as": [
+     "雷吉奇卡斯",
+     "レジギガス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     79,
+     80,
+     82
+    ],
+    "as": [
+     "比克提尼",
+     "ビクティニ",
+     "Victini"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     134,
+     135,
+     136,
+     138,
+     152,
+     165
+    ],
+    "as": [
+     "藤藤蛇",
+     "ツタージャ",
+     "Snivy"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "青藤蛇",
+    "ndex": 496,
+    "seg": [
+     138
+    ],
+    "as": [
+     "青藤蛇",
+     "ジャノビー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     138
+    ],
+    "as": [
+     "君主蛇",
+     "ジャローダ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     165,
+     166,
+     167,
+     172
+    ],
+    "as": [
+     "暖暖猪",
+     "ポカブ",
+     "Tepig"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炎武王",
+    "ndex": 500,
+    "seg": [
+     166
+    ],
+    "as": [
+     "炎武王",
+     "エンブオー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     50,
+     55,
+     56,
+     58,
+     104,
+     150
+    ],
+    "as": [
+     "水水獭",
+     "ミジュマル",
+     "Oshawott"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双刃丸",
+    "ndex": 502,
+    "seg": [
+     160
+    ],
+    "as": [
+     "双刃丸",
+     "フタチマル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     157,
+     160
+    ],
+    "as": [
+     "大剑鬼",
+     "ダイケンキ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     128,
+     129
+    ],
+    "as": [
+     "莱希拉姆",
+     "レシラム",
+     "Reshiram"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     128
+    ],
+    "as": [
+     "捷克罗姆",
+     "ゼクロム"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     7,
+     8,
+     10,
+     27,
+     82,
+     171
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "马力欧vs.咚奇刚 突击！迷你大陆",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 魂银",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑",
+    "slug": null,
+    "seg": [
+     115
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     131
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三国演义",
+    "slug": null,
+    "seg": [
+     166
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "桐谷美玲",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     13,
+     16,
+     19,
+     21,
+     23
+    ]
+   },
+   {
+    "name": "众人",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     75,
+     140,
+     254
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     10,
+     12,
+     15,
+     18,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     11,
+     45,
+     47,
+     49,
+     51,
+     53
+    ]
+   },
+   {
+    "name": "竹兰",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     115
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东京宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "访谈地点",
+    "via": "llm"
+   },
+   {
+    "name": "连入之桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     227
+    ],
+    "what": "森林居民增加的设施",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     107
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "雷文市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     122
+    ],
+    "what": "大竞技场所在城市",
+    "via": "llm"
+   },
+   {
+    "name": "飞云市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     125
+    ],
+    "what": "开发代号C3的城市",
+    "via": "llm"
+   },
+   {
+    "name": "黑色城市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     235
+    ],
+    "what": "增田顺一的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "桐谷美玲在广告拍摄间歇向工作人员抛出三个关于《宝可梦 白》的疑问。",
+   "anchor": 3
+  },
+  {
+   "seg": 45,
+   "text": "GAME FREAK内部专门负责宝可梦外观设计的平面设计师有17人。",
+   "anchor": 46
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为2010年任天堂官网黑·白访谈，增田、杉森同席"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
+   "why": "同为任天堂官网黑·白访谈，杉森谈17人设计团队"
+  },
+  {
+   "id": "scan-dengeki-games-vol14-bw-gamefreak-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦 黑·白 改变与不变",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-dengeki-games-vol14-bw-gamefreak-interview/",
+   "why": "同谈黑·白开发约四年与莱希拉姆捷克罗姆"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

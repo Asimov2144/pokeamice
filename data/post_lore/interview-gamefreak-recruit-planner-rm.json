@@ -1,0 +1,88 @@
+{
+ "id": "interview-gamefreak-recruit-planner-rm",
+ "stem": "2021-12-27-interview-gamefreak-recruit-planner-rm",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾 扩充票",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "全新企划项目",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑／盾 扩充票",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "R.M.",
+    "slug": "r-m",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "R.M.大学读教育学专业，主修社会心理学",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "R.M.入职后先参加新人研修，与同期制作小游戏",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

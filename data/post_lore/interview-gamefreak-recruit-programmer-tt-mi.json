@@ -1,0 +1,72 @@
+{
+ "id": "interview-gamefreak-recruit-programmer-tt-mi",
+ "stem": "2013-11-01-interview-gamefreak-recruit-programmer-tt-mi",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 18
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.T.",
+    "slug": "t-t",
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     7,
+     10,
+     12,
+     16
+    ]
+   },
+   {
+    "name": "M.I.",
+    "slug": "m-i",
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     8,
+     13,
+     15
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "T.T.入职第9年，在《宝可梦 X·Y》中担任原野系统负责人",
+   "anchor": 6
+  },
+  {
+   "seg": 3,
+   "text": "M.I.于2011年社招中途入职，此前在另一家游戏公司做3D图形R&D",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

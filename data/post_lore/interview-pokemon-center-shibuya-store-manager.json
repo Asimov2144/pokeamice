@@ -1,0 +1,161 @@
+{
+ "id": "interview-pokemon-center-shibuya-store-manager",
+ "stem": "2023-06-01-interview-pokemon-center-shibuya-store-manager",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     9
+    ],
+    "as": [
+     "超梦",
+     "Mewtwo"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦中心 涩谷",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Center SHIBUYA",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦",
+    "slug": null,
+    "seg": [
+     9,
+     12
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon Center MEGA TOKYO",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     8,
+     10,
+     13,
+     18
+    ]
+   },
+   {
+    "name": "S.O",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     9,
+     11,
+     14,
+     19
+    ]
+   },
+   {
+    "name": "R.S",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心涩谷",
+    "id": "pc_shibuya",
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0,
+     6,
+     8,
+     9,
+     12,
+     23
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "宝可梦中心所在地",
+    "via": "llm"
+   },
+   {
+    "name": "池袋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "入职首年门店所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "S.O在踏入职场第8年决定加入宝可梦中心",
+   "anchor": 4
+  },
+  {
+   "seg": 6,
+   "text": "入职第1年被分配到池袋的Pokémon Center MEGA TOKYO",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,92 @@
+{
+ "id": "interview-cedec-2026-za-kubernetes-windows-containers",
+ "stem": "2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 110
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 Z-A",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "髙山玲央名",
+    "slug": "gao-shan-ling-yang-ming",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "1天构建约1200～1800件，平均1500×25分钟约625小时/天",
+   "anchor": 17
+  },
+  {
+   "seg": 42,
+   "text": "仅镜像获取就要花费15～20分钟",
+   "anchor": 43
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cedec-2026-za-lumiose-rendering-deck",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《Z-A》密阿雷市渲染技术",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-za-lumiose-rendering-deck/",
+   "why": "同为CEDEC2026《Z-A》讲演报道"
+  },
+  {
+   "id": "interview-denfami-2026-cedec-pokerig",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "密阿雷市的渲染技术",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-pokerig/",
+   "why": "同为CEDEC2026《Z-A》渲染讲演报道"
+  },
+  {
+   "id": "interview-cgworld-2026-cedec-pkmnza",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "密阿雷市如何被画出来",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2026-cedec-pkmnza/",
+   "why": "同为CEDEC2026《Z-A》渲染讲演报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

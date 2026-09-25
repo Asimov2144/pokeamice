@@ -1,0 +1,147 @@
+{
+ "id": "gamefreak-lineblog-3895109",
+ "stem": "2016-06-06-gamefreak-lineblog-3895109",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 80
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     35
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波尔凯尼恩",
+    "ndex": 721,
+    "seg": [
+     12
+    ],
+    "as": [
+     "波尔凯尼恩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛机雅娜",
+    "ndex": 801,
+    "seg": [
+     12
+    ],
+    "as": [
+     "玛机雅娜"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "波尔凯尼恩与机巧的玛机雅娜",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "中川翔子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     42
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐香智久",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     42
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松本梨香",
+    "slug": "matsumoto-rica",
+    "role": "mentioned",
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田中",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "公布典礼名为「宝可梦总选举720 结果公布典礼」"
+  },
+  {
+   "seg": 5,
+   "text": "典礼在LINE LIVE进行播出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2818987",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016宝可梦总选举",
+   "url": "/gamefreak-director/lineblog-2818987/",
+   "why": "同为总选举，交代720只与配信背景"
+  },
+  {
+   "id": "gamefreak-lineblog-3991437",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【活动】2016宝可梦总选举结果公布",
+   "url": "/gamefreak-director/lineblog-3991437/",
+   "why": "公布典礼后揭晓结果与LINE LIVE谈话"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

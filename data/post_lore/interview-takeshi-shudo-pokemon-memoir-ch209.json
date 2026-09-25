@@ -1,0 +1,379 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+ "stem": "2010-01-20-interview-takeshi-shudo-pokemon-memoir-ch209",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 109
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     68
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     68
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     68
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     50,
+     67,
+     70,
+     71,
+     72,
+     74
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "臭臭泥",
+    "ndex": 89,
+    "seg": [
+     44
+    ],
+    "as": [
+     "臭臭泥"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "菊石兽",
+    "ndex": 138,
+    "seg": [
+     90
+    ],
+    "as": [
+     "菊石兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "化石翼龙",
+    "ndex": 142,
+    "seg": [
+     90
+    ],
+    "as": [
+     "化石翼龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈雀",
+    "ndex": 21,
+    "seg": [
+     78
+    ],
+    "as": [
+     "烈雀"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     95
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "漫画日本史（漫画发现之旅）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "漫画日本史",
+    "slug": null,
+    "seg": [
+     96
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "漫画发现之旅",
+    "slug": null,
+    "seg": [
+     96
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 The Animation",
+    "slug": null,
+    "seg": [
+     85
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     12,
+     13,
+     74,
+     99
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     67,
+     68,
+     69,
+     71,
+     72,
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     50,
+     67,
+     70,
+     71,
+     72,
+     74
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     50
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小霞",
+    "slug": "xiao-xia",
+    "role": "mentioned",
+    "seg": [
+     78
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [],
+    "kind": "character"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     79
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   },
+   {
+    "name": "栃木县自治医科大学医院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "首藤卧床疗养处",
+    "via": "llm"
+   },
+   {
+    "name": "东京迪士尼乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "有3D短片设施",
+    "via": "llm"
+   },
+   {
+    "name": "TBS电视台",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     103
+    ],
+    "what": "同窗会预定场地",
+    "via": "llm"
+   },
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "急救医院所在地",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     39
+    ],
+    "what": "剧本研讨例会地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "首藤刚志在小田原紧急入住综合医院，与3D龙事件小女孩是同一家急救医院",
+   "anchor": 2
+  },
+  {
+   "seg": 39,
+   "text": "首藤刚志手臂插留置针头，从小田原病房坐电车赴东京开剧本研讨例会",
+   "anchor": 40
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+   "why": "第210回紧接第209回，续讲幻之第三部电影大纲"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "第208回讲第三弹之前，交代幻之企划由来"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

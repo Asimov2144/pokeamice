@@ -1,0 +1,167 @@
+{
+ "id": "gamefreak-art-226",
+ "stem": "2011-08-01-gamefreak-art-226",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 65
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     1,
+     36
+    ],
+    "as": [
+     "比克提尼",
+     "ビクティニ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     27,
+     58
+    ],
+    "as": [
+     "君主蛇",
+     "ジャローダ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炎武王",
+    "ndex": 500,
+    "seg": [
+     28,
+     59
+    ],
+    "as": [
+     "炎武王",
+     "エンブオー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     29,
+     60
+    ],
+    "as": [
+     "大剑鬼",
+     "ダイケンキ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     1,
+     36
+    ],
+    "as": [
+     "莱希拉姆",
+     "レシラム"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     1,
+     36
+    ],
+    "as": [
+     "捷克罗姆",
+     "ゼクロム"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "剧场版宝可梦 Best Wishes 比克提尼与黑英雄 捷克罗姆·比克提尼与白英雄 莱希拉姆",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     5,
+     40
+    ]
+   },
+   {
+    "name": "艾莉丝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "艾因托克",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "故事舞台所在城镇",
+    "via": "llm"
+   },
+   {
+    "name": "安第斯",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "高地民族取材地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "杉森建把大地之民设想成住在安第斯等高地的民族"
+  },
+  {
+   "seg": 10,
+   "text": "德雷德头发因流浪途中旅程过于艰苦而有一半变白"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

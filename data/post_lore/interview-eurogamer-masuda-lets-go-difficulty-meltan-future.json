@@ -2,7 +2,7 @@
  "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
  "stem": "2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -244,6 +244,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "area",
     "seg": [
      2
     ],
@@ -256,6 +257,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "area",
     "seg": [
      40
     ],
@@ -278,22 +280,27 @@
  ],
  "relations": [
   {
-   "id": "interview-gamer-pokemon-press-conference-2018",
+   "id": "interview-eurogamer-masuda-nabana-lets-go",
    "kind": "same-occasion",
    "label": "同一件事的另一种说法",
-   "why": "同为2018年5月30日新作发布会报道，含增田谈Let's Go"
+   "title": "Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学",
+   "url": "/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/",
+   "why": "同为2018-10-26 Eurogamer专访增田与菜花健作"
   },
   {
-   "id": "interview-gq-spain-sun-moon-masuda-ohmori",
+   "id": "interview-pokemoncom-2018-letsgo-makers",
    "kind": "background",
    "label": "为这篇提供背景",
-   "why": "增田谈系列核心概念与受众年龄跨度"
+   "title": "宝可梦 Let's Go 开发者访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/",
+   "why": "同为增田与菜花健作谈Let's Go设计考量"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

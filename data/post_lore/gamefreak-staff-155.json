@@ -1,0 +1,135 @@
+{
+ "id": "gamefreak-staff-155",
+ "stem": "2009-11-20-gamefreak-staff-155",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 95
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "海野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1,
+     44,
+     48,
+     92
+    ]
+   },
+   {
+    "name": "小椿",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "烟墨道馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "小椿担任馆主的道馆",
+    "via": "llm"
+   },
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "古都众多的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "海野此前在《火红·叶绿》《钻石·珍珠》担任图像总监"
+  },
+  {
+   "seg": 4,
+   "text": "这次担任美术总监，负责街景、角色、菜单等"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2009-11-sugimori-charakami-special",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "皮卡丘历代大集合与杉森建",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-sugimori-charakami-special/",
+   "why": "杉森专访提到海野任美术总监先做设计"
+  },
+  {
+   "id": "gamefreak-staff-126",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年宝可梦新作开发现场",
+   "url": "/gamefreak-staff/entry-126/",
+   "why": "同为晴れたり時々曇ったりHGSS开发连载"
+  },
+  {
+   "id": "gamefreak-staff-160",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2009年宝可梦开发幕后",
+   "url": "/gamefreak-staff/entry-160/",
+   "why": "同为晴れたり時々曇ったりHGSS开发连载"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

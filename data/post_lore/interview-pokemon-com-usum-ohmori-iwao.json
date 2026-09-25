@@ -1,0 +1,285 @@
+{
+ "id": "interview-pokemon-com-usum-ohmori-iwao",
+ "stem": "2017-11-09-interview-pokemon-com-usum-ohmori-iwao",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     11,
+     33,
+     34,
+     35
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨翅飞鱼",
+    "ndex": 226,
+    "seg": [
+     29,
+     33,
+     34
+    ],
+    "as": [
+     "巨翅飞鱼",
+     "Mantine"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索尔迦雷欧",
+    "ndex": 791,
+    "seg": [
+     13
+    ],
+    "as": [
+     "索尔迦雷欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "露奈雅拉",
+    "ndex": 792,
+    "seg": [
+     13
+    ],
+    "as": [
+     "露奈雅拉"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "奈克洛兹玛",
+    "ndex": 800,
+    "seg": [
+     13,
+     36,
+     37,
+     38,
+     47
+    ],
+    "as": [
+     "奈克洛兹玛",
+     "Necrozma"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 究极之日·究极之月",
+    "slug": "usum",
+    "seg": [
+     1,
+     17,
+     19,
+     36,
+     39,
+     45
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     22,
+     24,
+     35,
+     39,
+     43,
+     46
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     8,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 赤·绿",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     13,
+     17,
+     19,
+     22
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     5,
+     9,
+     28,
+     32,
+     43,
+     48
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     31,
+     32
+    ]
+   },
+   {
+    "name": "坂木",
+    "slug": "ban-mu",
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "古兹马",
+    "slug": "gu-zi-ma",
+    "role": "mentioned",
+    "seg": [
+     21,
+     22
+    ],
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "究极之洞",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "反派穿越而来之处",
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     38
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "岩尾和昌因玩《宝可梦 钻石·珍珠》而决定投身游戏行业",
+   "anchor": 5
+  },
+  {
+   "seg": 7,
+   "text": "岩尾和昌最初以游戏设计师身份参与《宝可梦 黑·白》，负责战斗系统",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pocketmonsters-usum-iwao-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-pocketmonsters-usum-iwao-ohmori/",
+   "why": "同为2017-11-09 Pokemon.com独家专访，受访者相同"
+  },
+  {
+   "id": "interview-famitsu-usum-ohmori-iwao-director",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-usum-ohmori-iwao-director/",
+   "why": "同为USUM发售前大森滋与岩尾和昌访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

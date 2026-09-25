@@ -1,0 +1,146 @@
+{
+ "id": "interview-gamefreak-recruit-concept-artist-fk",
+ "stem": "2021-12-27-interview-gamefreak-recruit-concept-artist-fk",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 究极之日·究极之月",
+    "slug": "usum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 究极之日／究极之月",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "F.K.",
+    "slug": "f-k",
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     8,
+     9,
+     12,
+     13
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "秘鲁",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "海外采风旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "墨西哥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "海外采风旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "埃及",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "海外采风旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "南非",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "海外采风旅行地",
+    "via": "llm"
+   },
+   {
+    "name": "究极空间",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "异世界异兽栖息地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "作品集里放了影像作品、插画和黏土雕塑的飞龙",
+   "anchor": 6
+  },
+  {
+   "seg": 5,
+   "text": "面试考官针对原创怪物追问食性、进食方式与栖息环境",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,99 @@
+{
+ "id": "gamefreak-lineblog-4031356",
+ "stem": "2016-06-09-gamefreak-lineblog-4031356",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 101
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     1,
+     4,
+     14,
+     18,
+     34,
+     37
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "皮卡丘大量出现2015",
+    "slug": null,
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮卡丘大量出现2016",
+    "slug": null,
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "妮可伦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     18
+    ],
+    "what": "皮卡丘大量出现地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 18,
+   "text": "皮卡丘在横滨大量出现"
+  },
+  {
+   "seg": 46,
+   "text": "妮可伦也一起跳，大家一起跳舞的2015年"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,65 @@
+{
+ "id": "gamefreak-director-037",
+ "stem": "2005-05-30-gamefreak-director-037",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "E3举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一上周去了在洛杉矶举行的E3"
+  },
+  {
+   "seg": 2,
+   "text": "他从Revolution、XBOX360、PS3等新硬件感受到竞争激烈"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-038",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第38回",
+   "url": "/gamefreak-director/entry-038/",
+   "why": "同为増田部長のめざめるパワー系列，第38回紧接第37回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

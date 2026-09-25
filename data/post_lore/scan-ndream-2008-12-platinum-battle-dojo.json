@@ -1,0 +1,438 @@
+{
+ "id": "scan-ndream-2008-12-platinum-battle-dojo",
+ "stem": "2008-10-21-scan-ndream-2008-12-platinum-battle-dojo",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 140
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿柏怪",
+    "ndex": 24,
+    "seg": [
+     54
+    ],
+    "as": [
+     "阿柏怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "风速狗",
+    "ndex": 59,
+    "seg": [
+     49,
+     80,
+     82,
+     126
+    ],
+    "as": [
+     "风速狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毒刺水母",
+    "ndex": 73,
+    "seg": [
+     66,
+     90,
+     101,
+     103
+    ],
+    "as": [
+     "毒刺水母"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     58,
+     106,
+     109,
+     117,
+     118,
+     122
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨钳螳螂",
+    "ndex": 212,
+    "seg": [
+     74,
+     109,
+     121
+    ],
+    "as": [
+     "巨钳螳螂"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨沼怪",
+    "ndex": 260,
+    "seg": [
+     47,
+     80,
+     82
+    ],
+    "as": [
+     "巨沼怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "乐天河童",
+    "ndex": 272,
+    "seg": [
+     45,
+     46,
+     80,
+     82,
+     84,
+     125
+    ],
+    "as": [
+     "乐天河童"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "请假王",
+    "ndex": 289,
+    "seg": [
+     70,
+     71,
+     106,
+     109,
+     111,
+     113
+    ],
+    "as": [
+     "请假王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙漠蜻蜓",
+    "ndex": 330,
+    "seg": [
+     72,
+     109
+    ],
+    "as": [
+     "沙漠蜻蜓"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙海狮",
+    "ndex": 365,
+    "seg": [
+     52,
+     90,
+     94
+    ],
+    "as": [
+     "帝牙海狮"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     56,
+     113,
+     114,
+     115,
+     117
+    ],
+    "as": [
+     "巨金怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰猴",
+    "ndex": 392,
+    "seg": [
+     57,
+     109,
+     113
+    ],
+    "as": [
+     "烈焰猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大尾狸",
+    "ndex": 400,
+    "seg": [
+     65,
+     69,
+     90,
+     102,
+     128
+    ],
+    "as": [
+     "大尾狸"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双尾怪手",
+    "ndex": 424,
+    "seg": [
+     68,
+     101
+    ],
+    "as": [
+     "双尾怪手"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "随风球",
+    "ndex": 426,
+    "seg": [
+     67,
+     90,
+     92,
+     101
+    ],
+    "as": [
+     "随风球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "青铜钟",
+    "ndex": 437,
+    "seg": [
+     45,
+     48,
+     80,
+     82,
+     85
+    ],
+    "as": [
+     "青铜钟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "花岩怪",
+    "ndex": 442,
+    "seg": [
+     53
+    ],
+    "as": [
+     "花岩怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴雪王",
+    "ndex": 460,
+    "seg": [
+     61,
+     82
+    ],
+    "as": [
+     "暴雪王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克基斯",
+    "ndex": 468,
+    "seg": [
+     51,
+     59,
+     119
+    ],
+    "as": [
+     "波克基斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "冰伊布",
+    "ndex": 471,
+    "seg": [
+     64
+    ],
+    "as": [
+     "冰伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "象牙猪",
+    "ndex": 473,
+    "seg": [
+     63
+    ],
+    "as": [
+     "象牙猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黑夜魔灵",
+    "ndex": 477,
+    "seg": [
+     73,
+     109,
+     120
+    ],
+    "as": [
+     "黑夜魔灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雪妖女",
+    "ndex": 478,
+    "seg": [
+     62,
+     82,
+     84,
+     85
+    ],
+    "as": [
+     "雪妖女"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛托姆",
+    "ndex": 479,
+    "seg": [
+     14
+    ],
+    "as": [
+     "洛托姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     10,
+     12,
+     27,
+     31
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "対象大会",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     136,
+     137,
+     138
+    ]
+   },
+   {
+    "name": "太田哲司",
+    "slug": "ota-tetsuji",
+    "role": "mentioned",
+    "seg": [
+     45
+    ]
+   },
+   {
+    "name": "中津井优",
+    "slug": "nakatsui-yu",
+    "role": "mentioned",
+    "seg": [
+     50
+    ]
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "mentioned",
+    "seg": [
+     55
+    ]
+   },
+   {
+    "name": "川内丸武史",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "祝庆市全球终端",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     32
+    ],
+    "what": "下载对战视频处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 26,
+   "text": "对战在GAME FREAK公司内一间房间进行，画面投影到屏幕上"
+  },
+  {
+   "seg": 28,
+   "text": "规则为宝可梦等级1~50、4只参赛的双打对战"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2008-12-game-freak-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK谈宝可梦白金",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/",
+   "why": "同为2008-10-21 Nintendo DREAM的GAME FREAK对战"
+  },
+  {
+   "id": "scan-ndream-2008-12-masuda-rainbow-bridge",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一喜欢彩虹大桥",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-masuda-rainbow-bridge/",
+   "why": "同为2008-10-21 Nintendo DREAM的GAME FREAK专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

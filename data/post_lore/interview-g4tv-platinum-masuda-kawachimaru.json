@@ -1,0 +1,410 @@
+{
+ "id": "interview-g4tv-platinum-masuda-kawachimaru",
+ "stem": "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 37
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     21
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     24
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "急冻鸟",
+    "ndex": 144,
+    "seg": [
+     12
+    ],
+    "as": [
+     "急冻鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "闪电鸟",
+    "ndex": 145,
+    "seg": [
+     12
+    ],
+    "as": [
+     "闪电鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸟",
+    "ndex": 146,
+    "seg": [
+     12
+    ],
+    "as": [
+     "火焰鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "晃晃斑",
+    "ndex": 327,
+    "seg": [
+     23
+    ],
+    "as": [
+     "晃晃斑"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     13
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     13
+    ],
+    "as": [
+     "帕路奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     4,
+     12,
+     13
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     12
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     20
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     1,
+     2,
+     3,
+     4,
+     10,
+     31
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "怪物猎人",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "合金装备",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "G4记者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     0,
+     1,
+     3,
+     6,
+     8,
+     12
+    ]
+   },
+   {
+    "name": "河内丸武史",
+    "slug": "kawachimaru-takeshi",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     9,
+     31
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     13,
+     15,
+     19,
+     21,
+     23,
+     25
+    ]
+   },
+   {
+    "name": "克里斯·泰勒",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "托德·霍伦斯黑德",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小岛秀夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Raymond Padilla",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "反转世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "与神奥相似的世界",
+    "via": "llm"
+   },
+   {
+    "name": "金门大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "增田着迷的桥",
+    "via": "llm"
+   },
+   {
+    "name": "任天堂北美办公室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "受访地点",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "钻石珍珠的舞台",
+    "via": "llm"
+   },
+   {
+    "name": "对战开拓区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "白金的对战设施",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "三圣鸟出没之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "河内丸武史称自己决定《白金》方向，增田顺一给他骑拉帝纳原始概念",
+   "anchor": 5
+  },
+  {
+   "seg": 7,
+   "text": "反转世界天空比神奥地区暗，瀑布水朝奇怪方向流",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendo-power-241-platinum-masuda-kawachimaru",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power Issue 241 专访增田顺一 × 河内丸武史：“《宝可梦 白金》神奥终极形态：从破损世界到音乐与新形态的全面觉醒”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E6%89%AB%E6%9C%AC%E4%B8%93%E8%AE%BF/interview-nintendo-power-241-platinum-masuda-kawachimaru/",
+   "why": "同为增田顺一与河内丸武史谈《白金》的专访"
+  },
+  {
+   "id": "interview-nintendoaccion-199-masuda-kawachimaru-platinum",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Acción No.199 独家专访增田顺一 × 河内丸武史：“时空对极的反物质世界”——《宝可梦 白金》骑拉帝纳、破损世界的物理颠覆与跨代羁绊",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/",
+   "why": "同为增田顺一与河内丸武史谈《白金》的专访"
+  },
+  {
+   "id": "interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "G4TV 深度专访 增田顺一 × 河内丸武史：“《宝可梦 白金》爱因斯坦相对论、反物质粒子物理学与破损世界的哲学”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E7%BA%B8%E5%AA%92%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%93%E8%AE%BF/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/",
+   "why": "同为增田顺一与河内丸武史谈《白金》的专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,107 @@
+{
+ "id": "gamefreak-director-234",
+ "stem": "2013-01-24-gamefreak-director-234",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "哲尔尼亚斯",
+    "ndex": 716,
+    "seg": [
+     9
+    ],
+    "as": [
+     "哲尔尼亚斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊裴尔塔尔",
+    "ndex": 717,
+    "seg": [
+     9
+    ],
+    "as": [
+     "伊裴尔塔尔"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Ｘ・Ｙ",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "《宝可梦 Ｘ・Ｙ》将在全世界同步发售"
+  },
+  {
+   "seg": 6,
+   "text": "宝可梦海外官方网站 Pokémon.com 公布了传说宝可梦名称"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+   "why": "同为社长问《宝可梦 X·Y》访谈，谈全球同日发售"
+  },
+  {
+   "id": "interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/",
+   "why": "同为社长问《宝可梦 X·Y》访谈篇章"
+  },
+  {
+   "id": "interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
+   "why": "同为社长问《宝可梦 X·Y》访谈篇章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

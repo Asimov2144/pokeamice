@@ -1,0 +1,548 @@
+{
+ "id": "scan-ndream-2010-04-pokemon-ranger-retrospective",
+ "stem": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 45
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "急冻鸟",
+    "ndex": 144,
+    "seg": [
+     8
+    ],
+    "as": [
+     "急冻鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "闪电鸟",
+    "ndex": 145,
+    "seg": [
+     8
+    ],
+    "as": [
+     "闪电鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸟",
+    "ndex": 146,
+    "seg": [
+     8
+    ],
+    "as": [
+     "火焰鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     10,
+     11
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉帝欧斯",
+    "ndex": 381,
+    "seg": [
+     2,
+     8
+    ],
+    "as": [
+     "拉帝欧斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     14
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "草苗龟",
+    "ndex": 387,
+    "seg": [
+     29
+    ],
+    "as": [
+     "草苗龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火焰猴",
+    "ndex": 390,
+    "seg": [
+     29
+    ],
+    "as": [
+     "小火焰猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     29
+    ],
+    "as": [
+     "波加曼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "圆法师",
+    "ndex": 401,
+    "seg": [
+     29
+    ],
+    "as": [
+     "圆法师"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "头盖龙",
+    "ndex": 408,
+    "seg": [
+     29
+    ],
+    "as": [
+     "头盖龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盾甲龙",
+    "ndex": 410,
+    "seg": [
+     29
+    ],
+    "as": [
+     "盾甲龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕奇利兹",
+    "ndex": 417,
+    "seg": [
+     29
+    ],
+    "as": [
+     "帕奇利兹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小卡比兽",
+    "ndex": 446,
+    "seg": [
+     29
+    ],
+    "as": [
+     "小卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "不良蛙",
+    "ndex": 453,
+    "seg": [
+     29
+    ],
+    "as": [
+     "不良蛙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "席多蓝恩",
+    "ndex": 485,
+    "seg": [
+     17
+    ],
+    "as": [
+     "席多蓝恩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛纳霏",
+    "ndex": 490,
+    "seg": [
+     14
+    ],
+    "as": [
+     "玛纳霏"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洗翠狃拉",
+    "ndex": 215,
+    "seg": [
+     29
+    ],
+    "as": [
+     "狃拉"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦巡护员 光之轨迹",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦巡护员 巴特纳吉",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     1,
+     19,
+     25,
+     35
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "少年鬼忍传 旋",
+    "slug": null,
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "油哥（オイル）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "シンバラ教授",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ハヤテ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ダズル",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "パネマ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ブッカー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "布克",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "帕内玛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "信原教授",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "疾风",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "城",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "艾丽达",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "冠",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "达兹尔",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "莉兹米",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊织",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "油哥",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高桥伸之",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "奥卜利比亚地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "海陆空巡护新天地",
+    "via": "llm"
+   },
+   {
+    "name": "菲蕾地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "四大城镇温带盆地",
+    "via": "llm"
+   },
+   {
+    "name": "阿尔米亚地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "多元文明大陆",
+    "via": "llm"
+   },
+   {
+    "name": "雨滴岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "主角幸存的白沙滩",
+    "via": "llm"
+   },
+   {
+    "name": "毕恩森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     32
+    ],
+    "what": "油哥被定名之地",
+    "via": "llm"
+   },
+   {
+    "name": "苑之镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "领取葛拉西蒂亚花",
+    "via": "llm"
+   },
+   {
+    "name": "毕恩村",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     32
+    ],
+    "what": "大妈妈美食所在",
+    "via": "llm"
+   },
+   {
+    "name": "满金市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     17
+    ],
+    "what": "领取葛拉西蒂亚花",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "主角为搭档挡下头目红眼的光线后坠海"
+  },
+  {
+   "seg": 5,
+   "text": "雨滴岛白沙滩上主角邂逅乌克丽丽皮丘与船匠老人布克"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2010-04-creatures-ranger-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Creatures 核心主创长篇专访：《光之轨迹》与系列演进秘话",
+   "url": "/%E5%BC%80%E5%8F%91%E8%AE%BF%E8%B0%88/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-creatures-ranger-interview/",
+   "why": "同为2010年4月号《巡护员》系列特辑报道"
+  },
+  {
+   "id": "scan-ndream-2010-04-pokemon-bw-first-reveal",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘",
+   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/",
+   "why": "同刊2010年4月号卷头特辑"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

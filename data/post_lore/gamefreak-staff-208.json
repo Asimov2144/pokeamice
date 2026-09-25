@@ -1,0 +1,146 @@
+{
+ "id": "gamefreak-staff-208",
+ "stem": "2010-11-22-gamefreak-staff-208",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 108
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ディグダ",
+    "ndex": 50,
+    "seg": [
+     90,
+     98,
+     34
+    ],
+    "as": [
+     "ディグダ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "三地鼠",
+    "ndex": 51,
+    "seg": [
+     34,
+     90
+    ],
+    "as": [
+     "三地鼠",
+     "ダグトリオ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "随风球",
+    "ndex": 426,
+    "seg": [
+     20,
+     69
+    ],
+    "as": [
+     "随风球",
+     "フワライド"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蓝蟾蜍",
+    "ndex": 536,
+    "seg": [
+     22,
+     72
+    ],
+    "as": [
+     "蓝蟾蜍",
+     "ガマガル"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ユーリー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 14,
+   "text": "画面中加入宝可梦动画被信息管理组视为大事件"
+  },
+  {
+   "seg": 34,
+   "text": "地鼠和三地鼠按角色设定不能跳跃"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-202",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2010年宝可梦剧本幕后",
+   "url": "/gamefreak-staff/entry-202/",
+   "why": "同为「つくりかた」工作日志系列，编号2与8"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为黑白开发访谈，讲新宝可梦与开发决断"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

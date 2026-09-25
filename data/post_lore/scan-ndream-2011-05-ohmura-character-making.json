@@ -1,0 +1,162 @@
+{
+ "id": "scan-ndream-2011-05-ohmura-character-making",
+ "stem": "2011-03-21-scan-ndream-2011-05-ohmura-character-making",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     17,
+     18
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     2,
+     9,
+     18,
+     19,
+     20,
+     21
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "新世纪福音战士",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "∀高达",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "龙战士V 龙之战士",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "mentioned",
+    "seg": [
+     1,
+     6,
+     9
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "市川春子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "岐阜县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "大村祐介出身地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "大村祐介于2005年入职GAME FREAK，1981年7月6日出生，岐阜县出身。"
+  },
+  {
+   "seg": 15,
+   "text": "风露大腿上像袋子的东西在设定中用来装精灵球，取出一个下一个会升上来。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2011-05-bw-design-secrets-ex",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 黑·白 诞生秘话EX",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/",
+   "why": "同为2011年5月号Nintendo DREAM黑·白访谈"
+  },
+  {
+   "id": "scan-ndream-2011-04-bw-design-secrets-part2",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦黑·白诞生秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
+   "why": "同为黑·白开发访谈，4月号与5月号前后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

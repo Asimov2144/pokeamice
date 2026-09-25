@@ -1,0 +1,264 @@
+{
+ "id": "interview-nom-gold-silver-gamefreak",
+ "stem": "2000-07-01-interview-nom-gold-silver-gamefreak",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 47
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     41,
+     42,
+     46
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "树才怪",
+    "ndex": 185,
+    "seg": [
+     39,
+     40
+    ],
+    "as": [
+     "树才怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     38
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "红／绿",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "绿",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蓝",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": null,
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     5,
+     10,
+     12,
+     16,
+     19
+    ]
+   },
+   {
+    "name": "渡边哲也",
+    "slug": "watanabe-tetsuya",
+    "role": "speaker",
+    "seg": [
+     3,
+     9,
+     21,
+     27,
+     32
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     11,
+     31,
+     44,
+     46
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     6,
+     25,
+     38
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     8,
+     13,
+     22,
+     26,
+     33,
+     40
+    ]
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "speaker",
+    "seg": [
+     15,
+     17,
+     24
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "关都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "前作游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "城都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "本作游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "关西",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "城都的地区原型",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "渡边哲也称打破《红／绿》时代内存限制，实现大容量化与新系统"
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一说上次以关都为舞台，这次背景设定为以关西为原型的城都",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-gs-guidebook-1999-developer-interview",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "金·银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-developer-interview/",
+   "why": "同为金·银开发访谈，增田、杉森、森本、西野受访"
+  },
+  {
+   "id": "scan-gs-guidebook-1999-staff-zukan-journal",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "金·银开发人员图鉴",
+   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-staff-zukan-journal/",
+   "why": "同刊金·银卷末特集，同批开发者介绍"
+  },
+  {
+   "id": "interview-nintendopower-gold-silver-roundtable",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+   "url": "/developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/",
+   "why": "同为2000年7月金·银主创圆桌访谈"
+  },
+  {
+   "id": "interview-nintendo-power-134-gold-silver-mew",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化与当年最后时刻写入卡带的幻之宝可梦梦幻”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E6%89%AB%E6%9C%AC%E4%B8%93%E8%AE%BF/interview-nintendo-power-134-gold-silver-mew/",
+   "why": "同为2000年7月金·银主创访谈，森本谈梦幻"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

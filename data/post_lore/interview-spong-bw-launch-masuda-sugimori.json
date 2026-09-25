@@ -1,0 +1,177 @@
+{
+ "id": "interview-spong-bw-launch-masuda-sugimori",
+ "stem": "2011-03-04-interview-spong-bw-launch-masuda-sugimori",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     25
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     3
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     3
+    ],
+    "as": [
+     "暖暖猪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     3
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红／蓝",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦战斗革命",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "莱斯特广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "酒吧采访地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "开发时间约四年，删去宝芬和地下探险等内容",
+   "anchor": 8
+  },
+  {
+   "seg": 11,
+   "text": "增田称重启是希望所有玩家从同一起跑线开始",
+   "anchor": 12
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-eurogamer-masuda-sugimori-black-white-brains",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/",
+   "why": "同为2011年3月欧洲发售前增田杉森专访"
+  },
+  {
+   "id": "interview-nintendo-power-bw-masuda-sugimori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-bw-masuda-sugimori/",
+   "why": "同为2011年3月黑·白海外发售期增田杉森专访"
+  },
+  {
+   "id": "interview-nintendo-power-265-masuda-sugimori-bw-dexit",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Power Issue 265 封面专访 增田顺一 × 杉森建：“《宝可梦 黑·白》500只候选方案大筛选、阴阳哲学与未来是否会精简宝可梦”",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E6%89%AB%E6%9C%AC%E4%B8%93%E8%AE%BF/interview-nintendo-power-265-masuda-sugimori-bw-dexit/",
+   "why": "同为Nintendo Power第265期增田杉森封面专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,161 @@
+{
+ "id": "interview-gamefreak-recruit-programmers",
+ "stem": "2015-10-01-interview-gamefreak-recruit-programmers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "风之克罗诺亚",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "女神异闻录3",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "真·女神转生",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Y.I.",
+    "slug": "y-i",
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     12,
+     16,
+     23,
+     27
+    ]
+   },
+   {
+    "name": "M.K.",
+    "slug": "m-k",
+    "role": "speaker",
+    "seg": [
+     3,
+     7,
+     13,
+     17,
+     20,
+     24
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "名古屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "Y.I.首家公司所在地",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "Y.I.转战的大厂所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "Y.I. 2014年入社，统领玩家角色操作手感与移动控制程序架构。",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "M.K. 2014年入社，负责全公司资产管线与美术开发工具链。",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-recruit-planners",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
+   "why": "同日同栏目中途招聘对谈，策划篇"
+  },
+  {
+   "id": "interview-gamefreak-recruit-designers",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
+   "why": "同日同栏目中途招聘对谈，图形设计师篇"
+  },
+  {
+   "id": "interview-gamefreak-rnd-launch-taya-mi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/",
+   "why": "同栏目技术架构篇，R&D与程序员背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

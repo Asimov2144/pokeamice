@@ -1,0 +1,295 @@
+{
+ "id": "整理-GameFreak-Development-TimeLine",
+ "stem": "2025-01-01-[整理]-GameFreak-Development-TimeLine",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "article",
+ "body": {
+  "kind": "markdown",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     7
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ラティアス",
+    "ndex": 380,
+    "seg": [
+     1
+    ],
+    "as": [
+     "ラティアス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ラティオス",
+    "ndex": 381,
+    "seg": [
+     1
+    ],
+    "as": [
+     "ラティオス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     9,
+     10,
+     11
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2&白2",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 XY",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "TEMBO THE BADASS ELEPHANT",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 日月",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑盾",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "究极日月",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小镇英雄",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Giga Wrecker",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Let's GO!皮卡丘&伊布",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦探险寻宝",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "town",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铠之孤岛",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "晶灿珍珠&明亮钻石",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "洗翠黎明",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "James Turner",
+    "slug": "james-turner",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "James Turnner",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "渡边哲也",
+    "slug": "watanabe-tetsuya",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "2013年10月12日宝可梦XY发售，发售期前后大森开始策划日月"
+  },
+  {
+   "seg": 6,
+   "text": "2017年9月究极日月开发完成，岩尾团队合流大森团队，剑盾正式开发开始"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-4gamer-2018-usum-fanmeeting",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "究极日月开发秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2018-usum-fanmeeting/",
+   "why": "究极日月开发完成与岩尾团队合流大森团队"
+  },
+  {
+   "id": "interview-gi-2019-going-big",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "打造终极宝可梦",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-going-big/",
+   "why": "剑盾正式开发开始后大森与岩尾谈剑盾"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

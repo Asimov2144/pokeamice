@@ -1,0 +1,73 @@
+{
+ "id": "gamefreak-lineblog-2579219",
+ "stem": "2016-04-05-gamefreak-lineblog-2579219",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 118
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "八丈岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     86
+    ],
+    "what": "明日叶啤酒产地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 23,
+   "text": "问味道怎么样，说这是朝日超爽啤酒"
+  },
+  {
+   "seg": 49,
+   "text": "认为明日叶粉末放太多了"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2554691",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年八丈岛美味再现",
+   "url": "/gamefreak-director/lineblog-2554691/",
+   "why": "前一篇明日叶啤酒失败，本篇再挑战成功"
+  },
+  {
+   "id": "gamefreak-lineblog-2540602",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【日记】2016八丈岛邂逅小麂",
+   "url": "/gamefreak-director/lineblog-2540602/",
+   "why": "同次八丈岛行，航班停飞提前返程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

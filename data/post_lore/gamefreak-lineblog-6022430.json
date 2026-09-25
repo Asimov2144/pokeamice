@@ -1,0 +1,130 @@
+{
+ "id": "gamefreak-lineblog-6022430",
+ "stem": "2016-08-15-gamefreak-lineblog-6022430",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 101
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ピカチュウ",
+    "ndex": 25,
+    "seg": [
+     2,
+     8,
+     17,
+     21,
+     22,
+     52
+    ],
+    "as": [
+     "ピカチュウ",
+     "皮卡丘"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "爱美酱",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     75
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "肯特君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     75
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心横滨",
+    "id": null,
+    "entity": "pokemon_center_yokohama",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "樱木町站",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "车站",
+    "via": "llm"
+   },
+   {
+    "name": "皇后广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "游行地点",
+    "via": "llm"
+   },
+   {
+    "name": "红砖仓库",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     41
+    ],
+    "what": "活动地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一在活动最后一天去了现场"
+  },
+  {
+   "seg": 22,
+   "text": "文中称会滑冰的皮卡丘全世界或许只有3只"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

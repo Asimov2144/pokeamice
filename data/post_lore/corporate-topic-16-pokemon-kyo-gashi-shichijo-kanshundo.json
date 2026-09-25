@@ -1,0 +1,164 @@
+{
+ "id": "corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+ "stem": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     24,
+     27
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮皮",
+    "ndex": 35,
+    "seg": [
+     24
+    ],
+    "as": [
+     "皮皮"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "冰鬼护",
+    "ndex": 362,
+    "seg": [
+     25,
+     26,
+     28
+    ],
+    "as": [
+     "冰鬼护",
+     "Glalie"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケモン京菓子",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンとめぐる京菓子の世界",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦京菓子",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦とめぐる京菓子の世界",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "七條甘春堂（Shichijo Kanshundo）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "七條甘春堂",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "七条甘春堂",
+    "id": "venue_7b8b1e88a1",
+    "entity": null,
+    "category": "venue",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2,
+     5,
+     6,
+     7,
+     9,
+     10
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "七条甘春堂京都本店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "百年和果子老铺",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "千年古都",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "七条甘春堂自江户时代起立于京都古刹之侧，与宝可梦合作创制宝可梦京菓子",
+   "anchor": 3
+  },
+  {
+   "seg": 6,
+   "text": "挑起研发制造的匠人多是看宝可梦动画、捧Game Boy长大的一代，有人达成全国图鉴全收集",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

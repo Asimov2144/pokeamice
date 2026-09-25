@@ -1,0 +1,77 @@
+{
+ "id": "gamefreak-director-122",
+ "stem": "2008-02-18-gamefreak-director-122",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     3
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "西班牙",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     18
+    ],
+    "what": "使用DIALGA的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "西班牙语翻译团队的欧洲工作人员提出意见"
+  },
+  {
+   "seg": 18,
+   "text": "最后在西班牙也还是使用 DIALGA"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-121",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第121回",
+   "url": "/gamefreak-director/entry-121/",
+   "why": "同为増田部長专栏第121回与第122回前后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

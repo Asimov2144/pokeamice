@@ -1,0 +1,129 @@
+{
+ "id": "gamefreak-lineblog-5235956",
+ "stem": "2016-07-23-gamefreak-lineblog-5235956",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 34
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小拉达",
+    "ndex": 19,
+    "seg": [
+     33
+    ],
+    "as": [
+     "小拉达"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     1
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "有栖川熾仁亲王",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "有栖川宫纪念公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "增田顺一去的公园",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一的第一只宝可梦是可达鸭"
+  },
+  {
+   "seg": 2,
+   "text": "增田顺一首先前往广尾的有栖川宫纪念公园"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-5162122",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016年宝可梦GO日本上线",
+   "url": "/gamefreak-director/lineblog-5162122/",
+   "why": "前一日日本上线，此篇为次日游玩记录"
+  },
+  {
+   "id": "gamefreak-lineblog-5298007",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016惠比寿偶遇伊布",
+   "url": "/gamefreak-director/lineblog-5298007/",
+   "why": "同为增田顺一GO游玩日记，次日惠比寿"
+  },
+  {
+   "id": "gamefreak-lineblog-6827320",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016年世田谷公园寻化石盔",
+   "url": "/gamefreak-director/lineblog-6827320/",
+   "why": "同为增田顺一外出捕捉宝可梦的日记"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

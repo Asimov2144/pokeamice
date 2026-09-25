@@ -1,0 +1,75 @@
+{
+ "id": "gamefreak-director-229",
+ "stem": "2012-11-30-gamefreak-director-229",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "节奏猎人 和谐骑士",
+    "slug": null,
+    "seg": [
+     15,
+     16
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "Animate 秋叶原店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "签名会举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "签名会定在2012年12月16日11点和14点"
+  },
+  {
+   "seg": 3,
+   "text": "入场按先后顺序，凭整理券"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-231",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第231回",
+   "url": "/gamefreak-director/entry-231/",
+   "why": "第231回记录同一场秋叶原签名会盛况"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

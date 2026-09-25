@@ -2,7 +2,7 @@
  "id": "interview-pokemon-recruit-staff-furutani",
  "stem": "2016-01-10-interview-pokemon-recruit-staff-furutani",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -40,11 +40,45 @@
    "anchor": 11
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-tpc-youth-roundtable",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/",
+   "why": "古谷翔2011年度入社，可核本篇入职5年"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-izawa",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写01 伊泽景胜：卡牌事业部——让触碰宝可梦的人都成为善良温柔的人",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-izawa/",
+   "why": "同为2016-01-10官方员工特写系列第1篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-yoshihara",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写02 吉原有香：品牌管理部——发掘足以与皮卡丘比肩的代表性宝可梦",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-yoshihara/",
+   "why": "同为2016-01-10官方员工特写系列第2篇"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-kosugi",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方员工特写04 小杉要：集团统括部——传统与革新并行，维系长盛不衰的经营中枢",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-kosugi/",
+   "why": "同为2016-01-10官方员工特写系列第4篇"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

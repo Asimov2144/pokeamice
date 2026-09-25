@@ -1,0 +1,167 @@
+{
+ "id": "interview-cgworld-creatures-3d-character-life",
+ "stem": "2017-07-15-interview-cgworld-creatures-3d-character-life",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4,
+     10
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 究极之日·究极之月",
+    "slug": "usum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "名侦探皮卡丘",
+    "slug": "detective-pikachu",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦乐园",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探皮卡丘～新组合诞生～",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "氏家淳子",
+    "slug": "shi-jia-chun-zi",
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   },
+   {
+    "name": "中广健吾",
+    "slug": "zhong-guang-jian-wu",
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   },
+   {
+    "name": "畠祐贵",
+    "slug": "tian-you-gui",
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "工作室所属3DCG美术师22名，希望未来几年翻倍",
+   "anchor": 7
+  },
+  {
+   "seg": 7,
+   "text": "规定时间10点30分至19点30分，已15年没通宵工作",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cgworld-pokemon-sun-moon-3d-pipeline",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新",
+   "url": "/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/",
+   "why": "同为2017年CGWORLD专访Creatures，氏家淳子受访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,304 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch221",
+ "stem": "2010-05-12-interview-takeshi-shudo-pokemon-memoir-ch221",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 131
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     57,
+     58
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     5,
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     2,
+     53
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "数码宝贝",
+    "slug": null,
+    "seg": [
+     15,
+     16,
+     19,
+     20,
+     22,
+     23
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "猫（Cats）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦舞台剧（Pokemon Live!）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使（甜甜仙子）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "猫",
+    "slug": null,
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦现场秀",
+    "slug": null,
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "天线宝宝",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     59
+    ]
+   },
+   {
+    "name": "森公美子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     53
+    ]
+   },
+   {
+    "name": "艾萨克·斯特恩",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ]
+   },
+   {
+    "name": "细田守",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "世界贸易中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "双子双塔",
+    "via": "llm"
+   },
+   {
+    "name": "时代广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "玩具大厦所在",
+    "via": "llm"
+   },
+   {
+    "name": "卡内基音乐厅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     43
+    ],
+    "what": "古典音乐殿堂",
+    "via": "llm"
+   },
+   {
+    "name": "茱莉亚音乐学院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     45
+    ],
+    "what": "音乐学府",
+    "via": "llm"
+   },
+   {
+    "name": "纽约公共图书馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "对外开放的图书馆",
+    "via": "llm"
+   },
+   {
+    "name": "无线电城音乐厅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     49
+    ],
+    "what": "近六千座剧场",
+    "via": "llm"
+   },
+   {
+    "name": "中央公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     62
+    ],
+    "what": "孩童游乐广场",
+    "via": "llm"
+   },
+   {
+    "name": "第五大道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     61
+    ],
+    "what": "奢侈品专卖店街",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 15,
+   "text": "巨幅广告上印的是《数码宝贝》而非《宝可梦》",
+   "anchor": 16
+  },
+  {
+   "seg": 28,
+   "text": "玩具大厦中有一整层被做成宝可梦专区",
+   "anchor": 29
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch217",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第217回：“病房里的妄想症恶化？在《宝可梦》的世界里所谓的‘第一’究竟是什么？”（巴黎公社梦碎、暴发户刻板印象、世界第一的伪善虚相与小田原圣地巡礼）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch217/",
+   "why": "同为手记系列，第217回紧接第221回之前"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "同为手记系列第208回，早于第221回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "同为手记系列第209回，早于第221回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+   "why": "同为手记系列第210回，早于第221回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,69 @@
+{
+ "id": "gamefreak-director-214",
+ "stem": "2011-10-07-gamefreak-director-214",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 11
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一表示自己开通了 Twitter"
+  },
+  {
+   "seg": 1,
+   "text": "增田顺一请大家关注他"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-182",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第182回",
+   "url": "/gamefreak-director/entry-182/",
+   "why": "同为増田部長のめざめるパワー专栏第182回"
+  },
+  {
+   "id": "gamefreak-director-183",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第183回",
+   "url": "/gamefreak-director/entry-183/",
+   "why": "同为増田部長のめざめるパワー专栏第183回"
+  },
+  {
+   "id": "gamefreak-director-184",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第184回",
+   "url": "/gamefreak-director/entry-184/",
+   "why": "同为増田部長のめざめるパワー专栏第184回"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,161 @@
+{
+ "id": "interview-nom-2001-pokemon-mini-developers",
+ "stem": "2001-11-01-interview-nom-2001-pokemon-mini-developers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 36
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     10
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon mini",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "派对迷你",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "弹珠台迷你",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "拼图合集",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "动画卡片大作战",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "口袋皮卡丘",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "三浦昌幸",
+    "slug": "miura-masayuki",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     12,
+     14,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "久須美龍太",
+    "slug": "jiu-xu-mei-long-tai",
+    "role": "speaker",
+    "seg": [
+     10,
+     20,
+     24,
+     28,
+     34
+    ]
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "三浦昌幸说本体随附《派对迷你》，另有3款软件同时发售",
+   "anchor": 9
+  },
+  {
+   "seg": 34,
+   "text": "久须美龙太说用一节7号电池可玩60小时以上",
+   "anchor": 35
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦向未来扩展",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-ishihara-tsunekazu-pokemon-world/",
+   "why": "同为N.O.M 2001年11月号宝可梦迷你报道"
+  },
+  {
+   "id": "interview-nom-2001-pokemon-card-e-creatures",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "看不见的价值：宝可梦卡牌e",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-pokemon-card-e-creatures/",
+   "why": "同为N.O.M 2001年11月号宝可梦卡牌e报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,160 @@
+{
+ "id": "gamefreak-director-129",
+ "stem": "2008-06-27-gamefreak-director-129",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "雷吉洛克",
+    "ndex": 377,
+    "seg": [
+     6
+    ],
+    "as": [
+     "雷吉洛克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉艾斯",
+    "ndex": 378,
+    "seg": [
+     6
+    ],
+    "as": [
+     "雷吉艾斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉斯奇鲁",
+    "ndex": 379,
+    "seg": [
+     6
+    ],
+    "as": [
+     "雷吉斯奇鲁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷吉奇卡斯",
+    "ndex": 486,
+    "seg": [
+     1,
+     4
+    ],
+    "as": [
+     "雷吉奇卡斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石·绿宝石",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "红宝石",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蓝宝石",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "绿宝石",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "购买预售票可获得等级100的雷吉奇卡斯"
+  },
+  {
+   "seg": 6,
+   "text": "把雷吉奇卡斯带到《宝可梦 白金》会触发三只雷吉出现"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-127",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第127回",
+   "url": "/gamefreak-director/entry-127/",
+   "why": "第127回宣布白金秋季发售并介绍电影活动宝可梦"
+  },
+  {
+   "id": "gamefreak-director-131",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第131回",
+   "url": "/gamefreak-director/entry-131/",
+   "why": "同为增田部长专栏，第131回接续谈白金发售"
+  },
+  {
+   "id": "gamefreak-director-132",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第132回",
+   "url": "/gamefreak-director/entry-132/",
+   "why": "同为增田部长专栏，第132回接续谈白金销量"
+  },
+  {
+   "id": "gamefreak-director-133",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第133回",
+   "url": "/gamefreak-director/entry-133/",
+   "why": "同为增田部长专栏，第133回接续谈白金新曲"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

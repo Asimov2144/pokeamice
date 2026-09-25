@@ -1,0 +1,70 @@
+{
+ "id": "gamefreak-lineblog-3058571",
+ "stem": "2016-04-30-gamefreak-lineblog-3058571",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 47
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "恢复的地方",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "洞窟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "怪物出没之处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "城镇里宝可梦不会突然冲出来，要作为让人安心的地方"
+  },
+  {
+   "seg": 20,
+   "text": "道路要营造出冒险感，初期是去邻镇买东西的感觉"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

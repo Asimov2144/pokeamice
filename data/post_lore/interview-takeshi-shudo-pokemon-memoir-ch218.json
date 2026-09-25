@@ -1,0 +1,277 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
+ "stem": "2010-03-31-interview-takeshi-shudo-pokemon-memoir-ch218",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 139
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     10,
+     62,
+     68,
+     72
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     70
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "黑客帝国",
+    "slug": null,
+    "seg": [
+     86
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "麦麦新子与千年魔法",
+    "slug": null,
+    "seg": [
+     103,
+     107
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "哥斯拉",
+    "slug": null,
+    "seg": [
+     65
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "日本沉没",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "豪将军",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     32,
+     93
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "基努·里维斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     84,
+     86,
+     89,
+     91
+    ]
+   },
+   {
+    "name": "片渊须直",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     103
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "百老汇大道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     81
+    ],
+    "what": "酒店步行可达的街道",
+    "via": "llm"
+   },
+   {
+    "name": "中央公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     81
+    ],
+    "what": "酒店步行可达的公园",
+    "via": "llm"
+   },
+   {
+    "name": "东京国际展览中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     104
+    ],
+    "what": "TAF 2010 会场",
+    "via": "llm"
+   },
+   {
+    "name": "山口县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     105
+    ],
+    "what": "宣传册所涉的县",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     78
+    ],
+    "what": "首藤自费前往的城市",
+    "via": "llm"
+   },
+   {
+    "name": "洛杉矶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     76
+    ],
+    "what": "制片人出访目的地",
+    "via": "llm"
+   },
+   {
+    "name": "拉斯维加斯",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     72
+    ],
+    "what": "超梦大卖后庆功地",
+    "via": "llm"
+   },
+   {
+    "name": "涉谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     127
+    ],
+    "what": "首藤常住的街区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "首藤刚志说写《超梦的逆袭》剧本没用上三个月，专栏解说却耗时数倍。",
+   "anchor": 11
+  },
+  {
+   "seg": 80,
+   "text": "首藤刚志请小姨子陪同，带妻子和五岁幼女自费飞赴纽约。",
+   "anchor": 81
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "第208回续谈《超梦的逆袭》剧作与十年之限"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+   "why": "第209回记首藤住院与幻之第三部电影开端"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+   "why": "第210回详述幻之第三部电影大纲内容"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
+   "why": "第211回记御前样枪毙暴龙化石企划"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

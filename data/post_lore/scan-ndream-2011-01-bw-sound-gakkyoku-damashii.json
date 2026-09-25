@@ -1,0 +1,364 @@
+{
+ "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+ "stem": "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 192
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     3,
+     18,
+     42,
+     48,
+     51,
+     52
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     104
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     117
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     113
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙III",
+    "slug": null,
+    "seg": [
+     163
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "时空之轮",
+    "slug": null,
+    "seg": [
+     163
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "贵妇人的骑马",
+    "slug": null,
+    "seg": [
+     167
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白 超级音乐收藏集",
+    "slug": null,
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "speaker",
+    "seg": [
+     7,
+     9,
+     11,
+     14,
+     16,
+     23
+    ]
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一之濑",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "足立",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "渡边",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐藤仁美",
+    "slug": "sato-hitomi",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "足立美奈子",
+    "slug": "adachi-minako",
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "椙山浩一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     163
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "光田康典",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     163
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "约翰·布格缪勒",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     167
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魁奇思",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿戴克",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑连",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     105
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白露",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "N",
+    "slug": "n",
+    "role": "mentioned",
+    "seg": [
+     145
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "10号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     173
+    ],
+    "what": "终盘阶段的道路",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     26
+    ],
+    "what": "多种价值观共存之地",
+    "via": "llm"
+   },
+   {
+    "name": "帆巴市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     66
+    ],
+    "what": "合众地区的门户",
+    "via": "llm"
+   },
+   {
+    "name": "飞云市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     130
+    ],
+    "what": "有GAME FREAK大楼",
+    "via": "llm"
+   },
+   {
+    "name": "雷文市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     137
+    ],
+    "what": "白露与父亲对话处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 23,
+   "text": "《动摇不定的心》与《再见》的粗略草稿用YAMAHA S90 ES创作"
+  },
+  {
+   "seg": 51,
+   "text": "《再见》与片尾曲等约花半天一口气写出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-bw-music-collection-liner-notes",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
+   "why": "同为黑·白声音主创访谈，景山谈声音主题"
+  },
+  {
+   "id": "scan-ndream-2014-01-xy-sound-team-interview",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦X·Y声音团队访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2014-01-xy-sound-team-interview/",
+   "why": "同为景山任声音总监的系列声音访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,115 @@
+{
+ "id": "gamefreak-director-153",
+ "stem": "2009-11-26-gamefreak-director-153",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 39
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     10
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠·白金·心金·魂银",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "涩谷十字路口",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "via": "extra",
+    "what": "涩谷的地标路口"
+   },
+   {
+    "name": "涩谷站前",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "播放影像的地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "11月21日是《宝可梦 金·银》发售满10周年的日子"
+  },
+  {
+   "seg": 8,
+   "text": "从2010年1月29日开始进行梦幻的配信"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-149",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第149回",
+   "url": "/gamefreak-director/entry-149/",
+   "why": "同系列前篇，提原版金银1999年11月21日发售"
+  },
+  {
+   "id": "gamefreak-director-152",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第152回",
+   "url": "/gamefreak-director/entry-152/",
+   "why": "同为部长专栏，前一篇谈金银原声带"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,301 @@
+{
+ "id": "scan-ndream-2012-09-b2w2-developer-interview",
+ "stem": "2012-07-21-scan-ndream-2012-09-b2w2-developer-interview",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 195
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     154
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "达摩狒狒",
+    "ndex": 555,
+    "seg": [
+     176
+    ],
+    "as": [
+     "达摩狒狒"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     65,
+     66,
+     71,
+     73,
+     114
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     65,
+     66,
+     71,
+     114
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "酋雷姆",
+    "ndex": 646,
+    "seg": [
+     5,
+     64,
+     65,
+     66,
+     69,
+     70
+    ],
+    "as": [
+     "酋雷姆"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     4,
+     34,
+     78,
+     155,
+     162
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     104
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     104
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂DS 宝可梦 黑2·白2 超级音乐全集",
+    "slug": null,
+    "seg": [
+     155
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     21,
+     23,
+     34,
+     48,
+     51,
+     53
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     25,
+     27,
+     29,
+     31,
+     33,
+     38
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     69,
+     102,
+     104,
+     106,
+     108,
+     117
+    ]
+   },
+   {
+    "name": "佐藤仁美",
+    "slug": "sato-hitomi",
+    "role": "speaker",
+    "seg": [
+     119,
+     121,
+     124,
+     132,
+     134,
+     138
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "mentioned",
+    "seg": [
+     132
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "立涌市道馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     109
+    ],
+    "what": "游戏中的道馆",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     40
+    ],
+    "what": "游戏中的地区",
+    "via": "llm"
+   },
+   {
+    "name": "三曜市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     175
+    ],
+    "what": "游戏中的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 27,
+   "text": "增田顺一称加入能让100人同时游玩的新要素“联合任务”。"
+  },
+  {
+   "seg": 29,
+   "text": "增田顺一称钥匙系统原本就想放进《宝可梦 黑·白》，因企划在开发后期而放弃。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2012-10-b2w2-pickup-secrets",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "庆典任务与宝可坞秘闻",
+   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-10-b2w2-pickup-secrets/",
+   "why": "同为2012年10月号黑2白2开发人员访谈"
+  },
+  {
+   "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+   "why": "社长问谈黑2白2续篇与未加入系统的由来"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

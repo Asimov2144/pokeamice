@@ -1,0 +1,625 @@
+{
+ "id": "scan-ndream-2009-11-hgss-developer-interview",
+ "stem": "2009-09-21-scan-ndream-2009-11-hgss-developer-interview",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 324
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "水箭龟",
+    "ndex": 9,
+    "seg": [
+     26
+    ],
+    "as": [
+     "水箭龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小拉达",
+    "ndex": 19,
+    "seg": [
+     19
+    ],
+    "as": [
+     "小拉达"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     5,
+     7,
+     20,
+     21,
+     28,
+     30
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "菊草叶",
+    "ndex": 152,
+    "seg": [
+     39,
+     244
+    ],
+    "as": [
+     "菊草叶"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大尾立",
+    "ndex": 162,
+    "seg": [
+     179
+    ],
+    "as": [
+     "大尾立"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛力露",
+    "ndex": 183,
+    "seg": [
+     245
+    ],
+    "as": [
+     "玛力露"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨钳螳螂",
+    "ndex": 212,
+    "seg": [
+     221
+    ],
+    "as": [
+     "巨钳螳螂"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     129,
+     159,
+     267,
+     268,
+     269,
+     272
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蜥蜴王",
+    "ndex": 254,
+    "seg": [
+     54
+    ],
+    "as": [
+     "蜥蜴王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     155,
+     156,
+     268
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     155,
+     156,
+     268
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈空坐",
+    "ndex": 384,
+    "seg": [
+     155
+    ],
+    "as": [
+     "烈空坐"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "草苗龟",
+    "ndex": 387,
+    "seg": [
+     74,
+     75
+    ],
+    "as": [
+     "草苗龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     73
+    ],
+    "as": [
+     "波加曼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛托姆",
+    "ndex": 479,
+    "seg": [
+     81
+    ],
+    "as": [
+     "洛托姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     268
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     268
+    ],
+    "as": [
+     "帕路奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     81,
+     82,
+     83,
+     84
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     117
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "壶壶",
+    "ndex": 213,
+    "seg": [
+     144
+    ],
+    "as": [
+     "壶壶"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水君",
+    "ndex": 245,
+    "seg": [
+     249
+    ],
+    "as": [
+     "水君"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "凤王",
+    "ndex": 250,
+    "seg": [
+     107
+    ],
+    "as": [
+     "凤王"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     4,
+     93
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     85
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     78
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "火红·叶绿",
+    "slug": null,
+    "seg": [
+     98
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红宝石·蓝宝石",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻石·珍珠·白金",
+    "slug": null,
+    "seg": [
+     186
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "新版本",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     22,
+     47,
+     56,
+     77
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     98,
+     100,
+     102,
+     104,
+     112,
+     115
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     120,
+     123,
+     125,
+     129,
+     131,
+     134
+    ]
+   },
+   {
+    "name": "松岛贤二",
+    "slug": "matsushima-kenji",
+    "role": "speaker",
+    "seg": [
+     152,
+     227,
+     230,
+     234,
+     236,
+     238
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     160,
+     162,
+     169,
+     170,
+     173,
+     175
+    ]
+   },
+   {
+    "name": "森昭人",
+    "slug": "sen-zhang-ren",
+    "role": "speaker",
+    "seg": [
+     185,
+     187,
+     192,
+     196,
+     213,
+     312
+    ]
+   },
+   {
+    "name": "全体",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     203,
+     274
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     279,
+     281,
+     283,
+     287,
+     289,
+     291
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "若叶镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     162
+    ],
+    "what": "冒险起点，风吹之镇",
+    "via": "llm"
+   },
+   {
+    "name": "七之岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     66
+    ],
+    "what": "可前往的新土地",
+    "via": "llm"
+   },
+   {
+    "name": "常青森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     236
+    ],
+    "what": "《金·银》中被砍掉",
+    "via": "llm"
+   },
+   {
+    "name": "桔梗道馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     244
+    ],
+    "what": "最初的道馆",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     131
+    ],
+    "what": "登入名人堂后可去",
+    "via": "llm"
+   },
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     281
+    ],
+    "what": "融入和风意象",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     70
+    ],
+    "what": "新冒险的舞台",
+    "via": "llm"
+   },
+   {
+    "name": "缘朱市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     281
+    ],
+    "what": "更有和风气息",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 98,
+   "text": "增田说《金·银》1999年发售，模糊想着约10年后重制"
+  },
+  {
+   "seg": 135,
+   "text": "增田称宝可梦计步器是与《HG·SS》一体的商品"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gameinformer-masuda-morimoto-hgss",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-morimoto-hgss/",
+   "why": "同为《心金·魂银》重制访谈，森本谈十年重制时机"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+   "why": "同为《心金·魂银》访谈，谈宝可梦计步器开发"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

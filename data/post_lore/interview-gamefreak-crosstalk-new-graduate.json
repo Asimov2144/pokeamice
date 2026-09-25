@@ -1,0 +1,142 @@
+{
+ "id": "interview-gamefreak-crosstalk-new-graduate",
+ "stem": "2021-12-27-interview-gamefreak-crosstalk-new-graduate",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Gear Project",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "R.S.（企划）",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     15
+    ]
+   },
+   {
+    "name": "K.K.（人事）",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     14,
+     20
+    ]
+   },
+   {
+    "name": "R.S.",
+    "slug": "r-s",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "T.M.",
+    "slug": "t-m",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   },
+   {
+    "name": "A.T.",
+    "slug": "a-t",
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "I.F.",
+    "slug": "i-f",
+    "role": "mentioned",
+    "seg": [
+     4
+    ]
+   },
+   {
+    "name": "R.N.",
+    "slug": "r-n",
+    "role": "mentioned",
+    "seg": [
+     5
+    ]
+   },
+   {
+    "name": "K.K.",
+    "slug": "k-k",
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "T.M.学生时代研究AI和机器学习，曾犹豫去WEB行业还是游戏行业",
+   "anchor": 18
+  },
+  {
+   "seg": 13,
+   "text": "R.N.称新人研修中组成跨职能混合团队，从零制作游戏原型",
+   "anchor": 23
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-crosstalk-designer",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+   "why": "同日GAME FREAK官方招聘特辑对谈系列"
+  },
+  {
+   "id": "interview-gamefreak-crosstalk-programmer",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/",
+   "why": "同日GAME FREAK官方招聘特辑对谈系列"
+  },
+  {
+   "id": "interview-gamefreak-crosstalk-system-programmer",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK。",
+   "url": "/interviews/interview-gamefreak-crosstalk-system-programmer/",
+   "why": "同日GAME FREAK官方招聘特辑对谈系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

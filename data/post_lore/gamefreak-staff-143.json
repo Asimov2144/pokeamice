@@ -1,0 +1,54 @@
+{
+ "id": "gamefreak-staff-143",
+ "stem": "2009-09-14-gamefreak-staff-143",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "さとう（佐藤）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "发帖人自称负责招聘，名字是さとう（佐藤）。"
+  },
+  {
+   "seg": 26,
+   "text": "文中列出正在招聘的4个职位：平面设计师、程序员、音效创作者、策划。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

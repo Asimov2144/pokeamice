@@ -1,0 +1,180 @@
+{
+ "id": "interview-tpc-president-ishihara-what-we-do",
+ "stem": "2012-05-01-interview-tpc-president-ishihara-what-we-do",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     15
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大葱鸭",
+    "ndex": 83,
+    "seg": [
+     16
+    ],
+    "as": [
+     "大葱鸭",
+     "カモネギ"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     3
+    ],
+    "as": [
+     "藤藤蛇"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "電視遊戯大全",
+    "slug": null,
+    "seg": [
+     9,
+     10,
+     12
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokemon Center",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "双人网球",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔戒",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者恶龙",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "官方旗舰店",
+    "via": "extra",
+    "category_link": "pc"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "石原恒和回答：株式会社宝可梦是统筹制作宝可梦的公司。",
+   "anchor": 3
+  },
+  {
+   "seg": 10,
+   "text": "石原恒和称与电子游戏的渊源要追溯到25年前以上。",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

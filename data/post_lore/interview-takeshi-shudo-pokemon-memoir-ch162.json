@@ -1,0 +1,158 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch162",
+ "stem": "2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "轻飘飘",
+    "ndex": 592,
+    "seg": [
+     6
+    ],
+    "as": [
+     "轻飘飘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     5,
+     8
+    ]
+   },
+   {
+    "name": "久保雅一",
+    "slug": "kubo-masakazu",
+    "role": "mentioned",
+    "seg": [
+     17,
+     18
+    ]
+   },
+   {
+    "name": "小林幸子",
+    "slug": "kobayashi-sachiko",
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "任天堂所在地之一",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "任天堂所在地之一",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "从剧本定稿到整集动画封包出片需三到四个月周期",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "会上决定把做到一半的剧集全部完成，尽管全系列停播",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch165",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch165/",
+   "why": "同为3D龙事件系列，第165回为终结篇"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch166",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch166/",
+   "why": "第166回续述事件停播4个月对剧场版的影响"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch155",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/",
+   "why": "第155回交代原定80话完结的构想"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
+   "why": "第138回交代汤山邦彦引荐首藤接手企划"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

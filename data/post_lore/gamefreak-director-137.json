@@ -1,0 +1,131 @@
+{
+ "id": "gamefreak-director-137",
+ "stem": "2009-02-16-gamefreak-director-137",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 41
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     1,
+     2,
+     3,
+     16,
+     17,
+     19,
+     22,
+     25,
+     28
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     35,
+     11
+    ],
+    "as": [
+     "Shaymin"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠·白金",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "举办庆典并赠送",
+    "via": "extra",
+    "category_link": "pc"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "3月15日（星期日）之前赠送学会哈欠的皮卡丘"
+  },
+  {
+   "seg": 1,
+   "text": "所有宝可梦中心都在举办睡觉皮卡丘庆典"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-136",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第136回",
+   "url": "/gamefreak-director/entry-136/",
+   "why": "同为増田部長专栏第135至143回的相邻连载"
+  },
+  {
+   "id": "gamefreak-director-138",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第138回",
+   "url": "/gamefreak-director/entry-138/",
+   "why": "同为増田部長专栏第135至143回的相邻连载"
+  },
+  {
+   "id": "gamefreak-director-139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第139回",
+   "url": "/gamefreak-director/entry-139/",
+   "why": "同为増田部長专栏第135至143回的相邻连载"
+  },
+  {
+   "id": "gamefreak-director-140",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第140回",
+   "url": "/gamefreak-director/entry-140/",
+   "why": "同为増田部長专栏第135至143回的相邻连载"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

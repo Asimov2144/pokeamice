@@ -1,0 +1,95 @@
+{
+ "id": "interview-yomiuri-siliconera-sugimori-monster-balance",
+ "stem": "2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 8
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "伦琴猫",
+    "ndex": 405,
+    "seg": [
+     2,
+     3
+    ],
+    "as": [
+     "伦琴猫"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     2
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     7
+    ],
+    "as": [
+     "水水獭"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     0,
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     5,
+     7
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "杉森建说会给过于酷炫的宝可梦加上不酷的元素",
+   "anchor": 2
+  },
+  {
+   "seg": 7,
+   "text": "水水獭脸颊有三颗雀斑，去掉会更可爱但不易被记住",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

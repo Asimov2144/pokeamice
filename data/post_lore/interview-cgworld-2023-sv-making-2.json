@@ -1,0 +1,302 @@
+{
+ "id": "interview-cgworld-2023-sv-making-2",
+ "stem": "2023-04-20-interview-cgworld-2023-sv-making-2",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 71
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "プリン",
+    "ndex": 39,
+    "seg": [
+     21,
+     17
+    ],
+    "as": [
+     "プリン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黏黏宝",
+    "ndex": 704,
+    "seg": [
+     14,
+     17,
+     20,
+     19,
+     21
+    ],
+    "as": [
+     "黏黏宝",
+     "ヌメラ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "投掷猴",
+    "ndex": 766,
+    "seg": [
+     25,
+     26
+    ],
+    "as": [
+     "投掷猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蒂蕾喵",
+    "ndex": 907,
+    "seg": [
+     36
+    ],
+    "as": [
+     "蒂蕾喵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "润水鸭",
+    "ndex": 912,
+    "seg": [
+     47
+    ],
+    "as": [
+     "润水鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "涌跃鸭",
+    "ndex": 913,
+    "seg": [
+     52,
+     54,
+     56
+    ],
+    "as": [
+     "涌跃鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "狂欢浪舞鸭",
+    "ndex": 914,
+    "seg": [
+     47,
+     52,
+     58,
+     60,
+     62
+    ],
+    "as": [
+     "狂欢浪舞鸭",
+     "ウェーニバル"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     0,
+     1,
+     22,
+     23,
+     28,
+     33
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 朱",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 紫",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "CGWORLD + digital video",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "CGWORLD",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     12,
+     23,
+     30,
+     32,
+     39
+    ]
+   },
+   {
+    "name": "小野寺瞬",
+    "slug": "onodera-shun",
+    "role": "speaker",
+    "seg": [
+     10,
+     14,
+     22
+    ]
+   },
+   {
+    "name": "深谷卓",
+    "slug": "fukaya-taku",
+    "role": "speaker",
+    "seg": [
+     11,
+     13,
+     15,
+     24,
+     34,
+     42
+    ]
+   },
+   {
+    "name": "米谷由贵",
+    "slug": "yonetani-yuki",
+    "role": "speaker",
+    "seg": [
+     16,
+     31,
+     33,
+     35,
+     40,
+     43
+    ]
+   },
+   {
+    "name": "若杉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "若杉辽",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "尾形美幸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大上阳一郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中川裕介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "弘田 充",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "帕底亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "宝可梦有400种以上，建模师参考表情设定制作了表情预设",
+   "anchor": 11
+  },
+  {
+   "seg": 24,
+   "text": "以往作品动作中有30fps时代数据，本作按60fps重新制作",
+   "anchor": 25
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cgworld-2023-sv-making-3",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦朱紫动作制作幕后",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-3/",
+   "why": "同为CGWORLD采访Creatures三人谈朱紫动作"
+  },
+  {
+   "id": "interview-cgworld-2023-sv-making-1",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦朱紫的动画制作",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/",
+   "why": "同为CGWORLD采访深谷米谷小野寺谈朱紫制作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

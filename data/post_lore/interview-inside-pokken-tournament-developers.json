@@ -1,0 +1,316 @@
+{
+ "id": "interview-inside-pokken-tournament-developers",
+ "stem": "2016-05-12-interview-inside-pokken-tournament-developers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 125
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     27,
+     86,
+     95
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     37
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨沼怪",
+    "ndex": 260,
+    "seg": [
+     39,
+     41,
+     42,
+     121
+    ],
+    "as": [
+     "巨沼怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙奈朵",
+    "ndex": 282,
+    "seg": [
+     82
+    ],
+    "as": [
+     "沙奈朵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水晶灯火灵",
+    "ndex": 609,
+    "seg": [
+     25,
+     36,
+     41,
+     42,
+     43,
+     47
+    ],
+    "as": [
+     "水晶灯火灵",
+     "Chandelure"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火神蛾",
+    "ndex": 637,
+    "seg": [
+     78
+    ],
+    "as": [
+     "火神蛾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火斑喵",
+    "ndex": 725,
+    "seg": [
+     57
+    ],
+    "as": [
+     "火斑喵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "怪力",
+    "ndex": 68,
+    "seg": [
+     36
+    ],
+    "as": [
+     "怪力"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉地鼠",
+    "ndex": 50,
+    "seg": [
+     37
+    ],
+    "as": [
+     "地鼠"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 铁拳锦标赛",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 铁拳",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁拳",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "灵魂能力",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "街头霸王II",
+    "slug": null,
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 徽章大师",
+    "slug": null,
+    "seg": [
+     65
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "桥本拓也",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     24,
+     44,
+     75,
+     113
+    ]
+   },
+   {
+    "name": "宇都宫崇人",
+    "slug": "utsunomiya-takato",
+    "role": "speaker",
+    "seg": [
+     8,
+     12,
+     14,
+     16,
+     20,
+     23
+    ]
+   },
+   {
+    "name": "星野正昭",
+    "slug": "hoshino-masaaki",
+    "role": "speaker",
+    "seg": [
+     9,
+     19,
+     21,
+     27,
+     29,
+     36
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "须崎春树",
+    "slug": "xu-qi-chun-shu",
+    "role": "speaker",
+    "seg": [
+     10,
+     31,
+     34,
+     42,
+     45,
+     47
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高桥",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "すしし",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     118
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "石原恒和在洽谈中拿出企划书，并已定好「宝可梦 铁拳」之名",
+   "anchor": 13
+  },
+  {
+   "seg": 27,
+   "text": "星野在公司内部组织《宝可梦 红宝石·蓝宝石》对战会，部门约40人",
+   "anchor": 28
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-new-pokemon-snap-ishihara-suzaki",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通专访《New 宝可梦随乐拍》：石原恒和社长×须崎春树总监畅谈相机生态与22年跨越",
+   "url": "/developer-interviews/official-archives/interview-famitsu-new-pokemon-snap-ishihara-suzaki/",
+   "why": "须崎春树任总监，同涉宝可拳与随乐拍"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

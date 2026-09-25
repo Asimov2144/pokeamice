@@ -1,0 +1,142 @@
+{
+ "id": "interview-cedec-2026-battle-system-deck",
+ "stem": "2026-07-22-interview-cedec-2026-battle-system-deck",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 131
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     15,
+     17,
+     23,
+     25,
+     50,
+     94
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     15,
+     17,
+     23,
+     25,
+     94,
+     96
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "甲贺忍蛙",
+    "ndex": 658,
+    "seg": [
+     6
+    ],
+    "as": [
+     "甲贺忍蛙"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [
+     112
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳・月亮",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑・盾",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "宗像快",
+    "slug": "munakata-kai",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小幡敏宏",
+    "slug": "obata-toshihiro",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "宝可梦1000种以上，招式特性道具合计超2400种",
+   "anchor": 3
+  },
+  {
+   "seg": 2,
+   "text": "新系列推出时宝可梦与招式等合计追加200种以上",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-denfami-2026-cedec-battle",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦对战系统为何重构",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-battle/",
+   "why": "同为CEDEC2026宗像快、小幡敏宏讲战斗系统重构"
+  },
+  {
+   "id": "interview-4gamer-2026-cedec-battle",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦战斗系统的共通基础",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2026-cedec-battle/",
+   "why": "同为CEDEC2026同一讲演，Section与Event/EventHandl"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

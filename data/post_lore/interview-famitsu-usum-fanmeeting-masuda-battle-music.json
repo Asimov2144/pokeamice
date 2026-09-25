@@ -1,0 +1,247 @@
+{
+ "id": "interview-famitsu-usum-fanmeeting-masuda-battle-music",
+ "stem": "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 62
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "巨翅飞鱼",
+    "ndex": 226,
+    "seg": [
+     13
+    ],
+    "as": [
+     "巨翅飞鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     29
+    ],
+    "as": [
+     "索罗亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     28,
+     29
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "奈克洛兹玛",
+    "ndex": 800,
+    "seg": [
+     1,
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "as": [
+     "奈克洛兹玛"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "捷拉奥拉",
+    "ndex": 807,
+    "seg": [
+     58
+    ],
+    "as": [
+     "捷拉奥拉"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 究极之日·究极之月",
+    "slug": "usum",
+    "seg": [
+     0,
+     1,
+     61
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     13,
+     48,
+     49
+    ]
+   },
+   {
+    "name": "岩尾和昌",
+    "slug": "iwao-kazumasa",
+    "role": "speaker",
+    "seg": [
+     27,
+     38
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     32,
+     33
+    ]
+   },
+   {
+    "name": "杉中克考",
+    "slug": "shan-zhong-ke-kao",
+    "role": "mentioned",
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "池袋阳光城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "粉丝见面会会场",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦中心MEGA东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "举办地所在设施",
+    "via": "llm"
+   },
+   {
+    "name": "日轮祭坛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "奈克洛兹玛对战地点",
+    "via": "llm"
+   },
+   {
+    "name": "月轮祭坛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "奈克洛兹玛对战地点",
+    "via": "llm"
+   },
+   {
+    "name": "阿罗拉地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "本作故事舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "2018年5月12日在池袋阳光城内举办粉丝见面会",
+   "anchor": 1
+  },
+  {
+   "seg": 2,
+   "text": "原定抽选120名，当天到场207名全部参加",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-4gamer-2018-usum-fanmeeting",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "究极日月开发秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2018-usum-fanmeeting/",
+   "why": "同为2018年5月12日USUM粉丝见面会的报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

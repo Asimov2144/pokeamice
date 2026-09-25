@@ -1,0 +1,109 @@
+{
+ "id": "gamefreak-director-067",
+ "stem": "2007-01-16-gamefreak-director-067",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 63
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Invitation",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "东京君悦酒店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "颁奖典礼会场",
+    "via": "llm"
+   },
+   {
+    "name": "六本木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "酒店所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一在Invitation大奖颁奖典礼上拿到游戏奖。"
+  },
+  {
+   "seg": 5,
+   "text": "他说《钻石》《珍珠》的画面不以计算式写实3D为目标。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-068",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第68回",
+   "url": "/gamefreak-director/entry-068/",
+   "why": "同为钻石珍珠画面表现话题的下一篇"
+  },
+  {
+   "id": "gamefreak-director-069",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第69回",
+   "url": "/gamefreak-director/entry-069/",
+   "why": "延续钻石珍珠画面演出话题的下一篇"
+  },
+  {
+   "id": "gamefreak-director-065",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第65回",
+   "url": "/gamefreak-director/entry-065/",
+   "why": "前篇预告将开始写钻石珍珠话题"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

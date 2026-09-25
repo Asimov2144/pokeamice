@@ -1,0 +1,94 @@
+{
+ "id": "gamefreak-director-211",
+ "stem": "2011-09-22-gamefreak-director-211",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "吃豆人",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宇宙巡航机",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "最终幻想IV",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "かげやん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16,
+     22
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "名古屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "他当天所在的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "9月19日星期一，增田顺一一整天都在名古屋"
+  },
+  {
+   "seg": 8,
+   "text": "他说昨天正好是《黑／白》一周年"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

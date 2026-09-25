@@ -1,0 +1,86 @@
+{
+ "id": "gamefreak-director-243",
+ "stem": "2014-11-10-gamefreak-director-243",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 9
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "El Col-legi Lestonnac de Barcelona",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "演讲的学校",
+    "via": "llm"
+   },
+   {
+    "name": "西班牙",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "栗子节所在国",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "10月31日，增田顺一在巴塞罗那的学校做了演讲"
+  },
+  {
+   "seg": 2,
+   "text": "孩子们提问后，增田顺一回答了这些问题"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-242",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第242回",
+   "url": "/gamefreak-director/entry-242/",
+   "why": "同为增田部长专栏，第242回为前一篇"
+  },
+  {
+   "id": "interview-elpais-oras-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "“为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋",
+   "url": "//interview-elpais-oras-masuda-ohmori/",
+   "why": "同在巴塞罗那，增田顺一接受采访与演讲"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

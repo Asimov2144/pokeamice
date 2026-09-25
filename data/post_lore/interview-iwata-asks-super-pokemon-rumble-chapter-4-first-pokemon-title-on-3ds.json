@@ -1,0 +1,185 @@
+{
+ "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+ "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "超级宝可梦乱战",
+    "slug": "rumble-blast",
+    "seg": [
+     0,
+     42
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦乱战",
+    "slug": "rumble",
+    "seg": [
+     0,
+     2,
+     31,
+     32,
+     36,
+     40
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "乱战！宝可梦乱战",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大乱战！宝可梦乱战",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     6,
+     9,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "松村直树",
+    "slug": "matsumura-naoki",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     11,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "小泽达雄",
+    "slug": "ozawa-tatsuo",
+    "role": "speaker",
+    "seg": [
+     10
+    ]
+   },
+   {
+    "name": "众人",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     59
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     24,
+     27,
+     29,
+     31,
+     33,
+     35
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "新干线",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "被提及的子弹头列车",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "电车班次密集的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "松村直树称掌机作品价值取决于有多少乘客因沉迷而坐过站",
+   "anchor": 8
+  },
+  {
+   "seg": 24,
+   "text": "石原恒和称便携掌机时代决胜窗口压缩到开局前10分钟",
+   "anchor": 25
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
+   "why": "同为社长问超级宝可梦乱战第1章，本篇为第4章"
+  },
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
+   "why": "同为社长问超级宝可梦乱战第2章，本篇为第4章"
+  },
+  {
+   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
+   "why": "同为社长问超级宝可梦乱战第3章，本篇为第4章"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

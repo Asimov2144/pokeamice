@@ -1,0 +1,69 @@
+{
+ "id": "gamefreak-director-110",
+ "stem": "2007-10-11-gamefreak-director-110",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦☆星期天",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "戈尔戈所长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一与《宝可梦☆星期天》的戈尔戈所长进行了对战"
+  },
+  {
+   "seg": 1,
+   "text": "对战实况将于10月14日星期日播出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-062",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第62回",
+   "url": "/gamefreak-director/entry-062/",
+   "why": "中川翔子接受《宝可梦☆星期天》采访，同节目背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

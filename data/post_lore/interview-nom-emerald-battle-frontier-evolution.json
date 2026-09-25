@@ -1,0 +1,473 @@
+{
+ "id": "interview-nom-emerald-battle-frontier-evolution",
+ "stem": "2004-09-01-interview-nom-emerald-battle-frontier-evolution",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     8,
+     9,
+     13,
+     38
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     14,
+     39
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     14
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木守宫",
+    "ndex": 252,
+    "seg": [
+     38
+    ],
+    "as": [
+     "木守宫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "森林蜥蜴",
+    "ndex": 253,
+    "seg": [
+     38
+    ],
+    "as": [
+     "森林蜥蜴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火稚鸡",
+    "ndex": 255,
+    "seg": [
+     20,
+     38
+    ],
+    "as": [
+     "火稚鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "力壮鸡",
+    "ndex": 256,
+    "seg": [
+     38
+    ],
+    "as": [
+     "力壮鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     15,
+     16,
+     31
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     15,
+     16,
+     31
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈空坐",
+    "ndex": 384,
+    "seg": [
+     15,
+     16,
+     31,
+     35,
+     37
+    ],
+    "as": [
+     "烈空坐"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     14
+    ],
+    "as": [
+     "基拉祈"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     14,
+     35,
+     37
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     1,
+     3,
+     7,
+     13,
+     16,
+     17
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     7,
+     13,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     10,
+     13,
+     37,
+     39
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     8,
+     10,
+     13,
+     35
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     10,
+     12,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "裂空的访问者 代欧奇希斯",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 超世代",
+    "slug": null,
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦扑克牌",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦扑克牌 火红·叶绿",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "编辑长",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     19,
+     20,
+     21,
+     23,
+     25
+    ]
+   },
+   {
+    "name": "コンドー（近藤）",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     8,
+     10,
+     12,
+     16
+    ]
+   },
+   {
+    "name": "近藤",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小田卷博士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "亚希达",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     38
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     39
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "丰缘地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "关都地方",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "冒险舞台",
+    "via": "llm"
+   },
+   {
+    "name": "七岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     10
+    ],
+    "what": "新冒险舞台",
+    "via": "llm"
+   },
+   {
+    "name": "未白镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     20
+    ],
+    "what": "故事开头之地",
+    "via": "llm"
+   },
+   {
+    "name": "对战开拓区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     7
+    ],
+    "what": "新区域",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     39
+    ],
+    "what": "活动会场范围",
+    "via": "llm"
+   },
+   {
+    "name": "福冈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     39
+    ],
+    "what": "活动会场范围",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "《宝可梦 绿宝石》9月16日发售，舞台为丰缘地方，新区域为对战开拓区",
+   "anchor": 8
+  },
+  {
+   "seg": 12,
+   "text": "迄今宝可梦总数386种，其中6种为活动赠送的幻之宝可梦",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

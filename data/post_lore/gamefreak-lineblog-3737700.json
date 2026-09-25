@@ -1,0 +1,68 @@
+{
+ "id": "gamefreak-lineblog-3737700",
+ "stem": "2016-05-27-gamefreak-lineblog-3737700",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 90
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心大阪",
+    "id": null,
+    "entity": "pokemon_center_osaka",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "大阪",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     58
+    ],
+    "what": "此行目的地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一写最喜欢N700A，称其形状是功能美学"
+  },
+  {
+   "seg": 17,
+   "text": "增田顺一写自动扶梯靠右站，并注靠左通行"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

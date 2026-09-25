@@ -1,0 +1,123 @@
+{
+ "id": "interview-siliconera-harmoknight-drill-dozer",
+ "stem": "2019-05-18-interview-siliconera-harmoknight-drill-dozer",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 4
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "泥偶巨人",
+    "ndex": 623,
+    "seg": [
+     1
+    ],
+    "as": [
+     "泥偶巨人"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小木灵",
+    "ndex": 708,
+    "seg": [
+     1
+    ],
+    "as": [
+     "小木灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毒贝比",
+    "ndex": 803,
+    "seg": [
+     1
+    ],
+    "as": [
+     "毒贝比"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "节奏猎鹰",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻头小精灵",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲超人",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "James Turner",
+    "slug": "james-turner",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "《节奏猎鹰》是 GAME FREAK 内部竞赛 Gear Project 开发的第一个游戏项目",
+   "anchor": 2
+  },
+  {
+   "seg": 1,
+   "text": "《节奏猎鹰》的设计文档通过一部简短漫画展示游戏玩法",
+   "anchor": 2
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

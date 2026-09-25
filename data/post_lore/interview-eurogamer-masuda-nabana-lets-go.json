@@ -1,0 +1,220 @@
+{
+ "id": "interview-eurogamer-masuda-nabana-lets-go",
+ "stem": "2018-10-26-interview-eurogamer-masuda-nabana-lets-go",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     2,
+     6,
+     7,
+     11,
+     12
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "具甲武者",
+    "ndex": 768,
+    "seg": [
+     23,
+     21
+    ],
+    "as": [
+     "具甲武者",
+     "Golisopod"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美录坦",
+    "ndex": 808,
+    "seg": [
+     18
+    ],
+    "as": [
+     "美录坦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     8
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘／伊布",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘版",
+    "slug": "yellow",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     1,
+     7,
+     17,
+     18,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "菜花健作",
+    "slug": "nabana-kensaku",
+    "role": "speaker",
+    "seg": [
+     8,
+     11,
+     12,
+     14,
+     23,
+     26
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "法兰克福",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "会见采访地点",
+    "via": "llm"
+   },
+   {
+    "name": "任天堂德国总部",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "采访地点",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "游戏灵感源自1998年登陆Game Boy的《宝可梦 皮卡丘版》",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "寻找第一世代151只宝可梦及《太阳／月亮》中的阿罗拉形态",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
+   "why": "同为Eurogamer 2018-10-26增田与菜花专访"
+  },
+  {
+   "id": "interview-pokemoncom-2018-letsgo-makers",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "宝可梦 Let's Go 开发者访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/",
+   "why": "同谈Let's Go创作起点与关都重现"
+  },
+  {
+   "id": "interview-gamespot-lgpe-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》",
+   "url": "//interview-gamespot-lgpe-masuda/",
+   "why": "同谈Let's Go重塑宝可梦黄与关都151只"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

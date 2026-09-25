@@ -45,7 +45,9 @@ import hashlib
 import importlib.util
 import io
 import json
+import os
 import re
+import subprocess
 import sys
 import time
 from datetime import date
@@ -108,6 +110,61 @@ def pokemon_matcher(table: dict):
 
 
 BRACKET = re.compile(r"[（(].*?[)）]")
+#  行政区划与国家：文章里的「东京」「日本」「纽约」是背景，不是能去的一处地方。
+#  名字带这些尾字的算区划；此外这张表补上外国城市与国名（模型最常写的那些）。
+ADMIN_TAIL = re.compile(r"[市区町村県府都州省郡島県]$")
+ADMIN_NAMES = {
+    "日本", "美国", "中国", "韩国", "法国", "德国", "英国", "意大利", "西班牙", "加拿大", "澳大利亚", "台湾", "香港",
+    "欧洲", "亚洲", "北美", "海外", "关东", "关西", "九州", "四国", "北海道", "东北", "冲绳",
+    "东京", "大阪", "京都", "名古屋", "横滨", "神户", "札幌", "福冈", "广岛", "仙台", "千叶", "埼玉", "神奈川",
+    "纽约", "洛杉矶", "旧金山", "西雅图", "芝加哥", "波士顿", "华盛顿", "拉斯维加斯", "圣迭戈", "奥兰多", "夏威夷",
+    "伦敦", "巴黎", "柏林", "米兰", "罗马", "阿姆斯特丹", "首尔", "上海", "北京", "台北", "曼哈顿", "布鲁克林",
+    "涩谷", "涉谷", "新宿", "池袋", "秋叶原", "银座", "台场", "六本木", "原宿", "中野", "吉祥寺",
+    "小田原", "金泽", "熊本", "马德里", "阿纳海姆", "西雅图", "温哥华", "多伦多", "墨尔本", "悉尼",
+    "关岛", "夏威夷州", "加州", "德州", "佛罗里达", "内华达", "俄亥俄", "新泽西", "长野", "静冈",
+    "奈良", "和歌山", "鹿儿岛", "宫城", "岩手", "福岛", "石川", "富山", "新潟", "群马", "栃木",
+}
+
+
+def dated(rec: dict, year: str) -> dict:
+    """手写补充里分了时期的（GAME FREAK 的办公室搬过两次），按文章年份取那一段。"""
+    periods = rec.get("by_year")
+    if not periods or not year.isdigit():
+        return rec
+    y = int(year)
+    for period in periods:
+        frm, to = period.get("from"), period.get("to")
+        if (frm is None or y >= int(frm)) and (to is None or y <= int(to)):
+            return {**rec, **{k: v for k, v in period.items() if k not in ("from", "to")},
+                    "id": period.get("place", rec.get("id")), "by_year": None}
+    return rec
+
+
+def when_of(rec: dict, year: str) -> str:
+    """文章的年份对着这一处的营业期：文章更早是 before，更晚是 after，在期内是空。
+
+    旅图只收了「宝可梦中心横滨」2018 年起的那一处，而 2016 年的博客也在说这家店——
+    连过去仍然有用（今天要去就是去那儿），但不能让读的人以为文章当年说的就是这一处。"""
+    if not year.isdigit():
+        return ""
+    frm, to = (rec.get("from") or "")[:4], (rec.get("to") or "")[:4]
+    if frm and year < frm:
+        return "before"
+    if to and year > to:
+        return "after"
+    return ""
+
+
+def scale_of(name: str) -> str:
+    """一处地方还是一片地区"""
+    return "area" if name in ADMIN_NAMES or ADMIN_TAIL.search(name) else "spot"
+
+
+def load_extra() -> list:
+    """手写的地名补充（data/lore_tables/places_extra.yml）。没有这张表也照跑。"""
+    path = TABLES / "places_extra.yml"
+    rows = yaml.safe_load(io.open(path, encoding="utf-8")) if path.exists() else []
+    return [r for r in (rows or []) if isinstance(r, dict) and r.get("name")]
 
 
 def place_matcher(table: dict):
@@ -126,9 +183,15 @@ def place_matcher(table: dict):
             index.setdefault(spelling, rec)
 
     for p in sorted(table["places"], key=rank):
-        rec = {"id": p["id"], "entity": p.get("entity"), "category": p.get("category")}
+        spot = {"id": p["id"], "entity": p.get("entity"), "category": p.get("category"),
+                "from": p.get("from"), "to": p.get("to")}
+        shop = {"id": None, "entity": p.get("entity"), "category": p.get("category")}
         for spelling in [p["name"], *p.get("aliases", [])]:
-            reg(spelling, rec)
+            #  「宝可梦中心 名古屋（松坂屋二代店址）」说的是那一处店址；不带括号的「宝可梦中心名古屋」
+            #  说的是这家店本身——2012 年的文章写它，指的是当时那一处，不是 2024 年的新址。
+            #  所以有店址沿革的，只有带括号的写法给 id，其余给 entity，由 App 按日期落。
+            bracketed = "（" in spelling or "(" in spelling
+            reg(spelling, spot if (not p.get("entity") or bracketed) else shop)
     for p in table["places"]:
         if not p.get("entity"):
             continue
@@ -136,7 +199,20 @@ def place_matcher(table: dict):
         rec = {"id": None, "entity": p["entity"], "category": p.get("category")}
         reg(plain, rec)
         reg(re.sub(r"\s", "", plain), rec)
-    keys = sorted(index, key=len, reverse=True)
+    #  手写的补充最后登记，但用 dict 的 setdefault 规则它只填空位——旅图已有的写法不被顶掉
+    unscanned = set()
+    for extra in load_extra():
+        rec = {"id": extra.get("place"), "entity": extra.get("entity"), "category": extra.get("category"),
+               "area": extra.get("area"), "what": extra.get("what"), "scale": extra.get("scale"),
+               "by_year": extra.get("by_year"), "canon": extra["name"], "via": "extra"}
+        for spelling in [extra["name"], *(extra.get("aliases") or [])]:
+            spelling = str(spelling)
+            reg(spelling, rec)
+            if extra.get("scan") is False:
+                unscanned.add(spelling)
+    #  scan: false 的写法（公司名、「宝可梦中心」这种泛称）不进扫正文的那条正则：
+    #  满篇都是的词，每出现一次就算「提到一个地方」是错的；模型把它点成地点时才认
+    keys = sorted((k for k in index if k not in unscanned), key=len, reverse=True)
     return re.compile("|".join(re.escape(k) for k in keys)), index
 
 
@@ -354,10 +430,34 @@ def rule_facets(post: dict, tables: dict, matchers: dict, people_by_name: dict, 
 
     # --- 地点：旅图 gazetteer 命中的
     place_out = []
+    seen_spots = set()
     for spelling, spots in hits(matchers["place"], segs).items():
-        p = matchers["place_index"][spelling]
-        place_out.append({"name": spelling, "id": p["id"], "entity": p.get("entity"), "category": p.get("category"),
-                          "world": "real", "seg": spots, "via": "gazetteer"})
+        p = dated(matchers["place_index"][spelling], post["date"][:4])
+        #  同一处地方的几种写法（六本木新城 / Roppongi Hills / 六本木ヒルズ）只算一处，
+        #  段号并到先出现的那个写法上
+        key = p.get("canon") or p.get("id") or p.get("entity")
+        if key and key in seen_spots:
+            same = next(r for r in place_out if r.get("_key") == key)
+            same["seg"] = (same["seg"] + [n for n in spots if n not in same["seg"]])[:6]
+            continue
+        if key:
+            seen_spots.add(key)
+        row = {"name": spelling, "id": p["id"], "entity": p.get("entity"), "category": p.get("category"),
+               "world": "real", "scale": p.get("scale") or scale_of(spelling), "seg": spots,
+               "via": p.get("via") or "gazetteer"}
+        for field in ("area", "category_link", "what"):
+            if p.get(field):
+                row[field] = p[field]
+        if p.get("via") == "extra" and p.get("category"):
+            row["category_link"] = p["category"]      # App 对照表里的那一类（categories.pc）
+        when = when_of(p, post["date"][:4]) if p.get("id") else ""
+        if when:
+            row["when"] = when
+        if key:
+            row["_key"] = key
+        place_out.append(row)
+    for row in place_out:
+        row.pop("_key", None)
     return {"pokemon": sorted(poke.values(), key=lambda r: r["ndex"]), "works": work_out,
             "people": people_out, "places": place_out}
 
@@ -391,6 +491,22 @@ def body_for_model(post: dict) -> str:
     return "\n".join(line for _, line in rows)
 
 
+def parse_json(raw: str):
+    """模型的回答读成 JSON。偶尔会在字符串里漏个引号或者在末尾多写一句话——
+    先整份读，不行就截出最外层的大括号再读一次。都不行返回 None，由调用方决定重问。"""
+    inner = re.search(r"\{.*\}", raw or "", re.S)
+    for text in (raw, inner.group(0) if inner else None):
+        if not text:
+            continue
+        try:
+            got = json.loads(text)
+        except ValueError:
+            continue
+        if isinstance(got, dict):
+            return got
+    return None
+
+
 def ask_lore(post: dict, facets: dict) -> dict:
     known_people = "、".join(p["name"] for p in facets["people"][:8]) or "（未记）"
     known_works = "、".join(w["name"] for w in facets["works"][:8]) or "（未记）"
@@ -410,9 +526,12 @@ def ask_lore(post: dict, facets: dict) -> dict:
               "或 game（游戏与动画里的地方，如「合众地区」「真新镇」）；泛指的国家与地区（日本、海外、欧美）不写。\n"
               "works：正文点名的作品；people：正文点名的人。都写出现处的段号。\n"
               "拿不准的不写。")
-    raw = nom.deepseek([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=1800)
-    got = json.loads(raw)
-    if not isinstance(got, dict):
+    messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
+    got = parse_json(nom.deepseek(messages, max_tokens=1800))
+    if got is None:
+        #  再问一次，把「只要 JSON」说死；两次都不成才算这篇失败
+        got = parse_json(nom.deepseek(messages + [{"role": "user", "content": "上一次的回答不是合法 JSON。只输出那一个 JSON 对象，不要任何解释文字。"}], max_tokens=1800))
+    if got is None:
         raise ValueError("bad answer")
     return got
 
@@ -451,13 +570,27 @@ def merge_model(facets: dict, got: dict, post: dict, tables: dict, matchers: dic
             continue
         if any(p["name"] == name for p in facets["places"]):
             continue
-        p = matchers["place_index"].get(name) or matchers["place_index"].get(re.sub(r"\s", "", name))
+        canon = (matchers["place_index"].get(name) or {}).get("canon")
+        if canon and any((matchers["place_index"].get(q["name"]) or {}).get("canon") == canon for q in facets["places"]):
+            continue                      # 「六本木新城」和「Roppongi Hills」是同一处，只留先出现的那个写法
+        p = dated(matchers["place_index"].get(name) or matchers["place_index"].get(re.sub(r"\s", "", name)) or {}, post["date"][:4])
         world = "game" if str(row.get("world") or "").strip() == "game" else "real"
-        facets["places"].append({"name": name, "id": p["id"] if p else None, "entity": (p or {}).get("entity"),
-                                 "category": (p or {}).get("category"), "world": world, "seg": seg_of(row),
-                                 "what": str(row.get("what") or "").strip() or None, "via": "llm"})
-    # 榜单一类的文章会点出二十个地名；留下对得上旅图的、写了段号的，最多十个
-    facets["places"].sort(key=lambda p: (0 if (p.get("id") or p.get("entity")) else 1, 0 if p.get("seg") else 1))
+        out_row = {"name": name, "id": p.get("id"), "entity": p.get("entity"), "category": p.get("category"),
+                   "world": world, "scale": p.get("scale") or scale_of(name), "seg": seg_of(row),
+                   "what": str(row.get("what") or "").strip() or p.get("what") or None, "via": p.get("via") or "llm"}
+        if p.get("area"):
+            out_row["area"] = p["area"]
+        if p.get("via") == "extra" and p.get("category"):
+            out_row["category_link"] = p["category"]
+        when = when_of(p, post["date"][:4]) if p.get("id") else ""
+        if when:
+            out_row["when"] = when
+        facets["places"].append(out_row)
+    #  榜单一类的文章会点出二十个地名。先是连得上旅图的，再是具体的一处，再是写了段号的；
+    #  「东京」「日本」这种背景地区排最后，最多留十个
+    facets["places"].sort(key=lambda p: (0 if (p.get("id") or p.get("entity") or p.get("area") or p.get("category_link")) else 1,
+                                         0 if p.get("scale") == "spot" else 1,
+                                         0 if p.get("seg") else 1))
     del facets["places"][10:]
     for row in got.get("works") or []:
         name = str(row.get("name") or "").strip()
@@ -481,7 +614,10 @@ def merge_model(facets: dict, got: dict, post: dict, tables: dict, matchers: dic
         if not text or not isinstance(n, int) or n not in valid:
             continue
         row = {"seg": n, "text": text[:60]}
-        anchor = post["anchors"][n] if n < len(post.get("anchors") or []) else None
+        #  文章页只给问答与段落写 id="segment-N"：小标题是 id="section-N"，图片没有 id。
+        #  钉在小标题或图片上的观察就不给锚点，免得连到一个页面上不存在的位置。
+        kind = (post["segs"][n].get("type") if n < len(post["segs"]) else "") or ""
+        anchor = post["anchors"][n] if (kind in ("paragraph", "dialogue") and n < len(post.get("anchors") or [])) else None
         if anchor:
             row["anchor"] = anchor          # 文章页 #segment-N 用的号，和 App 的段号不是一回事
         obs.append(row)
@@ -526,6 +662,20 @@ def candidates(post: dict, facets: dict, all_posts: list, lore_by_id: dict) -> l
 
 KINDS = {"same-occasion": "同一件事的另一种说法", "responds": "后来回应了这篇", "corrects": "更正了这篇的说法",
          "continues": "同一系列的前后篇", "background": "为这篇提供背景"}
+PREFIXES = ("[访谈翻译] ", "[扫描访谈] ", "[专栏翻译] ", "[GameFreak部长专栏] ")
+
+
+def short_title(post: dict) -> str:
+    """列表里写的那个标题：副题优先，去掉方括号里的类别前缀"""
+    title = str(post["fm"].get("display_title") or post["fm"].get("title") or post["id"]).strip()
+    for prefix in PREFIXES:
+        title = title.replace(prefix, "")
+    return title.strip()
+
+
+def site_path(post: dict) -> str:
+    """站内地址（根相对）。照导出器的 canonical_url 算，省得文章页为了每条关系去扫一遍 site.posts。"""
+    return xp.canonical_url(post["fm"], post["id"]).replace(xp.SITE, "")
 
 
 def ask_relations(post: dict, facets: dict, cands: list, lore_by_id: dict) -> list:
@@ -546,14 +696,15 @@ def ask_relations(post: dict, facets: dict, cands: list, lore_by_id: dict) -> li
               "background（这一篇要读懂需要那一篇给的背景）。\n"
               '输出 {"relations":[{"i":1,"kind":"same-occasion","why":"…"}]}，why ≤30 字，写出具体是哪件事对上了。\n'
               "只写材料里看得出来的；同一个人谈过同一个作品不算关系。没有就给空数组。")
-    raw = nom.deepseek([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=700)
-    got = json.loads(raw)
+    got = parse_json(nom.deepseek([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=700)) or {}
     out = []
     for row in (got.get("relations") or []) if isinstance(got, dict) else []:
         i, kind = row.get("i"), str(row.get("kind") or "").strip()
         if not isinstance(i, int) or not 1 <= i <= len(cands) or kind not in KINDS:
             continue
-        out.append({"id": cands[i - 1]["id"], "kind": kind, "label": KINDS[kind],
+        other = cands[i - 1]
+        out.append({"id": other["id"], "kind": kind, "label": KINDS[kind],
+                    "title": short_title(other), "url": site_path(other),
                     "why": str(row.get("why") or "").strip()[:40]})
     return out[:4]
 
@@ -567,17 +718,79 @@ def read_record(post_id: str) -> dict:
 
 
 def write_record(rec: dict) -> None:
+    """一篇的记录写回去。先写同目录的临时文件再改名——1160 个文件连着写，
+    偶尔会撞上杀毒软件或同步客户端正拿着那一个文件（Windows 报 Errno 22），
+    整轮就此中断太亏；改名是原子的，撞上了等一下再试。"""
     LORE.mkdir(parents=True, exist_ok=True)
     path = LORE / f"{rec['id']}.json"
-    io.open(path, "w", encoding="utf-8", newline="\n").write(json.dumps(rec, ensure_ascii=False, indent=1) + "\n")
+    text = json.dumps(rec, ensure_ascii=False, indent=1) + "\n"
+    tmp = path.with_suffix(".json.tmp")
+    for attempt in range(4):
+        try:
+            io.open(tmp, "w", encoding="utf-8", newline="\n").write(text)
+            os.replace(tmp, path)
+            return
+        except OSError:
+            if attempt == 3:
+                raise
+            time.sleep(0.4 * (attempt + 1))
+
+
+def for_site(rec: dict) -> dict:
+    """文章页那一栏要的那些字段。
+
+    单篇的原件（data/post_lore/<id>.json）是完整的，导出给 App 的也是完整的；
+    _data/post_lore.yml 只是网页端的读物，Jekyll 每次构建都要把它整份读进内存，
+    所以这里只留页面画得出来的东西——每处提及的段号、写法列表、来源标记都不带。"""
+    facets = rec.get("facets") or {}
+    keep = {
+        "id": rec["id"],
+        "facets": {
+            "pokemon": [{"name": k["name"], "ndex": k["ndex"]} for k in facets.get("pokemon", [])],
+            "works": [{"name": w["name"], "slug": w.get("slug")} for w in facets.get("works", [])],
+            "people": [{k: p[k] for k in ("name", "slug", "role", "kind") if p.get(k)} for p in facets.get("people", [])],
+            "places": [{k: s[k] for k in ("name", "what", "world", "id", "entity") if s.get(k)} for s in facets.get("places", [])],
+        },
+        "observations": [{k: o[k] for k in ("text", "anchor", "seg") if k in o} for o in rec.get("observations") or []],
+    }
+    rels = [{k: r[k] for k in ("label", "title", "url", "why", "id", "kind") if r.get(k)} for r in rec.get("relations") or []]
+    if rels:
+        keep["relations"] = rels
+    return keep
+
+
+def published() -> set:
+    """git 已经跟踪的那些帖子的 id。
+
+    记录是照工作区里的 _posts 写的，里面可能有还没提交的帖子（并行的另一个会话正在加）。
+    网页端的那一份只留连得上的关系——指向一篇还没进仓库的文章，部署出去就是死链。
+    等那些帖子提交了，重跑一次 --collect 就会自动补回来。git 不可用时不过滤。"""
+    try:
+        out = subprocess.run(["git", "ls-files", "_posts"], cwd=ROOT, capture_output=True, text=True, check=True, encoding="utf-8")
+    except Exception:                                                  # noqa: BLE001
+        return set()
+    ids = set()
+    for line in out.stdout.splitlines():
+        name = line.strip().rsplit("/", 1)[-1]
+        if name.endswith(".md"):
+            ids.add(xp.jekyll_title_slug(xp.DATE_PREFIX.sub("", name[:-3])))
+    return ids
 
 
 def collect(tables: dict) -> int:
     """把每篇的记录汇成 _data/post_lore.yml（按文件名 stem 索引，文章页直接查）"""
     out = {}
+    live = published()
+    dropped = 0
     for path in sorted(LORE.glob("*.json")):
         rec = json.load(io.open(path, encoding="utf-8"))
-        out[rec["stem"]] = {k: rec[k] for k in ("id", "facets", "observations", "relations", "sources") if k in rec}
+        if live:
+            keep = [r for r in rec.get("relations") or [] if r.get("id") in live]
+            dropped += len(rec.get("relations") or []) - len(keep)
+            rec = {**rec, "relations": keep}
+        out[rec["stem"]] = for_site(rec)
+    if dropped:
+        print(f"  {dropped} relations point at posts git does not track yet; left out of the site's copy")
     OUT_YML.parent.mkdir(parents=True, exist_ok=True)
     head = ("# 每篇文章的图鉴条目：提到的宝可梦 / 作品 / 地点 / 人（带段号），一两条带段号的观察，与别的文章的关系。\n"
             "# 由 tools/build-post-lore.py 生成（规则 + DeepSeek，data/post_lore/<id>.json 是单篇的原件，可手改）。\n"
@@ -612,7 +825,14 @@ def main() -> int:
     ap.add_argument("--relations", action="store_true")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--limit", type=int, default=0)
+    #  只把已有的记录重新汇成 _data/post_lore.yml，不碰模型也不重跑规则
+    ap.add_argument("--collect", action="store_true")
     args = ap.parse_args()
+
+    if args.collect:
+        n = collect(load_tables())
+        print(f"_data/post_lore.yml has {n} records")
+        return 0
 
     tables = load_tables()
     poke_cjk, poke_latin = pokemon_matcher(tables["pokemon_names"])
@@ -689,13 +909,15 @@ def main() -> int:
         facets = rule_facets(post, tables, matchers, people_by_name, kinds, works)
         obs = rec.get("observations") or []
         model = None
+        #  --no-llm 是「不花钱」，不是「不要模型写过的东西」：缓存里有就照用，
+        #  否则重跑一遍规则会把之前模型认出来的地点、人名全抹掉
+        key = lore_key(post)
+        cache = CACHE / f"{post['id']}.json"
+        if cache.exists() and not args.force:
+            blob = json.load(io.open(cache, encoding="utf-8"))
+            if blob.get("key") == key:
+                model, cached = blob["answer"], cached + 1
         if not args.no_llm:
-            key = lore_key(post)
-            cache = CACHE / f"{post['id']}.json"
-            if cache.exists() and not args.force:
-                blob = json.load(io.open(cache, encoding="utf-8"))
-                if blob.get("key") == key:
-                    model, cached = blob["answer"], cached + 1
             if model is None:
                 try:
                     model = ask_lore(post, facets)
@@ -705,8 +927,8 @@ def main() -> int:
                 except Exception as exc:                                  # noqa: BLE001
                     print(f"  {i:>3}/{len(chosen)} {post['id'][:48]}  model failed: {exc}")
                     failed += 1
-            if model:
-                obs = merge_model(facets, model, post, tables, matchers, people_by_name, kinds, works)
+        if model:
+            obs = merge_model(facets, model, post, tables, matchers, people_by_name, kinds, works)
         out = {"id": post["id"], "stem": post["stem"], "rev": REV, "built": date.today().isoformat(),
                "kind": post["kind"], "body": {"kind": post["body_kind"], "n": len(post["segs"])},
                "facets": facets, "observations": obs, "relations": rec.get("relations") or [],

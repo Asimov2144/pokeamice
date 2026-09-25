@@ -2,7 +2,7 @@
  "id": "长文-拨云见日-从百代市到水脉图书馆",
  "stem": "2024-10-24-[长文]-拨云见日-从百代市到水脉图书馆",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "article",
  "body": {
   "kind": "markdown",
@@ -327,46 +327,11 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      0
     ],
     "what": "神奥神话藏书地",
-    "via": "llm"
-   },
-   {
-    "name": "百代市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     0
-    ],
-    "what": "神奥城市",
-    "via": "llm"
-   },
-   {
-    "name": "北海道",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     10
-    ],
-    "what": "取材构思之旅地",
-    "via": "llm"
-   },
-   {
-    "name": "神奥地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     21
-    ],
-    "what": "游戏舞台",
     "via": "llm"
    },
    {
@@ -375,6 +340,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      57
     ],
@@ -387,6 +353,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      57
     ],
@@ -399,6 +366,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      57
     ],
@@ -411,22 +379,11 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      57
     ],
     "what": "枪之柱所在",
-    "via": "llm"
-   },
-   {
-    "name": "祝庆村",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "seg": [
-     137
-    ],
-    "what": "LA起始村落",
     "via": "llm"
    },
    {
@@ -435,10 +392,63 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      146
     ],
     "what": "红色锁链取得地",
+    "via": "llm"
+   },
+   {
+    "name": "百代市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "神奥城市",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "取材构思之旅地",
+    "via": "llm"
+   },
+   {
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     21
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "祝庆村",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     137
+    ],
+    "what": "LA起始村落",
     "via": "llm"
    }
   ]
@@ -457,7 +467,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

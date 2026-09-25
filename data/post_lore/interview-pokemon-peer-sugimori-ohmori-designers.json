@@ -1,0 +1,307 @@
+{
+ "id": "interview-pokemon-peer-sugimori-ohmori-designers",
+ "stem": "2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 49
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     19
+    ],
+    "as": [
+     "波加曼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "比克提尼",
+     "Victini"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     8,
+     20,
+     21,
+     24,
+     26,
+     30
+    ],
+    "as": [
+     "藤藤蛇",
+     "Snivy"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     20,
+     22,
+     38
+    ],
+    "as": [
+     "暖暖猪",
+     "Tepig"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     3,
+     20,
+     23,
+     24,
+     36,
+     38
+    ],
+    "as": [
+     "水水獭",
+     "Oshawott"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "豆豆鸽",
+    "ndex": 519,
+    "seg": [
+     7,
+     8
+    ],
+    "as": [
+     "豆豆鸽",
+     "Pidove"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "虫宝包",
+    "ndex": 540,
+    "seg": [
+     8
+    ],
+    "as": [
+     "虫宝包"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     4,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "凡尔赛玫瑰",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     9,
+     11,
+     14,
+     24,
+     32
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     10,
+     13,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "speaker",
+    "seg": [
+     3,
+     12,
+     19,
+     36,
+     38,
+     40
+    ]
+   },
+   {
+    "name": "井部真那",
+    "slug": "ibe-mana",
+    "role": "speaker",
+    "seg": [
+     6,
+     16,
+     44
+    ]
+   },
+   {
+    "name": "田上玲子",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     18,
+     26,
+     28,
+     30,
+     34
+    ]
+   },
+   {
+    "name": "田上怜子",
+    "slug": "tian-shang-lian-zi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "多摩动物园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "团队观察动物的动物园",
+    "via": "llm"
+   },
+   {
+    "name": "冬宫博物馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     34
+    ],
+    "what": "田上玲子比喻的形象来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "杉森建说共有17位设计师，每人设计约10只宝可梦。",
+   "anchor": 11
+  },
+  {
+   "seg": 12,
+   "text": "大村祐介说设计工作大约从2008年春天开始。",
+   "anchor": 13
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2011-01-bw-design-secrets",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 黑·白 美术诞生秘闻",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/",
+   "why": "同为2010-11-20 Nintendo DREAM黑·白美术专访，均提17人"
+  },
+  {
+   "id": "interview-nintendodream-201-sugimori-bw-characters",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Nintendo Dream 2011年1月号长篇专访：艺术总监杉森建详解《宝可梦 黑／白》角色设计秘话——透也与斗子打破10岁定律、神秘中性天才N、魁奇思与等离子团中世纪圣殿骑士风骨",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-201-sugimori-bw-characters/",
+   "why": "同为2010-11-20 Nintendo DREAM黑·白设计专访，杉森建谈设"
+  },
+  {
+   "id": "scan-ndream-2011-04-bw-design-secrets-part2",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦黑·白诞生秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
+   "why": "Nintendo DREAM黑·白设计访谈续篇，同批人谈设计"
+  },
+  {
+   "id": "interview-otonafami-sugimori-starters-victini",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《Otona Fami》2011年2月号独家专访：艺术总监杉森建详解合众御三家设计秘辛——三大武将文明演变史、水水獭雀斑与“违和感”设计哲学、胜利之神比克提尼",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-otonafami-sugimori-starters-victini/",
+   "why": "杉森建谈156只全新宝可梦的立项背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

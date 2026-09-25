@@ -1,0 +1,147 @@
+{
+ "id": "interview-famitsu-2019-swsh-autosave",
+ "stem": "2019-10-25-interview-famitsu-2019-swsh-autosave",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     9,
+     14,
+     16,
+     17
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     0,
+     1,
+     2,
+     5,
+     8,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go 皮卡丘／Let's Go 伊布",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "周刊Fami通",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     11,
+     14,
+     16,
+     18,
+     21
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     10,
+     12,
+     15,
+     20,
+     22,
+     29
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     17,
+     19,
+     25,
+     27,
+     30,
+     34
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《宝可梦 剑·盾》预定2019年11月15日发售",
+   "anchor": 1
+  },
+  {
+   "seg": 20,
+   "text": "光是草丛一处，反复讨论半年左右才确定呈现方式",
+   "anchor": 21
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-sword-shield-masuda-ohmori",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
+   "url": "//interview-famitsu-sword-shield-masuda-ohmori/",
+   "why": "同为2019-10-25 Fami通剑盾发售前专访"
+  },
+  {
+   "id": "interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/",
+   "why": "E3访谈说明图鉴方针，为剑盾背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

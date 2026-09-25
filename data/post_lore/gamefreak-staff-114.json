@@ -1,0 +1,107 @@
+{
+ "id": "gamefreak-staff-114",
+ "stem": "2009-02-23-gamefreak-staff-114",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 107
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ナギハシ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "タノウエ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "リー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "タカハシ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "モリツグ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "オオモリ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "タヤ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "前些天举行了GAME FREAK的公司说明会"
+  },
+  {
+   "seg": 34,
+   "text": "座谈会时间只有短短的30分钟"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

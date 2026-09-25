@@ -1,0 +1,101 @@
+{
+ "id": "gamefreak-director-131",
+ "stem": "2008-09-16-gamefreak-director-131",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 59
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "美国西海岸",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     19
+    ],
+    "what": "决赛阶段举办地",
+    "via": "llm"
+   },
+   {
+    "name": "佛罗里达",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "举办地对战赛",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "9月13日星期六发售"
+  },
+  {
+   "seg": 16,
+   "text": "明年世界大赛只能使用白金版参赛"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-132",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第132回",
+   "url": "/gamefreak-director/entry-132/",
+   "why": "第132回报告白金发售3天销量破百万，回应本篇发售"
+  },
+  {
+   "id": "gamefreak-director-133",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第133回",
+   "url": "/gamefreak-director/entry-133/",
+   "why": "同为增田部长专栏，第133回紧接第131回"
+  },
+  {
+   "id": "scan-ndream-2008-12-game-freak-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK谈宝可梦白金",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/",
+   "why": "受访谈白金对战与新要素，可补本篇对战赛见闻"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,80 @@
+{
+ "id": "gamefreak-director-121",
+ "stem": "2008-01-15-gamefreak-director-121",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 47
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "切锋市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "游戏中的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 14,
+   "text": "增田顺一问大家12号有没有玩《宝可梦 钻石／珍珠》"
+  },
+  {
+   "seg": 17,
+   "text": "增田顺一说全世界的1月12日天气都一样，这是他想做的"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-119",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第119回",
+   "url": "/gamefreak-director/entry-119/",
+   "why": "同为增田专栏，第119回先请读者1月12日玩钻石珍珠"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

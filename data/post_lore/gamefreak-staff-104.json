@@ -1,0 +1,58 @@
+{
+ "id": "gamefreak-staff-104",
+ "stem": "2008-12-26-gamefreak-staff-104",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "GAME FREAK",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "作者所在公司",
+    "via": "extra"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "2008年的工作在12月26日这天结束"
+  },
+  {
+   "seg": 22,
+   "text": "贺年点阵作品比赛从1月1日起在GAME FREAK首页举办"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

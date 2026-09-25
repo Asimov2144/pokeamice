@@ -2,7 +2,7 @@
  "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
  "stem": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -281,23 +281,12 @@
   ],
   "places": [
    {
-    "name": "涩谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "seg": [
-     16
-    ],
-    "what": "Ingress线下活动",
-    "via": "llm"
-   },
-   {
     "name": "天青石湖畔",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      84
     ],
@@ -310,6 +299,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      84
     ],
@@ -322,6 +312,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      85
     ],
@@ -334,10 +325,24 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      85
     ],
     "what": "一周年新营地",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "Ingress线下活动",
     "via": "llm"
    }
   ]
@@ -354,11 +359,29 @@
    "anchor": 30
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-engineering",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦公司官方专访 工程开发特别篇：造物的核心乐趣，或许在于“与谁一同创造”（太田 × 小川）",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-engineering/",
+   "why": "小川2014年因Pokémon GO邀约入职，与本文结识三人组相关"
+  },
+  {
+   "id": "interview-newspicks-pokemon-utsunomiya-kawamoto",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人",
+   "url": "//interview-newspicks-pokemon-utsunomiya-kawamoto/",
+   "why": "宇都宫崇人任宝可梦COO，本文受访者身份背景"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

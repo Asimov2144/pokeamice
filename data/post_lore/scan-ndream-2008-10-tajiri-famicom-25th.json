@@ -1,0 +1,543 @@
+{
+ "id": "scan-ndream-2008-10-tajiri-famicom-25th",
+ "stem": "2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 237
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     190
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙草",
+    "ndex": 2,
+    "seg": [
+     190
+    ],
+    "as": [
+     "妙蛙草"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     190
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     190
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火恐龙",
+    "ndex": 5,
+    "seg": [
+     190
+    ],
+    "as": [
+     "火恐龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     190
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "绿毛虫",
+    "ndex": 10,
+    "seg": [
+     190
+    ],
+    "as": [
+     "绿毛虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     197,
+     210,
+     224,
+     225
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "霸王花",
+    "ndex": 45,
+    "seg": [
+     60
+    ],
+    "as": [
+     "霸王花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "独角犀牛",
+    "ndex": 111,
+    "seg": [
+     209
+    ],
+    "as": [
+     "独角犀牛"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "钻角犀兽",
+    "ndex": 112,
+    "seg": [
+     207,
+     209
+    ],
+    "as": [
+     "钻角犀兽"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     187
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "昆蒂",
+    "slug": null,
+    "seg": [
+     90,
+     95,
+     97,
+     100,
+     126
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "太空侵略者",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "昆迪",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "GAME FREAK",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     177
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙II",
+    "slug": null,
+    "seg": [
+     177
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙III",
+    "slug": null,
+    "seg": [
+     177
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马力欧兄弟",
+    "slug": null,
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达传说",
+    "slug": null,
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大金刚",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧兄弟",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大金刚Jr.",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "星际力量",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吃豆人",
+    "slug": null,
+    "seg": [
+     87
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小蜜蜂",
+    "slug": null,
+    "seg": [
+     87
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     87
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "迷宫塔",
+    "slug": null,
+    "seg": [
+     87
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "疯狂都市",
+    "slug": null,
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "生化奇迹 我是乌帕",
+    "slug": null,
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "迷宫寺院达巴巴",
+    "slug": null,
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "耀西的蛋",
+    "slug": null,
+    "seg": [
+     168
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧与瓦力欧",
+    "slug": null,
+    "seg": [
+     170
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Jelly Boy",
+    "slug": null,
+    "seg": [
+     162
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Jelly Boy 2",
+    "slug": null,
+    "seg": [
+     164
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "俄罗斯方块",
+    "slug": null,
+    "seg": [
+     183
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马力欧兄弟2",
+    "slug": null,
+    "seg": [
+     105
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马力欧3",
+    "slug": null,
+    "seg": [
+     151
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Janputer",
+    "slug": null,
+    "seg": [
+     158
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Flicky",
+    "slug": null,
+    "seg": [
+     143
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Flippy",
+    "slug": null,
+    "seg": [
+     143
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "新游戏设计 电视游戏制作的想法",
+    "slug": null,
+    "seg": [
+     34
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     5,
+     9,
+     12,
+     14,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "中村光一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     138
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     203
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高桥名人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     103
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "新宿御苑",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     38
+    ],
+    "what": "Fusion Product所在地",
+    "via": "llm"
+   },
+   {
+    "name": "爱媛县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     87
+    ],
+    "what": "游戏狂热者出身地",
+    "via": "llm"
+   },
+   {
+    "name": "御茶之水游戏中心",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     143
+    ],
+    "what": "《Flicky》测试地点",
+    "via": "llm"
+   },
+   {
+    "name": "世嘉大楼",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "一层有展示厅",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 40,
+   "text": "创刊号复印订册，20到30册一周左右卖光"
+  },
+  {
+   "seg": 93,
+   "text": "他们到手工资约15万日元，田尻智提出由自己支付"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E7%94%B5%E8%A7%86%E7%8B%AC%E5%AE%B6%E4%B8%93%E8%AE%BF/%E5%88%9B%E5%A7%8B%E4%BA%BA%E4%B8%93%E9%A2%98/interview-game-center-cx-tajiri-man-who-created-pokemon/",
+   "why": "同讲1983年油印《Game Freak》创刊与手工装订代销"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

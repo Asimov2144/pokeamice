@@ -1,0 +1,114 @@
+{
+ "id": "corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+ "stem": "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 26
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     2,
+     3,
+     10,
+     11,
+     15
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "黄色い“ピカチュウ”ワッペン（黄色皮卡丘交通安全胸章）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "黄色い“ピカチュウ”ワッペン",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社みずほフィナンシャルグループ（瑞穗FG）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "損害保険ジャパン株式会社（损保日本）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "明治安田生命保険相互会社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "第一生命保険株式会社",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン My First Pokémon プロジェクト",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     22
+    ],
+    "what": "赠呈式举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "黄色胸章赠呈事业创立60周年，全日本无偿赠送100万名以上小学一年级新生",
+   "anchor": 4
+  },
+  {
+   "seg": 5,
+   "text": "1965年日本每年因交通事故罹难人数突破1万人，被称为交通战争",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,83 @@
+{
+ "id": "corporate-topic-35-pokemon-kodomo-shokudo-community-support",
+ "stem": "2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 25
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     15,
+     16,
+     17,
+     18,
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "ポケモン こども食堂応援隊！",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "POKÉMON with YOU",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "一般財団法人ポケモン・ウィズ・ユー財団",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン CSR・社会貢献チーム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "自2021年起，株式会社宝可梦全面加入儿童食堂支援事业",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "POKÉMON with YOU 财团2021年创立，前身为2011年社内志愿组织",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

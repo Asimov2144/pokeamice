@@ -1,0 +1,151 @@
+{
+ "id": "interview-gamefreak-gear-tembo-turner",
+ "stem": "2015-08-01-interview-gamefreak-gear-tembo-turner",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "TEMBO THE BADASS ELEPHANT",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "节奏猎人 哈莫奈特（リズムハンター ハーモナイト）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Gear Project（齿轮企划）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "节奏猎人 哈莫奈特",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "J.T.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     8,
+     11,
+     17,
+     22
+    ]
+   },
+   {
+    "name": "T.M.",
+    "slug": "t-m",
+    "role": "speaker",
+    "seg": [
+     3,
+     13,
+     19,
+     26
+    ]
+   },
+   {
+    "name": "James Turner",
+    "slug": "james-turner",
+    "role": "mentioned",
+    "seg": [
+     2,
+     10
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "J.T. 2009 年入社，在哈莫奈特与坏象坦博均任总监",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "T.M. 2011 年入社，负责场景地图模型等 3D 资产",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-rnd-launch-taya-mi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/",
+   "why": "同属2015年GAME FREAK招聘专栏系列，均涉X·Y后体制"
+  },
+  {
+   "id": "interview-gamefreak-recruit-planners",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
+   "why": "同为2015年招聘专栏，讲入社动机与经历"
+  },
+  {
+   "id": "interview-gamefreak-recruit-programmers",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
+   "why": "同为2015年招聘专栏，讲入社经历"
+  },
+  {
+   "id": "interview-gamefreak-recruit-designers",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
+   "why": "同为2015年招聘专栏，讲入社经历"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

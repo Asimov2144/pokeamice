@@ -1,0 +1,325 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch184",
+ "stem": "2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 120
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     37,
+     42,
+     43,
+     46,
+     47,
+     48
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     2,
+     26,
+     27,
+     29,
+     30,
+     32
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     3,
+     17,
+     23,
+     29
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     2,
+     26,
+     27,
+     29,
+     30,
+     32
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超梦！我就在这里",
+    "slug": null,
+    "seg": [
+     82,
+     91,
+     92
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "乱世佳人",
+    "slug": null,
+    "seg": [
+     1,
+     5,
+     6,
+     9,
+     11
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "泰坦尼克号",
+    "slug": null,
+    "seg": [
+     5,
+     6,
+     9
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "喵喵之歌（喵喵的五十音）",
+    "slug": null,
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "时间飞船",
+    "slug": null,
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小智",
+    "slug": "xiao-zhi",
+    "role": "mentioned",
+    "seg": [
+     37,
+     42,
+     47,
+     48,
+     55,
+     57
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": "pi-ka-qiu",
+    "role": "mentioned",
+    "seg": [
+     37,
+     42,
+     43,
+     46,
+     47,
+     48
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "超梦",
+    "slug": "chao-meng",
+    "role": "mentioned",
+    "seg": [
+     0,
+     2,
+     3,
+     17,
+     23,
+     29
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "武藏",
+    "slug": "wu-cang",
+    "role": "mentioned",
+    "seg": [
+     50,
+     51,
+     57,
+     70,
+     71,
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "小次郎",
+    "slug": "xiao-ci-lang",
+    "role": "mentioned",
+    "seg": [
+     50,
+     51,
+     57,
+     70,
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "喵喵",
+    "slug": "miao-miao",
+    "role": "mentioned",
+    "seg": [
+     50,
+     51,
+     67,
+     69,
+     70,
+     73
+    ],
+    "kind": "character"
+   },
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     70
+    ],
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "好莱坞",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "世界电影产业中心",
+    "via": "llm"
+   },
+   {
+    "name": "箱根",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     119
+    ],
+    "what": "首藤设想的庆功地",
+    "via": "llm"
+   },
+   {
+    "name": "拉斯维加斯",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     97
+    ],
+    "what": "庆功犒劳旅行地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "欧美公映日本电影票房榜前三为《超梦的逆袭》《洛奇亚爆诞》《结晶塔的帝王》",
+   "anchor": 3
+  },
+  {
+   "seg": 29,
+   "text": "首藤刚志称《洛奇亚爆诞》日本票房未达《超梦的逆袭》高度",
+   "anchor": 30
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch181",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch181/",
+   "why": "同为《超梦的逆袭》公映前后幕后，署名与试映背景"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+   "why": "同涉《洛奇亚爆诞》企划与剧本创作背景"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+   "why": "同涉《洛奇亚爆诞》剧本难产与制作会议"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+   "why": "同涉《超梦的逆袭》《洛奇亚爆诞》哲学与奴隶论"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

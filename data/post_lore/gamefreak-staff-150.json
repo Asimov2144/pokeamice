@@ -1,0 +1,114 @@
+{
+ "id": "gamefreak-staff-150",
+ "stem": "2009-10-23-gamefreak-staff-150",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 120
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ディグダ",
+    "ndex": 50,
+    "seg": [
+     107,
+     112,
+     47
+    ],
+    "as": [
+     "ディグダ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     11,
+     57
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "大村",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
+   {
+    "name": "阿结おにいさん",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     23
+    ],
+    "what": "电视播放运动会",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 14,
+   "text": "大村作为设计师负责了宝可梦运动会"
+  },
+  {
+   "seg": 38,
+   "text": "完成后共有整整10个比赛项目"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-dengeki-hgss-shigeki-morimoto",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛",
+   "url": "/developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/",
+   "why": "同为《心金·魂银》新要素宝可全能竞技赛的说明"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同为《心金·魂银》重制经过与新要素的访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

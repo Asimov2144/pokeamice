@@ -1,0 +1,119 @@
+{
+ "id": "interview-gamefreak-recruit-designer-ek",
+ "stem": "2021-12-27-interview-gamefreak-recruit-designer-ek",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "E.K.",
+    "slug": "e-k",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "美国加利福尼亚州阿纳海姆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "宝可梦世界锦标赛举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "E.K.曾就菜单按钮行为向策划和总监提出意见，对方回复重新考虑并改善。",
+   "anchor": 5
+  },
+  {
+   "seg": 7,
+   "text": "E.K.在《宝可梦 太阳／月亮》发售后出差去阿纳海姆的宝可梦世界锦标赛。",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-recruit-designer-kn",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "正是因为善于吸纳大家的建言，才能打磨出被所有人深爱的游戏。",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/",
+   "why": "同系列设计师特写，均涉宝可梦3D场景与团队协作"
+  },
+  {
+   "id": "interview-gamefreak-recruit-designer-mi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "之所以选择入职，是因为我不仅想做美术图形，更想全盘参与游戏制作。",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-mi/",
+   "why": "同系列设计师特写，均谈扁平参与与坦率沟通"
+  },
+  {
+   "id": "interview-gamefreak-recruit-ta-tk",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道。",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-ta-tk/",
+   "why": "同系列设计师特写，均涉剑／盾制作环境与协作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,103 @@
+{
+ "id": "gamefreak-staff-89",
+ "stem": "2008-09-26-gamefreak-staff-89",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ポリゴン",
+    "ndex": 137,
+    "seg": [
+     48
+    ],
+    "as": [
+     "ポリゴン"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "吉田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "吉田说艺术总监杉森这次绘制了特别多的宝可梦点阵图"
+  },
+  {
+   "seg": 13,
+   "text": "启动对战记录器后触摸左右任意一侧可更换画面桌面颜色"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-staff-97",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2008年白金音乐设计",
+   "url": "/gamefreak-staff/entry-97/",
+   "why": "同为晴れたり時々曇ったり白金开发秘闻系列"
+  },
+  {
+   "id": "scan-ndream-2008-12-game-freak-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK谈宝可梦白金",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/",
+   "why": "同刊白金开发访谈，可补开发团队背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

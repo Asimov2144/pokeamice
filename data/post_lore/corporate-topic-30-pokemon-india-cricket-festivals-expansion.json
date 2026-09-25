@@ -1,0 +1,177 @@
+{
+ "id": "corporate-topic-30-pokemon-india-cricket-festivals-expansion",
+ "stem": "2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     7,
+     12,
+     15,
+     16,
+     18,
+     19
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "テレビアニメ『ポケットモンスター』インド版",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモン・メラ（Pokémon Mela）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "电视动画《宝可梦》",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦嘉年华（Pokémon Mela）",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社ポケモン インドマーケティング室",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ヴィシャール＆シェーカル（Vishal–Shekhar）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "アルマーン・マリク（Armaan Malik）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "シャーリィ・セティア（Shirley Setia）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "ムンバイ・インディアンズ（Mumbai Indians）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "维沙尔·达德拉尼（Vishal Dadlani）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "谢卡尔·拉夫吉亚尼（Shekhar Ravjiani）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿尔曼·马利克（Armaan Malik）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "雪莉·塞蒂亚（Shirley Setia）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "印度",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "战略开拓对象国",
+    "via": "llm"
+   },
+   {
+    "name": "孟买",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "发布会与赛事举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "宝可梦2013年进入印度，通过扩大电视动画播出排期与覆盖时段起步。",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "2023年印度总人口突破节点成为全球第一，宝可梦总部组建印度营销室。",
+   "anchor": 5
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

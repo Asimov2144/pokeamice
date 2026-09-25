@@ -1,0 +1,105 @@
+{
+ "id": "interview-pokemon-recruit-staff-hayakawa",
+ "stem": "2016-01-10-interview-pokemon-recruit-staff-hayakawa",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 12
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "早川裕崇",
+    "slug": "zao-chuan-yu-chong",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心Mega东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "via": "gazetteer"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "入职当年宝可梦公司尚未正式推出智能手机移动应用",
+   "anchor": 3
+  },
+  {
+   "seg": 9,
+   "text": "法务部门内同时兼挑跨国商业合同合规审查与知识产权商标专利两重重担的唯我一人",
+   "anchor": 11
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-staff-furutani",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方员工特写03 古谷翔：App事业部——知识与新颖脑洞，皆是创造宝可梦未来的强大武器",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-furutani/",
+   "why": "同为2016-01-10宝可梦公司员工特写系列"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-izawa",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方员工特写01 伊泽景胜：卡牌事业部——让触碰宝可梦的人都成为善良温柔的人",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-izawa/",
+   "why": "同为2016-01-10宝可梦公司员工特写系列"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-kosugi",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方员工特写04 小杉要：集团统括部——传统与革新并行，维系长盛不衰的经营中枢",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-kosugi/",
+   "why": "同为2016-01-10宝可梦公司员工特写系列"
+  },
+  {
+   "id": "interview-pokemon-recruit-staff-yoshihara",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方员工特写02 吉原有香：品牌管理部——发掘足以与皮卡丘比肩的代表性宝可梦",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-staff-yoshihara/",
+   "why": "同为2016-01-10宝可梦公司员工特写系列"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

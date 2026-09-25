@@ -1,0 +1,55 @@
+{
+ "id": "gamefreak-lineblog-3580362",
+ "stem": "2016-05-20-gamefreak-lineblog-3580362",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 1
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "文中说现在听说就连在飞机里也能使用无线网络"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2484438",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年八丈岛小苍兰节",
+   "url": "/gamefreak-director/lineblog-2484438/",
+   "why": "同从羽田飞八丈岛，先有飞行行程"
+  },
+  {
+   "id": "gamefreak-lineblog-2540602",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【日记】2016八丈岛邂逅小麂",
+   "url": "/gamefreak-director/lineblog-2540602/",
+   "why": "八丈岛行程后因航班停飞提前返程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

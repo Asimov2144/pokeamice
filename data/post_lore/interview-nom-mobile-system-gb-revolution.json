@@ -1,0 +1,83 @@
+{
+ "id": "interview-nom-mobile-system-gb-revolution",
+ "stem": "2001-01-27-interview-nom-mobile-system-gb-revolution",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 26
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     6,
+     7,
+     14
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦竞技场 金银",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [],
+  "places": [
+   {
+    "name": "浅葱市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "对战塔所在地",
+    "via": "llm"
+   },
+   {
+    "name": "满金市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "PCC所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "移动系统GB服务于2001年1月27日开始。",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "系统注册费400日元，互联网连接费10日元／分钟。",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

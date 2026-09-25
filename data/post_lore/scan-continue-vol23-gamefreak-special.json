@@ -1,0 +1,288 @@
+{
+ "id": "scan-continue-vol23-gamefreak-special",
+ "stem": "2005-08-18-scan-continue-vol23-gamefreak-special",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 53
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     17,
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "螺旋破碎机 轰振旋转钻子",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲超人",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "时间飞船",
+    "slug": null,
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "东京巴士案内2",
+    "slug": null,
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "8bit",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红白机",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     10,
+     21
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     11,
+     23,
+     31,
+     34,
+     36,
+     38
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     13,
+     22
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "speaker",
+    "seg": [
+     20,
+     32,
+     43,
+     46
+    ]
+   },
+   {
+    "name": "江尾可奈子",
+    "slug": "eo-kanako",
+    "role": "speaker",
+    "seg": [
+     24
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "CONTINUE",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     30,
+     33,
+     35,
+     37,
+     42
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "富野由悠季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "峰田和伸",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "内田名人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "任天堂总部",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     38
+    ],
+    "what": "提案试玩 Demo 处",
+    "via": "llm"
+   },
+   {
+    "name": "永田町",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "政策游戏取材地",
+    "via": "llm"
+   },
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     38
+    ],
+    "what": "任天堂总部所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 31,
+   "text": "杉森建称本作立项大约是两年前左右"
+  },
+  {
+   "seg": 32,
+   "text": "吉田宏信称立项在《宝可梦 红宝石·蓝宝石》开发刚结束后不久"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-038",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第38回",
+   "url": "/gamefreak-director/entry-038/",
+   "why": "同谈《螺旋破碎机》立项与杉森任总监、吉田负责角色"
+  },
+  {
+   "id": "gamefreak-director-031",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第31回",
+   "url": "/gamefreak-director/entry-031/",
+   "why": "同涉GAME FREAK首作《昆蒂》原点"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

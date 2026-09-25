@@ -1,0 +1,148 @@
+{
+ "id": "gamefreak-staff-38",
+ "stem": "2007-10-19-gamefreak-staff-38",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     20,
+     49
+    ],
+    "as": [
+     "喷火龙",
+     "リザードン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     6,
+     35
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     6,
+     35
+    ],
+    "as": [
+     "卡比兽",
+     "カビゴン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰猴",
+    "ndex": 392,
+    "seg": [
+     21,
+     50
+    ],
+    "as": [
+     "烈焰猴",
+     "ゴウカザル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     18
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     19
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "小玛",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "会议室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "社内赛会场",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "这次全胜夺冠的是程序员纳吉，是他第二次参赛"
+  },
+  {
+   "seg": 16,
+   "text": "奖杯缎带上写着历届冠军的名字和卡组名称"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

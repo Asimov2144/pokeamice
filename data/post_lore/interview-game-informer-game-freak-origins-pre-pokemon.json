@@ -1,0 +1,208 @@
+{
+ "id": "interview-game-informer-game-freak-origins-pre-pokemon",
+ "stem": "2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "孟德尔宫殿",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Jerry Boy",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Smart Ball",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "耀西的蛋",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "神通小精灵",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲超人",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "混混大象",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧与瓦力欧",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧绘图",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     12,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "横井军平",
+    "slug": "yokoi-gunpei",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Kyle Hilliard",
+    "slug": "kai-er-xi-li-ya-de",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一称GAME FREAK起初是日本的一本迷你漫画杂志",
+   "anchor": 3
+  },
+  {
+   "seg": 6,
+   "text": "增田顺一称最初没有正式开发设备，只能自行破解FC红白机",
+   "anchor": 7
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E7%94%B5%E8%A7%86%E7%8B%AC%E5%AE%B6%E4%B8%93%E8%AE%BF/%E5%88%9B%E5%A7%8B%E4%BA%BA%E4%B8%93%E9%A2%98/interview-game-center-cx-tajiri-man-who-created-pokemon/",
+   "why": "田尻智拆红白机自制开发机，对应增田称自行破解FC"
+  },
+  {
+   "id": "interview-niconico-gamefreak-origins-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+   "url": "//interview-niconico-gamefreak-origins-masuda/",
+   "why": "同述自制FC开发机做《旋转方块》由南梦宫发行"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

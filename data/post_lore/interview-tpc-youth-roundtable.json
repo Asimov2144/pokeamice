@@ -1,0 +1,178 @@
+{
+ "id": "interview-tpc-youth-roundtable",
+ "stem": "2014-05-01-interview-tpc-youth-roundtable",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 50
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水跃鱼",
+    "ndex": 258,
+    "seg": [
+     2
+    ],
+    "as": [
+     "水跃鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火狐狸",
+    "ndex": 653,
+    "seg": [
+     4
+    ],
+    "as": [
+     "火狐狸"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮卡丘之森",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     6,
+     12,
+     18,
+     23,
+     31,
+     36
+    ]
+   },
+   {
+    "name": "大奈路まりな",
+    "slug": "da-nai-lu",
+    "role": "speaker",
+    "seg": [
+     7,
+     15,
+     17,
+     21,
+     26,
+     33
+    ]
+   },
+   {
+    "name": "菅野隼人",
+    "slug": "jian-ye-sun-ren",
+    "role": "speaker",
+    "seg": [
+     8,
+     13,
+     19,
+     25,
+     28,
+     39
+    ]
+   },
+   {
+    "name": "古谷翔",
+    "slug": "gu-gu-xiang",
+    "role": "speaker",
+    "seg": [
+     9,
+     14,
+     16,
+     20,
+     24,
+     27
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     37
+    ],
+    "what": "大城市氛围对比",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "大奈路まりな2012年度入社，负责宝可梦中心原创周边企划研发",
+   "anchor": 5
+  },
+  {
+   "seg": 4,
+   "text": "古谷翔2011年度入社，负责《宝可梦》正作游戏系列制作协调推进",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-tpc-global-business-hirobe",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/",
+   "why": "同为2014-05-01宝可梦公司官方专访"
+  },
+  {
+   "id": "interview-tpc-leaders-challenge",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）",
+   "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/",
+   "why": "同为2014-05-01宝可梦公司官方专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

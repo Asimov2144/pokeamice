@@ -1,0 +1,366 @@
+{
+ "id": "interview-denfaminicogamer-pokemon-go-miracle",
+ "stem": "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 200
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     177,
+     180
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     2,
+     4,
+     88,
+     96,
+     197
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Ingress",
+    "slug": null,
+    "seg": [
+     33,
+     34,
+     92,
+     95,
+     112,
+     139
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     38
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     38
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     118
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "敲冰块",
+    "slug": null,
+    "seg": [
+     126
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "第五权力",
+    "slug": null,
+    "seg": [
+     161
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO Plus",
+    "slug": null,
+    "seg": [
+     197
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     15,
+     19,
+     22,
+     27,
+     32,
+     39
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     16,
+     18,
+     20,
+     21,
+     26,
+     33
+    ]
+   },
+   {
+    "name": "川岛优志",
+    "slug": "kawashima-masashi",
+    "role": "speaker",
+    "seg": [
+     23,
+     25,
+     28,
+     29,
+     31,
+     72
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     46,
+     49,
+     53,
+     54,
+     56,
+     57
+    ]
+   },
+   {
+    "name": "约翰·汉克",
+    "slug": "john-hanke",
+    "role": "mentioned",
+    "seg": [
+     112
+    ]
+   },
+   {
+    "name": "野村达雄",
+    "slug": "nomura-tatsuo",
+    "role": "mentioned",
+    "seg": [
+     25
+    ]
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     125
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "埃里克·施密特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     161
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "稻叶帆立",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "齐藤大地",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐佐木秀二",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     160,
+     163,
+     164,
+     165
+    ],
+    "via": "extra",
+    "what": "宝可梦公司总部所在"
+   },
+   {
+    "name": "东京塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     176,
+     177,
+     180
+    ],
+    "via": "extra",
+    "what": "多次办宝可梦活动"
+   },
+   {
+    "name": "新西兰",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "首发配信地区",
+    "via": "llm"
+   },
+   {
+    "name": "增上寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     176
+    ],
+    "what": "东京塔脚下的寺院",
+    "via": "llm"
+   },
+   {
+    "name": "埃菲尔铁塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     172
+    ],
+    "what": "增田谈及的传送门",
+    "via": "llm"
+   },
+   {
+    "name": "澳大利亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "首发配信地区",
+    "via": "llm"
+   },
+   {
+    "name": "金泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     79
+    ],
+    "what": "川岛日本上线时所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "石原恒和说在澳大利亚和新西兰开始配信时数字有些不对劲",
+   "anchor": 17
+  },
+  {
+   "seg": 26,
+   "text": "石原恒和说原计划美国发布两天后欧洲发布，那周末日本发布",
+   "anchor": 27
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-server-miracle/",
+   "why": "同为电玩志三巨头对谈，本篇为后篇"
+  },
+  {
+   "id": "interview-gnn-pokemon-go-tokyo-roundtable",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6go/%E7%AD%96%E5%88%92%E4%B8%8E%E8%BF%90%E8%90%A5/interview-gnn-pokemon-go-tokyo-roundtable/",
+   "why": "同述2014谷歌愚人节企划与石原同意合作的缘起"
+  },
+  {
+   "id": "interview-nikkei-utsunomiya-pokemon-go",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+   "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
+   "why": "同述谷歌地图愚人节企划与日美合作签约经过"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,448 @@
+{
+ "id": "scan-ndream-2008-12-game-freak-interview",
+ "stem": "2008-10-21-scan-ndream-2008-12-game-freak-interview",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 110
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿柏怪",
+    "ndex": 24,
+    "seg": [
+     13
+    ],
+    "as": [
+     "阿柏怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超音蝠",
+    "ndex": 41,
+    "seg": [
+     106
+    ],
+    "as": [
+     "超音蝠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     11
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫头夜鹰",
+    "ndex": 164,
+    "seg": [
+     107,
+     108
+    ],
+    "as": [
+     "猫头夜鹰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "图图犬",
+    "ndex": 235,
+    "seg": [
+     27,
+     49
+    ],
+    "as": [
+     "图图犬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     28
+    ],
+    "as": [
+     "巨金怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛托姆",
+    "ndex": 479,
+    "seg": [
+     66,
+     73,
+     74,
+     84,
+     85,
+     86
+    ],
+    "as": [
+     "洛托姆",
+     "Rotom"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     62
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     52,
+     53,
+     55,
+     58,
+     59,
+     61
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     12
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     54
+    ],
+    "as": [
+     "谢米"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     4
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 水晶",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "川内丸武史",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     10,
+     43,
+     45,
+     62,
+     70
+    ]
+   },
+   {
+    "name": "太田哲司",
+    "slug": "ota-tetsuji",
+    "role": "speaker",
+    "seg": [
+     9,
+     12,
+     46,
+     48
+    ]
+   },
+   {
+    "name": "中津井优",
+    "slug": "nakatsui-yu",
+    "role": "speaker",
+    "seg": [
+     13
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     18,
+     20,
+     32,
+     34,
+     36,
+     42
+    ]
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "speaker",
+    "seg": [
+     27,
+     29,
+     38
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "对战城堡",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     41
+    ],
+    "what": "《绿宝石》没有的新设施",
+    "via": "llm"
+   },
+   {
+    "name": "对战塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     44
+    ],
+    "what": "《绿宝石》已有的设施",
+    "via": "llm"
+   },
+   {
+    "name": "对战工厂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     44
+    ],
+    "what": "《绿宝石》已有的设施",
+    "via": "llm"
+   },
+   {
+    "name": "毁坏的世界",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     55
+    ],
+    "what": "骑拉帝纳栖息的世界",
+    "via": "llm"
+   },
+   {
+    "name": "归途洞窟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     53
+    ],
+    "what": "可捕获骑拉帝纳之处",
+    "via": "llm"
+   },
+   {
+    "name": "森之洋馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     84
+    ],
+    "what": "洛托姆出现的洋馆",
+    "via": "llm"
+   },
+   {
+    "name": "银河百代大厦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     89
+    ],
+    "what": "洛托姆改变形态之处",
+    "via": "llm"
+   },
+   {
+    "name": "Wi-Fi广场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     91
+    ],
+    "what": "Wi-Fi游玩场所",
+    "via": "llm"
+   },
+   {
+    "name": "全球终端",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     94
+    ],
+    "what": "展示数据的场所",
+    "via": "llm"
+   },
+   {
+    "name": "对战开拓区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     24
+    ],
+    "what": "可双人挑战的设施",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 29,
+   "text": "《白金》把「催眠术」命中率从70降到60"
+  },
+  {
+   "seg": 32,
+   "text": "GB版《红·绿》因程序容量，招式只能记4个"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2008-12-platinum-battle-dojo",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK对战专访",
+   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-platinum-battle-dojo/",
+   "why": "同为2008-10-21 Nintendo DREAM《白金》特辑报道"
+  },
+  {
+   "id": "scan-ndream-2008-12-masuda-rainbow-bridge",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一喜欢彩虹大桥",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-masuda-rainbow-bridge/",
+   "why": "同日Nintendo DREAM刊载的增田顺一访谈"
+  },
+  {
+   "id": "interview-nintendo-power-masuda-gens-1-4",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+   "why": "同谈《白金》招式属性设计与破灭世界"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

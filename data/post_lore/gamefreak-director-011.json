@@ -1,0 +1,78 @@
+{
+ "id": "gamefreak-director-011",
+ "stem": "2004-08-30-gamefreak-director-011",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 67
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     8,
+     40
+    ],
+    "as": [
+     "妙蛙种子",
+     "Bulbasaur"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "北美9月9日发售《ＦＩＲＥ ＲＥＤ》和《ＬＥＡＦ ＧＲＥＥＮ》"
+  },
+  {
+   "seg": 12,
+   "text": "最终确定全世界统一使用“ＬＥＡＦ ＧＲＥＥＮ”"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2004-05-13-ign-e3-2004-pokemon-creators/",
+   "why": "E3访谈提到美版九月发售，与本篇北美9月9日对应"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,140 @@
+{
+ "id": "gamefreak-director-156",
+ "stem": "2010-01-07-gamefreak-director-156",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 43
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "2012",
+    "slug": null,
+    "seg": [
+     1,
+     3
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "飞屋环游记",
+    "slug": null,
+    "seg": [
+     2,
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "大白鲨3D",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "终结者2",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "阿凡达",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "罗兰·艾默里奇",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "白宫",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "片中消失的建筑",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一看了罗兰·艾默里奇导演的《2012》"
+  },
+  {
+   "seg": 16,
+   "text": "现在的3D电影立体感在屏幕里面，不从屏幕凸出"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-155",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第155回",
+   "url": "/gamefreak-director/entry-155/",
+   "why": "同为増田部長のめざめるパワー第155、156回前后篇"
+  },
+  {
+   "id": "gamefreak-director-157",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第157回",
+   "url": "/gamefreak-director/entry-157/",
+   "why": "同为増田部長のめざめるパワー第156、157回前后篇"
+  },
+  {
+   "id": "gamefreak-director-158",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第158回",
+   "url": "/gamefreak-director/entry-158/",
+   "why": "同为増田部長のめざめるパワー第156、158回前后篇"
+  },
+  {
+   "id": "gamefreak-director-159",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第159回",
+   "url": "/gamefreak-director/entry-159/",
+   "why": "同为増田部長のめざめるパワー第156、159回前后篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

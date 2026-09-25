@@ -1,0 +1,86 @@
+{
+ "id": "gamefreak-lineblog-2413352",
+ "stem": "2016-03-31-gamefreak-lineblog-2413352",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 16
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "增田顺一称「宝可梦 红·绿」的音乐、音效、宝可梦叫声全由他制作"
+  },
+  {
+   "seg": 14,
+   "text": "增田顺一表示想用与专栏、推特不同的感觉分享内容"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2648469",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【创作】2016年宝可梦音效制作",
+   "url": "/gamefreak-director/lineblog-2648469/",
+   "why": "后续补充红绿音效制作细节"
+  },
+  {
+   "id": "gamefreak-lineblog-3059194",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【创作】2016年下北泽拍摄",
+   "url": "/gamefreak-director/lineblog-3059194/",
+   "why": "重访红绿诞生地并拍摄采访"
+  },
+  {
+   "id": "gamefreak-lineblog-4991670",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【活动】2016年宝可梦音乐与攻略采访",
+   "url": "/gamefreak-director/lineblog-4991670/",
+   "why": "后续谈红绿作曲方法"
+  },
+  {
+   "id": "gamefreak-lineblog-7296420",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "【活动】2016宝可梦游戏音乐会",
+   "url": "/gamefreak-director/lineblog-7296420/",
+   "why": "后续聆听初代红绿全曲演奏"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

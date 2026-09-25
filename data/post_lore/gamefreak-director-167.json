@@ -1,0 +1,90 @@
+{
+ "id": "gamefreak-director-167",
+ "stem": "2010-07-29-gamefreak-director-167",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 49
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "消息变得可以用汉字显示"
+  },
+  {
+   "seg": 18,
+   "text": "后天开始接受预订"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-164",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第164回",
+   "url": "/gamefreak-director/entry-164/",
+   "why": "同为増田部長专栏第164回，前于第167回"
+  },
+  {
+   "id": "gamefreak-director-160",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第160回",
+   "url": "/gamefreak-director/entry-160/",
+   "why": "同为増田部長专栏第160回，前于第167回"
+  },
+  {
+   "id": "gamefreak-director-161",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第161回",
+   "url": "/gamefreak-director/entry-161/",
+   "why": "同为増田部長专栏第161回，前于第167回"
+  },
+  {
+   "id": "interview-famitsu-1137-ishihara-masuda-bw-launch",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "週刊Fami通 No.1137 发售特别专访石原恒和 × 增田顺一：“为什么我们拒绝等待新掌机，而要在NDS上挑战开发极限”——《宝可梦 黑／白》156只全新宝可梦、PGL日常生态与合众网络战略",
+   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1137-ishihara-masuda-bw-launch/",
+   "why": "同涉黑白汉字显示与通信方式设计"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

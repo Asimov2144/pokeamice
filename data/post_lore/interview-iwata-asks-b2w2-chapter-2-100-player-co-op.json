@@ -2,7 +2,7 @@
  "id": "interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
  "stem": "2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -118,28 +118,35 @@
  ],
  "relations": [
   {
-   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "why": "同为「社长问」系列，前作心金魂银篇"
+   "id": "interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+   "why": "同为黑2白2社长问，第1章在前"
   },
   {
-   "id": "scan-ndream-2011-01-bw-design-secrets",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "why": "海野隆雄任黑·白3D美术总监的背景"
+   "id": "interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑2·白2》第3章：双版本同时发售的双钥匙联动机制与宝可梦好莱坞太空幻想",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy/",
+   "why": "同为黑2白2社长问，第3章在后"
   },
   {
-   "id": "scan-ndream-bw-tanjou-hiwa-2011-pokemon",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "why": "海野隆雄谈黑·白设计与演出细节"
+   "id": "interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 黑2·白2》第4章：为什么在3DS已上市时坚守NDS硬件（桧扇市全新开局、宝可梦本质与三神器联动）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures/",
+   "why": "同为黑2白2社长问，第4章在后"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

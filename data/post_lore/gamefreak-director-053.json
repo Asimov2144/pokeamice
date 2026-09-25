@@ -1,0 +1,98 @@
+{
+ "id": "gamefreak-director-053",
+ "stem": "2005-09-22-gamefreak-director-053",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 30
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "螺旋破坏者 轰振钻钻乐乐",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "螺旋破坏者",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "轰振钻钻乐乐",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     6
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田顺一写明2005年9月22日发售"
+  },
+  {
+   "seg": 6,
+   "text": "附振动卡带与杉森建绘制的5页漫画"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-038",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第38回",
+   "url": "/gamefreak-director/entry-038/",
+   "why": "同谈GAME FREAK非宝可梦动作游戏《Screw Breaker》"
+  },
+  {
+   "id": "scan-continue-vol23-gamefreak-special",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/",
+   "why": "同谈《螺旋破碎机》诞生秘话与杉森建"
+  },
+  {
+   "id": "gamefreak-director-030",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第30回",
+   "url": "/gamefreak-director/entry-030/",
+   "why": "同为增田部长专栏，第30回在前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

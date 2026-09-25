@@ -1,0 +1,151 @@
+{
+ "id": "corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
+ "stem": "2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     7
+    ],
+    "as": [
+     "百变怪",
+     "メタモン"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "メタモンカップ（百变怪模具杯）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ポケモンカードゲーム（PTCG 立体黏土卡牌）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "ネコカップ / コネコカップ",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "メタモンカップ",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ネコカップ",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "コネコカップ",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ポケモンカードゲーム",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "森井ユカ（著名立体造型作家 / PTCG插画大师）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "アッシュコンセプト株式会社（h concept）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社ポケモン ライセンスプロデュース部",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "森井ユカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森井由佳",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "百变怪模具杯由株式会社宝可梦与h concept联合研发",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "灵感源于策划人邂逅h concept的猫咪模具杯与小猫模具杯",
+   "anchor": 4
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

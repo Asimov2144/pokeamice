@@ -1,0 +1,296 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch174",
+ "stem": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 143
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     59
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     59
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超梦",
+    "ndex": 150,
+    "seg": [
+     59
+    ],
+    "as": [
+     "超梦"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     3,
+     59,
+     74
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "战国魔神豪将军 时之异邦人",
+    "slug": null,
+    "seg": [
+     42
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "七武士",
+    "slug": null,
+    "seg": [
+     29,
+     47
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "街角的童话",
+    "slug": null,
+    "seg": [
+     14,
+     32
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "十八岁的杀意",
+    "slug": null,
+    "seg": [
+     13,
+     14,
+     32,
+     34
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "18岁的童话",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "无知的眼泪",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "黑泽明",
+    "slug": "hei-ze-ming",
+    "role": "mentioned",
+    "seg": [
+     29,
+     47
+    ],
+    "kind": "figure"
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "斯图加特",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     96
+    ],
+    "what": "德国机场所在城市",
+    "via": "llm"
+   },
+   {
+    "name": "阿尔及尔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     109
+    ],
+    "what": "法国前殖民属地",
+    "via": "llm"
+   },
+   {
+    "name": "新宿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "男女相遇的舞台",
+    "via": "llm"
+   },
+   {
+    "name": "涩谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     26
+    ],
+    "what": "少年独行的空城",
+    "via": "llm"
+   },
+   {
+    "name": "秋叶原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     18
+    ],
+    "what": "无差别行凶案发生地",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     96
+    ],
+    "what": "首藤原定前往地",
+    "via": "llm"
+   },
+   {
+    "name": "巴黎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     101
+    ],
+    "what": "体验糟糕的旅居地",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     80
+    ],
+    "what": "首藤养狗之地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 13,
+   "text": "首藤刚志手里有一部名为《十八岁的杀意》、至今未曾影像化的青春电影剧本。",
+   "anchor": 14
+  },
+  {
+   "seg": 87,
+   "text": "首藤刚志二十岁出头时曾在西德一座偏远乡村小镇羁留约一个月。",
+   "anchor": 88
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch173",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第173回：请不要直白喊出《宝可梦》的主题（地狱启示录作派、合家欢的成人隐线与绝不能挑明的“歧视”母题）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch173/",
+   "why": "同为《超梦的逆袭》母题剖析，第173回为上一回"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch177",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch177/",
+   "why": "克隆体与本物之战是超梦母题的延续"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch178",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/",
+   "why": "超梦高潮抉择与克隆绝望主题相关"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch181",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch181/",
+   "why": "超梦剧本初稿遭挞伐，涉其核心母题"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,132 @@
+{
+ "id": "gamefreak-lineblog-8215826",
+ "stem": "2016-10-16-gamefreak-lineblog-8215826",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 54
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心晴空塔",
+    "id": null,
+    "entity": "pokemon_center_skytree_town",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "宝可梦中心晴空塔城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "签名会会场",
+    "via": "llm"
+   },
+   {
+    "name": "奄美大岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "来场者出身地",
+    "via": "llm"
+   },
+   {
+    "name": "延冈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15
+    ],
+    "what": "交谈话题地名",
+    "via": "llm"
+   },
+   {
+    "name": "群马野生动物园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "来场者没去过",
+    "via": "llm"
+   },
+   {
+    "name": "群马县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "来场者出身地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 28,
+   "text": "日本全国宝可梦中心11处、为1100人签名，20周年签名会结束"
+  },
+  {
+   "seg": 42,
+   "text": "增田顺一在宝可梦中心晴空塔城签名"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

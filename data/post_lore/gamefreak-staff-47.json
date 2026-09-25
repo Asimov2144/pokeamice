@@ -1,0 +1,101 @@
+{
+ "id": "gamefreak-staff-47",
+ "stem": "2007-12-06-gamefreak-staff-47",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 87
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ニャース",
+    "ndex": 52,
+    "seg": [
+     59,
+     15
+    ],
+    "as": [
+     "ニャース"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "波尔卡・喔・多尔卡",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "银翼杀手",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "自己已学习三味线两年"
+  },
+  {
+   "seg": 15,
+   "text": "喵喵的《波尔卡・喔・多尔卡》使用津轻三味线"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

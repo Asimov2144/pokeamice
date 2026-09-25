@@ -2,7 +2,7 @@
  "id": "gamefreak-director-145",
  "stem": "2009-03-27-gamefreak-director-145",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "blog",
  "body": {
   "kind": "markdown",
@@ -36,6 +36,7 @@
     "entity": null,
     "category": null,
     "world": "game",
+    "scale": "spot",
     "seg": [
      3
     ],
@@ -54,11 +55,37 @@
    "text": "日本和北美玩家可跨越国界一起游玩"
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "gamefreak-director-135",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第135回",
+   "url": "/gamefreak-director/entry-135/",
+   "why": "同为白金北美发售前专栏，预告3月22日发售"
+  },
+  {
+   "id": "gamefreak-director-143",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第143回",
+   "url": "/gamefreak-director/entry-143/",
+   "why": "同系列专栏，预告白金北美3月22日发售"
+  },
+  {
+   "id": "interview-nintendo-power-masuda-gens-1-4",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+   "why": "同为白金发售前后增田与河内的媒体专访"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

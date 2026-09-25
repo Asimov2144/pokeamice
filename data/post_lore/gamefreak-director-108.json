@@ -2,7 +2,7 @@
  "id": "gamefreak-director-108",
  "stem": "2007-10-03-gamefreak-director-108",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "blog",
  "body": {
   "kind": "markdown",
@@ -35,7 +35,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

@@ -1,0 +1,148 @@
+{
+ "id": "interview-canuch-gamefreak-office-architecture",
+ "stem": "2020-07-01-interview-canuch-gamefreak-office-architecture",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 51
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红／绿",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Hideki Makiguchi",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "牧口英树",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "三轩茶屋",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1,
+     50
+    ],
+    "via": "extra",
+    "what": "GAME FREAK 胡萝卜塔所在"
+   },
+   {
+    "name": "Carrot Tower",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     50
+    ],
+    "what": "总部所在建筑",
+    "via": "llm"
+   },
+   {
+    "name": "真新镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "大堂迎宾区主题",
+    "via": "llm"
+   },
+   {
+    "name": "常青森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "生机气息的参照地",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     25
+    ],
+    "what": "会议室命名来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "迁址为满足高安全性、工位扩增与跨项目横向交流",
+   "anchor": 4
+  },
+  {
+   "seg": 15,
+   "text": "访客区入内部办公区分为中庭与栖息地两区",
+   "anchor": 16
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

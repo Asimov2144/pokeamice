@@ -1,0 +1,74 @@
+{
+ "id": "gamefreak-director-237",
+ "stem": "2013-06-18-gamefreak-director-237",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 65
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "本地化工作历时约7年完成"
+  },
+  {
+   "seg": 18,
+   "text": "发售日为2013年10月12日星期六"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-233",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第233回",
+   "url": "/gamefreak-director/entry-233/",
+   "why": "同专栏前篇，介绍全球同步发售构想"
+  },
+  {
+   "id": "interview-nwr-xy-masuda-yoshida",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训",
+   "url": "//interview-nwr-xy-masuda-yoshida/",
+   "why": "确认10月12日全球同步发售"
+  },
+  {
+   "id": "interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+   "why": "详述首次全球同日发售与七国语言"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

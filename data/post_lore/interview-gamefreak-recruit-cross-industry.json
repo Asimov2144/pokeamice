@@ -1,0 +1,118 @@
+{
+ "id": "interview-gamefreak-recruit-cross-industry",
+ "stem": "2017-09-01-interview-gamefreak-recruit-cross-industry",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     20,
+     23
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "A.I.",
+    "slug": "a-i",
+    "role": "speaker",
+    "seg": [
+     2,
+     7,
+     13,
+     17,
+     23,
+     28
+    ]
+   },
+   {
+    "name": "S.A.",
+    "slug": "s-a",
+    "role": "speaker",
+    "seg": [
+     3,
+     8,
+     15,
+     19,
+     25,
+     29
+    ]
+   },
+   {
+    "name": "H.I.",
+    "slug": "h-i",
+    "role": "speaker",
+    "seg": [
+     4,
+     9,
+     14,
+     18,
+     24,
+     30
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "阿罗拉",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     23
+    ],
+    "what": "游戏中的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "A.I. 2014 年入社，此前是商业动画一线原画作画师",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "S.A. 2015 年中途入社，隶属研究开发部，任系统程序员",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-recruit-designers",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
+   "why": "同为2015中途招聘专访，A.I.均以动画作画师身份出场"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

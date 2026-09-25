@@ -1,0 +1,84 @@
+{
+ "id": "gamefreak-lineblog-2648469",
+ "stem": "2016-04-09-gamefreak-lineblog-2648469",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     38
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "提到这是1秒钟的声音"
+  },
+  {
+   "seg": 8,
+   "text": "说明X轴表示时间即音高，Y轴表示音量"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-2413352",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【日记】2016增田博客启程",
+   "url": "/gamefreak-director/lineblog-2413352/",
+   "why": "同为增田博客谈红绿音乐音效制作"
+  },
+  {
+   "id": "gamefreak-lineblog-3059194",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【创作】2016年下北泽拍摄",
+   "url": "/gamefreak-director/lineblog-3059194/",
+   "why": "红绿音乐合集采访，涉红绿音乐制作"
+  },
+  {
+   "id": "gamefreak-lineblog-4991670",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【活动】2016年宝可梦音乐与攻略采访",
+   "url": "/gamefreak-director/lineblog-4991670/",
+   "why": "采访谈红绿作曲方法，同涉音效音乐"
+  },
+  {
+   "id": "interview-pokemoncom-2014-maestro",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "增田顺一谈宝可梦音乐创作",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2014-maestro/",
+   "why": "谈NES三声道限制与音乐制作历程"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

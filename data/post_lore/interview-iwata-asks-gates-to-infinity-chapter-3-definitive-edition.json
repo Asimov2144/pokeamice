@@ -1,0 +1,152 @@
+{
+ "id": "interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+ "stem": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 37
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦不可思议迷宫 极大之门与∞迷宫",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦不可思议迷宫",
+    "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "勇者斗恶龙V 天空的新娘",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "风来的西林",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     6,
+     8,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     7,
+     18,
+     20,
+     23
+    ]
+   },
+   {
+    "name": "长畑成一郎",
+    "slug": "nagahata-seiichiro",
+    "role": "speaker",
+    "seg": [
+     9,
+     11,
+     22,
+     27,
+     29,
+     31
+    ]
+   },
+   {
+    "name": "富江慎一郎",
+    "slug": "tomie-shinichiro",
+    "role": "speaker",
+    "seg": [
+     13,
+     16
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "岩田聪问系列几乎双版本发售，这次改单版本的理由",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "石原称单版本已足够，因要素多，整合成一个版本更易理解",
+   "anchor": 3
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、AR圆环与现实连接）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/",
+   "why": "同为社长问极大之门与∞迷宫，本篇第3章接第2章"
+  },
+  {
+   "id": "interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学与土龙弟弟的执念）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers/",
+   "why": "同为社长问极大之门与∞迷宫，第4章接第3章"
+  },
+  {
+   "id": "interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第1章：不可思议的组合（石原恒和千次游玩之缘与醒来变成宝可梦的原点）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination/",
+   "why": "同为社长问极大之门与∞迷宫，第1章在前"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

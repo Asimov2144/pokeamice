@@ -1,0 +1,119 @@
+{
+ "id": "interview-rock-on-go-ichinose-sound-alchemy",
+ "stem": "2018-09-21-interview-rock-on-go-ichinose-sound-alchemy",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 10
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "田辺恵二",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     7
+    ]
+   },
+   {
+    "name": "一之瀬剛",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "丰缘",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "红宝石·蓝宝石的舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "Game Boy发声通道共4个：2矩形波、1三角波、1白噪声",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "音效响起时硬件强制霸占某一旋律通道",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
+   "why": "同为一之濑刚谈宝可梦声音制作，可补初代芯片音背景"
+  },
+  {
+   "id": "interview-gigazine-gamefreak-sketches-masuda",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案",
+   "url": "/developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/",
+   "why": "增田谈红绿汇编开发与波形、叫声音源细节"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

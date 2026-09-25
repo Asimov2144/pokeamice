@@ -1,0 +1,118 @@
+{
+ "id": "interview-gamefreak-rnd-launch-taya-mi",
+ "stem": "2015-09-01-interview-gamefreak-rnd-launch-taya-mi",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 24
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     3,
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Gear Project（齿轮企划）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 青",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "S.T.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     9,
+     13,
+     16,
+     23
+    ]
+   },
+   {
+    "name": "M.I.",
+    "slug": "m-i",
+    "role": "speaker",
+    "seg": [
+     3,
+     15,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "田谷正夫",
+    "slug": "taya-masao",
+    "role": "mentioned",
+    "seg": [
+     2,
+     8
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "S.T. 自 1996 年加入 GAME FREAK，从《宝可梦 青》起参与后续每一代正统系列作",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "M.I. 于 2010 年入社，从《宝可梦 X·Y》开始参战",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-recruit-programmer-tt-mi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tt-mi/",
+   "why": "M.I.同为程序员，2011年中途入职，负责3D渲染与开发环境"
+  },
+  {
+   "id": "interview-gamefreak-rnd-ta-taya-kk",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-ta-taya-kk/",
+   "why": "同为研究开发部田谷正夫专访，后续谈引入技术美术"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

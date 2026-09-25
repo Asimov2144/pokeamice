@@ -1,0 +1,332 @@
+{
+ "id": "interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
+ "stem": "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 71
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     3,
+     4,
+     8,
+     10,
+     12
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "卡蒂狗",
+    "ndex": 58,
+    "seg": [
+     51
+    ],
+    "as": [
+     "卡蒂狗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伦琴猫",
+    "ndex": 405,
+    "seg": [
+     51
+    ],
+    "as": [
+     "伦琴猫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "达摩狒狒",
+    "ndex": 555,
+    "seg": [
+     51
+    ],
+    "as": [
+     "达摩狒狒"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "霸道熊猫",
+    "ndex": 675,
+    "seg": [
+     51
+    ],
+    "as": [
+     "霸道熊猫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     28
+    ],
+    "as": [
+     "喵喵"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     8,
+     10,
+     13,
+     17,
+     18
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "名侦探皮卡丘",
+    "slug": "detective-pikachu",
+    "seg": [
+     0,
+     8,
+     10,
+     12,
+     23,
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "名侦探皮卡丘 归来",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "地球冒险2 基格的逆袭",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮卡丘你好吗",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦乐园",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 GO",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     15,
+     19,
+     23,
+     25,
+     27
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     20,
+     28,
+     30,
+     36
+    ]
+   },
+   {
+    "name": "阵内弘之",
+    "slug": "jinnai-hiroyuki",
+    "role": "speaker",
+    "seg": [
+     21,
+     24,
+     26,
+     31,
+     35,
+     37
+    ]
+   },
+   {
+    "name": "田尻",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小泽宗明",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "氏家淳子",
+    "slug": "shi-jia-chun-zi",
+    "role": "mentioned",
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     24,
+     26,
+     35
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   },
+   {
+    "name": "高帽咖啡馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "游戏内咖啡馆重现",
+    "via": "llm"
+   },
+   {
+    "name": "莱姆市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     53
+    ],
+    "what": "宝可梦与人类共生城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "采访在Creatures办公室内的高帽咖啡馆前进行，该空间是游戏内咖啡馆的公司内重现。",
+   "anchor": 3
+  },
+  {
+   "seg": 3,
+   "text": "为采访组冲泡咖啡的是小泽宗明，他负责过《皮卡丘你好吗》开发。",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-detective-pikachu-jinnai-miyashita",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通专访《名侦探皮卡丘》主创：热爱咖啡的大叔皮卡丘与人类宝可梦共生莱姆市",
+   "url": "/developer-interviews/official-archives/interview-famitsu-detective-pikachu-jinnai-miyashita/",
+   "why": "同为Creatures阵内弘之谈《名侦探皮卡丘》企划与大叔皮卡丘"
+  },
+  {
+   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+   "why": "同谈1996年《红·绿》发售与开发期回忆"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

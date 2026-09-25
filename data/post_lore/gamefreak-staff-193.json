@@ -1,0 +1,94 @@
+{
+ "id": "gamefreak-staff-193",
+ "stem": "2010-07-30-gamefreak-staff-193",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 107
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "プリン",
+    "ndex": 39,
+    "seg": [
+     91,
+     37
+    ],
+    "as": [
+     "プリン"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "タピオカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东京市内",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "出行目的地",
+    "via": "llm"
+   },
+   {
+    "name": "JR山手线",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     36
+    ],
+    "what": "换乘的电车线路",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "タピオカ是通过中途招聘进入GAME FREAK的程序员"
+  },
+  {
+   "seg": 36,
+   "text": "换乘JR山手线后在中途车站随意下车，买到胖丁和芝士蛋糕"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,591 @@
+{
+ "id": "interview-staff-diary",
+ "stem": "2013-07-05-interview-staff-diary",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 497
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "独角虫",
+    "ndex": 13,
+    "seg": [
+     472
+    ],
+    "as": [
+     "独角虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "派拉斯特",
+    "ndex": 47,
+    "seg": [
+     480
+    ],
+    "as": [
+     "派拉斯特"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "三地鼠",
+    "ndex": 51,
+    "seg": [
+     335
+    ],
+    "as": [
+     "三地鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     429
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "随风球",
+    "ndex": 426,
+    "seg": [
+     315
+    ],
+    "as": [
+     "随风球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     426
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "君主蛇",
+    "ndex": 497,
+    "seg": [
+     169,
+     177,
+     178,
+     180,
+     182
+    ],
+    "as": [
+     "君主蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炎武王",
+    "ndex": 500,
+    "seg": [
+     169
+    ],
+    "as": [
+     "炎武王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大剑鬼",
+    "ndex": 503,
+    "seg": [
+     169,
+     177,
+     178,
+     183
+    ],
+    "as": [
+     "大剑鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蓝蟾蜍",
+    "ndex": 536,
+    "seg": [
+     319
+    ],
+    "as": [
+     "蓝蟾蜍"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火红不倒翁",
+    "ndex": 554,
+    "seg": [
+     458,
+     463
+    ],
+    "as": [
+     "火红不倒翁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烛光灵",
+    "ndex": 607,
+    "seg": [
+     480
+    ],
+    "as": [
+     "烛光灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "酋雷姆",
+    "ndex": 646,
+    "seg": [
+     23
+    ],
+    "as": [
+     "酋雷姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凯路迪欧",
+    "ndex": 647,
+    "seg": [
+     23
+    ],
+    "as": [
+     "凯路迪欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美洛耶塔",
+    "ndex": 648,
+    "seg": [
+     24
+    ],
+    "as": [
+     "美洛耶塔"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿罗拉地鼠",
+    "ndex": 50,
+    "seg": [
+     335
+    ],
+    "as": [
+     "地鼠"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦全国图鉴Pro",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦剧场版 超级愿望「酋雷姆VS圣剑士凯路迪欧」",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "美洛耶塔的闪亮独奏会",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦卡牌游戏BW 新手套装",
+    "slug": null,
+    "seg": [
+     159
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦卡牌游戏BW“黑色收藏”",
+    "slug": null,
+    "seg": [
+     188
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦卡牌游戏BW“白色收藏”",
+    "slug": null,
+    "seg": [
+     189
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石/蓝宝石",
+    "slug": null,
+    "seg": [
+     430
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金/银",
+    "slug": null,
+    "seg": [
+     433
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "じだぬ",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     31,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "name": "ほず",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     65,
+     66,
+     67,
+     68,
+     69,
+     70
+    ]
+   },
+   {
+    "name": "卡妮子",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     104,
+     105,
+     106,
+     107,
+     108
+    ]
+   },
+   {
+    "name": "ナギー",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     154,
+     155,
+     156,
+     157,
+     158,
+     159
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     282,
+     283,
+     284,
+     285,
+     286,
+     287
+    ]
+   },
+   {
+    "name": "提问",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     301,
+     303,
+     304,
+     305,
+     359,
+     360
+    ]
+   },
+   {
+    "name": "ユーリー",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     302,
+     306,
+     307,
+     308
+    ]
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "speaker",
+    "seg": [
+     357,
+     358,
+     361,
+     362,
+     363
+    ]
+   },
+   {
+    "name": "松岛贤二",
+    "slug": "matsushima-kenji",
+    "role": "speaker",
+    "seg": [
+     429,
+     430,
+     431,
+     432,
+     433,
+     437
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "海野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "KAGE",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "めめた",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     124
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "つるの剛士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     160
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "榎木",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     174
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "胜男",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     174
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Nyororika",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     195
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Nakatsui",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     204
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Kabi",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     217
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吉田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     243
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     366
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心东京",
+    "id": null,
+    "entity": "pokemon_center_tokyo",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "名古屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     60
+    ],
+    "what": "PRESS START演出地",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     275
+    ],
+    "what": "黑白的游戏地区",
+    "via": "llm"
+   },
+   {
+    "name": "吹寄市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     362
+    ],
+    "what": "风露任馆主的城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "《宝可梦 黑2·白2》于2012年6月23日星期六发售",
+   "anchor": 5
+  },
+  {
+   "seg": 91,
+   "text": "公司内部对战大会冠军是对战班班长森本",
+   "anchor": 92
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

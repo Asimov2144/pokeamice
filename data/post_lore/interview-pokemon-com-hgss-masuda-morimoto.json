@@ -1,0 +1,268 @@
+{
+ "id": "interview-pokemon-com-hgss-masuda-morimoto",
+ "stem": "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喇叭芽",
+    "ndex": 69,
+    "seg": [
+     25
+    ],
+    "as": [
+     "喇叭芽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     32
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金／银",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 魂银",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     5,
+     17,
+     36
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     7,
+     21,
+     23,
+     29,
+     35
+    ]
+   },
+   {
+    "name": "松岛贤二",
+    "slug": "matsushima-kenji",
+    "role": "speaker",
+    "seg": [
+     9,
+     24,
+     30,
+     37
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     11,
+     19,
+     26,
+     31,
+     38
+    ]
+   },
+   {
+    "name": "森彰人",
+    "slug": "sen-zhang-ren",
+    "role": "speaker",
+    "seg": [
+     13,
+     25,
+     33,
+     39
+    ]
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "speaker",
+    "seg": [
+     15,
+     27,
+     32,
+     40
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "喇叭芽之塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "柱子摇晃声所在处",
+    "via": "llm"
+   },
+   {
+    "name": "宝可全能竞技穹顶",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     26
+    ],
+    "what": "新设施",
+    "via": "llm"
+   },
+   {
+    "name": "铃铛塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "铃铛小道通往处",
+    "via": "llm"
+   },
+   {
+    "name": "铃铛小道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     27
+    ],
+    "what": "落叶纷飞的地点",
+    "via": "llm"
+   },
+   {
+    "name": "愤怒之湖",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     32
+    ],
+    "what": "提议办钓鱼比赛处",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦联盟",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     33
+    ],
+    "what": "50级对战处",
+    "via": "llm"
+   },
+   {
+    "name": "缘朱市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     23
+    ],
+    "what": "最先打造的城镇",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 21,
+   "text": "森本茂树说开发花了将近三年，约二十人参与",
+   "anchor": 22
+  },
+  {
+   "seg": 23,
+   "text": "森本茂树说缘朱市是制作时最先打造的城镇",
+   "anchor": 24
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gameinformer-masuda-morimoto-hgss",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-morimoto-hgss/",
+   "why": "同为2010年3月心金魂银发售期六主创访谈"
+  },
+  {
+   "id": "scan-ndream-2009-11-hgss-developer-interview",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "心金·魂银开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+   "why": "同组主创谈金银重制经过与计步器"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

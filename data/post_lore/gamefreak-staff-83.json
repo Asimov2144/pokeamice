@@ -1,0 +1,101 @@
+{
+ "id": "gamefreak-staff-83",
+ "stem": "2008-08-07-gamefreak-staff-83",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 59
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "晓寺",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "三岛由纪夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ]
+   },
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "泰国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "旅行目的地",
+    "via": "llm"
+   },
+   {
+    "name": "大城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "曾繁荣的王朝故地",
+    "via": "llm"
+   },
+   {
+    "name": "瓦特·阿伦拉差瓦拉兰",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "what": "《晓寺》的舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "上周请了带薪假，去泰国玩三晚四天。"
+  },
+  {
+   "seg": 4,
+   "text": "从日本坐飞机到泰国大约要6个小时。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

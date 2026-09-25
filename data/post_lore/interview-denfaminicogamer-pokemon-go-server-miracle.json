@@ -1,0 +1,467 @@
+{
+ "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
+ "stem": "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 223
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "比比鸟",
+    "ndex": 17,
+    "seg": [
+     28
+    ],
+    "as": [
+     "比比鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     119,
+     177,
+     196,
+     197
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蝌蚪",
+    "ndex": 60,
+    "seg": [
+     127
+    ],
+    "as": [
+     "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小磁怪",
+    "ndex": 81,
+    "seg": [
+     14,
+     15
+    ],
+    "as": [
+     "小磁怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "クラブ",
+    "ndex": 98,
+    "seg": [
+     43
+    ],
+    "as": [
+     "クラブ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波波",
+    "ndex": 16,
+    "seg": [
+     14
+    ],
+    "as": [
+     "波波"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     48
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     84,
+     98,
+     99,
+     106,
+     132,
+     133
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Ingress",
+    "slug": null,
+    "seg": [
+     95,
+     126,
+     141,
+     184,
+     203,
+     206
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红·绿",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "MOTHER",
+    "slug": null,
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "奥特赛文",
+    "slug": null,
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "转转瓦力欧制造",
+    "slug": null,
+    "seg": [
+     108
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦弹珠台",
+    "slug": null,
+    "seg": [
+     108
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "乌戈乌戈鲁加",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Let's Go皮卡丘",
+    "slug": null,
+    "seg": [
+     197
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦Let's Go伊布",
+    "slug": null,
+    "seg": [
+     197
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "name": "电玩志",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     12,
+     18,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     27
+    ]
+   },
+   {
+    "name": "川岛优志",
+    "slug": "kawashima-masashi",
+    "role": "speaker",
+    "seg": [
+     19,
+     20,
+     21,
+     31,
+     32,
+     34
+    ]
+   },
+   {
+    "name": "约翰·汉克",
+    "slug": "john-hanke",
+    "role": "mentioned",
+    "seg": [
+     202,
+     203,
+     207
+    ]
+   },
+   {
+    "name": "野村达雄",
+    "slug": "nomura-tatsuo",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     127
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水口哲也",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森川幸人",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "浅田彰",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     69
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     213
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "尾上将之",
+    "slug": "wei-shang-jiang-zhi",
+    "role": "mentioned",
+    "seg": [
+     213
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "稻叶帆立",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     216
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "齐藤大地",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     220
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "真新镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "旅程出发地",
+    "via": "llm"
+   },
+   {
+    "name": "红莲岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     9
+    ],
+    "what": "房总半岛附近岛屿",
+    "via": "llm"
+   },
+   {
+    "name": "关都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "最初冒险地区",
+    "via": "llm"
+   },
+   {
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "意象被继承的地区",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "意象被继承的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "石原称在《宝可梦 GO》上第一次打破不让GAME FREAK参与派生作的规矩",
+   "anchor": 7
+  },
+  {
+   "seg": 32,
+   "text": "川岛称《红·绿》每一份的数据容量是512千字节",
+   "anchor": 33
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-denfaminicogamer-pokemon-go-miracle",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
+   "why": "同为2018-06-08电玩志三巨头对谈，本篇为其后篇"
+  },
+  {
+   "id": "interview-gnn-pokemon-go-tokyo-roundtable",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6go/%E7%AD%96%E5%88%92%E4%B8%8E%E8%BF%90%E8%90%A5/interview-gnn-pokemon-go-tokyo-roundtable/",
+   "why": "同为《Pokémon GO》日方主创谈开发经过与上线热潮"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

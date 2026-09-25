@@ -1,0 +1,128 @@
+{
+ "id": "interview-cgworld-2026-cedec-pkmnza",
+ "stem": "2026-09-17-interview-cgworld-2026-cedec-pkmnza",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 52
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Alfredo Spadafina",
+    "slug": "alfredo-spadafina",
+    "role": "mentioned",
+    "seg": [
+     5,
+     6
+    ]
+   },
+   {
+    "name": "前泽圭一",
+    "slug": "maezawa-keiichi",
+    "role": "mentioned",
+    "seg": [
+     5,
+     45
+    ]
+   },
+   {
+    "name": "赤木达也",
+    "slug": "chi-mu-da-ye-2",
+    "role": "mentioned",
+    "seg": [
+     5,
+     31
+    ]
+   },
+   {
+    "name": "葛西祝",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "游戏舞台城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "《Z-A》以《宝可梦 X·Y》的密阿雷市为舞台，整个游戏都在其中完结",
+   "anchor": 3
+  },
+  {
+   "seg": 5,
+   "text": "演讲由前泽圭一、Alfredo Spadafina、赤木达也三人登台",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cedec-2026-za-lumiose-rendering-deck",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《Z-A》密阿雷市渲染技术",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-za-lumiose-rendering-deck/",
+   "why": "同为CEDEC 2026《Z-A》密阿雷市渲染讲演，讲者相同"
+  },
+  {
+   "id": "interview-denfami-2026-cedec-pokerig",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "密阿雷市的渲染技术",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-pokerig/",
+   "why": "同为CEDEC 2026该讲演的报道，讲者与内容对应"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

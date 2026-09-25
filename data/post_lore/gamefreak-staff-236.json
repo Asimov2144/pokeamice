@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-236",
+ "stem": "2011-10-21-gamefreak-staff-236",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 79
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "あきら",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0,
+     39
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "女儿今年开始上幼儿园，3岁"
+  },
+  {
+   "seg": 27,
+   "text": "刚入行时做什么都慢，自称派不上用场的新手企划"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

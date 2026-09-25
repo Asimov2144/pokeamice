@@ -1,0 +1,236 @@
+{
+ "id": "interview-pokemoncom-2018-letsgo-makers",
+ "stem": "2018-11-01-interview-pokemoncom-2018-letsgo-makers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 56
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     54
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     8,
+     19,
+     22,
+     23,
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多兰",
+    "ndex": 29,
+    "seg": [
+     16
+    ],
+    "as": [
+     "尼多兰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     19
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     30,
+     31
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Let's Go！伊布",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     5,
+     7,
+     8,
+     12,
+     15
+    ]
+   },
+   {
+    "name": "菜花健作",
+    "slug": "nabana-kensaku",
+    "role": "speaker",
+    "seg": [
+     26,
+     27,
+     28,
+     51,
+     52,
+     53
+    ]
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "mentioned",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     22
+    ],
+    "what": "游戏冒险的舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "增田称项目起点是解决如何让人们走进房间玩游戏的问题",
+   "anchor": 5
+  },
+  {
+   "seg": 16,
+   "text": "一位程序员制作尼多兰移动时参考了兔子走动的视频",
+   "anchor": 17
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
+   "why": "同期Eurogamer专访增田与菜花，谈同一作"
+  },
+  {
+   "id": "interview-eurogamer-masuda-nabana-lets-go",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学",
+   "url": "/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/",
+   "why": "同期Eurogamer专访增田与菜花，谈同一作"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

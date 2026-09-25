@@ -2,7 +2,7 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
  "stem": "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
  "rev": 1,
- "built": "2026-09-23",
+ "built": "2026-09-25",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -363,6 +363,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "spot",
     "seg": [
      112
     ],
@@ -375,6 +376,7 @@
     "entity": null,
     "category": null,
     "world": "real",
+    "scale": "area",
     "seg": [
      104
     ],
@@ -397,28 +399,43 @@
  ],
  "relations": [
   {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "why": "同系列手记，第185回紧接第205回前谈洛奇亚爆诞"
+   "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
+   "why": "同系列手记，204回紧接205回前一篇"
   },
   {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "why": "同系列谈野生与驯化奴役悖论，为洛奇亚伦理铺垫"
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+   "why": "同系列手记，206回紧接205回后一篇"
   },
   {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch184",
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch198",
    "kind": "background",
    "label": "为这篇提供背景",
-   "why": "同系列披露宝可梦被奴役角斗士的最终回构想"
+   "title": "首藤刚志动画创作手记 第198回：想让火箭队出尽风头是好事，但是……（消灭自我的伪善共存、全员皆主角的群像剧革命与配角人设深渊）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch198/",
+   "why": "198回谈火箭队出风头，为205回三人组自白铺垫"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+   "why": "194回谈洛奇亚爆诞主题，为205回决战背景"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

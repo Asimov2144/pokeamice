@@ -1,0 +1,104 @@
+{
+ "id": "gamefreak-director-208",
+ "stem": "2011-09-03-gamefreak-director-208",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 37
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 Smash",
+    "slug": null,
+    "seg": [
+     2,
+     11
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "你能说出宝可梦吗？BW",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "六本木新城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1,
+     3,
+     20,
+     22,
+     29
+    ],
+    "via": "extra",
+    "what": "宝可梦公司总部所在"
+   },
+   {
+    "name": "六本木新城竞技场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     1
+    ],
+    "what": "活动举办地",
+    "via": "llm"
+   },
+   {
+    "name": "圣迭戈",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     11
+    ],
+    "what": "WCS举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "9月3日、4日在六本木新城竞技场举办"
+  },
+  {
+   "seg": 4,
+   "text": "MTM将于4日16点在会场登场"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

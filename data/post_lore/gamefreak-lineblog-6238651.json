@@ -1,0 +1,165 @@
+{
+ "id": "gamefreak-lineblog-6238651",
+ "stem": "2016-08-21-gamefreak-lineblog-6238651",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     48
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     26
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水晶灯火灵",
+    "ndex": 609,
+    "seg": [
+     39
+    ],
+    "as": [
+     "水晶灯火灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "快龙",
+    "ndex": 149,
+    "seg": [
+     14
+    ],
+    "as": [
+     "快龙"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "怪力",
+    "ndex": 68,
+    "seg": [
+     39
+    ],
+    "as": [
+     "怪力"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可拳",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "Potetin",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Woomy!Gun",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     48
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "唐人街",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "吃午饭的地方",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦中心WCS临时店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     23
+    ],
+    "what": "会场临时商店",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "唐人街所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "旧金山唐人街据说是全美最大的，增田顺一去那里吃午饭"
+  },
+  {
+   "seg": 14,
+   "text": "抓到的快龙昵称改成了快龙SF"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

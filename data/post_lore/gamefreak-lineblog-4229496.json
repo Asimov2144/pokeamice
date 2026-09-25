@@ -1,0 +1,129 @@
+{
+ "id": "gamefreak-lineblog-4229496",
+ "stem": "2016-06-16-gamefreak-lineblog-4229496",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "吉利蛋",
+    "ndex": 113,
+    "seg": [
+     42
+    ],
+    "as": [
+     "吉利蛋"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳・月亮",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "游戏店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "逛的店",
+    "via": "llm"
+   },
+   {
+    "name": "GameStop",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     47
+    ],
+    "what": "游戏店",
+    "via": "llm"
+   },
+   {
+    "name": "好莱坞标志",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     39
+    ],
+    "what": "看到的景观",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "这次没时间观光"
+  },
+  {
+   "seg": 13,
+   "text": "宝可梦 太阳・月亮 已经开始接受预订"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-lineblog-3891134",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "【活动】2016年洛杉矶宝可梦E3",
+   "url": "/gamefreak-director/lineblog-3891134/",
+   "why": "同在洛杉矶E3期间，太阳月亮情报"
+  },
+  {
+   "id": "gamefreak-lineblog-7558415",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【活动】2016伦敦宝可梦媒体之旅",
+   "url": "/gamefreak-director/lineblog-7558415/",
+   "why": "同为太阳月亮媒体巡回行程记录"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

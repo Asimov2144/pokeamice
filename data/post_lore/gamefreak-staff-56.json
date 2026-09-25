@@ -1,0 +1,270 @@
+{
+ "id": "gamefreak-staff-56",
+ "stem": "2008-02-07-gamefreak-staff-56",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 122
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "カイリキー",
+    "ndex": 68,
+    "seg": [
+     101,
+     40
+    ],
+    "as": [
+     "カイリキー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ゲンガー",
+    "ndex": 94,
+    "seg": [
+     95,
+     97,
+     98,
+     99,
+     101,
+     34
+    ],
+    "as": [
+     "ゲンガー"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     41,
+     53,
+     102,
+     114
+    ],
+    "as": [
+     "暴鲤龙",
+     "ギャラドス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "幸福蛋",
+    "ndex": 242,
+    "seg": [
+     58,
+     119
+    ],
+    "as": [
+     "幸福蛋",
+     "ハピナス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "斗笠菇",
+    "ndex": 286,
+    "seg": [
+     56,
+     117
+    ],
+    "as": [
+     "斗笠菇",
+     "キノガッサ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     59,
+     120
+    ],
+    "as": [
+     "巨金怪",
+     "メタグロス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈焰猴",
+    "ndex": 392,
+    "seg": [
+     54,
+     115
+    ],
+    "as": [
+     "烈焰猴",
+     "ゴウカザル"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "双尾怪手",
+    "ndex": 424,
+    "seg": [
+     34,
+     35,
+     39,
+     95,
+     96,
+     100
+    ],
+    "as": [
+     "双尾怪手",
+     "エテボース"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈咬陆鲨",
+    "ndex": 445,
+    "seg": [
+     55,
+     116
+    ],
+    "as": [
+     "烈咬陆鲨",
+     "ガブリアス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波克基斯",
+    "ndex": 468,
+    "seg": [
+     42,
+     57,
+     103,
+     118
+    ],
+    "as": [
+     "波克基斯",
+     "トゲキッス"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦对战革命",
+    "slug": "battle-revolution",
+    "seg": [
+     8,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 珍珠",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "纳吉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     20
+    ]
+   },
+   {
+    "name": "カビ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     28,
+     29,
+     32,
+     33,
+     34,
+     42
+    ]
+   },
+   {
+    "name": "おせんべい",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     85
+    ]
+   },
+   {
+    "name": "マー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24,
+     85
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "三轩茶屋",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2,
+     63
+    ],
+    "via": "extra",
+    "what": "GAME FREAK 胡萝卜塔所在"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "参加宝可梦大会的选手总共有12名。"
+  },
+  {
+   "seg": 11,
+   "text": "每天大约进行3场比赛，整个大会持续了3天。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

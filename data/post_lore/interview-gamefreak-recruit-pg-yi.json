@@ -1,0 +1,108 @@
+{
+ "id": "interview-gamefreak-recruit-pg-yi",
+ "stem": "2019-04-01-interview-gamefreak-recruit-pg-yi",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     8,
+     9
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 走吧！皮卡丘／走吧！伊布",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "Y.I.",
+    "slug": "y-i",
+    "role": "speaker",
+    "seg": [
+     2,
+     6,
+     9,
+     12
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "Y.I. 在高端主机游戏公司工作2年，又在中间件公司4年",
+   "anchor": 7
+  },
+  {
+   "seg": 9,
+   "text": "Y.I. 入社1年半升团队主管，第3年任程序员部门总监",
+   "anchor": 10
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-gamefreak-rnd-ta-taya-kk",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-ta-taya-kk/",
+   "why": "同为GAME FREAK官方技术专访，讲研发部与TA体制"
+  },
+  {
+   "id": "interview-gamefreak-recruit-cross-industry",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/",
+   "why": "同为GAME FREAK官方中途招聘专访，讲异业转职"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

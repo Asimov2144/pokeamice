@@ -1,0 +1,247 @@
+{
+ "id": "scan-ndream-2008-12-masuda-rainbow-bridge",
+ "stem": "2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 86
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     28
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "昆迪",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "アルキメDS",
+    "slug": null,
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "長官",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     7,
+     9,
+     11,
+     13
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "金谷",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     84
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "彩虹大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "增田喜欢的桥",
+    "via": "llm"
+   },
+   {
+    "name": "台场的海滨公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "迷上桥的契机地",
+    "via": "llm"
+   },
+   {
+    "name": "布鲁克林大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "设计很美的桥",
+    "via": "llm"
+   },
+   {
+    "name": "濑户大桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     23
+    ],
+    "what": "NHK节目中的桥",
+    "via": "llm"
+   },
+   {
+    "name": "神奈川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "增田顺一出生地",
+    "via": "llm"
+   },
+   {
+    "name": "宫益坂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     80
+    ],
+    "what": "拐进小路看天",
+    "via": "llm"
+   },
+   {
+    "name": "台场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     6
+    ],
+    "what": "看彩虹大桥之处",
+    "via": "llm"
+   },
+   {
+    "name": "纽约",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "看到布鲁克林大桥",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     53
+    ],
+    "what": "增田的老家",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "長官说从早上数到现在约1万1000步，走了1.5公里"
+  },
+  {
+   "seg": 6,
+   "text": "增田顺一在《宝可梦 钻石·珍珠》开发结束时从台场海滨公园看到彩虹大桥而迷上"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2008-10-platinum-special",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦 白金 直前特报",
+   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-10-platinum-special/",
+   "why": "同为2008年《白金》发售前报道，提供游戏背景"
+  },
+  {
+   "id": "interview-nintendo-power-masuda-gens-1-4",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+   "why": "同为增田谈《白金》开发的访谈，提供背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

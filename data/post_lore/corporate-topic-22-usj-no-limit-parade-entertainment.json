@@ -1,0 +1,142 @@
+{
+ "id": "corporate-topic-22-usj-no-limit-parade-entertainment",
+ "stem": "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     11,
+     13
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     20
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     10,
+     21
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "彩粉蝶",
+    "ndex": 666,
+    "seg": [
+     16,
+     17,
+     18
+    ],
+    "as": [
+     "彩粉蝶",
+     "Vivillon"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "NO LIMIT! パレード",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "NO LIMIT! サマー・スプラッシュ・パレード",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "ユニバーサル・スタジオ・ジャパン（USJ）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "日本环球影城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "主题乐园",
+    "via": "llm"
+   },
+   {
+    "name": "加利福尼亚",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     17
+    ],
+    "what": "彩粉蝶花纹来源",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "2023年USJ与宝可梦结为战略同盟，展开全新企划",
+   "anchor": 3
+  },
+  {
+   "seg": 10,
+   "text": "暴鲤龙需3位动作演员协作操作，演绎数米巨兽动态",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -109,18 +109,33 @@ def main() -> int:
     check(len(article.select("[data-tip]")) >= 6, f"tips: the reader carries {len(article.select('[data-tip]'))} hints")
 
     # ---- 本篇提到 --------------------------------------------------------
-    lore_pages = [p for p in (pages["interview"], pages["scan"], pages["blog"]) if p]
-    with_lore = [read(p) for p in lore_pages]
-    with_lore = [d for d in with_lore if d and d.select_one("section.lore")]
-    check(with_lore, f"lore: the column is on {len(with_lore)} of the sample articles")
-    for page, path in zip(with_lore, lore_pages):
-        sec = page.select_one("section.lore")
-        bad_anchor = [a.get_text(strip=True) for a in sec.select(".lore__seg")
-                      if not page.select_one("#segment-" + a.get_text(strip=True).lstrip("§"))]
-        dead = [a["href"] for a in sec.select("a[href^='/']") if not exists(site, a["href"])]
-        rows = [r.select_one("dt").get_text(" ", strip=True).split()[0] for r in sec.select(".lore__row")]
-        check(not bad_anchor and not dead and rows,
-              f"lore: {os.path.basename(os.path.dirname(path))} rows {rows}, bad anchors {bad_anchor}, dead {dead}")
+    #  这一栏铺在上千页上，抽查三篇看不出问题：整站扫一遍，看关系连的页面在不在、
+    #  观察指的那一段在不在（小标题的 id 是 section-N，图片没有 id，钉错了就是个跳不到的锚点）
+    lore_pages = 0
+    dead_links: list = []
+    bad_anchors: list = []
+    facet_rows = 0
+    lore_re = re.compile(r'<section class="lore".*?</section>', re.S)
+    href_re = re.compile(r'href="(/[^"#?]*)"')
+    anchor_re = re.compile(r'href="#segment-(\d+)"')
+    for path in site.glob("**/index.html"):
+        text = io.open(path, encoding="utf-8", errors="replace").read()
+        found = lore_re.search(text)
+        if not found:
+            continue
+        lore_pages += 1
+        column = found.group(0)
+        facet_rows += column.count('class="lore__row"')
+        here = os.path.basename(os.path.dirname(path))
+        for href in href_re.findall(column):
+            if not exists(site, href):
+                dead_links.append(here + " -> " + urllib.parse.unquote(href))
+        for n in anchor_re.findall(column):
+            if f'id="segment-{n}"' not in text:
+                bad_anchors.append(f"{here} §{n}")
+    check(lore_pages > 0, f"lore: the column is on {lore_pages} pages, {facet_rows} facet rows")
+    check(not dead_links, f"lore: {len(dead_links)} links point at a page that was not built {dead_links[:3]}")
+    check(not bad_anchors, f"lore: {len(bad_anchors)} observations point at a paragraph the page does not have {bad_anchors[:3]}")
 
     css = io.open(next(iter(site.glob("assets/css/main.css"))), encoding="utf-8", errors="replace").read()
     check(".crumbs__list" in css and ".tip__card" in css and ".lore__facets" in css,

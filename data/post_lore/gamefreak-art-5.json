@@ -1,0 +1,158 @@
+{
+ "id": "gamefreak-art-5",
+ "stem": "2007-08-01-gamefreak-art-5",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 58
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "基拉祈",
+    "ndex": 385,
+    "seg": [
+     10,
+     42
+    ],
+    "as": [
+     "基拉祈",
+     "ジラーチ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "土台龟",
+    "ndex": 389,
+    "seg": [
+     30,
+     57
+    ],
+    "as": [
+     "土台龟",
+     "ドダイトス"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     1,
+     33
+    ],
+    "as": [
+     "帝牙卢卡",
+     "ディアルガ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     1,
+     33
+    ],
+    "as": [
+     "帕路奇亚",
+     "パルキア"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "达克莱伊",
+    "ndex": 491,
+    "seg": [
+     1,
+     33
+    ],
+    "as": [
+     "达克莱伊",
+     "ダークライ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "剧场版宝可梦 钻石·珍珠",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "帝牙卢卡VS帕路奇亚VS达克莱伊",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "基拉祈",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     7,
+     39
+    ]
+   },
+   {
+    "name": "Shokotan",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "神奥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "年轻人流行围巾",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 9,
+   "text": "杉森建把阿尔贝特男爵设计得可疑兮兮，设想他自称男爵"
+  },
+  {
+   "seg": 13,
+   "text": "爱丽丝发色原设想漂白双色，正篇改成全金发"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

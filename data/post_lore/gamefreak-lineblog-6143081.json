@@ -1,0 +1,81 @@
+{
+ "id": "gamefreak-lineblog-6143081",
+ "stem": "2016-08-19-gamefreak-lineblog-6143081",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 2
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "野村君",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "Niantic公司所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一在旧金山的Niantic公司"
+  },
+  {
+   "seg": 1,
+   "text": "Niantic的野村君曾在E3上登场"
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nikkei-utsunomiya-pokemon-go",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+   "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
+   "why": "交代Niantic从谷歌独立及日美合作经过"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

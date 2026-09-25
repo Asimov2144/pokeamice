@@ -1,0 +1,1 @@
+{"key": "7b58ef5d82c008dc", "answer": {"observations": [{"seg": 10, "text": "雷达雨量计系统能捕捉正在落下的雨滴"}, {"seg": 13, "text": "这项服务由东京都下水道局运营"}, {"seg": 5, "text": "天气应用里也能查到"}], "pokemon": [], "places": [{"name": "东京都下水道局", "seg": 13, "what": "运营该服务的机构", "world": "real"}], "works": [], "people": [{"name": "増田順一", "seg": 0}]}}

@@ -1,0 +1,171 @@
+{
+ "id": "gamefreak-staff-35",
+ "stem": "2007-10-02-gamefreak-staff-35",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 40
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ピッピ",
+    "ndex": 35,
+    "seg": [
+     35,
+     15
+    ],
+    "as": [
+     "ピッピ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     4,
+     24
+    ],
+    "as": [
+     "鲤鱼王",
+     "コイキング"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ミュウ",
+    "ndex": 151,
+    "seg": [
+     36,
+     16
+    ],
+    "as": [
+     "ミュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ゴクリン",
+    "ndex": 316,
+    "seg": [
+     6,
+     26,
+     28,
+     29,
+     31,
+     32,
+     8,
+     9,
+     11,
+     12,
+     13,
+     18,
+     7
+    ],
+    "as": [
+     "ゴクリン",
+     "溶食兽"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "拉彭",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ]
+   },
+   {
+    "name": "蟹子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   },
+   {
+    "name": "N先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
+    ]
+   },
+   {
+    "name": "M先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     16
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "员工买伴手礼处",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "便利店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "同事买溶食兽处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "名片上的宝可梦基本从红绿登场的151只里选"
+  },
+  {
+   "seg": 4,
+   "text": "拉彭名片上画的是红绿里最喜欢的鲤鱼王"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

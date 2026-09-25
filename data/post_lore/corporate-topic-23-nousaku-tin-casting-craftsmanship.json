@@ -1,0 +1,161 @@
+{
+ "id": "corporate-topic-23-nousaku-tin-casting-craftsmanship",
+ "stem": "2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 35
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     26
+    ],
+    "as": [
+     "喷火龙",
+     "リザードン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     20
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "穿山鼠",
+    "ndex": 27,
+    "seg": [
+     26
+    ],
+    "as": [
+     "穿山鼠",
+     "サンド"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     9,
+     10,
+     11,
+     12,
+     25
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "风铃铃",
+    "ndex": 358,
+    "seg": [
+     25
+    ],
+    "as": [
+     "风铃铃",
+     "チリーン"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "能作ポケモンコレクション",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "生型鋳造法",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "生型（Namagata）铸造法",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社能作",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "株式会社宝可梦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "富山县高冈市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "能作总部所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "能作以100%极纯锡为原料，不加铅或锑",
+   "anchor": 4
+  },
+  {
+   "seg": 10,
+   "text": "公司内部征集企划案，数天内涌现近120个提案",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

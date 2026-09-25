@@ -1,0 +1,110 @@
+{
+ "id": "interview-nintendo-power-241-platinum-masuda-kawachimaru",
+ "stem": "2009-05-01-interview-nintendo-power-241-platinum-masuda-kawachimaru",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 6
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛托姆",
+    "ndex": 479,
+    "seg": [
+     3,
+     4,
+     5
+    ],
+    "as": [
+     "洛托姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     2
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "钻石·珍珠",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "増田順一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "河内丸武史",
+    "slug": "kawachimaru-takeshi",
+    "role": "mentioned",
+    "seg": [
+     2,
+     5
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "河内丸武史说《钻石·珍珠》探讨时间与空间两大母题",
+   "anchor": 3
+  },
+  {
+   "seg": 5,
+   "text": "洛托姆钻进冰箱获得冰属性，钻进洗衣机释放高压水炮",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendo-power-masuda-gens-1-4",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+   "why": "同为Nintendo Power《白金》专访，受访者相同"
+  },
+  {
+   "id": "gamefreak-director-135",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第135回",
+   "url": "/gamefreak-director/entry-135/",
+   "why": "增田提到接受NINTENDO POWER采访，即本篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

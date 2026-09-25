@@ -1,0 +1,293 @@
+{
+ "id": "interview-dengeki-xy-masuda-kageyama-setting-art",
+ "stem": "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 79
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "哲尔尼亚斯",
+    "ndex": 716,
+    "seg": [
+     58,
+     59,
+     60,
+     61,
+     62,
+     63
+    ],
+    "as": [
+     "哲尔尼亚斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊裴尔塔尔",
+    "ndex": 717,
+    "seg": [
+     58,
+     59,
+     60,
+     61,
+     62,
+     63
+    ],
+    "as": [
+     "伊裴尔塔尔"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     0,
+     11,
+     21
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y 官方指南书 完全故事攻略指南",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "任天堂3DS 宝可梦 X·Y 超级音乐收藏",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "电击Online",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     32,
+     35,
+     38,
+     41,
+     44
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     33,
+     37,
+     40,
+     42
+    ]
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "speaker",
+    "seg": [
+     34,
+     36,
+     39,
+     45
+    ]
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "布拉塔诺博士",
+    "slug": "bu-la-ta-nuo-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "弗拉达利",
+    "slug": "fu-la-da-li",
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心横滨",
+    "id": null,
+    "entity": "pokemon_center_yokohama",
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "via": "gazetteer"
+   },
+   {
+    "name": "卡洛斯发电厂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "增田停留处",
+    "via": "llm"
+   },
+   {
+    "name": "神奈川县横滨市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "活动所在城市",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "映雪市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     47
+    ],
+    "what": "游戏城镇",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     47
+    ],
+    "what": "游戏城镇",
+    "via": "llm"
+   },
+   {
+    "name": "香薰市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     47
+    ],
+    "what": "游戏城镇",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "发售3周内通过GTS交换的宝可梦达1千万只",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "自金·银追加恶、钢属性以来一直保持17种属性",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录",
+   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/",
+   "why": "同为2013-11-16横滨宝可梦中心增田、景山对谈报道"
+  },
+  {
+   "id": "interview-famitsu-xy-music-fanmeeting-masuda-kageyama",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/",
+   "why": "同为2013-11-16横滨宝可梦中心增田、景山访谈"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

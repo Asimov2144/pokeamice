@@ -1,0 +1,143 @@
+{
+ "id": "gamefreak-staff-203",
+ "stem": "2010-10-15-gamefreak-staff-203",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 159
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     47
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白 原声音乐光盘",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "mentioned",
+    "seg": [
+     2,
+     6,
+     75,
+     81,
+     85,
+     157
+    ]
+   },
+   {
+    "name": "松宫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "にょろリカ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     46
+    ],
+    "what": "播放熟悉曲子的设施",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "唐草镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "有钢琴鼓手建筑",
+    "via": "llm"
+   },
+   {
+    "name": "合众地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     32
+    ],
+    "what": "游戏舞台",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "唐草镇有住着钢琴演奏者和鼓手的建筑"
+  },
+  {
+   "seg": 66,
+   "text": "原声音乐光盘10月20日发售"
+  }
+ ],
+ "relations": [
+  {
+   "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦 黑·白 乐曲魂特别篇",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/",
+   "why": "同为景山将太谈黑白的音乐与互动声音"
+  },
+  {
+   "id": "gamefreak-staff-202",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【工作日志】2010年宝可梦剧本幕后",
+   "url": "/gamefreak-staff/entry-202/",
+   "why": "同系列工作日志，前一篇讲剧本"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

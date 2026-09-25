@@ -1,0 +1,125 @@
+{
+ "id": "gamefreak-director-161",
+ "stem": "2010-05-29-gamefreak-director-161",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     6,
+     25
+    ],
+    "as": [
+     "莱希拉姆",
+     "Reshiram"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     6,
+     25
+    ],
+    "as": [
+     "捷克罗姆",
+     "Zekrom"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "读卖新闻",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "日本时间凌晨1点整公布"
+  },
+  {
+   "seg": 4,
+   "text": "预定2010年9月在日本发售"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-160",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第160回",
+   "url": "/gamefreak-director/entry-160/",
+   "why": "同为增田部长专栏，第160回在前一篇"
+  },
+  {
+   "id": "gamefreak-director-162",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第162回",
+   "url": "/gamefreak-director/entry-162/",
+   "why": "同为增田部长专栏，第162回接第161回"
+  },
+  {
+   "id": "gamefreak-director-163",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "第163回",
+   "url": "/gamefreak-director/entry-163/",
+   "why": "后续专栏公布黑白具体发售日9月18日"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

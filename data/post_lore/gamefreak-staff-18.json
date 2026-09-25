@@ -1,0 +1,88 @@
+{
+ "id": "gamefreak-staff-18",
+ "stem": "2007-08-30-gamefreak-staff-18",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 72
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦卡牌游戏",
+    "slug": null,
+    "seg": [
+     5,
+     7,
+     9
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     18,
+     55
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "mentioned",
+    "seg": [
+     18,
+     55
+    ]
+   },
+   {
+    "name": "よっしー",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "夏威夷岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "赛事举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "世界冠军赛2007于8月11～12日举办"
+  },
+  {
+   "seg": 12,
+   "text": "来自世界30多个国家的顶尖玩家齐聚一堂"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

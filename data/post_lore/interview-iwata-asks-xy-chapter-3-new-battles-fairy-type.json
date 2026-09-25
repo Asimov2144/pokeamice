@@ -1,0 +1,135 @@
+{
+ "id": "interview-iwata-asks-xy-chapter-3-new-battles-fairy-type",
+ "stem": "2013-10-10-interview-iwata-asks-xy-chapter-3-new-battles-fairy-type",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 21
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "鬼斯通",
+    "ndex": 93,
+    "seg": [
+     17
+    ],
+    "as": [
+     "鬼斯通"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "胖丁",
+    "ndex": 39,
+    "seg": [
+     7
+    ],
+    "as": [
+     "胖丁"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     4,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     10,
+     12,
+     14
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     15,
+     17,
+     19
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "增田顺一说加入新属性后得以从头审视整体平衡",
+   "anchor": 3
+  },
+  {
+   "seg": 5,
+   "text": "石原恒和说卡牌游戏中龙属性非常强大，欢迎能抗衡的势力登场",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+   "why": "同为社长问X·Y，第1章在前"
+  },
+  {
+   "id": "interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
+   "why": "同为社长问X·Y，第2章在前"
+  },
+  {
+   "id": "interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/",
+   "why": "同为社长问X·Y，第4章在后"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,235 @@
+{
+ "id": "interview-takeshi-shudo-pokemon-memoir-ch223",
+ "stem": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 107
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "ポッポ",
+    "ndex": 16,
+    "seg": [
+     8
+    ],
+    "as": [
+     "ポッポ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     8
+    ],
+    "as": [
+     "呆呆兽",
+     "ヤドン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铁炮鱼",
+    "ndex": 223,
+    "seg": [
+     8
+    ],
+    "as": [
+     "铁炮鱼"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "铁炮鱼的天空",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "波波与特大波波！飞向未见之天！！",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "呆呆兽的顿悟！小智的顿悟！",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 The Animation",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "魔法小天使",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "漫画日本物语",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "2001漫画日本物语",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     3,
+     11,
+     38,
+     42,
+     54
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     28
+    ]
+   },
+   {
+    "name": "富野由悠季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "小田原市立图书馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     48
+    ],
+    "via": "extra",
+    "what": "保管首藤捐赠的资料"
+   },
+   {
+    "name": "早川渔港",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     32
+    ],
+    "what": "旧寓所面朝之地",
+    "via": "llm"
+   },
+   {
+    "name": "道顿堀川",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     71
+    ],
+    "what": "大阪球迷跳入处",
+    "via": "llm"
+   },
+   {
+    "name": "小田原",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     24
+    ],
+    "what": "他养病与居住之地",
+    "via": "llm"
+   },
+   {
+    "name": "涉谷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     61
+    ],
+    "what": "他东京旧居所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "被免去电视版《宝可梦》系列构成后，他决定单集剧本不再以宝可梦对战为主轴。",
+   "anchor": 2
+  },
+  {
+   "seg": 8,
+   "text": "他列出2001年第212集、第244集与2002年第260集三集署名剧本。",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch213",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第213回：“我的《宝可梦》电影在《结晶塔的帝王》画上句号”（深渊伦理拷问、病榻口述急送医院、园田英树接棒改稿与隐退宣言）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch213/",
+   "why": "同系列手记，前篇讲电影隐退，此篇讲一线彻底隐退"
+  },
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch214",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "首藤刚志动画创作手记 第214回：“最近是不是筋疲力尽了啊”（板垣退助乌龙、7亿巨资质疑、为园田英树平反与剧场版退场绝响）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch214/",
+   "why": "同系列手记，紧接前篇续写剧场版退场后事"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

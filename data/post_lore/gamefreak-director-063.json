@@ -1,0 +1,96 @@
+{
+ "id": "gamefreak-director-063",
+ "stem": "2006-12-05-gamefreak-director-063",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 48
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "西雅图",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "本地化工作地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一11月29日至12月2日去西雅图，日程为两晚四天"
+  },
+  {
+   "seg": 5,
+   "text": "他听说当地最低气温是零下8度"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-057",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第57回",
+   "url": "/gamefreak-director/entry-057/",
+   "why": "同系列第57回，宣布钻石珍珠发售日"
+  },
+  {
+   "id": "gamefreak-director-058",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第58回",
+   "url": "/gamefreak-director/entry-058/",
+   "why": "同系列第58回，谈钻石珍珠活动"
+  },
+  {
+   "id": "gamefreak-director-059",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第59回",
+   "url": "/gamefreak-director/entry-059/",
+   "why": "同系列第59回，钻石珍珠开启预约"
+  },
+  {
+   "id": "gamefreak-director-060",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第60回",
+   "url": "/gamefreak-director/entry-060/",
+   "why": "同系列第60回，钻石珍珠发售日见闻"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

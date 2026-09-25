@@ -1,0 +1,142 @@
+{
+ "id": "gamefreak-staff-153",
+ "stem": "2009-11-06-gamefreak-staff-153",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 105
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "プリン",
+    "ndex": 39,
+    "seg": [
+     66
+    ],
+    "as": [
+     "プリン"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     24,
+     25,
+     77,
+     78
+    ],
+    "as": [
+     "洛奇亚",
+     "ルギア"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ホウオウ",
+    "ndex": 250,
+    "seg": [
+     77,
+     78,
+     24
+    ],
+    "as": [
+     "ホウオウ"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金・魂银",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金・银",
+    "slug": null,
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦打印机",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "mentioned",
+    "seg": [
+     0,
+     52
+    ]
+   },
+   {
+    "name": "一之濑",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "狩猎地带",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "巴奥巴园长所在处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "景山将太负责BGM和ME编曲、新BGM作曲及GB音源还原"
+  },
+  {
+   "seg": 5,
+   "text": "他在购买特典手机铃声中以巴奥巴园长身份唱歌"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

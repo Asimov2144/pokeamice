@@ -1,0 +1,107 @@
+{
+ "id": "gamefreak-director-031",
+ "stem": "2005-01-24-gamefreak-director-031",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 62
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "昆蒂",
+    "slug": null,
+    "seg": [
+     3,
+     4,
+     6
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "吃豆人",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "U-GE",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "田尻",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "《U-GE》附送GAME FREAK第一部作品《昆蒂》的迷你CD"
+  },
+  {
+   "seg": 4,
+   "text": "增田顺一称这是《昆蒂》的首张CD"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,62 @@
+{
+ "id": "gamefreak-staff-172",
+ "stem": "2010-03-05-gamefreak-staff-172",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 56
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "飞天螳螂",
+    "ndex": 123,
+    "seg": [
+     4,
+     28
+    ],
+    "as": [
+     "飞天螳螂",
+     "ストライク"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [],
+  "places": [
+   {
+    "name": "关东",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "春一番报道地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "关东地区2月25日迎来春一番，比往年稍晚"
+  },
+  {
+   "seg": 13,
+   "text": "列举梅花品种：残雪、东云、水心镜、沧溟之月"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

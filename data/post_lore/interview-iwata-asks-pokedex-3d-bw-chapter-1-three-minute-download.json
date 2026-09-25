@@ -1,0 +1,189 @@
+{
+ "id": "interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+ "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 57
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "爆香猴",
+    "ndex": 513,
+    "seg": [
+     48
+    ],
+    "as": [
+     "爆香猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "冷水猴",
+    "ndex": 515,
+    "seg": [
+     48
+    ],
+    "as": [
+     "冷水猴"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦立体图鉴BW",
+    "slug": "pokedex-3d",
+    "seg": [
+     0,
+     2,
+     27
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     20,
+     27,
+     37
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     7,
+     9,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     5,
+     8,
+     20,
+     22,
+     27,
+     30
+    ]
+   },
+   {
+    "name": "小笠原裕",
+    "slug": "ogasawara-yutaka",
+    "role": "speaker",
+    "seg": [
+     10,
+     24,
+     26,
+     29,
+     34,
+     36
+    ]
+   },
+   {
+    "name": "竹内敦",
+    "slug": "takeuchi-atsushi",
+    "role": "speaker",
+    "seg": [
+     12,
+     43,
+     45,
+     50,
+     52
+    ]
+   },
+   {
+    "name": "折本哲也",
+    "slug": "orimoto-tetsuya",
+    "role": "speaker",
+    "seg": [
+     14,
+     17
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "株式会社宝可梦总部",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "访谈会议室所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 34,
+   "text": "石原恒和要求3分钟内完成下载",
+   "anchor": 35
+  },
+  {
+   "seg": 38,
+   "text": "首次下载只含最初16只宝可梦",
+   "anchor": 39
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/",
+   "why": "同为《立体图鉴BW》社长问第2章，接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第3章：“一目了然被看穿也无妨”（石原恒和现场手绘比克提尼AR码、开发者直呼“欢迎破解”与可成长的图鉴）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation/",
+   "why": "同为《立体图鉴BW》社长问第3章，接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all/",
+   "why": "同为《立体图鉴BW》社长问第4章，接第1章"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "《黑·白》153只新宝可梦是立体图鉴对象"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

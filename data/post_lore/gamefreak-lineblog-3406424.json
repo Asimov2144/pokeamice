@@ -1,0 +1,76 @@
+{
+ "id": "gamefreak-lineblog-3406424",
+ "stem": "2016-05-12-gamefreak-lineblog-3406424",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 2
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "木木枭",
+    "ndex": 722,
+    "seg": [
+     1
+    ],
+    "as": [
+     "木木枭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火斑喵",
+    "ndex": 725,
+    "seg": [
+     1
+    ],
+    "as": [
+     "火斑喵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "球球海狮",
+    "ndex": 728,
+    "seg": [
+     1
+    ],
+    "as": [
+     "球球海狮"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "增田顺一提到大家是否已决定要选哪只最初的宝可梦"
+  },
+  {
+   "seg": 1,
+   "text": "增田顺一表示自己还决定不了，并附上（笑）"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

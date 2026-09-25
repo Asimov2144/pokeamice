@@ -1,0 +1,148 @@
+{
+ "id": "interview-newspicks-pokemon-utsunomiya-kawamoto",
+ "stem": "2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     8
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     16,
+     18,
+     19,
+     21,
+     23
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "宇都宫崇人",
+    "slug": "utsunomiya-takato",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     5,
+     11,
+     12,
+     15
+    ]
+   },
+   {
+    "name": "河本拓",
+    "slug": "he-ben-tuo",
+    "role": "speaker",
+    "seg": [
+     7,
+     8,
+     9,
+     13,
+     14,
+     18
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "伊藤宪二郎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大高志帆",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "相川泉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "露木聪子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "宇都宫在咨询公司时通过同期同事跳槽了解到宝可梦公司",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "伊藤宪二郎称买电影预售票可在游戏里获得特别宝可梦",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/",
+   "why": "宇都宫同任COO，回顾其从咨询业转入宝可梦的起点"
+  },
+  {
+   "id": "interview-nikkei-utsunomiya-pokemon-go",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+   "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
+   "why": "宇都宫谈宝可梦公司日美协同，可补其职务背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

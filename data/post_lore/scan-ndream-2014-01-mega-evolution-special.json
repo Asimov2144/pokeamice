@@ -1,0 +1,1199 @@
+{
+ "id": "scan-ndream-2014-01-mega-evolution-special",
+ "stem": "2013-11-21-scan-ndream-2014-01-mega-evolution-special",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 314
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     146
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿柏蛇",
+    "ndex": 23,
+    "seg": [
+     246
+    ],
+    "as": [
+     "阿柏蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多娜",
+    "ndex": 30,
+    "seg": [
+     172
+    ],
+    "as": [
+     "尼多娜"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多力诺",
+    "ndex": 33,
+    "seg": [
+     172
+    ],
+    "as": [
+     "尼多力诺"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "三地鼠",
+    "ndex": 51,
+    "seg": [
+     248
+    ],
+    "as": [
+     "三地鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蝌蚪",
+    "ndex": 60,
+    "seg": [
+     246
+    ],
+    "as": [
+     "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香君",
+    "ndex": 61,
+    "seg": [
+     246
+    ],
+    "as": [
+     "蚊香君"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喇叭芽",
+    "ndex": 69,
+    "seg": [
+     246
+    ],
+    "as": [
+     "喇叭芽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "口呆花",
+    "ndex": 70,
+    "seg": [
+     246
+    ],
+    "as": [
+     "口呆花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "玛瑙水母",
+    "ndex": 72,
+    "seg": [
+     189,
+     205,
+     223
+    ],
+    "as": [
+     "玛瑙水母"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "隆隆石",
+    "ndex": 75,
+    "seg": [
+     248
+    ],
+    "as": [
+     "隆隆石"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆兽",
+    "ndex": 79,
+    "seg": [
+     205,
+     223
+    ],
+    "as": [
+     "呆呆兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "魔墙人偶",
+    "ndex": 122,
+    "seg": [
+     186
+    ],
+    "as": [
+     "魔墙人偶"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凯罗斯",
+    "ndex": 127,
+    "seg": [
+     46,
+     51,
+     53,
+     54,
+     144,
+     223
+    ],
+    "as": [
+     "凯罗斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "肯泰罗",
+    "ndex": 128,
+    "seg": [
+     223
+    ],
+    "as": [
+     "肯泰罗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴鲤龙",
+    "ndex": 130,
+    "seg": [
+     29,
+     31,
+     32,
+     33,
+     35,
+     142
+    ],
+    "as": [
+     "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉普拉斯",
+    "ndex": 131,
+    "seg": [
+     205,
+     219,
+     223
+    ],
+    "as": [
+     "拉普拉斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "化石翼龙",
+    "ndex": 142,
+    "seg": [
+     127,
+     133,
+     135,
+     137
+    ],
+    "as": [
+     "化石翼龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "灯笼鱼",
+    "ndex": 170,
+    "seg": [
+     189,
+     205
+    ],
+    "as": [
+     "灯笼鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "咩利羊",
+    "ndex": 179,
+    "seg": [
+     223
+    ],
+    "as": [
+     "咩利羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毽子棉",
+    "ndex": 189,
+    "seg": [
+     271
+    ],
+    "as": [
+     "毽子棉"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "果然翁",
+    "ndex": 202,
+    "seg": [
+     186
+    ],
+    "as": [
+     "果然翁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨钳螳螂",
+    "ndex": 212,
+    "seg": [
+     74,
+     86,
+     87,
+     90
+    ],
+    "as": [
+     "巨钳螳螂"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "赫拉克罗斯",
+    "ndex": 214,
+    "seg": [
+     40,
+     42,
+     53,
+     55,
+     144,
+     223
+    ],
+    "as": [
+     "赫拉克罗斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "熔岩虫",
+    "ndex": 218,
+    "seg": [
+     248
+    ],
+    "as": [
+     "熔岩虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铁炮鱼",
+    "ndex": 223,
+    "seg": [
+     189,
+     205,
+     223
+    ],
+    "as": [
+     "铁炮鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黑鲁加",
+    "ndex": 229,
+    "seg": [
+     61,
+     63,
+     67,
+     68,
+     144
+    ],
+    "as": [
+     "黑鲁加"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大奶罐",
+    "ndex": 241,
+    "seg": [
+     223
+    ],
+    "as": [
+     "大奶罐"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大狼犬",
+    "ndex": 262,
+    "seg": [
+     301
+    ],
+    "as": [
+     "大狼犬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "长翅鸥",
+    "ndex": 278,
+    "seg": [
+     205,
+     223
+    ],
+    "as": [
+     "长翅鸥"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙奈朵",
+    "ndex": 282,
+    "seg": [
+     91,
+     94,
+     95,
+     97
+    ],
+    "as": [
+     "沙奈朵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铁掌力士",
+    "ndex": 297,
+    "seg": [
+     172
+    ],
+    "as": [
+     "铁掌力士"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "勾魂眼",
+    "ndex": 302,
+    "seg": [
+     186
+    ],
+    "as": [
+     "勾魂眼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "恰雷姆",
+    "ndex": 308,
+    "seg": [
+     79,
+     81,
+     86,
+     87
+    ],
+    "as": [
+     "恰雷姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雷电兽",
+    "ndex": 310,
+    "seg": [
+     57,
+     67,
+     68,
+     72,
+     143,
+     144
+    ],
+    "as": [
+     "雷电兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大颚蚁",
+    "ndex": 328,
+    "seg": [
+     248
+    ],
+    "as": [
+     "大颚蚁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泥泥鳅",
+    "ndex": 339,
+    "seg": [
+     246
+    ],
+    "as": [
+     "泥泥鳅"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "怨影娃娃",
+    "ndex": 353,
+    "seg": [
+     246
+    ],
+    "as": [
+     "怨影娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "诅咒娃娃",
+    "ndex": 354,
+    "seg": [
+     119,
+     125,
+     135,
+     136
+    ],
+    "as": [
+     "诅咒娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "珍珠贝",
+    "ndex": 366,
+    "seg": [
+     223
+    ],
+    "as": [
+     "珍珠贝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "爱心鱼",
+    "ndex": 370,
+    "seg": [
+     189,
+     205,
+     223
+    ],
+    "as": [
+     "爱心鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "姆克儿",
+    "ndex": 396,
+    "seg": [
+     172
+    ],
+    "as": [
+     "姆克儿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "姆克鸟",
+    "ndex": 397,
+    "seg": [
+     172
+    ],
+    "as": [
+     "姆克鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕奇利兹",
+    "ndex": 417,
+    "seg": [
+     223
+    ],
+    "as": [
+     "帕奇利兹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铃铛响",
+    "ndex": 433,
+    "seg": [
+     172,
+     186
+    ],
+    "as": [
+     "铃铛响"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "臭鼬噗",
+    "ndex": 434,
+    "seg": [
+     172
+    ],
+    "as": [
+     "臭鼬噗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "魔尼尼",
+    "ndex": 439,
+    "seg": [
+     186
+    ],
+    "as": [
+     "魔尼尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "聒噪鸟",
+    "ndex": 441,
+    "seg": [
+     205,
+     223
+    ],
+    "as": [
+     "聒噪鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "圆陆鲨",
+    "ndex": 443,
+    "seg": [
+     248
+    ],
+    "as": [
+     "圆陆鲨"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     176,
+     177,
+     179,
+     180,
+     211,
+     212
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "钳尾蝎",
+    "ndex": 451,
+    "seg": [
+     246
+    ],
+    "as": [
+     "钳尾蝎"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尖牙笼",
+    "ndex": 455,
+    "seg": [
+     246
+    ],
+    "as": [
+     "尖牙笼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小球飞鱼",
+    "ndex": 458,
+    "seg": [
+     189,
+     205,
+     223
+    ],
+    "as": [
+     "小球飞鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴雪王",
+    "ndex": 460,
+    "seg": [
+     150,
+     156,
+     157
+    ],
+    "as": [
+     "暴雪王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "石丸子",
+    "ndex": 524,
+    "seg": [
+     186
+    ],
+    "as": [
+     "石丸子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "打击鬼",
+    "ndex": 539,
+    "seg": [
+     172
+    ],
+    "as": [
+     "打击鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "石居蟹",
+    "ndex": 557,
+    "seg": [
+     205,
+     223
+    ],
+    "as": [
+     "石居蟹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "单卵细胞球",
+    "ndex": 577,
+    "seg": [
+     186
+    ],
+    "as": [
+     "单卵细胞球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电飞鼠",
+    "ndex": 587,
+    "seg": [
+     277,
+     280
+    ],
+    "as": [
+     "电飞鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖盖虫",
+    "ndex": 588,
+    "seg": [
+     246
+    ],
+    "as": [
+     "盖盖虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小嘴蜗",
+    "ndex": 616,
+    "seg": [
+     246
+    ],
+    "as": [
+     "小嘴蜗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泥巴鱼",
+    "ndex": 618,
+    "seg": [
+     246
+    ],
+    "as": [
+     "泥巴鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "功夫鼬",
+    "ndex": 619,
+    "seg": [
+     208
+    ],
+    "as": [
+     "功夫鼬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "坐骑小羊",
+    "ndex": 672,
+    "seg": [
+     224
+    ],
+    "as": [
+     "坐骑小羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "坐骑山羊",
+    "ndex": 673,
+    "seg": [
+     271
+    ],
+    "as": [
+     "坐骑山羊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超能妙喵",
+    "ndex": 678,
+    "seg": [
+     259
+    ],
+    "as": [
+     "超能妙喵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "好啦鱿",
+    "ndex": 686,
+    "seg": [
+     205
+    ],
+    "as": [
+     "好啦鱿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "龟脚脚",
+    "ndex": 688,
+    "seg": [
+     205,
+     223
+    ],
+    "as": [
+     "龟脚脚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "摔角鹰人",
+    "ndex": 701,
+    "seg": [
+     103,
+     208
+    ],
+    "as": [
+     "摔角鹰人"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小碎钻",
+    "ndex": 703,
+    "seg": [
+     186
+    ],
+    "as": [
+     "小碎钻"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黏黏宝",
+    "ndex": 704,
+    "seg": [
+     104,
+     114,
+     246
+    ],
+    "as": [
+     "黏黏宝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小木灵",
+    "ndex": 708,
+    "seg": [
+     104,
+     110
+    ],
+    "as": [
+     "小木灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "南瓜精",
+    "ndex": 710,
+    "seg": [
+     104
+    ],
+    "as": [
+     "南瓜精"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X・Y",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X",
+    "slug": null,
+    "seg": [
+     144
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Y",
+    "slug": null,
+    "seg": [
+     144
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "流程攻略",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     173,
+     190
+    ]
+   },
+   {
+    "name": "出现宝可梦数据",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     222,
+     245,
+     247
+    ]
+   },
+   {
+    "name": "Mister M",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Hiropon",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Masato",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "可尔妮",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     174
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "布拉塔诺博士",
+    "slug": "bu-la-ta-nuo-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     175
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "莎莉娜",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     191
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "提耶鲁诺",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     191
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "福爷",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     228
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "希特隆",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     230
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "弗拉达利",
+    "slug": "fu-la-da-li",
+    "role": "mentioned",
+    "seg": [
+     230
+    ],
+    "via": "llm",
+    "kind": "character"
+   },
+   {
+    "name": "阿可碧",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     229
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "瑟蕾娜",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     287
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "石香镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     170
+    ],
+    "what": "攻略途经城镇",
+    "via": "llm"
+   },
+   {
+    "name": "精练之塔",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     198
+    ],
+    "what": "超级进化大叔所在",
+    "via": "llm"
+   },
+   {
+    "name": "镜穴",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     191
+    ],
+    "what": "可获闪光学习器",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯发电厂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     234
+    ],
+    "what": "闪焰队占据的设施",
+    "via": "llm"
+   },
+   {
+    "name": "恐怖之家",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     287
+    ],
+    "what": "14号道路建筑",
+    "via": "llm"
+   },
+   {
+    "name": "卡洛斯地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "冒险的舞台",
+    "via": "llm"
+   },
+   {
+    "name": "密阿雷市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     168
+    ],
+    "what": "卡洛斯最大城市",
+    "via": "llm"
+   },
+   {
+    "name": "遥香市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     170
+    ],
+    "what": "道馆所在城镇",
+    "via": "llm"
+   },
+   {
+    "name": "娑罗市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     187
+    ],
+    "what": "精练之塔所在城市",
+    "via": "llm"
+   },
+   {
+    "name": "比翼市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     228
+    ],
+    "what": "道馆所在城市",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "本次《宝可梦 X・Y》特辑共22页，用三大企划面向所有训练家。"
+  },
+  {
+   "seg": 144,
+   "text": "雷电兽、凯罗斯的超级石在《宝可梦 X》，赫拉克罗斯、黑鲁加的在《宝可梦 Y》。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

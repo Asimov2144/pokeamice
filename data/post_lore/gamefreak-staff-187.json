@@ -1,0 +1,88 @@
+{
+ "id": "gamefreak-staff-187",
+ "stem": "2010-06-18-gamefreak-staff-187",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 61
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [],
+  "places": [
+   {
+    "name": "三轩茶屋",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3,
+     33
+    ],
+    "via": "extra",
+    "what": "GAME FREAK 胡萝卜塔所在"
+   },
+   {
+    "name": "下高井户",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "世田谷线终点",
+    "via": "llm"
+   },
+   {
+    "name": "世田谷线",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "通勤乘坐的线路",
+    "via": "llm"
+   },
+   {
+    "name": "世田谷区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     8
+    ],
+    "what": "线路穿过的区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "策划员自称蛋，名叫ヒート（希特）"
+  },
+  {
+   "seg": 1,
+   "text": "今年4月入职"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

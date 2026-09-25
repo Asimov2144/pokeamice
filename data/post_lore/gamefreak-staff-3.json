@@ -1,0 +1,54 @@
+{
+ "id": "gamefreak-staff-3",
+ "stem": "2007-08-01-gamefreak-staff-3",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 34
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     11
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "カニ子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "首页小机关是点击后颜色逐渐变深的点阵画布"
+  },
+  {
+   "seg": 10,
+   "text": "可加深的颜色只有3个层次，因想起Game Boy的3个层级"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

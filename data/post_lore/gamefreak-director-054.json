@@ -1,0 +1,179 @@
+{
+ "id": "gamefreak-director-054",
+ "stem": "2005-09-27-gamefreak-director-054",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 64
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     12,
+     45
+    ],
+    "as": [
+     "皮卡丘",
+     "Pikachu"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆呆王",
+    "ndex": 199,
+    "seg": [
+     11,
+     44
+    ],
+    "as": [
+     "呆呆王",
+     "Slowking"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "信使鸟",
+    "ndex": 225,
+    "seg": [
+     11,
+     44
+    ],
+    "as": [
+     "信使鸟",
+     "Delibird"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水跃鱼",
+    "ndex": 258,
+    "seg": [
+     11,
+     44
+    ],
+    "as": [
+     "水跃鱼",
+     "Mudkip"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "正电拍拍",
+    "ndex": 311,
+    "seg": [
+     11,
+     43
+    ],
+    "as": [
+     "正电拍拍",
+     "Plusle"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "負电拍拍",
+    "ndex": 312,
+    "seg": [
+     44
+    ],
+    "as": [
+     "Minun"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     11,
+     44
+    ],
+    "as": [
+     "固拉多",
+     "Groudon"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     11,
+     43
+    ],
+    "as": [
+     "路卡利欧",
+     "Lucario"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "松本梨香",
+    "slug": "matsumoto-rica",
+    "role": "mentioned",
+    "seg": [
+     9
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0,
+     4,
+     16,
+     19
+    ],
+    "via": "extra",
+    "what": "期间限定的主题乐园"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "9月25日，增田顺一去宝可梦乐园参加了最后一天的活动。"
+  },
+  {
+   "seg": 18,
+   "text": "增田顺一听说宝可梦乐园半年到访人数超过400万。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-034",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "第34回",
+   "url": "/gamefreak-director/entry-034/",
+   "why": "第34回写名古屋宝可梦乐园内览会，为闭园前活动提供背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

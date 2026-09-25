@@ -1,0 +1,104 @@
+{
+ "id": "interview-gamefreak-recruit-3d-graphics-to-fk",
+ "stem": "2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 32
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     3
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Gear Project（齿轮企划）",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.O.",
+    "slug": "t-o",
+    "role": "speaker",
+    "seg": [
+     3,
+     8,
+     10,
+     12,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "F.K.",
+    "slug": "f-k",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     9,
+     13,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     10
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "T.O. 4 年前通过中途招聘加入，任角色模型团队组长",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "F.K. 2 年前入社，任角色动作团队组长",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
+   "why": "同为X·Y全3D化官方访谈，2013-10-10同日"
+  },
+  {
+   "id": "interview-gamefreak-rnd-launch-taya-mi",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
+   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/",
+   "why": "R&D设立源于X·Y全3D化生产管线剧变"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

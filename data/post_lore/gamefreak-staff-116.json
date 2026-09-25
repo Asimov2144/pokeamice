@@ -1,0 +1,44 @@
+{
+ "id": "gamefreak-staff-116",
+ "stem": "2009-03-06-gamefreak-staff-116",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "デコ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "デコ说开始学陶艺的理由是想再玩一次黏土"
+  },
+  {
+   "seg": 30,
+   "text": "デコ大约每月去陶艺教室上一两次课"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

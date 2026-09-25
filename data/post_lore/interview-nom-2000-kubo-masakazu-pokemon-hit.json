@@ -1,0 +1,306 @@
+{
+ "id": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+ "stem": "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 44
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     37,
+     39
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "未知图腾",
+    "ndex": 201,
+    "seg": [
+     39
+    ],
+    "as": [
+     "未知图腾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     40
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     13
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "炎帝",
+    "ndex": 244,
+    "seg": [
+     39
+    ],
+    "as": [
+     "炎帝"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     39
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 动画系列",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "龙漫CORO-CORO",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "GOTTA",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哆啦A梦",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黑客帝国",
+    "slug": null,
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "史努比",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "结晶塔的帝王",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮丘与皮卡丘",
+    "slug": null,
+    "seg": [
+     37
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "洛奇亚爆诞",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "金",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "银",
+    "slug": null,
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "N.O.M采访者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     10,
+     12,
+     15,
+     17
+    ]
+   },
+   {
+    "name": "久保雅一",
+    "slug": "kubo-masakazu",
+    "role": "speaker",
+    "seg": [
+     7,
+     9,
+     11,
+     13,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "川口",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "任天堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     14
+    ],
+    "what": "久保频繁前往提议动画化",
+    "via": "llm"
+   },
+   {
+    "name": "N.O.A",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "交涉美国播出的对象",
+    "via": "llm"
+   },
+   {
+    "name": "法国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     27
+    ],
+    "what": "电影上映地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "久保雅一与宝可梦相遇是95年11月，当时他是《龙漫CORO-CORO》副主编",
+   "anchor": 12
+  },
+  {
+   "seg": 13,
+   "text": "赠送梦幻活动20个名额收到7万8千封应募",
+   "anchor": 14
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-takeshi-shudo-pokemon-memoir-ch163",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch163/",
+   "why": "同写久保雅一任《快乐快乐月刊》副主编及动画企划角色"
+  },
+  {
+   "id": "interview-hobonichi-2021-kubo",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "编辑的才能是做普通人",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-hobonichi-2021-kubo/",
+   "why": "久保雅一自述在《龙漫CORO-CORO》任职14年经历"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

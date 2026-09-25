@@ -1,0 +1,101 @@
+{
+ "id": "gamefreak-director-058",
+ "stem": "2006-08-09-gamefreak-director-058",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 64
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "国际论坛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2
+    ],
+    "what": "摆放试玩机的会场",
+    "via": "llm"
+   },
+   {
+    "name": "JR山手线各站月台",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     4
+    ],
+    "what": "打出广告的车站",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "国际论坛摆了150台试玩机"
+  },
+  {
+   "seg": 4,
+   "text": "听说JR山手线各站月台楼梯打出《钻石·珍珠》广告"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-057",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第57回",
+   "url": "/gamefreak-director/entry-057/",
+   "why": "同为部长专栏第57回，前一篇"
+  },
+  {
+   "id": "gamefreak-director-059",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第59回",
+   "url": "/gamefreak-director/entry-059/",
+   "why": "同为部长专栏第59回，后一篇"
+  },
+  {
+   "id": "gamefreak-director-060",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第60回",
+   "url": "/gamefreak-director/entry-060/",
+   "why": "同为部长专栏第60回，后续篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,68 @@
+{
+ "id": "gamefreak-director-066",
+ "stem": "2007-01-12-gamefreak-director-066",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 45
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "月刊《King》",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "增田顺一在文中说今天是他的生日，已经39岁。"
+  },
+  {
+   "seg": 14,
+   "text": "文中提到13日（周六）发售的月刊《King》会刊登他和GF员工的内容。"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-065",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第65回",
+   "url": "/gamefreak-director/entry-065/",
+   "why": "第65回为同一专栏前一篇，预告钻石珍珠话题"
+  },
+  {
+   "id": "gamefreak-director-067",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第67回",
+   "url": "/gamefreak-director/entry-067/",
+   "why": "第67回为同一专栏后一篇，接续生日后内容"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

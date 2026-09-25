@@ -1,0 +1,81 @@
+{
+ "id": "gamefreak-director-138",
+ "stem": "2009-02-17-gamefreak-director-138",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "blog",
+ "body": {
+  "kind": "markdown",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "国际论坛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "说明会场地建筑",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "说明会在2月4日和5日举办"
+  },
+  {
+   "seg": 12,
+   "text": "说明会时间只有15分钟"
+  }
+ ],
+ "relations": [
+  {
+   "id": "gamefreak-director-139",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第139回",
+   "url": "/gamefreak-director/entry-139/",
+   "why": "第138回后一篇，同系列连续专栏"
+  },
+  {
+   "id": "gamefreak-director-137",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第137回",
+   "url": "/gamefreak-director/entry-137/",
+   "why": "第137回为第138回前一篇，同系列连续专栏"
+  },
+  {
+   "id": "gamefreak-director-140",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "第140回",
+   "url": "/gamefreak-director/entry-140/",
+   "why": "第139回为第138回后一篇，同系列连续专栏"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

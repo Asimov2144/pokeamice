@@ -1,0 +1,436 @@
+{
+ "id": "interview-denfami-xevious-tajiri-sugimori-endo",
+ "stem": "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 319
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     6,
+     9
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     13,
+     24,
+     28,
+     41
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "迷宫塔",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "麦森探险",
+    "slug": null,
+    "seg": [
+     130,
+     137,
+     144,
+     145,
+     219,
+     297
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "俄罗斯方块",
+    "slug": null,
+    "seg": [
+     162,
+     171
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "吃豆人世界",
+    "slug": null,
+    "seg": [
+     2,
+     257,
+     265
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "接龙马",
+    "slug": null,
+    "seg": [
+     166,
+     167,
+     172
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "GAME FREAK",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     189
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "恶魔之魂",
+    "slug": null,
+    "seg": [
+     194
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "数独",
+    "slug": null,
+    "seg": [
+     198
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "寒蝉鸣泣之时",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高达",
+    "slug": null,
+    "seg": [
+     86
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "新游戏设计",
+    "slug": null,
+    "seg": [
+     219
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "在Pac-Land捕获",
+    "slug": null,
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁板阵1000万分解法",
+    "slug": null,
+    "seg": [
+     120
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Super Soft Magazine",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "MyCom BASIC Magazine",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "LOGIN",
+    "slug": null,
+    "seg": [
+     243
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "电玩志",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     12,
+     14,
+     19,
+     23,
+     31
+    ]
+   },
+   {
+    "name": "远藤雅伸",
+    "slug": "endo-masanobu",
+    "role": "speaker",
+    "seg": [
+     6,
+     9,
+     13,
+     15,
+     17,
+     25
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     7,
+     10,
+     20,
+     24,
+     28,
+     32
+    ]
+   },
+   {
+    "name": "全员",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     21,
+     39,
+     50,
+     104,
+     233
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     16,
+     22,
+     27,
+     29,
+     33,
+     35
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     169,
+     171,
+     173,
+     280,
+     284
+    ]
+   },
+   {
+    "name": "横井军平",
+    "slug": "yokoi-gunpei",
+    "role": "mentioned",
+    "seg": [
+     173,
+     179,
+     188
+    ]
+   },
+   {
+    "name": "うる星あんず",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "富野由悠季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     86
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "堀井雄二",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     189
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫崎英高",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     194
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     237
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "森本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     280
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中泽新一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大堀",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "饭野",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     213
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "藤泽",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     192
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "池田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     272
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "新宿",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "远藤常去的游戏中心",
+    "via": "llm"
+   },
+   {
+    "name": "千代田区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     16
+    ],
+    "what": "摆世嘉新作的游戏中心",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "「铁板阵星」传闻纯属谣言，远藤因此怒斥采访的青年",
+   "anchor": 3
+  },
+  {
+   "seg": 13,
+   "text": "风营法未修订时游戏中心24小时营业，远藤周六在新宿街头转悠",
+   "anchor": 14
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}
