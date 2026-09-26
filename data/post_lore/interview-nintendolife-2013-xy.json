@@ -305,6 +305,404 @@
     "what": "宝可梦游戏展举办地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     1,
+     18
+    ],
+    "as": [
+     "多边形"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     2,
+     3
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     6
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     7,
+     8,
+     45
+    ],
+    "as": [
+     "宝可梦的设计",
+     "设计一只"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     7,
+     14
+    ],
+    "as": [
+     "想传达",
+     "主题是"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     10
+    ],
+    "as": [
+     "平衡调整"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     10
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     17,
+     18
+    ],
+    "as": [
+     "俯视视角",
+     "镜头"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "team-size",
+    "name": "团队规模",
+    "facet": "process",
+    "seg": [
+     19
+    ],
+    "as": [
+     "团队规模"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     21,
+     23
+    ],
+    "as": [
+     "全球同步发售"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     22,
+     23
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     25
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     28
+    ],
+    "as": [
+     "宝可梦图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     28
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     33
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
+    "seg": [
+     35
+    ],
+    "as": [
+     "文本量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     36,
+     37,
+     51,
+     52,
+     57
+    ],
+    "as": [
+     "超级进化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     42,
+     43
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     43
+    ],
+    "as": [
+     "配色"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     45
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-model",
+    "name": "舞台取材",
+    "facet": "design",
+    "seg": [
+     45
+    ],
+    "as": [
+     "为原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     49,
+     50,
+     55
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     51
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     51
+    ],
+    "as": [
+     "龙属性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     52
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     52
+    ],
+    "as": [
+     "等级"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     52,
+     55
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     53,
+     56,
+     57
+    ],
+    "as": [
+     "第一世代",
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     57
+    ],
+    "as": [
+     "老玩家"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     58,
+     61
+    ],
+    "as": [
+     "交换宝可梦",
+     "进行交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     59
+    ],
+    "as": [
+     "卡带"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -341,7 +739,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

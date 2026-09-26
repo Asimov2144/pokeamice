@@ -75,6 +75,108 @@
     "what": "M.Y.的毕业院校",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     2,
+     6
+    ],
+    "as": [
+     "入社"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "重做"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     5,
+     6,
+     9
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     6
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     6
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     9
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     12
+    ],
+    "as": [
+     "企划案"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     12
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -94,7 +196,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

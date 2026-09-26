@@ -139,6 +139,145 @@
     "what": "千年古都",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     2,
+     23
+    ],
+    "as": [
+     "携手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     4,
+     5,
+     13
+    ],
+    "as": [
+     "大自然",
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     5
+    ],
+    "as": [
+     "商品化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     5,
+     12
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     6
+    ],
+    "as": [
+     "全国图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     6
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     12
+    ],
+    "as": [
+     "样品"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     16
+    ],
+    "as": [
+     "反复推敲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     23
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mystery",
+    "name": "神秘感",
+    "facet": "design",
+    "seg": [
+     38
+    ],
+    "as": [
+     "神秘的"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     38
+    ],
+    "as": [
+     "风靡"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -158,7 +297,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

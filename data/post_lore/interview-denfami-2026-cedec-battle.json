@@ -177,7 +177,158 @@
     "via": "llm"
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     1,
+     3,
+     8,
+     20,
+     23,
+     44
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "spinoff",
+    "name": "外传作品",
+    "facet": "franchise",
+    "seg": [
+     1
+    ],
+    "as": [
+     "外传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     4,
+     5,
+     10,
+     11,
+     12,
+     15
+    ],
+    "as": [
+     "宝可梦对战",
+     "对战系统",
+     "战斗系统",
+     "回合"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     4
+    ],
+    "as": [
+     "属性相性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     8,
+     12
+    ],
+    "as": [
+     "继承",
+     "前作的"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     8
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     18
+    ],
+    "as": [
+     "数据量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     20,
+     31,
+     49
+    ],
+    "as": [
+     "代码"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     27
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     50
+    ],
+    "as": [
+     "超级进化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     50
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -213,7 +364,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

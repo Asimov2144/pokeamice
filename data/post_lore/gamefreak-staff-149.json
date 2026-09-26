@@ -100,7 +100,86 @@
     "via": "llm"
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     15
+    ],
+    "as": [
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     20,
+     61
+    ],
+    "as": [
+     "完成度",
+     "クオリティ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     30,
+     72
+    ],
+    "as": [
+     "日程",
+     "スケジュール"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     42,
+     61,
+     73,
+     75
+    ],
+    "as": [
+     "グラフィック"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     51
+    ],
+    "as": [
+     "子供"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
+  ]
  },
  "observations": [
   {
@@ -117,7 +196,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

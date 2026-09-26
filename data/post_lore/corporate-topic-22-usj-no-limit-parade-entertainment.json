@@ -117,6 +117,145 @@
     "what": "彩粉蝶花纹来源",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     0
+    ],
+    "as": [
+     "携手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     2,
+     4,
+     22
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "水属性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     10
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     11
+    ],
+    "as": [
+     "测试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     12
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     15,
+     16
+    ],
+    "as": [
+     "年龄层",
+     "老玩家"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     18
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     20
+    ],
+    "as": [
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "remake",
+    "name": "复刻与重制",
+    "facet": "process",
+    "seg": [
+     21
+    ],
+    "as": [
+     "复刻"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     27
+    ],
+    "as": [
+     "回合"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -136,7 +275,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

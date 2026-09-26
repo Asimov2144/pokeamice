@@ -103,7 +103,205 @@
     "via": "llm"
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     1,
+     7
+    ],
+    "as": [
+     "开发周期"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     1
+    ],
+    "as": [
+     "第五世代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     1,
+     8,
+     13
+    ],
+    "as": [
+     "卡带"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     3
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     6
+    ],
+    "as": [
+     "进行交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     8
+    ],
+    "as": [
+     "编程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "open-world",
+    "name": "开放世界",
+    "facet": "system",
+    "seg": [
+     9
+    ],
+    "as": [
+     "开放世界"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     10
+    ],
+    "as": [
+     "沿用"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     13
+    ],
+    "as": [
+     "宝可梦图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     19
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     19,
+     20
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     19
+    ],
+    "as": [
+     "训练家对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     20
+    ],
+    "as": [
+     "全球连接"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     21
+    ],
+    "as": [
+     "配色"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     21
+    ],
+    "as": [
+     "指导"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     21
+    ],
+    "as": [
+     "宝可梦设计"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -147,7 +345,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

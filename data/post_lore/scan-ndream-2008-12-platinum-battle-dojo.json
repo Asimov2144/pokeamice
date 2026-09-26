@@ -398,6 +398,183 @@
     "what": "下载对战视频处",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     6,
+     18,
+     25,
+     28,
+     43,
+     81
+    ],
+    "as": [
+     "宝可梦对战",
+     "打对战",
+     "回合"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     13,
+     18
+    ],
+    "as": [
+     "收集宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     28
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     28
+    ],
+    "as": [
+     "等级"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     28
+    ],
+    "as": [
+     "双打对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     32
+    ],
+    "as": [
+     "菜单"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     39
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     75
+    ],
+    "as": [
+     "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "life-and-death",
+    "name": "生死的表述",
+    "facet": "design",
+    "seg": [
+     81,
+     82,
+     92,
+     101,
+     102,
+     103
+    ],
+    "as": [
+     "濒死"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     87,
+     93,
+     96,
+     97,
+     127
+    ],
+    "as": [
+     "运气"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     126,
+     128
+    ],
+    "as": [
+     "火属性",
+     "属性相性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     127
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     132
+    ],
+    "as": [
+     "世界锦标赛"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -432,7 +609,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

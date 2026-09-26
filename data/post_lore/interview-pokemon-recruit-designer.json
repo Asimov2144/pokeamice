@@ -135,6 +135,352 @@
     "what": "地方联动与赛事",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     2,
+     7,
+     8
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     2
+    ],
+    "as": [
+     "面向全球"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     3,
+     10,
+     13,
+     17,
+     24,
+     30
+    ],
+    "as": [
+     "入职",
+     "面试",
+     "入社",
+     "职业生涯"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     3,
+     10,
+     17,
+     30,
+     42,
+     55
+    ],
+    "as": [
+     "应届",
+     "招聘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     6
+    ],
+    "as": [
+     "家长"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     6
+    ],
+    "as": [
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     6,
+     8,
+     21,
+     22,
+     39,
+     41
+    ],
+    "as": [
+     "指导",
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     6,
+     29
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     8,
+     21,
+     22,
+     33,
+     34,
+     45
+    ],
+    "as": [
+     "主视觉",
+     "插画",
+     "设定资料"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "team-size",
+    "name": "团队规模",
+    "facet": "process",
+    "seg": [
+     8
+    ],
+    "as": [
+     "全公司"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     16,
+     24,
+     36,
+     49
+    ],
+    "as": [
+     "公司内部",
+     "办公室"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     17,
+     18,
+     41
+    ],
+    "as": [
+     "品牌管理",
+     "授权"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     20
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     22,
+     27
+    ],
+    "as": [
+     "画风",
+     "美术风格"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     22,
+     33,
+     34
+    ],
+    "as": [
+     "集换式卡牌",
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     26
+    ],
+    "as": [
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     26,
+     33
+    ],
+    "as": [
+     "原画",
+     "手绘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     33
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     41
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     45
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     58
+    ],
+    "as": [
+     "提案"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     63
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     66
+    ],
+    "as": [
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     66
+    ],
+    "as": [
+     "新世代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     66
+    ],
+    "as": [
+     "童年"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -154,7 +500,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

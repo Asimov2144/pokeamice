@@ -230,6 +230,300 @@
     "what": "提议的终点",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     11,
+     57,
+     61,
+     106
+    ],
+    "as": [
+     "打磨",
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     11,
+     12,
+     13,
+     17,
+     18,
+     20
+    ],
+    "as": [
+     "音乐剧",
+     "舞台剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     12
+    ],
+    "as": [
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     16
+    ],
+    "as": [
+     "配乐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     17,
+     21
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     17,
+     21,
+     47,
+     49,
+     69,
+     89
+    ],
+    "as": [
+     "剧本",
+     "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     25,
+     29,
+     33,
+     35
+    ],
+    "as": [
+     "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     40
+    ],
+    "as": [
+     "卖了"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     47
+    ],
+    "as": [
+     "系列构成"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     50,
+     80
+    ],
+    "as": [
+     "大银幕",
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     57,
+     58,
+     60
+    ],
+    "as": [
+     "延期"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     59
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     63
+    ],
+    "as": [
+     "电视动画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     63,
+     66,
+     98
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     63
+    ],
+    "as": [
+     "主线剧情"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     74,
+     94
+    ],
+    "as": [
+     "高难度",
+     "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     74
+    ],
+    "as": [
+     "手绘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     77
+    ],
+    "as": [
+     "美术风格"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     91
+    ],
+    "as": [
+     "正统续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     92
+    ],
+    "as": [
+     "回合"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     104
+    ],
+    "as": [
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     106
+    ],
+    "as": [
+     "反复推敲"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -282,7 +576,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

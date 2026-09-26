@@ -162,6 +162,124 @@
     "what": "可见真实样貌",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     2,
+     7,
+     20
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     2
+    ],
+    "as": [
+     "编程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     2,
+     6,
+     14
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     3
+    ],
+    "as": [
+     "易上手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "remake",
+    "name": "复刻与重制",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "重制版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     4
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     5,
+     13
+    ],
+    "as": [
+     "怀旧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     7,
+     20
+    ],
+    "as": [
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     8,
+     22,
+     23
+    ],
+    "as": [
+     "新玩家"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -206,7 +324,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

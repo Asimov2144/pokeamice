@@ -303,6 +303,125 @@
     "what": "法语中为阴性名词",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     6,
+     14
+    ],
+    "as": [
+     "推翻"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     6,
+     42,
+     44,
+     45,
+     113
+    ],
+    "as": [
+     "编剧",
+     "剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     52,
+     109
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     54,
+     55
+    ],
+    "as": [
+     "大自然",
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     68
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     82
+    ],
+    "as": [
+     "交响"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     101
+    ],
+    "as": [
+     "精灵球"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     113
+    ],
+    "as": [
+     "大银幕"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     114
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -355,7 +474,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

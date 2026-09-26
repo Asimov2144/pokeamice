@@ -107,7 +107,99 @@
     "via": "llm"
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     5,
+     6,
+     9
+    ],
+    "as": [
+     "海外版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     6
+    ],
+    "as": [
+     "推迟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     9
+    ],
+    "as": [
+     "本地化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     9,
+     19,
+     21
+    ],
+    "as": [
+     "源代码",
+     "代码"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "port",
+    "name": "移植",
+    "facet": "process",
+    "seg": [
+     15
+    ],
+    "as": [
+     "移植"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     34
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     43,
+     45
+    ],
+    "as": [
+     "授权"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -151,7 +243,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

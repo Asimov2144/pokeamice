@@ -148,6 +148,216 @@
     "what": "本作冒险舞台",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     2,
+     32,
+     39,
+     40
+    ],
+    "as": [
+     "培育",
+     "培育宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     4,
+     5
+    ],
+    "as": [
+     "完全新作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     8
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     11,
+     13
+    ],
+    "as": [
+     "家长"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     14,
+     18,
+     21
+    ],
+    "as": [
+     "画面表现",
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     14
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     15,
+     18
+    ],
+    "as": [
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "new-hardware",
+    "name": "新硬件",
+    "facet": "tech",
+    "seg": [
+     21
+    ],
+    "as": [
+     "硬件性能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     25,
+     26,
+     29,
+     31
+    ],
+    "as": [
+     "存档"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     29,
+     41
+    ],
+    "as": [
+     "容量",
+     "机能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     30
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     31,
+     34
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     34
+    ],
+    "as": [
+     "难易度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     36
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-freedom",
+    "name": "玩家的自由",
+    "facet": "design",
+    "seg": [
+     36
+    ],
+    "as": [
+     "自由地"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     39
+    ],
+    "as": [
+     "在线"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -184,7 +394,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

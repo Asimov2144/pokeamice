@@ -61,6 +61,32 @@
     "what": "酒店所在地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     17
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     19
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -103,7 +129,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

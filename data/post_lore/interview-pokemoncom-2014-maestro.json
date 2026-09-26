@@ -195,6 +195,189 @@
     "what": "《黑·白》游戏地区",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     0,
+     3,
+     8,
+     10,
+     12,
+     14
+    ],
+    "as": [
+     "作曲",
+     "音乐创作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     2
+    ],
+    "as": [
+     "卡带"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     4
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     6,
+     9,
+     10
+    ],
+    "as": [
+     "职业生涯"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sound-hardware",
+    "name": "音源与机能",
+    "facet": "audio",
+    "seg": [
+     8,
+     11,
+     13,
+     19,
+     35
+    ],
+    "as": [
+     "和音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     10
+    ],
+    "as": [
+     "编程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     11
+    ],
+    "as": [
+     "精灵球"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     11
+    ],
+    "as": [
+     "视觉效果"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     11,
+     19
+    ],
+    "as": [
+     "音效"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "remake",
+    "name": "复刻与重制",
+    "facet": "process",
+    "seg": [
+     18
+    ],
+    "as": [
+     "重新制作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     19
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     19
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "new-hardware",
+    "name": "新硬件",
+    "facet": "tech",
+    "seg": [
+     22
+    ],
+    "as": [
+     "新硬件"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     28
+    ],
+    "as": [
+     "新玩家"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -239,7 +422,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

@@ -292,6 +292,299 @@
     "what": "与涩谷对比的街区",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     2,
+     65,
+     118
+    ],
+    "as": [
+     "动画电影",
+     "剧场版",
+     "电影版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     5,
+     77
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     5,
+     57,
+     61,
+     63,
+     74,
+     77
+    ],
+    "as": [
+     "剧本",
+     "编剧",
+     "脚本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     9
+    ],
+    "as": [
+     "大主题"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     16,
+     42,
+     46,
+     51,
+     54,
+     66
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     27
+    ],
+    "as": [
+     "机能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     36
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     39
+    ],
+    "as": [
+     "抗议"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     42
+    ],
+    "as": [
+     "企划时"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     45,
+     55,
+     72
+    ],
+    "as": [
+     "声优"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     55,
+     80
+    ],
+    "as": [
+     "电视动画",
+     "动画版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     57
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     61
+    ],
+    "as": [
+     "流水线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     62,
+     74,
+     75
+    ],
+    "as": [
+     "系列构成",
+     "脚本会议",
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "spinoff",
+    "name": "外传作品",
+    "facet": "franchise",
+    "seg": [
+     74,
+     118
+    ],
+    "as": [
+     "外传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     78
+    ],
+    "as": [
+     "推迟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-model",
+    "name": "舞台取材",
+    "facet": "design",
+    "seg": [
+     85
+    ],
+    "as": [
+     "为蓝本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     89
+    ],
+    "as": [
+     "路线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     96
+    ],
+    "as": [
+     "翻译"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     105
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     111
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     117,
+     118
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -344,7 +637,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

@@ -105,6 +105,56 @@
     "what": "地区大会会场",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     19
+    ],
+    "as": [
+     "小学生"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     21
+    ],
+    "as": [
+     "培育宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     30
+    ],
+    "as": [
+     "对战大会"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     31
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -122,7 +172,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

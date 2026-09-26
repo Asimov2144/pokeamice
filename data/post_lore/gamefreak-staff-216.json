@@ -21,7 +21,83 @@
     ]
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     1,
+     19,
+     26,
+     27
+    ],
+    "as": [
+     "入职",
+     "学生时代",
+     "入社"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     1,
+     26
+    ],
+    "as": [
+     "应届",
+     "新卒"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     11
+    ],
+    "as": [
+     "编程",
+     "プログラム"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     5
+    ],
+    "as": [
+     "机能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     16,
+     43
+    ],
+    "as": [
+     "攻略"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -37,7 +113,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

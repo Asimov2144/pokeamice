@@ -80,6 +80,243 @@
     "what": "专访会面地点",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     5,
+     13
+    ],
+    "as": [
+     "第一次接触",
+     "容易理解"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     10,
+     11
+    ],
+    "as": [
+     "宝可梦图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multilingual",
+    "name": "多语言与字库",
+    "facet": "tech",
+    "seg": [
+     11
+    ],
+    "as": [
+     "语言版本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mystery",
+    "name": "神秘感",
+    "facet": "design",
+    "seg": [
+     11
+    ],
+    "as": [
+     "神秘感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     11
+    ],
+    "as": [
+     "全球同步发售"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     11
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     13
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     15
+    ],
+    "as": [
+     "超级进化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     15,
+     17
+    ],
+    "as": [
+     "新玩家",
+     "年龄层"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     16
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     16
+    ],
+    "as": [
+     "宝可梦的设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     18
+    ],
+    "as": [
+     "平衡性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     18
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     20
+    ],
+    "as": [
+     "世界锦标赛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     23
+    ],
+    "as": [
+     "玩家之间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     23
+    ],
+    "as": [
+     "多人游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     25,
+     26
+    ],
+    "as": [
+     "道具",
+     "精灵球"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     26
+    ],
+    "as": [
+     "经验值"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     29
+    ],
+    "as": [
+     "战斗系统"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -108,7 +345,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

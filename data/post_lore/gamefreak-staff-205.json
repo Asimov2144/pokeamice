@@ -73,7 +73,153 @@
     "via": "llm"
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     3,
+     21,
+     28
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "wireless",
+    "name": "无线与擦肩",
+    "facet": "tech",
+    "seg": [
+     10,
+     14,
+     16,
+     25,
+     26,
+     88
+    ],
+    "as": [
+     "无线通信",
+     "红外线通信",
+     "赤外線"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     13,
+     24
+    ],
+    "as": [
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     17
+    ],
+    "as": [
+     "卡带"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     30,
+     40
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     30,
+     33
+    ],
+    "as": [
+     "测试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     43,
+     44
+    ],
+    "as": [
+     "草图"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     63
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     66,
+     67
+    ],
+    "as": [
+     "菜单"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     69
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
+  ]
  },
  "observations": [
   {
@@ -90,7 +236,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

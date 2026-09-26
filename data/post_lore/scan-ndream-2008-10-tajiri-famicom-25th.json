@@ -511,6 +511,674 @@
     "what": "一层有展示厅",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     12
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     19,
+     34,
+     72,
+     105
+    ],
+    "as": [
+     "热潮",
+     "社会现象"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "fan-works",
+    "name": "二创与同人",
+    "facet": "audience",
+    "seg": [
+     34,
+     35,
+     36,
+     37,
+     39,
+     40
+    ],
+    "as": [
+     "同人志",
+     "同人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     37,
+     105,
+     219
+    ],
+    "as": [
+     "秘技",
+     "攻略本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     37,
+     129,
+     164,
+     169,
+     177
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     37,
+     183
+    ],
+    "as": [
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     39
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     42,
+     219
+    ],
+    "as": [
+     "版权",
+     "品牌管理"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     51,
+     90,
+     100
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multilingual",
+    "name": "多语言与字库",
+    "facet": "tech",
+    "seg": [
+     52
+    ],
+    "as": [
+     "字体"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     55,
+     132,
+     153,
+     154,
+     155,
+     156
+    ],
+    "as": [
+     "操作方式",
+     "界面",
+     "手感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     59,
+     62,
+     176
+    ],
+    "as": [
+     "生态",
+     "昆虫"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "port",
+    "name": "移植",
+    "facet": "process",
+    "seg": [
+     69
+    ],
+    "as": [
+     "移植"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     70,
+     83,
+     87,
+     103,
+     115,
+     129
+    ],
+    "as": [
+     "关卡",
+     "迷宫"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     76,
+     88,
+     90,
+     117,
+     118,
+     169
+    ],
+    "as": [
+     "容量",
+     "内存",
+     "ROM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     83,
+     85,
+     158
+    ],
+    "as": [
+     "音效",
+     "效果音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pixel-art",
+    "name": "像素画",
+    "facet": "tech",
+    "seg": [
+     87,
+     129,
+     208
+    ],
+    "as": [
+     "像素图",
+     "像素画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     93,
+     103,
+     150
+    ],
+    "as": [
+     "分工",
+     "一起做"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     97,
+     102,
+     103,
+     116,
+     126,
+     183
+    ],
+    "as": [
+     "企划书"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     111
+    ],
+    "as": [
+     "主题是"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     115
+    ],
+    "as": [
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     119
+    ],
+    "as": [
+     "完成度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     131
+    ],
+    "as": [
+     "从零开始"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     138
+    ],
+    "as": [
+     "手绘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     138
+    ],
+    "as": [
+     "海外版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     143,
+     147
+    ],
+    "as": [
+     "测试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     149,
+     218
+    ],
+    "as": [
+     "出货"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     155,
+     183
+    ],
+    "as": [
+     "连接起来",
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     163
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     168,
+     171
+    ],
+    "as": [
+     "配信"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     168
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     180,
+     202,
+     205
+    ],
+    "as": [
+     "剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     182,
+     187,
+     189
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     183,
+     188,
+     189
+    ],
+    "as": [
+     "通信功能",
+     "通信线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     183
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     187,
+     206,
+     207
+    ],
+    "as": [
+     "调试",
+     "漏洞"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     187
+    ],
+    "as": [
+     "编写程序"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     190
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     191
+    ],
+    "as": [
+     "宝可梦图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     201
+    ],
+    "as": [
+     "设计宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     201
+    ],
+    "as": [
+     "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "version-pair",
+    "name": "两个版本",
+    "facet": "system",
+    "seg": [
+     203
+    ],
+    "as": [
+     "两个版本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     205
+    ],
+    "as": [
+     "推迟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     205
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "work-style",
+    "name": "工作方式",
+    "facet": "team",
+    "seg": [
+     205
+    ],
+    "as": [
+     "通宵"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     207,
+     230
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     210
+    ],
+    "as": [
+     "游戏平衡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     219,
+     225
+    ],
+    "as": [
+     "电视动画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     219,
+     221,
+     222
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -537,7 +1205,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

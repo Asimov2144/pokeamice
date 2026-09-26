@@ -425,6 +425,520 @@
     "what": "意象被继承的地区",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "spinoff",
+    "name": "外传作品",
+    "facet": "franchise",
+    "seg": [
+     5
+    ],
+    "as": [
+     "派生作品"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     10,
+     213
+    ],
+    "as": [
+     "继承"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     16
+    ],
+    "as": [
+     "宝可梦图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     19
+    ],
+    "as": [
+     "连接起来"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     20
+    ],
+    "as": [
+     "卡牌游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     21,
+     133,
+     135,
+     136
+    ],
+    "as": [
+     "培育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     22,
+     213
+    ],
+    "as": [
+     "初代",
+     "新世代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     27,
+     73,
+     82,
+     144
+    ],
+    "as": [
+     "孩子们",
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     27,
+     143
+    ],
+    "as": [
+     "交换宝可梦",
+     "进行交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     31
+    ],
+    "as": [
+     "数据量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     32,
+     33,
+     35,
+     38,
+     39,
+     48
+    ],
+    "as": [
+     "容量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     33
+    ],
+    "as": [
+     "吃惊"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     38
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     40
+    ],
+    "as": [
+     "调试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     42
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     44,
+     46,
+     47,
+     208
+    ],
+    "as": [
+     "程序上",
+     "汇编",
+     "编程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     48
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     50,
+     94,
+     95,
+     152,
+     186
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     62
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "port",
+    "name": "移植",
+    "facet": "process",
+    "seg": [
+     62
+    ],
+    "as": [
+     "移植"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     71
+    ],
+    "as": [
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     82,
+     99
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-model",
+    "name": "舞台取材",
+    "facet": "design",
+    "seg": [
+     82
+    ],
+    "as": [
+     "为原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     83
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     90,
+     117
+    ],
+    "as": [
+     "演出效果",
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     93
+    ],
+    "as": [
+     "运气"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     94
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     107
+    ],
+    "as": [
+     "掌上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     123
+    ],
+    "as": [
+     "社会现象"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     126
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     147,
+     152
+    ],
+    "as": [
+     "精灵球"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "motion",
+    "name": "动作设计",
+    "facet": "art",
+    "seg": [
+     148,
+     151
+    ],
+    "as": [
+     "动作表现"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     154,
+     160
+    ],
+    "as": [
+     "一起做"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     158
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     168
+    ],
+    "as": [
+     "完成度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     196
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     208
+    ],
+    "as": [
+     "学生时代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     213
+    ],
+    "as": [
+     "攻略"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     217
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     217
+    ],
+    "as": [
+     "企划书"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -461,7 +975,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

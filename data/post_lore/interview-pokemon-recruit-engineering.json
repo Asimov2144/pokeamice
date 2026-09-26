@@ -100,6 +100,288 @@
     "what": "Niantic总部所在地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     1,
+     5,
+     11,
+     18
+    ],
+    "as": [
+     "版权"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     1,
+     5
+    ],
+    "as": [
+     "服务器",
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     1,
+     5
+    ],
+    "as": [
+     "3D模型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     4,
+     7,
+     15,
+     19
+    ],
+    "as": [
+     "入职"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     5
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     5,
+     11
+    ],
+    "as": [
+     "正统续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     5,
+     15
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "live-events",
+    "name": "线下活动",
+    "facet": "business",
+    "seg": [
+     7
+    ],
+    "as": [
+     "线下活动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     10,
+     19
+    ],
+    "as": [
+     "代码"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     10,
+     20,
+     21
+    ],
+    "as": [
+     "打磨",
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     10,
+     20
+    ],
+    "as": [
+     "办公室",
+     "社内"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     11,
+     16
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     11
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     11
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     11
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     15
+    ],
+    "as": [
+     "推翻"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     15
+    ],
+    "as": [
+     "路线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "work-style",
+    "name": "工作方式",
+    "facet": "team",
+    "seg": [
+     16
+    ],
+    "as": [
+     "通宵"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-tools",
+    "name": "开发工具与环境",
+    "facet": "tech",
+    "seg": [
+     19
+    ],
+    "as": [
+     "编辑器"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     19
+    ],
+    "as": [
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     19
+    ],
+    "as": [
+     "广告"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -136,7 +418,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

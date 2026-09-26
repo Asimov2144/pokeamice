@@ -43,7 +43,115 @@
     ]
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     0
+    ],
+    "as": [
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     2,
+     4,
+     34
+    ],
+    "as": [
+     "角色设计",
+     "キャラクターデザイン"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     10,
+     42
+    ],
+    "as": [
+     "精灵球",
+     "モンスターボール"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     21
+    ],
+    "as": [
+     "路线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     25
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     28
+    ],
+    "as": [
+     "主题是"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     42,
+     45,
+     48,
+     51,
+     53,
+     56
+    ],
+    "as": [
+     "设定图"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     55
+    ],
+    "as": [
+     "子供"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -60,7 +168,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

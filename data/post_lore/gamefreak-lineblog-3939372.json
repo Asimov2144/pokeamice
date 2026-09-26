@@ -82,6 +82,20 @@
     "what": "机场内的商店",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     13
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -99,7 +113,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

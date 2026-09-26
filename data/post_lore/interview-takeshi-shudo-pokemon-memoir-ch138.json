@@ -162,6 +162,239 @@
     "what": "二宫尊德神社所在地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     1,
+     5,
+     6,
+     8,
+     9,
+     10
+    ],
+    "as": [
+     "剧本",
+     "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     1
+    ],
+    "as": [
+     "音乐剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     3,
+     4,
+     5,
+     6,
+     8,
+     10
+    ],
+    "as": [
+     "系列构成",
+     "动画剧本",
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     4,
+     16
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     5,
+     8,
+     13
+    ],
+    "as": [
+     "电视动画",
+     "动画版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     5
+    ],
+    "as": [
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     6
+    ],
+    "as": [
+     "抗议"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     11
+    ],
+    "as": [
+     "工期"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     11
+    ],
+    "as": [
+     "配音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     12,
+     17,
+     20,
+     21,
+     22,
+     24
+    ],
+    "as": [
+     "版权",
+     "授权"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     22
+    ],
+    "as": [
+     "原画",
+     "手绘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     21
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "fan-works",
+    "name": "二创与同人",
+    "facet": "audience",
+    "seg": [
+     21
+    ],
+    "as": [
+     "同人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     24
+    ],
+    "as": [
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     24
+    ],
+    "as": [
+     "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     24
+    ],
+    "as": [
+     "海外版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [],
+    "as": [
+     "生态"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -214,7 +447,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

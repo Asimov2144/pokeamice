@@ -36,6 +36,96 @@
     "what": "作者入职的公司",
     "via": "extra"
    }
+  ],
+  "concepts": [
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     0,
+     4,
+     34,
+     38
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     1,
+     19,
+     35
+    ],
+    "as": [
+     "入社",
+     "学生时代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     6,
+     12,
+     16,
+     40,
+     46,
+     50
+    ],
+    "as": [
+     "公司内部",
+     "办公室",
+     "社内",
+     "オフィス"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     20,
+     52
+    ],
+    "as": [
+     "编程",
+     "プログラム"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     55
+    ],
+    "as": [
+     "グラフィック"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     61
+    ],
+    "as": [
+     "子供"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -52,7 +142,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

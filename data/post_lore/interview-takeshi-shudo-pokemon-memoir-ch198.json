@@ -211,6 +211,193 @@
     "what": "遭核弹浩劫之地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     1
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     2
+    ],
+    "as": [
+     "携手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     14,
+     22,
+     24
+    ],
+    "as": [
+     "大自然",
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     16
+    ],
+    "as": [
+     "继承"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     28
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     36
+    ],
+    "as": [
+     "想表达"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     37,
+     68,
+     87,
+     89
+    ],
+    "as": [
+     "编剧",
+     "剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     49,
+     53,
+     55
+    ],
+    "as": [
+     "动画版",
+     "电视动画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     55,
+     56
+    ],
+    "as": [
+     "镜头",
+     "摄像机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     58,
+     59
+    ],
+    "as": [
+     "抗议"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     63,
+     67,
+     90
+    ],
+    "as": [
+     "大银幕"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "spinoff",
+    "name": "外传作品",
+    "facet": "franchise",
+    "seg": [
+     69,
+     78
+    ],
+    "as": [
+     "外传",
+     "番外"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     87
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     88
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -255,7 +442,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

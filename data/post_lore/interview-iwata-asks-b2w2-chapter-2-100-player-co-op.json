@@ -102,7 +102,165 @@
     ]
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "as": [
+     "世界锦标赛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     1,
+     3
+    ],
+    "as": [
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     1,
+     13
+    ],
+    "as": [
+     "交换宝可梦",
+     "进行交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     9
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     9
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     10
+    ],
+    "as": [
+     "全球连接"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "wireless",
+    "name": "无线与擦肩",
+    "facet": "tech",
+    "seg": [
+     13,
+     29
+    ],
+    "as": [
+     "无线通信"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     17
+    ],
+    "as": [
+     "企划书"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     22,
+     26,
+     28
+    ],
+    "as": [
+     "一起玩",
+     "多人游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     24,
+     25,
+     26
+    ],
+    "as": [
+     "调试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     24
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     28
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -146,7 +304,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

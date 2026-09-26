@@ -128,6 +128,375 @@
     "what": "初代冒险舞台",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     0,
+     6,
+     7,
+     19
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "wireless",
+    "name": "无线与擦肩",
+    "facet": "tech",
+    "seg": [
+     0,
+     1,
+     9,
+     10,
+     11,
+     13
+    ],
+    "as": [
+     "无线通信",
+     "无线适配器"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     1,
+     11
+    ],
+    "as": [
+     "通信线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     1
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     1,
+     17
+    ],
+    "as": [
+     "卡带"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     1
+    ],
+    "as": [
+     "社会现象"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "accessibility",
+    "name": "无障碍",
+    "facet": "audience",
+    "seg": [
+     2
+    ],
+    "as": [
+     "无障碍"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     3
+    ],
+    "as": [
+     "门槛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     3,
+     15,
+     19
+    ],
+    "as": [
+     "新玩家",
+     "玩家群体",
+     "老玩家"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     3,
+     13
+    ],
+    "as": [
+     "团队内部",
+     "办公室"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     4
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     4,
+     5
+    ],
+    "as": [
+     "菜单",
+     "界面"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     5
+    ],
+    "as": [
+     "携手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     5,
+     18
+    ],
+    "as": [
+     "宝可梦图鉴",
+     "全国图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     6,
+     7,
+     9
+    ],
+    "as": [
+     "代码",
+     "源代码",
+     "编程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "remake",
+    "name": "复刻与重制",
+    "facet": "process",
+    "seg": [
+     7,
+     20
+    ],
+    "as": [
+     "重制版",
+     "复刻"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     8
+    ],
+    "as": [
+     "从零开始"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     11
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     13
+    ],
+    "as": [
+     "漏洞"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     13
+    ],
+    "as": [
+     "随机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     15
+    ],
+    "as": [
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     15,
+     16,
+     17
+    ],
+    "as": [
+     "存档"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     15
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     17
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     19,
+     22
+    ],
+    "as": [
+     "连接起来",
+     "面对面"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     19
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     19
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     20
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -164,7 +533,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

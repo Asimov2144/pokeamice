@@ -216,6 +216,205 @@
     "what": "游戏舞台",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     6
+    ],
+    "as": [
+     "第一次接触"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     8
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     8
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     9
+    ],
+    "as": [
+     "招聘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     12
+    ],
+    "as": [
+     "对战系统"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     12
+    ],
+    "as": [
+     "音乐剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     12
+    ],
+    "as": [
+     "界面"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     13
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     15
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     19
+    ],
+    "as": [
+     "人对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     19,
+     41,
+     43,
+     44
+    ],
+    "as": [
+     "通关",
+     "主线剧情"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "postgame",
+    "name": "通关之后",
+    "facet": "system",
+    "seg": [
+     19,
+     43
+    ],
+    "as": [
+     "通关后"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     26
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-freedom",
+    "name": "玩家的自由",
+    "facet": "design",
+    "seg": [
+     29
+    ],
+    "as": [
+     "自由度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     36
+    ],
+    "as": [
+     "宝可梦设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     39
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -244,7 +443,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

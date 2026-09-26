@@ -137,6 +137,262 @@
     "what": "首藤枯坐沉思的海滩",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     2,
+     86
+    ],
+    "as": [
+     "动画电影",
+     "大银幕"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     3,
+     30
+    ],
+    "as": [
+     "培育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-model",
+    "name": "舞台取材",
+    "facet": "design",
+    "seg": [
+     3,
+     17
+    ],
+    "as": [
+     "为原型",
+     "为蓝本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     27,
+     96
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     30
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     35,
+     36,
+     102,
+     119
+    ],
+    "as": [
+     "编剧",
+     "剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     36,
+     43,
+     61
+    ],
+    "as": [
+     "品质",
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     50,
+     70,
+     73
+    ],
+    "as": [
+     "小孩子",
+     "儿童",
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "life-and-death",
+    "name": "生死的表述",
+    "facet": "design",
+    "seg": [
+     58,
+     81,
+     82
+    ],
+    "as": [
+     "死亡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     73
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     73
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "port",
+    "name": "移植",
+    "facet": "process",
+    "seg": [
+     77
+    ],
+    "as": [
+     "移植"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     80,
+     81
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     95
+    ],
+    "as": [
+     "镜头"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     100
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     106,
+     109,
+     110,
+     112,
+     113
+    ],
+    "as": [
+     "动画化",
+     "电视动画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     106,
+     117
+    ],
+    "as": [
+     "系列构成"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     107
+    ],
+    "as": [
+     "团队内部"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -189,7 +445,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

@@ -52,6 +52,44 @@
     "what": "办公室所在大楼",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     4,
+     36
+    ],
+    "as": [
+     "办公室",
+     "オフィス"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     15
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -68,7 +106,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

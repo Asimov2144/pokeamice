@@ -100,6 +100,190 @@
     "what": "任天堂所在地之一",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     2,
+     3
+    ],
+    "as": [
+     "分集",
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     2,
+     3,
+     4,
+     6,
+     9
+    ],
+    "as": [
+     "剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     3
+    ],
+    "as": [
+     "原画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "outsourcing",
+    "name": "外包与协力",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "外包"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "流水线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     6,
+     12,
+     13,
+     18
+    ],
+    "as": [
+     "动画版",
+     "动画化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "life-and-death",
+    "name": "生死的表述",
+    "facet": "design",
+    "seg": [
+     6
+    ],
+    "as": [
+     "死亡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     6
+    ],
+    "as": [
+     "运气"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     8,
+     11
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     8,
+     12,
+     15
+    ],
+    "as": [
+     "机能",
+     "卡带"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     11
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     11
+    ],
+    "as": [
+     "热潮"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     15
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     15
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -152,7 +336,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

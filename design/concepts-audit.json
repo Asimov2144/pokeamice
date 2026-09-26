@@ -1,0 +1,2852 @@
+{
+ "generated": "2026-09-26",
+ "posts": 59,
+ "counts": {
+  "model_picks": 300,
+  "also_marked": 172,
+  "model_only": 128,
+  "recall": 0.573,
+  "marked_total": 894
+ },
+ "model_only_top": [
+  {
+   "id": "hardware-limits",
+   "n": 8,
+   "name": "机能与容量"
+  },
+  {
+   "id": "theme",
+   "n": 8,
+   "name": "作品主题"
+  },
+  {
+   "id": "pokemon-design",
+   "n": 7,
+   "name": "宝可梦设计"
+  },
+  {
+   "id": "teamwork",
+   "n": 7,
+   "name": "分工与协作"
+  },
+  {
+   "id": "programming",
+   "n": 6,
+   "name": "程序实现"
+  },
+  {
+   "id": "easy-to-grasp",
+   "n": 6,
+   "name": "易懂与门槛"
+  },
+  {
+   "id": "team-size",
+   "n": 5,
+   "name": "团队规模"
+  },
+  {
+   "id": "world-building",
+   "n": 4,
+   "name": "世界观设定"
+  },
+  {
+   "id": "media-mix",
+   "n": 4,
+   "name": "媒体展开"
+  },
+  {
+   "id": "planning",
+   "n": 3,
+   "name": "企划"
+  },
+  {
+   "id": "anime-writing",
+   "n": 3,
+   "name": "动画的写法"
+  },
+  {
+   "id": "three-d",
+   "n": 3,
+   "name": "3D 与建模"
+  },
+  {
+   "id": "player-freedom",
+   "n": 3,
+   "name": "玩家的自由"
+  },
+  {
+   "id": "character-design",
+   "n": 3,
+   "name": "角色设计"
+  },
+  {
+   "id": "mystery",
+   "n": 3,
+   "name": "神秘感"
+  },
+  {
+   "id": "quality",
+   "n": 2,
+   "name": "完成度与打磨"
+  },
+  {
+   "id": "overseas",
+   "n": 2,
+   "name": "海外发行"
+  },
+  {
+   "id": "dev-tools",
+   "n": 2,
+   "name": "开发工具与环境"
+  },
+  {
+   "id": "anime",
+   "n": 2,
+   "name": "电视动画"
+  },
+  {
+   "id": "surprise",
+   "n": 2,
+   "name": "惊喜与发现"
+  }
+ ],
+ "missing_named": [
+  {
+   "name": "全球同步发售",
+   "n": 3
+  },
+  {
+   "name": "图鉴登记机制",
+   "n": 1
+  },
+  {
+   "name": "秘技与攻略文化",
+   "n": 1
+  },
+  {
+   "name": "幻之宝可梦配信",
+   "n": 1
+  },
+  {
+   "name": "生命感哲学",
+   "n": 1
+  },
+  {
+   "name": "帮助菜单与UI亲和",
+   "n": 1
+  },
+  {
+   "name": "剧情回顾系统",
+   "n": 1
+  },
+  {
+   "name": "讲究与手艺",
+   "n": 1
+  },
+  {
+   "name": "感受的数字化",
+   "n": 1
+  },
+  {
+   "name": "英语演讲与传达",
+   "n": 1
+  },
+  {
+   "name": "动画化决策与制作委员会",
+   "n": 1
+  },
+  {
+   "name": "字幕与可读性",
+   "n": 1
+  },
+  {
+   "name": "公司内部培训",
+   "n": 1
+  },
+  {
+   "name": "企业政治与内部斗争",
+   "n": 1
+  },
+  {
+   "name": "公共广播与媒体伦理",
+   "n": 1
+  },
+  {
+   "name": "歧视与共生",
+   "n": 1
+  },
+  {
+   "name": "形态变化",
+   "n": 1
+  },
+  {
+   "name": "同人创作与交换",
+   "n": 1
+  },
+  {
+   "name": "性别与母性",
+   "n": 1
+  },
+  {
+   "name": "跟随系统",
+   "n": 1
+  },
+  {
+   "name": "官方插画与三视图流程",
+   "n": 1
+  },
+  {
+   "name": "编剧的伦理与责任",
+   "n": 1
+  },
+  {
+   "name": "长寿连载的困境",
+   "n": 1
+  },
+  {
+   "name": "宝可计步器与周边配件",
+   "n": 1
+  },
+  {
+   "name": "编剧职业与行业生态",
+   "n": 1
+  },
+  {
+   "name": "创作观与自我表达",
+   "n": 1
+  },
+  {
+   "name": "进化链的叙事设计",
+   "n": 1
+  },
+  {
+   "name": "御三家的文化分工",
+   "n": 1
+  },
+  {
+   "name": "属性配比",
+   "n": 1
+  },
+  {
+   "name": "季节系统",
+   "n": 1
+  }
+ ],
+ "rows": [
+  {
+   "post": "scan-shodai-zukan-1996-pokemon-journal",
+   "kind": "scan",
+   "marked": [
+    "nature-and-bugs",
+    "items",
+    "randomness",
+    "collection",
+    "teamwork",
+    "mentoring",
+    "battle-system",
+    "type-matchup",
+    "level-exp",
+    "level-design",
+    "cry-design",
+    "raising",
+    "guides",
+    "manga",
+    "children",
+    "cable-link",
+    "data-management",
+    "world-building"
+   ],
+   "model": [
+    "world-building",
+    "collection",
+    "trade",
+    "type-matchup",
+    "items",
+    "connection"
+   ],
+   "agreed": [
+    "world-building",
+    "collection",
+    "type-matchup",
+    "items"
+   ],
+   "model_only": [
+    "trade",
+    "connection"
+   ],
+   "missing": [
+    {
+     "name": "图鉴登记机制",
+     "gloss": "遇到即记录、持有才加标记，把「见过」与「收服」分开的两层图鉴设计。",
+     "seg": 29
+    }
+   ]
+  },
+  {
+   "post": "interview-famimaga-tajiri-pokemon2-secret",
+   "kind": "interview",
+   "marked": [
+    "delay",
+    "marketing",
+    "trade",
+    "collection",
+    "main-story",
+    "guides",
+    "sales",
+    "type-matchup",
+    "cry-design",
+    "level-exp",
+    "sequel",
+    "reuse",
+    "scenario",
+    "version-pair",
+    "cable-link",
+    "spinoff",
+    "easy-to-grasp",
+    "pokemon-design",
+    "ui-operation",
+    "generations"
+   ],
+   "model": [
+    "trade",
+    "cry-design",
+    "type-matchup",
+    "version-pair",
+    "easy-to-grasp",
+    "sequel"
+   ],
+   "agreed": [
+    "trade",
+    "cry-design",
+    "type-matchup",
+    "version-pair",
+    "easy-to-grasp",
+    "sequel"
+   ],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "秘技与攻略文化",
+     "gloss": "杂志连载的秘技（利用电源关闭、战斗操作等漏洞）与读者投稿，构成早期玩家口耳相传的攻略文化。",
+     "seg": 13
+    },
+    {
+     "name": "幻之宝可梦配信",
+     "gloss": "通过杂志应募向读者赠送游戏中无法获得的梦幻，是早期配信活动的雏形。",
+     "seg": 37
+    }
+   ]
+  },
+  {
+   "post": "interview-nom-special-dialogue-tajiri-ishihara",
+   "kind": "interview",
+   "marked": [
+    "cable-link",
+    "collection",
+    "fan-works",
+    "nature-and-bugs",
+    "teamwork",
+    "connection",
+    "children",
+    "text-volume",
+    "localization",
+    "overseas",
+    "randomness",
+    "character-design",
+    "nostalgia",
+    "link-battle",
+    "level-design",
+    "world-building",
+    "quality",
+    "planning",
+    "dev-tools",
+    "joining",
+    "trade",
+    "level-exp",
+    "sequel",
+    "collaboration",
+    "media-mix",
+    "anime",
+    "cry-design",
+    "scenario",
+    "voice",
+    "tcg",
+    "generations",
+    "naming",
+    "reuse"
+   ],
+   "model": [
+    "nature-and-bugs",
+    "connection",
+    "trade",
+    "hardware-limits",
+    "localization",
+    "media-mix"
+   ],
+   "agreed": [
+    "nature-and-bugs",
+    "connection",
+    "trade",
+    "localization",
+    "media-mix"
+   ],
+   "model_only": [
+    "hardware-limits"
+   ],
+   "missing": [
+    {
+     "name": "生命感哲学",
+     "gloss": "把宝可梦当作有生态、有温度的生物来设计，而非人工生命或自律程序。",
+     "seg": 49
+    },
+    {
+     "name": "全球同步发售",
+     "gloss": "追求日美欧各语言版本同时上市，消除发售时间差。",
+     "seg": 66
+    }
+   ]
+  },
+  {
+   "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+   "kind": "interview",
+   "marked": [
+    "generations",
+    "wireless",
+    "cable-link",
+    "handheld",
+    "hardware-limits",
+    "social-impact",
+    "accessibility",
+    "easy-to-grasp",
+    "player-segments",
+    "studio-culture",
+    "difficulty",
+    "ui-operation",
+    "collaboration",
+    "collection",
+    "programming",
+    "remake",
+    "iteration",
+    "trade",
+    "debugging",
+    "randomness",
+    "anime-writing",
+    "data-management",
+    "manga",
+    "items",
+    "connection",
+    "main-story",
+    "surprise",
+    "nature-and-bugs"
+   ],
+   "model": [
+    "remake",
+    "wireless",
+    "easy-to-grasp",
+    "connection",
+    "hardware-limits",
+    "programming"
+   ],
+   "agreed": [
+    "remake",
+    "wireless",
+    "easy-to-grasp",
+    "connection",
+    "hardware-limits",
+    "programming"
+   ],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "帮助菜单与UI亲和",
+     "gloss": "把操作指南绑到肩键、把图鉴做成纸质手账风，属于界面与操作层面的亲和设计。",
+     "seg": 5
+    },
+    {
+     "name": "剧情回顾系统",
+     "gloss": "读档时用漫画分镜回放最近四步行动，帮助久未上线的玩家找回节奏。",
+     "seg": 15
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-director-001",
+   "kind": "blog",
+   "marked": [],
+   "model": [
+    "quality"
+   ],
+   "agreed": [],
+   "model_only": [
+    "quality"
+   ],
+   "missing": [
+    {
+     "name": "讲究与手艺",
+     "gloss": "把「讲究地创作」当作公司最重视的信条，用木屐工匠作比，谈在看似普通处投入精力、追求让一百个人都说好的完成度。",
+     "seg": 7
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-director-051",
+   "kind": "blog",
+   "marked": [
+    "iteration"
+   ],
+   "model": [
+    "programming",
+    "planning",
+    "easy-to-grasp"
+   ],
+   "agreed": [],
+   "model_only": [
+    "programming",
+    "planning",
+    "easy-to-grasp"
+   ],
+   "missing": [
+    {
+     "name": "感受的数字化",
+     "gloss": "把「有趣」「快乐」「舒服」这类感受转成数字、写成程序，再让玩家重新体验出来——本文的核心命题。",
+     "seg": 0
+    }
+   ]
+  },
+  {
+   "post": "continue-vol31-aoi-yu-pikachu",
+   "kind": "scan",
+   "marked": [
+    "testing",
+    "voice",
+    "marketing",
+    "data-management"
+   ],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": []
+  },
+  {
+   "post": "gamefreak-director-097",
+   "kind": "blog",
+   "marked": [
+    "trade",
+    "children",
+    "art-direction"
+   ],
+   "model": [
+    "trade",
+    "overseas",
+    "localization",
+    "children",
+    "distribution-gift",
+    "easy-to-grasp"
+   ],
+   "agreed": [
+    "trade",
+    "children"
+   ],
+   "model_only": [
+    "overseas",
+    "localization",
+    "distribution-gift",
+    "easy-to-grasp"
+   ],
+   "missing": [
+    {
+     "name": "英语演讲与传达",
+     "gloss": "开发者亲自用外语面对海外玩家讲话，把热情和真实感直接传过去，而非依赖字幕。",
+     "seg": 4
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-staff-54",
+   "kind": "blog",
+   "marked": [
+    "children",
+    "recruiting"
+   ],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": []
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch140",
+   "kind": "interview",
+   "marked": [
+    "anime",
+    "handheld",
+    "planning",
+    "balance",
+    "scenario",
+    "media-mix",
+    "nature-and-bugs",
+    "cry-design",
+    "manga",
+    "reuse",
+    "dialogue",
+    "localization"
+   ],
+   "model": [
+    "anime-writing",
+    "planning",
+    "media-mix",
+    "pokemon-design",
+    "theme",
+    "canon-consistency"
+   ],
+   "agreed": [
+    "planning",
+    "media-mix"
+   ],
+   "model_only": [
+    "anime-writing",
+    "pokemon-design",
+    "theme",
+    "canon-consistency"
+   ],
+   "missing": [
+    {
+     "name": "动画化决策与制作委员会",
+     "gloss": "游戏改编动画的立项、高层会议与制作委员会决策过程，词表未单列。",
+     "seg": 1
+    }
+   ]
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch151",
+   "kind": "interview",
+   "marked": [
+    "cry-design",
+    "scenario",
+    "world-building",
+    "anime",
+    "anime-writing",
+    "voice",
+    "planning",
+    "connection",
+    "accessibility",
+    "nature-and-bugs",
+    "children",
+    "dialogue",
+    "localization"
+   ],
+   "model": [
+    "anime-writing",
+    "cry-design",
+    "world-building",
+    "children",
+    "dialogue",
+    "scenario"
+   ],
+   "agreed": [
+    "anime-writing",
+    "cry-design",
+    "world-building",
+    "children",
+    "dialogue",
+    "scenario"
+   ],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "字幕与可读性",
+     "gloss": "给宝可梦叫声配字幕这一表现手法本身，以及低龄观众能否读懂滚动字幕的争论。",
+     "seg": 8
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-staff-93",
+   "kind": "blog",
+   "marked": [
+    "art-direction",
+    "joining",
+    "studio-culture",
+    "screen-look",
+    "recruiting"
+   ],
+   "model": [
+    "three-d",
+    "programming",
+    "dev-tools",
+    "teamwork",
+    "mentoring",
+    "pixel-art"
+   ],
+   "agreed": [],
+   "model_only": [
+    "three-d",
+    "programming",
+    "dev-tools",
+    "teamwork",
+    "mentoring",
+    "pixel-art"
+   ],
+   "missing": [
+    {
+     "name": "公司内部培训",
+     "gloss": "公司内部定期举办的技术讲习会，让不同工种互相了解彼此的工作",
+     "seg": 21
+    }
+   ]
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch164",
+   "kind": "interview",
+   "marked": [
+    "randomness",
+    "education",
+    "manga",
+    "collaboration",
+    "family",
+    "media-mix",
+    "merchandise",
+    "children",
+    "studio-culture",
+    "scenario",
+    "localization"
+   ],
+   "model": [
+    "anime",
+    "social-impact",
+    "media-mix",
+    "licensing",
+    "studio-culture",
+    "children"
+   ],
+   "agreed": [
+    "media-mix",
+    "studio-culture",
+    "children"
+   ],
+   "model_only": [
+    "anime",
+    "social-impact",
+    "licensing"
+   ],
+   "missing": [
+    {
+     "name": "企业政治与内部斗争",
+     "gloss": "出版社内部的派系倾轧、嫉妒文化与保守派对功臣的清算，本文核心议题。",
+     "seg": 11
+    },
+    {
+     "name": "公共广播与媒体伦理",
+     "gloss": "NHK隐瞒同类事故丑闻，涉及公共电视台的责任与信息封锁。",
+     "seg": 13
+    }
+   ]
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch175",
+   "kind": "interview",
+   "marked": [
+    "scenario",
+    "overseas",
+    "theme",
+    "social-impact",
+    "anime",
+    "items",
+    "dialogue",
+    "movie",
+    "localization"
+   ],
+   "model": [
+    "theme",
+    "scenario",
+    "anime-writing",
+    "dialogue",
+    "localization",
+    "antagonist"
+   ],
+   "agreed": [
+    "theme",
+    "scenario",
+    "dialogue",
+    "localization"
+   ],
+   "model_only": [
+    "anime-writing",
+    "antagonist"
+   ],
+   "missing": [
+    {
+     "name": "歧视与共生",
+     "gloss": "以现实中的歧视结构（本物与克隆、野生与饲育）作为作品底层母题，并延伸到共生这一终局命题。",
+     "seg": 30
+    }
+   ]
+  },
+  {
+   "post": "interview-nintendo-power-241-platinum-masuda-kawachimaru",
+   "kind": "interview",
+   "marked": [
+    "generations"
+   ],
+   "model": [
+    "world-building",
+    "pokemon-design",
+    "type-matchup",
+    "battle-system",
+    "surprise",
+    "theme"
+   ],
+   "agreed": [],
+   "model_only": [
+    "world-building",
+    "pokemon-design",
+    "type-matchup",
+    "battle-system",
+    "surprise",
+    "theme"
+   ],
+   "missing": [
+    {
+     "name": "形态变化",
+     "gloss": "同一只宝可梦通过外部条件（如钻进家电）切换形态，连带属性、种族值与招式一起变，是《白金》洛托姆的核心设计。",
+     "seg": 4
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-staff-128",
+   "kind": "blog",
+   "marked": [
+    "antagonist",
+    "pixel-art",
+    "social-impact",
+    "bgm",
+    "quality",
+    "trade",
+    "recruiting"
+   ],
+   "model": [
+    "pixel-art",
+    "bgm",
+    "studio-culture",
+    "quality",
+    "work-style",
+    "player-freedom"
+   ],
+   "agreed": [
+    "pixel-art",
+    "bgm",
+    "quality"
+   ],
+   "model_only": [
+    "studio-culture",
+    "work-style",
+    "player-freedom"
+   ],
+   "missing": [
+    {
+     "name": "同人创作与交换",
+     "gloss": "员工用《Made in Ore》自制小游戏并在公司内互相交换、收集，形成热潮——这是玩家自制内容与交换文化在开发团队内部的体现。",
+     "seg": 34
+    }
+   ]
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch192",
+   "kind": "interview",
+   "marked": [
+    "movie",
+    "dialogue",
+    "scenario",
+    "nostalgia",
+    "quality",
+    "joining",
+    "localization"
+   ],
+   "model": [
+    "anime-writing",
+    "movie",
+    "scenario",
+    "theme",
+    "character-design",
+    "mystery"
+   ],
+   "agreed": [
+    "movie",
+    "scenario"
+   ],
+   "model_only": [
+    "anime-writing",
+    "theme",
+    "character-design",
+    "mystery"
+   ],
+   "missing": [
+    {
+     "name": "性别与母性",
+     "gloss": "围绕洛奇亚该是雄性还是母性展开的创作挣扎，以及父性与母性的对立",
+     "seg": 44
+    }
+   ]
+  },
+  {
+   "post": "interview-dengeki-morimoto-hgss-walking-pokemon",
+   "kind": "interview",
+   "marked": [
+    "main-story",
+    "studio-culture",
+    "player-segments",
+    "surprise",
+    "iteration",
+    "level-exp",
+    "pixel-art",
+    "three-d",
+    "mentoring",
+    "distribution-gift",
+    "hardware-limits",
+    "items",
+    "reuse",
+    "generations",
+    "online-service"
+   ],
+   "model": [
+    "remake",
+    "pixel-art",
+    "three-d",
+    "player-segments",
+    "distribution-gift",
+    "hardware-limits"
+   ],
+   "agreed": [
+    "pixel-art",
+    "three-d",
+    "player-segments",
+    "distribution-gift",
+    "hardware-limits"
+   ],
+   "model_only": [
+    "remake"
+   ],
+   "missing": [
+    {
+     "name": "跟随系统",
+     "gloss": "让全部宝可梦在地图上跟在主角身后行走这一玩法设计，及其带来的巨量美术与实现负担。",
+     "seg": 6
+    }
+   ]
+  },
+  {
+   "post": "scan-ndream-2009-11-sugimori-charakami-special",
+   "kind": "scan",
+   "marked": [
+    "illustration",
+    "battle-system",
+    "level-design",
+    "world-building",
+    "distribution-gift",
+    "multiplayer",
+    "sequel",
+    "hand-drawn",
+    "manga",
+    "fan-works",
+    "joining",
+    "teamwork",
+    "theme",
+    "iteration",
+    "main-story",
+    "licensing",
+    "art-direction",
+    "character-design",
+    "collection",
+    "prototype",
+    "stage-model",
+    "planning",
+    "screen-look",
+    "surprise",
+    "studio-culture",
+    "testing",
+    "generations",
+    "wireless",
+    "marketing",
+    "data-management"
+   ],
+   "model": [
+    "character-design",
+    "pokemon-design",
+    "illustration",
+    "hand-drawn",
+    "easy-to-grasp",
+    "hardware-limits"
+   ],
+   "agreed": [
+    "character-design",
+    "illustration",
+    "hand-drawn"
+   ],
+   "model_only": [
+    "pokemon-design",
+    "easy-to-grasp",
+    "hardware-limits"
+   ],
+   "missing": [
+    {
+     "name": "官方插画与三视图流程",
+     "gloss": "官方插画要「一张图说明全部」，先画三视图定姿势再画插画，这一套绘制流程与工作量。",
+     "seg": 148
+    }
+   ]
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch208",
+   "kind": "interview",
+   "marked": [
+    "scenario",
+    "children",
+    "nostalgia",
+    "movie",
+    "stage-music",
+    "joining",
+    "dialogue",
+    "anime",
+    "generations",
+    "world-building",
+    "handheld",
+    "merchandise",
+    "player-segments",
+    "education",
+    "family",
+    "randomness",
+    "balance",
+    "anime-writing",
+    "surprise",
+    "media-mix",
+    "antagonist",
+    "sequel",
+    "teamwork",
+    "iteration",
+    "life-and-death",
+    "licensing",
+    "spinoff",
+    "mentoring",
+    "social-impact",
+    "localization"
+   ],
+   "model": [
+    "scenario",
+    "theme",
+    "movie",
+    "anime-writing",
+    "media-mix",
+    "licensing"
+   ],
+   "agreed": [
+    "scenario",
+    "movie",
+    "anime-writing",
+    "media-mix",
+    "licensing"
+   ],
+   "model_only": [
+    "theme"
+   ],
+   "missing": [
+    {
+     "name": "编剧的伦理与责任",
+     "gloss": "创作者对观众背负的道义责任，以及不愿写违心之言的自我准则。",
+     "seg": 19
+    },
+    {
+     "name": "长寿连载的困境",
+     "gloss": "超长连载作品如何维持主角成长与叙事公式之间的矛盾。",
+     "seg": 57
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-staff-168",
+   "kind": "blog",
+   "marked": [
+    "recruiting",
+    "marketing"
+   ],
+   "model": [
+    "recruiting",
+    "joining"
+   ],
+   "agreed": [
+    "recruiting"
+   ],
+   "model_only": [
+    "joining"
+   ],
+   "missing": []
+  },
+  {
+   "post": "interview-pokemon-com-hgss-masuda-morimoto",
+   "kind": "interview",
+   "marked": [
+    "color-work",
+    "online-service",
+    "sfx",
+    "sound-hardware",
+    "raising",
+    "data-management",
+    "antagonist",
+    "battle-system",
+    "collection",
+    "items",
+    "link-battle",
+    "main-story",
+    "studio-culture",
+    "tcg",
+    "naming",
+    "movie",
+    "anime"
+   ],
+   "model": [
+    "easy-to-grasp",
+    "hardware-limits",
+    "team-size",
+    "media-mix",
+    "collection",
+    "multiplayer"
+   ],
+   "agreed": [
+    "collection"
+   ],
+   "model_only": [
+    "easy-to-grasp",
+    "hardware-limits",
+    "team-size",
+    "media-mix",
+    "multiplayer"
+   ],
+   "missing": [
+    {
+     "name": "宝可计步器与周边配件",
+     "gloss": "把游戏体验延伸到掌机之外的实体配件（计步器），让玩家走路时也能与宝可梦在一起。",
+     "seg": 18
+    }
+   ]
+  },
+  {
+   "post": "interview-takeshi-shudo-pokemon-memoir-ch226",
+   "kind": "interview",
+   "marked": [
+    "scenario",
+    "easy-to-grasp",
+    "movie",
+    "licensing",
+    "distribution-gift",
+    "wireless",
+    "manga",
+    "accessibility",
+    "camera",
+    "antagonist",
+    "fan-works",
+    "hand-drawn",
+    "sales",
+    "quality",
+    "teamwork",
+    "anime-writing",
+    "children",
+    "education",
+    "generations",
+    "recruiting",
+    "merchandise",
+    "voice",
+    "remake",
+    "localization"
+   ],
+   "model": [
+    "scenario",
+    "anime-writing",
+    "planning",
+    "theme",
+    "work-style",
+    "media-mix"
+   ],
+   "agreed": [
+    "scenario",
+    "anime-writing"
+   ],
+   "model_only": [
+    "planning",
+    "theme",
+    "work-style",
+    "media-mix"
+   ],
+   "missing": [
+    {
+     "name": "编剧职业与行业生态",
+     "gloss": "编剧这一行的入行门槛、工会组织、稿酬版税与生存状态，是全文反复谈的核心。",
+     "seg": 4
+    },
+    {
+     "name": "创作观与自我表达",
+     "gloss": "只写自己真正想写的东西、以自身经验为唯一素材、拒绝逢迎观众，是作者贯穿全篇的主张。",
+     "seg": 64
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-staff-199",
+   "kind": "blog",
+   "marked": [
+    "schedule",
+    "studio-culture",
+    "surprise",
+    "merchandise",
+    "recruiting"
+   ],
+   "model": [
+    "quality",
+    "schedule",
+    "merchandise",
+    "studio-culture",
+    "teamwork",
+    "marketing"
+   ],
+   "agreed": [
+    "schedule",
+    "merchandise",
+    "studio-culture"
+   ],
+   "model_only": [
+    "quality",
+    "teamwork",
+    "marketing"
+   ],
+   "missing": []
+  },
+  {
+   "post": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+   "kind": "interview",
+   "marked": [
+    "marketing",
+    "main-story",
+    "raising",
+    "nostalgia",
+    "remake",
+    "sequel",
+    "surprise",
+    "iteration",
+    "items",
+    "level-design",
+    "antagonist",
+    "children",
+    "balance",
+    "team-size",
+    "hand-drawn",
+    "type-matchup",
+    "art-direction",
+    "quality",
+    "world-building",
+    "prototype",
+    "stage-model",
+    "generations",
+    "cry-design",
+    "sfx",
+    "dev-cycle",
+    "postgame",
+    "hardware-limits",
+    "multiplayer",
+    "stage-music",
+    "multilingual",
+    "naming",
+    "color-work",
+    "teamwork",
+    "pokemon-design",
+    "cable-link",
+    "mentoring",
+    "wireless",
+    "ui-operation",
+    "nature-and-bugs"
+   ],
+   "model": [
+    "pokemon-design",
+    "naming",
+    "character-design",
+    "wireless",
+    "cry-design",
+    "world-building"
+   ],
+   "agreed": [
+    "pokemon-design",
+    "naming",
+    "wireless",
+    "cry-design",
+    "world-building"
+   ],
+   "model_only": [
+    "character-design"
+   ],
+   "missing": [
+    {
+     "name": "进化链的叙事设计",
+     "gloss": "把一段进化（水水獭→双刃丸→大剑鬼）当作武士成长故事来编排，前后形象与身份逐级接续。",
+     "seg": 160
+    },
+    {
+     "name": "御三家的文化分工",
+     "gloss": "三只初始伙伴分别承载欧洲、日本、中国等不同地域文化，成套互补地体现合众的多元主题。",
+     "seg": 169
+    }
+   ]
+  },
+  {
+   "post": "scan-ndream-2011-01-bw-design-secrets",
+   "kind": "scan",
+   "marked": [
+    "bgm",
+    "illustration",
+    "character-design",
+    "mentoring",
+    "pixel-art",
+    "pokemon-design",
+    "main-story",
+    "level-design",
+    "hand-drawn",
+    "teamwork",
+    "type-matchup",
+    "three-d",
+    "ui-operation",
+    "battle-system",
+    "level-exp",
+    "items",
+    "camera",
+    "planning",
+    "balance",
+    "prototype",
+    "anime",
+    "stage-model",
+    "screen-look",
+    "iteration",
+    "quality",
+    "trade",
+    "player-segments",
+    "studio-culture",
+    "antagonist",
+    "scenario",
+    "easy-to-grasp",
+    "sequel",
+    "data-management"
+   ],
+   "model": [
+    "pokemon-design",
+    "character-design",
+    "three-d",
+    "pixel-art",
+    "color-work",
+    "motion"
+   ],
+   "agreed": [
+    "pokemon-design",
+    "character-design",
+    "three-d",
+    "pixel-art"
+   ],
+   "model_only": [
+    "color-work",
+    "motion"
+   ],
+   "missing": [
+    {
+     "name": "属性配比",
+     "gloss": "按属性分配新宝可梦数量，避免某一属性创意过多或过少，如访谈中「不能只有水属性达到100只」。",
+     "seg": 40
+    }
+   ]
+  },
+  {
+   "post": "interview-nintendo-power-bw-masuda-sugimori",
+   "kind": "interview",
+   "marked": [
+    "raising",
+    "fan-works",
+    "hand-drawn",
+    "nature-and-bugs",
+    "online-service",
+    "generations",
+    "children",
+    "community",
+    "player-segments",
+    "cable-link",
+    "connection",
+    "multiplayer",
+    "character-design",
+    "type-matchup",
+    "dev-cycle",
+    "programming",
+    "testing",
+    "balance",
+    "competitive",
+    "nostalgia",
+    "prototype",
+    "stage-model",
+    "color-work",
+    "hardware-limits",
+    "surprise",
+    "localization"
+   ],
+   "model": [
+    "theme",
+    "pokemon-design",
+    "stage-model",
+    "player-segments",
+    "team-size",
+    "balance"
+   ],
+   "agreed": [
+    "stage-model",
+    "player-segments",
+    "balance"
+   ],
+   "model_only": [
+    "theme",
+    "pokemon-design",
+    "team-size"
+   ],
+   "missing": [
+    {
+     "name": "季节系统",
+     "gloss": "以月份为单位改变地图与宝可梦外观的机制，让玩家隔一段时间回来有新的发现。",
+     "seg": 52
+    }
+   ]
+  },
+  {
+   "post": "scan-ndream-2011-05-ohmura-character-making",
+   "kind": "scan",
+   "marked": [
+    "character-design",
+    "joining",
+    "pokemon-design",
+    "illustration",
+    "recruiting",
+    "main-story",
+    "manga",
+    "pixel-art",
+    "prototype",
+    "items",
+    "color-work",
+    "screen-look",
+    "dialogue",
+    "sfx",
+    "data-management"
+   ],
+   "model": [
+    "pokemon-design",
+    "character-design",
+    "color-work",
+    "art-direction",
+    "joining",
+    "teamwork"
+   ],
+   "agreed": [
+    "pokemon-design",
+    "character-design",
+    "color-work",
+    "joining"
+   ],
+   "model_only": [
+    "art-direction",
+    "teamwork"
+   ],
+   "missing": [
+    {
+     "name": "设计上的反骨",
+     "gloss": "访谈中反复强调的「不过于完美」「先对『这样就行了吗？』抱一次疑问」的扭曲感，是GAME FREAK设计师共有的习性，词表里没有对应概念。",
+     "seg": 17
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-art-226",
+   "kind": "blog",
+   "marked": [
+    "movie",
+    "character-design",
+    "color-work",
+    "balance",
+    "illustration",
+    "children"
+   ],
+   "model": [
+    "character-design",
+    "stage-model",
+    "color-work",
+    "art-direction",
+    "anime",
+    "world-building"
+   ],
+   "agreed": [
+    "character-design",
+    "color-work"
+   ],
+   "model_only": [
+    "stage-model",
+    "art-direction",
+    "anime",
+    "world-building"
+   ],
+   "missing": []
+  },
+  {
+   "post": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+   "kind": "interview",
+   "marked": [
+    "player-segments",
+    "theme",
+    "recruiting",
+    "handheld",
+    "community",
+    "quality",
+    "ui-operation",
+    "main-story",
+    "postgame",
+    "difficulty",
+    "testing",
+    "studio-culture",
+    "merchandise",
+    "scenario",
+    "world-building",
+    "reuse",
+    "easy-to-grasp",
+    "hardware-limits",
+    "wireless",
+    "localization",
+    "naming"
+   ],
+   "model": [
+    "easy-to-grasp",
+    "postgame",
+    "difficulty",
+    "new-hardware",
+    "wireless",
+    "children"
+   ],
+   "agreed": [
+    "easy-to-grasp",
+    "postgame",
+    "difficulty",
+    "wireless"
+   ],
+   "model_only": [
+    "new-hardware",
+    "children"
+   ],
+   "missing": [
+    {
+     "name": "手感与操作反馈",
+     "gloss": "反复强调按键打击反馈与触觉手感是核心卖点，词表ui-operation偏界面菜单，未覆盖动作手感这一层。",
+     "seg": 16
+    },
+    {
+     "name": "标题命名哲学",
+     "gloss": "围绕是否冠以SUPER、去掉「乱战！」的取舍展开讨论，属作品标题命名，词表naming偏宝可梦/招式/地名。",
+     "seg": 34
+    }
+   ]
+  },
+  {
+   "post": "scan-ndream-2012-10-b2w2-pickup-secrets",
+   "kind": "scan",
+   "marked": [
+    "guides",
+    "main-story",
+    "scenario",
+    "items",
+    "wireless",
+    "team-size",
+    "raising",
+    "level-exp",
+    "connection",
+    "planning",
+    "prototype",
+    "surprise",
+    "teamwork",
+    "cry-design",
+    "live-events",
+    "multiplayer",
+    "studio-culture",
+    "camera",
+    "dialogue",
+    "mystery",
+    "difficulty",
+    "screen-look",
+    "world-building",
+    "life-and-death",
+    "level-design",
+    "postgame",
+    "trade",
+    "collection",
+    "competitive",
+    "link-battle",
+    "battle-system",
+    "distribution-gift",
+    "marketing",
+    "iteration",
+    "composing",
+    "bgm",
+    "price-model",
+    "ui-operation",
+    "cable-link",
+    "data-management"
+   ],
+   "model": [
+    "multiplayer",
+    "wireless",
+    "battle-system",
+    "easy-to-grasp",
+    "competitive",
+    "distribution-gift"
+   ],
+   "agreed": [
+    "multiplayer",
+    "wireless",
+    "battle-system",
+    "competitive",
+    "distribution-gift"
+   ],
+   "model_only": [
+    "easy-to-grasp"
+   ],
+   "missing": [
+    {
+     "name": "电影化演出",
+     "gloss": "把宝可梦对战包装成拍电影，用剧本、镜头、结局分支来呈现，是宝可坞这一新玩法的核心。",
+     "seg": 54
+    },
+    {
+     "name": "城市经营",
+     "gloss": "汇合大道让玩家招募通信过的对象开店、升级城市，属于把通信关系转化为可经营的据点。",
+     "seg": 233
+    }
+   ]
+  },
+  {
+   "post": "interview-gi-2012-b2w2-sequel",
+   "kind": "interview",
+   "marked": [
+    "sequel",
+    "player-segments",
+    "surprise",
+    "three-d",
+    "illustration",
+    "ui-operation",
+    "connection",
+    "multiplayer",
+    "online-service",
+    "work-style",
+    "cry-design",
+    "anime",
+    "sfx",
+    "battle-system",
+    "competitive"
+   ],
+   "model": [
+    "sequel",
+    "cry-design",
+    "battle-system",
+    "easy-to-grasp",
+    "competitive",
+    "hardware-limits"
+   ],
+   "agreed": [
+    "sequel",
+    "cry-design",
+    "battle-system",
+    "competitive"
+   ],
+   "model_only": [
+    "easy-to-grasp",
+    "hardware-limits"
+   ],
+   "missing": [
+    {
+     "name": "平台选择",
+     "gloss": "为什么把续作继续放在旧掌机DS而不是新机3DS上——以玩家持有量为先的发行判断。",
+     "seg": 4
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-director-237",
+   "kind": "blog",
+   "marked": [
+    "localization",
+    "overseas",
+    "scenario"
+   ],
+   "model": [
+    "localization",
+    "overseas",
+    "multilingual",
+    "naming",
+    "world-building",
+    "surprise"
+   ],
+   "agreed": [
+    "localization",
+    "overseas"
+   ],
+   "model_only": [
+    "multilingual",
+    "naming",
+    "world-building",
+    "surprise"
+   ],
+   "missing": [
+    {
+     "name": "全球同步发售",
+     "gloss": "同一款游戏在世界各地同一天上市，本地化与发行排期必须整体对齐。",
+     "seg": 5
+    }
+   ]
+  },
+  {
+   "post": "interview-multiplayer-2013-xy",
+   "kind": "interview",
+   "marked": [
+    "sequel",
+    "testing",
+    "theme",
+    "overseas",
+    "version-pair",
+    "community",
+    "connection",
+    "player-freedom",
+    "evolution-design",
+    "items",
+    "studio-culture",
+    "distribution-gift",
+    "three-d",
+    "anime",
+    "cry-design",
+    "handheld"
+   ],
+   "model": [
+    "theme",
+    "version-pair",
+    "evolution-design",
+    "distribution-gift",
+    "three-d",
+    "handheld"
+   ],
+   "agreed": [
+    "theme",
+    "version-pair",
+    "evolution-design",
+    "distribution-gift",
+    "three-d",
+    "handheld"
+   ],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "全球同步发售",
+     "gloss": "同一款游戏在世界各地同时上市，为此重排本地化与生产流程，让各地玩家同时开始、避免剧透。",
+     "seg": 16
+    }
+   ]
+  },
+  {
+   "post": "interview-gamefreak-recruit-programmer-tt-mi",
+   "kind": "interview",
+   "marked": [
+    "joining",
+    "recruiting",
+    "dev-tools",
+    "studio-culture",
+    "three-d",
+    "ui-operation",
+    "distribution-gift",
+    "quality",
+    "surprise",
+    "children",
+    "world-building"
+   ],
+   "model": [
+    "three-d",
+    "programming",
+    "dev-tools",
+    "ui-operation",
+    "quality",
+    "teamwork"
+   ],
+   "agreed": [
+    "three-d",
+    "dev-tools",
+    "ui-operation",
+    "quality"
+   ],
+   "model_only": [
+    "programming",
+    "teamwork"
+   ],
+   "missing": [
+    {
+     "name": "社招与中途入职",
+     "gloss": "从别的公司中途转职进来的人带来的技术与经验，以及公司因此发生的变化。",
+     "seg": 3
+    }
+   ]
+  },
+  {
+   "post": "interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+   "kind": "interview",
+   "marked": [
+    "distribution-gift",
+    "fan-works",
+    "merchandise",
+    "level-design",
+    "remake",
+    "teamwork",
+    "sfx",
+    "sound-hardware",
+    "debugging",
+    "dev-tools",
+    "programming",
+    "composing",
+    "joining",
+    "manga",
+    "iteration",
+    "reuse",
+    "hardware-limits",
+    "testing",
+    "screen-look",
+    "player-freedom",
+    "multiplayer",
+    "pixel-art",
+    "difficulty",
+    "bgm",
+    "social-impact",
+    "nostalgia",
+    "marketing",
+    "antagonist"
+   ],
+   "model": [
+    "hardware-limits",
+    "dev-tools",
+    "programming",
+    "sound-hardware",
+    "pixel-art",
+    "planning"
+   ],
+   "agreed": [
+    "hardware-limits",
+    "dev-tools",
+    "programming",
+    "sound-hardware",
+    "pixel-art"
+   ],
+   "model_only": [
+    "planning"
+   ],
+   "missing": [
+    {
+     "name": "独立开发与发行交涉",
+     "gloss": "以同人/独立身份制作游戏并带去发行商争取商品化的过程，以及其中由谁负责对外交涉。",
+     "seg": 59
+    }
+   ]
+  },
+  {
+   "post": "interview-gamefreak-recruit-planners",
+   "kind": "interview",
+   "marked": [
+    "joining",
+    "level-design",
+    "scenario",
+    "programming",
+    "player-segments",
+    "teamwork",
+    "data-management",
+    "dev-tools",
+    "hand-drawn",
+    "hardware-limits",
+    "camera",
+    "dialogue",
+    "recruiting"
+   ],
+   "model": [
+    "level-design",
+    "data-management",
+    "dev-tools",
+    "ui-operation",
+    "player-freedom",
+    "team-size"
+   ],
+   "agreed": [
+    "level-design",
+    "data-management",
+    "dev-tools"
+   ],
+   "model_only": [
+    "ui-operation",
+    "player-freedom",
+    "team-size"
+   ],
+   "missing": [
+    {
+     "name": "转职与跨界",
+     "gloss": "从程序员转做策划、从其他行业转入游戏业，访谈以入职前的职业经历为主线。",
+     "seg": 2
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-lineblog-3070457",
+   "kind": "blog",
+   "marked": [
+    "pixel-art"
+   ],
+   "model": [
+    "hardware-limits",
+    "bgm",
+    "sound-hardware",
+    "programming",
+    "pixel-art",
+    "data-management"
+   ],
+   "agreed": [
+    "pixel-art"
+   ],
+   "model_only": [
+    "hardware-limits",
+    "bgm",
+    "sound-hardware",
+    "programming",
+    "data-management"
+   ],
+   "missing": [
+    {
+     "name": "二进制与数据表示",
+     "gloss": "用0和1、开关组合来解释游戏里的音乐数据是怎么存下来的。",
+     "seg": 0
+    }
+   ]
+  },
+  {
+   "post": "interview-inside-pokken-tournament-developers",
+   "kind": "interview",
+   "marked": [
+    "competitive",
+    "planning",
+    "dev-cycle",
+    "licensing",
+    "world-building",
+    "collaboration",
+    "naming",
+    "tcg",
+    "surprise",
+    "studio-culture",
+    "motion",
+    "easy-to-grasp",
+    "battle-system",
+    "social-impact",
+    "evolution-design",
+    "randomness",
+    "ui-operation",
+    "raising",
+    "community",
+    "quality",
+    "three-d",
+    "voice",
+    "art-direction",
+    "sfx",
+    "sound-hardware",
+    "balance",
+    "player-freedom",
+    "work-style",
+    "theme",
+    "generations",
+    "nature-and-bugs",
+    "screen-look",
+    "testing",
+    "type-matchup"
+   ],
+   "model": [
+    "planning",
+    "balance",
+    "easy-to-grasp",
+    "competitive",
+    "collaboration",
+    "motion"
+   ],
+   "agreed": [
+    "planning",
+    "balance",
+    "easy-to-grasp",
+    "competitive",
+    "collaboration",
+    "motion"
+   ],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "跨界联动的监修",
+     "gloss": "宝可梦公司与万代南梦宫之间围绕IP授权、表现尺度反复沟通确认的监修流程。",
+     "seg": 89
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-lineblog-3743335",
+   "kind": "blog",
+   "marked": [],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "线下活动",
+     "gloss": "大阪宝可梦中心开店前的参观与签名会，属于线下活动/会场那一侧的事。",
+     "seg": 0
+    }
+   ]
+  },
+  {
+   "post": "gamefreak-lineblog-4177709",
+   "kind": "blog",
+   "marked": [
+    "hardware-limits"
+   ],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": []
+  },
+  {
+   "post": "gamefreak-lineblog-7881457",
+   "kind": "blog",
+   "marked": [
+    "ui-operation"
+   ],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "取材与实地考察",
+     "gloss": "开发者亲自去水族馆观察真实生物，为创作积累素材。",
+     "seg": 9
+    }
+   ]
+  },
+  {
+   "post": "interview-gamefreak-rnd-ta-taya-kk",
+   "kind": "interview",
+   "marked": [
+    "joining",
+    "three-d",
+    "art-direction",
+    "hardware-limits",
+    "scenario",
+    "hand-drawn",
+    "pixel-art",
+    "recruiting",
+    "teamwork",
+    "handheld",
+    "new-hardware",
+    "nature-and-bugs",
+    "prototype",
+    "ui-operation",
+    "connection",
+    "programming",
+    "data-management"
+   ],
+   "model": [
+    "three-d",
+    "pixel-art",
+    "programming",
+    "dev-tools",
+    "new-hardware",
+    "teamwork"
+   ],
+   "agreed": [
+    "three-d",
+    "pixel-art",
+    "programming",
+    "new-hardware",
+    "teamwork"
+   ],
+   "model_only": [
+    "dev-tools"
+   ],
+   "missing": [
+    {
+     "name": "技术美术（TA）",
+     "gloss": "在美术与程序之间架桥的复合职能，手写着色器与自研工具，把美术的感性诉求转译为可落地的渲染管线。",
+     "seg": 7
+    },
+    {
+     "name": "招聘与人才观",
+     "gloss": "研究开发部想要什么样的人：对前沿技术有纯粹热爱、能打破专业壁垒并共情沟通。",
+     "seg": 20
+    }
+   ]
+  },
+  {
+   "post": "interview-gigazine-gamefreak-sketches-masuda",
+   "kind": "interview",
+   "marked": [
+    "composing",
+    "hand-drawn",
+    "sales",
+    "data-management",
+    "hardware-limits",
+    "programming",
+    "dev-cycle",
+    "ui-operation",
+    "online-service",
+    "prototype",
+    "illustration",
+    "anime-writing",
+    "camera",
+    "scenario",
+    "cry-design",
+    "generations",
+    "sfx",
+    "sound-hardware",
+    "pokemon-design"
+   ],
+   "model": [
+    "cry-design",
+    "hardware-limits",
+    "sound-hardware",
+    "programming",
+    "debugging",
+    "ui-operation"
+   ],
+   "agreed": [
+    "cry-design",
+    "hardware-limits",
+    "sound-hardware",
+    "programming",
+    "ui-operation"
+   ],
+   "model_only": [
+    "debugging"
+   ],
+   "missing": [
+    {
+     "name": "档案与手稿管理",
+     "gloss": "开发过程中纸质手稿、速写本与资料的保存与规范化管理，本文以档案解禁为主线。",
+     "seg": 19
+    },
+    {
+     "name": "本地化难题",
+     "gloss": "多语言文本翻译负担过重，曾设想用图章拼词替代文章组合。",
+     "seg": 23
+    }
+   ]
+  },
+  {
+   "post": "interview-4gamer-2018-usum-fanmeeting",
+   "kind": "interview",
+   "marked": [
+    "bgm",
+    "composing",
+    "sound-hardware",
+    "theme",
+    "scenario",
+    "balance",
+    "type-matchup",
+    "link-battle",
+    "evolution-design",
+    "prototype",
+    "stage-model",
+    "studio-culture",
+    "quality",
+    "pixel-art"
+   ],
+   "model": [
+    "bgm",
+    "composing",
+    "scenario",
+    "pokemon-design",
+    "hardware-limits",
+    "live-events"
+   ],
+   "agreed": [
+    "bgm",
+    "composing",
+    "scenario"
+   ],
+   "model_only": [
+    "pokemon-design",
+    "hardware-limits",
+    "live-events"
+   ],
+   "missing": [
+    {
+     "name": "平行世界设定",
+     "gloss": "彩虹火箭队来自主人公不存在或战败的平行世界，属于世界观设定中一种具体设定手法",
+     "seg": 20
+    }
+   ]
+  },
+  {
+   "post": "interview-polygon-2018-masuda-rb",
+   "kind": "interview",
+   "marked": [
+    "generations",
+    "nostalgia",
+    "social-impact",
+    "composing",
+    "reuse",
+    "teamwork",
+    "work-style",
+    "online-service",
+    "programming",
+    "sfx",
+    "sound-hardware",
+    "children",
+    "anime",
+    "manga",
+    "media-mix",
+    "tcg",
+    "licensing",
+    "overseas",
+    "multiplayer",
+    "battle-system",
+    "iteration",
+    "collaboration",
+    "items",
+    "new-hardware",
+    "recruiting",
+    "collection",
+    "player-segments",
+    "main-story"
+   ],
+   "model": [
+    "world-building",
+    "mystery",
+    "hardware-limits",
+    "teamwork",
+    "team-size",
+    "media-mix"
+   ],
+   "agreed": [
+    "teamwork",
+    "media-mix"
+   ],
+   "model_only": [
+    "world-building",
+    "mystery",
+    "hardware-limits",
+    "team-size"
+   ],
+   "missing": [
+    {
+     "name": "从零开始做",
+     "gloss": "增田反复强调的创作姿态：做新宝可梦时不要从既有宝可梦出发，而要假设这不是宝可梦游戏、从零重新设计。",
+     "seg": 30
+    }
+   ]
+  },
+  {
+   "post": "interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+   "kind": "interview",
+   "marked": [
+    "testing",
+    "main-story",
+    "sequel",
+    "debugging",
+    "quality",
+    "three-d",
+    "balance",
+    "new-hardware",
+    "screen-look",
+    "marketing",
+    "reuse",
+    "evolution-design",
+    "remake",
+    "nature-and-bugs",
+    "player-segments",
+    "stage-model",
+    "raising",
+    "connection",
+    "camera",
+    "link-battle",
+    "world-building",
+    "generations",
+    "collection"
+   ],
+   "model": [
+    "hardware-limits",
+    "balance",
+    "data-management",
+    "multiplayer",
+    "online-service",
+    "player-segments"
+   ],
+   "agreed": [
+    "balance",
+    "player-segments"
+   ],
+   "model_only": [
+    "hardware-limits",
+    "data-management",
+    "multiplayer",
+    "online-service"
+   ],
+   "missing": [
+    {
+     "name": "全国图鉴方针转变",
+     "gloss": "决定并非所有宝可梦都能登场，只收录适配该作的宝可梦，是本次访谈的核心议题。",
+     "seg": 13
+    }
+   ]
+  },
+  {
+   "post": "interview-famitsu-sword-shield-masuda-ohmori",
+   "kind": "interview",
+   "marked": [
+    "raising",
+    "sequel",
+    "handheld",
+    "family",
+    "screen-look",
+    "testing",
+    "quality",
+    "new-hardware",
+    "data-management",
+    "hardware-limits",
+    "mobile-app",
+    "mentoring",
+    "difficulty",
+    "items",
+    "player-freedom",
+    "online-service"
+   ],
+   "model": [
+    "hardware-limits",
+    "new-hardware",
+    "handheld",
+    "raising",
+    "online-service",
+    "family"
+   ],
+   "agreed": [
+    "hardware-limits",
+    "new-hardware",
+    "handheld",
+    "raising",
+    "online-service",
+    "family"
+   ],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "自动保存",
+     "gloss": "针对Switch睡眠模式习惯加入的存档机制，以及手动/自动的取舍",
+     "seg": 25
+    }
+   ]
+  },
+  {
+   "post": "interview-corocoro-coco-okazaki-taiiku",
+   "kind": "interview",
+   "marked": [
+    "movie",
+    "voice",
+    "nostalgia",
+    "nature-and-bugs",
+    "bgm",
+    "family",
+    "mentoring",
+    "prototype",
+    "stage-model",
+    "composing",
+    "merchandise",
+    "color-work"
+   ],
+   "model": [
+    "composing",
+    "bgm",
+    "theme",
+    "family",
+    "movie",
+    "nostalgia"
+   ],
+   "agreed": [
+    "composing",
+    "bgm",
+    "family",
+    "movie",
+    "nostalgia"
+   ],
+   "model_only": [
+    "theme"
+   ],
+   "missing": [
+    {
+     "name": "音乐总监",
+     "gloss": "电影音乐的整体统筹与指导，包括选曲、演唱指导与风格把控，访谈的核心身份。",
+     "seg": 1
+    },
+    {
+     "name": "演唱与歌手",
+     "gloss": "由谁演唱、如何指导演唱者表达情感，如乌龟松本、木村KAELA的选任与录音过程。",
+     "seg": 27
+    }
+   ]
+  },
+  {
+   "post": "interview-gamefreak-crosstalk-programmer",
+   "kind": "interview",
+   "marked": [
+    "recruiting",
+    "mentoring",
+    "teamwork",
+    "level-exp",
+    "team-size",
+    "open-world",
+    "quality",
+    "joining",
+    "dev-tools",
+    "motion",
+    "level-design",
+    "planning"
+   ],
+   "model": [
+    "programming",
+    "recruiting",
+    "teamwork",
+    "studio-culture",
+    "new-hardware",
+    "open-world"
+   ],
+   "agreed": [
+    "recruiting",
+    "teamwork",
+    "open-world"
+   ],
+   "model_only": [
+    "programming",
+    "studio-culture",
+    "new-hardware"
+   ],
+   "missing": [
+    {
+     "name": "程序员职能细分",
+     "gloss": "把程序员分为系统程序员与游戏程序员两条序列，各自有培养路径与职责分工。",
+     "seg": 4
+    }
+   ]
+  },
+  {
+   "post": "interview-gamefreak-recruit-programmer-km",
+   "kind": "interview",
+   "marked": [
+    "illustration",
+    "studio-culture",
+    "joining",
+    "level-design",
+    "dev-tools",
+    "quality",
+    "recruiting"
+   ],
+   "model": [
+    "three-d",
+    "programming",
+    "dev-tools",
+    "teamwork",
+    "team-size",
+    "recruiting"
+   ],
+   "agreed": [
+    "dev-tools",
+    "recruiting"
+   ],
+   "model_only": [
+    "three-d",
+    "programming",
+    "teamwork",
+    "team-size"
+   ],
+   "missing": [
+    {
+     "name": "自研引擎",
+     "gloss": "因为市面引擎无法处理上千只形状各异的宝可梦模型，团队决定自己从零搭建渲染与形变管线。",
+     "seg": 7
+    }
+   ]
+  },
+  {
+   "post": "Updates",
+   "kind": "article",
+   "marked": [
+    "ui-operation",
+    "tcg",
+    "illustration",
+    "movie"
+   ],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": []
+  },
+  {
+   "post": "interview-cgworld-2023-sv-making-1",
+   "kind": "interview",
+   "marked": [
+    "open-world",
+    "nature-and-bugs",
+    "licensing",
+    "mentoring",
+    "three-d",
+    "joining",
+    "illustration",
+    "studio-culture",
+    "character-design",
+    "quality",
+    "motion",
+    "prototype",
+    "stage-model",
+    "reuse",
+    "scenario",
+    "remake",
+    "life-and-death",
+    "dev-tools"
+   ],
+   "model": [
+    "motion",
+    "three-d",
+    "pokemon-design",
+    "teamwork",
+    "dev-tools",
+    "reuse"
+   ],
+   "agreed": [
+    "motion",
+    "three-d",
+    "dev-tools",
+    "reuse"
+   ],
+   "model_only": [
+    "pokemon-design",
+    "teamwork"
+   ],
+   "missing": [
+    {
+     "name": "生态取材",
+     "gloss": "以真实生物的生态与行为作为宝可梦动作设计的参考来源，如观察犬种、青蛙、沙铁等。",
+     "seg": 43
+    }
+   ]
+  },
+  {
+   "post": "interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
+   "kind": "interview",
+   "marked": [
+    "studio-culture",
+    "licensing",
+    "tcg",
+    "anime",
+    "mentoring",
+    "scenario",
+    "social-impact",
+    "spinoff",
+    "cry-design",
+    "voice",
+    "level-design",
+    "surprise",
+    "theme",
+    "world-building",
+    "reuse",
+    "sequel",
+    "accessibility",
+    "connection",
+    "main-story",
+    "randomness",
+    "player-segments",
+    "children",
+    "difficulty",
+    "easy-to-grasp",
+    "merchandise"
+   ],
+   "model": [
+    "easy-to-grasp",
+    "player-freedom",
+    "character-design",
+    "children",
+    "media-mix",
+    "merchandise"
+   ],
+   "agreed": [
+    "easy-to-grasp",
+    "children",
+    "merchandise"
+   ],
+   "model_only": [
+    "player-freedom",
+    "character-design",
+    "media-mix"
+   ],
+   "missing": [
+    {
+     "name": "会说人话的宝可梦",
+     "gloss": "长期摸索让宝可梦开口说人类语言这一设定，从动画的喵喵到《名侦探皮卡丘》的到达点。",
+     "seg": 28
+    }
+   ]
+  },
+  {
+   "post": "corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
+   "kind": "interview",
+   "marked": [
+    "illustration",
+    "collection",
+    "nature-and-bugs",
+    "prototype",
+    "stage-model",
+    "family",
+    "quality",
+    "remake",
+    "art-direction",
+    "hand-drawn",
+    "ui-operation",
+    "generations",
+    "social-impact",
+    "anime",
+    "surprise",
+    "world-building"
+   ],
+   "model": [
+    "world-building",
+    "pokemon-design",
+    "merchandise",
+    "collaboration",
+    "teamwork",
+    "media-mix"
+   ],
+   "agreed": [
+    "world-building"
+   ],
+   "model_only": [
+    "pokemon-design",
+    "merchandise",
+    "collaboration",
+    "teamwork",
+    "media-mix"
+   ],
+   "missing": [
+    {
+     "name": "形态差异",
+     "gloss": "同一物种存在凡作之姿与杰作之姿等微妙形态差异，并作为生态细节被复刻到周边上。",
+     "seg": 16
+    }
+   ]
+  },
+  {
+   "post": "长文-拨云见日-从百代市到水脉图书馆",
+   "kind": "article",
+   "marked": [
+    "dev-tools",
+    "programming",
+    "schedule",
+    "hardware-limits",
+    "iteration",
+    "testing",
+    "community",
+    "outsourcing",
+    "world-building",
+    "children",
+    "player-segments",
+    "canon-consistency",
+    "items",
+    "dev-cycle",
+    "battle-system",
+    "reuse",
+    "ui-operation",
+    "live-events",
+    "movie",
+    "social-impact",
+    "antagonist",
+    "art-direction",
+    "level-design",
+    "nostalgia",
+    "competitive",
+    "main-story",
+    "scenario",
+    "pokemon-design",
+    "connection",
+    "prototype",
+    "trade",
+    "handheld",
+    "generations",
+    "merchandise",
+    "naming",
+    "nature-and-bugs",
+    "sfx",
+    "anime",
+    "randomness",
+    "remake",
+    "raising",
+    "difficulty",
+    "sequel",
+    "surprise",
+    "balance",
+    "mentoring",
+    "illustration",
+    "marketing",
+    "joining",
+    "three-d"
+   ],
+   "model": [
+    "world-building",
+    "mystery",
+    "scenario",
+    "theme",
+    "connection",
+    "prototype"
+   ],
+   "agreed": [
+    "world-building",
+    "scenario",
+    "connection",
+    "prototype"
+   ],
+   "model_only": [
+    "mystery",
+    "theme"
+   ],
+   "missing": [
+    {
+     "name": "泄露与史料",
+     "gloss": "开发资料外泄后玩家社群如何搬运、解读与误传，以及创作者该如何面对这些未经整理的信息。",
+     "seg": 166
+    }
+   ]
+  },
+  {
+   "post": "corporate-topic-28-pokemon-trading-card-game-pocket",
+   "kind": "interview",
+   "marked": [
+    "tcg",
+    "mobile-app",
+    "online-service",
+    "price-model",
+    "illustration",
+    "social-impact",
+    "quality",
+    "collaboration",
+    "camera",
+    "reuse",
+    "overseas",
+    "hardware-limits",
+    "multilingual",
+    "recruiting",
+    "community"
+   ],
+   "model": [
+    "collection",
+    "mobile-app",
+    "tcg",
+    "ui-operation",
+    "three-d",
+    "multilingual"
+   ],
+   "agreed": [
+    "mobile-app",
+    "tcg",
+    "multilingual"
+   ],
+   "model_only": [
+    "collection",
+    "ui-operation",
+    "three-d"
+   ],
+   "missing": [
+    {
+     "name": "实体触感再现",
+     "gloss": "把实体卡牌的拆包、翻页、把玩手感在数字媒介上复现出来，是这篇专题反复强调的核心设计目标。",
+     "seg": 9
+    },
+    {
+     "name": "轻量化对战重构",
+     "gloss": "为移动端把卡牌对战规则整体重做：20张卡组、自动供能、5分钟一局，让新人也能立刻上手。",
+     "seg": 21
+    }
+   ]
+  },
+  {
+   "post": "技能机-卡图下载-查询时间-Download & Inqury",
+   "kind": "article",
+   "marked": [
+    "data-management",
+    "online-service",
+    "scenario"
+   ],
+   "model": [],
+   "agreed": [],
+   "model_only": [],
+   "missing": [
+    {
+     "name": "卡牌图鉴与卡图资源",
+     "gloss": "围绕集换式卡牌卡图（如151系列）的批量获取与整理，属于卡牌这一侧的玩家实践。",
+     "seg": 2
+    },
+    {
+     "name": "玩家自制工具与脚本",
+     "gloss": "玩家用Python脚本、浏览器插件、Excel等自建工具批量下载与查询数据，属于玩家社群的技术实践。",
+     "seg": 3
+    }
+   ]
+  },
+  {
+   "post": "corporate-topic-42-taiwan-localized-anime-song-yoga-lin",
+   "kind": "interview",
+   "marked": [
+    "bgm",
+    "anime",
+    "localization",
+    "teamwork",
+    "collaboration",
+    "generations",
+    "scenario",
+    "voice",
+    "dialogue",
+    "mentoring",
+    "reuse",
+    "children",
+    "anime-writing",
+    "hand-drawn",
+    "nostalgia"
+   ],
+   "model": [
+    "localization",
+    "anime",
+    "overseas",
+    "bgm",
+    "motion",
+    "community"
+   ],
+   "agreed": [
+    "localization",
+    "anime",
+    "bgm"
+   ],
+   "model_only": [
+    "overseas",
+    "motion",
+    "community"
+   ],
+   "missing": [
+    {
+     "name": "主题曲与片头曲",
+     "gloss": "为动画量身创作并演唱的OP/ED歌曲，以及歌词、演唱者与画面剪辑的配合。",
+     "seg": 12
+    },
+    {
+     "name": "配音与声优",
+     "gloss": "现地配音的选拔、台词指导与演绎风格，让当地观众觉得真实可信。",
+     "seg": 7
+    }
+   ]
+  }
+ ]
+}

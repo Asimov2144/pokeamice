@@ -121,6 +121,72 @@
     "what": "游船看到的雕像",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     29,
+     35
+    ],
+    "as": [
+     "演出效果"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     31
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "work-style",
+    "name": "工作方式",
+    "facet": "team",
+    "seg": [
+     47
+    ],
+    "as": [
+     "通宵"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     55,
+     57,
+     60,
+     62
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     56
+    ],
+    "as": [
+     "系列最新作"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -138,7 +204,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

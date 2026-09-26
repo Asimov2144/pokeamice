@@ -666,6 +666,49 @@ def split_blog(body: str) -> dict:
 
 # ---------------------------------------------------------------- posts
 
+def concepts_table(index: list) -> dict:
+    """概念词表本身，给 App 显示名字 / 归面 / 一句说明。
+
+    表在 data/lore_tables/concepts.yml（人写的），人审的裁定在同目录 concepts.review.json。
+    这里带上「出现在几篇、几段」，App 用它决定一个概念值不值得当线索（太泛的不标）。"""
+    table = ROOT / "data" / "lore_tables" / "concepts.yml"
+    if not table.exists():
+        return {"items": [], "facets": {}}
+    raw = yaml.safe_load(io.open(table, encoding="utf-8")) or {}
+    review = {}
+    review_path = table.parent / "concepts.review.json"
+    if review_path.exists():
+        blob = json.load(io.open(review_path, encoding="utf-8"))
+        review = blob.get("verdicts") or {k: v for k, v in blob.items() if isinstance(v, dict) and not k.startswith("_")}
+    docs: collections.Counter = collections.Counter()
+    segs: collections.Counter = collections.Counter()
+    lore_by_id = load_lore()
+    for it in index:
+        for row in ((lore_by_id.get(it["id"]) or {}).get("facets") or {}).get("concepts") or []:
+            if row.get("id"):
+                docs[row["id"]] += 1
+                segs[row["id"]] += len(row.get("seg") or [])
+    items = []
+    for ent in raw.get("concepts") or []:
+        if not isinstance(ent, dict) or not ent.get("id"):
+            continue
+        said = review.get(ent["id"]) or {}
+        status = ent.get("status") or "draft"
+        if said.get("verdict") in ("approve", "approved", "keep"):
+            status = "approved"
+        elif said.get("verdict") in ("drop", "reject", "rejected"):
+            status = "rejected"
+        if status == "rejected":
+            continue
+        items.append({"id": ent["id"], "name": said.get("name") or ent.get("name") or ent["id"],
+                      "facet": said.get("facet") or ent.get("facet") or "",
+                      "gloss": said.get("gloss") or ent.get("gloss") or "",
+                      "reviewed": status == "approved",
+                      "docs": docs.get(ent["id"], 0), "segs": segs.get(ent["id"], 0)})
+    items.sort(key=lambda r: (-r["docs"], r["id"]))
+    return {"version": str(raw.get("version") or ""), "facets": raw.get("facets") or {}, "items": items}
+
+
 def load_lore() -> dict:
     """tools/build-post-lore.py 的成品：每篇提到的宝可梦 / 作品 / 地点 / 人（带段号）、
     一两条带段号的观察、与别的文章的关系。没跑过就是空的，导出照常。"""
@@ -806,7 +849,12 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             guess = [p["ndex"] for p in facets.get("pokemon", []) if p.get("via") == "llm" and p.get("ndex") in dex]
             spots = [{k: v for k, v in (("id", p.get("id")), ("entity", p.get("entity")), ("name", p.get("name"))) if v}
                      for p in facets.get("places", []) if p.get("id") or p.get("entity")][:6]
+            #  概念：人写的词表逐段命中（data/lore_tables/concepts.yml）。索引里只放 id，按命中的段数排，
+            #  名字与说明在 concepts.json 里；正文命中的排在前面，标签 / 标题命中的没有段号
+            topics = sorted((c for c in facets.get("concepts") or [] if c.get("id")),
+                            key=lambda c: (0 if c.get("via") == "body" else 1, -len(c.get("seg") or []), c["id"]))
             summary_item["lore"] = {"dex": dex, "places": spots,
+                                    "concepts": [c["id"] for c in topics][:8],
                                     "obs": len(lore.get("observations") or []),
                                     "rel": len(lore.get("relations") or [])}
             if guess:
@@ -840,7 +888,8 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             #  段号 -> 这一段里有什么：读者摘了某一段，App 拿段号一查就知道该接什么话
             by_seg: dict[str, dict] = {}
             for facet, key, value in (("pokemon", "dex", "ndex"), ("people", "people", "slug"),
-                                      ("works", "works", "slug"), ("places", "places", "id")):
+                                      ("works", "works", "slug"), ("places", "places", "id"),
+                                      ("concepts", "concepts", "id")):
                 for row in (lore.get("facets") or {}).get(facet) or []:
                     what = row.get(value) or (row.get("entity") if facet == "places" else None) or row.get("name")
                     for n in row.get("seg") or []:
@@ -1061,6 +1110,8 @@ def main() -> int:
         for r in relations_raw if isinstance(r, dict)
     ]})
     dump(out / "eras.json", {"items": [e for e in eras_raw if isinstance(e, dict)]})
+    concepts = concepts_table(index)
+    dump(out / "concepts.json", concepts)
     dump(out / "glossary.json", {"items": [
         {"category": clean(e.get("category")) or None, "target": clean(e.get("target")), "terms": [clean(t) for t in as_list(e.get("terms")) if clean(t)],
          "variants": [clean(t) for t in as_list(e.get("variants")) if clean(t)], "note": clean(e.get("note")) or None}
@@ -1099,6 +1150,9 @@ def main() -> int:
                 "places": len({(p.get("id") or p.get("entity")) for it in index for p in (it.get("lore") or {}).get("places", [])}),
                 "observations": sum((it.get("lore") or {}).get("obs", 0) for it in index),
                 "relations": sum((it.get("lore") or {}).get("rel", 0) for it in index),
+                "concepts": sum(1 for c in concepts["items"] if c["docs"]),
+                "concept_rows": sum(c["docs"] for c in concepts["items"]),
+                "concepts_reviewed": sum(1 for c in concepts["items"] if c["reviewed"]),
             },
             "unresolved_people_mentions": sum(1 for it in index for p in it["people"] if not p["slug"]),
             "duplicate_ids": len(index) - len({it["id"] for it in index}),

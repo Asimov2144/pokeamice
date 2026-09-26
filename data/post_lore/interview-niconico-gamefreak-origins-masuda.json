@@ -289,6 +289,540 @@
     "what": "音乐举例地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     3,
+     10
+    ],
+    "as": [
+     "玩家之间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "fan-works",
+    "name": "二创与同人",
+    "facet": "audience",
+    "seg": [
+     3,
+     4,
+     10,
+     11,
+     53,
+     82
+    ],
+    "as": [
+     "同人",
+     "同人志"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     3,
+     4,
+     10
+    ],
+    "as": [
+     "攻略"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     3
+    ],
+    "as": [
+     "核心玩家"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     7,
+     15,
+     50
+    ],
+    "as": [
+     "音乐创作",
+     "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     14,
+     44,
+     54,
+     55,
+     63
+    ],
+    "as": [
+     "背景音乐",
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     15,
+     60
+    ],
+    "as": [
+     "交响"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     22,
+     44,
+     68,
+     93
+    ],
+    "as": [
+     "卡带",
+     "内存",
+     "容量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     23,
+     30,
+     44,
+     62,
+     88,
+     91
+    ],
+    "as": [
+     "代码",
+     "汇编"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     24,
+     84
+    ],
+    "as": [
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     24
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     26
+    ],
+    "as": [
+     "强度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "work-style",
+    "name": "工作方式",
+    "facet": "team",
+    "seg": [
+     26
+    ],
+    "as": [
+     "加班"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     29,
+     85
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     29,
+     30
+    ],
+    "as": [
+     "入社"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     32
+    ],
+    "as": [
+     "通信电缆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     32
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "outsourcing",
+    "name": "外包与协力",
+    "facet": "process",
+    "seg": [
+     34
+    ],
+    "as": [
+     "外包"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     36
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     36
+    ],
+    "as": [
+     "进行交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "version-pair",
+    "name": "两个版本",
+    "facet": "system",
+    "seg": [
+     37
+    ],
+    "as": [
+     "双版本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     39
+    ],
+    "as": [
+     "开发期间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     39,
+     66
+    ],
+    "as": [
+     "指导"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     41,
+     42,
+     43,
+     44,
+     45,
+     49
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     42,
+     81,
+     92
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     44,
+     79
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sound-hardware",
+    "name": "音源与机能",
+    "facet": "audio",
+    "seg": [
+     44
+    ],
+    "as": [
+     "声道"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     47,
+     73
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     50,
+     75
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     53,
+     68
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     53,
+     58,
+     61,
+     62,
+     63
+    ],
+    "as": [
+     "音效"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     54,
+     59,
+     87
+    ],
+    "as": [
+     "迷宫",
+     "洞窟",
+     "关卡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "life-and-death",
+    "name": "生死的表述",
+    "facet": "design",
+    "seg": [
+     54
+    ],
+    "as": [
+     "濒死"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     56
+    ],
+    "as": [
+     "小时候玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     62
+    ],
+    "as": [
+     "调试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     66
+    ],
+    "as": [
+     "对战系统"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     67
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     72
+    ],
+    "as": [
+     "属性相克"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     86
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pixel-art",
+    "name": "像素画",
+    "facet": "tech",
+    "seg": [
+     93
+    ],
+    "as": [
+     "点阵图"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -325,7 +859,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

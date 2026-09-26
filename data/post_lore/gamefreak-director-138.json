@@ -33,6 +33,44 @@
     "what": "说明会场地建筑",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     9
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     20
+    ],
+    "as": [
+     "面试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     25
+    ],
+    "as": [
+     "论坛"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -75,7 +113,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

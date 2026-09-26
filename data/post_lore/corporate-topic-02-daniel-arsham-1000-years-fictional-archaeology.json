@@ -171,6 +171,81 @@
     "what": "迪奥大秀举办地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     1
+    ],
+    "as": [
+     "童年"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     6,
+     8
+    ],
+    "as": [
+     "草图"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     6
+    ],
+    "as": [
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     11
+    ],
+    "as": [
+     "宝可梦图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "live-events",
+    "name": "线下活动",
+    "facet": "business",
+    "seg": [
+     11
+    ],
+    "as": [
+     "巡展"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     14
+    ],
+    "as": [
+     "回合"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -215,7 +290,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

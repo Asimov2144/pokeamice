@@ -231,6 +231,42 @@
     "what": "独自旅行地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     93
+    ],
+    "as": [
+     "カメラ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     129
+    ],
+    "as": [
+     "洞窟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -247,7 +283,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

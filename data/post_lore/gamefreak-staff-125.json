@@ -36,6 +36,31 @@
     "what": "观察动物的地点",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     21,
+     24
+    ],
+    "as": [
+     "グラフィック"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -52,7 +77,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

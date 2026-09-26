@@ -19,7 +19,33 @@
     "seg": []
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     0
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "live-events",
+    "name": "线下活动",
+    "facet": "business",
+    "seg": [
+     0
+    ],
+    "as": [
+     "活动会场"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -32,7 +58,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

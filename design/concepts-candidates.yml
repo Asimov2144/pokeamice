@@ -1,0 +1,961 @@
+# tools/mine-concepts.py 提的候选（模型归拢，没人看过）。挑要收的贴进 data/lore_tables/concepts.yml。
+
+  - id: game-design
+    name: 游戏设计
+    facet: design
+    gloss: 开发者对玩法、规则与体验的构思和取舍。
+    aliases: [设计师]
+    status: draft
+    note: 语料 194 篇（mine-concepts 提）
+
+  - id: development-team
+    name: 开发团队
+    facet: team
+    gloss: 参与游戏制作的人员构成与分工。
+    aliases: [工作人员, 创作者, 程序员, 制作人, 开发者]
+    status: draft
+    note: 语料 171 篇（mine-concepts 提）
+
+  - id: player-audience
+    name: 面向玩家
+    facet: audience
+    gloss: 开发者设想游戏面向谁、希望玩家获得什么。
+    aliases: [希望大家]
+    status: draft
+    note: 语料 119 篇（mine-concepts 提）
+
+  - id: possibility
+    name: 可能性
+    facet: design
+    gloss: 对玩法或表现还能扩展到什么程度的探讨。
+    aliases: [可能性]
+    status: draft
+    note: 语料 72 篇（mine-concepts 提）
+
+  - id: popularity
+    name: 受欢迎
+    facet: audience
+    gloss: 作品或要素被玩家接受和喜爱的程度。
+    aliases: [受欢迎]
+    status: draft
+    note: 语料 72 篇（mine-concepts 提）
+
+  - id: interest
+    name: 感兴趣
+    facet: audience
+    gloss: 玩家对某内容产生兴趣并愿意了解的状态。
+    aliases: [感兴趣]
+    status: draft
+    note: 语料 70 篇（mine-concepts 提）
+
+  - id: art-director
+    name: 美术总监
+    facet: art
+    gloss: 负责统筹游戏视觉方向与美术表现的职位。
+    aliases: [术总监]
+    status: draft
+    note: 语料 68 篇（mine-concepts 提）
+
+  - id: real-world
+    name: 现实世界
+    facet: design
+    gloss: 以现实世界为参照来构建游戏世界与设定的思路。
+    aliases: [现实世界]
+    status: draft
+    note: 语料 64 篇（mine-concepts 提）
+
+  - id: graphics-expression
+    name: 画面表现
+    facet: art
+    gloss: 用图像与画面把想传达的内容呈现出来的做法与效果。
+    aliases: [グラフィック, 表现出, 展现出, 呈现出]
+    status: draft
+    note: 语料 62 篇（mine-concepts 提）
+
+  - id: enjoyment
+    name: 游玩乐趣
+    facet: design
+    gloss: 玩家在游戏中能获得的期待与快乐体验。
+    aliases: [楽しみ, 非常开心]
+    status: draft
+    note: 语料 59 篇（mine-concepts 提）
+
+  - id: release-date
+    name: 发售日程
+    facet: business
+    gloss: 作品确定并公布上市日期的安排。
+    aliases: [发售日, 日发售]
+    status: draft
+    note: 语料 58 篇（mine-concepts 提）
+
+  - id: player-protagonist
+    name: 玩家主角
+    facet: design
+    gloss: 让玩家代入、作为故事中心人物的主角设定。
+    aliases: [主人公]
+    status: draft
+    note: 语料 57 篇（mine-concepts 提）
+
+  - id: adult-players
+    name: 成年玩家
+    facet: audience
+    gloss: 把成年人也作为会玩这款游戏的受众来考虑。
+    aliases: [成年人]
+    status: draft
+    note: 语料 56 篇（mine-concepts 提）
+
+  - id: planner-role
+    name: 策划岗位
+    facet: team
+    gloss: 负责玩法与内容设计的开发职位及其工作。
+    aliases: [プランナー]
+    status: draft
+    note: 语料 52 篇（mine-concepts 提）
+
+  - id: game-design-philosophy
+    name: 游戏设计理念
+    facet: design
+    gloss: 开发者对游戏整体设计方向与取舍的思考。
+    aliases: [ゲームを, のゲーム]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: player-impact
+    name: 玩家冲击力
+    facet: audience
+    gloss: 作品给玩家带来的强烈感受与震撼。
+    aliases: [冲击力, 人兴奋]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: values
+    name: 价值观
+    facet: audience
+    gloss: 作品所传递或反映的价值观。
+    aliases: [价值观]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: production-team
+    name: 制作团队
+    facet: team
+    gloss: 参与游戏制作的开发团队。
+    aliases: [制作团队]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: graphic-designer
+    name: 平面设计师
+    facet: team
+    gloss: 负责视觉设计的设计师职位。
+    aliases: [平面设计师]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: director-role
+    name: 总监职务
+    facet: team
+    gloss: 担任游戏总监的职责与角色。
+    aliases: [担任总监]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: realism
+    name: 真实感
+    facet: art
+    gloss: 画面或表现上追求的真实感。
+    aliases: [真实感]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: music-composition
+    name: 音乐创作
+    facet: audio
+    gloss: 游戏音乐的创作与制作。
+    aliases: [首曲子]
+    status: draft
+    note: 语料 35 篇（mine-concepts 提）
+
+  - id: creation-process
+    name: 创作过程
+    facet: process
+    gloss: 从构思到完成的创作流程。
+    aliases: [创作出, 营造出]
+    status: draft
+    note: 语料 34 篇（mine-concepts 提）
+
+  - id: vitality
+    name: 生命力
+    facet: design
+    gloss: 作品或角色所展现的生命力。
+    aliases: [生命力]
+    status: draft
+    note: 语料 33 篇（mine-concepts 提）
+
+  - id: big-screen
+    name: 大银幕
+    facet: franchise
+    gloss: 作品在电影院等大银幕上的呈现。
+    aliases: [大银幕]
+    status: draft
+    note: 语料 33 篇（mine-concepts 提）
+
+  - id: tv-media
+    name: 电视媒体
+    facet: franchise
+    gloss: 作品在电视等媒体上的播出。
+    aliases: [电视机]
+    status: draft
+    note: 语料 33 篇（mine-concepts 提）
+
+  - id: development-process
+    name: 开发流程
+    facet: process
+    gloss: 从立项到完成的制作步骤与推进方式。
+    aliases: [作って, 制作公司]
+    status: draft
+    note: 语料 32 篇（mine-concepts 提）
+
+  - id: long-term-series
+    name: 系列延续
+    facet: franchise
+    gloss: 系列作品跨越多年持续推出与积累。
+    aliases: [该系列, 数十年, 年时间]
+    status: draft
+    note: 语料 32 篇（mine-concepts 提）
+
+  - id: fun-factor
+    name: 趣味性
+    facet: design
+    gloss: 游戏是否好玩、能否让玩家感到有趣的核心品质。
+    aliases: [趣味性]
+    status: draft
+    note: 语料 31 篇（mine-concepts 提）
+
+  - id: student-days
+    name: 学生时代
+    facet: team
+    gloss: 开发者回顾自身成长经历中与创作相关的时期。
+    aliases: [学生时代]
+    status: draft
+    note: 语料 31 篇（mine-concepts 提）
+
+  - id: new-title
+    name: 完全新作
+    facet: franchise
+    gloss: 不沿用既有作品框架、从头制作的新游戏。
+    aliases: [完全新作]
+    status: draft
+    note: 语料 30 篇（mine-concepts 提）
+
+  - id: animation-adaptation
+    name: 动画改编
+    facet: franchise
+    gloss: 将游戏内容改编为动画等跨媒体作品。
+    aliases: [部动画]
+    status: draft
+    note: 语料 30 篇（mine-concepts 提）
+
+  - id: editorial-department
+    name: 编辑部
+    facet: business
+    gloss: 负责杂志等媒体内容策划与制作的部门。
+    aliases: [编辑部]
+    status: draft
+    note: 语料 30 篇（mine-concepts 提）
+
+  - id: iterative-polish
+    name: 反复推敲
+    facet: process
+    gloss: 对同一处设计或表现反复修改打磨，直到满意为止。
+    aliases: [反复推敲]
+    status: draft
+    note: 语料 29 篇（mine-concepts 提）
+
+  - id: global-audience
+    name: 面向全世界
+    facet: audience
+    gloss: 在开发时把全球玩家都当作目标受众来考虑。
+    aliases: [向全世界]
+    status: draft
+    note: 语料 29 篇（mine-concepts 提）
+
+  - id: play-style
+    name: 游玩方式
+    facet: system
+    gloss: 玩家实际进行游戏时的玩法与操作方式。
+    aliases: [游玩方式]
+    status: draft
+    note: 语料 29 篇（mine-concepts 提）
+
+  - id: fans
+    name: 爱好者
+    facet: audience
+    gloss: 长期关注并喜爱该系列的玩家群体。
+    aliases: [爱好者]
+    status: draft
+    note: 语料 29 篇（mine-concepts 提）
+
+  - id: appeal
+    name: 吸引力
+    facet: design
+    gloss: 作品或设计能抓住玩家、让人愿意继续玩下去的特质。
+    aliases: [吸引力]
+    status: draft
+    note: 语料 28 篇（mine-concepts 提）
+
+  - id: domestic-market
+    name: 日本国内
+    facet: business
+    gloss: 以日本本土市场为对象的发行与销售考量。
+    aliases: [日本国内]
+    status: draft
+    note: 语料 28 篇（mine-concepts 提）
+
+  - id: production-line
+    name: 流水线
+    facet: process
+    gloss: 把开发工作按工序拆分、依次推进的制作方式。
+    aliases: [流水线]
+    status: draft
+    note: 语料 28 篇（mine-concepts 提）
+
+  - id: movie-theater
+    name: 电影院
+    facet: franchise
+    gloss: 与电影联动、在影院进行宣传或放映的跨媒体场合。
+    aliases: [电影院]
+    status: draft
+    note: 语料 28 篇（mine-concepts 提）
+
+  - id: famicom
+    name: 红白机
+    facet: tech
+    gloss: 早期开发所面对的硬件平台及其机能条件。
+    aliases: [红白机]
+    status: draft
+    note: 语料 28 篇（mine-concepts 提）
+
+  - id: face-to-face
+    name: 面对面
+    facet: team
+    gloss: 开发者之间直接当面沟通、而非仅靠文档交流的协作方式。
+    aliases: [面对面]
+    status: draft
+    note: 语料 28 篇（mine-concepts 提）
+
+  - id: concretization
+    name: 具象化
+    facet: design
+    gloss: 把抽象概念或想法转化为具体可感的设计或表现。
+    aliases: [具象化]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: easy-to-understand
+    name: 容易理解
+    facet: design
+    gloss: 让玩家或观众能轻松明白设计意图或内容。
+    aliases: [容易理解]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: new-things
+    name: 新事物
+    facet: design
+    gloss: 在开发中引入前所未有的元素或尝试。
+    aliases: [新事物]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: surprise
+    name: 大吃一惊
+    facet: design
+    gloss: 让人感到意外和惊讶的设计或事件。
+    aliases: [大吃一惊, 感到惊讶]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: thorough
+    name: 彻头彻尾
+    facet: design
+    gloss: 彻底、完全地贯彻某种设计或理念。
+    aliases: [彻头彻尾]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: image
+    name: イメージ
+    facet: design
+    gloss: 对角色、世界或玩法的整体印象或构想。
+    aliases: [イメージ]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: artist
+    name: 艺术家
+    facet: art
+    gloss: 从事艺术创作的人，如设计或绘制。
+    aliases: [艺术家]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: production-time
+    name: 制作时
+    facet: process
+    gloss: 进行制作的时期或阶段。
+    aliases: [制作时]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: series-works
+    name: 系列作品
+    facet: franchise
+    gloss: 属于同一系列的多部作品。
+    aliases: [系列作品]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: club
+    name: 俱乐部
+    facet: audience
+    gloss: 面向玩家的组织或社群。
+    aliases: [俱乐部]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: young-days
+    name: 年轻时
+    facet: team
+    gloss: 指人年轻时期的经历或状态。
+    aliases: [年轻时]
+    status: draft
+    note: 语料 27 篇（mine-concepts 提）
+
+  - id: impressive
+    name: 令人印象深刻
+    facet: design
+    gloss: 设计或表现给人留下强烈印象。
+    aliases: [令人印象深刻]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: unconventional
+    name: 破天荒
+    facet: design
+    gloss: 打破常规、前所未有的做法或设计。
+    aliases: [破天荒]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: water-type
+    name: 水属性
+    facet: system
+    gloss: 宝可梦的一种属性分类，影响对战与设计。
+    aliases: [水属性]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: animation-production
+    name: 动画制作
+    facet: art
+    gloss: 制作动画影像的过程或工作。
+    aliases: [动画制作]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: release-time
+    name: 发售时
+    facet: business
+    gloss: 产品正式发售的时间点。
+    aliases: [发售时]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: related-people
+    name: 相关人
+    facet: team
+    gloss: 与开发或项目相关的人员。
+    aliases: [相关人]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: career
+    name: 职业生涯
+    facet: team
+    gloss: 个人从事职业工作的经历。
+    aliases: [职业生涯]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: work
+    name: 工作
+    facet: team
+    gloss: 所从事的职业或任务。
+    aliases: [の仕事]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: first-time
+    name: 初めて
+    facet: team
+    gloss: 第一次经历或尝试某事。
+    aliases: [初めて]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: hall-of-fame
+    name: 殿堂级
+    facet: franchise
+    gloss: 指达到最高荣誉或等级。
+    aliases: [殿堂级]
+    status: draft
+    note: 语料 26 篇（mine-concepts 提）
+
+  - id: design-thinking
+    name: 设计思路
+    facet: design
+    gloss: 开发者思考如何把想法落实为具体设计的过程。
+    aliases: [思考如何]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: programmer-role
+    name: 工程师工作
+    facet: team
+    gloss: 工程师在开发中承担的实现与技术支持工作。
+    aliases: [工程师, ログラマーの]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: interview-format
+    name: 访谈形式
+    facet: process
+    gloss: 以访谈方式记录开发者讲述的史料形式。
+    aliases: [インタビュー]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: first-contact
+    name: 初次接触
+    facet: audience
+    gloss: 玩家第一次接触作品或玩法时的体验。
+    aliases: [第一次接触]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: world-building
+    name: 世界构建
+    facet: story
+    gloss: 为作品搭建整体世界观与设定。
+    aliases: [整个世界]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: psychic-type
+    name: 超能力属性
+    facet: system
+    gloss: 宝可梦属性之一，涉及相关招式与相性设计。
+    aliases: [超能力]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: authenticity
+    name: 原汁原味
+    facet: design
+    gloss: 保留作品原本风味与核心体验的做法。
+    aliases: [原汁原味]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: player-fun
+    name: 玩家乐趣
+    facet: audience
+    gloss: 以玩家觉得有趣为出发点的设计考量。
+    aliases: [觉得有趣]
+    status: draft
+    note: 语料 25 篇（mine-concepts 提）
+
+  - id: sound-design
+    name: 声音制作
+    facet: audio
+    gloss: 游戏音乐与音效的创作和编排。
+    aliases: [サウンド]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: battle-system
+    name: 战斗系统
+    facet: system
+    gloss: 对战中规则、数值与操作方式的设计。
+    aliases: [バトル]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: key-visual
+    name: 主视觉
+    facet: art
+    gloss: 用于宣传和包装的核心视觉图，决定作品第一印象。
+    aliases: [主视觉]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: expressive-power
+    name: 表现力
+    facet: art
+    gloss: 作品在画面、演出等方面传达情感与信息的能力。
+    aliases: [表现力, 表现方式]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: team-members
+    name: 团队成员
+    facet: team
+    gloss: 参与项目的开发人员及其协作关系。
+    aliases: [制作组, 团队成员, 作为制作]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: dedication
+    name: 倾注心血
+    facet: team
+    gloss: 开发者投入大量热情与精力制作作品。
+    aliases: [倾注心血, 发自内心, 灵魂深处]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: audience-communication
+    name: 面向玩家
+    facet: audience
+    gloss: 考虑如何向玩家传达信息、让玩家享受作品。
+    aliases: [向世界, 大家介绍, 传达出, 大家务必, 大家能够, 普通人]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: japan-market
+    name: 日本本土
+    facet: business
+    gloss: 面向日本国内市场的发行与推广考量。
+    aliases: [日本本土, 日本电影]
+    status: draft
+    note: 语料 24 篇（mine-concepts 提）
+
+  - id: new-technology
+    name: 新技术
+    facet: tech
+    gloss: 开发中引入的此前未使用过的技术手段。
+    aliases: [新技术]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: development-secrets
+    name: 开发秘话
+    facet: process
+    gloss: 开发过程中不为人知的幕后故事与经历。
+    aliases: [开发秘]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: movie-tie-in
+    name: 大电影
+    facet: franchise
+    gloss: 与游戏联动的剧场版动画电影。
+    aliases: [大电影]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: heroine
+    name: 女主角
+    facet: story
+    gloss: 故事中担任核心的女性角色。
+    aliases: [女主角]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: special-project
+    name: 特别企划
+    facet: process
+    gloss: 为特定目标单独立项、与常规作品不同的开发项目。
+    aliases: [特别企划]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: subversive
+    name: 颠覆性
+    facet: design
+    gloss: 打破既有框架、带来强烈冲击的设计取向。
+    aliases: [颠覆性]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: series-first
+    name: 系列首次
+    facet: franchise
+    gloss: 在系列历史中第一次采用的做法或设定。
+    aliases: [系列首]
+    status: draft
+    note: 语料 23 篇（mine-concepts 提）
+
+  - id: audience-age
+    name: 目标年龄层
+    facet: audience
+    gloss: 开发者设想作品面向的玩家年龄段。
+    aliases: [年龄层]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: development-company
+    name: 开发公司
+    facet: business
+    gloss: 承接或共同参与游戏开发的外部公司。
+    aliases: [开发公司]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: development-work
+    name: 开发工作
+    facet: process
+    gloss: 从立项到完成的具体开发作业。
+    aliases: [开发工作]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: whole-company
+    name: 全公司体制
+    facet: team
+    gloss: 公司整体投入、跨部门协作的开发方式。
+    aliases: [全公司]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: real-life
+    name: 现实生活
+    facet: audience
+    gloss: 玩家日常所处的真实生活场景，作为设计参照。
+    aliases: [现实生活]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: resonance
+    name: 产生共鸣
+    facet: audience
+    gloss: 让玩家对作品内容感到认同与触动。
+    aliases: [产生共鸣]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: creating-new
+    name: 创造新事物
+    facet: design
+    gloss: 不沿用既有做法、尝试做出新东西的取向。
+    aliases: [创造新]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: fire-type
+    name: 火属性
+    facet: system
+    gloss: 宝可梦属性体系中的火属性分类。
+    aliases: [火属性]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: pedometer
+    name: 计步器玩法
+    facet: system
+    gloss: 把现实中的步数转化为游戏内要素的周边设备与玩法。
+    aliases: [计步器, 随身携带]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: evolution
+    name: 进化机制
+    facet: system
+    gloss: 宝可梦成长后改变形态与能力的核心系统。
+    aliases: [进化成]
+    status: draft
+    note: 语料 22 篇（mine-concepts 提）
+
+  - id: development-start
+    name: 开发初期
+    facet: process
+    gloss: 项目刚起步、方向尚未定型的阶段。
+    aliases: [开发初期]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: anniversary
+    name: 周年纪念
+    facet: business
+    gloss: 围绕系列周年节点展开的企划与发行安排。
+    aliases: [周年纪念]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: recruitment
+    name: 招聘与录用
+    facet: team
+    gloss: 公司招募开发者、选拔新人的流程与标准。
+    aliases: [採用担当, 入公司]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: series
+    name: 系列延续
+    facet: franchise
+    gloss: 把作品当作长期系列来经营、保持连续性的思路。
+    aliases: [シリーズ]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: world-class
+    name: 世界级目标
+    facet: audience
+    gloss: 以全球玩家为对象、追求世界水准的定位。
+    aliases: [世界级]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: multiplayer
+    name: 多人同乐
+    facet: audience
+    gloss: 让多人一起游玩、彼此交流的设计取向。
+    aliases: [人游玩]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: excitement
+    name: 心跳体验
+    facet: design
+    gloss: 让玩家感到紧张兴奋、情绪被调动起来的设计目标。
+    aliases: [心跳加速, 戏剧性]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: memories
+    name: 回忆与怀旧
+    facet: audience
+    gloss: 唤起玩家过往游玩记忆、与之共鸣的取向。
+    aliases: [思い出]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: team-rocket-trio
+    name: 火箭队三人组
+    facet: story
+    gloss: 动画中反复登场的反派组合，其互动与台词成为系列标志性元素。
+    aliases: [火箭队三人组]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: tv-anime
+    name: 电视动画
+    facet: franchise
+    gloss: 以电视节目形式播出的宝可梦动画，是跨媒体展开的重要一环。
+    aliases: [电视节目]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: difficulty-tuning
+    name: 难度调整
+    facet: design
+    gloss: 在开发中刻意调整游戏难度，使其既不过于简单也不过于困难。
+    aliases: [相当困难]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: tension-design
+    name: 紧张感设计
+    facet: design
+    gloss: 在战斗或探索中营造适度的紧张感，以提升玩家投入度。
+    aliases: [紧张感]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: bicycle-mobility
+    name: 自行车移动
+    facet: system
+    gloss: 通过获得自行车来提升地图移动速度，是系列常见的探索机制。
+    aliases: [自行车]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: time-investment
+    name: 时间投入
+    facet: process
+    gloss: 开发或游玩过程中需要花费大量时间，常被开发者提及。
+    aliases: [花时间]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: high-school-audience
+    name: 高中生受众
+    facet: audience
+    gloss: 将高中生群体作为目标玩家或角色设定参考。
+    aliases: [高中生]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: sparkle-visual
+    name: 闪闪发光
+    facet: art
+    gloss: 用于形容宝可梦或特效的闪耀视觉效果。
+    aliases: [闪闪发光]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: heat-expression
+    name: 炎热表现
+    facet: art
+    gloss: 在画面或演出中表现炎热的感觉。
+    aliases: [非常热]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: design-creation
+    name: 设计出
+    facet: design
+    gloss: 指从零开始构思并设计出宝可梦或系统。
+    aliases: [设计出]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: do-ones-best
+    name: 竭尽全力
+    facet: team
+    gloss: 开发者全力以赴投入工作的态度。
+    aliases: [竭尽全力]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: thinking-process
+    name: 思考过程
+    facet: process
+    gloss: 开发中反复思考、斟酌的环节。
+    aliases: [考える]
+    status: draft
+    note: 语料 21 篇（mine-concepts 提）
+
+  - id: office-culture
+    name: 办公室文化
+    facet: team
+    gloss: 开发团队在办公室中的工作氛围与日常互动。
+    aliases: [オフィス]
+    status: draft
+    note: 语料 20 篇（mine-concepts 提）
+
+  - id: past-to-present
+    name: 今まで
+    facet: franchise
+    gloss: 指迄今为止的系列历史或积累。
+    aliases: [今まで]
+    status: draft
+    note: 语料 20 篇（mine-concepts 提）
+
+  - id: heart-touching
+    name: 令人心
+    facet: story
+    gloss: 形容剧情或演出打动人心。
+    aliases: [令人心]
+    status: draft
+    note: 语料 20 篇（mine-concepts 提）

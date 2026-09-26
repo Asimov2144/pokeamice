@@ -1,0 +1,6977 @@
+{
+ "generated": "2026-09-26",
+ "table": "data/lore_tables/concepts.yml",
+ "counts": {
+  "concepts": 114,
+  "matched": 114,
+  "unused": [],
+  "posts_with": 958,
+  "posts": 1158,
+  "per_post": {
+   "0": 200,
+   "1": 157,
+   "2": 139,
+   "3": 88,
+   "4": 70,
+   "5": 44,
+   "6": 34,
+   "7": 30,
+   "8": 26,
+   "9": 27,
+   "10": 31,
+   "11": 25,
+   "12": 34,
+   "13": 21,
+   "14": 25,
+   "15": 28,
+   "16": 16,
+   "17": 19,
+   "18": 16,
+   "19": 19,
+   "20": 10,
+   "21": 11,
+   "22": 9,
+   "23": 11,
+   "24": 6,
+   "25": 10,
+   "26": 1,
+   "27": 10,
+   "28": 5,
+   "29": 4,
+   "30": 2,
+   "31": 3,
+   "32": 2,
+   "33": 2,
+   "34": 3,
+   "35": 2,
+   "36": 1,
+   "37": 1,
+   "38": 1,
+   "39": 3,
+   "40": 3,
+   "44": 2,
+   "45": 1,
+   "46": 1,
+   "48": 1,
+   "49": 1,
+   "50": 1,
+   "52": 1,
+   "54": 1
+  }
+ },
+ "concepts": [
+  {
+   "id": "recruiting",
+   "name": "招聘与新人",
+   "facet": "team",
+   "facet_name": "团队与人",
+   "gloss": "GAME FREAK 招人这件事：应届、中途、看什么。",
+   "approved": false,
+   "aliases": [
+    "招聘",
+    "新卒",
+    "届毕业生",
+    "新人",
+    "应届"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 301,
+   "segs": 273,
+   "forms": [
+    "招聘×239",
+    "新人×59",
+    "应届×36",
+    "新卒×20",
+    "届毕业生×2"
+   ],
+   "by_kind": {
+    "interview": 86,
+    "blog": 211,
+    "scan": 3,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 177,
+     "via": "body",
+     "text": "话说回来，当时还自认为是新人，回过神来却已成为宝可梦网站界的活化石。"
+    },
+    {
+     "post": "gamefreak-staff-33",
+     "title": "【工作日志】2007年公司里流行的游戏",
+     "seg": 2,
+     "via": "body",
+     "text": "虽然入职才半年，是个新人，但还请大家多多关照。"
+    },
+    {
+     "post": "gamefreak-staff-41",
+     "title": "【工作日志】2007年应届招聘启动",
+     "seg": 0,
+     "via": "body",
+     "text": "<div data-gf-language-panel=\"zh-CN\" 我是负责招聘的もりもと（森本）。"
+    },
+    {
+     "post": "gamefreak-staff-52",
+     "title": "【工作日志】公司说明会与年末大扫除",
+     "seg": 0,
+     "via": "body",
+     "text": "<div data-gf-language-panel=\"zh-CN\" 我是负责招聘的もりもと（森本）。"
+    }
+   ]
+  },
+  {
+   "id": "children",
+   "name": "儿童玩家",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "给孩子做游戏：懂不懂、家长怎么想、能不能一个人玩。",
+   "approved": false,
+   "aliases": [
+    "孩子们",
+    "小孩子",
+    "儿童",
+    "小学生",
+    "子供"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 190,
+   "segs": 440,
+   "forms": [
+    "孩子们×125",
+    "儿童×76",
+    "小学生×28",
+    "小孩子×27",
+    "子供×16"
+   ],
+   "by_kind": {
+    "scan": 10,
+    "interview": 141,
+    "blog": 38,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 93,
+     "via": "body",
+     "text": "地鼠\n20cm\n绿毛虫\n30cm\n伊布\n30cm\n暴鲤龙\n6m50cm\n哈克龙\n4m\n大岩蛇\n8m80cm\n儿童\n1m50cm\n袋兽\n2m20cm\nNBA的\n球员\n2m25cm"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 104,
+     "via": "body",
+     "text": "看着150个孩子们成长与变身的喜悦"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 109,
+     "via": "body",
+     "text": "放出梦幻的秘技其实是因为程序错误（bug）才产生的。全都是我的错。对不起。因为有可能损坏存档数据，所以如果可以的话，希望好孩子们不要去做（笑）。"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 28,
+     "via": "body",
+     "text": "是的。由于城市化，捕捉昆虫的地方变得稀少。现在的孩子们都在家里玩，很多人已经忘记了捕捉昆虫的乐趣。我也一样。当我制作游戏时，我突然灵光一闪，决定制作一款以那个概念为核心的游戏。我小时候做过的所有事情都融合在了一起——这就是宝可梦。玩电子游戏、看电视、奥特曼和他的胶囊怪兽——这些都成了游戏的素材。"
+    }
+   ]
+  },
+  {
+   "id": "studio-culture",
+   "name": "公司氛围",
+   "facet": "team",
+   "facet_name": "团队与人",
+   "gloss": "社内是什么样：座位、讨论、能不能说「不行」。",
+   "approved": false,
+   "aliases": [
+    "公司内部",
+    "团队内部",
+    "社内",
+    "公司的气氛",
+    "办公室",
+    "オフィス"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 187,
+   "segs": 355,
+   "forms": [
+    "公司内部×110",
+    "社内×58",
+    "办公室×56",
+    "オフィス×20",
+    "团队内部×17"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 111,
+    "blog": 63,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 80,
+     "via": "body",
+     "text": "一开始，我就想给自己发现的新物种起名字，但Game Boy方面有极限，不得不放弃。所以，这种心情就体现在宝可梦的名字上了。可是，制作途中做了公司内部测试，果然很多人提出想自己给宝可梦起名字。但如果加入这样的系统，作为代价，比如能收集的宝可梦数量就不得不减少。所以，当时能成为伙伴的100只宝可梦，因为可以起名字，一下子减"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 1,
+     "via": "body",
+     "text": "田尻智通常回避公众目光，此次在位于东京世田谷区的小公司GAME FREAK办公室里，与拉里默及《时代》杂志实习生横田隆志畅谈他的挚爱之作。世田谷是青年文化中心，周边有多所大专院校。他的公司占据一栋普通办公楼的两层，而在这两层之间，夹着一所面向初中生的“补习学校”，学生们付费加课，以期提高下次入学考试的成绩。"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 8,
+     "via": "body",
+     "text": "当时公司内部流行购买二手的《宝可梦》游戏软件，"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 23,
+     "via": "body",
+     "text": "采访花絮：GAME FREAK公司内部，一场气氛融洽的专访正在进行。当聊到当年为了收集自己亲手创造的151只宝可梦周边而四处奔走的故事时，现场不禁笑声四起。"
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "name": "完成度与打磨",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "做到什么程度才肯交出去。",
+   "approved": false,
+   "aliases": [
+    "完成度",
+    "品质",
+    "打磨",
+    "精细度",
+    "クオリティ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 173,
+   "segs": 279,
+   "forms": [
+    "打磨×105",
+    "品质×73",
+    "完成度×21",
+    "クオリティ×4",
+    "精细度×2"
+   ],
+   "by_kind": {
+    "scan": 14,
+    "interview": 138,
+    "blog": 21
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 19,
+     "via": "body",
+     "text": "因为花了充足的时间，所以相应地，细节部分也能反复打磨到满意为止。普通的游戏往往是日程优先，而《宝可梦》的期限并不确定，所以觉得不错的点子几乎全都放了进去。"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 43,
+     "via": "body",
+     "text": "作为前提条件，按键数量很少，容量也很小。但反过来说，在有限的条件下能够精心打磨，这一点让人很有干劲。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 8,
+     "via": "body",
+     "text": "于我而言，目标便是提升画面的完成度。色彩化固然是原因之一，但既然宝可梦这一存在已然深入人心，我便想让大家看到宝可梦更多不同的魅力。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 39,
+     "via": "body",
+     "text": "最初，与其说是和石原先生搭档做事，不如说我们是在各自不同的地方保持一种相互刺激的关系，然后针对每个项目一起合作。毕竟，我要经营GAME FREAK，要照顾到每一位员工，同时还要尽可能做出高品质的游戏，已经忙得不可开交。不过，当石原先生突然转到糸井先生那里时，我着实吃了一惊。那是在糸井重里先生创立APE（艾普）公司，石原"
+    }
+   ]
+  },
+  {
+   "id": "scenario",
+   "name": "剧本",
+   "facet": "story",
+   "facet_name": "剧情与文本",
+   "gloss": "故事怎么写的：谁写、改了几版、作品要说什么。",
+   "approved": false,
+   "aliases": [
+    "剧本",
+    "脚本",
+    "编剧",
+    "シナリオ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 165,
+   "segs": 563,
+   "forms": [
+    "剧本×139",
+    "编剧×80",
+    "脚本×28",
+    "シナリオ×11"
+   ],
+   "by_kind": {
+    "interview": 132,
+    "scan": 16,
+    "blog": 15,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 26,
+     "via": "body",
+     "text": "在“Game Boy的反击”栏目中，刊登了正在开发中的《宝可梦2》的信息。编辑部通过传真向田尻提问，田尻以此方式回答了以下问题。《2》的宝可梦有多少种？新宝可梦有多少种？请稍微透露一下会出现什么样的宝可梦。进化方式会改变吗？如果改变的话会变成什么样？剧本会是前作的延续吗？内容会怎样？这次也会发售两个版本吗？区别和之前一"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 40,
+     "via": "body",
+     "text": "濑谷 伸宏①顺应宝可梦♂ ②1.72m／56Kg ③一点集中型 ④宝可梦中心上方 ⑤脚本设定／地图制作／融入／行动力UP"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 40,
+     "via": "body",
+     "text": "最初的基础设定由田尻负责，而细微的平衡性调整则由我来把控。首先看着图形，想象“这只宝可梦大概有这么强吧”，然后决定等级。接着实际游玩测试，如果感觉不够有趣就再次调整。就是这样的反复作业。此外，也有因剧本需要而决定强度或角色定位的情况。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 17,
+     "via": "body",
+     "text": "是的。虽然剧本中没有出现，但设定上是已经做好的。"
+    }
+   ]
+  },
+  {
+   "id": "joining",
+   "name": "进公司之前",
+   "facet": "team",
+   "facet_name": "团队与人",
+   "gloss": "面试、转职、入职的经过——访谈里常从这儿说起。",
+   "approved": false,
+   "aliases": [
+    "进公司",
+    "入职",
+    "转职",
+    "面试",
+    "学生时代",
+    "职业生涯",
+    "入社"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 164,
+   "segs": 414,
+   "forms": [
+    "入职×91",
+    "入社×70",
+    "学生时代×28",
+    "职业生涯×26",
+    "面试×21",
+    "进公司×12"
+   ],
+   "by_kind": {
+    "scan": 7,
+    "interview": 90,
+    "blog": 65,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 85,
+     "via": "body",
+     "text": "我随机选取了30组宝可梦。种类五花八门。已知性别的，是♂与♀的组合，除此之外则完全随意。……说到随机选取，学生时代大木博士曾对我说过：「无意识中也有法则性。忘记这一点，数据的可信度就会受到怀疑。」确实如此。这就是所谓的「无巧不成椰蛋树」吗？啊哈哈哈！！"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 45,
+     "via": "body",
+     "text": "田尻君从学生时代起就自称“GAME FREAK”了。绰号也是“社长”（笑）。从这个意义上说，田尻君就是GAME FREAK的全部，而GAME FREAK也就是田尻君本身。责任感很强呢。"
+    },
+    {
+     "post": "scan-continue-vol23-gamefreak-special",
+     "title": "[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话",
+     "seg": 38,
+     "via": "body",
+     "text": "杉森建：哎呀，要是真搞砸了那绝对会演变成严重的责任问题呢（笑）。所以说，当年亲自去京都任天堂总部提案的时候，真的是紧张到快要昏厥过去……那真的是我这辈子最紧张的时刻。因为我一辈子都待在 Game Freak 创业，从来没经历过什么正规企业的入职考试或求职面试啊。"
+    },
+    {
+     "post": "interview-gpara-2006-yoshida",
+     "title": "吉田宏信谈作品执着",
+     "seg": 8,
+     "via": "body",
+     "text": "这是西田先生还在GAME FREAK任职时的事。当时正在制作《宝可梦 皮卡丘》，我刚进公司，战战兢兢的，他每天都温和地跟我说话。有一天他问我：“吉田先生最喜欢吃什么？”我回答说：“这个嘛，与其说最喜欢吃什么，不如说我想抱着一整条巨大的瑞士卷（蛋糕卷）大口啃。”结果第二天到公司一看，我的桌上竟然有3条瑞士卷！！多么温柔的"
+    }
+   ]
+  },
+  {
+   "id": "world-building",
+   "name": "世界观设定",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "一款作品的世界怎么立起来——地区、生态、文明和其中说得通的规则。",
+   "approved": false,
+   "aliases": [
+    "世界观",
+    "世界设定",
+    "世界観",
+    "世界設定"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 156,
+   "segs": 275,
+   "forms": [
+    "世界观×156",
+    "世界観×8",
+    "世界设定×1"
+   ],
+   "by_kind": {
+    "scan": 15,
+    "interview": 121,
+    "blog": 19,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 21,
+     "via": "body",
+     "text": "同样，6年前制作的宝可梦（登场怪物）的叫声之类的也还在，当时设想的世界观和现在设想的世界观有差异，所以我是一边回忆过去的印象一边制作的。不过，也会觉得以前的自己真是纯粹，挺好的（笑）。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 18,
+     "via": "body",
+     "text": "制作时我对工作人员严厉强调的一点是「总之先把游戏通关之后再去做」。因此，动画制作团队的全体成员都能在理解游戏世界观的基础上投入制作。我认为这正是成功的秘诀。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 18,
+     "via": "body",
+     "text": "“世界观与之前相同，但故事截然不同。你会看到许多新宝可梦。目前我还不能透露更多。”"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 5,
+     "via": "body",
+     "text": "西野弘二（策划）：负责企划、数据管理。负责宝可梦出现率的设定以及世界观设定。"
+    }
+   ]
+  },
+  {
+   "id": "items",
+   "name": "道具与精灵球",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "球、伤药、携带道具——玩家手里能用的东西。",
+   "approved": false,
+   "aliases": [
+    "精灵球",
+    "道具",
+    "モンスターボール"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 144,
+   "segs": 292,
+   "forms": [
+    "道具×90",
+    "精灵球×73",
+    "モンスターボール×1"
+   ],
+   "by_kind": {
+    "scan": 25,
+    "interview": 93,
+    "blog": 24,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 12,
+     "via": "body",
+     "text": "那大概是1925年的事，我国宝可梦学之祖西之森教授正在进行提取火暴猴愤怒能量的实验。然而，当时已临近退休年龄的教授弄错了用药量，使珍贵的火暴猴衰弱下去。可是，那只火暴猴或许是出于生存本能，自己整个钻进了旁边教授的远视眼镜盒里，像胎儿一样蜷成一团。以此事件为契机，宝可梦捕获胶囊的开发得以推进，同时也确立了捕获宝可梦的方法"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 72,
+     "via": "body",
+     "text": "《勇者斗恶龙》里有一个叫“不可思议的帽子”的稀有道具，杉森说他有两个。可是，我为了得到“不可思议的帽子”玩了好几天游戏，结果还是没得到。那时候，我就单纯地想，既然你有两个，那给我一个吧。所以，我并不是一开始就想做RPG，最初“想要交换”的心情应该很强烈吧。RPG或者培育之类的部分，是后来才加上的要素。"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 51,
+     "via": "body",
+     "text": "更重要的是这些怪兽能被玩家控制。它们可能是你内心的怪兽，例如代表恐惧或愤怒。而且它们被装在精灵球里。此外，每个人都可以给它们起自己的名字。皮卡丘就像是物种的名字，但每个玩家都可以给自己那只皮卡丘命名。这样孩子们能产生更多共鸣，也更容易产生感情。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 28,
+     "via": "body",
+     "text": "关根 一仁①AGO宝可梦♂ ②很小哦！／很重哦（哭） ③以前很瘦但最近是发胖型 ④满金市B1F ⑤人物、道具的位置／地图数据设定／冷笑话／发胖"
+    }
+   ]
+  },
+  {
+   "id": "generations",
+   "name": "世代与代际",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "一代一代往下数这件事：初代、世代交替、每代的新要素。",
+   "approved": false,
+   "aliases": [
+    "世代交替",
+    "新世代",
+    "初代",
+    "第一世代",
+    "第二世代",
+    "第三世代",
+    "第四世代",
+    "第五世代",
+    "第六世代",
+    "第七世代",
+    "第八世代",
+    "第九世代"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 142,
+   "segs": 238,
+   "forms": [
+    "初代×101",
+    "新世代×16",
+    "第一世代×13",
+    "第五世代×12",
+    "第四世代×7",
+    "第六世代×6"
+   ],
+   "by_kind": {
+    "interview": 126,
+    "blog": 5,
+    "scan": 9,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 0,
+     "via": "body",
+     "text": "第1回：田尻智 社长篇（宝可梦之父谈初代构想与《金·银》超前线）"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 30,
+     "via": "body",
+     "text": "关于此事，也请参考博客文章《初代宝可梦：选择键漏洞与梦幻的“发现”》。"
+    },
+    {
+     "post": "interview-nintendo-power-134-gold-silver-mew",
+     "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化",
+     "seg": 2,
+     "via": "body",
+     "text": "【总制作人 石原恒和】：“金”与“银”绝不仅仅是抽象的色彩，它们更是在现实物理世界中沉甸甸存在的贵重金属。金与银象征着永不褪色、经得起时间淘洗的恒久价值。在初代作为原色基准的《红·绿·蓝》之后，我们强烈渴望用一种更具分量、更有质感、更具永恒象征意义的物质意象，来作为开启下一个崭新时代的旗帜。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 2,
+     "via": "body",
+     "text": "通常，我只发布那些我付费从日文原文翻译过来的宝可梦专访。比如这篇2011年的采访，杉森建在其中讲述了第五世代初始宝可梦的起源故事。但下面这篇采访实际上是以英文发表的，刊登在2000年7月号的《Nintendo Power》杂志上。不过鉴于该杂志早已停刊，而这篇采访也已将近二十年前的事了，我觉得把它归档在这里，并根据此后"
+    }
+   ]
+  },
+  {
+   "id": "main-story",
+   "name": "主线流程",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "从出门到打完联盟这条线：道馆顺序、节奏、卡住的地方。",
+   "approved": false,
+   "aliases": [
+    "主线剧情",
+    "通关",
+    "剧情流程",
+    "道馆"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 142,
+   "segs": 317,
+   "forms": [
+    "通关×78",
+    "道馆×76",
+    "主线剧情×14",
+    "剧情流程×2"
+   ],
+   "by_kind": {
+    "scan": 27,
+    "interview": 99,
+    "blog": 14,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 114,
+     "via": "body",
+     "text": "太田 通关一次游戏之后，接下来可以定个主题，按自己的风格挑战有讲究的宝可梦收藏，这样也不错。"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 6,
+     "via": "body",
+     "text": "用官方插图大幅装点版面，记载为2月27日发售预定的发售前特集文章。除了前一年95年12月15日号提及的内容外，文章内还介绍了战斗、捕获以及道馆馆主。 ※ 如果是隔周发行的FamiMaga，96年3月8日号的发售日是2月23日以FamiMaga为首，这个时期的游戏杂志大多主要处理适合杂志版面的家用机软件信息，但Game "
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 13,
+     "via": "body",
+     "text": "是的。那是手写的。我用订书机把页面装订起来。里面包含如何通关的技巧，以及像《大金刚》这样的游戏的秘密提示。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 64,
+     "via": "body",
+     "text": "集齐249种，宝可梦图鉴就算完成了，这样姑且也就算是通关了。"
+    }
+   ]
+  },
+  {
+   "id": "nature-and-bugs",
+   "name": "自然与昆虫采集",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "田尻智抓虫的少年时代，以及把采集和生态搬进游戏。",
+   "approved": false,
+   "aliases": [
+    "昆虫",
+    "采集昆虫",
+    "捕虫",
+    "大自然",
+    "生态"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 134,
+   "segs": 237,
+   "forms": [
+    "生态×104",
+    "大自然×34",
+    "昆虫×17",
+    "捕虫×3",
+    "采集昆虫×1"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 112,
+    "blog": 9,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 10,
+     "via": "body",
+     "text": "宝可梦学的历史意外地古老，过去曾有众多研究者持续调查（参见本书第8页），才得以作为如今这样出色的学术对象而成立。话虽如此，我们研究所目前确认存在的150个种类这一数量，不仅在数目上，而且在将生态、嗜好、进化等加以系统性分类这一点上，都无疑堪称世界第一。……咳哼。"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 36,
+     "via": "body",
+     "text": "把宝可梦当成和怪兽一样的东西，这种想法有点操之过急。说到怪兽，给人很强的坏东西的印象，但在这个世界里，它们并不是那么坏的家伙。可要说它们是像猫狗那样的人类的朋友，也不尽然。饲养方式不同，它们既能对人类有用，也能成为威胁安全生活的敌人。宝可梦就是这种不可思议的存在。游戏制作人员们小时候体验过的采集昆虫那份令人怀念的「回忆"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 3,
+     "via": "body",
+     "text": "从昆虫少年到同人志先锋：GAME FREAK 的黎明与执念"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 12,
+     "via": "body",
+     "text": "前篇第2节：制作宝可梦之前（昆虫采集、《Game Freak》同人志与街机黄金时代）"
+    }
+   ]
+  },
+  {
+   "id": "hardware-limits",
+   "name": "机能与容量",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "卡带装得下多少、内存够不够——早期作品的一切都从这儿起。",
+   "approved": false,
+   "aliases": [
+    "容量",
+    "内存",
+    "机能",
+    "卡带",
+    "ROM",
+    "容量不足"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 130,
+   "segs": 236,
+   "forms": [
+    "卡带×66",
+    "容量×41",
+    "机能×22",
+    "ROM×16",
+    "内存×14"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 101,
+    "blog": 16,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 45,
+     "via": "body",
+     "text": "那是最初三四个人做的时候想出来的点子。在我们生活的现实世界里，有某某街道、国道几号线之类的，道路都有名字。而且，这些道路把各个城镇连接起来。我就想能不能在游戏里也表现出这种感觉，于是做了地图。结果，这种方法还有一个好处，就是相对于地图的广阔程度，并没有占用想象中那么多的容量。"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 9,
+     "via": "body",
+     "text": "作为游戏的整体容量，如果把《1》当作1的话，《2》大概是几皮卡？"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 20,
+     "via": "body",
+     "text": "那也是中途有了 Game Boy 卡带可以加装时钟功能的消息之后才开始的。最初考虑的是到了晚上9点就会出现某种宝可梦之类的，但如果限定时间，也有在那个时间没法玩的人。于是就把时间大致划分为早上、白天、晚上，在其中改变出现率，形成了现在的形式。因为反复做了很多次实验，所以这个方案定下来已经是相当后期的事了……"
+    },
+    {
+     "post": "interview-nintendo-power-134-gold-silver-mew",
+     "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化",
+     "seg": 5,
+     "via": "body",
+     "text": "梦幻的绝密起源：在封装前最后两周悄悄植入卡带"
+    }
+   ]
+  },
+  {
+   "id": "surprise",
+   "name": "惊喜与发现",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "让人「咦」一下的东西：藏起来的、没说明的、第一次见到的。",
+   "approved": false,
+   "aliases": [
+    "惊喜",
+    "新鲜感",
+    "意外的发现",
+    "吃惊"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 129,
+   "segs": 161,
+   "forms": [
+    "惊喜×82",
+    "新鲜感×29",
+    "吃惊×29"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 88,
+    "blog": 28,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 46,
+     "via": "body",
+     "text": "是啊。玩的时候也会觉得「恶」和「钢」很让人高兴。就算是把前作玩透的人，属性增加了，也能带着新鲜感享受对战。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 26,
+     "via": "body",
+     "text": "“对我来说，保持游戏的新鲜感是最困难的事。许多人都玩过《宝可梦》，而《金／银》也必须为他们保持新鲜与趣味。”"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 23,
+     "via": "body",
+     "text": "和上一作一样，有可爱的家伙、诡异的家伙、帅气的家伙。我设计了很多新宝可梦。另外，还有一些外形会让人吃惊地想“咦，这也是宝可梦？”的新角色，所以我想大家能感受到新作独有的新鲜感。请一定要把所有的宝可梦都捉住哦！"
+    },
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 19,
+     "via": "body",
+     "text": "此外，本作的另一大宏伟支柱，就是在一周目通关登入名人堂之后全面解锁的全新冒险舞台——“七岛（ナナシマ / Sevii Islands）”。我们希望当年第一时间通关了初代《红·绿》的硬核老玩家们，在重返关都时也能重新体会到久违的未知探索与震撼惊喜。在七岛上，不仅描绘了火箭队残党在暗处的秘密活动，更通过贯穿各岛屿的深层剧情"
+    }
+   ]
+  },
+  {
+   "id": "marketing",
+   "name": "宣传",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "怎么让人知道：广告、情报公开的节奏、发布会。",
+   "approved": false,
+   "aliases": [
+    "宣传",
+    "广告",
+    "情报公开",
+    "宣传活动"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 116,
+   "segs": 177,
+   "forms": [
+    "宣传×76",
+    "广告×42",
+    "情报公开×4",
+    "宣传活动×2"
+   ],
+   "by_kind": {
+    "scan": 11,
+    "interview": 73,
+    "blog": 30,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 76,
+     "via": "body",
+     "text": "渡边 哲也 程序员 [宣传语] 「跑吧，跑吧 烈焰马！」"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 3,
+     "via": "body",
+     "text": "记载为12月21日发售预定的介绍文章。（实际延期至翌年1996年2月27日）除了游戏目的、通信交换、可以起昵称等说明文字外，还刊登了小火龙进化最终变成喷火龙的插图。（发售前的彩色广告等，包括其他杂志在内，我想这个时期前后应该都有，有兴趣的人请各自确认）"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 163,
+     "via": "body",
+     "text": "嗯，有很多呢。妙蛙种子、妙蛙草、妙蛙花。这三个因为是进化关系，所以声质是一样的。可达鸭。因为它叫起来像“登咚登”，所以喜欢。广告里也常听到。还有呆呆兽、椰蛋树、尼多王等等。"
+    },
+    {
+     "post": "gamefreak-director-028",
+     "title": "[GameFreak部长专栏] 第28回",
+     "seg": 16,
+     "via": "body",
+     "text": "我常常觉得很值得学习的，是宣传文案和通知。"
+    }
+   ]
+  },
+  {
+   "id": "battle-system",
+   "name": "对战系统",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "回合、招式、能力变化那一套规则本身。",
+   "approved": false,
+   "aliases": [
+    "对战系统",
+    "战斗系统",
+    "宝可梦对战",
+    "打对战",
+    "回合",
+    "バトルシステム"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 113,
+   "segs": 225,
+   "forms": [
+    "宝可梦对战×78",
+    "回合×30",
+    "打对战×21",
+    "战斗系统×17",
+    "对战系统×10"
+   ],
+   "by_kind": {
+    "scan": 22,
+    "interview": 74,
+    "blog": 16,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 36,
+     "via": "body",
+     "text": "不习惯宝可梦的人，似乎总有一种只管不断发动攻击的倾向。确实，在对手还弱的时候，这样也能赢个差不多，但像我们这样的高手，不会一上来就攻击。进入战斗后的第一个回合，比如用波波擅长的「泼沙」降低强敌的命中率，或者用大葱鸭的「剑舞」提高攻击力，然后再用「飞翔」打出致命一击。"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 94,
+     "via": "body",
+     "text": "交换系统完成后，接下来是对战系统！？"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 116,
+     "via": "body",
+     "text": "这使宝可梦对战变得火热，也开始有了正式的战术研究。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 11,
+     "via": "body",
+     "text": "是的。夜晚与白天，在野生宝可梦对战时的音乐也不一样。比如曲子的节奏不同，或是音色变得更柔和之类，虽然只是些细微的差别。"
+    }
+   ]
+  },
+  {
+   "id": "easy-to-grasp",
+   "name": "易懂与门槛",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "让第一次玩的人也懂：说明、门槛、不解释也能会。",
+   "approved": false,
+   "aliases": [
+    "易上手",
+    "简单易懂",
+    "一目了然",
+    "门槛",
+    "谁都能玩",
+    "容易理解",
+    "一看就懂",
+    "第一次接触",
+    "わかりやす"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 113,
+   "segs": 172,
+   "forms": [
+    "门槛×53",
+    "容易理解×26",
+    "第一次接触×25",
+    "一目了然×10",
+    "易上手×9",
+    "简单易懂×5"
+   ],
+   "by_kind": {
+    "scan": 15,
+    "interview": 83,
+    "blog": 15
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 77,
+     "via": "body",
+     "text": "值和游戏中的金钱价值，表现起来会超越游戏的极限。游戏中的金钱和我们现实社会中流通的金钱，意义完全不同。我觉得用Game Boy表现到那种程度是有极限的，总之要跨越的障碍太多了。当感到障碍很多时，该怎么办呢？只能留下最想说的部分，其他就放弃。在这种情况下，交换宝可梦是第一位的，所以用钱交易这个要素就舍弃了。结果，我认为这"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 62,
+     "via": "body",
+     "text": "玩过前作的人，解谜也很快呢。相反，对于初次接触的人来说，可能会觉得有点难。 ——但是，我觉得有很多对新手来说容易理解的演出哦。渡边：负责怪物设计的杉森（建先生）说， “我让我老爸玩了前作，但他好像出不了家门”（笑）。所以，他一直提议“想让它更容易理解”。因此，一键用选择按钮就能钓鱼或骑自行车，也是他的提议。《金／银》的"
+    },
+    {
+     "post": "interview-nom-crystal-new-elements-heroine",
+     "title": "任天堂官方网络杂志 N.O.M：《宝可梦 水晶版》礼物目录（2000年12月号）与编辑长体验记（2001年1月号）",
+     "seg": 6,
+     "via": "body",
+     "text": "不管是很早以前就是粉丝的人，还是第一次接触宝可梦的人，都能一起享受的软件。是谁收到都会高兴的礼物。各位爸爸妈妈，作为对一年来乖乖听话的孩子的奖励，怎么样？"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 8,
+     "via": "body",
+     "text": "我们定的主题不是朝着对战特化发展，而是展现出每一只宝可梦的个性。宝可梦华丽大赛追求的就是这种个体身上的趣味。当然，对战也比以往更加升级。此外，即使没有玩过前作，从“宝可梦是什么？”开始，到宝可梦的捕捉方法等细节信息，我们都尽量为初次游玩的玩家做得简单易懂。"
+    }
+   ]
+  },
+  {
+   "id": "illustration",
+   "name": "插画与设定图",
+   "facet": "art",
+   "facet_name": "美术",
+   "gloss": "宣传图、官方插画、设定资料集里的那些图。",
+   "approved": false,
+   "aliases": [
+    "插画",
+    "设定图",
+    "设定资料",
+    "主视觉",
+    "イラスト"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 110,
+   "segs": 230,
+   "forms": [
+    "插画×75",
+    "主视觉×24",
+    "设定图×11",
+    "设定资料×9",
+    "イラスト×8"
+   ],
+   "by_kind": {
+    "scan": 17,
+    "interview": 66,
+    "blog": 25,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 144,
+     "via": "body",
+     "text": "官方插画 杉森建（GAME FREAK inc.）"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 103,
+     "via": "body",
+     "text": "这是一个以插画为主的网站，也有从玩家视角出发的考察文章等。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 11,
+     "via": "body",
+     "text": "我与宝可梦的相遇是95年11月。当时我是《龙漫CORO-CORO》的副主编。最初，是Creatures的石原先生把宝可梦的游戏拿给我看的。起初我觉得插画偏中性，而《CORO-CORO》的读者95%是男孩，所以印象上可能不够有冲击力。但反过来说，它又有一种谁都会喜欢的形象。再加上可以用连接线交换怪物、可以带着怪物组建队伍"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 19,
+     "via": "body",
+     "text": "以前在Game Boy上无法实现的、接近官方插画和电视动画画面的细腻表现，现在可以做到了。另一方面，我也注意不让颜色和形状变得过于复杂，以致失去宝可梦的风格。"
+    }
+   ]
+  },
+  {
+   "id": "programming",
+   "name": "程序实现",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "代码这一侧：怎么写出来的、谁写的、为什么难写。",
+   "approved": false,
+   "aliases": [
+    "编写程序",
+    "程序上",
+    "源代码",
+    "汇编",
+    "编程",
+    "代码",
+    "プログラム"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 108,
+   "segs": 209,
+   "forms": [
+    "编程×45",
+    "代码×45",
+    "プログラム×13",
+    "汇编×12",
+    "编写程序×11",
+    "源代码×6"
+   ],
+   "by_kind": {
+    "scan": 8,
+    "interview": 74,
+    "blog": 24,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 47,
+     "via": "body",
+     "text": "开始做这个游戏的时候，除了杉森，藤原和森本也在做怪物设计，但森本中途说“我还是想试试编程”。于是他从零开始学习，最后成长到能制作战斗例程主程序的程度。"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 30,
+     "via": "body",
+     "text": "嗯，第一款游戏完全是我自己做的，那是在宝可梦之前。我没有依赖其他公司或程序员。我只是开始拆解任天堂的主机，看看它是如何运作的。16岁时，我赢得了一场世嘉赞助的游戏创意比赛。我花了两年时间学习编程，又花了一年时间制作我的第一款游戏（名为《Quinty》）。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 36,
+     "via": "body",
+     "text": "招式方面，是由最了解战斗的森本和西野一起拟定方案，然后自己编写程序来做的。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 20,
+     "via": "body",
+     "text": "玉田 宗介①高飞宝可梦♂ ②1.74m／63Kg ③全季节 ④便利店 ⑤写代码／滑行／喝"
+    }
+   ]
+  },
+  {
+   "id": "planning",
+   "name": "企划",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "一开始那几张纸：企划书、提案、说服别人。",
+   "approved": false,
+   "aliases": [
+    "企划书",
+    "企划案",
+    "企划阶段",
+    "企划时",
+    "提案"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 107,
+   "segs": 161,
+   "forms": [
+    "提案×51",
+    "企划书×33",
+    "企划案×15",
+    "企划时×13",
+    "企划阶段×8"
+   ],
+   "by_kind": {
+    "scan": 14,
+    "interview": 81,
+    "blog": 11,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 10,
+     "via": "body",
+     "text": "这款游戏是在我刚刚把GAME FREAK作为公司设立起来的时候写的企划书，所以到完成为止花了6年。当然，这期间也有为了制作其他几款游戏而暂停《宝可梦》作业的时期。因此，实际进行作业的，大概是第一年和最后3年左右吧。即便如此也花了4年（笑）。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 40,
+     "via": "body",
+     "text": "1997年体验版泄露的点阵图展示了数十只被删减或合并的城都宝可梦，验证了杉森建口中“数百只企划案”的真实存在。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 40,
+     "via": "body",
+     "text": "是的。那时我才明白，石原先生对电视游戏世界的着迷程度远超我的想象。所以，我之所以会把那份“将来会成为宝可梦的软件”企划书带到APE，正是因为石原先生在那里。后来，当石原先生独立创办Creatures时，我们其实还讨论过要不要两人合伙，共同创建一家公司。"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-card-e-creatures",
+     "title": "看不见的价值：宝可梦卡牌e",
+     "seg": 37,
+     "via": "body",
+     "text": "是的。任天堂对于“新的玩法”这件事，也一直在思考各种方案，而当我们听到Creatures想要让集换式卡牌进化这一企划时，觉得作为任天堂来说这也是个非常好的点子。于是，为了实现这套机制，由制作宝可梦卡牌的Creatures、拥有在卡牌e上印刷代码技术的奥林巴斯、负责设计卡牌e读取器的HAL研究所，再加上把整体整合成形、付"
+    }
+   ]
+  },
+  {
+   "id": "teamwork",
+   "name": "分工与协作",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "几个工种怎么对上：谁等谁、怎么传话。",
+   "approved": false,
+   "aliases": [
+    "分工",
+    "协作",
+    "团队合作",
+    "一起做",
+    "一起商量",
+    "各自负责",
+    "流水线"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 105,
+   "segs": 147,
+   "forms": [
+    "协作×38",
+    "流水线×28",
+    "分工×24",
+    "一起做×17",
+    "团队合作×6",
+    "各自负责×4"
+   ],
+   "by_kind": {
+    "scan": 10,
+    "interview": 88,
+    "blog": 7
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 31,
+     "via": "body",
+     "text": "啊，还有传说的鸟宝可梦！这些家伙相当难抓，不过用捕获率100%的大师球就能确实抓到。但是，那个只能得到一个。所以我就会和同伴事先决定好各自负责抓哪只传说宝可梦，之后再通过交换得到。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 13,
+     "via": "body",
+     "text": "即使在杂志上登了介绍文章，自己杂志的读者和买了游戏的人是否完全一致，也不是马上就能知道的。就算觉得受欢迎，有时也会有大的偏差。后来，石原先生跟我说“其实有一只叫梦幻的宝可梦”。当时，虽然已经在杂志上介绍了全部150只宝可梦，但读者寄来很多明信片说“有没登在杂志表上的宝可梦”。于是我们想“既然这么受欢迎，就拿来做礼物吧”"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 10,
+     "via": "body",
+     "text": "是的。角色方面，大约10名成员倾尽全力反复推敲。虽然程序、美术、企划各有分工，但大家往往都爱对自己领域之外的事插上一嘴。这款游戏，正是所有人共同出谋划策做出来的。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 17,
+     "via": "body",
+     "text": "根据一个人在其人生中恰好负责该项目时的年龄、积累的经验数量，以及团队的能力，游戏制作方式会完全不同。像这样，团队不同制作方式竟有如此大的差异，游戏制作方法竟存在如此多的变体，这样的创作物在其他领域并不多见吧。可能一个人就能完成，也可能需要上百人协作。在这种情况下，我认为，脑海中始终同时存在两种方式——一种是追逐梦想，朝"
+    }
+   ]
+  },
+  {
+   "id": "collaboration",
+   "name": "联动",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "和别的作品、别的行业一起做一件事。",
+   "approved": false,
+   "aliases": [
+    "联动",
+    "合作企划",
+    "携手",
+    "コラボ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 104,
+   "segs": 184,
+   "forms": [
+    "联动×73",
+    "携手×40",
+    "コラボ×1",
+    "合作企划×1"
+   ],
+   "by_kind": {
+    "interview": 90,
+    "scan": 10,
+    "blog": 4
+   },
+   "samples": [
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 55,
+     "via": "body",
+     "text": "后篇第3节：多媒体跨界联动（卡牌、动画与衍生周边如何丰满世界观）"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-card-e-creatures",
+     "title": "看不见的价值：宝可梦卡牌e",
+     "seg": 13,
+     "via": "body",
+     "text": "与Game Boy Advance联动的计划是什么时候出现的？"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 12,
+     "via": "body",
+     "text": "GC能够播放媲美DVD的高品质音频和影像。所以我们加入了原创动画，展示“GC也能做到这样的事”。另外，软件还同捆了卡片e，也可以向那边扩展。关于GC与周边设备的联动，我们做出了任天堂GC独有的、并且充分利用了“宝可梦”这一素材的东西。"
+    },
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 5,
+     "via": "body",
+     "text": "宝可梦图鉴的美术界面设计也同样经历了颠覆。我们放弃了以往那种充满科技感、冷冰冰的未来电子仪器造型，而是全面重塑为如同打开一本精美便携手账、翻阅实体纸质动植物图鉴百科般的界面，力求给玩家传达出一种温润、亲切的阅读沉浸感。"
+    }
+   ]
+  },
+  {
+   "id": "sfx",
+   "name": "音效",
+   "facet": "audio",
+   "facet_name": "声音",
+   "gloss": "一按键、一进球、一个招式的声音。",
+   "approved": false,
+   "aliases": [
+    "音效",
+    "音效设计",
+    "效果音",
+    "サウンド"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 104,
+   "segs": 227,
+   "forms": [
+    "音效×91",
+    "サウンド×24",
+    "音效设计×12",
+    "效果音×9"
+   ],
+   "by_kind": {
+    "interview": 43,
+    "scan": 14,
+    "blog": 46,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 168,
+     "via": "body",
+     "text": "比起曲子，叫声和音效才是难点。毕竟有151只呢。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 4,
+     "via": "body",
+     "text": "增田顺一 ①鸭宝可梦♂（作为喜欢可达鸭的人） ②1.72／62Kg ③A型 ④湖泊（作为喜欢可达鸭的人） ⑤副总监／企划／音效（作曲）／程序（特长）"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 46,
+     "via": "body",
+     "text": "在《红》《绿》《蓝》《皮卡丘》中，各自存档时的音效都有微妙的不同。据说这是负责音效的增田先生悄悄埋下的机关。还真是有点硬核考据向!?"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 4,
+     "via": "body",
+     "text": "株式会社GAME FREAK创立之初的成员，担任游戏总监、剧本制作。也负责音乐和音效的制作，其中一部分还成为了电视动画的原曲。"
+    }
+   ]
+  },
+  {
+   "id": "composing",
+   "name": "作曲",
+   "facet": "audio",
+   "facet_name": "声音",
+   "gloss": "曲子怎么写出来的：动机、编曲、录音。",
+   "approved": false,
+   "aliases": [
+    "作曲",
+    "创作音乐",
+    "音乐创作",
+    "编曲"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 102,
+   "segs": 220,
+   "forms": [
+    "作曲×87",
+    "编曲×26",
+    "音乐创作×13",
+    "创作音乐×12"
+   ],
+   "by_kind": {
+    "scan": 10,
+    "interview": 56,
+    "blog": 36
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 13,
+     "via": "body",
+     "text": "▲照片中从前往左依次为：数据管理负责人西野、程序员渡边、程序员森本、主程序员太田、游戏设计及总监田尻、系统工程师及音响作曲增田、角色及首席图形设计师杉森、图形设计师藤原、图形设计师西田（以上均省略敬称！）。"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 155,
+     "via": "body",
+     "text": "增田顺一（GAME FREAK取缔役 / 音乐总监 / 作曲家）"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 4,
+     "via": "body",
+     "text": "增田顺一 ①鸭宝可梦♂（作为喜欢可达鸭的人） ②1.72／62Kg ③A型 ④湖泊（作为喜欢可达鸭的人） ⑤副总监／企划／音效（作曲）／程序（特长）"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 4,
+     "via": "body",
+     "text": "《宝可梦 金／银》助理总监兼作曲，在本次专访之后的二十年间执导了大多数宝可梦正统系列作品"
+    }
+   ]
+  },
+  {
+   "id": "screen-look",
+   "name": "画面表现",
+   "facet": "art",
+   "facet_name": "美术",
+   "gloss": "屏幕上看到的效果：特效、演出、镜头里的一瞬。",
+   "approved": false,
+   "aliases": [
+    "画面表现",
+    "视觉效果",
+    "演出效果",
+    "画面上",
+    "グラフィック"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 102,
+   "segs": 179,
+   "forms": [
+    "グラフィック×54",
+    "画面上×26",
+    "演出效果×11",
+    "画面表现×11",
+    "视觉效果×10"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 29,
+    "blog": 61
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 31,
+     "via": "body",
+     "text": "最初的时候，战斗画面上连数字和体力条都不显示，而是用「对手好像变弱了」这样的方式来表现。但那样太难懂了，所以先显示等级，接着显示体力条，最后连数字也显示出来。"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-card-e-creatures",
+     "title": "看不见的价值：宝可梦卡牌e",
+     "seg": 22,
+     "via": "body",
+     "text": "是啊。Game Boy上的宝可梦是RPG，但实际上宝可梦的动作游戏并没有那么多。e应用里也有动作游戏之类的，所以我们在表现宝可梦动作的画面上下了功夫。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-colosseum-staff",
+     "title": "宝可梦圆形竞技场的开发",
+     "seg": 17,
+     "via": "body",
+     "text": "演出效果逼近电影？……"
+    },
+    {
+     "post": "gamefreak-director-069",
+     "title": "[GameFreak部长专栏] 第69回",
+     "seg": 2,
+     "via": "body",
+     "text": "这时，在进出的时候，画面都会有一些演出效果。"
+    }
+   ]
+  },
+  {
+   "id": "social-impact",
+   "name": "社会反响",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "成为现象以后的事：热潮、批评、出过的事故。",
+   "approved": false,
+   "aliases": [
+    "社会现象",
+    "热潮",
+    "风靡",
+    "批评",
+    "抗议"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 99,
+   "segs": 151,
+   "forms": [
+    "热潮×46",
+    "风靡×27",
+    "社会现象×17",
+    "抗议×15",
+    "批评×12"
+   ],
+   "by_kind": {
+    "interview": 89,
+    "blog": 4,
+    "scan": 5,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 0,
+     "via": "body",
+     "text": "1990年，田尻智首次萌生宝可梦的构想，此后近六年，他呕心沥血于最初的游戏。如今他34岁，游戏部分取材于他儿时的记忆。这份精心的投入终获回报：宝可梦席卷日本，如今在美国及更远的地方同样风靡。衍生品包括如同股票期权般被严密保护的集换式卡牌、一部电视动画，以及如今的一部电影。"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 15,
+     "via": "body",
+     "text": "对于不了解宝可梦热潮的人来说（笔者也是其中之一），这也是了解当时氛围的宝贵资料。"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 76,
+     "via": "body",
+     "text": "未能赶上宝可梦网站第一次热潮的自卑感，如今已成为回忆。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 26,
+     "via": "body",
+     "text": "听说最近欧洲掀起了宝可梦热潮。"
+    }
+   ]
+  },
+  {
+   "id": "prototype",
+   "name": "原型与试作",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "先做个能玩的出来看看：试作、样品、推翻重来的第一版。",
+   "approved": false,
+   "aliases": [
+    "原型",
+    "试作",
+    "样品",
+    "プロトタイプ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 98,
+   "segs": 212,
+   "forms": [
+    "原型×93",
+    "试作×6",
+    "样品×4"
+   ],
+   "by_kind": {
+    "interview": 74,
+    "scan": 18,
+    "blog": 5,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 34,
+     "via": "body",
+     "text": "第3章：数百只废案的沉浮——杉森建谈第二世代300只构想与咕咕的童年原型"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 4,
+     "via": "body",
+     "text": "我认为玩家们期盼的是在新地图上与新的宝可梦相遇，因此上次以“关都”为舞台，这次则将背景设定在以关西为原型的“城都”地区。"
+    },
+    {
+     "post": "interview-nom-movie-latios-latias-water-capital",
+     "title": "任天堂官方网络杂志 N.O.M：2002年剧场版《水之都的护神 拉帝亚斯与拉帝欧斯》情报",
+     "seg": 2,
+     "via": "body",
+     "text": "今年夏天的电影也来了。2002年的剧场版宝可梦是《水之都的护神 拉帝亚斯与拉帝欧斯》。这次的看点是名为“拉帝亚斯”和“拉帝欧斯”的新宝可梦。以威尼斯为原型的风景，看来也会非常美。当然，这次也是两片连映。今年也有许多宝可梦在电影院等着大家！7月13日（周六）起全国东宝系上映。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-colosseum-staff",
+     "title": "宝可梦圆形竞技场的开发",
+     "seg": 14,
+     "via": "body",
+     "text": "三浦提出了概念，ヒロモト先生给我们看了美术和插画，做音乐的方向性就逐渐清晰了。看着这些东西，我心里涌起一种非常怀念的感觉，就像小时候踮起脚想窥探大人的世界那样。所以我就想呈现出一种都市化的、干涩的大人世界。这个世界的原型，我设想的是美国亚利桑那州的菲尼克斯。"
+    }
+   ]
+  },
+  {
+   "id": "movie",
+   "name": "剧场版",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "一年一部的电影：主题、新宝可梦的首次亮相。",
+   "approved": false,
+   "aliases": [
+    "剧场版",
+    "动画电影",
+    "电影版",
+    "大银幕"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 95,
+   "segs": 240,
+   "forms": [
+    "剧场版×81",
+    "大银幕×31",
+    "动画电影×20",
+    "电影版×14"
+   ],
+   "by_kind": {
+    "interview": 79,
+    "blog": 10,
+    "scan": 4,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-nom-movie-latios-latias-water-capital",
+     "title": "任天堂官方网络杂志 N.O.M：2002年剧场版《水之都的护神 拉帝亚斯与拉帝欧斯》情报",
+     "seg": 0,
+     "via": "body",
+     "text": "4. 今年也有新的感动！2002年剧场版《宝可梦》情报"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 26,
+     "via": "body",
+     "text": "1995年创立株式会社Creatures，制作了《宝可梦 红·绿》。现在在株式会社宝可梦，参与“宝可梦集换式卡牌游戏”、电视动画、剧场版电影等全世界宝可梦整体的品牌管理。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 33,
+     "via": "body",
+     "text": "发售日和电影版的上映日相连，安排在暑假前，这是瞄准暑假来定的吗？"
+    },
+    {
+     "post": "interview-nom-emerald-battle-frontier-evolution",
+     "title": "N.O.M 2004年9月号宝可梦总力特集",
+     "seg": 37,
+     "via": "body",
+     "text": "电影\n每年都有非常多的小朋友去看的宝可梦电影，今年也大受欢迎！今年上映的是《剧场版 宝可梦 超世代 裂空的访问者 代欧奇希斯》，在全国东宝系院线上映。这是一部围绕代欧奇希斯和烈空坐、魄力十足的电影。截至上映第37天（8月22日），观影人数竟达364万人！厉害！顺便一提，电影的特别预售券（※）附带“极光票兑换券”，曾有机"
+    }
+   ]
+  },
+  {
+   "id": "nostalgia",
+   "name": "怀旧",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "当年玩过的人长大了，回头看这件事。",
+   "approved": false,
+   "aliases": [
+    "怀旧",
+    "当年的玩家",
+    "长大以后",
+    "童年",
+    "小时候玩",
+    "思い出"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 95,
+   "segs": 140,
+   "forms": [
+    "童年×55",
+    "思い出×21",
+    "怀旧×20",
+    "小时候玩×6",
+    "长大以后×1"
+   ],
+   "by_kind": {
+    "interview": 63,
+    "blog": 26,
+    "scan": 5,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 34,
+     "via": "body",
+     "text": "第3章：数百只废案的沉浮——杉森建谈第二世代300只构想与咕咕的童年原型"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 27,
+     "via": "body",
+     "text": "前篇第4节：放之四海皆准的童年冒险（哪怕身处异国也共通的成长渴望）"
+    },
+    {
+     "post": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+     "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+     "seg": 8,
+     "via": "body",
+     "text": "我小时候每天都会泡在东京都町田市的杂木林和稻田间抓虫子——独角仙、锹形虫以及各种奇形怪状的水生昆虫。当几个小男孩围坐在树下，商量着“我用这只锯锹换你那只深山锹”时，胸口所激荡的那份心跳加速的紧张与喜悦。在看到 Game Boy 通信电缆的那个刹那，童年的那段画面瞬间在脑海中闪回，我清清楚楚地‘看’到了：无数未知的奇妙小"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 75,
+     "via": "body",
+     "text": "我在执笔设计时，从来没有刻意迎合过所谓的‘低幼儿童向’。我从未带着‘小孩子看了这种东西应该会高兴吧’的心态去设计过哪怕一只宝可梦！我只是将自己童年时代真心喜爱的事物，用成年人的视角去重新描摹出来。那是连身为成年人的我自己也深深着迷的事物。嘛，或许这也说明我自己无论过了多少年，骨子里依然还是个孩子吧（笑）。"
+    }
+   ]
+  },
+  {
+   "id": "raising",
+   "name": "培育",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "把一只养起来：等级、努力值、个体值、孵蛋。",
+   "approved": false,
+   "aliases": [
+    "培育宝可梦",
+    "培育",
+    "努力值",
+    "个体值",
+    "孵蛋",
+    "育成"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 94,
+   "segs": 170,
+   "forms": [
+    "培育×75",
+    "培育宝可梦×19",
+    "育成×7",
+    "孵蛋×7",
+    "个体值×3",
+    "努力值×1"
+   ],
+   "by_kind": {
+    "scan": 18,
+    "interview": 57,
+    "blog": 18,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 65,
+     "via": "body",
+     "text": "培育屋本铺"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 70,
+     "via": "body",
+     "text": "第一次看到Game Boy的时候，我就注意到了它可以连接通信线缆，但实际上大多数游戏都把它用作对战的信息传递手段。在我心中，通信这个词有着充实而华丽的印象，我把它理解为通过这根线缆，像电视和收音机那样各种信息流动的感觉。由此，我觉得似乎能做出什么有趣的东西。这就形成了通过线缆交换培育的东西或生物的系统。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 73,
+     "via": "body",
+     "text": "您知道流传着一个奇怪的传闻吗？说是让凤王携带「金色叶子」、洛奇亚携带「银色叶子」，寄放到培育屋，栎树林的神社就会出现蛋，从那里会诞生第251只宝可梦……"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 59,
+     "via": "body",
+     "text": "为了调查，我拜访了那位朋友得到「蛋」的老夫妇。听他们一说，这又是个不可思议的故事。据说他们从某位训练家那里寄养了两只宝可梦来培育，某天不知为何就有了蛋！虽然一时难以相信，但这是关于「蛋」的唯一线索。我得到老夫妇的许可，开始了调查。我请老夫妇寄养了几组宝可梦，和助手两人开始了24小时的监视。为了亲眼见证蛋诞生的瞬间。"
+    }
+   ]
+  },
+  {
+   "id": "licensing",
+   "name": "版权与监修",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "谁能用这个形象、怎么用，改一稿要谁点头。",
+   "approved": false,
+   "aliases": [
+    "版权",
+    "品牌管理",
+    "授权",
+    "监修",
+    "ライセンス"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 92,
+   "segs": 180,
+   "forms": [
+    "监修×41",
+    "授权×34",
+    "版权×29",
+    "品牌管理×11",
+    "ライセンス×1"
+   ],
+   "by_kind": {
+    "scan": 6,
+    "interview": 84,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 131,
+     "via": "body",
+     "text": "監修 监修 Creatures inc."
+    },
+    {
+     "post": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+     "title": "宝可梦向未来扩展",
+     "seg": 4,
+     "via": "body",
+     "text": "由任天堂、Creatures、GAME FREAK三家公司共同设立的公司。负责宝可梦相关商品的销售、授权管理、游戏软件与卡牌游戏的开发与发售等，开展将宝可梦推广到世界的各项业务。可以说是宝可梦的综合管理企业。"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-card-e-creatures",
+     "title": "看不见的价值：宝可梦卡牌e",
+     "seg": 42,
+     "via": "body",
+     "text": "是的。我们也请Advance的设计师做了监修，但一开始被问“为什么这么大？”（笑）。因此，在发布会上用了这个，结果果然有相关人士提出“太大了”的意见。于是我们尽量去掉多余的空间，把它做小。最终发现也不需要电池，所以才能缩小到现在这个尺寸。"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 17,
+     "via": "body",
+     "text": "主要是监修角色。GAME FREAK包括我在内有好几位设计师，大家会一起提出各种点子。我再对这样诞生的设计进行检查，统一形象。"
+    }
+   ]
+  },
+  {
+   "id": "level-design",
+   "name": "地图与关卡",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "路线怎么排：城镇、道路、洞窟、走到哪儿会遇到什么。",
+   "approved": false,
+   "aliases": [
+    "关卡",
+    "迷宫",
+    "洞窟",
+    "地图设计",
+    "路线",
+    "ダンジョン"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 91,
+   "segs": 181,
+   "forms": [
+    "路线×33",
+    "关卡×26",
+    "迷宫×21",
+    "洞窟×19",
+    "地图设计×7",
+    "ダンジョン×2"
+   ],
+   "by_kind": {
+    "scan": 18,
+    "interview": 59,
+    "blog": 13,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 48,
+     "via": "body",
+     "text": "好，那边那位小朋友。嗯嗯，是皮卡丘吗。唔——确实很可爱嘛。这个不分男女都是最受欢迎的。不只是名字和样子可爱，秘传招式「闪光」在洞窟里也很有用。我以前也经常带着它走，不过最近不太用了。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 9,
+     "via": "body",
+     "text": "渡边哲也（程序员）因为变成了彩色，程序方面也必须下新的功夫。宝可梦的地图并不是每个城镇各自独立的，在游戏里是一整片连贯的区域，对吧？因此，主角走在道路上时，就必须读取下一个城镇的图形以及接下来会遇到的宝可梦数据。这次因为彩色化，每个城镇的屋顶颜色都不一样，但必须让玩家察觉不到这种切换。于是我们就在城镇入口设置关卡之类的"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 36,
+     "via": "body",
+     "text": "这不仅仅在于地形的相似性。比如在《宝可梦》中，当你第一次下楼时，母亲正在电视上看电影《伴我同行》——就像少年在获得某种智识上的刺激或得到新工具时，他所看到的世界会随之改变一样。这种体验，无论在世界何处，在十来岁少年的心中都是共通的。因此，即使不针对美国市场改变地图设计，美国的孩子在游玩时，也一定会对照自己熟悉的地形，想"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report",
+     "title": "潜入宝可梦公司",
+     "seg": 14,
+     "via": "body",
+     "text": "洞窟はっけん画面"
+    }
+   ]
+  },
+  {
+   "id": "anime",
+   "name": "电视动画",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "每周播的那一部：怎么做、和游戏怎么对。",
+   "approved": false,
+   "aliases": [
+    "电视动画",
+    "动画版",
+    "动画化",
+    "动画系列"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 88,
+   "segs": 176,
+   "forms": [
+    "电视动画×57",
+    "动画系列×18",
+    "动画化×17",
+    "动画版×17"
+   ],
+   "by_kind": {
+    "interview": 80,
+    "scan": 7,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 0,
+     "via": "body",
+     "text": "1990年，田尻智首次萌生宝可梦的构想，此后近六年，他呕心沥血于最初的游戏。如今他34岁，游戏部分取材于他儿时的记忆。这份精心的投入终获回报：宝可梦席卷日本，如今在美国及更远的地方同样风靡。衍生品包括如同股票期权般被严密保护的集换式卡牌、一部电视动画，以及如今的一部电影。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 8,
+     "via": "body",
+     "text": "关于电视动画，具体是做什么样的工作呢？"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 56,
+     "via": "body",
+     "text": "话说回来，在游戏中，所有宝可梦都只会发出叫声，但在电视动画中，只有喵喵会说人话。这是为什么呢？"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 4,
+     "via": "body",
+     "text": "株式会社GAME FREAK创立之初的成员，担任游戏总监、剧本制作。也负责音乐和音效的制作，其中一部分还成为了电视动画的原曲。"
+    }
+   ]
+  },
+  {
+   "id": "connection",
+   "name": "人与人的连接",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "系列的出发点：交换与对战要有另一个人在，游戏是搭话的由头。",
+   "approved": false,
+   "aliases": [
+    "交流",
+    "沟通",
+    "连接起来",
+    "面对面",
+    "つながり"
+   ],
+   "with": [
+    "朋友",
+    "玩家",
+    "通信",
+    "交换",
+    "一起",
+    "人与人"
+   ],
+   "avoid": [],
+   "docs": 88,
+   "segs": 129,
+   "forms": [
+    "交流×62",
+    "沟通×20",
+    "面对面×12",
+    "连接起来×7"
+   ],
+   "by_kind": {
+    "interview": 68,
+    "blog": 9,
+    "scan": 10,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 24,
+     "via": "body",
+     "text": "连接生命的通信线：重在交流与尊重的日式哲学"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 59,
+     "via": "body",
+     "text": "“我们已经在着手制作《金／银》之后的新正统续作了，目前还不能透露对应平台。我一直在思考宝可梦各语言版本之间无法交换的问题。如果能让他们彼此兼容，那将会有趣得多。全世界的宝可梦玩家将能通过宝可梦游戏进行交流。在《星际迷航》的世界里，一个没有语言障碍的世界是可能的（笑），如果我们能在宝可梦的世界里做到同样的事，那就太棒了！"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 19,
+     "via": "body",
+     "text": "前篇第3节：跨越语言之壁的游戏（把人与人真正连接起来的魔法）"
+    },
+    {
+     "post": "interview-nom-crystal-new-elements-heroine",
+     "title": "任天堂官方网络杂志 N.O.M：《宝可梦 水晶版》礼物目录（2000年12月号）与编辑长体验记（2001年1月号）",
+     "seg": 16,
+     "via": "body",
+     "text": "能和全国的伙伴连在一起，是移动通信的好处。我把精心培育的超音蝠拿去宝可梦交换了。这是在满金市的PCC（宝可梦交流中心）能用的服务。想交换的宝可梦选了“果然翁”。符合交换条件的人，中心会帮忙找。过2小时后就能确认交涉是否成立。会保管7天，现在还在等待交换。会有人跟我换吗？真令人期待。"
+    }
+   ]
+  },
+  {
+   "id": "merchandise",
+   "name": "周边商品",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "玩具、毛绒、联名商品，以及商品化的审查。",
+   "approved": false,
+   "aliases": [
+    "周边商品",
+    "商品化",
+    "玩具",
+    "グッズ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 87,
+   "segs": 131,
+   "forms": [
+    "玩具×61",
+    "周边商品×21",
+    "商品化×8",
+    "グッズ×3"
+   ],
+   "by_kind": {
+    "scan": 7,
+    "interview": 63,
+    "blog": 16,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 10,
+     "via": "body",
+     "text": "西野弘二 ①肚子软软宝可梦♂ ②1.7m／100Kg ③圆形 ④玩具店 ⑤参数设定／浪费／睡觉／大闹一番"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 25,
+     "via": "body",
+     "text": "从97年秋天起，为了在美国以和日本相同的环境播出宝可梦，我们与N.O.A（任天堂美国）进行了交涉。98年我去了N.O.A，签订了基本合同。同时还向辛迪加销售影片，并与世界第二大玩具厂商孩之宝推进周边销售的谈判。决定宝可梦在美国的名字也很费劲，但正是这些细致工作一件件结出成果，才实现了在美国的大热。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 22,
+     "via": "body",
+     "text": "当然，我们也知道，要想让玩家互相交换，游戏本身就必须卖到一定的量才行。不过，当初的目标其实只有100万份。后来竟然能卖到这种程度，连我们自己都完全没有预料到。也从来没想过会变成角色周边商品，所以看到各种各样的商品推出时，真的非常开心。"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-card-e-creatures",
+     "title": "看不见的价值：宝可梦卡牌e",
+     "seg": 24,
+     "via": "body",
+     "text": "是啊。这个企划就是不断追加数据，然后请玩家随意去玩。感觉就像是先提供玩具，之后再追加零件一样。这一点和以往的东西有很大不同。"
+    }
+   ]
+  },
+  {
+   "id": "tcg",
+   "name": "集换式卡牌",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "卡牌这一侧：卡图、规则、卡组、大赛。",
+   "approved": false,
+   "aliases": [
+    "集换式卡牌",
+    "卡牌游戏",
+    "卡片游戏",
+    "宝可梦卡牌",
+    "TCG"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 86,
+   "segs": 203,
+   "forms": [
+    "宝可梦卡牌×41",
+    "集换式卡牌×36",
+    "卡牌游戏×32",
+    "TCG×2",
+    "卡片游戏×1"
+   ],
+   "by_kind": {
+    "interview": 62,
+    "blog": 20,
+    "scan": 3,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 0,
+     "via": "body",
+     "text": "1990年，田尻智首次萌生宝可梦的构想，此后近六年，他呕心沥血于最初的游戏。如今他34岁，游戏部分取材于他儿时的记忆。这份精心的投入终获回报：宝可梦席卷日本，如今在美国及更远的地方同样风靡。衍生品包括如同股票期权般被严密保护的集换式卡牌、一部电视动画，以及如今的一部电影。"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 13,
+     "via": "body",
+     "text": "这篇文章介绍了任天堂、GAME FREAK、宝可梦卡牌的官方网站，同时也介绍了粉丝制作的个人网站。"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 137,
+     "via": "body",
+     "text": "这被认为是与宝可梦卡牌相关的最早期网站之一。该网站由在游戏领域著名的插画师水玉螢之丞夫妇共同运营。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 7,
+     "via": "body",
+     "text": "我担任电视和电影的执行制片人。可以说，与动画相关的事务都在我的负责范围内。此外，我还负责《龙漫CORO-CORO》和《GOTTA》这两本杂志。《CORO-CORO》这边，包括宝可梦卡牌在内，做了各种各样的媒体展开。"
+    }
+   ]
+  },
+  {
+   "id": "online-service",
+   "name": "联网服务",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "服务器那一侧：全球连接、排行、下载、运营。",
+   "approved": false,
+   "aliases": [
+    "网络功能",
+    "联网",
+    "服务器",
+    "全球连接",
+    "在线",
+    "オンライン"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 84,
+   "segs": 153,
+   "forms": [
+    "联网×46",
+    "在线×20",
+    "服务器×16",
+    "全球连接×12",
+    "网络功能×4",
+    "オンライン×1"
+   ],
+   "by_kind": {
+    "interview": 66,
+    "blog": 9,
+    "scan": 8,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 22,
+     "via": "body",
+     "text": "互联网。"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 38,
+     "via": "body",
+     "text": "我也喜欢竞争。但我想设计一款包含互动交流的游戏。请记住，当时还没有互联网。通信线缆的概念其实非常日式：一对一。就像空手道——两位选手较量前，会先向对方鞠躬。这是日本人的敬意理念。"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 12,
+     "via": "body",
+     "text": "在互联网上获取《宝可梦》信息！"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 0,
+     "via": "body",
+     "text": "互联网上宝可梦网站黎明期的记忆"
+    }
+   ]
+  },
+  {
+   "id": "sequel",
+   "name": "续作",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "下一作怎么接上上一作，以及每次都要「新」的压力。",
+   "approved": false,
+   "aliases": [
+    "续作",
+    "正统续作",
+    "系列最新作",
+    "完全新作",
+    "続編"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 84,
+   "segs": 141,
+   "forms": [
+    "续作×39",
+    "完全新作×26",
+    "系列最新作×18",
+    "正统续作×14",
+    "続編×1"
+   ],
+   "by_kind": {
+    "interview": 63,
+    "blog": 6,
+    "scan": 13,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 23,
+     "via": "body",
+     "text": "在“Game Boy的反击！”栏目中，田尻智和杉森建两人一同接受采访的文章。文章开头有小标题“《宝可梦》是什么样的游戏？”，首先进行了简单介绍，在主要采访中，田尻主要讲述了宝可梦的开发故事和对续作的热情。 ※ 虽然杉森也参加了采访，但可能是由于文章中能确认到的发言次数非常少，我们确认到了编辑部评论：“杉森先生很文静，很"
+    },
+    {
+     "post": "interview-nintendo-power-134-gold-silver-mew",
+     "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化",
+     "seg": 1,
+     "via": "body",
+     "text": "请问团队当初选择“金”与“银”作为宝可梦全新正统续作标题的原因是什么？"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 59,
+     "via": "body",
+     "text": "“我们已经在着手制作《金／银》之后的新正统续作了，目前还不能透露对应平台。我一直在思考宝可梦各语言版本之间无法交换的问题。如果能让他们彼此兼容，那将会有趣得多。全世界的宝可梦玩家将能通过宝可梦游戏进行交流。在《星际迷航》的世界里，一个没有语言障碍的世界是可能的（笑），如果我们能在宝可梦的世界里做到同样的事，那就太棒了！"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 54,
+     "via": "body",
+     "text": "在《宝可梦》中，每一只宝可梦所包含的信息量都相当庞大。为了将来制作各种续作时，比如皮卡丘的颜色改变、耳朵形状变化等，我们在大规模的数据排列中特意预留了空白区域。这实际上与基因的排列方式非常相似。有些数据目前毫无意义，有些则承载着意义。但将来当宝可梦获得新的属性时，这些空白区域——比如通信交换时用来判定属性的地方——就会"
+    }
+   ]
+  },
+  {
+   "id": "collection",
+   "name": "收集与图鉴",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "图鉴要凑齐这件事：数量、稀有、非要交换才齐。",
+   "approved": false,
+   "aliases": [
+    "收集宝可梦",
+    "宝可梦图鉴",
+    "全国图鉴",
+    "图鉴完成",
+    "集齐",
+    "コンプリート"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 82,
+   "segs": 134,
+   "forms": [
+    "宝可梦图鉴×51",
+    "集齐×20",
+    "全国图鉴×16",
+    "收集宝可梦×8",
+    "图鉴完成×1"
+   ],
+   "by_kind": {
+    "scan": 17,
+    "interview": 59,
+    "blog": 6
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 23,
+     "via": "body",
+     "text": "想集齐所有宝可梦就上街吧！去交换吧！！"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 117,
+     "via": "body",
+     "text": "藤原 首先要通关游戏。不过，那并不是终点。真正的目的应该是完成「宝可梦图鉴」吧。"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 5,
+     "via": "body",
+     "text": "捕获怪兽，完成“宝可梦图鉴”吧！"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 25,
+     "via": "body",
+     "text": "所以你很久以前就在收集宝可梦了！你会让昆虫互相打斗吗？"
+    }
+   ]
+  },
+  {
+   "id": "live-events",
+   "name": "线下活动",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "会场那一侧：办活动、巡展、来了多少人。",
+   "approved": false,
+   "aliases": [
+    "活动会场",
+    "举办活动",
+    "线下活动",
+    "巡展",
+    "イベント"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 82,
+   "segs": 82,
+   "forms": [
+    "イベント×58",
+    "举办活动×8",
+    "活动会场×8",
+    "线下活动×7",
+    "巡展×5"
+   ],
+   "by_kind": {
+    "blog": 63,
+    "interview": 17,
+    "scan": 1,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "gamefreak-director-045",
+     "title": "[GameFreak部长专栏] 第45回",
+     "seg": 18,
+     "via": "body",
+     "text": "宝可梦乐园也正在举办活动。"
+    },
+    {
+     "post": "gamefreak-director-083",
+     "title": "[GameFreak部长专栏] 第83回",
+     "seg": 21,
+     "via": "body",
+     "text": "而且，如果大家不仅能感受到创作的快乐，也能体会到举办活动、进行发布的快乐，并因此让哪怕多一个人产生“我也想成为创作者！”的想法，我都会非常高兴。"
+    },
+    {
+     "post": "gamefreak-staff-13",
+     "title": "【工作日志】2007年GAME FREAK的飞翔暑假",
+     "seg": 41,
+     "via": "body",
+     "text": "なつやすみはちきゅうでいちばんのイベントです。１日１日が特別なんです！"
+    },
+    {
+     "post": "gamefreak-staff-18",
+     "title": "【工作日志】2007年夏威夷岛最热的一天",
+     "seg": 44,
+     "via": "body",
+     "text": "ポケモンカードゲームの最高峰イベント<br"
+    }
+   ]
+  },
+  {
+   "id": "family",
+   "name": "家庭与亲子",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "一家人一起玩，或者父母陪着玩。",
+   "approved": false,
+   "aliases": [
+    "亲子",
+    "家庭",
+    "一家人",
+    "家长"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 81,
+   "segs": 146,
+   "forms": [
+    "家庭×51",
+    "家长×30",
+    "亲子×21",
+    "一家人×2"
+   ],
+   "by_kind": {
+    "scan": 4,
+    "interview": 71,
+    "blog": 6
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 36,
+     "via": "body",
+     "text": "奥谷 淳①亲子宝可梦♂ ②17cm／60g ③一般 ④夏：小金井公园／冬：被炉里 ⑤像素海／夜间像素／像素鸟／舍身像素"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 29,
+     "via": "body",
+     "text": "大概是有广度也有深度吧。无论谁玩，都一定有自己喜欢的宝可梦。而且，那里一定有能表达自己喜好的东西。还有，故事中没有任何人死去，这应该是获得家长们支持的最大理由。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 33,
+     "via": "body",
+     "text": "关于宝可梦的新作，目前还什么都不能说（笑），请大家一边尽情想象会有什么样的内容，一边耐心等待。一直以来，每一部作品都能让大家长久地游玩，今后我们也想继续制作能长久游玩的软件。我们不会做那种仅仅增加宝可梦数量的版本升级。为了在新作推出时不被说“又是这套”，我们希望每一次都挑战新的事物。"
+    },
+    {
+     "post": "interview-nom-movie-latios-latias-water-capital",
+     "title": "任天堂官方网络杂志 N.O.M：2002年剧场版《水之都的护神 拉帝亚斯与拉帝欧斯》情报",
+     "seg": 12,
+     "via": "body",
+     "text": "“附特制宝可梦周边的儿童观影券”1400日元（含税）／“附特制宝可梦周边的亲子双人观影券”2700日元（含税）。2002年剧场版宝可梦的特别观影券发售中。只有这套才能得到的原创宝可梦卡片e和周边等，超值特典满满。①“皮丘兄弟”的宝可梦卡片e ②皮卡丘＆皮丘特制保冷袋（可装6罐350ml）③特制野餐垫（600mm×800"
+    }
+   ]
+  },
+  {
+   "id": "iteration",
+   "name": "推翻重做",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "做到一半全部作废，从头再来。",
+   "approved": false,
+   "aliases": [
+    "重做",
+    "推翻",
+    "从零开始",
+    "全部作废",
+    "反复推敲",
+    "作り直"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 81,
+   "segs": 102,
+   "forms": [
+    "从零开始×43",
+    "反复推敲×25",
+    "推翻×9",
+    "重做×7",
+    "作り直×2"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 62,
+    "blog": 6,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 47,
+     "via": "body",
+     "text": "开始做这个游戏的时候，除了杉森，藤原和森本也在做怪物设计，但森本中途说“我还是想试试编程”。于是他从零开始学习，最后成长到能制作战斗例程主程序的程度。"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 10,
+     "via": "body",
+     "text": "是的。角色方面，大约10名成员倾尽全力反复推敲。虽然程序、美术、企划各有分工，但大家往往都爱对自己领域之外的事插上一嘴。这款游戏，正是所有人共同出谋划策做出来的。"
+    },
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 8,
+     "via": "body",
+     "text": "当时原版 Game Boy 只有黑白单色，屏幕又那么小，完全是在极其苛刻的硬件极限下死死硬塞进去的。如今要迁移到 GBA 全彩、高分辨率的现代硬件架构下，我们必须把所有底层的逻辑全部打碎，从零开始推倒重构。"
+    },
+    {
+     "post": "gamefreak-director-051",
+     "title": "[GameFreak部长专栏] 第51回",
+     "seg": 11,
+     "via": "body",
+     "text": "毕竟，这是从零开始创造出某种东西，并让人感到快乐的工作。"
+    }
+   ]
+  },
+  {
+   "id": "handheld",
+   "name": "掌机这件事",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "能带出门、能凑到一起玩，和电视机前的游戏不是一回事。",
+   "approved": false,
+   "aliases": [
+    "掌机",
+    "携带型",
+    "掌上",
+    "带出门"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 80,
+   "segs": 129,
+   "forms": [
+    "掌机×69",
+    "掌上×13",
+    "带出门×2"
+   ],
+   "by_kind": {
+    "interview": 73,
+    "scan": 2,
+    "blog": 4,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 1,
+     "via": "body",
+     "text": "1996年在 Game Boy 平台登场并引发全球社会现象的《宝可梦 红·绿》，历经八载光阴，在 Game Boy Advance 平台上迎来了彻底的重生——《宝可梦 火红·叶绿》。本作绝不仅仅是一次简单的重制，更凭借随卡带同捆发售的革命性外设“GBA专用无线适配器（Wireless Adapter）”，彻底打破了长久"
+    },
+    {
+     "post": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+     "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+     "seg": 7,
+     "via": "body",
+     "text": "当 Game Boy 掌机问世时，整台机器带给我最大心理冲击的，正是那根细细的“通信电缆”。在当年的联机游戏里，绝大多数设计的本质都是为了分出胜负、击垮对方吧？就连《俄罗斯方块》也是拼命给对手送去捣乱的垃圾方块。但在我的脑海里，我却忍不住思索：难道我们不能用这根唯一的线缆，去实现“彼此分享手中珍视之物、互相赠予交换”的"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 63,
+     "via": "body",
+     "text": "这次是地上和地下两种形式，在地上的时候用上屏，在地下的时候用下屏来冒险。把机器带出门之后，根据地点和时间的不同，说不定会出现地下必定有某个人在的状况。比如在电车里，四十多岁的上班族和十几岁的高中生也许正通过无线通信一起跑来跑去。这不只是那两个人，连在旁边看着、想着“难道说……？”的第三者也会觉得有趣。"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 19,
+     "via": "body",
+     "text": "本作这次依然选择在掌上游戏机平台发售呢。"
+    }
+   ]
+  },
+  {
+   "id": "mentoring",
+   "name": "带人与培养",
+   "facet": "team",
+   "facet_name": "团队与人",
+   "gloss": "老手怎么教新手，第一份活派什么。",
+   "approved": false,
+   "aliases": [
+    "带新人",
+    "培养",
+    "教育新人",
+    "指导"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 80,
+   "segs": 108,
+   "forms": [
+    "培养×45",
+    "指导×38"
+   ],
+   "by_kind": {
+    "scan": 9,
+    "interview": 56,
+    "blog": 14,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 34,
+     "via": "body",
+     "text": "想培养强大的宝可梦就用药物吧！也去交换吧！！"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 165,
+     "via": "body",
+     "text": "不过，与其说是面对势均力敌的对手，不如说带有一种“让无知的对手见识一下认真培养的底蕴吧！”的气势。"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 15,
+     "via": "body",
+     "text": "在株式会社GAME FREAK制作的众多软件中，他主要负责整体的图形部分。在宝可梦游戏中，他统管设计团队，对所有角色进行指导。"
+    },
+    {
+     "post": "interview-nom-emerald-battle-frontier-evolution",
+     "title": "N.O.M 2004年9月号宝可梦总力特集",
+     "seg": 21,
+     "via": "body",
+     "text": "一边留意着要打出有训练家素质的战斗风格，一边顺利地收集宝可梦、培养手持宝可梦。状态相当不错。\n宝可梦系列每一作的亲切设计都令人欣喜，这次也做得相当贴心，可以说不需要说明书。和镇上的人或路上走着的人说话，大多数疑问都能解决。\n但是，在宝可梦体力虚弱时，如果搭话的对象是训练家，可能会不由分说地被挑起对战，要注意！在森林和草"
+    }
+   ]
+  },
+  {
+   "id": "testing",
+   "name": "测试与试玩",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "自己人玩、外面的人玩，然后照反馈改。",
+   "approved": false,
+   "aliases": [
+    "测试",
+    "试玩",
+    "检查游戏",
+    "プレイテスト"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 79,
+   "segs": 135,
+   "forms": [
+    "测试×47",
+    "试玩×37"
+   ],
+   "by_kind": {
+    "scan": 8,
+    "interview": 53,
+    "blog": 16,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 80,
+     "via": "body",
+     "text": "一开始，我就想给自己发现的新物种起名字，但Game Boy方面有极限，不得不放弃。所以，这种心情就体现在宝可梦的名字上了。可是，制作途中做了公司内部测试，果然很多人提出想自己给宝可梦起名字。但如果加入这样的系统，作为代价，比如能收集的宝可梦数量就不得不减少。所以，当时能成为伙伴的100只宝可梦，因为可以起名字，一下子减"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 81,
+     "via": "body",
+     "text": "此外，关于任天堂太空世界97的宝可梦金银版的试玩报告，也深入剖析了系统层面。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 37,
+     "via": "body",
+     "text": "在日本，7月将上映《结晶塔的帝王》和《皮丘与皮卡丘》两部连映。其中40%将是数字影像。在新技术之下，如何表现出宝可梦特有的动作，目前正在反复测试。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 41,
+     "via": "body",
+     "text": "但在这里，杉森表示他们为第二世代创造了数百只新宝可梦。这些宝可梦大多最终遭到废弃，只有100只进入了最终成品。我们知道至少有40到70只在Space World版本中被砍掉，但听起来还有更多数量的宝可梦在Space World之前或之后被删除——也就是在1997年Space World展会试玩版与1999年游戏日本发售"
+    }
+   ]
+  },
+  {
+   "id": "theme",
+   "name": "作品主题",
+   "facet": "story",
+   "facet_name": "剧情与文本",
+   "gloss": "一作要讲的那一件事：《黑·白》的正义、《X·Y》的美丽。",
+   "approved": false,
+   "aliases": [
+    "核心主题",
+    "大主题",
+    "主题是",
+    "主题定为",
+    "想表达",
+    "想传达"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 79,
+   "segs": 106,
+   "forms": [
+    "主题是×32",
+    "核心主题×18",
+    "大主题×16",
+    "想表达×13",
+    "想传达×11",
+    "主题定为×2"
+   ],
+   "by_kind": {
+    "interview": 55,
+    "blog": 16,
+    "scan": 8
+   },
+   "samples": [
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 6,
+     "via": "body",
+     "text": "在现有的游戏里，有很多“这样做就能通关”之类的东西，但我认为今后需要的不是那种一成不变的东西，而是更不一样的、更广阔的东西。就拿电视来说，看遍全世界的电视节目，电视购物、猜谜节目、天气预报不知为何一定都有。那到底是什么？为什么要看那个？我们也是从这样的视角出发的。换个角度看这个游戏，它其实也包含了这样一个大主题：不只是"
+    },
+    {
+     "post": "gamefreak-director-011",
+     "title": "[GameFreak部长专栏] 第11回",
+     "seg": 22,
+     "via": "body",
+     "text": "不过，火红、叶绿在创作时的主题是“易于理解”，"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 8,
+     "via": "body",
+     "text": "这次的《宝可梦 钻石·珍珠》想要表现的主题是什么样的呢？"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 15,
+     "via": "body",
+     "text": "本次在《宝可梦 钻石·珍珠》中所要表达的核心主题是什么呢？"
+    }
+   ]
+  },
+  {
+   "id": "ui-operation",
+   "name": "界面与操作",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "按键、菜单、几步能做完一件事；手感也算。",
+   "approved": false,
+   "aliases": [
+    "界面",
+    "操作性",
+    "操作方式",
+    "手感",
+    "菜单"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 79,
+   "segs": 128,
+   "forms": [
+    "手感×36",
+    "界面×26",
+    "菜单×20",
+    "操作方式×7",
+    "操作性×2"
+   ],
+   "by_kind": {
+    "interview": 54,
+    "blog": 13,
+    "scan": 10,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 62,
+     "via": "body",
+     "text": "玩过前作的人，解谜也很快呢。相反，对于初次接触的人来说，可能会觉得有点难。 ——但是，我觉得有很多对新手来说容易理解的演出哦。渡边：负责怪物设计的杉森（建先生）说， “我让我老爸玩了前作，但他好像出不了家门”（笑）。所以，他一直提议“想让它更容易理解”。因此，一键用选择按钮就能钓鱼或骑自行车，也是他的提议。《金／银》的"
+    },
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 4,
+     "via": "body",
+     "text": "为此，我们对整个游戏的难度曲线和数值平衡进行了极其审慎的重构。并且，我们实装了只要按下 GBA 机身顶部的 L 键或 R 键，屏幕就会立刻弹出操作指南与基础规则的“全方位帮助菜单（Help Menu）”。根据我们的前期调研，缺乏手柄操作习惯的初学者，比起面板正面的 A、B 按键，反而往往会出于下意识的握持习惯去按压机身"
+    },
+    {
+     "post": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+     "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+     "seg": 12,
+     "via": "body",
+     "text": "石原恒和：《火红／叶绿》有不同的界面，所以新用户很容易尝试和游玩。如果卡住了，有提示可以帮助你继续前进。它对任何年龄都很友好。我喜欢孩子们能和父母一起享受它。"
+    },
+    {
+     "post": "gamefreak-director-042",
+     "title": "[GameFreak部长专栏] 第42回",
+     "seg": 1,
+     "via": "body",
+     "text": "并不是只要优先考虑功能和操作性就行了。"
+    }
+   ]
+  },
+  {
+   "id": "color-work",
+   "name": "配色",
+   "facet": "art",
+   "facet_name": "美术",
+   "gloss": "颜色怎么定的：机能允许的色数、版本的主色。",
+   "approved": false,
+   "aliases": [
+    "配色",
+    "色彩",
+    "用色"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 78,
+   "segs": 93,
+   "forms": [
+    "色彩×59",
+    "配色×19",
+    "用色×4"
+   ],
+   "by_kind": {
+    "interview": 51,
+    "blog": 18,
+    "scan": 9
+   },
+   "samples": [
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 159,
+     "via": "body",
+     "text": "最初这是一个带有强烈地下色彩的网站，让人不敢公开贴出链接。"
+    },
+    {
+     "post": "interview-nintendo-power-134-gold-silver-mew",
+     "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化",
+     "seg": 0,
+     "via": "body",
+     "text": "为何定名《金·银》？超越单纯色彩的物质质感"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 45,
+     "via": "body",
+     "text": "由于画面狭小、信息量有限，就必须尽可能排除冗余之物。即便是角色的画稿，也无法使用色彩或进行精细描绘，因此在这方面我刻意追求符号化且易于理解的设计。我想正是这样的结果，才让它被广泛的人群所接受吧。"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 8,
+     "via": "body",
+     "text": "于我而言，目标便是提升画面的完成度。色彩化固然是原因之一，但既然宝可梦这一存在已然深入人心，我便想让大家看到宝可梦更多不同的魅力。"
+    }
+   ]
+  },
+  {
+   "id": "manga",
+   "name": "漫画",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "连载漫画与其中的改编。",
+   "approved": false,
+   "aliases": [
+    "漫画",
+    "连载漫画",
+    "コミック"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 78,
+   "segs": 138,
+   "forms": [
+    "漫画×78"
+   ],
+   "by_kind": {
+    "scan": 8,
+    "interview": 55,
+    "blog": 15
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 80,
+     "via": "body",
+     "text": "宝可梦们以多快的速度奔跑、游泳、飞行呢。用有趣的漫画举办宝可梦奥运会！"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 66,
+     "via": "body",
+     "text": "以前连载的漫画《麦森探险》连载途中，女孩子的胸部变大了，那是怎么回事啾？是杉森先生的喜好吗？"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 7,
+     "via": "body",
+     "text": "我是伴随着漫画和动画长大的第一代人，你知道，就是“哥斯拉”之后的那一代。我沉迷于电视和漫画中的奥特曼。游戏设计师这个职业是最近才出现的。如果这个职业不存在，我大概会去做动画吧。"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 141,
+     "via": "body",
+     "text": "我记得漫画家、插画师等大人物都曾参与其中。"
+    }
+   ]
+  },
+  {
+   "id": "difficulty",
+   "name": "难易度",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "做得多难：小孩子能不能通关，老玩家会不会觉得太简单。",
+   "approved": false,
+   "aliases": [
+    "难易度",
+    "难度",
+    "高难度",
+    "难度调整",
+    "難易度"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 77,
+   "segs": 110,
+   "forms": [
+    "难度×68",
+    "高难度×12",
+    "难易度×3",
+    "难度调整×2"
+   ],
+   "by_kind": {
+    "interview": 65,
+    "blog": 6,
+    "scan": 5,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 4,
+     "via": "body",
+     "text": "为此，我们对整个游戏的难度曲线和数值平衡进行了极其审慎的重构。并且，我们实装了只要按下 GBA 机身顶部的 L 键或 R 键，屏幕就会立刻弹出操作指南与基础规则的“全方位帮助菜单（Help Menu）”。根据我们的前期调研，缺乏手柄操作习惯的初学者，比起面板正面的 A、B 按键，反而往往会出于下意识的握持习惯去按压机身"
+    },
+    {
+     "post": "gamefreak-director-007",
+     "title": "[GameFreak部长专栏] 第7回",
+     "seg": 31,
+     "via": "body",
+     "text": "嗯，虽然也挺有趣，但和单手相比没有太明显的区别，而且难度还提高了。"
+    },
+    {
+     "post": "gamefreak-director-055",
+     "title": "[GameFreak部长专栏] 第55回",
+     "seg": 11,
+     "via": "body",
+     "text": "一边切身体会着双屏、触摸屏和无线通信的难度，"
+    },
+    {
+     "post": "gamefreak-director-056",
+     "title": "[GameFreak部长专栏] 第56回",
+     "seg": 7,
+     "via": "body",
+     "text": "即使推出新作，我们也没有提高难度，始终以同样的态度进行制作。"
+    }
+   ]
+  },
+  {
+   "id": "player-segments",
+   "name": "老玩家与新玩家",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "玩了二十年的和第一次碰的，同一作要同时接住。",
+   "approved": false,
+   "aliases": [
+    "核心玩家",
+    "老玩家",
+    "新玩家",
+    "轻度玩家",
+    "玩家群体",
+    "年龄层",
+    "目标年龄"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 76,
+   "segs": 124,
+   "forms": [
+    "老玩家×31",
+    "新玩家×22",
+    "年龄层×17",
+    "玩家群体×13",
+    "核心玩家×11",
+    "轻度玩家×1"
+   ],
+   "by_kind": {
+    "interview": 67,
+    "blog": 2,
+    "scan": 5,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 59,
+     "via": "body",
+     "text": "这个URL使用了相对较长的时间，对于老玩家来说应该是个熟悉的网址吧。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 31,
+     "via": "body",
+     "text": "实际的目标年龄层大概在哪个范围呢？说到宝可梦，果然还是在小学生等孩子中很受欢迎。"
+    },
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 3,
+     "via": "body",
+     "text": "此次在开发《火红·叶绿》时，我们团队内部确立了一个共同的口号，那就是“60岁老人也能轻松玩的宝可梦”。随着《宝可梦》系列经过多年演进，系统变得越来越精细深奥，但与此同时，对于初次接触的新玩家而言，规则和信息量也难免显得有些复杂门槛。正因如此，在这部重回原点的作品中，我们下定决心：无论是年幼的孩童、以往不怎么玩游戏的女性"
+    },
+    {
+     "post": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+     "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+     "seg": 35,
+     "via": "body",
+     "text": "增田顺一：我希望玩家之间的交流能变得更加容易，并且利用这一点的玩家群体能更加庞大。"
+    }
+   ]
+  },
+  {
+   "id": "randomness",
+   "name": "随机与运气",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "命中率、概率、闪光那类交给运气的部分。",
+   "approved": false,
+   "aliases": [
+    "随机",
+    "概率",
+    "运气",
+    "抽到"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 75,
+   "segs": 103,
+   "forms": [
+    "概率×35",
+    "随机×23",
+    "运气×21",
+    "抽到×1"
+   ],
+   "by_kind": {
+    "scan": 13,
+    "interview": 52,
+    "blog": 8,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 12,
+     "via": "body",
+     "text": "那大概是1925年的事，我国宝可梦学之祖西之森教授正在进行提取火暴猴愤怒能量的实验。然而，当时已临近退休年龄的教授弄错了用药量，使珍贵的火暴猴衰弱下去。可是，那只火暴猴或许是出于生存本能，自己整个钻进了旁边教授的远视眼镜盒里，像胎儿一样蜷成一团。以此事件为契机，宝可梦捕获胶囊的开发得以推进，同时也确立了捕获宝可梦的方法"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 97,
+     "via": "body",
+     "text": "第一次把这个游戏插进Game Boy开机的时候，我们想到给卡带随机分配一个ID编号，比如根据这个编号是偶数还是奇数，让出现的宝可梦不一样，一开始我们是这么考虑的。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 85,
+     "via": "body",
+     "text": "我随机选取了30组宝可梦。种类五花八门。已知性别的，是♂与♀的组合，除此之外则完全随意。……说到随机选取，学生时代大木博士曾对我说过：「无意识中也有法则性。忘记这一点，数据的可信度就会受到怀疑。」确实如此。这就是所谓的「无巧不成椰蛋树」吗？啊哈哈哈！！"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 23,
+     "via": "body",
+     "text": "此外，在制作海外版的过程中还有很多问题。比如，日语中可以用四五个片假名来表示的名字，换成四个字母的话，大概只能像“JOHN”那样。因此，如果非要十个字符，那就得从程序结构开始改变。而且，还要修改宝可梦的名字，将所有文本翻译成英语，并付出让整个程序运行的劳力，即便如此，还要问“美国市场真的可行吗？”再加上，过去在日本大受"
+    }
+   ]
+  },
+  {
+   "id": "art-direction",
+   "name": "美术风格",
+   "facet": "art",
+   "facet_name": "美术",
+   "gloss": "整体看起来是什么样：线条、色感、统一到什么程度。",
+   "approved": false,
+   "aliases": [
+    "美术风格",
+    "画风",
+    "美术设计",
+    "美术方向",
+    "真实感"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 74,
+   "segs": 88,
+   "forms": [
+    "真实感×34",
+    "美术设计×21",
+    "画风×18",
+    "美术风格×4"
+   ],
+   "by_kind": {
+    "interview": 50,
+    "blog": 16,
+    "scan": 7,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 28,
+     "via": "body",
+     "text": "首先有玩家在。玩家对面是电视画面，而画面里还有一台电视。皮卡丘就是连接这种不可思议状态的存在。如果皮卡丘没有真实感，整体就会显得很假。所以我们加入了很多让玩家感觉皮卡丘真的就在那里的巧思，其中也包含养成要素。"
+    },
+    {
+     "post": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+     "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+     "seg": 29,
+     "via": "body",
+     "text": "增田顺一：有几种不同的流程，但最常见的是，美术设计师提出一个想法，然后与游戏设计师讨论。游戏设计师随后决定这只宝可梦是什么属性，拥有什么样的能力。接着他们决定玩家会在哪些地方和环境遇到这只宝可梦。美术设计师和游戏设计师之间的沟通非常重要。设计师们经常会回头对美术师说：“这只宝可梦是这种属性，所以你能让它看起来更像这样或"
+    },
+    {
+     "post": "gamefreak-director-002",
+     "title": "[GameFreak部长专栏] 第2回",
+     "seg": 15,
+     "via": "body",
+     "text": "但是，加上这样一个小设计，就让它有了真实感。"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 2,
+     "via": "body",
+     "text": "我是美术总监，负责统管绘画团队。新宝可梦的设计也是我们构思的。人一多，画风就会各有不同，所以我的职责就是把这些整合起来，营造出统一感。"
+    }
+   ]
+  },
+  {
+   "id": "dialogue",
+   "name": "台词",
+   "facet": "story",
+   "facet_name": "剧情与文本",
+   "gloss": "具体某一句怎么写的，和 NPC 说话的口气。",
+   "approved": false,
+   "aliases": [
+    "台词",
+    "对白",
+    "セリフ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 73,
+   "segs": 164,
+   "forms": [
+    "台词×69",
+    "对白×10",
+    "セリフ×2"
+   ],
+   "by_kind": {
+    "interview": 54,
+    "scan": 15,
+    "blog": 4
+   },
+   "samples": [
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 32,
+     "via": "body",
+     "text": "拥有稀有宝可梦的人，可是会被朋友羡慕的哦。在游戏的世界里，稀有的宝可梦果然还是很受欢迎。游戏里有一句“你的皮卡丘好可爱”的台词，而皮卡丘出现率很低、很难入手。所以，当NPC说出“皮卡丘好可爱”的时候，拥有它的人就能沉浸在一种优越感之中了。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 10,
+     "via": "body",
+     "text": "是的。我们找到动画制作公司，跟他们说“我们想做这样的软件”，请他们制作了一部完全原创的作品。这次的游戏里，宝可梦们的配音也请了动画版的声优来担任。为皮卡丘配音的大谷育江女士，也录制了极其大量的台词。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch140",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+     "seg": 11,
+     "via": "body",
+     "text": "“请倾注爱去对待它（愛してください）”。\n从我步入剧本行业算起，不知已流淌过了多少个年头，但即便是在我自己笔下最浓墨重彩、情感最饱满的剧本高潮里，也从未写出过如此情绪滚烫、纯粹赤诚到令人心尖发颤的台词！那一刻我深知，这群人是玩真的。且听下回分解！"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch142",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+     "seg": 4,
+     "via": "body",
+     "text": "电视动画最不可或缺的灵魂，是跌宕起伏的“情感狂澜”、行云流水的“节奏律动”，以及超越理性说教的“对鲜活生命的最高礼赞”！面对语言不通、无法开口讲人类台词的宝可梦，单纯依靠冰冷的旁白解说无异于隔靴搔痒；我渴望借助歌声与旋律的魔力，将人类少年与异质生灵之间那种无需言语的心灵共振，化作舞台上飞扬跋扈的生命诗篇！"
+    }
+   ]
+  },
+  {
+   "id": "trade",
+   "name": "通信交换",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "把宝可梦交给别人——两个版本、进化条件、凑齐图鉴都绕不开它。",
+   "approved": false,
+   "aliases": [
+    "通信交换",
+    "交换宝可梦",
+    "进行交换",
+    "与朋友交换",
+    "交換"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 73,
+   "segs": 127,
+   "forms": [
+    "交换宝可梦×40",
+    "进行交换×21",
+    "通信交换×17",
+    "交換×11",
+    "与朋友交换×1"
+   ],
+   "by_kind": {
+    "scan": 13,
+    "interview": 39,
+    "blog": 20,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 74,
+     "via": "body",
+     "text": "是啊。但是，比如说交换这种东西，只有双方都有好处才能成立。在《宝可梦》初期，是可以用钱买宝可梦的，但如果稍微战斗一下攒点钱就能买到宝可梦，那么辛苦寻找并捕捉的价值就失去了。这样一想，反而游戏的形式就一点点显现出来了。还有，交换宝可梦的时候，如果双方提出的宝可梦之间有明显价值差异，也考虑过加一些钱的方法，但宝可梦的价"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 3,
+     "via": "body",
+     "text": "记载为12月21日发售预定的介绍文章。（实际延期至翌年1996年2月27日）除了游戏目的、通信交换、可以起昵称等说明文字外，还刊登了小火龙进化最终变成喷火龙的插图。（发售前的彩色广告等，包括其他杂志在内，我想这个时期前后应该都有，有兴趣的人请各自确认）"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 17,
+     "via": "body",
+     "text": "没有。这一点在制作过程中也一直被提起……但还是希望大家使用新的宝可梦，同时也想促进与红·绿·蓝·皮卡丘版的通信交换，所以故意设置得比较苛刻。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 60,
+     "via": "body",
+     "text": "石原提到的“新宝可梦游戏”正是2002年在Game Boy Advance平台发售的《红宝石／蓝宝石》。两款作品合计销量突破1600万份，成为GBA平台史上最畅销的游戏。更重要的是，石原“打造一个没有语言壁垒的世界”的目标得以实现——《红宝石／蓝宝石》是系列首次允许不同语言版本之间进行交换。"
+    }
+   ]
+  },
+  {
+   "id": "hand-drawn",
+   "name": "手绘与画材",
+   "facet": "art",
+   "facet_name": "美术",
+   "gloss": "铅笔、纸、上色——画在电脑之前的部分。",
+   "approved": false,
+   "aliases": [
+    "手绘",
+    "铅笔",
+    "画材",
+    "原画",
+    "草图"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 72,
+   "segs": 123,
+   "forms": [
+    "手绘×37",
+    "原画×26",
+    "草图×19",
+    "铅笔×4",
+    "画材×1"
+   ],
+   "by_kind": {
+    "interview": 61,
+    "blog": 3,
+    "scan": 8
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 33,
+     "via": "body",
+     "text": "第2回：杉森建 美术总监篇（十年画材、画不出的妙蛙花与全主机收藏）"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 51,
+     "via": "body",
+     "text": "宝可梦的命名，有时候是设计师在草图上随手写下的暂定名直接沿用下来，有时则由专门负责命名的成员集思广益苦思冥想。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch138",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+     "seg": 16,
+     "via": "body",
+     "text": "虽然我是写动画剧本的，但我根本不会画画，自然没办法像画家、漫画家或书法名家那样奉献美轮美奂的艺术绘马；如果是人尽皆知的演艺大明星，简简单单题两句吉祥话签个名就价值连城，但我区区一个编剧的名字写在木板上，哪有什么号召力呢？于是以往我都拜托相熟的原画师帮忙在木板上勾勒我剧本角色的肖像，或者自己依葫芦画瓢硬着头皮画上笨拙的手"
+    },
+    {
+     "post": "gamefreak-staff-68",
+     "title": "【工作日志】2008年新人研修生活",
+     "seg": 5,
+     "via": "body",
+     "text": "中午一起笑个不停、请前辈们给我的画提建议、还有机会看到原画……。<br"
+    }
+   ]
+  },
+  {
+   "id": "competitive",
+   "name": "竞技与官方大赛",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "对战当竞技看：世界锦标赛、规则限制、选手。",
+   "approved": false,
+   "aliases": [
+    "世界锦标赛",
+    "世界大赛",
+    "官方大赛",
+    "对战大会",
+    "公式大会",
+    "竞技性"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 70,
+   "segs": 129,
+   "forms": [
+    "世界锦标赛×51",
+    "对战大会×16",
+    "世界大赛×10",
+    "官方大赛×2",
+    "竞技性×2"
+   ],
+   "by_kind": {
+    "interview": 29,
+    "blog": 34,
+    "scan": 6,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 41,
+     "via": "body",
+     "text": "这一年举办了首次官方大赛，电视节目《64马里奥体育场》中的对战环节也很热闹，"
+    },
+    {
+     "post": "gamefreak-director-075",
+     "title": "[GameFreak部长专栏] 第75回",
+     "seg": 7,
+     "via": "body",
+     "text": "应猿乐厅桥本长官的邀请，我去参加了“宝可梦对战大会”。"
+    },
+    {
+     "post": "gamefreak-director-101",
+     "title": "[GameFreak部长专栏] 第101回",
+     "seg": 30,
+     "via": "body",
+     "text": "今后我也想继续举办全国规模的对战大会。"
+    },
+    {
+     "post": "gamefreak-staff-56",
+     "title": "【工作日志】2008年公司宝可梦对战大会",
+     "seg": 3,
+     "via": "body",
+     "text": "公司内部宝可梦DP对战大会举办了。"
+    }
+   ]
+  },
+  {
+   "id": "camera",
+   "name": "视角与镜头",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "从哪儿看这个世界：俯视、背后视角、镜头怎么跟。",
+   "approved": false,
+   "aliases": [
+    "镜头",
+    "摄像机",
+    "俯视视角",
+    "视角切换",
+    "カメラ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 69,
+   "segs": 104,
+   "forms": [
+    "镜头×59",
+    "摄像机×8",
+    "カメラ×6",
+    "俯视视角×2"
+   ],
+   "by_kind": {
+    "interview": 51,
+    "blog": 11,
+    "scan": 7
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 123,
+     "via": "body",
+     "text": "晚上好啾。大家都吃过晚饭了吗？？今天因为要采访不道德的人，所以是晚上进行的采访啾。今天的目标是，因为经常去极真空手道场而被叫做“空手王”（注：据说最近升到了二段）的程序员大叔，不对，是大哥啾。那么出发啾！！空手王，镜头拉近嚓——！！（这不是早上吗……）"
+    },
+    {
+     "post": "gamefreak-director-062",
+     "title": "[GameFreak部长专栏] 第62回",
+     "seg": 4,
+     "via": "body",
+     "text": "会有 GAME FREAK 公司内部以及我的镜头，"
+    },
+    {
+     "post": "gamefreak-staff-59",
+     "title": "【工作日志】2008年世田谷线微缩摄影",
+     "seg": 16,
+     "via": "body",
+     "text": "他告诉我，相机镜头是特殊的，以及运用这种手法进行表现的人，<br"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch152",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）",
+     "seg": 8,
+     "via": "body",
+     "text": "我当即严词驳斥：“宝可梦的世界不存在人类的国界！同一种宝可梦因为人类国家的划分而叫出不同语言，在生物学上荒诞不经；更何况宝可梦还会不断进化，妙蛙种子变成妙蛙草、再进化为妙蛙花，若每次进化在不同国家还要变幻啼鸣，整个世界观将陷入万劫不复的混乱！”然而这位制片人竟执拗地纠缠了好一阵子。类似神来之笔的废案还有“呆呆兽的一天”"
+    }
+   ]
+  },
+  {
+   "id": "multiplayer",
+   "name": "多人同乐",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "几个人一起玩的设计：合作、同乐会、聚在一起的场合。",
+   "approved": false,
+   "aliases": [
+    "多人游戏",
+    "多名玩家",
+    "一起玩",
+    "合作游玩"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 67,
+   "segs": 91,
+   "forms": [
+    "一起玩×65",
+    "多人游戏×3",
+    "合作游玩×1"
+   ],
+   "by_kind": {
+    "interview": 42,
+    "blog": 19,
+    "scan": 6
+   },
+   "samples": [
+    {
+     "post": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+     "title": "宝可梦向未来扩展",
+     "seg": 30,
+     "via": "body",
+     "text": "就我而言，我是想尽可能让玩法变得更丰富。四五个人一起玩宝可梦卡牌的时候，每个人都带着Game Boy Advance，用卡牌e来掷代币、计算比赛时间。比赛一开始，两个人就充分运用应用程序进行对战。其他的孩子，以前只能一边想着“好想玩啊”一边等着，现在则可以一边用自己的Advance读取卡牌e的数据，一边组卡组、玩小游戏"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 12,
+     "via": "body",
+     "text": "2对2的对战，只要考虑属性、招式和特性，真的能有各种各样的玩法。另外，我们还加入了很多可以4人一起玩的内容，比如华丽大赛和秘密基地，请和朋友一起发现各种玩法吧！总之这是一台可以4人同乐的机器，乐趣也是4倍!!"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 49,
+     "via": "body",
+     "text": "以前的游戏买回来，全家人都能一起玩，可现在的游戏变得太核心向了。不是那样，而是谁都能很快上手，也能很快中途放下，大家都能享受。我想做又新又容易玩、好上手又有趣的东西。"
+    },
+    {
+     "post": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+     "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+     "seg": 11,
+     "via": "body",
+     "text": "增田顺一：当我们制作这款游戏时，目标受众非常广泛。我们制作了一款60岁的老人可以和孙辈一起玩的游戏。我们希望看到新的、年长的用户和普通粉丝一样享受这款游戏。"
+    }
+   ]
+  },
+  {
+   "id": "anime-writing",
+   "name": "动画的写法",
+   "facet": "story",
+   "facet_name": "剧情与文本",
+   "gloss": "电视动画那一侧的构成：系列构成、分集、分镜。",
+   "approved": false,
+   "aliases": [
+    "动画剧本",
+    "系列构成",
+    "分镜",
+    "脚本会议",
+    "每集",
+    "分集"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 66,
+   "segs": 142,
+   "forms": [
+    "系列构成×32",
+    "分镜×25",
+    "动画剧本×18",
+    "分集×6",
+    "每集×3",
+    "脚本会议×1"
+   ],
+   "by_kind": {
+    "interview": 63,
+    "blog": 1,
+    "scan": 2
+   },
+   "samples": [
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 9,
+     "via": "body",
+     "text": "比如配合游戏的进度和发售日来调整播出的集数，统筹整个系列构成。电影那边，因为会更多地涉及内容和影像等方面，所以电影的工作比重可能更大一些。"
+    },
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 15,
+     "via": "body",
+     "text": "另外一个在本作中备受好评的全新机制，就是每当玩家读取存档进入游戏时，屏幕会自动以黑白漫画分镜形式播放玩家离开前最近四步关键行动的“冒险故事回顾（あらすじ）”功能。这也是我们为了让更广泛的玩家群体能够轻松沉浸而精心设计的巧妙构思。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch138",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+     "seg": 3,
+     "via": "body",
+     "text": "“我们手头有一部新动画想委托您担任系列构成，想找您开个企划碰头会。”\n“是一部怎样的动画呢？”\n“是一部电子游戏改编的动画。”\n当时电话里的沟通就是如此简短直接。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch139",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+     "seg": 1,
+     "via": "body",
+     "text": "从接到“能否为某款电子游戏（不用说，指的正是《宝可梦》）的动画化挑起系列构成重担”的试探性委托，到正式出席首次企划碰头会，中间其实只有短短几天的时间。而在那几天里，我的脑海里究竟在翻滚着些什么呢？——老实说，当时我对名为《宝可梦》的掌机游戏几乎一无所知。"
+    }
+   ]
+  },
+  {
+   "id": "dev-cycle",
+   "name": "开发周期",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "做了多久：几年、几个阶段、什么时候最赶。",
+   "approved": false,
+   "aliases": [
+    "开发周期",
+    "开发期间",
+    "开发时间",
+    "工期",
+    "花了几年",
+    "开发初期",
+    "开发阶段"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 66,
+   "segs": 89,
+   "forms": [
+    "开发期间×22",
+    "开发初期×19",
+    "开发周期×12",
+    "开发阶段×11",
+    "工期×9",
+    "开发时间×4"
+   ],
+   "by_kind": {
+    "interview": 48,
+    "scan": 10,
+    "blog": 5,
+    "article": 3
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 113,
+     "via": "body",
+     "text": "还在开发阶段，所以有很多不能透露的内容，不过在我负责的部分，通信对战想做得比1更热血。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 30,
+     "via": "body",
+     "text": "太田 聪①舞蹈舞蹈宝可梦♂ ②？（开发期间住宿增多就会变胖） ③夜猫子・不健康型 ④博物馆／玩具店／游戏中心 ⑤画画／收集香水／夜游／泡澡时读书"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 42,
+     "via": "body",
+     "text": "在宝可梦当中，也有一些角色是先有了属性构思之后才诞生的。其实皮卡丘也是如此。从“电”这一属性出发，诞生了象征雷电的角色——皮卡丘。如今享有世界级人气的角色，在开发初期其实尚未诞生。"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-card-e-creatures",
+     "title": "看不见的价值：宝可梦卡牌e",
+     "seg": 9,
+     "via": "body",
+     "text": "开发周期大概有多长？"
+    }
+   ]
+  },
+  {
+   "id": "type-matchup",
+   "name": "属性相性",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "十几种属性彼此克制的那张表，以及给一只宝可梦定属性。",
+   "approved": false,
+   "aliases": [
+    "属性相性",
+    "属性相克",
+    "属性搭配",
+    "属性配比",
+    "火属性",
+    "水属性",
+    "草属性",
+    "电属性",
+    "龙属性",
+    "恶属性",
+    "钢属性",
+    "超能力属性",
+    "タイプ相性"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 66,
+   "segs": 133,
+   "forms": [
+    "水属性×20",
+    "火属性×19",
+    "龙属性×14",
+    "草属性×13",
+    "属性相性×12",
+    "电属性×12"
+   ],
+   "by_kind": {
+    "scan": 19,
+    "interview": 43,
+    "blog": 4
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 38,
+     "via": "body",
+     "text": "对了对了，说到属性，「暴风雪」这个招式能让对手冰冻，所以很方便，但之后不小心用「火花」可不行。因为冰会融化。这种信息不在实战中战斗是不会注意到的。在研究所里不会明白。毕竟大木博士甚至给九尾学会的火属性招式起了「だいもんじやき」这样的名字。据我住在京都的宝可梦朋友说，正式名称似乎是「だいもんじ」。所以我就擅自把名字改了（"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 10,
+     "via": "body",
+     "text": "刊登了属性相性表和最初的3只+游戏中期之前可捕捉的45只宝可梦的特征，在宝可梦的特征栏中，可以确认除“特殊”外的种族值，属性不知为何只表记了1个。（举例来说，妙蛙种子只表记为草属性，波波只表记为一般属性）"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 87,
+     "via": "body",
+     "text": "这次调查得出了有趣的结果。那就是，不同宝可梦的♂与♀之间也会出现「蛋」这一事实。例如皮皮与布鲁、呆呆兽与袋兽、毛球与凯罗斯等。而且布鲁与肯泰罗这一组合也出现了「蛋」。补充一下，这些都是♂与♀。不同种类的宝可梦之间，似乎与大木博士所建立的宝可梦属性体系无关。水属性的呆呆兽与一般属性的袋兽就是很好的例子。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 39,
+     "via": "body",
+     "text": "“我们构思宝可梦的方式有好几种。有些是从已有的形状、形态或生物中汲取灵感，有些则是去思考什么样的宝可梦在游玩层面会更有趣。举例来说，在《金／银》中，我们引入了新的宝可梦属性。在之前的宝可梦游戏里，超能力属性宝可梦似乎占据了压倒性的优势，所以我们必须设计出新的宝可梦和属性，让《金／银》的对战更加平衡。我们构思了数百只新宝"
+    }
+   ]
+  },
+  {
+   "id": "cry-design",
+   "name": "叫声",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "每只宝可梦的叫声怎么做出来的——机能有限时尤其费心。",
+   "approved": false,
+   "aliases": [
+    "叫声",
+    "鸣叫声",
+    "鳴き声"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 65,
+   "segs": 124,
+   "forms": [
+    "叫声×65",
+    "鳴き声×3",
+    "鸣叫声×1"
+   ],
+   "by_kind": {
+    "scan": 11,
+    "interview": 44,
+    "blog": 10
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 55,
+     "via": "body",
+     "text": "好，就聊到这里吧。看来大家各有各的最爱呢。重视战斗、只凭强弱来选也不错，但凭脸可爱、叫声帅气之类的理由来决定最爱也很有趣。像这样按自己的主题收集最爱，组建只属于自己的宝可梦队伍，也是这个世界独有的乐趣。"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 21,
+     "via": "body",
+     "text": "同样，6年前制作的宝可梦（登场怪物）的叫声之类的也还在，当时设想的世界观和现在设想的世界观有差异，所以我是一边回忆过去的印象一边制作的。不过，也会觉得以前的自己真是纯粹，挺好的（笑）。"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 12,
+     "via": "body",
+     "text": "有篇评论着眼于开发者的执着，写道“每个宝可梦都有自己的叫声，真让人惊讶。”，在排行榜方面，则提到了因出货量问题导致《红》人气高而《绿》销量好的现象。（当然，GB部门排名第一）"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 154,
+     "via": "body",
+     "text": "第5回：增田顺一 音乐总监篇（性感音乐家、宝可梦叫声体系与紫苑镇秘闻）"
+    }
+   ]
+  },
+  {
+   "id": "overseas",
+   "name": "海外发行",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "出到日本以外：本地化、同步发售、各地的口味。",
+   "approved": false,
+   "aliases": [
+    "海外版",
+    "海外市场",
+    "面向全球",
+    "全球同步发售",
+    "海外发售"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 65,
+   "segs": 90,
+   "forms": [
+    "全球同步发售×26",
+    "海外版×20",
+    "面向全球×12",
+    "海外市场×8",
+    "海外发售×3"
+   ],
+   "by_kind": {
+    "interview": 48,
+    "blog": 13,
+    "scan": 3,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 23,
+     "via": "body",
+     "text": "此外，在制作海外版的过程中还有很多问题。比如，日语中可以用四五个片假名来表示的名字，换成四个字母的话，大概只能像“JOHN”那样。因此，如果非要十个字符，那就得从程序结构开始改变。而且，还要修改宝可梦的名字，将所有文本翻译成英语，并付出让整个程序运行的劳力，即便如此，还要问“美国市场真的可行吗？”再加上，过去在日本大受"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 43,
+     "via": "body",
+     "text": "那么今后海外版发售之后，就能和全世界通信了吗？"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 58,
+     "via": "body",
+     "text": "未来等到海外版本发售之后，也能与全世界的训练家进行跨国通信吗？"
+    },
+    {
+     "post": "gamefreak-director-106",
+     "title": "[GameFreak部长专栏] 第106回",
+     "seg": 13,
+     "via": "body",
+     "text": "不过还是在这里介绍一下前几天面向全球同步公开的 GTS 网站。"
+    }
+   ]
+  },
+  {
+   "id": "bgm",
+   "name": "背景音乐",
+   "facet": "audio",
+   "facet_name": "声音",
+   "gloss": "每个场景的曲子：城镇、对战、片头。",
+   "approved": false,
+   "aliases": [
+    "背景音乐",
+    "主题曲",
+    "配乐",
+    "BGM"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 61,
+   "segs": 131,
+   "forms": [
+    "BGM×32",
+    "主题曲×19",
+    "配乐×15",
+    "背景音乐×14"
+   ],
+   "by_kind": {
+    "blog": 12,
+    "interview": 40,
+    "scan": 9
+   },
+   "samples": [
+    {
+     "post": "gamefreak-director-054",
+     "title": "[GameFreak部长专栏] 第54回",
+     "seg": 4,
+     "via": "body",
+     "text": "首先是宝可梦乐园主题曲的舞蹈动作，"
+    },
+    {
+     "post": "gamefreak-director-095",
+     "title": "[GameFreak部长专栏] 第95回",
+     "seg": 3,
+     "via": "body",
+     "text": "听着宫崎先生指挥演奏的背景音乐，觉得无比怀念，"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch138",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+     "seg": 24,
+     "via": "body",
+     "text": "然而话又说回来，官方对《宝可梦》图像版权近乎苛刻的坚守，其硬币的另一面，恰恰是对动画编剧各项合法权益的极度重视与长远呵护！在传统的动画海外输出中，往往只有BGM作曲家能拿到海外版税分成，而编剧的心血却常常石沉大海、颗粒无收，这全因过往日本许多公司在剧本海外著作权梳理上的敷衍懒政与故意装聋作哑。"
+    },
+    {
+     "post": "gamefreak-director-125",
+     "title": "[GameFreak部长专栏] 第125回",
+     "seg": 48,
+     "via": "body",
+     "text": "（即便如此，只要音效响起，背景音乐的声音还是会被压掉。）"
+    }
+   ]
+  },
+  {
+   "id": "level-exp",
+   "name": "等级与经验",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "升级曲线、经验值分配这类数值上的事。",
+   "approved": false,
+   "aliases": [
+    "经验值",
+    "升级",
+    "等级"
+   ],
+   "with": [
+    "宝可梦",
+    "对战",
+    "战斗",
+    "调整",
+    "玩家"
+   ],
+   "avoid": [],
+   "docs": 61,
+   "segs": 85,
+   "forms": [
+    "等级×28",
+    "升级×28",
+    "经验值×13"
+   ],
+   "by_kind": {
+    "scan": 14,
+    "interview": 44,
+    "blog": 3
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 42,
+     "via": "body",
+     "text": "还有一点。大家知不知道，比起把自己找到的宝可梦留在身边培养，培养通过交换得到的别人的宝可梦能获得更多经验值？"
+    },
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 31,
+     "via": "body",
+     "text": "最初的时候，战斗画面上连数字和体力条都不显示，而是用「对手好像变弱了」这样的方式来表现。但那样太难懂了，所以先显示等级，接着显示体力条，最后连数字也显示出来。"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 16,
+     "via": "body",
+     "text": "将经验值分给其他宝可梦（秘技）"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 114,
+     "via": "body",
+     "text": "虽然官方大赛在前一年已经举办，但实际上按照那些规则进行对战的机会很少（连调整等级都很困难）。"
+    }
+   ]
+  },
+  {
+   "id": "stage-model",
+   "name": "舞台取材",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "拿现实的地方当地区原型：合众取自纽约、卡洛斯取自法国这类。",
+   "approved": false,
+   "aliases": [
+    "地区设定",
+    "舞台设定",
+    "舞台原型",
+    "为原型",
+    "为蓝本",
+    "をモデル"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 60,
+   "segs": 110,
+   "forms": [
+    "为原型×48",
+    "舞台设定×9",
+    "为蓝本×6",
+    "地区设定×4",
+    "をモデル×1"
+   ],
+   "by_kind": {
+    "interview": 42,
+    "scan": 16,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 4,
+     "via": "body",
+     "text": "我认为玩家们期盼的是在新地图上与新的宝可梦相遇，因此上次以“关都”为舞台，这次则将背景设定在以关西为原型的“城都”地区。"
+    },
+    {
+     "post": "interview-nom-movie-latios-latias-water-capital",
+     "title": "任天堂官方网络杂志 N.O.M：2002年剧场版《水之都的护神 拉帝亚斯与拉帝欧斯》情报",
+     "seg": 2,
+     "via": "body",
+     "text": "今年夏天的电影也来了。2002年的剧场版宝可梦是《水之都的护神 拉帝亚斯与拉帝欧斯》。这次的看点是名为“拉帝亚斯”和“拉帝欧斯”的新宝可梦。以威尼斯为原型的风景，看来也会非常美。当然，这次也是两片连映。今年也有许多宝可梦在电影院等着大家！7月13日（周六）起全国东宝系上映。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-colosseum-staff",
+     "title": "宝可梦圆形竞技场的开发",
+     "seg": 21,
+     "via": "body",
+     "text": "宝可梦果然还是以对战为主。所以别的先放一边，我们以帅气为目标。充分利用运镜和CG，用多样的表现来展现那种帅气。实际上工作中最费心思的就是这一点。故事一展开，就必然需要各种各样的演出。这已经变成和电影世界没多大差别的东西了。折尾 以前玩宝可梦的大人，我想很多都是找不到同伴、一个人玩的。不过，我们的做法让这些人也能扬眉吐气"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 68,
+     "via": "body",
+     "text": "配合《钻石·珍珠》的任天堂DS会成为终极的便携工具。什么都能做。当然，一个人走进草丛捕捉宝可梦这种玩法也作为原型存在，但在此基础上还加入了各种并非仅此而已的功能，能让人体会到仿佛得到了一件终极玩具的感觉。"
+    }
+   ]
+  },
+  {
+   "id": "character-design",
+   "name": "角色设计",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "人物这一侧的设计：主角、对手、博士、反派组织的样子与性格。",
+   "approved": false,
+   "aliases": [
+    "角色设计",
+    "角色设定",
+    "人物设计",
+    "人物设定",
+    "キャラクターデザイン"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 59,
+   "segs": 91,
+   "forms": [
+    "角色设计×48",
+    "角色设定×11",
+    "キャラクターデザイン×8",
+    "人物设计×3",
+    "人物设定×2"
+   ],
+   "by_kind": {
+    "scan": 18,
+    "interview": 29,
+    "blog": 12
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 20,
+     "via": "body",
+     "text": "从6年前就开始制作，换句话说，也就是“有6年前的画”。站在角色设计师的立场上，现在看到自己以前画的那些东西，会觉得不好意思。虽然最终做了相当多的修改，但心情还是有点复杂。会有“我还画过这种东西啊”这样怀念的感觉。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 4,
+     "via": "body",
+     "text": "杉森建先生，负责角色设计与图形。是构思宝可梦、绘制图画那些人的领头人。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 6,
+     "via": "body",
+     "text": "杉森建 ①画画宝可梦♂ ②1.74m／63Kg ③肩酸型 ④按摩店 ⑤宝可梦角色设计／人物角色设计／像素画"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 4,
+     "via": "body",
+     "text": "杉森建（董事・艺术总监）：负责角色设计、背景等所有图形相关工作。"
+    }
+   ]
+  },
+  {
+   "id": "reuse",
+   "name": "沿用与继承",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "前作的素材、程序、设定接着用。",
+   "approved": false,
+   "aliases": [
+    "沿用",
+    "继承",
+    "前作的",
+    "以前的素材"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 59,
+   "segs": 91,
+   "forms": [
+    "继承×34",
+    "沿用×19",
+    "前作的×15"
+   ],
+   "by_kind": {
+    "interview": 53,
+    "scan": 5,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 26,
+     "via": "body",
+     "text": "在“Game Boy的反击”栏目中，刊登了正在开发中的《宝可梦2》的信息。编辑部通过传真向田尻提问，田尻以此方式回答了以下问题。《2》的宝可梦有多少种？新宝可梦有多少种？请稍微透露一下会出现什么样的宝可梦。进化方式会改变吗？如果改变的话会变成什么样？剧本会是前作的延续吗？内容会怎样？这次也会发售两个版本吗？区别和之前一"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 65,
+     "via": "body",
+     "text": "我们制作了“红”和“绿”，接着又做了“青”，甚至还有“黄（皮卡丘版）”。这样一来，下一作本来也可以用“粉”或“紫”之类的颜色，但那终究只是前作的延续。然而，如果是“金·银”，虽然仍是前作的颜色变体，却能表现出不同于“红·绿”的“颜色＋α”。——那么，我们今后还能玩到《宝可梦》的新作吗？"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 38,
+     "via": "body",
+     "text": "命名方面，有时设计者随手写下的草稿会直接沿用下来，另外也有专门负责起名的人，会在那里绞尽脑汁。"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 51,
+     "via": "body",
+     "text": "宝可梦的命名，有时候是设计师在草图上随手写下的暂定名直接沿用下来，有时则由专门负责命名的成员集思广益苦思冥想。"
+    }
+   ]
+  },
+  {
+   "id": "pokemon-design",
+   "name": "宝可梦设计",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "一只宝可梦怎么来的：先有玩法还是先有形象，谁画的，改了几稿。",
+   "approved": false,
+   "aliases": [
+    "宝可梦设计",
+    "设计宝可梦",
+    "宝可梦的设计",
+    "怪兽设计",
+    "怪物设计",
+    "设计一只",
+    "形象设计",
+    "ポケモンのデザイン"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 58,
+   "segs": 103,
+   "forms": [
+    "宝可梦的设计×30",
+    "宝可梦设计×23",
+    "设计宝可梦×12",
+    "怪物设计×6",
+    "设计一只×5",
+    "ポケモンのデザイン×1"
+   ],
+   "by_kind": {
+    "scan": 9,
+    "interview": 46,
+    "blog": 2,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 47,
+     "via": "body",
+     "text": "开始做这个游戏的时候，除了杉森，藤原和森本也在做怪物设计，但森本中途说“我还是想试试编程”。于是他从零开始学习，最后成长到能制作战斗例程主程序的程度。"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 62,
+     "via": "body",
+     "text": "玩过前作的人，解谜也很快呢。相反，对于初次接触的人来说，可能会觉得有点难。 ——但是，我觉得有很多对新手来说容易理解的演出哦。渡边：负责怪物设计的杉森（建先生）说， “我让我老爸玩了前作，但他好像出不了家门”（笑）。所以，他一直提议“想让它更容易理解”。因此，一键用选择按钮就能钓鱼或骑自行车，也是他的提议。《金／银》的"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 88,
+     "via": "body",
+     "text": "森本茂树（GAME FREAK程序员 / 宝可梦设计师）"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 6,
+     "via": "body",
+     "text": "杉森建自第一世代起担任怪物设计主管与系列艺术总监"
+    }
+   ]
+  },
+  {
+   "id": "stage-music",
+   "name": "音乐剧与演出",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "舞台上的宝可梦：音乐剧、演唱会、交响乐。",
+   "approved": false,
+   "aliases": [
+    "音乐剧",
+    "舞台剧",
+    "演唱会",
+    "交响"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 56,
+   "segs": 124,
+   "forms": [
+    "音乐剧×31",
+    "交响×22",
+    "舞台剧×9",
+    "演唱会×4"
+   ],
+   "by_kind": {
+    "blog": 14,
+    "interview": 38,
+    "scan": 4
+   },
+   "samples": [
+    {
+     "post": "gamefreak-director-095",
+     "title": "[GameFreak部长专栏] 第95回",
+     "seg": 14,
+     "via": "body",
+     "text": "真是一场精彩无比的演唱会！"
+    },
+    {
+     "post": "gamefreak-director-109",
+     "title": "[GameFreak部长专栏] 第109回",
+     "seg": 4,
+     "via": "body",
+     "text": "以及肖斯塔科维奇的《第五交响曲》《第七交响曲》之后……"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch138",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+     "seg": 1,
+     "via": "body",
+     "text": "在我过着“无业游民”生活的两周左右后的某一天……虽说是无业，但手头其实有几部虽然答应了要写、截稿期却遥遥无期的长篇小说和舞台音乐剧剧本……我突然接到了《魔法公主明琪桃子》（※1）监督汤山邦彦先生打来的电话。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch142",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+     "seg": 0,
+     "via": "body",
+     "text": "第142回 宝可梦能做成音乐剧吗？"
+    }
+   ]
+  },
+  {
+   "id": "antagonist",
+   "name": "对手与反派",
+   "facet": "story",
+   "facet_name": "剧情与文本",
+   "gloss": "挡在路上的人：对手角色、恶之组织、他们为什么这么做。",
+   "approved": false,
+   "aliases": [
+    "反派",
+    "对手角色",
+    "恶之组织",
+    "劲敌"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 54,
+   "segs": 98,
+   "forms": [
+    "反派×31",
+    "劲敌×25"
+   ],
+   "by_kind": {
+    "interview": 37,
+    "blog": 5,
+    "scan": 11,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 64,
+     "via": "body",
+     "text": "他的主要劲敌名叫小茂，这正是任天堂著名游戏设计师宫本茂的名字，他创作了《大金刚》和《超级马里奥兄弟》。您将他视为自己的劲敌吗？"
+    },
+    {
+     "post": "gamefreak-staff-56",
+     "title": "【工作日志】2008年公司宝可梦对战大会",
+     "seg": 28,
+     "via": "body",
+     "text": "就在这时，もりもと的劲敌カビ（卡比）（策划）终于站了出来。<br"
+    },
+    {
+     "post": "gamefreak-staff-66",
+     "title": "【工作日志】2008年皮皮牧场计划",
+     "seg": 0,
+     "via": "body",
+     "text": "<div data-gf-language-panel=\"zh-CN\" 初次见面，我是もりもと（森本）的劲敌兼策划カビ（卡比）。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch144",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+     "seg": 6,
+     "via": "body",
+     "text": "正是因为在第1、2话中，我已经将这片广袤大陆的世界法则、人与宝可梦的羁绊、以及反派与正派的互动张力以最坚固的精度浇铸成型，其他年轻编剧们才能在这片沃土上卸下包袱、自由舒展双翼，写出一个个令人击节赞赏的神回！所谓系列构成，绝非死板地指手画脚，而是为所有创作者铺就一片任由他们撒欢驰骋的自由原野。且听下回分解！"
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "name": "平衡调整",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "强弱怎么摆平：种族值、招式威力、道具，让一招定胜负不至于发生。",
+   "approved": false,
+   "aliases": [
+    "平衡调整",
+    "整体平衡",
+    "平衡性",
+    "游戏平衡",
+    "强度",
+    "バランス調整"
+   ],
+   "with": [],
+   "avoid": [
+    "生态平衡",
+    "自然平衡"
+   ],
+   "docs": 54,
+   "segs": 74,
+   "forms": [
+    "强度×27",
+    "平衡性×14",
+    "整体平衡×12",
+    "游戏平衡×7",
+    "平衡调整×4"
+   ],
+   "by_kind": {
+    "scan": 9,
+    "interview": 38,
+    "blog": 6,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 39,
+     "via": "body",
+     "text": "FILE No.018「想组建一支在强度之外有讲究的队伍。希望能找到只属于自己的战术」"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 40,
+     "via": "body",
+     "text": "最初的基础设定由田尻负责，而细微的平衡性调整则由我来把控。首先看着图形，想象“这只宝可梦大概有这么强吧”，然后决定等级。接着实际游玩测试，如果感觉不够有趣就再次调整。就是这样的反复作业。此外，也有因剧本需要而决定强度或角色定位的情况。"
+    },
+    {
+     "post": "gamefreak-director-042",
+     "title": "[GameFreak部长专栏] 第42回",
+     "seg": 3,
+     "via": "body",
+     "text": "需要一边考虑整体平衡，"
+    },
+    {
+     "post": "gamefreak-director-047",
+     "title": "[GameFreak部长专栏] 第47回",
+     "seg": 10,
+     "via": "body",
+     "text": "可要做好整体平衡就很难。"
+    }
+   ]
+  },
+  {
+   "id": "community",
+   "name": "玩家社群",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "玩家之间怎么传的：口耳相传、社交网络、线下聚。",
+   "approved": false,
+   "aliases": [
+    "玩家之间",
+    "社群",
+    "社交网络",
+    "口耳相传",
+    "论坛"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 53,
+   "segs": 78,
+   "forms": [
+    "玩家之间×21",
+    "社交网络×15",
+    "社群×13",
+    "论坛×9",
+    "口耳相传×3"
+   ],
+   "by_kind": {
+    "interview": 43,
+    "blog": 7,
+    "scan": 2,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 35,
+     "via": "body",
+     "text": "这条线缆难道不是用于玩家之间相互竞争的吗？在宝可梦中，玩家们也在分享，不是吗？"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 22,
+     "via": "body",
+     "text": "此外，该网站还提到，虽然不是互联网，但在电脑通信（Nifty）的某些论坛上似乎引起了一些话题。"
+    },
+    {
+     "post": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+     "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+     "seg": 35,
+     "via": "body",
+     "text": "增田顺一：我希望玩家之间的交流能变得更加容易，并且利用这一点的玩家群体能更加庞大。"
+    },
+    {
+     "post": "gamefreak-director-058",
+     "title": "[GameFreak部长专栏] 第58回",
+     "seg": 2,
+     "via": "body",
+     "text": "国际论坛里竟然还摆了整整150台试玩机！"
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "name": "配音",
+   "facet": "audio",
+   "facet_name": "声音",
+   "gloss": "声优、语音、动画里的说话声。",
+   "approved": false,
+   "aliases": [
+    "配音",
+    "声优",
+    "声音演出",
+    "収録"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 53,
+   "segs": 115,
+   "forms": [
+    "配音×32",
+    "声优×30",
+    "収録×3",
+    "声音演出×1"
+   ],
+   "by_kind": {
+    "interview": 49,
+    "scan": 3,
+    "blog": 1
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 132,
+     "via": "body",
+     "text": "林原惠。（注·武藏的配音演员）"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 40,
+     "via": "body",
+     "text": "或者是由动画或声优而了解宝可梦的成年动画粉丝所创建的网站。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 59,
+     "via": "body",
+     "text": "现场即兴的创意非常重要，尤其是在动画制作中，声优的力量影响巨大。例如，皮卡丘正是因为大谷育江的演绎才形成了那样的性格；火箭队也是如此，林原惠美的才华赋予了其个性。当火箭队被打飞时，那句“好讨厌的感觉～！”原本并不在剧本中，而是林原女士看着画面随口嘟囔出来的，结果大家觉得“这很有趣，就用它吧！”，从此以后，每次火箭队都会"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 10,
+     "via": "body",
+     "text": "是的。我们找到动画制作公司，跟他们说“我们想做这样的软件”，请他们制作了一部完全原创的作品。这次的游戏里，宝可梦们的配音也请了动画版的声优来担任。为皮卡丘配音的大谷育江女士，也录制了极其大量的台词。"
+    }
+   ]
+  },
+  {
+   "id": "schedule",
+   "name": "日程与期限",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "定下的发售日往回倒排出来的一切。",
+   "approved": false,
+   "aliases": [
+    "日程",
+    "截止",
+    "期限",
+    "スケジュール"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 52,
+   "segs": 71,
+   "forms": [
+    "日程×26",
+    "截止×25",
+    "スケジュール×7",
+    "期限×4"
+   ],
+   "by_kind": {
+    "scan": 5,
+    "interview": 20,
+    "blog": 25,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 19,
+     "via": "body",
+     "text": "因为花了充足的时间，所以相应地，细节部分也能反复打磨到满意为止。普通的游戏往往是日程优先，而《宝可梦》的期限并不确定，所以觉得不错的点子几乎全都放了进去。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 29,
+     "via": "body",
+     "text": "太田：我负责程序方面。我尝试构建一套更易于使用的编程体系。我得以做出一些改动，但并非全部，因为我们的日程非常紧张。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-colosseum-staff",
+     "title": "宝可梦圆形竞技场的开发",
+     "seg": 18,
+     "via": "body",
+     "text": "到这里，不管怎么说，终究还没跳出空想的范畴（笑）。真正把它作为游戏成立起来是从这之后，要制作动作、编写程序。和田 首先是从把插画做成CG的工作开始的。等把设计等做成CG之后，我大吃一惊：“这就是宝可梦的世界吗？”把ヒロモト先生描绘的世界做成CG，再把它作为“宝可梦”来做……这项工作对我来说是一道很大的坎。不过，实际做出"
+    },
+    {
+     "post": "gamefreak-director-034",
+     "title": "[GameFreak部长专栏] 第34回",
+     "seg": 17,
+     "via": "body",
+     "text": "・报名截止时间为本周五，也就是3月18日收到的报名为止。"
+    }
+   ]
+  },
+  {
+   "id": "sound-hardware",
+   "name": "音源与机能",
+   "facet": "audio",
+   "facet_name": "声音",
+   "gloss": "只有几个声道可用时，曲子怎么写。",
+   "approved": false,
+   "aliases": [
+    "音源",
+    "声道",
+    "和音",
+    "音源チップ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 52,
+   "segs": 77,
+   "forms": [
+    "和音×38",
+    "音源×15",
+    "声道×4"
+   ],
+   "by_kind": {
+    "interview": 27,
+    "scan": 5,
+    "blog": 20
+   },
+   "samples": [
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 168,
+     "via": "body",
+     "text": "比起曲子，叫声和音效才是难点。毕竟有151只呢。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 3,
+     "via": "body",
+     "text": "●回答我们的人（照片从右起）增田顺一先生，副总监，负责策划和音乐。是提出“做成这样的游戏吧”并指挥的人。"
+    },
+    {
+     "post": "interview-nom-2002-ruby-sapphire-staff-messages",
+     "title": "宝可梦 红宝石·蓝宝石 发售纪念",
+     "seg": 4,
+     "via": "body",
+     "text": "株式会社GAME FREAK创立之初的成员，担任游戏总监、剧本制作。也负责音乐和音效的制作，其中一部分还成为了电视动画的原曲。"
+    },
+    {
+     "post": "gamefreak-director-027",
+     "title": "[GameFreak部长专栏] 第27回",
+     "seg": 10,
+     "via": "body",
+     "text": "当然，平面设计师和音效设计师也要理解企划和程序。"
+    }
+   ]
+  },
+  {
+   "id": "distribution-gift",
+   "name": "配信与赠送",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "活动会场发的那一只、神秘礼物、序列号。",
+   "approved": false,
+   "aliases": [
+    "神秘礼物",
+    "配信",
+    "赠送活动",
+    "分发"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 51,
+   "segs": 73,
+   "forms": [
+    "配信×25",
+    "分发×20",
+    "神秘礼物×7",
+    "赠送活动×4"
+   ],
+   "by_kind": {
+    "scan": 11,
+    "interview": 32,
+    "blog": 7,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 13,
+     "via": "body",
+     "text": "通过红外线通信可以进行「神秘礼物」吧。那个最初是想能不能做类似打招呼、交换名片之类的事情，试了各种方案，但越想越复杂……那样的话就等于又做一个别的游戏了。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 112,
+     "via": "body",
+     "text": "可通过「神秘礼物」获得的道具·装饰小物件"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 7,
+     "via": "body",
+     "text": "杉森建（董事・艺术总监）：充分发挥Game Boy Color的表现力，追求能够激发宝可梦全新魅力的图形表现。"
+    },
+    {
+     "post": "interview-nom-2001-pokemon-mini-developers",
+     "title": "宝可梦迷你开发访谈",
+     "seg": 29,
+     "via": "body",
+     "text": "我想会出现使用震动传感器和振动等、更充分发挥硬件特性的东西。"
+    }
+   ]
+  },
+  {
+   "id": "link-battle",
+   "name": "通信对战",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "和另一个人对战：线缆、无线、到后来的网络对战。",
+   "approved": false,
+   "aliases": [
+    "通信对战",
+    "联机对战",
+    "训练家对战",
+    "人对战",
+    "双打对战",
+    "三打对战"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 51,
+   "segs": 84,
+   "forms": [
+    "双打对战×17",
+    "训练家对战×13",
+    "人对战×11",
+    "通信对战×10",
+    "三打对战×9",
+    "联机对战×4"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 31,
+    "blog": 8
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 98,
+     "via": "body",
+     "text": "我本来觉得能通过通信交换宝可梦就够了，但这件事一旦能实现，接下来果然还是想让人对战。"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 87,
+     "via": "body",
+     "text": "第3回：森本茂树 战斗设计师篇（偷塞梦幻的始末、通信对战危机与健康恶魔）"
+    },
+    {
+     "post": "interview-nom-gold-silver-gamefreak",
+     "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+     "seg": 6,
+     "via": "body",
+     "text": "细节方面，比如加入道具说明、让画面更易观看等。让游戏比前作更贴心，是《宝可梦 金／银》的目标。此外，本作在制作上也更加注重通信对战。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 34,
+     "via": "body",
+     "text": "那始终是少年时代的自己。所以完全没有加入长大后的视角。我执着于用孩子的视线看世界时，会看到与大人不同的景象这一点来制作。我小时候非常讨厌被人叫做“小鬼头”或“小毛孩”，虽然从大人看来确实如此，但我总是想“我才不是小鬼头！”。而这种心情也融入了《宝可梦》中。因此，游戏中登场的少年少女角色之间是对等的关系，但大人会用一种有"
+    }
+   ]
+  },
+  {
+   "id": "sales",
+   "name": "销量",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "卖了多少、哪儿卖得好、和上一作比。",
+   "approved": false,
+   "aliases": [
+    "销量",
+    "出货",
+    "卖了",
+    "销售数字"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 51,
+   "segs": 80,
+   "forms": [
+    "销量×46",
+    "出货×9",
+    "卖了×3"
+   ],
+   "by_kind": {
+    "interview": 37,
+    "blog": 10,
+    "scan": 4
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 8,
+     "via": "body",
+     "text": "刊登了介绍文章、读者评论和周销量排行榜、秘技等信息的号，具体如下。"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 15,
+     "via": "body",
+     "text": "销量最高的是关于《扎比乌斯》游戏的特别版。我们卖出了一万份。每份售价300日元。所以当我18岁时，我已经有了自己的事业。起初我用复印机——比风格更重要的是销售信息。但随着销量增加，手工制作变得困难，于是我把印刷交给了印刷厂。"
+    },
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 13,
+     "via": "body",
+     "text": "即使在杂志上登了介绍文章，自己杂志的读者和买了游戏的人是否完全一致，也不是马上就能知道的。就算觉得受欢迎，有时也会有大的偏差。后来，石原先生跟我说“其实有一只叫梦幻的宝可梦”。当时，虽然已经在杂志上介绍了全部150只宝可梦，但读者寄来很多明信片说“有没登在杂志表上的宝可梦”。于是我们想“既然这么受欢迎，就拿来做礼物吧”"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 60,
+     "via": "body",
+     "text": "石原提到的“新宝可梦游戏”正是2002年在Game Boy Advance平台发售的《红宝石／蓝宝石》。两款作品合计销量突破1600万份，成为GBA平台史上最畅销的游戏。更重要的是，石原“打造一个没有语言壁垒的世界”的目标得以实现——《红宝石／蓝宝石》是系列首次允许不同语言版本之间进行交换。"
+    }
+   ]
+  },
+  {
+   "id": "three-d",
+   "name": "3D 与建模",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "从点阵走到多边形：建模、骨骼、帧数。",
+   "approved": false,
+   "aliases": [
+    "建模",
+    "3D模型",
+    "多边形",
+    "3D化",
+    "ポリゴン"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 51,
+   "segs": 97,
+   "forms": [
+    "建模×32",
+    "多边形×14",
+    "3D模型×14",
+    "3D化×7",
+    "ポリゴン×1"
+   ],
+   "by_kind": {
+    "interview": 45,
+    "blog": 1,
+    "scan": 4,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 22,
+     "via": "body",
+     "text": "我们把作为游戏是否容易游玩放在第一位。比如地图，如果画得太过头，哪里能通过、哪里不能通过的符号性就会变低。我们每次都在追求不会变成那样的升级。顺便说一句，这次的地图是用3D建模的。看静止画面可能不太容易明白，但实际游玩时应该能感受到立体感。"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 32,
+     "via": "body",
+     "text": "我们把作为游戏的操作与游玩舒适性放在第一位。比如在地图设计上，如果细节描画得过于杂乱，哪里可以通行、哪里受阻的‘直观符号性’就会大幅降低。我们每次都在追求绝不损害这种易读性的升级方式。顺便一提，本作的地图全部采用了3D建模。虽然光看静态截图可能不太明显，但在实际游玩操作时，大家一定能深刻感受到立体的空间纵深感。"
+    },
+    {
+     "post": "gamefreak-staff-89",
+     "title": "【工作日志】2008年白金版开发秘闻",
+     "seg": 17,
+     "via": "body",
+     "text": "图形工作人员们每个人都将心血倾注在每一个点阵、每一个多边形上，<br 如果大家能从游戏画面中感受到这份热情，我们将不胜荣幸！"
+    },
+    {
+     "post": "interview-dengeki-morimoto-hgss-walking-pokemon",
+     "title": "电击Online 直击森本茂树总监：“《宝可梦 心金·魂银》全493只跟随背后的极致执念与宝可计步器秘密”",
+     "seg": 6,
+     "via": "body",
+     "text": "因为整个地图全面升级为3D建模，城都与关东两大地区的所有场景都必须从零开始搭建，这种体量上的压力非常巨大。而更超乎想象的是——为了实现全宝可梦跟随系统，我们必须为全部493只宝可梦绘制专属的地图行走像素图……严格来说，算上未知图腾的全部形态、雌雄差异以及闪光异色个体，总数远远不止493种！"
+    }
+   ]
+  },
+  {
+   "id": "mobile-app",
+   "name": "手机应用",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "手机上的那些：GO、睡眠、朋友广场。",
+   "approved": false,
+   "aliases": [
+    "手机游戏",
+    "手机应用",
+    "智能手机",
+    "アプリ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 48,
+   "segs": 85,
+   "forms": [
+    "智能手机×40",
+    "手机游戏×10",
+    "手机应用×2",
+    "アプリ×1"
+   ],
+   "by_kind": {
+    "blog": 3,
+    "interview": 44,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "gamefreak-staff-139",
+     "title": "【工作日志】2009年夏日各自精彩",
+     "seg": 165,
+     "via": "body",
+     "text": "7月にiPhone 3G Sを買ったのでアプリを落としたり、<br"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch224",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第224回：“大器晚成的编剧始于动画”（放送作家协会之伪善、著作权占比超六成与《和巴",
+     "seg": 39,
+     "via": "body",
+     "text": "更有甚者，移动互联网、智能手机、各种平板电脑（iPad等）的浪潮铺天盖地而来……"
+    },
+    {
+     "post": "interview-4gamer-2013-solitiba",
+     "title": "Game Freak的原点回归",
+     "seg": 121,
+     "via": "body",
+     "text": "随着智能手机的出现，接触到游戏市场、或者说接触到游戏的人绝对数量增加了，我觉得这本身是非常好的事。只要有活跃的地方，对创作者来说就是机会。只是……。"
+    },
+    {
+     "post": "interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+     "title": "4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录",
+     "seg": 33,
+     "via": "body",
+     "text": "增田氏开心地用智能手机拍摄景山氏热情演奏的场景"
+    }
+   ]
+  },
+  {
+   "id": "work-style",
+   "name": "工作方式",
+   "facet": "team",
+   "facet_name": "团队与人",
+   "gloss": "怎么干活的：加班、通宵、远程、几点上班。",
+   "approved": false,
+   "aliases": [
+    "加班",
+    "通宵",
+    "工作方式",
+    "远程"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 48,
+   "segs": 59,
+   "forms": [
+    "通宵×28",
+    "工作方式×12",
+    "远程×7",
+    "加班×4"
+   ],
+   "by_kind": {
+    "interview": 39,
+    "blog": 6,
+    "scan": 3
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 5,
+     "via": "body",
+     "text": "这就是我的工作方式。我睡12个小时，然后工作24个小时。过去三年我一直这样不规律地工作。为了想出点子，最好昼夜颠倒。我通常通过这种作息来获得游戏设计的灵感。"
+    },
+    {
+     "post": "interview-nom-2003-pokemon-channel-staff",
+     "title": "和皮卡丘一起看电视",
+     "seg": 37,
+     "via": "body",
+     "text": "是的。电影里出现的幻之宝可梦“基拉祈”也会登场。可以先在发售日买下这个软件通宵玩，在游戏里见到基拉祈，第二天不睡觉去看电影，这也是可能的（笑）。"
+    },
+    {
+     "post": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+     "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+     "seg": 11,
+     "via": "body",
+     "text": "那段日子真的宛如炼狱（笑）。在中途有好几次，公司的账上资金彻底见底，我作为社长甚至连续几个月发不出员工薪水。不少伙伴为了养家糊口不得不含泪离队，最终从头坚守到尾的，只剩下我和增田（顺一）、杉森（建）等区区数人。为了让宝可梦的开发不至于彻底腰斩，我们只能四处接外包打杂制作其他动作或解谜游戏来赚取口粮钱，在深夜和周末通宵达"
+    },
+    {
+     "post": "gamefreak-director-084",
+     "title": "[GameFreak部长专栏] 第84回",
+     "seg": 47,
+     "via": "body",
+     "text": "然后晚上11点左右去NINTENDO WORLD看了看，发现有5个人在通宵排队。"
+    }
+   ]
+  },
+  {
+   "id": "debugging",
+   "name": "调试与除错",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "找 bug、改 bug，以及留在游戏里的那些。",
+   "approved": false,
+   "aliases": [
+    "调试",
+    "除错",
+    "漏洞",
+    "バグ",
+    "デバッグ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 47,
+   "segs": 79,
+   "forms": [
+    "调试×32",
+    "漏洞×16",
+    "デバッグ×4",
+    "除错×2"
+   ],
+   "by_kind": {
+    "scan": 4,
+    "interview": 35,
+    "blog": 8
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 100,
+     "via": "body",
+     "text": "顺便一提，这个游戏是任天堂发售的游戏中花在调试上时间最长的一款。各位相关人士，给你们添麻烦了（笑）。"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 82,
+     "via": "body",
+     "text": "《宝可梦2》的调试（骗人的）"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 30,
+     "via": "body",
+     "text": "关于此事，也请参考博客文章《初代宝可梦：选择键漏洞与梦幻的“发现”》。"
+    },
+    {
+     "post": "interview-nintendo-power-134-gold-silver-mew",
+     "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化",
+     "seg": 7,
+     "via": "body",
+     "text": "【主程序员兼战斗总监 森本茂树】：梦幻是我亲手设计的！最初我们在初代里规规矩矩做好了150只宝可梦。但在开发的最末尾阶段、当所有的除错与质检验收完全结束之后，我们从卡带ROM里移除了调试工具代码。这一移除，奇迹般地空出了极其微小的空间——大约仅仅只有300字节左右。当时任天堂对我们严厉警告：“绝对不许再改动任何一行代码"
+    }
+   ]
+  },
+  {
+   "id": "pixel-art",
+   "name": "像素画",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "一格一格点出来的图，以及色数与尺寸的限制。",
+   "approved": false,
+   "aliases": [
+    "像素画",
+    "像素图",
+    "点阵图",
+    "ドット絵"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 47,
+   "segs": 99,
+   "forms": [
+    "像素画×20",
+    "像素图×18",
+    "点阵图×13",
+    "ドット絵×8"
+   ],
+   "by_kind": {
+    "scan": 11,
+    "interview": 23,
+    "blog": 13
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 113,
+     "via": "body",
+     "text": "杉森 请看看我拼命画出来的宝可梦像素图。尽可能多地和朋友交换，找出所有的宝可梦吧。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 6,
+     "via": "body",
+     "text": "杉森建 ①画画宝可梦♂ ②1.74m／63Kg ③肩酸型 ④按摩店 ⑤宝可梦角色设计／人物角色设计／像素画"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 40,
+     "via": "body",
+     "text": "1997年体验版泄露的点阵图展示了数十只被删减或合并的城都宝可梦，验证了杉森建口中“数百只企划案”的真实存在。"
+    },
+    {
+     "post": "scan-continue-vol23-gamefreak-special",
+     "title": "[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话",
+     "seg": 21,
+     "via": "body",
+     "text": "1 田尻智（Game Freak 代表取缔役社长）\n2 拼装作品：《Atari 字体的大写字母“R”》《吃豆人小樱桃（Cherry）》\n3 体验感言：“这次亲手触碰‘DOTS’，让我想起了 Game Freak 当年还是一本同人志的青葱岁月。因为当年创刊号的封面，正是一张纯手工绘制的点阵图。”"
+    }
+   ]
+  },
+  {
+   "id": "remake",
+   "name": "复刻与重制",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "把旧作再做一次：保留什么、改什么。",
+   "approved": false,
+   "aliases": [
+    "复刻",
+    "重制版",
+    "重新制作",
+    "リメイク"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 47,
+   "segs": 72,
+   "forms": [
+    "重制版×21",
+    "复刻×14",
+    "重新制作×14",
+    "リメイク×5"
+   ],
+   "by_kind": {
+    "interview": 35,
+    "blog": 7,
+    "scan": 3,
+    "article": 2
+   },
+   "samples": [
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 7,
+     "via": "body",
+     "text": "要做重制版，我们第一步要做的就是把八年前初代《红·绿》的原版源代码翻出来重新研读……但这简直是一场噩梦般的折磨（苦笑）。当年的程序完完全全是用笨拙的原始蛮力堆砌出来的，没有任何现代架构规范，实在谈不上整洁。“这写的到底是个什么代码啊，简直烂透了！”——我们每天都在抱头哀嚎。重读当年自己亲手写下的那些代码，简直就是一场精"
+    },
+    {
+     "post": "interview-2004-05-13-ign-e3-2004-pokemon-creators",
+     "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+     "seg": 2,
+     "via": "body",
+     "text": "任天堂预计，当《宝可梦 叶绿》和《宝可梦 火红》的美版于今年九月在美国发售时，将取得同样的成功。我们有机会与新的宝可梦GBA游戏的导演增田顺一，以及宝可梦公司的总裁兼宝可梦系列的制作人石原恒和，就即将到来的重制版进行了交谈。"
+    },
+    {
+     "post": "gamefreak-director-007",
+     "title": "[GameFreak部长专栏] 第7回",
+     "seg": 7,
+     "via": "body",
+     "text": "同时，我也一直很感谢那些理解这一点，并且愿意痛快地拆掉作品、重新制作的工作人员。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch152",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）",
+     "seg": 1,
+     "via": "body",
+     "text": "为宝可梦啼鸣配上字幕的第17话《巨大宝可梦之岛！？》，就我所知，尽管在制作初期遭遇了委员会高层的严厉抵触，但播出后在日本国内的反响出人意料地相当优异。真正令我挂怀的，是海外市场的评价。虽然《宝可梦》动画绝大多数话数都在海外发行，但在此之后，制作组便再也没有制作过任何一集附带字幕的宝可梦回目——这或许证明海外发行方在面对"
+    }
+   ]
+  },
+  {
+   "id": "evolution-design",
+   "name": "进化的设计",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "进化怎么安排：几段、什么条件、前后形象怎么接上。",
+   "approved": false,
+   "aliases": [
+    "进化形态",
+    "进化设计",
+    "进化线",
+    "进化前后",
+    "进化条件",
+    "超级进化",
+    "形态变化",
+    "地区形态"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 46,
+   "segs": 92,
+   "forms": [
+    "超级进化×24",
+    "进化形态×14",
+    "地区形态×5",
+    "形态变化×2",
+    "进化线×2"
+   ],
+   "by_kind": {
+    "scan": 5,
+    "interview": 40,
+    "blog": 1
+   },
+   "samples": [
+    {
+     "post": "scan-ndream-2008-12-game-freak-interview",
+     "title": "GAME FREAK谈宝可梦白金",
+     "seg": 66,
+     "via": "body",
+     "text": "谢米与洛托姆形态变化秘话"
+    },
+    {
+     "post": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+     "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+     "seg": 33,
+     "via": "body",
+     "text": "不过，正是这次亲身体验成为契机，让我想用这个设备做点什么。比如“生活节奏计”的数据能啪嗒一声进入游戏的感觉，我觉得如果用在《宝可梦》上，会有极大的发展空间，而且作为《口袋皮卡丘》的正统进化形态，也能做出有趣的东西。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch209",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化",
+     "seg": 45,
+     "via": "body",
+     "text": "这不得不佩服田尻智与GAME FREAK那帮游戏天才工匠的绝世巧思：他们极其精妙地将我们日常生活中熟视无睹的自然万物与生物原型加以天马行空的艺术重构，从而创造出了这一套叹为观止的庞大生灵图谱。每只宝可梦的外观造型、属性特技、战斗风格千姿百态，确保每一位玩家都能精准找寻到契合自己性情的心爱本命；更有甚者，伴随着等级与经验"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch224",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第224回：“大器晚成的编剧始于动画”（放送作家协会之伪善、著作权占比超六成与《和巴",
+     "seg": 67,
+     "via": "body",
+     "text": "尽管这是一部来自以色列的电影，但在我们不知不觉之间，全世界的动画语言早已完成了一轮惊心动魄的超级进化。"
+    }
+   ]
+  },
+  {
+   "id": "naming",
+   "name": "命名",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "名字怎么取的——宝可梦名、招式名、地名、作品标题。",
+   "approved": false,
+   "aliases": [
+    "命名",
+    "取名",
+    "名称由来",
+    "名字的由来",
+    "名字来自"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 45,
+   "segs": 72,
+   "forms": [
+    "命名×39",
+    "取名×9",
+    "名称由来×1",
+    "名字的由来×1",
+    "名字来自×1"
+   ],
+   "by_kind": {
+    "interview": 37,
+    "scan": 3,
+    "blog": 4,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 51,
+     "via": "body",
+     "text": "更重要的是这些怪兽能被玩家控制。它们可能是你内心的怪兽，例如代表恐惧或愤怒。而且它们被装在精灵球里。此外，每个人都可以给它们起自己的名字。皮卡丘就像是物种的名字，但每个玩家都可以给自己那只皮卡丘命名。这样孩子们能产生更多共鸣，也更容易产生感情。"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 78,
+     "via": "body",
+     "text": "该网站是“个体值”和“努力值”的命名者，并且热衷于研究包括梦幻获取方法在内的各种漏洞技巧，对后世产生了巨大影响。"
+    },
+    {
+     "post": "interview-nom-genesis-gamefreak",
+     "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+     "seg": 20,
+     "via": "body",
+     "text": "是的。取名字这个点子，从一开始就有了。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 64,
+     "via": "body",
+     "text": "不，并非如此。制作初代《宝可梦》时，我们已经倾尽全力；而在第二作中，我们进一步提升团队的能力，为了呈现更有价值的宝可梦世界，才命名为“金·银”。"
+    }
+   ]
+  },
+  {
+   "id": "cable-link",
+   "name": "通信线缆",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "一根线把两台机器接起来，交换与对战的起点。",
+   "approved": false,
+   "aliases": [
+    "通信线",
+    "通信电缆",
+    "通信功能",
+    "通信ケーブル"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 44,
+   "segs": 74,
+   "forms": [
+    "通信功能×29",
+    "通信线×12",
+    "通信电缆×7"
+   ],
+   "by_kind": {
+    "scan": 12,
+    "interview": 29,
+    "blog": 3
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 70,
+     "via": "body",
+     "text": "第一次看到Game Boy的时候，我就注意到了它可以连接通信线缆，但实际上大多数游戏都把它用作对战的信息传递手段。在我心中，通信这个词有着充实而华丽的印象，我把它理解为通过这根线缆，像电视和收音机那样各种信息流动的感觉。由此，我觉得似乎能做出什么有趣的东西。这就形成了通过线缆交换培育的东西或生物的系统。"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 45,
+     "via": "body",
+     "text": "关于提及《巫术外传Ⅰ》通信功能的杂志文章介绍相关书籍《忍者增田的复古游戏忍法帖》的段落"
+    },
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 24,
+     "via": "body",
+     "text": "连接生命的通信线：重在交流与尊重的日式哲学"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 21,
+     "via": "body",
+     "text": "通俗易懂地解释了在宝可梦交换时使用通信电缆的通信处理过程。"
+    }
+   ]
+  },
+  {
+   "id": "wireless",
+   "name": "无线与擦肩",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "无线适配器、红外线、擦肩通信这些不用线的连法。",
+   "approved": false,
+   "aliases": [
+    "无线通信",
+    "红外线通信",
+    "擦肩通信",
+    "无线适配器",
+    "移动适配器",
+    "移动通信",
+    "赤外線"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 43,
+   "segs": 103,
+   "forms": [
+    "无线通信×23",
+    "擦肩通信×12",
+    "红外线通信×9",
+    "无线适配器×7",
+    "移动适配器×3",
+    "移动通信×3"
+   ],
+   "by_kind": {
+    "scan": 14,
+    "interview": 23,
+    "blog": 6
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 10,
+     "via": "body",
+     "text": "（苦笑着）是啊。战斗方面，招式的种类也增加了相当多，光是清除那些bug（程序错误）就花了一年半以上。还有，这次在制作过程中，Game Boy的硬件不断进化。开始制作《金·银》的时候，还没有彩色，也没有口袋打印机和红外线通信……要对应这些新硬件，也花了相当多的时间。"
+    },
+    {
+     "post": "interview-nom-crystal-new-elements-heroine",
+     "title": "任天堂官方网络杂志 N.O.M：《宝可梦 水晶版》礼物目录（2000年12月号）与编辑长体验记（2001年1月号）",
+     "seg": 5,
+     "via": "body",
+     "text": "游戏中会显示地名了，玩起来更方便。而且最令人高兴的是，用“移动适配器GB”就能通过手机或PHS交换、对战宝可梦。另外还有能得到珍稀宝可梦的“神秘之蛋”，玩法内容比以往更充实。宝可梦们在战斗中的样子也有了一些变化。意想不到的动作，很可爱！"
+    },
+    {
+     "post": "interview-nom-mobile-system-gb-revolution",
+     "title": "任天堂官方网络杂志 N.O.M 特辑：移动系统GB——是什么、能怎么玩、怎么买适配器、怎么连接和申请",
+     "seg": 4,
+     "via": "body",
+     "text": "“移动系统GB”是任天堂提供各种玩法的新服务。用“移动适配器GB”把 Game Boy Color 或 Game Boy Advance（预定2001年3月发售）与PHS、手机连接，接入互联网，从而提供至今想象不到的独特玩法。"
+    },
+    {
+     "post": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+     "title": "宝可梦向未来扩展",
+     "seg": 8,
+     "via": "body",
+     "text": "倒也不是特别考虑过，但原本口袋皮卡丘在某种意义上就是宝可梦专用硬件。它通过彩色化和追加红外线通信不断进化，所以作为新的进化，诞生出宝可梦迷你这样的硬件也不奇怪。"
+    }
+   ]
+  },
+  {
+   "id": "guides",
+   "name": "攻略文化",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "攻略本、杂志情报、互相交换秘技的那个年代。",
+   "approved": false,
+   "aliases": [
+    "攻略本",
+    "攻略",
+    "秘技",
+    "情报杂志"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 41,
+   "segs": 96,
+   "forms": [
+    "攻略×28",
+    "攻略本×17",
+    "秘技×5"
+   ],
+   "by_kind": {
+    "scan": 17,
+    "interview": 20,
+    "blog": 4
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-pokemon-journal",
+     "title": "宝可梦日志：大木博士与正辉",
+     "seg": 69,
+     "via": "body",
+     "text": "附录：同期攻略与资料页"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 8,
+     "via": "body",
+     "text": "刊登了介绍文章、读者评论和周销量排行榜、秘技等信息的号，具体如下。"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 109,
+     "via": "body",
+     "text": "放出梦幻的秘技其实是因为程序错误（bug）才产生的。全都是我的错。对不起。因为有可能损坏存档数据，所以如果可以的话，希望好孩子们不要去做（笑）。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-staff-zukan-journal",
+     "title": "金·银开发人员图鉴",
+     "seg": 109,
+     "via": "body",
+     "text": "附录：同期攻略与资料页"
+    }
+   ]
+  },
+  {
+   "id": "price-model",
+   "name": "免费与付费",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "怎么收钱：买断、基本免费、内购。",
+   "approved": false,
+   "aliases": [
+    "免费",
+    "课金",
+    "付费",
+    "基本免费",
+    "内购"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 41,
+   "segs": 61,
+   "forms": [
+    "免费×36",
+    "付费×6",
+    "内购×1"
+   ],
+   "by_kind": {
+    "interview": 31,
+    "scan": 5,
+    "blog": 4,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 1,
+     "via": "body",
+     "text": "田尻智通常回避公众目光，此次在位于东京世田谷区的小公司GAME FREAK办公室里，与拉里默及《时代》杂志实习生横田隆志畅谈他的挚爱之作。世田谷是青年文化中心，周边有多所大专院校。他的公司占据一栋普通办公楼的两层，而在这两层之间，夹着一所面向初中生的“补习学校”，学生们付费加课，以期提高下次入学考试的成绩。"
+    },
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 2,
+     "via": "body",
+     "text": "通常，我只发布那些我付费从日文原文翻译过来的宝可梦专访。比如这篇2011年的采访，杉森建在其中讲述了第五世代初始宝可梦的起源故事。但下面这篇采访实际上是以英文发表的，刊登在2000年7月号的《Nintendo Power》杂志上。不过鉴于该杂志早已停刊，而这篇采访也已将近二十年前的事了，我觉得把它归档在这里，并根据此后"
+    },
+    {
+     "post": "scan-ndream-2008-10-platinum-special",
+     "title": "宝可梦 白金 直前特报",
+     "seg": 156,
+     "via": "body",
+     "text": "←与《白金》包装相同的、充满魄力的骑拉帝纳（起源形态）待机图像也正在免费赠送！SAMPLE©Pokémon/Nintendo."
+    },
+    {
+     "post": "scan-ndream-2008-12-platinum-battle-dojo",
+     "title": "GAME FREAK对战专访",
+     "seg": 39,
+     "via": "body",
+     "text": "注册及年会费免费，电脑版与手机版通用"
+    }
+   ]
+  },
+  {
+   "id": "education",
+   "name": "教育与育儿",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "从游戏里学到什么，以及大人担心什么。",
+   "approved": false,
+   "aliases": [
+    "教育",
+    "育儿",
+    "教材",
+    "教育意义"
+   ],
+   "with": [],
+   "avoid": [
+    "学习器"
+   ],
+   "docs": 35,
+   "segs": 45,
+   "forms": [
+    "教育×24",
+    "育儿×7",
+    "教材×6"
+   ],
+   "by_kind": {
+    "blog": 4,
+    "scan": 4,
+    "interview": 27
+   },
+   "samples": [
+    {
+     "post": "gamefreak-director-009",
+     "title": "[GameFreak部长专栏] 第9回",
+     "seg": 4,
+     "via": "body",
+     "text": "却因为教育、社会和文化的差异，"
+    },
+    {
+     "post": "gamefreak-director-021",
+     "title": "[GameFreak部长专栏] 第21回",
+     "seg": 14,
+     "via": "body",
+     "text": "我们没有采用教育的方式，而是从游戏特有的发现与兴趣入手。"
+    },
+    {
+     "post": "scan-continue-vol23-gamefreak-special",
+     "title": "[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话",
+     "seg": 4,
+     "via": "body",
+     "text": "内阁府与财务省在官方网页上公开的“预算编制游戏”等政策模拟作品，由名誉无职·内田名人亲赴永田町直击取材。以幽默视角探讨了游戏在常规视野之外的社会教育可能，作为 Game Freak 特辑前奏的精彩专栏。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch145",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）",
+     "seg": 5,
+     "via": "body",
+     "text": "那样一来，青少年会觉得浅薄可笑，而陪伴年幼子女一起坐在电视机前的父母们，更会把它当作育儿义务中不得不硬撑着忍受的枯燥差事。这样的动画，绝不可能成为让所有人拍手称快的传世杰作！即便披着写给儿童看的外衣，其内核也必须在某些幽微之处经受得起青年乃至饱经风霜的成年人的审视。正如世间最卓越的绘本与安徒生童话能让大人潸然泪下一样，"
+    }
+   ]
+  },
+  {
+   "id": "new-hardware",
+   "name": "新硬件",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "换一代主机带来的可能与麻烦：性能、新输入、新卖法。",
+   "approved": false,
+   "aliases": [
+    "新硬件",
+    "新主机",
+    "硬件性能",
+    "新机种"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 35,
+   "segs": 42,
+   "forms": [
+    "新硬件×21",
+    "硬件性能×8",
+    "新主机×7"
+   ],
+   "by_kind": {
+    "scan": 3,
+    "interview": 29,
+    "blog": 3
+   },
+   "samples": [
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 10,
+     "via": "body",
+     "text": "（苦笑着）是啊。战斗方面，招式的种类也增加了相当多，光是清除那些bug（程序错误）就花了一年半以上。还有，这次在制作过程中，Game Boy的硬件不断进化。开始制作《金·银》的时候，还没有彩色，也没有口袋打印机和红外线通信……要对应这些新硬件，也花了相当多的时间。"
+    },
+    {
+     "post": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+     "title": "宝可梦向未来扩展",
+     "seg": 6,
+     "via": "body",
+     "text": "最初是从任天堂的企划开发部开始的。在那里推进的新硬件项目与宝可梦融合起来，就成了宝可梦迷你。Game Boy Advance是沿着Game Boy高性能化的方向走的，而宝可梦迷你反倒是低性能化。不过，并不是单纯地低性能化，而是思考能塞进多少与Advance不同的、可以构思出另一种玩法的素材。画面的像素数是96×64，很"
+    },
+    {
+     "post": "gamefreak-director-037",
+     "title": "[GameFreak部长专栏] 第37回",
+     "seg": 2,
+     "via": "body",
+     "text": "同时也从 Revolution、XBOX360、PS3 等新硬件上感受到了竞争的激烈，"
+    },
+    {
+     "post": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "title": "宝可梦 钻石·珍珠开发谈",
+     "seg": 57,
+     "via": "body",
+     "text": "前几天公布的新主机Wii上，也宣布了《宝可梦》将会登场呢。"
+    }
+   ]
+  },
+  {
+   "id": "life-and-death",
+   "name": "生死的表述",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "宝可梦「昏厥」不「死亡」，以及怎么在儿童向作品里处理生死。",
+   "approved": false,
+   "aliases": [
+    "昏厥",
+    "濒死",
+    "不会死",
+    "死亡"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 34,
+   "segs": 51,
+   "forms": [
+    "濒死×14",
+    "昏厥×12",
+    "死亡×11"
+   ],
+   "by_kind": {
+    "interview": 26,
+    "scan": 6,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 47,
+     "via": "body",
+     "text": "第151只梦幻的神话、宫本茂的师徒情谊与‘宝可梦只有昏厥没有死亡’"
+    },
+    {
+     "post": "scan-continue-vol23-gamefreak-special",
+     "title": "[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话",
+     "seg": 38,
+     "via": "body",
+     "text": "杉森建：哎呀，要是真搞砸了那绝对会演变成严重的责任问题呢（笑）。所以说，当年亲自去京都任天堂总部提案的时候，真的是紧张到快要昏厥过去……那真的是我这辈子最紧张的时刻。因为我一辈子都待在 Game Freak 创业，从来没经历过什么正规企业的入职考试或求职面试啊。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch143",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+     "seg": 7,
+     "via": "body",
+     "text": "所谓“倾注爱去对待宝可梦”，绝不是挂在嘴边的虚伪说教；超越一切利益得失的计算，甘愿为了身旁弱小的异质生命豁出自己的血肉性命——这正是我历经沧桑、誓要传递给荧幕前千万孩童的“爱”的究极具象！正是目睹了少年那份毫无保留的牺牲姿态，濒死的皮卡丘眼中燃起了前所未有的火光，它借着少年的肩膀蹬向天穹，引落了撕裂整片雨夜的万丈狂雷！"
+    },
+    {
+     "post": "gamefreak-staff-70",
+     "title": "【工作日志】2008年宝可梦对抗赛",
+     "seg": 45,
+     "via": "body",
+     "text": "被银河选手的怪力逼到了濒死边缘。<br"
+    }
+   ]
+  },
+  {
+   "id": "data-management",
+   "name": "数据与存档",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "数据量、存档、把上一作的宝可梦带过来。",
+   "approved": false,
+   "aliases": [
+    "数据量",
+    "数据管理",
+    "存档",
+    "数据转移",
+    "セーブ"
+   ],
+   "with": [],
+   "avoid": [
+    "数据管理负责人",
+    "扫描存档",
+    "历史存档",
+    "网页存档",
+    "存档站"
+   ],
+   "docs": 30,
+   "segs": 49,
+   "forms": [
+    "存档×16",
+    "数据量×12",
+    "数据管理×4"
+   ],
+   "by_kind": {
+    "scan": 5,
+    "interview": 22,
+    "blog": 2,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 55,
+     "via": "body",
+     "text": "在RPG这一点上，西野在公司里平时就是玩得最多的，所以在数据管理方面也有他自己的讲究。"
+    },
+    {
+     "post": "interview-gamefreak-official-red-green-staff",
+     "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+     "seg": 109,
+     "via": "body",
+     "text": "放出梦幻的秘技其实是因为程序错误（bug）才产生的。全都是我的错。对不起。因为有可能损坏存档数据，所以如果可以的话，希望好孩子们不要去做（笑）。"
+    },
+    {
+     "post": "scan-gs-guidebook-1999-developer-interview",
+     "title": "金·银开发访谈",
+     "seg": 5,
+     "via": "body",
+     "text": "西野弘二先生，负责数据管理。何时、何地、会出现什么样的宝可梦，都是这个人决定的。"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 14,
+     "via": "body",
+     "text": "虽然介绍的三个粉丝网站现已不存在，但网站的部分内容作为存档保留了下来，"
+    }
+   ]
+  },
+  {
+   "id": "dev-tools",
+   "name": "开发工具与环境",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "自己做的编辑器、内部工具、开发机。",
+   "approved": false,
+   "aliases": [
+    "开发工具",
+    "开发环境",
+    "内部工具",
+    "编辑器"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 30,
+   "segs": 46,
+   "forms": [
+    "开发环境×19",
+    "编辑器×7",
+    "开发工具×4",
+    "内部工具×3"
+   ],
+   "by_kind": {
+    "interview": 28,
+    "blog": 1,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 43,
+     "via": "body",
+     "text": "但另一方面，那也是GAME FREAK内部开发资金和开发环境最艰难的时期。那时候的田尻君看起来真的很痛苦。"
+    },
+    {
+     "post": "gamefreak-staff-124",
+     "title": "【工作日志】2009年程序员新人培训",
+     "seg": 27,
+     "via": "body",
+     "text": "在熟悉 GAME FREAK 内部的开发环境这一阶段结束后——网络、各种工具（比如命令行、subversion 之类的，<br"
+    },
+    {
+     "post": "interview-steinberg-gamefreak-sound-cubase",
+     "title": "Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后",
+     "seg": 29,
+     "via": "body",
+     "text": "我非常喜欢Cubase的MIDI功能，钢琴卷帘窗和列表显示的可视性极为出色。在游戏制作环境中，我们始终要与数据容量和同时发音数作斗争，使用逻辑编辑器可以精简数据、批量缩短音符时值，非常方便。逻辑编辑器被认为深奥到足以单独写一本书，而我觉得如果能仅选择最高音或根音进行编辑就更好了。我持续使用Cubase的原因之一，是身边"
+    },
+    {
+     "post": "interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+     "title": "[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学",
+     "seg": 5,
+     "via": "body",
+     "text": "是的。所以我们首先是在牢记要搭建能实时修改的开发环境的前提下推进的。"
+    }
+   ]
+  },
+  {
+   "id": "mystery",
+   "name": "神秘感",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "留白与传说：说不清的那一只、来历不明的那件事。",
+   "approved": false,
+   "aliases": [
+    "神秘感",
+    "都市传说",
+    "隐藏要素",
+    "神秘的"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 30,
+   "segs": 36,
+   "forms": [
+    "神秘的×19",
+    "都市传说×6",
+    "神秘感×6"
+   ],
+   "by_kind": {
+    "interview": 24,
+    "blog": 3,
+    "scan": 3
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 21,
+     "via": "body",
+     "text": "它们令我着迷。首先，它们行动起来很有趣，很奇特。每当我发现一种新的昆虫，它对我来说都是神秘的。而且我越是寻找昆虫，找到的就越多。如果我把手伸进河里，就能抓到一只小龙虾。如果洞口上有根棍子，它会产生气泡，我就能在那里找到昆虫。我通常会把它们带回家。随着我收集得越来越多，我会了解它们，比如有些会互相捕食。所以我就不再带它们"
+    },
+    {
+     "post": "interview-nintendoaccion-199-masuda-kawachimaru-platinum",
+     "title": "Nintendo Acción No.199 独家专访增田顺一 × 河内丸武史：“时空对极的反物质世界”——《宝可梦 白",
+     "seg": 2,
+     "via": "body",
+     "text": "当我们完成《钻石／珍珠》的开发时，我脑海中其实还盘旋着许多未能完整实现的奇思妙想。DP的主题是宏大的“时间（帝牙卢卡）”与“空间（帕路奇亚）”。而在《白金》中，神秘的骑拉帝纳则代表着某种超越二者的全新维度——一种与现实的时间与空间彻底对立的“反物质”概念。我认为这其中蕴藏着构筑一个前所未有的崭新世界的无限潜能，于是我们"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch186",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与",
+     "seg": 115,
+     "via": "body",
+     "text": "这只当时连具体外形设计与正式名字都还是一片空白的原创宝可梦，在项目组内部被赋予了一个神秘的暂定代号——“X”。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch193",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第193回：对《洛奇亚爆诞》的厚望与自我信服（商业狂热背后的生理排异、早期CG海流试",
+     "seg": 61,
+     "via": "body",
+     "text": "高层打的如意算盘，无非是借此向全世界疯狂煽动期待：“在第二部电影里，这颗神秘的精灵球里必定会跳出一只惊天动地的神秘宝可梦！”然而极其荒谬滑稽的冰冷真相却是——在当时的全制作组上下，根本没有任何一个人知道这颗球里到底装的是个什么东西！"
+    }
+   ]
+  },
+  {
+   "id": "team-size",
+   "name": "团队规模",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "几个人做的：初代十来人，后来几百人。",
+   "approved": false,
+   "aliases": [
+    "团队规模",
+    "开发人数",
+    "几个人做",
+    "人数增加",
+    "全公司"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 29,
+   "segs": 40,
+   "forms": [
+    "全公司×21",
+    "团队规模×8",
+    "人数增加×1"
+   ],
+   "by_kind": {
+    "interview": 27,
+    "scan": 1,
+    "blog": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nintendo-power-134-gold-silver-mew",
+     "title": "Nintendo Power Issue 134 专访石原恒和 × 增田顺一 × 森本茂树：“《宝可梦 金·银》全面进化",
+     "seg": 3,
+     "via": "body",
+     "text": "本次《金·银》的开发团队规模如何？从立项到完成总共耗费了多长时间？"
+    },
+    {
+     "post": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+     "title": "任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建",
+     "seg": 46,
+     "via": "body",
+     "text": "团队规模真庞大！那是先做出角色外观，再去确定特性和属性吗？"
+    },
+    {
+     "post": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+     "title": "[访谈翻译] 社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整",
+     "seg": 15,
+     "via": "body",
+     "text": "我是Ambrella的小泽。这一次，昔日小体量的WiiWare下载软件摇身一变，要作为3DS堂堂正正的盒装实体大作（Package Soft）推向全球零售市场，因此“无论如何都要打造出气吞山河的震撼魄力”，就成了我们全公司的首要目标。随之而来的自然是开发体量的指数级暴增，与石原社长以及任天堂各方的业务对接也大幅激增，我"
+    },
+    {
+     "post": "scan-ndream-2012-10-b2w2-pickup-secrets",
+     "title": "庆典任务与宝可坞秘闻",
+     "seg": 13,
+     "via": "body",
+     "text": "参加人数增加后困难任务也能轻松完成！？"
+    }
+   ]
+  },
+  {
+   "id": "version-pair",
+   "name": "两个版本",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "同时出两版、各有各的宝可梦——为了让人交换。",
+   "approved": false,
+   "aliases": [
+    "两个版本",
+    "版本差异",
+    "双版本",
+    "两版"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 29,
+   "segs": 40,
+   "forms": [
+    "两个版本×19",
+    "双版本×7",
+    "两版×3",
+    "版本差异×2"
+   ],
+   "by_kind": {
+    "scan": 5,
+    "interview": 22,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "scan-shodai-zukan-1996-staff-interview",
+     "title": "花费6年岁月的怪物们",
+     "seg": 95,
+     "via": "body",
+     "text": "这个游戏有《红盒》和《绿盒》两个版本，不同宝可梦的出现率不一样，这是出于怎样的想法产生的呢？"
+    },
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 26,
+     "via": "body",
+     "text": "在“Game Boy的反击”栏目中，刊登了正在开发中的《宝可梦2》的信息。编辑部通过传真向田尻提问，田尻以此方式回答了以下问题。《2》的宝可梦有多少种？新宝可梦有多少种？请稍微透露一下会出现什么样的宝可梦。进化方式会改变吗？如果改变的话会变成什么样？剧本会是前作的延续吗？内容会怎样？这次也会发售两个版本吗？区别和之前一"
+    },
+    {
+     "post": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+     "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+     "seg": 12,
+     "via": "body",
+     "text": "就是在那种近乎绝望的至暗时刻里，任天堂的宫本（茂）先生看到了企划案，他被其中的纯真深深吸引，并倾尽全力在资源和方向上为我们指点迷津。正是宫本先生提出了那个改写历史的天才建议：“田尻君，为了让玩家一个人绝对无法集齐所有图鉴，何不把游戏拆分为《红》与《绿》两个互补的双版本呢？”如果没有宫本先生当年的力挺与这记神来之笔，如今"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 1,
+     "via": "body",
+     "text": "《宝可梦 钻石·珍珠》双版本发售特辑与神奥地区冒险剪影"
+    }
+   ]
+  },
+  {
+   "id": "localization",
+   "name": "本地化",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "换一种语言以后名字、笑点、文化前提都要重做。",
+   "approved": false,
+   "aliases": [
+    "本地化",
+    "各国语言",
+    "ローカライズ",
+    "翻译"
+   ],
+   "with": [
+    "海外",
+    "英文",
+    "英语",
+    "各国语言",
+    "片假名",
+    "字数",
+    "美版",
+    "欧洲",
+    "语言版本"
+   ],
+   "avoid": [],
+   "docs": 27,
+   "segs": 36,
+   "forms": [
+    "翻译×14",
+    "本地化×13",
+    "各国语言×3"
+   ],
+   "by_kind": {
+    "interview": 20,
+    "blog": 6,
+    "scan": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 2,
+     "via": "body",
+     "text": "通常，我只发布那些我付费从日文原文翻译过来的宝可梦专访。比如这篇2011年的采访，杉森建在其中讲述了第五世代初始宝可梦的起源故事。但下面这篇采访实际上是以英文发表的，刊登在2000年7月号的《Nintendo Power》杂志上。不过鉴于该杂志早已停刊，而这篇采访也已将近二十年前的事了，我觉得把它归档在这里，并根据此后"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 23,
+     "via": "body",
+     "text": "此外，在制作海外版的过程中还有很多问题。比如，日语中可以用四五个片假名来表示的名字，换成四个字母的话，大概只能像“JOHN”那样。因此，如果非要十个字符，那就得从程序结构开始改变。而且，还要修改宝可梦的名字，将所有文本翻译成英语，并付出让整个程序运行的劳力，即便如此，还要问“美国市场真的可行吗？”再加上，过去在日本大受"
+    },
+    {
+     "post": "gamefreak-director-081",
+     "title": "[GameFreak部长专栏] 第81回",
+     "seg": 22,
+     "via": "body",
+     "text": "才能在全世界范围内轻松实现各国语言的自动翻译。"
+    },
+    {
+     "post": "gamefreak-staff-37",
+     "title": "【工作日志】2007年搬家整理日常",
+     "seg": 6,
+     "via": "body",
+     "text": "比如检查动画、漫画等相关商品中有没有出现理解上的偏差，或者在把宝可梦翻译成海外版时负责沟通协调，做的就是这类工作。"
+    }
+   ]
+  },
+  {
+   "id": "fan-works",
+   "name": "二创与同人",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "玩家自己画、自己做的东西，以及公司怎么看。",
+   "approved": false,
+   "aliases": [
+    "同人",
+    "同人志",
+    "二次创作",
+    "玩家创作"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 26,
+   "segs": 52,
+   "forms": [
+    "同人志×18",
+    "同人×9",
+    "二次创作×2"
+   ],
+   "by_kind": {
+    "interview": 22,
+    "scan": 4
+   },
+   "samples": [
+    {
+     "post": "interview-time-satoshi-tajiri-ultimate-game-freak",
+     "title": "究极的 Game Freak",
+     "seg": 3,
+     "via": "body",
+     "text": "从昆虫少年到同人志先锋：GAME FREAK 的黎明与执念"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 143,
+     "via": "body",
+     "text": "这一年以臭名昭著的“宝可梦同人志事件”拉开序幕。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 7,
+     "via": "body",
+     "text": "那时候，我还在制作现在公司前身的同人志《GAME FREAK》，并且个人收藏街机基板，70年代末到80年代的游戏几乎都收集齐了。"
+    },
+    {
+     "post": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+     "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+     "seg": 0,
+     "via": "body",
+     "text": "■从同人志《Game Freak》到红白机研发——电烙铁与手工焊接电路板的原点"
+    }
+   ]
+  },
+  {
+   "id": "media-mix",
+   "name": "媒体展开",
+   "facet": "business",
+   "facet_name": "商业与发行",
+   "gloss": "游戏、动画、卡牌、玩具一起上的那套做法。",
+   "approved": false,
+   "aliases": [
+    "媒体展开",
+    "跨媒体",
+    "多媒体",
+    "商品展开",
+    "メディアミックス"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 22,
+   "segs": 25,
+   "forms": [
+    "多媒体×12",
+    "跨媒体×9",
+    "媒体展开×2"
+   ],
+   "by_kind": {
+    "interview": 20,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "title": "久保雅一谈宝可梦",
+     "seg": 7,
+     "via": "body",
+     "text": "我担任电视和电影的执行制片人。可以说，与动画相关的事务都在我的负责范围内。此外，我还负责《龙漫CORO-CORO》和《GOTTA》这两本杂志。《CORO-CORO》这边，包括宝可梦卡牌在内，做了各种各样的媒体展开。"
+    },
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 55,
+     "via": "body",
+     "text": "后篇第3节：多媒体跨界联动（卡牌、动画与衍生周边如何丰满世界观）"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch140",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+     "seg": 7,
+     "via": "body",
+     "text": "简而言之，《宝可梦》的动画绝不是传统意义上两个制作人躲在咖啡厅角落喝着咖啡就能拍脑袋定夺的小儿科；它是盘踞在庞大跨媒体生态中央、牵一发动全身的关键枢纽！读到这里，我后背不禁微微发凉——我隐隐意识到，自己似乎一头扎进了一个超乎想象的深不见底的漩涡之中。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch141",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+     "seg": 8,
+     "via": "body",
+     "text": "能在满座行业精英的高层会议上，凭借一人之力连续将层出不穷的方案挨个打回重写的，必然是拥有最高话语权的灵魂核心。果不其然，此人正是最初在小学馆一手策划了《宝可梦》多媒体动画企划、并亲自南下攻关从游戏开发方拿下授权的超级推手（※2），堪称整部动画项目的总指挥官。"
+    }
+   ]
+  },
+  {
+   "id": "postgame",
+   "name": "通关之后",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "打完还能玩什么：后日谈、追加地区、对战设施。",
+   "approved": false,
+   "aliases": [
+    "通关后",
+    "后期内容",
+    "追加要素",
+    "打完之后"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 21,
+   "segs": 31,
+   "forms": [
+    "通关后×20",
+    "追加要素×1"
+   ],
+   "by_kind": {
+    "scan": 8,
+    "interview": 13
+   },
+   "samples": [
+    {
+     "post": "scan-ndream-2009-11-hgss-developer-interview",
+     "title": "心金·魂银开发访谈",
+     "seg": 234,
+     "via": "body",
+     "text": "据我记忆，《金·银》是以《红·绿》3年后的世界观来制作的，所以在开发过程中就有人提出，如果在通关后能去3年后的关都地区，不是会很有趣吗。于是就开始做了，大概就是这种感觉。"
+    },
+    {
+     "post": "interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+     "title": "[访谈翻译] 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
+     "seg": 5,
+     "via": "body",
+     "text": "他能够巧妙地引导玩家，调动玩家的情绪，并清晰地传达出想要表达的信息；同时，他精心构建事件，让道馆馆主和等离子队的角色形象都鲜明立体。因此，这次的剧本与以往截然不同。希望大家不要事先接触任何情报，以一张白纸的状态去游玩，我很期待听到你们通关后的感想。"
+    },
+    {
+     "post": "scan-dengeki-games-vol14-bw-gamefreak-interview",
+     "title": "宝可梦 黑·白 改变与不变",
+     "seg": 51,
+     "via": "body",
+     "text": "距离发售已经快一个月了，我想已经有很多玩家迎来了结局，关于通关后的游玩方式，请给一些希望玩家这样玩的建议。"
+    },
+    {
+     "post": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+     "title": "任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建",
+     "seg": 104,
+     "via": "body",
+     "text": "第5回：推荐的游玩方式？——通关后的深坑、水水獭‘贝太刀’与御三家跨文化构想"
+    }
+   ]
+  },
+  {
+   "id": "spinoff",
+   "name": "外传作品",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "主系列之外的：不可思议迷宫、乱战、快打拳。",
+   "approved": false,
+   "aliases": [
+    "外传",
+    "派生作品",
+    "番外",
+    "スピンオフ"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 21,
+   "segs": 32,
+   "forms": [
+    "外传×12",
+    "番外×9",
+    "派生作品×2"
+   ],
+   "by_kind": {
+    "interview": 15,
+    "blog": 3,
+    "scan": 2,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 45,
+     "via": "body",
+     "text": "关于提及《巫术外传Ⅰ》通信功能的杂志文章介绍相关书籍《忍者增田的复古游戏忍法帖》的段落"
+    },
+    {
+     "post": "gamefreak-director-094",
+     "title": "[GameFreak部长专栏] 第94回",
+     "seg": 21,
+     "via": "body",
+     "text": "对于在这里讲述、持续向外传达的事情，我们必须倾听，并从中学习许多东西。"
+    },
+    {
+     "post": "gamefreak-staff-97",
+     "title": "【工作日志】2008年白金音乐设计",
+     "seg": 3,
+     "via": "body",
+     "text": "这次作为番外篇，我也想来聊聊《白金》的音乐！"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch190",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第190回：番外篇·再次休载致歉……以及（读者来信中的“爆诞”、历史遗忘的社会寒意与",
+     "seg": 0,
+     "via": "body",
+     "text": "第190回 番外篇·再次休载致歉……以及"
+    }
+   ]
+  },
+  {
+   "id": "motion",
+   "name": "动作设计",
+   "facet": "art",
+   "facet_name": "美术",
+   "gloss": "动起来的样子：走、打、被打到、招式的表现。",
+   "approved": false,
+   "aliases": [
+    "动作设计",
+    "动画表现",
+    "动作表现",
+    "モーション"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 20,
+   "segs": 25,
+   "forms": [
+    "动作设计×9",
+    "モーション×7",
+    "动画表现×2",
+    "动作表现×2"
+   ],
+   "by_kind": {
+    "interview": 16,
+    "blog": 3,
+    "scan": 1
+   },
+   "samples": [
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch167",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲",
+     "seg": 21,
+     "via": "body",
+     "text": "如果监督团队有绝对的信心通过分镜与动作设计，仅凭梦幻天真无邪在眼前游弋便足以引爆超梦的怒火，那效果绝对比让两只宝可梦像吵架一样滔滔不绝互喷台词高明上万倍。《超梦的逆袭》剧本第2稿大刀阔斧，将梦幻原本繁复的台词全部连根砍光，仅仅保留了偶尔若有若无吐露自己名字的“Myu——”叫声。"
+    },
+    {
+     "post": "gamefreak-staff-190",
+     "title": "【工作日志】2010年GAME FREAK入职一周年",
+     "seg": 61,
+     "via": "body",
+     "text": "モーションやエフェクトもを作ることもあります。<br"
+    },
+    {
+     "post": "gamefreak-staff-201",
+     "title": "【工作日志】黑白开发现场与轨道移动",
+     "seg": 109,
+     "via": "body",
+     "text": "今回は、街を歩いているときに主人公の動きがスローモーションになって<br"
+    },
+    {
+     "post": "gamefreak-staff-208",
+     "title": "【工作日志】2010年黑白开发：信息管理组",
+     "seg": 31,
+     "via": "body",
+     "text": "―除了战斗场景之外，其他地方也有使用动画表现的部分，<br 这些也由你们负责监督吗？"
+    }
+   ]
+  },
+  {
+   "id": "delay",
+   "name": "延期",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "发售日改了：为什么改、改了以后做什么。",
+   "approved": false,
+   "aliases": [
+    "延期",
+    "发售延期",
+    "推迟",
+    "延后"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 18,
+   "segs": 24,
+   "forms": [
+    "延期×9",
+    "推迟×8",
+    "发售延期×1"
+   ],
+   "by_kind": {
+    "interview": 13,
+    "scan": 3,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "interview-famimaga-tajiri-pokemon2-secret",
+     "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+     "seg": 3,
+     "via": "body",
+     "text": "记载为12月21日发售预定的介绍文章。（实际延期至翌年1996年2月27日）除了游戏目的、通信交换、可以起昵称等说明文字外，还刊登了小火龙进化最终变成喷火龙的插图。（发售前的彩色广告等，包括其他杂志在内，我想这个时期前后应该都有，有兴趣的人请各自确认）"
+    },
+    {
+     "post": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+     "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+     "seg": 23,
+     "via": "body",
+     "text": "宝可梦 金·银 发售延期通知"
+    },
+    {
+     "post": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+     "seg": 111,
+     "via": "body",
+     "text": "《金／银》本应在这个时候已经发售，但不仅多次延期，后续消息也中断了。"
+    },
+    {
+     "post": "scan-ndream-2008-10-tajiri-famicom-25th",
+     "title": "田尻智与任天堂的25年",
+     "seg": 205,
+     "via": "body",
+     "text": "很辛苦。剧本做成了可以用文本文件改写的形式，但我一个人统一修改，每一句话都全部由我来写。别人写的台词，由我用《宝可梦》的语言重写，我做的就是这项工作。可以说连睡觉的时间都没有，通宵干到早上，再到中午，程序员来了就把新的文本文件交给他，让他反映到游戏里。连任天堂都训我“你还要改文本改到什么时候”。不过，坚持到这种程度的结"
+    }
+   ]
+  },
+  {
+   "id": "open-world",
+   "name": "开放世界",
+   "facet": "system",
+   "facet_name": "玩法与系统",
+   "gloss": "不按线走的地图，以及为此要重排的一切。",
+   "approved": false,
+   "aliases": [
+    "开放世界",
+    "开阔的地图",
+    "オープンワールド"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 18,
+   "segs": 32,
+   "forms": [
+    "开放世界×18"
+   ],
+   "by_kind": {
+    "interview": 17,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-gameinformer-masuda-past-present-future",
+     "title": "[访谈翻译] Game Informer 专访增田顺一与井部真那：宝可梦 15 年的过去、现在与未来",
+     "seg": 9,
+     "via": "body",
+     "text": "宝可梦开放世界游戏？"
+    },
+    {
+     "post": "interview-2017-game-freak-dordogne-enquete",
+     "title": "[访谈翻译] [Enquête] Game Freak en Dordogne : le futur de Pokémo",
+     "seg": 56,
+     "via": "body",
+     "text": "也许在卡洛斯地区南部会有一个新地区？城都和关都确实是两个相邻的地区，对吧？法国南部、德国、意大利，有无限可能。而且，开放世界是当下的潮流。我们需要一个或几个比我们习惯的更广阔的地区。"
+    },
+    {
+     "post": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+     "title": "[访谈翻译] Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世",
+     "seg": 2,
+     "via": "body",
+     "text": "在《宝可梦 红／蓝》登陆西方整整二十年之后，我们再度重返一切梦开始的地方——关都地区。《宝可梦 Let's Go！皮卡丘／Let's Go！伊布》带来了大刀阔斧的革新与颠覆——在发售前的预热期中，某些改动备受好评，而另一些则引发了玩家社群的激烈争论；但也不乏有人隐隐担忧：仅仅收录第一世代的宝可梦、重游最初的关都大陆，是"
+    },
+    {
+     "post": "interview-game-informer-why-no-pokemon-mmo",
+     "title": "Game Informer 独家视频专访增田顺一：“为什么宝可梦坚守单机与面对面社交、坚决不做万人在线MMO？”",
+     "seg": 1,
+     "via": "body",
+     "text": "在过去的15到20年间，几乎互联网上的每一位西方核心玩家都曾至少问过一次：“GAME FREAK 到底什么时候才会做一款真正宏大的无缝开放世界宝可梦 MMO？”为什么你们多年来始终坚定地拒绝踏上那条道路？"
+    }
+   ]
+  },
+  {
+   "id": "player-freedom",
+   "name": "玩家的自由",
+   "facet": "design",
+   "facet_name": "设计思路",
+   "gloss": "把选择交给玩家：怎么走、带谁、玩到哪一步算完。",
+   "approved": false,
+   "aliases": [
+    "自由度",
+    "自由地",
+    "玩家自己决定",
+    "由玩家自己"
+   ],
+   "with": [
+    "玩家",
+    "游戏",
+    "选择",
+    "玩法",
+    "攻略"
+   ],
+   "avoid": [],
+   "docs": 15,
+   "segs": 15,
+   "forms": [
+    "自由度×6",
+    "自由地×6",
+    "由玩家自己×3"
+   ],
+   "by_kind": {
+    "interview": 13,
+    "blog": 2
+   },
+   "samples": [
+    {
+     "post": "interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+     "title": "[访谈翻译] 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
+     "seg": 24,
+     "via": "body",
+     "text": "没错。根据玩家自身的欲求，可以“这样试试看”，或者“如果这样尝试，就会发生那样的事”——这款游戏让玩家能同时体验到这种自由度，以及享受扎实剧情的乐趣。希望大家能尽情享受，但说实话，要彻底钻研的话，它也是一款相当硬核的游戏（笑）。"
+    },
+    {
+     "post": "gamefreak-director-198",
+     "title": "[GameFreak部长专栏] 第198回",
+     "seg": 64,
+     "via": "body",
+     "text": "怎么玩是由玩家自己选择，这当然没问题，"
+    },
+    {
+     "post": "interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all",
+     "title": "[访谈翻译] 社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免",
+     "seg": 49,
+     "via": "body",
+     "text": "正是！所以我们决定：在应该填涂黑色的方格里印上极细小的勾选小记号，做成必须由玩家自己亲手拿笔涂黑才能最终唤醒宝可梦的“宝可梦AR标记涂色册”作为独家赠品！"
+    },
+    {
+     "post": "gamefreak-director-226",
+     "title": "[GameFreak部长专栏] 第226回",
+     "seg": 3,
+     "via": "body",
+     "text": "让大家可以自由地制作充满原创性的游戏。"
+    }
+   ]
+  },
+  {
+   "id": "accessibility",
+   "name": "无障碍",
+   "facet": "audience",
+   "facet_name": "玩家与社会",
+   "gloss": "让更多人玩得上：色觉、操作、字号、语言。",
+   "approved": false,
+   "aliases": [
+    "无障碍",
+    "色弱",
+    "色觉",
+    "谁都能玩到"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 13,
+   "segs": 13,
+   "forms": [
+    "无障碍×13"
+   ],
+   "by_kind": {
+    "interview": 13
+   },
+   "samples": [
+    {
+     "post": "interview-ndream-frlg-masuda-watanabe-nishino-uno",
+     "title": "火红·叶绿：无线适配器与60岁设计哲学",
+     "seg": 2,
+     "via": "body",
+     "text": "第1章：“60岁老人也能轻松玩的宝可梦”——面向所有世代的无障碍亲和设计"
+    },
+    {
+     "post": "interview-nom-dp-ishihara-masuda-sugimori",
+     "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神",
+     "seg": 42,
+     "via": "body",
+     "text": "我认为《宝可梦》的一个显著特点，就是‘绝对不会因为系列出到第几代而变得门槛更高更难’。这次的《钻石·珍珠》为了让初学者也能顺畅体验，从入口处就打磨得极为细腻亲切。因此，无论是小学一年级的小朋友，还是因为《脑力锻炼》才首次接触游戏机的长辈们，都能够毫无障碍地融入《宝可梦》的世界。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch151",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第151回：带字幕的宝可梦（“巨大宝可梦之岛”的御前舌战与欧洲酒馆里的抱怨哲学）",
+     "seg": 6,
+     "via": "body",
+     "text": "给宝可梦的啼鸣强行贴上日语字幕，难道不是跨越了“拟人化”的雷池，将宝可梦彻底“人类化”了吗？更可怕的是，字幕化意味着整个生态中成百上千种形态各异的宝可梦，竟然共享着同一套放之四海而皆准的通用语言！无论种族如何悬殊，彼此都能无障碍交谈——这不仅直接抹杀了除了外貌能力之外宝可梦的一切物种多样性，甚至直接将整个《宝可梦》世界"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch222",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第222回：“系列构成的极限”（中央公园暴雨落败、未成形的斯巴达克斯式宝可梦起义与辞",
+     "seg": 97,
+     "via": "body",
+     "text": "若论及‘虚构与现实的反转’，还有一部动画电影堪称登峰造极：电视动画版里那个满嘴草食系随性碎碎念、让人觉得极其烦躁的小男生（阿虚）的大段独白，原来通通都只是这出大戏的漫长预告片，真正的重头戏正本全都在剧场版之中（注：指京都动画名作《凉宫春日的消失》）。整整两个半小时的超长片长，竟然全凭无休无止的心中独白彻底填满而丝毫不显"
+    }
+   ]
+  },
+  {
+   "id": "multilingual",
+   "name": "多语言与字库",
+   "facet": "tech",
+   "facet_name": "技术与机能",
+   "gloss": "一款游戏同时出好几种语言，字库、字数、排版都要跟上。",
+   "approved": false,
+   "aliases": [
+    "多语言",
+    "语言版本",
+    "字库",
+    "字体",
+    "フォント"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 13,
+   "segs": 16,
+   "forms": [
+    "字体×5",
+    "语言版本×4",
+    "多语言×3",
+    "字库×1"
+   ],
+   "by_kind": {
+    "interview": 9,
+    "blog": 1,
+    "scan": 3
+   },
+   "samples": [
+    {
+     "post": "interview-nintendopower-gold-silver-roundtable",
+     "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+     "seg": 59,
+     "via": "body",
+     "text": "“我们已经在着手制作《金／银》之后的新正统续作了，目前还不能透露对应平台。我一直在思考宝可梦各语言版本之间无法交换的问题。如果能让他们彼此兼容，那将会有趣得多。全世界的宝可梦玩家将能通过宝可梦游戏进行交流。在《星际迷航》的世界里，一个没有语言障碍的世界是可能的（笑），如果我们能在宝可梦的世界里做到同样的事，那就太棒了！"
+    },
+    {
+     "post": "gamefreak-director-044",
+     "title": "[GameFreak部长专栏] 第44回",
+     "seg": 6,
+     "via": "body",
+     "text": "手机、文字字体、语言、表情符号等的形状。"
+    },
+    {
+     "post": "scan-continue-vol23-gamefreak-special",
+     "title": "[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话",
+     "seg": 10,
+     "via": "body",
+     "text": "“Atari 字体的这个‘R’，是这样拼没错吧？”（田尻智）"
+    },
+    {
+     "post": "scan-ndream-2008-10-tajiri-famicom-25th",
+     "title": "田尻智与任天堂的25年",
+     "seg": 52,
+     "via": "body",
+     "text": "GAME FREAK一口气读完！Video Game通信 13\n哎呀，两周没见了。没想到从这周起，Video Game通信标题的Logo变了。说的就是上面用复古字体写的那个。不过，做这个可是相当费劲的哦。比如“Video”的“オ”要不要写成“ヲ”之类的。这可是花了100年岁月才完成的标题。大家要爱它啊！"
+    }
+   ]
+  },
+  {
+   "id": "port",
+   "name": "移植",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "同一作搬到另一台机器上。",
+   "approved": false,
+   "aliases": [
+    "移植",
+    "移植版"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 13,
+   "segs": 14,
+   "forms": [
+    "移植×13"
+   ],
+   "by_kind": {
+    "interview": 11,
+    "scan": 1,
+    "blog": 1
+   },
+   "samples": [
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch142",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+     "seg": 3,
+     "via": "body",
+     "text": "我之所以抛出如此石破天惊的大胆提案，是因为我看透了游戏底层逻辑移植到影视时的致命隐患：掌机游戏的核心循环无非是“捕捉怪兽、练级养成、击败道馆”。在游戏里，玩家是亲自付出汗水与时间去刷怪升级，哪怕过程枯燥也乐在其中；然而如果把这套流程原封不动搬上荧幕，让观众每周坐在沙发上观摩别人机械式地刷怪练级，不出三个月，所有孩子都会"
+    },
+    {
+     "post": "scan-ndream-2008-10-tajiri-famicom-25th",
+     "title": "田尻智与任天堂的25年",
+     "seg": 69,
+     "via": "body",
+     "text": "是啊。从把街机游戏玩透的一方来看，说得难听点，就是劣化移植。我也是玩透的那一方，所以能理解那种心情。"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch177",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与",
+     "seg": 77,
+     "via": "body",
+     "text": "早年间，我执笔的一部小说曾有幸被改编移植为红白机（FC）游戏。"
+    },
+    {
+     "post": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+     "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+     "seg": 15,
+     "via": "body",
+     "text": "战斗程序是我花了很长时间才做出来的。然而，我听说岩田先生仅用了一周左右就完成了移植，而且已经能运行了……这到底是什么样的社长啊（笑）。"
+    }
+   ]
+  },
+  {
+   "id": "outsourcing",
+   "name": "外包与协力",
+   "facet": "process",
+   "facet_name": "开发流程",
+   "gloss": "自己不做的部分交给别的公司。",
+   "approved": false,
+   "aliases": [
+    "外包",
+    "委托开发",
+    "协力公司",
+    "外部公司"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 12,
+   "segs": 13,
+   "forms": [
+    "外包×12"
+   ],
+   "by_kind": {
+    "interview": 11,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-game-center-cx-tajiri-man-who-created-pokemon",
+     "title": "Game Center CX 特典专访《田尻智〜创造宝可梦的男人〜》：有野晋哉直击世田谷 GAME FREAK 研发总部",
+     "seg": 11,
+     "via": "body",
+     "text": "那段日子真的宛如炼狱（笑）。在中途有好几次，公司的账上资金彻底见底，我作为社长甚至连续几个月发不出员工薪水。不少伙伴为了养家糊口不得不含泪离队，最终从头坚守到尾的，只剩下我和增田（顺一）、杉森（建）等区区数人。为了让宝可梦的开发不至于彻底腰斩，我们只能四处接外包打杂制作其他动作或解谜游戏来赚取口粮钱，在深夜和周末通宵达"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch162",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历",
+     "seg": 3,
+     "via": "body",
+     "text": "然而，更棘手的难题在于那些剧本早已敲定决定稿、目前正卡在分镜台本、原画作画等流水线中段的在制剧集。从一篇动画剧本最终定稿，到整集动画彻底制作封包出片，整整需要历经三到四个月漫长严谨的周期。这些剧集早已深入制作管线，牵扯着无数外包画师与基层员工的心血，关乎着众多从业者的温饱生计，制作费也已真金白银地砸了进去，绝不可能说刹"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch204",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕",
+     "seg": 8,
+     "via": "body",
+     "text": "虽然其外包装是一部面向孩童的动画电影，我在动笔时也极力照顾幼童的理解门槛，但骨子里我却狂热渴望打造出一部能让任何年龄代际（尤其是欧美异文化观众）都能在心底掀起波澜的硬核力作。这便是在《超梦的逆袭》中对“自我存在”的灵魂拷问，以及在《洛奇亚爆诞》中对“正因为深切体会到人与人各不相同，才必须无条件接纳彼此的差异——在地球这"
+    },
+    {
+     "post": "interview-takeshi-shudo-pokemon-memoir-ch216",
+     "title": "[访谈翻译] 首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲",
+     "seg": 139,
+     "via": "body",
+     "text": "业界里或许确实有许多嗷嗷待哺、渴望接到新版《明琪桃子》外包外注订单的下游外包作画公司。"
+    }
+   ]
+  },
+  {
+   "id": "text-volume",
+   "name": "文本量",
+   "facet": "story",
+   "facet_name": "剧情与文本",
+   "gloss": "字数这件事本身：写多少、塞不塞得下、要不要删。",
+   "approved": false,
+   "aliases": [
+    "文本量",
+    "台词量",
+    "字数",
+    "文字量"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 8,
+   "segs": 9,
+   "forms": [
+    "文本量×5",
+    "字数×3"
+   ],
+   "by_kind": {
+    "interview": 5,
+    "blog": 2,
+    "scan": 1
+   },
+   "samples": [
+    {
+     "post": "interview-nom-special-dialogue-tajiri-ishihara",
+     "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+     "seg": 21,
+     "via": "body",
+     "text": "说实话，这出乎我的意料。《耀西的蛋》和《马里奥与瓦里奥》都是不需要语言说明的游戏类型。即使不读说明书直接开始玩，只要游戏结束三次左右，就能明白该做什么。也就是说，这些游戏的设计不依赖文本，确实包含了能与世界各地玩家的游玩方式产生共鸣的要素。因此，当后来完成《宝可梦》时，我想这绝对无法带到美国去。这款游戏文本量如此之大，"
+    },
+    {
+     "post": "gamefreak-director-014",
+     "title": "[GameFreak部长专栏] 第14回",
+     "seg": 7,
+     "via": "body",
+     "text": "比如宝可梦和招式名称的字数、手持宝可梦 6 只、能学会的招式 4 个，也都是如此。"
+    },
+    {
+     "post": "scan-ndream-2010-04-pokemon-bw-first-reveal",
+     "title": "《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘",
+     "seg": 8,
+     "via": "body",
+     "text": "全世界游戏玩家翘首以盼的历史性时刻终于降临！\n自1996年《红·绿》问世以来不断改写游戏史的《宝可梦》系列，继前作《宝可梦 钻石·珍珠》之后历经整整4年漫长沉淀，正统正规的“完全新作”正式宣布将于2010年秋季发售，平台锁定 Nintendo DS！\n系列全球累计销量突破1亿3000万套惊人天文字数，始终将掌上游戏机的"
+    },
+    {
+     "post": "interview-nintendolife-2013-xy",
+     "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
+     "seg": 35,
+     "via": "body",
+     "text": "是的，我真的很想把它加进去，但考虑到我们得加入的文本量，现在宝可梦已经超过600种，这会是一项非常庞大的工程。这可能会出现在未来的游戏里，但遗憾的是它没能进入X和Y。"
+    }
+   ]
+  },
+  {
+   "id": "canon-consistency",
+   "name": "设定统一",
+   "facet": "franchise",
+   "facet_name": "系列与跨媒体",
+   "gloss": "游戏、动画、卡牌说的不能互相打架，谁来管。",
+   "approved": false,
+   "aliases": [
+    "设定统一",
+    "设定集",
+    "统一设定",
+    "设定上的"
+   ],
+   "with": [],
+   "avoid": [],
+   "docs": 4,
+   "segs": 4,
+   "forms": [
+    "设定集×2",
+    "统一设定×1",
+    "设定上的×1"
+   ],
+   "by_kind": {
+    "scan": 1,
+    "interview": 2,
+    "article": 1
+   },
+   "samples": [
+    {
+     "post": "interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
+     "title": "Famitsu / CEDEC 2022 专访《宝可梦 朱／紫》：皮卡丘实现系列史上最佳蓬松毛发质感——与《传说 阿尔宙",
+     "seg": 14,
+     "via": "body",
+     "text": "在接下来的后工序中，会对宝可梦模型进行细致调整，其中既有对所有宝可梦统一设定的内容，也有针对各宝可梦个别调整的内容。例如在《阿尔宙斯》中，背光的表现方式、进食时食物的位置、按下ZL键锁定目标时朝向何处等，这些都与游戏规则相关联，因此由作品侧进行设定。"
+    },
+    {
+     "post": "长文-拨云见日-从百代市到水脉图书馆",
+     "title": "[长文] 拨云见日 从百代市到水脉图书馆",
+     "seg": 25,
+     "via": "body",
+     "text": "&emsp;回到“<font style=\"font-size:14px;color: da5e4a; \" 席多蓝恩</font 与<font style=\"font-size:14px;color: 81b8c6; \" 神奥神话</font ”一文中，作者用以佐证席多蓝恩在设定上的完全脱离了传说宝可梦的逼格并非失误而"
+    },
+    {
+     "post": "corporate-topic-46-pokemon-center-original-goods-philosophy",
+     "title": "宝可梦官方专题：直击心灵的造物之魂——宝可梦中心原创商品开发哲学",
+     "seg": 5,
+     "via": "body",
+     "text": "商品部的每一位策划师，日常生活中无时无刻不在高强度沉浸于宝可梦的历代掌机卡带、电视动画与衍生设定集之中，在每一个微小的设定夹缝中寻觅着能够引爆心智的灵感火花。"
+    }
+   ]
+  }
+ ]
+}

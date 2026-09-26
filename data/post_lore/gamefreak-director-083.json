@@ -68,6 +68,32 @@
     "what": "发布会举办地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     10
+    ],
+    "as": [
+     "在线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "live-events",
+    "name": "线下活动",
+    "facet": "business",
+    "seg": [
+     21
+    ],
+    "as": [
+     "举办活动"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -85,7 +111,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

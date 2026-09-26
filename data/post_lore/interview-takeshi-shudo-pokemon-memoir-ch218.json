@@ -219,6 +219,156 @@
     "what": "首藤常住的街区",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     2,
+     3,
+     8,
+     9,
+     10,
+     29
+    ],
+    "as": [
+     "剧本",
+     "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     28,
+     34,
+     43
+    ],
+    "as": [
+     "系列构成"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     29
+    ],
+    "as": [
+     "强度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     38,
+     39,
+     63,
+     78,
+     107
+    ],
+    "as": [
+     "剧场版",
+     "大银幕",
+     "动画电影"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     58
+    ],
+    "as": [
+     "配音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     62,
+     120,
+     123
+    ],
+    "as": [
+     "儿童",
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     66
+    ],
+    "as": [
+     "镜头"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     70,
+     105,
+     106,
+     107,
+     108
+    ],
+    "as": [
+     "宣传",
+     "广告"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     112,
+     114,
+     116,
+     117,
+     119,
+     121
+    ],
+    "as": [
+     "怀旧",
+     "童年"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     126
+    ],
+    "as": [
+     "铅笔"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -271,7 +421,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

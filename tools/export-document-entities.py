@@ -2,6 +2,7 @@
 """文章 ↔ 作品 / 宝可梦 / 地点 / 人：给服务器 `document_entities` 的那张表（worklist D-2）。
 
     python tools/export-document-entities.py                 # 写 assets/data/app/document-entities.json
+                                                            #  + document-concepts.json（同一张表的另一半）
     python tools/export-document-entities.py --out <文件>
 
 每篇文章的图鉴条目（tools/build-post-lore.py，data/post_lore/<id>.json）里已经有「这篇点名了什么、
@@ -30,7 +31,11 @@
 
 `confidence` 由 `via` 映射（CONFIDENCE），`reviewed` 是这篇的条目有没有人工改过（记录里的 `edited`）。
 `role`：人物是 speaker / mentioned，作品命中这篇的主体作品是 subject、其余 mentions，
-地点里游戏与动画中的地方是 setting，其余一律 mentions。
+地点里游戏与动画中的地方是 setting，其余一律 mentions，概念是 topic。
+
+概念（`concept:<id>`）的 id 空间是 docs 的词表 data/lore_tables/concepts.yml：人写的一份，逐段按写法
+命中（via: body / tag / title），不是模型推测。词表里人审过的那几条，这张表里的 `reviewed` 就是 1
+——其余仍是 0。名字、归面与一句说明在 assets/data/app/concepts.json。
 """
 from __future__ import annotations
 
@@ -50,6 +55,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 LORE = ROOT / "data" / "post_lore"
 DEFAULT_OUT = ROOT / "assets" / "data" / "app" / "document-entities.json"
+DEFAULT_CONCEPTS_OUT = ROOT / "assets" / "data" / "app" / "document-concepts.json"
 SCHEMA = "document-entities/v1"
 
 #  来源 → 置信度。规则扫出来的（正文、标签、标题、gazetteer、手写补充表）都是「确立」，
@@ -96,12 +102,14 @@ def rows_for(rec: dict, primary: str) -> list:
     reviewed = 1 if rec.get("edited") else 0
     out = []
 
-    def add(entity_id, source: dict, role: str, segs: list, via: str, extra: dict | None = None) -> None:
+    def add(entity_id, source: dict, role: str, segs: list, via: str, extra: dict | None = None,
+            reviewed_row: bool | None = None) -> None:
         spots = [n for n in (segs or []) if isinstance(n, int)] or [-1]
         for n in spots:
             row = {"document_id": document, "entity_id": entity_id, "role": role,
                    "start_offset": n, "end_offset": None,
-                   "confidence": CONFIDENCE.get(via, 0.5), "reviewed": reviewed,
+                   "confidence": CONFIDENCE.get(via, 0.5),
+                   "reviewed": 1 if reviewed_row else reviewed,
                    "via": via or "", "source": source}
             if extra:
                 row.update(extra)
@@ -147,12 +155,25 @@ def rows_for(rec: dict, primary: str) -> list:
         add(f"place:{s['id']}" if s.get("id") else None,
             {"system": "tour" if s.get("id") else "docs", "type": "place", "id": s.get("id") or name, "name": name},
             "setting" if s.get("world") == "game" else "mentions", s.get("seg"), s.get("via") or "gazetteer", extra)
+
+    #  概念：人写的词表逐段命中（data/lore_tables/concepts.yml）。id 空间是 docs 的，
+    #  规范 ID 就是 `concept:<id>`（dex-core 的 12 类之一）；词表里人审过的那几条 reviewed = 1
+    for t in facets.get("concepts") or []:
+        cid = (t.get("id") or "").strip()
+        if not cid:
+            continue
+        add(f"concept:{cid}",
+            {"system": "docs", "type": "concept", "id": cid, "name": t.get("name"),
+             **({"facet": t["facet"]} if t.get("facet") else {}),
+             **({"as": t["as"]} if t.get("as") else {})},
+            "topic", t.get("seg"), t.get("via") or "body", reviewed_row=bool(t.get("reviewed")))
     return out
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    ap.add_argument("--concepts-out", type=Path, default=DEFAULT_CONCEPTS_OUT)
     ap.add_argument("--commit", default="")
     args = ap.parse_args()
 
@@ -183,41 +204,50 @@ def main() -> int:
         merged[key] = keep
     rows = list(merged.values())
 
-    by_type = collections.Counter(r["source"]["type"] for r in rows)
-    mapped = collections.Counter(r["source"]["type"] for r in rows if r["entity_id"])
-    payload = {
-        "schema": SCHEMA,
-        "spec": "scan-engineering-2026-09-24/02 §6 document_entities",
-        "source_system": "docs",
-        "docs_commit": args.commit or git_head(),
-        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        "notes": {
-            "start_offset": "段号（body.segments[].n）；整篇级的给 -1，没有字符偏移",
-            "entity_id": "只在 docs 认得出服务器 registry 的 id 时才填；其余为 null，按 source 做 crosswalk",
-            "confidence": CONFIDENCE,
-        },
-        "counts": {
-            "documents": len({r["document_id"] for r in rows}),
-            "rows": len(rows),
-            "by_type": dict(by_type),
-            "with_entity_id": dict(mapped),
-        },
-        "rows": rows,
-    }
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
-    tmp = args.out.with_suffix(args.out.suffix + ".tmp")
-    for attempt in range(4):
-        try:
-            tmp.write_text(text, encoding="utf-8")
-            os.replace(tmp, args.out)
-            break
-        except OSError:
-            if attempt == 3:
-                raise
-            time.sleep(0.4 * (attempt + 1))
-    print(json.dumps({k: payload[k] for k in ("schema", "docs_commit", "counts")}, ensure_ascii=False, indent=1))
-    print(f"→ {args.out}  {len(text) // 1024} KB")
+    #  同一张表，分两个文件写：实体那一半 App 在阅读器里要整份拉（手机上 5 MB 已经不轻），
+    #  概念那一半只有服务器和以后的概念层要，别让它把阅读器的那一份撑大一倍
+    parts = [("entities", args.out, [r for r in rows if r["source"]["type"] != "concept"]),
+             ("concepts", args.concepts_out, [r for r in rows if r["source"]["type"] == "concept"])]
+    stamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    commit = args.commit or git_head()
+    for part, path, part_rows in parts:
+        other = next(p.name for kind, p, _ in parts if kind != part)
+        payload = {
+            "schema": SCHEMA,
+            "spec": "scan-engineering-2026-09-24/02 §6 document_entities",
+            "source_system": "docs",
+            "part": part,
+            "pair": other,
+            "docs_commit": commit,
+            "generated_at": stamp,
+            "notes": {
+                "start_offset": "段号（body.segments[].n）；整篇级的给 -1，没有字符偏移",
+                "entity_id": "只在 docs 认得出服务器 registry 的 id 时才填；其余为 null，按 source 做 crosswalk",
+                "part": f"document_entities 的一半，另一半在 {other}；服务器两份都收",
+                "confidence": CONFIDENCE,
+            },
+            "counts": {
+                "documents": len({r["document_id"] for r in part_rows}),
+                "rows": len(part_rows),
+                "by_type": dict(collections.Counter(r["source"]["type"] for r in part_rows)),
+                "with_entity_id": dict(collections.Counter(r["source"]["type"] for r in part_rows if r["entity_id"])),
+            },
+            "rows": part_rows,
+        }
+        path.parent.mkdir(parents=True, exist_ok=True)
+        text = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        for attempt in range(4):
+            try:
+                tmp.write_text(text, encoding="utf-8")
+                os.replace(tmp, path)
+                break
+            except OSError:
+                if attempt == 3:
+                    raise
+                time.sleep(0.4 * (attempt + 1))
+        print(json.dumps({k: payload[k] for k in ("part", "docs_commit", "counts")}, ensure_ascii=False, indent=1))
+        print(f"→ {path.name}  {len(text) // 1024} KB")
     return 0
 
 

@@ -178,6 +178,46 @@
     "what": "演唱会举办地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     0
+    ],
+    "as": [
+     "论坛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     3
+    ],
+    "as": [
+     "背景音乐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     14,
+     15,
+     17
+    ],
+    "as": [
+     "演唱会"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -195,7 +235,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

@@ -56,6 +56,20 @@
     "what": "举办发售活动",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     12
+    ],
+    "as": [
+     "网络功能"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -98,7 +112,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

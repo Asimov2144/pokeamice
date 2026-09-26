@@ -6,6 +6,7 @@
     python tools/build-post-lore.py --all             # every post
     python tools/build-post-lore.py --no-llm          # the rule pass only (free, no model)
     python tools/build-post-lore.py --relations       # stage two: the links between articles
+    python tools/build-post-lore.py --concepts        # stage three: the concept pass (rules only, free)
     python tools/build-post-lore.py --force           # ignore the cache
 
 Same shape as the travel map's dex-lore: one record per subject, machine-written but
@@ -709,6 +710,191 @@ def ask_relations(post: dict, facets: dict, cands: list, lore_by_id: dict) -> li
     return out[:4]
 
 
+# ---------------------------------------------------------------- 概念：人写的词表，逐段命中
+
+_CONCEPTS_VERSION = None
+CONCEPTS_YML = TABLES / "concepts.yml"
+CONCEPTS_REVIEW = TABLES / "concepts.review.json"
+EVIDENCE = ROOT / "design" / "concepts-evidence.json"
+LATIN = re.compile(r"\A[\x20-\x7e]+\Z")
+
+
+def alias_re(aliases: list):
+    """写法表 -> 一个正则。中日文按子串（长的先试），拉丁字母要词边界。"""
+    cjk = sorted({a for a in aliases if a and not LATIN.match(a)}, key=len, reverse=True)
+    lat = sorted({a for a in aliases if a and LATIN.match(a)}, key=len, reverse=True)
+    parts = []
+    if cjk:
+        parts.append("|".join(re.escape(a) for a in cjk))
+    if lat:
+        parts.append(r"(?<![A-Za-z0-9])(?:" + "|".join(re.escape(a) for a in lat) + r")(?![A-Za-z0-9])")
+    return re.compile("|".join(parts)) if parts else None
+
+
+def concepts_version() -> str:
+    global _CONCEPTS_VERSION
+    if _CONCEPTS_VERSION is None:
+        raw = yaml.safe_load(io.open(CONCEPTS_YML, encoding="utf-8")) or {}
+        _CONCEPTS_VERSION = str(raw.get("version") or "")
+    return _CONCEPTS_VERSION
+
+
+def load_concepts() -> list:
+    """词表 data/lore_tables/concepts.yml + 人审的裁定 concepts.review.json。
+
+    裁定单独放一个文件：审核工具（Pokeamice_app/tools/lore-review 的「概念词表」队列）只往那里写，
+    词表本身保持人手写的样子。裁定按 id 覆盖 status 与改过的字段，approved 的才算人审过。"""
+    if not CONCEPTS_YML.exists():
+        raise SystemExit(f"{CONCEPTS_YML} is missing")
+    raw = yaml.safe_load(io.open(CONCEPTS_YML, encoding="utf-8")) or {}
+    review = {}
+    if CONCEPTS_REVIEW.exists():
+        blob = json.load(io.open(CONCEPTS_REVIEW, encoding="utf-8"))
+        review = blob.get("verdicts") or {k: v for k, v in blob.items() if isinstance(v, dict) and not k.startswith("_")}
+    facets = raw.get("facets") or {}
+    out = []
+    for ent in raw.get("concepts") or []:
+        if not isinstance(ent, dict) or not ent.get("id"):
+            continue
+        ent = dict(ent)
+        said = review.get(ent["id"]) or {}
+        for field in ("name", "facet", "gloss", "aliases", "with", "avoid", "note"):
+            if said.get(field):
+                ent[field] = said[field]
+        verdict = said.get("verdict") or ""
+        if verdict in ("approve", "approved", "keep"):
+            ent["status"] = "approved"
+        elif verdict in ("drop", "reject", "rejected"):
+            ent["status"] = "rejected"
+        if ent.get("status") == "rejected":
+            continue
+        pattern = alias_re(as_list(ent.get("aliases")))
+        if pattern is None:
+            print(f"  concept {ent['id']} has no aliases; left out")
+            continue
+        out.append({"id": ent["id"], "name": ent.get("name") or ent["id"], "facet": ent.get("facet") or "",
+                    "facet_name": facets.get(ent.get("facet")) or "", "gloss": ent.get("gloss") or "",
+                    "approved": ent.get("status") == "approved", "re": pattern,
+                    "with": [w for w in as_list(ent.get("with")) if w], "avoid": [a for a in as_list(ent.get("avoid")) if a],
+                    "aliases": as_list(ent.get("aliases"))})
+    return out
+
+
+def _in_avoid(text: str, span: tuple, avoid: list) -> bool:
+    """命中处正落在「不算」的写法里（「平衡」撞上「生态平衡」）"""
+    for bad in avoid:
+        start = 0
+        while True:
+            at = text.find(bad, start)
+            if at < 0:
+                break
+            if at <= span[0] and span[1] <= at + len(bad):
+                return True
+            start = at + 1
+    return False
+
+
+def concept_hits(post: dict, vocab: list) -> list:
+    """这一篇谈到的概念，每个带段号。
+
+    正文命中是主的（via: body）；正文里没有、但标签或标题写着的也算，那是编者写的
+    （via: tag / title），只是没有段号。"""
+    texts = [(s["n"], seg_text(s)) for s in post["segs"]]
+    texts = [(n, t) for n, t in texts if t]
+    tagtext = " / ".join(str(t).strip() for t in as_list(post["fm"].get("tags")))
+    #  标题开头的体裁标记（「[访谈翻译] 」「[扫描访谈] 」）是站内的分类，不是这篇谈的事——
+    #  不去掉的话「翻译」会把几百篇都收进「本地化」
+    title = re.sub(r"\A\s*(\[[^\]]*\]\s*)+", "", post["title"] or "")
+    out = []
+    for ent in vocab:
+        spots: list = []
+        forms: list = []
+        for n, text in texts:
+            if ent["with"] and not any(w in text for w in ent["with"]):
+                continue
+            for m in ent["re"].finditer(text):
+                if ent["avoid"] and _in_avoid(text, m.span(), ent["avoid"]):
+                    continue
+                if n not in spots and len(spots) < 6:
+                    spots.append(n)
+                if m.group(0) not in forms and len(forms) < 4:
+                    forms.append(m.group(0))
+                break                                      # 一段记一次就够
+        via = "body" if spots else ""
+        if not via:
+            for where, source in (("tag", tagtext), ("title", title)):
+                for m in (ent["re"].finditer(source) if source else []):
+                    if ent["avoid"] and _in_avoid(source, m.span(), ent["avoid"]):
+                        continue
+                    via, forms = where, [m.group(0)]
+                    break
+                if via:
+                    break
+        if not via:
+            continue
+        row = {"id": ent["id"], "name": ent["name"], "facet": ent["facet"], "seg": spots, "as": forms, "via": via}
+        if ent["approved"]:
+            row["reviewed"] = True
+        out.append(row)
+    out.sort(key=lambda r: (r["seg"][0] if r["seg"] else 10 ** 6, r["id"]))
+    return out
+
+
+def annotate_concepts(posts: list, vocab: list, only: set) -> int:
+    """给已有的记录补上 facets.concepts，并写出人审要看的证据 design/concepts-evidence.json"""
+    seen = {ent["id"]: {"id": ent["id"], "name": ent["name"], "facet": ent["facet"], "facet_name": ent["facet_name"],
+                        "gloss": ent["gloss"], "approved": ent["approved"], "aliases": ent["aliases"],
+                        "with": ent["with"], "avoid": ent["avoid"],
+                        "docs": 0, "segs": 0, "forms": collections.Counter(), "by_kind": collections.Counter(),
+                        "samples": []} for ent in vocab}
+    per_post = collections.Counter()
+    touched = 0
+    for post in posts:
+        rec = read_record(post["id"])
+        if not rec:
+            continue
+        if only and post["id"] not in only:
+            continue
+        rows = concept_hits(post, vocab)
+        if rec.get("edited") and (rec.get("facets") or {}).get("concepts"):
+            rows = rec["facets"]["concepts"]                # 人改过的不动
+        else:
+            rec.setdefault("facets", {})["concepts"] = rows
+            rec.setdefault("sources", {})["concepts"] = concepts_version()
+            write_record(rec)
+            touched += 1
+        per_post[len(rows)] += 1
+        texts = {s["n"]: seg_text(s) for s in post["segs"]}
+        for row in rows:
+            got = seen.get(row["id"])
+            if not got:
+                continue
+            got["docs"] += 1
+            got["segs"] += len(row["seg"])
+            got["by_kind"][post["kind"]] += 1
+            for form in row.get("as") or []:
+                got["forms"][form] += 1
+            if len(got["samples"]) < 4 and row["seg"]:
+                text = texts.get(row["seg"][0]) or ""
+                got["samples"].append({"post": post["id"], "title": post["title"][:60], "seg": row["seg"][0],
+                                       "via": row["via"], "text": text[:160]})
+    rows = []
+    for got in seen.values():
+        got["forms"] = [f"{w}×{c}" for w, c in got["forms"].most_common(6)]
+        got["by_kind"] = dict(got["by_kind"])
+        rows.append(got)
+    rows.sort(key=lambda r: (-r["docs"], r["id"]))
+    EVIDENCE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {"generated": date.today().isoformat(), "table": str(CONCEPTS_YML.relative_to(ROOT)).replace("\\", "/"),
+               "counts": {"concepts": len(rows), "matched": sum(1 for r in rows if r["docs"]),
+                          "unused": [r["id"] for r in rows if not r["docs"]],
+                          "posts_with": sum(c for n, c in per_post.items() if n), "posts": sum(per_post.values()),
+                          "per_post": {str(n): c for n, c in sorted(per_post.items())}},
+               "concepts": rows}
+    io.open(EVIDENCE, "w", encoding="utf-8", newline="\n").write(json.dumps(payload, ensure_ascii=False, indent=1) + "\n")
+    return touched
+
+
 # ---------------------------------------------------------------- files
 
 
@@ -827,11 +1013,26 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     #  只把已有的记录重新汇成 _data/post_lore.yml，不碰模型也不重跑规则
     ap.add_argument("--collect", action="store_true")
+    #  概念这一轮：照 data/lore_tables/concepts.yml 逐段标注，不花钱、不碰别的字段
+    ap.add_argument("--concepts", action="store_true")
     args = ap.parse_args()
 
     if args.collect:
         n = collect(load_tables())
         print(f"_data/post_lore.yml has {n} records")
+        return 0
+
+    if args.concepts:
+        vocab = load_concepts()
+        posts = load_posts()
+        if args.limit:
+            posts = posts[:args.limit]
+        touched = annotate_concepts(posts, vocab, set(args.only))
+        ev = json.load(io.open(EVIDENCE, encoding="utf-8"))["counts"]
+        print(f"{len(vocab)} concepts in the table ({sum(1 for v in vocab if v['approved'])} reviewed), "
+              f"{ev['matched']} of them match something; {touched} records written")
+        print(f"  {ev['posts_with']} / {ev['posts']} posts carry at least one; unused: {len(ev['unused'])}")
+        print(f"  → {EVIDENCE.relative_to(ROOT)}")
         return 0
 
     tables = load_tables()

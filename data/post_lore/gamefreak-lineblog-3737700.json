@@ -45,6 +45,20 @@
     "what": "此行目的地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     70
+    ],
+    "as": [
+     "整体平衡"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -62,7 +76,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

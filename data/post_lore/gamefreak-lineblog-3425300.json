@@ -159,6 +159,20 @@
     "what": "驾驶终点站",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     45
+    ],
+    "as": [
+     "监修"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -176,7 +190,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

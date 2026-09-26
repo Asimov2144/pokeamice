@@ -103,6 +103,137 @@
     "what": "游戏舞台",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     9,
+     10,
+     37,
+     88,
+     89,
+     119
+    ],
+    "as": [
+     "背景音乐",
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     10,
+     81,
+     85,
+     86,
+     88,
+     89
+    ],
+    "as": [
+     "音效",
+     "サウンド"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sound-hardware",
+    "name": "音源与机能",
+    "facet": "audio",
+    "seg": [
+     10
+    ],
+    "as": [
+     "和音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     47,
+     58,
+     61,
+     64,
+     71,
+     140
+    ],
+    "as": [
+     "编曲",
+     "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     59,
+     141
+    ],
+    "as": [
+     "台词",
+     "セリフ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     59,
+     141
+    ],
+    "as": [
+     "剧本",
+     "シナリオ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     137
+    ],
+    "as": [
+     "思い出"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     151,
+     153
+    ],
+    "as": [
+     "収録"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -137,7 +268,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

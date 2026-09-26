@@ -144,6 +144,201 @@
     "what": "道馆馆主风露所在城市",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     3,
+     7,
+     8,
+     9,
+     23,
+     46
+    ],
+    "as": [
+     "剧本",
+     "シナリオ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     25,
+     27,
+     35,
+     122,
+     172,
+     174
+    ],
+    "as": [
+     "音效",
+     "音效设计",
+     "サウンド"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     32,
+     179
+    ],
+    "as": [
+     "品质",
+     "クオリティ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     34,
+     100,
+     125,
+     139,
+     181,
+     250
+    ],
+    "as": [
+     "台词",
+     "セリフ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     36,
+     39
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     70,
+     218
+    ],
+    "as": [
+     "学生时代",
+     "入社"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     73,
+     76,
+     221
+    ],
+    "as": [
+     "调试",
+     "デバッグ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     74,
+     222
+    ],
+    "as": [
+     "续作",
+     "続編"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     101,
+     103,
+     111,
+     112,
+     115,
+     120
+    ],
+    "as": [
+     "叫声",
+     "鳴き声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     114,
+     175,
+     182
+    ],
+    "as": [
+     "画面上",
+     "グラフィック"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "live-events",
+    "name": "线下活动",
+    "facet": "business",
+    "seg": [
+     172,
+     243
+    ],
+    "as": [
+     "イベント"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     205
+    ],
+    "as": [
+     "子供"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -161,7 +356,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

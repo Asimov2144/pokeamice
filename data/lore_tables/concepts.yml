@@ -1,0 +1,857 @@
+# 概念词表 —— 开发者访谈里反复谈的那些事，给 App 的 Discourse Lens 做「同一个概念，别处也说到」。
+#
+# 这张表是**人写的**，不是模型生成的：tools/mine-concepts.py 从语料里挖出高频写法、由 DeepSeek 归
+# 拢成候选，落到这里由人裁定（工具 Pokeamice_app/tools/lore-review 的「概念词表」队列，裁定写
+# data/lore_tables/concepts.review.json）。标注只按这张表的写法逐段命中，所以是规则命中（via: body /
+# tag / title），不是模型推测——App 的证据闸认这一档。
+#
+# 一条的字段：
+#   id       概念 id。服务器 registry 的规范 ID 是 `concept:<id>`（dex-core 的 12 类之一）
+#   name     中文名，页面上显示的就是它
+#   facet    归到哪一面，见下面 facets
+#   gloss    一句话说明：这个概念指的是什么。给读者看，也给审的人判断写法收得对不对
+#   aliases  语料里**实际出现**的写法。逐段按子串命中（拉丁字母要词边界）；两个字的写法只在
+#            够独特时才收，不独特的靠 with 收紧
+#   with     可选。命中的那一段里还必须出现这里的任一个词，否则不算（收住「交流」「主题」这类泛词）
+#   avoid    可选。命中处落在这些写法里就不算（「平衡」撞「生态平衡」那种）
+#   status   draft 人还没看过 / approved 人审过留下 / rejected 人审过删掉。标注只用 draft + approved，
+#            导出的 reviewed 只有 approved 才是 1
+#   note     可选。给审的人留的话
+#
+# 改这张表以后要跑：
+#   python tools/build-post-lore.py --concepts     # 重新标注 1,172 篇，写 design/concepts-evidence.json
+#   python tools/export-docs-archive.py            # App 的每篇 lore 与段级
+#   python tools/export-document-entities.py       # 服务器的 document_entities
+
+version: "2026-09-26"
+
+facets:
+  design: 设计思路
+  system: 玩法与系统
+  tech: 技术与机能
+  art: 美术
+  audio: 声音
+  story: 剧情与文本
+  process: 开发流程
+  team: 团队与人
+  business: 商业与发行
+  audience: 玩家与社会
+  franchise: 系列与跨媒体
+
+concepts:
+
+  # ------------------------------------------------------------ 设计思路
+  - id: world-building
+    name: 世界观设定
+    facet: design
+    gloss: 一款作品的世界怎么立起来——地区、生态、文明和其中说得通的规则。
+    aliases: [世界观, 世界设定, 世界観, 世界設定]
+    status: draft
+
+  - id: stage-model
+    name: 舞台取材
+    facet: design
+    gloss: 拿现实的地方当地区原型：合众取自纽约、卡洛斯取自法国这类。
+    aliases: [地区设定, 舞台设定, 舞台原型, 为原型, 为蓝本, をモデル]
+    status: draft
+
+  - id: pokemon-design
+    name: 宝可梦设计
+    facet: design
+    gloss: 一只宝可梦怎么来的：先有玩法还是先有形象，谁画的，改了几稿。
+    aliases: [宝可梦设计, 设计宝可梦, 宝可梦的设计, 怪兽设计, 怪物设计, 设计一只, 形象设计, ポケモンのデザイン]
+    status: draft
+
+  - id: naming
+    name: 命名
+    facet: design
+    gloss: 名字怎么取的——宝可梦名、招式名、地名、作品标题。
+    aliases: [命名, 取名, 名称由来, 名字的由来, 名字来自]
+    status: draft
+
+  - id: character-design
+    name: 角色设计
+    facet: design
+    gloss: 人物这一侧的设计：主角、对手、博士、反派组织的样子与性格。
+    aliases: [角色设计, 角色设定, 人物设计, 人物设定, キャラクターデザイン]
+    status: draft
+
+  - id: evolution-design
+    name: 进化的设计
+    facet: design
+    gloss: 进化怎么安排：几段、什么条件、前后形象怎么接上。
+    aliases: [进化形态, 进化设计, 进化线, 进化前后, 进化条件, 超级进化, 形态变化, 地区形态]
+    status: draft
+
+  - id: type-matchup
+    name: 属性相性
+    facet: design
+    gloss: 十几种属性彼此克制的那张表，以及给一只宝可梦定属性。
+    aliases: [属性相性, 属性相克, 属性搭配, 属性配比, 火属性, 水属性, 草属性, 电属性, 龙属性, 恶属性, 钢属性, 超能力属性, タイプ相性]
+    status: draft
+
+  - id: cry-design
+    name: 叫声
+    facet: design
+    gloss: 每只宝可梦的叫声怎么做出来的——机能有限时尤其费心。
+    aliases: [叫声, 鸣叫声, 鳴き声]
+    status: draft
+
+  - id: easy-to-grasp
+    name: 易懂与门槛
+    facet: design
+    gloss: 让第一次玩的人也懂：说明、门槛、不解释也能会。
+    aliases: [易上手, 简单易懂, 一目了然, 门槛, 谁都能玩, 容易理解, 一看就懂, 第一次接触, わかりやす]
+    status: draft
+
+  - id: player-freedom
+    name: 玩家的自由
+    facet: design
+    gloss: 把选择交给玩家：怎么走、带谁、玩到哪一步算完。
+    aliases: [自由度, 自由地, 玩家自己决定, 由玩家自己]
+    with: [玩家, 游戏, 选择, 玩法, 攻略]
+    status: draft
+
+  - id: surprise
+    name: 惊喜与发现
+    facet: design
+    gloss: 让人「咦」一下的东西：藏起来的、没说明的、第一次见到的。
+    aliases: [惊喜, 新鲜感, 意外的发现, 吃惊]
+    status: draft
+
+  - id: mystery
+    name: 神秘感
+    facet: design
+    gloss: 留白与传说：说不清的那一只、来历不明的那件事。
+    aliases: [神秘感, 都市传说, 隐藏要素, 神秘的]
+    status: draft
+
+  - id: life-and-death
+    name: 生死的表述
+    facet: design
+    gloss: 宝可梦「昏厥」不「死亡」，以及怎么在儿童向作品里处理生死。
+    aliases: [昏厥, 濒死, 不会死, 死亡]
+    status: draft
+
+  - id: nature-and-bugs
+    name: 自然与昆虫采集
+    facet: design
+    gloss: 田尻智抓虫的少年时代，以及把采集和生态搬进游戏。
+    aliases: [昆虫, 采集昆虫, 捕虫, 大自然, 生态]
+    status: draft
+
+  - id: connection
+    name: 人与人的连接
+    facet: design
+    gloss: 系列的出发点：交换与对战要有另一个人在，游戏是搭话的由头。
+    aliases: [交流, 沟通, 连接起来, 面对面, つながり]
+    with: [朋友, 玩家, 通信, 交换, 一起, 人与人]
+    status: draft
+
+  # ------------------------------------------------------------ 玩法与系统
+  - id: trade
+    name: 通信交换
+    facet: system
+    gloss: 把宝可梦交给别人——两个版本、进化条件、凑齐图鉴都绕不开它。
+    aliases: [通信交换, 交换宝可梦, 进行交换, 与朋友交换, 交換]
+    status: draft
+
+  - id: link-battle
+    name: 通信对战
+    facet: system
+    gloss: 和另一个人对战：线缆、无线、到后来的网络对战。
+    aliases: [通信对战, 联机对战, 训练家对战, 人对战, 双打对战, 三打对战]
+    status: draft
+
+  - id: battle-system
+    name: 对战系统
+    facet: system
+    gloss: 回合、招式、能力变化那一套规则本身。
+    aliases: [对战系统, 战斗系统, 宝可梦对战, 打对战, 回合, バトルシステム]
+    status: draft
+
+  - id: balance
+    name: 平衡调整
+    facet: system
+    gloss: 强弱怎么摆平：种族值、招式威力、道具，让一招定胜负不至于发生。
+    aliases: [平衡调整, 整体平衡, 平衡性, 游戏平衡, 强度, バランス調整]
+    avoid: [生态平衡, 自然平衡]
+    status: draft
+
+  - id: difficulty
+    name: 难易度
+    facet: system
+    gloss: 做得多难：小孩子能不能通关，老玩家会不会觉得太简单。
+    aliases: [难易度, 难度, 高难度, 难度调整, 難易度]
+    status: draft
+
+  - id: collection
+    name: 收集与图鉴
+    facet: system
+    gloss: 图鉴要凑齐这件事：数量、稀有、非要交换才齐。
+    aliases: [收集宝可梦, 宝可梦图鉴, 全国图鉴, 图鉴完成, 集齐, コンプリート]
+    status: draft
+
+  - id: raising
+    name: 培育
+    facet: system
+    gloss: 把一只养起来：等级、努力值、个体值、孵蛋。
+    aliases: [培育宝可梦, 培育, 努力值, 个体值, 孵蛋, 育成]
+    status: draft
+
+  - id: level-exp
+    name: 等级与经验
+    facet: system
+    gloss: 升级曲线、经验值分配这类数值上的事。
+    aliases: [经验值, 升级, 等级]
+    with: [宝可梦, 对战, 战斗, 调整, 玩家]
+    status: draft
+
+  - id: items
+    name: 道具与精灵球
+    facet: system
+    gloss: 球、伤药、携带道具——玩家手里能用的东西。
+    aliases: [精灵球, 道具, モンスターボール]
+    status: draft
+
+  - id: level-design
+    name: 地图与关卡
+    facet: system
+    gloss: 路线怎么排：城镇、道路、洞窟、走到哪儿会遇到什么。
+    aliases: [关卡, 迷宫, 洞窟, 地图设计, 路线, ダンジョン]
+    status: draft
+
+  - id: main-story
+    name: 主线流程
+    facet: system
+    gloss: 从出门到打完联盟这条线：道馆顺序、节奏、卡住的地方。
+    aliases: [主线剧情, 通关, 剧情流程, 道馆]
+    status: draft
+
+  - id: postgame
+    name: 通关之后
+    facet: system
+    gloss: 打完还能玩什么：后日谈、追加地区、对战设施。
+    aliases: [通关后, 后期内容, 追加要素, 打完之后]
+    status: draft
+
+  - id: multiplayer
+    name: 多人同乐
+    facet: system
+    gloss: 几个人一起玩的设计：合作、同乐会、聚在一起的场合。
+    aliases: [多人游戏, 多名玩家, 一起玩, 合作游玩]
+    status: draft
+
+  - id: competitive
+    name: 竞技与官方大赛
+    facet: system
+    gloss: 对战当竞技看：世界锦标赛、规则限制、选手。
+    aliases: [世界锦标赛, 世界大赛, 官方大赛, 对战大会, 公式大会, 竞技性]
+    status: draft
+
+  - id: randomness
+    name: 随机与运气
+    facet: system
+    gloss: 命中率、概率、闪光那类交给运气的部分。
+    aliases: [随机, 概率, 运气, 抽到]
+    status: draft
+
+  - id: ui-operation
+    name: 界面与操作
+    facet: system
+    gloss: 按键、菜单、几步能做完一件事；手感也算。
+    aliases: [界面, 操作性, 操作方式, 手感, 菜单]
+    status: draft
+
+  - id: camera
+    name: 视角与镜头
+    facet: system
+    gloss: 从哪儿看这个世界：俯视、背后视角、镜头怎么跟。
+    aliases: [镜头, 摄像机, 俯视视角, 视角切换, カメラ]
+    status: draft
+
+  - id: open-world
+    name: 开放世界
+    facet: system
+    gloss: 不按线走的地图，以及为此要重排的一切。
+    aliases: [开放世界, 开阔的地图, オープンワールド]
+    status: draft
+
+  - id: version-pair
+    name: 两个版本
+    facet: system
+    gloss: 同时出两版、各有各的宝可梦——为了让人交换。
+    aliases: [两个版本, 版本差异, 双版本, 两版]
+    status: draft
+
+  - id: distribution-gift
+    name: 配信与赠送
+    facet: system
+    gloss: 活动会场发的那一只、神秘礼物、序列号。
+    aliases: [神秘礼物, 配信, 赠送活动, 分发]
+    status: draft
+
+  # ------------------------------------------------------------ 技术与机能
+  - id: hardware-limits
+    name: 机能与容量
+    facet: tech
+    gloss: 卡带装得下多少、内存够不够——早期作品的一切都从这儿起。
+    aliases: [容量, 内存, 机能, 卡带, ROM, 容量不足]
+    status: draft
+
+  - id: handheld
+    name: 掌机这件事
+    facet: tech
+    gloss: 能带出门、能凑到一起玩，和电视机前的游戏不是一回事。
+    aliases: [掌机, 携带型, 掌上, 带出门]
+    status: draft
+
+  - id: new-hardware
+    name: 新硬件
+    facet: tech
+    gloss: 换一代主机带来的可能与麻烦：性能、新输入、新卖法。
+    aliases: [新硬件, 新主机, 硬件性能, 新机种]
+    status: draft
+
+  - id: cable-link
+    name: 通信线缆
+    facet: tech
+    gloss: 一根线把两台机器接起来，交换与对战的起点。
+    aliases: [通信线, 通信电缆, 通信功能, 通信ケーブル]
+    status: draft
+
+  - id: wireless
+    name: 无线与擦肩
+    facet: tech
+    gloss: 无线适配器、红外线、擦肩通信这些不用线的连法。
+    aliases: [无线通信, 红外线通信, 擦肩通信, 无线适配器, 移动适配器, 移动通信, 赤外線]
+    status: draft
+
+  - id: online-service
+    name: 联网服务
+    facet: tech
+    gloss: 服务器那一侧：全球连接、排行、下载、运营。
+    aliases: [网络功能, 联网, 服务器, 全球连接, 在线, オンライン]
+    status: draft
+
+  - id: three-d
+    name: 3D 与建模
+    facet: tech
+    gloss: 从点阵走到多边形：建模、骨骼、帧数。
+    aliases: [建模, 3D模型, 多边形, 3D化, ポリゴン]
+    status: draft
+
+  - id: pixel-art
+    name: 像素画
+    facet: tech
+    gloss: 一格一格点出来的图，以及色数与尺寸的限制。
+    aliases: [像素画, 像素图, 点阵图, ドット絵]
+    status: draft
+
+  - id: programming
+    name: 程序实现
+    facet: tech
+    gloss: 代码这一侧：怎么写出来的、谁写的、为什么难写。
+    aliases: [编写程序, 程序上, 源代码, 汇编, 编程, 代码, プログラム]
+    status: draft
+
+  - id: debugging
+    name: 调试与除错
+    facet: tech
+    gloss: 找 bug、改 bug，以及留在游戏里的那些。
+    aliases: [调试, 除错, 漏洞, バグ, デバッグ]
+    status: draft
+
+  - id: data-management
+    name: 数据与存档
+    facet: tech
+    gloss: 数据量、存档、把上一作的宝可梦带过来。
+    aliases: [数据量, 数据管理, 存档, 数据转移, セーブ]
+    avoid: [数据管理负责人, 扫描存档, 历史存档, 网页存档, 存档站]
+    status: draft
+
+  - id: dev-tools
+    name: 开发工具与环境
+    facet: tech
+    gloss: 自己做的编辑器、内部工具、开发机。
+    aliases: [开发工具, 开发环境, 内部工具, 编辑器]
+    status: draft
+
+  - id: multilingual
+    name: 多语言与字库
+    facet: tech
+    gloss: 一款游戏同时出好几种语言，字库、字数、排版都要跟上。
+    aliases: [多语言, 语言版本, 字库, 字体, フォント]
+    status: draft
+
+  # ------------------------------------------------------------ 美术
+  - id: art-direction
+    name: 美术风格
+    facet: art
+    gloss: 整体看起来是什么样：线条、色感、统一到什么程度。
+    aliases: [美术风格, 画风, 美术设计, 美术方向, 真实感]
+    status: draft
+
+  - id: hand-drawn
+    name: 手绘与画材
+    facet: art
+    gloss: 铅笔、纸、上色——画在电脑之前的部分。
+    aliases: [手绘, 铅笔, 画材, 原画, 草图]
+    status: draft
+
+  - id: color-work
+    name: 配色
+    facet: art
+    gloss: 颜色怎么定的：机能允许的色数、版本的主色。
+    aliases: [配色, 色彩, 用色]
+    status: draft
+
+  - id: motion
+    name: 动作设计
+    facet: art
+    gloss: 动起来的样子：走、打、被打到、招式的表现。
+    aliases: [动作设计, 动画表现, 动作表现, モーション]
+    status: draft
+
+  - id: screen-look
+    name: 画面表现
+    facet: art
+    gloss: 屏幕上看到的效果：特效、演出、镜头里的一瞬。
+    aliases: [画面表现, 视觉效果, 演出效果, 画面上, グラフィック]
+    status: draft
+
+  - id: illustration
+    name: 插画与设定图
+    facet: art
+    gloss: 宣传图、官方插画、设定资料集里的那些图。
+    aliases: [插画, 设定图, 设定资料, 主视觉, イラスト]
+    status: draft
+
+  # ------------------------------------------------------------ 声音
+  - id: bgm
+    name: 背景音乐
+    facet: audio
+    gloss: 每个场景的曲子：城镇、对战、片头。
+    aliases: [背景音乐, 主题曲, 配乐, BGM]
+    status: draft
+
+  - id: sfx
+    name: 音效
+    facet: audio
+    gloss: 一按键、一进球、一个招式的声音。
+    aliases: [音效, 音效设计, 效果音, サウンド]
+    status: draft
+
+  - id: sound-hardware
+    name: 音源与机能
+    facet: audio
+    gloss: 只有几个声道可用时，曲子怎么写。
+    aliases: [音源, 声道, 和音, 音源チップ]
+    status: draft
+
+  - id: composing
+    name: 作曲
+    facet: audio
+    gloss: 曲子怎么写出来的：动机、编曲、录音。
+    aliases: [作曲, 创作音乐, 音乐创作, 编曲]
+    status: draft
+
+  - id: voice
+    name: 配音
+    facet: audio
+    gloss: 声优、语音、动画里的说话声。
+    aliases: [配音, 声优, 声音演出, 収録]
+    status: draft
+
+  # ------------------------------------------------------------ 剧情与文本
+  - id: scenario
+    name: 剧本
+    facet: story
+    gloss: 故事怎么写的：谁写、改了几版、作品要说什么。
+    aliases: [剧本, 脚本, 编剧, シナリオ]
+    status: draft
+
+  - id: text-volume
+    name: 文本量
+    facet: story
+    gloss: 字数这件事本身：写多少、塞不塞得下、要不要删。
+    aliases: [文本量, 台词量, 字数, 文字量]
+    status: draft
+
+  - id: dialogue
+    name: 台词
+    facet: story
+    gloss: 具体某一句怎么写的，和 NPC 说话的口气。
+    aliases: [台词, 对白, セリフ]
+    status: draft
+
+  - id: theme
+    name: 作品主题
+    facet: story
+    gloss: 一作要讲的那一件事：《黑·白》的正义、《X·Y》的美丽。
+    aliases: [核心主题, 大主题, 主题是, 主题定为, 想表达, 想传达]
+    status: draft
+
+  - id: antagonist
+    name: 对手与反派
+    facet: story
+    gloss: 挡在路上的人：对手角色、恶之组织、他们为什么这么做。
+    aliases: [反派, 对手角色, 恶之组织, 劲敌]
+    status: draft
+
+  - id: anime-writing
+    name: 动画的写法
+    facet: story
+    gloss: 电视动画那一侧的构成：系列构成、分集、分镜。
+    aliases: [动画剧本, 系列构成, 分镜, 脚本会议, 每集, 分集]
+    status: draft
+
+  # ------------------------------------------------------------ 开发流程
+  - id: planning
+    name: 企划
+    facet: process
+    gloss: 一开始那几张纸：企划书、提案、说服别人。
+    aliases: [企划书, 企划案, 企划阶段, 企划时, 提案]
+    status: draft
+
+  - id: prototype
+    name: 原型与试作
+    facet: process
+    gloss: 先做个能玩的出来看看：试作、样品、推翻重来的第一版。
+    aliases: [原型, 试作, 样品, プロトタイプ]
+    status: draft
+
+  - id: dev-cycle
+    name: 开发周期
+    facet: process
+    gloss: 做了多久：几年、几个阶段、什么时候最赶。
+    aliases: [开发周期, 开发期间, 开发时间, 工期, 花了几年, 开发初期, 开发阶段]
+    status: draft
+
+  - id: schedule
+    name: 日程与期限
+    facet: process
+    gloss: 定下的发售日往回倒排出来的一切。
+    aliases: [日程, 截止, 期限, スケジュール]
+    status: draft
+
+  - id: delay
+    name: 延期
+    facet: process
+    gloss: 发售日改了：为什么改、改了以后做什么。
+    aliases: [延期, 发售延期, 推迟, 延后]
+    status: draft
+
+  - id: iteration
+    name: 推翻重做
+    facet: process
+    gloss: 做到一半全部作废，从头再来。
+    aliases: [重做, 推翻, 从零开始, 全部作废, 反复推敲, 作り直]
+    status: draft
+
+  - id: quality
+    name: 完成度与打磨
+    facet: process
+    gloss: 做到什么程度才肯交出去。
+    aliases: [完成度, 品质, 打磨, 精细度, クオリティ]
+    status: draft
+
+  - id: testing
+    name: 测试与试玩
+    facet: process
+    gloss: 自己人玩、外面的人玩，然后照反馈改。
+    aliases: [测试, 试玩, 检查游戏, プレイテスト]
+    status: draft
+
+  - id: teamwork
+    name: 分工与协作
+    facet: process
+    gloss: 几个工种怎么对上：谁等谁、怎么传话。
+    aliases: [分工, 协作, 团队合作, 一起做, 一起商量, 各自负责, 流水线]
+    status: draft
+
+  - id: team-size
+    name: 团队规模
+    facet: process
+    gloss: 几个人做的：初代十来人，后来几百人。
+    aliases: [团队规模, 开发人数, 几个人做, 人数增加, 全公司]
+    status: draft
+
+  - id: outsourcing
+    name: 外包与协力
+    facet: process
+    gloss: 自己不做的部分交给别的公司。
+    aliases: [外包, 委托开发, 协力公司, 外部公司]
+    status: draft
+
+  - id: remake
+    name: 复刻与重制
+    facet: process
+    gloss: 把旧作再做一次：保留什么、改什么。
+    aliases: [复刻, 重制版, 重新制作, リメイク]
+    status: draft
+
+  - id: sequel
+    name: 续作
+    facet: process
+    gloss: 下一作怎么接上上一作，以及每次都要「新」的压力。
+    aliases: [续作, 正统续作, 系列最新作, 完全新作, 続編]
+    status: draft
+
+  - id: port
+    name: 移植
+    facet: process
+    gloss: 同一作搬到另一台机器上。
+    aliases: [移植, 移植版]
+    status: draft
+
+  - id: reuse
+    name: 沿用与继承
+    facet: process
+    gloss: 前作的素材、程序、设定接着用。
+    aliases: [沿用, 继承, 前作的, 以前的素材]
+    status: draft
+
+  # ------------------------------------------------------------ 团队与人
+  - id: recruiting
+    name: 招聘与新人
+    facet: team
+    gloss: GAME FREAK 招人这件事：应届、中途、看什么。
+    aliases: [招聘, 新卒, 届毕业生, 新人, 应届]
+    status: draft
+
+  - id: mentoring
+    name: 带人与培养
+    facet: team
+    gloss: 老手怎么教新手，第一份活派什么。
+    aliases: [带新人, 培养, 教育新人, 指导]
+    status: draft
+
+  - id: joining
+    name: 进公司之前
+    facet: team
+    gloss: 面试、转职、入职的经过——访谈里常从这儿说起。
+    aliases: [进公司, 入职, 转职, 面试, 学生时代, 职业生涯, 入社]
+    status: draft
+
+  - id: studio-culture
+    name: 公司氛围
+    facet: team
+    gloss: 社内是什么样：座位、讨论、能不能说「不行」。
+    aliases: [公司内部, 团队内部, 社内, 公司的气氛, 办公室, オフィス]
+    status: draft
+
+  - id: work-style
+    name: 工作方式
+    facet: team
+    gloss: 怎么干活的：加班、通宵、远程、几点上班。
+    aliases: [加班, 通宵, 工作方式, 远程]
+    status: draft
+
+  # ------------------------------------------------------------ 商业与发行
+  - id: sales
+    name: 销量
+    facet: business
+    gloss: 卖了多少、哪儿卖得好、和上一作比。
+    aliases: [销量, 出货, 卖了, 销售数字]
+    status: draft
+
+  - id: marketing
+    name: 宣传
+    facet: business
+    gloss: 怎么让人知道：广告、情报公开的节奏、发布会。
+    aliases: [宣传, 广告, 情报公开, 宣传活动]
+    status: draft
+
+  - id: media-mix
+    name: 媒体展开
+    facet: business
+    gloss: 游戏、动画、卡牌、玩具一起上的那套做法。
+    aliases: [媒体展开, 跨媒体, 多媒体, 商品展开, メディアミックス]
+    status: draft
+
+  - id: merchandise
+    name: 周边商品
+    facet: business
+    gloss: 玩具、毛绒、联名商品，以及商品化的审查。
+    aliases: [周边商品, 商品化, 玩具, グッズ]
+    status: draft
+
+  - id: licensing
+    name: 版权与监修
+    facet: business
+    gloss: 谁能用这个形象、怎么用，改一稿要谁点头。
+    aliases: [版权, 品牌管理, 授权, 监修, ライセンス]
+    status: draft
+
+  - id: overseas
+    name: 海外发行
+    facet: business
+    gloss: 出到日本以外：本地化、同步发售、各地的口味。
+    aliases: [海外版, 海外市场, 面向全球, 全球同步发售, 海外发售]
+    status: draft
+
+  - id: localization
+    name: 本地化
+    facet: business
+    gloss: 换一种语言以后名字、笑点、文化前提都要重做。
+    aliases: [本地化, 各国语言, ローカライズ, 翻译]
+    with: [海外, 英文, 英语, 各国语言, 片假名, 字数, 美版, 欧洲, 语言版本]
+    status: draft
+
+  - id: price-model
+    name: 免费与付费
+    facet: business
+    gloss: 怎么收钱：买断、基本免费、内购。
+    aliases: [免费, 课金, 付费, 基本免费, 内购]
+    status: draft
+
+  - id: live-events
+    name: 线下活动
+    facet: business
+    gloss: 会场那一侧：办活动、巡展、来了多少人。
+    aliases: [活动会场, 举办活动, 线下活动, 巡展, イベント]
+    status: draft
+
+  - id: collaboration
+    name: 联动
+    facet: business
+    gloss: 和别的作品、别的行业一起做一件事。
+    aliases: [联动, 合作企划, 携手, コラボ]
+    status: draft
+
+  # ------------------------------------------------------------ 玩家与社会
+  - id: children
+    name: 儿童玩家
+    facet: audience
+    gloss: 给孩子做游戏：懂不懂、家长怎么想、能不能一个人玩。
+    aliases: [孩子们, 小孩子, 儿童, 小学生, 子供]
+    status: draft
+
+  - id: family
+    name: 家庭与亲子
+    facet: audience
+    gloss: 一家人一起玩，或者父母陪着玩。
+    aliases: [亲子, 家庭, 一家人, 家长]
+    status: draft
+
+  - id: player-segments
+    name: 老玩家与新玩家
+    facet: audience
+    gloss: 玩了二十年的和第一次碰的，同一作要同时接住。
+    aliases: [核心玩家, 老玩家, 新玩家, 轻度玩家, 玩家群体, 年龄层, 目标年龄]
+    status: draft
+
+  - id: community
+    name: 玩家社群
+    facet: audience
+    gloss: 玩家之间怎么传的：口耳相传、社交网络、线下聚。
+    aliases: [玩家之间, 社群, 社交网络, 口耳相传, 论坛]
+    status: draft
+
+  - id: guides
+    name: 攻略文化
+    facet: audience
+    gloss: 攻略本、杂志情报、互相交换秘技的那个年代。
+    aliases: [攻略本, 攻略, 秘技, 情报杂志]
+    status: draft
+
+  - id: fan-works
+    name: 二创与同人
+    facet: audience
+    gloss: 玩家自己画、自己做的东西，以及公司怎么看。
+    aliases: [同人, 同人志, 二次创作, 玩家创作]
+    status: draft
+
+  - id: nostalgia
+    name: 怀旧
+    facet: audience
+    gloss: 当年玩过的人长大了，回头看这件事。
+    aliases: [怀旧, 当年的玩家, 长大以后, 童年, 小时候玩, 思い出]
+    status: draft
+
+  - id: education
+    name: 教育与育儿
+    facet: audience
+    gloss: 从游戏里学到什么，以及大人担心什么。
+    aliases: [教育, 育儿, 教材, 教育意义]
+    avoid: [学习器]
+    status: draft
+
+  - id: social-impact
+    name: 社会反响
+    facet: audience
+    gloss: 成为现象以后的事：热潮、批评、出过的事故。
+    aliases: [社会现象, 热潮, 风靡, 批评, 抗议]
+    status: draft
+
+  - id: accessibility
+    name: 无障碍
+    facet: audience
+    gloss: 让更多人玩得上：色觉、操作、字号、语言。
+    aliases: [无障碍, 色弱, 色觉, 谁都能玩到]
+    status: draft
+
+  # ------------------------------------------------------------ 系列与跨媒体
+  - id: anime
+    name: 电视动画
+    facet: franchise
+    gloss: 每周播的那一部：怎么做、和游戏怎么对。
+    aliases: [电视动画, 动画版, 动画化, 动画系列]
+    status: draft
+
+  - id: movie
+    name: 剧场版
+    facet: franchise
+    gloss: 一年一部的电影：主题、新宝可梦的首次亮相。
+    aliases: [剧场版, 动画电影, 电影版, 大银幕]
+    status: draft
+
+  - id: tcg
+    name: 集换式卡牌
+    facet: franchise
+    gloss: 卡牌这一侧：卡图、规则、卡组、大赛。
+    aliases: [集换式卡牌, 卡牌游戏, 卡片游戏, 宝可梦卡牌, TCG]
+    status: draft
+
+  - id: manga
+    name: 漫画
+    facet: franchise
+    gloss: 连载漫画与其中的改编。
+    aliases: [漫画, 连载漫画, コミック]
+    status: draft
+
+  - id: stage-music
+    name: 音乐剧与演出
+    facet: franchise
+    gloss: 舞台上的宝可梦：音乐剧、演唱会、交响乐。
+    aliases: [音乐剧, 舞台剧, 演唱会, 交响]
+    status: draft
+
+  - id: mobile-app
+    name: 手机应用
+    facet: franchise
+    gloss: 手机上的那些：GO、睡眠、朋友广场。
+    aliases: [手机游戏, 手机应用, 智能手机, アプリ]
+    status: draft
+
+  - id: spinoff
+    name: 外传作品
+    facet: franchise
+    gloss: 主系列之外的：不可思议迷宫、乱战、快打拳。
+    aliases: [外传, 派生作品, 番外, スピンオフ]
+    status: draft
+
+  - id: generations
+    name: 世代与代际
+    facet: franchise
+    gloss: 一代一代往下数这件事：初代、世代交替、每代的新要素。
+    aliases: [世代交替, 新世代, 初代, 第一世代, 第二世代, 第三世代, 第四世代, 第五世代, 第六世代, 第七世代, 第八世代, 第九世代]
+    status: draft
+
+  - id: canon-consistency
+    name: 设定统一
+    facet: franchise
+    gloss: 游戏、动画、卡牌说的不能互相打架，谁来管。
+    aliases: [设定统一, 设定集, 统一设定, 设定上的]
+    status: draft

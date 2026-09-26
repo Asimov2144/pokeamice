@@ -131,6 +131,72 @@
     "what": "搭话地点",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "remake",
+    "name": "复刻与重制",
+    "facet": "process",
+    "seg": [
+     7,
+     67
+    ],
+    "as": [
+     "重制版",
+     "リメイク"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "port",
+    "name": "移植",
+    "facet": "process",
+    "seg": [
+     8,
+     68
+    ],
+    "as": [
+     "移植"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     21,
+     82
+    ],
+    "as": [
+     "世界观",
+     "世界観"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     80,
+     93
+    ],
+    "as": [
+     "シナリオ"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -181,7 +247,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

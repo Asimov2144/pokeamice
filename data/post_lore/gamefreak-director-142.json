@@ -71,7 +71,8 @@
     "what": "任天堂所在地",
     "via": "llm"
    }
-  ]
+  ],
+  "concepts": []
  },
  "observations": [
   {
@@ -113,7 +114,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

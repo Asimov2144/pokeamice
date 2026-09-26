@@ -45,6 +45,34 @@
     "what": "使用DIALGA的地区",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     4,
+     21
+    ],
+    "as": [
+     "翻译",
+     "本地化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     14
+    ],
+    "as": [
+     "龙属性"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -71,7 +99,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

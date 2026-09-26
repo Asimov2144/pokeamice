@@ -165,6 +165,21 @@
     "via": "extra",
     "category_link": "pc"
    }
+  ],
+  "concepts": [
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     21,
+     39
+    ],
+    "as": [
+     "周边商品"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -182,7 +197,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

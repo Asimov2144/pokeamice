@@ -168,6 +168,96 @@
     "what": "与缘朱市景象不同",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     0,
+     2,
+     4,
+     6,
+     23,
+     103
+    ],
+    "as": [
+     "音效",
+     "サウンド"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     4,
+     9,
+     27,
+     34,
+     40,
+     44
+    ],
+    "as": [
+     "编曲",
+     "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     25,
+     134
+    ],
+    "as": [
+     "画面表现",
+     "グラフィック"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     85,
+     90,
+     197,
+     203
+    ],
+    "as": [
+     "重做",
+     "作り直"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     90
+    ],
+    "as": [
+     "截止"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -202,7 +292,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

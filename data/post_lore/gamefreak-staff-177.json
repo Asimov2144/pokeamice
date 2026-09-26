@@ -22,7 +22,55 @@
     "via": "llm"
    }
   ],
-  "places": []
+  "places": [],
+  "concepts": [
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     3,
+     6,
+     20,
+     25,
+     30,
+     31
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     4,
+     5,
+     9,
+     44
+    ],
+    "as": [
+     "入社",
+     "入职"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     41,
+     43
+    ],
+    "as": [
+     "思い出"
+    ],
+    "via": "body"
+   }
+  ]
  },
  "observations": [
   {
@@ -38,7 +86,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

@@ -33,6 +33,20 @@
     "what": "抵达后的停留地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     0
+    ],
+    "as": [
+     "大自然"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -46,7 +60,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

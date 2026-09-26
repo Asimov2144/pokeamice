@@ -63,6 +63,31 @@
     "what": "演讲主题地区",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     48,
+     59
+    ],
+    "as": [
+     "建模"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "open-world",
+    "name": "开放世界",
+    "facet": "system",
+    "seg": [],
+    "as": [
+     "开放世界"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -99,7 +124,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

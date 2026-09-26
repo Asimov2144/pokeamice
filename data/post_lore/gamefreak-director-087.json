@@ -51,6 +51,22 @@
     "what": "举办达·芬奇展",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "打磨",
+     "品质"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -68,7 +84,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

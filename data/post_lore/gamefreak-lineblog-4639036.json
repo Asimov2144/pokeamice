@@ -100,6 +100,18 @@
     "what": "大会举办地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "live-events",
+    "name": "线下活动",
+    "facet": "business",
+    "seg": [],
+    "as": [
+     "イベント"
+    ],
+    "via": "tag"
+   }
   ]
  },
  "observations": [
@@ -117,7 +129,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }

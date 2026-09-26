@@ -71,6 +71,32 @@
     "what": "签名会举办地",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     10
+    ],
+    "as": [
+     "配信"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     24
+    ],
+    "as": [
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -88,7 +114,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }
