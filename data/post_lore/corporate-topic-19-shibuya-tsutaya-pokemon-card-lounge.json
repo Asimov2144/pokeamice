@@ -285,30 +285,6 @@
      "老玩家"
     ],
     "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     31
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     31
-    ],
-    "as": [
-     "入社"
-    ],
-    "via": "body"
    }
   ]
  },

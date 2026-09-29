@@ -8,7 +8,7 @@ source: http://www.gamefreak.co.jp/blog/staff/?p=150
 status: source-extracted
 ---
 
-はじめまして縲怐B<br>
+はじめまして〜。<br>
 
 グラフィックデザイナーのおおむらと申します。<br>
 
@@ -120,7 +120,7 @@ status: source-extracted
 
 そもそも部屋から出るとか面倒くさいじゃないですか…
 
-それでは縲怐B<br>
+それでは〜。<br>
 
 次の『ＨＧ・ＳＳ　語っちゃいます！』もお楽しみに！
 

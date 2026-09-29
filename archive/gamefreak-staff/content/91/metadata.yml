@@ -2,20 +2,11 @@ article_id: gamefreak-staff-91
 post_id: 91
 date: '2008-10-10'
 title: プラチナここだけの話 その３
-tags: []
+tags:
+- 松田
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +32,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: 松田
+  zh: 松田
+  guest: true
+history:
+  early_versions: 13
+  earliest_capture: '20081014113237'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 5
+  edits: 0
+  record: archive/gamefreak-staff/content/91/history.yml

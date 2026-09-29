@@ -38,7 +38,7 @@ status: source-extracted
 
 {% legacy_image id="gamefreak-staff-2fbbd46600e8" alt="" %}
 
-おいしそ?！！
+おいしそ～！！
 
 ・<br>
 

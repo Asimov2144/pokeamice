@@ -47,6 +47,21 @@ staff:
       label: "Photo by anakawho"
     - image: /assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg
       label: "Photo by lorelei"
+  # 2013 年以前的三套模板页头（Web Archive 快照里的起止时间）。tools/gamefreak_staff_history.py 存档，
+  # 原件与样式表在 archive/gamefreak-staff/assets/history/themes/
+  early_headers:
+    - image: /assets/images/gamefreak-legacy/staff/shared/early/2007-staff01.jpg
+      theme: staff01
+      span: 2007.10–2009.09
+      label: 原版
+    - image: /assets/images/gamefreak-legacy/staff/shared/early/2009-staff-hgss.jpg
+      theme: staff_hgss
+      span: 2009.09–2010.08
+      label: 《心金·魂银》发售期
+    - image: /assets/images/gamefreak-legacy/staff/shared/early/2010-staff01-wb.jpg
+      theme: staff01_wb
+      span: 2010.10–2012.10
+      label: 《黑·白》发售期
   categories:
     - ja: GF紹介
       zh: GF介绍

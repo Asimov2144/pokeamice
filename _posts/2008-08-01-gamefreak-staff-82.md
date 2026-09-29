@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ジョニ
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 82
+gf_history:
+  early_versions: 21
+  earliest_capture: '20080806014257'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: ジョニ
+  zh: 乔尼
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer09-57ddcf.gif
 gf_entry_title: 【工作日志】2008年E3普通说明会现场
 gf_original_title: Nintendo 2008 E3 Media Briefing
 gf_translation_title: 【工作日志】2008年E3普通说明会现场
@@ -129,7 +128,7 @@ entities:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/82/jonny080731_01-a2d7cdd5.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/82/jonny080731_01-a2d7cdd5.jpg" alt="コダックシアター" loading="lazy"></a></figure>
 
-コダックシアターは毎年のアカデミー賞授賞式も開かれてる美し?い劇場。<br>
+コダックシアターは毎年のアカデミー賞授賞式も開かれてる美し～い劇場。<br>
 
 ライト等の演出の装置が所々満載。ジョニーは会場の色合いを眺めるだけで惚れ惚れ。
 

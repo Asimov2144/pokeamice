@@ -1,0 +1,5321 @@
+generated_at: '2026-09-29T04:46:04+00:00'
+posts:
+- id: 2
+  status: not-in-current
+  versions: 3
+  title_early: About
+- id: 3
+  current_capture: '20130414121736'
+  earliest: '20071116134020'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: はじめましてのごあいさつ
+  title_now: はじめましてのごあいさつ
+  cats_early:
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 5
+  current_capture: '20130414084241'
+  earliest: '20071116134020'
+  earliest_theme: staff01
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 夏の暑さにどりるれろ
+  title_now: 夏の暑さにどりるれろ
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 9
+  current_capture: '20130414124104'
+  earliest: '20071116134020'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: もういくつ寝ると
+  title_now: もういくつ寝ると
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 13
+  current_capture: '20130414135414'
+  earliest: '20071116122319'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: エノキのなつやすみ
+  title_now: エノキのなつやすみ
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - エノキ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 18
+  current_capture: '20130414160710'
+  earliest: '20071116122319'
+  earliest_theme: staff01
+  versions: 13
+  full_versions: 13
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - はじめまして、よっしーです~。
+    - ポケモンカードゲームのイラストも描いていますよ~。
+    - 今月の中旬、8月の11~12日に、
+    - 二人は今回のカード大会にて、サイン会を行なったのですよ~。
+    - 歴史を感じますね。ロマンですよ~。
+    - 日々の生活に、どんどんたっくさんいれてゆきたいな~と
+    added:
+    - はじめまして、よっしーです?。
+    - ポケモンカードゲームのイラストも描いていますよ?。
+    - 今月の中旬、8月の11?12日に、
+    - 二人は今回のカード大会にて、サイン会を行なったのですよ?。
+    - 歴史を感じますね。ロマンですよ?。
+    - 日々の生活に、どんどんたっくさんいれてゆきたいな?と
+    ts: '20071116122319'
+    kind_of_page: cat
+    file: raw/history/20071116122319_blog_staff_cat=4_79d309a3.html
+    seen_in:
+    - '20071116122319'
+    - '20071116134020'
+    - '20071116141641'
+    - '20071209070110'
+    - '20071210044947'
+    - '20081002132141'
+    - '20081008122957'
+    - '20090417095218'
+  title_early: ハワイの島の、いちばんあつい日
+  title_now: ハワイの島の、いちばんあつい日
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - よっしー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 24
+  current_capture: '20130414162857'
+  earliest: '20071016172048'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: ゲームフリークの名刺
+  title_now: ゲームフリークの名刺
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - ポケモン
+  - 採用
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 26
+  current_capture: '20130414160647'
+  earliest: '20071116122319'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: デコぼこクライミング！
+  title_now: デコぼこクライミング！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - デコ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 30
+  current_capture: '20130414205403'
+  earliest: '20071016172048'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 謎のロッカー
+  title_now: 謎のロッカー
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 33
+  current_capture: '20130414172155'
+  earliest: '20071116122319'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 社内の流行しているゲーム
+  title_now: 社内の流行しているゲーム
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 35
+  current_capture: '20130414205539'
+  earliest: '20071016172048'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 大好きなポケモン
+  title_now: 大好きなポケモン
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - ポケモン
+  tags_early:
+  - GF紹介
+  writers_early:
+  - ラッペン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 36
+  current_capture: '20130414172248'
+  earliest: '20071014022250'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: パーティ！
+  title_now: パーティ！
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  tags_early:
+  - GF紹介
+  writers_early:
+  - エノキ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 37
+  current_capture: '20130414180437'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 20
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: たのしくおかたづけ
+  title_now: たのしくおかたづけ
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  writers_early:
+  - ユッフィー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 38
+  current_capture: '20130414175740'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 20
+  full_versions: 18
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - ほんとはめっちゃ嬉しいくせに!コイツめコイツめ~
+    - ん~~、どうでしょう...。
+    added:
+    - ほんとはめっちゃ嬉しいくせに!コイツめコイツめ?
+    - ん??、どうでしょう...。
+    ts: '20071115194802'
+    kind_of_page: index
+    file: raw/history/20071115194802_blog_staff_eab47c6b.html
+    seen_in:
+    - '20071115194802'
+    - '20071116122319'
+    - '20071116134038'
+    - '20071116141636'
+    - '20071116141706'
+    - '20071116141755'
+    - '20071217025501'
+    - '20081002132151'
+    - '20081008060838'
+    - '20081008122044'
+    - '20090417100321'
+    - '20101019003951'
+    - '20101019053755'
+  title_early: ポケモンカードゲーム大会！
+  title_now: ポケモンカードゲーム大会！
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  writers_early:
+  - マー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 39
+  current_capture: '20130414172451'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 21
+  full_versions: 19
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 以上、ジョニの日記でした~。
+    added:
+    - 以上、ジョニの日記でした?。
+    ts: '20071115194802'
+    kind_of_page: index
+    file: raw/history/20071115194802_blog_staff_eab47c6b.html
+    seen_in:
+    - '20071115194802'
+    - '20071116122319'
+    - '20071116134038'
+    - '20071116141636'
+    - '20071116141711'
+    - '20071116141755'
+    - '20071217025501'
+    - '20071218210150'
+    - '20080116055411'
+    - '20081002132151'
+    - '20081008123007'
+    - '20090417100321'
+    - '20101019003951'
+    - '20101019054003'
+  title_early: 秋のイベント♪
+  title_now: 秋のイベント♪
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  writers_early:
+  - ジョニ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 40
+  current_capture: '20130414192842'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 22
+  full_versions: 20
+  text: same
+  deltas: []
+  title_early: プチ秘密
+  title_now: プチ秘密
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - ポケモン
+  tags_early:
+  - GF紹介
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 41
+  current_capture: '20130414155811'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 新卒採用始めました！
+  title_now: 新卒採用始めました！
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - 採用
+  tags_early:
+  - GF紹介
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 42
+  current_capture: '20130414190317'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 24
+  full_versions: 22
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - ジョイントもっと欲しいよ〜とか言ってた気がします。
+    added:
+    - ジョイントもっと欲しいよ縲怩ニか言ってた気がします。
+    ts: '20071115194802'
+    kind_of_page: index
+    file: raw/history/20071115194802_blog_staff_eab47c6b.html
+    seen_in:
+    - '20071115194802'
+    - '20071116122319'
+    - '20071116134059'
+    - '20071116141636'
+    - '20071116141727'
+    - '20071116141755'
+    - '20071217025501'
+    - '20071218210150'
+    - '20080116055411'
+    - '20080116055428'
+    - '20080804134138'
+    - '20081002132200'
+    - '20081008123018'
+    - '20090417100330'
+    - '20101019003955'
+    - '20101019053731'
+  title_early: ドッツ
+  title_now: ドッツ
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  writers_early:
+  - スティック
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 43
+  current_capture: '20130414165445'
+  earliest: '20071114075057'
+  earliest_theme: staff01
+  versions: 26
+  full_versions: 24
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 最近すっかり寒くなってきましたね~。
+    added:
+    - 最近すっかり寒くなってきましたね?。
+    ts: '20071114075057'
+    kind_of_page: post
+    file: raw/history/20071114075057_blog_staff_p=43_5438d242.html
+    seen_in:
+    - '20071114075057'
+    - '20071115194802'
+    - '20071116122319'
+    - '20071116134059'
+    - '20071116141636'
+    - '20071116141755'
+    - '20071217025501'
+    - '20071218210150'
+    - '20080113194430'
+    - '20080116055411'
+    - '20080320052331'
+    - '20081002132200'
+    - '20081008122120'
+    - '20090417100330'
+    - '20090417100427'
+    - '20100107211629'
+    - '20101019003955'
+    - '20101019053908'
+  title_early: ファミコンショップGF
+  title_now: ファミコンショップGF
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  writers_early:
+  - おにいさん
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 44
+  current_capture: '20130414160023'
+  earliest: '20071115194802'
+  earliest_theme: staff01
+  versions: 25
+  full_versions: 23
+  text: same
+  deltas: []
+  title_early: さよなら下北沢
+  title_now: さよなら下北沢
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 45
+  current_capture: '20130414192259'
+  earliest: '20071217025501'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: こんにちは！ 三軒茶屋！
+  title_now: こんにちは！ 三軒茶屋！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 46
+  current_capture: '20130414165357'
+  earliest: '20071217025501'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: しばしの旅気分
+  title_now: しばしの旅気分
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 47
+  current_capture: '20130414190756'
+  earliest: '20071217025501'
+  earliest_theme: staff01
+  versions: 17
+  full_versions: 17
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 「♪はあ~、こりゃこりゃ」みたいな唄をうたってから出勤して、
+    added:
+    - 「♪はあ?、こりゃこりゃ」みたいな唄をうたってから出勤して、
+    ts: '20071217025501'
+    kind_of_page: index
+    file: raw/history/20071217025501_blog_staff_eab47c6b.html
+    seen_in:
+    - '20071217025501'
+    - '20071218210150'
+    - '20080108013350'
+    - '20080116055411'
+    - '20080119050507'
+    - '20080119050657'
+    - '20080212112645'
+    - '20080804134112'
+    - '20081008055713'
+    - '20081008060808'
+    - '20090416034424'
+    - '20101019004000'
+  title_early: げいのう話
+  title_now: げいのう話
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - げいのう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 48
+  current_capture: '20130414191151'
+  earliest: '20071218210150'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: 楽しい時間の過ごし方
+  title_now: 楽しい時間の過ごし方
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ディア
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 49
+  current_capture: '20130414165213'
+  earliest: '20080116055411'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: しゃちのアクアリウム日記
+  title_now: しゃちのアクアリウム日記
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - しゃち
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 50
+  current_capture: '20130414121949'
+  earliest: '20080116055411'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 今年ももうすぐ終わりですね
+  title_now: 今年ももうすぐ終わりですね
+  cats_early:
+  - にっき
+  - 未分類
+  tags_early: []
+  writers_early:
+  - つばっさ−
+  - つばっさー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 51
+  current_capture: '20130414172820'
+  earliest: '20080119050507'
+  earliest_theme: staff01
+  versions: 20
+  full_versions: 20
+  text: same
+  deltas: []
+  title_early: 年賀ドットコンテスト、開催！
+  title_now: 年賀ドットコンテスト、開催！
+  cats_early:
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 52
+  current_capture: '20130414202009'
+  earliest: '20080119050507'
+  earliest_theme: staff01
+  versions: 25
+  full_versions: 25
+  text: same
+  deltas: []
+  title_early: 会社説明会、開催！
+  title_now: 会社説明会、開催！
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - « Older Entries
+  - 採用
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 53
+  current_capture: '20130414143545'
+  earliest: '20080119050507'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - といった感じで、本当にたくさんの形状があるので見ているだけでも楽しいですね~。
+    added:
+    - といった感じで、本当にたくさんの形状があるので見ているだけでも楽しいですね?。
+    ts: '20080119050507'
+    kind_of_page: index
+    file: raw/history/20080119050507_blog_staff_eab47c6b.html
+    seen_in:
+    - '20080119050507'
+    - '20080119050657'
+    - '20080212112645'
+    - '20080222184418'
+    - '20080222184426'
+    - '20080323233205'
+    - '20080804132524'
+    - '20081008055718'
+    - '20081008122120'
+    - '20090417100427'
+    - '20101019004005'
+    - '20101019053908'
+  title_early: ファミコンのカタチ
+  title_now: ファミコンのカタチ
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - おにいさん
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 54
+  current_capture: '20130414172626'
+  earliest: '20080212112645'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: すきー。
+  title_now: すきー。
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - おせんべい
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 55
+  current_capture: '20130414183610'
+  earliest: '20080212112645'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: 迫る！ しめきり
+  title_now: 迫る！ しめきり
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 56
+  current_capture: '20130414083647'
+  earliest: '20080212112645'
+  earliest_theme: staff01
+  versions: 17
+  full_versions: 17
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - エントリーポケモン 3〜6匹
+    - そんな中もりもとのライバル、カビ(ゲームデザイナー)がついに立ち上がりました。
+    added:
+    - エントリーポケモン 3縲怩U匹
+    - そんな中もりもとのライバル、カビ(プランナー)がついに立ち上がりました。
+    ts: '20080212112645'
+    kind_of_page: index
+    file: raw/history/20080212112645_blog_staff_eab47c6b.html
+    seen_in:
+    - '20080212112645'
+    - '20080222184418'
+    - '20080222184426'
+    - '20080323233205'
+    - '20080324110741'
+  - kind: changed
+    removed:
+    - エントリーポケモン 3〜6匹
+    added:
+    - エントリーポケモン 3縲怩U匹
+    ts: '20080423001930'
+    kind_of_page: post
+    file: raw/history/20080423001930_blog_staff_p=56_2b5d2021.html
+    seen_in:
+    - '20080423001930'
+    - '20080804134117'
+    - '20080928063148'
+    - '20080928083935'
+    - '20081008055723'
+    - '20090417100335'
+    - '20101019004010'
+  title_early: 社内ポケモンDPゲーム大会開催
+  title_now: 社内ポケモンDPゲーム大会開催
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 57
+  current_capture: '20130414140124'
+  earliest: '20080222184418'
+  earliest_theme: staff01
+  versions: 21
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 年賀ドットコンテスト、結果発表！
+  title_now: 年賀ドットコンテスト、結果発表！
+  cats_early:
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 58
+  current_capture: '20130414135646'
+  earliest: '20080222184418'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: クライスラーは笑う
+  title_now: クライスラーは笑う
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ねこスq
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 59
+  current_capture: '20130414084100'
+  earliest: '20080222184418'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 世田谷線のミニチュア
+  title_now: 世田谷線のミニチュア
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - っゃっゃ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 60
+  current_capture: '20130414114429'
+  earliest: '20080323233205'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: No Video Games, No Life.
+  title_now: No Video Games, No Life.
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ヒロ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 61
+  current_capture: '20130414121429'
+  earliest: '20080323233205'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 23
+  text: same
+  deltas: []
+  title_early: サウンド講習会
+  title_now: サウンド講習会
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 62
+  current_capture: '20130414084146'
+  earliest: '20080323233205'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: ケーキ祭り
+  title_now: ケーキ祭り
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 63
+  current_capture: '20130414140001'
+  earliest: '20080324110741'
+  earliest_theme: staff01
+  versions: 21
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 技術の伝承
+  title_now: 技術の伝承
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - げいのう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 65
+  current_capture: '20130414113727'
+  earliest: '20080423074514'
+  earliest_theme: staff01
+  versions: 24
+  full_versions: 24
+  text: same
+  deltas: []
+  title_early: 杉森建のドット絵講座
+  title_now: 杉森建のドット絵講座
+  cats_early:
+  - GF紹介
+  - Newer Entries »
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - エノキ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 66
+  current_capture: '20130414135518'
+  earliest: '20080423074514'
+  earliest_theme: staff01
+  versions: 19
+  full_versions: 19
+  text: same
+  deltas: []
+  title_early: ピッピ牧場
+  title_now: ピッピ牧場
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - カビ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 67
+  current_capture: '20130414084511'
+  earliest: '20080423074514'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 23
+  text: same
+  deltas: []
+  title_early: いしかわけん！
+  title_now: いしかわけん！
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  tags_early: []
+  writers_early:
+  - えるかつ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 68
+  current_capture: '20130414083326'
+  earliest: '20080514075156'
+  earliest_theme: staff01
+  versions: 24
+  full_versions: 24
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 会社から支給されたペンタブはとにかくおおきい~!描きやすさにびっくりです...
+    added:
+    - 会社から支給されたペンタブはとにかくおおきい?!描きやすさにびっくりです...
+    ts: '20080514075156'
+    kind_of_page: index
+    file: raw/history/20080514075156_blog_staff_eab47c6b.html
+    seen_in:
+    - '20080514075156'
+    - '20080611083350'
+    - '20080611083356'
+    - '20080616092515'
+    - '20080804132529'
+    - '20081008055708'
+    - '20081008055733'
+    - '20081008060833'
+    - '20081008122028'
+    - '20081206180831'
+    - '20090416034419'
+    - '20090417100508'
+    - '20101019004021'
+    - '20101019053612'
+    - '20101019054029'
+  title_early: 研修生活
+  title_now: 研修生活
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - マシュー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 69
+  current_capture: '20130414142639'
+  earliest: '20080514075156'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: それぞれのゴールデンウィーク
+  title_now: それぞれのゴールデンウィーク
+  cats_early:
+  - にっき
+  tags_early:
+  - げいのう
+  - エノキ
+  - ジョニ
+  - スティック
+  - ディア
+  - デコ
+  - ラッペン
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 70
+  current_capture: '20130414091231'
+  earliest: '20080611083350'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: 会社対抗ポケモンDPゲーム大会開催
+  title_now: 会社対抗ポケモンDPゲーム大会開催
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 71
+  current_capture: '20130414133049'
+  earliest: '20080611083350'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 22階の恐怖
+  title_now: 22階の恐怖
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - スティック
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 72
+  current_capture: '20130414104541'
+  earliest: '20080611083350'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 週末のスリル
+  title_now: 週末のスリル
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 73
+  current_capture: '20130414131838'
+  earliest: '20080611083350'
+  earliest_theme: staff01
+  versions: 19
+  full_versions: 19
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 麺は、 香ばしく炒められて、スープに浸っていても、伸びにくく、コシは保たれたまま。スープは、鶏ガラベースで醤油味。少しだけ薄い味つけ。麺をたぐるたびに、麺に絡んだソースが溶けて、少しずつ、スープに旨味とコクが足されてきます。一口。二口。三口。箸を進めるたび、変化していく色。香り。旨味。一瞬、ミスマッチにさえ感じる味。なのに、どこか懐かしいというか、優しい味。なんとも不思議な麺だな~と思います。
+    added:
+    - 麺は、 香ばしく炒められて、スープに浸っていても、伸びにくく、コシは保たれたまま。スープは、鶏ガラベースで醤油味。少しだけ薄い味つけ。麺をたぐるたびに、麺に絡んだソースが溶けて、少しずつ、スープに旨味とコクが足されてきます。一口。二口。三口。箸を進めるたび、変化していく色。香り。旨味。一瞬、ミスマッチにさえ感じる味。なのに、どこか懐かしいというか、優しい味。なんとも不思議な麺だな?と思います。
+    ts: '20080611083350'
+    kind_of_page: index
+    file: raw/history/20080611083350_blog_staff_eab47c6b.html
+    seen_in:
+    - '20080611083350'
+    - '20080611083356'
+    - '20080616092515'
+    - '20080730005059'
+    - '20080804132540'
+    - '20080804134335'
+    - '20080806014257'
+    - '20080808054605'
+    - '20081008055743'
+    - '20081008122104'
+    - '20081008123050'
+    - '20090417095231'
+    - '20101019004030'
+    - '20101019053804'
+  title_early: つゆやきそば
+  title_now: つゆやきそば
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - G麺
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 74
+  current_capture: '20130414132647'
+  earliest: '20080611083350'
+  earliest_theme: staff01
+  versions: 27
+  full_versions: 27
+  text: same
+  deltas: []
+  title_early: 採用：２次募集の日程が決まりました！
+  title_now: 採用：２次募集の日程が決まりました！
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 75
+  current_capture: '20130414092021'
+  earliest: '20080616092515'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: しゃちの梅雨日記
+  title_now: しゃちの梅雨日記
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - しゃち
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 76
+  current_capture: '20130414131913'
+  earliest: '20080730005059'
+  earliest_theme: staff01
+  versions: 21
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: ゲームフリークひみつきち、公開！
+  title_now: ゲームフリークひみつきち、公開！
+  cats_early:
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 78
+  current_capture: '20130414165705'
+  earliest: '20080730005059'
+  earliest_theme: staff01
+  versions: 29
+  full_versions: 29
+  text: same
+  deltas: []
+  title_early: 採用：本日から新卒採用二次募集スタートです！
+  title_now: 採用：本日から新卒採用二次募集スタートです！
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 79
+  current_capture: '20130414125747'
+  earliest: '20080730005059'
+  earliest_theme: staff01
+  versions: 25
+  full_versions: 25
+  text: same
+  deltas: []
+  title_early: 研修期間終了！
+  title_now: 研修期間終了！
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - いわし
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 80
+  current_capture: '20130414143601'
+  earliest: '20080730005059'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 22
+  text: same
+  deltas: []
+  title_early: ポケモン☆サンデー放映！
+  title_now: ポケモン☆サンデー放映！
+  cats_early:
+  - にっき
+  tags_early:
+  - かわちまる
+  - にっき
+  writers_early:
+  - かわちまる
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 81
+  current_capture: '20130414202015'
+  earliest: '20080730005059'
+  earliest_theme: staff01
+  versions: 25
+  full_versions: 23
+  text: same
+  deltas: []
+  title_early: 恐怖！ 金縛り体験
+  title_now: 恐怖！ 金縛り体験
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - ほっしー
+  writers_early:
+  - ほっしー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 82
+  current_capture: '20130414172910'
+  earliest: '20080806014257'
+  earliest_theme: staff01
+  versions: 21
+  full_versions: 19
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - コダックシアターは毎年のアカデミー賞授賞式も開かれてる美し~い劇場。
+    added:
+    - コダックシアターは毎年のアカデミー賞授賞式も開かれてる美し?い劇場。
+    ts: '20080806014257'
+    kind_of_page: index
+    file: raw/history/20080806014257_blog_staff_eab47c6b.html
+    seen_in:
+    - '20080806014257'
+    - '20080808054605'
+    - '20080925033610'
+    - '20080927043300'
+    - '20080927132527'
+    - '20081007064316'
+    - '20081008055753'
+    - '20081008055809'
+    - '20081008122059'
+    - '20081008123012'
+    - '20090417100340'
+    - '20101019004041'
+    - '20101019054003'
+  title_early: Nintendo 2008 E3 Media Briefing
+  title_now: Nintendo 2008 E3 Media Briefing
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - ジョニー
+  writers_early:
+  - ジョニー
+  - ジョニ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 83
+  current_capture: '20130414182903'
+  earliest: '20080808054605'
+  earliest_theme: staff01
+  versions: 20
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: タイ行ってきました！
+  title_now: タイ行ってきました！
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - カニ子
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 84
+  current_capture: '20130414201322'
+  earliest: '20080925033610'
+  earliest_theme: staff01
+  versions: 20
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: それぞれの夏
+  title_now: それぞれの夏
+  cats_early:
+  - にっき
+  tags_early:
+  - えるかつ
+  - げいのう
+  - さとう
+  - っゃっゃ
+  - なぎー
+  - にっき
+  - カニ子
+  - ディア
+  - マシュー
+  - マー
+  - ユッフィー
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 85
+  current_capture: '20130414144237'
+  earliest: '20080925033610'
+  earliest_theme: staff01
+  versions: 21
+  full_versions: 19
+  text: same
+  deltas: []
+  title_early: ポケモンカードゲーム大会　葉月の陣！
+  title_now: ポケモンカードゲーム大会　葉月の陣！
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early:
+  - なぎー
+  - にっき
+  - ポケモン
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 86
+  current_capture: '20130414183548'
+  earliest: '20080925033610'
+  earliest_theme: staff01
+  versions: 28
+  full_versions: 26
+  text: same
+  deltas: []
+  title_early: 採用：たくさんのご応募ありがとうございます！
+  title_now: 採用：たくさんのご応募ありがとうございます！
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early:
+  - さとう
+  - にっき
+  - 採用
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 87
+  current_capture: '20130414172616'
+  earliest: '20080925033610'
+  earliest_theme: staff01
+  versions: 22
+  full_versions: 20
+  text: same
+  deltas: []
+  title_early: ポケットモンスター プラチナ明日発売です！
+  title_now: ポケットモンスター プラチナ明日発売です！
+  cats_early:
+  - ポケモン
+  tags_early:
+  - かわちまる
+  - ポケモン
+  writers_early:
+  - かわちまる
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 88
+  current_capture: '20130414174120'
+  earliest: '20080925033610'
+  earliest_theme: staff01
+  versions: 23
+  full_versions: 21
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 来年は何をしようかな~、今から楽しみです!
+    added:
+    - 来年は何をしようかな?、今から楽しみです!
+    ts: '20080925033610'
+    kind_of_page: index
+    file: raw/history/20080925033610_blog_staff_eab47c6b.html
+    seen_in:
+    - '20080925033610'
+    - '20080927043300'
+    - '20080927132527'
+    - '20080928063148'
+    - '20081007064316'
+    - '20081008055759'
+    - '20081008060752'
+    - '20081008060823'
+    - '20081008122059'
+    - '20081028191112'
+    - '20081107081353'
+    - '20081109060053'
+    - '20090416034434'
+    - '20101019004045'
+    - '20101019053711'
+  title_early: なつはポケモン！
+  title_now: なつはポケモン！
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early:
+  - にっき
+  - エノキ
+  - ポケモン
+  writers_early:
+  - エノキ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 89
+  current_capture: '20130414181642'
+  earliest: '20080927043300'
+  earliest_theme: staff01
+  versions: 20
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: プラチナここだけの話 その１
+  title_now: プラチナここだけの話 その１
+  cats_early:
+  - ポケモン
+  tags_early:
+  - ポケモン
+  - ヨシダ
+  writers_early:
+  - ヨシダ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 90
+  current_capture: '20130414165440'
+  earliest: '20081007064316'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: プラチナここだけの話 その２
+  title_now: プラチナここだけの話 その２
+  cats_early:
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - 太田
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 91
+  current_capture: '20130414190242'
+  earliest: '20081014113237'
+  earliest_theme: staff01
+  versions: 13
+  full_versions: 13
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - もちろんワイヤレス通信、Wi-Fi通信、どちらでもOK!
+    - Wi-Fi通信はもちろんボイスチャット対応ですから、
+    - そしてもう一つのプラチナを代表する施設「Wi-Fiひろば」!
+    - この「Wi-Fiひろば」にある、3つのミニゲーム。
+    - 何度も遊んでいると~・・・あ!ソーナンスがいつもよりでっかい!
+    added:
+    - もちろんワイヤレス通信、Wi?Fi通信、どちらでもOK!
+    - Wi?Fi通信はもちろんボイスチャット対応ですから、
+    - そしてもう一つのプラチナを代表する施設「Wi?Fiひろば」!
+    - この「Wi?Fiひろば」にある、3つのミニゲーム。
+    - 何度も遊んでいると?・・・あ!ソーナンスがいつもよりでっかい!
+    ts: '20081014113237'
+    kind_of_page: post
+    file: raw/history/20081014113237_blog_staff_p=91_68b48877.html
+    seen_in:
+    - '20081014113237'
+    - '20081028191112'
+    - '20081107081353'
+    - '20081109060053'
+    - '20081207022829'
+    - '20081210033428'
+    - '20090417100513'
+    - '20101019004051'
+  title_early: プラチナここだけの話　その３
+  title_now: プラチナここだけの話　その３
+  cats_early:
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - 松田
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 92
+  current_capture: '20130414155805'
+  earliest: '20081028191112'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: 秋のイベント　なし・ぶどう狩り
+  title_now: 秋のイベント　なし・ぶどう狩り
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - スティック
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 93
+  current_capture: '20130414192832'
+  earliest: '20081028191112'
+  earliest_theme: staff01
+  versions: 18
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 3Dグラフィック講習会
+  title_now: 3Dグラフィック講習会
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 94
+  current_capture: '20130414190801'
+  earliest: '20081107081353'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 太平燕
+  title_now: 太平燕
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - G麺
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 95
+  current_capture: '20130414165403'
+  earliest: '20081109060053'
+  earliest_theme: staff01
+  versions: 13
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: coming soon！
+  title_now: coming soon！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 96
+  current_capture: '20130414192304'
+  earliest: '20081207022829'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: 公開！モジヅラ
+  title_now: 公開！モジヅラ
+  cats_early:
+  - にっき
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 97
+  current_capture: '20130414160035'
+  earliest: '20081207022829'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: プラチナここだけの話　番外編
+  title_now: プラチナここだけの話　番外編
+  cats_early:
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - 佐藤
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 98
+  current_capture: '20130414090831'
+  earliest: '20081207022829'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: 世界を守ってます
+  title_now: 世界を守ってます
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - ユーリー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 99
+  current_capture: '20130414133029'
+  earliest: '20081207022829'
+  earliest_theme: staff01
+  versions: 13
+  full_versions: 13
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - シングルとは一味違ったポケモン育成や戦術が必要になってくるんですよ〜。
+    - 手に土を付けるトレーナーが現れかですね〜。
+    added:
+    - シングルとは一味違ったポケモン育成や戦術が必要になってくるんですよ縲怐B
+    - 手に土を付けるトレーナーが現れかですね縲怐B
+    ts: '20081207022829'
+    kind_of_page: index
+    file: raw/history/20081207022829_blog_staff_eab47c6b.html
+    seen_in:
+    - '20081207022829'
+    - '20081210033428'
+    - '20081212062648'
+    - '20081218040534'
+    - '20090116093004'
+    - '20090417095236'
+    - '20101019004104'
+    - '20101019053858'
+  title_early: ポケモンプラチナバトル大会開催
+  title_now: ポケモンプラチナバトル大会開催
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - いわし
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 100
+  current_capture: '20130414135355'
+  earliest: '20081207022829'
+  earliest_theme: staff01
+  versions: 13
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: ポケモンプラチナバトル大会決勝
+  title_now: ポケモンプラチナバトル大会決勝
+  cats_early:
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - いわし
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 101
+  current_capture: '20130414094441'
+  earliest: '20081212062648'
+  earliest_theme: staff01
+  versions: 12
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: グラフィックデザイナー歴8ヶ月
+  title_now: グラフィックデザイナー歴8ヶ月
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カラシ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 102
+  current_capture: '20130414125050'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - カルタなんて競技もありました。「旅行けば~」 どこ?どこ?
+    added:
+    - カルタなんて競技もありました。「旅行けば?」 どこ?どこ?
+    ts: '20090116093004'
+    kind_of_page: index
+    file: raw/history/20090116093004_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090116093004'
+    - '20090417095236'
+    - '20101019004104'
+    - '20101019053731'
+  title_early: 忘年会２００８！
+  title_now: 忘年会２００８！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - スティック
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 103
+  current_capture: '20130414102532'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: メリーなんとか
+  title_now: メリーなんとか
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - っゃっゃ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 104
+  current_capture: '20130414093622'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 仕事納め／年賀ドットコンテスト告知
+  title_now: 仕事納め／年賀ドットコンテスト告知
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 105
+  current_capture: '20130414135438'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 年始のご挨拶
+  title_now: 年始のご挨拶
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 106
+  current_capture: '20130414102606'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 沖縄で南国気分を味わってました~。
+    - なかなか風情がありました~。(ヒロ)
+    added:
+    - 沖縄で南国気分を味わってました?。
+    - なかなか風情がありました?。(ヒロ)
+    ts: '20090116093004'
+    kind_of_page: index
+    file: raw/history/20090116093004_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090116093004'
+    - '20090207194153'
+    - '20090207211257'
+    - '20090415204114'
+    - '20090417100518'
+    - '20101019004110'
+  title_early: それぞれの冬’09！
+  title_now: それぞれの冬’09！
+  cats_early:
+  - にっき
+  tags_early:
+  - いわし
+  - おせんべい
+  - おにいさん
+  - さとう
+  - なぎー
+  - もりもと
+  - エノキ
+  - ジョニ
+  - スティック
+  - ヒロ
+  - ユッフィー
+  - ラッペン
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 107
+  current_capture: '20130414124610'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 迫る！ 年賀ドットコンテスト〆切
+  title_now: 迫る！ 年賀ドットコンテスト〆切
+  cats_early:
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 108
+  current_capture: '20130414124136'
+  earliest: '20090116093004'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 皆さんとは約1年ぶりの再会になりますね~。
+    - 自分で言うのなんですが、かなりパチもの臭いですね~。
+    - それではまた~
+    added:
+    - 皆さんとは約1年ぶりの再会になりますね?。
+    - 自分で言うのなんですが、かなりパチもの臭いですね?。
+    - それではまた?
+    ts: '20090116093004'
+    kind_of_page: index
+    file: raw/history/20090116093004_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090116093004'
+    - '20090207194153'
+    - '20090207211257'
+    - '20090417100427'
+    - '20090417100518'
+    - '20100125090816'
+    - '20101019004110'
+    - '20101019053908'
+    - '20110103004454'
+  title_early: 究極のコレクション
+  title_now: 究極のコレクション
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - おにいさん
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 109
+  current_capture: '20130414102655'
+  earliest: '20090207194153'
+  earliest_theme: staff01
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 店員と客の会話
+  title_now: 店員と客の会話
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ギン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 110
+  current_capture: '20130414115636'
+  earliest: '20090207194153'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 音楽をはじめたきっかけ
+  title_now: 音楽をはじめたきっかけ
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - KAGE
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 111
+  current_capture: '20130414111250'
+  earliest: '20090207194153'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 年賀ドットコンテスト09、結果発表！
+  title_now: 年賀ドットコンテスト09、結果発表！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 112
+  current_capture: '20130414142704'
+  earliest: '20090207194153'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: １０年前の自分に伝えたい事
+  title_now: １０年前の自分に伝えたい事
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - スティック
+  writers_early:
+  - スティック
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 113
+  current_capture: '20130414090234'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 16
+  full_versions: 15
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 本当にもうすぐですね~!
+    added:
+    - 本当にもうすぐですね?!
+    ts: '20090414122414'
+    kind_of_page: index
+    file: raw/history/20090414122414_blog_staff_index.php_ee3be4d5.html
+    seen_in:
+    - '20090414122414'
+    - '20090416034419'
+    - '20090417100523'
+    - '20090417100540'
+    - '20090418012624'
+    - '20091017200910'
+    - '20091017211901'
+    - '20101019004115'
+    - '20101019053918'
+  title_early: 会社説明会開催しました
+  title_now: 会社説明会開催しました
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early:
+  - さとう
+  - 採用
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 114
+  current_capture: '20130414111847'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 13
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: 会社説明会に出席して
+  title_now: 会社説明会に出席して
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - カニ子
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 115
+  current_capture: '20130414114953'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 12
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: まぼろしの緑ナンバー
+  title_now: まぼろしの緑ナンバー
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - ユッフィー
+  writers_early:
+  - ユッフィー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 116
+  current_capture: '20130414085700'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: こねこね土いじり
+  title_now: こねこね土いじり
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - デコ
+  writers_early:
+  - デコ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 117
+  current_capture: '20130414142733'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 12
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: ボードゲーム会
+  title_now: ボードゲーム会
+  cats_early:
+  - にっき
+  tags_early:
+  - なぎー
+  - にっき
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 118
+  current_capture: '20130414142803'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 13
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 3月22日に開催された東京マラソンに参加してきました~。
+    - 3)フィニッシュ!メダルが嬉しかったぁ~
+    added:
+    - 3月22日に開催された東京マラソンに参加してきました?。
+    - 3)フィニッシュ!メダルが嬉しかったぁ?
+    ts: '20090414122414'
+    kind_of_page: index
+    file: raw/history/20090414122414_blog_staff_index.php_ee3be4d5.html
+    seen_in:
+    - '20090414122414'
+    - '20090415165755'
+    - '20090416034450'
+    - '20090416034500'
+    - '20090417100359'
+    - '20101019004120'
+    - '20101019053747'
+  title_early: 東京マラソン ～東京がひとつになる日～
+  title_now: 東京マラソン ?東京がひとつになる日?
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - ボーダー丸
+  writers_early:
+  - ボーダー丸
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 120
+  current_capture: '20130414110428'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: 10年前の自分に伝えたい事　パート２
+  title_now: 10年前の自分に伝えたい事　パート２
+  cats_early:
+  - にっき
+  tags_early:
+  - おにいさん
+  - にっき
+  writers_early:
+  - おにいさん
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 121
+  current_capture: '20130414120900'
+  earliest: '20090414122414'
+  earliest_theme: staff01
+  versions: 14
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: にゅーかまー！
+  title_now: にゅーかまー！
+  cats_early:
+  - にっき
+  tags_early:
+  - えるかつ
+  - にっき
+  writers_early:
+  - えるかつ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 122
+  current_capture: '20130414085551'
+  earliest: '20090417100535'
+  earliest_theme: staff01
+  versions: 10
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 入社する前は家族に「会社は辛いよ厳しいよ~」と脅しをかけられていたのですが(笑)、
+    added:
+    - 入社する前は家族に「会社は辛いよ厳しいよ?」と脅しをかけられていたのですが(笑)、
+    ts: '20090417100535'
+    kind_of_page: month
+    file: raw/history/20090417100535_blog_staff_m=200904_1684efb9.html
+    seen_in:
+    - '20090417100535'
+    - '20101019004125'
+    - '20101019053941'
+  title_early: ゲームフリークの先輩たち
+  title_now: ゲームフリークの先輩たち
+  cats_early:
+  - にっき
+  tags_early:
+  - にっき
+  - ほず
+  writers_early:
+  - ほず
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 123
+  current_capture: '20130414142808'
+  earliest: '20101019004125'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: ゲームフリーク20周年式典！
+  title_now: ゲームフリーク20周年式典！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 124
+  current_capture: '20130414120347'
+  earliest: '20091017211901'
+  earliest_theme: staff_hgss
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: プログラマーの新人研修
+  title_now: プログラマーの新人研修
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - 玉田
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 125
+  current_capture: '20130414111121'
+  earliest: '20101019004130'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: 動物園で発見！
+  title_now: 動物園で発見！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - マシュー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 126
+  current_capture: '20130414143208'
+  earliest: '20090801044905'
+  earliest_theme: staff01
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: お待たせしました！
+  title_now: お待たせしました！
+  cats_early:
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 127
+  current_capture: '20130414085054'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 8
+  full_versions: 8
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - まずストレッチを行い、その後ランニングマシンで5~6キロ走り、
+    added:
+    - まずストレッチを行い、その後ランニングマシンで5?6キロ走り、
+    ts: '20090726073405'
+    kind_of_page: index
+    file: raw/history/20090726073405_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090726073405'
+    - '20101019004130'
+    - '20101019053720'
+  title_early: 体、鍛えてます！
+  title_now: 体、鍛えてます！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カンタロウ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 128
+  current_capture: '20130414090708'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - だんだん疲れてきたな~。息抜きに仕事でもしようかな...。
+    added:
+    - だんだん疲れてきたな?。息抜きに仕事でもしようかな...。
+    ts: '20090726073405'
+    kind_of_page: index
+    file: raw/history/20090726073405_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090726073405'
+    - '20090802112817'
+    - '20101019004130'
+    - '20101019053725'
+  title_early: 俺のゲーム
+  title_now: 俺のゲーム
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ギン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 129
+  current_capture: '20130414142716'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 犬との生活
+  title_now: 犬との生活
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カラシ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 130
+  current_capture: '20130414102522'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 週末の習い事
+  title_now: 週末の習い事
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ジョニ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 131
+  current_capture: '20130414194818'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - やはり、中学~高校時代に好きだったものが圧倒的に多いですね。
+    added:
+    - やはり、中学?高校時代に好きだったものが圧倒的に多いですね。
+    ts: '20090726073405'
+    kind_of_page: index
+    file: raw/history/20090726073405_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090726073405'
+    - '20090802112817'
+    - '20090904004934'
+    - '20101019004135'
+    - '20101019053759'
+  title_early: 一生読みたい少女漫画
+  title_now: 一生読みたい少女漫画
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ラッペン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 132
+  current_capture: '20130414102812'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: 採用：採用はご縁
+  title_now: 採用：採用はご縁
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 133
+  current_capture: '20130414124457'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 12
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: 初ミュージカル
+  title_now: 初ミュージカル
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 134
+  current_capture: '20130414195333'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 投票者数は大体社員数の1/3〜1/2くらいです)
+    added:
+    - 投票者数は大体社員数の1/3縲鰀1/2くらいです)
+    ts: '20090726073405'
+    kind_of_page: index
+    file: raw/history/20090726073405_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090726073405'
+    - '20090802112817'
+    - '20090904004934'
+    - '20090907104458'
+    - '20091015164445'
+    - '20101019004140'
+  title_early: アンケートにみるゲームフリーク社員
+  title_now: アンケートにみるゲームフリーク社員
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 135
+  current_capture: '20130414160634'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 12
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: ライブ大好き
+  title_now: ライブ大好き
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - 電線
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 136
+  current_capture: '20130414184607'
+  earliest: '20090726073405'
+  earliest_theme: staff01
+  versions: 12
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: 日食2009
+  title_now: 日食2009
+  cats_early:
+  - にっき
+  tags_early:
+  - っゃっゃ
+  - ほず
+  - デコ
+  - ボーダー丸
+  - ユッフィー
+  - ラッペン
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 137
+  current_capture: '20130414162959'
+  earliest: '20090802112817'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 中途の新人から見たGF
+  title_now: 中途の新人から見たGF
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - じだぬ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 138
+  current_capture: '20130414161148'
+  earliest: '20090904004934'
+  earliest_theme: staff01
+  versions: 10
+  full_versions: 10
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - それでも、自分の考えた企画に「お、いいね~」
+    added:
+    - それでも、自分の考えた企画に「お、いいね?」
+    ts: '20090904004934'
+    kind_of_page: index
+    file: raw/history/20090904004934_blog_staff_eab47c6b.html
+    seen_in:
+    - '20090904004934'
+    - '20090907104458'
+    - '20091015164445'
+    - '20101019004145'
+    - '20101019053941'
+  title_early: 時間の価値
+  title_now: 時間の価値
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ほず
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 139
+  current_capture: '20130414190004'
+  earliest: '20090904004934'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: それぞれの夏2009
+  title_now: それぞれの夏2009
+  cats_early:
+  - にっき
+  tags_early:
+  - kage
+  - おせんべい
+  - おにいさん
+  - さとう
+  - しゃち
+  - っゃっゃ
+  - なぎー
+  - ほっしー
+  - エノキ
+  - カラシ
+  - ジョニ
+  - スティック
+  - ヒロ
+  - マシュー
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 140
+  current_capture: '20130414143619'
+  earliest: '20090904004934'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: しゃちの夏、日本の夏
+  title_now: しゃちの夏、日本の夏
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - しゃち
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 141
+  current_capture: '20130414140702'
+  earliest: '20090907104458'
+  earliest_theme: staff01
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 中途採用特設サイト公開！
+  title_now: 中途採用特設サイト公開！
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 142
+  current_capture: '20130414172748'
+  earliest: '20091012033649'
+  earliest_theme: staff_hgss
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: ハートゴールド・ソウルシルバー　明日発売です！
+  title_now: ハートゴールド・ソウルシルバー　明日発売です！
+  cats_early:
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 143
+  current_capture: '20130414121928'
+  earliest: '20091012033649'
+  earliest_theme: staff_hgss
+  versions: 12
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: 中途採用がアツイ訳。
+  title_now: 中途採用がアツイ訳。
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 144
+  current_capture: '20130414201415'
+  earliest: '20091012033649'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: みんなで行こう！工場見学
+  title_now: みんなで行こう！工場見学
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - いわし
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 145
+  current_capture: '20130414144253'
+  earliest: '20090926210848'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - ディレクターもりもとから告知があったようにこれから全6回の予定で
+    added:
+    - ディレクターもりもとから告知があったようにこれから全8回の予定で
+    ts: '20090926210848'
+    kind_of_page: post
+    file: raw/history/20090926210848_blog_staff_p=145_e0aebee8.html
+    seen_in:
+    - '20090926210848'
+    - '20091012033649'
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その１
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その１
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 146
+  current_capture: '20130414122441'
+  earliest: '20091012033649'
+  earliest_theme: staff_hgss
+  versions: 12
+  full_versions: 12
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 今日から10月!朝晩の涼しさで本格的な秋を感じますね~。
+    added:
+    - 今日から10月!朝晩の涼しさで本格的な秋を感じますね?。
+    ts: '20091012033649'
+    kind_of_page: index
+    file: raw/history/20091012033649_blog_staff_index.php_ee3be4d5.html
+    seen_in:
+    - '20091012033649'
+    - '20091017200910'
+    - '20091017211901'
+    - '20101019004156'
+    - '20101019053820'
+    - '20101019053918'
+  title_early: 2011年度新卒採用開始しました！
+  title_now: 2011年度新卒採用開始しました！
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 147
+  current_capture: '20130414172604'
+  earliest: '20091012033649'
+  earliest_theme: staff_hgss
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 殺菌乳酸菌
+  title_now: 殺菌乳酸菌
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ほっしー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 148
+  current_capture: '20130414174146'
+  earliest: '20091012033649'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その2
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その2
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 149
+  current_capture: '20130414121127'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 猫がやってきた！
+  title_now: 猫がやってきた！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - エノキ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 150
+  current_capture: '20130414105319'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - はじめまして〜。
+    - それでは〜。
+    added:
+    - はじめまして縲怐B
+    - それでは縲怐B
+    ts: '20091202150309'
+    kind_of_page: index
+    file: raw/history/20091202150309_blog_staff_eab47c6b.html
+    seen_in:
+    - '20091202150309'
+    - '20091217134655'
+    - '20101019004156'
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その3
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その3
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 151
+  current_capture: '20130414125645'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その4
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その4
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 152
+  current_capture: '20130414092240'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: うどんを通じて学んだ事
+  title_now: うどんを通じて学んだ事
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 153
+  current_capture: '20130414132215'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 10
+  full_versions: 10
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - こんな感じだったのかぁ~、と思っていただけたら幸いです。
+    added:
+    - こんな感じだったのかぁ?、と思っていただけたら幸いです。
+    ts: '20091202150309'
+    kind_of_page: index
+    file: raw/history/20091202150309_blog_staff_eab47c6b.html
+    seen_in:
+    - '20091202150309'
+    - '20091217134655'
+    - '20101019004200'
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その５
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その５
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 154
+  current_capture: '20130414130104'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 10
+  full_versions: 10
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 噛まなければカレーも一生食べられますよね〜。お久しぶりです。
+    - いや〜完璧な食べ物ですね!ほんと。
+    - おいしそうすぎる〜!
+    added:
+    - 噛まなければカレーも一生食べられますよね縲怐Bお久しぶりです。
+    - いや縲怺ョ璧な食べ物ですね!ほんと。
+    - おいしそうすぎる縲怐I
+    ts: '20091202150309'
+    kind_of_page: index
+    file: raw/history/20091202150309_blog_staff_eab47c6b.html
+    seen_in:
+    - '20091202150309'
+    - '20091217134655'
+    - '20101019004200'
+    - '20101019053759'
+  title_early: ソース焼きそば
+  title_now: ソース焼きそば
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ラッペン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 155
+  current_capture: '20130414104609'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その6
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その6
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 156
+  current_capture: '20130414131927'
+  earliest: '20091202150309'
+  earliest_theme: staff_hgss
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ 番外編
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ 番外編
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  - マー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 157
+  current_capture: '20130414092906'
+  earliest: '20091217134655'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その7
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その7
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 159
+  current_capture: '20130414133006'
+  earliest: '20091217134655'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 金沢カレー
+  title_now: 金沢カレー
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - えるかつ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 160
+  current_capture: '20130414131832'
+  earliest: '20101019004206'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - ポケモンセンター地下にある「Wi−Fiクラブ」があります。
+    added:
+    - ポケモンセンター地下にある「Wi竏窒eiクラブ」があります。
+    ts: '20101019004206'
+    kind_of_page: month
+    file: raw/history/20101019004206_blog_staff_m=200912_2f7cb25b.html
+    seen_in:
+    - '20101019004206'
+  title_early: ＨＧ・ＳＳ 語っちゃいます！ その８
+  title_now: ＨＧ・ＳＳ 語っちゃいます！ その８
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスター ハートゴールド・ソウルシルバー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 161
+  current_capture: '20130414104434'
+  earliest: '20101019004206'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 2009年ゲームフリーク忘年会
+  title_now: 2009年ゲームフリーク忘年会
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 162
+  current_capture: '20130414133140'
+  earliest: '20101019004206'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 年賀ドットコンテスト2010のお知らせ
+  title_now: 年賀ドットコンテスト2010のお知らせ
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 163
+  current_capture: '20130414155603'
+  earliest: '20101019004214'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: わたしのふゆやすみ
+  title_now: わたしのふゆやすみ
+  cats_early:
+  - にっき
+  tags_early:
+  - カニ子
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 164
+  current_capture: '20130414165157'
+  earliest: '20101019004214'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: お雑煮
+  title_now: お雑煮
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - マー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 165
+  current_capture: '20130414131901'
+  earliest: '20101019004214'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 初詣は0時に行ったのですが、今年の大晦日~元旦はすごく寒かったですね!
+    - まったりのんびり新年を迎えました~。(ジョニー)
+    added:
+    - 初詣は0時に行ったのですが、今年の大晦日?元旦はすごく寒かったですね!
+    - まったりのんびり新年を迎えました?。(ジョニー)
+    ts: '20101019004214'
+    kind_of_page: month
+    file: raw/history/20101019004214_blog_staff_m=201001_6fbe0812.html
+    seen_in:
+    - '20101019004214'
+    - '20101019053934'
+  title_early: それぞれの冬’10！
+  title_now: それぞれの冬’10！
+  cats_early:
+  - にっき
+  tags_early:
+  - おせんべい
+  - おにいさん
+  - さとう
+  - なぎー
+  - ほっしー
+  - もりもと
+  - カニ子
+  - ジョニ
+  - マシュー
+  - ラッペン
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 166
+  current_capture: '20130414092115'
+  earliest: '20101019004214'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 1つのリーグに7~8名が入り乱れての勝ち点の奪い合いです!
+    added:
+    - 1つのリーグに7?8名が入り乱れての勝ち点の奪い合いです!
+    ts: '20101019004214'
+    kind_of_page: month
+    file: raw/history/20101019004214_blog_staff_m=201001_6fbe0812.html
+    seen_in:
+    - '20101019004214'
+  title_early: 社内ポケモンHGSSバトル大会！
+  title_now: 社内ポケモンHGSSバトル大会！
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - なぎー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 167
+  current_capture: '20130414132734'
+  earliest: '20101019004220'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: 年賀ドットコンテスト’10、結果発表！
+  title_now: 年賀ドットコンテスト’10、結果発表！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 168
+  current_capture: '20130414132231'
+  earliest: '20101019004220'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 街でもスーツ姿の学生さんを見かけることが多くなってきましたね~。
+    added:
+    - 街でもスーツ姿の学生さんを見かけることが多くなってきましたね?。
+    ts: '20101019004220'
+    kind_of_page: month
+    file: raw/history/20101019004220_blog_staff_m=201002_011e466b.html
+    seen_in:
+    - '20101019004220'
+    - '20101019053820'
+    - '20101019053918'
+  title_early: それぞれの就職活動
+  title_now: それぞれの就職活動
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 169
+  current_capture: '20130414092654'
+  earliest: '20101019004220'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - ほずでした~
+    added:
+    - ほずでした?
+    ts: '20101019004220'
+    kind_of_page: month
+    file: raw/history/20101019004220_blog_staff_m=201002_011e466b.html
+    seen_in:
+    - '20101019004220'
+    - '20101019053820'
+    - '20101019053941'
+  title_early: わたしたちの就職活動1　「元気になりたいとき」
+  title_now: わたしたちの就職活動1　「元気になりたいとき」
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - ほず
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 170
+  current_capture: '20130414201309'
+  earliest: '20101019004220'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 意図せずとも後世に残っていくのだろうな~と、着物をなでつつ思ったのでした。
+    added:
+    - 意図せずとも後世に残っていくのだろうな?と、着物をなでつつ思ったのでした。
+    ts: '20101019004220'
+    kind_of_page: month
+    file: raw/history/20101019004220_blog_staff_m=201002_011e466b.html
+    seen_in:
+    - '20101019004220'
+    - '20101019053918'
+  title_early: お着物のススメ
+  title_now: お着物のススメ
+  cats_early:
+  - にっき
+  tags_early:
+  - おにいさん
+  - ラッペン
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 171
+  current_capture: '20130414144740'
+  earliest: '20101019004220'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 9
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - こちらもどうぞお楽しみに~。
+    added:
+    - こちらもどうぞお楽しみに?。
+    ts: '20101019004220'
+    kind_of_page: month
+    file: raw/history/20101019004220_blog_staff_m=201002_011e466b.html
+    seen_in:
+    - '20101019004220'
+    - '20101019053934'
+    - '20101114022727'
+  title_early: 明日は何の日？
+  title_now: 明日は何の日？
+  cats_early:
+  - « Older Entries
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 172
+  current_capture: '20130414182054'
+  earliest: '20101019004225'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - その後1~2週間で寒さはぐっと緩み、海辺では潮の香りが強くなります。
+    added:
+    - その後1?2週間で寒さはぐっと緩み、海辺では潮の香りが強くなります。
+    ts: '20101019004225'
+    kind_of_page: month
+    file: raw/history/20101019004225_blog_staff_m=201003_2c65cec9.html
+    seen_in:
+    - '20101019004225'
+    - '20101019053923'
+  title_early: 春よこい！　しゃちの花日記
+  title_now: 春よこい！　しゃちの花日記
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - しゃち
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 173
+  current_capture: '20130414114346'
+  earliest: '20101019004225'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+  title_now: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early: []
+  writers_early:
+  - ペンギン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 174
+  current_capture: '20130414084534'
+  earliest: '20101019004225'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: わたしたちの就職活動3 「日課」
+  title_now: わたしたちの就職活動3 「日課」
+  cats_early:
+  - « Older Entries
+  - にっき
+  - 採用
+  tags_early:
+  - ほず
+  writers_early:
+  - めめた
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 175
+  current_capture: '20130414135524'
+  earliest: '20101019004225'
+  earliest_theme: staff01_wb
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 2011年度新卒採用にたくさんのご応募ありがとうございました！
+  title_now: 2011年度新卒採用にたくさんのご応募ありがとうございました！
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 176
+  current_capture: '20130414113658'
+  earliest: '20101019004230'
+  earliest_theme: staff01_wb
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: フレッシュなお話
+  title_now: フレッシュなお話
+  cats_early:
+  - にっき
+  - 更新のおしらせ
+  tags_early: []
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 177
+  current_capture: '20130414182606'
+  earliest: '20101019004230'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: 春！社会人10年生です
+  title_now: 春！社会人10年生です
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 178
+  current_capture: '20130414183435'
+  earliest: '20101019004230'
+  earliest_theme: staff01_wb
+  versions: 6
+  full_versions: 6
+  text: same
+  deltas: []
+  title_early: 三軒茶屋の春
+  title_now: 三軒茶屋の春
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - っやっや
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 179
+  current_capture: '20130414173021'
+  earliest: '20101019004230'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: 僕が新入社員だった頃
+  title_now: 僕が新入社員だった頃
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ユーリー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 180
+  current_capture: '20130414192859'
+  earliest: '20101019004230'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - そう考えると、意識さえ変えれば、何でも美しく見えるのかもな~
+    added:
+    - そう考えると、意識さえ変えれば、何でも美しく見えるのかもな?
+    ts: '20101019004230'
+    kind_of_page: month
+    file: raw/history/20101019004230_blog_staff_m=201004_89707b6a.html
+    seen_in:
+    - '20101019004230'
+    - '20101019053858'
+  title_early: おはなみしました
+  title_now: おはなみしました
+  cats_early:
+  - にっき
+  tags_early:
+  - いわし
+  writers_early:
+  - いわし
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 181
+  current_capture: '20130414155816'
+  earliest: '20101019004235'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 入社1年目の思い出
+  title_now: 入社1年目の思い出
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - ラッペン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 182
+  current_capture: '20130414190216'
+  earliest: '20101019004235'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - おいしそ~!!
+    added:
+    - おいしそ?!!
+    ts: '20101019004235'
+    kind_of_page: month
+    file: raw/history/20101019004235_blog_staff_m=201005_bf59b69a.html
+    seen_in:
+    - '20101019004235'
+  title_early: 祝！ファミ通アワード受賞
+  title_now: 祝！ファミ通アワード受賞
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - もりもと
+  writers_early:
+  - もりもと
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 183
+  current_capture: '20130414105314'
+  earliest: '20101019004235'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 三茶も花の季節です
+  title_now: 三茶も花の季節です
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - 電線
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 184
+  current_capture: '20130414092921'
+  earliest: '20101019004235'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: とうきょうのしゃかいじん
+  title_now: とうきょうのしゃかいじん
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - わも
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 185
+  current_capture: '20130414131932'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: イチゴを狩る！
+  title_now: イチゴを狩る！
+  cats_early:
+  - にっき
+  tags_early: []
+  writers_early:
+  - あきら
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 186
+  current_capture: '20130414165343'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 考える時間
+  title_now: 考える時間
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - じだぬ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 187
+  current_capture: '20130414131746'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 10
+  full_versions: 10
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 三軒茶屋~下高井戸を結ぶ路線バス風の趣のある世田谷線は、
+    added:
+    - 三軒茶屋?下高井戸を結ぶ路線バス風の趣のある世田谷線は、
+    ts: '20100806120453'
+    kind_of_page: index
+    file: raw/history/20100806120453_blog_staff_eab47c6b.html
+    seen_in:
+    - '20100806120453'
+    - '20101019004241'
+    - '20101019053817'
+    - '20101019054013'
+  title_early: この電車が凄い！
+  title_now: この電車が凄い！
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - ヒート
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 188
+  current_capture: '20130414131822'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 中途採用の募集を開始しました！
+  title_now: 中途採用の募集を開始しました！
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 189
+  current_capture: '20130414104051'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 11
+  full_versions: 11
+  text: same
+  deltas: []
+  title_early: 山梨～東京下町へ
+  title_now: 山梨?東京下町へ
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - ボーダー丸
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 190
+  current_capture: '20130414182802'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 中途1年目の僕が見たゲームフリーク
+  title_now: 中途1年目の僕が見たゲームフリーク
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - もりび
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 191
+  current_capture: '20130414113007'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 14
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 入社して思うこと…
+  title_now: 入社して思うこと…
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - いっちー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 192
+  current_capture: '20130414140726'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 13
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: プログラマーの中途採用を開始しました。
+  title_now: プログラマーの中途採用を開始しました。
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 193
+  current_capture: '20130414083238'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 15
+  full_versions: 15
+  text: same
+  deltas: []
+  title_early: ぶらり“中途”乗車の旅
+  title_now: ぶらり“中途”乗車の旅
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - タピオカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 194
+  current_capture: '20130414172557'
+  earliest: '20100806120453'
+  earliest_theme: staff_hgss
+  versions: 15
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: 夏の思い出
+  title_now: 夏の思い出
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - よちよち
+  writers_early:
+  - よちよち
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 195
+  current_capture: '20130414183441'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 14
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: この夏は、東京から出ないことにした。
+  title_now: この夏は、東京から出ないことにした。
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - にょろリカ
+  - よちよち
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 196
+  current_capture: '20130414144243'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 15
+  full_versions: 13
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 僕も乗ってきましたよ~!!
+    added:
+    - 僕も乗ってきましたよ?!!
+    ts: '20101006030529'
+    kind_of_page: index
+    file: raw/history/20101006030529_blog_staff_eab47c6b.html
+    seen_in:
+    - '20101006030529'
+    - '20101019004251'
+    - '20101019053634'
+    - '20101019053817'
+    - '20101019054033'
+  title_early: ポケモンサーチャーBW
+  title_now: ポケモンサーチャーBW
+  cats_early:
+  - « Older Entries
+  - にっき
+  - ポケモン
+  tags_early:
+  - にっき
+  - ポケモン
+  - ユーリー
+  writers_early:
+  - ユーリー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 197
+  current_capture: '20130414201406'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 14
+  full_versions: 12
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 過ごしながら、心身共に大回復~!
+    - 高校野球観戦のために大学の友人と甲子園に行きました~!
+    added:
+    - 過ごしながら、心身共に大回復?!
+    - 高校野球観戦のために大学の友人と甲子園に行きました?!
+    ts: '20101006030529'
+    kind_of_page: index
+    file: raw/history/20101006030529_blog_staff_eab47c6b.html
+    seen_in:
+    - '20101006030529'
+    - '20101019004256'
+    - '20101019053817'
+    - '20101019053830'
+    - '20101019053934'
+  title_early: それぞれの夏 ‘10！
+  title_now: それぞれの夏 ’10！
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - いっちー
+  - えるかつ
+  - さとう
+  - なぎー
+  - にっき
+  - にょろリカ
+  - ほっしー
+  - わも
+  - カニ子
+  - カラシ
+  - ジョニ
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 198
+  current_capture: '20130414200850'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 14
+  full_versions: 12
+  text: same
+  deltas: []
+  title_early: ポケモンワールドチャンピオンシップス2010！
+  title_now: ポケモンワールドチャンピオンシップス2010！
+  cats_early:
+  - « Older Entries
+  - にっき
+  - ポケモン
+  tags_early:
+  - にっき
+  - フジワ
+  - ポケモン
+  writers_early:
+  - フジワ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 199
+  current_capture: '20130414084041'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 12
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: ポケットモンスターブラック・ホワイトが完成した日
+  title_now: ポケットモンスターブラック・ホワイトが完成した日
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - にょろリカ
+  - ポケモン
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 200
+  current_capture: '20130414100849'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 15
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: プログラマー積極採用中！
+  title_now: プログラマー積極採用中！
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early:
+  - さとう
+  - 採用
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 201
+  current_capture: '20130414135331'
+  earliest: '20101006030529'
+  earliest_theme: staff01_wb
+  versions: 11
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　1
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　1
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - ポケットモンスターブラック・ホワイト
+  - ポケモン
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 202
+  current_capture: '20130414162412'
+  earliest: '20101017132608'
+  earliest_theme: staff01_wb
+  versions: 12
+  full_versions: 10
+  text: minor
+  deltas:
+  - kind: minor
+    removed:
+    - 3Dグラフィックデザイナーのジェイミーが作ったデモのおかげですね。
+    added:
+    - 3Dグラフィックデザイナーの
+    - ジェイミー
+    - が作ったデモのおかげですね。
+    ts: '20101017132608'
+    kind_of_page: post
+    file: raw/history/20101017132608_blog_staff_p=202_437ad3b1.html
+    seen_in:
+    - '20101017132608'
+    - '20101019004301'
+    - '20101019054023'
+    - '20110711130701'
+    - '20111215182549'
+    - '20120420024926'
+    - '20120804061427'
+    - '20121005070843'
+    - '20130114215517'
+    - '20130122121619'
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　2
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　2
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - ポケットモンスターブラック・ホワイト
+  - ポケモン
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 203
+  current_capture: '20130414185022'
+  earliest: '20101019004301'
+  earliest_theme: staff01_wb
+  versions: 11
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　3
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　3
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - ポケットモンスターブラック・ホワイト
+  - ポケモン
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 204
+  current_capture: '20130414135348'
+  earliest: '20110711130701'
+  earliest_theme: staff01_wb
+  versions: 6
+  full_versions: 6
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　4
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　4
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 205
+  current_capture: '20130414100046'
+  earliest: '20110711130701'
+  earliest_theme: staff01_wb
+  versions: 6
+  full_versions: 6
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　5
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　5
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 206
+  current_capture: '20130414124131'
+  earliest: '20110711130719'
+  earliest_theme: staff01_wb
+  versions: 8
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　6
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　6
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 207
+  current_capture: '20130414103319'
+  earliest: '20110711130719'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　7
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　7
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 208
+  current_capture: '20130414102543'
+  earliest: '20110711130719'
+  earliest_theme: staff01_wb
+  versions: 7
+  full_versions: 7
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　8
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　8
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 209
+  current_capture: '20130414125356'
+  earliest: '20101203135623'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: 2012年度新卒採用、はじめました。
+  title_now: 2012年度新卒採用、はじめました。
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early: []
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 210
+  current_capture: '20130414110507'
+  earliest: '20110711130734'
+  earliest_theme: staff01_wb
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 「ポケットモンスターブラック・ホワイト」のつくりかた　9(最終回)
+  title_now: 「ポケットモンスターブラック・ホワイト」のつくりかた　9(最終回)
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ポケットモンスターブラック・ホワイト
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 211
+  current_capture: '20130414181330'
+  earliest: '20110711130734'
+  earliest_theme: staff01_wb
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: 12月！メリーなんとか2010
+  title_now: 12月！メリーなんとか2010
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 212
+  current_capture: '20130414150901'
+  earliest: '20110711130734'
+  earliest_theme: staff01_wb
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: ポケモンカードティーチング＆ポケモンカード大会
+  title_now: ポケモンカードティーチング＆ポケモンカード大会
+  cats_early:
+  - « Older Entries
+  - にっき
+  - ポケモン
+  tags_early: []
+  writers_early:
+  - ナギー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 213
+  current_capture: '20130414205357'
+  earliest: '20110711130734'
+  earliest_theme: staff01_wb
+  versions: 10
+  full_versions: 10
+  text: same
+  deltas: []
+  title_early: ゲームフリーク忘年会2010
+  title_now: ゲームフリーク忘年会2010
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - にっき
+  tags_early: []
+  writers_early:
+  - アーリー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 214
+  current_capture: '20130414180527'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 新年のご挨拶
+  title_now: 新年のご挨拶
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - にょろリカ
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 215
+  current_capture: '20130414172305'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 9
+  full_versions: 8
+  text: same
+  deltas: []
+  title_early: 出会いの冬
+  title_now: 出会いの冬
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - さとう
+  - にっき
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 216
+  current_capture: '20130414205505'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 12
+  full_versions: 9
+  text: same
+  deltas: []
+  title_early: プログラミングの楽しみ
+  title_now: プログラミングの楽しみ
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - まさゆき
+  writers_early:
+  - まさゆき
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 217
+  current_capture: '20130414085031'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 16
+  full_versions: 13
+  text: same
+  deltas: []
+  title_early: 社内ポケモンバトル大会　開幕！
+  title_now: 社内ポケモンバトル大会　開幕！
+  cats_early:
+  - « Older Entries
+  - にっき
+  - ポケモン
+  tags_early:
+  - にっき
+  - めめた
+  - ポケモン
+  writers_early:
+  - めめた
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 218
+  current_capture: '20130414153416'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 18
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 祝☆500万本！?ケーキうまうま
+  title_now: 祝☆500万本！?ケーキうまうま
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - カニ子
+  - ポケモン
+  writers_early:
+  - カニ子
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 219
+  current_capture: '20130414142723'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 20
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: 社内ポケモンバトル大会　その後
+  title_now: 社内ポケモンバトル大会　その後
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - ほず
+  - ポケモン
+  writers_early:
+  - ほず
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 220
+  current_capture: '20130414115631'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 22
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 間もなく2012年度新卒採用の応募受付を開始します！
+  title_now: 間もなく2012年度新卒採用の応募受付を開始します！
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early:
+  - にょろリカ
+  - 採用
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 226
+  current_capture: '20130414085706'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 25
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 「社員紹介」はじめました！
+  title_now: 「社員紹介」はじめました！
+  cats_early:
+  - GF紹介
+  - « Older Entries
+  - 採用
+  tags_early:
+  - GF紹介
+  - さとう
+  - 採用
+  writers_early:
+  - さとう
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 227
+  current_capture: '20130414142738'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 25
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 2012年度新卒採用のおはなし
+  title_now: 2012年度新卒採用のおはなし
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early:
+  - にょろリカ
+  - 採用
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 228
+  current_capture: '20130414142755'
+  earliest: '20110426214820'
+  earliest_theme: staff01_wb
+  versions: 25
+  full_versions: 21
+  text: same
+  deltas: []
+  title_early: 就職活動に思うこと
+  title_now: 就職活動に思うこと
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early:
+  - いっちー
+  - にょろリカ
+  - まさゆき
+  - わも
+  - ヒート
+  - 採用
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 229
+  current_capture: '20130414085240'
+  earliest: '20110711130041'
+  earliest_theme: staff01_wb
+  versions: 25
+  full_versions: 20
+  text: same
+  deltas: []
+  title_early: 2012年度新卒　二次募集のお知らせ
+  title_now: 2012年度新卒　二次募集のお知らせ
+  cats_early:
+  - « Older Entries
+  - 採用
+  tags_early:
+  - にょろリカ
+  - 採用
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 230
+  current_capture: '20130414135400'
+  earliest: '20110711130041'
+  earliest_theme: staff01_wb
+  versions: 25
+  full_versions: 20
+  text: same
+  deltas: []
+  title_early: はじめての海外出張
+  title_now: はじめての海外出張
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - めめた
+  writers_early:
+  - めめた
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 231
+  current_capture: '20130414094556'
+  earliest: '20110722142439'
+  earliest_theme: staff01_wb
+  versions: 21
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 想像力トレーニング！
+  title_now: 想像力トレーニング！
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - マー
+  writers_early:
+  - マー
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 232
+  current_capture: '20130414125107'
+  earliest: '20110810110545'
+  earliest_theme: staff01_wb
+  versions: 24
+  full_versions: 19
+  text: same
+  deltas: []
+  title_early: 睡眠の話
+  title_now: 睡眠の話
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - マッツン
+  writers_early:
+  - マッツン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 233
+  current_capture: '20130414102537'
+  earliest: '20110916182427'
+  earliest_theme: staff01_wb
+  versions: 22
+  full_versions: 18
+  text: same
+  deltas: []
+  title_early: 初！
+  title_now: 初！
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - KAGE
+  - じだぬ
+  - ポケモン
+  writers_early:
+  - じだぬ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 234
+  current_capture: '20130705084305'
+  earliest: '20110916182427'
+  earliest_theme: staff01_wb
+  versions: 32
+  full_versions: 24
+  text: same
+  deltas: []
+  title_early: 褒めて伸ばす！
+  title_now: 褒めて伸ばす！
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - よちよち
+  writers_early:
+  - よちよち
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 235
+  current_capture: '20130705083406'
+  earliest: '20111002213546'
+  earliest_theme: staff01_wb
+  versions: 31
+  full_versions: 23
+  text: same
+  deltas: []
+  title_early: モチベーションアップの秘訣
+  title_now: モチベーションアップの秘訣
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - ペンギン
+  writers_early:
+  - ペンギン
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 236
+  current_capture: '20130705084416'
+  earliest: '20111102064143'
+  earliest_theme: staff01_wb
+  versions: 28
+  full_versions: 20
+  text: same
+  deltas: []
+  title_early: 子育ての秘訣
+  title_now: 子育ての秘訣
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - あきら
+  - にっき
+  writers_early:
+  - あきら
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 237
+  current_capture: '20130705084729'
+  earliest: '20111203125424'
+  earliest_theme: staff01_wb
+  versions: 27
+  full_versions: 19
+  text: same
+  deltas: []
+  title_early: 朝食ノススメ
+  title_now: 朝食ノススメ
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - Ｙ
+  writers_early:
+  - Ｙ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 238
+  current_capture: '20130705084313'
+  earliest: '20111203125424'
+  earliest_theme: staff01_wb
+  versions: 27
+  full_versions: 19
+  text: same
+  deltas: []
+  title_early: 掃除の極意
+  title_now: 掃除の極意
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - にょろリカ
+  writers_early:
+  - にょろリカ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 239
+  current_capture: '20130705084733'
+  earliest: '20111228044440'
+  earliest_theme: staff01_wb
+  versions: 25
+  full_versions: 19
+  text: same
+  deltas: []
+  title_early: セレンディピティ
+  title_now: セレンディピティ
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - ラッティ
+  writers_early:
+  - ラッティ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 240
+  current_capture: '20130705084738'
+  earliest: '20120305162348'
+  earliest_theme: staff01_wb
+  versions: 22
+  full_versions: 16
+  text: same
+  deltas: []
+  title_early: 遅ればせながら……
+  title_now: 遅ればせながら……
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - Y
+  - いっちー
+  - にっき
+  - まさゆき
+  - ヒート
+  - ラッティ
+  - Ｙ
+  writers_early:
+  - Y
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 241
+  current_capture: '20130705084744'
+  earliest: '20120305162348'
+  earliest_theme: staff01_wb
+  versions: 22
+  full_versions: 16
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 見つめる鍋は煮えない
+    added: []
+    ts: '20120305162348'
+    kind_of_page: index
+    file: raw/history/20120305162348_blog_staff_eab47c6b.html
+    seen_in:
+    - '20120305162348'
+  title_early: 見つめる鍋は煮えない
+  title_now: 見つめる鍋は煮えない
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - いわし
+  - にっき
+  writers_early:
+  - いわし
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 242
+  current_capture: '20130705084749'
+  earliest: '20120720015242'
+  earliest_theme: staff01_wb
+  versions: 18
+  full_versions: 14
+  text: same
+  deltas: []
+  title_early: 禁煙のすすめ
+  title_now: 禁煙のすすめ
+  cats_early:
+  - « Older Entries
+  - にっき
+  tags_early:
+  - にっき
+  - ヒート
+  writers_early:
+  - ヒート
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []
+- id: 243
+  current_capture: '20130705084754'
+  earliest: '20120720015242'
+  earliest_theme: staff01_wb
+  versions: 17
+  full_versions: 13
+  text: changed
+  deltas:
+  - kind: changed
+    removed:
+    - 次回の更新からは......、
+    - 『ポケットモンスターブラック2・ホワイト2』開発陣への
+    - インタビューを敢行したいと思います!
+    - 当スタッフブログでしか聞けないあんな話やこんな話が飛び出るかも!?
+    - 乞うご期待!
+    added:
+    - また、夏から秋にかけて、上記以外にも皆様に楽しんで頂けるようなイベントが
+    - 催される予定ございますので、ご期待下さい!
+    ts: '20120720015242'
+    kind_of_page: index
+    file: raw/history/20120720015242_blog_staff_eab47c6b.html
+    seen_in:
+    - '20120720015242'
+  title_early: 発売！
+  title_now: 発売！
+  cats_early:
+  - « Older Entries
+  - ポケモン
+  tags_early:
+  - にょろリカ
+  - ポケモン
+  - Ｙ
+  writers_early:
+  - Ｙ
+  images_only_early: []
+  images_only_now: []
+  links_only_early: []
+  embeds_early: []
+  embeds_now: []

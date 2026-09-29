@@ -1,0 +1,21 @@
+post_id: 153
+early_versions: 10
+earliest_capture: '20091202150309'
+themes:
+- clean-minimal
+- staff01_wb
+- staff_hgss
+writers: []
+guest_writers: []
+categories:
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: こんな感じだったのかぁ?、と思っていただけたら幸いです。
+  early: こんな感じだったのかぁ～、と思っていただけたら幸いです。
+  ts: '20101019004200'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

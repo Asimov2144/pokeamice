@@ -1,0 +1,19 @@
+post_id: 215
+early_versions: 9
+earliest_capture: '20110426214820'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: さとう
+  zh: 佐藤
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

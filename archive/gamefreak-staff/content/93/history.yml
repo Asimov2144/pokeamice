@@ -1,0 +1,23 @@
+post_id: 93
+early_versions: 18
+earliest_capture: '20081028191112'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: なぎー
+  zh: 纳吉
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: 採用
+  zh: 招聘
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

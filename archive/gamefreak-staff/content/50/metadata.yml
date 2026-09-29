@@ -2,18 +2,11 @@ article_id: gamefreak-staff-50
 post_id: 50
 date: '2007-12-27'
 title: 今年ももうすぐ終わりですね
-tags: []
+tags:
+- つばっさ−
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
 - ja: 未分類
   zh: 未分类
 author:
@@ -71,3 +64,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: つばっさ−
+  zh: つばっさ−
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer16-b55bb9.jpg
+history:
+  early_versions: 18
+  earliest_capture: '20080116055411'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/50/history.yml

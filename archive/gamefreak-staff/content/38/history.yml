@@ -1,0 +1,26 @@
+post_id: 38
+early_versions: 20
+earliest_capture: '20071115194802'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: マー
+  zh: 小玛
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: ほんとはめっちゃ嬉しいくせに！コイツめコイツめ?
+  early: ほんとはめっちゃ嬉しいくせに！コイツめコイツめ～
+  ts: '20101019053755'
+- now: ん??、どうでしょう…。
+  early: ん～～、どうでしょう…。
+  ts: '20101019053755'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

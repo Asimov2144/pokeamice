@@ -1,0 +1,20 @@
+post_id: 188
+early_versions: 11
+earliest_capture: '20100806120453'
+themes:
+- clean-minimal
+- staff01_wb
+- staff_hgss
+writers:
+- ja: さとう
+  zh: 佐藤
+guest_writers: []
+categories:
+- ja: 採用
+  zh: 招聘
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

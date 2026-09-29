@@ -1,0 +1,22 @@
+post_id: 170
+early_versions: 7
+earliest_capture: '20101019004220'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: さとう
+  zh: 佐藤
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 意図せずとも後世に残っていくのだろうな?と、着物をなでつつ思ったのでした。
+  early: 意図せずとも後世に残っていくのだろうな～と、着物をなでつつ思ったのでした。
+  ts: '20101019053918'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

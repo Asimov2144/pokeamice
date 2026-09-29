@@ -3,14 +3,14 @@ article_id: gamefreak-staff-118
 post_id: 118
 lang: ja
 date: '2009-03-27'
-title: 東京マラソン ?東京がひとつになる日?
+title: 東京マラソン ～東京がひとつになる日～
 source: http://www.gamefreak.co.jp/blog/staff/?p=118
 status: source-extracted
 ---
 
 こんにちは、総務部のボーダー丸です。<br>
 
-3月22日に開催された東京マラソンに参加してきました?。<br>
+3月22日に開催された東京マラソンに参加してきました～。<br>
 
 3万5千人もの人が東京を走る大イベント！！<br>
 
@@ -84,7 +84,7 @@ status: source-extracted
 
 {% legacy_image id="gamefreak-staff-995c519adccd" alt="フィニッシュ" %}<br>
 
-3）フィニッシュ！メダルが嬉しかったぁ?
+3）フィニッシュ！メダルが嬉しかったぁ～
 
 {% legacy_image id="gamefreak-staff-d8d8b7ef78b2" alt="メダルと記念の額縁" %}<br>
 

@@ -1,0 +1,23 @@
+post_id: 187
+early_versions: 10
+earliest_capture: '20100806120453'
+themes:
+- clean-minimal
+- staff01_wb
+- staff_hgss
+writers:
+- ja: ヒート
+  zh: 希特
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 三軒茶屋?下高井戸を結ぶ路線バス風の趣のある世田谷線は、
+  early: 三軒茶屋～下高井戸を結ぶ路線バス風の趣のある世田谷線は、
+  ts: '20101019054013'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

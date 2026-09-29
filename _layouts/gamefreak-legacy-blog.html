@@ -64,6 +64,7 @@ layout: default
                 {% if post.translation_available %}<span data-gf-language-title="zh-CN">{{ post.gf_translation_title }}</span>{% endif %}
                 <span data-gf-language-title="ja"{% if post.translation_available %} hidden{% endif %}>{{ post.gf_original_title | default: post.title }}</span>
               </a></h2>
+              {% include gf-legacy-byline.html entry=post %}
               <div class="gf-legacy-post__body">{{ post.content }}</div>
               <p class="gf-legacy-stream__permalink"><a href="{{ post.url | relative_url }}">固定链接 / 来源信息 →</a></p>
             </div>
@@ -100,6 +101,7 @@ layout: default
             {% if page.translation_available %}<span data-gf-language-title="zh-CN">{{ page.gf_translation_title }}</span>{% endif %}
             <span data-gf-language-title="ja"{% if page.translation_available %} hidden{% endif %}>{{ page.gf_original_title | default: page.gf_entry_title | default: page.title }}</span>
           </h1>
+          {% include gf-legacy-byline.html entry=page %}
           <div class="gf-legacy-language" data-gf-legacy-language role="group" aria-label="阅读语言">
             <span>阅读语言{% unless page.translation_available %} · 中文翻译准备中{% endunless %}</span>
             <button type="button" data-language="zh-CN" aria-pressed="true"{% unless page.translation_available %} disabled title="中文翻译准备中"{% endunless %}>中文译文</button>
@@ -109,6 +111,7 @@ layout: default
           <details class="gf-legacy-source">
             <summary>来源与存档信息</summary>
             <p><a href="{{ page.source.url }}" target="_blank" rel="noopener">原始地址 ↗</a>　<a href="{{ page.source.archive_url }}" target="_blank" rel="noopener">Web Archive 快照 ↗</a></p>
+            {% if page.gf_history %}<p>对照过 {{ page.gf_history.early_versions }} 份更早的快照（最早 {{ page.gf_history.earliest_capture | slice: 0, 4 }}.{{ page.gf_history.earliest_capture | slice: 4, 2 }}，模板 {{ page.gf_history.themes | join: " / " }}）：署名与分类据早期版本补回{% if page.gf_history.repaired_lines > 0 %}，日文原文里 {{ page.gf_history.repaired_lines }} 行 2013 年迁移造成的乱码已按早期原文修正{% endif %}{% if page.gf_history.edits > 0 %}，原站后来改过的地方见文末「修订记录」{% endif %}。</p>{% endif %}
             <p>本专题为非官方数字存档与中文翻译；原文与图片版权归 GAME FREAK 及相关权利方所有。</p>
           </details>
         </div>
@@ -130,6 +133,14 @@ layout: default
           </div>
           {% if blog.about_credits %}<div class="gf-legacy-about__credits">{% for credit in blog.about_credits %}<span><img src="{{ credit.image | relative_url }}" alt="" loading="lazy"><small>{{ credit.label }}</small></span>{% endfor %}</div>{% endif %}
           {% if blog.about_credit %}<p class="gf-legacy-about__credit">{{ blog.about_credit }}</p>{% endif %}
+          {% if blog.early_headers %}
+            <div class="gf-legacy-early">
+              <h3>历代页头 <span>2013 年以前的模板</span></h3>
+              {% for h in blog.early_headers %}
+                <figure><img src="{{ h.image | relative_url }}" alt="{{ h.label }}时期的页头" loading="lazy"><figcaption>{{ h.span }} · {{ h.label }}</figcaption></figure>
+              {% endfor %}
+            </div>
+          {% endif %}
           <p class="gf-legacy-sidebar__copyright">原文与图片版权归 GAME FREAK 及相关权利方所有。</p>
         </section>
 
@@ -144,6 +155,18 @@ layout: default
             </ul>
           </details>
         </section>
+
+        {% if blog_key == 'staff' and site.data.gamefreak_staff_writers.writers %}
+          <section class="gf-legacy-sidebar__block gf-legacy-writers">
+            <h2>書いてる人リスト <span>Writers · 2007–2012</span></h2>
+            <p class="gf-legacy-writers__note">早期模板侧栏的执笔员工名单，头像与笔名取自 Web Archive；篇数按每篇结尾的「書いた人」署名统计。</p>
+            <ul>
+              {% for w in site.data.gamefreak_staff_writers.writers %}
+                <li>{% if w.avatar %}<img src="{{ w.avatar | relative_url }}" alt="" width="26" height="26" loading="lazy">{% else %}<span class="gf-legacy-writers__blank"></span>{% endif %}<span><b lang="ja">{{ w.ja }}</b><small>{% if w.zh and w.zh != w.ja %}{{ w.zh }} · {% endif %}{{ w.posts }} 篇</small></span></li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
 
         {% if blog.categories %}
           <section class="gf-legacy-sidebar__block gf-legacy-tags">

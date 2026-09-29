@@ -145,8 +145,7 @@
     "facet": "audience",
     "seg": [
      12,
-     18,
-     24
+     18
     ],
     "as": [
      "家庭",
@@ -175,18 +174,6 @@
     ],
     "as": [
      "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     24
-    ],
-    "as": [
-     "宝可梦对战"
     ],
     "via": "body"
    }

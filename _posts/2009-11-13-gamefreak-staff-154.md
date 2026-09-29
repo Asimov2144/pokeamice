@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ラッペン
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 154
+gf_history:
+  early_versions: 10
+  earliest_capture: '20091202150309'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 3
+  edits: 0
+gf_writers:
+- ja: ラッペン
+  zh: 拉彭
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer06-652d88.jpg
 gf_entry_title: 【工作日志】2009年酱汁炒面随笔
 gf_original_title: ソース焼きそば
 gf_translation_title: 【工作日志】2009年酱汁炒面随笔
@@ -166,7 +165,7 @@ entities:
 
 同じくカレーライスを噛まないラッペンです。<br>
 
-噛まなければカレーも一生食べられますよね縲怐Bお久しぶりです。
+噛まなければカレーも一生食べられますよね〜。お久しぶりです。
 
 でも！焼きそばも飲み物ですよね！！
 
@@ -246,7 +245,7 @@ entities:
 
 　「今なんかイイ夢見てた気がする…」という気分にさせてくれるのです。
 
-いや縲怺ｮ璧な食べ物ですね！ほんと。
+いや〜完璧な食べ物ですね！ほんと。
 
 そんな私にも人生において、一つだけダメだった焼きそばがあります。<br>
 
@@ -260,7 +259,7 @@ Mr.オクレのＣＭは結構好きだったんですがね…。
 
 会社の近くに屋台が来て売っている、富士宮焼きそばを買ってきました。<br>
 
-おいしそうすぎる縲怐I
+おいしそうすぎる〜！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/154/rapen091113-c9260ab7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/154/rapen091113-c9260ab7.jpg" alt="富士宮焼きそば" loading="lazy"></a></figure>
 

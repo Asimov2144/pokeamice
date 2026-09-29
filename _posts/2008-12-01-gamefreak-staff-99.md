@@ -10,29 +10,31 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
 - 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- いわし
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 99
+gf_history:
+  early_versions: 13
+  earliest_capture: '20081207022829'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 2
+  edits: 0
+gf_writers:
+- ja: いわし
+  zh: 沙丁鱼
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer27-4319e9.jpg
 gf_entry_title: 【工作日志】2008年宝可梦白金对战大会
 gf_original_title: ポケモンプラチナバトル大会開催
 gf_translation_title: 【工作日志】2008年宝可梦白金对战大会
@@ -184,7 +186,7 @@ entities:
 
 今回は世界大会の公式ルールに則ってのダブルバトルです！<br>
 
-シングルとは一味違ったポケモン育成や戦術が必要になってくるんですよ縲怐B
+シングルとは一味違ったポケモン育成や戦術が必要になってくるんですよ〜。
 
 ↓世界大会や公式ルールの情報はこちら↓<br>
 
@@ -194,7 +196,7 @@ entities:
 
 返り討ちに遭ってきた社内最強のポケモントレーナー、もりもとの<br>
 
-手に土を付けるトレーナーが現れかですね縲怐B<br>
+手に土を付けるトレーナーが現れかですね〜。<br>
 
 むしろ付けにいく！という意気込みで、今回いわしもバトル大会に参加しました！
 

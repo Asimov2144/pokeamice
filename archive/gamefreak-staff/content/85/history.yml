@@ -1,0 +1,22 @@
+post_id: 85
+early_versions: 21
+earliest_capture: '20080925033610'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: なぎー
+  zh: 纳吉
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

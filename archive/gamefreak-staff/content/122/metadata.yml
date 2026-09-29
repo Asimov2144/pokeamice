@@ -2,20 +2,11 @@ article_id: gamefreak-staff-122
 post_id: 122
 date: '2009-04-17'
 title: ゲームフリークの先輩たち
-tags: []
+tags:
+- ほず
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +32,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:49+00:00'
+writers:
+- ja: ほず
+  zh: 阿穗
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer34-ea404d.jpg
+history:
+  early_versions: 10
+  earliest_capture: '20090417100315'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+  record: archive/gamefreak-staff/content/122/history.yml

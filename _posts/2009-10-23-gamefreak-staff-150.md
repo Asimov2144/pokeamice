@@ -10,29 +10,23 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
 - 宝可梦
-- 招聘
-- 更新通知
-- 未分类
 gf_source_tags: []
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 150
+gf_history:
+  early_versions: 9
+  earliest_capture: '20091202150309'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 2
+  edits: 0
 gf_entry_title: 【工作日志】2009年宝可梦运动会诞生记
 gf_original_title: ＨＧ・ＳＳ 語っちゃいます！ その3
 gf_translation_title: 【工作日志】2009年宝可梦运动会诞生记
@@ -179,7 +173,7 @@ entities:
 </div>
 
 <div data-gf-language-panel="ja" hidden>
-はじめまして縲怐B<br>
+はじめまして〜。<br>
 
 グラフィックデザイナーのおおむらと申します。<br>
 
@@ -291,7 +285,7 @@ entities:
 
 そもそも部屋から出るとか面倒くさいじゃないですか…
 
-それでは縲怐B<br>
+それでは〜。<br>
 
 次の『ＨＧ・ＳＳ　語っちゃいます！』もお楽しみに！
 

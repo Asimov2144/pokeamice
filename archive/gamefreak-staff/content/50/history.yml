@@ -1,0 +1,22 @@
+post_id: 50
+early_versions: 18
+earliest_capture: '20080116055411'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: つばっさ−
+  zh: つばっさ−
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: 未分類
+  zh: 未分类
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

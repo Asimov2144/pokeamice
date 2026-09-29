@@ -294,8 +294,7 @@
     "name": "世界观设定",
     "facet": "design",
     "seg": [
-     12,
-     23
+     12
     ],
     "as": [
      "世界观"
@@ -312,18 +311,6 @@
     ],
     "as": [
      "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     23
-    ],
-    "as": [
-     "门槛"
     ],
     "via": "body"
    }

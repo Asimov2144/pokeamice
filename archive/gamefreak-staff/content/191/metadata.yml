@@ -2,20 +2,13 @@ article_id: gamefreak-staff-191
 post_id: 191
 date: '2010-07-16'
 title: 入社して思うこと…
-tags: []
+tags:
+- いっちー
 blog_categories:
 - ja: GF紹介
   zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +34,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:50+00:00'
+writers:
+- ja: いっちー
+  zh: いっちー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer46-9070e2.gif
+history:
+  early_versions: 14
+  earliest_capture: '20100806120453'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/191/history.yml

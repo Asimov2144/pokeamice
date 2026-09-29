@@ -2,20 +2,11 @@ article_id: gamefreak-staff-113
 post_id: 113
 date: '2009-02-16'
 title: 会社説明会開催しました
-tags: []
+tags:
+- さとう
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
 - ja: 採用
   zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +32,18 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:49+00:00'
+writers:
+- ja: さとう
+  zh: 佐藤
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer26-d03ced.jpg
+history:
+  early_versions: 16
+  earliest_capture: '20090414122414'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 1
+  edits: 0
+  record: archive/gamefreak-staff/content/113/history.yml

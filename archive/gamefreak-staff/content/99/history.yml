@@ -1,0 +1,28 @@
+post_id: 99
+early_versions: 13
+earliest_capture: '20081207022829'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: いわし
+  zh: 沙丁鱼
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: シングルとは一味違ったポケモン育成や戦術が必要になってくるんですよ縲怐B
+  early: シングルとは一味違ったポケモン育成や戦術が必要になってくるんですよ〜。
+  ts: '20101019053858'
+- now: 手に土を付けるトレーナーが現れかですね縲怐B
+  early: 手に土を付けるトレーナーが現れかですね〜。
+  ts: '20101019053858'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

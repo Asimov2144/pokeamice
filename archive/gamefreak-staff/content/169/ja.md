@@ -98,6 +98,6 @@ status: source-extracted
 
 {% legacy_image id="gamefreak-staff-ebb980b86490" alt="元気にお仕事" %}
 
-ほずでした?
+ほずでした～
 
 <br>

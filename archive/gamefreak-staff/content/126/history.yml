@@ -1,0 +1,21 @@
+post_id: 126
+early_versions: 8
+earliest_capture: '20090801044905'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: もりもと
+  zh: 森本
+guest_writers: []
+categories:
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

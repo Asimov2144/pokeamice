@@ -313,18 +313,6 @@
      "门槛"
     ],
     "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     28
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
    }
   ]
  },

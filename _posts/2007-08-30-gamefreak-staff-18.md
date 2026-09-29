@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- よっしー
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 18
+gf_history:
+  early_versions: 13
+  earliest_capture: '20071116122319'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 6
+  edits: 0
+gf_writers:
+- ja: よっしー
+  zh: 小吉
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer03-db6818.jpg
 gf_entry_title: 【工作日志】2007年夏威夷岛最热的一天
 gf_original_title: ハワイの島の、いちばんあつい日
 gf_translation_title: 【工作日志】2007年夏威夷岛最热的一天
@@ -133,7 +132,7 @@ GAME FREAK 的图形设计师们，<br>
 </div>
 
 <div data-gf-language-panel="ja" hidden>
-はじめまして、よっしーです?。
+はじめまして、よっしーです～。
 
 ゲームフリークでグラフィックデザイナーをしています。<br>
 
@@ -143,13 +142,13 @@ GAME FREAK 的图形设计师们，<br>
 
 ゲームフリークのグラフィックデザイナースタッフは、<br>
 
-ポケモンカードゲームのイラストも描いていますよ?。
+ポケモンカードゲームのイラストも描いていますよ～。
 
 そんなこんなで、<br>
 
 今回は、ポケモンカードゲームのお話をさせていただきます。
 
-今月の中旬、8月の11?12日に、<br>
+今月の中旬、8月の11～12日に、<br>
 
 ポケモンカードゲームの最高峰イベント<br>
 
@@ -175,7 +174,7 @@ GAME FREAK 的图形设计师们，<br>
 
 アートディレクター杉森建とグラフィックデザイナー吉田宏信。
 
-二人は今回のカード大会にて、サイン会を行なったのですよ?。
+二人は今回のカード大会にて、サイン会を行なったのですよ～。
 
 そして、ハワイ島といえば雄大な自然！
 
@@ -187,7 +186,7 @@ GAME FREAK 的图形设计师们，<br>
 
 ハワイの古代人が刻み使っていた岩刻文字（ペトログラフ）。<br>
 
-歴史を感じますね。ロマンですよ?。
+歴史を感じますね。ロマンですよ～。
 
 カード大会で生き生きとしておられるプレイヤーのみなさんの熱気、<br>
 
@@ -201,7 +200,7 @@ GAME FREAK 的图形设计师们，<br>
 
 これからも、そんな素敵エッセンスを、<br>
 
-日々の生活に、どんどんたっくさんいれてゆきたいな?と<br>
+日々の生活に、どんどんたっくさんいれてゆきたいな～と<br>
 
 改めてじーんと思っちゃったよっしーでした。
 

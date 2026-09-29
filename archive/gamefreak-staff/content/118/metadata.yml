@@ -1,21 +1,12 @@
 article_id: gamefreak-staff-118
 post_id: 118
 date: '2009-03-27'
-title: 東京マラソン ?東京がひとつになる日?
-tags: []
+title: 東京マラソン ～東京がひとつになる日～
+tags:
+- ボーダー丸
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -71,3 +62,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:49+00:00'
+writers:
+- ja: ボーダー丸
+  zh: ボーダー丸
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer33-b99a7f.gif
+history:
+  early_versions: 14
+  earliest_capture: '20090414122414'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 3
+  edits: 0
+  record: archive/gamefreak-staff/content/118/history.yml

@@ -2,20 +2,13 @@ article_id: gamefreak-staff-33
 post_id: 33
 date: '2007-09-26'
 title: 社内の流行しているゲーム
-tags: []
+tags:
+- なぎー
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -51,3 +44,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: なぎー
+  zh: 纳吉
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer05-470ddf.gif
+history:
+  early_versions: 14
+  earliest_capture: '20071116122319'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/33/history.yml

@@ -48,7 +48,7 @@ status: source-extracted
 
 {% legacy_image id="gamefreak-staff-652d88b0431f" alt="ラッペン" %}<br>
 
-初詣は0時に行ったのですが、今年の大晦日?元旦はすごく寒かったですね！<br>
+初詣は0時に行ったのですが、今年の大晦日～元旦はすごく寒かったですね！<br>
 
 お参りをした後は、屋台食い倒れツアーを満喫。<br>
 
@@ -78,7 +78,7 @@ status: source-extracted
 
 ワイワイと普段しない芸能人の話などしながら<br>
 
-まったりのんびり新年を迎えました?。（ジョニー）
+まったりのんびり新年を迎えました～。（ジョニー）
 
 {% legacy_image id="gamefreak-staff-707010161046" alt="おにいさん" %}<br>
 

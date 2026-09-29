@@ -141,6 +141,33 @@ def main() -> int:
     check(".crumbs__list" in css and ".tip__card" in css and ".lore__facets" in css,
           "the stylesheet carries the trail, the tip and the column")
 
+    # ---- GF 员工博客：早期版本补回的署名 / 分类 / 修正（tools/gamefreak_staff_history.py）----
+    staff_pages = sorted(site.glob("gamefreak-staff/entry-*/index.html"))
+    bylines = avatars = mojibake = 0
+    missing_avatar = []
+    for path in staff_pages:
+        page = read(path)
+        by = page.select_one(".gf-legacy-byline")
+        if by:
+            bylines += 1
+            for img in by.select("img"):
+                avatars += 1
+                if not exists(site, img.get("src") or ""):
+                    missing_avatar.append(img.get("src"))
+        body = page.select_one(".gf-legacy-post__body")
+        if body and re.search(r"縲|竏|鰀|怩|怐|怺", body.get_text()):
+            mojibake += 1
+    check(len(staff_pages) >= 209, f"staff blog: {len(staff_pages)} entries built")
+    check(bylines >= 190, f"staff blog: {bylines} entries carry the restored byline ({avatars} avatars)")
+    check(not missing_avatar, f"staff blog: every avatar resolves ({missing_avatar[:3]})")
+    check(mojibake == 0, f"staff blog: no 2013 mojibake left in the entries ({mojibake} pages)")
+    staff_home = read(site / "gamefreak-staff" / "index.html")
+    writers = staff_home.select(".gf-legacy-writers li") if staff_home else []
+    headers = staff_home.select(".gf-legacy-early img") if staff_home else []
+    check(len(writers) >= 50 and len(headers) == 3,
+          f"staff blog: the writer list ({len(writers)}) and the three early headers ({len(headers)}) are on the front page")
+    check(all(exists(site, img.get("src") or "") for img in headers), "staff blog: the early headers resolve")
+
     # ---- nothing leaked -------------------------------------------------
     leaks = []
     code = re.compile(r"<(code|pre)\b.*?</\1>", re.S | re.I)

@@ -10,38 +10,37 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ボーダー丸
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 118
+gf_history:
+  early_versions: 14
+  earliest_capture: '20090414122414'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 3
+  edits: 0
+gf_writers:
+- ja: ボーダー丸
+  zh: ボーダー丸
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer33-b99a7f.gif
 gf_entry_title: 【工作日志】2009东京马拉松初体验
-gf_original_title: 東京マラソン ?東京がひとつになる日?
+gf_original_title: 東京マラソン ～東京がひとつになる日～
 gf_translation_title: 【工作日志】2009东京马拉松初体验
 translation_available: true
 summary: 总务部员工首次挑战全程马拉松，记录从不安起跑到六个半小时完赛，以及沿途加油带来的力量。
 translation_status: openai-machine-translated
 search: true
 source:
-  title: 晴れたり時々曇ったり · 東京マラソン ?東京がひとつになる日?
+  title: 晴れたり時々曇ったり · 東京マラソン ～東京がひとつになる日～
   url: http://www.gamefreak.co.jp/blog/staff/?p=118
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=118
   source_type: official_blog_wayback
@@ -144,7 +143,7 @@ entities:
 <div data-gf-language-panel="ja" hidden>
 こんにちは、総務部のボーダー丸です。<br>
 
-3月22日に開催された東京マラソンに参加してきました?。<br>
+3月22日に開催された東京マラソンに参加してきました～。<br>
 
 3万5千人もの人が東京を走る大イベント！！<br>
 
@@ -218,7 +217,7 @@ entities:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/118/border090327_03-995c519a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/118/border090327_03-995c519a.jpg" alt="フィニッシュ" loading="lazy"></a></figure><br>
 
-3）フィニッシュ！メダルが嬉しかったぁ?
+3）フィニッシュ！メダルが嬉しかったぁ～
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/118/border090327_04-d8d8b7ef.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/118/border090327_04-d8d8b7ef.jpg" alt="メダルと記念の額縁" loading="lazy"></a></figure><br>
 

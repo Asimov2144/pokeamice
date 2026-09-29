@@ -4,18 +4,8 @@ date: '2009-12-04'
 title: ＨＧ・ＳＳ 語っちゃいます！ その7
 tags: []
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +31,13 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:49+00:00'
+history:
+  early_versions: 9
+  earliest_capture: '20091217134655'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/157/history.yml

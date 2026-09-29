@@ -10,29 +10,29 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- おにいさん
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 108
+gf_history:
+  early_versions: 14
+  earliest_capture: '20090116093004'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 3
+  edits: 0
+gf_writers:
+- ja: おにいさん
+  zh: 哥哥
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer12-707010.jpg
 gf_entry_title: 【工作日志】2009年任天堂收藏日常
 gf_original_title: 究極のコレクション
 gf_translation_title: 【工作日志】2009年任天堂收藏日常
@@ -105,7 +105,7 @@ entities:
 
 ファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。<br>
 
-皆さんとは約１年ぶりの再会になりますね?。<br>
+皆さんとは約１年ぶりの再会になりますね～。<br>
 
 お元気でしたか？
 
@@ -127,7 +127,7 @@ entities:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure>
 
-自分で言うのなんですが、かなりパチもの臭いですね?。<br>
+自分で言うのなんですが、かなりパチもの臭いですね～。<br>
 
 そこがいいんですけどね。<br>
 
@@ -143,7 +143,7 @@ entities:
 
 これぞ究極のコレクションじゃないでしょうか！<br>
 
-それではまた?
+それではまた～
 
 <br>
 </div>

@@ -3,7 +3,7 @@ article_id: gamefreak-staff-189
 post_id: 189
 lang: ja
 date: '2010-07-02'
-title: 山梨?東京下町へ
+title: 山梨～東京下町へ
 source: http://www.gamefreak.co.jp/blog/staff/?p=189
 status: source-extracted
 ---

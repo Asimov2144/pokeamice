@@ -1,0 +1,25 @@
+post_id: 68
+early_versions: 24
+earliest_capture: '20080514075156'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: マシュー
+  zh: 马修
+guest_writers: []
+categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: 採用
+  zh: 招聘
+text_repairs:
+- now: 会社から支給されたペンタブはとにかくおおきい?！描きやすさにびっくりです…
+  early: 会社から支給されたペンタブはとにかくおおきい～！描きやすさにびっくりです…
+  ts: '20101019054029'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

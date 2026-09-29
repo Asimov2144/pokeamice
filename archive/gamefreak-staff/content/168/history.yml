@@ -1,0 +1,22 @@
+post_id: 168
+early_versions: 9
+earliest_capture: '20101019004220'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: さとう
+  zh: 佐藤
+guest_writers: []
+categories:
+- ja: 採用
+  zh: 招聘
+text_repairs:
+- now: 街でもスーツ姿の学生さんを見かけることが多くなってきましたね?。
+  early: 街でもスーツ姿の学生さんを見かけることが多くなってきましたね～。
+  ts: '20101019053918'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

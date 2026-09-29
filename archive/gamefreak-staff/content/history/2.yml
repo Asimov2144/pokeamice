@@ -1,0 +1,76 @@
+id: 2
+versions:
+- ts: '20071116141750'
+  kind: page
+  file: raw/history/20071116141750_blog_staff_page_id=2_806a6613.html
+  theme: staff01
+  title: About
+  date: ''
+  tags: []
+  cats: []
+  writers: []
+  text: '「晴れたり時々曇ったり」はゲームフリークスタッフによるつれづれブログです。
+
+    ちょっとヘンだけどおもしろいゲームフリークでの楽しい日々を
+
+    書いたり書かなかったりしていこうと思います。'
+  text_sha: abe8d8ffd33f
+  images: []
+  embeds: []
+  file_links: []
+  partial: false
+- ts: '20081008122054'
+  kind: page
+  file: raw/history/20081008122054_blog_staff_page_id=2_806a6613.html
+  theme: staff01
+  title: About
+  date: ''
+  tags: []
+  cats: []
+  writers: []
+  text: '「晴れたり時々曇ったり」はゲームフリークスタッフによるつれづれブログです。
+
+    ちょっとヘンだけどおもしろいゲームフリークでの楽しい日々を
+
+    書いたり書かなかったりしていこうと思います。
+
+    スタッフボイスのアイコン写真作者クレジット
+
+    Photo by anakawho
+
+    Thank you!'
+  text_sha: deca7969907a
+  images:
+  - http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer28.jpg
+  embeds: []
+  file_links: []
+  partial: false
+- ts: '20101019053847'
+  kind: page
+  file: raw/history/20101019053847_blog_staff_page_id=2_806a6613.html
+  theme: staff01_wb
+  title: About
+  date: ''
+  tags: []
+  cats: []
+  writers: []
+  text: '「晴れたり時々曇ったり」はゲームフリークスタッフによるつれづれブログです。
+
+    ちょっとヘンだけどおもしろいゲームフリークでの楽しい日々を
+
+    書いたり書かなかったりしていこうと思います。
+
+    スタッフボイスのアイコン写真作者クレジット
+
+    Photo by anakawho
+
+    Photo by lorelei
+
+    Thank you!'
+  text_sha: c8d8b00f9257
+  images:
+  - http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer28.jpg
+  - http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer30.jpg
+  embeds: []
+  file_links: []
+  partial: false

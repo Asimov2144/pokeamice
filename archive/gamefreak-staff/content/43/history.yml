@@ -1,0 +1,24 @@
+post_id: 43
+early_versions: 26
+earliest_capture: '20071114075057'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: おにいさん
+  zh: 哥哥
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 最近すっかり寒くなってきましたね?。
+  early: 最近すっかり寒くなってきましたね～。
+  ts: '20101019053908'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

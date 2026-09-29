@@ -1,0 +1,660 @@
+writers:
+  執筆者近影:
+    tag: ''
+    names_on_icon:
+    - 執筆者近影
+    avatars:
+      http://gamefreak.sakura.ne.jp/blog/staff/wp-content/themes/staff01/images/writer01.gif:
+        first_seen: '20071014022250'
+        last_seen: '20071016172048'
+      http://gamefreak.sakura.ne.jp/blog/staff/wp-content/themes/staff01/images/writer02.jpg:
+        first_seen: '20071014022250'
+        last_seen: '20071016172048'
+      http://gamefreak.sakura.ne.jp/blog/staff/wp-content/themes/staff01/images/writer03.jpg:
+        first_seen: '20071014022250'
+        last_seen: '20071016172048'
+      http://gamefreak.sakura.ne.jp/blog/staff/wp-content/themes/staff01/images/writer04.gif:
+        first_seen: '20071014022250'
+        last_seen: '20071016172048'
+      http://gamefreak.sakura.ne.jp/blog/staff/wp-content/themes/staff01/images/writer05.gif:
+        first_seen: '20071014022250'
+        last_seen: '20071016172048'
+      http://gamefreak.sakura.ne.jp/blog/staff/wp-content/themes/staff01/images/writer06.jpg:
+        first_seen: '20071014022250'
+        last_seen: '20071016172048'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer01.gif:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer02.jpg:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer03.jpg:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer04.gif:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer05.gif:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer06.jpg:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer07.gif:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer08.jpg:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer09.gif:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10.gif:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer11.jpg:
+        first_seen: '20071112202508'
+        last_seen: '20071116141755'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer12.jpg:
+        first_seen: '20071114075057'
+        last_seen: '20071116141755'
+    first_seen: '20071014022250'
+    last_seen: '20071116141755'
+    order: 1
+  カニ子:
+    tag: カニ子
+    names_on_icon:
+    - カニ子
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer01.gif:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 1
+  エノキ:
+    tag: エノキ
+    names_on_icon:
+    - エノキ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer02.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 2
+  よっしー:
+    tag: よっしー
+    names_on_icon:
+    - よっしー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer03.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20081109060053'
+    first_seen: '20071209070105'
+    last_seen: '20081109060053'
+    order: 3
+  デコ:
+    tag: デコ
+    names_on_icon:
+    - デコ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer04.gif:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 4
+  なぎー:
+    tag: なぎー
+    names_on_icon:
+    - なぎー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer05.gif:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 5
+  ラッペン:
+    tag: ラッペン
+    names_on_icon:
+    - ラッペン
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer06.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 6
+  ユッフィー:
+    tag: ユッフィー
+    names_on_icon:
+    - ユッフィー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer07.gif:
+        first_seen: '20071209070105'
+        last_seen: '20100107211629'
+    first_seen: '20071209070105'
+    last_seen: '20100107211629'
+    order: 7
+  マー:
+    tag: マー
+    names_on_icon:
+    - マー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer08.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 8
+  ジョニ:
+    tag: ジョニ
+    names_on_icon:
+    - ジョニー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer09.gif:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 9
+  もりもと:
+    tag: もりもと
+    names_on_icon:
+    - もりもと
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10.gif:
+        first_seen: '20071209070105'
+        last_seen: '20080108013350'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_03.gif:
+        first_seen: '20080113194430'
+        last_seen: '20080514075156'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_04.gif:
+        first_seen: '20080611083350'
+        last_seen: '20081218040534'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_05.gif:
+        first_seen: '20090116093004'
+        last_seen: '20090907104458'
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_06.gif:
+        first_seen: '20090926210848'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 10
+  スティック:
+    tag: スティック
+    names_on_icon:
+    - スティック
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer11.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 11
+  おにいさん:
+    tag: おにいさん
+    names_on_icon:
+    - おにいさん
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer12.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20121029100822'
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    order: 12
+  げいのう:
+    tag: げいのう
+    names_on_icon:
+    - げいのう
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer13.jpg:
+        first_seen: '20071209070105'
+        last_seen: '20100107211629'
+    first_seen: '20071209070105'
+    last_seen: '20100107211629'
+    order: 13
+  ディア:
+    tag: ディア
+    names_on_icon:
+    - げいのう
+    - ディア
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer14.jpg:
+        first_seen: '20071217092407'
+        last_seen: '20090418012629'
+    first_seen: '20071217092407'
+    last_seen: '20090418012629'
+    order: 14
+  しゃち:
+    tag: しゃち
+    names_on_icon:
+    - しゃち
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer15.jpg:
+        first_seen: '20080108013335'
+        last_seen: '20121029100822'
+    first_seen: '20080108013335'
+    last_seen: '20121029100822'
+    order: 15
+  つばっさ−:
+    tag: つばっさ−
+    names_on_icon:
+    - つばっさー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer16.jpg:
+        first_seen: '20080108013335'
+        last_seen: '20081109060053'
+    first_seen: '20080108013335'
+    last_seen: '20081109060053'
+    order: 16
+  おせんべい:
+    tag: おせんべい
+    names_on_icon:
+    - おせんべい
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer17.jpg:
+        first_seen: '20080212112645'
+        last_seen: '20121029100822'
+    first_seen: '20080212112645'
+    last_seen: '20121029100822'
+    order: 17
+  ねこスq:
+    tag: ねこスq
+    names_on_icon:
+    - おせんべい
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer18.jpg:
+        first_seen: '20080222184418'
+        last_seen: '20081109060053'
+    first_seen: '20080222184418'
+    last_seen: '20081109060053'
+    order: 18
+  っゃっゃ:
+    tag: っゃっゃ
+    names_on_icon:
+    - っゃっゃ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer19.jpg:
+        first_seen: '20080222184418'
+        last_seen: '20121029100822'
+    first_seen: '20080222184418'
+    last_seen: '20121029100822'
+    order: 19
+  ヒロ:
+    tag: ヒロ
+    names_on_icon:
+    - ヒロ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer20.jpg:
+        first_seen: '20080320052331'
+        last_seen: '20121029100822'
+    first_seen: '20080320052331'
+    last_seen: '20121029100822'
+    order: 20
+  カビ:
+    tag: カビ
+    names_on_icon:
+    - カビ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer21.jpg:
+        first_seen: '20080423001930'
+        last_seen: '20121029100822'
+    first_seen: '20080423001930'
+    last_seen: '20121029100822'
+    order: 21
+  えるかつ:
+    tag: えるかつ
+    names_on_icon:
+    - えるかつ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer22.jpg:
+        first_seen: '20080423001930'
+        last_seen: '20121029100822'
+    first_seen: '20080423001930'
+    last_seen: '20121029100822'
+    order: 22
+  マシュー:
+    tag: マシュー
+    names_on_icon:
+    - マシュー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer23.gif:
+        first_seen: '20080514075156'
+        last_seen: '20121029100822'
+    first_seen: '20080514075156'
+    last_seen: '20121029100822'
+    order: 23
+  G麺:
+    tag: G麺
+    names_on_icon:
+    - マシュー
+    - G麺
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer25.gif:
+        first_seen: '20080611083350'
+        last_seen: '20121029100822'
+    first_seen: '20080611083350'
+    last_seen: '20121029100822'
+    order: 25
+  さとう:
+    tag: さとう
+    names_on_icon:
+    - さとう
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer26.jpg:
+        first_seen: '20080730005059'
+        last_seen: '20121029100822'
+    first_seen: '20080730005059'
+    last_seen: '20121029100822'
+    order: 26
+  いわし:
+    tag: いわし
+    names_on_icon:
+    - いわし
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer27.jpg:
+        first_seen: '20080730005059'
+        last_seen: '20121029100822'
+    first_seen: '20080730005059'
+    last_seen: '20121029100822'
+    order: 27
+  かわちまる:
+    tag: かわちまる
+    names_on_icon:
+    - かわちまる
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer28.jpg:
+        first_seen: '20080730005059'
+        last_seen: '20101203135623'
+    first_seen: '20080730005059'
+    last_seen: '20101203135623'
+    order: 28
+  ほっしー:
+    tag: ほっしー
+    names_on_icon:
+    - ほっしー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer24.jpg:
+        first_seen: '20080730005059'
+        last_seen: '20121029100822'
+    first_seen: '20080730005059'
+    last_seen: '20121029100822'
+    order: 24
+  ユーリー:
+    tag: ユーリー
+    names_on_icon:
+    - ユーリー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer29.jpg:
+        first_seen: '20081206180831'
+        last_seen: '20110426214820'
+    first_seen: '20081206180831'
+    last_seen: '20110426214820'
+    order: 29
+  カラシ:
+    tag: カラシ
+    names_on_icon:
+    - カラシ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer30.jpg:
+        first_seen: '20081212062648'
+        last_seen: '20121029100822'
+    first_seen: '20081212062648'
+    last_seen: '20121029100822'
+    order: 30
+  ギン:
+    tag: ギン
+    names_on_icon:
+    - ギン
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer31.jpg:
+        first_seen: '20090207194153'
+        last_seen: '20121029100822'
+    first_seen: '20090207194153'
+    last_seen: '20121029100822'
+    order: 31
+  kage:
+    tag: kage
+    names_on_icon:
+    - KAGE
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer32.gif:
+        first_seen: '20090207194153'
+        last_seen: '20121029100822'
+    first_seen: '20090207194153'
+    last_seen: '20121029100822'
+    order: 32
+  ボーダー丸:
+    tag: ボーダー丸
+    names_on_icon:
+    - ボーダー丸
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer33.gif:
+        first_seen: '20090414122414'
+        last_seen: '20121029100822'
+    first_seen: '20090414122414'
+    last_seen: '20121029100822'
+    order: 33
+  ほず:
+    tag: ほず
+    names_on_icon:
+    - ほず
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer34.jpg:
+        first_seen: '20090417095218'
+        last_seen: '20121029100822'
+    first_seen: '20090417095218'
+    last_seen: '20121029100822'
+    order: 34
+  カンタロウ:
+    tag: カンタロウ
+    names_on_icon:
+    - カンタロウ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer35.jpg:
+        first_seen: '20090726073405'
+        last_seen: '20110906064512'
+    first_seen: '20090726073405'
+    last_seen: '20110906064512'
+    order: 35
+  電線:
+    tag: 電線
+    names_on_icon:
+    - 電線
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer36.jpg:
+        first_seen: '20090726073405'
+        last_seen: '20121029100822'
+    first_seen: '20090726073405'
+    last_seen: '20121029100822'
+    order: 36
+  じだぬ:
+    tag: じだぬ
+    names_on_icon:
+    - じだぬ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer37.jpg:
+        first_seen: '20090801044905'
+        last_seen: '20121029100822'
+    first_seen: '20090801044905'
+    last_seen: '20121029100822'
+    order: 37
+  にょろリカ:
+    tag: にょろリカ
+    names_on_icon:
+    - にょろリカ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer38.jpg:
+        first_seen: '20100125090816'
+        last_seen: '20121029100822'
+    first_seen: '20100125090816'
+    last_seen: '20121029100822'
+    order: 38
+  ペンギン:
+    tag: ペンギン
+    names_on_icon:
+    - ペンギン
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer39.jpg:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 39
+  めめた:
+    tag: めめた
+    names_on_icon:
+    - めめた
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer41.jpg:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 41
+  わも:
+    tag: わも
+    names_on_icon:
+    - わも
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer42.gif:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 42
+  あきら:
+    tag: あきら
+    names_on_icon:
+    - あきら
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer43.jpg:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 43
+  ヒート:
+    tag: ヒート
+    names_on_icon:
+    - ヒート
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer44.gif:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 44
+  もりび:
+    tag: もりび
+    names_on_icon:
+    - もりび
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer45.gif:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 45
+  いっちー:
+    tag: いっちー
+    names_on_icon:
+    - いっちー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer46.gif:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 46
+  タピオカ:
+    tag: タピオカ
+    names_on_icon:
+    - タピオカ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer47.gif:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 47
+  よちよち:
+    tag: よちよち
+    names_on_icon:
+    - よちよち
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer48.gif:
+        first_seen: '20100806120453'
+        last_seen: '20121029100822'
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    order: 48
+  アーリー:
+    tag: アーリー
+    names_on_icon:
+    - アーリー
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer50.gif:
+        first_seen: '20110103004454'
+        last_seen: '20121029100822'
+    first_seen: '20110103004454'
+    last_seen: '20121029100822'
+    order: 50
+  まさゆき:
+    tag: まさゆき
+    names_on_icon:
+    - まさゆき
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer51.jpg:
+        first_seen: '20110426214820'
+        last_seen: '20121029100822'
+    first_seen: '20110426214820'
+    last_seen: '20121029100822'
+    order: 51
+  フジワ:
+    tag: フジワ
+    names_on_icon:
+    - フジワ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer49.jpg:
+        first_seen: '20110711130041'
+        last_seen: '20121029100822'
+    first_seen: '20110711130041'
+    last_seen: '20121029100822'
+    order: 49
+  マッツン:
+    tag: マッツン
+    names_on_icon:
+    - マッツン
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer52.jpg:
+        first_seen: '20110809025151'
+        last_seen: '20121029100822'
+    first_seen: '20110809025151'
+    last_seen: '20121029100822'
+    order: 52
+  Ｙ:
+    tag: Ｙ
+    names_on_icon:
+    - Ｙ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer53.jpg:
+        first_seen: '20111203125424'
+        last_seen: '20121029100822'
+    first_seen: '20111203125424'
+    last_seen: '20121029100822'
+    order: 53
+  ラッティ:
+    tag: ラッティ
+    names_on_icon:
+    - ラッティ
+    avatars:
+      http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer54.gif:
+        first_seen: '20111228044440'
+        last_seen: '20121029100822'
+    first_seen: '20111228044440'
+    last_seen: '20121029100822'
+    order: 54

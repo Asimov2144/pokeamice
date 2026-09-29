@@ -175,6 +175,44 @@
 .gf-legacy-tag { color: var(--gf-accent); }
 .gf-legacy-tags small { color: #aaa; font-size: 9px; }
 
+/* 署名：早期模板的「書いた人」，从 Web Archive 找回 */
+.gf-legacy-byline { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: -12px 0 20px; color: #666; font-size: 11px; }
+.gf-legacy-stream__main > .gf-legacy-byline { margin: -16px 0 18px; }
+.gf-legacy-byline__label { color: #999; font-size: 10px; letter-spacing: .08em; }
+.gf-legacy-writer { display: inline-flex; align-items: center; gap: 5px; }
+.gf-legacy-writer img { width: 28px; height: 28px; object-fit: cover; border: 1px solid #ddd; padding: 1px; background: #fff; }
+.gf-legacy-writer span { color: #222; }
+.gf-legacy-writer small { color: #999; font-size: 10px; }
+.gf-legacy-writer--guest span { color: var(--gf-accent); }
+.gf-legacy-byline__cats { display: inline-flex; gap: 6px; margin-left: auto; }
+.gf-legacy-byline__cats .gf-legacy-tag { border: 1px solid currentColor; padding: 0 6px; font-size: 10px; line-height: 1.7; }
+
+/* 修订记录：原站后来改过的句子 */
+.gf-legacy-revision { border-left: 3px solid var(--gf-accent); margin: 28px 0 0; padding: 8px 12px; background: #f7f7f7; color: #555; font-size: 12px; }
+.gf-legacy-revision strong { display: block; margin-bottom: 4px; color: #222; font-weight: 400; letter-spacing: .08em; }
+.gf-legacy-revision p { margin: 0 0 6px; }
+.gf-legacy-revision ul { margin: 0; padding-left: 1.1em; }
+.gf-legacy-revision li { margin: 4px 0; }
+.gf-legacy-revision q { display: block; margin: 2px 0 4px; color: #222; quotes: "「" "」"; }
+.gf-legacy-revision span { color: #999; font-size: 10px; }
+
+/* 侧栏：历代页头 */
+.gf-legacy-early { border-top: 1px dotted #ccc; margin-top: 12px; padding-top: 8px; }
+.gf-legacy-early h3 { margin: 0 0 6px; color: #111; font-size: 12px; font-weight: 400; }
+.gf-legacy-early h3 span { color: #aaa; font-size: 9px; }
+.gf-legacy-early figure { margin: 0 0 8px; }
+.gf-legacy-early img { display: block; width: 100%; height: auto; border: 1px solid #ddd; }
+.gf-legacy-early figcaption { margin-top: 2px; color: #999; font-size: 9px; }
+
+/* 侧栏：書いてる人リスト */
+.gf-legacy-writers__note { margin: 0 0 8px; color: #999; font-size: 9px; line-height: 1.55; }
+.gf-legacy-writers ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 8px; margin: 0; padding: 0; list-style: none; }
+.gf-legacy-writers li { display: grid; grid-template-columns: 26px minmax(0, 1fr); align-items: center; gap: 5px; }
+.gf-legacy-writers img, .gf-legacy-writers__blank { width: 26px; height: 26px; object-fit: cover; border: 1px solid #ddd; padding: 1px; background: #fff; }
+.gf-legacy-writers li > span { display: grid; min-width: 0; line-height: 1.2; }
+.gf-legacy-writers b { color: #222; font-size: 10px; font-weight: 400; overflow-wrap: anywhere; }
+.gf-legacy-writers small { color: #aaa; font-size: 9px; }
+
 .gf-legacy-source { margin-top: 32px; border-top: 1px dotted #aaa; padding-top: 12px; color: #777; font-size: 11px; }
 .gf-legacy-source summary { color: #333; cursor: pointer; }
 .gf-legacy-pager { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding: 0 18px 28px; }

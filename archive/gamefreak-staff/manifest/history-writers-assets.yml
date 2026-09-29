@@ -1,0 +1,880 @@
+generated_at: '2026-09-29T04:50:36+00:00'
+writers:
+- ja: カニ子
+  zh: 蟹子
+  names_on_icon:
+  - カニ子
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer01-58a673.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer01.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer01-58a673.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer01-58a673.gif
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 3383
+    sha256: 7cc1c1bf4ebb79c63c15465c88d7abb1394cc69440a38027704dd472c76a6f97
+  posts: 35
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: エノキ
+  zh: 榎木
+  names_on_icon:
+  - エノキ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer02-228248.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer02.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer02-228248.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer02-228248.jpg
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 1092
+    sha256: a49d3609c772decb4ff0440c421f87d75dc21a0bc6fd7b6f3b9b5db99a4ab9ef
+  posts: 5
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: よっしー
+  zh: 小吉
+  names_on_icon:
+  - よっしー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer03-db6818.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer03.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer03-db6818.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer03-db6818.jpg
+    first_seen: '20071209070105'
+    last_seen: '20081109060053'
+    bytes: 6432
+    sha256: a6cde2ced965d64f67d7b7ddcfb105210473636a09363fe8736beeb74a4761da
+  posts: 1
+  first_seen: '20071209070105'
+  last_seen: '20081109060053'
+- ja: デコ
+  zh: 德科
+  names_on_icon:
+  - デコ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer04-c591fa.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer04.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer04-c591fa.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer04-c591fa.gif
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 2646
+    sha256: 1899b6ad1bd5ff66e6b10422805a19a1739816c003338126e22e2d4de0144642
+  posts: 2
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: なぎー
+  zh: 纳吉
+  names_on_icon:
+  - なぎー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer05-470ddf.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer05.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer05-470ddf.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer05-470ddf.gif
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 3095
+    sha256: 03c64365f5621fde0b027c51e11eef59e9aab5a2620dc12306cb0d01aaf15ba8
+  posts: 10
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: ラッペン
+  zh: 拉彭
+  names_on_icon:
+  - ラッペン
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer06-652d88.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer06.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer06-652d88.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer06-652d88.jpg
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 5027
+    sha256: 5691e0a76d19860f055c6fd365a44db841b43a6dd39cc819c1406ff03c93d28c
+  posts: 4
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: ユッフィー
+  zh: 尤菲
+  names_on_icon:
+  - ユッフィー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer07-58822b.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer07.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer07-58822b.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer07-58822b.gif
+    first_seen: '20071209070105'
+    last_seen: '20100107211629'
+    bytes: 3220
+    sha256: ff2161e5b3203dd3f589ed36225ea11c548f794abebc827d7cca30990fe2ee48
+  posts: 2
+  first_seen: '20071209070105'
+  last_seen: '20100107211629'
+- ja: マー
+  zh: 小玛
+  names_on_icon:
+  - マー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer08-28e2d3.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer08.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer08-28e2d3.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer08-28e2d3.jpg
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 1614
+    sha256: c159bf2c2ba4906cbe1da1053812eafdae91b78999304335cda9933eca7644ba
+  posts: 4
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: ジョニ
+  zh: 乔尼
+  names_on_icon:
+  - ジョニー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer09-57ddcf.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer09.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer09-57ddcf.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer09-57ddcf.gif
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 3531
+    sha256: f155a4c00685521d83cf12eb0754715f878f8cfdf204f3445442a177cbaa11ff
+  posts: 3
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: もりもと
+  zh: 森本
+  names_on_icon:
+  - もりもと
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer10_06-747a58.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer10-d2c2be.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer10-d2c2be.gif
+    first_seen: '20071209070105'
+    last_seen: '20080108013350'
+    bytes: 2832
+    sha256: 8e5b3ae14aaee67f0a0ee2004050e23d70c2a797f6193f884a4bea73e9df4d25
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_03.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer10_03-29302f.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer10_03-29302f.gif
+    first_seen: '20080113194430'
+    last_seen: '20080514075156'
+    bytes: 2767
+    sha256: bcfb5d9e139464c8ee6d96e48d5d97e7f366baf45e36b7e9722c85be08dea95b
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_04.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer10_04-9467bb.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer10_04-9467bb.gif
+    first_seen: '20080611083350'
+    last_seen: '20081218040534'
+    bytes: 2834
+    sha256: 37f7006c36b9d916693c59e7af8aa7fa0d0ae95c30b69a610287467e42cb6d53
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_05.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer10_05-a79434.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer10_05-a79434.gif
+    first_seen: '20090116093004'
+    last_seen: '20090907104458'
+    bytes: 2886
+    sha256: 4fcf4af8a083be32b731f9bef3b4a83d349aa95c40e1f6e587e31830fe155a6e
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_06.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer10_06-747a58.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer10_06-747a58.gif
+    first_seen: '20090926210848'
+    last_seen: '20121029100822'
+    bytes: 2792
+    sha256: 79870976746ca789cc5ff8ff7066c93d0ef5363c698b93170899ce63bb2fcaf5
+  posts: 8
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: スティック
+  zh: 斯蒂克
+  names_on_icon:
+  - スティック
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer11-3220fb.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer11.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer11-3220fb.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer11-3220fb.jpg
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 1898
+    sha256: 4d99adb04f924e9ce5d11f9164c1de339fef087d60f661fded622298fe346b44
+  posts: 5
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: おにいさん
+  zh: 哥哥
+  names_on_icon:
+  - おにいさん
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer12-707010.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer12.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer12-707010.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer12-707010.jpg
+    first_seen: '20071209070105'
+    last_seen: '20121029100822'
+    bytes: 1879
+    sha256: 9812d5f46a07df3537aa099d63af8afa0c102ecc6b3d3bce7c7bd7e11cd61871
+  posts: 4
+  first_seen: '20071209070105'
+  last_seen: '20121029100822'
+- ja: げいのう
+  zh: げいのう
+  names_on_icon:
+  - げいのう
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer13-af63cb.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer13.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer13-af63cb.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer13-af63cb.jpg
+    first_seen: '20071209070105'
+    last_seen: '20100107211629'
+    bytes: 1466
+    sha256: 989f68bfc11890e38aba7cccd1d8ddf06ce05c19003b9ee51b308649fec93362
+  posts: 2
+  first_seen: '20071209070105'
+  last_seen: '20100107211629'
+- ja: ディア
+  zh: ディア
+  names_on_icon:
+  - げいのう
+  - ディア
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer14-557f34.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer14.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer14-557f34.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer14-557f34.jpg
+    first_seen: '20071217092407'
+    last_seen: '20090418012629'
+    bytes: 1870
+    sha256: ec8dd97f50e43282b9c495c5321e8a643c44818cccaf6b5db528b15b61e02559
+  posts: 1
+  first_seen: '20071217092407'
+  last_seen: '20090418012629'
+- ja: しゃち
+  zh: 沙奇
+  names_on_icon:
+  - しゃち
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer15-310b7f.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer15.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer15-310b7f.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer15-310b7f.jpg
+    first_seen: '20080108013335'
+    last_seen: '20121029100822'
+    bytes: 1431
+    sha256: 7e3558675370d23617902316af7bad0307b8d25be718f7d4382fede6933c6b5a
+  posts: 4
+  first_seen: '20080108013335'
+  last_seen: '20121029100822'
+- ja: つばっさ−
+  zh: つばっさ−
+  names_on_icon:
+  - つばっさー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer16-b55bb9.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer16.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer16-b55bb9.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer16-b55bb9.jpg
+    first_seen: '20080108013335'
+    last_seen: '20081109060053'
+    bytes: 1697
+    sha256: aaa363665b30d589c853adb11dd6a5a981fb883ea7b9930b882cb42ab366fbeb
+  posts: 1
+  first_seen: '20080108013335'
+  last_seen: '20081109060053'
+- ja: おせんべい
+  zh: おせんべい
+  names_on_icon:
+  - おせんべい
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer17-c50582.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer17.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer17-c50582.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer17-c50582.jpg
+    first_seen: '20080212112645'
+    last_seen: '20121029100822'
+    bytes: 1884
+    sha256: 9bf8683f8f3672bf40750e3771ddbbe4539d23a36f0eb04b68314ba424b5aca1
+  posts: 1
+  first_seen: '20080212112645'
+  last_seen: '20121029100822'
+- ja: ねこスq
+  zh: 猫S Q
+  names_on_icon:
+  - おせんべい
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer18-0db2be.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer18.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer18-0db2be.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer18-0db2be.jpg
+    first_seen: '20080222184418'
+    last_seen: '20081109060053'
+    bytes: 21259
+    sha256: dd72b739f42e4aa0e6d5b397f43208810267daf790cf53b9bd059391781c6eb3
+  posts: 1
+  first_seen: '20080222184418'
+  last_seen: '20081109060053'
+- ja: っゃっゃ
+  zh: っゃっゃ
+  names_on_icon:
+  - っゃっゃ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer19-9899de.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer19.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer19-9899de.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer19-9899de.jpg
+    first_seen: '20080222184418'
+    last_seen: '20121029100822'
+    bytes: 1643
+    sha256: 7cfab94a312b3bb4053fa74e0b4d5cc73dd2a05d82b84fd4f188eef97906ee15
+  posts: 3
+  first_seen: '20080222184418'
+  last_seen: '20121029100822'
+- ja: ヒロ
+  zh: ヒロ
+  names_on_icon:
+  - ヒロ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer20-07b3a5.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer20.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer20-07b3a5.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer20-07b3a5.jpg
+    first_seen: '20080320052331'
+    last_seen: '20121029100822'
+    bytes: 1813
+    sha256: 0c2f6258291bbd4c02dea13b67f60df562fa4e4ed4a94971a714617765c074c3
+  posts: 1
+  first_seen: '20080320052331'
+  last_seen: '20121029100822'
+- ja: カビ
+  zh: 卡比
+  names_on_icon:
+  - カビ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer21-377078.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer21.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer21-377078.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer21-377078.jpg
+    first_seen: '20080423001930'
+    last_seen: '20121029100822'
+    bytes: 1668
+    sha256: b7197b6445100a5c3d3a09d8557995140d2cb836f8709e13255d5d26817ff754
+  posts: 1
+  first_seen: '20080423001930'
+  last_seen: '20121029100822'
+- ja: えるかつ
+  zh: 埃尔卡茨
+  names_on_icon:
+  - えるかつ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer22-d6ad55.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer22.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer22-d6ad55.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer22-d6ad55.jpg
+    first_seen: '20080423001930'
+    last_seen: '20121029100822'
+    bytes: 1679
+    sha256: 78635d032c11d2b7c97769cbe3c671fe78d8d30a76b769fac42084c28d667aec
+  posts: 3
+  first_seen: '20080423001930'
+  last_seen: '20121029100822'
+- ja: マシュー
+  zh: 马修
+  names_on_icon:
+  - マシュー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer23-a55742.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer23.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer23-a55742.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer23-a55742.gif
+    first_seen: '20080514075156'
+    last_seen: '20121029100822'
+    bytes: 3523
+    sha256: 97446e5ef395aa15573ec6ea64b287b0ad3477c16ed583c30cca06b341b0273c
+  posts: 2
+  first_seen: '20080514075156'
+  last_seen: '20121029100822'
+- ja: ほっしー
+  zh: 小星
+  names_on_icon:
+  - ほっしー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer24-eac407.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer24.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer24-eac407.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer24-eac407.jpg
+    first_seen: '20080730005059'
+    last_seen: '20121029100822'
+    bytes: 1784
+    sha256: 18882aaf36aeb2605cc503b25e2d3a2b89ce11b19aeb7dc15db037f280e08278
+  posts: 2
+  first_seen: '20080730005059'
+  last_seen: '20121029100822'
+- ja: G麺
+  zh: G麺
+  names_on_icon:
+  - マシュー
+  - G麺
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer25-ecf8c8.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer25.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer25-ecf8c8.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer25-ecf8c8.gif
+    first_seen: '20080611083350'
+    last_seen: '20121029100822'
+    bytes: 1066
+    sha256: 29427cdb13388394862f7b3aa4b269068af4ac3154b2c43cdd98c01010ea1ad5
+  posts: 2
+  first_seen: '20080611083350'
+  last_seen: '20121029100822'
+- ja: さとう
+  zh: 佐藤
+  names_on_icon:
+  - さとう
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer26-d03ced.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer26.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer26-d03ced.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer26-d03ced.jpg
+    first_seen: '20080730005059'
+    last_seen: '20121029100822'
+    bytes: 1529
+    sha256: 0e9cc66e3bf60638aa5e03acbf884edc268ee2cbb46a9c676af5d50f35673d13
+  posts: 14
+  first_seen: '20080730005059'
+  last_seen: '20121029100822'
+- ja: いわし
+  zh: 沙丁鱼
+  names_on_icon:
+  - いわし
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer27-4319e9.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer27.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer27-4319e9.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer27-4319e9.jpg
+    first_seen: '20080730005059'
+    last_seen: '20121029100822'
+    bytes: 1346
+    sha256: b3f7fe8c812fbcc8ed33fa3abd253bfe37efc0c8f47a3cb6de9474104ab9910b
+  posts: 6
+  first_seen: '20080730005059'
+  last_seen: '20121029100822'
+- ja: かわちまる
+  zh: かわちまる
+  names_on_icon:
+  - かわちまる
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer28-4ea1b9.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer28.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer28-4ea1b9.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer28-4ea1b9.jpg
+    first_seen: '20080730005059'
+    last_seen: '20101203135623'
+    bytes: 1868
+    sha256: 6a55cebb04027b2d91f2bc95239f632606b2121651151e9adb7453a69ba19f5c
+  posts: 2
+  first_seen: '20080730005059'
+  last_seen: '20101203135623'
+- ja: ユーリー
+  zh: 尤里
+  names_on_icon:
+  - ユーリー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer29-d96552.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer29.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer29-d96552.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer29-d96552.jpg
+    first_seen: '20081206180831'
+    last_seen: '20110426214820'
+    bytes: 1471
+    sha256: 436141462a80717e210857a9cabc7142d4e09afbba62af58bef3299ad628def3
+  posts: 3
+  first_seen: '20081206180831'
+  last_seen: '20110426214820'
+- ja: カラシ
+  zh: 卡拉希
+  names_on_icon:
+  - カラシ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer30-c01e8e.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer30.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer30-c01e8e.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer30-c01e8e.jpg
+    first_seen: '20081212062648'
+    last_seen: '20121029100822'
+    bytes: 5459
+    sha256: 8b289e7cae22368c4e59bb72c175b1fc45bfca54c93dba06aa3f3a3847cfd18b
+  posts: 2
+  first_seen: '20081212062648'
+  last_seen: '20121029100822'
+- ja: ギン
+  zh: 银
+  names_on_icon:
+  - ギン
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer31-36070c.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer31.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer31-36070c.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer31-36070c.jpg
+    first_seen: '20090207194153'
+    last_seen: '20121029100822'
+    bytes: 1741
+    sha256: e51d217392fcaccc3c778a87693d3cf8e32f38db4416cf8845b1f585e2dcdd2c
+  posts: 2
+  first_seen: '20090207194153'
+  last_seen: '20121029100822'
+- ja: kage
+  zh: 影
+  names_on_icon:
+  - KAGE
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer32-e9f383.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer32.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer32-e9f383.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer32-e9f383.gif
+    first_seen: '20090207194153'
+    last_seen: '20121029100822'
+    bytes: 2731
+    sha256: 2667ee72a15898fa0cf1934a1ef0ab3e892c7bba4adab226259b98d61e770268
+  posts: 1
+  first_seen: '20090207194153'
+  last_seen: '20121029100822'
+- ja: ボーダー丸
+  zh: ボーダー丸
+  names_on_icon:
+  - ボーダー丸
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer33-b99a7f.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer33.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer33-b99a7f.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer33-b99a7f.gif
+    first_seen: '20090414122414'
+    last_seen: '20121029100822'
+    bytes: 3660
+    sha256: 8883f43f089afeeaea755934235e27a374940f28db3b3640cebeb772500d9166
+  posts: 2
+  first_seen: '20090414122414'
+  last_seen: '20121029100822'
+- ja: ほず
+  zh: 阿穗
+  names_on_icon:
+  - ほず
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer34-ea404d.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer34.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer34-ea404d.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer34-ea404d.jpg
+    first_seen: '20090417095218'
+    last_seen: '20121029100822'
+    bytes: 1495
+    sha256: 35cf07ac63207c123f95daff04565afbda8ff3c436a868904b3ab895a113579b
+  posts: 4
+  first_seen: '20090417095218'
+  last_seen: '20121029100822'
+- ja: カンタロウ
+  zh: 坎太郎
+  names_on_icon:
+  - カンタロウ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer35-e8d782.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer35.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer35-e8d782.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer35-e8d782.jpg
+    first_seen: '20090726073405'
+    last_seen: '20110906064512'
+    bytes: 1683
+    sha256: 0581c897e96dcff879ebc33acc68ce3127518730da6aa5932f93cbb92a39963f
+  posts: 1
+  first_seen: '20090726073405'
+  last_seen: '20110906064512'
+- ja: 電線
+  zh: 電線
+  names_on_icon:
+  - 電線
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer36-f99902.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer36.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer36-f99902.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer36-f99902.jpg
+    first_seen: '20090726073405'
+    last_seen: '20121029100822'
+    bytes: 1804
+    sha256: a726e817c31876758bfff800e32cad98b13b069a68154ee94fd8f073e6c69560
+  posts: 2
+  first_seen: '20090726073405'
+  last_seen: '20121029100822'
+- ja: じだぬ
+  zh: じだぬ
+  names_on_icon:
+  - じだぬ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer37-5681ab.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer37.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer37-5681ab.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer37-5681ab.jpg
+    first_seen: '20090801044905'
+    last_seen: '20121029100822'
+    bytes: 1901
+    sha256: 18174ed9d3acea51b197885415424527039e1188ccd4b002d4290082deb8b203
+  posts: 3
+  first_seen: '20090801044905'
+  last_seen: '20121029100822'
+- ja: にょろリカ
+  zh: 妮洛莉卡
+  names_on_icon:
+  - にょろリカ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer38-493d2f.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer38.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer38-493d2f.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer38-493d2f.jpg
+    first_seen: '20100125090816'
+    last_seen: '20121029100822'
+    bytes: 1705
+    sha256: 4159d1624466b01b31f6405edf4f7f576e6d9c32173550b264f8acc22716ef5a
+  posts: 15
+  first_seen: '20100125090816'
+  last_seen: '20121029100822'
+- ja: ペンギン
+  zh: 企鹅
+  names_on_icon:
+  - ペンギン
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer39-4917a3.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer39.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer39-4917a3.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer39-4917a3.jpg
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 3997
+    sha256: 148992d246b991e3354fd4e28d188dbf7cb6bf28673d6569460b617ab790dffd
+  posts: 2
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: めめた
+  zh: 芽芽
+  names_on_icon:
+  - めめた
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer41-0de60e.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer41.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer41-0de60e.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer41-0de60e.jpg
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 4642
+    sha256: a58c82b0eae534f307a754b567b93bde77ca5186730a18c7b6fe99e92cd8473e
+  posts: 3
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: わも
+  zh: 和本
+  names_on_icon:
+  - わも
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer42-33f960.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer42.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer42-33f960.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer42-33f960.gif
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 3756
+    sha256: e95fb4d3241771f64f19398bb1016b9749adc3bbfa00918c2bfd63000b3b85ec
+  posts: 1
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: あきら
+  zh: 阿基拉
+  names_on_icon:
+  - あきら
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer43-2b2e04.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer43.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer43-2b2e04.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer43-2b2e04.jpg
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 2029
+    sha256: 33b043993aefadb3e3fe48c744b1f086b9498adbe07a16eb3c9494d5385f464c
+  posts: 2
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: ヒート
+  zh: 希特
+  names_on_icon:
+  - ヒート
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer44-f48e11.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer44.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer44-f48e11.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer44-f48e11.gif
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 1155
+    sha256: bbf90137445e807f99e627618e5fa779f3d5c9579c397a6984aee019effb3f4f
+  posts: 2
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: もりび
+  zh: 森比
+  names_on_icon:
+  - もりび
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer45-a55589.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer45.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer45-a55589.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer45-a55589.gif
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 2673
+    sha256: 6c6bbfcad8cf0a5fc6c1084d1b6b4b8cd569a1060e75abe35c40d3b387097bf0
+  posts: 1
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: いっちー
+  zh: いっちー
+  names_on_icon:
+  - いっちー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer46-9070e2.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer46.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer46-9070e2.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer46-9070e2.gif
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 2383
+    sha256: 729b643fb7c65252f39dd55d0c01f75d337374b768708554dcb7f606ce1e29d2
+  posts: 1
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: タピオカ
+  zh: 塔皮奥卡
+  names_on_icon:
+  - タピオカ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer47-22db2e.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer47.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer47-22db2e.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer47-22db2e.gif
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 2457
+    sha256: f810f778639dae975a9fab647398a8493a3add0c0653741a0e520c229eed191d
+  posts: 1
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: よちよち
+  zh: よちよち
+  names_on_icon:
+  - よちよち
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer48-4c2b10.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer48.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer48-4c2b10.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer48-4c2b10.gif
+    first_seen: '20100806120453'
+    last_seen: '20121029100822'
+    bytes: 6359
+    sha256: f537cfd44e0083e4160cb7d5451c9a2d451cd2d8b57db5b43ca5e5610597aeb5
+  posts: 2
+  first_seen: '20100806120453'
+  last_seen: '20121029100822'
+- ja: フジワ
+  zh: 藤和
+  names_on_icon:
+  - フジワ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer49-9b320d.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer49.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer49-9b320d.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer49-9b320d.jpg
+    first_seen: '20110711130041'
+    last_seen: '20121029100822'
+    bytes: 13256
+    sha256: 8d4ebc6e3911f06ff17f10a66eda25d9b66abe3653c61d43003019d2d8ca3aef
+  posts: 1
+  first_seen: '20110711130041'
+  last_seen: '20121029100822'
+- ja: アーリー
+  zh: 阿利
+  names_on_icon:
+  - アーリー
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer50-49f163.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer50.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer50-49f163.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer50-49f163.gif
+    first_seen: '20110103004454'
+    last_seen: '20121029100822'
+    bytes: 2290
+    sha256: 7a069f75043c453f8996503c90b8c5d37ef0b2870b0acf1cf375321ee810759d
+  posts: 1
+  first_seen: '20110103004454'
+  last_seen: '20121029100822'
+- ja: まさゆき
+  zh: 正幸
+  names_on_icon:
+  - まさゆき
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer51-4bdc1d.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer51.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer51-4bdc1d.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer51-4bdc1d.jpg
+    first_seen: '20110426214820'
+    last_seen: '20121029100822'
+    bytes: 2281
+    sha256: c2abed1a04bf98182a716b74d2c667954023c49431102049a21e6ffaa67f054f
+  posts: 1
+  first_seen: '20110426214820'
+  last_seen: '20121029100822'
+- ja: マッツン
+  zh: 小松
+  names_on_icon:
+  - マッツン
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer52-83bc8b.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer52.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer52-83bc8b.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer52-83bc8b.jpg
+    first_seen: '20110809025151'
+    last_seen: '20121029100822'
+    bytes: 17630
+    sha256: 8bd564e9b4d521a6ae781577d5adf1d2fcab92e58fa57ca26f8e015f8b879929
+  posts: 1
+  first_seen: '20110809025151'
+  last_seen: '20121029100822'
+- ja: Ｙ
+  zh: Ｙ
+  names_on_icon:
+  - Ｙ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer53-055672.jpg
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer53.jpg
+    local_path: archive/gamefreak-staff/assets/history/writers/writer53-055672.jpg
+    public: /assets/images/gamefreak-legacy/staff/writers/writer53-055672.jpg
+    first_seen: '20111203125424'
+    last_seen: '20121029100822'
+    bytes: 4995
+    sha256: d41d9bbd8fdcf59aac2cfe2ebf33dafa9a275f56ed439302b954d60b2ec851a3
+  posts: 3
+  first_seen: '20111203125424'
+  last_seen: '20121029100822'
+- ja: ラッティ
+  zh: 拉蒂
+  names_on_icon:
+  - ラッティ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer54-8469c5.gif
+  avatars:
+  - original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer54.gif
+    local_path: archive/gamefreak-staff/assets/history/writers/writer54-8469c5.gif
+    public: /assets/images/gamefreak-legacy/staff/writers/writer54-8469c5.gif
+    first_seen: '20111228044440'
+    last_seen: '20121029100822'
+    bytes: 6037
+    sha256: 8127c7bd06f629ab3cfb694bb4dafb6ebd202a98b1bf3be8931d422552ba77ac
+  posts: 1
+  first_seen: '20111228044440'
+  last_seen: '20121029100822'

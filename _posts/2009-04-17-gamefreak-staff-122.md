@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ほず
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 122
+gf_history:
+  early_versions: 10
+  earliest_capture: '20090417100315'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: ほず
+  zh: 阿穗
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer34-ea404d.jpg
 gf_entry_title: 【工作日志】2009年新人的职场日常
 gf_original_title: ゲームフリークの先輩たち
 gf_translation_title: 【工作日志】2009年新人的职场日常
@@ -116,7 +115,7 @@ entities:
 
 立派なマッチョ・クリエイターを目指して日々奮闘しています。
 
-入社する前は家族に「会社は辛いよ厳しいよ?」と脅しをかけられていたのですが（笑）、<br>
+入社する前は家族に「会社は辛いよ厳しいよ～」と脅しをかけられていたのですが（笑）、<br>
 
 ゲームフリークの先輩は優しい上に面白くて、毎日笑いが絶えません。
 

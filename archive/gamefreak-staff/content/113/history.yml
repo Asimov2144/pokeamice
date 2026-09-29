@@ -1,0 +1,24 @@
+post_id: 113
+early_versions: 16
+earliest_capture: '20090414122414'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: さとう
+  zh: 佐藤
+guest_writers: []
+categories:
+- ja: 採用
+  zh: 招聘
+text_repairs:
+- now: 本当にもうすぐですね?！
+  early: 本当にもうすぐですね～！
+  ts: '20101019053918'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

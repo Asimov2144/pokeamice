@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ラッペン
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 131
+gf_history:
+  early_versions: 11
+  earliest_capture: '20090726073405'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: ラッペン
+  zh: 拉彭
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer06-652d88.jpg
 gf_entry_title: 【工作日志】2009年少女漫画与想象力
 gf_original_title: 一生読みたい少女漫画
 gf_translation_title: 【工作日志】2009年少女漫画与想象力
@@ -123,7 +122,7 @@ entities:
 
 産まれる前に出版された本や、最近のもあるけれど<br>
 
-やはり、中学?高校時代に好きだったものが圧倒的に多いですね。<br>
+やはり、中学～高校時代に好きだったものが圧倒的に多いですね。<br>
 
 いつのまにか無くしたものは買い戻したりもしていまして、<br>
 

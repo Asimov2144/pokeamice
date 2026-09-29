@@ -1,0 +1,23 @@
+{%- comment -%}
+  员工博客每篇的署名与分类。早期模板（2007–2012，staff01 / staff_hgss / staff01_wb）每篇结尾有
+  「書いた人：笔名」，分类写在标题下；2013 年换成 clean-minimal 后两样都没了。
+  tools/gamefreak_staff_history.py 从 Web Archive 的早期快照里把它们找回来写进前言（gf_writers / gf_history）。
+  include.entry = 文章（page 或 post）
+{%- endcomment -%}
+{%- assign e = include.entry -%}
+{%- if e.gf_writers or e.gf_history -%}
+<p class="gf-legacy-byline">
+  {%- if e.gf_writers -%}
+  <span class="gf-legacy-byline__label" lang="ja">書いた人</span>
+  {%- for w in e.gf_writers -%}
+  <span class="gf-legacy-writer{% if w.guest %} gf-legacy-writer--guest{% endif %}">
+    {%- if w.avatar %}<img src="{{ w.avatar | relative_url }}" alt="" width="28" height="28" loading="lazy">{% endif -%}
+    <span lang="ja">{{ w.ja }}</span>{% if w.zh and w.zh != w.ja %}<small>{{ w.zh }}</small>{% endif %}{% if w.guest %}<small>客座执笔</small>{% endif -%}
+  </span>
+  {%- endfor -%}
+  {%- endif -%}
+  {%- if e.gf_history and e.gf_blog_categories -%}
+  <span class="gf-legacy-byline__cats">{% for c in e.gf_blog_categories %}<span class="gf-legacy-tag" title="{{ c.ja }}">{{ c.zh }}</span>{% endfor %}</span>
+  {%- endif -%}
+</p>
+{%- endif -%}

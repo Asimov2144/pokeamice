@@ -12,27 +12,29 @@ tags:
 - Game Freak 员工
 - GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- タピオカ
 gf_blog_categories:
 - ja: GF紹介
   zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 193
+gf_history:
+  early_versions: 15
+  earliest_capture: '20100806120453'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: タピオカ
+  zh: 塔皮奥卡
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer47-22db2e.gif
 gf_entry_title: 【工作日志】2010年GAME FREAK的中途列车之旅
 gf_original_title: ぶらり“中途”乗車の旅
 gf_translation_title: 【工作日志】2010年GAME FREAK的中途列车之旅

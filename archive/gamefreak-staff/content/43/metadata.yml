@@ -2,20 +2,11 @@ article_id: gamefreak-staff-43
 post_id: 43
 date: '2007-11-13'
 title: ファミコンショップGF
-tags: []
+tags:
+- おにいさん
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -71,3 +62,18 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: おにいさん
+  zh: 哥哥
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer12-707010.jpg
+history:
+  early_versions: 26
+  earliest_capture: '20071114075057'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 1
+  edits: 0
+  record: archive/gamefreak-staff/content/43/history.yml

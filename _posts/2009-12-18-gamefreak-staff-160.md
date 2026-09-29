@@ -10,29 +10,22 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
 - 宝可梦
-- 招聘
-- 更新通知
-- 未分类
 gf_source_tags: []
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 160
+gf_history:
+  early_versions: 8
+  earliest_capture: '20101019004206'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
 gf_entry_title: 【工作日志】2009年宝可梦开发幕后
 gf_original_title: ＨＧ・ＳＳ 語っちゃいます！ その８
 gf_translation_title: 【工作日志】2009年宝可梦开发幕后
@@ -97,7 +90,7 @@ entities:
 
 《钻石・珍珠》加入的机制中，<br>
 
-还有宝可梦中心地下的“Ｗｉ竏窒eｉ俱乐部”。
+还有宝可梦中心地下的“Wi-Fi 俱乐部”。
 
 角色扮演游戏的剧情，可以说前期就是决胜关键。<br>
 
@@ -221,7 +214,7 @@ entities:
 
 『ダイヤモンド・パール』から加わった仕組みには、<br>
 
-ポケモンセンター地下にある「Ｗｉ竏窒eｉクラブ」があります。
+ポケモンセンター地下にある「Ｗｉ−Ｆｉクラブ」があります。
 
 ロールプレイングゲームのシナリオは、序盤が勝負と言えます。<br>
 

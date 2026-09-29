@@ -10,29 +10,29 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
-- 宝可梦
 - 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- さとう
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
 - ja: 採用
   zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 113
+gf_history:
+  early_versions: 16
+  earliest_capture: '20090414122414'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: さとう
+  zh: 佐藤
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer26-d03ced.jpg
 gf_entry_title: 【工作日志】2009年招聘说明会
 gf_original_title: 会社説明会開催しました
 gf_translation_title: 【工作日志】2009年招聘说明会
@@ -128,7 +128,7 @@ entities:
 
 書類選考の受付は３月１日から開始で締めきりは３月３１日（必着）です。<br>
 
-本当にもうすぐですね?！<br>
+本当にもうすぐですね～！<br>
 
 たくさんの皆さんと出会えることを今から楽しみにしています！！
 

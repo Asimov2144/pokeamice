@@ -2,20 +2,13 @@ article_id: gamefreak-staff-68
 post_id: 68
 date: '2008-04-25'
 title: 研修生活
-tags: []
+tags:
+- マシュー
 blog_categories:
 - ja: GF紹介
   zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
 - ja: 採用
   zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +34,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: マシュー
+  zh: 马修
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer23-a55742.gif
+history:
+  early_versions: 24
+  earliest_capture: '20080514075156'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+  record: archive/gamefreak-staff/content/68/history.yml

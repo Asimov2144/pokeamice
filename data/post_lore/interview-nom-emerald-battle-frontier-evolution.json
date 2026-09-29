@@ -457,7 +457,7 @@
     "seg": [
      7,
      16,
-     39
+     44
     ],
     "as": [
      "升级"
@@ -652,26 +652,28 @@
     "via": "body"
    },
    {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     35
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
     "id": "tcg",
     "name": "集换式卡牌",
     "facet": "franchise",
     "seg": [
-     35
+     35,
+     36
     ],
     "as": [
-     "宝可梦卡牌"
+     "宝可梦卡牌",
+     "集换式卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     36
+    ],
+    "as": [
+     "销量"
     ],
     "via": "body"
    },
@@ -680,7 +682,7 @@
     "name": "剧场版",
     "facet": "franchise",
     "seg": [
-     37
+     40
     ],
     "as": [
      "剧场版"
@@ -692,7 +694,7 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     38
+     41
     ],
     "as": [
      "电视动画"
@@ -704,7 +706,7 @@
     "name": "易懂与门槛",
     "facet": "design",
     "seg": [
-     39
+     44
     ],
     "as": [
      "一目了然"

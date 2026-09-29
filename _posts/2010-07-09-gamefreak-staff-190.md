@@ -12,27 +12,29 @@ tags:
 - Game Freak 员工
 - GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- もりび
 gf_blog_categories:
 - ja: GF紹介
   zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 190
+gf_history:
+  early_versions: 14
+  earliest_capture: '20100806120453'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: もりび
+  zh: 森比
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer45-a55589.gif
 gf_entry_title: 【工作日志】2010年GAME FREAK入职一周年
 gf_original_title: 中途1年目の僕が見たゲームフリーク
 gf_translation_title: 【工作日志】2010年GAME FREAK入职一周年

@@ -1,0 +1,30 @@
+post_id: 108
+early_versions: 14
+earliest_capture: '20090116093004'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: おにいさん
+  zh: 哥哥
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 皆さんとは約１年ぶりの再会になりますね?。
+  early: 皆さんとは約１年ぶりの再会になりますね～。
+  ts: '20110103004454'
+- now: 自分で言うのなんですが、かなりパチもの臭いですね?。
+  early: 自分で言うのなんですが、かなりパチもの臭いですね～。
+  ts: '20110103004454'
+- now: それではまた?
+  early: それではまた～
+  ts: '20110103004454'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -343,18 +343,6 @@
      "培育"
     ],
     "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     30
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
    }
   ]
  },

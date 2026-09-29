@@ -18,7 +18,7 @@
     },
     {
       "type": "p",
-      "markdown": "おまけ<br>\n\n下の画像は自分の机周りです。<br>\n\n会社から支給されたペンタブはとにかくおおきい?！描きやすさにびっくりです…<br>\n\n研修生活での相棒になりつつあります☆<br>\n\n{% legacy_image id=\"gamefreak-staff-38ddaad70a13\" alt=\"机周り\" %}",
+      "markdown": "おまけ<br>\n\n下の画像は自分の机周りです。<br>\n\n会社から支給されたペンタブはとにかくおおきい～！描きやすさにびっくりです…<br>\n\n研修生活での相棒になりつつあります☆<br>\n\n{% legacy_image id=\"gamefreak-staff-38ddaad70a13\" alt=\"机周り\" %}",
       "images": [
         "gamefreak-staff-38ddaad70a13"
       ]

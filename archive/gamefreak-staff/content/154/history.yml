@@ -1,0 +1,29 @@
+post_id: 154
+early_versions: 10
+earliest_capture: '20091202150309'
+themes:
+- clean-minimal
+- staff01_wb
+- staff_hgss
+writers:
+- ja: ラッペン
+  zh: 拉彭
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 噛まなければカレーも一生食べられますよね縲怐Bお久しぶりです。
+  early: 噛まなければカレーも一生食べられますよね〜。お久しぶりです。
+  ts: '20101019053759'
+- now: いや縲怺ｮ璧な食べ物ですね！ほんと。
+  early: いや〜完璧な食べ物ですね！ほんと。
+  ts: '20101019053759'
+- now: おいしそうすぎる縲怐I
+  early: おいしそうすぎる〜！
+  ts: '20101019053759'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -1,0 +1,23 @@
+post_id: 128
+early_versions: 9
+earliest_capture: '20090726073405'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: ギン
+  zh: 银
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: だんだん疲れてきたな?。息抜きに仕事でもしようかな…。
+  early: だんだん疲れてきたな～。息抜きに仕事でもしようかな…。
+  ts: '20101019053725'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

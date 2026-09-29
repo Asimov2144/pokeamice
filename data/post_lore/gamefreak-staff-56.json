@@ -358,14 +358,16 @@
     "via": "body"
    },
    {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     122
     ],
-    "via": "tag"
+    "as": [
+     "存档"
+    ],
+    "via": "body"
    }
   ]
  },

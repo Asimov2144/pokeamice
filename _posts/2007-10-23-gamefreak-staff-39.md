@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ジョニ
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 39
+gf_history:
+  early_versions: 21
+  earliest_capture: '20071115194802'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: ジョニ
+  zh: 乔尼
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer09-57ddcf.gif
 gf_entry_title: 【工作日志】2007年秋日溪流垂钓与烧烤
 gf_original_title: 秋のイベント♪
 gf_translation_title: 【工作日志】2007年秋日溪流垂钓与烧烤
@@ -216,7 +215,7 @@ GFのグラフィックデザイナーで、イベント委員です。<br>
 
 次はどんなイベントを開こうかなーと今からわくわくしてしまう<br>
 
-以上、ジョニの日記でした?。
+以上、ジョニの日記でした～。
 
 <br>
 </div>

@@ -1,0 +1,22 @@
+post_id: 180
+early_versions: 7
+earliest_capture: '20101019004230'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: いわし
+  zh: 沙丁鱼
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: そう考えると、意識さえ変えれば、何でも美しく見えるのかもな?
+  early: そう考えると、意識さえ変えれば、何でも美しく見えるのかもな～
+  ts: '20101019053858'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

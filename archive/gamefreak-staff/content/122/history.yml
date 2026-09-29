@@ -1,0 +1,23 @@
+post_id: 122
+early_versions: 10
+earliest_capture: '20090417100315'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: ほず
+  zh: 阿穗
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 入社する前は家族に「会社は辛いよ厳しいよ?」と脅しをかけられていたのですが（笑）、
+  early: 入社する前は家族に「会社は辛いよ厳しいよ～」と脅しをかけられていたのですが（笑）、
+  ts: '20101019053941'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

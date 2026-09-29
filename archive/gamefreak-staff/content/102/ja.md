@@ -54,7 +54,7 @@ status: source-extracted
 
 {% legacy_image id="gamefreak-staff-dbaa3a353f3d" alt="どこどこ" %}<br>
 
-カルタなんて競技もありました。「旅行けば?」　どこ？どこ？
+カルタなんて競技もありました。「旅行けば～」　どこ？どこ？
 
 {% legacy_image id="gamefreak-staff-05fabcd15c98" alt="勝てるかな？" %}<br>
 

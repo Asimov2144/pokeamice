@@ -1,0 +1,24 @@
+post_id: 134
+early_versions: 11
+earliest_capture: '20090726073405'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: なぎー
+  zh: 纳吉
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 投票者数は大体社員数の1/3縲鰀1/2くらいです）
+  early: 投票者数は大体社員数の1/3〜1/2くらいです）
+  ts: '20101019004140'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

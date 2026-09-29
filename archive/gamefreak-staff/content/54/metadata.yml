@@ -2,20 +2,11 @@ article_id: gamefreak-staff-54
 post_id: 54
 date: '2008-01-25'
 title: すきー。
-tags: []
+tags:
+- おせんべい
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -71,3 +62,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: おせんべい
+  zh: おせんべい
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer17-c50582.jpg
+history:
+  early_versions: 16
+  earliest_capture: '20080212112645'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/54/history.yml

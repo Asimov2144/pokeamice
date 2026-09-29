@@ -10,29 +10,29 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- おにいさん
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 43
+gf_history:
+  early_versions: 26
+  earliest_capture: '20071114075057'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: おにいさん
+  zh: 哥哥
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer12-707010.jpg
 gf_entry_title: 【工作日志】2007年任天堂游戏收藏日常
 gf_original_title: ファミコンショップGF
 gf_translation_title: 【工作日志】2007年任天堂游戏收藏日常
@@ -117,7 +117,7 @@ GAME FREAK 的搬家也终于正式忙起来了，公司里到处都闹哄哄的
 
 コレクター・・・じゃなかった、グラフィックデザイナーをやっています、おにいさんです。<br>
 
-最近すっかり寒くなってきましたね?。
+最近すっかり寒くなってきましたね～。
 
 ゲームフリークの引っ越しもいよいよ本格的になってきて、社内がザワついています。<br>
 

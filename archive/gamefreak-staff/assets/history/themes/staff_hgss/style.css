@@ -1,0 +1,599 @@
+/*
+Theme Name: Staffvoice's HGSS Design
+Theme URI: none
+Description: This theme is StaffVoice HGSSver Theme (based on EasyAll)
+Version: 0.1
+Author: kaniko
+Author URI: http://wordpress.xwd.jp/
+*/
+
+
+/*font*/
+.voise01{
+	margin:10px;
+	color:#336633;
+	}
+
+.voise02{
+	margin:1em;
+	color:#FF6600;
+	}
+
+.com_img{
+	border: medium none ;
+	margin: 0px;
+	padding: 2px;
+	background-color: transparent
+}
+
+.tit_c01{
+	color:#336633;
+	}
+
+.tit_c02{
+	color:#FF6600;
+	}
+
+.ptcom01{
+	color:#339999;
+	}
+
+.quiz{
+	color:#999999;
+	background-color:#999999;
+	}
+	
+.UTWPrimaryTags{
+	color:#999999;
+	}
+
+.UTWPrimaryTags a{
+	color:#999999;
+	}
+
+
+/*body*/
+
+body {
+	font: 80%/175% Osaka, Verdana, sans-serif;
+	background:url(images/hgss_bg.jpg) #d83939 repeat-x top center;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+a {
+	color:#660000;
+}
+
+a img {
+	border: none;
+}
+
+a:hover {
+	color:#660000;
+	background:#efefef;
+}
+
+#rap {
+	background:#E1E4C2;
+	margin: 0 auto 0 auto;
+	width: 760px;
+	text-align: left;
+	border: 1px solid #333333;
+}
+
+#header {
+	background: url(images/hgss_sp_tit.jpg);
+	width: 760px;
+	height: 260px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#headerimg a {
+	position: relative;
+	font-size: 24px;
+	background: transparent;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#headerimg a:hover {
+	position: relative;
+	font-size: 24px;
+	background: transparent;
+	color: #dcdcdc;
+	text-decoration: none;
+}
+
+.description {
+	position: relative;
+	font-size: 13px;
+	background: transparent;
+	color: #dcdcdc;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	}
+
+#content {
+	position: relative;
+	left: 30px;
+	float: left;
+	padding: 0;
+	width: 480px;
+	color: #666666;
+}
+
+#content h2 {
+	border-bottom: 1px dotted #6F6F6F;
+	color:#655491;
+	font-size: 13px;
+	margin: 20px 0 5px 0;
+	padding: 0 0 3px 0;
+	text-align: right;
+	width: 480px;
+}
+
+#content h2#comments a {
+	color: #5F707A;
+	font-size: 13px;
+}
+
+#content h3 img {
+	border: 0;
+}
+
+#content div.post {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#content div.post p, #content div.post li {
+	line-height: 130%;
+}
+
+/*コンテンツ中身*/
+
+#content div.post div.storycontent p {
+	width: 100%;
+	color:#666666;
+	line-height:150%;
+}
+
+#content div.post div.storycontent img {
+	padding:10px;
+	background-color:#ffffff;
+	border:1px solid #dfdfdf;
+}
+
+#content div.post div.storycontent ul, #content div.post div.storycontent ol {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#content div.post div.storycontent li {
+	margin-left: 30px;
+	width: 85%;
+}
+
+#content div.post div.storycontent blockquote {
+	background: #f7f7f7;
+	border-left: 3px solid #6F6F6F;
+	font-family: Osaka, Verdana, sans-serif;
+	margin-left: 20px;
+	padding: 4px 4px 4px 7px;
+	width: 85%;
+}
+
+#content h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+#content h3.storytitle, #content h3.storytitle a {
+	font-size: 15px;
+	color:#655491;
+	text-decoration: none
+}
+
+#content h3.storytitle a:hover {
+	color: #495865;
+	text-decoration: none
+}
+
+#content div.post p {
+	width: 90%;
+}
+
+#content div.post div.meta, #content div.post div.meta a {
+	color: #999999;
+	font-family: Osaka, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+#content div.post div.meta li a:hover {
+	color: #686050;
+}
+
+#content div.post div.meta ul, #content div.post div.meta li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+
+#content div.post div.feedback {
+	font-size: 12px;
+}
+
+#content #commentlist {
+	margin: 20px 20px 20px 23px;
+	padding: 0;
+}
+
+#content #commentlist li {
+	margin-bottom: 10px;
+}
+
+#content #commentform input, #content #commentform textarea {
+	font-size: 12px;
+	padding: 2px;
+}
+
+#content #commentform textarea {
+	height: 150px;
+	width: 90%;
+}
+
+#content code {
+	color: #800000
+}
+
+#content ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style-type: circle;
+}
+
+#navcontainer ul {
+	padding: 0;
+	margin: 0;
+	background: #4c453d;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	float: left;
+	width: 760px;
+	font: 13px Osaka, Verdana, sans-serif;
+}
+
+#navcontainer ul li {
+	display: inline;
+}
+
+#navcontainer ul li.page_item a {
+	padding: 5px 14px 5px 14px;
+	background: #666666;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	border-right: 1px solid #666666;
+}
+
+#navcontainer ul li.page_item a:hover {
+	color: #FFFFFF;
+	background: #C9C0B0;
+}
+
+#navcontainer ul li.current_page_item a {
+	padding: 5px 14px 5px 14px;
+	background: #C9C0B0;
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #DFDFDF;
+}
+
+#navcontainer ul li.current_page_item a:hover {
+	background: #6F6F6F;
+}
+
+#menu {
+	clear: right;
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 70px;
+	margin: 0 0 10px 0;
+	width: 200px;
+}
+
+#menu h2 {
+	background-image:url(images/list_bg.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width: 180px;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 0 30px;
+	color:#FFFFFF;
+}
+
+#menu .menuc{
+	color: #5F5F5F;
+	background-color:#ffffff;
+	font-size: 13px;
+	margin: 0 0 5px 0;
+	padding: 5px;
+	font-size:100%;
+}
+
+#menu ul li {
+	color: #5F5F5F;
+	background-color:#ffffff;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+		font-size:100%;
+}
+
+
+#menu #pro{
+	text-align:center;
+	}
+
+#menu .proimg img{
+	padding:2px;
+	background-color:#ffffff;
+	border:1px solid #666666;
+	margin:0 3px 0 0;
+	}
+
+#menu ul {
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+#menu ul li {
+	color: #5F5F5F;
+	background-color:#ffffff;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+		font-size:100%;
+}
+
+#menu ul li p {
+	font-size: 100%;
+	width: 180px;
+	font-weight: bold;
+}
+
+#menu ul li h2 {
+	background-image:url(images/list_bg.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	border-bottom: 1px solid;
+	width: 180px;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 0 30px;
+	color:#ffffff;
+}
+
+#menu ul li ul {
+	margin: 5px 0 15px 10px;
+}
+
+#menu ul li ul li {
+	font-weight: normal;
+	margin: 0 0 3px 0;
+	padding: 0;
+	line-height: 12px
+}
+
+#menu ul li#winamp ul li {
+	width: 180px
+}
+
+#menu ul li ul li a {
+	color: #5F5F5F;
+	text-decoration: none;
+}
+
+#menu ul li ul li a:hover {
+	text-decoration: underline;
+}
+
+#searchform {
+	margin: 2px 0 15px 0;
+}
+
+p.credit {
+	color: #FFFFFF;
+	background: #4c453d;
+	border-top: 1px solid #666666;
+	clear: both;
+	font-size: 100%;
+	margin: 0 auto 0 auto;
+	padding: 16px 0 17px 0;
+	text-align: center;
+	width: 760px;
+}
+
+p.credit a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+p.credit a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.alignright {
+	float: right;
+}
+	
+.alignleft {
+	float: left
+}
+
+#commentlist p.meta, #commentlist p.meta a {
+	color: #867b64;
+	font-family: Osaka, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+#trackbacklist p.meta, #trackbacklist p.meta a {
+	color: #867b64;
+	font-family: Osaka, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+/* Begin Calendar */
+#wp-calendar {
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+.comment-number {
+	font: italic 28px 'Times New Roman', Times, serif;
+	color: #73a0c5;
+}
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	margin: 0;
+	padding: 10px;
+}
+
+.none {
+	margin: 0;
+	padding: 10px;
+}
+
+#ed_toolbar input {
+	border: 1px solid #dcdcdc;
+	background-color: #e6eadb;
+	margin: 0 1px 0 0;
+}
+
+.hl-surround{
+    -moz-border-radius: 5px;
+    background-color: #F9FBFC;
+    border: 1px solid #C3CED9;
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 400px;
+    overflow: auto;
+    text-align: left;
+}
+
+.hl-surround, .hl-surround pre, .hl-surround span{
+	font: normal 9pt 'Courier New', monospace;
+}
+
+.hl-default{
+	color: Black;
+}
+.hl-code{
+	color: Gray;
+}
+.hl-brackets{
+	color: Olive;
+}
+.hl-comment{
+	color: #ffa500;
+}
+.hl-quotes{
+	color: #8b0000;
+}
+.hl-string{
+	color: Red;
+}
+.hl-identifier{
+	color: Blue;
+}
+.hl-builtin{
+	color: Teal;
+}
+.hl-reserved{
+	color: Green;
+}
+.hl-inlinedoc{
+	color: Blue;
+}
+.hl-var{
+	color: #00008b;
+}
+.hl-url{
+	color: Blue;
+}
+.hl-special{
+	color: Navy;
+}
+.hl-number{
+	color: Maroon;
+}
+.hl-inlinetags{
+	color: Blue;
+}
+.hl-main{
+	background-color: transparent;
+}
+
+.hl-main pre{
+	margin: 0; padding: 0;
+}
+

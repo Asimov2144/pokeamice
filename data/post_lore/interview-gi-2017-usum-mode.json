@@ -87,30 +87,6 @@
      "通信功能"
     ],
     "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     4
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     7
-    ],
-    "as": [
-     "设计宝可梦"
-    ],
-    "via": "body"
    }
   ]
  },

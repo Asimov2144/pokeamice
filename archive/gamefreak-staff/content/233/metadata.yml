@@ -2,20 +2,11 @@ article_id: gamefreak-staff-233
 post_id: 233
 date: '2011-09-02'
 title: 初！
-tags: []
+tags:
+- じだぬ
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +32,16 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:53+00:00'
+writers:
+- ja: じだぬ
+  zh: じだぬ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer37-5681ab.jpg
+history:
+  early_versions: 22
+  earliest_capture: '20110916182427'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/233/history.yml

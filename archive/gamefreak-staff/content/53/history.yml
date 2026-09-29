@@ -1,0 +1,23 @@
+post_id: 53
+early_versions: 18
+earliest_capture: '20080119050507'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: おにいさん
+  zh: 哥哥
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: といった感じで、本当にたくさんの形状があるので見ているだけでも楽しいですね?。
+  early: といった感じで、本当にたくさんの形状があるので見ているだけでも楽しいですね～。
+  ts: '20101019053908'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

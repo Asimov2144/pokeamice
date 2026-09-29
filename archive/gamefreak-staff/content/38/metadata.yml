@@ -2,20 +2,11 @@ article_id: gamefreak-staff-38
 post_id: 38
 date: '2007-10-19'
 title: ポケモンカードゲーム大会！
-tags: []
+tags:
+- マー
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -51,3 +42,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: マー
+  zh: 小玛
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer08-28e2d3.jpg
+history:
+  early_versions: 20
+  earliest_capture: '20071115194802'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 2
+  edits: 0
+  record: archive/gamefreak-staff/content/38/history.yml

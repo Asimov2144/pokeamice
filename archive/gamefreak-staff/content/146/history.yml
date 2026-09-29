@@ -1,0 +1,23 @@
+post_id: 146
+early_versions: 12
+earliest_capture: '20091012033649'
+themes:
+- clean-minimal
+- staff01_wb
+- staff_hgss
+writers:
+- ja: さとう
+  zh: 佐藤
+guest_writers: []
+categories:
+- ja: 採用
+  zh: 招聘
+text_repairs:
+- now: 今日から10月！朝晩の涼しさで本格的な秋を感じますね?。
+  early: 今日から10月！朝晩の涼しさで本格的な秋を感じますね～。
+  ts: '20101019053918'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -644,18 +644,6 @@
     "via": "body"
    },
    {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     42
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
     "id": "type-matchup",
     "name": "属性相性",
     "facet": "design",

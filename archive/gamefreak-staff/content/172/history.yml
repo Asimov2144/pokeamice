@@ -1,0 +1,22 @@
+post_id: 172
+early_versions: 7
+earliest_capture: '20101019004225'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: しゃち
+  zh: 沙奇
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: その後１?２週間で寒さはぐっと緩み、海辺では潮の香りが強くなります。
+  early: その後１～２週間で寒さはぐっと緩み、海辺では潮の香りが強くなります。
+  ts: '20101019053923'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -11,28 +11,27 @@ tags:
 - Game Freak
 - Game Freak 员工
 - GF介绍
-- 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- エノキ
 gf_blog_categories:
 - ja: GF紹介
   zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 36
+gf_history:
+  early_versions: 23
+  earliest_capture: '20071014022250'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: エノキ
+  zh: 榎木
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer02-228248.jpg
 gf_entry_title: 【工作日志】2007年新办公室搬迁派对
 gf_original_title: パーティ！
 gf_translation_title: 【工作日志】2007年新办公室搬迁派对

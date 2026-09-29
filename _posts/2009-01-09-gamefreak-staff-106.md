@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- カニ子
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 106
+gf_history:
+  early_versions: 11
+  earliest_capture: '20090116093004'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 2
+  edits: 0
+gf_writers:
+- ja: カニ子
+  zh: 蟹子
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer01-58a673.gif
 gf_entry_title: 【工作日志】2009年冬日假期记录
 gf_original_title: それぞれの冬’09！
 gf_translation_title: 【工作日志】2009年冬日假期记录
@@ -253,7 +252,7 @@ GAME FREAK 的各位工作人员。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" alt="おにいさん" loading="lazy"></a></figure><br>
 
-沖縄で南国気分を味わってました?。<br>
+沖縄で南国気分を味わってました～。<br>
 
 やっぱり冬でも温かく、日中は立ち止まっているとジトっと汗が出て来る程。<br>
 
@@ -351,7 +350,7 @@ GAME FREAK 的各位工作人员。
 
 寒い夜に、月やオリオン座を見るのは<br>
 
-なかなか風情がありました?。（ヒロ）
+なかなか風情がありました～。（ヒロ）
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" alt="ユッフィー" loading="lazy"></a></figure><br>
 

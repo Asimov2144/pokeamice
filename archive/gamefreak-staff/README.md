@@ -16,7 +16,23 @@ manifest/            文章与素材清单
 content/             结构化日文正文、来源 HTML 和元数据
 translations/zh-CN/  中文翻译层
 reports/             完整性验证结果
+raw/history/         2013 年换主题以前的全部快照（逐篇页 / 月归档 / 首页 / 分类 / 标签 / RSS，862 份）
+content/history/     从上面切出来的逐篇版本（<id>.yml，每篇带各次快照的正文、署名、分类、图片）
+content/<id>/history.yml   逐篇恢复记录：署名、真实分类、乱码修复、原站改稿
+assets/history/      早期模板素材（themes/）与员工头像（writers/）
 ```
+
+早期版本对照（2026-09-29）：
+
+```powershell
+python tools/gamefreak_staff_history.py list; python tools/gamefreak_staff_history.py fetch
+python tools/gamefreak_staff_history.py extract; python tools/gamefreak_staff_history.py compare
+python tools/gamefreak_staff_history.py restore; python tools/gamefreak_staff_history.py publish
+python tools/gamefreak_staff_history.py report    # → reports/history-report.md
+```
+
+结论见 `reports/history-report.md`：没有被删的文章、图片或视频；署名与分类在 2013 年换主题时丢了，
+日文原文带着那次迁移造成的乱码——都已按早期版本补回 / 修正，原站真正改过的 2 处在文末「修订记录」。
 
 完整运行：
 

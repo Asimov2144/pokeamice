@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- マー
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 38
+gf_history:
+  early_versions: 20
+  earliest_capture: '20071115194802'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 2
+  edits: 0
+gf_writers:
+- ja: マー
+  zh: 小玛
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer08-28e2d3.jpg
 gf_entry_title: 【工作日志】2007年GAME FREAK宝可梦卡牌赛
 gf_original_title: ポケモンカードゲーム大会！
 gf_translation_title: 【工作日志】2007年GAME FREAK宝可梦卡牌赛
@@ -145,7 +144,7 @@ entities:
 
 控えめに優勝カップを掲げるナギー。<br>
 
-ほんとはめっちゃ嬉しいくせに！コイツめコイツめ?
+ほんとはめっちゃ嬉しいくせに！コイツめコイツめ～
 
 ちなみに、カップについている沢山のリボンには<br>
 
@@ -165,7 +164,7 @@ entities:
 
 「まるのみますきっぱ デッキ」
 
-ん??、どうでしょう…。<br>
+ん～～、どうでしょう…。<br>
 
 巷で流行しているデッキもあれば、<br>
 

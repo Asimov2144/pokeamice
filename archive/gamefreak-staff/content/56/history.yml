@@ -1,0 +1,28 @@
+post_id: 56
+early_versions: 17
+earliest_capture: '20080212112645'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: なぎー
+  zh: 纳吉
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: エントリーポケモン ３縲怩U匹
+  early: エントリーポケモン ３〜６匹
+  ts: '20101019004010'
+text_edits:
+- early: そんな中もりもとのライバル、カビ（ゲームデザイナー）がついに立ち上がりました。
+  now: そんな中もりもとのライバル、カビ（プランナー）がついに立ち上がりました。
+  ts: '20080324110741'
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

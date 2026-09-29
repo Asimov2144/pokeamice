@@ -1,0 +1,34 @@
+post_id: 91
+early_versions: 13
+earliest_capture: '20081014113237'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers: []
+guest_writers:
+- 松田
+categories:
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: もちろんワイヤレス通信、Ｗｉ?Ｆｉ通信、どちらでもＯＫ！
+  early: もちろんワイヤレス通信、Ｗｉ－Ｆｉ通信、どちらでもＯＫ！
+  ts: '20101019004051'
+- now: Ｗｉ?Ｆｉ通信はもちろんボイスチャット対応ですから、
+  early: Ｗｉ－Ｆｉ通信はもちろんボイスチャット対応ですから、
+  ts: '20101019004051'
+- now: そしてもう一つのプラチナを代表する施設「Ｗｉ?Ｆｉひろば」！
+  early: そしてもう一つのプラチナを代表する施設「Ｗｉ－Ｆｉひろば」！
+  ts: '20101019004051'
+- now: この「Ｗｉ?Ｆｉひろば」にある、３つのミニゲーム。
+  early: この「Ｗｉ－Ｆｉひろば」にある、３つのミニゲーム。
+  ts: '20101019004051'
+- now: 何度も遊んでいると?・・・あ！ソーナンスがいつもよりでっかい！
+  early: 何度も遊んでいると～・・・あ！ソーナンスがいつもよりでっかい！
+  ts: '20101019004051'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

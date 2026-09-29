@@ -1,0 +1,28 @@
+post_id: 118
+early_versions: 14
+earliest_capture: '20090414122414'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: ボーダー丸
+  zh: ボーダー丸
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 3月22日に開催された東京マラソンに参加してきました?。
+  early: 3月22日に開催された東京マラソンに参加してきました～。
+  ts: '20101019053747'
+- now: 3）フィニッシュ！メダルが嬉しかったぁ?
+  early: 3）フィニッシュ！メダルが嬉しかったぁ～
+  ts: '20101019053747'
+text_edits: []
+unrepaired_corruption: []
+title_repair:
+  now: 東京マラソン ?東京がひとつになる日?
+  early: 東京マラソン ～東京がひとつになる日～
+images_only_early: []
+embeds_early: []

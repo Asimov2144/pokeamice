@@ -10,29 +10,32 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
 - 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- いわし
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
 - ja: 採用
   zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 79
+gf_history:
+  early_versions: 25
+  earliest_capture: '20080730005059'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: いわし
+  zh: 沙丁鱼
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer27-4319e9.jpg
 gf_entry_title: 【工作日志】2008年研修结束，正式加入
 gf_original_title: 研修期間終了！
 gf_translation_title: 【工作日志】2008年研修结束，正式加入

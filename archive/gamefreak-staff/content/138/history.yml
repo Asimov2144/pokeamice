@@ -1,0 +1,24 @@
+post_id: 138
+early_versions: 10
+earliest_capture: '20090904004934'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: ほず
+  zh: 阿穗
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: それでも、自分の考えた企画に「お、いいね?」
+  early: それでも、自分の考えた企画に「お、いいね～」
+  ts: '20101019053941'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

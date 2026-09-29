@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ヒート
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 187
+gf_history:
+  early_versions: 10
+  earliest_capture: '20100806120453'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: ヒート
+  zh: 希特
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer44-f48e11.gif
 gf_entry_title: 【工作日志】2010年通勤电车的新发现
 gf_original_title: この電車が凄い！
 gf_translation_title: 【工作日志】2010年通勤电车的新发现
@@ -120,7 +119,7 @@ entities:
 
 さて、突然ですが、東急世田谷線の話をしたいと思います。
 
-三軒茶屋?下高井戸を結ぶ路線バス風の趣のある世田谷線は、<br>
+三軒茶屋～下高井戸を結ぶ路線バス風の趣のある世田谷線は、<br>
 
 4月から沿線での新生活を始めた私の通勤の脚でもあります。<br>
 

@@ -1,0 +1,38 @@
+post_id: 18
+early_versions: 13
+earliest_capture: '20071116122319'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: よっしー
+  zh: 小吉
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: はじめまして、よっしーです?。
+  early: はじめまして、よっしーです～。
+  ts: '20090417095218'
+- now: ポケモンカードゲームのイラストも描いていますよ?。
+  early: ポケモンカードゲームのイラストも描いていますよ～。
+  ts: '20090417095218'
+- now: 今月の中旬、8月の11?12日に、
+  early: 今月の中旬、8月の11～12日に、
+  ts: '20090417095218'
+- now: 二人は今回のカード大会にて、サイン会を行なったのですよ?。
+  early: 二人は今回のカード大会にて、サイン会を行なったのですよ～。
+  ts: '20090417095218'
+- now: 歴史を感じますね。ロマンですよ?。
+  early: 歴史を感じますね。ロマンですよ～。
+  ts: '20090417095218'
+- now: 日々の生活に、どんどんたっくさんいれてゆきたいな?と
+  early: 日々の生活に、どんどんたっくさんいれてゆきたいな～と
+  ts: '20090417095218'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

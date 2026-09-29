@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- G麺
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 73
+gf_history:
+  early_versions: 19
+  earliest_capture: '20080611083350'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: G麺
+  zh: G麺
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer25-ecf8c8.gif
 gf_entry_title: 【工作日志】2008年汤汁炒面随笔
 gf_original_title: つゆやきそば
 gf_translation_title: 【工作日志】2008年汤汁炒面随笔
@@ -120,7 +119,7 @@ entities:
 
 （あくまで大体なので、間違いあればご指摘下さい）
 
-麺は、 香ばしく炒められて、スープに浸っていても、伸びにくく、コシは保たれたまま。スープは、鶏ガラベースで醤油味。少しだけ薄い味つけ。麺をたぐるたびに、麺に絡んだソースが溶けて、少しずつ、スープに旨味とコクが足されてきます。一口。二口。三口。箸を進めるたび、変化していく色。香り。旨味。一瞬、ミスマッチにさえ感じる味。なのに、どこか懐かしいというか、優しい味。なんとも不思議な麺だな?と思います。
+麺は、 香ばしく炒められて、スープに浸っていても、伸びにくく、コシは保たれたまま。スープは、鶏ガラベースで醤油味。少しだけ薄い味つけ。麺をたぐるたびに、麺に絡んだソースが溶けて、少しずつ、スープに旨味とコクが足されてきます。一口。二口。三口。箸を進めるたび、変化していく色。香り。旨味。一瞬、ミスマッチにさえ感じる味。なのに、どこか懐かしいというか、優しい味。なんとも不思議な麺だな～と思います。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" alt="G麺画" loading="lazy"></a></figure>
 

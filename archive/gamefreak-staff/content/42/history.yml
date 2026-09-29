@@ -1,0 +1,23 @@
+post_id: 42
+early_versions: 24
+earliest_capture: '20071115194802'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: スティック
+  zh: 斯蒂克
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: ジョイントもっと欲しいよ縲怩ﾆか言ってた気がします。
+  early: ジョイントもっと欲しいよ〜とか言ってた気がします。
+  ts: '20101019053731'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -1,0 +1,24 @@
+post_id: 63
+early_versions: 21
+earliest_capture: '20080324110741'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: げいのう
+  zh: げいのう
+guest_writers: []
+categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: 採用
+  zh: 招聘
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

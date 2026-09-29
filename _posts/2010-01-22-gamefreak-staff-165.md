@@ -10,29 +10,27 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- にょろリカ
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 165
+gf_history:
+  early_versions: 7
+  earliest_capture: '20101019004214'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 2
+  edits: 0
+gf_writers:
+- ja: にょろリカ
+  zh: 妮洛莉卡
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer38-493d2f.jpg
 gf_entry_title: 【工作日志】2010年冬日假期与员工日常
 gf_original_title: それぞれの冬’10！
 gf_translation_title: 【工作日志】2010年冬日假期与员工日常
@@ -239,7 +237,7 @@ entities:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure><br>
 
-初詣は0時に行ったのですが、今年の大晦日?元旦はすごく寒かったですね！<br>
+初詣は0時に行ったのですが、今年の大晦日～元旦はすごく寒かったですね！<br>
 
 お参りをした後は、屋台食い倒れツアーを満喫。<br>
 
@@ -269,7 +267,7 @@ entities:
 
 ワイワイと普段しない芸能人の話などしながら<br>
 
-まったりのんびり新年を迎えました?。（ジョニー）
+まったりのんびり新年を迎えました～。（ジョニー）
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" alt="おにいさん" loading="lazy"></a></figure><br>
 

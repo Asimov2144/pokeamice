@@ -2,20 +2,13 @@ article_id: gamefreak-staff-196
 post_id: 196
 date: '2010-08-27'
 title: ポケモンサーチャーBW
-tags: []
+tags:
+- ユーリー
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -41,3 +34,16 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:50+00:00'
+writers:
+- ja: ユーリー
+  zh: 尤里
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer29-d96552.jpg
+history:
+  early_versions: 15
+  earliest_capture: '20101006030529'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+  record: archive/gamefreak-staff/content/196/history.yml

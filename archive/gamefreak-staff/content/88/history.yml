@@ -1,0 +1,25 @@
+post_id: 88
+early_versions: 23
+earliest_capture: '20080925033610'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: エノキ
+  zh: 榎木
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: 来年は何をしようかな?、今から楽しみです！
+  early: 来年は何をしようかな～、今から楽しみです！
+  ts: '20101019053711'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

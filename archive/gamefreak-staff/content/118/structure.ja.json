@@ -3,7 +3,7 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "こんにちは、総務部のボーダー丸です。<br>\n\n3月22日に開催された東京マラソンに参加してきました?。<br>\n\n3万5千人もの人が東京を走る大イベント！！<br>\n\nしかもボーダー丸はフルマラソン初挑戦です。",
+      "markdown": "こんにちは、総務部のボーダー丸です。<br>\n\n3月22日に開催された東京マラソンに参加してきました～。<br>\n\n3万5千人もの人が東京を走る大イベント！！<br>\n\nしかもボーダー丸はフルマラソン初挑戦です。",
       "images": []
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-995c519adccd\" alt=\"フィニッシュ\" %}<br>\n\n3）フィニッシュ！メダルが嬉しかったぁ?",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-995c519adccd\" alt=\"フィニッシュ\" %}<br>\n\n3）フィニッシュ！メダルが嬉しかったぁ～",
       "images": [
         "gamefreak-staff-995c519adccd"
       ]

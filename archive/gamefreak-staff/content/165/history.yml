@@ -1,0 +1,25 @@
+post_id: 165
+early_versions: 7
+earliest_capture: '20101019004214'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: にょろリカ
+  zh: 妮洛莉卡
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 初詣は0時に行ったのですが、今年の大晦日?元旦はすごく寒かったですね！
+  early: 初詣は0時に行ったのですが、今年の大晦日～元旦はすごく寒かったですね！
+  ts: '20101019053934'
+- now: まったりのんびり新年を迎えました?。（ジョニー）
+  early: まったりのんびり新年を迎えました～。（ジョニー）
+  ts: '20101019053934'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

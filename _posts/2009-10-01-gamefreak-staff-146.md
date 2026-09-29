@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
-- 宝可梦
 - 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- さとう
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
 - ja: 採用
   zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 146
+gf_history:
+  early_versions: 12
+  earliest_capture: '20091012033649'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: さとう
+  zh: 佐藤
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer26-d03ced.jpg
 gf_entry_title: 【工作日志】GAME FREAK开启校招
 gf_original_title: 2011年度新卒採用開始しました！
 gf_translation_title: 【工作日志】GAME FREAK开启校招
@@ -90,7 +89,7 @@ GAME FREAK期待愿意挑战新鲜事物、<br>
 <div data-gf-language-panel="ja" hidden>
 こんにちは。採用担当のさとうです。<br>
 
-今日から10月！朝晩の涼しさで本格的な秋を感じますね?。
+今日から10月！朝晩の涼しさで本格的な秋を感じますね～。
 
 そして10月といえば、学生の皆さんの就職活動が<br>
 

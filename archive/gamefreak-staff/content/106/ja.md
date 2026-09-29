@@ -36,7 +36,7 @@ status: source-extracted
 
 {% legacy_image id="gamefreak-staff-707010161046" alt="おにいさん" %}<br>
 
-沖縄で南国気分を味わってました?。<br>
+沖縄で南国気分を味わってました～。<br>
 
 やっぱり冬でも温かく、日中は立ち止まっているとジトっと汗が出て来る程。<br>
 
@@ -134,7 +134,7 @@ status: source-extracted
 
 寒い夜に、月やオリオン座を見るのは<br>
 
-なかなか風情がありました?。（ヒロ）
+なかなか風情がありました～。（ヒロ）
 
 {% legacy_image id="gamefreak-staff-58822b653fb3" alt="ユッフィー" %}<br>
 

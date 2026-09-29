@@ -2,20 +2,11 @@ article_id: gamefreak-staff-183
 post_id: 183
 date: '2010-05-21'
 title: 三茶も花の季節です
-tags: []
+tags:
+- 電線
 blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -71,3 +62,16 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:50+00:00'
+writers:
+- ja: 電線
+  zh: 電線
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer36-f99902.jpg
+history:
+  early_versions: 8
+  earliest_capture: '20101019004235'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/183/history.yml

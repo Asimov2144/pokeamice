@@ -1,0 +1,23 @@
+post_id: 82
+early_versions: 21
+earliest_capture: '20080806014257'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: ジョニ
+  zh: 乔尼
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: コダックシアターは毎年のアカデミー賞授賞式も開かれてる美し?い劇場。
+  early: コダックシアターは毎年のアカデミー賞授賞式も開かれてる美し～い劇場。
+  ts: '20101019054003'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

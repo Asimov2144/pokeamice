@@ -10,29 +10,27 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- よちよち
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 234
+gf_history:
+  early_versions: 32
+  earliest_capture: '20110916182427'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: よちよち
+  zh: よちよち
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer48-4c2b10.gif
 gf_entry_title: 【工作日志】2011年从鹦鹉学会表扬
 gf_original_title: 褒めて伸ばす！
 gf_translation_title: 【工作日志】2011年从鹦鹉学会表扬

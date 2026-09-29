@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- ディア
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 48
+gf_history:
+  early_versions: 15
+  earliest_capture: '20071218210150'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: ディア
+  zh: ディア
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer14-557f34.jpg
 gf_entry_title: 【工作日志】2007年冬日办公室的快乐时光
 gf_original_title: 楽しい時間の過ごし方
 gf_translation_title: 【工作日志】2007年冬日办公室的快乐时光

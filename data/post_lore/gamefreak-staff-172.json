@@ -41,18 +41,7 @@
     "via": "llm"
    }
   ],
-  "concepts": [
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
-   }
-  ]
+  "concepts": []
  },
  "observations": [
   {

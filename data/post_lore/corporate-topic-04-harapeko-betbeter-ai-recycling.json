@@ -152,18 +152,6 @@
      "品质"
     ],
     "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     16
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
    }
   ]
  },

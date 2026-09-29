@@ -10,29 +10,23 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
 - 宝可梦
-- 招聘
-- 更新通知
-- 未分类
 gf_source_tags: []
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 145
+gf_history:
+  early_versions: 9
+  earliest_capture: '20090926210848'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 1
 gf_entry_title: 【工作日志】2009年心金·魂银开发随笔
 gf_original_title: ＨＧ・ＳＳ 語っちゃいます！ その１
 gf_translation_title: 【工作日志】2009年心金·魂银开发随笔
@@ -293,3 +287,8 @@ entities:
 
 <br>
 </div>
+
+<aside class="gf-legacy-revision" aria-label="修订记录">
+<strong>修订记录</strong><p>对照 Web Archive 里更早的快照，这篇在原站上改过：</p>
+<ul><li><span>2009 年 10 月的存档版本</span><q lang="ja">ディレクターもりもとから告知があったようにこれから全６回の予定で</q><span>后来改为</span><q lang="ja">ディレクターもりもとから告知があったようにこれから全８回の予定で</q></li></ul>
+</aside>

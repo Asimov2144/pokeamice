@@ -1,0 +1,23 @@
+post_id: 102
+early_versions: 9
+earliest_capture: '20090116093004'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: スティック
+  zh: 斯蒂克
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: カルタなんて競技もありました。「旅行けば?」 どこ？どこ？
+  early: カルタなんて競技もありました。「旅行けば～」 どこ？どこ？
+  ts: '20101019053731'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -1,0 +1,23 @@
+post_id: 127
+early_versions: 8
+earliest_capture: '20090726073405'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: カンタロウ
+  zh: 坎太郎
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: まずストレッチを行い、その後ランニングマシンで５?６キロ走り、
+  early: まずストレッチを行い、その後ランニングマシンで５～６キロ走り、
+  ts: '20101019053720'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -1,0 +1,24 @@
+post_id: 196
+early_versions: 15
+earliest_capture: '20101006030529'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: ユーリー
+  zh: 尤里
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: 僕も乗ってきましたよ?！！
+  early: 僕も乗ってきましたよ～！！
+  ts: '20101019054033'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

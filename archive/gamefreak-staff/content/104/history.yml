@@ -1,0 +1,20 @@
+post_id: 104
+early_versions: 11
+earliest_capture: '20090116093004'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: カニ子
+  zh: 蟹子
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

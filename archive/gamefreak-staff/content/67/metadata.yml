@@ -2,20 +2,11 @@ article_id: gamefreak-staff-67
 post_id: 67
 date: '2008-04-18'
 title: いしかわけん！
-tags: []
+tags:
+- えるかつ
 blog_categories:
 - ja: GF紹介
   zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -51,3 +42,17 @@ rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
 extracted_at: '2026-08-28T06:42:48+00:00'
+writers:
+- ja: えるかつ
+  zh: 埃尔卡茨
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer22-d6ad55.jpg
+history:
+  early_versions: 23
+  earliest_capture: '20080423074514'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+  record: archive/gamefreak-staff/content/67/history.yml

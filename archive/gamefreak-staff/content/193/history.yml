@@ -1,0 +1,22 @@
+post_id: 193
+early_versions: 15
+earliest_capture: '20100806120453'
+themes:
+- clean-minimal
+- staff01_wb
+- staff_hgss
+writers:
+- ja: タピオカ
+  zh: 塔皮奥卡
+guest_writers: []
+categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

@@ -1,0 +1,22 @@
+post_id: 166
+early_versions: 7
+earliest_capture: '20101019004214'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: なぎー
+  zh: 纳吉
+guest_writers: []
+categories:
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: 1つのリーグに7?8名が入り乱れての勝ち点の奪い合いです！
+  early: 1つのリーグに7～8名が入り乱れての勝ち点の奪い合いです！
+  ts: '20101019004214'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

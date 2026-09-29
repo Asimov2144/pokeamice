@@ -1,0 +1,24 @@
+post_id: 24
+early_versions: 14
+earliest_capture: '20071016172048'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: カニ子
+  zh: 蟹子
+guest_writers: []
+categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

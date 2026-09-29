@@ -1,0 +1,24 @@
+post_id: 171
+early_versions: 9
+earliest_capture: '20101019004220'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: にょろリカ
+  zh: 妮洛莉卡
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+text_repairs:
+- now: こちらもどうぞお楽しみに?。
+  early: こちらもどうぞお楽しみに～。
+  ts: '20101114022727'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

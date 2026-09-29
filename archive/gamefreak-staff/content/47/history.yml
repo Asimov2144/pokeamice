@@ -1,0 +1,23 @@
+post_id: 47
+early_versions: 17
+earliest_capture: '20071217025501'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: げいのう
+  zh: げいのう
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 「♪はあ?、こりゃこりゃ」みたいな唄をうたってから出勤して、
+  early: 「♪はあ～、こりゃこりゃ」みたいな唄をうたってから出勤して、
+  ts: '20101019004000'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

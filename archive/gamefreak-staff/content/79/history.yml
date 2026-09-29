@@ -1,0 +1,23 @@
+post_id: 79
+early_versions: 25
+earliest_capture: '20080730005059'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+- staff_hgss
+writers:
+- ja: いわし
+  zh: 沙丁鱼
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+- ja: 採用
+  zh: 招聘
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

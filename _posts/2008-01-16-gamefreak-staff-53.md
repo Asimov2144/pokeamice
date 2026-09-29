@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- おにいさん
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 53
+gf_history:
+  early_versions: 18
+  earliest_capture: '20080119050507'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: おにいさん
+  zh: 哥哥
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer12-707010.jpg
 gf_entry_title: 【工作日志】2008年任天堂卡带的形状
 gf_original_title: ファミコンのカタチ
 gf_translation_title: 【工作日志】2008年任天堂卡带的形状
@@ -227,7 +226,7 @@ entities:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/53/onisan0116_13-c9dd8c79.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/53/onisan0116_13-c9dd8c79.jpg" alt="全体会" loading="lazy"></a></figure>
 
-といった感じで、本当にたくさんの形状があるので見ているだけでも楽しいですね?。<br>
+といった感じで、本当にたくさんの形状があるので見ているだけでも楽しいですね～。<br>
 
 でも実は楽しいだけでなく機能的にもしっかりデザインされています。<br>
 

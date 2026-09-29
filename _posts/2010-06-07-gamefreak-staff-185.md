@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- あきら
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 185
+gf_history:
+  early_versions: 8
+  earliest_capture: '20100806120453'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: あきら
+  zh: 阿基拉
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer43-2b2e04.jpg
 gf_entry_title: 【工作日志】2010年草莓采摘日记
 gf_original_title: イチゴを狩る！
 gf_translation_title: 【工作日志】2010年草莓采摘日记

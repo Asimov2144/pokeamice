@@ -10,29 +10,23 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
 - 宝可梦
-- 招聘
-- 更新通知
-- 未分类
 gf_source_tags: []
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
 - ja: ポケモン
   zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 148
+gf_history:
+  early_versions: 9
+  earliest_capture: '20091012033649'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  - staff_hgss
+  repaired_lines: 0
+  edits: 0
 gf_entry_title: 【工作日志】2009年心金魂银的计步器设计
 gf_original_title: ＨＧ・ＳＳ 語っちゃいます！ その2
 gf_translation_title: 【工作日志】2009年心金魂银的计步器设计

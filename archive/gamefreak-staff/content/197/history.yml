@@ -1,0 +1,25 @@
+post_id: 197
+early_versions: 14
+earliest_capture: '20101006030529'
+themes:
+- clean-minimal
+- staff01_wb
+writers:
+- ja: にょろリカ
+  zh: 妮洛莉卡
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 過ごしながら、心身共に大回復?！
+  early: 過ごしながら、心身共に大回復～！
+  ts: '20101019053934'
+- now: 高校野球観戦のために大学の友人と甲子園に行きました?！
+  early: 高校野球観戦のために大学の友人と甲子園に行きました～！
+  ts: '20101019053934'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

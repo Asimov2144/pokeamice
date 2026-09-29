@@ -389,18 +389,6 @@
      "儿童"
     ],
     "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     34
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
    }
   ]
  },

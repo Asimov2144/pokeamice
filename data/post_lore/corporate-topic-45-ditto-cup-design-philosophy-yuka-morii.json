@@ -260,23 +260,10 @@
     "name": "惊喜与发现",
     "facet": "design",
     "seg": [
-     32,
-     34
+     32
     ],
     "as": [
      "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     34
-    ],
-    "as": [
-     "家庭"
     ],
     "via": "body"
    }

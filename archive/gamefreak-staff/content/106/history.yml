@@ -1,0 +1,26 @@
+post_id: 106
+early_versions: 11
+earliest_capture: '20090116093004'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: カニ子
+  zh: 蟹子
+guest_writers: []
+categories:
+- ja: にっき
+  zh: 日记
+text_repairs:
+- now: 沖縄で南国気分を味わってました?。
+  early: 沖縄で南国気分を味わってました～。
+  ts: '20101019004110'
+- now: なかなか風情がありました?。（ヒロ）
+  early: なかなか風情がありました～。（ヒロ）
+  ts: '20101019004110'
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

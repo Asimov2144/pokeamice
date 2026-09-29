@@ -10,29 +10,27 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
-- 日记
-- 宝可梦
 - 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- さとう
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
-- ja: にっき
-  zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
 - ja: 採用
   zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 200
+gf_history:
+  early_versions: 15
+  earliest_capture: '20101006030529'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: さとう
+  zh: 佐藤
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer26-d03ced.jpg
 gf_entry_title: 【工作日志】2010年程序员招聘中！
 gf_original_title: プログラマー積極採用中！
 gf_translation_title: 【工作日志】2010年程序员招聘中！

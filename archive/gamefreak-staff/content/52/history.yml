@@ -1,0 +1,24 @@
+post_id: 52
+early_versions: 25
+earliest_capture: '20080119050507'
+themes:
+- clean-minimal
+- staff01
+- staff01_wb
+writers:
+- ja: もりもと
+  zh: 森本
+guest_writers: []
+categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+text_repairs: []
+text_edits: []
+unrepaired_corruption: []
+title_repair: null
+images_only_early: []
+embeds_early: []

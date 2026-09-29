@@ -959,11 +959,35 @@
   ],
   "concepts": [
    {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     3
+    ],
+    "as": [
+     "交响"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     4
+    ],
+    "as": [
+     "对战大会"
+    ],
+    "via": "body"
+   },
+   {
     "id": "composing",
     "name": "作曲",
     "facet": "audio",
     "seg": [
-     10
+     12
     ],
     "as": [
      "作曲"
@@ -975,12 +999,12 @@
     "name": "配音",
     "facet": "audio",
     "seg": [
-     10,
+     12,
      54,
-     76,
-     148,
-     170,
-     196
+     127,
+     204,
+     226,
+     251
     ],
     "as": [
      "配音",
@@ -993,10 +1017,12 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     11,
-     137,
-     185,
-     336
+     13,
+     95,
+     153,
+     193,
+     344,
+     353
     ],
     "as": [
      "小学生",
@@ -1009,9 +1035,8 @@
     "name": "配信与赠送",
     "facet": "system",
     "seg": [
-     11,
-     146,
-     194
+     13,
+     202
     ],
     "as": [
      "配信",
@@ -1024,12 +1049,10 @@
     "name": "周边商品",
     "facet": "business",
     "seg": [
-     11,
-     109
+     13
     ],
     "as": [
-     "商品化",
-     "玩具"
+     "商品化"
     ],
     "via": "body"
    },
@@ -1038,14 +1061,15 @@
     "name": "联网服务",
     "facet": "tech",
     "seg": [
-     11,
-     34,
-     109,
-     337
+     13,
+     345,
+     348,
+     349
     ],
     "as": [
      "服务器",
-     "联网"
+     "联网",
+     "在线"
     ],
     "via": "body"
    },
@@ -1054,9 +1078,9 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     18,
-     19,
-     34
+     20,
+     21,
+     349
     ],
     "as": [
      "分镜"
@@ -1068,7 +1092,7 @@
     "name": "视角与镜头",
     "facet": "system",
     "seg": [
-     20
+     22
     ],
     "as": [
      "镜头"
@@ -1080,158 +1104,10 @@
     "name": "教育与育儿",
     "facet": "audience",
     "seg": [
-     20
+     22
     ],
     "as": [
      "教材"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     33,
-     153,
-     201,
-     254
-    ],
-    "as": [
-     "通信电缆",
-     "通信线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     33,
-     283
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     33,
-     137,
-     142,
-     143,
-     185,
-     190
-    ],
-    "as": [
-     "卡牌游戏",
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     33,
-     34,
-     163,
-     211,
-     231,
-     254
-    ],
-    "as": [
-     "交换宝可梦",
-     "通信交换"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     33,
-     163,
-     211,
-     231,
-     254
-    ],
-    "as": [
-     "无线通信",
-     "红外线通信",
-     "无线适配器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     34
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     34,
-     137,
-     185
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     39
-    ],
-    "as": [
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     39,
-     175,
-     222
-    ],
-    "as": [
-     "试作",
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     39
-    ],
-    "as": [
-     "续作"
     ],
     "via": "body"
    },
@@ -1240,55 +1116,83 @@
     "name": "宣传",
     "facet": "business",
     "seg": [
-     56,
-     75
+     76,
+     131,
+     362,
+     368
     ],
     "as": [
-     "广告",
-     "宣传"
+     "广告"
     ],
     "via": "body"
    },
    {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
     "seg": [
-     67
+     88,
+     344
     ],
     "as": [
-     "剧本"
+     "初代"
     ],
     "via": "body"
    },
    {
-    "id": "world-building",
-    "name": "世界观设定",
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
     "facet": "design",
     "seg": [
-     74,
-     75
+     94
     ],
     "as": [
-     "世界观"
+     "第一次接触"
     ],
     "via": "body"
    },
    {
-    "id": "items",
-    "name": "道具与精灵球",
+    "id": "trade",
+    "name": "通信交换",
     "facet": "system",
     "seg": [
-     75,
-     91,
-     106,
-     175,
-     222,
-     246
+     99,
+     149,
+     219,
+     263,
+     345,
+     348
     ],
     "as": [
-     "道具",
-     "精灵球"
+     "交换宝可梦",
+     "通信交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     101,
+     124
+    ],
+    "as": [
+     "一起玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     103,
+     151
+    ],
+    "as": [
+     "水属性",
+     "属性相克"
     ],
     "via": "body"
    },
@@ -1297,76 +1201,12 @@
     "name": "音效",
     "facet": "audio",
     "seg": [
-     76
+     109,
+     111,
+     128
     ],
     "as": [
      "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     91
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     119,
-     269,
-     270
-    ],
-    "as": [
-     "宝可梦对战",
-     "打对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     137,
-     185
-    ],
-    "as": [
-     "动画化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     137
-    ],
-    "as": [
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     137,
-     185,
-     336
-    ],
-    "as": [
-     "热潮"
     ],
     "via": "body"
    },
@@ -1375,12 +1215,186 @@
     "name": "收集与图鉴",
     "facet": "system",
     "seg": [
-     140,
-     188,
-     254
+     112,
+     196,
+     221
     ],
     "as": [
-     "宝可梦图鉴"
+     "宝可梦图鉴",
+     "集齐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     118,
+     353
+    ],
+    "as": [
+     "卡带",
+     "容量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     120
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     120,
+     148,
+     168,
+     172
+    ],
+    "as": [
+     "取名",
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     133,
+     292,
+     348
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     138,
+     193
+    ],
+    "as": [
+     "怀旧",
+     "童年"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     142
+    ],
+    "as": [
+     "游戏平衡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     162,
+     231,
+     255,
+     279
+    ],
+    "as": [
+     "精灵球",
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     168,
+     345
+    ],
+    "as": [
+     "惊喜",
+     "新鲜感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     175,
+     263,
+     278,
+     279,
+     354
+    ],
+    "as": [
+     "宝可梦对战",
+     "对战系统",
+     "打对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     193,
+     349
+    ],
+    "as": [
+     "培育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     193,
+     344,
+     345
+    ],
+    "as": [
+     "热潮"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     193,
+     198,
+     199,
+     348
+    ],
+    "as": [
+     "卡牌游戏",
+     "集换式卡牌"
     ],
     "via": "body"
    },
@@ -1389,12 +1403,10 @@
     "name": "销量",
     "facet": "business",
     "seg": [
-     140,
-     143,
-     188,
-     191,
-     202,
-     211
+     196,
+     199,
+     236,
+     259
     ],
     "as": [
      "销量",
@@ -1407,12 +1419,29 @@
     "name": "剧场版",
     "facet": "franchise",
     "seg": [
-     148,
-     170,
-     196
+     204,
+     226,
+     251,
+     270,
+     348
     ],
     "as": [
-     "剧场版"
+     "剧场版",
+     "动画电影"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     209,
+     263,
+     348
+    ],
+    "as": [
+     "通信线"
     ],
     "via": "body"
    },
@@ -1421,9 +1450,8 @@
     "name": "台词",
     "facet": "story",
     "seg": [
-     153,
-     201,
-     231
+     209,
+     240
     ],
     "as": [
      "台词"
@@ -1435,10 +1463,9 @@
     "name": "联动",
     "facet": "business",
     "seg": [
-     163,
-     211,
-     231,
-     240
+     219,
+     240,
+     249
     ],
     "as": [
      "联动"
@@ -1450,37 +1477,10 @@
     "name": "延期",
     "facet": "process",
     "seg": [
-     163,
-     211
+     219
     ],
     "as": [
      "延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     163,
-     211
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     169,
-     217
-    ],
-    "as": [
-     "神秘的"
     ],
     "via": "body"
    },
@@ -1489,8 +1489,7 @@
     "name": "随机与运气",
     "facet": "system",
     "seg": [
-     169,
-     217
+     225
     ],
     "as": [
      "概率"
@@ -1498,75 +1497,14 @@
     "via": "body"
    },
    {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     185
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
+    "id": "evolution-design",
+    "name": "进化的设计",
     "facet": "design",
     "seg": [
-     231
+     240
     ],
     "as": [
-     "舞台设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     254
-    ],
-    "as": [
-     "掌上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     256,
-     257
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     256
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     265
-    ],
-    "as": [
-     "一目了然"
+     "进化前后"
     ],
     "via": "body"
    },
@@ -1575,37 +1513,93 @@
     "name": "等级与经验",
     "facet": "system",
     "seg": [
-     270,
-     276,
-     299,
-     324
+     240,
+     279,
+     285,
+     332
     ],
     "as": [
+     "升级",
      "等级"
     ],
     "via": "body"
    },
    {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
+    "id": "wireless",
+    "name": "无线与擦肩",
+    "facet": "tech",
     "seg": [
-     299
+     240,
+     263,
+     348
     ],
     "as": [
-     "培养"
+     "无线适配器",
+     "无线通信"
     ],
     "via": "body"
    },
    {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
     "seg": [
-     336
+     263,
+     345
     ],
     "as": [
-     "初代"
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     263,
+     265
+    ],
+    "as": [
+     "品质",
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     265,
+     266
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     321
+    ],
+    "as": [
+     "沿用"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pixel-art",
+    "name": "像素画",
+    "facet": "tech",
+    "seg": [
+     344
+    ],
+    "as": [
+     "像素画"
     ],
     "via": "body"
    },
@@ -1614,7 +1608,7 @@
     "name": "3D 与建模",
     "facet": "tech",
     "seg": [
-     336
+     344
     ],
     "as": [
      "多边形"
@@ -1626,7 +1620,8 @@
     "name": "人与人的连接",
     "facet": "design",
     "seg": [
-     337
+     345,
+     353
     ],
     "as": [
      "交流"
@@ -1634,26 +1629,99 @@
     "via": "body"
    },
    {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
     "seg": [
-     337
+     348
     ],
     "as": [
-     "濒死"
+     "电视动画"
     ],
     "via": "body"
    },
    {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
     "seg": [
-     337
+     349,
+     353
     ],
     "as": [
-     "新鲜感"
+     "企划书"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     353
+    ],
+    "as": [
+     "口耳相传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     354
+    ],
+    "as": [
+     "家长"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     354
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     354
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "fan-works",
+    "name": "二创与同人",
+    "facet": "audience",
+    "seg": [
+     355
+    ],
+    "as": [
+     "同人志"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     355
+    ],
+    "as": [
+     "学生时代"
     ],
     "via": "body"
    },

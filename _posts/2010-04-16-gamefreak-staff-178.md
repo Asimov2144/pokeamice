@@ -10,29 +10,27 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- っゃっゃ
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 178
+gf_history:
+  early_versions: 6
+  earliest_capture: '20101019004230'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: っゃっゃ
+  zh: っゃっゃ
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer19-9899de.jpg
 gf_entry_title: 【工作日志】2010年三轩茶屋的春日寻猫
 gf_original_title: 三軒茶屋の春
 gf_translation_title: 【工作日志】2010年三轩茶屋的春日寻猫

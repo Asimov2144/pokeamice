@@ -128,8 +128,7 @@
     "name": "随机与运气",
     "facet": "system",
     "seg": [
-     10,
-     37
+     10
     ],
     "as": [
      "概率"
@@ -169,18 +168,6 @@
     ],
     "as": [
      "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     37
-    ],
-    "as": [
-     "超能力属性"
     ],
     "via": "body"
    }

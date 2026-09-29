@@ -10,29 +10,27 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- しゃち
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 172
+gf_history:
+  early_versions: 7
+  earliest_capture: '20101019004225'
+  themes:
+  - clean-minimal
+  - staff01_wb
+  repaired_lines: 1
+  edits: 0
+gf_writers:
+- ja: しゃち
+  zh: 沙奇
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer15-310b7f.jpg
 gf_entry_title: 【工作日志】2010年春日花事
 gf_original_title: 春よこい！ しゃちの花日記
 gf_translation_title: 【工作日志】2010年春日花事
@@ -138,7 +136,7 @@ entities:
 
 まだまだ冷たい夜風に混じる甘い香りに沈丁花が咲いたことを知ると、<br>
 
-その後１?２週間で寒さはぐっと緩み、海辺では潮の香りが強くなります。
+その後１～２週間で寒さはぐっと緩み、海辺では潮の香りが強くなります。
 
 ここまで来れば本格的な春の訪れはもうすぐ。<br>
 

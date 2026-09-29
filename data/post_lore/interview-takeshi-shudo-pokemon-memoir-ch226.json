@@ -383,6 +383,18 @@
     "via": "body"
    },
    {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     100
+    ],
+    "as": [
+     "企划阶段"
+    ],
+    "via": "body"
+   },
+   {
     "id": "children",
     "name": "儿童玩家",
     "facet": "audience",

@@ -10,29 +10,28 @@ categories:
 tags:
 - Game Freak
 - Game Freak 员工
-- GF介绍
 - 日记
-- 宝可梦
-- 招聘
-- 更新通知
-- 未分类
-gf_source_tags: []
+gf_source_tags:
+- スティック
 gf_blog_categories:
-- ja: GF紹介
-  zh: GF介绍
 - ja: にっき
   zh: 日记
-- ja: ポケモン
-  zh: 宝可梦
-- ja: 採用
-  zh: 招聘
-- ja: 更新のおしらせ
-  zh: 更新通知
-- ja: 未分類
-  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 112
+gf_history:
+  early_versions: 14
+  earliest_capture: '20090207194153'
+  themes:
+  - clean-minimal
+  - staff01
+  - staff01_wb
+  repaired_lines: 0
+  edits: 0
+gf_writers:
+- ja: スティック
+  zh: 斯蒂克
+  avatar: /assets/images/gamefreak-legacy/staff/writers/writer11-3220fb.jpg
 gf_entry_title: 【工作日志】十年前想告诉自己的三件事
 gf_original_title: １０年前の自分に伝えたい事
 gf_translation_title: 【工作日志】十年前想告诉自己的三件事
