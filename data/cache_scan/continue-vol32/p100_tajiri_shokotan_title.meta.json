@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.8,
+ "image_tokens": 9022,
+ "completion_tokens": 16,
+ "finish": "stop",
+ "file": "p100_tajiri_shokotan_title",
+ "image_md5": "a2931962b124da349ddf8ba7e30a36e1"
+}

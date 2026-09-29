@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 28.3,
+ "image_tokens": 2762,
+ "completion_tokens": 598,
+ "finish": "stop",
+ "file": "p005_gamefreak_p78",
+ "image_md5": "f36d5e2d0af9bcb5d9c2f2d72d2ac777"
+}

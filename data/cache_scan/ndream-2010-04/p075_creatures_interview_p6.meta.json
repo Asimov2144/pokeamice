@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 38.5,
+ "image_tokens": 7127,
+ "completion_tokens": 1340,
+ "finish": "stop",
+ "file": "p075_creatures_interview_p6",
+ "image_md5": "a2e9896014b83b31bd7f01c291b15ff3"
+}

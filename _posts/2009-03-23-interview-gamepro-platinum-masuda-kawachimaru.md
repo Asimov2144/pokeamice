@@ -1,0 +1,115 @@
+---
+layout: interview-editorial
+archive_type: interview_translation
+title: GamePro 2009：增田顺一与河内丸武史谈《宝可梦 白金》
+display_title: 《宝可梦 白金》开发者访谈
+dek: GamePro 在任天堂湾区总部采访《宝可梦 白金》制作人增田顺一与总监河内丸武史，谈命名、剧情与Wi-Fi对战。
+original_title: 'Pokemon Platinum: Developer Interview!'
+date: '2009-03-23'
+era_skin: '2007'
+categories:
+- 访谈翻译
+- 翻译
+- 访谈整理
+tags:
+- 访谈
+- Game Freak
+- GamePro
+- 宝可梦 白金
+- 增田顺一
+- 河内丸武史
+publication: GamePro（2009-03-23）
+source_kind: media_interview
+interviewer: GamePro
+interviewee: 增田顺一、河内丸武史
+translator: PokeAmice（DeepSeek 初译）
+original_lang: en
+translation_lang: zh-CN
+source:
+  title: 'Pokemon Platinum: Developer Interview!'
+  url: https://web.archive.org/web/20090327072922/http://www.gamepro.com/article/previews/209339/Pokemon-platinum-developer-interview
+  language: en
+  source_type: media_interview
+original_link: https://web.archive.org/web/20090327072922/http://www.gamepro.com/article/previews/209339/Pokemon-platinum-developer-interview
+source_url: https://web.archive.org/web/20090327072922/http://www.gamepro.com/article/previews/209339/Pokemon-platinum-developer-interview
+summary: GamePro 采访《宝可梦 白金》制作人增田顺一与总监河内丸武史，谈及「白金」命名由来、骑拉帝纳与剧情改动、Wi-Fi对战语音聊天，以及道馆馆主改用单一属性宝可梦的设计考量。
+entities:
+  people:
+  - 增田顺一
+  - 河内丸武史
+  works:
+  - 宝可梦 白金
+workflow:
+  fetch: wayback
+  translation: deepseek-chat
+  proofreading: pending
+  published: draft
+parallel_items:
+- original: By McKinley Noble
+  translation: 作者：McKinley Noble
+- original: March 23, 2009 17:14 PM PST
+  translation: 2009年3月23日 17:14 太平洋标准时间
+- original: With Pokemon Platinum just a few days away, GamePro was invited to Nintendo to talk with two of the developers behind Nintendo's powerhouse RPG franchise!
+  translation: 距离《宝可梦 白金》发售只剩几天，GamePro 受邀前往任天堂，与这部任天堂王牌 RPG 系列背后的两位开发者进行了交谈！
+- original: Pokemon Platinum is just around the corner for gamers in the U.S., and I'm already polishing up my Nintendo DS in anticipation of the new battles and Pokemon I'm going to see. Nintendo recently invited GamePro to their Bay Area headquarters to interview two of the men behind the development of Pokemon Platinum, just in time to increase my hunger for the release of this much-awaited remake edition in the record-breaking Pokemon Diamond & Pearl series. We chatted up Takeshi Kawachimaru, one of Game Freak's designers behind Pokemon Ruby and Pokemon Sapphire (as well as Pokemon Platinum's game director) and the famous video game composer Junichi Masuda, one of the original developers of Pokemon since Red and Blue/Green, who is also producing Pokemon Platinum.
+  translation: 对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——Game Freak 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。
+  note: 河内丸武史（Takeshi Kawachimaru）是 Game Freak 的设计师，后担任《宝可梦 白金》总监；增田顺一（Junichi Masuda）是 Game Freak 的作曲家与制作人，自初代起参与宝可梦开发。
+- original: (Center, left to right) Junichi Masuda and Takeshi Kawachimaru, with representives of the Pokemon Company. We were unreasonably intimidated.
+  translation: （中间，从左至右）增田顺一与河内丸武史，以及宝可梦公司的代表。我们感到了一种毫无道理的压迫感。
+- original: This is the first Pokemon game that's been named after a metal since Gold & Silver. Was there a special reason for calling this one "Platinum"?
+  role: question
+  speaker: GamePro
+  translation: 这是自《金／银》以来第一款以金属命名的宝可梦游戏。把这一作叫作“白金”有什么特别的原因吗？
+- original: Diamond is a gem, as you know, and a pearl is something that nature creates. When we researched about Diamond & Pearl, [the word] "diamond" has a meaning of "love", and "pearl" has a meaning of "happiness". So when we thought of the third one, we wanted to have something "beautiful," at the next level. [It's] different from a diamond, different from a gem, different from a pearl, different from something that nature creates, something [that] shines, something beautiful. That's how we came up with Platinum.
+  role: answer
+  speaker: 增田顺一
+  translation: 如你所知，钻石是一种宝石，而珍珠是自然创造出来的东西。我们在研究《钻石／珍珠》时发现，“diamond”有“爱”的含义，而“pearl”有“幸福”的含义。所以当我们考虑第三作时，我们想要某种“美丽”的、更高层次的东西。它不同于钻石，不同于宝石，不同于珍珠，不同于自然创造出来的东西，是某种闪耀的、美丽的东西。我们就是这样想出“白金”的。
+- original: Are there any Pokemon that can be caught in Platinum that trainers didn't have access to in Diamond & Pearl?
+  role: question
+  speaker: GamePro
+  translation: 在《白金》中有没有一些宝可梦是训练家在《钻石／珍珠》中无法获得的？
+- original: (Speaks to translator.) There are some Pokemon which you cannot meet in Diamond & Pearl, but you can meet [those Pokemon] in Platinum.
+  role: answer
+  speaker: 河内丸武史
+  translation: （对翻译说。）有一些宝可梦你在《钻石／珍珠》中遇不到，但在《白金》中可以遇到。
+- original: How did you decide on the different story changes in the main game? There are certain elements of the story that have been tweaked and the villains have different motivations, so...
+  role: question
+  speaker: GamePro
+  translation: 你们是如何决定正篇中不同的剧情改动的？故事中有一些元素被调整了，反派的动机也不同了，所以……
+- original: In Diamond & Pearl, you have Dialga and Palkia, and it has a story to each Pokemon. [It's] two different Pokemon, but one story in Diamond & Pearl. We wanted to create a different story for Platinum. That's how we developed Giratina, as something opposite of Dialga and Palkia. We wanted to make the existence of Giratina more fun, more interesting, cooler. That's how we came up with the whole scenario of Diamond & Pearl and then advanced to Platinum. We wanted to make different roles easier for the player to understand, so we used the text to explain how this is related. We set up an environment where Giratina exists, so that's something we have to add to make the storyline more appealing and approachable and accessible to players.
+  role: answer
+  speaker: 河内丸武史
+  translation: 在《钻石／珍珠》中，有帝牙卢卡和帕路奇亚，每只宝可梦都有自己的故事。它们是两只不同的宝可梦，但在《钻石／珍珠》中是一个故事。我们想为《白金》创造一个不同的故事。于是我们设计了骑拉帝纳，作为帝牙卢卡和帕路奇亚的对立面。我们想让骑拉帝纳的存在更有趣、更引人入胜、更酷。我们就是这样构思出《钻石／珍珠》的整个剧情，然后推进到《白金》的。我们想让不同的角色更容易被玩家理解，所以用文本来解释它们之间是如何关联的。我们设定了一个骑拉帝纳存在的环境，这是我们必须加入的内容，好让故事线更有吸引力，也更容易让玩家接受和理解。
+- original: What is your reaction to the success of the Wi-Fi battling system shown in Diamond & Pearl?
+  role: question
+  speaker: GamePro
+  translation: 对于《钻石／珍珠》中展示的Wi-Fi对战系统取得的成功，你们有什么反应？
+- original: One of the features that utilize the Wi-Fi connection is voice chat. You can chat while playing, and that makes the Wi-Fi battles more interesting because you can talk to each other. We definitely wanted to include that. If there was no voice chat, I [wouldn't] think this was that successful. Once we realized that was something we could make, we knew this was going to be very big.
+  role: answer
+  speaker: 增田顺一
+  translation: 利用Wi-Fi连接的功能之一是语音聊天。你可以在游玩时聊天，这让Wi-Fi对战更有趣，因为你们可以互相交谈。我们一定要加入这个功能。如果没有语音聊天，我不会认为它有那么成功。当我们意识到我们能做到这一点时，就知道这会非常了不起。
+- original: Finally, I can taunt people after I knock out their Pokemon verbally! It's going to be great. (Laughs.)
+  role: question
+  speaker: GamePro
+  translation: 终于，我可以在击倒别人的宝可梦之后用嘴嘲讽他们了！这会很棒。（笑。）
+- original: Charmander's clearly an office favorite over at Nintendo's Bay Area branch.
+  role: question
+  speaker: GamePro
+  translation: 小火龙显然是任天堂湾区办公室的最爱。
+- original: What promoted the choice to have Gym Leaders and Gym Trainers use only one single Pokemon type? Is that going to make it more challenging?
+  role: question
+  speaker: GamePro
+  translation: 是什么促使你们决定让道馆馆主和道馆训练家只使用单一属性的宝可梦？这会让游戏更有挑战性吗？
+- original: '[Author''s Note: In Pokemon Platinum, Gym Leaders and Gym Trainers no longer carry any Pokemon that don''t match their respective gym''s type. This means that a Gym Leader like Candice won''t be rounding out her Ice-type lineup with a weird pinch-hitter like the Fighting/Psychic Medicham.]'
+  role: question
+  speaker: GamePro
+  translation: 【作者注：在《宝可梦 白金》中，道馆馆主和道馆训练家不再携带任何与各自道馆属性不符的宝可梦。这意味着像小菘这样的道馆馆主，不会再拿格斗/超能力属性的恰雷姆之类奇怪的替补来凑齐她的冰属性阵容。】
+  note: 小菘是《宝可梦 钻石／珍珠／白金》中雪峰市道馆的冰属性馆主。
+- original: '[Editor''s Note: Nerd!]'
+  translation: 【编辑注：书呆子！】
+- original: It is very difficult to set which actual Gym Leader has what kind of Pokemon that he or she uses. Each gym [ranks as] "Number 1 through Number 8." When you get to Number 1, you meet certain Pokemon, [and] that's limited. So, we have to think of whole scenarios, how Number 1 to Number 8 happens and which Gym Leaders [will] specialize in Water Pokemon or [any type] of Pokemon. It also affects the nearby area, so if there's a snowy city, of course, you will have Ice Pokemon. That scenario needs to be matched with how you line up the Gym Leaders, as well as their Pokemon. Towards the end, because you have already experienced many battles and you will meet wild Pokemon of a much higher level, that's why [in the game's final gym], of course, that leader has strong Pokemon.
+  role: answer
+  speaker: 增田顺一
+  translation: 要设定每位道馆馆主实际使用什么样的宝可梦是非常困难的。每个道馆都按“第1个到第8个”来排序。当你到达第1个道馆时，你遇到的宝可梦是有限的。所以，我们必须考虑整体情境：从第1个到第8个道馆如何展开，哪些道馆馆主专精水属性宝可梦或其他属性的宝可梦。这也会影响附近的区域，所以如果有一座雪城，那当然会有冰属性宝可梦。这个情境需要与道馆馆主的排列顺序以及他们的宝可梦相匹配。到了后期，因为玩家已经经历了许多战斗，并且会遇到等级高得多的野生宝可梦，所以（在游戏最后一个道馆中）那位馆主当然拥有强大的宝可梦。
+interview_id: PKMN-1152
+---

@@ -1,0 +1,13 @@
+{
+ "width": 1529,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[670,126,794,170], [62,353,163,411], [294,359,327,382], [515,1900,537,1925]],
+ "regions": {
+  "p100-seg02": null,
+  "p100-seg03": null
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 7.1, "image_tokens": 3074, "completion_tokens": 28, "finish": "stop", "scale": "px"},
+ "image": "/assets/images/scan-archive/continue-vol32-20260829/pages/p100_tajiri_shokotan_title.jpg",
+ "page_file": "p100_tajiri_shokotan_title"
+}

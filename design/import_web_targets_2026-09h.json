@@ -1,4 +1,5 @@
 {
+ "note": "2026-09-29/30 imports: g4tv (its 'G4:' label became 'Q:' in the cached page - the parser reads letters only); CVG / GamePro / 1UP re-imported from Wayback (1UP page 2 fetched by hand into data/cache_web); the 44 corporate topics re-imported from corporate.pokemon.co.jp, the page's og:image added by hand as the first picture, tags/entities/source_kind restored afterwards.",
  "targets": [
   {
    "key": "g4tv-2009-platinum",
@@ -34,6 +35,1118 @@
    "slug": "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
    "post": "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics.md",
    "fresh": true
+  },
+  {
+   "key": "gamepro-2009-platinum",
+   "url": "https://web.archive.org/web/20090327072922/http://www.gamepro.com/article/previews/209339/Pokemon-platinum-developer-interview",
+   "wayback": "https://web.archive.org/web/20090327072922/http://www.gamepro.com/article/previews/209339/Pokemon-platinum-developer-interview",
+   "lang": "en",
+   "date": "2009-03-23",
+   "outlet": "GamePro",
+   "outlet_zh": "GamePro",
+   "title": "Pokemon Platinum: Developer Interview!",
+   "kind": "interview",
+   "asker": "GamePro",
+   "asker_aliases": [
+    "GamePro",
+    "GP",
+    "Q"
+   ],
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一",
+    "Kawachimaru": "河内丸武史",
+    "Takeshi Kawachimaru": "河内丸武史",
+    "JM": "增田顺一",
+    "TK": "河内丸武史"
+   },
+   "works": [
+    "宝可梦 白金"
+   ],
+   "tags": [
+    "GamePro",
+    "宝可梦 白金",
+    "增田顺一",
+    "河内丸武史"
+   ],
+   "slug": "2009-03-23-interview-gamepro-platinum-masuda-kawachimaru",
+   "fresh": true
+  },
+  {
+   "key": "1up-2009-why-pokemon",
+   "url": "https://web.archive.org/web/20110805141019/http://www.1up.com/features/gamers-play-pokemon",
+   "wayback": "https://web.archive.org/web/20110805141019/http://www.1up.com/features/gamers-play-pokemon",
+   "lang": "en",
+   "date": "2009-03-24",
+   "outlet": "1UP.com",
+   "outlet_zh": "1UP.com",
+   "title": "Why Gamers Still Play Pokémon",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [
+    "宝可梦 白金"
+   ],
+   "tags": [
+    "1UP",
+    "宝可梦 白金",
+    "增田顺一",
+    "河内丸武史"
+   ],
+   "slug": "2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda",
+   "fresh": true,
+   "container": "#content",
+   "pages": [
+    "https://web.archive.org/web/20110805141019/http://www.1up.com/features/gamers-play-pokemon?pager.offset=1"
+   ]
+  },
+  {
+   "key": "cvg-2003-rs",
+   "url": "https://web.archive.org/web/20080116030930/http://www.computerandvideogames.com/article.php?id=91965",
+   "wayback": "https://web.archive.org/web/20080116030930/http://www.computerandvideogames.com/article.php?id=91965",
+   "lang": "en",
+   "date": "2003-05-30",
+   "outlet": "Computer and Video Games",
+   "outlet_zh": "CVG",
+   "title": "Nintendo Interview: Game Freak on Pokemon!",
+   "kind": "interview",
+   "asker": "CVG",
+   "asker_aliases": [
+    "CVG",
+    "Q"
+   ],
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一",
+    "Sugimori": "杉森建",
+    "Ken Sugimori": "杉森建",
+    "Morimoto": "森本茂树",
+    "Shigeki Morimoto": "森本茂树"
+   },
+   "works": [
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "tags": [
+    "CVG",
+    "宝可梦 红宝石·蓝宝石",
+    "增田顺一",
+    "杉森建",
+    "森本茂树"
+   ],
+   "slug": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+   "fresh": true,
+   "container": "span.text_article_body"
+  },
+  {
+   "key": "corp-t1",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-1/",
+   "lang": "ja",
+   "date": "2020-08-18",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "世界でただひとつだけのマンホールを見つける旅",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2020-08-18-corporate-topic-01-pokefuta-manhole-travel",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t2",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-2/",
+   "lang": "ja",
+   "date": "2020-08-18",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "1,000年後にポケモンが発掘されたとしたら？ 現代アートからの回答",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t3",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-3/",
+   "lang": "ja",
+   "date": "2020-08-18",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ゲームを「遊び」以外の領域に応用したい",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t4",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-4/",
+   "lang": "ja",
+   "date": "2020-11-30",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "AIを搭載した「はらぺこベトベター」が、楽しく街をキレイにします",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t7",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-7/",
+   "lang": "ja",
+   "date": "2021-08-13",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ポケモンの原点は、自然をかき分けた先に",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t8",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-8/",
+   "lang": "ja",
+   "date": "2022-03-30",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "“耳”は、あの冒険を覚えているか？",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t9",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-9/",
+   "lang": "ja",
+   "date": "2023-09-28",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "『Pokémon Sleep』に込められた睡眠への想い",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t11",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-11/",
+   "lang": "ja",
+   "date": "2023-12-22",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "初音ミクとポケモンがもたらす18の音楽",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t13",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-13/",
+   "lang": "ja",
+   "date": "2024-02-29",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "Netflixとのストップモーションアニメ「ポケモンコンシェルジュ」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t14",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-14/",
+   "lang": "ja",
+   "date": "2024-03-29",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "大人の本気が子どもの夢になる「トヨタミライドンプロジェクト」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t15",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-15/",
+   "lang": "ja",
+   "date": "2024-04-30",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "AIによって、誰もが「バトル観戦」を楽しめる時代へ",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t16",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-16/",
+   "lang": "ja",
+   "date": "2024-05-10",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "伝統と革新が生み出した「ポケモン京菓子」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t17",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-17/",
+   "lang": "ja",
+   "date": "2024-05-22",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "被災地の子どもたちに届ける「ピカチュウかぶと」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t18",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-18/",
+   "lang": "ja",
+   "date": "2024-05-31",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "まっちゃポケモンを具現化した「喫茶チャデス」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t19",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-19/",
+   "lang": "ja",
+   "date": "2024-06-14",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "渋谷に“特別な場所”が誕生「POKÉMON CARD LOUNGE」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t20",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-20/",
+   "lang": "ja",
+   "date": "2024-07-03",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "「ポケモンフレンダ」からたどる、ゲーム筐体開発への想い",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t21",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-21/",
+   "lang": "ja",
+   "date": "2024-07-16",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "子どもたちの交通安全を願って　「黄色い“ピカチュウ”ワッペン」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t22",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-22/",
+   "lang": "ja",
+   "date": "2024-08-01",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "USJとポケモンが創る、ユニークなエンターテインメント",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t23",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-23/",
+   "lang": "ja",
+   "date": "2024-08-15",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ポケモンと鋳物の魅力を引き出す 「能作ポケモンコレクション」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t24",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-24/",
+   "lang": "ja",
+   "date": "2024-08-28",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "高校生に熱い夏の思い出を 「ポケモンユナイト甲子園」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t25",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-25/",
+   "lang": "ja",
+   "date": "2024-09-25",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "志摩スペイン村で楽しむ「パルデア地方」の世界",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t26",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-26/",
+   "lang": "ja",
+   "date": "2024-10-16",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "「ポケモンとの出会い」を世界へ インドネシア地域での挑戦",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t27",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-27/",
+   "lang": "ja",
+   "date": "2024-11-27",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "工芸がつくりだす、ポケモンの新しい姿",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t28",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-28/",
+   "lang": "ja",
+   "date": "2024-11-28",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "デジタルで広がる　ポケモンカードゲームの世界",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t30",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-30/",
+   "lang": "ja",
+   "date": "2024-12-27",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ポケモンの力で、インドに笑顔を",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t31",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-31/",
+   "lang": "ja",
+   "date": "2025-01-31",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "空の旅のはじまりに　ポケモンの機内安全ビデオ",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-01-31-corporate-topic-31-ana-in-flight-safety-video",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t33",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-33/",
+   "lang": "ja",
+   "date": "2025-03-14",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "中国一線都市を巡る　ポケモンカードゲーム大会「マスターズ」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t34",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-34/",
+   "lang": "ja",
+   "date": "2025-03-28",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "「ポケモンカフェ」がつくり出す、かけがえのない体験価値",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t35",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-35/",
+   "lang": "ja",
+   "date": "2025-04-18",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "楽しく過ごせる「居場所」づくりを　ポケモンのこども食堂応援活動",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t36",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-36/",
+   "lang": "ja",
+   "date": "2025-05-12",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "プレイヤーから支える立場へ ポケモンカードゲーム公式資格",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t37",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-37/",
+   "lang": "ja",
+   "date": "2025-06-02",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "医療現場で子どもたちに寄り添う　ポケモンの小児向けMRI検査説明用動画",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t38",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-38/",
+   "lang": "ja",
+   "date": "2025-06-13",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "地域の生活に溶け込むポケモンたち「ポケモン公園」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-06-13-corporate-topic-38-pokemon-parks-community-playground",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t40",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-40/",
+   "lang": "ja",
+   "date": "2025-07-25",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ソウル・チャムシルが「ポケモンタウン」に　韓国ロッテコラボ",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t41",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-41/",
+   "lang": "ja",
+   "date": "2025-08-12",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "行動生態学でポケモンの世界を紐解く『ポケモン生態図鑑』",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t42",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-42/",
+   "lang": "ja",
+   "date": "2025-08-20",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "台湾独自の主題歌を　視聴者とポケモンをつなぐアニメのローカライズ",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t44",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-44/",
+   "lang": "ja",
+   "date": "2025-11-07",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "思いを受け継ぎ20年　「ポケモンだいすきクラブ」の現在地",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t45",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-45/",
+   "lang": "ja",
+   "date": "2025-11-26",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "メタモンを、何に「へんしん」させる？",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t46",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-46/",
+   "lang": "ja",
+   "date": "2025-12-24",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ファンの心に響くものづくりを　ポケモンセンターオリジナルグッズ開発の想い",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t47",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-47/",
+   "lang": "ja",
+   "date": "2026-01-23",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ポケモンと宇宙の謎を解き明かす「ポケモン天文台」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t48",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-48/",
+   "lang": "ja",
+   "date": "2026-02-06",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "『ポケモンフレンズ』で頭をほぐす習慣を",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t50",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-50/",
+   "lang": "ja",
+   "date": "2026-02-24",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ポケモンがあなたの町へやってくる「ポケモンセンター出張所」",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t51",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-51/",
+   "lang": "ja",
+   "date": "2026-04-24",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "自然に親しむ最初の一歩 ボーイスカウト体験をポケモンと共に",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t52",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-52/",
+   "lang": "ja",
+   "date": "2026-05-20",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "コスメにポケモンの力を宿して",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration",
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "corp-t54",
+   "url": "https://corporate.pokemon.co.jp/topics/detail/t-54/",
+   "lang": "ja",
+   "date": "2026-09-01",
+   "outlet": "株式会社ポケモン コーポレートサイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "能登の伝承娯楽「ごいた」とポケモンの出会い",
+   "kind": "narrative",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "宝可梦公司",
+    "官方专题"
+   ],
+   "categories": [
+    "官方档案",
+    "专题报道"
+   ],
+   "slug": "2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival",
+   "fresh": true,
+   "max_images": 30
   }
  ]
 }

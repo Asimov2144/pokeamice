@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 27.2,
+ "image_tokens": 7374,
+ "completion_tokens": 348,
+ "finish": "stop",
+ "file": "p069_ranger_special_title",
+ "image_md5": "d024d70cdc46fcf65536ac4a49dff73b"
+}

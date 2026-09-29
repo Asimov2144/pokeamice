@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 38.2,
+ "image_tokens": 7202,
+ "completion_tokens": 1137,
+ "finish": "stop",
+ "file": "p080_oil_special",
+ "image_md5": "2bd5e1d915d9086ddd6c1ee1d28f8c53"
+}

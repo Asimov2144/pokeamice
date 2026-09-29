@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 28.1,
+ "image_tokens": 8802,
+ "completion_tokens": 628,
+ "finish": "stop",
+ "file": "p112_quiz_and_shimokitazawa_walk",
+ "image_md5": "88aee6b9a0866a40fcadc5912874dbd1"
+}

@@ -4507,17 +4507,258 @@
     {
      "slug": "ndream-2010-04-pokemon-bw-first-reveal",
      "title_ja": "『ポケットモンスター 完全新作』始動！！＆新ポケモン「ゾロア」「ゾロアーク」初公開",
-     "kind": "feature"
+     "kind": "feature",
+     "files": [
+      "p001_cover",
+      "p002_contents",
+      "p006_pokemon_bw_announce",
+      "p007_zorua_zoroark",
+      "p008_bw_mystery",
+      "p009_pokemon_history"
+     ],
+     "plate_only": [
+      "p001_cover",
+      "p002_contents"
+     ],
+     "people": [],
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "佐洛亚",
+      "佐洛亚克"
+     ]
     },
     {
      "slug": "ndream-2010-04-creatures-ranger-interview",
      "title_ja": "クリーチャーズ直撃取材！！ALL ABOUT Pokémon Ranger",
-     "kind": "interview"
+     "kind": "interview",
+     "files": [
+      "p069_ranger_special_title",
+      "p070_creatures_interview_p1",
+      "p071_creatures_interview_p2",
+      "p072_creatures_interview_p3",
+      "p073_creatures_interview_p4",
+      "p074_creatures_interview_p5",
+      "p075_creatures_interview_p6"
+     ],
+     "plate_only": [],
+     "people": [
+      "入江胜义",
+      "鸟居廉功",
+      "五十岚宽",
+      "渔康智"
+     ],
+     "works": [
+      "宝可梦巡护员 光之轨迹"
+     ],
+     "tags": [
+      "宝可梦巡护员",
+      "Creatures"
+     ],
+     "speaker_map": {
+      "入江": "入江胜义",
+      "鳥居": "鸟居廉功",
+      "鸟居": "鸟居廉功",
+      "五十嵐": "五十岚宽",
+      "五十岚": "五十岚宽",
+      "漁": "渔康智",
+      "渔": "渔康智"
+     }
     },
     {
      "slug": "ndream-2010-04-pokemon-ranger-retrospective",
      "title_ja": "『ポケモンレンジャー』全景通史回顾",
-     "kind": "retrospective"
+     "kind": "retrospective",
+     "files": [
+      "p076_ranger_highlight_01",
+      "p077_ranger_highlight_02",
+      "p078_batonage_highlight_01",
+      "p079_batonage_highlight_02",
+      "p080_oil_special",
+      "p081_geography_fiore_almia_oblivia",
+      "p082_capture_system_history",
+      "p083_ranger_evolution_history"
+     ],
+     "plate_only": [],
+     "people": [],
+     "works": [
+      "宝可梦巡护员"
+     ],
+     "tags": [
+      "宝可梦巡护员"
+     ]
+    }
+   ],
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "P.001 表紙（Nintendo DREAM 2010年4月号 通巻192号）",
+     "bytes": 752996
+    },
+    {
+     "file": "p002_contents",
+     "page": 2,
+     "desc": "P.002 目次 CONTENTS（ポケモンシリーズダブル特集 総力25ページ！！）",
+     "bytes": 972862
+    },
+    {
+     "file": "p006_pokemon_bw_announce",
+     "page": 6,
+     "desc": "P.006 『ポケットモンスター 完全新作』始動！「D・P」から4年の時を経て……",
+     "bytes": 719062
+    },
+    {
+     "file": "p007_zorua_zoroark",
+     "page": 7,
+     "desc": "P.007 2匹の新ポケモン「ゾロア」「ゾロアーク」衝撃初公開！",
+     "bytes": 661614
+    },
+    {
+     "file": "p008_bw_mystery",
+     "page": 8,
+     "desc": "P.008 ニンドリが迫る新ポケモンの謎！新特性「イリュージョン」と劇場版",
+     "bytes": 959785
+    },
+    {
+     "file": "p009_pokemon_history",
+     "page": 9,
+     "desc": "P.009 歴代『ポケットモンスター』シリーズの軌跡と完全新作の革新性",
+     "bytes": 932490
+    },
+    {
+     "file": "p010_ranger_signs_intro",
+     "page": 10,
+     "desc": "P.010 『ポケモンレンジャー 光の軌跡』オブリビア地方で紡がれる新たな冒険！",
+     "bytes": 817825
+    },
+    {
+     "file": "p011_ranger_sign_ukulele",
+     "page": 11,
+     "desc": "P.011 レンジャーサインとパートナー「ウクレレビチュー」",
+     "bytes": 866888
+    },
+    {
+     "file": "p012_capture_custom",
+     "page": 12,
+     "desc": "P.012 キャプチャの進化と「スタイラーカスタム」",
+     "bytes": 917554
+    },
+    {
+     "file": "p013_coop_mission",
+     "page": 13,
+     "desc": "P.013 過去の世界へタイムスリップ！「通信協力ミッション」",
+     "bytes": 972579
+    },
+    {
+     "file": "p014_legendary_mounts",
+     "page": 14,
+     "desc": "P.014 伝説のポケモンに乗って駆ける！ライコウ・エンテイ・スイクン",
+     "bytes": 995090
+    },
+    {
+     "file": "p015_special_missions",
+     "page": 15,
+     "desc": "P.015 早期購入者特典＆連動スペシャルミッション（デオキシス、マナフィ、ヒードラン、シェイミ）",
+     "bytes": 925852
+    },
+    {
+     "file": "p069_ranger_special_title",
+     "page": 69,
+     "desc": "P.069 クリーチャーズ直撃取材！！15ページ大特集企画扉「ALL ABOUT Pokémon Ranger」",
+     "bytes": 977300
+    },
+    {
+     "file": "p070_creatures_interview_p1",
+     "page": 70,
+     "desc": "P.070 クリーチャーズ開発陣直撃インタビュー Part 1：最新作『光の軌跡』とシリーズの軌跡",
+     "bytes": 911980
+    },
+    {
+     "file": "p071_creatures_interview_p2",
+     "page": 71,
+     "desc": "P.071 クリーチャーズ開発陣直撃インタビュー Part 2：初代からバトナージ、そして光の軌跡へ",
+     "bytes": 971268
+    },
+    {
+     "file": "p072_creatures_interview_p3",
+     "page": 72,
+     "desc": "P.072 クリーチャーズ開発陣直撃インタビュー Part 3：クリーチャーズらしさが生んだ世界観と悪役たち",
+     "bytes": 988950
+    },
+    {
+     "file": "p073_creatures_interview_p4",
+     "page": 73,
+     "desc": "P.073 クリーチャーズ開発陣直撃インタビュー Part 4：ウクレレビチュー誕生秘話とレンジャーサイン",
+     "bytes": 1003472
+    },
+    {
+     "file": "p074_creatures_interview_p5",
+     "page": 74,
+     "desc": "P.074 クリーチャーズ開発陣直撃インタビュー Part 5：大きく変わったポケアシストと通信協力ミッション",
+     "bytes": 1056057
+    },
+    {
+     "file": "p075_creatures_interview_p6",
+     "page": 75,
+     "desc": "P.075 クリーチャーズ開発陣直撃インタビュー Part 6：通信だけの新要素と4人からのメッセージ",
+     "bytes": 998806
+    },
+    {
+     "file": "p076_ranger_highlight_01",
+     "page": 76,
+     "desc": "P.076 シリーズ作品ハイライト Part 1：初代『ポケモンレンジャー』（フィオレ地方・ゴーゴー団）",
+     "bytes": 1047984
+    },
+    {
+     "file": "p077_ranger_highlight_02",
+     "page": 77,
+     "desc": "P.077 初代『ポケモンレンジャー』ストーリー＆名場面",
+     "bytes": 1082948
+    },
+    {
+     "file": "p078_batonage_highlight_01",
+     "page": 78,
+     "desc": "P.078 シリーズ作品ハイライト Part 2：『ポケモンレンジャー バトナージ』（アルミア地方・ヤミヤミ団）",
+     "bytes": 1076766
+    },
+    {
+     "file": "p079_batonage_highlight_02",
+     "page": 79,
+     "desc": "P.079 『バトナージ』レンジャースクールと仲間たち",
+     "bytes": 1111025
+    },
+    {
+     "file": "p080_oil_special",
+     "page": 80,
+     "desc": "P.080 『バトナージ』迷キャラクター「オイル」誕生秘話＆名場面集",
+     "bytes": 1097500
+    },
+    {
+     "file": "p081_geography_fiore_almia_oblivia",
+     "page": 81,
+     "desc": "P.081 舞台の地理と進化の歴史 Part 1：フィオレ地方・アルミア地方・オブリビア地方の全景と位置関係",
+     "bytes": 1065318
+    },
+    {
+     "file": "p082_capture_system_history",
+     "page": 82,
+     "desc": "P.082 進化の歴史 Part 2：キャプチャスタイラーとキャプチャシステムの変遷",
+     "bytes": 1088969
+    },
+    {
+     "file": "p083_ranger_evolution_history",
+     "page": 83,
+     "desc": "P.083 進化の歴史 Part 3：ポケアシスト、ターゲットクリア、通信協力の進化",
+     "bytes": 1074620
+    },
+    {
+     "file": "p084_back_cover",
+     "page": 84,
+     "desc": "P.084 表4 少年鬼忍伝 ツムジ 広告（裏表紙）",
+     "bytes": 959919
     }
    ]
   },
@@ -5652,6 +5893,390 @@
       "p005_leaf5"
      ],
      "ia_item": "nindori235_201311_supp_xyinterview"
+    }
+   ]
+  },
+  {
+   "slug": "continue-vol32",
+   "publication": "CONTINUE",
+   "publication_zh": "CONTINUE",
+   "issue": "Vol.32（2007年2月）",
+   "date": "2007-02-24",
+   "publisher": "太田出版",
+   "dir": "Continue Vol.32_prepared",
+   "pages": [
+    {
+     "file": "p016_cover",
+     "page": 16,
+     "desc": "表紙: 『CONTINUE』Vol.32 (若杉公徳 DMC特別編 / 田尻智×中川翔子 特別対談予告)",
+     "bytes": 621149
+    },
+    {
+     "file": "p100_tajiri_shokotan_title",
+     "page": 100,
+     "desc": "特輯扉頁: スペシャル対談 田尻智×中川翔子 (下北沢の地で出会ったふたりの大写景)",
+     "bytes": 534184
+    },
+    {
+     "file": "p101_dialogue_p01",
+     "page": 101,
+     "desc": "対談第1幕: 興奮と歓喜の出会い「神様だ！」・名刺にホウオウ・聖なる灰の仕事",
+     "bytes": 266658
+    },
+    {
+     "file": "p102_dialogue_p02",
+     "page": 102,
+     "desc": "対談第2幕: ポケモンの聖地・下北沢の青春・ゲームセンターと『ゲームフリーク』同人誌創業期",
+     "bytes": 383653
+    },
+    {
+     "file": "p103_dialogue_p03",
+     "page": 103,
+     "desc": "対談第3幕: 『ポケットモンスター赤・緑』開発の原点・通信ケーブルのひらめきと交換の魔力",
+     "bytes": 402448
+    },
+    {
+     "file": "p104_photo_shimokitazawa_ds",
+     "page": 104,
+     "desc": "実景写真大頁: 下北沢の路上でNintendo DSを手にポケモンDPを通信プレイするふたり",
+     "bytes": 537959
+    },
+    {
+     "file": "p105_dialogue_p04",
+     "page": 105,
+     "desc": "対談第4幕: しょこたんの人生を変えたポケモン・学校のいじめを救ってくれた相棒フシギダネ",
+     "bytes": 396756
+    },
+    {
+     "file": "p106_dialogue_p05",
+     "page": 106,
+     "desc": "対談第5幕: どく・ゴーストタイプへの偏愛・ゲンガーの怪しげな魅力と深夜の通信対戦",
+     "bytes": 394494
+    },
+    {
+     "file": "p107_dialogue_p06",
+     "page": 107,
+     "desc": "対談第6幕: 『ダイヤモンド・パール』Wi-Fi世界対戦の衝撃・GTSの地球儀と地下通路の秘密基地",
+     "bytes": 373980
+    },
+    {
+     "file": "p108_dialogue_p07",
+     "page": 108,
+     "desc": "対談第7幕: ポケモンの命名哲学・カプセルモンスターからポケットモンスターへ",
+     "bytes": 382437
+    },
+    {
+     "file": "p109_dialogue_p08",
+     "page": 109,
+     "desc": "対談第8幕: 世代を超える対戦の進化・個体値・努力値と開発者が仕掛けた奥深い遊び",
+     "bytes": 381246
+    },
+    {
+     "file": "p110_dialogue_p09",
+     "page": 110,
+     "desc": "対談第9幕: 親子と世代を繋ぐコミュニケーション・大人になった子どもたちが戻ってくる世界",
+     "bytes": 405527
+    },
+    {
+     "file": "p111_dialogue_p10",
+     "page": 111,
+     "desc": "対談第10幕 & 結語: ふたりの約束・これからのポケモン・ゲームクリエイター田尻智のまなざし",
+     "bytes": 385451
+    },
+    {
+     "file": "p112_quiz_and_shimokitazawa_walk",
+     "page": 112,
+     "desc": "特別専欄1: しょこたんのポケモン超難問クイズ ＆ 下北沢聖地散歩ロケ密着写真",
+     "bytes": 390379
+    },
+    {
+     "file": "p113_gamefreak_chronicle_column",
+     "page": 113,
+     "desc": "特別連載: THE VIDEOGAME MAGAZINES CHRONICLE 第1回『ゲーメスト』(GAMEST)／鴫原盛之 著（アーケードゲーム誌の金字塔とゲーム雑誌群）",
+     "bytes": 719955
+    },
+    {
+     "file": "p032_back_cover",
+     "page": 32,
+     "desc": "表4 (裏表紙): セガ『BLEACH DS 2nd 黒衣ひらめく鎮魂歌』広告 ＆ 太田出版クレジット",
+     "bytes": 564802
+    }
+   ],
+   "features": [
+    {
+     "slug": "continue-vol32-tajiri-shokotan",
+     "title_ja": "スペシャル対談 田尻智×中川翔子",
+     "kind": "interview",
+     "files": [
+      "p016_cover",
+      "p100_tajiri_shokotan_title",
+      "p101_dialogue_p01",
+      "p102_dialogue_p02",
+      "p103_dialogue_p03",
+      "p104_photo_shimokitazawa_ds",
+      "p105_dialogue_p04",
+      "p106_dialogue_p05",
+      "p107_dialogue_p06",
+      "p108_dialogue_p07",
+      "p109_dialogue_p08",
+      "p110_dialogue_p09",
+      "p111_dialogue_p10",
+      "p112_quiz_and_shimokitazawa_walk",
+      "p113_gamefreak_chronicle_column",
+      "p032_back_cover"
+     ],
+     "plate_only": [
+      "p016_cover",
+      "p032_back_cover"
+     ],
+     "supplement": [
+      "p112_quiz_and_shimokitazawa_walk",
+      "p113_gamefreak_chronicle_column"
+     ],
+     "people": [
+      "田尻智",
+      "中川翔子"
+     ],
+     "works": [
+      "宝可梦 红·绿",
+      "宝可梦 钻石·珍珠"
+     ],
+     "tags": [
+      "CONTINUE",
+      "田尻智",
+      "中川翔子",
+      "下北泽"
+     ],
+     "speaker_map": {
+      "田尻": "田尻智",
+      "しょこたん": "中川翔子",
+      "中川": "中川翔子",
+      "翔子": "中川翔子",
+      "一同": "全体",
+      "全員": "全体"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "continue-vol23",
+   "publication": "CONTINUE",
+   "publication_zh": "CONTINUE",
+   "issue": "Vol.23（2005年8月号）",
+   "date": "2005-08-18",
+   "publisher": "太田出版",
+   "dir": "Continue Vol.23_prepared",
+   "pages": [
+    {
+     "file": "page000",
+     "page": 0,
+     "desc": "封面（白井ヴィンセント / 游戏怪兽新作特辑预告）",
+     "bytes": 572624
+    },
+    {
+     "file": "page001",
+     "page": 1,
+     "desc": "CNT EXPRESS 今なぜか「府省ゲーム」！名誉無職、永田町を行く",
+     "bytes": 588247
+    },
+    {
+     "file": "page002",
+     "page": 2,
+     "desc": "特辑导入特写：Game Freak 全员合力拼装 DOTS 点阵积木手部特写",
+     "bytes": 695412
+    },
+    {
+     "file": "page003",
+     "page": 3,
+     "desc": "GAMEFREAKS make the world（田尻智、杉森建特写）",
+     "bytes": 618781
+    },
+    {
+     "file": "page004",
+     "page": 4,
+     "desc": "GAMEFREAKS make the world（海野隆雄、江尾可奈子、增田顺一特写）",
+     "bytes": 654102
+    },
+    {
+     "file": "page005",
+     "page": 5,
+     "desc": "点阵艺术制作花絮摄影（主创专注拼豆与特写）",
+     "bytes": 604875
+    },
+    {
+     "file": "page006",
+     "page": 6,
+     "desc": "6位 Game Freak 主创作品展示与感言专栏",
+     "bytes": 648836
+    },
+    {
+     "file": "page007",
+     "page": 7,
+     "desc": "《The new world make of GAMEFREAK》主视觉点阵插画",
+     "bytes": 677309
+    },
+    {
+     "file": "page008",
+     "page": 8,
+     "desc": "《Drill Dozer》长篇深度专访第1页（杉森建 × 吉田宏信）",
+     "bytes": 449952
+    },
+    {
+     "file": "page009",
+     "page": 9,
+     "desc": "《Drill Dozer》长篇深度专访第2页（杉森建 × 吉田宏信）",
+     "bytes": 461423
+    },
+    {
+     "file": "page010",
+     "page": 10,
+     "desc": "特辑尾页（CNT JAPAN 专栏主图与目录）",
+     "bytes": 563194
+    },
+    {
+     "file": "page011",
+     "page": 11,
+     "desc": "封底广告（SUCCESS《东京巴士案内2》PS2 发售广告）",
+     "bytes": 498245
+    }
+   ],
+   "features": [
+    {
+     "slug": "continue-vol23-gamefreak-special",
+     "title_ja": "GAMEFREAKS make the world",
+     "kind": "feature",
+     "files": [
+      "page000",
+      "page002",
+      "page003",
+      "page004",
+      "page005",
+      "page006",
+      "page007"
+     ],
+     "plate_only": [
+      "page000"
+     ],
+     "people": [
+      "田尻智",
+      "杉森建",
+      "增田顺一",
+      "海野隆雄",
+      "江尾可奈子"
+     ],
+     "works": [
+      "宝可梦"
+     ],
+     "tags": [
+      "CONTINUE",
+      "Game Freak",
+      "点阵艺术"
+     ]
+    },
+    {
+     "slug": "continue-vol23-drill-dozer",
+     "title_ja": "スクリューブレイカー 轟振どりるれろ 開発者インタビュー",
+     "kind": "interview",
+     "files": [
+      "page008",
+      "page009",
+      "page010"
+     ],
+     "plate_only": [],
+     "people": [
+      "杉森建",
+      "吉田宏信"
+     ],
+     "works": [
+      "螺旋破碎机"
+     ],
+     "tags": [
+      "CONTINUE",
+      "Game Freak",
+      "杉森建"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "吉田": "吉田宏信"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "cgworld-2017-07",
+   "publication": "CGWORLD",
+   "publication_zh": "CGWORLD",
+   "issue": "2017年7月号（Vol.227）",
+   "date": "2017-06-10",
+   "publisher": "ボーンデジタル",
+   "dir": "CGWORLD 2017.07_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "CGWORLD 2017年7月号 Vol.227 表纸 Cover（SUNRISE D.I.D. Studio）",
+     "bytes": 741341
+    },
+    {
+     "file": "p002_contents",
+     "page": 2,
+     "desc": "目次 CONTENTS（P.009 連載 Game Graphics Studio 案内）",
+     "bytes": 438212
+    },
+    {
+     "file": "p003_creatures_p76",
+     "page": 3,
+     "desc": "Game Graphics Studio EXTRA：ABOUT CREATURES（P.076 宝可梦 3DCG 建模骨骼动画管线）",
+     "bytes": 654946
+    },
+    {
+     "file": "p004_creatures_p77",
+     "page": 4,
+     "desc": "Game Graphics Studio EXTRA：ABOUT CREATURES（P.077 团队招聘与三社协业体系）",
+     "bytes": 752394
+    },
+    {
+     "file": "p005_gamefreak_p78",
+     "page": 5,
+     "desc": "Game Graphics Studio EXTRA：ABOUT GAME FREAK（P.078 自研引擎与 GEAR Project）",
+     "bytes": 732805
+    },
+    {
+     "file": "p006_gamefreak_p79",
+     "page": 6,
+     "desc": "Game Graphics Studio EXTRA：ABOUT GAME FREAK（P.079 GIGA WRECKER 与宝可梦主线技术沉淀）",
+     "bytes": 815314
+    }
+   ],
+   "features": [
+    {
+     "slug": "cgworld-2017-07-game-graphics-studio-extra",
+     "title_ja": "Game Graphics Studio EXTRA：『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制",
+     "kind": "feature",
+     "files": [
+      "p001_cover",
+      "p002_contents",
+      "p003_creatures_p76",
+      "p004_creatures_p77",
+      "p005_gamefreak_p78",
+      "p006_gamefreak_p79"
+     ],
+     "plate_only": [
+      "p001_cover",
+      "p002_contents"
+     ],
+     "people": [
+      "海野隆雄"
+     ],
+     "works": [
+      "宝可梦 太阳·月亮"
+     ],
+     "tags": [
+      "CGWORLD",
+      "GAME FREAK",
+      "Creatures",
+      "3DCG"
+     ]
     }
    ]
   }

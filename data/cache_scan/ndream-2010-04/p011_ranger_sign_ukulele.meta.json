@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.9,
+ "image_tokens": 6889,
+ "completion_tokens": 1037,
+ "finish": "stop",
+ "file": "p011_ranger_sign_ukulele",
+ "image_md5": "b7126ebf26b6b204196797d3cf906b3a"
+}

@@ -1,0 +1,12 @@
+{
+ "width": 1495,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[98,382,189,443], [367,747,487,793]],
+ "regions": {
+  "p104-seg02": null
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 9.0, "image_tokens": 3010, "completion_tokens": 16, "finish": "stop", "scale": "px"},
+ "image": "/assets/images/scan-archive/continue-vol32-20260829/pages/p104_photo_shimokitazawa_ds.jpg",
+ "page_file": "p104_photo_shimokitazawa_ds"
+}

@@ -1,0 +1,13 @@
+{
+ "width": 1426,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1170,1904,1349,1937], [105,1978,151,2001], [212,1977,473,2001]],
+ "regions": {
+  "c23-h2": null,
+  "c23-p2-cap": {"boxes":[[1174,1907,1349,1935]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 9.6, "image_tokens": 2882, "completion_tokens": 47, "finish": "stop", "scale": "1000"},
+ "image": "/assets/images/scan-archive/continue-vol23/pages/page002.jpg",
+ "page_file": "page002"
+}

@@ -2698,6 +2698,24 @@
     "posts": 0,
     "share": 0
    }
+  },
+  {
+   "category": "作品",
+   "target": "宝可梦Frienda",
+   "terms": [
+    "ポケモンフレンダ",
+    "Pokémon Frienda"
+   ],
+   "note": "街机《ポケモンフレンダ》没有官方中文名，保留英文名；不要写成「宝可梦朋友」（那是《ポケモンフレンズ》）",
+   "variants": [
+    "宝可梦朋友",
+    "宝可梦明耀"
+   ],
+   "evidence": {
+    "rows": 0,
+    "posts": 0,
+    "share": 0
+   }
   }
  ],
  "review": [

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.9,
+ "image_tokens": 7106,
+ "completion_tokens": 854,
+ "finish": "stop",
+ "file": "p079_batonage_highlight_02",
+ "image_md5": "97bb819feed614e4d648a28253d05105"
+}

@@ -1,0 +1,13 @@
+{
+ "width": 1385,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1175,1833,1277,1923], [1242,1988,1292,2015]],
+ "regions": {
+  "c23-h5": null,
+  "c23-p5-cap": null
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 8.7, "image_tokens": 2754, "completion_tokens": 28, "finish": "stop", "scale": "px"},
+ "image": "/assets/images/scan-archive/continue-vol23/pages/page005.jpg",
+ "page_file": "page005"
+}

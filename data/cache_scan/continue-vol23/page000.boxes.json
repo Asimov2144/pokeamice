@@ -1,0 +1,13 @@
+{
+ "width": 1566,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[46,407,542,454], [46,508,447,575], [43,588,417,648], [40,675,230,768], [234,681,398,720], [235,726,445,761], [41,857,412,916], [701,1324,1005,1528], [845,1466,1105,1671], [26,1701,810,1836], [833,1719,1195,1770], [826,1777,1452,1833], [27,1853,1516,1937], [33,1951,1521,2018]],
+ "regions": {
+  "c23-h0": {"boxes":[[44,37,1538,379],[44,403,542,455]],"direction":"horizontal"},
+  "c23-p0-cap": null
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 11.1, "image_tokens": 3138, "completion_tokens": 63, "finish": "stop", "scale": "1000"},
+ "image": "/assets/images/scan-archive/continue-vol23/pages/page000.jpg",
+ "page_file": "page000"
+}

@@ -1,0 +1,14 @@
+{
+ "width": 1501,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[283,1460,1181,1531], [832,1582,1370,1653], [1346,1981,1396,2008]],
+ "regions": {
+  "c23-h3": null,
+  "c23-p3-tajiri": {"boxes":[[273,1456,1174,1520]],"direction":"horizontal"},
+  "c23-p3-sugimori": {"boxes":[[824,1579,1364,1640]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 12.8, "image_tokens": 3010, "completion_tokens": 123, "finish": "stop", "scale": "1000"},
+ "image": "/assets/images/scan-archive/continue-vol23/pages/page003.jpg",
+ "page_file": "page003"
+}
