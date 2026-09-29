@@ -48,12 +48,28 @@ DOC_KINDS = ("interview", "scan", "topic", "article")
 
 
 def git_files():
-    out = subprocess.run(["git", "-c", "core.quotepath=false", "ls-files", "-z", "_posts"], cwd=ROOT, capture_output=True).stdout
-    return [f for f in out.decode("utf-8").split("\0") if f.endswith(".md")]
+    """The posts of the last commit: what is on the site. A working copy another session is in the middle of editing is not read."""
+    out = subprocess.run(["git", "ls-tree", "-r", "--name-only", "-z", "HEAD", "--", "_posts"], cwd=ROOT, capture_output=True).stdout
+    return [f for f in out.decode("utf-8").split(chr(0)) if f.endswith(".md")]
+
+
+_BLOBS = {}
+
+
+def load_head(files):
+    proc = subprocess.Popen(["git", "cat-file", "--batch"], cwd=ROOT, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    for f in files:
+        proc.stdin.write((f"HEAD:{f}" + chr(10)).encode("utf-8"))
+        proc.stdin.flush()
+        size = int(proc.stdout.readline().split()[2])
+        _BLOBS[f] = proc.stdout.read(size).decode("utf-8", "replace")
+        proc.stdout.read(1)
+    proc.stdin.close()
+    proc.wait()
 
 
 def read_post(rel, full=False):
-    text = io.open(ROOT / rel, encoding="utf-8", errors="replace", newline="").read()
+    text = _BLOBS[rel]
     text = text.replace("\r\r\n", "\n").replace("\r\n", "\n")
     m = re.match(r"﻿?---\n(.*?)\n---\n", text, re.S)
     if not m:
@@ -118,7 +134,9 @@ def main():
     covers = yaml.load(io.open(ROOT / "_data" / "covers.yml", encoding="utf-8").read(), Loader=L) or {}
 
     posts = []
-    for rel in git_files():
+    files = git_files()
+    load_head(files)
+    for rel in files:
         fm = read_post(rel)
         if fm is None or fm.get("date") is None or fm.get("search") is False and fm.get("archive_type") not in STREAMS:
             continue
