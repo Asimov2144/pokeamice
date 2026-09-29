@@ -1042,45 +1042,6 @@
     title: 编辑的才能是做普通人
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-hobonichi-2021-kubo/
     why: 久保雅一自述在《龙漫CORO-CORO》任职14年经历
-2000-07-01-interview-nintendo-power-134-gold-silver-mew:
-  facets:
-    people:
-    - name: Shigeki Morimoto
-      role: speaker
-      slug: morimoto-shigeki
-    - name: 森本茂树
-      role: mentioned
-      slug: morimoto-shigeki
-    places: []
-    pokemon:
-    - name: 梦幻
-      ndex: 151
-    works:
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦 金·银
-      slug: gold-silver
-  id: interview-nintendo-power-134-gold-silver-mew
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 森本茂树说自己在初代《宝可梦》开发结束前两周创造了梦幻
-  - anchor: 5
-    seg: 4
-    text: 后续 Iwata Asks 补充：调试功能移除后腾出的约300字节被用于加入梦幻
-  relations:
-  - id: interview-nintendopower-gold-silver-roundtable
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
-    url: /developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/
-    why: 同为Nintendo Power第134期金·银主创圆桌访谈
-  - id: interview-nom-gold-silver-gamefreak
-    kind: background
-    label: 为这篇提供背景
-    title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
-    url: /developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/
-    why: NOM金·银访谈详述城都舞台与梦幻塞入卡带
 2000-07-01-interview-nintendopower-gold-silver-roundtable:
   facets:
     people:
@@ -3155,71 +3116,6 @@
     title: 第4回
     url: /gamefreak-director/entry-004/
     why: 同为增田部长专栏，第4回在前
-2004-12-24-interview-game-center-cx-tajiri-man-who-created-pokemon:
-  facets:
-    people:
-    - name: 有野晋哉
-      role: speaker
-    - name: 田尻智
-      role: speaker
-      slug: tajiri-satoshi
-    - name: 宮本茂
-      role: mentioned
-      slug: miyamoto-shigeru
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 宫本茂
-      role: mentioned
-      slug: miyamoto-shigeru
-    places:
-    - name: 秋叶原
-      what: 小报代销与淘零件处
-      world: real
-    - name: 东京都町田市
-      what: 童年抓虫的地方
-      world: real
-    pokemon: []
-    works:
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: Quinty
-      slug: null
-    - name: Pulseman
-      slug: null
-    - name: Game Freak
-      slug: null
-    - name: Quinty（孟德尔宫殿）
-      slug: null
-    - name: 俄罗斯方块
-      slug: null
-  id: interview-game-center-cx-tajiri-man-who-created-pokemon
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 1983年读高中时自制油印小报《Game Freak》，在复印机前印、订书机装订、秋叶原小店代销
-  - anchor: 5
-    seg: 4
-    text: 买不起任天堂数十万日元的开发机，拆红白机逆向分析，在秋叶原淘二手IC与EPROM烧录器，手工焊出开发机
-  relations:
-  - id: interview-niconico-gamefreak-origins-masuda
-    kind: background
-    label: 为这篇提供背景
-    title: NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学
-    url: //interview-niconico-gamefreak-origins-masuda/
-    why: 同为增田谈拆FC自制开发机做《旋转方块》
-  - id: scan-ndream-2008-10-tajiri-famicom-25th
-    kind: background
-    label: 为这篇提供背景
-    title: 田尻智与任天堂的25年
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-10-tajiri-famicom-25th/
-    why: 同为田尻智谈同人志《GAME FREAK》油印代销
 2004-12-27-gamefreak-director-029:
   facets:
     people:
@@ -13776,52 +13672,6 @@
     text: 玉田是GAME FREAK的程序员
   - seg: 3
     text: 玉田今年负责程序员新人培训
-2009-05-01-interview-nintendo-power-241-platinum-masuda-kawachimaru:
-  facets:
-    people:
-    - name: Junichi Masuda
-      role: speaker
-      slug: masuda-junichi
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 河内丸武史
-      role: mentioned
-      slug: kawachimaru-takeshi
-    places: []
-    pokemon:
-    - name: 帝牙卢卡
-      ndex: 483
-    - name: 帕路奇亚
-      ndex: 484
-    - name: 骑拉帝纳
-      ndex: 487
-    works:
-    - name: 宝可梦 白金
-      slug: platinum
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-  id: interview-nintendo-power-241-platinum-masuda-kawachimaru
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 增田在《钻石·珍珠》开发时已将骑拉帝纳与时间、空间悖论中的反世界联系起来
-  - anchor: 4
-    seg: 3
-    text: 河内丸说自己是在《白金》开发开始后才听增田说明这套概念
-  relations:
-  - id: interview-nintendo-power-masuda-gens-1-4
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/
-    why: 同为Nintendo Power《白金》专访，受访者相同
-  - id: gamefreak-director-135
-    kind: background
-    label: 为这篇提供背景
-    title: 第135回
-    url: /gamefreak-director/entry-135/
-    why: 增田提到接受NINTENDO POWER采访，即本篇
 2009-05-08-gamefreak-staff-125:
   facets:
     people:
@@ -16100,75 +15950,6 @@
     title: 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/
     why: 森本谈《金·银》开发难产，本篇为重制访谈
-2009-09-18-interview-dengeki-morimoto-hgss-walking-pokemon:
-  facets:
-    people:
-    - name: 電撃オンライン
-      role: speaker
-    - name: 森本茂樹
-      role: speaker
-      slug: morimoto-shigeki
-    - name: 阿蜜
-      role: mentioned
-    - name: 米那君
-      role: mentioned
-    places:
-    - name: 浅黄
-      what: 道馆所在地
-      world: game
-    - name: 城都
-      what: 游戏地区
-      world: game
-    - name: 关东
-      what: 游戏地区
-      world: game
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 未知图腾
-      ndex: 201
-    - name: 晃晃斑
-      ndex: 327
-    - name: 水君
-      ndex: 245
-    works:
-    - name: 宝可梦 心金·魂银
-      slug: heartgold-soulsilver
-    - name: 金·银
-      slug: null
-    - name: 钻石·珍珠
-      slug: null
-    - name: 水晶版
-      slug: null
-    - name: 口袋皮卡丘
-      slug: null
-  id: interview-dengeki-morimoto-hgss-walking-pokemon
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 森本茂樹说《钻石·珍珠》时期团队内部已有重制构想
-  - anchor: 7
-    seg: 6
-    text: 为全部493只宝可梦绘制地图行走像素图
-  relations:
-  - id: interview-iwata-asks-hgss-chapter-4-pokewalker-493-following
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/
-    why: 同为2009-09-18电击对森本茂树的专访
-  - id: interview-dengeki-hgss-shigeki-morimoto
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛
-    url: /developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/
-    why: 同为电击编辑部对森本茂树谈心金魂银
-  - id: scan-ndream-2009-11-hgss-developer-interview
-    kind: background
-    label: 为这篇提供背景
-    title: 心金·魂银开发访谈
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/
-    why: 同谈心金魂银重制经过与计步器
 2009-09-21-scan-ndream-2009-11-hgss-developer-interview:
   facets:
     people:
@@ -19836,55 +19617,6 @@
     title: 心金·魂银开发访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/
     why: 同组主创谈金银重制经过与计步器
-2010-03-31-interview-pokemon-com-hgss-six-gamefreak-masters:
-  facets:
-    people:
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 森本茂樹
-      role: mentioned
-      slug: morimoto-shigeki
-    - name: 大森滋
-      role: mentioned
-      slug: ohmori-shigeru
-    - name: 松島賢二
-      role: mentioned
-      slug: matsushima-kenji
-    - name: 森昭人
-      role: mentioned
-      slug: sen-zhang-ren
-    - name: 海野隆雄
-      role: mentioned
-      slug: unno-takao
-    places: []
-    pokemon: []
-    works:
-    - name: 宝可梦 心金·魂银
-      slug: heartgold-soulsilver
-    - name: 宝可梦 金／银
-      slug: null
-  id: interview-pokemon-com-hgss-six-gamefreak-masters
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 增田顺一称十年前做原版金银时脑中还没有互联网概念
-  - anchor: 5
-    seg: 4
-    text: 大森滋说初代金银上市时他还是学生，通宵沉迷地玩
-  relations:
-  - id: interview-pokemon-com-hgss-masuda-morimoto
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 走入幕后对话 GAME FREAK 的宝可梦大师：《心金／魂银》十周年重塑·六位核心主创深度圆桌访谈
-    url: //interview-pokemon-com-hgss-masuda-morimoto/
-    why: 同为2010-03-31 Pokemon.com 六人圆桌访谈
-  - id: interview-gameinformer-masuda-morimoto-hgss
-    kind: background
-    label: 为这篇提供背景
-    title: Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-morimoto-hgss/
-    why: 同为心金魂银开发团队访谈，可作背景
 2010-03-31-interview-takeshi-shudo-pokemon-memoir-ch218:
   facets:
     people:
@@ -25362,47 +25094,6 @@
     title: 宝可梦 黑·白 改变与不变
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-dengeki-games-vol14-bw-gamefreak-interview/
     why: 同提结局前只出现新宝可梦的目标
-2011-03-01-interview-nintendo-power-265-masuda-sugimori-bw-dexit:
-  facets:
-    people:
-    - name: Junichi Masuda
-      role: speaker
-      slug: masuda-junichi
-    - name: Ken Sugimori
-      role: speaker
-      slug: sugimori-ken
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    places: []
-    pokemon: []
-    works:
-    - name: 宝可梦 黑·白
-      slug: black-white
-  id: interview-nintendo-power-265-masuda-sugimori-bw-dexit
-  observations:
-  - anchor: 6
-    seg: 5
-    text: 杉森建说团队设计的宝可梦数量约为游戏最终采用量的三倍
-  - anchor: 7
-    seg: 6
-    text: 400至500份是 Dr. Lava 根据156只合众新增宝可梦作出的估算，不是杉森给出的确数
-  relations:
-  - id: interview-eurogamer-masuda-sugimori-black-white-brains
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/
-    why: 同为2011-03-01黑·白海外发售期增田与杉森专访
-  - id: interview-nintendo-power-bw-masuda-sugimori
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-bw-masuda-sugimori/
-    why: 同为Nintendo Power第265期增田与杉森专访
 2011-03-01-interview-nintendo-power-bw-masuda-sugimori:
   facets:
     people:
@@ -30109,67 +29800,6 @@
     title: 第231回
     url: /gamefreak-director/entry-231/
     why: 同系列第231回，续谈节奏猎人
-2012-09-17-interview-game-informer-masuda-b2w2-numbered-sequel:
-  facets:
-    people:
-    - name: Junichi Masuda
-      role: speaker
-      slug: masuda-junichi
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    places:
-    - name: 合众地方
-      what: 《黑·白》的舞台
-      world: game
-    pokemon: []
-    works:
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 黑2·白2
-      slug: black2-white2
-    - name: 宝可梦 灰
-      slug: null
-    - name: 黑2
-      slug: null
-    - name: 白2
-      slug: null
-  id: interview-game-informer-masuda-b2w2-numbered-sequel
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 增田顺一称团队在《黑·白》完工阶段讨论两年后人们与宝可梦的命运
-  - anchor: 4
-    seg: 3
-    text: 增田顺一称本作哲学基石是真实与理想的二元论
-  relations:
-  - id: interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later
-    kind: background
-    label: 为这篇提供背景
-    title: 社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/
-    why: 同谈为何不做《灰》而做编号续作
-  - id: interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures
-    kind: background
-    label: 为这篇提供背景
-    title: 社长问《宝可梦 黑2·白2》第4章：为什么在3DS已上市时坚守NDS硬件（桧扇市全新开局、宝可梦本质与三神器联动）
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures/
-    why: 同谈3DS已上市仍坚守NDS平台
-  - id: interview-gi-2012-b2w2-sequel
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 增田顺一谈首款编号续作
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2012-b2w2-sequel/
-    why: 同为2012-09-17 Game Informer专访增田
-  - id: interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy
-    kind: background
-    label: 为这篇提供背景
-    title: 社长问《宝可梦 黑2·白2》第3章：双版本同时发售的双钥匙联动机制与宝可梦好莱坞太空幻想
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy/
-    why: 同涉前作未实现的构想成为本作契机
 2012-09-17-interview-gi-2012-b2w2-sequel:
   facets:
     people:
@@ -34121,32 +33751,6 @@
     title: GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/
     why: 同栏目技术架构篇，R&D与程序员背景
-2015-11-03-interview-nikkei-masuda-documentary-video:
-  facets:
-    people:
-    - name: 日経取材班
-      role: speaker
-    - name: 増田順一
-      role: speaker
-      slug: masuda-junichi
-    places:
-    - name: 涩谷
-      what: 写字楼所在地
-      world: real
-    pokemon: []
-    works:
-    - name: 宝可梦 X·Y
-      slug: x-y
-    - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-      slug: oras
-  id: interview-nikkei-masuda-documentary-video
-  observations:
-  - anchor: 4
-    seg: 3
-    text: 增田顺一称一线内部恪守创业期的独立游戏匠人精神
-  - anchor: 8
-    seg: 7
-    text: 增田顺一作曲准则：孩子听一遍就能哼唱旋律
 2016-01-10-interview-pokemon-recruit-staff-furutani:
   facets:
     people:
@@ -43918,50 +43522,6 @@
   - anchor: 28
     seg: 27
     text: 印度尼西亚法律规定合同正文必须用印尼语制作
-2018-09-21-interview-rock-on-go-ichinose-sound-alchemy:
-  facets:
-    people:
-    - name: 田辺恵二
-      role: speaker
-    - name: 一之瀬剛
-      role: speaker
-      slug: ichinose-go
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    places:
-    - name: 丰缘
-      what: 红宝石·蓝宝石的舞台
-      world: game
-    pokemon: []
-    works:
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 宝可梦 红宝石·蓝宝石
-      slug: ruby-sapphire
-    - name: 宝可梦 剑·盾
-      slug: sword-shield
-  id: interview-rock-on-go-ichinose-sound-alchemy
-  observations:
-  - anchor: 3
-    seg: 2
-    text: Game Boy发声通道共4个：2矩形波、1三角波、1白噪声
-  - anchor: 4
-    seg: 3
-    text: 音效响起时硬件强制霸占某一旋律通道
-  relations:
-  - id: interview-2083-gamefreak-sound-team-red-green-to-oras
-    kind: background
-    label: 为这篇提供背景
-    title: 2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》
-    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/
-    why: 同为一之濑刚谈宝可梦声音制作，可补初代芯片音背景
-  - id: interview-gigazine-gamefreak-sketches-masuda
-    kind: background
-    label: 为这篇提供背景
-    title: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案
-    url: /developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/
-    why: 增田谈红绿汇编开发与波形、叫声音源细节
 2018-09-27-interview-polygon-2018-masuda-rb:
   facets:
     people:
@@ -44356,40 +43916,6 @@
     title: 宝可梦 Let's Go 开发者访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/
     why: 同谈Pokémon GO与Let's Go联动背景
-2019-02-15-interview-gamefreak-mew-secret-origin-video:
-  facets:
-    people:
-    - kind: staff
-      name: 斉藤優史
-      role: speaker
-      slug: saito-masafumi
-    - name: 増田順一
-      role: speaker
-      slug: masuda-junichi
-    - name: 大森滋
-      role: speaker
-      slug: ohmori-shigeru
-    - name: 森本茂樹
-      role: mentioned
-      slug: morimoto-shigeki
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    places: []
-    pokemon:
-    - name: 梦幻
-      ndex: 151
-    works:
-    - name: 宝可梦 红·绿
-      slug: red-green
-  id: interview-gamefreak-mew-secret-origin-video
-  observations:
-  - anchor: 4
-    seg: 3
-    text: 移除调试工具后，ROM空出约300字节空白
-  - anchor: 16
-    seg: 15
-    text: 抽选20名收到78,000张应征明信片
 2019-04-01-interview-gamefreak-recruit-pg-yi:
   facets:
     people:
@@ -44647,150 +44173,6 @@
     title: Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/
     why: Eurogamer再访增田回应全国图鉴删减风波
-2019-10-09-interview-game-informer-101-rapid-fire-questions:
-  facets:
-    people:
-    - name: 増田順一
-      role: speaker
-      slug: masuda-junichi
-    - name: 大森滋
-      role: speaker
-      slug: ohmori-shigeru
-    places: []
-    pokemon:
-    - name: 呆呆兽
-      ndex: 79
-    - name: 哭哭面具
-      ndex: 562
-    works:
-    - name: 宝可梦 剑·盾
-      slug: sword-shield
-    - name: 宝可梦 红·绿
-      slug: red-green
-  id: interview-game-informer-101-rapid-fire-questions
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 大木博士英文官方名塞缪尔，日文全名大木户幸成
-  - anchor: 5
-    seg: 4
-    text: 増田順一称人类日常普遍食用树果、蔬菜及植物性配料
-  relations:
-  - id: interview-gi-2019-burning
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 宝可梦主创的胡闹问答
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/
-    why: 同为Game Informer东京封面故事期间的问答
-  - id: interview-gi-2019-champion
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 大森滋与增田顺一谈《剑／盾》
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/
-    why: 同为Game Informer同期剑盾主创采访
-  - id: interview-polygon-2019-swsh
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 宝可梦剑盾开发访谈
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/
-    why: 同为2019-10-24剑盾主创采访
-2019-10-18-interview-game-informer-why-no-pokemon-mmo:
-  facets:
-    people:
-    - name: 増田順一
-      role: speaker
-      slug: masuda-junichi
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    places: []
-    pokemon:
-    - name: 喷火龙
-      ndex: 6
-    - name: 皮卡丘
-      ndex: 25
-    works:
-    - name: 宝可梦 剑·盾
-      slug: sword-shield
-    - name: 宝可梦 红·绿
-      slug: red-green
-  id: interview-game-informer-why-no-pokemon-mmo
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 増田順一称在欧美任何城市几乎都会被问MMO问题
-  - anchor: 4
-    seg: 3
-    text: 増田順一与田尻智在狭窄工位打磨最初的《红·绿》
-  relations:
-  - id: interview-game-informer-game-freak-origins-pre-pokemon
-    kind: background
-    label: 为这篇提供背景
-    title: Game Freak’s Origins And Its Pre-Pokémon Games
-    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/
-    why: 增田顺一与田尻智早期Game Freak经历背景
-  - id: interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori
-    kind: responds
-    label: 后来回应了这篇
-    title: Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新
-    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/
-    why: 同谈剑盾全国图鉴与增田顺一决策
-  - id: interview-gi-2019-dexit
-    kind: responds
-    label: 后来回应了这篇
-    title: 被削减的宝可梦将回归
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-dexit/
-    why: 增田顺一回应被削减宝可梦去向
-2019-10-18-interview-gamefreak-celebi-forest-shrine-video:
-  facets:
-    people:
-    - name: 大森滋
-      role: speaker
-      slug: ohmori-shigeru
-    - name: 増田順一
-      role: speaker
-      slug: masuda-junichi
-    places:
-    - name: 城都地方
-      what: 第二世代游戏舞台
-      world: game
-    - name: 桐树林
-      what: 祠堂所在森林
-      world: game
-    - name: 关西
-      what: 城都地方的原型
-      world: real
-    - name: 京都
-      what: 城都地方原型之一
-      world: real
-    - name: 奈良
-      what: 城都地方原型之一
-      world: real
-    pokemon:
-    - name: 时拉比
-      ndex: 251
-    - name: 梦幻
-      ndex: 151
-    works:
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 宝可梦 水晶版
-      slug: crystal
-  id: interview-gamefreak-celebi-forest-shrine-video
-  observations:
-  - anchor: 3
-    seg: 2
-    text: 城都地方以日本关西的京都、奈良等地为原型
-  - anchor: 4
-    seg: 3
-    text: 桐树林最深处坐落一座小巧古朴的木质小祠堂
-  relations:
-  - id: interview-gi-2017-gs-history
-    kind: background
-    label: 为这篇提供背景
-    title: 《宝可梦 金·银》开发史
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2017-gs-history/
-    why: 金·银以京都奈良为原型，与城都地方设定对上
 2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd:
   facets:
     people:
