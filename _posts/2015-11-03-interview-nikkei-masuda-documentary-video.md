@@ -20,7 +20,7 @@ tags:
 - 日经
 - BSテレ東
 - 增田顺一
-- GAME FREAK
+- Game Freak
 - 商业纪录片
 - 音乐创作
 - JA

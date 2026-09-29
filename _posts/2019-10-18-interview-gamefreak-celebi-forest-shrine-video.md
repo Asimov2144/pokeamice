@@ -17,7 +17,7 @@ categories:
 - 官方自制视频
 - 宝可梦主系列
 tags:
-- GAME FREAK
+- Game Freak
 - 增田顺一
 - 大森滋
 - 雪拉比

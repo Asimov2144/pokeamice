@@ -18,7 +18,7 @@ categories:
 - 底层工程与声音设计
 tags:
 - 一之濑刚
-- GAME FREAK
+- Game Freak
 - 音频工程
 - 编曲技术
 - Game Boy
