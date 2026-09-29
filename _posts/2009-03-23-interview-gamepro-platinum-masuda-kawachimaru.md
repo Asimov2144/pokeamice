@@ -54,6 +54,9 @@ parallel_items:
 - original: Pokemon Platinum is just around the corner for gamers in the U.S., and I'm already polishing up my Nintendo DS in anticipation of the new battles and Pokemon I'm going to see. Nintendo recently invited GamePro to their Bay Area headquarters to interview two of the men behind the development of Pokemon Platinum, just in time to increase my hunger for the release of this much-awaited remake edition in the record-breaking Pokemon Diamond & Pearl series. We chatted up Takeshi Kawachimaru, one of Game Freak's designers behind Pokemon Ruby and Pokemon Sapphire (as well as Pokemon Platinum's game director) and the famous video game composer Junichi Masuda, one of the original developers of Pokemon since Red and Blue/Green, who is also producing Pokemon Platinum.
   translation: 对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——Game Freak 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。
   note: 河内丸武史（Takeshi Kawachimaru）是 Game Freak 的设计师，后担任《宝可梦 白金》总监；增田顺一（Junichi Masuda）是 Game Freak 的作曲家与制作人，自初代起参与宝可梦开发。
+- type: image
+  image: /assets/img/interviews/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru/001.jpg
+  alt: 'Pokemon Platinum: Developer Interview!'
 - original: (Center, left to right) Junichi Masuda and Takeshi Kawachimaru, with representives of the Pokemon Company. We were unreasonably intimidated.
   translation: （中间，从左至右）增田顺一与河内丸武史，以及宝可梦公司的代表。我们感到了一种毫无道理的压迫感。
 - original: This is the first Pokemon game that's been named after a metal since Gold & Silver. Was there a special reason for calling this one "Platinum"?
@@ -92,6 +95,9 @@ parallel_items:
   role: question
   speaker: GamePro
   translation: 终于，我可以在击倒别人的宝可梦之后用嘴嘲讽他们了！这会很棒。（笑。）
+- type: image
+  image: /assets/img/interviews/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru/002.jpg
+  alt: 'Pokemon Platinum: Developer Interview!'
 - original: Charmander's clearly an office favorite over at Nintendo's Bay Area branch.
   role: question
   speaker: GamePro
