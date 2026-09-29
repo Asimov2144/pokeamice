@@ -6,6 +6,36 @@
 #   cover  可选，一张图（站内路径或完整 URL）
 #   label  可选，链接文字（默认「看看 →」）
 # 新功能上线、专题做完、一批校对完成，都往这里加一条，新的写在前面。
+- date: '2026-09-29'
+  title: 四十篇新访谈与杂志扫描入库
+  text: 从 1997 年的 Space World 到 2024 年的 Pokémon Center，Fami通、Nintendo DREAM、CoroCoro、Game Informer、日经和宝可梦官方的访谈三十篇，另有十篇杂志扫描。扫描帖都是逐页转写，篇首写明校对到哪一步；译文多数还是机器初译，等着人工过一遍。
+  url: /categories/访谈整理/
+  cover: https://gallery.pokeamice.com/scan-archive/ndream-2013-12-xy-character-design-interview/pages/p001_cover.jpg
+- date: '2026-09-29'
+  title: 二十八篇杂志扫描换成了逐页转写
+  text: Nintendo DREAM 2008–2014、电击 GAMES、初代与金银的攻略本等。旧版里有一批日文原文是写出来的，不是从页面上读出来的；现在每页整页转写、DeepSeek 初译，页图和译文对着看，篇首标明了还没有人工逐字校对的范围。CONTINUE Vol.31 也按印刷页脚重排了页序。
+  url: /杂志特辑/扫描存档/scan-ndream-2012-10-b2w2-pickup-secrets/
+  cover: https://gallery.pokeamice.com/scan-archive/ndream-2012-10-b2w2-pickup-secrets/pages/p001_cover.jpg
+  label: 翻一翻 →
+- date: '2026-09-29'
+  title: 员工博客《晴时偶有阴》补回了署名与分类
+  text: 对照 2007–2012 年的早期快照，把 209 篇的署名和分类补回来，修正了 2013 年换模板时留下的日文乱码；页头保留了三个时期的原版。
+  url: /gamefreak-staff/
+  cover: /assets/images/gamefreak-legacy/staff/shared/early/2010-staff01-wb.jpg
+- date: '2026-09-27'
+  title: 三篇 Nintendo Power 按原刊问答重修
+  text: 第 134、240、265 期三篇旧稿和刊物原文对不上（有编造的问答，第 240 期还标错了期号）。现在只把杂志上真正问过、答过的写成访谈，Dr. Lava 的解说另标为作者评论。同一轮还改正了日经石原访谈里一处主客体译反，收回了首藤刚志连载两章的无据扩写。
+  url: /开发者访谈/宝可梦主系列/实体杂志扫本专访/interview-nintendo-power-265-masuda-sugimori-bw-dexit/
+- date: '2026-09-25'
+  title: 每篇文章多了「本篇提到」
+  text: 文章里点名的宝可梦、作品、地点和人物，连同它们出现在哪一段、和别的文章有什么关系，列在文末；人名连到人物页，作品名连到制作名单。
+  url: /people/
+  label: 看人物页 →
+- date: '2026-09-22'
+  title: 每一页顶上有了路径导航
+  text: 首页、分类、年份、文章，一路能退回去；站里出现的人名和作品名，悬停一下就出小卡片，不用离开正在读的那一页。
+  url: /credits/
+  label: 试试悬停 →
 - date: '2026-09-19'
   title: 十三篇网页访谈补齐了后面的页
   text: 電撃 2009 森本茂树、WEDGE 2010 石原恒和（三篇十五页）、Eurogamer / SPOnG 2011、電撃 2012·2013、Nintendo Life 2013、4Gamer 2013 ソリティ馬、電ファミ 2018 GO 三巨头后篇，原来只收了第一页；社长问·极大之门三章原文换回页面原句。

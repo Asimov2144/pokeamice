@@ -1,10 +1,32 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
-- date: '2026-09-19'
-  count: 1
+- date: '2026-09-29'
+  count: 40
   types:
-    访谈翻译: 1
+    访谈翻译: 30
+    扫描翻译: 10
+  posts:
+  - 2024-01-15-interview-pokemon-center-overseas-taipei-singapore
+  - 2023-09-01-interview-pokemon-center-pop-up-store-project
+  - 2023-06-01-interview-pokemon-center-shibuya-store-manager
+  - 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
+  - 2019-10-18-interview-gamefreak-celebi-forest-shrine-video
+  - 2019-10-18-interview-game-informer-why-no-pokemon-mmo
+  - 2019-10-09-interview-game-informer-101-rapid-fire-questions
+  - 2019-02-15-interview-gamefreak-mew-secret-origin-video
+- date: '2026-09-19'
+  count: 14
+  types:
+    访谈翻译: 7
+    扫描翻译: 7
   posts:
   - 2013-05-29-interview-glitterberri-early-concept-art
+  - 2009-09-21-scan-ndream-2009-11-sugimori-charakami-special
+  - 2009-09-21-scan-ndream-2009-11-hgss-developer-interview
+  - 2008-10-21-scan-ndream-2008-12-platinum-battle-dojo
+  - 2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge
+  - 2008-10-21-scan-ndream-2008-12-game-freak-interview
+  - 2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th
+  - 2008-08-21-scan-ndream-2008-10-platinum-special
 - date: '2026-09-18'
   count: 13
   types:
