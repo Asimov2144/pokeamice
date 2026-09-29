@@ -13941,24 +13941,14 @@
 2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum:
   facets:
     people:
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
     - name: 河内丸武史
       role: speaker
       slug: kawachimaru-takeshi
-    - name: 増田順一
-      role: speaker
-      slug: masuda-junichi
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    places:
-    - name: 破损的世界
-      what: 骑拉帝纳所在世界
-      world: game
+    places: []
     pokemon:
-    - name: 帝牙卢卡
-      ndex: 483
-    - name: 帕路奇亚
-      ndex: 484
     - name: 骑拉帝纳
       ndex: 487
     works:
@@ -13970,13 +13960,12 @@
       slug: null
   id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
   observations:
-  - anchor: 3
-    seg: 2
-    text: 河内丸武史说骑拉帝纳代表与现实时空对立的“反物质”概念
-  - anchor: 3
-    seg: 2
-    text: 河内丸武史称在《白金》中创造了“破损的世界（Mundo Distorsión）”
-  relations:
+  - anchor: 2
+    seg: 1
+    text: 增田顺一称DP讲时间与空间，白金里骑拉帝纳带来与之相对的东西
+  - anchor: 4
+    seg: 3
+    text: 河内丸武史说白金开发花的时间和DP一样长
   - id: interview-g4tv-platinum-masuda-kawachimaru
     kind: same-occasion
     label: 同一件事的另一种说法
@@ -13989,39 +13978,65 @@
     title: 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/
     why: 同为白金发售前增田与河内专访
+  - id: interview-g4tv-masuda-kawachimaru-platinum-particle-physics
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: G4TV 深度专访 增田顺一 × 河内丸武史：“《宝可梦 白金》爱因斯坦相对论、反物质粒子物理学与破损世界的哲学”
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E7%BA%B8%E5%AA%92%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%93%E8%AE%BF/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
+    why: 同为G4TV采访增田与河内谈白金
 2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics:
   facets:
     people:
-    - name: G4TV
+    - name: G4
       role: speaker
-    - name: Junichi Masuda
-      role: speaker
-      slug: masuda-junichi
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
     - name: 河内丸武史
-      role: mentioned
+      role: speaker
       slug: kawachimaru-takeshi
-    - name: Takeshi Kawachimaru
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: Chris Taylor
+      role: mentioned
+    - name: Todd Hollenshead
+      role: mentioned
+    - name: 杉森建
+      role: mentioned
+      slug: sugimori-ken
+    - name: 小岛秀夫
+      role: mentioned
+    - name: 宫本
+      role: mentioned
+    - name: 岩田
       role: mentioned
     places:
-    - name: 神奥
-      what: 与破损世界相似相反
+    - name: 毁坏的世界
+      what: 白金中的世界
       world: game
-    - name: 破损世界
-      what: 反物质启发的异空间
+    - name: 金门大桥
+      what: 增田顺一着迷的桥
+      world: real
+    - name: 神奥地区
+      what: 钻石珍珠的舞台
       world: game
-    - name: 关东
-      what: 三鸟初遇之地
+    - name: 对战开拓区
+      what: 白金的对战设施
+      world: game
+    - name: 关都地区
+      what: 三圣鸟出没地
       world: game
     pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 百变怪
+      ndex: 132
     - name: 急冻鸟
       ndex: 144
     - name: 闪电鸟
       ndex: 145
     - name: 火焰鸟
       ndex: 146
+    - name: 晃晃斑
+      ndex: 327
     - name: 帝牙卢卡
       ndex: 483
     - name: 帕路奇亚
@@ -14030,26 +14045,37 @@
       ndex: 487
     - name: 阿尔宙斯
       ndex: 493
+    - name: 皮丘
+      ndex: 172
     works:
     - name: 宝可梦 白金
       slug: platinum
-    - name: 钻石·珍珠
+    - name: 宝可梦 钻石／珍珠
+      slug: null
+    - name: 怪物猎人
+      slug: null
+    - name: 合金装备
       slug: null
   id: interview-g4tv-masuda-kawachimaru-platinum-particle-physics
   observations:
-  - anchor: 3
-    seg: 2
-    text: 增田顺一给河内丸武史的核心设计支柱是物质、反物质与爱因斯坦相对论。
   - anchor: 4
     seg: 3
-    text: 河内丸武史称CP对称性破缺启发了破损世界的构筑。
-  relations:
+    text: 河内丸武史说为《白金》定下方向的人是他
+  - anchor: 5
+    seg: 4
+    text: 河内丸武史称 CP 破坏影响了毁坏的世界构思
   - id: interview-g4tv-platinum-masuda-kawachimaru
     kind: same-occasion
     label: 同一件事的另一种说法
     title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
     url: //interview-g4tv-platinum-masuda-kawachimaru/
     why: 同为2009年G4TV采访增田与河内谈《白金》
+  - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
+    kind: background
+    label: 为这篇提供背景
+    title: Nintendo Acción No.199 独家专访增田顺一 × 河内丸武史：“时空对极的反物质世界”——《宝可梦 白金》骑拉帝纳、破损世界的物理颠覆与跨代羁绊
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
+    why: 河内谈骑拉帝纳反物质与破损世界物理颠覆
 2009-05-18-gamefreak-staff-126:
   facets:
     people:
@@ -23181,37 +23207,39 @@
       slug: adachi-minako
     places:
     - name: 天堂之塔
-      what: 钟鸣之塔
+      what: 一之濑刚提及的塔
       world: game
     - name: 2号道路
-      what: 季节差分BGM道路
+      what: 佐藤仁美作曲的道路
       world: game
     - name: 12号道路
-      what: 季节差分BGM道路
+      what: 佐藤仁美作曲的道路
       world: game
     - name: 合众地区
-      what: 本作冒险舞台
+      what: 音乐表达对象
       world: game
     pokemon:
+    - name: 莱希拉姆
+      ndex: 643
     - name: 捷克罗姆
       ndex: 644
     works:
     - name: 宝可梦 黑·白
       slug: black-white
-    - name: 宝可梦 黑／白
+    - name: 宝可梦 黑白
       slug: null
-    - name: N之龙
+    - name: N的龙
       slug: null
-    - name: 龙之觉醒
+    - name: 龙的觉醒
       slug: null
   id: interview-bw-music-collection-liner-notes
   observations:
   - anchor: 2
     seg: 1
-    text: 增田顺一称开发结束时自己能量几乎枯竭
-  - anchor: 3
-    seg: 2
-    text: 增田顺一建议按顺位连续听合众各城镇BGM
+    text: 增田顺一称制作本作把想做的事全做了，能量枯竭
+  - anchor: 6
+    seg: 5
+    text: 景山将太首次担任音频负责人，作品为完全新作《宝可梦 黑白》
 2010-10-22-gamefreak-staff-204:
   facets:
     people:
@@ -23949,8 +23977,6 @@
       name: N
       role: mentioned
       slug: n
-    - name: 魁奇思
-      role: mentioned
     - name: 黑连
       role: mentioned
     - name: 白露
@@ -23960,18 +23986,16 @@
     works:
     - name: 宝可梦 黑·白
       slug: black-white
-    - name: 宝可梦 黑／白
-      slug: null
     - name: 宝可梦
       slug: null
   id: interview-famitsu-1146-matsumiya-bw-scenario
   observations:
   - anchor: 3
     seg: 2
-    text: 松宫称《宝可梦》系列自首作面世已过去整整14年
+    text: 松宫稔展说系列从第一部作品问世到现在已过14年
   - anchor: 5
     seg: 4
-    text: 增田顺一提出N的构想早于游戏主题定下
+    text: 关于N，是增田顺一先于主题提出的建议
 2010-12-03-gamefreak-staff-210:
   facets:
     people:
@@ -24686,26 +24710,21 @@
     - name: 增田顺一
       role: mentioned
       slug: masuda-junichi
-    places:
-    - name: 合众
-      what: 御三家所在地区
-      world: game
+    places: []
     pokemon:
     - name: 比克提尼
       ndex: 494
     works:
     - name: 宝可梦 黑·白
       slug: black-white
-    - name: 宝可梦 黑／白
-      slug: null
   id: interview-famitsu-1155-morimoto-taya-iwao-battle-secrets
   observations:
-  - anchor: 3
-    seg: 2
-    text: 森本称本作主题是提出新游玩维度并彻底调整战斗平衡
+  - anchor: 2
+    seg: 1
+    text: 森本茂树说双打中大爆炸与守住的博弈过多，因此削弱大爆炸威力
   - anchor: 5
     seg: 4
-    text: 增田顺一在开发起步阶段提出一定要做三打对战
+    text: 田谷正夫说轮转对战是为让初学者也能赢而引入运气要素的规则
 2011-01-20-interview-otonafamily-masuda-bw-adults:
   facets:
     people:
@@ -47339,10 +47358,10 @@
   observations:
   - anchor: 10
     seg: 9
-    text: 宝可梦中心线上商城于2016年正式上线运营
-  - anchor: 20
-    seg: 19
-    text: 上乡赖臣称不要求入职前掌握宝可梦全部设定
+    text: 宝可梦中心线上商城2016年开始提供服务
+  - anchor: 26
+    seg: 25
+    text: 上乡赖臣称能直接交到顾客手中的地方以日本为主
 2023-04-19-interview-cgworld-2023-sv-making-1:
   facets:
     people:
@@ -47571,11 +47590,18 @@
     - id: pc_shibuya
       name: 宝可梦中心涩谷
       world: real
-    - name: 涩谷
-      what: 宝可梦中心所在地
+    - id: pc_shibuya
+      name: 宝可梦中心 涩谷
+      what: S.O任店长的店铺
+      world: real
+    - name: 宝可梦中心MEGA TOKYO
+      what: S.O入职第一年分配到的店
+      world: real
+    - name: 宝可梦设计实验室
+      what: 可制作原创T恤的设施
       world: real
     - name: 池袋
-      what: 入职首年门店所在地
+      what: 宝可梦中心MEGA TOKYO所在地
       world: real
     pokemon:
     - name: 超梦
@@ -47587,16 +47613,14 @@
       slug: null
     - name: 超梦
       slug: null
-    - name: Pokémon Center MEGA TOKYO
-      slug: null
   id: interview-pokemon-center-shibuya-store-manager
   observations:
   - anchor: 4
     seg: 3
-    text: S.O在踏入职场第8年决定加入宝可梦中心
+    text: S.O在工作第8年决定加入宝可梦中心，此前在红茶专卖店工作
   - anchor: 7
     seg: 6
-    text: 入职第1年被分配到池袋的Pokémon Center MEGA TOKYO
+    text: 入职第一年被分配到池袋的宝可梦中心MEGA TOKYO，不久新冠开始流行
 2023-08-24-interview-denfami-2023-cedec-visual:
   facets:
     people:
@@ -47824,17 +47848,13 @@
       role: speaker
     places:
     - id: pc_tokyo_dx
-      name: 日本桥高岛屋
-      what: 宝可梦中心东京DX所在
-      world: real
-    - name: 日本桥高岛屋店
-      what: Pokémon Center TOKYO DX所在门店
+      name: 宝可梦中心东京DX
       world: real
     - name: 香川县
-      what: 有地域应援宝可梦的县
+      what: 有主推宝可梦的地区
       world: real
     - name: 岩手县
-      what: 有地域应援宝可梦的县
+      what: 有主推宝可梦的地区
       world: real
     pokemon:
     - name: 小拳石
@@ -47856,10 +47876,10 @@
   observations:
   - anchor: 4
     seg: 3
-    text: K.K说学生时代曾在宝可梦中心做过兼职打工
+    text: K.K求职时主要看娱乐企业，因学生时代在宝可梦中心打工而关注它
   - anchor: 8
     seg: 7
-    text: 入职第1年他在Pokémon Center TOKYO DX当现场店员，第2年调任总部电商部门
+    text: K.K入职第1年被分配到宝可梦中心东京DX，第2年调到电商网站运营部门
 2023-09-10-interview-pokemon-recruit-data:
   facets:
     people:
@@ -48151,20 +48171,20 @@
     - entity: pokemon_center_taipei
       name: 宝可梦中心台北
       world: real
-    - id: venue_725e7de19d
-      name: 宝可梦中心新加坡店
-      world: real
     - entity: pokemon_center_singapore
       name: 宝可梦中心新加坡
       world: real
-    - name: 星耀樟宜
-      what: 新加坡店所在地
+    - id: venue_725e7de19d
+      name: 宝可梦中心新加坡店
       world: real
     - name: 新加坡
-      what: 海外先驱门店所在国
+      what: 宝可梦中心所在地
       world: real
     - name: 台湾
-      what: 出店目标市场
+      what: 开店项目所在地
+      world: real
+    - name: 日本
+      what: 店铺开发参照地
       world: real
     pokemon:
     - name: 快龙
@@ -48180,12 +48200,12 @@
       slug: null
   id: interview-pokemon-center-overseas-taipei-singapore
   observations:
-  - anchor: 4
-    seg: 3
-    text: T.K称2021年年中参与台湾出店项目，随后设立台湾出店准备室
   - anchor: 34
     seg: 33
-    text: T.K称开业当天清晨5点半赶到门店，商场外已聚集约3000名粉丝
+    text: 开业当天早上5点半到店，已有约3000名顾客排队
+  - anchor: 23
+    seg: 22
+    text: 新员工培训约3周，含远程和店铺培训
 2024-02-15-interview-pokemon-recruit-designer:
   facets:
     people:

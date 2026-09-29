@@ -2,7 +2,7 @@
  "id": "interview-pokemon-center-overseas-taipei-singapore",
  "stem": "2024-01-15-interview-pokemon-center-overseas-taipei-singapore",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -17,8 +17,7 @@
      18
     ],
     "as": [
-     "快龙",
-     "Dragonite"
+     "快龙"
     ],
     "via": "tag"
    }
@@ -40,7 +39,6 @@
     "name": "Pokémon Center TAIPEI",
     "slug": null,
     "seg": [
-     2,
      34
     ],
     "via": "entities"
@@ -48,9 +46,7 @@
    {
     "name": "Pokémon Center SINGAPORE",
     "slug": null,
-    "seg": [
-     36
-    ],
+    "seg": [],
     "via": "entities"
    }
   ],
@@ -141,21 +137,8 @@
      7,
      18,
      19,
+     22,
      34
-    ],
-    "via": "gazetteer"
-   },
-   {
-    "name": "宝可梦中心新加坡店",
-    "id": "venue_725e7de19d",
-    "entity": null,
-    "category": "venue",
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     36,
-     41,
-     47
     ],
     "via": "gazetteer"
    },
@@ -167,23 +150,26 @@
     "world": "real",
     "scale": "spot",
     "seg": [
+     35,
+     36,
      37,
+     40,
      43
     ],
     "via": "gazetteer"
    },
    {
-    "name": "星耀樟宜",
-    "id": null,
+    "name": "宝可梦中心新加坡店",
+    "id": "venue_725e7de19d",
     "entity": null,
-    "category": null,
+    "category": "venue",
     "world": "real",
     "scale": "spot",
     "seg": [
-     37
+     41,
+     47
     ],
-    "what": "新加坡店所在地",
-    "via": "llm"
+    "via": "gazetteer"
    },
    {
     "name": "新加坡",
@@ -193,9 +179,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     37
+     33
     ],
-    "what": "海外先驱门店所在国",
+    "what": "宝可梦中心所在地",
     "via": "llm"
    },
    {
@@ -208,220 +194,41 @@
     "seg": [
      3
     ],
-    "what": "出店目标市场",
+    "what": "开店项目所在地",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     4
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
    },
    {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     5,
-     22,
-     25
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     5,
-     22
-    ],
-    "as": [
-     "招聘",
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     6,
-     44,
-     50
-    ],
-    "as": [
-     "家庭",
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     12,
-     42
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     14
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
+    "name": "日本",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
     "seg": [
      16
     ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     18
-    ],
-    "as": [
-     "内存"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     18
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     18,
-     22
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     29
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     40
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     40
-    ],
-    "as": [
-     "升级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     40
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     64
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
+    "what": "店铺开发参照地",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "T.K称2021年年中参与台湾出店项目，随后设立台湾出店准备室",
-   "anchor": 4
+   "seg": 33,
+   "text": "开业当天早上5点半到店，已有约3000名顾客排队",
+   "anchor": 34
   },
   {
-   "seg": 33,
-   "text": "T.K称开业当天清晨5点半赶到门店，商场外已聚集约3000名粉丝",
-   "anchor": 34
+   "seg": 22,
+   "text": "新员工培训约3周，含远程和店铺培训",
+   "anchor": 23
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

@@ -2,19 +2,41 @@
  "id": "interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
  "stem": "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 10
+  "n": 32
  },
  "facets": {
   "pokemon": [
    {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     16
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     19
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
     "name": "急冻鸟",
     "ndex": 144,
     "seg": [
-     8
+     9
     ],
     "as": [
      "急冻鸟"
@@ -25,7 +47,7 @@
     "name": "闪电鸟",
     "ndex": 145,
     "seg": [
-     8
+     9
     ],
     "as": [
      "闪电鸟"
@@ -36,7 +58,7 @@
     "name": "火焰鸟",
     "ndex": 146,
     "seg": [
-     8
+     9
     ],
     "as": [
      "火焰鸟"
@@ -44,10 +66,21 @@
     "via": "body"
    },
    {
+    "name": "晃晃斑",
+    "ndex": 327,
+    "seg": [
+     18
+    ],
+    "as": [
+     "晃晃斑"
+    ],
+    "via": "body"
+   },
+   {
     "name": "帝牙卢卡",
     "ndex": 483,
     "seg": [
-     9
+     10
     ],
     "as": [
      "帝牙卢卡"
@@ -58,7 +91,7 @@
     "name": "帕路奇亚",
     "ndex": 484,
     "seg": [
-     9
+     10
     ],
     "as": [
      "帕路奇亚"
@@ -69,29 +102,36 @@
     "name": "骑拉帝纳",
     "ndex": 487,
     "seg": [
-     2,
-     8,
-     9
+     3,
+     9,
+     10
     ],
     "as": [
-     "骑拉帝纳",
-     "Giratina"
+     "骑拉帝纳"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "阿尔宙斯",
     "ndex": 493,
     "seg": [
-     7,
-     8,
      9
     ],
     "as": [
-     "阿尔宙斯",
-     "Arceus"
+     "阿尔宙斯"
     ],
     "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     15
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
    }
   ],
   "works": [
@@ -99,136 +139,210 @@
     "name": "宝可梦 白金",
     "slug": "platinum",
     "seg": [
-     1
+     1,
+     2,
+     4,
+     26
     ],
     "via": "entities"
    },
    {
-    "name": "钻石·珍珠",
+    "name": "宝可梦 钻石／珍珠",
     "slug": null,
     "seg": [
-     9
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "怪物猎人",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "合金装备",
+    "slug": null,
+    "seg": [
+     19
     ],
     "via": "llm"
    }
   ],
   "people": [
    {
-    "name": "G4TV",
+    "name": "G4",
     "slug": null,
     "role": "speaker",
     "seg": [
-     1,
+     2,
      5,
-     8
+     7,
+     9,
+     11,
+     13
     ]
-   },
-   {
-    "name": "Junichi Masuda",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     9
-    ]
-   },
-   {
-    "name": "増田順一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
    },
    {
     "name": "河内丸武史",
     "slug": "kawachimaru-takeshi",
-    "role": "mentioned",
-    "seg": []
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     6,
+     8,
+     26
+    ]
    },
    {
-    "name": "Takeshi Kawachimaru",
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     10,
+     12,
+     14,
+     16,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "Chris Taylor",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     2
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Todd Hollenshead",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小岛秀夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
     ],
     "via": "llm"
    }
   ],
   "places": [
    {
-    "name": "神奥",
+    "name": "毁坏的世界",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "spot",
     "seg": [
-     6
+     4
     ],
-    "what": "与破损世界相似相反",
+    "what": "白金中的世界",
     "via": "llm"
    },
    {
-    "name": "破损世界",
+    "name": "金门大桥",
     "id": null,
     "entity": null,
     "category": null,
-    "world": "game",
+    "world": "real",
     "scale": "spot",
     "seg": [
-     3
+     27
     ],
-    "what": "反物质启发的异空间",
+    "what": "增田顺一着迷的桥",
     "via": "llm"
    },
    {
-    "name": "关东",
+    "name": "神奥地区",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "area",
     "seg": [
-     8
-    ],
-    "what": "三鸟初遇之地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
      6
     ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
+    "what": "钻石珍珠的舞台",
+    "via": "llm"
    },
    {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "第四世代"
+    "name": "对战开拓区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     7
     ],
-    "via": "tag"
+    "what": "白金的对战设施",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     9
+    ],
+    "what": "三圣鸟出没地",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "增田顺一给河内丸武史的核心设计支柱是物质、反物质与爱因斯坦相对论。",
-   "anchor": 3
+   "seg": 3,
+   "text": "河内丸武史说为《白金》定下方向的人是他",
+   "anchor": 4
   },
   {
-   "seg": 3,
-   "text": "河内丸武史称CP对称性破缺启发了破损世界的构筑。",
-   "anchor": 4
+   "seg": 4,
+   "text": "河内丸武史称 CP 破坏影响了毁坏的世界构思",
+   "anchor": 5
   }
  ],
  "relations": [
@@ -252,9 +366,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

@@ -2,7 +2,7 @@
  "id": "interview-bw-music-collection-liner-notes",
  "stem": "2010-10-20-interview-bw-music-collection-liner-notes",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -11,10 +11,21 @@
  "facets": {
   "pokemon": [
    {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     6
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
     "name": "捷克罗姆",
     "ndex": 644,
     "seg": [
-     13
+     6
     ],
     "as": [
      "捷克罗姆"
@@ -30,15 +41,15 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 黑／白",
+    "name": "宝可梦 黑白",
     "slug": null,
     "seg": [
-     1
+     5
     ],
     "via": "llm"
    },
    {
-    "name": "N之龙",
+    "name": "N的龙",
     "slug": null,
     "seg": [
      6
@@ -46,7 +57,7 @@
     "via": "llm"
    },
    {
-    "name": "龙之觉醒",
+    "name": "龙的觉醒",
     "slug": null,
     "seg": [
      6
@@ -111,7 +122,7 @@
     "seg": [
      9
     ],
-    "what": "钟鸣之塔",
+    "what": "一之濑刚提及的塔",
     "via": "llm"
    },
    {
@@ -124,7 +135,7 @@
     "seg": [
      11
     ],
-    "what": "季节差分BGM道路",
+    "what": "佐藤仁美作曲的道路",
     "via": "llm"
    },
    {
@@ -137,7 +148,7 @@
     "seg": [
      11
     ],
-    "what": "季节差分BGM道路",
+    "what": "佐藤仁美作曲的道路",
     "via": "llm"
    },
    {
@@ -150,336 +161,28 @@
     "seg": [
      2
     ],
-    "what": "本作冒险舞台",
+    "what": "音乐表达对象",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     0,
-     2,
-     4,
-     5,
-     7,
-     10
-    ],
-    "as": [
-     "BGM",
-     "背景音乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     0,
-     1,
-     2,
-     4,
-     5,
-     6
-    ],
-    "as": [
-     "作曲",
-     "音乐创作",
-     "编曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     5
-    ],
-    "as": [
-     "同人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     5
-    ],
-    "as": [
-     "洞窟"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     5
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     5
-    ],
-    "as": [
-     "新玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     5
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     6
-    ],
-    "as": [
-     "音源"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     6,
-     13
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     6
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     7
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     7,
-     12,
-     13
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     9
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     9
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     11
-    ],
-    "as": [
-     "神秘礼物"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     13
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     13
-    ],
-    "as": [
-     "第五世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     13
-    ],
-    "as": [
-     "职业生涯"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 1,
-   "text": "增田顺一称开发结束时自己能量几乎枯竭",
+   "text": "增田顺一称制作本作把想做的事全做了，能量枯竭",
    "anchor": 2
   },
   {
-   "seg": 2,
-   "text": "增田顺一建议按顺位连续听合众各城镇BGM",
-   "anchor": 3
+   "seg": 5,
+   "text": "景山将太首次担任音频负责人，作品为完全新作《宝可梦 黑白》",
+   "anchor": 6
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }
