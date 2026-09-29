@@ -2,11 +2,11 @@
  "id": "corporate-topic-09-pokemon-sleep-science-and-dream",
  "stem": "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 22
+  "n": 35
  },
  "facets": {
   "pokemon": [
@@ -14,40 +14,20 @@
     "name": "卡比兽",
     "ndex": 143,
     "seg": [
-     6,
-     15
+     25
     ],
     "as": [
      "卡比兽"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
   "works": [
    {
-    "name": "Pokémon Sleep",
-    "slug": null,
-    "seg": [
-     0,
-     3,
-     18
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "卡比兽",
-    "slug": null,
-    "seg": [
-     6,
-     15
-    ],
-    "via": "entities"
-   },
-   {
     "name": "Pokémon GO",
     "slug": null,
     "seg": [
-     3
+     4
     ],
     "via": "llm"
    },
@@ -55,23 +35,23 @@
     "name": "Pokémon Smile",
     "slug": null,
     "seg": [
-     3
+     4
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
+    "name": "Pokémon Sleep",
+    "slug": null,
     "seg": [
-     15
+     5
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
+    "name": "宝可梦",
+    "slug": null,
     "seg": [
-     15
+     9
     ],
     "via": "llm"
    }
@@ -82,227 +62,57 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     7,
-     8,
-     10
-    ]
+     13
+    ],
+    "via": "llm"
    },
    {
     "name": "汤山邦彦",
     "slug": "yuyama-kunihiko",
     "role": "mentioned",
     "seg": [
-     11,
-     12,
-     14
-    ]
+     18
+    ],
+    "via": "llm"
    },
    {
-    "name": "冨安大贵",
+    "name": "富安大贵",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     11,
-     12,
-     14
-    ]
+     18
+    ],
+    "via": "llm"
    },
    {
     "name": "景山将太",
     "slug": "kageyama-shota",
     "role": "mentioned",
     "seg": [
-     11,
-     15,
-     16
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "筑波大学国际统合睡眠医科学研究机构",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     8
+     24
     ],
-    "what": "柳泽正史所属机构",
     "via": "llm"
    }
   ],
-  "concepts": [
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     4,
-     5
-    ],
-    "as": [
-     "推翻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     5
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     5
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     7,
-     12
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     9
-    ],
-    "as": [
-     "机能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     10
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     11,
-     12,
-     14
-    ],
-    "as": [
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     11
-    ],
-    "as": [
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     14
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     15
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     21
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "宝可梦公司调研称近九成受访者看重睡眠对身心的疗愈价值",
-   "anchor": 3
+   "seg": 3,
+   "text": "约九成人为了身心疗愈而重视睡眠时间，约半数人对睡眠不满意。",
+   "anchor": 4
   },
   {
-   "seg": 2,
-   "text": "同一调研中超过半数现代人对自己的睡眠质量不满与焦虑",
-   "anchor": 3
+   "seg": 11,
+   "text": "因视频会导致睡回笼觉，改为拍摄并收集宝可梦睡脸的形式。",
+   "anchor": 12
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

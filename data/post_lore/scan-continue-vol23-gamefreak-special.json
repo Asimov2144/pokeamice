@@ -2,11 +2,11 @@
  "id": "scan-continue-vol23-gamefreak-special",
  "stem": "2005-08-18-scan-continue-vol23-gamefreak-special",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 53
+  "n": 22
  },
  "facets": {
   "pokemon": [
@@ -14,8 +14,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     17,
-     24
+     18
     ],
     "as": [
      "皮卡丘"
@@ -25,10 +24,16 @@
   ],
   "works": [
    {
-    "name": "螺旋破碎机 轰振旋转钻子",
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "DOTZ",
     "slug": null,
     "seg": [
-     22
+     10
     ],
     "via": "llm"
    },
@@ -36,55 +41,15 @@
     "name": "Quinty",
     "slug": null,
     "seg": [
-     17
+     19
     ],
     "via": "llm"
    },
    {
-    "name": "脉冲超人",
+    "name": "螺旋破坏者",
     "slug": null,
     "seg": [
-     45
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "时间飞船",
-    "slug": null,
-    "seg": [
-     47
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     32
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "东京巴士案内2",
-    "slug": null,
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "8bit",
-    "slug": null,
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "红白机",
-    "slug": null,
-    "seg": [
-     20
+     16
     ],
     "via": "llm"
    }
@@ -93,69 +58,45 @@
    {
     "name": "田尻智",
     "slug": "tajiri-satoshi",
-    "role": "speaker",
+    "role": "mentioned",
     "seg": [
-     10,
-     21
+     17
     ]
    },
    {
     "name": "杉森建",
     "slug": "sugimori-ken",
-    "role": "speaker",
+    "role": "mentioned",
     "seg": [
-     11,
-     23,
-     31,
-     34,
-     36,
-     38
-    ]
-   },
-   {
-    "name": "海野隆雄",
-    "slug": "unno-takao",
-    "role": "speaker",
-    "seg": [
-     13,
-     22
-    ]
-   },
-   {
-    "name": "吉田宏信",
-    "slug": "yoshida-hironobu",
-    "role": "speaker",
-    "seg": [
-     20,
-     32,
-     43,
-     46
-    ]
-   },
-   {
-    "name": "江尾可奈子",
-    "slug": "eo-kanako",
-    "role": "speaker",
-    "seg": [
-     24
-    ],
-    "kind": "staff"
-   },
-   {
-    "name": "CONTINUE",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     30,
-     33,
-     35,
-     37,
-     42
+     19
     ]
    },
    {
     "name": "增田顺一",
     "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "海野隆雄",
+    "slug": "unno-takao",
+    "role": "mentioned",
+    "seg": [
+     15
+    ]
+   },
+   {
+    "name": "江尾可奈子",
+    "slug": "eo-kanako",
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
     "role": "mentioned",
     "seg": [
      14
@@ -163,290 +104,25 @@
     "via": "llm"
    },
    {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "mentioned",
-    "seg": [
-     39
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
-    "role": "mentioned",
-    "seg": [
-     39
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "富野由悠季",
+    "name": "松崎浩之",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     47
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "峰田和伸",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "内田名人",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     4
+     2
     ],
     "via": "llm"
    }
   ],
-  "places": [
-   {
-    "name": "任天堂总部",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     38
-    ],
-    "what": "提案试玩 Demo 处",
-    "via": "llm"
-   },
-   {
-    "name": "永田町",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "政策游戏取材地",
-    "via": "llm"
-   },
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     38
-    ],
-    "what": "任天堂总部所在",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     4
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multilingual",
-    "name": "多语言与字库",
-    "facet": "tech",
-    "seg": [
-     10,
-     17,
-     21
-    ],
-    "as": [
-     "字体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     20
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     21
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     21,
-     23
-    ],
-    "as": [
-     "点阵图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     27
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     27
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     29,
-     36,
-     38
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     33,
-     39
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     36
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     38
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     38
-    ],
-    "as": [
-     "昏厥"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     44
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     47
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     49,
-     50
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
-   "seg": 31,
-   "text": "杉森建称本作立项大约是两年前左右"
+   "seg": 17,
+   "text": "田尻智说这次接触《DOTZ》让他想起GAME FREAK还是同人志的时候。"
   },
   {
-   "seg": 32,
-   "text": "吉田宏信称立项在《宝可梦 红宝石·蓝宝石》开发刚结束后不久"
+   "seg": 19,
+   "text": "杉森建做的是Quinty的主人公（卡顿），称是出道作品的回忆像素。"
   }
  ],
  "relations": [
@@ -470,9 +146,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

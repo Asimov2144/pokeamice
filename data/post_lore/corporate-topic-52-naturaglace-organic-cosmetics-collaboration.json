@@ -2,11 +2,11 @@
  "id": "corporate-topic-52-naturaglace-organic-cosmetics-collaboration",
  "stem": "2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 33
+  "n": 31
  },
  "facets": {
   "pokemon": [
@@ -14,29 +14,12 @@
     "name": "水伊布",
     "ndex": 134,
     "seg": [
-     12,
-     13,
-     22,
-     29
-    ],
-    "as": [
-     "水伊布",
-     "シャワーズ",
-     "Vaporeon"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
      12
     ],
     "as": [
-     "梦幻",
-     "ミュウ"
+     "水伊布"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "天然雀",
@@ -46,53 +29,21 @@
      "Natu"
     ],
     "via": "title"
-   }
-  ],
-  "works": [
-   {
-    "name": "ナチュラグラッセ ポケモンコレクション（Naturaglacé Pokemon Collection）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
    },
    {
-    "name": "RAYARD MIYASHITA PARK ポップアップストア",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ナチュラグラッセ ポケモンコレクション",
-    "slug": null,
+    "name": "梦幻",
+    "ndex": 151,
     "seg": [
-     2
+     12
+    ],
+    "as": [
+     "梦幻"
     ],
     "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "株式会社ネイチャーズウェイ（Naturaglacé 运营母体）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン ライセンスビジネスチーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン コーポレート編集部",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
+  "works": [],
+  "people": [],
   "places": [
    {
     "name": "涩谷宫下公园",
@@ -117,142 +68,20 @@
     "seg": [
      21
     ],
-    "what": "快闪店场地",
+    "what": "综合设施",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     0
-    ],
-    "as": [
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     0,
-     7,
-     30
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     5,
-     6,
-     10,
-     11,
-     19,
-     25
-    ],
-    "as": [
-     "大自然",
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     9,
-     14
-    ],
-    "as": [
-     "完成度",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     12,
-     32
-    ],
-    "as": [
-     "水属性",
-     "草属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     18
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     22
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     32
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 9,
-   "text": "宝可梦企划负责人回忆首次碰头会，对方在桌上推开整套初号实体模型",
-   "anchor": 10
+   "seg": 12,
+   "text": "水伊布用于水润蓝色调妆前乳，梦幻用于24小时粉饼",
+   "anchor": 13
   },
   {
    "seg": 17,
-   "text": "历经两年半配方调整与打样，完成3款润色防晒妆前乳等全套6款单品",
+   "text": "经约两年半摸索，完成防晒妆前乳3种、面部粉饼、UV乳液与妆前底霜共6款",
    "anchor": 18
   }
  ],
@@ -260,9 +89,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

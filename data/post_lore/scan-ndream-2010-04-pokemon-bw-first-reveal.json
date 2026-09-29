@@ -2,42 +2,193 @@
  "id": "scan-ndream-2010-04-pokemon-bw-first-reveal",
  "stem": "2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 18
+  "n": 70
  },
  "facets": {
   "pokemon": [
    {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "钻角犀兽",
+    "ndex": 112,
+    "seg": [
+     49
+    ],
+    "as": [
+     "钻角犀兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蜻蜻蜓",
+    "ndex": 193,
+    "seg": [
+     50
+    ],
+    "as": [
+     "蜻蜻蜓"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "土龙弟弟",
+    "ndex": 206,
+    "seg": [
+     55
+    ],
+    "as": [
+     "土龙弟弟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "时拉比",
+    "ndex": 251,
+    "seg": [
+     39
+    ],
+    "as": [
+     "时拉比"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "勾魂眼",
+    "ndex": 302,
+    "seg": [
+     54
+    ],
+    "as": [
+     "勾魂眼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "毒蔷薇",
+    "ndex": 315,
+    "seg": [
+     51
+    ],
+    "as": [
+     "毒蔷薇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "含羞苞",
+    "ndex": 406,
+    "seg": [
+     51
+    ],
+    "as": [
+     "含羞苞"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "罗丝雷朵",
+    "ndex": 407,
+    "seg": [
+     48,
+     51
+    ],
+    "as": [
+     "罗丝雷朵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕奇利兹",
+    "ndex": 417,
+    "seg": [
+     53
+    ],
+    "as": [
+     "帕奇利兹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     59,
+     60,
+     61
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "超甲狂犀",
+    "ndex": 464,
+    "seg": [
+     48,
+     49
+    ],
+    "as": [
+     "超甲狂犀"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "远古巨蜓",
+    "ndex": 469,
+    "seg": [
+     48,
+     50
+    ],
+    "as": [
+     "远古巨蜓"
+    ],
+    "via": "body"
+   },
+   {
     "name": "索罗亚",
     "ndex": 570,
     "seg": [
-     2,
-     10,
-     11
+     5,
+     13,
+     14,
+     16,
+     21,
+     32
     ],
     "as": [
-     "索罗亚",
-     "Zorua"
+     "索罗亚"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
-    "name": "索罗亚克",
+    "name": "ゾロアーク",
     "ndex": 571,
     "seg": [
-     2,
-     10,
-     11,
-     14
+     15,
+     56,
+     16,
+     21,
+     58
     ],
     "as": [
-     "索罗亚克",
-     "Zoroark"
+     "ゾロアーク",
+     "索罗亚克"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
   "works": [
@@ -48,232 +199,243 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
     "seg": [
-     8
+     24
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [],
-    "via": "entities"
+    "name": "宝可梦 蓝",
+    "slug": "blue-jp",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 皮卡丘",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 火红·叶绿",
+    "slug": "firered-leafgreen",
+    "seg": [
+     24
+    ],
+    "via": "llm"
    },
    {
     "name": "宝可梦 金·银",
     "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
+    "seg": [
+     25
+    ],
+    "via": "llm"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     25
+    ],
+    "via": "llm"
    },
    {
-    "name": "剧场版 幻影的霸者 索罗亚克",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     25
+    ],
+    "via": "llm"
    },
    {
-    "name": "宝可梦巡护员 光之轨迹",
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 绿宝石",
+    "slug": "emerald",
+    "seg": [
+     26
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     27
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫 暗之探险队",
     "slug": null,
     "seg": [
-     2
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "剧场版宝可梦 钻石·珍珠 幻影的霸者 索罗亚克",
+    "slug": null,
+    "seg": [
+     16
     ],
     "via": "llm"
    }
   ],
-  "people": [],
-  "places": [],
-  "concepts": [
+  "people": [
    {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
+    "name": "予想",
+    "slug": null,
+    "role": "speaker",
     "seg": [
-     2,
-     17
+     30,
+     38
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "伙伴公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     64
     ],
-    "as": [
-     "新世代",
-     "第一世代"
-    ],
-    "via": "body"
+    "what": "GBA向DS传送处",
+    "via": "llm"
    },
    {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
     "seg": [
-     2,
-     5,
-     7,
-     8,
-     10,
-     14
+     24
     ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
+    "what": "第一作舞台",
+    "via": "llm"
    },
    {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
+    "name": "城都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
     "seg": [
-     8
+     25
     ],
-    "as": [
-     "掌上"
-    ],
-    "via": "body"
+    "what": "金·银舞台",
+    "via": "llm"
    },
    {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
     "seg": [
-     8
+     26
     ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
+    "what": "红宝石·蓝宝石舞台",
+    "via": "llm"
    },
    {
-    "id": "text-volume",
-    "name": "文本量",
-    "facet": "story",
+    "name": "神奥地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
     "seg": [
-     8
+     27
     ],
-    "as": [
-     "字数"
-    ],
-    "via": "body"
+    "what": "钻石·珍珠舞台",
+    "via": "llm"
    },
    {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
+    "name": "东北地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
     "seg": [
-     11
+     68
     ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
+    "what": "预测的新舞台",
+    "via": "llm"
    },
    {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
+    "name": "中国·四国地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
     "seg": [
-     13,
-     14
+     68
     ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
+    "what": "预测的新舞台",
+    "via": "llm"
    },
    {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
+    "name": "九州地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
     "seg": [
-     14
+     69
     ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     17
-    ],
-    "as": [
-     "打对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     17
-    ],
-    "as": [
-     "通信电缆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     17
-    ],
-    "as": [
-     "双打对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     17
-    ],
-    "as": [
-     "社会现象"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     17
-    ],
-    "as": [
-     "钢属性"
-    ],
-    "via": "body"
+    "what": "丰缘地区形状参照",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 8,
-   "text": "完全新作定于2010年秋季发售，平台为Nintendo DS"
+   "seg": 4,
+   "text": "距《钻石·珍珠》4年之后，2010年始动"
   },
   {
-   "seg": 8,
-   "text": "系列全球累计销量突破1亿3000万套"
+   "seg": 23,
+   "text": "完全新作大约每3～4年推出一款，同一硬件上推出第二款完全新作是首次"
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

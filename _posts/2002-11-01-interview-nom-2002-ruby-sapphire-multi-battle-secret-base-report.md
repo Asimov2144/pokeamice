@@ -124,4 +124,5 @@ parallel_items:
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_kiti05.jpg
   alt: レコードコーナー画面
   caption: レコードコーナー画面
+interview_id: PKMN-0117
 ---

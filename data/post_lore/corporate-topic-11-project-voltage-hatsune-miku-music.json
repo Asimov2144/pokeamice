@@ -2,286 +2,36 @@
  "id": "corporate-topic-11-project-voltage-hatsune-miku-music",
  "stem": "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 26
+  "n": 27
  },
  "facets": {
   "pokemon": [],
   "works": [
    {
-    "name": "Project VOLTAGE 18 Types/Songs",
+    "name": "宝可梦 feat.初音未来 Project VOLTAGE 18 Types/Songs",
     "slug": null,
     "seg": [
-     0,
-     8
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon Music Spotlight",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "初音ミク",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "Crypton Future Media",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     6
-    ]
-   },
-   {
-    "name": "初音未来",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "克理普敦未来媒体",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     6
+     9
     ],
     "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     0,
-     6,
-     8
-    ],
-    "as": [
-     "携手",
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     3,
-     8,
-     20
-    ],
-    "as": [
-     "主题曲",
-     "BGM",
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     4
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     7
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     8,
-     20
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     9,
-     12,
-     13,
-     14,
-     15,
-     22
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     14
-    ],
-    "as": [
-     "二次创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     15
-    ],
-    "as": [
-     "音乐创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     15
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     15
-    ],
-    "as": [
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     17,
-     20
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     18
-    ],
-    "as": [
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     18
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     21
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   }
-  ]
+  "people": [],
+  "places": []
  },
  "observations": [
   {
    "seg": 7,
-   "text": "初音未来2007年问世，与宝可梦同发轫于软件代码世界，以电子合成音为声音原点",
+   "text": "初音未来2007年登场，与宝可梦一样原点在于软件",
    "anchor": 8
   },
   {
    "seg": 12,
-   "text": "企划打造18套专属角色设计与插画，并制作18首原创单曲及MV",
+   "text": "为展现18种个性，制作18个角色设计和插画、18首乐曲和MV",
    "anchor": 13
   }
  ],
@@ -289,9 +39,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

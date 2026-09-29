@@ -2,75 +2,63 @@
  "id": "corporate-topic-01-pokefuta-manhole-travel",
  "stem": "2020-08-18-corporate-topic-01-pokefuta-manhole-travel",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 14
+  "n": 19
  },
  "facets": {
   "pokemon": [
    {
-    "name": "伊布",
-    "ndex": 133,
+    "name": "ロコン",
+    "ndex": 37,
     "seg": [
-     3
+     10
     ],
     "as": [
-     "伊布"
+     "ロコン"
     ],
-    "via": "tag"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦井盖",
-    "slug": null,
-    "seg": [
-     0,
-     2,
-     3,
-     4,
-     6,
-     7
-    ],
-    "via": "entities"
+    "via": "body"
    },
    {
-    "name": "ポケふた",
-    "slug": null,
+    "name": "イーブイ",
+    "ndex": 133,
     "seg": [
-     2
+     5,
+     4
     ],
-    "via": "entities"
+    "as": [
+     "イーブイ"
+    ],
+    "via": "body"
    },
    {
-    "name": "宝可梦地方创生",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
+    "name": "ポッチャマ",
+    "ndex": 393,
+    "seg": [
+     10
+    ],
+    "as": [
+     "ポッチャマ"
+    ],
+    "via": "body"
    }
   ],
-  "people": [
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "works": [],
+  "people": [],
   "places": [
    {
-    "name": "指宿车站",
+    "name": "指宿站",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     2
+     3
     ],
-    "what": "首枚井盖安置处",
+    "what": "首块宝可盖设置处",
     "via": "llm"
    },
    {
@@ -96,7 +84,7 @@
     "seg": [
      2
     ],
-    "what": "首枚井盖所在地",
+    "what": "首块宝可盖设置地",
     "via": "llm"
    },
    {
@@ -107,9 +95,9 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     6
+     8
     ],
-    "what": "井盖铺设地区",
+    "what": "宝可盖活跃地区",
     "via": "llm"
    },
    {
@@ -120,60 +108,10 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     6
+     9
     ],
-    "what": "防雪帐篷井盖地",
+    "what": "设置宝可盖的町",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     7
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     7
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "流水线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
    }
   ]
  },
@@ -184,9 +122,9 @@
    "anchor": 3
   },
   {
-   "seg": 3,
-   "text": "指宿市政府提议任命伊布为体育与文化交流大使",
-   "anchor": 4
+   "seg": 14,
+   "text": "宝可梦井盖直径63厘米，每枚设计不同，不大量生产",
+   "anchor": 15
   }
  ],
  "relations": [
@@ -218,9 +156,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

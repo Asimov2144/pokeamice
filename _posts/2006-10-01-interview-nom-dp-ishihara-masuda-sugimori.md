@@ -420,4 +420,5 @@ mentions:
   - "宝可梦 对战革命"
 tags:
 - N.O.M
+interview_id: PKMN-0125
 ---

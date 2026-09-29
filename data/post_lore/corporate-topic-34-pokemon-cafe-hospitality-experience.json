@@ -2,11 +2,11 @@
  "id": "corporate-topic-34-pokemon-cafe-hospitality-experience",
  "stem": "2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 30
+  "n": 28
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     14
+     13
     ],
     "as": [
      "妙蛙种子"
@@ -25,7 +25,7 @@
     "name": "小火龙",
     "ndex": 4,
     "seg": [
-     14
+     13
     ],
     "as": [
      "小火龙"
@@ -36,7 +36,7 @@
     "name": "杰尼龟",
     "ndex": 7,
     "seg": [
-     14
+     13
     ],
     "as": [
      "杰尼龟"
@@ -44,7 +44,7 @@
     "via": "body"
    },
    {
-    "name": "皮卡丘",
+    "name": "ピカチュウ",
     "ndex": 25,
     "seg": [
      7,
@@ -52,63 +52,56 @@
      9,
      10,
      13,
-     14
+     17
     ],
     "as": [
+     "ピカチュウ",
      "皮卡丘"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "米立龙",
     "ndex": 978,
     "seg": [
-     17,
      18
     ],
     "as": [
-     "米立龙",
-     "シャリタツ"
+     "米立龙"
     ],
-    "via": "tag"
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     15
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
    }
   ],
   "works": [
    {
-    "name": "ポケモンカフェ（Pokémon Cafe）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     13
+    ],
+    "via": "llm"
    },
    {
-    "name": "ポケットモンスター 赤・緑",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "選べるポケモンラテ",
+    "name": "ポケットモンスター X・Y",
     "slug": null,
     "seg": [
-     19
+     21
     ],
-    "via": "entities"
+    "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "株式会社エスエルディー",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "日本桥",
@@ -133,234 +126,41 @@
     "seg": [
      3
     ],
-    "what": "咖啡厅首店所在地",
+    "what": "首家常设店开店地",
     "via": "llm"
    },
    {
-    "name": "大阪心斋桥",
+    "name": "大阪",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
-    "scale": "spot",
+    "scale": "area",
     "seg": [
      3
     ],
-    "what": "咖啡厅进驻地",
+    "what": "次年开店地",
     "via": "llm"
-   },
-   {
-    "name": "真新镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     14
-    ],
-    "what": "最初伙伴选择地",
-    "via": "llm"
-   },
-   {
-    "name": "大木博士研究所",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     14
-    ],
-    "what": "挑选最初伙伴处",
-    "via": "llm"
-   },
-   {
-    "name": "卡洛斯地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     20
-    ],
-    "what": "图鉴收录范围",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     4
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     8,
-     18
-    ],
-    "as": [
-     "随机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     9
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     11,
-     16,
-     18,
-     23,
-     26
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     12,
-     16
-    ],
-    "as": [
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     14
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     15
-    ],
-    "as": [
-     "进化形态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     18
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     19
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     26
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 3,
-   "text": "2018年在东京日本桥揭幕，次年进驻大阪心斋桥",
+   "text": "宝可梦咖啡馆2018年在东京日本桥开店，次年进军大阪",
    "anchor": 4
   },
   {
-   "seg": 19,
-   "text": "自选宝可梦拿铁可选图鉴种类达818种",
-   "anchor": 20
+   "seg": 8,
+   "text": "问候时间中，穿厨师、服务员、糕点师服装的皮卡丘随机出现1只",
+   "anchor": 9
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

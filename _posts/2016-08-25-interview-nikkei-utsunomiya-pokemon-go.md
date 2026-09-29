@@ -464,4 +464,5 @@ mentions:
   - "江上周作"
   works:
   - "宝可梦 红·绿"
+interview_id: PKMN-0075
 ---

@@ -2,11 +2,11 @@
  "id": "corporate-topic-38-pokemon-parks-community-playground",
  "stem": "2025-06-13-corporate-topic-38-pokemon-parks-community-playground",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 27
+  "n": 25
  },
  "facets": {
   "pokemon": [
@@ -15,36 +15,34 @@
     "ndex": 27,
     "seg": [
      11,
-     12,
      21,
-     26
+     12
     ],
     "as": [
-     "穿山鼠"
+     "穿山鼠",
+     "サンド"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "小拳石",
     "ndex": 74,
     "seg": [
      8,
-     9,
      21,
-     26
+     9
     ],
     "as": [
-     "小拳石"
+     "小拳石",
+     "イシツブテ"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "呆呆兽",
     "ndex": 79,
     "seg": [
-     21,
-     22,
-     26
+     21
     ],
     "as": [
      "呆呆兽"
@@ -52,13 +50,13 @@
     "via": "body"
    },
    {
-    "name": "大岩蛇",
+    "name": "イワーク",
     "ndex": 95,
     "seg": [
-     10
+     9
     ],
     "as": [
-     "大岩蛇"
+     "イワーク"
     ],
     "via": "body"
    },
@@ -67,20 +65,32 @@
     "ndex": 113,
     "seg": [
      5,
-     7,
      21,
-     26
+     7
     ],
     "as": [
-     "吉利蛋"
+     "吉利蛋",
+     "ラッキー"
     ],
-    "via": "tag"
+    "via": "body"
+   },
+   {
+    "name": "プテラ",
+    "ndex": 142,
+    "seg": [
+     9
+    ],
+    "as": [
+     "プテラ"
+    ],
+    "via": "body"
    },
    {
     "name": "水水獭",
     "ndex": 501,
     "seg": [
-     21
+     21,
+     22
     ],
     "as": [
      "水水獭",
@@ -89,97 +99,19 @@
     "via": "body"
    },
    {
-    "name": "大剑鬼",
-    "ndex": 503,
-    "seg": [
-     21
-    ],
-    "as": [
-     "大剑鬼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "宝宝暴龙",
+    "name": "チゴラス",
     "ndex": 696,
     "seg": [
-     10
+     18
     ],
     "as": [
-     "宝宝暴龙"
+     "チゴラス"
     ],
     "via": "body"
    }
   ],
-  "works": [
-   {
-    "name": "ポケモン公園",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンローカルActs",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ラッキー公園",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "イシツブテ公園",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "サンド公園",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ヤドン公園",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ミジュマル公園",
-    "slug": null,
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "株式会社ポケモン 地域共生チーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社コトブキ（游乐设施制造巨头）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社コトブキ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   }
-  ],
+  "works": [],
+  "people": [],
   "places": [
    {
     "name": "宝可梦公园",
@@ -189,12 +121,11 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     0,
      1,
      2,
-     5,
      21,
-     23
+     23,
+     24
     ],
     "via": "extra",
     "what": "期间限定的主题乐园"
@@ -239,19 +170,6 @@
     "via": "llm"
    },
    {
-    "name": "鸟取砂丘",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     11
-    ],
-    "what": "穿山鼠公园设计意象",
-    "via": "llm"
-   },
-   {
     "name": "香川县",
     "id": null,
     "entity": null,
@@ -274,152 +192,20 @@
     "seg": [
      21
     ],
-    "what": "水水獭公园所在地",
+    "what": "水水獭公园预定地",
     "via": "llm"
-   },
-   {
-    "name": "香川县绫川町",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     22
-    ],
-    "what": "呆呆兽公园实景地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     0,
-     1,
-     3,
-     8,
-     9,
-     17
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     0,
-     3,
-     19
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     2,
-     15
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "spinoff",
-    "name": "外传作品",
-    "facet": "franchise",
-    "seg": [
-     6
-    ],
-    "as": [
-     "外传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     8
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     15
-    ],
-    "as": [
-     "强度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     17
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     23
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "项目负责人回忆企划初心：孩子们户外玩耍最常去的地方是公园。",
-   "anchor": 4
+   "seg": 2,
+   "text": "株式会社宝可梦与地方政府合作，在全国各地建设宝可梦公园",
+   "anchor": 3
   },
   {
    "seg": 5,
-   "text": "各地宝可梦公园以各自治体专属的应援宝可梦为灵感定制设计。",
+   "text": "福岛县吉利蛋公园以带来幸福（福）的吉利蛋为主题",
    "anchor": 6
   }
  ],
@@ -427,9 +213,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

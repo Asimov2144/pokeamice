@@ -2,11 +2,11 @@
  "id": "corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
  "stem": "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 37
+  "n": 36
  },
  "facets": {
   "pokemon": [
@@ -14,63 +14,24 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     0,
-     1,
      2,
-     4,
      8,
-     17
+     9,
+     10,
+     11,
+     16,
+     4,
+     13,
+     19
     ],
     "as": [
      "皮卡丘",
      "ピカチュウ"
     ],
     "via": "body"
-   },
-   {
-    "name": "信使鸟",
-    "ndex": 225,
-    "seg": [
-     36
-    ],
-    "as": [
-     "信使鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "耿鬼",
-    "ndex": 94,
-    "seg": [
-     14
-    ],
-    "as": [
-     "耿鬼"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
-   {
-    "name": "被災地支援「ピカチュウかぶと」（皮卡丘折纸头盔）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "『ポケモンといつもいっしょ～せいかつおうえんブック～』",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "被災地支援「ピカチュウかぶと」",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
    {
     "name": "宝可梦 红·绿",
     "slug": "red-green",
@@ -80,48 +41,23 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦 朱／紫",
-    "slug": null,
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
     "seg": [
      11
     ],
     "via": "llm"
    },
    {
-    "name": "与宝可梦一直在一起～灾区生活应援手账～",
+    "name": "和宝可梦永远在一起～生活支援手册～",
     "slug": null,
     "seg": [
-     23
+     25
     ],
     "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "一般財団法人ポケモン・ウィズ・ユー財団",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン デザインチーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "北國新聞社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "NHK交響楽団",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "石川县",
@@ -133,7 +69,7 @@
     "seg": [
      2
     ],
-    "what": "发行与援助地区",
+    "what": "报纸发行地",
     "via": "llm"
    },
    {
@@ -150,286 +86,50 @@
     "via": "llm"
    },
    {
-    "name": "阿苏",
+    "name": "正覚寺",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     8
+     19
     ],
-    "what": "熊本地震灾区",
+    "what": "儿童节活动会场",
     "via": "llm"
    },
    {
-    "name": "丰缘",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     11
-    ],
-    "what": "宝可梦地区",
-    "via": "llm"
-   },
-   {
-    "name": "轮岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     16
-    ],
-    "what": "能登灾区",
-    "via": "llm"
-   },
-   {
-    "name": "东北",
+    "name": "轮岛市",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "area",
     "seg": [
-     7
+     19
     ],
-    "what": "过往援助灾区",
+    "what": "活动会场所在市",
     "via": "llm"
-   },
-   {
-    "name": "熊本",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     7
-    ],
-    "what": "过往援助灾区",
-    "via": "llm"
-   },
-   {
-    "name": "关都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     11
-    ],
-    "what": "宝可梦地区",
-    "via": "llm"
-   },
-   {
-    "name": "城都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     11
-    ],
-    "what": "宝可梦地区",
-    "via": "llm"
-   },
-   {
-    "name": "帕底亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     11
-    ],
-    "what": "宝可梦地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     2,
-     3,
-     6,
-     8,
-     13,
-     14
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     11
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     12
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     14,
-     16
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     16
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     24,
-     25
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     26
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     27,
-     28
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     27,
-     28
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 2,
-   "text": "《北国新闻》跨页中缝印有皮卡丘黄色特刊广告，剪裁折叠可成皮卡丘武士头盔",
+   "text": "《北国新闻》内页刊登皮卡丘配色广告，剪下折叠可做成头盔。",
    "anchor": 3
   },
   {
-   "seg": 3,
-   "text": "该企划由一般财团法人POKÉMON with YOU财团在5月5日儿童节推行",
-   "anchor": 4
+   "seg": 8,
+   "text": "首次提供皮卡丘头盔是在东日本大地震后第二个月的儿童节。",
+   "anchor": 9
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

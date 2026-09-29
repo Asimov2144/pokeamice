@@ -2,11 +2,11 @@
  "id": "corporate-topic-40-seoul-jamsil-pokemon-town-lotte",
  "stem": "2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 29
+  "n": 27
  },
  "facets": {
   "pokemon": [
@@ -14,14 +14,27 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     3,
      11,
      13,
      15,
-     28
+     14
     ],
     "as": [
-     "皮卡丘"
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ラプラス",
+    "ndex": 131,
+    "seg": [
+     14,
+     15
+    ],
+    "as": [
+     "ラプラス",
+     "拉普拉斯"
     ],
     "via": "body"
    },
@@ -31,71 +44,38 @@
     "seg": [
      2,
      13,
-     14,
      15,
      16,
-     18
+     18,
+     20,
+     14
     ],
     "as": [
      "百变怪",
-     "メタモン",
-     "Ditto"
+     "メタモン"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
   "works": [
    {
-    "name": "ポケモンタウン with ロッテ（Pokemon Town with LOTTE 2025）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンワールドチャンピオンシップス（WCS2023 横浜）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンタウン with ロッテ",
-    "slug": null,
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
     "seg": [
-     2
+     12
     ],
     "via": "llm"
    },
    {
-    "name": "ポケモンワールドチャンピオンシップス",
+    "name": "宝可梦世界锦标赛",
     "slug": null,
     "seg": [
      6
     ],
     "via": "llm"
-   },
-   {
-    "name": "宝可梦 朱／紫",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "Pokémon Korea, Inc.（韩国宝可梦团队）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "韓国ロッテグループ（乐天集团管理层与企划团队）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "蚕室",
@@ -107,7 +87,7 @@
     "seg": [
      2
     ],
-    "what": "首尔核心商圈",
+    "what": "活动举办地区",
     "via": "llm"
    },
    {
@@ -120,24 +100,11 @@
     "seg": [
      2
     ],
-    "what": "漂浮充气装置处",
+    "what": "漂浮气球的水面",
     "via": "llm"
    },
    {
-    "name": "乐天世界大厦",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     0
-    ],
-    "what": "活动会场之一",
-    "via": "llm"
-   },
-   {
-    "name": "横滨港未来21",
+    "name": "横滨港未来",
     "id": null,
     "entity": null,
     "category": null,
@@ -146,185 +113,59 @@
     "seg": [
      6
     ],
-    "what": "WCS2023举办地",
+    "what": "WCS举办地",
     "via": "llm"
    },
    {
-    "name": "乐天百货",
+    "name": "乐天世界购物中心",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     23
+     24
     ],
-    "what": "开设主题快闪店",
+    "what": "设置快闪店的场所",
     "via": "llm"
    },
    {
-    "name": "7-Eleven",
+    "name": "首尔",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
-    "scale": "spot",
+    "scale": "area",
     "seg": [
-     23
+     2
     ],
-    "what": "乐天旗下便利店",
+    "what": "活动举办城市",
     "via": "llm"
    },
    {
-    "name": "Lotteria",
+    "name": "横滨市",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
-    "scale": "spot",
+    "scale": "area",
     "seg": [
-     23
+     7
     ],
-    "what": "乐天旗下快餐连锁",
+    "what": "WCS举办城市",
     "via": "llm"
-   },
-   {
-    "name": "乐天免税店",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     23
-    ],
-    "what": "乐天旗下业态",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     4
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     4
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     6
-    ],
-    "as": [
-     "世界锦标赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     8,
-     9
-    ],
-    "as": [
-     "携手",
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     10
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     13
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     18
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     18,
-     25
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 2,
-   "text": "2025年4月至5月举办Pokémon Town with LOTTE 2025，广场有100只百变怪",
+   "text": "石村湖上漂浮着巨大的宝可梦气球，广场上排列着100只百变怪",
    "anchor": 3
   },
   {
    "seg": 4,
-   "text": "活动2024年首次落地，2025年为第二届，由韩国宝可梦公司与乐天集团联合主办",
+   "text": "活动配合韩国儿童节于2024年首次举办，今年是第二届",
    "anchor": 5
   }
  ],
@@ -332,9 +173,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

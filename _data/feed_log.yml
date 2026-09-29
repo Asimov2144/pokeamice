@@ -1,18 +1,18 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
 - date: '2026-09-29'
-  count: 27
+  count: 81
   types:
-    访谈翻译: 17
-    扫描翻译: 10
+    访谈翻译: 64
+    扫描翻译: 17
   posts:
-  - 2024-01-15-interview-pokemon-center-overseas-taipei-singapore
-  - 2023-09-01-interview-pokemon-center-pop-up-store-project
-  - 2023-06-01-interview-pokemon-center-shibuya-store-manager
-  - 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
-  - 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa
-  - 2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins
-  - 2013-09-21-scan-ndream-235-xy-developer-interview
-  - 2012-08-21-scan-ndream-222-b2w2-pwt-pokewood
+  - 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival
+  - 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration
+  - 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
+  - 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide
+  - 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab
+  - 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy
+  - 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy
+  - 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii
 - date: '2026-09-19'
   count: 14
   types:
@@ -120,13 +120,14 @@
   - 2017-08-30-gamefreak-lineblog-9295795
   - 2017-08-29-gamefreak-lineblog-9295793
 - date: '2026-08-30'
-  count: 2
+  count: 3
   types:
+    访谈翻译: 2
     扫描翻译: 1
-    访谈翻译: 1
   posts:
   - 2026-08-29-continue-vol32-scan-archive
   - 2026-08-29-continue-vol31-scan-archive
+  - 2026-08-29-continue-vol23-tuya-scan-archive
 - date: '2026-08-29'
   count: 1
   types:

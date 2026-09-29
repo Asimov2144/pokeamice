@@ -1,0 +1,270 @@
+{
+ "id": "interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+ "stem": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+ "rev": 1,
+ "built": "2026-09-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 53
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     27,
+     36
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木守宫",
+    "ndex": 252,
+    "seg": [
+     47
+    ],
+    "as": [
+     "木守宫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大嘴娃",
+    "ndex": 303,
+    "seg": [
+     47
+    ],
+    "as": [
+     "大嘴娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "波士可多拉",
+    "ndex": 306,
+    "seg": [
+     47
+    ],
+    "as": [
+     "波士可多拉"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "变隐龙",
+    "ndex": 352,
+    "seg": [
+     47
+    ],
+    "as": [
+     "变隐龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿勃梭鲁",
+    "ndex": 359,
+    "seg": [
+     47
+    ],
+    "as": [
+     "阿勃梭鲁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     47
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 蓝宝石",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "陆行鸟迷宫",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "红／蓝",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "金／银",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮卡丘",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水晶",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "游戏王",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Bat Wing",
+    "slug": null,
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "CVG",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     5,
+     7,
+     9,
+     14
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     2,
+     8,
+     10,
+     11,
+     12,
+     19
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     15,
+     24,
+     27,
+     29
+    ]
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     13,
+     17,
+     18,
+     45,
+     51
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田顺一称GBA版可实现四人同时传输",
+   "anchor": 7
+  },
+  {
+   "seg": 12,
+   "text": "注称红宝石／蓝宝石在日本售出440万份",
+   "anchor": 13
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

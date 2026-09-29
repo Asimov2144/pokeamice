@@ -2,11 +2,11 @@
  "id": "corporate-topic-25-shima-spain-village-paldea-crossover",
  "stem": "2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 37
+  "n": 35
  },
  "facets": {
   "pokemon": [
@@ -15,7 +15,7 @@
     "ndex": 192,
     "seg": [
      14,
-     15
+     16
     ],
     "as": [
      "向日花怪",
@@ -28,12 +28,10 @@
     "ndex": 928,
     "seg": [
      14,
-     15,
      25
     ],
     "as": [
-     "迷你芙",
-     "ミニーブ"
+     "迷你芙"
     ],
     "via": "body"
    },
@@ -48,13 +46,12 @@
      "米立龙",
      "シャリタツ"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "索财灵",
     "ndex": 999,
     "seg": [
-     20,
      21,
      22,
      23
@@ -63,14 +60,13 @@
      "索财灵",
      "コレクレー"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "故勒顿",
     "ndex": 1007,
     "seg": [
-     26,
-     27
+     26
     ],
     "as": [
      "故勒顿"
@@ -81,8 +77,7 @@
     "name": "密勒顿",
     "ndex": 1008,
     "seg": [
-     26,
-     27
+     26
     ],
     "as": [
      "密勒顿"
@@ -92,27 +87,7 @@
   ],
   "works": [
    {
-    "name": "ポケットモンスター スカーレット・バイオレット",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモン課外授業 in 志摩スペイン村",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦课外教学 in 志摩西班牙村",
+    "name": "《宝可梦 朱·紫》",
     "slug": null,
     "seg": [
      2
@@ -120,34 +95,8 @@
     "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "志摩スペイン村（近鉄グループ）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
-   {
-    "name": "三重县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "乐园所在县",
-    "via": "llm"
-   },
    {
     "name": "马约尔广场",
     "id": null,
@@ -158,20 +107,7 @@
     "seg": [
      8
     ],
-    "what": "对战擂台广场",
-    "via": "llm"
-   },
-   {
-    "name": "帕底亚大湖",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     18
-    ],
-    "what": "米立龙生态设定",
+    "what": "活动重头戏广场",
     "via": "llm"
    },
    {
@@ -184,11 +120,11 @@
     "seg": [
      2
     ],
-    "what": "联动主题乐园",
+    "what": "限期活动会场",
     "via": "llm"
    },
    {
-    "name": "志摩市",
+    "name": "三重县志摩市",
     "id": null,
     "entity": null,
     "category": null,
@@ -197,7 +133,7 @@
     "seg": [
      2
     ],
-    "what": "乐园所在市",
+    "what": "主题公园所在地",
     "via": "llm"
    },
    {
@@ -208,186 +144,30 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     2
+     5
     ],
-    "what": "游戏舞台地区",
+    "what": "游戏舞台",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "社群",
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     6,
-     28
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     8
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     8
-    ],
-    "as": [
-     "玩家群体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     10
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     13,
-     14,
-     17,
-     18
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     16,
-     18
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     33,
-     34
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     34
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     36
-    ],
-    "as": [
-     "洞窟"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 5,
-   "text": "志摩西班牙村2024年迎来开园30周年",
-   "anchor": 6
+   "seg": 8,
+   "text": "马约尔广场中央原立腓力三世铜像，这次用装饰遮盖以再现对战广场",
+   "anchor": 9
   },
   {
-   "seg": 8,
-   "text": "马约尔广场中心原有腓力三世国王青铜雕像",
-   "anchor": 9
+   "seg": 18,
+   "text": "米立龙因游戏里栖息水边，最终放在喷水附近而非日式餐厅旁",
+   "anchor": 19
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

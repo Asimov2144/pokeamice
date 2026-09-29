@@ -2,11 +2,11 @@
  "id": "corporate-topic-23-nousaku-tin-casting-craftsmanship",
  "stem": "2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 35
+  "n": 33
  },
  "facets": {
   "pokemon": [
@@ -17,19 +17,18 @@
      26
     ],
     "as": [
-     "喷火龙",
-     "リザードン"
+     "喷火龙"
     ],
     "via": "body"
    },
    {
-    "name": "皮卡丘",
+    "name": "ピカチュウ",
     "ndex": 25,
     "seg": [
-     20
+     19
     ],
     "as": [
-     "皮卡丘"
+     "ピカチュウ"
     ],
     "via": "body"
    },
@@ -40,8 +39,7 @@
      26
     ],
     "as": [
-     "穿山鼠",
-     "サンド"
+     "穿山鼠"
     ],
     "via": "body"
    },
@@ -51,14 +49,15 @@
     "seg": [
      9,
      10,
-     11,
      12,
-     25
+     25,
+     11
     ],
     "as": [
-     "百变怪"
+     "百变怪",
+     "メタモン"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "风铃铃",
@@ -67,61 +66,22 @@
      25
     ],
     "as": [
-     "风铃铃",
-     "チリーン"
+     "风铃铃"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
   "works": [
    {
-    "name": "能作ポケモンコレクション",
+    "name": "能作宝可梦系列",
     "slug": null,
     "seg": [
      2
     ],
-    "via": "entities"
-   },
-   {
-    "name": "生型鋳造法",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "生型（Namagata）铸造法",
-    "slug": null,
-    "seg": [
-     14
-    ],
     "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "株式会社能作",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ]
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社宝可梦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "富山县高冈市",
@@ -131,286 +91,43 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     0
+     3
     ],
-    "what": "能作总部所在",
+    "what": "铸造名产地",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     4,
-     18
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
    },
    {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
+    "name": "高冈市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
     "seg": [
-     4
+     22
     ],
-    "as": [
-     "复刻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     4
-    ],
-    "as": [
-     "流水线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     5,
-     6
-    ],
-    "as": [
-     "联动",
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     7,
-     17
-    ],
-    "as": [
-     "授权",
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     8
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "企划案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     10
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     15,
-     17,
-     18
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     15,
-     24
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     17
-    ],
-    "as": [
-     "开发阶段"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     19
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     19,
-     20
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     23,
-     27
-    ],
-    "as": [
-     "亲子",
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     23
-    ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     25
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     26
-    ],
-    "as": [
-     "火属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     27,
-     28
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
+    "what": "能作总公司工坊所在地",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "能作以100%极纯锡为原料，不加铅或锑",
-   "anchor": 4
+   "seg": 10,
+   "text": "能作公司内部征集产品方案时收集到近120个创意",
+   "anchor": 11
   },
   {
-   "seg": 10,
-   "text": "公司内部征集企划案，数天内涌现近120个提案",
-   "anchor": 11
+   "seg": 17,
+   "text": "两家公司反复沟通，制作周期长达约一年",
+   "anchor": 18
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

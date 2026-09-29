@@ -2,110 +2,69 @@
  "id": "corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
  "stem": "2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 31
+  "n": 32
  },
  "facets": {
   "pokemon": [
    {
-    "name": "斯魔茶",
+    "name": "チャデス",
     "ndex": 1012,
     "seg": [
-     0,
      2,
-     3,
      5,
      6,
-     7
+     7,
+     11,
+     14,
+     3,
+     9,
+     12,
+     21,
+     27,
+     29
     ],
     "as": [
-     "斯魔茶",
      "チャデス",
-     "Poltchageist"
+     "斯魔茶"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "来悲粗茶",
     "ndex": 1013,
     "seg": [
-     0,
      3,
-     5,
      9,
      12,
-     13
+     16,
+     17,
+     21,
+     5,
+     15,
+     22
     ],
     "as": [
      "来悲粗茶",
-     "ヤバソチャ",
-     "Sinistcha"
+     "ヤバソチャ"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
   "works": [
    {
-    "name": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "喫茶チャデス",
-    "slug": null,
-    "seg": [
-     0,
-     2
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンカフェ（Pokemon Cafe）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱／紫 零之秘宝",
+    "name": "宝可梦 朱·紫 零之秘宝",
     "slug": null,
     "seg": [
      3
     ],
     "via": "llm"
-   },
-   {
-    "name": "ポケモンカフェ",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "株式会社ポケモン 商品企画チーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン カフェ事業チーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン アートディレクションチーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "日本桥",
@@ -115,250 +74,49 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     27
+     30
     ],
     "via": "extra",
     "what": "初代宝可梦中心所在"
    },
    {
-    "name": "北上乡",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     3
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon Center TOKYO DX",
+    "name": "宝可梦中心TOKYO DX",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     27
+     30
     ],
-    "what": "官方宝可梦咖啡厅",
+    "what": "附设宝可梦咖啡馆",
     "via": "llm"
    },
    {
-    "name": "Pokémon Center OSAKA DX",
+    "name": "宝可梦中心OSAKA DX",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     27
+     30
     ],
-    "what": "官方宝可梦咖啡厅",
+    "what": "附设宝可梦咖啡馆",
     "via": "llm"
-   },
-   {
-    "name": "心斋桥",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     27
-    ],
-    "what": "大阪所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     0,
-     19
-    ],
-    "as": [
-     "主视觉",
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     3,
-     4
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     4,
-     5,
-     15
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     9,
-     12
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     13
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     18
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     19
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     21,
-     28
-    ],
-    "as": [
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     24
-    ],
-    "as": [
-     "第九世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     24
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     26
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "世界观"
-    ],
-    "via": "tag"
    }
   ]
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "企划核心概念是「由宝可梦们来店里帮忙打理的茶馆」",
-   "anchor": 3
+   "seg": 12,
+   "text": "主打小物件主题是茶入和茶碗，均采用陶器制作",
+   "anchor": 13
   },
   {
-   "seg": 3,
-   "text": "斯魔茶与来悲粗茶图鉴分类均为「抹茶宝可梦」",
-   "anchor": 4
+   "seg": 16,
+   "text": "来悲粗茶有「凡作的样子」和「杰作的样子」两种形态",
+   "anchor": 17
   }
  ],
  "relations": [
@@ -382,9 +140,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

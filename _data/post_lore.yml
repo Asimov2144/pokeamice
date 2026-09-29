@@ -190,6 +190,12 @@
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     url: //interview-nom-genesis-gamefreak/
     why: 同为初代红绿开发访谈，可对照开发人数与设计细节
+  - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
+    kind: responds
+    label: 后来回应了这篇
+    title: Game Atsumaru 独家纪实 增田顺一：“曾经有一群自制红白机卡带的人——Game Freak从同人志、自制FC到初代《红·绿》9人开发秘闻”
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E5%8E%86%E5%8F%B2%E7%89%B9%E8%BE%91/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    why: 增田顺一后谈红绿6年开发、核心9人，补充本篇说法
 1997-05-23-interview-famimaga-tajiri-pokemon2-secret:
   facets:
     people:
@@ -1697,6 +1703,213 @@
   - anchor: 9
     seg: 8
     text: 杉森建称封面神兽背负「大地与海洋」碰撞的核心母题
+2003-02-21-scan-ndream-084-ruby-sapphire-interview:
+  facets:
+    people:
+    - name: 杉森建
+      role: speaker
+      slug: sugimori-ken
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: 近藤
+      role: speaker
+    - name: 全体
+      role: speaker
+    - name: 田尻智
+      role: mentioned
+      slug: tajiri-satoshi
+    - name: 小田部先生
+      role: mentioned
+    places:
+    - name: 下北泽
+      what: GAME FREAK 最初的开发基地
+      world: real
+    - name: 丰缘
+      what: 本作舞台
+      world: game
+    - name: 福冈县
+      what: 杉森建出生地
+      world: real
+    - name: 江之岛
+      what: 增田看海之处
+      world: real
+    - name: 九州
+      what: 丰缘地区原型
+      world: real
+    - name: 彩悠市
+      what: 有很多花的城市
+      world: game
+    - name: 横滨
+      what: 增田的老家
+      world: real
+    - name: 冲绳
+      what: 加入游戏的地域元素
+      world: real
+    - name: 北海道
+      what: 杉森提到会考虑的地区
+      world: real
+    pokemon:
+    - name: 妙蛙花
+      ndex: 3
+    - name: 绿毛虫
+      ndex: 10
+    - name: 铁甲蛹
+      ndex: 11
+    - name: 皮卡丘
+      ndex: 25
+    - name: 可达鸭
+      ndex: 54
+    - name: 小拳石
+      ndex: 74
+    - name: 大钳蟹
+      ndex: 98
+    - name: 百变怪
+      ndex: 132
+    - name: 卡比兽
+      ndex: 143
+    - name: 果然翁
+      ndex: 202
+    - name: 木守宫
+      ndex: 252
+    - name: 火稚鸡
+      ndex: 255
+    - name: 力壮鸡
+      ndex: 256
+    - name: 火焰鸡
+      ndex: 257
+    - name: 水跃鱼
+      ndex: 258
+    - name: 沼跃鱼
+      ndex: 259
+    - name: 蛇纹熊
+      ndex: 263
+    - name: 直冲熊
+      ndex: 264
+    - name: 刺尾虫
+      ndex: 265
+    - name: 莲叶童子
+      ndex: 270
+    - name: 懒人獭
+      ndex: 287
+    - name: 过动猿
+      ndex: 288
+    - name: 请假王
+      ndex: 289
+    - name: 爆音怪
+      ndex: 295
+    - name: 露力丽
+      ndex: 298
+    - name: 优雅猫
+      ndex: 301
+    - name: 可多拉
+      ndex: 305
+    - name: 吼鲸王
+      ndex: 321
+    - name: 呆火驼
+      ndex: 322
+    - name: 猫鼬斩
+      ndex: 335
+    - name: 触手百合
+      ndex: 345
+    - name: 变隐龙
+      ndex: 352
+    - name: 彷徨夜灵
+      ndex: 356
+    - name: 盖欧卡
+      ndex: 382
+    - name: 固拉多
+      ndex: 383
+    works:
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 红
+      slug: null
+    - name: 宝可梦 水晶版
+      slug: crystal
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 塞尔达
+      slug: null
+    - name: 风之杖
+      slug: null
+    - name: 银河战士
+      slug: null
+    - name: GAME FREAK
+      slug: null
+  id: scan-ndream-084-ruby-sapphire-interview
+  observations:
+  - seg: 23
+    text: 近藤说从《红》到《水晶版》约7361万份，加上《红宝石·蓝宝石》约8000万份
+  - seg: 97
+    text: 增田说用表示人与人联结的「缘」字，把地名定为「丰缘」
+2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto:
+  facets:
+    people:
+    - name: CVG
+      role: speaker
+    - name: 杉森建
+      role: speaker
+      slug: sugimori-ken
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: 森本茂树
+      role: speaker
+      slug: morimoto-shigeki
+    places: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 木守宫
+      ndex: 252
+    - name: 大嘴娃
+      ndex: 303
+    - name: 波士可多拉
+      ndex: 306
+    - name: 变隐龙
+      ndex: 352
+    - name: 阿勃梭鲁
+      ndex: 359
+    - name: 固拉多
+      ndex: 383
+    works:
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 红宝石
+      slug: null
+    - name: 宝可梦 蓝宝石
+      slug: null
+    - name: 陆行鸟迷宫
+      slug: null
+    - name: 宝可梦 红宝石／蓝宝石
+      slug: null
+    - name: 红宝石／蓝宝石
+      slug: null
+    - name: 红／蓝
+      slug: null
+    - name: 金／银
+      slug: null
+    - name: 皮卡丘
+      slug: null
+    - name: 水晶
+      slug: null
+    - name: 宝可梦集换式卡牌游戏
+      slug: null
+    - name: 游戏王
+      slug: null
+    - name: Bat Wing
+      slug: null
+  id: interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
+  observations:
+  - anchor: 7
+    seg: 6
+    text: 增田顺一称GBA版可实现四人同时传输
+  - anchor: 13
+    seg: 12
+    text: 注称红宝石／蓝宝石在日本售出440万份
 2003-08-01-interview-nom-2003-pokemon-channel-staff:
   facets:
     people:
@@ -3476,6 +3689,12 @@
   - seg: 23
     text: 英文版中网站写作 screwbraker.com
   relations:
+  - id: scan-continue-vol23-gamefreak-special
+    kind: background
+    label: 为这篇提供背景
+    title: '[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
+    why: 同写《螺旋破碎机》杉森建与吉田宏信
   - id: gamefreak-director-053
     kind: continues
     label: 同一系列的前后篇
@@ -3941,78 +4160,91 @@
     text: 对冰箱、洗衣机这类东西，人们没有那么强烈的欲望
   - seg: 12
     text: 加上角色性（或品牌性），会让人更想要
-2005-08-18-scan-continue-vol23-gamefreak-special:
+2005-08-18-scan-continue-vol23-drill-dozer:
   facets:
     people:
-    - name: 田尻智
-      role: speaker
-      slug: tajiri-satoshi
     - name: 杉森建
       role: speaker
       slug: sugimori-ken
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
     - name: 吉田宏信
       role: speaker
       slug: yoshida-hironobu
-    - kind: staff
-      name: 江尾可奈子
-      role: speaker
-      slug: eo-kanako
-    - name: CONTINUE
-      role: speaker
-    - name: 增田顺一
+    - name: 宫昌太朗
       role: mentioned
-      slug: masuda-junichi
-    - name: 岩田聪
+    - name: 岩田社长
       role: mentioned
-      slug: iwata-satoru
     - name: 宫本茂
       role: mentioned
       slug: miyamoto-shigeru
     - name: 富野由悠季
       role: mentioned
-    - name: 峰田和伸
-      role: mentioned
-    - name: 内田名人
-      role: mentioned
     places:
-    - name: 任天堂总部
-      what: 提案试玩 Demo 处
-      world: real
-    - name: 永田町
-      what: 政策游戏取材地
-      world: real
     - name: 京都
-      what: 任天堂总部所在
+      what: 任天堂所在地
       world: real
+    pokemon: []
+    works:
+    - name: 螺旋破碎机
+      slug: null
+    - name: Quinty
+      slug: null
+    - name: 脉冲人
+      slug: null
+    - name: 钻头乐园
+      slug: null
+    - name: 泰姆波坎
+      slug: null
+    - name: 螺旋破坏者 轰振钻头乐园
+      slug: null
+  id: scan-continue-vol23-drill-dozer
+  observations:
+  - seg: 4
+    text: 杉森建称本作大约两年前开始制作
+  - seg: 5
+    text: 吉田宏信称《红宝石》《蓝宝石》做完后马上开始
+2005-08-18-scan-continue-vol23-gamefreak-special:
+  facets:
+    people:
+    - name: 田尻智
+      role: mentioned
+      slug: tajiri-satoshi
+    - name: 杉森建
+      role: mentioned
+      slug: sugimori-ken
+    - name: 增田顺一
+      role: mentioned
+      slug: masuda-junichi
+    - name: 海野隆雄
+      role: mentioned
+      slug: unno-takao
+    - kind: staff
+      name: 江尾可奈子
+      role: mentioned
+      slug: eo-kanako
+    - name: 吉田宏信
+      role: mentioned
+      slug: yoshida-hironobu
+    - name: 松崎浩之
+      role: mentioned
+    places: []
     pokemon:
     - name: 皮卡丘
       ndex: 25
     works:
-    - name: 螺旋破碎机 轰振旋转钻子
+    - name: 宝可梦
+      slug: null
+    - name: DOTZ
       slug: null
     - name: Quinty
       slug: null
-    - name: 脉冲超人
-      slug: null
-    - name: 时间飞船
-      slug: null
-    - name: 宝可梦 红宝石·蓝宝石
-      slug: ruby-sapphire
-    - name: 东京巴士案内2
-      slug: null
-    - name: 8bit
-      slug: null
-    - name: 红白机
+    - name: 螺旋破坏者
       slug: null
   id: scan-continue-vol23-gamefreak-special
   observations:
-  - seg: 31
-    text: 杉森建称本作立项大约是两年前左右
-  - seg: 32
-    text: 吉田宏信称立项在《宝可梦 红宝石·蓝宝石》开发刚结束后不久
+  - seg: 17
+    text: 田尻智说这次接触《DOTZ》让他想起GAME FREAK还是同人志的时候。
+  - seg: 19
+    text: 杉森建做的是Quinty的主人公（卡顿），称是出道作品的回忆像素。
   relations:
   - id: gamefreak-director-038
     kind: background
@@ -4125,6 +4357,12 @@
     title: 第38回
     url: /gamefreak-director/entry-038/
     why: 同谈GAME FREAK非宝可梦动作游戏《Screw Breaker》
+  - id: scan-continue-vol23-gamefreak-special
+    kind: background
+    label: 为这篇提供背景
+    title: '[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
+    why: 同谈《螺旋破碎机》诞生秘话与杉森建
   - id: gamefreak-director-030
     kind: continues
     label: 同一系列的前后篇
@@ -12700,6 +12938,92 @@
     title: 首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/
     why: 第178回紧接本篇，写小田原海边立誓
+2009-03-23-interview-gamepro-platinum-masuda-kawachimaru:
+  facets:
+    people:
+    - name: GamePro
+      role: speaker
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: 河内丸武史
+      role: speaker
+      slug: kawachimaru-takeshi
+    - name: McKinley Noble
+      role: mentioned
+    places:
+    - name: 雪城
+      what: 假设的冰属性城市
+      world: game
+    - name: 湾区
+      what: 任天堂总部所在
+      world: real
+    pokemon:
+    - name: 小火龙
+      ndex: 4
+    - name: 恰雷姆
+      ndex: 308
+    - name: 帝牙卢卡
+      ndex: 483
+    - name: 帕路奇亚
+      ndex: 484
+    - name: 骑拉帝纳
+      ndex: 487
+    works:
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦 钻石／珍珠
+      slug: null
+    - name: 宝可梦 红宝石／蓝宝石
+      slug: null
+    - name: 金／银
+      slug: null
+  id: interview-gamepro-platinum-masuda-kawachimaru
+  observations:
+  - anchor: 7
+    seg: 6
+    text: 增田顺一说 diamond 有爱的含义，pearl 有幸福的含义
+  - anchor: 11
+    seg: 10
+    text: 河内丸武史说设计了骑拉帝纳作为帝牙卢卡和帕路奇亚的对立面
+2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      slug: masuda-junichi
+    - name: 河内丸武史
+      role: mentioned
+      slug: kawachimaru-takeshi
+    places: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    works:
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 钻石/珍珠
+      slug: null
+    - name: 红/蓝
+      slug: null
+    - name: 金/银
+      slug: null
+    - name: 红宝石/蓝宝石
+      slug: null
+    - name: 宝可梦 黄
+      slug: null
+    - name: 魔兽世界
+      slug: null
+    - name: 最终幻想水晶编年史：时之回声
+      slug: null
+  id: interview-1up-why-gamers-still-play-pokemon-masuda
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 全系列全球销量总计超过1.86亿份
+  - anchor: 1
+    seg: 0
+    text: 《钻石/珍珠》发售两年后销量达1648万份
 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru:
   facets:
     people:
@@ -12789,6 +13113,19 @@
   - anchor: 8
     seg: 7
     text: 反转世界天空比神奥地区暗，瀑布水朝奇怪方向流
+  relations:
+  - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: Nintendo Acción No.199 独家专访增田顺一 × 河内丸武史：“时空对极的反物质世界”——《宝可梦 白金》骑拉帝纳、破损世界的物理颠覆与跨代羁绊
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
+    why: 同为增田顺一与河内丸武史谈《白金》的专访
+  - id: interview-g4tv-masuda-kawachimaru-platinum-particle-physics
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: G4TV 深度专访 增田顺一 × 河内丸武史：“《宝可梦 白金》爱因斯坦相对论、反物质粒子物理学与破损世界的哲学”
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E7%BA%B8%E5%AA%92%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%93%E8%AE%BF/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
+    why: 同为增田顺一与河内丸武史谈《白金》的专访
 2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178:
   facets:
     people:
@@ -13816,6 +14153,7 @@
   - anchor: 4
     seg: 3
     text: 河内丸武史说白金开发花的时间和DP一样长
+  relations:
   - id: interview-g4tv-platinum-masuda-kawachimaru
     kind: same-occasion
     label: 同一件事的另一种说法
@@ -13914,6 +14252,7 @@
   - anchor: 5
     seg: 4
     text: 河内丸武史称 CP 破坏影响了毁坏的世界构思
+  relations:
   - id: interview-g4tv-platinum-masuda-kawachimaru
     kind: same-occasion
     label: 同一件事的另一种说法
@@ -18779,105 +19118,174 @@
 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview:
   facets:
     people:
-    - name: 入江勝義
-      role: mentioned
-    - name: 鳥居康功
-      role: mentioned
-    - name: 五十嵐寛
-      role: mentioned
-    - name: 漁康智
-      role: mentioned
+    - name: 入江胜义
+      role: speaker
+      slug: ru-jiang-sheng-yi
+    - name: 五十岚宽
+      role: speaker
+    - name: 鸟居廉功
+      role: speaker
+    - name: 渔康智
+      role: speaker
+    - name: 一同
+      role: speaker
     places:
-    - name: 古代神殿
-      what: 收集石板的关卡
+    - name: 奥布利比亚地区
+      what: 本作故事舞台
       world: game
-    - name: 神殿
-      what: 联机征战的场所
+    - name: 奥布利维亚地区
+      what: 南方岛屿印象地区
       world: game
     pokemon:
+    - name: ピチュー
+      ndex: 172
     - name: 代欧奇希斯
       ndex: 386
-    - name: 皮丘
-      ndex: 172
-    - name: 雷公
-      ndex: 243
-    - name: 炎帝
-      ndex: 244
+    - name: 席多蓝恩
+      ndex: 485
+    - name: 玛纳霏
+      ndex: 490
+    - name: 轻飘飘
+      ndex: 592
+    - name: 谢米
+      ndex: 492
     works:
     - name: 宝可梦巡护员 光之轨迹
       slug: null
-    - name: 宝可梦巡护员 巴特纳吉
-      slug: null
     - name: 宝可梦巡护员
       slug: null
-    - name: MOTHER 2 ギーグの逆襲
+    - name: 宝可梦巡护员 巴特那吉
       slug: null
-    - name: EarthBound
+    - name: MOTHER2
       slug: null
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
   id: scan-ndream-2010-04-creatures-ranger-interview
   observations:
-  - seg: 10
-    text: 入江称画圈对开发者简单，但低龄玩家后半程高难BOSS门槛过高
-  - seg: 11
-    text: 五十岚称当时没有其他游戏需要玩家握触控笔疯狂画圈
+  - seg: 21
+    text: 2004年DS发售时Creatures内部提出做拓展宝可梦世界观的作品
+  - seg: 108
+    text: 《巴特那吉》有17种搭档宝可梦，可从中选一只同行
 2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal:
   facets:
-    people: []
-    places: []
+    people:
+    - name: 予想
+      role: speaker
+    places:
+    - name: 伙伴公园
+      what: GBA向DS传送处
+      world: game
+    - name: 关都地区
+      what: 第一作舞台
+      world: game
+    - name: 城都地区
+      what: 金·银舞台
+      world: game
+    - name: 丰缘地区
+      what: 红宝石·蓝宝石舞台
+      world: game
+    - name: 神奥地区
+      what: 钻石·珍珠舞台
+      world: game
+    - name: 东北地区
+      what: 预测的新舞台
+      world: real
+    - name: 中国·四国地区
+      what: 预测的新舞台
+      world: real
+    - name: 九州地区
+      what: 丰缘地区形状参照
+      world: real
     pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 钻角犀兽
+      ndex: 112
+    - name: 蜻蜻蜓
+      ndex: 193
+    - name: 土龙弟弟
+      ndex: 206
+    - name: 时拉比
+      ndex: 251
+    - name: 勾魂眼
+      ndex: 302
+    - name: 毒蔷薇
+      ndex: 315
+    - name: 含羞苞
+      ndex: 406
+    - name: 罗丝雷朵
+      ndex: 407
+    - name: 帕奇利兹
+      ndex: 417
+    - name: 路卡利欧
+      ndex: 448
+    - name: 超甲狂犀
+      ndex: 464
+    - name: 远古巨蜓
+      ndex: 469
     - name: 索罗亚
       ndex: 570
-    - name: 索罗亚克
+    - name: ゾロアーク
       ndex: 571
     works:
     - name: 宝可梦 黑·白
       slug: black-white
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-    - name: 宝可梦 红宝石·蓝宝石
-      slug: ruby-sapphire
-    - name: 宝可梦 金·银
-      slug: gold-silver
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 剧场版 幻影的霸者 索罗亚克
+    - name: 宝可梦 蓝
+      slug: blue-jp
+    - name: 宝可梦 皮卡丘
       slug: null
-    - name: 宝可梦巡护员 光之轨迹
+    - name: 宝可梦 火红·叶绿
+      slug: firered-leafgreen
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 宝可梦 水晶版
+      slug: crystal
+    - name: 宝可梦 心金·魂银
+      slug: heartgold-soulsilver
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 绿宝石
+      slug: emerald
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦不可思议的迷宫 暗之探险队
+      slug: null
+    - name: 剧场版宝可梦 钻石·珍珠 幻影的霸者 索罗亚克
       slug: null
   id: scan-ndream-2010-04-pokemon-bw-first-reveal
   observations:
-  - seg: 8
-    text: 完全新作定于2010年秋季发售，平台为Nintendo DS
-  - seg: 8
-    text: 系列全球累计销量突破1亿3000万套
+  - seg: 4
+    text: 距《钻石·珍珠》4年之后，2010年始动
+  - seg: 23
+    text: 完全新作大约每3～4年推出一款，同一硬件上推出第二款完全新作是首次
 2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective:
   facets:
     people:
-    - name: 油哥（オイル）
-      role: mentioned
-    - name: シンバラ教授
-      role: mentioned
-    - name: ハヤテ
-      role: mentioned
-    - name: ダズル
-      role: mentioned
-    - name: パネマ
-      role: mentioned
-    - name: ブッカー
-      role: mentioned
-    - name: 布克
-      role: mentioned
-    - name: 帕内玛
-      role: mentioned
-    - name: 信原教授
-      role: mentioned
     - name: 疾风
       role: mentioned
-    - name: 城
+    - name: 艾莉达
       role: mentioned
-    - name: 艾丽达
+    - name: 乔
       role: mentioned
-    - name: 冠
+    - name: 阿莉亚
+      role: mentioned
+    - name: 卡姆莉
+      role: mentioned
+    - name: 辛巴拉教授
+      role: mentioned
+    - name: 佐奈子议长
+      role: mentioned
+    - name: 巴罗
+      role: mentioned
+    - name: 赛文
+      role: mentioned
+    - name: 哈布
+      role: mentioned
+    - name: 克拉姆
       role: mentioned
     - name: 达兹尔
       role: mentioned
@@ -18885,90 +19293,84 @@
       role: mentioned
     - name: 伊织
       role: mentioned
-    - name: 油哥
+    - name: 米拉卡德
       role: mentioned
-    - name: 高桥伸之
+    - name: 欧伊尔
       role: mentioned
-    - name: 宫本茂
+    - name: 艾莲娜
       role: mentioned
-      slug: miyamoto-shigeru
+    - name: 拉库亚
+      role: mentioned
+    - name: 哈亚特
+      role: mentioned
     places:
-    - name: 奥卜利比亚地方
-      what: 海陆空巡护新天地
+    - name: 莱拉森林
+      what: 迷路老人所在
       world: game
-    - name: 菲蕾地方
-      what: 四大城镇温带盆地
+    - name: 西之环镇
+      what: 队长疾风驻地
       world: game
-    - name: 阿尔米亚地方
-      what: 多元文明大陆
+    - name: 冬镇
+      what: 艾莉达任队长的城镇
       world: game
-    - name: 雨滴岛
-      what: 主角幸存的白沙滩
+    - name: 比恩森林
+      what: 发现奥伊尔的火灾现场
       world: game
-    - name: 毕恩森林
-      what: 油哥被定名之地
+    - name: 菲奥雷地区
+      what: 第一作舞台
       world: game
-    - name: 苑之镇
-      what: 领取葛拉西蒂亚花
+    - name: 阿尔米亚地区
+      what: 第二作舞台
       world: game
-    - name: 毕恩村
-      what: 大妈妈美食所在
+    - name: 奥卜利比亚地区
+      what: 第三作舞台
       world: game
-    - name: 满金市
-      what: 领取葛拉西蒂亚花
+    - name: 福尔市
+      what: 菲奥雷首屈一指都市
       world: game
     pokemon:
-    - name: 急冻鸟
-      ndex: 144
-    - name: 闪电鸟
-      ndex: 145
-    - name: 火焰鸟
-      ndex: 146
+    - name: 黑鲁加
+      ndex: 229
     - name: 时拉比
       ndex: 251
-    - name: 拉帝欧斯
-      ndex: 381
-    - name: 代欧奇希斯
-      ndex: 386
-    - name: 草苗龟
-      ndex: 387
-    - name: 小火焰猴
-      ndex: 390
-    - name: 波加曼
-      ndex: 393
+    - name: 正电拍拍
+      ndex: 311
+    - name: 吼吼鲸
+      ndex: 320
     - name: 圆法师
       ndex: 401
-    - name: 头盖龙
-      ndex: 408
     - name: 盾甲龙
       ndex: 410
-    - name: 帕奇利兹
-      ndex: 417
-    - name: 小卡比兽
-      ndex: 446
-    - name: 不良蛙
-      ndex: 453
-    - name: 席多蓝恩
-      ndex: 485
-    - name: 玛纳霏
-      ndex: 490
-    - name: 洗翠狃拉
-      ndex: 215
+    - name: 雷公
+      ndex: 243
     works:
-    - name: 宝可梦巡护员 光之轨迹
-      slug: null
-    - name: 宝可梦巡护员 巴特纳吉
-      slug: null
     - name: 宝可梦巡护员
       slug: null
-    - name: 少年鬼忍传 旋
+    - name: 宝可梦巡护员 巴特那吉
+      slug: null
+    - name: 宝可梦巡护员 光的轨迹
+      slug: null
+    - name: 宝可梦
       slug: null
   id: scan-ndream-2010-04-pokemon-ranger-retrospective
   observations:
-  - seg: 2
-    text: 主角为搭档挡下头目红眼的光线后坠海
-  - seg: 5
-    text: 雨滴岛白沙滩上主角邂逅乌克丽丽皮丘与船匠老人布克
+  - seg: 4
+    text: 《宝可梦巡护员》2006年3月23日发售，4800日元（含税）
+  - seg: 64
+    text: 《巴特那吉》2008年3月20日发售，4800日元（含税）
+  relations:
+  - id: scan-ndream-2010-04-creatures-ranger-interview
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: Creatures 核心主创长篇专访：《光之轨迹》与系列演进秘话
+    url: /%E5%BC%80%E5%8F%91%E8%AE%BF%E8%B0%88/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-creatures-ranger-interview/
+    why: 同为2010年4月号《巡护员》系列特辑报道
+  - id: scan-ndream-2010-04-pokemon-bw-first-reveal
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
+    why: 同刊2010年4月号卷头特辑
 2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213:
   facets:
     people:
@@ -22046,12 +22448,24 @@
     title: 宝可梦 黑·白 美术诞生秘闻
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/
     why: 同为2010-11-20 Nintendo DREAM黑·白美术专访，均提17人
+  - id: interview-nintendodream-201-sugimori-bw-characters
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: Nintendo Dream 2011年1月号长篇专访：艺术总监杉森建详解《宝可梦 黑／白》角色设计秘话——透也与斗子打破10岁定律、神秘中性天才N、魁奇思与等离子团中世纪圣殿骑士风骨
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-201-sugimori-bw-characters/
+    why: 同为2010-11-20 Nintendo DREAM黑·白设计专访，杉森建谈设
   - id: scan-ndream-2011-04-bw-design-secrets-part2
     kind: continues
     label: 同一系列的前后篇
     title: 宝可梦黑·白诞生秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
     why: Nintendo DREAM黑·白设计访谈续篇，同批人谈设计
+  - id: interview-otonafami-sugimori-starters-victini
+    kind: background
+    label: 为这篇提供背景
+    title: 《Otona Fami》2011年2月号独家专访：艺术总监杉森建详解合众御三家设计秘辛——三大武将文明演变史、水水獭雀斑与“违和感”设计哲学、胜利之神比克提尼
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-otonafami-sugimori-starters-victini/
+    why: 杉森建谈156只全新宝可梦的立项背景
 2010-09-13-interview-weekly-ascii-masuda-bw:
   facets:
     people:
@@ -22489,6 +22903,12 @@
   - seg: 22
     text: 飞云市是合众地区也是历代所有地区中最大的城市
   relations:
+  - id: scan-ndream-2010-04-pokemon-bw-first-reveal
+    kind: background
+    label: 为这篇提供背景
+    title: 《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
+    why: 同刊报道《黑·白》新作与合众地区
   - id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
     kind: background
     label: 为这篇提供背景
@@ -23358,6 +23778,12 @@
     seg: 9
     text: 声音团队四人体制，成员既做BGM也做音效
   relations:
+  - id: interview-bw-music-collection-liner-notes
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
+    why: 同为2010年BW音频主创景山将太受访谈音乐
   - id: gamefreak-staff-203
     kind: same-occasion
     label: 同一件事的另一种说法
@@ -23627,6 +24053,12 @@
   - seg: 51
     text: 《再见》与片尾曲等约花半天一口气写出
   relations:
+  - id: interview-bw-music-collection-liner-notes
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
+    why: 同为黑·白声音主创访谈，景山谈声音主题
   - id: scan-ndream-2014-01-xy-sound-team-interview
     kind: continues
     label: 同一系列的前后篇
@@ -23893,6 +24325,12 @@
   - seg: 9
     text: 开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成
   relations:
+  - id: scan-ndream-2010-04-pokemon-bw-first-reveal
+    kind: background
+    label: 为这篇提供背景
+    title: 《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
+    why: 同刊Nintendo DREAM报道第五世代新作公布，含系列销量回顾
   - id: scan-ndream-2010-11-five-regions-guide
     kind: background
     label: 为这篇提供背景
@@ -24493,6 +24931,12 @@
     title: 宝可梦诞生秘话 29个角色的幕后
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-characters/
     why: 同讲主人公年龄提高与角色设计幕后
+  - id: interview-famitsu-1146-matsumiya-bw-scenario
+    kind: background
+    label: 为这篇提供背景
+    title: 週刊Fami通 No.1146 独家专访剧本主笔松宫稔展：“当双方的主张看起来都有道理时，人究竟会相信什么”——《宝可梦 黑／白》“宝可梦解放”、神秘少年N与双英雄传说诞生原点
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
+    why: 同涉等离子队宝可梦解放主题与N
 2011-01-24-gamefreak-staff-216:
   facets:
     people:
@@ -26232,6 +26676,12 @@
     title: 宝可梦诞生秘话 总集篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/
     why: 同为2011-05-21附录，总集篇与人物篇
+  - id: interview-nintendodream-201-sugimori-bw-characters
+    kind: background
+    label: 为这篇提供背景
+    title: Nintendo Dream 2011年1月号长篇专访：艺术总监杉森建详解《宝可梦 黑／白》角色设计秘话——透也与斗子打破10岁定律、神秘中性天才N、魁奇思与等离子团中世纪圣殿骑士风骨
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-201-sugimori-bw-characters/
+    why: 同述主角年龄上调与博士改女性
   - id: scan-ndream-2011-05-bw-design-secrets-ex
     kind: continues
     label: 同一系列的前后篇
@@ -28140,6 +28590,12 @@
   - seg: 27
     text: 1～2 小节以 C3 为基准 0，白键为 1，音符按素数下降
   relations:
+  - id: interview-famitsu-1146-matsumiya-bw-scenario
+    kind: background
+    label: 为这篇提供背景
+    title: 週刊Fami通 No.1146 独家专访剧本主笔松宫稔展：“当双方的主张看起来都有道理时，人究竟会相信什么”——《宝可梦 黑／白》“宝可梦解放”、神秘少年N与双英雄传说诞生原点
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
+    why: 松宫谈N构想原点，早于本篇增田公开N设定
   - id: scan-ndream-bw-tanjou-hiwa-2011-characters
     kind: background
     label: 为这篇提供背景
@@ -28216,6 +28672,12 @@
   - seg: 15
     text: 1989年《Quinty》完成，田尻为发售成立GAME FREAK株式会社
   relations:
+  - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
+    kind: background
+    label: 为这篇提供背景
+    title: Game Atsumaru 独家纪实 增田顺一：“曾经有一群自制红白机卡带的人——Game Freak从同人志、自制FC到初代《红·绿》9人开发秘闻”
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E5%8E%86%E5%8F%B2%E7%89%B9%E8%BE%91/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    why: 同为增田谈Quinty版税成立Game Freak
   - id: interview-game-informer-game-freak-origins-pre-pokemon
     kind: background
     label: 为这篇提供背景
@@ -32925,6 +33387,12 @@
     title: NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学
     url: //interview-niconico-gamefreak-origins-masuda/
     why: 同为2014年增田顺一回顾《旋转方块》与自制FC的专访
+  - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: Game Atsumaru 独家纪实 增田顺一：“曾经有一群自制红白机卡带的人——Game Freak从同人志、自制FC到初代《红·绿》9人开发秘闻”
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E5%8E%86%E5%8F%B2%E7%89%B9%E8%BE%91/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    why: 同为2014年增田顺一谈《Quinty》与自制FC的专访
 2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins:
   facets:
     people:
@@ -41139,6 +41607,65 @@
     title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/
     why: S.A.隶属研究开发部，同部门背景
+2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra:
+  facets:
+    people:
+    - name: 海野隆雄
+      role: mentioned
+      slug: unno-takao
+    - name: 氏家淳子
+      role: mentioned
+      slug: shi-jia-chun-zi
+    - name: 中广健吾
+      role: mentioned
+      slug: zhong-guang-jian-wu
+    - name: 畠 祐贵
+      role: mentioned
+    - name: 石黑真照
+      role: mentioned
+    - name: 川野健太
+      role: mentioned
+    - name: 山本裕辉
+      role: mentioned
+    - name: 小野宪史
+      role: mentioned
+      slug: xiao-ye-xian-shi
+    places:
+    - id: carrot_tower
+      name: 胡萝卜塔
+      world: real
+    - name: 东京都千代田区富士见2-10-2 饭田桥Grand Bloom 23F
+      what: Creatures所在地
+      world: real
+    - name: 东京都世田谷区太子堂4-1-1 胡萝卜塔22F
+      what: GAME FREAK所在地
+      world: real
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    works:
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 X·Y
+      slug: x-y
+    - name: 宝可梦巡护员
+      slug: null
+    - name: 宝可公园
+      slug: null
+    - name: 名侦探皮卡丘 ～新组合诞生～
+      slug: null
+    - name: GIGA WRECKER
+      slug: null
+    - name: 接龙马
+      slug: null
+  id: scan-cgworld-2017-07-game-graphics-studio-extra
+  observations:
+  - seg: 11
+    text: 工作室所属3DCG美术师22名，希望数年翻倍
+  - seg: 34
+    text: 《太阳·月亮》全球销量1,544万份
 2017-06-10-scan-cgworld-2017-07-pokemon-3d-pipeline:
   facets:
     people: []
@@ -44954,155 +45481,200 @@
     text: 访客区入内部办公区分为中庭与栖息地两区
 2020-08-18-corporate-topic-01-pokefuta-manhole-travel:
   facets:
-    people:
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places:
-    - name: 指宿车站
-      what: 首枚井盖安置处
+    - name: 指宿站
+      what: 首块宝可盖设置处
       world: real
     - name: 鹿儿岛县
       what: 指宿市所在县
       world: real
     - name: 指宿市
-      what: 首枚井盖所在地
+      what: 首块宝可盖设置地
       world: real
     - name: 北海道
-      what: 井盖铺设地区
+      what: 宝可盖活跃地区
       world: real
     - name: 比布町
-      what: 防雪帐篷井盖地
+      what: 设置宝可盖的町
       world: real
     pokemon:
-    - name: 伊布
+    - name: ロコン
+      ndex: 37
+    - name: イーブイ
       ndex: 133
-    works:
-    - name: 宝可梦井盖
-      slug: null
-    - name: ポケふた
-      slug: null
-    - name: 宝可梦地方创生
-      slug: null
+    - name: ポッチャマ
+      ndex: 393
+    works: []
   id: corporate-topic-01-pokefuta-manhole-travel
   observations:
   - anchor: 3
     seg: 2
     text: 2018年12月20日在鹿儿岛县指宿市举行井盖揭幕仪式
-  - anchor: 4
-    seg: 3
-    text: 指宿市政府提议任命伊布为体育与文化交流大使
+  - anchor: 15
+    seg: 14
+    text: 宝可梦井盖直径63厘米，每枚设计不同，不大量生产
+  relations:
+  - id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
+    why: 同为官网Topics系列第01与第02篇
+  - id: corporate-topic-03-pokemon-smile-gamification-health
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
+    why: 同为官网Topics系列第01与第03篇
+  - id: corporate-topic-04-harapeko-betbeter-ai-recycling
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：AI赋能“饥饿臭泥”让垃圾分类成为奇妙乐趣
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-04-harapeko-betbeter-ai-recycling/
+    why: 同为官网Topics系列第01与第4篇
 2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology:
   facets:
     people:
-    - name: Daniel Arsham
+    - name: 丹尼尔·阿尔轩
+      role: mentioned
+    - name: 金·琼斯
       role: mentioned
     - name: 藤原浩
       role: mentioned
-    - name: 金·琼斯（Kim Jones）
-      role: mentioned
     places:
-    - name: 东京银座
-      what: 快闪店举办地
+    - name: THE CONVENI
+      what: 快闪活动地点
       world: real
-    - name: 东京涩谷
-      what: NANZUKA画廊所在
+    - name: DOVER STREET MARKET
+      what: 快闪活动地点
+      world: real
+    - name: NANZUKA
+      what: 作品展览画廊
       world: real
     - name: PARCO MUSEUM TOKYO
-      what: 展出场地
+      what: 作品展览场馆
       world: real
-    - name: 俄亥俄州
-      what: 丹尼尔出生地
+    - name: 银座
+      what: 快闪店举办地
       world: real
-    - name: 纽约
-      what: 丹尼尔创作大本营
-      world: real
-    - name: 巴黎
-      what: 迪奥大秀举办地
+    - name: 涩谷区
+      what: 展览所在地
       world: real
     pokemon:
-    - name: 喷火龙
-      ndex: 6
     - name: 皮卡丘
       ndex: 25
     works:
-    - name: Relics of Kanto Through Time
+    - name: THUNDERBOLT PROJECT BY FRGMT & POKÉMON
       slug: null
     - name: Daniel Arsham × Pokémon
       slug: null
-    - name: THUNDERBOLT PROJECT BY FRGMT & POKÉMON
+    - name: Relics of Kanto Through Time（公元3020年发掘的宝可梦 红·绿的世界）
       slug: null
   id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
   observations:
-  - anchor: 3
-    seg: 2
-    text: 丹尼尔1980年生于美国俄亥俄州，以纽约为创作大本营
-  - anchor: 4
-    seg: 3
-    text: 丹尼尔与宝可梦的正式相遇始于2018年，他走访了银座快闪店
+  - anchor: 5
+    seg: 4
+    text: 丹尼尔与宝可梦相遇于2018年银座的快闪店
+  - anchor: 10
+    seg: 9
+    text: 概念由丹尼尔提出，以自己寄予情感的宝可梦为题材
+  relations:
+  - id: corporate-topic-01-pokefuta-manhole-travel
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
+    why: 同为官网Topics系列第01与第02篇
+  - id: corporate-topic-03-pokemon-smile-gamification-health
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
+    why: 同为官网Topics系列第02与第03篇
+  - id: corporate-topic-04-harapeko-betbeter-ai-recycling
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：AI赋能“饥饿臭泥”让垃圾分类成为奇妙乐趣
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-04-harapeko-betbeter-ai-recycling/
+    why: 同为官网Topics系列第02与第4篇
 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health:
   facets:
     people:
-    - name: LITALICO
-      role: mentioned
-    - name: カナヘイ（卡娜赫拉）
-      role: mentioned
-    - name: 前田高志（NASU）
-      role: mentioned
-    - name: 裏谷玲央
-      role: mentioned
     - name: カナヘイ
       role: mentioned
     - name: 前田高志
       role: mentioned
+    - name: 裏谷玲央
+      role: mentioned
     places: []
     pokemon: []
     works:
-    - name: Pokémon Smile
+    - name: 宝可梦微笑
       slug: null
-    - name: ポケモンスマイル
-      slug: null
-    - name: 怪物猎人
+    - name: 怪物猎人系列
       slug: null
   id: corporate-topic-03-pokemon-smile-gamification-health
   observations:
   - anchor: 3
     seg: 2
-    text: 调查显示95.4%母亲认同儿童刷牙重要，98%坦言无法完美督促
-  - anchor: 18
-    seg: 17
-    text: 应用免费开放，支持12种语言，在150多个国家和地区上线
+    text: 养育未入学儿童的母亲中95.4%认为孩子刷牙很重要，98%回答没能做到完美
+  - anchor: 12
+    seg: 11
+    text: LITALICO负责编程，宝可梦负责游戏策划和开发团队的人员配置
+  relations:
+  - id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
+    why: 同为官网Topics系列第02篇，本篇为第03篇
+  - id: corporate-topic-01-pokefuta-manhole-travel
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
+    why: 同为官网Topics系列第01篇，本篇为第03篇
 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling:
   facets:
-    people:
-    - name: 日本コカ・コーラ株式会社
-      role: mentioned
-    - name: 日本アイ・ビー・エム株式会社
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places:
-    - name: 池袋太阳城
-      what: 首台装置落成地
-      world: real
-    - name: 东京都池袋太阳城（Sunshine City）
-      what: 装置实装地点
+    - name: 东京池袋的阳光城
+      what: 首次设置回收箱
       world: real
     pokemon:
-    - name: 臭泥
+    - name: 阿罗拉臭泥
       ndex: 88
     works:
-    - name: はらぺこベトベター ～ベトベターの満腹大作戦～
-      slug: null
-    - name: IBM Watson
+    - name: 肚子饿的臭泥 ～臭泥的吃饱大作战～
       slug: null
   id: corporate-topic-04-harapeko-betbeter-ai-recycling
   observations:
   - anchor: 4
     seg: 3
-    text: 三家企业志愿员工历时约一年完成软硬件构想与装置制作
-  - anchor: 6
-    seg: 5
-    text: 摄像头抓拍后由IBM Watson甄别PET瓶、玻璃瓶或易拉罐
+    text: 项目由日本可口可乐、日本IBM、宝可梦三家公司的志愿员工历时约一年构想制作。
+  - anchor: 10
+    seg: 9
+    text: 2020年11月首次设置于东京池袋的阳光城，此后探讨向各地推广。
+  relations:
+  - id: corporate-topic-01-pokefuta-manhole-travel
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
+    why: 同为官网Topics系列，本篇为第4篇，该篇为第01篇
+  - id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
+    why: 同为官网Topics系列，该篇为第02篇
+  - id: corporate-topic-03-pokemon-smile-gamification-health
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
+    why: 同为官网Topics系列，该篇为第03篇
 2020-12-21-interview-nikkei-ishihara-go-boardgames:
   facets:
     people:
@@ -45341,45 +45913,30 @@
 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure:
   facets:
     people:
-    - name: 津田明子
+    - name: 松丸亮吾
       role: mentioned
     - name: 本山敬一
       role: mentioned
-    - name: 松丸亮吾
+    - name: 津田明子
       role: mentioned
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
     places:
-    - name: 伊奈木之森
-      what: 探险核心舞台
+    - name: 稻城森林
+      what: 冒险舞台
       world: real
-    - name: 读卖乐园
-      what: 森林所在地
-      world: real
-    - name: 东京近郊
-      what: 原始自然风貌
-      world: real
-    pokemon:
-    - name: 绿毛虫
-      ndex: 10
-    - name: 派拉斯
-      ndex: 46
+    pokemon: []
     works:
     - name: Pokémon WONDER
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: Pokémon GO
+    - name: 宝可梦GO
       slug: null
   id: corporate-topic-07-pokemon-wonder-nature-forest-adventure
   observations:
-  - anchor: 4
-    seg: 3
-    text: 伊奈木之森位于读卖乐园深处，近二十年未对外开放
-  - anchor: 12
-    seg: 11
-    text: 全体创作者提出的设计方案超过100套，并在森林现场实地盲测
+  - anchor: 5
+    seg: 4
+    text: 参加者成为宝可梦调查员，在约4500平方米的稻城森林中调查。
+  - anchor: 19
+    seg: 18
+    text: 全体相关人员提出的点子超过100个，经反复测试与调整。
 2021-10-25-interview-hobonichi-2021-kubo:
   facets:
     people:
@@ -46393,29 +46950,43 @@
     people:
     - name: Yaffle
       role: mentioned
+    - name: Daichi Yamamoto
+      role: mentioned
+    - name: AAAMYYY
+      role: mentioned
+    - name: 空音
+      role: mentioned
+    - name: yama
+      role: mentioned
     places: []
     pokemon: []
     works:
-    - name: Pokémon DP Sound Library
-      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
     - name: 宝可梦 钻石·珍珠
       slug: diamond-pearl
     - name: Reconnect
       slug: null
     - name: Grown
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
+    - name: Pokémon DP Sound Library
+      slug: null
     - name: Pokémon Music Spotlight
+      slug: null
+    - name: Pokémon Game Sound Library
+      slug: null
+    - name: 'Pokémon 25: Yaffle - Reconnect（feat. Daichi Yamamoto & AAAMYYY）'
+      slug: null
+    - name: 'Pokémon 25: Yaffle - Grown（feat. 空音 & yama）'
       slug: null
   id: corporate-topic-08-pokemon-dp-sound-library-music
   observations:
-  - anchor: 5
-    seg: 4
-    text: 2021年早春，宝可梦公司内部员工发起Pokémon Music Spotlight项目
   - anchor: 7
     seg: 6
-    text: Pokémon DP Sound Library免费开放《宝可梦 钻石·珍珠》全部149首BGM与环境音效
+    text: 2021年初春，内部项目Pokémon Music Spotlight启动
+  - anchor: 10
+    seg: 9
+    text: Pokémon DP Sound Library可免费欣赏钻石·珍珠BGM及效果音全部149曲
 2022-04-10-interview-pokemon-recruit-growth:
   facets:
     people:
@@ -47293,39 +47864,32 @@
     - name: 汤山邦彦
       role: mentioned
       slug: yuyama-kunihiko
-    - name: 冨安大贵
+    - name: 富安大贵
       role: mentioned
     - name: 景山将太
       role: mentioned
       slug: kageyama-shota
-    places:
-    - name: 筑波大学国际统合睡眠医科学研究机构
-      what: 柳泽正史所属机构
-      world: real
+    places: []
     pokemon:
     - name: 卡比兽
       ndex: 143
     works:
-    - name: Pokémon Sleep
-      slug: null
-    - name: 卡比兽
-      slug: null
     - name: Pokémon GO
       slug: null
     - name: Pokémon Smile
       slug: null
-    - name: 宝可梦 心金·魂银
-      slug: heartgold-soulsilver
-    - name: 宝可梦 黑·白
-      slug: black-white
+    - name: Pokémon Sleep
+      slug: null
+    - name: 宝可梦
+      slug: null
   id: corporate-topic-09-pokemon-sleep-science-and-dream
   observations:
-  - anchor: 3
-    seg: 2
-    text: 宝可梦公司调研称近九成受访者看重睡眠对身心的疗愈价值
-  - anchor: 3
-    seg: 2
-    text: 同一调研中超过半数现代人对自己的睡眠质量不满与焦虑
+  - anchor: 4
+    seg: 3
+    text: 约九成人为了身心疗愈而重视睡眠时间，约半数人对睡眠不满意。
+  - anchor: 12
+    seg: 11
+    text: 因视频会导致睡回笼觉，改为拍摄并收集宝可梦睡脸的形式。
 2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai:
   facets:
     people:
@@ -47510,30 +48074,20 @@
     why: 同为2023年宝可梦公司官方专访系列，分数据篇与IT篇
 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music:
   facets:
-    people:
-    - name: 初音ミク
-      role: mentioned
-    - name: Crypton Future Media
-      role: mentioned
-    - name: 初音未来
-      role: mentioned
-    - name: 克理普敦未来媒体
-      role: mentioned
+    people: []
     places: []
     pokemon: []
     works:
-    - name: Project VOLTAGE 18 Types/Songs
-      slug: null
-    - name: Pokémon Music Spotlight
+    - name: 宝可梦 feat.初音未来 Project VOLTAGE 18 Types/Songs
       slug: null
   id: corporate-topic-11-project-voltage-hatsune-miku-music
   observations:
   - anchor: 8
     seg: 7
-    text: 初音未来2007年问世，与宝可梦同发轫于软件代码世界，以电子合成音为声音原点
+    text: 初音未来2007年登场，与宝可梦一样原点在于软件
   - anchor: 13
     seg: 12
-    text: 企划打造18套专属角色设计与插画，并制作18首原创单曲及MV
+    text: 为展现18种个性，制作18个角色设计和插画、18首乐曲和MV
 2024-01-15-interview-pokemon-center-overseas-taipei-singapore:
   facets:
     people:
@@ -47638,382 +48192,277 @@
     people:
     - name: 竹内玛莉亚
       role: mentioned
-    - name: 小川育
+    - name: 春
       role: mentioned
-    places: []
+    - name: 小春
+      role: mentioned
+    - name: 有纱
+      role: mentioned
+    - name: 平良
+      role: mentioned
+    places:
+    - name: 宝可梦度假村
+      what: 故事舞台
+      world: game
     pokemon:
     - name: 可达鸭
       ndex: 54
     works:
-    - name: 宝可梦礼宾部
-      slug: null
-    - name: Pokémon Concierge
-      slug: null
-    - name: 君の居場所
+    - name: 宝可梦 礼宾部
       slug: null
     - name: 多摩君
       slug: null
+    - name: 君の居場所（Have a Good Time Here）
+      slug: null
   id: corporate-topic-13-pokemon-concierge-stop-motion-craft
   observations:
-  - anchor: 4
-    seg: 3
-    text: 定格动画指动画师每变动几毫米姿态便拍一帧，再连续串联播放
-  - anchor: 14
-    seg: 13
-    text: 竹内玛莉亚研读剧本大纲与角色人设后应允，谱写主题单曲《君の居場所》
+  - anchor: 3
+    seg: 2
+    text: 《宝可梦 礼宾部》由Netflix与株式会社宝可梦共同制作
+  - anchor: 5
+    seg: 4
+    text: 制作团队请来以《多摩君》闻名的dwarf studios
 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility:
   facets:
-    people:
-    - name: トヨタ技術会
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places:
     - name: 爱知县
-      what: 问卷征集对象地区
+      what: 问卷对象所在地
       world: real
     - name: 东京中城日比谷
-      what: 实车展出地
+      what: 展示试驾会场地
       world: real
     - name: 丰田市
-      what: 心动世界举办地
+      what: 举办活动之地
       world: real
     pokemon:
     - name: 密勒顿
       ndex: 1008
     works:
-    - name: 丰田密勒顿企划
-      slug: null
-    - name: Toyota Engineering Society MIRAIDON
-      slug: null
     - name: 宝可梦 紫
-      slug: null
-    - name: 密勒顿
-      slug: null
-    - name: 心动世界
-      slug: null
-    - name: 闪电冲锋
       slug: null
   id: corporate-topic-14-toyota-miraidon-project-future-mobility
   observations:
-  - anchor: 4
-    seg: 3
-    text: 2023年度以爱知县小学生为对象征集梦想的未来移动载具
-  - anchor: 10
-    seg: 9
-    text: 项目初期约30名成员，最终超过300名专家加入
+  - anchor: 5
+    seg: 4
+    text: 2023年度以爱知县小学生为对象实施问卷调查，收集到8000个创意
+  - anchor: 16
+    seg: 15
+    text: 项目成员起初约30人，最终扩大到300人规模
+  relations:
+  - id: corporate-topic-15-pokemon-battle-scope-ai-esports
+    kind: continues
+    label: 同一系列的前后篇
+    why: Topics第15篇，紧接本篇第14篇的系列下一篇
 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports:
   facets:
-    people:
-    - name: HEROZ
-      role: mentioned
-    - name: 読売新聞社
-      role: mentioned
-    - name: 日本将棋連盟
-      role: mentioned
+    people: []
     places: []
     pokemon: []
     works:
-    - name: Pokémon Battle Scope
+    - name: 将棋WARS
       slug: null
-    - name: ポケモン竜王戦2024
+    - name: 宝可梦龙王战2024
       slug: null
-    - name: ポケットモンスター スカーレット・バイオレット
-      slug: null
-    - name: 将棋Wars
+    - name: ポケモン竜王戦
       slug: null
   id: corporate-topic-15-pokemon-battle-scope-ai-esports
   observations:
   - anchor: 5
     seg: 4
-    text: 株式会社宝可梦与HEROZ共同研发PBS，用于实时可视化对战战况
-  - anchor: 21
-    seg: 20
-    text: PBS立项之初便瞄准2024年2月25日宝可梦龙王战2024游戏部门实装
+    text: 株式会社宝可梦与HEROZ共同开发AI工具PBS，用于可视化对战战况
+  - anchor: 11
+    seg: 10
+    text: 击中要害约4%概率增加伤害，另有麻痹、毒、灼伤、睡眠等状态异常
 2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo:
   facets:
-    people:
-    - name: 七條甘春堂（Shichijo Kanshundo）
-      role: mentioned
-    - name: 七條甘春堂
-      role: mentioned
+    people: []
     places:
     - id: venue_7b8b1e88a1
       name: 七条甘春堂
       world: real
-    - name: 七条甘春堂京都本店
-      what: 百年和果子老铺
+    - name: 七条甘春堂总店
+      what: 和菓子老字号总店
+      world: real
+    - name: 京都市東山区七条
+      what: 总店所在地
       world: real
     - name: 京都
-      what: 千年古都
+      what: 京菓子产地
       world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    - name: 皮皮
+    - name: ピッピ
       ndex: 35
     - name: 冰鬼护
       ndex: 362
+    - name: オドリドリ
+      ndex: 741
     works:
-    - name: ポケモン京菓子
-      slug: null
-    - name: ポケモンとめぐる京菓子の世界
-      slug: null
-    - name: 宝可梦京菓子
-      slug: null
-    - name: 宝可梦とめぐる京菓子の世界
+    - name: 宝可梦
       slug: null
   id: corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo
   observations:
   - anchor: 3
     seg: 2
-    text: 七条甘春堂自江户时代起立于京都古刹之侧，与宝可梦合作创制宝可梦京菓子
-  - anchor: 7
-    seg: 6
-    text: 挑起研发制造的匠人多是看宝可梦动画、捧Game Boy长大的一代，有人达成全国图鉴全收集
+    text: 七条甘春堂是自江户时代起在京都设总店的老字号和菓子店
+  - anchor: 4
+    seg: 3
+    text: 京菓子分上生菓子、半生菓子、干菓子等种类
 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support:
   facets:
-    people:
-    - name: 一般財団法人ポケモン・ウィズ・ユー財団
-      role: mentioned
-    - name: 株式会社ポケモン デザインチーム
-      role: mentioned
-    - name: 北國新聞社
-      role: mentioned
-    - name: NHK交響楽団
-      role: mentioned
+    people: []
     places:
     - name: 石川县
-      what: 发行与援助地区
+      what: 报纸发行地
       world: real
     - name: 能登半岛
       what: 地震灾区
       world: real
-    - name: 阿苏
-      what: 熊本地震灾区
+    - name: 正覚寺
+      what: 儿童节活动会场
       world: real
-    - name: 丰缘
-      what: 宝可梦地区
-      world: game
-    - name: 轮岛
-      what: 能登灾区
+    - name: 轮岛市
+      what: 活动会场所在市
       world: real
-    - name: 东北
-      what: 过往援助灾区
-      world: real
-    - name: 熊本
-      what: 过往援助灾区
-      world: real
-    - name: 关都
-      what: 宝可梦地区
-      world: game
-    - name: 城都
-      what: 宝可梦地区
-      world: game
-    - name: 帕底亚地区
-      what: 宝可梦地区
-      world: game
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    - name: 信使鸟
-      ndex: 225
-    - name: 耿鬼
-      ndex: 94
     works:
-    - name: 被災地支援「ピカチュウかぶと」（皮卡丘折纸头盔）
-      slug: null
-    - name: 『ポケモンといつもいっしょ～せいかつおうえんブック～』
-      slug: null
-    - name: 被災地支援「ピカチュウかぶと」
-      slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦 朱／紫
-      slug: null
-    - name: 与宝可梦一直在一起～灾区生活应援手账～
+    - name: 宝可梦 朱·紫
+      slug: scarlet-violet
+    - name: 和宝可梦永远在一起～生活支援手册～
       slug: null
   id: corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support
   observations:
   - anchor: 3
     seg: 2
-    text: 《北国新闻》跨页中缝印有皮卡丘黄色特刊广告，剪裁折叠可成皮卡丘武士头盔
-  - anchor: 4
-    seg: 3
-    text: 该企划由一般财团法人POKÉMON with YOU财团在5月5日儿童节推行
+    text: 《北国新闻》内页刊登皮卡丘配色广告，剪下折叠可做成头盔。
+  - anchor: 9
+    seg: 8
+    text: 首次提供皮卡丘头盔是在东日本大地震后第二个月的儿童节。
 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience:
   facets:
-    people:
-    - name: 株式会社ポケモン 商品企画チーム
-      role: mentioned
-    - name: 株式会社ポケモン カフェ事業チーム
-      role: mentioned
-    - name: 株式会社ポケモン アートディレクションチーム
-      role: mentioned
+    people: []
     places:
     - name: 日本桥
       what: 初代宝可梦中心所在
       world: real
-    - name: 北上乡
-      what: 游戏舞台
-      world: game
-    - name: Pokémon Center TOKYO DX
-      what: 官方宝可梦咖啡厅
+    - name: 宝可梦中心TOKYO DX
+      what: 附设宝可梦咖啡馆
       world: real
-    - name: Pokémon Center OSAKA DX
-      what: 官方宝可梦咖啡厅
-      world: real
-    - name: 心斋桥
-      what: 大阪所在地
+    - name: 宝可梦中心OSAKA DX
+      what: 附设宝可梦咖啡馆
       world: real
     pokemon:
-    - name: 斯魔茶
+    - name: チャデス
       ndex: 1012
     - name: 来悲粗茶
       ndex: 1013
     works:
-    - name: ポケットモンスター スカーレット・バイオレット ゼロの秘宝
-      slug: null
-    - name: 喫茶チャデス
-      slug: null
-    - name: ポケモンカフェ（Pokemon Cafe）
-      slug: null
-    - name: 宝可梦 朱／紫 零之秘宝
-      slug: null
-    - name: ポケモンカフェ
+    - name: 宝可梦 朱·紫 零之秘宝
       slug: null
   id: corporate-topic-18-kissa-poltchageist-matcha-tea-experience
   observations:
-  - anchor: 3
-    seg: 2
-    text: 企划核心概念是「由宝可梦们来店里帮忙打理的茶馆」
-  - anchor: 4
-    seg: 3
-    text: 斯魔茶与来悲粗茶图鉴分类均为「抹茶宝可梦」
+  - anchor: 13
+    seg: 12
+    text: 主打小物件主题是茶入和茶碗，均采用陶器制作
+  - anchor: 17
+    seg: 16
+    text: 来悲粗茶有「凡作的样子」和「杰作的样子」两种形态
+  relations:
+  - id: corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦官方专题：传统与革新的甘甜共鸣——“宝可梦京菓子”与七条甘春堂
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo/
+    why: 同为抹茶/和菓子传统点心跨界，京菓子先例
+  - id: corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：送往能登地震灾区孩子的“皮卡丘武士头盔”——传统折纸与心灵抚慰
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support/
+    why: Topics第17篇，本篇为第18篇，前后相邻
 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge:
   facets:
-    people:
-    - name: カルチュア・コンビニエンス・クラブ株式会社（CCC）
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
-    - name: カルチュア・コンビニエンス・クラブ株式会社
-      role: mentioned
+    people: []
     places:
-    - name: 涩谷十字路口
-      what: 涩谷的地标路口
+    - name: SHIBUYA TSUTAYA
+      what: 卡牌休息室所在
       world: real
     - name: JR涩谷站
-      what: 前往的站点
-      world: real
-    - name: SHIBUYA TSUTAYA
-      what: 沙龙所在建筑
+      what: 通往店铺的起点
       world: real
     - name: 涩谷
-      what: 沙龙所在地
+      what: 店铺所在街区
       world: real
     pokemon: []
     works:
-    - name: POKÉMON CARD LOUNGE
+    - name: 宝可梦卡牌游戏 Classic
       slug: null
-    - name: ポケモンカードゲーム Classic
-      slug: null
-    - name: SHIBUYA TSUTAYA
+    - name: 宝可梦卡牌游戏 第1弹 扩充包
       slug: null
   id: corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge
   observations:
   - anchor: 3
     seg: 2
-    text: 穿过JR涩谷站前十字路口，乘梯直抵SHIBUYA TSUTAYA五楼。
-  - anchor: 27
-    seg: 26
-    text: 2024年4月25日POKÉMON CARD LOUNGE随SHIBUYA TSUTAYA重开迎宾，预约全月席位秒罄。
+    text: SHIBUYA TSUTAYA 5楼墙面装饰用间接照明浮现草、火、水等标志
+  - seg: 15
+    text: 含个室在内共82席，进入休息区需付费
 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history:
   facets:
-    people:
-    - name: マーベラス（Marvelous）
-      role: mentioned
-    - name: タカラトミーアーツ（Takara Tomy Arts）
-      role: mentioned
-    - name: マーベラス
-      role: mentioned
-    - name: タカラトミーアーツ
-      role: mentioned
+    people: []
     places: []
     pokemon: []
     works:
-    - name: ポケモンフレンダ
-      slug: null
-    - name: ポケモンメザスタ
-      slug: null
-    - name: ポケモンガオーレ
-      slug: null
-    - name: ポケモントレッタ
-      slug: null
-    - name: ポケモンバトリオ
-      slug: null
     - name: 宝可梦Frienda
       slug: null
-    - name: 宝可梦Battrio
+    - name: 宝可梦战斗
       slug: null
-    - name: 宝可梦Tretta
+    - name: 宝可梦战斗三连
       slug: null
-    - name: 宝可梦Ga-Olé
+    - name: 宝可梦三重
       slug: null
-    - name: 宝可梦Mezastar
+    - name: 宝可梦加奥乐
+      slug: null
+    - name: 宝可梦名侦探
       slug: null
   id: corporate-topic-20-pokemon-frienda-arcade-history
   observations:
+  - anchor: 3
+    seg: 2
+    text: 宝可梦AM机目标年龄层为4岁至8岁
   - anchor: 4
     seg: 3
-    text: 宝可梦AM机台受众年龄聚焦在4岁至8岁。
-  - anchor: 5
-    seg: 4
-    text: 宝可梦全权企划监修，Marvelous负责程序与硬件，Takara Tomy Arts负责推广与配出品制造。
+    text: 株式会社宝可梦制作，Marvelous开发与制造，Takara Tomy Arts宣传与生产
 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge:
   facets:
-    people:
-    - name: 株式会社みずほフィナンシャルグループ（瑞穗FG）
-      role: mentioned
-    - name: 損害保険ジャパン株式会社（损保日本）
-      role: mentioned
-    - name: 明治安田生命保険相互会社
-      role: mentioned
-    - name: 第一生命保険株式会社
-      role: mentioned
-    - name: 株式会社ポケモン My First Pokémon プロジェクト
-      role: mentioned
+    people: []
     places:
     - name: 东京
-      what: 赠呈式举办地
+      what: 赠送仪式举办地
       world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    works:
-    - name: 黄色い“ピカチュウ”ワッペン（黄色皮卡丘交通安全胸章）
-      slug: null
-    - name: 黄色い“ピカチュウ”ワッペン
-      slug: null
+    works: []
   id: corporate-topic-21-pikachu-yellow-traffic-safety-badge
   observations:
   - anchor: 4
     seg: 3
-    text: 黄色胸章赠呈事业创立60周年，全日本无偿赠送100万名以上小学一年级新生
-  - anchor: 6
-    seg: 5
-    text: 1965年日本每年因交通事故罹难人数突破1万人，被称为交通战争
+    text: 黄色皮卡丘徽章为纪念黄色徽章60周年制作，分发给全国100万名以上新一年级学生
+  - anchor: 7
+    seg: 6
+    text: 项目启动的1965年，日本每年因交通事故死亡人数超过1万人
 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment:
   facets:
-    people:
-    - name: ユニバーサル・スタジオ・ジャパン（USJ）
-      role: mentioned
+    people: []
     places:
     - name: 日本环球影城
-      what: 主题乐园
-      world: real
-    - name: 加利福尼亚
-      what: 彩粉蝶花纹来源
+      what: 合作主题公园
       world: real
     pokemon:
     - name: 喷火龙
@@ -48025,37 +48474,32 @@
     - name: 彩粉蝶
       ndex: 666
     works:
-    - name: NO LIMIT! パレード
-      slug: null
-    - name: NO LIMIT! サマー・スプラッシュ・パレード
+    - name: 宝可梦
       slug: null
     - name: Pokémon GO
       slug: null
   id: corporate-topic-22-usj-no-limit-parade-entertainment
   observations:
-  - anchor: 3
-    seg: 2
-    text: 2023年USJ与宝可梦结为战略同盟，展开全新企划
+  - anchor: 4
+    seg: 3
+    text: USJ负责巡游的工作人员回顾了这次尝试的开端
   - anchor: 11
     seg: 10
-    text: 暴鲤龙需3位动作演员协作操作，演绎数米巨兽动态
+    text: 暴鲤龙首次登场，由3名表演者配合创造动感动作
 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship:
   facets:
-    people:
-    - name: 株式会社能作
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
-    - name: 株式会社宝可梦
-      role: mentioned
+    people: []
     places:
     - name: 富山县高冈市
-      what: 能作总部所在
+      what: 铸造名产地
+      world: real
+    - name: 高冈市
+      what: 能作总公司工坊所在地
       world: real
     pokemon:
     - name: 喷火龙
       ndex: 6
-    - name: 皮卡丘
+    - name: ピカチュウ
       ndex: 25
     - name: 穿山鼠
       ndex: 27
@@ -48064,71 +48508,49 @@
     - name: 风铃铃
       ndex: 358
     works:
-    - name: 能作ポケモンコレクション
-      slug: null
-    - name: 生型鋳造法
-      slug: null
-    - name: 生型（Namagata）铸造法
+    - name: 能作宝可梦系列
       slug: null
   id: corporate-topic-23-nousaku-tin-casting-craftsmanship
   observations:
-  - anchor: 4
-    seg: 3
-    text: 能作以100%极纯锡为原料，不加铅或锑
   - anchor: 11
     seg: 10
-    text: 公司内部征集企划案，数天内涌现近120个提案
+    text: 能作公司内部征集产品方案时收集到近120个创意
+  - anchor: 18
+    seg: 17
+    text: 两家公司反复沟通，制作周期长达约一年
 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports:
   facets:
-    people:
-    - name: 日本テレビ放送網株式会社
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places: []
     pokemon: []
     works:
     - name: Pokémon UNITE
       slug: null
-    - name: 全国高校ポケモンユナイト選手権大会（ポケモンユナイト甲子園）
-      slug: null
-    - name: ポケモンワールドチャンピオンシップス（WCS）
-      slug: null
     - name: Pokémon GO
       slug: null
   id: corporate-topic-24-pokemon-unite-koshien-high-school-esports
   observations:
+  - anchor: 3
+    seg: 2
+    text: 高中生限定赛事宝可梦大集结甲子园于2022年诞生
   - anchor: 4
     seg: 3
-    text: 《Pokémon UNITE》为5人一队阵营对抗，全球累计下载量突破1.5亿次
-  - anchor: 17
-    seg: 16
-    text: WCS普遍采用征召选人模式，可禁用宝可梦且对手已选宝可梦不可重复选用
+    text: 《Pokémon UNITE》全球下载量已突破1亿5000万次
 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover:
   facets:
-    people:
-    - name: 志摩スペイン村（近鉄グループ）
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places:
-    - name: 三重县
-      what: 乐园所在县
-      world: real
     - name: 马约尔广场
-      what: 对战擂台广场
+      what: 活动重头戏广场
       world: real
-    - name: 帕底亚大湖
-      what: 米立龙生态设定
-      world: game
     - name: 志摩西班牙村
-      what: 联动主题乐园
+      what: 限期活动会场
       world: real
-    - name: 志摩市
-      what: 乐园所在市
+    - name: 三重县志摩市
+      what: 主题公园所在地
       world: real
     - name: 帕底亚地区
-      what: 游戏舞台地区
+      what: 游戏舞台
       world: game
     pokemon:
     - name: 向日花怪
@@ -48144,71 +48566,64 @@
     - name: 密勒顿
       ndex: 1008
     works:
-    - name: ポケットモンスター スカーレット・バイオレット
-      slug: null
-    - name: ポケモン課外授業 in 志摩スペイン村
-      slug: null
-    - name: 宝可梦 朱·紫
-      slug: scarlet-violet
-    - name: 宝可梦课外教学 in 志摩西班牙村
+    - name: 《宝可梦 朱·紫》
       slug: null
   id: corporate-topic-25-shima-spain-village-paldea-crossover
   observations:
-  - anchor: 6
-    seg: 5
-    text: 志摩西班牙村2024年迎来开园30周年
   - anchor: 9
     seg: 8
-    text: 马约尔广场中心原有腓力三世国王青铜雕像
+    text: 马约尔广场中央原立腓力三世铜像，这次用装饰遮盖以再现对战广场
+  - anchor: 19
+    seg: 18
+    text: 米立龙因游戏里栖息水边，最终放在喷水附近而非日式餐厅旁
 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey:
   facets:
-    people:
-    - name: ガルーダ・インドネシア航空（Garuda Indonesia）
-      role: mentioned
-    - name: JKT48
-      role: mentioned
-    - name: 株式会社ポケモン アジア事業本部
-      role: mentioned
-    - name: ガルーダ・インドネシア航空
-      role: mentioned
+    people: []
     places:
-    - name: 印度尼西亚
-      what: 深耕的群岛国家
+    - name: 新加坡
+      what: 负责地区
       world: real
-    - name: 雅加达
-      what: 巡回首都站
+    - name: 马来西亚
+      what: 负责地区
+      world: real
+    - name: 菲律宾
+      what: 负责地区
+      world: real
+    - name: 泰国
+      what: 负责地区
+      world: real
+    - name: 印度尼西亚
+      what: 负责地区
       world: real
     - name: 巴厘岛
-      what: 巡回首站
+      what: 活动举办地
       world: real
     - name: 泗水
-      what: 东爪哇首府
+      what: 活动举办地
       world: real
     - name: 日惹
-      what: 爪哇古都
+      what: 活动举办地
+      world: real
+    - name: 台湾
+      what: 负责地区
+      world: real
+    - name: 香港
+      what: 负责地区
       world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
     works:
-    - name: Pikachu's Indonesia Journey
-      slug: null
-    - name: そらとぶピカチュウプロジェクト（飞翔皮卡丘企划）
-      slug: null
-    - name: ピカチュウジェットGA
-      slug: null
-    - name: そらとぶピカチュウプロジェクト
-      slug: null
     - name: Pokémon GO
       slug: null
   id: corporate-topic-26-indonesia-pikachu-jet-garuda-journey
   observations:
-  - anchor: 4
-    seg: 3
-    text: 亚洲事业本部由超过60名跨国成员组成，下设四大专业部门
   - anchor: 9
     seg: 8
-    text: 2019年首度发行纯印尼语本地化官方集换式卡牌
+    text: 印度尼西亚是东南亚人口最多、经济实力最强的国家，但宝可梦认知度并不算高。
+  - anchor: 10
+    seg: 9
+    text: 在印度尼西亚正式开始开展工作，是从发售宝可梦卡牌印尼语版的2019年开始的。
 2024-10-24-[长文]-拨云见日-从百代市到水脉图书馆:
   facets:
     people:
@@ -48407,9 +48822,13 @@
 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty:
   facets:
     people:
+    - name: 福田亨
+      role: mentioned
     - name: 唐泽昌宏
       role: mentioned
     - name: 今井阳子
+      role: mentioned
+    - name: 城間栄市
       role: mentioned
     - name: 今井完眞
       role: mentioned
@@ -48417,64 +48836,62 @@
     - id: venue_ea32e0a339
       name: 国立工艺馆
       world: real
-    - name: 关都大陆
-      what: 玩家漫步的剧情舞台
-      world: game
-    - name: 金泽
-      what: 展览首发城市
+    - id: venue_eb59bbe75b
+      name: 长崎历史文化博物馆
+      world: real
+    - name: 东京国立近代美术馆工艺馆
+      what: 商谈对象
+      world: real
+    - name: 东京・北之丸公园
+      what: 工艺馆原设立地
+      world: real
+    - name: 石川县
+      what: 工艺馆移迁地
+      world: real
+    - name: 长崎会场
+      what: 作品首次公开地
+      world: real
+    - name: 石川县金泽市
+      what: 国立工艺馆所在地
       world: real
     pokemon:
     - name: 多龙巴鲁托
       ndex: 887
     works:
-    - name: 宝可梦×工艺展
+    - name: 雨あがり
       slug: null
-    - name: 美とわざの大発見
+    - name: 琉球紅型着物「島ツナギ」
       slug: null
     - name: 多龙巴鲁托
-      slug: null
-    - name: 宝可梦全图鉴
       slug: null
   id: corporate-topic-27-pokemon-kogei-craft-exhibition-beauty
   observations:
   - anchor: 3
     seg: 2
-    text: 展览2023年3月启幕，以金泽国立工艺馆为全球首发第一站
-  - anchor: 8
-    seg: 7
-    text: 最终敲定20位领军艺术家，含人间国宝与新锐匠人
+    text: 展览2023年3月从国立工艺馆（石川县金泽市）开始，正在国内外巡回
+  - anchor: 14
+    seg: 13
+    text: 艺术家由国立工艺馆与宝可梦共同交换意见选定，共20人参加
 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket:
   facets:
-    people:
-    - name: Creatures Inc.
-      role: mentioned
-    - name: DeNA
-      role: mentioned
+    people: []
     places: []
-    pokemon:
-    - name: 喷火龙
-      ndex: 6
-    - name: 超梦
-      ndex: 150
+    pokemon: []
     works:
-    - name: Pokémon Trading Card Game Pocket
-      slug: null
-    - name: ポケモンカードゲーム
-      slug: null
     - name: 宝可梦卡牌游戏
       slug: null
-    - name: 宝可梦卡牌Pocket
+    - name: Pokémon Trading Card Game Pocket
       slug: null
-    - name: PTCG Pocket
+    - name: 宝可梦
       slug: null
   id: corporate-topic-28-pokemon-trading-card-game-pocket
   observations:
   - anchor: 3
     seg: 2
-    text: PTCG诞生于1996年，PTCG Pocket于2024年10月30日全球上线。
-  - anchor: 5
-    seg: 4
-    text: 游戏设定为每天可完全免费拆开2包，每包内含5张卡牌。
+    text: 宝可梦卡牌游戏1996年诞生，宝可梦卡牌Pocket于2024年10月30日上线
+  - anchor: 4
+    seg: 3
+    text: 宝可梦卡牌Pocket由株式会社宝可梦、Creatures、DeNA三家共同开发
 2024-12-10-[站点]-建站纪事-Building-Records:
   facets:
     people: []
@@ -48508,51 +48925,30 @@
 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion:
   facets:
     people:
-    - name: 株式会社ポケモン インドマーケティング室
+    - name: 维沙尔
       role: mentioned
-    - name: ヴィシャール＆シェーカル（Vishal–Shekhar）
+    - name: 谢卡尔
       role: mentioned
-    - name: アルマーン・マリク（Armaan Malik）
+    - name: 阿尔曼·马利克
       role: mentioned
-    - name: シャーリィ・セティア（Shirley Setia）
-      role: mentioned
-    - name: ムンバイ・インディアンズ（Mumbai Indians）
-      role: mentioned
-    - name: 维沙尔·达德拉尼（Vishal Dadlani）
-      role: mentioned
-    - name: 谢卡尔·拉夫吉亚尼（Shekhar Ravjiani）
-      role: mentioned
-    - name: 阿尔曼·马利克（Armaan Malik）
-      role: mentioned
-    - name: 雪莉·塞蒂亚（Shirley Setia）
+    - name: 沙尔利·塞蒂亚
       role: mentioned
     places:
-    - name: 印度
-      what: 战略开拓对象国
-      world: real
     - name: 孟买
-      what: 发布会与赛事举办地
+      what: 球队所在地
       world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    works:
-    - name: テレビアニメ『ポケットモンスター』インド版
-      slug: null
-    - name: ポケモン・メラ（Pokémon Mela）
-      slug: null
-    - name: 电视动画《宝可梦》
-      slug: null
-    - name: 宝可梦嘉年华（Pokémon Mela）
-      slug: null
+    works: []
   id: corporate-topic-30-pokemon-india-cricket-festivals-expansion
   observations:
   - anchor: 4
     seg: 3
-    text: 宝可梦2013年进入印度，通过扩大电视动画播出排期与覆盖时段起步。
+    text: 株式会社宝可梦2013年进入印度，扩大电视动画播放频率和时间
   - anchor: 5
     seg: 4
-    text: 2023年印度总人口突破节点成为全球第一，宝可梦总部组建印度营销室。
+    text: 2023年印度人口超中国成世界第一，公司成立印度营销室
 2024-12-30-[站点]-2025-新年快乐:
   facets:
     people: []
@@ -48654,9 +49050,7 @@
     why: 剑盾正式开发开始后大森与岩尾谈剑盾
 2025-01-31-corporate-topic-31-ana-in-flight-safety-video:
   facets:
-    people:
-    - name: 全日本空輸（ANA）
-      role: mentioned
+    people: []
     places: []
     pokemon:
     - name: 铁甲蛹
@@ -48665,48 +49059,34 @@
       ndex: 25
     - name: 穿山鼠
       ndex: 27
-    - name: 怪力
-      ndex: 68
     - name: 伊布
       ndex: 133
+    - name: 怪力
+      ndex: 68
     works:
-    - name: ANA機内安全ビデオ ポケモン特別版
+    - name: ANA机内安全视频 宝可梦特别版
       slug: null
-    - name: そらとぶピカチュウプロジェクト
-      slug: null
-    - name: ピカチュウジェットNH
-      slug: null
-    - name: イーブイジェットNH
-      slug: null
-    - name: 降机视频
-      slug: null
-    - name: 红·绿
-      slug: null
-    - name: 朱·紫
-      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 朱·紫
+      slug: scarlet-violet
   id: corporate-topic-31-ana-in-flight-safety-video
   observations:
   - anchor: 4
     seg: 3
-    text: ANA于2023年3月加入飞翔皮卡丘企划，投入皮卡丘喷气机NH与伊布喷气机NH
-  - anchor: 11
-    seg: 10
-    text: 团队曾提议让怪力演示系安全带，后改在商务舱演示三点式肩带安全带
+    text: ANA自2023年3月起参与“飞行的皮卡丘计划”
+  - anchor: 12
+    seg: 11
+    text: 怪力因体型无法容纳经济舱座位，改在商务舱担任安装肩带
 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china:
   facets:
-    people:
-    - name: Pokémon Shanghai（宝可梦上海）
-      role: mentioned
-    - name: 宝可梦上海运营负责人
-      role: mentioned
-    - name: 宝可梦上海团队
-      role: mentioned
+    people: []
     places:
     - name: 深圳
       what: 大师赛巡回城市
       world: real
     - name: 万里长城
-      what: 北京千年古迹
+      what: 北京文化遗产
       world: real
     - name: 广州
       what: 大师赛巡回城市
@@ -48722,47 +49102,28 @@
       ndex: 25
     - name: 卡比兽
       ndex: 143
-    works:
-    - name: ポケモンカードゲーム マスターズ
-      slug: null
-    - name: 宝可梦卡牌大师赛
-      slug: null
-    - name: 宝可梦简中版
-      slug: null
+    works: []
   id: corporate-topic-33-pokemon-shanghai-tcg-masters-china
   observations:
   - anchor: 3
     seg: 2
-    text: 大师赛由宝可梦公司在华子公司Pokémon Shanghai负责企划与运营，该公司2020年设立。
+    text: Pokémon Shanghai 自2020年成立，负责大师赛策划与运营
   - anchor: 4
     seg: 3
-    text: 宝可梦集换式卡牌游戏简体中文版于2022年正式在大陆市场发售。
+    text: 宝可梦卡牌游戏简体中文版于2022年发售
 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience:
   facets:
-    people:
-    - name: 株式会社エスエルディー
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places:
     - name: 日本桥
       what: 初代宝可梦中心所在
       world: real
     - name: 东京日本桥
-      what: 咖啡厅首店所在地
+      what: 首家常设店开店地
       world: real
-    - name: 大阪心斋桥
-      what: 咖啡厅进驻地
+    - name: 大阪
+      what: 次年开店地
       world: real
-    - name: 真新镇
-      what: 最初伙伴选择地
-      world: game
-    - name: 大木博士研究所
-      what: 挑选最初伙伴处
-      world: game
-    - name: 卡洛斯地区
-      what: 图鉴收录范围
-      world: game
     pokemon:
     - name: 妙蛙种子
       ndex: 1
@@ -48770,112 +49131,89 @@
       ndex: 4
     - name: 杰尼龟
       ndex: 7
-    - name: 皮卡丘
+    - name: ピカチュウ
       ndex: 25
     - name: 米立龙
       ndex: 978
+    - name: 伊布
+      ndex: 133
     works:
-    - name: ポケモンカフェ（Pokémon Cafe）
-      slug: null
-    - name: ポケットモンスター 赤・緑
-      slug: null
-    - name: 選べるポケモンラテ
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: ポケットモンスター X・Y
       slug: null
   id: corporate-topic-34-pokemon-cafe-hospitality-experience
   observations:
   - anchor: 4
     seg: 3
-    text: 2018年在东京日本桥揭幕，次年进驻大阪心斋桥
-  - anchor: 20
-    seg: 19
-    text: 自选宝可梦拿铁可选图鉴种类达818种
+    text: 宝可梦咖啡馆2018年在东京日本桥开店，次年进军大阪
+  - anchor: 9
+    seg: 8
+    text: 问候时间中，穿厨师、服务员、糕点师服装的皮卡丘随机出现1只
 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support:
   facets:
-    people:
-    - name: 一般財団法人ポケモン・ウィズ・ユー財団
-      role: mentioned
-    - name: 株式会社ポケモン CSR・社会貢献チーム
-      role: mentioned
+    people: []
     places: []
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    works:
-    - name: ポケモン こども食堂応援隊！
-      slug: null
-    - name: POKÉMON with YOU
-      slug: null
+    works: []
   id: corporate-topic-35-pokemon-kodomo-shokudo-community-support
   observations:
-  - anchor: 4
-    seg: 3
-    text: 自2021年起，株式会社宝可梦全面加入儿童食堂支援事业
   - anchor: 5
     seg: 4
-    text: POKÉMON with YOU 财团2021年创立，前身为2011年社内志愿组织
+    text: 宝可梦·与你财团于2021年设立，以株式会社宝可梦志愿员工的灾区支援组织为中心。
+  - anchor: 21
+    seg: 20
+    text: 儿童食堂的应援活动今年迎来第5年，反响波及到其他企业。
 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification:
   facets:
-    people:
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places: []
     pokemon: []
-    works:
-    - name: ポケモンカードゲーム（PTCG）
-      slug: null
-    - name: イベントオーガナイザー資格
-      slug: null
-    - name: 公認ジャッジ資格
-      slug: null
-    - name: チャンピオンズリーグ（CL）
-      slug: null
-    - name: ポケモンカードゲーム
-      slug: null
-    - name: チャンピオンズリーグ
-      slug: null
+    works: []
   id: corporate-topic-36-ptcg-official-judge-organizer-certification
   observations:
-  - anchor: 5
-    seg: 4
-    text: 官方资格考试制度始创于2015年
+  - anchor: 6
+    seg: 5
+    text: 资格制度与考试始于2015年
   - anchor: 19
     seg: 18
-    text: 2024年城市联赛全日本举办超2000场，裁判出动超10000人次
+    text: 2024年此类活动在全国举办2000次以上，累计超1万名官方评定参与
 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video:
   facets:
     people:
-    - name: キヤノンメディカルシステムズ株式会社（佳能医疗系统）
+    - name: 下川尚子
       role: mentioned
-    - name: 株式会社ポケモン CSR・映像企画チーム
-      role: mentioned
-    places: []
+    places:
+    - name: 久留米大学医学部脳神経外科講座
+      what: 提供评论的机构
+      world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
+    - name: 小磁怪
+      ndex: 81
+    - name: 卡比兽
+      ndex: 143
+    - name: 树才怪
+      ndex: 185
     works:
-    - name: 小児向けMRI検査説明用動画『ポケモンといっしょにMRIけんさのようすをみてみよう！』
+    - name: 和宝可梦一起看看MRI检查的样子吧！
       slug: null
-    - name: ポケモンといっしょにMRIけんさのようすをみてみよう！
-      slug: null
-    - name: 和宝可梦一起看看M·R·I检查是什么样的吧！
+    - name: 儿童MRI检查说明视频宝可梦版「和宝可梦一起看看MRI检查吧！」
       slug: null
   id: corporate-topic-37-pediatric-mri-pokemon-preparation-video
   observations:
   - anchor: 3
     seg: 2
-    text: 宝可梦与佳能医疗系统联合制作面向患儿的MRI检查说明视频
-  - anchor: 4
-    seg: 3
-    text: MRI检查需孩子在狭窄圆筒内保持绝对静止长达数十分钟
+    text: 宝可梦与佳能医疗系统共同制作了面向儿童的MRI检查说明视频。
+  - anchor: 18
+    seg: 17
+    text: 视频原样收录MRI检查时的大音量，未加掩盖。
 2025-06-13-corporate-topic-38-pokemon-parks-community-playground:
   facets:
-    people:
-    - name: 株式会社ポケモン 地域共生チーム
-      role: mentioned
-    - name: 株式会社コトブキ（游乐设施制造巨头）
-      role: mentioned
-    - name: 株式会社コトブキ
-      role: mentioned
+    people: []
     places:
     - name: 宝可梦公园
       what: 期间限定的主题乐园
@@ -48889,17 +49227,11 @@
     - name: 鸟取县
       what: 穿山鼠公园所在地
       world: real
-    - name: 鸟取砂丘
-      what: 穿山鼠公园设计意象
-      world: real
     - name: 香川县
       what: 呆呆兽公园所在地
       world: real
     - name: 三重县
-      what: 水水獭公园所在地
-      world: real
-    - name: 香川县绫川町
-      what: 呆呆兽公园实景地
+      what: 水水獭公园预定地
       world: real
     pokemon:
     - name: 穿山鼠
@@ -48908,101 +49240,71 @@
       ndex: 74
     - name: 呆呆兽
       ndex: 79
-    - name: 大岩蛇
+    - name: イワーク
       ndex: 95
     - name: 吉利蛋
       ndex: 113
+    - name: プテラ
+      ndex: 142
     - name: 水水獭
       ndex: 501
-    - name: 大剑鬼
-      ndex: 503
-    - name: 宝宝暴龙
+    - name: チゴラス
       ndex: 696
-    works:
-    - name: ポケモン公園
-      slug: null
-    - name: ポケモンローカルActs
-      slug: null
-    - name: ラッキー公園
-      slug: null
-    - name: イシツブテ公園
-      slug: null
-    - name: サンド公園
-      slug: null
-    - name: ヤドン公園
-      slug: null
-    - name: ミジュマル公園
-      slug: null
+    works: []
   id: corporate-topic-38-pokemon-parks-community-playground
   observations:
-  - anchor: 4
-    seg: 3
-    text: 项目负责人回忆企划初心：孩子们户外玩耍最常去的地方是公园。
+  - anchor: 3
+    seg: 2
+    text: 株式会社宝可梦与地方政府合作，在全国各地建设宝可梦公园
   - anchor: 6
     seg: 5
-    text: 各地宝可梦公园以各自治体专属的应援宝可梦为灵感定制设计。
+    text: 福岛县吉利蛋公园以带来幸福（福）的吉利蛋为主题
 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte:
   facets:
-    people:
-    - name: Pokémon Korea, Inc.（韩国宝可梦团队）
-      role: mentioned
-    - name: 韓国ロッテグループ（乐天集团管理层与企划团队）
-      role: mentioned
+    people: []
     places:
     - name: 蚕室
-      what: 首尔核心商圈
+      what: 活动举办地区
       world: real
     - name: 石村湖
-      what: 漂浮充气装置处
+      what: 漂浮气球的水面
       world: real
-    - name: 乐天世界大厦
-      what: 活动会场之一
+    - name: 横滨港未来
+      what: WCS举办地
       world: real
-    - name: 横滨港未来21
-      what: WCS2023举办地
+    - name: 乐天世界购物中心
+      what: 设置快闪店的场所
       world: real
-    - name: 乐天百货
-      what: 开设主题快闪店
+    - name: 首尔
+      what: 活动举办城市
       world: real
-    - name: 7-Eleven
-      what: 乐天旗下便利店
-      world: real
-    - name: Lotteria
-      what: 乐天旗下快餐连锁
-      world: real
-    - name: 乐天免税店
-      what: 乐天旗下业态
+    - name: 横滨市
+      what: WCS举办城市
       world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
+    - name: ラプラス
+      ndex: 131
     - name: 百变怪
       ndex: 132
     works:
-    - name: ポケモンタウン with ロッテ（Pokemon Town with LOTTE 2025）
-      slug: null
-    - name: ポケモンワールドチャンピオンシップス（WCS2023 横浜）
-      slug: null
-    - name: ポケモンタウン with ロッテ
-      slug: null
-    - name: ポケモンワールドチャンピオンシップス
-      slug: null
-    - name: 宝可梦 朱／紫
+    - name: 宝可梦 朱·紫
+      slug: scarlet-violet
+    - name: 宝可梦世界锦标赛
       slug: null
   id: corporate-topic-40-seoul-jamsil-pokemon-town-lotte
   observations:
   - anchor: 3
     seg: 2
-    text: 2025年4月至5月举办Pokémon Town with LOTTE 2025，广场有100只百变怪
+    text: 石村湖上漂浮着巨大的宝可梦气球，广场上排列着100只百变怪
   - anchor: 5
     seg: 4
-    text: 活动2024年首次落地，2025年为第二届，由韩国宝可梦公司与乐天集团联合主办
+    text: 活动配合韩国儿童节于2024年首次举办，今年是第二届
 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book:
   facets:
     people:
     - name: 米原善成
-      role: mentioned
-    - name: きのしたちひろ（木下千寻）
       role: mentioned
     - name: きのしたちひろ
       role: mentioned
@@ -49010,244 +49312,159 @@
     pokemon:
     - name: 妙蛙种子
       ndex: 1
+    - name: ナッシー
+      ndex: 103
     - name: 小笃儿
       ndex: 731
+    - name: 卡璞・哞哞
+      ndex: 787
     works:
-    - name: ポケモン生態図鑑
+    - name: 宝可梦生态图鉴
       slug: null
-    - name: ポケットモンスター サン・ムーン
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 朱·紫
+      slug: scarlet-violet
+    - name: ポケットモンスター 赤・緑
       slug: null
-    - name: 宝可梦 太阳／月亮
-      slug: null
-    - name: 红·绿
-      slug: null
-    - name: 朱·紫
+    - name: ポケットモンスター スカーレット
       slug: null
   id: corporate-topic-41-pokemon-ecology-illustrated-book
   observations:
   - anchor: 5
     seg: 4
-    text: 米原善成任职株式会社宝可梦，拥有农学博士学位，专业为行为生态学
-  - anchor: 5
-    seg: 4
-    text: 他回忆自《宝可梦 太阳／月亮》引入地区形态起感受到宝可梦的写实感
+    text: 米原善成隶属株式会社宝可梦，拥有博士（农学）学位
+  - anchor: 17
+    seg: 16
+    text: 整理图鉴信息的工作花费约两年，电子表格超过7500行
 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin:
   facets:
     people:
-    - name: 林宥嘉（Yoga Lin）
+    - name: 莉可
+      role: mentioned
+    - name: 罗伊
       role: mentioned
     - name: 林宥嘉
       role: mentioned
     places:
     - name: 台湾
-      what: 独占主题曲地区
-      world: real
-    - name: 东京
-      what: 原厂所在
-      world: real
-    - name: 日本
-      what: 动画制作地
+      what: 原创主题曲诞生地
       world: real
     pokemon: []
     works:
-    - name: 捉夢大師
+    - name: 宝可梦
       slug: null
-    - name: ポケットモンスター（2023年アニメ）
+    - name: 捉梦大师
       slug: null
-    - name: 宝可梦 地平线
+    - name: 寶可夢地平線
       slug: null
   id: corporate-topic-42-taiwan-localized-anime-song-yoga-lin
   observations:
   - anchor: 13
     seg: 12
-    text: 台湾地区2025年5月开播的《宝可梦 地平线》新章节启用本土专属主题曲
-  - anchor: 14
-    seg: 13
-    text: 自1998年初代动画引进台湾，27年间片头片尾曲沿用日版原声或直译翻唱
+    text: 台湾2025年5月开播的电视动画《宝可梦》新篇章由当地艺人担任主题曲
+  - anchor: 17
+    seg: 16
+    text: 新片头主题曲委托台湾艺人林宥嘉制作
 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history:
   facets:
-    people:
-    - name: 株式会社ポケモン
-      role: mentioned
-    - name: 株式会社宝可梦
-      role: mentioned
+    people: []
     places:
     - name: 香川县
-      what: 呆呆兽联动地
+      what: 与呆呆兽合作
       world: real
     - name: 岩手县
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
     - name: 宫城县
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
     - name: 福岛县
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
     - name: 福井县
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
     - name: 三重县
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
     - name: 鸟取县
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
-    - name: 枯叶市
-      what: 游戏中的俱乐部所在地
-      world: game
-    - name: 关都地区
-      what: 游戏中的地区
-      world: game
     - name: 北海道
-      what: Local Acts道县
+      what: 当地活动开展地
       world: real
     pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 穿山鼠
-      ndex: 27
-    - name: 阿罗拉六尾
-      ndex: 37
-    - name: 风速狗
-      ndex: 59
-    - name: 小拳石
-      ndex: 74
     - name: 呆呆兽
       ndex: 79
-    - name: 椰蛋树
-      ndex: 103
-    - name: 吉利蛋
-      ndex: 113
-    - name: 拉普拉斯
-      ndex: 131
+    - name: クラブ
+      ndex: 98
     - name: 基拉祈
       ndex: 385
-    - name: 水水獭
-      ndex: 501
-    - name: 电电虫
-      ndex: 595
-    - name: 快龙
-      ndex: 149
-    - name: 土王
-      ndex: 980
     works:
-    - name: ポケモンだいすきクラブ
-      slug: null
-    - name: ポケットモンスター 赤・緑
-      slug: null
-    - name: ポケモンローカルActs
-      slug: null
-    - name: ヤドンパラダイス
-      slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦超喜欢俱乐部
-      slug: null
-    - name: 宝可梦超喜欢俱乐部 夏日大作战！
-      slug: null
-    - name: 向基拉祈许愿…
-      slug: null
-    - name: Pokemon Festa
-      slug: null
-    - name: 宝可梦地方振兴计划
-      slug: null
-    - name: 呆呆兽乐园
-      slug: null
-    - name: 呆呆兽乐园 in 香川
-      slug: null
-    - name: 宝可梦Local Acts
-      slug: null
-    - name: 耕地
-      slug: null
   id: corporate-topic-44-pokemon-daisuki-club-20-years-history
   observations:
-  - anchor: 5
-    seg: 4
-    text: 2004年，作为宝可梦官方首座正统粉丝俱乐部诞生
-  - anchor: 10
-    seg: 9
-    text: 鼎盛期注册会员总数突破300万人以上
+  - anchor: 6
+    seg: 5
+    text: 2004年，现实世界诞生官方粉丝俱乐部
+  - anchor: 11
+    seg: 10
+    text: 最盛时期会员数超过300万人
 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii:
   facets:
     people:
-    - name: 森井ユカ（著名立体造型作家 / PTCG插画大师）
-      role: mentioned
-    - name: アッシュコンセプト株式会社（h concept）
-      role: mentioned
-    - name: 株式会社ポケモン ライセンスプロデュース部
-      role: mentioned
     - name: 森井ユカ
-      role: mentioned
-    - name: 森井由佳
       role: mentioned
     places: []
     pokemon:
     - name: 百变怪
       ndex: 132
+    - name: 胖丁
+      ndex: 39
     works:
-    - name: メタモンカップ（百变怪模具杯）
-      slug: null
-    - name: ポケモンカードゲーム（PTCG 立体黏土卡牌）
-      slug: null
-    - name: ネコカップ / コネコカップ
-      slug: null
-    - name: メタモンカップ
-      slug: null
-    - name: ネコカップ
-      slug: null
-    - name: コネコカップ
-      slug: null
-    - name: ポケモンカードゲーム
-      slug: null
-    - name: 宝可梦集换式卡牌游戏
+    - name: 宝可梦卡牌
       slug: null
   id: corporate-topic-45-ditto-cup-design-philosophy-yuka-morii
   observations:
   - anchor: 3
     seg: 2
-    text: 百变怪模具杯由株式会社宝可梦与h concept联合研发
-  - anchor: 4
-    seg: 3
-    text: 灵感源于策划人邂逅h concept的猫咪模具杯与小猫模具杯
+    text: 百变怪杯由株式会社Ash Concept合作诞生
+  - anchor: 24
+    seg: 23
+    text: 百变怪杯2025年5月发售后在社交网络引起巨大反响
 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy:
   facets:
-    people:
-    - name: 株式会社ポケモン 商品部
-      role: mentioned
+    people: []
     places:
     - name: 宝可梦中心
-      what: 官方直营店
+      what: 直营店
+      world: real
+    - name: 宝可梦商店
+      what: 直营店
       world: real
     pokemon:
     - name: 肯泰罗
       ndex: 128
     works:
-    - name: ポケモンセンターオリジナルグッズ
-      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
     - name: ポケットモンスター 赤・緑
-      slug: null
-    - name: 「はかいこうせん」シリーズ
-      slug: null
-    - name: 「OTENKI TEAM」シリーズ
       slug: null
   id: corporate-topic-46-pokemon-center-original-goods-philosophy
   observations:
-  - anchor: 9
-    seg: 8
-    text: 2023年11月推出「破坏光线」主题系列，含服饰到手办雕像
-  - anchor: 10
-    seg: 9
-    text: 企划总监自1996年《宝可梦 红·绿》发售首日便玩Game Boy
+  - anchor: 3
+    seg: 2
+    text: 原创周边由株式会社宝可梦的商品部推进开发
+  - anchor: 4
+    seg: 3
+    text: 原创周边在宝可梦中心、宝可梦商店等直营店销售
 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy:
   facets:
-    people:
-    - name: 国立天文台（NAOJ）
-      role: mentioned
-    - name: 相模原市立博物館
-      role: mentioned
-    - name: 株式会社ポケモン コーポレート編集部
-      role: mentioned
+    people: []
     places:
     - id: venue_963c25f4e7
       name: 相模原市立博物馆
@@ -49255,11 +49472,8 @@
     - id: venue_ed45f4c724
       name: 国立科学博物馆
       world: real
-    - name: 相模原市立博物館
-      what: 特展首站开幕地
-      world: real
     - name: 国立天文台
-      what: 合作的天文机构
+      what: 合作机构
       world: real
     pokemon:
     - name: 彷徨夜灵
@@ -49273,60 +49487,60 @@
     - name: 露奈雅拉
       ndex: 792
     works:
-    - name: ポケモン天文台
+    - name: 宝可梦
       slug: null
-    - name: ポケモン化石博物館
-      slug: null
-    - name: My First Pokémon プロジェクト
+    - name: 宝可梦化石博物馆
       slug: null
   id: corporate-topic-47-pokemon-observatory-naoj-astronomy
   observations:
-  - anchor: 5
-    seg: 4
-    text: 企划原点始于大约三年前，团队提出再办一场自然科学特展的想法
+  - anchor: 4
+    seg: 3
+    text: 特别企划展以相模原市立博物馆为起点开始全国巡回
   - anchor: 12
     seg: 11
-    text: 从立项到开门迎客经历长达一年半的试错，瓶颈是宇宙物理学与宝可梦如何咬合
+    text: 项目启动后经历约一年半反复摸索，最大难关是结合宇宙与宝可梦
+  relations:
+  - id: corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
+    kind: continues
+    label: 同一系列的前后篇
+    title: 宝可梦官方专题：亲近大自然的第一步——童子军野外探索与宝可梦训练家的自然共育录
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-51-boy-scouts-nature-pokemon-trainer-program/
+    why: 同属My First Pokémon项目系列特展与活动
 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab:
   facets:
-    people:
-    - name: ワンダーファイ株式会社（WonderLab）
-      role: mentioned
-    - name: 株式会社ポケモン アプリ開発・教育知育チーム
-      role: mentioned
+    people: []
     places:
-    - name: 思考镇
-      what: 冒险舞台
-      world: game
-    - name: 玩偶小屋
-      what: 摆放玩偶的房间
+    - name: 新镇
+      what: 游戏舞台
       world: game
     pokemon:
-    - name: 皮卡丘
+    - name: ピカチュウ
       ndex: 25
     - name: 海豹球
       ndex: 363
+    - name: ニャビー
+      ndex: 725
+    - name: 伽勒尔喵喵
+      ndex: 52
     works:
-    - name: 『ポケモンフレンズ』（Pokemon Friends）
+    - name: Pokémon Friends
       slug: null
-    - name: 『ポケモンスマイル』（Pokemon Smile）
+    - name: Pokémon Smile
       slug: null
-    - name: 『Think!Think!』（シンクシンク）
+    - name: Think!Think!（シンクシンク）
       slug: null
-    - name: 『ポケモンフレンズ』
+    - name: 宝可梦朋友
       slug: null
-    - name: 『Pokémon Smile（宝可梦笑容）』
-      slug: null
-    - name: 『Think!Think!（思考吧！思考吧！）』
+    - name: ニャビーのぼうけん
       slug: null
   id: corporate-topic-48-pokemon-friends-brain-training-wonderlab
   observations:
-  - anchor: 3
-    seg: 2
-    text: 2025年7月正式向全球推出
   - anchor: 7
     seg: 6
-    text: 题库由WonderLab担纲，含1200道以上原创谜题
+    text: 灵感问题由Wonderfy提供，共1200多道
+  - anchor: 25
+    seg: 24
+    text: 上线1个月下载量突破100万，支持9种语言
 2026-02-16-interview-famitsu-2026-pokopia:
   facets:
     people:
@@ -49379,120 +49593,91 @@
     text: 大森称认识对齐花了3～4个月
 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide:
   facets:
-    people:
-    - name: 株式会社ポケモンセンター（宝可梦中心运营管理）
-      role: mentioned
+    people: []
     places:
+    - entity: pokemon_center_tohoku
+      name: 宝可梦中心东北
+      world: real
     - name: 茨城县
-      what: 出张所举办地
+      what: 开店所在县
       world: real
     - name: 永旺梦乐城水户内原
-      what: 出张所合作商场
+      what: 出张所开设设施
       world: real
-    - name: 青森
-      what: 东北巡回县
+    - name: 羽田机场花园
+      what: 设置出张所的机场
       world: real
-    - name: 秋田
-      what: 东北巡回县
+    - name: 长崎体育城
+      what: 设置出张所的体育场
       world: real
-    - name: 山形
-      what: 东北巡回县
+    - name: 贝内克斯恐龙博物馆
+      what: 企划展举办地
       world: real
     - name: 仙台
-      what: 东北巡回起点
-      world: real
-    - name: 岩手
-      what: 东北巡回县
-      world: real
-    - name: 宫城
-      what: 东北巡回县
+      what: 宝可梦中心东北所在地
       world: real
     pokemon:
-    - name: 皮卡丘
+    - name: ピカチュウ
       ndex: 25
-    - name: 鬼斯通
-      ndex: 93
-    - name: 谜拟丘
-      ndex: 778
+    - name: 电龙
+      ndex: 181
     works:
-    - name: ポケモンセンター出張所（Pokemon Center Pop-up Store）
-      slug: null
-    - name: ポケモンセンタートウホク
-      slug: null
     - name: Pokémon LEGENDS Z-A
       slug: legends-za
     - name: 宝可梦 红·绿
       slug: red-green
+    - name: 宝可梦化石博物馆
+      slug: null
   id: corporate-topic-50-pokemon-center-pop-up-store-nationwide
   observations:
   - anchor: 3
     seg: 2
-    text: 宝可梦中心运营22家常设直营门店，含Pokémon Center与Pokémon Store
+    text: 宝可梦中心与宝可梦商店在全国共22家
   - anchor: 8
     seg: 7
-    text: 2025年9至10月在茨城县永旺梦乐城水户内原出张，融入万圣节装潢
+    text: 2025年9至10月在茨城县永旺梦乐城水户内原开店
 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program:
   facets:
-    people:
-    - name: 公益財団法人ボーイスカウト日本連盟
-      role: mentioned
-    - name: 株式会社ポケモン My First Pokémon プロジェクト
-      role: mentioned
+    people: []
     places: []
     pokemon:
     - name: 狙射树枭
       ndex: 724
-    works:
-    - name: ボーイスカウト体験プログラム「めざせ！ポケモントレーナー！」
-      slug: null
-    - name: 目标是成为宝可梦训练家！
-      slug: null
+    works: []
   id: corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
   observations:
-  - anchor: 4
-    seg: 3
-    text: 项目由童子军日本联盟与宝可梦My First Pokémon项目联合创立
   - anchor: 6
     seg: 5
-    text: 童子军运动1907年诞生于英国，遍及超过170个国家与地区
+    text: 童子军1907年在英国起步，现于170多个国家和地区开展
+  - anchor: 13
+    seg: 12
+    text: 从童子军希望10岁左右孩子掌握的要素中提取出6点
 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration:
   facets:
-    people:
-    - name: 株式会社ネイチャーズウェイ（Naturaglacé 运营母体）
-      role: mentioned
-    - name: 株式会社ポケモン ライセンスビジネスチーム
-      role: mentioned
-    - name: 株式会社ポケモン コーポレート編集部
-      role: mentioned
+    people: []
     places:
     - name: 涩谷宫下公园
       what: 快闪店举办地
       world: real
     - name: RAYARD MIYASHITA PARK
-      what: 快闪店场地
+      what: 综合设施
       world: real
     pokemon:
     - name: 水伊布
       ndex: 134
-    - name: 梦幻
-      ndex: 151
     - name: 天然雀
       ndex: 177
-    works:
-    - name: ナチュラグラッセ ポケモンコレクション（Naturaglacé Pokemon Collection）
-      slug: null
-    - name: RAYARD MIYASHITA PARK ポップアップストア
-      slug: null
-    - name: ナチュラグラッセ ポケモンコレクション
-      slug: null
+    - name: 梦幻
+      ndex: 151
+    works: []
   id: corporate-topic-52-naturaglace-organic-cosmetics-collaboration
   observations:
-  - anchor: 10
-    seg: 9
-    text: 宝可梦企划负责人回忆首次碰头会，对方在桌上推开整套初号实体模型
+  - anchor: 13
+    seg: 12
+    text: 水伊布用于水润蓝色调妆前乳，梦幻用于24小时粉饼
   - anchor: 18
     seg: 17
-    text: 历经两年半配方调整与打样，完成3款润色防晒妆前乳等全套6款单品
+    text: 经约两年半摸索，完成防晒妆前乳3种、面部粉饼、UV乳液与妆前底霜共6款
 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇:
   facets:
     people:
@@ -50088,29 +50273,32 @@
 2026-08-29-continue-vol32-scan-archive:
   facets:
     people:
+    - name: 田尻智
+      role: speaker
+      slug: tajiri-satoshi
     - name: 中川翔子
       role: speaker
-    - name: 全员
+    - name: 全体
       role: speaker
-    - name: 现场记叙
-      role: speaker
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
     - name: 宫本茂
       role: mentioned
       slug: miyamoto-shigeru
-    - name: 若杉公德
-      role: mentioned
     - name: 志田英邦
+      role: mentioned
+    - name: 石原敦志
+      role: mentioned
+    - name: 阿弘
       role: mentioned
     places:
     - name: 下北泽
       what: GAME FREAK 最初的开发基地
       world: real
-    - name: Game Freak社内陈列室
-      what: 对谈与合影地点
+    - name: 町田
+      what: 田尻智少年居所
       world: real
+    - name: 伙伴公园
+      what: 双插槽带入宝可梦处
+      world: game
     pokemon:
     - name: 妙蛙种子
       ndex: 1
@@ -50126,12 +50314,6 @@
       ndex: 25
     - name: 派拉斯特
       ndex: 47
-    - name: ニャース
-      ndex: 52
-    - name: 猫老大
-      ndex: 53
-    - name: フーディン
-      ndex: 65
     - name: 大葱鸭
       ndex: 83
     - name: 卡比兽
@@ -50142,16 +50324,10 @@
       ndex: 166
     - name: 波克比
       ndex: 175
-    - name: デンリュウ
-      ndex: 181
-    - name: 未知图腾
-      ndex: 201
     - name: 熔岩蜗牛
       ndex: 219
     - name: 盔甲鸟
       ndex: 227
-    - name: 凤王
-      ndex: 250
     - name: 刺尾虫
       ndex: 265
     - name: 脱壳忍者
@@ -50172,74 +50348,76 @@
       ndex: 484
     - name: 雷吉奇卡斯
       ndex: 486
+    - name: 凤王
+      ndex: 250
+    - name: 胡地
+      ndex: 65
+    - name: 阿罗拉雷丘
+      ndex: 26
+    - name: 电龙
+      ndex: 181
+    - name: 伽勒尔喵喵
+      ndex: 52
     works:
-    - name: 宝可梦☆星期天
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+    - name: 宝可梦 绿
       slug: null
-    - name: 马力欧体育场
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 宝可梦 珍珠
+      slug: null
+    - name: 宝可梦 火红·叶绿
+      slug: firered-leafgreen
+    - name: 宝可梦 红宝石·蓝宝石·绿宝石
+      slug: null
+    - name: 宝可梦☆Sunday
+      slug: null
+    - name: 马力欧竞技场
       slug: null
     - name: 宝可梦竞技场
       slug: stadium
-    - name: 宝可梦 绿
-      slug: null
-    - name: 红·绿
-      slug: null
-    - name: 钻石·珍珠
-      slug: null
-    - name: 火红·叶绿
-      slug: null
-    - name: 红宝石·蓝宝石·绿宝石
-      slug: null
     - name: 太空侵略者
       slug: null
-    - name: GAMEST
+    - name: CoroCoro Comic
+      slug: null
+    - name: 帝牙卢卡VS帕路奇亚
       slug: null
   id: continue-vol32-scan-archive
   observations:
-  - seg: 19
-    text: 凤王携带道具「圣灰」，使用后队伍全员完全复活
-  - seg: 23
-    text: 田尻智名片下方盲文写的是“田尻智（たじりさとし）”
+  - seg: 14
+    text: 田尻智名片上画着凤王的插图
+  - seg: 21
+    text: 凤王持有的道具圣灰使用后可回复所有宝可梦
 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival:
   facets:
-    people:
-    - name: 能登ごいた保存会
-      role: mentioned
-    - name: 株式会社ポケモン
-      role: mentioned
+    people: []
     places:
-    - name: 石川县能登町宇出津
-      what: 五目发祥渔村
+    - name: 能登町宇出津
+      what: ごいた发祥地
       world: real
-    - name: 能登半岛
-      what: 五目流传地域
-      world: real
-    - name: 日本海
-      what: 渔民出海海域
+    - name: 石川县
+      what: ごいた诞生地
       world: real
     - name: 能登
-      what: 灾后文化复兴之地
-      world: real
-    - name: Game Market（游戏市集）
-      what: 实体桌游年度盛会
+      what: ごいた流传地区
       world: real
     pokemon: []
     works:
-    - name: ポケモンごいた
+    - name: 宝可梦ごいた
       slug: null
-    - name: 伝承娯楽「ごいた」
-      slug: null
-    - name: 宝可梦五目
-      slug: null
-    - name: 五目（Goita）
+    - name: 宝可梦 ごいた
       slug: null
   id: corporate-topic-54-noto-goita-traditional-game-revival
   observations:
-  - anchor: 6
-    seg: 5
-    text: 1999年当地有识之士联合成立能登ごいた保存会，已设8处传承分会
   - anchor: 9
     seg: 8
-    text: 对局4人，隔桌相对结为阵营，清空8张竹牌，先积满150分者胜
+    text: 对坐玩家两两组成2对2队伍，先出完8枚手牌的一方得分
+  - anchor: 19
+    seg: 18
+    text: 为确定棋子尺寸厚度形状，反复做了30种左右试制品
 2026-09-17-interview-cgworld-2026-cedec-pkmnza:
   facets:
     people:

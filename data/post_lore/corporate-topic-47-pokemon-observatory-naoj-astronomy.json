@@ -2,11 +2,11 @@
  "id": "corporate-topic-47-pokemon-observatory-naoj-astronomy",
  "stem": "2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 34
+  "n": 33
  },
  "facets": {
   "pokemon": [
@@ -14,29 +14,27 @@
     "name": "彷徨夜灵",
     "ndex": 356,
     "seg": [
-     21,
      22,
      23,
-     25
+     24
     ],
     "as": [
-     "彷徨夜灵",
-     "Dusclops"
+     "彷徨夜灵"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "科斯莫古",
     "ndex": 789,
     "seg": [
      20,
-     24
+     21
     ],
     "as": [
      "科斯莫古",
-     "Cosmog"
+     "コスモッグ"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "科斯莫姆",
@@ -53,8 +51,7 @@
     "name": "索尔迦雷欧",
     "ndex": 791,
     "seg": [
-     20,
-     24
+     20
     ],
     "as": [
      "索尔迦雷欧"
@@ -75,51 +72,23 @@
   ],
   "works": [
    {
-    "name": "ポケモン天文台",
+    "name": "宝可梦",
     "slug": null,
     "seg": [
-     3
+     12
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "ポケモン化石博物館",
+    "name": "宝可梦化石博物馆",
     "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "My First Pokémon プロジェクト",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "国立天文台（NAOJ）",
-    "slug": null,
-    "role": "mentioned",
     "seg": [
-     3
-    ]
-   },
-   {
-    "name": "相模原市立博物館",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン コーポレート編集部",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
+     5
     ],
     "via": "llm"
    }
   ],
+  "people": [],
   "places": [
    {
     "name": "相模原市立博物馆",
@@ -129,8 +98,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     3,
-     9
+     3
     ],
     "via": "gazetteer"
    },
@@ -142,23 +110,10 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     8
+     9
     ],
     "via": "gazetteer",
     "when": "after"
-   },
-   {
-    "name": "相模原市立博物館",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     3
-    ],
-    "what": "特展首站开幕地",
-    "via": "llm"
    },
    {
     "name": "国立天文台",
@@ -170,190 +125,20 @@
     "seg": [
      3
     ],
-    "what": "合作的天文机构",
+    "what": "合作机构",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     0,
-     3
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     0,
-     3,
-     14,
-     15
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     2,
-     5,
-     6,
-     7,
-     12,
-     20
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     4
-    ],
-    "as": [
-     "团队内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     5
-    ],
-    "as": [
-     "巡展"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     9,
-     28
-    ],
-    "as": [
-     "家庭",
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     20
-    ],
-    "as": [
-     "复刻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     22
-    ],
-    "as": [
-     "全国图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     22
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     27
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     29
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     29
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     33
-    ],
-    "as": [
-     "神秘的"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 4,
-   "text": "企划原点始于大约三年前，团队提出再办一场自然科学特展的想法",
-   "anchor": 5
+   "seg": 3,
+   "text": "特别企划展以相模原市立博物馆为起点开始全国巡回",
+   "anchor": 4
   },
   {
    "seg": 11,
-   "text": "从立项到开门迎客经历长达一年半的试错，瓶颈是宇宙物理学与宝可梦如何咬合",
+   "text": "项目启动后经历约一年半反复摸索，最大难关是结合宇宙与宝可梦",
    "anchor": 12
   }
  ],
@@ -370,9 +155,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

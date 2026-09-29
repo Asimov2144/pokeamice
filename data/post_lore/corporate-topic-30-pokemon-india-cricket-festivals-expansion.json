@@ -2,11 +2,11 @@
  "id": "corporate-topic-30-pokemon-india-cricket-festivals-expansion",
  "stem": "2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 27
+  "n": 26
  },
  "facets": {
   "pokemon": [
@@ -14,82 +14,23 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     7,
-     12,
+     10,
      15,
-     16,
      18,
-     19
+     19,
+     12
     ],
     "as": [
-     "皮卡丘"
+     "皮卡丘",
+     "ピカチュウ"
     ],
     "via": "body"
    }
   ],
-  "works": [
-   {
-    "name": "テレビアニメ『ポケットモンスター』インド版",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモン・メラ（Pokémon Mela）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "电视动画《宝可梦》",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦嘉年华（Pokémon Mela）",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   }
-  ],
+  "works": [],
   "people": [
    {
-    "name": "株式会社ポケモン インドマーケティング室",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "ヴィシャール＆シェーカル（Vishal–Shekhar）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "アルマーン・マリク（Armaan Malik）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "シャーリィ・セティア（Shirley Setia）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "ムンバイ・インディアンズ（Mumbai Indians）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "维沙尔·达德拉尼（Vishal Dadlani）",
+    "name": "维沙尔",
     "slug": null,
     "role": "mentioned",
     "seg": [
@@ -98,7 +39,7 @@
     "via": "llm"
    },
    {
-    "name": "谢卡尔·拉夫吉亚尼（Shekhar Ravjiani）",
+    "name": "谢卡尔",
     "slug": null,
     "role": "mentioned",
     "seg": [
@@ -107,7 +48,7 @@
     "via": "llm"
    },
    {
-    "name": "阿尔曼·马利克（Armaan Malik）",
+    "name": "阿尔曼·马利克",
     "slug": null,
     "role": "mentioned",
     "seg": [
@@ -116,7 +57,7 @@
     "via": "llm"
    },
    {
-    "name": "雪莉·塞蒂亚（Shirley Setia）",
+    "name": "沙尔利·塞蒂亚",
     "slug": null,
     "role": "mentioned",
     "seg": [
@@ -127,19 +68,6 @@
   ],
   "places": [
    {
-    "name": "印度",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "战略开拓对象国",
-    "via": "llm"
-   },
-   {
     "name": "孟买",
     "id": null,
     "entity": null,
@@ -147,152 +75,22 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     7
+     13
     ],
-    "what": "发布会与赛事举办地",
+    "what": "球队所在地",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     3,
-     6
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     6
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     7,
-     13,
-     24
-    ],
-    "as": [
-     "携手",
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     8,
-     10
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     15,
-     16,
-     23
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     19
-    ],
-    "as": [
-     "配色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     20
-    ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     22
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 3,
-   "text": "宝可梦2013年进入印度，通过扩大电视动画播出排期与覆盖时段起步。",
+   "text": "株式会社宝可梦2013年进入印度，扩大电视动画播放频率和时间",
    "anchor": 4
   },
   {
    "seg": 4,
-   "text": "2023年印度总人口突破节点成为全球第一，宝可梦总部组建印度营销室。",
+   "text": "2023年印度人口超中国成世界第一，公司成立印度营销室",
    "anchor": 5
   }
  ],
@@ -300,9 +98,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

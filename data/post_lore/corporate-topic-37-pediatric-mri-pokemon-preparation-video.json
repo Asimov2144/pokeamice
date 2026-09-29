@@ -2,11 +2,11 @@
  "id": "corporate-topic-37-pediatric-mri-pokemon-preparation-video",
  "stem": "2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 29
+  "n": 35
  },
  "facets": {
   "pokemon": [
@@ -14,25 +14,52 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     19,
+     23,
      25,
-     28
+     26
     ],
     "as": [
      "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小磁怪",
+    "ndex": 81,
+    "seg": [
+     22
+    ],
+    "as": [
+     "小磁怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     22
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "树才怪",
+    "ndex": 185,
+    "seg": [
+     22
+    ],
+    "as": [
+     "树才怪"
     ],
     "via": "body"
    }
   ],
   "works": [
    {
-    "name": "小児向けMRI検査説明用動画『ポケモンといっしょにMRIけんさのようすをみてみよう！』",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンといっしょにMRIけんさのようすをみてみよう！",
+    "name": "和宝可梦一起看看MRI检查的样子吧！",
     "slug": null,
     "seg": [
      2
@@ -40,7 +67,7 @@
     "via": "llm"
    },
    {
-    "name": "和宝可梦一起看看M·R·I检查是什么样的吧！",
+    "name": "儿童MRI检查说明视频宝可梦版「和宝可梦一起看看MRI检查吧！」",
     "slug": null,
     "seg": [
      16
@@ -50,124 +77,48 @@
   ],
   "people": [
    {
-    "name": "キヤノンメディカルシステムズ株式会社（佳能医疗系统）",
+    "name": "下川尚子",
     "slug": null,
     "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン CSR・映像企画チーム",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
+    "seg": [
+     31
+    ],
+    "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
+  "places": [
    {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
+    "name": "久留米大学医学部脳神経外科講座",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
     "seg": [
-     0,
-     2,
-     3,
-     7,
-     8,
-     14
+     31
     ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     0,
-     2,
-     6,
-     7
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     0
-    ],
-    "as": [
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     17,
-     18
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     21,
-     23
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     24
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
+    "what": "提供评论的机构",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
    "seg": 2,
-   "text": "宝可梦与佳能医疗系统联合制作面向患儿的MRI检查说明视频",
+   "text": "宝可梦与佳能医疗系统共同制作了面向儿童的MRI检查说明视频。",
    "anchor": 3
   },
   {
-   "seg": 3,
-   "text": "MRI检查需孩子在狭窄圆筒内保持绝对静止长达数十分钟",
-   "anchor": 4
+   "seg": 17,
+   "text": "视频原样收录MRI检查时的大音量，未加掩盖。",
+   "anchor": 18
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

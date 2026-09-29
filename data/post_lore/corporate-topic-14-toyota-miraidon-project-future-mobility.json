@@ -2,11 +2,11 @@
  "id": "corporate-topic-14-toyota-miraidon-project-future-mobility",
  "stem": "2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 28
+  "n": 42
  },
  "facets": {
   "pokemon": [
@@ -14,89 +14,33 @@
     "name": "密勒顿",
     "ndex": 1008,
     "seg": [
-     0,
      2,
-     3,
      5,
+     7,
+     8,
+     11,
+     13,
      6,
-     11
+     10
     ],
     "as": [
      "密勒顿",
-     "Miraidon"
+     "ミライドン"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
   "works": [
    {
-    "name": "丰田密勒顿企划",
-    "slug": null,
-    "seg": [
-     0,
-     2
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Toyota Engineering Society MIRAIDON",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
     "name": "宝可梦 紫",
     "slug": null,
     "seg": [
-     2,
-     5
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "密勒顿",
-    "slug": null,
-    "seg": [
-     0,
-     2,
-     3,
-     5,
-     6,
-     11
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "心动世界",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "闪电冲锋",
-    "slug": null,
-    "seg": [
-     27
+     7
     ],
     "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "トヨタ技術会",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "爱知县",
@@ -106,9 +50,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     3
+     4
     ],
-    "what": "问卷征集对象地区",
+    "what": "问卷对象所在地",
     "via": "llm"
    },
    {
@@ -119,9 +63,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     21
+     32
     ],
-    "what": "实车展出地",
+    "what": "展示试驾会场地",
     "via": "llm"
    },
    {
@@ -132,165 +76,23 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     3
-    ],
-    "what": "心动世界举办地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     1,
-     5
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     2,
-     3,
-     4,
-     5,
-     13,
-     18
-    ],
-    "as": [
-     "孩子们",
-     "小学生",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     3
-    ],
-    "as": [
-     "社内"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
      4
     ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     5
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "工期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "accessibility",
-    "name": "无障碍",
-    "facet": "audience",
-    "seg": [
-     13
-    ],
-    "as": [
-     "无障碍"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     14
-    ],
-    "as": [
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     18
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     21
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
+    "what": "举办活动之地",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "2023年度以爱知县小学生为对象征集梦想的未来移动载具",
-   "anchor": 4
+   "seg": 4,
+   "text": "2023年度以爱知县小学生为对象实施问卷调查，收集到8000个创意",
+   "anchor": 5
   },
   {
-   "seg": 9,
-   "text": "项目初期约30名成员，最终超过300名专家加入",
-   "anchor": 10
+   "seg": 15,
+   "text": "项目成员起初约30人，最终扩大到300人规模",
+   "anchor": 16
   }
  ],
  "relations": [
@@ -304,9 +106,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

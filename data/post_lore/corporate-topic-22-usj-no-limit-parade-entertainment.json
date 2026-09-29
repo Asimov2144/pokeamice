@@ -2,11 +2,11 @@
  "id": "corporate-topic-22-usj-no-limit-parade-entertainment",
  "stem": "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 28
+  "n": 26
  },
  "facets": {
   "pokemon": [
@@ -14,13 +14,12 @@
     "name": "喷火龙",
     "ndex": 6,
     "seg": [
-     11,
-     13
+     12
     ],
     "as": [
      "喷火龙"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "皮卡丘",
@@ -43,53 +42,40 @@
     "as": [
      "暴鲤龙"
     ],
-    "via": "tag"
+    "via": "body"
    },
    {
     "name": "彩粉蝶",
     "ndex": 666,
     "seg": [
-     16,
      17,
      18
     ],
     "as": [
-     "彩粉蝶",
-     "Vivillon"
+     "彩粉蝶"
     ],
     "via": "body"
    }
   ],
   "works": [
    {
-    "name": "NO LIMIT! パレード",
+    "name": "宝可梦",
     "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "NO LIMIT! サマー・スプラッシュ・パレード",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
+    "seg": [
+     16
+    ],
+    "via": "llm"
    },
    {
     "name": "Pokémon GO",
     "slug": null,
     "seg": [
-     17
+     18
     ],
-    "via": "entities"
+    "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "ユニバーサル・スタジオ・ジャパン（USJ）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "日本环球影城",
@@ -101,172 +87,20 @@
     "seg": [
      2
     ],
-    "what": "主题乐园",
+    "what": "合作主题公园",
     "via": "llm"
-   },
-   {
-    "name": "加利福尼亚",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     17
-    ],
-    "what": "彩粉蝶花纹来源",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     0
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     2,
-     4,
-     22
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     5,
-     6
-    ],
-    "as": [
-     "水属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     12
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     15,
-     16
-    ],
-    "as": [
-     "年龄层",
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     18
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     20
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     21
-    ],
-    "as": [
-     "复刻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     27
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "2023年USJ与宝可梦结为战略同盟，展开全新企划",
-   "anchor": 3
+   "seg": 3,
+   "text": "USJ负责巡游的工作人员回顾了这次尝试的开端",
+   "anchor": 4
   },
   {
    "seg": 10,
-   "text": "暴鲤龙需3位动作演员协作操作，演绎数米巨兽动态",
+   "text": "暴鲤龙首次登场，由3名表演者配合创造动感动作",
    "anchor": 11
   }
  ],
@@ -274,9 +108,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

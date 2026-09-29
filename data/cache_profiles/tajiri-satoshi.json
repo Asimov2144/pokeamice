@@ -1,43 +1,43 @@
 {
- "key": "7b91b31eac031bad",
+ "key": "c4489829c996142d",
  "answer": {
-  "summary": "田尻智以企划与总监/制作人身份主导《宝可梦》系列，从最初企划书到完成历经六年，其间只有他与增田、杉森三人全程参与[1]。他主张先不管内存限制把想做的内容做出来，之后再削减装不下的部分[2][11]。他重视用数字增减来控制游戏信息量与趣味性的平衡，并希望借内存增加让玩家更细致地理解游戏世界[1][2]。他自述长期昼夜颠倒地工作以获取设计灵感，并认为游戏与动画的制作技术有共通之处[3]。据第三方报道，其童年昆虫采集体验被视为《宝可梦》核心灵感的原点[12]。",
+  "summary": "田尻智长期担任《宝可梦》系列的总监／制作人，并逐步转为部门总监与执行制作人，署名覆盖总监、企划与美术等多个领域。他自述《宝可梦》企划始于 GAME FREAK 刚公司化之时，完成历时约 6 年，实际作业约第一年与最后 3 年 [1]。他重视“有趣又新颖”的出发点，最初构想是做出在战斗场景等地方尽量不使用数字、有触感的 RPG，后来才回到兼顾不用数字的新颖与用数字带来的游戏深度的位置 [1]。在续作开发中，他谈到先开发想做的东西、之后再削减装不下的宝可梦，并希望借内存增加让玩家更细致地理解游戏世界 [2]。他也自述以昼夜颠倒的作息获取游戏设计灵感，并认为制作游戏与制作动画在技术与概念上有共通之处 [3]。",
   "expertise": [
    "游戏企划",
-   "总监制作",
-   "宝可梦设计",
+   "总监／制作",
    "RPG设计",
-   "世界观构筑",
-   "图鉴功能"
+   "宝可梦设计",
+   "图鉴功能",
+   "像素美术"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "称企划书写于公司设立之初，完成花6年，全程参与者仅他、增田、杉森3人。"
+    "detail": "称企划始于 GAME FREAK 公司化之初，完成花 6 年，实际作业约第一年与最后 3 年。"
    },
    {
     "n": 2,
-    "detail": "称先不管内存做想做的内容，之后再削减装不下的宝可梦。"
+    "detail": "称先开发想做的东西，之后再削减装不下的宝可梦。"
    },
    {
     "n": 3,
-    "detail": "自述睡12小时工作24小时，过去三年如此，靠昼夜颠倒获得灵感。"
-   },
-   {
-    "n": 11,
-    "detail": "称初代设计200多只宝可梦后削减到150只，并接受宫本茂建议分两版本。"
+    "detail": "自述睡 12 小时、工作 24 小时，靠昼夜颠倒获取设计灵感。"
    },
    {
     "n": 5,
-    "detail": "称看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏。"
+    "detail": "据该报道，田尻智以 GAME FREAK 董事长身份参与《DOTZ》体验，并提到同人志时期。"
    },
    {
-    "n": 10,
-    "detail": "称16岁报名世嘉游戏创意大奖，优秀奖两人中一人是他。"
+    "n": 6,
+    "detail": "自述初代发售延期 6 个月，那半年通宵改台词并当场交给程序员。"
+   },
+   {
+    "n": 11,
+    "detail": "自述 16 岁报名世嘉游戏创意大奖获优秀奖，并曾去世嘉展示厅玩。"
    },
    {
     "n": 12,
-    "detail": "据该专题报道，其少年时代昆虫采集体验是《宝可梦》核心灵感的原点。"
+    "detail": "自述常去千代田区游戏中心，并与杉森建通信后见面。"
    }
   ]
  },
@@ -46,13 +46,13 @@
   "1997-11-27-interview-glitterberri-spaceworld-pokemon2-en",
   "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
   "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
-  "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
+  "2005-08-18-scan-continue-vol23-gamefreak-special",
+  "2026-08-29-continue-vol32-scan-archive",
   "2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139",
   "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
   "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
-  "2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143",
+  "2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144",
   "2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th",
-  "2013-05-29-interview-glitterberri-early-concept-art",
-  "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure"
+  "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo"
  ]
 }

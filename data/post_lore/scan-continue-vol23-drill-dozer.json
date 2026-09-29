@@ -1,0 +1,158 @@
+{
+ "id": "scan-continue-vol23-drill-dozer",
+ "stem": "2005-08-18-scan-continue-vol23-drill-dozer",
+ "rev": 1,
+ "built": "2026-09-29",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 56
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "螺旋破碎机",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "Quinty",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "脉冲人",
+    "slug": null,
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "钻头乐园",
+    "slug": null,
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "泰姆波坎",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "螺旋破坏者 轰振钻头乐园",
+    "slug": null,
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     4,
+     7,
+     9,
+     10,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "吉田宏信",
+    "slug": "yoshida-hironobu",
+    "role": "speaker",
+    "seg": [
+     5,
+     12,
+     16,
+     28,
+     34,
+     36
+    ]
+   },
+   {
+    "name": "宫昌太朗",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "岩田社长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "富野由悠季",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     46
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "京都",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     15
+    ],
+    "what": "任天堂所在地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "杉森建称本作大约两年前开始制作"
+  },
+  {
+   "seg": 5,
+   "text": "吉田宏信称《红宝石》《蓝宝石》做完后马上开始"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

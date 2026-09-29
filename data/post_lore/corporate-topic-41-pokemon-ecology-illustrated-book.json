@@ -2,11 +2,11 @@
  "id": "corporate-topic-41-pokemon-ecology-illustrated-book",
  "stem": "2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 36
+  "n": 34
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     14
+     15
     ],
     "as": [
      "妙蛙种子"
@@ -22,45 +22,77 @@
     "via": "body"
    },
    {
+    "name": "ナッシー",
+    "ndex": 103,
+    "seg": [
+     6
+    ],
+    "as": [
+     "ナッシー"
+    ],
+    "via": "body"
+   },
+   {
     "name": "小笃儿",
     "ndex": 731,
     "seg": [
-     23,
-     24,
-     27
+     25,
+     27,
+     26
     ],
     "as": [
      "小笃儿",
-     "Pikipek"
+     "ツツケラ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡璞・哞哞",
+    "ndex": 787,
+    "seg": [
+     29
+    ],
+    "as": [
+     "卡璞・哞哞"
     ],
     "via": "body"
    }
   ],
   "works": [
    {
-    "name": "ポケモン生態図鑑",
+    "name": "宝可梦生态图鉴",
     "slug": null,
     "seg": [
      3
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "ポケットモンスター サン・ムーン",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 太阳／月亮",
-    "slug": null,
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
     "seg": [
      4
     ],
     "via": "llm"
    },
    {
-    "name": "红·绿",
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ポケットモンスター 赤・緑",
     "slug": null,
     "seg": [
      9
@@ -68,7 +100,7 @@
     "via": "llm"
    },
    {
-    "name": "朱·紫",
+    "name": "ポケットモンスター スカーレット",
     "slug": null,
     "seg": [
      9
@@ -83,203 +115,38 @@
     "role": "mentioned",
     "seg": [
      3
-    ]
-   },
-   {
-    "name": "きのしたちひろ（木下千寻）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
+    ],
+    "via": "llm"
    },
    {
     "name": "きのしたちひろ",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     20
+     22
     ],
     "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     0,
-     3,
-     4,
-     5,
-     7,
-     8
-    ],
-    "as": [
-     "生态",
-     "大自然",
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     4,
-     5
-    ],
-    "as": [
-     "地区形态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     4
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     6,
-     8
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     14
-    ],
-    "as": [
-     "机能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     17,
-     31
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     20
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     24
-    ],
-    "as": [
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     29
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     29,
-     30
-    ],
-    "as": [
-     "家庭",
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     33
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
    "seg": 4,
-   "text": "米原善成任职株式会社宝可梦，拥有农学博士学位，专业为行为生态学",
+   "text": "米原善成隶属株式会社宝可梦，拥有博士（农学）学位",
    "anchor": 5
   },
   {
-   "seg": 4,
-   "text": "他回忆自《宝可梦 太阳／月亮》引入地区形态起感受到宝可梦的写实感",
-   "anchor": 5
+   "seg": 16,
+   "text": "整理图鉴信息的工作花费约两年，电子表格超过7500行",
+   "anchor": 17
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

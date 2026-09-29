@@ -3,8 +3,8 @@
   slug: masuda-junichi
   kind: person
   interviews:
-    entries: 127
-    spoken_in: 117
+    entries: 126
+    spoken_in: 116
     columns: 508
     first: '1996'
     last: '2019'
@@ -36,50 +36,50 @@
       games: 3
     - cat: 管理/协调
       games: 2
-  summary: 增田顺一长期在 GAME FREAK 同时承担作曲、程序与总监/制作人工作，是少数横跨声音、程序与企划决策的多面手 [6]。他自初代起亲自操刀音乐，主张仅凭倾听便能心领神会、用旋律刻画玩家旅途中的心境变化 [8]。在系统与玩法层面，他围绕「交流」这一哲学原点推动多人联机、双版本与全球同步发售等设计 [2][7]。他重视面向所有年龄层的低门槛体验，反对为迎合硬核玩家而使系统繁琐化 [3]。在具体制作中，他常从硬件特性与玩家情境出发倒推功能，并关注对战平衡的调整 [11][8]。
+  summary: 增田顺一长期参与宝可梦系列开发，署名涵盖总监、制作人、音乐、企划与美术等多个领域，早期还以程序员身份参与并同时负责音乐 [6]。他重视游戏核心趣味的延续，认为从最初作品至今概念始终如一：寻找并捕捉宝可梦、与训练家对战 [9]。在具体设计上，他关注属性平衡，曾因龙属性等使对战平衡倾斜而推动引入妖精属性 [8]；也重视交换这一核心概念，并据此选择便携式硬件 [3]。在音乐方面，他坚持仅凭倾听便能心领神会的作曲原则，用旋律刻画玩家旅程中的心境变化 [8]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 称6年前制作的宝可梦叫声仍在使用，最后关头努力加入通信对战。
+    detail: 提到6年前制作的宝可梦叫声仍在使用，并回忆最后关头加入通信对战。
   - n: 2
-    post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
-    title: CVG 独家专访 Game Freak 三巨头：增田顺一 × 杉森建 × 森本茂树畅谈《红·蓝宝石》
-    date: '2003-05-30'
-    publication: Computer and Video Games (CVG)
-    detail: 称GBA版让4名玩家同时连接互动，「交流」是宝可梦背后的灵魂哲学。
+    post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+    title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
+    date: '2003-02-21'
+    publication: Nintendo DREAM
+    detail: 谈到用旧作宝可梦补足属性不足，并称不放可达鸭不行。
   - n: 3
-    post: 2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda
-    title: 1UP.com 深度特稿：增田顺一 × 河内丸武史谈《为何玩家仍为宝可梦着迷》——从493只收集科学到极致简约哲学
+    post: 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru
+    title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
     date: '2009-03-24'
-    publication: 1UP.com
-    detail: 称宝可梦对所有人开放无门槛，掌机是与宝可梦最相称的载体。
+    publication: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!
+    detail: 称与杉森建讨论很久才设计出皮丘，并提到晃晃斑每只图案不同。
   - n: 4
     post: 2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence
     title: '[访谈翻译] 社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）'
     date: '2010-09-10'
     publication: 任天堂官网「社長が訊く」
-    detail: 称过桥前有意不改变既有世界结构，让玩家尽快融入这个世界。
+    detail: 说明本作过桥前有意不改变以往世界，过桥后游戏变得开放。
   - n: 5
-    post: 2011-02-21-interview-nintendodream-bw-bridges-masuda
-    title: Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻
+    post: 2011-02-21-scan-ndream-2011-04-masuda-bridges
+    title: Nintendo DREAM 2011：增田顺一谈《宝可梦 黑·白》桥梁诞生秘话
     date: '2011-02-21'
-    publication: 「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」
-    detail: 称合众桥梁以布鲁克林大桥与彩虹大桥相加除以二、交由高迪式设计。
+    publication: Nintendo DREAM
+    detail: 称合众地区以纽约为原型，天箭桥参考布鲁克林大桥与彩虹大桥。
   - n: 6
     post: 2012-07-21-scan-ndream-221-b2w2-developer-interview
     title: Nintendo DREAM 2012：宝可梦 黑2·白2 开发者访谈
     date: '2012-07-21'
     publication: Nintendo DREAM
-    detail: 称GAME FREAK规模小，人人尝试各种工作，梦幻的图由森本所画。
+    detail: 提到GAME FREAK当初规模小，每人尝试各种工作成为公司风气基础。
   - n: 7
-    post: 2013-09-20-interview-multiplayer-2013-xy
-    title: 意大利 Multiplayer.it 2013：采访增田顺一谈《宝可梦 X·Y》
-    date: '2013-09-20'
-    publication: 意大利 Multiplayer.it
-    detail: 称《X·Y》三条主题为美、羁绊与进化，超级进化只在一场对战中持续。
+    post: 2013-09-21-interview-nintendolife-2013-xy
+    title: Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》
+    date: '2013-09-21'
+    publication: Nintendo Life
+    detail: 称标题X和Y来自X轴与Y轴，代表不同思维方式与观点。
   - n: 8
     post: 2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama
     title: 4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录
@@ -87,42 +87,30 @@
     publication: 4Gamer.net
     detail: 称因龙属性等使平衡倾斜，与森本茂树研讨后引入妖精属性。
   - n: 9
-    post: 2016-12-05-interview-25043
-    title: '[访谈翻译] 2016  Entrevistamos a los responsables de Pokémon: "No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo" 20年前我们并不相信会如此成功'
+    post: 2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori
+    title: 专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋
     date: '2016-12-05'
-    publication: '2016  Entrevistamos a los responsables de Pokémon: "No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo" 20年前我们并不相信会如此成功'
-    detail: 称最初目标受众10岁，如今已30岁，需考虑不同年龄层的游玩方式。
-  - n: 10
-    post: 2017-11-06-interview-2017-game-freak-dordogne-enquete
-    title: '[访谈翻译] [Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'
-    date: '2017-11-06'
-    publication: '[Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'
-    detail: 自述为作曲家、程序员，从《红宝石》到《X/Y》的导演。
+    publication: GQ España
+    detail: 称游戏核心趣味从最初至今没有太大变化，概念始终如一。
   - n: 11
-    post: 2018-11-01-interview-pokemoncom-2018-letsgo-makers
-    title: Pokemon.com（美国官网）2018：增田顺一与菜花健作谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》
-    date: '2018-11-01'
-    publication: Pokemon.com
-    detail: 称项目始于如何让人走进房间玩游戏这一问题，再倒推所需功能。
-  - n: 12
-    post: 2019-11-13-interview-gi-2019-going-big
-    title: Game Informer 2019：大森滋与岩尾和昌谈《宝可梦 剑·盾》
-    date: '2019-11-13'
-    publication: Game Informer
-    detail: 据Game Informer报道，GAME FREAK不愿制作玩家无法随身携带的游戏。
+    post: 2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori
+    title: Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新
+    date: '2019-06-13'
+    publication: ファミ通.com
+    detail: 称因Switch开发工时与时间成本大增，以保证品质和发售档期为优先。
   expertise:
   - 总监/制作人
   - 音乐
   - 企划
+  - 战斗平衡
+  - 宝可梦设计
   - 程序开发
-  - 联机交流
-  - 对战平衡
 - name: 杉森建
   slug: sugimori-ken
   kind: person
   interviews:
-    entries: 52
-    spoken_in: 42
+    entries: 54
+    spoken_in: 44
     columns: 19
     first: '1996'
     last: '2019'
@@ -145,7 +133,7 @@
       games: 1
     - cat: 本地化/海外QA
       games: 1
-  summary: 杉森建长期担任美术总监，统领所有美术与视觉绘制团队，并负责新宝可梦造型设计的构思与整合，使不同设计师的画风呈现统一感 [4]。他监修角色设计，对团队提出的设计进行检查、统一形象 [3]，并最终亲自绘制全部官方插画 [7]。在构思宝可梦时，他既从既有形状、形态或生物中汲取灵感，也考虑怎样的宝可梦在游玩层面更有趣，并曾为对战平衡设计新属性与宝可梦 [2]。他强调在硬件升级时保持“一眼看去就是宝可梦”的韵味，不因细节繁冗而失去原有风格 [4]，同时重视脚踏实地、与现实世界保持连续感 [5]。
+  summary: 杉森建长期负责宝可梦的视觉定稿与官方插画，并统管绘画团队以维持整体统一感 [4]。他参与新宝可梦的构思与选拔，从草图到三视图誊清形成官方插画 [9]。在系列重启等方向性决策中，他常扮演把过火部分拉回《宝可梦》范畴的角色 [5]。他重视设计多样性，誊清时注意不抹掉各设计师的个性 [9]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
@@ -158,74 +146,74 @@
     title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
     date: '2000-07-01'
     publication: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)
-    detail: 为《金／银》对战平衡设计新属性与宝可梦，构思数百只后删减大半。
+    detail: 称保持游戏新鲜感最困难，咕咕灵感来自小时候养的鸟单脚站立。
   - n: 3
-    post: 2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages
-    title: N.O.M 2002年：增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》
-    date: '2002-11-01'
-    publication: 任天堂官网「N.O.M」2002年11月号
-    detail: 在《红宝石·蓝宝石》中主要监修角色，检查设计并统一形象。
+    post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+    title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
+    date: '2003-02-21'
+    publication: Nintendo DREAM
+    detail: 称《红宝石·蓝宝石》决定序盘只放新宝可梦，并做出刺尾虫。
   - n: 4
-    post: 2006-10-01-interview-nom-dp-ishihara-masuda-sugimori
-    title: 任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）
+    post: 2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori
+    title: N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈
     date: '2006-10-01'
-    publication: Nintendo Online Magazine
-    detail: 任美术总监统领美术团队，负责整合画风、呈现整体统一感。
+    publication: 任天堂官网「N.O.M」2006年10月号
+    detail: 称自己是美术总监，负责统管绘画团队并整合画风营造统一感。
   - n: 5
-    post: 2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence
-    title: '[访谈翻译] 社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）'
+    post: 2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world
+    title: '[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）'
     date: '2010-09-10'
     publication: 任天堂官网「社長が訊く」
-    detail: 认为博士开场白等底线不能打破，角色设计避免过于夸张离奇。
+    detail: 称把做得过火的部分巧妙淡化是自己的职责，设计由17人参与。
   - n: 6
-    post: 2010-11-20-interview-nintendodream-201-sugimori-bw-characters
-    title: ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）
-    date: '2010-11-20'
-    publication: ニンテンドードリーム
-    detail: 据该篇报道，增田要求提高主人公年龄，N的设计戴帽子促成全员戴帽方案。
+    post: 2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview
+    title: 電撃GAMES 2010：GAME FREAK谈宝可梦 黑·白 改变与不变
+    date: '2010-10-15'
+    publication: 電撃GAMES
+    detail: 称御三家定为蛇、猪、水獭，分别以西方贵族、中国武将、日本武士为原型。
   - n: 7
-    post: 2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw
-    title: 任天堂官网「女子大生が訊く」 2010：桐谷美玲询问《宝可梦 黑·白》开发者
-    date: '2010-12-24'
-    publication: 任天堂官网「女子大生が訊く」
-    detail: 称GAME FREAK有17位宝可梦图形设计师，最终由他画全部官方插画。
+    post: 2010-12-20-interview-otonafami-sugimori-starters-victini
+    title: オトナファミ 杉森建インタビュー（摘录）
+    date: '2010-12-20'
+    publication: オトナファミ
+    detail: 据该篇报道，他曾以“要不要只换一半”表示抗拒，但被断言绝不让步。
   - n: 8
-    post: 2011-03-05-interview-1up-black-white-how-pokemon-get-made
-    title: 1UP.com 2011：Game Freak谈《黑／白》主角设计
-    date: '2011-03-05'
-    publication: 1UP.com
-    detail: 据该报道，他负责莱希拉姆与捷克罗姆设计，以尾巴为各自设计核心。
+    post: 2011-03-04-interview-spong-bw-launch-masuda-sugimori
+    title: SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱
+    date: '2011-03-04'
+    publication: SPOnG
+    detail: 据该篇报道，他与增田顺一在伦敦首发活动上接受采访谈《黑／白》重启。
   - n: 9
-    post: 2013-05-29-interview-glitterberri-early-concept-art
-    title: GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计
-    date: '2013-05-29'
-    publication: GlitterBerri
-    detail: 称设计的角色数量约为实际使用的1.5倍，最早宝可梦有独角犀牛等。
+    post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon
+    title: Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇
+    date: '2011-05-21'
+    publication: Nintendo DREAM 特別付録
+    detail: 称设计由17人分工，集中草图选拔后由他绘制三视图并誊清。
   - n: 10
-    post: 2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto
-    title: GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点
-    date: '2014-07-02'
-    publication: ついにファミコンの名作、あの「クインティ」が帰ってきた！ Wii Uバーチャルコンソールでプレイ可能!!制作を手掛けたゲームフリークの杉森建氏、増田順一氏、森本茂樹氏が当時を振り返る
-    detail: 回忆《旋转方块》中途加入，团队约6人，制作约2年多。
+    post: 2013-10-24-interview-onm-xy-sugimori
+    title: 任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛
+    date: '2013-10-24'
+    publication: Ken Sugimori got 'artist's block' during Pokemon X and Y development
+    detail: 称设计哲尔尼亚斯和伊裴尔塔尔时遭遇创作瓶颈，曾交给大村祐介推进。
   - n: 11
     post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
     title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
     date: '2018-05-01'
     publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-    detail: 称初代由图形设计师直接敲像素点阵，并拜托西田设计可爱宝可梦。
+    detail: 称初代时图形设计师直接敲像素点阵，事实上就是角色核心造物设计师。
   - n: 12
     post: 2019-05-18-interview-siliconera-harmoknight-drill-dozer
     title: '[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘'
     date: '2019-05-18'
     publication: Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer
-    detail: 据该报道，海野隆雄说明宝可梦设计者由谁绘制取决于多种模式。
+    detail: 据该篇报道，海野隆雄谈及决定宝可梦角色设计师的多种模式。
   expertise:
   - 美术
   - 总监/制作人
   - 宝可梦设计
-  - 角色设计
   - 官方插画
-  - 视觉统一
+  - 角色定稿
+  - 世界观构筑
 - name: 大森滋
   slug: ohmori-shigeru
   kind: person
@@ -403,11 +391,11 @@
   slug: kageyama-shota
   kind: person
   interviews:
-    entries: 8
-    spoken_in: 8
+    entries: 7
+    spoken_in: 7
     columns: 2
     first: '2010'
-    last: '2023'
+    last: '2013'
   credits:
     games: 13
     core_games: 8
@@ -424,70 +412,64 @@
       games: 1
     - cat: 美术
       games: 1
-  summary: 景山将太以游戏声音制作为核心专长，长期负责《宝可梦》系列背景音乐与音效，并统括整体声音制作 [2]。他主张在继承系列既有特色与增田顺一所坚守内核的同时，追求新的「宝可梦之声」，并重视玩家游玩时的舒适感与战斗中的情绪高涨 [1][4][6]。在团队管理上，他按成员个性分配曲目，推动公司内部统一使用 Cubase 以共享工程数据 [2]。他也参与企划、程序与美术等其他领域的工作。
+  summary: 景山将太以游戏声音制作为主要领域，长期负责《宝可梦》系列背景音乐与音效，并担任声音总监统括整体声音制作 [2][3]。他主张在继承系列既有声音特色的同时追求新的“宝可梦之声”，并重视玩家游玩时的舒适感与战斗中的情绪高涨 [1][5][6]。在团队管理上，他根据成员个性安排分工，并推动公司内部统一使用 Cubase 以共享工程数据 [2]。在《宝可梦 X·Y》中，他从项目初期即独自构思声音方向，并赴法国取材 [7]。
   citations:
   - n: 1
     post: 2010-10-20-interview-bw-music-collection-liner-notes
     title: 《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建
     date: '2010-10-20'
     publication: 『ポケットモンスターブラック・ホワイト スーパーミュージックコレクション』CDブックレット
-    detail: 首次担任音频负责人的作品是完全新作《宝可梦 黑白》，称压力很大但开发很快乐。
+    detail: 首次担任音频负责人的作品是完全新作《宝可梦 黑白》，称开发每天快乐充实。
   - n: 2
     post: 2010-11-20-interview-steinberg-gamefreak-sound-cubase
     title: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
     date: '2010-11-20'
     publication: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
-    detail: 2007 年加入 GAME FREAK，在《黑／白》中统括游戏声音制作并安排四人分工。
+    detail: 2007年加入GAME FREAK，在《黑／白》中统括游戏声音制作并安排四人分工。
   - n: 3
     post: 2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii
     title: Nintendo DREAM 2010：宝可梦 黑·白 声音总监景山将太访谈
     date: '2010-11-20'
     publication: Nintendo DREAM
-    detail: 称没想到声音总监工作会交给刚加入的自己，并提到爱用 YAMAHA S90 ES 键盘。
+    detail: 称没想到声音总监工作会交给刚加入的自己，并提及爱用YAMAHA S90 ES键盘。
   - n: 4
     post: 2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama
     title: 4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录
     date: '2013-11-16'
     publication: 4Gamer.net
-    detail: 谈《X·Y》全球同步发售，称与音频团队反复探讨何为具有宝可梦灵魂的音乐。
+    detail: 据4Gamer报道，他称与音频团队反复探讨何为具有宝可梦灵魂的音乐。
   - n: 5
     post: 2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art
     title: 电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典
     date: '2013-11-16'
     publication: 电击Online
-    detail: 称自己多在放松或被逼到绝境时对着钢琴创作，基本没有低潮期。
+    detail: 称自己多在放松时创作，更多是在被逼到绝境时对着钢琴创作。
   - n: 6
     post: 2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama
     title: '[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学'
     date: '2013-11-16'
     publication: 週刊ファミ通 (Famitsu.com)
-    detail: 说明《卡洛斯的主题》与《布拉塔诺宝可梦研究所》是同一曲子的编曲变奏。
+    detail: 据Fami通报道，他承认《卡洛斯的主题》与研究所曲为同一曲子的变奏。
   - n: 7
     post: 2013-11-21-scan-ndream-2014-01-xy-sound-team-interview
     title: Nintendo DREAM 2013：《宝可梦 X·Y》声音团队访谈「乐曲魂」特别篇
     date: '2013-11-21'
     publication: Nintendo DREAM
-    detail: 称《X·Y》声音开发周期近 3 年，启动之初声音方面只有他一人。
-  - n: 8
-    post: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream
-    title: 株式会社宝可梦 官方重大专题 09：倾注在睡眠中的心愿——《Pokémon Sleep》睡眠医学、动画总监督睡姿分镜与健康治愈哲学全景解密
-    date: '2023-09-28'
-    publication: 株式会社ポケモン コーポレートサイト 注目の話題
-    detail: 据该报道，《Pokémon Sleep》团队推翻视频案，确立以睡姿图鉴与清晨收集为核心的架构。
+    detail: 称《X·Y》开发周期近3年，启动之初声音方面只有他一人。
   expertise:
   - 音乐
   - 声音总监
   - 音效设计
-  - 团队统筹
   - 音频工作流
+  - 团队统筹
 - name: 海野隆雄
   slug: unno-takao
   kind: person
   interviews:
-    entries: 24
-    spoken_in: 23
+    entries: 26
+    spoken_in: 25
     columns: 0
-    first: '2009'
+    first: '2005'
     last: '2019'
   credits:
     games: 23
@@ -509,87 +491,75 @@
       games: 2
     - cat: 程序
       games: 1
-  summary: 海野隆雄长期负责宝可梦系列的美术与图形工作，从图形设计师做起，后担任美术总监、总监与制作人。他参与宝可梦设计，如《黑·白》中的勾帕路翁、代拉基翁、毕力吉翁三只，以及勇士雄鹰、毛头小鹰、花椰猴、爆香猴、冷水猴等 [3][4][5]。在画面表现上，他主张从可用技术中挑选对玩家最有益、能让玩法更具吸引力的部分，而非全部采用 [2]。担任总监后，他以「共鸣」为主题推动《黑2·白2》的庆典任务等通信玩法，并重视让新手通过宝可坞自然学习对战基础 [6][8][10]。据第三方报道，他说明宝可梦设计先向全体员工征集想法，再按故事、地区与游戏平衡筛选，并决定由谁绘制 [12]。
+  summary: 海野隆雄长期从事图形与美术工作，并逐步承担总监、制作人等职责，参与宝可梦的总体设计方向、2D/3D图形与用户界面制作，本人也设计宝可梦 [10]。在宝可梦设计上，他参与由杉森建主持的设计会议，与图形设计师共同提出、讨论并打磨创意，也会根据策划需求设计特定类型的宝可梦 [2]。他重视角色眼睛的特征、避免统一CG感，并尽量保留杉森上色的风格与各角色的质感 [3]。在《黑2·白2》中他以「共鸣」为关键词推进联合任务、钥匙系统与回忆链接等设计，并首次担任总监 [8]。据访谈报道，他说明宝可梦设计先向全体员工收集想法，再按故事、地区与游戏平衡筛选，并据此决定由谁绘制 [12]。
   citations:
   - n: 1
-    post: 2009-09-21-scan-ndream-2009-11-hgss-developer-interview
-    title: Nintendo DREAM 2009：心金·魂银 GAME FREAK 特别访谈
-    date: '2009-09-21'
-    publication: Nintendo DREAM
-    detail: 他提出《心金·魂银》标题画面沿用原构图并3D化，若叶镇用画面表现风。
+    post: 2005-08-18-scan-continue-vol23-gamefreak-special
+    title: CONTINUE 2005：GAME FREAK 众人谈像素玩具《DOTZ》
+    date: '2005-08-18'
+    publication: CONTINUE
+    detail: 据该篇报道，海野以图形设计师身份参加《DOTZ》体验，作品名为「INN GAME FREAK钻头」。
   - n: 2
-    post: 2010-03-31-interview-pokemon-com-hgss-masuda-morimoto
-    title: 走入幕后对话 GAME FREAK 的宝可梦大师：《心金／魂银》十周年重塑·六位核心主创深度圆桌访谈
-    date: '2010-03-31'
-    publication: Go Behind the Scenes with the Pokémon Masters at GAME FREAK, inc.!
-    detail: 他表示不会把所有可用技术都用上，只挑选对玩家最有益的技术。
+    post: 2010-03-19-interview-gameinformer-masuda-morimoto-hgss
+    title: '[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化'
+    date: '2010-03-19'
+    publication: Game Informer
+    detail: 他描述新宝可梦由多位图形设计师在杉森建主持的设计会议上提出并打磨。
   - n: 3
-    post: 2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2
-    title: Nintendo DREAM 2011：宝可梦黑·白开发者访谈 宝可梦与角色诞生秘话
-    date: '2011-02-21'
+    post: 2010-11-20-scan-ndream-2011-01-bw-design-secrets
+    title: Nintendo DREAM 2010：宝可梦 黑·白 美术与插画诞生秘闻
+    date: '2010-11-20'
     publication: Nintendo DREAM
-    detail: 他设计勾帕路翁、代拉基翁、毕力吉翁，以《三剑客》为基本印象。
-  - n: 4
-    post: 2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex
-    title: Nintendo DREAM 2011：宝可梦 黑·白 宝可梦与角色诞生秘话EX
-    date: '2011-03-21'
-    publication: Nintendo DREAM
-    detail: 他设计勇士雄鹰与毛头小鹰，加入白头海雕与星条旗红白蓝意象。
+    detail: 他提到提交设计时首先注意让「眼睛」有特征，并注意避免太有CG感。
   - n: 5
     post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon
     title: Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇
     date: '2011-05-21'
     publication: Nintendo DREAM 特別付録
-    detail: 他构思花椰猴、爆香猴、冷水猴，从三曜道馆服务员设定出发设计。
+    detail: 他说明花椰猴、爆香猴、冷水猴三只设计由他构思，从道馆舞台设定出发创作。
   - n: 6
     post: 2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op
     title: '[访谈翻译] 社长问《宝可梦 黑2·白2》第2章：百人实时同屏的庆典任务与遗迹通信挑战'
     date: '2012-06-15'
     publication: 任天堂官网「社長が訊く」
-    detail: 他因《金·银》发售时早上5点排队，想进一步发展连入通信功能。
+    detail: 他提到自己曾早上5点排队买《金·银》，并因视察宝可梦世界锦标赛而想发展通信功能。
   - n: 7
     post: 2012-06-15-interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures
     title: '[访谈翻译] 社长问《宝可梦 黑2·白2》第4章：为什么在3DS已上市时坚守NDS硬件（桧扇市全新开局、宝可梦本质与三神器联动）'
     date: '2012-06-15'
     publication: 任天堂官网「社長が訊く」
-    detail: 他以新主人公、新城镇、新故事三要素为核心描绘《黑2·白2》。
+    detail: 他说明续作以新主人公、新城镇、新故事三个新要素为核心，并从不同视角描绘故事。
   - n: 8
     post: 2012-07-21-scan-ndream-221-b2w2-developer-interview
     title: Nintendo DREAM 2012：宝可梦 黑2·白2 开发者访谈
     date: '2012-07-21'
     publication: Nintendo DREAM
-    detail: 他在《黑·白》完成后向增田提出想担任总监，首次做总监。
+    detail: 他提到自己原本负责图形，在《黑·白》完成后向增田提出想担任总监，总监是第一次做。
   - n: 9
     post: 2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno
     title: '[访谈翻译] 周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）'
     date: '2012-08-05'
     publication: 週刊ファミ通 (Famitsu.com)
-    detail: 他说明手、脸等部位作为独立部件，通过活动关节制作动画。
+    detail: 他说明将手、脸等部位作为独立部件，通过活动关节制作动画，工作相当辛苦。
   - n: 10
-    post: 2012-08-21-scan-ndream-222-b2w2-pwt-pokewood
-    title: Nintendo DREAM 2012：宝可梦 黑2·白2 开发者访谈（PWT·宝可梦好莱坞）
-    date: '2012-08-21'
-    publication: Nintendo DREAM
-    detail: 他征集将人与人交流具象化的企划，收到庆典任务原型企划书。
-  - n: 11
-    post: 2012-11-23-interview-gi-2012-burning-questions
-    title: Game Informer 2012：增田顺一与海野隆雄谈宝可梦世界设定
-    date: '2012-11-23'
-    publication: Game Informer
-    detail: 他说道馆馆主因想帮助训练家成长而任职，不会因徽章发完辞职。
+    post: 2012-10-01-interview-pokemon-com-b2w2-masuda-unno
+    title: Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁
+    date: '2012-10-01'
+    publication: Pokémon.com
+    detail: 他说明自己作为艺术总监参与决定宝可梦总体设计方向，并参与2D、3D图形与用户界面。
   - n: 12
     post: 2019-05-18-interview-siliconera-harmoknight-drill-dozer
     title: '[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘'
     date: '2019-05-18'
     publication: Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer
-    detail: 据Siliconera报道，他说明宝可梦设计先向全体员工征集想法再筛选。
+    detail: 据该篇报道，他透露宝可梦设计先向全体员工收集想法，再按故事、地区与游戏平衡筛选。
   expertise:
   - 美术
   - 总监/制作人
   - 企划
   - 宝可梦设计
-  - 图形设计
-  - 画面表现
+  - 图形制作
+  - 用户界面
 - name: 一之濑刚
   slug: ichinose-go
   kind: person
@@ -779,11 +749,11 @@
   slug: tajiri-satoshi
   kind: person
   interviews:
-    entries: 24
-    spoken_in: 18
+    entries: 25
+    spoken_in: 19
     columns: 4
     first: '1996'
-    last: '2021'
+    last: '2016'
   credits:
     games: 66
     core_games: 29
@@ -802,57 +772,57 @@
       games: 6
     - cat: 其他
       games: 3
-  summary: 田尻智以企划与总监/制作人身份主导《宝可梦》系列，从最初企划书到完成历经六年，其间只有他与增田、杉森三人全程参与[1]。他主张先不管内存限制把想做的内容做出来，之后再削减装不下的部分[2][11]。他重视用数字增减来控制游戏信息量与趣味性的平衡，并希望借内存增加让玩家更细致地理解游戏世界[1][2]。他自述长期昼夜颠倒地工作以获取设计灵感，并认为游戏与动画的制作技术有共通之处[3]。据第三方报道，其童年昆虫采集体验被视为《宝可梦》核心灵感的原点[12]。
+  summary: 田尻智长期担任《宝可梦》系列的总监／制作人，并逐步转为部门总监与执行制作人，署名覆盖总监、企划与美术等多个领域。他自述《宝可梦》企划始于 GAME FREAK 刚公司化之时，完成历时约 6 年，实际作业约第一年与最后 3 年 [1]。他重视“有趣又新颖”的出发点，最初构想是做出在战斗场景等地方尽量不使用数字、有触感的 RPG，后来才回到兼顾不用数字的新颖与用数字带来的游戏深度的位置 [1]。在续作开发中，他谈到先开发想做的东西、之后再削减装不下的宝可梦，并希望借内存增加让玩家更细致地理解游戏世界 [2]。他也自述以昼夜颠倒的作息获取游戏设计灵感，并认为制作游戏与制作动画在技术与概念上有共通之处 [3]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 称企划书写于公司设立之初，完成花6年，全程参与者仅他、增田、杉森3人。
+    detail: 称企划始于 GAME FREAK 公司化之初，完成花 6 年，实际作业约第一年与最后 3 年。
   - n: 2
     post: 1997-11-27-interview-glitterberri-spaceworld-pokemon2-en
     title: GlitterBerri（英译） 1997：宫本茂、田尻智、石原恒和谈《宝可梦2》
     date: '1997-11-27'
     publication: GlitterBerri
-    detail: 称先不管内存做想做的内容，之后再削减装不下的宝可梦。
+    detail: 称先开发想做的东西，之后再削减装不下的宝可梦。
   - n: 3
     post: 1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak
     title: '[访谈翻译] 《时代周刊》(TIME) 独家专访宝可梦之父田尻智：究极的 Game Freak（町田田园昆虫少年、GB通信线顿悟与无暴力游戏哲学）'
     date: '1999-11-22'
     publication: 《时代周刊》(TIME Magazine) 1999年11月22日号
-    detail: 自述睡12小时工作24小时，过去三年如此，靠昼夜颠倒获得灵感。
+    detail: 自述睡 12 小时、工作 24 小时，靠昼夜颠倒获取设计灵感。
   - n: 5
-    post: 2000-07-01-interview-nom-special-dialogue-tajiri-ishihara
-    title: N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）
-    date: '2000-07-01'
-    publication: 任天堂官网「N.O.M」(No.23)
-    detail: 称看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏。
-  - n: 10
+    post: 2005-08-18-scan-continue-vol23-gamefreak-special
+    title: CONTINUE 2005：GAME FREAK 众人谈像素玩具《DOTZ》
+    date: '2005-08-18'
+    publication: CONTINUE
+    detail: 据该报道，田尻智以 GAME FREAK 董事长身份参与《DOTZ》体验，并提到同人志时期。
+  - n: 6
+    post: 2026-08-29-continue-vol32-scan-archive
+    title: CONTINUE 2007：田尻智×中川翔子特别对谈
+    date: '2007-02-24'
+    publication: CONTINUE
+    detail: 自述初代发售延期 6 个月，那半年通宵改台词并当场交给程序员。
+  - n: 11
     post: 2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th
     title: Nintendo DREAM 2008：田尻智回顾与任天堂的相遇
     date: '2008-08-21'
     publication: Nintendo DREAM
-    detail: 称16岁报名世嘉游戏创意大奖，优秀奖两人中一人是他。
-  - n: 11
-    post: 2013-05-29-interview-glitterberri-early-concept-art
-    title: GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计
-    date: '2013-05-29'
-    publication: GlitterBerri
-    detail: 称初代设计200多只宝可梦后削减到150只，并接受宫本茂建议分两版本。
+    detail: 自述 16 岁报名世嘉游戏创意大奖获优秀奖，并曾去世嘉展示厅玩。
   - n: 12
-    post: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure
-    title: 株式会社宝可梦 官方重大专题 07：宝可梦的原点，在拨开大自然的深处——“Pokémon WONDER”4500平米原生森林探险与田尻智童年昆虫采集的回归
-    date: '2021-08-13'
-    publication: 株式会社ポケモン コーポレートサイト 注目の話題
-    detail: 据该专题报道，其少年时代昆虫采集体验是《宝可梦》核心灵感的原点。
+    post: 2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo
+    title: 电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈
+    date: '2016-02-17'
+    publication: 电ファミニコゲーマー
+    detail: 自述常去千代田区游戏中心，并与杉森建通信后见面。
   expertise:
   - 总监/制作人
   - 企划
   - 美术
-  - 宝可梦设计
   - RPG设计
-  - 世界观构筑
+  - 宝可梦设计
+  - 图鉴功能
 - name: 森本茂树
   slug: morimoto-shigeki
   kind: person
@@ -883,81 +853,81 @@
       games: 6
     - cat: 管理/协调
       games: 3
-  summary: 森本茂树长期参与《宝可梦》系列的战斗系统设计与程序实现，从初代起就负责战斗程序，并在后续作品中担任对战总监、总监与制作人。他主张在既有单打对战的基础上加入双打、三打等新玩法，同时通过削弱过强招式、强化冷门招式来维持平衡 [5][10]。在重制作品中，他注重兼顾老玩家的怀旧感与新玩家的初次体验 [8][9]。他也参与宝可梦设计与企划，如蚊香蝌蚪和猴怪的设计 [3]，并提到会与剧本、设计方协作提出需求 [4]。
+  summary: 森本茂树长期参与《宝可梦》系列的战斗系统设计与程序实现，早期在图形和程序两方面都是第一次做游戏，并参与过宝可梦设计 [1][3]。他主张因为开发期限不确定，所以把觉得不错的点子几乎全都放进去，并反复打磨细节 [1]。在战斗方面，他从最初只能观看的对战做起，经历任天堂反馈后改为可输入指令的通信对战，并持续调整招式与平衡 [1][2]。他多次负责重制作品，强调兼顾老玩家的怀旧感与新玩家的初次体验 [8][9]。在系列对战接近完成形后，他仍以新增玩法与平衡调整作为主题 [10]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 初代战斗画面最初不显示数字和体力条，后逐步加入等级、体力条与数字。
+    detail: 称《宝可梦》在图形和程序两方面都是自己的第一部作品，并参与把观战式对战改为可输入指令的对战。
   - n: 2
     post: 1999-12-01-scan-gs-guidebook-1999-developer-interview
     title: 《宝可梦 金·银》官方攻略本 1999：开发人员直击采访「金·银的这些想知道！」
     date: '1999-12-01'
     publication: 任天堂公式ガイドブック ポケットモンスター 金・銀
-    detail: 为对抗锁定和连斩设计了守住，成功率改为第1次100%、之后递减。
+    detail: 提到战斗招式增加后清除bug花了一年半以上，并参与「守住」等招式的设定调整。
   - n: 3
     post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
     title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
     date: '2000-01-01'
     publication: その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9
-    detail: 据该篇报道，他透露自己参与了蚊香蝌蚪和猴怪的设计。
+    detail: 据该篇报道，森本在座谈会上透露自己参与了蚊香蝌蚪和猴怪的设计。
   - n: 4
     post: 2000-07-01-interview-nom-genesis-gamefreak
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     date: '2000-07-01'
     publication: 『ポケットモンスター』を生んだ男たち
-    detail: 提到剧本负责人会向设计师委托制作挡路角色等具体需求。
+    detail: 提到剧本负责人有时会委托设计师制作挡路角色这类内容。
   - n: 5
     post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
-    title: CVG 独家专访 Game Freak 三巨头：增田顺一 × 杉森建 × 森本茂树畅谈《红·蓝宝石》
+    title: CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦
     date: '2003-05-30'
-    publication: Computer and Video Games (CVG)
-    detail: 称单打对战是核心基石，双打是新挑战，并负责数值平衡。
+    publication: CVG
+    detail: 称自己担任《Bat Wing》的导演，为战斗加入许多新要素，并主要关注一对一战斗。
   - n: 7
     post: 2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium
     title: '[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场'
     date: '2009-09-04'
     publication: 任天堂官网「社長が訊く」
-    detail: 回忆初代与金·银时程序员约只有4人，战斗程序花了很长时间。
+    detail: 回忆《赤·绿》时程序员大约只有4人，战斗程序花了很长时间才做出来。
   - n: 8
     post: 2009-09-18-interview-dengeki-hgss-shigeki-morimoto
     title: 电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛
     date: '2009-09-18'
     publication: 電撃オンライン
-    detail: 谈重制时兼顾老玩家怀旧与新玩家体验，并提到下屏触控与3D地图制作。
+    detail: 作为《心金·魂银》总监，提到制作时把重点放在下屏幕触控，并需从零制作城都与关都地图。
   - n: 9
     post: 2010-03-19-interview-gameinformer-masuda-morimoto-hgss
     title: '[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化'
     date: '2010-03-19'
     publication: Game Informer
-    detail: 表示借鉴宝可梦皮卡丘元素，剧情忠于原作同时加入新内容。
+    detail: 表示借鉴了与《金·银》同期发售的「宝可梦皮卡丘」的元素，为老玩家带来怀旧感。
   - n: 10
     post: 2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets
     title: 週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性
     date: '2011-01-20'
     publication: 週刊ファミ通 2011年2月3日号
-    detail: 说明削弱大爆炸等过强招式，并因增田提议加入三打对战。
+    detail: 谈到本作削弱大爆炸威力、调整招式平衡，并扩展增田提出的三打对战想法。
   - n: 11
     post: 2013-09-21-scan-ndream-235-xy-developer-interview
     title: Nintendo DREAM 2013：增田顺一与森本茂树谈《宝可梦 X・Y》对战
     date: '2013-09-21'
     publication: Nintendo DREAM
-    detail: 谈超级进化选择兼顾视觉、人气与平衡，并担心只有超级进化宝可梦被使用。
+    detail: 说明超级进化宝可梦的选择会考虑视觉表现、人气与战斗平衡，并有意识地达到传说的宝可梦级别强度。
   expertise:
   - 总监/制作人
   - 企划
   - 美术
   - 程序
   - 战斗系统
-  - 对战平衡
+  - 宝可梦设计
 - name: 西野弘二
   slug: nishino-koji
   kind: person
   interviews:
-    entries: 11
-    spoken_in: 10
+    entries: 10
+    spoken_in: 9
     columns: 0
     first: '1996'
     last: '2018'
@@ -976,74 +946,68 @@
       games: 6
     - cat: 本地化/海外QA
       games: 1
-  summary: 西野弘二长期在 GAME FREAK 担任策划，负责整体企划，工作范围从剧本、系统到地图关卡与数值平衡 [6][8][9]。他主导宝可梦的出现率、强度与对战平衡等底盘数据设计，并参与图鉴编号按游戏内遭遇顺序编排的规则 [3][8][9]。在《金·银》中他按时间带安排宝可梦出现，并参与加入「恶」「钢」属性以针对超能力属性 [2]。他重视易懂性，主张把 HP 等术语替换成新手能理解的表达，并在《火红·叶绿》中重构难度曲线、加入帮助菜单与七岛内容 [5][6]。他也参与调整对战平衡，如《白金》中下调「催眠术」命中率 [7]。
+  summary: 西野弘二长期在 GAME FREAK 担任策划，负责地图关卡、宝可梦出现率、强度与对战平衡等底盘数据设计 [7][8]。他参与宝可梦的稀有度与获得难度设定，并据此调整具体出现率 [3][7][8]。在《宝可梦 火红·叶绿》中他负责整体企划，从剧本到系统相关均有参与，并着力于表达的易懂性 [5]。他也参与对战平衡调整，如《白金》中降低「催眠术」命中率、加入「戏法空间」等 [6]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 称自己也是第一次做这种工作，顺势就做上了。
+    detail: 称自己也是第一次做这种工作，顺势就做了。
   - n: 2
     post: 1999-12-01-scan-gs-guidebook-1999-developer-interview
     title: 《宝可梦 金·银》官方攻略本 1999：开发人员直击采访「金·银的这些想知道！」
     date: '1999-12-01'
     publication: 任天堂公式ガイドブック ポケットモンスター 金・銀
-    detail: 按早中晚时间带安排宝可梦出现，并参与加入恶、钢属性。
+    detail: 为金·银安排只在早上或晚上出现的宝可梦，并加入恶、钢属性。
   - n: 3
     post: 2000-07-01-interview-nom-genesis-gamefreak
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     date: '2000-07-01'
     publication: 『ポケットモンスター』を生んだ男たち
-    detail: 负责细微平衡性调整，看图想象强度后定等级并实测反复调整。
+    detail: 基础设定由田尻负责，细微平衡性调整由他把握，反复测试调整。
   - n: 4
     post: 2000-07-01-interview-nom-gold-silver-gamefreak
     title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
     date: '2000-07-01'
     publication: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
-    detail: 提到训练家角色有细致设定，如补习班学生长大变成理科系男子。
+    detail: 提到训练家也有细致设定，如「补习班归来的学生」长大后变成「理科系男子」。
   - n: 5
-    post: 2004-03-01-interview-ndream-frlg-masuda-watanabe-nishino-uno
-    title: Nintendo Dream 2004年：Game Freak『火红·叶绿』核心主创访谈——无线适配器革命、重读旧代码的痛苦与“60岁也能玩”的哲学
-    date: '2004-03-01'
-    publication: 《Nintendo Dream》
-    detail: 说明重构难度曲线，并把帮助菜单绑定在 GBA 肩键上。
-  - n: 6
     post: 2004-03-21-scan-ndream-108-frlg-developer-interview
     title: Nintendo DREAM 2004：宝可梦 火红·叶绿 GAME FREAK 开发者访谈
     date: '2004-03-21'
     publication: Nintendo DREAM
-    detail: 称自己负责整体企划，从剧本到系统都做，并追求易懂性。
-  - n: 7
+    detail: 负责火红·叶绿整体企划，从剧本到系统，并按增田要求追求易懂性。
+  - n: 6
     post: 2008-10-21-scan-ndream-2008-12-game-freak-interview
     title: Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界
     date: '2008-10-21'
     publication: Nintendo DREAM
-    detail: 说明为让睡眠战术更有趣，在《白金》把催眠术命中率从70降到60。
-  - n: 8
+    detail: 从钻石·珍珠起加入「戏法空间」，并在白金把「催眠术」命中率从70降到60。
+  - n: 7
     post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
     title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
     date: '2018-05-01'
     publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-    detail: 称自己负责大地图关卡、出现概率与强弱平衡，并调低常青森林皮卡丘出现率。
-  - n: 9
+    detail: 自红·绿开发伊始负责大地图关卡、出现概率与对战平衡等底盘数据。
+  - n: 8
     post: 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa
     title: 株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈
     date: '2018-05-02'
     publication: 株式会社宝可梦 官方网站
-    detail: 称在《红·绿》负责地图及宝可梦出现率、强度等数据设计。
-  - n: 10
+    detail: 在红·绿中主要负责地图及宝可梦出现率、强度等数据设计。
+  - n: 9
     post: 2018-07-26-interview-creators-of-pikachu
     title: '[访谈翻译] 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二'
     date: '2018-07-26'
     publication: Pokemon.com 官方特辑
-    detail: 称因喜欢皮卡丘而降低其在常青森林的出现率，结果适得其反。
+    detail: 称因喜欢皮卡丘而降低常青森林出现率，结果事与愿违。
   expertise:
   - 企划
   - 管理/协调
-  - 数值平衡
-  - 出现率设计
   - 地图关卡
+  - 出现率设计
+  - 数值平衡
   - 对战平衡
 - name: 太田健程
   slug: ota-takenori
@@ -1283,28 +1247,42 @@
   slug: yuyama-kunihiko
   kind: person
   interviews:
-    entries: 57
-    spoken_in: 56
+    entries: 56
+    spoken_in: 55
     columns: 0
     first: '2008'
-    last: '2023'
-  summary: 汤山邦彦是动画监督，在《魔法公主明琪桃子》等作品中担任监督，并曾向动画制作公司推荐首藤刚志担任《宝可梦》动画的系列构成 [1]。据访谈转述，他通过电话联系首藤刚志，告知其将有一份工作找上门，两天后制片人便联系了首藤 [1]。他参与的是《宝可梦》电视动画的监督工作，而非游戏开发，制作名单中没有游戏署名记录。
+    last: '2015'
+  summary: 汤山邦彦在《宝可梦》动画中担任总监督、总导演一职，参与电视系列与剧场版的执导工作 [8][12]。据首藤刚志转述，汤山邦彦曾致电力荐首藤刚志担任《宝可梦》动画的系列构成 [1]。在电视系列开播初期，他决定让所有宝可梦都有各自的叫声并由配音演员发声，并由此萌生用这些叫声创作音乐的想法 [12]。他推动以宝可梦叫声构成音乐剧的短片企划，为此先录制演唱小样、再据此编写剧本，并采用先录音后作画的方式制作 [12]。
   citations:
   - n: 1
     post: 2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138
     title: '[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）'
     date: '2008-02-27'
     publication: WEBアニメスタイル「シナリオえーだば創作術」
-    detail: 据转述，汤山邦彦致电首藤刚志，两天后制片人便委托首藤担任《宝可梦》系列构成。
+    detail: 据首藤刚志转述，汤山邦彦打电话告知将有工作找上门，随后制片人委托首藤出任系列构成。
+  - n: 8
+    post: 2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182
+    title: '[访谈翻译] 首藤刚志动画创作手记 第182回：《超梦的逆袭》公映狂澜（小田原影院赠票往事、大人们的肃穆凝固与对狂热狂澜的战栗警惕）'
+    date: '2009-04-22'
+    publication: WEBアニメスタイル「シナリオえーだば創作術」
+    detail: 据首藤刚志转述，其担心上座率惨淡时，总导演汤山邦彦与自己会首当其冲被指责。
+  - n: 12
+    post: 2015-07-14-interview-movie18-yuyama-hoopa-model-sheets
+    title: 宝可梦剧场版官方频道深度专访：总监督汤山邦彦谈〈光轮的超魔神 胡帕〉、传说宝可梦大决战与全设定画精选
+    date: '2015-07-14'
+    publication: PocketMonsters.net
+    detail: 他称电视系列开播时决定让所有宝可梦有各自叫声，并想用这些声音创作音乐。
   expertise:
   - 动画监督
-  - 动画企划
-  - 系列构成推荐
+  - 剧场版执导
+  - 声音演出
+  - 音乐短片企划
+  - 企划统筹
 - name: 岩田聪
   slug: iwata-satoru
   kind: person
   interviews:
-    entries: 30
+    entries: 29
     spoken_in: 29
     columns: 3
     first: '2009'
@@ -1612,10 +1590,10 @@
   slug: yoshida-hironobu
   kind: person
   interviews:
-    entries: 4
-    spoken_in: 4
+    entries: 5
+    spoken_in: 5
     columns: 1
-    first: '2006'
+    first: '2005'
     last: '2013'
   credits:
     games: 30
@@ -1629,39 +1607,45 @@
       games: 29
     - cat: 企划
       games: 1
-  summary: 吉田宏信长期从事宝可梦系列的美术与图形设计工作，进入GAME FREAK前曾在多家设计公司任职，第一次设计的宝可梦是果然翁、土龙弟弟和时拉比 [1]。他负责宝可梦设定稿的制作与最终调整，并制作过《宝可梦 X·Y》的宝可梦图鉴 [3][4]。在设计中他重视宝可梦与其自身环境的语境是否说得通 [3]，并认为传说宝可梦是那一世代的门面，应出现在包装上 [4]。团队内部通过服务器共享设计以避免想法重叠，落选设计也会得到反馈 [4]。
+  summary: 吉田宏信长期从事《宝可梦》系列的美术与图形设计工作，从像素画时代起参与宝可梦设计，并负责设定稿制作与最终调整[5]。他参与过《宝可梦 红宝石·蓝宝石》之后的动作游戏项目，在有限帧数下处理自机动作与角色发型方案[1]。在《宝可梦 X·Y》中，他负责宝可梦图鉴 App 的制作，并参与传说宝可梦与超级进化的设计尝试[3][4]。他提到宝可梦设计需考虑其所在环境的合理性，团队通过内部服务器共享设计以避免想法重叠[4][5]。
   citations:
   - n: 1
+    post: 2005-08-18-scan-continue-vol23-drill-dozer
+    title: CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈
+    date: '2005-08-18'
+    publication: CONTINUE
+    detail: 谈《红宝石·蓝宝石》后转做动作游戏，在少帧数下处理自机动作与发型方案。
+  - n: 2
     post: 2006-04-24-interview-gpara-2006-yoshida
     title: Gpara.com 2006：Game Freak吉田宏信谈对作品的执着
     date: '2006-04-24'
     publication: Gpara.com
-    detail: 称首次设计的宝可梦是果然翁、土龙弟弟和时拉比，此前无游戏行业经验。
-  - n: 2
+    detail: 称首次设计的宝可梦是果然翁、土龙弟弟和时拉比三只。
+  - n: 3
     post: 2013-09-19-interview-jv-2013-xy
     title: 法国 jeuxvideo.com 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》
     date: '2013-09-19'
     publication: 法国 jeuxvideo.com
-    detail: 称部分宝可梦的超级进化设想最终并不契合，做了很多尝试。
-  - n: 3
+    detail: 谈超级进化设计并非所有设想都可行，做了很多尝试。
+  - n: 4
     post: 2013-09-21-interview-nintendolife-2013-xy
     title: Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》
     date: '2013-09-21'
     publication: Nintendo Life
-    detail: 称负责制作X和Y的宝可梦图鉴App，并会考虑宝可梦在自身环境中是否说得通。
-  - n: 4
+    detail: 负责《X·Y》宝可梦图鉴 App，并称设计需考虑环境合理性。
+  - n: 5
     post: 2013-10-10-interview-gamasutra-xy-monster-design
     title: '[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学'
     date: '2013-10-10'
     publication: Gamasutra / Game Developer
-    detail: 称团队约20人各自构思，设计上传内部服务器共享，落选设计也会得到反馈。
+    detail: 称被否决的创意数量约为最终入选设计的5到10倍。
   expertise:
   - 美术
   - 宝可梦设计
   - 图形设计
+  - UI 设计
   - 设定稿制作
-  - 图鉴制作
-  - UI设计
+  - 动作表现
 - name: 大谷育江
   slug: otani-ikue
   kind: person
@@ -2374,8 +2358,8 @@
   slug: watanabe-tetsuya
   kind: person
   interviews:
-    entries: 6
-    spoken_in: 6
+    entries: 5
+    spoken_in: 5
     columns: 0
     first: '1996'
     last: '2013'
@@ -2405,51 +2389,44 @@
       games: 3
     - cat: 本地化/海外QA
       games: 1
-  summary: 渡边哲也长期在 GAME FREAK 担任程序工作，并逐步承担程序组负责人、部门总监与总监/制作人等职责，署名覆盖程序、美术、总监/制作人和企划多个领域。他参与初代《宝可梦》开发，并在《金／银》中负责彩色化后地图数据读取等程序处理 [3]。在《火红·叶绿》重制中，他重读初代源代码并称其为噩梦般的折磨，同时担任程序组负责人 [4][5]。他主张不因 Game Boy 的硬件限制而妥协，要做出比 SFC 更好的东西 [2]。他也介绍了公司内部试作制度“GEAR”，说明其由员工提出企划、3 人以上赞同即可用 3 个月制作 [6]。
+  summary: 渡边哲也长期在 GAME FREAK 担任程序工作，并逐步承担程序组负责人、部门总监与总监/制作人等职责。他参与《宝可梦》系列时重视在硬件限制下实现更多内容，曾表示不愿以「因为是 Game Boy 做到这种程度就行」妥协 [2]。在《金／银》中，他提到彩色化后需在城镇入口等环节处理地图与宝可梦数据的读取，让玩家察觉不到切换 [3]。他也参与公司内部新制度「GEAR」的说明，该制度允许员工提出企划并在获得赞同后用 3 个月制作试作 [5]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 谈到宝可梦改名只能由原本的父母（玩家）更改。
+    detail: 谈到宝可梦改名机制，只有原本的父母（玩家）才能更改名字。
   - n: 2
     post: 2000-07-01-interview-nom-genesis-gamefreak
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     date: '2000-07-01'
     publication: 『ポケットモンスター』を生んだ男たち
-    detail: 表示不想以“因为是Game Boy”为由妥协，要做比SFC更好的东西。
+    detail: 称初代开发靠蛮力硬撑，不愿以 Game Boy 规格妥协。
   - n: 3
     post: 2000-07-01-interview-nom-gold-silver-gamefreak
     title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
     date: '2000-07-01'
     publication: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
-    detail: 说明彩色化后需在城镇入口设关卡读取下一城镇图形与宝可梦数据。
+    detail: 说明彩色化后需在城镇入口读取下一城镇图形与宝可梦数据。
   - n: 4
-    post: 2004-03-01-interview-ndream-frlg-masuda-watanabe-nishino-uno
-    title: Nintendo Dream 2004年：Game Freak『火红·叶绿』核心主创访谈——无线适配器革命、重读旧代码的痛苦与“60岁也能玩”的哲学
-    date: '2004-03-01'
-    publication: 《Nintendo Dream》
-    detail: 称重读八年前初代源代码是噩梦般的折磨，无线通信是最凶险难关。
-  - n: 5
     post: 2004-03-21-scan-ndream-108-frlg-developer-interview
     title: Nintendo DREAM 2004：宝可梦 火红·叶绿 GAME FREAK 开发者访谈
     date: '2004-03-21'
     publication: Nintendo DREAM
-    detail: 表示自己仍做程序员，这次担任程序组负责人。
-  - n: 6
+    detail: 提到《红宝石·蓝宝石》起程序语言由汇编改为 C 语言。
+  - n: 5
     post: 2013-10-08-interview-4gamer-2013-solitiba
     title: 4Gamer.net 2013：Game Freak杉森建与渡边哲也谈原点回归与自主发行
     date: '2013-10-08'
     publication: 4Gamer.net
-    detail: 介绍GEAR制度：员工写企划书、含自己3人以上赞同即可制作3个月。
+    detail: 说明公司内部 GEAR 制度：3 人赞同可用 3 个月制作试作。
   expertise:
   - 程序
   - 美术
   - 总监/制作人
-  - 重制工程
-  - 无线通信
-  - 企划制度
+  - 企划
+  - 硬件适配
 - name: 西田敦子
   slug: nishida-atsuko
   kind: person
@@ -3181,24 +3158,31 @@
   slug: ru-jiang-sheng-yi
   kind: person
   interviews:
-    entries: 1
-    spoken_in: 1
+    entries: 2
+    spoken_in: 2
     columns: 0
     first: '2001'
-    last: '2001'
-  summary: 入江胜义参与宝可梦卡牌e与卡牌e读取器的开发，其技术基础来自奥林巴斯，并由其团队为卡e做定制[1]。在读取代码方式上，他参与讨论并决定采用读取两条边的形式，而非最初设想的四条边[1]。他参与规划e应用，包括小游戏、短片、e工具等，并关注宝可梦动作画面的表现[1]。他主张企划不断追加数据、让玩家随意游玩，类似先提供玩具再追加零件[1]。
+    last: '2010'
+  summary: 入江胜义参与宝可梦卡牌e与卡牌e读取器的开发，涉及读取代码长度与读取边数的方案取舍，并说明e应用涵盖小游戏、短片、e工具等类型 [1]。他关注在e应用的动作表现上呈现宝可梦的动作，并把企划比作先提供玩具、再追加零件 [1]。在《宝可梦巡护员 光之轨迹》中，他自述为资历最老者，参与从DS发售时起的企划提出与概念讨论 [2]。他参与确定以触摸屏为前提，并经历套圈、网兜、泡泡等多种捕获方案的试作，最终形成一圈圈围住宝可梦的捕获方式 [2]。
   citations:
   - n: 1
     post: 2001-11-01-interview-nom-2001-pokemon-card-e-creatures
     title: N.O.M 2001年11月号：宝可梦卡牌e与卡牌e读取器开发者访谈
     date: '2001-11-01'
     publication: 任天堂官网「N.O.M」2001年11月号
-    detail: 说明读取代码从四条边改为两条边的决定，并列举e应用分类。
+    detail: 谈卡e读取代码长度与读取两条边的方案取舍，并列举e应用类型
+  - n: 2
+    post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+    title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+    date: '2010-02-20'
+    publication: Nintendo DREAM
+    detail: 自述资历最老，参与巡护员企划提出与画圈捕获方案试作
   expertise:
-  - 卡牌e读取器
+  - 卡牌读取
   - e应用
-  - 数据追加
-  - 动作表现
+  - 触摸操作
+  - 企划立案
+  - 玩法设计
 - name: 吉野元文
   slug: ji-ye-yuan-wen
   kind: person
@@ -3438,8 +3422,8 @@
   slug: kawachimaru-takeshi
   kind: person
   interviews:
-    entries: 6
-    spoken_in: 5
+    entries: 5
+    spoken_in: 4
     columns: 0
     first: '2009'
     last: '2009'
@@ -3456,44 +3440,39 @@
       games: 14
     - cat: 总监/制作人
       games: 2
-  summary: 河内丸武史在《宝可梦 白金》中负责决定游戏方向，将增田顺一提出的反物质、相对论等概念落实为反转世界的视觉与玩法设计 [3][5]。他关注玩家在对战中的多样性，希望看到选手使用各不相同的宝可梦组合 [1]。他参与对战开拓区的设计，强调其规则与策略同剧情流程不同，并希望借此创造家人朋友交流的契机 [3][5]。他重视新手引导，称历代作品都将新手体验视若珍宝 [1]。他自述工作方式是先在脑中形成对游戏的清晰构想，再将其变为现实，而构想形成的过程最具挑战 [4]。
+  summary: 河内丸武史在《宝可梦 白金》中负责决定游戏方向，将增田顺一提出的反物质、相对论等核心概念落实为视觉与玩法设计 [2][4]。他主导构建了与神奥地区相似却截然不同的反转世界（毁坏的世界），通过天空明暗、植物与水流方向等差异让玩家感到身处对立世界 [2][4]。他也参与对战开拓区的设计，强调其规则、策略与培育方式不同于剧情流程，并希望借此创造家人朋友交流的契机 [2][4]。在开发方法上，他表示自己开工时脑中已有清晰的游戏构想，把构想变为现实的过程需要大量努力，而形成清晰印象是最具挑战的部分 [3]。他还加入了对战视频功能，以便了解世界各地玩家的玩法 [3]。
   citations:
   - n: 1
     post: 2009-03-23-interview-gamepro-platinum-masuda-kawachimaru
-    title: GamePro 独家专访：增田顺一 × 河内丸武史谈《宝可梦 白金》——反转世界、对战提速与全球冠军赛
+    title: GamePro 2009：增田顺一与河内丸武史谈《宝可梦 白金》
     date: '2009-03-23'
-    publication: GamePro (GamePro.com)
-    detail: 称希望每位选手所带 6 只宝可梦各不相同，看到冷门宝可梦会为其加油。
+    publication: GamePro
+    detail: 说明《白金》中设计了骑拉帝纳作为帝牙卢卡与帕路奇亚的对立面，并以此构思剧情。
   - n: 2
-    post: 2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda
-    title: 1UP.com 深度特稿：增田顺一 × 河内丸武史谈《为何玩家仍为宝可梦着迷》——从493只收集科学到极致简约哲学
-    date: '2009-03-24'
-    publication: 1UP.com
-    detail: 称玩家重返宝可梦世界是因为这里让他们感到放松、踏实。
-  - n: 3
     post: 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru
     title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
     date: '2009-03-24'
     publication: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!
-    detail: 自述是决定《白金》方向的人，据其说法增田顺一提供了反物质等核心概念。
-  - n: 4
+    detail: 自称是决定《白金》方向的人，把反物质、CP对称性破坏等概念用于反转世界设计。
+  - n: 3
     post: 2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum
     title: Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》
     date: '2009-05-15'
     publication: Nintendo Acción N° 199「Hablamos con los creadores de Pokémon」
     detail: 称《白金》开发时间与《钻石／珍珠》一样长，并加入对战视频功能。
-  - n: 5
+  - n: 4
     post: 2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics
     title: G4tv.com 2009：增田顺一与河内丸武史谈《宝可梦 白金》
     date: '2009-05-17'
     publication: G4tv.com
-    detail: 称对战开拓区的规则与策略不同于剧情流程，希望创造家人朋友交流的机会。
+    detail: 称自己为《白金》定方向，主导毁坏的世界与对战开拓区的设计。
   expertise:
   - 企划
   - 总监/制作人
   - 世界观设计
-  - 对战系统
-  - 新手引导
+  - 剧情设计
+  - 对战设施
+  - 玩法设计
 - name: 松岛贤二
   slug: matsushima-kenji
   kind: person
@@ -7661,11 +7640,11 @@
   slug: eo-kanako
   kind: staff
   interviews:
-    entries: 0
-    spoken_in: 0
+    entries: 1
+    spoken_in: 1
     columns: 0
-    first: null
-    last: null
+    first: '2005'
+    last: '2005'
   credits:
     games: 15
     core_games: 11
@@ -7676,8 +7655,17 @@
     categories:
     - cat: 美术
       games: 15
+  summary: 江尾可奈子在 GAME FREAK 长期从事图形设计，署名作品集中在美术领域。据《CONTINUE》2005 年报道，她以图形设计师身份参与像素玩具《DOTZ》的体验，并选择制作皮卡丘特蕾莎 [1]。她描述拔针时从背面插进去，像一针一针刺绣，做错列会很麻烦 [1]。这些说法显示她习惯以像素为单位进行细致的手工式操作。
+  citations:
+  - n: 1
+    post: 2005-08-18-scan-continue-vol23-gamefreak-special
+    title: CONTINUE 2005：GAME FREAK 众人谈像素玩具《DOTZ》
+    date: '2005-08-18'
+    publication: CONTINUE
+    detail: 据《CONTINUE》报道，她以图形设计师身份体验《DOTZ》，作品为皮卡丘特蕾莎，并称拔针如刺绣。
   expertise:
   - 美术
+  - 图形设计
 - name: Suirei Okata
   slug: okata-suirei
   kind: staff
@@ -18138,3 +18126,163 @@
   expertise:
   - 美术
   - 本地化/海外QA
+- name: 鸟居廉功
+  slug: niao-ju-lian-gong
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2010'
+    last: '2010'
+  summary: 鸟居廉功在《宝可梦巡护员》系列中参与开发，谈到第二作时决定提升内容量，并为此把系统全部破坏、只保留“画圈”这一点从零重新制作[1]。他认为内容量增加会使故事变长、捕获对战次数增多，若沿用第一作系统只会让难度平滑化而变得拖沓[1]。在角色方面，他提到反派角色被认真赋予个性，因为反派立起来英雄才会更突出[1]。他还谈到宝可梦抢夺者组织的设定，以及该组织集结于奥布利比亚地区另有目的[1]。
+  citations:
+  - n: 1
+    post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+    title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+    date: '2010-02-20'
+    publication: Nintendo DREAM
+    detail: 谈第二作时决定提升内容量，并把系统全部破坏、只留“画圈”从零重做。
+  expertise:
+  - 系统重构
+  - 内容量规划
+  - 角色设定
+  - 反派塑造
+  - 剧本协作
+- name: 五十岚宽
+  slug: wu-shi-lan-kuan
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2010'
+    last: '2010'
+  summary: 五十岚宽参与《宝可梦巡护员》系列开发，关注玩家在街上的游玩状况与操作方式，并由此反思难度对年幼孩子的影响[1]。他谈到公司体质对开发的影响，认为若不把控制做扎实，游戏会变得不可收拾[1]。在伙伴皮丘的设计上，他参与寻找与普通皮丘不同的要素，最终采用乌克丽丽皮丘，因为乌克丽丽能通过声音传达心情并适合捕捉[1]。他还提到事件演出中乌克丽丽要素的运用，以及双人配合操作中难以默契的问题[1]。
+  citations:
+  - n: 1
+    post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+    title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+    date: '2010-02-20'
+    publication: Nintendo DREAM
+    detail: 谈到在街上看到孩子玩《宝可梦巡护员》，并反思难度对年幼孩子太难。
+  expertise:
+  - 操作设计
+  - 难度调整
+  - 伙伴设计
+  - 事件演出
+  - 双人配合
+- name: 渔康智
+  slug: yu-kang-zhi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2010'
+    last: '2010'
+  summary: 渔康智在访谈中谈到《宝可梦巡护员》系列的系统设计，包括宝可梦协助的使用次数与紧张感的平衡、以时间限制控制符号识别难度等[1]。他参与通信要素的引入，理由是将其作为卖点并挖掘DS通信功能尚未充分利用的空间[1]。在画面表现上，他提到先制作实际3D模型再渲染成背景的手法[1]。他也关注角色与细节设计，如抢夺者各自的个性与台词、游泳圈方案和乌克丽丽扫弦收尾[1]。
+  citations:
+  - n: 1
+    post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+    title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+    date: '2010-02-20'
+    publication: Nintendo DREAM
+    detail: 谈宝可梦协助改为可多次使用、以敌人攻击前为限，并称通信是作为卖点自然想到的要素。
+  expertise:
+  - 系统设计
+  - 通信要素
+  - 画面表现
+  - 角色设计
+  - 难度调整
+- name: 上乡赖臣
+  slug: shang-xiang-lai-chen
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 上乡赖臣在株式会社宝可梦中心担任代表取缔役社长，负责把宝可梦的商品和服务直接送到顾客手中的业务 [1]。他经手的领域包括国内外宝可梦中心店铺、宝可梦中心线上商城与宝可梦咖啡馆等多种形式 [1]。在方法上，他重视通过顾客反应来推动业务，认为许多举措来自光靠销售数据无法衡量的顾客反应 [1]。他强调全体员工共有“为了宝可梦”的意识，并认同公司“让顾客带走宝可梦的商品和回忆”的使命 [1]。他还提出想提升店铺特有的体验价值、打磨发挥各地区特色的店铺建设，并把宝可梦送到亚洲地区更多地方 [1]。
+  citations:
+  - n: 1
+    post: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
+    title: 株式会社宝可梦中心 官方招聘访谈 01：代表取缔役社长 上乡赖臣 × 执行役员 山冈梢
+    date: '2023-03-01'
+    publication: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 01
+    detail: 他称公司承担把宝可梦直接交到顾客手中的“最后一公里”角色。
+  expertise:
+  - 品牌运营
+  - 零售业务
+  - 顾客体验
+  - 线上商城
+  - 店铺建设
+- name: 山冈梢
+  slug: shan-gang-shao
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 山冈梢参与宝可梦中心线上商城的运营，该商城于2016年开始提供服务，起因是让顾客不必亲自前往宝可梦中心也能购买商品和服务[1]。她重视为顾客送上额外的让人心动的体验，例如在网站上营造心动感、用心设计寄送商品的箱子[1]。她认为从宝可梦中心店铺里顾客的反应中学到的经验，与电商网站的运营有很深的联系[1]。在运营中，她关注构建安心安全的环境以及更顺畅地把商品送到顾客手中，并提到团队需在灵活应对环境变化的同时做好规划[1]。
+  citations:
+  - n: 1
+    post: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
+    title: 株式会社宝可梦中心 官方招聘访谈 01：代表取缔役社长 上乡赖臣 × 执行役员 山冈梢
+    date: '2023-03-01'
+    publication: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 01
+    detail: 提到宝可梦中心线上商城2016年上线，重视网站心动感与寄送箱子设计。
+  expertise:
+  - 电商运营
+  - 线上商城
+  - 顾客体验
+  - 物流配送
+  - 团队管理
+- name: 松宫稔展
+  slug: song-gong-ren-zhan
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2010'
+    last: '2010'
+  summary: 松宫稔展在《宝可梦 黑／白》中担任剧本负责人，负责故事主题的设定与整体叙事方向 [1]。他主张不把故事做成善恶分明、劝善惩恶的框架，而是让玩家在两方主张看似都正确时自行思考相信什么 [1]。在创作时他有意不抱有“必须做成小孩子也能懂的简单故事”的固定观念，认为孩子会因被小看而不满 [1]。他参与讨论演出层面的处理，并指出本作在音乐与影像上投入较多，使高潮部分更具戏剧性 [1]。他还谈到主角青梅竹马黑连与白露的作用安排，与担任对手角色的N相区分 [1]。
+  citations:
+  - n: 1
+    post: 2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario
+    title: 週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露
+    date: '2010-12-02'
+    publication: 週刊ファミ通 2010年12月16日号
+    detail: 称“解放宝可梦”是主要主题之一，N的构想由增田顺一先提出。
+  expertise:
+  - 剧本构成
+  - 故事主题
+  - 角色设定
+  - 叙事演出
+- name: 中川翔子
+  slug: nakagawa-shoko
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 4
+    first: '2007'
+    last: '2007'
+  summary: 中川翔子在制作名单中没有游戏署名记录，本站收录的访谈中她以玩家身份发言。她讲述了自己在小学高年级时于旅行当天在机场购买《宝可梦》的经历，并称《宝可梦 绿》改变了自己的人生 [1]。她关注宝可梦的背影表现，认为大嘴雀的背影可爱、闪电鸟的背影棱角分明，让人感觉和宝可梦在一起 [1]。她也谈到在《宝可梦 珍珠》中带着水箭龟使用水炮，并留意到音效的表现 [1]。此外，她提到身边的女孩子开始玩《宝可梦》是在动画版播出之后，第1集播出时全班像过节一样 [1]。
+  citations:
+  - n: 1
+    post: 2026-08-29-continue-vol32-scan-archive
+    title: CONTINUE 2007：田尻智×中川翔子特别对谈
+    date: '2007-02-24'
+    publication: CONTINUE
+    detail: 称在旅行当天于机场购买《宝可梦》，并说《宝可梦 绿》改变了自己的人生。
+  expertise:
+  - 玩家体验
+  - 宝可梦对战
+  - 背影表现
+  - 音效感受
+  - 动画影响

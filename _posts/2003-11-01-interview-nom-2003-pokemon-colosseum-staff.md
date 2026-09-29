@@ -38,6 +38,7 @@ entities:
   - 折尾
   works:
   - 宝可梦圆形竞技场
+interview_id: PKMN-0119
 workflow:
   fetch: wayback
   translation: deepseek-chat

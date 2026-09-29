@@ -1450,6 +1450,150 @@ quotes:
     name: 株式会社宝可梦
   - type: term
     name: 任天堂
+- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#90
+  post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+  segment: 90
+  speaker: 增田顺一
+  reported: false
+  kind: quote
+  hook: 增田：开发两年，最初只靠熔岩海洋互换
+  zh: 是两年。最初的想法是，只要把熔岩和海洋的字样互换，就能享受两个不同的世界，这是利用计算机做的一个机关，但光靠这个有很多行不通的地方（笑）。在信息层面也做了改动……不过基本上只靠互换就完成了。
+  ja: 2年間ですね。コンセプトとしては、マグマとアクアの文字を入れ替えるだけで、2つの違った世界を楽しめるという、コンピュータを使ったギミックということを、はじめは考えていたんですけど、それだけではいけない部分が多々あって（笑）。メッセージ的にも変更して…。でも基本的には入れ替えだけで済んでるんですね。
+  lang: ja
+  year: 2003
+  date: '2003-02-21'
+  publication: Nintendo DREAM
+  title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
+  score: 5
+  why: 披露《红宝石·蓝宝石》开发周期为两年，并说明最初的核心机关只是把熔岩与海洋字样互换。
+  more: 第93句提到双方基地位置不同，是互换之外刻意制造的差异。
+  people:
+  - 增田顺一
+  - 杉森建
+  works:
+  - 宝可梦 红宝石·蓝宝石
+  links: []
+- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#165
+  post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+  segment: 165
+  speaker: 增田顺一
+  reported: false
+  kind: question
+  hook: 为什么《红宝石·蓝宝石》要加入盲文？
+  zh: 这里不是下北泽吗（注：GAME FREAK的所在地）。所以我通勤时坐小田急线，车站上楼梯的地方之类就有盲文。我想“啊，小田急线上盲文真多啊”。但我完全读不懂，摸一摸就更不明白了（笑）。而且像罐装啤酒之类的东西，拉环那里也有盲文，医院里也有，注意看的话到处都有盲文。身边有这么多，我却想“完全读不懂是怎么回事？”于是去查了盲文，发现文字是有规律地构成的，这个发现非常有趣，所以我想“知道这种为看不见的人设计的盲文的人有多少呢”“希望人们知道”，就决定放进游戏里了。
+  ja: ここは下北沢（注：ゲームフリークの所在地）じゃないですか。それで通勤に小田急線を使っていて、駅の階段を上るところなんかに点字があったりするんですよ。「ああ、小田急線って点字がいっぱいあるなあ」と思ってて。でもまったく読めないし、触ってみたらもっとわかんないわけです（笑）。それで、缶ビールのようなものでもプルトップのところに点字があるし、病院にもあるし、注意して見るといたるところに点字があったりするんです。これほど身の回りにたくさんあるのに、「まったく読めないってどういうことだ？」と思って。それで点字を調べてみたら、規則正しく文字がつくられていることがわかって、その発見がすごく楽しかったので、「この目に見えない人のための点字というものを知っている人がどのくらいいるんだろう」「知ってもらいたい」と思って、ゲームのなかに入れておくことにしたんです。
+  lang: ja
+  year: 2003
+  date: '2003-02-21'
+  publication: Nintendo DREAM
+  title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
+  score: 5
+  why: 增田顺一说明加入盲文的直接契机：通勤的小田急线上盲文很多，自己却完全读不懂。
+  more: 第266句提到他后来能大致阅读盲文，第269句杉森建希望因此能读盲文的孩子增多。
+  people:
+  - 增田顺一
+  - 杉森建
+  works:
+  - 宝可梦 红宝石·蓝宝石
+  links:
+  - type: person
+    name: 杉森建
+    slug: sugimori-ken
+- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#241
+  post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+  segment: 241
+  speaker: 增田顺一
+  reported: false
+  kind: quote
+  hook: 增田：标题到2002年1月还没定下来
+  zh: 真是伤透了脑筋（笑）。直到去年这个时候（2002年1月）都还没定下来，感觉是在夏天电影上映前才定下的。就是烦恼到这种程度，当初也提过几个别的标题候选，但因为商标之类的问题没能通过。也考虑了在海外版变成英语时的感觉，前作是《水晶版》，所以作为接在它后面的东西，既要新，又要能看见未来，也能看见过去，于是就从矿物之中……
+  ja: ものすごく悩みましたね（笑）。去年の今頃（2002年1月）でもまだ決まってなくって、夏の映画の封切り前くらいに決まった感じだったんですよ。そのくらい悩んでまして、当初は違うタイトルもいくつか候補にあげていたんですけど、商標の問題なんかもあってクリアできなかったりしたんです。海外版で英語にしたときの感じも考慮にいれて、前作が『クリスタルバージョン』だったので、その次にくるものということで、新しくもあり、先が見えるものであったり、過去も見えるものということで、鉱物のなかから…。
+  lang: ja
+  year: 2003
+  date: '2003-02-21'
+  publication: Nintendo DREAM
+  title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
+  score: 5
+  why: 披露标题直到2002年1月仍未确定，且曾有几个候选因商标问题未通过。
+  more: 第245、247句说明红宝石与蓝宝石同属刚玉原石，是同一原石改变看法后变红或变蓝的概念。
+  people:
+  - 增田顺一
+  - 杉森建
+  works:
+  - 宝可梦 红宝石·蓝宝石
+  links: []
+- id: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto#28
+  post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
+  segment: 28
+  speaker: 增田顺一
+  reported: false
+  kind: quote
+  hook: 增田：内存不够，皮卡丘只能发一种叫声
+  zh: 因为程序内存有限，我们无法把本想加入这款新游戏的一个方面加进去。我们没法让一只宝可梦发出三种声音，比如我们本想让皮卡丘发出两种不同的声音。它高兴时可能会说“皮卡”，但难过时会发出一点“皮卡丘”的声音。我们想做出更多不同的声音。我们想让一只宝可梦根据它当时的感受发出许多种不同的声音。
+  ja: Because the memory programmes are limited we couldn't add one aspect to this new game that we would have liked. We could not make one Pokemon make three sounds, for example we would have liked Pikachu to make two different kinds of sounds. When he is happy he may say "Pika", but when he is feeling sad he makes a little sound "Pikachu". We wanted to make more different sounds. We wanted a Pokemon t
+  lang: en
+  year: 2003
+  date: '2003-05-30'
+  publication: CVG
+  title: CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦
+  score: 5
+  why: 具体说明程序内存限制导致一个被放弃的设计：让宝可梦按情绪发出多种叫声，如皮卡丘高兴与难过时叫声不同。
+  more: 同篇增田提到《红宝石／蓝宝石》音乐音效由两人耗时约两年完成。
+  people:
+  - 增田顺一
+  - 杉森建
+  - 森本茂树
+  works:
+  - 宝可梦 红宝石·蓝宝石
+  links: []
+- id: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto#32
+  post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
+  segment: 32
+  speaker: 增田顺一
+  reported: false
+  kind: quote
+  hook: 增田：两人花约两年做红蓝宝石音乐音效
+  zh: 在《宝可梦 红宝石／蓝宝石》开发期间，我们有两个人负责音乐和音效。完成全部工作花了大约两年时间。我们必须收集一些旧的声音，还要制作一些新的宝可梦叫声，另外还要完成整个游戏中的音乐，所以花了大约两年。
+  ja: We had two people working on music and sound effects when Pokemon Ruby and Sapphire was in development. It took about two years to finish all the work. We had to collect some older sounds, and also create some new Pokemon sounds, and also we had to do the music overall in the game, so it took about two years.
+  lang: en
+  year: 2003
+  date: '2003-05-30'
+  publication: CVG
+  title: CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦
+  score: 4
+  why: 给出《宝可梦 红宝石／蓝宝石》音频工作的具体人力与工期，并说明要收集旧声音、制作新叫声。
+  more: 同篇提到四名玩家可同时连接传输，是GBA版最重要的差异。
+  people:
+  - 增田顺一
+  - 杉森建
+  - 森本茂树
+  works:
+  - 宝可梦 红宝石·蓝宝石
+  links: []
+- id: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto#46
+  post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
+  segment: 46
+  speaker: 森本茂树
+  reported: false
+  kind: quote
+  hook: 森本：设计一只强宝可梦，就得同时设计克制手段
+  zh: 是的，这些角色的平衡需要时间，因为一旦我们设计出一只强大的宝可梦，就必须同时设计出强大的克制手段。从这一点来说，平衡很难做。另外，为了让这款宝可梦游戏更有趣，平衡也很难做，我们不应该在游戏里做出极其强大的宝可梦，因为一旦我们在游戏里创造出极其强大的宝可梦，玩家捕获了这只宝可梦，就能轻易赢得游戏。所以为了不让玩家那么容易赢，我们必须平衡游戏里宝可梦的强度。我们必须在这方面下功夫。
+  ja: Yes the balancing of those characters takes time because once we capture a strong Pokemon we have to make a strong counter as well. It was hard to balance on that account. And also it was hard to balance in order to make this Pokemon game more interesting we shouldn't have made extremely strong Pokemon in this game because if once we created extremely strong Pokemon in the game, if a player captur
+  lang: en
+  year: 2003
+  date: '2003-05-30'
+  publication: CVG
+  title: CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦
+  score: 4
+  why: 解释宝可梦数值平衡的难点：不能做出让玩家捕获后轻易获胜的极强宝可梦，必须同时准备反制。
+  more: 同篇森本提到二对二战斗是新挑战，但主要玩法仍是一对一。
+  people:
+  - 增田顺一
+  - 杉森建
+  - 森本茂树
+  works:
+  - 宝可梦 红宝石·蓝宝石
+  links: []
 - id: 2003-08-01-interview-nom-2003-pokemon-channel-staff#15
   post: 2003-08-01-interview-nom-2003-pokemon-channel-staff
   segment: 15
@@ -1906,6 +2050,78 @@ quotes:
   - 宝可梦圆形竞技场
   - 宝可梦 绿宝石
   links: []
+- id: 2005-08-18-scan-continue-vol23-drill-dozer#8
+  post: 2005-08-18-scan-continue-vol23-drill-dozer
+  segment: 8
+  speaker: 杉森建
+  reported: false
+  kind: quote
+  hook: 杉森建：我是3D难民，一玩就晕
+  zh: 我是3D难民。不是讨厌，是一玩就晕。这也是我想做这个的动机之一，我想做自己玩起来开心的2D游戏。而且2D动作游戏在角色游戏里现在也很多，但那样的话角色无论如何都会成为出发点。原作的角色的枪的话，就会变成开枪的游戏；拿刀的话，就会变成用刀砍的游戏。于是我想“要做原创的话，就得想个新的攻击方式”，就拿出了钻头的点子。
+  ja: 僕は3D難民なんですよ。嫌いというわけじゃなくて、すぐ酔っちゃうんですよね。これを作りたいと思った動機のひとつでもあるんですけど、自分が遊んで楽しい2Dのゲームが作りたくて。あと2Dアクションって、キャラクターゲームでは、いまでも多いですけど、それだとどうしてもキャラクターが出発点になってしまう。原作のキャラが銃を持っていたら、銃を撃つゲームになるし、刀を持っていたら刀で斬るゲームになるんですよね。で、「オリジナルをやるんだったら何か新しい攻撃方法を考えないと」と思って、ドリルのアイデアを持ってきたんですけども。
+  lang: ja
+  year: 2005
+  date: '2005-08-18'
+  publication: CONTINUE
+  title: CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈
+  score: 4
+  why: 说明《螺旋破坏者》选择2D动作游戏的个人动机，也交代了钻头攻击方式的由来。
+  more: 同篇中杉森提到2D游戏性更缜密，3D攻击容易打不中敌人。
+  people:
+  - 杉森建
+  - 吉田宏信
+  works:
+  - 螺旋破碎机
+  links: []
+- id: 2005-08-18-scan-continue-vol23-drill-dozer#18
+  post: 2005-08-18-scan-continue-vol23-drill-dozer
+  segment: 18
+  speaker: 杉森建
+  reported: false
+  kind: quote
+  hook: 杉森建：去京都任天堂是我这辈子最紧张的一次
+  zh: 那是我这辈子最紧张的一次。我一直待在这里（GAME FREAK），从来没参加过入职考试或面试之类的。
+  ja: 生涯で一番緊張しましたね。僕はずっとここ(ゲームフリーク)にいるんで、入社試験とか面接とか、そういうものを受けたことがないんですよ。
+  lang: ja
+  year: 2005
+  date: '2005-08-18'
+  publication: CONTINUE
+  title: CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈
+  score: 4
+  why: 透露GAME FREAK向任天堂提交《螺旋破坏者》时的紧张，以及杉森从未经历过入职考试或面试。
+  more: 同篇中杉森提到先约时间，岩田社长和宫本茂试玩时他紧张得胃疼。
+  people:
+  - 杉森建
+  - 吉田宏信
+  works:
+  - 螺旋破碎机
+  links:
+  - type: person
+    name: 宫本茂
+    slug: miyamoto-shigeru
+- id: 2005-08-18-scan-continue-vol23-drill-dozer#29
+  post: 2005-08-18-scan-continue-vol23-drill-dozer
+  segment: 29
+  speaker: 吉田宏信
+  reported: false
+  kind: quote
+  hook: 吉田宏信：在下一款宝可梦和动作游戏之间选一个
+  zh: 在《红宝石》《蓝宝石》之后，是继续做下一款《宝可梦》还是做这个，上面让我选一个（笑）。我说“那我就做动作游戏那边吧”，举了手，但一开始感觉是“真的会出吗？”。
+  ja: 『ルビー』『サファイア』のあとに、次の『ポケモン』をやるかコレをやるか、どっちにするか選べ、と（笑）。「じゃあ、僕はアクションゲームのほうをやります」って手を挙げたんですけど、最初は「本当に出るのかな？」っていう感じで。
+  lang: ja
+  year: 2005
+  date: '2005-08-18'
+  publication: CONTINUE
+  title: CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈
+  score: 4
+  why: 说明《红宝石》《蓝宝石》之后，吉田被要求二选一，他举手选择了动作游戏。
+  more: 同篇中吉田提到一开始感觉是「真的会出吗？」。
+  people:
+  - 杉森建
+  - 吉田宏信
+  works:
+  - 螺旋破碎机
+  links: []
 - id: 2006-04-24-interview-gpara-2006-yoshida#6
   post: 2006-04-24-interview-gpara-2006-yoshida
   segment: 6
@@ -2208,70 +2424,87 @@ quotes:
   works:
   - 宝可梦 钻石·珍珠
   links: []
-- id: 2026-08-29-continue-vol32-scan-archive#36
+- id: 2026-08-29-continue-vol32-scan-archive#42
   post: 2026-08-29-continue-vol32-scan-archive
-  segment: 36
+  segment: 42
   speaker: 田尻智
   reported: false
-  kind: question
-  hook: 为什么《宝可梦》初代发售延期了半年？
-  zh: 最初原本定在1995年9月左右发售的。然而……《宝可梦》里不是有一套“训练家的视线系统”吗？当主角走在训练家的视线范围之外时，不会触发战斗；但只要踏入他们的视线，训练家就会径直走过来切入战斗。正因如此，玩家在探索时才会心跳加速。当被视线锁定那一刻训练家所说的话、输给主角时的败北台词、平时搭话时的闲谈台词……每一个NPC的一字一句，都在传达他们的性格与身处的境遇啊。我当时就没日没夜地反复推敲润色这些台词的内容甚至助词语法（てにをは）……不知不觉间……发售日居然就这么错过去了（爆笑）。
-  ja: 最初は1995年の9月頃に発売が決まっていたんです。ところが……『ポケモン』には、ポケモントレーナーの視線システムっていうのがあるわけですよ。トレーナーの視線から外れたところに主人公がいると、戦闘にはならない。だけど、視線に入るところにいると、トレーナーが近づいてきて戦闘になる。だから、プレイヤーはドキドキするわけです。その視線に入ったときのトレーナーのセリフや、トレーナーが主人公に負けたときの捨てセリフ、普段のトレーナーのセリフ、そのひとつひとつのセリフに性格やどんな状況下にいるのかが表現されているんですよ。そのセリフの中身や「てにをは」をずっと直していたら……いつのまにか……発売日が過ぎちゃってて（爆笑）。
+  kind: quote
+  hook: 田尻智：发售延期半年，我像鬼一样改台词
+  zh: 「田尻君，你要是老这么一直改台词，程序员就没法除错，会很头疼的」，结果被制作人训了一顿。最后发售日延期了6个月，变成了1996年2月。那半年里，我像鬼一样地改台词。通宵写台词，早上程序员来上班，就把新台词交给他，然后当场打个盹，每天都是这样。初代《宝可梦》就是这么完成的。
+  ja: 「田尻君、いつまでもセリフを直し続けると、プログラマーがバグを取れなくて困るんだよ」ってプロデューサーからお叱りを受けたりして。結局、6ヵ月発売日が延期されて、1996年の2月になったわけです。その半年のあいだ、鬼のようにセリフを直して。徹夜でセリフを書き、朝にプログラマーが出社したら、その新しいセリフを渡し、その場で仮眠をとるという毎日。そういう感じで初代の『ポケモン』は完成したんですよ。
   lang: ja
   year: 2007
   date: '2007-02-24'
   publication: CONTINUE
-  title: '[扫描访谈] CONTINUE Vol.32 特别对谈：田尻 智 × 中川翔子（下北泽圣地重逢，改变人生的宝可梦）'
+  title: CONTINUE 2007：田尻智×中川翔子特别对谈
   score: 5
-  why: 田尻智说原定1995年9月发售，因反复推敲训练家视线系统里NPC的台词而错过发售日。
-  more: 同一段里提到制作人批评他改台词导致程序员无法排查Bug，最终延期到1996年2月。
-  people: []
-  works: []
+  why: 披露初代《宝可梦》因改台词延期6个月至1996年2月发售，以及通宵写台词、早上交给程序员的开发日常。
+  more: 同篇田尻智提到当时是「要么做成，要么去死」的状态，认为延期虽添麻烦但做出了接近完美的游戏。
+  people:
+  - 田尻智
+  - 中川翔子
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 钻石·珍珠
   links:
-  - type: term
-    name: 制作人
-  - type: term
-    name: 程序员
-- id: 2026-08-29-continue-vol32-scan-archive#59
+  - type: person
+    name: 田尻智
+    slug: tajiri-satoshi
+- id: 2026-08-29-continue-vol32-scan-archive#66
   post: 2026-08-29-continue-vol32-scan-archive
-  segment: 59
+  segment: 66
   speaker: 田尻智
   reported: false
-  kind: question
-  hook: 三只初始宝可梦的机制是谁提议的？
-  zh: 这追根溯源，是我去向任天堂的**宫本茂先生**商讨《宝可梦》企划案时，宫本先生随口提了一句：“一开始如果放好几只宝可梦，玩家抓了一只之后，就再也抓不到另外一只，这样不是挺好的吗？”——我每次只要和那位先生见面，就拼命不漏听他说的哪怕一个字，满怀极度敬畏与紧张去捕捉每一句能成为游戏开发启示的话语。正是宫本先生的这句话，促成了让玩家最开始从3只里选1只、而劲敌则会挑选克制主角属性的那一只的经典博弈机制！
-  ja: そもそもは任天堂の宮本茂さんに『ポケモン』の企画の相談をしたときに「ポケモンが最初に複数いて、1匹捕まえたら、もう1匹は捕まえられないようにしたら、ええんやないか？」って感じで。僕はもう、あの方とお会いすると言葉ひとつひとつを聞き漏らさないようにして、何がゲーム作りのヒントになるか、非常に緊張してうかがっているんですけど。それで最初に3匹の中から1匹を選んで、ライバルは主人公の選んだポケモンに有利なポケモンを選ぶ、という仕組みが生まれたんです。
+  kind: quote
+  hook: 田尻智：三选一机制来自宫本茂的提议
+  zh: 最初是和任天堂的宫本茂先生商量《宝可梦》企划的时候，他大致是说「一开始让宝可梦有好几只，抓了一只之后另一只就抓不到，这样不就行了吗？」我见到那位先生时，总是尽量不漏听一个字，非常紧张地听着，想着什么能成为做游戏的提示。于是就有了从三只里先选一只、劲敌则选对主角所选宝可梦有利的宝可梦，这样一套机制。
+  ja: そもそもは任天堂の宮本茂さんに『ポケモン』の企画の相談をしたときに「ポケモンが最初に複数いて、１匹捕まえたら、もう１匹は捕まえられないようにしたら、ええんやないか？」って感じで。僕はもう、あの方とお会いすると言葉ひとつひとつを聞き漏らさないようにして、何がゲーム作りのヒントになるか、非常に緊張してうかがっているんですけど。それで最初に３匹の中から１匹を選んで、ライバルは主人公の選んだポケモンに有利なポケモンを選ぶ、という仕組みが生まれたんです。
   lang: ja
   year: 2007
   date: '2007-02-24'
   publication: CONTINUE
-  title: '[扫描访谈] CONTINUE Vol.32 特别对谈：田尻 智 × 中川翔子（下北泽圣地重逢，改变人生的宝可梦）'
+  title: CONTINUE 2007：田尻智×中川翔子特别对谈
   score: 5
-  why: 田尻智说宫本茂在商讨企划案时随口提出一开始放好几只宝可梦、抓了一只就抓不到另一只。
-  more: 由此促成了从3只里选1只、劲敌挑选克制主角属性那一只的经典博弈机制。
-  people: []
-  works: []
-  links: []
-- id: 2026-08-29-continue-vol32-scan-archive#116
+  why: 说明初代三只御三家与劲敌选择机制的由来，是宫本茂在企划商量时提出的方案。
+  more: 同篇田尻智提到Game Boy黑白画面却取名《红》《绿》，常被人说「这是什么鬼」。
+  people:
+  - 田尻智
+  - 中川翔子
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 钻石·珍珠
+  links:
+  - type: person
+    name: 田尻智
+    slug: tajiri-satoshi
+- id: 2026-08-29-continue-vol32-scan-archive#119
   post: 2026-08-29-continue-vol32-scan-archive
-  segment: 116
+  segment: 119
   speaker: 田尻智
   reported: false
-  kind: question
-  hook: 妙蛙种子的原型灵感来自什么？
-  zh: 那个的原型灵感其实是**冬虫夏草**。跟派拉斯特（パラセクト）是同源的生态脉络。其实啊……在更早以前制作《宝可梦》之前，我曾打算在红白机（FC）上做一款RPG游戏，当时就买了一本《蘑菇大图鉴》来读。我从中挑选自己心仪的真菌蘑菇，动手做了一份怪物图鉴。结果寄生植物、食虫植物的变种越画越多，最后变成了一款满屏全都是蘑菇怪物的奇妙游戏。
-  ja: あれは冬虫夏草がヒントになっています。パラセクトとか、そういう種類ですね。じつは……一時期『ポケモン』以前に、ファミコンでロールプレイングゲームを作ろうと思っていて、キノコ図鑑を読んでいたんです。キノコ図鑑で気に入ったキノコを選んで、モンスター図鑑を作ったんです。その結果、寄生植物だとか、食虫植物のバリエーションがいろいろと増えてきて。キノコばっかりが出てくるゲームになってしまったんですね。
+  kind: quote
+  hook: 田尻智：想给自动贩卖机上的点字上色
+  zh: 嗯，看着下北泽街上的自动贩卖机，上面是用点字写的。可是几乎没有人会注意到那些点字。明明那里好不容易有点字写成的文章。我觉得给点字上色就好了。比如给每一个点分别上色。如果是ア行，就蓝色之类的。如果是カ行，就黄色之类的。只要有一些能成为提示的东西，就算是完全不懂点字的人也会产生兴趣。或者在下面标上注音，也能知道内容。只要有这样一点服务精神，就会产生想要支持使用点字的人的心情，最重要的是，能读懂那里写的文章会让人觉得赚到了。我想在游戏里也再现这种沟通的可能性。
+  ja: うん、下北沢の街にある自動販売機を見ていると、点字で描いてあるんだよ。でも、その点字に気がつく人はほとんどいないわけ。せっかく、そこに点字の文章があるのに。僕は点字に色をつければ良いと思うんだよね。ひとつの点それぞれに色をつけたりして。ア行だったら、青とか。カ行だったら、黄色とか。ヒントになるようなことがあれば、点字をまったく知らない人でも興味を持つと思う。あるいは下にルビを振っておけば、内容を知ることもできる。そういうちょっとしたサービス精神があれば、点字を使う人を応援したい気持ちになるし、何よりそこに描いてある文章が読めて得した気持ちになると思うんです。そういうコミュニケーションの可能性を、ゲームの中でも再現してみたいと思うんです。
   lang: ja
   year: 2007
   date: '2007-02-24'
   publication: CONTINUE
-  title: '[扫描访谈] CONTINUE Vol.32 特别对谈：田尻 智 × 中川翔子（下北泽圣地重逢，改变人生的宝可梦）'
-  score: 5
-  why: 田尻智说原型是冬虫夏草，与派拉斯特同源，并提到做《宝可梦》前曾打算在红白机上做一款满屏蘑菇怪物的RPG。
-  more: 他设想出在乌龟背上寄生绽放巨大植物花苞，这就是妙蛙种子的由来。
-  people: []
-  works: []
-  links: []
+  title: CONTINUE 2007：田尻智×中川翔子特别对谈
+  score: 4
+  why: 从下北泽街头点字几乎无人注意说起，提出按行给点字上色、加注音，让不懂点字的人也能产生兴趣。
+  more: 同篇田尻智提到名片上印有点字，并想重新把握点字与象征宝可梦、实际文本之间的关系。
+  people:
+  - 田尻智
+  - 中川翔子
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 钻石·珍珠
+  links:
+  - type: person
+    name: 田尻智
+    slug: tajiri-satoshi
 - id: 2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138#11
   post: 2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138
   segment: 11
@@ -4489,6 +4722,56 @@ quotes:
   - 超梦的逆袭
   - 宝可梦 动画系列
   links: []
+- id: 2009-03-23-interview-gamepro-platinum-masuda-kawachimaru#7
+  post: 2009-03-23-interview-gamepro-platinum-masuda-kawachimaru
+  segment: 7
+  speaker: 增田顺一
+  reported: false
+  kind: question
+  hook: 为什么第三作叫「白金」而不是其他宝石？
+  zh: 如你所知，钻石是一种宝石，而珍珠是自然创造出来的东西。我们在研究《钻石／珍珠》时发现，“diamond”有“爱”的含义，而“pearl”有“幸福”的含义。所以当我们考虑第三作时，我们想要某种“美丽”的、更高层次的东西。它不同于钻石，不同于宝石，不同于珍珠，不同于自然创造出来的东西，是某种闪耀的、美丽的东西。我们就是这样想出“白金”的。
+  ja: Diamond is a gem, as you know, and a pearl is something that nature creates. When we researched about Diamond & Pearl, [the word] "diamond" has a meaning of "love", and "pearl" has a meaning of "happiness". So when we thought of the third one, we wanted to have something "beautiful," at the next level. [It's] different from a diamond, different from a gem, different from a pearl, different from so
+  lang: en
+  year: 2009
+  date: '2009-03-23'
+  publication: GamePro
+  title: GamePro 2009：增田顺一与河内丸武史谈《宝可梦 白金》
+  score: 4
+  why: 增田解释钻石与珍珠分别对应「爱」与「幸福」，第三作要的是更高层次的「美丽」。
+  more: 河内丸武史在同一访谈里谈骑拉帝纳如何成为帝牙卢卡与帕路奇亚的对立面。
+  people:
+  - 增田顺一
+  - 河内丸武史
+  works:
+  - 宝可梦 白金
+  links:
+  - type: person
+    name: 河内丸武史
+    slug: kawachimaru-takeshi
+- id: 2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda#5
+  post: 2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda
+  segment: 5
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦为何只有一次无法跨代传送？
+  zh: 与许多让玩家在每一代新作中从头开始的游戏不同，宝可梦（有一个例外）允许玩家将之前捕获的生物转移到系列下一款作品中。例外发生在Game Boy过渡到Game Boy Advance时——原版卡带与重新设计的系统不兼容，无法将《红/蓝》和《金/银》中的宝可梦转移到《红宝石/蓝宝石》。但Game Freak在第四代DS作品中纠正了这个错误：《钻石/珍珠》提供了从GBA向DS转移宝可梦的功能。但这都是维持受众的另一种方式；当玩家觉得今天捕获的宝可梦在下一款游戏中仍然是可用的队伍成员时，就会鼓励对系列的忠诚。
+  ja: And unlike many other games that make the player start over with each new iteration, Pokémon (with one exception) allows players to transfer their previously caught creatures to the next title in the series. The exception occurred when the Game Boy transitioned to the Game Boy Advance -- the original cartridges were incompatible with the redesigned system, leaving no way to transfer Pokémon betwee
+  lang: en
+  year: 2009
+  date: '2009-03-24'
+  publication: 1UP.com
+  title: 1UP.com 2009：增田顺一与河内丸武史谈宝可梦为何仍被玩家喜爱
+  score: 4
+  why: 点出系列唯一一次断代：GB到GBA卡带不兼容，《红/蓝》《金/银》的宝可梦无法转入《红宝石/蓝宝石》，第四代才用《钻石/珍珠》补回转移功能。
+  more: 增田顺一称宝可梦是共享体验，交换与对战中的交流很重要。
+  people: []
+  works:
+  - 宝可梦 白金
+  links:
+  - type: person
+    name: 增田顺一
+    slug: masuda-junichi
 - id: 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru#22
   post: 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru
   segment: 22
@@ -8384,6 +8667,84 @@ quotes:
   - 新·飞翔情侣
   - 超梦的逆袭
   links: []
+- id: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview#22
+  post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+  segment: 22
+  speaker: 入江胜义
+  reported: false
+  kind: quote
+  hook: 入江胜义：2004年DS发售时，我们提出做拓展宝可梦世界观的作品
+  zh: 那么，就由资历最老的我来说吧。2004年DS发售的时候，我们Creatures内部提出，要做一款拓展宝可梦世界观、发挥DS机能的作品！接着在思考应该做成什么样的游戏时，浮现出了「让捕获到的宝可梦协助自己，清除场景中各种障碍的游戏」这一概念。之后又讨论到「要怎么捕获宝可梦呢？」……虽说是捕获，当然不能伤害宝可梦。于是我们想了各种办法，首先确定的是绝对要用触摸屏，在这之中最初冒出来的点子，是「弹出一个像圈一样的东西，把宝可梦套进去」……这样的方案。
+  ja: では、一番古株のわたしが話をします。2004年にDSが発売されたときに、我々クリーチャーズで、ポケットモンスターの世界観を膨らます、DSの機能を生かしたゲームを作ろう！と言う話が出たんです。そして、どのようなゲームにするべきか？と考えていったときに、「捕まえたポケモンに協力してもらい、フィールド上のさまざまな障害をクリアしていくゲーム」というコンセプトが出ました。その後「どうやってポケモンを捕まえようか？」と言う話になりまして…捕まえるといっても、当然ポケモンを傷つけるわけにはいきません。そこで、いろいろと考えたんですけれども、とりあえずタッチスクリーンは絶対に使う、というなかで、最初に出てきたのが「わっかみたいなモノをはじいて、その中にポケモンを入れる」というのはどうか…というアイデアでした。
+  lang: ja
+  year: 2010
+  date: '2010-02-20'
+  publication: Nintendo DREAM
+  title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+  score: 5
+  why: 交代《宝可梦巡护员》系列的起点：2004年DS发售时Creatures内部立项，并给出「捕获宝可梦协助清除障碍」的原始概念。
+  more: 同段还提到最初捕获方案是「弹出一个像圈一样的东西，把宝可梦套进去」，可与第24、26句的套圈、网兜、泡泡等方案连读。
+  people:
+  - 入江胜义
+  - 鸟居廉功
+  - 五十岚宽
+  - 渔康智
+  - 一同
+  works:
+  - 宝可梦巡护员 光之轨迹
+  links: []
+- id: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview#26
+  post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+  segment: 26
+  speaker: 入江胜义
+  reported: false
+  kind: quote
+  hook: 入江胜义：有人嘟囔「一圈一圈围上好几次怎么样」，一试就成了现在的画圈
+  zh: 是啊，那个点子最终作为演出被保留了下来。但作为捕获方法，哪一个都不太理想。就在那时，有人提出了用线把宝可梦围起来怎么样。这样既好懂，说不定也不错，于是做了各种实验，可实际一试，怎么都觉得太不起眼（笑）。而且总觉得缺了点什么让人热血的东西。于是我们摸索有没有更有气势的做法，某次有人嘟囔了一句「像这样一圈一圈围上好几次怎么样？」一试之下，「啊，确实这样的话既有气势，小孩子也能玩得开心。这个不错嘛！」于是就有了现在这种一圈圈围住宝可梦的风格。
+  ja: そうですね、そのアイデアは最終的に演出としては生かされました。ですが、どれも捕まえる方法としていまいちでした。そんな中であるとき、ポケモンを線で囲ったらどうだろうというアイデアが出ました。これだったら分かりやすいしいいかもしれないということで、いろいろ実験をしてみたんですけれども、実際にやってみると、どうにもこれが地味なんですよ（笑）。しかも、なんか燃えるものがいまいちない。そこで、もうちょっと勢いがあるものはないかと模索していくなかで、あるとき誰かが「こうやってくるぐる何度も囲むのはどう？」とつぶやいたんです。試してみると「ああ確かにこれなら勢いもあるし、小さい子にも楽しんでもらえそう。これいいじゃん！」となりまして、現在のようにポケモンをぐるぐる囲むというスタイルが生まれました。
+  lang: ja
+  year: 2010
+  date: '2010-02-20'
+  publication: Nintendo DREAM
+  title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+  score: 4
+  why: 说明「一圈圈围住宝可梦」这一系列标志性操作，是在线围、套圈等方案都不理想后，从一句嘟囔中试出来的。
+  more: 第28句接着谈画圈操作在当时很少见，是制作上最艰难的部分。
+  people:
+  - 入江胜义
+  - 鸟居廉功
+  - 五十岚宽
+  - 渔康智
+  - 一同
+  works:
+  - 宝可梦巡护员 光之轨迹
+  links: []
+- id: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview#109
+  post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
+  segment: 109
+  speaker: 鸟居廉功
+  reported: false
+  kind: quote
+  hook: 鸟居廉功：《巴特纳吉》有17种搭档宝可梦，但难以与剧本产生关联
+  zh: 在《巴特纳吉》的时候，有17种搭档宝可梦，做成了可以从其中带上自己喜欢的一只的机制，但这样一来就变得难以与剧本产生关联，这是一个反省点。所以，既然是难得的搭档，就想和其他的捕获宝可梦好好做出区别，这次固定为皮丘，在事件等场合也让皮丘好好参与，让它能够切实活跃，因此下定决心回到第1作那样的风格。
+  ja: 「バトナージ」のときに、17種類のパートナーポケモンがいて、その中から自分の好きなポケモンを連れていける仕組みにしたのですが、そうすることによってシナリオに絡めづらくなってしまったという反省点がありまして。なので、せっかくパートナーなんだから、ほかのキャプチャしたポケモンとはちゃんと差別化を図りたいなと思いまして、今回はピチュー固定にして、イベントとかでもしっかりとピチューを絡ませて、ちゃんと活躍できるように、あえて1作目のようなスタイルに戻す決断しました。
+  lang: ja
+  year: 2010
+  date: '2010-02-20'
+  publication: Nintendo DREAM
+  title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+  score: 4
+  why: 解释《光之轨迹》为何把搭档固定为尤克里里皮丘：前作17种搭档导致难以与剧本关联，于是回到第1作风格。
+  more: 第111句继续讲为什么是尤克里里，第115句讲乌克丽丽能通过声音传达心情、适合捕捉。
+  people:
+  - 入江胜义
+  - 鸟居廉功
+  - 五十岚宽
+  - 渔康智
+  - 一同
+  works:
+  - 宝可梦巡护员 光之轨迹
+  links: []
 - id: 2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213#66
   post: 2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213
   segment: 66
@@ -11113,6 +11474,34 @@ quotes:
   works:
   - 宝可梦 黑·白
   links: []
+- id: 2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario#5
+  post: 2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario
+  segment: 5
+  speaker: 松宫稔展
+  reported: false
+  kind: quote
+  hook: 松宫稔展：N是先于主题诞生的
+  zh: 其实是反过来的。关于N，是增田（总监增田顺一）先于主题提出的建议。“如果有一个能和宝可梦自由交谈的人类，他会怎么想呢？”——思考这个问题之后想到的，就是本作的主题。
+  ja: じつはそこは逆なのです。Ｎ(エヌ)については、テーマより先に増田(ディレクター・増田順一氏)から提案がありました。「もしも、ポケモンと自由に話せる能力を持つ人間がいたら何を思うのだろうか？」ということを考えた末に着想したのが、本作のテーマでした。
+  lang: ja
+  year: 2010
+  date: '2010-12-02'
+  publication: 週刊ファミ通 2010年12月16日号
+  title: 週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露
+  score: 4
+  why: 揭示《宝可梦 黑·白》创作顺序：不是先定主题再设计角色，而是增田顺一先提出“能和宝可梦自由交谈的人类”这一设想，主题由此反推而来。
+  more: 增田顺一在本作担任总监；N是《宝可梦 黑·白》中主张解放宝可梦的关键角色。
+  people:
+  - 松宫稔展
+  - 增田顺一
+  works:
+  - 宝可梦 黑·白
+  links:
+  - type: person
+    name: 增田顺一
+    slug: masuda-junichi
+  - type: work
+    name: 宝可梦 黑·白
 - id: 2010-12-20-interview-otonafami-sugimori-starters-victini#14
   post: 2010-12-20-interview-otonafami-sugimori-starters-victini
   segment: 14
@@ -11579,8 +11968,8 @@ quotes:
   segment: 6
   speaker: 增田顺一
   reported: false
-  kind: question
-  hook: 为什么《黑·白》要放弃全部旧宝可梦？
+  kind: quote
+  hook: 增田：通关前不会遇到任何旧宝可梦
   zh: 我们采用了与《红》和《蓝》相同的策略。我们为这个新系列提供了全新的宝可梦。玩家在通关主线剧情之前不会遇到任何旧的宝可梦。
   ja: We employed the same strategy as we did with Red and Blue. We delivered all new Pokemon for this new series. Players won't meet any old Pokemon up until they clear the main storyline.
   lang: en
@@ -11589,8 +11978,8 @@ quotes:
   publication: Eurogamer
   title: '[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）'
   score: 5
-  why: 增田顺一说明本作沿用《红》《蓝》策略，主线通关前不会遇到任何旧宝可梦，是系列一次大换血的决定。
-  more: 同篇第29句提到《黑／白》首次根据剧情和世界观定标题。
+  why: 《黑·白》沿用《红》《蓝》策略，156只全新宝可梦大换血，主线通关前旧宝可梦不出现。
+  more: 增田顺一在访谈中还谈到《黑／白》首次根据剧情和世界观定标题。
   people:
   - 增田顺一
   - 杉森建
@@ -11598,14 +11987,17 @@ quotes:
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
-  links: []
+  links:
+  - type: person
+    name: 增田顺一
+    slug: masuda-junichi
 - id: 2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains#29
   post: 2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains
   segment: 29
   speaker: 增田顺一
   reported: false
-  kind: question
-  hook: 《黑／白》的标题为什么第一次由剧情决定？
+  kind: quote
+  hook: 增田：第一次根据剧情和世界观定标题
   zh: 这一次，《黑／白》的主要概念是剧情上的极端。所以‘黑与白’这个名字就由此而来。它是极端的、不同的、对立的。这一次是我们第一次根据剧情和世界观来定标题。这个标题是基于游戏剧情的内容。
   ja: This time, for Black and White, the main concept was extreme in the scenario. So, that's where the name Black and White comes from. It's extreme, different, opposite. This time was the first time we put the title based on the scenario and the world point of view. This title was based on the content of the videogame scenario.
   lang: en
@@ -11614,8 +12006,8 @@ quotes:
   publication: Eurogamer
   title: '[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）'
   score: 5
-  why: 增田顺一透露本作主要概念是剧情上的极端，标题首次基于剧情和世界观，而非颜色系列惯例。
-  more: 同篇第30句他预计往后会继续根据世界观定标题。
+  why: 《黑／白》标题源于剧情上的极端对立，是系列首次不按颜色惯例、依世界观命名。
+  more: 增田顺一预计往后会继续根据世界观定标题。
   people:
   - 增田顺一
   - 杉森建
@@ -11623,14 +12015,17 @@ quotes:
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
-  links: []
+  links:
+  - type: person
+    name: 增田顺一
+    slug: masuda-junichi
 - id: 2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains#36
   post: 2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains
   segment: 36
   speaker: 增田顺一
   reported: false
-  kind: question
-  hook: 《黑／白》本地化流程改成了什么？
+  kind: quote
+  hook: 增田：这次直接从日语翻译成所有其他语言
   zh: 对于《黑／白》，我们彻底改变了组织的架构。这次我们直接从日语翻译成所有其他语言。以前，我们先从日语本地化成英语，再从英语本地化成其他欧洲语言。所以这次是从日语直接到欧洲语言。
   ja: For Black and White we totally changed the scheme of the organisation. This time we translated directly from Japanese to all other languages. Before, we localised from Japanese to English, and from English to other European languages. So this time it was Japanese directly to European languages.
   lang: en
@@ -11639,8 +12034,8 @@ quotes:
   publication: Eurogamer
   title: '[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）'
   score: 5
-  why: 增田顺一说明本作彻底改变组织架构，首次从日语直接翻译成所有其他语言，不再经英语中转。
-  more: 同篇第37句提到欧洲发售3月4日，比美国早两天。
+  why: 《黑／白》本地化流程改变，从日语直接到欧洲语言，不再经英语中转，缩短了发售间隔。
+  more: 增田顺一提到欧洲发售3月4日，比美国早两天。
   people:
   - 增田顺一
   - 杉森建
@@ -11648,7 +12043,10 @@ quotes:
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
-  links: []
+  links:
+  - type: person
+    name: 增田顺一
+    slug: masuda-junichi
 - id: 2011-03-01-interview-nintendo-power-bw-masuda-sugimori#16
   post: 2011-03-01-interview-nintendo-power-bw-masuda-sugimori
   segment: 16
@@ -19446,7 +19844,7 @@ quotes:
   speaker: 西田敦子
   reported: false
   kind: quote
-  hook: 西田敦子：设计宝可梦要尽可能减少部件数量
+  hook: 西田敦子：设计时尽可能减少部件数量
   zh: 就是“尽可能减少部件数量”吧。不是弄得繁复堆砌，而是只添加一个具有特征性的部件。这样一来，即使在涂成剪影的时候也能通过轮廓辨认出来，不是吗？这一点我是有意识地在做的。
   ja: 「出来るだけパーツを少なくする」ということですね。ゴテゴテさせるのではなく、特徴的なパーツを一つだけ加えるようにする。そうすると、塗りつぶした時にもちゃんとシルエットで分かるじゃないですか。そういうことは意識していますね。
   lang: ja
@@ -19455,32 +19853,35 @@ quotes:
   publication: DNP 大日本印刷 FUN'S PROJECT
   title: FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得
   score: 4
-  why: 西田敦子谈宝可梦设计原则，强调只添加一个特征性部件，使剪影也能辨认。
-  more: 同篇中她提到泡沫栗鼠体现了自己的风格，可对照看。
+  why: 讲出她角色设计的一条具体方法：只添加一个特征性部件，使宝可梦在剪影状态下也能被辨认。
+  more: 第32句中川翔子接话说「只看剪影就能知道是哪只宝可梦」，并提到「剪影猜谜」。
   people:
   - 西田敦子
   works:
   - 宝可梦 红·绿
   - 宝可梦 X·Y
   - 宝可梦 动画系列
-  links: []
-- id: 2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design#37
+  links:
+  - type: person
+    name: 中川翔子
+    slug: nakagawa-shoko
+- id: 2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design#46
   post: 2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design
-  segment: 37
+  segment: 46
   speaker: 西田敦子
   reported: false
   kind: quote
-  hook: 西田敦子：宝可梦大多诞生于同一本笔记本
-  zh: 因为我不太擅长用完全空白的笔记本，所以会用带有横线的KOKUYO大学笔记本，但不是作为“插画专用”来使用，而是把什么都写进同一本笔记本里。草稿旁边会写着“想买的东西清单”之类的（笑），或者一边看电视一边把觉得有趣的事情随手写下来。然后之后重新翻阅的时候，灵感就会闪现出来。我设计的宝可梦，大多都是从那里诞生的。
-  ja: 真っ白なノートは苦手なので、横線が入ったコクヨの大学ノートを使っているんですけど、「イラスト専用」として使っているのではなくて、一冊のノートに何でも書き込んじゃうんです。ラフ画の隣に「買いたい物リスト」とかが書かれていたり（笑）、テレビを見ながら面白いなと思ったことを書きなぐってあったり。で、後からそれを読み直しているときに、アイデアがひらめいたりするんです。私のデザインしたポケモンは、大抵はそこから生まれていますね。
+  hook: 西田敦子：风妖精是从成吉思汗烤肉诞生的
+  zh: 我想应该是的（笑）。另外，说到食物，我特别喜欢成吉思汗烤肉，风妖精就是从那里诞生的（笑）。
+  ja: そうだったと思います（笑）あと、食べ物でいうと私はジンギスカンが大好きで、そこからエルフーンが生まれたり（笑）
   lang: ja
   year: 2018
   date: '2018-06-25'
   publication: DNP 大日本印刷 FUN'S PROJECT
   title: FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得
   score: 4
-  why: 西田敦子描述用KOKUYO大学笔记本记录一切，草稿旁写购物清单，重翻时灵感闪现。
-  more: 后文提到风妖精从成吉思汗烤肉诞生，罗丝雷朵从家中百合花想到。
+  why: 给出一个具体的设计灵感来源，说明她的宝可梦构思常来自日常食物与家中物品，而非外出取材。
+  more: 第53句她说罗丝雷朵是看着家里的百合花想到的；第59句说六尾、九尾与《小狐狸海伦》有关。
   people:
   - 西田敦子
   works:
@@ -19494,7 +19895,7 @@ quotes:
   speaker: 西田敦子
   reported: false
   kind: quote
-  hook: 西田敦子：进GAME FREAK前做过像素画工作
+  hook: 西田敦子：进GAME FREAK前画过像素画
   zh: 于是我开始在广告传单的背面画战队英雄的插画。等回过神来，已经迷上了“像素画”。《勇者斗恶龙》里登场的角色像素画实在太精彩了，我当时想着“要是能画出那样的画就好了”。所以在进入GAME FREAK之前，我也做过绘制像素画的工作。
   ja: それで広告チラシの裏などに、戦隊モノのイラストを描くようになって。気がついたら「ドット絵」にハマっていましたね。『ドラゴンクエスト』に登場するキャラの「ドット絵」とか素晴らしくて、「あんな絵が描けたらいいな」と思っていました。なのでゲームフリークに入社する前は、ドット絵を描く業務もやっていたんです。
   lang: ja
@@ -19502,9 +19903,9 @@ quotes:
   date: '2018-06-25'
   publication: DNP 大日本印刷 FUN'S PROJECT
   title: FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得
-  score: 4
-  why: 西田敦子自述受《勇者斗恶龙》像素画启发，在进入GAME FREAK前已从事像素画绘制。
-  more: 后文她提到像素画是有限颜色和线条创造角色的原点。
+  score: 5
+  why: 披露西田敦子在加入GAME FREAK之前就做过绘制像素画的工作，把她的职业起点与后来宝可梦的点阵设计连了起来。
+  more: 同一段还提到她因《勇者斗恶龙》的像素画而迷上像素画；后文第87句她称像素画是「用有限颜色和线条创造角色」的原点。
   people:
   - 西田敦子
   works:
@@ -21223,6 +21624,231 @@ quotes:
   works:
   - 宝可梦 红·绿
   links: []
+- id: 2020-08-18-corporate-topic-01-pokefuta-manhole-travel#4
+  post: 2020-08-18-corporate-topic-01-pokefuta-manhole-travel
+  segment: 4
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可盖：第一块设在指宿站前
+  zh: 宝可梦井盖“宝可盖”以通过宝可梦传播日本各地魅力为目的赠送给各地方政府，值得纪念的第一块就设置在指宿站前。
+  ja: ポケモンのマンホールこと「ポケふた」は、ポケモンを通じて日本各地の魅力を発信することを目的に自治体へ寄贈しているもので、その記念すべき1枚目が指宿駅前に設置されたのです。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 01：宝可梦井盖的旅与地方故事
+  score: 5
+  why: 交代宝可梦井盖的赠送目的与起点，第一块井盖的具体位置。
+  more: 第3句给出揭幕日期：2018年12月20日，鹿儿岛县指宿市。
+  people: []
+  works: []
+  links: []
+- id: 2020-08-18-corporate-topic-01-pokefuta-manhole-travel#5
+  post: 2020-08-18-corporate-topic-01-pokefuta-manhole-travel
+  segment: 5
+  speaker: null
+  reported: true
+  kind: question
+  hook: 指宿的第一块宝可盖为什么画伊布？
+  zh: 这块井盖上绘制的宝可梦是“伊布”。“指宿”和“喜欢伊布”……读音有些相似。
+  ja: このマンホールに描かれたポケモンは「イーブイ」。「指宿（いぶすき）」と「イーブイ好き」……語呂が似ています。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 01：宝可梦井盖的旅与地方故事
+  score: 4
+  why: 说明首块井盖图案的选择理由，来自地名与宝可梦名字读音的相似。
+  more: 第7句提到该市提出任命伊布为体育·文化交流大使。
+  people: []
+  works: []
+  links: []
+- id: 2020-08-18-corporate-topic-01-pokefuta-manhole-travel#15
+  post: 2020-08-18-corporate-topic-01-pokefuta-manhole-travel
+  segment: 15
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可盖直径63厘米，每枚设计都不同
+  zh: 宝可梦井盖的直径为63厘米。每一枚的设计都不同，是世界上独一无二的。我们不会大量生产，今后也并非以在全国各地无一遗漏地设置为目标。
+  ja: ポケふたの大きさは直径63センチ。一枚一枚デザインが異なる、世界でただひとつだけのものです。大量生産はしませんし、この先も全国にくまなく設置することがゴールではありません。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 01：宝可梦井盖的旅与地方故事
+  score: 5
+  why: 给出井盖的具体尺寸，并明确不量产、不以全国无遗漏设置为目标。
+  more: 第18句说今后几十年它将作为不变的当地风景存在。
+  people: []
+  works: []
+  links: []
+- id: 2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology#10
+  post: 2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
+  segment: 10
+  speaker: null
+  reported: true
+  kind: question
+  hook: 如果1,000年后宝可梦被发掘出来会怎样？
+  zh: 概念是“如果1,000年后宝可梦被发掘出来会怎样？”。由丹尼尔提出，以自己寄予情感的宝可梦为题材。
+  ja: コンセプトは「1,000年後にポケモンが発掘されたとしたら？」。自らが思いを寄せるポケモンを題材に、ダニエルさんから提案されました。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 02：丹尼尔·阿尔轩谈千年后的宝可梦
+  score: 5
+  why: 这是「Daniel Arsham × Pokémon」项目的核心概念，由丹尼尔提出，以自己寄予情感的宝可梦为题材。
+  more: 这一概念最终落地为雕塑系列「Relics of Kanto Through Time（公元3020年发掘的宝可梦 红·绿的世界）」。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: 宝可梦 红·绿
+- id: 2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology#18
+  post: 2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
+  segment: 18
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 丹尼尔：踏出生活的时间轴之外，改变人们的时间概念
+  zh: 丹尼尔谈及作品中的想法：“通过踏出我们生活的时间轴之外，希望带来能改变人们时间概念的冲击。”
+  ja: 「自分たちが生きている時間軸の外に踏み出すことで、人々の時間の概念を変えるようなインパクトを与えたい」と、ダニエルさんは作品に込めた思いを語ります。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 02：丹尼尔·阿尔轩谈千年后的宝可梦
+  score: 4
+  why: 丹尼尔直接说明作品想带来的冲击，呼应「作为虚构的考古学」理念，即假装未来考古学家审视当下。
+  more: 这一理念以当今所有事物为对象，审视我们自己的日常生活和体验。
+  people: []
+  works: []
+  links: []
+- id: 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health#12
+  post: 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health
+  segment: 12
+  speaker: null
+  reported: true
+  kind: quote
+  hook: LITALICO负责编程，宝可梦负责游戏策划与开发人员配置
+  zh: LITALICO负责编程，宝可梦负责游戏策划和开发团队的人员配置。
+  ja: LITALICOはプログラミング、ポケモンはゲームのプランニングや開発チームのスタッフィングを担当しています。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 03：《宝可梦微笑》与游戏化尝试
+  score: 4
+  why: 具体说明了这次跨公司合作的分工方式，是理解该项目体制的关键一句。
+  more: 合作契机源于与株式会社LITALICO的相遇，该公司以「创造一个没有障碍的社会」为愿景。
+  people: []
+  works: []
+  links: []
+- id: 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health#14
+  post: 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 插画由カナヘイ负责，UI设计交给前田高志
+  zh: 插画由以可爱兔子角色广受支持的插画师カナヘイ制作。UI设计则委托给曾在任天堂负责广告设计的株式会社NASU的前田高志。
+  ja: イラストは、愛くるしいうさぎのキャラクターで幅広い支持を受けているイラストレーターのカナヘイさんが制作。UIデザインは、かつて任天堂株式会社で広告デザインを担当していた株式会社NASUの前田高志さんに依頼しています。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 03：《宝可梦微笑》与游戏化尝试
+  score: 4
+  why: 披露了《宝可梦微笑》的具体制作阵容，包括插画师与UI设计者的来历。
+  more: 游戏内音效由裏谷玲央操刀，他曾负责株式会社卡普空「怪物猎人系列」。
+  people: []
+  works: []
+  note: カナヘイ是日本插画师，代表作有『カナヘイの小動物』系列；前田高志是NASU的代表，曾任任天堂广告设计。
+  links: []
+- id: 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health#20
+  post: 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health
+  segment: 20
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 《宝可梦微笑》支持12种语言，覆盖150多个国家和地区
+  zh: 本应用可在全球范围内享用。支持语言包括日语、英语、法语、意大利语、德语、西班牙语、简体中文、繁体中文、韩语、印尼语、泰语、印地语共12种语言，已在全球150多个国家和地区发布。
+  ja: 本アプリは世界中で楽しむことができます。対応言語は日本語、英語、フランス語、イタリア語、ドイツ語、スペイン語、簡体字中国語、繁体字中国語、韓国語、インドネシア語、タイ語、ヒンディー語の12言語、世界150以上の国と地域で配信されています。
+  lang: ja
+  year: 2020
+  date: '2020-08-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 03：《宝可梦微笑》与游戏化尝试
+  score: 5
+  why: 给出这款刷牙应用的实际发布规模，说明它并非日本本土小工具，而是全球同步上线的产品。
+  more: 本作由株式会社宝可梦与株式会社LITALICO协作开发，LITALICO负责编程。
+  people: []
+  works: []
+  links:
+  - type: term
+    name: 株式会社宝可梦
+- id: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling#6
+  post: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling
+  segment: 6
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 臭泥口中摄像头由IBM Watson识别容器种类
+  zh: “肚子饿的臭泥”口中内置的摄像头会拍摄对象物，由日本IBM的AI技术“IBM Watson”识别回收到的空容器种类（塑料瓶、瓶、罐）。臭泥会通过叫声反馈这一结果。
+  ja: 「はらぺこベトベター」の口の中に組み込まれたカメラが対象物を撮影し、日本アイ・ビー・エムのAI技術「IBM Watson」が回収した空容器の種類（ペットボトル・ビン・カン）を識別。ベトベターが鳴き声によってその結果をフィードバックします。
+  lang: ja
+  year: 2020
+  date: '2020-11-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 04：用AI让臭泥愉快回收空容器
+  score: 4
+  why: 说明回收箱的技术构成：摄像头拍摄、AI识别塑料瓶、瓶、罐，臭泥以叫声反馈结果。
+  more: 第7句提到该AI还会累积识别结果并在网站上可视化。
+  people: []
+  works: []
+  links: []
+- id: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling#9
+  post: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling
+  segment: 9
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 2018年工作坊提出用IoT与AI让城市变干净的臭泥
+  zh: 这一独特尝试的开端要追溯到2018年。在以传播宝可梦新魅力为目的的工作坊中，日本IBM的志愿员工提出了“运用IoT与AI技术让城市变干净的臭泥”这一企划。
+  ja: このユニークな取り組みのはじまりは、2018年にさかのぼります。ポケモンの新しい魅力発信を目的としたワークショップで、日本アイ・ビー・エムの有志社員が「IoTとAIのテクノロジーを活用して街をキレイにするベトベター」という企画を発案します。
+  lang: ja
+  year: 2020
+  date: '2020-11-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 04：用AI让臭泥愉快回收空容器
+  score: 4
+  why: 交代这一尝试的起点年份与最初企划的提出场合，是项目溯源的关键一句。
+  more: 第10句写2019年7月日本可口可乐员工参加美国总部内部黑客松，项目由此启动。
+  people: []
+  works: []
+  links: []
+- id: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling#10
+  post: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling
+  segment: 10
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 2019年7月黑客松，2020年11月首设阳光城
+  zh: 2019年7月，赞同该企划的日本可口可乐员工报名参加了美国总部主办的内部黑客松。以此为契机，三家公司志愿者的共同项目正式启动。2020年11月首次设置于东京池袋的阳光城，此后正在探讨向各地推广设置。
+  ja: 2019年7月には、この企画に賛同した日本コカ・コーラ社員が米国本社主催の社内ハッカソンに応募。これをきっかけに、3社有志の共同プロジェクトがスタートしました。2020年11月に初めて東京、池袋のサンシャインシティに設置され、以降は各地への設置を検討しています。
+  lang: ja
+  year: 2020
+  date: '2020-11-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 04：用AI让臭泥愉快回收空容器
+  score: 5
+  why: 给出项目从黑客松到首次落地的时间线，是这篇里唯一有具体日期与地点的推进节点。
+  more: 同一篇提到2018年工作坊上日本IBM志愿员工提出臭泥企划，可对照看构想如何变成设置。
+  people: []
+  works: []
+  links: []
 - id: 2020-12-21-interview-nikkei-ishihara-go-boardgames#8
   post: 2020-12-21-interview-nikkei-ishihara-go-boardgames
   segment: 8
@@ -21487,6 +22113,68 @@ quotes:
   - 须崎春树
   works:
   - 宝可梦随乐拍
+  links: []
+- id: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure#5
+  post: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure
+  segment: 5
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 参加者在约4500平方米森林中寻找宝可梦
+  zh: 参加者成为宝可梦调查员，前往冒险舞台“稻城森林”进行调查。在约4500平方米的广阔森林中，就像寻找甲虫和野鸟一样，去寻找潜藏于自然中的宝可梦。
+  ja: 参加者はポケモンリサーチャーとなって、冒険の舞台である「イナギの森」に調査に出かけます。約4500平米もの広大な森林の中で、まるでカブトムシや野鳥を探すように、自然に潜むポケモンを探していきます。
+  lang: ja
+  year: 2021
+  date: '2021-08-13'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 07：津田明子谈《Pokémon WONDER》与自然体验
+  score: 5
+  why: 给出《Pokémon WONDER》冒险舞台“稻城森林”的具体面积与游玩方式，是企划形态的核心事实。
+  more: 同篇第9句描述游玩者拨开草丛、凝视水中寻找痕迹，可对照看体验设计。
+  people: []
+  works: []
+  note: “イナギの森”是《Pokémon WONDER》活动中设定的虚构森林，名称可能取自东京都稻城市。
+  links: []
+- id: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure#14
+  post: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 松丸亮吾率RIDDLER参与，本山敬一任创意总监
+  zh: 这款体验游戏里，充满了被称为“解谜”热潮推手的松丸亮吾所率领的RIDDLER株式会社毫不吝惜的点子。此外，曾操刀《宝可梦GO》全球预告片等诸多宝可梦相关影像的创意总监本山敬一的细致用心也不可或缺。
+  ja: この体験ゲームには、「謎解き」ブームの仕掛け人こと松丸亮吾さん率いるRIDDLER株式会社の惜しみないアイデアが詰まっています。また、『ポケモンGO』グローバルトレーラーなど数々のポケモン関連映像を手がけられたクリエイティブディレクター本山敬一さんの細やかな心配りも不可欠でした。
+  lang: ja
+  year: 2021
+  date: '2021-08-13'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 07：津田明子谈《Pokémon WONDER》与自然体验
+  score: 5
+  why: 首次点明《Pokémon WONDER》的创作者阵容，松丸亮吾与《宝可梦GO》预告片创意总监本山敬一均具名。
+  more: 第13句提到与共鸣于企划的创作者阵容之间的协作体制，可一并看。
+  people: []
+  works: []
+  note: 松丸亮吾是日本解谜创作者、RIDDLER株式会社创始人；本山敬一是影像创意总监，曾参与《宝可梦GO》等宣传影像制作。
+  links: []
+- id: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure#23
+  post: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 津田明子：怕虫的孩子拨开草丛找宝可梦
+  zh: “在那样的环境中，那个孩子说着‘那边好像有宝可梦！’，拨开草丛投身自然之中。据说因为沉迷于寻找宝可梦，就不在意害怕的虫子了。那一刻让我感到，宝可梦的力量能够成为自然与孩子之间的桥梁。”
+  ja: 「そんな中、その子が『あそこにポケモンがいそう！』と草をかき分けて自然に飛び込んで行きました。ポケモンを探すことに夢中で、苦手な虫が気にならなかったんだとか。ポケモンの力は、自然と子どもの架け橋になれると感じた瞬間でした」
+  lang: ja
+  year: 2021
+  date: '2021-08-13'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 07：津田明子谈《Pokémon WONDER》与自然体验
+  score: 4
+  why: 用测试游玩中孩子的具体变化，说明宝可梦如何成为自然与孩子之间的桥梁，是津田确信企划没错的瞬间。
+  more: 第21、22句交代了津田确信企划没有错的背景与那个孩子怕虫的细节。
+  people: []
+  works: []
   links: []
 - id: 2021-10-25-interview-hobonichi-2021-kubo#338
   post: 2021-10-25-interview-hobonichi-2021-kubo
@@ -22538,6 +23226,46 @@ quotes:
   links:
   - type: work
     name: 宝可梦传说 阿尔宙斯
+- id: 2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music#10
+  post: 2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music
+  segment: 10
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 免费公开《钻石·珍珠》BGM与效果音全部149曲
+  zh: 由该项目诞生的服务之一，便是可免费欣赏游戏《宝可梦 钻石·珍珠》BGM及效果音全部149曲的“Pokémon DP Sound Library”*。
+  ja: このプロジェクトによって誕生したサービスの一つに、ゲーム『ポケットモンスター ダイヤモンド・パール』のBGMや効果音、全149曲を無料で楽しめる「Pokémon DP Sound Library」*があります。
+  lang: ja
+  year: 2022
+  date: '2022-03-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 08：Yaffle谈宝可梦游戏音乐的再创作
+  score: 5
+  why: 给出具体曲数149与免费公开的服务名，是项目落地的核心事实。
+  more: 该服务于2022年5月结束。
+  people: []
+  works: []
+  links: []
+- id: 2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music#15
+  post: 2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music
+  segment: 15
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 对Yaffle只提一个条件：用游戏音源做最酷的乐曲
+  zh: 对小时候玩过《宝可梦 红·绿》的Yaffle先生，我们提出的条件只有一个：“希望利用游戏音源，制作出Yaffle先生认为最酷的乐曲。”
+  ja: 幼いころ『ポケットモンスター 赤・緑』をプレイしていたYaffleさんにお願いした条件はたった1つ。「ゲーム音源を活用して、Yaffleさんが思う、最高にクールな楽曲を制作してほしい」でした。
+  lang: ja
+  year: 2022
+  date: '2022-03-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 08：Yaffle谈宝可梦游戏音乐的再创作
+  score: 4
+  why: 说明委托创作时给出的唯一要求，交代《Reconnect》《Grown》的制作前提。
+  more: 完成的乐曲采样了粉丝耳熟能详的BGM、效果音和关键词。
+  people: []
+  works: []
+  links: []
 - id: 2022-04-10-interview-pokemon-recruit-growth#24
   post: 2022-04-10-interview-pokemon-recruit-growth
   segment: 24
@@ -22703,6 +23431,90 @@ quotes:
   - 宝可梦 朱·紫
   - 宝可梦 剑·盾
   links: []
+- id: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka#10
+  post: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
+  segment: 10
+  speaker: 山冈梢
+  reported: false
+  kind: quote
+  hook: 山冈梢：宝可梦中心线上商城2016年上线
+  zh: 好的。现在的宝可梦中心线上商城是2016年开始提供服务的。起因是我们想提供这样一个机会：即使不亲自去宝可梦中心，也能当场轻松地购买宝可梦的商品和服务。上线时我们也经历了许多困难，多亏有伙伴们的支持，如今它已经成长为有许多顾客使用的地方。
+  ja: はい。現在のポケモンセンターオンラインは、2016年にサービスを開始しました。ポケモンセンターに直接行かなくても、その場ですぐにポケモンの商品・サービスを手軽にご購入いただける機会を提供したい、と考えたことがきっかけでした。立ち上げにあたり、たくさんの困難も経験しましたが、仲間の支えがあったおかげで、今では多くのお客様にご利用いただける場所として成長することができました。
+  lang: ja
+  year: 2023
+  date: '2023-03-01'
+  publication: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 01
+  title: 株式会社宝可梦中心 官方招聘访谈 01：代表取缔役社长 上乡赖臣 × 执行役员 山冈梢
+  score: 4
+  why: 给出电商网站的具体上线年份，并说明起因是让不去店铺的人也能买到宝可梦商品。
+  more: 同一访谈里山冈梢还谈到电商与店铺共同重视「为顾客送上额外的让人心动的体验」。
+  people:
+  - 上乡赖臣
+  - 山冈梢
+  works:
+  - 宝可梦中心
+  - 宝可梦中心线上商城
+  - 宝可梦咖啡馆
+  links:
+  - type: person
+    name: 山冈梢
+    slug: shan-gang-shao
+- id: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka#18
+  post: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
+  segment: 18
+  speaker: 上乡赖臣
+  reported: false
+  kind: quote
+  hook: 上乡赖臣：我们承担直接交到顾客手中的最后一公里
+  zh: “为了宝可梦”这个意识，是所有人共有的。为了让宝可梦成为被长久喜爱的存在，我们该做什么、或者不该做什么，全体员工都在认真地讨论。另外，对“直接送到顾客手中”感到有价值，或许也是员工的共同点。在与宝可梦相关的公司中，我们承担着直接交到顾客手中的“最后一公里”的角色。希望能有觉得这件事有趣、有深度的人加入我们。
+  ja: 「ポケモンのため」という意識は、全員が共通で持っています。ポケモンを長く愛される存在にするために、自分たちは何をするべきなのか、あるいは何をするべきではないのか、ということを、全社員で真剣に話し合っています。また、直接お届けすることに対してやりがいを持っていることも、社員の共通項でしょうか。当社は、ポケモンに関連する会社の中で、直接お客様にお渡しする「ラストワンマイル」の役割を担っています。そこに面白さや奥の深さを感じていただける方に、仲間に加わっていただきたいですね。
+  lang: ja
+  year: 2023
+  date: '2023-03-01'
+  publication: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 01
+  title: 株式会社宝可梦中心 官方招聘访谈 01：代表取缔役社长 上乡赖臣 × 执行役员 山冈梢
+  score: 4
+  why: 把宝可梦中心在宝可梦相关公司中的位置概括为「最后一公里」，是理解其业务定位的具体说法。
+  more: 上乡赖臣在同篇还提到「为了宝可梦」是全体员工共有的意识。
+  people:
+  - 上乡赖臣
+  - 山冈梢
+  works:
+  - 宝可梦中心
+  - 宝可梦中心线上商城
+  - 宝可梦咖啡馆
+  links:
+  - type: person
+    name: 上乡赖臣
+    slug: shang-xiang-lai-chen
+- id: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka#26
+  post: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
+  segment: 26
+  speaker: 上乡赖臣
+  reported: false
+  kind: quote
+  hook: 上乡赖臣：能直接交到顾客手中的地方仍以日本为主
+  zh: 我们希望能把宝可梦送到亚洲地区更多的地方。能直接把宝可梦交到顾客手中的地方还是以日本为主，所以想在全世界建立更多宝可梦的传播据点。虽然我认为这是一项有挑战性的举措，但通过在世界上增加能真实体验宝可梦的地方，我们想以成为受全世界长久喜爱的内容为目标。
+  ja: アジア地域にも、もっとポケモンをお届けできるようにしていきたい、と思っています。直接ポケモンをお渡しできる場はまだまだ日本が主ですので、もっと世界中にポケモンの発信拠点を作っていきたいです。チャレンジングな取り組みだとは思いますが、ポケモンをリアルに体感できる場所を世界に増やすことで、世界中から長く愛されるコンテンツになることを目指していきたいと思います。
+  lang: ja
+  year: 2023
+  date: '2023-03-01'
+  publication: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 01
+  title: 株式会社宝可梦中心 官方招聘访谈 01：代表取缔役社长 上乡赖臣 × 执行役员 山冈梢
+  score: 4
+  why: 点出海外拓展的现状与目标，说明想在世界增加能真实体验宝可梦的据点。
+  more: 同篇上乡赖臣谈到想提高宝可梦体验的深度和广度，并打磨发挥各地区特色的店铺建设。
+  people:
+  - 上乡赖臣
+  - 山冈梢
+  works:
+  - 宝可梦中心
+  - 宝可梦中心线上商城
+  - 宝可梦咖啡馆
+  links:
+  - type: person
+    name: 上乡赖臣
+    slug: shang-xiang-lai-chen
 - id: 2023-04-19-interview-cgworld-2023-sv-making-1#19
   post: 2023-04-19-interview-cgworld-2023-sv-making-1
   segment: 19
@@ -23149,6 +23961,68 @@ quotes:
   - 宝可梦 朱·紫
   - 宝可梦 剑·盾
   links: []
+- id: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream#4
+  post: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream
+  segment: 4
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦调查：约九成人重视睡眠，约半数不满意
+  zh: 株式会社宝可梦进行了一项关于睡眠的意识调查，结果显示约九成的人为了身心的疗愈而重视睡眠时间。另一方面，约半数的人对自己的睡眠并不满意。
+  ja: 株式会社ポケモンが睡眠に関する意識調査をしたところ、約9割が心身の癒やしのために睡眠時間を重要視しています。その一方、約半数は自身の睡眠に満足していないことがわかりました。
+  lang: ja
+  year: 2023
+  date: '2023-09-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 09：开发者谈《Pokémon Sleep》的睡眠理念
+  score: 4
+  why: 用具体调查数字说明睡眠现状，是《Pokémon Sleep》立项的问题背景。
+  more: 同一篇报道随后提到《Pokémon GO》和《Pokémon Smile》，说明宝可梦一直在切入日常行为。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: Pokémon GO
+- id: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream#12
+  post: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream
+  segment: 12
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 视频会导致睡回笼觉，于是改成收集宝可梦睡脸
+  zh: 经过反复探讨，我们发现视频会导致睡回笼觉，并不适合刚睡醒时观看，于是改成了拍摄并收集宝可梦睡脸的形式。
+  ja: 検討を重ねた末、動画は二度寝につながり、寝起きには向かないことがわかり、ポケモンの寝顔を撮影して収集する形になりました。
+  lang: ja
+  year: 2023
+  date: '2023-09-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 09：开发者谈《Pokémon Sleep》的睡眠理念
+  score: 4
+  why: 记录了一个具体开发决定：放弃视频形式，改为拍摄并收集宝可梦睡脸。
+  more: 前文提到曾试错“培育屋”和第二天早上看宝可梦生态的视频企划。
+  people: []
+  works: []
+  links: []
+- id: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream#30
+  post: 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 开发者：不按早起型或夜猫型改变可捕捉宝可梦
+  zh: “我们并没有设计成根据睡眠是早起型还是夜猫型来改变可捕捉的宝可梦。因为那样会导致熬夜或削减睡眠时间，无法确保规律的睡眠。”
+  ja: 「睡眠が朝型か夜型かによって、捕まえられるポケモンを変えるみたいな設計はしていません。それは、夜更かしや睡眠時間を削ってしまうことになり、規則正しい睡眠の確保につながらないからです」
+  lang: ja
+  year: 2023
+  date: '2023-09-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 09：开发者谈《Pokémon Sleep》的睡眠理念
+  score: 5
+  why: 反常识设计判断：为避免熬夜或削减睡眠时间，刻意不做类型区分。
+  more: 同篇提到柳泽正史监修，以及“社会时差”等睡眠知识。
+  people: []
+  works: []
+  links: []
 - id: 2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai#21
   post: 2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai
   segment: 21
@@ -23278,6 +24152,66 @@ quotes:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
   links: []
+- id: 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music#8
+  post: 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music
+  segment: 8
+  speaker: null
+  reported: true
+  kind: question
+  hook: 初音未来与宝可梦的契合点是什么？
+  zh: 2007年登场的初音未来，与宝可梦一样原点在于软件，且以电子音为基础，因此我们认为她与宝可梦的契合度绝佳。
+  ja: 2007年に登場した初音ミクは、ポケモンと同じくソフトウェアに原点があること、電子音をベースにしていることから、ポケモンとの相性はぴったりだと考えたのです。
+  lang: ja
+  year: 2023
+  date: '2023-12-22'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 11：宝可梦与初音未来联动项目负责人谈18首乐曲制作
+  score: 4
+  why: 项目负责人解释联动依据：两者原点都在软件，且以电子音为基础。
+  more: 初音未来由Crypton Future Media开发，2007年登场。
+  people: []
+  works: []
+  links: []
+- id: 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music#12
+  post: 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music
+  segment: 12
+  speaker: null
+  reported: true
+  kind: question
+  hook: 为什么联动项目以18为主题？
+  zh: 本项目将“草”“火”“水”等宝可梦所拥有属性的总数“18”这个数字，作为表现宝可梦、初音未来、创作者多样性的重要主题。
+  ja: 本プロジェクトは「くさ」「ほのお」「みず」など、ポケモンが持つタイプの総数である「18」という数字を、ポケモン、初音ミク、クリエイターの多様さを表す重要なテーマとしています。
+  lang: ja
+  year: 2023
+  date: '2023-12-22'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 11：宝可梦与初音未来联动项目负责人谈18首乐曲制作
+  score: 4
+  why: 18是宝可梦属性总数，被用作表现多样性的核心数字。
+  more: 项目名为“宝可梦 feat.初音未来 Project VOLTAGE 18 Types/Songs”。
+  people: []
+  works: []
+  links: []
+- id: 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music#19
+  post: 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music
+  segment: 19
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 项目负责人：如何达到300%的品质
+  zh: “在一个以创作乐趣为全部动力的现场，如何将初音未来的风格、宝可梦的风格，以及创作者的风格结合起来，才能达到300%的品质。我一直在思考这个问题。”（项目负责人）
+  ja: 「創作の楽しさがすべての原動力となるような現場で、初音ミクらしさとポケモンらしさ、そしてそれを手がけるクリエイターらしさをどうかけ合わせれば、300％のクオリティにたどり着けるのか。これをずっと考え続けています」（プロジェクト担当者）
+  lang: ja
+  year: 2023
+  date: '2023-12-22'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 11：宝可梦与初音未来联动项目负责人谈18首乐曲制作
+  score: 4
+  why: 负责人谈创作现场如何融合初音未来、宝可梦与创作者三种风格。
+  more: 项目团队反复沟通，力求让双方粉丝沉浸其中。
+  people: []
+  works: []
+  links: []
 - id: 2024-02-15-interview-pokemon-recruit-designer#50
   post: 2024-02-15-interview-pokemon-recruit-designer
   segment: 50
@@ -23383,6 +24317,839 @@ quotes:
   - type: person
     name: 為藤
     slug: wei-teng
+- id: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft#24
+  post: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft
+  segment: 24
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 竹内玛莉亚操刀主题曲，预告公开时进入北美X趋势词
+  zh: 这首主题歌无疑成为了作品的一大魅力所在。由于在全球拥有粉丝的竹内玛莉亚亲自操刀主题歌，预告公开时甚至出现了“Mariya Takeuchi”进入北美X趋势词的反响。
+  ja: この主題歌が、作品の大きな魅力の一つとなったのは間違いありません。世界中にファンがいる竹内まりやさんが主題歌を手がけたことで、予告公開時には「Mariya Takeuchi」が北米におけるXのトレンドワード入りするほどの反響がありました。
+  lang: ja
+  year: 2024
+  date: '2024-02-29'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 13：Netflix定格动画《宝可梦 礼宾部》制作团队谈幕后
+  score: 5
+  why: 说明主题曲由竹内玛莉亚创作，并给出预告公开时在北美X趋势词上的具体反响。
+  more: 主题曲为《君の居場所（Have a Good Time Here）》，见第23句。
+  people: []
+  works: []
+  links: []
+- id: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft#27
+  post: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft
+  segment: 27
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 项目成员：角色名要全世界共通，无需按语言改名
+  zh: “登场人物的名字，包括主角小春在内，还有有纱、平良等，我们都注意选用无需按语言改名、全世界共通也能传达的名字。再加上各语言的配音演员们为其注入生命，我想这成为了一部让全世界人们感到更亲近的作品。”
+  ja: 「登場人物の名前は、主人公のハルをはじめ、アリサやタイラなど、言語ごとに名前を変えなくても、世界共通で伝わる名前を意識しました。各言語の声優たちが生命を吹き込んでくれたことも相まって、世界中の方々がより身近に感じられる作品になったと思います」
+  lang: ja
+  year: 2024
+  date: '2024-02-29'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 13：Netflix定格动画《宝可梦 礼宾部》制作团队谈幕后
+  score: 4
+  why: 具体说明全球同步上线时角色命名的讲究，提到小春、有纱、平良等名字。
+  more: 本作支持33种字幕和配音，见第26句。
+  people: []
+  works: []
+  links: []
+- id: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft#28
+  post: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft
+  segment: 28
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 《宝可梦 礼宾部》获第51届安妮奖电视/媒体部门导演奖提名
+  zh: 这种对细节精益求精的作品创作成果，也促成了在第51届安妮奖的电视/媒体部门获得导演奖提名。
+  ja: 細部にまでこだわった作品づくりの結果が、第51回アニー賞のテレビ/メディア部門で監督賞にもノミネートにつながりました。
+  lang: ja
+  year: 2024
+  date: '2024-02-29'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 13：Netflix定格动画《宝可梦 礼宾部》制作团队谈幕后
+  score: 4
+  why: 给出作品在安妮奖获得导演奖提名的具体奖项与部门。
+  more: 作品由dwarf studios制作，见第5句。
+  people: []
+  works: []
+  note: 安妮奖是国际动画协会好莱坞分会主办的动画奖项。
+  links: []
+- id: 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility#5
+  post: 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility
+  segment: 5
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 丰田技术会：8000个孩子创意催生密勒顿
+  zh: 丰田技术会每年以贡献地区社会为目的，与丰田市共同举办联合活动“兴奋世界”。2023年度，以爱知县小学生为对象，实施了以“梦想的未来移动出行”为主题的问卷调查，结果收集到了多达8000个创意。
+  ja: トヨタ技術会は毎年、地域社会への貢献を目的に豊田市との合同イベント「わくわくワールド」を開催。2023年度には愛知県の小学生を対象に、「夢のミライモビリティ」をテーマとしたアンケートを実施したところ、8000ものアイデアが集まりました。
+  lang: ja
+  year: 2024
+  date: '2024-03-29'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 14：丰田密勒顿项目访谈
+  score: 5
+  why: 具体数字与年度，说明项目起点是2023年度以爱知县小学生为对象的问卷调查，收集到8000个创意。
+  more: 丰田技术会与丰田市共同举办的联合活动“兴奋世界”。
+  people: []
+  works: []
+  links: []
+- id: 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility#16
+  post: 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility
+  segment: 16
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 丰田密勒顿：30人项目扩大到300人
+  zh: 起初只有约30人的项目成员，因为认真投入制造的乐趣与热情不断感染周围的人，最终扩大到了300人规模。
+  ja: 当初は30人程度だったプロジェクトメンバーは、本気でものづくりをする楽しさと熱意が周囲にどんどん伝播し、最終的には300人規模にまで拡大しました。
+  lang: ja
+  year: 2024
+  date: '2024-03-29'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 14：丰田密勒顿项目访谈
+  score: 4
+  why: 具体人数变化，显示项目从约30人扩大到300人规模，反映制造热情感染周围人。
+  more: 项目成员起初约30人，最终扩大到300人规模。
+  people: []
+  works: []
+  links: []
+- id: 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility#29
+  post: 2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility
+  segment: 29
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 丰田密勒顿：用Nintendo Switch手柄驾驶
+  zh: 像普通汽车那样在脚下安装油门和刹车，小孩子是够不到的。怎样才能用简单易懂、又带有玩乐心态的方式来驾驶呢？作为最佳解决方案，他们选择了Nintendo Switch的手柄。这样一来，就能以玩惯了的游戏机相同的感觉来操控密勒顿。
+  ja: 一般的な車のように足元にアクセルやブレーキをつけても、小さな子どもは足が届きません。シンプルでわかりやすく操作でき、かつ遊び心のある方法で運転するにはどうしたらよいのか。その最適解として選ばれたのがNintendo Switchのコントローラーでした。これなら、遊び慣れたゲーム機と同じ感覚でミライドンを動かすことができます。
+  lang: ja
+  year: 2024
+  date: '2024-03-29'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 14：丰田密勒顿项目访谈
+  score: 4
+  why: 具体决定，因小孩够不到油门刹车，选择Nintendo Switch手柄作为驾驶方案。
+  more: 丰田密勒顿的首次亮相是2023年11月在丰田市举办的“わくわくワールド”。
+  people: []
+  works: []
+  links: []
+- id: 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports#21
+  post: 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports
+  segment: 21
+  speaker: null
+  reported: true
+  kind: quote
+  hook: PBS开发目标是赶上2024年2月25日的宝可梦龙王战2024
+  zh: PBS的开发目标是赶在2024年2月25日举办的“宝可梦龙王战2024”游戏部门中投入使用。
+  ja: PBSは、2024年2月25日開催の「ポケモン竜王戦2024」ゲーム部門での導入を目指して開発が進められました。
+  lang: ja
+  year: 2024
+  date: '2024-04-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 15：AI工具PBS与宝可梦对战观战
+  score: 4
+  why: 给出了PBS投入使用的具体日期与赛事，说明这款AI工具从一开始就是为观战场景开发的。
+  more: 第22句说明该大会由株式会社宝可梦主办，并与读卖新闻社及日本将棋联盟共同协办。
+  people: []
+  works: []
+  links:
+  - type: term
+    name: 株式会社宝可梦
+- id: 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports#25
+  post: 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports
+  segment: 25
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦对战有超1000种宝可梦和900种以上招式
+  zh: 然而，开发并非一帆风顺。与棋子数量固定的将棋不同，宝可梦对战中存在超过1000种宝可梦和900种以上的招式。
+  ja: とはいえ、開発は一筋縄ではいきません。駒の数が決まっている将棋とは異なり、ポケモンバトルには1000種を超えるポケモンや900種類以上ものわざが存在します。
+  lang: ja
+  year: 2024
+  date: '2024-04-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 15：AI工具PBS与宝可梦对战观战
+  score: 5
+  why: 用具体数字说明PBS开发难度：与棋子数量固定的将棋不同，宝可梦对战的变量规模完全不同。
+  more: 第26句补充天气与状态异常让组合数量达到天文数字。
+  people: []
+  works: []
+  links: []
+- id: 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports#31
+  post: 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports
+  segment: 31
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 选手使出AI候选招数中没有的选择，评论区接连出现「超越了AI！？」
+  zh: 其中尤其热烈的是选手使出AI候选招数中没有的选择的场面。“超越了AI！？”的评论接连不断，解说席也发出了欢呼声。
+  ja: なかでも盛り上がったのは、選手がAIの候補手にない選択を繰り出した場面。「AIを越えた!?」というコメントが次々に流れ、実況席からも歓声が上がりました。
+  lang: ja
+  year: 2024
+  date: '2024-04-30'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 15：AI工具PBS与宝可梦对战观战
+  score: 4
+  why: 记录了宝可梦龙王战2024直播中的具体场面：AI给出候选后，选手反而选了AI没列出的招数。
+  more: 第32句解释顶级玩家为出其不意会故意不选最优解。
+  people: []
+  works: []
+  links: []
+- id: 2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo#30
+  post: 2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 冰鬼护上生菓子：粗糙身体用黑豆表现
+  zh: 宝可梦方面的负责人表示印象尤为深刻的，是第二弹“冬”系列中制作的冰鬼护上生菓子。它由撒豆驱鬼的“节分”联想而来，冰鬼护粗糙不平的身体部分使用了黑豆。
+  ja: ポケモンの担当者が特に印象的だったと話すのは、第2弾の「冬」シリーズで製作したオニゴーリの上生菓子です。豆をまいて鬼を祓う行事の「節分」から連想し、オニゴーリのごつごつとした体には黒豆を使っています。
+  lang: ja
+  year: 2024
+  date: '2024-05-10'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 16：七条甘春堂谈宝可梦京菓子
+  score: 4
+  why: 具体说明第二弹「冬」系列中冰鬼护上生菓子的设计，由节分联想而来，粗糙部分用黑豆表现。
+  more: 同篇第31句提到，用黑豆表现这一形象是七条甘春堂提出的建议。
+  people: []
+  works: []
+  note: 节分是日本在立春前一日举行的撒豆驱鬼传统活动。
+  links: []
+- id: 2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo#37
+  post: 2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo
+  segment: 37
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 发售首日，七条甘春堂总店门前排起长队
+  zh: 带着宝可梦粉丝孩子的家庭、为给孙辈买特产而来的老年人，还有来自海外的游客。发售首日，七条甘春堂总店门前排起了长队，许多人一边等候一边盼着早点买到。
+  ja: ポケモンファンの子どもとその家族、孫へのお土産を求めるご年配の方々、さらには海外からの観光客たち。発売初日の七條甘春堂本店前には、まだかまだかと待ちわびながら列をなす多くの人々の姿が見られました。
+  lang: ja
+  year: 2024
+  date: '2024-05-10'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 16：七条甘春堂谈宝可梦京菓子
+  score: 4
+  why: 记录了宝可梦京菓子发售首日的现场情况，排队人群包括带孩子的家庭、老年人和海外游客。
+  more: 同篇第38句提到，这大大超出了宝可梦方面的想象。
+  people: []
+  works: []
+  links: []
+- id: 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support#9
+  post: 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support
+  segment: 9
+  speaker: null
+  reported: true
+  kind: question
+  hook: 皮卡丘头盔为何在能登已是第三次发放？
+  zh: 首次提供“皮卡丘头盔”是在东日本大地震后第二个月的“儿童节”。之后，在2016年熊本地震后也立即向当地儿童发放，此次能登半岛地震时已是第三次。
+  ja: 初めて「ピカチュウかぶと」を提供したのは、東日本大震災翌々月の「こどもの日」。さらに、2016年の熊本地震直後にも地域の子どもたちに配布し、今回の能登半島地震時で3回目となりました。
+  lang: ja
+  year: 2024
+  date: '2024-05-22'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 17：能登半岛地震中的皮卡丘头盔支援
+  score: 5
+  why: 首次提供在东日本大地震后第二个月的儿童节，2016年熊本地震后也立即发放，此次能登半岛地震是第三次，说明这是一项跨越多次震灾的长期做法。
+  more: 同一篇报道提到，2024年5月5日北国新闻中夹入了皮卡丘头盔。
+  people: []
+  works: []
+  links: []
+- id: 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support#29
+  post: 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support
+  segment: 29
+  speaker: null
+  reported: true
+  kind: question
+  hook: 2023年12月刚做的手册为何震后紧急加印？
+  zh: 这本手册是作为防灾启发活动的一环，于2023年12月刚刚制作的。为了让灾区尽可能多的孩子拿到手，能登半岛地震发生后立刻紧急加印。
+  ja: この冊子は、防災啓発活動の一環として2023年12月に制作されたばかり。被災地で一人でも多くの子どもたちの手に届くよう、能登半島地震の発生後すぐに急いで増刷をかけました。
+  lang: ja
+  year: 2024
+  date: '2024-05-22'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 17：能登半岛地震中的皮卡丘头盔支援
+  score: 5
+  why: 《和宝可梦永远在一起～生活支援手册～》本是防灾启发活动的一环，2023年12月刚制作，能登半岛地震后立刻紧急加印，用于发放给灾区孩子。
+  more: 手册内容告诉灾区孩子有人在守护他们，并鼓励保持规律生活、做脑力体操和伸展运动。
+  people: []
+  works: []
+  links: []
+- id: 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support#31
+  post: 2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support
+  segment: 31
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 基础设施重建推进中，灾区希望娱乐的呼声增多
+  zh: 在基础设施重建开始推进的过程中，灾区希望获得娱乐和休闲活动的呼声逐渐增多。于是，配合访问灾区幼儿园和小学，举办了由NHK交响乐团主办的演奏会。
+  ja: インフラの復旧が進み始めるなか、被災地では少しずつ娯楽やレクリエーションを求める声が増えてきました。そこで、被災地の幼稚園・小学校訪問と合わせて実施されたのが、NHK交響楽団主催の演奏会です。
+  lang: ja
+  year: 2024
+  date: '2024-05-22'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 17：能登半岛地震中的皮卡丘头盔支援
+  score: 4
+  why: 说明支援活动从生活基础设施转向娱乐休闲需求的时机，配合访问灾区幼儿园和小学，举办了由NHK交响乐团主办的演奏会。
+  more: 演奏会从经典古典曲目到宝可梦的曲子，孩子们和各年龄段的人都静静侧耳倾听。
+  people: []
+  works: []
+  note: NHK交响乐团是日本广播协会旗下的职业交响乐团。
+  links: []
+- id: 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience#14
+  post: 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 企划负责人：茶入可作调料罐，茶碗可作饭碗
+  zh: 企划负责人就商品用途说明道：“我们希望各位能日常使用，因此并未限定用途。为了便于融入日常餐桌，茶入设计成也可用作调料罐，茶碗则设计成也可用作饭碗，尺寸恰到好处。”
+  ja: 企画担当者は商品の用途について、「みなさんに普段使いしてもらいたかったので、用途は限定していません。日常の食卓に取り入れやすくするため、茶入は調味料入れとしても、茶碗はどんぶりとしても使えるように、程よいサイズで設計しました」と説明します。
+  lang: ja
+  year: 2024
+  date: '2024-05-31'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 18：喫茶斯魔茶企划负责人谈抹茶宝可梦的现实化
+  score: 4
+  why: 说明小物件不限定用途，为融入日常餐桌而设计，体现商品开发的具体取舍。
+  more: 同一篇提到茶入和茶碗分别以斯魔茶和来悲粗茶为原型，并采用陶器制作。
+  people: []
+  works: []
+  links: []
+- id: 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience#17
+  post: 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience
+  segment: 17
+  speaker: null
+  reported: true
+  kind: question
+  hook: 来悲粗茶有哪两种形态？
+  zh: 宝可梦中，即使是同一类型（名称），也存在外形不同的生物。来悲粗茶是拥有「凡作的样子」和「杰作的样子」两种形态的宝可梦。其特点也在茶碗上得到了忠实再现。
+  ja: ポケモンには、同じ種類（名前）でも、姿が異なる生きものがいます。ヤバソチャは、「ボンサクのすがた」と「ケッサクのすがた」の2種類が存在するポケモンです。その特徴も茶碗でしっかり再現しました。
+  lang: ja
+  year: 2024
+  date: '2024-05-31'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 18：喫茶斯魔茶企划负责人谈抹茶宝可梦的现实化
+  score: 4
+  why: 介绍来悲粗茶拥有「凡作的样子」和「杰作的样子」两种形态，且茶碗忠实再现该特点。
+  more: 辨别方法是茶碗底部的标记，对应游戏中「这只来悲粗茶是哪一种呢？」的兴奋感。
+  people: []
+  works: []
+  links: []
+- id: 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience#31
+  post: 2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience
+  segment: 31
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 周边在宝可梦中心，菜单在东京·大阪的宝可梦咖啡馆
+  zh: 周边商品在全国的宝可梦中心销售，咖啡馆菜单则在东京·日本桥“宝可梦中心TOKYO DX”和大阪·心斋桥“宝可梦中心OSAKA DX”附设的宝可梦咖啡馆推出。
+  ja: グッズは全国のポケモンセンターで、カフェメニューは東京・日本橋「ポケモンセンタートウキョーDX」と大阪・心斎橋「ポケモンセンターオーサカDX」併設のポケモンカフェで展開しています。
+  lang: ja
+  year: 2024
+  date: '2024-05-31'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 18：喫茶斯魔茶企划负责人谈抹茶宝可梦的现实化
+  score: 4
+  why: 给出周边商品与咖啡馆菜单的具体销售和推出地点，是项目落地的实际信息。
+  more: 咖啡馆菜单在东京·日本桥「宝可梦中心TOKYO DX」和大阪·心斋桥「宝可梦中心OSAKA DX」附设的宝可梦咖啡馆推出。
+  people: []
+  works: []
+  links: []
+- id: 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge#8
+  post: 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge
+  segment: 8
+  speaker: null
+  reported: true
+  kind: quote
+  hook: TSUTAYA：宝可梦卡牌道馆数量在合作法人中第一
+  zh: 原本TSUTAYA就在全国各地的门店开展“宝可梦卡牌道馆※”，其数量在合作法人中位居第一。它曾是一家积极打造宝可梦卡牌游玩场所的企业。
+  ja: もともとTSUTAYAは、全国各地の店舗で『ポケモンカードジム※』を展開しており、その数は取り扱い法人のなかでもNo.1。積極的にポケモンカードの遊び場をつくっていた企業だったのです。
+  lang: ja
+  year: 2024
+  date: '2024-06-14'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 19：SHIBUYA TSUTAYA的POKÉMON CARD LOUNGE
+  score: 4
+  why: 说明CCC被选为合作方的背景：TSUTAYA原本就在全国门店积极经营宝可梦卡牌道馆，数量在合作法人中居首。
+  more: 第9句解释了宝可梦卡牌道馆是举办官方大赛和活动的公认店铺。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: 宝可梦卡牌
+- id: 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge#20
+  post: 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge
+  segment: 20
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 对战所需物品全部免费租借，空手来店
+  zh: 为了让初学者也能轻松接触宝可梦卡牌，我们也讲究降低门槛。对战所需的物品全部可以免费租借，营造出空手来店的环境。除了提供种类丰富的60张卡牌组合而成的对战用牌组外，还出借「宝可梦卡牌游戏 Classic※」。
+  ja: 初心者が気軽にポケモンカードに触れられるよう、敷居の低さにもこだわりました。対戦に必要なアイテムは、すべて無料でレンタルすることができ、手ぶらで来店できる環境が整っています。60枚のカードを組み合わせた対戦用デッキをバリエーション豊富に提供するほか、「ポケモンカードゲーム Classic※」の貸し出しも行っています。
+  lang: ja
+  year: 2024
+  date: '2024-06-14'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 19：SHIBUYA TSUTAYA的POKÉMON CARD LOUNGE
+  score: 4
+  why: 具体说明休息室如何降低新手门槛：免费租借对战用品，还出借宝可梦卡牌游戏 Classic。
+  more: 第21句解释了Classic收录与1996年第1弹扩充包相同插图的卡牌。
+  people: []
+  works: []
+  links: []
+- id: 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge#31
+  post: 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge
+  segment: 31
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 营业至22点半，探讨夜间活动与大赛直播观影
+  zh: 今后，我们正在探讨活用营业至22点半这一较长营业时间的夜间活动，以及宝可梦卡牌游戏全国大赛、世界大赛的直播观影等只有这家休息室才能实现的企划。
+  ja: 今後は、22時半までという営業時間の長さを活かした夜のイベントや、ポケモンカードゲームの全国大会・世界大会のライブビューイングなど、このラウンジならではの企画を検討しています。
+  lang: ja
+  year: 2024
+  date: '2024-06-14'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 19：SHIBUYA TSUTAYA的POKÉMON CARD LOUNGE
+  score: 4
+  why: 披露开业后的下一步计划：利用较长营业时间做夜间活动，以及全国大赛、世界大赛的直播观影。
+  more: 第29句提到该休息室于2024年4月25日开业。
+  people: []
+  works: []
+  links: []
+- id: 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history#4
+  post: 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history
+  segment: 4
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦AM机目标年龄层为4岁至8岁
+  zh: 宝可梦AM机的目标年龄层为4岁至8岁。每次游玩都能获得绘有宝可梦的配出物，孩子们将收集到的配出物设置在机台上，进行宝可梦对战。自2007年推出的《宝可梦战斗》以来，一直深受众多孩子们的喜爱。
+  ja: ポケモンAMマシンの対象年齢は4才から8才まで。1プレイごとにポケモンが描かれた配出物が手に入る仕組みで、子どもたちは集めた配出物を筐体にセットし、ポケモンバトルをして遊びます。2007年リリースの「ポケモンバトリオ」以降、たくさんの子どもたちに親しまれてきました。
+  lang: ja
+  year: 2024
+  date: '2024-07-03'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 20：三家团队谈《宝可梦Frienda》机台开发
+  score: 4
+  why: 报道明确了宝可梦AM机的目标年龄层，并说明自2007年《宝可梦战斗》以来一直深受孩子们喜爱。
+  more: 同一篇提到《宝可梦Frienda》将于2024年7月在全国的游戏厅和商业设施中亮相。
+  people: []
+  works: []
+  links: []
+- id: 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history#20
+  post: 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history
+  segment: 20
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 第4作《宝可梦名侦探》首次引入双机台
+  zh: 如果亲子能像朋友一样一起玩游戏，会不会成为更好的体验呢？经过反复思考，开发了相邻两台可同时游玩的「双机台」。2020年启动的第4作「宝可梦名侦探」首次引入了这一设计。
+  ja: 親子が友だちのような感覚で一緒にゲームができたら、よりよい体験になるのではないか。考え抜いた結果、隣り合った2台で同時に遊べる「ツイン筐体」を開発。2020年に稼働した第4作目の「ポケモンメザスタ」でこれを初導入しました。
+  lang: ja
+  year: 2024
+  date: '2024-07-03'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 20：三家团队谈《宝可梦Frienda》机台开发
+  score: 4
+  why: 项目成员注意到儿童身后无事可做的家长，由此开发出相邻两台可同时游玩的「双机台」。
+  more: 2020年启动的第4作《宝可梦名侦探》首次引入这一设计。
+  people: []
+  works: []
+  links: []
+- id: 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history#24
+  post: 2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history
+  segment: 24
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦AM机首次在屏幕搭载触摸面板
+  zh: 本作在宝可梦AM机中首次在屏幕上搭载了触摸面板。为了捕捉宝可梦而投掷精灵球、抚摸宝可梦等动作，已更新为可以更直观地游玩。
+  ja: 本作では、ポケモンAMマシンで初めて、画面にタッチパネルを搭載しています。ポケモンを捕まえるためにモンスターボールを投げたり、ポケモンを撫でたりといった動きを、より直感的に遊べるようアップデートしました。
+  lang: ja
+  year: 2024
+  date: '2024-07-03'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 20：三家团队谈《宝可梦Frienda》机台开发
+  score: 5
+  why: 这是宝可梦AM机系列首次在屏幕上加入触摸面板，改变了投掷精灵球、抚摸宝可梦等操作方式。
+  more: 同一篇提到《宝可梦Frienda》以寻宝为主题，火山、稀树草原、洞窟等场景在大屏幕上呈现。
+  people: []
+  works: []
+  links: []
+- id: 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge#7
+  post: 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge
+  segment: 7
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 1965年日本交通事故年死亡超1万人
+  zh: 项目启动的1965年当时，日本国内每年因交通事故死亡的人数超过1万人。有一天，当时的富士银行（现瑞穗FG）员工在报纸上看到一篇报道，说一位因交通事故失去孩子的母亲给内阁总理大臣寄信，呼吁消灭交通事故。
+  ja: 事業が始まった1965年当時、国内の交通事故死亡者数は年間1万人超。そんなある日、当時の富士銀行（現・みずほFG）社員が新聞で、交通事故で子どもを亡くした一人の母親が内閣総理大臣に交通事故撲滅を訴える手紙を送った記事を見かけました。
+  lang: ja
+  year: 2024
+  date: '2024-07-16'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 21：黄色皮卡丘徽章与交通安全
+  score: 5
+  why: 交代黄色徽章项目诞生的直接背景：当时交通事故死亡人数超过1万人，富士银行员工在报纸上看到一位失去孩子的母亲给内阁总理大臣寄信。
+  more: 同一篇报道提到，这则新闻成为契机，由金融机构和保险公司共同开展的赠送项目由此诞生。
+  people: []
+  works: []
+  links: []
+- id: 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge#10
+  post: 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge
+  segment: 10
+  speaker: null
+  reported: true
+  kind: question
+  hook: 黄色徽章项目面临哪两个课题？
+  zh: 在长期开展的过程中，“黄色徽章”赠送项目面临两个课题。其一，虽然交通事故总体数量逐年减少，但新入学小学一年级学生遭遇事故的比例仍然很高。其二，“黄色徽章”本身的认知度很高，但很多人不知道它附带保险。
+  ja: 長期にわたる取り組みで、「黄色いワッペン」贈呈事業は2つの課題に直面しています。1つは、交通事故の全体的な件数は年々減ってきたものの、新小学1年生が事故に遭う割合がいまだに高いこと。もう1つは、「黄色いワッペン」そのものの認知度は高いのに、付帯する保険の存在を知らない人が多いことです。
+  lang: ja
+  year: 2024
+  date: '2024-07-16'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 21：黄色皮卡丘徽章与交通安全
+  score: 4
+  why: 点出项目长期开展后的两个具体问题：新入学小学一年级学生事故比例仍高，以及很多人不知道徽章附带保险。
+  more: 报道随后提到，损保日本员工一句不经意的话成为黄色皮卡丘徽章项目启动的契机。
+  people: []
+  works: []
+  links: []
+- id: 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge#12
+  post: 2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge
+  segment: 12
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：和徽章同为黄色的皮卡丘能做点什么
+  zh: “在赠送项目60周年前夕，我们正考虑能否开展有助于扩大认知度的新举措，这时有位员工提出‘如果是和徽章同为黄色的皮卡丘，是不是能做点什么？’的点子。”（赠送项目负责人）
+  ja: 「贈呈事業の60周年を前に、認知拡大に寄与する新しい取り組みができないかと考えていたところ、ある社員が『ワッペンと同じ黄色のピカチュウとなら、何かできるのでは？』というアイデアを出したのです」（贈呈事業担当者）
+  lang: ja
+  year: 2024
+  date: '2024-07-16'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 21：黄色皮卡丘徽章与交通安全
+  score: 4
+  why: 记录黄色皮卡丘徽章项目启动的直接契机：在赠送项目60周年前夕，损保日本员工提出用同为黄色的皮卡丘扩大认知度。
+  more: 报道提到，皮卡丘是从孩子到老人都广为人知的宝可梦，出现在贴纸上可能成为家庭和邻里间的话题。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment#11
+  post: 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment
+  segment: 11
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 暴鲤龙：3名表演者步调一致表现勇猛
+  zh: 例如，在“NO LIMIT! 夏日·飞溅·巡游”中首次登场的宝可梦暴鲤龙。为了表现暴鲤龙的魅力“勇猛”，3名表演者互相配合、步调一致，创造出充满动感的动作。
+  ja: たとえば、「NO LIMIT! サマー・スプラッシュ・パレード」で初登場したポケモンのギャラドス。ギャラドスの魅力である「勇ましさ」を表現するため、3人のエンターテイナーがお互いに協力し合い、息をあわせてダイナミックな動きをつくり出しました。
+  lang: ja
+  year: 2024
+  date: '2024-08-01'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 22：USJ与宝可梦共创独特娱乐体验
+  score: 4
+  why: 具体说明首次在“NO LIMIT! 夏日·飞溅·巡游”登场的暴鲤龙，如何用3名表演者的配合动作表现其魅力“勇猛”。
+  more: 同一篇还提到花车最高处的喷火龙，以及从口中喷出白烟的量与角度反复试错。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment#19
+  post: 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment
+  segment: 19
+  speaker: null
+  reported: true
+  kind: question
+  hook: 彩粉蝶翅膀花纹为何因地区而异？
+  zh: 在利用位置信息的应用游戏《Pokémon GO》中，彩粉蝶的翅膀花纹会因游玩地区而异。受此启发，只有在日本才能捕捉到的“高雅花纹”和出现在美国西海岸地区的“荒野花纹”，这两种彩粉蝶在游行中登场了。
+  ja: 位置情報を活用したアプリゲーム『ポケモン GO』では、プレイする地域によってビビヨンの羽の模様が異なります。そこから着想を得て、日本でしか捕まえられない「みやびなもよう」とアメリカ西海岸地域に登場する「こうやのもよう」、2種類のビビヨンがパレードに登場しました。
+  lang: ja
+  year: 2024
+  date: '2024-08-01'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 22：USJ与宝可梦共创独特娱乐体验
+  score: 5
+  why: 说明游行中彩粉蝶的登场依据《Pokémon GO》的位置信息机制，只有日本能捕捉的“高雅花纹”与出现在美国西海岸的“荒野花纹”同时登场。
+  more: 同一篇还提到“NO LIMIT! 游行”中登场的宝可梦彩粉蝶，以及利用位置信息的应用游戏《Pokémon GO》。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: Pokémon GO
+- id: 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment#22
+  post: 2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment
+  segment: 22
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 暴鲤龙冰沙：园区史上最大杯套
+  zh: 例如，今年夏天登场的“暴鲤龙的咕噜咕噜！冰沙～苏打&菠萝”。为了表现暴鲤龙的粗犷，我们采用了在园区史上最大的杯套上绘制暴鲤龙的大胆手法。其特点是仿佛能感受到水花四溅的噼啪口感与闪亮色泽。
+  ja: たとえば、今夏に登場した「ギャラドスのぐるぐる! スムージー～ソーダ&パイン」。ギャラドスの荒々しさを表すために、パーク史上最も大きいスリーブにギャラドスを描く大胆な手法を用いました。水しぶきを感じさせるような、パチパチとした食感やキラキラとした色味が特徴的です。
+  lang: ja
+  year: 2024
+  date: '2024-08-01'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 22：USJ与宝可梦共创独特娱乐体验
+  score: 4
+  why: 给出今年夏天登场的饮品“暴鲤龙的咕噜咕噜！冰沙～苏打&菠萝”的具体做法，用园区史上最大的杯套绘制暴鲤龙。
+  more: 同一篇还提到皮卡丘的毛绒帽以及以宝可梦为主题的饮品等小物件和餐饮。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship#11
+  post: 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship
+  segment: 11
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 能作内部征集方案收到近120个创意
+  zh: 能作公司内部也有许多宝可梦粉丝，此次征集产品方案时，竟收集到近120个创意。百变怪托盘的创意也是其中之一。
+  ja: 能作社内にはポケモンファンも多く、今回の製品案を募ったところ、なんと120個近くものアイデアが集まりました。メタモントレーのアイデアも、その中から生まれたもののひとつです。
+  lang: ja
+  year: 2024
+  date: '2024-08-15'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 23：能作负责人谈宝可梦铸造合作
+  score: 4
+  why: 具体数字显示能作公司内部宝可梦粉丝之多，也说明产品方案来自员工创意征集，百变怪托盘即其中之一。
+  more: 百变怪托盘后来被宝可梦方面比作锡的柔软性质。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship#18
+  post: 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship
+  segment: 18
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 两家公司反复沟通，制作周期长达约一年
+  zh: 原型完成后，使用砂制生型制作试制品，逐步确定成品的形象。两家公司各自坚持讲究并反复沟通，结果制作周期长达约一年。
+  ja: 原型が完成すると、砂の生型を用いて試作品を製作し、完成形のイメージを固めていきます。両社がこだわりをもってやり取りした結果、製作期間は約1年にも及びました。
+  lang: ja
+  year: 2024
+  date: '2024-08-15'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 23：能作负责人谈宝可梦铸造合作
+  score: 4
+  why: 给出联名产品从原型到成品的确切周期，说明铸造工艺与宝可梦监修磨合的耗时。
+  more: 此前提到原型阶段宝可梦方面反复修改，铸造难以用颜色或雕刻表现。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship#27
+  post: 2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship
+  segment: 27
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 穿山鼠因沙浴、喷火龙因熔金属火焰入选
+  zh: 此外，由于制作砂型会用到沙子，因此选择了喜欢沙浴的宝可梦穿山鼠。火属性的喷火龙，则寓意用于熔化金属的炽热火焰。
+  ja: また、生型づくりに砂を用いることから、砂浴びが好きなポケモンのサンドが選ばれました。ほのおタイプのリザードンは、金属を溶かすための熱い炎をイメージしています。
+  lang: ja
+  year: 2024
+  date: '2024-08-15'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 23：能作负责人谈宝可梦铸造合作
+  score: 4
+  why: 说明模具设计选角并非随意，而是把宝可梦特性与铸造工序中的沙、火对应起来。
+  more: 同段还提到风铃铃对应能作代表产品风铃。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports#13
+  post: 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports
+  segment: 13
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 运营团队：一所一所地打电话邀请参赛
+  zh: 最让人头疼的是召集参赛学校。尤其是第一年，大会的知名度为零。运营团队列出了积极投身电子竞技的高中，一所一所地打电话邀请参赛，持续进行着这样踏实的活动。
+  ja: もっとも頭を悩ませたのが出場校を集めることです。特に初年度は大会の知名度がゼロ。運営チームは、eスポーツに積極的に取り組む高校をリストアップし、一校ずつ電話をかけて参加を呼びかけるといった地道な活動を続けました。
+  lang: ja
+  year: 2024
+  date: '2024-08-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 24：宝可梦大集结甲子园与高中生电竞
+  score: 4
+  why: 第一年大会知名度为零，最头疼的是召集参赛学校，运营团队列出积极投身电子竞技的高中，一所一所打电话邀请。
+  more: 第14行提到还委托各高中张贴海报，并通过电视节目和社交网络等进行宣传。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports#19
+  post: 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports
+  segment: 19
+  speaker: null
+  reported: true
+  kind: question
+  hook: 为什么宝可梦大集结甲子园不用世界大赛的征召模式？
+  zh: 但本大会为了让每位选手都能用自己珍视的“搭档”宝可梦自由对战，采用了取消选择限制的“盲选模式”。
+  ja: しかし同大会では、それぞれの選手が大切にしている「相棒」ポケモンで自由にバトルできるよう、選択の制限を外した「ブラインドピック」方式を採用しました。
+  lang: ja
+  year: 2024
+  date: '2024-08-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 24：宝可梦大集结甲子园与高中生电竞
+  score: 5
+  why: 世界大赛用征召模式，本大会却改用盲选模式，让选手能用自己珍视的搭档宝可梦自由对战，是规则上的反常识决定。
+  more: 同篇第18行解释了征召模式：被指定为禁止使用的宝可梦以及对方队伍已选择的宝可梦都不能再选。
+  people: []
+  works: []
+  links: []
+- id: 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports#28
+  post: 2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports
+  segment: 28
+  speaker: null
+  reported: true
+  kind: question
+  hook: 2023年决赛选手如何成为2024年决赛选手的憧憬对象？
+  zh: 2023年大会决赛出场选手中的1人，在同年的宝可梦世界锦标赛※宝可梦大集结部门中获得世界第4名。而且，作为该选手的粉丝观看本大会的一名初中生，在2024年大会中进入了决赛。
+  ja: 2023年大会の決勝出場選手の1人が、同年のポケモンワールドチャンピオンシップス※ポケモンユナイト部門で世界第4位を獲得。さらに、その選手のファンとして本大会を観戦していた中学生が、2024年大会で決勝進出を果たしました。
+  lang: ja
+  year: 2024
+  date: '2024-08-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 24：宝可梦大集结甲子园与高中生电竞
+  score: 5
+  why: 2023年决赛出场选手之一在同年的宝可梦世界锦标赛宝可梦大集结部门获得世界第4名，而作为其粉丝观看本大会的一名初中生在2024年大会中进入决赛。
+  more: 第29行注明了宝可梦世界锦标赛是决出宝可梦电子游戏、卡牌游戏、《Pokémon UNITE》、《Pokémon GO》世界第一的官方大会。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: Pokémon GO
+- id: 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover#6
+  post: 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover
+  segment: 6
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 志摩西班牙村：开园30周年时我们提议再现帕底亚
+  zh: 项目具体落实是在迎来开园30周年的2024年。志摩西班牙村的负责人向株式会社宝可梦提出建议，希望作为特别活动，在最大限度活用园内风景与建筑的同时，再现帕底亚地区的风景。
+  ja: プロジェクトが具体化したのは、開園30周年を迎えた2024年。特別イベントとして、園内の風景や建物を最大限に活かしながらパルデア地方の風景を再現したいと、志摩スペイン村の担当者が株式会社ポケモンに提案を持ちかけました。
+  lang: ja
+  year: 2024
+  date: '2024-09-25'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 25：志摩西班牙村再现帕底亚地区
+  score: 4
+  why: 披露活动由志摩西班牙村方面主动提议，且时间点定在开园30周年的2024年，说明合作并非单向企划。
+  more: 同一篇提到马约尔广场的腓力三世铜像被装饰遮盖，用来再现游戏中的对战广场。
+  people: []
+  works: []
+  links: []
+- id: 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover#19
+  post: 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover
+  segment: 19
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 米立龙没放日式餐厅旁，因为游戏里它栖息在水边
+  zh: 例如，有粉丝说米立龙“是不是像寿司”，起初曾提出把它放在日式餐厅旁边的方案。确实这是很容易理解的想法，但实际上在游戏里米立龙栖息在水边。既然如此，还是配合实际的栖息地比较好，最终决定让它出现在喷水附近。
+  ja: たとえば、「寿司に似ているのでは」というファンの声があるシャリタツは当初、和食店のそばに配置する案が出ていました。たしかにわかりやすい発想ですが、実際にゲーム内でシャリタツが生息しているのは水辺です。それなら、やはり実際の生息地に合わせようと、最終的には噴水の近くで出会えるようにしました。
+  lang: ja
+  year: 2024
+  date: '2024-09-25'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 25：志摩西班牙村再现帕底亚地区
+  score: 4
+  why: 记录了一个被否掉的方案：虽然米立龙外形像寿司，但最终按游戏中的实际栖息地安排在水边。
+  more: 同篇还提到向日花怪安排在向日葵多的地方、迷你芙安排在橄榄树附近。
+  people: []
+  works: []
+  links: []
+- id: 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover#30
+  post: 2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 三明治最后自己插星形签子，游戏工序被搬进菜单
+  zh: 这次提供的原创菜单，也让客人能在最后自己插上星形签子。游戏中的体验被巧妙地再现，是让宝可梦粉丝不禁会心一笑的演出。
+  ja: 今回ご提供するオリジナルメニューでも、最後に星形のピックをゲスト自身が刺せるようにしました。ゲームでの体験が巧みに再現されており、ポケモンファンなら思わずニヤリとしてしまう演出です。
+  lang: ja
+  year: 2024
+  date: '2024-09-25'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 25：志摩西班牙村再现帕底亚地区
+  score: 4
+  why: 把游戏中制作三明治的最后一道插签工序复刻到现实餐点，是还原度上的具体细节。
+  more: 同篇提到以密勒顿和故勒顿专用招式「全开猛撞」「闪电猛冲」为意象的酱汁套餐。
+  people: []
+  works: []
+  links: []
+- id: 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey#10
+  post: 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey
+  segment: 10
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 印尼工作从2019年发售卡牌印尼语版开始
+  zh: 在印度尼西亚正式开始开展工作，是从发售宝可梦卡牌印尼语版的2019年开始的。但此后受新冠疫情影响，持续了一段无法如愿推进的时期。
+  ja: インドネシアでの本格的な取り組みを始めたのは、ポケモンカードのインドネシア語版を発売した2019年から。しかし、その後はコロナ禍の影響で思うようにはいかない時期が続きました。
+  lang: ja
+  year: 2024
+  date: '2024-10-16'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 26：亚洲事业本部谈印度尼西亚挑战
+  score: 4
+  why: 印度尼西亚正式开展工作的起点，随后因新冠疫情长期无法如愿推进。
+  more: 同篇提到2022年开始支持印尼语的《Pokémon GO》。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: Pokémon GO
+- id: 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey#14
+  post: 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 飞翔皮卡丘计划：2020年由公司内部有志者发起
+  zh: 契机是公司内部有志者于2020年发起的“飞翔皮卡丘计划”。该计划以“连接人与人、人与地区，传递旅行的乐趣”为主题，在多个国家和地区推出绘有宝可梦设计的飞机“皮卡丘喷气机”的航班。
+  ja: きっかけとなったのは、社内の有志たちが2020年に立ち上げた「そらとぶピカチュウプロジェクト」でした。これは、「人と人、人と地域をつなぐことで、旅の楽しみを届ける」ことをテーマに、さまざまな国と地域で、ポケモンがデザインされた飛行機「ピカチュウジェット」を就航する取り組みです。
+  lang: ja
+  year: 2024
+  date: '2024-10-16'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 26：亚洲事业本部谈印度尼西亚挑战
+  score: 4
+  why: 皮卡丘喷气机与Pikachu's Indonesia Journey的起点，主题是连接人与人、人与地区。
+  more: 同篇提到印尼鹰航协助下的“皮卡丘喷气机GA”。
+  people: []
+  works: []
+  links: []
+- id: 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey#23
+  post: 2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 雅加达用1600架无人机办宝可梦直播
+  zh: 在雅加达，举办了使用印度尼西亚史上最多的1600架无人机的特别直播。正因为是前所未有的举措，在筹备实现的过程中遇到了重重困难。但在当地合作企业的协助下，活动取得了成功，直播会场被巨大的欢呼声所包围。
+  ja: ジャカルタでは、インドネシア史上最大となる1600機のドローンを使ったスペシャルライブを開催。前例のない取り組みだけに、実現に向けた準備過程では数々の困難に直面しました。しかし、現地パートナー企業の協力によってイベントは成功し、ライブ会場は大きな歓声に包まれました 。
+  lang: ja
+  year: 2024
+  date: '2024-10-16'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 26：亚洲事业本部谈印度尼西亚挑战
+  score: 5
+  why: 印度尼西亚史上最多无人机架次，也是亚洲事业本部前所未有的举措，筹备过程困难重重。
+  more: 同篇提到2024年启动的跨领域活动“Pikachu's Indonesia Journey”。
+  people: []
+  works: []
+  links: []
 - id: 2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata#17
   post: 2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
   segment: 17
@@ -23453,6 +25220,1074 @@ quotes:
   works:
   - Pokémon GO
   - 宝可梦 红·绿
+  links: []
+- id: 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty#14
+  post: 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦×工艺展：从人间国宝到新锐共20人参加
+  zh: 艺术家的选定由国立工艺馆与宝可梦共同交换意见，最终从人间国宝到新锐年轻艺术家共20人参加。
+  ja: アーティストの選定は、国立工芸館とポケモンが意見を出し合い、人間国宝から新進気鋭の若手まで20名が参加することになりました。
+  lang: ja
+  year: 2024
+  date: '2024-11-27'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 27：宝可梦×工艺展访谈——唐泽昌宏与今井阳子谈企划与作品
+  score: 5
+  why: 披露参展艺术家规模与构成，由国立工艺馆与宝可梦共同选定，是展览策划的具体事实。
+  more: 今井阳子担任本展策展的国立工艺馆主任研究员，见第20句。
+  people: []
+  works: []
+  links: []
+- id: 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty#30
+  post: 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦×工艺展：目前约80件，今后继续增加并巡回
+  zh: 目前作品数量约为80件。今后计划在增加作品的同时，继续巡回展览。
+  ja: 現在の作品数は約80点。今後は作品をさらに増やしながら、巡回展を続けていく予定です。
+  lang: ja
+  year: 2024
+  date: '2024-11-27'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 27：宝可梦×工艺展访谈——唐泽昌宏与今井阳子谈企划与作品
+  score: 4
+  why: 给出作品数量与后续计划，说明展览并非固定规模，而是持续扩充的巡回展。
+  more: 展览2023年3月从国立工艺馆（石川县金泽市）开始，见第3句。
+  people: []
+  works: []
+  links: []
+- id: 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty#32
+  post: 2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty
+  segment: 32
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 今井完眞《多龙巴鲁托》在长崎会场首次公开
+  zh: 本作品在宝可梦×工艺展―美与技的大发现―长崎会场（长崎历史文化博物馆）首次公开
+  ja: 本作品はポケモン×工芸展―美とわざの大発見―長崎会場（長崎歴史文化博物館）で初公開
+  lang: ja
+  year: 2024
+  date: '2024-11-27'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 27：宝可梦×工艺展访谈——唐泽昌宏与今井阳子谈企划与作品
+  score: 4
+  why: 具体作品与首次公开的会场信息，涉及艺术家今井完眞与长崎历史文化博物馆。
+  more: 顶部图片为今井完眞《多龙巴鲁托》2025年，见第31句。
+  people: []
+  works: []
+  links: []
+- id: 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket#17
+  post: 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket
+  segment: 17
+  speaker: null
+  reported: true
+  kind: quote
+  hook: PokéPocket：9种语言的卡牌可收集
+  zh: 随着全球发行，Pokémon Trading Card Game Pocket 中存在9种语言的卡牌。能够收集不同语言但相同图案的卡牌，想必会激发收藏者的心吧。
+  ja: グローバル配信にともなって、ポケポケは9言語のカードが存在します。言語違いで同じ絵柄のカードを収集できるのは、コレクター心をくすぐられるのではないでしょうか。
+  lang: ja
+  year: 2024
+  date: '2024-11-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 28：宝可梦卡牌Pocket开发团队谈数字卡牌
+  score: 4
+  why: 随着全球发行，游戏内存在9种语言的卡牌，能够收集不同语言但相同图案的卡牌，这是数字版特有的收集要素。
+  more: 同一篇还提到可将卡牌装饰在“收藏板”上并向朋友和全球用户公开。
+  people: []
+  works: []
+  note: Pokémon Trading Card Game Pocket 是宝可梦卡牌的智能手机应用，日文简称“ポケポケ”。
+  links: []
+- id: 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket#22
+  post: 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket
+  segment: 22
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦卡牌Pocket：约5分钟即可分出胜负
+  zh: 当然，在 Pokémon Trading Card Game Pocket 中，也可以游玩宝可梦卡牌精髓的对战。采用了将宝可梦卡牌游戏规则针对智能手机优化的新规则，并为了让大家在一点闲暇时间也能游玩，反复调整使其约5分钟即可分出胜负。
+  ja: もちろん、ポケポケでも、ポケモンカードの醍醐味であるバトルで遊ぶことができます。ポケモンカードゲームのルールをスマートフォンに最適化した新ルールを採用し、ちょっとした時間にプレイしてもらえるよう、約5分で決着がつくように調整を重ねました。
+  lang: ja
+  year: 2024
+  date: '2024-11-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 28：宝可梦卡牌Pocket开发团队谈数字卡牌
+  score: 4
+  why: 本作采用针对智能手机优化的新规则，并反复调整让玩家在一点闲暇时间也能游玩，约5分钟即可分出胜负。
+  more: 同一篇提到牌组从60张精简至20张，并搭载自动对战与自动编成牌组功能。
+  people: []
+  works: []
+  links: []
+- id: 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket#23
+  post: 2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦卡牌Pocket：牌组从60张精简至20张
+  zh: 此外，传统宝可梦卡牌游戏一副牌组为60张，而 Pokémon Trading Card Game Pocket 则精简至20张。搭载了“自动对战”和“自动编成牌组”功能，充实了“租用牌组”等，为了让从未接触过宝可梦卡牌游戏的人也能轻松游玩，做了各种设计。
+  ja: さらに、従来のポケモンカードゲームでは1デッキ60枚のところを、ポケポケは20枚にまで絞っています。「オートバトル」や「おまかせデッキ編成」機能を搭載し、「レンタルデッキ」を充実させるなど、ポケモンカードゲームに触れたことがない人でも気軽に遊べるよう、さまざまな工夫しました。
+  lang: ja
+  year: 2024
+  date: '2024-11-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 28：宝可梦卡牌Pocket开发团队谈数字卡牌
+  score: 5
+  why: 传统宝可梦卡牌游戏一副牌组为60张，本作精简至20张，并搭载自动对战、自动编成牌组等功能，是为让新手也能轻松游玩而做的规则改动。
+  more: 同一篇还提到对战规则针对智能手机优化，反复调整使其约5分钟即可分出胜负。
+  people: []
+  works: []
+  links: []
+- id: 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion#7
+  post: 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion
+  segment: 7
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦新动画主题曲由维沙尔和谢卡尔制作
+  zh: 翌2024年，电视动画新系列开始播放。这成为印度展开的重大转折点。我们委托印度著名作曲家维沙尔先生和谢卡尔先生制作主题曲，片头曲和片尾曲起用了印度实力派歌手阿尔曼·马利克先生和沙尔利·塞蒂亚女士。
+  ja: 翌2024年には、テレビアニメ新シリーズの放映がスタートします。これが、インド展開における大きなターニングポイントとなりました。インドの著名な作曲家、ヴィシャール氏とシェーカル氏に主題歌の制作を依頼し、オープニングソングとエンディングソングにはインドの実力派歌手、アルマーン・マリク氏とシャーリィ・セティア氏を起用しました。
+  lang: ja
+  year: 2024
+  date: '2024-12-27'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 30：印度营销室谈宝可梦在印度的展开
+  score: 5
+  why: 披露印度展开中动画新系列的具体制作阵容，是2024年的重大转折点。
+  more: 片头曲和片尾曲起用了阿尔曼·马利克和沙尔利·塞蒂亚。
+  people: []
+  works: []
+  note: 维沙尔和谢卡尔是印度著名的音乐导演组合维沙尔-谢卡尔；阿尔曼·马利克是印度知名歌手；沙尔利·塞蒂亚是印度歌手。
+  links: []
+- id: 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion#9
+  post: 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion
+  segment: 9
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 新系列动画首播在印度900个频道中家庭收视数第一
+  zh: 新系列动画的首播在印度国内900个频道中获得了家庭收视数第一。SNS上也能看到许多对新系列动画的期待和喜悦之声，宝可梦在印度的人气不断扩展。
+  ja: 新シリーズアニメの初回放送は、インド国内900チャネルのなかで世帯視聴数1位を獲得。SNS上でも新シリーズアニメへの期待や喜びの声が多く見られ、インドでポケモン人気がどんどん拡大していきました。
+  lang: ja
+  year: 2024
+  date: '2024-12-27'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 30：印度营销室谈宝可梦在印度的展开
+  score: 5
+  why: 用具体数字说明宝可梦动画在印度的收视表现，显示人气扩展。
+  more: SNS上也能看到许多对新系列动画的期待和喜悦之声。
+  people: []
+  works: []
+  links: []
+- id: 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion#14
+  post: 2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦与孟买印度人合作，覆盖全部7场主场比赛
+  zh: 与在印度极具人气的板球※开展合作也是一项令人印象深刻的举措。我们与总部位于西部商业城市孟买的职业球队“孟买印度人”建立合作伙伴关系，在职业联赛的全部7场主场比赛中都开展了与宝可梦的合作企划。
+  ja: インドで大人気のクリケット※とのコラボレーションも印象的な取り組みです。西部の商業都市ムンバイを拠点とするプロチーム「ムンバイ・インディアンズ」とパートナーシップを結び、プロフェッショナルリーグのホームゲーム7試合すべてで、ポケモンとのコラボ企画を展開しました。
+  lang: ja
+  year: 2024
+  date: '2024-12-27'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 30：印度营销室谈宝可梦在印度的展开
+  score: 5
+  why: 记录与印度极具人气的板球开展合作的具体举措，是令人印象深刻的案例。
+  more: 职业球队“孟买印度人”总部位于西部商业城市孟买。
+  people: []
+  works: []
+  links: []
+- id: 2025-01-31-corporate-topic-31-ana-in-flight-safety-video#12
+  post: 2025-01-31-corporate-topic-31-ana-in-flight-safety-video
+  segment: 12
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 怪力因体型无法坐经济舱，改在商务舱装肩带
+  zh: 例如，在说明佩戴安全带的场景中，曾提出起用4条手臂为特征的两足步行宝可梦怪力的方案。然而，以它的体型无法容纳在经济舱的座位里。于是，改为在空间更宽敞的商务舱座位上，担任安装肩带的任务。
+  ja: たとえば、シートベルトの着用を説明するシーンでは、4本の腕が特徴的な二足歩行のポケモン・カイリキーを起用する案が出ました。しかし、その身体の大きさではエコノミークラスの座席には収まりません。そこで、よりスペースの広いビジネスクラスの座席で、ショルダーベルトを取り付ける役を務めることになりました。
+  lang: ja
+  year: 2025
+  date: '2025-01-31'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 31：ANA宝可梦机内安全视频制作访谈
+  score: 5
+  why: 具体说明宝可梦与安全事项匹配时的现实限制，是制作中反常识的调整案例。
+  more: 同段还提到穿山鼠和铁甲蛹用于防备冲击姿势的场景。
+  people: []
+  works: []
+  links: []
+- id: 2025-01-31-corporate-topic-31-ana-in-flight-safety-video#22
+  post: 2025-01-31-corporate-topic-31-ana-in-flight-safety-video
+  segment: 22
+  speaker: null
+  reported: true
+  kind: question
+  hook: YouTube播放量为何突破100万次？
+  zh: 就这样完成的机内安全・下机视频“宝可梦特别版”，从2024年8月起在“皮卡丘捷朵NH”和“伊布捷朵NH”这两架飞机上，同年12月以后在国内航线和国际航线的机体※上播放。在网上也受到关注，上传到YouTube的该视频合计播放次数突破了100万次。
+  ja: こうして完成した機内安全・降機ビデオ「ポケモン特別版」は、2024年8月から「ピカチュウジェットNH」と「イーブイジェットNH」の2機で、同年12月以降は国内線と国際線の機体※で放映されています。オンライン上でも注目を集め、YouTubeにアップロードした同動画は合計100万回再生を突破しました。
+  lang: ja
+  year: 2025
+  date: '2025-01-31'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 31：ANA宝可梦机内安全视频制作访谈
+  score: 5
+  why: 给出视频上线时间、播放机体和播放量，是衡量传播效果的具体数据。
+  more: 2024年8月起在皮卡丘捷朵NH和伊布捷朵NH播放，12月后扩展至国内和国际航线。
+  people: []
+  works: []
+  links: []
+- id: 2025-01-31-corporate-topic-31-ana-in-flight-safety-video#24
+  post: 2025-01-31-corporate-topic-31-ana-in-flight-safety-video
+  segment: 24
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 客舱乘务员：开头皮卡丘的叫声引来了欢呼
+  zh: 乘客们寄来了“连小学生也能看懂”“孩子也能集中注意力看到最后”等声音。实际在机内播放后，也有客舱乘务员报告说“开头皮卡丘的叫声引来了欢呼”。收到这些反响，宝可梦的负责人露出了笑容。
+  ja: 搭乗者からは「小学生にもわかりやすかった」「子どもでも最後まで集中して見ることができた」などの声が寄せられています。実際に機内で放映したところ、「冒頭のピカチュウの鳴き声で歓声があがった」という客室乗務員からの報告も。これらの反響を受けて、ポケモンの担当者は笑顔を浮かべます。
+  lang: ja
+  year: 2025
+  date: '2025-01-31'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 31：ANA宝可梦机内安全视频制作访谈
+  score: 4
+  why: 用乘客和乘务员的直接反馈，说明宝可梦元素实际吸引了注意力。
+  more: 乘客还寄来“连小学生也能看懂”“孩子也能集中注意力看到最后”等声音。
+  people: []
+  works: []
+  links: []
+- id: 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china#13
+  post: 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china
+  segment: 13
+  speaker: null
+  reported: true
+  kind: question
+  hook: 中国大师赛为何采用最多6人的团队战规则？
+  zh: 此外，中国的大师赛还制定了独自的赛事规则。其中一项特色规则是最多6人参与的团队战。运营团队如此说明其用意：“团队内既有经验丰富的玩家，也有新手，应该能够在互相指教中共同成长。”
+  ja: また、中国のマスターズは独自の大会ルールを策定しています。特徴的なルールの1つが、最大6人で戦うチーム戦。「チーム内には経験豊富なプレイヤーもいれば初心者もいて、お互いに教え合いながら成長していけるはず」と、運営チームはその意図を説明します。
+  lang: ja
+  year: 2025
+  date: '2025-03-14'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 33：中国一线城市宝可梦卡牌大师赛负责人访谈
+  score: 4
+  why: 说明中国大师赛制定了独自的赛事规则，其中团队战让经验丰富玩家与新手互相指教。
+  more: 可对照第12句，看北京、深圳如何把举办地特色融入会场演出与奖杯设计。
+  people: []
+  works: []
+  links: []
+- id: 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china#16
+  post: 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china
+  segment: 16
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 深圳设10米卡比兽气球，上海皮卡丘巡游
+  zh: 例如，大会开始前2至3周，会在各种场所举办能与宝可梦相遇的预热活动。在深圳，市内公园设置了高约10米的巨大卡比兽气球；在上海，则实施了皮卡丘在主要街道上巡游的活动“皮卡丘大量出现啾”。
+  ja: たとえば、大会の2～3週間前からさまざまな場所でポケモンと出会えるプレイベント。深圳では高さ約10メートルの巨大なカビゴンのバルーンを市内の公園に設置したほか、上海では街の主要道路をピカチュウが練り歩くイベント「ピカチュウ大量発生チュウ」を実施しました。
+  lang: ja
+  year: 2025
+  date: '2025-03-14'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 33：中国一线城市宝可梦卡牌大师赛负责人访谈
+  score: 4
+  why: 以具体活动实例说明大会前2至3周的预热活动如何把整座城市卷入宝可梦世界观。
+  more: 可延伸看第18句的“嘉年华”图章收集、展示活动与篮球投篮游戏。
+  people: []
+  works: []
+  links: []
+- id: 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china#20
+  post: 2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china
+  segment: 20
+  speaker: null
+  reported: true
+  kind: question
+  hook: 广州首届大师赛6000人，深圳为何达2万5000人？
+  zh: 2023年3月在广州举办的第一届大会，到场人数约为6000人。此后不到两年，2024年12月深圳大会的到场人数达到了约2万5000人。
+  ja: 2023年3月に広州で開催された第1回大会の来場者数は約6000人。それから2年弱、2024年12月の深圳大会の来場者数は約2万5000人に上りました。
+  lang: ja
+  year: 2025
+  date: '2025-03-14'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 33：中国一线城市宝可梦卡牌大师赛负责人访谈
+  score: 5
+  why: 用具体数字对比两届大师赛到场人数，呈现赛事规模在不到两年内的快速增长。
+  more: 可结合第10句看赛事为何选择巡回广州、北京、深圳、上海四座城市。
+  people: []
+  works: []
+  links: []
+- id: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience#4
+  post: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience
+  segment: 4
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦首家常设咖啡馆开在哪里？
+  zh: 宝可梦首家常设型咖啡馆“宝可梦咖啡馆”于2018年在宝可梦中心创业之地东京日本桥开店，次年又进军大阪。开业以来，众多人前往光顾。
+  ja: ポケモン初の常設型カフェ店舗「ポケモンカフェ」は、2018年にポケモンセンター創業の地、東京・日本橋に出店し、翌年には大阪にも進出しました。オープン以降、多くの人たちが足を運んでいます。
+  lang: ja
+  year: 2025
+  date: '2025-03-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 34：宝可梦咖啡馆负责人谈体验价值
+  score: 4
+  why: 交代宝可梦咖啡馆的起点：2018年在宝可梦中心创业之地东京日本桥开店，次年进军大阪。
+  more: 同一篇里提到与株式会社SLD共同开发菜单。
+  people: []
+  works: []
+  links: []
+- id: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience#11
+  post: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience
+  segment: 11
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：去了就一定能见到皮卡丘的地方很少见
+  zh: 负责人说：“去了就一定能见到皮卡丘的地方，其实相当少见。无论是宝可梦的相关举措，还是一般的角色咖啡馆，每次都能必定见到都很少见，这可以说是‘宝可梦咖啡馆’最大的魅力。”
+  ja: 「行けば必ずピカチュウに会える場所って、実はなかなかないんです。ポケモンの取り組みにおいても、また一般的なキャラクターカフェにおいても、毎回必ず会えるのは珍しく、『ポケモンカフェ』最大の魅力とも言えます」と担当者は話します。
+  lang: ja
+  year: 2025
+  date: '2025-03-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 34：宝可梦咖啡馆负责人谈体验价值
+  score: 4
+  why: 把「必定能见到皮卡丘」说成宝可梦咖啡馆最大的魅力，是反常识的运营判断。
+  more: 同篇提到皮卡丘问候时间中会随机出现1只穿厨师、服务员、糕点师服装的皮卡丘。
+  people: []
+  works: []
+  links: []
+- id: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience#21
+  post: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience
+  segment: 21
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦拿铁能选多少种宝可梦拉花？
+  zh: 在可以画出喜欢的宝可梦拉花图案的「可选宝可梦拿铁」中，目前竟然可以从818种宝可梦当中挑选。我们以轻度粉丝到核心粉丝都能乐在其中的阵容为目标，今后也将随时增加种类。
+  ja: 好きなポケモンをラテアートで描く「選べるポケモンラテ」では、現時点でなんと818種類のポケモンから選ぶことができます。ライトなファンから、コアなファンまで、誰もが楽しめるようなラインアップをめざし、今後も随時種類を増やしていく予定です。
+  lang: ja
+  year: 2025
+  date: '2025-03-28'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 34：宝可梦咖啡馆负责人谈体验价值
+  score: 5
+  why: 给出具体数字：可选宝可梦拿铁目前可从818种宝可梦中挑选，并计划继续增加。
+  more: 同篇提到以伊布为主题的拌饭、米立龙押寿司等特别菜单。
+  people: []
+  works: []
+  links: []
+- id: 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support#5
+  post: 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support
+  segment: 5
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦·与你财团：由志愿员工灾区支援组织设立
+  zh: 负责支援的是2021年设立的宝可梦·与你财团。该财团以株式会社宝可梦的志愿员工组建的东日本大地震灾区支援组织为中心设立。
+  ja: 支援を担当するのは、2021年に設立されたポケモン・ウィズ・ユー財団です。この財団は、株式会社ポケモンの有志社員がつくった東日本大震災の被災地支援組織を中心に設立されました。
+  lang: ja
+  year: 2025
+  date: '2025-04-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 35：宝可梦儿童食堂应援活动负责人谈居所建设
+  score: 4
+  why: 说明负责儿童食堂支援的财团并非新设部门，而是从东日本大地震灾区支援组织发展而来，交代了组织背景。
+  more: 同一篇提到该财团2021年设立，与儿童食堂应援活动同年启动。
+  people: []
+  works: []
+  note: 宝可梦·与你财团（ポケモン・ウィズ・ユー財団）是宝可梦公司设立的公益财团，承接原志愿者组织的灾区支援工作。
+  links: []
+- id: 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support#7
+  post: 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support
+  segment: 7
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：儿童食堂实际是孩子们的居所
+  zh: “儿童食堂容易被认为只是为因贫困等原因的孩子们免费提供餐食的场所。但实际走访后发现，孩子们在那里享受交谈、一起玩耍、做作业。我意识到它发挥着孩子们‘居所’的功能。”
+  ja: 「こども食堂は、貧困などの事情がある子どもたちに、無料で食事を提供するだけの場所というイメージを持たれがちです。しかし実際に足を運んでみると、会話を楽しんだり、いっしょに遊んだり、宿題をしたり。子どもたちの“居場所”として機能していることに気づかされました」
+  lang: ja
+  year: 2025
+  date: '2025-04-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 35：宝可梦儿童食堂应援活动负责人谈居所建设
+  score: 4
+  why: 负责人通过实地走访发现儿童食堂不只是免费供餐场所，还承担交谈、玩耍、做作业等居所功能，是活动定位的关键判断。
+  more: 后文提到消除人们觉得不太容易迈进去的印象，是活动的两个目标之一。
+  people: []
+  works: []
+  links: []
+- id: 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support#22
+  post: 2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support
+  segment: 22
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：其他公司来问自己能否做些什么
+  zh: 负责人微笑着说：“对我们活动感兴趣的其他公司的人，越来越多地来找我们商量‘我们自己是否也能做些什么？’。这似乎成为了让大家了解物资提供以外的贡献的契机。今后，如果各种支援形式能不断涌现就好了。”
+  ja: 「私たちの活動に興味を持った他社の人たちから、“自分たちにも何かできることはないか？”と相談を持ちかけられることが増えてきました。物資の提供以外の貢献を知っていただくきっかけになったようです。これからも、それぞれの支援の形が生まれていくといいですよね」と担当者はほほえみます。
+  lang: ja
+  year: 2025
+  date: '2025-04-18'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 35：宝可梦儿童食堂应援活动负责人谈居所建设
+  score: 4
+  why: 儿童食堂应援活动进入第5年，其他企业开始主动咨询，说明宝可梦的参与带动了物资提供以外的支援形式。
+  more: 前一句提到活动反响波及到其他企业，可对照阅读。
+  people: []
+  works: []
+  links: []
+- id: 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification#6
+  post: 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification
+  segment: 6
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：当时能轻松玩宝可卡的地方还很少
+  zh: 资格制度与考试始于2015年。负责人回顾道：“当时玩家之间能聚集的场所很有限，能轻松玩宝可卡的地方还很少，我们感到这是一个课题。”
+  ja: 資格制度・試験がスタートしたのは2015年。担当者は「当時はプレイヤー同士が集まる場所が限られ、ポケカを気軽に遊べる場がまだまだ少なかったことに課題を感じていた」と振り返ります。
+  lang: ja
+  year: 2025
+  date: '2025-05-12'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 36：宝可卡官方资格制度访谈
+  score: 4
+  why: 官方资格制度与考试始于2015年，起点是当时玩家聚集场所有限的课题。
+  more: 第7、8句提到欧美玩家自发办活动的文化，以及日本引入类似机制的想法。
+  people: []
+  works: []
+  links: []
+- id: 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification#14
+  post: 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：考资格的人里意外地以父母辈居多
+  zh: 据说以取得资格为目标的人中，意外地以父母辈居多。“有人原本和孩子一起玩宝可梦卡牌，但随着孩子长大，只有孩子渐渐离开了，父母便觉得自己的技术无处施展。于是他们想着‘这次想教教当地的孩子们’，就去考取资格。感觉就像少年棒球的教练一样。”（负责人）
+  ja: 資格取得をめざす人は、意外にも親世代が多いそうです。「子どもとポケカで遊んでいたけれど、成長するにつれて子どもだけが離れてしまい、スキルを持て余している親御さんがいるんです。それで“今度は地域の子どもたちに教えてあげたい”と資格を取る。少年野球のコーチみたいな感じですね」（担当者）
+  lang: ja
+  year: 2025
+  date: '2025-05-12'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 36：宝可卡官方资格制度访谈
+  score: 4
+  why: 说明取得资格的人群构成，以及他们从亲子对战转向教当地孩子的心态。
+  more: 第15句提到还有人因为附近没有可参加的活动而想自己创造游玩场所。
+  people: []
+  works: []
+  links: []
+- id: 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification#19
+  post: 2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification
+  segment: 19
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 2024年城市联赛全国举办2000次以上，超1万名评定参与
+  zh: 官方评定活跃的领域，从小规模大会到全国大会，范围广泛。在各地举办的官方大会“城市联赛”中，4～5名评定相互协作，支持大会的进行。2024年，此类活动在全国举办了2000次以上，累计超过1万名官方评定参与工作。
+  ja: 公認ジャッジが活動するフィールドは、小規模な大会から全国大会までさまざま。各地域での公式大会「シティリーグ」では、4～5人のジャッジが連携して大会の進行をサポートします。2024年には、こうしたイベントが全国で2000回以上開催され、のべ1万人を超える公認ジャッジが稼働しました。
+  lang: ja
+  year: 2025
+  date: '2025-05-12'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 36：宝可卡官方资格制度访谈
+  score: 5
+  why: 用具体数字说明官方评定在城市联赛中的规模与协作方式。
+  more: 第20句提到冠军联赛每届有200名以上官方评定支撑运营。
+  people: []
+  works: []
+  links: []
+- id: 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video#18
+  post: 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video
+  segment: 18
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦：视频制作最重视的是「不说谎」
+  zh: 在视频制作中最重视的是「不说谎」。例如，MRI检查时的声音，没有掩盖大音量，而是原样收录。此外，用360度相机真实拍摄了实际检查的情形，视线高度也配合孩子的身高。
+  ja: 動画制作においてもっとも重視したのは「嘘を付かない」です。たとえば、MRI検査時の音は、大きな音量をごまかさずそのまま収録しています。また、実際の検査の様子を360度カメラでリアルに撮影し、目線は子どもの身長に合わせました。
+  lang: ja
+  year: 2025
+  date: '2025-06-02'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 37：与佳能医疗系统共制儿童MRI检查说明视频
+  score: 5
+  why: 说明视频刻意不掩盖MRI的大音量，用360度相机实拍、视线高度配合孩子身高，是反常识的制作判断。
+  more: 第19句解释了原因：孩子一旦觉得「和说明视频里不一样」，就再也不会接受检查。
+  people: []
+  works: []
+  links: []
+- id: 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video#23
+  post: 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 卡比兽、树才怪、小磁怪为何出现在MRI视频里
+  zh: 在传达「不要动哦」的场景中，选用了瞌睡宝可梦卡比兽，以及总是装成树一动不动、模仿宝可梦的树才怪。此外，在介绍不能带入利用磁场的MRI检查室的东西时，磁铁宝可梦小磁怪登场了。
+  ja: 「うごかないでね」と伝える場面では、いねむりポケモンのカビゴンや、いつも木のふりをして動かないまねポケモンのウソッキーを選定。また、磁場を利用するMRI検査室に持ち込めないものを紹介する際は、じしゃくポケモンのコイルが登場しています。
+  lang: ja
+  year: 2025
+  date: '2025-06-02'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 37：与佳能医疗系统共制儿童MRI检查说明视频
+  score: 4
+  why: 具体说明了宝可梦选角逻辑：用瞌睡宝可梦卡比兽和装成树不动的树才怪传达「不要动」，用磁铁宝可梦小磁怪介绍不能带入检查室的东西。
+  more: 第24句补充：皮卡丘惊讶的表情用来传达MRI的巨大声响。
+  people: []
+  works: []
+  links: []
+- id: 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video#33
+  post: 2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video
+  segment: 33
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 不用镇静剂后，孩子说「我要自己努力接受检查」
+  zh: 注射镇静剂后，孩子们会在睡眠中完成检查，因此容易对治疗采取被动的态度。然而，当能够不使用镇静剂接受检查时，孩子们似乎就能带着“我要自己努力接受检查！”这样积极的意愿来面对治疗。
+  ja: 鎮静剤を打つと寝ているうちに検査が終わるため、子どもたちは治療に対して受け身の姿勢になってしまいがちです。しかし、鎮静剤なしで検査を受けられるようになると「自分で頑張って検査を受けるんだ！」といった前向きな意欲を持って治療に臨めるようになるそうです。
+  lang: ja
+  year: 2025
+  date: '2025-06-02'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 37：与佳能医疗系统共制儿童MRI检查说明视频
+  score: 4
+  why: 对比了注射镇静剂时孩子被动接受检查、不用镇静剂时转为积极意愿的变化，是视频效果的具体反馈。
+  more: 第31句提到无需使用镇静剂就能完成MRI检查的案例逐渐增多。
+  people: []
+  works: []
+  links: []
+- id: 2025-06-13-corporate-topic-38-pokemon-parks-community-playground#18
+  post: 2025-06-13-corporate-topic-38-pokemon-parks-community-playground
+  segment: 18
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：獠牙爪子尖刺，磨圆或藏起来
+  zh: 在宝可梦中，有不少拥有獠牙、爪子、尖刺等作为游乐设施可能带来危险的部分。理想情况下是尽可能原样表现，但优先考虑安全，通过将尖端磨圆、调整姿势来隐藏这些部分等方式反复下功夫。
+  ja: ポケモンのなかには、キバやツメ、トゲなど、遊具として危険になりうるパーツを持つものも少なくありません。なるべくそのまま表現するのが理想でありつつも、 安全面を優先し、先端を丸めたり、ポージングを調整してパーツを隠したりなど工夫を重ねています。
+  lang: ja
+  year: 2025
+  date: '2025-06-13'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 38：负责人谈宝可梦公园的设计与安全
+  score: 5
+  why: 揭示宝可梦公园游乐设施在还原设计与安全之间的取舍，是具体的设计决定。
+  more: 同一篇提到与株式会社寿合作推进游乐设施制作。
+  people: []
+  works: []
+  links: []
+- id: 2025-06-13-corporate-topic-38-pokemon-parks-community-playground#20
+  post: 2025-06-13-corporate-topic-38-pokemon-parks-community-playground
+  segment: 20
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：在公园受伤留下悲伤回忆就本末倒置
+  zh: “在公共设施中，而且是建造孩子们日常游玩的公园，会产生巨大的责任。如果在公园受伤而留下悲伤的回忆，那就本末倒置了。所以首先最优先考虑的是把它变成安心安全的地方。”
+  ja: 「公共施設で、かつ子どもたちが日常的に遊ぶ公園をつくることには、大きな責任が発生します。公園でケガをして悲しい思い出になってしまったら、本末転倒ですから。まず何よりも、安心安全な場所にすることを第一に考えました」
+  lang: ja
+  year: 2025
+  date: '2025-06-13'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 38：负责人谈宝可梦公园的设计与安全
+  score: 4
+  why: 说明公共设施与孩子日常游玩场所带来的责任，安全被放在最优先位置。
+  more: 同一篇提到与株式会社寿合作，兼顾宝可梦设计与安全性。
+  people: []
+  works: []
+  links: []
+- id: 2025-06-13-corporate-topic-38-pokemon-parks-community-playground#22
+  post: 2025-06-13-corporate-topic-38-pokemon-parks-community-playground
+  segment: 22
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦公园现在有几处？
+  zh: 目前，宝可梦公园共有8处：福岛县“吉利蛋公园”4处、香川县“呆呆兽公园”1处、鸟取县“穿山鼠公园”1处、岩手县“小拳石公园”2处。2025年7月，三重县预计将开放2处“水水獭公园”。
+  ja: 現在、ポケモン公園は福島県「ラッキー公園」4か所、香川県「ヤドン公園」1か所、鳥取県「サンド公園」1か所、岩手県「イシツブテ公園」2か所の計8か所。2025年7月には、三重県に「ミジュマル公園」が2か所オープン予定です。
+  lang: ja
+  year: 2025
+  date: '2025-06-13'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 38：负责人谈宝可梦公园的设计与安全
+  score: 5
+  why: 给出截至报道时的公园数量与分布，并预告2025年7月三重县将开放2处水水獭公园。
+  more: 前文提到各地公园以「推宝可梦」为主题设计，如福岛县吉利蛋公园。
+  people: []
+  works: []
+  links: []
+- id: 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte#7
+  post: 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte
+  segment: 7
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 韩国宝可梦小镇的契机是2023年横滨WCS
+  zh: 在韩国诞生大规模宝可梦活动的契机，是2023年在横滨港未来举办的宝可梦对战世界大赛“宝可梦世界锦标赛”（以下简称WCS）。
+  ja: 韓国で大規模なポケモンイベントが誕生したきっかけは、 2023年に横浜・みなとみらいで開催されたポケモンバトルの世界大会「ポケモンワールドチャンピオンシップス」（以下、WCS）でした。
+  lang: ja
+  year: 2025
+  date: '2025-07-25'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 40：宝可梦韩国谈首尔宝可梦小镇 with 乐天
+  score: 5
+  why: 首次披露韩国大规模活动的起点，是2023年横滨港未来的宝可梦世界锦标赛。
+  more: 第8句提到乐天集团负责人受邀视察横滨WCS。
+  people: []
+  works: []
+  links: []
+- id: 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte#14
+  post: 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte
+  segment: 14
+  speaker: null
+  reported: true
+  kind: question
+  hook: 为什么第二届宝可梦小镇主角是百变怪？
+  zh: 第二年，即2025年的第二届宝可梦小镇，主角是变身宝可梦百变怪。宝可梦韩国的负责人表示：“在韩国，不少人有着‘提到宝可梦就是皮卡丘’的印象。怎样才能让更多韩国人了解更多的宝可梦呢？经过反复讨论，我们决定启用能够变身成各种样子的百变怪。”
+  ja: その翌年、2025年の第2回ポケモンタウンは、へんしんポケモンのメタモンが主人公です。「韓国では『ポケモンといえばピカチュウ』といった印象を持つ人たちが少なくありません。もっとたくさんのポケモンを韓国のみなさんに知ってもらうにはどうすればいいのだろうか。検討を重ねた結果、 さまざまな姿に変身できるメタモンを起用することに決めました」とポケモンコリアの担当者は話します。
+  lang: ja
+  year: 2025
+  date: '2025-07-25'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 40：宝可梦韩国谈首尔宝可梦小镇 with 乐天
+  score: 5
+  why: 宝可梦韩国负责人解释，为打破“提到宝可梦就是皮卡丘”的印象而启用百变怪。
+  more: 第16句提到百变怪因羡慕去年皮卡丘和拉普拉斯的欢迎氛围而跑来玩。
+  people: []
+  works: []
+  links: []
+- id: 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte#23
+  post: 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 2025年宝可梦小镇总来场人数超500万
+  zh: 今年的宝可梦小镇举办了约3周时间。期间的总来场人数最终达到了500万人以上。无论是否了解宝可梦，会场里都有着各个世代的笑容。
+  ja: 約3週間にわたって開かれた今年のポケモンタウン。期間中の総来場者数は、最終的に500万人以上にのぼります。 ポケモンを知っている・知らないにかかわらず、会場にはあらゆる世代の笑顔がありました。
+  lang: ja
+  year: 2025
+  date: '2025-07-25'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 40：宝可梦韩国谈首尔宝可梦小镇 with 乐天
+  score: 5
+  why: 给出第二届活动的具体规模和时长，约3周内达到500万人以上。
+  more: 第13句提到2024年首届约3周来场人数超过400万人。
+  people: []
+  works: []
+  links: []
+- id: 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book#17
+  post: 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book
+  segment: 17
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 米原：整理图鉴花了两年，表格超7500行
+  zh: 这项工作花费了约两年时间。电子表格的项目超过了7500行。而在整理完这庞大数据的下一步，便是从行为生态学的视角重新构建信息。
+  ja: この作業に要した時間は約2年。スプレッドシートの項目は7500行を超えました。そして、この膨大なデータ整理の次に取りかかったのが、行動生態学の視点による情報の再構成です。
+  lang: ja
+  year: 2025
+  date: '2025-08-12'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 41：行动生态学解读宝可梦生态图鉴——米原善成与きのしたちひろ访谈
+  score: 5
+  why: 用具体数字说明《宝可梦生态图鉴》的数据整理工作量，是项目从图鉴文字到行为生态学重构的关键一步。
+  more: 同一访谈提到，米原善成将每只宝可梦的图鉴信息写入电子表格并打标签，再按行为生态学视角重新构建。
+  people: []
+  works: []
+  links: []
+- id: 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book#28
+  post: 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book
+  segment: 28
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 米原：没要求，きのした自然画出啄木鸟姿势
+  zh: “啄树的小笃儿被画成尾羽抵住树干、稳稳撑住身体的姿势。这也是我们世界的啄木鸟身上可见的行为。我并没有要求到这种程度，但对方自然而然地就画成了这样。我当时觉得，原来如此！”
+  ja: 「木をつつくツツケラが、尾羽を木に当ててふんばったような姿勢で描かれています。これは私たちの世界のキツツキ類にも見られる行動です。私がそこまでお願いしたわけではないのですが、自然とそういうふうに描いてくださったんです。なるほど！と思いましたね」
+  lang: ja
+  year: 2025
+  date: '2025-08-12'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 41：行动生态学解读宝可梦生态图鉴——米原善成与きのしたちひろ访谈
+  score: 4
+  why: 具体展示插画师きのしたちひろ如何用行为生态学知识补充图鉴文字不会描绘的细节。
+  more: 前文提到小笃儿在树上凿洞储存食物的场景，以及きのした与米原同为行为生态学专家。
+  people: []
+  works: []
+  links: []
+- id: 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book#30
+  post: 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 卡璞・哞哞背景里画了同样用声音主张领地的宝可梦
+  zh: 此外，不仅刊登图鉴信息的主要宝可梦，背景中登场的宝可梦的配置也蕴含了意义。举一个例子，在通过声音主张领地的宝可梦卡璞・哞哞的背景中，画着同样会发出声音来主张领地的宝可梦们。
+  ja: さらに、図鑑情報を掲載したメインのポケモンだけでなく、背景に登場するポケモンの配置にも意味を込めました。一例を挙げると、音でなわばりを主張するポケモン、カプ・ブルルの背景には、同じように音を発してなわばりを主張するポケモンたちが描かれています。
+  lang: ja
+  year: 2025
+  date: '2025-08-12'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 41：行动生态学解读宝可梦生态图鉴——米原善成与きのしたちひろ访谈
+  score: 4
+  why: 说明书中背景宝可梦的配置并非随意，而是按生态行为逻辑安排，体现行为生态学视角。
+  more: 同一访谈提到，书中按“地盘的宣示”“对入侵者的警告”等阶段重新归纳宝可梦行为。
+  people: []
+  works: []
+  links: []
+- id: 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin#15
+  post: 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin
+  segment: 15
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 台湾自1998年起一直播放与日本相同的片头主题曲
+  zh: 自1998年起播出动画系列的台湾，此前一直播放与日本相同的片头主题曲。负责人如此回顾切换为原创主题曲一事。
+  ja: 1998年からアニメシリーズを放送している台湾では、これまで日本と同じオープニングテーマを流していました。担当者は、オリジナル主題歌への切り替えをこう振り返ります。
+  lang: ja
+  year: 2025
+  date: '2025-08-20'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 42：台湾原创主题曲与动画本地化
+  score: 5
+  why: 首次披露台湾自1998年播出动画以来长期沿用日本片头曲，直到2025年才切换为原创主题曲，是本地化策略转变的关键节点。
+  more: 同一篇提到2025年5月开播的新篇章由当地艺人担任主题曲，可对照阅读。
+  people: []
+  works: []
+  links: []
+- id: 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin#17
+  post: 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin
+  segment: 17
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 新片头曲委托林宥嘉制作，他是公开的超级宝可梦粉丝
+  zh: 新的片头主题曲委托歌手林宥嘉制作。他是公开表示与孩子一起都是“超级宝可梦粉丝”的台湾人气艺人。
+  ja: 新しいオープニングテーマは、シンガーの林宥嘉（リン・ヨウジャ）さんに制作を依頼しました。お子さんと一緒に「大のポケモンファン」を公言する台湾の人気アーティストです。
+  lang: ja
+  year: 2025
+  date: '2025-08-20'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 42：台湾原创主题曲与动画本地化
+  score: 4
+  why: 具体点出台湾原创主题曲的演唱者与委托背景，林宥嘉的粉丝身份是选择他的直接理由。
+  more: 林宥嘉完成的主题曲名为《捉梦大师》，见同一篇第19句。
+  people: []
+  works: []
+  note: 林宥嘉是台湾歌手，曾获金曲奖。
+  links: []
+- id: 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin#20
+  post: 2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin
+  segment: 20
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 为匹配新曲，替换影像、更改字幕显示时机
+  zh: 动画的基础与日本相同，但为了与新乐曲完美匹配，配合歌词替换影像、更改字幕显示时机等，进行了细致的调整。
+  ja: アニメーションのベースは日本と同じですが、新たな楽曲にぴったりとマッチするよう、歌詞に合わせて映像を差し替えたり、クレジット表示のタイミングを変更したりと、細かな調整を重ねています。
+  lang: ja
+  year: 2025
+  date: '2025-08-20'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 42：台湾原创主题曲与动画本地化
+  score: 4
+  why: 说明本地化不只是换歌，还涉及画面与字幕的细致调整，呈现制作层面的具体操作。
+  more: 可结合第9、10句关于名字发音与选角指导的本地化方针一起看。
+  people: []
+  works: []
+  links: []
+- id: 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history#11
+  post: 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history
+  segment: 11
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦发烧友俱乐部最盛期有多少会员？
+  zh: 最盛时期的会员数超过300万人。俱乐部开展了原创迷你游戏的发布、与宝可梦电子游戏的联动企划等，面向宝可梦粉丝孩子们的诸多活动。
+  ja: 最盛期の会員数は300万人以上。オリジナルミニゲームの配信や、ポケモンのビデオゲームとの連動企画など、ポケモンファンの子どもたちに向けた数々の取り組みを行っていました。
+  lang: ja
+  year: 2025
+  date: '2025-11-07'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 44：宝可梦发烧友俱乐部20年与当地活动
+  score: 5
+  why: 给出具体数字超过300万人，说明这个官方粉丝社群曾经的规模。
+  more: 同一篇提到它最初是购买商品积攒积分的网站。
+  people: []
+  works: []
+  links: []
+- id: 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history#23
+  post: 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 2012年发烧友俱乐部废除封闭会员制
+  zh: 此后时光流转，时代从一家一台电脑，转变为一人一台智能手机普及的时代。顺应这一潮流，2012年发烧友俱乐部对网站进行了大幅改版。废除了封闭的会员制，焕新为任何人都能访问的开放网站。
+  ja: それから時は過ぎ、一家に一台のパソコンから、一人に一台のスマートフォンが広まる時代へと移り変わります。この流れに沿って2012年、だいすきクラブはサイトを大幅リニューアル。クローズドな会員制を廃止し、誰でもアクセスできるオープンサイトに一新しました。
+  lang: ja
+  year: 2025
+  date: '2025-11-07'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 44：宝可梦发烧友俱乐部20年与当地活动
+  score: 4
+  why: 记录一次重大改版：从会员制转向任何人都能访问的开放网站。
+  more: 2014年它又重生为传达每一只宝可梦魅力的网站。
+  people: []
+  works: []
+  links: []
+- id: 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history#30
+  post: 2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：因为「乌冬面」和「呆呆兽」发音相似
+  zh: 因为“乌冬面”和“呆呆兽”发音相似，我们与香川县的负责人之间萌生了合作的想法。于是2015年，一篇题为“呆呆兽800只脱逃”的愚人节报纸报道诞生了。
+  ja: 「『うどん』と『ヤドン』の音が似ている」という理由から、香川県の担当者との間でコラボの話が立ち上がりました。そうして2015年に誕生したのが、「ヤドン800匹脱走」のエイプリルフールの新聞記事です。
+  lang: ja
+  year: 2025
+  date: '2025-11-07'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 44：宝可梦发烧友俱乐部20年与当地活动
+  score: 5
+  why: 揭示当地活动起点：香川县合作源于发音巧合，并催生2015年愚人节报纸报道。
+  more: 同一篇还提到2018年「呆呆兽天堂 in 香川」与「乌冬县宣传队」。
+  people: []
+  works: []
+  links:
+  - type: term
+    name: 呆呆兽
+- id: 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii#16
+  post: 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii
+  segment: 16
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 森井ユカ：百变怪自2005年做了8只以来就再没做过
+  zh: 株式会社宝可梦以与以往大不相同的企划找到了森井先生。他这样谈了自己的感想：“我非常高兴。百变怪自2005年为宝可梦卡牌制作了8只以来，就再没做过。说来也怪，立体造型一旦做过，手就会记住。我几乎是像昨天才做过一样的感觉推进制作的。”
+  ja: 株式会社ポケモンから、今までとは大きく異なる企画で声がかかった森井さん。その感想を次のように話してくれました。「とても嬉しかったです。メタモンは2005年に、ポケモンカード用を8体つくって以来でした。不思議なもので、立体は一度つくると手が覚えているものです。まるで昨日ぶりにつくったかのような感覚で製作を進めることができました」
+  lang: ja
+  year: 2025
+  date: '2025-11-26'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 45：百变怪杯与森井ユカ谈变身
+  score: 5
+  why: 披露森井ユカ上一次制作百变怪立体造型是2005年、共8只，说明这次合作对他而言是时隔多年的回归。
+  more: 同一句里他还说“立体造型一旦做过，手就会记住”，可与第13、17条中他长年参与宝可梦卡牌美术的背景对读。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: 宝可梦卡牌
+- id: 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii#24
+  post: 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii
+  segment: 24
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 百变怪杯2025年5月发售后反响超出预想
+  zh: 百变怪杯于2025年5月发售后，在社交网络上引起了超出预想的巨大反响。经典的胖丁、果冻自不必说，还有人把米饭做成百变怪的形状，或用杯子冻冰块放在素面上……正如森井先生所愿，超越我们想象的用法接连被投稿出来。
+  ja: メタモンカップが2025年5月に発売されると、SNSでは想定以上の大きな反響がありました。定番のプリンやゼリーはもちろん、ごはんをメタモンの形にしたり、カップで氷をつくってそうめんに乗せたり……森井さんの願いどおり、私たちの想像を超える使い方が次々と投稿されたのです。
+  lang: ja
+  year: 2025
+  date: '2025-11-26'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 45：百变怪杯与森井ユカ谈变身
+  score: 4
+  why: 给出百变怪杯的发售时间与社交网络反响，并列出米饭、冰块等用户自创用法。
+  more: 可与第25条负责人对“能变成任何东西”概念被用户扩展的感想连读。
+  people: []
+  works: []
+  links: []
+- id: 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii#30
+  post: 2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：授权商品是创造与非宝可梦粉丝接触点的角色
+  zh: “当授权商品出现在超市、杂货店等日常场景中，就会为不了解宝可梦的人创造产生兴趣的契机。我们认为，新粉丝由此诞生，将与我们让宝可梦成为延续数百年存在的宏大目标相连。”
+  ja: 「スーパーマーケットや雑貨店といった日常の中にライセンス商品が存在することで、ポケモンを知らない人にも興味を持ってもらうきっかけが生まれます。こうして新たなファンが生まれることが、ポケモンを数百年続く存在にするという、私たちの大きな目標につながっていくと考えています」
+  lang: ja
+  year: 2025
+  date: '2025-11-26'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 45：百变怪杯与森井ユカ谈变身
+  score: 4
+  why: 说明授权商品被赋予的定位——在超市、杂货店等日常场景中为不了解宝可梦的人创造兴趣契机。
+  more: 与第28条“有趣还是无趣”“能否拓展宝可梦的魅力”的判断标准相呼应。
+  people: []
+  works: []
+  links: []
+- id: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy#9
+  post: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy
+  segment: 9
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦中心把「破坏光线」单独做成一整个周边系列
+  zh: 由此诞生的企划之一，就是2023年11月发售的“破坏光线”。破坏光线是宝可梦使出的强力招式。我们聚焦于这一个招式，从服饰周边到模型手办，开发了各种各样的商品。
+  ja: そうして生まれた企画のひとつが、2023年11月に発売した「はかいこうせん」です。はかいこうせんとは、ポケモンが繰り出す強力なわざのこと。そのわざひとつにフィーチャーして、アパレルグッズからフィギュアまでさまざまな商品を開発しました。
+  lang: ja
+  year: 2025
+  date: '2025-12-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 46：宝可梦中心原创周边开发访谈
+  score: 4
+  why: 聚焦单一招式而非宝可梦本身，是原创周边企划思路的具体案例，2023年11月发售。
+  more: 同一企划里还加入了肯泰罗，见第16、17句。
+  people: []
+  works: []
+  links: []
+- id: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy#16
+  post: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy
+  segment: 16
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 破坏光线周边里为什么有肯泰罗
+  zh: 在周边商品中登场的宝可梦选择上，也处处体现了面向宝可梦粉丝的讲究。其中之一就是暴牛宝可梦肯泰罗。使用名为“招式学习器”的道具让肯泰罗学会“破坏光线”，是攻略宝可梦对战时鲜为人知的技巧。
+  ja: グッズに登場するポケモンの選定にも、ポケモンファンに向けたこだわりを散りばめています。そのひとつが、あばれうしポケモンのケンタロス。「わざマシン」というアイテムを使ってケンタロスに「はかいこうせん」を覚えさせるのは、ポケモンバトルを攻略するための知る人ぞ知るテクニックです。
+  lang: ja
+  year: 2025
+  date: '2025-12-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 46：宝可梦中心原创周边开发访谈
+  score: 5
+  why: 用招式学习器让肯泰罗学会破坏光线是鲜为人知的对战技巧，选它体现了面向老玩家的讲究。
+  more: 企划负责人说「如果有人能注意到就好了」，见第17句。
+  people: []
+  works: []
+  links: []
+- id: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy#21
+  post: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy
+  segment: 21
+  speaker: null
+  reported: true
+  kind: quote
+  hook: OTENKI TEAM的T恤印花遇紫外线会变色
+  zh: 负责人表示：“我们重视的是如何用现实世界的商品来表现游戏中的事件。”例如，T恤的印花采用了遇紫外线会变色的特殊加工。这是为了再现宝可梦对战中天气放晴的“大晴天”使宝可梦能力发生变化的样子。
+  ja: 「ゲーム中での出来事を、いかに現実世界の商品で表現するかを重視した」と担当者は語ります。たとえば、Tシャツのプリントには、紫外線に当たると色が変わる特殊な加工を採用。これは、ポケモンバトル中に天気が晴れる「にほんばれ」でポケモンの能力が変化する様子を再現する試みでした。
+  lang: ja
+  year: 2025
+  date: '2025-12-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 46：宝可梦中心原创周边开发访谈
+  score: 4
+  why: 用现实商品的变色加工再现对战中「大晴天」改变宝可梦能力，是虚拟体验落到实物的具体做法。
+  more: 该系列2025年6月发售，聚焦天气相关特性与招式，见第19句。
+  people: []
+  works: []
+  links: []
+- id: 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy#21
+  post: 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy
+  segment: 21
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 科斯莫古：气状身体到索尔迦雷欧，正与恒星一生重合
+  zh: 为了说明这种“恒星演化”而被选中的，是“星云宝可梦”科斯莫古。拥有气状身体的科斯莫古，会变为被坚硬外壳包裹的科斯莫姆，再变为释放光芒的索尔迦雷欧或吸收光芒的露奈雅拉。其变化过程，正与恒星的一生相重合。
+  ja: この「恒星の進化」を説明するために抜擢されたのが、「せいうんポケモン」のコスモッグです。ガス状の体を持つコスモッグが、硬いからに包まれているコスモウム、そして光を放つソルガレオや光を吸収するルナアーラへと姿を変えていく。その様子は、まさに星の一生と重なります。
+  lang: ja
+  year: 2026
+  date: '2026-01-23'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 47：宝可梦天文台企划访谈——以宝可梦传递宇宙与科学的趣味
+  score: 5
+  why: 具体说明如何用宝可梦的进化链对应恒星演化，是展览核心展示的实例。
+  more: 同篇第20行提到恒星演化与宝可梦“进化”的相似性。
+  people: []
+  works: []
+  links: []
+- id: 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy#24
+  post: 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy
+  segment: 24
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 彷徨夜灵：红色单眼、条纹绷带、内部空洞，就是木星
+  zh: “能很好表现木星特征的宝可梦，我们一时也想不到，只好一边翻宝可梦图鉴一边拼命寻找。最终找到的，是幽灵属性的彷徨夜灵。它有红色的单眼，身体是条纹状的绷带，而且内部还是空洞的。找到的瞬间，我们不禁兴奋地喊出‘就是它！’”
+  ja: 「木星の特徴をうまく表現できるポケモンは、私たちでもすぐには思い浮かばず、ポケモン図鑑をめくりながら必死に探しました。そして、ようやくたどり着いたのがゴーストタイプのサマヨールです。赤い一つ目があり、体は縞模様の包帯、おまけに中身も空洞。見つけた瞬間、思わず『これだ！』と盛り上がりました」
+  lang: ja
+  year: 2026
+  date: '2026-01-23'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 47：宝可梦天文台企划访谈——以宝可梦传递宇宙与科学的趣味
+  score: 5
+  why: 记录团队翻图鉴找到木星对应宝可梦的过程，展示天文学与宝可梦的意外组合。
+  more: 同篇第23行提到木星与彷徨夜灵的展示。
+  people: []
+  works: []
+  links: []
+- id: 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy#28
+  post: 2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy
+  segment: 28
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 问答全对获“特任研究员认定证”，让观众主动学习
+  zh: 怎样才能不只是观看展示，而是让人们主动学习呢？于是这次我们向所有到场者分发了问答卷。还准备了这样的机制：如果问答全部答对，就能获得认定其为宝可梦天文台研究员的“特任研究员认定证”。
+  ja: ただ展示を眺めるだけでなく、能動的に学んでもらうにはどうすればよいか。そこで今回は、来場者全員にクイズシートを配布しました。クイズに全問正解すると、ポケモン天文台の研究員として認定する「特任研究員認定証」がもらえる仕組みも用意しています。
+  lang: ja
+  year: 2026
+  date: '2026-01-23'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 47：宝可梦天文台企划访谈——以宝可梦传递宇宙与科学的趣味
+  score: 5
+  why: 具体机制设计，用问答卷和认定证激励到场者阅读展示，而非被动观看。
+  more: 同篇第30行提到家长反馈问答让孩子看得入迷。
+  people: []
+  works: []
+  links: []
+- id: 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab#18
+  post: 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab
+  segment: 18
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 《宝可梦朋友》根据解答速度和成长程度自动调整难度
+  zh: 此外，《宝可梦朋友》采用了根据用户的解答速度和成长程度自动改变问题难度的机制，让任何人都容易挑战。由此，无论孩子还是大人，都能在感受到解题手感的同时沉浸其中。
+  ja: さらに、『ポケモンフレンズ』では、ユーザーの解答スピードや成長度に合わせて問題の難易度を自動的に変え、誰でも挑戦しやすい仕組みを採用しました。これによって、 子どもも大人も、問題に取り組む手応えを感じながら夢中になれるようにしています。
+  lang: ja
+  year: 2026
+  date: '2026-02-06'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 48：《Pokémon Friends》开发负责人谈用灵感问题养成思考习惯
+  score: 4
+  why: 说明游戏采用动态难度机制，让不同年龄用户都能挑战。
+  more: 开发负责人提到和监护人或是兄弟姐妹一起玩时，年龄小的孩子有时反而能凭直觉解得很快。
+  people: []
+  works: []
+  links: []
+- id: 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab#25
+  post: 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab
+  segment: 25
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 《宝可梦朋友》上线1个月下载量突破100万，支持9种语言
+  zh: 上线1个月下载量就突破100万的《宝可梦朋友》。由于支持9种语言，在欧美和亚洲等地被广泛下载。在社交网络上，有人分享解灵感问题的手感，也有人晒出自己搭配的毛绒玩偶收藏。
+  ja: リリースから1カ月で100万ダウンロードを突破した『ポケモンフレンズ』。9言語に対応していることもあり、欧米やアジアなど幅広くダウンロードされています。SNSでは、ひらめき問題への手応えや、思い思いのぬいぐるみコレクションなどが投稿されています。
+  lang: ja
+  year: 2026
+  date: '2026-02-06'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 48：《Pokémon Friends》开发负责人谈用灵感问题养成思考习惯
+  score: 5
+  why: 给出上线后的具体成绩和语言支持范围，反映初期反响。
+  more: 社交网络上有人分享解灵感问题的手感，也有人晒出毛绒玩偶收藏。
+  people: []
+  works: []
   links: []
 - id: 2026-02-16-interview-famitsu-2026-pokopia#20
   post: 2026-02-16-interview-famitsu-2026-pokopia
@@ -23532,6 +26367,253 @@ quotes:
   - 绫野万里奈
   works:
   - ぽこ あ ポケモン
+  links: []
+- id: 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide#3
+  post: 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide
+  segment: 3
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦中心出张所为何而生？
+  zh: 株式会社宝可梦中心在全国开设了22家官方商店“宝可梦中心”和“宝可梦商店”。为了让没有这些常设门店的地区也能邂逅宝可梦，“宝可梦中心出张所”应运而生。
+  ja: 株式会社ポケモンセンターでは、オフィシャルショップ「ポケモンセンター」と「ポケモンストア」を全国に22店舗展開しています。これらの常設店舗がないエリアにも、ポケモンたちとの出会いをお届けするために誕生したのが、「ポケモンセンター出張所」です。
+  lang: ja
+  year: 2026
+  date: '2026-02-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 50：宝可梦中心出张所负责人谈快闪店企划
+  score: 4
+  why: 说明出张所是为没有常设门店的地区提供邂逅宝可梦的机会，背景是宝可梦中心与宝可梦商店共22家。
+  more: 出张所与常设宝可梦中心、宝可梦商店的定位差异，可对照第22句。
+  people: []
+  works: []
+  links: []
+- id: 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide#18
+  post: 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide
+  segment: 18
+  speaker: null
+  reported: true
+  kind: question
+  hook: 羽田机场花园为何以《红·绿》宝可梦为主？
+  zh: 除了商业设施之外，2025年还在机场和体育场设置了出张所。在羽田机场花园，考虑到海外游客，以“宝可梦”原点作品《宝可梦 红·绿》中登场的宝可梦为中心备齐了商品。
+  ja: 商業施設の他にも、2025年には空港やスタジアムに出張所を設けています。羽田エアポートガーデンでは海外観光客を意識して、「ポケモン」の原点となる作品『ポケットモンスター 赤・緑』に登場するポケモンを中心に商品をそろえました。
+  lang: ja
+  year: 2026
+  date: '2026-02-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 50：宝可梦中心出张所负责人谈快闪店企划
+  score: 4
+  why: 2025年在机场和体育场设置出张所，羽田机场花园考虑海外游客，以原点作品《宝可梦 红·绿》中登场的宝可梦为中心备齐商品。
+  more: 同段还提到长崎体育城与“宝可梦化石博物馆”联动，见第19句。
+  people: []
+  works: []
+  note: 羽田机场花园是2023年在羽田机场旧址开业的大型复合设施。
+  links: []
+- id: 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide#22
+  post: 2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide
+  segment: 22
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 负责人：出张所是短期型店铺
+  zh: 如果说常设的宝可梦中心是长期型的全运营店铺，那么负责人将宝可梦中心出张所定位为“专注于机动性和柔软性的短期型店铺”。
+  ja: 常設のポケモンセンターが長期型のフルオペレーション店舗だとすれば、 ポケモンセンター出張所は「機動力と柔軟性に特化した短期型の店舗」であると担当者は位置づけています。
+  lang: ja
+  year: 2026
+  date: '2026-02-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 50：宝可梦中心出张所负责人谈快闪店企划
+  score: 4
+  why: 将常设宝可梦中心定位为长期型全运营店铺，出张所则专注机动性和柔软性的短期型店铺。
+  more: 第23句进一步说明可灵活企划，创造独特性高的宣传活动。
+  people: []
+  works: []
+  links: []
+- id: 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program#8
+  post: 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
+  segment: 8
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦与童子军的首次合作，契机来自谁？
+  zh: 现实世界中的野外活动，与在游戏这一虚拟世界中诞生的宝可梦。乍看似乎处于两极的二者首次合作，契机来自一位喜欢户外活动的宝可梦员工提议。
+  ja: 現実世界での野外活動と、ゲームという仮想世界で誕生したポケモン。一見すると対極のようにも見える両者初のコラボレーションは、アウトドア好きのポケモン社員の発案がきっかけでした。
+  lang: ja
+  year: 2026
+  date: '2026-04-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 51：童子军与宝可梦合作项目访谈
+  score: 5
+  why: 点出两个看似两极的领域首次合作，并交代契机是宝可梦员工的提议，是整篇访谈的起点。
+  more: 同一篇里第9句引用了这位员工关于自己成为父母后希望孩子接触大自然的原话。
+  people: []
+  works: []
+  links: []
+- id: 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program#14
+  post: 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
+  segment: 14
+  speaker: null
+  reported: true
+  kind: question
+  hook: 为什么童子军项目锁定10岁左右的孩子？
+  zh: “我们了解到，童子军活动中10岁左右的孩子很多。而在宝可梦的世界里，也是10岁的少年少女和宝可梦一起踏上冒险之旅。我们利用这一共同点，创作了这样一个故事：孩子们在自然中旅行，掌握应当学会的技能，以成为一名独当一面的宝可梦训练家为目标。”（宝可梦负责人）
+  ja: 「ボーイスカウト活動は、10 歳前後の子どもたちが多いと伺っています。一方、ポケモンの世界でも、 10 歳になった少年少女がポケモンとともに冒険へ旅立ちます。この共通点を活かし、子どもたちが自然の中を旅しながら習得すべきスキルを身につけ、一人前のポケモントレーナーをめざすストーリーを作りました。」（ポケモン担当者）
+  lang: ja
+  year: 2026
+  date: '2026-04-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 51：童子军与宝可梦合作项目访谈
+  score: 5
+  why: 说明项目设计的核心依据：童子军活动中10岁左右孩子多，而宝可梦世界里也是10岁少年少女踏上冒险。
+  more: 第13句列出了从童子军要素中提取的团队合作、锻炼体力等6点。
+  people: []
+  works: []
+  links: []
+- id: 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program#23
+  post: 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
+  segment: 23
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 童子军负责人：宝可梦项目报名多到应付不过来
+  zh: “至今在各地实施项目的过程中，让我印象深刻的是宝可梦的力量。童子军的活动本来就欢迎平时没有加入童子军的孩子来体验参加，但‘童子军 目标！宝可梦训练家！’的反响比普通活动好得多，报名多到我们都应付不过来。”
+  ja: 「これまで各地でプログラムを実施して印象的だったのは、ポケモンの力です。ボーイスカウトのイベントでは普段からボーイスカウトに入っていない子どもたちの体験参加も歓迎していますが、『ボーイスカウト めざせ！ポケモントレーナー！』は通常イベントよりも格段に反応がよく、申し込み対応が追いつかないほどでした」。
+  lang: ja
+  year: 2026
+  date: '2026-04-24'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 51：童子军与宝可梦合作项目访谈
+  score: 4
+  why: 用报名量对比说明宝可梦IP对童子军常规活动的实际拉动效果，是少见的量化式反馈。
+  more: 第21句提到童子军在全国约有1600处活动据点，各地依据实施指南调整后开展。
+  people: []
+  works: []
+  links: []
+- id: 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration#13
+  post: 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration
+  segment: 13
+  speaker: null
+  reported: true
+  kind: quote
+  hook: Naturaglacé：水伊布对应水润妆前乳
+  zh: 「比如，水润的质地与蓝色调如同融入肌肤般贴合、实现透明感妆效的妆前乳，用的是“水属性”的水伊布。24小时可用的粉饼，则因为其万能形象，用了能使用所有招式的梦幻……像这样，不是单纯印上宝可梦的插画，而是将各自的特性融合之后再落实到设计中」
+  ja: 「たとえば、みずみずしいテクスチャーとブルーの色味が肌に溶け込むように馴染み、透明感のある仕上がりを叶える化粧下地には、“みずタイプ”のシャワーズ。24時間使えるプレストパウダーには、万能なイメージから、あらゆるわざが使えるミュウ……というように、単にポケモンのイラストを載せるのではなく、それぞれのアイデンティティを融合させた上でデザインに落とし込んでいきました」
+  lang: ja
+  year: 2026
+  date: '2026-05-20'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 52：Naturaglacé负责人谈宝可梦联名彩妆
+  score: 4
+  why: 具体说明如何把宝可梦特性与彩妆功能结合，而非单纯印插画。
+  more: 同篇提到梦幻因能使用所有招式而用于24小时可用的粉饼。
+  people: []
+  works: []
+  links: []
+- id: 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration#18
+  post: 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration
+  segment: 18
+  speaker: null
+  reported: true
+  kind: quote
+  hook: Naturaglacé：约两年半做出6款联名产品
+  zh: 最终，经过约两年半的反复摸索，防晒妆前乳（3种）、面部粉饼、UV乳液与妆前底霜共计6款产品完成了。
+  ja: 結局、約2年半の試行錯誤を経て、日焼け止め化粧下地（3種）、フェイスパウダー、UV乳液・メイクアップベースの計6アイテムが完成しました。
+  lang: ja
+  year: 2026
+  date: '2026-05-20'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 52：Naturaglacé负责人谈宝可梦联名彩妆
+  score: 4
+  why: 披露企划到产品完成耗时约两年半，并列出防晒妆前乳3种、面部粉饼、UV乳液与妆前底霜共6款。
+  more: 同篇提到水伊布对应水润妆前乳、梦幻对应24小时可用的粉饼。
+  people: []
+  works: []
+  links: []
+- id: 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration#29
+  post: 2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration
+  segment: 29
+  speaker: null
+  reported: true
+  kind: quote
+  hook: Naturaglacé：快闪店购买顾客达以往4.6倍
+  zh: “与过去举办过的同等期间、同等规模的快闪店相比，购买的顾客达到了4.6倍。而且，来店顾客中许多是此前从未接触过我们品牌的新顾客，这一点也让我们很高兴。”Naturalagrace的负责人面带笑容地说道。
+  ja: 「同程度の期間・規模で開催した過去のポップアップストアと比較すると、ご購入いただいたお客様が4.6倍に。また、来店客の多くが、これまで当ブランドに触れたことがなかった新規のお客さまだったこともうれしかったですね」とナチュラグラッセの担当者は笑顔で語ります。
+  lang: ja
+  year: 2026
+  date: '2026-05-20'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 52：Naturaglacé负责人谈宝可梦联名彩妆
+  score: 5
+  why: 给出联名快闪店与过去同等条件相比的具体销售倍数，是衡量合作效果的关键数字。
+  more: 同篇提到2026年2月4日至11日在RAYARD MIYASHITA PARK举办的POPUP。
+  people: []
+  works: []
+  links: []
+- id: 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇#31
+  post: 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇
+  segment: 31
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 《红·绿》Fami通评分：8/7/7/7
+  zh: 然后，我看到了四位评测者对《宝可梦 红·绿》的交叉评测：8分/7分/7分/7分。这分数简直散发着“宝藏”的气息。不是特别高的分数，但值得注意的是没有一个6分。对我来说，这就是“嗯？说不定这游戏挺有意思？”的关键点。
+  ja: そして、目にした『ポケットモンスター 赤・緑』に対する4人のクロスレビュー。8点／7点／7点／7点。まさに掘り出しモノの匂いがする点数です。すごく高い！という数字ではなく、注目すべきは6点がひとつもないところ。これは、自分的には「うん？ひょっとして面白いんじゃね？」と思うポイントです。
+  lang: ja
+  year: 2026
+  date: '2026-06-21'
+  publication: 电击 Online 30周年纪念专栏
+  title: 与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇
+  score: 5
+  why: 专栏作者回忆自己正是从这组分数中嗅到“宝藏”气息，成为他购买《红·绿》的契机。
+  more: 同一段还提到他读评测时看到“颜色不同的两个卡带”“互相交换”等当时不常见的说明。
+  people: []
+  works:
+  - 宝可梦 红·绿
+  - 梦幻
+  links: []
+- id: 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇#43
+  post: 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇
+  segment: 43
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 没有生蛋系统时，御三家只能靠通信交换集齐
+  zh: 后来我才知道，在那个宝可梦还没有生蛋系统的时代，最初从三只中选择的宝可梦……也就是所谓的御三家，是非常珍贵的。即使图鉴可以靠借别人的来填满，但要让这三只都成为自己的伙伴，除了再准备一盘卡带自己通信交换这种硬核方法之外，几乎别无他法。所以，最初选择哪三只，是会影响后续冒险、无法挽回的重大抉择。
+  ja: あとから知ることですが、ポケモンにタマゴを産ませるというシステムが無いこの時代。最初の3匹から選ぶことになるポケモン……いわゆる御三家と呼ばれるポケモンは本当に貴重で、図鑑埋めは人から借りてなんとかなっても、手持ちにその3匹を揃えるのは、それこそカセットをもう1本用意して自力通信交換で手に入れるなどといった力業ぐらいしかありませんでした。なので、最初の3匹選びはその後の冒険を左右するほど取返しのつかない大きな選択肢だったのです。
+  lang: ja
+  year: 2026
+  date: '2026-06-21'
+  publication: 电击 Online 30周年纪念专栏
+  title: 与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇
+  score: 4
+  why: 作者指出在初代没有生蛋系统的时代，最初选择哪只御三家是无法挽回的重大抉择。
+  more: 他本人最初选了“妙蛙种子”，并为此“大人买”了《红》和《绿》两版。
+  people: []
+  works:
+  - 宝可梦 红·绿
+  - 梦幻
+  links: []
+- id: 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇#51
+  post: 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇
+  segment: 51
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 《月刊COROCORO Comic》5月号赠送梦幻，名额20名
+  zh: 然后，4月发售的《月刊COROCORO Comic 5月号》刊登了第151只宝可梦、幻之宝可梦“梦幻”的读者赠送企划。当时的中选名额只有20名！
+  ja: そして、4月発売の“月刊コロコロコミック5月号”では、151匹目のポケモン幻の“ミュウ”読者プレゼント企画が掲載されます。なんとこのときの当選者枠は20名！
+  lang: ja
+  year: 2026
+  date: '2026-06-21'
+  publication: 电击 Online 30周年纪念专栏
+  title: 与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇
+  score: 5
+  why: 第151只幻之宝可梦“梦幻”最早的读者赠送企划，名额极少，是宝可梦早期传播的关键事件。
+  more: 下一句提到截止5月14日应征人数约7万8千人，中选者需寄卡带。
+  people: []
+  works:
+  - 宝可梦 红·绿
+  - 梦幻
   links: []
 - id: 2026-07-22-interview-cedec-2026-battle-system-deck#34
   post: 2026-07-22-interview-cedec-2026-battle-system-deck
@@ -23963,6 +27045,127 @@ quotes:
   works:
   - Pokémon LEGENDS Z-A
   - 宝可梦 太阳·月亮
+  links: []
+- id: 2026-08-29-continue-vol31-scan-archive#343
+  post: 2026-08-29-continue-vol31-scan-archive
+  segment: 343
+  speaker: 中川翔子
+  reported: false
+  kind: quote
+  hook: 中川翔子：罗森邮购《蓝》，杰尼龟终于当主角
+  zh: 罗森限定邮购《蓝》的时候，我还心跳不已地买了下来，心里想着“我都长大了，还在买《宝可梦》呢！”别人说“你不是已经有《宝可梦》了吗，笨蛋！”我就跟人争辩：“不一样啦！这是《蓝》！杰尼龟终于当主角了！”
+  ja: ローソン限定で通信販売したときに、ドキドキしながら買ったんですよ。大人になりながら買ったなぁ！って自分で思いながら。「『ポケモン』持ってるでしょ！バカッ」っていわれても、「違うよ！青だよ！やっとゼニガメがメインになったんだよ！」ってケンカしながら。
+  lang: ja
+  year: 2026
+  date: '2026-08-29'
+  publication: CONTINUE
+  title: '[扫描访谈] CONTINUE Vol.31 自动化对照存档'
+  score: 4
+  why: 记录了她通过罗森限定邮购买到《宝可梦 蓝》的经历，以及她为杰尼龟成为封面主角而兴奋的理由。
+  more: 她最初选的宝可梦就是杰尼龟，最喜欢水箭龟。
+  people: []
+  works: []
+  links: []
+- id: 2026-08-29-continue-vol31-scan-archive#364
+  post: 2026-08-29-continue-vol31-scan-archive
+  segment: 364
+  speaker: 中川翔子
+  reported: false
+  kind: quote
+  hook: 中川翔子：等了十年，终于第一次抓到胡地
+  zh: 小火龙、杰尼龟、妙蛙种子、胡地、波加曼……我没放进新的宝可梦，毕竟我比较怀旧（笑）。这次终于第一次抓到胡地，真是等了十年啊。
+  ja: ヒトカゲ、ゼニガメ、フシギダネ、フーディン、ポッチャマ……。新しいのは入れてないんです。回顧主義者なんで（笑）。今回初めてフーディンをつかまえられて……本当に10年越しですよ。
+  lang: ja
+  year: 2026
+  date: '2026-08-29'
+  publication: CONTINUE
+  title: '[扫描访谈] CONTINUE Vol.31 自动化对照存档'
+  score: 4
+  why: 她因当年没有朋友交换，勇基拉一直无法进化；十年后在《珍珠》里第一次得到胡地，把游戏机制和个人经历连在一起。
+  more: 同一访谈里她提到勇基拉、鬼斯通、豪力都因无法交换而没能进化。
+  people: []
+  works: []
+  links: []
+- id: 2026-08-29-continue-vol31-scan-archive#368
+  post: 2026-08-29-continue-vol31-scan-archive
+  segment: 368
+  speaker: 中川翔子
+  reported: false
+  kind: quote
+  hook: 中川翔子：超梦依然很强，平衡也没崩坏
+  zh: 《宝可梦》系列出了这么多代，超梦却依然很强，游戏平衡也没有崩坏，真的很厉害。《金》《银》里出现了那么多传说宝可梦，系列却仍能维持住这种绝妙平衡。就连《勇者斗恶龙》都会随着系列发展不断变化，《宝可梦》能守住一贯的风格，我很喜欢。它始终好上手、亲切，也一直保留着“宝可梦的感觉”。
+  ja: 『ポケモン』はシリーズが続いているのに、いまだにミュウツーが強かったりして、ゲームのバランスが崩壊しないですよね。すごいことだと思います。『金・銀』で「でんせつのポケモン」がいっぱい出たけど、その神バランスが崩れないのがすごいッス。『ドラクエ』でもシリーズを重ねるごとに変化していくのに、『ポケモン』は変わらないのがうれしい。やりやすさ、親しみやすさ、「ポケモン」らしさを守ってるから。
+  lang: ja
+  year: 2026
+  date: '2026-08-29'
+  publication: CONTINUE
+  title: '[扫描访谈] CONTINUE Vol.31 自动化对照存档'
+  score: 4
+  why: 从玩家角度谈系列多代之后仍维持超梦强度与整体平衡，并对比《勇者斗恶龙》随系列变化。
+  more: 她玩《珍珠》时队伍里仍带着超梦、急冻鸟等旧作宝可梦。
+  people: []
+  works: []
+  links: []
+- id: 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival#5
+  post: 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival
+  segment: 5
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 能登ごいた保存会：1999年成立，现有8个支部
+  zh: 据说过去在代际交流中，游戏的乐趣和规则由孩子们口耳相传。然而在现代，这样的习惯逐渐消失。于是1999年，当地有志之士成立了“能登ごいた保存会”。通过面向小学生的“ごいた教室”和各地举办的大会，持续开展向下一代传承的活动，目前已在全日本设立了8个支部。
+  ja: かつては、世代間の交流の中で、子どもから子どもへ遊びの楽しさやルールが受け継がれていたと言います。しかし、現代ではこうした習慣が失われつつありました。そこで、1999年には地元有志による「能登ごいた保存会」が発足。小学生を対象とした「ごいた教室」や各地での大会を通じ、次世代への継承活動を続け、現在は全国に8支部が設立されています。
+  lang: ja
+  year: 2026
+  date: '2026-09-01'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 54：能登传统游戏「ごいた」与宝可梦的结合
+  score: 5
+  why: 给出保存会成立年份与支部数量，说明传统游戏传承的组织化背景。
+  more: 同篇提到保存会每月举办一到两次「ごいた教室」，并监修了《宝可梦 ごいた》。
+  people: []
+  works: []
+  links: []
+- id: 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival#19
+  post: 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival
+  segment: 19
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 宝可梦负责人：棋子反复做了30种左右试制品
+  zh: “拿在手里时的尺寸、厚度、形状，我们反复做了30种左右的试制品。原版‘ごいた’的棋子每边只有几厘米，比较小，所以我们摸索了要把它放大到什么程度，以及对孩子的手来说最合适的尺寸是多少。”
+  ja: 「手に取ったときのサイズ・厚み・形状は、試作を30パターンほど重ねました。元の『ごいた』の駒は一辺が数センチ程度と小さいため、これをどのくらいサイズアップするか、子どもの手でも馴染むベストな大きさはどのくらいかを探りました」
+  lang: ja
+  year: 2026
+  date: '2026-09-01'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 54：能登传统游戏「ごいた」与宝可梦的结合
+  score: 4
+  why: 用具体数字说明为儿童手感调整棋子尺寸、厚度、形状的开发过程。
+  more: 同篇提到棋子背景融入原版「ごいた」棋子名称，形状沿用传统造型。
+  people: []
+  works: []
+  links: []
+- id: 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival#30
+  post: 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 游戏市场首展：桌游爱好者惊讶「宝可梦要做『ごいた』？」
+  zh: 在首次出展每年举办两次的日本国内最大规模桌游活动「游戏市场」时，桌游爱好者中发出了「宝可梦要做『ごいた』？」的惊讶之声。
+  ja: 年2回開催される国内最大規模のアナログゲームイベント「ゲームマーケット」に初出展した際には、ボードゲーム愛好者から、「ポケモンが『ごいた』を？」という驚きの声が上がりました。
+  lang: ja
+  year: 2026
+  date: '2026-09-01'
+  publication: 株式会社ポケモン コーポレートサイト 注目の話題
+  title: 株式会社宝可梦 官方专题 54：能登传统游戏「ごいた」与宝可梦的结合
+  score: 4
+  why: 记录《宝可梦 ごいた》首次出展日本最大规模桌游活动时的现场反应。
+  more: 同篇提到桌游爱好者中不少人已知道「ごいた」，因此获得不少好评。
+  people: []
+  works: []
+  note: 游戏市场（ゲームマーケット）是日本最大的桌游展销活动，每年春秋各举办一次。
   links: []
 - id: 2026-09-17-interview-cgworld-2026-cedec-pkmnza#24
   post: 2026-09-17-interview-cgworld-2026-cedec-pkmnza

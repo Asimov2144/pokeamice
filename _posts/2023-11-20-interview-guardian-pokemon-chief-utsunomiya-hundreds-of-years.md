@@ -144,5 +144,6 @@ mentions:
   - "Pokémon Sleep"
   - "Pokémon Smile"
   - "宝可梦 动画系列"
+interview_id: PKMN-0855
 ---
 <!-- 自动对齐双语访谈归档：PKMN-0855 -->

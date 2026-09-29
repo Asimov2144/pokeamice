@@ -2,268 +2,94 @@
  "id": "corporate-topic-07-pokemon-wonder-nature-forest-adventure",
  "stem": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 19
+  "n": 26
  },
  "facets": {
-  "pokemon": [
-   {
-    "name": "绿毛虫",
-    "ndex": 10,
-    "seg": [
-     12
-    ],
-    "as": [
-     "绿毛虫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "派拉斯",
-    "ndex": 46,
-    "seg": [
-     12
-    ],
-    "as": [
-     "派拉斯"
-    ],
-    "via": "body"
-   }
-  ],
+  "pokemon": [],
   "works": [
    {
     "name": "Pokémon WONDER",
     "slug": null,
     "seg": [
-     0,
-     2,
-     8,
-     15
+     3
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon GO",
+    "name": "宝可梦GO",
     "slug": null,
     "seg": [
-     9
+     13
     ],
     "via": "llm"
    }
   ],
   "people": [
    {
-    "name": "津田明子",
+    "name": "松丸亮吾",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     10,
-     14
-    ]
+     13
+    ],
+    "via": "llm"
    },
    {
     "name": "本山敬一",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     9
-    ]
+     13
+    ],
+    "via": "llm"
    },
    {
-    "name": "松丸亮吾",
+    "name": "津田明子",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     9
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     1,
-     2
-    ]
+     15
+    ],
+    "via": "llm"
    }
   ],
   "places": [
    {
-    "name": "伊奈木之森",
+    "name": "稻城森林",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
-    "seg": [
-     3
-    ],
-    "what": "探险核心舞台",
-    "via": "llm"
-   },
-   {
-    "name": "读卖乐园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     3
-    ],
-    "what": "森林所在地",
-    "via": "llm"
-   },
-   {
-    "name": "东京近郊",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "原始自然风貌",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     0,
-     1,
-     2,
-     3,
-     7,
-     10
-    ],
-    "as": [
-     "大自然",
-     "昆虫",
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
     "seg": [
      4
     ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     9
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     10
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     14,
-     15
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     15
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
+    "what": "冒险舞台",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "伊奈木之森位于读卖乐园深处，近二十年未对外开放",
-   "anchor": 4
+   "seg": 4,
+   "text": "参加者成为宝可梦调查员，在约4500平方米的稻城森林中调查。",
+   "anchor": 5
   },
   {
-   "seg": 11,
-   "text": "全体创作者提出的设计方案超过100套，并在森林现场实地盲测",
-   "anchor": 12
+   "seg": 18,
+   "text": "全体相关人员提出的点子超过100个，经反复测试与调整。",
+   "anchor": 19
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

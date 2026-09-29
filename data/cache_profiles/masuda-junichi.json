@@ -1,43 +1,43 @@
 {
- "key": "44c1957cceac23da",
+ "key": "83cc4734aff396da",
  "answer": {
-  "summary": "增田顺一长期在 GAME FREAK 同时承担作曲、程序与总监/制作人工作，是少数横跨声音、程序与企划决策的多面手 [6]。他自初代起亲自操刀音乐，主张仅凭倾听便能心领神会、用旋律刻画玩家旅途中的心境变化 [8]。在系统与玩法层面，他围绕「交流」这一哲学原点推动多人联机、双版本与全球同步发售等设计 [2][7]。他重视面向所有年龄层的低门槛体验，反对为迎合硬核玩家而使系统繁琐化 [3]。在具体制作中，他常从硬件特性与玩家情境出发倒推功能，并关注对战平衡的调整 [11][8]。",
+  "summary": "增田顺一长期参与宝可梦系列开发，署名涵盖总监、制作人、音乐、企划与美术等多个领域，早期还以程序员身份参与并同时负责音乐 [6]。他重视游戏核心趣味的延续，认为从最初作品至今概念始终如一：寻找并捕捉宝可梦、与训练家对战 [9]。在具体设计上，他关注属性平衡，曾因龙属性等使对战平衡倾斜而推动引入妖精属性 [8]；也重视交换这一核心概念，并据此选择便携式硬件 [3]。在音乐方面，他坚持仅凭倾听便能心领神会的作曲原则，用旋律刻画玩家旅程中的心境变化 [8]。",
   "expertise": [
-   "音乐作曲",
-   "程序开发",
-   "企划设计",
    "总监制作",
-   "联机交流",
-   "对战平衡"
+   "音乐作曲",
+   "企划设计",
+   "战斗平衡",
+   "宝可梦设计",
+   "程序开发"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "称6年前制作的宝可梦叫声仍在使用，最后关头努力加入通信对战。"
+    "detail": "提到6年前制作的宝可梦叫声仍在使用，并回忆最后关头加入通信对战。"
    },
    {
     "n": 2,
-    "detail": "称GBA版让4名玩家同时连接互动，「交流」是宝可梦背后的灵魂哲学。"
+    "detail": "谈到用旧作宝可梦补足属性不足，并称不放可达鸭不行。"
    },
    {
     "n": 3,
-    "detail": "称宝可梦对所有人开放无门槛，掌机是与宝可梦最相称的载体。"
+    "detail": "称与杉森建讨论很久才设计出皮丘，并提到晃晃斑每只图案不同。"
    },
    {
     "n": 4,
-    "detail": "称过桥前有意不改变既有世界结构，让玩家尽快融入这个世界。"
+    "detail": "说明本作过桥前有意不改变以往世界，过桥后游戏变得开放。"
    },
    {
     "n": 5,
-    "detail": "称合众桥梁以布鲁克林大桥与彩虹大桥相加除以二、交由高迪式设计。"
+    "detail": "称合众地区以纽约为原型，天箭桥参考布鲁克林大桥与彩虹大桥。"
    },
    {
     "n": 6,
-    "detail": "称GAME FREAK规模小，人人尝试各种工作，梦幻的图由森本所画。"
+    "detail": "提到GAME FREAK当初规模小，每人尝试各种工作成为公司风气基础。"
    },
    {
     "n": 7,
-    "detail": "称《X·Y》三条主题为美、羁绊与进化，超级进化只在一场对战中持续。"
+    "detail": "称标题X和Y来自X轴与Y轴，代表不同思维方式与观点。"
    },
    {
     "n": 8,
@@ -45,34 +45,26 @@
    },
    {
     "n": 9,
-    "detail": "称最初目标受众10岁，如今已30岁，需考虑不同年龄层的游玩方式。"
-   },
-   {
-    "n": 10,
-    "detail": "自述为作曲家、程序员，从《红宝石》到《X/Y》的导演。"
+    "detail": "称游戏核心趣味从最初至今没有太大变化，概念始终如一。"
    },
    {
     "n": 11,
-    "detail": "称项目始于如何让人走进房间玩游戏这一问题，再倒推所需功能。"
-   },
-   {
-    "n": 12,
-    "detail": "据Game Informer报道，GAME FREAK不愿制作玩家无法随身携带的游戏。"
+    "detail": "称因Switch开发工时与时间成本大增，以保证品质和发售档期为优先。"
    }
   ]
  },
  "posts": [
   "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-  "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
-  "2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda",
+  "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
+  "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru",
   "2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
-  "2011-02-21-interview-nintendodream-bw-bridges-masuda",
+  "2011-02-21-scan-ndream-2011-04-masuda-bridges",
   "2012-07-21-scan-ndream-221-b2w2-developer-interview",
-  "2013-09-20-interview-multiplayer-2013-xy",
+  "2013-09-21-interview-nintendolife-2013-xy",
   "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
-  "2016-12-05-interview-25043",
+  "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori",
   "2017-11-06-interview-2017-game-freak-dordogne-enquete",
-  "2018-11-01-interview-pokemoncom-2018-letsgo-makers",
+  "2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
   "2019-11-13-interview-gi-2019-going-big"
  ]
 }

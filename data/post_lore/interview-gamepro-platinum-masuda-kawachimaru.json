@@ -1,0 +1,196 @@
+{
+ "id": "interview-gamepro-platinum-masuda-kawachimaru",
+ "stem": "2009-03-23-interview-gamepro-platinum-masuda-kawachimaru",
+ "rev": 1,
+ "built": "2026-09-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 19
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     14
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "恰雷姆",
+    "ndex": 308,
+    "seg": [
+     16
+    ],
+    "as": [
+     "恰雷姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     10
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     10
+    ],
+    "as": [
+     "帕路奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑拉帝纳",
+    "ndex": 487,
+    "seg": [
+     10
+    ],
+    "as": [
+     "骑拉帝纳"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     2,
+     3,
+     16
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石／蓝宝石",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "金／银",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "GamePro",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     13,
+     14
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     6,
+     12,
+     18
+    ]
+   },
+   {
+    "name": "河内丸武史",
+    "slug": "kawachimaru-takeshi",
+    "role": "speaker",
+    "seg": [
+     8,
+     10
+    ]
+   },
+   {
+    "name": "McKinley Noble",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "雪城",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     18
+    ],
+    "what": "假设的冰属性城市",
+    "via": "llm"
+   },
+   {
+    "name": "湾区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "任天堂总部所在",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "增田顺一说 diamond 有爱的含义，pearl 有幸福的含义",
+   "anchor": 7
+  },
+  {
+   "seg": 10,
+   "text": "河内丸武史说设计了骑拉帝纳作为帝牙卢卡和帕路奇亚的对立面",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

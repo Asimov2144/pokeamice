@@ -232,4 +232,5 @@ mentions:
   - "宝可梦 金·银"
 tags:
 - N.O.M
+interview_id: PKMN-0108
 ---

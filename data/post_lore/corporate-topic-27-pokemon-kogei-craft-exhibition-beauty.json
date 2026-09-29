@@ -2,11 +2,11 @@
  "id": "corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
  "stem": "2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 20
+  "n": 32
  },
  "facets": {
   "pokemon": [
@@ -14,8 +14,7 @@
     "name": "多龙巴鲁托",
     "ndex": 887,
     "seg": [
-     0,
-     16
+     30
     ],
     "as": [
      "多龙巴鲁托"
@@ -25,65 +24,75 @@
   ],
   "works": [
    {
-    "name": "宝可梦×工艺展",
+    "name": "雨あがり",
     "slug": null,
     "seg": [
-     0,
-     2,
-     9
+     5
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "美とわざの大発見",
+    "name": "琉球紅型着物「島ツナギ」",
     "slug": null,
-    "seg": [],
-    "via": "entities"
+    "seg": [
+     26
+    ],
+    "via": "llm"
    },
    {
     "name": "多龙巴鲁托",
     "slug": null,
     "seg": [
-     0,
-     16
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦全图鉴",
-    "slug": null,
-    "seg": [
-     7
+     30
     ],
     "via": "llm"
    }
   ],
   "people": [
    {
+    "name": "福田亨",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
     "name": "唐泽昌宏",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     4
-    ]
+     6
+    ],
+    "via": "llm"
    },
    {
     "name": "今井阳子",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     12,
-     16
-    ]
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "城間栄市",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     26
+    ],
+    "via": "llm"
    },
    {
     "name": "今井完眞",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     0,
-     16
-    ]
+     30
+    ],
+    "via": "llm"
    }
   ],
   "places": [
@@ -95,31 +104,82 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     1,
      2,
-     4,
+     6,
      7,
-     12,
-     17
+     13,
+     19
     ],
     "via": "gazetteer",
     "when": "after"
    },
    {
-    "name": "关都大陆",
+    "name": "长崎历史文化博物馆",
+    "id": "venue_eb59bbe75b",
+    "entity": null,
+    "category": "ex",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     31
+    ],
+    "via": "gazetteer",
+    "when": "before"
+   },
+   {
+    "name": "东京国立近代美术馆工艺馆",
     "id": null,
     "entity": null,
     "category": null,
-    "world": "game",
+    "world": "real",
     "scale": "spot",
     "seg": [
-     13
+     6
     ],
-    "what": "玩家漫步的剧情舞台",
+    "what": "商谈对象",
     "via": "llm"
    },
    {
-    "name": "金泽",
+    "name": "东京・北之丸公园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "工艺馆原设立地",
+    "via": "llm"
+   },
+   {
+    "name": "石川县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "工艺馆移迁地",
+    "via": "llm"
+   },
+   {
+    "name": "长崎会场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     31
+    ],
+    "what": "作品首次公开地",
+    "via": "llm"
+   },
+   {
+    "name": "石川县金泽市",
     "id": null,
     "entity": null,
     "category": null,
@@ -128,142 +188,28 @@
     "seg": [
      2
     ],
-    "what": "展览首发城市",
+    "what": "国立工艺馆所在地",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "巡展"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     3,
-     17
-    ],
-    "as": [
-     "大自然",
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     4
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     7
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     7
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     8
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     15
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 2,
-   "text": "展览2023年3月启幕，以金泽国立工艺馆为全球首发第一站",
+   "text": "展览2023年3月从国立工艺馆（石川县金泽市）开始，正在国内外巡回",
    "anchor": 3
   },
   {
-   "seg": 7,
-   "text": "最终敲定20位领军艺术家，含人间国宝与新锐匠人",
-   "anchor": 8
+   "seg": 13,
+   "text": "艺术家由国立工艺馆与宝可梦共同交换意见选定，共20人参加",
+   "anchor": 14
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

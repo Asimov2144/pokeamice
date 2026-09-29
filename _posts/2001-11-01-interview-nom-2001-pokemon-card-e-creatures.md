@@ -40,6 +40,7 @@ entities:
   - 赤羽卓美
   works:
   - 宝可梦集换式卡牌游戏
+interview_id: PKMN-0113
 workflow:
   fetch: wayback
   translation: deepseek-chat

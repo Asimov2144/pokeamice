@@ -2,44 +2,22 @@
  "id": "scan-ndream-2010-04-pokemon-ranger-retrospective",
  "stem": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 45
+  "n": 267
  },
  "facets": {
   "pokemon": [
    {
-    "name": "急冻鸟",
-    "ndex": 144,
+    "name": "黑鲁加",
+    "ndex": 229,
     "seg": [
-     8
+     33
     ],
     "as": [
-     "急冻鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "闪电鸟",
-    "ndex": 145,
-    "seg": [
-     8
-    ],
-    "as": [
-     "闪电鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "火焰鸟",
-    "ndex": 146,
-    "seg": [
-     8
-    ],
-    "as": [
-     "火焰鸟"
+     "黑鲁加"
     ],
     "via": "body"
    },
@@ -47,8 +25,7 @@
     "name": "时拉比",
     "ndex": 251,
     "seg": [
-     10,
-     11
+     145
     ],
     "as": [
      "时拉比"
@@ -56,58 +33,26 @@
     "via": "body"
    },
    {
-    "name": "拉帝欧斯",
-    "ndex": 381,
+    "name": "正电拍拍",
+    "ndex": 311,
     "seg": [
-     2,
-     8
+     99,
+     220,
+     246
     ],
     "as": [
-     "拉帝欧斯"
+     "正电拍拍"
     ],
     "via": "body"
    },
    {
-    "name": "代欧奇希斯",
-    "ndex": 386,
+    "name": "吼吼鲸",
+    "ndex": 320,
     "seg": [
-     14
+     105
     ],
     "as": [
-     "代欧奇希斯"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "草苗龟",
-    "ndex": 387,
-    "seg": [
-     29
-    ],
-    "as": [
-     "草苗龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小火焰猴",
-    "ndex": 390,
-    "seg": [
-     29
-    ],
-    "as": [
-     "小火焰猴"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "波加曼",
-    "ndex": 393,
-    "seg": [
-     29
-    ],
-    "as": [
-     "波加曼"
+     "吼吼鲸"
     ],
     "via": "body"
    },
@@ -115,7 +60,7 @@
     "name": "圆法师",
     "ndex": 401,
     "seg": [
-     29
+     247
     ],
     "as": [
      "圆法师"
@@ -123,21 +68,10 @@
     "via": "body"
    },
    {
-    "name": "头盖龙",
-    "ndex": 408,
-    "seg": [
-     29
-    ],
-    "as": [
-     "头盖龙"
-    ],
-    "via": "body"
-   },
-   {
     "name": "盾甲龙",
     "ndex": 410,
     "seg": [
-     29
+     68
     ],
     "as": [
      "盾甲龙"
@@ -145,206 +79,153 @@
     "via": "body"
    },
    {
-    "name": "帕奇利兹",
-    "ndex": 417,
+    "name": "雷公",
+    "ndex": 243,
     "seg": [
-     29
+     258
     ],
     "as": [
-     "帕奇利兹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小卡比兽",
-    "ndex": 446,
-    "seg": [
-     29
-    ],
-    "as": [
-     "小卡比兽"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "不良蛙",
-    "ndex": 453,
-    "seg": [
-     29
-    ],
-    "as": [
-     "不良蛙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "席多蓝恩",
-    "ndex": 485,
-    "seg": [
-     17
-    ],
-    "as": [
-     "席多蓝恩"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "玛纳霏",
-    "ndex": 490,
-    "seg": [
-     14
-    ],
-    "as": [
-     "玛纳霏"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "洗翠狃拉",
-    "ndex": 215,
-    "seg": [
-     29
-    ],
-    "as": [
-     "狃拉"
+     "雷公"
     ],
     "via": "llm"
    }
   ],
   "works": [
    {
-    "name": "宝可梦巡护员 光之轨迹",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦巡护员 巴特纳吉",
-    "slug": null,
-    "seg": [
-     25
-    ],
-    "via": "entities"
-   },
-   {
     "name": "宝可梦巡护员",
     "slug": null,
     "seg": [
-     1,
-     19,
-     25,
-     35
+     5,
+     8,
+     44,
+     50,
+     65,
+     72
     ],
     "via": "entities"
    },
    {
-    "name": "少年鬼忍传 旋",
+    "name": "宝可梦巡护员 巴特那吉",
     "slug": null,
     "seg": [
-     44
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员 光的轨迹",
+    "slug": null,
+    "seg": [
+     204
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     209
     ],
     "via": "llm"
    }
   ],
   "people": [
    {
-    "name": "油哥（オイル）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "シンバラ教授",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "ハヤテ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "ダズル",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "パネマ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "ブッカー",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "布克",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "帕内玛",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "信原教授",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
     "name": "疾风",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     23
+     35
     ],
     "via": "llm"
    },
    {
-    "name": "城",
+    "name": "艾莉达",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     23
+     36
     ],
     "via": "llm"
    },
    {
-    "name": "艾丽达",
+    "name": "乔",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     23
+     37
     ],
     "via": "llm"
    },
    {
-    "name": "冠",
+    "name": "阿莉亚",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     23
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "卡姆莉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "辛巴拉教授",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐奈子议长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "巴罗",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     81
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赛文",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     82
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哈布",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "克拉姆",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     83
     ],
     "via": "llm"
    },
@@ -353,7 +234,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     29
+     89
     ],
     "via": "llm"
    },
@@ -362,7 +243,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     29
+     89
     ],
     "via": "llm"
    },
@@ -371,41 +252,72 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     29
+     94
     ],
     "via": "llm"
    },
    {
-    "name": "油哥",
+    "name": "米拉卡德",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     32
+     108
     ],
     "via": "llm"
    },
    {
-    "name": "高桥伸之",
+    "name": "欧伊尔",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     44
+     130
     ],
     "via": "llm"
    },
    {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
+    "name": "艾莲娜",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     44
+     172
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "拉库亚",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     152
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "哈亚特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     189
     ],
     "via": "llm"
    }
   ],
   "places": [
    {
-    "name": "奥卜利比亚地方",
+    "name": "莱拉森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     12
+    ],
+    "what": "迷路老人所在",
+    "via": "llm"
+   },
+   {
+    "name": "西之环镇",
     "id": null,
     "entity": null,
     "category": null,
@@ -414,333 +326,97 @@
     "seg": [
      35
     ],
-    "what": "海陆空巡护新天地",
+    "what": "队长疾风驻地",
     "via": "llm"
    },
    {
-    "name": "菲蕾地方",
+    "name": "冬镇",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "spot",
     "seg": [
-     35
+     36
     ],
-    "what": "四大城镇温带盆地",
+    "what": "艾莉达任队长的城镇",
     "via": "llm"
    },
    {
-    "name": "阿尔米亚地方",
+    "name": "比恩森林",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "spot",
     "seg": [
-     35
+     147
     ],
-    "what": "多元文明大陆",
+    "what": "发现奥伊尔的火灾现场",
     "via": "llm"
    },
    {
-    "name": "雨滴岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     5
-    ],
-    "what": "主角幸存的白沙滩",
-    "via": "llm"
-   },
-   {
-    "name": "毕恩森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "油哥被定名之地",
-    "via": "llm"
-   },
-   {
-    "name": "苑之镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     17
-    ],
-    "what": "领取葛拉西蒂亚花",
-    "via": "llm"
-   },
-   {
-    "name": "毕恩村",
+    "name": "菲奥雷地区",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "area",
     "seg": [
-     32
+     2
     ],
-    "what": "大妈妈美食所在",
+    "what": "第一作舞台",
     "via": "llm"
    },
    {
-    "name": "满金市",
+    "name": "阿尔米亚地区",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "area",
     "seg": [
-     17
+     63
     ],
-    "what": "领取葛拉西蒂亚花",
+    "what": "第二作舞台",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
    },
    {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
+    "name": "奥卜利比亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
     "seg": [
-     10,
-     40
+     204
     ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
+    "what": "第三作舞台",
+    "via": "llm"
    },
    {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
+    "name": "福尔市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
     "seg": [
-     13,
-     16
+     37
     ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     13,
-     16
-    ],
-    "as": [
-     "配信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     19,
-     26
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     20
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     26,
-     29
-    ],
-    "as": [
-     "学生时代",
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     32
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     35
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     35
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     35
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     41
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     43,
-     44
-    ],
-    "as": [
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     44
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     44
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "canon-consistency",
-    "name": "设定统一",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "设定集"
-    ],
-    "via": "tag"
+    "what": "菲奥雷首屈一指都市",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "主角为搭档挡下头目红眼的光线后坠海"
+   "seg": 4,
+   "text": "《宝可梦巡护员》2006年3月23日发售，4800日元（含税）"
   },
   {
-   "seg": 5,
-   "text": "雨滴岛白沙滩上主角邂逅乌克丽丽皮丘与船匠老人布克"
+   "seg": 64,
+   "text": "《巴特那吉》2008年3月20日发售，4800日元（含税）"
   }
  ],
  "relations": [
@@ -764,9 +440,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

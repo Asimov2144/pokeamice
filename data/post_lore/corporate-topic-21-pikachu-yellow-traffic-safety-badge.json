@@ -2,11 +2,11 @@
  "id": "corporate-topic-21-pikachu-yellow-traffic-safety-badge",
  "stem": "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 26
+  "n": 25
  },
  "facets": {
   "pokemon": [
@@ -14,67 +14,23 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     0,
      2,
      3,
      10,
      11,
-     15
+     12,
+     16,
+     18
     ],
     "as": [
-     "皮卡丘"
+     "皮卡丘",
+     "ピカチュウ"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
-  "works": [
-   {
-    "name": "黄色い“ピカチュウ”ワッペン（黄色皮卡丘交通安全胸章）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "黄色い“ピカチュウ”ワッペン",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "株式会社みずほフィナンシャルグループ（瑞穗FG）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "損害保険ジャパン株式会社（损保日本）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "明治安田生命保険相互会社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "第一生命保険株式会社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン My First Pokémon プロジェクト",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "works": [],
+  "people": [],
   "places": [
    {
     "name": "东京",
@@ -84,129 +40,30 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     22
+     23
     ],
-    "what": "赠呈式举办地",
+    "what": "赠送仪式举办地",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     4,
-     6,
-     11,
-     14,
-     15,
-     16
-    ],
-    "as": [
-     "儿童",
-     "孩子们",
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     8,
-     11,
-     15
-    ],
-    "as": [
-     "家长",
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     9
-    ],
-    "as": [
-     "团队内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     10
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     15
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     21,
-     22
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 3,
-   "text": "黄色胸章赠呈事业创立60周年，全日本无偿赠送100万名以上小学一年级新生",
+   "text": "黄色皮卡丘徽章为纪念黄色徽章60周年制作，分发给全国100万名以上新一年级学生",
    "anchor": 4
   },
   {
-   "seg": 5,
-   "text": "1965年日本每年因交通事故罹难人数突破1万人，被称为交通战争",
-   "anchor": 6
+   "seg": 6,
+   "text": "项目启动的1965年，日本每年因交通事故死亡人数超过1万人",
+   "anchor": 7
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

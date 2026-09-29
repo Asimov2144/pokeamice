@@ -2,11 +2,11 @@
  "id": "corporate-topic-51-boy-scouts-nature-pokemon-trainer-program",
  "stem": "2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 28
+  "n": 33
  },
  "facets": {
   "pokemon": [
@@ -19,226 +19,30 @@
     "as": [
      "狙射树枭"
     ],
-    "via": "tag"
+    "via": "body"
    }
   ],
-  "works": [
-   {
-    "name": "ボーイスカウト体験プログラム「めざせ！ポケモントレーナー！」",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "目标是成为宝可梦训练家！",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "公益財団法人ボーイスカウト日本連盟",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン My First Pokémon プロジェクト",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     0
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     0
-    ],
-    "as": [
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     1,
-     2,
-     15,
-     17,
-     23,
-     27
-    ],
-    "as": [
-     "大自然",
-     "生态",
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     3,
-     5,
-     8
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     4,
-     6,
-     8,
-     12,
-     13,
-     16
-    ],
-    "as": [
-     "儿童",
-     "孩子们",
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     5
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     5,
-     12,
-     19
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     7
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     13,
-     16
-    ],
-    "as": [
-     "精灵球",
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     21
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     25
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   }
-  ]
+  "works": [],
+  "people": [],
+  "places": []
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "项目由童子军日本联盟与宝可梦My First Pokémon项目联合创立",
-   "anchor": 4
+   "seg": 5,
+   "text": "童子军1907年在英国起步，现于170多个国家和地区开展",
+   "anchor": 6
   },
   {
-   "seg": 5,
-   "text": "童子军运动1907年诞生于英国，遍及超过170个国家与地区",
-   "anchor": 6
+   "seg": 12,
+   "text": "从童子军希望10岁左右孩子掌握的要素中提取出6点",
+   "anchor": 13
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

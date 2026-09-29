@@ -2,7 +2,7 @@
  "id": "corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
  "stem": "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -12,70 +12,36 @@
   "pokemon": [],
   "works": [
    {
-    "name": "POKÉMON CARD LOUNGE",
+    "name": "宝可梦卡牌游戏 Classic",
     "slug": null,
     "seg": [
-     0,
-     3,
-     26,
-     31
+     19
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "ポケモンカードゲーム Classic",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "SHIBUYA TSUTAYA",
+    "name": "宝可梦卡牌游戏 第1弹 扩充包",
     "slug": null,
     "seg": [
-     2,
-     4,
-     5,
-     26
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "カルチュア・コンビニエンス・クラブ株式会社（CCC）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "カルチュア・コンビニエンス・クラブ株式会社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
+     20
     ],
     "via": "llm"
    }
   ],
+  "people": [],
   "places": [
    {
-    "name": "涩谷十字路口",
+    "name": "SHIBUYA TSUTAYA",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     0
+     2
     ],
-    "via": "extra",
-    "what": "涩谷的地标路口"
+    "what": "卡牌休息室所在",
+    "via": "llm"
    },
    {
     "name": "JR涩谷站",
@@ -87,20 +53,7 @@
     "seg": [
      2
     ],
-    "what": "前往的站点",
-    "via": "llm"
-   },
-   {
-    "name": "SHIBUYA TSUTAYA",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "沙龙所在建筑",
+    "what": "通往店铺的起点",
     "via": "llm"
    },
    {
@@ -111,202 +64,29 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     1
+     13
     ],
-    "what": "沙龙所在地",
+    "what": "店铺所在街区",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     3,
-     6,
-     7,
-     8,
-     17,
-     19
-    ],
-    "as": [
-     "宝可梦卡牌",
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     7,
-     24
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     7,
-     8
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     14
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     15,
-     31
-    ],
-    "as": [
-     "精灵球",
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     16,
-     17
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     16,
-     17
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     17
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     19
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     19
-    ],
-    "as": [
-     "复刻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     21
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     27
-    ],
-    "as": [
-     "老玩家"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 2,
-   "text": "穿过JR涩谷站前十字路口，乘梯直抵SHIBUYA TSUTAYA五楼。",
+   "text": "SHIBUYA TSUTAYA 5楼墙面装饰用间接照明浮现草、火、水等标志",
    "anchor": 3
   },
   {
-   "seg": 26,
-   "text": "2024年4月25日POKÉMON CARD LOUNGE随SHIBUYA TSUTAYA重开迎宾，预约全月席位秒罄。",
-   "anchor": 27
+   "seg": 15,
+   "text": "含个室在内共82席，进入休息区需付费"
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

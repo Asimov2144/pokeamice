@@ -2,11 +2,11 @@
  "id": "corporate-topic-24-pokemon-unite-koshien-high-school-esports",
  "stem": "2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 35
+  "n": 33
  },
  "facets": {
   "pokemon": [],
@@ -15,234 +15,39 @@
     "name": "Pokémon UNITE",
     "slug": null,
     "seg": [
-     0,
-     2,
-     3,
-     5,
-     7,
-     26
+     2
     ],
-    "via": "entities"
-   },
-   {
-    "name": "全国高校ポケモンユナイト選手権大会（ポケモンユナイト甲子園）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンワールドチャンピオンシップス（WCS）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
+    "via": "llm"
    },
    {
     "name": "Pokémon GO",
     "slug": null,
     "seg": [
-     27
+     28
     ],
     "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "日本テレビ放送網株式会社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     2
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     7
-    ],
-    "as": [
-     "届毕业生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     8
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     12
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     12
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     12
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     16,
-     26,
-     27
-    ],
-    "as": [
-     "世界锦标赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     18,
-     21
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     20,
-     22
-    ],
-    "as": [
-     "家庭",
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     21
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     27
-    ],
-    "as": [
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     28
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   }
-  ]
+  "people": [],
+  "places": []
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "《Pokémon UNITE》为5人一队阵营对抗，全球累计下载量突破1.5亿次",
-   "anchor": 4
+   "seg": 2,
+   "text": "高中生限定赛事宝可梦大集结甲子园于2022年诞生",
+   "anchor": 3
   },
   {
-   "seg": 16,
-   "text": "WCS普遍采用征召选人模式，可禁用宝可梦且对手已选宝可梦不可重复选用",
-   "anchor": 17
+   "seg": 3,
+   "text": "《Pokémon UNITE》全球下载量已突破1亿5000万次",
+   "anchor": 4
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

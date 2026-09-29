@@ -31,7 +31,7 @@ entities:
   - 宝可梦 金·银
 era_skin: '1999'
 original_lang: ja
-interview_id: PKMN-0054
+interview_id: PKMN-0109
 parallel_items:
 - type: heading
   level: 2

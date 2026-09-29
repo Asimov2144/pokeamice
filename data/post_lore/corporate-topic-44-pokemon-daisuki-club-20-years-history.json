@@ -2,116 +2,39 @@
  "id": "corporate-topic-44-pokemon-daisuki-club-20-years-history",
  "stem": "2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 43
+  "n": 41
  },
  "facets": {
   "pokemon": [
    {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     16
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "穿山鼠",
-    "ndex": 27,
-    "seg": [
-     35
-    ],
-    "as": [
-     "穿山鼠"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "阿罗拉六尾",
-    "ndex": 37,
-    "seg": [
-     35
-    ],
-    "as": [
-     "阿罗拉六尾"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "风速狗",
-    "ndex": 59,
-    "seg": [
-     35
-    ],
-    "as": [
-     "风速狗"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小拳石",
-    "ndex": 74,
-    "seg": [
-     35
-    ],
-    "as": [
-     "小拳石"
-    ],
-    "via": "body"
-   },
-   {
     "name": "呆呆兽",
     "ndex": 79,
     "seg": [
-     23,
-     26,
-     27,
      28,
      29,
-     30
+     31,
+     33,
+     32
     ],
     "as": [
      "呆呆兽",
      "ヤドン"
     ],
-    "via": "tag"
-   },
-   {
-    "name": "椰蛋树",
-    "ndex": 103,
-    "seg": [
-     35
-    ],
-    "as": [
-     "椰蛋树"
-    ],
     "via": "body"
    },
    {
-    "name": "吉利蛋",
-    "ndex": 113,
+    "name": "クラブ",
+    "ndex": 98,
     "seg": [
-     35
+     7,
+     23
     ],
     "as": [
-     "吉利蛋"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "拉普拉斯",
-    "ndex": 131,
-    "seg": [
-     35
-    ],
-    "as": [
-     "拉普拉斯"
+     "クラブ"
     ],
     "via": "body"
    },
@@ -119,89 +42,17 @@
     "name": "基拉祈",
     "ndex": 385,
     "seg": [
-     16,
-     17
+     18,
+     19
     ],
     "as": [
      "基拉祈",
      "ジラーチ"
     ],
-    "via": "tag"
-   },
-   {
-    "name": "水水獭",
-    "ndex": 501,
-    "seg": [
-     35
-    ],
-    "as": [
-     "水水獭"
-    ],
     "via": "body"
-   },
-   {
-    "name": "电电虫",
-    "ndex": 595,
-    "seg": [
-     35
-    ],
-    "as": [
-     "电电虫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "快龙",
-    "ndex": 149,
-    "seg": [
-     35
-    ],
-    "as": [
-     "快龙"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "土王",
-    "ndex": 980,
-    "seg": [
-     35
-    ],
-    "as": [
-     "土王"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
-   {
-    "name": "ポケモンだいすきクラブ",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケットモンスター 赤・緑",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンローカルActs",
-    "slug": null,
-    "seg": [
-     24
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "ヤドンパラダイス",
-    "slug": null,
-    "seg": [
-     29
-    ],
-    "via": "entities"
-   },
    {
     "name": "宝可梦 红·绿",
     "slug": "red-green",
@@ -209,97 +60,9 @@
      3
     ],
     "via": "llm"
-   },
-   {
-    "name": "宝可梦超喜欢俱乐部",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦超喜欢俱乐部 夏日大作战！",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "向基拉祈许愿…",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokemon Festa",
-    "slug": null,
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦地方振兴计划",
-    "slug": null,
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "呆呆兽乐园",
-    "slug": null,
-    "seg": [
-     28
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "呆呆兽乐园 in 香川",
-    "slug": null,
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦Local Acts",
-    "slug": null,
-    "seg": [
-     32
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "耕地",
-    "slug": null,
-    "seg": [
-     42
-    ],
-    "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社宝可梦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     40
-    ],
-    "via": "llm"
-   }
-  ],
+  "people": [],
   "places": [
    {
     "name": "香川县",
@@ -309,9 +72,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     26
+     28
     ],
-    "what": "呆呆兽联动地",
+    "what": "与呆呆兽合作",
     "via": "llm"
    },
    {
@@ -322,9 +85,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
+    "what": "当地活动开展地",
     "via": "llm"
    },
    {
@@ -335,9 +98,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
+    "what": "当地活动开展地",
     "via": "llm"
    },
    {
@@ -348,9 +111,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
+    "what": "当地活动开展地",
     "via": "llm"
    },
    {
@@ -361,9 +124,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
+    "what": "当地活动开展地",
     "via": "llm"
    },
    {
@@ -374,9 +137,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
+    "what": "当地活动开展地",
     "via": "llm"
    },
    {
@@ -387,35 +150,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
-    "via": "llm"
-   },
-   {
-    "name": "枯叶市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "游戏中的俱乐部所在地",
-    "via": "llm"
-   },
-   {
-    "name": "关都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "游戏中的地区",
+    "what": "当地活动开展地",
     "via": "llm"
    },
    {
@@ -426,256 +163,30 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     35
+     37
     ],
-    "what": "Local Acts道县",
+    "what": "当地活动开展地",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     0,
-     9
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     5,
-     6,
-     7,
-     8,
-     12,
-     14
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     5,
-     7,
-     9
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     5,
-     22,
-     28,
-     31
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     5,
-     6,
-     15,
-     40
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     8
-    ],
-    "as": [
-     "社群"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     9,
-     31
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     9
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     12
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     14,
-     20,
-     21
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     20
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     21
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     28
-    ],
-    "as": [
-     "主题曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     28
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     42
-    ],
-    "as": [
-     "草属性"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 4,
-   "text": "2004年，作为宝可梦官方首座正统粉丝俱乐部诞生",
-   "anchor": 5
+   "seg": 5,
+   "text": "2004年，现实世界诞生官方粉丝俱乐部",
+   "anchor": 6
   },
   {
-   "seg": 9,
-   "text": "鼎盛期注册会员总数突破300万人以上",
-   "anchor": 10
+   "seg": 10,
+   "text": "最盛时期会员数超过300万人",
+   "anchor": 11
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

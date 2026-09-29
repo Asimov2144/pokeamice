@@ -2,11 +2,11 @@
  "id": "corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
  "stem": "2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 35
+  "n": 33
  },
  "facets": {
   "pokemon": [
@@ -14,73 +14,33 @@
     "name": "百变怪",
     "ndex": 132,
     "seg": [
-     0,
      1,
      2,
      5,
-     6,
-     7
+     11,
+     15,
+     16
     ],
     "as": [
-     "百变怪",
-     "メタモン"
+     "百变怪"
     ],
-    "via": "tag"
+    "via": "body"
+   },
+   {
+    "name": "胖丁",
+    "ndex": 39,
+    "seg": [
+     23
+    ],
+    "as": [
+     "胖丁"
+    ],
+    "via": "llm"
    }
   ],
   "works": [
    {
-    "name": "メタモンカップ（百变怪模具杯）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンカードゲーム（PTCG 立体黏土卡牌）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "ネコカップ / コネコカップ",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "メタモンカップ",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ネコカップ",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "コネコカップ",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ポケモンカードゲーム",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦集换式卡牌游戏",
+    "name": "宝可梦卡牌",
     "slug": null,
     "seg": [
      12
@@ -90,34 +50,7 @@
   ],
   "people": [
    {
-    "name": "森井ユカ（著名立体造型作家 / PTCG插画大师）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "アッシュコンセプト株式会社（h concept）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン ライセンスプロデュース部",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
     "name": "森井ユカ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "森井由佳",
     "slug": null,
     "role": "mentioned",
     "seg": [
@@ -126,168 +59,25 @@
     "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     0,
-     12
-    ],
-    "as": [
-     "主视觉",
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     1,
-     12,
-     13
-    ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     2,
-     8,
-     10
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     3,
-     16,
-     27,
-     28
-    ],
-    "as": [
-     "授权",
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     10,
-     12,
-     14
-    ],
-    "as": [
-     "宝可梦卡牌",
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     13,
-     14,
-     15,
-     17,
-     18,
-     19
-    ],
-    "as": [
-     "原型",
-     "样品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     22
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     23
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     28
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     32
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
    "seg": 2,
-   "text": "百变怪模具杯由株式会社宝可梦与h concept联合研发",
+   "text": "百变怪杯由株式会社Ash Concept合作诞生",
    "anchor": 3
   },
   {
-   "seg": 3,
-   "text": "灵感源于策划人邂逅h concept的猫咪模具杯与小猫模具杯",
-   "anchor": 4
+   "seg": 23,
+   "text": "百变怪杯2025年5月发售后在社交网络引起巨大反响",
+   "anchor": 24
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

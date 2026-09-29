@@ -2,7 +2,7 @@
  "id": "corporate-topic-03-pokemon-smile-gamification-health",
  "stem": "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -12,69 +12,29 @@
   "pokemon": [],
   "works": [
    {
-    "name": "Pokémon Smile",
+    "name": "宝可梦微笑",
     "slug": null,
     "seg": [
-     0,
-     4,
-     6,
-     16
+     4
     ],
-    "via": "entities"
+    "via": "llm"
    },
    {
-    "name": "ポケモンスマイル",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "怪物猎人",
+    "name": "怪物猎人系列",
     "slug": null,
     "seg": [
-     13
+     14
     ],
     "via": "llm"
    }
   ],
   "people": [
    {
-    "name": "LITALICO",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     8,
-     9,
-     10,
-     11
-    ]
-   },
-   {
-    "name": "カナヘイ（卡娜赫拉）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "前田高志（NASU）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "裏谷玲央",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ]
-   },
-   {
     "name": "カナヘイ",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     12
+     13
     ],
     "via": "llm"
    },
@@ -83,279 +43,32 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     12
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "裏谷玲央",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
     ],
     "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     1,
-     2,
-     3,
-     4,
-     9,
-     12
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     2,
-     9
-    ],
-    "as": [
-     "育儿",
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     2,
-     17,
-     18
-    ],
-    "as": [
-     "家长",
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     8,
-     10
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     11
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     11
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     11,
-     16
-    ],
-    "as": [
-     "分工",
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     12
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     12
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     12
-    ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     13
-    ],
-    "as": [
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     13
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     13
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     14
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     17
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     17
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "accessibility",
-    "name": "无障碍",
-    "facet": "audience",
-    "seg": [
-     18
-    ],
-    "as": [
-     "无障碍"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
    "seg": 2,
-   "text": "调查显示95.4%母亲认同儿童刷牙重要，98%坦言无法完美督促",
+   "text": "养育未入学儿童的母亲中95.4%认为孩子刷牙很重要，98%回答没能做到完美",
    "anchor": 3
   },
   {
-   "seg": 17,
-   "text": "应用免费开放，支持12种语言，在150多个国家和地区上线",
-   "anchor": 18
+   "seg": 11,
+   "text": "LITALICO负责编程，宝可梦负责游戏策划和开发团队的人员配置",
+   "anchor": 12
   }
  ],
  "relations": [
@@ -379,9 +92,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

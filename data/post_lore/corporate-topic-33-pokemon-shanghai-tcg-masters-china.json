@@ -2,11 +2,11 @@
  "id": "corporate-topic-33-pokemon-shanghai-tcg-masters-china",
  "stem": "2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 26
+  "n": 24
  },
  "facets": {
   "pokemon": [
@@ -25,8 +25,7 @@
     "name": "卡比兽",
     "ndex": 143,
     "seg": [
-     15,
-     17
+     15
     ],
     "as": [
      "卡比兽"
@@ -34,55 +33,8 @@
     "via": "body"
    }
   ],
-  "works": [
-   {
-    "name": "ポケモンカードゲーム マスターズ",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦卡牌大师赛",
-    "slug": null,
-    "seg": [
-     0,
-     22
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦简中版",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "Pokémon Shanghai（宝可梦上海）",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "宝可梦上海运营负责人",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦上海团队",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   }
-  ],
+  "works": [],
+  "people": [],
   "places": [
    {
     "name": "深圳",
@@ -105,9 +57,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     10
+     11
     ],
-    "what": "北京千年古迹",
+    "what": "北京文化遗产",
     "via": "llm"
    },
    {
@@ -149,175 +101,17 @@
     "what": "大师赛巡回城市",
     "via": "llm"
    }
-  ],
-  "concepts": [
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     0,
-     1,
-     3,
-     7,
-     22,
-     23
-    ],
-    "as": [
-     "宝可梦卡牌",
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     2,
-     4
-    ],
-    "as": [
-     "沟通",
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     3,
-     4
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     4
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     8,
-     13,
-     14
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     14
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     16
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     20,
-     23
-    ],
-    "as": [
-     "亲子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     23
-    ],
-    "as": [
-     "社群"
-    ],
-    "via": "body"
-   }
   ]
  },
  "observations": [
   {
    "seg": 2,
-   "text": "大师赛由宝可梦公司在华子公司Pokémon Shanghai负责企划与运营，该公司2020年设立。",
+   "text": "Pokémon Shanghai 自2020年成立，负责大师赛策划与运营",
    "anchor": 3
   },
   {
    "seg": 3,
-   "text": "宝可梦集换式卡牌游戏简体中文版于2022年正式在大陆市场发售。",
+   "text": "宝可梦卡牌游戏简体中文版于2022年发售",
    "anchor": 4
   }
  ],
@@ -325,9 +119,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

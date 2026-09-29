@@ -2,53 +2,15 @@
  "id": "corporate-topic-28-pokemon-trading-card-game-pocket",
  "stem": "2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 29
+  "n": 27
  },
  "facets": {
-  "pokemon": [
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     14
-    ],
-    "as": [
-     "喷火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "超梦",
-    "ndex": 150,
-    "seg": [
-     14
-    ],
-    "as": [
-     "超梦"
-    ],
-    "via": "llm"
-   }
-  ],
+  "pokemon": [],
   "works": [
-   {
-    "name": "Pokémon Trading Card Game Pocket",
-    "slug": null,
-    "seg": [
-     0,
-     2
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "ポケモンカードゲーム",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
    {
     "name": "宝可梦卡牌游戏",
     "slug": null,
@@ -58,7 +20,7 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦卡牌Pocket",
+    "name": "Pokémon Trading Card Game Pocket",
     "slug": null,
     "seg": [
      2
@@ -66,245 +28,34 @@
     "via": "llm"
    },
    {
-    "name": "PTCG Pocket",
+    "name": "宝可梦",
     "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Creatures Inc.",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "DeNA",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     1,
-     2,
-     3,
-     5,
-     6,
-     12
-    ],
-    "as": [
-     "集换式卡牌",
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     2
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     3
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     4,
-     7
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     5,
-     12,
-     14
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
     "seg": [
      5
     ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     9,
-     18
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     11
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     16
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     17,
-     28
-    ],
-    "as": [
-     "机能",
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multilingual",
-    "name": "多语言与字库",
-    "facet": "tech",
-    "seg": [
-     19
-    ],
-    "as": [
-     "多语言"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     22
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     25
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
+    "via": "llm"
    }
-  ]
+  ],
+  "people": [],
+  "places": []
  },
  "observations": [
   {
    "seg": 2,
-   "text": "PTCG诞生于1996年，PTCG Pocket于2024年10月30日全球上线。",
+   "text": "宝可梦卡牌游戏1996年诞生，宝可梦卡牌Pocket于2024年10月30日上线",
    "anchor": 3
   },
   {
-   "seg": 4,
-   "text": "游戏设定为每天可完全免费拆开2包，每包内含5张卡牌。",
-   "anchor": 5
+   "seg": 3,
+   "text": "宝可梦卡牌Pocket由株式会社宝可梦、Creatures、DeNA三家共同开发",
+   "anchor": 4
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

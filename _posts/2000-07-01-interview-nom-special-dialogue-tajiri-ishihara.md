@@ -381,4 +381,5 @@ source:
 original_lang: ja
 tags:
 - N.O.M
+interview_id: PKMN-0110
 ---

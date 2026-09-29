@@ -37,6 +37,7 @@ entities:
   - 石原恒和
   works:
   - 宝可梦频道
+interview_id: PKMN-0118
 workflow:
   fetch: wayback
   translation: deepseek-chat

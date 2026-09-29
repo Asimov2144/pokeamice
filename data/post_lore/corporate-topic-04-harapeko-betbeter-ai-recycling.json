@@ -2,169 +2,63 @@
  "id": "corporate-topic-04-harapeko-betbeter-ai-recycling",
  "stem": "2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 17
+  "n": 16
  },
  "facets": {
   "pokemon": [
    {
-    "name": "臭泥",
+    "name": "阿罗拉臭泥",
     "ndex": 88,
     "seg": [
-     3,
-     0
+     3
     ],
     "as": [
-     "臭泥",
-     "ベトベター"
+     "臭泥"
     ],
-    "via": "tag"
+    "via": "llm"
    }
   ],
   "works": [
    {
-    "name": "はらぺこベトベター ～ベトベターの満腹大作戦～",
+    "name": "肚子饿的臭泥 ～臭泥的吃饱大作战～",
     "slug": null,
     "seg": [
      3
     ],
-    "via": "entities"
-   },
-   {
-    "name": "IBM Watson",
-    "slug": null,
-    "seg": [
-     0,
-     5
-    ],
-    "via": "entities"
+    "via": "llm"
    }
   ],
-  "people": [
-   {
-    "name": "日本コカ・コーラ株式会社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "日本アイ・ビー・エム株式会社",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "株式会社ポケモン",
-    "slug": null,
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
+  "people": [],
   "places": [
    {
-    "name": "池袋太阳城",
+    "name": "东京池袋的阳光城",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
     "scale": "spot",
     "seg": [
-     0
-    ],
-    "what": "首台装置落成地",
-    "via": "llm"
-   },
-   {
-    "name": "东京都池袋太阳城（Sunshine City）",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     10
-    ],
-    "what": "装置实装地点",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     5,
-     7
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
      9
     ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "企划案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     10
-    ],
-    "as": [
-     "亲子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
+    "what": "首次设置回收箱",
+    "via": "llm"
    }
   ]
  },
  "observations": [
   {
    "seg": 3,
-   "text": "三家企业志愿员工历时约一年完成软硬件构想与装置制作",
+   "text": "项目由日本可口可乐、日本IBM、宝可梦三家公司的志愿员工历时约一年构想制作。",
    "anchor": 4
   },
   {
-   "seg": 5,
-   "text": "摄像头抓拍后由IBM Watson甄别PET瓶、玻璃瓶或易拉罐",
-   "anchor": 6
+   "seg": 9,
+   "text": "2020年11月首次设置于东京池袋的阳光城，此后探讨向各地推广。",
+   "anchor": 10
   }
  ],
  "relations": [
@@ -196,9 +90,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

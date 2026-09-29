@@ -1,0 +1,711 @@
+{
+ "id": "scan-ndream-084-ruby-sapphire-interview",
+ "stem": "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
+ "rev": 1,
+ "built": "2026-09-29",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 382
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙花",
+    "ndex": 3,
+    "seg": [
+     77
+    ],
+    "as": [
+     "妙蛙花"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "绿毛虫",
+    "ndex": 10,
+    "seg": [
+     68,
+     70
+    ],
+    "as": [
+     "绿毛虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铁甲蛹",
+    "ndex": 11,
+    "seg": [
+     2
+    ],
+    "as": [
+     "铁甲蛹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     214
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可达鸭",
+    "ndex": 54,
+    "seg": [
+     33,
+     75,
+     231
+    ],
+    "as": [
+     "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小拳石",
+    "ndex": 74,
+    "seg": [
+     72
+    ],
+    "as": [
+     "小拳石"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大钳蟹",
+    "ndex": 98,
+    "seg": [
+     81
+    ],
+    "as": [
+     "大钳蟹"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "百变怪",
+    "ndex": 132,
+    "seg": [
+     234
+    ],
+    "as": [
+     "百变怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     188
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "果然翁",
+    "ndex": 202,
+    "seg": [
+     168
+    ],
+    "as": [
+     "果然翁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木守宫",
+    "ndex": 252,
+    "seg": [
+     27
+    ],
+    "as": [
+     "木守宫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火稚鸡",
+    "ndex": 255,
+    "seg": [
+     218,
+     220,
+     222,
+     223,
+     231
+    ],
+    "as": [
+     "火稚鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "力壮鸡",
+    "ndex": 256,
+    "seg": [
+     222,
+     251
+    ],
+    "as": [
+     "力壮鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸡",
+    "ndex": 257,
+    "seg": [
+     199,
+     202,
+     222
+    ],
+    "as": [
+     "火焰鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水跃鱼",
+    "ndex": 258,
+    "seg": [
+     82
+    ],
+    "as": [
+     "水跃鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沼跃鱼",
+    "ndex": 259,
+    "seg": [
+     375
+    ],
+    "as": [
+     "沼跃鱼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蛇纹熊",
+    "ndex": 263,
+    "seg": [
+     190,
+     192,
+     193
+    ],
+    "as": [
+     "蛇纹熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "直冲熊",
+    "ndex": 264,
+    "seg": [
+     190
+    ],
+    "as": [
+     "直冲熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "刺尾虫",
+    "ndex": 265,
+    "seg": [
+     69,
+     70,
+     71
+    ],
+    "as": [
+     "刺尾虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莲叶童子",
+    "ndex": 270,
+    "seg": [
+     231,
+     259
+    ],
+    "as": [
+     "莲叶童子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "懒人獭",
+    "ndex": 287,
+    "seg": [
+     186,
+     189,
+     192,
+     348,
+     380
+    ],
+    "as": [
+     "懒人獭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "过动猿",
+    "ndex": 288,
+    "seg": [
+     186
+    ],
+    "as": [
+     "过动猿"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "请假王",
+    "ndex": 289,
+    "seg": [
+     186,
+     191,
+     347
+    ],
+    "as": [
+     "请假王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "爆音怪",
+    "ndex": 295,
+    "seg": [
+     344,
+     379
+    ],
+    "as": [
+     "爆音怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "露力丽",
+    "ndex": 298,
+    "seg": [
+     98
+    ],
+    "as": [
+     "露力丽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "优雅猫",
+    "ndex": 301,
+    "seg": [
+     152
+    ],
+    "as": [
+     "优雅猫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "可多拉",
+    "ndex": 305,
+    "seg": [
+     139
+    ],
+    "as": [
+     "可多拉"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吼鲸王",
+    "ndex": 321,
+    "seg": [
+     231,
+     232
+    ],
+    "as": [
+     "吼鲸王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆火驼",
+    "ndex": 322,
+    "seg": [
+     378
+    ],
+    "as": [
+     "呆火驼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猫鼬斩",
+    "ndex": 335,
+    "seg": [
+     153
+    ],
+    "as": [
+     "猫鼬斩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "触手百合",
+    "ndex": 345,
+    "seg": [
+     376
+    ],
+    "as": [
+     "触手百合"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "变隐龙",
+    "ndex": 352,
+    "seg": [
+     377
+    ],
+    "as": [
+     "变隐龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "彷徨夜灵",
+    "ndex": 356,
+    "seg": [
+     115
+    ],
+    "as": [
+     "彷徨夜灵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     109,
+     204
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "固拉多",
+    "ndex": 383,
+    "seg": [
+     201,
+     204,
+     208,
+     212
+    ],
+    "as": [
+     "固拉多"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     6,
+     70,
+     72,
+     262
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 水晶版",
+    "slug": "crystal",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     61
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     214
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达",
+    "slug": null,
+    "seg": [
+     326
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "风之杖",
+    "slug": null,
+    "seg": [
+     327
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "银河战士",
+    "slug": null,
+    "seg": [
+     367
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "GAME FREAK",
+    "slug": null,
+    "seg": [
+     374
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     5,
+     13,
+     15,
+     17,
+     20,
+     25
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     7,
+     9,
+     12,
+     19,
+     73,
+     75
+    ]
+   },
+   {
+    "name": "近藤",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     23,
+     253,
+     278
+    ]
+   },
+   {
+    "name": "全体",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     76,
+     157,
+     273,
+     287,
+     323,
+     340
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     374
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小田部先生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     351
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "下北泽",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     2,
+     149
+    ],
+    "via": "extra",
+    "area": "shimokitazawa-gamefreak",
+    "what": "GAME FREAK 最初的开发基地"
+   },
+   {
+    "name": "丰缘",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     97
+    ],
+    "what": "本作舞台",
+    "via": "llm"
+   },
+   {
+    "name": "福冈县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     77
+    ],
+    "what": "杉森建出生地",
+    "via": "llm"
+   },
+   {
+    "name": "江之岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     91
+    ],
+    "what": "增田看海之处",
+    "via": "llm"
+   },
+   {
+    "name": "九州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     172
+    ],
+    "what": "丰缘地区原型",
+    "via": "llm"
+   },
+   {
+    "name": "彩悠市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     93
+    ],
+    "what": "有很多花的城市",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     91
+    ],
+    "what": "增田的老家",
+    "via": "llm"
+   },
+   {
+    "name": "冲绳",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     93
+    ],
+    "what": "加入游戏的地域元素",
+    "via": "llm"
+   },
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     108
+    ],
+    "what": "杉森提到会考虑的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 23,
+   "text": "近藤说从《红》到《水晶版》约7361万份，加上《红宝石·蓝宝石》约8000万份"
+  },
+  {
+   "seg": 97,
+   "text": "增田说用表示人与人联结的「缘」字，把地名定为「丰缘」"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -2,50 +2,15 @@
  "id": "corporate-topic-08-pokemon-dp-sound-library-music",
  "stem": "2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-29",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 16
+  "n": 23
  },
  "facets": {
   "pokemon": [],
   "works": [
-   {
-    "name": "Pokémon DP Sound Library",
-    "slug": null,
-    "seg": [
-     6,
-     7
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     6
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Reconnect",
-    "slug": null,
-    "seg": [
-     8,
-     10
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Grown",
-    "slug": null,
-    "seg": [
-     8,
-     10
-    ],
-    "via": "entities"
-   },
    {
     "name": "宝可梦 红·绿",
     "slug": "red-green",
@@ -55,10 +20,66 @@
     "via": "llm"
    },
    {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Reconnect",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Grown",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon DP Sound Library",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
     "name": "Pokémon Music Spotlight",
     "slug": null,
     "seg": [
-     4
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon Game Sound Library",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon 25: Yaffle - Reconnect（feat. Daichi Yamamoto & AAAMYYY）",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon 25: Yaffle - Grown（feat. 空音 & yama）",
+    "slug": null,
+    "seg": [
+     22
     ],
     "via": "llm"
    }
@@ -69,267 +90,66 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     8,
-     9,
-     10
-    ]
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Daichi Yamamoto",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "AAAMYYY",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "空音",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "yama",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     3,
-     8,
-     12
-    ],
-    "as": [
-     "玩家群体",
-     "老玩家",
-     "核心玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     4
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     5,
-     6,
-     7
-    ],
-    "as": [
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     5,
-     6
-    ],
-    "as": [
-     "二次创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     5,
-     6,
-     7
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     6
-    ],
-    "as": [
-     "音乐创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     6
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     6,
-     9
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     6
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     6,
-     7,
-     9,
-     10
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     6
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     6,
-     9,
-     13
-    ],
-    "as": [
-     "音源",
-     "声道"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     8
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     8
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     9
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     9
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     10
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     13
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
-   "seg": 4,
-   "text": "2021年早春，宝可梦公司内部员工发起Pokémon Music Spotlight项目",
-   "anchor": 5
+   "seg": 6,
+   "text": "2021年初春，内部项目Pokémon Music Spotlight启动",
+   "anchor": 7
   },
   {
-   "seg": 6,
-   "text": "Pokémon DP Sound Library免费开放《宝可梦 钻石·珍珠》全部149首BGM与环境音效",
-   "anchor": 7
+   "seg": 9,
+   "text": "Pokémon DP Sound Library可免费欣赏钻石·珍珠BGM及效果音全部149曲",
+   "anchor": 10
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }
