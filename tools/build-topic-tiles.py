@@ -107,6 +107,41 @@ def mosaic(images, cols=4):
 def drawn(kind):
     tile = Image.new("RGB", (W, H), (30, 41, 59))
     d = ImageDraw.Draw(tile)
+    if kind == "guide":
+        # a documentation page as /guide/ lays it out: the contents on the left, a title and a
+        # screenshot with numbered pins in the middle, this page's headings on the right
+        from PIL import ImageFont
+        try:
+            font = ImageFont.truetype("C:/Windows/Fonts/msyhbd.ttc", 12)
+        except OSError:
+            font = ImageFont.load_default()
+        soft, faint, ink = (84, 104, 126), (51, 65, 85), (226, 232, 236)
+        for i, w in enumerate((44, 36, 48, 30, 40)):
+            y = 30 + i * 22
+            if i == 1:
+                d.rounded_rectangle((12, y - 6, 66, y + 14), radius=6, fill=faint)
+            d.rounded_rectangle((18, y, 18 + w, y + 8), radius=4, fill=(159, 215, 255) if i == 1 else soft)
+        d.rounded_rectangle((84, 22, 196, 36), radius=5, fill=ink)
+        for y, x1 in ((46, 246), (58, 214)):
+            d.rounded_rectangle((84, y, x1, y + 6), radius=3, fill=soft)
+        d.rounded_rectangle((84, 76, 246, 150), radius=8, fill=(241, 245, 249))
+        d.rounded_rectangle((92, 84, 238, 96), radius=4, fill=(203, 213, 225))
+        for x0, x1 in ((92, 150), (156, 194), (200, 238)):
+            d.rounded_rectangle((x0, 102, x1, 142), radius=4, fill=(214, 224, 236))
+        for n, (cx, cy) in enumerate(((120, 90), (175, 120), (222, 122)), 1):
+            d.ellipse((cx - 11, cy - 11, cx + 11, cy + 11), fill=(255, 255, 255))
+            d.ellipse((cx - 9, cy - 9, cx + 9, cy + 9), fill=(229, 83, 61))
+            d.text((cx, cy), str(n), font=font, fill=(255, 255, 255), anchor="mm")
+        for y, x1 in ((160, 220), (172, 190)):
+            d.rounded_rectangle((84, y, x1, y + 6), radius=3, fill=soft)
+        d.line((266, 26, 266, 150), fill=faint, width=2)
+        for i, w in enumerate((40, 34, 44, 30)):
+            y = 30 + i * 28
+            on = i == 2
+            if on:
+                d.line((266, y - 2, 266, y + 10), fill=(159, 215, 255), width=2)
+            d.rounded_rectangle((276, y, 276 + w, y + 8), radius=4, fill=(159, 215, 255) if on else soft)
+        return tile
     if kind == "credits":
         # the staff matrix as it looks on /credits/staff/: rows of people, a column per game, a mark
         # coloured by department; columns fill in over the years the way the credits grew
@@ -211,7 +246,7 @@ def main():
         for i, im in enumerate(ims):
             bg.paste(im, (i % 4 * 84 + 4, (i // 4) * 84 + 16), im)
         save(bg, "works"); print("  works      <- the work icons")
-    for key in ("timeline", "graph", "credits", "analysis", "quotes"):
+    for key in ("timeline", "graph", "credits", "analysis", "quotes", "guide"):
         if force or not (OUT / f"{key}.jpg").exists():
             save(drawn(key), key); print(f"  {key:10s} <- drawn")
     print("tiles:", sorted(p.name for p in OUT.glob("*.jpg")))

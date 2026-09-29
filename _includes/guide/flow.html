@@ -1,0 +1,26 @@
+{%- comment -%}
+A flow as a row of steps (styles: _guide.scss). It reads left to right and wraps;
+under 700px it runs top to bottom.
+
+  steps  "a>b>c": steps in order, ">" between them. A step with several ways
+         through writes them with "/": "搜索条/图块/维度面板" stacks the three in one
+         box. The first step is the start, the last the end.
+  title  optional label above the row
+
+A loop or a diagram with more than one row is drawn by hand as an inline
+<svg class="guide-svg"> (see the template page); this is for the common case.
+The step text must not contain ">" or "/": write 或 instead.
+{%- endcomment -%}
+{%- assign f_steps = include.steps | split: ">" -%}
+<div class="guide-flow" role="group" aria-label="{{ include.title | default: '流程' }}">
+{%- if include.title %}<p class="guide-flow__title">{{ include.title }}</p>{% endif -%}
+<div class="guide-flow__row">
+{%- for step in f_steps -%}
+{%- assign f_alts = step | split: "/" -%}
+{%- assign f_kind = "" -%}
+{%- if forloop.first -%}{%- assign f_kind = " is-start" -%}{%- elsif forloop.last -%}{%- assign f_kind = " is-end" -%}{%- endif -%}
+{%- unless forloop.first -%}<span class="guide-flow__arrow" aria-hidden="true">→</span>{%- endunless -%}
+<div class="guide-flow__step{{ f_kind }}{% if f_alts.size > 1 %} is-branch{% endif %}">{% for alt in f_alts %}<span class="guide-flow__node">{{ alt | strip }}</span>{% endfor %}</div>
+{%- endfor -%}
+</div>
+</div>

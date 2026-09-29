@@ -47,4 +47,5 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
   <a class="front__tile" href="{{ '/quotes/' | relative_url }}"><img src="{{ tile_base }}quotes.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">余兴</span><strong>今日一句</strong><b>{{ site.data.quotes.quotes | size }}</b></a>
   <a class="front__tile" href="{{ '/timeline/' | relative_url }}"><img src="{{ tile_base }}timeline.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>时间线</strong></a>
   <a class="front__tile" href="{{ '/resource-graph/' | relative_url }}"><img src="{{ tile_base }}graph.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>关系图谱</strong></a>
+  <a class="front__tile" href="{{ '/guide/' | relative_url }}"><img src="{{ tile_base }}guide.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">指南</span><strong>使用指南</strong><b>{{ site.data.guides | where: "status", "published" | size }}</b></a>
 </nav>

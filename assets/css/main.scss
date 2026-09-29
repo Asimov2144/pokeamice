@@ -36,3 +36,5 @@ search: false
 @import "minimal-mistakes/crumbs";
 /* 本篇提到：文章页末尾的图鉴条目，用的是阅读器的排版变量，排在它后面 */
 @import "minimal-mistakes/post-lore";
+/* 使用指南：文档式三栏页与写指南用的组件，选择器都在 .guide 之下 */
+@import "minimal-mistakes/guide";

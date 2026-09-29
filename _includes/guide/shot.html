@@ -1,0 +1,23 @@
+{%- comment -%}
+A screenshot with numbered pins and a note for each (styles: _guide.scss, hover
+link between pin and note: guide.js). The picture stays clean; the pins are
+laid over it in HTML, so the numbers and the notes cannot drift apart and the
+text is searchable and can be reworded without taking the picture again.
+
+  src      the image (site path)
+  alt      what the picture shows, for someone who cannot see it
+  pins     "x;y;note|x;y;note": x and y are percentages of the picture's width
+           and height, note is the text (inline HTML is fine; no ";" or "|")
+  device   desktop (default) or phone: a phone shot stands beside its notes
+  caption  optional, one line under the notes
+{%- endcomment -%}
+{%- assign s_pins = include.pins | split: "|" -%}
+<figure class="guide-shot guide-shot--{{ include.device | default: 'desktop' }}">
+<div class="guide-shot__stage"><img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" loading="lazy" decoding="async">
+{%- for pin in s_pins -%}{%- assign s_f = pin | split: ";" -%}<span class="guide-shot__pin" style="left:{{ s_f[0] | strip }}%;top:{{ s_f[1] | strip }}%" data-pin="{{ forloop.index }}" aria-hidden="true">{{ forloop.index }}</span>{%- endfor -%}
+</div>
+<ol class="guide-shot__notes">
+{%- for pin in s_pins -%}{%- assign s_f = pin | split: ";" -%}<li data-pin="{{ forloop.index }}">{{ s_f[2] | strip }}</li>{%- endfor -%}
+</ol>
+{%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif -%}
+</figure>

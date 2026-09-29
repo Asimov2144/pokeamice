@@ -1,0 +1,15 @@
+{%- comment -%}
+A card for a row of next steps or the list of guides (styles: _guide.scss).
+Put them inside <div class="guide-cards">.
+
+  title  the card's heading
+  text   one or two sentences
+  url    where it goes; empty makes a grey 编写中 card that is not a link
+  kind   optional small label above the title (a site's name, 入门, 进阶)
+{%- endcomment -%}
+{%- comment -%} an empty string is true in Liquid, so "no url" has to be tested as such {%- endcomment -%}
+{%- if include.url and include.url != "" -%}
+<a class="guide-card" href="{{ include.url | relative_url }}">{% if include.kind %}<small>{{ include.kind }}</small>{% endif %}<strong>{{ include.title }}</strong><span>{{ include.text }}</span></a>
+{%- else -%}
+<div class="guide-card is-soon"><small>{% if include.kind %}{{ include.kind }} · {% endif %}编写中</small><strong>{{ include.title }}</strong><span>{{ include.text }}</span></div>
+{%- endif -%}

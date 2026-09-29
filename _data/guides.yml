@@ -1,0 +1,41 @@
+# The 使用指南 topic's table of contents - the one place the guides' sidebar
+# (_layouts/guide.html), the hub page (/guide/) and the count on the home-page
+# tile (_includes/home-topics.html) read from. The navigation entry (KEy docs ->
+# 使用指南) is fixed in _data/navigation.yml. The plan and the decisions are in
+# design/user-guide-plan_2026-09.md.
+#
+# group:  the heading it stands under in the sidebar - one per site the guide is for
+# status: planned (no page yet - listed as "编写中", not a link)
+#         draft (page exists, not linked from anywhere)
+#         published (linked from the sidebar, the hub, and the pager)
+# url:    leave empty until the page exists; the navigation may not point at
+#         a page that does not.
+# verified: the date every step in the guide was last walked through on the live site.
+# shots:  {file, url, viewport, taken} - which page each screenshot shows, so a
+#         change to that page tells you which guide images to redo.
+#
+# The order here is the order of the sidebar and of 上一篇 / 下一篇.
+
+- id: docs-site
+  group: 文档站
+  title: 文档站怎么用
+  url: /guide/docs-site/
+  summary: 从找资料到读扫描，一页看完文档站的主要用法
+  status: published
+  verified: 2026-09-29
+  # every screenshot is of https://docs.pokeamice.com, taken 2026-09-29 with tools/cdpshot.mjs
+  # (Pokeamice_app); desktop 1280 wide, phone 390x844 at 2x (stored at 560 wide).
+  # url is a path on the site; a change to that page means redoing the shot.
+  shots:
+    - {file: home-d.webp, url: /, viewport: 1280x800}
+    - {file: home-m.webp, url: /, viewport: 390x844}
+    - {file: reader-tools-d.webp, url: /访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/, viewport: 1280x900, state: 阅读工具展开}
+    - {file: person-card-d.webp, url: /访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/, viewport: 1280x900, state: 悬停在页头第一个人名上}
+    - {file: lore-d.webp, url: /访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/, viewport: 1280x900, state: 滚到「本篇提到」}
+    - {file: scan-d.webp, url: /访谈翻译/扫描存档/scan-ndream-2011-01-bw-design-secrets/, viewport: 1280x1000, state: 第 3 页，鼠标停在标题段上}
+    - {file: scan-m.webp, url: /访谈翻译/扫描存档/scan-ndream-2011-01-bw-design-secrets/, viewport: 390x844, state: 第 3 页}
+    - {file: people-d.webp, url: /people/, viewport: 1280x800}
+    - {file: credits-bw-d.webp, url: /credits/black-white/, viewport: 1280x800}
+    - {file: staff-d.webp, url: /gamefreak-staff/, viewport: 1280x800}
+    - {file: graph-d.webp, url: /resource-graph/, viewport: 1280x800}
+    - {file: keys-d.webp, url: /keys/, viewport: 1280x800}

@@ -1,0 +1,97 @@
+---
+layout: default
+---
+{%- comment -%}
+A page of the 使用指南 topic, laid out like documentation: the guides' contents
+on the left (_data/guides.yml, grouped; a guide that is not published yet is
+listed as 编写中 and is not a link), the article in the middle, this page's
+headings on the right (assets/js/guide.js builds them from the h2 / h3).
+
+Front matter:
+  title      the page's h1
+  lead       the paragraph under it (falls back to the guide's summary)
+  chips      [{label, url}]: quick links under the lead
+  verified   the day every step was last walked through on the live site
+             (falls back to the guide's own in guides.yml)
+The pieces to write with are in _pages/guide/template.md. Not the site's
+crumbs.html: the trail here is only 首页 › 使用指南 › the guide's group.
+{%- endcomment -%}
+{%- assign g_all = site.data.guides -%}
+{%- assign g_here = g_all | where: "url", page.url | first -%}
+{%- assign g_groups = g_all | group_by: "group" -%}
+{%- assign g_pub = g_all | where_exp: "g", "g.url and g.status == 'published'" -%}
+{%- assign g_idx = -1 -%}
+{%- for g in g_pub -%}{%- if g.url == page.url -%}{%- assign g_idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign g_prev = nil -%}
+{%- assign g_next = nil -%}
+{%- if g_idx >= 0 -%}
+  {%- if g_idx > 0 -%}{%- assign g_prev_i = g_idx | minus: 1 -%}{%- assign g_prev = g_pub[g_prev_i] -%}{%- endif -%}
+  {%- assign g_next_i = g_idx | plus: 1 -%}{%- assign g_next = g_pub[g_next_i] -%}
+{%- endif -%}
+{%- assign g_verified = page.verified | default: g_here.verified -%}
+<div id="main" role="main">
+<div class="guide" data-guide>
+
+  <aside class="guide__nav" aria-label="使用指南目录">
+    <details class="guide__drawer" open>
+      <summary>使用指南目录</summary>
+      <form class="guide__search" action="{{ '/search/' | relative_url }}" method="get" role="search">
+        <input type="search" name="q" placeholder="搜索全站" aria-label="搜索全站" autocomplete="off">
+        <kbd aria-hidden="true">/</kbd>
+      </form>
+      <a class="guide__home" href="{{ '/guide/' | relative_url }}">使用指南</a>
+      {%- for grp in g_groups %}
+      <section class="guide__group">
+        <p class="guide__group-title">{{ grp.name }}</p>
+        <ul>
+          {%- for g in grp.items %}
+          <li>
+            {%- if g.url and g.status == "published" %}<a href="{{ g.url | relative_url }}"{% if g.url == page.url %} aria-current="page"{% endif %}>{{ g.title }}</a>
+            {%- else %}<span class="is-soon">{{ g.title }} <small>编写中</small></span>{% endif %}
+          </li>
+          {%- endfor %}
+        </ul>
+      </section>
+      {%- endfor %}
+    </details>
+  </aside>
+
+  <div class="guide__main">
+    <article class="guide__article">
+      <nav class="guide__crumbs" aria-label="所在位置">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        {%- if page.url == "/guide/" %}<span>使用指南</span>
+        {%- else %}<a href="{{ '/guide/' | relative_url }}">使用指南</a>{% if g_here.group %}<span>{{ g_here.group }}</span>{% endif %}{% endif %}
+      </nav>
+      <header class="guide__head">
+        <h1 class="guide__title">{{ page.title }}</h1>
+        <div class="guide__actions"><button type="button" class="guide__btn" data-guide-copy>复制链接</button></div>
+        {%- assign g_lead = page.lead | default: g_here.summary %}
+        {%- if g_lead %}<p class="guide__lead">{{ g_lead }}</p>{% endif %}
+        {%- if page.chips %}
+        <div class="guide__chips">{% for c in page.chips %}{% assign c_first = c.url | slice: 0, 1 %}<a class="guide__chip" href="{% if c_first == '#' or c.url contains '://' %}{{ c.url }}{% else %}{{ c.url | relative_url }}{% endif %}">{{ c.label }}</a>{% endfor %}</div>
+        {%- endif %}
+        {%- if g_verified %}<p class="guide__meta">最后核对：{{ g_verified | date: "%Y-%m-%d" }}</p>{% endif %}
+      </header>
+
+      <div class="guide__body">
+        {{ content }}
+      </div>
+
+      {%- if g_prev or g_next %}
+      <nav class="guide__pager" aria-label="上一篇和下一篇">
+        {%- if g_prev %}<a href="{{ g_prev.url | relative_url }}"><small>上一篇</small><strong>{{ g_prev.title }}</strong></a>{% endif %}
+        {%- if g_next %}<a class="is-next" href="{{ g_next.url | relative_url }}"><small>下一篇</small><strong>{{ g_next.title }}</strong></a>{% endif %}
+      </nav>
+      {%- endif %}
+    </article>
+
+    <nav class="guide__toc" aria-label="本页目录" data-guide-toc>
+      <p class="guide__toc-title">本页目录</p>
+      <ol></ol>
+    </nav>
+  </div>
+
+</div>
+</div>
+<script src="{{ '/assets/js/guide.js' | relative_url }}" defer></script>
