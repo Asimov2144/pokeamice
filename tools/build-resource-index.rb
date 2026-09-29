@@ -437,65 +437,8 @@ ENTITY_TYPES.each do |type, label|
   end
 end
 
-timeline_listing = index["timeline"].values.sort_by { |item| item["year"] }.reverse.map do |item|
-  count = item["posts"].size + item["annotations"].size
-  "<a href=\"#{item["url"]}\"><strong>#{item["year"]}</strong><span>#{count} 条资料</span></a>"
-end.join("\n")
-
-write_page(
-  File.join(GENERATED_DIR, "timeline.md"),
-  {
-    "title" => "资料时间线",
-    "permalink" => "/timeline/",
-    "layout" => "single",
-    "search" => false
-  },
-  <<~HTML
-    <section class="resource-network-page">
-      <div class="resource-network-hero">
-        <p>Timeline</p>
-        <h2>资料时间线</h2>
-        <span>按年份汇总文章和评注，适合追踪同一人物、作品或事件的资料变化。</span>
-      </div>
-      <div class="resource-network-index resource-network-index--years">
-        #{timeline_listing}
-      </div>
-    </section>
-  HTML
-)
-
-index["timeline"].values.each do |year|
-  write_page(
-    File.join(GENERATED_DIR, "timeline", "#{year["year"]}.md"),
-    {
-      "title" => "#{year["year"]} - 资料时间线",
-      "permalink" => year["url"],
-      "layout" => "single",
-      "search" => false
-    },
-    <<~HTML
-      <section class="resource-network-page">
-        <div class="resource-network-hero">
-          <p>Timeline</p>
-          <h2>#{year["year"]}</h2>
-          <span>#{year["posts"].size} 篇文章 · #{year["annotations"].size} 条评注</span>
-        </div>
-        <div class="resource-network-jump">
-          <a href="/timeline/">返回时间线</a>
-          <a href="/resource-graph/">关系图谱</a>
-        </div>
-        <section class="resource-network-section">
-          <h2>文章</h2>
-          #{card_list(year["posts"], "这一年暂无文章。")}
-        </section>
-        <section class="resource-network-section">
-          <h2>评注</h2>
-          #{annotation_list(year["annotations"])}
-        </section>
-      </section>
-    HTML
-  )
-end
+# The timeline pages (/timeline/, /timeline/<year>/) are no longer written here:
+# tools/build-timeline.py bakes _data/timeline.yml and the year stubs, _pages/timeline.md is the overview.
 
 puts "Generated resource index: #{index["posts"].size} posts, #{index["annotations"].size} annotations"
 puts "Generated entity pages under #{GENERATED_DIR.sub(ROOT + File::SEPARATOR, "")}"

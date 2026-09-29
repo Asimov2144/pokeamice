@@ -1,0 +1,132 @@
+{%- comment -%}
+One year of the timeline (/timeline/<year>/, the stubs tools/build-timeline.py writes under
+_pages/generated/timeline/). The numbers, the era, the games of the year and its people come
+from _data/timeline.yml; the entries are the year's posts, drawn with the library's own compact
+card and grouped by month. The Game Freak blogs are a stream of hundreds of short entries, so
+they are not cards: one folded list per blog under the documents. assets/js/timeline.js only
+filters what is already on the page.
+{%- endcomment -%}
+{% assign tl = site.data.timeline %}
+{% assign ty = page.timeline_year %}
+{% assign ty_s = ty | append: "" %}
+{% assign yd = tl.years | where: "year", ty | first %}
+{% assign present = tl.years | where_exp: "t", "t.docs > 0 or t.stream > 0" %}
+{% assign era_now = nil %}
+{% for e in tl.eras %}{% if ty >= e.from and ty <= e.to %}{% assign era_now = e %}{% endif %}{% endfor %}
+{% assign prev_y = nil %}{% assign next_y = nil %}
+{% for t in present %}
+  {% if t.year < ty %}{% assign prev_y = t.year %}{% endif %}
+  {% if t.year > ty and next_y == nil %}{% assign next_y = t.year %}{% endif %}
+{% endfor %}
+
+{% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% assign y_group = by_year | where: "name", ty_s | first %}
+{% assign y_posts = y_group.items %}
+{% unless y_posts %}{% assign y_posts = "" | split: "," %}{% endunless %}
+{% assign y_docs = y_posts | where_exp: "p", "p.archive_type != 'gamefreak_director_column' and p.archive_type != 'gamefreak_masuda_lineblog' and p.archive_type != 'gamefreak_legacy_blog'" %}
+{% assign y_docs = y_docs | where_exp: "p", "p.search != false" | sort: "date" %}
+{% assign months = y_docs | group_by_exp: "p", "p.date | date: '%m'" | sort: "name" %}
+
+<div class="tl tl--year">
+  <header class="tl-head">
+    <p class="tl-head__eyebrow"><a href="{{ '/timeline/' | relative_url }}">时间线</a>{% if era_now %} · {{ era_now.label }}{% endif %}</p>
+    <div class="tl-head__row">
+      {% if prev_y %}<a class="tl-head__step" href="{{ '/timeline/' | append: prev_y | append: '/' | relative_url }}" rel="prev" title="{{ prev_y }}"><span aria-hidden="true">‹</span> {{ prev_y }}</a>{% else %}<span class="tl-head__step is-off"></span>{% endif %}
+      <h1 class="tl-head__year">{{ ty }}</h1>
+      {% if next_y %}<a class="tl-head__step" href="{{ '/timeline/' | append: next_y | append: '/' | relative_url }}" rel="next" title="{{ next_y }}">{{ next_y }} <span aria-hidden="true">›</span></a>{% else %}<span class="tl-head__step is-off"></span>{% endif %}
+    </div>
+    <p class="tl-head__facts">
+      {% if yd.docs > 0 %}<b>{{ yd.docs }}</b> 篇文献{% else %}这一年没有收录访谈或杂志{% endif %}{% if yd.stream > 0 %}{% if yd.docs > 0 %} · {% endif %}<b>{{ yd.stream }}</b> 篇 Game Freak 博客{% endif %}
+    </p>
+    <div class="tl-tally" aria-label="文献的类型">
+      {% if yd.kinds.interview > 0 %}<span class="is-interview"><i></i>访谈翻译 <b>{{ yd.kinds.interview }}</b></span>{% endif %}
+      {% if yd.kinds.scan > 0 %}<span class="is-scan"><i></i>杂志扫描 <b>{{ yd.kinds.scan }}</b></span>{% endif %}
+      {% if yd.kinds.topic > 0 %}<span class="is-topic"><i></i>官方专题 <b>{{ yd.kinds.topic }}</b></span>{% endif %}
+      {% if yd.kinds.article > 0 %}<span class="is-article"><i></i>文章 <b>{{ yd.kinds.article }}</b></span>{% endif %}
+    </div>
+  </header>
+
+  <nav class="tl-strip" aria-label="选择年份">
+    {% for t in tl.years %}{% if t.docs > 0 or t.stream > 0 %}<a href="{{ '/timeline/' | append: t.year | append: '/' | relative_url }}"{% if t.year == ty %} class="is-here" aria-current="page"{% endif %}>{{ t.year }}</a>{% else %}<span>{{ t.year }}</span>{% endif %}{% endfor %}
+  </nav>
+
+  {% if yd.games.size > 0 or yd.people.size > 0 or yd.works.size > 0 %}
+  <section class="tl-context">
+    {% if yd.games.size > 0 %}
+    <div class="tl-context__row">
+      <h2>这一年的作品</h2>
+      <div class="tl-chips">
+        {% for g in yd.games %}<a class="tl-game" href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}" title="{{ g.title }} · 制作名单">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="20" height="20" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="20" height="20" loading="lazy">{% endif %}{% else %}<i class="tl-game__dot"></i>{% endif %}<span>{{ g.title }}</span></a>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {% if yd.people.size > 0 %}
+    <div class="tl-context__row">
+      <h2>谈得最多的人</h2>
+      <div class="tl-chips">
+        {% for p in yd.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }} <b>{{ p.n }}</b></a>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {% if yd.works.size > 0 %}
+    <div class="tl-context__row">
+      <h2>谈得最多的作品</h2>
+      <div class="tl-chips">
+        {% for w in yd.works %}<span class="tl-chip tl-chip--work">{% if w.icon %}<img src="{{ w.icon | relative_url }}" alt="" width="16" height="16" loading="lazy">{% endif %}{{ w.name }} <b>{{ w.n }}</b></span>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if y_docs.size > 0 %}
+  <div class="tl-bar">
+    <div class="tl-filters" role="group" aria-label="按类型筛选">
+      <button type="button" class="is-on" data-tl-filter="all">全部 <b>{{ yd.docs }}</b></button>
+      {% if yd.kinds.interview > 0 %}<button type="button" data-tl-filter="interview">访谈翻译 <b>{{ yd.kinds.interview }}</b></button>{% endif %}
+      {% if yd.kinds.scan > 0 %}<button type="button" data-tl-filter="scan">杂志扫描 <b>{{ yd.kinds.scan }}</b></button>{% endif %}
+      {% if yd.kinds.topic > 0 %}<button type="button" data-tl-filter="topic">官方专题 <b>{{ yd.kinds.topic }}</b></button>{% endif %}
+      {% if yd.kinds.article > 0 %}<button type="button" data-tl-filter="article">文章 <b>{{ yd.kinds.article }}</b></button>{% endif %}
+    </div>
+    {% if months.size > 1 %}
+    <nav class="tl-months" aria-label="跳到月份">
+      {% for m in months %}<a href="#m{{ m.name }}">{{ m.name | plus: 0 }} 月</a>{% endfor %}
+    </nav>
+    {% endif %}
+  </div>
+
+  <div class="tl-docs">
+    {% for m in months %}
+    <section class="tl-month" id="m{{ m.name }}" data-tl-month>
+      <h2 class="tl-month__h"><span>{{ m.name | plus: 0 }}</span> 月 <small><span data-tl-count>{{ m.items.size }}</span> 篇</small></h2>
+      <div class="tl-wall" data-card-grid>
+        {% for p in m.items %}
+        {% assign k = "article" %}
+        {% if p.archive_type == "scan_translation" %}{% assign k = "scan" %}
+        {% elsif p.categories contains "专题报道" %}{% assign k = "topic" %}
+        {% elsif p.layout == "interview-editorial" or p.layout == "parallel-translation" %}{% assign k = "interview" %}{% endif %}
+        <div class="tl-item" data-kind="{{ k }}">{% include entry-card.html card_post=p compact=true %}</div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if yd.stream > 0 %}
+  {% assign s_dir = y_posts | where: "archive_type", "gamefreak_director_column" | sort: "date" %}
+  {% assign s_line = y_posts | where: "archive_type", "gamefreak_masuda_lineblog" | sort: "date" %}
+  {% assign s_staff = y_posts | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "staff" | sort: "date" %}
+  {% assign s_art = y_posts | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "art" | sort: "date" %}
+  <section class="tl-streams">
+    <h2 class="tl-streams__h">Game Freak 的博客 <small>{{ yd.stream }} 篇，按天收进来的短文，折叠着放</small></h2>
+    {% include timeline-stream.html name="部长专栏" list=s_dir %}
+    {% include timeline-stream.html name="员工博客《晴时偶有阴》" list=s_staff %}
+    {% include timeline-stream.html name="增田顺一 LINE 博客" list=s_line %}
+    {% include timeline-stream.html name="杉森建的お絵かき日和" list=s_art %}
+  </section>
+  {% endif %}
+
+  <p class="tl-foot"><a href="{{ '/timeline/' | relative_url }}">← 回到整条时间线</a>{% if prev_y %} · <a href="{{ '/timeline/' | append: prev_y | append: '/' | relative_url }}">{{ prev_y }}</a>{% endif %}{% if next_y %} · <a href="{{ '/timeline/' | append: next_y | append: '/' | relative_url }}">{{ next_y }}</a>{% endif %}</p>
+</div>
+<script src="{{ '/assets/js/timeline.js' | relative_url }}" defer></script>

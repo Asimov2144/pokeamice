@@ -1,0 +1,9 @@
+{%- comment -%}One Game Freak blog of a year on the timeline, folded: a date and a title per line. Pass `name` and `list` (the year's posts of that blog, oldest first). {%- endcomment -%}
+{% if include.list.size > 0 %}
+<details class="tl-stream"{% if include.list.size <= 6 %} open{% endif %}>
+  <summary><span class="tl-stream__name">{{ include.name }}</span> <b>{{ include.list.size }}</b> 篇</summary>
+  <ol class="tl-stream__list">
+    {% for p in include.list %}<li><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%m-%d" }}</time><a href="{{ p.url | relative_url }}">{{ p.gf_translation_title | default: p.title | strip_html | truncate: 70 }}</a></li>{% endfor %}
+  </ol>
+</details>
+{% endif %}

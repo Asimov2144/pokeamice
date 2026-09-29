@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{%- comment -%}
+The timeline (/timeline/ and /timeline/<year>/): the library's shell - the page without the
+theme's sidebar, in the same .library.front root, so the head of a page and the compact entry cards
+are the library's own - but its own layout name, because the crumbs follow the layout: a year sits
+under 时间线, not under 资料窗口. assets/js/card-grid.js packs the month walls.
+{%- endcomment -%}
+<div id="main" role="main">
+  <div class="library front">
+    {% include crumbs.html %}
+    {{ content }}
+  </div>
+</div>
+<script src="{{ '/assets/js/card-grid.js' | relative_url }}" defer></script>
