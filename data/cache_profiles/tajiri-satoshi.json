@@ -1,49 +1,58 @@
 {
- "key": "6cdd872fd10fb7b3",
+ "key": "7b91b31eac031bad",
  "answer": {
-  "summary": "田尻智以总监/制作人身份长期主导《宝可梦》系列开发，并参与企划与美术工作。他最初想做类似RPG的东西，构想是“在战斗场景等地方不使用数字来表达，能做出多有触感的RPG”[1]。他自述《宝可梦》企划始于公司设立之初，完成历时6年，中途有人员进出，全程参与者只有他、增田和杉森3人[1]。他提到最初设计200多只宝可梦后削减到150只，并采纳宫本茂建议分为两个版本[11]。他早年创办同人志《GAME FREAK》，通过邮购广告与口耳相传传播游戏信息[12]。",
+  "summary": "田尻智以企划与总监/制作人身份主导《宝可梦》系列，从最初企划书到完成历经六年，其间只有他与增田、杉森三人全程参与[1]。他主张先不管内存限制把想做的内容做出来，之后再削减装不下的部分[2][11]。他重视用数字增减来控制游戏信息量与趣味性的平衡，并希望借内存增加让玩家更细致地理解游戏世界[1][2]。他自述长期昼夜颠倒地工作以获取设计灵感，并认为游戏与动画的制作技术有共通之处[3]。据第三方报道，其童年昆虫采集体验被视为《宝可梦》核心灵感的原点[12]。",
   "expertise": [
-   "游戏总监",
-   "企划",
-   "RPG设计",
+   "游戏企划",
+   "总监制作",
    "宝可梦设计",
-   "版本分案"
+   "RPG设计",
+   "世界观构筑",
+   "图鉴功能"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "称《宝可梦》企划始于公司设立之初，完成花了6年，全程参与者仅3人"
+    "detail": "称企划书写于公司设立之初，完成花6年，全程参与者仅他、增田、杉森3人。"
+   },
+   {
+    "n": 2,
+    "detail": "称先不管内存做想做的内容，之后再削减装不下的宝可梦。"
    },
    {
     "n": 3,
-    "detail": "自述睡12小时工作24小时，过去三年不规律作息以获取设计灵感"
-   },
-   {
-    "n": 4,
-    "detail": "称看到《魔界塔士SaGa》后意识到GB也能做非动作游戏"
+    "detail": "自述睡12小时工作24小时，过去三年如此，靠昼夜颠倒获得灵感。"
    },
    {
     "n": 11,
-    "detail": "称最初设计200多只宝可梦后削减到150只，并采纳宫本茂建议分两版本"
+    "detail": "称初代设计200多只宝可梦后削减到150只，并接受宫本茂建议分两版本。"
+   },
+   {
+    "n": 5,
+    "detail": "称看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏。"
+   },
+   {
+    "n": 10,
+    "detail": "称16岁报名世嘉游戏创意大奖，优秀奖两人中一人是他。"
    },
    {
     "n": 12,
-    "detail": "回忆与杉森建通信、因同人志结识，并曾在《GAME FREAK》做《铁板阵》特辑"
+    "detail": "据该专题报道，其少年时代昆虫采集体验是《宝可梦》核心灵感的原点。"
    }
   ]
  },
  "posts": [
   "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-  "1997-10-16-interview-gamefreak-official-red-green-staff",
+  "1997-11-27-interview-glitterberri-spaceworld-pokemon2-en",
   "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
+  "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
   "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
-  "2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138",
   "2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139",
   "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
-  "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
   "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
-  "2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144",
-  "2014-03-19-interview-interview-21",
-  "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo"
+  "2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143",
+  "2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th",
+  "2013-05-29-interview-glitterberri-early-concept-art",
+  "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure"
  ]
 }

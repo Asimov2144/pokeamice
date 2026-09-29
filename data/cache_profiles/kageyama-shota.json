@@ -1,47 +1,57 @@
 {
- "key": "e4a8bf68ebe47224",
+ "key": "94feb2d5b483f719",
  "answer": {
-  "summary": "景山将太在 GAME FREAK 声音团队中负责背景音乐与音效，并统括《宝可梦 黑／白》的声音制作，按成员个性安排分工 [1]。他主张以创意优先，重视旋律朗朗上口、玩家在游玩与战斗中情绪是否舒畅高涨 [4][5]。在《宝可梦 X·Y》中，他从项目初期独自构思声音方向，与团队反复讨论何为宝可梦声音的特色 [6]。他还会对照实机画面同步配乐，并采用同一曲子的变奏来体现地区与角色的关联 [4][5]。",
+  "summary": "景山将太以游戏声音制作为核心专长，长期负责《宝可梦》系列背景音乐与音效，并统括整体声音制作 [2]。他主张在继承系列既有特色与增田顺一所坚守内核的同时，追求新的「宝可梦之声」，并重视玩家游玩时的舒适感与战斗中的情绪高涨 [1][4][6]。在团队管理上，他按成员个性分配曲目，推动公司内部统一使用 Cubase 以共享工程数据 [2]。他也参与企划、程序与美术等其他领域的工作。",
   "expertise": [
    "音乐作曲",
-   "声音统括",
-   "音效制作",
-   "编曲变奏",
-   "团队分工"
+   "声音总监",
+   "音效设计",
+   "团队统筹",
+   "音频工作流"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "2007 年加入 GAME FREAK，在《黑／白》中统括声音制作并安排四人分工。"
+    "detail": "首次担任音频负责人的作品是完全新作《宝可梦 黑白》，称压力很大但开发很快乐。"
    },
    {
     "n": 2,
-    "detail": "向总监增田提出强化音色等想法，后被委任声音总监。"
+    "detail": "2007 年加入 GAME FREAK，在《黑／白》中统括游戏声音制作并安排四人分工。"
    },
    {
     "n": 3,
-    "detail": "据 4Gamer.net 报道，他与音频团队探讨何为具有宝可梦灵魂的音乐。"
+    "detail": "称没想到声音总监工作会交给刚加入的自己，并提到爱用 YAMAHA S90 ES 键盘。"
    },
    {
     "n": 4,
-    "detail": "称最先完成道馆馆主战 BGM，并会对照实机画面谱写旋律。"
+    "detail": "谈《X·Y》全球同步发售，称与音频团队反复探讨何为具有宝可梦灵魂的音乐。"
    },
    {
     "n": 5,
-    "detail": "承认《卡洛斯的主题》与《布拉塔诺宝可梦研究所》为同一曲子的变奏。"
+    "detail": "称自己多在放松或被逼到绝境时对着钢琴创作，基本没有低潮期。"
    },
    {
     "n": 6,
-    "detail": "《X·Y》项目启动时声音方面只有他一人，历时近三年。"
+    "detail": "说明《卡洛斯的主题》与《布拉塔诺宝可梦研究所》是同一曲子的编曲变奏。"
+   },
+   {
+    "n": 7,
+    "detail": "称《X·Y》声音开发周期近 3 年，启动之初声音方面只有他一人。"
+   },
+   {
+    "n": 8,
+    "detail": "据该报道，《Pokémon Sleep》团队推翻视频案，确立以睡姿图鉴与清晨收集为核心的架构。"
    }
   ]
  },
  "posts": [
+  "2010-10-20-interview-bw-music-collection-liner-notes",
   "2010-11-20-interview-steinberg-gamefreak-sound-cubase",
   "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
   "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
   "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art",
   "2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama",
-  "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview"
+  "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview",
+  "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream"
  ]
 }

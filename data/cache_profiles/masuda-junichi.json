@@ -1,78 +1,78 @@
 {
- "key": "6654ae43baff8381",
+ "key": "44c1957cceac23da",
  "answer": {
-  "summary": "增田顺一在宝可梦系列中同时涉足总监/制作人、音乐、企划与美术等多个领域，履历显示其长期担任核心署名。他主张从玩法与世界构想出发再设计宝可梦，而非先做怪物 [4]。在舞台设定上，他倾向从现实地点取材，如以纽约为原型构思合众地区 [3]，以法国对应《X·Y》的“美丽”主题 [6]。他也参与标题与主题的确定，如《黑·白》首次依据叙事与哲学世界观命名 [4]。",
+  "summary": "增田顺一长期在 GAME FREAK 同时承担作曲、程序与总监/制作人工作，是少数横跨声音、程序与企划决策的多面手 [6]。他自初代起亲自操刀音乐，主张仅凭倾听便能心领神会、用旋律刻画玩家旅途中的心境变化 [8]。在系统与玩法层面，他围绕「交流」这一哲学原点推动多人联机、双版本与全球同步发售等设计 [2][7]。他重视面向所有年龄层的低门槛体验，反对为迎合硬核玩家而使系统繁琐化 [3]。在具体制作中，他常从硬件特性与玩家情境出发倒推功能，并关注对战平衡的调整 [11][8]。",
   "expertise": [
-   "总监制作",
    "音乐作曲",
-   "企划",
-   "世界观设定",
-   "战斗系统",
-   "宝可梦设计"
+   "程序开发",
+   "企划设计",
+   "总监制作",
+   "联机交流",
+   "对战平衡"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "称最后关头努力加入通信对战的地方最让人印象深刻。"
+    "detail": "称6年前制作的宝可梦叫声仍在使用，最后关头努力加入通信对战。"
    },
    {
     "n": 2,
-    "detail": "称从“要把这款游戏做成什么样”的构想出发完成整体。"
+    "detail": "称GBA版让4名玩家同时连接互动，「交流」是宝可梦背后的灵魂哲学。"
    },
    {
     "n": 3,
-    "detail": "称以纽约为原型，在MoMA中庭构思出六边形地区结构。"
+    "detail": "称宝可梦对所有人开放无门槛，掌机是与宝可梦最相称的载体。"
    },
    {
     "n": 4,
-    "detail": "称先设计玩法与世界，再设计怪物，并首次依叙事定标题。"
+    "detail": "称过桥前有意不改变既有世界结构，让玩家尽快融入这个世界。"
    },
    {
     "n": 5,
-    "detail": "称平时随身携带记录灵感的创意手记，并展示初期概念草图。"
+    "detail": "称合众桥梁以布鲁克林大桥与彩虹大桥相加除以二、交由高迪式设计。"
    },
    {
     "n": 6,
-    "detail": "称标题X与Y来自X轴和Y轴，代表不同观点与相交之处。"
+    "detail": "称GAME FREAK规模小，人人尝试各种工作，梦幻的图由森本所画。"
    },
    {
     "n": 7,
-    "detail": "称《X·Y》历时三年多、逾五百人参与，并实现全球同步发售。"
+    "detail": "称《X·Y》三条主题为美、羁绊与进化，超级进化只在一场对战中持续。"
    },
    {
     "n": 8,
-    "detail": "向儿童介绍团队有程序员、作曲家、策划、美术设计师四种职业。"
+    "detail": "称因龙属性等使平衡倾斜，与森本茂树研讨后引入妖精属性。"
    },
    {
     "n": 9,
-    "detail": "据Game Informer报道，增田称《宝可梦GO》是他最喜欢的衍生作品。"
+    "detail": "称最初目标受众10岁，如今已30岁，需考虑不同年龄层的游玩方式。"
    },
    {
     "n": 10,
-    "detail": "称曾设想《宝可梦GO》销量达到通常宝可梦游戏的10倍。"
+    "detail": "自述为作曲家、程序员，从《红宝石》到《X/Y》的导演。"
    },
    {
     "n": 11,
-    "detail": "据Game Informer报道，增田称图鉴削减是为优先新玩法构想。"
+    "detail": "称项目始于如何让人走进房间玩游戏这一问题，再倒推所需功能。"
    },
    {
     "n": 12,
-    "detail": "据Game Informer报道，该篇主要为大森滋与岩尾和昌谈《剑·盾》。"
+    "detail": "据Game Informer报道，GAME FREAK不愿制作玩家无法随身携带的游戏。"
    }
   ]
  },
  "posts": [
   "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-  "2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages",
-  "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world",
-  "2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains",
-  "2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
-  "2013-09-21-interview-nintendolife-2013-xy",
-  "2013-11-06-interview-hobbyconsolas-xy-masuda",
-  "2014-11-01-interview-topofarmer-ideame-masuda-ohmori",
-  "2017-08-15-interview-gi-2017-spinoffs",
-  "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle",
-  "2019-10-01-interview-gi-2019-dexit",
+  "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+  "2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda",
+  "2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
+  "2011-02-21-interview-nintendodream-bw-bridges-masuda",
+  "2012-07-21-scan-ndream-221-b2w2-developer-interview",
+  "2013-09-20-interview-multiplayer-2013-xy",
+  "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+  "2016-12-05-interview-25043",
+  "2017-11-06-interview-2017-game-freak-dordogne-enquete",
+  "2018-11-01-interview-pokemoncom-2018-letsgo-makers",
   "2019-11-13-interview-gi-2019-going-big"
  ]
 }

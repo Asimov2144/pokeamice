@@ -1,65 +1,70 @@
 {
- "key": "c1e93dc957f0ce70",
+ "key": "22a705453d9dee83",
  "answer": {
-  "summary": "森本茂树长期参与《宝可梦》系列的开发，涉足程序、美术、企划与总监等多个领域，早期在图形和程序两方面都是第一次做游戏 [1]。他负责战斗程序的编写，并参与通信对战从只能旁观到可输入指令的改造 [1]。他重视细节打磨与玩家体验，认为《宝可梦》期限不确定，因此好点子几乎都放了进去 [1]。他创造并放入了梦幻，称自己欠梦幻太多 [3]。在重制作品中，他关注如何兼顾老玩家怀旧与新玩家初次游玩 [8][9]。",
+  "summary": "森本茂树长期参与《宝可梦》系列的战斗系统设计与程序实现，从初代起就负责战斗程序，并在后续作品中担任对战总监、总监与制作人。他主张在既有单打对战的基础上加入双打、三打等新玩法，同时通过削弱过强招式、强化冷门招式来维持平衡 [5][10]。在重制作品中，他注重兼顾老玩家的怀旧感与新玩家的初次体验 [8][9]。他也参与宝可梦设计与企划，如蚊香蝌蚪和猴怪的设计 [3]，并提到会与剧本、设计方协作提出需求 [4]。",
   "expertise": [
    "战斗系统",
+   "对战平衡",
    "程序开发",
    "宝可梦设计",
-   "企划",
-   "总监"
+   "重制企划",
+   "总监制作"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "战斗程序由他编写，最初对战只能旁观，提交任天堂后问卷写「无聊」。"
+    "detail": "初代战斗画面最初不显示数字和体力条，后逐步加入等级、体力条与数字。"
    },
    {
     "n": 2,
-    "detail": "他称通信最辛苦，甚至想过放弃加入通信对战。"
+    "detail": "为对抗锁定和连斩设计了守住，成功率改为第1次100%、之后递减。"
    },
    {
     "n": 3,
-    "detail": "他在初代开发结束前两周创造了梦幻，称欠梦幻太多。"
+    "detail": "据该篇报道，他透露自己参与了蚊香蝌蚪和猴怪的设计。"
    },
    {
     "n": 4,
-    "detail": "他提到剧本负责人有时会委托设计师做挡路角色之类的东西。"
+    "detail": "提到剧本负责人会向设计师委托制作挡路角色等具体需求。"
    },
    {
     "n": 5,
-    "detail": "他称《金／银》目标是让游戏比前作更贴心，并更注重通信对战。"
+    "detail": "称单打对战是核心基石，双打是新挑战，并负责数值平衡。"
    },
    {
     "n": 7,
-    "detail": "他说战斗程序花了很长时间，听说岩田仅用一周左右完成移植。"
+    "detail": "回忆初代与金·银时程序员约只有4人，战斗程序花了很长时间。"
    },
    {
     "n": 8,
-    "detail": "他称重制时把重点放在下屏幕触控，并需从零制作城都与关都。"
+    "detail": "谈重制时兼顾老玩家怀旧与新玩家体验，并提到下屏触控与3D地图制作。"
    },
    {
     "n": 9,
-    "detail": "他说借鉴了同期「宝可梦皮卡丘」的元素，为老玩家带来怀旧感。"
+    "detail": "表示借鉴宝可梦皮卡丘元素，剧情忠于原作同时加入新内容。"
    },
    {
     "n": 10,
-    "detail": "他称《心金／魂银》开发近三年，约二十人参与，最喜欢缘朱市。"
+    "detail": "说明削弱大爆炸等过强招式，并因增田提议加入三打对战。"
+   },
+   {
+    "n": 11,
+    "detail": "谈超级进化选择兼顾视觉、人气与平衡，并担心只有超级进化宝可梦被使用。"
    }
   ]
  },
  "posts": [
   "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-  "1997-10-16-interview-gamefreak-official-red-green-staff",
-  "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+  "1999-12-01-scan-gs-guidebook-1999-developer-interview",
+  "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
   "2000-07-01-interview-nom-genesis-gamefreak",
-  "2000-07-01-interview-nom-gold-silver-gamefreak",
+  "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
   "2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king",
   "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
   "2009-09-18-interview-dengeki-hgss-shigeki-morimoto",
   "2010-03-19-interview-gameinformer-masuda-morimoto-hgss",
-  "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto",
-  "2017-09-22-interview-gi-2017-gs-history",
-  "2018-06-12-interview-early-concept-art"
+  "2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets",
+  "2013-09-21-scan-ndream-235-xy-developer-interview",
+  "2017-09-22-interview-gi-2017-gs-history"
  ]
 }

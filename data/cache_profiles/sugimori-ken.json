@@ -1,62 +1,77 @@
 {
- "key": "66e7ddd3cb8d3e07",
+ "key": "9cd21cd7a0c6f75a",
  "answer": {
-  "summary": "杉森建长期负责宝可梦系列的美术与角色设计，从初代起参与角色画稿创作，并在《金·银》起担任部门总监、在《X·Y》起担任宝可梦角色设计组长。他主导宝可梦设计的选拔与清稿流程：由多名设计师提交草图，集中选拔后与各负责人反复商讨，最终由他绘制三视图并清稿为官方插画[6][7]。他重视设计中的个性与多样性，清稿时注意不抹杀设计师的个人想法[6]，并强调宝可梦需兼顾战斗中的强悍感与作为伙伴的可爱感[7]。在《黑·白》中他配合全数新宝可梦的方针，认为这让设计回到原点，可重新审视动物原型[5][7]。他也参与人物与地区设计，如在《X·Y》中依据卡洛斯地区的实地取材调整服装轮廓与配色[9]。",
+  "summary": "杉森建长期担任美术总监，统领所有美术与视觉绘制团队，并负责新宝可梦造型设计的构思与整合，使不同设计师的画风呈现统一感 [4]。他监修角色设计，对团队提出的设计进行检查、统一形象 [3]，并最终亲自绘制全部官方插画 [7]。在构思宝可梦时，他既从既有形状、形态或生物中汲取灵感，也考虑怎样的宝可梦在游玩层面更有趣，并曾为对战平衡设计新属性与宝可梦 [2]。他强调在硬件升级时保持“一眼看去就是宝可梦”的韵味，不因细节繁冗而失去原有风格 [4]，同时重视脚踏实地、与现实世界保持连续感 [5]。",
   "expertise": [
+   "美术总监",
    "宝可梦设计",
    "角色设计",
-   "美术总监",
-   "插画清稿",
-   "人物设计",
-   "设计选拔"
+   "官方插画",
+   "视觉统一"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "称从6年前就开始制作，看到自己以前的画会觉得不好意思。"
+    "detail": "称从6年前就开始制作，站在角色设计师立场看旧画会觉得不好意思。"
+   },
+   {
+    "n": 2,
+    "detail": "为《金／银》对战平衡设计新属性与宝可梦，构思数百只后删减大半。"
    },
    {
     "n": 3,
-    "detail": "表示目标是提升画面完成度，让玩家看到宝可梦更多魅力。"
+    "detail": "在《红宝石·蓝宝石》中主要监修角色，检查设计并统一形象。"
+   },
+   {
+    "n": 4,
+    "detail": "任美术总监统领美术团队，负责整合画风、呈现整体统一感。"
    },
    {
     "n": 5,
-    "detail": "说《黑·白》全是新宝可梦，是没有熟悉宝可梦混入队伍的世界。"
+    "detail": "认为博士开场白等底线不能打破，角色设计避免过于夸张离奇。"
    },
    {
     "n": 6,
-    "detail": "说明设计由17人分工，草图集中选拔后由他绘制三视图并清稿。"
+    "detail": "据该篇报道，增田要求提高主人公年龄，N的设计戴帽子促成全员戴帽方案。"
    },
    {
     "n": 7,
-    "detail": "称设计数量约为实际使用的三倍，入选者由他绘制官方艺术图。"
+    "detail": "称GAME FREAK有17位宝可梦图形设计师，最终由他画全部官方插画。"
    },
    {
     "n": 8,
-    "detail": "说因博士设定太没亮点，他向增田提议改成女性并自己绘制。"
+    "detail": "据该报道，他负责莱希拉姆与捷克罗姆设计，以尾巴为各自设计核心。"
    },
    {
     "n": 9,
-    "detail": "谈在法国取材把握时尚，把服装轮廓做得简洁以增加亮点。"
+    "detail": "称设计的角色数量约为实际使用的1.5倍，最早宝可梦有独角犀牛等。"
    },
    {
     "n": 10,
-    "detail": "回忆高中时在同人志专卖店发现《GAME FREAK》并写信寄去。"
+    "detail": "回忆《旋转方块》中途加入，团队约6人，制作约2年多。"
+   },
+   {
+    "n": 11,
+    "detail": "称初代由图形设计师直接敲像素点阵，并拜托西田设计可爱宝可梦。"
+   },
+   {
+    "n": 12,
+    "detail": "据该报道，海野隆雄说明宝可梦设计者由谁绘制取决于多种模式。"
    }
   ]
  },
  "posts": [
   "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-  "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-  "2000-07-01-interview-nom-gold-silver-gamefreak",
-  "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds",
-  "2010-09-10-interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
-  "2010-11-20-scan-ndream-2011-01-bw-design-secrets",
-  "2011-03-01-interview-nintendo-power-bw-masuda-sugimori",
-  "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters",
-  "2013-10-21-scan-ndream-2013-12-xy-character-design-interview",
-  "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo",
-  "2018-06-12-interview-early-concept-art",
+  "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+  "2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages",
+  "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori",
+  "2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
+  "2010-11-20-interview-nintendodream-201-sugimori-bw-characters",
+  "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+  "2011-03-05-interview-1up-black-white-how-pokemon-get-made",
+  "2013-05-29-interview-glitterberri-early-concept-art",
+  "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+  "2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida",
   "2019-05-18-interview-siliconera-harmoknight-drill-dozer"
  ]
 }

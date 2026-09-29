@@ -7,8 +7,8 @@
 #   label  可选，链接文字（默认「看看 →」）
 # 新功能上线、专题做完、一批校对完成，都往这里加一条，新的写在前面。
 - date: '2026-09-29'
-  title: 四十篇新访谈与杂志扫描入库
-  text: 从 1997 年的 Space World 到 2024 年的 Pokémon Center，Fami通、Nintendo DREAM、CoroCoro、Game Informer、日经和宝可梦官方的访谈三十篇，另有十篇杂志扫描。扫描帖都是逐页转写，篇首写明校对到哪一步；译文多数还是机器初译，等着人工过一遍。
+  title: 二十七篇新访谈与杂志扫描入库
+  text: 从 1997 年的 Space World 到 2024 年的 Pokémon Center：Fami通、Nintendo DREAM、CoroCoro、G4tv、Nintendo Acción、宝可梦官方等的访谈十七篇，另有十篇杂志扫描。扫描帖都是逐页转写，篇首写明校对到哪一步；机器初译的还在等人工过一遍。
   url: /categories/访谈整理/
   cover: https://gallery.pokeamice.com/scan-archive/ndream-2013-12-xy-character-design-interview/pages/p001_cover.jpg
 - date: '2026-09-29'
@@ -22,10 +22,10 @@
   text: 对照 2007–2012 年的早期快照，把 209 篇的署名和分类补回来，修正了 2013 年换模板时留下的日文乱码；页头保留了三个时期的原版。
   url: /gamefreak-staff/
   cover: /assets/images/gamefreak-legacy/staff/shared/early/2010-staff01-wb.jpg
-- date: '2026-09-27'
-  title: 三篇 Nintendo Power 按原刊问答重修
-  text: 第 134、240、265 期三篇旧稿和刊物原文对不上（有编造的问答，第 240 期还标错了期号）。现在只把杂志上真正问过、答过的写成访谈，Dr. Lava 的解说另标为作者评论。同一轮还改正了日经石原访谈里一处主客体译反，收回了首藤刚志连载两章的无据扩写。
-  url: /开发者访谈/宝可梦主系列/实体杂志扫本专访/interview-nintendo-power-265-masuda-sugimori-bw-dexit/
+- date: '2026-09-29'
+  title: 几篇新收的访谈重新校过
+  text: BW 原声带内页访谈、Fami通 1146 与 1155、Pokémon Center 官方招聘访谈四篇，中文对着日文重新翻过，去掉了原来多出来的修饰和自拟的小标题；G4tv 2009 与 Nintendo Acción 199 对着原页、扫描页整篇重做，说话人也改对了。
+  url: /categories/访谈整理/
 - date: '2026-09-25'
   title: 每篇文章多了「本篇提到」
   text: 文章里点名的宝可梦、作品、地点和人物，连同它们出现在哪一段、和别的文章有什么关系，列在文末；人名连到人物页，作品名连到制作名单。

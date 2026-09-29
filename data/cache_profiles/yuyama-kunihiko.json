@@ -1,26 +1,16 @@
 {
- "key": "31fb03adcebc1473",
+ "key": "246ccf33332672ca",
  "answer": {
-  "summary": "汤山邦彦在宝可梦动画中担任总监督、总导演一职，参与电视系列与剧场版的执导工作 [8][12]。据首藤刚志转述，汤山邦彦曾致电力荐首藤刚志担任宝可梦动画的系列构成 [1]。在电视系列开播初期，他决定让所有宝可梦都有各自的叫声并由配音演员发声，并由此萌生用叫声创作音乐的想法 [12]。他推动将这一想法落实为短片《皮卡丘与宝可梦音乐队》，为此在企划阶段长期筹备，并采用先录制演唱、制作小样模板再进入剧本的流程 [12]。",
+  "summary": "汤山邦彦是动画监督，在《魔法公主明琪桃子》等作品中担任监督，并曾向动画制作公司推荐首藤刚志担任《宝可梦》动画的系列构成 [1]。据访谈转述，他通过电话联系首藤刚志，告知其将有一份工作找上门，两天后制片人便联系了首藤 [1]。他参与的是《宝可梦》电视动画的监督工作，而非游戏开发，制作名单中没有游戏署名记录。",
   "expertise": [
    "动画监督",
-   "剧场版执导",
-   "声音演出",
-   "音乐企划",
-   "企划统筹"
+   "动画企划",
+   "系列构成推荐"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "据首藤刚志转述，汤山邦彦打电话告知将有工作找上门，随后首藤接到宝可梦系列构成委托。"
-   },
-   {
-    "n": 8,
-    "detail": "据首藤刚志转述，若《超梦的逆袭》上座惨淡，总导演汤山邦彦与编剧首当其冲。"
-   },
-   {
-    "n": 12,
-    "detail": "本人称电视系列开播时决定让所有宝可梦有各自叫声，并想用这些声音创作音乐。"
+    "detail": "据转述，汤山邦彦致电首藤刚志，两天后制片人便委托首藤担任《宝可梦》系列构成。"
    }
   ]
  },
@@ -31,11 +21,11 @@
   "2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155",
   "2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160",
   "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
-  "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
-  "2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182",
-  "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
-  "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
-  "2010-03-10-interview-takeshi-shudo-pokemon-memoir-ch215",
-  "2015-07-14-interview-movie18-yuyama-hoopa-model-sheets"
+  "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "2009-12-16-interview-takeshi-shudo-pokemon-memoir-ch206",
+  "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "2010-03-17-interview-takeshi-shudo-pokemon-memoir-ch216",
+  "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream"
  ]
 }

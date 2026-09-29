@@ -1,72 +1,68 @@
 {
- "key": "40ee37a08c259401",
+ "key": "e3bbb38e61897674",
  "answer": {
-  "summary": "石原恒和长期以总监／制作人身份参与宝可梦系列，从《红·绿》时期就与 GAME FREAK 一起参与开发，并担任制作人 [4]。他关注跨版本、跨语言的兼容与交换，希望全世界玩家能通过宝可梦游戏交流 [1]。在具体作品上，他既参与整体框架与方向把控，也会对细节提出意见，同时把大框架交给团队发挥 [6]。他强调续作不要越做越繁琐，主张让玩家轻松上手、纯粹地享受乐趣 [7]。他也参与动画、卡牌、电影等跨媒体展开的次序与形式判断 [12]。",
+  "summary": "石原恒和长期以总监／制作人身份参与《宝可梦》系列，从最初的《红·绿》企划阶段就与GAME FREAK共同开发，并担任制作人[4]。他的工作横跨正篇与派生作品，涉及动画、卡牌、网络联动与AR等多种媒介形式的协调与企划[2][6][9]。在开发方针上，他坚持不让GAME FREAK参与正篇以外的宝可梦作品，以保护正篇开发，但在《Pokémon GO》上首次打破这一规矩[11]。他重视让宝可梦进入日常生活的各种设备与场景，并希望作品面向所有世代[6]。",
   "expertise": [
-   "游戏制作",
-   "总监",
-   "跨版本兼容",
-   "跨媒体展开",
-   "续作方向",
-   "团队协调"
+   "系列统筹",
+   "制作人",
+   "跨媒介企划",
+   "正篇开发",
+   "派生作品协调",
+   "品牌运营"
   ],
   "citations": [
    {
-    "n": 1,
-    "detail": "谈《金／银》与前作兼容及除错艰辛，并提到各语言版本无法交换的问题。"
-   },
-   {
     "n": 2,
-    "detail": "称《火红／叶绿》不是重制，而是带无线技术的新游戏。"
+    "detail": "谈GC《宝可梦频道》以电视与皮卡丘同看为题材，并请动画公司制作原创动画。"
    },
    {
     "n": 4,
-    "detail": "回忆最初《宝可梦》企划启动时，他作为制作人与 GAME FREAK 参与《红·绿》开发。"
+    "detail": "称1990年作为制作人与GAME FREAK参与《红·绿》开发，发售错过末班车。"
    },
    {
     "n": 5,
-    "detail": "谈在 DS 上再次制作完全新作，可活用已有资产，同时担心如何做得更新。"
+    "detail": "谈在DS同一平台再制完全新作，可活用已有资产，同时担心如何做出新意。"
    },
    {
     "n": 6,
-    "detail": "说《宝可梦立体图鉴BW》整体框架放手交给团队，自己只在细节提意见。"
+    "detail": "称《黑·白》是时隔4年完全新作，希望宝可梦成为所有世代平等游玩的作品。"
    },
    {
     "n": 7,
-    "detail": "强调不要做成越往后越劝退人的游戏，把守住这条线视为监修职责。"
+    "detail": "称曾认为宝可梦动作游戏做不出来，因发条玩具设定而实现，并力推3DS化。"
    },
    {
     "n": 8,
-    "detail": "谈宝可梦卡牌游戏世界锦标赛参赛国家接近30个、语言多样仍能沟通。"
+    "detail": "谈《黑2·白2》首次挑战标题带2的续篇，为给玩家愉快的意外。"
    },
    {
     "n": 9,
-    "detail": "认为《不可思议迷宫》应是能游玩1000次的地牢，并引入擦肩无线救助。"
+    "detail": "谈《不可思议迷宫》加入AR玩法，设想读取井盖等现实物体改变迷宫。"
    },
    {
     "n": 10,
-    "detail": "谈妖精属性与空中对战带来的队伍配置调整和新发现。"
+    "detail": "谈《X·Y》妖精属性与空中对战，认为新规格让已登场宝可梦有新发现。"
    },
    {
     "n": 11,
-    "detail": "回忆《宝可梦GO》契机来自谷歌愚人节企划，并谈到野村对软硬件的探究。"
+    "detail": "称二十多年坚持不让GAME FREAK参与正篇以外作品，在《Pokémon GO》首次破例。"
    },
    {
     "n": 12,
-    "detail": "谈美国市场按动画、游戏、卡牌顺序展开，以及皮卡丘说人话的反复试验。"
+    "detail": "谈美国按动画、游戏、卡牌顺序展开，并称皮卡丘说人话最初觉得不太好。"
    }
   ]
  },
  "posts": [
-  "2000-07-01-interview-nintendopower-gold-silver-roundtable",
-  "2004-05-13-interview-2004-05-13-ign-e3-2004-pokemon-creators",
-  "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "1997-11-27-interview-glitterberri-spaceworld-pokemon2-en",
+  "2003-08-01-interview-nom-2003-pokemon-channel-staff",
+  "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
   "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew",
   "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds",
-  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
-  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
-  "2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
-  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+  "2010-09-16-scan-famitsu-1137-bw-launch-interview",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+  "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
   "2013-10-10-interview-iwata-asks-xy-chapter-3-new-battles-fairy-type",
   "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
   "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai"

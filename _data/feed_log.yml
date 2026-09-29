@@ -1,18 +1,18 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
 - date: '2026-09-29'
-  count: 40
+  count: 27
   types:
-    访谈翻译: 30
+    访谈翻译: 17
     扫描翻译: 10
   posts:
   - 2024-01-15-interview-pokemon-center-overseas-taipei-singapore
   - 2023-09-01-interview-pokemon-center-pop-up-store-project
   - 2023-06-01-interview-pokemon-center-shibuya-store-manager
   - 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
-  - 2019-10-18-interview-gamefreak-celebi-forest-shrine-video
-  - 2019-10-18-interview-game-informer-why-no-pokemon-mmo
-  - 2019-10-09-interview-game-informer-101-rapid-fire-questions
-  - 2019-02-15-interview-gamefreak-mew-secret-origin-video
+  - 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa
+  - 2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins
+  - 2013-09-21-scan-ndream-235-xy-developer-interview
+  - 2012-08-21-scan-ndream-222-b2w2-pwt-pokewood
 - date: '2026-09-19'
   count: 14
   types:
