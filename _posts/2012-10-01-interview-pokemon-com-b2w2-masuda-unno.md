@@ -193,7 +193,7 @@ parallel_items:
 - original: 'P.Com: There are so many Pokémon now, as well as so many different ways to battle, such as Triple Battles and Rotation Battles, the testing to ensure gameplay balance must be incredibly difficult. How does gameplay testing work for these kinds of games, such as making sure no Pokémon or moves are too powerful?'
   role: question
   speaker: Pokemon.com
-  translation: P.Com：现在有这么多宝可梦，还有这么多不同的对战方式，比如三打对战和轮盘对战，要确保游戏平衡性的测试一定非常困难。这类游戏的玩法测试是如何进行的，比如确保没有宝可梦或招式过于强大？
+  translation: P.Com：现在有这么多宝可梦，还有这么多不同的对战方式，比如三打对战和轮转对战，要确保游戏平衡性的测试一定非常困难。这类游戏的玩法测试是如何进行的，比如确保没有宝可梦或招式过于强大？
 - original: On the GAME FREAK staff, we have a group that is constantly examining each Pokémon and figuring out what kind of parameters they would have. They’re focusing on the fine details of each Pokémon. This group is constantly battling to test out new moves and how they interact with each other. And their focus is to make sure everything is balanced.
   role: answer
   speaker: 增田顺一

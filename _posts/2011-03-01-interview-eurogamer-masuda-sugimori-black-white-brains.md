@@ -75,7 +75,7 @@ parallel_items:
 - original: We've introduced two battle systems. One is triple battle, the second is rotation battle. Triple battle inherited the method from the single or double battles we used to have in our past titles, but involves more strategy.
   role: answer
   speaker: 增田顺一
-  translation: 我们引入了两种战斗系统。一个是三打对战，第二个是轮盘对战。三打对战继承了我们过去作品中单打或双打对战的方法，但涉及更多策略。
+  translation: 我们引入了两种战斗系统。一个是三打对战，第二个是轮转对战。三打对战继承了我们过去作品中单打或双打对战的方法，但涉及更多策略。
 - original: Both sides put out three Pokemon. The positioning is important because the Pokemon on the left is unable to target the Pokemon on the right, and vice versa. The Pokemon in the middle can attack any Pokemon.
   role: answer
   speaker: 增田顺一
@@ -83,11 +83,11 @@ parallel_items:
 - original: With rotation battles, both sides put out three Pokemon, but each turn you can only choose one Pokemon to battle against another. Only one Pokemon can attack at a time. So you can rotate one to the left or to the right, meaning both players can switch and attack in the same turn.
   role: answer
   speaker: 增田顺一
-  translation: 在轮盘对战中，双方各派出三只宝可梦，但每回合你只能选择一只宝可梦与另一只对战。同一时间只有一只宝可梦能攻击。所以你可以向左或向右轮换，这意味着双方玩家可以在同一回合内切换并攻击。
+  translation: 在轮转对战中，双方各派出三只宝可梦，但每回合你只能选择一只宝可梦与另一只对战。同一时间只有一只宝可梦能攻击。所以你可以向左或向右轮换，这意味着双方玩家可以在同一回合内切换并攻击。
 - original: This battle system involves more luck. You don't know until you make the move and the rotation what the opponent is going to do. You have to predict what the opponent is going to do. Our intention with the rotation battle was, sometimes if you're against good players, most of the time you lose. But with rotation battle, even if you're not good you may win because of the luck rotation brings.
   role: answer
   speaker: 增田顺一
-  translation: 这个对战系统包含更多运气成分。在你做出动作、完成轮转之前，你不知道对手会做什么。你必须预测对手会怎么做。我们设计轮盘对战的本意是，有时如果你对上水平高的玩家，大多数时候你会输。但在轮盘对战里，即使你水平不高也可能赢，因为轮转带来了运气。
+  translation: 这个对战系统包含更多运气成分。在你做出动作、完成轮转之前，你不知道对手会做什么。你必须预测对手会怎么做。我们设计轮转对战的本意是，有时如果你对上水平高的玩家，大多数时候你会输。但在轮转对战里，即使你水平不高也可能赢，因为轮转带来了运气。
 - original: How do you design a new Pokemon?
   role: question
   speaker: Eurogamer
