@@ -1,0 +1,19 @@
+{
+ "width": 1407,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[118,105,1308,164], [116,169,990,225], [799,537,1129,573], [485,954,625,984], [1133,1061,1274,1096], [162,1228,271,1380], [448,1374,807,1409], [174,1687,350,1724], [172,1729,334,1763], [894,1863,1035,1898]],
+ "regions": {
+  "p005_p003_olympic_power-r83": {"boxes":[[117,106,1317,219]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r84": {"boxes":[[801,541,1128,571]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r85": {"boxes":[[487,956,623,981]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r86": {"boxes":[[1134,1065,1272,1090]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r87": {"boxes":[[170,1235,266,1372]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r88": {"boxes":[[449,1376,806,1407]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r89": {"boxes":[[176,1692,350,1757]],"direction":"horizontal"},
+  "p005_p003_olympic_power-r90": {"boxes":[[895,1868,1034,1892]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 9.5, "image_tokens": 2818, "completion_tokens": 244, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p005_p003_olympic_power.jpg",
+ "page_file": "p005_p003_olympic_power"
+}

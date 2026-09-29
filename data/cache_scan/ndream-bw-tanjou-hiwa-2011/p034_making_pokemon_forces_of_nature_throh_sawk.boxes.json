@@ -1,0 +1,19 @@
+{
+ "width": 1547,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[960,99,1250,170], [957,172,1375,208], [1024,285,1480,328], [1139,354,1211,367], [996,384,1525,423], [997,416,1524,456], [995,443,1528,490], [1469,446,1504,457], [997,480,1526,521], [998,514,1529,553], [999,541,1528,587], [999,584,1230,618], [1020,609,1529,651], [1109,615,1138,626], [1001,646,1527,683], [1002,676,1529,717], [1101,680,1157,693], [1002,711,1529,747], [1002,775,1533,813], [1183,777,1237,787], [1507,772,1524,783], [1005,807,1531,845], [1004,848,1096,879], [433,1096,728,1164], [318,1168,735,1206], [167,1276,566,1332], [137,1330,711,1379], [141,1364,710,1411], [141,1402,708,1442], [141,1436,707,1475], [259,1436,300,1454], [141,1460,709,1512], [166,1474,196,1485], [141,1496,709,1541], [144,1530,709,1571], [145,1564,710,1603], [145,1593,714,1637], [164,1630,712,1669], [145,1660,712,1702], [146,1694,711,1735], [146,1723,714,1769], [148,1757,712,1799], [149,1792,713,1831], [150,1827,714,1864], [152,1863,490,1896], [91,1963,129,1991]],
+ "regions": {
+  "p034_making_pokemon_forces_of_nature_throh_sawk-h316": {"boxes":[[956,102,1253,172]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-r317": {"boxes":[[958,178,1374,207]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-h318": {"boxes":[[1026,287,1480,330]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-r319": {"boxes":[[998,360,1524,874]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-h320": {"boxes":[[432,1098,732,1167]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-r321": {"boxes":[[319,1174,739,1202]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-h322": {"boxes":[[175,1286,631,1329]],"direction":"horizontal"},
+  "p034_making_pokemon_forces_of_nature_throh_sawk-r323": {"boxes":[[152,1341,712,1892]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 13.3, "image_tokens": 3074, "completion_tokens": 369, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p034_making_pokemon_forces_of_nature_throh_sawk.jpg",
+ "page_file": "p034_making_pokemon_forces_of_nature_throh_sawk"
+}

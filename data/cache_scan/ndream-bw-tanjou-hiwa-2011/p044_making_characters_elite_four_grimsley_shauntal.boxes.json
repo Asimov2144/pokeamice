@@ -1,0 +1,23 @@
+{
+ "width": 1541,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[142,129,536,166], [591,134,958,162], [146,167,535,196], [571,165,958,195], [145,198,535,228], [570,197,959,226], [144,224,538,263], [493,227,531,238], [571,227,956,260], [146,262,535,294], [570,260,960,292], [577,263,588,270], [142,286,538,335], [571,296,956,324], [146,327,535,359], [568,325,959,358], [573,321,614,338], [146,364,196,391], [570,357,961,390], [171,389,227,403], [570,391,960,422], [143,419,538,459], [571,422,961,454], [146,458,530,489], [572,455,926,487], [147,490,535,520], [570,488,962,519], [145,519,535,555], [570,524,659,552], [146,556,536,586], [568,547,962,588], [145,590,200,620], [572,590,727,615], [616,654,922,714], [748,708,909,758], [841,976,928,1008], [857,967,926,984], [636,975,857,1009], [634,1008,797,1065], [547,1130,967,1180], [861,1201,935,1222], [557,1211,872,1240], [551,1232,968,1281], [554,1272,963,1307], [1001,1275,1261,1301], [555,1304,964,1337], [1004,1309,1261,1333], [554,1340,964,1369], [558,1336,596,1351], [1001,1333,1262,1368], [554,1371,963,1401], [560,1369,575,1382], [1002,1374,1257,1398], [552,1397,963,1441], [1000,1405,1193,1432], [554,1433,965,1467], [997,1427,1409,1466], [555,1465,963,1500], [1001,1464,1408,1497], [554,1497,964,1533], [1001,1496,1406,1529], [554,1531,763,1565], [1004,1531,1410,1561], [573,1564,965,1597], [1003,1569,1145,1593], [556,1598,721,1628], [705,1598,964,1626], [593,1669,1227,1716], [591,1728,1232,1763], [593,1762,1231,1794], [593,1792,1232,1827], [594,1832,682,1860], [65,1947,100,1971]],
+ "regions": {
+  "p044_making_characters_elite_four_grimsley_shauntal-r56": {"boxes":[[142,133,542,393]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r57": {"boxes":[[142,393,542,614]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r58": {"boxes":[[570,133,968,487]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r59": {"boxes":[[570,487,968,524]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r60": {"boxes":[[570,524,968,612]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-h61": {"boxes":[[624,666,928,758],[624,975,928,1065]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r63": {"boxes":[[555,1137,968,1561]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r64": {"boxes":[[573,1567,968,1628],[1002,1274,1415,1403]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r65": {"boxes":[[1002,1409,1190,1438]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r66": {"boxes":[[1002,1438,1415,1593]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r67": {"boxes":[[593,1675,1220,1716]],"direction":"horizontal"},
+  "p044_making_characters_elite_four_grimsley_shauntal-r68": {"boxes":[[593,1731,1230,1860]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 25.0, "image_tokens": 3074, "completion_tokens": 596, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p044_making_characters_elite_four_grimsley_shauntal.jpg",
+ "page_file": "p044_making_characters_elite_four_grimsley_shauntal"
+}

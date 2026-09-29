@@ -45,36 +45,34 @@ parallel_items:
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/134-cover-1.jpg
   caption: 《Nintendo Power》第134期封面（2000年7月号）：北美发售前夕直击GAME FREAK核心开发阵营。
   alt: Nintendo Power 134期封面
+- type: heading
+  translation: 转载来源网站的导语
 - original: Normally, I only publish Pokemon interviews that I’ve paid to have translated from their original Japanese texts. Like this2011 interviewwhere Ken Sugimori explains the origin stories of Gen 5’s Starter Pokemon. But the interview you’ll be reading below was actually published in English, in the July 2000 issue of Nintendo Power Magazine. But since the magazine is defunct, and the interview is almost two decades of old, I thought it would be a good idea to archive it here and add some commentary based on what we’ve learned in the 20 years since.
   translation: 通常，我只发布那些我付费从日文原文翻译过来的宝可梦专访。比如这篇2011年的采访，杉森建在其中讲述了第五世代初始宝可梦的起源故事。但下面这篇采访实际上是以英文发表的，刊登在2000年7月号的《Nintendo Power》杂志上。不过鉴于该杂志早已停刊，而这篇采访也已将近二十年前的事了，我觉得把它归档在这里，并根据此后二十年间我们所了解到的信息添加一些评论，是个不错的主意。
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Photo.png
   caption: GAME FREAK 与 Creatures 六位主创珍贵合影（从左至右）：增田顺一、石原恒和、杉森建、森本茂树、太田健程、一之濑刚。
   alt: 主创全明星合影
-- speaker: 增田顺一
+- type: heading
+  translation: 转载者补充：人物简介（资料截至2019年）
+- type: narrative
   original: Assistant director & composer for Gold & Silver, directed most mainline Pokemon games in the two decades following this interview
   translation: 《宝可梦 金／银》助理总监兼作曲，在本次专访之后的二十年间执导了大多数宝可梦正统系列作品
-  role: answer
-- speaker: 石原恒和
+- type: narrative
   original: Producer for Gold & Silver, founder of Creatures Inc, modern-day president of The Pokemon Company (as of 2019)
   translation: 《宝可梦 金／银》制作人，Creatures Inc. 创始人，现任（截至2019年）The Pokémon Company 社长
-  role: answer
-- speaker: 杉森建
+- type: narrative
   original: Lead monster designer and series art director since Gen 1
   translation: 杉森建自第一世代起担任怪物设计主管与系列艺术总监
-  role: answer
-- speaker: 森本茂树
+- type: narrative
   original: Programmer and monster designer since Gen 1, later went on to direct Emerald, HeartGold, and SoulSilver
   translation: 自第一世代起担任程序员与宝可梦设计师，后执导《绿宝石》《心金／魂银》。
-  role: answer
-- speaker: 太田健程
+- type: narrative
   original: Programmer for Generations 1-3
   translation: 第一至第三世代程序员
-  role: answer
-- speaker: 一之濑刚
+- type: narrative
   original: Composer for Gold & Silver
   translation: 《金／银》作曲
-  role: answer
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/001.jpg
   alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_001

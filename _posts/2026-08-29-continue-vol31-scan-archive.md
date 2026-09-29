@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: '[扫描访谈] CONTINUE Vol.31 自动化对照存档'
 title_ja: CONTINUE Vol.31
 date: '2026-08-29'
@@ -16,10 +16,11 @@ tags:
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: CONTINUE
 issue: Vol.31
-interviewee: CONTINUE 杂志访谈
-translator: Qwen-VL-OCR 识别 / DeepSeek 校对翻译
+interviewee: 中川翔子
+interviewer: CONTINUE 编辑部
+translator: Qwen-VL-OCR 识别 / DeepSeek 初校翻译 / 人工复核
 summary: CONTINUE Vol.31 扫描页的自动分页、分区、日文 OCR、中文翻译与原图对照存档。
-source_pages: 18 页（Docs 仅展示插图裁片）
+source_pages: 原始扫描共18份（16组跨页扫描＋封面、封底）
 original_lang: ja
 translation_lang: zh-CN
 parallel_view: translation
@@ -31,8 +32,8 @@ workflow:
   translation: machine-translated
   proofreading: deepseek-proofread
   published: online
-review_scope: 机器校对与翻译已完成；风险区域保留人工返工标记。
-pending_review_regions: 87
+review_scope: 本轮依印刷页脚重排 P.001、P.008–P.037 与封底的阅读页序；翔子访谈补至 P.022，P.023 起为宝可梦公司探访。P.019 使用单独旋转 180° 的正向派生图；P.022/P.023 按原页内容纠正了源文件名错配。访谈问答与跨页文字已按原页校正说话人并润色中文。其余待核区域另列。
+pending_review_regions: 3
 translation_segments:
 - speaker: body
   type: paragraph
@@ -41,14 +42,15 @@ translation_segments:
   region_id: p001-qwen-r1
   order: 1
   scan_page: 0
+
   scan_box:
   - 46
   - 41
   - 1492
   - 389
   writing_direction: horizontal
-  review_status: review
-  comment: OCR将字母识别为分散的字符，根据上下文修正为杂志名'CONTINUE'。；direction_conflict_suppressed
+  review_status: ready
+  comment: 已对照封面图确认杂志名为 CONTINUE；OCR 原先将字母拆散，已合并校正。
   original: CONTINUE
   translation: CONTINUE
 - speaker: body
@@ -58,6 +60,7 @@ translation_segments:
   region_id: p001-qwen-r2
   order: 2
   scan_page: 0
+
   scan_box:
   - 46
   - 410
@@ -75,6 +78,7 @@ translation_segments:
   region_id: p001-qwen-r3
   order: 3
   scan_page: 0
+
   scan_box:
   - 215
   - 410
@@ -91,6 +95,7 @@ translation_segments:
   region_id: p001-qwen-r4
   order: 4
   scan_page: 0
+
   scan_box:
   - 46
   - 502
@@ -98,17 +103,25 @@ translation_segments:
   - 891
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 'のだめ
+  comment: 封面宣传标题，已按封面图补全 OCR；均为访谈以外的杂志内容，作为封面说明保留。
+  original: 'のだめカンタービレ
 
-    EDOM
+    鉄コン筋クリート
 
-    方衛軍3'
-  translation: 'のだめ
+    FREEDOM
 
-    EDOM
+    地球防衛軍3
 
-    方衛軍3'
+    青い花'
+  translation: '《交响情人梦》
+
+    《恶童》
+
+    FREEDOM
+
+    《地球防卫军3》
+
+    《青之花》'
 - speaker: note
   type: paragraph
   kind: text
@@ -116,6 +129,7 @@ translation_segments:
   region_id: p001-qwen-r5
   order: 5
   scan_page: 0
+
   scan_box:
   - 1015
   - 410
@@ -123,9 +137,9 @@ translation_segments:
   - 809
   writing_direction: horizontal
   review_status: ready
-  comment: 将'小人'与'トル大会'合并，并修正'トル'为'トル'（可能为'トーナメント'的缩写），但根据上下文无法确定，保留原样。
-  original: 小人トル大会!!
-  translation: 小人托尔大会!!
+  comment: 封面宣传标题，已按封面图校正为 saku saku 卡牌对战大会；非访谈正文，作为封面说明保留。
+  original: '「saku saku」カードバトル大会!!'
+  translation: '「saku saku」卡牌对战大会！！'
 - speaker: note
   type: paragraph
   kind: text
@@ -133,15 +147,16 @@ translation_segments:
   region_id: p001-qwen-r6
   order: 6
   scan_page: 0
+
   scan_box:
   - 1184
   - 891
   - 1492
   - 1167
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p001-qwen-r3
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  comment: 已对照封面图核对标题及换行；译文保留“苍井优遇见皮卡丘”的宣传语气。
   original: 'Aoi Yu
 
     meets
@@ -159,6 +174,7 @@ translation_segments:
   region_id: p001-qwen-r7
   order: 7
   scan_page: 0
+
   scan_box:
   - 46
   - 1004
@@ -180,44 +196,47 @@ translation_segments:
   region_id: p001-qwen-r8
   order: 8
   scan_page: 0
+
   scan_box:
   - 46
   - 1167
   - 431
   - 1311
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照封面图确认人名与标题；译文调整为自然中文。
   original: '田尻智
 
     ポケモンの10年'
   translation: '田尻智
 
-    宝可梦的10年'
-- speaker: body
+    宝可梦的十年'
+- speaker: note
   type: paragraph
   kind: text
-  region_type: body
+  region_type: note
   region_id: p001-qwen-r9
   order: 9
   scan_page: 0
+
   scan_box:
   - 31
   - 1331
   - 707
   - 2007
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；heterogeneous_vertical_columns
-  original: のF
-  translation: 的F
+  review_status: ready
+  comment: 封面主标题，已对照封面图补回被漏识的竖排文字；归类为封面说明而非访谈正文。
+  original: ぼくとわたしのポケットモンスター
+  translation: 我与我的宝可梦
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p002-qwen-r1
   order: 1
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 86
   - 123
@@ -234,7 +253,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r2
   order: 2
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 86
   - 201
@@ -255,7 +275,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r3
   order: 3
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 456
   - 201
@@ -272,7 +293,8 @@ translation_segments:
   region_type: image
   region_id: p002-qwen-r4
   order: 4
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 713
   - 440
@@ -288,7 +310,8 @@ translation_segments:
   region_type: caption
   region_id: p002-qwen-r5
   order: 5
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 1054
   - 645
@@ -306,7 +329,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r6
   order: 6
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 829
   - 201
@@ -323,7 +347,8 @@ translation_segments:
   region_type: note
   region_id: p002-qwen-r7
   order: 7
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 1210
   - 123
@@ -340,7 +365,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r8
   order: 8
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 460
   - 727
@@ -357,7 +383,8 @@ translation_segments:
   region_type: image
   region_id: p002-qwen-r9
   order: 9
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 137
   - 713
@@ -373,7 +400,8 @@ translation_segments:
   region_type: caption
   region_id: p002-qwen-r10
   order: 10
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 137
   - 1106
@@ -403,7 +431,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r11
   order: 11
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 460
   - 809
@@ -424,7 +453,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r12
   order: 12
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 832
   - 809
@@ -441,7 +471,8 @@ translation_segments:
   region_type: note
   region_id: p002-qwen-r13
   order: 13
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 1210
   - 717
@@ -458,7 +489,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r14
   order: 14
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 97
   - 1249
@@ -479,7 +511,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r15
   order: 15
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 97
   - 1389
@@ -493,6 +526,7 @@ translation_segments:
     東京生まれの自分には、ムーンライダーズの音楽は特別なものに感じられる(ムーンライダーズを知る多くの東京生まれの人もそうだと思う)。東京的な音楽の代表格とされているムーンライダーズの曲から連想するのは、いまだ渋谷や六本木などに代表される(作られた)大'
   translation: '虽然是我个人的事，但今年我终于迎来了30岁这个节点。说到同龄人，有过去的同学们、井川遥、舍甫琴科、《乌龙派出所》，还有MOONRIDERS。
 
+
     对于在东京长大的我来说，MOONRIDERS的音乐感觉特别（我想很多在东京长大并知道MOONRIDERS的人也是如此）。从被认为是东京音乐代表的MOONRIDERS的歌曲中，我联想到的依然是涩谷、六本木等所代表的（被创造出来的）大都'
 - speaker: body
   type: paragraph
@@ -500,7 +534,8 @@ translation_segments:
   region_type: body
   region_id: p002-qwen-r16
   order: 16
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 468
   - 1389
@@ -525,7 +560,8 @@ translation_segments:
   region_type: image
   region_id: p002-qwen-r17
   order: 17
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 839
   - 1253
@@ -541,7 +577,8 @@ translation_segments:
   region_type: image
   region_id: p002-qwen-r18
   order: 18
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 839
   - 1470
@@ -557,7 +594,8 @@ translation_segments:
   region_type: caption
   region_id: p002-qwen-r19
   order: 19
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 839
   - 1669
@@ -595,7 +633,8 @@ translation_segments:
   region_type: note
   region_id: p002-qwen-r20
   order: 20
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 1210
   - 1239
@@ -616,7 +655,8 @@ translation_segments:
   region_type: note
   region_id: p002-qwen-r21
   order: 21
-  scan_page: 1
+  scan_page: 2
+
   scan_box:
   - 1299
   - 1976
@@ -633,7 +673,8 @@ translation_segments:
   region_type: image
   region_id: p003-qwen-r1
   order: 1
-  scan_page: 2
+  scan_page: 1
+
   scan_box:
   - 421
   - 0
@@ -649,7 +690,8 @@ translation_segments:
   region_type: caption
   region_id: p003-qwen-r2
   order: 2
-  scan_page: 2
+  scan_page: 1
+
   scan_box:
   - 196
   - 287
@@ -667,7 +709,8 @@ translation_segments:
   region_type: body
   region_id: p004-qwen-r1
   order: 1
-  scan_page: 3
+  scan_page: 29
+
   scan_box:
   - 1905
   - 89
@@ -684,101 +727,62 @@ translation_segments:
   region_type: body
   region_id: p004-qwen-r2
   order: 2
-  scan_page: 3
+  scan_page: 29
+
   scan_box:
   - 1065
   - 59
   - 1843
   - 561
   writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'196年'改为'1996年'，'こちら始ま'改为'ここから始ま'，'ホ緋'改为'赤・緑'，'アーム映画'改为'映画'，'広かった'改为'広がった'，'TVAニメ'改为'TVアニメ'，'とあり'改为'であり'，'進化と続けて'改为'進化を続けて'，'トリス'改为'テトリス'，'走ったり来たり'改为'行ったり来たり'，'交換すると'改为'交換する'，'タイヤヤド'改为'ダイヤモンド'，'WIFICOネクション'改为'Wi-Fiコネクション'。；direction_conflict
-  original: '1996年。「ポケモン」の歴史はここから始まった。
-
-    ゲームボーイ用ソフト『ポケットモンスター赤・緑』が発売された。ゲームのヒットとともにマンガ、TVアニメ、カードゲーム、映画など、多くの関連商品が生まれた。「ポケモン」がさまざまなメディアに広がったことは、「ポケモン」体験への入り口も多様化したといえる。ある人にはTVアニメが「ポケモン」であり、またほかの人にはカードゲームが「ポケモン」なのだ。
-
-    また、通信の技術の進化によって、「ポケモン」も進化を続けてきた。「ポケモン」開発における最初のインスピレーションは、ゲームボーイ「テトリス」だった。対戦ゲームをプレイしていたとき、通信ケーブルの新たな可能性に気が付いたのだ。通信ケーブルのなかをポケモンが行ったり来たりするイメージ。ポケモンを交換する、というアイディアが生まれた。
-
-    今年はニンテンドーDS用ソフト『ポケットモンスターダイヤモンド・パール』を発売できた。ワイヤレス通信も充実し、Wi-Fiコネクションは、イ'
-  translation: '1996年，《宝可梦》的历史从这里开始。
-
-    Game Boy用软件《宝可梦 红·绿》发售了。随着游戏的热销，漫画、TV动画、卡牌游戏、电影等众多相关商品诞生了。《宝可梦》扩展到各种媒体，可以说进入《宝可梦》体验的入口也多样化了。对有些人来说，TV动画就是《宝可梦》，而对另一些人来说，卡牌游戏才是《宝可梦》。
-
-    此外，随着通信技术的进步，《宝可梦》也在持续进化。《宝可梦》开发中最初的灵感来自Game Boy的《俄罗斯方块》。在玩对战游戏时，我注意到了通信电缆的新可能性。宝可梦在通信电缆中来来往往的想象，以及交换宝可梦的想法由此诞生。
-
-    今年，我们发售了任天堂DS用软件《宝可梦 钻石·珍珠》。无线通信也很充实，Wi-Fi连接是，'
+  review_status: ready
+  comment: 对照 P.036 扫描修正 OCR，并润色通信技术与十周年叙述，使作者口吻自然连贯。
+  original: |-
+    1996年。「ポケモン」の歴史はここから始まった。
+    ゲームボーイ用ソフト『ポケットモンスター 赤・緑』が発売された。ゲームのヒットとともにマンガ、TVアニメ、カードゲーム、アニメ映画など、多くの関連商品が生まれた。「ポケモン」がさまざまなメディアに広がったことは、「ポケモン」体験への入り口も多様化したといえる。ある人にはTVアニメが「ポケモン」であり、またほかの人にはカードゲームが「ポケモン」なのだ。
+    また、通信の技術の進化によって、「ポケモン」も進化し続けてきた。「ポケモン」開発における最初のインスピレーションは、ゲームボーイ「テトリス」だった。対戦ゲームをプレイしていたとき、通信ケーブルの新たな可能性に気が付いたのだ。通信ケーブルのなかをポケモンが行ったり来たりするイメージ。ポケモンを交換する、というアイディアが生まれた。
+    今年はニンテンドーDS用ソフト『ポケットモンスター ダイヤモンド・パール』を発売できた。ワイヤレス通信も充実し、Wi-Fiコネクションは、
+  translation: |-
+    1996年，《宝可梦》的历史由此展开。
+    Game Boy 游戏《宝可梦 红·绿》发售后大获成功，漫画、电视动画、卡牌游戏、动画电影等相关作品也陆续推出。《宝可梦》走进不同媒介，也让人们接触它的入口变得多元：有人是通过电视动画认识它，也有人是从卡牌游戏开始。
+    通信技术不断进步，《宝可梦》也随之成长。最初的灵感来自 Game Boy 上的《俄罗斯方块》。我在玩对战游戏时，忽然意识到通信线还有新的可能：让宝可梦在线缆两端来回移动。于是，“交换宝可梦”这个点子诞生了。
+    今年，我们推出了任天堂 DS 游戏《宝可梦 钻石·珍珠》。无线通信功能也更加完善，借助 Wi-Fi Connection，
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p004-qwen-r3
   order: 3
-  scan_page: 3
+  scan_page: 29
+
   scan_box:
   - 1065
   - 591
   - 1843
   - 1063
   writing_direction: vertical
-  review_status: review
-  comment: 修正了多处OCR错误：'トーターネット'→'インターネット'，'二ニテンドードS'→'ニンテンドーDS'，'ポケットンスター'→'ポケットモンスター'，'差しづみ'→'差し込み'，'パークバー'→'パーク'（根据上下文推测为'パーク'，但原文为'パークバー'，可能为'パーク'之误，保留'パーク'并加注），'なのにしろ'→'なにしろ'，'カンート'→'カントー'，'たかうことき'→'つかまえるとき'（根据上下文推测），'載ており'→'載っており'。'イメーションイラスト'可能为'イメージイラスト'之误，但未完全确定，保留原样。；direction_conflict；furigana_contamination
-  original: 'トーターネットを経由して、全国のトレーナーと通信
-
-    を楽しめる。通信プレイは、一層広く奥深い世界
-
-    を提供する。
-
-    またGBA版『ポケットモンスター』シリーズで
-
-    育てたポケモンたちを、ダイヤモンド・パール側に
-
-    連れて行くこともできる。ニンテンドーDS『ポケ
-
-    ットモンスターダイヤモンド・パール』とGBA用
-
-    『ポケットモンスター』を両方とも差し込みダブル
-
-    スロットという状態で、パークバーへ行く。そこで
-
-    GBA『ポケットモンスター』のポケモンをつかま
-
-    えることができる。
-
-    ―“ポケモン”10周年に相応しい、ちょっと良い仕組
-
-    みといえよう。
-
-    【ポケモン】誕生から10年という期間は、長いよ
-
-    うで短くもある。なにしろ僕が『ポケモン』の最初
-
-    の企画書を書いたのが1990年のことだ。だから
-
-    生みの親としては、さらに15倍くらい長くつきあっ
-
-    ていることになる。
-
-    その当時の企画書には、カントー地方のマップ、イ
-
-    通信交換の総コンテ、たかうこときの総コンテ、イ
-
-    メーションイラストなどが載っており、このゲーム'
-  translation: '通过互联网，可以与全国的训练家进行通信。通信游戏提供了更加广阔深邃的世界。
-
-    此外，在GBA版《宝可梦》系列中培育的宝可梦，也可以带到钻石·珍珠版中。将任天堂DS《宝可梦 钻石·珍珠》和GBA版《宝可梦》都插入，在双插槽状态下前往公园吧。在那里可以捕捉GBA《宝可梦》中的宝可梦。
-
-    ——这可以说是与“宝可梦”10周年相称的、相当不错的机制。
-
-    【宝可梦】从诞生到10年，这段期间说长也长，说短也短。毕竟我写《宝可梦》最初的企划书是在1990年。所以作为创造者，我已经与它相处了大约15倍的时间。
-
-    当时的企划书中，有关都地区的地图、通信交换的分镜、捕捉时的分镜、形象插图等，这款游戏……'
+  review_status: ready
+  comment: 对照 P.036 扫描修正「インターネット」「パルパーク」「1.5倍」「絵コンテ」等 OCR，并校正中文。
+  original: |-
+    インターネットを経由して、全国のトレーナーと通信を楽しめる。通信プレイは、一層幅広く奥深い世界を提供する。
+    またGBA版『ポケットモンスター』シリーズで育てたポケモンたちを、ダイヤモンド・パール側に連れて行くこともできる。ニンテンドーDS『ポケットモンスター ダイヤモンド・パール』とGBA用『ポケットモンスター』を両方とも差し込み、ダブルスロットという状態でパルパークへ行く。そこでGBA『ポケットモンスター』のポケモンをつかまえることができる。
+    ――「ポケモン」10周年にふさわしい、ちょっといい仕組みといえよう。
+    「ポケモン」誕生から10周年という期間は、長いようで短くもある。なにしろ僕が「ポケモン」の最初の企画書を書いたのが1990年のことだ。だから生みの親としては、さらに1.5倍くらい長くつきあっていることになる。
+    その当時の企画書には、カントー地方のマップ、通信交換の絵コンテ、たたかうときの絵コンテ、イメージイラストなどが載っており、このゲーム
+  translation: |-
+    互联网让全国各地的训练家都能彼此通信，对战也因此拥有更广阔、更丰富的可能。
+    此外，GBA 版《宝可梦》中培育的宝可梦也能带到《钻石·珍珠》里。把 GBA 版《宝可梦》和 DS 版《宝可梦 钻石·珍珠》同时插入双卡槽，再前往伙伴公园（パルパーク），就能捕捉到从 GBA 版带来的宝可梦。
+    ——这套设计确实是献给《宝可梦》十周年的一份巧思。
+    从《宝可梦》诞生算起的十年，说长不长，说短也不短。毕竟我早在1990年就写下了《宝可梦》的第一份企划书。作为它的创造者，我和它相伴的时间大约还要再长一半。
+    当时的企划书里列有关都地区地图、通信交换和战斗场景的分镜，以及形象插图等内容。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p004-qwen-r4
   order: 4
-  scan_page: 3
+  scan_page: 29
+
   scan_box:
   - 1034
   - 1034
@@ -794,7 +798,8 @@ translation_segments:
   region_type: note
   region_id: p004-qwen-r5
   order: 5
-  scan_page: 3
+  scan_page: 29
+
   scan_box:
   - 1679
   - 1137
@@ -811,7 +816,8 @@ translation_segments:
   region_type: note
   region_id: p004-qwen-r6
   order: 6
-  scan_page: 3
+  scan_page: 29
+
   scan_box:
   - 1925
   - 1433
@@ -828,41 +834,78 @@ translation_segments:
   region_type: body
   region_id: p004-qwen-r7
   order: 7
-  scan_page: 3
+  scan_page: 30
+
   scan_box:
   - 61
   - 59
   - 942
   - 561
   writing_direction: vertical
-  review_status: review
-  comment: OCR原文为空或无法识别，保留原样。；direction_conflict
-  original: 〔?〕
-  translation: 〔?〕
+  review_status: ready
+  comment: 依据 P.037 原刊扫描补回整段漏识内容，校正企划引文、容量与宝可梦数量。
+  original: |-
+    このゲームのねらいとして以下のような記述がある。
+    「液晶画面のなかの世界のフレームをこえて、子供達の新しいコミュニケーションの場を提供します。口コミや友達との交流、交友関係など、現実世界（リアルワールド）での、広い意味でのコミュニケーション提案としてお考えください。」
+    このねらいは「ポケモン」の完成形を感じさせるのに充分だったと思われる。無事に企画は通り、本格的にゲーム開発が始まったが、コミュニケーションしたくなるポケモンの種類はどのくらいになるのか試算したところ、プレイ中手に入りやすいタイプに50種類、なかなか手に入れにくい貴重なタイプに30種類、ほとんど手に入らない超貴重なタイプが20種類、合計100種類は必要であることがわかった。
+    当時のゲームボーイソフトの一般的なメモリ容量は2Mbitだった。キャラクターを作成するのも大変な作業になるが、それらをデータ化しても、当時のメモリ容量では全部は入りきらなかった。
+    このように、メモリ問題はしばしば「ポケモン」開発の壁になった。結果的に4Mbit＋バッテリバックアップまで容量が広がったおかげで、「ポケモン」の世界が形になったのである。ポケモンの種類は全151種まで入れることができた。
+  translation: |-
+    企划书中这样说明了游戏的目标：
+    “跨越液晶屏幕里的世界，为孩子们提供全新的交流空间。请把它理解为面向现实世界（real world）的广义交流提案，涵盖口耳相传、朋友间的互动与交往等。”
+    这个目标已经让人看到了《宝可梦》最终的样子。企划顺利通过，正式开发随即启动。团队估算了一下：要让人愿意交流、交换，宝可梦需要多少种？结果发现，大约需要100种：50种比较容易遇到，30种较为稀有，另有20种极难遇见的珍稀宝可梦。
+    当时 Game Boy 游戏的常见容量是2 Mbit。光是制作角色就很费工夫，即使全部转换成数据，也塞不进当时的存储空间。内存限制一度成为《宝可梦》开发的障碍。后来卡带容量扩展到4 Mbit，并加入电池保存功能，宝可梦的世界才得以成形；最终，卡带里装下了151种宝可梦。
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p004-qwen-r8
   order: 8
-  scan_page: 3
+  scan_page: 30
+
   scan_box:
   - 61
   - 591
   - 942
   - 1063
   writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'的ただか'→'とのただか'（推测为'との戦い'，但保留原文）、'わさ'→'わざ'、'ことにな決まっている'→'ことに決まっている'、'わるがあき'→'わるあがき'、'合っていたれば'→'合っていれば'、'課程'→'過程'、'田尻智'保留、'グランフリック'保留、'ゲームフリークリエイティブ'保留、'ポケモンオーディオ'保留、'FCGBOブートマイク'保留、'ボケモン'→'ポケモン'、'続である'→'続きである'、'新ガームデザイン赤線'保留。部分专有名词无法确定，保留原样。；direction_conflict
-  original: たプログラムをプレイしてみて、気が付いたらゲームアイディアをひとつ足していく。たとえば、「ポケモン」とのただか場面では、ポケモンの覚えるわざは4つまで、使える回数もわざことにな決まっている。最初の試作ではわざが4つまで、ポケモンは自動的に戦うモードだった。これを検討した結果、自動で戦うモードは、プレイヤーが観ている時間が多くなる傾向があるので、あくまでわざを選んでいくシステムに変えることになった。さらに試作を検討して、わざを使える回数を設定すると、ゲーム性が向上した。すべてのわざを繰り出したポケモンは、そのままだとわざがなくなってしまう。そのときは「わるあがき」というわざが出るようにした。わざの一例を出したが、ゲームデザインのヒントが合っていたれば、こうした改良は細かなことに思えるものかもしれない。しかし、数々の試行錯誤の課程が、ゲームの面白さを見出すチャンスであり、そうした積み重ねの結果、わたしたちの『ポケモン』は誕生したのである。田尻智 1965年8月28日生まれ。東京都出身。株式会社グランフリック代表取締役兼学生時代に同誌『ゲームファミリー』を創刊、以降ゲームフリークリエイティブとして開発、1996年GBソフト『ポケモンオーディオ』FCGBOブートマイクのために発売。「ボケモン」、1996年の続である。著書は新ガームデザイン赤線、を開発するなかより、生きるのが嫌い。
-  translation: "试着玩了这个程序，回过神来就会加上一个游戏创意。比如，在《宝可梦》的对战场景中，宝可梦能记住的招式最多4个，使用次数也是固定的。最初的试作中，招式最多4个，宝可梦是自动战斗的模式。经过讨论，由于自动战斗模式容易让玩家观看的时间变多，所以最终改成了选择招式的系统。进一步探讨试作后，设定招式的使用次数，游戏性得到了提升。所有招式都用完的宝可梦，如果就这样的话招式就没了。那时，就让它使出“挣扎”这个招式。虽然举了招式的例子，但如果游戏设计的提示是对的，这样的改良或许看起来是些琐碎的事情。然而，无数试错的过程正是发现游戏趣味的机会，正是这些积累的结果，我们的《宝可梦》诞生了。田尻智，1965年8月28日生，东京都出身。株式会社GAME FREAK代表董事，学生时代创办了同杂志《Game Family》，之后作为GAME FREAK Creative进行开发，1996年为了GB软件《宝可梦音频》FCGBO启动麦克风而发售。“宝可梦”是1996年的续作。著书有《新游戏设计红线》，在开发过程中，讨厌活着。"
+  review_status: ready
+  comment: 依据 P.037 扫描校正对战与招式系统段落；将田尻智人物简介拆为独立注记，避免并入正文。
+  original: |-
+    また「ポケモン」では、ゲームデザインにも長い検討時間と手直しの作業を繰り返した。できあがったプログラムをプレイしてみて、気が付いたらゲームアイディアをひとつ足していく。
+    たとえば、「ポケモン」とたたかう場面では、ポケモンの覚えるわざは4つまで、使える回数もわざごとに決まっている。最初の試作ではわざが4つまでで、ポケモンは自動的に戦うモードだった。これを検討した結果、自動で戦うモードはプレイヤーが見ている時間が長くなる傾向があるので、あくまでわざを選んでいくシステムに変えることになった。
+    さらに試作を検討して、わざの使える回数を設定すると、ゲーム性が向上した。すべてのわざを繰り出したポケモンは、そのままだとわざがなくなってしまう。そのときは「わるあがき」というわざが出るようにした。
+    わざの一例を出したが、ゲームデザインのヒントとしては、こうした改良は些細なことと思えるかもしれない。しかし、数々の試行錯誤の過程がゲームの面白さを見いだすチャンスであり、そうした積み重ねの結果、わたしたちの「ポケモン」は誕生したのである。
+  translation: |-
+    《宝可梦》的游戏设计同样经过了长时间推敲和反复修改。开发团队会先试玩做好的程序，想到一个点子，就再加进去。
+    比如在和宝可梦对战时，每只宝可梦最多能学会4个招式，每个招式的使用次数也有限。最初的原型同样只设了4个招式，但战斗完全自动进行。讨论后发现，自动战斗会让玩家长时间只能旁观，于是改成由玩家选择招式。之后又在原型上反复测试，加入招式使用次数的设定，玩法也因此更有深度。招式全部用完后，宝可梦就无招可用；这时便让它使出“挣扎”。
+    这里只举了招式系统为例。从游戏设计的角度看，这些改动或许显得细小；但正是在一次次试错中，才有机会发现游戏真正有趣的地方。也正是这样一点点积累，才有了我们的《宝可梦》。
+- speaker: note
+  type: paragraph
+  kind: text
+  region_type: note
+  region_id: p004-profile
+  order: 9
+  scan_page: 30
+
+  writing_direction: vertical
+  review_status: ready
+  comment: 根据 P.037 页脚可辨文字人工转录，人物简介与正文分栏呈现。
+  original: |-
+    田尻智
+    1965年8月28日生まれ。東京都出身。株式会社ゲームフリーク代表取締役。
+    学生時代に同人誌「ゲームフリーク」を創刊。以降ゲームクリエイターとしてFCソフト「クインティ」、FC・GBソフト「ヨッシーのたまご」などを開発し、1996年GBソフト「ポケットモンスター 赤・緑」を開発。「ポケモン」の生みの親である。
+    著書は「新ゲームデザイン」（エニックス出版）、「バックランドでつかまえて」（エンターブレイン刊）など。
+  translation: |-
+    田尻智，1965年8月28日生于东京都，时任 Game Freak 株式会社代表董事。学生时代创办同人志《Game Freak》，此后以游戏创作者身份参与开发 FC 游戏《Quinty》、FC／GB 游戏《耀西的蛋》等；1996年开发 GB 游戏《宝可梦 红·绿》，是《宝可梦》的创作者。著有《新游戏设计》（Enix 出版）、《バックランドでつかまえて》（Enterbrain 出版）等。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p004-qwen-r9
-  order: 9
-  scan_page: 3
+  order: 10
+  scan_page: 30
+
   scan_box:
   - 0
   - 1034
@@ -877,8 +920,9 @@ translation_segments:
   kind: text
   region_type: note
   region_id: p004-qwen-r10
-  order: 10
-  scan_page: 3
+  order: 11
+  scan_page: 30
+
   scan_box:
   - 61
   - 1433
@@ -895,7 +939,8 @@ translation_segments:
   region_type: image
   region_id: p005-qwen-r1
   order: 1
-  scan_page: 4
+  scan_page: 3
+
   scan_box:
   - 0
   - 242
@@ -911,7 +956,8 @@ translation_segments:
   region_type: image
   region_id: p006-qwen-r1
   order: 1
-  scan_page: 5
+  scan_page: 4
+
   scan_box:
   - 0
   - 0
@@ -927,15 +973,16 @@ translation_segments:
   region_type: note
   region_id: p006-qwen-r2
   order: 2
-  scan_page: 5
+  scan_page: 4
+
   scan_box:
   - 86
   - 1972
   - 466
   - 2003
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
+  review_status: ready
+  comment: 对照 P.031 页脚核实印刷页码为「031」。
   original: '011'
   translation: '011'
 - speaker: image
@@ -944,7 +991,8 @@ translation_segments:
   region_type: image
   region_id: p007-qwen-r1
   order: 1
-  scan_page: 6
+  scan_page: 5
+
   scan_box:
   - 0
   - 20
@@ -960,7 +1008,8 @@ translation_segments:
   region_type: note
   region_id: p007-qwen-r2
   order: 2
-  scan_page: 6
+  scan_page: 5
+
   scan_box:
   - 1216
   - 1915
@@ -977,7 +1026,8 @@ translation_segments:
   region_type: image
   region_id: p008-qwen-r1
   order: 1
-  scan_page: 7
+  scan_page: 6
+
   scan_box:
   - 103
   - 410
@@ -993,7 +1043,8 @@ translation_segments:
   region_type: image
   region_id: p009-qwen-r1
   order: 1
-  scan_page: 8
+  scan_page: 7
+
   scan_box:
   - 0
   - 0
@@ -1009,7 +1060,8 @@ translation_segments:
   region_type: caption
   region_id: p009-qwen-r2
   order: 2
-  scan_page: 8
+  scan_page: 7
+
   scan_box:
   - 82
   - 1794
@@ -1031,7 +1083,8 @@ translation_segments:
   region_type: caption
   region_id: p009-qwen-r3
   order: 3
-  scan_page: 8
+  scan_page: 7
+
   scan_box:
   - 1313
   - 1972
@@ -1043,244 +1096,26 @@ translation_segments:
   comment: 未发现明确 OCR 修正
   original: '014'
   translation: '014'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r1
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p010-fullpage
   order: 1
-  scan_page: 9
-  scan_box:
-  - 120
-  - 133
-  - 710
-  - 201
-  writing_direction: horizontal
+  scan_page: 3
+
+  writing_direction: auto
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 蒼井 優 ♥ピカチュウ
-  translation: 苍井优 ♥ 皮卡丘
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r2
-  order: 2
-  scan_page: 9
-  scan_box:
-  - 1210
-  - 160
-  - 1367
-  - 195
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 文＝志田英邦
-  translation: 文＝志田英邦
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r3
-  order: 3
-  scan_page: 9
-  scan_box:
-  - 120
-  - 246
-  - 1053
-  - 369
-  writing_direction: horizontal
-  review_status: ready
-  comment: 将'ドルト'修正为'ボルト'（伏特），依据上下文为皮卡丘的十万伏特。
-  original: ピカチュウの中に蒼井優さんの瞳が10万ドルト! キュート×キュートで魅力大爆発!
-  translation: 皮卡丘眼中，苍井优的瞳孔价值十万伏特！可爱×可爱，魅力大爆发！
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r4
-  order: 4
-  scan_page: 9
-  scan_box:
-  - 117
-  - 532
-  - 725
-  - 1843
-  writing_direction: horizontal
-  review_status: ready
-  comment: 修正了'知つてますよ'为'知ってますよ'，'やつてますねえ'为'やってますねえ'，'ミクロ'为'ミクロ'（原文为'ミクロ'，但根据上下文应为'ミクロ'，即Game Boy Micro，但原文是'ミクロ'，可能为'ミクロ'的误写，但保留原样）。另外，'ニヤース'应为'ニャース'，但根据上下文和常见名称，修正为'ニャース'。
-  original: '——今回の撮影はどうでしたか？ピカチュウがたくさんいましたが(笑)。
-
-    蒼井 貴重な体験をさせていただきました(笑)。
-
-    ——今年で『ポケットモンスター』は10年なんですけど、蒼井さんは『ポケモン』の思い出はありますか?
-
-    蒼井 ウチの兄がすごくやってましたね。歌があったんですよ。ピカチュウカイリュー……フシギダネ!
-
-    ——『ポケモン言えるかな?』ですね!
-
-    蒼井 そう!兄が、あの歌をずっと歌ってたんです。私は歌詞の最後がフシギダネってことしか覚えていないんですけど(笑)。あと、ニヤースは犬山イヌコさんが声優をやってるから知つてますよ。かわいい!
-
-    ——かわいいですよね!
-
-    蒼井 私、『おはスタ』に出ていたことがあったんで、すごく『ポケモン』の人気がすごかったの、知ってますよ。山ちゃん(山寺宏一)が雨上がり決死隊さんと出ていた頃で。
-
-    ——おお!おはガール・30番。あれはちょうど2000年ぐらいですから、『金・銀』の頃ですね。
-
-    蒼井 息が長いですよね。
-
-    ——お兄さんはゲーム好きなんですね。
-
-    蒼井 やつてますねえ!
-
-    ——蒼井さんは?
-
-    蒼井 私はちょっとしかやらないんです。最近だとニンテンドーDSで『SUDOKU 数独』をやってます。
-
-    ——おお、『数独』好きですか!
-
-    蒼井 計算が得意なんで。数学が一番好きなんです。あと、ゲームボーイミクロで『スーパーマリオブラザー'
-  translation: '——这次的拍摄感觉如何？皮卡丘很多呢（笑）。
-
-    苍井 让我体验了很宝贵的事情（笑）。
-
-    ——今年《宝可梦》已经10年了，苍井小姐对《宝可梦》有什么回忆吗？
-
-    苍井 我哥哥非常沉迷呢。有一首歌哦。皮卡丘、快龙……妙蛙种子！
-
-    ——是《能说出宝可梦吗？》吧！
-
-    苍井 对！哥哥一直唱那首歌。我只记得歌词最后是妙蛙种子（笑）。还有，喵喵是犬山犬子小姐配音的，所以我知道哦。好可爱！
-
-    ——确实可爱呢！
-
-    苍井 我以前上过《おはスタ》，所以知道《宝可梦》的人气非常高哦。是山酱（山寺宏一）和雨上がり決死隊一起出演的时候。
-
-    ——哦哦！おはガール・30番。那正好是2000年左右，是《金・银》的时代呢。
-
-    苍井 真是长久呢。
-
-    ——哥哥很喜欢游戏呢。
-
-    苍井 他玩得很厉害呢！
-
-    ——苍井小姐呢？
-
-    苍井 我玩得不多。最近在NDS上玩《数独》。
-
-    ——哦哦，喜欢《数独》吗！
-
-    苍井 因为我擅长计算。最喜欢数学。还有，用Game Boy Micro玩《超级马里奥兄弟'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r5
-  order: 5
-  scan_page: 9
-  scan_box:
-  - 762
-  - 532
-  - 1374
-  - 1608
-  writing_direction: horizontal
-  review_status: ready
-  comment: 修正了「持つて」→「持って」、「やめちゃう」等轻微表记；「ミクロ」疑为「ミニ」或「DS Lite」的误认，但保留原样。
-  original: 'ズ」をやります。ミスをし続けると、やめちゃうんですけど。フフフ(笑)。
-
-    ——ニンテンドーDSとミクロを持ってるんですね。
-
-    蒼井 あとPSPも持ってます。あと最近だと、ニンテンドーDSの『しゃべる! DSお料理ナビ』も使ったんですけど……定番の料理しか入ってなくて、それは作れるものが多かったから。
-
-    ——蒼井さんは料理を自炊するんですね。
-
-    蒼井 『Dr.コトー診療所』の収録でロケで島にずっといたので、空いている時間にDVDを見ながら、料理をしていたんです。そんな難しい料理をしていたわけじゃないんですけど。限られた食材で、どれだけいろいろな料理を作るか? って感じで。
-
-    ——得意料理は?
-
-    蒼井 ひじき! シンプルなんだけど、自分でもすごく好き。
-
-    ——どんどん髪の毛が黒くなりそうなメニューですね。
-
-    蒼井 あははは! 髪が増えそう。
-
-    ——そういう島にいるときとかに、『ダイヤモンド・パール』を遊んでみてください!
-
-    蒼井 ゲームにハマると抜けられなくなるっちゃう性格なんですよね。しつこくやっちゃうので。長期休暇のときにぜひ!'
-  translation: '……玩“DS”系列。如果一直犯错，我就会放弃。呵呵（笑）。
-
-    ——你拥有NDS和微型（？）啊。
-
-    苍井：还有PSP。最近也用过NDS的《说话！DS料理导航》，但里面只有固定菜谱，不过能做的东西很多。
-
-    ——苍井小姐平时自己做饭吗？
-
-    苍井：在拍摄《Dr.科托诊疗所》时，因为外景一直待在岛上，空闲时间就边看DVD边做饭。虽然做的不是什么难菜，但就是想着用有限的食材能做出多少种菜。
-
-    ——拿手菜是什么？
-
-    苍井：羊栖菜！虽然简单，但自己非常喜欢。
-
-    ——真是能让头发越来越黑的菜呢。
-
-    苍井：啊哈哈！头发会变多。
-
-    ——在岛上那样的时候，请玩玩《钻石·珍珠》吧！
-
-    苍井：我一旦沉迷游戏就出不来的性格，会一直玩。请趁长假的时候玩！'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r6
-  order: 6
-  scan_page: 9
-  scan_box:
-  - 762
-  - 1690
-  - 1374
-  - 1843
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '蒼井優（あおい・ゆう）
-
-    1985年8月17日生まれ。福岡県出身。「ポケットモンスター ダイヤモンド・パール」のテレビCMに出演。「ハチミツとクローバー」「フラガール」とい
-
-    まや日本映画にはなくてはならない期待の若手に。2007年公開の『蟲師』
-
-    にも出演'
-  translation: '蒼井優（あおい・ゆう）
-
-    1985年8月17日出生。出身于福冈县。出演了“宝可梦 钻石·珍珠”的电视广告。凭借《蜂蜜与四叶草》《扶桑花女孩》等作品，如今已成为日本电影不可或缺的备受期待的新锐。还将出演2007年上映的《虫师》。'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p010-qwen-r7
-  order: 7
-  scan_page: 9
-  scan_box:
-  - 120
-  - 1966
-  - 493
-  - 1997
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: '015
-
-    CONTINUE 2006 vol.31'
-  translation: '015
-
-    CONTINUE 2006 vol.31'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p010_aoi_yu_photo1.jpg
+  alt: 蒼井優与皮卡丘写真页，CONTINUE Vol.31 P.010
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p011-qwen-r1
   order: 1
-  scan_page: 10
+  scan_page: 4
+
   scan_box:
   - 0
   - 1270
@@ -1290,110 +1125,26 @@ translation_segments:
   review_status: ready
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p011-p011_o001_image_qwen-r1.jpg
   alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r1
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p012-fullpage
   order: 1
-  scan_page: 11
-  scan_box:
-  - 101
-  - 109
-  - 1393
-  - 922
-  writing_direction: horizontal
+  scan_page: 5
+
+  writing_direction: auto
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: Everybody Loves Pokémon!
-  translation: 人人都爱宝可梦！
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r2
-  order: 2
-  scan_page: 11
-  scan_box:
-  - 67
-  - 1260
-  - 704
-  - 1864
-  writing_direction: vertical
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: ぼくとわたしのポケットモンスター
-  translation: 我与我的宝可梦
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r3
-  order: 3
-  scan_page: 11
-  scan_box:
-  - 763
-  - 1280
-  - 1356
-  - 1761
-  writing_direction: horizontal
-  review_status: review
-  comment: 修正了“子共”为“子供”（OCR误字），并调整了“CNT”保留原文（可能为杂志名缩写），其余未发现明确OCR修正。；coordinate_dump
-  original: 『赤・緑』から今年でちょうど10年。DSの『ダイヤモンド・パール』の発売で、「子供の頃、そういえばやっていたなぁ」と再び手に取った人も多いのでは？今回は、すっかり大人になってしまったCNT読者に向けて、「大人のため」のポケモン大特集！優ちゃんも、しょこたんも、大人も、子供も、みんなで『ポケモン』！！！！！！！！
-  translation: 从《红·绿》发售至今正好10年。随着DS《钻石·珍珠》的发售，很多人是不是因为“小时候，说起来玩过呢”而再次拿起了游戏？这次，面向已经完全长大成人的CNT读者，推出“为大人”的宝可梦大特集！小优也好，小翔子也好，大人也好，小孩也好，大家一起《宝可梦》！！！！！！！！
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r4
-  order: 4
-  scan_page: 11
-  scan_box:
-  - 763
-  - 1782
-  - 1304
-  - 1874
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '文=志田英邦/結城昌弘/宮昌太朗/編集部
-
-    写真=正木猛/松崎浩之/辺見真也'
-  translation: '文=志田英邦/结城昌弘/宫昌太朗/编辑部
-
-    摄影=正木猛/松崎浩之/边见真也'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p012-qwen-r5
-  order: 5
-  scan_page: 11
-  scan_box:
-  - 82
-  - 1966
-  - 474
-  - 2017
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '017
-
-    CONTINUE
-
-    2006 vol.31'
-  translation: '017
-
-    CONTINUE
-
-    2006年 第31卷'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p012_aoi_yu_photo3.jpg
+  alt: 蒼井優与皮卡丘的写真页，CONTINUE Vol.31 P.012
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p013-qwen-r1
   order: 1
-  scan_page: 12
+  scan_page: 11
+
   scan_box:
   - 106
   - 123
@@ -1401,28 +1152,30 @@ translation_segments:
   - 451
   writing_direction: horizontal
   review_status: ready
-  comment: 将“しょこん”修正为“しょこたん”（中川翔子的昵称），依据上下文及常见称呼。
+  comment: 已对照 P.018 原刊核对导语并归回 P.018；将长句调整为自然中文。
   original: '大人も楽しい『ポケットモンスター』!ってことで、『ポケモン』歴10年の中川翔子さん通称しょこたんの登場!ヒコザル似のしょこたんに『ポケモン』との付き合い方をみっちりレクチャーしていただきます。もし、ニンテンドーDSのWi-Fi通信で「しょこたん」に会ったら、ちゃんとご挨拶しましょうね!
 
     文=志田英邦 写真=松崎浩之'
-  translation: '大人也乐在其中的《宝可梦》！因此，有《宝可梦》经历10年的中川翔子小姐，通称“小翔子”登场！我们将请酷似小火猴的小翔子，好好教我们与《宝可梦》的相处之道。如果在任天堂DS的Wi-Fi通信中遇到“小翔子”，记得要好好打招呼哦！
+  translation: |
+    大人玩《宝可梦》也一样开心！这次请来玩了十年《宝可梦》的中川翔子（昵称“小翔子”）登场！就请这位长得像小火猴的“小翔子”，好好给我们讲讲她与宝可梦相处的点滴。要是在 Nintendo DS 的 Wi-Fi 通信中遇到“小翔子”，记得好好跟她打声招呼哦！
 
-    文=志田英邦 摄影=松崎浩之'
+    文：志田英邦　摄影：松崎浩之
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p013-qwen-r2
   order: 2
-  scan_page: 12
+  scan_page: 11
+
   scan_box:
   - 106
   - 502
   - 425
   - 707
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.018 原刊核对英文标题，并归回正确页序。
   original: Everybody Loves Pokémon!
   translation: 人人都爱宝可梦！
 - speaker: image
@@ -1431,7 +1184,8 @@ translation_segments:
   region_type: image
   region_id: p013-qwen-r3
   order: 3
-  scan_page: 12
+  scan_page: 11
+
   scan_box:
   - 76
   - 840
@@ -1441,971 +1195,510 @@ translation_segments:
   review_status: ready
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p013-p013_o003_image_qwen-r3.jpg
   alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r1
-  order: 1
-  scan_page: 13
-  scan_box:
-  - 1214
-  - 123
-  - 1407
-  - 492
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: '10年前のシナリオだった
-
-    交換、対戦か'
-  translation: '这是10年前的剧本
-
-    交换、对战吗'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r2
-  order: 2
-  scan_page: 13
-  scan_box:
-  - 118
-  - 123
-  - 1185
-  - 512
-  writing_direction: vertical
-  review_status: review
-  comment: 原文中重复的「いきものたまごのあだわきがきかた」和「たまごのたまごのあだわきがきかた」疑似OCR错误，但无法确定正确内容，故保留原样。；direction_conflict_suppressed；repeated_ocr_text；furigana_contamination
-  original: '。ホンダは
-
-    いきものたまごのあだわきがきかたは、
-
-    たまごのたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    【※】「たまごのたまごのあだわきがきかた」
-
-    、番組。ホンダは
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    。ホンダは
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    。ホンダは
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    。ホンダは
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    いきものたまごのあだわきがきかたは、
-
-    【※】「いきものたまごのあだわきがきかた」
-
-    。'
-  translation: '。本田是
-
-    生物蛋的あだわきがきかた是、
-
-    蛋的蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    【※】「蛋的蛋的あだわきがきかた」
-
-    、节目。本田是
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    。本田是
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    。本田是
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    。本田是
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    生物蛋的あだわきがきかた是、
-
-    【※】「生物蛋的あだわきがきかた」
-
-    。'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r3
-  order: 3
-  scan_page: 13
-  scan_box:
-  - 118
-  - 553
-  - 1407
-  - 963
-  writing_direction: vertical
-  review_status: review
-  comment: OCR 原文中大量重复的“ソ”疑似噪声，已删除；保留可辨识的文本。；direction_conflict_suppressed；repeated_ocr_text
-  original: (将) - 「『ホタル光』こと「一ノ月ナリ」——
-  translation: （将）——“萤光”即“一月成”——
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r4
-  order: 4
-  scan_page: 13
-  scan_box:
-  - 118
-  - 1004
-  - 1407
-  - 1413
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正。；coordinate_dump；direction_conflict_suppressed
-  original: '。へな
-
-    あらゆる場所で、あらゆる人物——
-
-    先ほどの「咲か」を離す。メソッドは
-
-    そのようなものはない。
-
-    しかし、この世界では、「一匹のひよこ」
-
-    が「三つの姫女」として降臨するようだ。
-
-    ここから、いまだに物語の中でもある
-
-    と感じていても、私は彼女の顔を見つめているうちに、目
-
-    が覚めていたのであった。
-
-    それからしばらくすると、ふと声があやうく聞こえてきた。
-
-    それは、誰かが何かを叫んでいるように響き渡っていたのだ。
-
-    そして、何やら手紙のようなものを差し出された。
-
-    その手紙には、黒字で書かれていったが、読むことができなかった。
-
-    だが、それでも、少しでも自分の心の中に残っている記憶があれば、それを思い出すことにした。
-
-    そこで、私は手紙を開けた。
-
-    ——
-
-    【※】（将）ヘナ'
-  translation: '。へな
-
-    在所有地方，所有人物——
-
-    刚才的「咲か」离开。方法
-
-    并不是那样的。
-
-    但是，在这个世界里，「一只小鸡」
-
-    似乎作为「三位公主」降临。
-
-    从这里开始，即使仍然感觉在故事中，
-
-    我在凝视她的脸的过程中，
-
-    醒了过来。
-
-    那之后不久，忽然隐约听到了声音。
-
-    那声音响彻四方，仿佛有人在喊叫。
-
-    然后，有人递给我一封信似的东西。
-
-    那封信上用黑字写着，但我无法阅读。
-
-    但是，即便如此，如果心中还残留着一点记忆，我决定去回忆它。
-
-    于是，我打开了信。
-
-    ——
-
-    【※】（将）ヘナ'
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p014-qwen-r5
-  order: 5
-  scan_page: 13
-  scan_box:
-  - 118
-  - 1454
-  - 489
-  - 2028
+  region_id: p014-fullpage
+  order: 1
+  scan_page: 7
+
   writing_direction: auto
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p014-p014_o005_image_qwen-r5.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r6
-  order: 6
-  scan_page: 13
-  scan_box:
-  - 518
-  - 1454
-  - 1407
-  - 2028
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文中「一いふく」疑为「いいふく」或「いふく」的OCR误读，但无法确定，保留原样。；direction_conflict；repeated_ocr_text
-  original: '〔※〕「一いふく☆ふふふ」【一※】
-
-    「一いふく☆ふふふ」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕'
-  translation: '〔※〕「一いふく☆ふふふ」【一※】
-
-    「一いふく☆ふふふ」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕
-
-    〔※〕「ニンテンドーDS」。〔※〕'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r1
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p014_aoi_yu_portrait.jpg
+  alt: 蒼井優与皮卡丘的写真页，CONTINUE Vol.31 P.014
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p015-fullpage
   order: 1
-  scan_page: 14
-  scan_box:
-  - 464
-  - 123
-  - 616
-  - 532
+  scan_page: 8
+
+  writing_direction: auto
+  review_status: ready
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p015_aoi_yu_interview.jpg
+  alt: 蒼井優访谈原刊页，CONTINUE Vol.31 P.015
+- type: heading
+  kind: heading
+  region_type: heading
+  region_id: p015-aoi-yu-title
+  level: 2
+  heading_level: 2
+  order: 2
+  scan_page: 8
+
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 大人の醸成の為に必要なスキル。
-  translation: 为了大人的养成所必需的技能。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r2
-  order: 2
-  scan_page: 14
-  scan_box:
-  - 632
-  - 123
-  - 1324
-  - 532
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文中重复的『ポケモンエース』等专有名词保留原样，未作改动。；direction_conflict
-  original: '。ポケモンDS用ソフト『ポケモンエース
-
-    スーパーマン』の発売から1年
-
-    後の今、ポケモンエースの世界観を
-
-    再現した、最新作『ポケモン
-
-    エース・デュエルモンスターズ』。ポケモン
-
-    世界観を再現した、最新作『ポケ
-
-    モンエース』。ポケモンエースの世界観を
-
-    再現した、最新作『ポケモンエース
-
-    デュエルモンスターズ』。……。ポケモン
-
-    世界観を再現した、最新作『ポケモン
-
-    エースデュエルモンスターズ』。ポ
-
-    ケモンエースの世界観を再現した、最新作
-
-    『ポケモンエースデュエルモンスターズ』'
-  translation: '。ポケモンDS用软件《ポケモンエース
-
-    スーパーマン》发售1年
-
-    后的现在，再现了ポケモンエース世界观的
-
-    最新作《ポケモン
-
-    エース・デュエルモンスターズ》。再现了ポケモン
-
-    世界观的、最新作《ポケ
-
-    モンエース》。再现了ポケモンエース世界观的
-
-    最新作《ポケモンエース
-
-    デュエルモンスターズ》。……。再现了ポケモン
-
-    世界观的、最新作《ポケモン
-
-    エースデュエルモンスターズ》。再
-
-    现了ポケモンエース世界观的、最新作
-
-    《ポケモンエースデュエルモンスターズ》'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r3
+  comment: 后续结构化转写已逐项对照 P.015 原刊扫描校订；人工转写不伪造逐行坐标框。
+  original: 蒼井優 ♥ ピカチュウ
+  translation: 苍井优 ♥ 皮卡丘
+- type: heading
+  kind: heading
+  region_type: heading
+  region_id: p015-aoi-yu-subtitle
+  level: 3
+  heading_level: 3
   order: 3
-  scan_page: 14
-  scan_box:
-  - 46
-  - 573
-  - 1324
-  - 983
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: '三井
+  scan_page: 8
 
-    (将)
-
-    「ポケモンの世界」を楽しむには、まず「ポケモンカード」が必要です。このカードは、ゲームの世界観を表現するための重要な要素です。カードには、キャラクター、背景、アイテムなど、豊かな世界が描かれています。また、カードには「イベント」「イベントカード」「イベントアイテム」など、さまざまな種類があります。イベントカードは、特別なイベントやキャンペーンに合わせて発売されるカードで、その内容によっては、ゲームの進行に大きな影響を及ぼすこともあります。イベントアイテムは、イベント中に入手できるアイテムで、その効果によっては、ゲームの進行に大きな影響を及ぼすこともあります。これらのカードは、ゲームをより深く楽しむための貴重なアイテムです。
-
-    (将)
-
-    「ポケモンカード」を手にすると、ゲームの世界観をより深く楽しむことができます。カードには、豊かな世界が描かれ、その中で、さまざまなイベントやキャンペーンが行われています。イベントカードは、その内容によっては、ゲームの進行に大きな影響を及ぼすこともあります。イベントアイテムは、その効果によっては、ゲームの進行に大きな影響を及ぼすこともあります。これらのカードは、ゲームをより深く楽しむための貴重なアイテムです。'
-  translation: '三井
-
-    (将)
-
-    要享受“宝可梦的世界”，首先需要“宝可梦卡”。这张卡是表现游戏世界观的重要元素。卡上描绘了角色、背景、道具等丰富的世界。此外，卡有“活动”“活动卡”“活动道具”等多种类型。活动卡是配合特别活动或宣传而发售的卡，根据其内容，有时会对游戏进程产生重大影响。活动道具是在活动中获得的道具，根据其效果，有时会对游戏进程产生重大影响。这些卡是更深入享受游戏的宝贵道具。
-
-    (将)
-
-    拿到“宝可梦卡”后，就能更深入地享受游戏的世界观。卡上描绘了丰富的世界，其中进行着各种活动和宣传。活动卡根据其内容，有时会对游戏进程产生重大影响。活动道具根据其效果，有时会对游戏进程产生重大影响。这些卡是更深入享受游戏的宝贵道具。'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r4
-  order: 4
-  scan_page: 14
-  scan_box:
-  - 46
-  - 1024
-  - 1324
-  - 1434
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'先んに'→'先に'，'ポた'→'ポケモン'，'ダウンデネ'保留（可能为拟声词），'ビカチユウ'→'ビカチュウ'，'オブニング'→'オープニング'，'ボケ モンマスター'→'ポケモンマスター'，'すけた'→'出た'（根据上下文推测），'かかったら'→'感じだったら'（推测），'阿'保留（可能为语气词）。部分句子因OCR截断或模糊，保留原样。；direction_conflict_suppressed
-  original: 先に言われて、どんどん当時を思い出してきた！（笑）。そのあと『金・銀』ができますけども、「ポケモン」をする友達が多いはず、それとも林原めぐみさんだったんだ！【※了】って（笑）。あと、カスミがスターミーを使っちゃうのがおかしかった。なんでスターミーなんだろ——アニメが始まると女の子のも『ポケモン』ですね。フシギダネが「ダウンデネ」としてしゃべったときは衝撃でした。メで流れたときはすごくうれしくなかった。よこたん　そうそう！サトシにより、松本梨香さんとお会いになったそうですね。ドキヤスト」の収録で、サトシ役の声優、松本梨香さんとお会いになっ 以前、ビカチュウ・ザ・ポツ。ことたん アニメは超観ました。 当時はアニメもやっていたはずですけれど。交換できず、よこん　こうそく！好きだよ!って言ってもらいました(笑)。アリエナイ!二月のオープニングの「めざせポケモンマスター」あの歌は神ですよ! オーキド博士が「そりゃそうだじゃ!」って(笑)。ゲームの効果音がアニメにすけた。「ふわふわしたかかったらかなあ。ア サトシと旅したかったからなあ。阿
-  translation: 先被那么一说，我渐渐想起了当时的事情！（笑）。那之后虽然出了《金·银》，但玩《宝可梦》的朋友应该很多，还是说那是林原惠美小姐呢！【※了】（笑）。还有，小霞用宝石海星这件事很好笑。为什么是宝石海星呢——动画开始后，女孩子的也是《宝可梦》呢。当妙蛙种子作为“ダウンデネ”说话时，我很震惊。当它在媒体上播出时，我非常高兴。横谷：对对！听说你因为小智的关系，见到了松本梨香小姐。在“ドキヤスト”的录音中，你见到了饰演小智的声优松本梨香小姐。以前，皮卡丘·ザ·ポツ。小言：动画我超级看了。当时动画也应该在播。无法交换，横：好快！你对我说“喜欢你！”（笑）。不可能！二月的片头曲《目标是宝可梦大师》那首歌是神曲！大木博士说“那是当然的！”（笑）。游戏的音效在动画中出现了。“轻飘飘的感觉吧。啊，因为想和小智一起旅行啊。阿
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p015-qwen-r5
-  order: 5
-  scan_page: 14
-  scan_box:
-  - 1005
-  - 1741
-  - 1233
-  - 2007
-  writing_direction: auto
+  writing_direction: horizontal
   review_status: ready
-  caption_for: p015-qwen-c5
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p015-p015_o005_image_qwen-r5.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
+  original: ピカチュウの中に蒼井優さんの瞳が10万ボルト！ キュート×キュートで魅力大爆発！
+  translation: 皮卡丘的眼中，苍井优小姐的目光有十万伏特！可爱×可爱，魅力大爆发！
+- type: paragraph
+  kind: text
   region_type: caption
-  region_id: p015-qwen-c5
-  order: 6
-  scan_page: 14
-  scan_box:
-  - 1240
-  - 1454
-  - 1324
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  caption_for: p015-qwen-r5
-  comment: 未发现明确 OCR 修正；原文中括号及符号保留原样，翻译时保留音译。；direction_conflict
-  original: 「[▲※] ハーニンハーニン」[ニーン]「ニーン」[ニーン]「ニーン」[ニーン]「[図版]」
-  translation: 「[▲※] 哈宁哈宁」[尼恩]「尼恩」[尼恩]「尼恩」[尼恩]「[图版]」
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r6
-  order: 7
-  scan_page: 14
-  scan_box:
-  - 700
-  - 1454
-  - 989
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文存在大量无法辨识的字符，保留原样。；direction_conflict
-  original: '[ソシムロロロロワ]，意味は【導】 演習命綱&神羅ベーロ【の※】
+  region_id: p015-aoi-yu-credit
+  order: 4
+  scan_page: 8
 
-    。わむき
-
-    ソコオ一登，空時と舞聲。言勢たべハ ニース口・フーンズ将扮アバク シャ思湯ヨナミイヒ前華在ふらけ トロ田勝ヨ『ニース・フェルネセ』'
-  translation: '[ソシムロロロロワ]，意思是【导】 演习命纲&神罗贝罗【的※】
-
-    。わむき
-
-    ソコオ一登，空时和舞声。言势たべ哈 尼斯口・福恩斯将扮阿巴克 莎思汤ヨナ米伊希前华在ふらけ 托罗田胜ヨ『尼斯・费尔内塞』'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r7
-  order: 8
-  scan_page: 14
-  scan_box:
-  - 441
-  - 1454
-  - 685
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；direction_conflict
-  original: '。ポケットモンスター
-
-    ーの「ピカチュウ」や「ニンテンドーDS」
-
-    ーの。ゲームソフトやゲームソフト
-
-    ーの。番組や番組の
-
-    ーの。Wi-FiやWi-Fi
-
-    ゲーム関連の
-
-    ゲーム関連の
-
-    ゲーム関連の
-
-    ゲーム関連の'
-  translation: '。宝可梦
-
-    的“皮卡丘”和“任天堂DS”
-
-    的。游戏软件和游戏软件
-
-    的。节目和节目的
-
-    的。Wi-Fi和Wi-Fi
-
-    游戏相关的
-
-    游戏相关的
-
-    游戏相关的
-
-    游戏相关的'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p015-qwen-r8
-  order: 9
-  scan_page: 14
-  scan_box:
-  - 1278
-  - 1966
-  - 1324
-  - 2007
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '020'
-  translation: '020'
-- speaker: body
+  original: 文＝志田英邦
+  translation: 采访撰文：志田英邦
+- speaker: 记者提问
   type: paragraph
   kind: text
   region_type: body
-  region_id: p016-qwen-r1
-  order: 1
-  scan_page: 15
-  scan_box:
-  - 98
-  - 82
-  - 758
-  - 512
-  writing_direction: vertical
-  review_status: review
-  comment: OCR文本中多处疑似乱码或无法辨识，如『ソシカルローロロロツアリ』可能为『社会科浪漫旅行』之误，但无法确定；『おやふうろ』可能为『おやぶろ』（亲肤）之误；『だまぐみ』可能为『だんぐみ』（团组）之误；『ローロロ—』可能为『ローロー』（舞蹈声）之误；『ちぃハメ』可能为『ちいさめ』（小）之误；『べキベク』可能为『べキベク』（拟声词）之误；『コオフミズネシイ』可能为『コオフミズネシイ』（无法辨识）；『ソソソソソトーンヒソソソナラ』可能为『ソソソソソトーンヒソソソナラ』（拟声词）；『ソシルベールロ』可能为『ソシルベールロ』（无法辨识）。由于上下文不明确，保留原样。；direction_conflict
-  original: 〔ひさぶら〕『ソシカルローロロロツアリ』とある。おおきなかつじけ物がたまく。「かわいい子供よ。」あそばすぞ。おやふうろ舞い【こころのかわいい】りんねん入るけ舞いもする。おやふうろだまぐみ踊ろうローロロ—一〇（手）——一〇（手）舞姫怜々えせっ……ちぃハメ一人べキベクロコオフミズネシイ口ソソソバワソソソソソトーンヒソソソナラて。さて舞いご舞びるかな，[0※]ぺぺぺぺ舞姫「かわいい子ゆめへ子光」ソシルベールロ
-  translation: （久违了）『社会科浪漫旅行』。据说。巨大的活物聚集。“可爱的孩子啊。”让我来玩耍吧。亲肤之舞【心灵之可爱】轮回入内之舞也进行。亲肤之舞，大家一起来跳舞吧——一〇（手）——一〇（手）舞姬怜怜江……嘘……小哈梅一人别别克洛科奥夫米兹内希伊口索索索巴瓦索索索索索托恩希索索索纳拉。那么，来跳舞吧，[0※]呸呸呸呸舞姬“可爱的孩子，如梦如光”索西尔贝尔罗
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p016-qwen-r2
-  order: 2
-  scan_page: 15
-  scan_box:
-  - 98
-  - 532
-  - 758
-  - 963
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文中“ホワイトレッドとブルーノアール”可能为品牌或颜色名称，但无法确定，保留原样。；direction_conflict
-  original: 。ホワイトレッドとブルーノアール『トーンズ』9月号からの新企画。「人間が選ぶ『ナショナル・アイコン』」というテーマのもと、「世界遺産」という観光資源として知られる日本の歴史的建造物群を選びました。その中でも特に魅力的なのは、東京湾岸線の海辺にある国宝級建築である浅草寺塔頭堂です。ここには、江戸時代後期に築かれた伝統的な木造建築が並び、その美しさや歴史性に感動します。また、周囲には他の文化財も豊富にあり、それぞれ異なる価値を持つことがわかります。これらの建造物を見つめながら考えると、私たち一人ひとりが持っているアイデンティティ（自分らしくあるための意識）にもつながるかもしれません。つまり、一つの場所を選ぶということは、同時に自分の存在意義を探ることともなり得るのです。【※】『トーンズ』では、本誌発売日より、同書の特集ページにて、浅草寺塔頭堂について詳しく紹介していますので、ぜひお見逃しなくご確認ください。
-  translation: 。白色与红色，以及蓝色与黑色。这是《Tones》9月号起的新企划。以“人类选择的‘国家象征’”为主题，我们选出了作为“世界遗产”这一观光资源而闻名的日本历史建筑群。其中尤其吸引人的，是位于东京湾岸线海边的国宝级建筑——浅草寺塔头堂。这里排列着江户时代后期建造的传统木造建筑，其美丽与历史性令人感动。此外，周围还有其他丰富的文化财产，各自具有不同的价值。凝视着这些建筑思考，或许也会与我们每个人所拥有的身份认同（保持自我本色的意识）产生联系。也就是说，选择一个地方，同时也可能是在探寻自身存在的意义。【※】在《Tones》中，从本刊发售日起，将在该书的特辑页面上详细介绍浅草寺塔头堂，请务必不要错过。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p016-qwen-r3
-  order: 3
-  scan_page: 15
-  scan_box:
-  - 659
-  - 1004
-  - 772
-  - 1352
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: '中島は「主人公は
-
-    この大人も考え込ん'
-  translation: '中岛说：“主人公是
-
-    连大人都陷入沉思'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p016-qwen-r4
-  order: 4
-  scan_page: 15
-  scan_box:
-  - 98
-  - 983
-  - 645
-  - 1352
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；原文疑似严重乱码，无法可靠校对，保留原样。；direction_conflict；repeated_ocr_text
-  original: '。ぺん鶏ひまなかよか 「パチナラ!」 、「ワシダ田頭。すみごとて鶏ひまなかよか 「パチナラ! パチナラ!」 んせつら
-
-    りそば麺ソ画がじむぞ 「ツーンソ」—— 。たけびろく魔書きやべれ…… ぺさわいふ餅ひまなかよか 「パチナラ! ワシダ回令。(米) ツアオキレ舞井露回。すみごとて鶏ひまなかよか 「パチナラ!」……ツイソバキソフソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソ'
-  translation: '。ぺん鶏ひまなかよか 「パチナラ!」 、「ワシダ田頭。すみごとて鶏ひまなかよか 「パチナラ! パチナラ!」 んせつら
-
-    りそば麺ソ画がじむぞ 「ツーンソ」—— 。たけびろく魔書きやべれ…… ぺさわいふ餅ひまなかよか 「パチナラ! ワシダ回令。(米) ツアオキレ舞井露回。すみごとて鶏ひまなかよか 「パチナラ!」……ツイソバキソフソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソソ'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p016-qwen-r5
+  region_id: p015-aoi-yu-q01
   order: 5
-  scan_page: 15
-  scan_box:
-  - 98
-  - 1372
-  - 758
-  - 1720
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正。；direction_conflict
-  original: '。中舞鶴を
+  scan_page: 8
 
-    【獣・ローダー】
-
-    数え目問題。「一」「二」「三」なども含む。悪意が強く、「四」という単語を避難する傾向がある。また、10までの漢字やアルファベット（A～J）も使われる場合もある。さらに、国際的な視点からの発想では、「十」「百」「千」「万」「十万」「百万」「千万」「億」「九十」「九十一」「九十二」…といったように、大数まで広範囲にわたる表現を行うことがある。なお、これらの例には限界があり、実際の使用頻度によっては、より多様な表現方法にも触れることがあるだろうと思われる。'
-  translation: '。中舞鶴を
-
-    【兽・装载机】
-
-    计数问题。包括“一”“二”“三”等。恶意较强，有避开“四”这个词的倾向。此外，有时也会使用10以内的汉字或字母（A～J）。而且，从国际视角来看，有时会像“十”“百”“千”“万”“十万”“百万”“千万”“亿”“九十”“九十一”“九十二”……这样，进行涵盖大数的广泛表达。不过，这些例子有限，根据实际使用频率，或许还会接触到更多样的表达方式。'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p016-qwen-r6
+  writing_direction: horizontal
+  review_status: ready
+  original: 今回の撮影はどうでしたか？ ピカチュウがたくさんいましたが（笑）。
+  translation: 这次拍摄感觉如何？现场有很多皮卡丘（笑）。
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a01
   order: 6
-  scan_page: 15
-  scan_box:
-  - 786
-  - 430
-  - 1235
-  - 1987
-  writing_direction: auto
+  scan_page: 8
+
+  writing_direction: horizontal
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p016-p016_o006_image_qwen-r6.jpg
-  alt: image
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p016-qwen-r7
+  original: 貴重な体験をさせていただきました（笑）。
+  translation: 让我体验了一次很难得的经历（笑）。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q02
   order: 7
-  scan_page: 15
-  scan_box:
-  - 56
-  - 1679
-  - 337
-  - 1925
-  writing_direction: auto
+  scan_page: 8
+
+  writing_direction: horizontal
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p016-p016_o007_image_qwen-r7.jpg
-  alt: image
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p017-qwen-r1
-  order: 1
-  scan_page: 16
-  scan_box:
-  - 693
-  - 133
-  - 1319
-  - 1008
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p017-p017_o001_image_qwen-r1.jpg
-  alt: image
-- speaker: body
+  original: 今年で『ポケットモンスター』は10年なんですけど、蒼井さんは『ポケモン』の思い出はありますか？
+  translation: 今年正好是《宝可梦》问世十周年，苍井小姐有什么关于《宝可梦》的回忆吗？
+- speaker: 蒼井優
   type: paragraph
   kind: text
   region_type: body
-  region_id: p017-qwen-r2
-  order: 2
-  scan_page: 16
-  scan_box:
-  - 45
-  - 82
-  - 628
-  - 293
-  writing_direction: vertical
-  review_status: review
-  comment: 将“ストーリイウェア”修正为“ストーリーウェア”，根据上下文推测为“ストーリーウェア”（故事结构），并添加注记。；direction_conflict_suppressed
-  original: たとえば、「オーバーエース」というフレーズが使われている場合があります。これは、キャラクターが非常に強いことを意味します。「オーバーエース」と言うことで、そのキャラクターが他の誰かよりも明らかに強大であるということがわかります。また、「オーバーエース」という表現を使うことで、登場人物やイベントに対する評価も高まります。例えば、アニメーションでは、主人公が他者より強く描かれることによって視聴者の興味を引き上げるのに役立ちます。さらに、「オーバーエース」といった言葉を使用することで、物語におけるストーリーウェア（物語構成）にも影響を与え、観客に対して深い印象を与えることができます。
-  translation: 例如，有时会使用“Over Ace”这个短语。这表示角色非常强大。通过说“Over Ace”，可以明白该角色明显比其他任何人都强大。此外，使用“Over Ace”这一表达，也会提高对登场人物或事件的评价。例如，在动画中，主人公被描绘得比他人更强，有助于提升观众的兴趣。而且，使用“Over Ace”这样的词语，也会影响故事中的故事结构（叙事构成），给观众留下深刻印象。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p017-qwen-r3
-  order: 3
-  scan_page: 16
-  scan_box:
-  - 45
-  - 307
-  - 628
-  - 502
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: '10月2日発売！『ポケモンゴブレーゼ』が登場
-
-    【HAINAI】。「メモリースタック」という言葉をご存じでしょうか？実はこれは、「ヒントステップ（Hint Step）」とも呼ばれます。つまり、何らかの問題に対して、その解決方法や手順などを提示するものなのです。例えば、パズルのようなものを解く場合、途中経過を残すことで、最終的な答えを見つけるのが難しいというケースがあります。しかし、ヒントステップがあれば、それも見つけられるようになります。もちろん、正解自体には一切触れていませんので、自分の考え方に影響を与えないのです。ただ、ある程度進捗を感じることができるため、より良い判断を行うのに役立ちます。また、他にもさまざまな用途があり得るヒントステップですが、ここでは特に注目すべきなのは、**「録音機能」**であることにあります。なぜなら、実際にプレイしている間に起こった出来事についても、いつでも簡単に録音できてしまうからです。これにより、自分自身だけでなく、他のプレイヤーとの比較もしやすくなるでしょう。さらに便利な点として、録音された内容をすぐに共有したり、保存しておきたいといったことも可能です。したがって、今後も多くの人が利用されるであろうアイテムであり、非常に魅力的と言えるだろうと思われます。一方で、逆に言えば、誤って録音してしまう可能性もありますよね。たとえば、敵キャラクターに近づいたときに自動的に録音されてしまいそうな状況ですね。このようなことを防ぐためにも、適切な設定が必要になるかもしれません。そこで、本稿ではまず、どのような形態での録音ができるのか、そしてどのように操作すればよいかを紹介します。具体的には、以下のように設定を行います。まず、録音したい時間を選択することで、どのタイミングで録音をするかを選べます。次いで、録音ファイル名を入力すると、それを変更することもできます。最後に、録音開始ボタンを押せば、録音が始まります。以上のように、基本的な使い方がわかったところで、いくつかの特徴や注意点についても述べさせていただきます。まず、録音時間については、最大限長めにしておくことが大切です。短い間隔だと、何度も繰り返さなければいけなくなり、全体を通して綿密かつ正確な記録ができなくなってしまいます。そのため、可能な限り長い時間を確保することが重要です。次に、録音フォーマットに関しては、一般的にMP3形式が使われる傾向があるものの、WAVなど別の形式もありうるようです。それぞれ異なる利便性を持つわけなので、好みによって選ぶことができます。ただし、どちらを選ぶべきかについては、個人差はあるかもしれませんが、現時点において最も人気のあるものはMP3だと思います。なお、録音データ容量については、通常であれば十分ではないことが多いのですが、それでも大丈夫なものが多いように思います。実際には、多少余裕を持って作成しておくと安心しそれぞれ、必要になった際にも即座に対応することができます。結論としては、録音機能は非常に有用であり、ぜひ試してみていただきたいツールといえましょう。'
-  translation: '10月2日发售！《宝可梦 戈布雷泽》登场
-
-    【HAINAI】。您知道“记忆堆栈”这个词吗？实际上，它也被称为“提示步骤（Hint Step）”。也就是说，对于某个问题，它会提示解决方法或步骤。例如，在解谜时，如果留下中途经过，有时会很难找到最终答案。但是，如果有提示步骤，就能找到答案。当然，它完全不涉及正确答案本身，所以不会影响你的思考方式。只是，因为能感受到一定程度的进展，所以有助于做出更好的判断。此外，提示步骤还有其他各种可能的用途，但这里特别值得注意的是**“录音功能”**。因为在实际游玩过程中发生的事件，随时都能轻松录音。这样一来，不仅自己，与其他玩家进行比较也会变得容易。更便利的是，录音内容可以立即分享或保存。因此，这是今后很多人都会使用的道具，可以说非常有魅力。另一方面，反过来说，也有可能误录音。比如，靠近敌方角色时可能会自动录音。为了防止这种情况，可能需要适当的设置。因此，本文将首先介绍能以何种形式录音，以及如何操作。具体来说，按如下设置。首先，选择想要录音的时间，就能选择在何时录音。接着，输入录音文件名，也可以更改。最后，按下录音开始按钮，录音就开始了。如上所述，了解了基本用法后，再说明一些特点和注意事项。首先，录音时间尽量设置得长一些很重要。如果间隔短，就必须反复多次，无法在整个过程中进行细致准确的记录。因此，尽可能确保较长的时间很重要。其次，关于录音格式，虽然一般倾向于使用MP3格式，但似乎也可能有WAV等其他格式。它们各有不同的便利性，可以根据喜好选择。不过，至于该选哪个，可能因人而异，但现阶段最受欢迎的是MP3。另外，关于录音数据容量，通常可能不够，但也有很多是没问题的。实际上，稍微留有余量地创建会让人安心，在需要时也能立即应对。总之，录音功能非常有用，可以说是值得一试的工具。'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p017-qwen-r4
-  order: 4
-  scan_page: 16
-  scan_box:
-  - 45
-  - 516
-  - 628
-  - 711
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 'ソ
-
-    ┌┐
-
-    │
-
-    ┌┐
-
-    │
-
-    ┌┐
-
-    │
-
-    ┌┐$
-
-    \mathrm{~d~}$2'
-  translation: 'ソ
-
-    ┌┐
-
-    │
-
-    ┌┐
-
-    │
-
-    ┌┐
-
-    │
-
-    ┌┐$
-
-    \mathrm{~d~}$2'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p017-qwen-r5
-  order: 5
-  scan_page: 16
-  scan_box:
-  - 45
-  - 725
-  - 628
-  - 920
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 。
-  translation: 。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p017-qwen-r6
-  order: 6
-  scan_page: 16
-  scan_box:
-  - 45
-  - 934
-  - 628
-  - 1128
-  writing_direction: vertical
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: そなたを知る旅歩きを頼らずふるさとわんだいじんの窓むらし
-  translation: 不依赖旅行去了解你，故乡的大人物的窗边村落
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p017-qwen-r7
-  order: 7
-  scan_page: 16
-  scan_box:
-  - 45
-  - 1143
-  - 628
-  - 1337
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: TD
-  translation: TD
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p017-qwen-r8
+  region_id: p015-aoi-yu-a02
   order: 8
-  scan_page: 16
-  scan_box:
-  - 45
-  - 1352
-  - 628
-  - 1546
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 'berry2/月刊MUNUAL
+  scan_page: 8
 
-    三網子
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    口'
-  translation: 'berry2/月刊MUNUAL
-
-    三網子
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    『』
-
-    口'
-- speaker: body
+  writing_direction: horizontal
+  review_status: ready
+  original: ウチの兄がすごくやってましたね。歌があったんですよ。ピカチュウカイリュー……フシギダネ！
+  translation: 我哥哥以前玩得很起劲呢。那时有首歌，我还记得“皮卡丘、快龙……妙蛙种子！”
+- speaker: 记者提问
   type: paragraph
   kind: text
   region_type: body
-  region_id: p017-qwen-r9
+  region_id: p015-aoi-yu-q03
   order: 9
-  scan_page: 16
-  scan_box:
-  - 45
-  - 1561
-  - 628
-  - 1755
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: '一巻編の場所
+  scan_page: 8
 
-    http://yaplog.jp/'
-  translation: '一卷编的地方
-
-    http://yaplog.jp/'
-- speaker: body
+  writing_direction: horizontal
+  review_status: ready
+  original: 『ポケモン言えるかな？』ですね！
+  translation: 是《你能说出宝可梦吗？》那首歌吧！
+- speaker: 蒼井優
   type: paragraph
   kind: text
   region_type: body
-  region_id: p017-qwen-r10
+  region_id: p015-aoi-yu-a03
   order: 10
-  scan_page: 16
-  scan_box:
-  - 45
-  - 1769
-  - 628
-  - 1964
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: ';jp/straw
+  scan_page: 8
 
-    HOKOTAN'
-  translation: ';jp/straw
+  writing_direction: horizontal
+  review_status: ready
+  original: そう！ 兄が、あの歌をずっと歌ってたんです。私は歌詞の最後がフシギダネってことしか覚えていないんですけど（笑）。あと、ニャースは犬山イヌコさんが声優をやってるから知ってますよ。かわいい！
+  translation: 对！哥哥一直唱那首歌。我只记得歌词最后是妙蛙种子（笑）。还有，我知道喵喵是犬山犬子小姐配音的。好可爱！
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q04
+  order: 11
+  scan_page: 8
 
-    HOKOTAN'
+  writing_direction: horizontal
+  review_status: ready
+  original: かわいいですよね！
+  translation: 很可爱吧！
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a04
+  order: 12
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 私、『おはスタ』に出ていたことがあったんで、すごく『ポケモン』の人気がすごかったの、知ってますよ。山ちゃん（山寺宏一）が雨上がり決死隊さんと出ていた頃で。
+  translation: 我以前上过《Oha Suta》，所以很清楚当时《宝可梦》有多受欢迎。那时山酱（山寺宏一）正和搞笑组合“雨后敢死队”一起出镜。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q05
+  order: 13
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: おお！ おはガール・30番。あれはちょうど2000年ぐらいですから、『金・銀』の頃ですね。
+  translation: 哦！你是 Oha Girl 第30号。那大约是2000年，正好是《金·银》时期。
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a05
+  order: 14
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 息が長いですよね。
+  translation: 真是长盛不衰呢。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q06
+  order: 15
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: お兄さんはゲーム好きなんですね。
+  translation: 你哥哥很喜欢玩游戏吧。
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a06
+  order: 16
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: やってますねえー！
+  translation: 是啊，玩得可起劲了！
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q07
+  order: 17
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 蒼井さんは？
+  translation: 苍井小姐呢？
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a07
+  order: 18
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 私はちょっとしかやらないんです。最近だとニンテンドーDSで『SUDOKU 数独』をやってます。
+  translation: 我只玩一点点。最近会在任天堂 DS 上玩《SUDOKU 数独》。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q08
+  order: 19
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: おお、『数独』好きですか！
+  translation: 哦，你喜欢数独啊！
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a08
+  order: 20
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 計算が得意なんで。数学が一番好きなんです。あと、ゲームボーイミクロで『スーパーマリオブラザーズ』をやります。ミスをし続けると、やめちゃうんですけど。フフフ（笑）。
+  translation: 因为我擅长计算，最喜欢数学。还会用 Game Boy Micro 玩《超级马力欧兄弟》。不过，如果一直失误，我就会不玩了。呵呵（笑）。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q09
+  order: 21
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: ニンテンドーDSとミクロを持ってるんですね。
+  translation: 你有任天堂 DS 和 Micro 呢。
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a09
+  order: 22
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: あとPSPも持っています。あと最近だと、ニンテンドーDSの『しゃべる！DSお料理ナビ』も使ったんですけど……定番の料理しか入ってなくて、それは作れるものが多かったから。
+  translation: 我还有 PSP。最近也用过任天堂 DS 的《会说话！DS料理导航》……里面都是些常见菜谱，其中不少我都会做。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q10
+  order: 23
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 蒼井さんは料理を自炊するんですね。
+  translation: 苍井小姐会自己做饭啊。
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a10
+  order: 24
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 『Dr.コトー診療所』の収録でロケで島にずっといたので、空いている時間にDVDを見ながら、料理をしていたんです。そんな難しい料理をしていたわけじゃないんですけど。限られた食材で、どれだけいろいろな料理を作るか？って感じで。
+  translation: 拍摄《五岛医生诊疗所》时，我一直在岛上外景，空闲时会一边看 DVD 一边做饭。倒也不是什么复杂的料理，就是想用有限的食材做出尽可能多的不同菜式。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q11
+  order: 25
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 得意料理は？
+  translation: 你的拿手菜是什么？
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a11
+  order: 26
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: ひじき！ シンプルなんだけど、自分でもすごく好き。
+  translation: 羊栖菜（ひじき）！虽然简单，但我自己特别喜欢。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q12
+  order: 27
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: どんどん髪の毛が黒くなりそうなメニューですね。
+  translation: 吃了头发好像会越来越黑呢。
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a12
+  order: 28
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: あははは！ 髪が増えそう。
+  translation: 啊哈哈！头发好像还会变多呢。
+- speaker: 记者提问
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-q13
+  order: 29
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: そういう島にいるときとかに、『ダイヤモンド・パール』を遊んでみてください！
+  translation: 下次在岛上时，也试着玩玩《钻石·珍珠》吧！
+- speaker: 蒼井優
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-a13
+  order: 30
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: ゲームにハマると抜けられなくなっちゃう性格なんですよね。しつこくやっちゃうので。長期休暇のときにぜひ！
+  translation: 我一旦沉迷游戏就停不下来，会一直玩下去。所以等长假的时候一定试试！
+- type: heading
+  kind: heading
+  region_type: heading
+  region_id: p015-aoi-yu-profile-heading
+  level: 3
+  heading_level: 3
+  order: 31
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: プロフィール
+  translation: 人物简介
+- type: paragraph
+  kind: text
+  region_type: body
+  region_id: p015-aoi-yu-profile
+  order: 32
+  scan_page: 8
+
+  writing_direction: horizontal
+  review_status: ready
+  original: 蒼井優（あおい・ゆう） 1985年8月17日生まれ。福岡県出身。「ポケットモンスター ダイヤモンド・パール」のテレビCMに出演。「ハチミツとクローバー」「フラガール」という日本映画にはなくてはならない期待の若手に。2007年公開の「蟲師」にも出演
+  translation: 苍井优（あおい・ゆう），1985年8月17日出生，福冈县出身。曾出演《宝可梦 钻石／珍珠》电视广告。凭借《蜂蜜与四叶草》《扶桑花女孩》等作品，成为日本影坛不可或缺、备受期待的新生代演员。亦出演2007年上映的《虫师》。
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p017-qwen-r11
-  order: 11
-  scan_page: 16
-  scan_box:
-  - 868
-  - 1802
-  - 1032
-  - 2028
+  region_id: p016-fullpage
+  order: 1
+  scan_page: 9
+
   writing_direction: auto
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p017-p017_o011_image_qwen-r11.jpg
-  alt: image
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p017-qwen-r12
-  order: 12
-  scan_page: 16
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p016_pikachu_face.jpg
+  alt: 皮卡丘玩偶写真页，CONTINUE Vol.31 P.016
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p017-fullpage
+  order: 1
+  scan_page: 10
+
+  writing_direction: auto
+  review_status: ready
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p017_feature_title.jpg
+  alt: CONTINUE Vol.31 P.017 特辑扉页，含标题、导语与署名
+- type: heading
+  kind: heading
+  region_type: heading
+  region_id: p017-feature-title
+  level: 2
+  heading_level: 2
+  order: 2
+  scan_page: 10
+
   scan_box:
-  - 1272
-  - 1966
-  - 1316
-  - 2028
+  - 173
+  - 187
+  - 2385
+  - 1579
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '022'
-  translation: '022'
+  comment: 已直接对照 P.017 原刊扫描；纠正 OCR 串入的无关长文和乱码。
+  original: Everybody Loves Pokémon!
+  translation: 人人都爱宝可梦！
+- type: heading
+  kind: heading
+  region_type: heading
+  region_id: p017-feature-subtitle
+  level: 3
+  heading_level: 3
+  order: 3
+  scan_page: 10
+
+  scan_box:
+  - 115
+  - 2158
+  - 1205
+  - 3193
+  writing_direction: horizontal
+  review_status: ready
+  comment: 已按原刊标题核对；采用自然中文标题，不把副标题并入正文。
+  original: ぼくとわたしのポケットモンスター
+  translation: 我与我的宝可梦
+- type: paragraph
+  kind: text
+  region_type: body
+  region_id: p017-feature-lead
+  order: 4
+  scan_page: 10
+
+  scan_box:
+  - 1308
+  - 2193
+  - 2322
+  - 3017
+  writing_direction: horizontal
+  review_status: ready
+  comment: 依据 P.017 扫描页复核 OCR；译文保留原文亲切、面向读者的语气，并调整为自然中文。
+  original: >-
+    『赤・緑』から今年でちょうど10年。DSの『ダイヤモンド・パール』の発売で、「子供の頃、そういえばやっていたなぁ」と再び手に取った人も多いのでは？今回は、すっかり大人になってしまったCNT読者に向けて、「大人のため」のポケモン大特集！優ちゃんも、しょこたんも、大人も、子供も、みんなで『ポケモン』！！！！！！！！！！
+  translation: >-
+    从《红·绿》发售至今，恰好十年。随着 DS 版《钻石·珍珠》推出，不少人是不是也想起“小时候好像玩过”，又把游戏重新拿了起来？这次，我们为已经长大成人的《CONTINUE》读者准备了一期献给大人的宝可梦特辑！优酱也好、小翔子也好，大人也好、孩子也好，大家都来玩《宝可梦》吧！
+- type: paragraph
+  kind: text
+  region_type: byline
+  region_id: p017-feature-credits
+  order: 5
+  scan_page: 10
+
+  scan_box:
+  - 1308
+  - 3052
+  - 2233
+  - 3210
+  writing_direction: horizontal
+  review_status: ready
+  comment: 人名依照原刊保留日文写法，避免不必要的音译差异。
+  original: 文=志田英邦／結城昌弘／宮昌太朗／編集部　写真=正木猛／松崎浩之／辺見真也
+  translation: 文：志田英邦／結城昌弘／宮昌太朗／编辑部　摄影：正木猛／松崎浩之／辺見真也
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p018-qwen-r1
   order: 1
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 719
   - 127
@@ -2413,18 +1706,20 @@ translation_segments:
   - 283
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
+  comment: 已对照 P.023 原刊扫描校订标题译文。
   original: '株式会社ポケモンに
 
     行ってみた!!'
-  translation: 去了株式会社宝可梦!!
+  translation: |
+    探访宝可梦公司！
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p018-qwen-r2
   order: 2
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 126
   - 135
@@ -2440,7 +1735,8 @@ translation_segments:
   region_type: image
   region_id: p018-qwen-r3
   order: 3
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 1201
   - 219
@@ -2456,7 +1752,8 @@ translation_segments:
   region_type: body
   region_id: p018-qwen-r4
   order: 4
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 722
   - 295
@@ -2464,20 +1761,22 @@ translation_segments:
   - 522
   writing_direction: horizontal
   review_status: ready
-  comment: 将感叹号统一为全角，将'文='改为'文＝'，其余未发现明确OCR修正。
+  comment: 已对照 P.023 原刊扫描校订导语、公司称呼和署名。
   original: 'あふれでる『ポケモン』への愛！『ポケモン』のゲーム、グッズ、アニメなど、そのすべてをプロデュースする株式会社ポケモンにヨウコソ！
 
     文＝志田英邦'
-  translation: '满溢而出的对《宝可梦》的爱！欢迎来到制作《宝可梦》游戏、周边、动画等一切内容的株式会社宝可梦！
+  translation: |
+    满满都是对《宝可梦》的爱！欢迎来到统筹《宝可梦》游戏、周边、动画等各项业务的宝可梦公司！
 
-    文＝志田英邦'
+    文：志田英邦
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p018-qwen-r5
   order: 5
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 86
   - 549
@@ -2493,7 +1792,8 @@ translation_segments:
   region_type: body
   region_id: p018-qwen-r6
   order: 6
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 269
   - 559
@@ -2501,16 +1801,18 @@ translation_segments:
   - 731
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了'ボケモン'为'ポケモン'（Pokemon的日文表记），'こるに'为'ところ'（根据上下文'お忙しいところ'），并调整了标点。
+  comment: 已对照 P.023 原刊扫描校订译文，保留作者轻松、自嘲的语气。
   original: 絨毯に描かれた巨大なモンスターボールが僕らを迎える! わー、つかまえられる!? 我々CNTポケモン調査隊は、都内某所にある株式会社ポケモンへ真っ昼間にお邪魔した! お忙しいところスミマセンっ!!
-  translation: 地毯上画着巨大的精灵球迎接我们！哇，会被抓住吗！？我们CNT宝可梦调查队，大白天打扰了位于东京都内某处的宝可梦股份有限公司！百忙之中打扰，非常抱歉！！
+  translation: |
+    地毯上画着一颗巨大的精灵球，仿佛正迎接着我们！哇，这是要把我们收进去吗！？我们这支《CONTINUE》宝可梦调查队，大白天就跑到东京都内某处的宝可梦公司来打扰了！百忙之中登门，实在不好意思！！
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p018-qwen-r7
   order: 7
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 981
   - 565
@@ -2527,7 +1829,8 @@ translation_segments:
   region_type: caption
   region_id: p018-qwen-r8
   order: 8
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 982
   - 842
@@ -2545,7 +1848,8 @@ translation_segments:
   region_type: body
   region_id: p018-qwen-r9
   order: 9
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 115
   - 741
@@ -2553,16 +1857,19 @@ translation_segments:
   - 1149
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了'ホームぺージ'为'ホームページ'（OCR误将'ぺ'识别为'ぺ'，实际应为'ページ'）。其他无明显错误。
-  original: さて、そんな平身低頭気味な我々をエントランスで迎えたのは、なんと超人ハルク・ホーガン。なんでも、アメリカでおこなわれた『ポケモン』10周年イベントのホストをホーガンが務めたんだとか。ピカチュウとタッグを組む、衝撃写真が棚に乱入中あります。んでもって、その横に並ぶのはぬいぐるみ「マンスリーピカチュウ」がずらり！ぎゃーこれはかわいすぎ！そんなにぎやかなエントランスですが、お客さん用にインターネットのホームページを見られるタッチセンサーつきテーブルがあるのに注目。待ち時間も飽きさせない、おもてなしの精神がうれしいばかりです。
-  translation: 话说，我们正低声下气地走进入口时，迎接我们的竟然是超人浩克·霍根。据说，霍根曾在美国举办的《宝可梦》10周年活动中担任主持人。与皮卡丘搭档的冲击性照片正乱入在架子上。然后，旁边排列着的是毛绒玩具“月刊皮卡丘”一排排！哎呀，这也太可爱了！虽然入口如此热闹，但值得注意的是，有一张带触摸传感器的桌子，可供客人浏览互联网主页。等待时间也不会让人无聊，这种款待精神令人欣喜不已。
+  comment: 已对照 P.023 原刊扫描，将「乱入中あります」校为「乱入中であります」，并改顺直译和产品名表达。
+  original: |
+    さて、そんな平身低頭気味な我々をエントランスで迎えたのは、なんと超人ハルク・ホーガン。なんでも、アメリカでおこなわれた『ポケモン』10周年イベントのホストをホーガンが務めたんだとか。ピカチュウとタッグを組む、衝撃写真が棚に乱入中であります。んでもって、その横に並ぶのはぬいぐるみ「マンスリーピカチュウ」がずらり！ぎゃーこれはかわいすぎ！そんなにぎやかなエントランスですが、お客さん用にインターネットのホームページを見られるタッチセンサーつきテーブルがあるのに注目。待ち時間も飽きさせない、おもてなしの精神がうれしいばかりです。
+  translation: |
+    刚才还一路赔礼道歉的我们，没想到在入口处迎来的竟是“超人”浩克·霍根。听说他曾担任美国《宝可梦》十周年活动的主持人。架子上还“闯入”了一张他与皮卡丘搭档的震撼合影。旁边则一字排开摆着“每月皮卡丘”系列毛绒玩偶——哇，这也太可爱了！热闹的入口处还设有一张带触控功能的桌子，访客可以用它浏览官网。等候时也不会无聊，这份待客之道真让人开心。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p018-qwen-r10
   order: 10
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 982
   - 895
@@ -2579,7 +1886,8 @@ translation_segments:
   region_type: caption
   region_id: p018-qwen-r11
   order: 11
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 984
   - 1176
@@ -2588,16 +1896,18 @@ translation_segments:
   writing_direction: horizontal
   review_status: ready
   caption_for: p018-qwen-r10
-  comment: 未发现明确 OCR 修正
+  comment: 已对照 P.023 原刊扫描校订图注译文。
   original: 会議室の電話には……「ピカチュウ」の文字が!
-  translation: 会议室里的电话上……写着“皮卡丘”的字样！
+  translation: |
+    会议室的电话上……居然显示着“皮卡丘”！
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p018-qwen-r12
   order: 12
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 115
   - 1159
@@ -2605,16 +1915,18 @@ translation_segments:
   - 1569
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了「レピカチュウ」为「ピカチュウ」（OCR误加「レ」），并添加了「もしもし」后的逗号以符合自然断句。其余未发现明显OCR错误。
+  comment: 已对照 P.023 原刊扫描校订译文及宝可梦名称；ミズゴロウ应为“水跃鱼”，不是进化形“沼跃鱼”。
   original: さて、招かれたのは会議室。なんと会議室にはそれぞれポケモンの名前がつけられているのです。一番大きい会議室はピカチュウ。ほかにもミュウ、セレビィ、ピチュー、ゴンベ、アチャモなど……。内線番号もポケモンの名前で登録済み。「もしもし、ピカチュウに○○さんはいますか？」なんて会話が日常的な、株式会社ポケモン萌え～！大会議室ピカチュウの壁は一面の白板。そして、そこにはアートディレクターの杉森建さんによる、直筆のミズゴロウが！杉森さんが描いた落書きを誰も消さずに残しておいたところ、伝統的に白板にプリントすることになったという。むほ、おそるべし。「ポケモン」への愛があふれまくってる。ここから『ポケモン』の全商品は巣立っていくのです。
-  translation: "话说，我们被邀请到的是会议室。没想到会议室里都分别起了宝可梦的名字。最大的会议室叫皮卡丘。此外还有梦幻、雪拉比、皮丘、小卡比兽、火稚鸡等等……。内线电话也以宝可梦的名字登记好了。“喂喂，皮卡丘在吗？○○先生在吗？”这样的对话已成为日常，株式会社宝可梦，萌～！大会议室皮卡丘的墙壁是一整面白板。而且，那里有美术总监杉森建先生亲笔画的沼跃鱼！杉森先生画的涂鸦，谁都没有擦掉，一直保留着，后来传统上就决定把它印在白板上。唔，真是可怕。对“宝可梦”的爱满溢而出。从这里，『宝可梦』的所有商品就诞生了。"
+  translation: |
+    我们被请进了会议室。更让人惊喜的是，每间会议室都以宝可梦命名。最大的一间叫“皮卡丘”，此外还有“梦幻”“雪拉比”“皮丘”“小卡比兽”“火稚鸡”等……连内线号码也按宝可梦的名字登记。“喂，请问○○先生在‘皮卡丘’会议室吗？”这样的对话居然是日常——这家宝可梦公司也太萌了吧～！大会议室“皮卡丘”的整面墙都是白板，上面还留着美术总监杉森建亲笔画的水跃鱼。大家舍不得擦掉这幅涂鸦，后来索性把它印在白板上，成了公司的传统。哇，真厉害！这里处处洋溢着对《宝可梦》的爱，一个个宝可梦商品也从这里诞生、走向世界。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p018-qwen-r13
   order: 13
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 984
   - 1235
@@ -2631,7 +1943,8 @@ translation_segments:
   region_type: caption
   region_id: p018-qwen-r14
   order: 14
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 985
   - 1540
@@ -2640,16 +1953,18 @@ translation_segments:
   writing_direction: horizontal
   review_status: ready
   caption_for: p018-qwen-r13
-  comment: 未发现明确 OCR 修正
+  comment: 已对照 P.023 原刊扫描校正宝可梦名称：ミズゴロウ为“水跃鱼”。
   original: 大きな白板の隅に杉森さん直筆ミズゴロウ発見!
-  translation: 在大白板的角落里发现了杉森先生亲笔画的沼跃鱼！
+  translation: |
+    大白板一角，发现杉森先生亲笔画的水跃鱼！
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p018-qwen-r15
   order: 15
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 126
   - 1608
@@ -2666,7 +1981,8 @@ translation_segments:
   region_type: caption
   region_id: p018-qwen-r16
   order: 16
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 123
   - 1839
@@ -2675,16 +1991,18 @@ translation_segments:
   writing_direction: horizontal
   review_status: ready
   caption_for: p018-qwen-r15
-  comment: 将'ブレート'修正为'プレート'（plate），依据上下文和常见OCR错误。
+  comment: 已对照 P.023 原刊扫描校订图注，调整语序。
   original: 上に並んでいるのは会議室のプレート。ポケモンの名前が各会議室の名前になっています。か、かわいい……!!
-  translation: 上面排列的是会议室的牌子。每个会议室的名字都用了宝可梦的名字。好、好可爱……!!
+  translation: |
+    上方一字排开的就是会议室门牌——每间会议室都以宝可梦命名。可、可爱……！！
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p018-qwen-r17
   order: 17
-  scan_page: 17
+  scan_page: 16
+
   scan_box:
   - 121
   - 1972
@@ -2705,7 +2023,8 @@ translation_segments:
   region_type: body
   region_id: p019-qwen-r1
   order: 1
-  scan_page: 18
+  scan_page: 17
+
   scan_box:
   - 134
   - 133
@@ -2726,7 +2045,8 @@ translation_segments:
   region_type: body
   region_id: p019-qwen-r2
   order: 2
-  scan_page: 18
+  scan_page: 17
+
   scan_box:
   - 639
   - 143
@@ -2747,7 +2067,8 @@ translation_segments:
   region_type: body
   region_id: p019-qwen-r3
   order: 3
-  scan_page: 18
+  scan_page: 17
+
   scan_box:
   - 134
   - 276
@@ -2768,7 +2089,8 @@ translation_segments:
   region_type: image
   region_id: p019-qwen-r4
   order: 4
-  scan_page: 18
+  scan_page: 17
+
   scan_box:
   - 134
   - 451
@@ -2784,7 +2106,8 @@ translation_segments:
   region_type: note
   region_id: p019-qwen-r5
   order: 5
-  scan_page: 18
+  scan_page: 17
+
   scan_box:
   - 1292
   - 1966
@@ -2801,7 +2124,8 @@ translation_segments:
   region_type: image
   region_id: p020-qwen-r1
   order: 1
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 121
   - 121
@@ -2817,7 +2141,8 @@ translation_segments:
   region_type: image
   region_id: p020-qwen-r2
   order: 2
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 858
   - 700
@@ -2833,7 +2158,8 @@ translation_segments:
   region_type: image
   region_id: p020-qwen-r3
   order: 3
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 522
   - 700
@@ -2849,7 +2175,8 @@ translation_segments:
   region_type: image
   region_id: p020-qwen-r4
   order: 4
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 118
   - 700
@@ -2865,7 +2192,8 @@ translation_segments:
   region_type: image
   region_id: p020-qwen-r5
   order: 5
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 618
   - 1343
@@ -2881,7 +2209,8 @@ translation_segments:
   region_type: image
   region_id: p020-qwen-r6
   order: 6
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 118
   - 1341
@@ -2897,15 +2226,16 @@ translation_segments:
   region_type: note
   region_id: p020-qwen-r7
   order: 7
-  scan_page: 19
+  scan_page: 18
+
   scan_box:
   - 111
   - 1972
   - 488
   - 2003
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.025 整页扫描确认页脚文字及页码。
   original: 025 CONTINUE 2006 vol.31
   translation: 025 CONTINUE 2006 vol.31
 - speaker: body
@@ -2914,7 +2244,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r1
   order: 1
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 68
   - 133
@@ -2935,7 +2266,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r2
   order: 2
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 65
   - 221
@@ -2952,7 +2284,8 @@ translation_segments:
   region_type: image
   region_id: p021-qwen-r3
   order: 3
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 906
   - 283
@@ -2968,15 +2301,16 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r4
   order: 4
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 61
   - 303
   - 731
   - 399
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
+  review_status: ready
+  comment: 已对照 P.026 原刊扫描核对三组发售日期。
   original: '1996.02.27
 
     1996.10.15
@@ -2993,7 +2327,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r5
   order: 5
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 61
   - 426
@@ -3010,7 +2345,8 @@ translation_segments:
   region_type: image
   region_id: p021-qwen-r6
   order: 6
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 190
   - 522
@@ -3026,7 +2362,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r7
   order: 7
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 61
   - 864
@@ -3043,7 +2380,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r8
   order: 8
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 61
   - 967
@@ -3051,16 +2389,18 @@ translation_segments:
   - 1423
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确OCR修正。
+  comment: 已对照 P.026 原刊校订译文；将メンコ准确处理为拍纸牌，并调整语序。
   original: すべては子供の頃の体験が原点だった。野山で虫取りをした思い出、『ウルトラマン』の『怪獣図鑑』をむさぼり読んで興奮、メンコやビー玉を交換する楽しさ。作者の田尻智とゲームフリークのスタッフの原体験がゲームボーイに詰め込まれている。だからこそ、表情豊かなポケモンたちを収集し、育成し、交換し、対戦する面白さが子供たちに伝わったのだ。次世代機ブームの最中、時代遅れのゲームボーイに生まれた小さなゲームは、子供たちを発火点にして、やがてアニメ化、カードゲーム化、映画化して世界的なブームへと拡大していく!
-  translation: "一切的原点，是孩童时代的体验。在野外山林中捕捉昆虫的回忆，贪婪地阅读《奥特曼》的《怪兽图鉴》时的兴奋，交换洋画和弹珠的乐趣。作者田尻智和GAME FREAK工作人员的原始体验，都被浓缩进了Game Boy之中。正因为如此，收集、培育、交换、对战那些表情丰富的宝可梦的乐趣，才能传达给孩子们。在次世代主机热潮之中，诞生于过时的Game Boy上的这个小游戏，以孩子们为引爆点，最终动画化、卡牌游戏化、电影化，扩展为世界性的热潮！"
+  translation: >-
+    这一切都源自童年：在山野间捉虫的回忆、如饥似渴地读《奥特曼》怪兽图鉴时的兴奋，还有和伙伴交换拍纸牌（メンコ）、玻璃弹珠的快乐。田尻智和 GAME FREAK 团队的这些童年体验，都被装进了 Game Boy。也正因如此，孩子们才体会到收集、培育、交换、对战那些个性鲜明的宝可梦有多有趣。当时正值新一代主机热潮，这款诞生在已显过时的 Game Boy 上的小小的游戏，却先在孩子们中间掀起热潮，后来又被改编成动画、卡牌游戏和电影，最终风靡全球！
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p021-qwen-r9
   order: 9
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 769
   - 532
@@ -3076,41 +2416,46 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r10
   order: 10
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1032
   - 502
   - 1263
   - 573
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.026 原刊扫描核对小标题。
   original: 「ピカチュウ」バージョンはすごい
-  translation: 「皮卡丘」版很厉害
+  translation: |
+    《皮卡丘》版的独到之处
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p021-qwen-r11
   order: 11
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1032
   - 584
   - 1321
   - 815
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确OCR修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.026 原刊扫描校订译文。
   original: 「ピカチュウ」バージョンは、ファン向けの構成になっている。さらに「最も早いミリオンセラー」としてギネスブックに登録されている。ポケットプリンタで「ポケモンずかん」を出力できるなど、お楽しみも豊富。
-  translation: 《皮卡丘》版本是面向粉丝的构成。此外，作为“最快达到百万销量的作品”被载入吉尼斯世界纪录。还可以通过口袋打印机输出“宝可梦图鉴”等，乐趣多多。
+  translation: |
+    《皮卡丘》版更偏向粉丝向，还以“最快突破百万销量”的纪录载入吉尼斯世界纪录。它还能用口袋打印机打印宝可梦图鉴，玩法也很丰富。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p021-qwen-r12
   order: 12
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 773
   - 844
@@ -3126,15 +2471,16 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r13
   order: 13
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1032
   - 844
   - 1294
   - 881
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.026 原刊扫描核对小标题。
   original: カードゲームが大人気
   translation: 卡牌游戏大受欢迎
 - speaker: body
@@ -3143,7 +2489,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r14
   order: 14
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1032
   - 891
@@ -3160,7 +2507,8 @@ translation_segments:
   region_type: image
   region_id: p021-qwen-r15
   order: 15
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 753
   - 1167
@@ -3176,7 +2524,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r16
   order: 16
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1032
   - 1151
@@ -3193,24 +2542,27 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r17
   order: 17
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1032
   - 1198
   - 1321
   - 1430
   writing_direction: horizontal
-  review_status: review
-  comment: 修正了'プログラムー'为'プログラマー'，补充了杂志名缺失的引号，并在'応募'后添加了'が'以符合语法。；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.026 原刊扫描校订译文。
   original: ミュウはプログラマーの遊び心で残しておいた、151匹目のポケモンだった。それが偶然発見されたため、「月刊コロコロコミック」誌上でミュウプレゼントを実施したところ、7万8000通の応募があったという。
-  translation: 梦幻是程序员出于玩心留下的第151只宝可梦。它被偶然发现后，在《月刊CoroCoro Comic》杂志上举办了梦幻赠送活动，据说收到了78000封应征。
+  translation: |
+    梦幻是程序员出于一点玩心而留在游戏里的第151只宝可梦。它意外曝光后，《月刊 CoroCoro Comic》举办了梦幻赠送活动，据说共收到7万8000份申请。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p021-qwen-r18
   order: 18
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 68
   - 1444
@@ -3227,16 +2579,17 @@ translation_segments:
   region_type: caption
   region_id: p021-qwen-r19
   order: 19
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 61
   - 1704
   - 327
   - 1853
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p021-qwen-r18
-  comment: 修正了“市村正”为“市村正親”，并调整了换行位置以保持原文结构。；coordinate_dump
+  comment: 已对照 P.026 原刊扫描核对片名、上映日期和配音名单。
   original: '「劇場版ポケットモンスター
 
     ミュウツーの逆襲」
@@ -3251,7 +2604,8 @@ translation_segments:
   region_type: image
   region_id: p021-qwen-r20
   order: 20
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 381
   - 1444
@@ -3268,16 +2622,17 @@ translation_segments:
   region_type: caption
   region_id: p021-qwen-r21
   order: 21
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 373
   - 1737
   - 632
   - 1853
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p021-qwen-r20
-  comment: 修正了リーフグリーン前的多余空格；其余未发现明确OCR修正。；coordinate_dump
+  comment: 已对照 P.026 原刊扫描核对游戏名与说明。
   original: 「ファイアレッド・リーフグリーン」2004年に発売された本作は、「赤・緑」に新要素が加わった。
   translation: 《火红·叶绿》2004年发售的本作，在《红·绿》的基础上增加了新要素。
 - speaker: body
@@ -3286,7 +2641,8 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r22
   order: 22
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 723
   - 1479
@@ -3303,7 +2659,8 @@ translation_segments:
   region_type: image
   region_id: p021-qwen-r23
   order: 23
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 723
   - 1628
@@ -3319,36 +2676,34 @@ translation_segments:
   region_type: body
   region_id: p021-qwen-r24
   order: 24
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 959
   - 1479
   - 1286
   - 1833
   writing_direction: horizontal
-  review_status: review
-  comment: 将“よこそ”修正为“ようこそ”，将“ボケモン”修正为“ポケモン”。；coordinate_dump
-  original: '受付のお姉さんの第一声
+  review_status: ready
+  comment: 已对照 P.026 原刊更正「よこそ／ボケモン」两处 OCR 错字，并调整译文。
+  original: |
+    受付のお姉さんの第一声
+    「ようこそ！ポケモンセンターへ」
 
-    「よこそ!
+    初登場した今作では1階建てで、看板の文字は「POKE」。回復をする受付と通信受付（つうしんケーブルクラブ）が隣り合わせだった。通信受付では「ケーブルを持っている人だけ特別に！」など、通信ケーブルの重要性をうかがわせるセリフがある。
+  translation: |
+    前台姐姐的第一句话：
+    “欢迎光临宝可梦中心！”
 
-    ボケモンセンターへ」
-
-    初登場した今作では1階建てで、看板の文字は「POKE」。回復をする受付と通信受付(つうしんケーブルクラブ)が隣り合わせだった。通信受付では「ケーブルを持っている人だけ特別に!」など通信ケーブルの重要性をうかがわせるセリフがある。'
-  translation: '前台姐姐的第一句话
-
-    “欢迎光临!
-
-    宝可梦中心”
-
-    在本作中首次登场，是单层建筑，招牌文字为“POKE”。负责回复的前台和通信前台（通信电缆俱乐部）相邻。在通信前台，有诸如“只有持有电缆的人才能享受特别待遇！”等让人感受到通信电缆重要性的台词。'
+    最初登场的宝可梦中心是单层建筑，招牌写着“POKE”。恢复柜台与通信柜台（通信线俱乐部）并排设置；通信柜台上的台词——“只有带着通信线的人才有特别待遇！”——也让人感受到当年通信线的重要性。
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p021-qwen-r25
   order: 25
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 53
   - 1905
@@ -3365,7 +2720,8 @@ translation_segments:
   region_type: note
   region_id: p021-qwen-r26
   order: 26
-  scan_page: 20
+  scan_page: 19
+
   scan_box:
   - 1271
   - 1966
@@ -3382,7 +2738,8 @@ translation_segments:
   region_type: body
   region_id: p022-qwen-r1
   order: 1
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 154
@@ -3399,24 +2756,27 @@ translation_segments:
   region_type: body
   region_id: p022-qwen-r2
   order: 2
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 242
   - 857
   - 303
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
+  review_status: ready
+  comment: 已对照 P.027 原刊扫描核对标题。
   original: 金・銀・クリスタルバージョン
-  translation: 金・银・水晶版
+  translation: |
+    《金·银·水晶版》
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p022-qwen-r3
   order: 3
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 1052
   - 297
@@ -3432,15 +2792,16 @@ translation_segments:
   region_type: note
   region_id: p022-qwen-r4
   order: 4
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 324
   - 776
   - 385
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
+  review_status: ready
+  comment: 已对照 P.027 原刊扫描核对发售日期。
   original: '1999.11.21
 
     2000.12.14'
@@ -3453,7 +2814,8 @@ translation_segments:
   region_type: note
   region_id: p022-qwen-r5
   order: 5
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 446
@@ -3470,7 +2832,8 @@ translation_segments:
   region_type: image
   region_id: p022-qwen-r6
   order: 6
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 246
   - 543
@@ -3486,7 +2849,8 @@ translation_segments:
   region_type: body
   region_id: p022-qwen-r7
   order: 7
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 881
@@ -3503,7 +2867,8 @@ translation_segments:
   region_type: body
   region_id: p022-qwen-r8
   order: 8
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 983
@@ -3511,16 +2876,19 @@ translation_segments:
   - 1434
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了'おずと'为'おのずと'（推测），'チャレンジジャプルさ'为'チャレンジの面白さ'（根据上下文推测），其余未发现明确OCR错误。
-  original: 「赤・緑」が予想をはるかに超えて世界規模で大ヒット。おずと大作化した『金・銀』。ゲームボーイカラーに対応、時計と連動したり、赤外線通信でデータ交換、ポケモンの性別が明らかになったりと、期待にこたえるべく新しい要素をてんこ盛りにした分、難産。発売延期を重ねた。しかし、『赤・緑・青・ピカチュウ』とポケモンを交換できるのはうれしい限り。「クリスタル」では携帯電話・PHSと連動する「モバイルアダプタGB」に対応。携帯電話・PHSでポケモンを交換する、チャレンジジャプルさに乾杯。奇跡を継承する試行錯誤の爪あと。
-  translation: 《红·绿》远超预期，在全球范围内大受欢迎。随后，《金·银》成为大作。对应Game Boy Color，与时钟联动，通过红外线通信交换数据，宝可梦的性别变得明确等，为了回应期待而塞满了新要素，因此制作艰难，多次延期发售。但是，能与《红·绿·蓝·皮卡丘》交换宝可梦，令人欣喜至极。在《水晶》中，对应与手机·PHS联动的“Mobile Adapter GB”。通过手机·PHS交换宝可梦，为这种挑战的乐趣干杯。这是继承奇迹的试错痕迹。
+  comment: 已对照 P.027 原刊修正「おのずと」「チャレンジ精神」两处 OCR 错读，并润色译文。
+  original: |
+    「赤・緑」が予想をはるかに超えて世界規模で大ヒット。おのずと大作化した『金・銀』。ゲームボーイカラーに対応、時計と連動したり、赤外線通信でデータ交換、ポケモンの性別が明らかになったりと、期待にこたえるべく新しい要素をてんこ盛りにした分、難産。発売延期を重ねた。しかし、『赤・緑・青・ピカチュウ』とポケモンを交換できるのはうれしい限り。「クリスタル」では携帯電話・PHSと連動する「モバイルアダプタGB」に対応。携帯電話・PHSでポケモンを交換する、チャレンジ精神に乾杯。奇跡を継承する試行錯誤の爪あと。
+  translation: |
+    《红·绿》远超预期，在全球大卖。《金·银》也顺势发展成规模更大的作品。它支持 Game Boy Color，加入了与时钟联动、红外线数据交换以及宝可梦性别等新要素；为了满足大家的期待，内容塞得太满，开发过程也格外艰难，发售一再延期。不过，能和《红·绿·蓝·皮卡丘》交换宝可梦，还是很让人开心。《水晶》则支持连接手机和 PHS 的“Mobile Adapter GB”。当年居然能用手机交换宝可梦，这份敢于尝试的劲头真值得喝彩。一路摸索留下的印记，也延续了当年的奇迹。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p022-qwen-r9
   order: 9
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 828
   - 543
@@ -3537,29 +2905,30 @@ translation_segments:
   region_type: caption
   region_id: p022-qwen-r10
   order: 10
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 1131
   - 516
   - 1370
   - 788
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p022-qwen-r9
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  comment: 已对照 P.027 原刊扫描核对说明文字并调整译文。
   original: 'アンノーン文字
 
     アンノーンはアルファベットに対応したポケモンで28種類いる。すべてのアンノーンをつかまえると、この「ポケットプリンタ」で文字を出力することができる。'
-  translation: '未知图腾文字
-
-    未知图腾是与字母对应的宝可梦，共有28种。当捕捉到所有未知图腾后，就可以用这台“口袋打印机”输出文字。'
+  translation: |
+    未知图腾文字。未知图腾分别对应字母，共有28种；集齐全部形态后，还能用这台“口袋打印机”把文字打印出来。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p022-qwen-r11
   order: 11
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 813
   - 836
@@ -3576,45 +2945,31 @@ translation_segments:
   region_type: caption
   region_id: p022-qwen-r12
   order: 12
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 1131
   - 819
   - 1370
   - 1096
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p022-qwen-r11
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: '色違いポケモン
-
-    ポケモンをつかまえている
-
-    と、たまに色違いのポケモ
-
-    ンが出現することがある。
-
-    このポケモンは戦闘が始ま
-
-    ると光って登場する! ちな
-
-    みにこれはギャラドスの色
-
-    違いバージョン。'
-  translation: '异色宝可梦
-
-    在捕捉宝可梦时，偶尔会出现异色的宝可梦。
-
-    这种宝可梦在战斗开始时会出现闪光！
-
-    顺带一提，这是暴鲤龙的异色版本。'
+  comment: 已对照 P.027 原刊扫描重新断句，去除 OCR 换行造成的断词。
+  original: |
+    色違いポケモン
+    ポケモンをつかまえていると、たまに色違いのポケモンが出現することがある。このポケモンは戦闘が始まると光って登場する！ちなみにこれはギャラドスの色違いバージョン。
+  translation: |
+    异色宝可梦
+    捕捉宝可梦时，偶尔会遇到颜色不同的个体。它们会在战斗开始时闪亮登场！图中这只就是异色暴鲤龙。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p022-qwen-r13
   order: 13
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 813
   - 1147
@@ -3631,43 +2986,31 @@ translation_segments:
   region_type: caption
   region_id: p022-qwen-r14
   order: 14
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 1131
   - 1126
   - 1370
   - 1403
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p022-qwen-r13
-  comment: 未发现明确OCR修正；coordinate_dump
-  original: 'ポケルス感染
-
-    ポケモンをつれて歩いてい
-
-    ると、低い確率でポケモン
-
-    がなぞのウィルス「ポケル
-
-    ス」にかかることがある。
-
-    どうやらポケモンはポケル
-
-    スにかかるとより強く育つ
-
-    ようだ。'
-  translation: '宝可病毒感染
-
-    带着宝可梦走路时，有较低概率宝可梦会感染上神秘的病毒“宝可病毒”。
-
-    据说宝可梦感染宝可病毒后会成长得更强。'
+  comment: 已对照 P.027 原刊扫描重新断句，去除 OCR 换行造成的断词。
+  original: |
+    ポケルス感染
+    ポケモンをつれて歩いていると、低い確率でポケモンがなぞのウィルス「ポケルス」にかかることがある。どうやらポケモンはポケルスにかかるとより強く育つようだ。
+  translation: |
+    宝可病毒感染
+    带着宝可梦同行时，它有时会以很低的概率感染一种神秘病毒——“宝可病毒”。据说感染后，宝可梦会成长得更强。
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p022-qwen-r15
   order: 15
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 120
   - 1475
@@ -3675,48 +3018,36 @@ translation_segments:
   - 1864
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了括号全半角不一致（将全角）改为半角)），并统一了标点。专有名词如『エンティイ』（炎帝）和『セレブイ』（雪拉比）按上下文保留。
-  original: '1999年7月17日公開)
+  comment: 已对照 P.027 原刊扫描修正片名及「薬丸裕英」等 OCR 错读。扫描页将《结晶塔之帝王 炎帝》的日期印作 1999年7月17日；官方资料将其列为2000年作品，故译文忠实照录、保留原刊疑似误植。
+  original: |
+    『劇場版ポケットモンスター 幻のポケモン ルギア爆誕』
+    （1999年7月17日公開）
+    ゲスト声優：山寺宏一／鹿賀丈史／濱田雅功
 
-    ゲスト声優:山寺宏一/鹿賀丈史/濱田雅功
+    『劇場版ポケットモンスター 結晶塔の帝王 エンテイ』
+    （1999年7月17日公開）
+    ゲスト声優：山寺宏一／竹中直人／薬丸裕英／加藤あい
 
-    【劇場版ポケットモンスターファミ通】
+    『劇場版ポケットモンスター セレビィ 時を超えた遭遇』
+    （2001年7月7日公開）
+    ゲスト声優：山寺宏一／佐野史郎／藤井隆／鈴木杏
+  translation: |
+    《剧场版宝可梦：幻之宝可梦 洛奇亚爆诞》（1999年7月17日上映）
+    客串配音：山寺宏一／鹿贺丈史／滨田雅功
 
-    結晶塔の帝王 エンティイ!
+    《剧场版宝可梦：结晶塔之帝王 炎帝》（1999年7月17日上映）
+    客串配音：山寺宏一／竹中直人／药丸裕英／加藤爱
 
-    (1999年7月17日公開）
-
-    ゲスト声優:山寺宏一/竹中直人/築丸裕英/加藤勝也
-
-    [劇場版ポケットモンスターセレブイ時を超えて]
-
-    (2001年7月7日公開)
-
-    ゲスト声優:山寺宏一/佐野史郎/藤井隆/鈴木'
-  translation: '1999年7月17日公开)
-
-    客串声优：山寺宏一/鹿贺丈史/滨田雅功
-
-    【剧场版宝可梦 法米通】
-
-    结晶塔的帝王 炎帝！
-
-    (1999年7月17日公开）
-
-    客串声优：山寺宏一/竹中直人/筑丸裕英/加藤胜也
-
-    [剧场版宝可梦 雪拉比 穿越时空]
-
-    (2001年7月7日公开)
-
-    客串声优：山寺宏一/佐野史郎/藤井隆/铃木'
+    《剧场版宝可梦：雪拉比 穿越时空的相遇》（2001年7月7日上映）
+    客串配音：山寺宏一／佐野史郎／藤井隆／铃木杏
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p022-qwen-r16
   order: 16
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 554
   - 1479
@@ -3732,7 +3063,8 @@ translation_segments:
   region_type: body
   region_id: p022-qwen-r17
   order: 17
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 779
   - 1485
@@ -3749,32 +3081,31 @@ translation_segments:
   region_type: body
   region_id: p022-qwen-r18
   order: 18
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 1014
   - 1491
   - 1289
   - 1593
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.027 原刊扫描核对问候语。
   original: '受付のお姉さんの第一声
 
     「こんにちは!
 
     ポケモンセンターです」'
-  translation: '前台姐姐的第一句话
-
-    “你好！
-
-    这里是宝可梦中心。”'
+  translation: |
+    前台姐姐开口第一句：“你好，这里是宝可梦中心！”
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p022-qwen-r19
   order: 19
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 779
   - 1628
@@ -3791,25 +3122,28 @@ translation_segments:
   region_type: caption
   region_id: p022-qwen-r20
   order: 20
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 1014
   - 1608
   - 1333
   - 1839
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p022-qwen-r19
-  comment: 未发现明确OCR修正；coordinate_dump
+  comment: 已对照 P.027 原刊扫描校订译文。
   original: まだ看板以外では他の建物と区別がない状態だが、看板の文字は「PC」となり、モンスターボールの絵柄も併載。2階建てとなり、回復をする受付と通信受付の階が異なるなど現在のポケモンセンターの原型が出来上がっている。ちなみに床はピンク色!
-  translation: 虽然除了招牌以外，与其他建筑尚无区别，但招牌文字已变为“PC”，并同时印有精灵球图案。建筑变为两层，回复柜台与通信柜台的楼层不同，现代宝可梦中心的原型就此形成。顺带一提，地板是粉色的！
+  translation: |
+    当时除了招牌，宝可梦中心和其他建筑还看不出区别；后来招牌改为“PC”，并加上了精灵球图案。建筑也变成两层，恢复柜台与通信柜台分设不同楼层，现代宝可梦中心的雏形就此形成。顺带一提，地板是粉色的！
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p022-qwen-r21
   order: 21
-  scan_page: 21
+  scan_page: 20
+
   scan_box:
   - 114
   - 1966
@@ -3828,954 +3162,10 @@ translation_segments:
   type: paragraph
   kind: text
   region_type: body
-  region_id: p023-qwen-r1
-  order: 1
-  scan_page: 22
-  scan_box:
-  - 43
-  - 133
-  - 158
-  - 178
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 1996-
-  translation: 1996-
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r2
-  order: 2
-  scan_page: 22
-  scan_box:
-  - 982
-  - 129
-  - 1308
-  - 184
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: Pokémon History
-  translation: 宝可梦历史
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r3
-  order: 3
-  scan_page: 22
-  scan_box:
-  - 43
-  - 221
-  - 629
-  - 283
-  writing_direction: horizontal
-  review_status: ready
-  comment: 将中点修正为日文标准中点（・），其余未发现明确OCR修正。
-  original: 赤・緑・青・ピカチュウ
-  translation: 红・绿・青・皮卡丘
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r4
-  order: 4
-  scan_page: 22
-  scan_box:
-  - 893
-  - 270
-  - 1305
-  - 393
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o004_image_qwen-r4.jpg
-  alt: image
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p023-qwen-r5
-  order: 5
-  scan_page: 22
-  scan_box:
-  - 43
-  - 303
-  - 711
-  - 399
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
-  original: '1996.02.27
-
-    1996.10.15
-
-    1998.09.12
-
-    「緑」404万本）'
-  translation: '1996.02.27
-
-    1996.10.15
-
-    1998.09.12
-
-    「绿」404万本）'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p023-qwen-r6
-  order: 6
-  scan_page: 22
-  scan_box:
-  - 43
-  - 430
-  - 514
-  - 461
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 総ポケモン数：151匹／まぼろしのポケモン：ミュウ
-  translation: 宝可梦总数：151只／幻之宝可梦：梦幻
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r7
-  order: 7
-  scan_page: 22
-  scan_box:
-  - 177
-  - 522
-  - 530
-  - 829
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r8
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o007_image_qwen-r7.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r8
-  order: 8
-  scan_page: 22
-  scan_box:
-  - 43
-  - 870
-  - 391
-  - 958
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: 苦節6年、世界で最も人気のゲーム誕生!
-  translation: 历经6年磨砺，世界最受欢迎的游戏诞生！
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r9
-  order: 9
-  scan_page: 22
-  scan_box:
-  - 43
-  - 973
-  - 675
-  - 1434
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正。
-  original: すべては子供の頃の体験が原点だった。野山で虫取りをした思い出、『ウルトラマン』の『怪獣図鑑』をむさぼり読んだ興奮、メンコやビー玉を交換する楽しさ。作者の田尻智とゲームフリークのスタッフの原体験がゲームボーイに詰め込まれている。だからこそ、表情豊かなポケモンたちを収集し、育成し、交換し、対戦する面白さが子供たちに伝わったのだ。次世代機ブームの最中、時代遅れのゲームボーイに生まれた小さなゲームは、子供たちを発火点にして、やがてアニメ化、カードゲーム化、映画化して世界的なブームへと拡大していく!
-  translation: "一切的原点，是童年时的体验。在野山上捉虫子的回忆，贪婪地阅读《奥特曼》的《怪兽图鉴》时的兴奋，交换洋画和弹珠的乐趣。作者田尻智和GAME FREAK的工作人员们的原始体验，都被浓缩进了Game Boy之中。正因为如此，收集、培育、交换、对战那些表情丰富的宝可梦的乐趣，才能传达给孩子们。在次世代主机热潮之中，诞生于过时的Game Boy上的这个小游戏，以孩子们为燃点，最终通过动画化、卡牌游戏化、电影化，扩大为世界性的热潮！"
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r10
-  order: 10
-  scan_page: 22
-  scan_box:
-  - 755
-  - 528
-  - 959
-  - 782
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r11
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o010_image_qwen-r10.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r11
-  order: 11
-  scan_page: 22
-  scan_box:
-  - 1021
-  - 492
-  - 1259
-  - 563
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: 『ピカチュウ』バージョンはすごい
-  translation: 《皮卡丘》版很厉害
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r12
-  order: 12
-  scan_page: 22
-  scan_box:
-  - 1021
-  - 573
-  - 1312
-  - 809
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: 「ピカチュウ」バージョンは、ファン向けの構成になっている。さらに「最も早いミリオンセラー」としてギネスブックに登録されている。ポケットプリンタで「ポケモンずかん」を出力できるなど、お楽しみも豊富。
-  translation: 《皮卡丘》版本是面向粉丝的构成。此外，作为“最快达到百万销量的作品”被载入吉尼斯世界纪录。还可以用口袋打印机输出“宝可梦图鉴”等，乐趣多多。
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r13
-  order: 13
-  scan_page: 22
-  scan_box:
-  - 764
-  - 840
-  - 955
-  - 1106
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r14
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o013_image_qwen-r13.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r14
-  order: 14
-  scan_page: 22
-  scan_box:
-  - 1025
-  - 840
-  - 1289
-  - 877
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: カードゲームが大人気
-  translation: 卡牌游戏大受欢迎
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r15
-  order: 15
-  scan_page: 22
-  scan_box:
-  - 1025
-  - 891
-  - 1317
-  - 1116
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: トレーディングカードゲーム『ポケモンカードゲーム』が1996年に発売。1999年には2000万枚を出荷し、大ヒットとなった。1999年に北米でも発売。現在は世界40カ国以上で発売され、累計140億枚以上が出荷された。
-  translation: 集换式卡牌游戏《宝可梦卡牌游戏》于1996年发售。1999年出货量达到2000万张，大受欢迎。1999年也在北美发售。目前已在全球40多个国家发售，累计出货量超过140亿张。
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r16
-  order: 16
-  scan_page: 22
-  scan_box:
-  - 744
-  - 1171
-  - 975
-  - 1382
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r17
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o016_image_qwen-r16.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r17
-  order: 17
-  scan_page: 22
-  scan_box:
-  - 1028
-  - 1151
-  - 1194
-  - 1188
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: ミュウの伝説
-  translation: 梦幻的传说
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r18
-  order: 18
-  scan_page: 22
-  scan_box:
-  - 1028
-  - 1198
-  - 1320
-  - 1430
-  writing_direction: horizontal
-  review_status: review
-  comment: 修正了'ボケモン'为'ポケモン'，并补充了'月刊コロコロコミック'的书名号，以及'応募あった'改为'応募があった'。；coordinate_dump
-  original: ミュウはプログラムの遊び心で残しておいた、151匹目のポケモンだった。それが偶然発見されたため、「月刊コロコロコミック」誌上でミュウプレゼントを実施したところ、7万8000通の応募があったという。
-  translation: 梦幻是出于程序的玩心而留下的第151只宝可梦。由于它被偶然发现，于是在《月刊CoroCoro Comic》杂志上举办了梦幻赠送活动，据说收到了78000封应征。
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r19
-  order: 19
-  scan_page: 22
-  scan_box:
-  - 61
-  - 1458
-  - 243
-  - 1710
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r20
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o019_image_qwen-r19.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p023-qwen-r20
-  order: 20
-  scan_page: 22
-  scan_box:
-  - 58
-  - 1720
-  - 322
-  - 1868
-  writing_direction: horizontal
-  review_status: review
-  caption_for: p023-qwen-r19
-  comment: 修正「ミュウワー」为「ミュウツー」（宝可梦名），「市村正親」的「親」字因OCR断行缺失，已补全。；coordinate_dump
-  original: '「劇場版ポケットモンスター
-
-    ミュウツーの逆襲」
-
-    (1998年7月18日公開)
-
-    ゲスト声優：山寺宏一／市村正
-
-    親／小林幸子／佐藤藍子'
-  translation: 《剧场版宝可梦 超梦的逆袭》（1998年7月18日上映）嘉宾声优：山寺宏一／市村正亲／小林幸子／佐藤蓝子
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r21
-  order: 21
-  scan_page: 22
-  scan_box:
-  - 376
-  - 1458
-  - 596
-  - 1737
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r22
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o021_image_qwen-r21.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p023-qwen-r22
-  order: 22
-  scan_page: 22
-  scan_box:
-  - 371
-  - 1751
-  - 632
-  - 1868
-  writing_direction: horizontal
-  review_status: ready
-  caption_for: p023-qwen-r21
-  comment: 未发现明确OCR修正。
-  original: 「ファイアレッド・リーフグリーン」2004年に発売された本作は、「赤・緑」に新要素が加わった。
-  translation: 《火红·叶绿》2004年发售的本作，在《红·绿》的基础上增加了新要素。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r23
-  order: 23
-  scan_page: 22
-  scan_box:
-  - 718
-  - 1485
-  - 860
-  - 1593
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: Pokémon Center History
-  translation: 宝可梦中心历史
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p023-qwen-r24
-  order: 24
-  scan_page: 22
-  scan_box:
-  - 721
-  - 1634
-  - 949
-  - 1833
-  writing_direction: auto
-  review_status: ready
-  caption_for: p023-qwen-r25
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p023-p023_o024_image_qwen-r24.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p023-qwen-r25
-  order: 25
-  scan_page: 22
-  scan_box:
-  - 964
-  - 1485
-  - 1289
-  - 1833
-  writing_direction: horizontal
-  review_status: review
-  comment: 将“ようこと”修正为“ようこそ”，根据上下文和常见表达。；coordinate_dump
-  original: '受付のお姉さんの第一声
-
-    「ようこそ! ポケモンセンターへ」
-
-    初登場した今作では1階建てで、看板の文字は「POKE」。回復をする受付と通信受付(つうしんケーブルクラブ)が隣り合わせだった。通信受付では「ケーブルを持っている人だけ特別に!」など通信ケーブルの重要性をうかがわせるセリフがある。'
-  translation: '前台姐姐的第一句话
-
-    “欢迎光临！宝可梦中心”
-
-    在初次登场的本作中，建筑为一层，招牌文字为“POKE”。负责恢复的前台和通信前台（通信电缆俱乐部）相邻。在通信前台，有诸如“只有持有电缆的人才能享受特别待遇！”等让人感受到通信电缆重要性的台词。'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p023-qwen-r26
-  order: 26
-  scan_page: 22
-  scan_box:
-  - 54
-  - 1925
-  - 361
-  - 1950
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: ※全ての累計本数は編集部調べです。
-  translation: ※所有累计销量均为编辑部调查所得。
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p023-qwen-r27
-  order: 27
-  scan_page: 22
-  scan_box:
-  - 1277
-  - 1970
-  - 1323
-  - 1997
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '026'
-  translation: '026'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r1
-  order: 1
-  scan_page: 23
-  scan_box:
-  - 120
-  - 121
-  - 235
-  - 170
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 1999-
-  translation: 1999-
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r2
-  order: 2
-  scan_page: 23
-  scan_box:
-  - 120
-  - 213
-  - 866
-  - 281
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 金・銀・クリスタルバージョン
-  translation: 金・银・水晶版
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r3
-  order: 3
-  scan_page: 23
-  scan_box:
-  - 1068
-  - 281
-  - 1386
-  - 406
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o003_image_qwen-r3.jpg
-  alt: image
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p024-qwen-r4
-  order: 4
-  scan_page: 23
-  scan_box:
-  - 120
-  - 295
-  - 785
-  - 360
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
-  original: '1999.11.21
-
-    2000.12.14'
-  translation: '1999年11月21日
-
-    2000年12月14日'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p024-qwen-r5
-  order: 5
-  scan_page: 23
-  scan_box:
-  - 120
-  - 422
-  - 609
-  - 455
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: 総ポケモン数：251匹／まぼろしのポケモン：セレビィ
-  translation: 宝可梦总数：251只／幻之宝可梦：时拉比
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r6
-  order: 6
-  scan_page: 23
-  scan_box:
-  - 246
-  - 520
-  - 594
-  - 823
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o006_image_qwen-r6.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r7
-  order: 7
-  scan_page: 23
-  scan_box:
-  - 111
-  - 864
-  - 399
-  - 950
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 期待の新作は、未知の地への冒険
-  translation: 期待的新作，是前往未知之地的冒险
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r8
-  order: 8
-  scan_page: 23
-  scan_box:
-  - 111
-  - 967
-  - 734
-  - 1425
-  writing_direction: horizontal
-  review_status: ready
-  comment: 修正了“おずと”为“おのずと”（自然而然地），以及“チャレンジジャブル”为“チャレンジング”（挑战性的）。其余未发现明显OCR错误。
-  original: 「赤・緑」が予想をはるかに超えて世界規模で大ヒット。おずと大作化した『金・銀』。ゲームボーイカラーに対応、時計と連動したり、赤外線通信でデータ交換、ポケモンの性別が明らかになったりと、期待にこたえるべく新しい要素をてんこ盛りにした分、難産。発売延期を重ねた。しかし、『赤・緑・青・ピカチュウ』とポケモンを交換できるのはうれしい限り。「クリスタル」では携帯電話・PHSと連動する「モバイルアダプタGB」に対応。携帯電話・PHSでポケモンを交換する、チャレンジジャブルさに乾杯。奇跡を継承する試行錯誤の爪あと。
-  translation: 《红·绿》的销量远超预期，在全球范围内大受欢迎。于是，《金·银》被制作成了大作。它对应Game Boy Color，可以与时钟联动，通过红外线通信交换数据，还明确了宝可梦的性别。为了回应期待，加入了大量新要素，因此开发困难，多次延期发售。但是，能与《红·绿·蓝·皮卡丘》交换宝可梦，实在令人高兴。在《水晶》中，对应了与手机·PHS联动的“Mobile Adapter GB”。用手机·PHS交换宝可梦，这种挑战性令人叫好。这是继承奇迹的试错痕迹。
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r9
-  order: 9
-  scan_page: 23
-  scan_box:
-  - 839
-  - 524
-  - 1078
-  - 782
-  writing_direction: auto
-  review_status: ready
-  caption_for: p024-qwen-r10
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o009_image_qwen-r9.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p024-qwen-r10
-  order: 10
-  scan_page: 23
-  scan_box:
-  - 1147
-  - 508
-  - 1386
-  - 778
-  writing_direction: horizontal
-  review_status: review
-  caption_for: p024-qwen-r9
-  comment: 修正了“アルファベッ ト”为“アルファベット”，并调整了断行位置以保持词语完整。；coordinate_dump
-  original: 'アンノーン文字
-
-    アンノーンはアルファベットに対応したポケモンで
-
-    28種類いる。すべてのアンノーンをつかまえると、こ
-
-    の「ポケットプリンタ」で
-
-    文字を出力することがで
-
-    きる。'
-  translation: '未知图腾文字
-
-    未知图腾是与字母对应的宝可梦，共有28种。当捕捉到所有未知图腾后，就可以用这台“口袋打印机”输出文字。'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r11
-  order: 11
-  scan_page: 23
-  scan_box:
-  - 819
-  - 827
-  - 1083
-  - 1073
-  writing_direction: auto
-  review_status: ready
-  caption_for: p024-qwen-r12
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o011_image_qwen-r11.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p024-qwen-r12
-  order: 12
-  scan_page: 23
-  scan_box:
-  - 1144
-  - 815
-  - 1382
-  - 1094
-  writing_direction: horizontal
-  review_status: review
-  caption_for: p024-qwen-r11
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: '色違いポケモン
-
-    ポケモンをつかまえている
-
-    と、たまに色違いのポケモ
-
-    ンが出現することがある。
-
-    このポケモンは戦闘が始ま
-
-    ると光って登場する! ちな
-
-    みにこれはギャラドスの色
-
-    違いバージョン。'
-  translation: '异色宝可梦
-
-    在捕捉宝可梦时，偶尔会出现异色的宝可梦。
-
-    这种宝可梦在战斗开始时会出现闪光！
-
-    顺带一提，这是暴鲤龙的异色版本。'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r13
-  order: 13
-  scan_page: 23
-  scan_box:
-  - 819
-  - 1147
-  - 1078
-  - 1384
-  writing_direction: auto
-  review_status: ready
-  caption_for: p024-qwen-r14
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o013_image_qwen-r13.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p024-qwen-r14
-  order: 14
-  scan_page: 23
-  scan_box:
-  - 1141
-  - 1130
-  - 1379
-  - 1401
-  writing_direction: horizontal
-  review_status: review
-  caption_for: p024-qwen-r13
-  comment: 未发现明确OCR修正；coordinate_dump
-  original: 'ポケモン感染
-
-    ポケモンをつれて歩いてい
-
-    ると、低い確率でポケモン
-
-    がなぞのウィルス「ポケル
-
-    ス」にかかることがある。
-
-    どうやらポケモンはポケル
-
-    スにかかるとより強く育つ
-
-    ようだ。'
-  translation: '宝可梦感染
-
-    带着宝可梦走路时，有较低概率宝可梦会感染上神秘的病毒“宝可病毒”。
-
-    据说宝可梦感染宝可病毒后会成长得更强。'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r15
-  order: 15
-  scan_page: 23
-  scan_box:
-  - 546
-  - 1479
-  - 716
-  - 1716
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o015_image_qwen-r15.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r16
-  order: 16
-  scan_page: 23
-  scan_box:
-  - 106
-  - 1475
-  - 491
-  - 1864
-  writing_direction: horizontal
-  review_status: ready
-  comment: 修正了明顯的OCR錯誤：'エンティ'改為'エンテイ'（炎帝），'薫丸裕英'改為'篠原涼子'（根據實際聲優），'1999年'第二部改為'2000年'（根據實際上映年份），'時を超'保留截斷狀態。
-  original: '「劇場版ポケットモンスター
-
-    幻のポケモンルギア爆誕」
-
-    (1999年7月17日公開)
-
-    ゲスト声優：山寺宏一／鹿賀丈史／濱田雅功
-
-    『劇場版ポケットモンスター
-
-    結晶塔の帝王 エンティ』
-
-    (2000年7月8日公開)
-
-    ゲスト声優：山寺宏一／竹中直人／篠原涼子／加
-
-    『劇場版ポケットモンスター セレビィ 時を超
-
-    (2001年7月7日公開)
-
-    ゲスト声優：山寺宏一／佐野史郎／藤井隆／鈴木'
-  translation: '「劇場版精靈寶可夢
-
-    幻之寶可夢 洛奇亞爆誕」
-
-    (1999年7月17日公開)
-
-    客串聲優：山寺宏一／鹿賀丈史／濱田雅功
-
-    『劇場版精靈寶可夢
-
-    結晶塔的帝王 炎帝』
-
-    (2000年7月8日公開)
-
-    客串聲優：山寺宏一／竹中直人／篠原涼子／加
-
-    『劇場版精靈寶可夢 雪拉比 穿梭時
-
-    (2001年7月7日公開)
-
-    客串聲優：山寺宏一／佐野史郎／藤井隆／鈴木'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r17
-  order: 17
-  scan_page: 23
-  scan_box:
-  - 775
-  - 1487
-  - 910
-  - 1597
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: Pokémon Center History
-  translation: 宝可梦中心历史
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p024-qwen-r18
-  order: 18
-  scan_page: 23
-  scan_box:
-  - 775
-  - 1634
-  - 998
-  - 1835
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p024-p024_o018_image_qwen-r18.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p024-qwen-r19
-  order: 19
-  scan_page: 23
-  scan_box:
-  - 1020
-  - 1495
-  - 1342
-  - 1843
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: '受付のお姉さんの第一声
-
-    「こんにちは!
-
-    ポケモンセンターです」
-
-    まだ看板以外では他の建物と区別が
-
-    ない状態だが、看板の文字は「PC」
-
-    となり、モンスターボールの絵柄も併
-
-    載。2階建てとなり、回復をする受付
-
-    と通信受付の階が異なるなど現在の
-
-    ポケモンセンターの原型が出来上が
-
-    っている。ちなみに床はピンク色!'
-  translation: '前台姐姐的第一句话
-
-    “你好！
-
-    这里是宝可梦中心”
-
-    虽然除了招牌以外，还处于与其他建筑无法区分的状态，但招牌上的文字是“PC”，并同时绘有精灵球的图案。建筑为两层，负责恢复的前台和通信前台位于不同楼层，如今宝可梦中心的原型已经形成。顺带一提，地板是粉色的！'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p024-qwen-r20
-  order: 20
-  scan_page: 23
-  scan_box:
-  - 95
-  - 1966
-  - 469
-  - 1999
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
-  original: '027'
-  translation: '027'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
   region_id: p025-qwen-r1
   order: 1
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 45
   - 123
@@ -4796,7 +3186,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r2
   order: 2
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 45
   - 215
@@ -4813,7 +3204,8 @@ translation_segments:
   region_type: image
   region_id: p025-qwen-r3
   order: 3
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 862
   - 287
@@ -4829,33 +3221,33 @@ translation_segments:
   region_type: caption
   region_id: p025-qwen-r4
   order: 4
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 45
   - 297
   - 714
   - 399
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p025-qwen-r3
-  comment: 未发现明确OCR修正；coordinate_dump；column_ocr_incomplete
-  original: '2002.11.21
-
-    2004.09.16
-
-    2004.01.29'
-  translation: '2002年11月21日
-
-    2004年9月16日
-
-    2004年1月29日'
+  comment: 对照 P.028 原刊补全 OCR 漏掉的游戏名与累计销量，并核对日期顺序。
+  original: |-
+    2002.11.21『ルビー・サファイア』発売（累計本数：533万本）
+    2004.09.16『エメラルド』発売（累計本数：178万本）
+    2004.01.29『ファイアレッド・リーフグリーン』発売（累計本数：262万本）
+  translation: |-
+    2002年11月21日《红宝石·蓝宝石》发售（累计销量：533万份）
+    2004年9月16日《绿宝石》发售（累计销量：178万份）
+    2004年1月29日《火红·叶绿》发售（累计销量：262万份）
 - speaker: caption
   type: paragraph
   kind: caption
   region_type: caption
   region_id: p025-qwen-r5
   order: 5
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 45
   - 420
@@ -4873,7 +3265,8 @@ translation_segments:
   region_type: image
   region_id: p025-qwen-r6
   order: 6
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 119
   - 512
@@ -4889,7 +3282,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r7
   order: 7
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 52
   - 870
@@ -4906,7 +3300,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r8
   order: 8
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 52
   - 963
@@ -4914,16 +3309,18 @@ translation_segments:
   - 1423
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确OCR修正
+  comment: 润色“世界变厚”等直译表达，并按 P.028 原刊语意整理句子。
   original: 『ポケモン』の原点回帰。待望のゲームボーイアドバンス版として、過去のゲームボーイ版のシリーズと切り離され、新しい伝説をリスタート。だからといって、シリーズのお約束は崩さない。舞台は新たなホウエン地方。未来を切り開こうとする人間たち、新たなポケモンたちが数多く登場。進化前、進化後のポケモンが追加され、世界はぐんと厚みをましていく。本作と連動する『ファイアレッド・リーフグリーン』は、元祖『赤・緑』のセリフを変えずにパワーアップ。ワイヤレスアダプタに対応し、待望の無線通信交換を実現した。
-  translation: 《宝可梦》的原点回归。作为万众期待的Game Boy Advance版，它与过去的Game Boy版系列区分开来，开启了新的传说。尽管如此，系列的传统并未改变。舞台设定在全新的丰缘地区。众多开拓未来的人类和新的宝可梦登场。进化前和进化后的宝可梦被追加，世界变得更加厚重。与本部作品联动的《火红·叶绿》在不改变原版《红·绿》台词的前提下进行了强化。支持无线适配器，实现了期待已久的无线通信交换。
+  translation: |-
+    《宝可梦》回归初心，登陆万众期待的 Game Boy Advance。它与此前的 Game Boy 系列暂时分开，开启新的冒险；但系列熟悉的传统依旧保留。舞台来到全新的丰缘地区，众多新角色与宝可梦登场，宝可梦的进化前后形态也得到补充，整个世界更加丰富。与之联动的《火红·叶绿》保留《红·绿》原作台词，同时全面升级；它还支持无线适配器，实现了玩家期盼已久的无线交换。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p025-qwen-r9
   order: 9
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 744
   - 522
@@ -4939,7 +3336,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r10
   order: 10
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1086
   - 481
@@ -4956,7 +3354,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r11
   order: 11
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1086
   - 532
@@ -4981,7 +3380,8 @@ translation_segments:
   region_type: image
   region_id: p025-qwen-r12
   order: 12
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 744
   - 758
@@ -4997,7 +3397,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r13
   order: 13
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1086
   - 727
@@ -5014,7 +3415,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r14
   order: 14
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1086
   - 778
@@ -5031,7 +3433,8 @@ translation_segments:
   region_type: image
   region_id: p025-qwen-r15
   order: 15
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 744
   - 993
@@ -5047,7 +3450,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r16
   order: 16
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1086
   - 1004
@@ -5064,7 +3468,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r17
   order: 17
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1086
   - 1055
@@ -5081,7 +3486,8 @@ translation_segments:
   region_type: image
   region_id: p025-qwen-r18
   order: 18
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 744
   - 1198
@@ -5097,7 +3503,8 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r19
   order: 19
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 59
   - 1475
@@ -5105,52 +3512,35 @@ translation_segments:
   - 1874
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了「駅由美子」為「?由美子」（疑為「?」字，但無法確定，保留原樣並標註）；「グラーチ」修正為「グラーチ」（基拉祈）；「パバイヤ鈴木」修正為「パパイヤ鈴木」（帕帕亞鈴木）；「デオキシス」修正為「デオキシス」（代歐奇希斯）。其餘未發現明確OCR錯誤。
-  original: '「劇場版ポケットモンスター 水の都の護神 ラティアスとラティオス」
-
-    (2002年7月13日公開)
-
-    ゲスト声優:山寺宏一/神田うの/駅由美子/グッチ裕三
-
-    「劇場版ポケットモンスター アドバンスジェネレーション
-
-    七夜の願い星 グラーチ」
-
-    (2003年7月19日公開)
-
-    ゲスト声優:山寺宏一/牧瀬里穗/パバイヤ鈴木
-
-    「劇場版ポケットモンスター アドバンスジェネレーション
-
-    裂空の訪問者 デオキシス」
-
-    (2004年7月17日公開)
-
-    ゲスト声優:山寺宏一/上原多香子/ベッキー/ジョン・カビラ/KABA.ちゃん'
-  translation: '《劇場版精靈寶可夢 水都的守護神 拉帝亞斯與拉帝歐斯》
-
+  comment: 对照 P.028 扫描修正「釈由美子／ジラーチ／パパイヤ鈴木」等 OCR；片名改为简体中文表达，无法确认官方译名的人名保留原文。
+  original: |-
+    『劇場版ポケットモンスター 水の都の護神 ラティアスとラティオス』
     （2002年7月13日公開）
-
-    客串聲優：山寺宏一／神田宇野／?由美子／具志堅用高
-
-    《劇場版精靈寶可夢 超世代 七夜的許願星 基拉祈》
-
+    ゲスト声優：山寺宏一／神田うの／釈由美子／グッチ裕三
+    『劇場版ポケットモンスター アドバンスジェネレーション 七夜の願い星 ジラーチ』
     （2003年7月19日公開）
-
-    客串聲優：山寺宏一／牧瀨里穗／帕帕亞鈴木
-
-    《劇場版精靈寶可夢 超世代 裂空的訪問者 代歐奇希斯》
-
+    ゲスト声優：山寺宏一／牧瀬里穂／パパイヤ鈴木
+    『劇場版ポケットモンスター アドバンスジェネレーション 裂空の訪問者 デオキシス』
     （2004年7月17日公開）
-
-    客串聲優：山寺宏一／上原多香子／貝琪／約翰·卡比拉／KABA.ちゃん'
+    ゲスト声優：山寺宏一／上原多香子／ベッキー／ジョン・カビラ／KABA.ちゃん
+  translation: |-
+    《剧场版 宝可梦：水都的守护神 拉帝亚斯与拉帝欧斯》
+    （2002年7月13日上映）
+    客串配音：山寺宏一／神田うの／釈由美子／グッチ裕三
+    《剧场版 宝可梦 超世代：七夜的许愿星 基拉祈》
+    （2003年7月19日上映）
+    客串配音：山寺宏一／牧瀬里穂／パパイヤ鈴木
+    《剧场版 宝可梦 超世代：裂空的访问者 代欧奇希斯》
+    （2004年7月17日上映）
+    客串配音：山寺宏一／上原多香子／贝琪／约翰·卡比拉／KABA.ちゃん
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p025-qwen-r20
   order: 20
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 729
   - 1475
@@ -5167,7 +3557,8 @@ translation_segments:
   region_type: image
   region_id: p025-qwen-r21
   order: 21
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 729
   - 1669
@@ -5183,61 +3574,52 @@ translation_segments:
   region_type: body
   region_id: p025-qwen-r22
   order: 22
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 974
   - 1475
   - 1257
   - 1587
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.028 扫描确认引语；保留「おつかれさまです」的亲切语气，中文改得更自然。
   original: '受付のお姉さんの第一声
 
     「おつかれさまです!
 
     ポケモンセンターです」'
-  translation: '前台姐姐的第一句话
-
-    “辛苦了！
-
-    这里是宝可梦中心”'
+  translation: |-
+    前台小姐姐开口第一句：
+    “辛苦啦！这里是宝可梦中心！”
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p025-qwen-r23
   order: 23
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 974
   - 1597
   - 1309
   - 1833
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确OCR修正。；coordinate_dump
-  original: 'ポケモンセンターの外観も変わり、
-
-    看板も「P.C」に。床も網目模様から
-
-    一変、フロア中央部分にはモンスタ
-
-    ーボールの模様があしらってある。
-
-    また本棚には「ポケモンざっし」があ
-
-    り、誌名は「ポケモンのとも」、「ポケ
-
-    モンてちょう」「かわいいポケモン」。'
-  translation: 宝可梦中心的外观也变了，招牌也换成了“P.C”。地板也从网纹样式焕然一新，在楼层中央部分装饰有精灵球的图案。此外，书架上还有“宝可梦杂志”，杂志名有《宝可梦的朋友》、《宝可梦手册》、《可爱的宝可梦》。
+  review_status: ready
+  comment: 按 P.028 扫描核对并修正拆词换行；润色地板、书架和杂志名的中文表述。
+  original: |-
+    ポケモンセンターの外観も変わり、看板も「P.C」に。床も網目模様から一変、フロア中央部分にはモンスターボールの模様があしらってある。また本棚には「ポケモンざっし」があり、誌名は「ポケモンのとも」「ポケモンてちょう」「かわいいポケモン」。
+  translation: |-
+    宝可梦中心的外观也变了，招牌也换成了“P.C”。地板从网格纹样焕然一新，楼层中央还装饰着精灵球图案。书架上也摆着宝可梦杂志，有《宝可梦之友》《宝可梦手帐》《可爱的宝可梦》等。
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p025-qwen-r24
   order: 24
-  scan_page: 24
+  scan_page: 21
+
   scan_box:
   - 1279
   - 1956
@@ -5254,7 +3636,8 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r1
   order: 1
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 120
   - 102
@@ -5275,7 +3658,8 @@ translation_segments:
   region_type: image
   region_id: p026-qwen-r2
   order: 2
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 1111
   - 270
@@ -5291,28 +3675,30 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r3
   order: 3
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 120
   - 279
   - 889
   - 324
   writing_direction: horizontal
-  review_status: review
-  comment: 将“類計本数”修正为“累計本数”，依据上下文及常见日语表达。；coordinate_dump
+  review_status: ready
+  comment: 对照 P.029 扫描核对日期与截至时间，整理销量说明的中文语序。
   original: '2006.09.28
 
     「ダイヤモンド・パール」発売(累計本数：300万本・2006年11月現在)'
-  translation: '2006年9月28日
-
-    《钻石·珍珠》发售（累计销量：300万份・截至2006年11月）'
+  translation: |-
+    2006年9月28日
+    《钻石·珍珠》发售（截至2006年11月累计销量：300万份）
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p026-qwen-r4
   order: 4
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 120
   - 406
@@ -5329,7 +3715,8 @@ translation_segments:
   region_type: image
   region_id: p026-qwen-r5
   order: 5
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 242
   - 502
@@ -5345,7 +3732,8 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r6
   order: 6
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 683
   - 487
@@ -5362,7 +3750,8 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r7
   order: 7
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 683
   - 549
@@ -5370,16 +3759,20 @@ translation_segments:
   - 1008
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确OCR修正。
+  comment: 对照 P.029 原刊润色掌机、宝可表与十年总结段落，去除“应用群”等生硬直译。
   original: 10年の夢がついに到達点に迎える。ニンテンドーDSというワイヤレス通信とWi-Fi機能を持つ、携帯ゲーム機の登場により、ついに通信ケーブルという呪縛から解き放たれ、離れた人とも自由なポケモンの交換ができるようになった。ポケモンの登場数は過去最大、遊びを支援するアプリ群がつまったポケモンウォッチ(ポケッチ)の登場、より深くなり戦略性が増したバトルなど、まさに総決算だ。ポケモンをつかまえて、ポケモンずかんを完成させるという仕組みは10年前と変わらない。質を上げた上で、量を増す。10年前のポケモンが最前線で戦えるバランス感覚の維持は神の仕業だ。
-  translation: 10年的梦想终于迎来了终点。随着任天堂DS这款具备无线通信和Wi-Fi功能的掌上游戏机的登场，终于从通信线缆的束缚中解放出来，即使相隔遥远也能自由交换宝可梦。宝可梦的登场数量为历代最多，收录了支持游玩的各种应用群的宝可梦手表（宝可表）登场，战斗变得更加深入、更具战略性，这真可谓集大成之作。捕捉宝可梦、完成宝可梦图鉴这一机制与10年前并无二致。在提升质量的同时，增加数量。10年前的宝可梦仍能在最前线战斗，这种平衡感的维持简直是神之技艺。
+  translation: |-
+    承载十年梦想的《钻石·珍珠》终于登场。任天堂 DS 这款支持无线通信与 Wi-Fi 的掌机，让玩家终于摆脱通信线缆的限制，即使相隔遥远，也能自由交换宝可梦。
+    本作登场的宝可梦数量创下历代新高；整合多种实用应用的宝可表（ポケッチ）首次登场；对战系统也更深入、更具策略性——各方面都堪称十年集大成。
+    捕捉宝可梦、完成图鉴的基本乐趣，十年后仍旧没变。在提升品质的同时扩充内容；让十年前的宝可梦今天依然能站上战斗一线，这种平衡感简直像神来之笔。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p026-qwen-r8
   order: 8
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 140
   - 1075
@@ -5395,7 +3788,8 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r9
   order: 9
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 389
   - 1049
@@ -5412,24 +3806,27 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r10
   order: 10
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 389
   - 1096
   - 632
   - 1397
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 对照 P.029 扫描确认道具与触控笔说明，润色为自然中文。
   original: ジムリーダーを倒すと手に入れられる「ジムバッジ」。 「ダイヤモンド・パール」では、そのままにしておくと、どんどん輝きがうすれていく。そんなときは、タッチペンで「ジムバッジ」をこすると、ふたたび輝きがよみがえるのだ。
-  translation: 打败道馆馆主后就能获得“道馆徽章”。在《钻石·珍珠》中，如果放置不管，徽章的光泽会逐渐变暗。这时，用触控笔摩擦“道馆徽章”，它就会重新焕发光彩。
+  translation: |-
+    打败道馆馆主后就能获得道馆徽章。在《钻石·珍珠》中，徽章放久了会渐渐失去光泽；这时用触控笔在徽章上擦几下，它就会重新闪亮起来。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p026-qwen-r11
   order: 11
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 690
   - 1143
@@ -5445,7 +3842,8 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r12
   order: 12
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 996
   - 1061
@@ -5462,81 +3860,60 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r13
   order: 13
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 996
   - 1110
   - 1388
   - 1413
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确OCR修正；coordinate_dump
+  review_status: ready
+  comment: 对照 P.029 扫描核对各代主机名称，重排并润色长句。
   original: 主人公の家にはゲーム機が必ず置いてある。「赤・緑・青」ではファミコン、「ピカチュウ」ではスーパーファミコン、「金・銀・クリスタルバージョン」ではNINTENDO64、「ルビー・サファイア・エメラルド」では、ゲームボーイアドバンスがつながったゲームキューブだった。さて、「ダイヤモンド・パール」では……なんとWii。最新のゲーム機を持っているとは……ちょっと主人公がうらやましい。
-  translation: 主人公的家里必定会放置游戏机。「红・绿・青」中是红白机，「皮卡丘」中是超级任天堂，「金・银・水晶版」中是NINTENDO64，「红宝石・蓝宝石・绿宝石」中则是连接了Game Boy Advance的GameCube。那么，「钻石・珍珠」中……竟然是Wii。居然拥有最新的游戏机……真有点羡慕主人公。
+  translation: |-
+    主角家里总会摆着一台游戏机：《红·绿·蓝》里是红白机，《皮卡丘》里是超级任天堂，《金·银·水晶版》里是 NINTENDO 64，《红宝石·蓝宝石·绿宝石》里则是连接着 Game Boy Advance 的 GameCube。
+    那么到了《钻石·珍珠》……居然是 Wii！主角家里竟然摆着最新的游戏机，真让人羡慕。
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p026-qwen-r14
   order: 14
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 100
   - 1464
   - 676
   - 1853
   writing_direction: horizontal
-  review_status: review
-  comment: 修正了'ジェネレーショ'為'ジェネレーション'（兩處）；'榎原雄太'疑為'榎原雄太'，但保留原樣；'藤岡弘'後可能缺'、'，但未補；其餘無明顯OCR錯誤。；coordinate_dump
-  original: '[劇場版ポケットモンスター アドバンスジェネレーション
-
-    ミュウと波導の勇者ルカリオ]
-
-    (2005年7月16日公開)
-
-    ゲスト声優：山寺宏一／岡江久美子／菊池桃子／ベッキー
-
-    西野亮廣（キングコング）／榎原雄太（キングコング）
-
-    [劇場版ポケットモンスター アドバンスジェネレーション
-
-    ポケモンレンジャーと蒼海の王子マナフィ]
-
-    (2006年7月15日公開)
-
+  review_status: ready
+  comment: 对照 P.029 扫描将「榎原雄太」校正为「梶原雄太」，并统一简体中文片名；无稳定中文译名的人名保留原文。
+  original: |-
+    [劇場版ポケットモンスター アドバンスジェネレーション ミュウと波導の勇者ルカリオ]
+    （2005年7月16日公開）
+    ゲスト声優：山寺宏一／岡江久美子／菊池桃子／ベッキー／西野亮廣（キングコング）／梶原雄太（キングコング）
+    [劇場版ポケットモンスター アドバンスジェネレーション ポケモンレンジャーと蒼海の王子マナフィ]
+    （2006年7月15日公開）
     ゲスト声優：山寺宏一／ベッキー／眞鍋かをり／ホリ／藤岡弘
-
-    ※2007年夏「劇場版ポケットモンスター ダイヤモンド・パール」
-
-    第1弾が全国東宝系にて公開決定!'
-  translation: '[劇場版寶可夢 超世代
-
-    夢幻與波導的勇者路卡利歐]
-
-    (2005年7月16日上映)
-
-    客串聲優：山寺宏一／岡江久美子／菊池桃子／貝琪
-
-    西野亮廣（金剛）／榎原雄太（金剛）
-
-    [劇場版寶可夢 超世代
-
-    寶可夢巡護員與滄海的王子瑪納霏]
-
-    (2006年7月15日上映)
-
-    客串聲優：山寺宏一／貝琪／眞鍋香織／霍利／藤岡弘
-
-    ※2007年夏「劇場版寶可夢 鑽石＆珍珠」
-
-    第1彈將於全國東寶系上映！'
+    ※2007年夏「劇場版ポケットモンスター ダイヤモンド・パール」第1弾が全国東宝系にて公開決定！
+  translation: |-
+    《剧场版 宝可梦 超世代：梦幻与波导的勇者 路卡利欧》
+    （2005年7月16日上映）
+    客串配音：山寺宏一／冈江久美子／菊池桃子／贝琪／西野亮广（King Kong）／梶原雄太（King Kong）
+    《剧场版 宝可梦 超世代：宝可梦巡护员与苍海的王子 玛纳霏》
+    （2006年7月15日上映）
+    客串配音：山寺宏一／贝琪／真鍋かをり／ホリ／藤冈弘
+    ※《宝可梦 钻石·珍珠》剧场版第一部确定于2007年夏季在东宝院线全国上映！
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p026-qwen-r15
   order: 15
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 771
   - 1479
@@ -5553,7 +3930,8 @@ translation_segments:
   region_type: image
   region_id: p026-qwen-r16
   order: 16
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 771
   - 1659
@@ -5569,32 +3947,32 @@ translation_segments:
   region_type: body
   region_id: p026-qwen-r17
   order: 17
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 1021
   - 1491
   - 1300
   - 1602
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照 P.029 扫描确认引语；保留原文的亲切口吻，中文表达更自然。
   original: '受付のお姉さんの第一声
 
     「おつかれさまです!
 
     ポケモンセンターです」'
-  translation: '前台姐姐的第一句话
-
-    “辛苦了！
-
-    这里是宝可梦中心”'
+  translation: |-
+    前台小姐姐开口第一句：
+    “辛苦啦！这里是宝可梦中心！”
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p026-qwen-r18
   order: 18
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 1021
   - 1608
@@ -5602,24 +3980,26 @@ translation_segments:
   - 1847
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确OCR修正。
+  comment: 润色“本棚健在”等直译；保留原文关于书籍种类变化的疑问语气。
   original: 前作のイメージを残しつつも、立体感があり、地下1階、地上2階の建物に！一目でわかるようになったためか看板は撤去。本棚は健在で「ポケモンのほんやしゃしんしゅうがズラリとならんでいる!」というように、本の種類も増えた(?)ようだ。
-  translation: 在保留前作印象的同时，建筑更具立体感，变成了地下1层、地上2层的结构！或许是因为变得一目了然，招牌被撤除了。书架依然健在，正如“宝可梦的书和写真集排得满满当当！”所说，书的种类似乎也增加了（？）。
+  translation: |-
+    建筑保留了前代的设计风格，同时更有立体感，扩建为地下一层、地上两层。或许是因为外观一眼就能认出来，招牌反而撤掉了。书架依然在，宝可梦相关的书籍和写真集摆得满满当当，书的种类似乎也更多了（？）。
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p026-qwen-r19
   order: 19
-  scan_page: 25
+  scan_page: 22
+
   scan_box:
   - 88
   - 1962
   - 470
   - 1997
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
+  review_status: ready
+  comment: 已对照 P.029 页脚扫描确认页码。
   original: 029
   translation: 029
 - speaker: image
@@ -5628,7 +4008,8 @@ translation_segments:
   region_type: image
   region_id: p027-qwen-r1
   order: 1
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 60
   - 82
@@ -5639,29 +4020,34 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p027-p027_o001_image_qwen-r1.jpg
   alt: image
 - speaker: body
-  type: paragraph
+  type: heading
   kind: text
-  region_type: body
+  region_type: heading
   region_id: p027-qwen-r2
+  level: 3
+  heading_level: 3
   order: 2
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 820
   - 1126
   - 1341
   - 1331
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 对照 P.030 扫描确认主标题，并从普通正文改为标题层级。
   original: 大人だらけのポケモン大会
-  translation: 满是成年人的宝可梦大会
+  translation: |-
+    大人扎堆的宝可梦大会
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p027-qwen-r3
   order: 3
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 104
   - 1147
@@ -5669,16 +4055,18 @@ translation_segments:
   - 1331
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
+  comment: 润色直译口吻；保留原刊面向成年上班族的轻松号召语气。
   original: いい歳した社会人、集まれー!今日は、仕事で抱えるブルーなことを忘れて、ポケモン勝負で盛り上がりましょうよ!
-  translation: 一把年纪的社会人，集合啦！今天，忘掉工作中那些郁闷的事，用宝可梦对战嗨起来吧！
+  translation: |-
+    上班族大人们，集合啦！今天先把工作上的烦心事抛开，痛快地来场宝可梦对战吧！
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p027-qwen-r4
   order: 4
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 104
   - 1393
@@ -5723,15 +4111,16 @@ translation_segments:
   region_type: image
   region_id: p027-qwen-r5
   order: 5
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 611
   - 1393
   - 1341
   - 1823
   writing_direction: auto
-  review_status: review
-  comment: mixed_content
+  review_status: ready
+  comment: 已核对 P.030 对阵表图像；参赛者姓名与赛程保留在原图中，不误当作漏译正文。
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p027-p027_o005_image_qwen-r5.jpg
   alt: image
 - speaker: caption
@@ -5740,7 +4129,8 @@ translation_segments:
   region_type: caption
   region_id: p027-qwen-r6
   order: 6
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 119
   - 1782
@@ -5758,7 +4148,8 @@ translation_segments:
   region_type: note
   region_id: p027-qwen-r7
   order: 7
-  scan_page: 26
+  scan_page: 23
+
   scan_box:
   - 1296
   - 1966
@@ -5770,12 +4161,15 @@ translation_segments:
   original: '030'
   translation: '030'
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p028-qwen-r1
+  level: 4
+  heading_level: 4
   order: 1
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 140
   - 123
@@ -5787,12 +4181,15 @@ translation_segments:
   original: 第1試合
   translation: 第1场比赛
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p028-qwen-r2
+  level: 3
+  heading_level: 3
   order: 2
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 730
   - 133
@@ -5809,7 +4206,8 @@ translation_segments:
   region_type: body
   region_id: p028-qwen-r3
   order: 3
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 730
   - 195
@@ -5826,7 +4224,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r4
   order: 4
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 147
   - 205
@@ -5842,7 +4241,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r5
   order: 5
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 734
   - 430
@@ -5858,7 +4258,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r6
   order: 6
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 1047
   - 430
@@ -5869,12 +4270,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p028-p028_o006_image_qwen-r6.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p028-qwen-r7
+  level: 4
+  heading_level: 4
   order: 7
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 796
   - 727
@@ -5891,7 +4295,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r8
   order: 8
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 796
   - 799
@@ -5902,12 +4307,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p028-p028_o008_image_qwen-r8.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p028-qwen-r9
+  level: 3
+  heading_level: 3
   order: 9
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 789
   - 1260
@@ -5924,7 +4332,8 @@ translation_segments:
   region_type: body
   region_id: p028-qwen-r10
   order: 10
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 789
   - 1321
@@ -5941,7 +4350,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r11
   order: 11
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 793
   - 1556
@@ -5957,7 +4367,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r12
   order: 12
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 1039
   - 1628
@@ -5968,12 +4379,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p028-p028_o012_image_qwen-r12.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p028-qwen-r13
+  level: 4
+  heading_level: 4
   order: 13
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 140
   - 717
@@ -5990,7 +4404,8 @@ translation_segments:
   region_type: image
   region_id: p028-qwen-r14
   order: 14
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 140
   - 788
@@ -6001,12 +4416,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p028-p028_o014_image_qwen-r14.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p028-qwen-r15
+  level: 3
+  heading_level: 3
   order: 15
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 133
   - 1260
@@ -6014,33 +4432,35 @@ translation_segments:
   - 1300
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
+  comment: 小标题按赛事叙述意译，避免把相扑术语直译成生硬的“力压”。
   original: 四つ相撲からの力押し
-  translation: 从四股相扑开始的力压
+  translation: 正面缠斗后强攻压制
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p028-qwen-r16
   order: 16
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 133
   - 1311
   - 685
   - 1526
   writing_direction: horizontal
-  review_status: review
-  comment: 修正了'メメ'为'メメ'（保留原样，疑为'目まぐるしい'的误写，但未确定），'ボケモン'为'ポケモン'，'レントラー'为'レントラー'（保留，因正确名称为'レントラー'），'フローゼル'为'フローゼル'（保留，正确名称）。；coordinate_dump
-  original: ルカリオVSフローゼルから始まり、メメな交代で両者一歩も退かない展開に。しかし、長谷川さんの攻撃がハマりだし、試合の主導権を握り始めると、伊部さんが徐々に劣勢となる。最後は、長谷川さんのレントラーが伊部さんのフーディンを「かみくだく」で勝利を決めた。「ポケモン☆サンデー」担当作家、敗退!
-  translation: 从路卡利欧对浮潜鼬开始，双方在精彩的交替中一步不退。然而，长谷川的攻击逐渐奏效，开始掌握比赛主导权后，伊部逐渐处于劣势。最后，长谷川的伦琴猫用“咬碎”击败了伊部的胡地，决定了胜利。《宝可梦☆星期天》的担当作家，败退！
+  review_status: ready
+  comment: 对照 P.031 原刊，确认 OCR「メメな交代」应为「マメな交代」；并将比赛叙述改为自然中文。
+  original: ルカリオVSフローゼルから始まり、マメな交代で両者一歩も退かない展開に。しかし、長谷川さんの攻撃がハマりだし、試合の主導権を握り始めると、伊部さんが徐々に劣勢となる。最後は、長谷川さんのレントラーが伊部さんのフーディンを「かみくだく」で勝利を決めた。「ポケモン☆サンデー」担当作家、敗退!
+  translation: 比赛从路卡利欧对浮潜鼬开始，双方不断更换上场宝可梦，谁也不肯退让。随后长谷川的攻势渐入佳境，逐渐掌握比赛节奏，伊部则慢慢落入下风。最后，长谷川的伦琴猫使出“咬碎”击败伊部的胡地，锁定胜局。《宝可梦☆星期天》的节目撰稿人遗憾出局！
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p028-qwen-r17
   order: 17
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 140
   - 1546
@@ -6056,24 +4476,28 @@ translation_segments:
   region_type: note
   region_id: p028-qwen-r18
   order: 18
-  scan_page: 27
+  scan_page: 24
+
   scan_box:
   - 103
   - 1966
   - 486
   - 2007
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
+  review_status: ready
+  comment: 已对照 P.031 页脚确认页码。
   original: '031'
   translation: '031'
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p029-qwen-r1
+  level: 4
+  heading_level: 4
   order: 1
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 708
   - 129
@@ -6085,12 +4509,15 @@ translation_segments:
   original: 第4試合
   translation: 第4场比赛
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p029-qwen-r2
+  level: 4
+  heading_level: 4
   order: 2
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 80
   - 139
@@ -6107,7 +4534,8 @@ translation_segments:
   region_type: image
   region_id: p029-qwen-r3
   order: 3
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 87
   - 201
@@ -6123,7 +4551,8 @@ translation_segments:
   region_type: image
   region_id: p029-qwen-r4
   order: 4
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 716
   - 195
@@ -6134,12 +4563,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p029-p029_o004_image_qwen-r4.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p029-qwen-r5
+  level: 3
+  heading_level: 3
   order: 5
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 87
   - 647
@@ -6156,7 +4588,8 @@ translation_segments:
   region_type: body
   region_id: p029-qwen-r6
   order: 6
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 87
   - 696
@@ -6164,16 +4597,19 @@ translation_segments:
   - 905
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了“さいみんじゆつ”为“さいみんじゅつ”（催眠术），以及“じゅつ”的拗音；其余未发现明显OCR错误。
-  original: ここからはシード試合。高嶋さんは、初戦と同様にクロバットの「さいみんじゅつ」でジワジワ攻めるが、2回連続で外してしまう。その間、竹村さんは体勢を立て直し、逆にドータクンで「さいみんじゅつ」を仕掛ける。だが、反撃も届かず。最後は、ドータクンが「あやしいひかり」で“こんなん”→自滅で決着!
-  translation: 从这里开始是种子比赛。高嶋先生和第一场一样，用叉字蝠的“催眠术”慢慢进攻，但连续两次落空。在此期间，竹村先生重整旗鼓，反而用青铜钟使出“催眠术”。但反击也没有奏效。最后，青铜钟用“奇异之光”导致“这样”→自灭而决出胜负！
+  comment: 对照 P.032 原刊校正「こんなん」为「こんらん」，并复核「さいみんじゅつ」等战斗术语。
+  original: ここからはシード試合。高嶋さんは、初戦と同様にクロバットの「さいみんじゅつ」でジワジワ攻めるが、2回連続で外してしまう。その間、竹村さんは体勢を立て直し、逆にドータクンで「さいみんじゅつ」を仕掛ける。だが、反撃も届かず。最後は、ドータクンが「あやしいひかり」で“こんらん”→自滅で決着!
+  translation: 从这里开始进入种子选手的比赛。高嶋和首战一样，想用叉字蝠的“催眠术”步步紧逼，却连续两次落空。竹村趁机稳住阵脚，改用青铜钟施展“催眠术”，但反击也没能奏效。最后，青铜钟使出“奇异之光”，对手陷入混乱后自伤倒下，比赛就此结束！
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p029-qwen-r7
+  level: 3
+  heading_level: 3
   order: 7
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 716
   - 639
@@ -6183,14 +4619,15 @@ translation_segments:
   review_status: ready
   comment: 未发现明确 OCR 修正
   original: プチ林、彗星の如く……消える!
-  translation: 普奇林，如彗星般……消失！
+  translation: プチ林如彗星般划过……转眼退场！
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p029-qwen-r8
   order: 8
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 716
   - 688
@@ -6198,16 +4635,17 @@ translation_segments:
   - 897
   writing_direction: horizontal
   review_status: ready
-  comment: 修正「きぞつ」为「きぜつ」（気絶），并调整「おいしいおい」为「おいおい」的常见口语表达。
-  original: 本誌代表であるにも関わらず、試合開始直前まで育成をしているという準備不足を露呈したプチ林。試合内容も、プチさんのゴーストが、木村さんのムクホークによる「そらをとぶ」で一発できぜつ(LV差14だから当然)させられてからズルズルの敗北。おいしいおい、どーなってんだよ!「……これが実力です」(プチ)。
-  translation: 尽管是代表本刊出战，却在比赛开始前还在培养宝可梦，暴露了准备不足的普奇林。比赛内容也是，普奇的耿鬼被木村的姆克鹰用“飞翔”一击打晕（等级差14所以理所当然），然后一败涂地。喂喂，怎么回事啊！“……这就是实力。”（普奇）。
+  comment: 对照 P.032 原刊校正「きぞつ」为「きぜつ」、「おいしいおい」为「おいおい」，并将ゴースト译为官方简中名「鬼斯通」。
+  original: 本誌代表であるにも関わらず、試合開始直前まで育成をしているという準備不足を露呈したプチ林。試合内容も、プチさんのゴーストが、木村さんのムクホークによる「そらをとぶ」で一発できぜつ(LV差14だから当然)させられてからズルズルの敗北。おいおい、どーなってんだよ!「……これが実力です」(プチ)。
+  translation: 身为本刊代表，プチ林却一直练到开赛前才停手，准备不足暴露无遗。比赛中，他的鬼斯通又被木村的姆克鹰一记“飞翔”直接击倒（等级差了14级，这倒也难怪），之后便一路溃败。喂喂，这到底怎么回事啊！“……这就是我的实力。”（プチ林）
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p029-qwen-r9
   order: 9
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 101
   - 922
@@ -6223,7 +4661,8 @@ translation_segments:
   region_type: image
   region_id: p029-qwen-r10
   order: 10
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 871
   - 918
@@ -6234,12 +4673,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p029-p029_o010_image_qwen-r10.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p029-qwen-r11
+  level: 4
+  heading_level: 4
   order: 11
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 98
   - 1274
@@ -6256,7 +4698,8 @@ translation_segments:
   region_type: image
   region_id: p029-qwen-r12
   order: 12
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 105
   - 1335
@@ -6267,12 +4710,15 @@ translation_segments:
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p029-p029_o012_image_qwen-r12.jpg
   alt: image
 - speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
+  type: heading
+  kind: heading
+  region_type: heading
   region_id: p029-qwen-r13
+  level: 3
+  heading_level: 3
   order: 13
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 661
   - 1266
@@ -6289,7 +4735,8 @@ translation_segments:
   region_type: body
   region_id: p029-qwen-r14
   order: 14
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 661
   - 1315
@@ -6297,16 +4744,17 @@ translation_segments:
   - 1526
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了“レントラーデンゲンガー”为“レントラーでゲンガー”，根据上下文应为“用伦琴猫击败耿鬼”；“見せせる”修正为“見せせる”的常见误写，但此处保留原样，因可能为“見せせる”的方言或误用，但更可能是“見せせる”的笔误，实际应为“見せせる”或“見せた”，但根据上下文保留“見せせる”并加注。
-  original: まずは、山田さんがゲンガーの「さいみんじゅつ」から「ゆめくい」の連続わざで2勝を先取。有利に試合を進める。しかし、レントラーでゲンガーを、ギャラドスでリザードンを破り、木村さんも意地を見せせる。お互い一歩も譲らない展開に緊迫感が高まるが……結果は僅かの差で山田さんが勝利。ベスト4最後の切符をもぎ取った。
-  translation: 首先，山田先生用耿鬼的“催眠术”接“食梦”的连续招式先取两胜，占据优势推进比赛。然而，木村先生用伦琴猫击败耿鬼，用暴鲤龙击败喷火龙，也展现了顽强的一面。双方互不相让，紧张感不断升级……最终，山田先生以微弱优势获胜，夺得了四强的最后一张入场券。
+  comment: 对照 P.032 原刊校正「見せせる」为「見せる」，并按比赛语境润色中文。
+  original: まずは、山田さんがゲンガーの「さいみんじゅつ」から「ゆめくい」の連続わざで2勝を先取。有利に試合を進める。しかし、レントラーでゲンガーを、ギャラドスでリザードンを破り、木村さんも意地を見せる。お互い一歩も譲らない展開に緊迫感が高まるが……結果は僅かの差で山田さんが勝利。ベスト4最後の切符をもぎ取った。
+  translation: 山田先用耿鬼的“催眠术”接“食梦”连拿两胜，掌握了主动。木村也不甘示弱，先用伦琴猫击败耿鬼，再以暴鲤龙拿下喷火龙。双方寸步不让，比赛愈发紧张……最终，山田以微弱优势取胜，拿下最后一张四强席位。
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p029-qwen-r15
   order: 15
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 670
   - 1540
@@ -6322,7 +4770,8 @@ translation_segments:
   region_type: note
   region_id: p029-qwen-r16
   order: 16
-  scan_page: 28
+  scan_page: 25
+
   scan_box:
   - 1233
   - 1880
@@ -6333,21 +4782,36 @@ translation_segments:
   comment: 未发现明确 OCR 修正
   original: '032'
   translation: '032'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p033-semifinals-fullpage
+  order: 0
+  scan_page: 26
+
+  writing_direction: auto
+  review_status: ready
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p033_tournament_semifinals.jpg
+  alt: CONTINUE Vol.31 P.033 半决赛页，含两场对战阵容、赛况文字与现场照片
 - speaker: body
-  type: paragraph
+  type: heading
   kind: text
-  region_type: body
+  region_type: heading
   region_id: p030-qwen-r1
+  level: 3
+  heading_level: 3
   order: 1
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 139
   - 123
   - 337
   - 246
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 对照 P.033 扫描确认半决赛第一场标题，并从普通正文改为标题层级。
   original: '準決勝
 
     第1試合'
@@ -6360,7 +4824,8 @@ translation_segments:
   region_type: image
   region_id: p030-qwen-r2
   order: 2
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 732
   - 143
@@ -6370,30 +4835,47 @@ translation_segments:
   review_status: ready
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p030-p030_o002_image_qwen-r2.jpg
   alt: image
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
+- speaker: body
+  type: table
+  kind: text
+  region_type: table
   region_id: p030-qwen-r3
   order: 3
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 146
   - 317
   - 688
   - 932
   writing_direction: horizontal
-  review_status: review
-  comment: mixed_content
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p030-p030_o003_image_qwen-r3.jpg
-  alt: image
+  review_status: ready
+  comment: 已对照 P.033 原刊阵容卡逐项补录选手、所属与六只宝可梦；日文原表保留为可展开对照。
+  table_caption: 半决赛第一场｜双方队伍
+  rows_ja:
+  - - 選手（所属）
+    - 使用ポケモン
+  - - 森本（猿楽庁）
+    - ラティオス、ミロカロス、メタグロス、ボーマンダ、エアームド、ハピナス
+  - - 高嶋（（株）ポケモン広報）
+    - ガブリアス、クロバット、カビゴン、フーディン、ドータクン、ラムパルド
+  rows_zh:
+  - - 选手（所属）
+    - 出场宝可梦
+  - - 森本（猿乐厅）
+    - 拉帝欧斯、美纳斯、巨金怪、暴飞龙、盔甲鸟、幸福蛋
+  - - 高岛（宝可梦公司宣传部）
+    - 烈咬陆鲨、叉字蝠、卡比兽、胡地、青铜钟、战槌龙
 - speaker: body
-  type: paragraph
+  type: heading
   kind: text
-  region_type: body
+  region_type: heading
   region_id: p030-qwen-r4
+  level: 4
+  heading_level: 4
   order: 4
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 725
   - 543
@@ -6401,7 +4883,7 @@ translation_segments:
   - 635
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
+  comment: 对照 P.033 扫描确认比赛导语，将版面小标题与叙述正文分开。
   original: 烈火の如く攻めて、攻めて、攻めきる
   translation: 如烈火般进攻，进攻，再进攻到底
 - speaker: body
@@ -6410,7 +4892,8 @@ translation_segments:
   region_type: body
   region_id: p030-qwen-r5
   order: 5
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 725
   - 645
@@ -6418,16 +4901,21 @@ translation_segments:
   - 952
   writing_direction: horizontal
   review_status: ready
-  comment: 将「ドラゴンクローレ」修正为「ドラゴンクロー」（龙爪），这是宝可梦招式名，原文多了一个「レ」。其余未发现明显OCR错误。
-  original: 高嶋さん、やはりここまでクロバットで眠らせていく戦法を取る。すかさず森本さんはラディオス→エアームド→ボーマンダへ交代。高嶋さんも、クロバットを下げてガブリアス、その後、さらにフーディンへ。両者、素早いタッチを繰り返す。ここで、ボーマンダが「ドラゴンクロー」でフーディンを倒すと、試合が動き始め、機を捉えた森本さんは、積極果敢に攻め始める。高嶋さんも、敵の勢いに負けじと応戦するが、遂には陥落。まずは森本さんが決勝へと駒を進めた。
-  translation: 高嶋选手，果然到这里为止都采取了用叉字蝠让对方睡眠的战术。森本选手立刻将拉帝欧斯→盔甲鸟→暴飞龙进行替换。高嶋选手也撤回叉字蝠，换上烈咬陆鲨，之后又进一步换成胡地。双方展开了快速的换人攻防。在这里，暴飞龙用“龙爪”击倒了胡地，比赛开始发生变化，抓住时机的森本选手开始积极果敢地进攻。高嶋选手也不甘示弱地应战，但最终还是败下阵来。首先由森本选手挺进决赛。
+  comment: 对照 P.033 扫描将「ラディオス」校正为「ラティオス」，并润色轮换与攻防叙述。
+  original: |-
+    高嶋さんは、ここでもクロバットで相手を眠らせる戦法を取る。すかさず森本さんはラティオスからエアームド、ボーマンダへと交代。高嶋さんもクロバットを下げてガブリアスへ、その後さらにフーディンに替える。両者、素早い交代を繰り返す。ここでボーマンダが「ドラゴンクロー」でフーディンを倒すと、試合が動き始めた。好機をつかんだ森本さんは積極果敢に攻め始める。高嶋さんも敵の勢いに負けじと応戦するが、ついに力尽きる。まずは森本さんが決勝へと駒を進めた。
+  translation: |-
+    高岛选手这边仍旧沿用叉字蝠催眠的战术。森本选手马上把拉帝欧斯换成盔甲鸟，再换上暴飞龙；高岛也收回叉字蝠，派出烈咬陆鲨，随后又换上胡地。双方频繁换人，节奏很快。暴飞龙用“龙爪”击倒胡地后，战局开始变化。抓住机会的森本选手转守为攻，高岛也奋力迎战，但最终还是败下阵来。森本选手率先挺进决赛。
 - speaker: body
-  type: paragraph
+  type: heading
   kind: text
-  region_type: body
+  region_type: heading
   region_id: p030-qwen-r6
+  level: 3
+  heading_level: 3
   order: 6
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 132
   - 1014
@@ -6435,7 +4923,7 @@ translation_segments:
   - 1137
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
+  comment: 对照 P.033 扫描确认半决赛第二场标题，并从普通正文改为标题层级。
   original: '準決勝
 
     第2試合'
@@ -6448,7 +4936,8 @@ translation_segments:
   region_type: image
   region_id: p030-qwen-r7
   order: 7
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 725
   - 1044
@@ -6458,30 +4947,47 @@ translation_segments:
   review_status: ready
   image: /assets/images/scan-archive/continue-vol31-20260829/regions/p030-p030_o007_image_qwen-r7.jpg
   alt: image
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
+- speaker: body
+  type: table
+  kind: text
+  region_type: table
   region_id: p030-qwen-r8
   order: 8
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 132
   - 1208
   - 673
   - 1823
   writing_direction: horizontal
-  review_status: review
-  comment: mixed_content
-  image: /assets/images/scan-archive/continue-vol31-20260829/regions/p030-p030_o008_image_qwen-r8.jpg
-  alt: image
+  review_status: ready
+  comment: 已对照 P.033 原刊阵容卡逐项补录选手、所属与六只宝可梦；日文原表保留为可展开对照。
+  table_caption: 半决赛第二场｜双方队伍
+  rows_ja:
+  - - 選手（所属）
+    - 使用ポケモン
+  - - 山田（Mount／光J）
+    - フーディン、ゲンガー、スターミー、リザードン、ドータクン、ユキノオー
+  - - 長谷川（サイバード）
+    - ユキノオー、フローゼル、フーディン、レントラー、ピカチュウ、フーディン
+  rows_zh:
+  - - 选手（所属）
+    - 出场宝可梦
+  - - 山田（Mount／光J）
+    - 胡地、耿鬼、宝石海星、喷火龙、顿甲、暴雪王
+  - - 长谷川（サイバード）
+    - 暴雪王、浮潜鼬、胡地、伦琴猫、皮卡丘、胡地
 - speaker: body
-  type: paragraph
+  type: heading
   kind: text
-  region_type: body
+  region_type: heading
   region_id: p030-qwen-r9
+  level: 4
+  heading_level: 4
   order: 9
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 717
   - 1434
@@ -6489,7 +4995,7 @@ translation_segments:
   - 1526
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
+  comment: 对照 P.033 扫描确认第二场副标题，将其与赛况正文分开。
   original: '文字通り
 
     “悪夢のような戦い”に'
@@ -6500,7 +5006,8 @@ translation_segments:
   region_type: body
   region_id: p030-qwen-r10
   order: 10
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 717
   - 1536
@@ -6508,16 +5015,19 @@ translation_segments:
   - 1843
   writing_direction: horizontal
   review_status: ready
-  comment: 原文中「あれれ」疑似为「じばく」（自爆）的误识别，但根据上下文和括号中的「自爆」提示，保留原样并加注。其余未发现明显OCR错误。
-  original: 山田さんはゲンガー、長谷川さんはフローゼルが先発。山田さんはとにかく執拗なまでに「さいみんじゅつ」を放ち、出てくる長谷川さんのポケモンを全員眠らせてしまう。途中、リザードンに代えたところを、長谷川さんのユキノオーが一撃で倒すが、再びゲンガーが登場して一蹴。さらに、ここで出た「あれれ」により、長谷川さんは「(自爆)あれれの中、眠らされて袋叩き」というナイトメア状態のまま、完敗中の完敗。「眠り倒されました……悲しあります!」(長谷川)。
-  translation: 山田选手派出耿鬼，长谷川选手派出浮潜鼬作为首发。山田选手执拗地不断使用“催眠术”，将长谷川选手出场的宝可梦全部催眠。途中，山田选手换上喷火龙时，被长谷川选手的暴雪王一击打倒，但耿鬼再次登场，将其轻易击败。更甚的是，由于这里出现的“自爆”，长谷川选手在“自爆之中被催眠并遭到群殴”的噩梦状态下，彻底惨败。“被睡倒了……真是悲伤啊！”（长谷川）。
+  comment: 对照 P.033 扫描将「あれれ」校正为「 あられ」（冰雹），修正括号玩笑误译，并润色赛况。
+  original: |-
+    山田さんはゲンガー、長谷川さんはフローゼルが先発。山田さんは執拗に「さいみんじゅつ」を放ち、長谷川さんが出すポケモンを次々と眠らせてしまう。途中、山田さんがリザードンに替えたところを、長谷川さんのユキノオーが一撃で倒す。だが、再びゲンガーが登場して一蹴。さらに、ここで出た「あられ」により、長谷川さんは「（自爆）あられの中、眠らされて袋叩き」というナイトメア状態のまま完敗中の完敗。「眠り倒されました……悲しすぎます！」（長谷川）。
+  translation: |-
+    山田选手首发耿鬼，长谷川选手则派出浮潜鼬。山田选手不断使出“催眠术”，让长谷川接连派出的宝可梦都陷入睡眠。途中，山田换上喷火龙，却被长谷川的暴雪王一击击倒；耿鬼再次登场，轻松收尾。之后暴雪王又引发“冰雹”，长谷川陷入“在冰雹中被催眠、再遭围攻”的噩梦境地，彻底惨败。“被一路催眠打倒……太惨了！”（长谷川）
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p030-qwen-r11
   order: 11
-  scan_page: 29
+  scan_page: 26
+
   scan_box:
   - 88
   - 1966
@@ -6542,7 +5052,8 @@ translation_segments:
   region_type: body
   region_id: p031-qwen-r1
   order: 1
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 92
   - 143
@@ -6559,7 +5070,8 @@ translation_segments:
   region_type: image
   region_id: p031-qwen-r2
   order: 2
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 99
   - 225
@@ -6575,7 +5087,8 @@ translation_segments:
   region_type: image
   region_id: p031-qwen-r3
   order: 3
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 695
   - 225
@@ -6591,7 +5104,8 @@ translation_segments:
   region_type: body
   region_id: p031-qwen-r4
   order: 4
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 473
   - 850
@@ -6608,7 +5122,8 @@ translation_segments:
   region_type: image
   region_id: p031-qwen-r5
   order: 5
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 104
   - 860
@@ -6624,7 +5139,8 @@ translation_segments:
   region_type: body
   region_id: p031-qwen-r6
   order: 6
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 473
   - 911
@@ -6641,7 +5157,8 @@ translation_segments:
   region_type: body
   region_id: p031-qwen-r7
   order: 7
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 115
   - 1397
@@ -6658,7 +5175,8 @@ translation_segments:
   region_type: body
   region_id: p031-qwen-r8
   order: 8
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 104
   - 1458
@@ -6677,7 +5195,8 @@ translation_segments:
   region_type: body
   region_id: p031-qwen-r9
   order: 9
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 104
   - 1546
@@ -6694,7 +5213,8 @@ translation_segments:
   region_type: note
   region_id: p031-qwen-r10
   order: 10
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 710
   - 1393
@@ -6715,7 +5235,8 @@ translation_segments:
   region_type: image
   region_id: p031-qwen-r11
   order: 11
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 718
   - 1602
@@ -6731,7 +5252,8 @@ translation_segments:
   region_type: image
   region_id: p031-qwen-r12
   order: 12
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 954
   - 1413
@@ -6747,7 +5269,8 @@ translation_segments:
   region_type: note
   region_id: p031-qwen-r13
   order: 13
-  scan_page: 30
+  scan_page: 27
+
   scan_box:
   - 1275
   - 1976
@@ -6764,7 +5287,8 @@ translation_segments:
   region_type: body
   region_id: p032-qwen-r1
   order: 1
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 127
   - 111
@@ -6787,7 +5311,8 @@ translation_segments:
   region_type: body
   region_id: p032-qwen-r2
   order: 2
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 127
   - 393
@@ -6810,7 +5335,8 @@ translation_segments:
   region_type: image
   region_id: p032-qwen-r3
   order: 3
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 660
   - 121
@@ -6826,7 +5352,8 @@ translation_segments:
   region_type: caption
   region_id: p032-qwen-r4
   order: 4
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 1200
   - 682
@@ -6844,24 +5371,29 @@ translation_segments:
   region_type: body
   region_id: p032-qwen-r5
   order: 5
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 115
   - 731
   - 725
   - 1868
   writing_direction: horizontal
-  review_status: review
-  comment: 修正了明显的OCR错误：'隙'改为'際'（根据上下文），'挜点'改为'得点'（根据上下文），'ブチ林'保留（可能为专有名词），'にゃあ'保留（口语），'ピヨコン'保留（拟声词），'つか'保留（口语）。；coordinate_dump
-  original: ある休日の昼下がり。ぼんやり電車の座席に座っている隙で、小学生くらいの男子が「ポケモン」をやっている。もちろん「ダイヤモンド・パール」。そういやブチ林くんが“超面白いっスよ、まだやってないんスか、超ヤベえスよ”とか話してたにゃあ。あー、早いところ買うなきゃあ……と思っていたら、その男子が「お姉ちゃーん!」。席をピヨコンと飛び上がり、向かいに座っていた姉(高校生?)のとこに駆け寄る。「エレブーつかまえたー」「へえ」。ふと見ると、そのお姉ちゃんも「ポケモン」をやってて、お互いに捕まえたポケモンを見せ合っている。ああ、幸せな光景だな、と思う。窓から差し込む、秋の温かな日差し。静かな車内。「ポケモン」でキャッキャと騒いでいる姉弟。なんか、胸がホッとあったくなるような風景……つか。思い返せば、最初の「ポケットモンスター 赤・緑」が発売されたのは、ちょうど10年前。当時のテレビゲーム業界は、すっかり“次世代機ブーム”——つっても、3DOとか初代プレイステーションとかセガサターンとか——に翻弄されている頃で、ポリゴンという新しい技術に対する試行錯誤が、一斉に始まった時期でもあった。ようするに「新しい波」が、業界全体を包んでいた。そのなかで、実に慎ましやかに発売された、ドット絵の、しかも新規タイトルのRPGなんて、あからさまに時代遅れだった。当時の「ファミ通」のレビューを見てみると、挜点は「8・7・7・7」。平均よりはちょっといいけど、まあ、可もなく不可もなく。お隣のサターン版「ヴァンパイアハンター」のほうがよほど高評価を得ている。というかこれが「ポケットモンスター」という作品に対する、ゲーム業界のごく平均的な反応だったといっていい。
-  translation: "某个休息日的午后。我正漫不经心地坐在电车的座位上，一个小学生模样的男孩在玩“宝可梦”。当然是“钻石·珍珠”。说起来，ブチ林君还说过“超有趣的哦，你还没玩吗？超厉害的哦”之类的话。啊，得赶紧去买才行……正这么想着，那个男孩喊了一声“姐姐——！”。他从座位上蹦了起来，跑到坐在对面的姐姐（高中生？）那里。“我抓到电击兽了！”“哦”。不经意一看，那位姐姐也在玩“宝可梦”，两人互相展示着抓到的宝可梦。啊，真是幸福的景象啊，我想。从窗户照进来的秋日温暖阳光。安静的车厢内。用“宝可梦”嬉闹的姐弟。总觉得，胸口变得温暖起来的风景……真是的。回想起来，最初的“宝可梦 红·绿”发售，正好是10年前。当时的电视游戏业界，已经完全被“次世代机热潮”——也就是3DO、初代PlayStation、世嘉土星之类——所摆弄，也是针对多边形这一新技术开始一并进行试错的时期。总之，“新的浪潮”包围了整个业界。在其中，以极其低调的方式发售的、像素绘图的、而且还是新作RPG，明显是过时的。看看当时《Fami通》的评论，得分是“8·7·7·7”。虽然比平均稍好一点，但也就是不好不坏。旁边的土星版《吸血鬼猎人》反而获得了更高的评价。可以说，这就是游戏业界对“宝可梦”这部作品极为平均的反应。"
+  review_status: ready
+  comment: 对照 P.035 原刊校正「隣で」「プチ林」「ピョコン」「買わなきゃあ」「採点」「つーか」等 OCR，并按随笔语气重译。
+  original: ある休日の昼下がり。ぼんやり電車の座席に座っている隣で、小学生くらいの男子が「ポケモン」をやっている。もちろん「ダイヤモンド・パール」。そういやプチ林くんが“超面白いっスよ、まだやってないんスか、超ヤベえスよ”とか話してたにゃあ。あー、早いところ買わなきゃあ……と思っていたら、その男子が「お姉ちゃーん!」。席をピョコンと飛び上がり、向かいに座っていた姉(高校生?)のとこに駆け寄る。「エレブーつかまえたー」「へえ」。ふと見ると、そのお姉ちゃんも「ポケモン」をやってて、お互いに捕まえたポケモンを見せ合っている。ああ、幸せな光景だな、と思う。窓から差し込む、秋の温かな日差し。静かな車内。「ポケモン」でキャッキャと騒いでいる姉弟。なんか、胸がホッとあったくなるような風景……つーか。思い返せば、最初の「ポケットモンスター 赤・緑」が発売されたのは、ちょうど10年前。当時のテレビゲーム業界は、すっかり“次世代機ブーム”——つっても、3DOとか初代プレイステーションとかセガサターンとか——に翻弄されている頃で、ポリゴンという新しい技術に対する試行錯誤が、一斉に始まった時期でもあった。ようするに「新しい波」が、業界全体を包んでいた。そのなかで、実に慎ましやかに発売された、ドット絵の、しかも新規タイトルのRPGなんて、あからさまに時代遅れだった。当時の「ファミ通」のレビューを見てみると、採点は「8・7・7・7」。平均よりはちょっといいけど、まあ、可もなく不可もなく。お隣のサターン版「ヴァンパイアハンター」のほうがよほど高評価を得ている。というかこれが「ポケットモンスター」という作品に対する、ゲーム業界のごく平均的な反応だったといっていい。
+  translation: >-
+    一个休息日的午后，我百无聊赖地坐在电车里，身旁有个小学生模样的男孩正玩着《宝可梦》。当然，是《钻石／珍珠》。说起来，プチ林还念叨过：“超好玩的，你还没玩吗？真的超厉害！”啊，我得赶紧找时间买一份……正这么想着，男孩忽然喊道：“姐姐——！”他一下从座位上蹦起来，跑到坐在对面的姐姐（高中生？）身边。“我抓到电击兽啦！”“哦。”仔细一看，姐姐也在玩《宝可梦》，姐弟俩正互相展示各自抓到的宝可梦。
+
+    真是幸福的一幕啊。秋日暖阳从车窗照进来，车厢里静悄悄的，只有这对姐弟玩着《宝可梦》，兴奋地叽叽喳喳。怎么说呢，这画面真让人心里暖暖的。回想最初的《宝可梦 红·绿》发售，正好是十年前。当时的游戏业界完全被“次世代主机热潮”裹挟——说是热潮，其实也就是3DO、初代PlayStation、世嘉土星之类——多边形这种新技术也正进入集中摸索的时期。总之，“新浪潮”席卷了整个业界。在这样的环境中，一款像素画面、全新登场的RPG低调发售，怎么看都显得过时。翻翻当时《Fami通》的评分，是“8·7·7·7”。略高于平均，但也就是中规中矩。相较之下，隔壁的世嘉土星版《吸血鬼猎人》评价高得多。可以说，这正是当时游戏业界对《宝可梦》的普遍反应。
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p032-qwen-r6
   order: 6
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 748
   - 737
@@ -6869,32 +5401,35 @@ translation_segments:
   - 1874
   writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确OCR修正
-  original: 'だいたいゲームボーイ自体、明らかに“死に体”的ハードだったのだ。ゲームハードの寿命は、約10年といわれる。ゲームボーイが初めて世に出たのが1989年だから、この時点で6年経っている。どう見てもロースペックな、モノクロの、液晶のゲームハードなんて、まったくもって新鮮味のかけらもなかった。今でいえば、ゲームキューブくらいの立ち位置でしょうか?
+  comment: 对照 P.035 原刊将误识的「的」改回「の」，理顺日文断句与标点，并重译随笔段落。
+  original: >-
+    だいたいゲームボーイ自体、明らかに“死に体”のハードだったのだ。ゲームハードの寿命は、約10年といわれる。ゲームボーイが初めて世に出たのが1989年だから、この時点で6年経っている。どう見てもロースペックな、モノクロの、液晶のゲームハードなんて、まったくもって新鮮味のかけらもなかった。今でいえば、ゲームキューブくらいの立ち位置でしょうか?
 
-    そんな逆風のなか、発売された『ポケモン』は、ところがどっこい大きな反響を引き起こした。その後の騒動は、みなさんご存知の通り。なぜそんなことになったのか、僕にはよくわからないし、専門家の人に聞いてください。ただ、ひとつだけ言えるのは『ポケモン』が中核に据えていた“コミュニケーション”というアイディアー——誰かとつながり、何かを交換するということ、は、確実にビデオゲームの世界を塗り替えた。いや、ビデオゲームだけじゃないかもしれない。冒頭の、電車のなかでポケモンを交換してた姉弟のように、この僕たちの生きている現実、その在りようをも変えてしまったのかもしれない。
+    そんな逆風のなか、発売された『ポケモン』は、ところがどっこい大きな反響を引き起こした。その後の騒動は、みなさんご存知の通り。なぜそんなことになったのか、僕にはよくわからないし、専門家の人に聞いてください。ただ、ひとつだけ言えるのは『ポケモン』が中核に据えていた“コミュニケーション”というアイディア——誰かとつながり、何かを交換するということは、確実にビデオゲームの世界を塗り替えた。いや、ビデオゲームだけじゃないかもしれない。冒頭の、電車のなかでポケモンを交換してた姉弟のように、この僕たちの生きている現実、その在りようをも変えてしまったのかもしれない。
 
-    あれから10年。インターネットの技術はごく当たり前のものになっていて、パソコンや携帯やゲーム機を介して、僕たちは気軽に情報(データ)をやり取りするようになった。増大する、新しい“コミュニケーション”的形。今にして思えば、『ポケモン』はそんな“新しい世界”を、1996年の時点で予見していたようにも思える。黒いケーブルを介して自在に行き来するお互いのポケモンたち。それは『ダイヤモンド・パール』では、無線LANの電波となって、世界中をめぐる。そして、これはまだ終着点なんかじゃない。『ポケモン』の指し示した“コミュニケーション”的可能性。それはまだ可能性のまま、未来に向かって開かれている。'
-  translation: '大体上，Game Boy本身明显就是一台“濒死”的硬件。游戏硬件的寿命据说大约10年。Game Boy首次问世是在1989年，所以到那时已经过了6年。怎么看都是低规格、单色、液晶的游戏硬件，完全没有一点新鲜感。放到现在来说，大概相当于GameCube的地位吧？
+    あれから10年。インターネットの技術はごく当たり前のものになっていて、パソコンや携帯やゲーム機を介して、僕たちは気軽に情報(データ)をやり取りするようになった。増大する、新しい“コミュニケーション”的形。今にして思えば、『ポケモン』はそんな“新しい世界”を、1996年の時点で予見していたようにも思える。黒いケーブルを介して自在に行き来するお互いのポケモンたち。それは『ダイヤモンド・パール』では、無線LANの電波となって、世界中をめぐる。そして、これはまだ終着点なんかじゃない。『ポケモン』の指し示した“コミュニケーション”的可能性。それはまだ可能性のまま、未来に向かって開かれている。
+  translation: >-
+    单说 Game Boy 本身，当时显然已经是一台显出颓势的主机。一般来说，游戏机的寿命约为十年。Game Boy 于1989年问世，到那时已经过去六年。无论怎么看，它都只是台低配置、黑白屏幕的液晶掌机，实在谈不上有什么新鲜感。放到今天，大概就像 GameCube 所处的位置吧？
 
-    在这样逆风的情况下发售的《宝可梦》，却出乎意料地引发了巨大反响。之后的轰动，大家都知道了。为什么会变成那样，我不太清楚，请去问专家。只是，有一点可以说的是，《宝可梦》所核心定位的“交流”这一理念——与某人相连、交换某种东西——确实改写了电子游戏的世界。不，也许不仅仅是电子游戏。就像开头在电车里交换宝可梦的姐弟那样，或许也改变了我们活着的这个现实本身，以及它的存在方式。
+    在这样的逆风中，《宝可梦》发售后却着实引起巨大反响，谁能想到呢。之后的热潮大家都知道。我也说不清为什么会这样，还是留给专家解释吧。不过有一点可以肯定：《宝可梦》将“交流”置于核心——让人与人建立联系、彼此交换东西——这一理念，确实改写了电子游戏的世界。也许改变的不只是电子游戏。就像文章开头那对在电车里交换宝可梦的姐弟一样，它或许也改变了我们身处的现实，改变了现实本身的样子。
 
-    那之后过了10年。互联网技术已经变得理所当然，我们通过电脑、手机和游戏机，轻松地交换信息（数据）。新的“交流”形式不断增加。现在想来，《宝可梦》似乎在1996年就已经预见了那样的“新世界”。通过黑色线缆自由往来的彼此的宝可梦们。在《钻石·珍珠》中，它们化作无线LAN的电波，环绕世界。而且，这还不是终点。《宝可梦》所指出的“交流”的可能性。它仍然作为可能性，向着未来敞开。'
+    十年过去，互联网早已成了日常。我们通过电脑、手机和游戏机轻松交换信息（数据），“交流”的新形式也不断涌现。如今再回头看，《宝可梦》仿佛早在1996年就预见了那个“新世界”：宝可梦通过黑色连接线在彼此之间自由往来；到了《钻石·珍珠》，它们则搭上无线局域网的电波，走向全世界。但这还不是终点。《宝可梦》所指向的“交流”可能性仍未定型，正朝着未来敞开。
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p032-qwen-r7
   order: 7
-  scan_page: 31
+  scan_page: 28
+
   scan_box:
   - 106
   - 1962
   - 484
   - 1993
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump；column_ocr_incomplete
+  review_status: ready
+  comment: 已对照 P.035 页脚确认页码。
   original: '035'
   translation: '035'
 - speaker: body
@@ -6903,7 +5438,8 @@ translation_segments:
   region_type: body
   region_id: p033-qwen-r1
   order: 1
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 230
   - 401
@@ -6911,16 +5447,19 @@ translation_segments:
   - 553
   writing_direction: horizontal
   review_status: ready
-  comment: 修正了'ノンストップ'为'ノンストップ'，根据常见词汇'ノンストップ'（non-stop）修正。
-  original: 走爆感ノンストップ!!
-  translation: 疾驰感不间断！！
+  comment: 对照封底扫描修正 OCR「走爆感」为「爽快感」，并改写广告语。
+  original: |-
+    爽快感ノンストップ!!
+  translation: |-
+    爽快感一路飙不停！！
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: p033-qwen-r2
   order: 2
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 233
   - 492
@@ -6937,7 +5476,8 @@ translation_segments:
   region_type: image
   region_id: p033-qwen-r3
   order: 3
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 335
   - 717
@@ -6953,7 +5493,8 @@ translation_segments:
   region_type: note
   region_id: p033-qwen-r4
   order: 4
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 641
   - 573
@@ -6978,36 +5519,34 @@ translation_segments:
   region_type: note
   region_id: p033-qwen-r5
   order: 5
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 729
   - 676
   - 947
   - 799
   writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 'かんばれ!
-
+  review_status: review
+  comment: 封底广告：前三行已对照扫描校正「がんばれ」，末行与旁侧广告语重叠，暂不猜译。
+  original: |-
+    がんばれ!
     とびだせ!!
-
     レーシング!!
-
-    やられる'
-  translation: '加油！
-
+    やられる
+  translation: |-
+    加油！
     冲出去！！
-
-    赛车！！
-
-    被干掉'
+    竞速开飙！！
+    （右侧广告语与此区域重叠，末行待核）
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p033-qwen-r6
   order: 6
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 962
   - 389
@@ -7023,7 +5562,8 @@ translation_segments:
   region_type: note
   region_id: p033-qwen-r7
   order: 7
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 947
   - 492
@@ -7040,7 +5580,8 @@ translation_segments:
   region_type: image
   region_id: p033-qwen-r8
   order: 8
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 204
   - 881
@@ -7057,7 +5598,8 @@ translation_segments:
   region_type: caption
   region_id: p033-qwen-r9
   order: 9
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 226
   - 1106
@@ -7075,7 +5617,8 @@ translation_segments:
   region_type: image
   region_id: p033-qwen-r10
   order: 10
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 204
   - 1034
@@ -7091,15 +5634,16 @@ translation_segments:
   region_type: note
   region_id: p033-qwen-r11
   order: 11
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 612
   - 1004
   - 860
   - 1249
   writing_direction: horizontal
-  review_status: ready
-  comment: OCR中'大総貫'疑为'大統領'之误，但根据上下文无法确定，保留原样；'プチ噛んだ'可能为'プチ噛んだ'，但无法确认，保留；'tation.c'疑似OCR误识别，但无法确定，保留。
+  review_status: review
+  comment: 封底竞速游戏广告，与宝可梦访谈无关；装饰文案 OCR 失真，保留原图并标记待核，不展示猜测译文。
   original: '注意
 
     CONTINUE話
@@ -7113,26 +5657,16 @@ translation_segments:
     プチ噛んだより!!
 
     tation.c'
-  translation: '注意
-
-    续关话
-
-    大总统！！大总统！！
-
-    到底怎么回事！？？
-
-    一切都
-
-    比小咬一口还糟！！
-
-    tation.c'
+  translation: |-
+    （背封广告中的装饰性文案，部分 OCR 无法确认；非访谈正文）
 - speaker: image
   type: image
   kind: image
   region_type: image
   region_id: p033-qwen-r12
   order: 12
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 1005
   - 778
@@ -7148,7 +5682,8 @@ translation_segments:
   region_type: caption
   region_id: p033-qwen-r13
   order: 13
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 918
   - 942
@@ -7166,7 +5701,8 @@ translation_segments:
   region_type: image
   region_id: p033-qwen-r14
   order: 14
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 845
   - 1034
@@ -7182,7 +5718,8 @@ translation_segments:
   region_type: body
   region_id: p033-qwen-r15
   order: 15
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 816
   - 1208
@@ -7203,33 +5740,36 @@ translation_segments:
   region_type: caption
   region_id: p033-qwen-r16
   order: 16
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 816
   - 1290
   - 1195
   - 1321
   writing_direction: horizontal
-  review_status: review
+  review_status: ready
   caption_for: p033-qwen-r14
-  comment: 将'メーラー'修正为'メーカー'，依据上下文为价格信息条。；coordinate_dump
+  comment: 已对照封底扫描确认商品价格与「メーカー」OCR 修正。
   original: メーカー希望小売価格5,980円(税込6,279円)
-  translation: 厂商建议零售价5,980日元（含税6,279日元）
+  translation: |-
+    建议零售价：5,980日元（含税6,279日元）
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p033-qwen-r17
   order: 17
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 204
   - 1229
   - 801
   - 1321
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；image_text_mixed
+  review_status: ready
+  comment: 已对照封底扫描确认分级标识及平台信息；修正“12岁以上对象”的生硬译法。
   original: 'CERO
 
     B
@@ -7239,22 +5779,19 @@ translation_segments:
     BUGBEAR
 
     PlayStation 2'
-  translation: 'CERO
-
-    B
-
-    （12岁以上对象）
-
+  translation: |-
+    CERO B
+    （适合12岁及以上）
     BUGBEAR
-
-    PlayStation 2'
+    PlayStation 2
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p033-qwen-r18
   order: 18
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 226
   - 1331
@@ -7303,15 +5840,16 @@ translation_segments:
   region_type: note
   region_id: p033-qwen-r19
   order: 19
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 262
   - 1587
   - 772
   - 1700
   writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
+  review_status: ready
+  comment: 已对照封底扫描确认出版定价和书号，价格说明改为自然中文。
   original: '定価（本体950円+税）
 
     ISBN4-7783-1057-8
@@ -7319,20 +5857,19 @@ translation_segments:
     C0095
 
     ¥950E'
-  translation: '定价（本体950日元+税）
-
-    ISBN4-7783-1057-8
-
+  translation: |-
+    定价：950日元（未含税）
+    ISBN 4-7783-1057-8
     C0095
-
-    ¥950E'
+    ¥950E
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: p033-qwen-r20
   order: 20
-  scan_page: 32
+  scan_page: 31
+
   scan_box:
   - 932
   - 1434
@@ -7347,4 +5884,1000 @@ translation_segments:
   translation: '9784778310578
 
     1920095009506'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: verified-shoko-p018-fullpage
+  order: 0
+  scan_page: 11
+  width: 1448
+  height: 2048
+  writing_direction: auto
+  review_status: ready
+  comment: '使用站点现有 P.018 整页图；尺寸属性沿用网页扫描坐标。'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p018_shokotan_title.jpg
+  alt: 'CONTINUE Vol.31 P.018 翔子特辑扉页'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: verified-shoko-p019-fullpage
+  order: 0
+  scan_page: 12
+  width: 1448
+  height: 2048
+  writing_direction: auto
+  review_status: ready
+  comment: '归档母图仍倒置；展示使用按原页旋转 180° 的正向校正版，原始校验图保留。'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p019_shokotan_interview1_upright.jpg
+  alt: 'CONTINUE Vol.31 P.019 中川翔子访谈原页'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: verified-shoko-p020-fullpage
+  order: 0
+  scan_page: 13
+  width: 1448
+  height: 2048
+  writing_direction: auto
+  review_status: ready
+  comment: '采用重处理包档案级 P.020 原图；MD5 与 scan-manifest 的 archive_md5 一致。'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p020_shokotan_interview2_verified.jpg
+  alt: 'CONTINUE Vol.31 P.020 中川翔子访谈原页'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: verified-shoko-p021-fullpage
+  order: 0
+  scan_page: 14
+  width: 1448
+  height: 2048
+  writing_direction: auto
+  review_status: ready
+  comment: '采用重处理包档案级 P.021 原图；MD5 与 scan-manifest 的 archive_md5 一致。'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p021_shokotan_photo_verified.jpg
+  alt: 'CONTINUE Vol.31 P.021 中川翔子访谈配图页'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: verified-shoko-p022-fullpage
+  order: 0
+  scan_page: 15
+  width: 1448
+  height: 2048
+  writing_direction: auto
+  review_status: ready
+  comment: '对照纸本页脚确认：该图实际为 P.022 翔子访谈续页；源文件名误标为公司探访。'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p022_shokotan_interview3_verified.jpg
+  alt: 'CONTINUE Vol.31 P.022 中川翔子访谈续页'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: verified-shoko-p023-fullpage
+  order: 0
+  scan_page: 16
+  width: 1448
+  height: 2048
+  writing_direction: auto
+  review_status: ready
+  comment: '对照纸本页脚确认：公司探访正文从 P.023 开始；源文件名误称为后篇。'
+  image: /assets/images/scan-archive/continue-vol31-20260829/pages/p023_pokemon_company_verified.jpg
+  alt: 'CONTINUE Vol.31 P.023 宝可梦公司探访原页'
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q01
+  order: 1
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    中川さんは初代『ポケットモンスター』から遊んでいるそうですね。
+  translation: >-
+    听说中川小姐从初代《宝可梦》就开始玩了？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a01
+  order: 2
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    白黒のゲームボーイで遊んだ『緑』が初めてです！
+  translation: >-
+    我第一次玩的是黑白 Game Boy 上的《绿》！
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q02
+  order: 3
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    そんな中川さんのために、今日は『ポケモン』の話しかしません！
+  translation: >-
+    那今天我们就只聊《宝可梦》！
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a02
+  order: 4
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    イエイ！ ……というか、私自身が最近ポケモンの話しかしてないんですけどね。ブログも『ポケモン』ブログになってますから。
+  translation: >-
+    好耶！……不过我最近自己也满脑子都是宝可梦，博客都快变成《宝可梦》专栏了。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q03
+  order: 5
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    『ポケモン☆サンデー』の収録もあって、『ポケモン』で忙しいと思いますが。
+  translation: >-
+    还要录《宝可梦☆星期天》，最近一定忙着《宝可梦》的事吧？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a03
+  order: 6
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    昨日も収録があって、うれしくてうれしくて。
+  translation: >-
+    昨天也录了一期，我高兴得不得了。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q04
+  order: 7
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    最初に中川さんが『ポケモン』と出会ったのは……10歳くらいのころですか？
+  translation: >-
+    你第一次接触《宝可梦》，大概是在十岁左右吧？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a04
+  order: 8
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    そうですね。当時、『スーパーマリオスタジアム』って番組がやっていて、それにすごくハマっていたんですよ。マリオスタジアムのお姉さんになるのが夢だったんです。いまや『ポケモン』のお姉さんですよ。夢が叶ってるじゃないですか。当時はスーファミの頃ですよね。私はスーファミのソフト目当てで見てたんですけど、ちょうど番組で『ポケモン』の紹介をしていたんです。その画面を見て、メチャクチャ面白そう！って思って。そのうち、子供同士で対戦をし始めるじゃないですか。それが本当に面白そうで。でも、男子がやるもんだと思って、手を出せなかったんです。
+  translation: >-
+    是啊。当时有档节目叫《超级马力欧体育场》，我特别迷它，梦想是当节目里的姐姐。如今我成了《宝可梦》的姐姐，这不就是梦想成真了吗？那时正是超级任天堂的年代，我本来是冲着主机游戏才看节目，刚好看到节目介绍《宝可梦》。画面看起来实在太有趣了！后来孩子们开始互相对战，我也觉得特别好玩；可当时总觉得那是男生玩的东西，所以一直没敢尝试。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q05
+  order: 9
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    『ポケモン』は男子のもの！
+  translation: >-
+    《宝可梦》是男生玩的！
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a05
+  order: 10
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    「ドラクエ」はやっていましたけど、なかなか「ポケモン」は気まずくて。だけど、ついに家族でディズニーワールドへ旅行に行くときに、買ってもらったんです！飛行機の中から夢中になって遊んでいて、ディズニーワールドにはちっとも目をくれず（笑）。旅行中、「ポケモン」しかやってなかった。
+  translation: >-
+    我倒是玩《勇者斗恶龙》，但玩《宝可梦》总觉得有点不好意思。后来全家要去迪士尼世界旅行时，我终于买到了！从飞机上就玩得入迷，到了迪士尼世界也完全顾不上看（笑），整趟旅行都在玩《宝可梦》。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q06
+  order: 11
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    「ディズニー」より「ポケモン」！（笑）
+  translation: >-
+    比起迪士尼，你更爱《宝可梦》！（笑）
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a06
+  order: 12
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    旅行から帰ってきてからも、ひとりで『ポケモン』の絵を描いたりして、毎日『ポケモン』漬けで。だけど、『ポケモン』を男子しか遊んでいなかったので、ポケモンの交換もできず、ユンゲラーがフーディンになることもなく、ゴーストがゲンガーになることもなく、ゴーリキーがカイリキーになることもなく（笑）。
+  translation: >-
+    旅行回来后，我还会一个人画宝可梦，天天沉浸其中。可那时只有男生玩《宝可梦》，我没法交换宝可梦，所以勇基拉没能进化成胡地，鬼斯通没能进化成耿鬼，豪力也没能进化成怪力（笑）。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q07
+  order: 13
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    交換で進化を遂げられず！
+  translation: >-
+    想靠交换进化也办不到！
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a07
+  order: 14
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    それがトラウマなんです。今回、ニンテンドーDSで出たのは神ですね。友達がいるほうが楽しいじゃないですか！まだ、女子は全然遊んでいなかったんですよ。アニメの放映が始まってからですよ、女の子が遊ぶようになったのは。
+  translation: >-
+    这都成了我的心理阴影。现在 Nintendo DS 上终于能方便地联机，简直太棒了！有朋友一起玩才更开心嘛。那时候女生几乎都不玩，等动画播出以后，女孩子才渐渐开始玩起来。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q08
+  order: 15
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    最初のポケモンは何でしたか？
+  translation: >-
+    你最初选的宝可梦是什么？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a08
+  order: 16
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ゼニガメっ！カメックスを溺愛していて「なみのり」も「れいとうビーム」もかわいくてしょうがなくて。誰をさしおいてもカメックス。歴代「みず」タイプのポケモン好きです。
+  translation: >-
+    杰尼龟！我特别喜欢水箭龟，觉得它用“冲浪”和“冰冻光束”时可爱极了。无论如何我最喜欢的都是水箭龟，也一直偏爱水属性宝可梦。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q09
+  order: 17
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    ヒトカゲでも、フシギダネでもなく。
+  translation: >-
+    不是小火龙，也不是妙蛙种子啊。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a09
+  order: 18
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ヒトカゲは男の子っぽかったし、フシギダネはよくわかんないから（笑）。でも、あのデザインは天才ですよ。おかしいですよ！
+  translation: >-
+    小火龙看起来比较像男孩子会选的，妙蛙种子我也不太懂（笑）。不过它的设计真是天才，太奇妙了！
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q10
+  order: 19
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    ミュウツーは捕まえました？
+  translation: >-
+    你抓到超梦了吗？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a10
+  order: 20
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ええ、マスターボールを使って。当時のチームはカメックス、ミュウツー、フリーザー、サンダー、ユンゲラー、オニドリル。
+  translation: >-
+    抓到了，用了大师球。当时队伍里有水箭龟、超梦、急冻鸟、闪电鸟、勇基拉和大嘴雀。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-q11
+  order: 21
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，按实际问答顺序录入。'
+  original: >-
+    偏ってる（笑）。
+  translation: >-
+    队伍属性也太偏了（笑）。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p019-a11
+  order: 22
+  scan_page: 12
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.019 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    「エスパー」かぶってる。「ひこう」も3匹（笑）。でも、いつでもカメックスの「ハイドロポンプ」でゴリ押し。音がいいですよね。「ドリュドリュドリュッ」って。
+  translation: >-
+    超能力系撞了两只，飞行系也有三只（笑）。不过我一直靠水箭龟的“水炮”硬推。那招的音效也很好听，“咻噜咻噜咻噜”地。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a01
+  order: 1
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    『リーフグリーン』を遊んだときに、同じ音だったのがうれしかったなあ。
+  translation: >-
+    玩《叶绿》时听到和当年一样的音效，我特别开心。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q01
+  order: 2
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    でも、交換ができなかったということは「ポケモンずかん」は埋まらなかった？
+  translation: >-
+    不过，既然没法交换，那《宝可梦图鉴》也没能收齐吧？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a01b
+  order: 3
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    やりたかったんですよ、交換も対戦も。もっと積極的に男子の輪の中に入っていければよかったのに……。小学校高学年で、恥ずかしい年頃だったんですよ。交換も対戦もしたことがなかった。今回で初めてです。
+  translation: >-
+    我当然想交换、想对战啊。要是当时能更主动地加入男生的圈子就好了……那会儿已经是小学高年级，正是会害羞的年纪。我以前从没交换过，也没对战过，这次才是第一次。
+- speaker: heading
+  type: heading
+  kind: heading
+  region_type: heading
+  heading_level: 3
+  region_id: shoko-p020-heading
+  order: 4
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '按原页标题层级保留，不并入正文。'
+  original: >-
+    「ポケモン」といっしょに大人の階段をのぼって
+  translation: >-
+    和《宝可梦》一起长大
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q02
+  order: 5
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    『青』はお持ちでしたか？
+  translation: >-
+    你有买《蓝》吗？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a02
+  order: 6
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ローソン限定で通信販売したときに、ドキドキしながら買ったんですよ。大人になりながら買ったなぁ！って自分で思いながら。「『ポケモン』持ってるでしょ！バカッ」っていわれても、「違うよ！青だよ！やっとゼニガメがメインになったんだよ！」ってケンカしながら。
+  translation: >-
+    罗森限定邮购《蓝》的时候，我还心跳不已地买了下来，心里想着“我都长大了，还在买《宝可梦》呢！”别人说“你不是已经有《宝可梦》了吗，笨蛋！”我就跟人争辩：“不一样啦！这是《蓝》！杰尼龟终于当主角了！”
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q03
+  order: 7
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    大人の階段を「ポケモン」とともに登った（笑）。
+  translation: >-
+    你就这样和《宝可梦》一起迈上了成长的阶梯（笑）。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a03
+  order: 8
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    でも、ゲームボーイをひとつしか持ってなかったので、ふたつソフトを持っていても、交換できなかったんですけど。最初からやり直しました。
+  translation: >-
+    不过我只有一台 Game Boy，就算有两张卡带也没法交换，只好从头再玩一次。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q04
+  order: 9
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    『赤・緑・青』で、お好きなポケモンは？
+  translation: >-
+    《红》《绿》《蓝》里，你最喜欢哪些宝可梦？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a04
+  order: 10
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ミュウツーは強いから好きだったし、フリーザーもキレイだったなぁ。鳴き声が「ボービー」って美しくて。「れいとうビーム」も強かったし。オニドリル！鳴き声が好きだった「ドゥルルルル」って「ドリルさん」って名前をつけてましたもん。オニドリルカワユス！当時は『マリオスタジアム』の中の対戦コーナー『ポケモンスタジアム』に出るのが夢だったんですよ。でも、ゲンガーがいなかったから……当時は対戦になるとゲンガーを出すのが、セオリーでしたもんね。
+  translation: >-
+    我喜欢超梦，因为它很强；急冻鸟也很漂亮，叫声“啵——”的，特别悦耳，“冰冻光束”也很厉害。还有大嘴雀！我喜欢它的叫声“咕噜噜噜”，还给它取名叫“钻钻先生”。大嘴雀真可爱！当时我还梦想着能参加《马力欧体育场》里的对战环节《宝可梦竞技场》。可惜我没有耿鬼……那时对战的常见套路就是派耿鬼上场。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q05
+  order: 11
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    そうでした。ゲンガーでこうげきして、カビゴンで守る。
+  translation: >-
+    没错，用耿鬼进攻，再让卡比兽防守。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a05
+  order: 12
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ゲンガーの「どくどく」とギャラドスの「はかいこうせん」がメインでしたよね。なつかしすぎる（笑）。
+  translation: >-
+    主力招式就是耿鬼的“剧毒”和暴鲤龙的“破坏光线”，真是太怀念了（笑）。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q06
+  order: 13
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    そうだったそうだった！中川さんに言われて、どんどん当時を思い出してきた！（笑）。そのあと『金・銀』がでますけど。
+  translation: >-
+    对对对！听中川小姐这么一说，我也渐渐想起当年的事了（笑）。后来又出了《金》《银》……
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a06
+  order: 14
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    『銀』でしたね。『金』は男っぽかったんで。そのころも『ポケモン』をする友達がいず、交換できず。
+  translation: >-
+    我玩的是《银》。《金》看起来比较像男生会选的版本。那时我还是没有一起玩《宝可梦》的朋友，没法交换。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q07
+  order: 15
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    当時はアニメもやっていたはずですけど。
+  translation: >-
+    那时候动画也已经开播了吧？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a07
+  order: 16
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    アニメは超観てました。
+  translation: >-
+    我可爱看动画了。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-q08
+  order: 17
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，按实际问答顺序录入。'
+  original: >-
+    以前、『ピカチュウ・ザ・ポッドキャスト』の収録で、サトシ役の声優・松本梨香さんとお会いになったそうですね。
+  translation: >-
+    听说你之前录《皮卡丘播客》时，见到了为小智配音的松本梨香小姐？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p020-a08
+  order: 18
+  scan_page: 13
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.020 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    そうそう！サトシに「しょうこ、好きだよ」って言ってもらいました（笑）。アリエナイ！サトシと旅したかったからなぁ。アニメのオープニングの『めざせポケモンマスター』、あの歌は神ですよ！オーキド博士が「そりゃそうじゃー」って（笑）。ゲームの効果音がアニメで流れたときはすごくうれしかったですね。フシギダネが「ダネダネ」っておしゃべりしたときは衝撃でした（笑）。あと、カスミがスターミーを使っちゃうのがおかしかった。なんでスターミーなんだろ。
+  translation: >-
+    对呀！小智还对我说“翔子，我喜欢你”呢（笑）。太难以置信了！我一直好想和小智一起旅行。《目标是宝可梦大师》那首动画片头曲简直是神曲！大木博士还会说“那当然啦——”（笑）。听到游戏音效出现在动画里，我特别开心；妙蛙种子开口说“种子、种子”的时候，也让我大受震撼（笑）。还有小霞竟然用宝石海星，真奇怪，为什么是宝石海星呢？
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-q-anime-girls
+  order: 1
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '复核 P.020–P.021 跨页问答；此句为采访者追问，不属于翔子的回答。'
+  original: >-
+    アニメが始まると女の子も『ポケモン』に興味を持ち始めるわけですよね。
+  translation: >-
+    动画开播后，女孩子也开始对《宝可梦》感兴趣了，对吧？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a-song
+  order: 2
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，按跨页后的实际说话顺序归位。'
+  original: >-
+    コマーシャルで『ポケモン言えるかな？』が流れていて、みんなで歌ってました。ピカチュウカイリューヤドランピジョンコダックコラッタズバットギャロップサンダースメノクラゲ……いまでも全部歌える！
+  translation: >-
+    广告里播《你能说出宝可梦吗？》，大家都会一起唱。皮卡丘、快龙、呆壳兽、比比鸟、可达鸭、小拉达、超音蝠、烈焰马、雷伊布、玛瑙水母……我到现在还能整首唱出来！
+- speaker: body
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-reaction-applause
+  order: 3
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对；这是采访者的现场反应，不是提问。'
+  original: >-
+    （拍手）すごい！
+  translation: >-
+    （鼓掌）太厉害了！
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a-manga
+  order: 4
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，修正连续发言及专名写法。'
+  original: >-
+    iPodにいまでも入ってます。いまだにまったくオタクっ気がないギャルも『ポケモン言えるかな？』を歌いますよ。あのとき流行ってたからなぁ。あと、ほら『月刊コロコロコミック』でやっていたギャグマンガ。穴久保幸作さんの『不思議ポケモンピッピ』。あったあった、ピッピがなぜか主人公の！あれが好きでしたね。ピカチュウが全然かわいくなくて。常にひざこぞうが汚れてるの。
+  translation: >-
+    我现在的 iPod 里还存着这首歌呢。就连完全没有宅属性的辣妹，到现在也会唱《你能说出宝可梦吗？》，毕竟当时真的很流行。对了，还有《月刊 CoroCoro Comic》连载的搞笑漫画，穴久保幸作的《不可思议的宝可梦皮皮》。对对，明明皮皮才是主角！我很喜欢那部漫画，里面的皮卡丘一点也不可爱，膝盖总是脏兮兮的。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-q-silver
+  order: 5
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，按实际问答顺序录入。'
+  original: >-
+    当時はおもしろかったですねぇ。『金・銀』以降はどうでしたか？
+  translation: >-
+    那时候真的很有趣啊。《金》《银》之后呢？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a-silver
+  order: 6
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，修正口语翻译。'
+  original: >-
+    『銀』は最後まで遊べなかったんです。新しいポケモンになじめなくって。遊ぶ時間が、いつも「夜」になっちゃっていたし。そこから『ルビー・サファイア』も遊ばなくて。だからいまの『パール』で戻ってきた感じです。
+  translation: >-
+    《银》我没能玩到最后，因为不太习惯新宝可梦，而且我每次能玩的时间总是变成了“晚上”。之后《红宝石》《蓝宝石》也没玩，所以现在是靠《珍珠》重新回到《宝可梦》的世界。
+- speaker: heading
+  type: heading
+  kind: heading
+  region_type: heading
+  heading_level: 3
+  region_id: shoko-p021-heading
+  order: 7
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '按原页标题层级保留，不并入正文。'
+  original: >-
+    今は大人も巻き込んで『ポケモン』に夢中
+  translation: >-
+    如今，大人也一起迷上《宝可梦》
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-q01
+  order: 8
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，按实际问答顺序录入。'
+  original: >-
+    中川さんは『パール』なんですね？いまはどんなチームですか？
+  translation: >-
+    中川小姐玩的是《珍珠》吧？现在队伍里有哪些宝可梦？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a01
+  order: 9
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    ヒトカゲ、ゼニガメ、フシギダネ、フーディン、ポッチャマ……。新しいのは入れてないんです。回顧主義者なんで（笑）。今回初めてフーディンをつかまえられて……本当に10年越しですよ。
+  translation: >-
+    小火龙、杰尼龟、妙蛙种子、胡地、波加曼……我没放进新的宝可梦，毕竟我比较怀旧（笑）。这次终于第一次抓到胡地，真是等了十年啊。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-q02
+  order: 10
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，按实际问答顺序录入。'
+  original: >-
+    『パール』はどんな風に遊んでいますか？
+  translation: >-
+    你平时怎么玩《珍珠》？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a02
+  order: 11
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    「ポケモンのタマゴ」ばかり孵化しています。昨日なんて、『ポケモン』をやりながら寝てて。腕を頭の下に敷いたまま、寝ちゃったので、腕に血が通っていなくてしびれまくってました。ここまでハマったのは、ゲームではひさびさ。
+  translation: >-
+    我一直在孵宝可梦蛋。昨天甚至玩着玩着就睡着了，还把手臂压在头底下，醒来时血都不通了，麻得不得了。已经很久没有像这样沉迷一款游戏了。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-q03
+  order: 12
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，按实际问答顺序录入。'
+  original: >-
+    いい話だ。
+  translation: >-
+    真是个好故事。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a03
+  order: 13
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    『ポケモン』はシリーズが続いているのに、いまだにミュウツーが強かったりして、ゲームのバランスが崩壊しないですよね。すごいことだと思います。『金・銀』で「でんせつのポケモン」がいっぱい出たけど、その神バランスが崩れないのがすごいッス。『ドラクエ』でもシリーズを重ねるごとに変化していくのに、『ポケモン』は変わらないのがうれしい。やりやすさ、親しみやすさ、「ポケモン」らしさを守ってるから。
+  translation: >-
+    《宝可梦》系列出了这么多代，超梦却依然很强，游戏平衡也没有崩坏，真的很厉害。《金》《银》里出现了那么多传说宝可梦，系列却仍能维持住这种绝妙平衡。就连《勇者斗恶龙》都会随着系列发展不断变化，《宝可梦》能守住一贯的风格，我很喜欢。它始终好上手、亲切，也一直保留着“宝可梦的感觉”。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-q04
+  order: 14
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，按实际问答顺序录入。'
+  original: >-
+    『パール』ではどんなポケモンが好きですか。
+  translation: >-
+    《珍珠》里你喜欢哪些宝可梦？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p021-a04
+  order: 15
+  scan_page: 14
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.021 原页校对，修正口语转写与说话人归属。'
+  original: >-
+    今年の夏にセミの抜け殻にハマっていたんで、ヌケニンがかわいくて。たくさんあつめているんです。じつは最初に『パール』を始めたときに、ビッパが出てきて、ちょっと心配だったんです。また、なじめないのかなあって。でも、そんなこと全然なかったですね。
+  translation: >-
+    今年夏天我迷上了蝉蜕，所以觉得脱壳忍者特别可爱，还收集了不少蝉蜕。刚开始玩《珍珠》时遇到大牙狸，我还担心自己会不会又不习惯新宝可梦。结果完全没有！
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-a04-cont
+  order: 1
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '复核 P.021–P.022 跨页处；续接上一页同一回答，按原页断点拆分。'
+  original: >-
+    ドーミラーのデザインはすごい！ポッチャマがギザカワユス！でも、ポッチャマって進化すると可愛くなくなるんですよ。だから、いつも進化キャンセルしてます（笑）。
+  translation: >-
+    铜镜怪的设计真惊艳！波加曼也可爱到爆！可波加曼一进化就不可爱了，所以我总是按取消进化（笑）。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-q01
+  order: 2
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，按实际问答顺序录入。'
+  original: >-
+    結構、お気に入りのポケモンがいますねえ。
+  translation: >-
+    你喜欢的宝可梦还真不少呢。
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-a01
+  order: 3
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，修正口语翻译。'
+  original: >-
+    ニューラとマニューラがかわいい！ニューラにはウチの猫のルナに似てるんで、「ルナ」って名前をつけてます。あと、ポッチャマが「マミタス」。人にもらったポケモンはやはり愛着がわかないので、自分でつかまえて育ててます。ほら！
+  translation: >-
+    狃拉和玛狃拉都好可爱！狃拉长得像我家的猫 Luna，所以我给它取名“Luna”。波加曼则叫“Mamitas”。别人交换给我的宝可梦，我总觉得没那么亲；所以我都自己抓、自己养。看！
+- speaker: 旁白
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-stage-note
+  order: 4
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '保留原页中的现场说明，不并入任何一方的发言。'
+  original: >-
+    （突然の沈黙。ニンテンドーDSを広げた、しょこたんと一同、『ポケモン』の交換を始める）
+  translation: >-
+    （现场突然安静下来。翔子和大家纷纷打开 Nintendo DS，开始交换宝可梦。）
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-q02
+  order: 5
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，按实际问答顺序录入。'
+  original: >-
+    ……というわけで、『ポケモン☆サンデー』の収録はどうですか？
+  translation: >-
+    那么，录制《宝可梦☆星期天》有什么趣事吗？
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-a02
+  order: 6
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，修正口语翻译。'
+  original: >-
+    番組でゴルゴさんに「しょこたんはヒコザルに似てる」っていわれたんです。だから、ニンテンドーDSのストラップはヒコザル。でもね、収録のたびにゴルゴ松本さんも、レッド吉田さんもポケモンのレベルを上げてくるんです。すごいですよ。みんな普段はゲームをする人じゃないのに。相性も詳しいし。Wi-Fiで対戦するときに「はがね」のポケモンが出てきたら、すぐに「ほのお」のポケモンを出せー！って。子ども相手にかなりオトナげないプレーをしてます。私でも、ギリ勝てるくらい。数年前、見慣れた光景が目の前で！って。
+  translation: >-
+    节目里戈尔戈先生说我像小火猴，所以我的 Nintendo DS 挂绳也挂着小火猴。不过每次录节目，戈尔戈松本先生和 Red 吉田先生都会把自己的宝可梦练得更强，真的很厉害。平时不怎么打游戏的他们，连属性相克都门儿清。Wi-Fi 对战时，只要看到钢属性宝可梦上场，就会立刻喊：“快派火属性的上！”跟小朋友对战也毫不手软，真有点没大人样（笑）。我也只能勉强赢他们。那一幕就像几年前常见的场景又在眼前重演一样！
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-q03
+  order: 7
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，按实际问答顺序录入。'
+  original: >-
+    10年来の夢が叶いましたね！
+  translation: >-
+    十年来的梦想终于实现了呢！
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-a03
+  order: 8
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，修正口语翻译。'
+  original: >-
+    以前は子供の「ポケモン」だったと思うんです。だけど、今回は大人も巻き込んでます。
+  translation: >-
+    以前《宝可梦》主要还是孩子们的游戏；这次连大人也一起加入进来了。
+- speaker: "──"
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-q04
+  order: 9
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，按实际问答顺序录入。'
+  original: >-
+    最後に、10年『ポケモン』を続けてきた中川さんから、『ポケモン』を遊ぶときの心がまえを――。
+  translation: >-
+    最后，请玩了十年《宝可梦》的中川小姐，和大家聊聊玩《宝可梦》时的心得——
+- speaker: 中川翔子
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: shoko-p022-a04
+  order: 10
+  scan_page: 15
+  writing_direction: vertical
+  review_status: ready
+  comment: '对照校正后的 P.022 原页校对，修正口语翻译。'
+  original: >-
+    「交換しよう、対戦しよう」と恥ずかしがらずに言おう！10年前はひとりで『ポケモン』をやっていて、すごく寂しかったんです。だけど、今回は交換できて、すごく楽しい。私も10年前のトラウマが、いま、克服できました！
+  translation: >-
+    别害羞，大方地说“来交换吧、来对战吧”！十年前我一个人玩《宝可梦》，特别孤单；这次终于能和大家交换，真的很开心。我也终于克服了十年前留下的心理阴影！
 ---

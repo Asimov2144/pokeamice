@@ -1,0 +1,20 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1107,16,1552,46], [163,112,428,167], [862,140,1445,171], [160,166,452,198], [862,168,1452,205], [864,204,1448,237], [75,236,451,274], [1088,233,1448,270], [78,275,447,305], [1122,266,1449,299], [79,306,447,337], [1148,301,1449,332], [79,339,450,369], [1181,334,1449,362], [80,373,446,400], [1187,366,1450,396], [78,402,447,436], [1187,401,1450,428], [1186,434,1450,461], [1209,425,1250,442], [77,433,450,467], [76,462,452,502], [1187,466,1450,493], [77,493,452,534], [1189,499,1372,526], [80,533,449,563], [81,565,448,596], [1203,585,1419,641], [82,602,449,626], [82,630,324,660], [1123,642,1419,670], [83,686,351,738], [82,743,369,770], [807,776,1471,820], [815,816,1474,849], [813,850,1473,881], [811,877,1477,917], [813,917,1473,947], [813,948,1473,979], [813,978,1472,1014], [812,1012,1465,1046], [81,1059,245,1115], [858,1067,1126,1121], [80,1115,370,1144], [813,1122,1128,1152], [323,1238,543,1293], [855,1238,1450,1267], [858,1268,1446,1301], [322,1293,593,1326], [858,1300,1450,1334], [858,1334,1448,1365], [857,1367,1448,1398], [857,1400,1446,1430], [857,1435,1449,1462], [880,1431,898,1444], [1367,1427,1443,1441], [858,1463,1373,1495], [997,1462,1029,1473], [349,1483,618,1544], [879,1497,1446,1528], [349,1543,596,1573], [857,1530,1448,1561], [857,1555,1446,1600], [857,1589,1450,1628], [417,1621,680,1674], [1008,1627,1448,1657], [1006,1659,1448,1691], [415,1675,662,1708], [1006,1689,1449,1724], [1005,1724,1450,1756], [1009,1757,1452,1787], [1007,1790,1448,1820], [384,1802,652,1853], [1007,1822,1448,1853], [382,1857,682,1885], [1007,1859,1290,1885], [1500,1953,1537,1981]],
+ "regions": {
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h124": {"boxes":[[161,111,428,223]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-r126": {"boxes":[[44,242,452,668]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h127": {"boxes":[[83,688,394,799]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-r129": {"boxes":[[863,141,1450,553]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h130": {"boxes":[[1122,578,1419,696]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-r132": {"boxes":[[813,778,1446,1075]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h133": {"boxes":[[83,1075,391,1182],[841,1075,1128,1188],[322,1239,594,1352]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h139": {"boxes":[[350,1485,622,1597],[414,1618,638,1731],[384,1802,685,1915]],"direction":"horizontal"},
+  "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-r145": {"boxes":[[857,1239,1446,1894]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 17.5, "image_tokens": 3138, "completion_tokens": 351, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph.jpg",
+ "page_file": "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph"
+}

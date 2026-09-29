@@ -1,0 +1,32 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1088,15,1535,44], [118,104,190,118], [59,114,101,138], [129,106,682,140], [878,113,1083,166], [60,138,682,171], [61,173,680,203], [876,169,1058,196], [1073,167,1236,195], [59,198,681,239], [62,237,682,268], [61,273,430,300], [60,305,431,334], [60,333,431,366], [61,370,430,397], [60,401,431,430], [60,432,432,464], [62,466,429,495], [60,498,432,528], [63,533,319,560], [62,586,325,643], [1177,584,1444,638], [61,644,422,670], [1111,641,1451,670], [363,756,623,816], [823,770,1120,807], [1146,765,1313,822], [826,809,1122,838], [833,803,907,817], [336,817,624,845], [1148,825,1335,852], [1323,825,1415,850], [828,840,1122,870], [828,872,1120,901], [488,887,746,942], [826,899,1123,938], [458,945,746,972], [828,934,1122,968], [829,972,1123,999], [827,997,1122,1034], [828,1034,1120,1064], [58,1066,306,1096], [244,1061,302,1075], [826,1064,1120,1099], [832,1063,875,1077], [60,1096,307,1129], [831,1101,1122,1129], [64,1132,391,1160], [827,1128,1125,1164], [62,1162,403,1194], [828,1162,1122,1196], [63,1194,419,1226], [830,1201,1121,1228], [59,1225,423,1261], [830,1227,1124,1261], [60,1261,430,1291], [830,1264,1072,1292], [64,1298,429,1322], [61,1325,432,1357], [892,1318,1112,1373], [61,1353,433,1390], [890,1376,1074,1402], [1071,1382,1088,1393], [1087,1376,1159,1401], [63,1387,433,1423], [63,1428,313,1452], [80,1454,432,1486], [503,1449,767,1500], [63,1488,430,1518], [482,1506,769,1532], [59,1513,435,1556], [59,1551,222,1586], [61,1587,218,1617], [64,1614,134,1628], [68,1618,219,1649], [64,1650,223,1681], [54,1671,227,1719], [181,1680,216,1691], [59,1714,223,1749], [63,1753,218,1778], [61,1783,220,1811], [62,1816,220,1844], [802,1821,1073,1873], [61,1848,178,1876], [797,1876,1067,1904], [1478,1949,1516,1979]],
+ "regions": {
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r158": {"boxes":[[44,109,733,559]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h159": {"boxes":[[875,113,1085,168]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r160": {"boxes":[[874,176,1208,199]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h161": {"boxes":[[63,588,324,641]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r162": {"boxes":[[61,645,439,668]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h163": {"boxes":[[1183,588,1446,639]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r164": {"boxes":[[1113,645,1429,668]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h165": {"boxes":[[367,760,622,813]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r166": {"boxes":[[341,817,622,842]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h167": {"boxes":[[489,887,746,938]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r168": {"boxes":[[456,944,746,967]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r169": {"boxes":[[59,1067,406,1870]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h170": {"boxes":[[505,1450,763,1501]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r171": {"boxes":[[480,1507,763,1530]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h172": {"boxes":[[1152,760,1310,813]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r173": {"boxes":[[1150,825,1416,848]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r174": {"boxes":[[827,774,1127,1296]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h175": {"boxes":[[892,1317,1108,1370]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r176": {"boxes":[[892,1376,1158,1399]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-h177": {"boxes":[[799,1817,1108,1870]],"direction":"horizontal"},
+  "p025_making_pokemon_garbodor_sawsbuck_beartic-r178": {"boxes":[[797,1876,1064,1898]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 17.9, "image_tokens": 3138, "completion_tokens": 639, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p025_making_pokemon_garbodor_sawsbuck_beartic.jpg",
+ "page_file": "p025_making_pokemon_garbodor_sawsbuck_beartic"
+}

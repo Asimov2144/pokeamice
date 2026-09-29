@@ -1,0 +1,12 @@
+{
+ "width": 1388,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[440,344,936,391], [425,403,965,518], [434,740,908,790]],
+ "regions": {
+  "p137_p135_ch6_interview_part1-h4": {"boxes":[[428,735,947,791]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 15.7, "image_tokens": 2754, "completion_tokens": 35, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p137_p135_ch6_interview_part1.jpg",
+ "page_file": "p137_p135_ch6_interview_part1"
+}

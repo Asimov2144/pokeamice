@@ -1,0 +1,20 @@
+{
+ "width": 1424,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[125,103,1099,226], [1158,454,1272,615], [614,509,1053,546], [372,1007,516,1043], [924,1052,1219,1089], [550,1448,801,1488], [1167,1869,1284,1907], [377,1946,524,1977]],
+ "regions": {
+  "p004_p002_olympic_track-supplement": null,
+  "p004_p002_olympic_track-h74": {"boxes":[[122,106,1101,219]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r75": {"boxes":[[615,512,1052,543]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r76": {"boxes":[[1171,467,1259,604]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r77": {"boxes":[[377,1012,515,1040]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r78": {"boxes":[[924,1055,1213,1085]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r79": {"boxes":[[551,1452,799,1483]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r80": {"boxes":[[380,1948,525,1974]],"direction":"horizontal"},
+  "p004_p002_olympic_track-r81": {"boxes":[[1171,1872,1282,1901]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 16.5, "image_tokens": 2818, "completion_tokens": 479, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p004_p002_olympic_track.jpg",
+ "page_file": "p004_p002_olympic_track"
+}

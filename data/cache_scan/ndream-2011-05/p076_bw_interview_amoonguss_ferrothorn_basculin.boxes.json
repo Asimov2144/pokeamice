@@ -1,0 +1,25 @@
+{
+ "width": 1592,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[645,87,1074,129], [1107,84,1530,124], [653,129,1071,158], [1106,121,1529,155], [1104,151,1527,192], [652,162,1069,192], [652,196,1069,224], [1107,192,1335,222], [649,226,967,259], [1124,216,1528,258], [648,256,1069,293], [1011,256,1043,267], [1107,253,1528,290], [651,293,1070,324], [1107,289,1526,322], [649,322,1071,360], [1106,323,1524,355], [1290,322,1327,333], [652,361,1070,391], [1107,358,1371,388], [1186,356,1211,366], [649,394,1070,424], [908,457,1215,524], [905,525,1255,555], [61,584,382,646], [59,651,357,679], [249,737,575,797], [245,801,548,834], [68,904,322,964], [62,969,337,999], [1209,983,1517,1044], [102,1027,313,1054], [1167,1047,1519,1079], [794,1102,1518,1144], [917,1105,991,1118], [797,1133,1522,1184], [1081,1138,1149,1152], [1153,1138,1201,1152], [796,1168,1521,1210], [800,1206,1519,1240], [798,1240,1520,1274], [452,1280,664,1307], [798,1276,1314,1306], [538,1369,1517,1419], [532,1443,1201,1480], [61,1475,123,1496], [536,1480,1197,1511], [60,1499,434,1534], [536,1513,1196,1544], [59,1536,436,1564], [538,1542,575,1556], [549,1547,1000,1577], [62,1570,438,1596], [61,1597,433,1633], [533,1602,826,1639], [59,1632,432,1667], [535,1638,826,1672], [62,1669,435,1696], [402,1661,432,1677], [535,1676,826,1703], [60,1703,427,1730], [535,1707,764,1737], [61,1731,435,1761], [59,1764,434,1795], [534,1770,823,1797], [60,1800,436,1827], [157,1794,194,1808], [536,1800,824,1829], [60,1832,436,1860], [536,1835,825,1862], [61,1864,434,1893], [533,1867,823,1895], [61,1893,433,1927], [538,1902,823,1926], [60,1928,401,1958], [68,2005,107,2029]],
+ "regions": {
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r101": {"boxes":[[650,86,1081,252]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r102": {"boxes":[[650,262,1081,420],[1106,86,1532,217]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r103": {"boxes":[[1106,227,1532,385]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-h104": {"boxes":[[60,584,387,676],[60,649,358,676],[245,735,570,801],[245,803,543,829],[906,457,1231,524],[906,526,1258,553]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-h110": {"boxes":[[1210,989,1532,1055],[1167,1057,1520,1083]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r112": {"boxes":[[799,1104,1520,1307]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-h113": {"boxes":[[60,901,334,967],[60,971,350,995]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r115": {"boxes":[[100,1026,318,1055]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r116": {"boxes":[[452,1278,669,1307]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r117": {"boxes":[[60,1468,435,1956]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-h118": {"boxes":[[537,1366,1516,1417]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r119": {"boxes":[[537,1450,1197,1573]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r120": {"boxes":[[537,1608,826,1731]],"direction":"horizontal"},
+  "p076_bw_interview_amoonguss_ferrothorn_basculin-r121": {"boxes":[[537,1765,826,1925]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 22.2, "image_tokens": 3202, "completion_tokens": 816, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p076_bw_interview_amoonguss_ferrothorn_basculin.jpg",
+ "page_file": "p076_bw_interview_amoonguss_ferrothorn_basculin"
+}

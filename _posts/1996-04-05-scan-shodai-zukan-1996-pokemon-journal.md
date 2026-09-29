@@ -75,6 +75,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p132_p130_ch5_journal_part2.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.130
     review_status: ready
+    width: 1433
+    height: 2048
   - speaker: body
     type: paragraph
     kind: text
@@ -85,6 +87,12 @@ translation_segments:
     review_status: review
     original: 本稿は某月某日、タマムシ大学携帯獣研究グループの主催による講演会場において、オーキド博士らが「ポケットモンスターとヒトの共存」というテーマで語ったテープを改題し、いくつかの最新情報を追加して再録したものである。
     translation: 本稿是将某月某日于玉虹大学携兽研究小组主办的演讲会场中，大木博士等人以“宝可梦与人类的共存”为题所讲述的录音加以改题，并追加若干最新信息后重新收录而成。
+    scan_box:
+      - 123
+      - 352
+      - 1046
+      - 618
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -95,6 +103,12 @@ translation_segments:
     review_status: review
     original: 春の号
     translation: 春季号
+    scan_box:
+      - 1168
+      - 373
+      - 1301
+      - 426
+    writing_direction: horizontal
   - speaker: 携兽概论／大木博士
     type: heading
     kind: text
@@ -105,7 +119,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 携帯獣概論／Dr.オーキド
-    translation: "携兽概论／大木博士"
+    translation: 携兽概论／大木博士
+    scan_box:
+      - 261
+      - 692
+      - 1307
+      - 788
+    writing_direction: horizontal
   - speaker: “宝可梦学”的开端与我与他们相遇的经过
     type: heading
     kind: text
@@ -116,7 +136,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: “ポケモン学”の始まりと私が彼らと出会った経緯
-    translation: "“宝可梦学”的开端与我遇见它们的经过"
+    translation: “宝可梦学”的开端与我遇见它们的经过
+    scan_box:
+      - 132
+      - 821
+      - 662
+      - 928
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -127,6 +153,12 @@ translation_segments:
     review_status: review
     original: 今日、ここにお集まりいただいている皆さんは、ポケモンという生物に対して大変強い興味を持たれているか、あるいはすでにいくつか所有しておられることと思います。かく言う私も、研究室では多数のサンプルを飼育、研究しておりますし、実は自宅にもピカチュウを一匹飼っていて、暮らしに役立てております。研究が忙しくてうっかり電気料金を払い忘れて電力供給を止められたときなんぞ、ヤツの放電能力は誠に頼もしいものがあります。
     translation: 今天聚集在此的各位，想必对宝可梦这种生物抱有极为强烈的兴趣，或者已经拥有若干只了。说起来我自己也在研究室里饲养、研究着众多样本，实际上家里也养着一只皮卡丘，在日常生活中派上了用场。研究太忙，一不小心忘了缴电费而被停电的时候，那家伙的放电能力实在是非常可靠。
+    scan_box:
+      - 118
+      - 952
+      - 685
+      - 1395
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -137,6 +169,12 @@ translation_segments:
     review_status: review
     original: ……ゴホン。ま、それはさておき、まずは私とポケモンとが関わるようになったいきさつからお話し致しましょう。
     translation: ……咳哼。总之，先不谈这个，首先就从我与宝可梦产生关联的经过说起吧。
+    scan_box:
+      - 146
+      - 1409
+      - 678
+      - 1532
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -147,6 +185,12 @@ translation_segments:
     review_status: review
     original: 私はこの学問へ入る以前は、純粋な生物学の道を進んでおりました。「生物はどのように進化したのか？ 人間はどこから来たのか？」。こうした疑問を解き明かすのが、生物学であり、進化論と呼ばれるものです。そこのあなた、何ですか？ ほう、「進化論ならダーウィンの自然淘汰説によって解決されているではないか」と。そう、お若いのに良くご存じですね。かつての私も同じ考えを持っておりました。
     translation: 我在进入这门学问之前，走的是纯粹的生物学道路。“生物是如何进化的？人类从何而来？”解开这些疑问的，就是生物学，也就是被称为进化论的东西。那边那位，怎么了？哦，“进化论不是已经由达尔文的自然选择学说解决了吗”。是的，您年纪轻轻却懂得不少。过去的我也持同样的想法。
+    scan_box:
+      - 115
+      - 1546
+      - 676
+      - 1948
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -157,6 +201,12 @@ translation_segments:
     review_status: review
     original: しかし、生命の進化の過程というのは検証していけばいくほど、その進化の樹からはずれた生物の存在が明らかになり、新たな生命への謎が深まっていくものです。私にとっては、その対象こそがまさにポケモンたちだったのです。ポケモンの謎を解くことが生命の進化の謎を解くことになり、ひいてはそれが「人間の根源を突き止める結果にもなり得るのではないか」。これが、私がポケモン学に身を投じることになった最大の理由であります。
     translation: 然而，生命进化的过程越是加以验证，就越会显明存在偏离那棵进化之树的生物，通往新生命的谜团也随之加深。对我来说，那个对象正是宝可梦。解开宝可梦之谜，就等于解开生命进化之谜，进而或许还能成为“查明人类根源的结果”。这就是我投身宝可梦学的最大理由。
+    scan_box:
+      - 758
+      - 958
+      - 1315
+      - 1397
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -167,6 +217,12 @@ translation_segments:
     review_status: review
     original: ポケモン学の歴史は意外に古く、過去何人もの研究者たちが調査を続け（本書8ページ参照）、現在のように立派な学術対象として成立するに至ります。とは言え、現時点で私どもの研究所が存在を確認している150種類という種属の数は、その数量のみならず生態、嗜好、進化といったものを系統的に分類しているという点で、間違いなく世界一であると言えましょう。……ウオッホン。
     translation: 宝可梦学的历史意外地古老，过去曾有众多研究者持续调查（参见本书第8页），才得以作为如今这样出色的学术对象而成立。话虽如此，我们研究所目前确认存在的150个种类这一数量，不仅在数目上，而且在将生态、嗜好、进化等加以系统性分类这一点上，都无疑堪称世界第一。……咳哼。
+    scan_box:
+      - 757
+      - 1413
+      - 1313
+      - 1812
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -177,6 +233,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p133_p131_ch5_journal_part3.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.131
     review_status: ready
+    width: 1414
+    height: 2048
   - speaker: body
     type: paragraph
     kind: text
@@ -187,6 +245,12 @@ translation_segments:
     review_status: review
     original: あれは確か1925年でしたか、我が国におけるポケモン学の祖ニシノモリ教授は、オコリザルの怒りエネルギーを抽出する実験を行なっておりました。しかし、そのときすでに現役引退の歳を迎えつつあった教授は投薬量を間違え、貴重なオコリザルを衰弱させてしまいました。ところが、そのオコリザルは生存本能がそうさせたのでしょうか、そばにあった教授の老眼鏡ケースの中に自らスッポリと身を入れ、胎児のように丸まってしまったのです。この事件をきっかけとしてポケモンの捕獲カプセルの開発が進められ、同時にポケモンを捕獲する方法も確立されたのでした。その後、カプセルは改良を重ね、簡単に高い確率での捕獲が実現できる「モンスターボール」として、現在のように市販される状況となったのです。
     translation: 那大概是1925年的事，我国宝可梦学之祖西之森教授正在进行提取火暴猴愤怒能量的实验。然而，当时已临近退休年龄的教授弄错了用药量，使珍贵的火暴猴衰弱下去。可是，那只火暴猴或许是出于生存本能，自己整个钻进了旁边教授的远视眼镜盒里，像胎儿一样蜷成一团。以此事件为契机，宝可梦捕获胶囊的开发得以推进，同时也确立了捕获宝可梦的方法。此后，胶囊经过反复改良，作为能够简单且高概率捕获的“精灵球”，形成了如今在市面销售的局面。
+    scan_box:
+      - 764
+      - 141
+      - 1332
+      - 897
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -198,6 +262,12 @@ translation_segments:
     original: ●オーキドユキナリ T大学理学部卒業後、生物学教室研究員を経て、現在はタマシシ大学携帯獣学部教授。現代ポケモン研究の世界における第一人者である。
     translation: ●大木雪成 毕业于T大学理学部，曾任生物学教室研究员，现任玉虹大学携兽学部教授。是现代宝可梦研究领域的世界第一人。
     comment: 原文作「タマシシ大学」，据术语表及上下文应为「タマムシ大学」（玉虹大学）。
+    scan_box:
+      - 123
+      - 596
+      - 689
+      - 774
+    writing_direction: horizontal
   - speaker: 急速促成与宝可梦共存的“精灵球”
     type: heading
     kind: text
@@ -208,7 +278,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンとの共存を急速に促した〝モンスターボール〟
-    translation: "迅速促进与宝可梦共存的“精灵球”"
+    translation: 迅速促进与宝可梦共存的“精灵球”
+    scan_box:
+      - 127
+      - 831
+      - 687
+      - 938
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -219,6 +295,12 @@ translation_segments:
     review_status: review
     original: 世の中には、ポケモンを単なるペット、あるいはおそろしい怪獣の類と考えている方も多いようですが、そこには大きな誤解があります。まず「ポケモンはポケモンという種族ではない」ということ。これを皆さんには覚えておいていただきたい。では、何なのか？ ポケモンです。あ、そこのお嬢さん、今笑いましたね。説明しましょう。ポケモンはポケモンであってポケモンでない。つまり、ポケモンとは単一で分類される種族ではなく、進化の樹からはずれた説明不可能な生物たちを総称して「ポケモン」と呼ぶ、こういうことですな。
     translation: 世上似乎有许多人把宝可梦当作单纯的宠物，或者可怕的怪兽之类，这其中存在很大的误解。首先，“宝可梦并不是一个叫作宝可梦的种族”。这一点希望大家记住。那么，它到底是什么？是宝可梦。啊，那边那位小姐，你刚才笑了吧。我来解释一下。宝可梦是宝可梦，又不是宝可梦。也就是说，宝可梦并不是被归为单一分类的种族，而是把从进化之树上偏离出去的、无法说明的生物们统称为“宝可梦”，就是这个意思。
+    scan_box:
+      - 126
+      - 967
+      - 689
+      - 1491
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -229,6 +311,12 @@ translation_segments:
     review_status: review
     original: しかしながら、複数の種族によって構成されているポケモンたちではありますが、共通する点も大いにあります。その代表的な能力が「カプセルへの収納」でしょう。彼らの中には、活動時に非常な狂暴性を見せるものもおりますが、極端に体力が低下しているときや睡眠時などにはその凶暴さも影をひそめ、モンスターボール――私もここに持ってまいりましたが――この小さなカプセルの中に入れてしまうことができるのです。
     translation: 然而，虽说宝可梦是由多个种族构成的，它们之间也有许多共通之处。其代表性的能力大概就是“收纳进胶囊”吧。它们之中，有的在活动时会表现出极其凶暴的一面，但在体力极度下降时或睡眠时等，那份凶暴也会隐去，可以将其装进精灵球——我也带了一个到这里——这个小小的胶囊之中。
+    scan_box:
+      - 127
+      - 1518
+      - 689
+      - 1964
+    writing_direction: horizontal
   - speaker: 宝可梦是什么？延续200万年的生命之谜
     type: heading
     kind: text
@@ -239,7 +327,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンとは何なのか？200万年も続く生命の神秘
-    translation: "宝可梦是什么？延续200万年的生命之谜"
+    translation: 宝可梦是什么？延续200万年的生命之谜
+    scan_box:
+      - 776
+      - 922
+      - 1315
+      - 1026
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -250,6 +344,12 @@ translation_segments:
     review_status: review
     original: 現在、ポケモンは我々人間たちとともに暮らしております。犬や猫に代わるペットとしてかわいがるのもいいでしょう。私のようにピカチュウを自家発電に利用するのもいいでしょう。フシギソウの「いあいぎり」能力が森林開発に役立ったという報告例もあります。
     translation: 现在，宝可梦与我们人类一同生活。把它们当作取代猫狗的宠物来疼爱也好。像我这样把皮卡丘用于自家发电也好。也有报告称，妙蛙草的“居合劈”能力对森林开发起了作用。
+    scan_box:
+      - 766
+      - 1069
+      - 1329
+      - 1329
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -260,6 +360,12 @@ translation_segments:
     review_status: review
     original: 彼らが通常の動物、あるいは猛獣と決定的に異なるのは、そうした特殊能力を持っているというところにあります。それらの能力は、彼らがそれぞれ固有に持っているものもあれば、研究者たちによって開発された技マシンであとから覚えさせるものもあります。
     translation: 它们与普通动物、或者说猛兽的决定性不同，就在于拥有这样的特殊能力。这些能力中，有的是它们各自固有的，也有的是通过研究者开发的招式学习器后来学会的。
+    scan_box:
+      - 768
+      - 1356
+      - 1326
+      - 1593
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -270,6 +376,12 @@ translation_segments:
     review_status: review
     original: しかし、なぜポケモンたちにこれらの特別な能力があるのかは、残念ながら私の研究をもってしても、いまだ解明されてはおりません。おそらくポケモンという生物が200万年のときの流れの中で、いつの日か我々人類と共存するときのために、細胞の奥深く、DNAレベルでの記憶として蓄積されてきたものなのではないでしょうか――。
     translation: 但是，为什么宝可梦们拥有这些特别的能力，遗憾的是，即便以我的研究也尚未解明。恐怕宝可梦这种生物是在200万年的时光流转之中，为了有朝一日与人类共存之时，作为细胞深处DNA层面的记忆而积累下来的吧——。
+    scan_box:
+      - 768
+      - 1610
+      - 1326
+      - 1964
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -280,6 +392,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p134_p132_ch5_journal_part4.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.132
     review_status: ready
+    width: 1429
+    height: 2048
   - speaker: 宝可梦最前沿／正辉
     type: heading
     kind: text
@@ -290,7 +404,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン最先端／マサキ
-    translation: "宝可梦最前沿／正辉"
+    translation: 宝可梦最前沿／正辉
+    scan_box:
+      - 197
+      - 180
+      - 1248
+      - 276
+    writing_direction: horizontal
   - speaker: 想集齐所有宝可梦就到街上去！去交换吧！！
     type: heading
     kind: text
@@ -301,7 +421,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンをすべて揃えるなら街に出よう！交換をしよう！！
-    translation: "想集齐所有宝可梦就上街吧！去交换吧！！"
+    translation: 想集齐所有宝可梦就上街吧！去交换吧！！
+    scan_box:
+      - 124
+      - 307
+      - 649
+      - 414
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -312,6 +438,12 @@ translation_segments:
     review_status: review
     original: え、もうしゃべってええの？ あ、マサキといいます。えーと、ポケモンマニアって言われるのはあんまり好きやないんで、ポケモンアナリストとでも呼んでください（笑）。
     translation: 咦，我已经可以说话了吗？啊，我叫正辉。嗯，被人叫作宝可梦狂热我不太喜欢，请叫我宝可梦分析师吧（笑）。
+    scan_box:
+      - 114
+      - 442
+      - 674
+      - 610
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -322,6 +454,12 @@ translation_segments:
     review_status: review
     original: 今、オーキド博士がいろいろ難しいこと言ってたようですけど、あんなのナンセンスですよ。学者の人ってのはすぐに分類したり研究したりするけど、実がないっちゅうか、現場感覚に欠けてますね。
     translation: 刚才大木博士好像说了各种难懂的话，那种东西毫无意义啦。学者这种人动不动就分类啊研究啊，但没什么实际用处，或者说缺乏现场感觉呢。
+    scan_box:
+      - 113
+      - 627
+      - 674
+      - 836
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -332,6 +470,12 @@ translation_segments:
     review_status: review
     original: 僕らみたいにいつもポケモンを持ち歩いて、街でトレーナーを見かけたら即対戦！ってのを経験していないと、ポケモンの素顔というか、ポケモンたちと本当のつきあいはできないと思いますね。
     translation: 像我们这样总是随身带着宝可梦，在街上看到训练家就立刻对战——如果没有这样的经历，我觉得就谈不上了解宝可梦的真实面貌，或者说，无法与宝可梦真正地交往。
+    scan_box:
+      - 113
+      - 852
+      - 673
+      - 1071
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -342,6 +486,23 @@ translation_segments:
     review_status: review
     original: ポケモンの楽しみ方は、大きく分けて2つあると思います。ひとつは、コレクションすること。ポケモンは現在のところ150体見つかっていますけど、やっぱり一流のポケモントレーナーを目指すのなら全種類は揃えたいですね。でも、自分ひとりだけで全種類を揃えようなんて思ったら、大変でしょう？ そうですねぇ、ひとりで冒険して集められる限界は130体がエエとこやないでしょうか。
     translation: 宝可梦的乐趣，我想大致可以分为两种。一种是收集。宝可梦目前已经发现了150种，不过既然要以一流宝可梦训练家为目标，那还是想集齐全部种类吧。但是，如果只靠自己一个人就想集齐全部种类，那会很辛苦吧？嗯，一个人冒险能收集到的极限，大概也就130种左右吧。
+    scan_box:
+      - 114
+      - 1090
+      - 674
+      - 1253
+    scan_boxes:
+      - 
+        - 114
+        - 1090
+        - 674
+        - 1253
+      - 
+        - 753
+        - 305
+        - 1310
+        - 522
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -352,6 +513,12 @@ translation_segments:
     review_status: review
     original: そこで重要になってくるのが「誰かと交換する」という方法です。オーキド博士なんかは友達もおらんでしょうけど、本気でポケモンを集めようと思うなら、最低でもポケモン友達を3人は見つけてください。そういう意味でも、研究室に閉じこもってないで街に出るというのが大事なわけです。
     translation: 于是重要的就是「和某人交换」这个方法。大木博士那样的人大概没有朋友吧，但如果你真心想收集宝可梦，至少请找到3个宝可梦朋友。从这个意义上说，不要闷在研究室里，走到街上去是很重要的。
+    scan_box:
+      - 753
+      - 539
+      - 1320
+      - 836
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -362,6 +529,12 @@ translation_segments:
     review_status: review
     original: 見つけたポケモンのデータは図鑑に登録されます。これは、手に入れていなくても戦闘で出会ってさえいれば、その姿と名前だけは記入されます。けど、それでは本当に集めたとは言えません。データだけやなしにポケモンそのものを持っていれば、図鑑のリストで名前のところにカプセルのマークがつきます。これをすべてつける。つまりポケモンの実体を全部図鑑に記録するということですね。
     translation: 发现的宝可梦数据会登记到图鉴里。这是说，即使没有到手，只要在战斗中遇到过，它的样子和名字就会被记下来。但是，这样还不能说是真正收集到了。不只是数据，如果拥有宝可梦本身，图鉴列表里名字的地方就会加上胶囊标记。要把这些标记全部加上。也就是说，把宝可梦的实体全部记录到图鉴里。
+    scan_box:
+      - 752
+      - 854
+      - 1310
+      - 1219
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -372,6 +545,12 @@ translation_segments:
     review_status: review
     original: 特に最初に登場するフシギソウ、ゼニガメ、ヒトカゲなんかはどれかひとつしか選べなくて、自分が選んだもの以外は交換でしか手に入りません。また、レッドバージョンとグリーンバージョンでは、登場するポケモンがちょっと違うので、そのためにも「交換」が欠かせないわけです。
     translation: 尤其是最初登场的妙蛙草、杰尼龟、小火龙，只能从中选一个，自己没选的那些只能通过交换获得。另外，红版和绿版中登场的宝可梦稍有不同，因此「交换」也是必不可少的。
+    scan_box:
+      - 752
+      - 1235
+      - 1326
+      - 1530
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -382,6 +561,12 @@ translation_segments:
     review_status: review
     original: あっと、それから伝説の鳥ポケモン！ こいつらはかなり捕まえにくいのですが、捕獲率100％のマスターボールなら確実に捕まえられます。だけど、あれはひとつしか手に入らない。だから僕なんかは仲間と、自分が伝説ポケモンのうちどれを捕まえるのか分担を決めておいて、あとの交換で手に入れたりしましたね。
     translation: "啊，还有传说的鸟宝可梦！这些家伙相当难抓，不过用捕获率100%的大师球就能确实抓到。但是，那个只能得到一个。所以我就会和同伴事先决定好各自负责抓哪只传说宝可梦，之后再通过交换得到。"
+    scan_box:
+      - 752
+      - 1546
+      - 1313
+      - 1847
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -392,6 +577,12 @@ translation_segments:
     review_status: review
     original: ▲強そうな姿にビビってはいけない。愛らしい笑顔にだまされてもいけない。トレーナーたちはいつでもキミに勝負を挑んでくる！
     translation: ▲不要被看似强大的样子吓到。也不要被可爱的笑容骗到。训练家们随时都会向你发起挑战！
+    scan_box:
+      - 113
+      - 1806
+      - 674
+      - 1898
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -402,6 +593,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p135_p133_ch5_journal_part5.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.133
     review_status: ready
+    width: 1430
+    height: 2048
   - speaker: 想让宝可梦变强就用药物吧！也来交换吧！！
     type: heading
     kind: text
@@ -412,7 +605,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンを強く育てたいなら薬を使おう！交換もしよう！！
-    translation: "想培养强大的宝可梦就用药物吧！也去交换吧！！"
+    translation: 想培养强大的宝可梦就用药物吧！也去交换吧！！
+    scan_box:
+      - 119
+      - 111
+      - 681
+      - 229
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -423,6 +622,12 @@ translation_segments:
     review_status: review
     original: もうひとつの楽しみ方は、こりゃ何といっても対戦です。むしろ、対戦をしなかったら「ポケモンを使いこなしている」とは言えないくらいですかね。では、トレーナーたちとの対戦で勝つための秘訣とは何か？ これをお話ししましょう。
     translation: 另一种乐趣，那当然就是对战了。甚至可以说，如果不进行对战，就称不上「会用宝可梦」。那么，在与训练家的对战中获胜的秘诀是什么？我来说说这个。
+    scan_box:
+      - 122
+      - 256
+      - 695
+      - 475
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -433,6 +638,12 @@ translation_segments:
     review_status: review
     original: ポケモンに慣れてない人は、とにかくひたすら攻撃を仕掛けようとする傾向があるようです。確かに相手が弱いうちはそれでもそこそこ勝てるでしょうけど、僕らのような上級者になると、いきなりの攻撃というのはあまり使いません。戦闘に入って最初のターンは、たとえばポッポなんかが得意とする「すなかけ」で強い敵の命中率を下げてみたり、カモネギなら「つるぎのまい」で攻撃力を上げておいて、それから「そらをとぶ」で一撃必殺をキメてみたりするわけです。
     translation: 不习惯宝可梦的人，似乎总有一种只管不断发动攻击的倾向。确实，在对手还弱的时候，这样也能赢个差不多，但像我们这样的高手，不会一上来就攻击。进入战斗后的第一个回合，比如用波波擅长的「泼沙」降低强敌的命中率，或者用大葱鸭的「剑舞」提高攻击力，然后再用「飞翔」打出致命一击。
+    scan_box:
+      - 122
+      - 485
+      - 695
+      - 897
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -443,6 +654,12 @@ translation_segments:
     review_status: review
     original: 戦うときには、相手となるポケモンの属性を考慮することも忘れたらいけません。だって「火」の属性を持った相手に「ひのこ」をかけるなんてのは無意味ですからね。
     translation: 战斗时也不能忘记考虑对手宝可梦的属性。因为对拥有「火」属性的对手使用「火花」是毫无意义的。
+    scan_box:
+      - 122
+      - 915
+      - 695
+      - 1112
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -453,6 +670,12 @@ translation_segments:
     review_status: review
     original: そうそう、属性といえば「ふぶき」の技は相手を凍らせてくれるので便利ですが、そのあとでうっかり「ひのこ」をかけたらダメですよ。氷が溶けてしまいますから。こういう情報ってのは現場で戦っていないと気がつかないものですね。研究所ではわかりません。何しろオーキド博士なんか、キュウコンが覚える火の属性の技に「だいもんじやき」なんて名前をつけてしまうんですから。あれは、京都に住んでる僕のポケモン友達に言わせると、正式には「だいもんじ」って呼ばれてるようです。だから僕が勝手に名前を変えました(笑)。あるいは「おくりび」なんて言ってみるのも通っぽくてエエかもね。
     translation: 对了对了，说到属性，「暴风雪」这个招式能让对手冰冻，所以很方便，但之后不小心用「火花」可不行。因为冰会融化。这种信息不在实战中战斗是不会注意到的。在研究所里不会明白。毕竟大木博士甚至给九尾学会的火属性招式起了「だいもんじやき」这样的名字。据我住在京都的宝可梦朋友说，正式名称似乎是「だいもんじ」。所以我就擅自把名字改了（笑）。或者试着说成「おくりび」，也许显得很内行，也不错。
+    scan_box:
+      - 122
+      - 1126
+      - 695
+      - 1698
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -463,6 +686,12 @@ translation_segments:
     review_status: review
     original: えーと、何の話でしたっけ？ ああそうか、属性のことですね。とにかく技を使うときには自分と相手のポケモンとの属性を見極めるってことです。
     translation: 嗯，我们刚才说到哪儿了？啊对了，是属性的事。总之，使用招式的时候，要看清自己和对手宝可梦的属性。
+    scan_box:
+      - 122
+      - 1712
+      - 695
+      - 1909
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -473,6 +702,23 @@ translation_segments:
     review_status: review
     original: 基本は「火」と「水」と「草」。この3つの属性がじゃんけんのような関係にあるということを忘れずに。
     translation: 基本是「火」「水」「草」。别忘了这三种属性之间就像猜拳一样的关系。
+    scan_box:
+      - 122
+      - 1923
+      - 695
+      - 1989
+    scan_boxes:
+      - 
+        - 122
+        - 1923
+        - 695
+        - 1989
+      - 
+        - 762
+        - 752
+        - 1320
+        - 831
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -483,6 +729,12 @@ translation_segments:
     review_status: review
     original: さて、今まで話してきたような戦い方が重要なのはもちろんですが、バトルに投入するポケモンそのものが弱かったら勝てやしませんよね。ポケモンは戦いを繰り返すことでどんどん成長していくけど、それにもある程度の限界はあります。人より強いポケモンを作ろうと思ったら、まず有効なのはドーピングさせること。つまりポケモン用の薬品を与えることですね。これらはタマムシシティのデパートで売ってますけど、決して安いものではないので、すべてのモンスターに与えるのは無理でしょう。ドーピングは、素質のあるポケモン1体に絞って集中的に行なうこと。これが最強のポケモンを作るコツです。
     translation: 那么，至今讲到的战斗方式当然很重要，但投入战斗的宝可梦本身如果很弱，是赢不了的。宝可梦通过反复战斗会不断成长，但成长也有一定的极限。想要培养出比别人的更强的宝可梦，首先有效的方法是喂药，也就是给宝可梦用的药品。这些在玉虹市的百货商店有卖，但绝不算便宜，所以不可能给所有宝可梦都用。喂药要锁定一只有素质的宝可梦集中进行。这就是打造最强宝可梦的诀窍。
+    scan_box:
+      - 762
+      - 846
+      - 1330
+      - 1403
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -493,6 +745,12 @@ translation_segments:
     review_status: review
     original: それからもうひとつ。皆さんは、自分が見つけたポケモンを自分のところで育てるよりも、交換で手に入れた他人のポケモンを育てた方がたくさん経験値がもらえるというのは知ってましたか？
     translation: 还有一点。大家知不知道，比起把自己找到的宝可梦留在身边培养，培养通过交换得到的别人的宝可梦能获得更多经验值？
+    scan_box:
+      - 762
+      - 1417
+      - 1330
+      - 1614
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -503,6 +761,12 @@ translation_segments:
     review_status: review
     original: 成長が遅くてイライラするようなヤツは、人と交換してお互いに育て上げ、適当に強くなってからまたもと通り交換するってのが、上級者のよく使う方法です。でも、そういうのは仲のいい相手だけにしてくださいね。僕の知り合いで、大事なポケモンを持ってトンズラされた～なんてヤツがいますから(笑)。
     translation: 对于那些成长太慢让人着急的家伙，和人交换后各自培养，等变得差不多强了再换回来，这是高手常用的方法。不过，这种事请只和关系好的对象做。我认识的人里，就有人重要的宝可梦被带着跑掉了呢（笑）。
+    scan_box:
+      - 762
+      - 1628
+      - 1330
+      - 1933
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -513,6 +777,12 @@ translation_segments:
     review_status: review
     original: ●ソネザキマサキ ハナダの郊外に、ひとりで暮らすポケモンマニア。自称：ポケモンアナリスト。
     translation: ●曾崎正辉 独自住在华蓝市郊外的宝可梦狂热者。自称：宝可梦分析师。
+    scan_box:
+      - 834
+      - 592
+      - 1248
+      - 719
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -523,6 +793,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p136_p134_ch5_journal_part6.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.134
     review_status: ready
+    width: 1430
+    height: 2048
   - speaker: 若已穷极宝可梦之道，就挑战自己独有的组合
     type: heading
     kind: text
@@ -533,7 +805,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン道を極めたならば自分流の組み合わせに挑戦
-    translation: "极尽宝可梦之道后，挑战自己流派的组合"
+    translation: 极尽宝可梦之道后，挑战自己流派的组合
+    scan_box:
+      - 114
+      - 106
+      - 679
+      - 223
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -544,6 +822,12 @@ translation_segments:
     review_status: review
     original: えー、そろそろ時間がなくなってきたようですから、ここで人気のポケモンの話でもしましょうか。会場の皆さんはどんなヤツがお気に入りですか？
     translation: 嗯，时间好像快不够了，那就在这里聊聊受欢迎的宝可梦吧。在座的各位喜欢什么样的家伙？
+    scan_box:
+      - 114
+      - 242
+      - 676
+      - 365
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -554,6 +838,12 @@ translation_segments:
     review_status: review
     original: はい、そこのボク。ふんふん、ピカチュウですか。う〜ん、かわいいですもんねぇ。これは男女問わず一番人気なんですよね。名前や姿がかわいいだけやなしに、秘伝技の「フラッシュ」なんかが洞窟で役立ちますからね。僕も以前はよく連れて歩いていたんですけれど、最近はあまり使わなくなりました。
     translation: 好，那边那位小朋友。嗯嗯，是皮卡丘吗。唔——确实很可爱嘛。这个不分男女都是最受欢迎的。不只是名字和样子可爱，秘传招式「闪光」在洞窟里也很有用。我以前也经常带着它走，不过最近不太用了。
+    scan_box:
+      - 114
+      - 379
+      - 676
+      - 680
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -564,6 +854,12 @@ translation_segments:
     review_status: review
     original: あ、後ろの席で手を挙げててる人、あなたは何が好きですか？ ピクシー？
     translation: 啊，后排举手的那位，你喜欢什么？皮可西？
+    scan_box:
+      - 114
+      - 696
+      - 674
+      - 776
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -574,6 +870,12 @@ translation_segments:
     review_status: review
     original: いいですねぇ。これも人気の高いポケモンですよね。「ふぶき」や「のしかかり」「10まんボルト」「バブルこうせん」というように、覚えられる技の範囲が広いのが理由でしょうかね。
     translation: 不错嘛。这也是很受欢迎的宝可梦。原因大概是它能学会的招式范围很广，比如「暴风雪」「泰山压顶」「十万伏特」「泡沫光线」这些吧。
+    scan_box:
+      - 114
+      - 791
+      - 674
+      - 961
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -584,6 +886,12 @@ translation_segments:
     review_status: review
     original: おっと、今威勢よく立ち上がった人、起立しなくてもけっこうですよ。で、何が好きなんですか？ ほう、スピアーですか。「ダブルニードルやめられへ〜ん」
     translation: 哦，刚才气势十足站起来的那位，不用起立也行。那么，你喜欢什么？哦，是大针蜂吗。「双针停不下来～」
+    scan_box:
+      - 112
+      - 977
+      - 674
+      - 1147
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -594,6 +902,12 @@ translation_segments:
     review_status: review
     original: なかなかマニアックなご意見ですね。へえ、ゲーム会社にお勤めなんですか。
     translation: 真是相当狂热的意见呢。哦，您是在游戏公司工作的吗？
+    scan_box:
+      - 112
+      - 1161
+      - 674
+      - 1241
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -604,6 +918,12 @@ translation_segments:
     review_status: review
     original: えーと、前から3番目の席に座ってる黄色いトレーナーを着た人。そう、メガネをかけたあなた。何か言いたそうですが……。
     translation: 呃，坐在从前面数第三个座位、穿着黄色训练家衣服的那位。对，就是戴眼镜的您。看起来好像有什么话想说……
+    scan_box:
+      - 112
+      - 1257
+      - 676
+      - 1380
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -614,6 +934,23 @@ translation_segments:
     review_status: review
     original: こい？ こっちに来い、ですか？ あ、コイキング（笑）。恥ずかしがらなくていいですよ。確かにコイキングは弱いし、もらえる経験値も少なくて人気がないんですが、実はあれ、進化するとギャラドスになるんですね。しかもレベル25で「りゅうのいかり」を覚えると、ほとんど無敵でしょう。コイキングの魅力に目をつけるとは、あなた、ただ者ではおまへんな（笑）。
     translation: 鲤鱼？您是说让我过来吗？啊，是鲤鱼王（笑）。不用害羞啦。确实鲤鱼王很弱，能获得的经验值也少，不受欢迎，但其实那家伙进化后会变成暴鲤龙。而且在25级学会「龙之怒」之后，几乎就是无敌了吧。能注意到鲤鱼王的魅力，您可不是一般人啊（笑）。
+    scan_box:
+      - 109
+      - 1397
+      - 676
+      - 1464
+    scan_boxes:
+      - 
+        - 109
+        - 1397
+        - 676
+        - 1464
+      - 
+        - 751
+        - 111
+        - 1313
+        - 367
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -624,6 +961,12 @@ translation_segments:
     review_status: review
     original: はい、これくらいにしましょうか。皆さんそれぞれお気に入りがあるようですね。戦闘を重視して、強さだけで選ぶのもエエですけど、顔がかわいいとか、鳴き声がかっこいいなんていう理由でお気に入りを決めるのも楽しいですね。こういう風に自分流のテーマでお気に入りを集めて、自分だけのポケモンチームを組むことができるというのも、この世界ならではの楽しみ方です。
     translation: 好，就聊到这里吧。看来大家各有各的最爱呢。重视战斗、只凭强弱来选也不错，但凭脸可爱、叫声帅气之类的理由来决定最爱也很有趣。像这样按自己的主题收集最爱，组建只属于自己的宝可梦队伍，也是这个世界独有的乐趣。
+    scan_box:
+      - 751
+      - 383
+      - 1318
+      - 729
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -634,6 +977,12 @@ translation_segments:
     review_status: review
     original: ピジョット・ドードリオ・オニドリルなどの「飛行チーム」や、ピッピ・ピカチュウ・プリンなどの「ファンシーチーム」なんてどうですか？ 僕は最近、サンダー・ファイヤー・フリーザー・ミュウツー・ギャラドスの「最強極悪チーム」なんてのを編成したりしています。
     translation: 大比鸟、嘟嘟利、大嘴雀之类的「飞行队」，或者皮皮、皮卡丘、胖丁之类的「梦幻队」怎么样？我最近还编成了闪电鸟、火焰鸟、急冻鸟、超梦、暴鲤龙的「最强极恶队」呢。
+    scan_box:
+      - 751
+      - 745
+      - 1310
+      - 1010
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -644,6 +993,12 @@ translation_segments:
     review_status: review
     original: 長々と話してきましたが、僕からの話はこのへんにしておきましょう。またいつかどこかの街で僕に会ったら、そのときは遠慮なく対戦を持ちかけてくだ……。
     translation: 说了这么久，我这边的话就到此为止吧。以后要是在哪座城市再遇到我，到时候就请不用客气地向我提出对战……
+    scan_box:
+      - 748
+      - 1026
+      - 1310
+      - 1196
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -654,6 +1009,12 @@ translation_segments:
     review_status: review
     original: 〈ピー、ピー、ピー、ピー、ピー〉
     translation: 〈哔、哔、哔、哔、哔〉
+    scan_box:
+      - 751
+      - 1212
+      - 1093
+      - 1241
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -664,6 +1025,12 @@ translation_segments:
     review_status: review
     original: ん？ 携帯電話が鳴ってますよ。違う？ ああ、僕のポケベルか。えーと……。「ポケモンナンバー151 ミツケタ」
     translation: 嗯？您的手机在响哦。不是？啊，是我的传呼机。呃……「宝可梦编号151 找到了」
+    scan_box:
+      - 748
+      - 1257
+      - 1316
+      - 1380
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -674,6 +1041,12 @@ translation_segments:
     review_status: review
     original: な、なんやてぇ！？ こうしちゃおられんわ。それじゃ皆さん、さいならっ！
     translation: 什、什么！？这可不能耽搁了。那么各位，再见啦！
+    scan_box:
+      - 748
+      - 1397
+      - 1307
+      - 1464
+    writing_direction: horizontal
   - speaker: 宝可梦友好连锁店
     type: heading
     kind: text
@@ -684,7 +1057,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン・フレンドリィ・チェーン
-    translation: "宝可梦友好连锁"
+    translation: 宝可梦友好连锁
+    scan_box:
+      - 114
+      - 1495
+      - 656
+      - 1561
+    writing_direction: horizontal
   - speaker: 【一流训练家也赞不绝口！！值得信赖、实绩斐然的商品阵容】
     type: heading
     kind: text
@@ -695,7 +1074,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 【 一流トレーナーも絶賛！！信頼と実績の品揃え 】
-    translation: "【 一流训练家也盛赞！！值得信赖与实绩的商品阵容 】"
+    translation: 【 一流训练家也盛赞！！值得信赖与实绩的商品阵容 】
+    scan_box:
+      - 140
+      - 1577
+      - 463
+      - 1642
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -706,6 +1091,12 @@ translation_segments:
     review_status: review
     original: 「旅先で珍しいポケモンを見つけたけど、モンスターボールがない！」そんなとき、あたりを見渡すあなたの目（ポケクレの看板）。私どもポケクレは、あなたのポケモンライフをフレンドリィに応援します。ただいま全国に9店舗。加盟店または受店長候補生大大募集中！
     translation: 「旅途中发现了稀有的宝可梦，却没有精灵球！」这种时候，环顾四周，映入您眼帘的（就是宝可梦连锁店的招牌）。我们宝可梦连锁店，将以友好的方式支持您的宝可梦生活。目前全国共有9家门店。加盟店或代理店长候补生正在大举招募中！
+    scan_box:
+      - 478
+      - 1577
+      - 601
+      - 1907
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -716,6 +1107,12 @@ translation_segments:
     review_status: review
     original: これがウワサの新製品「ハイパーボール」！
     translation: 这就是传闻中的新产品「高级球」！
+    scan_box:
+      - 335
+      - 1853
+      - 532
+      - 1896
+    writing_direction: horizontal
   - speaker: 培育屋本铺
     type: heading
     kind: text
@@ -726,7 +1123,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 育て屋本舗
-    translation: "培育屋本铺"
+    translation: 培育屋本铺
+    scan_box:
+      - 797
+      - 1511
+      - 1244
+      - 1591
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -737,6 +1140,12 @@ translation_segments:
     review_status: review
     original: たった一週間でこんなに！！
     translation: 仅仅一周就变成这样！！
+    scan_box:
+      - 1021
+      - 1587
+      - 1141
+      - 1802
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -747,6 +1156,12 @@ translation_segments:
     review_status: review
     original: なかなか戦闘に勝てないとお嘆きのそこのあなた、貧弱なポケモンを私に預けてみませんか？ 当社が開発した特殊なトレーニング法が、あなたのポケモンに隠された才能を、みるみる引き出します。ハナダシティより南下、5番道路にて受講者受け付け中！今すぐお電話を。
     translation: 为迟迟赢不了对战而叹息的你，要不要把弱小的宝可梦寄存在我这里？本公司开发的特殊训练法，将迅速引出你的宝可梦隐藏的才能。从华蓝市向南，在5号道路受理学员报名！请立即来电。
+    scan_box:
+      - 756
+      - 1616
+      - 938
+      - 1853
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -757,6 +1172,12 @@ translation_segments:
     review_status: review
     original: にいさん そだてや××23-4108
     translation: 哥哥 培育屋××23-4108
+    scan_box:
+      - 762
+      - 1876
+      - 935
+      - 1919
+    writing_direction: horizontal
   - speaker: 附录：同期攻略与资料页
     type: heading
     kind: text
@@ -767,7 +1188,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: "附录：同期攻略与资料页"
+    translation: 附录：同期攻略与资料页
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -779,6 +1200,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p004_p002_olympic_track.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.2
     review_status: ready
+    width: 1424
+    height: 2048
   - speaker: 宝可梦奥林匹克
     type: heading
     kind: text
@@ -789,7 +1212,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンオリンピック
-    translation: "宝可梦奥林匹克"
+    translation: 宝可梦奥林匹克
+    scan_box:
+      - 122
+      - 106
+      - 1101
+      - 219
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -800,6 +1229,12 @@ translation_segments:
     review_status: review
     original: レーシング・カー 時速320キロ
     translation: 赛车 时速320公里
+    scan_box:
+      - 615
+      - 512
+      - 1052
+      - 543
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -810,6 +1245,12 @@ translation_segments:
     review_status: review
     original: 走る
     translation: 奔跑
+    scan_box:
+      - 1171
+      - 467
+      - 1259
+      - 604
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -820,6 +1261,12 @@ translation_segments:
     review_status: review
     original: ウインディ
     translation: 风速狗
+    scan_box:
+      - 377
+      - 1012
+      - 515
+      - 1040
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -830,6 +1277,12 @@ translation_segments:
     review_status: review
     original: 新幹線 時速240キロ
     translation: 新幹線 新干线 时速240公里
+    scan_box:
+      - 924
+      - 1055
+      - 1213
+      - 1085
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -840,6 +1293,12 @@ translation_segments:
     review_status: review
     original: 客船 時速30キロ
     translation: 客船 客船 时速30公里
+    scan_box:
+      - 551
+      - 1452
+      - 799
+      - 1483
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -850,6 +1309,12 @@ translation_segments:
     review_status: review
     original: コイキング
     translation: 鲤鱼王
+    scan_box:
+      - 380
+      - 1948
+      - 525
+      - 1974
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -860,6 +1325,12 @@ translation_segments:
     review_status: review
     original: ジュゴン
     translation: 白海狮
+    scan_box:
+      - 1171
+      - 1872
+      - 1282
+      - 1901
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -870,6 +1341,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p005_p003_olympic_power.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.3
     review_status: ready
+    width: 1407
+    height: 2048
   - speaker: body
     type: paragraph
     kind: text
@@ -880,6 +1353,12 @@ translation_segments:
     review_status: review
     original: ポケモンたちはどのくらいのスピードで走り、泳ぎ、飛ぶのでしょうか。楽しいマンガでポケモンオリンピックの開催です！
     translation: 宝可梦们以多快的速度奔跑、游泳、飞行呢。用有趣的漫画举办宝可梦奥运会！
+    scan_box:
+      - 117
+      - 106
+      - 1317
+      - 219
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -890,6 +1369,12 @@ translation_segments:
     review_status: review
     original: 原付自転車 時速30キロ
     translation: 轻便摩托车 时速30公里
+    scan_box:
+      - 801
+      - 541
+      - 1128
+      - 571
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -900,6 +1385,12 @@ translation_segments:
     review_status: review
     original: ケンタロス
     translation: 肯泰罗
+    scan_box:
+      - 487
+      - 956
+      - 623
+      - 981
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -910,6 +1401,12 @@ translation_segments:
     review_status: review
     original: モンジャラ
     translation: 蔓藤怪
+    scan_box:
+      - 1134
+      - 1065
+      - 1272
+      - 1090
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -920,6 +1417,12 @@ translation_segments:
     review_status: review
     original: 泳ぐ
     translation: 游泳
+    scan_box:
+      - 170
+      - 1235
+      - 266
+      - 1372
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -930,6 +1433,12 @@ translation_segments:
     review_status: review
     original: 競艇用ボート 時速90キロ
     translation: 赛艇用艇 时速90公里
+    scan_box:
+      - 449
+      - 1376
+      - 806
+      - 1407
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -940,6 +1449,12 @@ translation_segments:
     review_status: review
     original: 原子力潜水艦時速60キロ
     translation: 核潜艇 时速60公里
+    scan_box:
+      - 176
+      - 1692
+      - 350
+      - 1757
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -950,6 +1465,12 @@ translation_segments:
     review_status: review
     original: ゴルダック
     translation: 哥达鸭
+    scan_box:
+      - 895
+      - 1868
+      - 1034
+      - 1892
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -960,6 +1481,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p006_p004_olympic_sea.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.4
     review_status: ready
+    width: 1420
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -970,6 +1493,12 @@ translation_segments:
     review_status: review
     original: 飛ぶ
     translation: 飞行
+    scan_box:
+      - 1125
+      - 385
+      - 1221
+      - 514
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -980,6 +1509,12 @@ translation_segments:
     review_status: review
     original: カイリュー
     translation: 快龙
+    scan_box:
+      - 366
+      - 684
+      - 508
+      - 711
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -990,6 +1525,12 @@ translation_segments:
     review_status: review
     original: ジェット戦闘機 時速約２５００キロ
     translation: 喷气式战斗机 时速约2500公里
+    scan_box:
+      - 567
+      - 1020
+      - 1048
+      - 1051
+    writing_direction: horizontal
   - speaker: 大宝可梦与小宝可梦
     type: heading
     kind: text
@@ -1000,7 +1541,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 大きいポケモン小さいポケモン
-    translation: "大宝可梦小宝可梦"
+    translation: 大宝可梦小宝可梦
+    scan_box:
+      - 190
+      - 1196
+      - 501
+      - 1300
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1011,6 +1558,43 @@ translation_segments:
     review_status: review
     original: "ディグダ\n20cm\nキャタピー\n30cm\nイーブイ\n30cm\nギャラドス\n6m50cm\nハクリュー\n4m\nイワーク\n8m80cm\n子ども\n1m50cm\nガルーラ\n2m20cm\nNBAの\n選手\n2m25cm"
     translation: "地鼠\n20cm\n绿毛虫\n30cm\n伊布\n30cm\n暴鲤龙\n6m50cm\n哈克龙\n4m\n大岩蛇\n8m80cm\n儿童\n1m50cm\n袋兽\n2m20cm\nNBA的\n球员\n2m25cm"
+    scan_box:
+      - 183
+      - 1501
+      - 297
+      - 1554
+    scan_boxes:
+      - 
+        - 183
+        - 1501
+        - 297
+        - 1554
+      - 
+        - 361
+        - 1499
+        - 498
+        - 1552
+      - 
+        - 561
+        - 1497
+        - 667
+        - 1550
+      - 
+        - 740
+        - 1286
+        - 882
+        - 1346
+      - 
+        - 923
+        - 1466
+        - 1062
+        - 1530
+      - 
+        - 247
+        - 1726
+        - 1274
+        - 1821
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1021,6 +1605,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p007_p005_olympic_sky.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.5
     review_status: ready
+    width: 1390
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -1031,6 +1617,12 @@ translation_segments:
     review_status: review
     original: ピジョット
     translation: 大比鸟
+    scan_box:
+      - 306
+      - 657
+      - 439
+      - 690
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1041,6 +1633,12 @@ translation_segments:
     review_status: review
     original: バタフリー
     translation: 巴大蝶
+    scan_box:
+      - 1109
+      - 623
+      - 1250
+      - 651
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1051,6 +1649,12 @@ translation_segments:
     review_status: review
     original: プロペラ旅客機 時速４２０キロ
     translation: 螺旋桨客机 时速420公里
+    scan_box:
+      - 179
+      - 784
+      - 599
+      - 817
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1061,6 +1665,23 @@ translation_segments:
     review_status: review
     original: プロペラ機時速２００キロ
     translation: 螺旋桨飞机 时速200公里
+    scan_box:
+      - 897
+      - 836
+      - 1037
+      - 864
+    scan_boxes:
+      - 
+        - 897
+        - 836
+        - 1037
+        - 864
+      - 
+        - 897
+        - 868
+        - 1090
+        - 897
+    writing_direction: horizontal
   - speaker: 重宝可梦
     type: heading
     kind: text
@@ -1071,7 +1692,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 重いポケモン
-    translation: "重宝可梦"
+    translation: 重宝可梦
+    scan_box:
+      - 250
+      - 1096
+      - 527
+      - 1139
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1082,6 +1709,12 @@ translation_segments:
     review_status: review
     original: カビゴン ４６０kg
     translation: 卡比兽 460kg
+    scan_box:
+      - 263
+      - 1518
+      - 518
+      - 1550
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1092,6 +1725,12 @@ translation_segments:
     review_status: review
     original: ゴローニャ ３００kg
     translation: 隆隆岩 300kg
+    scan_box:
+      - 249
+      - 1892
+      - 528
+      - 1925
+    writing_direction: horizontal
   - speaker: 跳跃第一名
     type: heading
     kind: text
@@ -1102,7 +1741,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 跳躍ナンバーワン
-    translation: "跳跃第一名"
+    translation: 跳跃第一名
+    scan_box:
+      - 848
+      - 1098
+      - 1190
+      - 1141
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1113,6 +1758,12 @@ translation_segments:
     review_status: review
     original: ギャロップ
     translation: 烈焰马
+    scan_box:
+      - 949
+      - 1556
+      - 1090
+      - 1587
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1124,6 +1775,23 @@ translation_segments:
     original: 東京タワー３３３m
     translation: 东京塔333米
     comment: 东京塔高333米，1996年时为日本最高建筑。
+    scan_box:
+      - 1020
+      - 1796
+      - 1159
+      - 1825
+    scan_boxes:
+      - 
+        - 1020
+        - 1796
+        - 1159
+        - 1825
+      - 
+        - 1026
+        - 1829
+        - 1131
+        - 1858
+    writing_direction: horizontal
 original_title: 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル
 topics:
   - 系统设计

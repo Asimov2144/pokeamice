@@ -1,0 +1,32 @@
+{
+ "width": 1448,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[397,136,771,192], [366,193,800,256], [49,211,1002,555], [996,216,1353,256], [975,249,1353,286], [974,282,1356,317], [975,314,1341,352], [204,433,438,663], [408,426,480,460], [624,464,1009,685], [593,485,637,519], [612,567,661,613], [62,669,228,813], [250,685,851,758], [934,696,1334,755], [255,747,364,768], [382,750,535,769], [944,751,1330,795], [264,770,559,802], [269,768,301,779], [504,772,537,783], [603,778,893,805], [843,775,889,788], [245,792,559,837], [127,792,184,837], [501,798,550,812], [585,804,890,835], [1278,807,1313,1040], [248,828,552,856], [586,830,892,865], [247,851,445,888], [585,857,715,891], [171,902,494,943], [516,902,633,936], [593,899,628,913], [650,916,891,947], [528,954,879,990], [531,985,886,1013], [529,1007,890,1039], [955,1006,1178,1033], [528,1030,858,1062], [955,1028,1178,1054], [1306,1041,1324,1060], [831,1069,872,1312], [970,1061,1048,1075], [512,1315,558,1328], [158,1344,438,1389], [520,1347,843,1399], [932,1355,995,1399], [995,1359,1269,1399], [357,1395,472,1431], [768,1402,886,1444], [1179,1404,1304,1450], [792,1470,897,1498], [791,1494,899,1522], [883,1492,893,1500], [1157,1502,1308,1529], [793,1518,899,1543], [1304,1511,1316,1524], [1156,1525,1322,1552], [790,1540,876,1568], [1154,1547,1255,1575], [929,1590,991,1630], [994,1590,1305,1632], [1191,1638,1311,1675], [1288,1639,1306,1650], [507,1649,611,1677], [502,1668,612,1703], [88,1688,198,1710], [924,1682,1090,1711], [504,1699,609,1722], [92,1711,477,1746], [923,1707,1088,1733], [502,1720,605,1748], [84,1738,469,1768], [627,1729,803,1756], [922,1730,1089,1757], [502,1743,608,1770], [84,1761,409,1789], [922,1753,1088,1780], [504,1770,584,1792], [614,1774,728,1794], [922,1778,1082,1801], [78,1840,105,1860]],
+ "regions": {
+  "p080_best3_mountains_routes_buildings-h271": {"boxes":[[366,137,799,254]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h272": {"boxes":[[78,246,1209,684]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r273": {"boxes":[[999,211,1355,348]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h274": {"boxes":[[61,676,226,866]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h275": {"boxes":[[252,690,882,748]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r276": {"boxes":[[248,770,555,881],[586,772,895,883]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h277": {"boxes":[[943,702,1338,797]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r278": {"boxes":[[1287,811,1335,1087]],"direction":"vertical"},
+  "p080_best3_mountains_routes_buildings-r279": {"boxes":[[947,1004,1271,1075]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h280": {"boxes":[[103,887,889,948]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r281": {"boxes":[[530,963,886,1075]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r282": {"boxes":[[843,1075,892,1329]],"direction":"vertical"},
+  "p080_best3_mountains_routes_buildings-h283": {"boxes":[[93,1333,597,1438]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r284": {"boxes":[[85,1692,473,1800]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h285": {"boxes":[[513,1346,882,1438]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r286": {"boxes":[[794,1475,883,1563],[505,1645,605,1792]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r287": {"boxes":[[618,1731,872,1778]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h288": {"boxes":[[933,1348,1268,1452]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r289": {"boxes":[[1161,1483,1321,1571]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-h290": {"boxes":[[930,1581,1315,1675]],"direction":"horizontal"},
+  "p080_best3_mountains_routes_buildings-r291": {"boxes":[[922,1665,1315,1802]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 15.9, "image_tokens": 2882, "completion_tokens": 682, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p080_best3_mountains_routes_buildings.jpg",
+ "page_file": "p080_best3_mountains_routes_buildings"
+}

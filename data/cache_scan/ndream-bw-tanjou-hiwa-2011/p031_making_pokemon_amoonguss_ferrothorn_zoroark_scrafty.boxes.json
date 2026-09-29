@@ -1,0 +1,22 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1098,18,1542,45], [64,110,608,140], [126,103,208,120], [67,141,610,173], [69,174,611,204], [65,204,608,237], [1195,203,1461,251], [63,234,611,272], [1143,256,1464,284], [63,269,555,303], [82,300,610,336], [66,333,608,368], [65,367,555,399], [65,399,555,433], [63,429,556,466], [63,463,611,498], [63,495,610,531], [63,527,608,564], [63,559,519,596], [82,593,608,627], [64,625,416,660], [61,657,608,693], [65,693,607,723], [66,723,566,757], [887,733,1108,786], [61,770,608,811], [784,788,1107,817], [63,806,427,836], [369,883,643,937], [906,885,1117,941], [368,940,683,968], [757,942,1116,971], [753,1050,1021,1107], [749,1107,1048,1136], [55,1366,524,1393], [561,1369,955,1395], [60,1396,527,1429], [466,1395,503,1406], [563,1402,955,1428], [59,1428,527,1461], [562,1432,954,1462], [643,1430,658,1438], [59,1463,525,1492], [489,1461,519,1473], [561,1465,954,1494], [58,1496,524,1524], [560,1498,954,1527], [61,1523,525,1559], [560,1529,952,1559], [58,1556,523,1591], [559,1562,950,1592], [58,1593,524,1622], [503,1591,517,1600], [561,1593,951,1624], [54,1617,527,1664], [558,1625,955,1658], [55,1650,527,1690], [561,1661,627,1688], [55,1686,354,1721], [576,1690,1028,1724], [875,1687,908,1702], [72,1717,527,1760], [558,1722,1025,1756], [641,1721,658,1733], [836,1723,850,1732], [870,1724,886,1732], [55,1752,524,1786], [560,1757,1026,1787], [54,1785,523,1818], [558,1792,1026,1820], [58,1818,390,1850], [557,1820,1024,1852], [1176,1822,1443,1880], [51,1849,521,1884], [557,1852,1025,1886], [54,1885,518,1914], [557,1888,777,1917], [1085,1879,1445,1909], [1468,1954,1509,1985]],
+ "regions": {
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r264": {"boxes":[[66,104,613,618]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r265": {"boxes":[[63,659,610,762]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r266": {"boxes":[[52,774,603,829]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r267": {"boxes":[[1143,201,1466,285]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r268": {"boxes":[[785,737,1113,815]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r269": {"boxes":[[347,883,700,967]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r270": {"boxes":[[758,885,1119,967]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r271": {"boxes":[[753,1049,1050,1130]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r272": {"boxes":[[1060,1827,1441,1909]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r273": {"boxes":[[58,1368,527,1860]],"direction":"horizontal"},
+  "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-r274": {"boxes":[[58,1872,527,1921],[561,1368,1028,1921]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 23.5, "image_tokens": 3138, "completion_tokens": 525, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty.jpg",
+ "page_file": "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty"
+}

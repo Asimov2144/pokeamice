@@ -1,0 +1,172 @@
+{
+ "note": "2026-09-25 重建目标：translation-integrity-audit-2026-09-25.md 判定『原文不是来源上的字』的网页来源帖，按真页重导。",
+ "targets": [
+  {
+   "key": "weekly-ascii-2010-bw",
+   "url": "http://web.archive.org/web/20260207082000/https://weekly.ascii.jp/elem/000/002/602/2602549/",
+   "lang": "ja",
+   "date": "2010-09-13",
+   "outlet": "週刊アスキー",
+   "outlet_zh": "週刊アスキー（ASCII）",
+   "title": "『ポケットモンスター ブラック・ホワイト』増田順一インタビュー",
+   "kind": "interview",
+   "asker": "週刊アスキー",
+   "speakers": {
+    "増田": "增田顺一",
+    "増田順一": "增田顺一"
+   },
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "tags": [
+    "週刊アスキー",
+    "宝可梦 黑·白",
+    "增田顺一"
+   ],
+   "slug": "2010-09-13-interview-weekly-ascii-masuda-bw-secrets",
+   "post": "2010-09-13-interview-weekly-ascii-masuda-bw-secrets.md",
+   "fresh": true
+  },
+  {
+   "key": "pokemon-official-2018-pikachu-tanjou",
+   "url": "http://web.archive.org/web/20180530085007/http://www.pokemon.co.jp/corporate/pikachu/",
+   "pages": [
+    "http://web.archive.org/web/20180530130049/http://www.pokemon.co.jp/corporate/pikachu/page_02.html"
+   ],
+   "lang": "ja",
+   "date": "2018-05-02",
+   "outlet": "株式会社ポケモン公式サイト",
+   "outlet_zh": "株式会社宝可梦 官方网站",
+   "title": "ピカチュウ誕生秘話",
+   "kind": "interview",
+   "asker": "株式会社ポケモン",
+   "speakers": {
+    "杉森": "杉森建",
+    "西野": "西野弘二",
+    "にしだ": "にしだあつこ",
+    "西田": "にしだあつこ"
+   },
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "tags": [
+    "株式会社宝可梦",
+    "宝可梦 红·绿",
+    "杉森建",
+    "西野弘二",
+    "皮卡丘"
+   ],
+   "slug": "2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa",
+   "post": "2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa.md",
+   "fresh": true,
+   "unmarked": "question"
+  },
+  {
+   "key": "nintendo-2010-joshidaisei-bw",
+   "url": "http://web.archive.org/web/20101227010653/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index.html",
+   "pages": [
+    "http://web.archive.org/web/20101228045530/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index2.html",
+    "http://web.archive.org/web/20101228070455/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index3.html",
+    "http://web.archive.org/web/20101228065534/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index4.html",
+    "http://web.archive.org/web/20101228065540/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index5.html",
+    "http://web.archive.org/web/20101228065353/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index6.html",
+    "http://web.archive.org/web/20101228063108/http://www.nintendo.co.jp:80/ds/interview/irbj/sp/index7.html"
+   ],
+   "lang": "ja",
+   "date": "2010-12-24",
+   "outlet": "任天堂「女子大生が訊く」",
+   "outlet_zh": "任天堂官网「女子大生が訊く」",
+   "title": "女子大生が訊く『ポケットモンスター ブラック・ホワイト』",
+   "kind": "interview",
+   "asker": "桐谷",
+   "speakers": {
+    "増田": "增田顺一",
+    "杉森": "杉森建",
+    "岩田": "岩田聪"
+   },
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "tags": [
+    "任天堂",
+    "宝可梦 黑·白",
+    "增田顺一",
+    "杉森建",
+    "桐谷美玲"
+   ],
+   "slug": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+   "post": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw.md",
+   "fresh": true,
+   "container": "#interviewArea",
+   "strip": [
+    "#indexArea",
+    "#pagenatePrev",
+    "#pagenateNext",
+    "#softInfo"
+   ],
+   "join_br": true,
+   "asker_aliases": [
+    "桐谷",
+    "桐谷美玲"
+   ]
+  },
+  {
+   "key": "gameatsumaru-2014-masuda",
+   "url": "http://web.archive.org/web/20230627124134/https://sp.ch.nicovideo.jp/indies-game/blomaga/ar604905",
+   "lang": "ja",
+   "date": "2014-08-22",
+   "outlet": "ニコニコ自作ゲームフェス",
+   "outlet_zh": "ニコニコ自作ゲームフェス",
+   "title": "ゲームフリーク増田順一インタビュー",
+   "kind": "interview",
+   "asker": "ニコニコ自作ゲームフェス",
+   "speakers": {
+    "増田": "增田顺一",
+    "増田順一": "增田顺一"
+   },
+   "works": [
+    "宝可梦 红·绿",
+    "昆蒂"
+   ],
+   "tags": [
+    "ニコニコ",
+    "增田顺一",
+    "Game Freak"
+   ],
+   "slug": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+   "post": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins.md",
+   "fresh": true,
+   "unmarked": "question"
+  },
+  {
+   "key": "glitterberri-1997-pokemon2",
+   "url": "https://web.archive.org/web/20211127140629/https://www.glitterberri.com/pokemon-gold-silver/pokemon-2/",
+   "lang": "en",
+   "date": "1997-11-27",
+   "outlet": "GlitterBerri's Game Translations",
+   "outlet_zh": "GlitterBerri（英译）",
+   "title": "Pokémon 2 (1997 Space World interview, translated by GlitterBerri)",
+   "kind": "interview",
+   "asker": "Interviewer",
+   "speakers": {
+    "Tajiri": "田尻智",
+    "Miyamoto": "宫本茂",
+    "Ishihara": "石原恒和"
+   },
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "tags": [
+    "Space World 1997",
+    "宝可梦 金·银",
+    "田尻智",
+    "宫本茂",
+    "石原恒和",
+    "GlitterBerri"
+   ],
+   "slug": "1997-11-27-interview-glitterberri-spaceworld-pokemon2-en",
+   "post": "1997-11-27-interview-glitterberri-spaceworld-pokemon2-en.md",
+   "fresh": true
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "width": 1474,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[160,124,724,170], [791,117,1355,160], [790,158,1357,206], [158,172,523,212], [218,212,725,260], [792,206,1358,248], [161,228,189,253], [790,249,1157,293], [162,261,724,301], [163,306,725,342], [793,306,1354,357], [161,346,726,389], [794,348,1204,394], [162,392,727,432], [794,425,1356,466], [163,433,726,476], [794,469,1360,512], [163,486,369,521], [160,518,731,566], [795,512,1360,555], [165,568,727,606], [794,563,924,601], [793,595,1360,645], [164,611,728,651], [165,651,731,695], [799,642,1363,687], [798,686,1294,729], [167,700,730,737], [798,732,1361,774], [168,751,320,782], [163,781,732,830], [799,780,1271,817], [168,827,615,871], [796,819,1364,864], [168,872,731,917], [801,867,1364,905], [169,918,733,957], [804,907,1365,948], [170,964,617,1004], [801,960,1005,993], [798,989,1367,1040], [78,1009,144,1045], [165,1002,737,1048], [801,1037,1368,1082], [170,1047,734,1091], [169,1089,739,1135], [803,1082,1367,1127], [806,1132,998,1167], [174,1136,735,1177], [172,1180,738,1221], [805,1172,1370,1212], [171,1219,741,1267], [807,1214,1369,1258], [175,1267,738,1308], [806,1264,1145,1299], [175,1312,738,1353], [802,1299,1371,1348], [176,1356,739,1396], [809,1346,1371,1388], [178,1402,518,1441], [807,1390,1372,1432], [809,1436,1331,1475], [175,1444,742,1485], [179,1488,743,1530], [808,1480,1347,1520], [805,1518,1375,1566], [179,1533,740,1573], [813,1565,1374,1607], [180,1581,544,1615], [810,1606,1375,1652], [176,1616,746,1662], [809,1649,1376,1697], [182,1662,743,1705], [180,1703,747,1748], [813,1700,1375,1739], [813,1739,1378,1782], [182,1750,746,1790], [181,1795,748,1835], [812,1783,1377,1828], [813,1828,1377,1870], [183,1842,665,1880], [816,1873,1234,1914], [182,1884,748,1923]],
+ "regions": {
+  "p194_interview_development_time_pkrs-r16": {"boxes":[[159,129,724,209]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r17": {"boxes":[[159,223,725,526]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r18": {"boxes":[[161,541,727,776]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r19": {"boxes":[[164,791,727,870]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r20": {"boxes":[[165,883,730,1001]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r21": {"boxes":[[167,1014,734,1423]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r22": {"boxes":[[171,1438,738,1599]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r23": {"boxes":[[174,1612,743,1849]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r24": {"boxes":[[177,1862,744,1905],[790,119,1356,293]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-h25": {"boxes":[[792,311,1355,395]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r26": {"boxes":[[793,430,1359,604]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r27": {"boxes":[[794,618,1361,735]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r28": {"boxes":[[796,748,1363,827]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r29": {"boxes":[[797,840,1365,999]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r30": {"boxes":[[799,1012,1368,1171]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r31": {"boxes":[[802,1184,1369,1303]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r32": {"boxes":[[803,1317,1372,1475]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r33": {"boxes":[[806,1489,1352,1530]],"direction":"horizontal"},
+  "p194_interview_development_time_pkrs-r34": {"boxes":[[808,1542,1377,1942]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 24.6, "image_tokens": 2946, "completion_tokens": 1118, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/gs-guidebook-1999-developer-interview/pages/p194_interview_development_time_pkrs.jpg",
+ "page_file": "p194_interview_development_time_pkrs"
+}

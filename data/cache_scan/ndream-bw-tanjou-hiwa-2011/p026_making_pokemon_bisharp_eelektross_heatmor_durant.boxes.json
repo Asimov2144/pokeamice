@@ -1,0 +1,25 @@
+{
+ "width": 1547,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[298,116,564,170], [984,120,1246,175], [295,169,563,203], [961,175,1168,206], [1154,170,1252,206], [428,245,769,291], [858,247,1213,280], [375,262,423,288], [864,273,1219,314], [1041,277,1064,288], [376,285,737,322], [373,311,770,357], [865,310,1215,344], [378,347,768,387], [864,340,1216,377], [378,381,770,420], [864,376,1216,410], [866,406,1217,443], [427,418,769,452], [457,446,769,483], [865,442,1100,475], [498,483,517,494], [867,482,932,506], [917,470,1217,507], [927,474,961,486], [455,483,655,516], [867,506,1218,539], [1064,504,1117,515], [382,525,426,548], [433,512,764,549], [478,546,772,580], [866,544,1013,572], [505,581,770,612], [868,577,1013,603], [506,614,769,644], [868,609,1012,637], [870,642,1014,669], [869,669,1016,701], [497,694,762,751], [870,706,1016,736], [871,741,923,768], [495,751,766,782], [842,859,1108,916], [846,913,1112,947], [264,1019,477,1076], [885,1057,1152,1115], [264,1073,584,1106], [884,1113,1205,1146], [1103,1186,1258,1217], [314,1451,474,1482], [537,1447,696,1478], [751,1444,911,1474], [116,1455,274,1486], [777,1534,800,1556], [115,1539,486,1578], [117,1573,489,1612], [117,1603,490,1645], [118,1635,490,1676], [529,1664,686,1694], [1160,1656,1320,1686], [117,1669,491,1708], [120,1704,492,1740], [865,1705,1021,1737], [120,1738,494,1771], [121,1768,494,1807], [121,1803,491,1836], [124,1835,491,1870], [121,1865,494,1903], [124,1906,252,1934], [67,1969,103,1998]],
+ "regions": {
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-h180": {"boxes":[[294,115,591,209]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r181": {"boxes":[[374,240,739,303]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r182": {"boxes":[[374,309,739,514]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r183": {"boxes":[[374,520,739,641]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-h184": {"boxes":[[493,700,781,782],[984,119,1250,205]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r186": {"boxes":[[865,250,1230,475]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r187": {"boxes":[[865,481,1230,768]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-h188": {"boxes":[[843,862,1095,946]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-h189": {"boxes":[[265,1024,588,1106]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r190": {"boxes":[[119,1450,752,1483]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-h191": {"boxes":[[885,1069,1216,1147]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r192": {"boxes":[[1105,1188,1278,1217]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r193": {"boxes":[[124,1544,492,1933]],"direction":"horizontal"},
+  "p026_making_pokemon_bisharp_eelektross_heatmor_durant-r194": {"boxes":[[531,1667,1320,1724]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 15.9, "image_tokens": 3074, "completion_tokens": 447, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p026_making_pokemon_bisharp_eelektross_heatmor_durant.jpg",
+ "page_file": "p026_making_pokemon_bisharp_eelektross_heatmor_durant"
+}

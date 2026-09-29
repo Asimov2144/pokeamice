@@ -1,0 +1,25 @@
+{
+ "width": 1537,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[867,9,953,41], [960,5,1365,54], [1384,25,1509,61], [1064,46,1155,76], [1260,46,1358,76], [5,91,403,125], [435,89,836,125], [10,128,399,156], [438,129,829,155], [10,160,400,188], [436,160,828,188], [9,194,399,220], [440,194,828,220], [6,224,400,256], [435,224,815,256], [6,256,400,286], [437,258,830,286], [5,285,399,320], [435,286,832,321], [2,323,400,353], [438,325,582,353], [3,358,113,386], [432,352,831,388], [26,391,397,418], [436,389,830,419], [3,414,401,454], [436,424,765,451], [7,455,399,484], [435,451,770,487], [7,485,400,520], [433,483,580,519], [5,516,400,551], [4,553,398,583], [2,581,399,617], [174,653,437,719], [173,721,524,750], [951,774,1266,829], [7,810,255,870], [942,839,1291,866], [4,874,271,902], [912,1224,1165,1284], [5,1269,314,1325], [908,1289,1153,1320], [1,1332,292,1363], [0,1462,47,1488], [0,1485,477,1529], [509,1490,987,1524], [0,1525,474,1557], [510,1526,988,1556], [2,1559,474,1590], [508,1556,988,1591], [1,1592,473,1622], [508,1590,986,1625], [0,1627,68,1656], [511,1627,988,1656], [14,1659,471,1688], [509,1660,830,1689], [1,1692,473,1721], [531,1692,987,1722], [2,1729,468,1752], [508,1725,989,1755], [0,1756,471,1788], [510,1758,672,1788], [1,1793,472,1822], [1,1825,397,1853], [676,1839,977,1902], [13,1856,473,1889], [1,1890,472,1921], [672,1902,968,1938], [0,1923,473,1955], [81,1989,980,2021], [1417,1996,1444,2018]],
+ "regions": {
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r33": {"boxes":[[9,88,415,379]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r34": {"boxes":[[9,389,415,618],[437,88,841,256]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r35": {"boxes":[[437,260,841,348]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r36": {"boxes":[[437,352,841,518]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r37": {"boxes":[[174,666,596,774]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r38": {"boxes":[[947,774,1371,881]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r39": {"boxes":[[5,803,369,909]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r40": {"boxes":[[0,1264,423,1370]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r41": {"boxes":[[915,1219,1279,1325]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r42": {"boxes":[[673,1837,1097,1944]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r43": {"boxes":[[0,1458,476,1645]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r44": {"boxes":[[0,1651,476,1837]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r45": {"boxes":[[0,1841,476,1952],[498,1458,994,1688]],"direction":"horizontal"},
+  "p073_bw_interview_volcarona_whimsicott_lilligant-r46": {"boxes":[[498,1692,994,1800]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 23.8, "image_tokens": 3074, "completion_tokens": 490, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p073_bw_interview_volcarona_whimsicott_lilligant.jpg",
+ "page_file": "p073_bw_interview_volcarona_whimsicott_lilligant"
+}

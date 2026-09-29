@@ -1,0 +1,24 @@
+{
+ "width": 1491,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[179,84,435,143], [440,86,1187,216], [97,135,428,187], [82,181,1036,362], [97,359,1062,422], [96,398,1208,466], [98,438,589,484], [94,475,1072,538], [957,574,1226,618], [934,611,1048,642], [934,650,1163,696], [932,690,1285,726], [930,716,1283,754], [931,745,1078,774], [929,780,1161,827], [926,821,1281,858], [927,849,1280,884], [925,874,1095,909], [926,913,1157,960], [925,953,1278,989], [923,980,1276,1016], [921,1009,994,1035], [1304,1024,1367,1058], [923,1045,1150,1090], [921,1085,1271,1121], [919,1112,1269,1148], [916,1138,1006,1168], [73,1222,628,1276], [74,1261,364,1308], [88,1337,634,1389], [697,1359,898,1397], [68,1383,631,1433], [692,1396,1264,1454], [65,1430,351,1468], [693,1443,1263,1496], [59,1469,537,1518], [692,1486,1259,1541], [56,1511,624,1565], [693,1532,1257,1583], [59,1558,623,1607], [689,1576,1133,1623], [59,1600,623,1651], [689,1623,1253,1672], [60,1646,620,1693], [687,1667,949,1706], [58,1690,617,1738], [686,1711,776,1743], [761,1708,1253,1762], [53,1730,617,1784], [686,1753,1250,1801], [55,1780,615,1826], [684,1797,1250,1847], [54,1818,616,1872], [683,1838,1248,1891], [53,1864,616,1915], [683,1881,1242,1936]],
+ "regions": {
+  "p193_interview_koko_ga_shiritai_intro-h2": {"boxes":[[92,84,1190,346]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r3": {"boxes":[[94,358,1211,541]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-h4": {"boxes":[[933,575,1287,770]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r5": {"boxes":[[930,780,1284,901]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r6": {"boxes":[[927,911,1281,1032]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r7": {"boxes":[[920,1042,1270,1163]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-h8": {"boxes":[[72,1219,629,1303]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r9": {"boxes":[[66,1333,632,1460]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r10": {"boxes":[[63,1473,535,1516]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r11": {"boxes":[[52,1520,622,1923],[696,1360,890,1397]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r12": {"boxes":[[696,1405,1260,1620]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r13": {"boxes":[[692,1626,1255,1706]],"direction":"horizontal"},
+  "p193_interview_koko_ga_shiritai_intro-r14": {"boxes":[[686,1714,1249,1929]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 25.8, "image_tokens": 3010, "completion_tokens": 617, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/gs-guidebook-1999-developer-interview/pages/p193_interview_koko_ga_shiritai_intro.jpg",
+ "page_file": "p193_interview_koko_ga_shiritai_intro"
+}

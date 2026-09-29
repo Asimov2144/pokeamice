@@ -1,0 +1,21 @@
+{
+ "width": 1547,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[579,139,988,170], [1026,129,1477,168], [543,147,591,170], [544,172,992,204], [1031,166,1476,199], [1030,198,1478,232], [547,206,991,236], [543,236,993,270], [1029,230,1425,264], [544,272,679,302], [1049,263,1477,295], [541,297,994,336], [1029,291,1479,329], [545,332,993,367], [1029,328,1478,361], [543,363,995,401], [1029,359,1479,394], [545,400,995,431], [1029,400,1136,425], [172,452,441,502], [878,488,1133,542], [169,505,443,536], [877,541,1196,573], [227,578,501,631], [226,632,500,663], [288,750,448,807], [178,806,449,838], [165,874,448,918], [113,888,162,914], [157,896,175,907], [115,917,439,947], [1067,928,1329,983], [115,948,441,982], [114,980,444,1015], [1069,983,1389,1014], [116,1012,445,1045], [115,1041,447,1079], [824,1038,1512,1083], [115,1077,444,1110], [830,1074,1510,1113], [1142,1074,1203,1090], [117,1107,701,1143], [544,1101,582,1120], [829,1106,1513,1145], [117,1143,700,1175], [829,1137,1513,1179], [1207,1140,1237,1150], [118,1174,699,1207], [829,1171,1514,1212], [117,1206,670,1241], [831,1208,1454,1242], [941,1302,1209,1354], [936,1355,1277,1387], [1153,1418,1364,1475], [1149,1473,1468,1505], [1010,1537,1325,1571], [1012,1569,1326,1603], [1014,1604,1324,1635], [1013,1637,1322,1667], [1012,1664,1323,1701], [1056,1697,1326,1733], [1056,1723,1329,1768], [1058,1763,1327,1797], [1061,1797,1326,1828], [128,1836,391,1889], [1059,1830,1326,1862], [1060,1866,1222,1893], [123,1890,392,1921], [63,1965,100,1993]],
+ "regions": {
+  "p032_making_pokemon_mienshao_hydreigon_victini-r276": {"boxes":[[545,123,1002,430]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-r277": {"boxes":[[545,123,1499,428]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-h278": {"boxes":[[166,451,509,543],[224,575,509,668],[876,489,1148,578]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-h284": {"boxes":[[178,752,449,838]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-r286": {"boxes":[[111,879,602,1227]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-h287": {"boxes":[[1066,928,1391,1016]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-r289": {"boxes":[[829,1051,1511,1241]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-h290": {"boxes":[[936,1296,1211,1389],[1148,1421,1318,1509]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-r294": {"boxes":[[1009,1532,1361,1892]],"direction":"horizontal"},
+  "p032_making_pokemon_mienshao_hydreigon_victini-h295": {"boxes":[[121,1833,413,1921]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 15.3, "image_tokens": 3074, "completion_tokens": 526, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p032_making_pokemon_mienshao_hydreigon_victini.jpg",
+ "page_file": "p032_making_pokemon_mienshao_hydreigon_victini"
+}

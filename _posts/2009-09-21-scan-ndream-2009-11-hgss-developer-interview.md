@@ -97,6 +97,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p069_hgss_special_title.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.69
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 心金·魂银
     type: heading
     kind: text
@@ -108,6 +110,33 @@ translation_segments:
     review_status: review
     original: ALL ABOUTポケットモンスターハートゴールドソウルシルバー
     translation: ALL ABOUT 宝可梦 心金·魂银
+    scan_box:
+      - 23
+      - 174
+      - 539
+      - 262
+    scan_boxes:
+      - 
+        - 23
+        - 174
+        - 539
+        - 262
+      - 
+        - 26
+        - 262
+        - 1308
+        - 481
+      - 
+        - 634
+        - 477
+        - 1315
+        - 600
+      - 
+        - 634
+        - 592
+        - 1315
+        - 702
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -118,6 +147,12 @@ translation_segments:
     review_status: review
     original: "「ポケットモンスター」最新作「ハートゴールド・ソウルシルバー」がついに発売！ 開発スタッフへのロングインタビューを中心に、シリーズの歴史や歴代ピカチュウ、キャラかみ特別編まで、盛りだくさんの17ページ大特集をお届けしよう!!"
     translation: 《宝可梦》最新作《心金·魂银》终于发售！本期以对开发人员的长篇访谈为中心，还涵盖系列历史、历代皮卡丘、角色特别篇等内容，为您送上满满17页的大特辑！！
+    scan_box:
+      - 973
+      - 723
+      - 1312
+      - 952
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -128,6 +163,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』の歴史P70
     translation: 《宝可梦》的历史 P70
+    scan_box:
+      - 52
+      - 1485
+      - 515
+      - 1614
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -138,6 +179,12 @@ translation_segments:
     review_status: review
     original: "ピカチュウ大集合!P79"
     translation: 皮卡丘大集合！P79
+    scan_box:
+      - 539
+      - 1464
+      - 959
+      - 1602
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -148,6 +195,12 @@ translation_segments:
     review_status: review
     original: ゲームフリーク開発スタッフインタビューP72
     translation: GAME FREAK 开发人员访谈 P72
+    scan_box:
+      - 52
+      - 1645
+      - 379
+      - 1800
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -158,6 +211,12 @@ translation_segments:
     review_status: review
     original: キャラかみ特別編杉森建さんインタビューP82
     translation: 角色特别篇 杉森建访谈 P82
+    scan_box:
+      - 539
+      - 1636
+      - 866
+      - 1794
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -168,6 +227,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p070_pokemon_history_01.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.70
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 《宝可梦》的历史
     type: heading
     kind: text
@@ -179,6 +240,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』の歴史
     translation: 《宝可梦》的历史
+    scan_box:
+      - 236
+      - 133
+      - 368
+      - 1532
+    writing_direction: vertical
   - speaker: 追寻从《红·绿》到《心金·魂银》13年的历程
     type: heading
     kind: text
@@ -190,6 +257,12 @@ translation_segments:
     review_status: review
     original: 『赤・緑』から『HG・SS』まで13年の歩みを追う
     translation: 追寻从《红·绿》到《心金·魂银》13年的历程
+    scan_box:
+      - 142
+      - 150
+      - 222
+      - 1532
+    writing_direction: vertical
   - speaker: body
     type: paragraph
     kind: text
@@ -200,6 +273,12 @@ translation_segments:
     review_status: review
     original: 1996年、ゲームボーイで発売された『ポケットモンスター』の世界が、13年の年月とハードの進化でどのように発展していったのかを、年代順にたどっていこう。
     translation: 1996年在Game Boy上发售的《宝可梦》世界，是如何随着13年的岁月与硬件的进化而发展的？让我们按年代顺序来回顾。
+    scan_box:
+      - 148
+      - 1556
+      - 390
+      - 1767
+    writing_direction: horizontal
   - speaker: 宝可梦 红·绿
     type: heading
     kind: text
@@ -211,6 +290,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター 赤・緑
     translation: 宝可梦 红·绿
+    scan_box:
+      - 450
+      - 168
+      - 979
+      - 219
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -221,6 +306,12 @@ translation_segments:
     review_status: review
     original: "●ゲームボーイ ●96.2.27発売\n●各3900円(別)"
     translation: "●Game Boy ●96.2.27发售\n●各3900日元（不含税）"
+    scan_box:
+      - 1011
+      - 156
+      - 1326
+      - 211
+    writing_direction: horizontal
   - speaker: 奠定便携游戏市场基础的历史名作
     type: heading
     kind: text
@@ -232,6 +323,12 @@ translation_segments:
     review_status: review
     original: 携帯ゲーム市場の土台を作った歴史的名作
     translation: 奠定便携游戏市场基础的历史名作
+    scan_box:
+      - 450
+      - 236
+      - 1156
+      - 279
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -242,6 +339,12 @@ translation_segments:
     review_status: review
     original: 記念すべき『ポケットモンスター』シリーズ第1作。舞台となるのはカントー地方だ。主人公が8つのジムをめぐり、ポケモンリーグに挑戦するというシリーズおなじみの構成は、この時点で完成されている。出現するポケモンは、幻のポケモンのミュウを含めて151匹。ただし『赤』と『緑』のバージョンで出現するポケモンが変わるため、通信交換をしないとポケモンずかんは完成しない。ここから始まった通信交換という遊びは、当時通信といえば対戦だったゲームボーイに、まったく新しい可能性を生み出したといえよう。
     translation: 值得纪念的《宝可梦》系列第1作。舞台是关都地区。主人公巡游8个道馆、挑战宝可梦联盟这一系列熟悉的构成，在此时就已经完成。出现的宝可梦包括幻之宝可梦梦幻在内共151只。不过《红》和《绿》两个版本出现的宝可梦不同，不进行通信交换就无法完成宝可梦图鉴。由此开始的通信交换这一玩法，可以说为当时一提通信就是对战的Game Boy带来了全新的可能性。
+    scan_box:
+      - 450
+      - 289
+      - 901
+      - 578
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -252,6 +355,12 @@ translation_segments:
     review_status: review
     original: ←戦闘のルールは基本的には今と同じだが、能力の種類やわざのタイプが少なく、とくせいなどもなかったため、ちょっとシンプルに感じる
     translation: ←战斗规则基本上和现在相同，但能力种类和招式属性较少，也没有特性等，因此感觉稍微简单一些
+    scan_box:
+      - 1250
+      - 281
+      - 1350
+      - 565
+    writing_direction: vertical
   - speaker: note
     type: paragraph
     kind: text
@@ -262,6 +371,12 @@ translation_segments:
     review_status: review
     original: "コラッタ:L2"
     translation: 小拉达：L2
+    scan_box:
+      - 989
+      - 297
+      - 1060
+      - 315
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -272,6 +387,12 @@ translation_segments:
     review_status: review
     original: "ピカチュウ:L53"
     translation: 皮卡丘：L53
+    scan_box:
+      - 1093
+      - 403
+      - 1187
+      - 424
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -282,6 +403,12 @@ translation_segments:
     review_status: review
     original: "HP: 123/123ゆけっ！ ピカチュウ！"
     translation: HP：123/123 上吧！皮卡丘！
+    scan_box:
+      - 959
+      - 492
+      - 1229
+      - 528
+    writing_direction: horizontal
   - speaker: 新版本
     type: heading
     kind: text
@@ -293,6 +420,12 @@ translation_segments:
     review_status: review
     original: 新バージョン
     translation: 新版本
+    scan_box:
+      - 911
+      - 598
+      - 1125
+      - 651
+    writing_direction: horizontal
   - speaker: 宝可梦 蓝
     type: heading
     kind: text
@@ -304,6 +437,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター 青
     translation: 宝可梦 蓝
+    scan_box:
+      - 597
+      - 676
+      - 933
+      - 727
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -314,6 +453,12 @@ translation_segments:
     review_status: review
     original: "●ゲームボーイ ●96.10.15(限定発売)、\n99.10.10(一般発売) ●3000円(別)"
     translation: "●Game Boy ●96.10.15（限定发售）、\n99.10.10（一般发售） ●3000日元（另计）"
+    scan_box:
+      - 985
+      - 664
+      - 1326
+      - 719
+    writing_direction: horizontal
   - speaker: 作为限定生产品诞生，后转为一般发售
     type: heading
     kind: text
@@ -325,6 +470,12 @@ translation_segments:
     review_status: review
     original: 限定生産品として誕生し、のちに一般販売に
     translation: 作为限定生产品诞生，后转为一般发售
+    scan_box:
+      - 597
+      - 741
+      - 1277
+      - 786
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -335,6 +486,23 @@ translation_segments:
     review_status: review
     original: 『赤・緑』から少し遅れて発売された新バージョン。パッケージにはカメックスが描かれ、出現するポケモンやそのグラフィック、ポケモンずかんの文などが『赤・緑』と違う。小学館が出版していた誌上での限定生産品として販売され、ローソン限定販売を経て一般販売された。
     translation: 比《红·绿》稍晚发售的新版本。包装上画着水箭龟，出现的宝可梦及其图像、宝可梦图鉴的文字等都与《红·绿》不同。它作为小学馆出版的杂志上的限定生产品销售，经过罗森限定销售后转为一般发售。
+    scan_box:
+      - 597
+      - 795
+      - 959
+      - 881
+    scan_boxes:
+      - 
+        - 597
+        - 795
+        - 959
+        - 881
+      - 
+        - 992
+        - 795
+        - 1350
+        - 881
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -345,6 +513,12 @@ translation_segments:
     review_status: review
     original: 1996 1997 1998 1999 2000 2001
     translation: 1996 1997 1998 1999 2000 2001
+    scan_box:
+      - 433
+      - 936
+      - 1403
+      - 979
+    writing_direction: horizontal
   - speaker: 宝可梦 皮卡丘
     type: heading
     kind: text
@@ -356,6 +530,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター ピカチュウ
     translation: 宝可梦 皮卡丘
+    scan_box:
+      - 453
+      - 1032
+      - 1031
+      - 1083
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -366,6 +546,12 @@ translation_segments:
     review_status: review
     original: ●ゲームボーイ ●98.9.12発売 ●3000円(別)
     translation: ●Game Boy ●1998年9月12日发售 ●3000日元（不含税）
+    scan_box:
+      - 447
+      - 1090
+      - 933
+      - 1116
+    writing_direction: horizontal
   - speaker: 可以带着皮卡丘一起走！
     type: heading
     kind: text
@@ -377,6 +563,12 @@ translation_segments:
     review_status: review
     original: ピカチュウをつれ歩ける！
     translation: 可以带着皮卡丘一起走！
+    scan_box:
+      - 453
+      - 1141
+      - 838
+      - 1184
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -387,6 +579,12 @@ translation_segments:
     review_status: review
     original: 基本的なストーリーは『赤・緑』と同じ。初めてのポケモンはピカチュウに固定で、モンスターボールに入れずに連れ歩くことになる。
     translation: 基本故事与《红·绿》相同。最初的宝可梦固定为皮卡丘，不放进精灵球，而是带在身边一起走。
+    scan_box:
+      - 453
+      - 1192
+      - 833
+      - 1278
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -397,6 +595,12 @@ translation_segments:
     review_status: review
     original: →連れ歩いて話しかたりして、なつきぐあいの確認も可能
     translation: →带着它走并和它说话，还能确认亲密度
+    scan_box:
+      - 859
+      - 1130
+      - 933
+      - 1270
+    writing_direction: vertical
   - speaker: 宝可梦 金·银
     type: heading
     kind: text
@@ -408,6 +612,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター 金・銀
     translation: 宝可梦 金·银
+    scan_box:
+      - 453
+      - 1341
+      - 880
+      - 1393
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -418,6 +628,12 @@ translation_segments:
     review_status: review
     original: "●ゲームボーイカラー対応\n●99.11.21発売 ●各3990円(込)"
     translation: "●支持Game Boy Color\n●1999年11月21日发售 ●各3990日元（含税）"
+    scan_box:
+      - 1014
+      - 1329
+      - 1352
+      - 1384
+    writing_direction: horizontal
   - speaker: 横跨两个地区的宏大故事展开！
     type: heading
     kind: text
@@ -429,6 +645,12 @@ translation_segments:
     review_status: review
     original: 2つの地方にまたがる壮大な物語が展開！
     translation: 横跨两个地区的宏大故事展开！
+    scan_box:
+      - 453
+      - 1411
+      - 1125
+      - 1454
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -439,6 +661,12 @@ translation_segments:
     review_status: review
     original: ポケモンの種類は大幅に増え、幻のポケモンを含めて251匹に。おもな舞台はジョウト地方だが、殿堂入り後にはカントー地方に行けるなど、冒険の世界が大きく広がっている。新要素も大量に追加された。まずポケモンが♂♀の性別に分かれ、ポケモンが生まれるタマゴが登場。タイプも2つ追加され、「とくしゅ」の能力が、「とくこう」と「とくぼう」に分けられた。ポケモンにどうぐを持たせられるのもこの作品からだ。また時計機能を搭載しており、曜日や時間によって特別な出来事も起きた。
     translation: 宝可梦的种类大幅增加，包括幻之宝可梦在内达到251只。主要舞台是城都地区，但登入殿堂后还能前往关都地区，冒险的世界大幅扩展。新要素也大量追加。首先宝可梦分出了♂♀性别，并出现了宝可梦诞生的蛋。属性也追加了2种，“特殊”能力被分为“特攻”和“特防”。能让宝可梦携带道具也是从本作开始。此外还搭载了时钟功能，根据星期和时间也会发生特别的事件。
+    scan_box:
+      - 453
+      - 1462
+      - 851
+      - 1753
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -449,6 +677,12 @@ translation_segments:
     review_status: review
     original: ↑ポケモンの数が約100匹追加。色違いのポケモンも、このときが初登場になる
     translation: ↑宝可梦数量追加了约100只。异色宝可梦也是此时首次登场
+    scan_box:
+      - 882
+      - 1675
+      - 1109
+      - 1745
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -459,6 +693,12 @@ translation_segments:
     review_status: review
     original: ↓電話登録もここが初登場。一度勝負したトレーナーと、もう一度戦えるようになった
     translation: ↓电话登录也是在此首次登场。与交战过的训练家可以再次对战
+    scan_box:
+      - 1125
+      - 1462
+      - 1352
+      - 1524
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -469,6 +709,12 @@ translation_segments:
     review_status: review
     original: チコリータはっぱポケモン
     translation: 菊草叶 叶子宝可梦
+    scan_box:
+      - 970
+      - 1479
+      - 1038
+      - 1495
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -479,6 +725,12 @@ translation_segments:
     review_status: review
     original: たかさ 0.9mNo. 152 おもさ 6.4kgあたりのハッパから ほのかに あまい
     translation: 身高 0.9m No.152 体重 6.4kg 从头顶的叶子散发出淡淡的甜香
+    scan_box:
+      - 895
+      - 1520
+      - 1085
+      - 1563
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -489,6 +741,12 @@ translation_segments:
     review_status: review
     original: かおりが ただよう。おとなしくて
     translation: 散发着香气。性格温顺，
+    scan_box:
+      - 889
+      - 1569
+      - 1070
+      - 1585
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -499,6 +757,12 @@ translation_segments:
     review_status: review
     original: ひざしを あびるのが だいすき。
     translation: 最喜欢沐浴阳光。
+    scan_box:
+      - 889
+      - 1591
+      - 1073
+      - 1608
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -509,6 +773,12 @@ translation_segments:
     review_status: review
     original: がんば なきごえ プリント
     translation: 叫声 印花
+    scan_box:
+      - 933
+      - 1614
+      - 1051
+      - 1628
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -519,6 +789,12 @@ translation_segments:
     review_status: review
     original: ウツギはかせ
     translation: 空木博士
+    scan_box:
+      - 1156
+      - 1554
+      - 1226
+      - 1573
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -529,6 +805,12 @@ translation_segments:
     review_status: review
     original: とにかく たいへん なんだよ！
     translation: 总之很辛苦啊！
+    scan_box:
+      - 1131
+      - 1704
+      - 1303
+      - 1722
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -539,6 +821,12 @@ translation_segments:
     review_status: review
     original: すぐ もどってきてよ！！
     translation: 快点回来吧！！
+    scan_box:
+      - 1131
+      - 1726
+      - 1267
+      - 1745
+    writing_direction: horizontal
   - speaker: 新版本
     type: heading
     kind: text
@@ -550,6 +838,12 @@ translation_segments:
     review_status: review
     original: 新バージョン
     translation: 新版本
+    scan_box:
+      - 1378
+      - 1456
+      - 1438
+      - 1671
+    writing_direction: vertical
   - speaker: image
     type: image
     kind: image
@@ -560,6 +854,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p071_pokemon_history_02.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.71
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 心金 魂银
     type: heading
     kind: text
@@ -571,6 +867,12 @@ translation_segments:
     review_status: review
     original: ALL ABOUT ポケットモンスター ハートゴールド ソウルシルバー
     translation: ALL ABOUT 宝可梦 心金 魂银
+    scan_box:
+      - 750
+      - 123
+      - 1416
+      - 170
+    writing_direction: horizontal
   - speaker: 宝可梦 红宝石·蓝宝石
     type: heading
     kind: text
@@ -582,6 +884,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター ルビー・サファイア
     translation: 宝可梦 红宝石·蓝宝石
+    scan_box:
+      - 145
+      - 205
+      - 930
+      - 260
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -592,6 +900,12 @@ translation_segments:
     review_status: review
     original: ●ゲームボーイアドバンス ●02.11.21発売 ●各5040円(込)
     translation: ●Game Boy Advance ●2002年11月21日发售 ●各5040日元（含税）
+    scan_box:
+      - 162
+      - 264
+      - 924
+      - 293
+    writing_direction: horizontal
   - speaker: 与众多新宝可梦一同在GBA上登场！！
     type: heading
     kind: text
@@ -603,6 +917,12 @@ translation_segments:
     review_status: review
     original: "多数の新ポケモンとともにGBAで登場!!"
     translation: 与众多新宝可梦一同在GBA上登场！！
+    scan_box:
+      - 145
+      - 303
+      - 801
+      - 358
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -613,6 +933,12 @@ translation_segments:
     review_status: review
     original: ホウエンずかん200匹中、なんと133種類が新登場のポケモン。ハードも従来より大幅にスペックの上がったGBAになり、演出面が大きく強化された。新システムとして、とくせいやせいかく、天候の変化、さらにポケモンの強さではなく魅力を競う「ポケモンコンテスト」が登場。ダブルバトルもこの作品が初登場だ。またこのタイトルから、映画に登場するポケモンのプレゼントがスタートした。
     translation: 丰缘图鉴200只中，竟有133种是新登场的宝可梦。硬件也换成了规格较以往大幅提升的GBA，演出方面得到大幅强化。作为新系统，特性、性格、天气变化，以及不比拼宝可梦强弱而是比拼魅力的“宝可梦华丽大赛”登场。双打对战也是在本作中首次登场。此外，从本作开始，电影中登场的宝可梦会作为礼物赠送。
+    scan_box:
+      - 142
+      - 362
+      - 542
+      - 594
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -623,6 +949,12 @@ translation_segments:
     review_status: review
     original: ジュカインは むらさきロックを たべた！
     translation: 蜥蜴王吃下了紫色果实！
+    scan_box:
+      - 579
+      - 530
+      - 772
+      - 582
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -633,6 +965,12 @@ translation_segments:
     review_status: review
     original: ←ポケモンのコンディションを上げ、コンテストに挑戦！
     translation: ←提升宝可梦的状态，挑战华丽大赛！
+    scan_box:
+      - 919
+      - 367
+      - 960
+      - 557
+    writing_direction: vertical
   - speaker: 新版本
     type: heading
     kind: text
@@ -644,6 +982,12 @@ translation_segments:
     review_status: review
     original: 新バージョン
     translation: 新版本
+    scan_box:
+      - 986
+      - 332
+      - 1047
+      - 549
+    writing_direction: vertical
   - speaker: 宝可梦 绿宝石
     type: heading
     kind: text
@@ -655,6 +999,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター エメラルド
     translation: 宝可梦 绿宝石
+    scan_box:
+      - 1061
+      - 207
+      - 1373
+      - 324
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -665,6 +1015,12 @@ translation_segments:
     review_status: review
     original: "●ゲームボーイアドバンス●04.9.16発売●4800円(込)[ソフトのみ3800円(込)]"
     translation: "●Game Boy Advance●04.9.16发售●4800日元（含税）[仅软件3800日元（含税）]"
+    scan_box:
+      - 1076
+      - 334
+      - 1373
+      - 416
+    writing_direction: horizontal
   - speaker: 挑战对战开拓区
     type: heading
     kind: text
@@ -676,6 +1032,12 @@ translation_segments:
     review_status: review
     original: バトルフロンティアに挑戦
     translation: 挑战对战开拓区
+    scan_box:
+      - 1061
+      - 436
+      - 1376
+      - 481
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -686,6 +1048,12 @@ translation_segments:
     review_status: review
     original: ワイヤレスアダプタ同梱版が先に発売され、無線通信をより浸透させた作品である。『ルビー・サファイア』に登場したバトルタワーを大幅にパワーアップさせた、バトルフロンティアが初登場。
     translation: 本作先发售了附带无线适配器的版本，使无线通信更加普及。在《红宝石·蓝宝石》中登场的对战塔被大幅强化，对战开拓区首次登场。
+    scan_box:
+      - 1047
+      - 487
+      - 1387
+      - 631
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -696,6 +1064,12 @@ translation_segments:
     review_status: review
     original: ポケモンしょうぶの さいせんせん！バトルフロンティアへ ようこそ！
     translation: 宝可梦对战的最终前线！欢迎来到对战开拓区！
+    scan_box:
+      - 1102
+      - 811
+      - 1300
+      - 858
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -706,6 +1080,12 @@ translation_segments:
     review_status: review
     original: ↑バトルフロンティアでは、7つの施設でさまざまなバトルに挑戦できる
     translation: ↑在对战开拓区，可以在7个设施中挑战各种对战
+    scan_box:
+      - 1061
+      - 881
+      - 1376
+      - 930
+    writing_direction: horizontal
   - speaker: 宝可梦 火红·叶绿
     type: heading
     kind: text
@@ -717,6 +1097,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター ファイアレッド・リーフグリーン
     translation: 宝可梦 火红·叶绿
+    scan_box:
+      - 243
+      - 649
+      - 960
+      - 705
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -727,6 +1113,12 @@ translation_segments:
     review_status: review
     original: "●ゲームボーイアドバンス ●04.1.29発売 ●各4800円(込)[ソフトのみ3800円(込)]"
     translation: "●Game Boy Advance ●04.1.29发售 ●各4800日元（含税）[仅软件3800日元（含税）]"
+    scan_box:
+      - 258
+      - 711
+      - 948
+      - 739
+    writing_direction: horizontal
   - speaker: 追加七之岛
     type: heading
     kind: text
@@ -738,6 +1130,12 @@ translation_segments:
     review_status: review
     original: ナナシマが追加される
     translation: 追加七之岛
+    scan_box:
+      - 243
+      - 760
+      - 588
+      - 803
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -748,6 +1146,23 @@ translation_segments:
     review_status: review
     original: 『赤・緑』の物語をGBA向けにリニューアルした作品。システムのベースは『ルビー・サファイア』で採用しているものなので、ゲーム性は『赤・緑』のころよりも大きく進化している。新たな土地ナナシマに行けるようになっており、7つある島ごとに、いろいろな出来事が楽しめるようになっている。ゲームを再開するときに、これまでのあらすじが流れたり、ワイヤレスアダプタでの無線通信に対応したりといった点も新しい。
     translation: 将《红·绿》的故事面向GBA重新制作的作品。系统基础采用了《红宝石·蓝宝石》中的内容，因此游戏性相比《红·绿》时期有了大幅进化。玩家可以前往新土地七之岛，在7座岛屿上分别享受各种事件。重新开始游戏时会播放此前剧情的梗概，并支持无线适配器的无线通信，这些也是新的特点。
+    scan_box:
+      - 243
+      - 807
+      - 588
+      - 926
+    scan_boxes:
+      - 
+        - 243
+        - 807
+        - 588
+        - 926
+      - 
+        - 620
+        - 754
+        - 963
+        - 926
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -758,6 +1173,12 @@ translation_segments:
     review_status: review
     original: 2002 2003 2004 2005 2006 2007 2008 2009
     translation: 2002 2003 2004 2005 2006 2007 2008 2009
+    scan_box:
+      - 123
+      - 981
+      - 1423
+      - 1028
+    writing_direction: horizontal
   - speaker: 宝可梦 钻石·珍珠
     type: heading
     kind: text
@@ -769,6 +1190,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター ダイヤモンド・パール
     translation: 宝可梦 钻石·珍珠
+    scan_box:
+      - 139
+      - 1075
+      - 927
+      - 1130
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -779,6 +1206,12 @@ translation_segments:
     review_status: review
     original: ●ニンテンドーDS ●06.9.28発売 ●各4800円(込)
     translation: ●任天堂DS ●06.9.28发售 ●各4800日元（含税）
+    scan_box:
+      - 156
+      - 1135
+      - 699
+      - 1163
+    writing_direction: horizontal
   - speaker: 以神奥地区为舞台，新的冒险开始
     type: heading
     kind: text
@@ -790,6 +1223,12 @@ translation_segments:
     review_status: review
     original: シンオウ地方を舞台に新たな冒険が始まる
     translation: 以神奥地区为舞台，新的冒险开始
+    scan_box:
+      - 139
+      - 1174
+      - 833
+      - 1217
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -800,6 +1239,23 @@ translation_segments:
     review_status: review
     original: 新ハード、新地方で繰り広げられる、シリーズ集大成ともいえる作品。DS本体の時計機能でゲーム内時間が変化し、ダブルスロットでGBA版からポケモンを連れてこられる。さらにWi-Fiを使った国内外を問わないポケモン交換や通信対戦などにも対応。登場ポケモンの数は全493種類で、そのうち107種類が新登場となる。システムでは、わざにぶつりやとくしゅ、へんかなどの分類が採用された。
     translation: 在新硬件、新地区展开，堪称系列集大成的作品。通过DS本体的时钟功能，游戏内时间会发生变化，并可通过双插槽从GBA版带来宝可梦。此外还支持使用Wi-Fi进行不分国内外的宝可梦交换和通信对战等。登场宝可梦总数为493种，其中107种为新登场。系统方面，招式采用了物理、特殊、变化等分类。
+    scan_box:
+      - 139
+      - 1223
+      - 413
+      - 1399
+    scan_boxes:
+      - 
+        - 139
+        - 1223
+        - 413
+        - 1399
+      - 
+        - 442
+        - 1223
+        - 717
+        - 1399
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -810,6 +1266,12 @@ translation_segments:
     review_status: review
     original: ↓ハードがDSになったことで、2画面を使った演出やタッチ操作が可能になった
     translation: ↓由于硬件变为DS，可以使用双屏演出的触摸操作
+    scan_box:
+      - 740
+      - 1255
+      - 927
+      - 1309
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -820,6 +1282,12 @@ translation_segments:
     review_status: review
     original: ポッチャマ Lv12
     translation: 波加曼 Lv12
+    scan_box:
+      - 743
+      - 1333
+      - 837
+      - 1352
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -830,6 +1298,12 @@ translation_segments:
     review_status: review
     original: ナエトル Lv1238/38
     translation: 草苗龟 Lv1238/38
+    scan_box:
+      - 877
+      - 1399
+      - 967
+      - 1434
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -840,6 +1314,23 @@ translation_segments:
     review_status: review
     original: ナエトルは どうする？たたかう
     translation: 草苗龟 要怎么做？战斗
+    scan_box:
+      - 750
+      - 1448
+      - 898
+      - 1466
+    scan_boxes:
+      - 
+        - 750
+        - 1448
+        - 898
+        - 1466
+      - 
+        - 818
+        - 1561
+        - 883
+        - 1579
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -850,6 +1341,28 @@ translation_segments:
     review_status: review
     original: バッグ にげる ポケモン
     translation: 包包 逃跑 宝可梦
+    scan_box:
+      - 754
+      - 1638
+      - 801
+      - 1657
+    scan_boxes:
+      - 
+        - 754
+        - 1638
+        - 801
+        - 1657
+      - 
+        - 837
+        - 1638
+        - 883
+        - 1657
+      - 
+        - 912
+        - 1638
+        - 963
+        - 1657
+    writing_direction: horizontal
   - speaker: 新版本
     type: heading
     kind: text
@@ -861,6 +1374,12 @@ translation_segments:
     review_status: review
     original: 新バージョン
     translation: 新版本
+    scan_box:
+      - 960
+      - 1153
+      - 1018
+      - 1370
+    writing_direction: vertical
   - speaker: 宝可梦 白金
     type: heading
     kind: text
@@ -872,6 +1391,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター プラチナ
     translation: 宝可梦 白金
+    scan_box:
+      - 1040
+      - 1077
+      - 1370
+      - 1194
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -882,6 +1407,12 @@ translation_segments:
     review_status: review
     original: ●ニンテンドーDS●08.9.13発売 ●4800円(込)
     translation: ●任天堂DS●08.9.13发售 ●4800日元（含税）
+    scan_box:
+      - 1054
+      - 1198
+      - 1351
+      - 1249
+    writing_direction: horizontal
   - speaker: 新形态的宝可梦登场
     type: heading
     kind: text
@@ -893,6 +1424,12 @@ translation_segments:
     review_status: review
     original: 新フォルムのポケモン登場
     translation: 新形态的宝可梦登场
+    scan_box:
+      - 1040
+      - 1270
+      - 1365
+      - 1313
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -903,6 +1440,12 @@ translation_segments:
     review_status: review
     original: ギラティナ、シェイミ、ロトムの新フォルムが登場。「やぶれたせかい」などの新マップや新キャラが追加された。バトルフロンティアが、装いも新たに復活している。
     translation: 骑拉帝纳、谢米、洛托姆的新形态登场。追加了「毁坏的世界」等新地图和新角色。对战开拓区以全新面貌复活。
+    scan_box:
+      - 1040
+      - 1319
+      - 1365
+      - 1438
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -913,6 +1456,12 @@ translation_segments:
     review_status: review
     original: →ギラティナのオリジンフォルムが新登場！！
     translation: →骑拉帝纳的起源形态新登场！！
+    scan_box:
+      - 1025
+      - 1446
+      - 1080
+      - 1556
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -923,6 +1472,12 @@ translation_segments:
     review_status: review
     original: ギラティナ Lv47やせいの
     translation: 骑拉帝纳 Lv47 野生的
+    scan_box:
+      - 1095
+      - 1473
+      - 1203
+      - 1491
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -933,6 +1488,12 @@ translation_segments:
     review_status: review
     original: ギラティナが あらわれた！
     translation: 骑拉帝纳 出现了！
+    scan_box:
+      - 1105
+      - 1608
+      - 1257
+      - 1645
+    writing_direction: horizontal
   - speaker: 宝可梦 水晶版
     type: heading
     kind: text
@@ -944,6 +1505,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター クリスタルバージョン
     translation: 宝可梦 水晶版
+    scan_box:
+      - 138
+      - 1456
+      - 689
+      - 1509
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -954,6 +1521,12 @@ translation_segments:
     review_status: review
     original: ●ゲームボーイカラー専用 ●00.12.14発売 ●3990円(込)
     translation: ●Game Boy Color专用 ●00.12.14发售 ●3990日元（含税）
+    scan_box:
+      - 152
+      - 1516
+      - 682
+      - 1544
+    writing_direction: horizontal
   - speaker: 支持移动适配器GB
     type: heading
     kind: text
@@ -965,6 +1538,12 @@ translation_segments:
     review_status: review
     original: モバイルアダプタGB対応
     translation: 支持移动适配器GB
+    scan_box:
+      - 138
+      - 1565
+      - 508
+      - 1608
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -975,6 +1554,12 @@ translation_segments:
     review_status: review
     original: シリーズ初、主人公に女の子を選ぶことができる。モバイルアダプタGBに対応し、携帯電話をつないでポケモン交換やハイレベルな戦闘再現データの受取などができた（現在はサービス停止）。
     translation: 系列首次可以选择女主角。支持移动适配器GB，连接手机可以进行宝可梦交换和接收高水平战斗重现数据等（现已停止服务）。
+    scan_box:
+      - 138
+      - 1614
+      - 508
+      - 1733
+    writing_direction: horizontal
   - speaker: 翻新
     type: heading
     kind: text
@@ -986,6 +1571,12 @@ translation_segments:
     review_status: review
     original: リニューアル
     translation: 翻新
+    scan_box:
+      - 211
+      - 1800
+      - 420
+      - 1843
+    writing_direction: horizontal
   - speaker: 然后2009年9月12日……最新作《心金·魂银》发售
     type: heading
     kind: text
@@ -997,6 +1588,12 @@ translation_segments:
     review_status: review
     original: そして09年9月12日…最新作『ハートゴールド・ソウルシルバー』発売
     translation: 然后2009年9月12日……最新作《心金·魂银》发售
+    scan_box:
+      - 740
+      - 1704
+      - 1406
+      - 1800
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1007,6 +1604,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p072_gf_interview_title.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.72
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: GAME FREAK特别专访
     type: heading
     kind: text
@@ -1018,6 +1617,23 @@ translation_segments:
     review_status: review
     original: ゲームフリークスペシャルインタビュー
     translation: GAME FREAK特别专访
+    scan_box:
+      - 278
+      - 86
+      - 1225
+      - 328
+    scan_boxes:
+      - 
+        - 278
+        - 86
+        - 1225
+        - 328
+      - 
+        - 352
+        - 281
+        - 1402
+        - 457
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1028,6 +1644,12 @@ translation_segments:
     review_status: review
     original: "「ポケットモンスター ハートゴールド・ソウルシルバー」の発売を記念し、開発を手がけたゲームフリークを直撃取材!! 『金・銀』当時の思い出から『HG・SS』の見どころまで、たっぷり語ってもらった（聞き手は本誌副編集長・マッスル）。"
     translation: 为纪念《宝可梦 心金·魂银》发售，我们直接采访了负责开发的GAME FREAK！！从《金·银》当时的回忆到《心金·魂银》的看点，他们畅谈了诸多内容（采访人为本刊副主编·Muscle）。
+    scan_box:
+      - 142
+      - 481
+      - 582
+      - 670
+    writing_direction: horizontal
   - speaker: 从《金·银》到《心金·魂银》，跨越10年的心意
     type: heading
     kind: text
@@ -1039,6 +1661,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』から『HG・SS』へ10年越しの想い
     translation: 从《金·银》到《心金·魂银》，跨越10年的心意
+    scan_box:
+      - 640
+      - 516
+      - 1153
+      - 662
+    writing_direction: horizontal
   - speaker: 《金·银》这部作品，对我们来说是特别的（增田先生）
     type: heading
     kind: text
@@ -1050,6 +1678,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』という作品は、自分たちにとって特別なんです（増田さん）
     translation: 《金·银》这部作品，对我们来说是特别的（增田先生）
+    scan_box:
+      - 116
+      - 733
+      - 1271
+      - 803
+    writing_direction: horizontal
   - speaker: 经过长时间打磨的《金·银》重制作品
     type: heading
     kind: text
@@ -1061,6 +1695,12 @@ translation_segments:
     review_status: review
     original: 長い期間練り込んだ『金・銀』リニューアル作
     translation: 经过长时间打磨的《金·银》重制作品
+    scan_box:
+      - 127
+      - 815
+      - 319
+      - 877
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1071,6 +1711,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』シリーズ最新作『ハートゴールド・ソウルシルバー』（以下『HG・SS』）は、1999年にゲームボーイで発売された『金・銀』のリニューアル作となります。『金・銀』をリニューアルしようという構想自体は、いつごろからあったのですか？
     translation: 《宝可梦》系列最新作《心金·魂银》（以下简称《心金·魂银》）是1999年在Game Boy上发售的《金·银》的重制作品。重制《金·银》这一构想本身，是从什么时候开始有的呢？
+    scan_box:
+      - 119
+      - 897
+      - 414
+      - 1081
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1081,6 +1727,23 @@ translation_segments:
     review_status: review
     original: 構想自体は、2004年に『赤・緑』を『ファイアレッド・リーフグリーン』（以下『FR・LG』）にリニューアルしたことがありましたので、『金・銀』もという思いがありました。ただどういうタイミングでやるのが一番いいかと考えてたときに、『金・銀』が1999年発売だったので、その10年後ぐらいに、何かしら新しい要素を取り入れつつできたらいいなと漠然と考えてはいました。実際に開発が始まったのは、『ダイヤモンド・パール』（以下『D・P』）の開発が終わってからです。
     translation: 构想本身的话，2004年我们曾把《红·绿》重制成《火红·叶绿》（以下简称《火红·叶绿》），所以也有重制《金·银》的想法。只是在思考什么时候做最合适的时候，因为《金·银》是1999年发售的，就模糊地想着大约10年后，能在加入一些新要素的同时做出来就好了。实际开始开发，是在《钻石·珍珠》（以下简称《钻石·珍珠》）的开发结束之后。
+    scan_box:
+      - 116
+      - 1085
+      - 414
+      - 1130
+    scan_boxes:
+      - 
+        - 116
+        - 1085
+        - 414
+        - 1130
+      - 
+        - 443
+        - 809
+        - 738
+        - 1130
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1091,6 +1754,23 @@ translation_segments:
     review_status: review
     original: 『D・P』が終わってからですと、2006年ですね。
     translation: 《钻石·珍珠》结束之后的话，那就是2006年了呢。
+    scan_box:
+      - 443
+      - 1137
+      - 738
+      - 1182
+    scan_boxes:
+      - 
+        - 443
+        - 1137
+        - 738
+        - 1182
+      - 
+        - 765
+        - 809
+        - 1060
+        - 854
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1101,6 +1781,12 @@ translation_segments:
     review_status: review
     original: そうです。もう3年もたってしまいました（笑）。
     translation: 是的。已经过去3年了（笑）。
+    scan_box:
+      - 765
+      - 858
+      - 1060
+      - 901
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1111,6 +1797,12 @@ translation_segments:
     review_status: review
     original: 3年というのは、同じリニューアル作の『FR・LG』に比べても長いほうなのですか？
     translation: 3年这个时间，与同样是重制作品的《火红·叶绿》相比也算长的吗？
+    scan_box:
+      - 765
+      - 907
+      - 1060
+      - 952
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1121,6 +1813,23 @@ translation_segments:
     review_status: review
     original: 長いですね。『FR・LG』は1年ちょっとくらいでした。『金・銀』という作品は自分たちにとっても特別な位置付けなので、そのリニューアル作はいいものにしたい！と練り込んでいる時間が長かったんです。あと同時並行で『プラチナ』も作っていたので、このプロジェクトも当初は12〜13人くらいで立ち上げました。小人数とは言えないんですが、大人数ではなかったんです。
     translation: 算长的。《火红·叶绿》大概用了一年多一点。因为《金·银》这部作品对我们来说也处于特别的位置，所以想把它的重制作品做好！抱着这个想法打磨的时间很长。另外当时还并行制作着《白金》，所以这个项目起初也是以12到13人左右启动的。虽说不能算少，但也不是很多人。
+    scan_box:
+      - 765
+      - 956
+      - 1060
+      - 1141
+    scan_boxes:
+      - 
+        - 765
+        - 956
+        - 1060
+        - 1141
+      - 
+        - 1086
+        - 809
+        - 1381
+        - 942
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1131,6 +1840,12 @@ translation_segments:
     review_status: review
     original: 今のお話の中で、『金・銀』は自分たちにとっても特別というお話がありましたが、それはどんな点が？
     translation: 在刚才的谈话中，您提到《金·银》对你们自己来说也是特别的作品，具体是在哪些方面呢？
+    scan_box:
+      - 1086
+      - 946
+      - 1381
+      - 1014
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1141,6 +1856,12 @@ translation_segments:
     review_status: review
     original: たぶん1人1人違うんでしょうが（笑）。自分が『金・銀』を特別と思うのは、『赤・緑』発売直後にはもう『金・銀』を作ることが決まっていたのですが、『金・銀』を作っている最中にどんどん『赤・緑』が売れていき、当初「このぐらいでいいんじゃないか」と思っていた『金・銀』が、もっとずっと多くのプレイヤーに期待されていると感じてきて。それに応えるべく、いろんな遊びを追加していったので、すごく時間がかかったんです。結局3年ですか。もっと良くしよう、もっと驚かせよう、『赤・緑』を超えようという思いが強かったので、自分にとっては特別な作品でした。
     translation: 大概每个人都不一样吧（笑）。我自己觉得《金·银》特别，是因为《红·绿》刚发售就已经决定要制作《金·银》了，但在制作《金·银》的过程中，《红·绿》越来越畅销，原本觉得“做到这种程度就可以了吧”的《金·银》，开始感觉到被更多玩家所期待。为了回应这份期待，我们追加了各种各样的玩法，所以花了非常多时间。结果花了3年吧。想要做得更好、带来更多惊喜、超越《红·绿》的想法很强烈，所以对我来说是特别的作品。
+    scan_box:
+      - 1086
+      - 1018
+      - 1381
+      - 1417
+    writing_direction: horizontal
   - speaker: 本次接受采访的是……
     type: heading
     kind: text
@@ -1152,6 +1873,12 @@ translation_segments:
     review_status: review
     original: 今回、お話をうかがったのは…
     translation: 本次接受采访的是……
+    scan_box:
+      - 319
+      - 1161
+      - 1005
+      - 1212
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1162,6 +1889,43 @@ translation_segments:
     review_status: review
     original: "サウンドデザイナー\n一之瀬剛さん\nアートディレクター\n海野隆雄さん\nディレクター\n森本茂樹さん\nプロデューサー\n増田順一さん\nゲームデザイナー\n松島賢二さん\nプログラマー\n森 昭人さん"
     translation: "音效设计师\n一之濑刚\n美术总监\n海野隆雄\n总监\n森本茂树\n制作人\n增田顺一\n游戏设计师\n松岛贤二\n程序员\n森昭人"
+    scan_box:
+      - 113
+      - 1233
+      - 272
+      - 1307
+    scan_boxes:
+      - 
+        - 113
+        - 1233
+        - 272
+        - 1307
+      - 
+        - 272
+        - 1260
+        - 432
+        - 1335
+      - 
+        - 437
+        - 1233
+        - 597
+        - 1307
+      - 
+        - 602
+        - 1260
+        - 762
+        - 1335
+      - 
+        - 767
+        - 1233
+        - 927
+        - 1307
+      - 
+        - 933
+        - 1260
+        - 1092
+        - 1335
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1172,6 +1936,12 @@ translation_segments:
     review_status: review
     original: ホウオウ Lv45やせいの
     translation: 凤王 Lv45 野生
+    scan_box:
+      - 1118
+      - 1454
+      - 1228
+      - 1470
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1182,6 +1952,12 @@ translation_segments:
     review_status: review
     original: ホウオウが あらわれた！
     translation: 凤王出现了！
+    scan_box:
+      - 1132
+      - 1618
+      - 1344
+      - 1638
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1192,6 +1968,23 @@ translation_segments:
     review_status: review
     original: Upper screen↑思いの強い作品ということもあり、リニューアルにはかなりの時間がかかった
     translation: Upper screen↑ 因为是倾注了心血的作品，重制花费了相当长的时间
+    scan_box:
+      - 1118
+      - 1642
+      - 1219
+      - 1659
+    scan_boxes:
+      - 
+        - 1118
+        - 1642
+        - 1219
+        - 1659
+      - 
+        - 1132
+        - 1663
+        - 1367
+        - 1737
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1202,6 +1995,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p073_masuda_morimoto.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.73
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 心金 魂银
     type: heading
     kind: text
@@ -1213,6 +2008,12 @@ translation_segments:
     review_status: review
     original: ALL ABOUT ポケットモンスター ハートゴールド ソウルシルバー
     translation: ALL ABOUT 宝可梦 心金 魂银
+    scan_box:
+      - 721
+      - 115
+      - 1332
+      - 170
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: heading
     kind: text
@@ -1224,6 +2025,12 @@ translation_segments:
     review_status: review
     original: 増田順一さん
     translation: 增田顺一
+    scan_box:
+      - 122
+      - 205
+      - 495
+      - 301
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1234,6 +2041,12 @@ translation_segments:
     review_status: review
     original: 株式会社ゲームフリーク 取締役 開発部長プロデューサーとして、企画の立ち上げや開発メンバー集めなどで陣頭指揮をとる。
     translation: GAME FREAK 董事 开发部长 制作人，负责企划的启动和开发成员的召集等，站在指挥前线。
+    scan_box:
+      - 546
+      - 207
+      - 1024
+      - 297
+    writing_direction: horizontal
   - speaker: ●《金·银》开发当时的回忆
     type: heading
     kind: text
@@ -1245,6 +2058,12 @@ translation_segments:
     review_status: review
     original: ●『金・銀』開発当時の思い出
     translation: ●《金·银》开发当时的回忆
+    scan_box:
+      - 407
+      - 311
+      - 666
+      - 348
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1255,6 +2074,23 @@ translation_segments:
     review_status: review
     original: 『金・銀』では田房（田尻智さん。ゲームフリーク代表取締役社長）に代わってディレクションをやることになりまして。『金・銀』の舞台となるジョウト地方の世界観を固めるために、実際に京都に行ってみました。ホテルに泊まりつつあちこちのお寺を回って取材し、ホテルに戻ったらみんなでワーッと話し合って、マップのここに何かがあるとかを決めていった記憶がありますね。例えば東寺の塔に行ったとき「昔は西寺があったんだよ」という話を聞いて、「あっ、それは使いたいな」と思って「やけたとう」を入れたり。東京に帰ってきたときには、ジョウト地方はこんな形で、ここに何があって、こういう出来事があって…というイメージが出来上がっていましたね。あと『金・銀』では自分と一之瀬の2人で音楽をやっていました。
     translation: 在《金·银》中，我代替田房（田尻智。GAME FREAK 代表董事社长）担任总监。为了确定《金·银》的舞台城都地区的世界观，我实际去了京都。住在酒店的同时走访各处寺庙取材，回到酒店后大家一起热烈讨论，决定地图的这里有什么之类的。比如去东寺的塔时，听到“以前这里有西寺”的故事，就想“啊，这个想用上”，于是加入了“烧焦塔”。回到东京时，城都地区是这样的形状、这里有什么、发生了这样的事件……这样的印象已经成型了。另外在《金·银》中，我和一之濑两个人负责音乐。
+    scan_box:
+      - 404
+      - 352
+      - 699
+      - 670
+    scan_boxes:
+      - 
+        - 404
+        - 352
+        - 699
+        - 670
+      - 
+        - 727
+        - 311
+        - 1024
+        - 506
+    writing_direction: horizontal
   - speaker: ●在《HG·SS》中喜欢的宝可梦是？
     type: heading
     kind: text
@@ -1266,6 +2102,12 @@ translation_segments:
     review_status: review
     original: ●『HG・SS』で好きなポケモンは？
     translation: ●在《HG·SS》中喜欢的宝可梦是？
+    scan_box:
+      - 730
+      - 524
+      - 1022
+      - 561
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1276,6 +2118,12 @@ translation_segments:
     review_status: review
     original: ピチューです。ピカチュウとは違う形のかわいいポケモンがほしいと思って、悩みながら練り込んで練り込んでようやくできたキャラだったので。
     translation: 是皮丘。我一直想要一只和皮卡丘不同形态的可爱宝可梦，烦恼着反复琢磨、反复打磨，才终于做出来的角色。
+    scan_box:
+      - 728
+      - 563
+      - 1024
+      - 668
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1286,6 +2134,12 @@ translation_segments:
     review_status: review
     original: ポケウォーカーでしか入手できないポケモンも
     translation: 也有只能通过宝可梦计步器获得的宝可梦
+    scan_box:
+      - 1076
+      - 201
+      - 1358
+      - 272
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1296,6 +2150,12 @@ translation_segments:
     review_status: review
     original: ポケウォーカー同梱で4800円（込）という価格は、お買い得ですよね。
     translation: 同捆宝可梦计步器，价格4800日元（含税），很划算吧。
+    scan_box:
+      - 1074
+      - 281
+      - 1361
+      - 336
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1306,6 +2166,12 @@ translation_segments:
     review_status: review
     original: 我々もすごいと思います（笑）。
     translation: 我们也觉得很厉害（笑）。
+    scan_box:
+      - 1074
+      - 338
+      - 1341
+      - 362
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1316,6 +2182,12 @@ translation_segments:
     review_status: review
     original: プレイヤーさんのことを考えると、やはり高くはできないですからね。さまざまな方々の努力で、この価格が実現できました。
     translation: 考虑到玩家，果然还是不能定得太高。多亏各方人士的努力，才实现了这个价格。
+    scan_box:
+      - 1074
+      - 365
+      - 1361
+      - 465
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1326,6 +2198,12 @@ translation_segments:
     review_status: review
     original: あんなに小さな画面なのに、ちゃんとポケモンとのバトルやどうぐ探しが楽しめるんですね。
     translation: 那么小的屏幕，却能好好地享受与宝可梦的对战和找道具呢。
+    scan_box:
+      - 1074
+      - 469
+      - 1363
+      - 545
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1336,6 +2214,12 @@ translation_segments:
     review_status: review
     original: 本編での「ポケモンを捕まえる」イメージを壊さずに、なるべく単純に、しかもちょっと駆け引きがあるという演出をしたかったので、ああいう感じにしました。たまたまこちらの攻撃が急所に当たって逃がしちゃうとか、遊んでいて楽しい・悔しいと感じられるようなバランスになってるかと思います。
     translation: 我想在不破坏正篇中“捕捉宝可梦”印象的前提下，尽量做得简单，同时又带一点博弈的演出，所以就做成了那种感觉。偶尔自己的攻击打中要害让它逃掉，玩起来能感到开心或不甘心，我觉得平衡调成了这样。
+    scan_box:
+      - 1074
+      - 547
+      - 1363
+      - 735
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1346,6 +2230,12 @@ translation_segments:
     review_status: review
     original: ポケウォーカーでしか入手できないポケモンもいるのでしょうか？
     translation: 也有只能通过宝可梦计步器获得的宝可梦吗？
+    scan_box:
+      - 1074
+      - 739
+      - 1363
+      - 791
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1356,6 +2246,12 @@ translation_segments:
     review_status: review
     original: そうですね。『HG・SS』の中では、ポケウォーカーでしか出てこないポケモンもいますよ。
     translation: 是的。在《HG·SS》中，也有只有宝可梦计步器里才会出现的宝可梦哦。
+    scan_box:
+      - 1074
+      - 793
+      - 1363
+      - 885
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1366,6 +2262,12 @@ translation_segments:
     review_status: review
     original: ピカチュウ が とびだしてきた！
     translation: 皮卡丘 跳出来了！
+    scan_box:
+      - 1156
+      - 975
+      - 1376
+      - 1034
+    writing_direction: horizontal
   - speaker: 在标题中加上“Heart”和“Soul”的理由
     type: heading
     kind: text
@@ -1377,6 +2279,12 @@ translation_segments:
     review_status: review
     original: タイトルに「ハート」と「ソウル」をつけた理由
     translation: 在标题中加上“Heart”和“Soul”的理由
+    scan_box:
+      - 111
+      - 723
+      - 394
+      - 795
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1387,6 +2295,12 @@ translation_segments:
     review_status: review
     original: なぜタイトルを単に『ゴールド・シルバー』ではなく、さらに言葉を加えて『ハートゴールド・ソウルシルバー』にしたのですか？
     translation: 为什么标题不直接叫《金·银》，而是加上词叫《心金·魂银》呢？
+    scan_box:
+      - 110
+      - 803
+      - 397
+      - 903
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1397,6 +2311,12 @@ translation_segments:
     review_status: review
     original: 『ファイアレッド・リーフグリーン』もそうですが、タイトルにちょっと色を加えてイメージしやすくしたかったので、『〇〇〇ゴールド・〇〇〇シルバー』でいこうとは考えていました。それでいろいろ案を出したんですが、今回はポケモンのつれあるきですとか、ホウオウ・ルギアとの関わり合いですとか、そういった「ポケモンといかに触れ合うか」が大きなテーマになっていますので、それに近いイメージで「ハート」と「ソウル」を選びました。
     translation: 《火红·叶绿》也是这样，我们想在标题里加一点颜色，让人更容易联想，所以一开始就打算用“〇〇〇金·〇〇〇银”的形式。于是提出了各种方案，这次因为宝可梦的散步、与凤王·洛奇亚的关联等，“如何与宝可梦互动”成了很大的主题，所以选了与之相近意象的“心”和“魂”。
+    scan_box:
+      - 110
+      - 905
+      - 398
+      - 1214
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1407,6 +2327,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』をニンテンドーDSでリニューアルするにあたって、極力『金・銀』らしさを残そうとした部分と、思い切り変えようとした部分があれば教えてください。
     translation: 在把《金·银》用任天堂DS重制时，请告诉我们哪些部分尽量保留了《金·银》的味道，哪些部分则大胆做了改变。
+    scan_box:
+      - 110
+      - 1219
+      - 398
+      - 1346
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1417,6 +2343,12 @@ translation_segments:
     review_status: review
     original: まず『金・銀』を遊んだ人たちが、当時どういうことに驚いたか、どういうところで感動したのかという「記憶」を再現することには、こだわっていました。「このトレーナーが強かったなぁ」といった記憶は、ちゃんと残しておきたいと思っています。『金・銀』のときから変化させたのは、「より豪華に」「よりボリュームを上げて」という部分ですね。殿堂入り後はカントー地方でも冒険が楽しめるのですが、『金・銀』当時に作ったカントー地方よりも、ぐっとボリュームアップさせています。もちろん通常のフィールドも、『金・銀』とは全然違うぐらいのボリュームになっていますよ。
     translation: 首先，我们很执着于重现玩过《金·银》的人当时的“记忆”——当时对什么感到惊讶、在哪里受到感动。“这个训练家很强啊”之类的记忆，我想好好保留下来。从《金·银》时起改变的是“更豪华”“内容更丰富”这些部分。登入名人堂后，在关都地区也能享受冒险，但比《金·银》当时做的关都地区，内容大幅增加了。当然普通地图的内容也丰富到和《金·银》完全不同的程度。
+    scan_box:
+      - 110
+      - 1348
+      - 400
+      - 1755
+    writing_direction: horizontal
   - speaker: 使用新设备游玩的“宝可梦计步器”
     type: heading
     kind: text
@@ -1428,6 +2360,12 @@ translation_segments:
     review_status: review
     original: 新しいデバイスを使った遊び「ポケウォーカー」
     translation: 使用新设备游玩的“宝可梦计步器”
+    scan_box:
+      - 433
+      - 721
+      - 715
+      - 793
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1438,6 +2376,12 @@ translation_segments:
     review_status: review
     original: 注目の新要素というと、まずはポケウォーカーですね。ソフト同梱は、開発当初から考えていたのですか？
     translation: 说到受关注的新要素，首先就是宝可梦计步器。软件同捆这一点，是从开发初期就考虑的吗？
+    scan_box:
+      - 430
+      - 801
+      - 718
+      - 877
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1448,6 +2392,12 @@ translation_segments:
     review_status: review
     original: いや、それはなかったです。ただ『FR・LG』のワイヤレスアダプタのように、新しいデバイスを使って新しい遊びができないかと、任天堂さんや株式会社ポケモンさんと話してはいました。その中で、『歩いてわかる生活リズムDS』というソフトで歩数計があるという話をいただき、これを使って『金・銀』当時 に同時発売された『ポケットピカチュウカラー 金・銀といっしょ！』という歩数計もリニューアルできたらいいなと思いまして。最初は単純に「ポケットピカチュウ」を再現する話もあったんですが、もっとボリュームとゲーム性のあるものにしようと考え、今の形なっていきました。
     translation: 不，并没有。只是像《FR·LG》的无线适配器那样，我们和任天堂、株式会社宝可梦谈过能不能用新设备做新的玩法。其中，他们提到《走一走就明白的生活节奏DS》这款软件里有计步器，我就想如果能用它把《金·银》当时同时发售的《口袋皮卡丘彩色 和金·银一起！》这款计步器也重制就好了。最初也有单纯重现“口袋皮卡丘”的方案，但我想做成内容更丰富、更有游戏性的东西，就变成了现在的形式。
+    scan_box:
+      - 430
+      - 879
+      - 720
+      - 1102
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1458,6 +2408,12 @@ translation_segments:
     review_status: review
     original: 昔の「ポケットピカチュウ」と『金・銀』は、あくまで距離を置いた「2つのもの」だったんですが、ポケウォーカーは『HG・SS』と一体型というべき商品だったので、やはり同梱するのに大きな意味があると思います。
     translation: 以前的“口袋皮卡丘”和《金·银》说到底是有距离的“两个东西”，而宝可梦计步器可以说是与《HG·SS》一体的商品，所以同捆还是有很大意义的。
+    scan_box:
+      - 752
+      - 715
+      - 1043
+      - 1102
+    writing_direction: horizontal
   - speaker: “如何与宝可梦互动”成了很大的主题（森本）
     type: heading
     kind: text
@@ -1469,6 +2425,12 @@ translation_segments:
     review_status: review
     original: 「ポケモンといかに触れ合うか」が大きなテーマになっています（森本さん）
     translation: “如何与宝可梦互动”成了很大的主题（森本）
+    scan_box:
+      - 430
+      - 1112
+      - 1347
+      - 1217
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: heading
     kind: text
@@ -1480,6 +2442,12 @@ translation_segments:
     review_status: review
     original: 森本茂樹さん
     translation: 森本茂树
+    scan_box:
+      - 452
+      - 1257
+      - 822
+      - 1335
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1490,6 +2458,12 @@ translation_segments:
     review_status: review
     original: 株式会社ゲームフリーク 開発部 ゲームディレクターディレクターとして、全体を統括する。過去には『エメラルド』のディレクターなども務めている。
     translation: GAME FREAK 开发部 游戏总监。作为总监统括整体。过去也曾担任《绿宝石》的总监等。
+    scan_box:
+      - 879
+      - 1243
+      - 1350
+      - 1331
+    writing_direction: horizontal
   - speaker: ●《金·银》开发当时的回忆
     type: heading
     kind: text
@@ -1501,6 +2475,12 @@ translation_segments:
     review_status: review
     original: ●『金・銀』開発当時の思い出
     translation: ●《金·银》开发当时的回忆
+    scan_box:
+      - 736
+      - 1346
+      - 993
+      - 1382
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1511,6 +2491,12 @@ translation_segments:
     review_status: review
     original: 私は、当時はプログラマーをやっていました。おもに戦闘とか、ポケモンの能力値とか。とはいえ、プログラマーは4名程度でしたので、何でもやりますという感じでした。『金・銀』は開発中にゲームボーイカラーが出たとか、ポケットプリンタが出たとか、ポケットピカチュウと通信しようとか、そういう要素がどんどん入ってきたうえに、さらにカントーも入れよう、時計機能も使おうという感じで、最初の構想よりどんどん作業が増えていった記憶があります。
     translation: 我当时在做程序员。主要负责战斗、宝可梦的能力值之类。不过程序员只有4个人左右，所以感觉是什么都得干。《金·银》在开发过程中出了Game Boy Color，出了口袋打印机，还能和口袋皮卡丘通信，这类要素不断加进来，再加上还要加入关都、还要用时钟功能，我记得工作量比最初的构想不断增加。
+    scan_box:
+      - 734
+      - 1386
+      - 1028
+      - 1704
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1521,6 +2507,12 @@ translation_segments:
     review_status: review
     original: 当時は私もすでにゲーム雑誌の編集者をやっていたんですが、最初の発表から発売までの期間が、すごく長かった記憶があります。
     translation: 当时我也已经在做游戏杂志的编辑了，我记得从最初发表到发售的这段时间非常长。
+    scan_box:
+      - 736
+      - 1706
+      - 1028
+      - 1790
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1531,6 +2523,12 @@ translation_segments:
     review_status: review
     original: そうですね。『赤・緑』のときも入れたいものがたくさんあったんですけど、いったん「これで終わり」と区切りをつけて発売したんです。その分、『金・銀』は『赤・緑』でやり足らなかったことをすべてやり尽くした感じで、良いものが出来上がったんじゃないかと考えています。
     translation: 是啊。《红·绿》的时候也有很多想加进去的东西，但还是先告一段落，以“就到这里”的形式发售了。相应地，《金·银》感觉是把《红·绿》没做够的事情全都做尽了，我觉得做出了不错的东西。
+    scan_box:
+      - 1060
+      - 1346
+      - 1354
+      - 1595
+    writing_direction: horizontal
   - speaker: ●在《HG·SS》中喜欢的宝可梦是？
     type: heading
     kind: text
@@ -1542,6 +2540,12 @@ translation_segments:
     review_status: review
     original: ●『HG・SS』で好きなポケモンは？
     translation: ●在《HG·SS》中喜欢的宝可梦是？
+    scan_box:
+      - 1060
+      - 1622
+      - 1351
+      - 1657
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1552,6 +2556,12 @@ translation_segments:
     review_status: review
     original: ツボツボです。ツボツボは非常に硬いポケモンを作ろうと思って、デザインも能力も自分が考えたものなんです。私はもともとマニアックなポケモンが好きなので、結構愛着がありますね。
     translation: 是壶壶。壶壶是我想要做一只非常坚硬的宝可梦，设计和能力都是我自己想的。我本来就喜欢偏小众的宝可梦，所以对它相当有感情。
+    scan_box:
+      - 1060
+      - 1659
+      - 1354
+      - 1786
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1562,6 +2572,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p074_takao_unno.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.74
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 想做一款能轻松游玩的“宝可梦奥运会”
     type: heading
     kind: text
@@ -1573,6 +2585,12 @@ translation_segments:
     review_status: review
     original: 手軽に遊べる「ポケモンのオリンピック」を作ろうと
     translation: 想做一款能轻松游玩的“宝可梦奥运会”
+    scan_box:
+      - 81
+      - 190
+      - 365
+      - 254
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1583,6 +2601,12 @@ translation_segments:
     review_status: review
     original: 今回の新要素の1つに「ポケスロン」がありますが、純粋なアクションゲームが入るのは、『ポケットモンスター』シリーズでは珍しいですよね。
     translation: 这次的新要素之一是“宝可梦全能竞技赛”，不过加入纯粹的动作游戏，在《宝可梦》系列里很少见吧。
+    scan_box:
+      - 81
+      - 262
+      - 376
+      - 365
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1593,6 +2617,12 @@ translation_segments:
     review_status: review
     original: ポケモンのオリンピックみたいな感じで、ポケモンを使ったアクションゲームができたらいいねという話は、以前からあったんです。今回はつれあるき用に全ポケモンを描き起こしましたので、これを活用すれば新しい遊びを作れると考えました。また以前のポケモンスーパーコンテストはじっくり育てて遊ぶものだったので、もっと手軽にできるものがあってもいいかなと思い、今回のポケスロンのような形になりました。
     translation: 以前就聊过，要是能做一款像宝可梦奥运会那样、用宝可梦来玩的动作游戏就好了。这次为了“带着走”重新绘制了所有宝可梦，我就想如果能活用这些，应该能做出新的玩法。另外以前的宝可梦超级大赛是需要慢慢培育来玩的，所以我觉得也可以有更轻松就能玩的东西，于是就变成了这次宝可梦全能竞技赛这样的形式。
+    scan_box:
+      - 81
+      - 373
+      - 376
+      - 631
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1603,6 +2633,12 @@ translation_segments:
     review_status: review
     original: ポケスロンではパフォーマンスという専用の能力を使いますね。
     translation: 宝可梦全能竞技赛里会使用“表现”这一专用能力呢。
+    scan_box:
+      - 81
+      - 639
+      - 376
+      - 690
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1613,6 +2649,12 @@ translation_segments:
     review_status: review
     original: 通常の能力はじっくり育てて伸ばすものなので、気軽に遊びにくい部分が出てきます。進化前でも進化後でも、どんなポケモンでも参加できるように、新たなパラメーターを設定しました。
     translation: 通常的能力是要慢慢培育来提升的，所以会有不太容易轻松游玩的部分。为了让进化前也好进化后也好、任何宝可梦都能参加，我们设定了新的参数。
+    scan_box:
+      - 81
+      - 698
+      - 376
+      - 827
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1623,6 +2665,12 @@ translation_segments:
     review_status: review
     original: 1匹動かすのではなく、3匹1組にしたのも面白いですね。
     translation: 不是操作1只，而是3只一组，这一点也很有意思呢。
+    scan_box:
+      - 81
+      - 836
+      - 376
+      - 887
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -1633,6 +2681,12 @@ translation_segments:
     review_status: review
     original: 複数のポケモンを出させた方が、プレイヤーの個性が出ると思いまして。また3匹を同時に扱わせることで、ゲームの幅ややりごたえを生み出しやすいという意味もあります。
     translation: 我觉得让玩家派出多只宝可梦，更能体现出玩家的个性。另外让玩家同时操作3只，也意味着更容易产生游戏的广度和耐玩度。
+    scan_box:
+      - 81
+      - 895
+      - 376
+      - 1022
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1643,6 +2697,12 @@ translation_segments:
     review_status: review
     original: 3匹というのは悩ましいですよね。このポケモンで行けば最初の競技は有利なんだけど、次の競技だと不利になったりすることが結構あるので。そこが面白いところでもあるんですが。
     translation: 3只这一点确实让人头疼。用这只宝可梦去打的话，第一项竞技会有利，但到了下一项竞技往往又会变得不利。这也正是有趣的地方。
+    scan_box:
+      - 81
+      - 1030
+      - 376
+      - 1178
+    writing_direction: horizontal
   - speaker: 可以获得丰缘的传说的宝可梦！！
     type: heading
     kind: text
@@ -1654,6 +2714,12 @@ translation_segments:
     review_status: review
     original: "ホウエンの伝説のポケモンが手に入る!!"
     translation: 可以获得丰缘的传说的宝可梦！！
+    scan_box:
+      - 408
+      - 190
+      - 688
+      - 248
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1664,6 +2730,12 @@ translation_segments:
     review_status: review
     original: 『HG・SS』ではカイオーガ、グラードン、レックウザという『ルビー・サファイア』の伝説のポケモンが入手できますが、別の地方の伝説のポケモンが入手できるのは、けっこう珍しい例だと思うのですが。
     translation: 在《HG·SS》中，可以获得盖欧卡、固拉多、烈空坐这些《红宝石·蓝宝石》的传说的宝可梦，但能获得其他地区的传说的宝可梦，我觉得算是相当罕见的例子。
+    scan_box:
+      - 404
+      - 258
+      - 699
+      - 420
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1674,6 +2746,23 @@ translation_segments:
     review_status: review
     original: 今回はDSの『ポケットモンスター』シリーズですべてのポケモンが集まるようにしたいと思っていましたので、カイオーガやグラードンなどもどこかで捕まえられるようにしたかったんです。あと伝説のポケモンを今後のポケモンバトルの公式大会「ポケモンワールドチャンピオンシップス2010」で使えるようにすることもありますので、手に入れやすいようにしておきたいとも考えました。
     translation: 这次我们希望在DS的《宝可梦》系列中让所有宝可梦都能集齐，所以也想让盖欧卡、固拉多等能在某处被捕捉到。另外，传说的宝可梦今后也能在宝可梦对战的官方大会“宝可梦世界锦标赛2010”中使用，因此我们也考虑要让它们更容易获得。
+    scan_box:
+      - 404
+      - 426
+      - 699
+      - 582
+    scan_boxes:
+      - 
+        - 404
+        - 426
+        - 699
+        - 582
+      - 
+        - 728
+        - 176
+        - 1021
+        - 332
+    writing_direction: horizontal
   - speaker: 既然能让大家高兴，那就做吧！（海野先生）
     type: heading
     kind: text
@@ -1685,6 +2774,12 @@ translation_segments:
     review_status: review
     original: みんなに喜んでもらえるんだったらやったるかー！と（海野さん）
     translation: 既然能让大家高兴，那就做吧！（海野先生）
+    scan_box:
+      - 411
+      - 604
+      - 1281
+      - 723
+    writing_direction: horizontal
   - speaker: 标题画面中凝聚着对本作的干劲
     type: heading
     kind: text
@@ -1696,6 +2791,12 @@ translation_segments:
     review_status: review
     original: タイトル画面に、今作への意気込みが詰まっている
     translation: 标题画面中凝聚着对本作的干劲
+    scan_box:
+      - 417
+      - 772
+      - 694
+      - 836
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1706,6 +2807,12 @@ translation_segments:
     review_status: review
     original: 今回のインタビュー前に『金・銀』を久々に立ち上げてみたのですが、ホウオウが飛び、ルギアが泳ぐというタイトル画面の構図が、『HG・SS』では3Dになって受け継がれているんですね。あれはどなたの発案なんですか？
     translation: 在这次采访之前，我久违地启动了《金·银》，发现凤王飞翔、洛奇亚游动的标题画面构图，在《HG·SS》中以3D形式继承了下来。那是谁提出的方案呢？
+    scan_box:
+      - 404
+      - 844
+      - 699
+      - 1008
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1716,6 +2823,12 @@ translation_segments:
     review_status: review
     original: 自分の発案ですね。実は『HG・SS』のタイトル画面は、開発が始まってすぐに3Dで作っていました。このプロジェクトが始まるにあたり、作品の方向性を決めるというか、意気込みを示すためでもあったんですが。昔『金・銀』を遊んだ人が「あっ、こうだった」と思い返しつつ、「おお、こんなになってるんだ！」と驚きをもって受け入れられるようなものを作りたいと考えていたので、あえてタイトル画面の構図は昔のままにし、そこから立体的に動くことで、今まで見えなかったゲームの側面が見えるような形を絵的に表現してみたんです。
     translation: 是我提出的。其实《HG·SS》的标题画面在开发刚开始时就已经用3D制作了。这也是为了在这个项目启动之际决定作品的方向性，或者说展示我们的干劲。当时我想做的是，让以前玩过《金·银》的人一边回想“啊，原来是这样”，一边又能以“哦，竟然变成这样了！”的惊讶来接受，所以特意让标题画面的构图保持原样，再让它立体地动起来，用画面表现出一种能看见此前未曾见过的游戏侧面的形式。
+    scan_box:
+      - 404
+      - 1014
+      - 699
+      - 1178
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1726,6 +2839,12 @@ translation_segments:
     review_status: review
     original: タイトル画面を見続けていると、だんだんカメラの角度が変わっていくあたりがいいですよね。ホウオウってこんな形してたんだ！って。
     translation: 一直盯着标题画面看，相机的角度会逐渐变化，这一点很不错。原来凤王是这种形状啊！
+    scan_box:
+      - 728
+      - 981
+      - 1024
+      - 1077
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1736,6 +2855,23 @@ translation_segments:
     review_status: review
     original: 例えば冒険のスタート地点となるワカバタウンも、街に配置されている建物や場所は『金・銀』と大きく変わってはいません。でも自分が『金・銀』を遊んでいた当時、ワカバタウンが「かぜがふくまち」と書かれていたのが非常に印象に残っていたので、『HG・SS』ではグラフィックで風を表現しています。いい風が吹いていると、きっと気持ちのいい旅立ちができるんじゃないでしょうか。
     translation: 比如作为冒险起点的若叶镇，镇上配置的建筑和地点与《金·银》相比也没有太大变化。不过我自己玩《金·银》的时候，若叶镇写着“风吹之镇”，这给我留下了非常深刻的印象，所以在《HG·SS》中用画面表现了风。如果有好风吹着，一定能让人踏上舒心的旅程吧。
+    scan_box:
+      - 728
+      - 1085
+      - 1024
+      - 1178
+    scan_boxes:
+      - 
+        - 728
+        - 1085
+        - 1024
+        - 1178
+      - 
+        - 1053
+        - 772
+        - 1348
+        - 928
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1746,6 +2882,12 @@ translation_segments:
     review_status: review
     original: →『SS』のタイトル画面。しばらく見ていると、アングルが変わる
     translation: →《SS》的标题画面。看一会儿，视角会发生变化
+    scan_box:
+      - 1061
+      - 936
+      - 1082
+      - 1171
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -1756,6 +2898,12 @@ translation_segments:
     review_status: review
     original: Touch screen
     translation: 触摸屏
+    scan_box:
+      - 1119
+      - 936
+      - 1224
+      - 950
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1766,6 +2914,12 @@ translation_segments:
     review_status: review
     original: TOUCH TO START
     translation: 触摸开始
+    scan_box:
+      - 1205
+      - 1141
+      - 1341
+      - 1155
+    writing_direction: horizontal
   - speaker: 不冲刺、刻意走路也有其意义
     type: heading
     kind: text
@@ -1777,6 +2931,12 @@ translation_segments:
     review_status: review
     original: ダッシュせず、あえて歩くことにも意味がある
     translation: 不冲刺、刻意走路也有其意义
+    scan_box:
+      - 98
+      - 1214
+      - 379
+      - 1278
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1787,6 +2947,12 @@ translation_segments:
     review_status: review
     original: 今作は草むらでダッシュしたり、自転車で走っていると、以前よりポケモンが出やすくなっていて、逆に歩いていると以前より出にくくなっている気がするのですが、気のせいでしょうか？
     translation: 本作在草丛里冲刺，或是骑自行车行驶时，宝可梦比以前更容易出现，反过来走路时则比以前更难出现，我总觉得是这样，难道是错觉吗？
+    scan_box:
+      - 98
+      - 1286
+      - 385
+      - 1389
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1797,6 +2963,12 @@ translation_segments:
     review_status: review
     original: いや、それはその通りです。若干ですが、走っているとポケモンと出会う確率が上がっています。今回、ランニングシューズをオンオフ式にしたじゃないですか。あれは非常に便利なんですが、常にダッシュをオンにしていると、誰も歩かなくなってしまいます。あえて「歩く」ことに意味を持たせるために、歩いているときはポケモンと遭遇する確率を少し低くしています。
     translation: 不，确实如此。虽然幅度不大，但跑动时遇到宝可梦的概率确实提高了。这次把跑步鞋做成了开关式，那虽然非常方便，但如果一直把冲刺开着，就没人会走路了。为了让「走路」这件事本身有意义，走路时遇到宝可梦的概率就设得稍低一些。
+    scan_box:
+      - 98
+      - 1397
+      - 385
+      - 1655
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1807,6 +2979,12 @@ translation_segments:
     review_status: review
     original: あとグラフィッカーの立場からすると、ゆっくり歩いて風景を見てほしいという気持ちもあります（笑）。
     translation: 另外从图形设计师的立场来说，也希望玩家能慢慢走、看看风景（笑）。
+    scan_box:
+      - 98
+      - 1663
+      - 385
+      - 1759
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: heading
     kind: text
@@ -1818,6 +2996,12 @@ translation_segments:
     review_status: review
     original: 海野隆雄さん
     translation: 海野隆雄
+    scan_box:
+      - 443
+      - 1225
+      - 809
+      - 1311
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1828,6 +3012,12 @@ translation_segments:
     review_status: review
     original: 株式会社ゲームフリーク 開発部 アートディレクターグラフィックの方向性や全体的なバランスのチェックなど、グラフィック全体の総括を担当。
     translation: GAME FREAK 开发部 美术总监。负责把关图形的方向性与整体平衡等，统筹图形整体。
+    scan_box:
+      - 864
+      - 1225
+      - 1335
+      - 1307
+    writing_direction: horizontal
   - speaker: ●《金·银》开发当时的回忆
     type: heading
     kind: text
@@ -1839,6 +3029,12 @@ translation_segments:
     review_status: review
     original: ●『金・銀』開発当時の思い出
     translation: ●《金·银》开发当时的回忆
+    scan_box:
+      - 725
+      - 1323
+      - 977
+      - 1350
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1849,6 +3045,12 @@ translation_segments:
     review_status: review
     original: 自分はゲームフリーク入社だったので、単なる一ファンでした。朝7時から量販店に並んで『金・銀』を2つとも買いましたね。しかも「ポケットピカチュウカラー 金・銀といっしょ」が売り切れていたんで、友達の情報網を駆使して、わざわざ横浜のおもちゃ屋まで買いに行ったぐらいのファンだったんで。そういった意味で、『金・銀』への思い入れは非常に強いですね。
     translation: 我进GAME FREAK比较晚，当时纯粹是个粉丝。早上7点就去量贩店排队，把《金·银》两版都买了。而且「口袋皮卡丘彩色 与金·银一起」卖光了，我还动用朋友的情报网，特意跑到横滨的玩具店去买，就是这种程度的粉丝。从这个意义上说，我对《金·银》的感情非常深。
+    scan_box:
+      - 725
+      - 1356
+      - 1021
+      - 1634
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1859,6 +3061,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』の開発に関わられたのはいつごろから？
     translation: 您是从什么时候开始参与《宝可梦》开发的？
+    scan_box:
+      - 725
+      - 1642
+      - 1021
+      - 1694
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1869,6 +3077,12 @@ translation_segments:
     review_status: review
     original: ちょうどゲームフリークに入社したときが『ルビー・サファイア』の開発段階だったので、そこからです。
     translation: 我进GAME FREAK的时候正好是《红宝石·蓝宝石》的开发阶段，所以是从那时开始的。
+    scan_box:
+      - 725
+      - 1702
+      - 1021
+      - 1774
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1879,6 +3093,12 @@ translation_segments:
     review_status: review
     original: やはり『ポケットモンスター』の開発がやりたいということで、ゲームフリークに入ったんですか？
     translation: 果然是因为想做《宝可梦》的开发，才进GAME FREAK的吗？
+    scan_box:
+      - 1047
+      - 1323
+      - 1342
+      - 1401
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1889,6 +3109,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』というよりは、昔からゲームフリークの作るゲームの本質的な面白さに非常に興味がありまして。それまではほかのゲーム会社で仕事をしていたんですが、やはりゲームフリークで自分の力を試してみたいと考えてはいました。
     translation: 与其说是对《宝可梦》本身，不如说我很久以前就对GAME FREAK所制作的游戏那种本质上的趣味性非常感兴趣。在那之前我一直在其他游戏公司工作，但果然还是想在GAME FREAK试试自己的实力。
+    scan_box:
+      - 1047
+      - 1409
+      - 1342
+      - 1610
+    writing_direction: horizontal
   - speaker: ●在《心金·魂银》中喜欢的宝可梦是？
     type: heading
     kind: text
@@ -1900,6 +3126,12 @@ translation_segments:
     review_status: review
     original: ●『HG・SS』で好きなポケモンは？
     translation: ●在《心金·魂银》中喜欢的宝可梦是？
+    scan_box:
+      - 1053
+      - 1626
+      - 1326
+      - 1653
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1910,6 +3142,12 @@ translation_segments:
     review_status: review
     original: オオタチです。くるまれたいんですよね（笑）。1.8メートルのあの長さのものに。何か温かそうで柔らかそうでいいじゃないですか。
     translation: 是大尾立。我想被它卷起来啊（笑）。被那1.8米长的身体卷起来。总觉得又温暖又柔软，不是挺好的吗。
+    scan_box:
+      - 1047
+      - 1661
+      - 1342
+      - 1761
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1920,6 +3158,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p075_akito_mori.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.75
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 心金 魂银
     type: heading
     kind: text
@@ -1931,6 +3171,12 @@ translation_segments:
     review_status: review
     original: ALL ABOUT ポケットモンスター ハートゴールド ソウルシルバー
     translation: ALL ABOUT 宝可梦 心金 魂银
+    scan_box:
+      - 747
+      - 86
+      - 1300
+      - 129
+    writing_direction: horizontal
   - speaker: 不能输给《宝可梦 皮卡丘》（森本）
     type: heading
     kind: text
@@ -1942,6 +3188,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター ピカチュウ』には負けられない（森さん）
     translation: 不能输给《宝可梦 皮卡丘》（森本）
+    scan_box:
+      - 772
+      - 178
+      - 1392
+      - 303
+    writing_direction: horizontal
   - speaker: 「跟随行走」开发秘话 ～程序上的讲究
     type: heading
     kind: text
@@ -1953,6 +3205,12 @@ translation_segments:
     review_status: review
     original: 「つれあるき」開発秘話 ～プログラムのこだわり
     translation: 「跟随行走」开发秘话 ～程序上的讲究
+    scan_box:
+      - 780
+      - 328
+      - 1053
+      - 397
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1963,6 +3221,12 @@ translation_segments:
     review_status: review
     original: プログラムを組むうえでも、いろいろ苦労したのでは？
     translation: 在编写程序方面，也遇到了各种辛苦吧？
+    scan_box:
+      - 772
+      - 412
+      - 1083
+      - 465
+    writing_direction: horizontal
   - speaker: 森昭人
     type: paragraph
     kind: text
@@ -1973,6 +3237,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』をリニューアルするプロジェクトが始まった時点で、「つれあるき」をやると森本が宣言していたので、覚悟は決めていました（笑）。これをやるのが『HG・SS』だと。
     translation: 在《金·银》重制项目启动的时候，森本就已经宣布要做「跟随行走」了，所以我早就做好了心理准备（笑）。做《心金·魂银》就是要做这个。
+    scan_box:
+      - 772
+      - 467
+      - 1083
+      - 590
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1983,6 +3253,12 @@ translation_segments:
     review_status: review
     original: 『D・P・プラチナ』のふれあい広場とは、やはり違ってくるのですか？
     translation: 和《钻石·珍珠·白金》的互动广场果然还是不一样吗？
+    scan_box:
+      - 772
+      - 594
+      - 1083
+      - 647
+    writing_direction: horizontal
   - speaker: 森昭人
     type: paragraph
     kind: text
@@ -1993,6 +3269,12 @@ translation_segments:
     review_status: review
     original: ふれあい広場は、あの限られた範囲内でちゃんと動けばOKというものだったんです。でも『HG・SS』は、フィールドや室内などさまざまな場所をつれあるけるうえ、「この場所ではこんな行動を起こす」という部分をすべてチェックしないといけないので、それが大変でしたね。あと、じつは『HG・SS』には『D・P・プラチナ』のふれあい広場よりも強力なライバルがいまして…それがゲームボーイの『ポケットモンスター ピカチュウ』なんです。このソフトはピカチュウだけは連れ歩けるんですが、そのピカチュウが、これまたかわいいんですよ（笑）。いろんな小憎らしい動きがたくさん入っていまして。その動きには負けないようにするぞ！とがんばりました。
     translation: 互动广场只要在那个有限的范围内正常行动就可以了。但《心金·魂银》要在原野、室内等各种场所跟随行走，而且必须逐一检查「在这个场所会做出这样的行动」，这一点很辛苦。另外，其实《心金·魂银》有一个比《钻石·珍珠·白金》的互动广场更强大的对手……那就是Game Boy上的《宝可梦 皮卡丘》。这个软件只有皮卡丘可以跟随行走，但那只皮卡丘又特别可爱（笑）。里面加入了很多让人又爱又恨的小动作。我努力做到不输给那些动作！
+    scan_box:
+      - 772
+      - 649
+      - 1083
+      - 1110
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2003,6 +3285,23 @@ translation_segments:
     review_status: review
     original: 『HG・SS』のつれあるきは、開発当初、ポケモンが普通について来ていたんです。でもふと『ポケットモンスター ピカチュウ』を見ると、ピカチュウがちょっと遅れてついて来るんですね。この動きは入れなきゃダメでしょ（笑）。ゲームボーイに負けちゃダメよねって。
     translation: 《心金·魂银》的跟随行走，在开发初期，宝可梦是普通地跟在后面的。但偶然看到《宝可梦 皮卡丘》时，发现皮卡丘会稍微晚一点跟上来。这个动作不加入可不行吧（笑）。不能输给Game Boy啊。
+    scan_box:
+      - 772
+      - 1124
+      - 1083
+      - 1274
+    scan_boxes:
+      - 
+        - 772
+        - 1124
+        - 1083
+        - 1274
+      - 
+        - 1096
+        - 313
+        - 1386
+        - 399
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2013,6 +3312,12 @@ translation_segments:
     review_status: review
     original: そうですね。負けてられませんよ（笑）。
     translation: 是啊。可不能输啊（笑）。
+    scan_box:
+      - 1096
+      - 406
+      - 1386
+      - 455
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2023,6 +3328,12 @@ translation_segments:
     review_status: review
     original: つれあるき中に振り返ってポケモンに話しかけると、いろんな反応を見せてくれるんですよね。
     translation: 带着宝可梦散步时，如果回头跟宝可梦搭话，它会做出各种各样的反应呢。
+    scan_box:
+      - 1096
+      - 459
+      - 1386
+      - 537
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2033,6 +3344,12 @@ translation_segments:
     review_status: review
     original: そこはもう、ものすごい数のパターンを用意してあります。
     translation: 那里我们已经准备了数量惊人的反应模式。
+    scan_box:
+      - 1096
+      - 541
+      - 1386
+      - 590
+    writing_direction: horizontal
   - speaker: 森昭人
     type: paragraph
     kind: text
@@ -2043,6 +3360,12 @@ translation_segments:
     review_status: review
     original: いろんなところを歩いて、いろんな反応を試してほしいですね。街中だとビルが珍しいとか、草むらでは仲間がいないか捜しているようだとか、水辺では…とかいうふうに、ポケモンの種類によっても反応が違うので、本当に何千というパターンが隠されています。
     translation: 希望大家到各种地方走走，试试各种反应。在街上会对高楼感到稀奇，在草丛里则像是在寻找有没有同伴，在水边则……反应会因宝可梦的种类而不同，真的隐藏着几千种模式。
+    scan_box:
+      - 1096
+      - 594
+      - 1386
+      - 766
+    writing_direction: horizontal
   - speaker: 主角设计加入和风元素
     type: heading
     kind: text
@@ -2054,6 +3377,12 @@ translation_segments:
     review_status: review
     original: 主人公は和のテイストを加えたデザインに
     translation: 主角设计加入和风元素
+    scan_box:
+      - 130
+      - 170
+      - 413
+      - 240
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2064,6 +3393,12 @@ translation_segments:
     review_status: review
     original: 『HG・SS』の主人公のビジュアルは、『金・銀・クリスタル』からかなり変わった印象がありますね。
     translation: 《心金·魂银》主角的视觉形象，感觉跟《金·银·水晶》相比变化相当大呢。
+    scan_box:
+      - 126
+      - 254
+      - 416
+      - 307
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2074,6 +3409,12 @@ translation_segments:
     review_status: review
     original: 男の子主人公に関しては、大きくイメージを変える形にはせず、むしろより日本的というか、忍者ルックという感じを出してみました。
     translation: 关于男主角，我们没有做大幅改变形象的处理，反而更偏向日本风，或者说做出了一种忍者造型的感觉。
+    scan_box:
+      - 126
+      - 324
+      - 416
+      - 430
+    writing_direction: horizontal
   - speaker: 森昭人
     type: paragraph
     kind: text
@@ -2084,6 +3425,12 @@ translation_segments:
     review_status: review
     original: 忍者ですか（笑）。
     translation: 忍者吗（笑）。
+    scan_box:
+      - 126
+      - 438
+      - 294
+      - 465
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2094,6 +3441,12 @@ translation_segments:
     review_status: review
     original: そうなんですよ。すぼめたパンツも、タイトめになった服装もそうなんですが、洋風の服でありつつも、やや和のテイストを入れたのが一番大きい変更点ですね。ただ、やはり活発な男の子というイメージは崩したくないので、設計的にはそちらの方に寄っています。
     translation: 没错。收口的裤子、偏紧身的服装都是如此，不过最大的改变点在于，虽然是西式服装，却加入了一些和风元素。只是，我们还是不想破坏他活泼男孩的形象，所以在设计上更偏向那一边。
+    scan_box:
+      - 126
+      - 467
+      - 416
+      - 639
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2104,6 +3457,12 @@ translation_segments:
     review_status: review
     original: 女の子主人公は大きく変わっていますね。
     translation: 女主角的变化很大呢。
+    scan_box:
+      - 126
+      - 643
+      - 416
+      - 696
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2114,6 +3473,12 @@ translation_segments:
     review_status: review
     original: 女の子の方は、『クリスタル』での女の子主人公は意識せず新規で作りました。今作は「つれあるき」という要素があるので、女の子も活発に動ける服装にしたり、特徴的な帽子をかぶせたり、そうした点を設計として重視しています。あと男の子と女の子の共通点として、例えば『ダイヤモンド・パール』（以下D・P）では両方の主人公がマフラーをしているんですが、『HG・SS』ではフード付きの服を着せてあります。
     translation: 女主角方面，我们没有意识到《水晶》里的女主角，而是全新制作的。本作有“带着散步”这个要素，所以女孩子也设计成能活泼行动的服装，戴上很有特征的帽子，这些点在设计中很受重视。另外，男女主角的共同点，比如《钻石·珍珠》（以下简称D·P）里两位主角都围着围巾，而《心金·魂银》里则让他们穿上了带兜帽的衣服。
+    scan_box:
+      - 126
+      - 698
+      - 416
+      - 987
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2124,6 +3489,12 @@ translation_segments:
     review_status: review
     original: 活発に動ける服装となると、やはりスカートよりもズボンだろうと。
     translation: 说到能活泼行动的服装，果然还是裤子比裙子好吧。
+    scan_box:
+      - 126
+      - 991
+      - 416
+      - 1044
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2134,6 +3505,12 @@ translation_segments:
     review_status: review
     original: ズボンというより、サロペットですね。今の流行を参考にして、いろいろと設計に取り入れてみました。
     translation: 与其说是裤子，不如说是背带裤。我们参考了当下的流行，把各种元素融入了设计。
+    scan_box:
+      - 126
+      - 1049
+      - 416
+      - 1126
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -2144,6 +3521,12 @@ translation_segments:
     review_status: review
     original: 自分は逆にスカートがすごく好きなんで、『D・P』のときは「すいません、女の子主人公はスカートで」って言ってたんですが。
     translation: 我反倒非常喜欢裙子，做《钻石·珍珠》的时候还说过「不好意思，女主角请用裙子」。
+    scan_box:
+      - 126
+      - 1130
+      - 416
+      - 1237
+    writing_direction: horizontal
   - speaker: 全体
     type: paragraph
     kind: text
@@ -2154,6 +3537,12 @@ translation_segments:
     review_status: review
     original: （笑）
     translation: （笑）
+    scan_box:
+      - 126
+      - 1241
+      - 207
+      - 1268
+    writing_direction: horizontal
   - speaker: 「带路同行」开发秘闻 ～对画面的讲究
     type: heading
     kind: text
@@ -2165,6 +3554,12 @@ translation_segments:
     review_status: review
     original: 「つれあるき」開発秘話 ～グラフィックのこだわり
     translation: 「带路同行」开发秘闻 ～对画面的讲究
+    scan_box:
+      - 453
+      - 170
+      - 736
+      - 240
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2175,6 +3570,12 @@ translation_segments:
     review_status: review
     original: 『D・P・プラチナ』では一部の場所とポケモンでしかできなかった「つれあるき」が、あらゆる場所とポケモンでできます。かなり楽しいですね！
     translation: 在《钻石·珍珠·白金》里只能在部分地点和部分宝可梦身上实现的「带路同行」，这次在所有地点和所有宝可梦身上都能实现。相当有趣呢！
+    scan_box:
+      - 449
+      - 254
+      - 738
+      - 360
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2185,6 +3586,12 @@ translation_segments:
     review_status: review
     original: 私は『エメラルド』のディレクターも務めたのですが、『ルビー・サファイア』に対する『エメラルド』や、『D・P』に対する『プラチナ』は、どちらかというと対戦やバトルを濃く遊ぶという方向性が強かったんです。リニューアル作となる『HG・SS』はそういう方向ではなく、もっと世界観を広げるようなことがやりたかったんです。つれあるき自体は『D・P』でも少しやっていますが、これが全ポケモンでできたら、きっと楽しいよねって。ただそれを実現するためには、全部のポケモンを新たに描かないといけないし、それを1匹1匹どう動かすのかといった多くの難題があったのですが、やる！と強硬に決めました。
     translation: 我也担任过《绿宝石》的总监，相对于《红宝石·蓝宝石》的《绿宝石》，以及相对于《钻石·珍珠》的《白金》，方向性都更偏向于深入游玩对战和战斗。而作为重制作品的《心金·魂银》不是那个方向，我想做的是更扩展世界观的事情。带路同行本身在《钻石·珍珠》里也做了一点，但如果能让所有宝可梦都做到，一定会很有趣。只是要实现这一点，就必须把全部宝可梦重新画一遍，还要考虑每一只怎么动，难题很多，但我强硬地决定：做！
+    scan_box:
+      - 449
+      - 362
+      - 738
+      - 766
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2195,6 +3602,12 @@ translation_segments:
     review_status: review
     original: あれだけの数のポケモンを改めて描き起こさないといけないので、初めて話を聞いたときにはビックリしました。でも広い世界をポケモンといっしょに歩くというのは夢でしたので、実際の作業でも「こんなふうに動いてたら楽しいな」と考えながら描くことができました。作業自体は大変だったんですが、非常に満足のいくものができたと思います。
     translation: 那么多宝可梦都得重新画一遍，第一次听到这件事的时候我吓了一跳。不过和宝可梦一起走在广阔的世界里是我的梦想，所以实际作业时也能一边想着「这样动起来会很有趣吧」一边画。作业本身很辛苦，但我认为做出来的东西非常令人满意。
+    scan_box:
+      - 449
+      - 782
+      - 738
+      - 1044
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2205,6 +3618,12 @@ translation_segments:
     review_status: review
     original: つれあるきのグラフィックは、♂♀や色違いも反映しているんですか？
     translation: 带路同行的画面，也会反映雌雄和异色吗？
+    scan_box:
+      - 449
+      - 1061
+      - 738
+      - 1114
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2215,6 +3634,12 @@ translation_segments:
     review_status: review
     original: はい、やっています。それもあって、最初につれあるきの構想を聞いた時は頭がグルグルしてきたんですが（笑）。でもみんなに喜んでもらえるんだったら、やったるかー！と。作っている自分たちもうれしいですしね。
     translation: 是的，都做了。也正因为如此，最初听到带路同行的构想时，我脑子都转晕了（笑）。不过如果大家能因此高兴，那就干吧！做的人自己也很开心。
+    scan_box:
+      - 449
+      - 1116
+      - 738
+      - 1249
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2225,6 +3650,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター ピカチュウ
     translation: 宝可梦 皮卡丘
+    scan_box:
+      - 1202
+      - 791
+      - 1376
+      - 844
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2235,6 +3666,12 @@ translation_segments:
     review_status: review
     original: ハートゴールド・ソウルシルバー
     translation: 心金·魂银
+    scan_box:
+      - 1111
+      - 1094
+      - 1273
+      - 1147
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2245,6 +3682,12 @@ translation_segments:
     review_status: review
     original: ↑ゲームボーイ版『ポケットモンスター ピカチュウ』では、ピカチュウだけだが、つれあるきが楽しめた。当時この作品に込められたこだわりが、最新作『HG・SS』の開発にも大きな刺激を与えている
     translation: ↑在Game Boy版《宝可梦 皮卡丘》里，虽然只有皮卡丘，但也能享受带路同行。当时这部作品所倾注的讲究，也给最新作《心金·魂银》的开发带来了很大刺激。
+    scan_box:
+      - 1096
+      - 1151
+      - 1386
+      - 1257
+    writing_direction: horizontal
   - speaker: 森昭人
     type: heading
     kind: text
@@ -2256,6 +3699,12 @@ translation_segments:
     review_status: review
     original: 森 昭人さん
     translation: 森昭人
+    scan_box:
+      - 473
+      - 1309
+      - 792
+      - 1378
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2266,6 +3715,12 @@ translation_segments:
     review_status: review
     original: 株式会社ゲームフリーク 開発部 プログラマープログラムリーダーを務める。プログラムのまとめや割り振りなどを行いつつ、自らもプログラムを組む。
     translation: 在GAME FREAK开发部担任程序员兼程序负责人。在统筹和分配程序工作的同时，自己也参与编写程序。
+    scan_box:
+      - 899
+      - 1296
+      - 1365
+      - 1382
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2276,6 +3731,12 @@ translation_segments:
     review_status: review
     original: ●『金・銀』開発当時の思い出
     translation: ●《金·银》开发当时的回忆
+    scan_box:
+      - 783
+      - 1403
+      - 1035
+      - 1434
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2286,6 +3747,12 @@ translation_segments:
     review_status: review
     original: 森 僕は当時別の仕事をしていまして、ほとんど関わっていないのですが…3日間だけ手伝って、それでスペシャルサンクスに名前が入ったんです。
     translation: 森：我当时在做别的工作，几乎没有参与……只帮忙了3天，就因此被列入了特别鸣谢名单。
+    scan_box:
+      - 783
+      - 1438
+      - 1154
+      - 1513
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2296,6 +3763,12 @@ translation_segments:
     review_status: review
     original: 増田 3日間だけ？ それはうらやましい（笑）。
     translation: 增田：只做了3天？真让人羡慕（笑）。
+    scan_box:
+      - 783
+      - 1518
+      - 1125
+      - 1544
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2306,6 +3779,12 @@ translation_segments:
     review_status: review
     original: ―― 実際に何をやられたのですか？
     translation: 实际做了些什么呢？
+    scan_box:
+      - 783
+      - 1546
+      - 1053
+      - 1573
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2316,6 +3795,12 @@ translation_segments:
     review_status: review
     original: 森 込み入った話なので、ちょっと説明しづらいのですが、プログラム周りのことをしていました。
     translation: 森：说来话长，有点难以解释，我做的是与程序相关的工作。
+    scan_box:
+      - 783
+      - 1575
+      - 1154
+      - 1628
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2326,6 +3811,12 @@ translation_segments:
     review_status: review
     original: ●『HG・SS』で好きなポケモンは？
     translation: ●在《HG·SS》中喜欢的宝可梦是？
+    scan_box:
+      - 783
+      - 1651
+      - 1111
+      - 1681
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2336,6 +3827,12 @@ translation_segments:
     review_status: review
     original: 森 ハッサムです。改めて見返してみたんですけど、かっこいいですよね！ どんなポーズを取っていてもかっこいい。大好きです！
     translation: 森：是巨钳螳螂。我重新回看了一遍，果然很帅！不管摆出什么姿势都很帅。我非常喜欢！
+    scan_box:
+      - 783
+      - 1683
+      - 1154
+      - 1757
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2346,6 +3843,12 @@ translation_segments:
     review_status: review
     original: ↑『HG・SS』の主人公。今作は杉森建さん（P82に登場）ではなく、海野さんが設計している
     translation: ↑《HG·SS》的主角。本作不是由杉森建先生（登场于P82）设计，而是由海野先生设计的
+    scan_box:
+      - 130
+      - 1704
+      - 420
+      - 1778
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -2356,6 +3859,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p076_kenji_matsushima.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.76
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 希望玩家务必关注劲敌内心的变化（松岛先生）
     type: heading
     kind: text
@@ -2367,6 +3872,12 @@ translation_segments:
     review_status: review
     original: ライバルの内面の変化を、ぜひ見てほしい（松島さん）
     translation: 希望玩家务必关注劲敌内心的变化（松岛先生）
+    scan_box:
+      - 62
+      - 123
+      - 1167
+      - 209
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2377,6 +3888,12 @@ translation_segments:
     review_status: review
     original: すんなりと入れるよう序盤の組み立てを変える
     translation: 调整序盘结构，让玩家能顺畅地进入游戏
+    scan_box:
+      - 70
+      - 223
+      - 350
+      - 297
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2387,6 +3904,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』と『HG・SS』で、シナリオで変えた点はあるんですか？
     translation: 《金·银》和《HG·SS》在剧本上有改动的地方吗？
+    scan_box:
+      - 70
+      - 303
+      - 379
+      - 365
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2397,6 +3920,12 @@ translation_segments:
     review_status: review
     original: まず『HG・SS』は『金・銀』になかった新要素がたくさんあるので、それに関する情報は多めに加えました。また序盤の街や冒頭の流れをかなり変えています。物語の導入として入りやすいよう、意識して組み立てを変えてみました。あとは単純に今読み返してみてイマイチなセリフとか、そういうものはちょこちょこといじったりはしました。
     translation: 首先，《HG·SS》中有很多《金·银》没有的新要素，所以关于这些的信息我加了不少。另外，序盘的城镇和开头的流程也做了相当大的改动。为了让玩家更容易进入故事的导入部分，我有意识地改变了结构。还有就是，单纯是现在重新读一遍觉得不太好的台词之类的，那些地方我也稍微改动了一下。
+    scan_box:
+      - 70
+      - 367
+      - 379
+      - 610
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2407,6 +3936,12 @@ translation_segments:
     review_status: review
     original: 『HG・SS』は主人公が男女から選べますが、選ばなかった方の主人公はどうお話に関わってくるのですか？
     translation: 《HG·SS》中主角可以从男女中选择，但没有被选中的那一方主角会怎样与故事产生关联呢？
+    scan_box:
+      - 70
+      - 614
+      - 379
+      - 686
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2417,6 +3952,12 @@ translation_segments:
     review_status: review
     original: 今回はポケモンを連れ歩ける「つれあるき」という要素が入っていますが、選ばなかった方の主人公は「ポケモンを連れ歩いてコミュニケーションをとることに一所懸命な男の子・女の子」だったりします。基本的にはガイド役なのですが、特につれあるきに関してフォローしてくれる役回りになっています。
     translation: 这次加入了可以带着宝可梦一起走的“同行”要素，而没有被选中的那一方主角，则是“热衷于带着宝可梦一起走并与之交流的男孩·女孩”。基本上算是向导角色，尤其是会在同行方面给予支持。
+    scan_box:
+      - 70
+      - 688
+      - 379
+      - 897
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: heading
     kind: text
@@ -2428,6 +3969,12 @@ translation_segments:
     review_status: review
     original: 松島賢二さん
     translation: 松岛贤二
+    scan_box:
+      - 411
+      - 217
+      - 779
+      - 311
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2438,6 +3985,12 @@ translation_segments:
     review_status: review
     original: 株式会社ゲームフリーク 開発部 ゲームデザイナープランニングリーダーとして企画チームのまとめ役に。主にシナリオや世界観を重点的に手掛ける。
     translation: 在GAME FREAK开发部担任游戏设计师、企划领队，是企划团队的统筹者。主要负责剧本和世界观方面的工作。
+    scan_box:
+      - 834
+      - 209
+      - 1309
+      - 303
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2448,6 +4001,23 @@ translation_segments:
     review_status: review
     original: 田と京都に行って、徹夜しながらプロット（あらすじ）を組んだりとか、開発の終盤にカントー地方のシナリオをドカドカッと書いて入れたとか、そういう思い出が強く残っています。
     translation: 去京都，通宵达旦地构建情节（梗概），还有在开发末期一口气写了很多关都地区的剧本加进去，这些回忆都强烈地留了下来。
+    scan_box:
+      - 721
+      - 324
+      - 1025
+      - 487
+    scan_boxes:
+      - 
+        - 721
+        - 324
+        - 1025
+        - 487
+      - 
+        - 1031
+        - 319
+        - 1321
+        - 483
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2458,6 +4028,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』にカントー地方も入れる構想は、最初からあったのですか？
     translation: 在《金·银》中加入关都地区的构想，是从一开始就有的吗？
+    scan_box:
+      - 721
+      - 492
+      - 1025
+      - 545
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2468,6 +4044,12 @@ translation_segments:
     review_status: review
     original: 僕の記憶ですと、『金・銀』って『赤・緑』から3年後という世界観で作っていたので、3年後のカントーに殿堂入り後に行けたら面白いんじゃないかという話が開発途中に出てきまして。それで作り始めたという感じでした。
     translation: 据我记忆，《金·银》是以《红·绿》3年后的世界观来制作的，所以在开发过程中就有人提出，如果在通关后能去3年后的关都地区，不是会很有趣吗。于是就开始做了，大概就是这种感觉。
+    scan_box:
+      - 721
+      - 549
+      - 1025
+      - 733
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2478,6 +4060,12 @@ translation_segments:
     review_status: review
     original: 開発途中で入れるにしては、すごいボリュームじゃないかと思うんですが。
     translation: 虽说是在开发途中加入的，但我觉得那内容量相当大啊。
+    scan_box:
+      - 721
+      - 737
+      - 1025
+      - 803
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2488,6 +4076,23 @@ translation_segments:
     review_status: review
     original: あれでも、かなりボリュームを落とさざるを得なかったんです。マップが縮小されていたり、トキワのもりがなくなっていたり。だから今回の『HG・SS』では、トキワのもりなどもちゃんと作っていこうと思っていました。
     translation: 即便如此，当时也不得不砍掉相当多的内容。地图被缩小了，常青森林也没有了。所以这次的《HG·SS》中，我就想着要把常青森林等地方好好做出来。
+    scan_box:
+      - 721
+      - 807
+      - 1025
+      - 836
+    scan_boxes:
+      - 
+        - 721
+        - 807
+        - 1025
+        - 836
+      - 
+        - 1031
+        - 319
+        - 1321
+        - 483
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2498,6 +4103,12 @@ translation_segments:
     review_status: review
     original: 当時は私もプレイヤーでしたが、殿堂入り後に世界が丸々出てきて、ビックリした覚えがあります。
     translation: 当时我也是玩家，记得通关后整个世界一下子展开，让我很吃惊。
+    scan_box:
+      - 1031
+      - 487
+      - 1321
+      - 557
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2508,6 +4119,12 @@ translation_segments:
     review_status: review
     original: 無謀でしたよ（笑）。
     translation: 那真是鲁莽啊（笑）。
+    scan_box:
+      - 1031
+      - 561
+      - 1321
+      - 590
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -2518,6 +4135,12 @@ translation_segments:
     review_status: review
     original: まぁ、無謀だったね。
     translation: 嗯，算是蛮干吧。
+    scan_box:
+      - 1031
+      - 594
+      - 1321
+      - 623
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2528,6 +4151,12 @@ translation_segments:
     review_status: review
     original: それだけに余計、印象的な仕事でした。
     translation: 正因如此，才更是一份令人印象深刻的工作。
+    scan_box:
+      - 1031
+      - 627
+      - 1321
+      - 672
+    writing_direction: horizontal
   - speaker: ●《金·银》开发当时的回忆
     type: heading
     kind: text
@@ -2539,6 +4168,12 @@ translation_segments:
     review_status: review
     original: ●『金・銀』開発当時の思い出
     translation: ●《金·银》开发当时的回忆
+    scan_box:
+      - 417
+      - 782
+      - 683
+      - 815
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2549,6 +4184,12 @@ translation_segments:
     review_status: review
     original: 僕は当時も企画の一員として、シナリオなどに関わっていました。増
     translation: 我当时也是企划的一员，参与了剧本等方面的工作。增……
+    scan_box:
+      - 417
+      - 819
+      - 715
+      - 852
+    writing_direction: horizontal
   - speaker: ●《心金·魂银》中喜欢的宝可梦是？
     type: heading
     kind: text
@@ -2560,6 +4201,12 @@ translation_segments:
     review_status: review
     original: ●『HG・SS』で好きなポケモンは？
     translation: ●《心金·魂银》中喜欢的宝可梦是？
+    scan_box:
+      - 1037
+      - 692
+      - 1315
+      - 725
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2570,6 +4217,12 @@ translation_segments:
     review_status: review
     original: チコリータです。単純にかわいいというのもあるんですが、最初のキキョウジムで苦労するところがまた愛着が湧きますね（笑）。
     translation: 是菊草叶。单纯因为它可爱，而且在最初的桔梗道馆会吃苦头这一点，也让人更添喜爱（笑）。
+    scan_box:
+      - 1031
+      - 729
+      - 1321
+      - 823
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2580,6 +4233,12 @@ translation_segments:
     review_status: review
     original: →コトネ（ヒビキ）は、マ릴を連れ歩いている
     translation: →琴音（阿响）带着玛力露在走
+    scan_box:
+      - 75
+      - 918
+      - 119
+      - 1081
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -2590,6 +4249,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 127
+      - 1094
+      - 243
+      - 1110
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2600,6 +4265,12 @@ translation_segments:
     review_status: review
     original: ←スイクンとミナキのエピソードはボリュームアップ！
     translation: ←水君与米那君的情节分量增加了！
+    scan_box:
+      - 310
+      - 1122
+      - 353
+      - 1327
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2610,6 +4281,12 @@ translation_segments:
     review_status: review
     original: かれこれ 10ねん ちかく
     translation: 大约将近10年
+    scan_box:
+      - 75
+      - 1274
+      - 206
+      - 1294
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2620,6 +4297,12 @@ translation_segments:
     review_status: review
     original: スイクンを おいかけてきたが
     translation: 一直追寻着水君
+    scan_box:
+      - 75
+      - 1294
+      - 235
+      - 1315
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2630,6 +4313,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 70
+      - 1319
+      - 185
+      - 1335
+    writing_direction: horizontal
   - speaker: 水君的相关剧情在登入殿堂后也值得关注！！
     type: heading
     kind: text
@@ -2641,6 +4330,12 @@ translation_segments:
     review_status: review
     original: "スイクンのエピソードは殿堂入り後にも注目!!"
     translation: 水君的相关剧情在登入殿堂后也值得关注！！
+    scan_box:
+      - 405
+      - 897
+      - 683
+      - 958
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2651,6 +4346,12 @@ translation_segments:
     review_status: review
     original: 『クリスタル』で登場したミナキも『HG・SS』に登場しますが、シナリオ的には『クリスタル』の要素もほぼ入っていると考えていいんでしょうか？
     translation: 在《水晶》中登场的米那君也会在《心金·魂银》中登场，从剧本层面来说，可以认为《水晶》的要素也基本都包含进去了吗？
+    scan_box:
+      - 405
+      - 967
+      - 710
+      - 1028
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2661,6 +4362,12 @@ translation_segments:
     review_status: review
     original: そうですね、ベースは基本的には『金・銀』なのですが、物語として面白そうなものは『クリスタル』から持ってきています。あと『金・銀』から『クリスタル』にするときに、メッセージや情報の出し方をバージョンアップさせたので、そういう部分は意識して『クリスタル』から持ってきました。
     translation: 是的，基础基本上还是《金·银》，但作为故事来说比较有趣的部分，我们从《水晶》里拿了过来。另外，从《金·银》到《水晶》的时候，信息的提示方式和消息的呈现方式都做了升级，所以这部分我们也有意识地沿用了《水晶》的做法。
+    scan_box:
+      - 405
+      - 1032
+      - 710
+      - 1286
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2671,6 +4378,12 @@ translation_segments:
     review_status: review
     original: スイクンとミナキのエピソードは基本的には『クリスタル』から持ってきていますが、『HG・SS』ではさらにその後をけっこう作り込んでいます。殿堂入り後を楽しみにしていてください。
     translation: 水君和米那君的剧情基本上是从《水晶》拿过来的，但在《心金·魂银》里，我们又把之后的部分做了相当多的深入刻画。敬请期待登入殿堂之后的内容。
+    scan_box:
+      - 405
+      - 1290
+      - 710
+      - 1532
+    writing_direction: horizontal
   - speaker: 与其他系列作品划清界限、令人印象深刻的劲敌
     type: heading
     kind: text
@@ -2682,6 +4395,12 @@ translation_segments:
     review_status: review
     original: 他シリーズと一線を画する印象的なライバル
     translation: 与其他系列作品划清界限、令人印象深刻的劲敌
+    scan_box:
+      - 730
+      - 885
+      - 1008
+      - 946
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2692,6 +4411,12 @@ translation_segments:
     review_status: review
     original: 『金・銀』からそうですが、『HG・SS』はライバルが非常に好戦的に描かれているのが印象的です。なぜ彼はこんなに攻撃的なのでしょう？
     translation: 从《金·银》开始就是这样，《心金·魂银》里劲敌被描写得非常有攻击性，这一点令人印象深刻。他为什么会这么具有攻击性呢？
+    scan_box:
+      - 724
+      - 954
+      - 1028
+      - 1028
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2702,6 +4427,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』のトレーナーは、ポケモンと一緒に強くなるという目標がありますが、それに対して主人公とライバルは対局の方法論というか意識を持っているんです。主人公は基本的にプレイヤーとかなりイコールな存在なので、戦うだけじゃない強さみたいなものを物語全体として求めているんですが、それに対して「いいじゃん、手段なんか。強けりゃいいじゃん」っていうような位置付けでライバルは描かれています。ただ今回、『金・銀』から少し変えた部分もありまして。主人公と触れあうことで、ライバルの内面がどう変わっていくのか…。殿堂入り後の話になりますので、ぜひ遊んで確かめてほしいですね。
     translation: 《宝可梦》的训练家有着和宝可梦一起变强的目标，而与此相对，主角和劲敌在方法论上——或者说在意识上——是处于对立面的。主角基本上和玩家是相当等同的存在，所以整个故事追求的是那种不只是靠战斗的强大；而劲敌则被设定在“手段什么的无所谓吧，只要够强不就行了”这样的位置上。不过这次我们也对《金·银》的部分做了一些改动。通过与主角的接触，劲敌的内心会如何变化……这部分是登入殿堂之后的故事，请务必亲自游玩确认。
+    scan_box:
+      - 724
+      - 1032
+      - 1028
+      - 1532
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2712,6 +4443,12 @@ translation_segments:
     review_status: review
     original: あと、『HG・SS』の物語で印象に残ったのが、「まいこはん」がいろんな場面に出てきて、大きな役割を担っていることです。
     translation: 另外，《心金·魂银》的故事里让我印象深刻的是，和服女孩会在各种场面登场，承担着重要的角色。
+    scan_box:
+      - 724
+      - 1536
+      - 1028
+      - 1606
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2722,6 +4459,23 @@ translation_segments:
     review_status: review
     original: 和のテイストの世界観を持つ作品なので、そういう意味でも舞妓というのは一番落ち着きがいいキャラクターなんです。じつはプライベートで京都に行ったときに、たまたま立ち寄ったお寺で、神にささげる奉納の舞みたいなのをやっていたんです。雅楽に合わせて巫女さんたちが舞うっていう儀式でして。もともと物語と舞妓をつなげたいなと考えていたので、それを見た瞬間に「あっ、これはっ！」と感じて、今のまいこはんのキャラが出来上がりました。
     translation: 因为这是一部拥有日式风格世界观的作品，从这个意义上说，舞妓也是最能让人感到安定的角色。其实我私下里去京都的时候，偶然顺路走进一座寺庙，那里正在举行一种向神明献上的奉纳之舞。那是配合雅乐、由巫女们起舞的仪式。我原本就想着要把故事和舞妓联系起来，所以看到那一幕的瞬间就觉得“啊，就是这个！”，现在的和服女孩这个角色就这样诞生了。
+    scan_box:
+      - 724
+      - 1610
+      - 1028
+      - 1745
+    scan_boxes:
+      - 
+        - 724
+        - 1610
+        - 1028
+        - 1745
+      - 
+        - 1048
+        - 897
+        - 1344
+        - 1204
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2732,6 +4486,12 @@ translation_segments:
     review_status: review
     original: →ウツギ博士のポケモンを奪い、主人公の前に立ちはだかるライバル。彼にはどんな秘密が？
     translation: →夺走空木博士的宝可梦、挡在主角面前的劲敌。他身上究竟隐藏着怎样的秘密？
+    scan_box:
+      - 1054
+      - 1352
+      - 1098
+      - 1516
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -2742,6 +4502,12 @@ translation_segments:
     review_status: review
     original: おまえ みたいな よわいやつには
     translation: 像你这种弱家伙
+    scan_box:
+      - 1083
+      - 1716
+      - 1315
+      - 1737
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2752,6 +4518,12 @@ translation_segments:
     review_status: review
     original: もったいない ポケモンだぜ
     translation: 用这只宝可梦太浪费了
+    scan_box:
+      - 1083
+      - 1737
+      - 1280
+      - 1757
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2762,6 +4534,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1069
+      - 1761
+      - 1184
+      - 1778
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -2772,6 +4550,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p077_go_ichinose.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.77
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 心金 魂银
     type: heading
     kind: text
@@ -2783,6 +4563,12 @@ translation_segments:
     review_status: review
     original: ALL ABOUT ポケットモンスター ハートゴールド ソウルシルバー
     translation: ALL ABOUT 宝可梦 心金 魂银
+    scan_box:
+      - 765
+      - 96
+      - 1403
+      - 150
+    writing_direction: horizontal
   - speaker: 关都道馆馆主的曲子中，藏着让粉丝会心一笑的服务（一之濑）
     type: heading
     kind: text
@@ -2794,6 +4580,12 @@ translation_segments:
     review_status: review
     original: カントージムリーダーの曲には、ファンがニヤッとするサービスが （一之瀬さん）
     translation: 关都道馆馆主的曲子中，藏着让粉丝会心一笑的服务（一之濑）
+    scan_box:
+      - 468
+      - 164
+      - 1300
+      - 293
+    writing_direction: horizontal
   - speaker: 关于凤王与洛奇亚的一点朴素疑问
     type: heading
     kind: text
@@ -2805,6 +4597,12 @@ translation_segments:
     review_status: review
     original: ホウオウとルギアのちょっと素朴な疑問
     translation: 关于凤王与洛奇亚的一点朴素疑问
+    scan_box:
+      - 149
+      - 158
+      - 327
+      - 195
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2815,6 +4613,12 @@ translation_segments:
     review_status: review
     original: これは世界観に深く関わる話なんですが、グラードンとカイオーガは陸と海、ディアルガとパルキアは時間と空間と、対になる伝説のポケモンは何らかの対立概念を持っていると思うんです。今回のホウオウとルギアも、何かそういう対立概念的なイメージを持っているのでしょうか？
     translation: 这虽然是涉及世界观深层的话题，但我认为固拉多与盖欧卡是陆地与海洋，帝牙卢卡与帕路奇亚是时间与空间，成对的传说的宝可梦都持有某种对立概念。这次的凤王与洛奇亚，是否也带有这种对立概念式的印象呢？
+    scan_box:
+      - 142
+      - 219
+      - 434
+      - 444
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2825,6 +4629,12 @@ translation_segments:
     review_status: review
     original: 物語上で、直接にホウオウとルギアが関係してくるものはないですね。ただモチーフとしては、僕の中では太陽と月とか、昼と夜とか、そういうものをイメージしていました。
     translation: 在故事上，凤王与洛奇亚并没有直接关联的内容。不过作为主题，在我心中是想象着太阳与月亮、白天与夜晚这类东西的。
+    scan_box:
+      - 142
+      - 451
+      - 434
+      - 563
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2835,6 +4645,12 @@ translation_segments:
     review_status: review
     original: 陰と陽っていう感じですよね。
     translation: 感觉就是阴与阳吧。
+    scan_box:
+      - 142
+      - 569
+      - 434
+      - 598
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -2845,6 +4661,12 @@ translation_segments:
     review_status: review
     original: 海底と天空とか、上と下とか、そういう意味も持っています。
     translation: 也带有海底与天空、上与下这样的含义。
+    scan_box:
+      - 142
+      - 602
+      - 434
+      - 657
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -2855,6 +4677,12 @@ translation_segments:
     review_status: review
     original: もともとホウオウとルギアは、ゲームボーイ版『金・銀』に時計機能が入り、昼と夜のある世界観の中で生まれたポケモンでしたからね。『HG・SS』でもそのイメージは変わっていません。
     translation: 原本凤王与洛奇亚，就是在Game Boy版《金·银》加入时钟功能、拥有白天与夜晚的世界观中诞生的宝可梦。在《心金·魂银》中，这个印象也没有改变。
+    scan_box:
+      - 142
+      - 664
+      - 434
+      - 803
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2865,6 +4693,12 @@ translation_segments:
     review_status: review
     original: これは私の素朴な疑問なんですが、ルギアはタイトル画面でも水中を泳いでいるのに、なぜみずタイプがなくてひこう・エスパータイプなんでしょう？
     translation: 这是我的一点朴素疑问，洛奇亚在标题画面中也在水中游动，为什么没有水属性，而是飞行·超能力属性呢？
+    scan_box:
+      - 142
+      - 809
+      - 434
+      - 920
+    writing_direction: horizontal
   - speaker: 全体
     type: paragraph
     kind: text
@@ -2875,6 +4709,12 @@ translation_segments:
     review_status: review
     original: （笑）
     translation: （笑）
+    scan_box:
+      - 142
+      - 926
+      - 230
+      - 954
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2885,6 +4725,12 @@ translation_segments:
     review_status: review
     original: これは当時の想像になってしまうんですけど、当時は強いポケモンの象徴みたいな感じでエスパータイプがあって、じゃあそれにどのタイプをつけようかという話になったと思うんです。ルギアのグラフィックは羽が生えていて飛んでいるので、もう1つタイプをつけるとしたら、みずではなくひこうの方がイメージに合っているだろうと。やっぱりゲームですので、見た目である程度タイプを想像できるのは、遊ぶうえで重要なポイントだと思っています。
     translation: 这只能说是当时的想象了，当时超能力属性给人一种强大宝可梦象征的感觉，于是就有了再给它加上什么属性的讨论。洛奇亚的图形长着翅膀在飞，所以如果要再加一个属性，比起水，飞行更符合印象。毕竟这是游戏，能从外观在一定程度上想象出属性，我认为是游玩时的重要一点。
+    scan_box:
+      - 142
+      - 961
+      - 434
+      - 1249
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -2895,6 +4741,12 @@ translation_segments:
     review_status: review
     original: ポケモン映画の第2作（99年公開『ルギア爆誕』）で思いっきり飛んでますしね（笑）。
     translation: 在宝可梦电影第2部（99年上映的《洛奇亚爆诞》）里，可是尽情地飞了一场呢（笑）。
+    scan_box:
+      - 142
+      - 1255
+      - 434
+      - 1339
+    writing_direction: horizontal
   - speaker: 在完好保留旋律的同时使其进化
     type: heading
     kind: text
@@ -2906,6 +4758,12 @@ translation_segments:
     review_status: review
     original: メロディーをきれいに残しつつ、進化させる
     translation: 在完好保留旋律的同时使其进化
+    scan_box:
+      - 473
+      - 317
+      - 679
+      - 383
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2916,6 +4774,12 @@ translation_segments:
     review_status: review
     original: 続いて音楽についてお聞きします。『金・銀』と『HG・SS』を並べて聴き比べてみたんですが、『HG・SS』は『金・銀』のメロディーがそのまま生かされているんですね。今作の楽曲はどんなコンセプトで作られたのですか？
     translation: 接下来想请教关于音乐的问题。我把《金·银》和《心金·魂银》放在一起对比着听了听，发现《心金·魂银》原样保留了《金·银》的旋律。本作的乐曲是以怎样的理念创作的呢？
+    scan_box:
+      - 468
+      - 393
+      - 759
+      - 528
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -2926,6 +4790,12 @@ translation_segments:
     review_status: review
     original: 最初に言っておきますと、今回は『D・P・プラチナ』のときと音源を一新しています。レートが上がっていて、すごく音質が向上し、クリアになりました。戦闘ではより迫力のある、フィールドではより癒される音になっているんじゃないでしょうか。で、『金・銀』から『HG・SS』へのアレンジですが、『HG・SS』はグラフィックが『金・銀』より大幅に進化しています。ワカバタウンに風が吹いていたり、エンジュシティがより和風になっていたり…。楽曲もそれに合わせて豪華にしました。ただ変えすぎてしまうと、オールドファンが「前と違う」と感じるかもしれない。それに『金・銀』の楽曲はもともと3音なので、メロディーが生きている曲が多いんです。なるべくメロディーをきれいに残し、前の雰囲気も残しつつ進化させるために、サウンドチーム全体でああでもない、こうでもないと議論を重ねていました。
     translation: 先说一句，这次和《钻石·珍珠·白金》时相比更换了音源。采样率提高了，音质大幅提升，变得清晰了。战斗中变得更有魄力，场景中则变得更能让人放松，我想应该是这样。至于从《金·银》到《心金·魂银》的改编，是因为《心金·魂银》的画面相比《金·银》有了大幅进化。若叶镇有风吹过，缘朱市更有和风气息……乐曲也随之做得更华丽。不过如果改动太多，老玩家可能会觉得“和以前不一样”。而且《金·银》的乐曲原本就是3音，旋律鲜活的曲子很多。为了尽量完好地保留旋律，在留下过去氛围的同时使其进化，整个音效团队反复讨论，这样也不行、那样也不对。
+    scan_box:
+      - 468
+      - 535
+      - 759
+      - 1112
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2936,6 +4806,12 @@ translation_segments:
     review_status: review
     original: 同じDSの作品でも、『D・P・プラチナ』と『HG・SS』では、曲作りのコンセプトが違うのですか？
     translation: 同样是DS上的作品，《钻石·珍珠·白金》和《心金·魂银》在作曲理念上有所不同吗？
+    scan_box:
+      - 468
+      - 1118
+      - 759
+      - 1202
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -2946,6 +4822,12 @@ translation_segments:
     review_status: review
     original: それはありますね。例えば『D・P・プラチナ』のシンオウ地方は、ちょっと大人っぽいとか、クールとか、そんなコンセプトでまとめられています。『HG・SS』のジョウト地方はやはり和のイメージを取り入れていますね。『HG・SS』でも、カントー地方はジョウト地方とはちょっと違いまして、和のイメージが落ちている感じになっています。
     translation: 那是有的。比如《钻石·珍珠·白金》的神奥地区，是以稍微成熟一些、比较酷这样的理念统一起来的。《心金·魂银》的城都地区则还是融入了和风的意象。在《心金·魂银》里，关都地区也和城都地区稍有不同，感觉上和风意象要淡一些。
+    scan_box:
+      - 789
+      - 317
+      - 1082
+      - 606
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2956,6 +4838,12 @@ translation_segments:
     review_status: review
     original: ちなみに『ルビー・サファイア』のホウエン地方は、音楽的にどんなイメージがあるんですか？
     translation: 顺便问一下，《红宝石·蓝宝石》的丰缘地区，在音乐上给人什么样的印象呢？
+    scan_box:
+      - 789
+      - 612
+      - 1082
+      - 668
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -2966,6 +4854,12 @@ translation_segments:
     review_status: review
     original: あそこは暖かかったので、楽曲も全体的に暖かくしていく感じでした。
     translation: 那里很温暖，所以乐曲整体也朝着温暖的方向去做。
+    scan_box:
+      - 789
+      - 674
+      - 1082
+      - 729
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2976,6 +4870,12 @@ translation_segments:
     review_status: review
     original: 暖かかったって、実際に行ったことあるみたい（笑）。
     translation: 说什么很温暖，听起来像是真去过一样（笑）。
+    scan_box:
+      - 789
+      - 735
+      - 1082
+      - 791
+    writing_direction: horizontal
   - speaker: 希望大家同时享受BGM和环境音
     type: heading
     kind: text
@@ -2987,6 +4887,12 @@ translation_segments:
     review_status: review
     original: BGMと環境音を同時に楽しんでほしい
     translation: 希望大家同时享受BGM和环境音
+    scan_box:
+      - 1119
+      - 317
+      - 1323
+      - 383
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -2997,6 +4903,12 @@ translation_segments:
     review_status: review
     original: 水辺の近くでせせらぎの音が聞こえたり、波打ち際でバシャバシャと足音がしたり、効果音が面白いですね。
     translation: 在水边附近能听到潺潺水声，在浪花拍岸处会有哗啦哗啦的脚步声，音效很有意思呢。
+    scan_box:
+      - 1114
+      - 393
+      - 1405
+      - 477
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3007,6 +4919,12 @@ translation_segments:
     review_status: review
     original: 昔からやってみたいと思っていたんですが、やっと実現できました。今回はグラフィックがすごくパワーアップしているので、ここで音が鳴らないと寂しいですよね。例えばアサギシティでは、場所によっては環境音として波の音が聴こえてくるんです。街のBGMと波の音を同時に聴くと、ヒーリングミュージックみたいになって癒されるんじゃないでしょうか（笑）。いろんな楽しみ方をしてもらえると、うれしいですね。
     translation: 这是我从很早以前就想尝试的，终于实现了。这次画面大幅强化，所以这种地方要是没有声音会显得很冷清吧。比如在浅葱市，根据地点不同，能听到作为环境音的海浪声。同时听城镇的BGM和海浪声，就像治愈音乐一样让人放松（笑）。如果大家能用各种方式去享受，我会很高兴。
+    scan_box:
+      - 1114
+      - 483
+      - 1405
+      - 772
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -3017,6 +4935,12 @@ translation_segments:
     review_status: review
     original: 『HG・SS』の中で、特に気に入っている曲があれば教えてください。
     translation: 在《HG·SS》中，如果有特别喜欢的曲子，请告诉我们。
+    scan_box:
+      - 1114
+      - 778
+      - 1405
+      - 834
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3027,6 +4951,12 @@ translation_segments:
     review_status: review
     original: もともと僕はゲームボーイ版のカントージムリーダーの曲が大好きなんです。これは増田が作った楽曲なんですが、超かっこよかったんですね。それを今回僕がアレンジすることになりまして。原曲の荒々しさや迫力をとにかく増幅させたいと思ってアレンジしました。ちなみにカントージムリーダーの曲には、オールドファンがニヤッとするようなサービスも入れたつもりなんで、これはぜひ注意して聴いてほしいですね。
     translation: 我原本就非常喜欢Game Boy版关都道馆馆主的曲子。那是增田作的曲，非常帅。这次由我来重新编曲。编曲时我想无论如何都要把原曲的粗犷和魄力放大。顺便说一句，关都道馆馆主的曲子里，我加入了让老粉丝会心一笑的彩蛋，请大家务必注意听。
+    scan_box:
+      - 1114
+      - 840
+      - 1405
+      - 1102
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -3037,6 +4967,12 @@ translation_segments:
     review_status: review
     original: ニヤッとする…何？
     translation: 会心一笑……是什么？
+    scan_box:
+      - 1114
+      - 1108
+      - 1405
+      - 1137
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3047,6 +4983,12 @@ translation_segments:
     review_status: review
     original: 言ったら面白くないんで、探してほしいなと（笑）。
     translation: 说出来就没意思了，希望大家自己去找（笑）。
+    scan_box:
+      - 1114
+      - 1143
+      - 1405
+      - 1198
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3057,6 +4999,12 @@ translation_segments:
     review_status: review
     original: →エンジュシティのBGMは、まさに和のテイスト
     translation: →缘朱市的BGM，正是和风的味道
+    scan_box:
+      - 789
+      - 840
+      - 807
+      - 1016
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3067,6 +5015,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: Upper screen
+    scan_box:
+      - 846
+      - 971
+      - 944
+      - 987
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3077,6 +5031,12 @@ translation_segments:
     review_status: review
     original: ←水の近くでは、ちゃんと水音が聞こえるのだ
     translation: ←在水边，能清楚地听到水声
+    scan_box:
+      - 1030
+      - 1022
+      - 1047
+      - 1198
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3087,6 +5047,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: Upper screen
+    scan_box:
+      - 789
+      - 1184
+      - 888
+      - 1200
+    writing_direction: horizontal
   - speaker: 一之濑刚先生
     type: heading
     kind: text
@@ -3098,6 +5064,12 @@ translation_segments:
     review_status: review
     original: 一之瀬 剛さん
     translation: 一之濑刚先生
+    scan_box:
+      - 484
+      - 1255
+      - 888
+      - 1319
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -3108,6 +5080,12 @@ translation_segments:
     review_status: review
     original: 株式会社ゲームフリーク 開発部 サウンドデザイナーサウンドリーダーとしてサウンドチームの統括をしつつ、作曲・編曲作業を行う。
     translation: GAME FREAK 开发部 声音设计师。作为声音总监统括声音团队，同时进行作曲、编曲工作。
+    scan_box:
+      - 912
+      - 1264
+      - 1380
+      - 1327
+    writing_direction: horizontal
   - speaker: ●《金·银》开发当时的回忆
     type: heading
     kind: text
@@ -3119,6 +5097,12 @@ translation_segments:
     review_status: review
     original: ●『金・銀』開発当時の思い出
     translation: ●《金·银》开发当时的回忆
+    scan_box:
+      - 765
+      - 1341
+      - 1011
+      - 1368
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3129,6 +5113,12 @@ translation_segments:
     review_status: review
     original: 僕は『金・銀』が初めての『ポケットモンスター』の仕事だったので、ピチピチな状態でやらせていただきました。『金・銀』では作曲と編曲をしていたんですが、今改めて聴くと、昔の方がいい曲を作ってたなと思いまして。
     translation: 《金·银》是我第一次参与《宝可梦》的工作，所以是在非常青涩的状态下做的。在《金·银》里我负责作曲和编曲，现在重新听，觉得以前做的曲子更好。
+    scan_box:
+      - 765
+      - 1374
+      - 1056
+      - 1532
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -3139,6 +5129,12 @@ translation_segments:
     review_status: review
     original: 何だそりゃ（笑）。
     translation: 那是什么啊（笑）。
+    scan_box:
+      - 765
+      - 1538
+      - 1056
+      - 1565
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3149,6 +5145,12 @@ translation_segments:
     review_status: review
     original: 昔の曲を聴いて、何かあのころは勢いがあったんだなって思いました。
     translation: 听了以前的曲子，我觉得那个时代确实有一股冲劲。
+    scan_box:
+      - 765
+      - 1571
+      - 1056
+      - 1636
+    writing_direction: horizontal
   - speaker: ●在《心金·魂银》中喜欢的宝可梦是？
     type: heading
     kind: text
@@ -3160,6 +5162,12 @@ translation_segments:
     review_status: review
     original: ●『HG・SS』で好きなポケモンは？
     translation: ●在《心金·魂银》中喜欢的宝可梦是？
+    scan_box:
+      - 765
+      - 1663
+      - 969
+      - 1716
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3170,6 +5178,23 @@ translation_segments:
     review_status: review
     original: ルギアです。ルギアの戦闘曲を作る時に、ルギアのイラストや動画を死ぬほど見て、寝ても覚めてもルギアのことを考えていたら、いつの間にかルギアを愛していました（笑）。
     translation: 是洛奇亚。制作洛奇亚的战斗曲时，我拼命地看洛奇亚的插画和动画，睡着醒着都在想洛奇亚的事，不知不觉就爱上洛奇亚了（笑）。
+    scan_box:
+      - 765
+      - 1722
+      - 1056
+      - 1749
+    scan_boxes:
+      - 
+        - 765
+        - 1722
+        - 1056
+        - 1749
+      - 
+        - 1087
+        - 1341
+        - 1380
+        - 1481
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -3180,6 +5205,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p078_interview_summary.jpg"
     alt: Nintendo DREAM 2009年11月号（Vol.187） P.78
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 做成了一款塞进了各种各样内容的作品（森本先生）
     type: heading
     kind: text
@@ -3191,6 +5218,12 @@ translation_segments:
     review_status: review
     original: あれもこれも詰め込んだソフトになっています（森本さん）
     translation: 做成了一款塞进了各种各样内容的作品（森本先生）
+    scan_box:
+      - 77
+      - 117
+      - 1277
+      - 190
+    writing_direction: horizontal
   - speaker: 致Nintendo DREAM读者的寄语
     type: heading
     kind: text
@@ -3202,6 +5235,12 @@ translation_segments:
     review_status: review
     original: ニンドリ読者へのメッセージ
     translation: 致Nintendo DREAM读者的寄语
+    scan_box:
+      - 84
+      - 209
+      - 243
+      - 276
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -3212,6 +5251,12 @@ translation_segments:
     review_status: review
     original: 今回は、自分自身も1ファンとしてリニューアルに携わらせてもらいました。当時の思い出にひたりつつ、ゲームボーイ版『金・銀』の世界をさらに広げ、変化に富んだ楽しい場所として作り直しましたので、ぜひお気に入りのポケモンを連れ歩いて世界を堪能してもらいたいと思っています。
     translation: 这次我自己也作为一名粉丝参与了重制。我一边沉浸在当时的回忆里，一边进一步拓展Game Boy版《金·银》的世界，把它重新打造成了一个富于变化、充满乐趣的地方，希望大家一定要带着自己喜欢的宝可梦一起走，尽情享受这个世界。
+    scan_box:
+      - 78
+      - 293
+      - 366
+      - 500
+    writing_direction: horizontal
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -3222,6 +5267,23 @@ translation_segments:
     review_status: review
     original: 今回は音自体がすごく良くなったので、ぜひヘッドホンで聴いてみてほしいですね。電車の中で遊ぶ機会もあるかと思いますが、そういうときは音を消さずに、ぜひヘッドホンで（笑）。あと、今の段階では多くを語れないんですけど…ゲームを進めていくと、『金・銀』からのサウンドファンにはとってもうれしい特典があります。ぜひ楽しみにしていてください。
     translation: 这次声音本身变得非常好了，希望大家一定要用耳机听一听。我想大家也会有在电车上玩的机会，那种时候请不要关掉声音，一定要用耳机听（笑）。另外，现阶段我还不能多说……但随着游戏推进，会有让《金·银》以来的声音粉丝非常高兴的特典。敬请期待。
+    scan_box:
+      - 78
+      - 500
+      - 366
+      - 578
+    scan_boxes:
+      - 
+        - 78
+        - 500
+        - 366
+        - 578
+      - 
+        - 401
+        - 207
+        - 691
+        - 362
+    writing_direction: horizontal
   - speaker: 松岛贤二
     type: paragraph
     kind: text
@@ -3232,6 +5294,12 @@ translation_segments:
     review_status: review
     original: 『HG・SS』は、GB版『金・銀』からストーリーのベースは変わっていないんですが、いろいろと手を加えたところがたくさんあります。オリジナルの『金・銀』を遊んだことのある人には、昔との違いを楽しんでほしいですね。あと、いろんな細かいイベントがあちこちに隠されていますので、時間のあるときに歩き回って探してもらうと、もっと楽しくなるかなと思います。
     translation: 《心金·魂银》的剧情基础与GB版《金·银》相比没有改变，但有很多地方做了各种加工。玩过原版《金·银》的人，希望你们能享受与过去的不同。另外，各种细小的事件隐藏在各地，有空的时候四处走走找找，我想会更有乐趣。
+    scan_box:
+      - 401
+      - 371
+      - 691
+      - 578
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -3242,6 +5310,12 @@ translation_segments:
     review_status: review
     original: ポケウォーカーを恋人や親や、あんまり『ポケットモンスター』をしない人にくっつけて、どんな行動をするのか観察するのも面白いですよ（笑）。自分は自分でゲームの方を遊んでおいて、後でポケモンを戻してワットを集めたり日記を見たり。ゆっくりじっくり楽しんでもらえるといいですね。
     translation: 把计步器交给恋人、父母，或者不太玩《宝可梦》的人，观察他们会有什么行动，也很有意思哦（笑）。自己先玩自己的游戏，之后再取回宝可梦，收集瓦特、看看日记。希望大家能慢慢地、细细地享受。
+    scan_box:
+      - 724
+      - 199
+      - 1015
+      - 465
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -3252,6 +5326,12 @@ translation_segments:
     review_status: review
     original: 『HG・SS』は、とにかく新しい遊びを入れたいということで、あれもこれも詰め込んだソフトになっています。かなり無理してボリュームアップしましたので、長い間遊び続けられるんじゃないでしょうか。これまでの『ポケットモンスター』の良いところを集めましたので、ぜひ遊んでください。
     translation: 《心金·魂银》总之就是想加入新的玩法，于是做成了一款塞进了各种各样内容的作品。我们相当勉强地增加了内容量，所以应该能玩很长时间吧。我们汇集了以往《宝可梦》的优点，请一定要玩一玩。
+    scan_box:
+      - 724
+      - 473
+      - 1015
+      - 578
+    writing_direction: horizontal
   - speaker: 森昭人
     type: paragraph
     kind: text
@@ -3262,6 +5342,12 @@ translation_segments:
     review_status: review
     original: 森本がたくさんあれもこれも詰め込んだので、プログラマーとしては大変苦労しました（笑）。これだけ苦労したのだから、ニンドリをお読みの皆様にはぜひ遊んでほしいですね。僕自身も『金・銀』のリニューアルは楽しみだったので、ぜひ楽しみたいと思っています。
     translation: 森本塞进了那么多各种各样的内容，作为程序员可是吃了不少苦（笑）。既然这么辛苦，希望阅读Nintendo DREAM的各位一定要玩一玩。我自己也很期待《金·银》的重制，所以一定要好好享受。
+    scan_box:
+      - 1048
+      - 199
+      - 1338
+      - 514
+    writing_direction: horizontal
   - speaker: 番外对战？宝可梦世界锦标赛 世界大会总结与新规则的目标
     type: heading
     kind: text
@@ -3273,6 +5359,12 @@ translation_segments:
     review_status: review
     original: 番外バトル？ ポケモンワールドチャンピオンシップス 世界大会総括＆新ルールの狙い
     translation: 番外对战？宝可梦世界锦标赛 世界大会总结与新规则的目标
+    scan_box:
+      - 106
+      - 623
+      - 1019
+      - 743
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -3283,6 +5375,12 @@ translation_segments:
     review_status: review
     original: そういえば、8月にアメリカでポケモンワールドチャンピオンシップス2009（ゲームとカードゲームの世界大会）が開催されましたね。この中では増田さんと海野さんが行かれたそうですが、感想はいかがですか？
     translation: 话说回来，8月在美国举办了宝可梦世界锦标赛2009（游戏与卡牌游戏的世界大会）。听说这次增田先生和海野先生去了现场，感想如何？
+    scan_box:
+      - 106
+      - 766
+      - 394
+      - 924
+    writing_direction: horizontal
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -3293,6 +5391,12 @@ translation_segments:
     review_status: review
     original: 今回、自分はポケモンWCSに初めて行ったんですけれども、プレイしている人たちや応援している人たちの熱気に圧倒されましたね。うれしいと同時に、開発者としてプレッシャーも感じました。改めて気持ちをシャキッとさせられた場所でした。
     translation: 这次是我第一次去宝可梦WCS，被参赛者和应援者们的热情所震撼。高兴的同时，作为开发者我也感到了压力。那是一个让我重新振作起来的地方。
+    scan_box:
+      - 106
+      - 932
+      - 394
+      - 1114
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -3303,6 +5407,12 @@ translation_segments:
     review_status: review
     original: 今回からヨーロッパ代表も参加したんですが、ヨーロッパ勢がおそろいのTシャツを着て「うちらは負けねーぜ！」ぐらいの勢いで来ていたのが面白かったですね。あと、最終的には日本人強かったなぁと（笑）。ただバトルの仕組みとかルールとかまだまだ課題はあるので、ソフト側の方でも改善していきたいですね。それにしても、世界一になる人たちは何かちょっと違いますね。すごく上手だし、運もあるし、きっと何か持ってるんでしょうね。ぜひ来年はニンドリさんも出場してください（笑）。
     translation: 从这次开始欧洲代表也参加了，欧洲选手们穿着统一的T恤，带着“我们不会输！”的气势前来，很有意思。另外，最终日本人还是很强啊（笑）。不过对战的机制和规则还有很多课题，软件方面我们也想继续改善。话说回来，成为世界第一的人们果然有些不同。非常厉害，也有运气，一定拥有某种特质吧。明年请Nintendo DREAM也务必出场（笑）。
+    scan_box:
+      - 106
+      - 1122
+      - 394
+      - 1438
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -3313,6 +5423,12 @@ translation_segments:
     review_status: review
     original: 選手としてですか！？ が、がんばります…。そういえば、次回のポケモンWCSは伝説のポケモンを使える新ルールになるそうですね。
     translation: 作为选手吗！？我、我会努力的……。话说回来，下一届宝可梦WCS据说会变成可以使用传说的宝可梦的新规则。
+    scan_box:
+      - 418
+      - 817
+      - 707
+      - 924
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -3323,6 +5439,12 @@ translation_segments:
     review_status: review
     original: やはり今までやってきたルールと違ったものでないと、新しい戦略を考える楽しみが増えませんからね。伝説のポケモンはかなり強いので難しいかなと思いつつも、新しいルールで新しい発見をしてもらいたいと考えまして、今回はあえて伝説のポケモンを入れました。
     translation: 毕竟如果不是和以往不同的规则，思考新战略的乐趣就不会增加。传说的宝可梦相当强，虽然觉得可能很难，但希望大家能在新规则中有新发现，所以这次特意加入了传说的宝可梦。
+    scan_box:
+      - 418
+      - 932
+      - 707
+      - 1114
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -3333,6 +5455,12 @@ translation_segments:
     review_status: review
     original: 去年、今年と同じルールでやってきたので、来年はやっぱり違うことをしたいよね、と。今のルールでの戦略はかなり練り込まれているので、また1年間いろんなことを考えながら楽しんでもらいたいと思います。
     translation: 去年和今年都是同样的规则，所以明年还是想做些不同的。现在的规则下战略已经相当成熟，希望大家又能花一年时间思考各种事情并享受其中。
+    scan_box:
+      - 733
+      - 766
+      - 1021
+      - 915
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3343,6 +5471,12 @@ translation_segments:
     review_status: review
     original: ↑8月にアメリカ・サンディエゴで開催されたポケモンWCSの様子
     translation: ↑8月在美国圣迭戈举办的宝可梦WCS的情形
+    scan_box:
+      - 1057
+      - 803
+      - 1325
+      - 852
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -3353,6 +5487,12 @@ translation_segments:
     review_status: review
     original: "インタビュー終了後 マッスルが意外な行動に！？なんとマッスルが森本さんに土下座！ 昨年のゲームフリークとのバトルで惨敗した雪辱のため、『HG・SS』で再戦してほしいというのだ。渋い顔の森本さんだが、マッスルの熱意に押され、ついにOK!!"
     translation: 采访结束后，Muscle做出了意外的举动！？竟然向森本先生下跪！为了洗刷去年与GAME FREAK对战的惨败，他请求在《HG·SS》中再战一场。森本先生面露难色，但被Muscle的热情所打动，终于OK！！
+    scan_box:
+      - 446
+      - 1124
+      - 695
+      - 1386
+    writing_direction: horizontal
   - speaker: Muscle 复仇者！！
     type: heading
     kind: text
@@ -3364,6 +5504,12 @@ translation_segments:
     review_status: review
     original: マッスル リベンジャー！！
     translation: Muscle 复仇者！！
+    scan_box:
+      - 730
+      - 932
+      - 1400
+      - 1407
+    writing_direction: horizontal
   - speaker: 下期，将以宝可梦世界锦标赛新规则实现 GAME FREAK vs Nintendo DREAM！！敬请期待！
     type: heading
     kind: text
@@ -3375,4 +5521,21 @@ translation_segments:
     review_status: review
     original: 次号、ポケモンワールドチャンピオンシップス新ルールで ゲームフリークvsニンドリが実現！！ こうご期待！
     translation: 下期，将以宝可梦世界锦标赛新规则实现 GAME FREAK vs Nintendo DREAM！！敬请期待！
+    scan_box:
+      - 71
+      - 1444
+      - 1338
+      - 1724
+    scan_boxes:
+      - 
+        - 71
+        - 1444
+        - 1338
+        - 1724
+      - 
+        - 1060
+        - 1673
+        - 1344
+        - 1747
+    writing_direction: horizontal
 ---

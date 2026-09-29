@@ -1,0 +1,15 @@
+{
+ "width": 1547,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[931,90,1503,134], [103,94,267,152], [1191,98,1225,105], [108,140,325,198], [936,130,1500,162], [937,161,1499,196], [936,192,1504,231], [938,227,1501,260], [937,256,1500,293], [940,294,1104,322], [955,316,1505,358], [1137,320,1234,334], [936,352,1504,392], [940,386,1505,422], [936,412,1505,457], [938,450,1503,489], [938,481,1502,520], [982,485,1038,499], [941,524,1029,552], [933,540,1512,589], [937,578,1506,618], [939,616,1505,649], [941,646,1504,684], [939,679,1506,716], [1471,677,1501,688], [939,708,1508,749], [940,745,1506,779], [936,771,1077,817], [745,850,909,907], [749,896,969,954], [114,1097,272,1146], [115,1129,492,1201], [61,1961,95,1987]],
+ "regions": {
+  "p040_making_characters_n_ghetsis_grunts-h19": {"boxes":[[105,111,328,201]],"direction":"horizontal"},
+  "p040_making_characters_n_ghetsis_grunts-r20": {"boxes":[[931,98,1513,559]],"direction":"horizontal"},
+  "p040_making_characters_n_ghetsis_grunts-r21": {"boxes":[[931,563,1513,815]],"direction":"horizontal"},
+  "p040_making_characters_n_ghetsis_grunts-h22": {"boxes":[[746,860,972,952],[111,1102,492,1198]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 14.5, "image_tokens": 3074, "completion_tokens": 210, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p040_making_characters_n_ghetsis_grunts.jpg",
+ "page_file": "p040_making_characters_n_ghetsis_grunts"
+}

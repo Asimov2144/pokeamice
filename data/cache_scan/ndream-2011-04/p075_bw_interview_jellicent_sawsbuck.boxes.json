@@ -1,0 +1,29 @@
+{
+ "width": 1530,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[854,10,945,42], [942,6,1349,53], [1366,14,1500,68], [1055,49,1139,74], [1246,47,1340,75], [8,102,317,164], [981,123,1038,149], [2,171,177,199], [162,170,336,198], [16,307,77,342], [1422,344,1472,370], [900,448,1156,515], [898,518,1080,545], [1066,517,1244,545], [495,576,960,617], [987,578,1448,614], [501,617,956,646], [993,616,1447,645], [1404,612,1427,622], [502,651,955,678], [991,645,1450,679], [499,681,957,713], [992,681,1448,712], [502,715,955,746], [991,715,1276,746], [500,749,955,779], [3,832,248,891], [0,892,343,932], [457,1252,626,1280], [700,1252,871,1280], [2,1341,167,1369], [225,1340,397,1368], [940,1364,1109,1392], [0,1437,537,1470], [0,1473,536,1502], [1,1504,538,1537], [0,1538,346,1572], [0,1570,346,1604], [0,1608,345,1636], [0,1641,344,1670], [0,1674,343,1705], [1,1709,212,1738], [226,1711,345,1736], [29,1739,347,1771], [0,1775,178,1804], [5,1861,312,1928], [378,1882,547,1913], [1204,1880,1376,1911], [1,1930,343,1961], [534,1946,705,1974], [1414,2017,1443,2041]],
+ "regions": {
+  "p075_bw_interview_jellicent_sawsbuck-h63": {"boxes":[[0,98,340,201]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r65": {"boxes":[[753,63,814,94]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r66": {"boxes":[[12,303,73,336]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-h67": {"boxes":[[898,446,1236,545]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r69": {"boxes":[[979,121,1040,152]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r70": {"boxes":[[1414,342,1475,373]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r71": {"boxes":[[503,580,956,778],[968,580,1458,748]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-h72": {"boxes":[[0,823,318,926]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r74": {"boxes":[[0,1341,165,1372]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r75": {"boxes":[[225,1341,392,1372]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r76": {"boxes":[[456,1251,621,1282]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r77": {"boxes":[[702,1251,868,1282]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-h78": {"boxes":[[0,1870,318,1972]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r80": {"boxes":[[379,1888,545,1919]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r81": {"boxes":[[534,1946,699,1976]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r82": {"boxes":[[939,1354,1111,1384]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r83": {"boxes":[[1204,1888,1375,1919]],"direction":"horizontal"},
+  "p075_bw_interview_jellicent_sawsbuck-r84": {"boxes":[[0,1448,539,1806]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 36.0, "image_tokens": 3074, "completion_tokens": 599, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p075_bw_interview_jellicent_sawsbuck.jpg",
+ "page_file": "p075_bw_interview_jellicent_sawsbuck"
+}

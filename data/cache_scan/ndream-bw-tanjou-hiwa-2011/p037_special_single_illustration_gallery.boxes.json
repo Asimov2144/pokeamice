@@ -1,0 +1,23 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1090,18,1535,45], [49,50,314,122], [334,108,382,131], [399,109,460,131], [69,131,486,175], [656,126,706,519], [22,199,311,314], [70,306,510,407], [79,411,483,459], [429,449,478,468], [65,461,480,492], [56,488,419,531], [274,489,336,503], [365,489,414,503], [62,535,376,563], [434,555,710,587], [620,551,653,565], [436,611,667,634], [638,683,695,1020], [1385,685,1439,1162], [635,1149,659,1483], [1317,1203,1345,1410], [1335,1201,1377,1460], [1370,1206,1395,1327], [1395,1205,1422,1442], [1420,1203,1456,1464], [854,1399,1232,1446], [837,1454,1249,1498], [78,1654,372,1702], [60,1760,294,1789], [55,1778,297,1824], [60,1814,292,1843], [59,1839,294,1868], [60,1868,294,1895], [876,1885,896,1916], [59,1894,203,1921], [1477,1954,1510,1979]],
+ "regions": {
+  "p037_special_single_illustration_gallery-h350": {"boxes":[[25,47,513,397]],"direction":"horizontal"},
+  "p037_special_single_illustration_gallery-r351": {"boxes":[[59,420,481,565]],"direction":"horizontal"},
+  "p037_special_single_illustration_gallery-h352": {"boxes":[[650,121,706,514]],"direction":"vertical"},
+  "p037_special_single_illustration_gallery-r353": {"boxes":[[436,557,713,633]],"direction":"horizontal"},
+  "p037_special_single_illustration_gallery-h354": {"boxes":[[1388,680,1441,1157]],"direction":"vertical"},
+  "p037_special_single_illustration_gallery-r355": {"boxes":[[1318,1200,1450,1403]],"direction":"vertical"},
+  "p037_special_single_illustration_gallery-h356": {"boxes":[[641,680,697,1036]],"direction":"vertical"},
+  "p037_special_single_illustration_gallery-r357": {"boxes":[[631,1153,717,1505]],"direction":"vertical"},
+  "p037_special_single_illustration_gallery-h358": {"boxes":[[832,1403,1254,1497]],"direction":"horizontal"},
+  "p037_special_single_illustration_gallery-r359": {"boxes":[[844,1536,925,1915]],"direction":"horizontal"},
+  "p037_special_single_illustration_gallery-h360": {"boxes":[[81,1651,369,1704]],"direction":"horizontal"},
+  "p037_special_single_illustration_gallery-r361": {"boxes":[[59,1763,294,1919]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 17.5, "image_tokens": 3138, "completion_tokens": 363, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p037_special_single_illustration_gallery.jpg",
+ "page_file": "p037_special_single_illustration_gallery"
+}

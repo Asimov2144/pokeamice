@@ -4494,6 +4494,1166 @@
      ]
     }
    ]
+  },
+  {
+   "slug": "ndream-2010-04",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM",
+   "issue": "2010年4月号（Vol.192）",
+   "date": "2010-02-20",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2010.04_prepared",
+   "features": [
+    {
+     "slug": "ndream-2010-04-pokemon-bw-first-reveal",
+     "title_ja": "『ポケットモンスター 完全新作』始動！！＆新ポケモン「ゾロア」「ゾロアーク」初公開",
+     "kind": "feature"
+    },
+    {
+     "slug": "ndream-2010-04-creatures-ranger-interview",
+     "title_ja": "クリーチャーズ直撃取材！！ALL ABOUT Pokémon Ranger",
+     "kind": "interview"
+    },
+    {
+     "slug": "ndream-2010-04-pokemon-ranger-retrospective",
+     "title_ja": "『ポケモンレンジャー』全景通史回顾",
+     "kind": "retrospective"
+    }
+   ]
+  },
+  {
+   "slug": "ia-ndream-084",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM",
+   "issue": "2003年2月21日・3月6日合併号（Vol.84）",
+   "date": "2003-02-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "ia-ndream-084_prepared",
+   "image_base": "https://archive.org/download/nintendo-dream-vol.-84-pokemon-p-3-4",
+   "scan_note": "页图来自 archive.org 条目 nintendo-dream-vol.-84-pokemon-p-3-4（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org nintendo-dream-vol.-84-pokemon-p-3-4 leaf 0",
+     "bytes": 1723556
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org nintendo-dream-vol.-84-pokemon-p-3-4 leaf 1",
+     "bytes": 6437181
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org nintendo-dream-vol.-84-pokemon-p-3-4 leaf 2",
+     "bytes": 10965742
+    },
+    {
+     "file": "p003_leaf3",
+     "page": 3,
+     "desc": "archive.org nintendo-dream-vol.-84-pokemon-p-3-4 leaf 3",
+     "bytes": 10741585
+    },
+    {
+     "file": "p004_leaf4",
+     "page": 4,
+     "desc": "archive.org nintendo-dream-vol.-84-pokemon-p-3-4 leaf 4",
+     "bytes": 10516574
+    },
+    {
+     "file": "p005_leaf5",
+     "page": 5,
+     "desc": "archive.org nintendo-dream-vol.-84-pokemon-p-3-4 leaf 5",
+     "bytes": 10131808
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-084-ruby-sapphire-interview",
+     "title_ja": "ポケットモンスター ルビー・サファイア 大ヒット記念 ロングインタビュー",
+     "kind": "interview",
+     "people": [
+      "增田顺一",
+      "杉森建"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 红宝石·蓝宝石"
+     ],
+     "tags": [
+      "Nintendo DREAM",
+      "宝可梦 红宝石·蓝宝石",
+      "增田顺一",
+      "杉森建"
+     ],
+     "plate_only": [
+      "p000_leaf0",
+      "p001_leaf1"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2",
+      "p003_leaf3",
+      "p004_leaf4",
+      "p005_leaf5"
+     ],
+     "ia_item": "nintendo-dream-vol.-84-pokemon-p-3-4"
+    }
+   ]
+  },
+  {
+   "slug": "ia-ndream-108",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM",
+   "issue": "2004年3月21日号（Vol.108）",
+   "date": "2004-03-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "ia-ndream-108_prepared",
+   "image_base": "https://archive.org/download/nindori108_20040321_frlginterview",
+   "scan_note": "页图来自 archive.org 条目 nindori108_20040321_frlginterview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 0",
+     "bytes": 1543801
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 1",
+     "bytes": 1235926
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 2",
+     "bytes": 1606982
+    },
+    {
+     "file": "p003_leaf3",
+     "page": 3,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 3",
+     "bytes": 1521785
+    },
+    {
+     "file": "p004_leaf4",
+     "page": 4,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 4",
+     "bytes": 1467676
+    },
+    {
+     "file": "p005_leaf5",
+     "page": 5,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 5",
+     "bytes": 1525231
+    },
+    {
+     "file": "p006_leaf6",
+     "page": 6,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 6",
+     "bytes": 1426209
+    },
+    {
+     "file": "p007_leaf7",
+     "page": 7,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 7",
+     "bytes": 1519880
+    },
+    {
+     "file": "p008_leaf8",
+     "page": 8,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 8",
+     "bytes": 1377124
+    },
+    {
+     "file": "p009_leaf9",
+     "page": 9,
+     "desc": "archive.org nindori108_20040321_frlginterview leaf 9",
+     "bytes": 1510694
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-108-frlg-developer-interview",
+     "title_ja": "ポケットモンスター ファイアレッド・リーフグリーン 開発者ロングインタビュー",
+     "kind": "interview",
+     "people": [
+      "增田顺一",
+      "渡边哲也",
+      "宇野隆雄",
+      "西野弘二"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 火红·叶绿"
+     ],
+     "tags": [
+      "Nintendo DREAM",
+      "宝可梦 火红·叶绿",
+      "增田顺一",
+      "无线适配器"
+     ],
+     "plate_only": [
+      "p000_leaf0",
+      "p001_leaf1"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2",
+      "p003_leaf3",
+      "p004_leaf4",
+      "p005_leaf5",
+      "p006_leaf6",
+      "p007_leaf7",
+      "p008_leaf8",
+      "p009_leaf9"
+     ],
+     "ia_item": "nindori108_20040321_frlginterview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-corocoro-200508",
+   "publication": "コロコロコミック",
+   "publication_zh": "コロコロコミック",
+   "issue": "2005年8月号 別冊付録",
+   "date": "2005-07-15",
+   "publisher": "小学館",
+   "dir": "ia-corocoro-200508_prepared",
+   "image_base": "https://archive.org/download/corocoro_200508_supp_dpinterview",
+   "scan_note": "页图来自 archive.org 条目 corocoro_200508_supp_dpinterview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org corocoro_200508_supp_dpinterview leaf 0",
+     "bytes": 449421
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org corocoro_200508_supp_dpinterview leaf 1",
+     "bytes": 530850
+    }
+   ],
+   "features": [
+    {
+     "slug": "corocoro-200508-diamond-pearl-scoop",
+     "title_ja": "ポケットモンスター ダイヤモンド・パール 特報インタビュー",
+     "kind": "interview",
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 钻石·珍珠"
+     ],
+     "tags": [
+      "CoroCoro",
+      "宝可梦 钻石·珍珠",
+      "增田顺一"
+     ],
+     "plate_only": [],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1"
+     ],
+     "ia_item": "corocoro_200508_supp_dpinterview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-famitsu-1137",
+   "publication": "週刊ファミ通",
+   "publication_zh": "週刊ファミ通",
+   "issue": "2010年9月30日号（No.1137）",
+   "date": "2010-09-16",
+   "publisher": "エンターブレイン",
+   "dir": "ia-famitsu-1137_prepared",
+   "image_base": "https://archive.org/download/weeklyfamitsu1137_20100930_bwinterview",
+   "scan_note": "页图来自 archive.org 条目 weeklyfamitsu1137_20100930_bwinterview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org weeklyfamitsu1137_20100930_bwinterview leaf 0",
+     "bytes": 1499199
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org weeklyfamitsu1137_20100930_bwinterview leaf 1",
+     "bytes": 1428350
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org weeklyfamitsu1137_20100930_bwinterview leaf 2",
+     "bytes": 1488870
+    }
+   ],
+   "features": [
+    {
+     "slug": "famitsu-1137-bw-launch-interview",
+     "title_ja": "ポケットモンスター ブラック・ホワイト 発売記念インタビュー",
+     "kind": "interview",
+     "people": [
+      "石原恒和",
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "週刊ファミ通",
+      "宝可梦 黑·白",
+      "石原恒和",
+      "增田顺一"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2"
+     ],
+     "ia_item": "weeklyfamitsu1137_20100930_bwinterview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-famitsu-1138",
+   "publication": "週刊ファミ通",
+   "publication_zh": "週刊ファミ通",
+   "issue": "2010年10月7日号（No.1138）",
+   "date": "2010-09-23",
+   "publisher": "エンターブレイン",
+   "dir": "ia-famitsu-1138_prepared",
+   "image_base": "https://archive.org/download/weeklyfamitsu1138_20101007_bwinterview",
+   "scan_note": "页图来自 archive.org 条目 weeklyfamitsu1138_20101007_bwinterview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org weeklyfamitsu1138_20101007_bwinterview leaf 0",
+     "bytes": 1678275
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org weeklyfamitsu1138_20101007_bwinterview leaf 1",
+     "bytes": 1739976
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org weeklyfamitsu1138_20101007_bwinterview leaf 2",
+     "bytes": 1602079
+    }
+   ],
+   "features": [
+    {
+     "slug": "famitsu-1138-bw-secrets-interview",
+     "title_ja": "ポケットモンスター ブラック・ホワイト 開発秘話インタビュー",
+     "kind": "interview",
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "週刊ファミ通",
+      "宝可梦 黑·白",
+      "增田顺一"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2"
+     ],
+     "ia_item": "weeklyfamitsu1138_20101007_bwinterview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-otonafamily-201103",
+   "publication": "オトナファミ",
+   "publication_zh": "オトナファミ",
+   "issue": "2011年3月号",
+   "date": "2011-01-20",
+   "publisher": "エンターブレイン",
+   "dir": "ia-otonafamily-201103_prepared",
+   "image_base": "https://archive.org/download/otonafamily_201103_bwinterview",
+   "scan_note": "页图来自 archive.org 条目 otonafamily_201103_bwinterview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org otonafamily_201103_bwinterview leaf 0",
+     "bytes": 1202671
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org otonafamily_201103_bwinterview leaf 1",
+     "bytes": 1527360
+    }
+   ],
+   "features": [
+    {
+     "slug": "otonafamily-201103-masuda-bw-adults",
+     "title_ja": "増田順一インタビュー 大人のための『ポケットモンスター ブラック・ホワイト』",
+     "kind": "interview",
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "オトナファミ",
+      "宝可梦 黑·白",
+      "增田顺一"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1"
+     ],
+     "ia_item": "otonafamily_201103_bwinterview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-davinci-201102",
+   "publication": "ダ・ヴィンチ",
+   "publication_zh": "ダ・ヴィンチ",
+   "issue": "2011年2月号",
+   "date": "2011-01-06",
+   "publisher": "メディアファクトリー",
+   "dir": "ia-davinci-201102_prepared",
+   "image_base": "https://archive.org/download/davinci_201102_bwcomment",
+   "scan_note": "页图来自 archive.org 条目 davinci_201102_bwcomment（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org davinci_201102_bwcomment leaf 0",
+     "bytes": 1085286
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org davinci_201102_bwcomment leaf 1",
+     "bytes": 1408822
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org davinci_201102_bwcomment leaf 2",
+     "bytes": 1438663
+    }
+   ],
+   "features": [
+    {
+     "slug": "davinci-201102-masuda-comment",
+     "title_ja": "ダ・ヴィンチ 2011年2月号 『ポケットモンスター ブラック・ホワイト』増田順一コメント",
+     "kind": "interview",
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "ダ・ヴィンチ",
+      "宝可梦 黑·白",
+      "增田顺一"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2"
+     ],
+     "ia_item": "davinci_201102_bwcomment"
+    }
+   ]
+  },
+  {
+   "slug": "ia-famitsu-1233",
+   "publication": "週刊ファミ通",
+   "publication_zh": "週刊ファミ通",
+   "issue": "2012年8月2日・9日合併号（No.1233）",
+   "date": "2012-07-19",
+   "publisher": "エンターブレイン",
+   "dir": "ia-famitsu-1233_prepared",
+   "image_base": "https://archive.org/download/weeklyfamitsu1233_2012080209_b2w2interview",
+   "scan_note": "页图来自 archive.org 条目 weeklyfamitsu1233_2012080209_b2w2interview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org weeklyfamitsu1233_2012080209_b2w2interview leaf 0",
+     "bytes": 1624272
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org weeklyfamitsu1233_2012080209_b2w2interview leaf 1",
+     "bytes": 1294761
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org weeklyfamitsu1233_2012080209_b2w2interview leaf 2",
+     "bytes": 1292725
+    }
+   ],
+   "features": [
+    {
+     "slug": "famitsu-1233-b2w2-interview",
+     "title_ja": "ポケットモンスター ブラック2・ホワイト2 開発者インタビュー",
+     "kind": "interview",
+     "people": [
+      "海野隆雄",
+      "齐藤优史"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑2·白2"
+     ],
+     "tags": [
+      "週刊ファミ通",
+      "宝可梦 黑2·白2",
+      "海野隆雄"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2"
+     ],
+     "ia_item": "weeklyfamitsu1233_2012080209_b2w2interview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-ndream-221",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM",
+   "issue": "2012年9月号（Vol.221）",
+   "date": "2012-07-21",
+   "publisher": "徳間書店",
+   "dir": "ia-ndream-221_prepared",
+   "image_base": "https://archive.org/download/nindori221_201209_b2w2interview",
+   "scan_note": "页图来自 archive.org 条目 nindori221_201209_b2w2interview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org nindori221_201209_b2w2interview leaf 0",
+     "bytes": 1246938
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org nindori221_201209_b2w2interview leaf 1",
+     "bytes": 1693147
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org nindori221_201209_b2w2interview leaf 2",
+     "bytes": 1792547
+    },
+    {
+     "file": "p003_leaf3",
+     "page": 3,
+     "desc": "archive.org nindori221_201209_b2w2interview leaf 3",
+     "bytes": 1908294
+    },
+    {
+     "file": "p004_leaf4",
+     "page": 4,
+     "desc": "archive.org nindori221_201209_b2w2interview leaf 4",
+     "bytes": 1874178
+    },
+    {
+     "file": "p005_leaf5",
+     "page": 5,
+     "desc": "archive.org nindori221_201209_b2w2interview leaf 5",
+     "bytes": 1894727
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-221-b2w2-developer-interview",
+     "title_ja": "ポケットモンスター ブラック2・ホワイト2 開発者インタビュー",
+     "kind": "interview",
+     "people": [
+      "海野隆雄",
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑2·白2"
+     ],
+     "tags": [
+      "Nintendo DREAM",
+      "宝可梦 黑2·白2",
+      "海野隆雄",
+      "增田顺一"
+     ],
+     "plate_only": [
+      "p000_leaf0",
+      "p001_leaf1"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2",
+      "p003_leaf3",
+      "p004_leaf4",
+      "p005_leaf5"
+     ],
+     "ia_item": "nindori221_201209_b2w2interview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-ndream-222",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM",
+   "issue": "2012年10月号（Vol.222）",
+   "date": "2012-08-21",
+   "publisher": "徳間書店",
+   "dir": "ia-ndream-222_prepared",
+   "image_base": "https://archive.org/download/nindori222_201210_b2w2interview",
+   "scan_note": "页图来自 archive.org 条目 nindori222_201210_b2w2interview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 0",
+     "bytes": 1432306
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 1",
+     "bytes": 1861743
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 2",
+     "bytes": 1849604
+    },
+    {
+     "file": "p003_leaf3",
+     "page": 3,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 3",
+     "bytes": 1718736
+    },
+    {
+     "file": "p004_leaf4",
+     "page": 4,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 4",
+     "bytes": 1657161
+    },
+    {
+     "file": "p005_leaf5",
+     "page": 5,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 5",
+     "bytes": 1599956
+    },
+    {
+     "file": "p006_leaf6",
+     "page": 6,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 6",
+     "bytes": 1703677
+    },
+    {
+     "file": "p007_leaf7",
+     "page": 7,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 7",
+     "bytes": 1822572
+    },
+    {
+     "file": "p008_leaf8",
+     "page": 8,
+     "desc": "archive.org nindori222_201210_b2w2interview leaf 8",
+     "bytes": 1823387
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-222-b2w2-pwt-pokewood",
+     "title_ja": "ポケットモンスター ブラック2・ホワイト2 開発者インタビュー（PWT・ポケウッド）",
+     "kind": "interview",
+     "people": [
+      "海野隆雄"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 黑2·白2"
+     ],
+     "tags": [
+      "Nintendo DREAM",
+      "宝可梦 黑2·白2",
+      "海野隆雄",
+      "PWT"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2",
+      "p003_leaf3",
+      "p004_leaf4",
+      "p005_leaf5",
+      "p006_leaf6",
+      "p007_leaf7",
+      "p008_leaf8"
+     ],
+     "ia_item": "nindori222_201210_b2w2interview"
+    }
+   ]
+  },
+  {
+   "slug": "ia-ndream-235",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM",
+   "issue": "2013年11月号 別冊付録（Vol.235）",
+   "date": "2013-09-21",
+   "publisher": "徳間書店",
+   "dir": "ia-ndream-235_prepared",
+   "image_base": "https://archive.org/download/nindori235_201311_supp_xyinterview",
+   "scan_note": "页图来自 archive.org 条目 nindori235_201311_supp_xyinterview（第三方上传），本站未转存；文字为 qwen3.8-max 逐页转写。",
+   "pages": [
+    {
+     "file": "p000_leaf0",
+     "page": 0,
+     "desc": "archive.org nindori235_201311_supp_xyinterview leaf 0",
+     "bytes": 966960
+    },
+    {
+     "file": "p001_leaf1",
+     "page": 1,
+     "desc": "archive.org nindori235_201311_supp_xyinterview leaf 1",
+     "bytes": 456364
+    },
+    {
+     "file": "p002_leaf2",
+     "page": 2,
+     "desc": "archive.org nindori235_201311_supp_xyinterview leaf 2",
+     "bytes": 476001
+    },
+    {
+     "file": "p003_leaf3",
+     "page": 3,
+     "desc": "archive.org nindori235_201311_supp_xyinterview leaf 3",
+     "bytes": 502630
+    },
+    {
+     "file": "p004_leaf4",
+     "page": 4,
+     "desc": "archive.org nindori235_201311_supp_xyinterview leaf 4",
+     "bytes": 503500
+    },
+    {
+     "file": "p005_leaf5",
+     "page": 5,
+     "desc": "archive.org nindori235_201311_supp_xyinterview leaf 5",
+     "bytes": 505129
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-235-xy-developer-interview",
+     "title_ja": "ポケットモンスター X・Y 増田順一＆森本茂樹インタビュー",
+     "kind": "interview",
+     "people": [
+      "增田顺一",
+      "森本茂树"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二",
+      "斉藤": "齐藤优史",
+      "岩尾": "岩尾和昌",
+      "尾上": "尾上将之",
+      "宮本": "宫本茂",
+      "久保": "久保雅一",
+      "渡辺": "渡边哲也",
+      "宇野": "宇野隆雄",
+      "岩田": "岩田聪",
+      "桐谷": "桐谷美玲",
+      "田村": "田村环"
+     },
+     "works": [
+      "宝可梦 X·Y"
+     ],
+     "tags": [
+      "Nintendo DREAM",
+      "宝可梦 X·Y",
+      "增田顺一",
+      "森本茂树"
+     ],
+     "plate_only": [
+      "p000_leaf0"
+     ],
+     "files": [
+      "p000_leaf0",
+      "p001_leaf1",
+      "p002_leaf2",
+      "p003_leaf3",
+      "p004_leaf4",
+      "p005_leaf5"
+     ],
+     "ia_item": "nindori235_201311_supp_xyinterview"
+    }
+   ]
   }
  ]
 }

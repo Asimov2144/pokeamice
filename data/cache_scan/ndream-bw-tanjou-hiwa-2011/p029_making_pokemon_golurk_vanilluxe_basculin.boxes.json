@@ -1,0 +1,24 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1082,13,1527,43], [942,105,1156,157], [73,134,441,161], [480,129,848,158], [73,158,446,196], [213,164,254,171], [480,166,550,190], [938,160,1223,189], [74,195,443,225], [477,192,851,226], [71,226,444,259], [478,221,852,258], [76,263,442,290], [483,261,805,288], [940,244,1145,294], [90,294,443,323], [479,291,849,322], [946,286,1143,320], [75,328,444,355], [481,320,850,357], [945,321,1142,350], [73,358,443,388], [480,355,850,385], [948,355,1143,381], [945,379,1142,417], [74,392,444,421], [483,393,626,418], [73,424,444,453], [946,414,1342,446], [73,451,445,487], [946,448,1342,480], [74,486,445,520], [948,481,1343,513], [73,516,445,553], [947,515,1341,545], [74,552,441,582], [947,540,1345,583], [74,588,293,615], [948,581,1340,609], [943,604,1348,645], [72,617,293,650], [75,651,293,681], [948,648,1103,673], [216,692,424,748], [87,748,424,778], [56,827,273,880], [728,848,997,903], [56,883,283,910], [726,906,1011,933], [1164,1159,1431,1212], [1134,1214,1434,1243], [344,1347,620,1402], [344,1403,663,1432], [429,1523,647,1576], [1116,1562,1382,1616], [327,1579,649,1608], [767,1604,1076,1630], [950,1598,985,1609], [1113,1618,1412,1647], [768,1634,1076,1665], [53,1660,696,1696], [769,1665,1079,1697], [56,1696,695,1726], [768,1690,1430,1732], [58,1730,697,1760], [767,1725,1431,1767], [58,1756,697,1794], [767,1757,1431,1799], [59,1790,696,1824], [773,1797,1431,1826], [55,1821,699,1859], [770,1826,1426,1862], [59,1857,695,1889], [766,1856,1243,1895], [56,1886,603,1926], [1474,1949,1510,1978]],
+ "regions": {
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h233": {"boxes":[[941,104,1233,190]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-r234": {"boxes":[[946,258,1344,668]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h235": {"boxes":[[216,688,444,774]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-r236": {"boxes":[[72,133,444,676],[478,133,880,199]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-r237": {"boxes":[[478,199,880,293]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-r238": {"boxes":[[478,293,880,414]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h239": {"boxes":[[56,827,283,911],[728,844,997,932]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h241": {"boxes":[[1164,1163,1433,1245]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h242": {"boxes":[[347,1348,617,1432]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h243": {"boxes":[[428,1522,650,1610]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-h244": {"boxes":[[1118,1563,1388,1647]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-r245": {"boxes":[[56,1673,699,1917]],"direction":"horizontal"},
+  "p029_making_pokemon_golurk_vanilluxe_basculin-r246": {"boxes":[[769,1602,1433,1905]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 18.8, "image_tokens": 3138, "completion_tokens": 637, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p029_making_pokemon_golurk_vanilluxe_basculin.jpg",
+ "page_file": "p029_making_pokemon_golurk_vanilluxe_basculin"
+}

@@ -1,0 +1,18 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1091,19,1533,43], [136,770,397,821], [573,772,833,822], [1061,773,1323,825], [132,824,401,854], [571,827,928,854], [1059,827,1398,856], [46,901,740,948], [770,908,1455,948], [53,946,731,975], [135,942,190,952], [770,943,1452,982], [1005,944,1065,957], [1160,944,1223,957], [54,976,735,1009], [770,978,1452,1011], [52,1006,717,1043], [382,1007,420,1018], [769,1009,1452,1044], [73,1041,734,1074], [134,1038,172,1052], [302,1038,348,1052], [54,1074,734,1107], [787,1069,1456,1115], [893,1074,967,1084], [55,1106,732,1138], [768,1105,1453,1144], [55,1139,731,1172], [768,1141,1451,1174], [52,1170,732,1206], [769,1174,1448,1206], [52,1204,467,1237], [768,1205,1450,1239], [73,1239,734,1268], [283,1235,316,1245], [345,1235,377,1245], [768,1240,935,1270], [54,1271,733,1301], [432,1347,603,1405], [854,1347,1024,1406], [298,1405,602,1434], [854,1405,1122,1436], [617,1554,976,1594], [623,1596,973,1624], [623,1623,973,1657], [621,1654,976,1690], [620,1687,973,1723], [622,1718,974,1755], [624,1756,970,1786], [622,1788,971,1820], [619,1819,969,1853], [617,1850,969,1886], [621,1886,843,1917], [1466,1952,1502,1981]],
+ "regions": {
+  "p035_making_pokemon_swords_of_justice_favorites-h326": {"boxes":[[59,770,472,864]],"direction":"horizontal"},
+  "p035_making_pokemon_swords_of_justice_favorites-h327": {"boxes":[[570,772,972,864]],"direction":"horizontal"},
+  "p035_making_pokemon_swords_of_justice_favorites-h328": {"boxes":[[1060,774,1450,864]],"direction":"horizontal"},
+  "p035_making_pokemon_swords_of_justice_favorites-r329": {"boxes":[[52,885,753,1253],[774,885,1519,1090],[774,1100,1519,1253]],"direction":"horizontal"},
+  "p035_making_pokemon_swords_of_justice_favorites-h330": {"boxes":[[294,1356,606,1446]],"direction":"horizontal"},
+  "p035_making_pokemon_swords_of_justice_favorites-h331": {"boxes":[[852,1356,1138,1446]],"direction":"horizontal"},
+  "p035_making_pokemon_swords_of_justice_favorites-r332": {"boxes":[[581,1540,972,1921]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 16.6, "image_tokens": 3138, "completion_tokens": 254, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p035_making_pokemon_swords_of_justice_favorites.jpg",
+ "page_file": "p035_making_pokemon_swords_of_justice_favorites"
+}

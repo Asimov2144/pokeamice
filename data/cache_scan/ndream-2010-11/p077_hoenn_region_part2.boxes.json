@@ -1,0 +1,32 @@
+{
+ "width": 1448,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[790,346,912,373], [206,512,367,535], [601,527,722,552], [962,537,1102,566], [142,586,329,616], [1050,707,1206,731], [29,743,57,904], [151,747,343,815], [149,797,386,860], [1064,818,1095,833], [956,835,1081,865], [163,846,191,867], [416,872,457,1121], [613,862,728,887], [447,889,477,1075], [522,964,905,990], [238,988,256,1092], [502,987,903,1014], [1146,1000,1186,1194], [1178,1002,1204,1164], [1221,1002,1249,1094], [1246,1003,1273,1193], [1269,1001,1300,1185], [1288,1005,1322,1196], [781,1076,980,1152], [1219,1078,1250,1194], [73,1115,98,1194], [1181,1165,1197,1190], [76,1182,96,1349], [1273,1174,1291,1192], [94,1191,124,1351], [1252,1206,1305,1213], [1192,1225,1297,1245], [1132,1240,1296,1263], [949,1272,1062,1296], [603,1301,802,1335], [932,1294,1060,1318], [932,1318,1032,1344], [526,1346,900,1372], [928,1337,1061,1366], [79,1364,384,1418], [497,1367,891,1395], [930,1364,1040,1388], [1040,1371,1056,1383], [1034,1418,1279,1444], [90,1428,386,1459], [1075,1443,1279,1474], [440,1488,467,1722], [612,1684,781,1718], [1058,1677,1325,1704], [928,1702,1062,1722], [1062,1702,1321,1724], [86,1737,381,1785], [405,1744,463,1772], [578,1741,812,1793], [940,1747,1246,1794], [1270,1756,1325,1778], [136,1799,381,1827], [768,1792,806,1803], [573,1803,812,1834], [983,1807,1243,1838], [68,1846,401,1890], [88,1884,395,1915]],
+ "regions": {
+  "p077_hoenn_region_part2-h205": {"boxes":[[70,1741,922,1843]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r206": {"boxes":[[70,1669,922,1729]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r207": {"boxes":[[670,1417,922,1473]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r208": {"boxes":[[670,1368,922,1405]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-h209": {"boxes":[[366,1741,649,1806]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r210": {"boxes":[[395,1679,620,1722]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-h211": {"boxes":[[70,1741,359,1806]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r212": {"boxes":[[265,1489,319,1722]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-h213": {"boxes":[[70,1364,388,1458]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r214": {"boxes":[[77,1114,127,1350]],"direction":"vertical"},
+  "p077_hoenn_region_part2-r215": {"boxes":[[272,881,323,1106]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-h216": {"boxes":[[381,1303,598,1339]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r217": {"boxes":[[330,1350,598,1397]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-h218": {"boxes":[[504,967,721,1004]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r219": {"boxes":[[330,967,598,1014]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r220": {"boxes":[[497,1051,707,1171]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r221": {"boxes":[[736,995,888,1208]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r222": {"boxes":[[699,1225,888,1262]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-r223": {"boxes":[[620,1278,670,1458]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-h224": {"boxes":[[91,762,258,856]],"direction":"horizontal"},
+  "p077_hoenn_region_part2-t225": {"boxes":[[120,346,765,897]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 27.6, "image_tokens": 2882, "completion_tokens": 1193, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p077_hoenn_region_part2.jpg",
+ "page_file": "p077_hoenn_region_part2"
+}

@@ -1,0 +1,30 @@
+{
+ "width": 1594,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[679,94,747,120], [1486,81,1592,136], [37,99,837,350], [848,107,1210,144], [1236,106,1485,132], [824,145,1207,181], [1229,141,1300,234], [1317,141,1415,166], [853,178,877,189], [999,177,1048,190], [1316,173,1442,198], [827,186,1206,216], [1317,205,1440,230], [827,224,1200,252], [1239,237,1289,260], [823,256,1159,293], [996,250,1040,264], [1236,258,1345,278], [1356,258,1479,278], [40,283,985,742], [1235,275,1523,300], [1286,298,1448,318], [312,651,777,712], [908,591,1562,904], [111,844,151,864], [70,868,445,997], [557,874,707,972], [691,877,930,1070], [1128,884,1172,907], [1247,883,1306,905], [976,902,1505,1047], [304,1059,506,1116], [996,1078,1338,1116], [1347,1076,1549,1177], [765,1116,967,1172], [996,1120,1354,1174], [1005,1188,1555,1217], [988,1218,1557,1250], [990,1256,1555,1280], [986,1278,1559,1323], [988,1318,1477,1348], [1149,1357,1327,1410], [601,1456,787,1480], [108,1473,291,1496], [599,1477,788,1512], [105,1496,290,1526], [108,1523,287,1550], [1250,1524,1432,1578], [599,1533,787,1560], [104,1548,290,1577], [597,1560,761,1586], [102,1574,231,1604], [1034,1593,1109,1632], [1045,1580,1477,1702], [102,1676,303,1737], [1049,1719,1224,1772], [123,1804,307,1831], [691,1821,863,1875], [125,1833,305,1857], [123,1854,308,1884], [123,1886,307,1910], [655,1897,829,1953], [1321,1900,1500,1961], [123,1912,300,1936], [377,1992,616,2031]],
+ "regions": {
+  "p007_rotom_silhouettes-h23": {"boxes":[[61,86,807,322]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r24": {"boxes":[[826,104,1215,289]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r25": {"boxes":[[1224,86,1559,322]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-h26": {"boxes":[[45,303,1588,885]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-h27": {"boxes":[[64,768,1508,1096]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-h28": {"boxes":[[306,1067,504,1112]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-h29": {"boxes":[[765,1120,966,1167]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r30": {"boxes":[[988,1075,1553,1348]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r31": {"boxes":[[1154,1358,1336,1409]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r32": {"boxes":[[1250,1522,1431,1573]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r33": {"boxes":[[1049,1583,1473,1692]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r34": {"boxes":[[1052,1716,1240,1767]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r35": {"boxes":[[692,1823,877,1874]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r36": {"boxes":[[657,1898,842,1950]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r37": {"boxes":[[1323,1905,1508,1956]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r38": {"boxes":[[102,1470,290,1604]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r39": {"boxes":[[603,1454,787,1587]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-h40": {"boxes":[[108,1683,303,1731]],"direction":"horizontal"},
+  "p007_rotom_silhouettes-r41": {"boxes":[[124,1802,312,1935]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 25.7, "image_tokens": 3202, "completion_tokens": 576, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2008-10-platinum-special/pages/p007_rotom_silhouettes.jpg",
+ "page_file": "p007_rotom_silhouettes"
+}

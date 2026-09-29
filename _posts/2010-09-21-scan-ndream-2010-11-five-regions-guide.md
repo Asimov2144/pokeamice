@@ -103,6 +103,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p069_5regions_guide_intro.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.69
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 满载让冒险之旅更添乐趣的精选情报！！ 五大地方观光指南
     type: heading
     kind: text
@@ -113,7 +115,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "冒険の旅をさらに楽しむ厳選情報満載!! 5大地方観光ガイド"
-    translation: "满载让冒险之旅更添乐趣的精选信息！！五大地区观光指南"
+    translation: 满载让冒险之旅更添乐趣的精选信息！！五大地区观光指南
+    scan_box:
+      - 70
+      - 109
+      - 1373
+      - 860
+    writing_direction: horizontal
   - speaker: ALL ABOUT 宝可梦 2010最新版
     type: heading
     kind: text
@@ -124,7 +132,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ALL ABOUTポケットモンスター 2010最新版
-    translation: "ALL ABOUT宝可梦 2010最新版"
+    translation: ALL ABOUT宝可梦 2010最新版
+    scan_box:
+      - 81
+      - 854
+      - 1364
+      - 987
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -135,6 +149,12 @@ translation_segments:
     review_status: review
     original: "Contents\nP70 イッシュ地方\nP72 カントー地方\nP74 ジョウト地方\nP76 ホウエン地方\nP78 シンオウ地方\nP80 5大地方\nなんでもベスト3"
     translation: "目录\nP70 合众地方\nP72 关都地方\nP74 城都地方\nP76 丰缘地方\nP78 神奥地方\nP80 五大地方\n各种最佳3"
+    scan_box:
+      - 1089
+      - 1161
+      - 1335
+      - 1485
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -145,6 +165,12 @@ translation_segments:
     review_status: review
     original: 『ポケモンB・W』でイッシュ地方が登場し、『ポケットモンスター』の舞台は全5地方に。この5つの地方を、観光ガイド風に紹介するとどうなるか…そんなちょっと変わった趣向の特集をお届け！ この記事を参考に、改めていろんな地方を歩いてみてはいかが？
     translation: 《宝可梦 黑·白》中合众地方登场，《宝可梦》的舞台由此扩展到全部五个地方。将这五个地方以观光指南的风格来介绍会是什么样子……本期就为大家送上这样一个别具趣味的专题！不妨参考本报道，重新去各个地方走一走如何？
+    scan_box:
+      - 466
+      - 1427
+      - 967
+      - 1593
+    writing_direction: horizontal
   - speaker: 有美食！ 有大自然！ 有温泉！
     type: heading
     kind: text
@@ -155,7 +181,29 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: グルメあり！ 大自然あり！ 温泉あり！
-    translation: "有美食！有自然！有温泉！"
+    translation: 有美食！有自然！有温泉！
+    scan_box:
+      - 70
+      - 1464
+      - 423
+      - 1608
+    scan_boxes:
+      - 
+        - 70
+        - 1464
+        - 423
+        - 1608
+      - 
+        - 513
+        - 1602
+        - 906
+        - 1716
+      - 
+        - 162
+        - 1751
+        - 475
+        - 1868
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -166,6 +214,12 @@ translation_segments:
     review_status: review
     original: ©2010 Pokémon ©1995-2010 Nintendo / Creatures inc. / GAME FREAK inc.ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
     translation: ©2010 Pokémon ©1995-2010 Nintendo / Creatures inc. / GAME FREAK inc. 宝可梦・Pokémon是任天堂・Creatures・GAME FREAK的注册商标。
+    scan_box:
+      - 736
+      - 1839
+      - 1315
+      - 1874
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -176,6 +230,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p070_unova_region_part1.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.70
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 遥远遥远的新世界 合众地方
     type: heading
     kind: text
@@ -186,7 +242,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 遠く遠くの新たな世界 イッシュ地
-    translation: "遥远遥远的新世界 合众地"
+    translation: 遥远遥远的新世界 合众地
+    scan_box:
+      - 736
+      - 209
+      - 1445
+      - 342
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -197,6 +259,12 @@ translation_segments:
     review_status: review
     original: 具体的な攻略は今号の別冊付録を見てもらうとして、このページでは物語序盤の見どころを観光案内風に紹介していこう。とはいえ、現在明らかになっているのはまだほんの一部。この先はみんなの目で確かめてほしい。
     translation: 具体攻略请见本期的别册附录，本页则以观光导览的风格介绍故事初期的看点。话虽如此，目前已经公开的还只是极小一部分。接下来的内容就请大家亲眼去确认吧。
+    scan_box:
+      - 1003
+      - 346
+      - 1338
+      - 518
+    writing_direction: horizontal
   - speaker: 新舞台 观光季到来！
     type: heading
     kind: text
@@ -207,7 +275,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新舞台 観光シーズン到来！
-    translation: "新舞台 观光季到来！"
+    translation: 新舞台 观光季到来！
+    scan_box:
+      - 32
+      - 152
+      - 663
+      - 625
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -219,6 +293,12 @@ translation_segments:
     original: まずは最新作『ポケモンＢ・Ｗ』の舞台となるイッシュ地方。ほかの地方からはかなり離れているということもあり、これまで見たこともない施設やポケモンがプレイヤーを待っているぞ。
     translation: 首先是最新作《宝可梦 黑·白》的舞台——合众地区。由于这里与其它地区相距甚远，至今从未见过的设施和宝可梦正等待着玩家。
     comment: 合众地区（イッシュ地方）是《宝可梦 黑·白》的舞台，以纽约为原型。
+    scan_box:
+      - 679
+      - 373
+      - 973
+      - 522
+    writing_direction: horizontal
   - speaker: 合众地区与历代4地区彻底比较
     type: heading
     kind: text
@@ -229,7 +309,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方と歴代４地方を徹底比較
-    translation: "合众地区与历代4地区彻底比较"
+    translation: 合众地区与历代4地区彻底比较
+    scan_box:
+      - 466
+      - 352
+      - 605
+      - 1847
+    writing_direction: vertical
   - speaker: 出现其它地区没有的新宝可梦 新宝可梦们
     type: heading
     kind: text
@@ -240,7 +326,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 他地方にはない新ポケモンが出現 新ポケモンたち
-    translation: "出现其他地区没有的新宝可梦 新宝可梦们"
+    translation: 出现其他地区没有的新宝可梦 新宝可梦们
+    scan_box:
+      - 663
+      - 526
+      - 1287
+      - 625
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -251,6 +343,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 682
+      - 877
+      - 785
+      - 895
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -261,6 +359,12 @@ translation_segments:
     review_status: review
     original: ←イッシュ地方では、エンディングまで新ポケモンしか飛び出してこないのだ！ 新鮮な気分で冒険が楽しめるぞ
     translation: ←在合众地区，直到结局为止出现的都只有新宝可梦！能以新鲜的心情享受冒险。
+    scan_box:
+      - 993
+      - 641
+      - 1060
+      - 844
+    writing_direction: vertical
   - speaker: note
     type: paragraph
     kind: text
@@ -272,6 +376,12 @@ translation_segments:
     original: おすすめ！ハーイ！ みんな元気？ イッシュ地方のポケモンを研究しているアララギです。このイッシュ地方は、ほかの地方では見られないようなポケモンの宝庫なの！ ポケモン図鑑を渡すから、がんばってポケモンたちをその目で見てきてね。そうそう、エンディング後には「ポケシフター」でほかの地方からポケモンを連れてこられるから、今までのお気に入りポケモンとイッシュを旅することもできるわよ。
     translation: 推荐！你好！大家都好吗？我是研究合众地区宝可梦的阿拉拉基。这个合众地区，是别处见不到的宝可梦的宝库！我会把宝可梦图鉴交给你，努力亲眼去见识宝可梦们吧。对了对了，结局之后可以用「宝可梦传送装置」从其它地区带来宝可梦，所以也能和至今中意的宝可梦一起在合众旅行哦。
     comment: 阿拉拉基（アララギ）是《宝可梦 黑·白》中合众地区的宝可梦博士。
+    scan_box:
+      - 698
+      - 915
+      - 1287
+      - 1044
+    writing_direction: horizontal
   - speaker: 史上最大规模的巨大高层都市 飞云市
     type: heading
     kind: text
@@ -282,7 +392,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 過去最大規模の巨大高層都市 ヒウンシティ
-    translation: "史上最大规模的巨大高层都市 飞云市"
+    translation: 史上最大规模的巨大高层都市 飞云市
+    scan_box:
+      - 668
+      - 1067
+      - 1293
+      - 1167
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -293,6 +409,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 753
+      - 1450
+      - 854
+      - 1468
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -303,6 +425,12 @@ translation_segments:
     review_status: review
     original: →イッシュ地方のみならず、歴代の全地方の中で最も大きな都市。立ち並ぶ高層ビルの谷間を歩こう！
     translation: →不仅是合众地区，也是历代所有地区中最大的城市。在高楼林立的峡谷间漫步吧！
+    scan_box:
+      - 678
+      - 1180
+      - 750
+      - 1468
+    writing_direction: vertical
   - speaker: note
     type: paragraph
     kind: text
@@ -314,6 +442,12 @@ translation_segments:
     original: チェレンです。ここが、イッシュ最大の都市ヒウンシティ……。まあ、チャンピオンを目指す僕にとっては通過点ですが。…それよりベルが迷子になったり悪い奴に絡まれたりしないか、そっちの方が心配ですね。おすすめ！
     translation: 我是黑连。这里就是合众最大的城市飞云市……。不过，对以冠军为目标的我来说，这里只是途经点。……比起这个，我更担心贝尔会不会迷路，或者被坏人缠上。推荐！
     comment: 黑连与贝尔是《宝可梦 黑／白》中主角的两位劲敌。
+    scan_box:
+      - 970
+      - 1180
+      - 1290
+      - 1573
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -324,6 +458,12 @@ translation_segments:
     review_status: review
     original: チャンピオン目指して勝ち進むのもいいけれど、寄り道しながら世界を自由に歩き回るのも『ポケットモンスター』のだいご味。最新作の舞台イッシュ地方を皮切りに、歴代作品の世界を歩き回ってみよう！
     translation: 朝着冠军目标一路取胜固然不错，但一边绕道一边自由自在地走遍世界，也是《宝可梦》的乐趣所在。就从最新作的舞台合众地区开始，走遍历代作品的世界吧！
+    scan_box:
+      - 32
+      - 655
+      - 426
+      - 809
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -334,6 +474,43 @@ translation_segments:
     review_status: review
     original: "イッシュ地方\nポケットモンスター ブラック\nポケットモンスター ホワイト\n\nカントー地方\nポケットモンスター 赤\nポケットモンスター 緑\n\nジョウト地方\nポケットモンスター 金\nポケットモンスター 銀\n\nホウエン地方\nポケットモンスター ルビー\nポケットモンスター サファイア\nポケットモンスター エメラルド\n\nシンオウ地方\nポケットモンスター ダイヤモンド\nポケットモンスター パール\nポケットモンスター プラチナ"
     translation: "合众地区\n宝可梦 黑\n宝可梦 白\n\n关都地区\n宝可梦 红\n宝可梦 绿\n\n城都地区\n宝可梦 金\n宝可梦 银\n\n丰缘地区\n宝可梦 红宝石\n宝可梦 蓝宝石\n宝可梦 绿宝石\n\n神奥地区\n宝可梦 钻石\n宝可梦 珍珠\n宝可梦 白金"
+    scan_box:
+      - 41
+      - 838
+      - 264
+      - 1020
+    scan_boxes:
+      - 
+        - 41
+        - 838
+        - 264
+        - 1020
+      - 
+        - 288
+        - 862
+        - 443
+        - 1006
+      - 
+        - 41
+        - 1042
+        - 264
+        - 1225
+      - 
+        - 285
+        - 1073
+        - 440
+        - 1204
+      - 
+        - 38
+        - 1243
+        - 264
+        - 1425
+      - 
+        - 285
+        - 1272
+        - 443
+        - 1409
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -344,6 +521,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p071_unova_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.71
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 合众地区
     type: heading
     kind: text
@@ -354,7 +533,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方
-    translation: "合众地区"
+    translation: 合众地区
+    scan_box:
+      - 1195
+      - 1708
+      - 1409
+      - 1815
+    writing_direction: horizontal
   - speaker: 通过无线通信前往朋友的世界 汇合连线
     type: heading
     kind: text
@@ -365,7 +550,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ワイヤレス通信で友達の世界へ ハイリンク
-    translation: "通过无线通信前往朋友的世界 连入"
+    translation: 通过无线通信前往朋友的世界 连入
+    scan_box:
+      - 301
+      - 1792
+      - 605
+      - 1827
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -377,6 +568,12 @@ translation_segments:
     original: →イッシュ地方の中央にある謎の島。ここはCギアの機能でワープすると行ける「ハイリンク」という場所だ。ワイヤレス通信の及ぶ範囲で相手の世界へとワープし、ミッションをクリアして「ハイルツリー」を育てていこう
     translation: →位于合众地区中央的神秘岛屿。这里是用C装置的功能传送后就能前往的名为“汇合连线”的地方。在无线通信可及的范围内传送到对方的世界，完成任务并培育“汇合树”吧。
     comment: C装置是《宝可梦 黑／白》中集通信、地图等功能于一体的装置。
+    scan_box:
+      - 278
+      - 1587
+      - 605
+      - 1694
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -388,6 +585,12 @@ translation_segments:
     original: "ヤッホー！マコモで〜す。アタシが作ったCギアを使えば、このハイリンクへ行ったり、もっとすごいこともできるよ。サンヨウシティの研究室に来てね!!"
     translation: "呀吼！我是真菰～。只要使用我制作的C装置，就能前往这个汇合连线，还能做到更厉害的事哦。请来三曜市的研究室找我!!"
     comment: 真菰是《宝可梦 黑／白》中研究宝可梦梦境世界的博士。
+    scan_box:
+      - 303
+      - 1425
+      - 547
+      - 1579
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -398,6 +601,12 @@ translation_segments:
     review_status: review
     original: じぶんの ハイルツリーを しらべた
     translation: 调查了自己的汇合树
+    scan_box:
+      - 634
+      - 1458
+      - 794
+      - 1483
+    writing_direction: horizontal
   - speaker: 桥梁迷垂涎的大桥应有尽有 合众地区桥梁巡游
     type: heading
     kind: text
@@ -408,7 +617,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 橋マニア垂涎の大橋がいっぱいイッシュ地方橋巡り
-    translation: "桥梁狂热者垂涎的大桥众多 合众地区桥梁巡游"
+    translation: 桥梁狂热者垂涎的大桥众多 合众地区桥梁巡游
+    scan_box:
+      - 941
+      - 1587
+      - 1337
+      - 1649
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -420,6 +635,12 @@ translation_segments:
     original: "↓ヒウンシティと6ばんどうろをつなぐ巨大な吊り橋。スカイアローブリッジ。回りの岸がかすむほどの高さは圧巻!!"
     translation: ↓连接飞云市与6号道路的巨大吊桥。天箭桥。高到让两岸都显得朦胧，气势十足！！
     comment: 飞云市为《宝可梦 黑／白》中的城市。
+    scan_box:
+      - 934
+      - 1294
+      - 999
+      - 1575
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -430,6 +651,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1137
+      - 1294
+      - 1367
+      - 1309
+    writing_direction: horizontal
   - speaker: 废墟爱好者欢欣之地 梦的遗址
     type: heading
     kind: text
@@ -440,7 +667,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 廃墟マニア歓喜の地ゆめのあとち
-    translation: "废墟狂热者欢欣之地 梦的遗址"
+    translation: 废墟狂热者欢欣之地 梦的遗址
+    scan_box:
+      - 547
+      - 1311
+      - 843
+      - 1368
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -451,6 +684,12 @@ translation_segments:
     review_status: review
     original: 昔はにぎわっていたらしいけど、今ではすっかり忘れ去られた「ゆめのあとち」。かつてはポケモンたちが住んでいたとか……。昔の面影を探しに行ってみよう
     translation: 据说过去曾十分热闹，但如今已被彻底遗忘的“梦的遗址”。据说从前曾有宝可梦在此居住……。去寻找昔日的身影吧
+    scan_box:
+      - 504
+      - 1038
+      - 568
+      - 1286
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -461,6 +700,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 799
+      - 1038
+      - 909
+      - 1055
+    writing_direction: horizontal
   - speaker: 用喜爱的宝可梦享受表演时光！音乐剧会馆
     type: heading
     kind: text
@@ -471,7 +716,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "お気に入りのポケモンでジョータイム!ミュージカルホール"
-    translation: "用喜爱的宝可梦享受表演时间！音乐剧会馆"
+    translation: 用喜爱的宝可梦享受表演时间！音乐剧会馆
+    scan_box:
+      - 80
+      - 1307
+      - 472
+      - 1356
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -482,6 +733,12 @@ translation_segments:
     review_status: review
     original: "↑お気に入りのポケモンをアクセサリーでドレスアップし、パフォーマンスを!!"
     translation: ↑用配饰把喜爱的宝可梦盛装打扮，进行表演！！
+    scan_box:
+      - 77
+      - 1219
+      - 282
+      - 1274
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -492,6 +749,12 @@ translation_segments:
     review_status: review
     original: ↓ほかの地方にはない娯楽施設。ポケモンたちが演じるミュージカルが楽しめるのだ
     translation: ↓其他地区没有的娱乐设施。可以欣赏宝可梦们演出的音乐剧
+    scan_box:
+      - 301
+      - 1038
+      - 472
+      - 1126
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -502,6 +765,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 365
+      - 1135
+      - 472
+      - 1149
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -512,6 +781,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 188
+      - 1036
+      - 298
+      - 1051
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -522,6 +797,12 @@ translation_segments:
     review_status: review
     original: ↓橋の下は潮風が吹き抜ける絶景ポイント。上の観光デッキからは海が見渡せるぜ。下から眺めても壮観だったゾ〜
     translation: ↓桥下是海风吹拂的绝景地点。从上面的观光甲板可以眺望大海。从下面仰望也很壮观哦～
+    scan_box:
+      - 1242
+      - 1040
+      - 1306
+      - 1284
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -532,6 +813,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1264
+      - 1294
+      - 1367
+      - 1309
+    writing_direction: horizontal
   - speaker: 合众地方观光地图
     type: heading
     kind: text
@@ -542,7 +829,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方観光マップ
-    translation: "合众地区观光地图"
+    translation: 合众地区观光地图
+    scan_box:
+      - 142
+      - 905
+      - 365
+      - 1010
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -553,6 +846,12 @@ translation_segments:
     review_status: review
     original: ハイリンク
     translation: 联合通道
+    scan_box:
+      - 565
+      - 748
+      - 670
+      - 776
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -563,6 +862,12 @@ translation_segments:
     review_status: review
     original: ゆめのあとち
     translation: 梦的遗址
+    scan_box:
+      - 200
+      - 567
+      - 330
+      - 592
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -573,6 +878,12 @@ translation_segments:
     review_status: review
     original: スカイアローブリッジ
     translation: 天箭桥
+    scan_box:
+      - 339
+      - 360
+      - 526
+      - 385
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -583,6 +894,12 @@ translation_segments:
     review_status: review
     original: ヒウンシティ
     translation: 飞云市
+    scan_box:
+      - 795
+      - 262
+      - 909
+      - 285
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -593,6 +910,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p072_kanto_region_part1.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.72
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 自然与文化和谐之地 关都地方
     type: heading
     kind: text
@@ -603,7 +922,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 自然と文化が調和する地 カントー地方
-    translation: "自然与文化和谐之地 关都地区"
+    translation: 自然与文化和谐之地 关都地区
+    scan_box:
+      - 33
+      - 201
+      - 938
+      - 365
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -614,6 +939,12 @@ translation_segments:
     review_status: review
     original: 『ポケモンFR・LG』の舞台となるカントー地方。西側はジョウト地方とつながっており、『ポケモンHG・SS』では殿堂入り後に行き来できる。気の向くまま、カントー地方の名所を訪ね歩こう！
     translation: 作为《宝可梦FR・LG》舞台的关都地方。西侧与城都地方相连，在《宝可梦HG・SS》中登入名人堂后便可往来。随心所欲地走访关都地方的名胜吧！
+    scan_box:
+      - 33
+      - 379
+      - 434
+      - 506
+    writing_direction: horizontal
   - speaker: 在历史中学习太古浪漫的深灰科学博物馆
     type: heading
     kind: text
@@ -624,7 +955,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 太古のロマンを歴史で学ぶニビかがくはくぶつかん
-    translation: "在历史中学习太古浪漫 深灰科学博物馆"
+    translation: 在历史中学习太古浪漫 深灰科学博物馆
+    scan_box:
+      - 110
+      - 514
+      - 417
+      - 606
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -635,6 +972,12 @@ translation_segments:
     review_status: review
     original: ニビシティにある。古代のカセキが展示されており、カセキを持ちこめばポケモンに復元してくれることも
     translation: 位于深灰市。馆内展示着古代的化石，若将化石带来，还能帮你复原成宝可梦。
+    scan_box:
+      - 33
+      - 623
+      - 142
+      - 768
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -645,6 +988,12 @@ translation_segments:
     review_status: review
     original: いまでは ちじょうから きえた ポケモンの わすれがたみを みて
     translation: 去看看如今已从地表消失的宝可梦所留下的遗物
+    scan_box:
+      - 172
+      - 780
+      - 379
+      - 821
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -655,6 +1004,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 169
+      - 825
+      - 264
+      - 844
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -665,6 +1020,12 @@ translation_segments:
     review_status: review
     original: ニビシティ近くの道路には、宇宙から降ってきたいん石も？ 不思議なパワーを感じるちょっとして……
     translation: 深灰市附近的道路上，还有从宇宙落下的陨石？感受到一股神奇的力量，让人有点……
+    scan_box:
+      - 216
+      - 844
+      - 432
+      - 920
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -675,6 +1036,12 @@ translation_segments:
     review_status: review
     original: うちゅうからの いんせき……？
     translation: 来自宇宙的陨石……？
+    scan_box:
+      - 46
+      - 899
+      - 162
+      - 924
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -685,6 +1052,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 42
+      - 928
+      - 138
+      - 944
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -696,6 +1069,23 @@ translation_segments:
     original: "おれはニビジムリーダーのタケシ！ いわタイプのエキスパートだ!! 科学博物館でカセキを見たら、ぜひおれのジムでいわタイプのわざも見ていってくれ！おすすめ！"
     translation: 我是深灰道馆馆主小刚！岩石属性的专家！！在科学博物馆看完化石后，也请务必来我的道馆看看岩石属性的招式！强烈推荐！
     comment: 深灰科学博物馆即深灰市的科学博物馆。
+    scan_box:
+      - 55
+      - 977
+      - 249
+      - 1116
+    scan_boxes:
+      - 
+        - 55
+        - 977
+        - 249
+        - 1116
+      - 
+        - 397
+        - 1006
+        - 588
+        - 1108
+    writing_direction: horizontal
   - speaker: 亲眼目睹自然的威胁！！红莲岛喷火遗迹
     type: heading
     kind: text
@@ -706,7 +1096,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "自然の脅威を目の当たりに!!グレンじま噴火跡"
-    translation: "亲眼目睹自然的威胁！！红莲岛喷火遗迹"
+    translation: 亲眼目睹自然的威胁！！红莲岛喷火遗迹
+    scan_box:
+      - 544
+      - 365
+      - 851
+      - 461
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -717,6 +1113,12 @@ translation_segments:
     review_status: review
     original: ふんか しただけで まち ひとつ なくなっちまった
     translation: 仅仅一次喷发，一座城镇就消失了
+    scan_box:
+      - 478
+      - 639
+      - 707
+      - 680
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -727,6 +1129,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 468
+      - 686
+      - 576
+      - 702
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -737,6 +1145,12 @@ translation_segments:
     review_status: review
     original: "うおおーいっ！ グレンにあったわしのジムは、火山に焼かれてしまった…。だがへこたれぬ。戦いたいやつはふたごじまへ来い!!"
     translation: 哦哦哦——！我在红莲的道馆被火山烧毁了……但我不会气馁。想对战的人就到双子岛来！！
+    scan_box:
+      - 752
+      - 483
+      - 857
+      - 748
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -747,6 +1161,12 @@ translation_segments:
     review_status: review
     original: 『ポケモンHG・SS』のグレンじま。火山の噴火でジムが埋まってしまう
     translation: 《宝可梦 心金·魂银》中的红莲岛。道馆因火山喷发而被掩埋
+    scan_box:
+      - 468
+      - 709
+      - 741
+      - 752
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -757,6 +1177,23 @@ translation_segments:
     review_status: review
     original: 『ポケモンFR・LG』のころは、ジムやポケモン屋敷が立ち並んでいたおすすめ！
     translation: 在《宝可梦 火红·叶绿》的时代，道馆和宝可梦屋还鳞次栉比。强烈推荐！
+    scan_box:
+      - 468
+      - 770
+      - 737
+      - 811
+    scan_boxes:
+      - 
+        - 468
+        - 770
+        - 737
+        - 811
+      - 
+        - 602
+        - 928
+        - 791
+        - 1014
+    writing_direction: horizontal
   - speaker: 参观支撑生活的发电厂——关都发电厂
     type: heading
     kind: text
@@ -767,7 +1204,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 暮らしを支える発電所見学カントーはつでんしょ
-    translation: "参观支撑生活的大发电所 关都发电所"
+    translation: 参观支撑生活的大发电所 关都发电所
+    scan_box:
+      - 970
+      - 360
+      - 1277
+      - 455
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -778,6 +1221,12 @@ translation_segments:
     review_status: review
     original: 10ばんどうろから「なみのり」で進んだ先にある発電所。フル回転する巨大モーターは迫力満点！ 発電所の前に伝説のポケモン・サンダーがいることも
     translation: 从10号道路用「冲浪」前进后到达的发电厂。全速运转的巨大马达极具震撼力！发电厂前有时还会出现传说的宝可梦——闪电鸟。
+    scan_box:
+      - 893
+      - 469
+      - 998
+      - 692
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -788,6 +1237,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1018
+      - 674
+      - 1127
+      - 690
+    writing_direction: horizontal
   - speaker: 宝可梦们静静长眠的灵魂之家
     type: heading
     kind: text
@@ -798,7 +1253,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンたちが静かに眠るたましいのいえ
-    translation: "宝可梦们静静沉睡的灵魂之家"
+    translation: 宝可梦们静静沉睡的灵魂之家
+    scan_box:
+      - 973
+      - 702
+      - 1286
+      - 795
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -810,6 +1271,12 @@ translation_segments:
     original: シオンタウンにあるポケモンの霊びょう。この地に長く住んでいるフジ老人が、ポケモンたちの霊をなぐさめている。ぜひ立ち寄って祈りをささげよう
     translation: 位于紫苑镇的宝可梦灵墓。长期居住于此的富士老人，在此安抚宝可梦们的灵魂。请务必顺道前来献上祈祷。
     comment: 紫苑镇为关都地区城镇，其宝可梦塔在初代中即为宝可梦墓地。
+    scan_box:
+      - 1200
+      - 809
+      - 1296
+      - 1030
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -820,6 +1287,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 902
+      - 1020
+      - 1011
+      - 1036
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -830,6 +1303,43 @@ translation_segments:
     review_status: review
     original: "カントー地方観光マップ\nおつきみやま\n岬の高台\nニビかがくはくぶつかん\nタマムシ食堂\nカントーはつでんしょ\nたましいのいえ\nグレンじま噴火跡"
     translation: "关都地区观光地图\n月见山\n海角高台\n深灰科学博物馆\n玉虹食堂\n关都发电厂\n灵魂之家\n红莲岛喷火遗迹"
+    scan_box:
+      - 728
+      - 1128
+      - 857
+      - 1161
+    scan_boxes:
+      - 
+        - 728
+        - 1128
+        - 857
+        - 1161
+      - 
+        - 979
+        - 1124
+        - 1118
+        - 1157
+      - 
+        - 365
+        - 1212
+        - 602
+        - 1243
+      - 
+        - 741
+        - 1317
+        - 872
+        - 1346
+      - 
+        - 935
+        - 1333
+        - 1147
+        - 1364
+      - 
+        - 969
+        - 1417
+        - 1141
+        - 1448
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -840,6 +1350,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p073_kanto_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.73
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 大胃王美食家们集合！玉虹食堂
     type: heading
     kind: text
@@ -850,7 +1362,29 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "集まれ! フードファイターグルメ タマムシ食堂"
-    translation: "集结吧！大胃王美食 玉虹食堂"
+    translation: 集结吧！大胃王美食 玉虹食堂
+    scan_box:
+      - 185
+      - 174
+      - 424
+      - 209
+    scan_boxes:
+      - 
+        - 185
+        - 174
+        - 424
+        - 209
+      - 
+        - 104
+        - 233
+        - 168
+        - 264
+      - 
+        - 181
+        - 219
+        - 463
+        - 270
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -862,6 +1396,12 @@ translation_segments:
     original: "スモモ『もぐもぐっ もぐもぐっおおぐいコンテストっ!!"
     translation: 小菘“嚼嚼、嚼嚼，大胃王比赛！！”
     comment: 小菘为神奥地区道馆馆主，此处以大吃形象登场。
+    scan_box:
+      - 117
+      - 459
+      - 374
+      - 494
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -872,6 +1412,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 117
+      - 494
+      - 206
+      - 508
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -882,6 +1428,12 @@ translation_segments:
     review_status: review
     original: "おすすめ!"
     translation: 推荐！
+    scan_box:
+      - 376
+      - 313
+      - 549
+      - 379
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -892,6 +1444,12 @@ translation_segments:
     review_status: review
     original: "あたし、シンオウ地方から来たスモモっていいます。もぐっ。強いってどういうことか自分でよく分かってないんですけど、もぐもぐっ。おかわり持ってきてください!"
     translation: 我叫小菘，是从神奥地区来的。嚼。虽然我自己也不太清楚什么叫强，嚼嚼。请再给我来一碗！
+    scan_box:
+      - 408
+      - 465
+      - 707
+      - 563
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -902,6 +1460,12 @@ translation_segments:
     review_status: review
     original: "タマムシ食堂では、大食い大会を開催中。大物フードファイターが参戦!?"
     translation: 玉虹食堂正在举办大胃王比赛。大胃王美食家即将参战！？
+    scan_box:
+      - 116
+      - 520
+      - 417
+      - 563
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -913,6 +1477,12 @@ translation_segments:
     original: "あたしはカスミ! ハナダのジムリーダーよ!この岬からの風景が好きでよく来るんだけど、デート中にちゃちゃを入れる「オジャマムシ」がいるのよね。もしかしてアンタもそのクチ?いたければハナダのジムに来なさいよ!!"
     translation: 我是小霞！华蓝道馆的道馆馆主！我喜欢这个海角的风景，经常来，可是总有个在约会时跑来捣乱的“捣蛋虫”。难道你也是那种人？有本事就到华蓝道馆来！！
     comment: 小霞为华蓝市道馆馆主，此处为关都地区。
+    scan_box:
+      - 762
+      - 190
+      - 886
+      - 537
+    writing_direction: vertical
   - speaker: 以夕阳为背景，与心爱之人……约会 海角高台
     type: heading
     kind: text
@@ -923,7 +1493,29 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 夕日をバックに、いとしい人と…デート 岬の高台
-    translation: "以夕阳为背景，与心爱之人……约会 海角高台"
+    translation: 以夕阳为背景，与心爱之人……约会 海角高台
+    scan_box:
+      - 1003
+      - 199
+      - 1289
+      - 233
+    scan_boxes:
+      - 
+        - 1003
+        - 199
+        - 1289
+        - 233
+      - 
+        - 922
+        - 252
+        - 983
+        - 283
+      - 
+        - 1002
+        - 236
+        - 1186
+        - 289
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -934,6 +1526,12 @@ translation_segments:
     review_status: review
     original: カスミ『ここから みる ゆうひが
     translation: 小霞「从这里看到的夕阳
+    scan_box:
+      - 1032
+      - 512
+      - 1287
+      - 537
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -944,6 +1542,12 @@ translation_segments:
     review_status: review
     original: "とっても すきなの!"
     translation: 我非常喜欢！」
+    scan_box:
+      - 1032
+      - 537
+      - 1176
+      - 561
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -954,6 +1558,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1032
+      - 563
+      - 1121
+      - 578
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -964,6 +1574,12 @@ translation_segments:
     review_status: review
     original: 25ばんどうろの端にある岬の高台は、カントーを代表するデートスポット。夕日をバックに、いとしの人とロマンチックなひとときを過ごそう。
     translation: 位于25号道路尽头的海角高台，是关都代表性的约会胜地。以夕阳为背景，与心爱之人共度浪漫时光吧。
+    scan_box:
+      - 919
+      - 301
+      - 1011
+      - 563
+    writing_direction: vertical
   - speaker: body
     type: paragraph
     kind: text
@@ -974,6 +1590,12 @@ translation_segments:
     review_status: review
     original: "おすすめ!"
     translation: 推荐！
+    scan_box:
+      - 902
+      - 598
+      - 1083
+      - 662
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -984,6 +1606,12 @@ translation_segments:
     review_status: review
     original: 条件を満たせば、カスミと記念写真を撮れる。カスミは主人公よりもみずタイプのポケモンに夢中だけど…
     translation: 满足条件的话，就能和小霞拍纪念照。不过小霞比起主角，更迷恋水属性的宝可梦……
+    scan_box:
+      - 1085
+      - 594
+      - 1360
+      - 666
+    writing_direction: horizontal
   - speaker: 每周仅一次的皮皮宴会 宝可梦 月见山
     type: heading
     kind: text
@@ -994,7 +1622,29 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 週1回だけのピッピのうたげポケモン おつきみやま
-    translation: "每周仅一次的皮皮盛宴 宝可梦 月见山"
+    translation: 每周仅一次的皮皮盛宴 宝可梦 月见山
+    scan_box:
+      - 177
+      - 575
+      - 534
+      - 604
+    scan_boxes:
+      - 
+        - 177
+        - 575
+        - 534
+        - 604
+      - 
+        - 91
+        - 631
+        - 153
+        - 655
+      - 
+        - 174
+        - 616
+        - 452
+        - 668
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1005,6 +1655,23 @@ translation_segments:
     review_status: review
     original: "Upper screen月曜日の夜にくると、月をバックにしたピッピたちの舞いが見られる。必見!"
     translation: 上屏 周一夜晚前来，就能看到皮皮们以月亮为背景起舞。必看！
+    scan_box:
+      - 111
+      - 918
+      - 366
+      - 967
+    scan_boxes:
+      - 
+        - 111
+        - 918
+        - 366
+        - 967
+      - 
+        - 94
+        - 899
+        - 182
+        - 913
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1015,6 +1682,12 @@ translation_segments:
     review_status: review
     original: おみやげ屋もある。記念に「ピッピにんぎょう」などはいかが?
     translation: 这里也有特产店。买「皮皮玩偶」等作为纪念如何？
+    scan_box:
+      - 433
+      - 692
+      - 688
+      - 737
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1025,6 +1698,12 @@ translation_segments:
     review_status: review
     original: ポケモンの きを ひかせる どうぐ。やせいポケモンとの せんとうから
     translation: 能让宝可梦吸引注意的道具。与野生宝可梦的战斗中
+    scan_box:
+      - 459
+      - 905
+      - 653
+      - 942
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1035,6 +1714,12 @@ translation_segments:
     review_status: review
     original: ぜったいに にげられる。
     translation: 一定能逃走。
+    scan_box:
+      - 459
+      - 942
+      - 588
+      - 958
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1045,6 +1730,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 434
+      - 958
+      - 523
+      - 973
+    writing_direction: horizontal
   - speaker: 七之岛 《宝可梦FR・LG》中可前往的魅惑群岛
     type: heading
     kind: text
@@ -1055,7 +1746,29 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ナナシマ 『ポケモンFR・LG』で行ける魅惑の島々
-    translation: "七之岛 在《宝可梦FR·LG》中可前往的魅惑群岛"
+    translation: 七之岛 在《宝可梦FR·LG》中可前往的魅惑群岛
+    scan_box:
+      - 123
+      - 1026
+      - 395
+      - 1102
+    scan_boxes:
+      - 
+        - 123
+        - 1026
+        - 395
+        - 1102
+      - 
+        - 466
+        - 1028
+        - 712
+        - 1065
+      - 
+        - 466
+        - 1065
+        - 688
+        - 1104
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1067,6 +1780,12 @@ translation_segments:
     original: "『ポケモンFR・LG』なら、クチバシティの港から「ナナシマ」という島々へ行ける。ナナシマはその名のとおり、「1のしま」から「7のしま」までの7つの島々で成り立っており、カントーとはまた違った自然や施設がめじろ押し! その見どころをいくつかピックアップしよう。"
     translation: 在《宝可梦FR・LG》中，可以从枯叶市的港口前往名为“七之岛”的群岛。七之岛正如其名，由“1之岛”到“7之岛”共七座岛屿组成，与关都截然不同的自然风光和设施琳琅满目！这里挑出几处看点介绍。
     comment: 枯叶市在术语表中未列出，此处按通行译名处理。
+    scan_box:
+      - 104
+      - 1126
+      - 382
+      - 1346
+    writing_direction: horizontal
   - speaker: 涛声追忆宝可梦的回忆 回忆之塔
     type: heading
     kind: text
@@ -1077,7 +1796,29 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 波音がしのぶポケモンの思い出みる おもいでとう
-    translation: "追忆随波声浮现的宝可梦回忆 回忆之塔"
+    translation: 追忆随波声浮现的宝可梦回忆 回忆之塔
+    scan_box:
+      - 481
+      - 1133
+      - 717
+      - 1157
+    scan_boxes:
+      - 
+        - 481
+        - 1133
+        - 717
+        - 1157
+      - 
+        - 424
+        - 1147
+        - 462
+        - 1178
+      - 
+        - 481
+        - 1157
+        - 688
+        - 1190
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1088,6 +1829,12 @@ translation_segments:
     review_status: review
     original: 大好きだったポケモンの霊をなぐさめる石の塔。
     translation: 安抚曾深爱的宝可梦之灵的石塔。
+    scan_box:
+      - 707
+      - 1214
+      - 747
+      - 1417
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -1098,6 +1845,12 @@ translation_segments:
     review_status: review
     original: ミックスオレを もうひとつ
     translation: 再来一杯果汁牛奶
+    scan_box:
+      - 440
+      - 1350
+      - 605
+      - 1368
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1108,6 +1861,23 @@ translation_segments:
     review_status: review
     original: おそなえして あげますか?はいいいえ
     translation: 要供奉上去吗？是 否
+    scan_box:
+      - 440
+      - 1370
+      - 617
+      - 1389
+    scan_boxes:
+      - 
+        - 440
+        - 1370
+        - 617
+        - 1389
+      - 
+        - 633
+        - 1358
+        - 669
+        - 1389
+    writing_direction: horizontal
   - speaker: 四天王也会造访的疗愈温泉 灯火山温泉
     type: heading
     kind: text
@@ -1118,7 +1888,29 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 四天王も訪れるいやしの湯おんせん ともしび温泉
-    translation: "四天王也会造访的疗愈温泉 灯火温泉"
+    translation: 四天王也会造访的疗愈温泉 灯火温泉
+    scan_box:
+      - 156
+      - 1368
+      - 359
+      - 1393
+    scan_boxes:
+      - 
+        - 156
+        - 1368
+        - 359
+        - 1393
+      - 
+        - 93
+        - 1399
+        - 151
+        - 1425
+      - 
+        - 156
+        - 1395
+        - 355
+        - 1430
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1129,6 +1921,12 @@ translation_segments:
     review_status: review
     original: リエと ポケモンは
     translation: 莉艾和宝可梦
+    scan_box:
+      - 120
+      - 1587
+      - 253
+      - 1606
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1139,6 +1937,12 @@ translation_segments:
     review_status: review
     original: "すっかり げんきに なった!"
     translation: 完全恢复精神了！
+    scan_box:
+      - 120
+      - 1608
+      - 295
+      - 1626
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1149,6 +1953,12 @@ translation_segments:
     review_status: review
     original: 1のしまにあるともしび温泉。疲れをいやすため、四天王のシバが訪れることもあるという
     translation: 位于1之岛的灯火山温泉。据说为了消除疲劳，四天王的希巴也会前来。
+    scan_box:
+      - 219
+      - 1653
+      - 376
+      - 1763
+    writing_direction: horizontal
   - speaker: 七间石室中有未知图腾！！学习 阿斯卡纳遗迹
     type: heading
     kind: text
@@ -1159,7 +1969,29 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "7つの石室にアンノーンが!!まなぶ アスカナいせき"
-    translation: "7个石室中有未知图腾！！去了解吧 阿斯卡纳遗迹"
+    translation: 7个石室中有未知图腾！！去了解吧 阿斯卡纳遗迹
+    scan_box:
+      - 473
+      - 1421
+      - 678
+      - 1444
+    scan_boxes:
+      - 
+        - 473
+        - 1421
+        - 678
+        - 1444
+      - 
+        - 410
+        - 1452
+        - 463
+        - 1477
+      - 
+        - 472
+        - 1448
+        - 688
+        - 1481
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1170,6 +2002,12 @@ translation_segments:
     review_status: review
     original: "7つの石室で構成された遺跡。中ではアンノーンが出現!"
     translation: 由7个石室构成的遗迹。里面会出现未知图腾！
+    scan_box:
+      - 408
+      - 1743
+      - 737
+      - 1769
+    writing_direction: horizontal
   - speaker: 七之岛观光地图 1之岛 灯火山温泉 3之岛 2之岛 5之岛 4之岛 回忆之塔 6之岛 7之岛 阿斯卡纳遗迹 关都地区
     type: heading
     kind: text
@@ -1180,7 +2018,44 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ナナシマ観光マップ1のしまともしび温泉3のしま2のしま5のしま4のしまおもいでとう6のしま7のしまアスカナいせきカントー地方
-    translation: "七之岛观光地图 1之岛 灯火山温泉 3之岛 2之岛 5之岛 4之岛 回忆之塔 6之岛 7之岛 阿斯卡纳遗迹 关都地区"
+    translation: 七之岛观光地图 1之岛 灯火山温泉 3之岛 2之岛 5之岛 4之岛 回忆之塔 6之岛 7之岛 阿斯卡纳遗迹 关都地区
+    scan_box:
+      - 1114
+      - 987
+      - 1261
+      - 1030
+    scan_boxes:
+      - 
+        - 1114
+        - 987
+        - 1261
+        - 1030
+      - 
+        - 1132
+        - 1026
+        - 1245
+        - 1073
+      - 
+        - 922
+        - 1049
+        - 1011
+        - 1075
+      - 
+        - 951
+        - 1100
+        - 1074
+        - 1124
+      - 
+        - 1158
+        - 1145
+        - 1245
+        - 1171
+      - 
+        - 1018
+        - 1225
+        - 1096
+        - 1251
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1191,6 +2066,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p074_johto_region_part1.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.74
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 历史飘香 古老之地 城都地区
     type: heading
     kind: text
@@ -1201,7 +2078,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 歴史が薫る いにしえの地 ジョウト地方
-    translation: "历史飘香 古老之地 城都地区"
+    translation: 历史飘香 古老之地 城都地区
+    scan_box:
+      - 91
+      - 219
+      - 959
+      - 385
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1212,6 +2095,23 @@ translation_segments:
     review_status: review
     original: 『ポケモンHG・SS』の舞台となるのが、このジョウト地方。エンジュシティを筆頭に、歴史を感じさせる史跡が数多く残されている。ちなみにポケスロンドームやサファリゾーン、うずもれのとうは、GBC対応ソフト『ポケモン金・銀』にはなかった場所。歴史と革新の融合する生まれ変わった古都の魅力を、たっぷりと味わってほしい。
     translation: 《宝可梦 心金·魂银》的舞台便是这片城都地区。以缘朱市为首，这里保留着众多能让人感受到历史的史迹。顺带一提，宝可梦全能竞技赛巨蛋、狩猎地带和埋藏之塔，是GBC对应软件《宝可梦 金·银》中没有的地点。请尽情品味这座历史与革新交融、焕然一新的古都之魅力。
+    scan_box:
+      - 88
+      - 389
+      - 489
+      - 498
+    scan_boxes:
+      - 
+        - 88
+        - 389
+        - 489
+        - 498
+      - 
+        - 515
+        - 387
+        - 924
+        - 498
+    writing_direction: horizontal
   - speaker: 流传着凤王传说的古都 缘朱市
     type: heading
     kind: text
@@ -1222,7 +2122,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ホウオウの伝説が伝わる古都 エンジュシティ
-    translation: "流传凤王传说的古都 缘朱市"
+    translation: 流传凤王传说的古都 缘朱市
+    scan_box:
+      - 164
+      - 498
+      - 462
+      - 582
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1233,6 +2139,23 @@ translation_segments:
     review_status: review
     original: ↓エンジュシティを中心としたジョウトのイメージイラスト。遠くに見えるのはカントーのシロガネやまだ→まいこはんたちが舞い踊る「かぶれんじょう」。和の魅力を満喫させてくれる、エンジュシティならではの場所だ
     translation: ↓以缘朱市为中心的城都印象插画。远处能看到的是关都的白银山→舞姬们翩翩起舞的“歌舞练习场”。这里是能让人充分享受和风魅力的缘朱市独有之地
+    scan_box:
+      - 84
+      - 604
+      - 287
+      - 698
+    scan_boxes:
+      - 
+        - 84
+        - 604
+        - 287
+        - 698
+      - 
+        - 304
+        - 604
+        - 510
+        - 698
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1243,6 +2166,12 @@ translation_segments:
     review_status: review
     original: まいこはん おどり だなく
     translation: 舞姬 跳舞 出来吧
+    scan_box:
+      - 539
+      - 735
+      - 728
+      - 760
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1253,6 +2182,12 @@ translation_segments:
     review_status: review
     original: ほんとは ポケモンの
     translation: 其实 是宝可梦的
+    scan_box:
+      - 539
+      - 760
+      - 714
+      - 784
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1263,6 +2198,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 533
+      - 797
+      - 626
+      - 813
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1273,6 +2214,23 @@ translation_segments:
     review_status: review
     original: 僕はマツバ。エンジュのジムリーダーだよ。この街には伝説のポケモンにまつわる言い伝えが、数多く残されている。歴史の一端に触れてほしいねおすすめ！
     translation: 我是松叶。缘朱的道馆馆主哦。这座城市里留存着许多与传说的宝可梦有关的传说。希望你能接触到历史的一角。推荐！
+    scan_box:
+      - 520
+      - 834
+      - 679
+      - 1018
+    scan_boxes:
+      - 
+        - 520
+        - 834
+        - 679
+        - 1018
+      - 
+        - 801
+        - 831
+        - 983
+        - 907
+    writing_direction: vertical
   - speaker: 宝可梦们挑战10种运动！ 宝可梦全能竞技赛巨蛋
     type: heading
     kind: text
@@ -1283,7 +2241,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンたちが10種のスポーツに挑戦！ ポケスロンドーム
-    translation: "宝可梦们挑战10种运动！ 宝可梦全能竞技赛巨蛋"
+    translation: 宝可梦们挑战10种运动！ 宝可梦全能竞技赛巨蛋
+    scan_box:
+      - 1022
+      - 395
+      - 1348
+      - 498
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1294,6 +2258,12 @@ translation_segments:
     review_status: review
     original: ↓→ポケモンたちのスポーツの祭典「ポケスロン」を開催中。タッチペンを使う10種の競技に挑戦だ！
     translation: ↓→宝可梦们的运动盛典“宝可梦全能竞技赛”正在举办中。用触控笔挑战10种竞技项目吧！
+    scan_box:
+      - 946
+      - 506
+      - 1116
+      - 618
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1304,6 +2274,12 @@ translation_segments:
     review_status: review
     original: Touch screenこうたい
     translation: 触摸屏切换
+    scan_box:
+      - 1122
+      - 508
+      - 1229
+      - 549
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1314,6 +2290,12 @@ translation_segments:
     review_status: review
     original: ポケスロン ようの
     translation: 宝可全能竞技赛用的
+    scan_box:
+      - 959
+      - 799
+      - 1103
+      - 821
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1324,6 +2306,12 @@ translation_segments:
     review_status: review
     original: ジャージ もってきたるわ！
     translation: 运动服我带来啦！
+    scan_box:
+      - 957
+      - 821
+      - 1119
+      - 844
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1334,6 +2322,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 953
+      - 846
+      - 1045
+      - 862
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1344,6 +2338,23 @@ translation_segments:
     review_status: review
     original: "はーい！ うちがアカネちゃん!! ジャージを用意しとくから、ぜひポケスロンドームに寄ってやー！おすすめ！"
     translation: 好嘞！我就是小茜哦！！我会准备好运动服，请务必来宝可梦全能竞技赛巨蛋玩哦！强烈推荐！
+    scan_box:
+      - 954
+      - 940
+      - 1142
+      - 1036
+    scan_boxes:
+      - 
+        - 954
+        - 940
+        - 1142
+        - 1036
+      - 
+        - 1235
+        - 805
+        - 1409
+        - 895
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1354,6 +2365,43 @@ translation_segments:
     review_status: review
     original: "ジョウト地方\nサファリゾーン\nエンジュシティ\nやけたとう・スズのとう\nしぜんこうえん\nマダツボミのとう\nポケスロンドーム\nアルフのいせき\nうずもれのとう\nジョウト地方\n観光マップ"
     translation: "城都地区\n狩猎地带\n缘朱市\n烧焦塔・铃铛塔\n自然公园\n喇叭芽之塔\n宝可梦全能竞技赛巨蛋\n阿露福遗迹\n埋藏之塔\n城都地区\n观光地图"
+    scan_box:
+      - 26
+      - 1161
+      - 49
+      - 1321
+    scan_boxes:
+      - 
+        - 26
+        - 1161
+        - 49
+        - 1321
+      - 
+        - 200
+        - 1296
+        - 342
+        - 1325
+      - 
+        - 471
+        - 1419
+        - 626
+        - 1448
+      - 
+        - 568
+        - 1264
+        - 702
+        - 1292
+      - 
+        - 594
+        - 1157
+        - 698
+        - 1186
+      - 
+        - 750
+        - 1114
+        - 959
+        - 1143
+    writing_direction: vertical
   - speaker: image
     type: image
     kind: image
@@ -1364,6 +2412,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p075_johto_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.75
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 巡游城都各地的塔 四大塔巡礼 喇叭芽之塔
     type: heading
     kind: text
@@ -1374,7 +2424,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ジョウト各地の塔を回ろう4大塔巡り マダツボミのとう
-    translation: "巡游城都各处的塔 4大塔巡礼 喇叭芽之塔"
+    translation: 巡游城都各处的塔 4大塔巡礼 喇叭芽之塔
+    scan_box:
+      - 944
+      - 1767
+      - 1335
+      - 1862
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1385,6 +2441,12 @@ translation_segments:
     review_status: review
     original: →キキョウシティにある3階建ての塔。中ではお坊さんたちが修行をしている
     translation: →位于桔梗市的三层塔。里面有僧侣们在修行
+    scan_box:
+      - 938
+      - 1593
+      - 1083
+      - 1753
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1395,6 +2457,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1234
+      - 1561
+      - 1341
+      - 1577
+    writing_direction: horizontal
   - speaker: 烧焦塔
     type: heading
     kind: text
@@ -1405,7 +2473,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: やけたとう
-    translation: "烧焦塔"
+    translation: 烧焦塔
+    scan_box:
+      - 1221
+      - 1522
+      - 1306
+      - 1556
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1417,6 +2491,12 @@ translation_segments:
     original: →かつてはスズのとうと並んで建っていたが、落雷によって焼け落ちてしまった
     translation: →过去曾与铃铛塔并立而建，却因落雷被烧毁。
     comment: 铃铛塔即缘朱市的钟之塔，与烧焦塔原本成对。
+    scan_box:
+      - 1199
+      - 1419
+      - 1344
+      - 1509
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1427,6 +2507,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 944
+      - 1393
+      - 1053
+      - 1407
+    writing_direction: horizontal
   - speaker: 埋藏之塔
     type: heading
     kind: text
@@ -1437,7 +2523,24 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: うずもれのとう
-    translation: "埋藏之塔"
+    translation: 埋藏之塔
+    scan_box:
+      - 935
+      - 1698
+      - 1080
+      - 1753
+    scan_boxes:
+      - 
+        - 935
+        - 1698
+        - 1080
+        - 1753
+      - 
+        - 967
+        - 1354
+        - 1051
+        - 1386
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1448,6 +2551,12 @@ translation_segments:
     review_status: review
     original: →47ばんどうろにある遺跡。大昔の塔が、天変地異で埋もれてしまったものか？
     translation: →位于47号道路的遗迹。远古时代的塔，莫非是因天灾地变而被埋没？
+    scan_box:
+      - 947
+      - 1237
+      - 1090
+      - 1341
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1468,6 +2577,12 @@ translation_segments:
     review_status: review
     original: →10階建ての塔。壊れたエレベーターを使えばカネナシでも最上階まで行ける……
     translation: →十层高的塔。使用坏掉的电梯，就算没钱也能上到最顶层……
+    scan_box:
+      - 1254
+      - 1006
+      - 1350
+      - 1198
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -1478,6 +2593,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1150
+      - 971
+      - 1257
+      - 985
+    writing_direction: horizontal
   - speaker: 铃铛塔 虫宝可梦的圣地自然公园
     type: heading
     kind: text
@@ -1488,7 +2609,24 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: スズのとう むしポケモンの聖地しぜんこうえん
-    translation: "铃铛塔 虫宝可梦的圣地 自然公园"
+    translation: 铃铛塔 虫宝可梦的圣地 自然公园
+    scan_box:
+      - 515
+      - 1761
+      - 906
+      - 1855
+    scan_boxes:
+      - 
+        - 515
+        - 1761
+        - 906
+        - 1855
+      - 
+        - 953
+        - 1182
+        - 1098
+        - 1217
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1499,6 +2637,12 @@ translation_segments:
     review_status: review
     original: ゆうしょうした ニンドリさんには みずのいしを さしあげます
     translation: 获得冠军的Nintendo DREAM读者，将获赠水之石。
+    scan_box:
+      - 672
+      - 1516
+      - 904
+      - 1571
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1509,6 +2653,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 817
+      - 1499
+      - 906
+      - 1513
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1519,6 +2669,12 @@ translation_segments:
     review_status: review
     original: ↑毎週火・木・土曜日にむしとりたいかいが開催される。強そうなむしポケモンを捕獲！
     translation: ↑每周二、四、六举办捕虫大会。捕获看起来很强的虫宝可梦！
+    scan_box:
+      - 591
+      - 1434
+      - 909
+      - 1501
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1530,6 +2686,12 @@ translation_segments:
     original: 僕、ツクシ！ むしポケモンって奥が深いんだ。しぜんこうえんで研究しようね！
     translation: 我是阿笔！虫属性宝可梦可是很有深度的。到自然公园来研究吧！
     comment: 阿笔是《宝可梦 心金／魂银》中桧皮镇的道馆馆主，擅长虫属性。
+    scan_box:
+      - 101
+      - 1438
+      - 391
+      - 1528
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1540,6 +2702,12 @@ translation_segments:
     review_status: review
     original: ↑ポケモンを捕るも良し、のんびり過ごすも良し
     translation: ↑捕捉宝可梦也好，悠闲度过也好
+    scan_box:
+      - 84
+      - 1534
+      - 229
+      - 1597
+    writing_direction: horizontal
   - speaker: 打造只属于自己的狩猎地带
     type: heading
     kind: text
@@ -1550,7 +2718,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 自分だけのサファリを作ろうサファリゾーン
-    translation: "打造只属于自己的狩猎地带 狩猎地带"
+    translation: 打造只属于自己的狩猎地带 狩猎地带
+    scan_box:
+      - 518
+      - 1321
+      - 909
+      - 1415
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1561,6 +2735,12 @@ translation_segments:
     review_status: review
     original: →ジョウトのサファリゾーンは、地形を自由に入れ替える「エリアカスタム」が可能だ
     translation: →城都的狩猎地带可以自由更换地形，进行“区域自定义”
+    scan_box:
+      - 518
+      - 1212
+      - 663
+      - 1309
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1571,6 +2751,12 @@ translation_segments:
     review_status: review
     original: Touch screen
     translation: 触摸屏
+    scan_box:
+      - 811
+      - 1288
+      - 918
+      - 1305
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1581,6 +2767,12 @@ translation_segments:
     review_status: review
     original: エリアを どうする？もどる
     translation: 区域要 怎么办？返回
+    scan_box:
+      - 686
+      - 1106
+      - 831
+      - 1122
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1591,6 +2783,12 @@ translation_segments:
     review_status: review
     original: →さまざまな形のブロックを置くことで、そのエリアに出てくるポケモンが変化することも
     translation: →通过放置各种形状的方块，该区域出现的宝可梦也会发生变化
+    scan_box:
+      - 765
+      - 987
+      - 909
+      - 1096
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1601,6 +2799,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 657
+      - 963
+      - 765
+      - 979
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1611,6 +2815,12 @@ translation_segments:
     review_status: review
     original: きりかぶを おきました！
     translation: 放置了 树桩！
+    scan_box:
+      - 614
+      - 995
+      - 759
+      - 1014
+    writing_direction: horizontal
   - speaker: "解开谜团的未知图腾笔记!?阿露福遗迹"
     type: heading
     kind: text
@@ -1621,7 +2831,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "謎を解くヒアンノーツが!?アルフのいせき"
-    translation: "解开谜题的未知笔记！？阿露福遗迹"
+    translation: 解开谜题的未知笔记！？阿露福遗迹
+    scan_box:
+      - 96
+      - 1313
+      - 487
+      - 1407
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1632,6 +2848,12 @@ translation_segments:
     review_status: review
     original: ↑石版のパズルやアンノーン文字のメッセージなど、さまざまな謎が秘められている遺跡だ
     translation: ↑石板拼图、未知图腾文字的信息等，这座遗迹隐藏着各种各样的谜团
+    scan_box:
+      - 339
+      - 1221
+      - 484
+      - 1300
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1652,7 +2874,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 写真屋ゲンジーで記念写真を撮ろう！
-    translation: "在摄影师源治那里拍纪念照吧！"
+    translation: 在摄影师源治那里拍纪念照吧！
+    scan_box:
+      - 1034
+      - 813
+      - 1344
+      - 928
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1663,6 +2891,12 @@ translation_segments:
     review_status: review
     original: 『ポケモンHG・SS』では、あちこちにカメラおやじのゲンジーがおり、話しかけると記念写真を撮ってくれる。曜日でゲンジーの居場所が変わるので、右の表を参考に撮影したい場所と曜日をチェックしておこう。撮った写真は自分のパソコンで見られるぞ。
     translation: 在《宝可梦 心金·魂银》中，各地都有相机大叔源治，和他搭话就会帮你拍纪念照。源治所在的地点会随星期变化，所以请参考右表，事先确认好想拍照的地点和星期。拍下的照片可以在自己的电脑里查看。
+    scan_box:
+      - 1051
+      - 592
+      - 1341
+      - 801
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1673,6 +2907,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1234
+      - 414
+      - 1341
+      - 428
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1683,6 +2923,12 @@ translation_segments:
     review_status: review
     original: いわいな ところで コンニチワ！
     translation: 在这喜庆的地方，你好啊！
+    scan_box:
+      - 1173
+      - 449
+      - 1318
+      - 465
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1693,6 +2939,12 @@ translation_segments:
     review_status: review
     original: わし カメラおやじの ゲンジーでーす
     translation: 我是相机大叔源治——
+    scan_box:
+      - 1173
+      - 432
+      - 1318
+      - 449
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1703,6 +2955,12 @@ translation_segments:
     review_status: review
     original: →カメラおやじのゲンジーに話しかければ、一緒に記念撮影ができる
     translation: →和相机大叔源治搭话，就能一起拍纪念照
+    scan_box:
+      - 1060
+      - 457
+      - 1124
+      - 588
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -1713,6 +2971,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1156
+      - 272
+      - 1263
+      - 287
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1723,6 +2987,12 @@ translation_segments:
     review_status: review
     original: "撮影場所 月 火 水 木 金 土 日\nワカバタウン※1 ●\nヨシノシティ※1 ● ● ●\nアルフのいせき※1 ● ● ●\nアルフのいせき内部※1 ● ●\n32ばんどうろ※1 ● ● ●\nヤドンのいど※1 ● ●\nウバメのもり※1 ● ●\n34ばんどうろ※1 ● ●\nコガネちかつうろ ● ● ● ● ● ● ●\n35ばんどうろ ● ●\nポケスロンゲート内 ● ●\nポケスロンドーム(ドリンク屋前) ● ● ●\nポケスロンドーム(ドーム前) ● ● ●\nしぜんこうえん(噴水前)※2 ● ●\nしぜんこうえん(花壇横)※2 ● ●\nエンジュシティ ●\nアサギシティ ● ●\nアサギのとうだい5階 ● ●\n39ばんどうろ ●\nタンバシティ(カメラのみ) ● ● ● ● ● ●\n48ばんどうろ ● ●\nサファリゾーン ● ●\nこおりのぬけみち ● ●\nフスベシティ ● ●\n\n撮影場所 月 火 水 木 金 土 日\nりゅうのあな※3 ●\n45ばんどうろ ● ●\n26ばんどうろ ● ●\nフロンティアフロント ● ●\nクチバシティ ● ● ●\nヤマブキシティ(リニア駅前) ● ● ●\nヤマブキシティ(シルフカンパニー前) ● ●\nハナダシティ ● ●\nタマムシシティ ●\nタマムシデパート2階 ●\n12ばんどうろ ● ●\n14ばんどうろ ● ●\nセキチクシティ ● ●\nニビかがくはくぶつかん ●\nニビシティ ● ●\nトキワシティ ● ●\n22ばんどうろ ● ●\n1ばんどうろ ● ●\nマサラタウン ● ● ●\n21ばんすいどう ●\nふたごじま ● ●\nシロガネやま ● ●\nシロガネやまどうぐC ●"
     translation: "拍摄地点 一 二 三 四 五 六 日\n若叶镇※1 ●\n吉花市※1 ● ● ●\n阿露福遗迹※1 ● ● ●\n阿露福遗迹内部※1 ● ●\n32号道路※1 ● ● ●\n呆呆兽之井※1 ● ●\n栎树林※1 ● ●\n34号道路※1 ● ●\n满金地下通道 ● ● ● ● ● ● ●\n35号道路 ● ●\n宝可梦全能竞技赛入口内 ● ●\n宝可梦全能竞技赛巨蛋（饮料店前） ● ● ●\n宝可梦全能竞技赛巨蛋（巨蛋前） ● ● ●\n自然公园（喷水池前）※2 ● ●\n自然公园（花坛旁）※2 ● ●\n缘朱市 ●\n浅葱市 ● ●\n浅葱灯塔5层 ● ●\n39号道路 ●\n湛蓝市（仅相机） ● ● ● ● ● ●\n48号道路 ● ●\n狩猎地带 ● ●\n冰雪通路 ● ●\n烟墨市 ● ●\n\n拍摄地点 一 二 三 四 五 六 日\n龙穴※3 ●\n45号道路 ● ●\n26号道路 ● ●\n对战开拓区入口 ● ●\n枯叶市 ● ● ●\n金黄市（磁浮列车站前） ● ● ●\n金黄市（西尔佛公司前） ● ●\n华蓝市 ● ●\n玉虹市 ●\n玉虹百货公司2层 ●\n12号道路 ● ●\n14号道路 ● ●\n浅红市 ● ●\n深灰科学博物馆 ●\n深灰市 ● ●\n常磐市 ● ●\n22号道路 ● ●\n1号道路 ● ●\n真新镇 ● ● ●\n21号水路 ●\n双子岛 ● ●\n白银山 ● ●\n白银山道具C ●"
+    scan_box:
+      - 119
+      - 272
+      - 1025
+      - 928
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1733,6 +3003,12 @@ translation_segments:
     review_status: review
     original: ※1…コガネジム攻略後 ※2…むしとりたいかい開催中を除く ※3…イブキからわざマシンを入手したあと
     translation: ※1…攻略满金道馆后 ※2…捕捉大会举办期间除外 ※3…从伊吹那里获得招式学习器之后
+    scan_box:
+      - 125
+      - 250
+      - 1022
+      - 268
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1743,6 +3019,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p076_hoenn_region_part1.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.76
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 明媚的山海之地 丰缘地区
     type: heading
     kind: text
@@ -1753,7 +3031,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: うららかな山と海の地 ホウエン地方
-    translation: "明媚的山海之地 丰缘地区"
+    translation: 明媚的山海之地 丰缘地区
+    scan_box:
+      - 62
+      - 219
+      - 969
+      - 365
+    writing_direction: horizontal
   - speaker: 岩浆沸腾的自然威胁！烟囱山
     type: heading
     kind: text
@@ -1764,7 +3048,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "マグマ沸き立つ自然の脅威!えんとつやま"
-    translation: "岩浆沸腾的自然威胁！烟囱山"
+    translation: 岩浆沸腾的自然威胁！烟囱山
+    scan_box:
+      - 110
+      - 399
+      - 424
+      - 498
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1775,6 +3065,12 @@ translation_segments:
     review_status: review
     original: わたしがマグマ団のリーダー、マツブサだ。マグマ吹き出すえんとつやま…まさに増えゆく大地の象徴。ぜひ皆さんに見てもらい、大地のすばらしさを感じとってほしいものだ。あ、途中のデコボコさんどうにはアジトへの隠し通路などないから、見物は無用だぞ。
     translation: 我是熔岩队的首领赤焰松。岩浆喷涌的烟囱山……正是不断增长的大地的象征。希望各位务必亲眼看看，感受大地的美妙。啊，途中的凹凸山道并没有什么通往基地的秘密通道，不必去看了。
+    scan_box:
+      - 468
+      - 373
+      - 663
+      - 692
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -1785,6 +3081,12 @@ translation_segments:
     review_status: review
     original: ←頂上近くまでロープウェイで来られるので、あまり長く歩きたくない人でも火山見物が楽しめる
     translation: ←乘缆车可以来到接近山顶的地方，所以不太想走长路的人也能欣赏火山景色
+    scan_box:
+      - 307
+      - 514
+      - 439
+      - 662
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1795,6 +3097,12 @@ translation_segments:
     review_status: review
     original: →近くのデコボコさんどうの途中に、妙な場所が?
     translation: →在附近的凹凸山道途中，有个奇怪的地方？
+    scan_box:
+      - 41
+      - 694
+      - 169
+      - 784
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1805,6 +3113,12 @@ translation_segments:
     review_status: review
     original: "↓マグマ沸き立つ巨大な火口。これぞ大自然の脅威!!"
     translation: ↓岩浆翻涌的巨大火山口。这才是大自然的威胁！！
+    scan_box:
+      - 41
+      - 788
+      - 169
+      - 879
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1815,6 +3129,12 @@ translation_segments:
     review_status: review
     original: "あ! マグマのしるしに はんのうして… おおきな いわが……♥"
     translation: 啊！对熔岩标志产生了反应……一块巨大的岩石……♥
+    scan_box:
+      - 203
+      - 799
+      - 397
+      - 846
+    writing_direction: horizontal
   - speaker: 用「潜水」探索海底！海底洞窟
     type: heading
     kind: text
@@ -1825,7 +3145,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "「ダイビング」で海底探索!かいていどうくつ"
-    translation: "用“潜水”探索海底！海底洞窟"
+    translation: 用“潜水”探索海底！海底洞窟
+    scan_box:
+      - 975
+      - 395
+      - 1286
+      - 492
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1836,6 +3162,12 @@ translation_segments:
     review_status: review
     original: "おれはアクア団のリーダー、アオギリ! 海底採くんにたたずむ巨大洞くつ…これぞ広大なる海の象徴。かなり行きづらい場所にあるが、ぜひ多くの人に見てほしいものだ。あ、ここの奥にはカイオーガが眠っているが、下手に起こすなよ。大変だったんだから…。"
     translation: 我是水舰队的首领水梧桐！矗立在海底深处的巨大洞窟……这正是广阔海洋的象征。虽然位于相当难以前往的地方，但希望众多的人都能来看看。啊，这里的深处沉睡着盖欧卡，可别随便把它吵醒。毕竟当初可费了好大劲……
+    scan_box:
+      - 685
+      - 371
+      - 869
+      - 690
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -1846,6 +3178,12 @@ translation_segments:
     review_status: review
     original: "←深い海で「ダイビング」を使うと、海の中に潜れる。ほかの地方ではできない海底探索を楽しもう!"
     translation: ←在深海中使「潜水」，就能潜入海中。享受在其他地区无法做到的海底探索吧！
+    scan_box:
+      - 1170
+      - 508
+      - 1299
+      - 655
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1856,6 +3194,12 @@ translation_segments:
     review_status: review
     original: "ふかい うみだ! ダイビングを つかいますか?はいいいえ"
     translation: 是深海！要使用潜水吗？是／否
+    scan_box:
+      - 924
+      - 635
+      - 1141
+      - 680
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1866,6 +3210,12 @@ translation_segments:
     review_status: review
     original: ↓→かいていどうくつの入り口は海中に。その奥には伝説のポケモン・カイオーガが眠ると伝えられる
     translation: ↓→海底洞窟的入口位于海中。据说其深处沉睡着传说的宝可梦盖欧卡
+    scan_box:
+      - 905
+      - 707
+      - 1034
+      - 854
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1876,6 +3226,12 @@ translation_segments:
     review_status: review
     original: "…るのたまが……に かがやき はじめた…!?"
     translation: ……的宝珠……开始发光了……！？
+    scan_box:
+      - 992
+      - 1049
+      - 1264
+      - 1110
+    writing_direction: horizontal
   - speaker: 在五大地区首屈一指的海滩悠闲放松，在凯那市戏水
     type: heading
     kind: text
@@ -1886,7 +3242,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 5大地方随一のビーチでのんびりカイナシティで水遊び
-    translation: "在5大地区首屈一指的海滩悠闲度过 在凯那市玩水"
+    translation: 在5大地区首屈一指的海滩悠闲度过 在凯那市玩水
+    scan_box:
+      - 117
+      - 1147
+      - 552
+      - 1241
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1897,6 +3259,12 @@ translation_segments:
     review_status: review
     original: →カイナシティはホウエン随一の港街。造船所や船乗り場とともに、うみのかがくはくぶつかんもある。海に関するさまざまな知識を学ぼう
     translation: →凯那市是丰缘首屈一指的港口城市。除了造船厂和乘船处，还有海洋科学博物馆。来学习各种关于海洋的知识吧
+    scan_box:
+      - 42
+      - 1255
+      - 321
+      - 1372
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1907,6 +3275,12 @@ translation_segments:
     review_status: review
     original: 「うみの まめちしき その1
     translation: 海洋小知识 第1回
+    scan_box:
+      - 368
+      - 1415
+      - 539
+      - 1440
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1917,6 +3291,12 @@ translation_segments:
     review_status: review
     original: なぜ うみの みずは あおいの?」♥
     translation: 为什么海水是蓝色的？
+    scan_box:
+      - 368
+      - 1442
+      - 582
+      - 1466
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1927,6 +3307,12 @@ translation_segments:
     review_status: review
     original: ←海水浴場にある海の家は、何ともレトロな雰囲気。泳ぎ疲れたら、サイコソーダで一服しよう
     translation: ←海水浴场旁的海之家，透着十足的怀旧气息。游累了，就喝杯劲爽汽水歇一歇吧
+    scan_box:
+      - 368
+      - 1493
+      - 656
+      - 1552
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1937,6 +3323,12 @@ translation_segments:
     review_status: review
     original: ポケモンも だいすき サイコソーダ
     translation: 宝可梦也超爱的劲爽汽水
+    scan_box:
+      - 78
+      - 1571
+      - 282
+      - 1595
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1947,6 +3339,12 @@ translation_segments:
     review_status: review
     original: いっぽん 300えん だよー♥
     translation: 一瓶300日元哦
+    scan_box:
+      - 78
+      - 1597
+      - 251
+      - 1622
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1957,6 +3355,12 @@ translation_segments:
     review_status: review
     original: →四方を海に囲まれたホウエン地方で、最もにぎわっている海水浴場がここ。なお海水浴客にはトレーナーが多いので、訪れる際は事前にバトルの準備をしておきましょう
     translation: →这里是四面环海的丰缘地区最热闹的海水浴场。来游泳的客人中有很多是宝可梦训练家，前往时请事先做好对战准备
+    scan_box:
+      - 42
+      - 1708
+      - 235
+      - 1843
+    writing_direction: horizontal
   - speaker: 刻在各地遗迹中的盲文之谜
     type: heading
     kind: text
@@ -1967,7 +3371,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 各地の遺跡に刻まれた点字の秘密
-    translation: "刻在各地遗迹中的盲文秘密"
+    translation: 刻在各地遗迹中的盲文秘密
+    scan_box:
+      - 766
+      - 1143
+      - 983
+      - 1237
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1978,6 +3388,12 @@ translation_segments:
     review_status: review
     original: →ホウエン地方はあちこちに遺跡が残されているが、そこには点字の碑文が刻まれていることがある。この点字は、遺跡を開くためのヒントになっているというが…
     translation: →丰缘地区各处都留有遗迹，其中有些刻着盲文碑文。据说这些盲文是开启遗迹的提示……
+    scan_box:
+      - 688
+      - 1251
+      - 1012
+      - 1339
+    writing_direction: horizontal
   - speaker: 在山间小镇歇歇脚 釜炎镇温泉
     type: heading
     kind: text
@@ -1988,7 +3404,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 山間の街でひと休みフエンタウン温泉
-    translation: "在山间城镇稍作休息 釜炎镇温泉"
+    translation: 在山间城镇稍作休息 釜炎镇温泉
+    scan_box:
+      - 766
+      - 1358
+      - 1125
+      - 1452
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1999,6 +3421,12 @@ translation_segments:
     review_status: review
     original: "↓えんとつやまのふもとにあるフエンタウンの名物は、なんといっても温泉。露天風呂に砂風呂と設備も充実しているうえ、男性にはうれしい混浴! …おばあさんしか入ってないけど"
     translation: ↓位于烟囱山山脚下的釜炎镇，最有名的当属温泉。露天浴池、沙浴等设施一应俱全，而且还有男性会喜欢的混浴！……不过里面只有老太太
+    scan_box:
+      - 688
+      - 1466
+      - 1115
+      - 1554
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2009,6 +3437,12 @@ translation_segments:
     review_status: review
     original: "あたしはフエンジムリーダーのアスナ。ジムリーダーになりたてなんで、肩に力入りすぎちゃって…。疲れたときはやっぱり温泉ね!"
     translation: 我是釜炎道馆馆主亚莎。刚当上道馆馆主，肩膀绷得太紧了……累的时候果然还是得泡温泉！
+    scan_box:
+      - 1125
+      - 1395
+      - 1299
+      - 1577
+    writing_direction: vertical
   - speaker: image
     type: image
     kind: image
@@ -2019,6 +3453,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p077_hoenn_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.77
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 仰望宇宙之星 绿岭宇宙中心
     type: heading
     kind: text
@@ -2029,7 +3465,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 見上げてごらん宇宙の星をトクサネ宇宙センター
-    translation: "仰望宇宙之星 绿岭宇宙中心"
+    translation: 仰望宇宙之星 绿岭宇宙中心
+    scan_box:
+      - 70
+      - 1741
+      - 922
+      - 1843
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2040,6 +3482,12 @@ translation_segments:
     review_status: review
     original: ↑トクサネシティにある宇宙センター。ここから宇宙に向けてロケットが打ち上げられるのだ
     translation: ↑位于绿岭市的宇宙中心。火箭就是从这里发射飞向宇宙的
+    scan_box:
+      - 70
+      - 1669
+      - 922
+      - 1729
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2050,6 +3498,12 @@ translation_segments:
     review_status: review
     original: 「トクサネ うちゅうセンター」
     translation: 「绿岭宇宙中心」
+    scan_box:
+      - 670
+      - 1417
+      - 922
+      - 1473
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2060,6 +3514,12 @@ translation_segments:
     review_status: review
     original: うちゅうに いちばん ちかい ばしょ
     translation: 距离宇宙最近的地方
+    scan_box:
+      - 670
+      - 1368
+      - 922
+      - 1405
+    writing_direction: horizontal
   - speaker: 运气好的话就能看到 幻之岛与塔
     type: heading
     kind: text
@@ -2070,7 +3530,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 運が良ければ見られます幻の島と塔
-    translation: "运气好的话就能看到 幻之岛与塔"
+    translation: 运气好的话就能看到 幻之岛与塔
+    scan_box:
+      - 366
+      - 1741
+      - 649
+      - 1806
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2081,6 +3547,12 @@ translation_segments:
     review_status: review
     original: マボロシじま
     translation: 幻影岛
+    scan_box:
+      - 395
+      - 1679
+      - 620
+      - 1722
+    writing_direction: horizontal
   - speaker: 挑战戏法大王之谜！！戏法屋
     type: heading
     kind: text
@@ -2091,7 +3563,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "カラクリ大王の謎に挑め!!カラクリやしき"
-    translation: "挑战戏法大王之谜！！戏法屋"
+    translation: 挑战戏法大王之谜！！戏法屋
+    scan_box:
+      - 70
+      - 1741
+      - 359
+      - 1806
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2102,6 +3580,12 @@ translation_segments:
     review_status: review
     original: ↑カラクリ大王は、むずかしいなぞをといて君の挑戦を待っているー
     translation: ↑戏法大王正等着解开难题的你前来挑战——
+    scan_box:
+      - 265
+      - 1489
+      - 319
+      - 1722
+    writing_direction: horizontal
   - speaker: 与自然共生的人们的生活 树上的城镇与水上的城镇
     type: heading
     kind: text
@@ -2112,7 +3596,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 自然とともに暮らす人々の営み樹上の街と水上の街
-    translation: "与自然共生的人们的生活 树上的城镇与水上的城镇"
+    translation: 与自然共生的人们的生活 树上的城镇与水上的城镇
+    scan_box:
+      - 70
+      - 1364
+      - 388
+      - 1458
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2123,6 +3613,12 @@ translation_segments:
     review_status: review
     original: ↑コロンマサルトでは、せまいすいじょうに民家が建ちならぶ
     translation: ↑在涟漪镇，狭窄的水面上民房鳞次栉比
+    scan_box:
+      - 77
+      - 1114
+      - 127
+      - 1350
+    writing_direction: vertical
   - speaker: body
     type: paragraph
     kind: text
@@ -2133,6 +3629,12 @@ translation_segments:
     review_status: review
     original: ↑サナギタウンは水にうかぶ民家がいっぱいの水の道を持つ町だ
     translation: ↑茵郁市是一座拥有众多水上民房的水路城镇
+    scan_box:
+      - 272
+      - 881
+      - 323
+      - 1106
+    writing_direction: horizontal
   - speaker: 幻影之塔
     type: heading
     kind: text
@@ -2143,7 +3645,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: げんえいのとう
-    translation: "幻影之塔"
+    translation: 幻影之塔
+    scan_box:
+      - 381
+      - 1303
+      - 598
+      - 1339
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2154,6 +3662,12 @@ translation_segments:
     review_status: review
     original: ↑130ばんすいどうには、ごくまれに「マボロシじま」が現れる。かなり運が良くないと見られない幻の地だ
     translation: ↑在130号水路，极少数情况下会出现“幻影岛”。这是运气相当好才能见到的梦幻之地。
+    scan_box:
+      - 330
+      - 1350
+      - 598
+      - 1397
+    writing_direction: horizontal
   - speaker: 幻影之塔
     type: heading
     kind: text
@@ -2164,7 +3678,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: げんえいのとう
-    translation: "幻影之塔"
+    translation: 幻影之塔
+    scan_box:
+      - 504
+      - 967
+      - 721
+      - 1004
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2175,6 +3695,12 @@ translation_segments:
     review_status: review
     original: ↑こちらは111ばんどうろの砂漠にときどき現れる「げんえいのとう」。マボロシじまよりはずっと出やすいぞ
     translation: ↑这边是偶尔出现在111号道路沙漠中的“幻影之塔”。比幻影岛容易出现得多。
+    scan_box:
+      - 330
+      - 967
+      - 598
+      - 1014
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2185,6 +3711,12 @@ translation_segments:
     review_status: review
     original: "さすがや!"
     translation: 真不愧是！
+    scan_box:
+      - 497
+      - 1051
+      - 707
+      - 1171
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2195,6 +3727,12 @@ translation_segments:
     review_status: review
     original: とつぜん目の前に現れた「げんえいのとう」。ムチャクチャあやしいけど、中に入ってみよう。ムチャクチャあやしいけど、神話に伝わるポケモンがいるかもしれないんだしね。
     translation: 突然出现在眼前的“幻影之塔”。虽然非常可疑，还是进去看看吧。虽然非常可疑，但说不定会有神话中传说的宝可梦在里面呢。
+    scan_box:
+      - 736
+      - 995
+      - 888
+      - 1208
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2205,6 +3743,12 @@ translation_segments:
     review_status: review
     original: うちゅうセンターの みんなに とってだいじな いわ ものだ
     translation: 对宇宙中心的大家来说是很重要的岩石
+    scan_box:
+      - 699
+      - 1225
+      - 888
+      - 1262
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2215,6 +3759,12 @@ translation_segments:
     review_status: review
     original: ↑宇宙センターの手前にある白い岩。調べたが、どこか意味ありげ?
     translation: ↑宇宙中心前面的白色岩石。调查过了，但总觉得别有深意？
+    scan_box:
+      - 620
+      - 1278
+      - 670
+      - 1458
+    writing_direction: horizontal
   - speaker: 丰缘地区观光地图
     type: heading
     kind: text
@@ -2225,7 +3775,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ホウエン地方観光マップ
-    translation: "丰缘地区观光地图"
+    translation: 丰缘地区观光地图
+    scan_box:
+      - 91
+      - 762
+      - 258
+      - 856
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2236,6 +3792,12 @@ translation_segments:
     review_status: review
     original: "カイナシティ\nカラクリやしき\nフエンタウン温泉\nえんとつやま\nヒワマキシティ\nキナギタウン\nトクサネ宇宙センター\nかいていどうくつ"
     translation: "凯那市\n戏法屋\n釜炎镇温泉\n烟囱山\n茵郁市\n橙华镇\n绿岭宇宙中心\n海底洞窟"
+    scan_box:
+      - 120
+      - 346
+      - 765
+      - 897
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -2246,6 +3808,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p078_sinnoh_region_part1.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.78
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 被神秘湖泊环绕之地 神奥地区
     type: heading
     kind: text
@@ -2256,7 +3820,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 神秘的な湖にかこまれた地 シンオウ地方
-    translation: "被神秘湖泊环绕之地 神奥地区"
+    translation: 被神秘湖泊环绕之地 神奥地区
+    scan_box:
+      - 70
+      - 199
+      - 1002
+      - 369
+    writing_direction: horizontal
   - speaker: 神奥最恐怖的试胆胜地 森之洋馆
     type: heading
     kind: text
@@ -2267,7 +3837,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: シンオウ最恐のきもだめしスポットみる もりのようかん
-    translation: "神奥最恐怖的试胆地点 森之洋馆"
+    translation: 神奥最恐怖的试胆地点 森之洋馆
+    scan_box:
+      - 55
+      - 395
+      - 678
+      - 496
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2278,6 +3854,12 @@ translation_segments:
     review_status: review
     original: ↓主人公の入った部屋の右隣。普段は誰もいないのに、この時は…！
     translation: ↓主角所住房间的右边隔壁。平时谁都不在，但这个时候却……！
+    scan_box:
+      - 384
+      - 500
+      - 511
+      - 604
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2288,6 +3870,12 @@ translation_segments:
     review_status: review
     original: ↑昼なお暗い不気味な洋館。夜ともなれば、さまざまな怪奇現象が起こるとのうわさ…
     translation: ↑白天也昏暗得令人发毛的洋馆。据说一到夜里，就会发生各种怪奇现象……
+    scan_box:
+      - 70
+      - 752
+      - 504
+      - 803
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2299,6 +3887,12 @@ translation_segments:
     original: おすすめ！あたしがハクタイジムリーダーのナタネ！ ここ、おばけが出るってウワサになってるね。え、入って調べろって？ ほら、あたし、ジムリーダーでいろいろあるから…。じゃあヨロシク！
     translation: 推荐！我是百代道馆馆主菜种！这里据说会闹鬼呢。咦，你让我进去调查？你看，我身为道馆馆主事情很多的……那就拜托你啦！
     comment: 菜种是《宝可梦 钻石／珍珠》中百代市的道馆馆主，使用草属性宝可梦。
+    scan_box:
+      - 229
+      - 809
+      - 673
+      - 1016
+    writing_direction: horizontal
   - speaker: 踏上追寻神奥神话之旅！学习 神奥地方传说之旅
     type: heading
     kind: text
@@ -2309,7 +3903,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: シンオウの神話をたどる旅に出よう！まなぶ シンオウ地方の伝説ツアー
-    translation: "踏上追寻神奥神话之旅！学习 神奥地区传说之旅"
+    translation: 踏上追寻神奥神话之旅！学习 神奥地区传说之旅
+    scan_box:
+      - 698
+      - 393
+      - 1321
+      - 494
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2320,6 +3920,12 @@ translation_segments:
     review_status: review
     original: ←ハクタイシティには、この地方の伝説のポケモンをかたどった像が
     translation: ←百代市里立着以本地区传说的宝可梦为原型的雕像
+    scan_box:
+      - 717
+      - 508
+      - 1147
+      - 569
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2330,6 +3936,12 @@ translation_segments:
     review_status: review
     original: ハクタイの ポケモンぞう だ
     translation: 这是百代的宝可梦雕像
+    scan_box:
+      - 721
+      - 657
+      - 891
+      - 680
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2340,6 +3952,12 @@ translation_segments:
     review_status: review
     original: →カンナギタウンの遺跡。奥には神話を描いた壁画がある
     translation: →神和镇的遗迹。深处有描绘神话的壁画
+    scan_box:
+      - 717
+      - 729
+      - 886
+      - 795
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2350,6 +3968,12 @@ translation_segments:
     review_status: review
     original: シロナ『この へきが……』
     translation: 竹兰“这幅壁画……”
+    scan_box:
+      - 901
+      - 766
+      - 1031
+      - 782
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2361,6 +3985,12 @@ translation_segments:
     original: あたしはシロナ。ポケモンの神話を調べている物好きなトレーナーよ。全国図鑑入手後、カンナギの壁画のところに来てくれたら、あたしの仮説たっぷり聴かせてあげる。
     translation: 我是竹兰。是个喜欢研究宝可梦神话的怪脾气的训练家。等你拿到全国图鉴后，来神和镇的壁画这里，我会把我的假说好好讲给你听。
     comment: 竹兰是神奥地方的冠军，也是研究神话的学者。
+    scan_box:
+      - 1161
+      - 504
+      - 1310
+      - 754
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2371,6 +4001,12 @@ translation_segments:
     review_status: review
     original: ←ミオとしょかんには、シンオウ地方の神話に関する文献がそろっている。いろいろ読んでみよう
     translation: ←水脉图书馆里收藏着与神奥地方神话相关的文献。去读读各种书吧
+    scan_box:
+      - 977
+      - 834
+      - 1050
+      - 983
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -2381,6 +4017,12 @@ translation_segments:
     review_status: review
     original: 「シンオウしんわ」と かかれた ほんが ある…… よんでみますか？
     translation: 有一本写着“神奥神话”的书……要读读看吗？
+    scan_box:
+      - 721
+      - 958
+      - 915
+      - 993
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2391,6 +4033,12 @@ translation_segments:
     review_status: review
     original: おすすめ！
     translation: 推荐！
+    scan_box:
+      - 1190
+      - 901
+      - 1373
+      - 1020
+    writing_direction: horizontal
   - speaker: 神奥地方 观光地图 湖畔、名胜区、森之洋馆、宝可梦雕像、花苑花田、神和壁画、宝可梦超级华丽大赛、水脉图书馆、野濑大湿地、立志湖、心齐湖、湖畔大饭店、宝可梦岩石
     type: heading
     kind: text
@@ -2401,7 +4049,24 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シンオウ地方 観光マップエイチこリゾートエリアもりのようかんポケモンの像ソノオのはなばたけカンナギの壁画ポケモンスーパーコンテストミオとしょかんノモセだいしつげんリッシこシンジこホテルグランドレイクポケモンいわ
-    translation: "神奥地区 观光地图 睿智湖 名胜区 森之洋馆 宝可梦像 花苑花田 神和壁画 宝可梦超级华丽大赛 水脉图书馆 野濑大湿地 立志湖 心齐湖 湖畔大饭店 宝可梦岩"
+    translation: 神奥地区 观光地图 睿智湖 名胜区 森之洋馆 宝可梦像 花苑花田 神和壁画 宝可梦超级华丽大赛 水脉图书馆 野濑大湿地 立志湖 心齐湖 湖畔大饭店 宝可梦岩
+    scan_box:
+      - 14
+      - 1130
+      - 51
+      - 1315
+    scan_boxes:
+      - 
+        - 14
+        - 1130
+        - 51
+        - 1315
+      - 
+        - 148
+        - 1110
+        - 1205
+        - 1798
+    writing_direction: vertical
   - speaker: image
     type: image
     kind: image
@@ -2412,6 +4077,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p079_sinnoh_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.79
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 宝可梦超级华丽大赛 去看宝可梦们大显身手的舞台
     type: heading
     kind: text
@@ -2422,7 +4089,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンスーパーコンテストポケモンたちの晴れ舞台を見よう
-    translation: "宝可梦超级华丽大赛 去看宝可梦们的华丽舞台"
+    translation: 宝可梦超级华丽大赛 去看宝可梦们的华丽舞台
+    scan_box:
+      - 956
+      - 1765
+      - 1350
+      - 1853
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2433,6 +4106,12 @@ translation_segments:
     review_status: review
     original: →ヨスガシティでは、ポケモンの美しさなどを競うコンテストを開催！↑「ポフィン」というおかしを与えて、コンディションを上げよう
     translation: →在缘朱市，会举办比拼宝可梦美丽程度等的华丽大赛！↑喂食名为“宝芬”的点心，提升状态吧
+    scan_box:
+      - 1226
+      - 1505
+      - 1363
+      - 1749
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2443,6 +4122,12 @@ translation_segments:
     review_status: review
     original: はやく はやく！
     translation: 快点 快点！
+    scan_box:
+      - 946
+      - 1440
+      - 1131
+      - 1563
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2453,6 +4138,12 @@ translation_segments:
     review_status: review
     original: おーホッホッホ！ アタシ メリッサです！ ヨスガシティはコンテストやってます。えーと、だから、アタシ見てきなさい！
     translation: 哦—呵呵呵！我是梅丽莎！缘朱市正在举办华丽大赛。呃，所以，你去看一看吧！
+    scan_box:
+      - 1099
+      - 1151
+      - 1358
+      - 1276
+    writing_direction: horizontal
   - speaker: 巡游神奥三大湖 遥想幽玄水面
     type: heading
     kind: text
@@ -2463,7 +4154,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シンオウ3大湖巡り幽玄なる水面に思いをはせる
-    translation: "神奥三大湖巡游 遥想幽玄水面"
+    translation: 神奥三大湖巡游 遥想幽玄水面
+    scan_box:
+      - 468
+      - 1757
+      - 862
+      - 1853
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2474,6 +4171,12 @@ translation_segments:
     review_status: review
     original: リッシこ↑極東にあるシンジ湖。3つの湖の中で最も広く、中央には島が浮かんでいる…ぞ…？
     translation: 立志湖↑位于极东的心齐湖。是三个湖中最大的，中央还浮着一座岛……吧……？
+    scan_box:
+      - 549
+      - 1552
+      - 683
+      - 1743
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -2484,6 +4187,12 @@ translation_segments:
     review_status: review
     original: エイチこ↑北端にあるエイチこ。雪の大地の奥に、ひっそりとたたずんでいる。しばしの間、静ひつな雰囲気を楽しもう
     translation: 睿智湖↑位于北端的睿智湖。在雪原深处，悄然伫立。不妨短暂享受一下静谧的氛围
+    scan_box:
+      - 100
+      - 1565
+      - 236
+      - 1653
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2494,6 +4203,12 @@ translation_segments:
     review_status: review
     original: バリッこ↑西の果てにあるバリッ湖。湖のほとりで、ひとりの老人が何かを待っているようだ…
     translation: 立志湖↑位于西端尽头的立志湖。湖畔似乎有一位老人在等待着什么……
+    scan_box:
+      - 864
+      - 1554
+      - 931
+      - 1745
+    writing_direction: horizontal
   - speaker: 花苑花田 培育世界上唯一的一朵花……
     type: heading
     kind: text
@@ -2504,7 +4219,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ソノオのはなばたけ世界で1つだけの花を…
-    translation: "花苑花田 世界上唯一的花……"
+    translation: 花苑花田 世界上唯一的花……
+    scan_box:
+      - 533
+      - 1444
+      - 862
+      - 1538
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2515,6 +4236,12 @@ translation_segments:
     review_status: review
     original: →ソノオタウンの北にあるハナバタケ。色とりどりの花々が咲き誇り、辺りは甘い香りに包まれている
     translation: →位于花苑镇北边的花田。五彩缤纷的花朵竞相绽放，四周弥漫着甜美的香气
+    scan_box:
+      - 537
+      - 1145
+      - 576
+      - 1427
+    writing_direction: vertical
   - speaker: 宝可梦 涟漪镇的隐秘名胜
     type: heading
     kind: text
@@ -2525,7 +4252,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンいわナギサシティの隠れた名所
-    translation: "宝可梦岩 滨海市隐藏的名胜"
+    translation: 宝可梦岩 滨海市隐藏的名胜
+    scan_box:
+      - 146
+      - 1440
+      - 475
+      - 1534
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2537,6 +4270,12 @@ translation_segments:
     original: ↑ナギサシティには大きな岩がある。なんでも、「新世界七不思議」のひとつだとか…。
     translation: ↑滨海市有一块巨大的岩石。据说它还是“新世界七大不可思议”之一……
     comment: 滨海市是《宝可梦 钻石／珍珠／白金》中的城市。
+    scan_box:
+      - 100
+      - 1141
+      - 140
+      - 1421
+    writing_direction: vertical
   - speaker: 名胜区 富豪训练家们的度假胜地
     type: heading
     kind: text
@@ -2547,7 +4286,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: リゾートエリアセレブなトレーナーたちのリゾート地
-    translation: "名胜区 名流训练家们的度假地"
+    translation: 名胜区 名流训练家们的度假地
+    scan_box:
+      - 1001
+      - 1032
+      - 1306
+      - 1124
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2558,6 +4303,12 @@ translation_segments:
     review_status: review
     original: ←会員制のリゾートクラブも。究極のエステを体験！↑別荘では、さまざまな高級家具を通販で購入できる
     translation: ←还有会员制的度假俱乐部。体验究极美容！↑在别墅里，可以通过邮购购买各种高级家具
+    scan_box:
+      - 756
+      - 928
+      - 892
+      - 1014
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2568,6 +4319,12 @@ translation_segments:
     review_status: review
     original: ヒカリ『うち ニンドリくんの ソファ すてきね！』
     translation: 小光：“你家这张沙发真不错！”
+    scan_box:
+      - 880
+      - 705
+      - 1043
+      - 762
+    writing_direction: horizontal
   - speaker: 如果是《宝可梦 白金》，还有别墅！！
     type: heading
     kind: text
@@ -2578,7 +4335,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモンプラチナ』なら別荘もあり！！
-    translation: "《宝可梦 白金》的话还有别墅！！"
+    translation: 《宝可梦 白金》的话还有别墅！！
+    scan_box:
+      - 1083
+      - 682
+      - 1364
+      - 772
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2589,6 +4352,12 @@ translation_segments:
     review_status: review
     original: かいんせいクラブ 「ボタン ショート」
     translation: 会员制俱乐部 “按钮短裤”
+    scan_box:
+      - 1205
+      - 797
+      - 1363
+      - 854
+    writing_direction: horizontal
   - speaker: 湖畔大饭店 品尝七星餐厅的美味
     type: heading
     kind: text
@@ -2599,7 +4368,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ホテルグランドレイク7つ星レストランの味に舌鼓
-    translation: "湖畔大饭店 品味七星餐厅的美味"
+    translation: 湖畔大饭店 品味七星餐厅的美味
+    scan_box:
+      - 214
+      - 1026
+      - 673
+      - 1118
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2610,6 +4385,12 @@ translation_segments:
     review_status: review
     original: ↑リッシこのほとりにあるリゾートホテル。しゃれたコテージ風の客室には、ゲームディレクターも滞在しているとか
     translation: ↑位于立志湖畔的度假酒店。在别致的木屋风格客房里，据说连游戏总监也住过
+    scan_box:
+      - 421
+      - 928
+      - 721
+      - 1004
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2620,6 +4401,12 @@ translation_segments:
     review_status: review
     original: ↓ホテルの敷地内にある「レストランなつぼし」。おじょうさまやジェントルマン御用達の高級レストランだ
     translation: ↓酒店用地内的“夏星餐厅”。这是千金小姐和绅士们常去的高级餐厅
+    scan_box:
+      - 111
+      - 666
+      - 411
+      - 752
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2630,6 +4417,12 @@ translation_segments:
     review_status: review
     original: おいしいものを たべて きもちが たかぶっている！
     translation: 吃了好吃的东西，心情很激动！
+    scan_box:
+      - 211
+      - 786
+      - 395
+      - 844
+    writing_direction: horizontal
   - speaker: 野濑大湿原 广阔湿地中还有未曾见过的宝可梦？
     type: heading
     kind: text
@@ -2640,8 +4433,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ノモセたいしつげん広大な湿地帯にまだ見ぬポケモンが？
-    translation: "野濑大湿地 广阔湿地中还有未见过的宝可梦？"
+    translation: 野濑大湿地 广阔湿地中还有未见过的宝可梦？
     comment: 野濑大湿原位于神奥地区的野濑市。
+    scan_box:
+      - 889
+      - 573
+      - 1350
+      - 666
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2652,6 +4451,12 @@ translation_segments:
     review_status: review
     original: よぉーく来たッ！！ ここノモセシティの名物だいじつげん！ ここでポケモンを捕まえて、おれ様と勝負だぁ！！
     translation: 你可算来了！！这就是野濑市的招牌大湿原！在这里抓宝可梦，然后跟本大爷一决胜负！！
+    scan_box:
+      - 1087
+      - 463
+      - 1358
+      - 553
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2662,6 +4467,12 @@ translation_segments:
     review_status: review
     original: ↑サファリゲームでポケモンたちを捕まえよう。展望台の望遠鏡をのぞくと、出てくるポケモンがおおまかにわかるぞ
     translation: ↑在狩猎游戏中捕捉宝可梦吧。从瞭望台的望远镜望去，大致能知道会出现哪些宝可梦。
+    scan_box:
+      - 760
+      - 475
+      - 1043
+      - 551
+    writing_direction: horizontal
   - speaker: 毁坏的世界　宝可梦 白金限定的不可思议世界
     type: heading
     kind: text
@@ -2672,7 +4483,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: やぶれたせかいポケモンプラチナ限定の不思議な世界
-    translation: "毁坏的世界 《宝可梦 白金》限定的不可思议世界"
+    translation: 毁坏的世界 《宝可梦 白金》限定的不可思议世界
+    scan_box:
+      - 387
+      - 567
+      - 715
+      - 659
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2683,6 +4500,12 @@ translation_segments:
     review_status: review
     original: ↑時空のゆがみから出現した奇妙な世界を探索。「ポケモンプラチナ」でしか行けない場所なのでご注意を
     translation: ↑探索从时空扭曲中出现的奇妙世界。这是只有《宝可梦 白金》才能前往的地方，请注意。
+    scan_box:
+      - 437
+      - 479
+      - 721
+      - 553
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -2693,6 +4516,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p080_best3_mountains_routes_buildings.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.80
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: Nintendo DREAM编辑部以独断与偏见选出！！
     type: heading
     kind: text
@@ -2704,6 +4529,12 @@ translation_segments:
     review_status: review
     original: "ニンドリ編集部が独断と偏見で選ぶ!!"
     translation: "Nintendo DREAM编辑部以独断与偏见选出!!"
+    scan_box:
+      - 366
+      - 137
+      - 799
+      - 254
+    writing_direction: horizontal
   - speaker: 五大地方万事通 BEST 3
     type: heading
     kind: text
@@ -2714,7 +4545,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 5大地方なんでもベスト3
-    translation: "五大地区全类别BEST 3"
+    translation: 五大地区全类别BEST 3
+    scan_box:
+      - 78
+      - 246
+      - 1209
+      - 684
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2725,6 +4562,12 @@ translation_segments:
     review_status: review
     original: ここからはちょっと趣向を変え、テーマ別に5大地方の見どころをピックアップ。編集部の独断と偏見で、テーマ別の見どころベスト3を決めちゃいました！
     translation: 接下来稍微换个角度，按主题挑选五大地方的看点。编辑部以独断与偏见，决定了各主题看点的BEST 3！
+    scan_box:
+      - 999
+      - 211
+      - 1355
+      - 348
+    writing_direction: horizontal
   - speaker: 瀑布
     type: heading
     kind: text
@@ -2735,7 +4578,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 滝
-    translation: "瀑布"
+    translation: 瀑布
+    scan_box:
+      - 61
+      - 676
+      - 226
+      - 866
+    writing_direction: horizontal
   - speaker: 能感受到男儿浪漫的名瀑布们
     type: heading
     kind: text
@@ -2746,7 +4595,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 男のロマンを感じる名瀑布たち
-    translation: "令人感受男儿浪漫的名瀑布们"
+    translation: 令人感受男儿浪漫的名瀑布们
+    scan_box:
+      - 252
+      - 690
+      - 882
+      - 748
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2757,6 +4612,23 @@ translation_segments:
     review_status: review
     original: 水煙を上げながら流れ落ちる、豪快な滝…。「たきのぼり」を持たない冒険者を阻む壁であるとともに、新たな世界への入り口ともなる存在だ。そんな数々の滝の中から、最も印象的なものを5つ紹介！　大きさだけでなく美しさやレア度など、さまざまな観点から選んでみたぞ。
     translation: 溅起水雾倾泻而下的豪爽瀑布……它既是阻挡没有“攀瀑”的冒险者的壁垒，也是通往新世界的入口。在众多瀑布中，介绍最令人印象深刻的5处！不仅看大小，还从美感、稀有度等各种角度进行了挑选。
+    scan_box:
+      - 248
+      - 770
+      - 555
+      - 881
+    scan_boxes:
+      - 
+        - 248
+        - 770
+        - 555
+        - 881
+      - 
+        - 586
+        - 772
+        - 895
+        - 883
+    writing_direction: horizontal
   - speaker: 说到瀑布迷就是麦可……不，是极限假面！
     type: heading
     kind: text
@@ -2767,7 +4639,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "滝マニアといえばマキシさん…いや、マキシマム仮面!"
-    translation: "说到瀑布狂热者就是吉宪先生……不，是吉宪假面！"
+    translation: 说到瀑布狂热者就是吉宪先生……不，是吉宪假面！
+    scan_box:
+      - 943
+      - 702
+      - 1338
+      - 797
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2778,6 +4656,12 @@ translation_segments:
     review_status: review
     original: ←ジョウト地方のある滝の前に、シンオウ地方出身のマキシが登場！
     translation: ←在城都地方的某处瀑布前，出身神奥地方的麦可登场！
+    scan_box:
+      - 1287
+      - 811
+      - 1335
+      - 1087
+    writing_direction: vertical
   - speaker: note
     type: paragraph
     kind: text
@@ -2789,6 +4673,12 @@ translation_segments:
     original: だいはくりょくで ながれおちる きょだいな たきが よくにあう
     translation: 气势磅礴、飞流直下的巨大瀑布，与它十分相称。
     comment: 气势磅礴地倾泻而下的巨大瀑布，十分相称。
+    scan_box:
+      - 947
+      - 1004
+      - 1271
+      - 1075
+    writing_direction: horizontal
   - speaker: 第1名 毁坏的世界之瀑 神奥地区（仅《宝可梦 白金》）
     type: heading
     kind: text
@@ -2799,8 +4689,14 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1位 やぶれたせかいの滝 シンオウ地方 （『ポケモンプラチナ』のみ）
-    translation: "第1名 毁坏的世界的瀑布 神奥地区 （仅《宝可梦 白金》）"
+    translation: 第1名 毁坏的世界的瀑布 神奥地区 （仅《宝可梦 白金》）
     comment: 毁坏的世界是《宝可梦 白金》中骑拉帝纳栖居的异空间。
+    scan_box:
+      - 103
+      - 887
+      - 889
+      - 948
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2811,6 +4707,12 @@ translation_segments:
     review_status: review
     original: ←1位は驚天動地、物理法則を無視したこの滝！「やぶれたせかい」でしかありえない、天地を貫く巨大な滝だ。ギラティナ（オリジンフォルム）戦を終えると見られなくなるので、レア度も高いぞ
     translation: ←第1名是惊天动地、无视物理法则的这道瀑布！只有在“毁坏的世界”里才可能存在，是贯穿天地的巨大瀑布。与骑拉帝纳（起源形态）的战斗结束后就再也看不到了，稀有度也很高。
+    scan_box:
+      - 530
+      - 963
+      - 886
+      - 1075
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2821,6 +4723,12 @@ translation_segments:
     review_status: review
     original: ←逆さまの滝つぼから「なみのり」で滝に乗る。まさに不思議体験！
     translation: ←从倒悬的瀑布潭用“冲浪”乘上瀑布。正是不可思议的体验！
+    scan_box:
+      - 843
+      - 1075
+      - 892
+      - 1329
+    writing_direction: vertical
   - speaker: 第2名 漩涡列岛之瀑 城都地区
     type: heading
     kind: text
@@ -2831,8 +4739,14 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2位 うずまきじまの滝 ジョウト地方
-    translation: "第2名 漩涡岛的瀑布 城都地区"
+    translation: 第2名 漩涡岛的瀑布 城都地区
     comment: 漩涡列岛是城都地区西南部的群岛。
+    scan_box:
+      - 93
+      - 1333
+      - 597
+      - 1438
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2843,6 +4757,12 @@ translation_segments:
     review_status: review
     original: ↑伝説のポケモン・ルギアが潜むうずまきじま。最深部には、地底であることを忘れさせる巨大な滝がある。滝の裏からルギアが登場する瞬間を見逃すな！
     translation: ↑传说宝可梦洛奇亚潜藏的漩涡列岛。在最深处，有一道让人忘记身处地底的巨大瀑布。不要错过洛奇亚从瀑布背后登场的那一瞬间！
+    scan_box:
+      - 85
+      - 1692
+      - 473
+      - 1800
+    writing_direction: horizontal
   - speaker: 第3名 都城瀑布 关都地区
     type: heading
     kind: text
@@ -2853,7 +4773,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3位 トージョウのたき カントー地方
-    translation: "第3名 都城瀑布 关都地区"
+    translation: 第3名 都城瀑布 关都地区
+    scan_box:
+      - 513
+      - 1346
+      - 882
+      - 1438
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2864,6 +4790,23 @@ translation_segments:
     review_status: review
     original: ←ジョウトとカントーを結ぶ。滝の裏を通れるのだ→滝の裏には謎の小部屋がある。残されたラジオは、ある男の野望の痕跡か…
     translation: ←连接城都与关都。可以从瀑布背后穿过→瀑布背后有一间神秘的小屋。留下的收音机，是某个男人野心的痕迹吗……
+    scan_box:
+      - 794
+      - 1475
+      - 883
+      - 1563
+    scan_boxes:
+      - 
+        - 794
+        - 1475
+        - 883
+        - 1563
+      - 
+        - 505
+        - 1645
+        - 605
+        - 1792
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -2874,6 +4817,12 @@ translation_segments:
     review_status: review
     original: ならない ラジオが ある……
     translation: 有一台坏掉的收音机……
+    scan_box:
+      - 618
+      - 1731
+      - 872
+      - 1778
+    writing_direction: horizontal
   - speaker: 番外 流星瀑布 丰缘地区
     type: heading
     kind: text
@@ -2884,7 +4833,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 番外 りゅうせいのたき ホウエン地方
-    translation: "番外 流星瀑布 丰缘地区"
+    translation: 番外 流星瀑布 丰缘地区
+    scan_box:
+      - 933
+      - 1348
+      - 1268
+      - 1452
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2895,6 +4850,12 @@ translation_segments:
     review_status: review
     original: ←ホウエン地方にあるりゅうせいのたき。鍾乳洞のような複雑な地形が見ものだ
     translation: ←位于丰缘地区的流星瀑布。如钟乳洞般复杂的地形值得一看。
+    scan_box:
+      - 1161
+      - 1483
+      - 1321
+      - 1571
+    writing_direction: horizontal
   - speaker: 番外 彩悠市之瀑 丰缘地区
     type: heading
     kind: text
@@ -2905,7 +4866,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 番外 サイユウシティの滝 ホウエン地方
-    translation: "番外 彩悠市的瀑布 丰缘地区"
+    translation: 番外 彩悠市的瀑布 丰缘地区
+    scan_box:
+      - 930
+      - 1581
+      - 1315
+      - 1675
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2916,6 +4883,12 @@ translation_segments:
     review_status: review
     original: →ポケモンリーグの直前には、挑戦者を阻むためか、滝が多く見られる。最後の決戦に向けて登る滝は、ひときわ勇壮に見えるのかも
     translation: →在宝可梦联盟之前，或许是为了阻挡挑战者，可以看到许多瀑布。为最后的决战而攀登的瀑布，看起来或许格外雄壮。
+    scan_box:
+      - 922
+      - 1665
+      - 1315
+      - 1802
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -2926,6 +4899,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p081_best3_views_dangers_gourmet.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.81
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 不能忘记买伴手礼，当地名产有哪些？
     type: heading
     kind: text
@@ -2936,7 +4911,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: おみやげ忘れず買いたい名物は？
-    translation: "不要忘记购买的名产伴手礼是？"
+    translation: 不要忘记购买的名产伴手礼是？
+    scan_box:
+      - 410
+      - 1708
+      - 854
+      - 1835
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2947,6 +4928,12 @@ translation_segments:
     review_status: review
     original: 旅といえば、やはりお土産は欠かせないところ。ここでは、各地方を代表するお菓子を紹介！ 順位の決め手は…名前のインパクトかなあ。
     translation: 说到旅行，伴手礼果然是不可或缺的。这里介绍各地方具有代表性的点心！排名的决定因素……大概是名字的冲击力吧。
+    scan_box:
+      - 140
+      - 1663
+      - 794
+      - 1704
+    writing_direction: horizontal
   - speaker: 第1名 愤怒馒头
     type: heading
     kind: text
@@ -2957,7 +4944,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1位 いかりまんじゅう
-    translation: "第1名 愤怒馒头"
+    translation: 第1名 愤怒馒头
+    scan_box:
+      - 164
+      - 1581
+      - 481
+      - 1642
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -2968,6 +4961,12 @@ translation_segments:
     review_status: review
     original: →チョウジタウン名物。道をふさいでいるおじさんに売りつけられるが、買ってもどいてくれなぞ
     translation: →卡吉镇名产。会被堵住路的大叔强行推销，但就算买了也不肯让开。
+    scan_box:
+      - 153
+      - 1458
+      - 620
+      - 1532
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2978,6 +4977,12 @@ translation_segments:
     review_status: review
     original: ジョウト地方
     translation: 城都地区
+    scan_box:
+      - 171
+      - 1544
+      - 290
+      - 1573
+    writing_direction: horizontal
   - speaker: 第2名 森之羊羹
     type: heading
     kind: text
@@ -2988,7 +4993,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2位 もりのヨウカン
-    translation: "第2名 森之羊羹"
+    translation: 第2名 森之羊羹
+    scan_box:
+      - 243
+      - 1376
+      - 524
+      - 1425
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -2999,6 +5010,12 @@ translation_segments:
     review_status: review
     original: シンオウ地方
     translation: 神奥地区
+    scan_box:
+      - 220
+      - 1339
+      - 339
+      - 1368
+    writing_direction: horizontal
   - speaker: 第3名 釜炎仙贝
     type: heading
     kind: text
@@ -3009,7 +5026,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3位 フエンせんべい
-    translation: "第3名 釜炎仙贝"
+    translation: 第3名 釜炎仙贝
   - speaker: body
     type: paragraph
     kind: text
@@ -3020,6 +5037,12 @@ translation_segments:
     review_status: review
     original: "→えんとつやまで買える「フエンせんべい」。小さなハリがアクセントだ。ポケモンの状態異常を回復する効果があるもののようなんで拾える「もののヨウカン」。…ダジャレかよ!!"
     translation: →在烟囱山可以买到的“釜炎仙贝”。上面撒的小颗粒是点睛之笔。还有能治愈宝可梦异常状态、掉在地上也能捡到的“森之羊羹”。……这是谐音梗吗！！
+    scan_box:
+      - 214
+      - 1090
+      - 817
+      - 1163
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3040,7 +5063,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゲームコーナーポケモンのスロットに挑戦しよう！
-    translation: "挑战游戏城宝可梦的老虎机吧！"
+    translation: 挑战游戏城宝可梦的老虎机吧！
+    scan_box:
+      - 135
+      - 1663
+      - 582
+      - 1835
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3051,6 +5080,12 @@ translation_segments:
     review_status: review
     original: スロットなどが遊べるゲームコーナーは各地にあるが、遊べるゲームは地方によってさまざま。コインを増やして、豪華景品をもらっちゃおう！
     translation: 可以玩老虎机等游戏的电玩城各地都有，但能玩的游戏因地区而异。增加硬币，领取豪华奖品吧！
+    scan_box:
+      - 135
+      - 1622
+      - 588
+      - 1696
+    writing_direction: horizontal
   - speaker: 第1名 紫堇游戏城
     type: heading
     kind: text
@@ -3061,7 +5096,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1位 キンセツゲームコーナー
-    translation: "第1名 紫堇游戏城"
+    translation: 第1名 紫堇游戏城
+    scan_box:
+      - 148
+      - 1561
+      - 460
+      - 1622
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3072,6 +5113,12 @@ translation_segments:
     review_status: review
     original: →スロットが遊べるのは、ほかの地方のゲームコーナーと同じだが…
     translation: →能玩老虎机这一点，和其他地区的电玩城一样，不过……
+    scan_box:
+      - 148
+      - 1491
+      - 455
+      - 1532
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3082,6 +5129,12 @@ translation_segments:
     review_status: review
     original: ホウエン地方
     translation: 丰缘地区
+    scan_box:
+      - 153
+      - 1561
+      - 272
+      - 1593
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3092,6 +5145,12 @@ translation_segments:
     review_status: review
     original: "←ここではルーレットも遊べるのだ!! 合わせ技一本で1位に認定！"
     translation: ←这里还能玩轮盘！！综合两项，认定为第1名！
+    scan_box:
+      - 140
+      - 1266
+      - 487
+      - 1327
+    writing_direction: horizontal
   - speaker: 第2名 帷幕游戏城
     type: heading
     kind: text
@@ -3102,7 +5161,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2位 トバリ ゲームコーナー
-    translation: "第2名 帷幕游戏城"
+    translation: 第2名 帷幕游戏城
+    scan_box:
+      - 148
+      - 1212
+      - 455
+      - 1266
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3113,6 +5178,12 @@ translation_segments:
     review_status: review
     original: →「しあわせならべ」は、せりたのみとベトベターを揃えると大量コインゲット。ボーナスゲームでは「ピッピにんぎょう」。ボタンを押すタイミングが難しいが、せりたのみを揃えてドーン
     translation: →“幸福配对”中，凑齐赛莉塔果和臭泥就能获得大量硬币。奖励游戏里是“皮皮玩偶”。按键时机很难掌握，但凑齐赛莉塔果就能大赚一笔。
+    scan_box:
+      - 140
+      - 864
+      - 432
+      - 1171
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3123,6 +5194,12 @@ translation_segments:
     review_status: review
     original: シンオウ地方
     translation: 神奥地区
+    scan_box:
+      - 148
+      - 1212
+      - 266
+      - 1245
+    writing_direction: horizontal
   - speaker: 第3名 满金游戏城
     type: heading
     kind: text
@@ -3133,7 +5210,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3位 コガネ ゲームコーナー
-    translation: "第3名 满金游戏城"
+    translation: 第3名 满金游戏城
+    scan_box:
+      - 148
+      - 1192
+      - 455
+      - 1245
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3154,6 +5237,12 @@ translation_segments:
     review_status: review
     original: ジョウト地方
     translation: 城都地区
+    scan_box:
+      - 127
+      - 1221
+      - 246
+      - 1253
+    writing_direction: horizontal
   - speaker: 登山途中纵然危险，只要山还在那里……
     type: heading
     kind: text
@@ -3164,7 +5253,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 登山道中は危険でも そこに山がある限り…
-    translation: "登山道中即便危险 只要那里有山…"
+    translation: 登山道中即便危险 只要那里有山…
+    scan_box:
+      - 799
+      - 680
+      - 1251
+      - 811
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3175,6 +5270,12 @@ translation_segments:
     review_status: review
     original: 各地方を代表する山は、強いポケモンやトレーナーが待ち受けていることが多い。上級トレーナー向けの厳選登山ガイドをお届け！
     translation: 代表各地方的山，往往有强大的宝可梦和训练家在等着你。这里为上级训练家送上精选登山指南！
+    scan_box:
+      - 794
+      - 618
+      - 1132
+      - 688
+    writing_direction: horizontal
   - speaker: 第1位 白银山
     type: heading
     kind: text
@@ -3185,7 +5286,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1位 シロガネやま
-    translation: "第1名 白银山"
+    translation: 第1名 白银山
+    scan_box:
+      - 799
+      - 496
+      - 1106
+      - 557
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3196,6 +5303,12 @@ translation_segments:
     review_status: review
     original: →シロガネやまの内部は、複雑かつ広大な天然の迷路になっている。奥には伝説のポケモン・ファイヤーも
     translation: →白银山内部是一座复杂而广阔的天然迷宫。深处还有传说的宝可梦——火焰鸟。
+    scan_box:
+      - 799
+      - 373
+      - 1127
+      - 446
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3206,6 +5319,12 @@ translation_segments:
     review_status: review
     original: カントー地方
     translation: 关都地方
+    scan_box:
+      - 794
+      - 467
+      - 912
+      - 496
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3216,6 +5335,12 @@ translation_segments:
     review_status: review
     original: →苦難の道のりを越えて頂上に辿り着くと、そこには男の子が。登頂の喜びを分かち合おうと話しかけてみると、最強のトレーナー・レッドとのバトルに突入！ 気をつけよう
     translation: →越过艰难的路程抵达山顶后，那里有一个男孩。想与他分享登顶的喜悦而搭话，就会进入与最强训练家·赤红的对战！要小心。
+    scan_box:
+      - 799
+      - 209
+      - 1127
+      - 365
+    writing_direction: horizontal
   - speaker: 第2位 天冠山
     type: heading
     kind: text
@@ -3226,7 +5351,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2位 テンガンざん
-    translation: "第2名 天冠山"
+    translation: 第2名 天冠山
+    scan_box:
+      - 214
+      - 741
+      - 521
+      - 803
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3237,6 +5368,12 @@ translation_segments:
     review_status: review
     original: →「ハード」で難易度が急激にアップ
     translation: →在“困难”难度下难度会急剧上升。
+    scan_box:
+      - 220
+      - 549
+      - 313
+      - 721
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3247,6 +5384,12 @@ translation_segments:
     review_status: review
     original: シンオウ地方
     translation: 神奥地方
+    scan_box:
+      - 220
+      - 700
+      - 339
+      - 729
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3257,6 +5400,12 @@ translation_segments:
     review_status: review
     original: いわはだが ゴツゴツしている…… ロッククライムを つかいますか？
     translation: 岩石表面凹凸不平……要使用攀岩吗？
+    scan_box:
+      - 180
+      - 496
+      - 521
+      - 537
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3267,6 +5416,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 252
+      - 475
+      - 371
+      - 496
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3277,6 +5432,12 @@ translation_segments:
     review_status: review
     original: アカギ『このときを まっていたぞ ディアルガに パルキアよ
     translation: 赤日：“我一直在等这一刻，帝牙卢卡、帕路奇亚。”
+    scan_box:
+      - 171
+      - 557
+      - 515
+      - 618
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3287,6 +5448,12 @@ translation_segments:
     review_status: review
     original: screen
     translation: 屏幕
+    scan_box:
+      - 171
+      - 524
+      - 252
+      - 537
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3298,6 +5465,12 @@ translation_segments:
     original: →頂上にある「やりのはしら」では大変な事態が！ 気をつけよう
     translation: →在顶端的“枪之柱”会发生严重事态！要小心
     comment: 枪之柱是神奥地区天冠山顶的场所。
+    scan_box:
+      - 153
+      - 455
+      - 466
+      - 516
+    writing_direction: horizontal
   - speaker: 第3名 送神山
     type: heading
     kind: text
@@ -3308,7 +5481,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3位 おくりびやま
-    translation: "第3名 送神山"
+    translation: 第3名 送神山
+    scan_box:
+      - 164
+      - 393
+      - 472
+      - 455
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3319,6 +5498,12 @@ translation_segments:
     review_status: review
     original: →ホウエン地方の霊山。アクア団とマグマ団の争いに巻き込まれないよう気をつけよう
     translation: →丰缘地区的灵山。注意不要被水舰队和熔岩队的争斗卷入
+    scan_box:
+      - 164
+      - 332
+      - 487
+      - 393
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3329,6 +5514,12 @@ translation_segments:
     review_status: review
     original: ホウエン地方
     translation: 丰缘地区
+    scan_box:
+      - 164
+      - 365
+      - 284
+      - 393
+    writing_direction: horizontal
   - speaker: 番外 严酷山
     type: heading
     kind: text
@@ -3339,7 +5530,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 番外 ハードマウンテン
-    translation: "番外 严酷山"
+    translation: 番外 严酷山
+    scan_box:
+      - 164
+      - 352
+      - 472
+      - 414
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3350,6 +5547,12 @@ translation_segments:
     review_status: review
     original: →ヒートランがいるので腕試しにどうぞ
     translation: →因为席多蓝恩在那里，可以来试试身手
+    scan_box:
+      - 171
+      - 291
+      - 481
+      - 352
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3370,6 +5573,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 209
+      - 877
+      - 327
+      - 897
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3380,6 +5589,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 209
+      - 1430
+      - 327
+      - 1450
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3390,6 +5605,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 209
+      - 446
+      - 327
+      - 467
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3400,6 +5621,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 933
+      - 877
+      - 1051
+      - 897
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3410,6 +5637,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 1005
+      - 446
+      - 1124
+      - 467
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -3420,6 +5653,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p082_best3_hotsprings_ruins_resorts.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.82
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 钓鱼
     type: heading
     kind: text
@@ -3430,7 +5665,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 釣り
-    translation: "钓鱼"
+    translation: 钓鱼
+    scan_box:
+      - 32
+      - 223
+      - 232
+      - 379
+    writing_direction: horizontal
   - speaker: 瞄准大鱼！！精选爆钓地点就在这里！
     type: heading
     kind: text
@@ -3441,7 +5682,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "狙え大物!!厳選爆釣スポットはここだ!"
-    translation: "瞄准大鱼！！精选爆钓地点就在这里！"
+    translation: 瞄准大鱼！！精选爆钓地点就在这里！
+    scan_box:
+      - 248
+      - 231
+      - 702
+      - 340
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3452,6 +5699,23 @@ translation_segments:
     review_status: review
     original: 自然と触れ合う遊びの代表といえば、なんといっても釣り！ ほかにはない珍しいポケモンが釣れる穴場や、釣り比べができるスポットを紹介していこう。これを読めば、君も釣り人の仲間入り！
     translation: 说到与自然接触的游玩代表，那当然非钓鱼莫属！下面就来介绍能钓到其他地方没有的稀有宝可梦的隐藏地点，以及可以互相比赛钓鱼的地点。读完这些，你也来加入钓鱼人的行列吧！
+    scan_box:
+      - 110
+      - 360
+      - 385
+      - 444
+    scan_boxes:
+      - 
+        - 110
+        - 360
+        - 385
+        - 444
+      - 
+        - 420
+        - 360
+        - 695
+        - 444
+    writing_direction: horizontal
   - speaker: 第1位 在名胜区钓霸主 神奥地区
     type: heading
     kind: text
@@ -3462,7 +5726,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 1位 リゾートエリアでヌシ釣り シンオウ地方
-    translation: "第1名 在名胜区钓霸主 神奥地区"
+    translation: 第1名 在名胜区钓霸主 神奥地区
+    scan_box:
+      - 98
+      - 467
+      - 698
+      - 518
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -3473,6 +5743,12 @@ translation_segments:
     review_status: review
     original: （『ポケモンプラチナ』のみ）
     translation: （仅限《宝可梦 白金》）
+    scan_box:
+      - 449
+      - 522
+      - 692
+      - 549
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3483,6 +5759,12 @@ translation_segments:
     review_status: review
     original: ←リゾートエリアの池には、ヌシが住んでいるという。ちなみにヌシの出る池は『ポケモンプラチナ』にしかないのでご注意を
     translation: ←据说名胜区的池塘里住着霸主。顺带一提，会出现霸主的池塘只有《宝可梦 白金》里才有，请注意
+    scan_box:
+      - 449
+      - 555
+      - 695
+      - 651
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3493,6 +5775,12 @@ translation_segments:
     review_status: review
     original: だれも しんじてくれないけどリゾートエリアには ヌシが いる！
     translation: 虽然谁都不肯相信，但名胜区里确实有霸主！
+    scan_box:
+      - 110
+      - 737
+      - 429
+      - 788
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3503,6 +5791,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 98
+      - 793
+      - 182
+      - 809
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3513,6 +5807,12 @@ translation_segments:
     review_status: review
     original: "→こんな小さな池に本当にヌシがいるのか？ しかも釣れるのはコイキングばかりじゃないか！ いやいや、本当にいるんです！ 超高レベル、究極のコイキングをねらえ!!"
     translation: →这么小的池塘里真的会有霸主吗？而且钓上来的净是鲤鱼王嘛！不不，真的有的！去瞄准超高等级、究极的鲤鱼王吧！！
+    scan_box:
+      - 98
+      - 819
+      - 385
+      - 942
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3523,6 +5823,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 356
+      - 926
+      - 440
+      - 942
+    writing_direction: horizontal
   - speaker: 第2位 挑战钓笨笨鱼 神奥地区 丰缘地区
     type: heading
     kind: text
@@ -3533,7 +5839,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 2位 ヒンバス釣りに挑戦 シンオウ地方 ホウエン地方
-    translation: "第2名 挑战钓丑丑鱼 神奥地区 丰缘地区"
+    translation: 第2名 挑战钓丑丑鱼 神奥地区 丰缘地区
+    scan_box:
+      - 736
+      - 231
+      - 1352
+      - 291
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3544,6 +5856,12 @@ translation_segments:
     review_status: review
     original: ポケモンを つりあげた！
     translation: 钓上了宝可梦！
+    scan_box:
+      - 1072
+      - 444
+      - 1193
+      - 465
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3554,6 +5872,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 736
+      - 512
+      - 820
+      - 528
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3565,6 +5889,12 @@ translation_segments:
     original: ↑シンオウ地方でヒンバスが釣れるのは、テンガンざんの地下湖のみだ
     translation: ↑在神奥地区，能钓到笨笨鱼的地方只有天冠山的地下湖
     comment: 天冠山即テンガンざん，是神奥地区的中央山脉。
+    scan_box:
+      - 736
+      - 537
+      - 1019
+      - 578
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3575,6 +5905,12 @@ translation_segments:
     review_status: review
     original: ↑ホウエン地方は119ばんどうろ。ただし、どちらもヒンバスが釣れるポイントは数か所のみのなので、かなり大変だ
     translation: ↑丰缘地区是119号道路。不过两处能钓到笨笨鱼的地点都只有几处，相当费劲
+    scan_box:
+      - 1043
+      - 512
+      - 1326
+      - 578
+    writing_direction: horizontal
   - speaker: 第3名 愤怒之湖 城都地区
     type: heading
     kind: text
@@ -3585,7 +5921,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 3位 いかりのみずうみ ジョウト地方
-    translation: "第3名 愤怒之湖 城都地区"
+    translation: 第3名 愤怒之湖 城都地区
+    scan_box:
+      - 736
+      - 594
+      - 1106
+      - 651
+    writing_direction: horizontal
   - speaker: 番外 222号道路 神奥地区
     type: heading
     kind: text
@@ -3596,7 +5938,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 222ばんどうろ シンオウ地方
-    translation: "番外 222号道路 神奥地区"
+    translation: 番外 222号道路 神奥地区
+    scan_box:
+      - 1043
+      - 594
+      - 1326
+      - 651
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3607,6 +5955,12 @@ translation_segments:
     review_status: review
     original: キミも コイキングを もっていたら
     translation: 你要是也有鲤鱼王
+    scan_box:
+      - 753
+      - 819
+      - 1014
+      - 840
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3617,6 +5971,12 @@ translation_segments:
     review_status: review
     original: つれてきて みせて くれたまえ
     translation: 就带来给我看看吧
+    scan_box:
+      - 753
+      - 844
+      - 1014
+      - 864
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3627,6 +5987,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 736
+      - 870
+      - 820
+      - 887
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3637,6 +6003,12 @@ translation_segments:
     review_status: review
     original: ↑民家では、釣ったコイキングの大きさ比べができる。記録更新を目指せ！
     translation: ↑在民家可以比一比钓到的鲤鱼王的大小。以刷新纪录为目标吧！
+    scan_box:
+      - 736
+      - 895
+      - 1019
+      - 942
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3647,6 +6019,12 @@ translation_segments:
     review_status: review
     original: い いったい どれだけ
     translation: 到、到底是有多大
+    scan_box:
+      - 1060
+      - 819
+      - 1309
+      - 840
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3657,6 +6035,12 @@ translation_segments:
     review_status: review
     original: "おおきい テッポウオ なんだー!?"
     translation: 的铁炮鱼啊！？
+    scan_box:
+      - 1060
+      - 844
+      - 1309
+      - 864
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3667,6 +6051,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1043
+      - 870
+      - 1127
+      - 887
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3677,6 +6067,12 @@ translation_segments:
     review_status: review
     original: ↑ここでも大きさ比べができるが、比べるポケモンはテッポウオになる
     translation: ↑这里也能比大小，不过用来比较的宝可梦是铁炮鱼
+    scan_box:
+      - 1043
+      - 895
+      - 1326
+      - 942
+    writing_direction: horizontal
   - speaker: 自行车 迎风飞驰！推荐的自行车道
     type: heading
     kind: text
@@ -3687,7 +6083,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "自転車 風を切れ! おすすめサイクリングロード"
-    translation: "自行车 破风前行！推荐自行车道"
+    translation: 自行车 破风前行！推荐自行车道
+    scan_box:
+      - 38
+      - 987
+      - 909
+      - 1143
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3698,6 +6100,23 @@ translation_segments:
     review_status: review
     original: 旅で重宝する乗りものといえば、なんといっても自転車。各地方には、気持ちよく走れるサイクリングロードが用意されている。各地のサイクリングロードを比較してみよう。同じように見えて、意外と個性がある？
     translation: 说到旅途中不可或缺的交通工具，那当然就是自行车。各个地区都准备了能让人畅快骑行的自行车道。来比较一下各地的自行车道吧。看上去差不多，其实意外地各有特色？
+    scan_box:
+      - 255
+      - 1077
+      - 562
+      - 1167
+    scan_boxes:
+      - 
+        - 255
+        - 1077
+        - 562
+        - 1167
+      - 
+        - 591
+        - 1077
+        - 895
+        - 1167
+    writing_direction: horizontal
   - speaker: 第1名 110号道路自行车道 丰缘地区
     type: heading
     kind: text
@@ -3708,7 +6127,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 1位 110ばんどうろサイクリングロード ホウエン地方
-    translation: "第1名 110号道路自行车道 丰缘地区"
+    translation: 第1名 110号道路自行车道 丰缘地区
+    scan_box:
+      - 98
+      - 1180
+      - 837
+      - 1233
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3719,6 +6144,12 @@ translation_segments:
     review_status: review
     original: →ホウエンのサイクリングロードは、直角コーナーが連続するサーキット風の作り
     translation: →丰缘的自行车道是直角弯道接连不断的赛道风格
+    scan_box:
+      - 93
+      - 1245
+      - 119
+      - 1417
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3729,6 +6160,12 @@ translation_segments:
     review_status: review
     original: "かかった タイム…… 14.06びょう!"
     translation: 所用时间……14.06秒！
+    scan_box:
+      - 542
+      - 1376
+      - 681
+      - 1417
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3739,6 +6176,12 @@ translation_segments:
     review_status: review
     original: ←出口では、入り口からのタイムを教えてくれる。タイムアタックが楽しめるのだ
     translation: ←在出口处会告知从入口起算的时间。可以享受计时挑战
+    scan_box:
+      - 825
+      - 1245
+      - 851
+      - 1417
+    writing_direction: vertical
   - speaker: 第2名 206号道路自行车道 神奥地区
     type: heading
     kind: text
@@ -3749,7 +6192,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 2位 206ばんどうろサイクリングロード シンオウ地方
-    translation: "第2名 206号道路自行车道 神奥地区"
+    translation: 第2名 206号道路自行车道 神奥地区
+    scan_box:
+      - 98
+      - 1470
+      - 489
+      - 1540
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3760,6 +6209,12 @@ translation_segments:
     review_status: review
     original: →立体交差になっている。陰になっている部分に洞くつの入り口があるぞ
     translation: →是立体交叉。背阴的部分有洞窟的入口
+    scan_box:
+      - 93
+      - 1548
+      - 119
+      - 1810
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3770,6 +6225,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 151
+      - 1794
+      - 235
+      - 1810
+    writing_direction: horizontal
   - speaker: 第3名 17号道路自行车道 关都地区
     type: heading
     kind: text
@@ -3780,7 +6241,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 3位 17ばんどうろサイクリングロード カントー地方
-    translation: "第3名 17号道路自行车道 关都地区"
+    translation: 第3名 17号道路自行车道 关都地区
+    scan_box:
+      - 507
+      - 1470
+      - 895
+      - 1540
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3791,6 +6258,12 @@ translation_segments:
     review_status: review
     original: →ほうそうきょくがたたずむしているので、ちょっと怖い…かも
     translation: →广播局伫立在那里，所以可能有点可怕……
+    scan_box:
+      - 507
+      - 1548
+      - 533
+      - 1810
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -3801,6 +6274,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 559
+      - 1794
+      - 643
+      - 1810
+    writing_direction: horizontal
   - speaker: 自行车小知识
     type: heading
     kind: text
@@ -3811,7 +6290,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 自転車豆知識
-    translation: "自行车小知识"
+    translation: 自行车小知识
+    scan_box:
+      - 944
+      - 987
+      - 1211
+      - 1053
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3822,6 +6307,12 @@ translation_segments:
     review_status: review
     original: 一口に自転車といっても、地方によっていろいろな種類がある。ほかの地方に遊びにいったときに戸惑わないよう、各地方の自転車の特徴を簡単にまとめておこう。
     translation: 虽说都叫自行车，但不同地区有各种各样的种类。为了到其他地区游玩时不至于困惑，这里简单总结一下各地区自行车的特征。
+    scan_box:
+      - 938
+      - 1077
+      - 1332
+      - 1188
+    writing_direction: horizontal
   - speaker: 能顺畅骑行的关都・城都型
     type: heading
     kind: text
@@ -3832,7 +6323,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 素直に走れるカントー・ジョウト型
-    translation: "能顺畅骑行的关都·城都型"
+    translation: 能顺畅骑行的关都·城都型
+    scan_box:
+      - 938
+      - 1212
+      - 1321
+      - 1249
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3843,6 +6340,12 @@ translation_segments:
     review_status: review
     original: カントーとジョウトの自転車は、ギアチェンジなどのないシンプルなもの。ちなみに、草むらを自転車で走ると野生のポケモンが出やすくなるぞ。
     translation: 关都和城都的自行车，是没有换档之类的简单款式。顺带一提，骑自行车穿过草丛时，野生宝可梦会更容易出现。
+    scan_box:
+      - 956
+      - 1274
+      - 1222
+      - 1360
+    writing_direction: horizontal
   - speaker: 可以换档的神奥型
     type: heading
     kind: text
@@ -3853,7 +6356,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ギアチェンジできるシンオウ型
-    translation: "可以换档的神奥型"
+    translation: 可以换档的神奥型
+    scan_box:
+      - 938
+      - 1384
+      - 1321
+      - 1421
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3864,6 +6373,12 @@ translation_segments:
     review_status: review
     original: シンオウの自転車は、Bボタンを押すことで2段階のギアチェンジができる。高速は操作が難しくなるが、流れる砂の坂を登ることができるのだ。
     translation: 神奥的自行车，按下B键可以进行两段换档。高速时操作会变难，但能够爬上流沙坡。
+    scan_box:
+      - 938
+      - 1446
+      - 1222
+      - 1532
+    writing_direction: horizontal
   - speaker: 分骑两种的丰缘型
     type: heading
     kind: text
@@ -3874,7 +6389,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2種類を乗り分けるホウエン型
-    translation: "分骑2种的丰缘型"
+    translation: 分骑2种的丰缘型
+    scan_box:
+      - 938
+      - 1556
+      - 1321
+      - 1593
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3885,6 +6406,12 @@ translation_segments:
     review_status: review
     original: ホウエンには「マッハじてんしゃ」と「ダートじてんしゃ」という、2種類の自転車がある。「マッハじてんしゃ」は最高速度が自慢で、流れる砂の坂や崩れる床を駆け抜けられる。「ダートじてんしゃ」は速度はそこそこだが、石段を登ったり一本橋を渡ったりできるぞ。状況に合わせて乗り換えることで、ホウエン中をくまなく冒険できるのだ。
     translation: 丰缘有“音速自行车”和“越野自行车”两种自行车。“音速自行车”以最高速度为傲，能够冲过流沙坡和崩塌的地板。“越野自行车”速度一般，但能够登上石阶、通过独木桥。根据情况换乘，就能在丰缘全境无微不至地冒险。
+    scan_box:
+      - 938
+      - 1618
+      - 1222
+      - 1810
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -3895,6 +6422,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p083_best3_transport_battle_halls.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.83
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: 交通工具迷大兴奋！！各地交通工具大集合
     type: heading
     kind: text
@@ -3905,7 +6434,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "乗りもの鉄ちゃん大興奮!!各地の乗りもの大集合"
-    translation: "交通工具迷大兴奋！！各地交通工具大集合"
+    translation: 交通工具迷大兴奋！！各地交通工具大集合
+    scan_box:
+      - 0
+      - 156
+      - 597
+      - 334
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3916,6 +6451,23 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』の旅は徒歩や自転車、ポケモンの「なみのり」「そらをとぶ」で移動するのが基本だが、列車や船に乗ることもある。各地の“乗りもの”にスポットライトを当ててみよう。
     translation: 《宝可梦》的旅行基本上靠步行、骑自行车，以及宝可梦的「冲浪」「飞翔」来移动，不过有时也会乘坐列车或船。让我们来聚焦一下各地的“交通工具”吧。
+    scan_box:
+      - 32
+      - 324
+      - 329
+      - 416
+    scan_boxes:
+      - 
+        - 32
+        - 324
+        - 329
+        - 416
+      - 
+        - 343
+        - 322
+        - 628
+        - 414
+    writing_direction: horizontal
   - speaker: 第1名 磁悬浮列车 关都地区 城都地区 梦幻的高速铁路！
     type: heading
     kind: text
@@ -3926,7 +6478,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "1位 リニア カントー地方 ジョウト地方 夢の高速鉄道!"
-    translation: "第1名 磁悬浮列车 关都地区 城都地区 梦幻的高速铁路！"
+    translation: 第1名 磁悬浮列车 关都地区 城都地区 梦幻的高速铁路！
+    scan_box:
+      - 32
+      - 422
+      - 482
+      - 639
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3937,6 +6495,12 @@ translation_segments:
     review_status: review
     original: "→カントーのヤマブキシティとジョウトのコガネシティを結ぶ、超高速鉄道。「リニアパス」があればいつでも乗れるし、なんといってもカッコイイ!!"
     translation: →连接关都的金黄市与城都的满金市的超高速铁路。只要有「磁悬浮列车通行证」随时都能乘坐，而且最重要的是很帅！！
+    scan_box:
+      - 32
+      - 645
+      - 174
+      - 823
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -3947,6 +6511,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 188
+      - 815
+      - 300
+      - 831
+    writing_direction: horizontal
   - speaker: 第2名 水速号 关都地区 城都地区
     type: heading
     kind: text
@@ -3957,7 +6527,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 2位 アクア号 カントー地方 ジョウト地方
-    translation: "第2名 水流号 关都地区 城都地区"
+    translation: 第2名 水流号 关都地区 城都地区
+    scan_box:
+      - 35
+      - 846
+      - 511
+      - 905
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3968,6 +6544,12 @@ translation_segments:
     review_status: review
     original: ↑カントーのクチバシティとジョウトのアサギシティを結ぶ高速船だ
     translation: ↑连接关都的枯叶市与城都的浅葱市的高速船
+    scan_box:
+      - 39
+      - 1163
+      - 326
+      - 1200
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3978,6 +6560,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 41
+      - 1126
+      - 149
+      - 1143
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -3988,6 +6576,12 @@ translation_segments:
     review_status: review
     original: "↑ジムバッジを16個集めていると、船長から貴重などうぐのプレゼントが!"
     translation: ↑集齐16个道馆徽章后，船长会赠送珍贵的道具！
+    scan_box:
+      - 343
+      - 1161
+      - 626
+      - 1198
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -3998,6 +6592,12 @@ translation_segments:
     review_status: review
     original: "ひのたまプレートを てにいれた!"
     translation: 获得了火球石板！
+    scan_box:
+      - 358
+      - 1079
+      - 555
+      - 1102
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4008,6 +6608,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 345
+      - 1124
+      - 453
+      - 1141
+    writing_direction: horizontal
   - speaker: 第3名 破浪號 丰缘地区
     type: heading
     kind: text
@@ -4018,7 +6624,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 3位 タイドリップ号 ホウエン地方
-    translation: "第3名 破浪號 丰缘地区"
+    translation: 第3名 破浪號 丰缘地区
+    scan_box:
+      - 38
+      - 1210
+      - 329
+      - 1296
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4029,6 +6641,12 @@ translation_segments:
     review_status: review
     original: ↑ホウエン地方を航行する大型船。船内ではお客さんや船員とのバトルも可能
     translation: ↑航行于丰缘地方的大型船。船上也可以与乘客和船员对战
+    scan_box:
+      - 43
+      - 1464
+      - 329
+      - 1520
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4040,6 +6658,12 @@ translation_segments:
     original: ▶ミナモシティバトルフロンティアやめる
     translation: ▶琉璃市对战开拓区 算了
     comment: 原文OCR疑有误，此处按字面译出
+    scan_box:
+      - 207
+      - 1333
+      - 311
+      - 1397
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4050,6 +6674,12 @@ translation_segments:
     review_status: review
     original: いきさは どちら でしょう?
     translation: 究竟是在哪里呢？
+    scan_box:
+      - 77
+      - 1413
+      - 242
+      - 1434
+    writing_direction: horizontal
   - speaker: 番外 索道 丰缘地方
     type: heading
     kind: text
@@ -4060,7 +6690,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 ロープウェイ ホウエン地方
-    translation: "番外 索道 丰缘地区"
+    translation: 番外 索道 丰缘地区
+    scan_box:
+      - 345
+      - 1210
+      - 634
+      - 1296
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4071,6 +6707,12 @@ translation_segments:
     review_status: review
     original: ↑えんとつやまへ登るロープウェイも、乗りものマニアには見逃せないところ
     translation: ↑通往烟囱山的索道，对交通工具爱好者来说也不容错过
+    scan_box:
+      - 345
+      - 1464
+      - 628
+      - 1516
+    writing_direction: horizontal
   - speaker: 番外 快艇号 神奥地方
     type: heading
     kind: text
@@ -4081,7 +6723,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 クイック号 シンオウ地方
-    translation: "番外 快速号 神奥地区"
+    translation: 番外 快速号 神奥地区
+    scan_box:
+      - 45
+      - 1532
+      - 329
+      - 1616
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4092,6 +6740,12 @@ translation_segments:
     review_status: review
     original: "→サファリゲームでの移動に欠かせないぞ!"
     translation: →在狩猎游戏中的移动不可或缺！
+    scan_box:
+      - 43
+      - 1593
+      - 93
+      - 1776
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4102,6 +6756,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏幕
+    scan_box:
+      - 104
+      - 1763
+      - 214
+      - 1780
+    writing_direction: horizontal
   - speaker: 番外 海马号 关都地方（仅《宝可梦FR・LG》）
     type: heading
     kind: text
@@ -4112,7 +6772,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 シーギャロップ号 カントー地方 (『ポケモンFR・LG』のみ)
-    translation: "番外 海马号 关都地区（仅《宝可梦FR·LG》）"
+    translation: 番外 海马号 关都地区（仅《宝可梦FR·LG》）
+    scan_box:
+      - 346
+      - 1522
+      - 634
+      - 1618
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4123,6 +6789,12 @@ translation_segments:
     review_status: review
     original: "←ナナシマ間とカントーを結ぶ高速船だ!"
     translation: ←连接七之岛与关都的高速船！
+    scan_box:
+      - 582
+      - 1614
+      - 631
+      - 1778
+    writing_direction: vertical
   - speaker: 对战殿堂 以最强训练家为目标，踏上无尽的战斗之旅
     type: heading
     kind: text
@@ -4133,7 +6805,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バトルの殿堂最強のトレーナーを目指し、果てなき戦いへ
-    translation: "对战殿堂 以最强训练家为目标，迈向无尽的战斗"
+    translation: 对战殿堂 以最强训练家为目标，迈向无尽的战斗
+    scan_box:
+      - 597
+      - 141
+      - 1270
+      - 338
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4144,6 +6822,23 @@ translation_segments:
     review_status: review
     original: のんびりとした観光旅行もいいが、ポケモントレーナーたるもの、やはり最高峰のバトルも体験しておきたいところ。最後に、各地方にあるバトルの殿堂をまとめて紹介しておこう。
     translation: 悠闲的观光旅行固然不错，但身为宝可梦训练家，还是想体验一下最高水平的对战。最后，就来汇总介绍一下各地方的对战殿堂。
+    scan_box:
+      - 681
+      - 319
+      - 960
+      - 410
+    scan_boxes:
+      - 
+        - 681
+        - 319
+        - 960
+        - 410
+      - 
+        - 988
+        - 317
+        - 1270
+        - 408
+    writing_direction: horizontal
   - speaker: 第1名 对战地铁 合众地区
     type: heading
     kind: text
@@ -4154,7 +6849,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 1位 バトルサブウェイ イッシュ地方
-    translation: "第1名 对战地铁 合众地区"
+    translation: 第1名 对战地铁 合众地区
+    scan_box:
+      - 683
+      - 418
+      - 1148
+      - 479
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4165,6 +6866,12 @@ translation_segments:
     review_status: review
     original: "→イッシュ地方のバトルの殿堂は、なんと地下鉄型! ルール別にさまざまな列車がある"
     translation: →合众地区的对战殿堂，竟然是地铁型！按规则分为各种列车
+    scan_box:
+      - 683
+      - 492
+      - 937
+      - 561
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4175,6 +6882,12 @@ translation_segments:
     review_status: review
     original: シングルトレイン のりば
     translation: 单打列车 站台
+    scan_box:
+      - 960
+      - 651
+      - 1158
+      - 674
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4185,6 +6898,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 688
+      - 813
+      - 796
+      - 829
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4195,6 +6914,12 @@ translation_segments:
     review_status: review
     original: "←地下鉄内でさまざまなトレーナーとバトル!! 詳細は不明だが、期待をこめて1位に認定!"
     translation: ←在地铁内与各种训练家对战！！详情不明，但满怀期待地认定为第1名！
+    scan_box:
+      - 1022
+      - 754
+      - 1273
+      - 827
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4205,6 +6930,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 944
+      - 735
+      - 1053
+      - 752
+    writing_direction: horizontal
   - speaker: 第2名 对战开拓区 神奥地区 城都地区（神奥地区仅限《宝可梦 白金》）
     type: heading
     kind: text
@@ -4215,7 +6946,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 2位 バトルフロンティア シンオウ地方 ジョウト地方(シンオウ地方は『ポケモンプラチナ』のみ)
-    translation: "第2名 对战开拓区 神奥地区 城都地区（神奥地区仅《宝可梦白金》）"
+    translation: 第2名 对战开拓区 神奥地区 城都地区（神奥地区仅《宝可梦白金》）
+    scan_box:
+      - 686
+      - 840
+      - 1308
+      - 926
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4226,6 +6963,12 @@ translation_segments:
     review_status: review
     original: ↓ルーレットで戦況が変化する「バトルルーレット」
     translation: ↓通过轮盘使战况变化的“对战轮盘”
+    scan_box:
+      - 1051
+      - 940
+      - 1270
+      - 987
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4236,6 +6979,23 @@ translation_segments:
     review_status: review
     original: ハガネール ♂Lv50HPファクトリーヘッドの ネジキは
     translation: 大钢蛇 ♂Lv50 HP 工厂头目 捩木
+    scan_box:
+      - 689
+      - 940
+      - 811
+      - 989
+    scan_boxes:
+      - 
+        - 689
+        - 940
+        - 811
+        - 989
+      - 
+        - 704
+        - 1116
+        - 941
+        - 1139
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4246,6 +7006,12 @@ translation_segments:
     review_status: review
     original: "ハガネールを くりだした!"
     translation: 派出了大钢蛇！
+    scan_box:
+      - 704
+      - 1141
+      - 896
+      - 1163
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4256,6 +7022,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 691
+      - 1186
+      - 799
+      - 1202
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4266,6 +7038,12 @@ translation_segments:
     review_status: review
     original: ソウボウさんの ポケモンが
     translation: 宗保的宝可梦
+    scan_box:
+      - 1061
+      - 1118
+      - 1254
+      - 1139
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4276,6 +7054,12 @@ translation_segments:
     review_status: review
     original: やけどの じょうたいで
     translation: 处于灼伤状态
+    scan_box:
+      - 1061
+      - 1141
+      - 1239
+      - 1161
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4286,6 +7070,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 1053
+      - 1184
+      - 1161
+      - 1200
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4296,6 +7086,12 @@ translation_segments:
     review_status: review
     original: "↑5つの施設でバトルが楽しめる。フロンティアブレーンとの対決も!"
     translation: ↑可在5个设施中享受对战。还能与开拓区首领对决！
+    scan_box:
+      - 691
+      - 1206
+      - 937
+      - 1245
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4306,6 +7102,12 @@ translation_segments:
     review_status: review
     original: パワーレンズは 16BPに
     translation: 力量镜需要16BP
+    scan_box:
+      - 954
+      - 1204
+      - 1047
+      - 1219
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4316,6 +7118,12 @@ translation_segments:
     review_status: review
     original: なりますが よろしいですか?
     translation: 这样可以吗？
+    scan_box:
+      - 954
+      - 1219
+      - 1060
+      - 1233
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4326,6 +7134,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 950
+      - 1235
+      - 1057
+      - 1249
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4336,6 +7150,12 @@ translation_segments:
     review_status: review
     original: "←ためたバトルポイントを景品と交換!"
     translation: ←用积攒的对战点数兑换奖品！
+    scan_box:
+      - 1118
+      - 1225
+      - 1238
+      - 1247
+    writing_direction: horizontal
   - speaker: 第3名 对战开拓区 丰缘地区（仅《宝可梦 绿宝石》）
     type: heading
     kind: text
@@ -4346,7 +7166,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 3位 バトルフロンティア ホウエン地方(『ポケモンエメラルド』のみ)
-    translation: "第3名 对战开拓区 丰缘地区（仅《宝可梦绿宝石》）"
+    translation: 第3名 对战开拓区 丰缘地区（仅《宝可梦绿宝石》）
+    scan_box:
+      - 688
+      - 1260
+      - 1235
+      - 1337
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4357,6 +7183,12 @@ translation_segments:
     review_status: review
     original: BATTLE FRONTIERバトルタワーバトルドームバトルパレスバトルアリーナバトルファクトリーバトルチューブバトルピラミッド
     translation: 对战开拓区 对战塔 对战巨蛋 对战宫殿 对战竞技场 对战工厂 对战管道 对战金字塔
+    scan_box:
+      - 708
+      - 1325
+      - 944
+      - 1464
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4367,6 +7199,12 @@ translation_segments:
     review_status: review
     original: けちめき ひたすら うえを めざす。
     translation: 一味地以登顶为目标。
+    scan_box:
+      - 721
+      - 1477
+      - 889
+      - 1495
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4377,6 +7215,12 @@ translation_segments:
     review_status: review
     original: さいゆうを たぬかれる。
     translation: 被夺走彩悠。
+    scan_box:
+      - 721
+      - 1497
+      - 835
+      - 1513
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4387,6 +7231,12 @@ translation_segments:
     review_status: review
     original: ↑ホウエン地方のバトルフロンティアは、施設が7つもあるのが特徴だ
     translation: ↑丰缘地区的对战开拓区，特点是拥有多达7个设施
+    scan_box:
+      - 694
+      - 1524
+      - 977
+      - 1575
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4397,6 +7247,12 @@ translation_segments:
     review_status: review
     original: トレーナー…… でしょうか……?
     translation: 是训练家……吗……？
+    scan_box:
+      - 1035
+      - 1460
+      - 1189
+      - 1479
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -4407,6 +7263,12 @@ translation_segments:
     review_status: review
     original: ひとの けはいを かんじるの ですが……
     translation: 能感觉到人的气息……
+    scan_box:
+      - 1028
+      - 1485
+      - 1229
+      - 1503
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4417,6 +7279,12 @@ translation_segments:
     review_status: review
     original: ↑施設の内容もシンオウやジョウトとは異なる。これは「バトルチューブ」
     translation: ↑设施的内容也与神奥和城都不同。这是“对战管道”。
+    scan_box:
+      - 996
+      - 1522
+      - 1289
+      - 1565
+    writing_direction: horizontal
   - speaker: 番外 训练家塔 关都地区（仅《宝可梦FR・LG》）
     type: heading
     kind: text
@@ -4427,8 +7295,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 トレーナータワー カントー地方 (『ポケモンFR・LG』のみ)
-    translation: "番外 训练家塔 关都地区（仅《宝可梦FR·LG》）"
+    translation: 番外 训练家塔 关都地区（仅《宝可梦FR·LG》）
     comment: FR・LG指《宝可梦 火红／叶绿》。
+    scan_box:
+      - 691
+      - 1579
+      - 995
+      - 1667
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -4440,6 +7314,12 @@ translation_segments:
     original: →ナナシマにしかない珍しいバトル施設「トレーナータワー」。受付から屋上に上がるまでのタイムアタックに挑戦できる。カードe+にも連動していたのだ
     translation: →只存在于七之岛的珍稀对战设施“训练家塔”。可以挑战从接待处到登上屋顶的计时赛。还曾与卡片e+联动。
     comment: 七之岛是《火红／叶绿》中新增的群岛区域。
+    scan_box:
+      - 695
+      - 1681
+      - 992
+      - 1772
+    writing_direction: horizontal
 original_title: ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド
 topics:
   - 地区设定

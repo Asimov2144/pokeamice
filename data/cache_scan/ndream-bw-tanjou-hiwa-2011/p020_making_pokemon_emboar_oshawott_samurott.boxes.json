@@ -1,0 +1,25 @@
+{
+ "width": 1547,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[441,122,701,174], [771,130,1267,176], [458,178,642,205], [660,179,702,203], [773,197,817,220], [823,189,1128,224], [1159,198,1245,219], [773,226,1123,256], [1156,218,1514,259], [772,258,1122,289], [1159,253,1514,286], [771,285,1126,322], [1163,292,1344,318], [1330,286,1512,317], [773,325,1123,354], [1159,320,1510,353], [773,354,1127,387], [1158,353,1512,384], [772,389,1016,419], [1160,386,1512,418], [767,414,1127,454], [1162,424,1251,449], [766,484,1230,533], [768,544,1125,582], [1157,544,1506,581], [774,586,1123,613], [1160,581,1509,610], [772,616,1123,645], [1161,616,1512,644], [116,653,372,706], [771,653,804,679], [1158,641,1510,681], [804,681,1125,714], [958,674,1057,691], [771,684,818,711], [1162,679,1513,709], [117,710,363,737], [770,715,1125,745], [1161,714,1513,741], [1203,710,1243,721], [1254,707,1299,721], [773,747,1125,776], [1047,743,1088,754], [1095,741,1121,755], [1160,744,1509,774], [772,780,1125,807], [1162,776,1514,807], [772,814,1122,840], [1161,812,1512,839], [1300,806,1354,816], [771,844,1122,873], [1160,843,1515,871], [1283,840,1293,848], [771,879,996,906], [1160,873,1513,904], [1159,908,1512,937], [1161,939,1514,972], [1379,937,1410,948], [1159,971,1513,1003], [1162,1006,1514,1035], [1161,1037,1368,1068], [1340,1097,1503,1154], [461,1114,728,1171], [1253,1155,1505,1184], [483,1171,731,1201], [684,1813,956,1879], [686,1876,1030,1906], [57,1956,94,1984]],
+ "regions": {
+  "p020_making_pokemon_emboar_oshawott_samurott-r71": {"boxes":[[436,119,701,201]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-h72": {"boxes":[[770,131,1264,176]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r73": {"boxes":[[770,188,1123,416]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r74": {"boxes":[[770,422,1123,444],[1160,197,1217,219]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r75": {"boxes":[[1160,227,1513,444]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r76": {"boxes":[[116,651,374,733]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-h77": {"boxes":[[770,487,1241,530]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r78": {"boxes":[[770,545,1123,672]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r79": {"boxes":[[770,680,1108,702]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r80": {"boxes":[[770,711,1123,899]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r81": {"boxes":[[1160,545,1513,1067]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r82": {"boxes":[[459,1106,729,1190]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r83": {"boxes":[[1252,1096,1502,1180]],"direction":"horizontal"},
+  "p020_making_pokemon_emboar_oshawott_samurott-r84": {"boxes":[[687,1819,1030,1903]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 23.7, "image_tokens": 3074, "completion_tokens": 479, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p020_making_pokemon_emboar_oshawott_samurott.jpg",
+ "page_file": "p020_making_pokemon_emboar_oshawott_samurott"
+}

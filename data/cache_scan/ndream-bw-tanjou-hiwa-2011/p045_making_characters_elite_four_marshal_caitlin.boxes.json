@@ -1,0 +1,27 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1083,17,1526,44], [159,147,199,157], [551,139,991,184], [580,147,593,154], [615,142,658,156], [82,150,512,180], [88,182,514,212], [555,178,989,209], [86,213,511,244], [556,215,606,242], [83,242,515,279], [571,236,953,277], [580,242,594,254], [85,279,514,309], [556,278,949,305], [85,311,514,341], [557,310,950,339], [85,343,514,374], [554,338,951,374], [85,381,138,407], [554,372,990,405], [103,409,515,439], [341,405,379,416], [392,404,416,416], [557,409,987,435], [84,440,514,472], [556,437,992,470], [85,472,511,506], [204,471,243,482], [554,470,976,503], [86,506,512,536], [554,499,939,539], [86,540,511,567], [92,538,108,547], [552,530,899,569], [87,570,514,601], [555,567,889,600], [86,602,516,635], [556,600,893,633], [87,633,516,667], [560,637,890,664], [83,662,516,701], [557,668,854,697], [85,698,517,732], [745,769,900,823], [1014,979,1444,1020], [543,990,971,1021], [545,1019,973,1054], [1017,1021,1123,1051], [1108,1018,1443,1051], [544,1053,972,1085], [644,1056,678,1063], [1017,1052,1444,1084], [1253,1048,1310,1063], [773,1089,973,1116], [1017,1082,1446,1116], [797,1121,972,1148], [1016,1114,1442,1149], [790,1149,973,1182], [1017,1156,1142,1180], [779,1179,976,1219], [1033,1178,1444,1214], [1080,1181,1110,1192], [750,1222,821,1248], [1015,1216,1443,1245], [1250,1212,1310,1226], [717,1252,973,1280], [1013,1241,1446,1284], [682,1278,974,1316], [655,1320,761,1345], [1015,1313,1442,1344], [544,1349,974,1379], [647,1344,724,1358], [1017,1341,1446,1377], [544,1374,975,1414], [551,1378,606,1391], [1017,1380,1444,1409], [544,1409,973,1445], [1015,1406,1423,1443], [542,1438,977,1483], [1014,1436,1448,1477], [1018,1475,1443,1506], [458,1477,764,1537], [1017,1512,1296,1539], [462,1525,672,1585], [1013,1536,1445,1574], [1017,1569,1444,1607], [1016,1603,1425,1638], [233,1644,685,1691], [1014,1638,1443,1670], [1016,1667,1445,1702], [105,1708,688,1742], [1016,1706,1145,1736], [82,1744,689,1774], [1014,1731,1448,1769], [82,1774,688,1807], [1017,1767,1445,1801], [85,1805,688,1840], [1015,1800,1402,1832], [81,1837,690,1874], [1015,1832,1446,1865], [83,1874,515,1903], [1017,1870,1351,1896], [1473,1949,1514,1982]],
+ "regions": {
+  "p045_making_characters_elite_four_marshal_caitlin-r70": {"boxes":[[83,143,514,406]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r71": {"boxes":[[84,408,516,729],[556,139,988,231]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r72": {"boxes":[[556,236,988,700]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-h73": {"boxes":[[611,731,903,823]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r74": {"boxes":[[541,989,974,1245]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r75": {"boxes":[[556,1282,972,1343]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r76": {"boxes":[[541,1350,974,1479],[1014,975,1447,1169]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r77": {"boxes":[[1014,1174,1447,1448]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r78": {"boxes":[[1014,1452,1446,1534]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r79": {"boxes":[[1014,1538,1446,1634]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r80": {"boxes":[[1014,1638,1446,1720]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r81": {"boxes":[[1014,1724,1446,1806]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r82": {"boxes":[[1014,1810,1446,1872]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-h83": {"boxes":[[466,1493,760,1583]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r84": {"boxes":[[233,1642,677,1698]],"direction":"horizontal"},
+  "p045_making_characters_elite_four_marshal_caitlin-r85": {"boxes":[[84,1714,686,1901]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 22.5, "image_tokens": 3138, "completion_tokens": 977, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p045_making_characters_elite_four_marshal_caitlin.jpg",
+ "page_file": "p045_making_characters_elite_four_marshal_caitlin"
+}

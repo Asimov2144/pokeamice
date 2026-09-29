@@ -1,0 +1,21 @@
+{
+ "width": 1547,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[419,81,1518,145], [333,146,1144,465], [1250,181,1319,215], [1482,185,1509,212], [1174,268,1226,341], [981,487,1261,507], [70,505,326,649], [976,508,1258,536], [1344,504,1470,578], [1464,508,1518,577], [269,515,837,640], [979,536,1262,562], [977,564,1222,589], [288,646,807,677], [609,694,938,727], [610,721,937,751], [151,742,341,832], [329,742,406,834], [610,751,933,778], [671,780,938,804], [684,806,932,829], [685,833,898,856], [690,826,718,837], [947,1044,1492,1149], [946,1160,1264,1191], [1363,1212,1506,1285], [1504,1223,1545,1244], [1504,1235,1545,1282], [1395,1568,1428,1882], [127,1579,498,1624], [512,1584,772,1624], [1479,1604,1505,1776], [131,1666,346,1701], [131,1699,345,1722], [130,1721,340,1748], [134,1749,345,1777], [129,1779,343,1803], [134,1773,146,1781], [844,1784,1305,1889], [1454,1820,1476,1909], [134,1845,418,1893], [897,1895,1323,1926]],
+ "regions": {
+  "p004_poll_pokemon_top10_part1-h2": {"boxes":[[415,78,1545,420]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-h3": {"boxes":[[79,506,838,676]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-r4": {"boxes":[[152,739,393,827]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-r5": {"boxes":[[611,688,934,854]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-r6": {"boxes":[[947,481,1262,586],[1344,502,1541,571]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-h7": {"boxes":[[947,1044,1497,1186]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-r8": {"boxes":[[1364,1210,1541,1280]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-r9": {"boxes":[[127,1575,772,1892]],"direction":"horizontal"},
+  "p004_poll_pokemon_top10_part1-r10": {"boxes":[[1375,1571,1510,1872]],"direction":"vertical"},
+  "p004_poll_pokemon_top10_part1-h11": {"boxes":[[842,1778,1378,1925]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 14.4, "image_tokens": 3074, "completion_tokens": 323, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p004_poll_pokemon_top10_part1.jpg",
+ "page_file": "p004_poll_pokemon_top10_part1"
+}

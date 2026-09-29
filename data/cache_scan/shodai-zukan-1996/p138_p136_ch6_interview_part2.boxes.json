@@ -1,0 +1,20 @@
+{
+ "width": 1440,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[173,123,1273,213], [264,240,1188,289], [283,323,1161,362], [282,367,1179,406], [282,410,1114,452], [768,497,1326,532], [161,512,634,553], [767,544,1321,578], [162,559,621,601], [765,590,1326,624], [145,636,684,670], [770,635,1102,669], [123,682,684,716], [784,684,1330,718], [122,728,445,761], [767,729,1330,763], [120,772,685,808], [762,773,874,808], [122,818,685,851], [760,818,1327,855], [124,865,682,898], [766,866,1323,900], [122,911,684,943], [763,912,1327,945], [121,956,682,988], [763,956,1326,990], [115,1866,1322,1897], [117,1893,1319,1923], [116,1917,1164,1950], [720,1982,765,2020]],
+ "regions": {
+  "p138_p136_ch6_interview_part2-h6": {"boxes":[[170,123,1272,213]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-h7": {"boxes":[[204,240,1231,293]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-r8": {"boxes":[[279,322,1184,449]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-h9": {"boxes":[[157,508,638,602]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-r10": {"boxes":[[121,635,687,762]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-r11": {"boxes":[[121,772,687,989],[763,494,1328,672]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-r12": {"boxes":[[763,682,1328,809]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-r13": {"boxes":[[763,819,1328,993]],"direction":"horizontal"},
+  "p138_p136_ch6_interview_part2-r14": {"boxes":[[115,1864,1320,1948]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 14.6, "image_tokens": 2882, "completion_tokens": 292, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p138_p136_ch6_interview_part2.jpg",
+ "page_file": "p138_p136_ch6_interview_part2"
+}

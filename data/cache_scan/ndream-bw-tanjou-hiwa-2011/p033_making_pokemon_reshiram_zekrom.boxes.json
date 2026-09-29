@@ -1,0 +1,28 @@
+{
+ "width": 1563,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[1088,12,1534,42], [1062,122,1316,184], [78,135,628,174], [78,166,625,205], [1064,182,1351,211], [82,203,628,236], [82,234,629,267], [81,264,629,301], [83,302,628,332], [85,335,572,364], [101,366,628,398], [82,398,627,431], [83,430,628,462], [85,465,628,494], [82,494,630,529], [84,532,290,559], [58,613,378,654], [409,611,725,650], [62,648,377,685], [412,648,723,682], [62,684,376,718], [411,682,724,713], [64,716,375,748], [409,710,726,751], [859,722,1117,774], [65,747,375,781], [411,746,724,778], [64,780,376,814], [411,778,693,812], [832,776,1120,805], [62,815,376,846], [411,814,723,843], [64,845,373,880], [411,846,722,875], [66,882,375,910], [412,877,724,908], [1249,873,1458,933], [63,910,376,944], [412,912,723,941], [411,942,725,973], [418,943,429,951], [1121,932,1457,961], [66,946,376,975], [62,976,286,1009], [410,973,725,1006], [665,972,681,980], [83,1011,373,1040], [162,1005,237,1019], [413,1013,501,1038], [65,1044,374,1072], [411,1042,724,1071], [62,1072,377,1108], [317,1073,333,1084], [413,1076,606,1103], [1189,1095,1455,1149], [66,1108,373,1138], [65,1141,342,1169], [1102,1150,1458,1181], [83,1174,373,1203], [65,1206,374,1235], [64,1239,375,1269], [331,1235,353,1245], [69,1275,377,1299], [361,1336,522,1390], [206,1393,518,1422], [555,1490,819,1542], [461,1544,822,1574], [443,1633,825,1672], [449,1669,822,1702], [451,1705,823,1735], [453,1737,822,1767], [452,1770,820,1800], [451,1802,821,1832], [448,1832,824,1865], [452,1872,617,1896], [1484,1946,1522,1976]],
+ "regions": {
+  "p033_making_pokemon_reshiram_zekrom-h298": {"boxes":[[1066,129,1318,182]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r299": {"boxes":[[1064,184,1352,209]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r300": {"boxes":[[83,141,635,561]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-h301": {"boxes":[[861,715,1113,768]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r302": {"boxes":[[822,772,1110,797]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r303": {"boxes":[[83,621,375,1001],[413,618,725,799]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r304": {"boxes":[[413,803,725,1001]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r305": {"boxes":[[413,1008,725,1057]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-h306": {"boxes":[[1254,877,1411,930]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r307": {"boxes":[[1122,934,1411,958]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-h308": {"boxes":[[1191,1112,1443,1165]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r309": {"boxes":[[1102,1169,1443,1194]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-h310": {"boxes":[[363,1368,520,1421]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r311": {"boxes":[[205,1425,520,1450]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-h312": {"boxes":[[553,1489,805,1542]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r313": {"boxes":[[460,1546,819,1571]],"direction":"horizontal"},
+  "p033_making_pokemon_reshiram_zekrom-r314": {"boxes":[[449,1636,819,1892]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 16.5, "image_tokens": 3138, "completion_tokens": 579, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p033_making_pokemon_reshiram_zekrom.jpg",
+ "page_file": "p033_making_pokemon_reshiram_zekrom"
+}

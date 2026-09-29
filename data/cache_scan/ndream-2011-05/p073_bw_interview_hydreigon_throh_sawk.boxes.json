@@ -1,0 +1,22 @@
+{
+ "width": 1443,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[876,16,1283,82], [1304,35,1436,88], [990,66,1075,93], [1180,64,1280,99], [979,118,1179,186], [979,188,1197,215], [1194,189,1310,217], [921,775,1121,844], [5,817,241,874], [921,846,1211,874], [425,862,735,924], [2,880,319,909], [423,930,792,956], [1,1024,1187,1126], [908,1158,1020,1199], [597,1186,790,1250], [445,1254,787,1284], [845,1272,1384,1309], [847,1305,1384,1344], [849,1341,1383,1374], [849,1373,1383,1408], [848,1409,1382,1440], [848,1440,1383,1474], [870,1510,1382,1537], [847,1537,1384,1571], [848,1570,1329,1605], [870,1606,1385,1636], [849,1641,1380,1668], [846,1668,1384,1703], [849,1701,1382,1735], [849,1735,1382,1767], [848,1769,1305,1800], [847,1801,1384,1833], [849,1837,1381,1864], [13,1863,323,1922], [427,1860,673,1927], [847,1863,1385,1899], [850,1901,1180,1930], [1,1929,326,1956], [428,1930,793,1957], [847,1934,1350,1963], [1338,2003,1371,2027]],
+ "regions": {
+  "p073_bw_interview_hydreigon_throh_sawk-r61": {"boxes":[[978,123,1341,215]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r62": {"boxes":[[921,774,1212,881]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r63": {"boxes":[[0,784,317,911]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r64": {"boxes":[[418,864,740,963]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-h65": {"boxes":[[0,1010,1180,1122]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r66": {"boxes":[[909,1163,1019,1194]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r67": {"boxes":[[444,1184,791,1284]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r68": {"boxes":[[846,1266,1382,1788]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r69": {"boxes":[[846,1802,1382,1931]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r70": {"boxes":[[9,1860,329,1962]],"direction":"horizontal"},
+  "p073_bw_interview_hydreigon_throh_sawk-r71": {"boxes":[[427,1864,672,1962]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 20.5, "image_tokens": 2882, "completion_tokens": 624, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p073_bw_interview_hydreigon_throh_sawk.jpg",
+ "page_file": "p073_bw_interview_hydreigon_throh_sawk"
+}

@@ -1,0 +1,23 @@
+{
+ "width": 1536,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[173,23,271,483], [49,49,184,586], [920,85,937,98], [382,98,1253,161], [716,185,1360,245], [257,227,273,246], [1255,271,1370,311], [378,323,931,354], [972,335,1281,393], [396,355,929,386], [381,388,927,418], [968,399,1358,429], [382,419,930,452], [380,452,930,484], [385,486,928,516], [39,514,293,1564], [380,509,933,557], [382,554,687,581], [380,582,931,614], [381,619,519,647], [376,641,932,682], [380,681,931,711], [380,711,930,745], [381,745,929,778], [379,777,931,812], [379,809,930,842], [380,846,930,873], [379,876,931,906], [380,908,930,939], [381,942,823,972], [379,977,929,1004], [380,1008,930,1037], [380,1035,933,1076], [381,1073,931,1103], [375,1096,516,1145], [898,1283,1198,1338], [892,1347,1262,1377], [75,1553,108,1813], [107,1551,150,1942], [151,1552,182,1941], [186,1552,220,1942], [222,1572,259,1940], [491,1836,808,1897], [434,1899,646,1932], [634,1902,812,1933], [91,1988,124,2012], [322,1978,1534,2013]],
+ "regions": {
+  "p072_bw_interview_swords_of_justice-h19": {"boxes":[[58,29,301,1520]],"direction":"vertical"},
+  "p072_bw_interview_swords_of_justice-r20": {"boxes":[[83,1567,273,1819]],"direction":"vertical"},
+  "p072_bw_interview_swords_of_justice-h21": {"boxes":[[378,82,1364,254]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-r22": {"boxes":[[1250,293,1367,322]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-r23": {"boxes":[[378,324,931,573]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-r24": {"boxes":[[378,584,928,641]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-r25": {"boxes":[[375,647,931,958]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-r26": {"boxes":[[375,967,931,1135]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-h27": {"boxes":[[968,332,1361,428]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-h28": {"boxes":[[891,1282,1281,1376]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-h29": {"boxes":[[436,1835,814,1933]],"direction":"horizontal"},
+  "p072_bw_interview_swords_of_justice-r30": {"boxes":[[313,1978,1465,2011]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 17.9, "image_tokens": 3074, "completion_tokens": 365, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p072_bw_interview_swords_of_justice.jpg",
+ "page_file": "p072_bw_interview_swords_of_justice"
+}

@@ -1,0 +1,17 @@
+{
+ "width": 1448,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[28,173,535,264], [0,249,1182,509], [633,476,1310,602], [638,596,1307,706], [996,729,1312,764], [972,760,1312,797], [973,794,1311,828], [975,827,1308,859], [974,860,1310,891], [974,892,1310,922], [978,923,1294,955], [60,1491,391,1546], [543,1480,861,1543], [102,1550,141,1564], [417,1545,446,1559], [51,1559,191,1618], [301,1570,377,1611], [380,1568,514,1595], [776,1564,846,1604], [56,1647,362,1703], [543,1641,869,1699], [52,1714,235,1762], [540,1710,705,1754], [574,1705,637,1722], [301,1739,378,1783], [776,1737,849,1775], [53,1756,235,1804], [541,1752,721,1796], [761,1830,1255,1858], [1278,1837,1306,1858], [681,1845,1254,1873]],
+ "regions": {
+  "p069_hgss_special_title-h5": {"boxes":[[23,174,539,262],[26,262,1308,481],[634,477,1315,600],[634,592,1315,702]],"direction":"horizontal"},
+  "p069_hgss_special_title-r6": {"boxes":[[973,723,1312,952]],"direction":"horizontal"},
+  "p069_hgss_special_title-r7": {"boxes":[[52,1485,515,1614]],"direction":"horizontal"},
+  "p069_hgss_special_title-r8": {"boxes":[[539,1464,959,1602]],"direction":"horizontal"},
+  "p069_hgss_special_title-r9": {"boxes":[[52,1645,379,1800]],"direction":"horizontal"},
+  "p069_hgss_special_title-r10": {"boxes":[[539,1636,866,1794]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 10.4, "image_tokens": 2882, "completion_tokens": 241, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p069_hgss_special_title.jpg",
+ "page_file": "p069_hgss_special_title"
+}

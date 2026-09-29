@@ -1,0 +1,21 @@
+{
+ "width": 1390,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[340,568,537,660], [1107,621,1252,657], [304,656,443,693], [179,784,602,820], [895,829,1041,868], [892,865,1093,903], [253,1096,523,1141], [851,1099,1184,1146], [259,1509,522,1556], [952,1558,1083,1582], [1018,1795,1160,1826], [1021,1826,1135,1863], [249,1883,532,1929]],
+ "regions": {
+  "p007_p005_olympic_sky-r98": {"boxes":[[306,657,439,690]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r99": {"boxes":[[1109,623,1250,651]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r100": {"boxes":[[179,784,599,817]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r101": {"boxes":[[897,836,1037,864],[897,868,1090,897]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-h102": {"boxes":[[250,1096,527,1139]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r103": {"boxes":[[263,1518,518,1550]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r104": {"boxes":[[249,1892,528,1925]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-h105": {"boxes":[[848,1098,1190,1141]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r106": {"boxes":[[949,1556,1090,1587]],"direction":"horizontal"},
+  "p007_p005_olympic_sky-r107": {"boxes":[[1020,1796,1159,1825],[1026,1829,1131,1858]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 14.4, "image_tokens": 2754, "completion_tokens": 347, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p007_p005_olympic_sky.jpg",
+ "page_file": "p007_p005_olympic_sky"
+}

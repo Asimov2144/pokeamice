@@ -1,0 +1,20 @@
+{
+ "width": 1501,
+ "height": 2048,
+ "page_direction": "horizontal",
+ "lines": [[853,11,1357,65], [913,5,951,24], [1374,28,1499,74], [1061,56,1150,85], [1256,57,1355,86], [568,82,889,144], [1081,101,1400,160], [560,150,890,178], [1078,165,1450,195], [1123,267,1457,299], [1126,301,1456,329], [1128,334,1453,364], [1125,365,1454,398], [1126,400,1451,429], [1124,429,1455,462], [1125,465,1452,493], [1122,490,1454,533], [1123,531,1452,560], [1125,565,1311,592], [172,591,206,601], [405,585,720,644], [2,628,344,655], [1,657,347,689], [400,650,726,678], [0,687,347,723], [2,729,742,753], [1,756,743,787], [1,789,747,821], [0,822,745,854], [728,821,736,832], [1,851,357,889], [834,846,1089,914], [833,917,1177,944], [143,932,399,995], [140,1000,451,1028], [717,1004,1033,1060], [713,1067,1060,1097], [0,1075,394,1120], [1,1120,392,1143], [2,1149,312,1176], [1,1181,314,1209], [0,1211,312,1242], [0,1239,393,1280], [1,1282,388,1308], [0,1313,389,1341], [0,1344,389,1374], [0,1374,393,1408], [0,1414,146,1438], [651,1588,908,1651], [650,1656,974,1683], [432,1713,566,1848], [659,1758,1032,1796], [1070,1760,1441,1794], [663,1798,1032,1825], [1069,1793,1439,1827], [1222,1790,1268,1804], [665,1828,1034,1857], [1071,1825,1440,1859], [102,1849,415,1908], [663,1859,1036,1891], [1069,1859,1440,1890], [663,1893,1034,1921], [1067,1892,1442,1921], [98,1913,408,1941], [664,1922,1036,1956], [1066,1922,1332,1955]],
+ "regions": {
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h109": {"boxes":[[564,86,1034,180]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r111": {"boxes":[[0,584,763,897]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h112": {"boxes":[[404,569,747,692],[1069,98,1463,201]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r116": {"boxes":[[1069,262,1466,610]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h117": {"boxes":[[835,877,1178,979],[147,926,479,1028]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r121": {"boxes":[[0,1102,468,1438]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h122": {"boxes":[[714,999,1114,1110],[648,1593,979,1696]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r126": {"boxes":[[648,1757,1039,1950],[1069,1757,1466,1950]],"direction":"horizontal"},
+  "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h127": {"boxes":[[102,1847,423,1950]],"direction":"horizontal"}
+ },
+ "meta": {"model": "qwen3.8-max", "seconds": 18.6, "image_tokens": 3010, "completion_tokens": 371, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p077_bw_interview_crustle_scrafty_cofagrigus_bisharp.jpg",
+ "page_file": "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp"
+}

@@ -86,6 +86,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2008-12-platinum-battle-dojo/pages/p071_pokemon_feature_title.jpg"
     alt: Nintendo DREAM 2008年12月号（Vol.176） P.71
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL 全面解析 ABOUT
     type: heading
     kind: text
@@ -97,6 +99,12 @@ translation_segments:
     review_status: review
     original: ALL オールアバウトABOUT
     translation: ALL 全面解析 ABOUT
+    scan_box:
+      - 138
+      - 143
+      - 376
+      - 309
+    writing_direction: horizontal
   - speaker: 宝可梦
     type: heading
     kind: text
@@ -108,6 +116,12 @@ translation_segments:
     review_status: review
     original: ポケットモンスター
     translation: 宝可梦
+    scan_box:
+      - 135
+      - 342
+      - 1431
+      - 561
+    writing_direction: horizontal
   - speaker: GAME FREAK对战
     type: heading
     kind: text
@@ -119,6 +133,12 @@ translation_segments:
     review_status: review
     original: ゲームフリークバトル
     translation: GAME FREAK对战
+    scan_box:
+      - 155
+      - 584
+      - 851
+      - 801
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -129,6 +149,12 @@ translation_segments:
     review_status: review
     original: ポケモンバトル道場SPゲームフリークvsニンドリ
     translation: 宝可梦对战道场SP GAME FREAK vs Nintendo DREAM
+    scan_box:
+      - 155
+      - 821
+      - 515
+      - 924
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -139,6 +165,23 @@ translation_segments:
     review_status: review
     original: "数々のポケモンバトルを繰り広げてきたニンドリ編集部が、ついにゲームフリークに挑戦!!注目のバトルの結果は…!?P72"
     translation: 身经百战的Nintendo DREAM编辑部，终于向GAME FREAK发起挑战！！这场备受瞩目的对战结果究竟如何……！？P72
+    scan_box:
+      - 152
+      - 934
+      - 417
+      - 1059
+    scan_boxes:
+      - 
+        - 152
+        - 934
+        - 417
+        - 1059
+      - 
+        - 303
+        - 999
+        - 392
+        - 1047
+    writing_direction: horizontal
   - speaker: "&"
     type: heading
     kind: text
@@ -150,6 +193,12 @@ translation_segments:
     review_status: review
     original: "&"
     translation: "&"
+    scan_box:
+      - 673
+      - 821
+      - 872
+      - 1040
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -160,6 +209,12 @@ translation_segments:
     review_status: review
     original: "ゲームフリーク開発陣に聞く!『プラチナ』インタビュー"
     translation: 采访GAME FREAK开发团队！《白金》专访
+    scan_box:
+      - 922
+      - 819
+      - 1415
+      - 922
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -170,6 +225,23 @@ translation_segments:
     review_status: review
     original: "バトルの素朴な疑問から、最新作『ポケットモンスター プラチナ』開発秘話まで、いろんな話を聞いてきました!!P76"
     translation: 从对战的朴素疑问，到最新作《宝可梦 白金》的开发秘闻，我们问了很多很多！！P76
+    scan_box:
+      - 1148
+      - 932
+      - 1415
+      - 1055
+    scan_boxes:
+      - 
+        - 1148
+        - 932
+        - 1415
+        - 1055
+      - 
+        - 1300
+        - 997
+        - 1390
+        - 1044
+    writing_direction: horizontal
   - speaker: 宝可梦收集
     type: heading
     kind: text
@@ -181,6 +253,12 @@ translation_segments:
     review_status: review
     original: ポケモンコレクト
     translation: 宝可梦收集
+    scan_box:
+      - 404
+      - 1071
+      - 1154
+      - 1284
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -191,6 +269,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター プラチナ』ポケモン入手大作戦
     translation: 《宝可梦 白金》宝可梦获取大作战
+    scan_box:
+      - 155
+      - 1319
+      - 633
+      - 1417
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -201,6 +285,23 @@ translation_segments:
     review_status: review
     original: "『プラチナ』でのポケモン集めにとっても便利! 入手の難しいポケモンは、ピックアップして詳しく解説しているぞ。P80"
     translation: 对在《白金》中收集宝可梦非常方便！难以获得的宝可梦，我们会挑选出来详细解说。P80
+    scan_box:
+      - 155
+      - 1427
+      - 417
+      - 1542
+    scan_boxes:
+      - 
+        - 155
+        - 1427
+        - 417
+        - 1542
+      - 
+        - 303
+        - 1493
+        - 392
+        - 1540
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -211,6 +312,12 @@ translation_segments:
     review_status: review
     original: おや? ロトムが モーターの
     translation: 哦？洛托姆在发动机的
+    scan_box:
+      - 430
+      - 1493
+      - 562
+      - 1509
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -221,6 +328,12 @@ translation_segments:
     review_status: review
     original: なかに は入りたそうに している……▲Upper screen
     translation: 里面似乎很想进去……▲Upper screen
+    scan_box:
+      - 429
+      - 1509
+      - 601
+      - 1540
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -231,6 +344,12 @@ translation_segments:
     review_status: review
     original: "実録!! ポケモン入手大作戦マニアックス"
     translation: "实录!! 宝可梦获取大作战狂热篇"
+    scan_box:
+      - 922
+      - 1309
+      - 1415
+      - 1413
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -241,6 +360,23 @@ translation_segments:
     review_status: review
     original: "『プラチナ』以外のバージョンを舞台に、色違いや伝説のポケモンの入手法を厳選して紹介していこう!P84"
     translation: "以《白金》以外的版本为舞台，精选介绍异色及传说的宝可梦的获取方法!P84"
+    scan_box:
+      - 1182
+      - 1423
+      - 1415
+      - 1544
+    scan_boxes:
+      - 
+        - 1182
+        - 1423
+        - 1415
+        - 1544
+      - 
+        - 1300
+        - 1489
+        - 1390
+        - 1536
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -251,6 +387,12 @@ translation_segments:
     review_status: review
     original: "『ポケットモンスター』の大きなお楽しみといえば、ポケモンバトルとポケモン集め! 最新作『プラチナ』を中心に、この2つの遊びを徹底的に追求した、ニンドリならでは大特集をお届け!!"
     translation: "说到《宝可梦》的一大乐趣，那就是宝可梦对战和收集宝可梦! 以最新作《白金》为中心，彻底追求这两种玩法的Nintendo DREAM独家大特辑为您送上!!"
+    scan_box:
+      - 946
+      - 1585
+      - 1415
+      - 1757
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -261,6 +403,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2008-12-platinum-battle-dojo/pages/p072_battle_dojo_sp.jpg"
     alt: Nintendo DREAM 2008年12月号（Vol.176） P.72
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: "白热对战&直击采访!"
     type: heading
     kind: text
@@ -272,6 +416,12 @@ translation_segments:
     review_status: review
     original: "白熱対戦&直撃取材!"
     translation: "白热对战&直击采访!"
+    scan_box:
+      - 70
+      - 150
+      - 353
+      - 455
+    writing_direction: horizontal
   - speaker: GAME FREAK对战篇
     type: heading
     kind: text
@@ -283,6 +433,12 @@ translation_segments:
     review_status: review
     original: ゲームフリークバトル編
     translation: GAME FREAK对战篇
+    scan_box:
+      - 70
+      - 463
+      - 336
+      - 1444
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -293,6 +449,12 @@ translation_segments:
     review_status: review
     original: "『ポケットモンスター』シリーズの大きな楽しみの1つであるバトル。ここでは、シリーズの開発元であるゲームフリークとの対戦&インタビューでバトルの魅力にぐぐっと迫ります!"
     translation: "对战是《宝可梦》系列的一大乐趣之一。在这里，我们将通过与系列开发方GAME FREAK的对战&采访，深入逼近对战的魅力!"
+    scan_box:
+      - 83
+      - 1536
+      - 333
+      - 1792
+    writing_direction: horizontal
   - speaker: 宝可梦GAME FREAK VS Nintendo DREAM
     type: heading
     kind: text
@@ -304,6 +466,12 @@ translation_segments:
     review_status: review
     original: ポケゲームフリーク VS ニンドリ
     translation: 宝可梦GAME FREAK VS Nintendo DREAM
+    scan_box:
+      - 410
+      - 203
+      - 1422
+      - 455
+    writing_direction: horizontal
   - speaker: "向开发团队发起挑战! 对战结果将会如何!?"
     type: heading
     kind: text
@@ -315,6 +483,12 @@ translation_segments:
     review_status: review
     original: "開発チームに挑戦! バトルの行方は!?"
     translation: "向开发团队发起挑战! 对战结果将会如何!?"
+    scan_box:
+      - 439
+      - 457
+      - 1342
+      - 543
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -325,6 +499,12 @@ translation_segments:
     review_status: review
     original: "ポケモンバトルの楽しさ、奥深さ、そして強さを求めてさまざまなバトルに挑戦&解説してきたバトル道場。今回はスペシャル企画ということで、『ポケットモンスター』シリーズを作り出してきたゲームフリークに挑戦! 3対3のチーム戦で行われたニンドリVSゲームフリークのバトルの様子をたっぷり紹介していくぞ。バトルのルールなどは右にある表のとおり。P76からのインタビューと合わせて読めば、よりポケモンバトルが楽しくなること間違いなしです!"
     translation: "为了追求宝可梦对战的乐趣、深奥与强大，挑战并解说了各种对战的宝可梦对战道场。这次作为特别企划，我们将向打造出《宝可梦》系列的GAME FREAK发起挑战! 我们将充分介绍以3对3团队战形式进行的Nintendo DREAM VS GAME FREAK的对战情况。对战规则等如右侧表格所示。配合P76开始的采访一起阅读，定能让您更加享受宝可梦对战的乐趣!"
+    scan_box:
+      - 418
+      - 555
+      - 892
+      - 782
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -335,6 +515,12 @@ translation_segments:
     review_status: review
     original: ←バトルはゲームフリーク社内の一室で行われました。スクリーンに場面を映してのバトルが行われ、後ろにはギャラリーもいてプチ大会のような緊張感
     translation: ←对战在GAME FREAK公司内的一间房间进行。对战时将画面投影到屏幕上进行，后面还有围观者，气氛紧张得就像小型比赛一样
+    scan_box:
+      - 1239
+      - 557
+      - 1350
+      - 788
+    writing_direction: vertical
   - speaker: caption
     type: paragraph
     kind: text
@@ -345,6 +531,12 @@ translation_segments:
     review_status: review
     original: ←今回のバトルは『ポケットモンスター プラチナ』を使って行われた。細かいルールなどは右の表にあるとおりで、WCS2009ルールに準拠したものになっている
     translation: ←本次对战使用《宝可梦 白金》进行。详细规则等如右侧表格所示，遵循WCS2009规则
+    scan_box:
+      - 699
+      - 797
+      - 857
+      - 1026
+    writing_direction: vertical
   - speaker: note
     type: paragraph
     kind: text
@@ -356,6 +548,12 @@ translation_segments:
     original: 今回のバトルのルール・ポケモンのレベルは1~50まで・4匹エントリーするダブルバトル・同じ種類のポケモンはエントリーできない・同じ種類のどうぐを持たせることはできない・そのほかすべてのルールはWCSのルールに準拠※WCSの公式ルールは
     translation: 本次对战的规则：宝可梦等级1~50；4只参赛的双打对战；不能登记同种宝可梦；不能携带同种道具；其他所有规则均遵循WCS规则。※WCS官方规则见
     comment: WCS为宝可梦世界锦标赛。
+    scan_box:
+      - 885
+      - 811
+      - 1300
+      - 985
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -366,6 +564,12 @@ translation_segments:
     review_status: review
     original: "http://www.pokemon.co.jp/special/wcs0809/へ"
     translation: "http://www.pokemon.co.jp/special/wcs0809/"
+    scan_box:
+      - 891
+      - 999
+      - 1268
+      - 1020
+    writing_direction: horizontal
   - speaker: 对战实况将通过《白金》新功能“对战视频”公开！
     type: heading
     kind: text
@@ -377,6 +581,12 @@ translation_segments:
     review_status: review
     original: "バトルの模様は『プラチナ』新機能「バトルビデオ」で公開!"
     translation: 对战实况将通过《白金》新功能“对战视频”公开！
+    scan_box:
+      - 413
+      - 1038
+      - 1321
+      - 1108
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -387,6 +597,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター プラチナ』にはバトルを記録するバトルビデオという機能があり、Wi-Fiを使えば自分の録ったバトルビデオを配信したり、ほかの人が配信しているバトルビデオを自由に見ることが出来る。今回はその機能を使って3つのバトルすべてを記録して配信しているので、ぜひダウンロードして実際のバトルの様子を見ながら読んでみてほしい。
     translation: 《宝可梦 白金》拥有记录对战的“对战视频”功能，使用Wi-Fi即可发布自己录制的对战视频，也能自由观看他人发布的视频。本次利用该功能记录并发布了全部3场对战，请务必下载，边看实际对战情况边阅读。
+    scan_box:
+      - 410
+      - 1126
+      - 824
+      - 1319
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -397,6 +613,12 @@ translation_segments:
     review_status: review
     original: ←バトルビデオをダウンロードするには、コトブキシティにあるグローバルターミナル3階のマシンを使う。メニューが出たら「つかう」を選ぶ。事前に「せってい」から「せんとうアニメ」を「みる」にしておくと、よりバトルビデオを楽しめるぞ
     translation: ←下载对战视频需使用祝庆市全球终端3楼的机器。出现菜单后选择“使用”。事先在“设置”中将“战斗动画”设为“观看”，能更好地享受对战视频。
+    scan_box:
+      - 1114
+      - 1128
+      - 1347
+      - 1313
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -407,6 +629,12 @@ translation_segments:
     review_status: review
     original: →無事Wi-Fiにつながったら、続いて「ビデオナンバーでさがす」を選んで次の画面へ進む
     translation: →成功连接Wi-Fi后，接着选择“按视频编号查找”，进入下一画面。
+    scan_box:
+      - 407
+      - 1440
+      - 582
+      - 1532
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -417,6 +645,12 @@ translation_segments:
     review_status: review
     original: ←入力画面になったらP74とP75に載っているそれぞれのバトルのビデオナンバーを入力すればダウンロードできる。本誌で紹介しているバトルビデオはニンドリ側視点のものです
     translation: ←进入输入画面后，输入P74和P75所载各场对战的视频编号即可下载。本刊介绍的对战视频为Nintendo DREAM视角的版本。
+    scan_box:
+      - 1111
+      - 1397
+      - 1344
+      - 1538
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -427,6 +661,12 @@ translation_segments:
     review_status: review
     original: "ポケモンだいすきクラブでも今回のバトルの様子を紹介!"
     translation: 宝可梦发烧友俱乐部也将介绍本次对战的情况！
+    scan_box:
+      - 426
+      - 1540
+      - 876
+      - 1655
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -437,6 +677,12 @@ translation_segments:
     review_status: review
     original: "ポケモン公式ファンクラブの「ポケモンだいすきクラブ」では、10月21日(火)15時より今回のバトルをゲームフリーク視点で記録したバトルビデオを公開中! パソコンかケータイ電話で右のアドレスへ今すぐアクセス!"
     translation: 在宝可梦官方粉丝俱乐部“宝可梦发烧友俱乐部”，自10月21日（周二）15时起，正在公开以GAME FREAK视角记录的本次对战视频！请立即用电脑或手机访问右侧网址！
+    scan_box:
+      - 405
+      - 1667
+      - 873
+      - 1780
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -447,6 +693,12 @@ translation_segments:
     review_status: review
     original: ←初めての人はまずメンバー登録しよう。ポケモンに関するさまざまな情報や特典がゲットできるぞ
     translation: ←初次使用者请先注册成为会员。可获得与宝可梦相关的各种信息和特典。
+    scan_box:
+      - 1093
+      - 1610
+      - 1297
+      - 1700
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -457,6 +709,12 @@ translation_segments:
     review_status: review
     original: ポケモンだいすきクラブ
     translation: 宝可梦发烧友俱乐部
+    scan_box:
+      - 915
+      - 1708
+      - 1083
+      - 1731
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -467,6 +725,12 @@ translation_segments:
     review_status: review
     original: 登録・年会費無料 パソコン版・ケータイ版共通
     translation: 注册及年会费免费，电脑版与手机版通用
+    scan_box:
+      - 915
+      - 1733
+      - 1253
+      - 1753
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -477,6 +741,12 @@ translation_segments:
     review_status: review
     original: "http://www.pokemon.jp/"
     translation: "http://www.pokemon.jp/"
+    scan_box:
+      - 915
+      - 1755
+      - 1190
+      - 1780
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -487,6 +757,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2008-12-platinum-battle-dojo/pages/p073_battle_teams.jpg"
     alt: Nintendo DREAM 2008年12月号（Vol.176） P.73
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 GAME FREAK 对战篇 ～白热对战～
     type: heading
     kind: text
@@ -498,6 +770,12 @@ translation_segments:
     review_status: review
     original: ALL ABOUT ポケットモンスター ゲームフリーク バトル編 〜白熱対戦〜
     translation: ALL ABOUT 宝可梦 GAME FREAK 对战篇 ～白热对战～
+    scan_box:
+      - 660
+      - 129
+      - 1431
+      - 168
+    writing_direction: horizontal
   - speaker: 宝可梦对战道场SP
     type: heading
     kind: text
@@ -509,6 +787,12 @@ translation_segments:
     review_status: review
     original: ポケモンバトル道場SP
     translation: 宝可梦对战道场SP
+    scan_box:
+      - 0
+      - 199
+      - 1442
+      - 467
+    writing_direction: horizontal
   - speaker: 介绍GAME FREAK与Nintendo DREAM 6人各自讲究的队伍！
     type: heading
     kind: text
@@ -520,6 +804,12 @@ translation_segments:
     review_status: review
     original: "ゲームフリーク & ニンドリ 6名それぞれのこだわりチームを紹介！"
     translation: 介绍GAME FREAK与Nintendo DREAM 6人各自讲究的队伍！
+    scan_box:
+      - 142
+      - 483
+      - 1425
+      - 586
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -530,6 +820,12 @@ translation_segments:
     review_status: review
     original: "ゲームフリーク開発部 太田哲司さんルンパッパ&ドータクンで粘り長期戦へ！"
     translation: GAME FREAK开发部 太田哲司先生 用乐天河童与青铜钟打持久战！
+    scan_box:
+      - 162
+      - 594
+      - 568
+      - 713
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -540,6 +836,12 @@ translation_segments:
     review_status: review
     original: ルンパッパ Lv50 やどりぎのタネ どくどく まもる ギガドレイン とくせい すいすい もちもの たべのこし
     translation: 乐天河童 Lv50 寄生种子 剧毒 守住 终极吸取 特性 悠游自如 携带物品 吃剩的东西
+    scan_box:
+      - 168
+      - 721
+      - 562
+      - 823
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -550,6 +852,12 @@ translation_segments:
     review_status: review
     original: ラグラージ Lv50 ゆきなだれ たきのぼり じしん きあいパンチ とくせい げきりゅう もちもの ラムのみ
     translation: 巨沼怪 Lv50 雪崩 攀瀑 地震 真气拳 特性 激流 携带物品 木子果
+    scan_box:
+      - 168
+      - 831
+      - 562
+      - 938
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -560,6 +868,12 @@ translation_segments:
     review_status: review
     original: ドータクン Lv50 ねむる てっぺき どくどく かげぶんしん とくせい ふゆう もちもの カゴのみ
     translation: 青铜钟 Lv50 睡觉 铁壁 剧毒 影子分身 特性 飘浮 携带物品 文柚果
+    scan_box:
+      - 168
+      - 946
+      - 562
+      - 1053
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -570,6 +884,12 @@ translation_segments:
     review_status: review
     original: ウインディ Lv50 フレアドライブ かみなりのキバ かみくだく しんそく とくせい いかく もちもの するどいツメ
     translation: 风速狗 Lv50 闪焰冲锋 雷电牙 咬碎 神速 特性 威吓 携带物品 锐利之爪
+    scan_box:
+      - 168
+      - 1061
+      - 562
+      - 1167
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -580,6 +900,12 @@ translation_segments:
     review_status: review
     original: ゲームフリーク開発部 中津井優さん恐怖の「いちげきひっさつ」チーム！
     translation: GAME FREAK开发部 中津井优先生 恐怖的「一击必杀」队伍！
+    scan_box:
+      - 591
+      - 594
+      - 996
+      - 713
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -590,6 +916,12 @@ translation_segments:
     review_status: review
     original: トゲキッス Lv50 このゆびとまれ でんじは まもる エアスラッシュ とくせい てんのめぐみ もちもの ラムのみ
     translation: 波克基斯 Lv50 看我嘛 电磁波 守住 空气之刃 特性 天恩 携带物品 木子果
+    scan_box:
+      - 597
+      - 721
+      - 990
+      - 823
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -600,6 +932,12 @@ translation_segments:
     review_status: review
     original: トドゼルガ Lv50 ねごと ねむる じわれ ぜったいれいど とくせい あついしぼう もちもの せんせいのツメ
     translation: 帝牙海狮 Lv50 梦话 睡觉 地裂 绝对零度 特性 厚脂肪 携带物品 先制之爪
+    scan_box:
+      - 597
+      - 831
+      - 990
+      - 938
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -610,6 +948,12 @@ translation_segments:
     review_status: review
     original: ミカルゲ Lv50 いたみわけ まもる いちゃもん メロメロ とくせい プレッシャー もちもの ひかりのこな
     translation: 花岩怪 Lv50 分担痛楚 守住 无理取闹 着迷 特性 压迫感 携带物品 光粉
+    scan_box:
+      - 597
+      - 946
+      - 990
+      - 1053
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -620,6 +964,12 @@ translation_segments:
     review_status: review
     original: アーボック Lv50 たくわえる へびにらみ かみつく ねむる とくせい だっぴ もちもの くろいヘドロ
     translation: 阿柏怪 Lv50 蓄力 大蛇瞪眼 咬住 睡觉 特性 蜕皮 携带物品 黑色污泥
+    scan_box:
+      - 597
+      - 1061
+      - 990
+      - 1167
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -630,6 +980,12 @@ translation_segments:
     review_status: review
     original: "ゲームフリーク開発部 西野弘二さん「トリック」&「のろい」でペースを作る"
     translation: GAME FREAK开发部 西野弘二先生 用「戏法」和「诅咒」掌握节奏
+    scan_box:
+      - 1019
+      - 594
+      - 1425
+      - 713
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -640,6 +996,12 @@ translation_segments:
     review_status: review
     original: メタグロス Lv50 バレットパンチ トリック だいばくはつ まもる とくせい クリアボディ もちもの どくどくだま
     translation: 巨金怪 Lv50 子弹拳 戏法 大爆炸 守住 特性 恒净之躯 携带物品 剧毒宝珠
+    scan_box:
+      - 1025
+      - 721
+      - 1419
+      - 823
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -650,6 +1012,12 @@ translation_segments:
     review_status: review
     original: ゴウカザル Lv50 インファイト ねこだまし フレアドライブ かみなりパンチ とくせい もうか もちもの ピントレンズ
     translation: 烈焰猴 Lv50 近身战 击掌奇袭 闪焰冲锋 雷电拳 特性 猛火 携带物品 焦点镜
+    scan_box:
+      - 1025
+      - 831
+      - 1419
+      - 938
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -660,6 +1028,12 @@ translation_segments:
     review_status: review
     original: カビゴン Lv50 ほのおのパンチ のろい ドわすれ リサイクル とくせい めんえき もちもの オボンのみ
     translation: 卡比兽 Lv50 火焰拳 诅咒 瞬间失忆 回收利用 特性 免疫 携带物品 文柚果
+    scan_box:
+      - 1025
+      - 946
+      - 1419
+      - 1053
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -670,6 +1044,12 @@ translation_segments:
     review_status: review
     original: トゲキッス Lv50 エアスラッシュ まもる トリック どくどく とくせい てんのめぐみ もちもの こだわりスカーフ
     translation: 波克基斯 Lv50 空气之刃 守住 戏法 剧毒 特性 天恩 携带物品 讲究围巾
+    scan_box:
+      - 1025
+      - 1061
+      - 1419
+      - 1167
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -680,6 +1060,12 @@ translation_segments:
     review_status: review
     original: 先鋒戦 VS おしょう「あられ」を維持して「ふぶき」を連発！
     translation: 先锋战 VS 和尚 维持「冰雹」并连续使出「暴风雪」！
+    scan_box:
+      - 162
+      - 1180
+      - 568
+      - 1364
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -690,6 +1076,12 @@ translation_segments:
     review_status: review
     original: ユキノオー Lv50 ふぶき こおりのつぶて ウッドハンマー まもる とくせい ゆきふらし もちもの きあいのタスキ
     translation: 暴雪王 Lv50 暴风雪 冰砾 木槌 守住 特性 降雪 携带物品 气势披带
+    scan_box:
+      - 168
+      - 1372
+      - 562
+      - 1475
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -700,6 +1092,12 @@ translation_segments:
     review_status: review
     original: ユキメノコ Lv50 ふぶき 10まんボルト ちょうはつ まもる とくせい ゆきがくれ もちもの ひかりのこな
     translation: 雪妖女 Lv50 暴风雪 十万伏特 挑衅 守住 特性 雪隐 携带物品 光粉
+    scan_box:
+      - 168
+      - 1483
+      - 562
+      - 1589
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -710,6 +1108,12 @@ translation_segments:
     review_status: review
     original: マンムー Lv50 ふぶき ストーンエッジ じしん まもる とくせい ゆきがくれ もちもの のんきのおこう
     translation: 象牙猪 Lv50 暴风雪 尖石攻击 地震 守住 特性 雪隐 携带物品 悠闲薰香
+    scan_box:
+      - 168
+      - 1597
+      - 562
+      - 1704
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -720,6 +1124,12 @@ translation_segments:
     review_status: review
     original: グレイシア Lv50 ふぶき こおりのつぶて あられ まもる とくせい ゆきがくれ もちもの せんせいのツメ
     translation: 冰伊布 Lv50 暴风雪 冰砾 冰雹 守住 特性 雪隐 携带物品 先制之爪
+    scan_box:
+      - 168
+      - 1712
+      - 562
+      - 1819
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -730,6 +1140,12 @@ translation_segments:
     review_status: review
     original: 中堅戦 VS いっさやればできるさ！ ビーダル最高チーム
     translation: 中坚战 VS 只要做就能做到！大尾狸最强队
+    scan_box:
+      - 591
+      - 1180
+      - 996
+      - 1364
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -740,6 +1156,12 @@ translation_segments:
     review_status: review
     original: ドククラゲ Lv50 つぼをつく どくづき ハイドロポンプ みずのはどう とくせい クリアボディ もちもの こだわりスカーフ
     translation: 毒刺水母 Lv50 点穴 毒击 水炮 水之波动 特性 恒净之躯 携带物品 讲究围巾
+    scan_box:
+      - 597
+      - 1372
+      - 990
+      - 1475
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -750,6 +1172,12 @@ translation_segments:
     review_status: review
     original: フワライド Lv50 たくわえる バトンタッチ あやしいかぜ まもる とくせい かるわざ もちもの オボンのみ
     translation: 随风球 Lv50 蓄力 接棒 奇异之风 守住 特性 轻装 携带物品 文柚果
+    scan_box:
+      - 597
+      - 1483
+      - 990
+      - 1589
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -760,6 +1188,12 @@ translation_segments:
     review_status: review
     original: エテボース Lv50 ねこだまし ちょうはつ でんじは あまごい とくせい テクニシャン もちもの きあいのタスキ
     translation: 双尾怪手 Lv50 击掌奇袭 挑衅 电磁波 求雨 特性 技术高手 携带物品 气势披带
+    scan_box:
+      - 597
+      - 1597
+      - 990
+      - 1704
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -770,6 +1204,12 @@ translation_segments:
     review_status: review
     original: ビーダル Lv50 なみのり 10まんボルト かげぶんしん みがわり とくせい たんじゅん もちもの たべのこし
     translation: 大尾狸 Lv50 冲浪 十万伏特 影子分身 替身 特性 单纯 携带物品 吃剩的东西
+    scan_box:
+      - 597
+      - 1712
+      - 990
+      - 1819
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -780,6 +1220,12 @@ translation_segments:
     review_status: review
     original: 大将戦 VS マッスルワシのケッキングを見てくれー！チーム
     translation: 大将战 VS 看看肌肉鹰的请假王吧！队
+    scan_box:
+      - 1019
+      - 1180
+      - 1425
+      - 1364
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -790,6 +1236,12 @@ translation_segments:
     review_status: review
     original: ケッキング Lv50 おんがえし アームハンマー ほのおのパンチ シャドークロー とくせい なまけ もちもの こだわりハチマキ
     translation: 请假王 Lv50 报恩 臂锤 火焰拳 暗影爪 特性 懒惰 携带物品 讲究头带
+    scan_box:
+      - 1025
+      - 1372
+      - 1419
+      - 1475
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -800,6 +1252,12 @@ translation_segments:
     review_status: review
     original: フライゴン Lv50 りゅうせいぐん とんぼがえり フェイント まもる とくせい ふゆう もちもの しろいハーブ
     translation: 沙漠蜻蜓 Lv50 流星群 急速折返 佯攻 守住 特性 飘浮 携带物品 白色香草
+    scan_box:
+      - 1025
+      - 1483
+      - 1419
+      - 1589
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -810,6 +1268,12 @@ translation_segments:
     review_status: review
     original: ヨノワール Lv50 ふういん まもる トリックルーム かげうち とくせい プレッシャー もちもの たべのこし
     translation: 黑夜魔灵 Lv50 封印 守住 戏法空间 影子偷袭 特性 压迫感 携带物品 吃剩的东西
+    scan_box:
+      - 1025
+      - 1597
+      - 1419
+      - 1704
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -820,6 +1284,12 @@ translation_segments:
     review_status: review
     original: ハッサム Lv50 フェイント バレットパンチ シザークロス かわらわり とくせい テクニシャン もちもの オッカのみ
     translation: 巨钳螳螂 Lv50 佯攻 子弹拳 十字剪 劈瓦 特性 技术高手 携带物品 欧可果
+    scan_box:
+      - 1025
+      - 1712
+      - 1419
+      - 1819
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -830,6 +1300,12 @@ translation_segments:
     review_status: review
     original: ※バトルはゲームフリーク社内の
     translation: ※对战是在GAME FREAK公司内部进行的
+    scan_box:
+      - 0
+      - 582
+      - 23
+      - 815
+    writing_direction: vertical
   - speaker: image
     type: image
     kind: image
@@ -840,6 +1316,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2008-12-platinum-battle-dojo/pages/p074_battle_round1_2.jpg"
     alt: Nintendo DREAM 2008年12月号（Vol.176） P.74
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: BATTLE 1 太田先生 VS おしょう 读懂了对手的战略、打出了自己战法的小胜获胜！
     type: heading
     kind: text
@@ -851,6 +1329,12 @@ translation_segments:
     review_status: review
     original: BATTLE 1 太田さん VS おしょう 相手の戦略を読み、自分の戦い方ができたおしょうに軍配！
     translation: BATTLE 1 太田先生 VS おしょう 读懂了对手的战略、打出了自己战法的小胜获胜！
+    scan_box:
+      - 75
+      - 150
+      - 1341
+      - 254
+    writing_direction: horizontal
   - speaker: 这场对战的视频编号 Nintendo DREAM视角 09-62184-25413
     type: heading
     kind: text
@@ -862,6 +1346,12 @@ translation_segments:
     review_status: review
     original: このバトルのビデオナンバーニンドリ視点 09-62184-25413
     translation: 这场对战的视频编号 Nintendo DREAM视角 09-62184-25413
+    scan_box:
+      - 87
+      - 274
+      - 489
+      - 414
+    writing_direction: horizontal
   - speaker: 各队的战术目标就是这个！
     type: heading
     kind: text
@@ -873,6 +1363,12 @@ translation_segments:
     review_status: review
     original: 各チームの狙いはコレだ！
     translation: 各队的战术目标就是这个！
+    scan_box:
+      - 106
+      - 428
+      - 460
+      - 485
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -883,6 +1379,12 @@ translation_segments:
     review_status: review
     original: ゲームフリーク太田さんのチームは、攻撃特化＆粘り型の複合チーム。ルンパッパとドータクンで粘れる状態を作り出して、ラグラージとウインディで相手にプレッシャーを与えていくバランス型に近い戦い方を狙う。一方おしょうのチームは「あられ」状態での「ふぶき」を狙うわかりやすい天気チーム。それゆえに天気を変えられると苦しい展開に。
     translation: GAME FREAK太田先生的队伍是攻击特化与耐久型的复合队伍。用乐天河童和青铜钟制造出能持续站场的状态，再用巨沼怪和风速狗向对手施压，采取接近平衡型的打法。另一方面，小翔的队伍是瞄准「冰雹」状态下使用「暴风雪」的易懂天气队。因此一旦天气被改变就会陷入苦战。
+    scan_box:
+      - 87
+      - 489
+      - 492
+      - 698
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -893,6 +1395,12 @@ translation_segments:
     review_status: review
     original: ターン表の見方・ポケモンがわざを出した場合はわざ名、行動できなかった場合はその原因、行動の前にひんしになった場合は―、交代した場合は交代と記載・各ターンでひんしになったポケモンはそのターンの下に記載
     translation: 回合表的看法：宝可梦使出招式时写招式名，未能行动时写其原因，行动前已濒死则写―，替换则写替换。各回合中濒死的宝可梦写在该回合下方。
+    scan_box:
+      - 101
+      - 711
+      - 508
+      - 805
+    writing_direction: horizontal
   - speaker: note
     type: table
     kind: text
@@ -1049,6 +1557,12 @@ translation_segments:
         - LOSE
         - WIN
         - ""
+    scan_box:
+      - 514
+      - 260
+      - 924
+      - 809
+    writing_direction: horizontal
   - speaker: CHECK 第1回合 用「挑衅」维持优势局面
     type: heading
     kind: text
@@ -1060,6 +1574,12 @@ translation_segments:
     review_status: review
     original: CHECK 1ターン目 「ちょうはつ」で優位な状況を維持
     translation: CHECK 第1回合 用「挑衅」维持优势局面
+    scan_box:
+      - 940
+      - 256
+      - 1341
+      - 311
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1070,6 +1590,12 @@ translation_segments:
     review_status: review
     original: 結論からいえば1ターン目が勝負の分かれ目に。初手でおしょうのユキメノコが「ちょうはつ」を使いルンパッパが「ちょうはつ」状態に。これで太田さんのルンパッパは粘るという役割を果たせなくなり不利な展開に。逆におしょう側は相手のへんかわざを気にせず攻撃に集中できるようになった。
     translation: 从结论来说，第1回合成了胜负的分水岭。开局小翔的雪妖女使出「挑衅」，乐天河童陷入「挑衅」状态。这样一来，太田先生的乐天河童就无法履行持续站场的职责，陷入不利局面。反过来，小翔一方则不必在意对手的变化招式，可以集中进攻。
+    scan_box:
+      - 948
+      - 330
+      - 1347
+      - 508
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1080,6 +1606,12 @@ translation_segments:
     review_status: review
     original: 自分の有利な状態を維持するために相手のへんかわざを封じる「ちょうはつ」。ドータクンなどには特に有効ユキメノコはちょうはつした！
     translation: 为了维持对自己有利的状态，封锁对手变化招式的「挑衅」。对青铜钟等尤其有效。雪妖女使出了挑衅！
+    scan_box:
+      - 957
+      - 547
+      - 1350
+      - 788
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1090,6 +1622,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 957
+      - 782
+      - 1051
+      - 799
+    writing_direction: horizontal
   - speaker: BATTLE 2 中津井先生 VS 小逸 对战也需要运气！运气强的是哪边？
     type: heading
     kind: text
@@ -1101,6 +1639,12 @@ translation_segments:
     review_status: review
     original: BATTLE 2 中津井さん VS いっさ バトルには運も必要！ 強運なのはどっち？
     translation: BATTLE 2 中津井先生 VS 小逸 对战也需要运气！运气强的是哪边？
+    scan_box:
+      - 96
+      - 815
+      - 1358
+      - 909
+    writing_direction: horizontal
   - speaker: 这场对战的视频编号 Nintendo DREAM视角 07-83435-77218
     type: heading
     kind: text
@@ -1112,6 +1656,12 @@ translation_segments:
     review_status: review
     original: このバトルのビデオナンバーニンドリ視点 07-83435-77218
     translation: 这场对战的视频编号 Nintendo DREAM视角 07-83435-77218
+    scan_box:
+      - 106
+      - 926
+      - 500
+      - 1065
+    writing_direction: horizontal
   - speaker: 各队的战术目标就是这个！
     type: heading
     kind: text
@@ -1123,6 +1673,12 @@ translation_segments:
     review_status: review
     original: 各チームの狙いはコレだ！
     translation: 各队的战术目标就是这个！
+    scan_box:
+      - 123
+      - 1079
+      - 478
+      - 1137
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1133,6 +1689,12 @@ translation_segments:
     review_status: review
     original: 中津井さんは、トドゼルガの「ぜったいれいど」と「じわれ」にすべてを賭けたチーム。ほかの3匹はトドゼルガをサポート。対するいっさもビーダルにすべてを託す。フワライドの「たくわえる」を「バトンタッチ」でビーダルに。とくせい「たんじゅん」の効果で能力は急上昇！ さらにドククラゲの「つぼをつく」でさらなるパワーアップを狙う。
     translation: 中津井先生的队伍，是把一切都押在帝牙海狮的「绝对零度」和「地裂」上的队伍。其余3只负责支援帝牙海狮。对手いっさ则把一切都托付给大尾狸。用「接棒」把随风球的「蓄力」传给大尾狸。凭借特性「单纯」的效果，能力急剧上升！再用毒刺水母的「点穴」谋求进一步提升力量。
+    scan_box:
+      - 106
+      - 1141
+      - 511
+      - 1350
+    writing_direction: horizontal
   - speaker: CHECK 第3回合 「一击必杀」的优势
     type: heading
     kind: text
@@ -1144,6 +1706,12 @@ translation_segments:
     review_status: review
     original: CHECK 3ターン目 「いちげきひっさつ」の強み
     translation: CHECK 第3回合 「一击必杀」的优势
+    scan_box:
+      - 529
+      - 924
+      - 931
+      - 979
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1154,6 +1722,12 @@ translation_segments:
     review_status: review
     original: 「ぜったいれいど」や「じわれ」は、相手のぼうぎょなどにかかわらず一撃で相手のHP分のダメージを与える。そのため、フワライドが3回「たくわえる」を使っていたが問答無用でひんしに。
     translation: 「绝对零度」和「地裂」不管对手的防御等如何，都能一击造成相当于对手HP的伤害。因此，尽管随风球已经用了3次「蓄力」，还是被毫不讲理地打至濒死。
+    scan_box:
+      - 534
+      - 983
+      - 937
+      - 1110
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1164,6 +1738,12 @@ translation_segments:
     review_status: review
     original: 能力を上げて戦ういっさチームにとっては最悪の相性とも言える一撃必殺のわざ…運がないです
     translation: 对于靠提升能力来战斗的いっさ队来说，这可以说是最糟糕的相性——一击必杀的招式……运气真差。
+    scan_box:
+      - 821
+      - 1167
+      - 940
+      - 1346
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1174,6 +1754,12 @@ translation_segments:
     review_status: review
     original: あいての トドゼルガは ぜったいれいどを つかった！
     translation: 对手的 帝牙海狮 使用了 绝对零度！
+    scan_box:
+      - 543
+      - 1286
+      - 812
+      - 1331
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1184,6 +1770,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 540
+      - 1333
+      - 649
+      - 1350
+    writing_direction: horizontal
   - speaker: CHECK 第5回合 运气的差距在此显现！
     type: heading
     kind: text
@@ -1195,6 +1787,12 @@ translation_segments:
     review_status: review
     original: CHECK 5ターン目 運の差はココに現れる！
     translation: CHECK 第5回合 运气的差距在此显现！
+    scan_box:
+      - 960
+      - 913
+      - 1358
+      - 969
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1205,6 +1803,12 @@ translation_segments:
     review_status: review
     original: 両チームとも運を味方に！ というコンセプトを秘めていたが、早いターンで「ぜったいれいど」を当てた中津井さんに運は傾く。対するいっさの運は急降下。ひるむ、急所に当たる…と不運は続く。
     translation: 两队都暗藏着「让运气站在自己这边！」的理念，但运气偏向了在较早回合命中「绝对零度」的中津井先生。相对的，いっさ的运气则急转直下。畏缩、被击中要害……不幸接连不断。
+    scan_box:
+      - 963
+      - 979
+      - 1364
+      - 1104
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1215,6 +1819,12 @@ translation_segments:
     review_status: review
     original: 「かげぶんしん」で回避しやすくなっているはずだったのだが、一度も回避せず。それどころか急所に…
     translation: 本应通过「影子分身」变得更容易闪避，却一次也没能闪开。岂止如此，还被击中了要害……
+    scan_box:
+      - 1250
+      - 1141
+      - 1367
+      - 1319
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1225,6 +1835,12 @@ translation_segments:
     review_status: review
     original: きゅうしょに あたった！
     translation: 击中了 要害！
+    scan_box:
+      - 980
+      - 1276
+      - 1124
+      - 1298
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1235,6 +1851,12 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+    scan_box:
+      - 972
+      - 1315
+      - 1077
+      - 1333
+    writing_direction: horizontal
   - speaker: note
     type: table
     kind: text
@@ -1351,6 +1973,12 @@ translation_segments:
         - ""
         - 双尾怪手陷入濒死
         - ""
+    scan_box:
+      - 111
+      - 1364
+      - 517
+      - 1796
+    writing_direction: horizontal
   - speaker: note
     type: table
     kind: text
@@ -1459,6 +2087,12 @@ translation_segments:
         - 绝对零度
         - ""
         - ""
+    scan_box:
+      - 540
+      - 1364
+      - 946
+      - 1792
+    writing_direction: horizontal
   - speaker: note
     type: table
     kind: text
@@ -1559,6 +2193,12 @@ translation_segments:
         - WIN
         - LOSE
         - ""
+    scan_box:
+      - 972
+      - 1352
+      - 1373
+      - 1714
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1569,6 +2209,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2008-12-platinum-battle-dojo/pages/p075_battle_round3_4.jpg"
     alt: Nintendo DREAM 2008年12月号（Vol.176） P.75
     review_status: ready
+    width: 1448
+    height: 2048
   - speaker: ALL ABOUT 宝可梦 GAME FREAK 对战篇 ～白热对战～
     type: heading
     kind: text
@@ -1580,6 +2222,12 @@ translation_segments:
     review_status: review
     original: ALL ABOUT ポケットモンスター ゲームフリーク バトル編 〜白熱対戦〜
     translation: ALL ABOUT 宝可梦 GAME FREAK 对战篇 ～白热对战～
+    scan_box:
+      - 634
+      - 59
+      - 1400
+      - 109
+    writing_direction: horizontal
   - speaker: BATTLE 3 西野先生 VS マッスル 本以为会是卡比兽对请假王的力量对决，没想到……
     type: heading
     kind: text
@@ -1591,6 +2239,12 @@ translation_segments:
     review_status: review
     original: BATTLE 3 西野さん VS マッスル カビゴン対ケッキングのパワー対決かと思いきや…
     translation: BATTLE 3 西野先生 VS マッスル 本以为会是卡比兽对请假王的力量对决，没想到……
+    scan_box:
+      - 125
+      - 123
+      - 1394
+      - 219
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1601,6 +2255,12 @@ translation_segments:
     review_status: review
     original: このバトルのビデオナンバー
     translation: 这场对战的视频编号
+    scan_box:
+      - 138
+      - 229
+      - 537
+      - 276
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1611,6 +2271,12 @@ translation_segments:
     review_status: review
     original: ニンドリ視点 05-31886-31274
     translation: Nintendo DREAM视角 05-31886-31274
+    scan_box:
+      - 138
+      - 276
+      - 537
+      - 352
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1621,6 +2287,23 @@ translation_segments:
     review_status: review
     original: "1ターン\n西野さん\nトリック\nねこだまし\nゴウカザルひんしに\n\nマッスル\nおんがえし\nフェイント\n\n2ターン\n西野さん\nカビゴンに交代\nエアスラッシュ\n\nマッスル\nヨノワールに交代\nまもる\n\n3ターン\n西野さん\nのろい\nエアスラッシュ\n\nマッスル\nふういん\nとんぼがえり\n\n4ターン\n西野さん\nのろい\nエアスラッシュ\n\nマッスル\nかげうち\nアームハンマー\n\n5ターン\n西野さん\nのろい\nエアスラッシュ\n\nマッスル\nまもる\nハッサムに交代\n\n6ターン\n西野さん\nほのおのパンチ\nエアスラッシュ\n\nマッスル\nフライゴンに交代\nバレットパンチ\nフライゴンひんしに\n\n7ターン\n西野さん\nほのおのパンチ\nエアスラッシュ\n\nマッスル\n―\nかわらわり\nケッキングひんしに\nハッサムひんしに\n\n8ターン\n西野さん\nほのおのパンチ\nエアスラッシュ\n\nマッスル\nひるんで動けない\n\n9ターン\n西野さん\nほのおのパンチ\nエアスラッシュ\n\nマッスル\nふういん\nヨノワールひんしに\n\nWIN\nLOSE"
     translation: "第1回合\n西野先生\n戏法\n击掌奇袭\n烈焰猴濒死\n\nマッスル\n报恩\n佯攻\n\n第2回合\n西野先生\n换上卡比兽\n空气之刃\n\nマッスル\n换上黑夜魔灵\n守住\n\n第3回合\n西野先生\n诅咒\n空气之刃\n\nマッスル\n封印\n急速折返\n\n第4回合\n西野先生\n诅咒\n空气之刃\n\nマッスル\n暗影偷袭\n臂锤\n\n第5回合\n西野先生\n诅咒\n空气之刃\n\nマッスル\n守住\n换上巨钳螳螂\n\n第6回合\n西野先生\n火焰拳\n空气之刃\n\nマッスル\n换上沙漠蜻蜓\n子弹拳\n沙漠蜻蜓濒死\n\n第7回合\n西野先生\n火焰拳\n空气之刃\n\nマッスル\n―\n劈瓦\n请假王濒死\n巨钳螳螂濒死\n\n第8回合\n西野先生\n火焰拳\n空气之刃\n\nマッスル\n因畏缩无法行动\n\n第9回合\n西野先生\n火焰拳\n空气之刃\n\nマッスル\n封印\n黑夜魔灵濒死\n\nWIN\nLOSE"
+    scan_box:
+      - 563
+      - 229
+      - 970
+      - 631
+    scan_boxes:
+      - 
+        - 563
+        - 229
+        - 970
+        - 631
+      - 
+        - 995
+        - 231
+        - 1394
+        - 641
+    writing_direction: horizontal
   - speaker: 各队的意图就是这个！
     type: heading
     kind: text
@@ -1632,6 +2315,12 @@ translation_segments:
     review_status: review
     original: 各チームの狙いはコレだ！
     translation: 各队的意图就是这个！
+    scan_box:
+      - 135
+      - 381
+      - 533
+      - 442
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1642,6 +2331,12 @@ translation_segments:
     review_status: review
     original: 西野さんのチームは攻撃重視のバランスチーム…と思いきや、実は「トリック」や「リサイクル」など相手のペースを乱すようなへんかわざが用意されており、予想できないトリッキーなチーム。一方マッスルは、見た目どおりのごり押しチーム。「フェイント」や「ふういん」で相手の「まもる」を封じてケッキングの強烈な一撃をたたき込むのが狙い。
     translation: 西野先生的队伍看似是重视攻击的平衡型队伍……但实际却准备了「戏法」「回收利用」等能打乱对手节奏的变化招式，是一支难以预测的诡计型队伍。另一方面，マッスル则是外表所见的大力压制型队伍。其意图是用「佯攻」和「封印」封住对手的「守住」，再让请假王打出强烈的一击。
+    scan_box:
+      - 133
+      - 451
+      - 537
+      - 653
+    writing_direction: horizontal
   - speaker: CHECK 第1回合 因「戏法」出现意外展开！
     type: heading
     kind: text
@@ -1653,6 +2348,12 @@ translation_segments:
     review_status: review
     original: CHECK 1ターン目 「トリック」で思わぬ展開に！
     translation: CHECK 第1回合 因「戏法」出现意外展开！
+    scan_box:
+      - 130
+      - 684
+      - 746
+      - 754
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1663,6 +2364,12 @@ translation_segments:
     review_status: review
     original: 先手をとったのはマッスル。狙いどおりにケッキングの強烈な「おんがえし」でゴウカザルをひんしに追い込む。しかし、予想していなかった西野さんのメタグロスの「トリック」が発動し「どくどくだま」と「こだわりハチマキ」を交換されてしまう。これでこのターン以降、ケッキングのこうげきが下がってしまい、マッスルの狙いは一気に崩されてしまう。逆に西野さんは狙いどおりに相手のペースを乱すことに成功する。
     translation: 抢得先手的是マッスル。如其所愿，用请假王强烈的「报恩」将烈焰猴逼入濒死。然而，未曾预料的西野先生巨金怪的「戏法」发动，将「剧毒宝珠」与「讲究头带」交换了。这样一来，从这一回合起请假王的攻击下降，マッスル的意图被一举打乱。相反，西野先生则成功如其所愿地打乱了对手的节奏。
+    scan_box:
+      - 130
+      - 766
+      - 446
+      - 1112
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1673,6 +2380,12 @@ translation_segments:
     review_status: review
     original: あいての メタグロスは トリックを つかった！
     translation: 对手的 巨金怪 使用了 戏法！
+    scan_box:
+      - 450
+      - 963
+      - 738
+      - 1008
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1683,6 +2396,12 @@ translation_segments:
     review_status: review
     original: Upper screen↑まさかメタグロスが「トリック」を使うとは予想していなかったマッスル。このターンでマッスルはペースを乱され、以後厳しい戦いを強いられることに
     translation: Upper screen↑没想到巨金怪会使用「戏法」，这是马索尔没有预料到的。这一回合马索尔的节奏被打乱，此后被迫陷入苦战。
+    scan_box:
+      - 445
+      - 1014
+      - 746
+      - 1108
+    writing_direction: horizontal
   - speaker: CHECK 第5回合 未能防住「诅咒」，胜负已定！
     type: heading
     kind: text
@@ -1694,6 +2413,12 @@ translation_segments:
     review_status: review
     original: CHECK 5ターン目 「のろい」を防げず勝負あり！
     translation: CHECK 第5回合 未能防住「诅咒」，胜负已定！
+    scan_box:
+      - 776
+      - 684
+      - 1392
+      - 754
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1704,6 +2429,23 @@ translation_segments:
     review_status: review
     original: 1ターン目の「トリック」でペースをつかんだ西野さんは役目を終えたメタグロスに替えてカビゴンを登場させ「のろい」を連発。マッスルはこれを防ぐ手段を持っておらず、さらにはケッキングのこうげきも低下してしまったため、倒すことも困難な状況に追い込まれることになり、勝負あり。「のろい」が楽に使えたのもすべて1ターン目の「トリック」が大きかった。
     translation: 在第1回合用「戏法」掌握节奏的西野，让完成任务的巨金怪退场，换上卡比兽连续使用「诅咒」。马索尔没有防御手段，再加上请假王的攻击也下降了，陷入难以击倒对手的境地，胜负已定。「诅咒」能轻松使用，全都得益于第1回合的「戏法」。
+    scan_box:
+      - 776
+      - 766
+      - 1064
+      - 844
+    scan_boxes:
+      - 
+        - 776
+        - 766
+        - 1064
+        - 844
+      - 
+        - 1072
+        - 766
+        - 1392
+        - 981
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1714,6 +2456,12 @@ translation_segments:
     review_status: review
     original: カビゴン Lv50
     translation: 卡比兽 Lv50
+    scan_box:
+      - 779
+      - 864
+      - 902
+      - 887
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1724,6 +2472,12 @@ translation_segments:
     review_status: review
     original: トゲキッス Lv50
     translation: 波克基斯 Lv50
+    scan_box:
+      - 779
+      - 891
+      - 902
+      - 913
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1734,6 +2488,12 @@ translation_segments:
     review_status: review
     original: ヨノワール Lv50
     translation: 黑夜魔灵 Lv50
+    scan_box:
+      - 938
+      - 963
+      - 1061
+      - 985
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1744,6 +2504,12 @@ translation_segments:
     review_status: review
     original: ハッサム Lv50
     translation: 巨钳螳螂 Lv50
+    scan_box:
+      - 938
+      - 989
+      - 1061
+      - 1012
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1754,6 +2520,12 @@ translation_segments:
     review_status: review
     original: あいての カビゴンの ぼうぎょが あがった！
     translation: 对手的卡比兽的防御提高了！
+    scan_box:
+      - 779
+      - 1028
+      - 1061
+      - 1073
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1764,6 +2536,12 @@ translation_segments:
     review_status: review
     original: Upper screen←予定どおりにカビゴンに「のろい」を使わせることに成功した西野さん。どんどん能力が上がっていきマッスルはなすすべなしの状態に追い込まれてしまった。これにより、チームの能力を最大限に生かした西野さんが勝利
     translation: Upper screen←按计划成功让卡比兽使用了「诅咒」的西野。能力不断提升，马索尔被逼入束手无策的状态。由此，将队伍能力发挥到极限的西野获胜。
+    scan_box:
+      - 776
+      - 1079
+      - 1392
+      - 1108
+    writing_direction: horizontal
   - speaker: 激战结束后的训练家们感言
     type: heading
     kind: text
@@ -1775,6 +2553,12 @@ translation_segments:
     review_status: review
     original: 熱戦を終えたトレーナーたちのコメント
     translation: 激战结束后的训练家们感言
+    scan_box:
+      - 130
+      - 1133
+      - 833
+      - 1192
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1785,6 +2569,12 @@ translation_segments:
     review_status: review
     original: 太田さん粘れなくて残念ルンパッパ中心に粘りながら戦うチームだったので「ちょうはつ」されたときにまずいなと思いました。バトルは、たくさん対戦して学ぶのが大事ですので、皆さんも負けを恐れずに！
     translation: 太田：没能坚持住很遗憾。我的队伍是以乐天河童为中心边周旋边战斗的，所以被「挑衅」的时候觉得不妙。对战就是要多打多学，大家也不要怕输！
+    scan_box:
+      - 127
+      - 1194
+      - 478
+      - 1366
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1795,6 +2585,12 @@ translation_segments:
     review_status: review
     original: おじゃり祈ってよかったです！てんきを変えられませんように、ほのおタイプがきませんように、と祈ってました。太田さんのウインディが登場したとき、内心かなりビクビクしてたのは秘密です。勝ててうれしいです。
     translation: 我祈祷了，真是太好了！我一直在祈祷天气不要被改变、不要出现火属性。太田的风速狗登场时，其实我心里相当紧张，这是秘密。能赢很高兴。
+    scan_box:
+      - 481
+      - 1194
+      - 830
+      - 1366
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1805,6 +2601,12 @@ translation_segments:
     review_status: review
     original: 中津井さんあえて運だのみ手堅い戦い方ではなく、運を生かす方向に持っていったのがうまくハマりました。今回のように戦術だけでなく、運も大切なので、いっしょに遊ぶ仲間を作って気軽にバトルを楽しんでほしいです。
     translation: 中津井先生没有选择只靠运气、稳扎稳打的战法，而是把思路引向活用运气，这一点恰好奏效了。像这次这样，不只是战术，运气也很重要，希望大家能结交一起玩的伙伴，轻松享受对战。
+    scan_box:
+      - 127
+      - 1368
+      - 478
+      - 1567
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1815,6 +2617,12 @@ translation_segments:
     review_status: review
     original: うっきービーダル…ごめんネ最高の状態でビーダルを登場させられる！ そう思った瞬間がありました…が結果はご覧のとおり。若干相性が悪かったなーと思ったりしますが負けは負け。強いビーダルを見せたかったデス。
     translation: 树猴大尾狸……抱歉啦，我确实有过一瞬间觉得能让大尾狸以最佳状态出场！可结果就如各位所见。虽然觉得属性相性有点差，但输了就是输了。我本想展示一只强大的大尾狸。
+    scan_box:
+      - 481
+      - 1368
+      - 830
+      - 1567
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1825,6 +2633,12 @@ translation_segments:
     review_status: review
     original: 西野さん新しいわざで！『プラチナ』で新しく増えたわざを使ってみようと思い「トリック」などを使ってみました。結果、「トリック」が決め手になり勝てました。最後は大好きなカビゴンで勝ててうれしかったです。
     translation: 西野先生用新招式！我想在《白金》里试试新增的招式，就用了「戏法」等。结果「戏法」成了制胜关键，赢下了比赛。最后能用最喜欢的卡比兽获胜，我很开心。
+    scan_box:
+      - 127
+      - 1569
+      - 478
+      - 1786
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1835,6 +2649,12 @@ translation_segments:
     review_status: review
     original: "マッスル男ならケッキング！『プラチナ』は「フェイント」を覚えられるポケモンが増えたので、「まもる」を阻止しつつケッキングでガンガン攻める作戦だったが…正直、まだ実戦不足。『プラチナ』で修行のし直しじゃ!!"
     translation: 要论肌肉男当然得是请假王！《白金》里能学会「佯攻」的宝可梦增多了，所以我制定了阻止「守住」、用请假王猛攻的战术……老实说，实战经验还不够。得在《白金》里重新修行才行！！
+    scan_box:
+      - 481
+      - 1569
+      - 830
+      - 1786
+    writing_direction: horizontal
   - speaker: 站上对战巅峰的也许就是你！
     type: heading
     kind: text
@@ -1846,6 +2666,12 @@ translation_segments:
     review_status: review
     original: バトルの頂点に立つのはキミかもしれない！
     translation: 站上对战巅峰的也许就是你！
+    scan_box:
+      - 864
+      - 1137
+      - 1387
+      - 1194
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1856,6 +2682,12 @@ translation_segments:
     review_status: review
     original: 「ポケモンワールドチャンピオンシップス2009」では『プラチナ』を使ったバトル大会が行われ、世界一が決定！ その日本代表を決める予選が10月からスタート。参加要項などは下記のとおりだ。
     translation: 「宝可梦世界锦标赛2009」将举办使用《白金》的对战大会，决出世界第一！决定日本代表的预选赛从10月开始。参加办法等如下。
+    scan_box:
+      - 872
+      - 1210
+      - 1377
+      - 1339
+    writing_direction: horizontal
   - speaker: 参加办法
     type: heading
     kind: text
@@ -1867,6 +2699,12 @@ translation_segments:
     review_status: review
     original: 参加要項
     translation: 参加办法
+    scan_box:
+      - 872
+      - 1341
+      - 1377
+      - 1380
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1877,6 +2715,12 @@ translation_segments:
     review_status: review
     original: 出場条件 カテゴリーA…1997年以降に生まれた方のみ参加できます。カテゴリーB…1996年以前に生まれた方のみ参加できます。
     translation: 出场条件 A组……仅限1997年以后出生者参加。B组……仅限1996年以前出生者参加。
+    scan_box:
+      - 872
+      - 1382
+      - 1377
+      - 1440
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1887,6 +2731,12 @@ translation_segments:
     review_status: review
     original: 参加受付 事前応募抽せん制です。参加申し込みは、対象大会によって受付期間を設けています。第1次受付期間は終了しました。第2次受付期間：2008年9月19日(金)〜10月27日(月)
     translation: 参加受理 采取事先报名抽签制。参加报名按各对象大会设有受理期间。第1次受理期间已结束。第2次受理期间：2008年9月19日（周五）～10月27日（周一）
+    scan_box:
+      - 872
+      - 1442
+      - 1377
+      - 1520
+    writing_direction: horizontal
   - speaker: 対象大会
     type: paragraph
     kind: text
@@ -1897,6 +2747,12 @@ translation_segments:
     review_status: review
     original: 山形・滋賀・北海道・福島・京都・鳥取・青森・沖縄・福井・石川・和歌山・岩手・山梨・島根・愛媛第3次受付期間：2008年10月17日(金)〜11月24日(月)
     translation: 对象大会 山形、滋贺、北海道、福岛、京都、鸟取、青森、冲绳、福井、石川、和歌山、岩手、山梨、岛根、爱媛 第3次受理期间：2008年10月17日（周五）～11月24日（周一）
+    scan_box:
+      - 872
+      - 1522
+      - 1377
+      - 1599
+    writing_direction: horizontal
   - speaker: 対象大会
     type: paragraph
     kind: text
@@ -1907,6 +2763,12 @@ translation_segments:
     review_status: review
     original: 大阪・富山・高知・熊本・佐賀・栃木・愛知・広島・大分第4次受付期間：2008年10月31日(金)〜12月8日(月)
     translation: 对象大会 大阪、富山、高知、熊本、佐贺、栃木、爱知、广岛、大分 第4次受理期间：2008年10月31日（周五）～12月8日（周一）
+    scan_box:
+      - 872
+      - 1602
+      - 1377
+      - 1659
+    writing_direction: horizontal
   - speaker: 対象大会
     type: paragraph
     kind: text
@@ -1917,6 +2779,12 @@ translation_segments:
     review_status: review
     original: 神奈川・三重・香川・宮崎・茨城・群馬・岡山・奈良・東京・岐阜・長崎
     translation: 对象大会 神奈川、三重、香川、宫崎、茨城、群马、冈山、奈良、东京、岐阜、长崎
+    scan_box:
+      - 872
+      - 1661
+      - 1377
+      - 1698
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1927,4 +2795,10 @@ translation_segments:
     review_status: review
     original: "応募方法やそのほかの詳しい参加要項は ポケットモンスターオフィシャルサイト http://www.pokemon.co.jp/"
     translation: "报名方法及其他详细参加事项请见宝可梦官方网站 http://www.pokemon.co.jp/"
+    scan_box:
+      - 864
+      - 1700
+      - 1387
+      - 1786
+    writing_direction: horizontal
 ---

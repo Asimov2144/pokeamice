@@ -103,6 +103,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p137_p135_ch6_interview_part1.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.135
     review_status: ready
+    width: 1388
+    height: 2048
   - speaker: 开发人员访谈
     type: heading
     kind: text
@@ -113,7 +115,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 開発スタッフ・インタヴュー
-    translation: "开发人员访谈"
+    translation: 开发人员访谈
+    scan_box:
+      - 428
+      - 735
+      - 947
+      - 791
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -124,6 +132,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p138_p136_ch6_interview_part2.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.136
     review_status: ready
+    width: 1440
+    height: 2048
   - speaker: 孕育并培育宝可梦的人们
     type: heading
     kind: text
@@ -134,7 +144,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンを生み育てた人々
-    translation: "孕育宝可梦的人们"
+    translation: 孕育宝可梦的人们
+    scan_box:
+      - 170
+      - 123
+      - 1272
+      - 213
+    writing_direction: horizontal
   - speaker: ◆《宝可梦》开发人员访谈◆
     type: heading
     kind: text
@@ -145,7 +161,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ◆『ポケットモンスター』開発スタッフ・インタヴュー◆
-    translation: "◆《宝可梦》开发人员访谈◆"
+    translation: ◆《宝可梦》开发人员访谈◆
+    scan_box:
+      - 204
+      - 240
+      - 1231
+      - 293
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -156,6 +178,12 @@ translation_segments:
     review_status: review
     original: 150種類ものポケモンが暮らす世界を作った開発スタッフたち。長かった制作期間も終わり、ほっと一息ついている最中の彼らに、生みの苦しみと、その先に待っていた喜びを語ってもらおう。
     translation: 开发人员们创造了一个栖息着150种宝可梦的世界。漫长的制作期终于结束，在他们稍作喘息之际，请他们谈谈创作的艰辛，以及在那之后等待着的喜悦。
+    scan_box:
+      - 279
+      - 322
+      - 1184
+      - 449
+    writing_direction: horizontal
   - speaker: 漫长的游戏制作期及其间发生的变化
     type: heading
     kind: text
@@ -166,7 +194,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 長かったゲーム制作期間とそのあいだに起こった変化
-    translation: "漫长的游戏制作期及其间发生的变化"
+    translation: 漫长的游戏制作期及其间发生的变化
+    scan_box:
+      - 157
+      - 508
+      - 638
+      - 602
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -177,6 +211,12 @@ translation_segments:
     review_status: review
     original: このゲームは制作期間がかなり長くかかったそうですが、ようやくすべての作業を終えられた感想をお願いします。
     translation: 听说这款游戏的制作期相当长，请谈谈终于完成全部工作后的感想。
+    scan_box:
+      - 121
+      - 635
+      - 687
+      - 762
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -187,6 +227,23 @@ translation_segments:
     review_status: review
     original: このゲームは、僕がゲームフリークを会社として設立したばかりの頃に企画書を書いていますから、完成までに6年かかったことになります。もちろん、そのあいだにもいくつか他のゲームを作るために『ポケットモンスター』の作業を休んでいる期間もありました。ですから、実際に作業をしていたのは、最初の1年と、最後の3年間ぐらいでしょうか。それでも4年かかってますが(笑)。
     translation: 这款游戏是在我刚刚把GAME FREAK作为公司设立起来的时候写的企划书，所以到完成为止花了6年。当然，这期间也有为了制作其他几款游戏而暂停《宝可梦》作业的时期。因此，实际进行作业的，大概是第一年和最后3年左右吧。即便如此也花了4年（笑）。
+    scan_box:
+      - 121
+      - 772
+      - 687
+      - 989
+    scan_boxes:
+      - 
+        - 121
+        - 772
+        - 687
+        - 989
+      - 
+        - 763
+        - 494
+        - 1328
+        - 672
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -197,6 +254,12 @@ translation_segments:
     review_status: review
     original: 今日、ここにお集まりいただいたスタッフの皆さんが、4年間総がかりで作ってこられたのですか?
     translation: 今天聚集到这里的各位工作人员，是4年间全体出动来制作的吗？
+    scan_box:
+      - 763
+      - 682
+      - 1328
+      - 809
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -207,6 +270,12 @@ translation_segments:
     review_status: review
     original: いえ、途中でスタッフが抜けたり新しいスタッフが入ったりしていますから、最初から最後まで制作に携わったのは、僕と増田、杉森の3人だけです。あとのスタッフは、どん
     translation: 不，中途有工作人员退出，也有新工作人员加入，所以从最初到最后一直参与制作的，只有我、增田和杉森3人。其余工作人员，则各
+    scan_box:
+      - 763
+      - 819
+      - 1328
+      - 993
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -217,6 +286,12 @@ translation_segments:
     review_status: review
     original: "▲写真手前左側より、データ管理担当西野、プログラマー渡辺、プログラマー森本、メインプログラマー太田、ゲームデザインおよびディレクター田尻、システムエンジニアおよびサウンドコンポーザー増田、キャラクターおよびチーフグラフィックデザイナー杉森、グラフィックデザイナー藤原、グラフィックデザイナー西田（以上、敬称略!）。"
     translation: ▲照片中从前往左依次为：数据管理负责人西野、程序员渡边、程序员森本、主程序员太田、游戏设计及总监田尻、系统工程师及音响作曲增田、角色及首席图形设计师杉森、图形设计师藤原、图形设计师西田（以上均省略敬称！）。
+    scan_box:
+      - 115
+      - 1864
+      - 1320
+      - 1948
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -227,6 +302,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p139_p137_ch6_interview_part3.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.137
     review_status: ready
+    width: 1402
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -237,6 +314,12 @@ translation_segments:
     review_status: review
     original: 田尻 智(たじりさとし)ディレクター
     translation: 田尻智（たじりさとし）总监
+    scan_box:
+      - 437
+      - 150
+      - 586
+      - 246
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -247,6 +330,12 @@ translation_segments:
     review_status: review
     original: 「ニョロモをかわいがってね」
     translation: “要好好疼爱蚊香蝌蚪哦”
+    scan_box:
+      - 372
+      - 303
+      - 639
+      - 385
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -257,6 +346,12 @@ translation_segments:
     review_status: review
     original: どんと応援してくれるような形で参加してもらいました。最終的にはのべ20人ぐらいのスタッフになったので、けっこう大がかりなプロジェクトだったなあと思っています。
     translation: 他们以大力支持的形式参与进来。最终参与的工作人员累计达到约20人，我觉得这算是一个相当大的项目了。
+    scan_box:
+      - 107
+      - 469
+      - 656
+      - 637
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -267,6 +362,12 @@ translation_segments:
     review_status: review
     original: 制作期間が長いというのは大変だったと思うのですが、その反対に良かったことなどは何かありますか?
     translation: 制作周期这么长，想必很辛苦，但反过来说，有没有什么好的地方呢？
+    scan_box:
+      - 107
+      - 655
+      - 656
+      - 774
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -277,6 +378,12 @@ translation_segments:
     review_status: review
     original: たっぷり時間をかけられたので、そのぶん細かいところまで何度でも納得いくまで作り込めたということでしょうね。普通のゲームだとスケジュールが先行してしまうんですけど、『ポケットモンスター』の場合は期限が不確定だったので、いいなと思ったアイデアはほぼすべて入れることができました。
     translation: 因为花了充足的时间，所以相应地，细节部分也能反复打磨到满意为止。普通的游戏往往是日程优先，而《宝可梦》的期限并不确定，所以觉得不错的点子几乎全都放了进去。
+    scan_box:
+      - 107
+      - 784
+      - 674
+      - 1040
+    writing_direction: horizontal
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -287,6 +394,12 @@ translation_segments:
     review_status: review
     original: 6年前から作っているということは、言い換えれば「6年前の絵もある」ということですよね。キャラクターデザイナーの立場としては、そういう昔の自分の絵を今見るのは恥ずかしいものです。最終的にはけっこう手直ししましたけど、なんだか複雑な気持ちですね。「こんなの描いたっけなあ」なんて懐かしく感じたり。
     translation: 从6年前就开始制作，换句话说，也就是“有6年前的画”。站在角色设计师的立场上，现在看到自己以前画的那些东西，会觉得不好意思。虽然最终做了相当多的修改，但心情还是有点复杂。会有“我还画过这种东西啊”这样怀念的感觉。
+    scan_box:
+      - 107
+      - 1059
+      - 674
+      - 1399
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -297,6 +410,23 @@ translation_segments:
     review_status: review
     original: 同じく、6年前に作ったポケモン(登場モンスター)たちの鳴き声とかもあるんですけど、当時イメージしていた世界観と、今イメージする世界観との違いがありまして、昔のイメージを思い出しながら作っていました。でも、昔の俺も純粋でいいなあとか思ったりして(笑)。
     translation: 同样，6年前制作的宝可梦（登场怪物）的叫声之类的也还在，当时设想的世界观和现在设想的世界观有差异，所以我是一边回忆过去的印象一边制作的。不过，也会觉得以前的自己真是纯粹，挺好的（笑）。
+    scan_box:
+      - 107
+      - 1409
+      - 674
+      - 1579
+    scan_boxes:
+      - 
+        - 107
+        - 1409
+        - 674
+        - 1579
+      - 
+        - 732
+        - 467
+        - 1287
+        - 535
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -307,6 +437,12 @@ translation_segments:
     review_status: review
     original: これまでゲームフリークでは、アクションゲームというものにこだわってこられたと思うのですが、今回の『ポケットモンスター』はRPGと呼んでいいのでしょうか?
     translation: 一直以来，GAME FREAK 都执着于动作游戏，这次的《宝可梦》可以称为RPG吗？
+    scan_box:
+      - 732
+      - 553
+      - 1287
+      - 723
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -317,6 +453,12 @@ translation_segments:
     review_status: review
     original: RPGのようなものを作りたいなあとは思っていました。ただ、ゲームフリークは「おもしろくて新しいもの」を作るんだ、という意気込みの方を大切にしてますから、これをRPGと呼ぶかどうかは皆さんにおまかせしますが、新しくておもしろいゲームだと思ってもらえるのが一番うれしいです。何しろ、最初のコンセプトは「戦闘シーンなどで数字による表現をしないでどこまで肌触り感の強いRPGができるか」ということだったんです。1年ぐらい前まではそのコンセプトが先行していたんですよね。どこまでRPGらしくなくなるかと思って。でも、その頃から、数字を使うことでいい面もたくさんあることに気がついたんですよ。おかげで、数字を使わないという新しさと数字を使うことによるゲーム性の深さの両方が引き立つような地点にまで戻ることができました。最初は全然数字が出てこなくて、「ニドランはツノでつつついた。あんまりいたそうじゃない」(笑)という
     translation: 我一直想做类似RPG的东西。不过，GAME FREAK 更看重“做出有趣又新颖的东西”这份干劲，所以这算不算RPG，就交给各位判断了，能被大家认为是一款新颖有趣的游戏，我就最高兴了。总之，最初的构想是“在战斗场景等地方不使用数字来表达，能做出多有触感的RPG”。大约1年前，这个构想一直占主导。想着能变得多不像RPG。不过，从那时起，我注意到使用数字也有很多好的方面。多亏如此，我才能回到一个既能凸显不用数字的新颖，又能凸显用数字带来的游戏深度的位置。最初完全不用数字，是“尼多兰用角戳了戳。好像不太疼”（笑）这样
+    scan_box:
+      - 732
+      - 733
+      - 1287
+      - 1579
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -327,6 +469,12 @@ translation_segments:
     review_status: review
     original: 杉森 建(すぎもりけん)キャラクターデザイナー
     translation: 杉森建 角色设计师
+    scan_box:
+      - 460
+      - 1638
+      - 642
+      - 1737
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -337,6 +485,12 @@ translation_segments:
     review_status: review
     original: "「サワムラーに蹴られたい!」"
     translation: “想被飞腿郎踢！”
+    scan_box:
+      - 409
+      - 1792
+      - 645
+      - 1876
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -347,6 +501,12 @@ translation_segments:
     review_status: review
     original: "増田 順一(ますだじゅんいち)システムエンジニア&作曲"
     translation: 增田顺一 系统工程师兼作曲
+    scan_box:
+      - 1036
+      - 1634
+      - 1265
+      - 1733
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -357,6 +517,12 @@ translation_segments:
     review_status: review
     original: 「ヤドンを飼いたい〜」
     translation: “想养一只呆呆兽～”
+    scan_box:
+      - 1033
+      - 1788
+      - 1262
+      - 1870
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -367,6 +533,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p140_p138_ch6_interview_part4.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.138
     review_status: ready
+    width: 1415
+    height: 2048
   - speaker: body
     type: paragraph
     kind: text
@@ -377,6 +545,12 @@ translation_segments:
     review_status: review
     original: ような文章で戦闘シーンを実況していたんです。でもそれは、数字はなくなっているけど、作戦を立てる、といったゲームとしてのおもしろさという大切なものが足りないんですよね。そういう意味では戦闘シーンが一番変わったんじゃないかな。
     translation: 的文章来解说战斗场景。但那样的话，虽然数字没有了，却缺少了制定战术这类作为游戏的重要趣味。从这个意义上说，战斗场景大概变化最大吧。
+    scan_box:
+      - 139
+      - 106
+      - 712
+      - 365
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -387,6 +561,12 @@ translation_segments:
     review_status: review
     original: 確かに、数字を使わず言葉だけで戦闘を表現するというのは新しい感じがします。
     translation: 确实，不用数字、只用语言来表现战斗，给人一种很新鲜的感觉。
+    scan_box:
+      - 139
+      - 377
+      - 698
+      - 457
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -397,6 +577,12 @@ translation_segments:
     review_status: review
     original: 最初の頃は、戦闘画面に数字や体力ゲージなんかも表示されていなくて「あいてはよわっているようだ」という表現の仕方をしていました。でも、それじゃわかりにくすぎるので、最初にレベルを出して、次に体力ゲージを出して、最後に数字まで出して。
     translation: 最初的时候，战斗画面上连数字和体力条都不显示，而是用「对手好像变弱了」这样的方式来表现。但那样太难懂了，所以先显示等级，接着显示体力条，最后连数字也显示出来。
+    scan_box:
+      - 136
+      - 467
+      - 705
+      - 748
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -407,6 +593,23 @@ translation_segments:
     review_status: review
     original: 段階的にね。まず自分のパラメータを出して、次に敵のも出して、最終的に自分は数字まで見ることができて、敵はゲージまで表示しています。当たり前なんですけど、いくら新しいアイデアでもそれがおもしろくなかったのではダメですから。けれど最初の頃はそれに気づかなくて、ここまで取り戻すのに1年ぐらいかかりましたね。
     translation: 是分阶段来的。先显示自己的参数，接着也显示敌人的，最终自己连数字都能看到，而敌人则显示到体力条为止。这是理所当然的，但不管多新的点子，如果不好玩就不行。不过最初没意识到这一点，花了一年左右才回到这一步。
+    scan_box:
+      - 136
+      - 760
+      - 695
+      - 1038
+    scan_boxes:
+      - 
+        - 136
+        - 760
+        - 695
+        - 1038
+      - 
+        - 767
+        - 109
+        - 1044
+        - 147
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -417,6 +620,12 @@ translation_segments:
     review_status: review
     original: そういったことに気がついたキッカケというのは、何か具体的にあったのですか？
     translation: 意识到这些事情，是有什么具体的契机吗？
+    scan_box:
+      - 767
+      - 158
+      - 1323
+      - 236
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -427,6 +636,12 @@ translation_segments:
     review_status: review
     original: 影響は確かにありましたね。6年のあいだに多くのRPGが次々と発売されたわけで、『ドラゴンクエスト』なんかは、3作くらい出ているんですよね。すると、そのあいだにゲームの中の情報の量は当然増えていっているわけなんですけど、それを数字が増えたり減ったりすることでコントロールするということもゲームのおもしろさにつながっている、と気づいたんです。そういった意味で、6年という時間は自分自身が突っ走っていたときに取りこぼしてしまったものを、拾いに帰ることができたと思います。締め切りが曖昧ということは、完成したときがおしまいというのではなくて、実は締め切りというものはとっくに過ぎてしまっていて、毎日が崖っぷちみたいなものだったんですよね。そういった状態であっても、やりたいことというのが多すぎて、いつがおしまいなのか判断がつきにくい状態になっていたんです。
     translation: 影响确实是有的。六年之间许多RPG接连发售，《勇者斗恶龙》之类的都出了三作了。于是这期间游戏中的信息量自然不断增加，而我意识到，通过数字的增减来控制这些信息，也与游戏的趣味性相关。从这个意义上说，六年这段时间，让我能够回头去捡起自己一路狂奔时丢掉的东西。所谓截止日期模糊，并不是说完成之时就算结束，其实截止日期早就过了，每天都像是在悬崖边上。即便处于那种状态，想做的事情也太多了，以至于很难判断什么时候才算结束。
+    scan_box:
+      - 764
+      - 246
+      - 1330
+      - 1044
+    writing_direction: horizontal
   - speaker: 比猫更可怕，比怪兽更温柔，这就是宝可梦
     type: heading
     kind: text
@@ -437,7 +652,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 猫より怖くて怪獣より優しい、それがポケモン
-    translation: "比猫更可怕，比怪兽更温柔，这就是宝可梦"
+    translation: 比猫更可怕，比怪兽更温柔，这就是宝可梦
+    scan_box:
+      - 266
+      - 1124
+      - 1179
+      - 1184
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -448,6 +669,12 @@ translation_segments:
     review_status: review
     original: ポケモンたちを、怪獣と同じようなものだと考えてしまった人はちょっと気が早い。怪獣といえば悪いものというイメージが強いけど、この世界での彼らは、そんなに悪いヤツらじゃない。かと言って、犬や猫ほど人間たちの友達というわけでもない。飼育の仕方次第で人間の役にも立てば、安全な生活をおびやかす敵にもなる。そんな不思議な存在がポケモンなのだ。ゲームの制作スタッフたちが、かつて子供の頃に体験してきた昆虫採集の懐かしい「思い出」と、人間が大昔から夢に描いてきた竜や麒麟のような伝説の生物への「憧れ」。こうしたものを凝縮させたのが、ポケモン・ワールドの世界観と言えるだろう。
     translation: 把宝可梦当成和怪兽一样的东西，这种想法有点操之过急。说到怪兽，给人很强的坏东西的印象，但在这个世界里，它们并不是那么坏的家伙。可要说它们是像猫狗那样的人类的朋友，也不尽然。饲养方式不同，它们既能对人类有用，也能成为威胁安全生活的敌人。宝可梦就是这种不可思议的存在。游戏制作人员们小时候体验过的采集昆虫那份令人怀念的「回忆」，以及人类自古以来在梦中描绘的龙、麒麟之类传说生物的「憧憬」。把这些东西凝聚起来的，可以说就是宝可梦世界的世界观吧。
+    scan_box:
+      - 163
+      - 1225
+      - 688
+      - 1894
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -458,6 +685,12 @@ translation_segments:
     review_status: review
     original: ▲戦闘シーンでは、犬の散歩中に起こる愛犬同士のケンカのイメージもダブって見える。
     translation: ▲战斗场景中，也仿佛叠映出遛狗时爱犬之间打架的印象。
+    scan_box:
+      - 808
+      - 1722
+      - 1230
+      - 1778
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -468,6 +701,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p141_p139_ch6_interview_part5.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.139
     review_status: ready
+    width: 1399
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -478,6 +713,12 @@ translation_segments:
     review_status: review
     original: 太田 健程(おおたけのり)メインプログラマー
     translation: 太田健程（おおたけのり）主程序员
+    scan_box:
+      - 389
+      - 160
+      - 610
+      - 252
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -488,6 +729,12 @@ translation_segments:
     review_status: review
     original: 暗い夜道にヒトカゲが…」
     translation: 「昏暗的夜路上，小火龙……」
+    scan_box:
+      - 392
+      - 307
+      - 624
+      - 391
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -498,6 +745,12 @@ translation_segments:
     review_status: review
     original: 森本 茂樹(もりもとしげき)プログラマー
     translation: 森本茂树（もりもとしげき）程序员
+    scan_box:
+      - 1038
+      - 158
+      - 1219
+      - 252
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -508,6 +761,12 @@ translation_segments:
     review_status: review
     original: 「メタモンを育てるも〜ん」
     translation: 「我要养百变怪哦～」
+    scan_box:
+      - 1006
+      - 305
+      - 1245
+      - 391
+    writing_direction: horizontal
   - speaker: 将每位员工的坚持巧妙融入游戏之中
     type: heading
     kind: text
@@ -518,7 +777,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 各スタッフが持つこだわりをゲームの中にうまく活かす
-    translation: "将每位工作人员的执着巧妙运用于游戏中"
+    translation: 将每位工作人员的执着巧妙运用于游戏中
+    scan_box:
+      - 129
+      - 487
+      - 616
+      - 573
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -529,6 +794,12 @@ translation_segments:
     review_status: review
     original: フィールドマップが、すべて地続きの大陸ではなく、道路を中心に構成されているというのも変わっていますね。
     translation: 地图并不是一整块相连的大陆，而是以道路为中心构成的，这一点也很有意思。
+    scan_box:
+      - 97
+      - 604
+      - 646
+      - 721
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -539,6 +810,12 @@ translation_segments:
     review_status: review
     original: それは、最初に3人か4人でやっていた頃にひねり出したアイデアなんですけど、僕らが住む現実の世界では、〇〇街道とか、国道〇号線とか、道路に名前がついていますよね。さらに、そういった道でそれぞれの町と町が結ばれている。そういう感覚がゲームの中でも表現できないかと考えて、マップを作ったんです。結果的に、この方法はマップの広さのわりに思ったほど容量を使わないという利点もありましたね。
     translation: 那是最初三四个人做的时候想出来的点子。在我们生活的现实世界里，有某某街道、国道几号线之类的，道路都有名字。而且，这些道路把各个城镇连接起来。我就想能不能在游戏里也表现出这种感觉，于是做了地图。结果，这种方法还有一个好处，就是相对于地图的广阔程度，并没有占用想象中那么多的容量。
+    scan_box:
+      - 97
+      - 733
+      - 648
+      - 1157
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -549,6 +826,12 @@ translation_segments:
     review_status: review
     original: 中心となるゲームシステムはもちろんですが、キャラクターデザインから戦闘の細かいところに至るまで、各スタッフの皆さんのこだわりが感じられますね。
     translation: 核心的游戏系统自不必说，从角色设计到战斗的细微之处，都能感受到各位员工的坚持。
+    scan_box:
+      - 97
+      - 1188
+      - 646
+      - 1319
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -559,6 +842,12 @@ translation_segments:
     review_status: review
     original: このゲームを作り始めた頃は、杉森の他に藤原と森本がモンスターデザインをやっていたんですが、森本は途中から「やっぱりプログラムがやってみたい」とか言い出して。そこで彼はゼロから勉強し始めて、最後には戦闘ルーチンのメインプログラムを作るまでに成長しました。
     translation: 开始做这个游戏的时候，除了杉森，藤原和森本也在做怪物设计，但森本中途说“我还是想试试编程”。于是他从零开始学习，最后成长到能制作战斗例程主程序的程度。
+    scan_box:
+      - 97
+      - 1333
+      - 648
+      - 1624
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -569,6 +858,12 @@ translation_segments:
     review_status: review
     original: 珍しいタイプの人ですね(笑)。
     translation: 真是少见类型的人啊（笑）。
+    scan_box:
+      - 97
+      - 1655
+      - 506
+      - 1698
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -579,6 +874,12 @@ translation_segments:
     review_status: review
     original: 一応『ポケットモンスター』は、僕にとってグラフィックもプログラムも初めての作品ですから(笑)。
     translation: 对我来说，《宝可梦》在图形和程序两方面都是第一部作品（笑）。
+    scan_box:
+      - 97
+      - 1710
+      - 648
+      - 1796
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -589,6 +890,23 @@ translation_segments:
     review_status: review
     original: 肌触りの強い、生き物同士の戦闘シーンであっても、実は見えないところでプログラムが管理する数字というのは膨大にあって、それが僕の頭の中では管理しきれずに、はじけてしまっていたんですよ。それを代わってやってくれたのが西野です。それはあたかも黒子のような役割で、すごく助かったんですよね。
     translation: 即使是临场感很强的生物之间的战斗场景，实际上在看不见的地方，程序管理的数字也非常庞大，我在脑子里管理不过来，都快崩溃了。代替我做这件事的是西野。那就像幕后黑子一样的角色，帮了我大忙。
+    scan_box:
+      - 97
+      - 1808
+      - 648
+      - 1923
+    scan_boxes:
+      - 
+        - 97
+        - 1808
+        - 648
+        - 1923
+      - 
+        - 720
+        - 471
+        - 1266
+        - 631
+    writing_direction: horizontal
   - speaker: 西野弘二
     type: paragraph
     kind: text
@@ -599,6 +917,12 @@ translation_segments:
     review_status: review
     original: 僕もそういう作業は初めての経験だったんですけどねえ。なりゆきでやってしまったというか、気がついたらやらされていたというか、そんな感じですねえ。
     translation: 我也是第一次做这种工作。可以说是顺势就做了，或者说是回过神来已经在做了，就是这种感觉。
+    scan_box:
+      - 720
+      - 643
+      - 1281
+      - 803
+    writing_direction: horizontal
   - speaker: 渡边哲也
     type: paragraph
     kind: text
@@ -609,6 +933,12 @@ translation_segments:
     review_status: review
     original: 誰もやりたくなかったからね(笑)。
     translation: 因为谁都不想干嘛（笑）。
+    scan_box:
+      - 720
+      - 817
+      - 1213
+      - 858
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -619,6 +949,12 @@ translation_segments:
     review_status: review
     original: 最初はお手伝いみたいな感じで入ってくれたんですが、最後には彼がいないとバランス調整ができない、というほどの存在になってました。
     translation: 一开始他是以帮忙的感觉加入的，但最后已经到了没有他就无法调整平衡的程度。
+    scan_box:
+      - 720
+      - 872
+      - 1266
+      - 1018
+    writing_direction: horizontal
   - speaker: 太田健程
     type: paragraph
     kind: text
@@ -629,6 +965,12 @@ translation_segments:
     review_status: review
     original: 西野が一日だけ休んだときがあったんですけど、その日はメインプログラムがほとんど仕事にならないんですよね。情報はすべて彼が握っていたので。
     translation: 西野有一天休息了，那天主程序几乎没法推进工作。因为所有信息都掌握在他手里。
+    scan_box:
+      - 720
+      - 1030
+      - 1273
+      - 1159
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -639,6 +981,12 @@ translation_segments:
     review_status: review
     original: RPGという点でも、社内では西野が普段から一番やってましたから、データ管理にしても彼なりのこだわりがあって。
     translation: 在RPG这一点上，西野在公司里平时就是玩得最多的，所以在数据管理方面也有他自己的讲究。
+    scan_box:
+      - 720
+      - 1198
+      - 1273
+      - 1315
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -649,6 +997,12 @@ translation_segments:
     review_status: review
     original: 各スタッフがこだわりを持って仕事をしているというのは、ディレクターとしては意見をまとめるのが大変です(笑)。とは言え、でき上がったものはいろいろなゲームの魅力が入っていて、いい結果が出せたかな、と思っています。たとえばミニゲームとしてスロットマシンが入っているんですけど、それは渡辺の担当で、スタッフとして参加してきたときに「パチスロは僕が極めてますから」とか言ってたしね。
     translation: 每位工作人员都带着自己的讲究去做事，作为总监，要把大家的意见汇总起来可真不容易（笑）。不过话说回来，做出来的东西里融入了各种游戏的魅力，我觉得算是做出了不错的结果。比如作为小游戏加入了老虎机，那是渡边负责的，他加入团队的时候还说过“柏青嫂我可是玩到极致的”之类的话呢。
+    scan_box:
+      - 720
+      - 1329
+      - 1281
+      - 1702
+    writing_direction: horizontal
   - speaker: 渡边哲也
     type: paragraph
     kind: text
@@ -659,6 +1013,12 @@ translation_segments:
     review_status: review
     original: そこまでは言ってません(笑)。
     translation: 我没说到那个份上（笑）。
+    scan_box:
+      - 720
+      - 1716
+      - 1178
+      - 1757
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -669,6 +1029,12 @@ translation_segments:
     review_status: review
     original: 僕自身はそういう結果が出ることまで計算してスタッフワークをしてきたわけじゃないんですが、各自がこだわりたい部分をうまく分担できたかな、と思います。
     translation: 我自己并不是算计到能出这样的结果才去组织团队工作的，不过我觉得，每个人想讲究的部分都得到了很好的分担。
+    scan_box:
+      - 720
+      - 1772
+      - 1273
+      - 1917
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -679,6 +1045,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p142_p140_ch6_interview_part6.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.140
     review_status: ready
+    width: 1422
+    height: 2048
   - speaker: 制作人员对“怪兽”的情结
     type: heading
     kind: text
@@ -689,7 +1057,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 制作スタッフたちの「怪獣」への思い入れは？
-    translation: "制作人员们对「怪兽」的情结是？"
+    translation: 制作人员们对「怪兽」的情结是？
+    scan_box:
+      - 282
+      - 162
+      - 1177
+      - 217
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -700,6 +1074,12 @@ translation_segments:
     review_status: review
     original: ポケモンは怪獣とはちょっと違うけれど、やっぱりこのゲームの発想の原点には、小さい頃にTVで見ていた怪獣番組の記憶が強く影響しているようだ。スタッフの皆さんは、怪獣やモンスターというものに対して、どんな気持ちを抱いているのだろうか。
     translation: 宝可梦和怪兽稍有不同，但这款游戏的构思原点，果然还是强烈地受到了小时候在电视上看的怪兽节目的影响。各位工作人员对怪兽、怪物这类东西，抱着怎样的感情呢。
+    scan_box:
+      - 164
+      - 256
+      - 701
+      - 520
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -710,6 +1090,12 @@ translation_segments:
     review_status: review
     original: 正直に言ってしまえば、『ウルトラセブン』に登場した「カプセル怪獣」からの影響は大きいです。作品的には『赤影』が好きでしたけどね。
     translation: 老实说的话，《奥特赛文》里登场的“胶囊怪兽”影响很大。作品方面我倒是喜欢《赤影》。
+    scan_box:
+      - 164
+      - 561
+      - 698
+      - 662
+    writing_direction: horizontal
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -720,6 +1106,12 @@ translation_segments:
     review_status: review
     original: 僕は怪獣よりも主人公、つまり『ウルトラマン』そのものの方が好きでしたね。自分で考えたヒーローの絵を描くような子供でした。
     translation: 比起怪兽，我更喜欢主角，也就是《奥特曼》本身。我是那种会自己构思英雄然后画出来的小孩。
+    scan_box:
+      - 164
+      - 696
+      - 695
+      - 797
+    writing_direction: horizontal
   - speaker: 太田健程
     type: paragraph
     kind: text
@@ -730,6 +1122,12 @@ translation_segments:
     review_status: review
     original: 怪獣は『ジャミラ』が大好きでね、風呂上がりにはよくTシャツの首のところを頭に引っかけて、「ジャミラだ〜」なんてやってました（笑）。
     translation: 怪兽里我特别喜欢“贾米拉”，洗完澡后经常把T恤的领口套在头上，喊着“我是贾米拉～”这么玩（笑）。
+    scan_box:
+      - 776
+      - 258
+      - 1308
+      - 358
+    writing_direction: horizontal
   - speaker: 渡边哲也
     type: paragraph
     kind: text
@@ -740,6 +1138,12 @@ translation_segments:
     review_status: review
     original: 僕は怪獣も好きでしたけど、それ以上に実在する動物に対する興味の方が強かったかな。今は違う意味で馬が一番好きですけど（笑）。
     translation: 我也喜欢怪兽，但比起怪兽，对真实存在的动物的兴趣更强一些。现在则是另一种意义上最喜欢马了（笑）。
+    scan_box:
+      - 775
+      - 393
+      - 1305
+      - 494
+    writing_direction: horizontal
   - speaker: 藤原
     type: paragraph
     kind: text
@@ -750,6 +1154,12 @@ translation_segments:
     review_status: review
     original: 『ウルトラマン』シリーズの初期の怪獣にはすごく思い入れがありますね。後半の『ウルトラマンエース』とかになると、ちょっと……。
     translation: 我对《奥特曼》系列早期的怪兽非常有感情。到了后半的《艾斯奥特曼》之类的，就有点……
+    scan_box:
+      - 775
+      - 528
+      - 1305
+      - 629
+    writing_direction: horizontal
   - speaker: 西田敦子
     type: paragraph
     kind: text
@@ -760,6 +1170,12 @@ translation_segments:
     review_status: review
     original: 怪獣のかっこよさはあとでわかりましたけど、小さい頃はワルモノがイヤでしたからね。怪獣よりはヒーローが好きでしょ、普通は（笑）。
     translation: 怪兽的帅气我是后来才明白的，小时候很讨厌坏蛋。比起怪兽还是更喜欢英雄吧，一般都会这样（笑）。
+    scan_box:
+      - 774
+      - 666
+      - 1305
+      - 766
+    writing_direction: horizontal
   - speaker: 为了营造交换的乐趣而舍弃的点子也多如山！
     type: heading
     kind: text
@@ -770,7 +1186,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 交換の楽しみを演出するために切り捨てたアイデアも山ほど！
-    translation: "为营造交换乐趣而舍弃的点子堆积如山！"
+    translation: 为营造交换乐趣而舍弃的点子堆积如山！
+    scan_box:
+      - 155
+      - 868
+      - 674
+      - 963
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -781,6 +1203,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』で、ポケモンたちを「収集」して「交換」するというアイデアを最初に発想したキッカケは？
     translation: 在《宝可梦》中，最初想到让宝可梦们“收集”和“交换”这个点子的契机是什么？
+    scan_box:
+      - 138
+      - 989
+      - 698
+      - 1112
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -791,6 +1219,12 @@ translation_segments:
     review_status: review
     original: ゲームボーイを初めて見たときに、通信ケーブルが接続できるということに着目したんですけど、実際にはほとんどのゲームが、対戦のための情報伝達手段として使われているわけですよね。僕の中では通信という単語が、充実したゴージャスな印象を持っていて、このケーブルを通して、TVやラジオのようにいろいろな情報が流れていくような感覚でとらえていたんですよ。そういったことから、何かおもしろいものができそうな気がしました。それが、育てたものや生き物を「ケーブルを通して交換する」というシステムとしてでき上がったんです。
     translation: 第一次看到Game Boy的时候，我就注意到了它可以连接通信线缆，但实际上大多数游戏都把它用作对战的信息传递手段。在我心中，通信这个词有着充实而华丽的印象，我把它理解为通过这根线缆，像电视和收音机那样各种信息流动的感觉。由此，我觉得似乎能做出什么有趣的东西。这就形成了通过线缆交换培育的东西或生物的系统。
+    scan_box:
+      - 135
+      - 1130
+      - 698
+      - 1653
+    writing_direction: horizontal
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -801,6 +1235,12 @@ translation_segments:
     review_status: review
     original: たとえば、珍しいものを見つけたときに、自慢したり交換したりできるようなゲームはおもしろいぞ、っていうことですよね。
     translation: 比如说，发现稀有的东西时，可以炫耀或交换，这样的游戏很有趣，对吧。
+    scan_box:
+      - 135
+      - 1671
+      - 695
+      - 1794
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -811,6 +1251,23 @@ translation_segments:
     review_status: review
     original: 『ドラゴンクエスト』に「ふしぎなぼうし」という珍しいアイテムがあったんですけど、杉森なんかは2個持っていると言うんですよ。ところが、僕は何日も「ふしぎなぼうし」を手に入れるためだけにゲームをやったんだけど、結局手に入らなかったんですよね。そのときに、2つも持っているんなら1個欲しいな、と単純に思ったわけです。だから、やはりRPGを作ろうと思ったわけではなくて、最初に「交換したい」っていう気持ちが強かったんでしょうね。RPGであるとか、育てるといったような部分は、あとからつけ加えていった要素ですから。
     translation: 《勇者斗恶龙》里有一个叫“不可思议的帽子”的稀有道具，杉森说他有两个。可是，我为了得到“不可思议的帽子”玩了好几天游戏，结果还是没得到。那时候，我就单纯地想，既然你有两个，那给我一个吧。所以，我并不是一开始就想做RPG，最初“想要交换”的心情应该很强烈吧。RPG或者培育之类的部分，是后来才加上的要素。
+    scan_box:
+      - 135
+      - 1812
+      - 695
+      - 1933
+    scan_boxes:
+      - 
+        - 135
+        - 1812
+        - 695
+        - 1933
+      - 
+        - 774
+        - 852
+        - 1340
+        - 1243
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -821,6 +1278,12 @@ translation_segments:
     review_status: review
     original: それは、交換ができるならRPGでなくても良かった、ということでしょうか？
     translation: 也就是说，如果能交换，不是RPG也可以吗？
+    scan_box:
+      - 774
+      - 1262
+      - 1331
+      - 1343
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -831,6 +1294,12 @@ translation_segments:
     review_status: review
     original: そうですね。でも、たとえば交換というものは、双方にメリットがあって初めて成立するんですよね。『ポケットモンスター』の初期の頃はお金でポケモンが買えたんですけど、ちょっと戦闘してお金さえ貯めればポケモンが買えるということになってしまうと、苦労して探して捕まえるという価値が失われてしまうんですよ。そういうことを考えていくと、逆にゲームのスタイルが少しずつ見えてくるんです。それから、ポケモンを交換するときに、お互いが提出するポケモンのあいだに明らかな価値の差があった場合、いくらかお金を上乗せするという方法も考えたんですけど、ポケモンの価
     translation: 是啊。但是，比如说交换这种东西，只有双方都有好处才能成立。在《宝可梦》初期，是可以用钱买宝可梦的，但如果稍微战斗一下攒点钱就能买到宝可梦，那么辛苦寻找并捕捉的价值就失去了。这样一想，反而游戏的形式就一点点显现出来了。还有，交换宝可梦的时候，如果双方提出的宝可梦之间有明显价值差异，也考虑过加一些钱的方法，但宝可梦的价
+    scan_box:
+      - 771
+      - 1362
+      - 1340
+      - 1933
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -841,6 +1310,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p143_p141_ch6_interview_part7.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.141
     review_status: ready
+    width: 1392
+    height: 2048
   - speaker: "渡边哲也 程序员 [宣传语] “跑吧，跑吧，烈焰马！”"
     type: heading
     kind: text
@@ -852,6 +1323,23 @@ translation_segments:
     review_status: review
     original: "渡辺 哲也プログラマー[キャッチコピー] 「走れ、走れ ギャロップ！」"
     translation: "渡边 哲也 程序员 [宣传语] 「跑吧，跑吧 烈焰马！」"
+    scan_box:
+      - 411
+      - 168
+      - 583
+      - 264
+    scan_boxes:
+      - 
+        - 411
+        - 168
+        - 583
+        - 264
+      - 
+        - 394
+        - 322
+        - 612
+        - 401
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -862,6 +1350,12 @@ translation_segments:
     review_status: review
     original: 値とゲームの中のお金の価値を表現するのは、ゲームとしての限界を超えてしまいます。ゲームの中のお金というものと、僕らの実際の社会で流通するお金では、意味が全然違いますから。ゲームボーイでそこまで表現するには、限界があると思いましたし、とにかく乗り越えるべき壁が多すぎたんですよね。壁が多いと感じたときにどうするかというと、一番言いたいところだけを残して、他はあきらめるしかないわけです。この場合は、ポケモンを交換するということが第一でしたから、お金での取り引きという要素は切り捨てました。結果として、初めてこのゲームに触れる人でもわかりやすい、シンプルなものになったと思っています。
     translation: 值和游戏中的金钱价值，表现起来会超越游戏的极限。游戏中的金钱和我们现实社会中流通的金钱，意义完全不同。我觉得用Game Boy表现到那种程度是有极限的，总之要跨越的障碍太多了。当感到障碍很多时，该怎么办呢？只能留下最想说的部分，其他就放弃。在这种情况下，交换宝可梦是第一位的，所以用钱交易这个要素就舍弃了。结果，我认为这变成了一个初次接触这个游戏的人也能容易理解的简单东西。
+    scan_box:
+      - 97
+      - 492
+      - 657
+      - 1112
+    writing_direction: horizontal
   - speaker: 为了活用点子而需要的技术力
     type: heading
     kind: text
@@ -872,7 +1366,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アイデアを活かすために必要とされる技術力
-    translation: "为活用点子所需的技术力"
+    translation: 为活用点子所需的技术力
+    scan_box:
+      - 167
+      - 1147
+      - 597
+      - 1235
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -883,6 +1383,12 @@ translation_segments:
     review_status: review
     original: ポケモンの名前は、生物学的な名前というより、むしろニックネームに近いですね。
     translation: 宝可梦的名字，与其说是生物学上的名字，不如说更接近昵称呢。
+    scan_box:
+      - 106
+      - 1264
+      - 651
+      - 1341
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -893,6 +1399,23 @@ translation_segments:
     review_status: review
     original: 最初から、自分の見つけた新種に名前をつけたいと考えていたんですけど、ゲームボーイの方に限界があって、あきらめざるを得なかったんです。ですから、そういう気持ちが、ポケモンの名前になって表われているんですよね。ところが、制作の途中で社内モニターをやったんですけど、ポケモンの名前を自分でつけたいという意見がやっぱり多いんですよ。でもそういうシステムを入れると、その代わりに、たとえば集めることのできるポケモンの数を減らさなければならなくなったりするわけです。ですから、その時点では100匹のポケモンを仲間にできたのが、名前をつけられるようにしたことで、一気にその数が30匹にまで減っちゃったんです。でもやっぱりポケモンたちの名前は自分でつけたいでしょう？ だから一度は思い切って、そのように仕様を変更したんです。それで、仲間にできるポケモンは30匹ということであきらめていたんですけど、土壇場になって任天堂の宮本さんが「じゃあ、たくさんのポケモンが捕れるようにＲＡＭをプレゼントしましょう」と言ってくださいまして、一気に容量が4倍にドバ〜ンと増えたんですよね。このおかげで、あきらめたものが全部戻ってきちゃったんです。いつも僕は技術力に振りまわされないようにしてゲームを作ろうと思っていまして、それはすなわち、ゲームの魅力は技術力じゃないという考え方ですよね。でも、僕がゲームを作るときにつまずくのがいつもそこで、本当にやりたいことというのは、技術力がないとできないんですよね。
     translation: 一开始，我就想给自己发现的新物种起名字，但Game Boy方面有极限，不得不放弃。所以，这种心情就体现在宝可梦的名字上了。可是，制作途中做了公司内部测试，果然很多人提出想自己给宝可梦起名字。但如果加入这样的系统，作为代价，比如能收集的宝可梦数量就不得不减少。所以，当时能成为伙伴的100只宝可梦，因为可以起名字，一下子减少到了30只。但果然还是想自己给宝可梦们起名字吧？所以有一次就下定决心，把规格改成了那样。然后，虽然一度放弃了能成为伙伴的宝可梦只有30只，但到了最后关头，任天堂的宫本先生说“那么，我送你们RAM，让很多宝可梦都能捕捉吧”，容量一下子增加了4倍，哗地一下。多亏这个，放弃的东西全都回来了。我总是想着制作游戏时不要被技术力牵着走，也就是说，游戏的魅力不是技术力这种想法。但是，我制作游戏时总是卡在那里，真正想做的事情，没有技术力就做不了。
+    scan_box:
+      - 106
+      - 1358
+      - 674
+      - 1937
+    scan_boxes:
+      - 
+        - 106
+        - 1358
+        - 674
+        - 1937
+      - 
+        - 727
+        - 492
+        - 1293
+        - 1243
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -903,6 +1426,12 @@ translation_segments:
     review_status: review
     original: 「このゲームを作るには容量がたくさんないとダメです」というのではなく、まずいいアイデアが先にあって、それを「実現させるために容量を増やす」という考え方ですね。
     translation: 并不是说「要做这个游戏，没有大量容量不行」，而是首先要有好的点子，然后为了「将其实现而增加容量」，是这样的思路。
+    scan_box:
+      - 732
+      - 1294
+      - 1283
+      - 1466
+    writing_direction: horizontal
   - speaker: "藤原基史 图形设计师 [宣传语] 「去获得派拉斯特吧！」"
     type: heading
     kind: text
@@ -914,6 +1443,23 @@ translation_segments:
     review_status: review
     original: "藤原 基史グラフィックデザイナー[キャッチコピー] 「パラセクトを手に入れよう！」"
     translation: "藤原 基史 图形设计师 [宣传语] 「去获得派拉斯特吧！」"
+    scan_box:
+      - 1022
+      - 164
+      - 1224
+      - 260
+    scan_boxes:
+      - 
+        - 1022
+        - 164
+        - 1224
+        - 260
+      - 
+        - 990
+        - 317
+        - 1254
+        - 397
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -924,6 +1470,12 @@ translation_segments:
     review_status: review
     original: プリンふうせんポケモン
     translation: 胖丁 气球宝可梦
+    scan_box:
+      - 949
+      - 1542
+      - 1166
+      - 1626
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -934,6 +1486,12 @@ translation_segments:
     review_status: review
     original: たかさ 0.5m No. 039 おもさ 5.5kg
     translation: 身高 0.5m No. 039 体重 5.5kg
+    scan_box:
+      - 764
+      - 1663
+      - 1219
+      - 1739
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -944,6 +1502,12 @@ translation_segments:
     review_status: review
     original: まるくて おおきい ひとみで
     translation: 用又圆又大的瞳孔
+    scan_box:
+      - 742
+      - 1759
+      - 1115
+      - 1792
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -954,6 +1518,12 @@ translation_segments:
     review_status: review
     original: さそいこみ ここちよい うたを
     translation: 引诱对方，唱起令人舒畅的歌
+    scan_box:
+      - 741
+      - 1804
+      - 1140
+      - 1837
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -964,6 +1534,12 @@ translation_segments:
     review_status: review
     original: うたい あいてを ねむらせる。
     translation: 唱歌，让对方睡着。
+    scan_box:
+      - 742
+      - 1851
+      - 1133
+      - 1884
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -974,6 +1550,12 @@ translation_segments:
     review_status: review
     original: ◀図鑑の空欄を埋めるシステムがうれしい！積極的に交換して、早くすべてを埋めていこう。
     translation: ◀填补图鉴空栏的系统真令人高兴！积极交换，尽快把全部填满吧。
+    scan_box:
+      - 1235
+      - 1503
+      - 1283
+      - 1915
+    writing_direction: vertical
   - speaker: image
     type: image
     kind: image
@@ -984,6 +1566,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p144_p142_ch6_interview_part8.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.142
     review_status: ready
+    width: 1418
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -994,6 +1578,12 @@ translation_segments:
     review_status: review
     original: 西野 弘二(にしのこうじ)データ管理
     translation: 西野弘二 数据管理
+    scan_box:
+      - 461
+      - 164
+      - 618
+      - 262
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1004,6 +1594,12 @@ translation_segments:
     review_status: review
     original: 「我が子のようなカビゴンです」
     translation: 「像是我孩子一样的卡比兽」
+    scan_box:
+      - 413
+      - 317
+      - 678
+      - 401
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1014,6 +1610,12 @@ translation_segments:
     review_status: review
     original: 西田 敦子(にしだあつこ)グラフィックデザイナー
     translation: 西田敦子 图形设计师
+    scan_box:
+      - 1105
+      - 168
+      - 1309
+      - 266
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -1024,6 +1626,12 @@ translation_segments:
     review_status: review
     original: 「ピカチュウ大好きィ♥」
     translation: 「最喜欢皮卡丘了♥」
+    scan_box:
+      - 1099
+      - 322
+      - 1306
+      - 406
+    writing_direction: horizontal
   - speaker: 交换系统做成之后，接下来就是对战系统！？
     type: heading
     kind: text
@@ -1034,7 +1642,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "交換システムができたら次は対戦システムだ!?"
-    translation: "交换系统完成后，接下来是对战系统！？"
+    translation: 交换系统完成后，接下来是对战系统！？
+    scan_box:
+      - 203
+      - 473
+      - 627
+      - 561
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1045,6 +1659,12 @@ translation_segments:
     review_status: review
     original: このゲームには、ポケモンの種類によって出現率が違う『赤箱』と『緑箱』という2つのバージョンがありますが、それはどういった発想から生まれたのでしょう?
     translation: 这个游戏有《红盒》和《绿盒》两个版本，不同宝可梦的出现率不一样，这是出于怎样的想法产生的呢？
+    scan_box:
+      - 138
+      - 596
+      - 693
+      - 768
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -1055,6 +1675,12 @@ translation_segments:
     review_status: review
     original: キッカケはやはり宮本さんからいただきました。ずいぶん前に、宮本さんにこれを見ていただく機会があったんですが、ポケモンを「交換したいと思わせる動機」をもう少し強くしようということで、じゃあ色違いのカセットを出して、それぞれに登場するポケモンが違うと交換する意欲が湧くんじゃないかな、と。これは工場に対して注文がつけられる任天堂さん側からのアイデアだからこそできることであって、僕なんかは、そういうことができるなんて考えもしませんでした。
     translation: 契机果然还是来自宫本先生。很久以前，有一次机会让宫本先生看了这个，他说要让玩家“想要交换”的动机再强一些，那就推出颜色不同的卡带，各自登场的宝可梦不一样，交换的意愿不就会涌现出来了吗。这是能向工厂下订单的任天堂方面才有的点子，像我这样的人，根本没想过能做这种事。
+    scan_box:
+      - 135
+      - 780
+      - 692
+      - 1253
+    writing_direction: horizontal
   - speaker: 太田健程
     type: paragraph
     kind: text
@@ -1065,6 +1691,12 @@ translation_segments:
     review_status: review
     original: このゲームを初めてゲームボーイに差して電源を入れたときに、そのカセットに対してランダムでIDナンバーをつけてしまうというアイデアが出たんですけど、たとえばそのナンバーが偶数であるか奇数であるかによって、出てくるポケモンを変えるようにしようと、僕たちは最初の時点では考えていたんですけどね。
     translation: 第一次把这个游戏插进Game Boy开机的时候，我们想到给卡带随机分配一个ID编号，比如根据这个编号是偶数还是奇数，让出现的宝可梦不一样，一开始我们是这么考虑的。
+    scan_box:
+      - 135
+      - 1268
+      - 700
+      - 1579
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -1075,6 +1707,12 @@ translation_segments:
     review_status: review
     original: 通信でポケモンを交換できればそれだけでもいいと思っていたんですけど、それが実現できるようになると、次はやっぱり対戦をさせてみたくなるんですよ。
     translation: 我本来觉得能通过通信交换宝可梦就够了，但这件事一旦能实现，接下来果然还是想让人对战。
+    scan_box:
+      - 135
+      - 1591
+      - 692
+      - 1763
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1085,6 +1723,23 @@ translation_segments:
     review_status: review
     original: 対戦については、田尻社長は前からやろうと言っていたんですけど、僕はそれほど対戦の魅力を感じてなくて、むしろそんなプログラム組むのは大変だなあとしか思わなくて(笑)。「間に合わなくてできません」ということになりそうだなあとか思っていたんですけど、任天堂さんの方からも「対戦が欲しい」という意見がありまして、やっぱりみんなそう考えるのかと思ったんですよね。じゃあ、しょうがないからやるかということになったんですが、最初に作ったのは見てるだけというヤツだったんです(笑)。勝手に戦っているのを眺めて、勝った負けたというヤツ。それをまた任天堂さんに提出したら、返ってきたアンケートで「つまらない」とか書かれてしまいまして(笑)。確かにそうだよなあとは思ったんですけど、実際にコマンドを入力して対戦できるものを作るためには、締め切りの都合とかもあってキツかったんですよ。それでも、みんなが求めているんだからということで、通信のツールとかを手直しして、現在の形になったんですね。
     translation: 关于对战，田尻社长以前就说过要做，但我并没有那么感受到对战的魅力，反倒只觉得写那种程序很麻烦（笑）。我还想着大概会变成“来不及做不了”吧，但任天堂那边也提出“想要对战”，我就想果然大家都会这么想啊。那就没办法，做吧，可最初做出来的是只能看着的那种（笑）。看着它们自己打，分出胜负。把这个又提交给任天堂，结果回来的问卷上写着“无聊”（笑）。我确实也觉得是这样，但要做成能实际输入指令对战的东西，因为截止日期的关系也很吃力。即便如此，既然大家都想要，就重新修改了通信工具之类，变成了现在的形式。
+    scan_box:
+      - 135
+      - 1778
+      - 692
+      - 1944
+    scan_boxes:
+      - 
+        - 135
+        - 1778
+        - 692
+        - 1944
+      - 
+        - 773
+        - 465
+        - 1344
+        - 1214
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -1095,6 +1750,12 @@ translation_segments:
     review_status: review
     original: ちなみに、このゲームは任天堂発売のゲームの中で、最もデバッグに時間がかかったゲームなんです。関係者の皆様、お手数お掛け致しました(笑)。
     translation: 顺便一提，这个游戏是任天堂发售的游戏中花在调试上时间最长的一款。各位相关人士，给你们添麻烦了（笑）。
+    scan_box:
+      - 773
+      - 1229
+      - 1327
+      - 1401
+    writing_direction: horizontal
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1105,6 +1766,12 @@ translation_segments:
     review_status: review
     original: 結局、どんなゲームでもそうでしょうけど、バグが取れなくて苦しんだ場所っていうのが一番思い出深いところですね。それがこのゲームでは、最後の決断で通信対戦をがんばって入れたところだったんですよ。
     translation: 说到底，不管什么游戏大概都一样，取不掉bug、吃尽苦头的地方是最让人印象深刻的。在这个游戏里，那就是最后关头努力加入通信对战的地方。
+    scan_box:
+      - 770
+      - 1415
+      - 1337
+      - 1624
+    writing_direction: horizontal
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1115,6 +1782,12 @@ translation_segments:
     review_status: review
     original: もともとが通信を前提とした戦闘を考えていませんでしたから、細かいところをすべて修正していかなければならなかったんですよね。
     translation: 因为原本并没有考虑以通信为前提的战斗，所以细节部分全都必须修正。
+    scan_box:
+      - 773
+      - 1638
+      - 1323
+      - 1810
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1125,6 +1798,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p145_p143_ch6_interview_part9.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.143
     review_status: ready
+    width: 1357
+    height: 2048
   - speaker: 看着150个孩子们成长与变身的喜悦
     type: heading
     kind: text
@@ -1135,7 +1810,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: １５０匹の我が子たちの成長と変身を見る喜び
-    translation: "看着150个孩子们成长与变身的喜悦"
+    translation: 看着150个孩子们成长与变身的喜悦
+    scan_box:
+      - 174
+      - 143
+      - 577
+      - 229
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1146,6 +1827,12 @@ translation_segments:
     review_status: review
     original: では、このゲームについて、何かキーワードがありましたら教えてください。
     translation: 那么，关于这个游戏，如果有什么关键词请告诉我们。
+    scan_box:
+      - 103
+      - 262
+      - 641
+      - 336
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -1156,6 +1843,12 @@ translation_segments:
     review_status: review
     original: 交換をする動機というものに関することですが、先ほどお話ししました通り、交換したくなる理由というのがいろいろ考えられると思うんです。そのヒントになったのが、僕らが子供の頃に集めたカードやシールなんですよね。そこから出てきたのが、珍しいものや欲しいものをお互いに交換するということです。それから、交換をすると何かいいことが起こるというのを考えまして、すべてのポケモンの中に４種類ほど、交換することで変身するヤツがいるんです。《出世魚》という感覚ですよね。たとえば、自分の手元で毛虫がさなぎになり蝶になるという変身もあるんだけど、交換する、つまり手離すことで変身するヤツもあるんじゃないかということです。珍しいものだけじゃなくて、もっといろんなものを交換してみて欲しいですから。やっぱり、珍しいものなんてのは、人にはあげたくないと思うんですよね。
     translation: 是关于交换动机的事，正如刚才所说，想要交换的理由应该有很多种。给我们提示的，是我们小时候收集的卡片和贴纸。从中产生的，就是互相交换稀有或想要的东西。然后我们又想到，交换之后会发生什么好事，在所有宝可梦里大约有4种，是通过交换而变身的。就是《出世鱼》的感觉。比如在自己手里毛毛虫变成蛹、变成蝴蝶这种变身也有，但应该也有通过交换、也就是放手而变身的家伙吧。不只是稀有的东西，希望大家能交换更多各种各样的东西。毕竟稀有的东西，人是不太愿意给别人的。
+    scan_box:
+      - 103
+      - 350
+      - 662
+      - 1139
+    writing_direction: horizontal
   - speaker: 太田健程
     type: paragraph
     kind: text
@@ -1166,6 +1859,23 @@ translation_segments:
     review_status: review
     original: それと、交換することで人にあげてしまうのではなく、貸すという感覚があってもいいんじゃないかと思って、ポケモンを借りてくるだけでも図鑑が埋まるようにしたんです。ところが、それだと貸す側のメリットがないので《里親》に出されているポケモンは、普段の１．５倍の経験値がもらえるようにしてあるんです。出稼ぎに出ているという感覚で。先ほど話したＩＤナンバーによって、人からもらったポケモンなんかをソフトが勘違いしないようにしているんです。
     translation: 还有，我觉得与其通过交换把宝可梦送给别人，不如有一种借出去的感觉也不错，所以就算只是借来宝可梦也能填满图鉴。不过这样一来，借出的一方就没有好处了，所以寄养在《养父母》那里的宝可梦，设定为能获得平时1.5倍的经验值。就像外出打工一样的感觉。刚才提到的ID编号，就是用来让软件不会把人给的宝可梦之类的搞混。
+    scan_box:
+      - 111
+      - 1153
+      - 660
+      - 1184
+    scan_boxes:
+      - 
+        - 111
+        - 1153
+        - 660
+        - 1184
+      - 
+        - 721
+        - 127
+        - 1273
+        - 559
+    writing_direction: horizontal
   - speaker: 渡边哲也
     type: paragraph
     kind: text
@@ -1176,6 +1886,12 @@ translation_segments:
     review_status: review
     original: あと、育てた《親》の名前もポケモンが記憶するようにしてあるんですけど、ゲーム中にポケモンの名前を変えてくれる姓名判断士がいるんですよね。そこでは、本来の親（プレイヤー）だけがそのポケモンの名前を変えられるようにしてあります。せっかく育てた自分のポケモンを、勝手に名前を変えられたらイヤですからね（笑）。
     translation: 另外，培育它的《父母》的名字也会被宝可梦记住，游戏中有一位能帮宝可梦改名的姓名判断师。在那里，只有原本的父母（玩家）才能更改那只宝可梦的名字。好不容易培育出来的自己的宝可梦，要是被别人随便改名就太讨厌了嘛（笑）。
+    scan_box:
+      - 721
+      - 573
+      - 1265
+      - 905
+    writing_direction: horizontal
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -1186,6 +1902,12 @@ translation_segments:
     review_status: review
     original: ゲームの中のポケモンは単なる数字の集合体でしかないんですけど、それが生き物であるかのように、自分のゲームボーイから人のゲームボーイに《移住》していくという感覚をすごく大事にしたかったんです。
     translation: 游戏里的宝可梦不过是数字的集合体，但我非常想珍视那种感觉——它们就像活生生的生物一样，从自己的Game Boy《移居》到别人的Game Boy。
+    scan_box:
+      - 730
+      - 920
+      - 1270
+      - 1139
+    writing_direction: horizontal
   - speaker: 最后，来自全体制作人员的话！！
     type: heading
     kind: text
@@ -1196,7 +1918,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 最後に、制作スタッフ全員からのメッセージ！！
-    translation: "最后，来自全体制作人员的信息！！"
+    translation: 最后，来自全体制作人员的信息！！
+    scan_box:
+      - 247
+      - 1243
+      - 1121
+      - 1292
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1207,6 +1935,12 @@ translation_segments:
     review_status: review
     original: 田尻 育てたいモンスターを、いつもバッグの中に入れて持ち歩ける。これは誰もが心待ちにしていたゲームの、ひとつの形じゃないかなと思っています。それから、たくさんのポケモンとたくさんの技の中から好きな組み合わせを見つけて、自分なりに無限の遊び方を見つけてください。
     translation: 田尻 想培育的宝可梦，可以一直放进包包里随身携带。我想，这大概就是大家一直期待的游戏的一种形态吧。还有，请从众多宝可梦和众多招式里找出自己喜欢的组合，以自己的方式发现无限的玩法。
+    scan_box:
+      - 129
+      - 1323
+      - 657
+      - 1501
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1217,6 +1951,12 @@ translation_segments:
     review_status: review
     original: 増田 すべてのモンスターがいろんな声で鳴き声を聞かせてくれます。ぜひ一度は、ヘッドホンをつないでプレイしてみてくださいね。
     translation: 增田 所有宝可梦都会用各种声音让你听到它们的叫声。请务必至少戴上耳机玩一次看看。
+    scan_box:
+      - 129
+      - 1538
+      - 657
+      - 1624
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1226,7 +1966,13 @@ translation_segments:
     scan_page: 10
     review_status: review
     original: 杉森 僕が一生懸命描いたポケモンのドット絵を見てください。できる限り友達と交換しまくって、すべてのモンスターを見つけましょう。
-    translation: "杉森 请看看我拼命画出来的宝可梦像素图。尽可能多地和朋友交换，找出所有的宝可梦吧。"
+    translation: 杉森 请看看我拼命画出来的宝可梦像素图。尽可能多地和朋友交换，找出所有的宝可梦吧。
+    scan_box:
+      - 129
+      - 1663
+      - 660
+      - 1749
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1237,6 +1983,12 @@ translation_segments:
     review_status: review
     original: 太田 一度ゲームをクリアしたら、次はテーマを考えて、自分流でこだわりのあるポケモンコレクションに挑戦してみるのもいいでしょう。
     translation: 太田 通关一次游戏之后，接下来可以定个主题，按自己的风格挑战有讲究的宝可梦收藏，这样也不错。
+    scan_box:
+      - 129
+      - 1784
+      - 657
+      - 1872
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1247,6 +1999,12 @@ translation_segments:
     review_status: review
     original: 森本 いろんな技をいろんな組み合わせで遊んでみてください。おもしろい効果が現われますよ。僕のオススメの技は「ゆびをふる」ですね。
     translation: 森本 请用各种组合试试各种招式。会出现有趣的效果哦。我推荐的招式是「挥指」。
+    scan_box:
+      - 733
+      - 1323
+      - 1251
+      - 1411
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1257,6 +2015,12 @@ translation_segments:
     review_status: review
     original: 渡辺 実は、ゲーム画面のまわりの絵の一部は僕が描いたりもしているので、たまには『スーパーゲームボーイ』でも遊んでみてください。
     translation: 渡边 其实，游戏画面周围的图有一部分也是我画的，所以偶尔也请用「Super Game Boy」玩玩看。
+    scan_box:
+      - 733
+      - 1448
+      - 1251
+      - 1534
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1267,6 +2031,12 @@ translation_segments:
     review_status: review
     original: 藤原 まずはゲームをクリアすること。でも、それだけが終わりではありませんよ。本当の目的は「ポケモン図鑑」を完成させることでしょう。
     translation: 藤原 首先要通关游戏。不过，那并不是终点。真正的目的应该是完成「宝可梦图鉴」吧。
+    scan_box:
+      - 733
+      - 1569
+      - 1259
+      - 1657
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1277,6 +2047,12 @@ translation_segments:
     review_status: review
     original: 西野 途中でイヤになることもあるかもしれません。けれど、できることなら１５０体のポケモンをすべて集めて欲しいものですよねぇ。
     translation: 西野 中途也许会有觉得烦的时候。不过，可以的话还是希望你能集齐150只宝可梦呢。
+    scan_box:
+      - 733
+      - 1692
+      - 1262
+      - 1780
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -1287,6 +2063,12 @@ translation_segments:
     review_status: review
     original: 西田 対戦もおもしろいですが、あまり勝ち負けにとらわれすぎないで、自分の育てたポケモンをどうかかわいがってあげてほしいですー。
     translation: 西田：对战也很有趣，但希望大家不要太拘泥于胜负，好好疼爱自己培育的宝可梦。
+    scan_box:
+      - 735
+      - 1812
+      - 1259
+      - 1901
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -1297,6 +2079,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p146_p144_colophon.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.144
     review_status: ready
+    width: 1433
+    height: 2048
   - speaker: 宝可梦图鉴
     type: heading
     kind: text
@@ -1307,7 +2091,13 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター図鑑
-    translation: "宝可梦图鉴"
+    translation: 宝可梦图鉴
+    scan_box:
+      - 423
+      - 111
+      - 1092
+      - 182
+    writing_direction: horizontal
   - speaker: An Illustrated Book of POCKET MONSTERS
     type: heading
     kind: text
@@ -1318,7 +2108,13 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: An Illustrated Book of POCKET MONSTERS
-    translation: "An Illustrated Book of POCKET MONSTERS"
+    translation: An Illustrated Book of POCKET MONSTERS
+    scan_box:
+      - 348
+      - 207
+      - 1161
+      - 244
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1329,6 +2125,23 @@ translation_segments:
     review_status: review
     original: 1996年4月5日 初版発行1997年2月7日 第六刷発行
     translation: 1996年4月5日 初版发行 1997年2月7日 第六刷发行
+    scan_box:
+      - 592
+      - 256
+      - 904
+      - 281
+    scan_boxes:
+      - 
+        - 592
+        - 256
+        - 904
+        - 281
+      - 
+        - 592
+        - 291
+        - 929
+        - 317
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1339,6 +2152,12 @@ translation_segments:
     review_status: review
     original: 発行人 廣瀬 禎彦
     translation: 発行人 发行人 广濑祯彦
+    scan_box:
+      - 152
+      - 348
+      - 447
+      - 377
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1349,6 +2168,12 @@ translation_segments:
     review_status: review
     original: 編集人 浜村 弘一
     translation: 編集人 编辑人 滨村弘一
+    scan_box:
+      - 152
+      - 387
+      - 444
+      - 416
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1359,6 +2184,12 @@ translation_segments:
     review_status: review
     original: 副編集人 野田 稔
     translation: 副編集人 副编辑人 野田稔
+    scan_box:
+      - 152
+      - 426
+      - 443
+      - 455
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1369,6 +2200,12 @@ translation_segments:
     review_status: review
     original: 編集長 田原 誠司
     translation: 編集長 主编 田原诚司
+    scan_box:
+      - 152
+      - 465
+      - 443
+      - 494
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1379,6 +2216,12 @@ translation_segments:
     review_status: review
     original: 副編集長 坂本 武郎、宮川 隆
     translation: 副編集長 副主编 坂本武郎、宫川隆
+    scan_box:
+      - 152
+      - 502
+      - 572
+      - 532
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1389,6 +2232,33 @@ translation_segments:
     review_status: review
     original: 発行所 株式会社アスキー〒151-24東京都渋谷区代々木4-33-10☎03-5351-8111
     translation: 発行所 发行所 株式会社ASCII 邮编151-24 东京都涩谷区代代木4-33-10 电话03-5351-8111
+    scan_box:
+      - 152
+      - 543
+      - 520
+      - 571
+    scan_boxes:
+      - 
+        - 152
+        - 543
+        - 520
+        - 571
+      - 
+        - 321
+        - 582
+        - 437
+        - 608
+      - 
+        - 310
+        - 621
+        - 671
+        - 647
+      - 
+        - 310
+        - 659
+        - 546
+        - 688
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1399,6 +2269,38 @@ translation_segments:
     review_status: review
     original: 発売元 株式会社アスペクト〒151-24東京都新宿区西新宿3-11-20オフィススクエアBLD新宿5F☎03-3299-1493
     translation: 発売元 发售方 株式会社Aspect 邮编151-24 东京都新宿区西新宿3-11-20 Office Square BLD新宿5F 电话03-3299-1493
+    scan_box:
+      - 150
+      - 698
+      - 546
+      - 727
+    scan_boxes:
+      - 
+        - 150
+        - 698
+        - 546
+        - 727
+      - 
+        - 310
+        - 739
+        - 437
+        - 766
+      - 
+        - 310
+        - 778
+        - 661
+        - 805
+      - 
+        - 310
+        - 815
+        - 642
+        - 844
+      - 
+        - 310
+        - 854
+        - 547
+        - 883
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1409,6 +2311,12 @@ translation_segments:
     review_status: review
     original: 監修 Creatures inc.
     translation: 監修 监修 Creatures inc.
+    scan_box:
+      - 152
+      - 891
+      - 484
+      - 922
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1419,6 +2327,12 @@ translation_segments:
     review_status: review
     original: 指導 石原 恒和（Creatures inc.）
     translation: 指導 石原恒和（Creatures inc.）
+    scan_box:
+      - 152
+      - 932
+      - 649
+      - 963
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1429,6 +2343,12 @@ translation_segments:
     review_status: review
     original: 企画・構成 陣内 弘之（Creatures inc.）
     translation: 企划・构成 阵内弘之（Creatures inc.）
+    scan_box:
+      - 150
+      - 971
+      - 649
+      - 1001
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1439,6 +2359,12 @@ translation_segments:
     review_status: review
     original: 編集 山本 善宣（ファミ通書籍編集部）
     translation: 編集 编辑 山本善宣（Fami通书籍编辑部）
+    scan_box:
+      - 150
+      - 1010
+      - 715
+      - 1040
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1449,6 +2375,12 @@ translation_segments:
     review_status: review
     original: 中里 有吾（ファミ通書籍編集部）
     translation: 中里 中里有吾（Fami通书籍编辑部）
+    scan_box:
+      - 310
+      - 1049
+      - 715
+      - 1079
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1459,6 +2391,23 @@ translation_segments:
     review_status: review
     original: 執筆 とみさわ昭仁川本ひろし
     translation: 執筆 执笔 富泽昭仁 川本浩
+    scan_box:
+      - 150
+      - 1087
+      - 441
+      - 1118
+    scan_boxes:
+      - 
+        - 150
+        - 1087
+        - 441
+        - 1118
+      - 
+        - 310
+        - 1126
+        - 440
+        - 1155
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1469,6 +2418,12 @@ translation_segments:
     review_status: review
     original: 林 英明（ファミ通書籍編集部）
     translation: 林 林英明（Fami通书籍编辑部）
+    scan_box:
+      - 310
+      - 1165
+      - 714
+      - 1196
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1479,6 +2434,12 @@ translation_segments:
     review_status: review
     original: 装丁 高田 正治（LUCKY NICE）
     translation: 装丁 装帧 高田正治（LUCKY NICE）
+    scan_box:
+      - 150
+      - 1204
+      - 635
+      - 1235
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1489,6 +2450,12 @@ translation_segments:
     review_status: review
     original: 吉田 典子（LUCKY NICE）
     translation: 吉田 吉田典子（LUCKY NICE）
+    scan_box:
+      - 308
+      - 1245
+      - 635
+      - 1274
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1499,6 +2466,28 @@ translation_segments:
     review_status: review
     original: デザイン 田邊 恒（OVER the【eks】）長谷川智洋（OVER the【eks】）石黒由起夫（OVER the【eks】）
     translation: 设计 田边恒（OVER the【eks】）长谷川智洋（OVER the【eks】）石黑由起夫（OVER the【eks】）
+    scan_box:
+      - 149
+      - 1284
+      - 663
+      - 1315
+    scan_boxes:
+      - 
+        - 149
+        - 1284
+        - 663
+        - 1315
+      - 
+        - 305
+        - 1323
+        - 663
+        - 1354
+      - 
+        - 305
+        - 1362
+        - 663
+        - 1393
+    writing_direction: horizontal
   - speaker: 渡边哲也
     type: paragraph
     kind: text
@@ -1509,6 +2498,12 @@ translation_segments:
     review_status: review
     original: 崇史（OVER the【eks】）
     translation: 渡边哲也崇史（OVER the【eks】）
+    scan_box:
+      - 305
+      - 1401
+      - 663
+      - 1432
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1519,6 +2514,12 @@ translation_segments:
     review_status: review
     original: 岨 ちあき（OVER the【eks】）
     translation: 岨 岨千明（OVER the【eks】）
+    scan_box:
+      - 305
+      - 1442
+      - 663
+      - 1470
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1529,6 +2530,12 @@ translation_segments:
     review_status: review
     original: 川端 康雄（月刊ファミ通Bros編集部）
     translation: 川端 川端康雄（月刊Fami通Bros编辑部）
+    scan_box:
+      - 305
+      - 1481
+      - 797
+      - 1511
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1539,6 +2546,12 @@ translation_segments:
     review_status: review
     original: 公式イラスト 杉森 建（GAME FREAK inc.）
     translation: 官方插画 杉森建（GAME FREAK inc.）
+    scan_box:
+      - 148
+      - 1520
+      - 696
+      - 1550
+    writing_direction: horizontal
   - speaker: 西田敦子
     type: paragraph
     kind: text
@@ -1549,6 +2562,12 @@ translation_segments:
     review_status: review
     original: 敦子（GAME FREAK inc.）
     translation: 敦子（GAME FREAK inc.）
+    scan_box:
+      - 304
+      - 1559
+      - 696
+      - 1589
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1559,6 +2578,12 @@ translation_segments:
     review_status: review
     original: イラスト 伊藤アシュラ（Creatures inc.）
     translation: 插画 伊藤阿修罗（Creatures inc.）
+    scan_box:
+      - 149
+      - 1597
+      - 645
+      - 1628
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1569,6 +2594,12 @@ translation_segments:
     review_status: review
     original: 寺平 京子（START LINE）
     translation: 寺平 京子（START LINE）
+    scan_box:
+      - 304
+      - 1638
+      - 623
+      - 1667
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1579,6 +2610,12 @@ translation_segments:
     review_status: review
     original: 宮地 秀孝（START LINE）
     translation: 宮地 秀孝（START LINE）
+    scan_box:
+      - 304
+      - 1677
+      - 623
+      - 1708
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1589,6 +2626,12 @@ translation_segments:
     review_status: review
     original: 撮影 大屋 啓吾
     translation: 撮影 摄影 大屋启吾
+    scan_box:
+      - 146
+      - 1716
+      - 437
+      - 1747
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1599,6 +2642,12 @@ translation_segments:
     review_status: review
     original: 編集協力 松田 華子（ファミ通書籍編集部）
     translation: 編集協力 编辑协助 松田华子（Fami通书籍编辑部）
+    scan_box:
+      - 145
+      - 1755
+      - 709
+      - 1788
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1609,6 +2658,12 @@ translation_segments:
     review_status: review
     original: 中島 俊（月刊ファミ通Bros編集部）
     translation: 中島 俊（月刊Fami通Bros编辑部）
+    scan_box:
+      - 302
+      - 1796
+      - 795
+      - 1827
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1619,6 +2674,12 @@ translation_segments:
     review_status: review
     original: 資料提供 GAME FREAK inc.
     translation: 資料提供 资料提供 GAME FREAK inc.
+    scan_box:
+      - 145
+      - 1835
+      - 527
+      - 1864
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1629,6 +2690,12 @@ translation_segments:
     review_status: review
     original: 製作購買部 中尾 敬子
     translation: 制作购买部 中尾敬子
+    scan_box:
+      - 145
+      - 1874
+      - 436
+      - 1903
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1639,6 +2706,12 @@ translation_segments:
     review_status: review
     original: 印刷 大日本印刷株式会社
     translation: 印刷 印刷 大日本印刷株式会社
+    scan_box:
+      - 145
+      - 1913
+      - 542
+      - 1944
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1649,6 +2722,12 @@ translation_segments:
     review_status: review
     original: 本書は著作権法上の保護を受けています。本書の一部あるいは全部について（ソフトウェア及びプログラムを含む）、株式会社アスペクトからの文書による承諾を得ずに、いかなる方法においても無断で複写、複製することを禁じます。
     translation: 本书受著作权法保护。未经株式会社Aspect书面许可，禁止以任何方法擅自复制、翻印本书的部分或全部内容（包括软件及程序）。
+    scan_box:
+      - 914
+      - 1128
+      - 1351
+      - 1313
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1659,6 +2738,12 @@ translation_segments:
     review_status: review
     original: 本書の内容についてのご質問は、祝日を除く毎週火曜日から木曜日までの、午後2時から午後4時までの間に、電話03-5351-8365で受け付けています。
     translation: 关于本书内容的咨询，除节假日外，每周二至周四下午2点至4点之间，可通过电话03-5351-8365受理。
+    scan_box:
+      - 913
+      - 1352
+      - 1350
+      - 1473
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1669,6 +2754,12 @@ translation_segments:
     review_status: review
     original: ■ゲーム内容に関するご質問についてはお答えできませんので、あらかじめご了承下さい。
     translation: ■关于游戏内容的咨询恕无法回答，敬请谅解。
+    scan_box:
+      - 913
+      - 1511
+      - 1354
+      - 1571
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1679,6 +2770,33 @@ translation_segments:
     review_status: review
     original: ©1995 Nintendo©1995 Creatures inc.©1995 GAME FREAK inc.©1996 ASCII
     translation: ©1995 Nintendo©1995 Creatures inc.©1995 GAME FREAK inc.©1996 ASCII
+    scan_box:
+      - 907
+      - 1610
+      - 1075
+      - 1634
+    scan_boxes:
+      - 
+        - 907
+        - 1610
+        - 1075
+        - 1634
+      - 
+        - 907
+        - 1642
+        - 1125
+        - 1667
+      - 
+        - 907
+        - 1675
+        - 1174
+        - 1700
+      - 
+        - 907
+        - 1708
+        - 1045
+        - 1733
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1689,6 +2807,12 @@ translation_segments:
     review_status: review
     original: ゲームボーイは任天堂の登録商標です。
     translation: Game Boy是任天堂的注册商标。
+    scan_box:
+      - 911
+      - 1769
+      - 1298
+      - 1796
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1699,6 +2823,23 @@ translation_segments:
     review_status: review
     original: 定価はカバーに表示してあります。ISBN4-89366-494-8
     translation: 定价标示于封面上。ISBN4-89366-494-8
+    scan_box:
+      - 910
+      - 1835
+      - 1238
+      - 1860
+    scan_boxes:
+      - 
+        - 910
+        - 1835
+        - 1238
+        - 1860
+      - 
+        - 910
+        - 1868
+        - 1112
+        - 1892
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -1709,6 +2850,12 @@ translation_segments:
     review_status: review
     original: Printed in Japan
     translation: Printed in Japan
+    scan_box:
+      - 910
+      - 1901
+      - 1075
+      - 1925
+    writing_direction: horizontal
   - speaker: ──
     type: paragraph
     kind: text
@@ -1719,6 +2866,12 @@ translation_segments:
     review_status: review
     original: "1188824"
     translation: "1188824"
+    scan_box:
+      - 911
+      - 1931
+      - 1022
+      - 1956
+    writing_direction: horizontal
 original_title: 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」
 topics:
   - 开发流程
