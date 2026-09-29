@@ -88,6 +88,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/cgworld-2017-07-game-graphics-studio-extra/pages/p003_creatures_p76.jpg"
     alt: CGWORLD 2017年7月号（Vol.227） P.3
     review_status: ready
+    width: 1558
+    height: 2048
   - speaker: "\"GAME GRAPHICS STUDIO\" EXTRA ABOUT : CREATURES"
     type: heading
     kind: text
@@ -99,6 +101,12 @@ translation_segments:
     review_status: review
     original: "\"GAME GRAPHICS STUDIO\"EXTRAABOUT : CREATURES"
     translation: ""
+    scan_box:
+      - 456
+      - 111
+      - 1095
+      - 330
+    writing_direction: horizontal
   - speaker: 为宝可梦设定画注入生命的Creatures 不止于资产制作的现状与未来
     type: heading
     kind: text
@@ -110,6 +118,12 @@ translation_segments:
     review_status: review
     original: ポケモンの設定画に命を吹き込むクリーチャーズアセット制作にとどまらない現状と未来とは
     translation: ""
+    scan_box:
+      - 210
+      - 385
+      - 1341
+      - 512
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -120,6 +134,12 @@ translation_segments:
     review_status: review
     original: 「ポケットモンスター」のポケモン3DCGアセット制作を一手に引き受けるクリーチャーズ。しかし、業務内容はそれだけにとどまらない。「ポケモンCGスタジオ」を新設し、人員増強を図る同社ならではの戦略と、スタジオでの働き方について聞いた。
     translation: Creatures一手承担《宝可梦》的宝可梦3DCG资产制作。然而，其业务内容并不止于此。我们就该公司新设“宝可梦CG工作室”、力图扩充人员的独有战略，以及工作室中的工作方式进行了采访。
+    scan_box:
+      - 343
+      - 535
+      - 1209
+      - 623
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -130,6 +150,12 @@ translation_segments:
     review_status: review
     original: TEXT_小野憲史
     translation: TEXT_小野宪史
+    scan_box:
+      - 723
+      - 639
+      - 830
+      - 655
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -140,6 +166,12 @@ translation_segments:
     review_status: review
     original: ©2017 Pokémon. ©1995-2017 Nintendo/Creatures Inc. /GAME FREAK inc.
     translation: ©2017 Pokémon. ©1995-2017 Nintendo/Creatures Inc. /GAME FREAK inc.
+    scan_box:
+      - 352
+      - 1151
+      - 738
+      - 1165
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -150,6 +182,12 @@ translation_segments:
     review_status: review
     original: ©2016 Pokémon. ©1995-2016 Nintendo/Creatures Inc. /GAME FREAK inc. Developed by Creatures Inc.ポケットモンスター・ポケモン・Pokémon・名探偵ピカチュウは、任天堂・クリーチャーズ・ゲームフリークの登録商標です。
     translation: ©2016 Pokémon. ©1995-2016 Nintendo/Creatures Inc. /GAME FREAK inc. Developed by Creatures Inc. 宝可梦、Pokémon、名侦探皮卡丘是任天堂、Creatures、GAME FREAK的注册商标。
+    scan_box:
+      - 887
+      - 1151
+      - 1430
+      - 1182
+    writing_direction: horizontal
   - speaker: 为世界屈指可数的宝可梦注入生命的公司
     type: heading
     kind: text
@@ -161,6 +199,12 @@ translation_segments:
     review_status: review
     original: 世界で有数のポケモンに命を宿す会社
     translation: ""
+    scan_box:
+      - 633
+      - 1262
+      - 969
+      - 1337
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -171,6 +215,23 @@ translation_segments:
     review_status: review
     original: プラットフォームを超えて拡大を続ける『ポケットモンスター』シリーズ。今や携帯ゲーム機を飛び出して、据え置き型ゲーム機、スマートフォンアプリ、ブラウザゲーム、アーケードなど、様々なハードで展開されている。こうしたコンテンツのグラフィックス面で中核を担うのがクリーチャーズだ。原作権を保有するライセンサー3社のうちの1社で、ポケモンの3DCGアセットの制作を一手に引き受けている。他社開発の関連ゲームでも、同社のリファレンスが使用されるしくみだ。また同社では、『ポケモンレンジャー』、『ポケパーク』シリーズや『名探偵ピカチュウ〜新コンビ誕生〜』など、自社開発も進めてきた。アナログゲームの『ポケモンカードゲーム』も同社の開発で、現在も社内の半数が制作に携わっている。このようにポケモンと共に成長を続けながら、デジタルからアナログ、ハイエンドCGからローエンドCGまで、様々な遊びを作り上げてきたクリーチャーズ。今後も世界中のファンに向けて、様々な体験を提供していくという。
     translation: 跨越平台持续扩张的《宝可梦》系列。如今已飞出便携游戏机，在据置型游戏机、智能手机应用、浏览器游戏、街机等各种硬件上展开。在这些内容的图形方面承担核心角色的正是Creatures。它是持有原作权的三家授权方之一，一手承担宝可梦3DCG资产的制作。即使是其他公司开发的相关游戏，也采用该公司的参考这一机制。此外，该公司还推进了《宝可梦巡护员》、《宝可公园》系列以及《名侦探皮卡丘 ～新组合诞生～》等自社开发。实体卡牌游戏《宝可梦卡牌游戏》也由该公司开发，目前公司内仍有半数人员参与制作。就这样与宝可梦一同持续成长，从数字到实体、从高端CG到低端CG，Creatures打造出了各种各样的游玩体验。据说今后也将继续为全世界的粉丝提供各种体验。
+    scan_box:
+      - 631
+      - 1391
+      - 971
+      - 1839
+    scan_boxes:
+      - 
+        - 631
+        - 1391
+        - 971
+        - 1839
+      - 
+        - 1044
+        - 1262
+        - 1422
+        - 1473
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -181,6 +242,12 @@ translation_segments:
     review_status: review
     original: こうしたポケモンの広がりを受けて、社内に新設されたのがポケモンCGスタジオだ。取締役の氏家淳子氏は「スタジオ所属の3DCGアーティストは22名で、今後数年間かけて倍増させたい」と語る。リーダー職をはじめ、幅広い経験・職種で人材を募集中だ。アセットの外注化が世界規模で進む中、同社では一貫して内製を保ってきた。開発の進捗に合わせて派遣社員や出向社員を柔軟に受け入れ、ピーク時には100名規模の開発体制が組まれたこともあるという。にもかかわらず、案件増加で嬉しい悲鳴を上げて
     translation: 在这样的宝可梦扩展背景下，公司内部新设的便是宝可梦CG工作室。董事氏家淳子表示：“工作室所属的3DCG美术师有22名，希望今后用数年时间将其翻倍。”从领导职位开始，正在广泛招募各种经验与职种的人才。在资产外包化于全球范围推进之中，该公司始终保持着内部制作。据称，配合开发进度灵活接纳派遣员工与借调员工，高峰时期曾组建过100人规模的开发体制。尽管如此，因案件增加而发出幸福的哀鸣
+    scan_box:
+      - 1044
+      - 1489
+      - 1422
+      - 1839
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -191,6 +258,12 @@ translation_segments:
     review_status: review
     original: 氏家淳子 氏取締役／ポケモンCGスタジオ 部長／アートディレクター
     translation: 氏家淳子 董事／宝可梦CG工作室 部长／美术总监
+    scan_box:
+      - 151
+      - 1772
+      - 500
+      - 1821
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -201,6 +274,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/cgworld-2017-07-game-graphics-studio-extra/pages/p004_creatures_p77.jpg"
     alt: CGWORLD 2017年7月号（Vol.227） P.4
     review_status: ready
+    width: 1558
+    height: 2048
   - speaker: 为2D画作赋予真实感，并以自己的解读进行3D化
     type: heading
     kind: text
@@ -313,6 +388,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/cgworld-2017-07-game-graphics-studio-extra/pages/p005_gamefreak_p78.jpg"
     alt: CGWORLD 2017年7月号（Vol.227） P.5
     review_status: ready
+    width: 1558
+    height: 2048
   - speaker: "“GAME GRAPHICS STUDIO”EXTRA ABOUT : GAME FREAK"
     type: heading
     kind: text
@@ -324,6 +401,12 @@ translation_segments:
     review_status: review
     original: "\"GAME GRAPHICS STUDIO\"EXTRAABOUT : GAME FREAK"
     translation: ""
+    scan_box:
+      - 456
+      - 113
+      - 1097
+      - 332
+    writing_direction: horizontal
   - speaker: 仍未忘记独立精神的GAME FREAK 能够“埋头”制作游戏的环境是什么
     type: heading
     kind: text
@@ -335,6 +418,12 @@ translation_segments:
     review_status: review
     original: いまだインディ魂を忘れないゲームフリークゲームづくりに“没頭”できる環境とは
     translation: ""
+    scan_box:
+      - 280
+      - 389
+      - 1271
+      - 514
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -345,6 +434,12 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』シリーズの生みの親であり、シリーズの開発を続けるゲームフリーク。同社はまた、ゲーム好きが集まって起ち上げた、インディゲームの第1世代でもある。さらなる飛躍をめざして体制強化中という同社に求める人材像を聞いた。
     translation: 《宝可梦》系列的创造者，并持续开发该系列的GAME FREAK。该公司也是由一群游戏爱好者聚集创办的独立游戏第一代。我们采访了正在为更大飞跃而强化体制的该公司，询问了他们寻求的人才形象。
+    scan_box:
+      - 340
+      - 537
+      - 1211
+      - 623
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -355,6 +450,12 @@ translation_segments:
     review_status: review
     original: TEXT_小野憲史
     translation: TEXT_小野宪史
+    scan_box:
+      - 724
+      - 639
+      - 827
+      - 657
+    writing_direction: horizontal
   - speaker: 至今仍在持续挑战的游戏业界传说级存在
     type: heading
     kind: text
@@ -366,6 +467,12 @@ translation_segments:
     review_status: review
     original: 今もなお挑戦を続けるゲーム業界の伝説的存在
     translation: ""
+    scan_box:
+      - 633
+      - 1260
+      - 964
+      - 1337
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -376,6 +483,23 @@ translation_segments:
     review_status: review
     original: "ゲーム業界は様々な伝説で彩られている。一介のゲーム好きが集まって設立されたゲームフリークもそのひとつだ。開発に6年かかった『ポケットモンスター 赤・緑』は、1996年にリリースされると過去の常識をくつがえす大ヒットを記録した。以降現在に至るまで、シリーズの開発を一貫して続けると共に、派生作品の監修なども手がけている。開発本部でアートディレクターを務める海野隆雄氏は「『ポケットモンスター』は開発2部が担当しているんですが、開発1部のミッションは新たなヒット作をつくること。会社として、常に新しい挑戦を続けることを意味しています」と力強く語る。同社は日本最大級のインディゲームイベント「A 5th of BitSummit」にも出展。PC向けオリジナルゲーム「GIGA WRECKER」などをデモし、高い存在感を示した。実際、急速な技術進化を背景に、ゲームの定義は拡大を続けている。グラフィックスひとつとってもハイエンドのPCゲームからローエンドの携帯ゲーム機まで様々で、VRやMRといった新領域も登場。今後もめまぐるしい変化が予測される。こうした状況へ的確に対応するため、同社では昨年より研究開発部を発足させ、3DCGの技術を蓄積中だ。未来のゲームづくりのため、技術と情熱を併せ持つゲームクリエイターを募集中だという。『ポケットモンスター サン・ムーン』（以下、『サン・ムーン』）で内製ゲームエンジンを開発したプログラマーの石黒真照氏は、大手パブリッシャーからの中途入社組だ。ゲームエンジンの内製化で10%の性能向上を実現し、開"
     translation: "游戏业界充满了各种传说。由一群游戏爱好者聚集创立的GAME FREAK便是其中之一。耗时6年开发的《宝可梦 红·绿》于1996年发售，创下了颠覆以往常识的惊人销量。此后至今，该公司不仅一贯持续开发系列作品，还负责衍生作品的监修等工作。担任开发总部美术总监的海野隆雄先生坚定地表示：“《宝可梦》由开发2部负责，而开发1部的使命是创造新的热门作品。这意味着公司始终在不断进行新的挑战。”该公司还参展了日本最大级别的独立游戏活动“A 5th of BitSummit”，展示了PC平台原创游戏《GIGA WRECKER》等作品，展现了强大的存在感。实际上，在技术快速进化的背景下，游戏的定义不断扩展。仅就图形而言，从高端PC游戏到低端便携游戏机，种类繁多，VR和MR等新领域也已出现。预计今后仍将发生令人眼花缭乱的变化。为了准确应对这种状况，该公司从去年起成立了研究开发部，正在积累3DCG技术。据说为了未来的游戏制作，正在招募兼具技术与热情的游戏创作者。在《宝可梦 太阳·月亮》（以下简称《太阳·月亮》）中开发了自研游戏引擎的程序员石黑真照先生，是从大型发行商中途入职的。通过游戏引擎的自研化实现了10%的性能提升，开"
+    scan_box:
+      - 633
+      - 1391
+      - 966
+      - 1841
+    scan_boxes:
+      - 
+        - 633
+        - 1391
+        - 966
+        - 1841
+      - 
+        - 1044
+        - 1260
+        - 1421
+        - 1841
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -386,6 +510,12 @@ translation_segments:
     review_status: review
     original: 左から、開発本部 ブートディレクター・海野隆雄氏／開発本部 研究開発部 プログラマー・石黒真照氏／開発本部 研究開発部テクニカルアーティスト・川野健太氏／開発本部 研究開発部テクニカルアーティスト・山本裕輝氏
     translation: 左起依次为：开发总部 引导总监·海野隆雄先生／开发总部 研究开发部 程序员·石黑真照先生／开发总部 研究开发部 技术美术·川野健太先生／开发总部 研究开发部 技术美术·山本裕辉先生
+    scan_box:
+      - 153
+      - 1747
+      - 573
+      - 1825
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -396,6 +526,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/cgworld-2017-07-game-graphics-studio-extra/pages/p006_gamefreak_p79.jpg"
     alt: CGWORLD 2017年7月号（Vol.227） P.6
     review_status: ready
+    width: 1558
+    height: 2048
   - speaker: 宝可梦系列开发所带来的东西
     type: heading
     kind: text
@@ -407,6 +539,12 @@ translation_segments:
     review_status: review
     original: ポケモンシリーズ開発がもたらすもの
     translation: ""
+    scan_box:
+      - 464
+      - 248
+      - 759
+      - 317
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -417,6 +555,23 @@ translation_segments:
     review_status: review
     original: "最新作『サン・ムーン』の販売本数が全世界で1,544万本を記録するなど（出典：任天堂2017年3月期決算資料）、ゲームフリークでは文字通り、世界中のユーザーに向けたゲームづくりが行われている。対応言語も『ポケットモンスター X・Y』（以下、『X・Y』）の7言語に、中国語（繁体字・簡体字）を追加。『X・Y』から世界同時発売も実現した。また、シリーズの開発は桁違いに大きい物量との戦いでもある。そのため、「発生頻度がわずかなバグでも販売本数が多いため大きな問題になりかねません」と海野氏は言う。「どこにも負けない美しい画を安全に出すことが目標ですね」（石黒氏）。「予算や規模が限られたプロジェクトが多い中、じっくり腰を据えて開発に取り組める点が魅力です」（川野氏）。「データ制作やデバッグなど、あらゆる点で効率化が常に意識されています」（山本氏）。こうした唯一無二の経験ができる点が、開発者としての魅力だという。"
     translation: "最新作《太阳·月亮》全球销量达到1,544万份（出处：任天堂2017年3月期决算资料），GAME FREAK确实在进行面向全世界用户的游戏制作。支持语言也在《宝可梦 X·Y》（以下简称《X·Y》）的7种语言基础上，追加了中文（繁体字·简体字）。从《X·Y》起还实现了全球同步发售。此外，系列开发也是一场与规模庞大的工作量之间的战斗。因此，海野先生表示：“即使是发生频率很低的bug，由于销量巨大，也可能成为重大问题。”“我们的目标是安全地呈现出不输给任何人的美丽画面”（石黑先生）。“在预算和规模有限的项目居多的情况下，能够沉下心来扎实投入开发，这一点很有魅力”（川野先生）。“在数据制作和调试等各个方面，始终意识到效率化”（山本先生）。据说能够获得这种独一无二的经验，正是作为开发者的魅力所在。"
+    scan_box:
+      - 464
+      - 346
+      - 901
+      - 567
+    scan_boxes:
+      - 
+        - 464
+        - 346
+        - 901
+        - 567
+      - 
+        - 939
+        - 248
+        - 1407
+        - 567
+    writing_direction: horizontal
   - speaker: 齿轮项目制度
     type: heading
     kind: text
@@ -428,6 +583,12 @@ translation_segments:
     review_status: review
     original: ギアプロジェクト制度
     translation: ""
+    scan_box:
+      - 170
+      - 690
+      - 442
+      - 719
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -438,6 +599,23 @@ translation_segments:
     review_status: review
     original: 同社のオリジナルゲーム開発の苗床になるのが、不定期に行われるアイデアコンペのギアプロジェクト制度だ。役職・年齢・経験にかかわらず、誰でも参加が可能で、社員が自らチームを組んで企画を提出する。参加チームは一定期間プロトタイプの制作を行い、社内審査を経てプロジェクトとして承認されると開発スタートだ。ギアプロジェクト制度がきっかけで発売されたタイトルは『GIGA WRECKER』など4タイトルで、中でも競馬とソリティアを組み合わせた『ソリティア馬』は、日本ゲーム大賞の特別賞を受賞するなど、高い評価を得た。本制度は2010年からスタートし、社員のモチベーションアップにも大きく貢献しているという。「社名の由来通り“ゲームフリーク”が集まっておりクリエイティビティが高いスタッフが多いので、毎回いろいろなアイデアが集まります。これからも続けていきたいですね」（海野氏）。
     translation: 成为该公司原创游戏开发苗床的，是不定期举行的创意竞赛——齿轮项目制度。无论职位、年龄、经验，任何人都可以参加，员工自行组队提交企划。参加团队在一定期间内制作原型，经过公司内部审查被批准为项目后即开始开发。以齿轮项目制度为契机发售的作品有《GIGA WRECKER》等4款，其中将赛马与纸牌接龙相结合的《接龙马》获得了日本游戏大奖特别奖等高度评价。该制度自2010年开始实施，据说对提升员工积极性也做出了巨大贡献。“正如公司名称的由来一样，这里聚集着‘游戏狂人’，富有创造力的员工很多，所以每次都会汇集各种各样的创意。今后也想继续下去”（海野先生）。
+    scan_box:
+      - 170
+      - 754
+      - 612
+      - 977
+    scan_boxes:
+      - 
+        - 170
+        - 754
+        - 612
+        - 977
+      - 
+        - 650
+        - 690
+        - 1086
+        - 977
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -448,6 +626,23 @@ translation_segments:
     review_status: review
     original: 発効率の向上にも貢献した。「ニンテンドー3DSの性能をフルに引き出すつくり方ができました」（石黒氏）。テクニカルアーティストの川野健太氏は、転職してくるまでポケモンが3DCG化されていたことすら知らなかったという。モーションデザイナー出身で、現在はMayaの技術的なサポートを中心に、デフォルトの機能ではまかないきれないリグまわりの処理などを担っている。「大手なら分業化が進んでいても、ポケモンが3DCG化されて間がない状況であれば土台から参加できるのではないか」と考えて移籍してきた。今では欠かせない戦力のひとりだ。同じくテクニカルアーティストの山本裕輝氏は、コンシューマゲーム開発に携わりたいと関西から上京してきた。キャラクターモデラー出身で、現在は各々のポケモンに必要な専用シェーダの作成をはじめとした画づくりについての様々な工夫を行なっている。「『サン・ムーン』ではバトルに初めてトレーナーが登場することになり、それに堪えられるような人物向けのシェーダを作成しました」（山本氏）。今後も内製エンジンの機能拡張を含めて、より良い表現に努めたいという。
     translation: 也为提升效率做出了贡献。“我们实现了能够充分发挥任天堂3DS性能的制作方式”（石黑先生）。技术美术川野健太先生在跳槽过来之前，甚至不知道宝可梦已经被3DCG化。他出身于动作设计师，现在以Maya的技术支持为中心，负责默认功能无法覆盖的绑定相关处理等。“我想，在大公司分工化可能已经很深入，但在宝可梦3DCG化不久的情况下，或许可以从基础开始参与”，于是决定跳槽过来。如今他已是不可或缺的战力之一。同样是技术美术的山本裕辉先生，为了参与家用游戏开发而从关西来到东京。他出身于角色模型师，现在负责包括为每只宝可梦创建所需的专用着色器在内的画面制作方面的各种工作。“在《太阳·月亮》中，训练家首次在战斗中登场，因此我们创建了能够承受这一需求的人物用着色器”（山本先生）。据说今后也将包括自研引擎的功能扩展在内，努力实现更好的表现。
+    scan_box:
+      - 136
+      - 1128
+      - 514
+      - 1843
+    scan_boxes:
+      - 
+        - 136
+        - 1128
+        - 514
+        - 1843
+      - 
+        - 550
+        - 1128
+        - 929
+        - 1186
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -458,6 +653,12 @@ translation_segments:
     review_status: review
     original: 海野氏は同社ならではの特徴として、ポケモンから社内アイデアコンペのギアプロジェクトまで、様々な規模のゲーム開発に携わることができる点を挙げた。その中で研究開発部は全社的なものづくりの土台となる、未来のゲームフリークを支えるポジションだ。そのためポケモンに限らず、ものづくり全般が好きな人に応募してもらいたいという。それだけのやりがいや、ものづくりに集中できるだけの環境は提供するというわけだ。評価システムにおいても半期に一度の“多面評価”が採用されている。それが機能するのも開発ラインを絞り込み、職種を超えたものづくりを行なっているからで、古き良きゲーム会社のイメージだ。その一方でフレックスタイム制の導入や産休・育休制度、社内のサークル活動支援など、働きやすい環境も整備されている。「寝袋ははるか昔に捨てました」と語る海野氏だが、同社のDNAであるゲーム開発の良い意味での泥臭さは、いまだ健在と感じられた。
     translation: 海野先生列举了该公司独有的特点：从宝可梦到公司内部创意竞赛的齿轮项目，能够参与各种规模的游戏开发。其中，研究开发部是成为全公司制作基础、支撑未来GAME FREAK的岗位。因此，据说希望不仅限于宝可梦，对制作本身感兴趣的人前来应聘。也就是说，公司会提供与之相称的干劲，以及能够专注于制作的环境。在评价体系方面，采用了每半年一次的“多面评价”。这之所以能够发挥作用，是因为公司精简了开发线，进行跨职种的制作，呈现出古老而美好的游戏公司的形象。另一方面，公司也引入了弹性工作制、产假·育儿假制度、公司内部社团活动支持等，营造了易于工作的环境。海野先生表示“睡袋很久以前就扔掉了”，但作为该公司DNA的游戏开发中那种良好意义上的质朴踏实，至今依然健在。
+    scan_box:
+      - 550
+      - 1194
+      - 929
+      - 1843
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -468,6 +669,12 @@ translation_segments:
     review_status: review
     original: INFORMATION
     translation: INFORMATION
+    scan_box:
+      - 1154
+      - 1139
+      - 1243
+      - 1151
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -478,6 +685,12 @@ translation_segments:
     review_status: review
     original: GAME FREAK株式会社ゲームフリーク▶設立日：1989年4月26日▶所在地：〒157-0004 東京都世田谷区太子堂4-1-1 キャロットタワー22F▶TEL：非公開▶URL：www.gamefreak.co.jp
     translation: GAME FREAK株式会社▶设立日期：1989年4月26日▶所在地：〒157-0004 东京都世田谷区太子堂4-1-1 胡萝卜塔22F▶电话：不公开▶网址：www.gamefreak.co.jp
+    scan_box:
+      - 997
+      - 1182
+      - 1405
+      - 1346
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -488,6 +701,12 @@ translation_segments:
     review_status: review
     original: "求人情報▶募集職種①テクニカルアーティスト ※特にキャラクターモデラー出身者②UIデザイナー／③マップモデラー／④エフェクトデザイナー⑤キャラクターモデラー⑥プログラマー（研究開発）※特にモーションに造詣の深い方⑦プログラマー（コンシューマゲーム開発）※特に通信機能に造詣の深い方▶雇用形態：正社員▶待遇：<給与>約29万円〜38万円／月（月45時間分の固定残業代を含む）※能力・経験・現年収を考慮して決定<賞与>原則年2回（夏季・冬季）※別途業績次第で決算賞与の支給あり<昇給>定期昇給年1回、レイヤー（職階）見直し年2回<諸手当>交通費全額支給、マネジメント手当<勤務時間>11:00〜20:00（試用期間中10:00〜19:00）※昼休憩1時間（13:00〜15:00の間で1時間）。フレックスタイム制あり（コアタイム11:00〜17:00）<各種保険>完備▶休日休暇：土・日曜日、祝祭日、夏期休暇、冬期休暇、プロジェクト完成リフレッシュ休暇、有給休暇、慶弔休暇など"
     translation: "招聘信息▶招聘职位①技术美术 ※尤其是角色模型师出身者②UI设计师／③地图模型师／④特效设计师⑤角色模型师⑥程序员（研究开发）※尤其是对动作有深入造诣者⑦程序员（家用游戏开发）※尤其是对通信功能有深入造诣者▶雇用形态：正式员工▶待遇：<薪资>约29万日元〜38万日元／月（含每月45小时固定加班费）※根据能力·经验·现年收入决定<奖金>原则上每年2次（夏季·冬季）※另有根据业绩发放的决算奖金<加薪>定期加薪每年1次，职级（职阶）调整每年2次<各项津贴>交通费全额支付、管理津贴<工作时间>11:00〜20:00（试用期间10:00〜19:00）※午休1小时（13:00〜15:00之间休息1小时）。有弹性工作制（核心时间11:00〜17:00）<各种保险>完备▶休息日休假：周六·周日、法定节假日、夏季休假、冬季休假、项目完成焕然一新休假、带薪休假、婚丧假等"
+    scan_box:
+      - 997
+      - 1366
+      - 1405
+      - 1784
+    writing_direction: horizontal
   - speaker: note
     type: paragraph
     kind: text
@@ -499,6 +718,12 @@ translation_segments:
     original: More Info.www.gamefreak.co.jp/recruit
     translation: 更多信息：www.gamefreak.co.jp/recruit
     comment: GAME FREAK 招聘页面网址。
+    scan_box:
+      - 997
+      - 1804
+      - 1178
+      - 1823
+    writing_direction: horizontal
 original_title: Game Graphics Studio EXTRA：『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制
 topics:
   - 开发流程

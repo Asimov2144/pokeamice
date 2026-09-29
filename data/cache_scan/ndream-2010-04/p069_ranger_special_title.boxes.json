@@ -4,10 +4,16 @@
  "page_direction": "horizontal",
  "lines": [[1032,43,1055,60], [22,21,1226,271], [583,57,1568,424], [1026,342,1525,460], [1146,486,1420,544], [36,691,502,780], [99,772,395,844], [75,874,349,919], [34,893,564,1074], [2,937,1235,1298], [516,1067,1562,1432], [471,1239,502,1264], [221,1241,396,1290], [224,1265,508,1329], [969,1362,1417,1480], [1164,1443,1413,1521], [1212,1510,1247,1526], [1115,1549,1371,1606], [851,1650,1102,1705], [889,1688,1192,1751], [856,1731,871,1744], [151,1682,789,1793], [1022,1707,1401,1779], [335,1762,382,1775], [986,1753,1013,1775], [645,1771,668,1783], [692,1760,767,1783], [128,1730,788,1822], [719,1795,789,1817], [892,1802,920,1829], [929,1747,1442,1830], [204,1811,258,1825], [133,1766,793,1861], [954,1797,1367,1871], [132,1802,799,1899], [883,1860,1117,1924], [1169,1843,1429,1918], [1140,1890,1165,1910], [140,1851,660,1934], [853,1901,867,1915], [58,1991,394,2008], [1467,1993,1487,2008]],
  "regions": {
-  "p069-h01": {"boxes":[[25,41,1543,416],[19,891,1527,1397]],"direction":"horizontal"},
-  "p069-p01": {"boxes":[[137,1679,796,1929]],"direction":"horizontal"}
+  "p069_ranger_special_title-h2": {"boxes":[[29,41,1543,416]],"direction":"horizontal"},
+  "p069_ranger_special_title-r3": {"boxes":[[1021,338,1556,543]],"direction":"horizontal"},
+  "p069_ranger_special_title-r4": {"boxes":[[25,680,503,913]],"direction":"horizontal"},
+  "p069_ranger_special_title-h5": {"boxes":[[22,891,1524,1405]],"direction":"horizontal"},
+  "p069_ranger_special_title-r6": {"boxes":[[958,1364,1422,1602]],"direction":"horizontal"},
+  "p069_ranger_special_title-r7": {"boxes":[[121,1679,792,1931]],"direction":"horizontal"},
+  "p069_ranger_special_title-h8": {"boxes":[[850,1647,1104,1706]],"direction":"horizontal"},
+  "p069_ranger_special_title-t9": {"boxes":[[846,1692,1445,1921]],"direction":"horizontal"}
  },
- "meta": {"model": "qwen3.8-max", "seconds": 28.5, "image_tokens": 3202, "completion_tokens": 121, "finish": "stop", "scale": "1000"},
- "image": "/assets/images/scan-archive/dream-2010-04/pages/p069_ranger_special_title.jpg",
+ "meta": {"model": "qwen3.8-max", "seconds": 7.7, "image_tokens": 3202, "completion_tokens": 241, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/ndream-2010-04-creatures-ranger-interview/pages/p069_ranger_special_title.jpg",
  "page_file": "p069_ranger_special_title"
 }

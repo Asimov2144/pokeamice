@@ -76,6 +76,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page000.jpg"
     alt: CONTINUE
     review_status: ready
+    width: 1566
+    height: 2048
   - speaker: image
     type: image
     kind: image
@@ -86,6 +88,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page002.jpg"
     alt: CONTINUE Vol.23（2005年8月号） P.2
     review_status: ready
+    width: 1426
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -96,6 +100,12 @@ translation_segments:
     review_status: review
     original: 写真＝松崎浩之
     translation: 摄影＝松崎浩之
+    scan_box:
+      - 1174
+      - 1907
+      - 1348
+      - 1935
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -106,6 +116,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page003.jpg"
     alt: CONTINUE Vol.23（2005年8月号） P.3
     review_status: ready
+    width: 1501
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -117,6 +129,12 @@ translation_segments:
     original: 「アタリ文字の『R』ってこれであってたっけ？」（田尻）
     translation: “雅达利字体的‘R’是这样写的吗？”（田尻）
     comment: 雅达利（Atari）是早期游戏公司，其字体风格常被像素创作者参考。
+    scan_box:
+      - 273
+      - 1454
+      - 1174
+      - 1520
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -127,6 +145,12 @@ translation_segments:
     review_status: review
     original: 「あってたと思いますよ」（杉森）
     translation: “我觉得没错。”（杉森）
+    scan_box:
+      - 824
+      - 1579
+      - 1366
+      - 1640
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -137,6 +161,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page004.jpg"
     alt: CONTINUE Vol.23（2005年8月号） P.4
     review_status: ready
+    width: 1513
+    height: 2048
   - speaker: caption
     type: paragraph
     kind: text
@@ -147,6 +173,12 @@ translation_segments:
     review_status: review
     original: 「これ、このまま持って帰ってずっとやってたいなあ（笑）」（海野）
     translation: “这个，真想就这么带回去一直玩下去啊（笑）。”（海野）
+    scan_box:
+      - 85
+      - 1733
+      - 1224
+      - 1794
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -157,6 +189,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page005.jpg"
     alt: CONTINUE Vol.23（2005年8月号） P.5
     review_status: ready
+    width: 1385
+    height: 2048
   - speaker: image
     type: image
     kind: image
@@ -167,6 +201,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page006.jpg"
     alt: CONTINUE Vol.23（2005年8月号） P.6
     review_status: ready
+    width: 1309
+    height: 2047
   - speaker: body
     type: paragraph
     kind: text
@@ -178,6 +214,12 @@ translation_segments:
     original: 普段、ドットに慣れ親しみ、仕事としている人たちが『ドッツ』に触れるとどうなるのだろう？ そんな素朴な疑問に応えてくれたのがゲームフリークの皆さん。
     translation: 平时习惯像素、以像素为工作的人们接触到《DOTZ》会怎样呢？回应这个朴素疑问的，正是GAME FREAK的各位。
     comment: 《DOTZ》是当时的一款像素创作玩具。
+    scan_box:
+      - 745
+      - 166
+      - 1228
+      - 313
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -188,6 +230,12 @@ translation_segments:
     review_status: review
     original: 本当にわずかな時間にもかかわらず、黙々と、そして迷いなく『ドッツ』を作り上げていく姿は想像以上に刺激的なものでした。―――これは、とてつもなくスゴイ玩具なのかも知れない。そう再認識してしまうほどに。
     translation: 尽管时间真的非常短，他们默默且毫不犹豫地完成《DOTZ》的样子，比想象中更令人受刺激。———这或许是个极其厉害的玩具。让人不禁重新认识到这一点。
+    scan_box:
+      - 744
+      - 323
+      - 1228
+      - 510
+    writing_direction: horizontal
   - speaker: body
     type: paragraph
     kind: text
@@ -198,6 +246,12 @@ translation_segments:
     review_status: review
     original: ドットを愛する人たちが触れた『ドッツ』。印象はどうですか？
     translation: 热爱像素的人们接触到的《DOTZ》。印象如何？
+    scan_box:
+      - 741
+      - 526
+      - 1224
+      - 594
+    writing_direction: horizontal
   - speaker: 1 姓名 2 制作的东西 3 评论
     type: heading
     kind: text
@@ -209,6 +263,12 @@ translation_segments:
     review_status: review
     original: 1 氏名 2 作った物 3 コメント
     translation: ""
+    scan_box:
+      - 740
+      - 639
+      - 999
+      - 661
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -220,6 +280,12 @@ translation_segments:
     original: 1 吉田宏信（グラフィックデザイナー）2 ライフワーク3 かれこれ10年以上も続く、僕の生活の一部とも言えるファミコン集め。やっぱり、ファミコン抜きでは『ドッツ』は語れませんよね。
     translation: 1 吉田宏信（图形设计师）2 毕生事业 3 这已经持续了10年以上，可以说是我生活一部分的任天堂收藏。果然，不谈任天堂就没法谈《DOTZ》呢。
     comment: 此处“任天堂”指任天堂红白机（Family Computer）。
+    scan_box:
+      - 466
+      - 170
+      - 631
+      - 456
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -230,6 +296,12 @@ translation_segments:
     review_status: review
     original: 1 海野隆雄（グラフィックデザイナー）2 INN
     translation: 1 海野隆雄（图形设计师）2 INN
+    scan_box:
+      - 461
+      - 786
+      - 586
+      - 892
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -241,6 +313,12 @@ translation_segments:
     original: GAME FREAKどりるれろ3 ひと目で宿屋とわかる偉大な「INN」とゲームフリークの社ロゴ、『スクリューブレイカー』の主人公です。時間を忘れて夢中になりすぎました。
     translation: GAME FREAK钻头3 一眼就能看出是旅馆的伟大“INN”、GAME FREAK的公司标志，以及《螺旋破坏者》的主角。我太沉迷其中，忘记了时间。
     comment: 《螺旋破坏者》（スクリューブレイカー）是GAME FREAK开发的游戏。
+    scan_box:
+      - 458
+      - 903
+      - 622
+      - 1124
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -251,6 +329,12 @@ translation_segments:
     review_status: review
     original: 1 田尻智（ゲームフリーク代表取締役）2 アタリ文字（フォント）の“R”チェリー3 今回『ドッツ』に触れてみて、ゲームフリークが同人誌だった頃を思い出した。創刊号の表紙もドット絵だったからだ。
     translation: 1 田尻智（GAME FREAK董事长）2 雅达利字体（字型）的“R”樱桃 3 这次接触《DOTZ》，让我想起了GAME FREAK还是同人志的时候。因为创刊号的封面也是像素画。
+    scan_box:
+      - 1051
+      - 782
+      - 1217
+      - 1091
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -261,6 +345,12 @@ translation_segments:
     review_status: review
     original: 1 江尾可奈子（グラフィックデザイナー）2 ピカチュウテレサ3 ピンを抜くときに裏から挿したり、チクチクと刺繍をしているようで楽しいです。列を間違えて作ってしまうと大変ですね（笑）。
     translation: 1 江尾可奈子（图形设计师）2 皮卡丘特蕾莎3 拔针的时候从背面插进去，像是在一针一针地刺绣，很开心。要是把列做错了可就麻烦了（笑）。
+    scan_box:
+      - 450
+      - 1392
+      - 615
+      - 1668
+    writing_direction: horizontal
   - speaker: caption
     type: paragraph
     kind: text
@@ -272,6 +362,12 @@ translation_segments:
     original: 1 杉森建（ゲームフリーク取締役 アートディレクター）2 クインティの主人公（カートン）3 うろ覚えですがデビュー作の思い出ドットです。ピンを軽く挿した後、仕上げにグッと押し込むのが魂を込める感じがして良いです。
     translation: 1 杉森建（GAME FREAK 董事 美术总监）2 Quinty 的主人公（卡顿）3 记不太清了，这是出道作品的回忆像素。轻轻插上针之后，最后再用力按进去，感觉像是在注入灵魂，很好。
     comment: Quinty 是 GAME FREAK 于1989年推出的出道作品。
+    scan_box:
+      - 1041
+      - 1390
+      - 1207
+      - 1724
+    writing_direction: horizontal
   - speaker: image
     type: image
     kind: image
@@ -282,6 +378,8 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page007.jpg"
     alt: CONTINUE Vol.23（2005年8月号） P.7
     review_status: ready
+    width: 1492
+    height: 2047
   - speaker: body
     type: paragraph
     kind: text

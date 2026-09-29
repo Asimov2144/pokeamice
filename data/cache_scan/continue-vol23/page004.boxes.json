@@ -2,12 +2,11 @@
  "width": 1513,
  "height": 2048,
  "page_direction": "horizontal",
- "lines": [[12,8,1256,473], [61,203,1271,632], [93,1739,1229,1796], [98,1993,147,2019], [210,1993,482,2020]],
+ "lines": [[12,8,1256,473], [992,408,1129,462], [61,203,1271,632], [93,1739,1229,1796], [98,1993,146,2019], [210,1993,482,2020]],
  "regions": {
-  "c23-p4-unno": {"boxes":[[82,1733,1226,1794]],"direction":"horizontal"},
-  "c23-p4-cap": null
+  "page004-r8": {"boxes":[[85,1733,1224,1794]],"direction":"horizontal"}
  },
- "meta": {"model": "qwen3.8-max", "seconds": 19.2, "image_tokens": 3010, "completion_tokens": 88, "finish": "stop", "scale": "1000"},
- "image": "/assets/images/scan-archive/continue-vol23/pages/page004.jpg",
+ "meta": {"model": "qwen3.8-max", "seconds": 4.5, "image_tokens": 3010, "completion_tokens": 34, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page004.jpg",
  "page_file": "page004"
 }

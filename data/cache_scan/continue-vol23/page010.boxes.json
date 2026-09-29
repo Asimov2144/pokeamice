@@ -2,12 +2,13 @@
  "width": 1443,
  "height": 2048,
  "page_direction": "horizontal",
- "lines": [[111,76,262,151], [81,1666,1381,1720], [88,1711,1382,1766], [89,1767,476,1804], [521,1770,1380,1810], [88,1813,1377,1856], [92,1861,1376,1901], [89,1908,765,1942], [1251,1919,1377,1946]],
+ "lines": [[111,76,262,151], [80,1666,1381,1720], [88,1711,1382,1766], [89,1767,476,1804], [521,1770,1380,1810], [88,1813,1377,1856], [92,1861,1376,1901], [89,1908,765,1942], [1251,1918,1377,1946]],
  "regions": {
-  "c23-h10": {"boxes":[[76,78,1420,444]],"direction":"horizontal"},
-  "c23-p10-cap": null
+  "page010-h54": {"boxes":[[113,78,254,147],[76,80,1420,446]],"direction":"horizontal"},
+  "page010-r55": {"boxes":[[89,1675,1377,1944]],"direction":"horizontal"},
+  "page010-r56": {"boxes":[[1254,1921,1374,1944]],"direction":"horizontal"}
  },
- "meta": {"model": "qwen3.8-max", "seconds": 8.3, "image_tokens": 2882, "completion_tokens": 87, "finish": "stop", "scale": "1000"},
- "image": "/assets/images/scan-archive/continue-vol23/pages/page010.jpg",
+ "meta": {"model": "qwen3.8-max", "seconds": 5.2, "image_tokens": 2882, "completion_tokens": 110, "finish": "stop", "scale": "1000"},
+ "image": "https://gallery.pokeamice.com/scan-archive/continue-vol23-drill-dozer/pages/page010.jpg",
  "page_file": "page010"
 }

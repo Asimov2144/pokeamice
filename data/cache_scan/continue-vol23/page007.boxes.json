@@ -2,12 +2,11 @@
  "width": 1492,
  "height": 2047,
  "page_direction": "horizontal",
- "lines": [[629,381,754,491], [354,446,1410,766], [351,559,1466,975]],
+ "lines": [[629,381,754,491], [354,446,1410,766], [351,559,1466,975], [842,1174,1047,1266]],
  "regions": {
-  "c23-h7": {"boxes":[[355,454,1443,938]],"direction":"horizontal"},
-  "c23-p7-cap": null
+  "page007-r22": null
  },
- "meta": {"model": "qwen3.8-max", "seconds": 9.8, "image_tokens": 3010, "completion_tokens": 58, "finish": "stop", "scale": "1000"},
- "image": "/assets/images/scan-archive/continue-vol23/pages/page007.jpg",
+ "meta": {"model": "qwen3.8-max", "seconds": 4.9, "image_tokens": 3010, "completion_tokens": 17, "finish": "stop", "scale": "px"},
+ "image": "https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page007.jpg",
  "page_file": "page007"
 }
