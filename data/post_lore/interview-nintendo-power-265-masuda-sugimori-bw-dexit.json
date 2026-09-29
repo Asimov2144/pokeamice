@@ -2,67 +2,38 @@
  "id": "interview-nintendo-power-265-masuda-sugimori-bw-dexit",
  "stem": "2011-03-01-interview-nintendo-power-265-masuda-sugimori-bw-dexit",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-27",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 9
+  "n": 11
  },
  "facets": {
-  "pokemon": [
-   {
-    "name": "莱希拉姆",
-    "ndex": 643,
-    "seg": [
-     3,
-     4,
-     5
-    ],
-    "as": [
-     "莱希拉姆"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "捷克罗姆",
-    "ndex": 644,
-    "seg": [
-     3,
-     4,
-     5
-    ],
-    "as": [
-     "捷克罗姆"
-    ],
-    "via": "body"
-   }
-  ],
+  "pokemon": [],
   "works": [
    {
     "name": "宝可梦 黑·白",
     "slug": "black-white",
-    "seg": [
-     1
-    ],
+    "seg": [],
     "via": "entities"
    }
   ],
   "people": [
    {
-    "name": "Ken Sugimori",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     2
-    ]
-   },
-   {
     "name": "Junichi Masuda",
     "slug": "masuda-junichi",
     "role": "speaker",
     "seg": [
-     5,
-     8
+     2,
+     9
+    ]
+   },
+   {
+    "name": "Ken Sugimori",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     5
     ]
    },
    {
@@ -75,87 +46,44 @@
     "name": "杉森建",
     "slug": "sugimori-ken",
     "role": "mentioned",
-    "seg": [
-     2
-    ]
+    "seg": []
    }
   ],
-  "places": [
-   {
-    "name": "合众地方",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "游戏中的生态地区",
-    "via": "llm"
-   }
-  ],
+  "places": [],
   "concepts": [
    {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     0,
-     2,
-     8
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     1,
-     8
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
+    "id": "color-work",
+    "name": "配色",
     "facet": "art",
     "seg": [
-     2
+     1
     ],
     "as": [
-     "美术设计"
+     "色彩"
     ],
     "via": "body"
    },
    {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
     "seg": [
-     8
+     5
     ],
     "as": [
-     "童年"
+     "草图"
     ],
     "via": "body"
    },
    {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
     "seg": [
-     8
+     5
     ],
     "as": [
-     "新鲜感"
+     "设定图"
     ],
     "via": "body"
    },
@@ -168,19 +96,29 @@
      "第五世代"
     ],
     "via": "tag"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [],
+    "as": [
+     "宝可梦设计"
+    ],
+    "via": "tag"
    }
   ]
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "美术团队提交400至500个初稿候选设计",
-   "anchor": 3
+   "seg": 5,
+   "text": "杉森建说团队设计的宝可梦数量约为游戏最终采用量的三倍",
+   "anchor": 6
   },
   {
-   "seg": 2,
-   "text": "最终选出156只全新合众生态群落",
-   "anchor": 3
+   "seg": 6,
+   "text": "400至500份是 Dr. Lava 根据156只合众新增宝可梦作出的估算，不是杉森给出的确数",
+   "anchor": 7
   }
  ],
  "relations": [
@@ -204,9 +142,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
- "edited": false
+ "edited": true
 }

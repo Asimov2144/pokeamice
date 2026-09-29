@@ -1045,20 +1045,8 @@
 2000-07-01-interview-nintendo-power-134-gold-silver-mew:
   facets:
     people:
-    - name: Tsunekazu Ishihara
-      role: speaker
-      slug: ishihara-tsunekazu
     - name: Shigeki Morimoto
       role: speaker
-      slug: morimoto-shigeki
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
-    - name: 増田順一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 森本茂樹
-      role: mentioned
       slug: morimoto-shigeki
     - name: 森本茂树
       role: mentioned
@@ -1076,10 +1064,10 @@
   observations:
   - anchor: 3
     seg: 2
-    text: 石原恒和称金与银是现实物理世界中沉甸甸存在的贵重金属
+    text: 森本茂树说自己在初代《宝可梦》开发结束前两周创造了梦幻
   - anchor: 5
     seg: 4
-    text: 石原恒和称开发前后奋战约三年半，核心团队约二十人
+    text: 后续 Iwata Asks 补充：调试功能移除后腾出的约300字节被用于加入梦幻
   relations:
   - id: interview-nintendopower-gold-silver-roundtable
     kind: same-occasion
@@ -13791,6 +13779,9 @@
 2009-05-01-interview-nintendo-power-241-platinum-masuda-kawachimaru:
   facets:
     people:
+    - name: Junichi Masuda
+      role: speaker
+      slug: masuda-junichi
     - name: 増田順一
       role: mentioned
       slug: masuda-junichi
@@ -13799,23 +13790,25 @@
       slug: kawachimaru-takeshi
     places: []
     pokemon:
-    - name: 洛托姆
-      ndex: 479
+    - name: 帝牙卢卡
+      ndex: 483
+    - name: 帕路奇亚
+      ndex: 484
     - name: 骑拉帝纳
       ndex: 487
     works:
     - name: 宝可梦 白金
       slug: platinum
-    - name: 钻石·珍珠
-      slug: null
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
   id: interview-nintendo-power-241-platinum-masuda-kawachimaru
   observations:
   - anchor: 3
     seg: 2
-    text: 河内丸武史说《钻石·珍珠》探讨时间与空间两大母题
-  - anchor: 6
-    seg: 5
-    text: 洛托姆钻进冰箱获得冰属性，钻进洗衣机释放高压水炮
+    text: 增田在《钻石·珍珠》开发时已将骑拉帝纳与时间、空间悖论中的反世界联系起来
+  - anchor: 4
+    seg: 3
+    text: 河内丸说自己是在《白金》开发开始后才听增田说明这套概念
   relations:
   - id: interview-nintendo-power-masuda-gens-1-4
     kind: same-occasion
@@ -23569,8 +23562,7 @@
   - anchor: 2
     seg: 1
     text: 增田顺一要求主角年龄上调至约14至16岁
-  - anchor: 4
-    seg: 3
+  - seg: 3
     text: 红豆杉博士原案为男性，杉森建抗议后改为女性
 2010-11-20-interview-steinberg-gamefreak-sound-cubase:
   facets:
@@ -24265,11 +24257,9 @@
       slug: null
   id: interview-otonafami-sugimori-starters-victini
   observations:
-  - anchor: 2
-    seg: 1
+  - seg: 1
     text: 增田顺一在立项最初宣言彻底封印旧作、全员起用156只全新宝可梦
-  - anchor: 2
-    seg: 1
+  - seg: 1
     text: 杉森建曾试探抵抗，提议留一半老宝可梦，被增田顺一坚决回绝
   relations:
   - id: interview-iwata-asks-bw-chapter-1-second-game-on-ds
@@ -25356,38 +25346,31 @@
 2011-03-01-interview-nintendo-power-265-masuda-sugimori-bw-dexit:
   facets:
     people:
-    - name: Ken Sugimori
-      role: speaker
-      slug: sugimori-ken
     - name: Junichi Masuda
       role: speaker
       slug: masuda-junichi
+    - name: Ken Sugimori
+      role: speaker
+      slug: sugimori-ken
     - name: 増田順一
       role: mentioned
       slug: masuda-junichi
     - name: 杉森建
       role: mentioned
       slug: sugimori-ken
-    places:
-    - name: 合众地方
-      what: 游戏中的生态地区
-      world: game
-    pokemon:
-    - name: 莱希拉姆
-      ndex: 643
-    - name: 捷克罗姆
-      ndex: 644
+    places: []
+    pokemon: []
     works:
     - name: 宝可梦 黑·白
       slug: black-white
   id: interview-nintendo-power-265-masuda-sugimori-bw-dexit
   observations:
-  - anchor: 3
-    seg: 2
-    text: 美术团队提交400至500个初稿候选设计
-  - anchor: 3
-    seg: 2
-    text: 最终选出156只全新合众生态群落
+  - anchor: 6
+    seg: 5
+    text: 杉森建说团队设计的宝可梦数量约为游戏最终采用量的三倍
+  - anchor: 7
+    seg: 6
+    text: 400至500份是 Dr. Lava 根据156只合众新增宝可梦作出的估算，不是杉森给出的确数
   relations:
   - id: interview-eurogamer-masuda-sugimori-black-white-brains
     kind: same-occasion
@@ -33341,8 +33324,7 @@
   - anchor: 3
     seg: 2
     text: 增田顺一称当年买FC主机拆解，逆向分析CPU与内存芯片针脚
-  - anchor: 4
-    seg: 3
+  - seg: 3
     text: 靠《Quinty》版税资金正式注册成立Game Freak株式会社
   relations:
   - id: interview-niconico-gamefreak-origins-masuda
@@ -42521,7 +42503,7 @@
     kind: same-occasion
     label: 同一件事的另一种说法
     title: 阿罗拉摄影俱乐部独家揭晓
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2017-usum-mode/
+    url: /%E5%AA%92%E4%BD%93%E4%B8%93%E9%A2%98%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/interview-gi-2017-usum-mode/
     why: 同为2017年10月Fami通/Game Informer访岩尾谈USUM
   - id: interview-pokemon-com-usum-ohmori-iwao
     kind: same-occasion

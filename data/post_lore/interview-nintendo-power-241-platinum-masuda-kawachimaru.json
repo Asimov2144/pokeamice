@@ -2,24 +2,33 @@
  "id": "interview-nintendo-power-241-platinum-masuda-kawachimaru",
  "stem": "2009-05-01-interview-nintendo-power-241-platinum-masuda-kawachimaru",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-27",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 6
+  "n": 7
  },
  "facets": {
   "pokemon": [
    {
-    "name": "洛托姆",
-    "ndex": 479,
+    "name": "帝牙卢卡",
+    "ndex": 483,
     "seg": [
-     3,
-     4,
-     5
+     2
     ],
     "as": [
-     "洛托姆"
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     2
+    ],
+    "as": [
+     "帕路奇亚"
     ],
     "via": "body"
    },
@@ -43,15 +52,21 @@
     "via": "entities"
    },
    {
-    "name": "钻石·珍珠",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [],
+    "via": "entities"
    }
   ],
   "people": [
+   {
+    "name": "Junichi Masuda",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2
+    ]
+   },
    {
     "name": "増田順一",
     "slug": "masuda-junichi",
@@ -63,13 +78,25 @@
     "slug": "kawachimaru-takeshi",
     "role": "mentioned",
     "seg": [
-     2,
-     5
+     4
     ]
    }
   ],
   "places": [],
   "concepts": [
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     0,
+     1
+    ],
+    "as": [
+     "开发期间"
+    ],
+    "via": "body"
+   },
    {
     "id": "generations",
     "name": "世代与代际",
@@ -85,13 +112,13 @@
  "observations": [
   {
    "seg": 2,
-   "text": "河内丸武史说《钻石·珍珠》探讨时间与空间两大母题",
+   "text": "增田在《钻石·珍珠》开发时已将骑拉帝纳与时间、空间悖论中的反世界联系起来",
    "anchor": 3
   },
   {
-   "seg": 5,
-   "text": "洛托姆钻进冰箱获得冰属性，钻进洗衣机释放高压水炮",
-   "anchor": 6
+   "seg": 3,
+   "text": "河内丸说自己是在《白金》开发开始后才听增田说明这套概念",
+   "anchor": 4
   }
  ],
  "relations": [
@@ -115,9 +142,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
- "edited": false
+ "edited": true
 }
