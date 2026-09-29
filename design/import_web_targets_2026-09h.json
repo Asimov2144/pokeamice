@@ -1,0 +1,39 @@
+{
+ "targets": [
+  {
+   "key": "g4tv-2009-platinum",
+   "url": "https://web.archive.org/web/2009/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/",
+   "lang": "en",
+   "date": "2009-05-17",
+   "outlet": "G4tv.com",
+   "outlet_zh": "G4tv.com",
+   "title": "Junichi Masuda & Takeshi Kawachimaru talk Pokemon Platinum, particle physics, bridges and more",
+   "kind": "interview",
+   "asker": "Q",
+   "asker_aliases": [
+    "Q",
+    "G4"
+   ],
+   "speakers": {
+    "Takeshi Kawachimaru": "河内丸武史",
+    "TK": "河内丸武史",
+    "Junichi Masuda": "增田顺一",
+    "JM": "增田顺一",
+    "Masuda": "增田顺一",
+    "Kawachimaru": "河内丸武史"
+   },
+   "works": [
+    "宝可梦 白金"
+   ],
+   "tags": [
+    "G4tv",
+    "宝可梦 白金",
+    "增田顺一",
+    "河内丸武史"
+   ],
+   "slug": "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
+   "post": "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics.md",
+   "fresh": true
+  }
+ ]
+}
