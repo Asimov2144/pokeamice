@@ -1089,7 +1089,11 @@ def main() -> int:
             if cache.exists() and not args.force:
                 blob = json.load(io.open(cache, encoding="utf-8"))
                 if blob.get("key") == key:
-                    got, cached = blob["relations"], cached + 1
+                    # 缓存里的地址和标题是当时算的；那一篇后来改过分类、标题或换成重导版，
+                    # 这里按现在的文章重算，否则关联会连到已经不存在的地址
+                    got = [dict(r, url=site_path(by_id[r["id"]]), title=short_title(by_id[r["id"]])) if r.get("id") in by_id else r
+                           for r in blob["relations"]]
+                    cached += 1
             if got is None:
                 try:
                     got = ask_relations(post, facets, cands, lore_by_id)

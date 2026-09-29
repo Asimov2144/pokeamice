@@ -193,8 +193,8 @@
   - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
     kind: responds
     label: 后来回应了这篇
-    title: Game Atsumaru 独家纪实 增田顺一：“曾经有一群自制红白机卡带的人——Game Freak从同人志、自制FC到初代《红·绿》9人开发秘闻”
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E5%8E%86%E5%8F%B2%E7%89%B9%E8%BE%91/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    title: 增田顺一谈宝可梦与游戏音乐
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/
     why: 增田顺一后谈红绿6年开发、核心9人，补充本篇说法
 1997-05-23-interview-famimaga-tajiri-pokemon2-secret:
   facets:
@@ -3692,8 +3692,8 @@
   - id: scan-continue-vol23-gamefreak-special
     kind: background
     label: 为这篇提供背景
-    title: '[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话'
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
+    title: GAME FREAK 玩《DOTZ》
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
     why: 同写《螺旋破碎机》杉森建与吉田宏信
   - id: gamefreak-director-053
     kind: continues
@@ -4360,8 +4360,8 @@
   - id: scan-continue-vol23-gamefreak-special
     kind: background
     label: 为这篇提供背景
-    title: '[扫描特辑] CONTINUE Vol.23：GAMEFREAKS 创造世界 ＆《螺旋破碎机 轰振旋转钻子》诞生秘话'
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
+    title: GAME FREAK 玩《DOTZ》
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
     why: 同谈《螺旋破碎机》诞生秘话与杉森建
   - id: gamefreak-director-030
     kind: continues
@@ -13117,14 +13117,14 @@
   - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: Nintendo Acción No.199 独家专访增田顺一 × 河内丸武史：“时空对极的反物质世界”——《宝可梦 白金》骑拉帝纳、破损世界的物理颠覆与跨代羁绊
+    title: Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
     why: 同为增田顺一与河内丸武史谈《白金》的专访
   - id: interview-g4tv-masuda-kawachimaru-platinum-particle-physics
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: G4TV 深度专访 增田顺一 × 河内丸武史：“《宝可梦 白金》爱因斯坦相对论、反物质粒子物理学与破损世界的哲学”
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E7%BA%B8%E5%AA%92%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%93%E8%AE%BF/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
+    title: 增田顺一谈宝可梦白金
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
     why: 同为增田顺一与河内丸武史谈《白金》的专访
 2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178:
   facets:
@@ -14169,8 +14169,8 @@
   - id: interview-g4tv-masuda-kawachimaru-platinum-particle-physics
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: G4TV 深度专访 增田顺一 × 河内丸武史：“《宝可梦 白金》爱因斯坦相对论、反物质粒子物理学与破损世界的哲学”
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E6%AC%A7%E7%BE%8E%E6%9D%83%E5%A8%81%E7%BA%B8%E5%AA%92%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%93%E8%AE%BF/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
+    title: 增田顺一谈宝可梦白金
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
     why: 同为G4TV采访增田与河内谈白金
 2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics:
   facets:
@@ -14262,7 +14262,7 @@
   - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
     kind: background
     label: 为这篇提供背景
-    title: Nintendo Acción No.199 独家专访增田顺一 × 河内丸武史：“时空对极的反物质世界”——《宝可梦 白金》骑拉帝纳、破损世界的物理颠覆与跨代羁绊
+    title: Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
     why: 河内谈骑拉帝纳反物质与破损世界物理颠覆
 2009-05-18-gamefreak-staff-126:
@@ -19362,13 +19362,13 @@
   - id: scan-ndream-2010-04-creatures-ranger-interview
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: Creatures 核心主创长篇专访：《光之轨迹》与系列演进秘话
-    url: /%E5%BC%80%E5%8F%91%E8%AE%BF%E8%B0%88/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-creatures-ranger-interview/
+    title: 直击Creatures：宝可梦巡护员全解
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-creatures-ranger-interview/
     why: 同为2010年4月号《巡护员》系列特辑报道
   - id: scan-ndream-2010-04-pokemon-bw-first-reveal
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘
+    title: 《宝可梦》完全新作始动
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
     why: 同刊2010年4月号卷头特辑
 2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213:
@@ -22451,8 +22451,8 @@
   - id: interview-nintendodream-201-sugimori-bw-characters
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: Nintendo Dream 2011年1月号长篇专访：艺术总监杉森建详解《宝可梦 黑／白》角色设计秘话——透也与斗子打破10岁定律、神秘中性天才N、魁奇思与等离子团中世纪圣殿骑士风骨
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-201-sugimori-bw-characters/
+    title: ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
     why: 同为2010-11-20 Nintendo DREAM黑·白设计专访，杉森建谈设
   - id: scan-ndream-2011-04-bw-design-secrets-part2
     kind: continues
@@ -22463,8 +22463,8 @@
   - id: interview-otonafami-sugimori-starters-victini
     kind: background
     label: 为这篇提供背景
-    title: 《Otona Fami》2011年2月号独家专访：艺术总监杉森建详解合众御三家设计秘辛——三大武将文明演变史、水水獭雀斑与“违和感”设计哲学、胜利之神比克提尼
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-otonafami-sugimori-starters-victini/
+    title: オトナファミ 杉森建インタビュー（摘录）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-otonafami-sugimori-starters-victini/
     why: 杉森建谈156只全新宝可梦的立项背景
 2010-09-13-interview-weekly-ascii-masuda-bw:
   facets:
@@ -22906,7 +22906,7 @@
   - id: scan-ndream-2010-04-pokemon-bw-first-reveal
     kind: background
     label: 为这篇提供背景
-    title: 《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘
+    title: 《宝可梦》完全新作始动
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
     why: 同刊报道《黑·白》新作与合众地区
   - id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
@@ -24328,7 +24328,7 @@
   - id: scan-ndream-2010-04-pokemon-bw-first-reveal
     kind: background
     label: 为这篇提供背景
-    title: 《宝可梦 完全新作》全球初报与索罗亚·索罗亚克揭秘
+    title: 《宝可梦》完全新作始动
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
     why: 同刊Nintendo DREAM报道第五世代新作公布，含系列销量回顾
   - id: scan-ndream-2010-11-five-regions-guide
@@ -24934,7 +24934,7 @@
   - id: interview-famitsu-1146-matsumiya-bw-scenario
     kind: background
     label: 为这篇提供背景
-    title: 週刊Fami通 No.1146 独家专访剧本主笔松宫稔展：“当双方的主张看起来都有道理时，人究竟会相信什么”——《宝可梦 黑／白》“宝可梦解放”、神秘少年N与双英雄传说诞生原点
+    title: 週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
     why: 同涉等离子队宝可梦解放主题与N
 2011-01-24-gamefreak-staff-216:
@@ -26679,8 +26679,8 @@
   - id: interview-nintendodream-201-sugimori-bw-characters
     kind: background
     label: 为这篇提供背景
-    title: Nintendo Dream 2011年1月号长篇专访：艺术总监杉森建详解《宝可梦 黑／白》角色设计秘话——透也与斗子打破10岁定律、神秘中性天才N、魁奇思与等离子团中世纪圣殿骑士风骨
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-201-sugimori-bw-characters/
+    title: ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
     why: 同述主角年龄上调与博士改女性
   - id: scan-ndream-2011-05-bw-design-secrets-ex
     kind: continues
@@ -28593,7 +28593,7 @@
   - id: interview-famitsu-1146-matsumiya-bw-scenario
     kind: background
     label: 为这篇提供背景
-    title: 週刊Fami通 No.1146 独家专访剧本主笔松宫稔展：“当双方的主张看起来都有道理时，人究竟会相信什么”——《宝可梦 黑／白》“宝可梦解放”、神秘少年N与双英雄传说诞生原点
+    title: 週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
     why: 松宫谈N构想原点，早于本篇增田公开N设定
   - id: scan-ndream-bw-tanjou-hiwa-2011-characters
@@ -28675,8 +28675,8 @@
   - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
     kind: background
     label: 为这篇提供背景
-    title: Game Atsumaru 独家纪实 增田顺一：“曾经有一群自制红白机卡带的人——Game Freak从同人志、自制FC到初代《红·绿》9人开发秘闻”
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E5%8E%86%E5%8F%B2%E7%89%B9%E8%BE%91/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    title: 增田顺一谈宝可梦与游戏音乐
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/
     why: 同为增田谈Quinty版税成立Game Freak
   - id: interview-game-informer-game-freak-origins-pre-pokemon
     kind: background
@@ -33390,8 +33390,8 @@
   - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: Game Atsumaru 独家纪实 增田顺一：“曾经有一群自制红白机卡带的人——Game Freak从同人志、自制FC到初代《红·绿》9人开发秘闻”
-    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E5%8E%86%E5%8F%B2%E7%89%B9%E8%BE%91/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    title: 增田顺一谈宝可梦与游戏音乐
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/
     why: 同为2014年增田顺一谈《Quinty》与自制FC的专访
 2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins:
   facets:
@@ -42652,7 +42652,7 @@
   - id: interview-gi-2017-usum-mode
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 阿罗拉摄影俱乐部独家揭晓
+    title: 阿罗拉摄影俱乐部：新模式实机展示
     url: /%E5%AA%92%E4%BD%93%E4%B8%93%E9%A2%98%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/interview-gi-2017-usum-mode/
     why: 同为2017年10月Fami通/Game Informer访岩尾谈USUM
   - id: interview-pokemon-com-usum-ohmori-iwao
@@ -45518,19 +45518,19 @@
   - id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”
+    title: 千年后的宝可梦
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
     why: 同为官网Topics系列第01与第02篇
   - id: corporate-topic-03-pokemon-smile-gamification-health
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成
+    title: 游戏融入生活
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
     why: 同为官网Topics系列第01与第03篇
   - id: corporate-topic-04-harapeko-betbeter-ai-recycling
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：AI赋能“饥饿臭泥”让垃圾分类成为奇妙乐趣
+    title: 肚子饿的臭泥，让城市更干净
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-04-harapeko-betbeter-ai-recycling/
     why: 同为官网Topics系列第01与第4篇
 2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology:
@@ -45583,19 +45583,19 @@
   - id: corporate-topic-01-pokefuta-manhole-travel
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅
+    title: 寻找独一无二的宝可梦井盖
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
     why: 同为官网Topics系列第01与第02篇
   - id: corporate-topic-03-pokemon-smile-gamification-health
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成
+    title: 游戏融入生活
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
     why: 同为官网Topics系列第02与第03篇
   - id: corporate-topic-04-harapeko-betbeter-ai-recycling
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：AI赋能“饥饿臭泥”让垃圾分类成为奇妙乐趣
+    title: 肚子饿的臭泥，让城市更干净
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-04-harapeko-betbeter-ai-recycling/
     why: 同为官网Topics系列第02与第4篇
 2020-08-18-corporate-topic-03-pokemon-smile-gamification-health:
@@ -45626,13 +45626,13 @@
   - id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”
+    title: 千年后的宝可梦
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
     why: 同为官网Topics系列第02篇，本篇为第03篇
   - id: corporate-topic-01-pokefuta-manhole-travel
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅
+    title: 寻找独一无二的宝可梦井盖
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
     why: 同为官网Topics系列第01篇，本篇为第03篇
 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling:
@@ -45660,19 +45660,19 @@
   - id: corporate-topic-01-pokefuta-manhole-travel
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：寻找世上独一无二的宝可梦井盖（ポケふた）之旅
+    title: 寻找独一无二的宝可梦井盖
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
     why: 同为官网Topics系列，本篇为第4篇，该篇为第01篇
   - id: corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：一千年后发掘的宝可梦——Daniel Arsham 的“虚构考古学”
+    title: 千年后的宝可梦
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
     why: 同为官网Topics系列，该篇为第02篇
   - id: corporate-topic-03-pokemon-smile-gamification-health
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：将游戏拓展至“娱乐”之外——《Pokémon Smile》与生活习惯养成
+    title: 游戏融入生活
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
     why: 同为官网Topics系列，该篇为第03篇
 2020-12-21-interview-nikkei-ishihara-go-boardgames:
@@ -48253,6 +48253,8 @@
   - id: corporate-topic-15-pokemon-battle-scope-ai-esports
     kind: continues
     label: 同一系列的前后篇
+    title: AI让观战更精彩
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-15-pokemon-battle-scope-ai-esports/
     why: Topics第15篇，紧接本篇第14篇的系列下一篇
 2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports:
   facets:
@@ -48377,13 +48379,13 @@
   - id: corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo
     kind: background
     label: 为这篇提供背景
-    title: 宝可梦官方专题：传统与革新的甘甜共鸣——“宝可梦京菓子”与七条甘春堂
+    title: 宝可梦京菓子的传统与革新
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo/
     why: 同为抹茶/和菓子传统点心跨界，京菓子先例
   - id: corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：送往能登地震灾区孩子的“皮卡丘武士头盔”——传统折纸与心灵抚慰
+    title: 皮卡丘头盔送到能登
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support/
     why: Topics第17篇，本篇为第18篇，前后相邻
 2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge:
@@ -49503,7 +49505,7 @@
   - id: corporate-topic-51-boy-scouts-nature-pokemon-trainer-program
     kind: continues
     label: 同一系列的前后篇
-    title: 宝可梦官方专题：亲近大自然的第一步——童子军野外探索与宝可梦训练家的自然共育录
+    title: 宝可梦与童子军的自然体验
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-51-boy-scouts-nature-pokemon-trainer-program/
     why: 同属My First Pokémon项目系列特展与活动
 2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab:
