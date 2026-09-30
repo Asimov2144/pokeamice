@@ -20,9 +20,19 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
       {% assign type_label = "文章" %}
     {% endif %}
     {% assign source_title = post.source.title | default: post.publication | default: post.source.publication | default: "" %}
+    {%- comment -%} a corporate topic's source is the page's own title, one per post; the filter should list the outlet {%- endcomment -%}
+    {% if post.source_kind == "official_corporate_topic" %}{% assign source_title = post.publication %}{% endif %}
     {% assign search_title = post.gf_entry_title | default: post.gf_translation_title | default: post.title %}
     {% assign search_excerpt = post.gf_translation_summary | default: post.summary | default: post.excerpt %}
     {% assign search_body = post.content | strip_html | strip_newlines | remove: "中文译稿已完成校对" | remove: "译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。" %}
+    {%- comment -%} an interview or a scan keeps its text in the front matter, not in the body: the first turns of the translation stand in for it, so a word from the piece finds the piece {%- endcomment -%}
+    {% if search_body == "" %}
+      {% assign body_rows = post.parallel_items | default: post.translation_segments %}
+      {% if body_rows %}
+        {% capture body_text %}{% for row in body_rows limit: 14 %}{% if row.type != "image" and row.type != "heading" %}{{ row.translation | default: row.original }} {% endif %}{% endfor %}{% endcapture %}
+        {% assign search_body = body_text | strip_html | strip_newlines | strip %}
+      {% endif %}
+    {% endif %}
     {%- comment -%}
       The card's picture: a scan's first plate (its cover), else the post's own image, else
       the first picture in a web interview's body. Nothing is fetched at search time.
@@ -70,6 +80,7 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
       "card": {{ card_kind | jsonify }},
       "title": {{ search_title | jsonify }},
       "display_title": {{ post.display_title | default: "" | jsonify }},
+      "original_title": {{ post.original_title | default: "" | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
       "excerpt": {{ search_excerpt | markdownify | strip_html | strip_newlines | truncate: 180 | jsonify }},
       "dek": {{ post.dek | default: "" | jsonify }},

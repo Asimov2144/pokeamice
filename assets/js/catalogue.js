@@ -53,10 +53,15 @@
     function itemHaystack(item) {
       return [
         item.title,
+        item.display_title,
+        item.original_title,
+        item.dek,
         item.excerpt,
         item.body,
         item.date,
         item.source,
+        item.publication,
+        item.issue,
         item.type,
         (item.categories || []).join(" "),
         (item.tags || []).join(" "),
