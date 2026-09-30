@@ -291,7 +291,10 @@ def main():
                         break
             kinds = {k: sum(1 for p in docs if p["kind"] == k) for k in bt.DOC_KINDS}
             freq = collections.Counter(series_key(p["fm"]) for p in docs)
-            scored = sorted(((pick_score(p, freq), p["date"], p) for p in docs), key=lambda t: (-t[0], t[1]))
+            # a file name with brackets, spaces or & is one of the site's own notes; Jekyll slugs it in a way
+            # canonical_url does not reproduce, so it is counted but not offered as a first read
+            readable = [p for p in docs if not re.search(r"[\[\]& ]", p["stem"])]
+            scored = sorted(((pick_score(p, freq), p["date"], p) for p in readable), key=lambda t: (-t[0], t[1]))
             picks, seen, taken = [], set(), collections.Counter()
             for strict in (True, False):
                 for s, d, p in scored:
