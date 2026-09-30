@@ -39,6 +39,9 @@ entities:
   works:
   - 宝可梦 黑·白
 pending_review_regions: 46
+display_title: "通信开发内幕与擦肩通信"
+dek: "太田哲司与大森滋谈通信功能门槛的降低与擦肩通信的反响。"
+summary: "大森滋表示擦肩通信反响超出预期，只需打开C装置开关即可通信，门槛极低。太田哲司指出通信功能是系列一贯主题，本作带有重新出发的意味。"
 parallel_items:
 - type: heading
   original: 2011/01/06 ファミ通No.1153 「通信開発のウラ側を公開！！」 太田哲司と大森滋

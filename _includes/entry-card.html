@@ -12,13 +12,15 @@ is a text card. The sizes come from _data/covers.yml (tools/build-cover-dims.py)
 {% assign card_archive = cp.archive_type | default: cp.resource_type %}
 {% assign card_type = "文章" %}
 {% assign card_tc = "article" %}
-{% if card_archive == "scan_translation" %}{% assign card_type = "扫描翻译" %}{% assign card_tc = "scan" %}
+{% if card_archive == "media_feature" %}{% assign card_type = "媒体专题" %}{% assign card_tc = "article" %}
+{% elsif card_archive == "scan_translation" %}{% assign card_type = "扫描翻译" %}{% assign card_tc = "scan" %}
 {% elsif cp.layout == "interview-editorial" or cp.layout == "parallel-translation" or card_archive == "interview_translation" or cp.categories contains "访谈翻译" %}{% assign card_type = "访谈翻译" %}{% assign card_tc = "interview" %}
 {% elsif card_archive == "gamefreak_director_column" or card_archive == "gamefreak_masuda_lineblog" or card_archive == "gamefreak_legacy_blog" %}{% assign card_type = "Game Freak 博客" %}{% assign card_tc = "blog" %}
 {% elsif cp.categories contains "文档" %}{% assign card_type = "文档" %}{% assign card_tc = "doc" %}{% endif %}
 {%- comment -%} the kind styles the cover: a scan's plate and a feature get a page edge {%- endcomment -%}
 {% assign card_kind = "article" %}
-{% if cp.archive_type == "scan_translation" %}{% assign card_kind = "scan" %}
+{% if cp.archive_type == "media_feature" %}{% assign card_kind = "feature" %}
+{% elsif cp.archive_type == "scan_translation" %}{% assign card_kind = "scan" %}
 {% elsif cp.layout == "interview-editorial" or cp.layout == "parallel-translation" %}{% assign card_kind = "interview" %}
 {% elsif cp.layout == "gamefreak-director" or cp.layout == "gamefreak-legacy-blog" %}{% assign card_kind = "blog" %}{% endif %}
 {% if cp.categories contains "杂志特辑" %}{% assign card_kind = "feature" %}{% endif %}

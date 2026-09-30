@@ -45,8 +45,9 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
   {% if prev != "" %}{% assign key = n | prepend: "00000" | slice: -5, 5 | append: "¦" | append: prev %}{% assign dims_works_keys = dims_works_keys | push: key %}{% endif %}
   {% assign dims_works_keys = dims_works_keys | sort | reverse %}
   {% assign dims_n_scan = dims_posts | where: "archive_type", "scan_translation" | size %}
+  {% assign dims_n_feature = dims_posts | where: "archive_type", "media_feature" | size %}
   {%- comment -%} the scans sit on the interview layout too; the seed types them apart {%- endcomment -%}
-  {% assign dims_n_interview = dims_posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation' or p.archive_type == 'interview_translation'" | size | minus: dims_n_scan %}
+  {% assign dims_n_interview = dims_posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation' or p.archive_type == 'interview_translation'" | size | minus: dims_n_scan | minus: dims_n_feature %}
   {% assign dims_n_blog = dims_posts | where_exp: "p", "p.archive_type == 'gamefreak_director_column' or p.archive_type == 'gamefreak_masuda_lineblog' or p.archive_type == 'gamefreak_legacy_blog'" | size %}
   {% assign dims_n_doc = dims_posts | where_exp: "p", "p.categories contains '文档'" | size %}
   {% assign dims_ready = true %}
@@ -57,6 +58,7 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
 <div class="front__dims" aria-label="按维度筛选">
   <div class="front__dims-row front__dims-row--types">
     <button type="button" data-dim="type" data-value="访谈翻译">访谈 <b>{{ dims_n_interview }}</b></button>
+    <button type="button" data-dim="type" data-value="媒体专题">专题 <b>{{ dims_n_feature }}</b></button>
     <button type="button" data-dim="type" data-value="扫描翻译">扫描 <b>{{ dims_n_scan }}</b></button>
     <button type="button" data-dim="type" data-value="Game Freak 博客">GF 博客 <b>{{ dims_n_blog }}</b></button>
     <button type="button" data-dim="type" data-value="文档">文档 <b>{{ dims_n_doc }}</b></button>

@@ -42,8 +42,8 @@ parallel_items:
   alt: AIによって、誰もが「バトル観戦」を楽しめる時代へ
 - type: heading
   level: 2
-  original: 1.さらに熱い観戦体験を
-  translation: 1. 更加热烈的观战体验
+  original: "さらに熱い観戦体験を"
+  translation: "更加热烈的观战体验"
 - original: スポーツはもちろん、将棋や囲碁のほか、ビデオゲームの世界でも、いまや当たり前になった「観戦」文化。
   translation: 不仅是体育，将棋、围棋，乃至电子游戏的世界，如今“观战”文化都已变得理所当然。
 - original: 選手たちの一挙手一投足を見守り、勝負所では実況と観客が一体となって大いに盛り上がる──。ポケモンバトルの世界でも、そんな参加の仕方が定着しつつあります。
@@ -53,14 +53,15 @@ parallel_items:
   note: HEROZ株式会社是一家日本AI技术公司，以将棋AI开发闻名。
 - type: heading
   level: 2
-  original: 2. 戦略がものをいうポケモンバトルの世界
-  translation: 2. 策略至关重要的宝可梦对战世界
+  original: "戦略がものをいうポケモンバトルの世界"
+  translation: "策略至关重要的宝可梦对战世界"
 - original: バトルの魅力のひとつは、戦略の奥深さ。プレイヤーは自分で育てたポケモンを選び、相手と戦います。
   translation: 对战的魅力之一在于策略的深度。玩家选择自己培育的宝可梦，与对手战斗。
 - type: image
   image: /assets/img/interviews/2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports/001.jpg
   alt: AIによって、誰もが「バトル観戦」を楽しめる時代へ
-  caption: 各ポケモンは4種類の「わざ」を覚えており、プレイヤーは毎ターン、相手の手を読みつつ最適なわざを選択する
+  caption: "各宝可梦可学会4种「招式」，玩家每回合需一边揣度对手意图，一边选择最优招式"
+  caption_original: "各ポケモンは4種類の「わざ」を覚えており、プレイヤーは毎ターン、相手の手を読みつつ最適なわざを選択する"
 - original: ここで重要なのが、ポケモンやわざの「タイプ」。全部で18種類あるタイプには、それぞれ強弱の関係があります。
   translation: 这里重要的是宝可梦和招式的“属性”。全部18种属性各有强弱关系。
 - original: たとえば、「ほのお」タイプは「くさ」タイプに強く、「みず」タイプに弱い。こうした相性を考えながら、相手の動きを予測し、最善手を探っていきます。つまり、ポケモンバトルは、まさに将棋のような頭脳戦なのです。
@@ -71,8 +72,8 @@ parallel_items:
   translation: 即使处于不利局面，也保留着一发逆转的机会。这种惊险感，孕育了观战的乐趣。
 - type: heading
   level: 2
-  original: 3. AIの力で、誰もが観戦できる仕組みを
-  translation: 3. 借助AI的力量，打造人人都能观战的机制
+  original: "AIの力で、誰もが観戦できる仕組みを"
+  translation: "借助AI的力量，打造人人都能观战的机制"
 - original: このようなバトルのおもしろさを、より多くの人に味わってもらうためのツールがPBSです。AIを活用し、どちらのプレイヤーが優勢かを数値化する「形勢判断」と、次に選択すべき「候補手」を表示します。
   translation: PBS正是为了让更多人体验到这种对战乐趣而开发的工具。它利用AI，将哪一方玩家占优进行数值化的“形势判断”，并显示下一步应选择的“候选操作”。
 - original: 戦況を可視化することで、普段ビデオゲームに馴染みのない層や、知識の少ないバトル初心者でも、戦いの流れを読みながら観戦できるようになりました。
@@ -80,7 +81,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports/002.jpg
   alt: AIによって、誰もが「バトル観戦」を楽しめる時代へ
-  caption: PBSを使った配信画面
+  caption: "使用PBS的直播画面"
+  caption_original: "PBSを使った配信画面"
 - original: 私たちとともにPBSをつくったのは、将棋AI開発の実績を持つHEROZ株式会社。同社は、日本将棋連盟公認の将棋ゲームアプリ「将棋ウォーズ」をはじめとするAI搭載ゲームの開発が強みです。
   translation: 与我们共同开发PBS的，是拥有将棋AI开发实绩的HEROZ株式会社。该公司擅长开发搭载AI的游戏，包括日本将棋联盟公认的将棋游戏应用“将棋WARS”等。
   note: HEROZ株式会社是一家日本AI技术公司，以将棋AI开发闻名。
@@ -88,8 +90,8 @@ parallel_items:
   translation: 株式会社宝可梦的负责人回顾道：“HEROZ的开发成员中有很多熟悉宝可梦、深入钻研对战的人，因此他们在深刻理解对战乐趣的基础上投入了开发。”
 - type: heading
   level: 2
-  original: 4. ポケモンの数とわざの種類……膨大な「打ち手」に対応
-  translation: 4. 宝可梦的数量与招式的种类……应对庞大的“可选手”
+  original: "ポケモンの数とわざの種類……膨大な「打ち手」に対応"
+  translation: "宝可梦的数量与招式的种类……应对庞大的“可选手”"
 - type: image
   image: /assets/img/interviews/2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports/003.jpg
   alt: AIによって、誰もが「バトル観戦」を楽しめる時代へ
@@ -102,7 +104,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports/004.jpg
   alt: AIによって、誰もが「バトル観戦」を楽しめる時代へ
-  caption: 近年は能楽堂を舞台に、選手が和服を羽織って参加するユニークなイベントとしても親しまれている「ポケモン竜王戦」
+  caption: "近年来，以能乐堂为舞台、选手身着和服参加的独特活动「宝可梦龙王战」也广受喜爱"
+  caption_original: "近年は能楽堂を舞台に、選手が和服を羽織って参加するユニークなイベントとしても親しまれている「ポケモン竜王戦」"
 - original: とはいえ、開発は一筋縄ではいきません。駒の数が決まっている将棋とは異なり、ポケモンバトルには1000種を超えるポケモンや900種類以上ものわざが存在します。
   translation: 然而，开发并非一帆风顺。与棋子数量固定的将棋不同，宝可梦对战中存在超过1000种宝可梦和900种以上的招式。
 - original: また、バトルフィールドの天気やポケモンの状態異常などによっても、選ぶべき手が変わります。その組み合わせは天文学的な数字に。
@@ -111,8 +114,8 @@ parallel_items:
   translation: 设定让AI学习的条件后，模拟次数达到了数亿次。
 - type: heading
   level: 2
-  original: 5. トッププレイヤーとAIが生み出す相乗効果
-  translation: 5. 顶级玩家与AI产生的协同效应
+  original: "トッププレイヤーとAIが生み出す相乗効果"
+  translation: "顶级玩家与AI产生的协同效应"
 - original: PBSを実装し、迎えた「ポケモン竜王戦2024」当日。ゲーム部門の1回戦が始まり、配信画面にAIの候補手が表示されると、配信番組のコメント欄は大いに沸きました。
   translation: 实装PBS后，迎来了“宝可梦龙王战2024”当天。游戏部门的第一轮比赛开始，直播画面上显示AI的候选招数后，直播节目的评论区大为沸腾。
   note: 宝可梦龙王战是株式会社宝可梦官方举办的宝可梦游戏赛事。

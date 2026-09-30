@@ -85,7 +85,10 @@ caller needs.
     {%- capture c_tip %}{{ c_year }} 年 · {{ c_year_parts[0] }} 篇{% endcapture -%}
     {%- assign c_tips = c_tips | push: c_tip -%}
   {%- else -%}
-    {%- if c_arch == "scan_translation" -%}
+    {%- if c_arch == "media_feature" -%}
+      {%- assign c_section = "媒体专题翻译" -%}
+      {%- assign c_section_url = "/categories/媒体专题翻译/" -%}
+    {%- elsif c_arch == "scan_translation" -%}
       {%- assign c_section = "扫描存档" -%}
       {%- assign c_section_url = "/categories/扫描存档/" -%}
     {%- else -%}

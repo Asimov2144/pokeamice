@@ -24,6 +24,7 @@ sitemap: false
     {%- when "gamefreak_legacy_blog" -%}{%- assign k = "gf" -%}
       {%- if post.gf_legacy_blog == "art" -%}{%- assign kind = "员工博客 · 美术" -%}
       {%- else -%}{%- assign kind = "员工博客" -%}{%- endif -%}
+    {%- when "media_feature" -%}{%- assign k = "article" -%}{%- assign kind = "媒体专题" -%}
     {%- when "scan_translation" -%}{%- assign k = "scan" -%}{%- assign kind = "扫描翻译" -%}
     {%- when "interview_translation" -%}{%- assign k = "scan" -%}{%- assign kind = "访谈翻译" -%}
     {%- else -%}{%- assign k = "article" -%}{%- assign kind = "自撰与整理" -%}

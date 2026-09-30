@@ -55,7 +55,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration/001.jpg
   alt: コスメにポケモンの力を宿して
-  caption: 草むらや山などの自然がテーマとなっている「ポケモン コレクション」のビジュアルイメージ
+  caption: "以草丛和山等自然为主题的“宝可梦系列”视觉形象"
+  caption_original: "草むらや山などの自然がテーマとなっている「ポケモン コレクション」のビジュアルイメージ"
 - original: ビジュアルの魅力に留まらない、深みのある世界観をもつ両者は、きっと相性がいいのではないか。この期待が、企画の推進力になりました。
   translation: 两者都不止于视觉上的魅力，而是拥有深度的世界观，想必会很相配。这份期待成了推动企划的动力。
 - original: 提案を受けたポケモンの担当者は次のように当時を振り返ります。
@@ -73,7 +74,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration/002.jpg
   alt: コスメにポケモンの力を宿して
-  caption: 3色展開のスキンケア下地「メイクアップ クリーム モイストP」
+  caption: "三色展开的护肤妆前乳“Makeup Cream Moist P”"
+  caption_original: "3色展開のスキンケア下地「メイクアップ クリーム モイストP」"
 - original: さらに、大人のユーザーも抵抗なく手に取れるような本物志向のデザインを追求しました。
   translation: 此外，我们还追求能让成年用户也毫无抵触地拿在手里的、注重真实质感的设计。
 - original: 目を引く華やかさと落ち着きを両立した外箱と、ドレッサーやインテリアに馴染む洗練された佇まいのコスメ本体。両者のデザインを棲み分けることにもこだわりを詰め込んでいます。
@@ -81,7 +83,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration/003.jpg
   alt: コスメにポケモンの力を宿して
-  caption: 「スキンケアシールド プレストパウダーP」
+  caption: "“Skincare Shield Pressed Powder P”"
+  caption_original: "「スキンケアシールド プレストパウダーP」"
 - original: 結局、約2年半の試行錯誤を経て、日焼け止め化粧下地（3種）、フェイスパウダー、UV乳液・メイクアップベースの計6アイテムが完成しました。
   translation: 最终，经过约两年半的反复摸索，防晒妆前乳（3种）、面部粉饼、UV乳液与妆前底霜共计6款产品完成了。
 - original: キャッチコピーは、「ポケモンと一緒に、“美しさ”をゲットしよう」。

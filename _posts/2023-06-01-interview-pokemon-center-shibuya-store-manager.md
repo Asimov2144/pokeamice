@@ -45,6 +45,7 @@ workflow:
   translation: claude_retranslated_2026-09-29
   proofreading: pending
   published: published
+dek: "宝可梦中心涩谷店长S.O谈入职经历、疫情应对与店铺管理。"
 parallel_items:
 - type: image
   image: /assets/img/interviews/pokemoncenter-02/img_mainB1cLK4jB.jpg

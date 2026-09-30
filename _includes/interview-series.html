@@ -34,7 +34,7 @@ series_prev, series_next. Empty when the post is not part of a series.
 {%- endif -%}
 {%- if series_key != "" -%}
   {%- assign series_found = "" | split: "" -%}
-  {%- assign series_pool = site.posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation'" -%}
+  {%- assign series_pool = site.posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation'" | where_exp: "p", "p.archive_type != 'media_feature'" -%}
   {%- for candidate in series_pool -%}
     {%- if candidate.title contains series_key -%}
       {%- assign series_found = series_found | push: candidate -%}

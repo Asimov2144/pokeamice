@@ -44,6 +44,8 @@ topics:
 - "世界观构建"
 - "角色设计"
 - "哲学与立意"
+publication: "週刊Fami通 No.1146"
+display_title: "剧本负责人松宫稔展专访"
 parallel_items:
 - type: heading
   level: 2

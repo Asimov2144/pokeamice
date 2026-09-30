@@ -48,6 +48,8 @@ topics:
 - "平衡性调整"
 - "三打与轮转对战"
 - "隐藏特性"
+publication: "週刊Fami通 No.1155"
+display_title: "开发团队讲述对战的秘密"
 parallel_items:
 - speaker: 週刊ファミ通
   role: question

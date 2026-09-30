@@ -49,9 +49,9 @@ for p in sorted((root/'_posts').rglob('*.md')):
         line = nodes[idx].start_mark.line+2 if idx<len(nodes) else None
         def add(cat, txt): flag(p,cat,txt,idx+1,line)
         if o and not t: add('missing_translation',o)
-        if t and not o: add('missing_original',t)
+        if t and not o and typ not in ('heading','header'): add('missing_original',t)
         if o == t and len(o)>40: add('identical_translation',o)
-        if o and len(o)>180 and len(t)<len(o)*0.15: add('short_translation_candidate',f'{len(o)} -> {len(t)}: {o[:220]} | {t}')
+        if o and len(o)>180 and len(t)<len(o)*0.15 and not t.startswith('【原文 OCR'): add('short_translation_candidate',f'{len(o)} -> {len(t)}: {o[:220]} | {t}')
         if len(re.findall(r'[ぁ-ヿ]',t))>12 and len(re.findall(r'[ぁ-ヿ]',t))/max(1,len(t))>.18: add('japanese_in_translation',t)
         if re.search(r'cookie policy|privacy policy|all rights reserved|subscribe to our|sign up for|related articles|share this article|この記事をシェア|関連記事|無断転載|返回顶部|隐私政策|订阅我们的',o+' '+t,re.I): add('noise_candidate',o+' | '+t)
         if typ not in ('heading','header') and len(o)>3 and re.sub(r'\s+','',o) in headings: add('source_heading_as_body',o+' | '+t)
@@ -65,4 +65,6 @@ for p in sorted((root/'_posts').rglob('*.md')):
 result = {'counts':dict(counts),'issue_counts':dict(Counter(i['category'] for i in issues)), 'affected_posts': {c:len({i['file'] for i in issues if i['category']==c}) for c in sorted({i['category'] for i in issues})},'issues':issues}
 if '--compact' in sys.argv:
     result['issues'] = [{**i,'text':i['text'][:180]} for i in issues if i['category'] != 'single_newline']
+if '--summary' in sys.argv:
+    result.pop('issues')
 print(json.dumps(result,ensure_ascii=False,indent=2))

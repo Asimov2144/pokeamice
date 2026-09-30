@@ -48,6 +48,8 @@ workflow:
   translation: claude_2026-09-29
   proofreading: pending
   published: draft
+publication: "Nintendo Acción No.199"
+display_title: "增田顺一、河内丸武史谈《宝可梦 白金》"
 parallel_items:
 - speaker: Nintendo Acción
   role: question

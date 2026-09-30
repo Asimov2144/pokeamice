@@ -36,6 +36,9 @@ entities:
   works:
   - 宝可梦 黑·白
 pending_review_regions: 21
+display_title: "杉森建谈宝可梦设计"
+dek: "杉森建讲述宝可梦全面焕新及御三家设计过程。"
+summary: "增田最先提出宝可梦全面焕新，杉森曾抗拒但最终接受。御三家以孩子身边能抓到的动物为原型，最先定下暖暖猪和藤藤蛇，水水獭最难产，设计师从水族馆海獭获得灵感。进化形以武将为原型，水水獭系用肚子贝壳代替刀。"
 parallel_items:
 - type: heading
   original: オトナファミの杉森インタビュー

@@ -64,6 +64,7 @@ parallel_items:
     株式会社ポケモンさんに問い合わせをして、ようやくお答えすることができたということがあったそうです。'
   translation: '或许部分朋友有所耳闻，在《马力欧vs.咚奇刚 突击！迷你大陆》的电视广告中，我们非常有幸邀请到了身为现役女大学生的模特兼演员桐谷美玲小姐出演。
 
+
     而在广告拍摄的间歇，桐谷小姐突然向任天堂的工作人员提出：“关于《宝可梦 白》，我有几个问题想请教一下。”并抛出了三个疑问。
 
     令人意外的是，这些问题过于深入且专业，负责《宝可梦》系列对接的任天堂员工完全无法当场解答，最后不得不紧急向宝可梦公司（The Pokémon Company）致电咨询，这才好不容易给出了答复。'
@@ -259,7 +260,7 @@ parallel_items:
   translation: 太神奇了（笑）！
 - type: heading
   level: 2
-  original: 第4回：好きなポケモンは？――水水獭的武士道与可爱的真谛
+  original: 第4回：好きなポケモンは？
   translation: 第4回：最喜欢的宝可梦是？——水水獭的武士道与可爱的真谛
 - type: image
   image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/oshawott.png
@@ -409,7 +410,7 @@ parallel_items:
   translation: 绑上一朵花的话……就变成妙蛙花了呢（笑）！
 - type: heading
   level: 2
-  original: 第5回：おすすめの遊び方は？――通关后的深坑、水水獭‘贝太刀’与御三家跨文化构想
+  original: 第5回：おすすめの遊び方は？
   translation: 第5回：推荐的游玩方式？——通关后的深坑、水水獭‘贝太刀’与御三家跨文化构想
 - type: image
   image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/bw_package_white.jpg
@@ -626,7 +627,7 @@ parallel_items:
   translation: 现在回过头来仔细一瞧，暖暖猪一脉确实很有中国古代大将的气魄呢！
 - type: heading
   level: 2
-  original: 第6回：「友だちの間で『ポケモンブラック・ホワイト』をやっている人はいますか？」――女大生的宝可梦日常与‘不完美’的可爱
+  original: 第6回：「友だちの間で『ポケモンブラック・ホワイト』をやっている人はいますか？」
   translation: 第6回：“身边的朋友也在玩《黑·白》吗？”——女大学生的宝可梦日常与‘留白’的设计美学
 - speaker: 增田顺一
   original: 友だちで『ポケモンブラック・ホワイト』を やっている人はいますか？
@@ -750,7 +751,7 @@ parallel_items:
   translation: 所以说，宝可梦的设计还是必须彻底放手全权交给杉森。要是换我来掌舵，肯定永远也构思不出像水水獭这样充满回味的宝可梦（笑）。
 - type: heading
   level: 2
-  original: 第7回：通信機能がうまく使いこなせないので、よいやり方を教えてください！――现场联机涂鸦、连入之桥与亲笔签绘
+  original: 第7回：通信機能がうまく使いこなせないので、よいやり方を教えてください！
   translation: 第7回：“通信功能还不太会用，请教教我诀窍！”——现场掏机联机涂鸦、连入之桥与亲笔签绘
 - type: image
   image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/masuda_playing_bw.jpg

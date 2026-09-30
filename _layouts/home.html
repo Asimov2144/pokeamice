@@ -19,11 +19,10 @@ sidebar:
 {% assign all_posts = site.posts %}
 {% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
 {%- comment -%}
-  An interview is a post on an interview layout. The category 访谈翻译 holds
-  126 of them; the recruit rounds, the official archives and the memoir
-  are filed elsewhere, and the count on the tab said 126 for 257 pages.
+  Interview-layout posts are the interview shelf, except entries explicitly
+  classified as another media type (for example, a video feature).
 {%- endcomment -%}
-{% assign interview_posts = site.posts | where_exp: "post", "post.layout == 'interview-editorial' or post.layout == 'parallel-translation'" %}
+{% assign interview_posts = site.posts | where_exp: "post", "post.layout == 'interview-editorial' or post.layout == 'parallel-translation'" | where_exp: "post", "post.archive_type != 'media_feature'" %}
 {% assign gf_director_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
 {% assign gf_lineblog_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" %}
 {% assign gf_legacy_posts = site.posts | where: "archive_type", "gamefreak_legacy_blog" %}

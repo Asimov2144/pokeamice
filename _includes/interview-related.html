@@ -37,7 +37,7 @@ group it qualifies for. Manual relations.related_posts come first.
   site has 2,800 posts and 260 interviews, and a Liquid loop over the
   former cost a quarter of a second a page.
 {%- endcomment -%}
-{%- assign rel_pool = site.posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation'" -%}
+{%- assign rel_pool = site.posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation'" | where_exp: "p", "p.archive_type != 'media_feature'" -%}
 {%- comment -%}
   Three passes: the same people within two years first - a 2010 conversation
   about 黑·白 belongs next to the other 2010 ones, not to a 2024 talk that

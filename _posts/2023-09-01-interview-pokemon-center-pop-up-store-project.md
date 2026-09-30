@@ -47,6 +47,7 @@ workflow:
   translation: claude_retranslated_2026-09-29
   proofreading: pending
   published: published
+dek: "活动企划部K.K谈入职契机、电商运营与店铺经验，以及出张所企划。"
 parallel_items:
 - type: image
   image: /assets/img/interviews/pokemoncenter-03/img_mainDw9s218G.jpg

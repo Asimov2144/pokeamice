@@ -44,11 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+author: "McKinley Noble"
 parallel_items:
-- original: By McKinley Noble
-  translation: 作者：McKinley Noble
-- original: March 23, 2009 17:14 PM PST
-  translation: 2009年3月23日 17:14 太平洋标准时间
 - original: With Pokemon Platinum just a few days away, GamePro was invited to Nintendo to talk with two of the developers behind Nintendo's powerhouse RPG franchise!
   translation: 距离《宝可梦 白金》发售只剩几天，GamePro 受邀前往任天堂，与这部任天堂王牌 RPG 系列背后的两位开发者进行了交谈！
 - original: Pokemon Platinum is just around the corner for gamers in the U.S., and I'm already polishing up my Nintendo DS in anticipation of the new battles and Pokemon I'm going to see. Nintendo recently invited GamePro to their Bay Area headquarters to interview two of the men behind the development of Pokemon Platinum, just in time to increase my hunger for the release of this much-awaited remake edition in the record-breaking Pokemon Diamond & Pearl series. We chatted up Takeshi Kawachimaru, one of Game Freak's designers behind Pokemon Ruby and Pokemon Sapphire (as well as Pokemon Platinum's game director) and the famous video game composer Junichi Masuda, one of the original developers of Pokemon since Red and Blue/Green, who is also producing Pokemon Platinum.
@@ -57,8 +54,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru/001.jpg
   alt: 'Pokemon Platinum: Developer Interview!'
-- original: (Center, left to right) Junichi Masuda and Takeshi Kawachimaru, with representives of the Pokemon Company. We were unreasonably intimidated.
-  translation: （中间，从左至右）增田顺一与河内丸武史，以及宝可梦公司的代表。我们感到了一种毫无道理的压迫感。
+  caption: "中间，从左至右：增田顺一与河内丸武史，以及宝可梦公司的代表。我们感到了一种毫无道理的压迫感。"
+  caption_original: "(Center, left to right) Junichi Masuda and Takeshi Kawachimaru, with representives of the Pokemon Company. We felt an unreasonable amount of pressure."
 - original: This is the first Pokemon game that's been named after a metal since Gold & Silver. Was there a special reason for calling this one "Platinum"?
   role: question
   speaker: GamePro

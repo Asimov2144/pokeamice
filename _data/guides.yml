@@ -39,3 +39,23 @@
     - {file: staff-d.webp, url: /gamefreak-staff/, viewport: 1280x800}
     - {file: graph-d.webp, url: /resource-graph/, viewport: 1280x800}
     - {file: keys-d.webp, url: /keys/, viewport: 1280x800}
+
+- id: tour
+  group: Tour 旅图
+  title: Tour 旅图怎么用
+  url: /guide/tour/
+  summary: 在地图上找宝可梦中心、井盖和打卡点，读一个地点，用时间机器回看历史
+  status: published
+  verified: 2026-09-29
+  # 800x500 grabs of a 1280x800 window in the Browser pane (the site answers 403 to a headless
+  # Chrome on /tour/, so tools/cdpshot.mjs cannot take them); the phone shot is 375x812 at 2x, stored at 560 wide.
+  shots:
+    - {file: tour-overview-d.webp, url: https://pokeamice.com/tour/, viewport: 1280x800, state: 初始，全部分类，关掉公告}
+    - {file: tour-map-m.webp, url: https://pokeamice.com/tour/, viewport: 375x812}
+    - {file: tour-list-d.webp, url: https://pokeamice.com/tour/, viewport: 1280x800, state: 打开「搜索 / 列表」，地点页签}
+    - {file: tour-region-d.webp, url: https://pokeamice.com/tour/, viewport: 1280x800, state: 地区页签，地图上有一张随机地点小卡}
+    - {file: tour-place-card-d.webp, url: https://pokeamice.com/tour/, viewport: 1280x800, state: 点「随机」后的地点小卡}
+    - {file: tour-place-d.webp, url: https://pokeamice.com/tour/#pc_tokyo_hamamatsucho_2007, viewport: 1280x800, state: 地点页}
+    - {file: tour-time-d.webp, url: https://pokeamice.com/tour/#pc_tokyo_hamamatsucho_2007, viewport: 1280x800, state: 历史，年份 2007，全部分类}
+    - {file: tour-history-d.webp, url: https://pokeamice.com/tour/?tour=pokemon-centers&stop=pc-open-pc_tokyo_nihonbashi_1998, viewport: 1280x800, state: 讲解，宝可梦中心变迁第 1 站}
+    - {file: tour-collection-d.webp, url: https://pokeamice.com/tour/#collection=pokelid, viewport: 1280x800, state: 专题，未登录}

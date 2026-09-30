@@ -42,8 +42,8 @@ parallel_items:
   alt: ポケモンの原点は、自然をかき分けた先に
 - type: heading
   level: 2
-  original: 1. 森林に溶け込むポケモンを探して
-  translation: 1. 寻找融入森林的宝可梦
+  original: "森林に溶け込むポケモンを探して"
+  translation: "寻找融入森林的宝可梦"
 - original: 東京郊外に広がる手つかずの自然。『ポケットモンスター』シリーズが生まれるヒントとなったのは、そんな環境で、原作者が少年時代に熱中した昆虫採集でした。
   translation: 东京郊外广阔的原生态自然。孕育《宝可梦》系列的灵感，正是原作者少年时代在这种环境中热衷的采集昆虫。
 - original: 作品の「遊び」の原点に立ち戻り、ポケモンを通じて自然に触れてほしい。そんな想いから生まれた企画が『Pokémon WONDER』です。
@@ -53,8 +53,8 @@ parallel_items:
   note: “イナギの森”是《Pokémon WONDER》活动中设定的虚构森林，名称可能取自东京都稻城市。
 - type: heading
   level: 2
-  original: 2. 草むらに踏み込み、水中を覗き込む体験を
-  translation: 2. 踏入草丛、窥探水中的体验
+  original: "草むらに踏み込み、水中を覗き込む体験を"
+  translation: "踏入草丛、窥探水中的体验"
 - original: たとえばある調査ノートには、このように書かれています。
   translation: 例如，某本调查笔记中这样写道。
 - original: 「紫色の痕跡が点々と続いているのを発見した。跡をたどってみたが、草むらの手前で途切れていた」
@@ -64,11 +64,12 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure/001.jpg
   alt: ポケモンの原点は、自然をかき分けた先に
-  caption: ポケモンを探す手がかり
+  caption: "寻找宝可梦的线索"
+  caption_original: "ポケモンを探す手がかり"
 - type: heading
   level: 2
-  original: 3. ポケモン本来の姿と探す面白さを両立するには
-  translation: 3. 如何兼顾宝可梦本来的样子与寻找的乐趣
+  original: "ポケモン本来の姿と探す面白さを両立するには"
+  translation: "如何兼顾宝可梦本来的样子与寻找的乐趣"
 - original: 『Pokémon WONDER』における最大のチャレンジは、現実世界の自然の中で「ポケモンらしさ」と「探す面白さ」を共存させることでした。
   translation: 《Pokémon WONDER》最大的挑战，是在现实世界的自然中，让“宝可梦的感觉”与“寻找的乐趣”共存。
 - original: ポケモンの痕跡を辿って自然に飛びこむ仕掛けづくりの裏側には、企画に共感し、真摯に向き合うクリエイター陣との協力体制があります。
@@ -79,7 +80,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure/002.jpg
   alt: ポケモンの原点は、自然をかき分けた先に
-  caption: 隠れているポケモンは50種類以上
+  caption: "隐藏的宝可梦有50种以上"
+  caption_original: "隠れているポケモンは50種類以上"
 - original: プロジェクトの過程は、最初から最後まで試行錯誤の連続でした。企画のプロデュースを担当した、株式会社ポケモンの津田明子さんはこのように語ります。
   translation: 项目的过程自始至终都是不断试错。负责企划制作的株式会社宝可梦的津田明子这样说道。
 - original: 「特に『どのポケモンがどのように登場するのが“あるべき姿”なのか』という点は、議論を尽くしたポイントです。生きものには生態があるので、森にいるのが自然なポケモンもいれば、そうでないポケモンもいる。どれだけ面白い謎や仕掛けを思いついても、そのポケモンにとって不自然だったらボツにすることもありました」
@@ -90,8 +92,8 @@ parallel_items:
   translation: 全体相关人员提出的点子超过100个。经过反复测试与不断调整，最终磨合出了能兼顾“宝可梦特色”与“游玩趣味性”的平衡点。
 - type: heading
   level: 2
-  original: 4. ポケモンが自然と親しむ架け橋に
-  translation: 4. 成为宝可梦亲近自然的桥梁
+  original: "ポケモンが自然と親しむ架け橋に"
+  translation: "成为宝可梦亲近自然的桥梁"
 - original: 津田さんが「企画は間違っていなかった」と確信を持ったのは、テストプレイ参加者のお子さんの変化を見たときでした。
   translation: 津田确信“企划没有错”，是在看到参加测试游玩的孩子发生变化的时候。
 - original: そのお子さんは、アリを見ただけで怖がるくらい虫が苦手。しかし、会場は自然の中なので、当然ながらあちこち虫だらけです。
@@ -101,7 +103,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure/003.jpg
   alt: ポケモンの原点は、自然をかき分けた先に
-  caption: ポケモンを隠す場所や表現方法は、一つ一つ試行錯誤しながら候補を吟味
+  caption: "隐藏宝可梦的地点与表现方法，逐一反复尝试、斟酌候选方案"
+  caption_original: "ポケモンを隠す場所や表現方法は、一つ一つ試行錯誤しながら候補を吟味"
 - original: 自然との触れ合いの中にある、いつの時代も変わらない「遊び」。『Pokémon WONDER』を通じて、ポケモンの原点にあるそんな「遊び」を再発見することが、また誰かの原体験につながるのかもしれません。
   translation: 在与自然的接触之中，存在着无论哪个时代都不曾改变的“游玩”。通过《Pokémon WONDER》重新发现宝可梦原点中的这种“游玩”，或许又会成为某个人的原体验。
   note: 《Pokémon WONDER》是2021年播出的宝可梦系列网络动画，以自然与游玩为主题。

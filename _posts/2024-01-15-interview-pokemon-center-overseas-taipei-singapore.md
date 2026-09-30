@@ -51,6 +51,7 @@ workflow:
   translation: claude_retranslated_2026-09-29
   proofreading: pending
   published: published
+dek: "宝可梦中心台北与新加坡项目成员讲述海外开店的项目管理与法务推进。"
 parallel_items:
 - type: image
   image: /assets/img/interviews/pokemoncenter-04/img_mainC-iQ2HSs.jpg
@@ -206,8 +207,9 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/pokemoncenter-04/img_7avkG8p1y_ZaNBPO.webp
-  caption: Pokémon Singapore Pte. Ltd. General Manager S.S
+  caption: "Pokémon Singapore Pte. Ltd. 总经理 S.S"
   alt: S.S 肖像
+  caption_original: "Pokémon Singapore Pte. Ltd. General Manager S.S"
 - speaker: 采访者
   original: 具体的にどのような施策を行ったのでしょうか？
   translation: "具体做了什么样的措施？"

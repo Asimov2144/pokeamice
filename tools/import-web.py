@@ -107,11 +107,24 @@ def fetch(target):
         if r.headers.get("Content-Encoding") == "gzip":
             import gzip
             data = gzip.decompress(data)
-    m = re.search(rb'charset=["\']?([\w-]+)', data[:4000])
-    enc = m.group(1).decode() if m else "utf-8"
-    try:
-        text = data.decode(enc, "replace")
-    except LookupError:
+    # The charset: what the target declares, else what the document says. A Wayback copy
+    # opens with the toolbar's own UTF-8 <meta>, so the first declaration can belong to the
+    # banner and not to the page (nintendo.co.jp's Shift_JIS pages came out as mojibake);
+    # every candidate is decoded and the one leaving the fewest replacement characters wins.
+    declared = [target["encoding"]] if target.get("encoding") else []
+    declared += [m.group(1).decode("ascii", "replace") for m in re.finditer(rb'charset=["\']?([\w-]+)', data[:20000])]
+    best, text = None, None
+    for enc in declared + ["utf-8", "shift_jis", "euc-jp", "cp932"]:
+        try:
+            cand = data.decode(enc, "replace")
+        except LookupError:
+            continue
+        bad = cand.count("�") / max(1, len(cand))
+        if best is None or bad < best:
+            best, text = bad, cand
+        if bad == 0:
+            break
+    if text is None:
         text = data.decode("utf-8", "replace")
     out.write_text(text, encoding="utf-8", newline="\n")
     return text

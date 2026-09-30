@@ -46,6 +46,7 @@ workflow:
   translation: claude_retranslated_2026-09-29
   proofreading: pending
   published: published
+dek: "上乡赖臣与山冈梢谈宝可梦中心的优势及线上商城运营。"
 parallel_items:
 - type: image
   image: /assets/img/interviews/pokemoncenter-01/img_mainX7BrJsqY.jpg

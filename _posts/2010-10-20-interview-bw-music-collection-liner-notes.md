@@ -49,6 +49,8 @@ topics:
 - "动态音效"
 - "交互式音频"
 - "世界观声音设计"
+publication: "《宝可梦 黑／白 超级音乐集》CD 内页"
+display_title: "增田顺一、景山将太等详谈合众动态音效与世界音乐构建"
 parallel_items:
 - type: heading
   level: 2

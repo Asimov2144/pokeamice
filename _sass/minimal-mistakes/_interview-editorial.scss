@@ -841,6 +841,15 @@ $ed-measure: 704px;
   &:has(.ed[data-reading-theme="dark"]) { background: #0f1115; }
   &:has(.ed[data-reading-theme="dark"]) .initial-content { background: #0f1115 !important; }
 
+  /* a picture's caption in Chinese, the source-language one under it in small type */
+  .ed-figcap-orig {
+    display: block;
+    margin-top: 2px;
+    opacity: 0.62;
+    font-size: 0.92em;
+    line-height: 1.5;
+  }
+
   /* ---- narrow ------------------------------------------------------------ */
   @media (max-width: 720px) {
     .ed-contents__list { columns: 1; }

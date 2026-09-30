@@ -8,7 +8,8 @@ agree; the row keeps the type colour (is-type-*) for its kind chip.
 {% assign rp = include.row_post %}
 {% assign row_archive = rp.archive_type | default: rp.resource_type %}
 {% assign row_type = "文章" %}{% assign row_tc = "article" %}
-{% if row_archive == "scan_translation" %}{% assign row_type = "扫描翻译" %}{% assign row_tc = "scan" %}
+{% if row_archive == "media_feature" %}{% assign row_type = "媒体专题" %}{% assign row_tc = "article" %}
+{% elsif row_archive == "scan_translation" %}{% assign row_type = "扫描翻译" %}{% assign row_tc = "scan" %}
 {% elsif rp.layout == "interview-editorial" or rp.layout == "parallel-translation" or row_archive == "interview_translation" or rp.categories contains "访谈翻译" %}{% assign row_type = "访谈翻译" %}{% assign row_tc = "interview" %}
 {% elsif row_archive == "gamefreak_director_column" or row_archive == "gamefreak_masuda_lineblog" or row_archive == "gamefreak_legacy_blog" %}{% assign row_type = "Game Freak 博客" %}{% assign row_tc = "blog" %}
 {% elsif rp.categories contains "文档" %}{% assign row_type = "文档" %}{% assign row_tc = "doc" %}{% endif %}

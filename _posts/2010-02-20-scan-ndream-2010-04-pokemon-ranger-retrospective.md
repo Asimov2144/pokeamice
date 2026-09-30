@@ -554,7 +554,7 @@ translation_segments:
     review_status: ready
     width: 1601
     height: 2048
-  - speaker: 巡游菲奥雷地方四座城市的试炼 冒险
+  - speaker: 巡游菲欧雷地区四座城市的试炼 冒险
     type: heading
     kind: text
     region_type: heading
@@ -565,7 +565,7 @@ translation_segments:
     review_status: review
     original: フィオレ地方の4つの街をめぐる試練 冒険
     translation: ""
-    comment: 菲奥雷地方是《宝可梦巡护员》系列的舞台。
+    comment: 菲欧雷地区是《宝可梦巡护员》系列的舞台。
     scan_box:
       - 64
       - 88
@@ -581,7 +581,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 主人公はフィオレ地方全土が活動範囲。街をつなぐ道なき道を踏破する冒険も、レンジャーに必要な試練なのだ。
-    translation: 主角的活动范围遍及菲奥雷地方全境。踏破连接城市之间没有道路的荒野，也是巡护员必需的试炼。
+    translation: 主角的活动范围遍及菲欧雷地区全境。踏破连接城市之间没有道路的荒野，也是巡护员必需的试炼。
     scan_box:
       - 528
       - 160
@@ -886,7 +886,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 目的は不明だが、ポケモンレンジャーの妨害をするゴーゴー団。彼らは、シンバラ教授から奪った新型スタイラーを改造したものを使い、フィオレ地方各地でさまざまな事件を巻き起こす。中でもゴーゴー団幹部のゴーゴー4兄弟とは何度も出会い、何度も戦うことになる。
-    translation: 目的不明，但会妨碍宝可梦巡护员的冲冲团。他们使用改造自辛巴拉教授处抢来的新型捕猎游标，在菲奥雷地方各地引发各种事件。其中，与冲冲团干部冲冲四兄弟会多次相遇，并多次交战。
+    translation: 目的不明，但会妨碍宝可梦巡护员的冲冲团。他们使用改造自辛巴拉教授处抢来的新型捕猎游标，在菲欧雷地区各地引发各种事件。其中，与冲冲团干部冲冲四兄弟会多次相遇，并多次交战。
     scan_box:
       - 472
       - 1198

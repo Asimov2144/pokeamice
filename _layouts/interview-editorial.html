@@ -190,7 +190,7 @@ kept on the turns even though the presentation around them is new.
   <article class="ed-article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
 
     {%- comment -%} Cover: when, where, who, what - before a single control. {%- endcomment -%}
-    <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}INTERVIEW{% endif %}">
+    <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}{% if page.source_kind == "official_corporate_topic" %}TOPICS{% else %}INTERVIEW{% endif %}{% endif %}">
       <p class="ed-kicker">
         <span>{{ page.date | date: "%Y" }}</span>
         {% if page.dateline %}<span>{{ page.dateline }}</span>{% endif %}
@@ -235,7 +235,7 @@ kept on the turns even though the presentation around them is new.
       {% assign hero_src = hero.image | default: hero.src | default: hero.replacement | default: hero.original %}
       <figure class="ed-hero">
         <img src="{{ hero_src | relative_url }}" alt="{{ hero.alt | default: hero.caption | default: page.title | escape }}" decoding="async">
-        {% if hero.caption %}<figcaption>{{ hero.caption }}</figcaption>{% endif %}
+        {% if hero.caption %}<figcaption>{{ hero.caption }}{% if hero.caption_original %}<span class="ed-figcap-orig" lang="{{ page.original_lang | default: "ja" }}">{{ hero.caption_original }}</span>{% endif %}</figcaption>{% endif %}
       </figure>
     {% endif %}
 
@@ -267,7 +267,7 @@ kept on the turns even though the presentation around them is new.
             {% if src %}
               <figure class="ed-figure">
                 <img src="{{ src | relative_url }}" alt="{{ item.alt | default: item.caption | default: page.title | escape }}" loading="lazy" decoding="async">
-                {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+                {% if item.caption %}<figcaption>{{ item.caption }}{% if item.caption_original %}<span class="ed-figcap-orig" lang="{{ page.original_lang | default: "ja" }}">{{ item.caption_original }}</span>{% endif %}</figcaption>{% endif %}
               </figure>
             {% endif %}
           {% endif %}
