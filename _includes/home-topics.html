@@ -16,6 +16,7 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
 {% assign tp_famitsu = tp_posts | where_exp: "p", "p.publication contains 'ファミ通' or p.publication contains 'Fami通' or p.source.title contains 'ファミ通' or p.title contains 'Fami通' or p.title contains 'ファミ通'" %}
 {% assign tp_dengeki = tp_posts | where_exp: "p", "p.publication contains '電撃' or p.publication contains '电击' or p.source.title contains '電撃' or p.title contains '電撃' or p.title contains '电击'" %}
 {% assign tp_cedec = tp_posts | where_exp: "p", "p.title contains 'CEDEC'" %}
+{% assign tp_corp = tp_posts | where_exp: "p", "p.categories contains '专题报道'" %}
 {%- comment -%} the recruit interviews and the N.O.M ones carry a tag, which is also what their tiles search for {%- endcomment -%}
 {% assign tp_recruit = tp_posts | where_exp: "p", "p.tags contains '招聘访谈'" %}
 {% assign tp_gi = tp_posts | where_exp: "p", "p.publication contains 'Game Informer'" %}
@@ -40,6 +41,7 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
   <a class="front__tile" href="{{ '/search/?q=CEDEC' | relative_url }}" data-q="CEDEC"><img src="{{ tile_base }}cedec.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">讲演</span><strong>CEDEC</strong><b>{{ tp_cedec | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=%E6%8A%80%E6%9C%AF' | relative_url }}" data-q="技术"><img src="{{ tile_base }}tech.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">技术</span><strong>技术报告</strong><b>{{ tp_tech | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=%E6%8B%9B%E8%81%98%E8%AE%BF%E8%B0%88' | relative_url }}" data-q="招聘访谈"><img src="{{ tile_base }}recruit.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>招聘访谈</strong><b>{{ tp_recruit | size }}</b></a>
+  <a class="front__tile" href="{{ '/search/?q=%E6%B3%A8%E7%9B%AE%E3%81%AE%E8%A9%B1%E9%A1%8C' | relative_url }}" data-q="注目の話題"><img src="{{ tile_base }}corporate.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>官方专题</strong><b>{{ tp_corp | size }}</b></a>
   <a class="front__tile" href="{{ '/people/' | relative_url }}"><img src="{{ tile_base }}people.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>人物库</strong><b>{{ tp_people | size }}</b></a>
   <a class="front__tile" href="{{ '/credits/' | relative_url }}"><img src="{{ tile_base }}credits.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>制作名单</strong><b>{{ site.data.credits_games | size }}</b></a>
   <a class="front__tile" href="{{ '/works/' | relative_url }}"><img src="{{ tile_base }}works.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>作品库</strong><b>{{ site.data.works | size }}</b></a>

@@ -40,6 +40,7 @@ TILES = {
     "cedec": ("assets/img/interviews/2026-07-22-interview-cedec-2026-battle-system-deck/slide-06.jpg", (0.5, 0.5), (0.03, 0.02, 0.57, 0.36)),
     "tech": ("assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-01.jpg", (0.5, 0.5)),
     "recruit": ("assets/img/interviews/2017-tpc-recruit-passion/entry1.jpg", (0.5, 0.4)),
+    "corporate": ("assets/img/interviews/2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey/000.jpg", (0.5, 0.5)),
 }
 PEOPLE_MOSAIC = ["masuda-junichi", "sugimori-ken", "ishihara-tsunekazu", "tajiri-satoshi", "ohmori-shigeru", "unno-takao", "morimoto-shigeki", "kubo-masakazu"]
 WORKS_MOSAIC = ["bulba-red-vc-jp-icon", "bulba-gold-vc-icon", "ball-ruby-sapphire", "bulba-diamond-icon", "bulba-black-icon", "home-x", "home-sword", "home-scarlet"]   # assets/img/works (tools/build-work-icons.py)
