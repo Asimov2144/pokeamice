@@ -312,6 +312,7 @@ PORTRAITS = [
     dict(name="海野隆雄", year=2009, src=_GF + "155/unno091120-83ab7cdd.jpg", source="Game Freak 员工博客 2009-11-20「ＨＧ・ＳＳ 語っちゃいます！ その6」", post="2009-11-20-gamefreak-staff-155"),
     dict(name="大村祐介", year=2010, src=_GF + "207/bw101112-bde32c5b.jpg", box=(140, 25, 60, 70), source="Game Freak 员工博客 2010-11-12「ブラック・ホワイトのつくりかた 第7回」", post="2010-11-12-gamefreak-staff-207"),
     dict(name="吉田宏信", year=2008, src=_GF + "89/yoshida080926-7777eb49.jpg", box=(40, 15, 70, 80), source="Game Freak 员工博客 2008-09-26「プラチナここだけの話 第1回」", post="2008-09-26-gamefreak-staff-89"),
+    dict(name="吉田宏信", year=2013, src=_IA + "2013-09-21-interview-nintendolife-2013-xy/005.jpg", source="Nintendo Life 2013-09-21《宝可梦 X／Y》访谈 · 题图注 Hironobu Yoshida", post="2013-09-21-interview-nintendolife-2013-xy"),
     dict(name="松岛贤二", year=2009, src=_GF + "160/matsushima091218-f0bf25c7.jpg", source="Game Freak 员工博客 2009-12-18「ＨＧ・ＳＳ 語っちゃいます！ 最終回」", post="2009-12-18-gamefreak-staff-160"),
     dict(name="松岛贤二", year=2010, src=_GF + "206/bw101105-77d7c4a5.jpg", box=(120, 25, 65, 75), source="Game Freak 员工博客 2010-11-05「ブラック・ホワイトのつくりかた 第6回」", post="2010-11-05-gamefreak-staff-206"),
     dict(name="James Turner", year=2010, src=_GF + "204/bw101022-93dde018.jpg", source="Game Freak 员工博客 2010-10-22「ブラック・ホワイト 開発者インタビュー 第4弾」", post="2010-10-22-gamefreak-staff-204"),
