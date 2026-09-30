@@ -251,8 +251,8 @@ def main():
             "items": items,
         })
     yc = collections.Counter(int(p["date"][:4]) for p, _ in members)
-    pc = collections.Counter(n for p, _ in members for n in set(p["people"]) if n in slug_of)
-    wc = collections.Counter(n for p, _ in members for n in set(p["works"]) if n in works)
+    pc = collections.Counter(n for p, _ in members for n in sorted(set(p["people"])) if n in slug_of)
+    wc = collections.Counter(n for p, _ in members for n in sorted(set(p["works"])) if n in works)
     overseas = {
         "total": len(members),
         "from": min(yc), "to": max(yc),
@@ -307,7 +307,7 @@ def main():
                     seen.add(k)
                     taken[p["kind"]] += 1
             picks.sort(key=lambda p: p["date"])
-            pcnt = collections.Counter(n for p in docs for n in set(p["people"]) if n in slug_of)
+            pcnt = collections.Counter(n for p in docs for n in sorted(set(p["people"])) if n in slug_of)
             card = {
                 "name": primary,
                 "aliases": names[1:],
@@ -336,7 +336,7 @@ def main():
         cards.sort(key=lambda c: (c.get("year") or 9999, -c["docs"]))
         for i, c in enumerate(cards):
             c["id"] = f"{gkey}-{i + 1}"
-        gp = collections.Counter(n for p in gdocs.values() for n in set(p["people"]) if n in slug_of)
+        gp = collections.Counter(n for p in gdocs.values() for n in sorted(set(p["people"])) if n in slug_of)
         yrs = [c["year"] for c in cards if c.get("year")]
         group_rows.append({
             "key": gkey, "label": glabel, "sub": gsub, "docs": len(gdocs),

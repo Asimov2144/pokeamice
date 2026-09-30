@@ -1515,11 +1515,11 @@ games:
       - name: 田谷正夫
         slug: taya-masao
         n: 2
+      - name: 增田顺一
+        slug: masuda-junichi
+        n: 1
       - name: 太田健程
         slug: ota-takenori
-        n: 1
-      - name: 杉森建
-        slug: sugimori-ken
         n: 1
       year: 1996
       span:
@@ -1669,11 +1669,11 @@ games:
       - name: 石原恒和
         slug: ishihara-tsunekazu
         n: 1
-      - name: 河内丸武史
-        slug: kawachimaru-takeshi
+      - name: 增田顺一
+        slug: masuda-junichi
         n: 1
-      - name: 田尻智
-        slug: tajiri-satoshi
+      - name: 杉森建
+        slug: sugimori-ken
         n: 1
       year: 2000
       span:
@@ -1779,11 +1779,11 @@ games:
       - name: 增田顺一
         slug: masuda-junichi
         n: 2
-      - name: 西野弘二
-        slug: nishino-koji
-        n: 1
       - name: 渡边哲也
         slug: watanabe-tetsuya
+        n: 1
+      - name: 西野弘二
+        slug: nishino-koji
         n: 1
       year: 2004
       span:
@@ -2074,11 +2074,11 @@ games:
         url: /%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E9%BB%91%E7%99%BD2/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/
         pub: 电击Online
       people:
-      - name: 海野隆雄
-        slug: unno-takao
-        n: 13
       - name: 增田顺一
         slug: masuda-junichi
+        n: 13
+      - name: 海野隆雄
+        slug: unno-takao
         n: 13
       - name: 岩田聪
         slug: iwata-satoru
@@ -2434,14 +2434,14 @@ games:
         url: /developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/
         pub: NewsPicks Brand Design
       people:
+      - name: 今村啓太
+        slug: jin-cun-qi-tai
+        n: 1
       - name: 大洞翔一
         slug: da-dong-xiang-yi
         n: 1
       - name: 松本理恵
         slug: matsumoto-rie
-        n: 1
-      - name: 今村啓太
-        slug: jin-cun-qi-tai
         n: 1
       year: 2021
       span:
@@ -2484,8 +2484,8 @@ games:
       - name: T.K.
         slug: t-k
         n: 2
-      - name: 大洞翔一
-        slug: da-dong-xiang-yi
+      - name: 今村啓太
+        slug: jin-cun-qi-tai
         n: 1
       year: 2022
       span:
@@ -2505,14 +2505,14 @@ games:
     - name: 前泽圭一
       slug: maezawa-keiichi
       n: 6
+    - name: 小野寺瞬
+      slug: onodera-shun
+      n: 3
     - name: 深谷卓
       slug: fukaya-taku
       n: 3
     - name: 米谷由贵
       slug: yonetani-yuki
-      n: 3
-    - name: 小野寺瞬
-      slug: onodera-shun
       n: 3
     games:
     - name: 宝可梦 朱·紫
@@ -2544,11 +2544,11 @@ games:
       - name: 前泽圭一
         slug: maezawa-keiichi
         n: 3
+      - name: 小野寺瞬
+        slug: onodera-shun
+        n: 3
       - name: 深谷卓
         slug: fukaya-taku
-        n: 3
-      - name: 米谷由贵
-        slug: yonetani-yuki
         n: 3
       year: 2022
       span:
@@ -2585,14 +2585,14 @@ games:
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2026-cedec-pkmnza/
         pub: CGWORLD.jp
       people:
-      - name: 小幡敏宏
-        slug: obata-toshihiro
-        n: 3
       - name: 宗像快
         slug: munakata-kai
         n: 3
-      - name: 前泽圭一
-        slug: maezawa-keiichi
+      - name: 小幡敏宏
+        slug: obata-toshihiro
+        n: 3
+      - name: Alfredo Spadafina
+        slug: alfredo-spadafina
         n: 3
       year: 2025
       span:
@@ -2655,8 +2655,8 @@ games:
       - name: 田尻智
         slug: tajiri-satoshi
         n: 1
-      - name: 赤羽卓美
-        slug: chi-yu-zhuo-mei
+      - name: 入江胜义
+        slug: ru-jiang-sheng-yi
         n: 1
       year: 1996
       span:
@@ -2823,14 +2823,14 @@ games:
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/
         pub: 任天堂官网「社長が訊く」
       people:
+      - name: 小笠原裕
+        slug: ogasawara-yutaka
+        n: 2
       - name: 岩田聪
         slug: iwata-satoru
         n: 2
-      - name: 石原恒和
-        slug: ishihara-tsunekazu
-        n: 2
-      - name: 竹内敦
-        slug: takeuchi-atsushi
+      - name: 折本哲也
+        slug: orimoto-tetsuya
         n: 2
       year: 1999
       span:
@@ -2896,14 +2896,14 @@ games:
         url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-xd-gale-of-darkness-pokemon-festa/
         pub: 任天堂官网「N.O.M」
       people:
-      - name: 折尾
-        slug: orio-kazunori
+      - name: 三浦昌幸
+        slug: miura-masayuki
+        n: 1
+      - name: 多和田吏
+        slug: tawada-tsukasa
         n: 1
       - name: 山名学
         slug: shan-ming-xue
-        n: 1
-      - name: 三浦昌幸
-        slug: miura-masayuki
         n: 1
       year: 2003
       span:
@@ -2979,14 +2979,14 @@ games:
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers/
         pub: 社长问
       people:
+      - name: 富江慎一郎
+        slug: tomie-shinichiro
+        n: 4
       - name: 岩田聪
         slug: iwata-satoru
         n: 4
       - name: 石原恒和
         slug: ishihara-tsunekazu
-        n: 4
-      - name: 富江慎一郎
-        slug: tomie-shinichiro
         n: 4
       year: 2005
       span:
@@ -3013,14 +3013,14 @@ games:
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/
         pub: 任天堂官网「N.O.M」2006年10月号
       people:
-      - name: 石原恒和
-        slug: ishihara-tsunekazu
-        n: 1
       - name: 增田顺一
         slug: masuda-junichi
         n: 1
       - name: 杉森建
         slug: sugimori-ken
+        n: 1
+      - name: 石原恒和
+        slug: ishihara-tsunekazu
         n: 1
       year: 2006
       span:
@@ -3057,14 +3057,14 @@ games:
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/
         pub: 任天堂官网「社長が訊く」
       people:
+      - name: 小泽达雄
+        slug: ozawa-tatsuo
+        n: 4
       - name: 岩田聪
         slug: iwata-satoru
         n: 4
-      - name: 石原恒和
-        slug: ishihara-tsunekazu
-        n: 4
-      - name: 小泽达雄
-        slug: ozawa-tatsuo
+      - name: 松村直树
+        slug: matsumura-naoki
         n: 4
       year: 2009
       span:
@@ -3107,8 +3107,8 @@ games:
       - name: 石原恒和
         slug: ishihara-tsunekazu
         n: 5
-      - name: 竹内敦
-        slug: takeuchi-atsushi
+      - name: 小笠原裕
+        slug: ogasawara-yutaka
         n: 4
       year: 2011
       span:
