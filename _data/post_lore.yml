@@ -12951,9 +12951,14 @@
       slug: kawachimaru-takeshi
     - name: McKinley Noble
       role: mentioned
+    - name: 小菘
+      role: mentioned
     places:
-    - name: 湾区
-      what: 任天堂总部所在地
+    - name: 湾区总部
+      what: 任天堂办公室
+      world: real
+    - name: 任天堂湾区办公室
+      what: 采访地点
       world: real
     pokemon:
     - name: 小火龙
@@ -12977,11 +12982,11 @@
       slug: null
   id: interview-gamepro-platinum-masuda-kawachimaru
   observations:
-  - anchor: 8
-    seg: 7
+  - anchor: 5
+    seg: 4
     text: 增田顺一说 diamond 有爱的含义，pearl 有幸福的含义
-  - anchor: 12
-    seg: 11
+  - anchor: 9
+    seg: 8
     text: 河内丸武史说骑拉帝纳被设计为帝牙卢卡和帕路奇亚的对立面
   relations:
   - id: interview-g4tv-platinum-masuda-kawachimaru
@@ -13005,7 +13010,7 @@
   - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》
+    title: 增田顺一、河内丸武史谈《宝可梦 白金》
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
     why: 同为2009年《白金》发售期增田、河内访谈
 2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda:
@@ -13139,7 +13144,7 @@
   - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》
+    title: 增田顺一、河内丸武史谈《宝可梦 白金》
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
     why: 同为增田顺一与河内丸武史谈《白金》的专访
   - id: interview-g4tv-masuda-kawachimaru-platinum-particle-physics
@@ -14284,7 +14289,7 @@
   - id: interview-nintendoaccion-199-masuda-kawachimaru-platinum
     kind: background
     label: 为这篇提供背景
-    title: Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》
+    title: 增田顺一、河内丸武史谈《宝可梦 白金》
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
     why: 河内谈骑拉帝纳反物质与破损世界物理颠覆
 2009-05-18-gamefreak-staff-126:
@@ -22473,7 +22478,7 @@
   - id: interview-nintendodream-201-sugimori-bw-characters
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）
+    title: 杉森建谈《宝可梦 黑／白》角色设计
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
     why: 同为2010-11-20 Nintendo DREAM黑·白设计专访，杉森建谈设
   - id: scan-ndream-2011-04-bw-design-secrets-part2
@@ -22485,7 +22490,7 @@
   - id: interview-otonafami-sugimori-starters-victini
     kind: background
     label: 为这篇提供背景
-    title: オトナファミ 杉森建インタビュー（摘录）
+    title: 杉森建谈宝可梦设计
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-otonafami-sugimori-starters-victini/
     why: 杉森建谈156只全新宝可梦的立项背景
 2010-09-13-interview-weekly-ascii-masuda-bw:
@@ -23740,32 +23745,115 @@
   facets:
     people:
     - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 大村祐介
-      role: speaker
-      slug: ohmura-yusuke
-    - name: 景山将太
-      role: speaker
-      slug: kageyama-shota
-    - name: 增田顺一
       role: mentioned
-      slug: masuda-junichi
+      slug: sugimori-ken
+    - name: 增田
+      role: mentioned
+    - name: 大村
+      role: mentioned
+    - name: 景山
+      role: mentioned
+    - name: 影山
+      role: mentioned
     places:
-    - name: 纽约曼哈顿
-      what: 红豆杉博士原型
-      world: real
-    pokemon: []
+    - name: 合众地区
+      what: 游戏舞台
+      world: game
+    pokemon:
+    - name: 比克提尼
+      ndex: 494
+    - name: 探探鼠
+      ndex: 504
+    - name: 步哨鼠
+      ndex: 505
+    - name: 食梦梦
+      ndex: 517
+    - name: 梦梦蚀
+      ndex: 518
+    - name: 豆豆鸽
+      ndex: 519
+    - name: 咕咕鸽
+      ndex: 520
+    - name: 高傲雉鸡
+      ndex: 521
+    - name: 差不多娃娃
+      ndex: 531
+    - name: 搬运小匠
+      ndex: 532
+    - name: 铁骨土人
+      ndex: 533
+    - name: 修建老匠
+      ndex: 534
+    - name: 投摔鬼
+      ndex: 538
+    - name: 打击鬼
+      ndex: 539
+    - name: 象征鸟
+      ndex: 561
+    - name: 破破袋
+      ndex: 568
+    - name: 索罗亚
+      ndex: 570
+    - name: 索罗亚克
+      ndex: 571
+    - name: 泡沫栗鼠
+      ndex: 572
+    - name: 奇诺栗鼠
+      ndex: 573
+    - name: 电飞鼠
+      ndex: 587
+    - name: 盖盖虫
+      ndex: 588
+    - name: 骑士蜗牛
+      ndex: 589
+    - name: 喷嚏熊
+      ndex: 613
+    - name: 小嘴蜗
+      ndex: 616
+    - name: 敏捷虫
+      ndex: 617
+    - name: 莱希拉姆
+      ndex: 643
+    - name: 捷克罗姆
+      ndex: 644
     works:
     - name: 宝可梦 黑·白
       slug: black-white
+    - name: Nintendo DREAM
+      slug: null
   id: interview-nintendodream-201-sugimori-bw-characters
   observations:
-  - anchor: 2
-    seg: 1
-    text: 增田顺一要求主角年龄上调至约14至16岁
-  - seg: 3
-    text: 红豆杉博士原案为男性，杉森建抗议后改为女性
+  - anchor: 3
+    seg: 2
+    text: 增田提出要求，希望把主人公的年龄提高。
+  - anchor: 9
+    seg: 8
+    text: 此前有戴帽子的男主角，但没有戴帽子的女主角。
+  relations:
+  - id: interview-iwata-asks-bw-chapter-1-second-game-on-ds
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/
+    why: 同为黑白的社长问访谈，杉森建、增田顺一受访
+  - id: interview-iwata-asks-bw-chapter-2-brand-new-world
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/
+    why: 同为黑白的社长问访谈，杉森建谈设计团队
+  - id: interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence/
+    why: 同为黑白的社长问访谈，谈等离子队与N
+  - id: interview-iwata-asks-bw-chapter-5-new-world-new-encounters
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/
+    why: 同为黑白的社长问访谈，杉森建受访
 2010-11-20-interview-steinberg-gamefreak-sound-cubase:
   facets:
     people:
@@ -23803,7 +23891,7 @@
   - id: interview-bw-music-collection-liner-notes
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建
+    title: 增田顺一、景山将太等详谈合众动态音效与世界音乐构建
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
     why: 同为2010年BW音频主创景山将太受访谈音乐
   - id: gamefreak-staff-203
@@ -24078,7 +24166,7 @@
   - id: interview-bw-music-collection-liner-notes
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建
+    title: 增田顺一、景山将太等详谈合众动态音效与世界音乐构建
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
     why: 同为黑·白声音主创访谈，景山谈声音主题
   - id: scan-ndream-2014-01-xy-sound-team-interview
@@ -24956,7 +25044,7 @@
   - id: interview-famitsu-1146-matsumiya-bw-scenario
     kind: background
     label: 为这篇提供背景
-    title: 週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露
+    title: 剧本负责人松宫稔展专访
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
     why: 同涉等离子队宝可梦解放主题与N
 2011-01-24-gamefreak-staff-216:
@@ -26701,7 +26789,7 @@
   - id: interview-nintendodream-201-sugimori-bw-characters
     kind: background
     label: 为这篇提供背景
-    title: ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）
+    title: 杉森建谈《宝可梦 黑／白》角色设计
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
     why: 同述主角年龄上调与博士改女性
   - id: scan-ndream-2011-05-bw-design-secrets-ex
@@ -28615,7 +28703,7 @@
   - id: interview-famitsu-1146-matsumiya-bw-scenario
     kind: background
     label: 为这篇提供背景
-    title: 週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露
+    title: 剧本负责人松宫稔展专访
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
     why: 松宫谈N构想原点，早于本篇增田公开N设定
   - id: scan-ndream-bw-tanjou-hiwa-2011-characters
@@ -36465,8 +36553,8 @@
   - id: interview-famitsu-new-pokemon-snap-ishihara-suzaki
     kind: background
     label: 为这篇提供背景
-    title: Fami通专访《New 宝可梦随乐拍》：石原恒和社长×须崎春树总监畅谈相机生态与22年跨越
-    url: /developer-interviews/official-archives/interview-famitsu-new-pokemon-snap-ishihara-suzaki/
+    title: Fami通独家特稿 石原恒和 × 须崎春树：跨越22年的摄影游戏学进化，万代南梦宫如何以《铁拳》生态匠心重铸《New 宝可梦随乐拍》
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%A4%96%E5%8C%85%E4%BC%A0%E5%A5%87/interview-famitsu-new-pokemon-snap-ishihara-suzaki/
     why: 须崎春树任总监，同涉宝可拳与随乐拍
 2016-05-13-gamefreak-lineblog-3432339:
   facets:
@@ -45863,75 +45951,39 @@
 2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki:
   facets:
     people:
-    - name: Fami通编辑部
+    - name: Fami通
       role: speaker
     - name: 石原恒和
-      role: speaker
+      role: mentioned
       slug: ishihara-tsunekazu
     - name: 须崎春树
-      role: speaker
+      role: mentioned
       slug: xu-qi-chun-shu
-    - name: 岩田先生
+    - name: 岩田聪
       role: mentioned
-    - name: 糸井重里
-      role: mentioned
-    - name: 中村光一
-      role: mentioned
-    - name: 宫本茂
-      role: mentioned
-      slug: miyamoto-shigeru
+      slug: iwata-satoru
     places:
-    - name: 蓝蒂尔群岛
-      what: 本作冒险舞台
+    - name: 蓝蒂尔地区
+      what: 本作游戏舞台
       world: game
-    - name: 神奥地区
-      what: 传说宝可梦所在地区
-      world: game
-    pokemon:
-    - name: 大嘴鸥
-      ndex: 279
-    - name: 由克希
-      ndex: 480
-    - name: 艾姆利多
-      ndex: 481
-    - name: 亚克诺姆
-      ndex: 482
-    - name: 轻飘飘
-      ndex: 592
+    pokemon: []
     works:
-    - name: 宝可梦随乐拍
-      slug: snap
     - name: New 宝可梦随乐拍
       slug: null
-    - name: 宝可拳 POKKÉN TOURNAMENT
+    - name: 宝可梦快照
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦 剑・盾
+    - name: 宝可梦铁拳
       slug: null
-    - name: 铁拳
+    - name: 杰克与魔豆
       slug: null
   id: interview-famitsu-new-pokemon-snap-ishihara-suzaki
   observations:
+  - anchor: 1
+    seg: 0
+    text: 初代《宝可梦快照》1999年在任天堂64平台问世，距本作已22年
   - anchor: 2
     seg: 1
-    text: 本作是1999年3月21日发售的NINTENDO 64版《宝可梦随乐拍》的完全新作
-  - anchor: 46
-    seg: 45
-    text: 须崎春树说本作一个关卡可拍摄张数上限定为72张
-  relations:
-  - id: interview-inside-pokken-tournament-developers
-    kind: background
-    label: 为这篇提供背景
-    title: Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡
-    url: /developer-interviews/official-archives/interview-inside-pokken-tournament-developers/
-    why: 须崎春树任总监，前作《宝可拳》开发经历
-  - id: interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium
-    kind: background
-    label: 为这篇提供背景
-    title: 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/
-    why: 岩田聪与宝可梦早期开发背景
+    text: 每次任天堂推出新主机，公司内部都会讨论是否做《宝可梦快照》新作
 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure:
   facets:
     people:

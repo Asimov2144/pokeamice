@@ -2,250 +2,452 @@
  "id": "interview-nintendodream-201-sugimori-bw-characters",
  "stem": "2010-11-20-interview-nintendodream-201-sugimori-bw-characters",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-30",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 13
+  "n": 105
  },
  "facets": {
-  "pokemon": [],
+  "pokemon": [
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     86
+    ],
+    "as": [
+     "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "探探鼠",
+    "ndex": 504,
+    "seg": [
+     86
+    ],
+    "as": [
+     "探探鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "步哨鼠",
+    "ndex": 505,
+    "seg": [
+     86
+    ],
+    "as": [
+     "步哨鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "食梦梦",
+    "ndex": 517,
+    "seg": [
+     87,
+     86
+    ],
+    "as": [
+     "食梦梦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦梦蚀",
+    "ndex": 518,
+    "seg": [
+     87,
+     86
+    ],
+    "as": [
+     "梦梦蚀"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "豆豆鸽",
+    "ndex": 519,
+    "seg": [
+     86
+    ],
+    "as": [
+     "豆豆鸽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "咕咕鸽",
+    "ndex": 520,
+    "seg": [
+     86
+    ],
+    "as": [
+     "咕咕鸽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "高傲雉鸡",
+    "ndex": 521,
+    "seg": [
+     86
+    ],
+    "as": [
+     "高傲雉鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "差不多娃娃",
+    "ndex": 531,
+    "seg": [
+     86
+    ],
+    "as": [
+     "差不多娃娃"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "搬运小匠",
+    "ndex": 532,
+    "seg": [
+     87
+    ],
+    "as": [
+     "搬运小匠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "铁骨土人",
+    "ndex": 533,
+    "seg": [
+     87
+    ],
+    "as": [
+     "铁骨土人"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "修建老匠",
+    "ndex": 534,
+    "seg": [
+     87
+    ],
+    "as": [
+     "修建老匠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "投摔鬼",
+    "ndex": 538,
+    "seg": [
+     87
+    ],
+    "as": [
+     "投摔鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "打击鬼",
+    "ndex": 539,
+    "seg": [
+     87
+    ],
+    "as": [
+     "打击鬼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "象征鸟",
+    "ndex": 561,
+    "seg": [
+     87
+    ],
+    "as": [
+     "象征鸟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "破破袋",
+    "ndex": 568,
+    "seg": [
+     87
+    ],
+    "as": [
+     "破破袋"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚",
+    "ndex": 570,
+    "seg": [
+     86
+    ],
+    "as": [
+     "索罗亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "索罗亚克",
+    "ndex": 571,
+    "seg": [
+     86
+    ],
+    "as": [
+     "索罗亚克"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "泡沫栗鼠",
+    "ndex": 572,
+    "seg": [
+     87
+    ],
+    "as": [
+     "泡沫栗鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "奇诺栗鼠",
+    "ndex": 573,
+    "seg": [
+     87
+    ],
+    "as": [
+     "奇诺栗鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "电飞鼠",
+    "ndex": 587,
+    "seg": [
+     87
+    ],
+    "as": [
+     "电飞鼠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖盖虫",
+    "ndex": 588,
+    "seg": [
+     87
+    ],
+    "as": [
+     "盖盖虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骑士蜗牛",
+    "ndex": 589,
+    "seg": [
+     87
+    ],
+    "as": [
+     "骑士蜗牛"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "喷嚏熊",
+    "ndex": 613,
+    "seg": [
+     87
+    ],
+    "as": [
+     "喷嚏熊"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小嘴蜗",
+    "ndex": 616,
+    "seg": [
+     87
+    ],
+    "as": [
+     "小嘴蜗"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "敏捷虫",
+    "ndex": 617,
+    "seg": [
+     87
+    ],
+    "as": [
+     "敏捷虫"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "莱希拉姆",
+    "ndex": 643,
+    "seg": [
+     86
+    ],
+    "as": [
+     "莱希拉姆"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "捷克罗姆",
+    "ndex": 644,
+    "seg": [
+     86
+    ],
+    "as": [
+     "捷克罗姆"
+    ],
+    "via": "body"
+   }
+  ],
   "works": [
    {
     "name": "宝可梦 黑·白",
     "slug": "black-white",
     "seg": [],
     "via": "entities"
+   },
+   {
+    "name": "Nintendo DREAM",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
    }
   ],
   "people": [
    {
     "name": "杉森建",
     "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     1,
-     2,
-     3,
-     5,
-     6,
-     9
-    ]
+    "role": "mentioned",
+    "seg": []
    },
    {
-    "name": "大村祐介",
-    "slug": "ohmura-yusuke",
-    "role": "speaker",
-    "seg": [
-     7
-    ]
-   },
-   {
-    "name": "景山将太",
-    "slug": "kageyama-shota",
-    "role": "speaker",
-    "seg": [
-     12
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
+    "name": "增田",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     1,
-     5
-    ]
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大村",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "景山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "影山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     90
+    ],
+    "via": "llm"
    }
   ],
   "places": [
    {
-    "name": "纽约曼哈顿",
+    "name": "合众地区",
     "id": null,
     "entity": null,
     "category": null,
-    "world": "real",
-    "scale": "spot",
+    "world": "game",
+    "scale": "area",
     "seg": [
-     3
+     9
     ],
-    "what": "红豆杉博士原型",
+    "what": "游戏舞台",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     1,
-     3,
-     33
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     2
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     30
-    ],
-    "as": [
-     "攻略本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     30,
-     78
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     30
-    ],
-    "as": [
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     31,
-     102
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     54,
-     97,
-     105
-    ],
-    "as": [
-     "作曲",
-     "编曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     60
-    ],
-    "as": [
-     "一目了然"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     85,
-     86
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     96
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     98
-    ],
-    "as": [
-     "主题曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     112
-    ],
-    "as": [
-     "像素画"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 1,
-   "text": "增田顺一要求主角年龄上调至约14至16岁",
-   "anchor": 2
+   "seg": 2,
+   "text": "增田提出要求，希望把主人公的年龄提高。",
+   "anchor": 3
   },
   {
-   "seg": 3,
-   "text": "红豆杉博士原案为男性，杉森建抗议后改为女性"
+   "seg": 8,
+   "text": "此前有戴帽子的男主角，但没有戴帽子的女主角。",
+   "anchor": 9
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+   "why": "同为黑白的社长问访谈，杉森建、增田顺一受访"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
+   "why": "同为黑白的社长问访谈，杉森建谈设计团队"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence/",
+   "why": "同为黑白的社长问访谈，谈等离子队与N"
+  },
+  {
+   "id": "interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/",
+   "why": "同为黑白的社长问访谈，杉森建受访"
+  }
+ ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 21
+  "n": 18
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "小火龙",
     "ndex": 4,
     "seg": [
-     16
+     13
     ],
     "as": [
      "小火龙"
@@ -25,7 +25,7 @@
     "name": "恰雷姆",
     "ndex": 308,
     "seg": [
-     18
+     15
     ],
     "as": [
      "恰雷姆"
@@ -36,7 +36,7 @@
     "name": "帝牙卢卡",
     "ndex": 483,
     "seg": [
-     11
+     8
     ],
     "as": [
      "帝牙卢卡"
@@ -47,7 +47,7 @@
     "name": "帕路奇亚",
     "ndex": 484,
     "seg": [
-     11
+     8
     ],
     "as": [
      "帕路奇亚"
@@ -58,7 +58,7 @@
     "name": "骑拉帝纳",
     "ndex": 487,
     "seg": [
-     11
+     8
     ],
     "as": [
      "骑拉帝纳"
@@ -71,9 +71,9 @@
     "name": "宝可梦 白金",
     "slug": "platinum",
     "seg": [
-     2,
-     3,
-     18
+     0,
+     1,
+     15
     ],
     "via": "entities"
    },
@@ -81,7 +81,7 @@
     "name": "宝可梦 钻石／珍珠",
     "slug": null,
     "seg": [
-     3
+     1
     ],
     "via": "llm"
    },
@@ -89,7 +89,7 @@
     "name": "宝可梦 红宝石／蓝宝石",
     "slug": null,
     "seg": [
-     3
+     1
     ],
     "via": "llm"
    },
@@ -97,7 +97,7 @@
     "name": "金／银",
     "slug": null,
     "seg": [
-     6
+     3
     ],
     "via": "llm"
    }
@@ -108,12 +108,12 @@
     "slug": null,
     "role": "speaker",
     "seg": [
-     6,
-     8,
-     10,
-     12,
-     14,
-     16
+     3,
+     5,
+     7,
+     9,
+     11,
+     13
     ]
    },
    {
@@ -121,9 +121,9 @@
     "slug": "masuda-junichi",
     "role": "speaker",
     "seg": [
-     7,
-     13,
-     20
+     4,
+     10,
+     17
     ]
    },
    {
@@ -131,8 +131,8 @@
     "slug": "kawachimaru-takeshi",
     "role": "speaker",
     "seg": [
-     9,
-     11
+     6,
+     8
     ]
    },
    {
@@ -140,37 +140,59 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     0
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小菘",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     15
     ],
     "via": "llm"
    }
   ],
   "places": [
    {
-    "name": "湾区",
+    "name": "湾区总部",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
-    "scale": "area",
+    "scale": "spot",
     "seg": [
-     3
+     1
     ],
-    "what": "任天堂总部所在地",
+    "what": "任天堂办公室",
+    "via": "llm"
+   },
+   {
+    "name": "任天堂湾区办公室",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "采访地点",
     "via": "llm"
    }
   ]
  },
  "observations": [
   {
-   "seg": 7,
+   "seg": 4,
    "text": "增田顺一说 diamond 有爱的含义，pearl 有幸福的含义",
-   "anchor": 8
+   "anchor": 5
   },
   {
-   "seg": 11,
+   "seg": 8,
    "text": "河内丸武史说骑拉帝纳被设计为帝牙卢卡和帕路奇亚的对立面",
-   "anchor": 12
+   "anchor": 9
   }
  ],
  "relations": [
@@ -202,7 +224,7 @@
    "id": "interview-nintendoaccion-199-masuda-kawachimaru-platinum",
    "kind": "same-occasion",
    "label": "同一件事的另一种说法",
-   "title": "Nintendo Acción No.199：增田顺一、河内丸武史谈《宝可梦 白金》",
+   "title": "增田顺一、河内丸武史谈《宝可梦 白金》",
    "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/",
    "why": "同为2009年《白金》发售期增田、河内访谈"
   }

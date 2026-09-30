@@ -2,565 +2,119 @@
  "id": "interview-famitsu-new-pokemon-snap-ishihara-suzaki",
  "stem": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-09-30",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 74
+  "n": 14
  },
  "facets": {
-  "pokemon": [
-   {
-    "name": "大嘴鸥",
-    "ndex": 279,
-    "seg": [
-     61
-    ],
-    "as": [
-     "大嘴鸥"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "由克希",
-    "ndex": 480,
-    "seg": [
-     35
-    ],
-    "as": [
-     "由克希"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "艾姆利多",
-    "ndex": 481,
-    "seg": [
-     35
-    ],
-    "as": [
-     "艾姆利多"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "亚克诺姆",
-    "ndex": 482,
-    "seg": [
-     35
-    ],
-    "as": [
-     "亚克诺姆"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "轻飘飘",
-    "ndex": 592,
-    "seg": [
-     63,
-     65
-    ],
-    "as": [
-     "轻飘飘"
-    ],
-    "via": "body"
-   }
-  ],
+  "pokemon": [],
   "works": [
-   {
-    "name": "宝可梦随乐拍",
-    "slug": "snap",
-    "seg": [
-     0,
-     1,
-     2,
-     5,
-     6,
-     7
-    ],
-    "via": "entities"
-   },
    {
     "name": "New 宝可梦随乐拍",
     "slug": null,
     "seg": [
      0
     ],
-    "via": "llm"
+    "via": "entities"
    },
    {
-    "name": "宝可拳 POKKÉN TOURNAMENT",
+    "name": "宝可梦快照",
     "slug": null,
     "seg": [
+     0,
+     1,
+     3,
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦铁拳",
+    "slug": null,
+    "seg": [
+     3,
      5
     ],
-    "via": "llm"
+    "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 剑・盾",
+    "name": "杰克与魔豆",
     "slug": null,
-    "seg": [
-     71
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "铁拳",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
+    "seg": [],
+    "via": "entities"
    }
   ],
   "people": [
    {
-    "name": "Fami通编辑部",
+    "name": "Fami通",
     "slug": null,
     "role": "speaker",
     "seg": [
+     0,
+     2,
+     4,
+     6,
      9,
-     12,
-     14,
-     17,
-     19,
-     21
+     11
     ]
    },
    {
     "name": "石原恒和",
     "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     10,
-     13,
-     15,
-     18,
-     20,
-     24
-    ]
+    "role": "mentioned",
+    "seg": []
    },
    {
     "name": "须崎春树",
     "slug": "xu-qi-chun-shu",
-    "role": "speaker",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "mentioned",
     "seg": [
-     34,
-     38,
-     40,
-     43,
-     45,
-     47
+     8
     ]
-   },
-   {
-    "name": "岩田先生",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "糸井重里",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "中村光一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
-    "role": "mentioned",
-    "seg": [
-     11
-    ],
-    "via": "llm"
    }
   ],
   "places": [
    {
-    "name": "蓝蒂尔群岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     0
-    ],
-    "what": "本作冒险舞台",
-    "via": "llm"
-   },
-   {
-    "name": "神奥地区",
+    "name": "蓝蒂尔地区",
     "id": null,
     "entity": null,
     "category": null,
     "world": "game",
     "scale": "area",
     "seg": [
-     35
+     12
     ],
-    "what": "传说宝可梦所在地区",
+    "what": "本作游戏舞台",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     1,
-     28,
-     43
-    ],
-    "as": [
-     "完全新作",
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     2
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     2,
-     18,
-     51
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     5,
-     7,
-     36
-    ],
-    "as": [
-     "联动",
-     "コラボ"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     11
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     18
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     28
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     31,
-     35
-    ],
-    "as": [
-     "完成度",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     32,
-     35,
-     45,
-     47
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     35
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     37
-    ],
-    "as": [
-     "企划时"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     38
-    ],
-    "as": [
-     "3D化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     49
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     49
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     53,
-     56,
-     58
-    ],
-    "as": [
-     "继承",
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     57
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     58
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     62,
-     71
-    ],
-    "as": [
-     "等级",
-     "经验值"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     63,
-     65
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     68
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     70
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     72
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     72
-    ],
-    "as": [
-     "付费"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
+   "seg": 0,
+   "text": "初代《宝可梦快照》1999年在任天堂64平台问世，距本作已22年",
+   "anchor": 1
+  },
+  {
    "seg": 1,
-   "text": "本作是1999年3月21日发售的NINTENDO 64版《宝可梦随乐拍》的完全新作",
+   "text": "每次任天堂推出新主机，公司内部都会讨论是否做《宝可梦快照》新作",
    "anchor": 2
-  },
-  {
-   "seg": 45,
-   "text": "须崎春树说本作一个关卡可拍摄张数上限定为72张",
-   "anchor": 46
   }
  ],
- "relations": [
-  {
-   "id": "interview-inside-pokken-tournament-developers",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡",
-   "url": "/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/",
-   "why": "须崎春树任总监，前作《宝可拳》开发经历"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
-   "why": "岩田聪与宝可梦早期开发背景"
-  }
- ],
+ "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }
