@@ -43,8 +43,8 @@ parallel_items:
   translation: 《心金·魂银》是集以往《宝可梦》系列之大成
 - type: image
   image: /assets/img/interviews/2009-09-18-interview-dengeki-hgss-shigeki-morimoto/hgss_morimoto_01.jpg
-  alt: GAME FREAK 开发总监森本茂树接受电击独家专访
-  caption: GAME FREAK 开发总监森本茂树接受电击独家专访
+  alt: 游戏画面：主角带着一只宝可梦走在城镇街道上
+  caption: 游戏画面：主角带着一只宝可梦走在城镇街道上——本作新增的宝可梦跟随行走
 - type: heading
   level: 2
   original: 『ハートゴールド・ソウルシルバー』は、これまでの『ポケモン』のいいとこ取り
@@ -91,8 +91,8 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/2009-09-18-interview-dengeki-hgss-shigeki-morimoto/hgss_morimoto_03.jpg
-  alt: 森本茂树展示全 493 只宝可梦跟随系统与触控界面
-  caption: 森本茂树展示全 493 只宝可梦跟随系统与触控界面
+  alt: 游戏画面：对话框「かれこれ 10ねん ちかく スイクンを おいかけてきたが」
+  caption: 游戏画面：“追着水君已经快十年了……”——《水晶》加入的米那君与水君剧情，本作也收了进来
 - speaker: 电击编辑部
   speaker_orig: ――
   original: え、パッチールの模様がですか!?　それはすごいですね。
