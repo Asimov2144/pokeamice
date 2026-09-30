@@ -40,7 +40,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "大村"
+    - "大村祐介"
     - "杉森建"
   works:
     - "宝可梦 黑·白"

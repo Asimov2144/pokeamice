@@ -41,7 +41,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "大村"
+    - "大村祐介"
   works:
     - "宝可梦 心金·魂银"
     - "宝可梦 金·银"

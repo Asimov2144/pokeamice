@@ -49,7 +49,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-  - 森本
+  - 森本茂树
   - 鲣鱼
   - 鱼子
   works:

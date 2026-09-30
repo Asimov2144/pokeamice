@@ -323,16 +323,16 @@ PORTRAITS = [
     dict(name="大森滋", year=2009, src=_GF + "148/ohmori091009-767adcf0.jpg", source="Game Freak 员工博客 2009-10-09「ＨＧ・ＳＳ 語っちゃいます！ その1」", post="2009-10-09-gamefreak-staff-148"),
     dict(name="太田哲司", year=2008, src=_GF + "90/tetsuzi081003-ecfe4970.jpg", box=(55, 35, 75, 85), source="Game Freak 员工博客 2008-10-03「プラチナここだけの話 第2回」", post="2008-10-03-gamefreak-staff-90"),
     # 社長が訊く - the photo follows the speaker's box on nintendo.co.jp (checked against the page)
-    dict(name="小笠原裕", year=2011, main=True, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo2.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo2", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1"),
-    dict(name="竹内敦", year=2011, main=True, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo3.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo3", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1"),
-    dict(name="折本哲也", year=2011, main=True, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo4.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo4", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1"),
-    dict(name="石原恒和", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo1.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo1", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1"),
-    dict(name="松村直树", year=2011, main=True, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1/photo2.jpg", source="社長が訊く『スーパーポケモンスクランブル』第1章 photo2", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1"),
-    dict(name="小泽达雄", year=2011, main=True, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1/photo3.jpg", source="社長が訊く『スーパーポケモンスクランブル』第1章 photo3", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1"),
-    dict(name="长畑成一郎", year=2012, main=True, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo1.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1"),
-    dict(name="富江慎一郎", year=2012, main=True, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo2.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1"),
-    dict(name="石原恒和", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo3.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo3", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1"),
-    dict(name="岩田聪", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo4.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo4", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1"),
+    dict(name="小笠原裕", year=2011, main=True, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo2.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo2", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download"),
+    dict(name="竹内敦", year=2011, main=True, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo3.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo3", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download"),
+    dict(name="折本哲也", year=2011, main=True, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo4.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo4", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download"),
+    dict(name="石原恒和", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo1.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo1", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download"),
+    dict(name="松村直树", year=2011, main=True, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1/photo2.jpg", source="社長が訊く『スーパーポケモンスクランブル』第1章 photo2", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife"),
+    dict(name="小泽达雄", year=2011, main=True, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1/photo3.jpg", source="社長が訊く『スーパーポケモンスクランブル』第1章 photo3", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife"),
+    dict(name="长畑成一郎", year=2012, main=True, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo1.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination"),
+    dict(name="富江慎一郎", year=2012, main=True, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo2.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination"),
+    dict(name="石原恒和", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo3.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo3", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination"),
+    dict(name="岩田聪", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo4.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo4", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination"),
     # ポケットモンスター図鑑 (1996) staff pages - the name is printed beside each photo
     dict(name="渡边哲也", year=1996, src=_ZUKAN + "p143_p141_ch6_interview_part7.jpg", box=(229, 161, 116, 116), source="ポケットモンスター図鑑 1996 P.141", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     dict(name="藤原基史", year=1996, main=True, src=_ZUKAN + "p143_p141_ch6_interview_part7.jpg", box=(858, 154, 116, 116), source="ポケットモンスター図鑑 1996 P.141（藤原基史）", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
@@ -342,7 +342,7 @@ PORTRAITS = [
     dict(name="久保雅一", year=2021, main=True, box=(500, 190, 320, 350), src=_IA + "2021-10-25-interview-hobonichi-2021-kubo/001.jpg", source="ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）", post="2021-10-25-interview-hobonichi-2021-kubo"),
     dict(name="增田顺一", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img01.jpg", source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
     dict(name="佐藤仁美", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img02.jpg", box=(100, 40, 70, 80), source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（左）", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
-    dict(name="足立美奈子", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img02.jpg", box=(275, 35, 80, 85), source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（右）", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
+    # 足立美奈子 2014（2083WEB img02 右）撤掉：她侧身背对镜头，裁出来是后脑勺（2026-10-01 比脸查出）
     dict(name="廣部圭太", year=2014, main=True, src=_IA + "2014-05-01-tpc-global-hirobe/profimg.jpg", source="株式会社ポケモン 採用サイト インタビュー（2014）", post="2014-05-01-interview-tpc-global-business-hirobe"),
     dict(name="岩尾和昌", year=2022, main=True, src="https://gallery.pokeamice.com/008gUrWjgy1h6zitw3w8pj307s07s75b.jpg", source="日本ゲーム大賞2022 優秀賞 受賞コメントページ", post="2022-10-10-[采访]-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言"),
     # CEDiL - every CEDEC talk's page carries its speakers' photographs (cedil_sessions/speaker/<id>/photo)
@@ -353,8 +353,9 @@ PORTRAITS = [
     dict(name="赤木达也", year=2026, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/6588/photo", source="CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）", post="2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck"),
     dict(name="宗像快", year=2026, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/6638/photo", source="CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）", post="2026-07-22-interview-cedec-2026-battle-system-deck"),
     dict(name="小幡敏宏", year=2026, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/6639/photo", source="CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）", post="2026-07-22-interview-cedec-2026-battle-system-deck"),
-    dict(name="髙山玲央名", year=2026, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/6539/photo", source="CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）", post="2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers"),
-    dict(name="髙山玲央名", year=2023, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5535/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2792）"),
+    # 2026 那张是 96×128 的全身小照：给脸框（YuNet 找的），主头像用 2023 那张清楚的（2026-10-01）
+    dict(name="髙山玲央名", year=2026, box=(27, 16, 28, 32), src="https://cedil.cesa.or.jp/cedil_sessions/speaker/6539/photo", source="CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）", post="2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers"),
+    dict(name="髙山玲央名", year=2023, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5535/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2792）"),
     dict(name="一之濑刚", year=2023, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5584/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）", post="2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"),
     dict(name="北村一树", year=2023, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5585/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）", post="2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"),
     dict(name="岩本翔", year=2023, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5586/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）", post="2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"),
@@ -495,6 +496,22 @@ PORTRAITS = [
     dict(name="西野弘二", year=2000, src=_IA + "2000-07-01-interview-nom-genesis-gamefreak/nishino.jpg", source="2000-07-01-interview-nom-genesis-gamefreak · 西野弘二（策划）：负责企划、数据管理。负责宝可梦出现率的设定以及世界观设定。 西野弘二肖像（2000年）", post="2000-07-01-interview-nom-genesis-gamefreak"),
     dict(name="西野弘二", year=2000, src=_IA + "2000-07-01-interview-nom-gold-silver-gamefreak/m040.jpg", source="2000-07-01-interview-nom-gold-silver-gamefreak · 西野弘二（策划）：不仅构建了地图上的生息分布与出现率，还构筑了每位训练家的隐藏设定与成长谱系。 西野弘二谈训练家职业与内", post="2000-07-01-interview-nom-gold-silver-gamefreak"),
     dict(name="长畑成一郎", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2/photo6.jpg", source="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama · 长畑 成一郎（株式会社Spike Chunsoft 开发制作人） 长畑成一郎肖像", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama"),
+    # 2026-10-01 访谈卡抠图和人物库互验后补的 14 张：图注点名，且和本人别处已核对的头像比脸一致（OpenCV SFace 余弦 0.62–0.92）；
+    # 社長が訊く 的照片紧跟在所拍之人的发言框之后（见上），CGWORLD 是 ▲ 单人图注
+    dict(name="Alfredo Spadafina", year=2026, src=_IA + "2026-09-17-interview-cgworld-2026-cedec-pkmnza/001.jpg", source="CGWORLD.jp 2026-09-17 CEDEC 2026 講演レポート（2）Alfredo Spadafina", post="2026-09-17-interview-cgworld-2026-cedec-pkmnza"),
+    dict(name="前泽圭一", year=2026, src=_IA + "2026-09-17-interview-cgworld-2026-cedec-pkmnza/011.jpg", source="CGWORLD.jp 2026-09-17 CEDEC 2026 講演レポート（2）前澤圭一", post="2026-09-17-interview-cgworld-2026-cedec-pkmnza"),
+    dict(name="赤木达也", year=2026, src=_IA + "2026-09-17-interview-cgworld-2026-cedec-pkmnza/008.jpg", source="CGWORLD.jp 2026-09-17 CEDEC 2026 講演レポート（2）赤木達也", post="2026-09-17-interview-cgworld-2026-cedec-pkmnza"),
+    dict(name="增田顺一", year=2019, src=_IA + "2019-10-24-interview-vg247-2019-swsh/002.jpg", source="VG247 2019-10-24 Pokémon Sword & Shield interview（Junichi Masuda）", post="2019-10-24-interview-vg247-2019-swsh"),
+    dict(name="岩田聪", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo5.jpg", source="社長が訊く『ポケモン立体図鑑BW』第1章 photo5", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download"),
+    dict(name="竹内敦", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2/photo8.jpg", source="社長が訊く『ポケモン立体図鑑BW』第2章 photo8", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality"),
+    dict(name="小笠原裕", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2/photo9.jpg", source="社長が訊く『ポケモン立体図鑑BW』第2章 photo9", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality"),
+    dict(name="折本哲也", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3/photo11.jpg", source="社長が訊く『ポケモン立体図鑑BW』第3章 photo11", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation"),
+    dict(name="石原恒和", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3/photo12.jpg", source="社長が訊く『ポケモン立体図鑑BW』第3章 photo12", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation"),
+    dict(name="竹内敦", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3/photo14.jpg", source="社長が訊く『ポケモン立体図鑑BW』第3章 photo14", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation"),
+    dict(name="岩田聪", year=2011, src=_IA + "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4/photo17.jpg", source="社長が訊く『ポケモン立体図鑑BW』第4章 photo17", post="2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all"),
+    dict(name="小泽达雄", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2/photo7.jpg", source="社長が訊く『スーパーポケモンスクランブル』第2章 photo7", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations"),
+    dict(name="松村直树", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2/photo8.jpg", source="社長が訊く『スーパーポケモンスクランブル』第2章 photo8", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations"),
+    dict(name="小泽达雄", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3/photo13.jpg", source="社長が訊く『スーパーポケモンスクランブル』第3章 photo13", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again"),
 ]
 
 

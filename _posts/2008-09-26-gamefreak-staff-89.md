@@ -46,7 +46,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "吉田"
+    - "吉田宏信"
     - "杉森建"
   works:
     - "宝可梦 白金"

@@ -40,8 +40,8 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "松岛"
-    - "森本"
+    - "松岛贤二"
+    - "森本茂树"
   works:
     - "宝可梦 心金·魂银"
     - "宝可梦 金·银"

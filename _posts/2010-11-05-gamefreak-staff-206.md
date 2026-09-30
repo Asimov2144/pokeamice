@@ -40,7 +40,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "松岛"
+    - "松岛贤二"
     - "杉森建"
   works:
     - "宝可梦 黑·白"

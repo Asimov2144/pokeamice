@@ -46,7 +46,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "太田"
+    - "太田哲司"
   works:
     - "宝可梦 白金"
   organizations:

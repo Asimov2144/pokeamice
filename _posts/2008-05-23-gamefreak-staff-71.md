@@ -47,7 +47,7 @@ source:
 entities:
   people:
     - "斯蒂克"
-    - "森本"
+    - "森本茂树"
   organizations:
     - "Game Freak"
     - "任天堂"

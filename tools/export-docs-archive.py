@@ -247,7 +247,7 @@ def portrait_for_entry(person: dict, slug: str, year: int | None) -> str:
     src = person.get("avatar") or ""
     gap = 6
     for ph in person.get("portraits") or []:
-        if ph.get("post") and ph["post"] in slug:
+        if ph.get("post") and ph["post"] == slug:  # post 已经是 App 的文章 id（portrait_post_id）
             return ph["image"] or src
         if ph.get("year") and year:
             d = abs(int(ph["year"]) - year)
@@ -333,6 +333,25 @@ def dump(path: Path, obj) -> int:
 
 # ---------------------------------------------------------------- people
 
+_POST_STEMS: list[str] | None = None
+
+
+def portrait_post_id(stem: str) -> str | None:
+    """人物库头像登记的条目（_posts 文件名主干，带日期）→ App 的文章 id（和 index 同一套：去日期、去括号）。
+    登记被截短的（社長が訊く 早期几行写成 …-chapter-1）按唯一前缀补全；App 拿它直接开文章、认「本篇照片」。"""
+    global _POST_STEMS
+    stem = clean(stem)
+    if not stem:
+        return None
+    if _POST_STEMS is None:
+        _POST_STEMS = sorted(f.stem for f in (ROOT / "_posts").glob("*.md"))
+    if stem not in _POST_STEMS:
+        hits = [s for s in _POST_STEMS if s.startswith(stem + "-")]
+        if len(hits) == 1:
+            stem = hits[0]
+    return jekyll_title_slug(DATE_PREFIX.sub("", stem))
+
+
 def build_people(people_raw: list, credits_people: dict, profiles: dict):
     by_slug: dict[str, dict] = {}
     name_to_slug: dict[str, str] = {}
@@ -352,7 +371,7 @@ def build_people(people_raw: list, credits_people: dict, profiles: dict):
             "avatar": abs_url(p.get("avatar")) or None,
             "avatar_source": clean(p.get("avatar_source")) or None,
             "portraits": [
-                {"image": abs_url(pt.get("image")), "year": pt.get("year"), "source": clean(pt.get("source")) or None, "post": clean(pt.get("post")) or None}
+                {"image": abs_url(pt.get("image")), "year": pt.get("year"), "source": clean(pt.get("source")) or None, "post": portrait_post_id(pt.get("post"))}
                 for pt in as_list(p.get("portraits")) if isinstance(pt, dict) and pt.get("image")
             ],
             "credits": None,

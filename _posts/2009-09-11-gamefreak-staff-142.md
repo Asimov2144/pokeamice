@@ -46,7 +46,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "森本"
+    - "森本茂树"
   works:
     - "宝可梦 心金·魂银"
   organizations:

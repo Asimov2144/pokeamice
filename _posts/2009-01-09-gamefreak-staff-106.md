@@ -50,7 +50,7 @@ entities:
     - "ジョニー"
     - "おにいさん"
     - "榎木"
-    - "森本"
+    - "森本茂树"
     - "いわし"
   organizations:
     - "Game Freak"

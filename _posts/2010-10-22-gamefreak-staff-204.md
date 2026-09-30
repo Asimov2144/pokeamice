@@ -41,9 +41,9 @@ source:
 entities:
   people:
     - "增田顺一"
-    - "海野"
+    - "海野隆雄"
     - "杉森建"
-    - "ジェイミー"
+    - "James Turner"
   works:
     - "宝可梦 黑·白"
   organizations:

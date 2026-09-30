@@ -84,6 +84,10 @@
     year: 2018
     source: 2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music · 增田顺一详解为何《宝可梦》系列从不出现“Now Loading”读盘黑屏 增田顺一详解为何《宝可梦》系列从不出现“Now
     post: 2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music
+  - image: /assets/img/people/masuda-junichi-2019-2e01.jpg
+    year: 2019
+    source: VG247 2019-10-24 Pokémon Sword & Shield interview（Junichi Masuda）
+    post: 2019-10-24-interview-vg247-2019-swsh
   - image: /assets/img/people/masuda-junichi-2019-ca2e.jpg
     year: 2019
     source: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest · 《宝可梦 剑·盾》制作人 增田顺一（Junichi Masuda） Game Freak 制作人增田顺一
@@ -402,10 +406,14 @@
     year: 2011
     source: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife · 石原 恒和（株式会社宝可梦 代表取缔役社长） 石原恒和肖像
     post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife
+  - image: /assets/img/people/ishihara-tsunekazu-2011-ff65.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第3章 photo12
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation
   - image: /assets/img/people/ishihara-tsunekazu-2011.jpg
     year: 2011
     source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo1
-    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download
   - image: /assets/img/people/ishihara-tsunekazu.jpg
     year: 2011
     source: 社長が訊く『スーパーポケモンスクランブル』photo17（按人脸核对）
@@ -416,7 +424,7 @@
   - image: /assets/img/people/ishihara-tsunekazu-2012.jpg
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo3
-    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination
   - image: /assets/img/people/ishihara-tsunekazu-2018.jpg
     year: 2018
     source: 電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 石原恒和氏（DSC1438）
@@ -460,13 +468,21 @@
   avatar: /assets/img/people/iwata-satoru.jpg
   avatar_source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo6（原帖图注错位，按人脸核对）
   portraits:
+  - image: /assets/img/people/iwata-satoru-2011-0ed2.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第4章 photo17
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all
+  - image: /assets/img/people/iwata-satoru-2011.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo5
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download
   - image: /assets/img/people/iwata-satoru.jpg
     year: 2011
     source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo6（原帖图注错位，按人脸核对）
   - image: /assets/img/people/iwata-satoru-2012.jpg
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo4
-    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination
   credits_key: iwata satoru
 - name: 久保雅一
   slug: kubo-masakazu
@@ -580,10 +596,14 @@
   aliases:
   - 小笠原裕
   portraits:
+  - image: /assets/img/people/ogasawara-yutaka-2011-3b77.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第2章 photo9
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality
   - image: /assets/img/people/ogasawara-yutaka-2011.jpg
     year: 2011
     source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo2
-    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download
   avatar: /assets/img/people/ogasawara-yutaka.jpg
   avatar_source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo2
 - name: 竹内敦
@@ -591,10 +611,18 @@
   aliases:
   - 竹内敦
   portraits:
+  - image: /assets/img/people/takeuchi-atsushi-2011-3b77.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第2章 photo8
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality
+  - image: /assets/img/people/takeuchi-atsushi-2011-ff65.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第3章 photo14
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation
   - image: /assets/img/people/takeuchi-atsushi-2011.jpg
     year: 2011
     source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo3
-    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download
   avatar: /assets/img/people/takeuchi-atsushi.jpg
   avatar_source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo3
 - name: 折本哲也
@@ -602,10 +630,14 @@
   aliases:
   - 折本哲也
   portraits:
+  - image: /assets/img/people/orimoto-tetsuya-2011-ff65.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第3章 photo11
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation
   - image: /assets/img/people/orimoto-tetsuya-2011.jpg
     year: 2011
     source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo4
-    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download
   avatar: /assets/img/people/orimoto-tetsuya.jpg
   avatar_source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo4
 - name: 小泽达雄
@@ -613,10 +645,18 @@
   aliases:
   - 小澤達雄
   portraits:
+  - image: /assets/img/people/ozawa-tatsuo-2011-7ace.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』第3章 photo13
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again
+  - image: /assets/img/people/ozawa-tatsuo-2011-acb8.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』第2章 photo7
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations
   - image: /assets/img/people/ozawa-tatsuo-2011.jpg
     year: 2011
     source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo3
-    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife
   avatar: /assets/img/people/ozawa-tatsuo.jpg
   avatar_source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo3
 - name: 松村直树
@@ -624,10 +664,14 @@
   aliases:
   - 松村直樹
   portraits:
+  - image: /assets/img/people/matsumura-naoki-2011-acb8.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』第2章 photo8
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations
   - image: /assets/img/people/matsumura-naoki-2011.jpg
     year: 2011
     source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo2
-    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife
   avatar: /assets/img/people/matsumura-naoki.jpg
   avatar_source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo2
 - name: 长畑成一郎
@@ -642,7 +686,7 @@
   - image: /assets/img/people/nagahata-seiichiro-2012.jpg
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1
-    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination
   avatar: /assets/img/people/nagahata-seiichiro.jpg
   avatar_source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1
   credits_key: nagahata seichiro
@@ -659,7 +703,7 @@
   - image: /assets/img/people/tomie-shinichiro-2012.jpg
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2
-    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination
   avatar: /assets/img/people/tomie-shinichiro.jpg
   avatar_source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2
   credits_key: shinichiro tomie
@@ -679,6 +723,10 @@
     year: 2023
     source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2782）
     post: 2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza
+  - image: /assets/img/people/maezawa-keiichi-2026-2745.jpg
+    year: 2026
+    source: CGWORLD.jp 2026-09-17 CEDEC 2026 講演レポート（2）前澤圭一
+    post: 2026-09-17-interview-cgworld-2026-cedec-pkmnza
   - image: /assets/img/people/maezawa-keiichi-2026.jpg
     year: 2026
     source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
@@ -1244,10 +1292,6 @@
   - 足立美奈子
   - Minako Adachi
   portraits:
-  - image: /assets/img/people/adachi-minako-2014.jpg
-    year: 2014
-    source: 2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（右）
-    post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
   - image: /assets/img/people/adachi-minako-minako-adachi.jpg
     source: Bulbapedia File:Minako_Adachi.png
   avatar: /assets/img/people/adachi-minako.jpg
@@ -1560,10 +1604,14 @@
     source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）
     post: 2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers
   avatar: /assets/img/people/gao-shan-ling-yang-ming.jpg
-  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2792）
 - name: Alfredo Spadafina
   slug: alfredo-spadafina
   portraits:
+  - image: /assets/img/people/alfredo-spadafina-2026-2745.jpg
+    year: 2026
+    source: CGWORLD.jp 2026-09-17 CEDEC 2026 講演レポート（2）Alfredo Spadafina
+    post: 2026-09-17-interview-cgworld-2026-cedec-pkmnza
   - image: /assets/img/people/alfredo-spadafina-2026.jpg
     year: 2026
     source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
@@ -1576,6 +1624,10 @@
   aliases:
   - 赤木達也
   portraits:
+  - image: /assets/img/people/chi-mu-da-ye-2-2026-2745.jpg
+    year: 2026
+    source: CGWORLD.jp 2026-09-17 CEDEC 2026 講演レポート（2）赤木達也
+    post: 2026-09-17-interview-cgworld-2026-cedec-pkmnza
   - image: /assets/img/people/chi-mu-da-ye-2-2026.jpg
     year: 2026
     source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）

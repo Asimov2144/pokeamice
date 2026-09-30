@@ -50,7 +50,7 @@ source:
 entities:
   people:
     - "いわし"
-    - "森本"
+    - "森本茂树"
     - "蟹子"
     - "カビ"
   works:

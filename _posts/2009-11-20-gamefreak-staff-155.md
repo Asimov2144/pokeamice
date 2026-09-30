@@ -41,7 +41,7 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "海野"
+    - "海野隆雄"
   works:
     - "宝可梦 心金·魂银"
     - "宝可梦 火红·叶绿"

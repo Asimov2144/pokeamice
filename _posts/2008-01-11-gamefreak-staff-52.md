@@ -53,7 +53,7 @@ source:
 entities:
   people:
     - "增田顺一"
-    - "森本"
+    - "森本茂树"
   organizations:
     - "Game Freak"
   events:
