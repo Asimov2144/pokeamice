@@ -46,6 +46,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 宝可梦设计
+- 通信功能
+- 战斗系统
+- 音乐制作
 parallel_items:
 - original: It's not often that creators behind huge, huge franchises offer themselves up for interview, but Game Freak has done just that. The team behind the insanely successful Pokemon recently gathered for a conference call that was attended by select members of the European press. Answering questions on its global phenomenon were Game Freak's Mr Junichi Masuda, Mr Shigeki Morimoto and Mr Ken Sugimori.
   translation: "大型系列作品的创作者很少会主动接受采访，但GAME FREAK就这么做了。这个打造出极其成功的宝可梦的团队最近聚在一起参加了一场电话会议，欧洲部分媒体受邀参加。就这一全球现象回答提问的是GAME FREAK的增田顺一先生、森本茂树先生和杉森建先生。"

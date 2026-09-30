@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 音乐制作
+- 海外拓展
+- 本地化
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin/000.jpg

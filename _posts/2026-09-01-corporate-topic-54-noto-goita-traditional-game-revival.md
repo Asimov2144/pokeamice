@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 地方振兴
+- 品牌与设计
+- 教育与科普
 parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival/000.jpg

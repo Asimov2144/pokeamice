@@ -45,6 +45,11 @@ workflow:
   proofreading: pending
   published: draft
 author: "McKinley Noble"
+topics:
+- 剧情与剧本
+- 通信功能
+- 道馆馆主
+- 传说宝可梦
 parallel_items:
 - original: With Pokemon Platinum just a few days away, GamePro was invited to Nintendo to talk with two of the developers behind Nintendo's powerhouse RPG franchise!
   translation: 距离《宝可梦 白金》发售只剩几天，GamePro 受邀前往任天堂，与这部任天堂王牌 RPG 系列背后的两位开发者进行了交谈！

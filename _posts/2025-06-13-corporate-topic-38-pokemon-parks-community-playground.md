@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 地方振兴
+- 品牌与设计
+- 健康与生活
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-06-13-corporate-topic-38-pokemon-parks-community-playground/000.jpg

@@ -36,6 +36,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 艺术与工艺
 parallel_items:
 - type: image
   image: /assets/img/interviews/2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/000.jpg

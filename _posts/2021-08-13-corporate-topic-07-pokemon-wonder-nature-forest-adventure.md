@@ -36,6 +36,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 线下活动
+- 教育与科普
 parallel_items:
 - type: image
   image: /assets/img/interviews/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure/000.jpg

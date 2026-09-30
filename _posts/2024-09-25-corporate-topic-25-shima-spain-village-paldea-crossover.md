@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 线下活动
+- 餐饮体验
+- 地区设定
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover/000.jpg

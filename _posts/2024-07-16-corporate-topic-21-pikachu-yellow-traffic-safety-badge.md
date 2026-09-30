@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 公益与支援
+- 周边商品
+- 线下活动
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge/000.jpg

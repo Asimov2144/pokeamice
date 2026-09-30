@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 音乐与演出
+- 音乐制作
+- 声音设计
+- 数字与科技
 parallel_items:
 - type: image
   image: /assets/img/interviews/2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music/000.jpg

@@ -55,6 +55,11 @@ entities:
     - 增田顺一
   works:
     - 宝可梦 黑2·白2
+topics:
+- 开发历程
+- 系统设计
+- 剧情与剧本
+- 音乐制作
 translation_segments:
   - type: heading
     kind: text

@@ -36,6 +36,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 影像与动画
+- 艺术与工艺
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft/000.jpg

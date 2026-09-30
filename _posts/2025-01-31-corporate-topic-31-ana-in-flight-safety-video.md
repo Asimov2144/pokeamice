@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 影像与动画
+- 品牌与设计
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-01-31-corporate-topic-31-ana-in-flight-safety-video/000.jpg

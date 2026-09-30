@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 健康与生活
+- 教育与科普
+- 数字与科技
 parallel_items:
 - type: image
   image: /assets/img/interviews/2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream/000.jpg

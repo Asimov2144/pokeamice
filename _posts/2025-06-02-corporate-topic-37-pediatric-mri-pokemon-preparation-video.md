@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 公益与支援
+- 联名合作
+- 教育与科普
+- 健康与生活
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video/000.jpg

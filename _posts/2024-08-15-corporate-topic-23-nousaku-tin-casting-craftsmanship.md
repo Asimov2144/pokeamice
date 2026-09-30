@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 艺术与工艺
+- 周边商品
+- 线下活动
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship/000.jpg

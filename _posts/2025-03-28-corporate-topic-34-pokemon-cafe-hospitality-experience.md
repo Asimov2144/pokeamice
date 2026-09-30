@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 餐饮体验
+- 品牌与设计
+- 线下活动
+- 经营与管理
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience/000.jpg

@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外拓展
+- 线下活动
+- 联名合作
+- 粉丝社群
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey/000.jpg

@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 线下活动
+- 教育与科普
+- 公益与支援
 parallel_items:
 - type: image
   image: /assets/img/interviews/2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program/000.jpg

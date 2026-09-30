@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 线下活动
+- 联名合作
+- 地方振兴
+- 品牌与设计
 parallel_items:
 - type: image
   image: /assets/img/interviews/2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide/000.jpg

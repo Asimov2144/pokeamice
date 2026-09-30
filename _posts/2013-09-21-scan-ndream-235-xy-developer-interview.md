@@ -55,6 +55,11 @@ entities:
     - 森本茂树
   works:
     - 宝可梦 X·Y
+topics:
+- 战斗系统
+- 系统设计
+- 对战演出
+- 宝可梦设计
 translation_segments:
   - type: heading
     kind: text

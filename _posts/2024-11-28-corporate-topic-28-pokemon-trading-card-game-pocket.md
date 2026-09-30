@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 卡牌游戏
+- 数字与科技
+- 系统设计
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket/000.jpg

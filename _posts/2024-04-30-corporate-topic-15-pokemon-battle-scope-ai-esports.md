@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 数字与科技
+- 电竞赛事
+- 战斗系统
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports/000.jpg

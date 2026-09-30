@@ -54,6 +54,11 @@ entities:
     - 海野隆雄
   works:
     - 宝可梦 黑2·白2
+topics:
+- 传说宝可梦
+- 攻略
+- 系统设计
+- 开发历程
 translation_segments:
   - type: heading
     kind: text

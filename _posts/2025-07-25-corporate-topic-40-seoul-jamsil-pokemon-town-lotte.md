@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 线下活动
+- 海外拓展
+- 品牌与设计
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte/000.jpg

@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 公益与支援
+- 周边商品
+- 线下活动
+- 音乐与演出
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support/000.jpg

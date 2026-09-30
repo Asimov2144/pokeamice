@@ -43,6 +43,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 世界观设定
+- 系统设计
+- 传说宝可梦
+- 通信功能
 parallel_items:
 - original: Although I'm honored that I get to meet some of the most phenomenal game developers in the world, I've been covering games long enough that I rarely get nervous meeting "famous" game designers. Don't get my wrong, I'm still excited and thrilled that I get to chat with people like Chris Taylor, Todd Hollenshead, etc., but, to use a wrestling term, I seldom "mark out" when I get to meet people such as these big players. Yesterday was one of those rare exceptions.
   translation: 虽然我很荣幸能见到一些世界上最出色的游戏开发者，但我报道游戏已经够久了，见到“著名”游戏设计师时很少会紧张。别误会，能和 Chris Taylor、Todd Hollenshead 这样的人聊天，我仍然很兴奋、很激动，但用摔角术语来说，见到这类大人物时我很少会“mark out”。昨天就是罕见的例外之一。

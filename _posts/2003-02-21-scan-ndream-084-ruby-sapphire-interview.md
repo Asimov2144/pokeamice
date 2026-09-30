@@ -55,6 +55,11 @@ entities:
     - 杉森建
   works:
     - 宝可梦 红宝石·蓝宝石
+topics:
+- 开发历程
+- 宝可梦设计
+- 地区设定
+- 通信功能
 translation_segments:
   - type: heading
     kind: text

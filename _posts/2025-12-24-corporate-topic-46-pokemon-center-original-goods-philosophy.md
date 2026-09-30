@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 周边商品
+- 品牌与设计
+- 粉丝社群
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy/000.jpg

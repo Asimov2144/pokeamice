@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 数字与科技
+- 公益与支援
+- 线下活动
 parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling/000.jpg

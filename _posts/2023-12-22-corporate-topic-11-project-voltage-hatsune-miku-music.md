@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 音乐与演出
+- 联名合作
+- 角色设计
+- 音乐制作
 parallel_items:
 - type: image
   image: /assets/img/interviews/2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music/000.jpg

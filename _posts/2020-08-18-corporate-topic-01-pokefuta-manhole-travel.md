@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 地方振兴
+- 联名合作
+- 艺术与工艺
+- 线下活动
 parallel_items:
 - type: image
   image: /assets/img/interviews/2020-08-18-corporate-topic-01-pokefuta-manhole-travel/000.jpg

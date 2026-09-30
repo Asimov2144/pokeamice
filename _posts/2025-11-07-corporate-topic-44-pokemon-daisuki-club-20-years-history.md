@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 粉丝社群
+- 线下活动
+- 地方振兴
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history/000.jpg

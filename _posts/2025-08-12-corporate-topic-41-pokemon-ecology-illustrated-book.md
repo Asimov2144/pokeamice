@@ -36,6 +36,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 教育与科普
+- 艺术与工艺
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book/000.jpg

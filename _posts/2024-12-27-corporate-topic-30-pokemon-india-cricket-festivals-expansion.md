@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外拓展
+- 线下活动
+- 联名合作
+- 影像与动画
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion/000.jpg

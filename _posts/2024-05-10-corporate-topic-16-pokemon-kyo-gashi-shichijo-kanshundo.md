@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 艺术与工艺
+- 品牌与设计
+- 餐饮体验
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo/000.jpg

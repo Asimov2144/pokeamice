@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 电竞赛事
+- 经营与管理
+- 系统设计
+- 粉丝社群
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports/000.jpg

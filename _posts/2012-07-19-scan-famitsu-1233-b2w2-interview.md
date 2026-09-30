@@ -54,6 +54,10 @@ entities:
     - 齐藤优史
   works:
     - 宝可梦 黑2·白2
+topics:
+- 通信功能
+- 开发历程
+- 系列回顾
 translation_segments:
   - type: heading
     kind: text

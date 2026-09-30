@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 卡牌游戏
+- 线下活动
+- 粉丝社群
+- 经营与管理
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china/000.jpg

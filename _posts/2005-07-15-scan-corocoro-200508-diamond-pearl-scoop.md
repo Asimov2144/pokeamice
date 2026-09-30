@@ -54,6 +54,11 @@ entities:
     - 增田顺一
   works:
     - 宝可梦 钻石·珍珠
+topics:
+- 新作发表
+- 通信功能
+- 系统设计
+- 宝可梦设计
 translation_segments:
   - type: heading
     kind: text

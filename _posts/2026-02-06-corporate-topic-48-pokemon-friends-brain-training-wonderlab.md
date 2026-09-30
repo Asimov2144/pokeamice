@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 教育与科普
+- 系统设计
+- 品牌与设计
 parallel_items:
 - type: image
   image: /assets/img/interviews/2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab/000.jpg

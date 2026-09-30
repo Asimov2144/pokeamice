@@ -36,6 +36,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 品牌与设计
+- 线下活动
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility/000.jpg

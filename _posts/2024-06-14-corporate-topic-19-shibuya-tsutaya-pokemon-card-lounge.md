@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 卡牌游戏
+- 线下活动
+- 周边商品
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge/000.jpg

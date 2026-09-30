@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 健康与生活
+- 数字与科技
+- 教育与科普
 parallel_items:
 - type: image
   image: /assets/img/interviews/2020-08-18-corporate-topic-03-pokemon-smile-gamification-health/000.jpg

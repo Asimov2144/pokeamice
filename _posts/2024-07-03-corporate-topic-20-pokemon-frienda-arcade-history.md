@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 系统设计
+- 系列回顾
+- 亲子同乐
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history/000.jpg

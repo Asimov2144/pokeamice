@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 公益与支援
+- 线下活动
+- 联名合作
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support/000.jpg

@@ -55,6 +55,11 @@ entities:
     - 增田顺一
   works:
     - 宝可梦 黑·白
+topics:
+- 开发历程
+- 系统设计
+- 通信功能
+- 系列回顾
 translation_segments:
   - type: heading
     kind: text

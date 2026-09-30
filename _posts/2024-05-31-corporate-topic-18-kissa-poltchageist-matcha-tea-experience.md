@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 周边商品
+- 餐饮体验
+- 品牌与设计
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience/000.jpg

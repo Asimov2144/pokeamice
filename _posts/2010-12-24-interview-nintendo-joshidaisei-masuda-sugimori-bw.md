@@ -43,6 +43,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 宝可梦设计
+- 剧情与剧本
+- 世界观设定
 parallel_items:
 - type: heading
   level: 2

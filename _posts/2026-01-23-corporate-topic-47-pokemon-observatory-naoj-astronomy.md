@@ -36,6 +36,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 教育与科普
+- 联名合作
 parallel_items:
 - type: image
   image: /assets/img/interviews/2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy/000.jpg

@@ -42,6 +42,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 开发历程
+- 音乐制作
+- 声音设计
 parallel_items:
 - original: 80年代末に発売された『クインティ』というファミコンソフトをご存知だろうか？
   translation: "你知道80年代末发售的一款名为《Quinty》的红白机游戏吗？"

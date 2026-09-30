@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 联名合作
+- 线下活动
+- 餐饮体验
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment/000.jpg

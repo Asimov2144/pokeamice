@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 艺术与工艺
+- 线下活动
+- 粉丝社群
 parallel_items:
 - type: image
   image: /assets/img/interviews/2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty/000.jpg

@@ -36,6 +36,10 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 周边商品
+- 联名合作
+- 粉丝社群
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii/000.jpg

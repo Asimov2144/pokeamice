@@ -36,6 +36,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 粉丝社群
+- 线下活动
+- 卡牌游戏
+- 经营与管理
 parallel_items:
 - type: image
   image: /assets/img/interviews/2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification/000.jpg

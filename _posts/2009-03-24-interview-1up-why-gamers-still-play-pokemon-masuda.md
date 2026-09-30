@@ -42,6 +42,9 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 通信功能
+- 系列回顾
 parallel_items:
 - original: 'The power of the Pokémon brand is impossible to deny: Worldwide sales figures total over 186 million units across the entire series, and individually, each game holds a coveted spot in the top 20 highest selling console games of all time (with the newest, Diamond/Pearl weighing in at 16.48 million after just two years in worldwide release). In fact, the brand only seems to be growing stronger -- Diamond/Pearl has already sold more units than every other Pokémon iteration except the original Red/Blue. But why are gamers still playing? How did Pokémon escape the ravages of both waning interest and oversaturation that leave so many of its kid-friendly peers behind?'
   translation: 宝可梦品牌的影响力无可否认：全系列全球销量总计超过1.86亿份，单款游戏也都在史上最畅销主机游戏前20名中占有一席之地（最新的《钻石/珍珠》在全球发售仅两年后销量就达到1648万份）。事实上，这个品牌似乎只会越来越强——《钻石/珍珠》的销量已经超过了除初代《红/蓝》之外的所有宝可梦作品。但为什么玩家们还在玩？宝可梦是如何逃脱兴趣消退和过度饱和的双重侵蚀，而许多同类儿童向游戏却未能幸免？

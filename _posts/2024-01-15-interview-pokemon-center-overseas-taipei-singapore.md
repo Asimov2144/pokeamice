@@ -52,6 +52,10 @@ workflow:
   proofreading: pending
   published: published
 dek: "宝可梦中心台北与新加坡项目成员讲述海外开店的项目管理与法务推进。"
+topics:
+- 海外拓展
+- 经营与管理
+- 人才招聘
 parallel_items:
 - type: image
   image: /assets/img/interviews/pokemoncenter-04/img_mainC-iQ2HSs.jpg

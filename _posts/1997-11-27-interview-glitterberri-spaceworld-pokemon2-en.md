@@ -47,6 +47,11 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 宝可梦设计
+- 系统设计
+- 通信功能
+- 开发历程
 parallel_items:
 - original: The following interview concerning the then-unnamed Pokémon Gold & Silver was taken from Game Staff List Association Japan, a Japanese site that aims to, among other things, summarize, transcribe, and categorize interviews with video game developers. It took place in 1997, with participants Shigeru Miyamoto, Satoshi Tajiri (the creator of Pokémon), and Tsunekazu Ishihara (the series’ producer). The original source is unknown.
   translation: 以下这篇关于当时尚未定名的《宝可梦 金／银》的访谈，摘自Game Staff List Association Japan，这是一个以整理、转录和归类电子游戏开发者访谈等为目的的日本网站。访谈发生于1997年，参与者为宫本茂、田尻智（宝可梦的创造者）和石原恒和（该系列的制作人）。原始出处不明。
