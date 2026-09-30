@@ -44,6 +44,7 @@ workflow:
   proofreading: pending
   published: draft
 topics:
+- 海外媒体专访
 - 世界观设定
 - 系统设计
 - 传说宝可梦

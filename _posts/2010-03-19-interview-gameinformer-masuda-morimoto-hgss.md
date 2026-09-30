@@ -47,6 +47,8 @@ entities:
   - 宝可梦 心金·魂银
   - 宝可梦 金·银
   - 皮卡丘2 GS
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2010-03-19-interview-gameinformer-masuda-morimoto-hgss/001.jpg

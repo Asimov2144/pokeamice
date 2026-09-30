@@ -65,6 +65,7 @@
         item.type,
         (item.categories || []).join(" "),
         (item.tags || []).join(" "),
+        (item.topics || []).join(" "),
         (item.people || []).join(" "),
         (item.works || []).join(" ")
       ].join(" ").toLowerCase();

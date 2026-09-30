@@ -92,6 +92,7 @@ parallel_items:
   caption: 由田上玲子主笔、带有欧洲贵族气质的草属性宝可梦藤藤蛇
 featured_image: /assets/img/interviews/2011-03-05-interview-1up-black-white-how-pokemon-get-made/reshiram_zekrom.jpg
 topics:
+- 海外媒体专访
 - 角色设计
 - 开发流程
 - 传说宝可梦

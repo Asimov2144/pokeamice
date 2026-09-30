@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/001.jpg

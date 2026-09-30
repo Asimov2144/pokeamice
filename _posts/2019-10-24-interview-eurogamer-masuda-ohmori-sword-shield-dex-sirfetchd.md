@@ -45,6 +45,8 @@ entities:
   - Pokémon GO
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - 塞尔达传说：旷野之息
+topics:
+- 海外媒体专访
 parallel_items:
 - type: heading
   level: 2

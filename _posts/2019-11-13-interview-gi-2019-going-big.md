@@ -51,6 +51,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - type: heading
   level: 3

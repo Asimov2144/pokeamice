@@ -46,6 +46,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/004.jpg

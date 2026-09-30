@@ -41,7 +41,11 @@ TILES = {
     "tech": ("assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-01.jpg", (0.5, 0.5)),
     "recruit": ("assets/img/interviews/2017-tpc-recruit-passion/entry1.jpg", (0.5, 0.4)),
     "corporate": ("assets/img/interviews/2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey/000.jpg", (0.5, 0.5)),
+    "overseas": ("assets/img/interviews/2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori/01_hero_masuda_ohmori_madrid.jpg", (0.5, 0.42)),
 }
+# the games tile: one icon per generation, two rows of five (tools/build-work-icons.py made the files)
+GAMES_MOSAIC = ["bulba-red-vc-jp-icon", "bulba-gold-vc-icon", "ball-ruby-sapphire", "bulba-diamond-icon", "bulba-black-icon",
+                "home-x", "home-sun", "home-sword", "home-scarlet", "home-legends-z-a"]
 PEOPLE_MOSAIC = ["masuda-junichi", "sugimori-ken", "ishihara-tsunekazu", "tajiri-satoshi", "ohmori-shigeru", "unno-takao", "morimoto-shigeki", "kubo-masakazu"]
 WORKS_MOSAIC = ["bulba-red-vc-jp-icon", "bulba-gold-vc-icon", "ball-ruby-sapphire", "bulba-diamond-icon", "bulba-black-icon", "home-x", "home-sword", "home-scarlet"]   # assets/img/works (tools/build-work-icons.py)
 
@@ -247,6 +251,17 @@ def main():
         for i, im in enumerate(ims):
             bg.paste(im, (i % 4 * 84 + 4, (i // 4) * 84 + 16), im)
         save(bg, "works"); print("  works      <- the work icons")
+    if force or not (OUT / "games.jpg").exists():
+        bg = Image.new("RGB", (W, H), (30, 41, 59))
+        side, gap = 56, 8
+        x0 = (W - (5 * side + 4 * gap)) // 2
+        y0 = (H - (2 * side + gap)) // 2
+        for i, g in enumerate(GAMES_MOSAIC):
+            f = ROOT / "assets" / "img" / "works" / f"{g}.png"
+            if f.exists():
+                im = Image.open(f).convert("RGBA").resize((side, side), Image.LANCZOS)
+                bg.paste(im, (x0 + (i % 5) * (side + gap), y0 + (i // 5) * (side + gap)), im)
+        save(bg, "games"); print("  games      <- one icon per generation")
     for key in ("timeline", "graph", "credits", "analysis", "quotes", "guide"):
         if force or not (OUT / f"{key}.jpg").exists():
             save(drawn(key), key); print(f"  {key:10s} <- drawn")

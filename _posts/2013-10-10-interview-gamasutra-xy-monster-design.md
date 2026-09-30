@@ -41,6 +41,8 @@ entities:
   - 杉森建
   works:
   - 宝可梦 X·Y
+topics:
+- 海外媒体专访
 parallel_items:
 - original: When you think of the Pokemon game franchise, of course you think of its iconic monsters. Pokemon, after all, is a portmanteau of its Japanese title, Pocket Monsters, and the series' most iconic mon' is Pikachu, which still serves as its symbol over a decade later. With every game in the franchise, a team of monster designers at developer Game Freak comes up with new creatures for players to battle and catch.
   translation: "当你想到宝可梦游戏系列时，自然会想到它标志性的宝可梦。毕竟，宝可梦（Pokemon）是日文原标题“Pocket Monsters”（宝可梦／Pocket Monsters，早期曾译口袋妖怪）的缩写合成词，而该系列最具标志性的宝可梦是皮卡丘，十多年后它仍然是该系列的象征。在该系列的每一款游戏中，开发商GAME FREAK的宝可梦设计团队都会设计出新的生物，供玩家对战和捕捉。"

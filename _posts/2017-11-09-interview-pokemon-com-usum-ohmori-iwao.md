@@ -24,6 +24,8 @@ entities:
   - 宝可梦 红宝石·蓝宝石
   - 宝可梦 黑·白
   - 宝可梦 皮卡丘版
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/hero_ohmori_iwao.jpg

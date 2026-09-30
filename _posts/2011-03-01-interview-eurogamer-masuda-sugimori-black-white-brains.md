@@ -46,6 +46,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: It is one of the best-selling game franchises, a Nintendo behemoth with truly global appeal. And yet we know so little about where the Pokemon games come from.
   translation: 它是最畅销的游戏系列之一，一个真正具有全球吸引力的任天堂巨兽。然而我们对宝可梦游戏的来源却知之甚少。

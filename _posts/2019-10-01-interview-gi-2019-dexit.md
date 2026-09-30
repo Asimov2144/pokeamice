@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: Fans are eagerly anticipating Pokémon Sword and Shield, but some of the biggest news coming out of summer was regarding what won't be in the first mainline Pokémon console RPGs. During E3, producer Junichi Masuda explained that not every Pokémon will make the leap into Sword and Shield. This news left many fans disappointed, so I caught up with Masuda during our trip for this month's cover story to dive deeper into the reasoning for the cuts.
   translation: 粉丝们热切期待《宝可梦 剑·盾》，但今年夏天最重大的新闻之一，却是关于首批宝可梦主机正统RPG中不会出现的内容。在E3期间，制作人增田顺一解释说，并非所有宝可梦都能进入《剑／盾》。这一消息让许多粉丝感到失望，因此在本月封面故事之旅中，我采访了增田，深入探讨削减的原因。

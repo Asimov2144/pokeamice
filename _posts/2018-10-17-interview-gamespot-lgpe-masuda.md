@@ -261,6 +261,7 @@ source:
   url: https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462580/
 dek: 增田顺一谈3D重制《宝可梦 黄》与《Pokémon GO》联动。
 topics:
+- 海外媒体专访
 - 系统设计
 - 地区设定
 - 开发流程

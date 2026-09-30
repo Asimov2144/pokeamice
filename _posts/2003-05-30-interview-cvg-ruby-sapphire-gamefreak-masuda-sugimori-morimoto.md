@@ -47,6 +47,7 @@ workflow:
   proofreading: pending
   published: draft
 topics:
+- 海外媒体专访
 - 宝可梦设计
 - 通信功能
 - 战斗系统

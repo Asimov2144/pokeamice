@@ -48,6 +48,8 @@ entities:
   - Pokémon GO
   - 宝可梦 皮卡丘版
   - 宝可梦 红·绿
+topics:
+- 海外媒体专访
 parallel_items:
 - type: heading
   level: 2

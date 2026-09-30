@@ -1,0 +1,150 @@
+/* ==========================================================================
+   THE TWO CROSS-CUTTING HUBS - /overseas/ (海外媒体专访) and /games/ (按游戏读)
+   (_pages/overseas.md, _pages/games.md; the data is baked by tools/build-hubs.py).
+
+   They take the timeline's layout and its stylesheet: the same root (.tl), the era blocks
+   (a sticky head on the left, the cards on the right), the entry cards (.tl-pick), the chips.
+   Only what the timeline does not have is here: a bar chart of the years, and the game card.
+   ========================================================================== */
+
+.tl {
+  /* .library.front is a grid: without this the sideways-scrolling nav (.tl-eranav) sets the width of the whole page */
+  min-width: 0;
+
+  .tl-pick[hidden],
+  [data-hub-region][hidden] { display: none; }
+
+  .hub-note { font-size: 12.5px; line-height: 1.65; color: $lib-ink-soft; }
+  .hub-top { margin-top: 12px; }
+  .hub-who { display: grid; gap: 10px; margin-top: 36px; }
+
+  /* ---- how many a year (the overseas page) ---- */
+  .hub-years {
+    margin-top: 18px;
+    border: 1px solid $lib-rule;
+    border-radius: 14px;
+    padding: 10px 16px 8px;
+    background: #fff;
+  }
+  .hub-years__title { margin: 0 0 4px; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; color: $lib-ink-faint; }
+  .hub-years__cols {
+    display: grid;
+    grid-template-columns: repeat(var(--n, 24), minmax(0, 1fr));
+    gap: 3px;
+    height: 104px;
+    overflow-x: auto;
+  }
+  .hub-year {
+    display: grid;
+    grid-template-rows: 14px minmax(0, 1fr) 14px;
+    justify-items: center;
+    min-width: 14px;
+    height: 100%;
+    i {
+      align-self: end;
+      width: 100%;
+      max-width: 24px;
+      min-height: 2px;
+      border-radius: 3px 3px 0 0;
+      background: $tl-interview;
+    }
+    &.is-empty i { background: $lib-rule; }
+  }
+  .hub-year__n { align-self: end; font-size: 10.5px; font-weight: 700; color: $lib-ink-soft; font-variant-numeric: tabular-nums; }
+  .hub-year em { font-style: normal; font-size: 10px; color: $lib-ink-faint; font-variant-numeric: tabular-nums; align-self: end; }
+
+  /* ---- a game (the games page) ---- */
+  .hub-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; align-items: stretch; }
+  .hub-game {
+    --hg-c: #{$lib-ink-faint};
+    --hg-c2: #{$lib-ink-faint};
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    min-width: 0;
+    border: 1px solid $lib-rule;
+    border-radius: 14px;
+    padding: 13px 14px 11px;
+    background: #fff;
+    scroll-margin-top: 14px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 14px;
+      right: 14px;
+      top: 0;
+      height: 3px;
+      border-radius: 0 0 3px 3px;
+      background: linear-gradient(90deg, var(--hg-c) 50%, var(--hg-c2) 50%);
+    }
+    &:target { border-color: $lib-accent; box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.16); }
+  }
+  .hub-game__head { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .hub-game__icons {
+    display: flex;
+    flex: none;
+    gap: 3px;
+    img { display: block; width: 40px; height: 40px; border-radius: 9px; object-fit: contain; }
+  }
+  .hub-game__title { min-width: 0; }
+  .hub-game__title h3 { margin: 0; font-size: 16px; font-weight: 800; line-height: 1.3; letter-spacing: -0.005em; color: $lib-ink; }
+  .hub-game__title p { margin: 1px 0 0; font-size: 12px; color: $lib-ink-soft; font-variant-numeric: tabular-nums; b { color: $lib-ink; } }
+  .hub-game__kinds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 12px;
+    margin: 0;
+    font-size: 12px;
+    color: $lib-ink-soft;
+    span { display: inline-flex; align-items: center; gap: 5px; }
+    b { color: $lib-ink; }
+  }
+  .hub-game__picks { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+  .hub-game__picks li { margin: 0; padding: 0; }
+  .hub-game__picks a {
+    display: grid;
+    gap: 1px;
+    border-left: 3px solid var(--tl-c);
+    border-radius: 2px;
+    padding: 4px 6px 4px 10px;
+    color: $lib-ink;
+    &:hover { background: var(--tl-s); }
+    small { font-size: 11px; font-weight: 700; color: var(--tl-c); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    span {
+      font-size: 13px;
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  .hub-game__foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 14px;
+    margin-top: auto;
+    padding-top: 8px;
+    border-top: 1px solid $lib-rule;
+    font-size: 12.5px;
+    a { color: $lib-accent; &:hover { text-decoration: underline; } }
+  }
+}
+
+@media (max-width: 640px) {
+  .tl .hub-games { grid-template-columns: minmax(0, 1fr); }
+  .tl .hub-years__cols { height: 92px; }
+}
+
+/* the night theme */
+body.theme-bg-black .tl {
+  .hub-years, .hub-game { background: #23282e; border-color: #3a434c; color: #dce4ea; }
+  .hub-year i { background: #8ec5ff; }
+  .hub-year.is-empty i { background: #3a434c; }
+  .hub-year__n { color: #b7c3ce; }
+  .hub-game__title h3, .hub-game__picks a, .hub-game__title p b, .hub-game__kinds b { color: #eef2f5; }
+  .hub-game__foot { border-top-color: #3a434c; }
+  .hub-game__foot a { color: #8ec5ff; }
+  .hub-note { color: #b7c3ce; }
+}

@@ -46,6 +46,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: If you've been following our coverage of Pokémon Sword and Shield, you know we've covered a ton of topics, such as autosave, drawing Pokémon, and the inspiration behind the Galar region. However, in the time since we spent a full day in Game Freak's Tokyo offices for this month's Pokémon Sword and Shield cover story, we've thought of several new questions to ask the development team.
   translation: "如果你一直在关注我们对《宝可梦 剑·盾》的报道，就会知道我们已经聊过很多话题，比如自动保存、绘制宝可梦，以及伽勒尔地区背后的灵感。不过，自从我们在 GAME FREAK 东京办公室待了整整一天、为本月的《宝可梦 剑·盾》封面故事取材之后，我们又想到了几个新问题要问开发团队。"

@@ -43,6 +43,7 @@ workflow:
   proofreading: pending
   published: draft
 topics:
+- 海外媒体专访
 - 通信功能
 - 系列回顾
 parallel_items:

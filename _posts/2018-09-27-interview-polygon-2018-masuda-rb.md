@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: 'One of the most exciting things about Pokémon: Let’s Go! is that it’s very much like a throwback nostalgia piece. It’s a new version, of sorts, of the original games. And it feels especially important that these Nintendo Switch games are launching in 2018 — two decades after Pokémon Red and Blue first captivated audiences in North America.'
   translation: 《宝可梦 Let's Go》最令人兴奋的一点是，它很像一部怀旧之作。从某种意义上说，它是初代游戏的新版本。而这款 Nintendo Switch 游戏在2018年发售，显得尤为重要——距离《宝可梦 红·蓝》首次在北美俘获玩家，已经过去了二十年。

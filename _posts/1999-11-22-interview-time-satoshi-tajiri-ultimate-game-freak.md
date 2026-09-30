@@ -46,6 +46,8 @@ entities:
   - 旋转方块
   - 太空格斗/太空侵略者
   - 铁板阵
+topics:
+- 海外媒体专访
 parallel_items:
 - speaker: ''
   original: After first coming up with the idea for Pokmon in 1990, Satoshi Tajiri labored for nearly six years over the original game. Now 34, he based it partly on things he remembered as a kid. The careful attention paid off. Pokmon swept Japan and is now doing the same in the U.S. and beyond. Spinoffs include trading cards as closely held as stock options, a TV series and, now, a movie.

@@ -45,6 +45,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2012-11-23-interview-gi-2012-burning-questions/001.jpg

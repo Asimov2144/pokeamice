@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: Accusée à juste titre de ne pas assez se renouveler, la série Pokémon a entamé sa mue depuis quelques années déjà. Depuis 2011 pour être précis, avec l'arrivée des versions Blanche et Noire. Pokémon X et Pokémon Y, les premiers épisodes exclusifs à la 3DS, marquent quant à eux le passage à l'étape supérieure. Voici venue l'ère de la 3D généralisée. Junichi Masuda, le boss de Game Freak, et Hironobu Yoshida, graphic designer au sein du studio japonais, ont accepté de répondre à nos questions à propos du jeu, dont la sortie est prévue pour le 12 octobre prochain.
   translation: "宝可梦系列因创新不足而受到指责，这一批评不无道理，但事实上它早在几年前就已开始蜕变。确切地说，是从2011年《黑／白》发售起。而《宝可梦 X》与《宝可梦 Y》作为首批3DS独占作品，则标志着它迈上了更高的台阶。全面3D化的时代就此到来。GAME FREAK的负责人增田顺一，以及这家日本工作室的图形设计师吉田宏信，接受了我们的提问，谈到了这款定于10月12日发售的游戏。"

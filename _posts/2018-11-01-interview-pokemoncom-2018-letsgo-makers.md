@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: 'The first Pokémon RPG adventure for Nintendo Switch, Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!, is almost here, and the excitement continues to grow. To learn more about the process that went into the adventure''s creation, we had a chat with two members of GAME FREAK inc.—the developers of the games. Join us as we talk to Junichi Masuda, one of GAME FREAK''s founders and the director of Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!, and Kensaku Nabana, the games'' lead environment designer. Both creators were kind enough to share their thoughts on the production of these upcoming titles.'
   translation: Nintendo Switch 上的首款宝可梦 RPG 冒险游戏《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》即将发售，玩家的期待也在不断升温。为了解这款冒险游戏的创作过程，我们与 GAME FREAK inc.——这两款游戏的开发者——的两位成员进行了交流。请随我们一起对话增田顺一和 Nabana Kensaku。增田顺一是 GAME FREAK 的创始人之一，也是《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》的总监；Nabana Kensaku 则是这两款游戏的环境设计主管。两位创作者都慷慨地分享了他们对这两款即将推出的作品的制作想法。

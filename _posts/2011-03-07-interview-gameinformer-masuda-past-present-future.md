@@ -46,6 +46,8 @@ entities:
   - 宝可梦 红·绿
   - 宝可梦 金·银
   - 宝可梦 心金·魂银
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/001.jpg

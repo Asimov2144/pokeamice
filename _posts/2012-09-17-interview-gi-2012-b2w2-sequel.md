@@ -41,6 +41,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2012-09-17-interview-gi-2012-b2w2-sequel/001.jpg

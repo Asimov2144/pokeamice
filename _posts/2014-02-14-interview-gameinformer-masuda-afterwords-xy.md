@@ -43,6 +43,8 @@ entities:
   - 宝可梦 黑·白
   - Pokémon HOME
   - Pokémon Bank
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/001.jpg

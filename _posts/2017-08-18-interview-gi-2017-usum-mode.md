@@ -39,6 +39,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-08-18-interview-gi-2017-usum-mode/001.jpg

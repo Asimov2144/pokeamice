@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: GAME FREAK’s Junichi Masuda is probably best known for his work as a game director, most recently on Pokémon X and Pokémon Y. But he began as, and continues to be, a gifted musical composer responsible for much of the iconic Pokémon game music that fans know by heart. To mark the launch of the Pokémon soundtracks on the iTunes Store, we had the opportunity to talk with Mr. Masuda about his more-than-20-year history with video game composition, his creative process, the production of the Pokémon game soundtracks, and much more.
   translation: GAME FREAK的增田顺一最为人熟知的身份大概是游戏总监，最近的作品是《宝可梦 X·Y》。但他最初是一名、并且至今仍是一名天赋出众的音乐作曲家，粉丝们烂熟于心的许多经典宝可梦游戏音乐都出自他手。为纪念宝可梦原声带在iTunes Store上线，我们有机会与增田先生聊了聊他二十多年的电子游戏作曲经历、他的创作过程、宝可梦游戏原声带的制作，以及更多内容。

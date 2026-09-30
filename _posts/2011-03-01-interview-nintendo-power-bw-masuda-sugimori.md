@@ -40,6 +40,8 @@ entities:
   - 杉森建
   works:
   - 宝可梦 黑·白
+topics:
+- 海外媒体专访
 parallel_items:
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/001.jpg

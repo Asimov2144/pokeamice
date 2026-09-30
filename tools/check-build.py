@@ -187,6 +187,34 @@ def main() -> int:
     else:
         check(False, "timeline: 2010 is built")
 
+    # ---- the two cross-cutting hubs (tools/build-hubs.py) ---------------------
+    ov = read(site / "overseas" / "index.html")
+    if ov:
+        cards = ov.select("a.tl-pick[data-hub-item]")
+        check(len(cards) >= 55 and all(exists(site, a.get("href") or "") for a in cards),
+              f"overseas: {len(cards)} interviews, every one resolves")
+        check(len(ov.select("section.tl-era")) >= 4 and len(ov.select("[data-hub-bar] button")) >= 5,
+              f"overseas: {len(ov.select('section.tl-era'))} regions and {len(ov.select('[data-hub-bar] button'))} outlet buttons")
+        check([t for t, _ in trail(ov)][:2] == ["首页", "海外媒体专访"], f"overseas: the crumbs are 首页 › 海外媒体专访 {trail(ov)[:3]}")
+        check(all(exists(site, a.get("href") or "") for a in ov.select(".hub-who a")), "overseas: the people and game chips resolve")
+    else:
+        check(False, "overseas: the page is built")
+    gm = read(site / "games" / "index.html")
+    if gm:
+        games = gm.select("article.hub-game")
+        picks = gm.select(".hub-game__picks a")
+        check(len(games) >= 35 and len(gm.select("section.tl-era")) >= 10, f"games: {len(games)} games in {len(gm.select('section.tl-era'))} groups")
+        check(len(picks) >= 90 and all(exists(site, a.get("href") or "") for a in picks), f"games: {len(picks)} picks, every one resolves")
+        anchors = {g.get("id") for g in games}
+        check(all((a.get("href") or "")[1:] in anchors for a in gm.select(".hub-top a")), "games: the 'most talked about' chips point at cards on the page")
+        check(all(exists(site, a.get("href") or "") for a in gm.select(".hub-game__foot a[href*='/credits/']")), "games: the staff-roll links resolve")
+    else:
+        check(False, "games: the page is built")
+    home = read(site / "index.html")
+    if home:
+        hrefs = {a.get("href") for a in home.select("a.front__tile")}
+        check({"/overseas/", "/games/"} <= hrefs, "home: the shelf has the 海外媒体专访 and 按游戏读 tiles")
+
     # ---- nothing leaked -------------------------------------------------
     leaks = []
     code = re.compile(r"<(code|pre)\b.*?</\1>", re.S | re.I)

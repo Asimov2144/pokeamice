@@ -45,6 +45,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: Following our cover story this month, we had one last chance to sit down with Pokémon Sword and Shield director Shigeru Ohmori and producer Junichi Masuda. While we were sure to ask plenty of serious questions, things went off the rails fast. Before we knew it, we were talking about whether Yoshi was a Pokémon, which legendary Pokémon would emerge victorious, and which Pokémon the two Game Freak figureheads would have if they were gym leaders. You can read the full goofy conversation below.
   translation: "在本月刊载封面故事之后，我们得到了最后一次与《宝可梦 剑·盾》总监大森滋和制作人增田顺一坐下来交谈的机会。我们固然问了不少严肃的问题，但话题很快就跑偏了。不知不觉间，我们聊起了耀西算不算宝可梦、哪只传说的宝可梦会胜出，以及这两位GAME FREAK的领头人如果当道馆馆主会带哪只宝可梦。以下是这段胡闹对话的全文。"

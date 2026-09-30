@@ -44,6 +44,8 @@ workflow:
   translation: deepseek-chat
   proofreading: pending
   published: draft
+topics:
+- 海外媒体专访
 parallel_items:
 - original: 'Next month, Pokémon Sword and Shield will become the first mainline Pokémon role-playing game to debut on a home console. Of course, with Switch, whether it counts as more of a portable console will always be up for debate. But for the first time, the series will sit alongside Nintendo’s premium entries in its key franchises like Super Mario Odyssey and The Legend of Zelda: Breath of the Wild — something certain fans have been anticipating for decades.'
   translation: 下个月，《宝可梦 剑·盾》将成为首款在主机上首发的主系列宝可梦角色扮演游戏。当然，就Switch而言，它是否更应算作便携式主机，始终会有争议。但这是该系列首次与任天堂旗下《超级马力欧 奥德赛》《塞尔达传说 旷野之息》等核心系列的高规格作品并列——这是某些粉丝期待了几十年的事。
