@@ -109,5 +109,5 @@ parallel_items:
   translation: 「宝可梦 feat. 初音未来 Project VOLTAGE 18 Types/Songs」官方X
   note: X指原推特，2023年更名为X。
 - original: 「VOCALOID（ボーカロイド）」および「ボカロ」はヤマハ株式会社の登録商標です。
-  translation: 「VOCALOID（博卡罗伊德）」及「ボカロ」是雅马哈株式会社的注册商标。
+  translation: "“VOCALOID（ボーカロイド）”及“ボカロ”是雅马哈株式会社的注册商标。"
 ---

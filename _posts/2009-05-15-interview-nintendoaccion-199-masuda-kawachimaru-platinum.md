@@ -102,7 +102,7 @@ parallel_items:
 - speaker: Nintendo Acción
   role: question
   original: "Platino es la última edición de una larga serie. ¿Empieza a ser difícil encontrar inspiración para diseñar nuevas criaturas?"
-  translation: "《白金》是漫长系列的最后一个版本。为新的生物寻找设计灵感是不是开始变难了？"
+  translation: "《白金》是漫长系列中的最新一作。为新的宝可梦寻找设计灵感是不是开始变难了？"
 - speaker: 增田顺一
   role: answer
   original: "Seamos honestos. Con DP, sentimos que habíamos llegado al final. Pero entonces te das cuenta de que hay mucho aún por delante. Y empiezas a pensar que no hay límite a la creatividad. Quiero decir que no hay Pokémon de segunda clase. Todos tienen gran calidad y un magnífico diseño. Esto me da confianza sobre lo que podemos conseguir a medida que surgen nuevas ideas para hacer de cada Pokémon una experiencia divertida de juego."
@@ -114,7 +114,7 @@ parallel_items:
 - speaker: 增田顺一
   role: answer
   original: "En realidad no pensamos en una audiencia de edad determinada cuando desarrollamos los juegos. Son para todo el mundo, y cuanta más gente de edad y sexo diferentes se divierta, mejor. Uno de los aspectos principales sigue siendo el intercambio de Pokémon. Esto triunfa más en los niños, lo que explica por qué muchos de ellos son la base de los fans de Pokémon. Pero estamos muy contentos de que incluso la gente más mayor se sienta atraída por los Pokémon. Cuando lanzamos Rojo Fuego y Verde Hoja intentamos expandirnos y atraer a los más mayores. Incluso promocionamos el juego en webs para gente de 60 años o más. Yo oí de una abuela que no sólo se divirtió con el juego sino que estaba feliz de encontrar un nexo común con sus nietos."
-  translation: "其实我们开发游戏时并没有考虑特定年龄的受众。游戏是给所有人的，年龄和性别不同的人玩得开心的越多越好。主要的方面之一仍然是宝可梦的交换。这在孩子中更受欢迎，这也说明了为什么他们中有很多人是宝可梦粉丝的基础。但我们很高兴，连年纪更大的人也被宝可梦吸引。发售《火红／叶绿》的时候，我们尝试扩大范围、吸引年纪更大的人，甚至在面向60岁以上人群的网站上宣传了这款游戏。我听说过一位奶奶，她不但玩得开心，还很高兴找到了和孙子孙女的共同点。"
+  translation: "其实我们开发游戏时并没有考虑特定年龄的受众。游戏是给所有人的，年龄和性别不同的人玩得开心的越多越好。主要的方面之一仍然是宝可梦的交换。这在孩子中更受欢迎，这也说明了为什么很多孩子是宝可梦粉丝的基础。但我们很高兴，连年纪更大的人也被宝可梦吸引。发售《火红／叶绿》的时候，我们尝试扩大范围、吸引年纪更大的人，甚至在面向60岁以上人群的网站上宣传了这款游戏。我听说过一位奶奶，她不但玩得开心，还很高兴找到了和孙子孙女的共同话题。"
 - speaker: Nintendo Acción
   role: question
   original: "¿Cree que los jugadores americanos, europeos y japoneses tienen las mismas costumbres a la hora de jugar? Por cierto, ¿sabe cómo ha ido el lanzamiento en USA o Europa, tras el éxito en Japón?"
@@ -122,7 +122,7 @@ parallel_items:
 - speaker: 河内丸武史
   role: answer
   original: "Aún es pronto para hacernos una idea, porque en USA no lleva mucho tiempo (salió el 22 de marzo) y en Europa llega el 22 de mayo. Pero hemos incluido una función con una idea específica en mente: el vídeo de batalla. Los jugadores de todo el mundo pueden subir su vídeo de batalla a un servidor. Incluí esta función porque me interesaba mucho saber cómo se juega en cada parte del mundo. Así que cada mañana conecto el Wi-Fi y echo un vistazo a estos vídeos."
-  translation: "现在要有个概念还为时过早，因为在美国发售没多久（3月22日发售），欧洲则是5月22日到来。不过，我们加入了一项带着特定想法的功能：对战视频。世界各地的玩家可以把自己的对战视频上传到服务器。我加入这个功能，是因为我非常想知道世界各地是怎么玩的。所以我每天早上都会连上Wi-Fi，看看这些视频。"
+  translation: "现在要下结论还为时过早，因为在美国发售没多久（3月22日发售），欧洲则是5月22日到来。不过，我们加入了一项带着特定想法的功能：对战视频。世界各地的玩家可以把自己的对战视频上传到服务器。我加入这个功能，是因为我非常想知道世界各地是怎么玩的。所以我每天早上都会连上Wi-Fi，看看这些视频。"
 - speaker: Nintendo Acción
   role: question
   original: "Para terminar, ¿puedes decirnos qué fue lo más difícil del desarrollo de Platino?"

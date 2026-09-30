@@ -1,0 +1,33 @@
+{
+ "sig": "f180df33df270c0b",
+ "post": "_posts/2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum.md",
+ "rows": 20,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 12,
+   "kind": "mistranslation",
+   "why": "“última edición”在此语境下指“最新一作”而非“最后一个版本”（系列并未终结）；“criaturas”在宝可梦语境中应译为“宝可梦”，且与下一条译文中将同一词译为“宝可梦”不一致。",
+   "original": "Platino es la última edición de una larga serie. ¿Empieza a ser difícil encontrar inspiración para diseñar nuevas criaturas?",
+   "current": "《白金》是漫长系列的最后一个版本。为新的生物寻找设计灵感是不是开始变难了？",
+   "fix": "《白金》是漫长系列中的最新一作。为新的宝可梦寻找设计灵感是不是开始变难了？"
+  },
+  {
+   "i": 15,
+   "kind": "mistranslation",
+   "why": "原文 muchos de ellos son la base 意为“他们中很多人是基础”，译文“他们中有很多人是宝可梦粉丝的基础”语序导致歧义；un nexo común 指与孙辈的共同纽带/共同话题，译为“共同点”不够准确",
+   "original": "En realidad no pensamos en una audiencia de edad determinada cuando desarrollamos los juegos. Son para todo el mundo, y cuanta más gente de edad y sexo diferentes se divierta, mejor. Uno de los aspectos principales sigue siendo el intercambio de Pokémon. Esto triunfa más en los niños, lo que explica",
+   "current": "其实我们开发游戏时并没有考虑特定年龄的受众。游戏是给所有人的，年龄和性别不同的人玩得开心的越多越好。主要的方面之一仍然是宝可梦的交换。这在孩子中更受欢迎，这也说明了为什么他们中有很多人是宝可梦粉丝的基础。但我们很高兴，连年纪更大的人也被宝可梦吸引。发售《火红／叶绿》的时候，我们尝试扩大范围、吸引年纪更大的人，甚至在面向60岁以上人群的网站上宣传了这款游戏。我听说过一位奶奶，她不但玩得开心，还很高兴找到了和孙子孙女的共同点。",
+   "fix": "其实我们开发游戏时并没有考虑特定年龄的受众。游戏是给所有人的，年龄和性别不同的人玩得开心的越多越好。主要的方面之一仍然是宝可梦的交换。这在孩子中更受欢迎，这也说明了为什么很多孩子是宝可梦粉丝的基础。但我们很高兴，连年纪更大的人也被宝可梦吸引。发售《火红／叶绿》的时候，我们尝试扩大范围、吸引年纪更大的人，甚至在面向60岁以上人群的网站上宣传了这款游戏。我听说过一位奶奶，她不但玩得开心，还很高兴找到了和孙子孙女的共同话题。"
+  },
+  {
+   "i": 17,
+   "kind": "fluency",
+   "why": "“现在要有个概念还为时过早”不通顺，hacernos una idea 意为“了解情况/下结论”",
+   "original": "Aún es pronto para hacernos una idea, porque en USA no lleva mucho tiempo (salió el 22 de marzo) y en Europa llega el 22 de mayo. Pero hemos incluido una función con una idea específica en mente: el vídeo de batalla. Los jugadores de todo el mundo pueden subir su vídeo de batalla a un servidor. Incl",
+   "current": "现在要有个概念还为时过早，因为在美国发售没多久（3月22日发售），欧洲则是5月22日到来。不过，我们加入了一项带着特定想法的功能：对战视频。世界各地的玩家可以把自己的对战视频上传到服务器。我加入这个功能，是因为我非常想知道世界各地是怎么玩的。所以我每天早上都会连上Wi-Fi，看看这些视频。",
+   "fix": "现在要下结论还为时过早，因为在美国发售没多久（3月22日发售），欧洲则是5月22日到来。不过，我们加入了一项带着特定想法的功能：对战视频。世界各地的玩家可以把自己的对战视频上传到服务器。我加入这个功能，是因为我非常想知道世界各地是怎么玩的。所以我每天早上都会连上Wi-Fi，看看这些视频。"
+  }
+ ]
+}

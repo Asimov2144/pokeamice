@@ -1,0 +1,49 @@
+{
+ "sig": "7f166678ce506f9e",
+ "post": "_posts/2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics.md",
+ "rows": 32,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 7,
+   "kind": "mistranslation",
+   "why": "原文 what they can expect 中的 they 指代 G4 readers，译文译成了“有什么可期待的”，丢失了主语“他们”",
+   "original": "Along with millions of competitive players, I'm personally looking forward to Battle Frontier. Would you tell G4 readers what they can expect in Battle Frontier?",
+   "current": "和数百万对战玩家一样，我个人也很期待对战开拓区。你能告诉 G4 的读者，对战开拓区里有什么可期待的吗？",
+   "fix": "和数百万对战玩家一样，我个人也很期待对战开拓区。你能告诉 G4 的读者，他们能在对战开拓区里期待什么吗？"
+  },
+  {
+   "i": 10,
+   "kind": "omission",
+   "why": "原文'There are three legendary Pokemon'（一共有三只传说的宝可梦）被漏译",
+   "original": "In Diamond and Pearl you have Dialga and Palkia. In Platinum you have Giratina. There are three legendary Pokemon and there's a relationship between the three. From there we have a story to move onto with other legendary Pokemon, but at this point that's all I can share.",
+   "current": "在《钻石／珍珠》里有帝牙卢卡和帕路奇亚。在《白金》里有骑拉帝纳。这三只传说的宝可梦之间存在着某种关系。从那里出发，我们还有一段与其他传说的宝可梦相关的故事要展开，但目前我能说的只有这些。",
+   "fix": "在《钻石／珍珠》里有帝牙卢卡和帕路奇亚。在《白金》里有骑拉帝纳。一共有三只传说的宝可梦，这三只之间存在着某种关系。从那里出发，我们还有一段与其他传说的宝可梦相关的故事要展开，但目前我能说的只有这些。"
+  },
+  {
+   "i": 13,
+   "kind": "mistranslation",
+   "why": "原文'dwarf Monster Hunter'意为使《怪物猎人》相形见绌/黯然失色，译文'超过《怪物猎人》'意思有偏差；且'把宝可梦的受欢迎程度用在类似的游戏上'表述不通顺，原文意为将宝可梦的人气用于类似玩法的游戏中",
+   "original": "How about a Pokemon game similar to Capcom's Monster Hunter. That's one of the biggest gaming phenomenons in Japan. Surely the popularity of Pokemon can dwarf Monster Hunter if it's used in a similar game.",
+   "current": "那做一款类似卡普空《怪物猎人》的宝可梦游戏怎么样？《怪物猎人》是日本最大的游戏现象之一。如果把宝可梦的受欢迎程度用在类似的游戏上，肯定能超过《怪物猎人》。",
+   "fix": "那做一款类似卡普空《怪物猎人》的宝可梦游戏怎么样？《怪物猎人》是日本最大的游戏现象之一。如果以类似的方式运用宝可梦的人气，肯定能让《怪物猎人》相形见绌。"
+  },
+  {
+   "i": 20,
+   "kind": "mistranslation",
+   "why": "原文'I'm very happy to hear that'中的'that'指代的是前文小岛秀夫喜欢百变怪这件事，译为'听你这么说'错误地将指代对象变成了采访者说的话",
+   "original": "That's great. I'm very happy to hear that.",
+   "current": "那太好了。听你这么说我很高兴。",
+   "fix": "那太好了。听到这个我很高兴。"
+  },
+  {
+   "i": 22,
+   "kind": "addition",
+   "why": "原文'ask them for me'意为'替我问他们'，译文'自己去问'添加了原文没有的'自己'一词，且改变了原意",
+   "original": "[Laughs] I don't know. You'll have to ask them for me.",
+   "current": "[笑]我不知道。你得自己去问他们。",
+   "fix": "[笑]我不知道。你得替我去问问他们。"
+  }
+ ]
+}

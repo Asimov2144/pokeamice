@@ -1,0 +1,17 @@
+{
+ "sig": "1d41886523428cd5",
+ "post": "_posts/2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music.md",
+ "rows": 22,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 26,
+   "kind": "mistranslation",
+   "why": "「ボーカロイド」是VOCALOID的日文片假名读法，不应音译为“博卡罗伊德”，且引号应使用中文全角引号。",
+   "original": "「VOCALOID（ボーカロイド）」および「ボカロ」はヤマハ株式会社の登録商標です。",
+   "current": "「VOCALOID（博卡罗伊德）」及「ボカロ」是雅马哈株式会社的注册商标。",
+   "fix": "“VOCALOID（ボーカロイド）”及“ボカロ”是雅马哈株式会社的注册商标。"
+  }
+ ]
+}

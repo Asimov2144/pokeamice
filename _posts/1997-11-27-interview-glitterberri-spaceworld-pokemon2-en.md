@@ -72,7 +72,7 @@ parallel_items:
 - original: As for the Pokédex, we tried making a number of different prototypes with different functions. In order for an electronic organizer to be useful, it has to be able to increase your knowledge, right? We thought up several ideas, such as being able to search Pokémon by name and categorize them by type, but I wanted to combine all these features into one. We’ve added new functions, of course, but I think the end result will be convenient and lighten the users’ burden.
   role: answer
   speaker: 田尻智
-  translation: 至于宝可梦图鉴 App，我们尝试做了好几个功能不同的原型。电子记事本要有用，就必须能增加你的知识，对吧？我们想出了好几个点子，比如能按名字搜索宝可梦、按属性分类，但我想把所有这些功能整合到一个里面。我们当然加了新功能，但我认为最终结果会很方便，能减轻用户的负担。
+  translation: "至于宝可梦图鉴，我们尝试做了好几个功能不同的原型。电子记事本要有用，就必须能增加你的知识，对吧？我们想出了好几个点子，比如能按名字搜索宝可梦、按属性分类，但我想把所有这些功能整合到一个里面。我们当然加了新功能，但我认为最终结果会很方便，能减轻用户的负担。"
 - original: The way we’ve approached things is to develop whatever we want without paying any heed to how much memory is available, cutting down on Pokémon we can’t fit in later on.
   role: answer
   speaker: 田尻智
@@ -98,7 +98,7 @@ parallel_items:
 - original: That’s the sort of thing I want to do to make use of the increase in memory. Create things which allow you to grasp the games in more detail, such as the Pokémon Genre magazine I mentioned before. I want players saying “So, this is what Pikachu’s back looks like,” for example. The information in the Pokédex has changed a little in Gold & Silver, so you’ll be able to understand each Pokémon a little better.
   role: answer
   speaker: 田尻智
-  translation: 这就是我想利用内存增加来做的事情。创造一些能让你更细致地理解游戏的东西，比如我之前提到的《宝可梦流派》杂志。我希望玩家会说“原来皮卡丘的背是这样的”。金／银中宝可梦图鉴 App的信息有了一些变化，所以你能更好地了解每一只宝可梦。
+  translation: "这就是我想利用内存增加来做的事情。创造一些能让你更细致地理解游戏的东西，比如我之前提到的《宝可梦流派》杂志。我希望玩家会说“原来皮卡丘的背是这样的”。金／银中宝可梦图鉴的信息有了一些变化，所以你能更好地了解每一只宝可梦。"
 - type: image
   image: /assets/img/interviews/1997-11-27-interview-glitterberri-spaceworld-pokemon2-en/005.png
   alt: Electivire's Held Item
@@ -131,7 +131,7 @@ parallel_items:
 - original: Mew was a Pokémon that didn’t appear in the game itself but was instead attained illegitimately. There were quite a few instances of people doing the trick for fun and succeeding in catching it, then trying again and messing up their game. We’re afraid of that happening again, so we need to be more systematic this time. The whole Mew fiasco became much more widespread than we’d first imagined. That sort of thing also divides the people who come to the actual events to trade Pokémon, so we’re fine-tuning things with the intention of making a special piece of hardware called the Pokémon Machine. Also, though it has nothing to do with actual gameplay, we’re also thinking up ways to support other types of play.
   role: answer
   speaker: 石原恒和
-  translation: 梦幻是一只没有在游戏本身中出现的宝可梦，而是通过非正当手段获得的。有相当多的人为了好玩而使用这个技巧并成功捕获了它，然后再次尝试时却搞坏了游戏。我们担心这种情况再次发生，所以这次需要更加系统化。整个梦幻事件变得比我们最初想象的更为普遍。这种事情也会分化那些来实际活动中交易宝可梦的人，所以我们正在微调，打算制作一个名为宝可梦机器的特殊硬件。此外，虽然与实际游戏玩法无关，我们也在思考支持其他类型玩法的方式。
+  translation: "梦幻是一只没有在游戏中正常出现，而是通过非正规手段获得的宝可梦。有不少人为了好玩尝试这个技巧并成功捕捉到了它，结果再次尝试时却把游戏搞坏了。我们担心这种情况再次发生，所以这次需要更加系统化。整个梦幻风波的扩散范围远超我们最初的想象。这类事情也让那些真正来到线下活动交换宝可梦的人产生了分化，因此我们正在微调相关事项，打算制作一款名为“宝可梦机器”的特殊硬件。此外，虽然这与实际的游戏玩法无关，但我们也在构思支持其他游玩方式的方法。"
   note: >-
     译者注（GlitterBerri）：The problem of people using the Mew glitch was so prevalent, Nintendo made an announcement about it, warning Japanese players that attempting the trick might erase their game, corrupt their data, and corrupt the games of others if they attempted to trade with them.
     中文：使用梦幻漏洞的问题非常普遍，任天堂为此发布了一份公告，警告日本玩家尝试该技巧可能会抹除游戏、损坏数据，并且如果试图与他人交易，还会损坏他人的游戏
@@ -141,7 +141,7 @@ parallel_items:
 - original: I’d like to do an N64 game that supplement the character portraits and memory capacity of the titles. I’m thinking it might be good enough to have a game that’s merely a glorified Pokédex.
   role: answer
   speaker: 宫本茂
-  translation: 我想做一款N64游戏，来补充这些作品的角色肖像和记忆容量。我认为，仅仅做一款美化版的宝可梦图鉴App可能就足够了。
+  translation: "我想做一款N64游戏，来补充这些作品的角色肖像和记忆容量。我认为，仅仅做一款美化版的宝可梦图鉴可能就足够了。"
 - type: image
   image: /assets/img/interviews/1997-11-27-interview-glitterberri-spaceworld-pokemon2-en/008.png
   alt: First Generation Pokémon Series

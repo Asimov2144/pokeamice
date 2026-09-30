@@ -1,0 +1,81 @@
+{
+ "sig": "b25a808288220d5e",
+ "post": "_posts/2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda.md",
+ "rows": 15,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 1,
+   "kind": "term",
+   "why": "Game Freak 应使用本站术语 GAME FREAK",
+   "original": "Junichi Masuda, a member of the Pokémon design team since the first title (as well as a board director of Game Freak) who's held duties ranging from scenario director to music composer, obviously knows the game very well. When asked what he thought the major reason that people still eagerly await th",
+   "current": "增田顺一从首款作品起就是宝可梦设计团队的成员（同时也是Game Freak的董事），担任过从剧本导演到音乐作曲等多种职务，显然对这款游戏非常了解。当被问及他认为人们仍然热切期待每款新作发布的主要原因时，他立刻回答说是简单。\"宝可梦游戏不只面向硬核玩家；它们平易近人，任何人都能上手。任何人都能拿起就玩，不会感到不知所措。当你把太多注意力放在硬核玩家身上时，事情就会变得复杂。\"而且，凭借可爱的画面、周六早晨卡通片的联动以及简化的叙事，这款游戏显然偏向年轻受众。但它在成年人中几乎同样受欢迎，原因归结于出色的游戏设计。",
+   "fix": "增田顺一从首款作品起就是宝可梦设计团队的成员（同时也是GAME FREAK的董事），担任过从剧本导演到音乐作曲等多种职务，显然对这款游戏非常了解。当被问及他认为人们仍然热切期待每款新作发布的主要原因时，他立刻回答说是简单。“宝可梦游戏不只面向硬核玩家；它们平易近人，任何人都能上手。任何人都能拿起就玩，不会感到不知所措。当你把太多注意力放在硬核玩家身上时，事情就会变得复杂。”而且，凭借可爱的画面、周六早晨卡通片的联动以及简化的叙事，这款游戏显然偏向年轻受众。但它在成年人中几乎同样受欢迎，原因归结于出色的游戏设计。"
+  },
+  {
+   "i": 3,
+   "kind": "mistranslation",
+   "why": "the capacity for endless grinding 意为“能够无尽刷练”这一客观可能性，而非玩家的“能力”",
+   "original": "The Pokémon games have some cute, original creature designs, but beyond their cuddly forms (and the hulking monsters many of them grow into) there are a lot of them -- 493 at last count. And, like with any repetitive game that offers rewards directly related to time spent in the game (see also World",
+   "current": "宝可梦游戏有一些可爱、原创的生物设计，但除了它们可爱的外形（以及许多最终进化成的庞大怪物）之外，它们的数量很多——最近统计有493种。而且，就像任何一款奖励与游戏时间直接挂钩的重复性游戏一样（参见《魔兽世界》和《最终幻想水晶编年史：时之回声》），为了提升角色等级哪怕一点点而进行无尽刷练的能力是一种近乎原始的欲望，特别适合游戏。对于休闲收集者来说，以最低要求通关故事可能就够了。但可以花费无数小时探索游戏世界，寻找每一只稀有的宝可梦——然后还要花更多时间将它们升级。从外部看，这似乎是一项艰苦的任务，但在熟悉和重复中有很大的安慰。",
+   "fix": "宝可梦游戏有一些可爱、原创的生物设计，但除了它们可爱的外形（以及许多最终进化成的庞大怪物）之外，它们的数量很多——最近统计有493种。而且，就像任何一款奖励与游戏时间直接挂钩的重复性游戏一样（参见《魔兽世界》和《最终幻想水晶编年史：时之回声》），为了提升角色等级哪怕一点点而进行无尽刷练的可能性激发了一种近乎原始的欲望，特别适合游戏。对于休闲收集者来说，以最低要求通关故事可能就够了。但可以花费无数小时探索游戏世界，寻找每一只稀有的宝可梦——然后还要花更多时间将它们升级。从外部看，这似乎是一项艰苦的任务，但在熟悉和重复中有很大的安慰。"
+  },
+  {
+   "i": 4,
+   "kind": "term",
+   "why": "Game Freak 应使用本站术语 GAME FREAK",
+   "original": "And unlike many other games that make the player start over with each new iteration, Pokémon (with one exception) allows players to transfer their previously caught creatures to the next title in the series. The exception occurred when the Game Boy transitioned to the Game Boy Advance -- the origina",
+   "current": "与许多让玩家在每一代新作中从头开始的游戏不同，宝可梦（有一个例外）允许玩家将之前捕获的生物转移到系列下一款作品中。例外发生在Game Boy过渡到Game Boy Advance时——原版卡带与重新设计的系统不兼容，无法将《红/蓝》和《金/银》中的宝可梦转移到《红宝石/蓝宝石》。但Game Freak在第四代DS作品中纠正了这个错误：《钻石/珍珠》提供了从GBA向DS转移宝可梦的功能。但这都是维持受众的另一种方式；当玩家觉得今天捕获的宝可梦在下一款游戏中仍然是可用的队伍成员时，就会鼓励对系列的忠诚。",
+   "fix": "与许多让玩家在每一代新作中从头开始的游戏不同，宝可梦（有一个例外）允许玩家将之前捕获的生物转移到系列下一款作品中。例外发生在Game Boy过渡到Game Boy Advance时——原版卡带与重新设计的系统不兼容，无法将《红/蓝》和《金/银》中的宝可梦转移到《红宝石/蓝宝石》。但GAME FREAK在第四代DS作品中纠正了这个错误：《钻石/珍珠》提供了从GBA向DS转移宝可梦的功能。但这都是维持受众的另一种方式；当玩家觉得今天捕获的宝可梦在下一款游戏中仍然是可用的队伍成员时，就会鼓励对系列的忠诚。"
+  },
+  {
+   "i": 5,
+   "kind": "punct",
+   "why": "中文句子里出现了半角双引号 \" \"",
+   "original": "But what might also be artificially inflating the number Pokémon copies sold is that while the two versions that come out in each new generation follow the exact same story, certain pokémon are rare-to-nonexistent in one title, while abundant in the other. To truly catch all of the game's myriad pok",
+   "current": "但可能人为抬高宝可梦销量的另一个原因是，虽然每一代推出的两个版本遵循完全相同的故事，但某些宝可梦在一个版本中稀有甚至不存在，而在另一个版本中却很丰富。要真正捕获游戏中所有众多宝可梦，玩家必须与拥有对应游戏的朋友连接并交换生物（或者同时购买《钻石》和《珍珠》各一份，然后各自通关多次）。据增田说，这不仅仅是一款电子游戏，而是一种共享体验——对于这种体验，\"表达你想要什么、在交换和对战时交流是很重要的。\"",
+   "fix": "但可能人为抬高宝可梦销量的另一个原因是，虽然每一代推出的两个版本遵循完全相同的故事，但某些宝可梦在一个版本中稀有甚至不存在，而在另一个版本中却很丰富。要真正捕获游戏中所有众多宝可梦，玩家必须与拥有对应游戏的朋友连接并交换生物（或者同时购买《钻石》和《珍珠》各一份，然后各自通关多次）。据增田说，这不仅仅是一款电子游戏，而是一种共享体验——对于这种体验，“表达你想要什么、在交换和对战时交流是很重要的。”"
+  },
+  {
+   "i": 7,
+   "kind": "punct",
+   "why": "中文句子里出现了半角引号\"，应改为全角引号“”",
+   "original": "Platinum's director, Takeshi Kawachimaru, describes the Pokémon universe as \"a very specific world, but I think players feel comfortable in that world. And they want to keep going back, because it feels so comfortable.\" And the reason for that is that Game Freak provides reasons to stay there beyond",
+   "current": "《白金》的总监河内丸武史描述宝可梦宇宙为\"一个非常特定的世界，但我认为玩家在那个世界里感到舒适。他们想不断回去，因为感觉太舒适了。\"而原因在于Game Freak提供了主线游戏之外留在那里的理由。《红宝石/蓝宝石》为系列引入了休闲友好的宝可梦华丽大赛——一种类似犬展的宝可梦活动。标准对战招式都有替代描述，以独特方式影响大赛评委，还有一套只能通过有条理的梳理和表演竞赛获得的徽章和奖项。",
+   "fix": "《白金》的总监河内丸武史描述宝可梦宇宙为“一个非常特定的世界，但我认为玩家在那个世界里感到舒适。他们想不断回去，因为感觉太舒适了。”而原因在于GAME FREAK提供了主线游戏之外留在那里的理由。《红宝石／蓝宝石》为系列引入了休闲友好的宝可梦华丽大赛——一种类似犬展的宝可梦活动。标准对战招式都有替代描述，以独特方式影响大赛评委，还有一套只能通过有条理的梳理和表演竞赛获得的徽章和奖项。"
+  },
+  {
+   "i": 7,
+   "kind": "term",
+   "why": "Game Freak 未按本站术语规范译为 GAME FREAK",
+   "original": "Platinum's director, Takeshi Kawachimaru, describes the Pokémon universe as \"a very specific world, but I think players feel comfortable in that world. And they want to keep going back, because it feels so comfortable.\" And the reason for that is that Game Freak provides reasons to stay there beyond",
+   "current": "《白金》的总监河内丸武史描述宝可梦宇宙为\"一个非常特定的世界，但我认为玩家在那个世界里感到舒适。他们想不断回去，因为感觉太舒适了。\"而原因在于Game Freak提供了主线游戏之外留在那里的理由。《红宝石/蓝宝石》为系列引入了休闲友好的宝可梦华丽大赛——一种类似犬展的宝可梦活动。标准对战招式都有替代描述，以独特方式影响大赛评委，还有一套只能通过有条理的梳理和表演竞赛获得的徽章和奖项。",
+   "fix": "《白金》的总监河内丸武史描述宝可梦宇宙为“一个非常特定的世界，但我认为玩家在那个世界里感到舒适。他们想不断回去，因为感觉太舒适了。”而原因在于GAME FREAK提供了主线游戏之外留在那里的理由。《红宝石／蓝宝石》为系列引入了休闲友好的宝可梦华丽大赛——一种类似犬展的宝可梦活动。标准对战招式都有替代描述，以独特方式影响大赛评委，还有一套只能通过有条理的梳理和表演竞赛获得的徽章和奖项。"
+  },
+  {
+   "i": 8,
+   "kind": "mistranslation",
+   "why": "1) 'no game made that connection quite as apparent as Pokémon Yellow' 意为没有游戏像黄版那样让联系如此明显，译文误译为'更明显地建立了这种联系'；2) trainers 应统一译为本系列术语'训练家'而非'训练师'；3) happiness leve",
+   "original": "But there's another game-within-the game at work in Pokémon, made to resonate with the casual audience: the player's relationship with their pokémon. And no game made that connection quite as apparent as Pokémon Yellow. After the raging success of the Pokémon TV show and the incredible love viewers ",
+   "current": "但宝可梦中还有另一个游戏中的游戏在起作用，旨在与休闲受众产生共鸣：玩家与他们的宝可梦之间的关系。没有哪款游戏比《宝可梦 黄》更明显地建立了这种联系。在宝可梦电视动画大获成功、观众对某只电老鼠表现出难以置信的喜爱之后，开发者将起始宝可梦改为皮卡丘，并让玩家在整个冒险过程中与它对话。如果它保持健康并训练有素，每当玩家与它互动时，它都会表达快乐，而反复让这只老鼠昏倒或把它关在精灵球里的糟糕训练师只会收到伙伴的不快乐信息。这种游戏机制在系列后续作品中延续下来。虽然直到《钻石/珍珠》才变得相当明显——该作添加了特定配件，让玩家可以关注宝可梦的幸福等级。",
+   "fix": "但宝可梦中还有另一个游戏中的游戏在起作用，旨在与休闲受众产生共鸣：玩家与他们的宝可梦之间的关系。没有哪款游戏像《宝可梦 黄》那样让这种联系变得如此明显。在宝可梦电视动画大获成功、观众对某只电老鼠表现出难以置信的喜爱之后，开发者将起始宝可梦改为皮卡丘，并让玩家在整个冒险过程中与它对话。如果它保持健康并训练有素，每当玩家与它互动时，它都会表达快乐，而反复让这只老鼠昏倒或把它关在精灵球里的糟糕训练家只会收到伙伴的不快乐信息。这种游戏机制在系列后续作品中延续下来。虽然直到《钻石／珍珠》才变得相当明显——该作添加了特定配件，让玩家可以关注宝可梦的友好度。"
+  },
+  {
+   "i": 10,
+   "kind": "addition",
+   "why": "'整座整座的网站'属于过度翻译，原文 entire websites 只是'整个网站'的意思，并无强调数量之多的修辞",
+   "original": "But underneath that sugar-coated veneer of Pokémon is a game that, for all its pick up and playability, still rewards dedicated, extremely hardcore players. Entire websites are dedicated to tracking a pokémon's Effort Value (EV) and Individual Values (IV). It's only exploited by a small percentage o",
+   "current": "但在宝可梦那层糖衣般的外表之下，这款游戏虽然上手容易、随时可玩，却依然能回馈那些投入极深、极其硬核的玩家。有整座整座的网站专门用来追踪宝可梦的努力值（EV）和个体值（IV）。这些机制只被一小部分粉丝群体所利用，但确实有整座整座的网站专门用于培育、养成和培养拥有尽可能高数值的对战宝可梦。而且，由于这些数值没有任何可见的方式被追踪，普通玩家根本无从得知它们的任何信息。",
+   "fix": "但在宝可梦那层糖衣般的外表之下，这款游戏虽然上手容易、随时可玩，却依然能回馈那些投入极深、极其硬核的玩家。整个网站都专门用来追踪宝可梦的努力值（EV）和个体值（IV）。这些机制只被一小部分粉丝群体所利用，但确实有整个网站专门用于培育、养成和培养拥有尽可能高数值的对战宝可梦。而且，由于这些数值没有任何可见的方式被追踪，普通玩家根本无从得知它们的任何信息。"
+  },
+  {
+   "i": 14,
+   "kind": "term",
+   "why": "Game Freak 应使用本站术语 GAME FREAK；face-to-face experience 译为“对面体验”不通顺，应为“面对面的体验”",
+   "original": "If Pokémon continues its current trend, there won't be another major release in the franchise until a new handheld reaches the market, and when asked about it, Masuda said that the design team is always looking for a challenge, but \"the handheld system is the most suitable for Pokémon.\" The DS, with",
+   "current": "如果宝可梦延续当前的趋势，那么在该系列中就不会再有另一款重大作品问世，直到新的掌机上市；当被问及此事时，增田表示设计团队一直在寻找挑战，但“掌机系统最适合宝可梦”。DS 已售出 2700 万台硬件，提供了极其广泛的玩家基础，而且除了任天堂自家的马力欧之外，没有另一个同时面向休闲与硬核玩家的系列拥有如此深厚的历史。增田还补充说，正如电话会议不如面对面会面那样有参与感，宝可梦的魅力在于它最适合面对面享受。即使该系列扩展到网络上，核心体验仍将是对面体验。在不久的将来，也许不会有 MMO，甚至不会有主机平台的大型作品，但只要任天堂和 Game Freak 维持合作关系，宝可梦游戏就会在很长一段时间内继续出现在地平线上，并位居销售榜前列。",
+   "fix": "如果宝可梦延续当前的趋势，那么在该系列中就不会再有另一款重大作品问世，直到新的掌机上市；当被问及此事时，增田表示设计团队一直在寻找挑战，但“掌机系统最适合宝可梦”。DS 已售出 2700 万台硬件，提供了极其广泛的玩家基础，而且除了任天堂自家的马力欧之外，没有另一个同时面向休闲与硬核玩家的系列拥有如此深厚的历史。增田还补充说，正如电话会议不如面对面会面那样有参与感，宝可梦的魅力在于它最适合面对面享受。即使该系列扩展到网络上，核心体验仍将是面对面的体验。在不久的将来，也许不会有 MMO，甚至不会有主机平台的大型作品，但只要任天堂和 GAME FREAK 维持合作关系，宝可梦游戏就会在很长一段时间内继续出现在地平线上，并位居销售榜前列。"
+  }
+ ]
+}

@@ -46,18 +46,6 @@ parallel_items:
   translation: 刊载于Nintendo DREAM 2010年1月号的宝可梦BW访谈。
   level: 2
   note: Nintendo DREAM是日本德间书店发行的游戏杂志。
-- type: paragraph
-  original: キャラクターデザインについて    各キャラクターのデザインについての要約
-  translation: 关于角色设计    各角色设计的摘要
-- type: heading
-  original: 影山が語る増田が作るサウンドについて
-  translation: 影山谈增田制作的音效
-  level: 3
-  note: 影山指影山雅司，增田指增田顺一，均为Game Freak成员。
-- type: heading
-  original: キャラクターデザインについて
-  translation: 关于角色设计
-  level: 3
 - type: heading
   original: ニンドリの杉森が語る主人公(とついでにN)
   translation: Nintendo DREAM上杉森谈主人公（顺便也谈了N）
@@ -86,7 +74,7 @@ parallel_items:
   translation: 此前虽然也有戴帽子的男主角，但没有戴帽子的女主角。
 - type: paragraph
   original: 増田のイメージを絵にする部署があって、そこにいる女性デザイナーがイッシュ地方のデザインを始め、Nやゲーチス、プラズマ団をデザインに起こした
-  translation: 有一个部门负责把增田的印象画成图，那里的女性设计师开始设计合众地区，并绘制了N、魁奇思和等离子团的设计稿。
+  translation: "有一个部门负责把增田的印象画成图，那里的女性设计师开始设计合众地区，并绘制了N、魁奇思和等离子队的设计稿。"
   note: 增田指增田顺一，Game Freak 董事，宝可梦系列主要作曲家。
 - type: heading
   original: 杉森が語るN
@@ -112,10 +100,10 @@ parallel_items:
   translation: 关于魁奇思也有详细的设定，设计N的那位设计师就是基于这些设定来设计的。总之，魁奇思方面是想要做出一种异样的感觉。
 - type: paragraph
   original: かなり異様な服を着ていて、異様な姿をしています。
-  translation: 他们穿着相当奇异的服装，外形也很怪异。
+  translation: "他穿着相当奇异的服装，外形也很怪异。"
 - type: paragraph
   original: プラズマ団自体は、中世の騎士団みたいなイメージですね。ロゴもそんな感じです。ただしたっぱのデザインは毎回割と悩むんですよ。今回したっぱを描いたのは大村なんですけど。
-  translation: 等离子团本身给人的印象，就像中世纪的骑士团。标志也是那种感觉。不过手下的设计每次都会让我相当头疼。这次画手下的是大村。
+  translation: "等离子队本身给人的印象，就像中世纪的骑士团。标志也是那种感觉。不过手下的设计每次都会让我相当头疼。这次画手下的是大村。"
   note: 大村是宝可梦系列的角色设计师大村祐介。
 - type: heading
   original: 大村
@@ -211,17 +199,17 @@ parallel_items:
   translation: 年龄比外表看起来大，自称“做梦的少女”。和红豆杉差不多同岁。
 - type: paragraph
   original: 一般トレーナーの女性研究員のドットをベースに作ったゲームシンク解説要因
-  translation: 以一般训练家的女性研究员的像素为基础，制作了游戏同步的解说员。
+  translation: "以一般训练家的女性研究员的像素图为基础制作的游戏同步解说角色。"
 - type: paragraph
   original: すぐに妄想に走りそうな、ちょっととろんとした目をしている
-  translation: 眼神有些慵懒，似乎随时会陷入妄想
+  translation: "眼神有些慵懒，似乎随时会陷入妄想。"
 - type: heading
   original: N
   translation: N
   level: 3
 - type: paragraph
   original: 天才ならではの危うい感じで中性的、芸術家のような感じで主人公に近いデザイン
-  translation: 带着天才特有的危险气质，中性，像艺术家一样，设计上接近主角
+  translation: "带着天才特有的危险气质，中性，像艺术家一样，设计上接近主角。"
 - type: heading
   original: ストレートなイケメンだけどちょっと普通とは違う人
   translation: 是直率的帅哥，但有些与众不同
@@ -239,7 +227,7 @@ parallel_items:
   translation: 总之很怪异，穿着相当怪异的服装，外形也很怪异的设计
 - type: paragraph
   original: プラズマ団のしたっぱやロゴは「中世の王を守る騎士」のイメージ
-  translation: 等离子团的手下和标志以“中世纪守护国王的骑士”为意象
+  translation: "等离子队的手下和标志以“中世纪守护国王的骑士”为意象"
 - type: heading
   original: サンヨウトリオ
   translation: 三曜三人组
@@ -260,7 +248,7 @@ parallel_items:
   level: 3
 - type: heading
   original: 一言で言うと肝っ玉母ちゃん
-  translation: 用一句话来说就是有胆量的妈妈
+  translation: "用一句话来说就是性格豪爽、有魄力的母亲"
   level: 3
 - type: paragraph
   original: 黒人の女性で、迫力のある体つきというか、母性を込めてほしいというオーダーで作られた
@@ -287,7 +275,7 @@ parallel_items:
   level: 3
 - type: heading
   original: モデルだから他の人とは一線を画するほど足が長い
-  translation: 因为是模特，所以腿长得和其他人拉开了一条界线
+  translation: "因为是模特，所以腿长得和其他人完全不在一个级别"
   level: 3
 - type: paragraph
   original: モデルはファッションショーで無表情で歩いて、くるっと回って帰るのがロボットみたいだから
@@ -357,12 +345,12 @@ parallel_items:
   translation: 人类
   level: 3
 - type: paragraph
-  original: 主人公、アララギ博士、アララギパパ、チェレン、ベル、マコモ、プラズマ団、ゲーチス、N、もろこし兄弟、アロエ、アーティ、ヤーコン、
-  translation: 主人公、红豆杉博士、红豆杉爸爸、黑连、白露、真菰、等离子团、魁奇思、N、玉米兄弟、芦荟、亚堤、菊老大、
+  original: "主人公、アララギ博士、アララギパパ、チェレン、ベル、マコモ、プラズマ団、ゲーチス、N、もろこし兄弟、アロエ、アーティ、ヤーコン、カミツレ、フウロ"
+  translation: "主人公、红豆杉博士、红豆杉爸爸、黑连、白露、真菰、等离子队、魁奇思、N、玉米兄弟、芦荟、亚堤、菊老大、小菊儿、风露"
   note: 玉米兄弟指合众地区三曜市道馆的三位馆主，分别使用草、火、水属性。
 - type: heading
-  original: カミツレ、フウロ
-  translation: 小菊儿、风露
+  original: "影山が語る増田が作るサウンドについて"
+  translation: "影山谈增田制作的音效"
   level: 3
 - type: paragraph
   original: 今回のNと勝負する時の曲だと、一つの音や、小節単位に、すべて意味をもたせてある。
@@ -407,62 +395,4 @@ parallel_items:
 - type: paragraph
   original: 曲調をワルツにしたのは、アイデアが突如ひらめいたからですかね(笑)
   translation: 把曲调做成华尔兹，是因为灵感突然闪现吧（笑）
-- type: paragraph
-  original: ttp://imepita.jp/20101119/614830
-  translation: ttp://imepita.jp/20101119/614830
-- type: paragraph
-  original: '>開発中盤までは男性で、しかも太ったおっさんと老人という杉森いわく最悪の組み合わせ'
-  translation: '>直到开发中期都设定为男性，而且还是胖大叔和老人这种杉森口中最为糟糕的组合'
-- type: paragraph
-  original: 杉森が増田に博士を女にしろと文句を言った。
-  translation: 杉森向增田抱怨，说博士应该做成女的。
-  note: 增田顺一，Game Freak 董事，宝可梦系列主要开发者之一。
-- type: heading
-  original: 杉森ｗｗｗ
-  translation: 杉森www
-  level: 3
-- type: heading
-  original: ドットの秘話も載ってて面白い
-  translation: 还刊载了像素画的幕后故事，挺有意思的。
-  level: 3
-- type: heading
-  original: 重いポケモンは土煙が出るようにしたとか
-  translation: 比如沉重的宝可梦会扬起尘土之类的。
-  level: 3
-- type: heading
-  original: OLの脚はやっぱりこだわったのなｗ
-  translation: OL的腿脚果然还是下了功夫的啊w
-  level: 3
-  note: OL 指办公室女职员，此处指游戏中的女性上班族角色。
-- type: paragraph
-  original: '>杉森　OLは妙に好評だなあ(笑)。'
-  translation: '>杉森　OL莫名地好评呢（笑）。'
-- type: paragraph
-  original: '>海野　好評ですね(笑)。'
-  translation: '>海野　确实好评呢（笑）。'
-  note: 海野隆雄，当时任株式会社宝可梦的董事。
-- type: heading
-  original: っていうのはやっぱりネット上の評判のことなのかね
-  translation: 这么说的话，果然还是指网上的评价吧。
-  level: 3
-- type: paragraph
-  original: さすがにゲーフリ宛てに「OLのグラが良かったです」なんて
-  translation: 总不至于有很多用户会往Game Freak寄
-  note: Game Freak，宝可梦系列开发公司。
-- type: paragraph
-  original: 極端な感想を送りつけるユーザーがたくさんいたとは思えない
-  translation: “OL的图形做得真好”这种极端的感想吧。
-- type: paragraph
-  original: ちなみに二人がこう答えてるのはインタビュアー側がOLの話を振ったから
-  translation: 顺带一提，两人之所以这样回答，是因为采访者一方抛出了关于OL的话题。
-  note: OL指日本职场中的女性职员（office lady）。
-- type: paragraph
-  original: もし同じく人気のエリトレ♀の話を振ってたらケツについて語っていたのかも・・・
-  translation: 如果同样抛出关于人气精英训练家♀的话题，说不定他们就会聊起屁股了……
-- type: paragraph
-  original: もうやだこいつら （話題を最初に探し当てた人・談）。
-  translation: 真是受不了这帮家伙（最先找到这个话题的人·谈）。
-- type: paragraph
-  original: ちなみにOLのグラフィックを担当したのは、女性デザイナーとのこと。
-  translation: 顺带一提，负责OL图像的是女性设计师。
 ---

@@ -307,7 +307,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: いやいや(笑)。『赤・緑』の発売日は、一般人として買いに行ったんです。だから、そこから本当にポケモンを好きになったところがありまして…。
-    translation: 不不不（笑）。《红·绿》发售那天，我是作为一个普通人去买来玩的。所以，从那时起我才真正喜欢上了宝可梦……
+    translation: "不不不（笑）。《红·绿》发售那天，我是作为一个普通人去买的。所以，从那时起我才真正喜欢上了宝可梦……"
   - speaker: ──
     type: paragraph
     kind: text
@@ -537,7 +537,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: ところで『ルビー・サファイア』の次のソフトは、それらのバージョン違いという展開を予想する人が多かったと思うんですよ。それが、いい意味で裏切られましたね。
-    translation: 话说回来，我想有很多人预测《红宝石·蓝宝石》之后的软件会以那种版本差异的形式展开。结果却以好的方式被背叛了。
+    translation: "话说回来，我想有很多人预测《红宝石·蓝宝石》之后的软件会以那种版本差异的形式展开。结果却出乎意料地带来了惊喜呢。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1007,7 +1007,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: やっぱり「あらすじ機能」に尽きるでしょう。僕は最初、「絶対しんどいからやめてくれ」って言ったんですけど、増田と、そのプログラムを担当する人間が意欲満々に「やります！」って言うので、「じゃあ、がんばれよ」とナマ暖かく見守ってました（笑）。
-    translation: 果然还是「摘要功能」吧。我一开始说「这绝对很吃力，别做了」，但增田和负责那个程序的人干劲十足地说「我们要做！」，我就说「那你们加油吧」，温温吞吞地在一旁看着（笑）。
+    translation: "果然还是「梗概功能」吧。我一开始说「这绝对很吃力，别做了」，但增田和负责那个程序的人干劲十足地说「我们要做！」，我就说「那你们加油吧」，温温吞吞地在一旁看着（笑）。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1067,7 +1067,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 「あらすじ機能」を入れたのは、しばらくプレイせずに置いておくということを想定して…？
-    translation: 加入“梗概功能”，是设想了玩一阵子就搁置不玩的情况吗……？
+    translation: "加入“梗概功能”，是设想了会搁置一段时间不玩的情况吗……？"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1097,7 +1097,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: あと女の子って、けっこう遊び時間が空くので「あらすじ機能」があると便利かなと。それに、「あらすじ」が残っていると、中古屋さんに売りたくなくなるかもしれないし。
-    translation: 还有，女孩子玩游戏的空档时间挺多的，有“梗概功能”应该会方便些。而且，如果“梗概”还留着，说不定就不想卖给二手店了。
+    translation: "还有，女孩子玩游戏间隔的时间挺长的，有“梗概功能”应该会方便些。而且，如果“梗概”还留着，说不定就不想卖给二手店了。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1127,7 +1127,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ↑とても便利なあらすじ機能。前回プレイしたときに、ショップでいくら使ったのかもわかったりするのだ
-    translation: ↑非常方便的梗概功能。还能知道上次游玩时在商店花了多少钱
+    translation: "↑非常方便的梗概功能。还能知道上次游玩时在商店花了多少钱。"
   - speaker: 広報
     type: paragraph
     kind: text
@@ -1177,7 +1177,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 電車の中で『ポケモン』をはじめるじゃないですか。するとあらすじ機能が「あなたの前回のプレイはこうでしたよね」って教えてくれますよね。それを見ると、「お、オレのこと覚えてくれてるよ！」って思うんですよ（笑）。
-    translation: 在电车上开始玩《宝可梦》的时候，不是会有剧情摘要功能吗。它会告诉你“你上次玩到的是这里哦”。看到这个，我就会想“哦，它还记着我呢！”（笑）。
+    translation: "在电车上开始玩《宝可梦》的时候，梗概功能会告诉你“你上次是这样玩的哦”。看到这个，我就会想“哦，它还记着我呢！”（笑）。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1197,7 +1197,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: そうですね。「1回話を聞いただけ、どういう人か忘れちゃった…」という人のためのものです。でも、「ボイスチェッカー」とか「ヘルプ」といった機能は、普段からゲームをやってる人はあんまり使わないんじゃないかと思うんですね。それで、GBアドバンスだと、LRボタンって、つい押しちゃうことがあるじゃないですか。初心者ほど、知らないうちに押すケースがあると思う
-    translation: 是的。这是为那些“只听过一次对话，就忘了对方是什么人……”的人准备的。不过，“声音记录器”和“帮助”这类功能，平时就玩游戏的人大概不太会用吧。而且，在GB Advance上，L、R键有时候会不小心按到。越是新手，越有可能在不知不觉中按到，
+    translation: "是的。这是为那些“只听过一次对话，就忘了对方是什么人……”的人准备的。不过，“声音检查器”和“帮助”这类功能，平时就玩游戏的人大概不太会用吧。而且，在GB Advance上，L、R键有时候会不小心按到。越是新手，越有可能在不知不觉中按到，"
   - type: heading
     kind: text
     region_type: heading
@@ -1337,7 +1337,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: そうですね。常に新しいユーザーをふくらませて、いままでのユーザーも遊べるというのが理想だと思うんですよ。でも、いままでのユーザーだけを相手にしていると、そこから減ることしかないですよね。それでふくらませるにはどうしたらいいのかをずっと考えていましたね。それに、自分がファミコンで初めてプレイしたのは『ゼビウス』だったりするんですけど、そのように初めてやったゲームって、いくつになっても覚えているじゃないですか。『ポケモン』もそういうゲームにしたいなと思ってるんです。
-    translation: 是的。不断让新玩家加入进来，同时老玩家也能继续玩，我觉得这才是理想状态。可是如果只盯着老玩家，那人数只会不断减少。所以怎么才能把盘子做大，我一直在想这个问题。另外，我自己第一次在任天堂上玩的游戏是《铁板阵》，像这样第一次玩的游戏，不管到多大年纪都还记得，不是吗？我也希望《宝可梦》能成为这样的游戏。
+    translation: "是的。不断让新玩家加入进来，同时老玩家也能继续玩，我觉得这才是理想状态。可是如果只盯着老玩家，那人数只会不断减少。所以怎么才能把盘子做大，我一直在想这个问题。另外，我自己第一次在红白机上玩的游戏是《铁板阵》，像这样第一次玩的游戏，不管到多大年纪都还记得，不是吗？我也希望《宝可梦》能成为这样的游戏。"
   - type: heading
     kind: text
     region_type: heading
@@ -1998,7 +1998,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: セレビイのように『コロシアム』の予約特典ディスクでしか手に入らないポケモンもいますので、その意味で「ほぼ」ということになりますね。
-    translation: 也有像雪拉比那样只能在《圆形竞技场》的预约特典光盘里获得的宝可梦，从这个意义上说，就是“几乎”了。
+    translation: "也有像时拉比那样只能在《圆形竞技场》的预约特典光盘里获得的宝可梦，从这个意义上说，就是“几乎”了。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2038,7 +2038,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: ↑ファミコンの展示会「レベルX」の会場に現れた田尻智さん。言うまでもないことだけど『ポケモン』の生みの親であり、ゲームフリークの社長さんでもあるのだ
-    translation: ↑出现在任天堂展示会“LEVEL X”会场的田尻智。不用说，他既是《宝可梦》的创造者，也是GAME FREAK的社长。
+    translation: "↑出现在红白机展示会“LEVEL X”会场的田尻智。不用说，他既是《宝可梦》的创造者，也是GAME FREAK的社长。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2288,7 +2288,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: CMで、野生のピカチュウに出会うシーンを使いたいと思って、何度もやったんですけど、出ないんですよね〜（笑）。ずっと録画テープを回しながらプレイしたんですけど、ずいぶん使っちゃいましたねえ。
-    translation: 宣传方面，我们想在广告里用遇到野生皮卡丘的场景，试了好多次，但就是不出来呢～（笑）。一直开着录像带在玩，结果用了相当多带子。
+    translation: "我们想在广告里用遇到野生皮卡丘的场景，试了好多次，但就是不出来呢～（笑）。一直开着录像带在玩，结果用了相当多带子。"
   - speaker: 西野弘二
     type: paragraph
     kind: text
@@ -2318,7 +2318,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: えーっと……忘れました（笑）。こっそりやってるんで、覚えてないんですよ。
-    translation: 呃……忘了（笑）。因为是偷偷在玩，所以记不住。
+    translation: "呃……忘了（笑）。因为是偷偷做的，所以记不住。"
   - speaker: 全体
     type: paragraph
     kind: text
@@ -2538,7 +2538,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: （しれっとしながら）もう慣れちゃったけどね。
-    translation: （若无其事地）已经习惯了就是。
+    translation: "（若无其事地）不过已经习惯了。"
   - speaker: 全体
     type: paragraph
     kind: text

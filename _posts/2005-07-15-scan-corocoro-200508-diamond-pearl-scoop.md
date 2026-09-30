@@ -94,7 +94,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 世界最速! ポケモン最新作独占スクープ!!
-    translation: 世界最快！宝可梦最新作独家独家报道！！
+    translation: "世界最快！宝可梦最新作独家报道！！"
   - type: heading
     kind: text
     region_type: heading
@@ -134,7 +134,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "杉森氏の直筆新ポケモン&サイン色紙を5名にプレゼント!!!"
-    translation: 将赠送杉森先生亲笔绘制的新宝可梦与签名的彩色纸给5名读者！！！
+    translation: "将赠送杉森先生亲笔绘制的新宝可梦与签名色纸给5名读者！！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -144,7 +144,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "杉森氏から新ポケモンを描いたサイン色紙をもらったぞ。世界に1枚だけ! 1枚ずつ計5名にプレゼント!!"
-    translation: 我们拿到了杉森先生绘制新宝可梦的签名彩色纸。全世界仅此一张！每张不同，共5名赠送！！
+    translation: "我们拿到了杉森先生绘制新宝可梦的签名色纸。全世界仅此一张！每张不同，共赠送给5名！！"
   - speaker: note
     type: paragraph
     kind: text
@@ -154,7 +154,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "おうぼのきまり ハガキにキミの郵便番号・住所・氏名・年齢・性別を書いて下記のあて先まで送ってね。\nあて先 〒101-8023 東京神田郵便局私書箱93号\n小学館 コロコロ㊙「ポケモン色紙」係\nしめ切り: 8月10日 発表: 月刊コロコロ10月号"
-    translation: "报名规则：请在明信片上写下你的邮政编码、地址、姓名、年龄、性别，寄到以下地址。\n地址：〒101-8023 东京神田邮局私书箱93号\n小学馆 CoroCoro㊙「宝可梦彩色纸」组\n截止日期：8月10日 公布：月刊CoroCoro10月号"
+    translation: "报名规则：请在明信片上写下你的邮政编码、地址、姓名、年龄、性别，寄到以下地址。\n地址：〒101-8023 东京神田邮局私书箱93号\n小学馆 《CoroCoro Comic》㊙「宝可梦色纸」组\n截止日期：8月10日 公布：月刊《CoroCoro Comic》10月号"
   - type: heading
     kind: text
     region_type: heading
@@ -205,7 +205,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: "コロコロチェック新しい地方とは一体!? 今までにない冒険が待っていることは確実だ。▲『メロ』のように近未来化する?"
-    translation: Corocoro Check 新地区究竟是什么！？可以肯定的是，前所未有的冒险正等着你。▲会像《Melo》那样近未来化吗？
+    translation: "CoroCoro Check 新地区究竟是什么！？可以肯定的是，前所未有的冒险正等着你。▲会像《Melo》那样近未来化吗？"
   - type: heading
     kind: text
     region_type: heading
@@ -318,7 +318,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: タイプはこれまでの17種類で、これ以上の増やさないつもりです。でも、わざは増やします。そして戦闘バランスを取るつもりです。ポケモンのわざはもちろん増やしますよ。
-    translation: 属性就保持目前的17种，我们不打算再增加。不过招式会增加。而且我们打算调整战斗平衡。宝可梦的招式当然也会增加。
+    translation: "属性就保持目前的17种，我们不打算再增加。不过招式会增加。而且我们打算调整对战平衡。宝可梦的招式当然也会增加。"
   - speaker: note
     type: paragraph
     kind: text
@@ -328,7 +328,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: "コロコロチェック新しい組み合わせのタイプのポケモンが登場。激しいバトルを予感させれば。ルカリオ▶はがね/かくとうタイプの新ポケモンだ!"
-    translation: COROCORO CHECK 新组合属性的宝可梦登场。让人预感到激烈的战斗。路卡利欧▶是钢／格斗属性的新宝可梦！
+    translation: "CoroCoro Check 新组合属性的宝可梦登场。让人预感到激烈的对战。路卡利欧▶是钢／格斗属性的新宝可梦！"
   - type: heading
     kind: text
     region_type: heading
@@ -358,7 +358,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: "コロコロチェック来年の映画の予告にレンジャーの文字が! ゲームの発売はいつ?"
-    translation: COROCORO CHECK 明年的电影预告里出现了巡护员的字样！游戏什么时候发售？
+    translation: "CoroCoro Check 明年的电影预告里出现了巡护员的字样！游戏什么时候发售？"
   - type: heading
     kind: text
     region_type: heading

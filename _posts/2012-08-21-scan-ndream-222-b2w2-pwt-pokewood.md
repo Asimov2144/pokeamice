@@ -324,7 +324,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Upper screen
-    translation: 上屏幕
+    translation: "上屏"
   - type: heading
     kind: text
     region_type: heading
@@ -434,7 +434,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 「いでんしのくさび」は大切な道具。再び使うと分離させることができる
-    translation: 「基因之楔」是重要道具。再次使用就能让它们分离。
+    translation: "“基因之楔”是重要物品。再次使用就能让它们分离。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -544,7 +544,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 殿堂入り後、ホドモエシティからネジ山へ行けるヤーコンロードが開通。このヤーコンロードに、伝説ポケモン・レジロックが現れる。そしてレジロックを捕まえると、キーシステムで使える新たなキーが出現。『ポケモンB2』ではレジスチルと出会えるキー「くろがねのま」、『ポケモンW2』ではレジアイスと出会えるキー「ひょうざんのま」がもらえるので、お互いのキーを通信してロックを解除し、両方を入手したい。
-    translation: 进入殿堂后，从帆巴市通往菊老大之路的菊老大之路开通。在这条菊老大之路上，传说的宝可梦雷吉洛克会出现。而且，抓住雷吉洛克后，钥匙系统中会出现可用的新钥匙。《宝可梦B2》中可获得能与雷吉斯奇鲁相遇的钥匙“钢铁之室”，《宝可梦W2》中可获得能与雷吉艾斯相遇的钥匙“冰山之室”，所以想通过通信交换彼此的钥匙来解锁，将两者都获得。
+    translation: "进入殿堂后，从帆巴市通往螺旋山的菊老大之路开通。在这条菊老大之路上，传说的宝可梦雷吉洛克会出现。而且，抓住雷吉洛克后，钥匙系统中会出现可用的新钥匙。《宝可梦B2》中可获得能与雷吉斯奇鲁相遇的钥匙"
   - speaker: caption
     type: paragraph
     kind: text
@@ -564,7 +564,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: Upper screen←殿堂入り後、ホドモエシティからヤーコンロードへ入れるようになる。その最深部にレジロックが！
-    translation: Upper screen←进入殿堂后，从帆巴市可以进入菊老大之路。其最深处有雷吉洛克！
+    translation: "上屏←进入殿堂后，从帆巴市可以进入菊老大之路。其最深处有雷吉洛克！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -604,7 +604,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: Upper screen↑レジロックを入手すると、キーシステムで使えるキーが出現する←『ポケモンB2』なら、レジスチルが入手可能に！
-    translation: Upper screen↑获得雷吉洛克后，钥匙系统中会出现可用的钥匙←如果是《宝可梦B2》，就可以获得雷吉斯奇鲁！
+    translation: "上屏↑获得雷吉洛克后，钥匙系统中会出现可用的钥匙←如果是《宝可梦B2》，就可以获得雷吉斯奇鲁！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2121,7 +2121,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: グッドエンドを撮れたら自分のポケモンでストレンジに挑戦！
-    translation: 如果能拍出好结局，就用自己宝可梦挑战奇异结局！
+    translation: "如果能拍出好结局，就用自己的宝可梦挑战奇异结局！"
   - type: heading
     kind: text
     region_type: heading
@@ -2211,7 +2211,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: あと、予想をはるかに超えて面白かったのが「ポケウッド」でした。失礼ながら出落ちネタかと思っていましたが、システム的にもシナリオ的にも、非常に深い内容でした。
-    translation: 另外，远超预想地有趣的是「宝可坞」。虽然失礼，我原本以为只是一次性的噱头，但无论从系统还是剧本上来说，内容都非常深厚。
+    translation: "另外，远超预想地有趣的是「宝可莱坞」。虽然失礼，我原本以为只是一次性的噱头，但无论从系统还是剧本上来说，内容都非常深厚。"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2221,7 +2221,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ポケウッドのアイデアには、主に2つの軸があります。1つはグラフィックです。もともと私がアートディレクターとしてやってきた中で、もっとポケモンの表現に幅を持たせられないかと漠然と考えていました。もちろん『ポケットモンスター』本編として、ポケモンたちをいかに生き生きと描くかは常に考えてきているんですが、それとは別に、グラフィック担当としてどこかで一度“はっちゃけたことがやりたい！”という思いがあったんです。
-    translation: 宝可坞的点子主要有两个轴心。一个是画面表现。原本我在担任美术总监的过程中，就模糊地想过能不能让宝可梦的表现方式更加多样。当然，作为《宝可梦》正传，我一直都在思考如何将宝可梦描绘得生动鲜活，但与此不同，作为画面负责人，我内心某处一直有着“想在哪里彻底放飞一次！”的想法。
+    translation: "宝可莱坞的点子主要有两个轴心。一个是画面表现。原本我在担任美术总监的过程中，就模糊地想过能不能让宝可梦的表现方式更加多样。当然，作为《宝可梦》正传，我一直都在思考如何将宝可梦描绘得生动鲜活，但与此不同，作为画面负责人，我内心某处一直有着“想在哪里彻底放飞一次！”的想法。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2241,7 +2241,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: もう1つの軸はバトルです。じつはポケウッドは、「『ポケットモンスター』初心者にもっとバトルに興味を持ってもらいたい」と考えたプランナーが出してきた企画なんです。ポケモンのバトルはタイプや特性や数多くの技がからんで非常に奥深いのですが、それを本編のシナリオ内で全部説明するのはかなり無理があります。そこで「映画を撮る」ためにクイズ形式のバトルをこなすことで、自然とバトルのイロハを覚えてもらおうというのが、ポケウッドの本来の目的なんです。はっちゃけたグラフィックとバトルへの導入。この2つが合わさって「ポケウッド」が生まれました。
-    translation: 另一个轴心是对战。其实宝可坞是一位策划提出的企划，他希望能让《宝可梦》的新手对对战产生更多兴趣。宝可梦的对战涉及属性、特性和大量招式，非常深奥，要在正传剧本中全部说明是相当困难的。因此，通过以猜谜形式完成对战来“拍电影”，让玩家自然而然地记住对战的基础知识，这才是宝可坞本来的目的。放飞的画面表现与对战入门。这两者结合，便诞生了「宝可坞」。
+    translation: "另一个轴心是对战。其实宝可莱坞是一位策划提出的企划，他希望能让《宝可梦》的新手对对战产生更多兴趣。宝可梦的对战涉及属性、特性和大量招式，非常深奥，要在正传剧本中全部说明是相当困难的。因此，通过以猜谜形式完成对战来“拍电影”，让玩家自然而然地记住对战的基础知识，这才是宝可莱坞本来的目的。放飞的画面表现与对战入门。这两者结合，便诞生了「宝可莱坞」。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2471,7 +2471,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: "→伝説のポケモン3匹とのローテーションバトルが現在配信中!"
-    translation: →与3只传说的宝可梦进行转盘对战的锦标赛正在配信中！
+    translation: "→与3只传说的宝可梦进行轮转对战的锦标赛正在配信中！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2631,7 +2631,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: "もともとの発端は、毎年行われているポケモンバトルの世界大会「ポケモンワールドチャンピオンシップス(以下WCS)」の優勝者を、ゲーム内に登場させたいということでした。「キミがゲームに登場する!」というキャッチコピーを打ち出すことでWCSを盛り上げ、ポケモンバトル自体をもっと盛り上げていきたいと思いまして(※)。"
-    translation: 最初的起端，是想让每年举办的宝可梦对战世界大赛「宝可梦世界锦标赛」（以下简称WCS）的优胜者出现在游戏里。我们想通过打出「你将会出现在游戏里！」这句宣传语来炒热WCS，进而让宝可梦对战本身也更加火热（※）。
+    translation: "最初的起端，是想让每年举办的宝可梦对战世界大赛「宝可梦世界锦标赛」（以下简称WCS）的冠军出现在游戏里。我们想通过打出「你将会出现在游戏里！」这句宣传语来炒热WCS，进而让宝可梦对战本身也更加火热（※）。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2792,7 +2792,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: トーナメントにより、出場する相手も変わってくる。誰と戦うかは直前までわからないが、相手のてもちポケモンは決まっているので、有利なタイプで挑むといい。ホドモエトーナメントならはがね、じめん、ひこうタイプなどが比較的有利だ。殿堂入り前に挑戦できるホドモエトーナメントの2回目以降、さらにミックストーナメントに登場するトレーナーと、その手持ちのポケモンを紹介しよう。
-    translation: 根据锦标赛的不同，出场的对手也会变化。虽然直到临战前都不知道会和谁对战，但对手携带的宝可梦是固定的，所以用有利的属性去挑战就好。如果是帆巴锦标赛，钢、地面、飞行等属性相对有利。下面介绍在通关前即可挑战的帆巴锦标赛第2轮以后，以及混合锦标赛中登场的训练家及其携带的宝可梦。
+    translation: "根据锦标赛的不同，出场的对手也会变化。虽然直到临战前都不知道会和谁对战，但对手携带的宝可梦是固定的，所以用有利的属性去挑战就好。如果是帆巴锦标赛，钢、地面、飞行等属性相对有利。下面介绍在登入名人堂前即可挑战的帆巴锦标赛第2轮以后，以及混合锦标赛中登场的训练家及其携带的宝可梦。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -3072,7 +3072,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: おこづかい 247202円ナナシのみ×4 570円カゴのみ×4 570円モモンのみ×4 570円
-    translation: 零花钱 247202日元 谜之果×4 570日元 涩栗果×4 570日元 桃桃果×4 570日元
+    translation: "零花钱 247202元 谜之果×4 570元 涩栗果×4 570元 桃桃果×4 570元"
   - speaker: note
     type: paragraph
     kind: text
@@ -3082,7 +3082,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: じめじめこやし 380円やめる
-    translation: 湿湿肥 380日元 取消
+    translation: "湿湿肥 380元 取消"
   - speaker: note
     type: paragraph
     kind: text
@@ -3122,7 +3122,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: おこづかい 247202円
-    translation: 零花钱 247202日元
+    translation: "零花钱 247202元"
   - speaker: note
     type: paragraph
     kind: text
@@ -3132,7 +3132,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: かたまりBランク 710円
-    translation: 块B级 710日元
+    translation: "块B级 710元"
   - speaker: note
     type: paragraph
     kind: text
@@ -3152,7 +3152,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: とくだいのはこ 330円
-    translation: 特大箱子 330日元
+    translation: "特大箱子 330元"
   - speaker: note
     type: paragraph
     kind: text
@@ -3332,7 +3332,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: Upper screenほかの店よりバラエティに富んだメニューがそろう
-    translation: Upper screen 菜单比其他店更加丰富多样
+    translation: "上屏 菜单比其他店更加丰富多样"
   - speaker: note
     type: paragraph
     kind: text
@@ -3402,7 +3402,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: ロイヤルカット 2850円やめる
-    translation: 皇家切菜 2850日元 取消
+    translation: "皇家剪发 2850日元 取消"
   - speaker: note
     type: paragraph
     kind: text
@@ -3412,7 +3412,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: メイクで なついてもらいます。素早さの 基礎ポイントが ものすごく さがります。
-    translation: 通过梳理来让它亲近。速度的基础点数会大幅下降。
+    translation: "通过化妆来让它亲近。速度的基础点数会大幅下降。"
   - speaker: note
     type: paragraph
     kind: text
@@ -3422,7 +3422,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: Upper screenなつくことで進化するポケモンにぴったりなお店
-    translation: Upper screen 适合通过亲近而进化的宝可梦的店铺
+    translation: "上屏 适合通过亲近而进化的宝可梦的店铺"
   - speaker: note
     type: paragraph
     kind: text
@@ -3462,7 +3462,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: ミツのつめあわせ 3420円おみずセット3 6840円ミルクセット2 11400円やめる
-    translation: 蜜的什锦 3420日元 淡水套装3 6840日元 牛奶套装2 11400日元 取消
+    translation: "蜂蜜什锦 3420日元 清水套装3 6840日元 牛奶套装2 11400日元 取消"
   - speaker: note
     type: paragraph
     kind: text
@@ -3582,7 +3582,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: で、曲の終盤で「ドラがゴ〜ン」と鳴るんですが…。
-    translation: 然后，在曲子的结尾处会响起“咚啦咚～”。
+    translation: "然后，在曲子的结尾处会响起“锣～哐～”。"
   - speaker: 佐藤仁美
     type: paragraph
     kind: text
@@ -3592,7 +3592,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 「ドラがゴ〜ン」でドラゴンです（笑）。これ、じつは冗談でもなんでもなくて、ホントにドラゴンの意味なんです。しかも2回鳴ります。“ソウリュウ”シティとかけて。ドラの音は、龍の鳴き声にも聴こえますしね。
-    translation: “咚啦咚～”就是龙（笑）。这其实既不是玩笑也不是别的，真的就是龙的意思。而且会响两次，和“双龙”市谐音。咚啦的声音听起来也像龙的吼声呢。
+    translation: "“锣哐～”就是龙（笑）。这其实既不是玩笑也不是别的，真的就是龙的意思。而且会响两次，和“双龙”市谐音。锣的声音听起来也像龙的吼声呢。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -3652,7 +3652,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: Upper screen手元の端末の音もイメージされた、アクロマの戦闘曲
-    translation: 上屏 也让人联想到手头终端的音效，阿克罗玛的战斗曲
+    translation: "上屏 让人联想到手中终端音效的阿克罗玛战斗曲"
   - type: heading
     kind: text
     region_type: heading
@@ -3902,7 +3902,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: Upper screen↑ディアルガ、パルキアの戦闘曲は増田さんの作。壮大なスケールの大曲だ
-    translation: Upper screen↑帝牙卢卡、帕路奇亚的战斗曲由增田创作。是一首规模宏大的大曲。
+    translation: "↑上屏 帝牙卢卡、帕路奇亚的战斗曲由增田创作。是一首规模宏大的大曲。"
   - speaker: note
     type: paragraph
     kind: text

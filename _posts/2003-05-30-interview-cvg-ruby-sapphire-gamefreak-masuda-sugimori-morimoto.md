@@ -48,8 +48,8 @@ workflow:
   published: draft
 parallel_items:
 - original: It's not often that creators behind huge, huge franchises offer themselves up for interview, but Game Freak has done just that. The team behind the insanely successful Pokemon recently gathered for a conference call that was attended by select members of the European press. Answering questions on its global phenomenon were Game Freak's Mr Junichi Masuda, Mr Shigeki Morimoto and Mr Ken Sugimori.
-  translation: 大型系列作品的创作者很少会主动接受采访，但Game Freak就这么做了。这个打造出极其成功的宝可梦的团队最近聚在一起参加了一场电话会议，欧洲部分媒体受邀参加。就这一全球现象回答提问的是Game Freak的增田顺一先生、森本茂树先生和杉森建先生。
-  note: Game Freak是宝可梦系列游戏的开发公司。
+  translation: "大型系列作品的创作者很少会主动接受采访，但GAME FREAK就这么做了。这个打造出极其成功的宝可梦的团队最近聚在一起参加了一场电话会议，欧洲部分媒体受邀参加。就这一全球现象回答提问的是GAME FREAK的增田顺一先生、森本茂树先生和杉森建先生。"
+  note: "GAME FREAK是宝可梦系列游戏的开发公司。"
 - original: You have 300-plus Pokemon. We were just wondering where you get all of your inspiration and ideas for the creation of each Pokemon?
   role: question
   speaker: CVG
@@ -74,7 +74,7 @@ parallel_items:
 - original: What is new about the Game Boy Advance version is that it has made transmitting systems possible for four people all involved at one time. This means that four people can enjoy playing the game together at the same time. Also in Pokemon Ruby and Pokemon Sapphire the graphics are new, and in this game new aspects have been included such as the Pokemon contest.
   role: answer
   speaker: 增田顺一
-  translation: Game Boy Advance版的新之处在于，它让四个人同时参与的传输系统成为可能。这意味着四个人可以同时一起享受游戏的乐趣。另外，在《宝可梦 红宝石》和《宝可梦 蓝宝石》中，画面是新的，游戏还加入了宝可梦竞赛等新内容。
+  translation: "Game Boy Advance版的新之处在于，它让四个人同时参与的传输系统成为可能。这意味着四个人可以同时一起享受游戏的乐趣。另外，在《宝可梦 红宝石》和《宝可梦 蓝宝石》中，画面是新的，游戏还加入了宝可梦华丽大赛等新内容。"
 - original: When you want to create new characters, where does your inspiration come from? Movies or insects from the real world?
   role: question
   speaker: CVG
@@ -82,7 +82,7 @@ parallel_items:
 - original: As I have answered previously, experiences the designers have from their childhood have become the main inspiration when creating Pokemon. Experiences they have along with cartoons and movies from their childhood have become the main source of their ideas. And also encyclopaedia insects have made an impact on the designers in order to create new Pokemon characters. They also recall memories of weird animals or animals from encyclopaedias and they get inspiration from that.
   role: answer
   speaker: 杉森建
-  translation: 正如我之前回答的，设计师们童年时期的经历成了创造宝可梦时的主要灵感来源。他们童年时与卡通和电影相伴的经历成了他们点子的主要来源。此外，昆虫百科全书也对设计师们创造新的宝可梦角色产生了影响。他们还会回忆起百科全书中奇怪动物或动物的记忆，并从中获得灵感。
+  translation: "正如我之前回答的，设计师们童年时期的经历成了创造宝可梦时的主要灵感来源。他们童年时与卡通和电影相伴的经历成了他们点子的主要来源。此外，昆虫百科全书也对设计师们创造新的宝可梦角色产生了影响。他们还会回忆起百科全书中的奇怪动物或各种动物，并从中获得灵感。"
 - original: Once you have picked one insect how do you change it to create a Pokemon?
   role: question
   speaker: CVG
@@ -123,7 +123,7 @@ parallel_items:
 - original: For an advanced game, Ruby and Sapphire doesn't have spectacular graphics, it's a little basic. Could you explain why you have chosen these kind of simple graphics?
   role: answer
   speaker: 森本茂树
-  translation: 作为一款进阶游戏，红宝石和蓝宝石的画面并不惊艳，有点基础。你能解释一下为什么选择这种简单的画面吗？
+  translation: "作为一款进阶游戏，《红宝石》和《蓝宝石》的画面并不惊艳，有点基础。你能解释一下为什么选择这种简单的画面吗？"
 - original: Yes actually we had a reason for making these graphics simple this time. The basic graphics may simultaneously limit and enhance gameplay, for example if a map is very realistic, it might become more complicated, and then it would be hard for players to understand where to go next. However, an unrealistic map may not work as a good guide, so some of the realistic graphics may cause some limitations to the games. That's why we have kept these graphics more simple this time, and also in the battle scenes, if we had made the back of the battle scenes more realistic, it might point out where the battle was and so when you draw, you have to be more precise. That's why we didn't make it complicated.
   role: answer
   speaker: 杉森建
@@ -229,7 +229,7 @@ parallel_items:
 - original: Have you been able to make each Pokemon a single, well defined entity. Each monster is really well defined and somewhat unique if the stats are compared with the other ones, both old and new ones. So I would like to know if the balancing of those stats took a big share of time during the development or not?
   role: question
   speaker: CVG
-  translation: 你们是否能够把每只宝可梦都做成单一、定义清晰的个体？如果把新旧宝可梦的数值相互比较，每只怪物都定义得非常清晰，某种程度上是独一无二的。所以我想知道，在开发过程中，这些数值的平衡是否占用了很大一部分时间？
+  translation: "你们是否能够把每只宝可梦都做成单一、定义清晰的个体？如果把新旧宝可梦的数值相互比较，每只宝可梦都定义得非常清晰，某种程度上是独一无二的。所以我想知道，在开发过程中，这些数值的平衡是否占用了很大一部分时间？"
 - original: Yes the balancing of those characters takes time because once we capture a strong Pokemon we have to make a strong counter as well. It was hard to balance on that account. And also it was hard to balance in order to make this Pokemon game more interesting we shouldn't have made extremely strong Pokemon in this game because if once we created extremely strong Pokemon in the game, if a player captured this Pokemon, the player can easily win the game. So in order not to make the player win the game so easily we had to balance the strength of Pokemon in the game. We have to work on this stuff in this matter.
   role: answer
   speaker: 森本茂树
@@ -237,7 +237,7 @@ parallel_items:
 - original: I would like to know the five favourite warriors and the five favourite best looking monsters among the new ones for Game Freaks?
   role: question
   speaker: CVG
-  translation: 我想知道Game Freak成员在新宝可梦中各自最喜欢的五只战斗型宝可梦和五只最好看的宝可梦是哪些？
+  translation: "我想知道GAME FREAK成员在新宝可梦中各自最喜欢的五只战斗型宝可梦和五只最好看的宝可梦是哪些？"
 - original: My favourite Pokemon is MAWILE and I also like AGGRON. Mr Sugimori's favourite is TREECKO and also he likes GROUDON. And also from Mr Morimoto it would be KECLEON and ABSOL.
   role: answer
   speaker: 增田顺一
@@ -258,7 +258,6 @@ parallel_items:
   role: answer
   speaker: 森本茂树
   translation: 我担任了《Bat Wing》这款宝可梦游戏的导演，这次为战斗加入了许多新的要素，我相信我把它做得很有趣。所以我希望全世界的人们都能享受战斗。
-  note: Bat Wing 是《宝可梦 红宝石／蓝宝石》开发阶段的代号。
 - original: Everyone in the world can trade the Pokemon through this new transmitting system and also battle. So I hope that everybody enjoys this despite the limitation of countries.
   role: answer
   speaker: 增田顺一

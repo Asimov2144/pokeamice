@@ -1,0 +1,17 @@
+{
+ "sig": "45dcaf8358b39ee6",
+ "post": "_posts/2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports.md",
+ "rows": 28,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 30,
+   "kind": "mistranslation",
+   "why": "「素顔に迫る」意为“贴近/展现真实面貌”，译成“逼近”不符合中文表达习惯，属于误译。",
+   "original": "ポケモンユナイト甲子園をさらに盛り上げるために、選手の素顔に迫るドキュメンタリー映像の公開を予定しています。",
+   "current": "为了让宝可梦大集结甲子园更加热闹，我们计划公开逼近选手真实面貌的纪录片影像。",
+   "fix": "为了让宝可梦大集结甲子园更加热闹，我们计划公开展现选手真实面貌的纪录片影像。"
+  }
+ ]
+}

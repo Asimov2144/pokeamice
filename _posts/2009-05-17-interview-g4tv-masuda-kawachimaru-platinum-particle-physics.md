@@ -83,7 +83,7 @@ parallel_items:
 - original: In Diamond and Pearl you have Dialga and Palkia. In Platinum you have Giratina. There are three legendary Pokemon and there's a relationship between the three. From there we have a story to move onto with other legendary Pokemon, but at this point that's all I can share.
   role: answer
   speaker: 增田顺一
-  translation: 在《钻石／珍珠》里有帝牙卢卡和帕路奇亚。在《白金》里有骑拉帝纳。这三只传说的宝可梦之间存在着某种关系。从那里出发，我们还有一段与其他传说的宝可梦相关的故事要展开，但目前我能说的只有这些。
+  translation: "在《钻石／珍珠》里有帝牙卢卡和帕路奇亚。在《白金》里有骑拉帝纳。一共有三只传说的宝可梦，这三只之间存在着某种关系。从那里出发，我们还有一段与其他传说的宝可梦相关的故事要展开，但目前我能说的只有这些。"
 - original: A lot of G4 readers love the Pokemon series, but want to see a proper Pokemon role-playing game on a home console, or even a Pokemon MMO. Do you see that ever happening?
   role: question
   speaker: G4
@@ -95,7 +95,7 @@ parallel_items:
 - original: How about a Pokemon game similar to Capcom's Monster Hunter. That's one of the biggest gaming phenomenons in Japan. Surely the popularity of Pokemon can dwarf Monster Hunter if it's used in a similar game.
   role: question
   speaker: G4
-  translation: 那做一款类似卡普空《怪物猎人》的宝可梦游戏怎么样？《怪物猎人》是日本最大的游戏现象之一。如果把宝可梦的受欢迎程度用在类似的游戏上，肯定能超过《怪物猎人》。
+  translation: "那做一款类似卡普空《怪物猎人》的宝可梦游戏怎么样？《怪物猎人》是日本最大的游戏现象之一。如果把宝可梦用在类似的游戏中，凭借它的人气肯定能让《怪物猎人》相形见绌。"
 - original: I believe that even though there are some similarities between Pokemon and Monster Hunter, the games are very different. They're two entirely different worlds and the gameplay is very different. Our focus is making Pokemon role-playing games for portable game systems.
   role: answer
   speaker: 增田顺一
@@ -133,7 +133,7 @@ parallel_items:
 - original: '[Laughs] I don''t know. You''ll have to ask them for me.'
   role: answer
   speaker: 增田顺一
-  translation: '[笑]我不知道。你得自己去问他们。'
+  translation: "[笑]我不知道。你得替我去问问他们。"
 - original: Many people erroneously think that Pokemon games are just for children, but there are many complex features in the game like IVs, EV training, Hidden Power, and more. How did these features come about?
   role: question
   speaker: G4

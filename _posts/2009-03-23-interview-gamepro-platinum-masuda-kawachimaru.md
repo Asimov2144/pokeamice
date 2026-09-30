@@ -49,8 +49,8 @@ parallel_items:
 - original: With Pokemon Platinum just a few days away, GamePro was invited to Nintendo to talk with two of the developers behind Nintendo's powerhouse RPG franchise!
   translation: 距离《宝可梦 白金》发售只剩几天，GamePro 受邀前往任天堂，与这部任天堂王牌 RPG 系列背后的两位开发者进行了交谈！
 - original: Pokemon Platinum is just around the corner for gamers in the U.S., and I'm already polishing up my Nintendo DS in anticipation of the new battles and Pokemon I'm going to see. Nintendo recently invited GamePro to their Bay Area headquarters to interview two of the men behind the development of Pokemon Platinum, just in time to increase my hunger for the release of this much-awaited remake edition in the record-breaking Pokemon Diamond & Pearl series. We chatted up Takeshi Kawachimaru, one of Game Freak's designers behind Pokemon Ruby and Pokemon Sapphire (as well as Pokemon Platinum's game director) and the famous video game composer Junichi Masuda, one of the original developers of Pokemon since Red and Blue/Green, who is also producing Pokemon Platinum.
-  translation: 对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——Game Freak 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。
-  note: 河内丸武史（Takeshi Kawachimaru）是 Game Freak 的设计师，后担任《宝可梦 白金》总监；增田顺一（Junichi Masuda）是 Game Freak 的作曲家与制作人，自初代起参与宝可梦开发。
+  translation: "对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——GAME FREAK 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／蓝／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。"
+  note: "河内丸武史（Takeshi Kawachimaru）是 GAME FREAK 的设计师，后担任《宝可梦 白金》总监；增田顺一（Junichi Masuda）是 GAME FREAK 的作曲家与制作人，自初代起参与宝可梦开发。"
 - type: image
   image: /assets/img/interviews/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru/001.jpg
   alt: 'Pokemon Platinum: Developer Interview!'

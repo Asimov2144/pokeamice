@@ -1,0 +1,17 @@
+{
+ "sig": "52a5df3dcb39dbe3",
+ "post": "_posts/2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology.md",
+ "rows": 16,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 10,
+   "kind": "mistranslation",
+   "why": "「制作が決定」意为“决定制作”，译文“制作决定”语序不当导致意思变成“对制作做出决定”，主客体颠倒。",
+   "original": "こうして、ポケモンの彫刻作品シリーズ「Relics of Kanto Through Time（西暦3020年に発掘したポケットモンスター 赤・緑の世界）」の制作が決定。異能な現代アーティストとポケモンのコラボレーションにより、かつてみたことのないアート作品が制作されていきました。",
+   "current": "就这样，宝可梦雕塑作品系列“Relics of Kanto Through Time（公元3020年发掘的宝可梦 红·绿的世界）”的制作决定。通过异才现代艺术家与宝可梦的合作，前所未见的艺术作品被创作出来。",
+   "fix": "就这样，宝可梦雕塑作品系列“Relics of Kanto Through Time（公元3020年发掘的宝可梦 红·绿的世界）”决定制作。通过异才现代艺术家与宝可梦的合作，前所未见的艺术作品被创作出来。"
+  }
+ ]
+}

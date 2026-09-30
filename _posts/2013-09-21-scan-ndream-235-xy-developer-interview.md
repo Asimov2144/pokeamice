@@ -195,7 +195,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: カメラのアングルが次々と変わっていくバトルが大迫力と変わった！
-    translation: 镜头角度不断变化的战斗，魄力大不相同！
+    translation: "镜头角度不断变化的对战，魄力大不相同！"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -265,7 +265,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: ❶ポケモンの動きやわざのエフェクトがパワーアップしているのはもちろん、カメラワークもバトルを盛り上げる！
-    translation: ❶宝可梦的动作和招式特效当然都升级了，运镜也让战斗更热烈！
+    translation: "❶宝可梦的动作和招式特效当然都升级了，运镜也让对战更热烈！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -315,7 +315,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 「ポケモンスタジアム」や「ポケモンバトルレボリューション」のバトルのような、ダイナミックな演出ですね。
-    translation: 就像《宝可梦竞技场》和《宝可梦战斗革命》中的对战那样，是充满动感的演出呢。
+    translation: "就像《宝可梦竞技场》和《宝可梦对战革命》中的对战那样，是充满动感的演出呢。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -365,7 +365,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 言うならば「ファンタジーの中のリアル」を追求しよう、と。あまり「生き物の骨格とは……」とかやりだすと、鼻の穴が小さくなっちゃったり、鼻の穴ができたりしかねませんからね（笑）。よりポケモンを魅力的に見せる方向にシフトしたんです。アートディレクターの杉森（建）さんが公式イラストで描いた表現を、できるだけ再現してみよう、と。かわいくても美しく強そうでもあり、魅力ある形を目指しました。
-    translation: 可以说，我们追求的是“幻想中的真实”。如果过于拘泥于“生物的骨骼应该是……”之类的，鼻孔可能会变小，或者反而长出鼻孔来（笑）。所以我们转向了让宝可梦看起来更有魅力的方向。美术总监杉森建在官方插画中描绘的表现，我们尽量去再现。目标是既可爱又美丽、强大，富有魅力的形态。
+    translation: "可以说，我们追求的是“幻想中的真实”。如果过于拘泥于“生物的骨骼应该是……”之类的，鼻孔可能会变小，或者反而长出鼻孔来（笑）。所以我们转向了让宝可梦看起来更有魅力的方向。美术总监杉森（建）在官方插画中描绘的表现，我们尽量去再现。目标是既可爱又美丽、强大，富有魅力的形态。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -445,7 +445,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 例えばミュウツーをも一段進化させようとした場合、今までのと同じ方向性の進化でいいのかと。ともう一回「進化」そのものについて、ちゃんと考えてみよう、とうちのグラフィックチームも加わったパーティのチームで、ビジュアル的な要素とバトル的な要素の両方で、検討を重ねました。
-    translation: 比如说，如果想让超梦再进化一级，那沿用和以往相同方向的进化是否合适呢。于是我们决定重新认真思考「进化」本身，由包括我们图形团队在内的团队共同参与，从视觉要素和战斗要素两方面反复进行了探讨。
+    translation: "比如说，如果想让超梦再进化一级，那沿用和以往相同方向的进化是否合适呢。于是我们决定重新认真思考「进化」本身，由包括我们的图形团队在内的团队共同参与，从视觉要素和对战要素两方面反复进行了探讨。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -475,7 +475,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 「メガ進化」ではなく「メガシンカ」というのも、通常とはまったく違う進化であることを示しているんですね。
-    translation: 不叫「超级进化」而叫「超级进化」，也正表明了它是与通常进化完全不同的进化。
+    translation: "不叫「Mega进化」而叫「Mega Shinka」，也正表明了它是与通常进化完全不同的进化。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -555,7 +555,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: でもメガシンカポケモンは大会で同じような扱いにしようかとも考えていたんですが、検討を重ねて、メガシンカするためには専用のどうぐを持たせる必要があること、「１回のバトル中にメガシンカは１回しかできない」とことが決まりました。ここが、バトルにおける切り札のような感じですね。
-    translation: 不过我们也考虑过在大会上把超级进化的宝可梦做同样处理，但经过反复讨论，最终决定：要超级进化就必须让它携带专用道具，并且「一场对战中只能超级进化一次」。这里感觉就像是战斗中的王牌。
+    translation: "不过我们也考虑过在对战大会中把超级进化的宝可梦做同样处理，但经过反复讨论，最终决定：要超级进化就必须让它携带专用道具，并且「一场对战中只能超级进化一次」。这里感觉就像是对战中的王牌。"
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -665,7 +665,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ええ。特性「おやこあい」がなかなか面白いポケモンです。まだまだ、紹介されていないメガシンカポケモンもたくさんいますので。
-    translation: 是的。特性「亲子爱」是相当有趣的宝可梦。尚未介绍的超级进化宝可梦还有很多。
+    translation: "是的。拥有特性「亲子爱」的它是一只相当有趣的宝可梦。尚未介绍的超级进化宝可梦还有很多。"
   - type: heading
     kind: text
     region_type: heading
@@ -705,7 +705,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: はい、そうです。メガシンカのボタンがありますので、メガシンカするポケモンが数匹入っているチームが相手だと、「いつがこのタイミングでメガシンカして……こういう戦略か」と、読み合いもさらに深くなるんです。
-    translation: 是的，没错。因为有超级进化的按钮，所以当对手队伍里有几只可以超级进化的宝可梦时，就会想「什么时候会在这个时机超级进化……原来是这种战略」，心理博弈也会更加深入。
+    translation: "是的，没错。因为有超级进化的按钮，所以当对手队伍里有几只可以超级进化的宝可梦时，就会想“会在什么时机超级进化……原来是这种战略”，心理博弈也会更加深入。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -735,7 +735,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: メガミュウツーは、メガシンカポケモンの中でもかなり特殊なポケモンですね。メガミュウツーＸとメガミュウツーＹでは、タイプも違います。
-    translation: 超级超梦在超级进化宝可梦中也是相当特殊的存在。超级超梦Ｘ和超级超梦Ｙ的属性也不同。
+    translation: "超级超梦在超级进化宝可梦中也是相当特殊的存在。超级超梦X和超级超梦Y的属性也不同。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1005,7 +1005,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: すばやさ 16かそくちょこっとずつ
-    translation: 速度 16 加速一点点
+    translation: "速度 16 加速"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1015,7 +1015,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: すばやく なっていく。バシャーモナイトわきをみる
-    translation: 逐渐变快。火焰鸡进化石 看旁边
+    translation: "逐渐变快。火焰鸡进化石 查看侧面"
   - speaker: body
     type: paragraph
     kind: text
@@ -1385,7 +1385,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 今からは、倒したときと同程度の経験値はもらえるようになります。ポケモンを集めるのと、育てるのが同時にできるわけです。
-    translation: 从现在起，打倒宝可梦时也能获得与打倒时同等程度的经验值。也就是说，可以同时进行收集宝可梦和培育宝可梦。
+    translation: "从现在起，捕捉宝可梦时也能获得与打倒时同等程度的经验值。也就是说，可以同时进行收集宝可梦和培育宝可梦。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1395,7 +1395,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: Upper screen❸「ガンバロメーター」では、今までゲーム中では確認できなかった基礎ポイントが分かる
-    translation: 上屏幕❸「努力计量表」中，可以查看以往在游戏中无法确认的基础点数
+    translation: "上屏❸「努力计量表」中，可以查看以往在游戏中无法确认的基础点数"
   - type: heading
     kind: text
     region_type: heading
@@ -1615,7 +1615,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新形式のバトル「群れバトル」と「スカイバトル」
-    translation: 新形式的对战“群聚对战”与“天空对战”
+    translation: "新形式的对战“群聚对战”与“空中对战”"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1625,7 +1625,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 野生のポケモンとのバトルで「群れバトル」が新登場していますね。こちらの導入のきっかけというのは？
-    translation: 在与野生宝可梦的对战中，新加入了“群战”呢。这个的引入契机是什么呢？
+    translation: "在与野生宝可梦的对战中，新加入了“群聚对战”呢。这个的引入契机是什么呢？"
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1695,7 +1695,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ても、なかなかピンチにならない。でも、野生のポケモンのレベルをあまり高くしてしまうと、それを捕まえてその先の冒険が楽になってしまうという、ポケモンのゲームシステムとしてのジレンマがあるのです。そこで、レベルは低いけど多くのポケモンが一度に向かってきたら…というのも、群れバトルを導入した狙いのひとつですね。
-    translation: 即使如此，也不容易陷入危机。但是，如果野生宝可梦的等级太高，捕捉后接下来的冒险就会变得轻松，这是宝可梦游戏系统上的两难。因此，等级低但很多宝可梦同时扑过来……这也是引入群战的目的之一。
+    translation: "即使如此，也不容易陷入危机。但是，如果野生宝可梦的等级太高，捕捉后接下来的冒险就会变得轻松，这是宝可梦游戏系统上的两难。因此，等级低但很多宝可梦同时扑过来……这也是引入群聚对战的目的之一。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1705,7 +1705,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 新しい形態のバトルとしては「スカイバトル」というのも発表されましたけど、こちらはどのようなものでしょう？
-    translation: 作为新形态的战斗，还公布了“天空对战”，这个又是怎样的呢？
+    translation: "作为新形态的对战，还公布了“空中对战”，这个又是怎样的呢？"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1715,7 +1715,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: トレーナー同士で「一目と目が合ったらバトル」っていうのが今までの約束になっているんですけど、段差のある崖の上にいる相手ともバトルしたくなる、という思いがあって。ほら、高さが違っても、地面がない状態で、そのときにどう戦う？ということを考えたく、「空を飛べるポケモンでバトルする」というアイデアが生まれました。
-    translation: 训练家之间“四目相对就战斗”是至今的约定，但我们希望也能和站在有高低差的悬崖上的对手战斗。你看，即使高度不同，在没有地面的状态下，那时要怎么战斗？我们想思考这个，于是产生了“用能飞在空中的宝可梦来战斗”的点子。
+    translation: "训练家之间“四目相对就对战”是至今的约定，但我们希望也能和站在有高低差的悬崖上的对手对战。你看，即使高度不同，在没有地面的状态下，那时要怎么对战？我们想思考这个，于是产生了“用能飞在空中的宝可梦来对战”的点子。"
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1725,7 +1725,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ひこうタイプと特性「ふゆう」のポケモンなどが出られるバトルです。
-    translation: 这是飞行属性和特性“飘浮”的宝可梦等可以参加的战斗。
+    translation: "这是飞行属性和特性“飘浮”的宝可梦等可以参加的对战。"
   - type: heading
     kind: text
     region_type: heading
@@ -1845,7 +1845,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 今までだと、普通にステージ上でプレイしていたんですけど、その状況でナレーションや解説をしていて、相手の状況がプレイヤーにはたまらないじゃないですか。だからプレイヤーには大音量のヘッドホンつけて聞こえないように、画面も見えないような仕切りを作ってバトルしてもらっていたんです。ステージで解説を聞いているみんなが応援しながら見ているっていう図が、すごく盛り上がりましたね。ニコニコ生放送では、森本高広☆の山本さんで、ヒトデマン☆Shoの3人で実況をしていました。海外版だと、文字が全部英語だったりして大変だったようです。
-    translation: 以往的话，就是普通地在舞台上进行游戏，但在那种状况下进行解说和讲解，对手的状况对玩家来说不是很难受吗。所以让玩家戴上大音量的耳机听不到声音，并设置隔板让玩家看不到画面来进行对战。在舞台上听着解说、大家一起应援观看的情景，气氛非常热烈。在Niconico直播上，由森本高广☆的山本先生、海星星☆Sho三人进行了实况解说。海外版的话，文字全是英文，似乎很辛苦。
+    translation: "以往的话，就是普通地在舞台上进行游戏，但在那种状况下进行解说和讲解，对手的状况对玩家来说不是很难受吗。所以让玩家戴上大音量的耳机听不到声音，并设置隔板让玩家看不到画面来进行对战。在舞台上听着解说、大家一起应援观看的情景，气氛非常热烈。在Niconico直播上，由森本、高广☆的山本先生、海星星☆Sho三人进行了实况解说。海外版的话，文字全是英文，似乎很辛苦。"
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -1975,7 +1975,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: バトル自体を見たことは、バトル自体を見たことは、日本の普通のメディアでは、なかなかバトル自体は取り上げてもらえないんですけど。イベント会場では相手が盛り上がっている点もありました。そういう意味では、リアルタイムで放送できるニコニコ生放送は熱気がダイレクトに伝わりますからね。「ポケモンＷＣＳ」の決勝は、日本で見るとはみなが大変な時間帯だったみたいで、多くの方に見ていただけたようです。
-    translation: 在日本的一般媒体上，战斗本身很难被报道。不过在活动会场，对手也会被带动起气氛。从这个意义上说，能实时直播的niconico直播可以直接传递现场的热度。「宝可梦WCS」的决赛，在日本看的话时间好像对大家来说都很不方便，但似乎还是有很多人看了。
+    translation: "在日本的一般媒体上，对战本身很难被报道。不过在活动会场，对方阵营的气氛也很热烈。从这个意义上说，能实时直播的niconico直播可以直接传递现场的热度。「宝可梦WCS」的决赛，在日本看的话时间好像对大家来说都很不方便，但似乎还是有很多人看了。"
   - speaker: body
     type: paragraph
     kind: text
@@ -2076,7 +2076,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 「ポケモンワールドトーナメント」のトリプルバトルなどでは、有効でしたね。トリプルバトル、ローテーションバトルは今でもあるのですか？
-    translation: 在「宝可梦世界锦标赛」的三打对战等比赛中，这些是有效的呢。三打对战、转盘对战现在还有吗？
+    translation: "在「宝可梦世界锦标赛」的三打对战等比赛中，这些是有效的呢。三打对战、轮转对战现在还有吗？"
   - speaker: 森本茂树
     type: paragraph
     kind: text
@@ -2126,7 +2126,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 楽しみますね。コレが強いいんなぁとか、って予想はある程度あるんですけれども、強い戦術、弱い戦術っていうのは、蓋を開けてみないとわからないから楽しいんですよね。
-    translation: 确实很享受。虽然多少能预想到“这个很强啊”之类的，但强战术、弱战术这种东西，不打开盖子看看是不知道的，所以很有趣。
+    translation: "确实很享受。虽然多少能预想到“这个很强啊”之类的，但强战术、弱战术这种东西，不实际开始是不知道的，所以很有趣。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -2396,7 +2396,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 日本はどうありがとございました！
-    translation: 日本的情况会是怎样呢！
+    translation: "非常感谢日本！"
   - type: heading
     kind: text
     region_type: heading
@@ -2426,7 +2426,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 今回、新しいわざや特性に付与されたポケモンに優先的にそれを、どうバトルに生かすかを楽しんでほしいですね。先ほど話したとおり、開発も「いやぁ、こんなの知らなかった！」っていう戦法もたくさんあるはずです。自分なりの戦い方、オリジナルの戦い方を
-    translation: 这次，希望大家能享受如何将新招式和特性赋予的宝可梦优先运用在对战中。正如刚才所说，开发方也认为「哎呀，居然还有这种打法！」的战术应该有很多。找到属于自己的战斗方式、独创的战斗方式，
+    translation: "这次，希望大家能享受如何优先将被赋予新招式或特性的宝可梦运用在对战中。正如刚才所说，应该也有很多连开发方都会惊呼“哎呀，居然还有这种打法！”的战术。找到属于自己的战斗方式、独创的战斗方式，"
   - speaker: body
     type: paragraph
     kind: text

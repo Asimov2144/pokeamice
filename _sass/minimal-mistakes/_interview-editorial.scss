@@ -841,6 +841,27 @@ $ed-measure: 704px;
   &:has(.ed[data-reading-theme="dark"]) { background: #0f1115; }
   &:has(.ed[data-reading-theme="dark"]) .initial-content { background: #0f1115 !important; }
 
+  /* a digest (a fan wiki's notes on a magazine interview): what it is, said on the cover; its
+     level-3 heads are lines of the outline, not chapters */
+  .ed-digest-note {
+    margin: 0 0 18px;
+    padding: 10px 14px;
+    border-left: 3px solid currentColor;
+    border-radius: 0 6px 6px 0;
+    background: rgba(127, 127, 127, 0.09);
+    font-size: 0.8em;
+    line-height: 1.7;
+    b { margin-right: 0.6em; }
+  }
+  .ed .ed-heading.ed-heading--sub {
+    margin: 1.6em 0 0.4em;
+    font-size: 1.08em !important;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    &::before, &::after { display: none !important; }
+  }
+
   /* a picture's caption in Chinese, the source-language one under it in small type */
   .ed-figcap-orig {
     display: block;

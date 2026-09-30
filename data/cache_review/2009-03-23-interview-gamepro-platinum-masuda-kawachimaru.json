@@ -1,0 +1,25 @@
+{
+ "sig": "f2c49dea99fce2f1",
+ "post": "_posts/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru.md",
+ "rows": 19,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 3,
+   "kind": "omission",
+   "why": "原文为“Red and Blue/Green”，译文漏译了“Blue”（蓝）。",
+   "original": "Pokemon Platinum is just around the corner for gamers in the U.S., and I'm already polishing up my Nintendo DS in anticipation of the new battles and Pokemon I'm going to see. Nintendo recently invited GamePro to their Bay Area headquarters to interview two of the men behind the development of Pokem",
+   "current": "对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——Game Freak 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。",
+   "fix": "对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——Game Freak 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／蓝／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。"
+  },
+  {
+   "i": 5,
+   "kind": "term",
+   "why": "“the Pokemon Company”应译为官方名称“株式会社宝可梦”。",
+   "original": "(Center, left to right) Junichi Masuda and Takeshi Kawachimaru, with representives of the Pokemon Company. We were unreasonably intimidated.",
+   "current": "（中间，从左至右）增田顺一与河内丸武史，以及宝可梦公司的代表。我们感到了一种毫无道理的压迫感。",
+   "fix": "（中间，从左至右）增田顺一与河内丸武史，以及株式会社宝可梦的代表。我们感到了一种毫无道理的压迫感。"
+  }
+ ]
+}

@@ -243,7 +243,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: ←レンジャー活動をジャマするゴーゴー団を退けながら、人や自然を守りぬく
-    translation: ←一边击退妨碍巡护员活动的冲冲团，一边守护人与自然的
+    translation: "←一边击退妨碍巡护员活动的冲冲团，一边守护人与自然"
     scan_box:
       - 1409
       - 877
@@ -420,7 +420,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: ↑→人のお願いを聞いたり、その活動をジャマするゴーゴー団とバトルしたりと大忙し
-    translation: ↑听取他人的请求，又与妨碍这些活动的冲冲团对战，忙得不可开交
+    translation: "↑→听取他人的请求，又与妨碍这些活动的冲冲团对战，忙得不可开交"
     comment: 冲冲团（ゴーゴー団）是《宝可梦巡护员 光的轨迹》中登场的敌对组织。
     scan_box:
       - 379
@@ -886,7 +886,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 目的は不明だが、ポケモンレンジャーの妨害をするゴーゴー団。彼らは、シンバラ教授から奪った新型スタイラーを改造したものを使い、フィオレ地方各地でさまざまな事件を巻き起こす。中でもゴーゴー団幹部のゴーゴー4兄弟とは何度も出会い、何度も戦うことになる。
-    translation: 目的不明，但会妨碍宝可梦巡护员的冲冲团。他们使用改造自辛巴拉教授处抢来的新型捕猎游标，在菲欧雷地区各地引发各种事件。其中，与冲冲团干部冲冲四兄弟会多次相遇，并多次交战。
+    translation: "目的不明，但会妨碍宝可梦巡护员的冲冲团。他们使用从辛巴拉教授处抢来的新型捕猎游标的改造品，在菲欧雷地区各地引发各种事件。其中，与冲冲团干部冲冲四兄弟会多次相遇，并多次交战。"
     scan_box:
       - 472
       - 1198
@@ -993,7 +993,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: ←さまざまな場所で立ちふさがるゴーゴー4兄弟。主人公を罠にかけようとする事も
-    translation: ←在各地阻挡去路的冲冲4兄弟。有时还会设下陷阱陷害主角
+    translation: "←在各地阻挡去路的冲冲四兄弟。有时还会设下陷阱陷害主角"
     scan_box:
       - 948
       - 1550
@@ -1041,7 +1041,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Touch screen←この楽器が実はスタイラー。中にはオルガン型のスタイラーも
-    translation: Touch screen←这个乐器其实就是捕猎游标。其中还有风琴型的捕猎游标
+    translation: "触摸屏←这个乐器其实就是捕猎游标。其中还有风琴型的捕猎游标"
     scan_box:
       - 1129
       - 1325
@@ -1084,7 +1084,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Touch screen←改造スタイラーの欠点をついて、主人公はポケモンを助けていく
-    translation: Touch screen←主角利用改造捕猎游标的缺点，一路救助宝可梦
+    translation: "触摸屏←主角利用改造捕猎游标的缺点，一路救助宝可梦"
     scan_box:
       - 1124
       - 1714
@@ -1194,7 +1194,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ポケモンレンジャーになるため、レンジャースクールへ入学した主人公。スクールでの厳しくも楽しい訓練を終えた彼らは晴れてレンジャーとなり、ポケモンたちを使ってアルミア地方を混乱に陥れる「ヤミヤミ団」の野望を打ち砕くべく、活動することになるのだ。
-    translation: 为了成为宝可梦巡护员，主角进入了巡护员学校。结束了学校里严格又愉快的训练后，他们正式成为巡护员，为粉碎企图利用宝可梦让阿尔米亚地方陷入混乱的“暗暗团”的野心而展开活动。
+    translation: "为了成为宝可梦巡护员，主角进入了巡护员学校。结束了学校里严格又愉快的训练后，他们正式成为巡护员，为粉碎企图利用宝可梦让阿尔米亚地区陷入混乱的“暗暗团”的野心而展开活动。"
     scan_box:
       - 1158
       - 360
@@ -1468,7 +1468,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: スクールに けさとつした かもつせんのしんそうは?ナゾのそしきのボス?11ばんめの トップレンジャーに
-    translation: 在学院附近沉没的货船真相是？神秘组织的首领？第11位顶级巡护员
+    translation: "冲入学院的货船真相是？神秘组织的首领？第11位顶级巡护员"
     scan_box:
       - 154
       - 1847
@@ -2513,7 +2513,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: オイルを知らないアナタに…オイルまるわかり講座
-    translation: 献给不了解奥伊尔的你……奥伊尔全解讲座
+    translation: "献给不了解欧伊尔的你……欧伊尔全解讲座"
     comment: 奥伊尔是宝可梦巡护员系列中的角色名。
     scan_box:
       - 66
@@ -2596,7 +2596,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: いま ニコッとしたから オイルさんに けってい！
-    translation: 刚才他笑了一下 就决定是奥伊尔先生了！
+    translation: "刚才他笑了一下 就决定是欧伊尔先生了！"
     scan_box:
       - 103
       - 1163
@@ -2743,7 +2743,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ビエンの森の火事現場で見つかった男。彼からは、強烈なオイルの匂いが漂っていた。オイルくさい男…なら「オイル」だ！ これがオイルと呼ばれる男が誕生した瞬間だった。
-    translation: 在比恩森林的火灾现场发现的男人。他身上散发着强烈的机油气味。既然是个机油味的男人……那就叫“奥伊尔”吧！这就是被称为奥伊尔的男人诞生的瞬间。
+    translation: "在比恩森林的火灾现场发现的男人。他身上散发着强烈的机油气味。既然是个机油味的男人……那就叫“欧伊尔”吧！这就是被称为欧伊尔的男人诞生的瞬间。"
     scan_box:
       - 649
       - 524
@@ -2775,7 +2775,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 「オイルブンブンやろう」だ、どうだ きにいったか？
-    translation: 就叫“奥伊尔嗡嗡男”吧，怎么样，喜欢吗？
+    translation: "就叫“欧伊尔嗡嗡男”吧，怎么样，喜欢吗？"
     scan_box:
       - 383
       - 680
@@ -3261,7 +3261,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: エレナはこの場面でグッときたのだとか
-    translation: 据说艾蕾娜在这个场面被打动了
+    translation: "据说艾莲娜在这个场面被打动了"
     scan_box:
       - 1304
       - 1683
@@ -3277,7 +3277,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: レンジャーのエレナとの愛を育み、ついに結婚の日を迎えたオイル。バロウからも「恩を忘れない男」として認められたし、言うことなし！ しかし、エレナは無類の分解好きだ。夫婦ゲンカのあとは気をつけろよ、オイル！
-    translation: 与巡护员艾蕾娜培育爱情，终于迎来结婚之日的奥伊尔。他也被巴罗认可为“不忘恩情的男人”，无可挑剔！不过，艾蕾娜是个无比喜欢拆解东西的人。夫妻吵架之后可要小心啊，奥伊尔！
+    translation: "与巡护员艾莲娜培育爱情，终于迎来结婚之日的奥伊尔。他也被巴罗认可为“不忘恩情的男人”，无可挑剔！不过，艾莲娜是个无比喜欢拆解东西的人。夫妻吵架之后可要小心啊，奥伊尔！"
     scan_box:
       - 972
       - 1767
@@ -4191,7 +4191,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 3月6日に発売される『光の軌跡』。キャプチャは基本的に『バトナージ』と同じ「きもちゲージ」を使ったシステムを採用しているが、ポケアシストがグループ別からポケモン別に変更され、より戦略のバリエーションが増えている。初登場の通信協力ミッションも大きな目玉だ。
-    translation: 3月6日发售的《光的轨迹》。捕获基本采用与《巴特那吉》相同的“心情计量条”系统，但宝可梦协助从按组划分改为按宝可梦划分，战略变化更加丰富。首次登场的通信协力任务也是一大看点。
+    translation: "3月6日发售的《光的轨迹》。捕获基本采用与《巡护员 巴特那吉》相同的“心情计量条”系统，但宝可梦协助从按组划分改为按宝可梦划分，战略变化更加丰富。首次登场的通信协力任务也是一大看点。"
     scan_box:
       - 1079
       - 1415
@@ -4246,7 +4246,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: ポケモンを囲んだだけ「きもちゲージ」がアップし、これを満タンにすることでキャプチャ成功となる。初代は囲み中に少しでも失敗すると最初からやり直しになったが、『バトナージ』では囲み中にタッチペンを離しても、途中から再開できるというわけだ。この変更にともなってか、ポケモンの攻撃も全体的に激しく派手なものが多くなっているぞ。
-    translation: 只要围住宝可梦，“心情计量条”就会上升，将其填满即捕获成功。初代只要在围圈过程中稍有失败就得从头再来，而《巴特那吉》中即使围圈途中松开触控笔，也能从中途继续。或许正因这一改动，宝可梦的攻击整体上也变得更为激烈华丽。
+    translation: "只要围住宝可梦，“心情计量条”就会上升，将其填满即捕获成功。初代只要在围圈过程中稍有失败就得从头再来，而《巡护员 巴特那吉》中即使围圈途中松开触控笔，也能从中途继续。或许正因这一改动，宝可梦的攻击整体上也变得更为激烈华丽。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -4339,7 +4339,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 初代はパートナーポケモンがプラスルかマイナンに固定されていたが、『バトナージ』はグループごとに全17匹が登場。途中で入れ替えることも可能だった。
-    translation: 初代的搭档宝可梦固定为正电拍拍或负电拍拍，而《搭档》中按组别共有17只登场。中途也可以更换。
+    translation: "初代的搭档宝可梦固定为正电拍拍或负电拍拍，而《巡护员 巴特那吉》中按组别共有17只登场。中途也可以更换。"
     comment: 《搭档》指《宝可梦巡护员 搭档》
   - speaker: caption
     type: paragraph
@@ -4381,7 +4381,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: Touch screen←フキダシが出ているのは、レンジャーに頼みごとのある印。話しかけよう
-    translation: 触摸屏←冒出气泡表示巡护员有委托。去搭话吧
+    translation: "触摸屏←冒出气泡表示有人有事情要拜托巡护员。去搭话吧"
   - speaker: caption
     type: paragraph
     kind: text

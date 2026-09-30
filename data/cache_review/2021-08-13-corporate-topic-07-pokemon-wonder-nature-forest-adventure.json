@@ -1,0 +1,17 @@
+{
+ "sig": "c86beffb6822a10b",
+ "post": "_posts/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure.md",
+ "rows": 22,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 19,
+   "kind": "mistranslation",
+   "why": "原文意为“宝可梦成为（人们）亲近自然的桥梁”，译文语序导致意思变成了“去亲近宝可梦的自然”。",
+   "original": "ポケモンが自然と親しむ架け橋に",
+   "current": "成为宝可梦亲近自然的桥梁",
+   "fix": "宝可梦成为亲近自然的桥梁"
+  }
+ ]
+}

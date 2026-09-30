@@ -93,7 +93,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: すれ違い通信をきっかけにして、ほかの通信機能も遊んでもらえれば、と
-  translation: 希望以连入为契机，让玩家也去玩其他的通信功能。
+  translation: "希望以擦肩通信为契机，让玩家也去玩其他的通信功能。"
   speaker: 大森滋
   role: answer
 - type: paragraph

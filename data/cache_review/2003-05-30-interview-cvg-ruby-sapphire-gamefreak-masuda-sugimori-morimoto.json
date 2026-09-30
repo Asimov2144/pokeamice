@@ -1,0 +1,49 @@
+{
+ "sig": "ccbacadc8a598dde",
+ "post": "_posts/2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto.md",
+ "rows": 53,
+ "field": "parallel_items",
+ "model": "qwen3.8-max",
+ "issues": [
+  {
+   "i": 6,
+   "kind": "term",
+   "why": "Pokemon contest 的官方中文译名是“宝可梦华丽大赛”，而非“宝可梦竞赛”。",
+   "original": "What is new about the Game Boy Advance version is that it has made transmitting systems possible for four people all involved at one time. This means that four people can enjoy playing the game together at the same time. Also in Pokemon Ruby and Pokemon Sapphire the graphics are new, and in this gam",
+   "current": "Game Boy Advance版的新之处在于，它让四个人同时参与的传输系统成为可能。这意味着四个人可以同时一起享受游戏的乐趣。另外，在《宝可梦 红宝石》和《宝可梦 蓝宝石》中，画面是新的，游戏还加入了宝可梦竞赛等新内容。",
+   "fix": "Game Boy Advance版的新之处在于，它让四个人同时参与的传输系统成为可能。这意味着四个人可以同时一起享受游戏的乐趣。另外，在《宝可梦 红宝石》和《宝可梦 蓝宝石》中，画面是新的，游戏还加入了宝可梦华丽大赛等新内容。"
+  },
+  {
+   "i": 8,
+   "kind": "fluency",
+   "why": "原文 recall memories of weird animals or animals from encyclopaedias 意为“回忆起百科全书里的奇怪动物或动物”，译文“回忆起……的记忆”语义重复且不通顺。",
+   "original": "As I have answered previously, experiences the designers have from their childhood have become the main inspiration when creating Pokemon. Experiences they have along with cartoons and movies from their childhood have become the main source of their ideas. And also encyclopaedia insects have made an",
+   "current": "正如我之前回答的，设计师们童年时期的经历成了创造宝可梦时的主要灵感来源。他们童年时与卡通和电影相伴的经历成了他们点子的主要来源。此外，昆虫百科全书也对设计师们创造新的宝可梦角色产生了影响。他们还会回忆起百科全书中奇怪动物或动物的记忆，并从中获得灵感。",
+   "fix": "正如我之前回答的，设计师们童年时期的经历成了创造宝可梦时的主要灵感来源。他们童年时与卡通和电影相伴的经历成了他们点子的主要来源。此外，昆虫百科全书也对设计师们创造新的宝可梦角色产生了影响。他们还会回忆起百科全书中的奇怪动物或各种动物，并从中获得灵感。"
+  },
+  {
+   "i": 18,
+   "kind": "name_number",
+   "why": "原文的 Ruby and Sapphire 是游戏名，译文未加书名号，与前文及后文其他条目对游戏名的处理不一致",
+   "original": "For an advanced game, Ruby and Sapphire doesn't have spectacular graphics, it's a little basic. Could you explain why you have chosen these kind of simple graphics?",
+   "current": "作为一款进阶游戏，红宝石和蓝宝石的画面并不惊艳，有点基础。你能解释一下为什么选择这种简单的画面吗？",
+   "fix": "作为一款进阶游戏，《红宝石》和《蓝宝石》的画面并不惊艳，有点基础。你能解释一下为什么选择这种简单的画面吗？"
+  },
+  {
+   "i": 38,
+   "kind": "mistranslation",
+   "why": "原文“TV movies”指宝可梦的电视动画和剧场版电影，译文拆成“电视、电影”丢失了“动画”这一关键信息，且后文一直在谈动画（animation）",
+   "original": "How close do you cooperate with the TV movies? So at first there was the game, and then there was the series. Now it seems as if the game is released at the same time as the new movies goes to cinemas in Japan.",
+   "current": "你们和电视、电影方面的合作有多紧密？最初是先有游戏，然后才有动画系列。现在看起来，游戏在日本上映新电影的同时也会发售。",
+   "fix": "你们和电视动画、电影方面的合作有多紧密？最初是先有游戏，然后才有动画系列。现在看起来，游戏在日本上映新电影的同时也会发售。"
+  },
+  {
+   "i": 44,
+   "kind": "term",
+   "why": "原文的 monster 指的就是宝可梦，前文已译为“宝可梦”，此处译为“怪物”前后不一致",
+   "original": "Have you been able to make each Pokemon a single, well defined entity. Each monster is really well defined and somewhat unique if the stats are compared with the other ones, both old and new ones. So I would like to know if the balancing of those stats took a big share of time during the development",
+   "current": "你们是否能够把每只宝可梦都做成单一、定义清晰的个体？如果把新旧宝可梦的数值相互比较，每只怪物都定义得非常清晰，某种程度上是独一无二的。所以我想知道，在开发过程中，这些数值的平衡是否占用了很大一部分时间？",
+   "fix": "你们是否能够把每只宝可梦都做成单一、定义清晰的个体？如果把新旧宝可梦的数值相互比较，每只宝可梦都定义得非常清晰，某种程度上是独一无二的。所以我想知道，在开发过程中，这些数值的平衡是否占用了很大一部分时间？"
+  }
+ ]
+}

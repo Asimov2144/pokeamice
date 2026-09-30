@@ -103,7 +103,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ―プロフィール―株式会社ゲームフリーク
-    translation: ―简介―GAME FREAK株式会社
+    translation: "―简介―株式会社GAME FREAK"
   - speaker: body
     type: paragraph
     kind: text
@@ -523,7 +523,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "はみだし情報 その3増田氏に好きなポケモンを訊いてみたところ、「最初の3匹以外ならビクティニ」とのこと。「\"ビクトリー(勝利)\"をもじった縁起のいい名前なので、勝利をもたらすお守りとして受験生や就職活動中の学生さんは手持ちにしてください」"
-    translation: 花絮信息 其3 当问及增田先生喜欢的宝可梦时，他说“如果不是最初的3只，那就是比克提尼”。“这是从‘胜利（victory）’谐音而来的吉利名字，作为带来胜利的护身符，请考生和正在求职的学生们把它带在身上。”
+    translation: "花絮信息 其3 当问及增田先生喜欢的宝可梦时，他说“如果不是最初的3只，那就是比克提尼”。“这是由‘Victory（胜利）’一词化用而来的吉利名字，作为带来胜利的护身符，请考生和正在求职的学生们把它带在身上。”"
   - speaker: caption
     type: paragraph
     kind: text
