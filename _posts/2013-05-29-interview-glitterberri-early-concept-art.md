@@ -1,5 +1,6 @@
 ---
 layout: interview-editorial
+interview_template: narrative
 archive_type: interview_translation
 title: GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计
 display_title: 宝可梦诞生前的概念设计
