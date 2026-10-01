@@ -1,6 +1,7 @@
 ---
 archive_type: interview_translation
 layout: interview-editorial
+interview_template: narrative
 title: 初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈
 title_ja: ポケモンのゲーム関連記事 ～初代ポケモン発売前後のファミマガなど・田尻智開発秘話～
 date: 1997-05-23 10:00:00 +0900

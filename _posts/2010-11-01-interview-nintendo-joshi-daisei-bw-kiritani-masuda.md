@@ -1,5 +1,7 @@
 ---
 layout: interview-editorial
+interview_template: roundtable
+interviewee: 增田顺一、杉森建
 title: 任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建
 original_title: 女子大生が訊く『ポケットモンスターブラック・ホワイト』
 date: '2010-11-01'
