@@ -1,0 +1,732 @@
+{
+ "note": "2026-10-02 重导批：另一会话 10-01 加的 22 篇里，原文对不上来源的按原页重导（报告 design/new-posts-audit-2026-10-02.md）。Creatures 招聘站的社员访谈是本人自述（小标题 + 段落 + 一天的日程），没有提问，按叙述体收；原页没有发布日期，date 用 Wayback 最早存档日（文章不晚于这天上线）。 社長が訊く タイピングDS 两篇用 scratch 的 import_iwata2011.py 读（2011 年版式：int-box / int-name / int-text / notes-box），翻译与写帖走 import-web 自己的函数；参与者只有页面上的姓，全名对不上的不补。",
+ "targets": [
+  {
+   "key": "creatures-recruit-card-game-designer",
+   "url": "https://recruit.creatures.co.jp/cr_people/pokemoncard_game_designer_kk/",
+   "lang": "ja",
+   "date": "2025-12-09",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [
+    "宝可梦集换式卡牌游戏"
+   ],
+   "tags": [
+    "Creatures",
+    "宝可梦卡牌",
+    "游戏设计",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-cg-environment-artist",
+   "url": "https://recruit.creatures.co.jp/cr_people/3dcg_environment_artist_tt/",
+   "lang": "ja",
+   "date": "2025-12-09",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "アニメであり、リアルでもある。独自の世界観を表現する奥深さ",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "Creatures",
+    "宝可梦CG工作室",
+    "3DCG",
+    "背景美术",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-director",
+   "url": "https://recruit.creatures.co.jp/cr_people/director/",
+   "lang": "ja",
+   "date": "2025-12-06",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "役員インタビュー",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "Creatures",
+    "宝可梦CG工作室",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-card-illustration-production",
+   "url": "https://recruit.creatures.co.jp/cr_people/pokemoncard_illustration_production_sh/",
+   "lang": "ja",
+   "date": "2025-12-09",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "ブランドを守り、子どもたちを守る。ポケモンカードゲームのアートの使命",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [
+    "宝可梦集换式卡牌游戏"
+   ],
+   "tags": [
+    "Creatures",
+    "宝可梦卡牌",
+    "卡牌插画",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-cg-character-modeler",
+   "url": "https://recruit.creatures.co.jp/cr_people/3dcg_character_modeler_sh/",
+   "lang": "ja",
+   "date": "2025-12-09",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "物語を想像し、生き物としての「説得力」を具現化する",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [],
+   "tags": [
+    "Creatures",
+    "宝可梦CG工作室",
+    "3DCG",
+    "角色建模",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-cg-animator",
+   "url": "https://recruit.creatures.co.jp/cr_people/nzih4t8lw3xy/",
+   "lang": "ja",
+   "date": "2026-02-15",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "ポケモンが自らの意思で動いているような、生き生きした表現を追求したい",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [
+    "宝可梦巡护员"
+   ],
+   "tags": [
+    "Creatures",
+    "宝可梦CG工作室",
+    "3DCG",
+    "动画",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-pokepoke-product-planner",
+   "url": "https://recruit.creatures.co.jp/cr_people/pokemoncard_product_planner_fy/",
+   "lang": "ja",
+   "date": "2026-02-15",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "専門性を掛け合わせ、世界中の人が楽しめる『ポケポケ』をつくる",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [
+    "Pokémon TCG Pocket"
+   ],
+   "tags": [
+    "Creatures",
+    "Pokémon TCG Pocket",
+    "商品企划",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "creatures-recruit-sound-creator",
+   "url": "https://recruit.creatures.co.jp/cr_people/digitalgame_sound_creator_mh/",
+   "lang": "ja",
+   "date": "2025-12-06",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "“気づいたらポケモンの世界にいる”そんなサウンドを、届けたい",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [
+    "Pokémon TCG Pocket"
+   ],
+   "tags": [
+    "Creatures",
+    "Pokémon TCG Pocket",
+    "游戏音效",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "fresh": true,
+   "container": "div.cr_people div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "max_images": 20,
+   "drop": "^(Creatures People|Day Schedule|Holiday Schedule|Related|All People|People)$"
+  },
+  {
+   "key": "hobonichi-1999-ambrella-ozawa",
+   "url": "https://www.1101.com/nintendo/nin3/nin3-1.htm",
+   "pages": [
+    "https://www.1101.com/nintendo/nin3/nin3-2.htm",
+    "https://www.1101.com/nintendo/nin3/nin3-3.htm",
+    "https://www.1101.com/nintendo/nin3/nin3-4.htm",
+    "https://www.1101.com/nintendo/nin3/nin3-5.htm"
+   ],
+   "lang": "ja",
+   "date": "1999-02-10",
+   "outlet": "ほぼ日刊イトイ新聞",
+   "outlet_zh": "ほぼ日刊イトイ新聞（Hobonichi）",
+   "title": "樹の上の秘密基地 ゲームはまだまだ新しくなる！ 新世代の主役たち（第3回）アンブレラ 小澤さん",
+   "kind": "interview_feature",
+   "speakers": {},
+   "works": [
+    "皮卡丘你好"
+   ],
+   "tags": [
+    "ほぼ日",
+    "樹の上の秘密基地",
+    "Ambrella",
+    "皮卡丘你好",
+    "语音识别"
+   ],
+   "join_br": true,
+   "max_images": 20,
+   "fresh": true,
+   "drop": "^\\d{4}-\\d{1,2}-\\d{1,2}-[A-Z]{3}$"
+  },
+  {
+   "key": "hobonichi-1999-jack-and-beans-snap",
+   "url": "https://www.1101.com/nintendo/nin5/nin5-1.htm",
+   "pages": [
+    "https://www.1101.com/nintendo/nin5/nin5-2.htm",
+    "https://www.1101.com/nintendo/nin5/nin5-3.htm",
+    "https://www.1101.com/nintendo/nin5/nin5-4.htm",
+    "https://www.1101.com/nintendo/nin5/nin5-5.htm",
+    "https://www.1101.com/nintendo/nin5/nin5-6.htm"
+   ],
+   "lang": "ja",
+   "date": "1999-05-13",
+   "outlet": "ほぼ日刊イトイ新聞",
+   "outlet_zh": "ほぼ日刊イトイ新聞（Hobonichi）",
+   "title": "樹の上の秘密基地 第5弾 ポケモンスナップの開発チーム「ジャックアンドビーンズ」",
+   "kind": "interview",
+   "speakers": {
+    "岩田": "岩田聪",
+    "宮本": "宫本茂",
+    "糸井": "糸井重里"
+   },
+   "asker": "ほぼ日",
+   "works": [
+    "宝可梦随乐拍"
+   ],
+   "tags": [
+    "ほぼ日",
+    "樹の上の秘密基地",
+    "Jack and Beans",
+    "宝可梦随乐拍",
+    "HAL研究所"
+   ],
+   "join_br": true,
+   "max_images": 30,
+   "fresh": true,
+   "drop": "^\\d{4}-\\d{1,2}-\\d{1,2}-[A-Z]{3}$",
+   "page_headings": [
+    "第５回の1（1999年5月13日）",
+    "第５回の2（1999年5月25日）",
+    "第５回の3（1999年6月1日）",
+    "第５回の4（1999年6月8日）",
+    "第５回の5（1999年6月15日）",
+    "第５回の6（1999年6月20日）"
+   ]
+  },
+  {
+   "key": "denfami-2016-mystery-dungeon-nakamura-nagahata",
+   "url": "https://news.denfaminicogamer.jp/projectbook/dungeon",
+   "lang": "ja",
+   "date": "2016-03-07",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "「不思議のダンジョン」の絶妙なゲームバランスは、たった一枚のエクセルから生み出されている！？ スパイク・チュンソフト中村光一氏と長畑成一郎氏が語るゲームの「編集」",
+   "kind": "interview",
+   "asker": "電ファミ",
+   "asker_aliases": [
+    "――",
+    "──",
+    "—―"
+   ],
+   "speakers": {
+    "中村": "中村光一",
+    "長畑": "长畑成一郎"
+   },
+   "works": [
+    "不可思议的迷宫",
+    "宝可梦不可思议的迷宫"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "Spike Chunsoft",
+    "中村光一",
+    "长畑成一郎",
+    "不可思议的迷宫",
+    "游戏平衡"
+   ],
+   "container": "#articleBody",
+   "max_images": 60,
+   "fresh": true,
+   "pages": [
+    "https://news.denfaminicogamer.jp/projectbook/dungeon/2",
+    "https://news.denfaminicogamer.jp/projectbook/dungeon/3"
+   ]
+  },
+  {
+   "key": "gamewatch-2012-pokemon-nobunaga-presentation",
+   "url": "https://game.watch.impress.co.jp/docs/news/505920.html",
+   "lang": "ja",
+   "date": "2012-01-19",
+   "outlet": "GAME Watch",
+   "outlet_zh": "GAME Watch",
+   "title": "ポケモン、DS「ポケモン＋ノブナガの野望」完成披露会を開催",
+   "kind": "event_report",
+   "speakers": {},
+   "works": [
+    "宝可梦＋信长的野望"
+   ],
+   "tags": [
+    "GAME Watch",
+    "宝可梦＋信长的野望",
+    "光荣特库摩",
+    "石原恒和",
+    "襟川阳一",
+    "发布会"
+   ],
+   "max_images": 40,
+   "fresh": true
+  },
+  {
+   "key": "iwata-asks-typing-ds-keyboard",
+   "slug": "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard",
+   "url": "https://www.nintendo.co.jp/ds/interview/uzpj/vol1/index.html",
+   "pages": [
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol1/index2.html",
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol1/index3.html"
+   ],
+   "lang": "ja",
+   "date": "2011-04-21",
+   "outlet": "任天堂 社長が訊く",
+   "outlet_zh": "社长问",
+   "title": "社長が訊く『バトル＆ゲット！ ポケモンタイピングDS』ニンテンドー ワイヤレスキーボード篇",
+   "kind": "interview",
+   "asker": "岩田",
+   "speakers": {
+    "桑原": "桑原",
+    "福元": "福元",
+    "太田": "太田",
+    "一同": "一同"
+   },
+   "works": [
+    "宝可梦打字DS"
+   ],
+   "tags": [
+    "社长问",
+    "宝可梦打字DS",
+    "任天堂",
+    "无线键盘"
+   ],
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "iwata-asks-typing-ds-software",
+   "slug": "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana",
+   "url": "https://www.nintendo.co.jp/ds/interview/uzpj/vol2/index.html",
+   "pages": [
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol2/index2.html",
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol2/index3.html",
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol2/index4.html",
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol2/index5.html",
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol2/index6.html"
+   ],
+   "lang": "ja",
+   "date": "2011-04-21",
+   "outlet": "任天堂 社長が訊く",
+   "outlet_zh": "社长问",
+   "title": "社長が訊く『バトル＆ゲット！ ポケモンタイピングDS』ソフト篇",
+   "kind": "interview",
+   "asker": "岩田",
+   "speakers": {
+    "石原": "石原恒和",
+    "山名": "山名学",
+    "安藤": "安藤",
+    "一同": "一同"
+   },
+   "works": [
+    "宝可梦打字DS"
+   ],
+   "tags": [
+    "社长问",
+    "宝可梦打字DS",
+    "Genius Sonority",
+    "石原恒和",
+    "山名学"
+   ],
+   "fresh": true,
+   "max_images": 30
+  },
+  {
+   "key": "4gamer-2015-pokken-harada-hoshino",
+   "slug": "2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino",
+   "url": "https://www.4gamer.net/games/271/G027121/20150216076/",
+   "lang": "ja",
+   "date": "2015-02-16",
+   "outlet": "4Gamer.net",
+   "outlet_zh": "4Gamer.net",
+   "title": "「ポッ拳 POKKÉN TOURNAMENT」とは一体どんな対戦ゲームなのか。原田、星野両Pへのインタビューと共にお届けするプレイインプレッション",
+   "kind": "interview",
+   "asker": "4Gamer",
+   "speakers": {
+    "原田": "原田胜弘",
+    "原田勝弘": "原田胜弘",
+    "星野": "星野正昭",
+    "星野正昭": "星野正昭"
+   },
+   "works": [
+    "宝可拳 POKKÉN TOURNAMENT"
+   ],
+   "tags": [
+    "4Gamer",
+    "宝可拳",
+    "万代南梦宫",
+    "原田胜弘",
+    "星野正昭",
+    "格斗游戏"
+   ],
+   "container": "div.maintxt",
+   "max_images": 40,
+   "fresh": true,
+   "drop": "^(■関連記事|［JAEPO2015］.*|「ポッ拳 POKKEN TOURNAMENT」，ロケーションテストのレポート.*)$"
+  },
+  {
+   "key": "creatures-recruit-card-management-cross-talk",
+   "url": "https://recruit.creatures.co.jp/cr_people/pokemon_tcg_cross_talk/",
+   "lang": "ja",
+   "date": "2025-12-06",
+   "outlet": "クリーチャーズ 採用サイト",
+   "outlet_zh": "Creatures 招聘网站",
+   "title": "ポケモンカード開発本部管理職対談",
+   "kind": "interview",
+   "speakers": {
+    "N.A.": "N.A.",
+    "N.S.": "N.S.",
+    "O.K.": "O.K."
+   },
+   "works": [
+    "宝可梦集换式卡牌游戏"
+   ],
+   "tags": [
+    "Creatures",
+    "宝可梦卡牌",
+    "管理职对谈",
+    "招聘访谈"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "container": "div.crosstalk div.page-content",
+   "strip": [
+    "section.relatedPeople",
+    "div.breadcrumb",
+    "nav"
+   ],
+   "drop": "^(Creatures People|Cross Talk|Related|All People|People)$",
+   "max_images": 20,
+   "fresh": true,
+   "bold_question": false
+  },
+  {
+   "key": "famitsu-2024-pjcs-champion-hara",
+   "slug": "2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos",
+   "url": "https://www.famitsu.com/article/202407/9958",
+   "lang": "ja",
+   "date": "2024-07-10",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "【ポケモンSV】“PJCS2024”でテラパゴスとともに優勝したハラ ヒュウマ選手へインタビュー",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "asker_aliases": [
+    "――",
+    "──"
+   ],
+   "speakers": {
+    "ハラ": "ハラ ヒュウマ"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "ファミ通",
+    "PJCS 2024",
+    "宝可梦 朱·紫",
+    "VGC",
+    "太乐巴戈斯"
+   ],
+   "container": "div[class*=ArticleDetailBody_articleBody]",
+   "max_images": 40,
+   "fresh": true
+  },
+  {
+   "key": "pokemon-card-25th-nagashima",
+   "slug": "2021-10-22-interview-creatures-atsushi-nagashima-pokemon-card-25th-anniversary",
+   "url": "https://www.pokemon-card.com/ex/25th/interview/",
+   "lang": "ja",
+   "date": "2021-10-22",
+   "outlet": "ポケモンカード25周年記念サイト",
+   "outlet_zh": "宝可梦卡牌25周年纪念网站",
+   "title": "開発者インタビュー｜ポケモンカード25周年記念サイト",
+   "kind": "interview",
+   "speakers": {
+    "長島": "长岛敦"
+   },
+   "works": [
+    "宝可梦集换式卡牌游戏"
+   ],
+   "tags": [
+    "宝可梦卡牌",
+    "25周年",
+    "Creatures",
+    "长岛敦"
+   ],
+   "categories": [
+    "访谈翻译",
+    "官方档案"
+   ],
+   "max_images": 20,
+   "fresh": true
+  },
+  {
+   "key": "drpez-2026-tawada",
+   "slug": "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority",
+   "url": "https://drpez12.substack.com/p/tawada-interview",
+   "lang": "en",
+   "date": "2026-09-21",
+   "outlet": "Couch Co-op with Dr. Pez",
+   "outlet_zh": "Couch Co-op with Dr. Pez（Substack）",
+   "title": "Tsukasa Tawada: A Peek Into the Mind of a Composer",
+   "kind": "interview",
+   "asker": "D",
+   "asker_aliases": [
+    "D",
+    "DrPez",
+    "Dr. Pez"
+   ],
+   "speakers": {
+    "T": "多和田吏",
+    "Tawada": "多和田吏"
+   },
+   "works": [
+    "宝可梦 圆形竞技场",
+    "宝可梦 XD 暗之旋风 黑暗洛奇亚"
+   ],
+   "tags": [
+    "Dr. Pez",
+    "多和田吏",
+    "Genius Sonority",
+    "游戏音乐",
+    "作曲"
+   ],
+   "container": "div.available-content",
+   "max_images": 30,
+   "fresh": true
+  },
+  {
+   "key": "seafoam-2022-tomie",
+   "slug": "2022-04-17-interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto",
+   "url": "https://seafoamgaming.com/2022/04/17/interview-with-shinichiro-tomie-from-spike-chunsoft/",
+   "lang": "ja",
+   "date": "2022-04-17",
+   "outlet": "Seafoam Gaming",
+   "outlet_zh": "Seafoam Gaming",
+   "title": "The Meeting of Destiny: An Interview with Shinichiro Tomie from SPIKE CHUNSOFT",
+   "kind": "interview",
+   "asker": "SFG",
+   "speakers": {
+    "ST": "富江慎一郎"
+   },
+   "works": [
+    "宝可梦不可思议的迷宫"
+   ],
+   "tags": [
+    "Seafoam Gaming",
+    "Spike Chunsoft",
+    "富江慎一郎",
+    "宝可梦不可思议的迷宫"
+   ],
+   "max_images": 20,
+   "fresh": true
+  },
+  {
+   "key": "gamefreak-2015-recruit-rnd",
+   "slug": "2015-09-01-interview-gamefreak-rnd-launch-taya-mi",
+   "url": "http://www.gamefreak.co.jp/recruit/interview_02.html",
+   "wayback": "http://web.archive.org/web/20160330115800/http://www.gamefreak.co.jp/recruit/interview_02.html",
+   "lang": "ja",
+   "date": "2015-09-01",
+   "outlet": "GAME FREAK 採用サイト",
+   "outlet_zh": "GAME FREAK 招聘网站",
+   "title": "研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」",
+   "kind": "interview",
+   "speakers": {
+    "研究開発部部長 S.T.": "S.T.",
+    "S.T.": "S.T.",
+    "プログラマ M.I.": "M.I.",
+    "M.I.": "M.I."
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [
+    "GAME FREAK",
+    "研究开发部",
+    "招聘访谈",
+    "Wayback历史存档"
+   ],
+   "categories": [
+    "developer-interviews",
+    "gamefreak-recruit"
+   ],
+   "fresh": true,
+   "max_images": 20
+  },
+  {
+   "key": "tpc-2014-recruit-global-hirobe",
+   "slug": "2014-05-01-interview-tpc-global-business-hirobe",
+   "url": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview3.html",
+   "wayback": "http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview3.html",
+   "lang": "ja",
+   "date": "2014-05-01",
+   "outlet": "株式会社ポケモン 採用情報",
+   "outlet_zh": "宝可梦公司 招聘信息",
+   "title": "Special Interview 003 「グローバル事業、最前線」",
+   "kind": "interview",
+   "speakers": {
+    "廣部": "广部圭太",
+    "廣部 圭太": "广部圭太"
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [
+    "株式会社宝可梦",
+    "广部圭太",
+    "全球同步发售",
+    "招聘访谈",
+    "Wayback历史存档"
+   ],
+   "categories": [
+    "developer-interviews",
+    "pokemon-company-recruit"
+   ],
+   "fresh": true,
+   "max_images": 20
+  }
+ ]
+}

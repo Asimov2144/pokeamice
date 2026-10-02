@@ -512,6 +512,9 @@ PORTRAITS = [
     dict(name="小泽达雄", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2/photo7.jpg", source="社長が訊く『スーパーポケモンスクランブル』第2章 photo7", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations"),
     dict(name="松村直树", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2/photo8.jpg", source="社長が訊く『スーパーポケモンスクランブル』第2章 photo8", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations"),
     dict(name="小泽达雄", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3/photo13.jpg", source="社長が訊く『スーパーポケモンスクランブル』第3章 photo13", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again"),
+    # 2026-10-02 按原页重导的帖子里，图注 / alt 点了名的照片
+    dict(name="小澤宗明", year=1999, src=_IA + "1999-02-10-interview-hobonichi-1999-ambrella-ozawa/002.jpg", source="ほぼ日刊イトイ新聞 1999-02-10「樹の上の秘密基地」第3回 · 图 alt「小澤宗明氏」", post="1999-02-10-interview-hobonichi-1999-ambrella-ozawa"),
+    dict(name="多和田吏", year=2026, src=_IA + "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/006.jpeg", source="Couch Co-op with Dr. Pez 2026-09-21 · 图注「Tawada in front of a poster for Pokemon XD」", post="2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority"),
 ]
 
 

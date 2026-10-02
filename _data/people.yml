@@ -1094,6 +1094,13 @@
   - 小澤
   - 小沢宗明
   - Muneaki Ozawa
+  portraits:
+  - image: /assets/img/people/ozawa-muneaki-1999.jpg
+    year: 1999
+    source: ほぼ日刊イトイ新聞 1999-02-10「樹の上の秘密基地」第3回 · 图 alt「小澤宗明氏」
+    post: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa
+  avatar: /assets/img/people/ozawa-muneaki.jpg
+  avatar_source: ほぼ日刊イトイ新聞 1999-02-10「樹の上の秘密基地」第3回 · 图 alt「小澤宗明氏」
 - name: 松村憲男
   slug: matsumura-norio
   credits_key: matsumura norio
@@ -1106,6 +1113,13 @@
   aliases:
   - 多和田
   - Tsukasa Tawada
+  portraits:
+  - image: /assets/img/people/tawada-tsukasa-2026.jpg
+    year: 2026
+    source: Couch Co-op with Dr. Pez 2026-09-21 · 图注「Tawada in front of a poster for Pokemon XD」
+    post: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority
+  avatar: /assets/img/people/tawada-tsukasa.jpg
+  avatar_source: Couch Co-op with Dr. Pez 2026-09-21 · 图注「Tawada in front of a poster for Pokemon XD」
 - name: 山名学
   slug: shan-ming-xue
   credits_key: manabu yamana

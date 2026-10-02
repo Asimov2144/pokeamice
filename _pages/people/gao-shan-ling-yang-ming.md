@@ -6,7 +6,7 @@ slug: gao-shan-ling-yang-ming
 permalink: /people/gao-shan-ling-yang-ming/
 aliases: []
 avatar: /assets/img/people/gao-shan-ling-yang-ming.jpg
-avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）
+avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2792）
 search: false
 sitemap: true
 ---

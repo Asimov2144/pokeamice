@@ -84,7 +84,7 @@ parallel_items:
   role: question
 - speaker: 尾上将之
   original: There is a lot of back-and-forth between Team 1 and Team 2. One of the interesting things is that Team 2, which is dedicated to Pokémon, only knows about specific platforms. So with Team 2, engineers can learn about other platforms that he might not have touched before. So by mixing up the teams we are able to create this interesting synergy.
-  translation: 1组和2组之间有很多交流。有趣的一点是，专注于《宝可梦》的2组只了解特定的平台。因此在2组，工程师可以学习到他们以前可能未曾接触过的其他平台。所以，通过混合团队，我们能够创造出这种有趣的协同效应。
+  translation: "1组和2组之间有很多交流。有趣的一点是，专注于《宝可梦》的2组只了解特定的平台。因此通过团队混合，工程师可以学习到他们以前可能未曾接触过的其他平台。所以，通过混合团队，我们能够创造出这种有趣的协同效应。"
   role: answer
 - type: image
   image: /assets/img/interviews/2019-05-09-interview-vgc-gamefreak-gear-project/Capture2-1.png
@@ -107,7 +107,7 @@ parallel_items:
   role: answer
 - speaker: 尾上将之
   original: On Pokémon, of course I contribute to the project, but it’s not like I’m looking at the whole picture of the project. However with Giga Wrecker, as a director I’m constantly supervising the whole picture and need to be aware of what’s going on. So yes, it was a very interesting and refreshing experience for me.
-  translation: 在《宝可梦》项目中，我当然为项目做出了贡献，但我不需要顾及项目的全貌。而在《千兆破坏者》中，作为总监，我不断在监督整体情况，并且需要了解正在发生的事情。所以是的，这对我来说是一次非常有趣和耳目一新的体验。
+  translation: "在《宝可梦》项目中，我当然为项目做出了贡献，但我并不是从项目全貌的角度来看待它的。而在《千兆破坏者》中，作为总监，我不断在监督整体情况，并且需要了解正在发生的事情。所以是的，这对我来说是一次非常有趣和耳目一新的体验。"
   role: answer
 - speaker: 尾上将之
   original: When you’re a programmer working on Pokémon, you’re one of many programmers. However, as a director on Giga Wrecker the experience opened my eyes to the other aspects of game creation, all the way up to users playing the game. It’s really difficult to expect a programmer to have that kind of perspective, but as director I learned how to make a game more appealing and accessible to players, plus aspects of marketing as well.
@@ -115,7 +115,7 @@ parallel_items:
   role: answer
 - speaker: 尾上将之
   original: Gear Project has helped me become more creative. I’ve now seen the whole process of creation all the way to marketing and selling the game to players. I can now bring that knowhow back to the Pokémon team and try to create something different for Pokémon. So it’s a good synergy between Gear Project and Pokémon creation.
-  translation: Gear Project 帮助我变得更具创造力。我现在已经看到了从游戏创作，一直到营销和将游戏出售给玩家的整个过程。现在我可以将这些知识带回宝可梦团队，并尝试为《宝可梦》创造一些不同的东西。所以这是 Gear Project 和宝可梦开发之间很好的协同效应。
+  translation: "Gear Project 帮助我变得更具创造力。我现在已经看到了从游戏创作，一直到营销和将游戏出售给玩家的整个过程。现在我可以将这些经验带回宝可梦团队，并尝试为《宝可梦》创造一些不同的东西。所以这是 Gear Project 和宝可梦开发之间很好的协同效应。"
   role: answer
 - speaker: VGC
   original: Game Freak seems to be putting out more titles than ever before, with three this year alone. How have you managed to become so efficient?
@@ -127,7 +127,7 @@ parallel_items:
   role: answer
 - speaker: 尾上将之
   original: R&D is a newly founded division which is creating the basic library, which used to be created every single time we made a project. That helps the efficiency of our production for sure. Also we are looking at what’s going on in the future, from a technical perspective, and that’s something else that we’ve never had before. I think that R&D division will certainly contribute to the future of Game Freak.
-  translation: 研发（R&D）是一个新成立的部门，负责创建基础库，而以前我们每次做项目都要从头创建它。这无疑提高了我们的生产效率。此外，我们从技术角度着眼于未来，这也是我们以前从未有过的。我认为研发部门一定会为 GAME FREAK 的未来做出贡献。
+  translation: "研发（R&D）是一个新成立的部门，负责创建基础库，而以前我们每次做项目都要创建它。这无疑提高了我们的生产效率。此外，我们从技术角度着眼于未来，这也是我们以前从未有过的。我认为研发部门一定会为 GAME FREAK 的未来做出贡献。"
   role: answer
 - speaker: VGC
   original: Can you tell us what you’re working on right now?
