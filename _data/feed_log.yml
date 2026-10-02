@@ -1,4 +1,28 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-10-02'
+  count: 14
+  types:
+    访谈翻译: 14
+  posts:
+  - 2026-02-15-interview-creatures-recruit-pokepoke-product-planner
+  - 2026-02-15-interview-creatures-recruit-cg-animator
+  - 2025-12-09-interview-creatures-recruit-cg-environment-artist
+  - 2025-12-09-interview-creatures-recruit-cg-character-modeler
+  - 2025-12-09-interview-creatures-recruit-card-illustration-production
+  - 2025-12-09-interview-creatures-recruit-card-game-designer
+  - 2025-12-06-interview-creatures-recruit-sound-creator
+  - 2025-12-06-interview-creatures-recruit-director
+- date: '2026-10-01'
+  count: 6
+  types:
+    访谈翻译: 6
+  posts:
+  - 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority
+  - 2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos
+  - 2022-04-17-interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto
+  - 2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino
+  - 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana
+  - 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard
 - date: '2026-09-29'
   count: 81
   types:
