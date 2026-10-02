@@ -1,0 +1,336 @@
+{
+ "id": "interview-hobonichi-1999-jack-and-beans-snap",
+ "stem": "1999-05-13-interview-hobonichi-1999-jack-and-beans-snap",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 205
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     150
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     1,
+     57,
+     83,
+     117,
+     151
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "超级任天堂",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "地球仪",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "卷心菜",
+    "slug": null,
+    "seg": [
+     143
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧64",
+    "slug": null,
+    "seg": [
+     151
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     5,
+     7,
+     14,
+     18,
+     20
+    ]
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     10,
+     13,
+     15,
+     19
+    ]
+   },
+   {
+    "name": "山本洋一",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     9,
+     40,
+     104,
+     192
+    ]
+   },
+   {
+    "name": "ほぼ日",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     46,
+     68,
+     99,
+     137
+    ]
+   },
+   {
+    "name": "川瀬シゲゾー",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     17,
+     60,
+     76,
+     77,
+     121,
+     123
+    ]
+   },
+   {
+    "name": "猪ノ口幸治",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     21,
+     24,
+     25,
+     26,
+     134
+    ]
+   },
+   {
+    "name": "山本正宣",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     32,
+     72,
+     200
+    ]
+   },
+   {
+    "name": "町田武幸",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     56,
+     57,
+     117,
+     170
+    ]
+   },
+   {
+    "name": "関森一紀",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     85,
+     86,
+     180
+    ]
+   },
+   {
+    "name": "加藤博孝",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     92,
+     93,
+     94,
+     98,
+     128
+    ]
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     125,
+     126,
+     129,
+     130,
+     131,
+     133
+    ]
+   },
+   {
+    "name": "山内社长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中村光一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "高田正治",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "竹嶋章",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "东山静",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     51
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "手冢",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     67
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "篠原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     147
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     41
+    ],
+    "what": "Jack办公室所在地",
+    "via": "llm"
+   },
+   {
+    "name": "名古屋",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     45
+    ],
+    "what": "竹嶋章前工作地点",
+    "via": "llm"
+   },
+   {
+    "name": "大阪",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     51
+    ],
+    "what": "东山静来处",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "岩田聪说从团队组建到《宝可梦随乐拍》完成、发售花了三年半。",
+   "anchor": 2
+  },
+  {
+   "seg": 26,
+   "text": "编辑部注：号召收到超过550人（组）应征，约50人进入酒店面试。",
+   "anchor": 27
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

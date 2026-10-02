@@ -1,0 +1,143 @@
+{
+ "id": "interview-pokemon-card-25th-nagashima",
+ "stem": "2021-11-05-interview-pokemon-card-25th-nagashima",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     7
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     7
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "月亮伊布",
+    "ndex": 197,
+    "seg": [
+     7
+    ],
+    "as": [
+     "月亮伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡璞・蝶蝶",
+    "ndex": 786,
+    "seg": [
+     7
+    ],
+    "as": [
+     "卡璞・蝶蝶"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "编辑部",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     9,
+     11,
+     13,
+     18
+    ]
+   },
+   {
+    "name": "长岛敦",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     7,
+     10,
+     12,
+     16,
+     19
+    ]
+   },
+   {
+    "name": "大木博士",
+    "slug": "da-mu-bo-shi",
+    "role": "mentioned",
+    "seg": [
+     7
+    ],
+    "via": "llm",
+    "kind": "character"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "长岛称宝可梦卡牌游戏至今未改变基本玩法",
+   "anchor": 4
+  },
+  {
+   "seg": 7,
+   "text": "25周年扩充包从宝可梦世界所有地区精选宝可梦和角色",
+   "anchor": 8
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-creatures-history-special-ishihara-tanaka",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Creatures 25周年特别对谈",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E5%85%AC%E5%8F%B8%E4%B8%8E%E6%88%98%E7%95%A5/interview-creatures-history-special-ishihara-tanaka/",
+   "why": "同谈宝可梦卡牌e等卡牌产品与Creatures分工"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

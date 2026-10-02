@@ -1,0 +1,209 @@
+{
+ "id": "interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana",
+ "stem": "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 246
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     60,
+     162
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "多边兽",
+    "ndex": 137,
+    "seg": [
+     168
+    ],
+    "as": [
+     "多边兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮宝宝",
+    "ndex": 173,
+    "seg": [
+     182
+    ],
+    "as": [
+     "皮宝宝"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦打字DS",
+    "slug": "learn-with-pokemon-typing-adventure",
+    "seg": [
+     1,
+     3,
+     5,
+     27,
+     134
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙III",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙VII",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "DS文学全集",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙 剑 假面女王与镜之塔",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     5,
+     12,
+     14,
+     17,
+     21
+    ]
+   },
+   {
+    "name": "编者注",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "一同",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     83,
+     245
+    ]
+   },
+   {
+    "name": "山名学",
+    "slug": "shan-ming-xue",
+    "role": "speaker",
+    "seg": [
+     10,
+     13,
+     28,
+     30,
+     33,
+     44
+    ]
+   },
+   {
+    "name": "安藤",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     15,
+     53,
+     55,
+     57,
+     60,
+     63
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     18,
+     22,
+     24,
+     26,
+     35,
+     37
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 28,
+   "text": "山名说石原要求做成游戏，自己却从大楼10楼开始，而初次接触键盘的孩子在1楼",
+   "anchor": 29
+  },
+  {
+   "seg": 62,
+   "text": "给小学低年级孩子做测试，结果大家完全不肯玩",
+   "anchor": 63
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,439 @@
+{
+ "id": "interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos",
+ "stem": "2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 78
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "图图犬",
+    "ndex": 235,
+    "seg": [
+     45
+    ],
+    "as": [
+     "图图犬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "班基拉斯",
+    "ndex": 248,
+    "seg": [
+     45
+    ],
+    "as": [
+     "班基拉斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "乐天河童",
+    "ndex": 272,
+    "seg": [
+     45
+    ],
+    "as": [
+     "乐天河童"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "煤炭龟",
+    "ndex": 324,
+    "seg": [
+     49
+    ],
+    "as": [
+     "煤炭龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "盖欧卡",
+    "ndex": 382,
+    "seg": [
+     45,
+     49
+    ],
+    "as": [
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "暴雪王",
+    "ndex": 460,
+    "seg": [
+     45
+    ],
+    "as": [
+     "暴雪王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帝牙卢卡",
+    "ndex": 483,
+    "seg": [
+     45
+    ],
+    "as": [
+     "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     45
+    ],
+    "as": [
+     "帕路奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "克雷色利亚",
+    "ndex": 488,
+    "seg": [
+     45
+    ],
+    "as": [
+     "克雷色利亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "败露球菇",
+    "ndex": 591,
+    "seg": [
+     25
+    ],
+    "as": [
+     "败露球菇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炽焰咆哮虎",
+    "ndex": 727,
+    "seg": [
+     25,
+     27
+    ],
+    "as": [
+     "炽焰咆哮虎"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "轰擂金刚猩",
+    "ndex": 812,
+    "seg": [
+     25,
+     37,
+     61,
+     62
+    ],
+    "as": [
+     "轰擂金刚猩"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "武道熊师",
+    "ndex": 892,
+    "seg": [
+     25
+    ],
+    "as": [
+     "武道熊师"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蕾冠王",
+    "ndex": 898,
+    "seg": [
+     33,
+     34,
+     35
+    ],
+    "as": [
+     "蕾冠王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "厄诡椪",
+    "ndex": 1017,
+    "seg": [
+     33,
+     37
+    ],
+    "as": [
+     "厄诡椪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "猛雷鼓",
+    "ndex": 1021,
+    "seg": [
+     61
+    ],
+    "as": [
+     "猛雷鼓"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "太乐巴戈斯",
+    "ndex": 1024,
+    "seg": [
+     18,
+     19,
+     21,
+     23,
+     37
+    ],
+    "as": [
+     "太乐巴戈斯"
+    ],
+    "via": "tag"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     1,
+     51
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon UNITE",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     10,
+     12,
+     14,
+     16,
+     18
+    ]
+   },
+   {
+    "name": "ハラ ヒュウマ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     9,
+     11,
+     13,
+     15,
+     17,
+     19
+    ]
+   },
+   {
+    "name": "竹内白州",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "エンドウ キワム",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "イシガキ ユウタ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "タカヤナギ ヨウスケ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     49
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "アリイ カイト",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Marco Hemantha Kaludura Silva",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "キムラ ヒロフミ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "キヌガワ ユウマ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "横滨国际平和会议场",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "PJCS2024会场",
+    "via": "llm"
+   },
+   {
+    "name": "福冈县",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "县代表选拔地",
+    "via": "llm"
+   },
+   {
+    "name": "利物浦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     71
+    ],
+    "what": "官方大会举办地",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     57
+    ],
+    "what": "宝可梦WCS2024举办地",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "PJCS2024于6月1日至2日在横滨国际平和会议场举办，是自PJCS2019以来再次有观众入场。",
+   "anchor": 1
+  },
+  {
+   "seg": 3,
+   "text": "游戏部门由互联网大赛胜出的各分组64名选手以双败淘汰制进行。",
+   "anchor": 4
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

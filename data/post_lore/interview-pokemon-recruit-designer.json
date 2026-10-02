@@ -2,7 +2,7 @@
  "id": "interview-pokemon-recruit-designer",
  "stem": "2024-02-15-interview-pokemon-recruit-designer",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-02",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -37,6 +37,14 @@
     "slug": null,
     "seg": [],
     "via": "entities"
+   },
+   {
+    "name": "Pokemon Local Acts",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
    }
   ],
   "people": [
@@ -116,382 +124,48 @@
     "name": "石原恒和",
     "slug": "ishihara-tsunekazu",
     "role": "mentioned",
-    "seg": [
-     49
-    ]
+    "seg": []
    }
   ],
   "places": [
    {
-    "name": "日本",
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "销售商品的店铺",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "宝可梦商店",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
-    "scale": "area",
+    "scale": "spot",
     "seg": [
-     8
+     13
     ],
-    "what": "地方联动与赛事",
+    "what": "销售商品的店铺",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     2,
-     7,
-     8
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     3,
-     10,
-     13,
-     17,
-     24,
-     30
-    ],
-    "as": [
-     "入职",
-     "面试",
-     "入社",
-     "职业生涯"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     3,
-     10,
-     17,
-     30,
-     42,
-     55
-    ],
-    "as": [
-     "应届",
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     6
-    ],
-    "as": [
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     6
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     6,
-     8,
-     21,
-     22,
-     39,
-     41
-    ],
-    "as": [
-     "指导",
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     6,
-     29
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     8,
-     21,
-     22,
-     33,
-     34,
-     45
-    ],
-    "as": [
-     "主视觉",
-     "插画",
-     "设定资料"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     16,
-     24,
-     36,
-     49
-    ],
-    "as": [
-     "公司内部",
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     17,
-     18,
-     41
-    ],
-    "as": [
-     "品牌管理",
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     20
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     22,
-     27
-    ],
-    "as": [
-     "画风",
-     "美术风格"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     22,
-     33,
-     34
-    ],
-    "as": [
-     "集换式卡牌",
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     26
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     26,
-     33
-    ],
-    "as": [
-     "原画",
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     33
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     41
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     45
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     58
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     63
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     66
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     66
-    ],
-    "as": [
-     "新世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     66
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 6,
-   "text": "町田负责官方艺术资产视觉指导与主题运营活动Logo、宣发物料设计",
-   "anchor": 7
+   "seg": 10,
+   "text": "町田说选拔结果通知得很迅速，面试官对作品有兴趣",
+   "anchor": 11
   },
   {
    "seg": 13,
-   "text": "町田毕业于综合类大学工学部设计学科，入社后最初分配在商品部",
+   "text": "町田毕业于综合大学工学部设计学科，入职后最初被分配到商品部",
    "anchor": 14
   }
  ],
@@ -500,8 +174,7 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

@@ -1,0 +1,181 @@
+{
+ "id": "interview-hobonichi-1999-ambrella-ozawa",
+ "stem": "1999-02-10-interview-hobonichi-1999-ambrella-ozawa",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 132
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     4,
+     5,
+     7,
+     9,
+     10
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "皮卡丘你好",
+    "slug": null,
+    "seg": [
+     3,
+     4,
+     7,
+     9,
+     12,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "皮卡丘你好吗",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吃豆人",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "塞尔达",
+    "slug": null,
+    "seg": [
+     61
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "生化危机",
+    "slug": null,
+    "seg": [
+     105
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "网络创世纪",
+    "slug": null,
+    "seg": [
+     119
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "信长之野望",
+    "slug": null,
+    "seg": [
+     119
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "小澤宗明",
+    "slug": "ozawa-muneaki",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "小泽宗明",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "绵引胜彦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "内山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "桥本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     89
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "吉祥寺",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     51
+    ],
+    "what": "语音识别举例地名",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "小泽宗明是Ambrella代表，开发了号称世界首个搭载语音识别系统的N64游戏。",
+   "anchor": 4
+  },
+  {
+   "seg": 10,
+   "text": "电视广告由绵引胜彦饰演大叔与皮卡丘共演，导致售罄，2月1日起再次上架。",
+   "anchor": 11
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

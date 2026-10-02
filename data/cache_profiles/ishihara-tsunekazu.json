@@ -1,55 +1,46 @@
 {
- "key": "e3bbb38e61897674",
+ "key": "638ef9479e05e486",
  "answer": {
-  "summary": "石原恒和长期以总监／制作人身份参与《宝可梦》系列，从最初的《红·绿》企划阶段就与GAME FREAK共同开发，并担任制作人[4]。他的工作横跨正篇与派生作品，涉及动画、卡牌、网络联动与AR等多种媒介形式的协调与企划[2][6][9]。在开发方针上，他坚持不让GAME FREAK参与正篇以外的宝可梦作品，以保护正篇开发，但在《Pokémon GO》上首次打破这一规矩[11]。他重视让宝可梦进入日常生活的各种设备与场景，并希望作品面向所有世代[6]。",
+  "summary": "石原恒和长期以总监、制作人或执行制作人的身份参与宝可梦系列，从最初《红·绿》企划启动时便作为制作人与GAME FREAK共同开发 [4]。他的工作覆盖统筹制作、跨平台新作推进与跨媒体展开，主张让宝可梦渗透到日常生活的各种媒介中 [6]。在具体项目上，他既参与决定作品方向，也介入与外部开发商的合作与请求 [7][9]。他多次谈到以新平台、新形式带来与以往不同维度的体验 [2][10]。",
   "expertise": [
-   "系列统筹",
-   "制作人",
-   "跨媒介企划",
-   "正篇开发",
-   "派生作品协调",
-   "品牌运营"
+   "统筹制作",
+   "跨平台开发",
+   "跨媒体展开",
+   "外部合作",
+   "系列企划"
   ],
   "citations": [
    {
     "n": 2,
-    "detail": "谈GC《宝可梦频道》以电视与皮卡丘同看为题材，并请动画公司制作原创动画。"
+    "detail": "谈GC《宝可梦频道》时称这是宝可梦首款GC软件，并提到原创动画与卡片e扩展。"
    },
    {
     "n": 4,
-    "detail": "称1990年作为制作人与GAME FREAK参与《红·绿》开发，发售错过末班车。"
-   },
-   {
-    "n": 5,
-    "detail": "谈在DS同一平台再制完全新作，可活用已有资产，同时担心如何做出新意。"
+    "detail": "称最初《宝可梦》企划启动时自己作为制作人与GAME FREAK参与《红·绿》开发。"
    },
    {
     "n": 6,
-    "detail": "称《黑·白》是时隔4年完全新作，希望宝可梦成为所有世代平等游玩的作品。"
+    "detail": "谈《黑·白》时表示希望宝可梦成为全世界所有世代平等游玩的作品，并提到PGL联动。"
    },
    {
     "n": 7,
-    "detail": "称曾认为宝可梦动作游戏做不出来，因发条玩具设定而实现，并力推3DS化。"
-   },
-   {
-    "n": 8,
-    "detail": "谈《黑2·白2》首次挑战标题带2的续篇，为给玩家愉快的意外。"
+    "detail": "为把《乱战！宝可梦乱战》搬上3DS，亲自向Ambrella请求制作。"
    },
    {
     "n": 9,
-    "detail": "谈《不可思议迷宫》加入AR玩法，设想读取井盖等现实物体改变迷宫。"
+    "detail": "称自己玩《特鲁尼克大冒险》超过1000次，并由此推动《宝可梦不可思议迷宫》诞生。"
    },
    {
     "n": 10,
-    "detail": "谈《X·Y》妖精属性与空中对战，认为新规格让已登场宝可梦有新发现。"
+    "detail": "谈《X·Y》全3D建模时提到因变成3D而发现以往没注意的细节。"
    },
    {
     "n": 11,
-    "detail": "称二十多年坚持不让GAME FREAK参与正篇以外作品，在《Pokémon GO》首次破例。"
+    "detail": "谈《Pokemon GO》时提到澳大利亚一天下载量达150万，并设定超过《Ingress》1400万次下载的目标。"
    },
    {
     "n": 12,
-    "detail": "谈美国按动画、游戏、卡牌顺序展开，并称皮卡丘说人话最初觉得不太好。"
+    "detail": "谈《名侦探皮卡丘》时称最初觉得皮卡丘说人话不太好，后经反复试验到达该作。"
    }
   ]
  },
@@ -61,10 +52,10 @@
   "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds",
   "2010-09-16-scan-famitsu-1137-bw-launch-interview",
   "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
-  "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
-  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
-  "2013-10-10-interview-iwata-asks-xy-chapter-3-new-battles-fairy-type",
-  "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
+  "2012-05-01-interview-tpc-president-ishihara-what-we-do",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+  "2013-10-10-interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie",
+  "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle",
   "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai"
  ]
 }

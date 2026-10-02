@@ -2,7 +2,7 @@
  "id": "interview-pokemon-recruit-growth",
  "stem": "2022-04-10-interview-pokemon-recruit-growth",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-02",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -18,8 +18,7 @@
      7
     ],
     "as": [
-     "皮卡丘",
-     "ピカチュウ"
+     "皮卡丘"
     ],
     "via": "body"
    },
@@ -39,17 +38,22 @@
    {
     "name": "宝可梦 剑·盾",
     "slug": "sword-shield",
-    "seg": [],
+    "seg": [
+     7,
+     8
+    ],
     "via": "entities"
    },
    {
     "name": "宝可梦传说 阿尔宙斯",
     "slug": "legends-arceus",
-    "seg": [],
+    "seg": [
+     11
+    ],
     "via": "entities"
    },
    {
-    "name": "宝可梦 Let's Go！皮卡丘／Let's Go！伊布",
+    "name": "宝可梦 Let's Go! 皮卡丘·伊布",
     "slug": null,
     "seg": [
      7
@@ -57,26 +61,18 @@
     "via": "llm"
    },
    {
+    "name": "宝可梦 晶灿钻石·明亮珍珠",
+    "slug": "bdsp",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
     "name": "Pokémon UNITE",
     "slug": null,
     "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 晶灿钻石／明亮珍珠",
-    "slug": null,
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon LEGENDS 阿尔宙斯",
-    "slug": null,
-    "seg": [
-     11
+     26
     ],
     "via": "llm"
    }
@@ -86,9 +82,7 @@
     "name": "的场昂树",
     "slug": "de-chang-ang-shu",
     "role": "mentioned",
-    "seg": [
-     24
-    ]
+    "seg": []
    },
    {
     "name": "林祐衣",
@@ -126,379 +120,33 @@
     "seg": [
      10
     ],
-    "what": "卡牌25周年大展举办地",
+    "what": "举办卡牌25周年展",
     "via": "llm"
    },
    {
-    "name": "东南亚",
+    "name": "伽勒尔地区",
     "id": null,
     "entity": null,
     "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     17
-    ],
-    "what": "小岛彬当前负责市场",
-    "via": "llm"
-   },
-   {
-    "name": "东盟",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     40
-    ],
-    "what": "小岛彬战略基本盘",
-    "via": "llm"
-   },
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
+    "world": "game",
     "scale": "area",
     "seg": [
-     8
+     7
     ],
-    "what": "发售当天巡店城市",
+    "what": "剑·盾的舞台",
     "via": "llm"
-   },
-   {
-    "name": "日本",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     17
-    ],
-    "what": "小岛彬首站业务范围",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5
-    ],
-    "as": [
-     "入职",
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     31
-    ],
-    "as": [
-     "应届",
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     3,
-     11,
-     32
-    ],
-    "as": [
-     "合作企划",
-     "联动",
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     7
-    ],
-    "as": [
-     "新世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     7
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "正统续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     8,
-     40
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     8,
-     9
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     8,
-     9,
-     10,
-     17
-    ],
-    "as": [
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     9
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     9
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     9,
-     41
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     11,
-     12,
-     37,
-     41
-    ],
-    "as": [
-     "公司内部",
-     "社内"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     16
-    ],
-    "as": [
-     "路线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     19
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     19
-    ],
-    "as": [
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multilingual",
-    "name": "多语言与字库",
-    "facet": "tech",
-    "seg": [
-     26
-    ],
-    "as": [
-     "多语言"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     26,
-     44
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     28,
-     42
-    ],
-    "as": [
-     "大自然",
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "accessibility",
-    "name": "无障碍",
-    "facet": "audience",
-    "seg": [
-     36
-    ],
-    "as": [
-     "无障碍"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     40
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 7,
-   "text": "的场昂树称《宝可梦 剑／盾》是Switch平台首部全新世代正统作品",
+   "text": "的场昂树称《宝可梦 剑·盾》是Switch上首款完全新作",
    "anchor": 14
   },
   {
    "seg": 11,
-   "text": "髙草真生称同一财年内连续推出两部正统大作在宝可梦史上绝无前例",
+   "text": "髙草真生称同一财年经手两款正传作品此前没有先例",
    "anchor": 18
   }
  ],
@@ -509,15 +157,14 @@
    "label": "同一系列的前后篇",
    "title": "宝可梦公司官方专访 青年员工座谈：凝聚无尽可能，我们将改变未来（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）",
    "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-passion/",
-   "why": "同一批2016年入职五人的前后篇专访"
+   "why": "同一批2016年入职者，2017年前篇"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

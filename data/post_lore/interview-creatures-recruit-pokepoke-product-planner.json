@@ -1,0 +1,87 @@
+{
+ "id": "interview-creatures-recruit-pokepoke-product-planner",
+ "stem": "2026-02-15-interview-creatures-recruit-pokepoke-product-planner",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 30
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon TCG Pocket",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏 Pocket",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [],
+  "places": [
+   {
+    "name": "蒙古",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     29
+    ],
+    "what": "海外旅行目的地",
+    "via": "llm"
+   },
+   {
+    "name": "美国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     12
+    ],
+    "what": "举办宝可梦世界锦标赛",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "职责包括研究卡包收录哪些宝可梦、设计收藏体验",
+   "anchor": 2
+  },
+  {
+   "seg": 5,
+   "text": "2021年入职，现为副经理并承担团队管理",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -2,7 +2,7 @@
  "id": "interview-tpc-leaders-challenge",
  "stem": "2014-05-01-interview-tpc-leaders-challenge",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-02",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -87,466 +87,18 @@
   ],
   "places": [
    {
-    "name": "东北",
+    "name": "ポケモンセンター",
     "id": null,
     "entity": null,
-    "category": null,
+    "category": "pc",
     "world": "real",
-    "scale": "area",
+    "scale": "spot",
     "seg": [
-     40
-    ],
-    "what": "地震灾区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     6,
-     13,
-     15,
-     16,
-     19,
-     34
-    ],
-    "as": [
-     "授权",
-     "品牌管理",
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     7
-    ],
-    "as": [
-     "モーション"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     7,
-     31,
-     32,
-     52
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     10,
-     31,
-     52,
-     55,
-     59,
-     62
-    ],
-    "as": [
-     "宣传",
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     10
-    ],
-    "as": [
-     "全球同步发售"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     10,
-     14,
-     16,
-     31,
-     32,
-     34
-    ],
-    "as": [
-     "销量",
-     "出货"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "系列最新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     13,
-     34,
-     37,
-     52,
-     59,
-     65
-    ],
-    "as": [
-     "入社",
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
-    "seg": [
-     13
-    ],
-    "as": [
-     "本地化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     14,
-     16,
-     49,
-     52,
-     65
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     16,
-     52
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     21,
-     62,
-     65
-    ],
-    "as": [
-     "培养",
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     22,
-     28,
-     31,
-     40,
-     62
-    ],
-    "as": [
-     "社内",
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     23,
-     25,
-     38,
-     40,
-     49
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     31
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     31,
-     62
-    ],
-    "as": [
-     "面对面",
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     31
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     31,
-     59
-    ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     31,
-     62
-    ],
-    "as": [
-     "在线",
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     31,
-     45,
-     57,
-     59,
-     62
-    ],
-    "as": [
-     "集换式卡牌",
-     "TCG",
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     31
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     31
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     34
-    ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     37
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     40,
      46
     ],
-    "as": [
-     "玩具",
-     "商品化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     40
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     43,
-     49,
-     52,
-     55
-    ],
-    "as": [
-     "打磨",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     49
-    ],
-    "as": [
-     "美术设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     60
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     65
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
+    "what": "官方周边商店",
+    "via": "extra",
+    "category_link": "pc"
    }
   ]
  },
@@ -556,9 +108,9 @@
    "text": "在《宝可梦 X·Y》发售日宣布举办游戏与卡牌复合大会「ポケモン竜王戦」"
   },
   {
-   "seg": 25,
-   "text": "与日本邮政「海鸥明信片」联名企划首年发行量突破1,452万张",
-   "anchor": 29
+   "seg": 13,
+   "text": "入职时公司约150名员工，支撑累计超3万亿日元规模市场",
+   "anchor": 17
   }
  ],
  "relations": [
@@ -566,7 +118,7 @@
    "id": "interview-tpc-global-business-hirobe",
    "kind": "same-occasion",
    "label": "同一件事的另一种说法",
-   "title": "宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕",
+   "title": "全球同步发售的幕后",
    "url": "/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/",
    "why": "同日同系列官方专访，均谈X·Y全球同步宣发"
   },
@@ -583,8 +135,7 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

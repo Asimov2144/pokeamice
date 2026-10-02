@@ -1,0 +1,68 @@
+{
+ "id": "interview-creatures-recruit-sound-creator",
+ "stem": "2025-12-06-interview-creatures-recruit-sound-creator",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 30
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "Pokémon TCG Pocket",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏 Pocket",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ポケポケ",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "受访者从小学习钢琴和竖琴，进入音乐大学后以成为演奏家为目标。",
+   "anchor": 2
+  },
+  {
+   "seg": 6,
+   "text": "受访者2023年入职，目前负责《宝可梦集换式卡牌游戏 Pocket》部分BGM与音效制作。",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

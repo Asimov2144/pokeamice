@@ -1,0 +1,78 @@
+{
+ "id": "interview-creatures-recruit-cg-environment-artist",
+ "stem": "2025-12-09-interview-creatures-recruit-cg-environment-artist",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     1,
+     2
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "名侦探皮卡丘",
+    "slug": "detective-pikachu",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探皮卡丘 完结篇",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.T.",
+    "slug": "t-t",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "作者在《名侦探皮卡丘》完结篇任背景首席艺术家，负责日程与模型检查",
+   "anchor": 2
+  },
+  {
+   "seg": 5,
+   "text": "在制造业起步，辞职去专门学校学CG，做家用机3DCG建模约8年",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

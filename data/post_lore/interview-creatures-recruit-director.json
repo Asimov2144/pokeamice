@@ -1,0 +1,105 @@
+{
+ "id": "interview-creatures-recruit-director",
+ "stem": "2025-12-06-interview-creatures-recruit-director",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 28
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     19
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X・Y",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦战斗革命",
+    "slug": null,
+    "seg": [
+     18
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大侦探皮卡丘",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "氏家淳子",
+    "slug": "shi-jia-chun-zi",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 6,
+   "text": "氏家淳子在Creatures参与宝可梦3DCG模型制作已有20多年",
+   "anchor": 7
+  },
+  {
+   "seg": 7,
+   "text": "Creatures曾在NINTENDO64《宝可梦竞技场》等作品制作3DCG模型",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

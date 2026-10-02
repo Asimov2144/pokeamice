@@ -1,0 +1,37 @@
+{
+ "id": "interview-creatures-recruit-cg-character-modeler",
+ "stem": "2025-12-09-interview-creatures-recruit-cg-character-modeler",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "受访者从3DCG软件使用方法学起，参与插画和模型制作",
+   "anchor": 2
+  },
+  {
+   "seg": 2,
+   "text": "制作模型需根据角色设计师绘制的多张插画，直接三维化会崩坏",
+   "anchor": 3
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

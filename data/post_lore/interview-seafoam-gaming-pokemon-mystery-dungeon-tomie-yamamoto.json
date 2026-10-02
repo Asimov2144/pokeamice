@@ -1,0 +1,274 @@
+{
+ "id": "interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto",
+ "stem": "2022-04-17-interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 30
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "胖可丁",
+    "ndex": 40,
+    "seg": [
+     25
+    ],
+    "as": [
+     "胖可丁"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦不可思议迷宫：赤之救助队／青之救助队",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦不可思议迷宫：时之探险队／暗之探险队／空之探险队",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦不可思议迷宫：极大之门与无限迷宫",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦超不可思议迷宫",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "风来之西林",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "弟切草",
+    "slug": null,
+    "seg": [
+     6,
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "忍者龙剑传",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "足球小将",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "特库摩碗",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "国夫君",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "热血高校躲避球部",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "不可思议的迷宫 风来的西林",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "风来的西林",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "救助队",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "探险队",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "梦幻战士瓦尔基斯",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Tehkan世界杯",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "队长翼2",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Tecmo超级碗",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "风来的西林2",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西林怪物 网猴",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫 空之探险队",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "富江慎一郎",
+    "slug": "tomie-shinichiro",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "中村光一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "卢·拉古斯",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Connor",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山本雅康",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山本",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "富江慎一郎说进入Chunsoft大概是1992年左右",
+   "anchor": 8
+  },
+  {
+   "seg": 7,
+   "text": "他说做编剧只是因为碰巧没有其他人做",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -2,7 +2,7 @@
  "id": "interview-vgc-gamefreak-gear-project",
  "stem": "2019-05-09-interview-vgc-gamefreak-gear-project",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-02",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -70,10 +70,18 @@
     "via": "llm"
    },
    {
-    "name": "小镇英雄",
-    "slug": null,
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
     "seg": [
-     16
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "slug": "lets-go",
+    "seg": [
+     9
     ],
     "via": "llm"
    }
@@ -106,138 +114,17 @@
     ]
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     7
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     15,
-     30
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     21
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "易上手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     23
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     25
-    ],
-    "as": [
-     "开发周期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     26
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     28
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     29
-    ],
-    "as": [
-     "风靡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "第八世代"
-    ],
-    "via": "tag"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
    "seg": 2,
-   "text": "Gear Project 已推出四款原创游戏，均在2012年后面世",
+   "text": "Gear Project 已推出四款原创游戏，均在2012年后发售",
    "anchor": 3
   },
   {
    "seg": 12,
-   "text": "内部设制作1组专注Gear Project，制作2组负责宝可梦",
+   "text": "第一制作组专注 Gear Project，第二制作组负责宝可梦业务",
    "anchor": 13
   }
  ],
@@ -246,8 +133,7 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "relations_model": "deepseek-chat"
  },
  "edited": false
 }

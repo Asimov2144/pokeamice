@@ -267,6 +267,155 @@ quotes:
   - type: person
     name: 宫本茂
     slug: miyamoto-shigeru
+- id: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa#26
+  post: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa
+  segment: 26
+  speaker: null
+  reported: true
+  kind: question
+  hook: 《皮卡丘你好吗》的语音识别开发花了多久？
+  zh: 《皮卡丘你好吗》是Ambrella的第一部作品。开发周期实际上大约两年。我们决定用声音来做游戏，于是从思考用什么机制来识别语音开始。不只是软件，还要考虑硬件，开发接口。我们一边做各种原型，一边围绕语音识别系统反复试制。制作人石原先生提出“把皮卡丘做成角色”的建议，从那时到完成，花了一年多一点。
+  ja: 「ピカチュウげんきでちゅう」は アンブレラの最初の作品になります。 開発期間は実質２年くらいです。 声を使ってゲームを作ろうということで、 まずはどういう仕組みで音声を認識するのか、と 考えるところからスタートして。 ソフトとしてだけではなく、ハードウェアを考えて、 インターフェイスを開発して。 さまざまなプロトタイプを作りながら 音声認識のシステムについて、試作を重ねていきました。 プロデューサーの石原さんから 「ピカチュウをキャラクターに」というご提案をいただき、 そこから完成までが、１年ちょっとかかっています。
+  lang: ja
+  year: 1999
+  date: '1999-02-10'
+  publication: ほぼ日刊イトイ新聞「樹の上の秘密基地」
+  title: ほぼ日 1999：Ambrella 小泽宗明谈《皮卡丘你好吗》与语音识别游戏
+  score: 5
+  why: 小泽宗明说明这是Ambrella第一部作品，开发约两年，从思考语音识别机制、做硬件接口与原型开始，石原提出把皮卡丘做成角色后又花了一年多。
+  more: 第2回主要请教语音识别系统的话题，可对照第37、39、43节关于VRS与识别词数的说明。
+  people:
+  - 小澤宗明
+  works:
+  - 皮卡丘你好
+  links: []
+- id: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa#43
+  post: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa
+  segment: 43
+  speaker: null
+  reported: true
+  kind: question
+  hook: 皮卡丘能听懂多少词？
+  zh: 作为皮卡丘能听懂意思的词，我想大概放进了200到300个。作为这个游戏的世界观，我们觉得能分辨这么多词就好了，于是放进去，结果碰巧是这个数量，从语音识别的技术上说，还能再多加很多很多，所以这个数字本身没什么大意义。只是在这个游戏里，像“现在这个情况下希望它分辨出‘胡萝卜’这个词”这样的场景模式数，恰好是这么多而已。
+  ja: ピカチュウに意味のわかる言葉として 200〜300くらいは入れてあると思うんですけれども。 このゲームの世界観として、 これぐらいの言葉を聞き分けられるといいだろうな、 と思って入れたのが たまたまそれくらいの数だったっていうだけで、 音声認識の技術的には、まだまだもっともっと いくらでも増やせるし、 だからその数自体にはたいした意味はないですね。 どうしても、今、このケースでは 「ニンジン」っていう言葉を聞き分けてほしい、という 場面のパターン数として、このゲームの場合、 そのくらいの数だったということです。
+  lang: ja
+  year: 1999
+  date: '1999-02-10'
+  publication: ほぼ日刊イトイ新聞「樹の上の秘密基地」
+  title: ほぼ日 1999：Ambrella 小泽宗明谈《皮卡丘你好吗》与语音识别游戏
+  score: 4
+  why: 小泽说作为皮卡丘能听懂意思的词大概放进200到300个，这是由游戏场景模式数决定的，技术上还能加更多。
+  more: 可与第39节关于「皮卡丘」和「ギザジュウ」谐音误识别的说明一起看。
+  people:
+  - 小澤宗明
+  works:
+  - 皮卡丘你好
+  links: []
+- id: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa#59
+  post: 1999-02-10-interview-hobonichi-1999-ambrella-ozawa
+  segment: 59
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 小泽：发售前3个月拿去任天堂时，皮卡丘只是迷茫地徘徊
+  zh: 在发售前3个月，也就是本该完成母盘的2个月前那个阶段，拿去给任天堂看的时候，在一排排道具当中，皮卡丘不知怎么的，只是在那儿迷茫地徘徊而已（笑）。大家看着它，脸上都写着“这东西到年底前完不成吧”，可我们却说着“不，能完成的”。看到那个样子，谁都不会觉得绝对能完成。9月左右还是那种状态，但从那时起用2个月完成它的自信，至少我们家的程序员是有的。不过，设计师们心里大概还是有点担心的（笑）。
+  ja: 発売される３ヶ月前のこと、つまり、 マスターが出来てなければいけない２ヶ月前の段階で、 任天堂に見せにいったときには、 アイテムがずらっと並んでるなかで、 ピカチュウは、なんだかもう、 ただ迷ってるだけだった（笑）。 これが年末までに完成することはないよなーって顔で みんなが見ていて、でもぼくたちは 「いや、出来るんですよ」とかって言いながら。 あれを見たら、誰も絶対に出来るとは思わないですよ。 ９月頃でもまだそんな状態だったんですが、 そこから２ヶ月間で完成させる自信が、 少なくともうちのプログラマーにはありました。 でも、デザイナーなんかは、 内心ちょっと心配だったと思います（笑）。
+  lang: ja
+  year: 1999
+  date: '1999-02-10'
+  publication: ほぼ日刊イトイ新聞「樹の上の秘密基地」
+  title: ほぼ日 1999：Ambrella 小泽宗明谈《皮卡丘你好吗》与语音识别游戏
+  score: 4
+  why: 小泽回忆本该完成母盘的2个月前给任天堂看时，皮卡丘在一排排道具中只是徘徊，旁人都不觉得能完成，团队却坚持能完成。
+  more: 内山先生在第61节补充当时一起去京都，大概谁都不觉得能完成。
+  people:
+  - 小澤宗明
+  works:
+  - 皮卡丘你好
+  links: []
+- id: 1999-05-13-interview-hobonichi-1999-jack-and-beans-snap#65
+  post: 1999-05-13-interview-hobonichi-1999-jack-and-beans-snap
+  segment: 65
+  speaker: 宫本茂
+  reported: false
+  kind: quote
+  hook: 宫本茂：不用做那些也没关系
+  zh: 最典型的例子，就是他们抱有“光靠拍照真的能成为游戏吗？”这个疑问。因为这份不安，会议就容易变成：不只是拍照，还要像马力欧那样到处走动、尝试各种事情，不断把游戏做大，也就是往所谓“像游戏”的方向靠。我就跟他们说过：“不用做那些也没关系。做和别人不同擂台上的东西，反过来，如果这个游戏能变成一种全新的媒体，或者说一种新型绘本，那就理想了。我自己现在都想着在64上做《地球仪》呢。我真是这么想的。”
+  ja: 一番端的な例では「写真を撮るっていうこと だけで本当にゲームになるんでしょうか？」 っていう疑問を彼らが持っていたこと。 そこへの不安から、写真を撮るだけじゃなく マリオのように、ついあちこち歩き回って、 いろんなことをしてみて、というふうに、 どんどんゲームを拡大するというか、 いわゆるゲームらしくしようとする傾向に なるんですよね、会議が。 「そういうことしなくても大丈夫やから。 みんなと違う土俵のものを作れば、 逆にこのゲームから全く新しい、メディア というか、新型絵本とでもいうような、 そんなものになれば理想やと思うし、 僕なんかは今、６４で『地球儀』を作りたい と思うてるくらいなんやから。 ほんまにそう思てるのやから。」という話を したことがありますよ。
+  lang: ja
+  year: 1999
+  date: '1999-05-13'
+  publication: ほぼ日刊イトイ新聞「樹の上の秘密基地」第 5 弹
+  title: ほぼ日 1999：岩田聪、宫本茂与 Jack and Beans 团队谈《宝可梦随乐拍》的诞生
+  score: 4
+  why: 面对团队对拍照能否成游戏的疑问，宫本茂让他们别往马力欧式动作方向做大。
+  more: 岩田聪说，正因为有那句话，《宝可梦随乐拍》才做出来，他们也才痛苦。
+  people:
+  - 岩田聪
+  - 宫本茂
+  - 糸井重里
+  works:
+  - 宝可梦随乐拍
+  links:
+  - type: person
+    name: 岩田聪
+    slug: iwata-satoru
+  - type: work
+    name: 宝可梦随乐拍
+- id: 1999-05-13-interview-hobonichi-1999-jack-and-beans-snap#121
+  post: 1999-05-13-interview-hobonichi-1999-jack-and-beans-snap
+  segment: 121
+  speaker: 岩田聪
+  reported: false
+  kind: quote
+  hook: 岩田聪：昨天我们出ROM了
+  zh: 昨天，就是昨天，我们“出ROM”了。（编辑部注：采访进行的前一天）调试完成，出了ROM，接下来就要送进工厂开始生产了，就在这个时候，我听说工作人员脑海里响起了获得经验值时“叮铃叮铃”的声音。他们对我说：“啊，我切实体会到，这就是完成一款软件的意思。”而且，我认为他们所得之物的价值，正在于这是挑战创造“新玩法”、中途没有放弃、坚持到最后并得以实现的结果。
+  ja: 昨日、まさに昨日なんですが、 「ロム出し」したんですよ。 （編集部註：インタビューが行なわれる前日） デバッグ完了して、ロム出しして、 今から工場に入れて生産に入りますよ、 っていうときに、 スタッフの頭のなかで、経験値が入る音が 「チャリンチャリン」って聞こえた、 という話を聞きまして。 「あ、これが、ソフトを完成させるという ことなのだ、と実感できました」って 彼らは私に言ったんです。 しかもそれが、「新しい遊び」づくりに チャレンジして、途中で投げ出さずに 最後までがんばって、そして成し遂げられた 結果である、ということに、 彼らが得たものの価値があるんだと、 私は思ってるんですよ。
+  lang: ja
+  year: 1999
+  date: '1999-05-13'
+  publication: ほぼ日刊イトイ新聞「樹の上の秘密基地」第 5 弹
+  title: ほぼ日 1999：岩田聪、宫本茂与 Jack and Beans 团队谈《宝可梦随乐拍》的诞生
+  score: 5
+  why: 采访前一天刚出ROM，工作人员说听到了获得经验值的叮铃声，是项目收尾的具体节点。
+  more: 同一篇里岩田聪提到三年半中有四次觉得团队可能分崩离析。
+  people:
+  - 岩田聪
+  - 宫本茂
+  - 糸井重里
+  works:
+  - 宝可梦随乐拍
+  links:
+  - type: person
+    name: 岩田聪
+    slug: iwata-satoru
+- id: 1999-05-13-interview-hobonichi-1999-jack-and-beans-snap#137
+  post: 1999-05-13-interview-hobonichi-1999-jack-and-beans-snap
+  segment: 137
+  speaker: 岩田聪
+  reported: false
+  kind: quote
+  hook: 岩田聪：我说了所有人早上10点半来
+  zh: 正是这样，我原本以为，无论给个人多少时间上的裁量权，只要明白必要性，大家都会好好从早上开始来，但现实并非如此，有一次，我说了“从今天到完成为止，所有人早上10点半来。不来的算迟到。”这样的话。一边说，我一边想，我连这种事都非得说吗。这对我来说，是种非常强烈的挫败感。我一直以为“他们是自己明白这种事的人”，所以很遗憾。
+  ja: それこそ私は、どんなに時間について 個人に裁量を与えていても、 必要が分かれば、みんなちゃんと 朝から出てくると思っていたのに、 現実にはそうはならなくて、 あるとき、「今日から完成まで、 全員朝１０時半に来なさい。 来ないものは遅刻だ。」っていうような ことを言ったのね。 言いながら、おれはこんなことまで 言わなければいけないのかって思って。 これはもう、すごい、自分にとっての 敗北感があることだ、みたいなね。 「そういうことが自分で分かるやつらだ」 と思ってつき合っていたんで、 残念でしたね。
+  lang: ja
+  year: 1999
+  date: '1999-05-13'
+  publication: ほぼ日刊イトイ新聞「樹の上の秘密基地」第 5 弹
+  title: ほぼ日 1999：岩田聪、宫本茂与 Jack and Beans 团队谈《宝可梦随乐拍》的诞生
+  score: 4
+  why: 岩田聪自认这是强烈挫败感，因为他原以为成员会自己明白，发生在最后半年。
+  more: 宫本茂在别处说，他每次去Jack都是踢掉梯子就回来。
+  people:
+  - 岩田聪
+  - 宫本茂
+  - 糸井重里
+  works:
+  - 宝可梦随乐拍
+  links:
+  - type: person
+    name: 宫本茂
+    slug: miyamoto-shigeru
 - id: 1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak#35
   post: 1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak
   segment: 35
@@ -12413,6 +12562,150 @@ quotes:
   works:
   - 宝可梦 黑·白
   links: []
+- id: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard#32
+  post: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard
+  segment: 32
+  speaker: 岩田聪
+  reported: false
+  kind: quote
+  hook: 岩田：踩到线缆可能损坏DS本体，无法产品化
+  zh: 虽然也要看连接器的大小和形状，但如果踩到之类，那里受力，可能会损坏DS本体，按任天堂的品质标准是无法产品化的。
+  ja: コネクタのサイズや形にもよりますけど、踏んだりして、そこに力が入ると、DS本体を痛めかねませんから、任天堂の品質基準では製品化できないですよね。
+  lang: ja
+  year: 2011
+  date: '2011-04-21'
+  publication: 任天堂官网「社長が訊く」
+  title: 社长问《宝可梦打字DS》键盘篇：任天堂无线键盘与 DS 支架的开发
+  score: 4
+  why: 说明有线连接方案因强度问题被否决，是转向无线键盘的关键判断。
+  more: 后续提到Bluetooth方案，以及DS卡带内置天线和通信稳定性的挑战。
+  people:
+  - 岩田聪
+  works:
+  - 宝可梦打字DS
+  links: []
+- id: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard#69
+  post: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard
+  segment: 69
+  speaker: 岩田聪
+  reported: false
+  kind: quote
+  hook: 岩田：合上DS后键盘打的字会涌进来
+  zh: 对用户来说，合上DS的时候就觉得是关掉了，这期间用键盘打的字会涌进DS里，这可不是什么好事吧。
+  ja: お客さんにとってはDSを閉じてるときはオフのつもりですから、その間にキーボードで打った文字がDSに流れ込んでくるのは好ましいことではありませんよね。
+  lang: ja
+  year: 2011
+  date: '2011-04-21'
+  publication: 任天堂官网「社長が訊く」
+  title: 社长问《宝可梦打字DS》键盘篇：任天堂无线键盘与 DS 支架的开发
+  score: 4
+  why: 描述早期Bluetooth常时连接导致睡眠模式下的意外行为，是通信设计改进的起因。
+  more: 之后改为合上DS切断通信，但恢复时间过长又引发软件负责人抱怨。
+  people:
+  - 岩田聪
+  works:
+  - 宝可梦打字DS
+  links: []
+- id: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard#119
+  post: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard
+  segment: 119
+  speaker: 岩田聪
+  reported: false
+  kind: quote
+  hook: 岩田：DS紧凑支架采用可溃缩结构防踩坏
+  zh: 可溃缩，直译的话听起来像是“设计成会坏掉的”，这是怎么回事呢？
+  ja: クラッシャブルというのは、直訳すれば、「こわれるようにできている」というように聞こえますけど、どういうことですか？
+  lang: ja
+  year: 2011
+  date: '2011-04-21'
+  publication: 任天堂官网「社長が訊く」
+  title: 社长问《宝可梦打字DS》键盘篇：任天堂无线键盘与 DS 支架的开发
+  score: 4
+  why: 具体说明支架的3部件可溃缩设计，体现任天堂对意外损坏的安全考量。
+  more: 支架与键盘同捆，键盘仅300克，可随身携带。
+  people:
+  - 岩田聪
+  works:
+  - 宝可梦打字DS
+  links: []
+- id: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana#63
+  post: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana
+  segment: 63
+  speaker: 山名学
+  reported: false
+  kind: quote
+  hook: 山名学：低年级孩子测试时完全不肯玩
+  zh: 是的。于是大家讨论说，果然还是“不让人觉得想见到宝可梦就不行吧？”比如按下按钮就能见到宝可梦，我们做了很多这样的设计，想方设法让顾客来到大楼的三楼。但走到那一步真的花了很长时间。其实在给安藤先生看过之后，我们决定召集一些不太熟悉打字的小学低年级孩子来做测试。结果……真的很惨。大家完全不肯玩（苦笑）。
+  ja: はい。そこで、やっぱり「ポケモンに会いたいと思えないとダメなんじゃないか？」とみんなで話したんです。ボタンを押したらポケモンに会えたとか、そういう工夫をたくさんやって、何とかビルの３階までお客さんに来てもらわないといけない。でも、そこに至るまで本当に時間がかかりました。実は安藤さんに見せたあと、タイピングにあまり親しんでいない小学校低学年のお子さんを集めてモニターをしよう、という話になってやってみたんです。そしたら・・・本当にひどかったんです。みんな、ぜんぜんやってくれなくて（苦笑）。
+  lang: ja
+  year: 2011
+  date: '2011-04-21'
+  publication: 任天堂官网「社長が訊く」
+  title: 社长问《宝可梦打字DS》软件篇：石原恒和、山名学谈用宝可梦学打字
+  score: 4
+  why: 召集不熟悉打字的小学低年级孩子测试，结果很惨，成为调整设计的直接依据。
+  more: 第65句岩田聪描述现场：孩子说「找起来太麻烦了」，没多久就腻了。
+  people:
+  - 岩田聪
+  - 石原恒和
+  - 山名学
+  works:
+  - 宝可梦打字DS
+  links:
+  - type: person
+    name: 岩田聪
+    slug: iwata-satoru
+- id: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana#122
+  post: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana
+  segment: 122
+  speaker: 石原恒和
+  reported: false
+  kind: quote
+  hook: 石原恒和：希望让键盘本身成为地图
+  zh: 我还有一件事很坚持。山名先生最初做了水边、洞窟等几张地图，带来了一些样本地图，做成让各种宝可梦出现在那些区域里的游戏。但这次我想改变那种模式，所以说了「希望让键盘本身成为地图」。
+  ja: 僕がもうひとつ、こだわったことがあるんです。山名さんは最初、水辺や洞窟などマップをいくつかつくって、そのエリアにいろんなポケモンを登場させるようなゲームとして、いくつかサンプルマップを持ってこられたんですね。でも今回はそのパターンを変えたかったので、「キーボードがマップになっているようにしたい」と言ったんです。
+  lang: ja
+  year: 2011
+  date: '2011-04-21'
+  publication: 任天堂官网「社長が訊く」
+  title: 社长问《宝可梦打字DS》软件篇：石原恒和、山名学谈用宝可梦学打字
+  score: 5
+  why: 石原否定了山名已做好的水边、洞窟地图方案，提出把键盘本身当作地图，直接改变了游戏结构。
+  more: 第128句山名学回忆，地图做好后被告知「改成键盘吧」，结果变成必须做60个关卡。
+  people:
+  - 岩田聪
+  - 石原恒和
+  - 山名学
+  works:
+  - 宝可梦打字DS
+  links:
+  - type: person
+    name: 山名学
+    slug: shan-ming-xue
+- id: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana#134
+  post: 2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana
+  segment: 134
+  speaker: 石原恒和
+  reported: false
+  kind: quote
+  hook: 石原恒和：最后阶段出现光靠软件无法解决的键盘通信问题
+  zh: 不过，让我觉得这个项目很艰难，是在最后阶段，出现了光靠软件无法解决的键盘通信问题的时候。作为解决办法，必须改变通信机制。虽然我想都到这时候了还要改根本性的地方吗，但已经进退两难了……
+  ja: でも、このプロジェクトが大変なんだなと思ったのは、終盤で、ソフトだけでは解決できない、キーボードの通信問題が発生したときだったんです。解決法として、通信のしくみを変えなくちゃいけなかったんです。いまさら根本的なところを変えるのかって思ったけど、にっちもさっちもいかなくなって・・・。
+  lang: ja
+  year: 2011
+  date: '2011-04-21'
+  publication: 任天堂官网「社長が訊く」
+  title: 社长问《宝可梦打字DS》软件篇：石原恒和、山名学谈用宝可梦学打字
+  score: 5
+  why: 项目收尾时暴露出必须改动通信机制的根本性问题，是开发中最艰难的一段。
+  more: 第136句提到连示波器都搬进现场做解析，石原说自己其实很喜欢这种现场。
+  people:
+  - 岩田聪
+  - 石原恒和
+  - 山名学
+  works:
+  - 宝可梦打字DS
+  links: []
 - id: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters#11
   post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters
   segment: 11
@@ -13310,6 +13603,72 @@ quotes:
   works:
   - 超级宝可梦乱战
   - 宝可梦乱战
+  links: []
+- id: 2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation#26
+  post: 2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation
+  segment: 26
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 襟川阳一：我也是宝可梦的粉丝，曾说过迟早要一起做点什么
+  zh: 接着登场的Koei Tecmo Games代表董事社长襟川阳一，说明了此次合作得以实现的经过。据说最先开口的是襟川。襟川透露：“在与石原每次有机会畅谈游戏时，得知石原是《信长之野望》的大粉丝，非常感动。我也是宝可梦的粉丝，曾说过迟早要一起做点什么。”由此可见双方早有基础。结果，项目从3年前开始具体启动，如今终于完成。
+  ja: 引き続き登場したコーエーテクモゲームスの襟川陽一代表取締役社長は、今回のコラボレーションが実現した経緯について説明。口火を切ったのは襟川氏の方だったという。襟川氏は「石原氏と機会があるごとにゲーム談義に花を咲かしてきた中で、石原氏が『信長の野望』の大ファンだと知って感激した。私もポケモンのファンでいずれ何かしようと話していた」と下地があったことを明かした。結果的に3年前から具体的にプロジェクトがスタートし、このほど完成したわけだ。
+  lang: ja
+  year: 2012
+  date: '2012-01-19'
+  publication: GAME Watch
+  title: GAME Watch 2012：《宝可梦＋信长之野望》完成发表会报道
+  score: 5
+  why: 披露合作起点：襟川先开口，得知石原是《信长之野望》大粉丝，项目3年前具体启动。
+  more: 石原在i 27提到自己从1983年PC-8801 mkII版《信长之野望》开始玩。
+  people:
+  - 石原恒和
+  works:
+  - 宝可梦＋信长之野望
+  links: []
+- id: 2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation#27
+  post: 2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation
+  segment: 27
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 石原：要和涩泽光一起做，就只有《信长之野望》这一个选择
+  zh: 另一方面，石原表示自己从1983年面向PC-8801 mkII发售的《信长之野望》开始，一直喜欢玩红白机版的《全国版》等作品。当此次合作企划启动时，他想到：“如果要和‘襟川社长’谈，可能有《无双》系列等各种选择，但如果要和‘涩泽光’一起做，那就只有《信长之野望》这一个选择。”或许正是带着这样的想法，石原才会将此次合作称为“正统的组合”。
+  ja: 一方石原氏は1983年にPC-8801 mkII用として発売された「信長の野望」にはじまり、ファミコン版の「全国版」などずっと好きでプレイしていたのだという。今回のコラボ企画の話が立ち上がったとき、「“襟川社長”と話をするなら、『無双』シリーズなどいろいろな選択肢があるかもしれないが、“シブサワコウ”と一緒にするなら『信長の野望』しか選択肢は無い」と考えたという。こういった想いもあって、石原氏は今回のコラボレーションを「正統な組み合わせ」と表現して見せたのだろう。
+  lang: ja
+  year: 2012
+  date: '2012-01-19'
+  publication: GAME Watch
+  title: GAME Watch 2012：《宝可梦＋信长之野望》完成发表会报道
+  score: 5
+  why: 解释石原为何称合作为“正统的组合”，并提到1983年PC-8801 mkII版与红白机《全国版》。
+  more: i 26中襟川说项目从3年前开始具体启动。
+  people:
+  - 石原恒和
+  works:
+  - 宝可梦＋信长之野望
+  links: []
+- id: 2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation#35
+  post: 2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation
+  segment: 35
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 鲤沼：主线约20小时，深入钻研大概能玩200小时
+  zh: 关于游玩时间，鲤沼表示：“主线章节大约20小时，通关后会推出许多自由剧本。游玩这些深入钻研要素的话，大概能玩200小时。”可见准备了相当可观的容量。另一方面，关于登场的宝可梦，石原回答：“并非所有宝可梦都会出现，但会有200只以上的宝可梦登场。”
+  ja: プレイ時間について鯉沼氏は「メインエピソードが20時間ほどで、それをクリアするとフリーシナリオがたくさん出てくる。そういったやりこみ要素をプレイしていくと200時間は遊べるかな」とかなりのボリュームが用意されていることが明らかになった。一方で、登場ポケモンについて石原氏は「全てのポケモンが出るわけではないが、200以上のポケモンが登場する」と答えている。
+  lang: ja
+  year: 2012
+  date: '2012-01-19'
+  publication: GAME Watch
+  title: GAME Watch 2012：《宝可梦＋信长之野望》完成发表会报道
+  score: 5
+  why: 给出具体游玩时长与宝可梦登场数量：200只以上，并提到通关后的自由剧本。
+  more: i 37提到首次限定特典是“信长的黑色烈空坐”卡。
+  people:
+  - 石原恒和
+  works:
+  - 宝可梦＋信长之野望
   links: []
 - id: 2012-05-01-interview-tpc-employee-morotsuki#11
   post: 2012-05-01-interview-tpc-employee-morotsuki
@@ -16306,6 +16665,30 @@ quotes:
   - Pokémon HOME
   - Pokémon Bank
   links: []
+- id: 2014-05-01-interview-tpc-leaders-challenge#29
+  post: 2014-05-01-interview-tpc-leaders-challenge
+  segment: 29
+  speaker: 河本拓
+  reported: false
+  kind: quote
+  hook: 河本拓：宝可梦暑期问候明信片首年发行1452万张
+  zh: 改变孩子们的行为方式，创造出新的价值观。我以前负责过的一项工作，是与「かもめ〜る」的合作。最近，孩子给爷爷奶奶写信寄出去的习惯已经渐渐消失了。于是，为了让孩子们对写信这一行为产生亲近感，我们想到制作宝可梦的暑期问候明信片。第一年就发行了1452万张，虽然不能说有多戏剧性，但我自负地认为，通过这项工作改变了孩子们的意识。像这样通过宝可梦创造新价值观的工作，一个人是做不到的，所以我非常希望和怀有这样热情的人一起工作。
+  ja: 子どもたちの行動様式を変え、新しい価値観を生み出すことですね。以前、担当していた仕事に「かもめ〜る」とのコラボレーションがあります。最近は子どもがおじいちゃんやおばあちゃんに手紙を書いて送るという習慣がなくなってきましたよね。そこで、手紙を書く行為に親しみを持ってもらうために、ポケモンの暑中見舞いを作ろうと考えたのです。初年度で1,452万枚が発行され、劇的とは言えないまでも、この仕事を通じて子どもの意識を変えられたのではないかと自負しています。このような、ポケモンを通して新しい価値観を生み出していく仕事は一人ではできませんので、ぜひそういった熱い思いを持っている方と、一緒に仕事がしたいですね。
+  lang: ja
+  year: 2014
+  date: '2014-05-01'
+  publication: Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」
+  title: 宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）
+  score: 4
+  why: 用具体数字说明授权合作如何改变孩子写信的行为，是河本拓谈创造新价值观的实例。
+  more: 同一段提到与「かもめ〜る」的合作，可对照i=20中「どこでもアイスノン」冷水围巾的授权案例。
+  people:
+  - 河本拓
+  - 鹿瀬島英介
+  - 福嶋ゆかり
+  works:
+  - 宝可梦 X·Y
+  links: []
 - id: 2014-05-01-interview-tpc-youth-roundtable#52
   post: 2014-05-01-interview-tpc-youth-roundtable
   segment: 52
@@ -16899,6 +17282,52 @@ quotes:
   - 宝可梦 红宝石·蓝宝石
   - 宝可梦 X·Y
   links: []
+- id: 2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino#58
+  post: 2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino
+  segment: 58
+  speaker: 星野正昭
+  reported: false
+  kind: question
+  hook: 对战游戏加成长要素，如何不破坏公平？
+  zh: 对战游戏中的成长要素，因为会破坏公平性，所以不喜欢的人也不少，但在宝可拳的全国对战中，我们会让玩家与等级相近的人匹配。例如不会出现一方的攻击力大约是对手3倍这样的情况，但即使是同样的宝可梦，也能稍微展现出玩家的个性。
+  ja: 対戦ゲームにおける成長要素って，公平性を崩すので嫌がる人も少なくありませんが，ポッ拳の全国対戦では同じくらいのランクの人とマッチングするようにしています。例えば一方の攻撃力が3倍ぐらいある，みたいなことにはなりませんが，同じポケモンでもプレイヤーの個性を少し出せるようにしています。
+  lang: ja
+  year: 2015
+  date: '2015-02-16'
+  publication: 4Gamer.net
+  title: 4Gamer.net 2015：宝可拳试玩与原田胜弘、星野正昭访谈
+  score: 4
+  why: 星野正昭解释宝可拳全国对战按等级相近匹配，避免一方攻击力约对手3倍，同时保留玩家个性。
+  more: 同段提到与BANA Passport联动的成长要素，点数可分配到场地攻击、决斗攻击、防御、特殊4个参数。
+  people:
+  - 原田胜弘
+  - 星野正昭
+  works:
+  - 宝可拳 POKKÉN TOURNAMENT
+  links: []
+- id: 2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino#76
+  post: 2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino
+  segment: 76
+  speaker: 星野正昭
+  reported: false
+  kind: quote
+  hook: 星野正昭：本作还加入了《灵魂能力》的要素
+  zh: 本作不仅融合了《铁拳》和宝可梦，还加入了《灵魂能力》的要素，所以希望格斗游戏粉丝也一定要玩一玩。
+  ja: 本作は鉄拳とポケモンのみならず，ソウルキャリバーの要素も組み入れていますので，格闘ゲームファンにもぜひ遊んでほしいですね。
+  lang: ja
+  year: 2015
+  date: '2015-02-16'
+  publication: 4Gamer.net
+  title: 4Gamer.net 2015：宝可拳试玩与原田胜弘、星野正昭访谈
+  score: 4
+  why: 在《铁拳》与宝可梦融合之外，星野正昭明确提到《灵魂能力》的要素，并希望格斗游戏粉丝也玩。
+  more: 前文提到撞墙受击来自《铁拳》，攻击动作、受击动作散布在各宝可梦身上。
+  people:
+  - 原田胜弘
+  - 星野正昭
+  works:
+  - 宝可拳 POKKÉN TOURNAMENT
+  links: []
 - id: 2015-07-14-interview-movie18-yuyama-hoopa-model-sheets#76
   post: 2015-07-14-interview-movie18-yuyama-hoopa-model-sheets
   segment: 76
@@ -16997,30 +17426,28 @@ quotes:
   - type: person
     name: T.M.
     slug: t-m
-- id: 2015-09-01-interview-gamefreak-rnd-launch-taya-mi#4
+- id: 2015-09-01-interview-gamefreak-rnd-launch-taya-mi#15
   post: 2015-09-01-interview-gamefreak-rnd-launch-taya-mi
-  segment: 4
+  segment: 15
   speaker: M.I.
   reported: false
   kind: quote
-  hook: M.I.：从《宝可梦 X·Y》开始参战
-  zh: 我是 2010 年入社的程序员 M.I.。在加入 GAME FREAK 之前，我便一直专注于游戏图形渲染与描画管线的深耕。加入公司后，我从《宝可梦》系列正式迈入全 3D 时代的里程碑作品《宝可梦 X·Y》开始参战。目前主要负责自主研发 Maya 等 DCC 美术工具的定制插件、角色实时渲染管线架构以及定制着色器（Shader）的编程攻坚。
-  ja: 2010年に入社したプログラマのM.I.です。ゲームフリークに入社する以前からずっと、ゲーム作品の描画まわりを専門にキャリアを積んできました。ゲームフリークでの開発には、『ポケットモンスター』シリーズが本格的に3D化した『ポケットモンスター Ｘ・Ｙ』から参戦。現在は、Maya等のツールのプラグインの開発、キャラクターのレンダリングや、シェーダーのプログラミングを行っています。
+  hook: M.I.：希望下一代硬件忠实表现胡帕的异次元设定
+  zh: 我希望充分利用不断进化、限制越来越少的硬件性能，做出最好的表现。例如，2015年的电影《宝可梦 XY 光轮的超魔神 胡帕》中登场的胡帕会操纵光环，按照原本的设定，光环的另一侧是异次元，所以东西本应是从光环另一侧空无一物的地方突然出现的。但在游戏《宝可梦 X·Y》中，这种表现无法实现。在下一代硬件上，我希望这类地方也能忠实地按照设定来表现。我们公司在Gear Project制度中也在挑战多平台的游戏开发，我也希望能参与到那方面的工作中去。
+  ja: 進化して制限の少なくなっていくハードのスペックをフルに活かし、ベストな表現をしていきたいと思っています。 例えば2015年の映画『ポケモン・ザ・ムービーＸＹ「光輪（リング）の超魔神 フーパ」』に登場するフーパはリングを扱うのですが、本来の設定ではこのリングの向こうは異次元なので、リングの向こうの何もないところから、突然物が出て来るはずなんですよ。しかしこの表現が、ゲームの『ポケットモンスター Ｘ・Ｙ』では実現できませんでした。次のハードでは、こういったところも設定に忠実に表現したいです。 弊社はギアプロジェクト制度の中でマルチプラットフォームのゲーム開発にも挑戦したりもしていますから、その辺りにも一枚噛んでいきたいですね。
   lang: ja
   year: 2015
   date: '2015-09-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）
+  publication: GAME FREAK 招聘网站
+  title: GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标
   score: 4
-  why: 交代了说话人入社年份与参与3D化首作的起点，是理解其渲染管线工作的背景。
-  more: 同篇中他提到负责 Maya 插件、实时渲染管线与定制着色器。
+  why: 以《宝可梦 X·Y》无法实现电影中胡帕光环异次元表现为例，说明硬件限制如何影响设定还原。
+  more: 同一段还提到Gear Project制度下的多平台游戏开发。
   people:
-  - 田谷正夫
   - M.I.
+  - S.T.
   works:
   - 宝可梦 X·Y
-  - 宝可梦 蓝
-  - Gear Project（齿轮企划）
   links: []
 - id: 2015-10-01-interview-gamefreak-recruit-designers#20
   post: 2015-10-01-interview-gamefreak-recruit-designers
@@ -17557,6 +17984,78 @@ quotes:
   - Pokémon GO
   - 宝可梦 太阳·月亮
   note: 超级碗是美国职业橄榄球大联盟年度冠军赛，中场秀广告时段收视极高。
+  links: []
+- id: 2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata#202
+  post: 2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata
+  segment: 202
+  speaker: 长畑成一郎
+  reported: false
+  kind: quote
+  hook: 长畑：以某个1%为界，评价会反转
+  zh: 实际上，让测试玩上千次的话，以某个1%为界，玩家对“容易中”“容易不中”的评价发生反转是常有的事。比如，这也是重要的经验诀窍，所以希望文章中不要写出具体数值，但关于“◯◯”的数字，我们知道最优解就在◯◯.◯%的概率附近，只要稍有偏离，玩家就会开始抱怨“太多了”“太少了”。
+  ja: 実際のところ、テストプレイを1000回単位でやらせてみると、ある1%を境にプレイヤーの「当たりやすい」「外れやすい」の評価が切り替わることはザラです。例えば、これは大事なノウハウでもあるので記事では値は伏せていただきたいのですが、「◯◯」についての数字なんて、◯◯.◯％の確率の辺りに最適解があって、そこから少しでもズレたらプレイヤーから「多すぎる」「少なすぎる」と苦情が来はじめると分かっています。
+  lang: ja
+  year: 2016
+  date: '2016-03-07'
+  publication: 电Fami Nico Gamer
+  title: 电Fami Nico Gamer 2016：中村光一与长畑成一郎谈《不可思议的迷宫》的数值调整与游戏「编辑」
+  score: 5
+  why: 披露《不可思议的迷宫》数值调整精度：测试上千次后，1%的偏差就会让玩家对「容易中／不中」的评价反转。
+  more: 同段提到佐久间晃在《桃太郎电铁》里参考棒球打击率设定数值。
+  people:
+  - 中村光一
+  - 长畑成一郎
+  works:
+  - 不可思议的迷宫
+  - 宝可梦不可思议的迷宫
+  links: []
+- id: 2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata#204
+  post: 2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata
+  segment: 204
+  speaker: 长畑成一郎
+  reported: false
+  kind: quote
+  hook: 长畑：剑与投掷道具命中率只差几个百分点
+  zh: 说到《风来的西林》的情况，投掷道具命中的概率和剑命中的概率，在实际设定的数值上其实只差几个百分点。可是在游玩时，用剑几乎不会落空，让人很安心，而投掷道具却总感觉经常落空。
+  ja: 『シレン』の話でいうと、アイテムを投げて当たる確率と剣が命中する確率は、実際に設定された数字では数％しか違わないんです。でも、ゲームをプレイしていると剣はほぼ外さない安心感があるのに、アイテムを投げて外れることは多い気がするでしょう。
+  lang: ja
+  year: 2016
+  date: '2016-03-07'
+  publication: 电Fami Nico Gamer
+  title: 电Fami Nico Gamer 2016：中村光一与长畑成一郎谈《不可思议的迷宫》的数值调整与游戏「编辑」
+  score: 5
+  why: 以《风来的西林》为例说明体感与实际数值的落差：剑几乎不落空，投掷道具却总感觉常落空，实际设定只差几个百分点。
+  more: 前文长畑提到「感觉上容易落空的值」，后文谈到连续落空3次会留下强烈印象。
+  people:
+  - 中村光一
+  - 长畑成一郎
+  works:
+  - 不可思议的迷宫
+  - 宝可梦不可思议的迷宫
+  links: []
+- id: 2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata#223
+  post: 2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata
+  segment: 223
+  speaker: 长畑成一郎
+  reported: false
+  kind: quote
+  hook: 长畑：加入「必中之剑」让游戏变单调
+  zh: 还有，说到概率，我曾经加入过一种叫“必中之剑”（※）的东西。不过，那让游戏变得单调了，是个让我反省的例子……我试着制造一种“只要有这个就能通关”的安心感，但果然还是觉得破坏了《不可思议的迷宫》重要的部分。之后，相当于“必中”的东西，在通关一次游戏之前都不再放出来了。
+  ja: あと、確率といえば、「必中の剣」（※）というものを入れたことがありました。まあ、あれはゲームが単調になってしまうので、反省したという例ですけれども……。「これさえあればクリアできる」という安心感を作ってみたのですが、やはり『不思議のダンジョン』の大事な部分を壊している気がしました。その後は、「必中」に相当するものはゲームを一度クリアするまでは、出さないようにしています。
+  lang: ja
+  year: 2016
+  date: '2016-03-07'
+  publication: 电Fami Nico Gamer
+  title: 电Fami Nico Gamer 2016：中村光一与长畑成一郎谈《不可思议的迷宫》的数值调整与游戏「编辑」
+  score: 4
+  why: 长畑反省自己加入「必中之剑」破坏了《不可思议的迷宫》的重要部分，之后相当于「必中」的东西在通关一次前不再放出。
+  more: 同段提到「只要有这个就能通关」的安心感与游戏设计之间的冲突。
+  people:
+  - 中村光一
+  - 长畑成一郎
+  works:
+  - 不可思议的迷宫
+  - 宝可梦不可思议的迷宫
   links: []
 - id: 2016-04-18-interview-denfami-sonobe-gamefreak-morimoto#158
   post: 2016-04-18-interview-denfami-sonobe-gamefreak-morimoto
@@ -20609,8 +21108,8 @@ quotes:
   speaker: 尾上将之
   reported: false
   kind: quote
-  hook: 尾上将之：1组做原创，2组做宝可梦
-  zh: 完全没错。我们内部设立了两个不同的制作团队，简称为“制作1组”和“制作2组”。1组完全专注于 Gear Project 原创项目研发，而 2组 则负责《宝可梦》的核心业务运转。这意味着从公司整体战略而言，GAME FREAK 将象征着第一制作组的 Gear Project 摆在了比单纯推进宝可梦更为优先、或至少同等重要的战略高度。
+  hook: 尾上将之：1组做Gear Project，优先级高于宝可梦
+  zh: 确实如此。我们这里有两个不同的制作团队，简单来说就是第一制作组和第二制作组。1组完全专注于 Gear Project，而2组则负责《宝可梦》业务。这意味着作为一家公司，GAME FREAK 将第一制作组的 Gear Project 置于比《宝可梦》总体上更高的优先地位。
   ja: Exactly. There are two different production teams here, simply named Production Team 1 and Production Team 2. Team 1 is fully dedicated to Gear Project, while Team 2 is for the Pokémon operation. What that means is that Game Freak as a company is prioritising Gear Project, which is production team number one, more than Pokémon in general.
   lang: en
   year: 2019
@@ -20618,8 +21117,8 @@ quotes:
   publication: Video Games Chronicle (VGC)
   title: VGC 专访 GAME FREAK 尾上将之：GEAR PROJECT 机制与第一制作组的原创野心——追求超越宝可梦的冲击力
   score: 5
-  why: 首次披露 GAME FREAK 内部两个制作组的分工，以及原创项目被摆在与宝可梦同等或更优先的战略高度。
-  more: 同一访谈中尾上将之还谈到 1 组与 2 组之间频繁的人员与技术交流。
+  why: 明确说出GAME FREAK内部两个制作组的分工，并把Gear Project置于比宝可梦更高的优先地位，是罕见的公司战略表态。
+  more: 同一访谈中尾上将之还提到1组和2组之间通过混合团队产生协同效应。
   people:
   - 尾上将之
   works:
@@ -20628,36 +21127,39 @@ quotes:
   - type: person
     name: 尾上将之
     slug: wei-shang-jiang-zhi
-- id: 2019-05-09-interview-vgc-gamefreak-gear-project#22
+- id: 2019-05-09-interview-vgc-gamefreak-gear-project#23
   post: 2019-05-09-interview-vgc-gamefreak-gear-project
-  segment: 22
+  segment: 23
   speaker: 尾上将之
   reported: false
   kind: quote
-  hook: 尾上将之：程序员不需要鸟瞰项目全貌
-  zh: 在《宝可梦》项目中，我当然倾注了力量，但作为程序员并不需要鸟瞰整个项目的宏观全貌。然而在《千兆破坏者》中，作为总监我必须时刻监控项目的方方面面，全盘掌握所有动态。因此，这对我而言确实是一次极具启发性与新鲜感的宝贵历练。
-  ja: On Pokémon, of course I contribute to the project, but it’s not like I’m looking at the whole picture of the project. However with Giga Wrecker, as a director I’m constantly supervising the whole picture and need to be aware of what’s going on. So yes, it was a very interesting and refreshing experience for me.
+  hook: 尾上将之：做《宝可梦》时只是众多程序员之一
+  zh: 当作为一名程序员开发《宝可梦》时，你只是众多程序员中的一员。然而，作为《千兆破坏者》的总监，这段经历让我看到了游戏创作的其他方面，一直延伸到玩家游玩游戏。指望程序员具备这样的视角确实很难，但作为总监，我学到了如何让游戏对玩家更有吸引力和更容易上手，以及市场营销方面的知识。
+  ja: When you’re a programmer working on Pokémon, you’re one of many programmers. However, as a director on Giga Wrecker the experience opened my eyes to the other aspects of game creation, all the way up to users playing the game. It’s really difficult to expect a programmer to have that kind of perspective, but as director I learned how to make a game more appealing and accessible to players, plus as
   lang: en
   year: 2019
   date: '2019-05-09'
   publication: Video Games Chronicle (VGC)
   title: VGC 专访 GAME FREAK 尾上将之：GEAR PROJECT 机制与第一制作组的原创野心——追求超越宝可梦的冲击力
   score: 4
-  why: 对比了在《宝可梦》中作为程序员与在《千兆破坏者》中作为总监的视角差异，说明总监必须全盘掌握项目动态。
-  more: 第 23 句进一步说明总监经历拓宽了从游戏架构到玩家上手、甚至市场营销的宏观视野。
+  why: 对比程序员与总监两种视角，说明《千兆破坏者》总监经历让他看到从创作到营销的完整流程。
+  more: 尾上将之在访谈中还提到《千兆破坏者》让他经历了范式的转变。
   people:
   - 尾上将之
   works:
   - 宝可梦 剑·盾
-  links: []
+  links:
+  - type: person
+    name: 尾上将之
+    slug: wei-shang-jiang-zhi
 - id: 2019-05-09-interview-vgc-gamefreak-gear-project#27
   post: 2019-05-09-interview-vgc-gamefreak-gear-project
   segment: 27
   speaker: 尾上将之
   reported: false
   kind: quote
-  hook: 尾上将之：R&D 部门搭建底层通用基础代码库
-  zh: 同时，新成立的 R&D（研发）部门正在搭建底层通用基础代码库。以往我们每开启一个新项目，都不得不从零重新编写基础库；底层库的沉淀毫无疑问大幅提升了我们的研发管线效率。此外，我们正从前沿技术视角长远布局未来，这是我们过去从未有过的战略尝试。我相信 R&D 部门必将为 GAME FREAK 的长远未来提供强劲助力。
+  hook: 尾上将之：新设研发部门创建基础库，提高效率
+  zh: 研发（R&D）是一个新成立的部门，负责创建基础库，而以前我们每次做项目都要创建它。这无疑提高了我们的生产效率。此外，我们从技术角度着眼于未来，这也是我们以前从未有过的。我认为研发部门一定会为 GAME FREAK 的未来做出贡献。
   ja: R&D is a newly founded division which is creating the basic library, which used to be created every single time we made a project. That helps the efficiency of our production for sure. Also we are looking at what’s going on in the future, from a technical perspective, and that’s something else that we’ve never had before. I think that R&D division will certainly contribute to the future of Game Fr
   lang: en
   year: 2019
@@ -20665,13 +21167,18 @@ quotes:
   publication: Video Games Chronicle (VGC)
   title: VGC 专访 GAME FREAK 尾上将之：GEAR PROJECT 机制与第一制作组的原创野心——追求超越宝可梦的冲击力
   score: 4
-  why: 说明 GAME FREAK 新设 R&D 部门，改变以往每个新项目从零编写基础库的做法，以提升研发管线效率。
-  more: 第 19 句提到 R&D 部门提供直接技术支持，与 Gear Project 形成协同。
+  why: 披露GAME FREAK新成立研发部门，负责创建以前每个项目都要重复创建的基础库，并着眼未来技术。
+  more: 同一访谈中尾上将之提到研发小组专门支持GAME FREAK的技术层面。
   people:
   - 尾上将之
   works:
   - 宝可梦 剑·盾
-  links: []
+  links:
+  - type: person
+    name: 尾上将之
+    slug: wei-shang-jiang-zhi
+  - type: term
+    name: GAME FREAK
 - id: 2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori#14
   post: 2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori
   segment: 14
@@ -22165,7 +22672,7 @@ quotes:
   speaker: 田中宏和
   reported: false
   kind: quote
-  hook: 田中：Windows上的3D皮卡丘演示，成了旷野地带的雏形
+  hook: 田中：Windows上的3D皮卡丘演示成了契机
   zh: 让我印象深刻的是，与其说是作品，不如说是《宝可梦乐园Wii～皮卡丘的大冒险～》（株式会社宝可梦／Wii／2009年）完成之前的时期。当时的程序员用Windows机器制作了一个在草原上让3DCG皮卡丘动起来的原型演示，当我用手柄操作那个演示时，有了一种“这或许有什么可能性”的手感。当时GAME FREAK制作的宝可梦是2D像素画的世界，但那个在开放世界中配置3D宝可梦的演示，有着类似现在宝可梦旷野地带的氛围。我认为那是一个重要的演示，成为了后来《宝可梦乐园》《名侦探皮卡丘》的契机。
   ja: 思い出深いのは、作品というより『ポケパークWii〜ピカチュウの大冒険〜』（株式会社ポケモン／Wii／2009年）が出来上がる前の時期になります。Windowsマシンで草原を表現しその上で3DCGのピカチュウを動かすプロトタイプデモを当時のプログラマーが作ったのですが、そのデモをコントローラーで触った時「これは何か可能性があるのでは？」という手応えのようなものがありました。当時のゲームフリークさんがつくるポケモンは2Dのドット絵の世界でしたが、当時オープンワールドな世界に3Dのポケモンを配置したデモは、いまのポケモンのワイルドエリアに似た雰囲気をもってました。その後の「ポケパーク」「名探偵ピカチュウ」に繋がるキッカケを作った大事なデモだったのでは？と思っています。
   lang: ja
@@ -22174,8 +22681,8 @@ quotes:
   publication: Creatures 官网
   title: Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学
   score: 4
-  why: 《宝可梦乐园Wii》完成前，程序员用Windows机器做的草原3D皮卡丘原型演示，被田中视为后来《宝可梦乐园》《名侦探皮卡丘》的契机。
-  more: 访谈中石原也谈到宝可梦卡牌游戏从棒球卡和《万智牌》的源头爆发。
+  why: 《宝可梦乐园Wii》完成前，程序员用Windows机器做的3DCG皮卡丘原型演示，被田中视为后来《宝可梦乐园》《名侦探皮卡丘》的契机。
+  more: 同篇第61句提到Creatures以卡牌、视频游戏、宝可梦3DCG为三大支柱。
   people:
   - 田中宏和
   - 石原恒和
@@ -22184,15 +22691,15 @@ quotes:
   - 宝可梦集换式卡牌游戏
   - Pokémon GO
   links:
-  - type: work
-    name: 宝可梦卡牌
+  - type: term
+    name: Creatures
 - id: 2021-11-08-interview-creatures-history-special-ishihara-tanaka#68
   post: 2021-11-08-interview-creatures-history-special-ishihara-tanaka
   segment: 68
   speaker: 石原恒和
   reported: false
   kind: quote
-  hook: 石原：在卡牌背面印社史，破坏它的价值
+  hook: 石原：在卡背印社史，破坏它的价值
   zh: 因为野元（圣矢）实在太苦恼了（笑）。“那要不要做成卡牌型的社史？”这个点子就是这么想出来的。现在的宝可梦卡牌价格非常高，加入特别卡牌恐怕会导致价格暴涨，所以我们在背面加入社史，破坏了它的价值（笑）。
   ja: 野元（聖矢）があまりにも悩んでいるから（笑）。「じゃあ、カード型の社史にしようか？」とアイデアをひねり出した結果です。現在のポケモンカードは非常に高価になっていて、特別なカードを入れると高騰してしまう怖れがあるので、裏面に社史を入れて価値を破壊しました（笑）。
   lang: ja
@@ -22201,8 +22708,8 @@ quotes:
   publication: Creatures 官网
   title: Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学
   score: 5
-  why: 宝可梦卡牌25周年纪念的社史牌组，因担心特别卡牌导致价格暴涨，把社史印在背面以破坏其收藏价值，是反常识的产品决定。
-  more: 同一访谈中石原提到野元圣矢为此苦恼，以及他对周年纪念本身不感兴趣。
+  why: 为庆祝宝可梦卡牌游戏25周年，把社史印在卡牌背面，主动破坏收藏价值，是反常识的产品决定。
+  more: 同篇第66句石原说对周年纪念没有兴趣，连做社史原本都觉得“不做也行”。
   people:
   - 田中宏和
   - 石原恒和
@@ -22218,7 +22725,7 @@ quotes:
   speaker: 田中宏和
   reported: false
   kind: quote
-  hook: 田中：创造事物的人，大多在20多岁到30岁出头完成重要工作
+  hook: 田中：20多岁到30岁出头完成重要工作
   zh: 我关注的不是技术，果然还是人。创造东西，人就是一切。不仅限于游戏，创造事物的人，大多在20多岁到30岁出头就完成了重要的工作。人们往往说积累经验是好事，但我认为没有经验在很多情况下也会成为优势。回顾我自己的过去，也可以断言这一点。包括体力、技术和直觉在内，在娱乐领域，20多岁到30岁出头的人对社会的力量是巨大的。
   ja: 僕が注目しているのは、技術ではなく、やはり人です。ものづくりは、人がすべてです。ゲームに限らず、ものを生み出す人は、20代から30代前半に大きな仕事を成し遂げています。経験を重ねることがいいことだと語られがちだけれど、経験がないことが強みになっている場合も多いと思います。これは自分自身の過去を振り返っても断言できます。体力や技術、勘を含めて、エンタメの領域において20代から30代前半の人の世の中に対する力は、絶大です。
   lang: ja
@@ -22227,8 +22734,8 @@ quotes:
   publication: Creatures 官网
   title: Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学
   score: 4
-  why: 田中宏和认为在娱乐领域，20多岁到30岁出头的人对社会的力量巨大，没有经验在很多情况下也会成为优势。
-  more: 同一访谈中田中谈到周年是祭典，也包含归零重生。
+  why: 被问及关注的最尖端技术时，田中回答关注的不是技术而是人，并断言娱乐领域20多岁到30岁出头的人力量巨大。
+  more: 同篇第45句田中希望员工自觉自己对公司提供了什么价值。
   people:
   - 田中宏和
   - 石原恒和
@@ -22243,17 +22750,17 @@ quotes:
   speaker: 大洞翔一
   reported: false
   kind: quote
-  hook: 大洞翔一：300人公司设30个部门
-  zh: 我们公司的一大鲜明特征就是部门划分极度细分。在全公司约300名员工的体量下，设立了多达30个左右的独立部门。公司始终抱持着‘必须成为一个极具变化应变力的敏捷团队’的高度危机感，无论是部门职能架构、人员归属，还是分管高管，都在随着时代快速迭代重组。
+  hook: 大洞翔一：300名员工却有30个左右部门
+  zh: 我们公司的特征是部门数量多，约300名员工却有30个左右的部门。我们高度保持着成为对变化适应力强的团队的意识，部门的构成、所属人员以及负责的高管都在不断变化。
   ja: 弊社は部署数の多さが特徴で、約300人の社員に対して30ほどの部署があるんです。変化に強い集団であり続けることの意識を高く持って、部署の構成も、所属する人も、担当役員もどんどん変わっていく。
   lang: ja
   year: 2021
   date: '2021-11-29'
   publication: NewsPicks Brand Design
-  title: NewsPicks 独家专访宝可梦公司役员大洞翔一 × 今村啓太：千亿IP背后的“组织应变力”——轮岗机制、音乐短片〈GOTCHA!〉诞生记与全日本宝可梦井盖哲学
-  score: 5
-  why: 给出宝可梦公司组织规模的罕见具体数字，说明其以细分部门维持应变力的思路。
-  more: 同篇还谈到轮岗机制与音乐短片〈GOTCHA!〉的诞生过程。
+  title: ㈱宝可梦式轮岗机制带来的“应对变化的能力”是什么
+  score: 4
+  why: 用具体数字说明宝可梦公司部门多、人员与高管持续变动，是轮岗机制的背景。
+  more: 同一访谈还提到《Pokémon GO》迎来5周年、《大侦探皮卡丘》在43个国家发行、票房超4.3亿美元。
   people:
   - 大洞翔一
   - 今村啓太
@@ -22264,7 +22771,9 @@ quotes:
   - Pokémon GO
   - 宝可梦 剑·盾
   - 宝可梦 晶灿钻石·明亮珍珠
-  links: []
+  links:
+  - type: work
+    name: Pokémon GO
 - id: 2021-12-27-interview-gamefreak-crosstalk-designer#20
   post: 2021-12-27-interview-gamefreak-crosstalk-designer
   segment: 20
@@ -23195,86 +23704,23 @@ quotes:
   people: []
   works: []
   links: []
-- id: 2022-04-10-interview-pokemon-recruit-growth#24
+- id: 2022-04-10-interview-pokemon-recruit-growth#36
   post: 2022-04-10-interview-pokemon-recruit-growth
-  segment: 24
-  speaker: 小岛彬
+  segment: 36
+  speaker: 寺田佑贵
   reported: false
   kind: quote
-  hook: 小岛彬：轮岗3部门，从巡店到学泰语
-  zh: 我至今为止已经深度历练了3个部门。第一站面向日本国内的各大连锁零售渠道，第二站直面顶尖游戏研发商团队，而今这一站，则是直接面向整片充满无限生机的东南亚跨国大市场。从昔日奔波全日本各地的宝可梦卡牌卖场巡店，到废寝忘食钻研自己此前从未涉猎的新游，再到如今捧起课本苦学泰语……每一次轮岗都成为了我疯狂摄取多元复合认知的绝佳催化剂。正是将这些在不同战场积累的专业技艺与认知维度跨界融合，才让我能够孵化出兼具全球格局与本土特色的创新企划。我由衷庆幸自己身处在这样一个勇于打破边界、鼓励频繁轮岗的创新沃土中。
-  ja: 私はこれまで3つの部署を経験してきました。最初の部署では日本国内の流通・小売法人に対して向き合い、次の部署ではゲームの開発会社様と向き合いました。そして今現在は、東南アジアのマーケットと向き合っています。日本全国のポケモンカード売り場を回ったり、プレイしたことのないゲームで遊んだり、タイ語を勉強したりと、部署異動をきっかけに多様なインプットを得られています。これまで培った知識やスキルを組み合わせることで、より自分らしい企画を生み出すことができているので、むしろ異動が多い環境で良かったと思います。
-  lang: ja
-  year: 2022
-  date: '2022-04-10'
-  publication: 株式会社ポケモン 採用情報 Special Interview
-  title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
-  score: 5
-  why: 具体列出三次轮岗的部门与地域跨度，从日本零售渠道到东南亚市场，是轮岗制度落到个人身上的实例。
-  more: 同篇林祐衣（i 23）谈轮岗跨度超乎想象，的场昂树（i 25）谈团队编制不僵化。
-  people:
-  - 的场昂树
-  - 林祐衣
-  - 寺田佑贵
-  - 小岛彬
-  - 髙草真生
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: 的场昂树
-    slug: de-chang-ang-shu
-  - type: person
-    name: 林祐衣
-    slug: lin-you-yi
-- id: 2022-04-10-interview-pokemon-recruit-growth#26
-  post: 2022-04-10-interview-pokemon-recruit-growth
-  segment: 26
-  speaker: 髙草真生
-  reported: false
-  kind: quote
-  hook: 髙草真生：入职第2年说的志向，高管都记得
-  zh: 我在入职第2年时曾向当时的主管坦露过“我未来真正渴望挑大梁做这样的工作”。令人难以置信的是，在此后的数年间，即使我历经了多次部门调动，每一位后来的直属领导乃至公司董事高管，竟然全都清清楚楚地记得我当年的那番心声！他们会主动在日常工作中指点我：“既然你未来想做那个方向的大事，那在当前的岗位上不妨尝试这样去布局历练一下？”并将这些长远培养真正落实到实际业务分工中。这让我感动至深。正因感受到了这份跨越部门的深切关怀与托付，我能够清晰洞悉当下每一项具体琐碎工作的深远战略意义，为了未来蓄力而全力以赴，每天都过得充实无比。
-  ja: 入社2年目のときの上司に、「今後こういう仕事がしたい」と伝えていたことを、その次と、またその次の部署へ異動しても上司や役員が把握していて、「この仕事がしたいなら、今の部署でこういう動きをしてみたら？」と、実業務の割り振りに反映してくれていました。すごく嬉しかったですし、次につなげていくためにも、今ここを頑張ろう、という目線で意義を捉えることができるようになって、とても充実しています。
-  lang: ja
-  year: 2022
-  date: '2022-04-10'
-  publication: 株式会社ポケモン 採用情報 Special Interview
-  title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
-  score: 5
-  why: 给出具体时间点（入职第2年）和跨部门记住个人诉求的细节，说明公司如何把长期培养落到业务分工。
-  more: 寺田佑贵（i 27）谈向组织表达诉求的窗口密集，可对照看。
-  people:
-  - 的场昂树
-  - 林祐衣
-  - 寺田佑贵
-  - 小岛彬
-  - 髙草真生
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: 寺田佑贵
-    slug: si-tian-you-gui
-- id: 2022-04-10-interview-pokemon-recruit-growth#42
-  post: 2022-04-10-interview-pokemon-recruit-growth
-  segment: 42
-  speaker: 小岛彬
-  reported: false
-  kind: quote
-  hook: 小岛彬：后悔没把英语和中文学得更深
-  zh: 绝对是语言能力！尤其是英语与中文，如果当初能投入更多心血学得更精深透彻就好了。在如今的跨国亚洲战略推进中，英语几乎是每天高频使用的核心武器，让我无比深刻地重新领会到了语言工具的千钧分量。而且绝非死记硬背的书本应试，若是在大学时代就能多创造一些在高压实战中高频输出表达的真实语境，成长速度一定会更快。
-  ja: 語学です。特に英語や中国語はもっとやっていればよかったな、と思いました。英語は今の仕事で使う機会がとても多いので、もっとマスターしておけばよかったと、価値の重さを再認識しています。机上の語学学習ではなく、実践的にアウトプットする場を持っていれば良かったと感じました。
+  hook: 寺田佑贵：公司有好几位博士，其中2人与我业务交集多
+  zh: 有好几位拥有博士学位的人，其中2人与我在业务上有许多交集。虽然我在公司的在职年数更长，但也许是因为有彻底研究的经验，有时会被他们思考的深度所震惊。一起工作时，会让我精神紧绷。
+  ja: 博士号を持っている方が何人もいて、そのうちの2人と業務で多くの接点があります。会社の在籍年数は自分の方が長いですが、とことん研究した経験があるからか、考えの深さに驚かされることがあります。一緒に仕事をしていて、気が引き締まります。
   lang: ja
   year: 2022
   date: '2022-04-10'
   publication: 株式会社ポケモン 採用情報 Special Interview
   title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
   score: 4
-  why: 点出英语在跨国亚洲战略中每天高频使用，并建议在大学创造高压实战语境，是具体的能力反思。
-  more: 髙草真生（i 43）同感语言能力，理由是可无障碍对话的全球精英越多，猎场越广。
+  why: 具体提到公司内有博士，其中2人与寺田佑贵业务交集多，并描述被思考深度震惊。
+  more: 同篇髙草真生提到周围人有极其深爱的领域，如动物生态或偶像内容。
   people:
   - 的场昂树
   - 林祐衣
@@ -23288,6 +23734,68 @@ quotes:
   - type: person
     name: 髙草真生
     slug: gao-cao-zhen-sheng
+- id: 2022-04-10-interview-pokemon-recruit-growth#47
+  post: 2022-04-10-interview-pokemon-recruit-growth
+  segment: 47
+  speaker: 小岛彬
+  reported: false
+  kind: quote
+  hook: 小岛彬：入职第7年，以国家为单位制定泰国战略
+  zh: 是业务范围的广度和其影响力。5年前，我考虑的是如何在日本国内的流通、零售法人中提升游戏和卡牌游戏的销售额。现在，我以国家为单位，制定并执行在泰国推广宝可梦品牌的战略。除了游戏和卡牌游戏的销售额之外，还包括如何播放动画、电影，如何展开授权业务等，业务范围之广，是5年前无法预想的。泰国的宝可梦粉丝能否增加，我认为取决于自己的企划，所以责任重大，但也非常有价值。入职第7年就能被赋予这样的裁量权，我认为是这家公司独有的。我会继续努力，争取实现超越公司期待的成长。
+  ja: 業務の幅の広さとその影響力です。5年前は、国内の流通・小売法人でどのようにゲームやカードゲームの売り上げを伸ばすかについて、考えていました。現在は、国という単位で、タイにポケモンのブランドを広めるための戦略を練り、実行しています。ゲームやカードゲームの売り上げ以外にも、アニメ・映画をどのように放映するのか、ライセンスビジネスをどのように展開するのかなど、業務の幅は、5年前には予想できなかったほど広がりました。タイのポケモンのファンが増えるかどうかは自分の企画次第だと思っているので、責任は大きいですが、とてもやりがいを感じています。入社7年目でここまでの裁量を持たせてもらえることは、この会社ならではだと思います。引き続き、会社の期待を超えるような成長を目指して頑張ります。
+  lang: ja
+  year: 2022
+  date: '2022-04-10'
+  publication: 株式会社ポケモン 採用情報 Special Interview
+  title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
+  score: 5
+  why: 具体说明5年间从日本国内法人销售到泰国市场品牌战略的转变，并提到入职第7年获得裁量权。
+  more: 同篇小岛彬还提到跑遍日本全国宝可梦卡牌卖场、学习泰语，以及在公司内人脉广度第一。
+  people:
+  - 的场昂树
+  - 林祐衣
+  - 寺田佑贵
+  - 小岛彬
+  - 髙草真生
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: 小岛彬
+    slug: xiao-dao-bin
+  - type: work
+    name: 宝可梦卡牌
+- id: 2022-04-10-interview-pokemon-recruit-growth#50
+  post: 2022-04-10-interview-pokemon-recruit-growth
+  segment: 50
+  speaker: 林祐衣
+  reported: false
+  kind: quote
+  hook: 林祐衣：博士课程的人开始应聘应届生招聘并入职
+  zh: 虽然变化并非来自我自身，而是来自周围，但上次采访之后，博士课程的人们开始应聘应届生招聘，并陆续入职。虽然工作不一定与各自研究的专业领域直接相关，但看到后辈们开心工作、活跃表现，我感到很自豪。当有人告诉我我的采访是应聘的契机时，我就更加高兴了（笑）。我希望通过这次采访，让致力于研究活动的人们知道，株式会社宝可梦也是一个职业选择。
+  ja: 自分ではなく周りの変化ですが、前回のインタビュー以降、博士課程の人たちが新卒採用に応募してきてくれるようになって、続々と入社しています。それぞれが研究してきた専門分野とは必ずしも直結しない仕事ですが、楽しそうに仕事をして活躍している後輩たちを見ると、誇らしいです。私のインタビューが応募のきっかけになった、と言っていただけたときは、なおさら嬉しいです（笑）。研究活動に打ち込んできた人たちに、株式会社ポケモンというキャリアの選択肢があることを、このインタビューを通して伝えたいです。
+  lang: ja
+  year: 2022
+  date: '2022-04-10'
+  publication: 株式会社ポケモン 採用情報 Special Interview
+  title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
+  score: 4
+  why: 具体提到上次采访后博士课程的人开始应聘并陆续入职，说明采访对招聘的影响。
+  more: 同篇林祐衣还提到在《Pokémon UNITE》负责从中文进行的本地化及此前未处理过的语言。
+  people:
+  - 的场昂树
+  - 林祐衣
+  - 寺田佑贵
+  - 小岛彬
+  - 髙草真生
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: 林祐衣
+    slug: lin-you-yi
 - id: 2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline#16
   post: 2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline
   segment: 16
@@ -24107,23 +24615,23 @@ quotes:
   people: []
   works: []
   links: []
-- id: 2024-02-15-interview-pokemon-recruit-designer#50
+- id: 2024-02-15-interview-pokemon-recruit-designer#14
   post: 2024-02-15-interview-pokemon-recruit-designer
-  segment: 50
-  speaker: 永山
+  segment: 14
+  speaker: 町田
   reported: false
   kind: quote
-  hook: 永山：石原社长对我学生的习作抱有纯粹好奇
-  zh: 坦率地讲，在我当年求职时，宝可梦公司内部设计师的具体职责很少对外公开曝光，最初吸引我的是宝可梦对全球文化的深远号召力，以及优厚健全的薪酬福利待遇。然而，当我在终极面试中直面石原恒和社长时，整个人的想法被彻底改变了——在交流过程中，我无比真切地感受到，身为千亿商业帝国掌舵人的石原社长，竟然对我这个学生的点滴经历和每一件习作都抱有极其纯粹的好奇与尊重，态度和蔼可亲、毫无架子。那一刻我笃定：如果是一家由这样的人格魅力领袖执掌的企业，绝对是一间无可挑剔的卓越公司！因此一收到内定通知，我立刻毫不犹豫地接受了邀约。
-  ja: 自分が就活をしていた頃は、株式会社ポケモンのデザイナーの具体的な仕事内容があまり表に出ていなかったので、ポケモンが世界に与えている影響力と、給与や福利厚生の条件を見て応募しました。当時は最終面接に石原社長が出席されていたのですが、お話をする中で「自分の話や作品に興味を持ってくださっている」「話しやすい」という感覚があり、この方がトップならば良い会社に違いない、と思い、内定通知を受け取った際はすぐに入社を決心しました。
+  hook: 町田：非美大出身，入职先被分到商品部
+  zh: 现在回想起来，我真心觉得“真是太好了！”。我毕业于综合大学工学部设计学科，而非美术大学。相比纯艺术，我的课程更偏向工业设计，主修沟通与产品设计。入职后我最初被分配到商品部，负责宝可梦中心和宝可梦商店销售的商品设计。当时能学以致用，工作也很开心，所以收到调岗通知时，说实话，我内心既有积极的期待，也夹杂着不安。
+  ja: 今は「すごく良かった！」と振り返っています。私が卒業したのは美術大学ではなく総合大学の工学部デザイン学科で、アートというより工業デザイン中心のカリキュラムから、コミュニケーションやプロダクトのデザインを専攻していました。入社して最初の配属先は商品部で、ポケモンセンター・ポケモンストアで販売する商品のデザインを担当し、学んでいたことも生かしながら楽しく仕事に向き合うことができていたので、異動には前向きな気持ちと不安の両方が入り混じっていたというのが、当時の本音です。
   lang: ja
   year: 2024
   date: '2024-02-15'
   publication: 株式会社ポケモン 採用情報
   title: 宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）
-  score: 5
-  why: 求职者原本被薪酬福利吸引，终极面试中石原恒和社长对其习作的态度改变了判断，是少见的社长面试细节。
-  more: 同篇永山谈轮岗时提醒：只想做单一设计的人可能面临动力落差。
+  score: 4
+  why: 给出设计师的具体出身背景（综合大学工学部设计学科）与最初岗位，说明轮岗起点。
+  more: 町田在i 17进一步谈到希望把非美大出身转化为优势。
   people:
   - 町田
   - 李
@@ -24138,25 +24646,25 @@ quotes:
   - Pokemon Local Acts（宝可梦地方应援）
   links:
   - type: person
-    name: 永山
-    slug: yong-shan
-- id: 2024-02-15-interview-pokemon-recruit-designer#53
+    name: 町田
+    slug: ting-tian
+- id: 2024-02-15-interview-pokemon-recruit-designer#50
   post: 2024-02-15-interview-pokemon-recruit-designer
-  segment: 53
+  segment: 50
   speaker: 永山
   reported: false
   kind: quote
-  hook: 永山：轮岗让我结识策划、法务、工程、公关伙伴
-  zh: 对我个人而言，轮岗完全没有任何消极影响，反而让我能够广泛触及各类跨度极大的业务，我对此倍感庆幸。更重要的是，轮岗让我结识了大量设计职能之外的跨部门伙伴（策划、法务、工程、公关等），这种人脉与认知的大幅扩列极大地丰盈了我的职业生涯。不过我也想坦诚地给未来的求职者提个醒：如果某些人心中有着“我这辈子只愿做某单一特定设计”的极端执念，那么一旦轮岗后的业务与心理预期出现偏差，可能会面临动力落差。因此在投递之前，提前审视自己是否具备拥抱变化、乐于在不同土壤中吸取养分的开放心态，是非常关键的考量点。
-  ja: 自身にとってはあまりネガティブな影響はなく、いろいろな仕事に関わることができる点をとても好意的に捉えています。また、デザイナー職以外の方とのつながりが広がる点がとても楽しく、キャリアを豊かにすることにもつながっています。ただし、こんな仕事がしたい！ というこだわりが強い人にとっては、異動先の業務がやりたいことと違ってしまったときにモチベーションの低下につながることもあるだろうと思うので、これから応募する方は、ジョブローテーションを受け入れることができそうか、検討のポイントにしておくことをお勧めします。
+  hook: 永山：石原社长出席最终面试，我当场决定入职
+  zh: 我找工作的时候，株式会社宝可梦设计师的具体工作内容并没有太多公开信息，我是看到宝可梦在世界上的影响力，以及薪资福利条件后报名的。当时石原社长出席了最终面试，在交谈中我感觉他“对我的经历和作品很感兴趣”并且“很容易沟通”，心想如果这样的人是高层，那这绝对是一家好公司。所以在收到内定通知时，我立刻就决定入职了。
+  ja: 自分が就活をしていた頃は、株式会社ポケモンのデザイナーの具体的な仕事内容があまり表に出ていなかったので、ポケモンが世界に与えている影響力と、給与や福利厚生の条件を見て応募しました。当時は最終面接に石原社長が出席されていたのですが、お話をする中で「自分の話や作品に興味を持ってくださっている」「話しやすい」という感覚があり、この方がトップならば良い会社に違いない、と思い、内定通知を受け取った際はすぐに入社を決心しました。
   lang: ja
   year: 2024
   date: '2024-02-15'
   publication: 株式会社ポケモン 採用情報
   title: 宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）
   score: 4
-  why: 把轮岗的价值落在跨部门人脉与认知扩列上，同时点出只愿做单一设计者的风险，是少见的反向提醒。
-  more: 町田、川島、為藤也分别谈了轮岗带来的视界拓宽与走出舒适圈。
+  why: 披露了最终面试由石原社长亲自出席这一具体细节，以及应聘者据此判断公司氛围的决策过程。
+  more: 同篇町田、李、川島、為藤也分别谈到面试氛围如何影响入职决定。
   people:
   - 町田
   - 李
@@ -24179,23 +24687,23 @@ quotes:
   - type: person
     name: 為藤
     slug: wei-teng
-- id: 2024-02-15-interview-pokemon-recruit-designer#67
+- id: 2024-02-15-interview-pokemon-recruit-designer#53
   post: 2024-02-15-interview-pokemon-recruit-designer
-  segment: 67
-  speaker: 為藤
+  segment: 53
+  speaker: 永山
   reported: false
   kind: quote
-  hook: 為藤：前辈严谨探讨如何让新世代儿童爱上宝可梦
-  zh: 我希望能持续创造出源源不断的优秀作品，让全球所有人比以往更加热爱宝可梦。对于我们这一代年轻人而言，童年伴随着宝可梦长大是如同空气般自然而然的事情；因此入职后，当听到公司前辈们极为严谨、极富危机感地探讨“如何才能让完全没有接触过宝可梦的新世代儿童重新认识并爱上宝可梦”时，我感到如梦初醒般的巨大震撼。千亿品牌的基业长青绝非理所当然，我将竭尽全力，为守护这份跨越世纪的纯真热爱贡献自己的全部心血。
-  ja: ポケモンをもっと好きになってもらえるようなクリエイティブを、たくさん生み出していきたいです。ポケモンは、自分の世代にとって、接点があるのは当たり前と言えるぐらいの存在だったので、新しい世代の認知や人気を獲得していくことについて、社員の方々が真剣に取り組んでいると伺ったときは、目からうろこが落ちました。自分も貢献できるように、日々努力していきます。
+  hook: 永山：执着于想做的工作的人，调岗可能动力下降
+  zh: 对我个人来说并没有什么负面影响，我非常乐观地看待能够参与各种工作这一点。此外，能与设计职系以外的人拓展联系也非常开心，这也有助于丰富职业生涯。不过，对于那些非常执着于“想做这种工作！”的人来说，如果调岗后的业务与想做的不一样，可能会导致动力下降，所以我建议准备应聘的人将是否能接受轮岗作为考虑的要点。
+  ja: 自身にとってはあまりネガティブな影響はなく、いろいろな仕事に関わることができる点をとても好意的に捉えています。また、デザイナー職以外の方とのつながりが広がる点がとても楽しく、キャリアを豊かにすることにもつながっています。ただし、こんな仕事がしたい！ というこだわりが強い人にとっては、異動先の業務がやりたいことと違ってしまったときにモチベーションの低下につながることもあるだろうと思うので、これから応募する方は、ジョブローテーションを受け入れることができそうか、検討のポイントにしておくことをお勧めします。
   lang: ja
   year: 2024
   date: '2024-02-15'
   publication: 株式会社ポケモン 採用情報
   title: 宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）
   score: 4
-  why: 入职后听到公司内部对“新世代儿童不认识宝可梦”的危机感讨论，呈现品牌维护的另一面。
-  more: 同篇為藤说童年伴随宝可梦长大如同空气般自然。
+  why: 对轮岗制度给出少见的负面提醒，建议应聘者把能否接受轮岗作为考虑要点。
+  more: 同篇川島在i 40也提到刚调岗后相当辛苦。
   people:
   - 町田
   - 李
@@ -24210,8 +24718,8 @@ quotes:
   - Pokemon Local Acts（宝可梦地方应援）
   links:
   - type: person
-    name: 為藤
-    slug: wei-teng
+    name: 川島
+    slug: chuan-dao
 - id: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft#24
   post: 2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft
   segment: 24
@@ -26005,6 +26513,209 @@ quotes:
   people: []
   works: []
   links: []
+- id: 2025-12-06-interview-creatures-recruit-director#7
+  post: 2025-12-06-interview-creatures-recruit-director
+  segment: 7
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 氏家淳子：在Creatures做宝可梦3DCG已20多年
+  zh: 我在Creatures参与宝可梦3DCG模型制作已有20多年，现在作为董事统括宝可梦CG工作室。对Creatures和我个人而言都成为重大转折点的一件事，是在游戏软件《宝可梦 X・Y》中首次参与正篇的宝可梦3DCG。
+  ja: 私は20年以上、クリーチャーズでポケモン3DCGモデルの制作に関わり、現在は役員としてポケモンCGスタジオを統括していますが、クリーチャーズとしても、そして私個人にとっても大きな転機となった出来事が、ゲームソフト『ポケットモンスター X・Y』において、初めて本編のポケモン3DCGに携わったことです。
+  lang: ja
+  year: 2025
+  date: '2025-12-06'
+  publication: Creatures 招聘网站「役员访谈」
+  title: Creatures 招聘网站：董事氏家淳子谈宝可梦 CG 工作室
+  score: 4
+  why: 以个人从业时长点出Creatures与宝可梦3DCG的长期关系，并标出《宝可梦 X・Y》是首次参与正篇3DCG的转折点。
+  more: 同篇第8、9句讲《宝可梦 X・Y》时从详细设定阶段参与，以及与GAME FREAK、株式会社宝可梦关系的变化。
+  people:
+  - 氏家淳子
+  works: []
+  links:
+  - type: term
+    name: GAME FREAK
+  - type: term
+    name: 株式会社宝可梦
+- id: 2025-12-06-interview-creatures-recruit-director#19
+  post: 2025-12-06-interview-creatures-recruit-director
+  segment: 19
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 氏家：被委任总监的契机是《宝可梦战斗革命》
+  zh: 被委任为总监的契机，是制作Wii游戏软件《宝可梦战斗革命》。如前所述，Creatures从NINTENDO64软件《宝可梦竞技场》起就负责宝可梦CG，当时需要了解从那时起积累的制作经验的成员，于是我便担任了总监。
+  ja: ディレクターを任されるようになったきっかけは、Wii用ゲームソフト『ポケモンバトルレボリューション』の制作でした。前述の通り、クリーチャーズではNINTENDO64ソフト『ポケモンスタジアム』からポケモンCGを担当しており、その頃からの制作ノウハウを知っているメンバーが必要ということで、ディレクションを担当することになりました。
+  lang: ja
+  year: 2025
+  date: '2025-12-06'
+  publication: Creatures 招聘网站「役员访谈」
+  title: Creatures 招聘网站：董事氏家淳子谈宝可梦 CG 工作室
+  score: 4
+  why: 具体说明她成为总监的契机作品，并串起Creatures从《宝可梦竞技场》起积累宝可梦CG经验的历史。
+  more: 同篇第8句提到NINTENDO64《宝可梦竞技场》、任天堂GameCube《宝可梦圆形竞技场》。
+  people:
+  - 氏家淳子
+  works: []
+  links:
+  - type: work
+    name: 宝可梦圆形竞技场
+  - type: work
+    name: 宝可梦竞技场
+  - type: term
+    name: 任天堂
+- id: 2025-12-06-interview-creatures-recruit-director#20
+  post: 2025-12-06-interview-creatures-recruit-director
+  segment: 20
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 氏家：因长年做宝可梦CG，担任《大侦探皮卡丘》CG总监
+  zh: 此外，由于长年参与宝可梦CG的制作，我还得以担任好莱坞电影《大侦探皮卡丘》的宝可梦CG总监。
+  ja: また、ポケモンCGに長年携わってきたことで、ハリウッド映画『名探偵ピカチュウ』のポケモンCGスーパーバイザーも担当することができました。
+  lang: ja
+  year: 2025
+  date: '2025-12-06'
+  publication: Creatures 招聘网站「役员访谈」
+  title: Creatures 招聘网站：董事氏家淳子谈宝可梦 CG 工作室
+  score: 4
+  why: 把Creatures的宝可梦CG经验延伸到好莱坞电影项目，是个人经历中具体且少见的一笔。
+  more: 同篇第24句提到与Google的合作及好莱坞电影化等意想不到的工作。
+  people:
+  - 氏家淳子
+  works: []
+  links:
+  - type: term
+    name: 好莱坞
+- id: 2025-12-06-interview-creatures-recruit-sound-creator#4
+  post: 2025-12-06-interview-creatures-recruit-sound-creator
+  segment: 4
+  speaker: null
+  reported: true
+  kind: quote
+  hook: M.H.：在SNS上看到「招募未来的声音创作者！」就决定应聘
+  zh: 我与Creatures的相遇，是在求职时于SNS上看到的“招募未来的声音创作者！”广告。居然能参与那个宝可梦！那一瞬间我就决定应聘了。
+  ja: クリーチャーズに出会ったのは、就活時にSNSで見た「未来のサウンドクリエイター募集！」という広告。あのポケモンに関われるなんて！とその瞬間に応募を決意しました。
+  lang: ja
+  year: 2025
+  date: '2025-12-06'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：声音创作者 M.H. 谈《宝可梦集换式卡牌游戏 Pocket》的声音
+  score: 4
+  why: 说明这位声音创作者与Creatures相遇的契机，是求职时在SNS上看到招聘广告。
+  more: 同一篇访谈里提到他目前负责《宝可梦集换式卡牌游戏 Pocket》部分BGM与音效的制作。
+  people: []
+  works:
+  - Pokémon TCG Pocket
+  links:
+  - type: work
+    name: 宝可梦集换式卡牌游戏
+- id: 2025-12-06-interview-creatures-recruit-sound-creator#10
+  post: 2025-12-06-interview-creatures-recruit-sound-creator
+  segment: 10
+  speaker: null
+  reported: true
+  kind: quote
+  hook: Creatures声音创作者的信条：「不是艺术家，而是创作者」
+  zh: Creatures 的声音创作者的信条是“不是艺术家，而是创作者”。对于一直想着“想做的不是让自己满足，而是让别人享受的音乐”的我来说，只有共鸣，能和怀有同样想法的人们一起做音乐让我觉得非常有魅力，甚至无法想象自己不在 Creatures 工作的未来。正因如此，当确定入职时我真的非常高兴。
+  ja: クリーチャーズのサウンドクリエイターのポリシーは、“アーティストではなく、クリエイターである”ということ。「自分の満足ではなく、誰かに楽しんでもらえる音楽をつくりたい」と思っていた私にとっては共感しかなく、同じ想いを持った方々と音楽づくりができることをとても魅力的に感じて、クリーチャーズで働いている未来しか想像できませんでした。だからこそ、入社が決まったときは本当に嬉しかったです。
+  lang: ja
+  year: 2025
+  date: '2025-12-06'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：声音创作者 M.H. 谈《宝可梦集换式卡牌游戏 Pocket》的声音
+  score: 4
+  why: 给出Creatures声音团队的工作定位，与M.H.「想让别人享受的音乐」的想法相呼应。
+  more: 后文提到声音制作从开发部门委托开始，团队内各自准备不同版本再互相打磨。
+  people: []
+  works:
+  - Pokémon TCG Pocket
+  links: []
+- id: 2025-12-09-interview-creatures-recruit-card-game-designer#11
+  post: 2025-12-09-interview-creatures-recruit-card-game-designer
+  segment: 11
+  speaker: null
+  reported: true
+  kind: question
+  hook: 宝可梦卡牌设计最难的是什么？
+  zh: 在考虑到至今已发售的庞大数量的宝可梦卡牌的同时设计游戏平衡，是宝可梦卡牌游戏设计上的难点。只把卡牌做强很简单，但一旦这么做，游戏平衡马上就会崩坏，作为卡牌游戏就变得不好玩了。在保持游戏平衡的同时追求并持续提供新的有趣之处，这一点我们很讲究。
+  ja: これまでに発売されている膨大な量のポケモンカードを踏まえながらゲームバランスを設計することは、ポケモンカードゲームのデザインの難しいポイントです。カードを強くするだけなら簡単ですが、それをやってしまうと、すぐにゲームバランスが崩れてしまい、カードゲームとして面白くなくなってしまいます。ゲームバランスを保ちつつ、新しい面白さを追求し、提供し続けていくことにはこだわりを持っています。
+  lang: ja
+  year: 2025
+  date: '2025-12-09'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力
+  score: 4
+  why: 指出在已发售庞大数量卡牌的前提下维持平衡是难点，并说明只做强卡会破坏平衡。
+  more: 访谈中另处提到他负责系列核心游玩设计与年度商品阵容。
+  people: []
+  works:
+  - 宝可梦集换式卡牌游戏
+  links: []
+- id: 2025-12-09-interview-creatures-recruit-card-illustration-production#6
+  post: 2025-12-09-interview-creatures-recruit-card-illustration-production
+  segment: 6
+  speaker: null
+  reported: true
+  kind: quote
+  hook: S.H.：2018年从动画制作跳槽到Creatures
+  zh: 在美术大学专攻油画，毕业后作为应届生进入动画制作公司。担任制作进行后，作为制作主任参与动画制作。当时，工作之余绘制的插画有机会被商品化，于是想正式投身创意领域转换职业方向，2018年跳槽到Creatures。
+  ja: 美術大学で油絵を専攻し、卒業後は新卒でアニメ制作会社に就職。制作進行を経て、制作デスクとしてアニメーション制作に携わる。当時、業務の傍らで描いていたイラストが商品化される機会などもあり、本腰を入れてクリエイティブ方面にキャリアチェンジしたいと考え、2018年、クリーチャーズに転職した。
+  lang: ja
+  year: 2025
+  date: '2025-12-09'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：插画制作进度管理 S.H. 谈宝可梦卡牌美术的使命
+  score: 4
+  why: 给出具体年份与职业路径：美术大学油画、动画制作进行、制作主任，再到插画总监。
+  more: 同篇提到入职时起就负责指导工作，可对照其创意自信的转变。
+  people: []
+  works:
+  - 宝可梦集换式卡牌游戏
+  links: []
+- id: 2025-12-09-interview-creatures-recruit-cg-character-modeler#11
+  post: 2025-12-09-interview-creatures-recruit-cg-character-modeler
+  segment: 11
+  speaker: null
+  reported: true
+  kind: quote
+  hook: S.H.：想吸收知识，将来做整体品质检查
+  zh: 说点题外话，公司内部的品质检查和公司外部的监修，都会为了让我的模型更像宝可梦而给出准确的建议。我认为，这是参与宝可梦的人们在堪称历史的漫长时间里，诚实而细致地积累起关于宝可梦的知识，才能做到的了不起的事。我自己也想吸收这些知识，将来能够进行整体的品质检查。
+  ja: 脱線しますが、社内のクオリティチェックや社外の監修は、私の制作したモデルがさらにポケモンらしくなるように的確なアドバイスをしてくれます。これはポケモンに関わってきた人たちが、歴史とも言える長い間、誠実に、丁寧にポケモンの知見を積み上げてきたからこそ成せるすごさだと思います。私自身、その知見を吸収して、いずれは全体的なクオリティチェックができるようになりたいと考えています。
+  lang: ja
+  year: 2025
+  date: '2025-12-09'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：角色模型师 S.H. 谈宝可梦建模
+  score: 4
+  why: 受访者把公司内外监修给出的准确建议，归因于参与宝可梦的人们长期积累的知识，并说出自己未来的目标。
+  more: 同一篇里第10句提到上司的一点建议就能让模型突然像宝可梦。
+  people: []
+  works: []
+  links: []
+- id: 2025-12-09-interview-creatures-recruit-cg-environment-artist#14
+  post: 2025-12-09-interview-creatures-recruit-cg-environment-artist
+  segment: 14
+  speaker: null
+  reported: true
+  kind: quote
+  hook: 背景首席艺术家：想用3D打印机做逼真动物可动手办
+  zh: 就我自己而言，或许是因为制作的是CG这种屏幕上的东西，想要制作现实中的立体物的欲望越来越强。最近3D打印机价格也在下降，我开始考虑差不多该买一台了。要说想用3D打印机做什么，果然还是宝可梦……虽然想这么说，但其实我想试着做逼真的动物可动手办（笑）。
+  ja: 私自身に関していうと、CGという画面上のものを制作しているためか、現実の立体物を作りたいという欲求が高まっています。最近では3Dプリンタが低価格になってきていることもあり、そろそろ購入しようかと考え始めているところです。3Dプリンタで作りたいのはやはりポケモン…と言いたいところですが、リアルな動物のアクションフィギュアを作ってみたいですね（笑）。
+  lang: ja
+  year: 2025
+  date: '2025-12-09'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：背景模型师 T.T. 谈《名侦探皮卡丘》的世界观
+  score: 4
+  why: 负责《名侦探皮卡丘》完结篇背景的首席艺术家，谈个人兴趣时透露想做的是逼真动物可动手办而非宝可梦，反映其写实背景取向。
+  more: 同一访谈中他提到此前职业经历大多是制作写实风格内容，而《名侦探皮卡丘》完结篇勇敢进军写实领域。
+  people: []
+  works: []
+  links:
+  - type: work
+    name: 名侦探皮卡丘
 - id: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy#16
   post: 2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy
   segment: 16
@@ -26187,6 +26898,111 @@ quotes:
   more: 社交网络上有人分享解灵感问题的手感，也有人晒出自己搭配的毛绒玩偶收藏。
   people: []
   works: []
+  links: []
+- id: 2026-02-15-interview-creatures-recruit-cg-animator#9
+  post: 2026-02-15-interview-creatures-recruit-cg-animator
+  segment: 9
+  speaker: null
+  reported: true
+  kind: quote
+  hook: I.K.：不是让它动，而是希望它像宝可梦自己在动
+  zh: 制作动画时最重要的是思考宝可梦的个性，为它配上最合适的动作。比如同样是“走路”这个动作，皮卡丘和怪力就完全不同。因此，一旦确定负责哪只宝可梦，就要从彻底加深理解开始。精确把握每只宝可梦的特征，从属性、栖息地等信息中展开想象。不是按动画师的意图去“让它动”，而是希望它看起来像是宝可梦基于自己的意志和情感在“自己动”。
+  ja: アニメーションをつくるうえで大切なことは、ポケモンの個性を考え、最適な動きを付けることです。たとえば、同じ「歩く」動作でも、ピカチュウとカイリキーではまったく異なります。このため、担当するポケモンが決まったら、とことん理解を深めるところから始めます。それぞれのポケモンの特徴を精密に捉え、タイプやすみかなどからイメージを膨らませる。アニメーターの意図で「動かす」のではなく、ポケモンが自らの意思や感情をもとに「動いている」ように見せたいんです。
+  lang: ja
+  year: 2026
+  date: '2026-02-15'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：动画师 I.K. 谈宝可梦的动作表现
+  score: 4
+  why: 点出宝可梦动画的核心方法：先彻底理解每只宝可梦的个性，再决定动作，皮卡丘和怪力的走路完全不同。
+  more: 同篇第20句提到动画业务很多时候拥有很大的裁量权。
+  people: []
+  works:
+  - 宝可梦巡护员
+  links: []
+- id: 2026-02-15-interview-creatures-recruit-cg-animator#10
+  post: 2026-02-15-interview-creatures-recruit-cg-animator
+  segment: 10
+  speaker: null
+  reported: true
+  kind: quote
+  hook: I.K.：审核人夸「这个不错」，高兴的是目标被准确传达
+  zh: 至今让我最有成就感的一次，是负责某只宝可梦的时候。为了充分展现那只宝可梦的魅力，我一边收集信息一边琢磨点子，为它配上了能表现“可爱”与“滑稽”的动作。结果负责审核的人夸我说“这个不错”。让我高兴的不只是品质本身得到评价，还有我自己带着目标去做这件事被准确地传达了出去。今后我经手动画的宝可梦会怎样被世人接受，让我非常期待。
+  ja: これまでで、もっとも手応えのあったのは、あるポケモンを担当したときのこと。ポケモンの魅力をうまく引き出したくて、情報収集しながらアイデアを練り、「愛らしさ」と「コミカルさ」を表現できるような動きを付けました。そうしたら、チェック担当の方が「これいいね」と褒めてくれたんです。クオリティそのものの評価だけでなく、自分なりに狙いを持ってつくったことが正しく伝わったことがうれしかったですね。これから自分がアニメーションを手がけたポケモンが世の中の人たちにどう受け止めてもらえるかワクワクしています。
+  lang: ja
+  year: 2026
+  date: '2026-02-15'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：动画师 I.K. 谈宝可梦的动作表现
+  score: 4
+  why: 具体讲了一次为某只宝可梦设计「可爱」与「滑稽」动作、被审核肯定的经历，说明成就感来自意图被理解而非仅品质评价。
+  more: 同篇第13句提到前辈的动画让他感到实力差距。
+  people: []
+  works:
+  - 宝可梦巡护员
+  links: []
+- id: 2026-02-15-interview-creatures-recruit-cg-animator#16
+  post: 2026-02-15-interview-creatures-recruit-cg-animator
+  segment: 16
+  speaker: null
+  reported: true
+  kind: quote
+  hook: I.K.：第一次有人买给我的游戏是《宝可梦巡护员》
+  zh: 第一次有人买给我的游戏，是Creatures负责开发的《宝可梦巡护员》。被它的世界观吸引、沉迷其中的记忆至今仍清晰地浮现。我正怀着想作为创作者把这样的体验传递出去的念头在工作。
+  ja: 私が初めて買ってもらったゲームは、クリーチャーズが開発を手がけた『ポケモンレンジャー』でした。世界観に引き込まれ、夢中になって遊んだ記憶はいまでも鮮明によみがえります。そんな体験を、つくり手として届けたいという想いを持って働いています。
+  lang: ja
+  year: 2026
+  date: '2026-02-15'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：动画师 I.K. 谈宝可梦的动作表现
+  score: 5
+  why: 动画师自述入行原点，第一款被赠予的游戏正是Creatures开发的《宝可梦巡护员》，把个人经历与公司作品直接连上。
+  more: 同篇第6句提到他桌上的伙伴是小小象。
+  people: []
+  works:
+  - 宝可梦巡护员
+  links: []
+- id: 2026-02-15-interview-creatures-recruit-pokepoke-product-planner#13
+  post: 2026-02-15-interview-creatures-recruit-pokepoke-product-planner
+  segment: 13
+  speaker: null
+  reported: true
+  kind: quote
+  hook: F.Y.：将来想以商品总监身份面对Pocket
+  zh: 我们满怀自信推出的《宝可梦集换式卡牌游戏 Pocket》，其用户不仅限于日本国内，还扩展到了全世界。日前在美国举办的宝可梦世界锦标赛上，作为周边活动举行了《宝可梦集换式卡牌游戏 Pocket》的对战活动。我为了考察前往当地，看到会场人头攒动，切实感受到“它确实传达到了海外的人那里”，非常高兴。《宝可梦集换式卡牌游戏 Pocket》今后也会继续进化。我希望能策划出更多让更多人享受的体验，并且将来以决定商品整体方针的商品总监身份来面对《宝可梦集换式卡牌游戏 Pocket》。
+  ja: そんな自信を持ってお届けしてきた『ポケポケ』のユーザーは国内にとどまらず、世界中に広がっています。先日アメリカで開催されたポケモンの世界大会では、サイドイベントとしてポケポケの対戦イベントが行われました。視察のため現地へ行ったところ会場は多くの人でにぎわっており、「海外の人にもちゃんと届いているんだ」と実感がわいて、うれしかったですね。『ポケポケ』は、これからも進化を続けます。さらに多くの人に楽しんでもらえるような体験をたくさん仕掛け、そして、将来的には商品全体の方針を決める立場である商品ディレクターとして『ポケポケ』に向き合いたいです。
+  lang: ja
+  year: 2026
+  date: '2026-02-15'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：商品企划 F.Y. 谈《宝可梦集换式卡牌游戏 Pocket》
+  score: 4
+  why: 受访者明确说出未来职位目标，并提到在美国宝可梦世界锦标赛上亲眼看到Pocket对战活动的人潮。
+  more: 同一访谈中F.Y.现职为商品企划／副经理，2021年入职。
+  people: []
+  works:
+  - Pokémon TCG Pocket
+  links: []
+- id: 2026-02-15-interview-creatures-recruit-pokepoke-product-planner#30
+  post: 2026-02-15-interview-creatures-recruit-pokepoke-product-planner
+  segment: 30
+  speaker: null
+  reported: true
+  kind: quote
+  hook: F.Y.：在蒙古包寄宿了大约两周
+  zh: 平时的休息日，我大多会去看电影。黄金周、盂兰盆节假期、年末年初会去海外旅行。最近印象最深的国家是蒙古。我在蒙古包（游牧民的帐篷）里寄宿了大约两周。
+  ja: 普段の休日は、映画鑑賞をすることが多いです。ゴールデンウィーク、お盆休暇、年末年始には海外旅行をしています。直近で、印象に残っている国はモンゴル。2週間ほどゲル（遊牧民のテント）にホームステイしました。
+  lang: ja
+  year: 2026
+  date: '2026-02-15'
+  publication: Creatures 招聘网站「社员访谈」
+  title: Creatures 招聘网站：商品企划 F.Y. 谈《宝可梦集换式卡牌游戏 Pocket》
+  score: 4
+  why: 受访者谈到休息日海外旅行，给出具体国家与时长，是个人生活细节中少见的数字。
+  more: 同一访谈中F.Y.提到喜欢海外旅行，每次去市区会顺路去玩具卖场或卡牌店。
+  people: []
+  works:
+  - Pokémon TCG Pocket
   links: []
 - id: 2026-02-16-interview-famitsu-2026-pokopia#20
   post: 2026-02-16-interview-famitsu-2026-pokopia
@@ -27142,4 +27958,73 @@ quotes:
   - 赤木达也
   works:
   - Pokémon LEGENDS Z-A
+  links: []
+- id: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority#100
+  post: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority
+  segment: 100
+  speaker: 多和田吏
+  reported: false
+  kind: quote
+  hook: 多和田吏：第一个重大突破是街机游戏音乐
+  zh: '我的第一个重大突破是街机游戏音乐。我为三款游戏创作了音乐：Plus Alpha、Rod Land 和 E.D.F.: Earth Defense Force，使用的是街机基板内置的 FM 音源芯片。用 8 声部 FM 音源演奏的音乐在公司内部和用户中都大受欢迎，促成了系列 CD 的发行。那标志着我作曲家生涯的第一个重大进步。'
+  ja: 'My first big breakthrough was in arcade game music. I composed the music for three titles: Plus Alpha, Rod Land, and E.D.F.: Earth Defense Force using the FM sound source chip built into the arcade game boards. The music, played with the 8-voice FM sound source, was a huge hit both within the company and with users, leading to a series of CD releases. That marked the first big step up in my career'
+  lang: en
+  year: 2026
+  date: '2026-09-21'
+  publication: Couch Co-op with Dr. Pez
+  title: Dr. Pez 2026：作曲家多和田吏访谈
+  score: 5
+  why: 他明确把街机音乐列为作曲家生涯的第一个重大进步，并点出三款作品与8声部FM音源。
+  more: 后文提到《伊哈托夫物语》和椙山浩一邀请他参与《勇者斗恶龙》。
+  people:
+  - 多和田吏
+  works:
+  - 宝可梦 圆形竞技场
+  - 宝可梦 XD 暗之旋风 黑暗洛奇亚
+  links: []
+- id: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority#107
+  post: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority
+  segment: 107
+  speaker: 多和田吏
+  reported: false
+  kind: quote
+  hook: 椙山浩一在东京电玩展听到后邀他参与《勇者斗恶龙》
+  zh: 那首音乐反响极好，《勇者斗恶龙》的作曲家椙山浩一恰好在东京电玩展现场听到了它，于是邀请我一起参与《勇者斗恶龙》的制作——那对我来说是一部关键作品。
+  ja: That music was so well-received that Koichi Sugiyama, the composer for Dragon Quest, happened to hear it live at the Tokyo Game Show and invited me to work together on Dragon Quest—it was a pivotal title for me.
+  lang: en
+  year: 2026
+  date: '2026-09-21'
+  publication: Couch Co-op with Dr. Pez
+  title: Dr. Pez 2026：作曲家多和田吏访谈
+  score: 5
+  why: 具体披露了从《伊哈托夫物语》到《勇者斗恶龙》的关键转折和场合。
+  more: 前文第100行讲街机音乐是第一个重大突破。
+  people:
+  - 多和田吏
+  works:
+  - 宝可梦 圆形竞技场
+  - 宝可梦 XD 暗之旋风 黑暗洛奇亚
+  links: []
+- id: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority#152
+  post: 2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority
+  segment: 152
+  speaker: 多和田吏
+  reported: false
+  kind: quote
+  hook: 多和田吏：发售前约一周吉他音轨故障越来越严重
+  zh: 然而，有一件事特别突出：在发售前大约一周，吉他音轨出现了故障——随着时间推移越来越严重，最终整个听起来一团糟，所以我自然有点慌了。
+  ja: 'There was one particular incident that stands out, however: around a week before release, the guitar tracks ended up glitching out—it was getting worse over time, and the whole thing eventually sounded like a big mess, so naturally I grew a bit panicked.'
+  lang: en
+  year: 2026
+  date: '2026-09-21'
+  publication: Couch Co-op with Dr. Pez
+  title: Dr. Pez 2026：作曲家多和田吏访谈
+  score: 4
+  why: 《宝可梦圆形竞技场》开发末期出现的具体事故，说明当时音频调试的风险。
+  more: 第144行还提到声音引擎故障时有人问他音乐是否没问题。
+  people:
+  - 多和田吏
+  works:
+  - 宝可梦 圆形竞技场
+  - 宝可梦 XD 暗之旋风 黑暗洛奇亚
   links: []

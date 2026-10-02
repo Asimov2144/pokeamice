@@ -1,0 +1,219 @@
+{
+ "id": "interview-4gamer-pokken-tournament-harada-hoshino",
+ "stem": "2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 92
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     8,
+     30,
+     37,
+     64,
+     67
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "沙奈朵",
+    "ndex": 282,
+    "seg": [
+     30
+    ],
+    "as": [
+     "沙奈朵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "路卡利欧",
+    "ndex": 448,
+    "seg": [
+     30
+    ],
+    "as": [
+     "路卡利欧"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水君",
+    "ndex": 245,
+    "seg": [
+     30
+    ],
+    "as": [
+     "水君"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "怪力",
+    "ndex": 68,
+    "seg": [
+     30
+    ],
+    "as": [
+     "怪力"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可拳 POKKÉN TOURNAMENT",
+    "slug": null,
+    "seg": [
+     0,
+     3,
+     11,
+     89
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "铁拳7",
+    "slug": null,
+    "seg": [
+     41
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马力欧卡丁车",
+    "slug": null,
+    "seg": [
+     45
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "灵魂能力",
+    "slug": null,
+    "seg": [
+     71
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "灵魂能力V",
+    "slug": null,
+    "seg": [
+     73
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "4Gamer",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     41,
+     43,
+     46,
+     50,
+     52,
+     56
+    ]
+   },
+   {
+    "name": "原田胜弘",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     42,
+     45,
+     47,
+     51,
+     54,
+     58
+    ]
+   },
+   {
+    "name": "星野正昭",
+    "slug": "hoshino-masaaki",
+    "role": "speaker",
+    "seg": [
+     44,
+     48,
+     53,
+     57,
+     59,
+     60
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "椿姬彩菜",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "神奈川",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     41
+    ],
+    "what": "场测连线地点",
+    "via": "llm"
+   },
+   {
+    "name": "大阪",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     41
+    ],
+    "what": "场测连线地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "JAEPO2015于2015年2月13日和14日举办，万代南梦宫展台展出该作街机版。",
+   "anchor": 1
+  },
+  {
+   "seg": 30,
+   "text": "该版本可使用路卡利欧、皮卡丘、水君、怪力、沙奈朵5只宝可梦。",
+   "anchor": 31
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

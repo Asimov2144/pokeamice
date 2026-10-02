@@ -1,0 +1,300 @@
+{
+ "id": "interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
+ "stem": "2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 319
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "不可思议的迷宫",
+    "slug": null,
+    "seg": [
+     0,
+     1,
+     5,
+     11,
+     12,
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦不可思议的迷宫",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "弟切草",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Rogue",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "特鲁内克的大冒险",
+    "slug": null,
+    "seg": [
+     53
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     63
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "NetHack",
+    "slug": null,
+    "seg": [
+     72
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "风来的西林2 鬼袭来！西林城！",
+    "slug": null,
+    "seg": [
+     167
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "火焰之纹章",
+    "slug": null,
+    "seg": [
+     212
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "阿斯卡见参",
+    "slug": null,
+    "seg": [
+     260
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "不可思议的迷宫 风来西林外传 女剑士阿斯卡见参！",
+    "slug": null,
+    "seg": [
+     260
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     307
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     307
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "電ファミ",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     11,
+     15,
+     23,
+     27,
+     34,
+     37
+    ]
+   },
+   {
+    "name": "中村光一",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     14,
+     16,
+     24,
+     28,
+     29
+    ]
+   },
+   {
+    "name": "长畑成一郎",
+    "slug": "nagahata-seiichiro",
+    "role": "speaker",
+    "seg": [
+     13,
+     18,
+     20,
+     21,
+     25,
+     26
+    ]
+   },
+   {
+    "name": "编者注",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     17,
+     19,
+     213,
+     260
+    ]
+   },
+   {
+    "name": "增田雄介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "堀井",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     131
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "鸟山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     147
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐久间晃",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     182
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "襟川阳一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     305
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "涩泽光",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     305
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "襟川惠子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     305
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "远藤雅伸",
+    "slug": "endo-masanobu",
+    "role": "mentioned",
+    "seg": [
+     307
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     307
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     307
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "东银座",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     288
+    ],
+    "what": "长畑说带企划来的地方",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 16,
+   "text": "长畑在经营企划室提出无论如何都想做《Rogue》",
+   "anchor": 17
+  },
+  {
+   "seg": 53,
+   "text": "首作《特鲁内克》最初由其他工作人员调整数值，进展不顺",
+   "anchor": 54
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

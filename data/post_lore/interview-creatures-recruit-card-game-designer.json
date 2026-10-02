@@ -1,0 +1,66 @@
+{
+ "id": "interview-creatures-recruit-card-game-designer",
+ "stem": "2025-12-09-interview-creatures-recruit-card-game-designer",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 15
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     1
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "K.K.",
+    "slug": "k-k",
+    "role": "mentioned",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "游戏设计要决定卡牌上宝可梦的HP和招式等数据",
+   "anchor": 2
+  },
+  {
+   "seg": 5,
+   "text": "2013年作为兼职开始工作，2015年被录用为正式员工",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

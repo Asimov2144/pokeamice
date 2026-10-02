@@ -1,77 +1,76 @@
 {
- "key": "99ccb86cdc007236",
+ "key": "81c3686ce36f0747",
  "answer": {
-  "summary": "岩田聪在《宝可梦》系列中长期担任总监、制作人与执行制作人，并参与过程序与美术工作。他多次以任天堂「社长问」主持人身份，与石原恒和、森本茂树、增田顺一、杉森建等主创对谈，梳理系列从《红·绿》到《X·Y》的开发脉络 [1][3][11]。他关注硬件与软件的联动，曾推动在《火红·叶绿》中引入无线适配器，并认为制作过程中的「疯狂」尝试为后续奠定基础 [2][8]。他强调《宝可梦》以「连接」为核心，认为与周围人产生连接后游戏会越来越有趣 [4]。他也参与3D建模与资产管理工作流的搭建，并关注让每只宝可梦都得到同等用心的制作方式 [5][12]。",
+  "summary": "岩田聪在宝可梦相关作品中长期担任总监、制作人与执行制作人，并亲自参与程序与解析工作。他曾阅读《红·绿》程序源代码，向任天堂负责部门提出海外版本地化的实现建议 [2]。在《金·银》开发遇到困难时，他提供了压缩工具 [2]。他参与解析《红·绿》的对战逻辑，用于NINTENDO 64上的《宝可梦竞技场》 [2]。在访谈中，他多以提问与追问的方式，围绕新作如何改变与如何保持《宝可梦》本色展开讨论 [3][4]。",
   "expertise": [
-   "总监制作",
-   "执行制作",
-   "硬件联动",
-   "无线通信",
-   "3D建模",
-   "跨媒体连接"
+   "程序开发",
+   "本地化",
+   "压缩工具",
+   "对战逻辑解析",
+   "制作统筹"
   ],
   "citations": [
    {
-    "n": 1,
-    "detail": "他称自己与石原恒和多年来共同创作，并在《红·绿》首次出货量决定时就在石原身旁。"
-   },
-   {
     "n": 2,
-    "detail": "他回忆在《火红·叶绿》时把刚做好的无线适配器拿去给石原恒和看。"
+    "detail": "阅读《红·绿》源代码并提出海外版本地化建议，为《金·银》提供压缩工具，解析对战逻辑用于《宝可梦竞技场》。"
    },
    {
     "n": 3,
-    "detail": "他向杉森建提问，确认其职责是在破坏《宝可梦》惯例的同时调整到不失本色。"
+    "detail": "就《黑·白》以纽约为原型、新地区与完全新作程度向增田、杉森提问。"
    },
    {
     "n": 4,
-    "detail": "他回忆石原恒和说过要彻底重视与各种事物的「连接」，并认为《黑·白》是其极致形态。"
+    "detail": "追问《黑·白》中哪些部分不能改变，以及“从三只中选择”等传统开场。"
+   },
+   {
+    "n": 1,
+    "detail": "说明让ほぼ日介绍Jack团队的原因，讲述《宝可梦随乐拍》三年半的开发过程。"
    },
    {
     "n": 5,
-    "detail": "他称在N64时代开发《宝可梦竞技场》和《宝可梦随乐拍》时与石原携手搭建3D建模与资产管理工作流。"
+    "detail": "谈《宝可梦打字DS》企划，称石原是最初商量“想用键盘做这样的事情”的人。"
    },
    {
     "n": 6,
-    "detail": "他在《超级宝可梦乱战》访谈中就发售日延期向玩家与相关各方致歉。"
+    "detail": "询问《宝可梦立体图鉴BW》AR功能是否在企划阶段确定，并谈及自制AR标记。"
    },
    {
     "n": 7,
-    "detail": "他提到任天堂社内传闻《超级宝可梦乱战》在马力欧俱乐部测试员群体中口碑绝赞。"
+    "detail": "询问《超级宝可梦乱战》在3DS上作为实体包装作品推出的契机。"
    },
    {
     "n": 8,
-    "detail": "他回忆在《火红·叶绿》开发途中提议引入无线适配器，并称「疯狂的挑战」是《宝可梦》的重要特质。"
+    "detail": "就《黑2·白2》首次“两部续作”与“两年之后”的设定向石原、增田提问。"
    },
    {
     "n": 9,
-    "detail": "他提出《宝可梦》玩家入口宽广又有深度，游玩目标自由度很大。"
+    "detail": "询问以“两年后”为设定时，如何平衡初次游玩与长期游玩玩家的导入说明。"
    },
    {
     "n": 10,
-    "detail": "他称从制作《勇者斗恶龙》时起就感受到Chunsoft的特色是「系统上彻底的亲切」。"
+    "detail": "向富江询问迷宫RPG剧本如何在玩家体验不固定的前提下写作。"
    },
    {
     "n": 11,
-    "detail": "他介绍《X·Y》访谈以文章与影像结合的「动态社长问」新形式呈现，并提及连载已200多回。"
+    "detail": "谈《X·Y》七国语言同步与全球同日发售，称最初听到计划时也曾反问。"
    },
    {
     "n": 12,
-    "detail": "他询问「宝可友友乐」名称含义，并确认其与游戏正篇紧密相连。"
+    "detail": "询问“宝可友友乐”名称含义，以及是否配合每只宝可梦分别制作。"
    }
   ]
  },
  "posts": [
-  "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew",
-  "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+  "1999-05-13-interview-hobonichi-1999-jack-and-beans-snap",
+  "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
   "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world",
-  "2010-09-10-interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
-  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
-  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
-  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
-  "2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
+  "2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
+  "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+  "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
   "2012-06-15-interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures",
-  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
   "2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
   "2013-10-10-interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution"
  ]

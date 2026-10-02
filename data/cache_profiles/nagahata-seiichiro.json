@@ -1,30 +1,34 @@
 {
- "key": "c46b8ea7df8477c6",
+ "key": "000de189238b0b17",
  "answer": {
-  "summary": "长畑成一郎在《宝可梦不可思议迷宫》系列中负责游戏整体企划与总监工作[1]。他参与从GBA到DS、再到3DS的平台切换与设备功能运用，包括AR「玛格纳之门」和陀螺仪传感器小游戏[2]。其方法是在可实时修改的开发环境中先做出原型，再根据员工游玩反馈调整难度[4]。他认为剧本与像素绘图是把玩家引入迷宫机制的关键[1]，并关注难度平衡与玩家对硬派玩法的接受度变化[3]。",
+  "summary": "长畑成一郎在《宝可梦不可思议迷宫》系列中负责整体企划与总监工作，并参与从GBA到DS、3DS的平台切换与设备功能运用[1][2]。他重视剧本与像素绘图对引导玩家进入迷宫机制的作用，认为富江的剧本和像素绘图是作品被接受的关键[1]。在开发方法上，他主张先按想法做出原型，再根据员工游玩反馈实时调整难度，并搭建能实时修改的开发环境[4]。他关注Rogue类游戏的难度平衡，认为增加选项可以缓和单一路线带来的卡关问题[3]。他自述与中村光一在同一所大学迷上《Rogue》，进入Chunsoft后第一个提议将其做在家用机上[5]。",
   "expertise": [
    "整体企划",
-   "游戏总监",
-   "迷宫机制",
-   "难度平衡",
+   "总监",
+   "迷宫RPG",
+   "难度调整",
    "设备功能运用"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "表示自己继续负责整体企划与总监，并称富江的剧本与像素绘图是把玩家引入迷宫的关键。"
+    "detail": "自述继续负责整体企划与总监，并称富江剧本与像素绘图是作品被接受的关键。"
    },
    {
     "n": 2,
-    "detail": "谈到第二作从GBA基础切换到DS基础制作，并称想用尽3DS所有设备。"
+    "detail": "自述第二作从GBA切换到DS，第三作用尽3DS设备，AR圆环由圆形物体生成迷宫。"
    },
    {
     "n": 3,
-    "detail": "认为游戏像装满各种设备的玩具箱，并称能灵活接纳每位玩家的玩法。"
+    "detail": "自述游戏因玩家不同玩法大相径庭，增加选项可缓和单一路线导致的卡关。"
    },
    {
     "n": 4,
-    "detail": "称在牢记可实时修改的开发环境前提下推进，并每天根据员工反馈调整难度。"
+    "detail": "自述先按想法做出原型，再根据员工游玩反馈实时调整难度，并搭建可实时修改的开发环境。"
+   },
+   {
+    "n": 5,
+    "detail": "自述与中村光一在同一所大学迷上《Rogue》，进入Chunsoft后第一个提议做家用机版。"
    }
   ]
  },
@@ -32,6 +36,7 @@
   "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
   "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
   "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
-  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers"
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+  "2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata"
  ]
 }

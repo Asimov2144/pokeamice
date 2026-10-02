@@ -1,0 +1,383 @@
+{
+ "id": "interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority",
+ "stem": "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 197
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "洛奇亚",
+    "ndex": 249,
+    "seg": [
+     116,
+     167,
+     171
+    ],
+    "as": [
+     "洛奇亚"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 圆形竞技场",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 XD 暗之旋风 黑暗洛奇亚",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "暗影团手下战斗",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Druid",
+    "slug": null,
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Plus Alpha",
+    "slug": null,
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Rod Land",
+    "slug": null,
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "E.D.F.: Earth Defense Force",
+    "slug": null,
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伊哈托夫物语",
+    "slug": null,
+    "seg": [
+     100
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦XD 暗之旋风黑暗洛奇亚",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦战斗革命",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦特罗泽",
+    "slug": null,
+    "seg": [
+     116
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "黄铁镇",
+    "slug": null,
+    "seg": [
+     122
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Outskirt Stand",
+    "slug": null,
+    "seg": [
+     133
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Miror B. Battle",
+    "slug": null,
+    "seg": [
+     172
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Living on a Prayer",
+    "slug": null,
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "第一钢琴协奏曲",
+    "slug": null,
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "多和田吏",
+    "slug": "tawada-tsukasa",
+    "role": "speaker",
+    "seg": [
+     22,
+     24,
+     25,
+     29,
+     31,
+     32
+    ]
+   },
+   {
+    "name": "Jonathan Parecki",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Dr. Pez",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "椙山浩一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     106
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "巴赫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     35
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "贝多芬",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "肖邦",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "李斯特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     47
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "拉赫玛尼诺夫",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     50
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "柴可夫斯基",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "邦·乔维",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     91
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "莫斯科",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     54
+    ],
+    "what": "高中考虑留学地",
+    "via": "llm"
+   },
+   {
+    "name": "东京电玩展",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     106
+    ],
+    "what": "椙山浩一听到音乐处",
+    "via": "llm"
+   },
+   {
+    "name": "亚利桑那",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     129
+    ],
+    "what": "团队提出的抽象意象",
+    "via": "llm"
+   },
+   {
+    "name": "黄铁镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     122
+    ],
+    "what": "圆形竞技场城镇",
+    "via": "llm"
+   },
+   {
+    "name": "Outskirt Stand",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     133
+    ],
+    "what": "沙漠加油站曲目",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "录音准备地点",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "多和田吏创作跨度可追溯至20世纪80年代末",
+   "anchor": 2
+  },
+  {
+   "seg": 6,
+   "text": "《圆形竞技场》世界被描述为犯罪横行、阴暗破败",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

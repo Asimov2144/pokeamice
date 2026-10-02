@@ -1,0 +1,217 @@
+{
+ "id": "interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard",
+ "stem": "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard",
+ "rev": 1,
+ "built": "2026-10-02",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 153
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦打字DS",
+    "slug": "learn-with-pokemon-typing-adventure",
+    "seg": [
+     1,
+     36,
+     74,
+     76,
+     77,
+     96
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "战斗与获取！宝可梦打字DS",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "走一走就明白 生活节奏DS",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     82
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     152
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦特罗泽",
+    "slug": null,
+    "seg": [
+     152
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦战斗革命",
+    "slug": null,
+    "seg": [
+     152
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "岩田聪",
+    "slug": "iwata-satoru",
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     10,
+     16,
+     18,
+     21
+    ]
+   },
+   {
+    "name": "一同",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     151
+    ]
+   },
+   {
+    "name": "桑原",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     6,
+     12,
+     22,
+     24,
+     26,
+     28
+    ]
+   },
+   {
+    "name": "福元",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     11,
+     13,
+     36,
+     38,
+     44
+    ]
+   },
+   {
+    "name": "太田",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     14,
+     17,
+     19,
+     25,
+     74,
+     76
+    ]
+   },
+   {
+    "name": "编者注",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     20,
+     34,
+     77,
+     82,
+     152
+    ]
+   },
+   {
+    "name": "丸山",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     74
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石原",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     76
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 30,
+   "text": "桑原称最先考虑的是怎么和DS连接，曾考虑有线方式",
+   "anchor": 31
+  },
+  {
+   "seg": 48,
+   "text": "桑原称改变规则，缩小基板四角规定不能安装元件的间隙",
+   "anchor": 49
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "键盘是乐器，也是地图",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana/",
+   "why": "同为2011-04-21社长问，岩田聪访谈，谈宝可梦打字DS键盘"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}
