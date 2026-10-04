@@ -248,6 +248,7 @@ def cmd_portraits():
 COMMONS = {
     "约翰·汉克": "File:John Hanke by Gage Skidmore.jpg",
     "首藤刚志": "File:Takeshinoshasin.JPG",
+    "中川翔子": "File:Rogue One- A Star Wars Story Japan Premiere Red Carpet- Nakagawa Shoko (35629525582).jpg",  # Wikidata Q685028 的 P18 之一
 }
 
 

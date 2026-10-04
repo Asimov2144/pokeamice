@@ -1,0 +1,44 @@
+# 没有照片的人物的社交媒体头像——只用作分享图（og:image，见 _includes/page-image.html），不算照片，
+# 不进 people.yml 的 avatar。只收能确认是本人的账号：账号简介写到宝可梦 / GAME FREAK，或 artofpkm 画师页直接链到它。
+# 头像取 X 的 400×400 版存到 assets/img/people/social/，2026-10-04 取。同名而对不上的（竹 @takegarou 等）不收。
+
+ariga-hitoshi:
+  avatar: /assets/img/people/social/ariga-hitoshi.jpg
+  account: https://x.com/ariga_megamix
+  checked: "简介写「ポケモン製作のお手伝い」"
+  found_via: "artofpkm 画师页 + Wikidata Q11516671"
+mizutani-megumi:
+  avatar: /assets/img/people/social/mizutani-megumi.jpg
+  account: https://x.com/megtany
+  checked: "artofpkm 画师页（241 张卡）直接链到该账号；简介写角色设计与插画"
+  found_via: "artofpkm 画师页"
+tsuruta-saya:
+  avatar: /assets/img/people/social/tsuruta-saya.jpg
+  account: https://x.com/saya_tsuruta
+  checked: "简介写「ポケモンカード・ピカチュウスイーツ・ポケふた」"
+  found_via: "artofpkm 画师页"
+mima-masafumi:
+  avatar: /assets/img/people/social/mima-masafumi.jpg
+  account: https://x.com/Sunma47
+  checked: "简介写音响监督、动画『ポケットモンスター』"
+  found_via: "Wikidata Q9098791"
+kitamura-kazuki-2:
+  avatar: /assets/img/people/social/kitamura-kazuki-2.jpg
+  account: https://x.com/CompAudio
+  checked: "简介写音频导演、系列作品含ポケモン"
+  found_via: "Wikidata Q102246593"
+habuka-yuri:
+  avatar: /assets/img/people/social/habuka-yuri.jpg
+  account: https://x.com/habukayuri
+  checked: "简介写「#PokemonSV メインテーマ」"
+  found_via: "Wikidata Q17220237"
+tomisawa-akihito:
+  avatar: /assets/img/people/social/tomisawa-akihito.jpg
+  account: https://x.com/hitoqui_ponko
+  checked: "简介履历写「ゲームフリーク」、关联词ポケモン"
+  found_via: "Wikidata Q11273358"
+higa-romanov:
+  avatar: /assets/img/people/social/higa-romanov.jpg
+  account: https://x.com/romanovh
+  checked: "简介写「ポケモン S・V」イベントコンテ"
+  found_via: "Wikidata Q11350684"

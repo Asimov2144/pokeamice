@@ -9,7 +9,8 @@ an absolute URL, "" when there is none) and pi_w / pi_h when the size is known.
   to be smaller than 50,000 pixels (a blog's emoticon, a 176×132 snapshot) is too small for a
   share card or a search result: a blog falls back to its collection tile, anything else to
   the site image.
-  A person page takes the person's photo, a credits page the game's icon.
+  A person page takes the person's photo, else their own social-media picture
+  (_data/people_social.yml); a credits page the game's icon.
   Everything else - and anything the rules above leave empty - takes site.og_image.
 {%- endcomment -%}
 {%- assign pi_src = "" -%}
@@ -40,8 +41,9 @@ an absolute URL, "" when there is none) and pi_w / pi_h when the size is known.
     {%- endif -%}
   {%- endif -%}
   {%- if pi_dim -%}{%- assign pi_w = pi_dim[0] -%}{%- assign pi_h = pi_dim[1] -%}{%- endif -%}
-{%- elsif page.layout == "person" and page.avatar -%}
-  {%- assign pi_src = page.avatar -%}
+{%- elsif page.layout == "person" -%}
+  {%- comment -%} no photograph: the person's own social-media picture, where one is known to be theirs (_data/people_social.yml) {%- endcomment -%}
+  {%- assign pi_src = page.avatar | default: site.data.people_social[page.slug].avatar | default: "" -%}
 {%- elsif page.layout == "credits-game" -%}
   {%- assign pi_game = site.data.credits_games | where: "slug", page.game | first -%}
   {%- assign pi_work = site.data.works | where: "name", pi_game.work | first -%}
