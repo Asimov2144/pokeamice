@@ -1,0 +1,51 @@
+{%- comment -%}
+The picture that stands for the current page when it is shared or read by a search engine
+(og:image, and the image of the Article in article-schema.html). Sets pi_src (a site path or
+an absolute URL, "" when there is none) and pi_w / pi_h when the size is known.
+
+  A post takes its card cover, picked the way entry-card.html does (image, featured_image,
+  a scan's first plate, a web interview's first picture, then cover-fallback.html: a blog's
+  first inline picture, the collection tile, the first interviewee's portrait). A cover known
+  to be smaller than 50,000 pixels (a blog's emoticon, a 176×132 snapshot) is too small for a
+  share card or a search result: a blog falls back to its collection tile, anything else to
+  the site image.
+  A person page takes the person's photo, a credits page the game's icon.
+  Everything else - and anything the rules above leave empty - takes site.og_image.
+{%- endcomment -%}
+{%- assign pi_src = "" -%}
+{%- assign pi_w = nil -%}
+{%- assign pi_h = nil -%}
+{%- if page.collection == "posts" -%}
+  {%- assign pi_src = page.image | default: page.featured_image | default: "" -%}
+  {%- if page.translation_segments -%}
+    {%- assign pi_plates = page.translation_segments | where: "type", "image" -%}
+    {%- if pi_plates.first.image -%}{%- assign pi_src = pi_plates.first.image -%}{%- endif -%}
+  {%- elsif pi_src == "" and page.parallel_items -%}
+    {%- assign pi_pics = page.parallel_items | where: "type", "image" -%}
+    {%- assign pi_pic = pi_pics.first.image | default: pi_pics.first.src | default: pi_pics.first.original | default: "" -%}
+    {%- if pi_pic != "" -%}{%- assign pi_src = pi_pic -%}{%- endif -%}
+  {%- endif -%}
+  {%- include cover-fallback.html post=page cover=pi_src -%}
+  {%- assign pi_src = cf_cover -%}
+  {%- assign pi_dim = cf_size | default: site.data.covers[pi_src] -%}
+  {%- if pi_dim -%}
+    {%- assign pi_area = pi_dim[0] | times: pi_dim[1] -%}
+    {%- if pi_area < 50000 -%}
+      {%- assign pi_dim = nil -%}
+      {%- if page.layout == "gamefreak-director" -%}{%- assign pi_src = "/assets/img/topics/director.jpg" -%}
+      {%- elsif page.layout == "gamefreak-legacy-blog" and page.gf_legacy_blog == "art" -%}{%- assign pi_src = "/assets/img/topics/art.jpg" -%}
+      {%- elsif page.layout == "gamefreak-legacy-blog" -%}{%- assign pi_src = "/assets/img/topics/staff.jpg" -%}
+      {%- else -%}{%- assign pi_src = "" -%}{%- endif -%}
+      {%- if pi_src != "" -%}{%- assign pi_dim = "336,192" | split: "," -%}{%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if pi_dim -%}{%- assign pi_w = pi_dim[0] -%}{%- assign pi_h = pi_dim[1] -%}{%- endif -%}
+{%- elsif page.layout == "person" and page.avatar -%}
+  {%- assign pi_src = page.avatar -%}
+{%- elsif page.layout == "credits-game" -%}
+  {%- assign pi_game = site.data.credits_games | where: "slug", page.game | first -%}
+  {%- assign pi_work = site.data.works | where: "name", pi_game.work | first -%}
+  {%- if pi_work == nil and pi_game.icon_work -%}{%- assign pi_work = site.data.works | where: "name", pi_game.icon_work | first -%}{%- endif -%}
+  {%- assign pi_src = pi_work.icon | default: pi_game.icon | default: "" -%}
+{%- endif -%}
+{%- if pi_src == "" -%}{%- assign pi_src = site.og_image | default: "" -%}{%- endif -%}
