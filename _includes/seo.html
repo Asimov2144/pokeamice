@@ -2,14 +2,22 @@
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
-{%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+{%- if page_title == site.title -%}
+  {%- comment -%} 首页（以及没写标题的页）不再拼成「Poke Amice Docs - Poke Amice Docs」，接上副标题 {%- endcomment -%}
+  {%- assign seo_title = site.title -%}
+  {%- if site.subtitle -%}{%- assign seo_title = seo_title | append: " " | append: title_separator | append: " " | append: site.subtitle -%}{%- endif -%}
+  {%- assign seo_title = seo_title | replace: '|', '&#124;' -%}
+{%- else -%}
+  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+{%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- assign seo_title  = seo_title  | markdownify | strip_html | strip_newlines | escape_once -%}
 
 {%- assign canonical_url = page.canonical_url | default: page.url | replace: "/index.html", "/" | absolute_url %}
 
-{%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
+{%- comment -%} 文章的一句话简介写在 summary 里；excerpt 是对象，default 不把空摘录当空，所以 summary 要排在它前面 {%- endcomment -%}
+{%- assign seo_description = page.description | default: page.summary | default: page.excerpt | default: site.description -%}
 {%- if seo_description -%}
   {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
 {%- endif -%}
