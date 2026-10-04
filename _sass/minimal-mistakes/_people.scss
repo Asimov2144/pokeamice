@@ -322,6 +322,45 @@
   }
 }
 
+/* the person's own accounts (_data/people_social.yml): neutral chips, set apart from the topic chips */
+.person__social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin: 10px 0 0;
+
+  ul { display: contents; margin: 0; padding: 0; list-style: none; }
+  li { margin: 0; }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid mix(#fff, $border-color, 10%);
+    border-radius: 999px;
+    padding: 2px 10px;
+    background: #fff;
+    color: $text-color;
+    font-size: 0.76rem;
+    text-decoration: none;
+
+    &:hover { border-color: $primary-color; color: $primary-color; }
+    i { font-size: 0.85em; color: $muted-text-color; }
+  }
+
+  small { color: $muted-text-color; font-size: 0.7rem; }
+}
+
+.person__social-label {
+  color: $muted-text-color;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+/* a social picture is the person's chosen icon, often a drawing: shown whole, on white */
+.person--profile .person__avatar--social { background: #fff; }
+
 /* portraits over the years */
 .person__photos {
   margin-bottom: 18px;

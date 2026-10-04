@@ -55,7 +55,8 @@ the memoir chapters tag as people, are left out of both.
           {% assign cr = site.data.credits_people[slug] %}
           <li>
             <a class="people__card" href="{{ '/people/' | append: slug | append: '/' | relative_url }}">
-              {% if e.avatar %}<img class="people__avatar" src="{{ e.avatar | relative_url }}" alt="" loading="lazy" width="56" height="56">{% else %}<span class="people__avatar people__avatar--blank" aria-hidden="true">{{ name | slice: 0, 1 }}</span>{% endif %}
+              {% assign e_av = e.avatar | default: site.data.people_social[slug].avatar %}
+              {% if e_av %}<img class="people__avatar" src="{{ e_av | relative_url }}" alt="" loading="lazy" width="56" height="56">{% else %}<span class="people__avatar people__avatar--blank" aria-hidden="true">{{ name | slice: 0, 1 }}</span>{% endif %}
               <span class="people__name">{{ name }}</span>
               {% if e.aliases %}<span class="people__alias">{{ e.aliases | last }}</span>{% endif %}
               <span class="people__meta">{{ n }} 篇 · {{ y1.name }}{% if y2.name != y1.name %}–{{ y2.name }}{% endif %}</span>
@@ -79,7 +80,8 @@ the memoir chapters tag as people, are left out of both.
           {% assign lg = site.data.credits_games | where: "slug", cr.latest_game | first %}
           <li data-text="{{ e.name }} {{ e.aliases | join: ' ' }} {{ cr.latest_role }}">
             <a href="{{ '/people/' | append: slug | append: '/' | relative_url }}">
-              {% if e.avatar %}<img src="{{ e.avatar | relative_url }}" alt="" loading="lazy" width="32" height="32">{% else %}<span class="people__roster-initial" aria-hidden="true">{{ e.name | slice: 0, 1 }}</span>{% endif %}
+              {% assign e_av = e.avatar | default: site.data.people_social[slug].avatar %}
+              {% if e_av %}<img src="{{ e_av | relative_url }}" alt="" loading="lazy" width="32" height="32">{% else %}<span class="people__roster-initial" aria-hidden="true">{{ e.name | slice: 0, 1 }}</span>{% endif %}
               <span class="people__roster-name">{{ e.name }}{% if e.aliases and e.aliases.size > 0 %}<small>{{ e.aliases | first }}{% if e.aliases.size > 1 %} · {{ e.aliases | last }}{% endif %}</small>{% endif %}</span>
               <b>{{ cr.core_games }}<small> 作</small></b>
               <span class="people__roster-span">{{ cr.first }}–{{ cr.last | slice: 2, 2 }}</span>

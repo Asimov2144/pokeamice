@@ -1,44 +1,290 @@
-# 没有照片的人物的社交媒体头像——只用作分享图（og:image，见 _includes/page-image.html），不算照片，
-# 不进 people.yml 的 avatar。只收能确认是本人的账号：账号简介写到宝可梦 / GAME FREAK，或 artofpkm 画师页直接链到它。
-# 头像取 X 的 400×400 版存到 assets/img/people/social/，2026-10-04 取。同名而对不上的（竹 @takegarou 等）不收。
+# 人物的社交账号：人物页「社交账号」一栏（_layouts/person.html）和没有照片时的头像、分享图（_includes/page-image.html）。
+# 只收能确认是本人的账号——简介写到宝可梦 / GAME FREAK / 本站资料里的同一份工作，或 artofpkm 画师页、同一 Wikidata 条目直接链到它；
+# 同名而对不上的不收（竹 @takegarou、渡辺哲也 @tetsuyashow 等）。official: true = 工作人员运营的官方账号。
+# avatar 只给没有照片的人：X 的 400×400 头像存在 assets/img/people/social/，多是插画或图标，不算照片、不进 people.yml。
+# 2026-10-04 核对。
 
 ariga-hitoshi:
+  accounts:
+    - site: X
+      handle: "ariga_megamix"
+      url: https://x.com/ariga_megamix
   avatar: /assets/img/people/social/ariga-hitoshi.jpg
-  account: https://x.com/ariga_megamix
-  checked: "简介写「ポケモン製作のお手伝い」"
+  artofpkm: https://www.artofpkm.com/illustrators/hitoshi-ariga
+  checked: "X 简介写「ポケモン製作のお手伝い」"
   found_via: "artofpkm 画师页 + Wikidata Q11516671"
+edagawa-takuto:
+  accounts:
+    - site: X
+      handle: "takeda2007"
+      url: https://x.com/takeda2007
+  checked: "X 简介写「ぽこ あ ポケモン(Director)」"
+  found_via: "Wikidata Q138313835"
+endo-masanobu:
+  accounts:
+    - site: X
+      handle: "evezoo"
+      url: https://x.com/evezoo
+    - site: Instagram
+      handle: "endohmasanobu"
+      url: https://www.instagram.com/endohmasanobu/
+  checked: "X 简介写游戏作家、东京工艺大学教授（XEVIOUS 作者）"
+  found_via: "Wikidata Q6782573"
+habuka-yuri:
+  accounts:
+    - site: X
+      handle: "habukayuri"
+      url: https://x.com/habukayuri
+  avatar: /assets/img/people/social/habuka-yuri.jpg
+  checked: "X 简介写「#PokemonSV メインテーマ」"
+  found_via: "Wikidata Q17220237"
+hayashibara-megumi:
+  accounts:
+    - site: X
+      handle: "MHayashibara_PR"
+      url: https://x.com/MHayashibara_PR
+  official: true
+  checked: "林原めぐみ 公式账号，简介说明由工作人员发布"
+  found_via: "Wikidata Q266670"
+higa-romanov:
+  accounts:
+    - site: X
+      handle: "romanovh"
+      url: https://x.com/romanovh
+  avatar: /assets/img/people/social/higa-romanov.jpg
+  checked: "X 简介写「ポケモン S・V」イベントコンテ"
+  found_via: "Wikidata Q11350684"
+ichinose-go:
+  accounts:
+    - site: X
+      handle: "GoIchinose"
+      url: https://x.com/GoIchinose
+  checked: "X 简介写 GameFreak 所属、ポケモン金銀〜SV 音乐"
+  found_via: "Wikidata Q11352362"
+inuyama-inuko:
+  accounts:
+    - site: X
+      handle: "inuko55inuyama"
+      url: https://x.com/inuko55inuyama
+  checked: "X 简介写「犬だけどニャース！」"
+  found_via: "Wikidata Q3800820"
+james-turner:
+  accounts:
+    - site: X
+      handle: "jamesturner_42"
+      url: https://x.com/jamesturner_42
+    - site: Instagram
+      handle: "jamesturner_42"
+      url: https://www.instagram.com/jamesturner_42/
+  artofpkm: https://www.artofpkm.com/illustrators/james-turner
+  checked: "X 简介写「Pokémon @ TPCi」"
+  found_via: "artofpkm 画师页 + Wikidata Q44784855"
+kageyama-shota:
+  accounts:
+    - site: X
+      handle: "shotakageyama"
+      url: https://x.com/shotakageyama
+  checked: "X 简介列 Pokémon / Sleep / BDSP / ORAS 等"
+  found_via: "Wikidata Q11514653"
+kimura-kaela:
+  accounts:
+    - site: X
+      handle: "kaela_staff"
+      url: https://x.com/kaela_staff
+    - site: Instagram
+      handle: "kaela_official"
+      url: https://www.instagram.com/kaela_official/
+  official: true
+  checked: "木村カエラ公式スタッフ账号"
+  found_via: "Wikidata Q1342823"
+kitamura-kazuki:
+  accounts:
+    - site: X
+      handle: "CompAudio"
+      url: https://x.com/CompAudio
+  checked: "本站资料写他以 CONNECT+ECHO 身份做宝可梦声音；X 简介即 CONNECT+ECHO 北村一樹"
+  found_via: "Wikidata Q102246593"
+kitamura-kazuki-2:
+  accounts:
+    - site: X
+      handle: "CompAudio"
+      url: https://x.com/CompAudio
+  avatar: /assets/img/people/social/kitamura-kazuki-2.jpg
+  checked: "X 简介写音频导演（CONNECT+ECHO）、系列作品含ポケモン；与 kitamura-kazuki 疑为同一人"
+  found_via: "Wikidata Q102246593"
+kobayashi-sachiko:
+  accounts:
+    - site: X
+      handle: "Sachiko_5884"
+      url: https://x.com/Sachiko_5884
+    - site: Instagram
+      handle: "megasachiko"
+      url: https://www.instagram.com/megasachiko/
+  checked: "显示名小林幸子、简介写歌手"
+  found_via: "Wikidata Q440472"
+kubo-masakazu:
+  accounts:
+    - site: X
+      handle: "Mskz_Kubo"
+      url: https://x.com/Mskz_Kubo
+  checked: "X 简介写电影与电视节目制作人，与本站资料（宝可梦影视执行制片）一致"
+  found_via: "Wikidata Q11369186"
+masuda-junichi:
+  accounts:
+    - site: X
+      handle: "Junichi_Masuda"
+      url: https://x.com/Junichi_Masuda
+    - site: Instagram
+      handle: "pokemon_masuda"
+      url: https://www.instagram.com/pokemon_masuda/
+  checked: "X 简介写ポケモン プロデューサー・ディレクター・作曲家"
+  found_via: "Wikidata Q1190425"
+matsumoto-rica:
+  accounts:
+    - site: X
+      handle: "rica_matsumoto3"
+      url: https://x.com/rica_matsumoto3
+    - site: Instagram
+      handle: "rica.matsumoto"
+      url: https://www.instagram.com/rica.matsumoto/
+  checked: "X 简介写「ポケモンOP🎤サトシ」"
+  found_via: "Wikidata Q943714"
+miki-shinichiro:
+  accounts:
+    - site: X
+      handle: "miki_shin318"
+      url: https://x.com/miki_shin318
+  checked: "显示名三木眞一郎、简介写声优，Wikidata 记为声优"
+  found_via: "Wikidata Q719326"
+mima-masafumi:
+  accounts:
+    - site: X
+      handle: "Sunma47"
+      url: https://x.com/Sunma47
+  avatar: /assets/img/people/social/mima-masafumi.jpg
+  checked: "X 简介写音响监督、动画『ポケットモンスター』"
+  found_via: "Wikidata Q9098791"
 mizutani-megumi:
+  accounts:
+    - site: X
+      handle: "megtany"
+      url: https://x.com/megtany
   avatar: /assets/img/people/social/mizutani-megumi.jpg
-  account: https://x.com/megtany
+  artofpkm: https://www.artofpkm.com/illustrators/megumi-mizutani
   checked: "artofpkm 画师页（241 张卡）直接链到该账号；简介写角色设计与插画"
   found_via: "artofpkm 画师页"
-tsuruta-saya:
-  avatar: /assets/img/people/social/tsuruta-saya.jpg
-  account: https://x.com/saya_tsuruta
-  checked: "简介写「ポケモンカード・ピカチュウスイーツ・ポケふた」"
+nakagawa-shoko:
+  accounts:
+    - site: X
+      handle: "shoko55mmts"
+      url: https://x.com/shoko55mmts
+    - site: Instagram
+      handle: "shoko55mmts"
+      url: https://www.instagram.com/shoko55mmts/
+  checked: "Wikidata 条目（照片也取自同一条目）记这两个账号"
+  found_via: "Wikidata Q685028"
+nishida-atsuko:
+  accounts:
+    - site: X
+      handle: "atsuko_nishida"
+      url: https://x.com/atsuko_nishida
+    - site: Instagram
+      handle: "coloatsu"
+      url: https://www.instagram.com/coloatsu/
+  artofpkm: https://www.artofpkm.com/illustrators/atsuko-nishida
+  checked: "artofpkm 画师页直接链到这两个账号，Wikidata Q11274757 记同一 X 账号"
+  found_via: "artofpkm 画师页 + Wikidata"
+nomura-tatsuo:
+  accounts:
+    - site: X
+      handle: "nomtats"
+      url: https://x.com/nomtats
+  checked: "显示名「Tatsuo Nomura/野村達雄」，Wikidata 记为软件开发者，与本站资料（Pokémon GO）一致"
+  found_via: "Wikidata Q30925288"
+ohmori-shigeru:
+  accounts:
+    - site: X
+      handle: "shigeru_ohmori"
+      url: https://x.com/shigeru_ohmori
+  checked: "X 简介写ポケットモンスターシリーズ ディレクター、Gamefreak 開発本部長"
+  found_via: "Wikidata Q47525608"
+ohmura-yusuke:
+  accounts:
+    - site: X
+      handle: "yusuke_omura"
+      url: https://x.com/yusuke_omura
+    - site: pixivFANBOX
+      handle: "yusuke-omura"
+      url: https://yusuke-omura.fanbox.cc/
+  artofpkm: https://www.artofpkm.com/illustrators/yusuke-ohmura
+  checked: "X 简介写『ポケットモンスター』系列里设计了ポッチャマ、マリィ等"
   found_via: "artofpkm 画师页"
-mima-masafumi:
-  avatar: /assets/img/people/social/mima-masafumi.jpg
-  account: https://x.com/Sunma47
-  checked: "简介写音响监督、动画『ポケットモンスター』"
-  found_via: "Wikidata Q9098791"
-kitamura-kazuki-2:
-  avatar: /assets/img/people/social/kitamura-kazuki-2.jpg
-  account: https://x.com/CompAudio
-  checked: "简介写音频导演、系列作品含ポケモン"
-  found_via: "Wikidata Q102246593"
-habuka-yuri:
-  avatar: /assets/img/people/social/habuka-yuri.jpg
-  account: https://x.com/habukayuri
-  checked: "简介写「#PokemonSV メインテーマ」"
-  found_via: "Wikidata Q17220237"
+okazaki-taiiku:
+  accounts:
+    - site: X
+      handle: "okazaki_taiiku"
+      url: https://x.com/okazaki_taiiku
+    - site: Instagram
+      handle: "okazaki_taiiku"
+      url: https://www.instagram.com/okazaki_taiiku/
+  checked: "显示名岡崎体育、简介写音乐人"
+  found_via: "Wikidata Q24868534"
+sato-hitomi:
+  accounts:
+    - site: X
+      handle: "musashino_alps"
+      url: https://x.com/musashino_alps
+  checked: "X 简介写 Game designer & Composer，与本站资料（GAME FREAK 由策划转作曲）一致"
+  found_via: "Wikidata Q79018857"
+sugimori-ken:
+  accounts:
+    - site: X
+      handle: "SUPER_32X"
+      url: https://x.com/SUPER_32X
+  artofpkm: https://www.artofpkm.com/illustrators/ken-sugimori
+  checked: "artofpkm 画师页直接链到该账号，Wikidata Q457871 记同一账号；显示名「杉森 建」"
+  found_via: "artofpkm 画师页 + Wikidata"
+tanaka-hirokazu:
+  accounts:
+    - site: X
+      handle: "tanac2e"
+      url: https://x.com/tanac2e
+    - site: Instagram
+      handle: "chiptanaka"
+      url: https://www.instagram.com/chiptanaka/
+  checked: "X 简介列「めざポケ」「ニャースのうた」等，并自链 Instagram"
+  found_via: "Wikidata Q2521353"
+tawada-tsukasa:
+  accounts:
+    - site: X
+      handle: "TsukasaTawada"
+      url: https://x.com/TsukasaTawada
+  checked: "X 简介写ポケモンコロシアム(XD)、ポケとる等作曲"
+  found_via: "Wikidata Q11430643"
+tochigi-haruka:
+  accounts:
+    - site: X
+      handle: "tinyharuru"
+      url: https://x.com/tinyharuru
+  checked: "X 简介写 Game Director、Works: Pokémon series"
+  found_via: "Wikidata Q137869893"
 tomisawa-akihito:
+  accounts:
+    - site: X
+      handle: "hitoqui_ponko"
+      url: https://x.com/hitoqui_ponko
   avatar: /assets/img/people/social/tomisawa-akihito.jpg
-  account: https://x.com/hitoqui_ponko
-  checked: "简介履历写「ゲームフリーク」、关联词ポケモン"
+  checked: "X 简介履历写「ゲームフリーク」、关联词ポケモン"
   found_via: "Wikidata Q11273358"
-higa-romanov:
-  avatar: /assets/img/people/social/higa-romanov.jpg
-  account: https://x.com/romanovh
-  checked: "简介写「ポケモン S・V」イベントコンテ"
-  found_via: "Wikidata Q11350684"
+tsuruta-saya:
+  accounts:
+    - site: X
+      handle: "saya_tsuruta"
+      url: https://x.com/saya_tsuruta
+    - site: Instagram
+      handle: "saya_tsuruta"
+      url: https://www.instagram.com/saya_tsuruta/
+  avatar: /assets/img/people/social/tsuruta-saya.jpg
+  artofpkm: https://www.artofpkm.com/illustrators/saya-tsuruta
+  checked: "X 简介写「ポケモンカード・ピカチュウスイーツ・ポケふた」，并自链 Instagram"
+  found_via: "artofpkm 画师页"
