@@ -17,7 +17,9 @@
 {%- assign canonical_url = page.canonical_url | default: page.url | replace: "/index.html", "/" | absolute_url %}
 
 {%- comment -%} 文章的一句话简介写在 summary 里；excerpt 是对象，default 不把空摘录当空，所以 summary 要排在它前面 {%- endcomment -%}
-{%- assign seo_description = page.description | default: page.summary | default: page.excerpt | default: site.description -%}
+{%- comment -%} person / credits pages and the directories have neither: page-description.html writes one from their data {%- endcomment -%}
+{%- include page-description.html -%}
+{%- assign seo_description = page.description | default: page.summary | default: pd_text | default: page.excerpt | default: site.description -%}
 {%- if seo_description -%}
   {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
 {%- endif -%}

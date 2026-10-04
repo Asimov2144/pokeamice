@@ -1,0 +1,79 @@
+{%- comment -%}
+A one-paragraph description for the pages that carry no description, summary or excerpt of
+their own: the person pages, the credits pages and the three directories. seo.html puts it in
+<meta name="description"> (and og:description) between page.summary and site.description.
+Sets pd_text, plain text ("" for any other page).
+
+  A person: the first sentence of the profile summary (tools/build-people-profiles.py, written
+  from the person's own words in the library, [n] marks removed) - unless that sentence only
+  says what the material lacks - followed by the count and span of their credits and how many
+  entries the library holds on them. A staff-only person has no summary: the credits line
+  (rule-written from the staff rolls, departments kept, leadership history dropped) and the
+  latest game and role carry it.
+  A credits page: the game, year and developer, how many credit lines, how many of the names
+  are Game Freak members (inferred from the rolls, as the page says), what the page offers.
+{%- endcomment -%}
+{%- assign pd_text = "" -%}
+{%- if page.layout == "person" -%}
+  {%- assign pd_me = site.data.people | where: "slug", page.slug | first -%}
+  {%- assign pd_pf = site.data.people_profiles | where: "slug", page.slug | first -%}
+  {%- assign pd_cr = site.data.credits_people[page.slug] -%}
+  {%- assign pd_name = page.person | default: page.title -%}
+  {%- assign pd_alias = "" -%}
+  {%- for a in pd_me.aliases -%}{%- if a != pd_name -%}{%- assign pd_alias = a -%}{%- break -%}{%- endif -%}{%- endfor -%}
+  {%- assign pd_who = pd_name -%}
+  {%- if pd_alias != "" -%}{%- assign pd_who = pd_name | append: "（" | append: pd_alias | append: "）" -%}{%- endif -%}
+  {%- comment -%} the first sentence of the summary, without its [n] marks {%- endcomment -%}
+  {%- assign pd_lead = "" -%}
+  {%- if pd_pf.summary -%}
+    {%- assign pd_lead = pd_pf.summary | split: "。" | first -%}
+    {%- for c in pd_pf.citations -%}{%- assign pd_mark = "[" | append: c.n | append: "]" -%}{%- assign pd_lead = pd_lead | remove: pd_mark -%}{%- endfor -%}
+    {%- assign pd_lead = pd_lead | strip | replace: " ，", "，" -%}
+    {%- if pd_lead contains "没有" or pd_lead contains "现有材料" or pd_lead contains "未涉及" -%}{%- assign pd_lead = "" -%}{%- endif -%}
+    {%- if pd_lead != "" -%}{%- assign pd_lead = pd_lead | append: "。" -%}{%- endif -%}
+  {%- endif -%}
+  {%- comment -%}
+    the credits line "署名 67 作（核心 28 作），1996–2026：总监/制作人 26 作…；1999 年…起任…": after a summary only the
+    count and span (before the colon); on its own the departments too, but not the leadership history after the semicolon
+  {%- endcomment -%}
+  {%- assign pd_credits = "" -%}
+  {%- assign pd_credits_short = "" -%}
+  {%- if pd_pf.credits.line -%}
+    {%- assign pd_credits = pd_pf.credits.line | split: "；" | first | remove: "。" | append: "。" -%}
+    {%- assign pd_credits_short = pd_pf.credits.line | split: "：" | first | append: "。" -%}
+  {%- endif -%}
+  {%- assign pd_latest = "" -%}
+  {%- if pd_cr.latest_game -%}
+    {%- assign pd_lg = site.data.credits_games | where: "slug", pd_cr.latest_game | first -%}
+    {%- assign pd_lc = pd_cr.credits | where: "game", pd_cr.latest_game | last -%}
+    {%- assign pd_role = pd_lc.role_zh | default: pd_lc.role | default: pd_cr.latest_role -%}
+    {%- if pd_lg.title_zh -%}{%- assign pd_latest = "最近一作：" | append: pd_lg.title_zh | append: "（" | append: pd_role | append: "）。" -%}{%- endif -%}
+  {%- endif -%}
+  {%- assign pd_entries = pd_pf.interviews.entries | default: 0 -%}
+  {%- assign pd_lib = "" -%}
+  {%- if pd_entries > 0 -%}{%- assign pd_lib = "本站收录 " | append: pd_entries | append: " 篇相关访谈与文章。" -%}{%- endif -%}
+  {%- if pd_lead != "" -%}
+    {%- assign pd_text = pd_lead | append: pd_credits_short | append: pd_lib -%}
+  {%- elsif pd_credits != "" -%}
+    {%- assign pd_text = pd_who | append: "参与宝可梦系列游戏制作。" | append: pd_credits | append: pd_latest | append: pd_lib -%}
+  {%- else -%}
+    {%- assign pd_role_line = "" -%}
+    {%- if pd_me.org or pd_me.role -%}{%- assign pd_role_line = pd_me.org | default: "" | append: " " | append: pd_me.role | strip | append: "。" -%}{%- endif -%}
+    {%- assign pd_text = pd_who | append: "，宝可梦相关人物。" | append: pd_role_line | append: pd_lib -%}
+  {%- endif -%}
+{%- elsif page.layout == "credits-game" -%}
+  {%- assign pd_g = site.data.credits_games | where: "slug", page.game | first -%}
+  {%- comment -%} a title that already names its year ("宝可梦竞技场（1998 日版）") does not get it twice {%- endcomment -%}
+  {%- assign pd_year = pd_g.year | append: "" -%}
+  {%- assign pd_made = pd_year | append: "，" | append: pd_g.developer -%}
+  {%- if pd_g.title_zh contains pd_year -%}{%- assign pd_made = pd_g.developer -%}{%- endif -%}
+  {%- assign pd_text = pd_g.title_zh | append: "（" | append: pd_made | append: " 开发）的完整制作名单：" | append: pd_g.count | append: " 条署名" -%}
+  {%- if page.gf_count and page.gf_count > 0 -%}{%- assign pd_text = pd_text | append: "，其中 Game Freak 成员 " | append: page.gf_count | append: " 人" -%}{%- endif -%}
+  {%- assign pd_text = pd_text | append: "。按部门整理，附中日英职务对照、团队画像（Atlas）与各人的人物页。" -%}
+{%- elsif page.layout == "people-index" -%}
+  {%- assign pd_text = "宝可梦开发者人物库：受访者与制作名单人员的照片、履历、开发专长、社交账号与访谈出处，可按姓名与作品检索。" -%}
+{%- elsif page.layout == "credits-index" -%}
+  {%- assign pd_text = "宝可梦历代游戏的制作名单：" | append: site.data.credits_games.size | append: " 部作品的完整 staff 名单，按部门整理，附中日英职务对照、团队画像（Atlas）与历作 staff 总表。" -%}
+{%- elsif page.layout == "credits-staff" -%}
+  {%- assign pd_text = "宝可梦历代游戏的 staff 总表：每位参与者署名的作品、部门与年份，可按姓名与作品筛选，链到各人的人物页。" -%}
+{%- endif -%}
