@@ -457,7 +457,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Sound Section / </small>Sound Coordination<span class="credits__zh-role">（音响协调）</span><span class="credits__ja-role">サウンドセクション / サウンドコーディネート</span></h3>
 <ul class="credits__names">
-<li class="credits__name"><a href="/people/kitamura-kazuki-2/">Kazuki Kitamura</a> <small>きたむら かずき</small></li>
+<li class="credits__name"><a href="/people/kitamura-kazuki/">Kazuki Kitamura</a> <small>きたむら かずき</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound Section / </small>Recording &amp; Mixing &amp; Mastering<span class="credits__zh-role">（录音与混音与母带）</span><span class="credits__ja-role">サウンドセクション / レコーディング・ミキシング・マスタリング</span></h3>

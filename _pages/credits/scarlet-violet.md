@@ -722,7 +722,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Sound / </small>Sound Effects Coordination<span class="credits__zh-role">（音效协调）</span><span class="credits__ja-role">サウンドエフェクト コーディネート</span></h3>
 <ul class="credits__names">
-<li class="credits__name"><a href="/people/kitamura-kazuki-2/">Kazuki Kitamura</a> <small>きたむら かずき</small></li>
+<li class="credits__name"><a href="/people/kitamura-kazuki/">Kazuki Kitamura</a> <small>きたむら かずき</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound / </small>Sound Programming<span class="credits__zh-role">（音响程序）</span><span class="credits__ja-role">サウンドプログラミング</span></h3>

@@ -3054,19 +3054,29 @@
     columns: 0
     first: '2023'
     last: '2023'
-  summary: 据Fami通.com报道，北村一树以Connecteco身份参与《宝可梦》系列声音制作，并在一之濑刚等主讲的CEDEC2023会议中登台，讲解宝可梦世界的环境音与环境叫声 [1]。其经手领域为游戏音响设计，涉及不存在鸟、虫等一般生物的宝可梦世界中环境音的制作方法 [1]。据该报道，会议还涉及开放世界化后环境音的高效实现方法以及调试和作业效率化 [1]。
+  credits:
+    games: 5
+    core_games: 5
+    span: 2019–2025
+    line: 署名 5 作，2019–2025：音乐 5 作（2019–2025）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 5
+  summary: 北村一树是参与《宝可梦》系列的声音设计师，署名作品集中在音乐领域。据Fami通.com报道，他不仅参与《宝可梦》系列，还涉足众多游戏的声音制作，并在CEDEC2023与一之濑刚、岩本翔共同登台讲解宝可梦世界环境音的制作[1]。该会议内容涵盖环境叫声、环境音以及效率化与最优化三个项目，涉及开放世界化后环境音的高效实现方法[1]。
   citations:
   - n: 1
     post: 2023-08-24-interview-famitsu-2023-cedec-sound
     title: Fami通.com 2023：一之濑刚等谈宝可梦环境叫声与环境音的制作
     date: '2023-08-24'
     publication: Fami通.com
-    detail: 据Fami通.com报道，北村一树以Connecteco身份登台CEDEC2023，讲解宝可梦环境音制作。
+    detail: 据Fami通.com报道，他不仅参与《宝可梦》系列，还涉足众多游戏声音制作，并登台CEDEC2023讲解环境音。
   expertise:
-  - 音响设计
+  - 音乐
+  - 声音设计
   - 环境音
-  - 环境叫声
-  - 效率化
+  - 音响设计
 - name: 岩本翔
   slug: iwamoto-sho
   kind: person
@@ -15462,27 +15472,6 @@
     categories:
     - cat: 特别感谢
       games: 5
-- name: Kazuki Kitamura
-  slug: kitamura-kazuki-2
-  kind: staff
-  interviews:
-    entries: 0
-    spoken_in: 0
-    columns: 0
-    first: null
-    last: null
-  credits:
-    games: 5
-    core_games: 5
-    span: 2019–2025
-    line: 署名 5 作，2019–2025：音乐 5 作（2019–2025）。
-    expertise:
-    - 音乐
-    categories:
-    - cat: 音乐
-      games: 5
-  expertise:
-  - 音乐
 - name: Kotono Kunishima
   slug: kunishima-kotono
   kind: staff

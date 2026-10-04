@@ -462,7 +462,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/okamoto-hitoshi/">Hitoshi Okamoto</a> <small>おかもと ひとし</small></li>
 <li class="credits__name"><a href="/people/taniguchi-teruo/">Teruo Taniguchi</a> <small>谷口輝雄 · たにぐち てるお</small></li>
 <li class="credits__name">Sayaka Yaegashi <small>やえがし さやか</small></li>
-<li class="credits__name"><a href="/people/kitamura-kazuki-2/">Kazuki Kitamura</a> <small>きたむら かずき</small></li>
+<li class="credits__name"><a href="/people/kitamura-kazuki/">Kazuki Kitamura</a> <small>きたむら かずき</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound Team / </small>Composers<span class="credits__zh-role">（作曲）</span><span class="credits__ja-role">おんがく</span></h3>

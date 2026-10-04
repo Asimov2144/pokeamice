@@ -1025,6 +1025,8 @@
   slug: kitamura-kazuki
   aliases:
   - 北村一樹
+  - Kazuki Kitamura
+  - きたむら かずき
   portraits:
   - image: /assets/img/people/kitamura-kazuki-2023.jpg
     year: 2023
@@ -1032,6 +1034,7 @@
     post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
   avatar: /assets/img/people/kitamura-kazuki.jpg
   avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
+  credits_key: kazuki kitamura
 - name: 岩本翔
   slug: iwamoto-sho
   aliases:
@@ -4561,12 +4564,6 @@
   credits_key: kaori tsujimura
   aliases:
   - つじむら かおり
-- name: Kazuki Kitamura
-  slug: kitamura-kazuki-2
-  kind: staff
-  credits_key: kazuki kitamura
-  aliases:
-  - きたむら かずき
 - name: Kotono Kunishima
   slug: kunishima-kotono
   kind: staff
