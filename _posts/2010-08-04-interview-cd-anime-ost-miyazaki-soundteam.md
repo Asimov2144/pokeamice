@@ -240,11 +240,11 @@ parallel_items:
   role: question
 - speaker: 一之濑刚
   original: Pokémon tunes use “input music”, a special trait of the games, and have a tendency to be composed without favoring playing methods for musical compositions or harmonic concepts. Considering all this, it must be very complicated to make orchestra arrangements. What do you think?
-  translation: 宝可梦的乐曲运用了游戏特有的“输入音乐”手法，其创作往往不偏向于音乐作品本身的演奏方式或和声理念。考虑到这些因素，要将其改编为管弦乐想必极为复杂。您对此有何看法？
+  translation: 宝可梦的乐曲是游戏特有的“编程音乐”（日语「打ち込み」，指在音序器里逐音输入、由机器演奏），其创作往往不偏向于音乐作品本身的演奏方式或和声理念。考虑到这些因素，要将其改编为管弦乐想必极为复杂。您对此有何看法？
   role: answer
 - speaker: 宫崎慎二
   original: Choosing the instruments is easy. Determining whether their respective figures and orchestra arrangements are effective is also easy. However, I think the difference is that, compared to input works, the feeling of broadness may get lost. For example, when the original tune uses a variety of synth strings, there is a broadness to the timbre, but if the chords are played with real strings, it doesn’t seem that way any more.
-  translation: 乐器的选择并不难。判断各自的音型与管弦乐编配是否奏效，同样也不难。然而，我认为区别在于，与输入作品相比，那种宽广感可能会丧失。譬如，当原曲使用多种合成器弦乐时，音色带有一种宽广感，但若改用真实弦乐来演奏这些和弦，便似乎不再有那种感觉了。
+  translation: 乐器的选择并不难。判断各自的音型与管弦乐编配是否奏效，同样也不难。然而，我认为区别在于，与编程制作的曲子相比，那种宽广感可能会丧失。譬如，当原曲使用多种合成器弦乐时，音色带有一种宽广感，但若改用真实弦乐来演奏这些和弦，便似乎不再有那种感觉了。
   role: answer
 - speaker: 一之濑刚
   original: I see.
@@ -272,7 +272,7 @@ parallel_items:
   role: answer
 - speaker: 采访者（Media Factory）
   original: So that means pieces created with the input method cannot simply reproduced by an orchestra as-is.
-  translation: 也就是说，以那种输入方式创作出的曲目，并不能原封不动地交由管弦乐团直接重现。
+  translation: 也就是说，以编程方式创作出的曲目，并不能原封不动地交由管弦乐团直接重现。
   role: question
 - speaker: 宫崎慎二
   original: I mentioned it earlier, but the battle tunes from the early days couldn’t be left as-is, no matter what. That’s why I slowed down the tempo a little. Having done that, I was torn on what to leave out and what to include. For example, the sound range of the trumpets used in the games is surprisingly high…
