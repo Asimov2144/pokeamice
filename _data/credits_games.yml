@@ -160,6 +160,7 @@
   count: 177
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dream_Radar
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンARサーチャーのスタッフクレジット
+  icon: /assets/img/works/menu-pkmn-dr-menu-icon.png
 - slug: x-y
   title: Pokémon X and Y
   title_zh: 宝可梦 X·Y
@@ -499,6 +500,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trozei!
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモントローゼのスタッフクレジット
   gf_count: 1
+  icon: /assets/img/works/menu-pkmn-t-menu-icon.png
 - slug: xd
   title: Pokémon XD
   title_zh: 宝可梦XD 暗之旋风 黑暗洛奇亚
@@ -670,6 +672,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Conquest
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン+ノブナガの野望のスタッフクレジット
   gf_count: 5
+  icon: /assets/img/works/menu-pkmn-c-menu-icon.png
 - slug: mystery-dungeon-gates-to-infinity
   title: 'Pokémon Mystery Dungeon: Gates to Infinity'
   title_zh: 宝可梦不可思议迷宫 极大之门与无限迷宫
@@ -690,6 +693,7 @@
   count: 213
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D_Pro
   gf_count: 33
+  icon: /assets/img/works/menu-pkmn-3d-p-menu-icon.png
 - slug: rumble-u
   title: Pokémon Rumble U
   title_zh: 宝可梦大乱战U

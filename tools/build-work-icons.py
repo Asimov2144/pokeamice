@@ -6,7 +6,8 @@
   3. the official system icon from Bulbagarden Archives - the DS game icon, a Virtual Console or
      Switch icon for the older games, the app icon for the mobile ones; the anime and the films wear
      their Japanese logos (ARCHIVE below, and CREDITS_ICONS for the games that only exist in the
-     staff rolls -> archive/credits/icons.yml)
+     staff rolls -> archive/credits/icons.yml); where the Archives lack a DS / 3DS menu icon, the
+     Pokémon Wiki's copy (MENU, taken from the Wayback Machine)
   4. the classic mark - a tile in its version colour with a Poké Ball on it (SteamGridDB 49670's
      design, drawn here) - for the works nothing official covers
 
@@ -91,6 +92,19 @@ ARCHIVE = {
     "超级宝可梦乱战": ["Rumble Blast icon.png"],
 }
 
+# DS / 3DS menu icons the Archives do not have: Pokémon Wiki (Fandom) "Category:Menu Icons". static.wikia.nocookie.net
+# sits behind a bot check, so these are the Wayback Machine's copies (the id_ form returns the file as it was).
+MENU = {
+    "PKMN TA Menu Icon.png": "https://web.archive.org/web/20260222063205id_/https://static.wikia.nocookie.net/pokemon/images/3/31/PKMN_TA_Menu_Icon.png/revision/latest?cb=20140623214230",
+    "PKMN 3D Menu Icon.png": "https://web.archive.org/web/20250125051935id_/https://static.wikia.nocookie.net/pokemon/images/8/88/PKMN_3D_Menu_Icon.png/revision/latest?cb=20140623214229",
+    "PKMN 3D P Menu Icon.png": "https://web.archive.org/web/20251219105204id_/https://static.wikia.nocookie.net/pokemon/images/9/97/PKMN_3D_P_Menu_Icon.png/revision/latest?cb=20240803165307",
+    "PKMN C Menu Icon.png": "https://web.archive.org/web/20251228163306id_/https://static.wikia.nocookie.net/pokemon/images/e/ee/PKMN_C_Menu_Icon.png/revision/latest?cb=20140623213129",
+    "PKMN DR Menu Icon.png": "https://web.archive.org/web/20250725230349id_/https://static.wikia.nocookie.net/pokemon/images/c/c9/PKMN_DR_Menu_Icon.png/revision/latest?cb=20240803165237",
+    "PKMN T Menu Icon.png": "https://web.archive.org/web/20250125173548id_/https://static.wikia.nocookie.net/pokemon/images/4/4b/PKMN_T_Menu_Icon.png/revision/latest",
+}
+# name -> menu icon(s): the DS typing game, and Pokédex 3D (a 3DS app with its own icon, not Black and White's)
+WORKS_MENU = {"宝可梦打字DS": ["PKMN TA Menu Icon.png"], "宝可梦立体图鉴BW": ["PKMN 3D Menu Icon.png"]}
+
 # HOME icons the gallery does not carry, taken from the Archives' copies instead
 HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
 
@@ -98,7 +112,9 @@ HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
 # (FireRed / LeafGreen: the HOME icons of the October 2026 link-up — drop the two-icon picture in and run
 #  `python tools/build-work-icons.py --split <picture> home-firered home-leafgreen`)
 LOCAL = {"Pokémon Pokopia": ["pokopia.png"], "宝可梦 火红·叶绿": ["home-firered.png", "home-leafgreen.png"]}
-KEEP = {"pokopia-logo.png"}
+# kept although works.yml no longer points at them: the App's data snapshot (assets/data/app) still does, until the
+# next full export (Pokédex 3D wore Black and White's DS icons, the typing game the classic mark, before 2026-10-05)
+KEEP = {"pokopia-logo.png", "black-white.png", "black-white-2.png", "ball-typing.png"}
 
 # credits slug -> Archives file(s), for the games the staff rolls cover but works.yml does not
 CREDITS_ICONS = {
@@ -143,13 +159,17 @@ CREDITS_ICONS = {
     "duel": ["Pokémon Duel icon 7.0.7.png"],
     "cafe-remix": ["Pokémon Café ReMix icon Switch.png"],
     "masters": ["Pokémon Masters EX icon 2.23.0 iOS.png"],
+    # the Pokémon Wiki's menu icons (MENU)
+    "dream-radar": ["PKMN DR Menu Icon.png"],
+    "pokedex-3d-pro": ["PKMN 3D P Menu Icon.png"],
+    "conquest": ["PKMN C Menu Icon.png"],
+    "trozei": ["PKMN T Menu Icon.png"],
 }
 CREDITS_ICONS_FILE = ROOT / "archive" / "credits" / "icons.yml"
 
 # the official DS icons of Black and White (SteamGridDB, FloweyGaming577)
 OFFICIAL = {
     "宝可梦 黑·白": ["8d65294979cf7c59fa43f91f993fb5c2", "5b97f793636f8baec3ff8cd0ebf5c33c"],
-    "宝可梦立体图鉴BW": ["8d65294979cf7c59fa43f91f993fb5c2", "5b97f793636f8baec3ff8cd0ebf5c33c"],
 }
 
 
@@ -213,6 +233,21 @@ def archive_tile(title, force=False):
         print(f"  {f.name:40s} <- Archives {title}")
         time.sleep(0.4)
     return f
+
+
+def menu_tile(title, force=False):
+    """fetch + tile one Pokémon Wiki menu icon (MENU), cached as assets/img/works/menu-<slug>.png"""
+    f = OUT / f"menu-{slug_of(title)}.png"
+    if not f.exists() or force:
+        tile_from(fetch(MENU[title])).save(f, optimize=True)
+        print(f"  {f.name:40s} <- Pokémon Wiki (Wayback) {title}")
+        time.sleep(1)
+    return f
+
+
+def icon_tile(title, force=False):
+    """an Archives file, or one of the menu icons"""
+    return menu_tile(title, force) if title in MENU else archive_tile(title, force)
 
 
 def hexrgb(h):
@@ -322,6 +357,9 @@ def main():
         elif name in ARCHIVE:
             credit = "官方图标 / 标志（Bulbagarden Archives）"
             files = [archive_tile(t, force) for t in ARCHIVE[name]]
+        elif name in WORKS_MENU:
+            credit = "官方 DS / 3DS 菜单图标（Pokémon Wiki，Wayback 存档）"
+            files = [menu_tile(t, force) for t in WORKS_MENU[name]]
         elif name in OFFICIAL:
             credit = "官方 DS 图标（SteamGridDB · FloweyGaming577）"
             for i, h in enumerate(OFFICIAL[name]):
@@ -352,11 +390,11 @@ def main():
     # the games only the staff rolls know: archive/credits/icons.yml, read by tools/build-credits-site.py
     credits_icons = {}
     for slug, titles in CREDITS_ICONS.items():
-        fs = [archive_tile(t, force) for t in titles]
+        fs = [icon_tile(t, force) for t in titles]
         credits_icons[slug] = [f"/assets/img/works/{f.name}" for f in fs]
         wanted.update(f.name for f in fs)
     io.open(CREDITS_ICONS_FILE, "w", encoding="utf-8", newline="\n").write(
-        "# 由 tools/build-work-icons.py 生成：制作名单里的作品 → 官方图标（Bulbagarden Archives），works.yml 没有的才用\n"
+        "# 由 tools/build-work-icons.py 生成：制作名单里的作品 → 官方图标（Bulbagarden Archives；DS / 3DS 菜单图标缺的取 Pokémon Wiki），works.yml 没有的才用\n"
         + yaml.safe_dump(credits_icons, allow_unicode=True, sort_keys=True, width=200))
     wanted.update(KEEP)
     for f in OUT.glob("*.png"):
@@ -365,6 +403,7 @@ def main():
     header = "\n".join([
         "# 作品图标：站内 entities.works 名 → 图标（tools/build-work-icons.py 生成到 assets/img/works）。一条规则：",
         "# 有 Pokémon HOME 作品图标的一律用 HOME 的；其余用 Bulbagarden Archives 的官方图标（DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），",
+        "# Archives 没有的 DS / 3DS 菜单图标取 Pokémon Wiki 的（Wayback 存档），",
         "# 都没有的用经典标记——版本色底 + 精灵球；Pokopia 用手选的官方标志。",
         "# 双版本作品 icon 在名字前、icon2 在名字后；color / color2 是版本代表色，mascot 是封面宝可梦的 HOME 渲染图（备用）。",
         "",

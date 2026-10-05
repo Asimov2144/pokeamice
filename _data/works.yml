@@ -1,5 +1,6 @@
 # 作品图标：站内 entities.works 名 → 图标（tools/build-work-icons.py 生成到 assets/img/works）。一条规则：
 # 有 Pokémon HOME 作品图标的一律用 HOME 的；其余用 Bulbagarden Archives 的官方图标（DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），
+# Archives 没有的 DS / 3DS 菜单图标取 Pokémon Wiki 的（Wayback 存档），
 # 都没有的用经典标记——版本色底 + 精灵球；Pokopia 用手选的官方标志。
 # 双版本作品 icon 在名字前、icon2 在名字后；color / color2 是版本代表色，mascot 是封面宝可梦的 HOME 渲染图（备用）。
 - name: 宝可梦 红·绿
@@ -210,8 +211,8 @@
 - name: 宝可梦打字DS
   color: '#2e7d32'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-typing.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/menu-pkmn-ta-menu-icon.png
+  icon_credit: 官方 DS / 3DS 菜单图标（Pokémon Wiki，Wayback 存档）
 - name: Pokémon HOME
   icon: /assets/img/works/home-home.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
@@ -220,9 +221,8 @@
   color: '#222222'
   color2: '#e6e6e6'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
-  icon: /assets/img/works/black-white.png
-  icon2: /assets/img/works/black-white-2.png
-  icon_credit: 官方 DS 图标（SteamGridDB · FloweyGaming577）
+  icon: /assets/img/works/menu-pkmn-3d-menu-icon.png
+  icon_credit: 官方 DS / 3DS 菜单图标（Pokémon Wiki，Wayback 存档）
 - name: 宝可梦乱战
   color: '#ef6c00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png

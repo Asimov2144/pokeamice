@@ -38,6 +38,8 @@ eras:
   - slug: red-blue
     title: 宝可梦 红·蓝（海外版）
     year: 1998
+    icon: /assets/img/works/bulba-red-vc-icon.png
+    icon2: /assets/img/works/bulba-blue-vc-icon.png
   - slug: gold-silver
     title: 宝可梦 金·银
     year: 1999
@@ -152,6 +154,7 @@ eras:
   - slug: dream-radar
     title: 宝可梦AR搜寻器
     year: 2012
+    icon: /assets/img/works/menu-pkmn-dr-menu-icon.png
   - slug: x-y
     title: 宝可梦 X·Y
     year: 2013
@@ -459,6 +462,8 @@ years:
   - slug: red-blue
     title: 宝可梦 红·蓝（海外版）
     core: true
+    icon: /assets/img/works/bulba-red-vc-icon.png
+    icon2: /assets/img/works/bulba-blue-vc-icon.png
   - slug: hey-you-pikachu
     title: 皮卡丘啾有精神
     core: false
@@ -468,6 +473,7 @@ years:
   - slug: trading-card-game
     title: 宝可梦卡牌GB
     core: false
+    icon: /assets/img/works/bulba-tcg-gb-vc-icon.png
   people: []
   works: []
   picks: []
@@ -585,6 +591,7 @@ years:
   - slug: puzzle-challenge
     title: 宝可梦拼图挑战
     core: false
+    icon: /assets/img/works/bulba-puzzle-challenge-vc-icon.png
   - slug: puzzle-league
     title: 宝可梦拼图联盟
     core: false
@@ -841,6 +848,7 @@ years:
   - slug: pinball-ruby-sapphire
     title: 宝可梦弹珠台 红宝石·蓝宝石
     core: false
+    icon: /assets/img/works/bulba-pinball-ruby-and-sapphire-vc-icon.png
   people:
   - name: 杉森建
     slug: sugimori-ken
@@ -1004,6 +1012,7 @@ years:
   - slug: trozei
     title: 宝可梦益智方块
     core: false
+    icon: /assets/img/works/menu-pkmn-t-menu-icon.png
   - slug: xd
     title: 宝可梦XD 暗之旋风 黑暗洛奇亚
     core: false
@@ -1098,6 +1107,7 @@ years:
   - slug: ranger
     title: 宝可梦巡护员
     core: false
+    icon: /assets/img/works/bulba-prevcicon.png
   people:
   - name: 吉田宏信
     slug: yoshida-hironobu
@@ -1156,6 +1166,8 @@ years:
   - slug: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
     title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
     core: false
+    icon: /assets/img/works/bulba-pmd-time-icon.png
+    icon2: /assets/img/works/bulba-pmd-darkness-icon.png
   people:
   - name: 中川翔子
     slug: nakagawa-shoko
@@ -1210,6 +1222,7 @@ years:
   - slug: ranger-shadows-of-almia
     title: 宝可梦巡护员 风涌篇
     core: false
+    icon: /assets/img/works/bulba-prsoaevcicon.png
   people:
   - name: 首藤刚志
     slug: shudo-takeshi
@@ -1296,12 +1309,14 @@ years:
   - slug: mystery-dungeon-explorers-of-sky
     title: 宝可梦不可思议迷宫 空之探险队
     core: false
+    icon: /assets/img/works/bulba-pmd-sky-icon.png
   - slug: mystery-dungeon-wiiware
     title: 宝可梦不可思议迷宫 炎·岚·光之冒险团（WiiWare）
     core: false
   - slug: pokepark-wii
     title: 宝可公园Wii 皮卡丘的大冒险
     core: false
+    icon: /assets/img/works/bulba-pokeparkwiieshopicone.png
   - slug: rumble
     title: 宝可梦乱战
     core: false
@@ -1401,6 +1416,7 @@ years:
   - slug: ranger-guardian-signs
     title: 宝可梦巡护员 光的轨迹
     core: false
+    icon: /assets/img/works/bulba-prgseicon.png
   people:
   - name: 首藤刚志
     slug: shudo-takeshi
@@ -1487,13 +1503,12 @@ years:
   - slug: learn-with-pokemon-typing-adventure
     title: 宝可梦打字DS
     core: false
-    icon: /assets/img/works/ball-typing.png
+    icon: /assets/img/works/menu-pkmn-ta-menu-icon.png
     color: '#2e7d32'
   - slug: pokedex-3d
     title: 宝可梦立体图鉴BW
     core: false
-    icon: /assets/img/works/black-white.png
-    icon2: /assets/img/works/black-white-2.png
+    icon: /assets/img/works/menu-pkmn-3d-menu-icon.png
     color: '#222222'
     color2: '#e6e6e6'
   - slug: pokepark-2
@@ -1531,8 +1546,7 @@ years:
     color2: '#e6e6e6'
     n: 21
   - name: 宝可梦立体图鉴BW
-    icon: /assets/img/works/black-white.png
-    icon2: /assets/img/works/black-white-2.png
+    icon: /assets/img/works/menu-pkmn-3d-menu-icon.png
     color: '#222222'
     color2: '#e6e6e6'
     n: 5
@@ -1545,7 +1559,7 @@ years:
     color: '#ef6c00'
     n: 4
   - name: 宝可梦打字DS
-    icon: /assets/img/works/ball-typing.png
+    icon: /assets/img/works/menu-pkmn-ta-menu-icon.png
     color: '#2e7d32'
     n: 3
   picks:
@@ -1589,15 +1603,19 @@ years:
   - slug: dream-radar
     title: 宝可梦AR搜寻器
     core: true
+    icon: /assets/img/works/menu-pkmn-dr-menu-icon.png
   - slug: conquest
     title: 宝可梦+信长的野望
     core: false
+    icon: /assets/img/works/menu-pkmn-c-menu-icon.png
   - slug: mystery-dungeon-gates-to-infinity
     title: 宝可梦不可思议迷宫 极大之门与无限迷宫
     core: false
+    icon: /assets/img/works/bulba-gates-to-infinity-icon.png
   - slug: pokedex-3d-pro
     title: 宝可梦全国图鉴专业版
     core: false
+    icon: /assets/img/works/menu-pkmn-3d-p-menu-icon.png
   people:
   - name: 海野隆雄
     slug: unno-takao
@@ -1680,6 +1698,7 @@ years:
   - slug: rumble-u
     title: 宝可梦大乱战U
     core: false
+    icon: /assets/img/works/bulba-rumble-u-icon.png
   people:
   - name: 增田顺一
     slug: masuda-junichi
@@ -1770,12 +1789,15 @@ years:
   - slug: art-academy
     title: 宝可梦美术学院
     core: false
+    icon: /assets/img/works/bulba-art-academy-icon.png
   - slug: battle-trozei
     title: 宝可梦战斗益智方块
     core: false
+    icon: /assets/img/works/bulba-battle-trozei-icon.png
   - slug: the-thieves-and-the-1000-pokemon
     title: 盗贼与1000只宝可梦
     core: false
+    icon: /assets/img/works/bulba-the-thieves-and-the-1000-pokemon-icon.png
   people:
   - name: 增田顺一
     slug: masuda-junichi
@@ -1844,18 +1866,23 @@ years:
   - slug: picross
     title: 宝可梦绘图方块
     core: false
+    icon: /assets/img/works/bulba-picross-icon.png
   - slug: pokken-tournament
     title: 宝可拳 POKKÉN TOURNAMENT
     core: false
+    icon: /assets/img/works/bulba-pokken-icon.png
   - slug: rumble-world
     title: 大家的宝可梦大乱战
     core: false
+    icon: /assets/img/works/bulba-rumble-world-icon.png
   - slug: shuffle
     title: 宝可消消乐
     core: false
+    icon: /assets/img/works/bulba-shuffle-3ds-icon.png
   - slug: super-mystery-dungeon
     title: 宝可梦超级不可思议迷宫
     core: false
+    icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
   people:
   - name: 星野正昭
     slug: hoshino-masaaki
@@ -1945,9 +1972,11 @@ years:
   - slug: detective-pikachu-birth-of-a-new-duo
     title: 名侦探皮卡丘 ～新搭档诞生～
     core: false
+    icon: /assets/img/works/bulba-great-detective-pikachu-birth-of-a-new-duo-icon.png
   - slug: duel
     title: 宝可梦战棋大师
     core: false
+    icon: /assets/img/works/bulba-pokemon-duel-icon-7-0-7.png
   people:
   - name: 大森滋
     slug: ohmori-shigeru
@@ -2034,9 +2063,11 @@ years:
   - slug: magikarp-jump
     title: 跳跃吧！鲤鱼王
     core: false
+    icon: /assets/img/works/bulba-pokemon-magikarp-jump-icon.png
   - slug: pokken-tournament-dx
     title: 宝可拳 POKKÉN TOURNAMENT DX
     core: false
+    icon: /assets/img/works/bulba-pokken-tournament-dx-icon.png
   people:
   - name: 大森滋
     slug: ohmori-shigeru
@@ -2128,6 +2159,7 @@ years:
   - slug: quest
     title: 宝可梦探险寻宝
     core: false
+    icon: /assets/img/works/bulba-quest-icon.png
   people:
   - name: 增田顺一
     slug: masuda-junichi
@@ -2218,9 +2250,11 @@ years:
   - slug: rumble-rush
     title: 宝可梦大乱战SP
     core: false
+    icon: /assets/img/works/bulba-pokemon-rumble-rush-icon.png
   - slug: tcg-card-dex
     title: 宝可梦集换式卡牌游戏 卡牌图鉴
     core: false
+    icon: /assets/img/works/bulba-pokemon-tcg-card-dex-icon.png
   people:
   - name: 增田顺一
     slug: masuda-junichi
@@ -2304,12 +2338,15 @@ years:
   - slug: cafe-remix
     title: 宝可缤纷趣（Pokémon Café ReMix）
     core: false
+    icon: /assets/img/works/bulba-pokemon-cafe-remix-icon-switch.png
   - slug: mystery-dungeon-rescue-team-dx
     title: 宝可梦不可思议迷宫 救助队DX
     core: false
+    icon: /assets/img/works/bulba-mystery-dungeon-rescue-team-dx-icon.png
   - slug: smile
     title: Pokémon Smile
     core: false
+    icon: /assets/img/works/bulba-pokemon-smile-icon.png
   people:
   - name: 橘庆太
     slug: tachibana-keita
@@ -2383,6 +2420,7 @@ years:
   - slug: new-pokemon-snap
     title: New 宝可梦随乐拍
     core: false
+    icon: /assets/img/works/bulba-new-snap-icon.png
   people:
   - name: 石原恒和
     slug: ishihara-tsunekazu
@@ -2540,9 +2578,11 @@ years:
   - slug: detective-pikachu-returns
     title: 名侦探皮卡丘 闪电回归
     core: false
+    icon: /assets/img/works/bulba-detective-pikachu-returns-icon.png
   - slug: sleep
     title: Pokémon Sleep
     core: false
+    icon: /assets/img/works/bulba-pokemon-sleep-icon.png
   people:
   - name: 深谷卓
     slug: fukaya-taku
@@ -2621,6 +2661,7 @@ years:
   - slug: trading-card-game-pocket
     title: 宝可梦集换式卡牌游戏 Pocket
     core: false
+    icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
   people:
   - name: 町田
     slug: ting-tian
@@ -2701,9 +2742,11 @@ years:
   - slug: friends
     title: Pokémon Friends
     core: false
+    icon: /assets/img/works/bulba-friends-icon-switch.png
   - slug: goita-tutorial-app
     title: Pokémon GOITA 教程App
     core: false
+    icon: /assets/img/works/bulba-pokemon-goita-icon.png
   people:
   - name: 大森滋
     slug: ohmori-shigeru

@@ -3114,8 +3114,7 @@ games:
       span:
       - 2011
       - 2011
-      icon: /assets/img/works/black-white.png
-      icon2: /assets/img/works/black-white-2.png
+      icon: /assets/img/works/menu-pkmn-3d-menu-icon.png
       color: '#222222'
       color2: '#e6e6e6'
       credits: pokedex-3d
@@ -3204,7 +3203,7 @@ games:
       span:
       - 2011
       - 2011
-      icon: /assets/img/works/ball-typing.png
+      icon: /assets/img/works/menu-pkmn-ta-menu-icon.png
       color: '#2e7d32'
       credits: learn-with-pokemon-typing-adventure
       title_zh: 宝可梦打字DS

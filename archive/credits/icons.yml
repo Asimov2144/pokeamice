@@ -1,16 +1,20 @@
-# 由 tools/build-work-icons.py 生成：制作名单里的作品 → 官方图标（Bulbagarden Archives），works.yml 没有的才用
+# 由 tools/build-work-icons.py 生成：制作名单里的作品 → 官方图标（Bulbagarden Archives；DS / 3DS 菜单图标缺的取 Pokémon Wiki），works.yml 没有的才用
 art-academy:
 - /assets/img/works/bulba-art-academy-icon.png
 battle-trozei:
 - /assets/img/works/bulba-battle-trozei-icon.png
 cafe-remix:
 - /assets/img/works/bulba-pokemon-cafe-remix-icon-switch.png
+conquest:
+- /assets/img/works/menu-pkmn-c-menu-icon.png
 detective-pikachu:
 - /assets/img/works/bulba-detective-pikachu-icon.png
 detective-pikachu-birth-of-a-new-duo:
 - /assets/img/works/bulba-great-detective-pikachu-birth-of-a-new-duo-icon.png
 detective-pikachu-returns:
 - /assets/img/works/bulba-detective-pikachu-returns-icon.png
+dream-radar:
+- /assets/img/works/menu-pkmn-dr-menu-icon.png
 duel:
 - /assets/img/works/bulba-pokemon-duel-icon-7-0-7.png
 friends:
@@ -39,6 +43,8 @@ picross:
 - /assets/img/works/bulba-picross-icon.png
 pinball-ruby-sapphire:
 - /assets/img/works/bulba-pinball-ruby-and-sapphire-vc-icon.png
+pokedex-3d-pro:
+- /assets/img/works/menu-pkmn-3d-p-menu-icon.png
 pokepark-wii:
 - /assets/img/works/bulba-pokeparkwiieshopicone.png
 pokken-tournament:
@@ -84,3 +90,5 @@ trading-card-game:
 - /assets/img/works/bulba-tcg-gb-vc-icon.png
 trading-card-game-pocket:
 - /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
+trozei:
+- /assets/img/works/menu-pkmn-t-menu-icon.png

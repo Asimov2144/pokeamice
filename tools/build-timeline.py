@@ -160,6 +160,12 @@ def main():
                 chip[k] = w[k]
         return chip
 
+    def game_icons(g):
+        """a staff-roll game's icon: its work's, or the one credits_games.yml carries for a game works.yml lacks"""
+        if g.get("work"):
+            return {k: v for k, v in work_chip(g["work"]).items() if k != "name"}
+        return {k: g[k] for k in ("icon", "icon2") if g.get(k)}
+
     by_year = collections.defaultdict(list)
     for p in posts:
         by_year[p["year"]].append(p)
@@ -226,7 +232,7 @@ def main():
             "stream": sum(stream.values()),
             "kinds": kinds,
             "streams": stream,
-            "games": [{"slug": g["slug"], "title": g.get("title_zh") or g["title"], "core": bool(g.get("core")), **({k: v for k, v in work_chip(g.get("work")).items() if k != "name"} if g.get("work") else {})} for g in rel_games],
+            "games": [{"slug": g["slug"], "title": g.get("title_zh") or g["title"], "core": bool(g.get("core")), **game_icons(g)} for g in rel_games],
             "people": [{"name": n, "slug": slug_of[n], "n": c} for n, c in pc.most_common(6)],
             "works": [dict(work_chip(n), n=c) for n, c in wc.most_common(5)],
             "picks": pick_rows,
@@ -243,7 +249,7 @@ def main():
         era_rows.append({
             "label": e["label"], "from": e["from"], "to": min(e["to"], years[-1]["year"]),
             "docs": sum(y["docs"] for y in ys), "stream": sum(y["stream"] for y in ys),
-            "games": [{"slug": g["slug"], "title": g.get("title_zh") or g["title"], "year": g["year"], **({k: v for k, v in work_chip(g.get("work")).items() if k != "name"} if g.get("work") else {})} for g in core][:10],
+            "games": [{"slug": g["slug"], "title": g.get("title_zh") or g["title"], "year": g["year"], **game_icons(g)} for g in core][:10],
             "people": [{"name": n, "slug": slug_of[n], "n": c} for n, c in pc.most_common(5)],
         })
 
