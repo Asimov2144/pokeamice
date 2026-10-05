@@ -794,7 +794,14 @@ document.addEventListener("DOMContentLoaded", () => {
       smartSearchResults.innerHTML = "";
       return;
     }
-    const source = Array.isArray(window.store) ? window.store : [];
+    // the store no longer comes with the page (_includes/search/lunr-search-scripts.html): fetch it on the first keystroke
+    if (!Array.isArray(window.store) && window.paLoadSearchStore) {
+      smartSearchResults.classList.add("is-active");
+      smartSearchResults.innerHTML = "<p>正在载入…</p>";
+      window.paLoadSearchStore().then(() => renderSmartSearch(smartSearchInput.value));
+      return;
+    }
+    const source = Array.isArray(window.store) ? window.store.filter(Boolean) : [];
     const terms = normalized.split(/\s+/).filter(Boolean);
     const matches = source.filter((item) => {
       const haystack = [

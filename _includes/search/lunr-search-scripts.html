@@ -5,6 +5,9 @@
 {% else %}
   {% assign lang = "en" %}
 {% endcase %}
-<script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
+{%- comment -%}
+  Only the small search script loads with the page. lunr.min.js and lunr-store.js (every page's full text, 3.5 MB)
+  used to load here too and the index was built at once, on every page - seconds of a frozen page. lunr-en.js now
+  fetches them, and builds the index in a worker, the first time the search is opened.
+{%- endcomment -%}
 <script src="{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}"></script>
