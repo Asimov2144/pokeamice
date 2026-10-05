@@ -108,8 +108,12 @@ WORKS_MENU = {"宝可梦打字DS": ["PKMN TA Menu Icon.png"], "宝可梦立体�
 # icons cut out of a bigger official picture: (source, box). The Wii has no square menu icon - a disc or a WiiWare title is
 # a channel banner - but its save data carries a 48x48 icon drawn from the same banner art, shown in Data Management:
 # those, from The Spriters Resource's "Wii Banner and Memory Data" sheets (Wayback copies; the site sits behind a bot
-# check). Pokémon Dash: the picture on Nintendo's own page for it, squared.
+# check). Pokémon Dash: the picture on Nintendo's own page for it, squared. The WiiWare Mystery Dungeon trio (no finished
+# icon anywhere - the sheet has only the banner's layers) wears its Japanese logo like the films do: the title the three
+# share, without the per-squad line under it (the Archives' picture stacks the three logos).
 CROPS = {
+    "PMD WiiWare Japanese logo": (
+        "https://archives.bulbagarden.net/media/upload/f/ff/Pok%C3%A9mon_Mystery_Dungeon_Wii.png", (0, 2, 220, 74)),
     "Pokémon Battle Revolution Wii save icon": (
         "https://web.archive.org/web/20230731175906id_/https://www.spriters-resource.com/resources/sheets/75/77680.png?updated=1460968853", (926, 70, 974, 118)),
     "Pokémon Rumble Wii save icon": (
@@ -181,6 +185,7 @@ CREDITS_ICONS = {
     "trozei": ["PKMN T Menu Icon.png"],
     # cut out of a bigger picture (CROPS)
     "my-pokemon-ranch": ["My Pokémon Ranch Wii save icon JP"],
+    "mystery-dungeon-wiiware": ["PMD WiiWare Japanese logo"],
     "dash": ["Pokémon Dash official site"],
 }
 CREDITS_ICONS_FILE = ROOT / "archive" / "credits" / "icons.yml"

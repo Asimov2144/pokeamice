@@ -1315,6 +1315,7 @@ years:
   - slug: mystery-dungeon-wiiware
     title: 宝可梦不可思议迷宫 炎·岚·光之冒险团（WiiWare）
     core: false
+    icon: /assets/img/works/crop-pmd-wiiware-japanese-logo.png
   - slug: pokepark-wii
     title: 宝可公园Wii 皮卡丘的大冒险
     core: false
