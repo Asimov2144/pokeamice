@@ -105,6 +105,21 @@ MENU = {
 # name -> menu icon(s): the DS typing game, and Pokédex 3D (a 3DS app with its own icon, not Black and White's)
 WORKS_MENU = {"宝可梦打字DS": ["PKMN TA Menu Icon.png"], "宝可梦立体图鉴BW": ["PKMN 3D Menu Icon.png"]}
 
+# icons cut out of a bigger official picture: (source, box). The Wii has no square menu icon - a disc or a WiiWare title is
+# a channel banner - but its save data carries a 48x48 icon drawn from the same banner art, shown in Data Management:
+# those, from The Spriters Resource's "Wii Banner and Memory Data" sheets (Wayback copies; the site sits behind a bot
+# check). Pokémon Dash: the picture on Nintendo's own page for it, squared.
+CROPS = {
+    "Pokémon Battle Revolution Wii save icon": (
+        "https://web.archive.org/web/20230731175906id_/https://www.spriters-resource.com/resources/sheets/75/77680.png?updated=1460968853", (926, 70, 974, 118)),
+    "Pokémon Rumble Wii save icon": (
+        "https://web.archive.org/web/20180718150954id_/https://www.spriters-resource.com/resources/sheets/62/65086.png", (813, 188, 861, 236)),
+    "My Pokémon Ranch Wii save icon JP": (
+        "https://web.archive.org/web/20251126165540id_/https://www.spriters-resource.com/media/assets/73/75734.png?updated=1755474159", (3, 763, 51, 811)),
+    "Pokémon Dash official site": ("https://www.nintendo.co.jp/ds/apdj/top_07.jpg", (2, 0, 222, 220)),
+}
+WORKS_CROPS = {"宝可梦乱战": ["Pokémon Rumble Wii save icon"], "宝可梦对战革命": ["Pokémon Battle Revolution Wii save icon"]}
+
 # HOME icons the gallery does not carry, taken from the Archives' copies instead
 HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
 
@@ -113,8 +128,8 @@ HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
 #  `python tools/build-work-icons.py --split <picture> home-firered home-leafgreen`)
 LOCAL = {"Pokémon Pokopia": ["pokopia.png"], "宝可梦 火红·叶绿": ["home-firered.png", "home-leafgreen.png"]}
 # kept although works.yml no longer points at them: the App's data snapshot (assets/data/app) still does, until the
-# next full export (Pokédex 3D wore Black and White's DS icons, the typing game the classic mark, before 2026-10-05)
-KEEP = {"pokopia-logo.png", "black-white.png", "black-white-2.png", "ball-typing.png"}
+# next full export (Pokédex 3D wore Black and White's DS icons, the typing game, Rumble and Battle Revolution the classic mark, before 2026-10-05)
+KEEP = {"pokopia-logo.png", "black-white.png", "black-white-2.png", "ball-typing.png", "ball-rumble.png", "ball-battle-revolution.png"}
 
 # credits slug -> Archives file(s), for the games the staff rolls cover but works.yml does not
 CREDITS_ICONS = {
@@ -164,6 +179,9 @@ CREDITS_ICONS = {
     "pokedex-3d-pro": ["PKMN 3D P Menu Icon.png"],
     "conquest": ["PKMN C Menu Icon.png"],
     "trozei": ["PKMN T Menu Icon.png"],
+    # cut out of a bigger picture (CROPS)
+    "my-pokemon-ranch": ["My Pokémon Ranch Wii save icon JP"],
+    "dash": ["Pokémon Dash official site"],
 }
 CREDITS_ICONS_FILE = ROOT / "archive" / "credits" / "icons.yml"
 
@@ -245,9 +263,24 @@ def menu_tile(title, force=False):
     return f
 
 
+def crop_tile(title, force=False):
+    """cut one icon out of a bigger picture (CROPS), cached as assets/img/works/crop-<slug>.png"""
+    f = OUT / f"crop-{slug_of(title)}.png"
+    if not f.exists() or force:
+        url, box = CROPS[title]
+        tile_from(fetch(url).crop(box)).save(f, optimize=True)
+        print(f"  {f.name:40s} <- {title} {box}")
+        time.sleep(1)
+    return f
+
+
 def icon_tile(title, force=False):
-    """an Archives file, or one of the menu icons"""
-    return menu_tile(title, force) if title in MENU else archive_tile(title, force)
+    """an Archives file, one of the menu icons, or a cut-out"""
+    if title in MENU:
+        return menu_tile(title, force)
+    if title in CROPS:
+        return crop_tile(title, force)
+    return archive_tile(title, force)
 
 
 def hexrgb(h):
@@ -360,6 +393,9 @@ def main():
         elif name in WORKS_MENU:
             credit = "官方 DS / 3DS 菜单图标（Pokémon Wiki，Wayback 存档）"
             files = [menu_tile(t, force) for t in WORKS_MENU[name]]
+        elif name in WORKS_CROPS:
+            credit = "Wii 存档图标（与频道横幅同一套官方素材；The Spriters Resource，Wayback 存档）"
+            files = [crop_tile(t, force) for t in WORKS_CROPS[name]]
         elif name in OFFICIAL:
             credit = "官方 DS 图标（SteamGridDB · FloweyGaming577）"
             for i, h in enumerate(OFFICIAL[name]):

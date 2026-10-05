@@ -461,6 +461,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dash
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンダッシュのスタッフクレジット
   gf_count: 2
+  icon: /assets/img/works/crop-pokemon-dash-official-site.png
 - slug: masters-arena
   title: Pokémon Masters Arena
   title_zh: 宝可梦大师竞技场
@@ -555,6 +556,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_My_Pokémon_Ranch
   source_ja: https://wiki.pokemonwiki.com/wiki/みんなのポケモン牧場のスタッフクレジット
   gf_count: 6
+  icon: /assets/img/works/crop-my-pokemon-ranch-wii-save-icon-jp.png
 - slug: ranger-shadows-of-almia
   title: 'Pokémon Ranger: Shadows of Almia'
   title_zh: 宝可梦巡护员 风涌篇

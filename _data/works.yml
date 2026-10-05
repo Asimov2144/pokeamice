@@ -226,8 +226,8 @@
 - name: 宝可梦乱战
   color: '#ef6c00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-rumble.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/crop-pokemon-rumble-wii-save-icon.png
+  icon_credit: Wii 存档图标（与频道横幅同一套官方素材；The Spriters Resource，Wayback 存档）
 - name: 超级宝可梦乱战
   color: '#ef6c00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
@@ -236,8 +236,8 @@
 - name: 宝可梦对战革命
   color: '#3949ab'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-battle-revolution.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/crop-pokemon-battle-revolution-wii-save-icon.png
+  icon_credit: Wii 存档图标（与频道横幅同一套官方素材；The Spriters Resource，Wayback 存档）
 - name: 宝可梦频道
   color: '#00897b'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png

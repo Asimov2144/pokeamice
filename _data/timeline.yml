@@ -928,6 +928,7 @@ years:
   - slug: dash
     title: 宝可梦冲刺赛
     core: false
+    icon: /assets/img/works/crop-pokemon-dash-official-site.png
   - slug: masters-arena
     title: 宝可梦大师竞技场
     core: false
@@ -1102,7 +1103,7 @@ years:
   - slug: battle-revolution
     title: 宝可梦对战革命
     core: false
-    icon: /assets/img/works/ball-battle-revolution.png
+    icon: /assets/img/works/crop-pokemon-battle-revolution-wii-save-icon.png
     color: '#3949ab'
   - slug: ranger
     title: 宝可梦巡护员
@@ -1129,7 +1130,7 @@ years:
     color2: '#c98ab6'
     n: 3
   - name: 宝可梦对战革命
-    icon: /assets/img/works/ball-battle-revolution.png
+    icon: /assets/img/works/crop-pokemon-battle-revolution-wii-save-icon.png
     color: '#3949ab'
     n: 1
   picks:
@@ -1219,6 +1220,7 @@ years:
   - slug: my-pokemon-ranch
     title: 大家的宝可梦牧场
     core: false
+    icon: /assets/img/works/crop-my-pokemon-ranch-wii-save-icon-jp.png
   - slug: ranger-shadows-of-almia
     title: 宝可梦巡护员 风涌篇
     core: false
@@ -1320,7 +1322,7 @@ years:
   - slug: rumble
     title: 宝可梦乱战
     core: false
-    icon: /assets/img/works/ball-rumble.png
+    icon: /assets/img/works/crop-pokemon-rumble-wii-save-icon.png
     color: '#ef6c00'
   people:
   - name: 首藤刚志
@@ -1555,7 +1557,7 @@ years:
     color: '#ef6c00'
     n: 5
   - name: 宝可梦乱战
-    icon: /assets/img/works/ball-rumble.png
+    icon: /assets/img/works/crop-pokemon-rumble-wii-save-icon.png
     color: '#ef6c00'
     n: 4
   - name: 宝可梦打字DS
