@@ -1,0 +1,29 @@
+{%- comment -%}
+  The masthead of the Japanese edition: the same bar as masthead.html, with the site's Chinese
+  sections replaced by the way into the Japanese pages and back to the Chinese site. No search
+  button - the site search indexes the Chinese pages.
+{%- endcomment -%}
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" lang="ja">
+        {% if site.logo %}
+          <a class="site-logo" href="{{ '/ja/' | relative_url }}"><img src="{{ site.logo | relative_url }}" alt="{{ site.title }}"></a>
+        {% endif %}
+        <a class="site-title" href="{{ '/ja/' | relative_url }}">
+          {{ site.title }}
+          <span class="site-subtitle">日本語版</span>
+        </a>
+        <ul class="visible-links">
+          <li class="masthead__menu-item"><a href="{{ '/ja/' | relative_url }}">インタビュー一覧</a></li>
+          <li class="masthead__menu-item"><a href="{{ '/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">中文站</a></li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">メニュー</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

@@ -23,6 +23,16 @@ kept on the turns even though the presentation around them is new.
 {%- endcomment -%}
 {% assign items = page.parallel_items | default: page.translation_segments | default: page.segments %}
 {%- comment -%}
+  The Japanese edition (_ja/, tools/build-ja-edition.py) renders through this same layout: the
+  Japanese is in `translation`, the labels come from _data/ed_ui.yml, and what is written for
+  the Chinese page - the lore index, the shelf, the crumbs, the series - is left out.
+{%- endcomment -%}
+{% assign ja = false %}{% if page.lang == "ja" %}{% assign ja = true %}{% endif %}
+{% assign ui = site.data.ed_ui.zh %}{% if ja %}{% assign ui = site.data.ed_ui.ja %}{% endif %}
+{%- comment -%} a Chinese post with a Japanese page gets a link to it (and the Japanese page one back) {%- endcomment -%}
+{% assign post_stem = page.path | split: "/" | last | split: "." | first %}
+{% assign ja_url = nil %}{% unless ja %}{% assign ja_url = site.data.ja_edition[post_stem] %}{% endunless %}
+{%- comment -%}
   The source language, from wherever the post keeps it. GameSpot declared
   `en` under source.language and still showed "JA" beside English, because
   only original_lang was read and its default was Japanese. There is no
@@ -82,7 +92,7 @@ kept on the turns even though the presentation around them is new.
 {% if is_scan %}{% assign hero = nil %}{% endif %}
 {% include era-skin.html %}
 {%- comment -%} the other chapters of this piece, if it has any - for the nav after the body and the shelf at the end {%- endcomment -%}
-{% include interview-series.html %}
+{% unless ja %}{% include interview-series.html %}{% endunless %}
 {%- comment -%}
   The standfirst. `dek` is the editor's; failing that a short summary reads
   as one, while a long summary is a synopsis and goes after the piece.
@@ -157,39 +167,48 @@ kept on the turns even though the presentation around them is new.
 {%- endcomment -%}
 <main class="ed{% if is_technical %} ed--technical{% endif %}{% if is_scan %} ed--scan{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
   {%- comment -%} where this piece sits: section › year › series or outlet {%- endcomment -%}
+  {% if ja %}
+  <nav class="crumbs" aria-label="現在位置">
+    <ol class="crumbs__list">
+      <li class="crumbs__item"><a class="crumbs__link" href="{{ '/ja/' | relative_url }}">日本語版</a></li>
+      <li class="crumbs__item crumbs__item--here" aria-current="page"><span class="crumbs__here">{{ outlet_short }} · {{ page.date | date: "%Y" }}</span></li>
+    </ol>
+  </nav>
+  {% else %}
   {% include crumbs.html %}
+  {% endif %}
 
   {%- comment -%}
     One small control, not a bar. The current view reads as a word; everything
     else waits behind the gear. Same buttons and data attributes the shared
     script binds to.
   {%- endcomment -%}
-  <details class="ed-tools parallel-tools" aria-label="阅读设置">
+  <details class="ed-tools parallel-tools" aria-label="{{ ui.tools }}">
     <summary class="ed-tools__summary">
-      <span class="ed-tools__view" data-ed-current-view>译文</span>
+      <span class="ed-tools__view" data-ed-current-view>{{ ui.v_translation }}</span>
       <span class="ed-tools__gear" aria-hidden="true">⚙</span>
-      <span class="screen-reader-text">阅读设置</span>
+      <span class="screen-reader-text">{{ ui.tools }}</span>
     </summary>
     <div class="ed-tools__panel parallel-tools__panel">
-      <div class="ed-tools__group" role="group" aria-label="版本">
-        <button type="button" class="ed-tools__btn is-active" data-view-choice="translation" aria-pressed="true" data-tip="只读中文译文">译文</button>
-        <button type="button" class="ed-tools__btn" data-view-choice="parallel" aria-pressed="false" data-tip="原文与译文左右并排，逐段对照">双栏对照</button>
-        <button type="button" class="ed-tools__btn" data-view-choice="original" aria-pressed="false" data-tip="只读原文">原文</button>
+      <div class="ed-tools__group" role="group" aria-label="{{ ui.g_version }}">
+        <button type="button" class="ed-tools__btn is-active" data-view-choice="translation" aria-pressed="true" data-tip="{{ ui.tip_translation }}">{{ ui.v_translation }}</button>
+        <button type="button" class="ed-tools__btn" data-view-choice="parallel" aria-pressed="false" data-tip="{{ ui.tip_parallel }}">{{ ui.v_parallel }}</button>
+        <button type="button" class="ed-tools__btn" data-view-choice="original" aria-pressed="false" data-tip="{{ ui.tip_original }}">{{ ui.v_original }}</button>
       </div>
-      <div class="ed-tools__group" role="group" aria-label="主题">
-        <button type="button" class="ed-tools__btn is-active" data-theme-choice="auto" aria-pressed="true" data-tip="按原刊年代换版式：{{ era_label | default: '早期网页、杂志、Switch 时代各一套' }}">年代主题</button>
-        <button type="button" class="ed-tools__btn" data-theme-choice="dark" aria-pressed="false" data-tip="深色纸面，夜里读">深色</button>
-        <button type="button" class="ed-tools__btn" data-theme-choice="clean" aria-pressed="false" data-tip="不带年代装饰的白底">纯净</button>
+      <div class="ed-tools__group" role="group" aria-label="{{ ui.g_theme }}">
+        <button type="button" class="ed-tools__btn is-active" data-theme-choice="auto" aria-pressed="true" data-tip="{% if ja %}{{ ui.tip_era }}{% else %}按原刊年代换版式：{{ era_label | default: '早期网页、杂志、Switch 时代各一套' }}{% endif %}">{{ ui.theme_auto }}</button>
+        <button type="button" class="ed-tools__btn" data-theme-choice="dark" aria-pressed="false" data-tip="{{ ui.tip_dark }}">{{ ui.theme_dark }}</button>
+        <button type="button" class="ed-tools__btn" data-theme-choice="clean" aria-pressed="false" data-tip="{{ ui.tip_clean }}">{{ ui.theme_clean }}</button>
       </div>
-      <div class="ed-tools__group" role="group" aria-label="阅读">
-        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle" data-tip="隐去站点导航与边栏，只留正文">专注模式</button>
+      <div class="ed-tools__group" role="group" aria-label="{{ ui.g_reading }}">
+        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle" data-tip="{{ ui.tip_zen }}"{% if ja %} data-label-on="{{ ui.zen_off }}" data-label-off="{{ ui.zen }}"{% endif %}>{{ ui.zen }}</button>
         {% if is_scan %}<button type="button" class="ed-tools__btn is-active" data-vertical-toggle aria-pressed="true" title="纵排区域的原文按原刊竖排">竖排原文</button>{% endif %}
       </div>
       {% if answerers.size > 0 %}
-        <div class="ed-tools__group parallel-cast-bar" role="group" aria-label="只看某人">
-          <span class="ed-tools__label">只看</span>
+        <div class="ed-tools__group parallel-cast-bar" role="group" aria-label="{{ ui.g_cast }}">
+          <span class="ed-tools__label">{{ ui.cast }}</span>
           {% for sp in answerers %}
-            <button type="button" class="ed-tools__btn parallel-cast-chip parallel-cast-chip--guest" data-speaker="{{ sp | escape }}" aria-pressed="false" data-tip="只显示{{ sp }}的发言（再点一次取消）">{{ sp }}</button>
+            <button type="button" class="ed-tools__btn parallel-cast-chip parallel-cast-chip--guest" data-speaker="{{ sp | escape }}" aria-pressed="false" data-tip="{{ ui.tip_cast_a }}{{ sp }}{{ ui.tip_cast_b }}">{{ sp }}</button>
           {% endfor %}
         </div>
       {% endif %}
@@ -204,6 +223,7 @@ kept on the turns even though the presentation around them is new.
         <span>{{ page.date | date: "%Y" }}</span>
         {% if page.dateline %}<span>{{ page.dateline }}</span>{% endif %}
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
+        {% if ja %}<span class="ed-kicker__ai">AI翻訳</span>{% endif %}
       </p>
       {%- comment -%}
         The display title can be the line itself - "Nintendo Switch 就是未来" -
@@ -222,7 +242,7 @@ kept on the turns even though the presentation around them is new.
       {% assign people_line = answerers %}
       {% if people_line.size == 0 and page.entities.people %}{% assign people_line = page.entities.people %}{% endif %}
       {% if people_line.size > 0 %}
-        <p class="ed-people">{% for who in people_line %}{% assign portrait = site.data.people | where: "name", who | first %}{% if portrait.slug and portrait.kind != "character" %}<a class="ed-person" href="{{ '/people/' | append: portrait.slug | append: '/' | relative_url }}">{% else %}<span class="ed-person">{% endif %}{% include person-avatar.html who=who post=page %}{% if pa_src != "" %}<img class="ed-person__avatar" src="{{ pa_src | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}{{ who }}{% if portrait.slug and portrait.kind != "character" %}</a>{% else %}</span>{% endif %}{% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}{% endfor %}</p>
+        <p class="ed-people">{% for who in people_line %}{% assign who_key = who %}{% if ja %}{% assign who_key = page.speaker_zh[who] | default: who %}{% endif %}{% assign portrait = site.data.people | where: "name", who_key | first %}{% if portrait.slug and portrait.kind != "character" %}<a class="ed-person" href="{{ '/people/' | append: portrait.slug | append: '/' | relative_url }}">{% else %}<span class="ed-person">{% endif %}{% include person-avatar.html who=who_key post=page %}{% if pa_src != "" %}<img class="ed-person__avatar" src="{{ pa_src | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}{{ who }}{% if portrait.slug and portrait.kind != "character" %}</a>{% else %}</span>{% endif %}{% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}{% endfor %}</p>
       {% elsif is_technical and page.interviewee %}
         <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% elsif is_scan and page.interviewee %}
@@ -234,9 +254,11 @@ kept on the turns even though the presentation around them is new.
       <p class="ed-meta">
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
         <span>{{ page.date | date: "%Y.%m.%d" }}</span>
-        <span data-tip="按译文字数估算，每分钟 400 字">约 {{ reading_minutes }} 分钟</span>
-        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener" data-tip="在新窗口打开原始页面{% if record_language != "" %}（{{ record_language | upcase }}）{% endif %}">原文 ↗</a>{% endif %}
+        <span data-tip="{{ ui.read_tip }}">{{ ui.read_a }}{{ reading_minutes }}{{ ui.read_b }}</span>
+        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener" data-tip="{{ ui.src_tip }}{% if record_language != "" %}（{{ record_language | upcase }}）{% endif %}">{{ ui.src_link }}</a>{% endif %}
+        {% if ja %}<a class="ed-lang" href="{{ page.zh_url | relative_url }}" hreflang="zh-CN" lang="zh-CN" data-tip="同一篇的中文版">中文</a>{% elsif ja_url %}<a class="ed-lang" href="{{ ja_url | relative_url }}" hreflang="ja" lang="ja" data-tip="同一篇的日文版（AI 翻译）">日本語</a>{% endif %}
       </p>
+      {% if ja %}<aside class="ed-digest-note ed-ai-note" role="note"><b>AI翻訳</b>この記事は、{{ outlet_short }}に{{ page.original_lang_name }}で掲載されたインタビューを、AI（機械翻訳）で日本語に訳したものです。人による校正は行っていません。発言は日本語で語られたものではなく、表現や細部が原文と異なる場合があります。正確な内容は{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">原文</a>{% else %}原文{% endif %}をご確認ください。</aside>{% endif %}
       {% if digest %}<aside class="ed-digest-note" role="note"><b>要点整理</b>本篇是玩家 wiki 对这篇杂志访谈的笔记式整理，条目和小标题沿用了 wiki 的写法，不是杂志原文的全文。要读原话，请以杂志为准。</aside>{% endif %}
     </header>
 
@@ -251,7 +273,7 @@ kept on the turns even though the presentation around them is new.
 
     {% if contents.size >= 6 %}
       <details class="ed-contents">
-        <summary class="ed-contents__summary"><span class="ed-contents__eyebrow">Contents</span> 本篇 {{ contents.size }} 章</summary>
+        <summary class="ed-contents__summary"><span class="ed-contents__eyebrow">Contents</span> {{ ui.contents_a }}{{ contents.size }}{{ ui.contents_b }}</summary>
         <ol class="ed-contents__list">
           {% for c_title in contents %}
             <li><a href="#chapter-{{ forloop.index }}">{{ c_title }}</a></li>
@@ -326,7 +348,7 @@ kept on the turns even though the presentation around them is new.
               <div class="ed-turn__text parallel-text__pair">
                 {% assign seg_lang = item.original_lang | default: original_lang %}
                 <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
-                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
+                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="{{ ui.orig_toggle }}"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
                   <div class="ed-orig">{{ item.original | markdownify }}</div>
                 </details>
                 <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
@@ -350,7 +372,7 @@ kept on the turns even though the presentation around them is new.
             <div class="ed-turn__text parallel-text__pair">
               {% assign seg_lang = item.original_lang | default: original_lang %}
               <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
-                <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
+                <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="{{ ui.orig_toggle }}"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
                 <div class="ed-orig">{{ item.original | markdownify }}</div>
               </details>
               <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
@@ -404,7 +426,7 @@ kept on the turns even though the presentation around them is new.
     {%- comment -%} Epilogue: the editor's framing, after the interview rather than in front of it. A technical feature already led with its summary. {%- endcomment -%}
     {% if page.intro and is_technical == false %}
       <aside class="ed-epilogue">
-        <h2>编者按</h2>
+        <h2>{{ ui.intro_h }}</h2>
         {{ page.intro | markdownify }}
       </aside>
     {% elsif is_scan and page.summary %}
@@ -414,7 +436,7 @@ kept on the turns even though the presentation around them is new.
       </aside>
     {% elsif summary_len > 140 and is_technical == false %}
       <aside class="ed-epilogue">
-        <h2>提要</h2>
+        <h2>{{ ui.summary_h }}</h2>
         {{ summary_text | markdownify }}
       </aside>
     {% endif %}
@@ -423,32 +445,38 @@ kept on the turns even though the presentation around them is new.
     {% endif %}
 
     {%- comment -%} What this piece names, and what it is tied to: the same index the App's dex machine reads. {%- endcomment -%}
-    {% include post-lore.html %}
+    {% unless ja %}{% include post-lore.html %}{% endunless %}
 
     {%- comment -%} The shelf: the rest of the series, the same people, the same game, the same outlet. {%- endcomment -%}
-    {% include interview-related.html %}
+    {% unless ja %}{% include interview-related.html %}{% endunless %}
 
     {%- comment -%} Archive layer: for whoever comes to check, not to read. {%- endcomment -%}
     <footer class="ed-archive">
       <details class="ed-archive__record parallel-archive-record">
-        <summary class="parallel-archive-record__heading"><span class="parallel-archive-record__eyebrow">Archive</span> 档案信息</summary>
+        <summary class="parallel-archive-record__heading"><span class="parallel-archive-record__eyebrow">Archive</span> {{ ui.archive }}</summary>
         <dl class="parallel-archive-record__grid">
           <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
           <div><dt>Source</dt><dd>{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">{{ record_source_title }}</a>{% else %}{{ record_source_title }}{% endif %}</dd></div>
           <div><dt>People</dt><dd>{{ answerers | join: "、" | default: record_people }}</dd></div>
-          <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
+          {% unless ja %}<div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>{% endunless %}
           <div><dt>Language</dt><dd>{% if record_language != "" %}{{ record_language | upcase }} → {% endif %}{{ translation_lang }}</dd></div>
           <div><dt>Status</dt><dd>{{ record_status }}</dd></div>
           {% if page.interview_id %}<div><dt>ID</dt><dd>{{ page.interview_id }}</dd></div>{% endif %}
         </dl>
-        {% include resource-card.html document=page %}
+        {% unless ja %}{% include resource-card.html document=page %}{% endunless %}
       </details>
-      <nav class="parallel-archive-route" aria-label="档案路径">
+      <nav class="parallel-archive-route" aria-label="{{ ui.archive_route }}">
+        {% if ja %}
+        <a href="{{ '/ja/' | relative_url }}">日本語版の一覧</a>
+        <a href="{{ page.zh_url | relative_url }}" hreflang="zh-CN">中文版</a>
+        <a href="#parallel-reading">ページの先頭へ</a>
+        {% else %}
         <a href="{{ '/search/?type=访谈翻译' | relative_url }}">访谈索引</a>
         <a href="{{ '/timeline/' | relative_url }}">时间线</a>
         <a href="#parallel-reading">回到开头</a>
+        {% endif %}
       </nav>
-      {% include article-references.html %}
+      {% unless ja %}{% include article-references.html %}{% endunless %}
     </footer>
   </article>
 </main>
@@ -461,8 +489,8 @@ kept on the turns even though the presentation around them is new.
     var root = document.querySelector("[data-parallel-translation]");
     var label = document.querySelector("[data-ed-current-view]");
     if (!root || !label) return;
-    var names = { translation: "译文", parallel: "双栏对照", original: "原文" };
-    var sync = function () { label.textContent = names[root.getAttribute("data-view")] || "译文"; };
+    var names = { translation: "{{ ui.v_translation }}", parallel: "{{ ui.v_parallel }}", original: "{{ ui.v_original }}" };
+    var sync = function () { label.textContent = names[root.getAttribute("data-view")] || "{{ ui.v_translation }}"; };
     new MutationObserver(sync).observe(root, { attributes: true, attributeFilter: ["data-view"] });
     sync();
   })();

@@ -54,7 +54,7 @@
 {% endif %}
 
 <meta property="og:type" content="{{ og_type }}">
-<meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
+<meta property="og:locale" content="{% if page.lang == "ja" %}ja_JP{% else %}{{ site.locale | replace: "-", "_" | default: "en_US" }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:url" content="{{ canonical_url }}">
@@ -113,6 +113,19 @@
 {% endif %}
 
 <link rel="canonical" href="{{ canonical_url }}">
+
+{%- comment -%} the Japanese edition: a Chinese post and its Japanese page name each other (tools/build-ja-edition.py) {%- endcomment -%}
+{%- if page.lang == "ja" and page.zh_url %}
+<link rel="alternate" hreflang="zh-CN" href="{{ page.zh_url | absolute_url }}">
+<link rel="alternate" hreflang="ja" href="{{ canonical_url }}">
+{%- elsif page.collection == "posts" %}
+  {%- assign hl_stem = page.path | split: "/" | last | split: "." | first %}
+  {%- assign hl_ja = site.data.ja_edition[hl_stem] %}
+  {%- if hl_ja %}
+<link rel="alternate" hreflang="zh-CN" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="ja" href="{{ hl_ja | absolute_url }}">
+  {%- endif %}
+{%- endif %}
 
 {% if page.collection == "posts" %}
   {% include article-schema.html %}

@@ -6,5 +6,28 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
 <link rel="manifest" href="/assets/img/site.webmanifest" />
+{%- if page.lang == "ja" %}
+{%- comment -%}
+  The Japanese edition: the site's stacks name Chinese fonts (YaHei, PingFang SC, Songti SC, SimSun, Noto SC),
+  which draw kanji in their Chinese forms. On these pages those names are taken over by the system's
+  Japanese fonts - an author @font-face hides an installed font of the same name - so the era designs keep
+  their stacks and the text gets Japanese glyphs. A name with no Japanese font behind it falls through to the next.
+{%- endcomment -%}
+<style>
+@font-face{font-family:"Microsoft YaHei";src:local("Yu Gothic UI"),local("YuGothicUI-Regular"),local("Yu Gothic Medium"),local("YuGothic-Medium"),local("Meiryo");font-weight:400}
+@font-face{font-family:"Microsoft YaHei";src:local("Yu Gothic UI Bold"),local("YuGothicUI-Bold"),local("Yu Gothic Bold"),local("YuGothic-Bold"),local("Meiryo Bold"),local("Meiryo-Bold");font-weight:700}
+@font-face{font-family:"PingFang SC";src:local("Hiragino Sans W3"),local("HiraginoSans-W3"),local("Hiragino Kaku Gothic ProN W3"),local("HiraKakuProN-W3");font-weight:400}
+@font-face{font-family:"PingFang SC";src:local("Hiragino Sans W6"),local("HiraginoSans-W6"),local("Hiragino Kaku Gothic ProN W6"),local("HiraKakuProN-W6");font-weight:700}
+@font-face{font-family:"Hiragino Sans GB";src:local("Hiragino Sans W3"),local("HiraginoSans-W3"),local("Hiragino Kaku Gothic ProN W3"),local("HiraKakuProN-W3");font-weight:400}
+@font-face{font-family:"Noto Sans SC";src:local("Noto Sans JP"),local("NotoSansJP-Regular"),local("Noto Sans CJK JP"),local("NotoSansCJKjp-Regular");font-weight:400}
+@font-face{font-family:"Noto Sans CJK SC";src:local("Noto Sans CJK JP"),local("NotoSansCJKjp-Regular"),local("Noto Sans JP"),local("NotoSansJP-Regular");font-weight:400}
+@font-face{font-family:"Source Han Sans SC";src:local("Source Han Sans JP"),local("SourceHanSansJP-Regular"),local("Source Han Sans"),local("SourceHanSans-Regular");font-weight:400}
+@font-face{font-family:"Songti SC";src:local("Hiragino Mincho ProN W3"),local("HiraMinProN-W3"),local("Yu Mincho"),local("YuMincho-Regular");font-weight:400}
+@font-face{font-family:"Songti SC";src:local("Hiragino Mincho ProN W6"),local("HiraMinProN-W6"),local("Yu Mincho Demibold"),local("YuMincho-Demibold");font-weight:700}
+@font-face{font-family:SimSun;src:local("Yu Mincho"),local("YuMincho-Regular"),local("MS Mincho"),local("MS-Mincho")}
+@font-face{font-family:"Noto Serif SC";src:local("Noto Serif JP"),local("NotoSerifJP-Regular"),local("Noto Serif CJK JP"),local("NotoSerifCJKjp-Regular"),local("Yu Mincho"),local("YuMincho-Regular");font-weight:400}
+@font-face{font-family:"Noto Serif CJK SC";src:local("Noto Serif CJK JP"),local("NotoSerifCJKjp-Regular"),local("Noto Serif JP"),local("NotoSerifJP-Regular"),local("Yu Mincho"),local("YuMincho-Regular");font-weight:400}
+</style>
+{%- endif %}
 
 <!-- end custom head snippets -->

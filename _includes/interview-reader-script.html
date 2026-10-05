@@ -127,7 +127,9 @@ same script instead of a copy. It binds to data attributes and the
       document.body.classList.toggle("is-zen-mode", active);
       if (zenBtn) {
         zenBtn.classList.toggle("is-zen-active", active);
-        zenBtn.innerHTML = active ? '<i class="fas fa-compress-alt"></i> 退出专注' : '<i class="fas fa-expand-alt"></i> 专注模式';
+        // the Japanese edition gives its own words in data-label-on / -off
+        zenBtn.innerHTML = active ? '<i class="fas fa-compress-alt"></i> ' + (zenBtn.getAttribute("data-label-on") || "退出专注")
+                                  : '<i class="fas fa-expand-alt"></i> ' + (zenBtn.getAttribute("data-label-off") || "专注模式");
       }
       try { localStorage.setItem(zenStorageKey, active ? "true" : "false"); } catch (_) {}
     }

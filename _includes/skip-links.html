@@ -1,7 +1,9 @@
+{%- comment -%} include.lang: the Japanese edition passes page.lang (ja) so these words follow the page {%- endcomment -%}
+{%- assign ui_loc = include.lang | default: site.locale -%}
 <nav class="skip-links">
   <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">{{ site.data.ui-text[site.locale].skip_primary_nav | default: 'Skip to primary navigation' }}</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">{{ site.data.ui-text[site.locale].skip_content | default: 'Skip to content' }}</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">{{ site.data.ui-text[site.locale].skip_footer | default: 'Skip to footer' }}</a></li>
+    <li><a href="#site-nav" class="screen-reader-shortcut">{{ site.data.ui-text[ui_loc].skip_primary_nav | default: 'Skip to primary navigation' }}</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">{{ site.data.ui-text[ui_loc].skip_content | default: 'Skip to content' }}</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">{{ site.data.ui-text[ui_loc].skip_footer | default: 'Skip to footer' }}</a></li>
   </ul>
 </nav>

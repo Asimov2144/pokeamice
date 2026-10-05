@@ -336,6 +336,9 @@ collections:
   tags:
     output: true
     permalink: /tag/:path/
+  # 日文版：欧美访谈的日文 AI 译本，一篇一页，/ja/<slug>/（tools/build-ja-edition.py 生成，网址写在各篇的 permalink 里）
+  ja:
+    output: true
 
 # HTML Compression
 # - https://jch.penibelst.de/

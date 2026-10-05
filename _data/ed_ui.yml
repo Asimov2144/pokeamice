@@ -1,0 +1,72 @@
+# interview-editorial 版式上的界面文字。zh 是原来写死在版式里的中文，原样搬来；ja 给日文版（page.lang: ja）。
+zh:
+  tools: 阅读设置
+  g_version: 版本
+  v_translation: 译文
+  v_parallel: 双栏对照
+  v_original: 原文
+  tip_translation: 只读中文译文
+  tip_parallel: 原文与译文左右并排，逐段对照
+  tip_original: 只读原文
+  g_theme: 主题
+  theme_auto: 年代主题
+  theme_dark: 深色
+  tip_dark: 深色纸面，夜里读
+  theme_clean: 纯净
+  tip_clean: 不带年代装饰的白底
+  g_reading: 阅读
+  zen: 专注模式
+  zen_off: 退出专注
+  tip_zen: 隐去站点导航与边栏，只留正文
+  g_cast: 只看某人
+  cast: 只看
+  tip_cast_a: 只显示
+  tip_cast_b: 的发言（再点一次取消）
+  read_tip: 按译文字数估算，每分钟 400 字
+  read_a: "约 "
+  read_b: " 分钟"
+  src_tip: 在新窗口打开原始页面
+  src_link: 原文 ↗
+  contents_a: "本篇 "
+  contents_b: " 章"
+  orig_toggle: 展开这一段的原文
+  intro_h: 编者按
+  summary_h: 提要
+  archive: 档案信息
+  archive_route: 档案路径
+ja:
+  tools: 表示設定
+  g_version: 表示
+  v_translation: 日本語訳
+  v_parallel: 対訳
+  v_original: 原文
+  tip_translation: 日本語訳だけを表示
+  tip_parallel: 原文と日本語訳を左右に並べて、段落ごとに対照
+  tip_original: 原文だけを表示
+  tip_era: 掲載当時の年代に合わせたデザイン
+  g_theme: テーマ
+  theme_auto: 年代テーマ
+  theme_dark: ダーク
+  tip_dark: 暗い背景で読む
+  theme_clean: シンプル
+  tip_clean: 年代の装飾をはずした白背景
+  g_reading: 読む
+  zen: 集中モード
+  zen_off: 集中モードを終了
+  tip_zen: サイトのナビゲーションを隠して本文だけにする
+  g_cast: 発言者で絞り込む
+  cast: 発言者
+  tip_cast_a: ""
+  tip_cast_b: の発言だけを表示（もう一度押すと解除）
+  read_tip: 訳文の文字数から推定（1分あたり400字）
+  read_a: 約
+  read_b: 分
+  src_tip: 元の記事を新しいウィンドウで開く
+  src_link: 原文 ↗
+  contents_a: 全
+  contents_b: 章
+  orig_toggle: この段落の原文を表示
+  intro_h: 編集部より
+  summary_h: 概要
+  archive: 記事情報
+  archive_route: 関連ページ
