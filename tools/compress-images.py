@@ -1,4 +1,4 @@
-"""Recompress the interview pictures in place: same path, same format, same pixel size.
+"""Recompress the site's pictures in place (the interviews', the blogs'): same path, same format, same pixel size.
 
     python tools/compress-images.py            # dry run: what would change and by how much
     python tools/compress-images.py --write    # rewrite the files that pass
@@ -25,9 +25,9 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-DIRS = [ROOT / "assets" / "img" / "interviews"]
+DIRS = [ROOT / "assets" / "img" / "interviews", ROOT / "assets" / "images"]  # the interviews; the blogs' pictures (LINE blog, the director's column, the staff blogs, the scan plates)
 QUALITY = 82
-MIN_BYTES = 200_000
+MIN_BYTES = 50_000
 MIN_SAVING = 0.20
 
 

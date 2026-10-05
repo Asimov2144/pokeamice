@@ -191,6 +191,9 @@ exclude:
   # is a whole second copy of the site: an hour of build and a Liquid error.
   - /routeA-worktree
   - /data
+  # Internal design notes, audits and working data (md / json / zip): for the people working on the
+  # site, not for readers, and nothing on the site links to them. Kept in the repo, not published.
+  - /design
   - /.ruby-tmp
   - /_site
   - /assets/data/weibo-archive.json
