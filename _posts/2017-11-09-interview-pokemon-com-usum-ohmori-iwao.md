@@ -196,7 +196,7 @@ parallel_items:
   translation: 考虑到奈克洛兹玛、彩虹火箭队、新的究极异兽、骷髅队等，在《宝可梦 究极之日·究极之月》中有许多对立势力。在故事中平衡所有这些竞争性反派是否困难？
   role: question
 - type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/necrozma_art.png
+  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/necrozma_art.jpg
   alt: 光辉大神：奈克洛兹玛究极形态
   caption: 夺取阿罗拉之光的核心反派与核心传神：奈克洛兹玛（Necrozma）
 - type: dialogue

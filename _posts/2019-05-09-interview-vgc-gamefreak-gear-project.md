@@ -87,7 +87,7 @@ parallel_items:
   translation: "1组和2组之间有很多交流。有趣的一点是，专注于《宝可梦》的2组只了解特定的平台。因此通过团队混合，工程师可以学习到他们以前可能未曾接触过的其他平台。所以，通过混合团队，我们能够创造出这种有趣的协同效应。"
   role: answer
 - type: image
-  image: /assets/img/interviews/2019-05-09-interview-vgc-gamefreak-gear-project/Capture2-1.png
+  image: /assets/img/interviews/2019-05-09-interview-vgc-gamefreak-gear-project/Capture2-1.jpg
   caption: Town is an RPG due for Nintendo Switch in 2019（代号《Town》是由 GAME FREAK 第一制作组打造的 Nintendo Switch 原创 RPG，后正式定名为《小镇英雄》/ Little Town Hero）
 - speaker: VGC
   original: So it seems the experience gained via Gear Project is able to benefit the company as a whole?

@@ -105,7 +105,7 @@ parallel_items:
   translation: 当我们深入思考当下的孩子们究竟习惯如何玩游戏时，首先映入脑海的其实是手机游戏。如今大家倾向于单次游玩时间较短、在各种不同游戏之间快速切换的游戏习惯。如果一款游戏需要耗费两个多小时枯燥的前戏才能渐入佳境，许多人很可能会失去耐心，转而跳去玩其他应用。当年即使是在 3DS 虚拟主机（VC）上重温初代皮卡丘版，想要通关或者取得实质性推进，通常也需要耗费三四十个小时的硬核摸索。而在当今这个娱乐内容极大丰富、玩家有无数选择的时代，我们更倾向于打造一款能够顺畅推进、节奏明快的作品，以契合时代演进下当代儿童的游玩节奏。
   role: answer
 - type: image
-  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/riding_arcanine.png
+  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/riding_arcanine.jpg
   alt: 骑乘风速狗在关都大地上奔跑
   caption: 在三维关都大地上骑乘风速狗自由疾驰：明雷遇敌与多向全速奔跑彻底打破了传统网格移动的束缚
 - speaker: 增田顺一
@@ -181,7 +181,7 @@ parallel_items:
   translation: 关于拍板决策的幕后，是 The Pokémon Company International（TPCi）的公关团队、Niantic 公司高层以及我本人坐在一起深入脑暴出来的。我们反复推敲的核心是：我们究竟希望全世界玩家在第一眼看到美录坦时产生怎样的情感印象？如何才能让它从诞生第一秒起就显得灵动讨喜？如果公关宣传处理不当，有些人单看设定图可能会觉得‘这螺母脑袋是什么怪东西，有点诡异’；但如果让它突然成群结队地在《Pokémon GO》大地图上摇摇晃晃地蠕动、笨拙地东张西望，大家瞬间就会被引爆好奇心：‘天呐！这到底是什么全新神秘生物？！’我们深信，唯有这种打破现实与虚拟界限的方式，才是美录坦走向全世界的最佳舞台。
   role: answer
 - type: image
-  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/meltan_battle.png
+  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/meltan_battle.jpg
   alt: 幻之宝可梦美录坦在《宝可梦 Let's Go》中的战斗英姿
   caption: 幻之宝可梦“美录坦”：通过《Pokémon GO》与《Let's Go》联动的“神秘盒子”获取，开启跨平台联动的全新时代
 - speaker: Eurogamer

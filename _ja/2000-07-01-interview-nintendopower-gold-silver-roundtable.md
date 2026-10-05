@@ -104,7 +104,7 @@ parallel_items:
   translation: 増田氏：「これまでと同じポケモンの世界なんですが、物語は別のものになっています。新しいポケモンもたくさん登場しますよ。現時点ではこれ以上はお話しできないんです」。
   role: answer
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/JP-Gold.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/JP-Gold.jpg
   caption: 『ポケットモンスター 金』日本版パッケージ：ホウオウが羽ばたく姿は、携帯型RPGが新たな技術的時代へ突入したことを示している。
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/002.jpg
@@ -145,7 +145,7 @@ parallel_items:
   translation: 太田氏：「僕はプログラミングを担当していました。もっと使いやすいプログラムシステムを作ろうとしたんです。いくつかは変更できたんですけど、スケジュールがすごくタイトだったので、全部とはいきませんでした」。
   role: answer
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Iwata.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Iwata.jpg
   caption: 当時HAL研究所の社長であった岩田聡が自ら画像圧縮ツールを作成し、容量が限界に達していた『金・銀』を救い、完全なカントー地方のマップをカートリッジに収めることを可能にした。
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/004.jpg
@@ -158,7 +158,7 @@ parallel_items:
   original: 'Chapter 3: Hundreds of Scrapped Pokemon — Ken Sugimori on Spaceworld 1997 & Hoothoot'
   translation: 第3章：数百の没ポケモン——杉森建氏が語るスペースワールド1997とホーホー
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.jpg
   caption: 1997年の任天堂スペースワールドで公開された『ポケットモンスター 金・銀』初期体験版のオープニング画面には、後に完全に再構築される膨大な幻の設定が込められていた。
 - speaker: Nintendo Power
   original: Nintendo Power:Are there any new Pokémon like Mew in Gold and Silver?
@@ -220,7 +220,7 @@ parallel_items:
   translation: 森本氏：「ミュウですね。初代の『ポケットモンスター』の開発が終わる2週間前に、僕がミュウを作ったんです。ミュウにはすごくお世話になりましたね」。
   role: answer
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Shigeki.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Shigeki.jpg
   caption: バトルディレクターの森本茂樹：初代カートリッジのデバッグツールを削除して空いた約300バイトの隙間を利用し、任天堂に内緒でミュウをゲームROMに永久に刻み込んだ。
 - speaker: 森本茂樹
   original: Morimoto:“We put Mew in right at the very end. The cartridge was really full and there wasn’t room for much more on there. Then the debug features which weren’t going to be included in the final version of the game were removed, creating a minuscule 300 bytes of free space. So we thought  that we could slot Mew in there. What we did would be unthinkable  nowadays!”

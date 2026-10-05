@@ -81,7 +81,7 @@ parallel_items:
   translation: 今の子どもたちが普段どうやってゲームを遊んでいるかを考えたとき、やっぱり思い浮かんだのはモバイルゲームだったんです。短い時間で遊べて、次々と別のゲームへ移っていくようなものですね。もし遊び始めるまでに2時間くらいかかるゲームだったら、ちょっと飽きてしまって別のゲームに行ってしまうかもしれないと思いました。昔は、バーチャルコンソール版の『ポケットモンスター ピカチュウ』を遊ぶにしても、クリアしたり大きく進行させたりするのに30時間、40時間かかったかもしれません。でも今は選べるゲームがたくさんある時代なので、もっと進めやすいものにしようと考えました。長年の間にプレイスタイルがどう変化してきたか、今の子どもたちがどう遊んでいるかに合わせて調整したんです。
   role: answer
 - type: image
-  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/riding_arcanine.png
+  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/riding_arcanine.jpg
   caption: 3D化されたカントー地方をウインディに乗って自由に疾走する：シンボルエンカウントと全方向への全力疾走により、従来のマス目移動の制約が完全に打ち破られた
 - speaker: 増田順一
   original: In the same vein, back in the day there wasn't any kind of mechanic where you could run anywhere in the games, but now of course with the 3D map you can go diangonally, you can go whichever way you want, you can run, it's faster to actually get around, and with the Pokémon appearing in the field as well, you can choose whether you want to catch the Pokémon or whether you want to avoid them altogether. So we're kind of, you know, bending to the will of the players here, and giving them more options to choose the way to play that's most fun to them.
@@ -156,7 +156,7 @@ parallel_items:
   translation: 誰が決めたのかというと、株式会社ポケモンのPRチームとNiantic、それに僕が集まって話し始めたのがきっかけですね。本当に考えていたのは、みんなに最初にメルタンを見てもらうにはどうすればいいか、そして最初からかわいいポケモンだと思ってもらえるにはどうすればいいかということでした。見せ方を間違えると「うわ、なんか気持ち悪いポケモンだな」と思われてしまうかもしれないですけど、『Pokémon GO』の中で動き回っていろいろしている姿を見せることで、「おお、これは何だ！？」となってもらえるんじゃないかと。それが、メルタンを世界に初めて登場させる一番いい方法だと思ったんです。
   role: answer
 - type: image
-  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/meltan_battle.png
+  image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/meltan_battle.jpg
   caption: 幻のポケモン「メルタン」：『Pokémon GO』と『Let's Go! ピカチュウ・Let's Go! イーブイ』の連動アイテム「ふしぎなはこ」を通じて入手でき、プラットフォームを超えた連携の新時代を切り開いた
 - speaker: Eurogamer
   original: Can you answer how we can catch it yet?

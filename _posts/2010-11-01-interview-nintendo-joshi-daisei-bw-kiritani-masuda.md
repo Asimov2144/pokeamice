@@ -11,7 +11,7 @@ outlet: 任天堂官网特别企划 (Nintendo Official)
 outlet_url: https://web.archive.org/web/20101227010653/http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html
 original_lang: ja
 era_skin: '2010'
-featured_image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/masuda_and_sugimori.png
+featured_image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/masuda_and_sugimori.jpg
 description: 任天堂官方罕见特别企划！伴随《宝可梦 黑·白》火热发售与CM拍摄契机，由任天堂社长岩田聪特别促成——知名模特·女大学生桐谷美玲探访宝可梦中心，直面GAME FREAK总监增田顺一与艺术总监杉森建。从等离子队‘解放宝可梦’的颠覆性哲学、N的高IQ高速语速与城堡拔地而起的名场面，到17人团队动物园写生捕获‘电钻鼹鼠’灵感；从水水獭武士道贝壳‘扇贝贝’、暖暖猪三国武将身材与草藤蛇欧洲贵族风命名，到现场掏出NDS实测C-Gear连入之桥、实机视讯联机涂鸦，以及杉森建用女儿名字联机与现场亲笔手绘！
 categories:
 - 开发者访谈
@@ -108,7 +108,7 @@ parallel_items:
   original: 第1回：女子大生が訊く――桐谷美玲さんの『ポケモン』歴
   translation: 第1回：女大学生问——桐谷美玲的《宝可梦》游玩史
 - type: image
-  image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/masuda_and_sugimori.png
+  image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/masuda_and_sugimori.jpg
   caption: 受访者：增田顺一（左，《宝可梦 黑·白》总监）与杉森建（右，《宝可梦 黑·白》艺术总监）
   alt: 增田顺一与杉森建
 - speaker: 桐谷美玲

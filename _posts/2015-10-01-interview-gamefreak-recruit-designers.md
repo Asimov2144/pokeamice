@@ -38,7 +38,7 @@ entities:
   - 株式会社ゲームフリーク
 parallel_items:
 - type: image
-  src: /assets/img/interviews/2015-gamefreak-recruit-designers/keyvisual.png
+  src: /assets/img/interviews/2015-gamefreak-recruit-designers/keyvisual.jpg
   caption: GAME FREAK 官方访谈：我加入游戏狂想的理由（图形设计师篇）
 - type: heading
   level: 2

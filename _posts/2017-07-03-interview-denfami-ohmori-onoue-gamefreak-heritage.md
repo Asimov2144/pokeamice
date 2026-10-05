@@ -321,7 +321,7 @@ parallel_items:
   speaker: 大森滋
   role: answer
 - type: image
-  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_26.png
+  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_26.jpg
   alt: 【新連載：新世代に訊く】 『ポケモン』新作は“攻略”を検索される前提？ ゲームフリークの伝説を受け継ぐ若きディレクター達 【大森 滋氏・尾上 将之氏インタビュー】_025
   caption: 【新连载：对话新世代】《宝可梦》新作是以“查攻略”为前提？继承Game Freak传说的年轻导演们 【大森滋先生・尾上将之先生访谈】_025
 - original: やはり、最初の印象は凄く重要です。そこで「前と変わってないよね」と言われたくなかったので、変化を印象づけるよう、リーリエが追いかけられるイベントを入れたり、試練を早めに体験させたりして、とにかく口コミを誘いました。
@@ -582,7 +582,7 @@ parallel_items:
   speaker: 尾上将之
   role: answer
 - type: image
-  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_37.png
+  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_37.jpg
   alt: 【新連載：新世代に訊く】 『ポケモン』新作は“攻略”を検索される前提？ ゲームフリークの伝説を受け継ぐ若きディレクター達 【大森 滋氏・尾上 将之氏インタビュー】_036
   caption: 【新连载：询问新世代】《宝可梦》新作是以“搜索攻略”为前提？继承Game Freak传说的年轻导演们 【大森滋先生・尾上将之先生访谈】_036
 - original: 今回は、今までずっとRPGを作ってきたので、単純に新しいものとしてアクションゲームにチャレンジしてみたかったですね。特別好きというわけではなくて、Steamの2Dアクションを遊ぶこともあるというくらいではあるのですが。
@@ -634,7 +634,7 @@ parallel_items:
   speaker: 尾上将之
   role: answer
 - type: image
-  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_39.png
+  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_39.jpg
   alt: 【新連載：新世代に訊く】 『ポケモン』新作は“攻略”を検索される前提？ ゲームフリークの伝説を受け継ぐ若きディレクター達 【大森 滋氏・尾上 将之氏インタビュー】_038
   caption: 【新连载：询问新世代】《宝可梦》新作是以“搜索攻略”为前提？继承Game Freak传说的年轻导演们 【大森滋先生・尾上将之先生访谈】_038
 - original: そもそもパズルにしたのも、地形や大きなものを壊す気持ちよさに、物理エンジンの再現性のない「読めない動き」を活かしたかったからです。パズルゲームには、キレイな回答がないと許されないパターンもありますけど、逆に物理エンジンは、「その人なりの回答」を生みだせる楽しさがあります。
@@ -668,7 +668,7 @@ parallel_items:
   speaker: 尾上将之
   role: answer
 - type: image
-  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_41.png
+  image: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_41.jpg
   alt: 【新連載：新世代に訊く】 『ポケモン』新作は“攻略”を検索される前提？ ゲームフリークの伝説を受け継ぐ若きディレクター達 【大森 滋氏・尾上 将之氏インタビュー】_040
   caption: 【新连载：询问新世代】《宝可梦》新作是以“搜索攻略”为前提？继承Game Freak传说的年轻导演们 【大森滋先生・尾上将之先生访谈】_040
 - type: heading

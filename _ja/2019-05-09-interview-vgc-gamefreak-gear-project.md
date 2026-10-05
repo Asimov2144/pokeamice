@@ -83,7 +83,7 @@ parallel_items:
   translation: 第1制作部と第2制作部の間では、頻繁に行き来があるんです。面白いのは、ポケモン専任の第2制作部は特定のプラットフォームしか知らないということです。だからチームを行き来することで、エンジニアはそれまで触れたことのない他のプラットフォームについて学ぶことができます。そうやってチームを混ぜ合わせることで、すごく面白い相乗効果を生み出せるんだと思います。
   role: answer
 - type: image
-  image: /assets/img/interviews/2019-05-09-interview-vgc-gamefreak-gear-project/Capture2-1.png
+  image: /assets/img/interviews/2019-05-09-interview-vgc-gamefreak-gear-project/Capture2-1.jpg
   caption: Town is an RPG due for Nintendo Switch in 2019（コードネーム『Town』はゲームフリーク第1開発部が手がけるNintendo Switch向けオリジナルRPG。後に正式名称『リトルタウンヒーロー』／Little Town Heroとなる）
 - speaker: VGC
   original: So it seems the experience gained via Gear Project is able to benefit the company as a whole?

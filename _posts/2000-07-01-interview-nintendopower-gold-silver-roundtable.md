@@ -109,7 +109,7 @@ parallel_items:
   translation: “世界观与之前相同，但故事截然不同。你会看到许多新宝可梦。目前我还不能透露更多。”
   role: answer
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/JP-Gold.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/JP-Gold.jpg
   caption: 《宝可梦 金》日版包装盒：凤王展翅腾飞，标志着便携式RPG迈入全新的技术纪元。
   alt: 宝可梦金包装
 - type: image
@@ -153,7 +153,7 @@ parallel_items:
   translation: 太田：我负责程序方面。我尝试构建一套更易于使用的编程体系。我得以做出一些改动，但并非全部，因为我们的日程非常紧张。
   role: answer
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Iwata.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Iwata.jpg
   caption: 时任HAL研究所社长岩田聪亲手编写图像压缩工具，拯救了容量濒临崩溃的《金／银》，让完整的关都地图得以装进卡带。
   alt: 岩田聪压缩代码历史
 - type: image
@@ -171,7 +171,7 @@ parallel_items:
   original: 'Chapter 3: Hundreds of Scrapped Pokemon — Ken Sugimori on Spaceworld 1997 & Hoothoot'
   translation: 第3章：数百只废案的沉浮——杉森建谈第二世代300只构想与咕咕的童年原型
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.jpg
   caption: 1997年任天堂Space World展会上公开的《宝可梦 金·银》初期体验版开场画面，蕴含着海量后来被彻底重构的梦幻设定。
   alt: Space World 1997开场画面
 - speaker: Nintendo Power
@@ -241,7 +241,7 @@ parallel_items:
   translation: “梦幻。我在初代《宝可梦》开发结束前两周创造了梦幻。我欠梦幻太多了。”
   role: answer
 - type: image
-  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Shigeki.png
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Shigeki.jpg
   caption: 战斗监督森本茂树（Shigeki Morimoto）：在初代卡带除错工具移除后腾出约300字节空隙，瞒着任天堂将梦幻（Mew）永久刻进游戏ROM。
   alt: 森本茂树与梦幻
 - speaker: 森本茂树

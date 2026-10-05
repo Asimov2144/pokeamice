@@ -24,7 +24,7 @@ parallel_items:
 - original: On May 17th, 2018, Game Freak designer James Turner (the creator of Pokémon like Vanillite, Golurk, and Poipole) tweeted pictures of a few excerpts from the then-recently published manga about Satoshi Tajiri’s life and the creation of Game Freak. Interestingly enough, despite claims from the developers that most of the documentation about the first two Pokémon games either never existed or was lost to time, one of the panels in this manga contains a look at an internal poll during development. Our curiosity piqued, the Helix Chamber team – made up of translators, coders, people who know random trivia about the franchise, nerds, magnification wizards, you name it – gathered together, obtained a copy of the manga, scanned everything, and were able to unearth quite a lot of information.
   translation: 2018年5月17日，GAME FREAK的设计师詹姆斯·特纳（James Turner，他创作了迷你冰、泥偶巨人、毒贝比等宝可梦）在推特上发布了几张当时刚出版的、关于田尻智生平及GAME FREAK创立过程的漫画节选图片。有趣的是，尽管开发者声称关于最初两款宝可梦游戏的大部分文档要么从未存在过，要么已随时间遗失，但这部漫画的其中一格却展示了开发期间的一次内部投票。 这激起了我们的好奇心，Helix Chamber团队——由翻译、程序员、了解该系列冷知识的人、书呆子、放大图像的高手等等组成——集结起来，获取了一本漫画，扫描了所有内容，并成功发掘出了相当多的信息。
 - type: image
-  image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_02_tajiri5.png
+  image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_02_tajiri5.jpg
   alt: Historical illustration
   caption: ''
 - original: At first glance, this is a chart with a few things that aren’t found in the first Pokémon games (B), and a bunch of mysterious, warped monsters peering out from a skewed grid in the bottom panel (A). Along with the Pokémon charts, there’s also a table with votes and a results sheet (B). All three of these documents were made for one of the several popularity polls (人気投票) that Game Freak held periodically in order to rate their Pokémon designs and help decide which monsters would be in the final game.
@@ -38,7 +38,7 @@ parallel_items:
 - original: On the left side of panel B, we can see a page titled “Popularity Poll Results Announcement” (人気投票結果発表);  this piece of paper covering up the grid is the internal poll results, listing the winners and the number of votes that each one got. We’ve also been able to guess the top 31 by cross-referencing the material, albeit restoring the exact 11-20 order is not possible, unfortunately.
   translation: 在面板B的左侧，我们可以看到一页标题为“人气投票结果発表”（人気投票結果発表）的纸张；这张覆盖在网格上的纸是内部投票结果，列出了获胜者以及每人获得的票数。我们还通过交叉比对材料，推测出了前31名，尽管不幸的是，无法还原确切的第11至20名的顺序。
 - type: image
-  image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_03_02_poll_results_translate-700x506.png
+  image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_03_02_poll_results_translate-700x506.jpg
   alt: Historical illustration
   caption: ''
 - original: Even on the surface level, this manga is a revealing look inside the development of Game Freak’s hit franchise.

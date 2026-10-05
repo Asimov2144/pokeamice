@@ -37,7 +37,7 @@ entities:
   - 株式会社ゲームフリーク
 parallel_items:
 - type: image
-  src: /assets/img/interviews/2017-gamefreak-recruit-cross-industry/keyvisual.png
+  src: /assets/img/interviews/2017-gamefreak-recruit-cross-industry/keyvisual.jpg
   caption: GAME FREAK 官方访谈：跨界英才大展身手！异业种转职加入游戏狂想的先锋们
 - type: heading
   level: 2

@@ -39,7 +39,7 @@ entities:
   - 株式会社ゲームフリーク
 parallel_items:
 - type: image
-  src: /assets/img/interviews/2017-gamefreak-rnd-ta/keyvisual.png
+  src: /assets/img/interviews/2017-gamefreak-rnd-ta/keyvisual.jpg
   caption: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流
 - type: heading
   level: 2

@@ -191,7 +191,7 @@ parallel_items:
   translation: ネクロズマ、レインボーロケット団、新たなウルトラビースト、スカル団など、『ポケットモンスター ウルトラサン・ウルトラムーン』には多くの敵対勢力が登場します。ストーリーの中でこれほど多くの敵対勢力のバランスを取るのは難しかったですか。
   role: question
 - type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/necrozma_art.png
+  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/necrozma_art.jpg
   caption: アローラの光を奪うコアとなる悪役と伝説のポケモン：ネクロズマ
 - type: dialogue
   speaker: 岩尾和昌

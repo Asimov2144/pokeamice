@@ -40,7 +40,7 @@ entities:
   - SEGA（世嘉）
 parallel_items:
 - type: image
-  src: /assets/img/interviews/2015-gamefreak-gear-tembo/keyvisual.png
+  src: /assets/img/interviews/2015-gamefreak-gear-tembo/keyvisual.jpg
   caption: GAME FREAK 官方访谈：齿轮企划『TEMBO THE BADASS ELEPHANT』开发秘话
 - type: heading
   level: 2

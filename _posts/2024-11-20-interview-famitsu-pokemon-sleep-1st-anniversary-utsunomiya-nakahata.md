@@ -46,7 +46,7 @@ cast:
   avatar: /assets/img/default-avatar.png
 parallel_items:
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/001.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/001.jpg
   caption: 《Pokémon Sleep》上线一周年特别回顾专访：株式会社宝可梦 COO 宇都宫崇人 × SELECT BUTTON 主创团队
   alt: 《Pokémon Sleep》上线一周年特别回顾专访：株式会社宝可梦 COO 宇都宫崇人 × SELECT BUTTON 主创团队
 - original: 2023年7月20日にリリースされたスマートフォン向けアプリ『
@@ -60,13 +60,13 @@ parallel_items:
 - original: 』）は、睡眠をエンターテインメント化することで朝起きるのが楽しみになる睡眠ゲームアプリ。
   translation: 《Pokémon Sleep》是一款通过将睡眠娱乐化，让玩家期待早晨醒来的睡眠游戏应用。
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/002.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/002.jpg
   caption: 《Pokémon Sleep》开发初期的概念示意图：最初曾构想让宝可梦直接睡在玩家身旁
   alt: 《Pokémon Sleep》开发初期的概念示意图：最初曾构想让宝可梦直接睡在玩家身旁
 - original: 寝るときにスマートフォンやデバイスを枕元に置いておくと、睡眠を計測。その結果によって目覚めたときにポケモンたちの寝顔が見られる、といった遊びとなっている。リリースから世界中で大きな話題となり、2024年6月には全世界で累計2000万ダウンロードを達成。定期的にイベントや追加要素などを実装しながら、ユーザーの生活に根付きつつある。そんな本作のリリースから1年と少しが経ち、先日開発主軸がSELECT BUTTONと株式会社ポケモンの2社から株式会社ポケモンと株式会社ポケモンワークスの2社に徐々に移管していくことが発表された。本インタビューでは開発の核となったSELECT BUTTONの3名と、株式会社ポケモンCOOの宇都宮崇人氏に、本作の誕生から現在にいたるまでの振り返りについて、そして今後の『ポケモンスリープ』がどうなっていくのかを訊く。
   translation: 睡觉时将智能手机或设备放在枕边，即可测量睡眠。根据测量结果，醒来时可以看到宝可梦们的睡颜，这就是本作的玩法。自发布以来，本作在全球引发巨大话题，2024年6月达成全球累计下载量2000万次。在定期实装活动与追加要素的同时，本作正逐渐扎根于用户的生活中。本作发布至今已一年有余，日前官方宣布，开发主体将从SELECT BUTTON与株式会社宝可梦两家公司，逐步移管至株式会社宝可梦与株式会社宝可梦工房两家公司。本次访谈中，我们向担任开发核心的SELECT BUTTON的三位成员，以及株式会社宝可梦COO宇都宫崇人先生，询问了本作的诞生历程、发展至今的回顾，以及今后《Pokémon Sleep》将何去何从。
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/003.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/003.jpg
   caption: 开发初期的野外营地与卡比兽视觉草案
   alt: 开发初期的野外营地与卡比兽视觉草案
 - type: image
@@ -320,7 +320,7 @@ parallel_items:
   caption: 险些被废弃的“卡比兽料理”机制早期原型
   alt: 险些被废弃的“卡比兽料理”机制早期原型
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/013.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/013.jpg
   caption: 咖喱、沙拉与甜点三种料理分类的原案设计
   alt: 咖喱、沙拉与甜点三种料理分类的原案设计
 - original: そうだったんですか!?
@@ -344,15 +344,15 @@ parallel_items:
   speaker: 中畑虎也
   role: answer
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/014.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/014.jpg
   caption: 卡比兽享用树果与能量成长的数值曲线调优
   alt: 卡比兽享用树果与能量成长的数值曲线调优
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/015.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/015.jpg
   caption: 正式版料理界面的烹饪锅升级与配方探索系统
   alt: 正式版料理界面的烹饪锅升级与配方探索系统
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/016.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/016.jpg
   caption: 睡姿图鉴目标达成与新营地解锁的激励循环
   alt: 睡姿图鉴目标达成与新营地解锁的激励循环
 - original: 今後、ほかにも伝説のポケモンは登場しますか？　『ポケモンスリープ』に登場するポケモンについて何か言えることがあれば教えてください。
@@ -372,11 +372,11 @@ parallel_items:
   speaker: 塚田拓実
   role: answer
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/017.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/017.jpg
   caption: 雷公、炎帝、水君等传说宝可梦研究活动的特别机制
   alt: 雷公、炎帝、水君等传说宝可梦研究活动的特别机制
 - type: image
-  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/018.png
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/018.jpg
   caption: 一周年纪念新营地“黄金旧港”视觉概念
   alt: 一周年纪念新营地“黄金旧港”视觉概念
 - type: heading

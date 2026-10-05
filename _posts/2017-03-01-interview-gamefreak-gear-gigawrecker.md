@@ -42,7 +42,7 @@ entities:
   - Steam（Valve）
 parallel_items:
 - type: image
-  src: /assets/img/interviews/2017-gamefreak-gear-gigawrecker/keyvisual.png
+  src: /assets/img/interviews/2017-gamefreak-gear-gigawrecker/keyvisual.jpg
   caption: GAME FREAK 官方访谈：齿轮企划『GIGA WRECKER』开发秘话
 - type: heading
   level: 2

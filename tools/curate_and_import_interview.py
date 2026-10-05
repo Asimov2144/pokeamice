@@ -589,7 +589,7 @@ def import_interview_sugimori_gen2_cut_pokemon():
     parallel_items = []
     parallel_items.append({
         "type": "image",
-        "image": "/assets/img/interviews/2000-11-01-interview-nintendo-power-gs-bigwigs/hero_sugimori_gs_cut.png",
+        "image": "/assets/img/interviews/2000-11-01-interview-nintendo-power-gs-bigwigs/hero_sugimori_gs_cut.jpg",
         "alt": "杉森建与《宝可梦 金·银》废案与新宝可梦设计",
         "caption": "任天堂力量官方对谈：主创团队谈《金·银》漫长开发与被舍弃的数百只废案宝可梦"
     })
