@@ -260,6 +260,8 @@ kept on the turns even though the presentation around them is new.
       </p>
       {% if ja %}<aside class="ed-digest-note ed-ai-note" role="note"><b>AI翻訳</b>この記事は、{{ outlet_short }}に{{ page.original_lang_name }}で掲載されたインタビューを、AI（機械翻訳）で日本語に訳したものです。人による校正は行っていません。発言は日本語で語られたものではなく、表現や細部が原文と異なる場合があります。正確な内容は{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">原文</a>{% else %}原文{% endif %}をご確認ください。</aside>{% endif %}
       {% if digest %}<aside class="ed-digest-note" role="note"><b>要点整理</b>本篇是玩家 wiki 对这篇杂志访谈的笔记式整理，条目和小标题沿用了 wiki 的写法，不是杂志原文的全文。要读原话，请以杂志为准。</aside>{% endif %}
+      {%- comment -%} a magazine interview the archive only has from a transcript: ask for the page itself (_data/wanted.yml, /wanted/) {%- endcomment -%}
+      {% unless ja %}{% assign wanted_hit = site.data.wanted.items | where: "post", post_stem | first %}{% if wanted_hit and wanted_hit.status == "text" %}<aside class="ed-digest-note ed-wanted-note" role="note"><b>原刊征集</b>本篇来自网上的转录或摘录，还缺《{{ wanted_hit.pub }}》{{ wanted_hit.issue }}的原刊页来核对。手上有这一期的话，<a href="{{ '/wanted/' | relative_url }}#{{ wanted_hit.id }}">看看缺哪几页 →</a></aside>{% endif %}{% endunless %}
     </header>
 
     {%- comment -%} The photograph is the cover, not an attachment. {%- endcomment -%}

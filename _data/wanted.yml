@@ -1,0 +1,441 @@
+# 原刊征集（/wanted/）：实体杂志里的宝可梦主创访谈——哪些本站已有原刊，哪些只有文字转录，哪些只知道存在。
+# 来源：design/wanted/pokemon-magazine-interviews-stage-research-2026-10-06.md（书目复原的阶段整理）。手写，改这里即可。
+#
+# 每条：
+#   id          锚点（/wanted/#id），也是投稿邮件 / Issue 标题里的编号
+#   era         所属时期（下面 eras 的 key）
+#   pub / issue / date   刊物、期号、封面日期（YYYY-MM 或 YYYY-MM-DD）
+#   title       文章标题（不确定就写已知的说法，title_note 说明）
+#   people      受访者，写人物库（_data/people.yml）里的名字，有人物页的会自动链过去
+#   status      scan      已收录原刊（本站有页图）
+#               text      有文字、缺原刊（本站文章来自转录或摘录）
+#               found     原刊已在网上找到，待本站整理（不需要投稿）
+#               known     只知道存在，本站还没有
+#               candidate 有专题，但还不能确定里面有主创访谈
+#   priority    S / A / B：征集的优先级（status 为 scan / found 的不排）
+#   pages       已知页码（reconstructed 的在 pages_note 里说）
+#   need        还缺什么（给投稿的人看，写具体）
+#   known       已经确认的事，一两句
+#   conflict    资料之间互相矛盾的地方（可选）
+#   post        本站对应的文章（_posts 文件名，不带 .md），有的话
+#   sources     [{label, url}] 外部线索
+
+eras:
+  - key: early
+    label: 1996–2000 · 初代与金银
+  - key: rse
+    label: 2003–2004 · 红宝石·蓝宝石 · 火红·叶绿 · 绿宝石
+  - key: dp
+    label: 2007 · 钻石·珍珠
+  - key: pt
+    label: 2008–2009 · 白金
+  - key: hgss
+    label: 2009 · 心金·魂银
+  - key: bw
+    label: 2010–2011 · 黑·白
+  - key: b2w2
+    label: 2012 · 黑2·白2（Fami 通「開発キーパーソンインタビュー」1–5）
+
+items:
+  # ---------------------------------------------------------------- 1996–2000
+  - id: famicom-magazine-1996-13
+    era: early
+    pub: ファミリーコンピュータMagazine
+    issue: No.13
+    date: "1996-06-28"
+    title: 初代相关访谈 / FAX 问答
+    people: [田尻智]
+    status: known
+    priority: A
+    known: 书目已识别，是初代发售后不久的早期访谈。
+    need: [这一期的封面与目录页, 访谈所在的每一页（带页码）, 受访者与提问形式（访谈还是 FAX 问答）]
+  - id: famimaga64-26
+    era: early
+    pub: ファミマガ64
+    issue: Issue 26
+    date: "1997-11"
+    title: 田尻智谈《宝可梦2》长访谈
+    people: [田尻智]
+    status: found
+    known: 原刊扫描在 Internet Archive 上（600dpi）。本站现有的一篇是后人整理的摘要，之后照原刊重收。
+    post: 1997-05-23-interview-famimaga-tajiri-pokemon2-secret
+    sources:
+      - {label: Internet Archive 扫描, url: "https://archive.org/details/famimaga-64-issue-26-november-1997-600dpi-ozidual"}
+  - id: famimaga64-28
+    era: early
+    pub: ファミマガ64
+    issue: Issue 28
+    date: "1998-01"
+    title: 田尻智 × 裕木奈江（接上期）
+    people: [田尻智, 裕木奈江]
+    status: known
+    priority: A
+    known: 上一期长访谈的续篇，内容只在二手整理里见过。
+    need: [访谈所在的每一页（带页码）, 标题与栏目名]
+  - id: game-kaigi-9
+    era: early
+    pub: ゲーム会議
+    issue: Vol.9
+    date: "2000-01"
+    title: 《ゲーム会議》宝可梦专题
+    status: text
+    priority: B
+    known: 本站已按后人整理收录，缺原刊页。
+    need: [原刊的相关页（带页码）]
+    post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
+  - id: dengeki-n64-2000-01
+    era: early
+    pub: 電撃NINTENDO64
+    issue: 2000年1月号
+    date: "2000-01"
+    title: 苦労話インタビュー 『ポケモン 金・銀』開発秘話!!
+    status: known
+    priority: A
+    known: 二手书目里能查到这篇《金·银》开发访谈，标题已知，受访者和页码不明。
+    need: [访谈所在的每一页（带页码）, 受访者是谁（人物介绍框）, 这一期的目录页]
+    sources:
+      - {label: 駿河屋 书目, url: "https://www.suruga-ya.jp/product/detail/ZNON6622"}
+  - id: 64dream-41
+    era: early
+    pub: The 64 DREAM
+    issue: "#41"
+    date: "2000-02"
+    title: 《金·银》开发采访（增田顺一、渡边哲也、森本茂树等）
+    people: [增田顺一, 渡边哲也, 森本茂树]
+    status: found
+    known: 原刊扫描在 Internet Archive 上（600dpi），待本站整理翻译。
+    sources:
+      - {label: Internet Archive 扫描, url: "https://archive.org/details/64-dream-february-2000-02-600dpi-ozidual"}
+
+  # ---------------------------------------------------------------- RSE
+  - id: ndream-84
+    era: rse
+    pub: Nintendo DREAM
+    issue: Vol.84
+    date: "2003-04"
+    title: 《红宝石·蓝宝石》开发访谈
+    people: [增田顺一, 杉森建]
+    status: scan
+    post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+  - id: ndream-108
+    era: rse
+    pub: Nintendo DREAM
+    issue: Vol.108
+    date: "2004-04"
+    title: 《火红·叶绿》开发访谈
+    status: scan
+    post: 2004-03-21-scan-ndream-108-frlg-developer-interview
+  - id: famitsu-823
+    era: rse
+    pub: 週刊ファミ通
+    issue: No.823
+    date: "2004"
+    title: 《绿宝石》发售前访谈
+    status: known
+    priority: S
+    pages: 147–151
+    pages_note: 页码范围是推测，访谈的实际起止还没确认
+    known: 能确认这一期有《绿宝石》发售前的访谈；2026 年电击 Online 的回顾文章也提到过它。
+    need: [pp.147–151 这几页（带页码）, 正式标题, 全部受访者与职位, 是独立访谈还是大专题里的一节]
+    sources:
+      - {label: 電撃オンライン 2026 回顾, url: "https://dengekionline.com/article/202604/73546"}
+
+  # ---------------------------------------------------------------- DP
+  - id: np-215
+    era: dp
+    pub: Nintendo Power
+    issue: "#215"
+    date: "2007-05"
+    title: Pearls of Wisdom
+    people: [增田顺一, 杉森建, 大森滋, 海野隆雄]
+    status: known
+    priority: S
+    pages: 含 p.37
+    pages_note: 后人引用指向 p.37，完整起止页未知
+    known: 《钻石·珍珠》时期欧美杂志里最大的一篇开发访谈；Retromags 目录和 Bulbapedia 的索引都列了它，四位受访者已确认。
+    need: [访谈的首页与尾页（确定页码）, 访谈的每一页, 有没有侧栏]
+    sources:
+      - {label: Retromags 目录, url: "https://www.retromags.com/magazines/usa/nintendo-power/nintendo-power-issue-215/"}
+      - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power/Generation_IV"}
+
+  # ---------------------------------------------------------------- Platinum
+  - id: dengeki-dswii-3
+    era: pt
+    pub: 電撃DS&Wii
+    issue: Vol.3（2008年10月号）
+    date: "2008-10"
+    title: 《白金》专题（附《ポケットモンスター エントリーブック》）
+    status: candidate
+    priority: B
+    known: 这一期以《白金》为重点、附录小册子，但还没有证据表明里面有 GAME FREAK 主创的访谈。
+    need: [正刊与附录里有没有「インタビュー」「開発スタッフ」「増田順一」「河内丸武史」等字样——有的话拍下那几页]
+    sources:
+      - {label: 駿河屋 书目, url: "https://www.suruga-ya.jp/kaitori/kaitori_detail/ZNON4512"}
+  - id: ndream-176
+    era: pt
+    pub: Nintendo DREAM
+    issue: Vol.176
+    date: "2008-12"
+    title: 《白金》GAME FREAK 开发访谈
+    people: [增田顺一, 河内丸武史]
+    status: scan
+    post: 2008-10-21-scan-ndream-2008-12-game-freak-interview
+  - id: np-240
+    era: pt
+    pub: Nintendo Power
+    issue: "#240"
+    date: "2009-04"
+    title: Pokémon Goes Platinum
+    people: [增田顺一, 河内丸武史]
+    status: text
+    priority: A
+    pages: 42–44
+    known: 期号与页码已确认（过去常被记成「#240/241」，#241 是评测，不是这篇）。本站译文来自 Dr. Lava 的转录，只有封面没有内页。
+    need: [pp.42–44 三页的扫描或照片]
+    post: 2009-04-01-interview-nintendo-power-masuda-gens-1-4
+    sources:
+      - {label: Retromags 目录, url: "https://www.retromags.com/magazines/usa/nintendo-power/nintendo-power-issue-240/"}
+      - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power/Generation_IV"}
+  - id: accion-199
+    era: pt
+    pub: Nintendo Acción
+    issue: "#199"
+    date: "2009-06"
+    title: Hablamos con los creadores de Pokémon（英译 We talk with the creators of Pokémon）
+    title_note: 西班牙语原标题待原刊确认
+    people: [增田顺一, 河内丸武史]
+    status: text
+    priority: S
+    known: 本站译文来自 Lewtwo 的转录。
+    conflict: 转录页的页眉写「Junichi Masuda, Ken Sugimori」，但正文里回答的是河内丸；同一站的总索引又写「Takeshi Kawachimaru, Junichi Masuda」。杉森建很可能是页眉抄错了，要原刊的人物介绍框才能定。
+    need: [访谈的每一页（带页码）, 人物介绍框, 西班牙语原标题]
+    post: 2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum
+    sources:
+      - {label: Lewtwo 转录, url: "https://lewtwo.neocities.org/Interviews/plat-NintendoAccion199"}
+      - {label: Lewtwo 访谈索引, url: "https://lewtwo.neocities.org/interviews"}
+
+  # ---------------------------------------------------------------- HGSS
+  - id: dengeki-ds-2009
+    era: hgss
+    pub: デンゲキニンテンドーDS
+    issue: 2009年9–10月号
+    date: "2009-09"
+    title: 《心金·魂银》专题
+    status: candidate
+    priority: B
+    known: 这两期有大量心金魂银内容（大附录、发售前特辑），但还不能确定里面有主创访谈。
+    need: [有没有开发者问答或访谈页——有的话拍下那几页和目录]
+  - id: famitsu-2009-09-24
+    era: hgss
+    pub: 週刊ファミ通
+    issue: 2009年9月24日号
+    date: "2009-09-24"
+    title: 石原恒和谈《心金·魂银》
+    people: [石原恒和]
+    status: known
+    priority: A
+    known: 访谈存在、受访者确认：为什么隔了十年才重制金银、心金魂银的定位、系列今后。
+    need: [访谈的每一页（带页码）, 正式标题]
+  - id: famitsu-2009-10-01
+    era: hgss
+    pub: 週刊ファミ通
+    issue: 2009年10月1日号
+    date: "2009-10-01"
+    title: 《心金·魂银》开发者四人访谈
+    people: [森本茂树]
+    status: known
+    priority: A
+    known: 约四位开发者参加，谈到菊草叶、难度与对战平衡、以白金为基础、环境音和去寺院实地录音。除森本茂树外另外三人的名字还不知道。
+    need: [访谈的每一页（带页码）, 另外三位受访者的名字（人物介绍框）, 正式标题]
+  - id: ndream-187
+    era: hgss
+    pub: Nintendo DREAM
+    issue: Vol.187
+    date: "2009-11"
+    title: 《心金·魂银》GAME FREAK 开发访谈 + 杉森建个人访谈
+    people: [增田顺一, 森本茂树, 海野隆雄, 森彰人, 松岛贤二, 一之濑刚, 杉森建]
+    status: scan
+    post: 2009-09-21-scan-ndream-2009-11-hgss-developer-interview
+
+  # ---------------------------------------------------------------- BW
+  - id: famitsu-1137
+    era: bw
+    pub: 週刊ファミ通
+    issue: No.1137
+    date: "2010-09-30"
+    title: 《黑·白》发售期访谈
+    status: scan
+    post: 2010-09-16-scan-famitsu-1137-bw-launch-interview
+  - id: famitsu-1138
+    era: bw
+    pub: 週刊ファミ通
+    issue: No.1138
+    date: "2010-10-07"
+    title: 增田顺一谈《黑·白》
+    people: [增田顺一]
+    status: scan
+    post: 2010-09-23-scan-famitsu-1138-bw-secrets-interview
+  - id: dengeki-games-14
+    era: bw
+    pub: 電撃GAMES
+    issue: Vol.14
+    date: "2010-10-15"
+    title: GAME FREAK 開発スタッフインタビュー 『ポケットモンスター』を変えること／変わらないこと
+    people: [增田顺一, 杉森建, 大森滋, 太田哲司, 水口舞]
+    status: scan
+    post: 2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview
+  - id: famitsu-1146
+    era: bw
+    pub: 週刊ファミ通
+    issue: No.1146
+    date: "2010-12-16"
+    title: 剧本 · 松宮稔展访谈
+    people: [松宮稔展]
+    status: text
+    priority: A
+    known: 本站译文来自玩家 wiki 的转录。
+    need: [访谈的每一页（带页码）, 正式标题]
+    post: 2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario
+  - id: famitsu-1153
+    era: bw
+    pub: 週刊ファミ通
+    issue: No.1153
+    date: "2011-01"
+    title: 通信開発のウラ側を公開!!（C-Gear、擦肩通信、联结）
+    people: [太田哲司, 大森滋]
+    status: text
+    priority: A
+    known: 本站现在只有玩家 wiki 的摘录，不是全文。
+    need: [访谈的每一页（带页码）——有了原页就能补成全文]
+    post: 2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear
+  - id: famitsu-1155
+    era: bw
+    pub: 週刊ファミ通
+    issue: No.1155
+    date: "2011-02-03"
+    title: 『ポケットモンスターブラック・ホワイト』開発スタッフが語るバトルの秘密
+    people: [森本茂树, 田谷正夫, 岩尾和昌]
+    status: text
+    priority: A
+    known: 本站译文来自玩家 wiki 的转录。
+    need: [访谈的每一页（带页码）]
+    post: 2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets
+  - id: onm-65
+    era: bw
+    pub: Official Nintendo Magazine（英国）
+    issue: "#65"
+    date: "2011-02"
+    title: GAME FREAK 本社独家采访
+    title_note: 纸本标题未知
+    people: [杉森建]
+    status: known
+    priority: S
+    known: 任天堂英国 2011-01-21 的当期介绍写明「ONM 远赴日本独家采访 GAME FREAK」，谈怎样做出这么多新宝可梦；PocketMonsters 当天整理为杉森建专访。这一期有捷克罗姆 / 莱希拉姆两种封面。
+    need: [访谈的每一页（带页码）, 纸本标题, 除杉森建外还有没有别的受访者]
+    sources:
+      - {label: 任天堂英国 当期介绍, url: "https://www.nintendo.com/en-gb/News/2011/The-new-Official-Nintendo-Magazine-is-on-sale-now--253631.html"}
+      - {label: PocketMonsters 同期整理, url: "https://pocketmonsters.net/index.php/news/979"}
+  - id: np-265
+    era: bw
+    pub: Nintendo Power
+    issue: "#265"
+    date: "2011-03"
+    title: Breeding the Fifth
+    people: [增田顺一, 杉森建]
+    status: text
+    priority: A
+    pages: 18–20
+    known: 期号、页码已确认，另有「The Birth of Game Freak」「A Visit to the Pokémon Center」两个侧栏。本站译文来自 Dr. Lava 的转录，只有封面没有内页。
+    need: [pp.18–20 三页的扫描或照片（含两个侧栏）]
+    post: 2011-03-01-interview-nintendo-power-bw-masuda-sugimori
+    sources:
+      - {label: Lava Cut Content 转录, url: "https://lavacutcontent.com/masuda-sugimori-gen-5/"}
+      - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power"}
+  - id: accion-220
+    era: bw
+    pub: Nintendo Acción
+    issue: "#220"
+    date: "2011-03"
+    title: Crear Pokémon es toda una responsabilidad
+    people: [增田顺一, 井部真那]
+    status: found
+    pages: 30–31
+    pages_note: 由专题范围（pp.26–31）推测，待对着页脚确认
+    known: 两人在伦敦宣传《黑·白》时的采访；DeVuego 的书目页有 Internet Archive 的阅读入口，待本站整理。
+    sources:
+      - {label: Lewtwo 转录, url: "https://lewtwo.neocities.org/Interviews/bw-NintendoAccion220"}
+      - {label: DeVuego 书目, url: "https://www.devuego.es/pres/revista/nintendo-accion/220"}
+  - id: onm-68
+    era: bw
+    pub: Official Nintendo Magazine（英国）
+    issue: "#68"
+    date: "2011-05"
+    title: 增田顺一 × 杉森建 读者问答
+    title_note: 网上镜像的标题是「The best of Pokémon」，纸本标题未知
+    people: [增田顺一, 杉森建]
+    status: known
+    priority: S
+    known: 任天堂英国 2011-04-14 的当期介绍写明两人回答读者提问；问题包括御三家、最喜欢的地区与音乐、Wii 上的正作、MMO、全球连接与联结。
+    conflict: 'PocketMonsters 的历史镜像把它标成「Issue #069」，与同期官方公告（#68）不符，多半是网页归档的元数据错位，不另立 #69。'
+    need: [问答的每一页（带页码）, 纸本标题, 纸本是否就是网上那份全部问答]
+    sources:
+      - {label: 任天堂英国 当期介绍, url: "https://www.nintendo.com/en-gb/News/2011/The-latest-issue-of-Official-Nintendo-Magazine-is-on-shop-shelves-now--253616.html"}
+      - {label: PocketMonsters 镜像, url: "https://pocketmonsters.net/content/Interview_The_best_of_Pokemon"}
+
+  # ---------------------------------------------------------------- B2W2
+  - id: famitsu-1229
+    era: b2w2
+    pub: 週刊ファミ通
+    issue: No.1229
+    date: "2012-07-05"
+    title: 開発キーパーソンインタビュー 1 · 制作人与总监
+    people: [增田顺一, 海野隆雄]
+    status: known
+    priority: A
+    known: Fami 通官网 2012-06-21 的当期介绍确认有 16 页黑2白2 特辑与制作人、总监访谈。
+    need: [访谈的每一页（带页码）]
+    sources:
+      - {label: Fami 通 当期介绍, url: "https://www.famitsu.com/news/201206/21016656.html"}
+  - id: famitsu-1230
+    era: b2w2
+    pub: 週刊ファミ通
+    issue: No.1230
+    date: "2012-07-12"
+    title: 開発キーパーソンインタビュー 2 · 方向 · 角色 · 世界
+    people: [增田顺一, 海野隆雄]
+    status: known
+    priority: A
+    need: [访谈的每一页（带页码）]
+  - id: famitsu-1232
+    era: b2w2
+    pub: 週刊ファミ通
+    issue: No.1232
+    date: "2012-07-26"
+    title: 開発キーパーソンインタビュー 3 · 设计与美术
+    people: [大村祐介, 大久保智彦]
+    status: known
+    priority: A
+    need: [访谈的每一页（带页码）]
+    sources:
+      - {label: 同期报道（pk-mn）, url: "https://pk-mn.com/n/pokemon-b2w2-jinbutu-n-rival-design/"}
+  - id: famitsu-1233
+    era: b2w2
+    pub: 週刊ファミ通
+    issue: No.1233
+    date: "2012-08-02"
+    title: 開発キーパーソンインタビュー 4 · INTERVIEW ～プランナー編～
+    people: [斉藤優史]
+    status: scan
+    post: 2012-07-19-scan-famitsu-1233-b2w2-interview
+  - id: famitsu-1235
+    era: b2w2
+    pub: 週刊ファミ通
+    issue: No.1235
+    date: "2012-08-16"
+    title: 開発キーパーソンインタビュー 5 · 声音
+    people: [佐藤仁美, 一之濑刚]
+    status: known
+    priority: A
+    need: [访谈的每一页（带页码）]
+    sources:
+      - {label: 同期报道（pk-mn）, url: "https://pk-mn.com/n/black2-white2-23ban-douro-music/"}

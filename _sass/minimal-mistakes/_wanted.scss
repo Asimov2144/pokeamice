@@ -1,0 +1,330 @@
+/* ==========================================================================
+   WANTED - /wanted/ (_pages/wanted.md, _includes/wanted-card.html, _data/wanted.yml).
+
+   Inside the timeline shell (.tl .library.front), so the head and the type are the library's.
+   A card is a wanted poster: a paper sheet with a heavy rule, the issue number large, a red
+   WANTED stamp, and below it what is known and what is missing. The status of an item keeps one
+   colour everywhere on the page - the dot on a card, in the chain, in the counts, in the legend.
+   ========================================================================== */
+
+$wd-known: #c53030;
+$wd-text: #b7791f;
+$wd-candidate: #718096;
+$wd-found: #2b6cb0;
+$wd-scan: #2f855a;
+$wd-conflict: #6b46c1;
+$wd-paper: #fbf6ea;
+$wd-paper-rule: #2a2420;
+
+.wanted {
+  --wd-c: #{$lib-ink-faint};
+
+  .wst-known { --wd-c: #{$wd-known}; }
+  .wst-text { --wd-c: #{$wd-text}; }
+  .wst-candidate { --wd-c: #{$wd-candidate}; }
+  .wst-found { --wd-c: #{$wd-found}; }
+  .wst-scan { --wd-c: #{$wd-scan}; }
+  .wst-conflict { --wd-c: #{$wd-conflict}; }
+
+  .wanted-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background: var(--wd-c);
+    vertical-align: 0.05em;
+    flex: none;
+  }
+
+  .wanted-stats span b { margin-left: 2px; }
+
+  .wanted-h2 {
+    margin: 2.2em 0 0.8em;
+    padding-bottom: 6px;
+    border-bottom: 2px solid $lib-ink;
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* ---- how to help ---- */
+  .wanted-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: wstep;
+    li {
+      counter-increment: wstep;
+      margin: 0;
+      padding: 14px 16px 14px 48px;
+      position: relative;
+      background: $lib-band;
+      font-size: 0.86rem;
+      line-height: 1.75;
+      color: $lib-ink-soft;
+      &::before {
+        content: counter(wstep);
+        position: absolute;
+        left: 14px;
+        top: 12px;
+        font-size: 1.5rem;
+        font-weight: 800;
+        line-height: 1;
+        color: $wd-known;
+      }
+      b { display: block; margin-bottom: 2px; color: $lib-ink; font-size: 0.95rem; }
+    }
+  }
+  .wanted-also, .wanted-rights {
+    margin: 12px 0 0;
+    font-size: 0.82rem;
+    line-height: 1.7;
+    color: $lib-ink-soft;
+  }
+  .wanted-rights { color: $lib-ink-faint; }
+  .wanted-channels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 10px;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+    li { margin: 0; display: flex; align-items: baseline; gap: 6px; }
+    a {
+      display: inline-flex;
+      gap: 6px;
+      align-items: baseline;
+      padding: 6px 12px;
+      border: 1px solid $lib-rule;
+      color: $lib-ink;
+      text-decoration: none;
+      font-size: 0.85rem;
+      b { color: $wd-known; }
+      &:hover { border-color: $lib-ink; }
+    }
+    span { font-size: 0.75rem; color: $lib-ink-faint; }
+  }
+
+  /* ---- the board ---- */
+  .wanted-tier {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+    margin: 1.6em 0 0.7em;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: $lib-ink-soft;
+    b {
+      display: inline-grid;
+      place-items: center;
+      width: 26px;
+      height: 26px;
+      background: $lib-ink;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    span { color: $lib-ink-faint; }
+  }
+  .wanted-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .wanted-card {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 16px 12px;
+    background: $wd-paper;
+    border: 2px solid $wd-paper-rule;
+    box-shadow: inset 0 0 0 4px $wd-paper, inset 0 0 0 5px rgba(42, 36, 32, 0.35);
+    color: $lib-ink;
+    font-size: 0.84rem;
+    line-height: 1.7;
+    scroll-margin-top: 80px;
+    &:target { outline: 3px solid $wd-known; outline-offset: 3px; }
+  }
+  .wanted-card__head {
+    text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px dashed rgba(42, 36, 32, 0.4);
+    p { margin: 0; }
+  }
+  .wanted-card__stamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    span {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: 0.32em;
+      color: $wd-known;
+      padding-left: 0.32em;
+    }
+  }
+  .wanted-card__prio {
+    display: inline-grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid $wd-known;
+    color: $wd-known;
+    font-size: 0.72rem;
+    line-height: 1;
+  }
+  .wanted-card__pub { font-size: 0.8rem; color: $lib-ink-soft; letter-spacing: 0.02em; }
+  .wanted-card__issue {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+  .wanted-card__issue.is-long { font-size: 1.15rem; }
+  .wanted-card__date { font-size: 0.75rem; color: $lib-ink-faint; letter-spacing: 0.08em; }
+  .wanted-card__title { margin: 0 0 4px; font-size: 0.95rem; line-height: 1.5; }
+  .wanted-card__note { margin: 0 0 4px; font-size: 0.75rem; color: $lib-ink-faint; }
+  .wanted-card__people {
+    margin: 0 0 6px;
+    font-size: 0.8rem;
+    a { color: inherit; text-decoration: underline; text-decoration-color: rgba(42, 36, 32, 0.3); }
+    i { margin: 0 5px; font-style: normal; color: $lib-ink-faint; }
+  }
+  .wanted-card__status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 10px;
+    margin: 0 0 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--wd-c);
+    span { color: $lib-ink-soft; font-weight: 400; }
+  }
+  .wanted-card__known { margin: 0 0 6px; color: $lib-ink-soft; }
+  .wanted-card__conflict {
+    margin: 0 0 6px;
+    padding: 6px 8px;
+    border-left: 3px solid $wd-conflict;
+    background: rgba(107, 70, 193, 0.07);
+    font-size: 0.78rem;
+    b { margin-right: 6px; color: $wd-conflict; }
+  }
+  .wanted-card__need {
+    margin: 2px 0 8px;
+    p { margin: 0; font-weight: 700; color: $wd-known; font-size: 0.78rem; letter-spacing: 0.1em; }
+    ul { margin: 2px 0 0; padding-left: 1.2em; }
+    li { margin: 0; }
+  }
+  .wanted-card__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    align-items: baseline;
+    margin-top: auto;
+    font-size: 0.78rem;
+    a { color: $lib-accent; }
+  }
+  .wanted-card__sources {
+    summary { cursor: pointer; color: $lib-ink-soft; }
+    ul { margin: 4px 0 0; padding-left: 1.1em; }
+  }
+  .wanted-card__act {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(42, 36, 32, 0.4);
+  }
+  .wanted-btn {
+    flex: 1 1 auto;
+    padding: 7px 10px;
+    background: $wd-known;
+    border: 1.5px solid $wd-known;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 0.8rem;
+    font-weight: 700;
+    &:hover { filter: brightness(1.08); }
+  }
+  .wanted-btn--ghost {
+    background: transparent;
+    color: $wd-known !important;
+  }
+
+  /* ---- the chain ---- */
+  .wanted-chain__lead { margin: 0 0 10px; font-size: 0.85rem; color: $lib-ink-soft; }
+  .wanted-era { margin: 0 0 18px; }
+  .wanted-era__label {
+    margin: 0 0 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: $lib-ink-soft;
+    letter-spacing: 0.04em;
+  }
+  .wanted-rows { margin: 0; padding: 0; list-style: none; }
+  .wanted-row {
+    display: grid;
+    grid-template-columns: 16px 64px minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 8px;
+    margin: 0;
+    padding: 6px 0;
+    border-bottom: 1px solid $lib-rule;
+    font-size: 0.84rem;
+  }
+  .wanted-row__date { color: $lib-ink-faint; font-size: 0.75rem; font-variant-numeric: tabular-nums; }
+  .wanted-row__name {
+    color: $lib-ink;
+    text-decoration: none;
+    b { margin-right: 8px; }
+    &:hover { text-decoration: underline; }
+  }
+  .wanted-row__state { color: var(--wd-c); font-size: 0.75rem; white-space: nowrap; }
+
+  /* ---- the legend ---- */
+  .wanted-legend dl { margin: 0; display: grid; gap: 6px; }
+  .wanted-legend div { display: grid; grid-template-columns: 9em minmax(0, 1fr); gap: 10px; font-size: 0.84rem; }
+  .wanted-legend dt { font-weight: 700; color: var(--wd-c); }
+  .wanted-legend dd { margin: 0; color: $lib-ink-soft; }
+}
+
+@media (max-width: 640px) {
+  .wanted {
+    .wanted-row { grid-template-columns: 14px minmax(0, 1fr); }
+    .wanted-row__date { display: none; }
+    .wanted-row__state { grid-column: 2; white-space: normal; }
+    .wanted-legend div { grid-template-columns: 1fr; gap: 0; }
+  }
+}
+
+/* the post page: a translation from a transcript points at its wanted card */
+.ed-wanted-note b { color: $wd-known; }
+
+/* ---- the night theme ---- */
+body.theme-bg-black .wanted {
+  .wanted-h2 { border-bottom-color: #e6e8ec; }
+  .wanted-steps li { background: #1c1f25; color: #b8bec8; b { color: #e6e8ec; } }
+  .wanted-also, .wanted-chain__lead, .wanted-legend dd { color: #b8bec8; }
+  .wanted-channels a { border-color: #333842; color: #e6e8ec; }
+  .wanted-tier b { background: #e6e8ec; color: #111; }
+  .wanted-card {
+    background: #1d1b17;
+    border-color: #cbbf9f;
+    box-shadow: inset 0 0 0 4px #1d1b17, inset 0 0 0 5px rgba(203, 191, 159, 0.35);
+    color: #ece6d6;
+  }
+  .wanted-card__head, .wanted-card__act { border-color: rgba(203, 191, 159, 0.35); }
+  .wanted-card__pub, .wanted-card__known, .wanted-card__status span { color: #c2b9a3; }
+  .wanted-row { border-bottom-color: #2a2f37; }
+  .wanted-row__name { color: #e6e8ec; }
+}

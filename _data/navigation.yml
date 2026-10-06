@@ -56,6 +56,8 @@ main:
         url: /entities/events/
       - title: "资料时间线"
         url: /timeline/
+      - title: "原刊征集"
+        url: /wanted/
       - title: "关系图谱"
         url: /resource-graph/
   - title: "MOre at"

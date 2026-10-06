@@ -1,0 +1,75 @@
+{%- comment -%}
+  One wanted magazine interview (_data/wanted.yml), as a poster on /wanted/.
+    {% include wanted-card.html item=it %}
+  The two buttons open an e-mail and a GitHub issue with the item already filled in.
+{%- endcomment -%}
+{%- assign it = include.item -%}
+{%- assign st = site.data.wanted_ui.status[it.status] -%}
+{%- capture wc_name -%}{{ it.pub }} {{ it.issue }}{%- endcapture -%}
+{%- capture wc_subject -%}[原刊征集] {{ wc_name }}（{{ it.id }}）{%- endcapture -%}
+{%- capture wc_body -%}我有这一期：{{ wc_name }}
+文章：{{ it.title }}
+编号：{{ it.id }}
+
+—— 我能提供（扫描 / 手机照片 / 页码 / 目录 / 其他线索）：
+
+—— 文件（附件，或网盘链接）：
+
+—— 收录时署名（写你希望显示的名字，或「不署名」）：
+
+—— 补充说明：
+{% endcapture -%}
+{%- comment -%} mailto wants %20, not the + that url_encode writes for a space (a literal + is already %2B) {%- endcomment -%}
+{%- assign wc_subject_enc = wc_subject | url_encode | replace: "+", "%20" -%}
+{%- assign wc_body_enc = wc_body | url_encode | replace: "+", "%20" -%}
+{%- assign wc_issue_title = wc_subject | url_encode | replace: "+", "%20" -%}
+{%- capture wc_issue_item -%}{{ it.id }} · {{ wc_name }} · {{ it.title }}{%- endcapture -%}
+{%- assign wc_issue_item = wc_issue_item | url_encode | replace: "+", "%20" -%}
+<article class="wanted-card wst-{{ it.status }}{% if it.priority %} is-p{{ it.priority | downcase }}{% endif %}" id="{{ it.id }}">
+  <header class="wanted-card__head">
+    <p class="wanted-card__stamp"><span>WANTED</span>{% if it.priority %}<b class="wanted-card__prio" title="{{ site.data.wanted_ui.priority[it.priority] }}">{{ it.priority }}</b>{% endif %}</p>
+    <p class="wanted-card__pub">{{ it.pub }}</p>
+    <p class="wanted-card__issue{% assign wc_len = it.issue | size %}{% if wc_len > 9 %} is-long{% endif %}">{{ it.issue }}</p>
+    <p class="wanted-card__date">{{ it.date }}</p>
+  </header>
+  <h3 class="wanted-card__title">{{ it.title }}</h3>
+  {%- if it.title_note %}<p class="wanted-card__note">{{ it.title_note }}</p>{% endif %}
+  {%- if it.people %}
+  <p class="wanted-card__people">
+    {%- for n in it.people -%}
+      {%- assign pe = site.data.people | where: "name", n | first -%}
+      {%- if pe.slug and pe.kind != "character" -%}<a href="{{ '/people/' | append: pe.slug | append: '/' | relative_url }}">{{ n }}</a>{%- else -%}<span>{{ n }}</span>{%- endif -%}
+      {%- unless forloop.last %}<i aria-hidden="true">·</i>{% endunless -%}
+    {%- endfor -%}
+  </p>
+  {%- endif %}
+  <p class="wanted-card__status"><i class="wanted-dot"></i>{{ st.label }}{% if it.pages %}<span>页码 {{ it.pages }}</span>{% endif %}</p>
+  {%- if it.pages_note %}<p class="wanted-card__note">{{ it.pages_note }}</p>{% endif %}
+  {%- if it.known %}<p class="wanted-card__known">{{ it.known }}</p>{% endif %}
+  {%- if it.conflict %}<p class="wanted-card__conflict"><b>资料矛盾</b>{{ it.conflict }}</p>{% endif %}
+  {%- if it.need %}
+  <div class="wanted-card__need">
+    <p>还缺</p>
+    <ul>{% for n in it.need %}<li>{{ n }}</li>{% endfor %}</ul>
+  </div>
+  {%- endif %}
+  <div class="wanted-card__links">
+    {%- if it.post -%}
+      {%- assign wc_path = "_posts/" | append: it.post | append: ".md" -%}
+      {%- assign wc_post = site.posts | where: "path", wc_path | first -%}
+      {%- if wc_post %}<a class="wanted-card__post" href="{{ wc_post.url | relative_url }}">本站现有的{% if it.status == "scan" %}原刊与译文{% else %}文字版{% endif %} →</a>{% endif -%}
+    {%- endif -%}
+    {%- if it.sources %}
+    <details class="wanted-card__sources">
+      <summary>线索 {{ it.sources.size }}</summary>
+      <ul>{% for s in it.sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }} ↗</a></li>{% endfor %}</ul>
+    </details>
+    {%- endif %}
+  </div>
+  {%- if it.need %}
+  <footer class="wanted-card__act">
+    <a class="wanted-btn" href="mailto:{{ site.data.wanted_ui.email }}?subject={{ wc_subject_enc }}&amp;body={{ wc_body_enc }}">我有这一期 · 发邮件</a>
+    <a class="wanted-btn wanted-btn--ghost" href="{{ site.data.wanted_ui.issue_url }}?template=wanted.yml&amp;title={{ wc_issue_title }}&amp;item={{ wc_issue_item }}" target="_blank" rel="noopener">在 GitHub 提交</a>
+  </footer>
+  {%- endif %}
+</article>

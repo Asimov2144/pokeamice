@@ -1,0 +1,19 @@
+# /wanted/ 页面上的固定文字：状态、优先级、投稿渠道。条目本身在 _data/wanted.yml。
+email: asimov2144@gmail.com
+issue_url: https://github.com/Asimov2144/pokeamice/issues/new
+channels:
+  - {label: 邮件, text: asimov2144@gmail.com, url: "mailto:asimov2144@gmail.com?subject=%5B%E5%8E%9F%E5%88%8A%E5%BE%81%E9%9B%86%5D", note: 附件或网盘链接都行}
+  - {label: GitHub, text: 提交一个 Issue, url: "https://github.com/Asimov2144/pokeamice/issues/new?template=wanted.yml", note: 有表单，填好就行}
+  - {label: 微博, text: 私信, url: "https://weibo.com/u/6306512172", note: 先发几张照片也可以}
+  - {label: 哔哩哔哩, text: 私信, url: "https://space.bilibili.com/13876658", note: ""}
+# 状态：order 决定页面上统计条的顺序
+status:
+  known:     {label: 只知存在,   order: 1, wanted: true,  text: 书目或同期公告确认有这篇访谈，本站还没有。}
+  text:      {label: 有文字·缺原刊, order: 2, wanted: true,  text: 本站有译文，但来自网上的转录或摘录，缺原刊页来核对、补全。}
+  candidate: {label: 待确认,     order: 3, wanted: true,  text: 这一期有宝可梦专题，但还不能确定里面有主创的访谈——先帮我们看一眼。}
+  found:     {label: 原刊已找到,  order: 4, wanted: false, text: 网上已经有原刊扫描，等本站整理翻译，不用投稿。}
+  scan:      {label: 已收录原刊,  order: 5, wanted: false, text: 本站有这篇访谈的原刊页图和译文。}
+priority:
+  S: 最想要：拿到原刊就能解决一个关键问题（页码、标题、谁接受了采访）
+  A: 想要：补全书目，或把转录版换成原刊
+  B: 先确认：看看这一期里到底有没有主创访谈

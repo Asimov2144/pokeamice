@@ -1,0 +1,42 @@
+name: 原刊征集 · 我有这一期
+description: 为 docs.pokeamice.com/wanted/ 上的杂志访谈提供原刊照片、扫描或线索
+title: "[原刊征集] "
+labels: ["wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你！从 [原刊征集页](https://docs.pokeamice.com/wanted/) 的卡片点进来，下面的「条目」会自动填好。
+        手机平拍即可：光线均匀、整页入镜、页码和页眉别裁掉；封面和目录页也拍一张，方便核对期号。
+        照片和扫描只用于资料研究、书目核对与翻译整理，会标明出处与提供者。请只分享你自己持有的刊物。
+  - type: input
+    id: item
+    attributes:
+      label: 条目
+      description: 征集页上的编号与期号，例如「np-215 · Nintendo Power #215 · Pearls of Wisdom」
+    validations:
+      required: true
+  - type: checkboxes
+    id: have
+    attributes:
+      label: 我能提供
+      options:
+        - label: 访谈所在页的扫描或照片
+        - label: 封面 / 目录页
+        - label: 页码、标题、受访者等信息（没有图）
+        - label: 其他线索（在哪里见过、书店或图书馆的记录等）
+  - type: textarea
+    id: files
+    attributes:
+      label: 文件
+      description: 直接把图片拖进这里，或贴网盘链接
+  - type: input
+    id: credit
+    attributes:
+      label: 收录时署名
+      description: 希望在条目里显示的名字；不想署名就写「不署名」
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明
+      description: 页码、和征集页上写的不一样的地方、其他想告诉我们的
