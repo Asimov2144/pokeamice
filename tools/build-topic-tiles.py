@@ -6,8 +6,8 @@
 Each collection gets a picture the site already has - a scan's cover, the director
 blog's page header, a 社長が訊く photograph, a CEDEC slide - cut to 7:4 and saved
 small (20-40 KB), so the shelf reads at a glance and costs the page little. The
-people and works tiles are mosaics of portraits and HOME icons; the timeline and
-graph tiles are drawn. _includes/home-topics.html names the file for each entry.
+people and works tiles are mosaics of portraits and HOME icons; the timeline, graph and
+wanted tiles are drawn. _includes/home-topics.html names the file for each entry.
 """
 import io
 import sys
@@ -147,6 +147,29 @@ def drawn(kind):
                 d.line((266, y - 2, 266, y + 10), fill=(159, 215, 255), width=2)
             d.rounded_rectangle((276, y, 276 + w, y + 8), radius=4, fill=(159, 215, 255) if on else soft)
         return tile
+    if kind == "wanted":
+        # /wanted/'s posters: three paper sheets with a red WANTED over an issue number - the S-tier
+        # magazines the archive is asking for
+        from PIL import ImageFont
+        def f(name, size):
+            try:
+                return ImageFont.truetype(f"C:/Windows/Fonts/{name}", size)
+            except OSError:
+                return ImageFont.load_default()
+        stamp, big = f("georgiab.ttf", 13), f("georgiab.ttf", 30)
+        paper, rule, red, ink = (251, 246, 234), (42, 36, 32), (197, 48, 48), (42, 36, 32)
+        for i, (x, y, issue) in enumerate(((18, 30, "#215"), (122, 14, "No.823"), (226, 30, "#65"))):
+            w, h = 92, 150
+            d.rectangle((x, y, x + w, y + h), fill=paper, outline=rule, width=2)
+            d.rectangle((x + 4, y + 4, x + w - 4, y + h - 4), outline=(184, 172, 150), width=1)
+            d.text((x + w / 2, y + 22), "WANTED", font=stamp, fill=red, anchor="mm")
+            d.line((x + 12, y + 34, x + w - 12, y + 34), fill=(184, 172, 150), width=1)
+            size = 30 if len(issue) <= 4 else 22
+            d.text((x + w / 2, y + 66), issue, font=f("georgiab.ttf", size), fill=ink, anchor="mm")
+            for k, ww in enumerate((60, 48, 54)):
+                d.rectangle((x + (w - ww) / 2, y + 96 + k * 12, x + (w + ww) / 2, y + 100 + k * 12), fill=(214, 204, 184))
+            d.rectangle((x + 14, y + h - 24, x + w - 14, y + h - 12), fill=red)
+        return tile
     if kind == "credits":
         # the staff matrix as it looks on /credits/staff/: rows of people, a column per game, a mark
         # coloured by department; columns fill in over the years the way the credits grew
@@ -262,7 +285,7 @@ def main():
                 im = Image.open(f).convert("RGBA").resize((side, side), Image.LANCZOS)
                 bg.paste(im, (x0 + (i % 5) * (side + gap), y0 + (i // 5) * (side + gap)), im)
         save(bg, "games"); print("  games      <- one icon per generation")
-    for key in ("timeline", "graph", "credits", "analysis", "quotes", "guide"):
+    for key in ("timeline", "graph", "credits", "analysis", "quotes", "guide", "wanted"):
         if force or not (OUT / f"{key}.jpg").exists():
             save(drawn(key), key); print(f"  {key:10s} <- drawn")
     print("tiles:", sorted(p.name for p in OUT.glob("*.jpg")))
