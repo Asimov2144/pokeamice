@@ -92,12 +92,11 @@ ARCHIVE = {
 }
 
 # HOME icons the gallery does not carry, taken from the Archives' copies instead
-HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
+#  (FireRed / LeafGreen: the Archives filed their HOME icons in October 2026, Category:Pokémon HOME game icons)
+HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"], "宝可梦 火红·叶绿": ["HOME FireRed icon.png", "HOME LeafGreen icon.png"]}
 
 # a file already in assets/img/works, chosen by hand; a pair that is not there yet falls through to the next rule
-# (FireRed / LeafGreen: the HOME icons of the October 2026 link-up — drop the two-icon picture in and run
-#  `python tools/build-work-icons.py --split <picture> home-firered home-leafgreen`)
-LOCAL = {"Pokémon Pokopia": ["pokopia.png"], "宝可梦 火红·叶绿": ["home-firered.png", "home-leafgreen.png"]}
+LOCAL = {"Pokémon Pokopia": ["pokopia.png"]}
 KEEP = {"pokopia-logo.png"}
 
 # credits slug -> Archives file(s), for the games the staff rolls cover but works.yml does not
