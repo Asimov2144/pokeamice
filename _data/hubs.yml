@@ -301,8 +301,8 @@ overseas:
       - 石原恒和
       works:
       - name: 宝可梦 火红·叶绿
-        icon: /assets/img/works/bulba-firered-icon.png
-        icon2: /assets/img/works/bulba-leafgreen-icon.png
+        icon: /assets/img/works/bulba-home-firered-icon.png
+        icon2: /assets/img/works/bulba-home-leafgreen-icon.png
       blurb: 增田顺一与石原恒和谈《火红／叶绿》的无线对战与系列未来。
     - title: 《宝可梦 白金》开发者访谈
       url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gamepro-platinum-masuda-kawachimaru/
@@ -1784,8 +1784,8 @@ games:
       span:
       - 2004
       - 2004
-      icon: /assets/img/works/bulba-firered-icon.png
-      icon2: /assets/img/works/bulba-leafgreen-icon.png
+      icon: /assets/img/works/bulba-home-firered-icon.png
+      icon2: /assets/img/works/bulba-home-leafgreen-icon.png
       color: '#e6522c'
       color2: '#5fa14a'
       credits: firered-leafgreen

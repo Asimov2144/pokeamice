@@ -87,8 +87,8 @@ eras:
   - slug: firered-leafgreen
     title: 宝可梦 火红·叶绿
     year: 2004
-    icon: /assets/img/works/bulba-firered-icon.png
-    icon2: /assets/img/works/bulba-leafgreen-icon.png
+    icon: /assets/img/works/bulba-home-firered-icon.png
+    icon2: /assets/img/works/bulba-home-leafgreen-icon.png
     color: '#e6522c'
     color2: '#5fa14a'
   - slug: emerald
@@ -916,8 +916,8 @@ years:
   - slug: firered-leafgreen
     title: 宝可梦 火红·叶绿
     core: true
-    icon: /assets/img/works/bulba-firered-icon.png
-    icon2: /assets/img/works/bulba-leafgreen-icon.png
+    icon: /assets/img/works/bulba-home-firered-icon.png
+    icon2: /assets/img/works/bulba-home-leafgreen-icon.png
     color: '#e6522c'
     color2: '#5fa14a'
   - slug: emerald
@@ -947,8 +947,8 @@ years:
     n: 1
   works:
   - name: 宝可梦 火红·叶绿
-    icon: /assets/img/works/bulba-firered-icon.png
-    icon2: /assets/img/works/bulba-leafgreen-icon.png
+    icon: /assets/img/works/bulba-home-firered-icon.png
+    icon2: /assets/img/works/bulba-home-leafgreen-icon.png
     color: '#e6522c'
     color2: '#5fa14a'
     n: 3

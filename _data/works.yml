@@ -48,9 +48,9 @@
   color: '#e6522c'
   color2: '#5fa14a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0003.png
-  icon: /assets/img/works/bulba-firered-icon.png
-  icon2: /assets/img/works/bulba-leafgreen-icon.png
-  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+  icon: /assets/img/works/bulba-home-firered-icon.png
+  icon2: /assets/img/works/bulba-home-leafgreen-icon.png
+  icon_credit: Pokémon HOME 的作品图标（Bulbagarden Archives）
 - name: 宝可梦 钻石·珍珠
   color: '#4f7fc9'
   color2: '#c98ab6'

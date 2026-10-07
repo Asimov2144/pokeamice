@@ -125,15 +125,15 @@ CROPS = {
 WORKS_CROPS = {"宝可梦乱战": ["Pokémon Rumble Wii save icon"], "宝可梦对战革命": ["Pokémon Battle Revolution Wii save icon"]}
 
 # HOME icons the gallery does not carry, taken from the Archives' copies instead
-HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
+#  (FireRed / LeafGreen: the Archives filed their HOME icons in October 2026, Category:Pokémon HOME game icons)
+HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"], "宝可梦 火红·叶绿": ["HOME FireRed icon.png", "HOME LeafGreen icon.png"]}
 
 # a file already in assets/img/works, chosen by hand; a pair that is not there yet falls through to the next rule
-# (FireRed / LeafGreen: the HOME icons of the October 2026 link-up — drop the two-icon picture in and run
-#  `python tools/build-work-icons.py --split <picture> home-firered home-leafgreen`)
-LOCAL = {"Pokémon Pokopia": ["pokopia.png"], "宝可梦 火红·叶绿": ["home-firered.png", "home-leafgreen.png"]}
+LOCAL = {"Pokémon Pokopia": ["pokopia.png"]}
 # kept although works.yml no longer points at them: the App's data snapshot (assets/data/app) still does, until the
 # next full export (Pokédex 3D wore Black and White's DS icons, the typing game, Rumble and Battle Revolution the classic mark, before 2026-10-05)
-KEEP = {"pokopia-logo.png", "black-white.png", "black-white-2.png", "ball-typing.png", "ball-rumble.png", "ball-battle-revolution.png"}
+KEEP = {"pokopia-logo.png", "black-white.png", "black-white-2.png", "ball-typing.png", "ball-rumble.png", "ball-battle-revolution.png",
+        "bulba-firered-icon.png", "bulba-leafgreen-icon.png"}   # FireRed / LeafGreen wore their DS icons before 2026-10-07
 
 # credits slug -> Archives file(s), for the games the staff rolls cover but works.yml does not
 CREDITS_ICONS = {
