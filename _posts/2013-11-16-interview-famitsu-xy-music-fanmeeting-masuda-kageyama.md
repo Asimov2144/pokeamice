@@ -18,15 +18,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- X·Y
-- 增田顺一
-- 景山将太
-- 宝可梦音乐
-- 密阿雷市
-- 法兰西美学
-- Fami通
-- 开发秘辛
+- 'Pokemon'
+- '宝可梦 X·Y'
+- '增田顺一'
+- '景山将太'
+- '宝可梦音乐'
+- '密阿雷市'
+- '法兰西美学'
+- 'Fami通'
+- '开发秘辛'
 archive_type: interview_translation
 source:
   title: ファミ通.com 特集記事：『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催

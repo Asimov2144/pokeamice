@@ -9,17 +9,17 @@ categories:
 - developer-interviews
 - pokemon-company-recruit
 tags:
-- 株式会社ポケモン
-- 宝可梦XY
-- 河本拓
-- 鹿瀬岛英介
-- 福嶋ゆかり
-- 品牌监修
-- 营业企划
-- 媒体策划
-- POKEMON with YOU
-- 招聘访谈
-- Wayback历史归档
+- '株式会社宝可梦'
+- '宝可梦 X·Y'
+- '河本拓'
+- '鹿瀬岛英介'
+- '福嶋ゆかり'
+- '品牌监修'
+- '营业企划'
+- '媒体策划'
+- 'POKEMON with YOU'
+- '招聘访谈'
+- 'Wayback历史归档'
 original_url: http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview1.html
 outlet: 株式会社ポケモン 官方招聘网站 (Wayback Machine 历史归档)
 interviewee: 履历档案, 引言, 河本 拓, 福嶋 ゆかり, 鹿瀬島 英介

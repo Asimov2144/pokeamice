@@ -12,15 +12,15 @@ source_url: http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-i
 interviewee: 增田顺一、吉田宏信
 interviewer: Justin Berube、Josh Max（NWR）
 tags:
-- 宝可梦
-- 增田顺一
-- 吉田宏信
-- XY
-- 超级进化
-- 超级超级特训
-- 天界之笛
-- 任天堂明星大乱斗
-- 访谈
+- '宝可梦'
+- '增田顺一'
+- '吉田宏信'
+- '宝可梦 X·Y'
+- '超级进化'
+- '超级超级特训'
+- '天界之笛'
+- '任天堂明星大乱斗'
+- '访谈'
 intro: '2013年秋天，在《宝可梦 X／Y》即将于任天堂3DS平台全球同步震撼发售之际，北美资深任天堂专业媒体 Nintendo World Report（NWR）专访了 GAME FREAK 系列总监增田顺一与首席图形设计师吉田宏信。
 
 

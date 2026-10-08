@@ -18,16 +18,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 黑·白
-- C-Gear
-- PGL
-- 红外通信
-- 岩田聪
-- 增田顺一
-- 石原恒和
-- 社长问
-- 通信革命
+- 'Pokemon'
+- '宝可梦 黑·白'
+- 'C-Gear'
+- 'PGL'
+- '红外通信'
+- '岩田聪'
+- '增田顺一'
+- '石原恒和'
+- '社长问'
+- '通信革命'
 archive_type: interview_translation
 source:
   title: 任天堂公式ウェブサイト「社長が訊く」Pokemon Black & White Vol.1 第3回

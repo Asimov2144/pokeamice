@@ -10,14 +10,14 @@ categories:
 - 访谈翻译
 - 官方档案
 tags:
-- N.O.M
-- 钻石·珍珠
-- 石原恒和
-- 增田顺一
-- 杉森建
-- Nintendo DS
-- Wi-Fi
-- 宝可梦对战革命
+- 'N.O.M'
+- '宝可梦 钻石·珍珠'
+- '石原恒和'
+- '增田顺一'
+- '杉森建'
+- 'Nintendo DS'
+- 'Wi-Fi'
+- '宝可梦对战革命'
 publication: 任天堂官网「N.O.M」2006年10月号（No.99）
 source_kind: official_web_magazine
 interviewer: N.O.M 编辑部
@@ -191,13 +191,9 @@ parallel_items:
   translation: 宝可梦对战中的势力分布似乎也会改变呢。说不定会有意外的宝可梦大显身手。
 - type: dialogue
   speaker: 增田顺一
-  original: 'そうですね。今回はどのわざを覚えさせるかがより重要なポイントになります。
-
-    ｜１｜２｜３｜４｜５｜６｜７｜'
+  original: "そうですね。今回はどのわざを覚えさせるかがより重要なポイントになります。\n\n｜１｜２｜３｜４｜５｜６｜７｜"
   role: answer
-  translation: '是啊。这次让宝可梦记住哪个招式，会成为更重要的关键点。
-
-    ｜１｜２｜３｜４｜５｜６｜７｜'
+  translation: "是啊。这次让宝可梦记住哪个招式，会成为更重要的关键点。\n\n｜１｜２｜３｜４｜５｜６｜７｜"
 - type: dialogue
   speaker: N.O.M采访者
   original: 初めて『ポケモン』プレイする人、触れる人にアドバイスがありますか？

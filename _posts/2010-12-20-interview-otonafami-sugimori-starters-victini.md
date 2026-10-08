@@ -7,9 +7,9 @@ categories:
 - 访谈翻译
 - 杂志摘录
 tags:
-- オトナファミ
-- 宝可梦 黑·白
-- 杉森建
+- '大人Fami'
+- '宝可梦 黑·白'
+- '杉森建'
 publication: オトナファミ（wiki 未记具体期号）
 source_kind: fan_wiki_excerpt
 interviewee: 杉森建

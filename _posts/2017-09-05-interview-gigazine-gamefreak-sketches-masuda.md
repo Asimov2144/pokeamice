@@ -10,17 +10,17 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 増田順一
-- 大森滋
-- Game Freak
-- GIGAZINE
-- Game Informer
-- 开发手稿
-- 汇编语言
-- 叫声合成
-- 初代红绿
-- 太阳月亮
-- 底层架构
+- '増田順一'
+- '大森滋'
+- 'Game Freak'
+- 'GIGAZINE'
+- 'Game Informer'
+- '开发手稿'
+- '汇编语言'
+- '叫声合成'
+- '初代红绿'
+- '宝可梦 太阳·月亮'
+- '底层架构'
 era_skin: '2016'
 original_lang: ja
 interview_id: PKMN-0070

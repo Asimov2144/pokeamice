@@ -8,15 +8,14 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケモンGO
-- サン
-- ムーン
-- ポケットモンスター
-- ピカチュウ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- 'Pokémon GO'
+- '宝可梦 太阳'
+- '宝可梦 月亮'
+- '皮卡丘'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9287844

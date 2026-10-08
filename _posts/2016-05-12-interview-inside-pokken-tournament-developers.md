@@ -10,17 +10,17 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 星野正昭
-- 須崎春樹
-- 宇都宮崇人
-- 橋本拓也
-- ポッ拳
-- 万代南梦宫
-- The Pokémon Company
-- 格斗游戏
-- 动作系统
-- WCS
-- EVO
+- '星野正昭'
+- '須崎春樹'
+- '宇都宮崇人'
+- '橋本拓也'
+- '宝可拳'
+- '万代南梦宫'
+- 'The Pokémon Company'
+- '格斗游戏'
+- '动作系统'
+- 'WCS'
+- 'EVO'
 era_skin: '2016'
 original_lang: ja
 interview_id: PKMN-0059

@@ -11,18 +11,18 @@ categories:
 - 宝可梦XY
 - 角色与对战
 tags:
-- 访谈
-- Game Freak
-- 宝可梦XY
-- 增田顺一
-- 景山将太
-- 电击Online
-- 第六世代
-- 布拉塔诺博士
-- 弗拉达利
-- 卡洛斯地区
-- 游戏音乐
-- 四天王
+- '访谈'
+- 'Game Freak'
+- '宝可梦 X·Y'
+- '增田顺一'
+- '景山将太'
+- '电击Online'
+- '第六世代'
+- '布拉塔诺博士'
+- '弗拉达利'
+- '卡洛斯地区'
+- '游戏音乐'
+- '四天王'
 publication: 电击Online（2013-11-16）
 source_kind: event_report
 interviewer: 电击Online

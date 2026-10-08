@@ -31,7 +31,7 @@ annotations:
       events:
         - 站点视觉系统
 archive_type: "article"
-summary: "https://github.com/Asimov2144/pokeamice"
+summary: '记录 Poke Amice 的建站过程与鸣谢：站点主题已开源，并介绍随机背景图、站点图标、腾讯云 COS 图床与开发工具等。'
 source:
   title: "Pokeamice.com"
   url: "https://pokeamice.com"

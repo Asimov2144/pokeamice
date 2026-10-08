@@ -9,16 +9,16 @@ categories:
 - developer-interviews
 - pokemon-company-recruit
 tags:
-- 株式会社ポケモン
-- 宝可梦XY
-- 青年座谈会
-- 大奈路まりな
-- 菅野隼人
-- 古谷翔
-- 宝可梦中心
-- 全人类总宝可梦训练家化
-- 招聘访谈
-- Wayback历史归档
+- '株式会社宝可梦'
+- '宝可梦 X·Y'
+- '青年座谈会'
+- '大奈路まりな'
+- '菅野隼人'
+- '古谷翔'
+- '宝可梦中心'
+- '全人类总宝可梦训练家化'
+- '招聘访谈'
+- 'Wayback历史归档'
 original_url: http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview2.html
 outlet: 株式会社ポケモン 官方招聘网站 (Wayback Machine 历史归档)
 interviewee: 古谷翔, 大奈路まりな, 引言, 档案, 菅野隼人

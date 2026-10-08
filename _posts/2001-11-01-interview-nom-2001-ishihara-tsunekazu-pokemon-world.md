@@ -10,11 +10,11 @@ categories:
 - 访谈翻译
 - 官方档案
 tags:
-- N.O.M
-- 石原恒和
-- 株式会社ポケモン
-- 宝可梦卡牌e
-- Pokémon mini
+- 'N.O.M'
+- '石原恒和'
+- '株式会社宝可梦'
+- '宝可梦卡牌e'
+- 'Pokémon mini'
 publication: 任天堂官网「N.O.M」2001年11月号（No.40）
 source_kind: official_web_magazine
 interviewer: N.O.M 编辑部

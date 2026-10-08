@@ -2,6 +2,12 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: 走入幕后对话 GAME FREAK 的宝可梦大师：《心金／魂银》十周年重塑·六位核心主创深度圆桌访谈
+tags:
+- '访谈'
+- '增田顺一'
+- '森本茂树'
+- '大森滋'
+- '宝可梦 心金·魂银'
 original_title: Go Behind the Scenes with the Pokémon Masters at GAME FREAK, inc.!
 date: '2010-03-31'
 author: Pokémon.com 官方特约

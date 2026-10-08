@@ -8,14 +8,14 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- 友達
-- LINE
-- 直接
-- ブログ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '友達'
+- 'LINE'
+- '直接'
+- '博客'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9262480

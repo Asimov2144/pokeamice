@@ -8,16 +8,16 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケモンGO
-- pokemonGO
-- 金銀
-- 金銀ポケモン
-- 音楽
-- 作曲
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- 'Pokémon GO'
+- 'pokemonGO'
+- '金銀'
+- '宝可梦 金·银'
+- '音楽'
+- '作曲'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9261965

@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- Game Freak
-- 程序员
-- 系统程序员
-- 游戏程序员
-- 宝可梦传说阿尔宙斯
-- 宝可梦朱紫
-- 研发管理
-- 招聘访谈
-- 技术选型
+- 'Game Freak'
+- '程序员'
+- '系统程序员'
+- '游戏程序员'
+- '宝可梦传说 阿尔宙斯'
+- '宝可梦 朱·紫'
+- '研发管理'
+- '招聘访谈'
+- '技术选型'
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-programmer/
 outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
 interviewee: M.O., T.T., 档案

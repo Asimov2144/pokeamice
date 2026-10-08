@@ -112,10 +112,10 @@ parallel_items:
 - original: '[Author''s Note: In Pokemon Platinum, Gym Leaders and Gym Trainers no longer carry any Pokemon that don''t match their respective gym''s type. This means that a Gym Leader like Candice won''t be rounding out her Ice-type lineup with a weird pinch-hitter like the Fighting/Psychic Medicham.]'
   role: question
   speaker: GamePro
-  translation: 【作者注：在《宝可梦 白金》中，道馆馆主和道馆训练家不再携带任何与各自道馆属性不符的宝可梦。这意味着像小菘这样的道馆馆主，不会再拿格斗/超能力属性的恰雷姆之类奇怪的替补来凑齐她的冰属性阵容。】
-  note: 小菘是《宝可梦 钻石／珍珠／白金》中雪峰市道馆的冰属性馆主。
+  translation: '【作者注：在《宝可梦 白金》中，道馆馆主和道馆训练家不再携带任何与各自道馆属性不符的宝可梦。这意味着像小菘这样的道馆馆主，不会再拿格斗/超能力属性的恰雷姆之类奇怪的替补来凑齐她的冰属性阵容。】'
+  note: '小菘是《宝可梦 钻石／珍珠／白金》中雪峰市道馆的冰属性馆主。'
 - original: '[Editor''s Note: Nerd!]'
-  translation: 【编辑注：书呆子！】
+  translation: '【编辑注：书呆子！】'
 - original: It is very difficult to set which actual Gym Leader has what kind of Pokemon that he or she uses. Each gym [ranks as] "Number 1 through Number 8." When you get to Number 1, you meet certain Pokemon, [and] that's limited. So, we have to think of whole scenarios, how Number 1 to Number 8 happens and which Gym Leaders [will] specialize in Water Pokemon or [any type] of Pokemon. It also affects the nearby area, so if there's a snowy city, of course, you will have Ice Pokemon. That scenario needs to be matched with how you line up the Gym Leaders, as well as their Pokemon. Towards the end, because you have already experienced many battles and you will meet wild Pokemon of a much higher level, that's why [in the game's final gym], of course, that leader has strong Pokemon.
   role: answer
   speaker: 增田顺一

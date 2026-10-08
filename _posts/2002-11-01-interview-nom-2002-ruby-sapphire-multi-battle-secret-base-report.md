@@ -10,13 +10,13 @@ categories:
 - 访谈翻译
 - 官方档案
 tags:
-- N.O.M
-- 红宝石·蓝宝石
-- 株式会社ポケモン
-- Game Boy Advance
-- 多人对战
-- 秘密基地
-- 报道
+- 'N.O.M'
+- '宝可梦 红宝石·蓝宝石'
+- '株式会社宝可梦'
+- 'Game Boy Advance'
+- '多人对战'
+- '秘密基地'
+- '报道'
 publication: 任天堂官网「N.O.M」2002年11月号（No.52）
 source_kind: official_web_magazine
 interviewer: N.O.M 编辑部

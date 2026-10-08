@@ -8,14 +8,13 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケットモンスター
-- ポケモン
-- ニャース
-- ロケット団
-- 豊洲
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '喵喵'
+- '火箭队'
+- '豊洲'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9288581

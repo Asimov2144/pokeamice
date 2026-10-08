@@ -12,15 +12,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- ファミ通
-- CEDEC 2023
-- 宝可梦 朱·紫
-- 一之濑刚
-- 环境音
-- 音效
-- 技术专题
+- '访谈'
+- 'Game Freak'
+- 'Fami通'
+- 'CEDEC 2023'
+- '宝可梦 朱·紫'
+- '一之濑刚'
+- '环境音'
+- '音效'
+- '技术专题'
 publication: Fami通.com（2023-08-24）
 source_kind: lecture_report
 interviewer: ファミ通

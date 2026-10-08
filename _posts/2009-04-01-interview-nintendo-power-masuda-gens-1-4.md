@@ -10,38 +10,18 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 增田顺一
-- 河内丸武史
-- 第四世代
-- 白金
-- EN
-- 宝可梦 白金
-- 钻石珍珠
-- 反转世界
-- Nintendo Power
-- Pokemon
-- 访谈
-- 开发者访谈
-- 增田顺一
-- 河内丸武史
-- 第四世代
-- 白金
-- EN
-- 宝可梦 白金
-- 钻石珍珠
-- 反转世界
-- Nintendo Power
-- Pokemon
-- 访谈
-- 开发者访谈
-- 增田顺一
-- 河内丸武史
-- 第四世代
-- 白金
-- EN
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '增田顺一'
+- '河内丸武史'
+- '第四世代'
+- '白金'
+- 'EN'
+- '宝可梦 白金'
+- '宝可梦 钻石·珍珠'
+- '反转世界'
+- 'Nintendo Power'
 archive_type: interview_translation
 source:
   title: 'Nintendo power Interview: Masuda on Developing Gens 1-4'

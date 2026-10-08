@@ -12,14 +12,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- 電ファミニコゲーマー
-- CEDEC 2026
-- Pokémon LEGENDS Z-A
-- 前泽圭一
-- 渲染技术
-- 技术专题
+- '访谈'
+- 'Game Freak'
+- '电玩迷电玩'
+- 'CEDEC 2026'
+- 'Pokémon LEGENDS Z-A'
+- '前泽圭一'
+- '渲染技术'
+- '技术专题'
 publication: 电Fami Nico Gamer（2026-07-23）
 source_kind: lecture_report
 interviewer: 電ファミ

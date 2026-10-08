@@ -2,6 +2,11 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学
+tags:
+- '访谈'
+- '增田顺一'
+- '菜花健作'
+- 'Let''s Go'
 title_ja: Eurogamer：増田順一氏・菜花健作氏インタビュー ポケモン Let's Go! ピカ・ブイの挑戦
 date: 2018-10-26 10:00:00 +0900
 era: '2018'

@@ -18,16 +18,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 黑·白
-- 等离子队
-- N
-- 莱希拉姆
-- 捷克罗姆
-- 岩田聪
-- 增田顺一
-- 杉森建
-- 哲学思辨
+- 'Pokemon'
+- '宝可梦 黑·白'
+- '等离子队'
+- 'N'
+- '莱希拉姆'
+- '捷克罗姆'
+- '岩田聪'
+- '增田顺一'
+- '杉森建'
+- '哲学思辨'
 archive_type: interview_translation
 source:
   title: 任天堂公式ウェブサイト「社長が訊く」Pokemon Black & White Vol.1 第4回

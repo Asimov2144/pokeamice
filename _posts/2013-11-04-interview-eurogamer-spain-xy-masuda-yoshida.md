@@ -12,14 +12,14 @@ source_url: https://www.eurogamer.es/entrevista-con-el-director-de-pokemon-x-e-y
 interviewee: 增田顺一、吉田宏信
 interviewer: Víctor Manuel Martínez（Eurogamer.es）
 tags:
-- 宝可梦
-- 增田顺一
-- 吉田宏信
-- XY
-- 妖精属性
-- 宝可清爽乐
-- 竞技对战
-- 访谈
+- '宝可梦'
+- '增田顺一'
+- '吉田宏信'
+- '宝可梦 X·Y'
+- '妖精属性'
+- '宝可清爽乐'
+- '竞技对战'
+- '访谈'
 intro: '2013年11月，在《宝可梦 X／Y》正式发售之际，Eurogamer 西班牙版记者在欧洲媒体峰会上专访了系列总监增田顺一与 GAME FREAK 首席平面设计师吉田宏信。
 
 

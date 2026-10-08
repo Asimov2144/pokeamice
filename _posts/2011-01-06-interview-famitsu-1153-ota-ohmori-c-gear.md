@@ -7,11 +7,11 @@ categories:
 - 访谈翻译
 - 杂志摘录
 tags:
-- 週刊ファミ通
-- 宝可梦 黑·白
-- 太田哲司
-- 大森滋
-- C-Gear
+- 'Fami通'
+- '宝可梦 黑·白'
+- '太田哲司'
+- '大森滋'
+- 'C-Gear'
 publication: 週刊ファミ通 No.1153「通信開発のウラ側を公開！！」
 source_kind: fan_wiki_excerpt
 interviewee: 太田哲司、大森滋

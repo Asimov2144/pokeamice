@@ -10,19 +10,19 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 增田顺一
-- 石原恒和
-- 杉森建
-- 森本茂树
-- 太田健程
-- 一之濑刚
-- Nintendo Power
-- Game Freak
-- 金银
-- 第二世代
-- 废案宝可梦
-- 梦幻
-- 咕咕
+- '增田顺一'
+- '石原恒和'
+- '杉森建'
+- '森本茂树'
+- '太田健程'
+- '一之濑刚'
+- 'Nintendo Power'
+- 'Game Freak'
+- '宝可梦 金·银'
+- '第二世代'
+- '废案宝可梦'
+- '梦幻'
+- '咕咕'
 entities:
   people:
   - "增田顺一"

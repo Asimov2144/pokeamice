@@ -14,15 +14,15 @@ categories:
 - 宝可梦剑盾
 - 公司与战略
 tags:
-- Game Freak
-- 尾上将之
-- VGC
-- Gear Project
-- 宝可梦剑盾
-- GIGA WRECKER
-- 小镇英雄
-- 第八世代
-- 研发体系
+- 'Game Freak'
+- '尾上将之'
+- 'VGC'
+- 'Gear Project'
+- '宝可梦 剑·盾'
+- 'GIGA WRECKER'
+- '小镇英雄'
+- '第八世代'
+- '研发体系'
 cast:
 - name: 尾上将之
   role: GAME FREAK 程序员 /《千兆破坏者》总监

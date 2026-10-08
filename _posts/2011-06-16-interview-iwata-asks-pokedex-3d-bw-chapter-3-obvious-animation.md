@@ -19,18 +19,18 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 立体图鉴BW
-- 黑·白
-- AR
-- Creatures
-- 岩田聪
-- 石原恒和
-- 小笠原裕
-- 竹内敦
-- 折本哲也
-- 社长问
-- 开发秘辛
+- 'Pokemon'
+- '立体图鉴BW'
+- '宝可梦 黑·白'
+- 'AR'
+- 'Creatures'
+- '岩田聪'
+- '石原恒和'
+- '小笠原裕'
+- '竹内敦'
+- '折本哲也'
+- '社长问'
+- '开发秘辛'
 archive_type: interview_translation
 source:
   title: 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第3回

@@ -8,17 +8,17 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- サントラ
-- 音楽
-- 打ち上げ
-- サン
-- ムーン
-- ポケモンサンムーン
-- スタッフ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '原声带'
+- '音楽'
+- '庆功宴'
+- '宝可梦 太阳'
+- '宝可梦 月亮'
+- '宝可梦 太阳·月亮'
+- '工作人员'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9262888

@@ -10,11 +10,11 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - 週刊ファミ通
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑2·白2
-  - 海野隆雄
+  - 'Fami通'
+  - '扫描存档'
+  - '日中对照'
+  - '宝可梦 黑2·白2'
+  - '海野隆雄'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: 週刊ファミ通
 issue: 2012年8月2日・9日合併号（No.1233）

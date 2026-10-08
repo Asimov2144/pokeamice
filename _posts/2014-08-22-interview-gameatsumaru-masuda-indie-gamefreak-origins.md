@@ -12,11 +12,10 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- ニコニコ
-- 增田顺一
-- Game Freak
+- '访谈'
+- 'Game Freak'
+- 'NicoNico'
+- '增田顺一'
 publication: ニコニコ自作ゲームフェス（2014-08-22）
 source_kind: media_interview
 interviewer: ニコニコ自作ゲームフェス

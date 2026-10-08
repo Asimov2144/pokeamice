@@ -104,8 +104,8 @@ parallel_items:
 - original: 'Many of the Pokemon characters first became loved because they were funny, that''s why many people have supported it. And I''m sure that younger people will still support the Pokemon because it''s funny. And in Japan, before Pokemon Ruby and Pokemon Sapphire was released, many of the mass media began rumours that the Pokemon had already down trended and the software would not become a big seller. But that wasn''t true and we still had support from fans, and I''m sure that we''ll still keep on getting this support. (Note: 4.4 million Pokemon Ruby and Saphire sold in Japan to date)'
   role: answer
   speaker: 杉森建
-  translation: 许多宝可梦角色最初受到喜爱是因为它们有趣，这也是很多人一直支持它的原因。我相信年轻人仍然会支持宝可梦，因为它有趣。在日本，《宝可梦 红宝石》和《宝可梦 蓝宝石》发售之前，许多大众媒体开始传言宝可梦已经走下坡路，这款软件不会大卖。但事实并非如此，我们仍然得到了粉丝的支持，我相信我们还会继续得到这种支持。（注：迄今为止《宝可梦 红宝石／蓝宝石》在日本售出440万份）
-  note: 《宝可梦 红宝石／蓝宝石》是2002年在Game Boy Advance上发售的第三世代宝可梦游戏。
+  translation: '许多宝可梦角色最初受到喜爱是因为它们有趣，这也是很多人一直支持它的原因。我相信年轻人仍然会支持宝可梦，因为它有趣。在日本，《宝可梦 红宝石》和《宝可梦 蓝宝石》发售之前，许多大众媒体开始传言宝可梦已经走下坡路，这款软件不会大卖。但事实并非如此，我们仍然得到了粉丝的支持，我相信我们还会继续得到这种支持。'
+  note: '《宝可梦 红宝石／蓝宝石》是2002年在Game Boy Advance上发售的第三世代宝可梦游戏。 迄今为止《宝可梦 红宝石／蓝宝石》在日本售出440万份'
 - original: We have created this Pokemon software to be easy for young players to play. I'm sure that new generations will still enjoy this game.
   role: answer
   speaker: 森本茂树

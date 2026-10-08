@@ -10,15 +10,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 增田顺一
-- 大森滋
-- 岩尾和昌
-- 海野隆雄
-- 第六世代
-- XY
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '增田顺一'
+- '大森滋'
+- '岩尾和昌'
+- '海野隆雄'
+- '第六世代'
+- '宝可梦 X·Y'
 archive_type: interview_translation
 source:
   title: '[Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'

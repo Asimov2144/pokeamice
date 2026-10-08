@@ -2,6 +2,11 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: CANUCH 建筑设计深度特写：揭秘 GAME FREAK 东京新总部——以“红·绿宝可梦世界与常青森林探索”为核心的生命力办公空间哲学
+tags:
+- '访谈'
+- 'Game Freak'
+- '建筑'
+- 'CANUCH'
 title_ja: CANUCH：株式会社ゲームフリーク新オフィスデザイン解説 世界観の創造に必要なのは常に冒険心を持ち続ける事
 date: 2020-07-01 10:00:00 +0900
 era: '2019'

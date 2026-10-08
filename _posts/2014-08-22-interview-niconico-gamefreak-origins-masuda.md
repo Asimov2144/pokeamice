@@ -2,6 +2,11 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学
+tags:
+- '访谈'
+- '增田顺一'
+- 'Game Freak'
+- 'NicoNico'
 original_title: かつてファミコンソフトを自作した集団がいた――ゲームフリーク・増田順一氏が語ったゲーム制作の魅力
 date: '2014-08-22'
 author: NicoNico 独立游戏祭采访组 (自作ゲームフェス / ゲームアツマール)

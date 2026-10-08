@@ -264,7 +264,8 @@ parallel_items:
   translation: 在书籍《教科书上不记载的日本互联网历史教科书》中，他反而以那个企划而非宝可梦被介绍。
 - type: paragraph
   original: URLは http://www.st.rim.or.jp/~hime-ft-/ （注：現在では上記企画は削除済み。アーカイブで2004年以前を掘ろう）
-  translation: URL是 http://www.st.rim.or.jp/~hime-ft-/ （注：现在上述企划已被删除。请在存档中挖掘2004年以前的内容）。
+  translation: 'URL是 http://www.st.rim.or.jp/~hime-ft-/ 。'
+  note: '现在上述企划已被删除。请在存档中挖掘2004年以前的内容'
 - type: paragraph
   original: なおこのURLは1999年までしか辿れないので、だいすきクラブと共に旧アドレスからリムネットに移転した可能性があり、
   translation: 另外，这个URL只能追溯到1999年，因此有可能与宝可梦发烧友俱乐部一起从旧地址迁移到了利姆网，

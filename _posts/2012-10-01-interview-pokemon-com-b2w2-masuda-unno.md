@@ -9,14 +9,13 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 访谈
-- Game Freak
-- 増田順一
-- 海野隆雄
-- Pokemon.com
-- 宝可梦黑2白2
-- 合众地区
-- 官方访谈
+- '访谈'
+- 'Game Freak'
+- '増田順一'
+- '海野隆雄'
+- '宝可梦 黑2·白2'
+- '合众地区'
+- '官方访谈'
 publication: Pokémon.com（2012-10-01）
 source_kind: media_interview
 interviewer: Pokemon.com

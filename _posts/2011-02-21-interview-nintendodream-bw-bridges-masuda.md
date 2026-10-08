@@ -10,13 +10,13 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- Game Freak
-- 増田順一
-- Nintendo Dream
-- Pokemon-Memo
-- 合众地区
-- 宝可梦黑白
-- 世界观设定
+- 'Game Freak'
+- '増田順一'
+- 'Nintendo DREAM'
+- 'Pokemon-Memo'
+- '合众地区'
+- '宝可梦 黑·白'
+- '世界观设定'
 era_skin: '2010'
 original_lang: ja
 interview_id: PKMN-0006

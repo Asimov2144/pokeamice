@@ -10,16 +10,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- Eurogamer
-- Pokemon
-- 开发者访谈
-- 增田顺一
-- 杉森建
-- 黑白
-- 合众
-- 比克提尼
+- '访谈'
+- 'Game Freak'
+- 'Eurogamer'
+- 'Pokemon'
+- '开发者访谈'
+- '增田顺一'
+- '杉森建'
+- '宝可梦 黑·白'
+- '合众'
+- '比克提尼'
 publication: Eurogamer（2011-03-01）
 source_kind: media_interview
 interviewer: Eurogamer

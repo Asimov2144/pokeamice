@@ -6,7 +6,7 @@ categories: [Tech,PTCG]
 tags: [简中PTCG,宝活小妙招,Chrome 插件]
 card_image: https://pokeamice.com/wp-content/uploads/2022/10/anime15.gif
 archive_type: "article"
-summary: "批量下载卡图 查询服务器存档时间"
+summary: '宝活小妙招：如何推测 151 卡图的静态链接，用 Python 脚本批量下载，并用浏览器查询服务器存档时间。'
 source:
   title: "special.pokemon.cn"
   url: "https://special.pokemon.cn/"

@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- Game Freak
-- 宝可梦XY
-- 程序员
-- 3D渲染
-- Shader着色器
-- 开发管线
-- 座谈访谈
-- Wayback历史归档
-- 招聘访谈
+- 'Game Freak'
+- '宝可梦 X·Y'
+- '程序员'
+- '3D渲染'
+- 'Shader着色器'
+- '开发管线'
+- '座谈访谈'
+- 'Wayback历史归档'
+- '招聘访谈'
 original_url: http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_2.html
 outlet: Game Freak 官网招聘专栏 (Wayback Machine 历史归档)
 interviewee: M.I., T.T.

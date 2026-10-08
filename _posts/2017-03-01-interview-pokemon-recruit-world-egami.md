@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-company-recruit
 tags:
-- 株式会社ポケモン
-- Pokémon GO
-- 江上周作
-- AR游戏
-- Niantic
-- 全球同服
-- 招聘访谈
+- '株式会社宝可梦'
+- 'Pokémon GO'
+- '江上周作'
+- 'AR游戏'
+- 'Niantic'
+- '全球同服'
+- '招聘访谈'
 original_url: https://recruit.pokemon.co.jp/saiyo/interview/world.html
 outlet: 株式会社ポケモン 官方招聘网站 Special Interview
 interviewee: 序言, 江上周作

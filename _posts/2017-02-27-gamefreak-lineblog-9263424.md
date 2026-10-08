@@ -8,16 +8,15 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケットモンスター
-- 赤
-- 緑
-- 21周年
-- 誕生日
-- PokemonDay
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '赤'
+- '緑'
+- '21周年'
+- '誕生日'
+- 'PokemonDay'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9263424

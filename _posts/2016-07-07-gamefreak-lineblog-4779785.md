@@ -8,10 +8,10 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- イベント
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '活动'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 4779785

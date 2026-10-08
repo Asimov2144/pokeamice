@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - pokemon-company-recruit
 tags:
-- 株式会社ポケモン
-- 设计师
-- 艺术指导
-- 世界观管理
-- 轮岗制度
-- 宝可梦中心
-- 卡牌赛事
-- Local Acts
-- 招聘访谈
+- '株式会社宝可梦'
+- '设计师'
+- '艺术指导'
+- '世界观管理'
+- '轮岗制度'
+- '宝可梦中心'
+- '卡牌赛事'
+- 'Local Acts'
+- '招聘访谈'
 interview_id: PKMN-1034
 publication: 株式会社ポケモン 採用情報
 original_link: https://recruit.pokemon.co.jp/saiyo/interview/designer.html

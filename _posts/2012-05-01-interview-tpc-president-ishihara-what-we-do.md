@@ -9,16 +9,16 @@ categories:
 - developer-interviews
 - pokemon-company-recruit
 tags:
-- 株式会社ポケモン
-- 石原恒和
-- 社长专访
-- 電視遊戯大全
-- 大葱鸭
-- 宝可梦红绿
-- 艺人事务所理论
-- 品牌管理
-- Wayback历史存档
-- 招聘访谈
+- '株式会社宝可梦'
+- '石原恒和'
+- '社长专访'
+- '電視遊戯大全'
+- '大葱鸭'
+- '宝可梦 红·绿'
+- '艺人事务所理论'
+- '品牌管理'
+- 'Wayback历史存档'
+- '招聘访谈'
 interview_id: PKMN-1047
 publication: 株式会社ポケモン 企業情報・採用サイト
 original_link: http://web.archive.org/web/20120531132153/http://www.pokemon.co.jp/corporate/interview/

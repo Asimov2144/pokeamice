@@ -11,13 +11,12 @@ categories:
 - 访谈翻译
 - 官方档案
 tags:
-- 访谈
-- Game Freak
-- Pokemon.com
-- 增田顺一
-- 音乐
-- 作曲
-- 官方档案
+- '访谈'
+- 'Game Freak'
+- '增田顺一'
+- '音乐'
+- '作曲'
+- '官方档案'
 publication: Pokemon.com（美国官网）（2014-05-14）
 source_kind: media_feature
 interviewer: Pokemon.com

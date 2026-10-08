@@ -8,15 +8,15 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- シアトル
-- カニ
-- シーフード
-- オイスター
-- ホタテ
-- ポケモン
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '西雅图'
+- '螃蟹'
+- '海鲜'
+- '牡蛎'
+- '扇贝'
+- '宝可梦'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9267902

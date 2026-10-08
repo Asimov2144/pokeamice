@@ -8,16 +8,14 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- サンムーン
-- ポケットモンスター
-- HappyHolidays
-- merryChristmas
-- ゲームフリーク
-- ねこ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '宝可梦 太阳·月亮'
+- 'HappyHolidays'
+- 'merryChristmas'
+- '猫'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9250993
@@ -36,7 +34,7 @@ gf_source_tags:
 gf_translation_title: 【日记】2016年宝可梦圣诞祝福
 translation_available: true
 translation_status: openai-machine-translated
-summary: <div class="gf-lineblog-line gf-lineblog-line--center"><br><
+summary: 'GAME FREAK 与宝可梦公司、Kiki 送上圣诞祝福，分享宝可梦 GO 玩家为进化雷丘而捕捉皮卡丘的近况，并问《太阳·月亮》玩家是否记得一面橙色的墙。'
 description: <div class="gf-lineblog-line gf-lineblog-line--center"><br><
 search: true
 source:

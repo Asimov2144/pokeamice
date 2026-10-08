@@ -8,17 +8,17 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- 東戸塚
-- 親
-- 母親
-- ママ
-- 喜寿
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '東戸塚'
+- '親'
+- '母親'
+- '妈妈'
+- '喜寿'
 - '77'
-- 誕生日
-- お祝い
+- '誕生日'
+- '庆祝'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9264881

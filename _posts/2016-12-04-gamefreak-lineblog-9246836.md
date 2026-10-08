@@ -8,15 +8,11 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- Pokemon
-- sun
-- moon
-- party
-- London
-- christmas
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- 'Pokemon'
+- 'London'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9246836

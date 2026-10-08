@@ -8,16 +8,16 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- あけましておめでとう
-- ポケモン
-- pokemonGO
-- ピカチュウ
-- ヒトカゲ
-- ゼニガメ
-- フシギダネ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '新年快乐'
+- '宝可梦'
+- 'pokemonGO'
+- '皮卡丘'
+- '小火龙'
+- '杰尼龟'
+- '妙蛙种子'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9252717

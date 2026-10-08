@@ -9,17 +9,17 @@ categories:
 - developer-interviews
 - pokemon-company-recruit
 tags:
-- 株式会社ポケモン
-- 宝可梦商业
-- 角色经济学
-- 长田英树
-- 陆川和男
-- 藤井健
-- Fami通
-- 知识产权授权
-- 跨文化出海
-- 跨世代传承
-- 招聘访谈
+- '株式会社宝可梦'
+- '宝可梦商业'
+- '角色经济学'
+- '长田英树'
+- '陆川和男'
+- '藤井健'
+- 'Fami通'
+- '知识产权授权'
+- '跨文化出海'
+- '跨世代传承'
+- '招聘访谈'
 original_url: https://recruit.pokemon.co.jp/saiyo/interview/business.html
 outlet: 株式会社ポケモン 官方招聘网站 Special Interview
 interviewee: 专家档案, 引言, 藤井 健, 长田 英树, 陆川 和男

@@ -9,17 +9,17 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- Game Freak
-- 大森滋
-- 宝可梦传说阿尔宙斯
-- 宝可梦设计
-- 游戏美术
-- CG总监
-- 概念视觉工作室
-- 招聘访谈
-- 栃木遥
-- 宝可梦剑盾
-- 宝可梦朱紫
+- 'Game Freak'
+- '大森滋'
+- '宝可梦传说 阿尔宙斯'
+- '宝可梦设计'
+- '游戏美术'
+- 'CG总监'
+- '概念视觉工作室'
+- '招聘访谈'
+- '栃木遥'
+- '宝可梦 剑·盾'
+- '宝可梦 朱·紫'
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-designer/
 outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
 interviewee: 栃木遥（原页署名 H.T.）, 大森滋

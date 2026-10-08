@@ -12,13 +12,12 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- 宝可梦 X·Y
-- 增田顺一
-- 吉田宏信
-- jeuxvideo.com
-- 法语
+- '访谈'
+- 'Game Freak'
+- '宝可梦 X·Y'
+- '增田顺一'
+- '吉田宏信'
+- '法语'
 publication: 法国 jeuxvideo.com（2013-09-19）
 source_kind: media_interview
 interviewer: jeuxvideo.com
@@ -175,7 +174,8 @@ parallel_items:
 - original: 'Cela n''a pas encore été annoncé officiellement. En tout cas, au Japon, le prix sera de 500 yens par an (ndlr : en Europe, ce sera finalement 5 euros par an). Je rajoute que nous sommes conscients du fait que les joueurs attachent beaucoup d''importance à leurs Pokémon. Ils mettent du temps à les faire évoluer. Avec ce service, plus personne n''aura à s''inquiéter du moment où il perdra l''accès à ses Pokémon.'
   role: answer
   speaker: 增田顺一
-  translation: 这还没有正式公布。无论如何，在日本，价格将是每年500日元（编者注：在欧洲，最终将是每年5欧元）。我还要补充一点，我们意识到玩家非常重视他们的宝可梦。他们花时间让它们进化。有了这项服务，没有人再需要担心何时会失去对自己宝可梦的访问权。
+  translation: '这还没有正式公布。无论如何，在日本，价格将是每年500日元。我还要补充一点，我们意识到玩家非常重视他们的宝可梦。他们花时间让它们进化。有了这项服务，没有人再需要担心何时会失去对自己宝可梦的访问权。'
+  note: '在欧洲，最终将是每年5欧元'
 - type: image
   image: /assets/img/interviews/2013-09-19-interview-jv-2013-xy/007.jpg
   alt: Interview sur Pokémon X et Y

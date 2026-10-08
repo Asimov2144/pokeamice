@@ -18,7 +18,7 @@ gf_entry_title: 【开发日记】宝可梦诞生12周年
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵喵和超梦来
+summary: '2 月 27 日是《宝可梦 红·绿》在日本发售的纪念日，部长专栏回顾当年的开发心情，感谢全世界的支持，并表示宝可梦今后也会继续进化。'
 gf_translation_title: 【开发日记】宝可梦诞生12周年
 gf_translation_summary: 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵喵和超梦来
 search: true

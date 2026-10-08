@@ -2,6 +2,12 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: 正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人
+tags:
+- '访谈'
+- '宇都宫崇人'
+- '河本拓'
+- '石原恒和'
+- 'NewsPicks'
 original_title: 「ポケモンだから」面白い。ポケモンにすべてを懸ける2人の挑戦
 subtitle: 跨越商业逻辑与创作者感性：前波士顿咨询与强生跨界骨干解密宝可梦公司的组织哲学与永续闪耀机制
 date: '2018-02-23'

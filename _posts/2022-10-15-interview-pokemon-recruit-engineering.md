@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 技术总监
-- Pokémon GO
-- Pokémon HOME
-- Pokémon GO Plus
-- Niantic
-- 宇都宫崇人
-- 基础设施
+- '株式会社宝可梦'
+- '招聘访谈'
+- '技术总监'
+- 'Pokémon GO'
+- 'Pokémon HOME'
+- 'Pokémon GO Plus'
+- 'Niantic'
+- '宇都宫崇人'
+- '基础设施'
 original_url: https://recruit.pokemon.co.jp/saiyo/interview/engineering.html
 outlet: 株式会社ポケモン 採用情報 Special Interview
 interviewee: 太田（开发支援部技术总监）、小川（Pokémon GO推进室技术总监）

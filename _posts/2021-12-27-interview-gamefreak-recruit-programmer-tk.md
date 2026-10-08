@@ -10,13 +10,13 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- Game Freak
-- T.K.
-- 游戏程序员
-- 宝可梦传说 阿尔宙斯
-- 剑／盾
-- 动作系统
-- 招聘访谈
+- 'Game Freak'
+- 'T.K.'
+- '游戏程序员'
+- '宝可梦传说 阿尔宙斯'
+- '宝可梦 剑·盾'
+- '动作系统'
+- '招聘访谈'
 interview_id: PKMN-1014
 publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pg-tk/

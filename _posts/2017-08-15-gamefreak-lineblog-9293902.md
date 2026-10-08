@@ -8,18 +8,18 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ピカチュウ
-- ポケモン
-- ポケモンGO
-- バリヤード
-- アンノーン
-- イベント
-- パレード
-- よこはま
-- はまれぽ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '皮卡丘'
+- '宝可梦'
+- 'Pokémon GO'
+- '魔尼尼'
+- '未知图腾'
+- '活动'
+- '游行'
+- '横滨'
+- 'Hamarepo'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9293902

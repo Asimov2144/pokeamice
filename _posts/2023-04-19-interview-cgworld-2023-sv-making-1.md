@@ -51,7 +51,7 @@ parallel_items:
   translation: 《宝可梦 朱》、《宝可梦 紫》（以下简称《宝可梦 朱·紫》）是《宝可梦》系列的全新作品，采用了系列首个开放世界。为《宝可梦 朱·紫》的舞台帕底亚地区栖息的众多宝可梦注入生命的Creatures的动画师的工作，由若杉主编分3回深入挖掘。
   note: Creatures是一家参与宝可梦系列3D模型制作等的公司。
 - original: ※本記事は月刊『CGWORLD + digital video』vol.296（2023年4月号）掲載の「とことん深掘り！ゲームのアニメーション PART02 ポケットモンスター スカーレット・バイオレット」を再編集したものです。
-  translation: ※本文是对月刊《CGWORLD + digital video》vol.296（2023年4月号）刊登的《彻底深挖！游戏动画 PART02 宝可梦 朱·紫》进行重新编辑而成的。
+  translation: '※本文是对月刊《CGWORLD + digital video》vol.296（2023年4月号）刊登的《彻底深挖！游戏动画 PART02 宝可梦 朱·紫》进行重新编辑而成的。'
 - type: image
   image: /assets/img/interviews/2023-04-19-interview-cgworld-2023-sv-making-1/001.jpeg
   alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART1］扱う動きの幅が広い上に、いろいろなアイデアが求められる

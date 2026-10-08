@@ -2,6 +2,11 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
+tags:
+- '访谈'
+- '大森滋'
+- '岩尾和昌'
+- '宝可梦 究极之日·究极之月'
 subtitle: 从少年时代的初代玩家到制作人与总监：彩虹火箭队平行宇宙集结、究极异兽反常规设计与3DS终章哲学
 date: '2017-11-09'
 era_skin: '2017'

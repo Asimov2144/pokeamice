@@ -2,6 +2,12 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新
+tags:
+- '访谈'
+- 'Game Freak'
+- 'Creatures'
+- '宝可梦 太阳·月亮'
+- 'CGWORLD'
 title_ja: 『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制
 date: 2017-07-10 10:00:00 +0900
 era: '2016'
@@ -26,7 +32,7 @@ parallel_items:
 - original: ニンテンドー3DSにおけるシリーズ第3弾『ポケットモンスター サン・ムーン（以下、サン・ムーン）』。本作の開発にはゲームフリーク・クリーチャーズ・ポケモンの3社が高度な連携体制を敷いている。携帯ゲーム機向けに大量のアセットを扱う分散開発と、その工夫に迫る。
   translation: 在任天堂3DS上的系列第三作《宝可梦 太阳／月亮》（以下简称《太阳／月亮》）。本作的开发由GAME FREAK、Creatures、宝可梦三家公司构建了高度协同的体制。本文将深入探讨面向便携式游戏机处理大量资产的分布式开发及其巧思。
 - original: ※本記事は月刊「CGWORLD + digital video」vol. 227（2017年7月号）からの転載となります
-  translation: ※本文转载自月刊《CGWORLD + digital video》vol. 227（2017年7月号）
+  translation: '※本文转载自月刊《CGWORLD + digital video》vol. 227（2017年7月号）'
 - type: heading
   level: 2
   original: 20年以上続く人気シリーズを影で支える高度な開発体制

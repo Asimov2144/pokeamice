@@ -11,13 +11,12 @@ categories:
 - 访谈翻译
 - 官方档案
 tags:
-- 访谈
-- Game Freak
-- Pokemon.com
-- Let's Go
-- 增田顺一
-- 菜花健作
-- 官方档案
+- '访谈'
+- 'Game Freak'
+- 'Let''s Go'
+- '增田顺一'
+- '菜花健作'
+- '官方档案'
 publication: Pokemon.com（美国官网）（2018-11-01）
 source_kind: media_interview
 interviewer: Pokemon.com

@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 员工特写
-- App事业部
-- 移动应用
-- 跨国协作
-- XY时代
+- '株式会社宝可梦'
+- '招聘访谈'
+- '员工特写'
+- 'App事业部'
+- '移动应用'
+- '跨国协作'
+- 'XY时代'
 original_url: https://recruit.pokemon.co.jp/saiyo/staff/staff003.html
 outlet: 株式会社ポケモン 採用情報 Pokémon Business Professionals
 interviewee: 古谷翔（开发本部 App事业部）

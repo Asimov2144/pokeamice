@@ -102,7 +102,7 @@ parallel_items:
   speaker: 宇都宫崇人
   role: answer
 - original: ※1　 株式会社ポケモン Pokémon GO推進室 テクニカルディレクター。2015年に面白法人カヤックを退社して株式会社ポケモンへ入社。『ポケモンGO』の立ち上げに携わった。
-  translation: ※1　株式会社宝可梦 Pokémon GO推进室 技术总监。2015年从面白法人Kayac离职后入职株式会社宝可梦，参与了《Pokémon GO》的启动工作。
+  translation: '※1　株式会社宝可梦 Pokémon GO推进室 技术总监。2015年从面白法人Kayac离职后入职株式会社宝可梦，参与了《Pokémon GO》的启动工作。'
 - original: そんな彼が「おもしろい3人組がいるんです」と言って紹介してくれたのが、SELECT BUTTONの3人でした。たしか2016年の2月ごろだったと思います。
   translation: 他向我介绍时说‘有几个很有意思的三人组’，那就是SELECT BUTTON的三位成员。我记得那大概是2016年2月左右的事情。
   speaker: 宇都宫崇人
@@ -200,7 +200,7 @@ parallel_items:
   speaker: 宇都宫崇人
   role: answer
 - original: ※2　石原恒和氏。株式会社ポケモン代表取締役社長。
-  translation: ※2 石原恒和先生。株式会社宝可梦代表取缔役社长。
+  translation: '※2 石原恒和先生。株式会社宝可梦代表取缔役社长。'
 - original: 結果、いまの成功があるわけですから、相性がいいというのは間違いなかったのですね。現在の『ポケモンスリープ』について、宇都宮さんの立場からはどう見えていますか？
   translation: 结果，正因为有了现在的成功，所以说两者相性极佳这一点是毋庸置疑的。那么，从宇都宫先生的立场来看，您如何看待当前的《Pokémon Sleep》呢？
   speaker: Fami通
@@ -266,7 +266,7 @@ parallel_items:
   speaker: 塚田拓実
   role: answer
 - original: ※アニメーションのこだわりについては前回のインタビューを参照
-  translation: ※关于动画的执着之处，请参照上次的访谈。
+  translation: '※关于动画的执着之处，请参照上次的访谈。'
 - type: image
   image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/009.png
   caption: 录音功能与环境音识别算法的设计界面
@@ -460,7 +460,7 @@ parallel_items:
   speaker: 宮川佳祐
   role: answer
 - original: ※3 Unity Studio Productions チーム。プロジェクトの最適化、共同開発など実践的なサービスを提供する。
-  translation: ※3 Unity Studio Productions 团队。提供项目优化、共同开发等实践性服务。
+  translation: '※3 Unity Studio Productions 团队。提供项目优化、共同开发等实践性服务。'
 - type: image
   image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/021.jpg
   caption: 株式会社宝可梦 COO 宇都宫崇人与 SELECT BUTTON 核心主创圆桌合影

@@ -9,14 +9,14 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 数据分析
-- DWH
-- 应用开发
-- 影视企划
-- 寺田佑贵
-- 朱紫时代
+- '株式会社宝可梦'
+- '招聘访谈'
+- '数据分析'
+- 'DWH'
+- '应用开发'
+- '影视企划'
+- '寺田佑贵'
+- '朱紫时代'
 original_url: https://recruit.pokemon.co.jp/saiyo/interview/data.html
 outlet: 株式会社ポケモン 採用情報 Special Interview
 interviewee: 寺田佑贵（App事业部总监）、水口（影视企划部经理）、坂上（系统部数据基盘）

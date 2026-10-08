@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 授权企划部
-- 品牌授权
-- 跨界合作
-- 招聘访谈
-- Wayback历史存档
-- 黑白时代
+- '株式会社宝可梦'
+- '授权企划部'
+- '品牌授权'
+- '跨界合作'
+- '招聘访谈'
+- 'Wayback历史存档'
+- '黑白时代'
 original_url: http://web.archive.org/web/20120531113059/http://www.pokemon.co.jp/corporate/job/employee/morotsuki/
 outlet: 株式会社ポケモン 採用情報 (Wayback Machine 历史存档)
 interviewee: 诸月纱保子（宝可梦通信部 授权企划部 经理）

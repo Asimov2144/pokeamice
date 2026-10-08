@@ -8,16 +8,16 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- Pokemon
-- ポケモン
-- ポケモン世界大会
-- WCS
-- アナハイム
-- イベント
-- ピカチュウ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- 'Pokemon'
+- '宝可梦'
+- '宝可梦世界大赛'
+- 'WCS'
+- '阿纳海姆'
+- '活动'
+- '皮卡丘'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9295800

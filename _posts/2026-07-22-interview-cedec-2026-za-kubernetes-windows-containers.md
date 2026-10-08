@@ -12,12 +12,12 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 技术专题
-- CEDEC 2026
-- 讲演资料
-- CEDiL
-- 髙山玲央名
-- 株式会社ゲームフリーク
+- '技术专题'
+- 'CEDEC 2026'
+- '讲演资料'
+- 'CEDiL'
+- '髙山玲央名'
+- 'Game Freak'
 publication: CEDEC 2026 講演資料（CEDEC Digital Library）
 source_kind: technical_report
 article_kind: slide_deck
@@ -100,38 +100,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-03.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第3页
-- original: 'はじめに
-
-    - 本講演では、『ポケットモンスター』シリーズ開発のCI/CD ビルド環境を
-
-    パブリッククラウドの仮想マシン(VM)からWindowsコンテナ(Kubernetes)に移行し
-
-    た話をします。
-
-    - Windowsコンテナに移行した経緯、移行する上で直面した課題、実際に移行して
-
-    得られた成果をお伝えできればと思います。
-
-    - Windowsコンテナは機能としては2016年にリリースされたものの、実践的な事例は
-
-    決して多くありませんので、1つの参考になれば幸いです。
-
-    本講演では、表記の都合により『Pokémon LEGENDS Z-A』をZ-Aと略記します。'
-  translation: '引言
-
-    - 本讲演将介绍将《宝可梦》系列开发的 CI/CD 构建环境
-
-    从公有云的虚拟机（VM）迁移到 Windows 容器（Kubernetes）
-
-    的经历。
-
-    - 希望向大家分享迁移到 Windows 容器的经过、迁移过程中遇到的课题以及实际迁移后取得的成果。
-
-    - Windows 容器虽然功能早在 2016 年就已发布，但实践案例
-
-    绝不算多，希望能作为一个参考。
-
-    本讲演中，为表述方便，将《宝可梦传说 Z-A》简称为 Z-A。'
+- original: "はじめに\n- 本講演では、『ポケットモンスター』シリーズ開発のCI/CD ビルド環境を\nパブリッククラウドの仮想マシン(VM)からWindowsコンテナ(Kubernetes)に移行し\nた話をします。\n\n- Windowsコンテナに移行した経緯、移行する上で直面した課題、実際に移行して\n得られた成果をお伝えできればと思います。\n\n- Windowsコンテナは機能としては2016年にリリースされたものの、実践的な事例は\n決して多くありませんので、1つの参考になれば幸いです。\n\n本講演では、表記の都合により『Pokémon LEGENDS Z-A』をZ-Aと略記します。"
+  translation: "引言\n- 本讲演将介绍将《宝可梦》系列开发的 CI/CD 构建环境\n从公有云的虚拟机（VM）迁移到 Windows 容器（Kubernetes）\n\n的经历。\n\n- 希望向大家分享迁移到 Windows 容器的经过、迁移过程中遇到的课题以及实际迁移后取得的成果。\n\n- Windows 容器虽然功能早在 2016 年就已发布，但实践案例\n绝不算多，希望能作为一个参考。\n\n本讲演中，为表述方便，将《宝可梦传说 Z-A》简称为 Z-A。"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-04.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第4页
@@ -177,107 +147,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-07.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第7页
-- original: 'CI/CDにおけるビルド環境 (Z-A以前)
-
-    GitLab CI
-
-    - CI/CDツールにはGitLab CIを利用
-
-    - GitLab Runner(ビルドエージェント)には
-
-    AzureのWindows VMを利用
-
-    - Windows VMのプールはプロジェクト毎に分
-
-    離し、全プロジェクト合計で約90台
-
-    - 費用削減のためにWindows VMは営業時間
-
-    のみ稼働 ／ Windows VM ／ Windows VM ／ Windows VM
-
-    ．．．
-
-    プロジェクトA ／ Windows VM ／ Windows VM ／ Windows VM
-
-    ．．．
-
-    プロジェクトB ／ Windows VM ／ Windows VM ／ Windows VM
-
-    ．．．
-
-    エンジン開発チーム
-
-    約90台のWindows VM
-
-    開発環境とプラットフォームの要件でWindows
-
-    のビルド環境が必須'
-  translation: 'CI/CD 中的构建环境（Z-A 之前）
-
-    GitLab CI
-
-    - CI/CD 工具使用 GitLab CI
-
-    - GitLab Runner（构建代理）使用
-
-    Azure 的 Windows VM
-
-    - Windows VM 池按项目分离，所有项目合计约 90 台
-
-    - 为削减成本，Windows VM 仅在营业时间
-
-    运行 ／ Windows VM ／ Windows VM ／ Windows VM
-
-    ．．．
-
-    项目 A ／ Windows VM ／ Windows VM ／ Windows VM
-
-    ．．．
-
-    项目 B ／ Windows VM ／ Windows VM ／ Windows VM
-
-    ．．．
-
-    引擎开发团队
-
-    约 90 台 Windows VM
-
-    由于开发环境和平台的要求，Windows
-
-    构建环境是必需的'
+- original: "CI/CDにおけるビルド環境 (Z-A以前)\n\nGitLab CI\n- CI/CDツールにはGitLab CIを利用\n- GitLab Runner(ビルドエージェント)には\nAzureのWindows VMを利用\n- Windows VMのプールはプロジェクト毎に分\n離し、全プロジェクト合計で約90台\n- 費用削減のためにWindows VMは営業時間\nのみ稼働 ／ Windows VM ／ Windows VM ／ Windows VM\n．．．\nプロジェクトA ／ Windows VM ／ Windows VM ／ Windows VM\n．．．\nプロジェクトB ／ Windows VM ／ Windows VM ／ Windows VM\n．．．\nエンジン開発チーム\n約90台のWindows VM\n開発環境とプラットフォームの要件でWindows\nのビルド環境が必須"
+  translation: "CI/CD 中的构建环境（Z-A 之前）\n\nGitLab CI\n- CI/CD 工具使用 GitLab CI\n- GitLab Runner（构建代理）使用\nAzure 的 Windows VM\n- Windows VM 池按项目分离，所有项目合计约 90 台\n- 为削减成本，Windows VM 仅在营业时间\n运行 ／ Windows VM ／ Windows VM ／ Windows VM\n．．．\n项目 A ／ Windows VM ／ Windows VM ／ Windows VM\n．．．\n项目 B ／ Windows VM ／ Windows VM ／ Windows VM\n．．．\n引擎开发团队\n约 90 台 Windows VM\n由于开发环境和平台的要求，Windows\n构建环境是必需的"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-08.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第8页
-- original: 'CI/CDにおけるビルド環境 (Z-A以前)
-
-    Azure
-
-    Virtual Machine
-
-    Scale Sets
-
-    GitLab Runner（Windows VM）
-
-    VM ／ VM ／ VM ／ … ／ スケジュール設定で台数を増減
-
-    事前作成したビルド用マシンイメージで起動
-
-    AWS ／ CodeArtifact ／ ライブラリ ／ パッケージ管理 ／ Amazon S3 ／ ビルド成果物の管理 ／ GitLab サーバー ／ ソースコード管理 ／ CI/CD制御 ／ Express ／ Route ／ (閉域網) ／ Direct ／ Connect ／ (閉域網) ／ オフィス拠点 ／ 相互接続拠点DC ／ Router ／ 閉域網'
-  translation: 'CI/CD 中的构建环境（Z-A 之前）
-
-    Azure
-
-    Virtual Machine
-
-    Scale Sets
-
-    GitLab Runner（Windows VM）
-
-    VM ／ VM ／ VM ／ … ／ 通过计划设置增减台数
-
-    使用预先创建的构建用机器镜像启动
-
-    AWS ／ CodeArtifact ／ 库 ／ 包管理 ／ Amazon S3 ／ 构建产物管理 ／ GitLab 服务器 ／ 源代码管理 ／ CI/CD 控制 ／ Express ／ Route ／ （封闭网络） ／ Direct ／ Connect ／ （封闭网络） ／ 办公室据点 ／ 互连据点 DC ／ Router ／ 封闭网络'
+- original: "CI/CDにおけるビルド環境 (Z-A以前)\n\nAzure\nVirtual Machine\nScale Sets\nGitLab Runner（Windows VM）\n\nVM ／ VM ／ VM ／ … ／ スケジュール設定で台数を増減\n事前作成したビルド用マシンイメージで起動\nAWS ／ CodeArtifact ／ ライブラリ ／ パッケージ管理 ／ Amazon S3 ／ ビルド成果物の管理 ／ GitLab サーバー ／ ソースコード管理 ／ CI/CD制御 ／ Express ／ Route ／ (閉域網) ／ Direct ／ Connect ／ (閉域網) ／ オフィス拠点 ／ 相互接続拠点DC ／ Router ／ 閉域網"
+  translation: "CI/CD 中的构建环境（Z-A 之前）\n\nAzure\nVirtual Machine\nScale Sets\nGitLab Runner（Windows VM）\n\nVM ／ VM ／ VM ／ … ／ 通过计划设置增减台数\n使用预先创建的构建用机器镜像启动\nAWS ／ CodeArtifact ／ 库 ／ 包管理 ／ Amazon S3 ／ 构建产物管理 ／ GitLab 服务器 ／ 源代码管理 ／ CI/CD 控制 ／ Express ／ Route ／ （封闭网络） ／ Direct ／ Connect ／ （封闭网络） ／ 办公室据点 ／ 互连据点 DC ／ Router ／ 封闭网络"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-09.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第9页
@@ -331,27 +207,8 @@ parallel_items:
     本番環境のVMを新しいイメージで再作成
 
     保守するCI/CD環境の数が年々増加しており、作業負担が大きくなっていた'
-  translation: '课题①：不定期发生的CI/CD环境更新工作繁杂
-
-    每个项目的语言/SDK/构建工具版本不同
-
-    版本更新每月可能发生数次，每次都要进行以下更新工作
-
-    ① 创建机器镜像
-
-    手动创建更新了版本的Azure VM机器镜像
-
-    ② 创建验证用VM
-
-    在不会影响生产环境CI/CD的验证环境中，基于①创建的机器镜像创建VM
-
-    ※ 构建确认和构建产物的动作确认由其他团队负责
-
-    ③ 应用到生产环境
-
-    用新镜像重新创建生产环境的VM
-
-    需要维护的CI/CD环境数量逐年增加，工作负担越来越大'
+  translation: "课题①：不定期发生的CI/CD环境更新工作繁杂\n每个项目的语言/SDK/构建工具版本不同\n版本更新每月可能发生数次，每次都要进行以下更新工作\n① 创建机器镜像\n手动创建更新了版本的Azure VM机器镜像\n② 创建验证用VM\n在不会影响生产环境CI/CD的验证环境中，基于①创建的机器镜像创建VM"
+  note: '构建确认和构建产物的动作确认由其他团队负责 ③ 应用到生产环境 用新镜像重新创建生产环境的VM 需要维护的CI/CD环境数量逐年增加，工作负担越来越大'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-12.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第12页
@@ -408,23 +265,8 @@ parallel_items:
     ※ スポットインスタンスも試したが...
 
     →　ビルド中にスポット中断が発生した時のリカバリーが安定せず、現場に求められるサービスレベルを満たせないと判断'
-  translation: '课题③：云费用负担越来越大
-
-    - 营业时间内约90台Windows VM固定台数常时运行
-
-    - 没有构建请求时VM处于空闲状态，但期间仍会产生费用
-
-    →　明显是浪费的成本
-
-    - CI/CD环境更新作业期间还会增加验证用VM
-
-    →　虽然是临时的，但也是不可忽视的成本
-
-    在削减计算费用上苦苦挣扎
-
-    ※ 也尝试过Spot实例，但是...
-
-    →　构建中发生Spot中断时的恢复不稳定，判断无法满足现场要求的服务水平'
+  translation: "课题③：云费用负担越来越大\n- 营业时间内约90台Windows VM固定台数常时运行\n- 没有构建请求时VM处于空闲状态，但期间仍会产生费用\n→　明显是浪费的成本\n- CI/CD环境更新作业期间还会增加验证用VM\n→　虽然是临时的，但也是不可忽视的成本\n在削减计算费用上苦苦挣扎"
+  note: '也尝试过Spot实例，但是... →　构建中发生Spot中断时的恢复不稳定，判断无法满足现场要求的服务水平'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-14.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第14页
@@ -453,20 +295,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-15.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第15页
-- original: '仮想マシンベースのビルド環境に限界を感じた
-
-    「CI/CDのビルド環境を柔軟に切り替えられないか？」
-
-    「ジョブ需要に応じてVMを自動スケールできないか？」
-
-    CI/CD環境のコンテナ(Kubernetes)化の検討を開始'
-  translation: '感到基于虚拟机的构建环境已到极限
-
-    “能否灵活切换CI/CD的构建环境？”
-
-    “能否根据作业需求自动扩展VM？”
-
-    开始探讨CI/CD环境的容器化（Kubernetes）'
+- original: "仮想マシンベースのビルド環境に限界を感じた\n「CI/CDのビルド環境を柔軟に切り替えられないか？」\n\n「ジョブ需要に応じてVMを自動スケールできないか？」\n\nCI/CD環境のコンテナ(Kubernetes)化の検討を開始"
+  translation: "感到基于虚拟机的构建环境已到极限\n“能否灵活切换CI/CD的构建环境？”\n\n“能否根据作业需求自动扩展VM？”\n\n开始探讨CI/CD环境的容器化（Kubernetes）"
 - type: heading
   level: 2
   original: WindowsコンテナとKubernetesを採用した理由
@@ -645,111 +475,18 @@ parallel_items:
     ビルド用イメージのベースにはWindows Server Coreを採用
 
     (Nano Serverはビルドツールが動作しない)'
-  translation: 'Windows 容器镜像与 Linux 相比，大小相差悬殊
-
-    OS 类型 ／ 镜像大小(解压前) ／ 镜像大小(解压后) ／ Alpine ／ 3.7MB ／ 8.3MB ／ Debian ／ 47MB ／ 106MB ／ Ubuntu ／ 40MB ／ 118MB
-
-    Windows Nano Server
-
-    180MB ／ 450MB
-
-    Windows Server Core
-
-    2GB ／ 4.9GB ／ Windows Server ／ 5.9GB ／ 13.7GB
-
-    ※ 以 2026 年 6 月时点的最新镜像进行测量
-
-    构建用镜像的基础采用 Windows Server Core
-
-    (Nano Server 无法运行构建工具)'
+  translation: "Windows 容器镜像与 Linux 相比，大小相差悬殊\nOS 类型 ／ 镜像大小(解压前) ／ 镜像大小(解压后) ／ Alpine ／ 3.7MB ／ 8.3MB ／ Debian ／ 47MB ／ 106MB ／ Ubuntu ／ 40MB ／ 118MB\nWindows Nano Server\n180MB ／ 450MB\nWindows Server Core\n2GB ／ 4.9GB ／ Windows Server ／ 5.9GB ／ 13.7GB"
+  note: '以 2026 年 6 月时点的最新镜像进行测量 构建用镜像的基础采用 Windows Server Core (Nano Server 无法运行构建工具)'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-23.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第23页
-- original: 'ジョブ開始時のイメージ取得時間が最大の課題
-
-    - ジョブ実行時にコンテナイメージを取得するステップが増えた
-
-    - ビルド用イメージにはベースOSに加え、ビルドツール・SDKも含まれる
-
-    - イメージ取得だけで15〜20分かかってしまう
-
-    ジョブ開始 ／ ノード割当 ／ (1分以内)
-
-    イメージ取得 (15～20分)
-
-    ビルド実行 (20～30分)
-
-    VM時代にはなかったオーバーヘッド
-
-    これでは実用に耐えない'
-  translation: '作业开始时的镜像获取时间是最大的课题
-
-    - 作业执行时增加了获取容器镜像的步骤
-
-    - 构建用镜像除了基础 OS 之外，还包含构建工具、SDK
-
-    - 仅镜像获取就要花费 15〜20 分钟
-
-    作业开始 ／ 节点分配 ／ (1分钟以内)
-
-    镜像获取 (15〜20分钟)
-
-    构建执行 (20〜30分钟)
-
-    这是 VM 时代没有的开销
-
-    这样无法承受实际使用'
+- original: "ジョブ開始時のイメージ取得時間が最大の課題\n- ジョブ実行時にコンテナイメージを取得するステップが増えた\n- ビルド用イメージにはベースOSに加え、ビルドツール・SDKも含まれる\n- イメージ取得だけで15〜20分かかってしまう\nジョブ開始 ／ ノード割当 ／ (1分以内)\n\nイメージ取得 (15～20分)\n\nビルド実行 (20～30分)\n\nVM時代にはなかったオーバーヘッド\nこれでは実用に耐えない"
+  translation: "作业开始时的镜像获取时间是最大的课题\n- 作业执行时增加了获取容器镜像的步骤\n- 构建用镜像除了基础 OS 之外，还包含构建工具、SDK\n- 仅镜像获取就要花费 15〜20 分钟\n作业开始 ／ 节点分配 ／ (1分钟以内)\n\n镜像获取 (15〜20分钟)\n\n构建执行 (20〜30分钟)\n\n这是 VM 时代没有的开销\n这样无法承受实际使用"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-24.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第24页
-- original: '改善案
-
-    案①：イメージサイズの縮小(最適化)
-
-    - 結論、これだけでは不十分
-
-    - イメージサイズをいくら最適化しても、ベースイメージの大きさで頭打ちになる
-
-    - ジョブ内でコンテナイメージ取得する処理自体がVM時代には無かった
-
-    - ジョブ内でのイメージ取得時間はなるべくゼロに近づけたい
-
-    案②：イメージキャッシュ済みノードにのみジョブをスケジュールする
-
-    - こちらが本命
-
-    - コンテナイメージは一度pullすれば、そのイメージはノード内にキャッシュされ、二回目以降
-
-    はイメージ取得をスキップできる
-
-    - イメージキャッシュ済みノードにのみジョブをスケジュールできれば、ジョブ内のイメージ取
-
-    得時間はゼロにできる
-
-    案②を実現するアプローチを2つ検討'
-  translation: '改善方案
-
-    方案①：缩小镜像大小（优化）
-
-    - 结论：仅靠这一点并不充分
-
-    - 无论怎样优化镜像大小，都会受限于基础镜像的大小
-
-    - 在作业内获取容器镜像的处理本身在 VM 时代是不存在的
-
-    - 希望尽量将作业内的镜像获取时间趋近于零
-
-    方案②：仅将作业调度到已缓存镜像的节点上
-
-    - 这才是根本方案
-
-    - 容器镜像一旦 pull 过一次，该镜像就会被缓存在节点内，第二次以后
-
-    即可跳过镜像获取
-
-    - 如果能够仅将作业调度到已缓存镜像的节点上，作业内的镜像获取时间就可以降为零
-
-    探讨了两种实现方案②的方法'
+- original: "改善案\n案①：イメージサイズの縮小(最適化)\n\n- 結論、これだけでは不十分\n- イメージサイズをいくら最適化しても、ベースイメージの大きさで頭打ちになる\n- ジョブ内でコンテナイメージ取得する処理自体がVM時代には無かった\n- ジョブ内でのイメージ取得時間はなるべくゼロに近づけたい\n案②：イメージキャッシュ済みノードにのみジョブをスケジュールする\n- こちらが本命\n- コンテナイメージは一度pullすれば、そのイメージはノード内にキャッシュされ、二回目以降\nはイメージ取得をスキップできる\n- イメージキャッシュ済みノードにのみジョブをスケジュールできれば、ジョブ内のイメージ取\n得時間はゼロにできる\n案②を実現するアプローチを2つ検討"
+  translation: "改善方案\n方案①：缩小镜像大小（优化）\n\n- 结论：仅靠这一点并不充分\n- 无论怎样优化镜像大小，都会受限于基础镜像的大小\n- 在作业内获取容器镜像的处理本身在 VM 时代是不存在的\n- 希望尽量将作业内的镜像获取时间趋近于零\n方案②：仅将作业调度到已缓存镜像的节点上\n- 这才是根本方案\n- 容器镜像一旦 pull 过一次，该镜像就会被缓存在节点内，第二次以后\n即可跳过镜像获取\n- 如果能够仅将作业调度到已缓存镜像的节点上，作业内的镜像获取时间就可以降为零\n探讨了两种实现方案②的方法"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-25.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第25页
@@ -830,89 +567,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-28.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第28页
-- original: 'DaemonSet（デーモンセット）
-
-    条件を満たす全Nodeに必ず1つPodを配置する仕組み
-
-    - 監視ツールやログ収集エージェント等
-
-    各ノードに1つだけ配置したい時によく利用される
-
-    - Nodeが増えると、自動でそのNodeにもPodが配られる
-
-    - Windowsノードにのみ配置するといった指定も可能
-
-    DaemonSet ／ Windows Node ／ Windows Node ／ Windows Node ／ Linux Node ／ Pod ／ Pod ／ Pod'
-  translation: 'DaemonSet（DaemonSet）
-
-    一种在满足条件的全部 Node 上必定配置 1 个 Pod 的机制
-
-    - 常用于希望在每个节点上只配置一个监控工具或日志收集代理等的情况
-
-    - 当 Node 增加时，会自动向该 Node 也分发 Pod
-
-    - 也可以指定仅配置到 Windows 节点上
-
-    DaemonSet ／ Windows Node ／ Windows Node ／ Windows Node ／ Linux Node ／ Pod ／ Pod ／ Pod'
+- original: "DaemonSet（デーモンセット）\n\n条件を満たす全Nodeに必ず1つPodを配置する仕組み\n- 監視ツールやログ収集エージェント等\n各ノードに1つだけ配置したい時によく利用される\n- Nodeが増えると、自動でそのNodeにもPodが配られる\n- Windowsノードにのみ配置するといった指定も可能\nDaemonSet ／ Windows Node ／ Windows Node ／ Windows Node ／ Linux Node ／ Pod ／ Pod ／ Pod"
+  translation: "DaemonSet（DaemonSet）\n\n一种在满足条件的全部 Node 上必定配置 1 个 Pod 的机制\n- 常用于希望在每个节点上只配置一个监控工具或日志收集代理等的情况\n- 当 Node 增加时，会自动向该 Node 也分发 Pod\n- 也可以指定仅配置到 Windows 节点上\nDaemonSet ／ Windows Node ／ Windows Node ／ Windows Node ／ Linux Node ／ Pod ／ Pod ／ Pod"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-29.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第29页
-- original: 'あるNodeに特定のPodのみスケジュールする仕組み
-
-    - Taint = Nodeに付ける「受け入れ拒否」の印
-
-    - Toleration = Podに付ける「その拒否の許容」の印
-
-    - Taintが付いているNodeには、対応するTolerationを持つ
-
-    Podだけがスケジュールされる
-
-    - 専用のハードウェア(Node)上で特定のワークロードのみ
-
-    実行させたい場合によく利用される
-
-    Taint / Toleration（テイント / トレレーション）
-
-    Windows Node
-
-    Disk = SSD: NoSchedule
-
-    Pod ／ Tolerationあり ／ Windows Node ／ Windows Node
-
-    Disk = SSD: NoSchedule
-
-    Pod ／ Tolerationなし ／ Windows Node
-
-    Disk = SSD : NoSchedule
-
-    Disk = HDD: NoSchedule'
-  translation: '一种仅将特定 Pod 调度到某个 Node 上的机制
-
-    - Taint = 附加到 Node 上的“拒绝接收”标记
-
-    - Toleration = 附加到 Pod 上的“容许该拒绝”标记
-
-    - 带有 Taint 的 Node 上，只有持有对应 Toleration 的
-
-    Pod 才会被调度
-
-    - 常用于希望仅在专用硬件（Node）上运行特定工作负载的情况
-
-    Taint / Toleration（Taint / Toleration）
-
-    Windows Node
-
-    Disk = SSD: NoSchedule
-
-    Pod ／ 有 Toleration ／ Windows Node ／ Windows Node
-
-    Disk = SSD: NoSchedule
-
-    Pod ／ 无 Toleration ／ Windows Node
-
-    Disk = SSD : NoSchedule
-
-    Disk = HDD: NoSchedule'
+- original: "あるNodeに特定のPodのみスケジュールする仕組み\n- Taint = Nodeに付ける「受け入れ拒否」の印\n- Toleration = Podに付ける「その拒否の許容」の印\n- Taintが付いているNodeには、対応するTolerationを持つ\nPodだけがスケジュールされる\n- 専用のハードウェア(Node)上で特定のワークロードのみ\n実行させたい場合によく利用される\nTaint / Toleration（テイント / トレレーション）\n\nWindows Node\nDisk = SSD: NoSchedule\nPod ／ Tolerationあり ／ Windows Node ／ Windows Node\nDisk = SSD: NoSchedule\nPod ／ Tolerationなし ／ Windows Node\nDisk = SSD : NoSchedule\nDisk = HDD: NoSchedule"
+  translation: "一种仅将特定 Pod 调度到某个 Node 上的机制\n- Taint = 附加到 Node 上的“拒绝接收”标记\n- Toleration = 附加到 Pod 上的“容许该拒绝”标记\n- 带有 Taint 的 Node 上，只有持有对应 Toleration 的\nPod 才会被调度\n- 常用于希望仅在专用硬件（Node）上运行特定工作负载的情况\nTaint / Toleration（Taint / Toleration）\n\nWindows Node\nDisk = SSD: NoSchedule\nPod ／ 有 Toleration ／ Windows Node ／ Windows Node\nDisk = SSD: NoSchedule\nPod ／ 无 Toleration ／ Windows Node\nDisk = SSD : NoSchedule\nDisk = HDD: NoSchedule"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-30.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第30页
@@ -966,35 +627,7 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-32.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第32页
-- original: '- DaemonSetでイメージを取得している間にジョブが
-
-    スケジュールされる可能性がある
-
-    - TaintでPodのスケジュールを制限
-
-    - キャッシュPodのステータスが非Runningの
-
-    ノードは未キャッシュとみなし、Taintを「付
-
-    与」
-
-    - キャッシュPodのステータスがRunningになっ
-
-    たらキャッシュ済みとみなし、Taintを「解除」
-
-    - キャッシュPodのステータス監視やTaint管理を行う
-
-    Podを別途用意
-
-    STEP②  キャッシュPodが非Running状態のノードにTaintを付与
-
-    Windows Node 1 ／ Windows Node 2 ／ Cache Pod ／ Pending… ／ Cache Pod ／ Running ／ キャッシュPodのステータス ／ 監視 /  Taint管理 ／ Pod
-
-    イメージ取得が完了していないノードへのジョブ割当を防ぐ
-
-    Cache = false : NoSchedule
-
-    Taint解除 ／ Taint付与'
+- original: "- DaemonSetでイメージを取得している間にジョブが\nスケジュールされる可能性がある\n- TaintでPodのスケジュールを制限\n- キャッシュPodのステータスが非Runningの\nノードは未キャッシュとみなし、Taintを「付\n与」\n\n- キャッシュPodのステータスがRunningになっ\nたらキャッシュ済みとみなし、Taintを「解除」\n\n- キャッシュPodのステータス監視やTaint管理を行う\nPodを別途用意\nSTEP②  キャッシュPodが非Running状態のノードにTaintを付与\nWindows Node 1 ／ Windows Node 2 ／ Cache Pod ／ Pending… ／ Cache Pod ／ Running ／ キャッシュPodのステータス ／ 監視 /  Taint管理 ／ Pod\nイメージ取得が完了していないノードへのジョブ割当を防ぐ\nCache = false : NoSchedule\nTaint解除 ／ Taint付与"
   translation: '- 在 DaemonSet 拉取镜像期间，作业可能会被调度
 
     - 通过 Taint 限制 Pod 的调度
@@ -1112,19 +745,7 @@ parallel_items:
     - スケールインは「停止」を選択することが重要
 
     Cache Pod ／ Running ／ Build Pod'
-  translation: '节点生命周期 2/2 ／ ④ 执行构建作业
-
-    GitLab CI 的构建作业作为 Pod 被调度
-
-    由于已缓存，pull 可立即完成 ／ ⑤ 缩容（停止节点） ／ Windows Node ／ 构建结束后，若一段时间内没有分配构建作业则停止 ／ Windows Node
-
-    - 节点的缩容可选择「销毁」或「停止」
-
-    - 若选择「销毁」，镜像已缓存的磁盘也会被销毁
-
-    - 缩容时选择「停止」很重要
-
-    Cache Pod ／ Running ／ Build Pod'
+  translation: "节点生命周期 2/2 ／ ④ 执行构建作业\nGitLab CI 的构建作业作为 Pod 被调度\n由于已缓存，pull 可立即完成 ／ ⑤ 缩容（停止节点） ／ Windows Node ／ 构建结束后，若一段时间内没有分配构建作业则停止 ／ Windows Node\n- 节点的缩容可选择「销毁」或「停止」\n\n- 若选择「销毁」，镜像已缓存的磁盘也会被销毁\n- 缩容时选择「停止」很重要\nCache Pod ／ Running ／ Build Pod"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-36.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第36页
@@ -1227,97 +848,14 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-39.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第39页
-- original: 'このアプローチのメリット・デメリット
-
-    - VM作成後のウォームアップ時間がなく、瞬時にスケールできる
-
-    - DaemonSet + Taintのような独自のKubernetesリソースの管理が不要
-
-    - カスタムマシンイメージに対応しているベンダーが限定 (※2026年6月時点)
-
-    - AWS : 利用可
-
-    - Azure : 未対応
-
-    - GCP : 未対応
-
-    - カスタムマシンイメージの管理が必要
-
-    メリット ／ デメリット'
-  translation: '该方法的优点与缺点
-
-    - 没有 VM 创建后的预热时间，可瞬间扩容
-
-    - 无需管理像 DaemonSet + Taint 这样的自定义 Kubernetes 资源
-
-    - 支持自定义机器镜像的供应商有限（※截至 2026 年 6 月）
-
-    - AWS：可用
-
-    - Azure：未支持
-
-    - GCP：未支持
-
-    - 需要管理自定义机器镜像
-
-    优点 ／ 缺点'
+- original: "このアプローチのメリット・デメリット\n- VM作成後のウォームアップ時間がなく、瞬時にスケールできる\n- DaemonSet + Taintのような独自のKubernetesリソースの管理が不要\n- カスタムマシンイメージに対応しているベンダーが限定 (※2026年6月時点)\n\n- AWS : 利用可\n- Azure : 未対応\n- GCP : 未対応\n- カスタムマシンイメージの管理が必要\nメリット ／ デメリット"
+  translation: "该方法的优点与缺点\n- 没有 VM 创建后的预热时间，可瞬间扩容\n- 无需管理像 DaemonSet + Taint 这样的自定义 Kubernetes 资源\n- 支持自定义机器镜像的供应商有限\n- AWS：可用\n- Azure：未支持\n- GCP：未支持\n- 需要管理自定义机器镜像\n优点 ／ 缺点"
+  note: '截至 2026 年 6 月'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-40.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第40页
-- original: 'ゲームフリークではアプローチ① DaemonSet + Taintを選択
-
-    観点
-
-    アプローチ① DaemonSet + Taint
-
-    アプローチ② カスタムマシンイメージ
-
-    ベンダー依存 ／ なし（標準機能・オンプレ可）
-
-    あり（AWS可 / Azure未対応/ GCP未対応）
-
-    ウォームアップ
-
-    必要（ゲームフリークの場合、30〜45分）
-
-    不要 ／ ディスク費用 ／ 停止VM分が常時発生 ／ VM起動中のみ ／ 運用負荷
-
-    Kubernetesリソースの管理
-
-    カスタムVMイメージの管理
-
-    マシンイメージをカスタマイズできるオンプレ環境もしくはAWSを
-
-    メインで利用しているならアプローチ②も非常に有力
-
-    - Windowsインスタンスの費用がより安価なAzureのKubernetesサービス(AKS)を採用したため
-
-    - AKSはカスタムマシンイメージ機能は2026年6月時点で未対応
-
-    - ウォームアップ時間については頻繁にVMの再作成を行わないため許容とした'
-  translation: 'GAME FREAK 选择了方案① DaemonSet + Taint
-
-
-    | 观点 | 方案① DaemonSet + Taint | 方案② 自定义机器镜像 |
-
-    | --- | --- | --- |
-
-    | 供应商依赖 | 无（标准功能・可本地部署） | 有（AWS 可用 / Azure 不支持 / GCP 不支持） |
-
-    | 预热 | 需要（GAME FREAK 的情况下，30〜45 分钟） | 不需要 |
-
-    | 磁盘费用 | 停止 VM 部分持续产生 | 仅 VM 启动期间产生 |
-
-    | 运维负担 | 管理 Kubernetes 资源 | 管理自定义 VM 镜像 |
-
-
-    如果主要使用可自定义机器镜像的本地环境或 AWS，方案②也非常有潜力
-
-    - 因为采用了 Windows 实例费用更便宜的 Azure 的 Kubernetes 服务（AKS）
-
-    - AKS 在 2026 年 6 月时点尚未支持自定义机器镜像功能
-
-    - 关于预热时间，由于不会频繁重建 VM，因此视为可接受'
+- original: "ゲームフリークではアプローチ① DaemonSet + Taintを選択\n観点\nアプローチ① DaemonSet + Taint\nアプローチ② カスタムマシンイメージ\nベンダー依存 ／ なし（標準機能・オンプレ可）\n\nあり（AWS可 / Azure未対応/ GCP未対応）\n\nウォームアップ\n必要（ゲームフリークの場合、30〜45分）\n\n不要 ／ ディスク費用 ／ 停止VM分が常時発生 ／ VM起動中のみ ／ 運用負荷\nKubernetesリソースの管理\nカスタムVMイメージの管理\nマシンイメージをカスタマイズできるオンプレ環境もしくはAWSを\nメインで利用しているならアプローチ②も非常に有力\n- Windowsインスタンスの費用がより安価なAzureのKubernetesサービス(AKS)を採用したため\n- AKSはカスタムマシンイメージ機能は2026年6月時点で未対応\n- ウォームアップ時間については頻繁にVMの再作成を行わないため許容とした"
+  translation: "GAME FREAK 选择了方案① DaemonSet + Taint\n\n| 观点 | 方案① DaemonSet + Taint | 方案② 自定义机器镜像 |\n| --- | --- | --- |\n| 供应商依赖 | 无（标准功能・可本地部署） | 有（AWS 可用 / Azure 不支持 / GCP 不支持） |\n| 预热 | 需要（GAME FREAK 的情况下，30〜45 分钟） | 不需要 |\n| 磁盘费用 | 停止 VM 部分持续产生 | 仅 VM 启动期间产生 |\n| 运维负担 | 管理 Kubernetes 资源 | 管理自定义 VM 镜像 |\n\n如果主要使用可自定义机器镜像的本地环境或 AWS，方案②也非常有潜力\n- 因为采用了 Windows 实例费用更便宜的 Azure 的 Kubernetes 服务（AKS）\n\n- AKS 在 2026 年 6 月时点尚未支持自定义机器镜像功能\n- 关于预热时间，由于不会频繁重建 VM，因此视为可接受"
   note: Taint 是 Kubernetes 中用于排斥 Pod 调度的标记，DaemonSet 配合 Taint 可确保每个节点运行特定 Pod。
 - type: heading
   level: 3
@@ -1417,66 +955,9 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-44.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第44页
-- original: '① 多層構造で「どの層が原因か」を切り分けにくい
-
-    - Pod → CNIプラグイン → kube-proxy → ホストの
-
-    ネットワークと多層
-
-    - WindowsではこれらがHNS/VFP経由でOS内部に隠
-
-    蔽される
-
-    ② エラー状態が揮発し、保全・再現が難しい
-
-    - Pod破棄時にHNSエンドポイントが回収され、障害時
-
-    の状態が消える
-
-    - 低頻度とはいえノード単位で発生するため、再現条
-
-    件の特定も難しい
-
-    ネットワーク関連のトラブルシューティングの難易度が高い
-
-    アプリ / Pod ／ CNI プラグイン ／ kube-proxy
-
-    HNS / VFP（Windows OS）
-
-    ホスト NIC・DNS
-
-    オレンジの層は HNS / VFP として OS 内部で処理される
-
-    ※ HNS(Host Network Service)：コンテナの仮想ネットワーク・エンドポイント・ポリシーを管理する制御プレーン。APIはHCN(Host Compute Network)
-
-    ※ VFP(Virtual Filtering Platform)：Hyper-V仮想スイッチ上でNAT・ロードバランシング・ACL等のパケット処理を行うデータプレーン'
-  translation: '① 多层结构导致难以判断“哪一层是原因”
-
-    - Pod → CNI 插件 → kube-proxy → 主机的网络，多层结构
-
-    - 在 Windows 中，这些通过 HNS/VFP 被隐藏在 OS 内部
-
-    ② 错误状态易失，难以保存和复现
-
-    - Pod 销毁时 HNS 端点被回收，故障时的状态消失
-
-    - 虽然频率低，但以节点为单位发生，因此也难以确定复现条件
-
-
-    网络相关故障排查难度高
-
-
-    应用 / Pod / CNI 插件 / kube-proxy
-
-    HNS / VFP（Windows OS）
-
-    主机 NIC・DNS
-
-    橙色层作为 HNS / VFP 在 OS 内部处理
-
-    ※ HNS(Host Network Service)：管理容器虚拟网络、端点、策略的控制平面。API 为 HCN(Host Compute Network)
-
-    ※ VFP(Virtual Filtering Platform)：在 Hyper-V 虚拟交换机上进行 NAT、负载均衡、ACL 等数据包处理的数据平面'
+- original: "① 多層構造で「どの層が原因か」を切り分けにくい\n- Pod → CNIプラグイン → kube-proxy → ホストの\nネットワークと多層\n- WindowsではこれらがHNS/VFP経由でOS内部に隠\n蔽される\n② エラー状態が揮発し、保全・再現が難しい\n- Pod破棄時にHNSエンドポイントが回収され、障害時\nの状態が消える\n- 低頻度とはいえノード単位で発生するため、再現条\n件の特定も難しい\nネットワーク関連のトラブルシューティングの難易度が高い\nアプリ / Pod ／ CNI プラグイン ／ kube-proxy\nHNS / VFP（Windows OS）\n\nホスト NIC・DNS\nオレンジの層は HNS / VFP として OS 内部で処理される\n※ HNS(Host Network Service)：コンテナの仮想ネットワーク・エンドポイント・ポリシーを管理する制御プレーン。APIはHCN(Host Compute Network)\n\n※ VFP(Virtual Filtering Platform)：Hyper-V仮想スイッチ上でNAT・ロードバランシング・ACL等のパケット処理を行うデータプレーン"
+  translation: "① 多层结构导致难以判断“哪一层是原因”\n\n- Pod → CNI 插件 → kube-proxy → 主机的网络，多层结构\n- 在 Windows 中，这些通过 HNS/VFP 被隐藏在 OS 内部\n② 错误状态易失，难以保存和复现\n- Pod 销毁时 HNS 端点被回收，故障时的状态消失\n- 虽然频率低，但以节点为单位发生，因此也难以确定复现条件\n\n网络相关故障排查难度高\n\n应用 / Pod / CNI 插件 / kube-proxy\nHNS / VFP（Windows OS）\n\n主机 NIC・DNS\n橙色层作为 HNS / VFP 在 OS 内部处理"
+  note: 'HNS(Host Network Service)：管理容器虚拟网络、端点、策略的控制平面。API 为 HCN(Host Compute Network) ※ VFP(Virtual Filtering Platform)：在 Hyper-V 虚拟交换机上进行 NAT、负载均衡、ACL 等数据包处理的数据平面'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-45.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第45页
@@ -1545,270 +1026,28 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-48.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第48页
-- original: 'コンテナ移行後、パッケージダウンロードの通信量が急増
-
-    ネットワーク費用の増加要因 ／ AWS ／ CodeArtifact ／ ライブラリパッケージ管理 ／ Azure ／ コンテナ移行前(VM) ／ ①初回DL ／ Windows VM ／ Job 1 ／ Job 2 ／ パッケージキャッシュ ／ ② 保存 ／ ③ 参照 ／ Azure ／ コンテナ移行後 ／ Windows VM ／ Build ／ Pod 1 ／ Build ／ Pod 2 ／ パッケージ ／ キャッシュ ／ パッケージ ／ キャッシュ ／ ジョブ終了時にPod破棄 ／ コンテナ移行前(VM)
-
-    - 一度ダウンロードしたパッケージはVMのローカ
-
-    ルディスクにキャッシュされる
-
-    - 同一パッケージのダウンロードはマシン寿命中
-
-    の1回で済んでいた ／ コンテナ移行後
-
-    - ジョブ毎に環境(Pod)が破棄される
-
-    - 取得したパッケージもジョブ終了時に消える
-
-    - ジョブ実行毎にパッケージをダウンロードするよ
-
-    うになった ／ 毎回DL'
-  translation: '容器迁移后，包下载的通信量急剧增加
-
-    网络费用增加因素 ／ AWS ／ CodeArtifact ／ 库包管理 ／ Azure ／ 容器迁移前(VM) ／ ①首次下载 ／ Windows VM ／ Job 1 ／ Job 2 ／ 包缓存 ／ ② 保存 ／ ③ 参照 ／ Azure ／ 容器迁移后 ／ Windows VM ／ Build ／ Pod 1 ／ Build ／ Pod 2 ／ 包 ／ 缓存 ／ 包 ／ 缓存 ／ 作业结束时Pod销毁 ／ 容器迁移前(VM)
-
-    - 一旦下载的包会被缓存在VM的本地磁盘上
-
-    - 同一包的下载在机器寿命中只需一次 ／ 容器迁移后
-
-    - 每个作业环境(Pod)都会被销毁
-
-    - 获取的包也会在作业结束时消失
-
-    - 每次执行作业都需要下载包 ／ 每次下载'
+- original: "コンテナ移行後、パッケージダウンロードの通信量が急増\nネットワーク費用の増加要因 ／ AWS ／ CodeArtifact ／ ライブラリパッケージ管理 ／ Azure ／ コンテナ移行前(VM) ／ ①初回DL ／ Windows VM ／ Job 1 ／ Job 2 ／ パッケージキャッシュ ／ ② 保存 ／ ③ 参照 ／ Azure ／ コンテナ移行後 ／ Windows VM ／ Build ／ Pod 1 ／ Build ／ Pod 2 ／ パッケージ ／ キャッシュ ／ パッケージ ／ キャッシュ ／ ジョブ終了時にPod破棄 ／ コンテナ移行前(VM)\n\n- 一度ダウンロードしたパッケージはVMのローカ\nルディスクにキャッシュされる\n- 同一パッケージのダウンロードはマシン寿命中\nの1回で済んでいた ／ コンテナ移行後\n- ジョブ毎に環境(Pod)が破棄される\n- 取得したパッケージもジョブ終了時に消える\n- ジョブ実行毎にパッケージをダウンロードするよ\nうになった ／ 毎回DL"
+  translation: "容器迁移后，包下载的通信量急剧增加\n网络费用增加因素 ／ AWS ／ CodeArtifact ／ 库包管理 ／ Azure ／ 容器迁移前(VM) ／ ①首次下载 ／ Windows VM ／ Job 1 ／ Job 2 ／ 包缓存 ／ ② 保存 ／ ③ 参照 ／ Azure ／ 容器迁移后 ／ Windows VM ／ Build ／ Pod 1 ／ Build ／ Pod 2 ／ 包 ／ 缓存 ／ 包 ／ 缓存 ／ 作业结束时Pod销毁 ／ 容器迁移前(VM)\n\n- 一旦下载的包会被缓存在VM的本地磁盘上\n- 同一包的下载在机器寿命中只需一次 ／ 容器迁移后\n- 每个作业环境(Pod)都会被销毁\n- 获取的包也会在作业结束时消失\n- 每次执行作业都需要下载包 ／ 每次下载"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-49.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第49页
-- original: '対策：パッケージキャッシュの仕組みを導入
-
-    - GitLab CIのパッケージキャッシュ機能を利用
-
-    - パッケージキャッシュの保存先：Azure Blob Storage (オブジェクトストレージ)
-
-    - オブジェクトのキー：ライブラリの依存関係を記述したロックファイル (Git管理)
-
-    - パッケージ取得時にロックファイルの内容からキーを計算し、キーに対応するオブジェクトが存
-
-    在するかをチェック
-
-    - 存在する場合：Azure Blob Storageから取得
-
-    - 存在しない場合：AWS CodeArtifact(オリジン)から取得 ＆ Azure Blob Storageにアップ
-
-    ロード(キャッシュ生成)
-
-    - 同一リージョンのAzure VM ⇔ Azure Blob Storage 間のデータ転送料金は発生しない
-
-    ネットワーク費用をVM時代の水準まで戻すことに成功'
-  translation: '对策：引入包缓存机制
-
-    - 利用GitLab CI的包缓存功能
-
-    - 包缓存的保存位置：Azure Blob Storage (对象存储)
-
-    - 对象的键：描述库依赖关系的锁文件 (Git管理)
-
-    - 获取包时，根据锁文件的内容计算键，并检查是否存在与键对应的对象
-
-    - 如果存在：从Azure Blob Storage获取
-
-    - 如果不存在：从AWS CodeArtifact(源)获取 ＆ 上传到Azure Blob Storage(生成缓存)
-
-    - 同一区域内的Azure VM ⇔ Azure Blob Storage 之间的数据传输不产生费用
-
-    成功将网络费用恢复到VM时代的水平'
+- original: "対策：パッケージキャッシュの仕組みを導入\n- GitLab CIのパッケージキャッシュ機能を利用\n- パッケージキャッシュの保存先：Azure Blob Storage (オブジェクトストレージ)\n\n- オブジェクトのキー：ライブラリの依存関係を記述したロックファイル (Git管理)\n\n- パッケージ取得時にロックファイルの内容からキーを計算し、キーに対応するオブジェクトが存\n在するかをチェック\n- 存在する場合：Azure Blob Storageから取得\n- 存在しない場合：AWS CodeArtifact(オリジン)から取得 ＆ Azure Blob Storageにアップ\nロード(キャッシュ生成)\n\n- 同一リージョンのAzure VM ⇔ Azure Blob Storage 間のデータ転送料金は発生しない\nネットワーク費用をVM時代の水準まで戻すことに成功"
+  translation: "对策：引入包缓存机制\n- 利用GitLab CI的包缓存功能\n- 包缓存的保存位置：Azure Blob Storage (对象存储)\n\n- 对象的键：描述库依赖关系的锁文件 (Git管理)\n\n- 获取包时，根据锁文件的内容计算键，并检查是否存在与键对应的对象\n- 如果存在：从Azure Blob Storage获取\n- 如果不存在：从AWS CodeArtifact(源)获取 ＆ 上传到Azure Blob Storage(生成缓存)\n\n- 同一区域内的Azure VM ⇔ Azure Blob Storage 之间的数据传输不产生费用\n成功将网络费用恢复到VM时代的水平"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-50.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第50页
-- original: 'GitLab Runner マネージャー (Linux)
-
-    CIジョブをBuild Podとしてスケジュール
-
-    最終的なアーキテクチャ(全体像)
-
-    AWS ／ GitLab サーバー ／ ソースコード管理 ／ CI/CD制御 ／ CodeArtifact ／ ライブラリパッケージ管理 ／ (オリジン) ／ Amazon S3 ／ ビルド成果物の管理 ／ Express ／ Route ／ (閉域網) ／ Direct ／ Connect ／ (閉域網) ／ オフィス拠点 ／ 相互接続拠点DC ／ Azure
-
-    Azure Kubernetes Service
-
-    Router
-
-    Windowsノードプール (自動スケール)
-
-    ジョブ需要に応じてノードが増減
-
-    Build Podでビルドを実行
-
-    キャッシュ制御・監視
-
-    キャッシュ済みノードのみBuild Podを割当
-
-    異常ノードは自動再起動
-
-    Azure Container Registry
-
-    ビルド用イメージ管理
-
-    Azure Blob Storage
-
-    ライブラリパッケージ管理 ／ (キャッシュ) ／ イメージ pull ／ パッケージ ／ キャッシュ取得 ／ 閉域網'
-  translation: 'GitLab Runner 管理器 (Linux)
-
-    将CI作业作为Build Pod进行调度
-
-    最终架构(整体图)
-
-    AWS ／ GitLab 服务器 ／ 源代码管理 ／ CI/CD控制 ／ CodeArtifact ／ 库包管理 ／ (源) ／ Amazon S3 ／ 构建产物管理 ／ Express ／ Route ／ (封闭网络) ／ Direct ／ Connect ／ (封闭网络) ／ 办公室据点 ／ 互连据点DC ／ Azure
-
-    Azure Kubernetes Service
-
-    Router
-
-    Windows节点池 (自动伸缩)
-
-    根据作业需求增减节点
-
-    在Build Pod中执行构建
-
-    缓存控制・监控
-
-    仅将Build Pod分配给已缓存的节点
-
-    异常节点自动重启
-
-    Azure Container Registry
-
-    构建用镜像管理
-
-    Azure Blob Storage
-
-    库包管理 ／ (缓存) ／ 镜像拉取 ／ 包 ／ 缓存获取 ／ 封闭网络'
+- original: "GitLab Runner マネージャー (Linux)\n\nCIジョブをBuild Podとしてスケジュール\n最終的なアーキテクチャ(全体像)\n\nAWS ／ GitLab サーバー ／ ソースコード管理 ／ CI/CD制御 ／ CodeArtifact ／ ライブラリパッケージ管理 ／ (オリジン) ／ Amazon S3 ／ ビルド成果物の管理 ／ Express ／ Route ／ (閉域網) ／ Direct ／ Connect ／ (閉域網) ／ オフィス拠点 ／ 相互接続拠点DC ／ Azure\nAzure Kubernetes Service\nRouter\nWindowsノードプール (自動スケール)\n\nジョブ需要に応じてノードが増減\nBuild Podでビルドを実行\nキャッシュ制御・監視\nキャッシュ済みノードのみBuild Podを割当\n異常ノードは自動再起動\nAzure Container Registry\nビルド用イメージ管理\nAzure Blob Storage\nライブラリパッケージ管理 ／ (キャッシュ) ／ イメージ pull ／ パッケージ ／ キャッシュ取得 ／ 閉域網"
+  translation: "GitLab Runner 管理器 (Linux)\n\n将CI作业作为Build Pod进行调度\n最终架构(整体图)\n\nAWS ／ GitLab 服务器 ／ 源代码管理 ／ CI/CD控制 ／ CodeArtifact ／ 库包管理 ／ (源) ／ Amazon S3 ／ 构建产物管理 ／ Express ／ Route ／ (封闭网络) ／ Direct ／ Connect ／ (封闭网络) ／ 办公室据点 ／ 互连据点DC ／ Azure\nAzure Kubernetes Service\nRouter\nWindows节点池 (自动伸缩)\n\n根据作业需求增减节点\n在Build Pod中执行构建\n缓存控制・监控\n仅将Build Pod分配给已缓存的节点\n异常节点自动重启\nAzure Container Registry\n构建用镜像管理\nAzure Blob Storage\n库包管理 ／ (缓存) ／ 镜像拉取 ／ 包 ／ 缓存获取 ／ 封闭网络"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-51.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第51页
-- original: '最終的なアーキテクチャ(Azure内部)
-
-    Azure Container Registry
-
-    ビルド用イメージ管理
-
-    Azure Blob Storage
-
-    ライブラリパッケージ管理 ／ (キャッシュ)
-
-    Azure Kubernetes Service
-
-    ユーザーノードプール（Linux）
-
-    GitLab Runner ／ マネージャー ／ キャッシュ制御 Pod ／ Taint 制御
-
-    ユーザーノードプール（Windows）
-
-    自動スケール ／ Windows Node 1 ／ Cache Pod ／ Running ／ Build Pod ／ Running ／ Taint 解除済 ／ Windows Node 2 ／ Cache Pod ／ Running ／ Build Pod ／ 待機 ／ Windows Node 3 ／ Cache Pod ／ Pending… ／ Build Pod ／ なし ／ Taint 付与 ／ イメージ pull ／ パッケージ ／ キャッシュ取得 ／ Liveness Pod ／ Running ／ Taint 解除済 ／ Liveness Pod
-
-    CrashLoopBackOff
-
-    Liveness Pod ／ Running ／ Azure Monitor ／ Log Analytics
-
-    Azure Functions
-
-    アラートルール ／ Kubernetes ログ ／ ログ監視 ／ イベント発火 ／ 異常ノード再起動 ／ ログ送信'
-  translation: '最终架构(Azure内部)
-
-    Azure Container Registry
-
-    构建用镜像管理
-
-    Azure Blob Storage
-
-    库包管理 ／ (缓存)
-
-    Azure Kubernetes Service
-
-    用户节点池（Linux）
-
-    GitLab Runner ／ 管理器 ／ 缓存控制 Pod ／ Taint 控制
-
-    用户节点池（Windows）
-
-    自动伸缩 ／ Windows Node 1 ／ Cache Pod ／ Running ／ Build Pod ／ Running ／ Taint 已解除 ／ Windows Node 2 ／ Cache Pod ／ Running ／ Build Pod ／ 等待 ／ Windows Node 3 ／ Cache Pod ／ Pending… ／ Build Pod ／ 无 ／ Taint 附加 ／ 镜像拉取 ／ 包 ／ 缓存获取 ／ Liveness Pod ／ Running ／ Taint 已解除 ／ Liveness Pod
-
-    CrashLoopBackOff
-
-    Liveness Pod ／ Running ／ Azure Monitor ／ Log Analytics
-
-    Azure Functions
-
-    警报规则 ／ Kubernetes 日志 ／ 日志监控 ／ 事件触发 ／ 异常节点重启 ／ 日志发送'
+- original: "最終的なアーキテクチャ(Azure内部)\n\nAzure Container Registry\nビルド用イメージ管理\nAzure Blob Storage\nライブラリパッケージ管理 ／ (キャッシュ)\n\nAzure Kubernetes Service\nユーザーノードプール（Linux）\n\nGitLab Runner ／ マネージャー ／ キャッシュ制御 Pod ／ Taint 制御\nユーザーノードプール（Windows）\n\n自動スケール ／ Windows Node 1 ／ Cache Pod ／ Running ／ Build Pod ／ Running ／ Taint 解除済 ／ Windows Node 2 ／ Cache Pod ／ Running ／ Build Pod ／ 待機 ／ Windows Node 3 ／ Cache Pod ／ Pending… ／ Build Pod ／ なし ／ Taint 付与 ／ イメージ pull ／ パッケージ ／ キャッシュ取得 ／ Liveness Pod ／ Running ／ Taint 解除済 ／ Liveness Pod\nCrashLoopBackOff\nLiveness Pod ／ Running ／ Azure Monitor ／ Log Analytics\nAzure Functions\nアラートルール ／ Kubernetes ログ ／ ログ監視 ／ イベント発火 ／ 異常ノード再起動 ／ ログ送信"
+  translation: "最终架构(Azure内部)\n\nAzure Container Registry\n构建用镜像管理\nAzure Blob Storage\n库包管理 ／ (缓存)\n\nAzure Kubernetes Service\n用户节点池（Linux）\n\nGitLab Runner ／ 管理器 ／ 缓存控制 Pod ／ Taint 控制\n用户节点池（Windows）\n\n自动伸缩 ／ Windows Node 1 ／ Cache Pod ／ Running ／ Build Pod ／ Running ／ Taint 已解除 ／ Windows Node 2 ／ Cache Pod ／ Running ／ Build Pod ／ 等待 ／ Windows Node 3 ／ Cache Pod ／ Pending… ／ Build Pod ／ 无 ／ Taint 附加 ／ 镜像拉取 ／ 包 ／ 缓存获取 ／ Liveness Pod ／ Running ／ Taint 已解除 ／ Liveness Pod\nCrashLoopBackOff\nLiveness Pod ／ Running ／ Azure Monitor ／ Log Analytics\nAzure Functions\n警报规则 ／ Kubernetes 日志 ／ 日志监控 ／ 事件触发 ／ 异常节点重启 ／ 日志发送"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-52.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第52页
-- original: 'Azure構成のBefore & After
-
-    Azure
-
-    Virtual Machine
-
-    Scale Sets
-
-    GitLab Runner（Windows VM）
-
-    VM ／ VM ／ VM ／ … ／ スケジュール設定で台数を増減
-
-    事前作成したビルド用マシンイメージで起動
-
-    Before ／ After ／ Azure
-
-    Azure Kubernetes Service
-
-    GitLab Runner (Windows コンテナ)
-
-    Pod ／ Pod ／ Pod ／ …
-
-    ジョブ需要に応じて台数を自動スケール
-
-    ビルド環境はコンテナイメージで定義
-
-    Azure Container
-
-    Registry
-
-    Azure Blob Storage
-
-    イメージ pull ／ パッケージ ／ キャッシュ取得'
-  translation: 'Azure架构的Before & After
-
-    Azure
-
-    Virtual Machine
-
-    Scale Sets
-
-    GitLab Runner（Windows VM）
-
-    VM ／ VM ／ VM ／ … ／ 通过计划设置增减台数
-
-    使用预先创建的构建用机器镜像启动
-
-    Before ／ After ／ Azure
-
-    Azure Kubernetes Service
-
-    GitLab Runner (Windows 容器)
-
-    Pod ／ Pod ／ Pod ／ …
-
-    根据作业需求自动伸缩台数
-
-    构建环境通过容器镜像定义
-
-    Azure Container
-
-    Registry
-
-    Azure Blob Storage
-
-    镜像拉取 ／ 包 ／ 缓存获取'
+- original: "Azure構成のBefore & After\nAzure\nVirtual Machine\nScale Sets\nGitLab Runner（Windows VM）\n\nVM ／ VM ／ VM ／ … ／ スケジュール設定で台数を増減\n事前作成したビルド用マシンイメージで起動\nBefore ／ After ／ Azure\nAzure Kubernetes Service\nGitLab Runner (Windows コンテナ)\n\nPod ／ Pod ／ Pod ／ …\n\nジョブ需要に応じて台数を自動スケール\nビルド環境はコンテナイメージで定義\nAzure Container\nRegistry\nAzure Blob Storage\nイメージ pull ／ パッケージ ／ キャッシュ取得"
+  translation: "Azure架构的Before & After\nAzure\nVirtual Machine\nScale Sets\nGitLab Runner（Windows VM）\n\nVM ／ VM ／ VM ／ … ／ 通过计划设置增减台数\n使用预先创建的构建用机器镜像启动\nBefore ／ After ／ Azure\nAzure Kubernetes Service\nGitLab Runner (Windows 容器)\n\nPod ／ Pod ／ Pod ／ …\n\n根据作业需求自动伸缩台数\n构建环境通过容器镜像定义\nAzure Container\nRegistry\nAzure Blob Storage\n镜像拉取 ／ 包 ／ 缓存获取"
 - type: heading
   level: 2
   original: 導入成果・まとめ

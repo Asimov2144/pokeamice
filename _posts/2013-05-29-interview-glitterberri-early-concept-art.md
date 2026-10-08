@@ -13,51 +13,22 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- GlitterBerri
-- 田尻智
-- 杉森建
-- 第一世代
-- 赤绿
-- 胶囊怪兽
-- 企划书
-- 早期概念图
-- 开发史
-- EN
-- Pokemon
-- 开发者访谈
-- 增田顺一
-- 森本茂树
-- 宝可梦 红·绿
-- 访谈
-- Game Freak
-- GlitterBerri
-- 田尻智
-- 杉森建
-- 第一世代
-- 赤绿
-- 胶囊怪兽
-- 企划书
-- 早期概念图
-- 开发史
-- EN
-- Pokemon
-- 开发者访谈
-- 增田顺一
-- 森本茂树
-- 访谈
-- Game Freak
-- GlitterBerri
-- 田尻智
-- 杉森建
-- 第一世代
-- 赤绿
-- 胶囊怪兽
-- 企划书
-- 早期概念图
-- 开发史
-- EN
+- '访谈'
+- 'Game Freak'
+- 'GlitterBerri'
+- '田尻智'
+- '杉森建'
+- '第一世代'
+- '宝可梦 红·绿'
+- '胶囊怪兽'
+- '企划书'
+- '早期概念图'
+- '开发史'
+- 'EN'
+- 'Pokemon'
+- '开发者访谈'
+- '增田顺一'
+- '森本茂树'
 publication: GlitterBerri（2013-05-29）
 source_kind: media_feature
 author: GlitterBerri

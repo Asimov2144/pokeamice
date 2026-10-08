@@ -13,31 +13,20 @@ categories:
 - 宝可梦剑盾
 - 公司与战略
 tags:
-- 访谈
-- Game Freak
-- Creatures
-- 石原恒和
-- 田中宏和
-- 宝可梦卡牌
-- MOTHER2
-- 糸井重里
-- Pokémon GO
-- 历史秘辛
-- 第八世代
-- Pokemon
-- 开发者访谈
-- JP
-- 访谈
-- Game Freak
-- Creatures
-- 石原恒和
-- 田中宏和
-- 宝可梦卡牌
-- MOTHER2
-- 糸井重里
-- Pokémon GO
-- 历史秘辛
-- 第八世代
+- '访谈'
+- 'Game Freak'
+- 'Creatures'
+- '石原恒和'
+- '田中宏和'
+- '宝可梦卡牌'
+- 'MOTHER2'
+- '糸井重里'
+- 'Pokémon GO'
+- '历史秘辛'
+- '第八世代'
+- 'Pokemon'
+- '开发者访谈'
+- 'JP'
 publication: Creatures 官网（2021-11-08）
 source_kind: media_interview
 interviewer: Creatures

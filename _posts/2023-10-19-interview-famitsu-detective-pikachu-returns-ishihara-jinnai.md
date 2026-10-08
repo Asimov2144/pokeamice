@@ -16,14 +16,14 @@ categories:
 - 访谈
 - 主创对话
 tags:
-- 名侦探皮卡丘
-- 石原恒和
-- 阵内弘之
-- Creatures
-- The Pokémon Company
-- 皮卡丘
-- Pokémon Sleep
-- 赤·绿
+- '名侦探皮卡丘'
+- '石原恒和'
+- '阵内弘之'
+- 'Creatures'
+- 'The Pokémon Company'
+- '皮卡丘'
+- 'Pokémon Sleep'
+- '宝可梦 红·绿'
 author: ファミ通.com 編集部
 interviewee: 石原恒和（The Pokémon Company 代表取缔役社长 CEO）、阵内弘之（Creatures 常务取缔役 / 董事长）
 quote: 从初代《赤·绿》中大谷育江女士赋予皮卡丘声音，到《皮卡丘你好吗》的语音识别，再到《名侦探皮卡丘》中操着中年大叔腔调的搭档——‘会说人话的宝可梦’是我们在探寻宝可梦与人类共生关系上的一个终极形态。

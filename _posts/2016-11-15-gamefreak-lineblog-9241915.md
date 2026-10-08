@@ -8,14 +8,14 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- SOL
-- pokemon
-- ポケモン
-- ラジオ
-- SCHOOLOFLOCK
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- 'SOL'
+- 'Pokemon'
+- '宝可梦'
+- '广播'
+- 'SCHOOLOFLOCK'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9241915

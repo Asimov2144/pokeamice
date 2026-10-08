@@ -11,13 +11,13 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- ほぼ日
-- 久保雅一
-- 小学馆
-- CoroCoro
-- 宝可梦动画
-- 媒体组合
+- '访谈'
+- 'Hobonichi'
+- '久保雅一'
+- '小学馆'
+- 'CoroCoro'
+- '宝可梦动画'
+- '媒体组合'
 publication: ほぼ日刊イトイ新聞（Hobonichi）（2021-10-25）
 source_kind: media_interview
 author: 奥野（ほぼ日）

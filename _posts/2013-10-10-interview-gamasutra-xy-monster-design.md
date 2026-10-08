@@ -18,14 +18,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- X·Y
-- 吉田宏信
-- 增田顺一
-- 宝可梦设计
-- 御三家
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '宝可梦 X·Y'
+- '吉田宏信'
+- '增田顺一'
+- '宝可梦设计'
+- '御三家'
 archive_type: interview_translation
 source:
   title: Gamasutra Feature (2013-10-10)

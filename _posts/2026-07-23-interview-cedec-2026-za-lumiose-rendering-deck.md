@@ -12,14 +12,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 技术专题
-- CEDEC 2026
-- 讲演资料
-- CEDiL
-- 前泽圭一
-- Alfredo Spadafina
-- 赤木达也
-- 株式会社ゲームフリーク
+- '技术专题'
+- 'CEDEC 2026'
+- '讲演资料'
+- 'CEDiL'
+- '前泽圭一'
+- 'Alfredo Spadafina'
+- '赤木达也'
+- 'Game Freak'
 publication: CEDEC 2026 講演資料（CEDEC Digital Library）
 source_kind: technical_report
 article_kind: slide_deck
@@ -85,53 +85,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-01.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第1页
-- original: 'ミアレシティがメガシンカ!?
-
-    『Pokémon LEGENDS Z-A』の描画技術
-
-    株式会社ゲームフリーク ／ 前澤圭一 ／ スパダフィーナアルフレド ／ 赤木達也'
-  translation: '密阿雷市超级进化！？
-
-    《Pokémon LEGENDS Z-A》的渲染技术
-
-    株式会社GAME FREAK ／ 前泽圭一 ／ Alfredo Spadafina ／ 赤木达也'
+- original: "ミアレシティがメガシンカ!?\n\n『Pokémon LEGENDS Z-A』の描画技術\n株式会社ゲームフリーク ／ 前澤圭一 ／ スパダフィーナアルフレド ／ 赤木達也"
+  translation: "密阿雷市超级进化！？\n\n《Pokémon LEGENDS Z-A》的渲染技术\n株式会社GAME FREAK ／ 前泽圭一 ／ Alfredo Spadafina ／ 赤木达也"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-02.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第2页
-- original: 'おことわり
-
-    1. 本講演では、紙面の都合等により以下の省略表記を使用しています。
-
-    2. 使用しているゲーム画面は開発機で撮影したものです。
-
-    『ポケットモンスター』シリーズ
-
-    →ポケモン
-
-    『Pokémon LEGENDS Z-A』
-
-    →Z-A ／ 『ポケットモンスターX・Y』 ／ →X・Y
-
-    『ポケットモンスタースカーレット・バイオレット』
-
-    →スカーレット・バイオレット'
-  translation: '声明
-
-    1. 本演讲中，出于篇幅等考虑，使用以下省略表述。
-
-    2. 使用的游戏画面是在开发机上拍摄的。
-
-    《宝可梦》系列
-
-    →宝可梦
-
-    《Pokémon LEGENDS Z-A》
-
-    →Z-A ／ 《宝可梦X・Y》 ／ →X・Y
-
-    《宝可梦 朱・紫》
-
-    →朱・紫'
+- original: "おことわり\n1. 本講演では、紙面の都合等により以下の省略表記を使用しています。\n\n2. 使用しているゲーム画面は開発機で撮影したものです。\n\n『ポケットモンスター』シリーズ\n→ポケモン\n『Pokémon LEGENDS Z-A』\n\n→Z-A ／ 『ポケットモンスターX・Y』 ／ →X・Y\n『ポケットモンスタースカーレット・バイオレット』\n\n→スカーレット・バイオレット"
+  translation: "声明\n1. 本演讲中，出于篇幅等考虑，使用以下省略表述。\n\n2. 使用的游戏画面是在开发机上拍摄的。\n\n《宝可梦》系列\n→宝可梦\n《Pokémon LEGENDS Z-A》\n→Z-A ／ 《宝可梦X・Y》 ／ →X・Y\n《宝可梦 朱・紫》\n→朱・紫"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-03.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第3页
@@ -164,32 +124,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-04.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第4页
-- original: '- 都市空間について
-
-    – 効率的に描画する仕組み ／ – 景観表現
-
-    - キャラクターについて
-
-    – 描画の仕組み（ちょっとだけ）
-
-    – リグの取り組み
-
-    - Nintendo Switch 2 対応
-
-    本日の内容'
-  translation: '- 关于都市空间
-
-    – 高效渲染的机制 ／ – 景观表现
-
-    - 关于角色
-
-    – 渲染机制（稍微提及）
-
-    – 骨骼绑定的举措
-
-    - Nintendo Switch 2 支持
-
-    今天的内容'
+- original: "- 都市空間について\n– 効率的に描画する仕組み ／ – 景観表現\n- キャラクターについて\n– 描画の仕組み（ちょっとだけ）\n\n– リグの取り組み\n- Nintendo Switch 2 対応\n本日の内容"
+  translation: "- 关于都市空间\n– 高效渲染的机制 ／ – 景观表现\n- 关于角色\n– 渲染机制（稍微提及）\n\n– 骨骼绑定的举措\n- Nintendo Switch 2 支持\n今天的内容"
 - type: heading
   level: 2
   original: 都市空間を効率的に描画
@@ -420,24 +356,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-22.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第22页
-- original: 'ポイントライトのカリング
-
-    - Stencilマスクでポイントライトの計算範囲を絞る
-
-    – ポイントライトのバウンディングを一括描画（2回）
-
-    → StencilMaskを生成
-
-    – ステンシルテスト有効で ／ 実際にライトを計算'
-  translation: '点光源的剔除
-
-    - 用 Stencil 遮罩缩小点光源的计算范围
-
-    – 批量绘制点光源的包围体（2 次）
-
-    → 生成 StencilMask
-
-    – 启用模板测试 ／ 实际计算光源'
+- original: "ポイントライトのカリング\n- Stencilマスクでポイントライトの計算範囲を絞る\n– ポイントライトのバウンディングを一括描画（2回）\n\n→ StencilMaskを生成\n– ステンシルテスト有効で ／ 実際にライトを計算"
+  translation: "点光源的剔除\n- 用 Stencil 遮罩缩小点光源的计算范围\n– 批量绘制点光源的包围体（2 次）\n\n→ 生成 StencilMask\n– 启用模板测试 ／ 实际计算光源"
 - type: heading
   level: 2
   original: 都市空間の景観表現
@@ -467,22 +387,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-26.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第26页
-- original: '- 雲表現
-
-    – カメラのレイ＋雲平面の交点を計算（UV)
-
-    – 天候に合わせて、
-
-    雲テクスチャのアルファの閾値を変更
-
-    – さらにノイズを加味 ／ 空の表現'
-  translation: '- 云的表现
-
-    – 计算相机光线与云平面的交点（UV）
-
-    – 根据天气改变云纹理的alpha阈值
-
-    – 进一步加入噪声 ／ 天空的表现'
+- original: "- 雲表現\n– カメラのレイ＋雲平面の交点を計算（UV)\n\n– 天候に合わせて、\n雲テクスチャのアルファの閾値を変更\n– さらにノイズを加味 ／ 空の表現"
+  translation: "- 云的表现\n– 计算相机光线与云平面的交点（UV）\n\n– 根据天气改变云纹理的alpha阈值\n– 进一步加入噪声 ／ 天空的表现"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-27.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第27页
@@ -493,13 +399,7 @@ parallel_items:
     - Rayleigh散乱はグラデーションで表現
 
     空の表現 ／ Mie散乱無し ／ Mie散乱有り'
-  translation: '- 参考Precomputed Atmospheric Scattering (Bruneton08)
-
-    通过LUT参照叠加Mie散射
-
-    - Rayleigh散射用渐变表现
-
-    天空的表现 ／ 无Mie散射 ／ 有Mie散射'
+  translation: "- 参考Precomputed Atmospheric Scattering (Bruneton08)\n\n通过LUT参照叠加Mie散射\n- Rayleigh散射用渐变表现\n天空的表现 ／ 无Mie散射 ／ 有Mie散射"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-28.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第28页
@@ -537,24 +437,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-30.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第30页
-- original: '- SSPRの特徴
-
-    – レイマーチを行わない（SSRより低コスト）
-
-    – シーンをもう一度描画しない（PlanarReflectionより低コスト）
-
-    – 制約：水面は固定の高さ（PlanarReflectionと同様）
-
-    水面の表現'
-  translation: '- SSPR的特点
-
-    – 不进行光线步进（比SSR成本低）
-
-    – 不重新绘制场景（比PlanarReflection成本低）
-
-    – 限制：水面高度固定（与PlanarReflection相同）
-
-    水面的表现'
+- original: "- SSPRの特徴\n– レイマーチを行わない（SSRより低コスト）\n\n– シーンをもう一度描画しない（PlanarReflectionより低コスト）\n\n– 制約：水面は固定の高さ（PlanarReflectionと同様）\n\n水面の表現"
+  translation: "- SSPR的特点\n– 不进行光线步进（比SSR成本低）\n\n– 不重新绘制场景（比PlanarReflection成本低）\n\n– 限制：水面高度固定（与PlanarReflection相同）\n\n水面的表现"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-31.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第31页
@@ -598,20 +482,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-33.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第33页
-- original: '水面の表現
-
-    SSPR計算結果（1/2解像度）
-
-    水シェーダーで合成
-
-    反射が取れないところは周辺ピクセルの色で補完'
-  translation: '水面表现
-
-    SSPR 计算结果（1/2 分辨率）
-
-    在水面 shader 中合成
-
-    无法取得反射的部分用周边像素颜色补全'
+- original: "水面の表現\nSSPR計算結果（1/2解像度）\n\n水シェーダーで合成\n反射が取れないところは周辺ピクセルの色で補完"
+  translation: "水面表现\nSSPR 计算结果（1/2 分辨率）\n\n在水面 shader 中合成\n无法取得反射的部分用周边像素颜色补全"
   note: SSPR 即屏幕空间平面反射（Screen Space Planar Reflection）。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-34.jpg
@@ -691,32 +563,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-42.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第42页
-- original: '- ロワイヤルナイト（夜）
-
-    – メインライト（月）の方向と軌道が
-
-    太陽と異なる
-
-    – 昼間とテクスチャを分けてベイク
-
-    – ロワイヤルナイトの出入りの演出で
-
-    切り替えが見えない
-
-    - プリズムタワーの影は除外
-
-    – 大きすぎるため ／ ベイク影 ／ （昼用） ／ （夜用）'
-  translation: '- 皇家骑士（夜）
-
-    – 主光源（月亮）的方向和轨道与太阳不同
-
-    – 白天和夜晚的纹理分开烘焙
-
-    – 皇家骑士出入的演出中看不到切换
-
-    - 棱镜塔的阴影除外
-
-    – 因为太大 ／ 烘焙阴影 ／ （白天用） ／ （夜晚用）'
+- original: "- ロワイヤルナイト（夜）\n\n– メインライト（月）の方向と軌道が\n太陽と異なる\n– 昼間とテクスチャを分けてベイク\n– ロワイヤルナイトの出入りの演出で\n切り替えが見えない\n- プリズムタワーの影は除外\n– 大きすぎるため ／ ベイク影 ／ （昼用） ／ （夜用）"
+  translation: "- 皇家骑士（夜）\n\n– 主光源（月亮）的方向和轨道与太阳不同\n– 白天和夜晚的纹理分开烘焙\n– 皇家骑士出入的演出中看不到切换\n- 棱镜塔的阴影除外\n– 因为太大 ／ 烘焙阴影 ／ （白天用） ／ （夜晚用）"
   note: 皇家骑士是密阿雷市的地标建筑，夜晚有灯光演出。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-43.jpg
@@ -842,33 +690,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-52.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第52页
-- original: '- 背景は全ディファード
-
-    - キャラクターは一部フォワードで計算（Emissionに入力）
-
-    – ／ メインライト成分 ／ – ／ リムライト表現 ／ キャラクターの描画の仕組み ／ 時間帯'
-  translation: '- 背景全部使用延迟渲染
-
-    - 角色部分使用前向渲染计算（输入到Emission）
-
-    – ／ 主光源成分 ／ – ／ 边缘光表现 ／ 角色绘制的机制 ／ 时间段'
+- original: "- 背景は全ディファード\n- キャラクターは一部フォワードで計算（Emissionに入力）\n\n– ／ メインライト成分 ／ – ／ リムライト表現 ／ キャラクターの描画の仕組み ／ 時間帯"
+  translation: "- 背景全部使用延迟渲染\n- 角色部分使用前向渲染计算（输入到Emission）\n\n– ／ 主光源成分 ／ – ／ 边缘光表现 ／ 角色绘制的机制 ／ 时间段"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-53.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第53页
-- original: 'キャラクターの描画の仕組み
-
-    - GIの合成
-
-    - ポイントライト・スポットライト（LambertDiffuseのみ）
-
-    - ディファードで計算'
-  translation: '角色绘制的机制
-
-    - GI的合成
-
-    - 点光源・聚光灯（仅LambertDiffuse）
-
-    - 在延迟渲染中计算'
+- original: "キャラクターの描画の仕組み\n- GIの合成\n- ポイントライト・スポットライト（LambertDiffuseのみ）\n\n- ディファードで計算"
+  translation: "角色绘制的机制\n- GI的合成\n- 点光源・聚光灯（仅LambertDiffuse）\n\n- 在延迟渲染中计算"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-54.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第54页
@@ -905,71 +733,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-56.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第56页
-- original: '目次(リグパート)
-
-    - ポケモンタイトル制作での課題
-
-    - ポケリグとは？
-
-    - ポケリグによる課題解決
-
-    - 『Z-A』で取り組んだ内容
-
-    - 今後の予定'
-  translation: "目录（Rig部分）\n- 宝可梦标题制作中的课题\n- 什么是ポケリグ？\n- 通过ポケリグ解决课题\n- 在《Z-A》中着手的内容\n- 今后的计划"
+- original: "目次(リグパート)\n\n- ポケモンタイトル制作での課題\n- ポケリグとは？\n\n- ポケリグによる課題解決\n- 『Z-A』で取り組んだ内容\n- 今後の予定"
+  translation: "目录（Rig部分）\n\n- 宝可梦标题制作中的课题\n- 什么是ポケリグ？\n\n- 通过ポケリグ解决课题\n- 在《Z-A》中着手的内容\n- 今后的计划"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-57.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第57页
-- original: '総数1000種以上のポケモン+ 人物
-
-    ポケモンタイトル制作での課題
-
-    - 登場するキャラクタの数が膨大(x モーションの数)
-
-    - 継続・進化していくシリーズタイトル(一度作ったら終わり、ではない)
-
-    - 『スカーレット・バイオレット』以前は、人物リグとポケモンリグは異なるリグシステム
-
-    解決のアプローチ
-
-    これらを解決する統合リギングシステム=ポケリグを開発し解決
-
-    誰もがリグを作る事が出来る
-
-    関わるデザイナーが多くとも堅牢かつ安定
-
-    リグモジュール・ビルドシステム
-
-    効率的なデータ再利用
-
-    リグや骨が異なっていてもモーションを再利用
-
-    モーションリターゲット ／ リグシステムの統合 ／ 学習コスト・運用コスト低減 ／ 段階的な導入'
-  translation: '总数1000种以上的宝可梦+ 人物
-
-    宝可梦作品制作中的课题
-
-    - 登场角色数量庞大（× 动作数量）
-
-    - 持续进化中的系列作品（并非做完一次就结束）
-
-    - 在《朱·紫》之前，人物绑定与宝可梦绑定使用不同的绑定系统
-
-    解决方案
-
-    开发出解决这些问题的集成绑定系统=ポケリグ
-
-    任何人都能制作绑定
-
-    即使参与的设计师众多也能保持稳健与稳定
-
-    绑定模块·构建系统
-
-    高效的数据复用
-
-    即使绑定和骨骼不同也能复用动作
-
-    动作重定向 ／ 绑定系统的集成 ／ 学习成本·运维成本降低 ／ 分阶段导入'
+- original: "総数1000種以上のポケモン+ 人物\nポケモンタイトル制作での課題\n- 登場するキャラクタの数が膨大(x モーションの数)\n\n- 継続・進化していくシリーズタイトル(一度作ったら終わり、ではない)\n\n- 『スカーレット・バイオレット』以前は、人物リグとポケモンリグは異なるリグシステム\n解決のアプローチ\nこれらを解決する統合リギングシステム=ポケリグを開発し解決\n誰もがリグを作る事が出来る\n関わるデザイナーが多くとも堅牢かつ安定\nリグモジュール・ビルドシステム\n効率的なデータ再利用\nリグや骨が異なっていてもモーションを再利用\nモーションリターゲット ／ リグシステムの統合 ／ 学習コスト・運用コスト低減 ／ 段階的な導入"
+  translation: "总数1000种以上的宝可梦+ 人物\n宝可梦作品制作中的课题\n- 登场角色数量庞大（× 动作数量）\n\n- 持续进化中的系列作品（并非做完一次就结束）\n\n- 在《朱·紫》之前，人物绑定与宝可梦绑定使用不同的绑定系统\n解决方案\n开发出解决这些问题的集成绑定系统=ポケリグ\n任何人都能制作绑定\n即使参与的设计师众多也能保持稳健与稳定\n绑定模块·构建系统\n高效的数据复用\n即使绑定和骨骼不同也能复用动作\n动作重定向 ／ 绑定系统的集成 ／ 学习成本·运维成本降低 ／ 分阶段导入"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-58.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第58页
@@ -1027,15 +797,7 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-60.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第60页
-- original: '前作：『ポケットモンスタースカーレット・バイオレット』
-
-    ポケリグの段階的な導入
-
-    今作：『Pokémon LEGENDS Z-A』
-
-    人物 ／ ポケモン ／ ポケリグ ／ 一部ポケモンで初導入 ／ 一部ポケモンおよび人物で導入 ／ 人物 ／ ポケモン ／ ポケリグ ／ 段階的な導入中：リスク低減
-
-    人物キャラクタ対応が大きなポイント'
+- original: "前作：『ポケットモンスタースカーレット・バイオレット』\n\nポケリグの段階的な導入\n今作：『Pokémon LEGENDS Z-A』\n\n人物 ／ ポケモン ／ ポケリグ ／ 一部ポケモンで初導入 ／ 一部ポケモンおよび人物で導入 ／ 人物 ／ ポケモン ／ ポケリグ ／ 段階的な導入中：リスク低減\n人物キャラクタ対応が大きなポイント"
   translation: '前作：《宝可梦 朱·紫》
 
     ポケリグ的分阶段导入
@@ -1053,24 +815,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-62.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第62页
-- original: '対応の方針
-
-    - 共通のワークフロー・データフロー化
-
-    リグの機能・仕様はなるべく統一する。
-
-    - 個別の対応を行わない。
-
-    ポケモンと人物のリグの対応をそれぞれ行わない。'
-  translation: '应对方针
-
-    - 统一工作流·数据流
-
-    尽量统一绑定的功能·规格。
-
-    - 不进行个别应对。
-
-    不对宝可梦和人物的绑定分别进行应对。'
+- original: "対応の方針\n- 共通のワークフロー・データフロー化\nリグの機能・仕様はなるべく統一する。\n\n- 個別の対応を行わない。\n\nポケモンと人物のリグの対応をそれぞれ行わない。"
+  translation: "应对方针\n- 统一工作流·数据流\n尽量统一绑定的功能·规格。\n\n- 不进行个别应对。\n\n不对宝可梦和人物的绑定分别进行应对。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-63.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第63页
@@ -1253,28 +999,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-71.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第71页
-- original: '- GitLab プロジェクト（検証用）
-
-    – Switch 版のプロジェクトを基に生成
-
-    – 誤操作防止のため、フォーク関係を解除
-
-    - IncrediBuild
-
-    – 専用のBuild Group を作成
-
-    ソース管理とビルド ／ 機密保持'
-  translation: '- GitLab项目（验证用）
-
-    – 基于Switch版项目生成
-
-    – 为防止误操作，解除fork关系
-
-    - IncrediBuild
-
-    – 创建专用的Build Group
-
-    源代码管理与构建 ／ 机密保持'
+- original: "- GitLab プロジェクト（検証用）\n\n– Switch 版のプロジェクトを基に生成\n– 誤操作防止のため、フォーク関係を解除\n- IncrediBuild\n– 専用のBuild Group を作成\nソース管理とビルド ／ 機密保持"
+  translation: "- GitLab项目（验证用）\n\n– 基于Switch版项目生成\n– 为防止误操作，解除fork关系\n- IncrediBuild\n– 创建专用的Build Group\n源代码管理与构建 ／ 机密保持"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-72.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第72页
@@ -1355,39 +1081,23 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-75.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第75页
-- original: 'DLSS OFF (Switch)
-
-    品質向上'
-  translation: 'DLSS OFF (Switch)
-
-    品质提升'
+- original: "DLSS OFF (Switch)\n\n品質向上"
+  translation: "DLSS OFF (Switch)\n\n品质提升"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-76.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第76页
-- original: 'DLSS ON (Switch 2)
-
-    品質向上'
-  translation: 'DLSS ON (Switch 2)
-
-    品质提升'
+- original: "DLSS ON (Switch 2)\n\n品質向上"
+  translation: "DLSS ON (Switch 2)\n\n品质提升"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-77.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第77页
-- original: 'SSAO OFF (Switch)
-
-    品質向上'
-  translation: 'SSAO OFF (Switch)
-
-    品质提升'
+- original: "SSAO OFF (Switch)\n\n品質向上"
+  translation: "SSAO OFF (Switch)\n\n品质提升"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-78.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第78页
-- original: 'SSAO ON (Switch 2)
-
-    品質向上'
-  translation: 'SSAO ON (Switch 2)
-
-    品质提升'
+- original: "SSAO ON (Switch 2)\n\n品質向上"
+  translation: "SSAO ON (Switch 2)\n\n品质提升"
 - type: heading
   level: 2
   original: まとめ
@@ -1395,32 +1105,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-80.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第80页
-- original: '- 都市空間について
-
-    – 効率的に描画する仕組み ／ – 景観表現
-
-    - キャラクターについて
-
-    – 描画の仕組み（ちょっとだけ）
-
-    – リグの取り組み
-
-    - Nintendo Switch 2 対応
-
-    まとめ'
-  translation: '- 关于都市空间
-
-    – 高效渲染的机制 ／ – 景观表现
-
-    - 关于角色
-
-    – 渲染机制（只讲一点点）
-
-    – 骨骼绑定的举措
-
-    - Nintendo Switch 2 支持
-
-    总结'
+- original: "- 都市空間について\n– 効率的に描画する仕組み ／ – 景観表現\n- キャラクターについて\n– 描画の仕組み（ちょっとだけ）\n\n– リグの取り組み\n- Nintendo Switch 2 対応\nまとめ"
+  translation: "- 关于都市空间\n– 高效渲染的机制 ／ – 景观表现\n- 关于角色\n– 渲染机制（只讲一点点）\n\n– 骨骼绑定的举措\n- Nintendo Switch 2 支持\n总结"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-81.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第81页

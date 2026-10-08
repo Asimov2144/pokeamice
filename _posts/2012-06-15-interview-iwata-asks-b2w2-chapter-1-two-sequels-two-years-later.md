@@ -18,15 +18,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 黑2·白2
-- 黑·白
-- 岩田聪
-- 增田顺一
-- 海野隆雄
-- 石原恒和
-- 社长问
-- 开发秘辛
+- 'Pokemon'
+- '黑2·白2'
+- '宝可梦 黑·白'
+- '岩田聪'
+- '增田顺一'
+- '海野隆雄'
+- '石原恒和'
+- '社长问'
+- '开发秘辛'
 archive_type: interview_translation
 source:
   title: 任天堂公式ウェブサイト「社長が訊く」Pokemon Black 2 & White 2 Vol.1 第1回

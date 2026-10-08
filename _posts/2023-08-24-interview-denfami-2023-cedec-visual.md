@@ -12,14 +12,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- 電ファミニコゲーマー
-- CEDEC 2023
-- 宝可梦 朱·紫
-- 前泽圭一
-- 视觉表现
-- 技术专题
+- '访谈'
+- 'Game Freak'
+- '电玩迷电玩'
+- 'CEDEC 2023'
+- '宝可梦 朱·紫'
+- '前泽圭一'
+- '视觉表现'
+- '技术专题'
 publication: 电Fami Nico Gamer（2023-08-24）
 source_kind: lecture_report
 interviewer: 電ファミ
@@ -103,7 +103,7 @@ parallel_items:
 - original: ちなみに下記画像における矩形の画像群はそれぞれのテクスチャが各モデルの表面における色や凹凸、表面の粗さなどを設定する役割を担うものである。
   translation: 顺便一提，下方图片中的矩形图像群，各自的纹理承担着设定各模型表面的颜色、凹凸、表面粗糙度等作用。
 - original: ※PBR
-  translation: ※PBR
+  translation: '※PBR'
 - original: 「Physical Based Rendering」の略で、光の反射や屈折などを物理ベースで計算しレンダリングする手法。PBRマテリアルとは前述の演算方法の為に用意するマテリアルデータを示す。
   translation: 是“Physical Based Rendering”的缩写，指基于物理原理计算光的反射和折射等进行渲染的手法。PBR材质是指为上述运算方法而准备的材质数据。
 - type: image

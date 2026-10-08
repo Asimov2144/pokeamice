@@ -10,14 +10,14 @@ categories:
 - 访谈翻译
 - 官方档案
 tags:
-- N.O.M
-- 红宝石·蓝宝石
-- 增田顺一
-- 杉森建
-- 石原恒和
-- Game Boy Advance
-- 华丽大赛
-- 秘密基地
+- 'N.O.M'
+- '宝可梦 红宝石·蓝宝石'
+- '增田顺一'
+- '杉森建'
+- '石原恒和'
+- 'Game Boy Advance'
+- '华丽大赛'
+- '秘密基地'
 publication: 任天堂官网「N.O.M」2002年11月号（No.52）
 source_kind: official_web_magazine
 interviewer: N.O.M 编辑部

@@ -10,16 +10,16 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- Game Freak
-- 增田顺一
-- 杉森建
-- 渡边哲也
-- 西野弘二
-- 森本茂树
-- 任天堂
-- 宝可梦金银
-- 开发秘话
-- N.O.M
+- 'Game Freak'
+- '增田顺一'
+- '杉森建'
+- '渡边哲也'
+- '西野弘二'
+- '森本茂树'
+- '任天堂'
+- '宝可梦 金·银'
+- '开发秘话'
+- 'N.O.M'
 entities:
   people:
   - "渡边哲也"

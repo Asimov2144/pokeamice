@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 员工特写
-- 品牌管理
-- 监修体系
-- 宝可梦中心
-- XY时代
+- '株式会社宝可梦'
+- '招聘访谈'
+- '员工特写'
+- '品牌管理'
+- '监修体系'
+- '宝可梦中心'
+- 'XY时代'
 original_url: https://recruit.pokemon.co.jp/saiyo/staff/staff002.html
 outlet: 株式会社ポケモン 採用情報 Pokémon Business Professionals
 interviewee: 吉原有香（品牌管理部 监修与食品质检）

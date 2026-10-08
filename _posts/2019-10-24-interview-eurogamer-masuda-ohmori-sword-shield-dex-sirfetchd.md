@@ -18,16 +18,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 增田顺一
-- 大森滋
-- 剑盾
-- 葱游兵
-- 全国图鉴
-- Eurogamer
-- Game Freak
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '增田顺一'
+- '大森滋'
+- '宝可梦 剑·盾'
+- '葱游兵'
+- '全国图鉴'
+- 'Eurogamer'
+- 'Game Freak'
 archive_type: interview_translation
 source:
   title: Game Freak's Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch'd, and pressure from Pokémon fans

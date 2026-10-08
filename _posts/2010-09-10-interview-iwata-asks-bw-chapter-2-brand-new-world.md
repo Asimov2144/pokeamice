@@ -18,16 +18,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 黑·白
-- 合众地区
-- 飞云市
-- 曼哈顿
-- 岩田聪
-- 增田顺一
-- 杉森建
-- 比克提尼
-- 设计秘辛
+- 'Pokemon'
+- '宝可梦 黑·白'
+- '合众地区'
+- '飞云市'
+- '曼哈顿'
+- '岩田聪'
+- '增田顺一'
+- '杉森建'
+- '比克提尼'
+- '设计秘辛'
 archive_type: interview_translation
 source:
   title: 任天堂公式ウェブサイト「社長が訊く」Pokemon Black & White Vol.1 第2回

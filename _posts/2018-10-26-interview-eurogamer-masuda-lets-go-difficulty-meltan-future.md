@@ -18,19 +18,19 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- Eurogamer
-- Game Freak
-- 增田顺一
-- 菜花健作
-- Lets Go
-- 皮卡丘
-- 伊布
-- 美录坦
-- Pokémon GO
-- 秘传学习器
-- 开放世界
+- 'Pokemon'
+- '访谈'
+- 'Eurogamer'
+- 'Game Freak'
+- '增田顺一'
+- '菜花健作'
+- 'Let''s Go'
+- '皮卡丘'
+- '伊布'
+- '美录坦'
+- 'Pokémon GO'
+- '秘传学习器'
+- '开放世界'
 archive_type: interview_translation
 source:
   title: Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the series' future

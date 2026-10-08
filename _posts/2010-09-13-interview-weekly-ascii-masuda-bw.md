@@ -18,14 +18,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 黑·白
-- 增田顺一
-- PGL
-- 合众地区
-- 对战机制
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '宝可梦 黑·白'
+- '增田顺一'
+- 'PGL'
+- '合众地区'
+- '对战机制'
 archive_type: interview_translation
 source:
   title: 週刊アスキー (Weekly ASCII) 2010年9月

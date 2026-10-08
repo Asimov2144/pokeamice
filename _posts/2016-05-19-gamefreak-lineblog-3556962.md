@@ -24,7 +24,7 @@ gf_source_tags: []
 gf_translation_title: 【日记】2016年海边偶遇海鸥
 translation_available: true
 translation_status: openai-machine-translated
-summary: <div class="gf-lineblog-line gf-lineblog-line--center"><br><
+summary: 'GAME FREAK 员工在海边偶遇海鸥，拍下海鸥走路的视频分享，并发现视频中途有谷歌街景车经过。'
 description: <div class="gf-lineblog-line gf-lineblog-line--center"><br><
 search: true
 source:

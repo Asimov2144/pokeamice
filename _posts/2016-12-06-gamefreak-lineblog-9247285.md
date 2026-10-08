@@ -8,17 +8,12 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- madrid
-- airport
-- art
-- architecture
-- 建築
-- ポケモンファン
-- tattoo
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '建築'
+- '宝可梦粉丝'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9247285

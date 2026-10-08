@@ -8,18 +8,18 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- 三軒茶屋
-- キャロットタワー
-- 紅葉
-- もみじ
-- 季節
-- ポータル
-- Ingress
-- pokemon
-- pokemonGO
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '三軒茶屋'
+- 'Carrot Tower'
+- '紅葉'
+- '红叶'
+- '季節'
+- '传送门'
+- 'Ingress'
+- 'Pokemon'
+- 'pokemonGO'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9246403

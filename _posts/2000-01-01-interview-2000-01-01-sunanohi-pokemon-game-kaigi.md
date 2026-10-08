@@ -46,7 +46,8 @@ parallel_items:
 - type: heading
   level: 2
   original: 「ゲーム会議」 Vol.9 1997年8月20日発行　※２ページ目以降
-  translation: 《游戏会议》 Vol.9 1997年8月20日发行 ※第2页及以后
+  translation: '《游戏会议》 Vol.9 1997年8月20日发行'
+  note: '第2页及以后'
 - type: heading
   level: 3
   original: 『ポケモン』が変えたデータトレードゲームの可能性
@@ -103,8 +104,8 @@ parallel_items:
   translation: 对于不了解宝可梦热潮的人来说（笔者也是其中之一），这也是了解当时氛围的宝贵资料。
 - type: paragraph
   original: メモ:1997年に小学館から発行された文庫本 『ポケモンの秘密』（Amazon） の66～69ページでもファンサイトを紹介
-  translation: 备注：1997年小学馆发行的文库本《宝可梦的秘密》（Amazon）第66～69页也介绍了粉丝网站。
-  note: 小学馆：日本出版社，曾出版宝可梦相关书籍。
+  translation: '备注：1997年小学馆发行的文库本《宝可梦的秘密》（Amazon）第66～69页也介绍了粉丝网站。'
+  note: '小学馆：日本出版社，曾出版宝可梦相关书籍。'
 - type: paragraph
   original: 読み物： 「インターネットにおけるポケモンサイト黎明期の記憶」 （かけるのページ）
   translation: 读物：《互联网上宝可梦网站黎明期的记忆》（出自“かける的页面”）

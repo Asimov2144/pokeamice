@@ -8,15 +8,15 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケモンGO
-- やどん
-- ヤドキング
-- おうじゃのしるし
-- 進化
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- 'Pokémon GO'
+- '呆呆兽'
+- '呆河王'
+- '王者之证'
+- '進化'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9269424

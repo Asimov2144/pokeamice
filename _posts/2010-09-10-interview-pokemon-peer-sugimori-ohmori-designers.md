@@ -17,17 +17,17 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- Pokemon
-- 黑·白
-- 杉森建
-- 大村祐介
-- 井部真那
-- 田上怜子
-- 怪兽设计
-- 御三家
-- 比克提尼
-- 藤藤蛇
-- 水水獭
+- 'Pokemon'
+- '宝可梦 黑·白'
+- '杉森建'
+- '大村祐介'
+- '井部真那'
+- '田上怜子'
+- '怪兽设计'
+- '御三家'
+- '比克提尼'
+- '藤藤蛇'
+- '水水獭'
 archive_type: interview_translation
 source:
   title: Pokemon Peer Official Mook / Pokebeach Archive
@@ -95,7 +95,8 @@ parallel_items:
   role: question
 - speaker: 杉森建
   original: 'There were 17 people total.  Each person designed about 10 Pokemon. [Note: 17x10 = 170!]'
-  translation: 总共有17个人。每个人设计了大约10只宝可梦。[注：17x10 = 170！]
+  translation: '总共有17个人。每个人设计了大约10只宝可梦。'
+  note: '17x10 = 170！'
   role: answer
 - speaker: 提问
   original: This time all of the Pokemon are new.  When did you start designing the Pokemon?
@@ -205,8 +206,8 @@ parallel_items:
   role: answer
 - speaker: 大村祐介
   original: 'I said, “How about a sea otter for the Water-type?”  But if a sea otter were to evolve, what would it become? That’s where I hit a wall.  Eventually I said that if a sea otter was to evolve, it would transform into something completely different. [Note: The third rumored evolution of Mijumaru from a few days ago looks completely different than Mijumaru.]'
-  translation: 我说：“水属性用海獭怎么样？”但如果海獭进化，它会变成什么？我在这里卡住了。最后我说，如果海獭要进化，它会变成完全不同的东西。[注：几天前传闻的水水獭的第三阶段进化看起来和水水獭完全不同。]
-  note: 水水獭（Mijumaru）是第五世代水属性御三家，其最终进化形态大剑鬼（Daikenki）确实与初始形态差异巨大，这里提到的传闻可能指未公开的设计或玩家猜测。
+  translation: '我说：“水属性用海獭怎么样？”但如果海獭进化，它会变成什么？我在这里卡住了。最后我说，如果海獭要进化，它会变成完全不同的东西。'
+  note: '水水獭（Mijumaru）是第五世代水属性御三家，其最终进化形态大剑鬼（Daikenki）确实与初始形态差异巨大，这里提到的传闻可能指未公开的设计或玩家猜测。 几天前传闻的水水獭的第三阶段进化看起来和水水獭完全不同。'
   role: answer
 - speaker: 杉森建
   original: 'Since we intended for those 3 starter Pokemon to be with the hero throughout the game, we wanted them to have surprising evolutions. We kept adding more twists so the forms of the third-stage Evolutions would have an impact.'

@@ -8,14 +8,14 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- 七夕祭り
-- 仙台
-- ジラーチ
-- ピカチュウ
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '七夕祭'
+- '仙台'
+- '基拉祈'
+- '皮卡丘'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9293254

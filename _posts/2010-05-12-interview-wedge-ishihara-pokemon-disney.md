@@ -230,8 +230,8 @@ parallel_items:
 - original: 黒澤明監督に、似た経験があったらしいです（注・浜野氏と故黒澤監督との関わりは本シリーズ前回を参照）。
   role: answer
   speaker: 浜野保树
-  translation: 黑泽明导演似乎也有过类似的经历（注：滨野氏与已故黑泽导演的关系请参照本系列上一回）。
-  note: 黑泽明是日本著名电影导演。
+  translation: '黑泽明导演似乎也有过类似的经历。'
+  note: '黑泽明是日本著名电影导演。 滨野氏与已故黑泽导演的关系请参照本系列上一回'
 - type: image
   image: /assets/img/interviews/2010-05-12-interview-wedge-ishihara-pokemon-disney/003.jpg
   alt: 石原恒和社長が語る「ポケモンが愛され続ける理由」

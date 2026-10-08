@@ -6,7 +6,7 @@ categories: [Game Freak,整理]
 tags: [开发,年表,第四世代,第五世代,第六世代,第七世代,第八世代,第九世代]
 card_image: /assets/avator/rental_logo.png
 archive_type: "article"
-summary: "近年 Game Freak 开发事件年表"
+summary: '按时间整理 Game Freak 近年的开发事件：从 2008 年迁入新办公室起，依次列出第五世代以来各作的发售与立项节点。'
 source:
   title: "t.co"
   url: "https://t.co/14hoUdRcuX"
@@ -257,7 +257,7 @@ Game Freak迁入新办公室\
 宝可梦传说成为系列作，于玩家熟悉的舞台以全新的角度对于地区历史中的神话进行再演绎，配以在系列中独树一帜的革新玩法。是勇气是决心，也是游戏狂想家。\
 [Trailer](https://www.youtube.com/watch?v=KkQjl3B9Pmo){:target="_blank"}
 
-##潜在的项目
+## 潜在的项目
 1. 第十世代的正统全新作
 2. 可能不由Game Freak主导，而是由ILCA组成的The Pokemon Works领衔的宝可梦复刻or仅仅旁支作。
 [The Pokemon Works](https://bulbapedia.bulbagarden.net/wiki/The_Pok%C3%A9mon_Works){:target="_blank"}

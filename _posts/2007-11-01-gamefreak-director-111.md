@@ -18,7 +18,7 @@ gf_entry_title: 【公告】2007年专栏开启英文版
 gf_archive: 2007-11
 gf_categories:
 - お知らせ
-summary: 没想到！！！ 这个专栏要推出英文版了！！ 将由我们公司拥有长期海外生活经历的游戏设计师——Hiro Nakamura负责
+summary: '部长专栏第 111 回：专栏将推出英文版，由有海外生活经历的游戏设计师 Hiro Nakamura 负责翻译；英文版更新会慢于日文版，过去的专栏也会陆续翻译。'
 gf_translation_title: 【公告】2007年专栏开启英文版
 gf_translation_summary: 没想到！！！ 这个专栏要推出英文版了！！ 将由我们公司拥有长期海外生活经历的游戏设计师——Hiro Nakamura负责
 search: true

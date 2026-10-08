@@ -10,12 +10,12 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - コロコロコミック
-  - 扫描存档
-  - 日中对照
-  - CoroCoro
-  - 宝可梦 钻石·珍珠
-  - 增田顺一
+  - 'CoroCoro Comic'
+  - '扫描存档'
+  - '日中对照'
+  - 'CoroCoro'
+  - '宝可梦 钻石·珍珠'
+  - '增田顺一'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: コロコロコミック
 issue: 2005年8月号 別冊付録

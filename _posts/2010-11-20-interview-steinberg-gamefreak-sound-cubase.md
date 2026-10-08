@@ -10,13 +10,13 @@ categories:
 - developer-interviews
 - music-archives
 tags:
-- Game Freak
-- 景山将太
-- Steinberg
-- Cubase
-- 宝可梦黑白
-- 声音工程
-- 音频制作
+- 'Game Freak'
+- '景山将太'
+- 'Steinberg'
+- 'Cubase'
+- '宝可梦 黑·白'
+- '声音工程'
+- '音频制作'
 era_skin: '2010'
 original_lang: ja
 interview_id: PKMN-0066

@@ -8,18 +8,17 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポルトガル
-- ポルト
-- コミコン
-- ポケモン
-- ポケモンサンムーン
-- サンムーン
-- 取材
-- サイン会
-- イベント
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '葡萄牙'
+- '波尔图'
+- 'Comic-Con'
+- '宝可梦'
+- '宝可梦 太阳·月亮'
+- '取材'
+- '签名会'
+- '活动'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9248123

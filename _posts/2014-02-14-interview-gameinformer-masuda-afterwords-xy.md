@@ -18,15 +18,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- X·Y
-- 增田顺一
-- Game Informer
-- 宝可友友乐
-- 超级进化
-- 卡洛斯地区
-- 妖精属性
-- AZ国王
+- 'Pokemon'
+- '宝可梦 X·Y'
+- '增田顺一'
+- 'Game Informer'
+- '宝可友友乐'
+- '超级进化'
+- '卡洛斯地区'
+- '妖精属性'
+- 'AZ国王'
 archive_type: interview_translation
 source:
   title: 'Game Informer Issue #250 Unabridged Feature'

@@ -2,6 +2,12 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: 电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈
+tags:
+- '访谈'
+- '田尻智'
+- '杉森建'
+- '远藤雅伸'
+- '电玩迷电玩'
 subtitle: 从街机厅狂热、同人志《Game Freak》到创世巨作：解密《铁板阵》企划书原件与《宝可梦》谜题构想源流
 date: '2016-02-17'
 era_skin: '2014'

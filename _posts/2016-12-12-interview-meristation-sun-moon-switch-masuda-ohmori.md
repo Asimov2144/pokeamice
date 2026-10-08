@@ -12,14 +12,14 @@ source_url: https://as.com/meristation/2016/12/12/noticias/1481540400_157864.htm
 interviewee: 大森滋
 interviewer: Salva Fernàndez（MeriStation）
 tags:
-- 宝可梦
-- 增田顺一
-- 大森滋
-- 太阳／月亮
-- Nintendo Switch
-- 钻石／珍珠重制
-- 宝可骑行
-- 访谈
+- '宝可梦'
+- '增田顺一'
+- '大森滋'
+- '宝可梦 太阳·月亮'
+- 'Nintendo Switch'
+- '钻石／珍珠重制'
+- '宝可骑行'
+- '访谈'
 intro: '2016年12月，随着《宝可梦 太阳／月亮》在欧洲发售并打破全欧销售纪录，系列两大灵魂核心——大森滋（总监）与增田顺一（制作人兼作曲家）来到西班牙马德里出席 Juvenalia 展会。西班牙老牌权威游戏媒体 MeriStation 获得了与两位领舵人进行20分钟独家闭门对谈的宝贵机会。
 
 

@@ -18,16 +18,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 究极之日·究极之月
-- 太阳·月亮
-- 大森滋
-- 岩尾和昌
-- 增田顺一
-- Game Freak
-- 奈克洛兹玛
-- 3DS
-- 开发秘辛
+- 'Pokemon'
+- '宝可梦 究极之日·究极之月'
+- '宝可梦 太阳·月亮'
+- '大森滋'
+- '岩尾和昌'
+- '增田顺一'
+- 'Game Freak'
+- '奈克洛兹玛'
+- '3DS'
+- '开发秘辛'
 archive_type: interview_translation
 source:
   title: 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）

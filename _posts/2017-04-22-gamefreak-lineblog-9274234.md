@@ -8,19 +8,16 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケットモンスター
-- ポケットモンスターサン
-- ポケットモンスタームーン
-- サン
-- ムーン
-- ファミ通
-- ファミ通アワード2016
-- 感謝
-- ポケモンGO
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '宝可梦 太阳'
+- '宝可梦 月亮'
+- 'Fami通'
+- 'Fami通 Awards 2016'
+- '感謝'
+- 'Pokémon GO'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9274234

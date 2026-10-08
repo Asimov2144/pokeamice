@@ -12,14 +12,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- ファミ通
-- ぽこ あ ポケモン
-- 大森滋
-- 村田佳奈子
-- 光荣特库摩
-- Nintendo Switch 2
+- '访谈'
+- 'Game Freak'
+- 'Fami通'
+- 'ぽこ あ ポケモン'
+- '大森滋'
+- '村田佳奈子'
+- '光荣特库摩'
+- 'Nintendo Switch 2'
 publication: Fami通.com（2026-02-16）
 source_kind: media_interview
 interviewer: ファミ通
@@ -76,7 +76,7 @@ parallel_items:
 - original: 株式会社コーエーテクモゲームス エンタテインメント制作本部CG1部マネジャー 『ぽこ あ ポケモン』アートディレクター
   translation: "株式会社光荣特库摩游戏 娱乐制作本部CG1部经理 《ぽこ あ ポケモン》（Pokémon Pokopia）美术总监"
 - original: ※サムネイル画像左からの順番で掲載
-  translation: ※按缩略图从左到右的顺序刊登
+  translation: '※按缩略图从左到右的顺序刊登'
 - type: heading
   level: 2
   original: 企画のタネは大森氏のクリエイターとしての原体験。ポケモン世界を作り上げる楽しさをファンと共有したい
@@ -247,7 +247,7 @@ parallel_items:
 - original: ※ω-Force……“コーエーの最終兵器”という意味を込めて立ち上げられた開発チーム。1997年2月発売の『三國無双』から歴史が始まった
   role: question
   speaker: ファミ通
-  translation: ※ω-Force……以“光荣的最终兵器”为寓意而成立的开发团队。历史始于1997年2月发售的《三国无双》
+  translation: '※ω-Force……以“光荣的最终兵器”为寓意而成立的开发团队。历史始于1997年2月发售的《三国无双》'
 - original: 本当に力を入れてくださっていて、そのおかげでものすごいボリュームとクオリティを両立することができ、さらに皆さんにも早くお届けすることが叶いました。
   role: answer
   speaker: 大森滋

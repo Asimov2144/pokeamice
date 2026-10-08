@@ -6,12 +6,12 @@ date: 2018-08-07 10:00:00 +0900
 era: '2016'
 source: Helix Chamber
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 第一世代
-- 田尻智
-- 赤绿
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '第一世代'
+- '田尻智'
+- '宝可梦 红·绿'
 source_url: https://helixchamber.com/2018/08/07/what-does-satoshi-tajiris-manga-tell-us-about-pokemons-earliest-development/
 categories:
 - developer-interviews

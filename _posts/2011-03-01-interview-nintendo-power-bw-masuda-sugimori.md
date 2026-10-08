@@ -18,14 +18,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 黑·白
-- 合众
-- 增田顺一
-- 杉森建
-- 角色设计
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '宝可梦 黑·白'
+- '合众'
+- '增田顺一'
+- '杉森建'
+- '角色设计'
 archive_type: interview_translation
 source:
   title: Nintendo Power Vol. 265

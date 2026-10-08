@@ -18,14 +18,14 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 访谈
-- 开发者访谈
-- 田尻智
-- 初代
-- 金银
-- 时代周刊
-- Game Freak
+- 'Pokemon'
+- '访谈'
+- '开发者访谈'
+- '田尻智'
+- '初代'
+- '宝可梦 金·银'
+- '时代周刊'
+- 'Game Freak'
 archive_type: interview_translation
 source:
   title: 'The Ultimate Game Freak: An Interview with Satoshi Tajiri'

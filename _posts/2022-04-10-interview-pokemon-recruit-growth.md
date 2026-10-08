@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 员工成长
-- 剑盾宣发
-- 宝可梦传说阿尔宙斯
-- 珍珠钻石重制
-- 墨绘列传
-- 宝可梦大集结
-- 组织文化
+- '株式会社宝可梦'
+- '招聘访谈'
+- '员工成长'
+- '剑盾宣发'
+- '宝可梦传说 阿尔宙斯'
+- '珍珠钻石重制'
+- '墨绘列传'
+- '宝可梦大集结'
+- '组织文化'
 original_url: https://recruit.pokemon.co.jp/saiyo/interview/growth.html
 outlet: 株式会社ポケモン 採用情報 Special Interview
 interviewee: 林祐衣（App事业部总监）、髙草真生（开发制作部经理）、的场昂树（Pokémon GO推进室经理）、寺田佑贵（平台战略部经理）、小岛彬（亚洲事业部经理）

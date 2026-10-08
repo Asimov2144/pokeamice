@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - industry-interviews
 tags:
-- 株式会社ポケモン
-- 大洞翔一
-- 今村啓太
-- GOTCHA!
-- 宝可梦井盖
-- 品牌运营
-- 组织管理
+- '株式会社宝可梦'
+- '大洞翔一'
+- '今村啓太'
+- 'GOTCHA!'
+- '宝可梦井盖'
+- '品牌运营'
+- '组织管理'
 interview_id: PKMN-0078
 publication: NewsPicks Brand Design
 original_link: https://newspicks.com/news/6367027/body/

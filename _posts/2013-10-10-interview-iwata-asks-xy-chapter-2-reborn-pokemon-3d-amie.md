@@ -18,16 +18,16 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- X·Y
-- 岩田聪
-- 增田顺一
-- 石原恒和
-- 社长问
-- 3D建模
-- 皮卡丘
-- 大谷育江
-- 宝可友友乐
+- 'Pokemon'
+- '宝可梦 X·Y'
+- '岩田聪'
+- '增田顺一'
+- '石原恒和'
+- '社长问'
+- '3D建模'
+- '皮卡丘'
+- '大谷育江'
+- '宝可友友乐'
 archive_type: interview_translation
 source:
   title: 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第2回

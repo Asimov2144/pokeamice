@@ -10,12 +10,12 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - 週刊ファミ通
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 石原恒和
-  - 增田顺一
+  - 'Fami通'
+  - '扫描存档'
+  - '日中对照'
+  - '宝可梦 黑·白'
+  - '石原恒和'
+  - '增田顺一'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: 週刊ファミ通
 issue: 2010年9月30日号（No.1137）

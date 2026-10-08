@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- Game Freak
-- 图形设计师
-- 中途招聘
-- UI设计
-- 动作设计
-- 技能特效
-- 宝可梦XY
-- 招聘访谈
-- Wayback历史存档
+- 'Game Freak'
+- '图形设计师'
+- '中途招聘'
+- 'UI设计'
+- '动作设计'
+- '技能特效'
+- '宝可梦 X·Y'
+- '招聘访谈'
+- 'Wayback历史存档'
 interview_id: PKMN-1025
 publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20160403190310/http://www.gamefreak.co.jp/recruit/interview_03.html

@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 员工特写
-- 集团统括
-- 经营管理
-- 组织文化
-- XY时代
+- '株式会社宝可梦'
+- '招聘访谈'
+- '员工特写'
+- '集团统括'
+- '经营管理'
+- '组织文化'
+- 'XY时代'
 original_url: https://recruit.pokemon.co.jp/saiyo/staff/staff004.html
 outlet: 株式会社ポケモン 採用情報 Pokémon Business Professionals
 interviewee: 小杉要（集团统括部 / 经营管理与全球统筹）

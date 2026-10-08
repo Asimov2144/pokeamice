@@ -12,14 +12,14 @@ source_url: https://www.hobbyconsolas.com/reportajes/entrevista-con-junichi-masu
 interviewee: 增田顺一
 interviewer: El Pokéxperto（Hobby Consolas）
 tags:
-- 宝可梦
-- 增田顺一
-- XY
-- 全球同步发售
-- 杉森建
-- AZ
-- 超级进化
-- 访谈
+- '宝可梦'
+- '增田顺一'
+- '宝可梦 X·Y'
+- '全球同步发售'
+- '杉森建'
+- 'AZ'
+- '超级进化'
+- '访谈'
 intro: '2013年11月，在《宝可梦 X／Y》开创系列历史先河实现全球同步发售三周后，系列总监增田顺一亲临西班牙出席巴塞罗那国际漫画展（Salón del Manga de Barcelona）。西班牙发行量最大的老牌主机游戏权威大刊《Hobby Consolas》在庆典现场对增田顺一进行了独家深度专访。
 
 

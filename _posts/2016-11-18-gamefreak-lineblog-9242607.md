@@ -8,14 +8,13 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- サンムーン
-- 発売日
-- ポケットモンスター
-- ポケモンセンター
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '宝可梦 太阳·月亮'
+- '発売日'
+- '宝可梦中心'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9242607

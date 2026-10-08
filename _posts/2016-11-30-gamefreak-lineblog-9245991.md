@@ -8,15 +8,14 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケモンサンムーン
-- ポケットモンスターサンムーン
-- サントラ
-- CD
-- 発売日
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- '宝可梦 太阳·月亮'
+- '原声带'
+- 'CD'
+- '発売日'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9245991

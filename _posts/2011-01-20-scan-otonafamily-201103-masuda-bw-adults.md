@@ -10,11 +10,11 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - オトナファミ
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 增田顺一
+  - '大人Fami'
+  - '扫描存档'
+  - '日中对照'
+  - '宝可梦 黑·白'
+  - '增田顺一'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: オトナファミ
 issue: 2011年3月号

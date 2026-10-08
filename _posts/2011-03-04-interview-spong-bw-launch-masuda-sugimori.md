@@ -9,16 +9,16 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 访谈
-- Game Freak
-- SPOnG
-- 増田順一
-- 杉森建
-- 黑白
-- 第五世代
-- 掌机哲学
-- 比克提尼
-- 首发盛典
+- '访谈'
+- 'Game Freak'
+- 'SPOnG'
+- '増田順一'
+- '杉森建'
+- '宝可梦 黑·白'
+- '第五世代'
+- '掌机哲学'
+- '比克提尼'
+- '首发盛典'
 publication: SPOnG（2011-03-04）
 source_kind: media_feature
 interviewer: SPOnG

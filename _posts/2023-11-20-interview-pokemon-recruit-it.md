@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- IT与系统
-- 信息安全
-- 网站运维
-- 业务能效
-- 朱紫时代
+- '株式会社宝可梦'
+- '招聘访谈'
+- 'IT与系统'
+- '信息安全'
+- '网站运维'
+- '业务能效'
+- '朱紫时代'
 original_url: https://recruit.pokemon.co.jp/saiyo/interview/it.html
 outlet: 株式会社ポケモン 採用情報 Special Interview
 interviewee: 铃木（技术支持台）、新井（信息安全经理）、中野（网站构建运维经理）、柴山（业务赋能经理）

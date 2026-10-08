@@ -18,15 +18,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- Pokemon
-- 黑·白
-- 增田顺一
-- 井部真那
-- Game Freak
-- 红·绿
-- 15周年
-- 合众地区
-- 开发秘辛
+- 'Pokemon'
+- '宝可梦 黑·白'
+- '增田顺一'
+- '井部真那'
+- 'Game Freak'
+- '红·绿'
+- '15周年'
+- '合众地区'
+- '开发秘辛'
 archive_type: interview_translation
 source:
   title: Game Informer (March 2011 Feature)

@@ -2,6 +2,12 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: Fami通专访《名侦探皮卡丘》主创：热爱咖啡的大叔皮卡丘与人类宝可梦共生莱姆市
+tags:
+- '访谈'
+- '阵内弘之'
+- '宫下尚生'
+- '名侦探皮卡丘'
+- 'Fami通'
 title_ja: ファミ通：コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！
 date: 2018-03-30 10:00:00 +0900
 era: '2018'
@@ -33,18 +39,10 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/001.jpg
   alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_06
-- original: '陣内弘之氏（じんない ひろゆき／写真右）
-
-    株式会社クリーチャーズ 取締役。『名探偵ピカチュウ』プロデューサー。'
-  translation: '阵内弘之（じんない ひろゆき／照片右侧）
-
-    Creatures株式会社 董事。《名侦探皮卡丘》制作人。'
-- original: '宮下尚生氏（みやした なおき／写真左）
-
-    株式会社クリーチャーズ クリエイティブディレクター。『名探偵ピカチュウ』ディレクター。'
-  translation: '宫下尚生（みやした なおき／照片左侧）
-
-    Creatures株式会社 创意总监。《名侦探皮卡丘》导演。'
+- original: "陣内弘之氏（じんない ひろゆき／写真右）\n\n株式会社クリーチャーズ 取締役。『名探偵ピカチュウ』プロデューサー。"
+  translation: "阵内弘之（じんない ひろゆき／照片右侧）\n\nCreatures株式会社 董事。《名侦探皮卡丘》制作人。"
+- original: "宮下尚生氏（みやした なおき／写真左）\n\n株式会社クリーチャーズ クリエイティブディレクター。『名探偵ピカチュウ』ディレクター。"
+  translation: "宫下尚生（みやした なおき／照片左侧）\n\nCreatures株式会社 创意总监。《名侦探皮卡丘》导演。"
 - type: image
   image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/002.jpg
   alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_17

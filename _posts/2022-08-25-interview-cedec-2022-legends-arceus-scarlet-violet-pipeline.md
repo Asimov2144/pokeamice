@@ -12,15 +12,15 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- 電ファミニコゲーマー
-- CEDEC 2022
-- 宝可梦传说 阿尔宙斯
-- 宝可梦 朱·紫
-- 前泽圭一
-- 模型制作
-- 技术专题
+- '访谈'
+- 'Game Freak'
+- '电玩迷电玩'
+- 'CEDEC 2022'
+- '宝可梦传说 阿尔宙斯'
+- '宝可梦 朱·紫'
+- '前泽圭一'
+- '模型制作'
+- '技术专题'
 publication: 电Fami Nico Gamer（2022-08-25）
 source_kind: lecture_report
 author: 柳本マリエ

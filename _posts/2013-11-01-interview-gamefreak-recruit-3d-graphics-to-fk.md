@@ -9,15 +9,15 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- Game Freak
-- 宝可梦XY
-- 3D图形
-- 杉森建
-- 角色建模
-- 动作设计
-- Gear Project
-- 招聘访谈
-- Wayback历史存档
+- 'Game Freak'
+- '宝可梦 X·Y'
+- '3D图形'
+- '杉森建'
+- '角色建模'
+- '动作设计'
+- 'Gear Project'
+- '招聘访谈'
+- 'Wayback历史存档'
 interview_id: PKMN-1021
 publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_1.html
@@ -99,7 +99,8 @@ parallel_items:
   speaker: T.O.
   speaker_orig: T.O.
   original: プレイしながら、ポケモンのモデルをよーく見てもらえればわかります（笑）。あれは普通のシェーディングではなくかなり面白いことをプログラマーと一緒にやっています。（「CGWORLD」10月10日発売号掲載記事参照）
-  translation: 大家在玩游戏的时候，只要仔仔细细观察宝可梦和角色的模型就能看明白啦（笑）。那绝不是普通的标准光照着色器（Shading），而是我们美术团队与底层程序员紧密协同开发出的极具巧思的定制算法（注：详见当年《CGWORLD》10月10日发售刊专访）。
+  translation: '大家在玩游戏的时候，只要仔仔细细观察宝可梦和角色的模型就能看明白啦（笑）。那绝不是普通的标准光照着色器（Shading），而是我们美术团队与底层程序员紧密协同开发出的极具巧思的定制算法。'
+  note: '详见当年《CGWORLD》10月10日发售刊专访'
   role: answer
 - type: text
   speaker: F.K.

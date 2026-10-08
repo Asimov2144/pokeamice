@@ -8,15 +8,15 @@ categories:
 - Game Freak
 - 数字存档
 tags:
-- Game Freak
-- 增田顺一
-- LINE BLOG
-- ポケモン
-- ポケモンGO
-- スイス
-- グリュイエール
-- チーズ
-- 景色
+- 'Game Freak'
+- '增田顺一'
+- 'LINE BLOG'
+- '宝可梦'
+- 'Pokémon GO'
+- '瑞士'
+- '格吕耶尔'
+- '奶酪'
+- '景色'
 archive_type: gamefreak_masuda_lineblog
 gf_series: lineblog
 gf_lineblog_id: 9272876

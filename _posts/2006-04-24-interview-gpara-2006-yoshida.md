@@ -12,12 +12,11 @@ categories:
 - 翻译
 - 访谈整理
 tags:
-- 访谈
-- Game Freak
-- Gpara
-- 吉田宏信
-- 角色设计
-- Game Freak
+- '访谈'
+- 'Game Freak'
+- 'Gpara'
+- '吉田宏信'
+- '角色设计'
 publication: Gpara.com（2006-04-24）
 source_kind: media_interview
 interviewer: Gpara.com

@@ -9,14 +9,14 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 宝可梦中心
-- 实体门店
-- 店长特写
-- 组织文化
-- 招聘访谈
-- Wayback历史存档
-- 黑白时代
+- '株式会社宝可梦'
+- '宝可梦中心'
+- '实体门店'
+- '店长特写'
+- '组织文化'
+- '招聘访谈'
+- 'Wayback历史存档'
+- '黑白时代'
 original_url: http://web.archive.org/web/20120531113059/http://www.pokemon.co.jp/corporate/job/employee/oohinata/
 outlet: 株式会社ポケモン 採用情報 (Wayback Machine 历史存档)
 interviewee: 大日向俊（宝可梦中心东京 店长 / Store Chief）

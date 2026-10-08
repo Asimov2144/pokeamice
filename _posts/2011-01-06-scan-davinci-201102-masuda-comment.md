@@ -10,11 +10,11 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - ダ・ヴィンチ
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 增田顺一
+  - 'Da Vinci'
+  - '扫描存档'
+  - '日中对照'
+  - '宝可梦 黑·白'
+  - '增田顺一'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: ダ・ヴィンチ
 issue: 2011年2月号

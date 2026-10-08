@@ -9,13 +9,13 @@ categories:
 - developer-interviews
 - pokemon-recruit
 tags:
-- 株式会社ポケモン
-- 招聘访谈
-- 员工特写
-- 法务合规
-- 商标与知识产权
-- 跨媒体战略
-- XY时代
+- '株式会社宝可梦'
+- '招聘访谈'
+- '员工特写'
+- '法务合规'
+- '商标与知识产权'
+- '跨媒体战略'
+- 'XY时代'
 original_url: https://recruit.pokemon.co.jp/saiyo/staff/staff005.html
 outlet: 株式会社ポケモン 採用情報 Pokémon Business Professionals
 interviewee: 早川裕崇（法务部 知识产权与商标主管）
