@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 钻石·珍珠</h2>
-    <span>65 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>68 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -61,14 +61,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-2-brand-new-world/">[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）</a></h3>
+  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/">[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/">[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）</a></h3>
+  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-2-brand-new-world/">[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）</a></h3>
   <span></span>
 </article>
 
@@ -283,6 +283,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2007 · scan_translation · スペシャル対談 田尻智×中川翔子</p>
+  <h3><a href="/访谈翻译/扫描存档/continue-vol32-scan-archive/">CONTINUE 2007：田尻智×中川翔子特别对谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第74回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-074/">[GameFreak部长专栏] 第74回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 这次，我们第一次决定用DS进行开发， 在之前一直使用的Game Boy Advance这款硬件上， 操作按键是</span>
@@ -328,6 +334,12 @@ search: false
   <p>2006 · gamefreak_director_column · 増田部長のめざめるパワー 第63回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-063/">[GameFreak部长专栏] 第63回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 从11月29日到12月2日，我按照“两晚四天！”的日程去了西雅图。 这次是为了进行本地化（转换成其他语言）的工</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』プレイレポート｜Nintendo Online Magazine 2006年10月号 No.99</p>
+  <h3><a href="/官方档案/访谈翻译/interview-nom-dp-underground-fossil-battle-report/">任天堂官方网络杂志 N.O.M：《宝可梦 钻石·珍珠》游玩报告（2006年10月号）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -394,6 +406,12 @@ search: false
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第46回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-046/">[GameFreak部长专栏] 第46回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今年的电影，大家看了吗？ 电影里，第一部作品中登场的宝可梦“梦幻”， 会和《钻石＆珍珠》中登场的宝可梦“路卡利</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2005 · scan_translation · ポケットモンスター ダイヤモンド・パール 特報インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-corocoro-200508-diamond-pearl-scoop/">コロコロコミック 2005：宝可梦 钻石·珍珠 紧急采访</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

@@ -19,7 +19,7 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2012 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 第3回</p>
+  <p>2012 · interview_translation · 社長が訊く『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 3. “決定版”</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition/">[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第3章：“决定版”（单一包装的魄力、Chunsoft自DQ时代传承的亲切感与难度哲学）</a></h3>
   <span></span>
 </article>

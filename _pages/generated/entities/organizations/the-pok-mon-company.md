@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>The Pokémon Company</h2>
-    <span>19 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2018 / 2016 / 2015 / 2014 / 2012 / 2011 / 2010 / 2008 / 2004</span>
+    <span>18 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2018 / 2016 / 2015 / 2012 / 2011 / 2010 / 2008 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -38,7 +38,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2021 · interview_translation · ポケモン式ジョブローテーションによって得られる「変化への対応力」とは</p>
-  <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">NewsPicks 独家专访宝可梦公司役员大洞翔一 × 今村啓太：千亿IP背后的“组织应变力”——轮岗机制、音乐短片〈GOTCHA!〉诞生记与全日本宝可梦井盖哲学</a></h3>
+  <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">㈱宝可梦式轮岗机制带来的“应对变化的能力”是什么</a></h3>
   <span></span>
 </article>
 
@@ -85,12 +85,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 003 「グローバル事業、最前線」 （廣部 圭太）</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/">宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕</a></h3>
-  <span>&lt;!-- 底部人物履历档案 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
-</article>
-
-<article class="resource-network-card">
   <p>2012 · interview_translation · 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和</p>
   <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/">宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合</a></h3>
   <span>&lt;!-- 底部人物档案卡片 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
@@ -115,7 +109,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · ポケモンを育てた仕かけ人たち</p>
+  <p>2010 · interview_translation · 石原恒和社長が語る「ポケモンが愛され続ける理由」</p>
   <h3><a href="/developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/">WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路</a></h3>
   <span></span>
 </article>

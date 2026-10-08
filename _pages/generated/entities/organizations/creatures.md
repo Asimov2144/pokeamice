@@ -75,7 +75,7 @@ search: false
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第192回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-192/">[GameFreak部长专栏] 第192回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 &lt;img src=&quot;/assets/images/gamefreak-director/archive/192</span>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 你好。 4月21日，韩国版《宝可梦 黑·白》发售了。 为了出席那场活动，我第一次踏上了我一直想去的韩国！！ 从</span>
 </article>
 
 <article class="resource-network-card">
@@ -97,7 +97,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · ポケモンを育てた仕かけ人たち</p>
+  <p>2010 · interview_translation · 石原恒和社長が語る「ポケモンが愛され続ける理由」</p>
   <h3><a href="/developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/">WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路</a></h3>
   <span></span>
 </article>

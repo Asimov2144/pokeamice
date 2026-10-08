@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>西野弘二</h2>
-    <span>6 篇文章 · 0 条评注 · 2018 / 2000 / 1999 / 1996</span>
+    <span>10 篇文章 · 0 条评注 · 2018 / 2008 / 2004 / 2000 / 1999 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -25,8 +25,32 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2018 · interview_translation · ピカチュウ誕生秘話</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/">株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2018 · interview_translation · 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/">宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · scan_translation · ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2008-12-platinum-battle-dojo/">Nintendo DREAM 2008：GAME FREAK对战与《宝可梦 白金》专访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · scan_translation · ゲームフリーク開発陣に聞く バトル・世界・ポケモン秘話</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2008-12-game-freak-interview/">Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2004 · scan_translation · ポケットモンスター ファイアレッド・リーフグリーン 開発者ロングインタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-108-frlg-developer-interview/">Nintendo DREAM 2004：宝可梦 火红·叶绿 GAME FREAK 开发者访谈</a></h3>
   <span></span>
 </article>
 

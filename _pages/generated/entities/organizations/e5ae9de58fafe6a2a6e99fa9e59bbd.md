@@ -21,7 +21,7 @@ search: false
     <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第192回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-192/">[GameFreak部长专栏] 第192回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 &lt;img src=&quot;/assets/images/gamefreak-director/archive/192</span>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 你好。 4月21日，韩国版《宝可梦 黑·白》发售了。 为了出席那场活动，我第一次踏上了我一直想去的韩国！！ 从</span>
 </article>
 
   </section>

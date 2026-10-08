@@ -32,7 +32,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2021 · interview_translation · ポケモン式ジョブローテーションによって得られる「変化への対応力」とは</p>
-  <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">NewsPicks 独家专访宝可梦公司役员大洞翔一 × 今村啓太：千亿IP背后的“组织应变力”——轮岗机制、音乐短片〈GOTCHA!〉诞生记与全日本宝可梦井盖哲学</a></h3>
+  <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">㈱宝可梦式轮岗机制带来的“应对变化的能力”是什么</a></h3>
   <span></span>
 </article>
 
@@ -91,7 +91,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー 特集記事：ポケモン GOの奇跡（後編）</p>
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
   <span></span>
 </article>

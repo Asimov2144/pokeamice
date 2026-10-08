@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦集换式卡牌游戏</h2>
-    <span>13 篇文章 · 0 条评注 · 2024 / 2021 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
+    <span>17 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,24 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2025 · interview_translation · ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/">Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2025 · interview_translation · ブランドを守り、子どもたちを守る。ポケモンカードゲームのアートの使命</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-illustration-production/">Creatures 招聘网站：插画制作进度管理 S.H. 谈宝可梦卡牌美术的使命</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2025 · interview_translation · ポケモンカード開発本部管理職対談：本気のモノづくりに、チームで挑む</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-management-cross-talk/">Creatures 招聘网站：宝可梦卡牌开发本部管理层对谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2024 · article · special.pokemon.cn</p>
   <h3><a href="/tech/ptcg/技能机-卡图下载-查询时间-Download-Inqury/">[技能机] 卡图下载 查询时间 Download &amp; Time Inqury</a></h3>
   <span>批量下载卡图&amp;查询服务器存档时间 宝活小妙招\ {: .align-center} 下载卡图！ 得先推测出链接的格式，比如 &lt;a href=&quot;https://special.pokemon.cn/&quot; title = &quot;151&quot;https://special.pokemon.cn/&lt;/a 上有一些151卡图的链接 点开卡图后可以发现对应的静态链接 &lt;a hre</span>
@@ -33,6 +51,12 @@ search: false
 <article class="resource-network-card">
   <p>2021 · interview_translation · SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）</p>
   <h3><a href="/采访/开发者访谈/宝可梦剑盾/公司与战略/interview-creatures-history-special-ishihara-tanaka/">Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2021 · interview_translation · 開発者インタビュー｜ポケモンカード25周年記念サイト</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemon-card-25th-nagashima/">宝可梦卡牌 25 周年纪念网站：长岛敦谈宝可梦卡牌的 25 年</a></h3>
   <span></span>
 </article>
 

@@ -25,9 +25,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 官方专访：研究开发部（R&amp;D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）</a></h3>
-  <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心技术主管背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
+  <p>2015 · interview_translation · 研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宫本茂</h2>
-    <span>5 篇文章 · 0 条评注 · 2014 / 2013 / 2011 / 2007 / 1999</span>
+    <span>7 篇文章 · 0 条评注 · 2013 / 2011 / 2007 / 1999 / 1997</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,15 +19,15 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2013 · interview_translation · Early Concept Art</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第238回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-238/">[GameFreak部长专栏] 第238回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 关于6月11日在洛杉矶举行的E3！ 这次，任天堂岩田社长向我发出了邀请， 让我在E3会场内举办的“开发者圆桌会</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Early Concept Art</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -45,6 +45,18 @@ search: false
 <article class="resource-network-card">
   <p>1999 · interview_translation · The Ultimate Game Freak: An Interview with Satoshi Tajiri</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-time-satoshi-tajiri-ultimate-game-freak/">[访谈翻译] 《时代周刊》(TIME) 独家专访宝可梦之父田尻智：究极的 Game Freak（町田田园昆虫少年、GB通信线顿悟与无暴力游戏哲学）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1999 · interview_translation · 樹の上の秘密基地 第5弾 ポケモンスナップの開発チーム「ジャックアンドビーンズ」</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-hobonichi-1999-jack-and-beans-snap/">ほぼ日 1999：岩田聪、宫本茂与 Jack and Beans 团队谈《宝可梦随乐拍》的诞生</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1997 · interview_translation · Pokémon 2 (1997 Space World interview, translated by GlitterBerri)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-spaceworld-pokemon2-en/">GlitterBerri（英译） 1997：宫本茂、田尻智、石原恒和谈《宝可梦2》</a></h3>
   <span></span>
 </article>
 

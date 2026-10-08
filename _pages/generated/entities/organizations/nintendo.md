@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Nintendo</h2>
-    <span>17 篇文章 · 0 条评注 · 2021 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2009 / 2004 / 2000</span>
+    <span>16 篇文章 · 0 条评注 · 2021 / 2019 / 2018 / 2017 / 2016 / 2013 / 2009 / 2004 / 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -39,12 +39,6 @@ search: false
 <article class="resource-network-card">
   <p>2018 · developer-interviews</p>
   <h3><a href="/developer-interviews/research-archives/research-helixchamber-satoshi-tajiri-manga/">Helix Chamber 深度特写：解读田尻智自传漫画——初代胶囊怪兽草案、1992年内部人气投票与失落原案全考证</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · Early Concept Art</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
   <span></span>
 </article>
 
@@ -79,6 +73,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · Early Concept Art</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 鶴田 GF staff blog</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-staff-tsuruta/">[访谈翻译] 鶴田 GF staff blog</a></h3>
   <span></span>
@@ -109,8 +109,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 初代インタビュー・開発会議記録</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">[访谈翻译] 初代宝可梦开发回忆与早期游戏杂志会议纪要整理</a></h3>
+  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏</a></h3>
   <span></span>
 </article>
 

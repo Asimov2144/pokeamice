@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 欧米伽红宝石·阿尔法蓝宝石</h2>
-    <span>8 篇文章 · 0 条评注 · 2017 / 2015 / 2014</span>
+    <span>7 篇文章 · 0 条评注 · 2017 / 2015 / 2014</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,12 +21,6 @@ search: false
     <article class="resource-network-card">
   <p>2017 · interview_translation · Pokemon.com / PocketMonsters.net</p>
   <h3><a href="/interview-pokemon-com-usum-ohmori-iwao/">Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
-  <h3><a href="/访谈翻译/开发历史/总监专访/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/">Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道</a></h3>
   <span></span>
 </article>
 

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 火红·叶绿</h2>
-    <span>20 篇文章 · 0 条评注 · 2016 / 2011 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>22 篇文章 · 0 条评注 · 2016 / 2011 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -109,6 +109,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2004 · interview_translation · ポケモン総力特集「ポケットモンスター エメラルド」＆ポケモンの歴史と最新情報を探る！｜Nintendo Online Magazine 2004年9月号</p>
+  <h3><a href="/官方档案/访谈翻译/interview-nom-emerald-battle-frontier-evolution/">任天堂官方网络杂志 N.O.M 特辑：宝可梦总力特集——《宝可梦 绿宝石》游玩报告、宝可梦的历史与最新资讯</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2004 · gamefreak_director_column · 増田部長のめざめるパワー 第11回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-011/">[GameFreak部长专栏] 第11回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 北美将在 9 月 9 日发售《ＦＩＲＥ　ＲＥＤ》和《ＬＥＡＦ　ＧＲＥＥＮ》。 觉得“ＧＲＥＥＮ？？ ”的人，观</span>
@@ -135,6 +141,12 @@ search: false
 <article class="resource-network-card">
   <p>2004 · interview_translation · E3 2004: The Pokémon Creators Speak</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-2004-05-13-ign-e3-2004-pokemon-creators/">[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2004 · scan_translation · ポケットモンスター ファイアレッド・リーフグリーン 開発者ロングインタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-108-frlg-developer-interview/">Nintendo DREAM 2004：宝可梦 火红·叶绿 GAME FREAK 开发者访谈</a></h3>
   <span></span>
 </article>
 

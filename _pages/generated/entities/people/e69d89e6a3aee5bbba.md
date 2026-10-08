@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>杉森建</h2>
-    <span>63 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2002 / 2000 / 1999 / 1997 / 1996</span>
+    <span>73 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2003 / 2002 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -43,8 +43,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Early Concept Art</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
+  <p>2018 · interview_translation · ピカチュウ誕生秘話</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/">株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈</a></h3>
   <span></span>
 </article>
 
@@ -97,20 +97,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺 哲也氏に聞いた</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-2013-solitiba/">4Gamer.net 2013：Game Freak杉森建与渡边哲也谈原点回归与自主发行</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Early Concept Art</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
   <span></span>
 </article>
 
@@ -163,14 +169,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · The brains behind Pokemon Black and White</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
+  <p>2011 · interview_translation · Interview: Pokemon in Black and White with Junichi Masuda</p>
+  <h3><a href="/developer-interviews/official-archives/interview-spong-bw-launch-masuda-sugimori/">SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
   <span></span>
 </article>
 
@@ -187,9 +199,27 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2010 · interview_translation · 女子大生が訊く『ポケットモンスター ブラック・ホワイト』</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nintendo-joshidaisei-masuda-sugimori-bw/">任天堂官网「女子大生が訊く」 2010：桐谷美玲询问《宝可梦 黑·白》开发者</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-otonafami-sugimori-starters-victini/">オトナファミ 杉森建インタビュー（摘录）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 8</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-208/">【工作日志】2010年黑白开发：信息管理组</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是にょろリカ（妮洛莉卡）。&lt;br 最近，我周围感冒的人很多，大家都还好吗？&lt;br 那么，这次为大家带来的是《宝可梦黑／白》开发者访谈，&lt;br 由信息管理组的ユーリー（尤里）为我们讲述。&lt;br 信息管理组究竟是做什么工作的呢……？&lt;br —–&lt;br ―你好。首先请做一下自我介绍。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-nintendodream-201-sugimori-bw-characters/">ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -277,6 +307,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2009 · scan_translation · 特別企画「歴代ピカチュウ大集合！」／キャラかみ SPECIAL：杉森 建</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2009-11-sugimori-charakami-special/">Nintendo DREAM 2009：皮卡丘历代大集合与杉森建专访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「アルセウス 超克の時空へ」デザイン画</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-7/">【设定资料】2009年阿尔宙斯角色设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石＆珍珠&lt;br 《阿尔宙斯：超克的时空》&lt;br 动画原创角色设计图。 今年也公开由 GAME FREAK 绘制完成的&lt;br 动画原创角色设计图。&lt;br ※由于是原案设计，和实际使用的角色在&lt;br 细节、颜色等方面有所不同 评论：杉森建 ■达莫斯&lt;br 采用了通过鬓角和粗眉</span>
@@ -331,6 +367,18 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2005 · scan_translation · スクリューブレイカー 轟振どりるれろ 開発者インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-continue-vol23-drill-dozer/">CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2005 · scan_translation · GAMEFREAKS make the world</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-continue-vol23-gamefreak-special/">CONTINUE 2005：GAME FREAK 众人谈像素玩具《DOTZ》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第38回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-038/">[GameFreak部长专栏] 第38回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 GAME FREAK 带来的爽快动作游戏 《Screw Breaker》正式公布了！！ screwbreake</span>
@@ -340,6 +388,18 @@ search: false
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第31回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-031/">[GameFreak部长专栏] 第31回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好！ 看到《U-GE》（USED GAMES）这本杂志的话…… 请什么都别说，直接买下来！！！ 因为它附送</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2003 · interview_translation · Nintendo Interview: Game Freak on Pokemon!</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto/">CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2003 · scan_translation · ポケットモンスター ルビー・サファイア 大ヒット記念 ロングインタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-084-ruby-sapphire-interview/">Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -367,8 +427,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 初代インタビュー・開発会議記録</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">[访谈翻译] 初代宝可梦开发回忆与早期游戏杂志会议纪要整理</a></h3>
+  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏</a></h3>
   <span></span>
 </article>
 
@@ -381,6 +441,12 @@ search: false
 <article class="resource-network-card">
   <p>1997 · interview_translation · GAME FREAK 官方网站 (web.archive.org)</p>
   <h3><a href="/interview-gamefreak-official-red-green-staff/">GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1997 · interview_translation · その他のポケモンのゲーム関連記事 ─ 『赤・緑』発売前後のファミマガなど</p>
+  <h3><a href="/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/">初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈</a></h3>
   <span></span>
 </article>
 

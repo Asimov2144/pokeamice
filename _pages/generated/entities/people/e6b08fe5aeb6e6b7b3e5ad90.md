@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>氏家淳子</h2>
-    <span>1 篇文章 · 0 条评注 · 2017</span>
+    <span>2 篇文章 · 0 条评注 · 2025 / 2017</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2025 · interview_translation · 役員インタビュー：ポケモンという無限大の世界へ 〜ポケモンをつくり、育てる〜</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-director/">Creatures 招聘网站：董事氏家淳子谈宝可梦 CG 工作室</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
   <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
   <span></span>

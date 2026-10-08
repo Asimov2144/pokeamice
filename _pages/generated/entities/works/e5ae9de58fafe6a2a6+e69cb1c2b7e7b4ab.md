@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 朱·紫</h2>
-    <span>18 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2022 / 2021</span>
+    <span>19 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2022 / 2021</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2026 · interview_translation · ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-battle-system-deck/">CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2024 · interview_translation · 【ポケモンSV】“PJCS2024”でテラパゴスとともに優勝したハラ ヒュウマ選手へインタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos/">Fami通.com 2024：PJCS2024 冠军ハラ ヒュウマ专访</a></h3>
   <span></span>
 </article>
 

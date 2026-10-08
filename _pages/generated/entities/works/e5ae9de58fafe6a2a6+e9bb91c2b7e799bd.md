@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 黑·白</h2>
-    <span>97 篇文章 · 0 条评注 · 2017 / 2014 / 2012 / 2011 / 2010 / 2009</span>
+    <span>109 篇文章 · 0 条评注 · 2017 / 2014 / 2012 / 2011 / 2010 / 2009</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -43,19 +43,13 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 003 「グローバル事業、最前線」 （廣部 圭太）</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/">宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕</a></h3>
-  <span>&lt;!-- 底部人物履历档案 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
-</article>
-
-<article class="resource-network-card">
   <p>2014 · interview_translation · Game Informer Issue #250 Unabridged Feature</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameinformer-masuda-afterwords-xy/">[访谈翻译] Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2012 · interview_translation · 電撃オンライン</p>
+  <p>2012 · interview_translation · 『ポケットモンスター ブラック2・ホワイト2』増田順一氏・海野隆雄氏トークショー</p>
   <h3><a href="/采访/现场活动/宝可梦黑白2/角色与对战/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/">电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学</a></h3>
   <span></span>
 </article>
@@ -91,15 +85,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2012 · interview_translation · 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/">宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合</a></h3>
-  <span>&lt;!-- 底部人物档案卡片 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
-</article>
-
-<article class="resource-network-card">
   <p>2012 · interview_translation</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-employee-morotsuki/">宝可梦公司官方员工特写 诸月纱保子：授权企划部——小学生眼中的宝可梦工作与跨界无尽可能</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2012 · interview_translation · 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/">宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合</a></h3>
+  <span>&lt;!-- 底部人物档案卡片 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
 </article>
 
 <article class="resource-network-card">
@@ -127,15 +121,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第211回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-211/">[GameFreak部长专栏] 第211回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月19日（星期一），我一整天都在名古屋。 之所以会在那里，是因为…… 我去参加了 Fami通 Present</span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第210回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-210/">[GameFreak部长专栏] 第210回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 幕张展览馆举行了日本游戏大奖颁奖典礼！！ 没想到！！宝可梦相关作品竟然获得了四项大奖！！ 太棒了！！ １）经济</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第211回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-211/">[GameFreak部长专栏] 第211回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月19日（星期一），我一整天都在名古屋。 之所以会在那里，是因为…… 我去参加了 Fami通 Present</span>
 </article>
 
 <article class="resource-network-card">
@@ -169,12 +163,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）</a></h3>
   <span></span>
@@ -189,6 +177,12 @@ search: false
 <article class="resource-network-card">
   <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第2回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）</a></h3>
   <span></span>
 </article>
 
@@ -219,7 +213,7 @@ search: false
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第192回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-192/">[GameFreak部长专栏] 第192回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 &lt;img src=&quot;/assets/images/gamefreak-director/archive/192</span>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 你好。 4月21日，韩国版《宝可梦 黑·白》发售了。 为了出席那场活动，我第一次踏上了我一直想去的韩国！！ 从</span>
 </article>
 
 <article class="resource-network-card">
@@ -229,14 +223,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · scan_translation · 第27回 キャラかみ SPECIAL：大村祐介さん 『ポケットモンスターブラック・ホワイト』人物キャラクターメイキング</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-05-ohmura-character-making/">Nintendo DREAM 2011：大村祐介谈《宝可梦 黑·白》人物设计</a></h3>
+  <p>2011 · scan_translation · ALL ABOUT ポケットモンスターブラック・ホワイト Part 3：ポケモン＆キャラクター誕生秘話 EX ＆ 人気投票</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-05-bw-design-secrets-ex/">Nintendo DREAM 2011：宝可梦 黑·白 宝可梦与角色诞生秘话EX</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · scan_translation · ALL ABOUT ポケットモンスターブラック・ホワイト Part 3：ポケモン＆キャラクター誕生秘話 EX ＆ 人気投票</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-05-bw-design-secrets-ex/">Nintendo DREAM 2011：宝可梦 黑·白 宝可梦与角色诞生秘话EX</a></h3>
+  <p>2011 · scan_translation · 第27回 キャラかみ SPECIAL：大村祐介さん 『ポケットモンスターブラック・ホワイト』人物キャラクターメイキング</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-05-ohmura-character-making/">Nintendo DREAM 2011：大村祐介谈《宝可梦 黑·白》人物设计</a></h3>
   <span></span>
 </article>
 
@@ -271,14 +265,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
+  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · The brains behind Pokemon Black and White</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
+  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
   <span></span>
 </article>
 
@@ -331,9 +325,33 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2011 · interview_translation · 週刊ファミ通 2011年2月3日号（No.1155）『ポケットモンスターブラック・ホワイト』開発スタッフが語るバトルの秘密</p>
+  <h3><a href="/开发者访谈/宝可梦主系列/实体杂志专访/interview-famitsu-1155-morimoto-taya-iwao-battle-secrets/">週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · scan_translation · 増田順一インタビュー 大人のための『ポケットモンスター ブラック・ホワイト』</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-otonafamily-201103-masuda-bw-adults/">オトナファミ 2011：杉森建谈《宝可梦 黑·白》最初三只设计</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 新年のご挨拶</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-214/">【工作日志】2011年新年问候</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家，新年好！&lt;br 我是负责网站工作的にょろリカ（妮洛莉卡）。 正在阅读这里的各位，年末年初都是怎么度过的呢？&lt;br 我和久未见面的外甥（小学四年级）进行了&lt;br 《宝可梦黑·白》的对战，结果是&lt;br 输得一败涂地……。&lt;br 就算是平等对战也赢不了，我只好让外甥的队伍减少到两只，&lt;b</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · scan_translation · ダ・ヴィンチ 2011年2月号 『ポケットモンスター ブラック・ホワイト』増田順一コメント</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-davinci-201102-masuda-comment/">ダ・ヴィンチ 2011：增田顺一谈《宝可梦 黑·白》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-famitsu-1153-ota-ohmori-c-gear/">週刊ファミ通 No.1153「通信開発のウラ側を公開！！」太田哲司・大森滋インタビュー（摘录）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -346,6 +364,18 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第179回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-179/">[GameFreak部长专栏] 第179回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好 已经是12月27日了呢…… 转眼间，2010年也快要结束了。 今年，也就是2010年，《黑／白》顺利发</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · 女子大生が訊く『ポケットモンスター ブラック・ホワイト』</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nintendo-joshidaisei-masuda-sugimori-bw/">任天堂官网「女子大生が訊く」 2010：桐谷美玲询问《宝可梦 黑·白》开发者</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-otonafami-sugimori-starters-victini/">オトナファミ 杉森建インタビュー（摘录）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -367,6 +397,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2010 · interview_translation · 週刊ファミ通 2010年12月16日号（No.1146）開発スタッフインタビュー</p>
+  <h3><a href="/开发者访谈/宝可梦主系列/实体杂志专访/interview-famitsu-1146-matsumiya-bw-scenario/">週刊Fami通 No.1146 剧本负责人松宫稔展专访：“当两方的主张看起来都对的时候，人会去相信什么”——《宝可梦 黑／白》的“解放宝可梦”、N与黑连、白露</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 2012年度新卒採用、はじめました。</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-209/">【工作日志】2010年应届生招聘启动</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 从10月1日开始的“宝可梦 黑／白”&lt;br 开发者访谈也只剩最后一期了。&lt;br 不过在那之前，先休息一下，这次我想聊聊&lt;br 我——にょろリカ的另一项本职工作。 我负责网站工作，策划、运营员工之声和 GAME FREAK 官方网站，</span>
@@ -381,6 +417,12 @@ search: false
 <article class="resource-network-card">
   <p>2010 · interview_translation · Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后</p>
   <h3><a href="/developer-interviews/music-archives/interview-steinberg-gamefreak-sound-cubase/">Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-nintendodream-201-sugimori-bw-characters/">ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）</a></h3>
   <span></span>
 </article>
 
@@ -427,6 +469,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2010 · interview_translation · 『ポケットモンスターブラック・ホワイト スーパーミュージックコレクション』CDブックレット（ZMCZ-5645）</p>
+  <h3><a href="/开发者访谈/宝可梦主系列/实体杂志专访/interview-bw-music-collection-liner-notes/">《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 3</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-203/">【工作日志】2010年宝可梦音乐开发</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的 にょろリカ（妮洛莉卡）。&lt;br 《宝可梦 黑／白》开发工作人员访谈·第3弹，&lt;br 这次我们突击采访了音频设计师景山将太！&lt;br ——&lt;br ―那么，请先做个自我介绍吧。 大家好，好久不见！&lt;br 我是音频设计师景山将太。&lt;br 在《宝可梦 黑／白》中，我负责音</span>
@@ -457,6 +505,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2010 · scan_translation · ポケットモンスター ブラック・ホワイト 開発秘話インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-famitsu-1138-bw-secrets-interview/">週刊ファミ通 2010：增田顺一谈《宝可梦 黑·白》开发秘话（前篇）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第178回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-178/">[GameFreak部长专栏] 第178回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家，谢谢你们！！！ 多亏了大家， 《宝可梦 黑·白》 终于实现了 DS 史上最多的首周销量——255 万套！</span>
@@ -484,6 +538,18 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第176回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-176/">[GameFreak部长专栏] 第176回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 还有２天！！ 倒计时已经开始了！！ http://www.pokemon.co.jp/ 现在距离发售日还有　３</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · ポケットモンスター ブラック・ホワイト 発売記念インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-famitsu-1137-bw-launch-interview/">週刊ファミ通 2010：石原恒和谈《宝可梦 黑·白》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · 『ポケットモンスター ブラック・ホワイト』増田順一インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-weekly-ascii-masuda-bw-secrets/">週刊アスキー（ASCII） 2010：增田顺一谈《宝可梦 黑·白》</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -592,6 +658,12 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第160回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-160/">[GameFreak部长专栏] 第160回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于，我们正在开发的全新作品公布了正式名称！ “宝可梦黑” “宝可梦白” 为了哪怕只提升一点点品质， 我们现在</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · 『ポケットモンスター 完全新作』始動！！＆新ポケモン「ゾロア」「ゾロアーク」初公開</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2010-04-pokemon-bw-first-reveal/">Nintendo DREAM 2010：《宝可梦》完全新作始动与索罗亚、索罗亚克初公开</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

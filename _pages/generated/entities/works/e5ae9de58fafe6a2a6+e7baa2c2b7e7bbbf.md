@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>115 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
+    <span>119 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -109,12 +109,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Early Concept Art</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
   <span></span>
@@ -123,6 +117,12 @@ search: false
 <article class="resource-network-card">
   <p>2018 · interview_translation · Gamer.ne.jp</p>
   <h3><a href="/interview-gamer-pokemon-press-conference-2018/">《宝可梦 探险寻宝》与《Let&#39;s Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · ピカチュウ誕生秘話</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/">株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈</a></h3>
   <span></span>
 </article>
 
@@ -223,6 +223,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2014 · interview_translation · A Conversation with Pokémon&#39;s Musical Maestro</p>
   <h3><a href="/访谈翻译/官方档案/interview-pokemoncom-2014-maestro/">Pokemon.com 2014：增田顺一谈二十余年游戏作曲与宝可梦音乐</a></h3>
   <span></span>
@@ -235,20 +241,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Early Concept Art</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
   <span></span>
 </article>
 
@@ -289,7 +301,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · The brains behind Pokemon Black and White</p>
+  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
   <span></span>
 </article>
@@ -343,7 +355,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · ポケモンを育てた仕かけ人たち</p>
+  <p>2010 · interview_translation · 石原恒和社長が語る「ポケモンが愛され続ける理由」</p>
   <h3><a href="/developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/">WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路</a></h3>
   <span></span>
 </article>
@@ -457,6 +469,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2008 · scan_translation · ファミコン生誕25周年記念特別企画「ファミコン僕と思い出の一品」田尻智ロングインタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2008-10-tajiri-famicom-25th/">Nintendo DREAM 2008：田尻智回顾与任天堂的相遇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第157回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/">[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）</a></h3>
   <span></span>
@@ -565,15 +583,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-124/">[GameFreak部长专栏] 第124回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -619,6 +637,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2007 · scan_translation · スペシャル対談 田尻智×中川翔子</p>
+  <h3><a href="/访谈翻译/扫描存档/continue-vol32-scan-archive/">CONTINUE 2007：田尻智×中川翔子特别对谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2006 · gamefreak_director_column · 増田部長のめざめるパワー 第64回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-064/">[GameFreak部长专栏] 第64回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 宝可梦快乐生日音乐会顺利全部结束了！ 真的非常感谢前来参加的各位！ 最后一站北海道下了很大的雪，不过…… 还是</span>
@@ -640,6 +664,12 @@ search: false
   <p>2004 · gamefreak_director_column · 増田部長のめざめるパワー 第13回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-013/">[GameFreak部长专栏] 第13回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 这次来讲点内容比较深的往事吧。 开始开发《宝可梦 红·绿》的时候，GAME FREAK 也是下定决心， 买了一</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2004 · interview_translation · ポケモン総力特集「ポケットモンスター エメラルド」＆ポケモンの歴史と最新情報を探る！｜Nintendo Online Magazine 2004年9月号</p>
+  <h3><a href="/官方档案/访谈翻译/interview-nom-emerald-battle-frontier-evolution/">任天堂官方网络杂志 N.O.M 特辑：宝可梦总力特集——《宝可梦 绿宝石》游玩报告、宝可梦的历史与最新资讯</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -685,8 +715,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>1997 · interview_translation · その他のポケモンのゲーム関連記事 初代采访整理</p>
-  <h3><a href="/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/">初代宝可梦黎明期杂志专访全集：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈</a></h3>
+  <p>1997 · interview_translation · その他のポケモンのゲーム関連記事 ─ 『赤・緑』発売前後のファミマガなど</p>
+  <h3><a href="/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/">初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈</a></h3>
   <span></span>
 </article>
 

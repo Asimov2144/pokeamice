@@ -25,7 +25,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー 特集記事：ポケモン GOの奇跡（後編）</p>
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
   <span></span>
 </article>

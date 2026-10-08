@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 太阳·月亮</h2>
-    <span>47 篇文章 · 0 条评注 · 2026 / 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
+    <span>48 篇文章 · 0 条评注 · 2026 / 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -117,6 +117,12 @@ search: false
 <article class="resource-network-card">
   <p>2017 · interview_translation · ゲームフリークの伝説と若き才能：大森滋×尾上将之</p>
   <h3><a href="/developer-interviews/official-archives/interview-denfami-ohmori-onoue-gamefreak-heritage/">Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · scan_translation · Game Graphics Studio EXTRA：『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-cgworld-2017-07-game-graphics-studio-extra/">CGWORLD 2017：宝可梦日月3D资产制作与Creatures、GAME FREAK三社协作体制</a></h3>
   <span></span>
 </article>
 
@@ -229,15 +235,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/">【活动】2016年宝可梦太阳月亮新情报</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 大家看了吗？ &lt;a class=&quot;gf-lineblog-source-link&quot; href=&quot;http://www.pokemon.co.jp/ex/sunmoon/?a001=msign&quot; target=&quot;blank&quot; rel=&quot;noope</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · あと12時間（12 hours to go)</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3864160/">【活动】2016年宝可梦日月新情报</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3864160/001-155d41f1fd.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/">【活动】2016年宝可梦太阳月亮新情报</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 大家看了吗？ &lt;a class=&quot;gf-lineblog-source-link&quot; href=&quot;http://www.pokemon.co.jp/ex/sunmoon/?a001=msign&quot; target=&quot;blank&quot; rel=&quot;noope</span>
 </article>
 
 <article class="resource-network-card">

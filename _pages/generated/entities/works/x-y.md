@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 X·Y</h2>
-    <span>52 篇文章 · 0 条评注 · 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013</span>
+    <span>53 篇文章 · 0 条评注 · 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -127,9 +127,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 官方专访：研究开发部（R&amp;D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）</a></h3>
-  <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心技术主管背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
+  <p>2015 · interview_translation · 研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -163,21 +163,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/">宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2014 · interview_translation · Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」</p>
   <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/">宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 003 「グローバル事業、最前線」 （廣部 圭太）</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/">宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕</a></h3>
-  <span>&lt;!-- 底部人物履历档案 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
+  <p>2014 · interview_translation · Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/">宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · Special Interview 003 「グローバル事業、最前線」</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/">宝可梦公司 招聘信息 2014：广部圭太谈全球同步发售</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -217,7 +217,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 電撃オンライン</p>
+  <p>2013 · interview_translation · 『ポケットモンスター X・Y』増田順一氏・景山将太氏トークショー</p>
   <h3><a href="/采访/现场活动/宝可梦xy/角色与对战/interview-dengeki-xy-masuda-kageyama-setting-art/">电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典</a></h3>
   <span></span>
 </article>
@@ -265,6 +265,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
@@ -289,12 +295,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · Nintendo World Report</p>
   <h3><a href="/interview-nwr-xy-masuda-yoshida/">Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训</a></h3>
   <span></span>
@@ -303,6 +303,12 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendolife-2013-xy/">Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · scan_translation · ポケットモンスター X・Y 増田順一＆森本茂樹インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-235-xy-developer-interview/">Nintendo DREAM 2013：增田顺一与森本茂树谈《宝可梦 X・Y》对战</a></h3>
   <span></span>
 </article>
 

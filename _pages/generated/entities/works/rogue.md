@@ -19,7 +19,7 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2012 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 第4回</p>
+  <p>2012 · interview_translation · 社長が訊く『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 4. “乱数”</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers/">[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学与土龙弟弟的执念）</a></h3>
   <span></span>
 </article>

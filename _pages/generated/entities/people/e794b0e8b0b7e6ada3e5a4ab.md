@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>田谷正夫</h2>
-    <span>3 篇文章 · 0 条评注 · 2017 / 2016 / 2015</span>
+    <span>3 篇文章 · 0 条评注 · 2017 / 2016 / 2011</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -31,9 +31,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 官方专访：研究开发部（R&amp;D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）</a></h3>
-  <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心技术主管背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
+  <p>2011 · interview_translation · 週刊ファミ通 2011年2月3日号（No.1155）『ポケットモンスターブラック・ホワイト』開発スタッフが語るバトルの秘密</p>
+  <h3><a href="/开发者访谈/宝可梦主系列/实体杂志专访/interview-famitsu-1155-morimoto-taya-iwao-battle-secrets/">週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性</a></h3>
+  <span></span>
 </article>
 
   </section>

@@ -67,8 +67,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-usum-mode/">Game Informer 2017：岩尾和昌谈《宝可梦 究极之日·究极之月》新摄影模式</a></h3>
+  <p>2017 · media_feature · Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon</p>
+  <h3><a href="/媒体专题翻译/翻译/interview-gi-2017-usum-mode/">Game Informer 视频专题：独家展示《宝可梦 究极之日·究极之月》阿罗拉摄影俱乐部</a></h3>
   <span></span>
 </article>
 

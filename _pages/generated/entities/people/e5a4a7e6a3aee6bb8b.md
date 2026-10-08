@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>大森滋</h2>
-    <span>36 篇文章 · 0 条评注 · 2026 / 2025 / 2021 / 2019 / 2018 / 2017 / 2016 / 2014 / 2010 / 2009 / 2005</span>
+    <span>35 篇文章 · 0 条评注 · 2026 / 2025 / 2021 / 2019 / 2018 / 2017 / 2016 / 2014 / 2011 / 2010 / 2009 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -145,20 +145,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-usum-mode/">Game Informer 2017：岩尾和昌谈《宝可梦 究极之日·究极之月》新摄影模式</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · Game Freak&#39;s Directors Share Their Favorite Pokémon Spin-Offs</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-spinoffs/">Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
-  <h3><a href="/访谈翻译/开发历史/总监专访/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/">Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道</a></h3>
   <span></span>
 </article>
 
@@ -169,14 +157,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
+  <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
-  <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
   <span></span>
 </article>
 
@@ -195,6 +183,12 @@ search: false
 <article class="resource-network-card">
   <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
   <h3><a href="/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/">Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-famitsu-1153-ota-ohmori-c-gear/">週刊ファミ通 No.1153「通信開発のウラ側を公開！！」太田哲司・大森滋インタビュー（摘录）</a></h3>
   <span></span>
 </article>
 
