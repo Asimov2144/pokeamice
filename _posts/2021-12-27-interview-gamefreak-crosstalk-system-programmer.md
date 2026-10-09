@@ -7,7 +7,8 @@ title_ja: システムプログラマ対談：変化を楽しみ続ける人が�
 date: 2024-02-13 10:00:00 +0900
 era: '2024'
 permalink: /interviews/interview-gamefreak-crosstalk-system-programmer/
-- interviews
+categories:
+- interviews
 - gamefreak-recruit
 tags:
 - Game Freak

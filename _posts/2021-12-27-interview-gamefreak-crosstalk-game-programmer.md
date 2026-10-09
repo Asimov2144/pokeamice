@@ -7,7 +7,8 @@ title_ja: ゲームプログラマ対談｜採用情報
 date: 2024-02-13 10:00:00 +0900
 era: '2024'
 permalink: /interviews/interview-gamefreak-crosstalk-game-programmer/
-- interviews
+categories:
+- interviews
 - gamefreak-recruit
 tags:
 - Game Freak

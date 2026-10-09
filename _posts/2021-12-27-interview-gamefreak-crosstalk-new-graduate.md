@@ -7,7 +7,8 @@ title_ja: 新卒若手対談：入社の理由は？新人研修は？成長で�
 date: 2024-02-13 10:00:00 +0900
 era: '2024'
 permalink: /interviews/interview-gamefreak-crosstalk-new-graduate/
-- interviews
+categories:
+- interviews
 - gamefreak-recruit
 tags:
 - Game Freak
