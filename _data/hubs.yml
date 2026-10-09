@@ -2682,11 +2682,11 @@ games:
         date: '2018-02-23'
         url: //interview-newspicks-pokemon-utsunomiya-kawamoto/
         pub: ''
-      - title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘…
+      - title: 皮卡丘诞生秘话
         kind: interview
-        date: '2018-05-01'
-        url: /developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/
-        pub: 株式会社ポケモン 公式アーカイブ
+        date: '2018-05-02'
+        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/
+        pub: 株式会社宝可梦 官方网站
       people:
       - name: 增田顺一
         slug: masuda-junichi

@@ -17,11 +17,19 @@ tags:
 - 宝可梦 红·绿
 - 杉森建
 - 西野弘二
+- 西田敦子
+- 田尻智
 - 皮卡丘
+- 雷丘
+- 妙蛙种子
+- 小火龙
+- 杰尼龟
+- 常青森林
+- 第一世代
 publication: 株式会社宝可梦 官方网站（2018-05-02）
 source_kind: media_interview
 interviewer: 株式会社ポケモン
-interviewee: にしだあつこ、杉森建、西野弘二
+interviewee: 西田敦子、杉森建、西野弘二
 translator: PokeAmice（DeepSeek 初译）
 original_lang: ja
 translation_lang: zh-CN
@@ -34,11 +42,18 @@ original_link: http://web.archive.org/web/20180530085007/http://www.pokemon.co.j
 summary: 1996年《宝可梦 红·绿》发售，皮卡丘作为野生宝可梦登场。本文采访杉森建、西野弘二、西田敦子，讲述皮卡丘的设计由来、被删去的进化形态、名字与配色，以及它如何成为系列代表。
 entities:
   people:
-  - にしだあつこ
+  - 西田敦子
   - 杉森建
   - 西野弘二
+  - 田尻智
+  - 汤山邦彦
+  - 大谷育江
   works:
   - 宝可梦 红·绿
+  - Pokémon GO
+  organizations:
+  - 株式会社ポケモン
+  - 株式会社ゲームフリーク
 workflow:
   fetch: live
   translation: deepseek-chat
@@ -51,7 +66,7 @@ topics:
 - 系列回顾
 parallel_items:
 - original: 1996年、任天堂株式会社の携帯ゲーム機「ゲームボーイ」のソフトとして発売された『ポケットモンスター 赤・緑』。発売後、そのおもしろさが話題になり、子どもたちを中心に多くの人を夢中にさせた。その人気は日本国内にとどまらず、海外にまで及び、世界中の人が『ポケットモンスター』、ちぢめて『ポケモン』という存在を知ることとなった。その中でも、いちばん有名なポケモンといえば「ピカチュウ」である。
-  translation: 1996年，作为任天堂的便携式游戏机「Game Boy」的软件发售的《宝可梦 红·绿》。发售后，其趣味性成为话题，以孩子们为中心让许多人着迷。其人气不仅限于日本国内，还扩展到了海外，全世界的人都知道了《宝可梦》——简称「宝可梦」——这一存在。其中，最有名的宝可梦就是「皮卡丘」。
+  translation: 1996年，作为任天堂的便携式游戏机「Game Boy」的软件发售的《宝可梦 红·绿》。发售后，其趣味性成为话题，以孩子们为中心让许多人着迷。其人气不仅限于日本国内，还扩展到了海外，全世界的人都知道了《Pocket Monsters》（简称“宝可梦”）这一存在。其中，最有名的宝可梦就是「皮卡丘」。
 - original: 『ポケットモンスター 赤・緑』（以下『赤・緑』）では、主人公がパートナーとして選ぶ「フシギダネ」「ヒトカゲ」「ゼニガメ」のような、最初の３匹に入っていたわけでもなく、ゲーム中に「野生のポケモン」として登場する、多くのポケモンの中の１匹であった。
   translation: 在《宝可梦 红·绿》（以下简称《红·绿》）中，它并不是主角作为伙伴选择的「妙蛙种子」「小火龙」「杰尼龟」这样的最初三只之一，而是作为游戏中「野生宝可梦」登场的众多宝可梦之一。
 - original: そんなピカチュウの人気は一体どこから生まれたのか。ピカチュウのかわいらしい容姿は、その要因のひとつかもしれないが、初期のピカチュウのデザインを見返してみると、今よりすこしぼってりとしたフォルムで、どうも最近のピカチュウとは姿が違うように見える。
@@ -65,7 +80,7 @@ parallel_items:
 - original: みんなの大好きなピカチュウは、いったいどのようにして生まれたのか！？
   translation: 大家最喜欢的皮卡丘，究竟是如何诞生的呢！？
 - original: 発売から22年の月日が経った、いまだからこそ語られる秘話を公開する。
-  translation: 公开发售至今已过去22年、正因为是现在才能讲述的秘话。
+  translation: 在发售已过去22年的今天，我们公开这段正因为是现在才能讲述的秘话。
 - original: 「ピカチュウ誕生秘話」における
   translation: 「皮卡丘诞生秘话」中的
 - original: 中心人物
@@ -84,13 +99,9 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/002.jpg
   alt: ピカチュウ誕生秘話
-- type: heading
-  level: 3
-  original: KOJI NISHINO
+- original: KOJI NISHINO
   translation: KOJI NISHINO
 - original: 株式会社ゲームフリーク所属のプランナー。『赤・緑』では、ゲームプランナーとしてフィールドマップやポケモンの出現率・強さなどのデータ設計を主に担当。現在も同社のプランナー。
-  role: answer
-  speaker: 西野弘二
   translation: GAME FREAK的策划。在《红·绿》中，作为游戏策划主要负责地图以及宝可梦出现率、强度等数据设计。现在也是该公司的策划。
 - type: image
   image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/003.jpg
@@ -104,7 +115,7 @@ parallel_items:
 - type: heading
   level: 3
   original: 『かわいいのもほしい』
-  translation: “也想要可爱的”
+  translation: 「也想要可爱的」
 - type: image
   image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/004.png
   alt: ピカチュウ誕生秘話
@@ -139,7 +150,7 @@ parallel_items:
 - type: heading
   level: 3
   original: 『その名も「ゴロチュウ」です』
-  translation: 它的名字就叫“ゴロチュウ”。
+  translation: 「它的名字就叫『ゴロチュウ』」
 - type: image
   image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/006.png
   alt: ピカチュウ誕生秘話
@@ -149,7 +160,7 @@ parallel_items:
   translation: 在制作皮卡丘时，有什么要求吗？
 - original: 特にモチーフの指定はなく、ゲーム的な仕様として「でんきタイプ」｢２回進化する｣というオーダーでした。それに基づいてデザインしたのがピカチュウとライチュウでした。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 没有特别指定主题，作为游戏规格的要求是“电属性”和“进化两次”。基于此设计出来的就是皮卡丘和雷丘。
 - original: 「でんきタイプ」で、かわいくしてほしいということは言われなかったの？
   role: answer
@@ -157,7 +168,7 @@ parallel_items:
   translation: 没有说过“电属性”要做得可爱一点吗？
 - original: 言われていないですね。「最終形態は強そうにして」というオーダーはあったんです。そう、実は、当時はライチュウの次があったんです。その名も「ゴロチュウ」です。牙を剥き出しにして、ツノまで生えていて、雷様みたいな感じだったんです。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 没有被要求过呢。不过倒是有过“最终形态要显得很强”这样的指示。是的，其实当时雷丘之后还有进化。名字就叫“ゴロチュウ”。它龇着牙，还长着角，感觉像雷神一样。
   note: ゴロチュウ是宝可梦 红·绿开发中被废弃的皮卡丘最终进化方案，未在正式游戏中登场。
 - type: image
@@ -185,20 +196,20 @@ parallel_items:
   translation: 说起来，名字是西田女士起的吧。
 - original: 「でんきタイプ」なので、電気が光る「ピカ」って感じで考えて。「チュウ」は、ねずみを意識していたわけじゃないんですけど、響きで決めたというか、大きさも含めて、いろんな要素を組み合わせて思いついた名前でした。ピカチュウって特別ねずみっぽいかたちをしていないですし、そもそもねずみポケモンには「コラッタ」がすでに存在していたので、特にねずみにするような意図はありませんでした。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 因为是“电属性”，就想着用电气发光的“皮卡”这种感觉来考虑。“丘”倒不是有意识地联想到老鼠，该说是凭语感决定的吧，包括大小在内，是把各种要素组合起来想出的名字。皮卡丘并没有特别像老鼠的形状，而且鼠宝可梦里已经有小拉达了，所以并没有特别要把它做成老鼠的意图。
 - original: ねずみポケモンっていうのは後付けでしたね。設定のテキストを書いた田尻（※）がそう決めたはずです。
   role: answer
   speaker: 杉森建
   translation: 鼠宝可梦这个分类是后来才加上去的。应该是写设定文本的田尻（※）这么决定的。
 - original: 株式会社ゲームフリーク代表取締役、田尻智氏
-  role: question
-  speaker: 株式会社ポケモン
-  translation: GAME FREAK代表董事 田尻智
+  role: answer
+  speaker: 编者注
+  translation: ※ GAME FREAK 代表董事田尻智先生
 - type: heading
   level: 3
   original: 『本当になんでもやっていました』
-  translation: “真的是什么都做过了”
+  translation: 「真的是什么都做」
 - type: image
   image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/008.png
   alt: ピカチュウ誕生秘話
@@ -212,7 +223,7 @@ parallel_items:
   translation: 妙蛙种子、小火龙、杰尼龟全都是西田女士设计的。
 - original: 私は各ポケモンの最終形態から逆算してフシギダネ・ヒトカゲ・ゼニガメのデザインを作っていったんです。リザードンに進化したときにびっくりしてほしかったので、最初のヒトカゲは、リザードンが想像できないようなものを意識してデザインしました。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 我是从各宝可梦的最终形态倒推，来设计妙蛙种子、小火龙、杰尼龟的。因为希望玩家在进化成喷火龙时感到惊讶，所以最初的小火龙，我有意识地设计成让人无法想象它会变成喷火龙的样子。
 - original: カエル・トカゲ・子ガメなどの小動物を飼うという体験は、現実味があってゲームの入口として親しみやすいですよね。最初からパートナーキャラがいかついと感情移入しづらいことには、気づいていました……。
   role: answer
@@ -240,12 +251,12 @@ parallel_items:
   translation: 因为人少，职位界限很模糊，真的什么都做。游戏中的资源也做，程序员也做设计。
 - original: なにせ人が足りなかったので、ほかの作品をやりながらでもお互いに助け合うみたいな感じだったと思います。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 总之因为人手不够，感觉就是一边做着其他作品，一边互相帮忙。
 - type: heading
   level: 3
   original: 『閃いたんです』
-  translation: “我灵光一闪。”
+  translation: 「我灵光一闪」
 - type: image
   image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/009.png
   alt: ピカチュウ誕生秘話
@@ -255,39 +266,42 @@ parallel_items:
   translation: 在这样的情况下，为了让皮卡丘在游戏中登场，实际都做了哪些工作呢？
 - original: 紙にイラストを描くようなことはせず、いきなりパソコンの画面にドットを打っていきました。頭と体の区別がない「大福」のような生き物の顔をドット絵で……。当時、私にリスのブームが来ていて（笑）。リスを飼ってはいなかったんですが、動きがコミカルで飼いたいと思っていました。そこで、ほお袋に「でんき」を貯められたらいいなって閃いたんです。ハムスターだとエサをためると体全体がまるくなるんですが、リスはほお袋だけ丸くなるんですよ。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 我没有在纸上画插图，而是直接在电脑屏幕上点像素。先是用像素画了一个头和身体没有区别、像“大福”一样的生物的脸……当时，我正迷着松鼠（笑）。虽然没养松鼠，但觉得它们动作滑稽，很想养。于是，我灵光一闪，要是能在脸颊的袋子里储存“电”就好了。仓鼠储存食物时整个身体会变圆，但松鼠只有脸颊的袋子会鼓起来。
 - original: そのあと、西野の「かわいさ監修」がはたらきます。西野はこう見えて、かわいいものにとてもうるさいんですよ。
   role: answer
   speaker: 杉森建
-  translation: 之后，西野的“可爱监修”就发挥作用了。西野别看这样，对可爱的东西可是非常挑剔的。
+  translation: 之后，西野的“可爱监修”就发挥作用了。西野别看他这样，对可爱的东西可是非常挑剔的。
 - original: とにかくかわいいものが大好きで。ピカチュウなんてまず名前の響きでかわいいなって思うじゃないですか。自分の中でどんどん好きな気持ちが強くなって、どんどんかわいくしてほしくなって。
   role: answer
   speaker: 西野弘二
   translation: 总之我非常喜欢可爱的东西。像皮卡丘，首先名字的发音就让人觉得可爱吧。我自己心中越来越喜欢，就越来越想把它变得更可爱。
 - original: デザインを提出するたび、西野さんから「もっとかわいくして」と言われて、それがくやしくて！ 西野さんに首を縦に振ってもらうために頑張っていました（笑）。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 每次提交设计，西野先生都会说“再可爱一点”，这让我很不甘心！为了得到西野先生的点头认可，我一直努力着（笑）。
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/010.png
+  alt: ピカチュウ誕生秘話
 - original: 具体的なデザインの話をお聞きしたいのですが、ピカチュウの耳の先端が黒いのは、なぜなんでしょうか？
   role: question
   speaker: 株式会社ポケモン
   translation: 我想问一下具体的设计，皮卡丘耳朵尖是黑色的，这是为什么呢？
 - original: たぶん「大福」だった頃のなごりですね。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 大概是“大福”时期的遗留吧。
 - original: ゲームボーイって色が表現できなかったんです。だから、こういう白と黒だけで表現できるわかりやすい塗り分けをしていたんじゃないかな。
   role: answer
   speaker: 杉森建
-  translation: Game Boy无法表现颜色。所以，我想是不是因此才做了这种只用黑白就能表现的、容易分辨的涂色区分。
+  translation: Game Boy无法表现颜色。所以我想，大概是因此才用了这种只靠黑白就能表现、一眼就能分清的配色吧。
 - original: しっぽもすごく特徴的ですよね？
   role: question
   speaker: 株式会社ポケモン
   translation: 尾巴也非常有特点呢？
 - original: 「でんきタイプ」ということを表す、かみなりのパーツをつけたくて、こういうデザインにしました。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 为了表现“电属性”，我想加上闪电的部件，所以设计成了这个样子。
 - original: 背中の模様は？
   role: question
@@ -295,7 +309,7 @@ parallel_items:
   translation: 背上的图案呢？
 - original: そんなに深く考えていませんでしたが『ポケットモンスター』シリーズのバトルシーンでは、自分のポケモンの後ろ姿が常に画面に映るんですよね。だから、つるんとしているよりは何かあったほうがいいって感じでしたね。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 我并没有想得那么深，不过在《宝可梦》系列的战斗场景中，自己的宝可梦的背影总是会出现在画面上。所以比起光溜溜的，觉得还是有点什么比较好。
 - original: ゲームボーイでは色が表現できなかったということですが、ドット絵を元に描き起こす色付きの公式アート（以下、公式アート）を作成される際に、杉森さんが色を決定したのでしょうか？
   role: question
@@ -309,15 +323,11 @@ parallel_items:
 - type: heading
   level: 3
   original: 『ピカチュウのことが好きすぎたので』
-  translation: 《因为太喜欢皮卡丘了》
-- original: １９９６年、『赤・緑』発売前の年賀状（左下）とその原画。
-  role: question
-  speaker: 株式会社ポケモン
-  translation: "1996年，《红·绿》发售前的贺年卡（左下）及其原画。"
-- original: ピカチュウのデザインがやや異なっている。
-  role: question
-  speaker: 株式会社ポケモン
-  translation: 皮卡丘的设计略有不同。
+  translation: 「因为太喜欢皮卡丘了」
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/011.png
+  alt: １９９６年、『赤・緑』発売前の年賀状（左下）とその原画。ピカチュウのデザインがやや異なっている。
+  caption: 1996年，《红·绿》发售前的贺年卡（左下）及其原画。皮卡丘的设计略有不同。
 - original: 開発段階におけるゲームフリーク社内での評判は、どうだったのでしょうか？
   role: question
   speaker: 株式会社ポケモン
@@ -328,7 +338,7 @@ parallel_items:
   translation: "把已经完成的像素图宝可梦打印出来，做了个“在这些里面你喜欢哪只宝可梦？”的问卷调查，结果皮卡丘遥遥领先。这个问卷调查是为了在游戏容量限制下筛选要登场的宝可梦。"
 - original: だいたい最終形態が削られていましたね。２回進化させるよりはバリエーションを求めていたんだと思います。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 最终形态大多被删掉了。我觉得比起让它们进化两次，更追求多样性。
 - original: このアンケートは、単純に見た目だけで評価していました。ゲーム中の能力値とか、そういう部分は設定していない段階だったので、使い勝手とかは、まだ関係ありませんでした。
   role: answer
@@ -341,7 +351,7 @@ parallel_items:
 - original: 社内アンケートで断トツだったこともあって、ゲームの説明書に描かれる１５匹くらいの公式アートの中の１匹に選ばれるくらいにはなっていましたが、その頃はまだ、プレイヤーの皆さんの反応までは予想していません。
   role: answer
   speaker: 杉森建
-  translation: 因为它在公司内部问卷中遥遥领先，所以至少被选为游戏说明书里画的15只左右官方美术中的一只，但当时还没有预想到玩家们的反应。
+  translation: 因为在公司内部问卷中遥遥领先，它已经到了能被选为游戏说明书里约15只官方美术图之一的程度，但当时还没有预想到玩家们会有什么反应。
 - original: ピカチュウのゲーム設定で何か特別なことがあったんでしょうか？ たとえば、ピカチュウの図鑑番号の「２５」って、何か意味があるんですか？
   role: question
   speaker: 株式会社ポケモン
@@ -373,7 +383,10 @@ parallel_items:
 - type: heading
   level: 3
   original: 『鋭い読み』
-  translation: 《敏锐的解读》
+  translation: 「看得很准」
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/012.png
+  alt: ピカチュウ誕生秘話
 - original: ポケモンはゲームだけではなく、アニメやグッズなど、さまざまなクロスメディア展開によって広がっていきました。
   role: question
   speaker: 株式会社ポケモン
@@ -389,27 +402,30 @@ parallel_items:
 - original: それはアニメの湯山監督のご判断でしたね。ゲームと同じようにフシギダネ・ヒトカゲ・ゼニガメの３匹のどれかがパートナーになるよう設定したら、その１匹を選ばなかった視聴者にとってギャップが生まれてしまうので、ゲームでは最初に選ぶことができないポケモンにしたかったそうです。そのときすでに、ピカチュウの人気の熱みたいなものを、なんとなく肌でも感じられるほどにはなっていたと思うので、ピカチュウが選ばれたのだと思います。当時はインターネットの情報もほとんどなかったので、ユーザーの皆さんの具体的な反応までは直接届いてはいませんでしたが。
   role: answer
   speaker: 杉森建
-  translation: "那是动画的汤山导演的判断。如果像游戏一样，设定成妙蛙种子、小火龙、杰尼龟这3只中的某一只成为搭档，那么对于没有选那一只的观众来说就会产生落差，所以他似乎想让它成为在游戏中无法一开始选择的宝可梦。当时我已经多少能通过氛围感受到皮卡丘人气的热度了，所以我想皮卡丘才会被选上。不过当时互联网上的信息也几乎没有，所以用户们的具体反应并没有直接传达到我们这里。"
+  translation: "那是动画的汤山导演的判断。如果像游戏一样，设定成妙蛙种子、小火龙、杰尼龟这3只中的某一只成为搭档，那么对于没有选那一只的观众来说就会产生落差，所以据说他想选一只在游戏里不能一开始就选的宝可梦。当时我已经多少能通过氛围感受到皮卡丘人气的热度了，所以我想皮卡丘才会被选上。不过当时互联网上的信息也几乎没有，所以用户们的具体反应并没有直接传达到我们这里。"
   note: 汤山导演指汤山邦彦，他是电视动画《宝可梦》的导演。
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/013.png
+  alt: ピカチュウ誕生秘話
 - original: アニメでサトシのパートナーに選ばれたときの感想は、いかがでしたか？
   role: question
   speaker: 株式会社ポケモン
   translation: 当它在动画中被选为小智的搭档时，您有什么感想？
 - original: 不思議と「あ、そうなんだ」というくらいの印象でした。
   role: answer
-  speaker: にしだあつこ
-  translation: 不可思议的是，印象大概就是“啊，这样啊”而已。
+  speaker: 西田敦子
+  translation: 说来也怪，当时的感觉只是“啊，这样啊”。
 - original: リザードンのように立派に進化していくわけでもないし「どうやって強くなっていくんだろう」と当時はそう思いましたけど、「かわいくて強い」というイメージで２０年以上やってきているので、鋭い読みだったんだなと思います。
   role: answer
   speaker: 杉森建
-  translation: "它并不像喷火龙那样出色地进化，所以当时我想过“它要怎么变强呢”，不过以“可爱又强”的形象做了20多年，所以我觉得当时的预感很准。"
+  translation: "它并不像喷火龙那样出色地进化，所以当时我想过“它要怎么变强呢”，不过它以“可爱又强”的形象走过了20多年，所以我觉得那真是看得很准。"
 - original: ピカチュウが動いたときの印象は、いかがでしたか？
   role: question
   speaker: 株式会社ポケモン
   translation: 皮卡丘动起来的时候，您有什么印象？
 - original: 純粋に「かわいい！」って思いました。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 纯粹就是觉得「好可爱！」。
 - original: アニメ化されたことによって、我々が影響を受けたこともありました。アニメでは人間っぽい仕草など多彩な動きをするので、ピカチュウの体型も芝居がしやすいように変化していきました。最初はずんぐりした体型だったけど、徐々に首がはっきりしていって、背筋が伸びていっているんです。アニメ放映後に発売された『ポケットモンスター』シリーズに登場するピカチュウは、アニメでの表現に影響を受けていると思います。あとは、まさか「ピカチュウ！」って鳴くとは思わなかったですね。例えるなら、猫が「ネコ！」って泣くのと同じじゃないですか（笑）。「チュウ」じゃないんだと……。
   role: answer
@@ -423,11 +439,14 @@ parallel_items:
 - original: 「かわいさ監修」をしてきた西野としても、納得だったと！
   role: answer
   speaker: 杉森建
-  translation: 作为一直负责「可爱度监修」的西野，也表示认可！
+  translation: 一直在做“可爱监修”的西野，也认可了呢！
 - type: heading
   level: 3
   original: 『かわいいポケモンの代表格』
-  translation: 《可爱宝可梦的代表》
+  translation: 「可爱宝可梦的代表」
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/014.png
+  alt: ピカチュウ誕生秘話
 - original: それぞれ３人の方の思う、ピカチュウのかわいい部分ってどこですか？
   role: question
   speaker: 株式会社ポケモン
@@ -438,8 +457,8 @@ parallel_items:
   translation: "眼睛和脸的平衡，以及圆嘟嘟的感觉吧。还有，手脚小小的、短短的，这点也很好。"
 - original: 自分でデザインしてこだわった、ほお袋ですね。
   role: answer
-  speaker: にしだあつこ
-  translation: 是自己设计时特别讲究的脸颊袋。
+  speaker: 西田敦子
+  translation: 是我自己设计时特别讲究的脸颊袋。
 - original: 直線的なしっぽの形状がクールな部分を感じさせながらも、「かわいくて強い」ということが表現されていると思います。
   role: answer
   speaker: 杉森建
@@ -450,7 +469,7 @@ parallel_items:
   translation: 话说回来，大家各自喜欢的宝可梦是什么呢？
 - original: リザードンですね。ドットで描いたときにかっこよくて。男の子が喜ぶかっこよさが詰まっています。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 是喷火龙。用像素画出来的时候很帅。充满了男孩子会喜欢的那种帅气。
 - original: ピッピとカビゴンですね。
   role: answer
@@ -463,15 +482,18 @@ parallel_items:
 - type: heading
   level: 3
   original: 『じゃあゲームもやってみよう』
-  translation: “那我们也来试试做游戏吧”
+  translation: 「那就也来玩玩游戏吧」
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/015.png
+  alt: ピカチュウ誕生秘話
 - original: おととしの夏に出た「ポケモンGO」で、さらに裾野が広がったような気がします。
   role: question
   speaker: 株式会社ポケモン
-  translation: 前年夏天推出的《宝可梦GO》，感觉进一步扩大了受众基础。
+  translation: 前年夏天推出的《Pokémon GO》，感觉进一步扩大了受众基础。
 - original: 『ポケットモンスター』シリーズを遊んでこなかったような、幅広い層の人にやってもらえている気がします。
   role: answer
   speaker: 西野弘二
-  translation: 感觉那些没玩过《宝可梦》系列的人，以及更广泛的人群都来玩了。
+  translation: 感觉有很多以前没玩过《宝可梦》系列的、各个层面的人都在玩。
 - original: 『ポケットモンスター』シリーズは毎作、間口を広げて作っているつもりではあるんですけど、ロールプレイングゲームという仕組み自体が、普段ゲームをやらない人にとっては馴染みが薄く、また、そもそもゲーム機を買わないとプレイできないという制限もあるわけですが、スマホゲームということで、こんなにプレイ人口が広がるものかと驚きました。
   role: answer
   speaker: 杉森建
@@ -480,18 +502,21 @@ parallel_items:
   role: question
   speaker: 株式会社ポケモン
   translation: 《红·绿》开发当时，多亏把宝可梦设计得很简洁，“容易看懂”这一点，是不是也传达到了平时不怎么热衷玩游戏的人那里呢。
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/016.png
+  alt: ピカチュウ誕生秘話
 - original: 今やピカチュウは世界的にも有名ですよね。
   role: question
   speaker: 株式会社ポケモン
   translation: 如今皮卡丘在世界上也很有名了吧。
 - original: 描き手としては、常に「かわいがってもらえる」キャラクターになるよう制作していますが、今ではピカチュウはオンリーワンの存在になっていますね。西野さんの首を縦に振らせようと頑張った結果、世界的な人気につながったことには驚いています。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 作为画师，我一直在制作时想着要让它成为“能被大家疼爱”的角色，如今皮卡丘已经成了独一无二的存在。为了说服西野先生点头而拼命努力，结果竟带来了世界性的人气，这让我很惊讶。
 - original: やはりデザインとして、わかりやすかったのかなって思います。もしもリッチな環境で作っていたとしたら、もっと細かく、カラフルにデザインできていたかもしれないけど、ゲームボーイという、色が表現できず、解像度も粗いハードで、制限のあった時代のゲーム出身のキャラクターだからこそ、単純な形状や配色で特徴を出していったのが、今でも広く愛されることに繋がったのでしょうか。
   role: answer
   speaker: 杉森建
-  translation: 我觉得还是因为作为设计来说很容易理解吧。如果是在更丰富的环境下制作，也许能设计得更精细、更色彩丰富，但正因为是在Game Boy这种无法表现颜色、分辨率也很粗糙的硬件上、在受到限制的时代诞生的游戏角色，用简单的形状和配色来突出特征，才让它至今仍被广泛喜爱吧。
+  translation: 我想还是因为设计上简单易懂吧。如果是在更丰富的环境下制作，也许能设计得更精细、更色彩丰富，但正因为是在Game Boy这种无法表现颜色、分辨率也很粗糙的硬件上、在受到限制的时代诞生的游戏角色，用简单的形状和配色来突出特征，才让它至今仍被广泛喜爱吧。
 - original: なるほど。
   role: question
   speaker: 株式会社ポケモン
@@ -502,8 +527,11 @@ parallel_items:
   translation: 说起来，现在世上到处都是角色了。手机游戏、吉祥物角色等等，和皮卡丘诞生的时候相比，我感觉角色的数量大概增加了一百万倍（笑）。所以我也觉得，今后要瞄准皮卡丘这样的存在去创造出来，恐怕相当困难。对于非常喜欢游戏、而且自己也在做游戏的我们来说，首先希望大家知道皮卡丘的存在，然后觉得“原来是游戏角色啊，那我也来玩玩看”，能实际去玩玩游戏的话，我们会非常高兴。
 - original: 『ポケットモンスター』シリーズを遊んでいただいて、よりいっそうピカチュウのことを好きになってくれるとうれしいです。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: "希望大家玩《宝可梦》系列，变得更加喜欢皮卡丘，我们会很高兴的。"
+- type: image
+  image: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/017.png
+  alt: ピカチュウ誕生秘話
 - original: 『ポケットモンスター』もシリーズを重ねて、ポケモンの種類がすごいことになっていますよね。
   role: question
   speaker: 株式会社ポケモン
@@ -511,19 +539,19 @@ parallel_items:
 - original: こんなに長く続くとは思っていなかったですね。パート２ぐらいは行くかもしれませんでしたが、そんなもんだろうって思っていました。
   role: answer
   speaker: 杉森建
-  translation: 没想到会持续这么久。虽然觉得大概会出到第二部左右，但也就那样吧。
+  translation: 没想到会持续这么久。当时想着也许能出到第二部，觉得大概也就到此为止了。
 - original: こんなにたくさんのポケモンがいる中、今後のピカチュウに期待することは？
   role: question
   speaker: 株式会社ポケモン
   translation: 在这么多宝可梦之中，对今后的皮卡丘有什么期待？
 - original: いろんな世代の人にゲームをプレイしてもらって、違う世代であってもゲームやピカチュウの存在を通じて会話が増えていくといいですね。
   role: answer
-  speaker: にしだあつこ
+  speaker: 西田敦子
   translation: 希望各个世代的人都能玩这个游戏，即使是不同世代的人，也能通过游戏和皮卡丘的存在增加交流。
 - original: ピカチュウには、もう十分頑張ってもらっているので（笑）。『ポケットモンスター』シリーズには、ピカチュウだけではなく、ほかにもたくさんかわいいポケモンがいるので、そこにも注目してほしいですね。
   role: answer
   speaker: 西野弘二
-  translation: 皮卡丘已经足够努力了（笑）。《宝可梦》系列里不只是皮卡丘，还有很多可爱的宝可梦，希望大家也关注那些。
+  translation: 皮卡丘已经替我们出了很多力了（笑）。《宝可梦》系列里不只是皮卡丘，还有很多可爱的宝可梦，希望大家也关注那些。
 - original: 何かつらい目にあった方の心をなごませるとか、キャラクターにはそんな役割もあると思うので、そういうことにポケモンが役立ってくれるといいと思います。
   role: answer
   speaker: 杉森建
@@ -543,4 +571,5 @@ parallel_items:
 source_pages:
 - http://web.archive.org/web/20180530085007/http://www.pokemon.co.jp/corporate/pikachu/
 - http://web.archive.org/web/20180530130049/http://www.pokemon.co.jp/corporate/pikachu/page_02.html
+era: '2018'
 ---

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:06:51+09:00",
+  "generated_at": "2026-10-09T09:57:36+09:00",
   "entities": {
     "people": {
       "田尻智": {
@@ -29,19 +29,19 @@
             }
           },
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -2060,19 +2060,19 @@
             }
           },
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -15503,29 +15503,9 @@
             "excerpt": "",
             "entities": {
               "people": [
-                "にしだあつこ",
-                "杉森建",
-                "西野弘二"
-              ],
-              "works": [
-                "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
-            "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -15816,12 +15796,12 @@
             }
           },
           {
-            "id": "ed5330ddf4",
-            "title": "Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇",
-            "url": "/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-characters/",
+            "id": "a2623a92ab",
+            "title": "Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇",
+            "url": "/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-pokemon/",
             "date": "2011-05-21",
             "year": "2011",
-            "source": "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!",
+            "source": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編",
             "type": "scan_translation",
             "excerpt": "",
             "entities": {
@@ -15839,12 +15819,12 @@
             }
           },
           {
-            "id": "a2623a92ab",
-            "title": "Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇",
-            "url": "/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-pokemon/",
+            "id": "ed5330ddf4",
+            "title": "Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇",
+            "url": "/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-characters/",
             "date": "2011-05-21",
             "year": "2011",
-            "source": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編",
+            "source": "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!",
             "type": "scan_translation",
             "excerpt": "",
             "entities": {
@@ -17174,29 +17154,9 @@
             "excerpt": "",
             "entities": {
               "people": [
-                "にしだあつこ",
-                "杉森建",
-                "西野弘二"
-              ],
-              "works": [
-                "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
-            "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -17208,27 +17168,6 @@
               "organizations": [
                 "The Pokémon Company",
                 "Game Freak"
-              ]
-            }
-          },
-          {
-            "id": "2b31bed2fb",
-            "title": "Nintendo DREAM 2008：GAME FREAK对战与《宝可梦 白金》专访",
-            "url": "/杂志特辑/扫描存档/scan-ndream-2008-12-platinum-battle-dojo/",
-            "date": "2008-10-21",
-            "year": "2008",
-            "source": "ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ",
-            "type": "scan_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "太田哲司",
-                "中津井优",
-                "西野弘二",
-                "川内丸武史"
-              ],
-              "works": [
-                "宝可梦 白金"
               ]
             }
           },
@@ -17248,6 +17187,27 @@
                 "太田哲司",
                 "西野弘二",
                 "中津井优"
+              ],
+              "works": [
+                "宝可梦 白金"
+              ]
+            }
+          },
+          {
+            "id": "2b31bed2fb",
+            "title": "Nintendo DREAM 2008：GAME FREAK对战与《宝可梦 白金》专访",
+            "url": "/杂志特辑/扫描存档/scan-ndream-2008-12-platinum-battle-dojo/",
+            "date": "2008-10-21",
+            "year": "2008",
+            "source": "ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "太田哲司",
+                "中津井优",
+                "西野弘二",
+                "川内丸武史"
               ],
               "works": [
                 "宝可梦 白金"
@@ -29215,19 +29175,19 @@
         "url": "/entities/people/e6b1a4e5b1b1e982a6e5bda6/",
         "posts": [
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -32140,19 +32100,19 @@
         "url": "/entities/people/e5a4a7e8b0b7e882b2e6b19f/",
         "posts": [
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -53574,38 +53534,6 @@
           "2018"
         ]
       },
-      "にしだあつこ": {
-        "name": "にしだあつこ",
-        "type": "people",
-        "type_label": "人物",
-        "url": "/entities/people/e381abe38197e381a0e38182e381a4e38193/",
-        "posts": [
-          {
-            "id": "11b8de9050",
-            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
-            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
-            "date": "2018-05-02",
-            "year": "2018",
-            "source": "ピカチュウ誕生秘話",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "にしだあつこ",
-                "杉森建",
-                "西野弘二"
-              ],
-              "works": [
-                "宝可梦 红·绿"
-              ]
-            }
-          }
-        ],
-        "annotations": [],
-        "years": [
-          "2018"
-        ]
-      },
       "高桥伸也": {
         "name": "高桥伸也",
         "type": "people",
@@ -56923,29 +56851,9 @@
             "excerpt": "",
             "entities": {
               "people": [
-                "にしだあつこ",
-                "杉森建",
-                "西野弘二"
-              ],
-              "works": [
-                "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
-            "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -57285,24 +57193,6 @@
             }
           },
           {
-            "id": "2cdaf75f91",
-            "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
-            "url": "/interview-niconico-gamefreak-origins-masuda/",
-            "date": "2014-08-22",
-            "year": "2014",
-            "source": "",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
             "id": "59005e6127",
             "title": "ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐",
             "url": "/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/",
@@ -57318,6 +57208,24 @@
               "works": [
                 "宝可梦 红·绿",
                 "昆蒂"
+              ]
+            }
+          },
+          {
+            "id": "2cdaf75f91",
+            "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+            "url": "/interview-niconico-gamefreak-origins-masuda/",
+            "date": "2014-08-22",
+            "year": "2014",
+            "source": "",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿"
               ]
             }
           },
@@ -57362,6 +57270,30 @@
             }
           },
           {
+            "id": "5d19f8cf07",
+            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
+            "date": "2013-10-10",
+            "year": "2013",
+            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第2回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田聪",
+                "增田顺一",
+                "石原恒和",
+                "大谷育江",
+                "杉森建"
+              ],
+              "works": [
+                "宝可梦 X·Y",
+                "宝可梦 红·绿",
+                "宝可梦 红宝石·蓝宝石"
+              ]
+            }
+          },
+          {
             "id": "150e7a1111",
             "title": "[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/",
@@ -57396,30 +57328,6 @@
                 "岩田聪",
                 "增田顺一",
                 "石原恒和"
-              ],
-              "works": [
-                "宝可梦 X·Y",
-                "宝可梦 红·绿",
-                "宝可梦 红宝石·蓝宝石"
-              ]
-            }
-          },
-          {
-            "id": "5d19f8cf07",
-            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
-            "date": "2013-10-10",
-            "year": "2013",
-            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第2回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田聪",
-                "增田顺一",
-                "石原恒和",
-                "大谷育江",
-                "杉森建"
               ],
               "works": [
                 "宝可梦 X·Y",
@@ -90747,19 +90655,19 @@
             }
           },
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -97305,19 +97213,19 @@
             }
           },
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -119605,19 +119513,19 @@
             }
           },
           {
-            "id": "4c9d11f95a",
-            "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-            "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-            "date": "2018-05-01 10:00:00 +0900",
+            "id": "11b8de9050",
+            "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+            "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+            "date": "2018-05-02",
             "year": "2018",
-            "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+            "source": "ピカチュウ誕生秘話",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
+                "西田敦子",
                 "杉森建",
                 "西野弘二",
-                "西田敦子",
                 "田尻智",
                 "汤山邦彦",
                 "大谷育江"
@@ -165637,29 +165545,9 @@
           "excerpt": "",
           "entities": {
             "people": [
-              "にしだあつこ",
-              "杉森建",
-              "西野弘二"
-            ],
-            "works": [
-              "宝可梦 红·绿"
-            ]
-          }
-        },
-        {
-          "id": "4c9d11f95a",
-          "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-          "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-          "date": "2018-05-01 10:00:00 +0900",
-          "year": "2018",
-          "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
-          "type": "interview_translation",
-          "excerpt": "",
-          "entities": {
-            "people": [
+              "西田敦子",
               "杉森建",
               "西野弘二",
-              "西田敦子",
               "田尻智",
               "汤山邦彦",
               "大谷育江"
@@ -190153,19 +190041,19 @@
       }
     },
     {
-      "id": "4c9d11f95a",
-      "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
-      "url": "/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/",
-      "date": "2018-05-01 10:00:00 +0900",
+      "id": "11b8de9050",
+      "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+      "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
+      "date": "2018-05-02",
       "year": "2018",
-      "source": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+      "source": "ピカチュウ誕生秘話",
       "type": "interview_translation",
       "excerpt": "",
       "entities": {
         "people": [
+          "西田敦子",
           "杉森建",
           "西野弘二",
-          "西田敦子",
           "田尻智",
           "汤山邦彦",
           "大谷育江"
@@ -190177,26 +190065,6 @@
         "organizations": [
           "The Pokémon Company",
           "Game Freak"
-        ]
-      }
-    },
-    {
-      "id": "11b8de9050",
-      "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
-      "url": "/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/",
-      "date": "2018-05-02",
-      "year": "2018",
-      "source": "ピカチュウ誕生秘話",
-      "type": "interview_translation",
-      "excerpt": "",
-      "entities": {
-        "people": [
-          "にしだあつこ",
-          "杉森建",
-          "西野弘二"
-        ],
-        "works": [
-          "宝可梦 红·绿"
         ]
       }
     },

@@ -196,12 +196,6 @@
     publication: Ken Sugimori got 'artist's block' during Pokemon X and Y development
     detail: 称设计哲尔尼亚斯和伊裴尔塔尔时遭遇创作瓶颈，曾交给大村祐介推进。
   - n: 11
-    post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
-    title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-    date: '2018-05-01'
-    publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-    detail: 称初代时图形设计师直接敲像素点阵，事实上就是角色核心造物设计师。
-  - n: 12
     post: 2019-05-18-interview-siliconera-harmoknight-drill-dozer
     title: '[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘'
     date: '2019-05-18'
@@ -946,7 +940,7 @@
       games: 6
     - cat: 本地化/海外QA
       games: 1
-  summary: 西野弘二长期在 GAME FREAK 担任策划，负责地图关卡、宝可梦出现率、强度与对战平衡等底盘数据设计 [7][8]。他参与宝可梦的稀有度与获得难度设定，并据此调整具体出现率 [3][7][8]。在《宝可梦 火红·叶绿》中他负责整体企划，从剧本到系统相关均有参与，并着力于表达的易懂性 [5]。他也参与对战平衡调整，如《白金》中降低「催眠术」命中率、加入「戏法空间」等 [6]。
+  summary: 西野弘二长期在 GAME FREAK 担任策划，负责地图以及宝可梦出现率、强度等数据设计 [7]。他参与宝可梦的稀有度与获得难度设定，并据此调整具体出现率 [3][7]。在《宝可梦 火红·叶绿》中他负责整体企划，从剧本到系统相关均有参与，并着力于表达的易懂性 [5]。他也参与对战平衡调整，如《白金》中降低「催眠术」命中率、加入「戏法空间」等 [6]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
@@ -985,18 +979,12 @@
     publication: Nintendo DREAM
     detail: 从钻石·珍珠起加入「戏法空间」，并在白金把「催眠术」命中率从70降到60。
   - n: 7
-    post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
-    title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-    date: '2018-05-01'
-    publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-    detail: 自红·绿开发伊始负责大地图关卡、出现概率与对战平衡等底盘数据。
-  - n: 8
     post: 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa
     title: 株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈
     date: '2018-05-02'
     publication: 株式会社宝可梦 官方网站
     detail: 在红·绿中主要负责地图及宝可梦出现率、强度等数据设计。
-  - n: 9
+  - n: 8
     post: 2018-07-26-interview-creators-of-pikachu
     title: '[访谈翻译] 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二'
     date: '2018-07-26'

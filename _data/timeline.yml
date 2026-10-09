@@ -2205,16 +2205,6 @@ years:
   - name: Ingress
     n: 2
   picks:
-  - title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 ×…
-    kind: interview
-    pub: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-    date: '2018-05-01'
-    url: /developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/
-    blurb: 2018年5月宝可梦公司（The Pokémon Company）官方绝密公开的重磅里程碑档案：打破长达22年的沉默，首次由皮卡丘的三位核心造物者——艺术总监杉森建、战斗策划西…
-    cover: /assets/img/interviews/2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida/img_01.png
-    cover_size:
-    - 690
-    - 525
   - title: 皮卡丘诞生秘话
     kind: interview
     pub: 株式会社宝可梦 官方网站（2018-05-02）

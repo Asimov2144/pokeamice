@@ -199,8 +199,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/">宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）</a></h3>
+  <p>2018 · interview_translation · ピカチュウ誕生秘話</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/">株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈</a></h3>
   <span></span>
 </article>
 

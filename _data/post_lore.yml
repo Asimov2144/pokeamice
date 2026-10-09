@@ -43619,20 +43619,20 @@
     title: CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术
     url: /developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/
     why: Creatures团队与名侦探皮卡丘开发背景
-2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida:
+2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa:
   facets:
     people:
+    - name: 株式会社ポケモン
+      role: speaker
     - name: 杉森建
       role: speaker
       slug: sugimori-ken
+    - name: 西田敦子
+      role: speaker
+      slug: nishida-atsuko
     - name: 西野弘二
       role: speaker
       slug: nishino-koji
-    - name: にしだあつこ
-      role: speaker
-    - name: 西田敦子
-      role: mentioned
-      slug: nishida-atsuko
     - name: 田尻智
       role: mentioned
       slug: tajiri-satoshi
@@ -43644,49 +43644,49 @@
       slug: otani-ikue
     places:
     - name: 常青森林
-      what: 皮卡丘遭遇地
+      what: 皮卡丘出现率被调低处
       world: game
     pokemon:
     - name: 妙蛙种子
       ndex: 1
     - name: 小火龙
       ndex: 4
+    - name: 喷火龙
+      ndex: 6
     - name: 杰尼龟
       ndex: 7
+    - name: 小拉达
+      ndex: 19
     - name: 皮卡丘
       ndex: 25
     - name: 雷丘
       ndex: 26
-    - name: ピッピ
+    - name: 卡比兽
+      ndex: 143
+    - name: 皮皮
       ndex: 35
-    - name: ゲンガー
+    - name: 耿鬼
       ndex: 94
     works:
     - name: 宝可梦 红·绿
       slug: red-green
     - name: Pokémon GO
       slug: null
-    - name: 宝可梦 红／绿
-      slug: null
-    - name: 赤・绿
-      slug: null
-    - name: 精灵宝可梦
-      slug: null
-  id: interview-tpc-pikachu-origin-sugimori-nishino-nishida
+  id: interview-pokemon-official-pikachu-tanjou-hiwa
   observations:
-  - anchor: 10
-    seg: 9
-    text: 初代《红／绿》时期创作者直接坐在电脑前逐点敲打像素点阵
-  - anchor: 13
-    seg: 12
-    text: 杉森建称核心发起人全为男性，故拜托西田设计可爱宝可梦
+  - anchor: 35
+    seg: 34
+    text: 西田敦子称皮卡丘的设计要求是电属性和进化两次
+  - anchor: 88
+    seg: 87
+    text: 西野弘二把常青森林里皮卡丘的出现率设得很低
   relations:
   - id: interview-creators-of-pikachu
     kind: same-occasion
     label: 同一件事的另一种说法
     title: 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-creators-of-pikachu/
-    why: 同为2018年官方三人专访，同讲大福与戈洛丘
+    why: 同为2018年宝可梦官方对杉森建、西田敦子、西野弘二的皮卡丘专访
 2018-05-02-interview-yomiuri-sugimori-nishino-nishida-pikachu-birth:
   facets:
     people:
@@ -43729,11 +43729,11 @@
     seg: 3
     text: にしだあつこ说最初没以老鼠为原型，想养小松鼠
   relations:
-  - id: interview-tpc-pikachu-origin-sugimori-nishino-nishida
+  - id: interview-pokemon-official-pikachu-tanjou-hiwa
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-    url: /developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/
+    title: 株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/
     why: 同为2018年5月皮卡丘诞生秘话公开
   - id: interview-creators-of-pikachu
     kind: same-occasion
@@ -44273,11 +44273,11 @@
     seg: 30
     text: 西田敦子说设计时尽可能减少部件数量，只加一个特征性部件
   relations:
-  - id: interview-tpc-pikachu-origin-sugimori-nishino-nishida
+  - id: interview-pokemon-official-pikachu-tanjou-hiwa
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-    url: /developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/
+    title: 株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/
     why: 同为2018年5月皮卡丘诞生秘话三人访谈
   - id: interview-creators-of-pikachu
     kind: same-occasion
@@ -44343,11 +44343,11 @@
     seg: 28
     text: 雷丘之后原有一个进化形态，名叫戈洛丘
   relations:
-  - id: interview-tpc-pikachu-origin-sugimori-nishino-nishida
+  - id: interview-pokemon-official-pikachu-tanjou-hiwa
     kind: same-occasion
     label: 同一件事的另一种说法
-    title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-    url: /developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/
+    title: 株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/
     why: 同为2018年宝可梦官方皮卡丘诞生秘闻专访，同三位受访者
   - id: interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design
     kind: responds

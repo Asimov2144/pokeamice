@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>119 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
+    <span>118 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -127,12 +127,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/">宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
   <h3><a href="/developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/">GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案</a></h3>
   <span></span>
@@ -217,14 +211,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation</p>
-  <h3><a href="/interview-niconico-gamefreak-origins-masuda/">NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学</a></h3>
+  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
+  <p>2014 · interview_translation</p>
+  <h3><a href="/interview-niconico-gamefreak-origins-masuda/">NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学</a></h3>
   <span></span>
 </article>
 
@@ -241,6 +235,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
@@ -249,12 +249,6 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
   <span></span>
 </article>
 

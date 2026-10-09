@@ -79,7 +79,6 @@ search: false
 <a href="/entities/people/e38195e381a8e38186/"><strong>さとう</strong><span>1 条资料</span></a>
 <a href="/entities/people/e38198e381a0e381ac/"><strong>じだぬ</strong><span>1 条资料</span></a>
 <a href="/entities/people/e381a3e38283e381a3e38283/"><strong>っゃっゃ</strong><span>1 条资料</span></a>
-<a href="/entities/people/e381abe38197e381a0e38182e381a4e38193/"><strong>にしだあつこ</strong><span>1 条资料</span></a>
 <a href="/entities/people/e381abe38287e3828de383aae382ab/"><strong>にょろリカ</strong><span>2 条资料</span></a>
 <a href="/entities/people/qd/"><strong>ねこかすQD</strong><span>1 条资料</span></a>
 <a href="/entities/people/e381bbe3819a/"><strong>ほず</strong><span>2 条资料</span></a>
@@ -271,7 +270,7 @@ search: false
 <a href="/entities/people/e69caae79fa5e59bbee885be/"><strong>未知图腾</strong><span>1 条资料</span></a>
 <a href="/entities/people/e69cace59f8ee79bb4e5ada3/"><strong>本城直季</strong><span>1 条资料</span></a>
 <a href="/entities/people/e69d89e4b8ade5858be88083/"><strong>杉中克考</strong><span>1 条资料</span></a>
-<a href="/entities/people/e69d89e6a3aee5bbba/"><strong>杉森建</strong><span>73 条资料</span></a>
+<a href="/entities/people/e69d89e6a3aee5bbba/"><strong>杉森建</strong><span>72 条资料</span></a>
 <a href="/entities/people/e69d8e/"><strong>李</strong><span>1 条资料</span></a>
 <a href="/entities/people/e69d91e794b0e4bdb3e5a588e5ad90/"><strong>村田佳奈子</strong><span>1 条资料</span></a>
 <a href="/entities/people/e69dbee5aeab/"><strong>松宫</strong><span>1 条资料</span></a>
@@ -405,7 +404,7 @@ search: false
 <a href="/entities/people/e89fb9e5ad90/"><strong>蟹子</strong><span>7 条资料</span></a>
 <a href="/entities/people/e8a395e69ca8e5a588e6b19f/"><strong>裕木奈江</strong><span>1 条资料</span></a>
 <a href="/entities/people/e8a5bfe794b0e695a6e5ad90/"><strong>西田敦子</strong><span>4 条资料</span></a>
-<a href="/entities/people/e8a5bfe9878ee5bc98e4ba8c/"><strong>西野弘二</strong><span>10 条资料</span></a>
+<a href="/entities/people/e8a5bfe9878ee5bc98e4ba8c/"><strong>西野弘二</strong><span>9 条资料</span></a>
 <a href="/entities/people/e8a9b9e5a786e696af/"><strong>詹姆斯</strong><span>1 条资料</span></a>
 <a href="/entities/people/e8a9b9e5a786e696afc2b7e58da1e6a285e99a86/"><strong>詹姆斯·卡梅隆</strong><span>1 条资料</span></a>
 <a href="/entities/people/e8afb8e69c88e7bab1e4bf9de5ad90/"><strong>诸月纱保子</strong><span>1 条资料</span></a>

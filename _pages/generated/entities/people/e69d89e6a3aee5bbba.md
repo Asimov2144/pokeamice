@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>杉森建</h2>
-    <span>73 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2003 / 2002 / 2000 / 1999 / 1997 / 1996</span>
+    <span>72 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2003 / 2002 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -45,12 +45,6 @@ search: false
 <article class="resource-network-card">
   <p>2018 · interview_translation · ピカチュウ誕生秘話</p>
   <h3><a href="/访谈翻译/官方档案/interview-pokemon-official-pikachu-tanjou-hiwa/">株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2018 · interview_translation · 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/">宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）</a></h3>
   <span></span>
 </article>
 
@@ -127,14 +121,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · scan_translation · 『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-characters/">Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇</a></h3>
+  <p>2011 · scan_translation · 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-pokemon/">Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · scan_translation · 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-pokemon/">Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇</a></h3>
+  <p>2011 · scan_translation · 『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-characters/">Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇</a></h3>
   <span></span>
 </article>
 

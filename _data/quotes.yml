@@ -19759,102 +19759,9 @@ quotes:
   works:
   - 名侦探皮卡丘
   links: []
-- id: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida#21
-  post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
-  segment: 21
-  speaker: 西野弘二
-  reported: false
-  kind: question
-  hook: 为什么皮卡丘的最终进化型哥罗丘被砍掉了？
-  zh: 主要是出于游戏底层规格与战斗架构的考量。在容量极度寸土寸金的 Game Boy 卡带中，每一字节都要精打细算；同时从数值成长曲线来看，将它收敛为“皮卡丘→雷丘”这一段进化反而显得更加利落精炼。
-  ja: ゲーム的な仕様で、ピカチュウは１回だけ進化するポケモンになってしまったんです。容量の問題もありましたし、バランス的にもピカチュウとライチュウの２段階に収めたほうが綺麗だったんです。
-  lang: ja
-  year: 2018
-  date: '2018-05-01'
-  publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-  title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-  score: 5
-  why: 西野弘二首次披露曾设计皮卡丘的最终进化形态哥罗丘，因卡带容量与数值成长曲线被删。
-  more: 杉森建补充：这不是外观瑕疵，而是系统工程的断舍离。
-  people:
-  - 杉森建
-  - 西野弘二
-  - 西田敦子
-  - 田尻智
-  - 汤山邦彦
-  - 大谷育江
-  works:
-  - 宝可梦 红·绿
-  - Pokémon GO
-  links:
-  - type: person
-    name: 杉森建
-    slug: sugimori-ken
-- id: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida#59
-  post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
-  segment: 59
-  speaker: 西野弘二
-  reported: false
-  kind: quote
-  hook: 西野弘二：我不想让别的玩家随便抓到皮卡丘
-  zh: ……说实话，因为我个人实在是太深爱皮卡丘了，心里极其自私地想着『我才不想让别的玩家随随便便就抓到它呢！』，于是我亲自在后台把『常青森林（トキワのもり）』里皮卡丘的遭遇概率调得极低极低，让它变得极难被遇上（笑）。
-  ja: 実は僕がピカチュウのことが好きすぎたので、プレイヤーの方に「簡単に見つけてほしくない」と思って、「トキワのもり」での出現率を低く設定して、見つかりにくくしたんですよ（笑）。
-  lang: ja
-  year: 2018
-  date: '2018-05-01'
-  publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-  title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-  score: 5
-  why: 西野自曝因私心把常青森林里皮卡丘的遭遇概率调得极低，造就了它的稀缺神话。
-  more: 杉森建笑称这是私人生态独占欲，却阴差阳错赋予皮卡丘稀缺价值。
-  people:
-  - 杉森建
-  - 西野弘二
-  - 西田敦子
-  - 田尻智
-  - 汤山邦彦
-  - 大谷育江
-  works:
-  - 宝可梦 红·绿
-  - Pokémon GO
-  links:
-  - type: person
-    name: 杉森建
-    slug: sugimori-ken
-- id: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida#65
-  post: 2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida
-  segment: 65
-  speaker: 杉森建
-  reported: false
-  kind: question
-  hook: 动画为什么选皮卡丘而不是御三家当主角？
-  zh: 那完全是动画总导演汤山邦彦先生的神来之笔。汤山监督当时非常敏锐地指出：如果和小智一样让妙蛙种子、小火龙或杰尼龟中的某一只作为主角，那么当年选择另外两只宝可梦的孩子们心里就会产生失落与疏离感。于是他力排众议，挑选了一只谁都可以拥有、既保持中立又在游戏玩家中拥有无上人气的皮卡丘！事实证明，这是一次影响了宝可梦未来数十年的天才决断。
-  ja: それはアニメの湯山（邦彦）監督のご判断でしたね。ゲームと同じようにフシギダネ・ヒトカゲ・ゼニガメの３匹のどれかがパートナーになるよう設定したら、その１匹を選ばなかった子どもたちが疎外感を感じてしまうかもしれない。そこで、誰のパートナーでもない中立で、かつゲーム内で爆発的人気を集めていたピカチュウを抜擢されたんです。これは本当に鋭い読みだったと思います。
-  lang: ja
-  year: 2018
-  date: '2018-05-01'
-  publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
-  title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
-  score: 4
-  why: 杉森建回忆汤山邦彦为避免选御三家的孩子失落，挑了中立又高人气的皮卡丘。
-  more: 杉森建称这是影响宝可梦未来数十年的天才决断。
-  people:
-  - 杉森建
-  - 西野弘二
-  - 西田敦子
-  - 田尻智
-  - 汤山邦彦
-  - 大谷育江
-  works:
-  - 宝可梦 红·绿
-  - Pokémon GO
-  links:
-  - type: person
-    name: 杉森建
-    slug: sugimori-ken
-- id: 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa#74
+- id: 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa#75
   post: 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa
-  segment: 74
+  segment: 75
   speaker: 杉森建
   reported: false
   kind: quote
@@ -19870,7 +19777,7 @@ quotes:
   why: Game Boy无法表现颜色，开发末期决定支持Super Game Boy后，才为每只宝可梦按属性色设定颜色，黄色皮卡丘的官方美术图由此诞生。
   more: 杉森建还提到《红·绿》当时的官方美术图全都基于像素图绘制，颜色分配基本按属性色或容易表现类型的颜色。
   people:
-  - にしだあつこ
+  - 西田敦子
   - 杉森建
   - 西野弘二
   works:
@@ -19898,7 +19805,7 @@ quotes:
   why: 开发阶段用打印出的像素图做“你喜欢哪只宝可梦”问卷，皮卡丘在公司内部评价中遥遥领先，这一结果直接关系到它在游戏说明书官方美术中的位置。
   more: 杉森建在另一处提到，当时还没有预想到玩家们的反应，皮卡丘只是被选为说明书里画的15只左右官方美术之一。
   people:
-  - にしだあつこ
+  - 西田敦子
   - 杉森建
   - 西野弘二
   works:
@@ -19925,7 +19832,7 @@ quotes:
   why: 皮卡丘在《红·绿》中并非初始宝可梦，西野弘二出于个人喜爱刻意降低常青森林出现率，是设计者意图与玩家行为形成反差的典型案例。
   more: 同一访谈中，西野弘二提到玩家反而把皮卡丘当成“最先出现的稀有宝可梦”，攻略本也写“先抓皮卡丘吧”。
   people:
-  - にしだあつこ
+  - 西田敦子
   - 杉森建
   - 西野弘二
   works:

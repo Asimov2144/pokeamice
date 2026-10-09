@@ -1,0 +1,605 @@
+{
+ "id": "interview-pokemon-official-pikachu-tanjou-hiwa",
+ "stem": "2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa",
+ "rev": 1,
+ "built": "2026-10-09",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 138
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     1,
+     49,
+     50,
+     95
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     1,
+     49,
+     50,
+     95
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     50,
+     99,
+     112
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "杰尼龟",
+    "ndex": 7,
+    "seg": [
+     1,
+     49,
+     50,
+     95
+    ],
+    "as": [
+     "杰尼龟"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "小拉达",
+    "ndex": 19,
+    "seg": [
+     43
+    ],
+    "as": [
+     "小拉达"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "雷丘",
+    "ndex": 26,
+    "seg": [
+     34
+    ],
+    "as": [
+     "雷丘"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     113
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮皮",
+    "ndex": 35,
+    "seg": [
+     53
+    ],
+    "as": [
+     "皮皮"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "耿鬼",
+    "ndex": 94,
+    "seg": [
+     114
+    ],
+    "as": [
+     "耿鬼"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     0,
+     1
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     117
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "株式会社ポケモン",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     24,
+     26,
+     29,
+     33,
+     38,
+     48
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     25,
+     27,
+     30,
+     35,
+     40,
+     42
+    ]
+   },
+   {
+    "name": "西田敦子",
+    "slug": "nishida-atsuko",
+    "role": "speaker",
+    "seg": [
+     34,
+     36,
+     43,
+     50,
+     57,
+     61
+    ]
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "speaker",
+    "seg": [
+     39,
+     41,
+     56,
+     63,
+     80,
+     84
+    ]
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     45
+    ]
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": []
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": []
+   }
+  ],
+  "places": [
+   {
+    "name": "常青森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     87
+    ],
+    "what": "皮卡丘出现率被调低处",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     0
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     3,
+     94,
+     102
+    ],
+    "as": [
+     "电视动画",
+     "动画化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     3
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     3
+    ],
+    "as": [
+     "周边商品"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     14,
+     21,
+     26,
+     27
+    ],
+    "as": [
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     17,
+     40
+    ],
+    "as": [
+     "强度",
+     "游戏平衡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     21
+    ],
+    "as": [
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     25,
+     120
+    ],
+    "as": [
+     "宝可梦的设计",
+     "宝可梦设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     27,
+     77,
+     82
+    ],
+    "as": [
+     "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     34,
+     35,
+     43,
+     70
+    ],
+    "as": [
+     "电属性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     41,
+     78
+    ],
+    "as": [
+     "容量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pixel-art",
+    "name": "像素画",
+    "facet": "tech",
+    "seg": [
+     61,
+     73,
+     74,
+     78,
+     112
+    ],
+    "as": [
+     "像素画",
+     "像素图"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     62,
+     104
+    ],
+    "as": [
+     "监修"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     68,
+     124
+    ],
+    "as": [
+     "配色",
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     72
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     76
+    ],
+    "as": [
+     "原画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     77
+    ],
+    "as": [
+     "开发阶段"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     89
+    ],
+    "as": [
+     "玩家之间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     89
+    ],
+    "as": [
+     "攻略本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "media-mix",
+    "name": "媒体展开",
+    "facet": "business",
+    "seg": [
+     92
+    ],
+    "as": [
+     "跨媒体"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     95
+    ],
+    "as": [
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "motion",
+    "name": "动作设计",
+    "facet": "art",
+    "seg": [
+     102
+    ],
+    "as": [
+     "动画表现"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     119,
+     126
+    ],
+    "as": [
+     "智能手机",
+     "手机游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     124
+    ],
+    "as": [
+     "简单易懂"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [],
+    "as": [
+     "第一世代"
+    ],
+    "via": "tag"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 34,
+   "text": "西田敦子称皮卡丘的设计要求是电属性和进化两次",
+   "anchor": 35
+  },
+  {
+   "seg": 87,
+   "text": "西野弘二把常青森林里皮卡丘的出现率设得很低",
+   "anchor": 88
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-creators-of-pikachu",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-creators-of-pikachu/",
+   "why": "同为2018年宝可梦官方对杉森建、西田敦子、西野弘二的皮卡丘专访"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26"
+ },
+ "edited": false
+}
