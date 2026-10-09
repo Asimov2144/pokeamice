@@ -3,7 +3,12 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）
 title_ja: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
-date: 2013-11-01 10:00:00 +0900
+date: 2013-10-20 10:00:00 +0900
+recruit:
+  page: interview_2
+  version: '2013-12-28'
+  capture: '20131228170851'
+  date_basis: 招聘首页 2013-04-03 的快照还没有、2013-10-20 的已有（这一页 Wayback 首见 2013-12-28）；2016-11 至 2017-01 之间撤下
 era: '2013'
 categories:
 - developer-interviews

@@ -5,7 +5,12 @@ title: GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经
 display_title: 研究开发部，始动
 dek: GAME FREAK 研究开发部谈成立经过、目标与人才需求。
 original_title: 研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」
-date: '2015-09-01'
+date: 2015-10-21 10:00:00 +0900
+recruit:
+  page: interview_02
+  version: '2015-10-26'
+  capture: '20151026024157'
+  date_basis: 招聘首页 2015-09-15 的快照还没有编号访谈、2015-10-21 的已有；2017-03 起同一网址换成 TA 篇
 era_skin: '2014'
 categories:
 - developer-interviews

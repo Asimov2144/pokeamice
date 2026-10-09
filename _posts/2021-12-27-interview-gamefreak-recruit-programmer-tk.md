@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影
 title_ja: プログラマが「無理」と言ったら、どんなアイデアも実現できない。｜プログラマ社員紹介 T.K.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2025-03-28 10:00:00 +0900
+recruit:
+  page: interview-pg-tk
+  version: '2025-07-14'
+  capture: '20250714164000'
+  date_basis: 2024-09-15 的招聘首页还没有这张卡、2025-03-28 的已有（页面首次快照 2025-07-14）
+era: '2025'
 era_skin: '2019'
 categories:
 - developer-interviews

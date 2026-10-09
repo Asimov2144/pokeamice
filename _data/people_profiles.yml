@@ -1979,40 +1979,40 @@
     spoken_in: 4
     columns: 0
     first: '2015'
-    last: '2021'
-  summary: H.T. 以程序员身份进入游戏行业，早期负责战斗机制与 UI 模块实现，并独立包揽过对战格斗动作游戏一个核心关卡的从概念设计到代码实现 [1]。此后转向地图关卡策划，关注将企划意图反映到关卡设计中，让玩家一目了然 [3]。他也从系统程序员角度强调以技术为起点催生新玩法，并推动云技术、CI/CD 流水线与自研引擎等工程基础建设 [2]。另有同名发言者从事构建工程与云端架构，目标是提升组织效率并推动开发环境全面云化 [4]。
+    last: '2024'
+  summary: H.T. 最初以程序员身份负责战斗和 UI，后转为策划，负责地图策划，并参与存档数据、编辑器相关设计等范围较广的策划工作 [1]。此后在 GEAR PROJECT 的新作《小镇英雄》中担任美术总监，除背景外还负责角色设计、UI 与宣传物料设计 [2]。在研发部担任构建工程师，主要实现《宝可梦》系列开发工程的自动化并开发公司内部工具，同时兼任开发二部 [3]。之后担任研究开发部环境部门部门总监，持续推进云迁移，目标是建立人员少也能高效为各项目提供环境的体制 [4]。其做事方法强调从反馈中学习、把成果用于下一步，并重视热情与主动承担工作 [1]。
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-planners
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2014 年入社，此前在九州游戏公司做 3 年底层程序员，负责战斗机制与 UI 模块实现。
+    detail: 2014年度入职，负责地图策划，此前做过程序员，负责战斗和UI。
   - n: 2
-    post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
-    title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
-    date: '2021-12-27'
-    publication: システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-    detail: 称系统程序员未必需要策划思维，并提到研究开发团队先做技术原型再向开发团队提案。
-  - n: 3
     post: 2021-12-27-interview-gamefreak-recruit-designer-ht
     title: GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
-    date: '2021-12-27'
+    date: '2019-12-11'
     publication: Game Freak 採用情報
-    detail: 入职后对《宝可梦》关卡设计考究感到惊讶，在《小镇英雄》中担任美术总监。
-  - n: 4
+    detail: 在《小镇英雄》中担任美术总监，负责背景、角色设计、UI与宣传物料。
+  - n: 3
     post: 2021-12-27-interview-gamefreak-recruit-programmer-ht
     title: GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进
-    date: '2021-12-27'
+    date: '2020-11-13'
     publication: Game Freak 採用情報
-    detail: 曾任美国 AI 初创企业日本法人 COO，入职后负责《宝可梦》系列开发工程自动化与内部工具。
+    detail: 担任研发部构建工程师，实现《宝可梦》系列开发工程自动化并开发内部工具。
+  - n: 4
+    post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+    title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
+    date: '2024-02-13'
+    publication: Game Freak 採用情報
+    detail: 担任研究开发部环境部门部门总监，持续推进云迁移。
   expertise:
-  - 地图关卡策划
-  - 战斗机制
-  - UI 模块
-  - 系统程序
+  - 地图策划
+  - 战斗与UI
   - 构建工程
-  - 云端架构
+  - 工具开发
+  - 云迁移
+  - 美术总监
 - name: 前泽圭一
   slug: maezawa-keiichi
   kind: person
@@ -2597,9 +2597,9 @@
   kind: person
   interviews:
     entries: 3
-    spoken_in: 1
-    columns: 0
-    first: '2019'
+    spoken_in: 2
+    columns: 2
+    first: '2015'
     last: '2019'
   credits:
     games: 7
@@ -2611,51 +2611,58 @@
     categories:
     - cat: 美术
       games: 7
-  summary: James Turner 在宝可梦主线系列中长期从事美术相关工作，署名作品覆盖 2010 年至 2022 年。他从《宝可梦 黑·白》起担任组长，负责 Digital Movie--Main Design，自《宝可梦 太阳·月亮》起担任部门总监，涉及 Digital Movie Design Section 与 Effect Design Section。据 Game Informer 报道，GAME FREAK 借《宝可梦 Let's Go》系列掌握任天堂新主机的开发基础，引入野生宝可梦出现在环境中等新特性，并在视觉表现上实现巨大飞跃 [1]。
+  summary: James Turner 是 2009 年入职的设计师，在 Gear Project 中诞生的《节奏猎人 哈莫奈特》和《TEMBO THE BADASS ELEPHANT》两款软件里担任总监 [1]。他日常大量接触电影与设计，每月看电影 10 部以上，也关注产品设计等游戏之外的设计领域 [1]。他做设计时从路边招牌上的大象插图获得灵感，先画插图扩展印象，再思考如何让玩法具备“非大象不可的必然性”，最终以“活用大象体格的破坏”为核心 [1]。他原本就有做多平台游戏的想法，并认为看用户感想是游戏创作者最开心的事 [1]。
   citations:
   - n: 1
-    post: 2019-11-13-interview-gi-2019-going-big
-    title: Game Informer 2019：大森滋与岩尾和昌谈《宝可梦 剑·盾》
-    date: '2019-11-13'
-    publication: Game Informer
-    detail: 据该篇报道，GAME FREAK 借《Let's Go》掌握 Switch 开发基础，引入野生宝可梦出现在环境中等特性。
+    post: 2015-08-01-interview-gamefreak-gear-tembo-turner
+    title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
+    date: '2015-10-12'
+    publication: Game Freak 採用情報 (Wayback 历史存档)
+    detail: 2009 年入职的设计师，在 Gear Project 两款软件中担任总监，因路边招牌大象插图构思出以破坏为核心的动作游戏。
   expertise:
   - 美术
-  - 数字影像
-  - 效果设计
-  - 视觉表现
+  - 游戏设计
+  - 角色设计
+  - 动作玩法
+  - 总监
 - name: T.M.
   slug: t-m
   kind: person
   interviews:
     entries: 2
-    spoken_in: 1
+    spoken_in: 2
     columns: 0
     first: '2015'
-    last: '2015'
-  summary: T.M. 是 2011 年入社的 3D 图形设计师，在《坏象坦博》项目中以场景地图模型为中心，全面参与整体 3D 图形资产的制作 [1]。此前也曾参与《节奏猎人 哈莫奈特》的齿轮企划攻坚 [1]。在跨平台全高清开发中，他处理过零售测试机上的帧率骤降与光影色调变化问题，并通过网格面数削减与贴图管线优化应对显存压力 [1]。他认为在少数精锐的独立小团队中，个人的每笔雕琢与每行代码都直接决定作品品质 [1]。
+    last: '2024'
+  summary: T.M. 是 2011 年入职的 3D 图形设计师，在《TEMBO THE BADASS ELEPHANT》中以地图模型为中心参与 3D 图形的整体工作 [1]。此前也参与过《节奏猎人 和谐》的开发，并主动应征齿轮项目、自行提交企划 [1]。在齿轮项目中经历了 PC 与 Xbox One 等多平台同时开发的困难 [1]。其观点是齿轮项目在设备与内容上限制少，开发者能从企划到发售全程负责，更能体会到亲手做游戏的感觉 [1]。目前从事将机器学习应用于游戏开发的应用研究与开发 [2]。
   citations:
   - n: 1
     post: 2015-08-01-interview-gamefreak-gear-tembo-turner
     title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
-    date: '2015-08-01'
+    date: '2015-10-12'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2011 年入社的 3D 图形设计师，在《坏象坦博》中以场景地图模型为中心制作 3D 资产。
+    detail: 以地图模型为中心参与《TEMBO THE BADASS ELEPHANT》3D 图形整体工作，并经历三平台同时开发的困难。
+  - n: 2
+    post: 2021-12-27-interview-gamefreak-crosstalk-new-graduate
+    title: GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声
+    date: '2024-02-13'
+    publication: Game Freak 採用情報
+    detail: 自述从事将机器学习应用于游戏开发的应用研究与开发。
   expertise:
-  - 3D 图形
-  - 场景地图模型
-  - 3D 资产制作
-  - 性能优化
-  - 贴图管线
+  - 3D图形
+  - 地图模型
+  - 多平台开发
+  - 企划提案
+  - 机器学习应用
 - name: 田谷正夫
   slug: taya-masao
   kind: person
   interviews:
-    entries: 4
-    spoken_in: 2
+    entries: 3
+    spoken_in: 3
     columns: 0
     first: '2011'
-    last: '2016'
+    last: '2017'
   credits:
     games: 12
     core_games: 12
@@ -2668,26 +2675,32 @@
       games: 11
     - cat: 总监/制作人
       games: 1
-  summary: 田谷正夫长期从事程序开发，署名作品以程序职位为主，也担任过总监，并在2026年《Pokémon Pokopia》起任部门总监（Narrative Director）。在三打对战与轮转对战的设计中，他关注招式演出能否正常显示与处理速度，并说明轮转对战是为让初学者也能获胜而引入运气要素的规则[1]。他认为三打对战是双打对战的进化形、策略性高，轮转对战运气要素强，两者形成对照，因此都加入是对的[1]。在《宝可骑行》中他担任总监，此前曾利用工作间隙试做程序，重现类似《德比骏马》最后直道的场景，因看到做出有吸引力直道攻防的前景而推进企划[2]。他强调先把有吸引力的部分做出来并成形，是开发思路中很重要的一点[2]。
+  summary: 田谷正夫长期负责宝可梦系列的系统与内部设计，1996年入职后参与《宝可梦 蓝》之后的系列作品[3]。在三打对战与轮转对战的设计中，他关注招式演出能否正常显示、处理速度能否跟上，并参与引入运气要素以让初学者更容易获胜的轮转对战规则[1]。他曾试做重现《德比骏马》最后直道场景的程序，并以此推进《宝可骑行》的企划，认为先把有吸引力的部分做出来并成形是重要的开发思路[2]。在《宝可梦 X·Y》全面3D化、开发规模达到过去最大的背景下，他提议成立研究开发部，并于2015年4月正式启动，口号是“解决‘难做’，实现‘想做细’”[3]。
   citations:
   - n: 1
     post: 2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets
     title: 週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性
     date: '2011-01-20'
-    publication: 週刊ファミ通 2011年2月3日号
-    detail: 谈三打对战开发时留意招式演出与处理速度，并说明轮转对战为引入运气要素的规则
+    publication: 週刊Fami通 No.1155
+    detail: 谈三打对战开发时留意招式演出显示与处理速度，并参与加入轮转对战。
   - n: 2
     post: 2016-04-18-interview-denfami-sonobe-gamefreak-morimoto
     title: Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经
     date: '2016-04-18'
     publication: ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛
-    detail: 自述任《宝可骑行》总监，曾试做程序重现《德比骏马》最后直道场景
+    detail: 曾任《宝可骑行》总监，此前试做重现《德比骏马》最后直道的程序。
+  - n: 3
+    post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
+    title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
+    date: '2017-03-29'
+    publication: Game Freak 採用情報 (Wayback 历史存档)
+    detail: 1996年入职，任研究开发部部长，2015年4月启动该部门。
   expertise:
   - 程序
+  - 系统设计
+  - 内部设计
   - 战斗系统
-  - 对战规则
-  - 赛马游戏
-  - 总监
+  - 研究开发
 - name: M.I.
   slug: m-i
   kind: person
@@ -2702,13 +2715,13 @@
   - n: 1
     post: 2013-11-01-interview-gamefreak-recruit-programmer-tt-mi
     title: GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）
-    date: '2013-11-01'
+    date: '2013-10-20'
     publication: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
     detail: 2011年社招中途入职，此前在另一家游戏公司3D图形R&D部门任职。
   - n: 2
     post: 2015-09-01-interview-gamefreak-rnd-launch-taya-mi
     title: GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标
-    date: '2015-09-01'
+    date: '2015-10-21'
     publication: GAME FREAK 招聘网站
     detail: 从《宝可梦 X・Y》开始参与，负责Maya插件开发、角色渲染与着色器编程。
   - n: 3
@@ -2732,26 +2745,26 @@
     columns: 0
     first: '2015'
     last: '2017'
-  summary: A.I. 是 2014 年入社的动作设计师，此前在传统动画行业从事 2D 原画手绘与 3D 角色动作制作，转行游戏界后负责关键剧情过场动画的核心演出动作以及宝可梦的常态待机与攻击动作 [1]。其专长在于纯手工逐帧调校的夸张动态戏剧感与作画神韵，主张以手工雕琢的生动夸张赋予宝可梦生命神韵 [1][2]。在《宝可梦 太阳·月亮》项目中，全面统筹主导阿罗拉大地图野外生态宝可梦的生态动作及众多核心主要角色高潮剧情演出的大量关键动作 [2]。其方法是将手绘商业动画中沉淀的动作张弛节奏心法运用于 3D 空间中的角色动作制作 [2]。
+  summary: A.I. 于2014年作为动态设计师入职，此前在动画行业做了7年动画师，参与电视周播动画和剧场动画的赛璐璐风格3DCG制作 [1][2]。其专长集中在偏2D风格的手工感3D动作，并希望把动画行业一人完成构图、运镜与角色动作的经验用于游戏 [1]。在《宝可梦 太阳·月亮》中负责宝可梦在场景里的动作，以及霸主宝可梦出现事件的演示场景，从运镜等演出到镜头制作均由其承担 [2]。其观点是游戏动作是交互式的、用户可360度观看，与以镜头为前提的动画动作难度不同 [2]。今后希望进一步参与演出，在事件演示中实现景深表现等 [2]。
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-designers
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 入社不久即被指派主导关键剧情过场动画核心演出动作及新宝可梦待机与攻击动作。
+    detail: 动画行业做动画师7年，主要做周播动画和剧场动画的赛璐璐风格3DCG。
   - n: 2
     post: 2017-09-01-interview-gamefreak-recruit-cross-industry
     title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
-    date: '2017-09-01'
+    date: '2017-01-19'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 在《宝可梦 太阳·月亮》中统筹主导阿罗拉野外生态宝可梦生态动作与主要角色高潮剧情演出。
+    detail: 负责《宝可梦 太阳·月亮》中宝可梦场景动作与霸主宝可梦出现事件演示。
   expertise:
-  - 动作设计
-  - 逐帧作画
-  - 过场演出
-  - 生态动作
-  - 角色动作
+  - 动态设计
+  - 3D动画
+  - 动作制作
+  - 运镜演出
+  - 事件演示
 - name: R.M.
   slug: r-m
   kind: person
@@ -2761,26 +2774,27 @@
     columns: 0
     first: '2015'
     last: '2021'
-  summary: R.M. 以事件与剧情策划的身份进入游戏开发，早期在大型动作冒险系列中负责支线剧情事件策划与脚本语言逻辑实现 [1]。加入 GAME FREAK 后，其工作重心转向场景相关规格制作，在《宝可梦 剑／盾》中负责“果实”树与道馆机关规格的制作 [2]。此后被提拔为《宝可梦 剑／盾 扩充票》场景・对战队伍的负责人 [2]。其策划观点强调让玩家用自己的双脚在大地上探险的原生实感，而非依赖播片剧情 [1]。
+  summary: R.M. 以事件策划身份入职 GAME FREAK，此前在一家大游戏公司参与动作冒险游戏系列，负责支线事件的策划、文本撰写、镜头演出与小游戏规格设计等主线以外的部分 [1]。入职后参与《宝可梦 剑／盾》开发，作为场景组成员负责“果实”树、道馆机关规格的制作，并全程参与从项目初期到发售 [2]。其后被提拔为《宝可梦 剑／盾 扩充票》场景・对战队伍的负责人 [2]。其做法是即便新人，只要是自己负责的企划就担任负责人直到实装，对自己负责之外的企划也会主动提出建议 [2]。
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-planners
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2015 年入社，此前 4 年负责支线剧情事件策划与脚本语言逻辑实现。
+    detail: 入职前4年在一家大游戏公司参与动作冒险游戏系列，负责主线以外的支线事件等。
   - n: 2
     post: 2021-12-27-interview-gamefreak-recruit-planner-rm
     title: GAME FREAK 官方策划特写 R.M.：哪怕是普通的文科生，也能向着顶级游戏策划发起冲击
     date: '2021-12-27'
     publication: Game Freak 採用情報
-    detail: 入职后加入《宝可梦 剑／盾》，负责“果实”树与道馆机关规格制作。
+    detail: 入职后加入《宝可梦 剑／盾》，负责“果实”树与道馆机关规格，第2年任扩充票场景・对战队伍负责人。
   expertise:
   - 事件策划
-  - 剧情策划
+  - 支线事件
+  - 文本撰写
+  - 镜头演出
+  - 小游戏规格
   - 场景制作
-  - 对战队伍
-  - 脚本逻辑
 - name: Y.I.
   slug: y-i
   kind: person
@@ -2790,26 +2804,25 @@
     columns: 0
     first: '2015'
     last: '2019'
-  summary: Y.I. 是场地内容程序员，专长于玩家角色操作手感与移动控制程序的架构，并负责主角与 NPC 的动作逻辑 [1][2]。他曾在高清动作游戏与游戏中间件领域工作，入社后参与《宝可梦 太阳／月亮》研发，从零自研了一套全新的碰撞检测引擎 [2]。他认为把硬件性能彻底榨干、反复推敲的钻研精神是 GAME FREAK 的核心壁垒 [2]。他以《风之克罗诺亚》的跃动浮空手感作为自己进行手感调优的基准原点 [1]。
+  summary: Y.I. 是场地内容程序员，负责玩家程序整体，工作涵盖设计在内的场地玩家相关内容 [1]。在《宝可梦 太阳／月亮》研发中，他负责玩家主角与 NPC 的动作逻辑，并从零全量自研了一套碰撞检测引擎 [2]。他此前有 PlayStation 3、Xbox 360 等主机游戏开发与中间件开发经历，关注硬件性能提升后模型和纹理管理方式需改为面向大规模开发 [1]。他认为把运行平台的硬件性能彻底榨干、反复推敲的钻研精神是 GAME FREAK 的核心壁垒 [2]。
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-programmers
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 以《风之克罗诺亚》的跃动浮空手感作为手感调优的基准原点。
+    detail: 入职半年即负责包括设计在内的场地玩家相关整体内容。
   - n: 2
     post: 2019-04-01-interview-gamefreak-recruit-pg-yi
     title: GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）
-    date: '2019-04-01'
+    date: '2019-12-11'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 在《宝可梦 太阳／月亮》中从零全量自研碰撞检测引擎。
+    detail: 在《太阳／月亮》中从零全量自研碰撞检测引擎。
   expertise:
-  - 操作手感
-  - 移动控制
+  - 玩家程序
+  - 碰撞检测
   - 动作逻辑
-  - 碰撞引擎
-  - 性能调优
+  - 场地内容
   - 底层技术
 - name: H.I.
   slug: h-i
@@ -2820,49 +2833,62 @@
     columns: 0
     first: '2017'
     last: '2017'
-  summary: H.I. 于 2014 年以角色建模师身份入社，此前在印刷出版领域从事高精度商业 3D 渲染，练就了对精密曲面建模、材质触感与色彩还原度的敏锐度 [2]。在《太阳·月亮》中，其负责全地图野生宝可梦、核心 NPC 以及男女主角换装系统的超精密 3D 建模 [2]。在《GIGA WRECKER》的企划中，其从零开始参与原创作品构思，并因机甲偏好提出机器人登场与磁力吸附碎片的设定 [1]。其主张避开与同门作品雷同的纯动作路线，将核心支柱转向物理动作解谜，把 2D 物理引擎碰撞演算作为关卡设计的灵魂中枢 [1]。
+  summary: H.I. 是 2015 年入职的角色建模师，此前在印刷公司 CG 部门做程序员，参与过 CG 自研引擎开发与 CG 内容制作 [1]。在《太阳·月亮》中主要负责场景中宝可梦、NPC、主角换装等若干模型的制作 [1]。其专长横跨角色建模与编程，并希望发挥懂编程的优势在技术方面为提升角色图形做出贡献 [1]。在《GIGA WRECKER》中，他从《宝可梦 X·Y》后期起与 M.O. 两人构思新作方案，参与企划与设计方向的决定 [2]。他关注原创作品的业务化与系列化，并尝试通过地图编辑器等游戏内机制来提升知名度 [2]。
   citations:
   - n: 1
-    post: 2017-03-01-interview-gamefreak-gear-gigawrecker
-    title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
-    date: '2017-03-01'
-    publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 提出主角以磁力吸附机器人碎片的初版设定，并决定转向物理动作解谜。
-  - n: 2
     post: 2017-09-01-interview-gamefreak-recruit-cross-industry
     title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
-    date: '2017-09-01'
+    date: '2017-01-19'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2014 年以角色建模师入社，负责《太阳·月亮》野生宝可梦与换装系统建模。
+    detail: 2015 年入职，此前在印刷公司 CG 部门任程序员，参与 CG 自研引擎开发。
+  - n: 2
+    post: 2017-03-01-interview-gamefreak-gear-gigawrecker
+    title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
+    date: '2017-01-28'
+    publication: Game Freak 採用情報 (Wayback 历史存档)
+    detail: 从《宝可梦 X·Y》后期起与 M.O. 两人构思新作方案，并参与企划决定。
   expertise:
   - 角色建模
-  - 3D 渲染
-  - 物理动作解谜
-  - 原创企划
-  - 换装系统
+  - CG 引擎
+  - 编程
+  - 企划立案
+  - 地图编辑器
 - name: K.K.
   slug: k-k
   kind: person
   interviews:
-    entries: 2
-    spoken_in: 1
+    entries: 3
+    spoken_in: 3
     columns: 0
     first: '2017'
-    last: '2017'
-  summary: K.K. 是 GAME FREAK 研究开发部的技术美术（TA），2014 年入社，为公司历史上第一任专职 TA [1]。其专长领域包括着色器开发、生产力工具自研与跨部门工作流重构 [1]。此前曾经历 3D 建模师与 CG 动画总监等职能，并自学 Python 脚本与图形学 Shader 算法 [1]。其工作方法是在美术设计师的感性表达与程序员的工程逻辑之间进行转译，亲自手写着色器与定制工具 [1]。
+    last: '2024'
+  summary: K.K. 出身于动作设计师，在《宝可梦 太阳·月亮》中负责动作团队的管理，并参与效率化工作 [1]。作为研究开发部的技术美术，他主张把重复作业、文件管理等不属于创作的部分去掉，让设计师专注于创作 [1]。他认为技术能力可以随需要自然跟上，推进力比技术能力更重要 [1]。在面向 Nintendo Switch 的开发中，他提出要看清哪些传统经验应保留、哪些应替换，并整顿出更不易出现 bug 和事故的机制 [2]。他也在人事·招聘部门负责应届生招聘 [3]。
   citations:
   - n: 1
     post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
     title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
-    date: '2017-06-01'
+    date: '2017-03-29'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 自称 2014 年入社，是 GAME FREAK 历史上第一任专职 TA，主导着色器开发与工具自研。
+    detail: 2014年入职研究开发部，出身动作设计师，在《太阳·月亮》负责动作团队管理。
+  - n: 2
+    post: 2019-10-19-interview-gamefreak-rnd-2019
+    title: GAME FREAK 官方专访 研究开发部篇（2019）：引入多种技术，实现“想要精心打磨”（R.T. × Y.Y.）
+    date: '2017-04-01'
+    publication: Game Freak 採用情報
+    detail: 称GAME FREAK为Nintendo Switch开发是很大的一步提升，需整顿机制。
+  - n: 3
+    post: 2021-12-27-interview-gamefreak-crosstalk-new-graduate
+    title: GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声
+    date: '2024-02-13'
+    publication: Game Freak 採用情報
+    detail: 在人事·招聘部门，主要负责应届生招聘。
   expertise:
   - 技术美术
-  - 着色器开发
-  - 工具自研
-  - 工作流重构
-  - 3D 建模
+  - 动作设计
+  - 动作团队管理
+  - 开发效率化
+  - 工具自动化
+  - 应届生招聘
 - name: 凯尔·希利亚德
   slug: kai-er-xi-li-ya-de
   kind: person
@@ -2975,35 +3001,35 @@
     entries: 3
     spoken_in: 3
     columns: 0
-    first: '2021'
-    last: '2021'
-  summary: K.M. 在 GAME FREAK 从事世界观与设定构建，处于游戏开发体系中最上游、最具奠基性的先导环节，需要将构想具象化并推动其转化为角色形象与景观设计 [1]。其工作方法是在开发端玩法企划与既有世界观冲突时，不硬性对抗，而是为玩法寻找能自然融入世界的逻辑与故事脉络 [1]。K.M. 也从事系统程序相关的工作，负责为催生新游戏而进化开发环境，引进与自研技术并将其机制化，同时以 5 到 10 年的跨度进行先行投资式的技术开发 [2]。其此前在大型游戏公司担任过渲染程序员和首席程序员，并两次登上 CEDEC 演讲 [3]。在 GAME FREAK 的研究开发部，K.M. 参与为下一款作品进行画面制作以及基础库的架构设计与重构 [3]。
+    first: '2019'
+    last: '2024'
+  summary: K.M. 曾在大型游戏公司担任渲染程序员和首席程序员，后入职 GAME FREAK，任研究开发部副部长，并统管渲染、动画、技术美术的 CG 技术实验室 [3]。其工作重心不是单款作品本身，而是为制作新游戏而进化开发环境，引进并自行开发新技术，再将其机制化以便应用于游戏开发 [3]。研究开发部的使命包括为下一款作品进行画面制作，以及基础库的架构设计与重构 [1]。在《宝可梦》系列世界观与设定环节，他参与将构想具象化，必要时请设计师绘制概念原画，甚至亲手捏制粘土模型来呈现 3D 空间感 [2]。他强调把需求背后的本质讲清楚，而非只说“前公司是这样的”这类表面话 [3]。
   citations:
   - n: 1
-    post: 2021-12-27-interview-gamefreak-crosstalk-scenario
-    title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
-    date: '2021-12-27'
-    publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
-    detail: 提到把自拍杆重新解读为洛托姆手机的“停栖之木”，以化解玩法企划与世界观的冲突。
-  - n: 2
-    post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
-    title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
-    date: '2021-12-27'
-    publication: システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-    detail: 称系统程序员的使命是进化开发环境，并以 5 到 10 年跨度思考技术开发。
-  - n: 3
     post: 2021-12-27-interview-gamefreak-recruit-programmer-km
     title: GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来
-    date: '2021-12-27'
+    date: '2019-12-11'
     publication: Game Freak 採用情報
-    detail: 自述曾任渲染程序员和首席程序员，两次登上 CEDEC 演讲。
+    detail: 称研究开发部仅渲染程序员就有6位在职，并以5年后为目标规划角色表现路线图。
+  - n: 2
+    post: 2021-12-27-interview-gamefreak-crosstalk-scenario
+    title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
+    date: '2024-02-13'
+    publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+    detail: 提到为具象化3D空间感会亲手捏制粘土模型，并举例把自拍杆重新解读为洛托姆手机的栖木。
+  - n: 3
+    post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+    title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
+    date: '2024-02-13'
+    publication: Game Freak 採用情報
+    detail: 任研究开发部副部长，统管渲染、动画、技术美术的CG技术实验室，称职位可无限增加。
   expertise:
-  - 世界观设定
-  - 编剧
-  - 渲染技术
-  - 系统程序
+  - 渲染
+  - 动画
+  - 技术美术
   - 基础库架构
-  - 研发规划
+  - 开发环境
+  - 世界观设定
 - name: T.K.
   slug: t-k
   kind: person
@@ -3755,20 +3781,19 @@
     columns: 0
     first: '2015'
     last: '2015'
-  summary: T.W. 于 2015 年以 UI 设计师身份中途入社，此前自 1999 年进入游戏行业，长期在研发一线工作 [1]。上一份工作在一家社交手游大厂，负责 UI 视觉交互设计与整体艺术指导，经历过家用主机大作与移动手游的研发管线 [1]。其专长方向是 UI 视觉交互设计与艺术指导，并希望打造更具沉浸感的 UI 交互体系 [1]。在做法上，他主张吸收移动设备直觉化触控交互的经验，同时保留主机实体按键带来的回馈感 [1]。他也看重《宝可梦》老少皆宜、富亲和力的设计美学与自身视觉表现手法的契合 [1]。
+  summary: T.W. 长期以 UI 岗位为主从事游戏制作，早期在大游戏公司做主机游戏开发，之后转向社交游戏领域 [1]。在上一家公司曾被委任手机游戏的运营，并有对数字负责的管理经验 [1]。其开发关注点在于做出更有沉浸感的 UI，让玩家更大程度体验到与宝可梦直接接触的感觉 [1]。选择入职 GAME FREAK 的原因之一，是其“游戏开发就该是这样”的理念与自己的理想形态相契合 [1]。
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-designers
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2015 年以 UI 设计师身份中途入社，1999 年入行。
+    detail: 2015年度作为UI设计师入职，此前有主机游戏与社交游戏经历，并做过手机游戏运营。
   expertise:
-  - UI 设计
-  - 视觉交互
-  - 艺术指导
-  - 触控交互
-  - 主机 UI
+  - UI设计
+  - 主机游戏开发
+  - 社交游戏
+  - 手机游戏运营
 - name: T.A.
   slug: t-a
   kind: person
@@ -3778,19 +3803,19 @@
     columns: 0
     first: '2015'
     last: '2015'
-  summary: T.A. 是 2014 年入社的特效设计师，自大学毕业进入第一家公司被分配负责特效制作起，始终专精于特效这一领域 [1]。在加入 GAME FREAK 之前，他在上一家主机游戏研发公司专注做了六年各类型动作游戏与 RPG 的技能粒子特效 [1]。他关注招式特效的独立辨识度与动作节奏，认为 GF 的自研可视化工具链让特效师能自行完成从粒子发射、材质混合到镜头震屏的闭环 [1]。除本职外，他也希望参与宝可梦新物种设计案的提案 [1]。
+  summary: T.A. 是特效设计师，2014年度作为特效设计师入职，此前已有7年特效岗位经验。[1]其专长集中在招式特效等游戏特效制作，对物体爆开、飞散的表现形式有长期兴趣，学生时代做过此类动画。[1]在制作方法上，T.A. 关注特效与背景、角色的融合及细节处理，并重视特效制作的效率与实现工具。[1]此外，T.A. 表示想应征宝可梦设计方案，也愿意挑战活动场景分镜。[1]
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-designers
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 自入行起专精特效，入 GF 前做了六年动作游戏与 RPG 技能粒子特效。
+    detail: 称自己2014年度入职，此前7年一直负责特效，并想应征宝可梦设计方案。
   expertise:
-  - 特效制作
-  - 技能粒子特效
-  - 招式演出
-  - 可视化工具链
+  - 特效设计
+  - 招式特效
+  - 动画表现
+  - 分镜
 - name: M.K.
   slug: m-k
   kind: person
@@ -3800,20 +3825,20 @@
     columns: 0
     first: '2015'
     last: '2015'
-  summary: M.K. 是场地环境程序员，主要负责全公司资产管线与美术开发工具链的搭建与性能优化 [1]。此前曾在家用主机游戏公司担任系统程序员，负责内部专用生产力工具开发与游戏引擎底层架构维护 [1]。其研究与实践方向是用软件工程手段提升游戏一线生产效率 [1]。在项目取向上，他要求做实体盒装大作，并看重 GAME FREAK 的齿轮企划所提供的少人数原创 IP 通道 [1]。
+  summary: M.K. 是 2014 年度入职的场地环境程序员，主要负责资源管线和工具的构建 [1]。此前在研究生院研究支持游戏创作者的系统，之后进入大型社交游戏公司，在浏览器游戏开发与运营部门做服务器端编程 [1]。其关注点在于大规模开发如何顺利推进，以及沟通手段、信息管理和资产管线所用工具类的改善余地 [1]。主张完善开发环境，以便用更少的人制作同等规模的游戏，并通过开发环境、工具及使用者意识改革来扩大挑战新内容的空间 [1]。
   citations:
   - n: 1
     post: 2015-10-01-interview-gamefreak-recruit-programmers
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
-    date: '2015-10-01'
+    date: '2015-10-21'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2014 年入社，负责全公司资产管线与美术开发工具链搭建及性能优化。
+    detail: 2014 年度入职，任场地环境程序员，负责资源管线和工具构建。
   expertise:
-  - 资产管线
-  - 美术工具链
-  - 性能优化
-  - 系统程序
-  - 引擎底层
+  - 资源管线
+  - 工具构建
+  - 场地环境
+  - 服务器端
+  - 开发环境
 - name: 远藤雅伸
   slug: endo-masanobu
   kind: person
@@ -3852,33 +3877,33 @@
     spoken_in: 3
     columns: 0
     first: '2017'
-    last: '2021'
-  summary: M.O. 在 GAME FREAK 担任过《GIGA WRECKER》的总监，主导将物理破坏玩法与 Steam 抢先体验模式结合的方向 [1]。他参与《Pokémon LEGENDS 阿尔宙斯》等正统作的开发，关注从试作阶段探讨宝可梦行为如何显得自然有趣 [2]。他认为游戏程序员应主动提出实现方案，把感觉层面的体验语言化并积累为经验诀窍 [2]。他参与推动程序员组织细分，将游戏程序员与系统程序员分工，并强调游戏程序员可反向要求系统程序员引入技术框架 [3]。
+    last: '2024'
+  summary: M.O. 从《宝可梦 黑·白》起参与系列作品开发，目前担任开发一部程序员的部门总监及程序员岗位的招聘负责人 [2]。其专长集中在物理引擎与游戏程序实现，因想用物理引擎做一款扎实的游戏而主导了《GIGA WRECKER》的开发 [1]。在程序组织上，他参与推动将程序员细分为系统程序员与游戏程序员两大序列，并强调游戏程序员应理解玩家渴望的沉浸体验、把玩法做成具体形态 [3][2]。他认为游戏程序员需要抓住“玩法的本质”，理解现实世界中也能感受到的趣味并重构为游戏 [2]。
   citations:
   - n: 1
     post: 2017-03-01-interview-gamefreak-gear-gigawrecker
     title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
-    date: '2017-03-01'
+    date: '2017-01-28'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 担任《GIGA WRECKER》总监，决定以 Steam 抢先体验面向全球发售。
+    detail: 称自己从学生时代接触物理引擎，因想用物理引擎做扎实的游戏而参加 Gear Project。
   - n: 2
     post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
     title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
-    date: '2021-12-27'
-    publication: ゲームプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-    detail: 谈《Pokémon LEGENDS 阿尔宙斯》试作阶段探讨宝可梦行为表现。
+    date: '2024-02-13'
+    publication: Game Freak 採用情報
+    detail: 表示从《宝可梦 黑·白》起参与系列开发，现任开发一部程序员部门总监。
   - n: 3
     post: 2021-12-27-interview-gamefreak-crosstalk-programmer
     title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
-    date: '2021-12-27'
+    date: '2024-02-13'
     publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
-    detail: 说明程序员细分为系统程序员与游戏程序员两大序列。
+    detail: 称 GAME FREAK 将程序员细分为系统程序员与游戏程序员两大序列。
   expertise:
-  - 物理玩法
-  - 动作设计
+  - 物理引擎
   - 游戏程序
-  - 玩法本质
-  - 组织改革
+  - 玩法实现
+  - 程序组织
+  - 人才招聘
 - name: 尾上将之
   slug: wei-shang-jiang-zhi
   kind: person
@@ -4051,21 +4076,20 @@
     columns: 0
     first: '2017'
     last: '2017'
-  summary: S.A.是2015年中途入社、隶属于研究开发部的系统程序员，此前在大型系统集成商从事企业级底层架构研发[1]。其经手领域包括大规模金融级核心清算系统与高并发 Web 服务的后端研发，并磨练了系统解耦设计、持续集成体系与全自动化回归测试集群架构[1]。其做事方法强调以最新软件工程思想推动全公司生产力，并反对照客户需求文档应付交差的乙方思维[1]。其观点是所写的每一行代码必须能清楚看到最终用户的笑容与温度[1]。
+  summary: S.A.是2015年通过社招入职GAME FREAK的程序员，隶属研究开发部，此前在大型SIer从事开发岗工作[1]。他负责开发环境的搭建与维护、库的构建和修改等工作[1]。在《太阳·月亮》中，有人找他商量战斗的随机数问题，他运用计算机科学的知识进行了实现和测试，并对各种规格提出了建议[1]。他认为与大型企业相比，改变现有框架的阻力较小，希望不断引入更高效的开发方法和工具[1]。他也希望整备开发环境，让受困于旧工作流或抵触新工具的人能舒适地接受新做法[1]。
   citations:
   - n: 1
     post: 2017-09-01-interview-gamefreak-recruit-cross-industry
     title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
-    date: '2017-09-01'
+    date: '2017-01-19'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 2015年中途入社，隶属研究开发部，任系统程序员。
+    detail: 2015年社招入职，研究开发部程序员，负责开发环境搭建与维护、库的构建和修改。
   expertise:
-  - 系统程序
-  - 底层架构
-  - 后端研发
-  - 系统解耦
-  - 持续集成
-  - 自动化测试
+  - 开发环境
+  - 库构建
+  - 战斗随机数
+  - 规格建议
+  - 工具引入
 - name: 宇都宫崇人
   slug: utsunomiya-takato
   kind: person
@@ -5668,25 +5692,32 @@
   slug: k-i
   kind: person
   interviews:
-    entries: 1
-    spoken_in: 1
+    entries: 2
+    spoken_in: 2
     columns: 0
-    first: '2021'
-    last: '2021'
-  summary: K.I. 是 GAME FREAK 的游戏程序员，工作重心在于把玩法创意直接落实到代码中，并在确认手感的同时不断推进原型 [1]。其参与的核心玩法验证包括“野生宝可梦栖息在旷野中，向其投掷球进行捕捉”这一原型的趣味性确认 [1]。在具体做法上，K.I. 关注投球的旋转与轨迹、奔跑转弯的惯性、镜头跟随程度等细节所带来的“快感” [1]。其观点是希望将“游戏的趣味性”体系化，把个人反复试错积累的经验诀窍与手感直觉作为组织知识共享 [1]。
+    first: '2019'
+    last: '2024'
+  summary: K.I. 小时候因《宝可梦 红·绿》立志成为游戏程序员，入职后一直参与《宝可梦》系列的开发，也担任过总监 [1][2]。其工作方式强调从“想给用户什么样的体验”这一概念出发自行思考，而非把总监下达的内容当作作业完成 [1]。在开发中重视试作，从“在场景中直接朝野生宝可梦扔球捕捉”等部分开始验证，以实现让宝可梦像生活在游戏世界里一样的新体验 [2]。作为今后愿景，K.I. 希望把“游戏的趣味”体系化，将经验与知识方法化并通过学习会等形式共享 [2]。
   citations:
   - n: 1
+    post: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019
+    title: GAME FREAK 官方对谈 程序员篇（2019 年版）：土生土长的游戏程序员与拥有最新技术的程序员的合作（T.T. × K.I.）
+    date: '2019-12-11'
+    publication: Game Freak 採用情報
+    detail: 称入职后一直参与《宝可梦》系列开发，兼任团队领导和招聘负责人。
+  - n: 2
     post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
     title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
-    date: '2021-12-27'
-    publication: ゲームプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-    detail: 参与验证“旷野中投球捕捉宝可梦”核心玩法原型，并关注投球轨迹、惯性与镜头等手感细节。
+    date: '2024-02-13'
+    publication: Game Freak 採用情報
+    detail: 称参与多款《宝可梦》系列开发，也担任过总监，现为开发二部副部长。
   expertise:
-  - 玩法原型
   - 游戏程序
-  - 手感验证
-  - 核心玩法
-  - 趣味性体系化
+  - 宝可梦系列开发
+  - 试作验证
+  - 玩法体系化
+  - 团队领导
+  - 招聘
 - name: 谷博行
   slug: gu-bo-xing
   kind: person
@@ -18299,3 +18330,47 @@
   - 背影表现
   - 音效感受
   - 动画影响
+- name: D.N.
+  slug: d-n
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: D.N.入职后担任场景程序员，被分配到《宝可梦》项目的场景团队，负责角色动作、配置、玩法等范围较广的内容 [1]。其技术背景包括着色器编程，并曾用Ruby编写用于提取表格数据错误的项目工具脚本 [1]。在培训中使用任天堂SDK和GAME FREAK内部库制作游戏 [1]。其做事方法强调尽可能防止bug，让处于无法联网、不能更新环境的用户也能开心游玩 [1]。
+  citations:
+  - n: 1
+    post: 2019-12-11-interview-gamefreak-recruit-programmer-dn
+    title: GAME FREAK 官方程序员特写 D.N.：开心地制作，所以才能做出好玩的游戏
+    date: '2019-12-11'
+    publication: Game Freak 採用情報
+    detail: 入职后担任场景程序员，被分配到《宝可梦》项目场景团队。
+  expertise:
+  - 场景编程
+  - 着色器编程
+  - 工具脚本
+  - 调试
+  - 玩法配置
+- name: 小川一美
+  slug: ogawa-kazumi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: 小川一美以中途录用方式入职GAME FREAK，入职后立刻加入了已经启动的《GIGA WRECKER》项目[1]。在GAME FREAK，多数人是从《宝可梦》项目起步，像这样直接进入新IP项目的经历很少见[1]。其经手的领域为《GIGA WRECKER》这一新IP的开发。
+  citations:
+  - n: 1
+    post: 2019-12-11-interview-gamefreak-projectstory-giga-wrecker
+    title: GAME FREAK Project Story《GIGA WRECKER》：从零开始全靠自己打造新IP（尾上将之、伊藤博人、小川一美）
+    date: '2019-12-11'
+    publication: Game Freak 採用情報
+    detail: 中途录用入职后立刻加入已启动的《GIGA WRECKER》项目，未从《宝可梦》项目起步。
+  expertise:
+  - 新IP开发
+  - 中途入职
+  - 项目开发

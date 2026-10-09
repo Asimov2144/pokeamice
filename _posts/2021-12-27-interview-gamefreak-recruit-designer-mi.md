@@ -4,6 +4,11 @@ layout: interview-editorial
 title: GAME FREAK 官方动作与UI设计师特写 M.I.：不局限于美术图形，而要全盘融入游戏构筑的无限可能
 title_ja: 入社したのは、グラフィックだけでなく、ゲームづくりを丸ごとやりたかったから。｜デザイナー社員紹介 M.I.
 date: 2021-12-27 10:00:00 +0900
+recruit:
+  page: interview-gr-mi
+  version: '2022-06-28'
+  capture: '20220628153440'
+  date_basis: 招聘首页 2021-12-13 的快照还没有、2022-03-11 的已有，与策划对谈（Wayback 首见 2022-01-25）同批
 era: '2021'
 era_skin: '2019'
 categories:

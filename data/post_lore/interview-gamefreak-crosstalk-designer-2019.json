@@ -1,0 +1,63 @@
+{
+ "id": "interview-gamefreak-crosstalk-designer-2019",
+ "stem": "2019-12-11-interview-gamefreak-crosstalk-designer-2019",
+ "rev": 1,
+ "built": "2026-10-09",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 24
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "T.U.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     6,
+     8,
+     12,
+     15
+    ]
+   },
+   {
+    "name": "J.K.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     7,
+     11,
+     14,
+     19
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "J.K.说宝可梦的模型有1000多只",
+   "anchor": 8
+  },
+  {
+   "seg": 18,
+   "text": "T.U.面试时看应聘者用技能做过怎样的创意功夫",
+   "anchor": 19
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -2,11 +2,11 @@
  "id": "interview-gamefreak-crosstalk-game-programmer",
  "stem": "2021-12-27-interview-gamefreak-crosstalk-game-programmer",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-09",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 20
+  "n": 24
  },
  "facets": {
   "pokemon": [
@@ -26,38 +26,24 @@
    {
     "name": "宝可梦传说 阿尔宙斯",
     "slug": "legends-arceus",
-    "seg": [],
+    "seg": [
+     4
+    ],
     "via": "entities"
    },
    {
-    "name": "宝可梦 黑／白",
-    "slug": null,
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
     "seg": [
      1
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 红／绿",
-    "slug": null,
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
     "seg": [
      2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon LEGENDS 阿尔宙斯",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     8
     ],
     "via": "llm"
    }
@@ -68,12 +54,12 @@
     "slug": "m-o",
     "role": "speaker",
     "seg": [
+     1,
      4,
      6,
      8,
-     11,
-     13,
-     16
+     12,
+     14
     ]
    },
    {
@@ -81,205 +67,27 @@
     "slug": "k-i",
     "role": "speaker",
     "seg": [
+     2,
      5,
      7,
-     10,
-     12,
-     14,
-     17
+     11,
+     13,
+     15
     ]
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     1
-    ],
-    "as": [
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     2
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     5
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     5,
-     6,
-     7,
-     19
-    ],
-    "as": [
-     "原型",
-     "试作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     7
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     7,
-     13
-    ],
-    "as": [
-     "代码",
-     "编写程序"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     7,
-     10
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "open-world",
-    "name": "开放世界",
-    "facet": "system",
-    "seg": [
-     8
-    ],
-    "as": [
-     "开放世界"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     17
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     19
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     19
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
    "seg": 5,
-   "text": "K.I.说推进项目前先制作了投球捕捉野生宝可梦的核心玩法原型",
-   "anchor": 9
+   "text": "K.I.说推进项目前先从朝野生宝可梦扔球捕捉的试作开始。",
+   "anchor": 6
   },
   {
-   "seg": 11,
-   "text": "M.O.列举跳跃动作需调整起跳、滞空、着地硬直、重力等数值",
-   "anchor": 16
+   "seg": 6,
+   "text": "M.O.说从试作阶段起就深究草丛中宝可梦的视线与动作如何像生物。",
+   "anchor": 7
   }
  ],
  "relations": [
@@ -311,9 +119,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

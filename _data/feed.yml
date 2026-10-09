@@ -6,6 +6,12 @@
 #   cover  可选，一张图（站内路径或完整 URL）
 #   label  可选，链接文字（默认「看看 →」）
 # 新功能上线、专题做完、一批校对完成，都往这里加一条，新的写在前面。
+- date: '2026-10-09'
+  title: GAME FREAK 招聘站：按存档版本重收，新收 12 篇
+  text: 招聘站会沿用网址换人换文。逐页对过 Wayback 存档后，10 篇「原文」与官网不符的访谈按存档重收重译；新收 2019 年版程序员、设计师对谈，新卒程序员对谈，剑盾与《GIGA WRECKER》的 Project Story，渡边哲也、大森滋的开发负责人寄语，2009 年渡边哲也、增田顺一的中途招聘寄语等 12 篇。每篇开头写明译自哪一版。
+  url: /keys/gamefreak-recruit-archive/
+  cover: /assets/img/interviews/gamefreak-projectstory-sword-shield/mv.jpg
+  label: 看版本档案 →
 - date: '2026-10-08'
   title: 文章的摘要、标签与译注整理
   text: 351 篇文章补上了缺的标签，十篇摘要重写，日文标签译成中文，作品名统一为「宝可梦 X·Y」一类的写法。句中的译注收进了点开才看到的注释，段首整段的译注则恢复成译文段落。

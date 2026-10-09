@@ -1,0 +1,123 @@
+{
+ "id": "interview-gamefreak-recruit-designers-2017",
+ "stem": "2017-03-29-interview-gamefreak-recruit-designers-2017",
+ "rev": 1,
+ "built": "2026-10-09",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 36
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "GIGA WRECKER",
+    "slug": null,
+    "seg": [
+     23
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "PlayStation®3",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "PlayStation®4",
+    "slug": null,
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "J.K.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     3,
+     8,
+     13,
+     19,
+     24,
+     30
+    ]
+   },
+   {
+    "name": "Y.U.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     9,
+     15,
+     20,
+     25,
+     31
+    ]
+   },
+   {
+    "name": "H.O.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     11,
+     14,
+     21,
+     23,
+     29
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "三轩茶屋",
+    "id": "carrot_tower",
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     21
+    ],
+    "via": "extra",
+    "what": "GAME FREAK 胡萝卜塔所在"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "J.K.在大型游戏公司做街机图形设计5年",
+   "anchor": 9
+  },
+  {
+   "seg": 9,
+   "text": "Y.U.先进入印刷行业，工作约一年半",
+   "anchor": 10
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,12 +1,14 @@
 ---
-archive_type: interview_translation
 layout: interview-editorial
+archive_type: interview_translation
 title: GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声
+display_title: 入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。
 title_ja: 新卒若手対談：入社の理由は？新人研修は？成長できる環境？若手社員6人が、本音で語り合いました。
-date: 2021-12-27 10:00:00 +0900
-era_skin: '2019'
+date: 2024-02-13 10:00:00 +0900
+era: '2024'
 categories:
 - interviews
+- gamefreak-recruit
 tags:
 - Game Freak
 - 招聘对谈
@@ -17,152 +19,243 @@ tags:
 - 导师制度
 - 年轻开发者
 - 招聘访谈
+publication: Game Freak 採用情報
+original_link: https://www.gamefreak.co.jp/recruit/crosstalk-new-graduate/
+source_url: https://web.archive.org/web/20240229104209/https://www.gamefreak.co.jp/recruit/crosstalk-new-graduate/
 source:
-  title: 新卒若手対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
+  title: 新卒若手対談｜採用情報
   url: https://www.gamefreak.co.jp/recruit/crosstalk-new-graduate/
-interviewee: R.S., T.M., A.T., I.F., R.N., K.K.
-summary: GAME FREAK 官方招聘特辑·应届新人篇！汇聚了企划、AI程序、UI交互、2D概念原画、物理模拟以及招聘人事的6位新世代年轻社员。大家毫无保留地畅谈了从高校学生蜕变为职业游戏人的心路历程：包括跨学科背景在宝可梦巨型项目中的实战落地、从零打造完整游戏原型的新人混合研修制度、细致入微的导师代码评审与设计建议，以及无论资历皆可畅所欲言、大胆提案的扁平研发生态！
+  language: ja
+  source_type: official_interview
+author: Game Freak 官方
+interviewee: I.F.、T.M.、A.T.、R.N.、R.S.、K.K.
+original_lang: ja
+translation_lang: zh-CN
+translator: PokeAmice（DeepSeek 初译）
+summary: GAME FREAK 六位年轻员工谈入职理由、新人培训和成长环境。有人因面试时策划的建议决定入职，有人想发挥 AI 研究专长，有人被 Gear Project 吸引。培训后他们被委以重要工作，包括机器学习用于角色动作、UI 设计等。公司重视主动性，有提方案的文化。
+dek: 入职理由、新人培训、成长环境，6位年轻员工坦率交谈。
 entities:
   people:
-  - R.S.
+  - I.F.
   - T.M.
   - A.T.
-  - I.F.
   - R.N.
+  - R.S.
   - K.K.
   works:
   - 宝可梦 朱·紫
   - Gear Project
+recruit:
+  page: crosstalk-new-graduate
+  version: '2024-02-29'
+  capture: '20240229104209'
+  date_basis: 页面素材批次 ?20240213；Wayback 首见 2024-02-29，2022-10-15 的招聘首页还没有这一篇
 parallel_items:
 - type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/mv.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/mv.jpg
-  caption: GAME FREAK 官方对谈：应届新人篇
+  src: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/mv.jpg
+- type: profile
+  speaker: I.F.
+  speaker_orig: I.F.
+  role_ja: 2022年入社
+  original: アニメーション、シュミレーションなどの基礎開発を担当している。
+  role: answer
+  translation: 负责动画、模拟等基础开发。
+  role_zh: 2022年入职
+  avatar: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-if.jpg
+- type: profile
+  speaker: T.M.
+  speaker_orig: T.M.
+  role_ja: 2022年入社
+  original: 機械学習をゲーム開発に活かすための応用研究・開発に携わっている。
+  role: answer
+  translation: 从事将机器学习应用于游戏开发的应用研究与开发。
+  role_zh: 2022年入职
+  avatar: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-tm.jpg
+- type: profile
+  speaker: A.T.
+  speaker_orig: A.T.
+  role_ja: 2023年入社
+  original: ゲームのUIデザインやオーサリングを担当している。
+  role: answer
+  translation: 负责游戏的UI设计和内容制作。
+  role_zh: 2023年入职
+  avatar: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-at.jpg
+- type: profile
+  speaker: R.N.
+  speaker_orig: R.N.
+  role_ja: 2023年入社
+  original: キャラクターデザインや世界観設定に関わる2Dグラフィックの作成を担当。
+  role: answer
+  translation: 负责角色设计和世界观设定相关的2D图形制作。
+  role_zh: 2023年入职
+  avatar: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-rn.jpg
+- type: profile
+  speaker: R.S.
+  speaker_orig: R.S.
+  role_ja: 2022年入社
+  original: ゲームの企画や仕様策定、実装進行を手がけている。
+  role: answer
+  translation: 负责游戏的企划、规格制定和实现推进。
+  role_zh: 2022年入职
+  avatar: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-rs.jpg
+- type: profile
+  speaker: K.K.
+  speaker_orig: K.K.
+  role_ja: 2022年入社
+  original: 人事・採用として、主に新卒採用を担当している。
+  role: answer
+  translation: 在人事·招聘部门，主要负责应届生招聘。
+  role_zh: 2022年入职
+  avatar: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-kk.jpg
 - type: heading
-  original: 登壇者プロフィール（受访嘉宾档案）
-  translation: 受访嘉宾档案
-- type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-rs.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-rs.jpg
-  caption: R.S.（企划策划 / 2022年入职）
-- type: paragraph
-  original: R.S.（2022年入社 / プランナー）：ゲームの企画や仕様策定、実装進行を手がけている。
-  translation: R.S.（2022年入职 / 游戏企划）：负责游戏玩法策划、机制规范制定与实装推进。
-- type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-tm.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-tm.jpg
-  caption: T.M.（程序员 / 2022年入职）
-- type: paragraph
-  original: T.M.（2022年入社 / プログラマ）：機械学習をゲーム開発に活かすための応用研究・開発に携わっている。
-  translation: T.M.（2022年入职 / 程序员）：投身于将机器学习与 AI 算法应用于游戏研发的前沿探索与工具开发。
-- type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-at.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-at.jpg
-  caption: A.T.（UI设计师 / 2023年入职）
-- type: paragraph
-  original: A.T.（2023年入社 / デザイナー）：ゲームのUIデザインやオーサリングを担当している。
-  translation: A.T.（2023年入职 / 设计师）：负责游戏界面的 UI 视觉设计与交互效果制作。
-- type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-if.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-if.jpg
-  caption: I.F.（程序员 / 2022年入职）
-- type: paragraph
-  original: I.F.（2022年入社 / プログラマ）：アニメーション、シュミレーションなどの基礎開発を担当している。
-  translation: I.F.（2022年入职 / 程序员）：负责角色动作动画、物理仿真模拟等核心底层基础研发。
-- type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-rn.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-rn.jpg
-  caption: R.N.（2D视觉设计师 / 2023年入职）
-- type: paragraph
-  original: R.N.（2023年入社 / デザイナー）：キャラクターデザインや世界観設定に関わる2Dグラフィックの作成を担当。
-  translation: R.N.（2023年入职 / 设计师）：负责角色设定、概念原画及世界观相关 2D 美术资产的绘制创作。
-- type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-kk.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/member-kk.jpg
-  caption: K.K.（人事招聘 / 2022年入职）
-- type: paragraph
-  original: K.K.（2022年入社 / 人事）：人事・採用として、主に新卒採用を担当している。
-  translation: K.K.（2022年入职 / 人事）：负责组织人才招募，主要统筹推进全国高校应届毕业生的校园招聘与培养工作。
-- type: heading
+  level: 3
   original: 『ポケモン』シリーズが好き。研究を活かしたい。ギアプロジェクトに興味あり。入社の理由はさまざま。
-  translation: 热爱《宝可梦》系列、希望发挥学术研究成果、对 GEAR 企划深感兴趣——大家入职的契机丰富多样。
+  translation: 喜欢《宝可梦》系列。想发挥研究专长。对Gear Project感兴趣。入职理由各不相同。
+  note: Gear Project是GAME FREAK的一个原创游戏企划项目。
+- type: text
+  original: 'プランナー
+
+
+    ゲームがすごく好きで、ゲーム開発者のインタビュー記事を読んで「ゲームを考える仕事って面白そうだな」と思ったのがきっかけでした。面接時にお会いしたプランナーさんに「このゲームの企画書、面白いね」と言ってもらい、自分にはなかった視点で色々なアドバイスをもらえたんです。「こんなプランナーに自分もなりたいな」と思い、入社を決意しました。'
+  translation: '策划
+
+
+    我非常喜欢游戏，读了游戏开发者的访谈文章后，觉得“思考游戏的工作好像挺有意思的”，这就是契机。面试时见到的策划对我说“这个游戏的企划书挺有意思的”，还从我自己没有的角度给了我很多建议。我想“我也想成为这样的策划”，于是决定入职。'
+- type: text
+  original: 'プログラマ
+
+
+    私は学生時代、AIや機械学習の研究をしていて、それを活かせる場としてWEB業界とゲーム業界で迷っていました。ゲーム開発ならレンダリングやゲームエンジンなどの基礎に携わることもでき、その上で機械学習などの応用研究もできる。幅広い技術や知識が身につきそうだと感じました。加えて、ゲームフリークは『ポケモン』シリーズという世界的に愛されているタイトルに関わることができ、「自分の力で人々の心を動かす」というチャレンジができそうだったのが入社の決め手でしたね。'
+  translation: '程序员
+
+
+    我学生时代研究AI和机器学习，当时在WEB行业和游戏行业之间犹豫，不知道哪里能发挥这些。如果是游戏开发，既能参与渲染和游戏引擎等基础工作，又能做机器学习之类的应用研究。我觉得能学到广泛的技术和知识。再加上GAME FREAK能参与《宝可梦》系列这个全世界喜爱的作品，能挑战“用自己的力量打动人心”，这是决定入职的关键。'
+- type: text
+  original: 'デザイナー
+
+
+    私も「自分が作ったもので、多くの人を笑顔にしたい」という想いがありました。それを自分が大好きなゲームで実現できたらと考え、ゲームフリークに入社しました。『ポケモン』シリーズが一番好きなゲームでしたし、「ギアプロジェクト」も魅力的でした。グラフィックデザイナーであっても、コンセプトの段階からゲームを考えて作ることができる環境に興味を惹かれましたね。'
+  translation: '设计师
+
+
+    我也有“想用自己做的东西让更多人露出笑容”的想法。我想如果能用自己最喜欢的游戏来实现就好了，于是入职了GAME FREAK。《宝可梦》系列是我最喜欢的游戏，“Gear Project”也很有魅力。即使是图形设计师，也能从概念阶段就思考并制作游戏，这样的环境吸引了我。'
+- type: text
+  original: 'プログラマ
+
+
+    幼少期から日本のゲームが好きだったので、日本に留学してゲーム業界に就職したいと考えていました。ゲームフリークに決めたのは、『ポケモン』シリーズの1,000種類を超えるキャラクターすべてにアニメーションをつけるシステム開発が魅力的だったから。形状も、表現したい動きもそれぞれ違うので、とてもチャレンジングだと感じ、そこに自分の技術を活かしたいと考えました。'
+  translation: '程序员
+
+
+    我从小就喜欢日本的游戏，所以一直想来日本留学，进入游戏行业工作。决定去GAME FREAK，是因为给《宝可梦》系列超过1000种角色全部加上动画的系统开发很有吸引力。每个角色的形状和想表现的动作都不一样，我觉得非常有挑战性，也想把自己的技术用在这里。'
 - type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-01.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-01.jpg
-  caption: 6位年轻开发者欢聚一堂畅谈入职初衷
-- type: dialogue
-  speaker: R.S.（企划）
-  original: ゲームがすごく好きで、ゲーム開発者のインタビュー記事を読んで「ゲームを考える仕事って面白そうだな」と思ったのが最初のきっかけでした。就職活動でゲームフリークの会社説明会に参加した際、クリエイター一人ひとりが熱意を持って語る姿に惹かれ、「自分もここで世界中の人をワクワクさせたい」と強く思って応募しました。
-  translation: 我非常喜欢游戏，读了游戏开发者的访谈文章后，觉得“思考游戏的工作好像很有意思”，这就是最初的契机。在求职活动中参加GAME FREAK的公司说明会时，被每一位创作者满怀热情讲述的样子所吸引，强烈地觉得“我也想在这里让全世界的人感到兴奋”，于是应聘了。
-  role: answer
-- type: dialogue
-  speaker: T.M.（程序员）
-  original: 私は学生時代、AIや機械学習の研究をしていて、それを活かせる場としてWEB業界とゲーム業界で迷っていました。そんな時、ゲームフリークが研究開発に非常に力を入れていることを知りました。『ポケモン』のような巨大な世界で、最新の機械学習技術を使って生き生きとしたキャラクターAIを動かせたらどれほど刺激的だろうと考え、入社を決めました。
-  translation: 我在学生时代研究AI和机器学习，一直在犹豫是去WEB行业还是游戏行业，以便发挥这方面的能力。就在这时，我了解到GAME FREAK非常注重研发。我想，如果在《宝可梦》这样的宏大世界里，运用最新的机器学习技术让角色AI生动地动起来，那该多么令人兴奋啊，于是决定入职。
-  role: answer
-- type: dialogue
-  speaker: A.T.（设计师）
-  original: 私も「自分が作ったもので、多くの人を笑顔にしたい」という想いがありました。それを自分が大好きなゲームというフィールドで実現できるのがゲームフリークでした。面接の段階から、社員の皆さんが私のポートフォリオを細部まで深く読み込んで、作品に真摯に向き合ってくれたのが印象的で、この会社なら安心して成長できると確信しました。
-  translation: 我也有“想用自己制作的东西让更多人露出笑容”的想法。而能在自己最热爱的游戏领域实现这一点，就是GAME FREAK。从面试阶段起，公司员工就仔细深入地阅读我的作品集，真诚地对待我的作品，这让我印象深刻，也确信在这家公司可以安心成长。
-  role: answer
-- type: dialogue
-  speaker: I.F.（程序员）
-  original: 幼少期から日本のゲームが好きだったので、日本に留学してゲーム業界に就職したいと考えていました。ゲームフリークは世界最高峰のIPを持ちながらも、新しい技術への挑戦を止めない姿勢がある。海外出身者であってもフラットに評価してくれる温かい環境にも惹かれました。
-  translation: 我从小就喜欢日本的游戏，所以想来日本留学并在游戏行业就职。GAME FREAK拥有世界顶级的IP，同时又有不断挑战新技术的姿态。而且，即使是海外出身的人也能得到公平评价，这种温暖的环境也很吸引我。
-  role: answer
+  src: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-01.jpg
 - type: heading
+  level: 3
   original: 印象的だった新人研修。研修後はどんどん重要な仕事を任される。
-  translation: 令人记忆犹新的新人研修。培训结束后便迅速被托付重要核心任务。
+  translation: 印象深刻的新人培训。培训后不断被委以重要工作。
+- type: text
+  original: 'デザイナー
+
+
+    私は絵を描くことが好きで、グラフィック制作に携わりたくて入社しました。入社後の研修がとても印象的で、『ポケモン』シリーズの新作を作るという想定のもと、コンセプトアートから人物、ポケモンのデザインを幅広く体験する機会を与えられました。そのなかで、「お店のテーブルとイスは人間用のものだけ？ポケモンはどこに座るの？」というフィードバックをいただいたんです。「私の仕事は、ゲームのデザインをするだけじゃなく、ポケモンが棲む世界を構築することなんだ」と気付かされ、大きな学びになりました。'
+  translation: '设计师
+
+
+    我喜欢画画，想参与图形制作，所以进了公司。入职后的培训让我印象很深，公司以制作《宝可梦》系列新作为前提，给了我一个从概念图到人物、宝可梦设计都能广泛体验的机会。其中我收到过这样的反馈：“店里的桌子和椅子只有给人用的吗？宝可梦坐哪里？”这让我意识到，“我的工作不只是做游戏设计，还要构建宝可梦生活的世界”，这成了很大的收获。'
+- type: text
+  original: 'プランナー
+
+
+    確かに新人研修は発見が沢山ありましたね。私はプランナーなので、既にリリース済みの『ポケットモンスター』シリーズ作品の良かった点と改善点を考えて、新しい企画を先輩プランナーに提案するという課題がありました。フィードバックを受けるたび、新しい視点に気が付きました。'
+  translation: '策划
+
+
+    确实，新人培训里有很多发现。我是策划，所以有一个课题是思考已经发售的《宝可梦》系列作品的优点和需要改进的地方，然后向资深策划提出新方案。每次收到反馈，我都能发现新的视角。'
+- type: text
+  original: 'プログラマ
+
+
+    プログラマは3ヶ月間の研修の中で、最後に約3週間かけてミニゲームも作りました。ゲーム開発の基礎を知ることができたのは意義深かったですね。研修終了後は、3ヶ月かけてポケモンのキャラクターモーションに、機械学習の技術を活かせないか？という仕事を任されました。データ的な側面から『ポケットモンスター』シリーズに触れられるという体験はとても印象的でした。'
+  translation: '程序员
+
+
+    程序员在3个月的培训里，最后还花了大约3周做一个小游戏。能了解游戏开发的基础，很有意义。培训结束后，我被委派了一项工作：花3个月时间，看看能不能把机器学习技术用在宝可梦角色的动作上。从数据层面接触《宝可梦》系列，这段体验让我印象很深。'
+- type: text
+  original: 'プログラマ
+
+
+    私は研修終了後、『ポケットモンスター スカーレット・バイオレット』のプロジェクトに参加しました。アニメーションやゲームプレイ、システム側のデバッグ作業を一部担当させていただきました。これによって、ゲーム制作の大きな流れを理解することができ、ツールからリソースを生成して、どんなふうにゲーム内で使われていくのかがわかりました。'
+  translation: '程序员
+
+
+    培训结束后，我参加了《宝可梦 朱·紫》的项目。我负责了一部分动画、游戏玩法和系统方面的调试工作。通过这段经历，我理解了游戏制作的大致流程，也明白了从工具生成资源后，这些资源会怎样在游戏里被使用。'
+- type: text
+  original: 'デザイナー
+
+
+    私も研修修了後すぐに、ゲームの中でかなり頻繁に使われるUIデザインを任せてもらいました。デザインだけではなく、アニメーションや演出まで自分で考えて作るのは初めてだったので、とても苦労しました。でも完成した時に、「自分が作ったものがちゃんとゲームになるんだ！」とすごく感動したのを覚えています。'
+  translation: '设计师
+
+
+    我也是培训结束后马上就被委以游戏中会频繁使用的UI设计。不只是设计，连动画和演出都要自己思考、自己制作，这是我第一次做，所以非常辛苦。但我记得完成的时候特别感动：“自己做的东西真的变成游戏了！”'
+- type: text
+  original: '人事・採用
+
+
+    ゲームフリークでは早くから重要な仕事を任されますね。私は入社早々、プランナー職の新卒採用の主担当になりました。1年目にもかかわらず、部長やディレクターにも相談しながら、インターンシップの企画から実行を行いました。こんなに任せてもらえるのだと、良い意味で入社前のイメージからギャップがありました。'
+  translation: '人事·招聘
+
+
+    在GAME FREAK，很早就被委以重要工作。我一入职就马上成了策划岗位应届生招聘的主要负责人。虽然才第一年，但我也一边和部长、总监商量，一边从实习生项目的策划做到执行。能被托付这么多事，和入职前想象的相比，算是好的意义上的落差。'
 - type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-02-01.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-02-01.jpg
-  caption: 实战驱动的新人研修体系
-- type: dialogue
-  speaker: R.N.（设计师）
-  original: 入社直後の新人研修では、職種混合のチームを組んで、実際にゼロから1本のゲームをモックアップとして作り上げる実践的なワークがありました。プランナー、プログラマ、デザイナーがぶつかり合いながらも、ものづくりの楽しさと難しさを体感できたのは本当に貴重な経験でしたね。
-  translation: 入职后的新人研修中，我们组成跨职能混合团队，实际从零开始制作一款游戏原型，进行了实践性的工作。策划、程序、设计师相互碰撞，同时又能体会到制作的乐趣和难度，这真是非常宝贵的经历。
-  role: answer
-- type: dialogue
-  speaker: K.K.（人事）
-  original: 新人研修は毎年ブラッシュアップしています。単にツールの使い方を教えるだけでなく、「ゲームフリーク流のものづくりのマインド」や「チームで協力して面白さを追求する姿勢」を学んでもらうことを一番大切にしています。研修が終わって現場に配属された後も、メンターの先輩がしっかり寄り添ってフォローします。
-  translation: 新人研修每年都在打磨改进。不仅仅是教工具的使用方法，最重要的是让大家学习“GAME FREAK式的制作精神”和“团队合作追求有趣的态度”。研修结束后分配到项目组，也会有导师前辈悉心跟进支持。
-  role: answer
-- type: dialogue
-  speaker: R.S.（企划）
-  original: 配属直後から「えっ、新人の自分にこんな重要な仕様を任せてもらえるの？」と驚くような仕事を任されました。もちろん放置されるわけではなく、先輩たちが「どうしてその仕様にしたのか？」という思考のプロセスを一緒に深掘りしてアドバイスをくれます。自分の企画が形になってゲームの中で動いた時の感動は忘れられません。
-  translation: 刚分配后，就被委以“咦，这么重要的规格竟然交给新人我来负责？”这样令人惊讶的工作。当然并不是被放任不管，前辈们会和我一起深入探讨“为什么做成这个规格？”的思考过程并给出建议。当自己的策划变成形式并在游戏中动起来时，那份感动难以忘怀。
-  role: answer
+  src: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-02-01.jpg
 - type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-02-02.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-02-02.jpg
-  caption: 导师制度与细致的日常交流
-- type: dialogue
-  speaker: T.M.（程序员）
-  original: 技術面でも同じですね。コードレビューが非常に丁寧で、「動けばいい」ではなく「なぜこのアルゴリズムを選んだのか」「将来の拡張性やパフォーマンスはどう担保されているか」という本質的な視点を叩き込まれました。プロのエンジニアとしての基礎が急速に身についた実感があります。
-  translation: 技术方面也是一样。代码审查非常细致，不是“能运行就行”，而是被灌输了“为什么选择这个算法”“将来的扩展性和性能如何保证”这样的本质视角。我切实感受到作为专业工程师的基础在迅速掌握。
-  role: answer
+  src: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-02-02.jpg
 - type: heading
+  level: 3
   original: 入社年次関係なく、チャレンジできる。ゲームが好きな人、新しいことをやりたい人はぜひ。
-  translation: 无需论资排辈，人人皆可大胆发起挑战。只要热爱游戏、渴望探索新奇，请务必加入我们。
+  translation: 不论入职年份，都能挑战。喜欢游戏的人、想做新事情的人，欢迎来试试。
+- type: text
+  original: 'プランナー
+
+
+    現在入社2年目ですが、ゲームの中で大きな柱となるような企画の責任者を担当しています。たくさんのプログラマやデザイナーの方々に対して、自分の企画を説明してイメージを共有し、依頼するという仕事を経験しました。まさか2年目でこんな大きな仕事を任されると思っていませんでしたが、今とても充実しています。このゲームをできる限り面白いものにして、「僕が携わったんですよ」と胸を張って言えるようにしたいですね。'
+  translation: '策划
+
+
+    我现在是入职第2年，已经在负责游戏中会成为一大支柱的策划。我经历过这样的工作：向很多程序员和设计师说明自己的策划，共享想法，然后请他们来做。没想到第2年就能被委以这么大的工作，但现在非常充实。我想尽量让这款游戏变得有趣，做到能挺起胸膛说“我参与过”。'
+- type: text
+  original: 'デザイナー
+
+
+    新卒でも仕事を任され、提案できる雰囲気がありますよね。私もより良い画面を作るためにどうすればいいかを自然に考えるようになり、改善点を積極的に提案することが増えました。ただ見た目が良いだけのデザインではなく、ユーザーにとって遊びやすいデザインを考えられるようになってきたと思います。ゲームが好きで、ゲーム作りに全力で向き合って自身の力で良くしていきたいという人にとっては、とても楽しく仕事ができる環境ですね。'
+  translation: 即便是新员工也会被委以工作，公司里有可以提方案的氛围。我也自然而然地开始思考，要做出更好的画面该怎么做，主动提出改进点的情况变多了。我觉得自己已经能够不只考虑外观好看的设计，而是去考虑对用户来说容易游玩的设计。对于喜欢游戏、想全力投入游戏制作、想凭自己的力量把它做得更好的人来说，这是一个能非常开心地工作的环境。
+- type: text
+  original: 'デザイナー
+
+
+    私のチームでも自発的に作ったアイディアに対して、先輩方がアドバイスをしてくれて、一緒に話し合いながらデザインを考えています。与えられた業務だけではなく、面白いゲーム作りにつながるアイデアをもっと積極的に提案していきたいですね。『ポケモン』シリーズのキャラクターデザインは「何ができる生物で、どんな性格なのか？」「それを表現する場合、色や形はどんなものがいいのか？」といったように、さまざまな視点から意味を考えてデザインしなければいけません。0から1を生み出す仕事の難しさとやりがいを実感している最中です。'
+  translation: 在我的团队里，对于自发想出的点子，前辈们会给出建议，大家一起讨论着考虑设计。不只是被分配的工作，我想更主动地提出能带来有趣游戏制作的点子。宝可梦系列的角色设计，必须从各种角度思考含义，比如“这是能做什么的生物、是什么性格？”“要表现这一点，颜色和形状用什么好？”等等。我正处在切实感受到从0创造1这份工作的难度与价值的阶段。
+- type: text
+  original: 'プログラマ
+
+
+    ゲームフリークの社員は、ゲーム作りへの情熱がすごいですよね。社内チャットツールのSlackでちょっと相談すると、そこに皆が返信をくれて議論になり、解決方法や新しいアイデアが生まれることがよくあります。最近は、先輩や上司に教えてもらう立場から、自分も少しずつ教えられる側になってきたことに成長を感じています。今後は、業界の最先端の技術をゲームエンジンに取り入れ、より便利なツールを作っていきたいです。そして、優れたアニメーションを世界中のユーザーに届けることを目標にしています。'
+  translation: GAME FREAK 的员工对游戏制作的热情真的很厉害。在公司内部的聊天工具 Slack 上稍微商量一下，大家就会回复，变成讨论，常常从中产生解决办法或新点子。最近，我从向前辈和上司请教的立场，逐渐也变成能教别人一些东西的一方，这让我感到自己在成长。今后我想把业界最前沿的技术引入游戏引擎，做出更方便的工具。并且，我的目标是把优秀的动画呈现给全世界的用户。
+- type: text
+  original: 'プログラマ
+
+
+    ゲームフリークには本当に色々な経歴の方々がたくさん集まっていて、刺激が多くて楽しいですね。今後、私自身も機械学習を使って、バトルや3DCGに関するAIなど、よりリアルでインタラクティブ性のあるゲーム体験を作るための研究開発をしていきたいと思っています。ゲームを通じて、色々な挑戦をしたり、新しいチャレンジをし続けたいと思っている人にはすごく良い場所だと思います。'
+  translation: GAME FREAK 真的聚集了很多经历各不相同的人，很受刺激，也很有趣。今后我自己也想利用机器学习，进行关于对战和3DCG的AI等研究开发，以打造更真实、更有互动性的游戏体验。对于想通过游戏不断尝试各种事情、不断迎接新挑战的人来说，这里是非常好的地方。
+- type: text
+  original: '人事・採用
+
+
+    主体性を重んじてくれるところが、ゲームフリークの良いところですね。論理的に筋が通っていれば、どんどん提案できる文化があります。私自身の目標としては、ゲームフリークの人材採用力を今まで以上に上げていきたい。新しいチャレンジをしていきたい人には、ゲームフリークはすごく良い場所だと思います。やりたいことがある人はぜひ、応募してみてください。'
+  translation: 重视主动性，是 GAME FREAK 的优点。只要逻辑上讲得通，就有不断提方案的文化。我自己的目标是，把 GAME FREAK 的人才招聘能力提升到比以往更高的水平。对于想迎接新挑战的人来说，GAME FREAK 是非常好的地方。有想做的事的人，请一定来应聘。
 - type: image
-  original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-03.jpg
-  translation: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-03.jpg
-  caption: 年轻一代将为 GAME FREAK 注入蓬勃朝气
-- type: dialogue
-  speaker: A.T.（设计师）
-  original: 社内の雰囲気がとてもフラットで、年次や役職に関係なく「面白いアイデア」を出した人の意見が尊重されます。新人の私が提案したUIの改善案がそのまま採用されたこともあり、大きなやりがいを感じています。
-  translation: 公司内部氛围非常扁平，无论年龄或职位，提出“有趣点子”的人的意见都会受到尊重。我作为新人提出的UI改善方案直接被采纳，这让我感到非常有价值。
-  role: answer
-- type: dialogue
-  speaker: I.F.（程序员）
-  original: 『ポケモン』という巨大なタイトルだけでなく、オリジナルタイトルを開発する「ギアプロジェクト」など、自分のやりたいことに挑戦できるチャンスが常に転がっています。社内の勉強会も盛んで、学び続けたい人には最高の環境です。
-  translation: 不仅是《宝可梦》这个巨大IP，还有开发原创作品的“GEAR PROJECT”等，挑战自己想做的事情的机会总是无处不在。公司内部的学习会也很活跃，对于想持续学习的人来说是最棒的环境。
-  role: answer
-- type: dialogue
-  speaker: K.K.（人事）
-  original: ゲームフリークが求めているのは、指示を待つ人ではなく、「自分がこのゲームを面白くするんだ」という主体性と情熱を持った人です。学生時代の専攻やバックグラウンドは問いません。世界中のプレイヤーを驚かせる最高のエンターテインメントを、ぜひ私たちと一緒に作りましょう！
-  translation: GAME FREAK所寻求的，不是等待指示的人，而是怀有“我要让这款游戏变得更有趣”的主体性与热情的人。学生时代的专业和背景不限。请务必和我们一起，打造让全世界玩家惊叹的最顶尖娱乐体验！
-  role: answer
-display_title: 入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。
-original_lang: ja
+  src: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/img-03.jpg
+era_skin: '2019'
 ---

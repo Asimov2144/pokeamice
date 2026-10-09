@@ -2,11 +2,11 @@
  "id": "interview-gamefreak-gear-gigawrecker",
  "stem": "2017-03-01-interview-gamefreak-gear-gigawrecker",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-09",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 28
+  "n": 31
  },
  "facets": {
   "pokemon": [],
@@ -15,10 +15,9 @@
     "name": "GIGA WRECKER",
     "slug": null,
     "seg": [
-     0,
-     2,
-     10,
-     16
+     1,
+     5,
+     20
     ],
     "via": "entities"
    },
@@ -26,7 +25,7 @@
     "name": "TEMBO THE BADASS ELEPHANT",
     "slug": null,
     "seg": [
-     13
+     18
     ],
     "via": "entities"
    },
@@ -34,7 +33,7 @@
     "name": "宝可梦 黑·白",
     "slug": "black-white",
     "seg": [
-     2
+     5
     ],
     "via": "entities"
    },
@@ -42,7 +41,8 @@
     "name": "宝可梦 X·Y",
     "slug": "x-y",
     "seg": [
-     6
+     8,
+     9
     ],
     "via": "entities"
    },
@@ -53,18 +53,10 @@
     "via": "entities"
    },
    {
-    "name": "坏象坦博",
+    "name": "Gear Project",
     "slug": null,
     "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     5
+     1
     ],
     "via": "llm"
    }
@@ -75,12 +67,12 @@
     "slug": "m-o",
     "role": "speaker",
     "seg": [
-     5,
-     7,
-     13,
-     15,
+     8,
+     10,
+     17,
      19,
-     23
+     22,
+     25
     ]
    },
    {
@@ -88,341 +80,52 @@
     "slug": "h-i",
     "role": "speaker",
     "seg": [
-     6,
-     8,
+     9,
      12,
-     14,
+     16,
      18,
-     24
+     21,
+     26
     ]
    },
    {
-    "name": "James Turner",
-    "slug": "james-turner",
+    "name": "J.T.",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     13
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "T.M.",
+    "slug": "t-m",
+    "role": "mentioned",
+    "seg": [
+     4
     ],
     "via": "llm"
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     2,
-     5,
-     6
-    ],
-    "as": [
-     "入社",
-     "职业生涯"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     2,
-     6
-    ],
-    "as": [
-     "提案",
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     2,
-     3
-    ],
-    "as": [
-     "应届",
-     "新卒"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     5
-    ],
-    "as": [
-     "工期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     6,
-     15
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     12,
-     13
-    ],
-    "as": [
-     "插画",
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     14,
-     15,
-     17
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     14,
-     24
-    ],
-    "as": [
-     "远程",
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     15
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     15,
-     17
-    ],
-    "as": [
-     "玩家群体",
-     "核心玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     15,
-     17,
-     24
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     17
-    ],
-    "as": [
-     "社群"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     18
-    ],
-    "as": [
-     "漏洞"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-freedom",
-    "name": "玩家的自由",
-    "facet": "design",
-    "seg": [
-     18
-    ],
-    "as": [
-     "自由度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     23
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
-    "seg": [
-     23
-    ],
-    "as": [
-     "本地化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     23
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     24
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     26
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     26
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "M.O.与H.I.是2010年应届毕业生入社，从《宝可梦 黑·白》起投身正统系列研发。",
-   "anchor": 3
+   "seg": 1,
+   "text": "2016年8月《GIGA WRECKER》在Steam开始发行抢先体验版",
+   "anchor": 2
   },
   {
-   "seg": 6,
-   "text": "H.I.称利用《宝可梦 X·Y》研发尾声到杀青调休假期打磨出初版企划书。",
-   "anchor": 7
+   "seg": 8,
+   "text": "M.O.称入职的2010年正是Gear Project制度开始运行的那一年",
+   "anchor": 9
   }
  ],
  "relations": [],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

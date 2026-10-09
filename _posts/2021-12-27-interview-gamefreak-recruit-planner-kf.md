@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落
 title_ja: 世界を変えるチャンスは、意外な場所にある。｜プランナー社員紹介 K.F.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-pl-kf
+  version: '2019-12-11'
+  capture: '20240229104450'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）；本篇依据 2024-02-29 的快照，与首版只差个别字句
+era: '2019'
 era_skin: '2019'
 categories:
 - developer-interviews

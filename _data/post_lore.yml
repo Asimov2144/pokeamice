@@ -16242,6 +16242,51 @@
     text: 发帖人自称负责招聘，名字是さとう（佐藤）。
   - seg: 26
     text: 文中列出正在招聘的4个职位：平面设计师、程序员、音效创作者、策划。
+2009-09-14-interview-gamefreak-career-message-masuda:
+  facets:
+    people:
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    places:
+    - name: 冲绳
+      what: 新游戏的舞台
+      world: real
+    pokemon: []
+    works:
+    - name: Quinty
+      slug: null
+    - name: 4分33秒
+      slug: null
+    - name: 黑客帝国
+      slug: null
+  id: interview-gamefreak-career-message-masuda
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 增田顺一称这次要做冲绳的游戏，却特意去掉冲绳的音阶。
+  - anchor: 5
+    seg: 4
+    text: 增田顺一提到《4分33秒》什么都不演奏，希望有能与之匹敌的点子。
+2009-09-14-interview-gamefreak-career-message-watanabe:
+  facets:
+    people:
+    - name: 渡边哲也
+      role: speaker
+      slug: watanabe-tetsuya
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 红·绿
+      slug: red-green
+  id: interview-gamefreak-career-message-watanabe
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 渡边哲也作为程序员从《宝可梦 红·绿》系列起参与开发，现为程序团队总监。
+  - anchor: 3
+    seg: 2
+    text: 渡边哲也说这个行业东西没完成、没发售就是零的世界。
 2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197:
   facets:
     people:
@@ -34348,14 +34393,14 @@
 2015-08-01-interview-gamefreak-gear-tembo-turner:
   facets:
     people:
-    - name: J.T.
+    - name: James Turner
       role: speaker
+      slug: james-turner
     - name: T.M.
       role: speaker
       slug: t-m
-    - name: James Turner
+    - name: PewDiePie
       role: mentioned
-      slug: james-turner
     places: []
     pokemon: []
     works:
@@ -34369,16 +34414,18 @@
       slug: null
     - name: 节奏猎人 哈莫奈特
       slug: null
-    - name: 宝可梦
+    - name: 节奏猎人 和谐
+      slug: null
+    - name: Gear Project
       slug: null
   id: interview-gamefreak-gear-tembo-turner
   observations:
-  - anchor: 3
-    seg: 2
-    text: J.T. 2009 年入社，在哈莫奈特与坏象坦博均任总监
-  - anchor: 4
-    seg: 3
-    text: T.M. 2011 年入社，负责场景地图模型等 3D 资产
+  - anchor: 8
+    seg: 7
+    text: James Turner在回家路上看到招牌上的大象插图后灵光一闪
+  - anchor: 21
+    seg: 20
+    text: T.M.说PC上能运行，但在Xbox One上卡顿、显示不正常
   relations:
   - id: interview-gamefreak-rnd-launch-taya-mi
     kind: background
@@ -34545,14 +34592,18 @@
       slug: x-y
     - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
       slug: oras
+    - name: Left 4 Dead
+      slug: null
+    - name: 宝可梦 X・Y
+      slug: null
   id: interview-gamefreak-recruit-designers
   observations:
-  - anchor: 3
-    seg: 2
-    text: T.W. 2015年以UI设计师身份中途入社
-  - anchor: 4
-    seg: 3
-    text: A.I. 2014年入社，任动作设计师
+  - anchor: 9
+    seg: 8
+    text: T.W.在最初12年于大游戏公司做主机游戏开发
+  - anchor: 9
+    seg: 8
+    text: T.W.在大社交游戏公司工作了约两年半
   relations:
   - id: interview-gamefreak-recruit-planners
     kind: same-occasion
@@ -34581,7 +34632,10 @@
     - name: R.M.
       role: speaker
       slug: r-m
-    places: []
+    places:
+    - name: 九州
+      what: 上一份工作所在地
+      world: real
     pokemon: []
     works:
     - name: 宝可梦 X·Y
@@ -34590,14 +34644,16 @@
       slug: oras
     - name: 宝可梦
       slug: null
+    - name: 马力欧
+      slug: null
   id: interview-gamefreak-recruit-planners
   observations:
-  - anchor: 3
-    seg: 2
-    text: H.T. 2014 年入社，负责地图关卡策划，前职做 3 年底层程序员
   - anchor: 4
     seg: 3
-    text: R.M. 2015 年入社，任事件与剧情策划，此前 4 年做支线剧情事件策划
+    text: H.T.在九州一家游戏公司做了3年程序员，负责战斗和UI
+  - anchor: 5
+    seg: 4
+    text: R.M.从2011年起4年参与一个动作冒险游戏系列，负责支线事件
   relations:
   - id: interview-gamefreak-recruit-programmers
     kind: same-occasion
@@ -34622,10 +34678,10 @@
       slug: m-k
     places:
     - name: 名古屋
-      what: Y.I.首家公司所在地
+      what: Y.I.前公司所在地
       world: real
     - name: 东京
-      what: Y.I.转战的大厂所在地
+      what: Y.I.跳槽后去的地方
       world: real
     pokemon: []
     works:
@@ -34637,18 +34693,20 @@
       slug: null
     - name: 女神异闻录3
       slug: null
-    - name: 真·女神转生
+    - name: 圣剑传说
+      slug: null
+    - name: 星之卡比
       slug: null
     - name: 宝可梦
       slug: null
   id: interview-gamefreak-recruit-programmers
   observations:
-  - anchor: 3
-    seg: 2
-    text: Y.I. 2014年入社，统领玩家角色操作手感与移动控制程序架构。
-  - anchor: 4
-    seg: 3
-    text: M.K. 2014年入社，负责全公司资产管线与美术开发工具链。
+  - anchor: 8
+    seg: 7
+    text: Y.I.在名古屋一家游戏公司做了约两年PS3和Xbox 360开发
+  - anchor: 9
+    seg: 8
+    text: M.K.在大型社交游戏公司做浏览器游戏的服务器端编程
   relations:
   - id: interview-gamefreak-recruit-planners
     kind: same-occasion
@@ -41704,9 +41762,11 @@
     - name: H.I.
       role: speaker
       slug: h-i
-    - name: James Turner
+    - name: J.T.
       role: mentioned
-      slug: james-turner
+    - name: T.M.
+      role: mentioned
+      slug: t-m
     places: []
     pokemon: []
     works:
@@ -41720,18 +41780,16 @@
       slug: x-y
     - name: Gear Project（齿轮企划）
       slug: null
-    - name: 坏象坦博
-      slug: null
-    - name: 宝可梦
+    - name: Gear Project
       slug: null
   id: interview-gamefreak-gear-gigawrecker
   observations:
-  - anchor: 3
-    seg: 2
-    text: M.O.与H.I.是2010年应届毕业生入社，从《宝可梦 黑·白》起投身正统系列研发。
-  - anchor: 7
-    seg: 6
-    text: H.I.称利用《宝可梦 X·Y》研发尾声到杀青调休假期打磨出初版企划书。
+  - anchor: 2
+    seg: 1
+    text: 2016年8月《GIGA WRECKER》在Steam开始发行抢先体验版
+  - anchor: 9
+    seg: 8
+    text: M.O.称入职的2010年正是Gear Project制度开始运行的那一年
 2017-03-01-interview-pokemon-recruit-world-egami:
   facets:
     people:
@@ -41909,6 +41967,38 @@
     works: []
   id: gamefreak-lineblog-9269424
   observations: []
+2017-03-29-interview-gamefreak-recruit-designers-2017:
+  facets:
+    people:
+    - name: J.K.
+      role: speaker
+    - name: Y.U.
+      role: speaker
+    - name: H.O.
+      role: speaker
+    places:
+    - id: carrot_tower
+      name: 三轩茶屋
+      what: GAME FREAK 胡萝卜塔所在
+      world: real
+    pokemon: []
+    works:
+    - name: GIGA WRECKER
+      slug: null
+    - name: 宝可梦
+      slug: null
+    - name: PlayStation®3
+      slug: null
+    - name: PlayStation®4
+      slug: null
+  id: interview-gamefreak-recruit-designers-2017
+  observations:
+  - anchor: 9
+    seg: 8
+    text: J.K.在大型游戏公司做街机图形设计5年
+  - anchor: 10
+    seg: 9
+    text: Y.U.先进入印刷行业，工作约一年半
 2017-04-05-gamefreak-lineblog-9270739:
   facets:
     people:
@@ -42089,14 +42179,12 @@
 2017-06-01-interview-gamefreak-rnd-ta-taya-kk:
   facets:
     people:
-    - name: S.T.
+    - name: 田谷正夫
       role: speaker
+      slug: taya-masao
     - name: K.K.
       role: speaker
       slug: k-k
-    - name: 田谷正夫
-      role: mentioned
-      slug: taya-masao
     places: []
     pokemon: []
     works:
@@ -42106,18 +42194,14 @@
       slug: sun-moon
     - name: 宝可梦 蓝
       slug: blue-jp
-    - name: 宝可梦 青
-      slug: null
-    - name: 宝可梦
-      slug: null
   id: interview-gamefreak-rnd-ta-taya-kk
   observations:
-  - anchor: 3
-    seg: 2
-    text: S.T. 自 1996 年入社，从《宝可梦 青》起主导正统作品核心系统底层与软件架构设计
-  - anchor: 4
-    seg: 3
-    text: K.K. 2014 年入社，是 GAME FREAK 历史上第一任专职 TA
+  - anchor: 8
+    seg: 7
+    text: 田谷正夫在《宝可梦 X·Y》开发时感到研究开发部的必要性，2015年4月正式启动。
+  - anchor: 9
+    seg: 8
+    text: 研究开发部成立之初原本计划只由程序员组成，K.K.在《太阳·月亮》开发后加入。
   relations:
   - id: interview-gamefreak-rnd-launch-taya-mi
     kind: background
@@ -42927,10 +43011,7 @@
     - name: H.I.
       role: speaker
       slug: h-i
-    places:
-    - name: 阿罗拉
-      what: 游戏中的地区
-      world: game
+    places: []
     pokemon: []
     works:
     - name: 宝可梦 太阳·月亮
@@ -42939,12 +43020,12 @@
       slug: null
   id: interview-gamefreak-recruit-cross-industry
   observations:
-  - anchor: 3
-    seg: 2
-    text: A.I. 2014 年入社，此前是商业动画一线原画作画师
-  - anchor: 4
-    seg: 3
-    text: S.A. 2015 年中途入社，隶属研究开发部，任系统程序员
+  - anchor: 9
+    seg: 8
+    text: A.I.在动画行业做了7年动画师，参与电视周播动画和动画电影CG制作
+  - anchor: 17
+    seg: 16
+    text: H.I.在前公司工作4年，大项目结束后辞职去CG学校
   relations:
   - id: interview-gamefreak-recruit-designers
     kind: same-occasion
@@ -45226,6 +45307,33 @@
     title: Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/
     why: Eurogamer再访增田回应全国图鉴删减风波
+2019-10-19-interview-gamefreak-rnd-2019:
+  facets:
+    people:
+    - name: Y.Y.
+      role: speaker
+    - name: R.T.
+      role: speaker
+    - name: S.T.
+      role: speaker
+    - name: K.K.
+      role: speaker
+      slug: k-k
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+    - name: 宝可梦
+      slug: null
+  id: interview-gamefreak-rnd-2019
+  observations:
+  - anchor: 4
+    seg: 3
+    text: Y.Y.原本是角色建模师，在《宝可梦 太阳·月亮》开发结束后加入研究开发部。
+  - anchor: 5
+    seg: 4
+    text: R.T.于2016年入职，从入职起就在研究开发部参与开发环境整备。
 2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd:
   facets:
     people:
@@ -45920,6 +46028,163 @@
   - anchor: 17
     seg: 16
     text: 求职季最后关头放弃大型机械制造企业内定，选择GAME FREAK
+2019-12-11-interview-gamefreak-crosstalk-designer-2019:
+  facets:
+    people:
+    - name: T.U.
+      role: speaker
+    - name: J.K.
+      role: speaker
+    places: []
+    pokemon: []
+    works: []
+  id: interview-gamefreak-crosstalk-designer-2019
+  observations:
+  - anchor: 8
+    seg: 7
+    text: J.K.说宝可梦的模型有1000多只
+  - anchor: 19
+    seg: 18
+    text: T.U.面试时看应聘者用技能做过怎样的创意功夫
+2019-12-11-interview-gamefreak-crosstalk-programmer-2019:
+  facets:
+    people:
+    - name: T.T.
+      role: speaker
+      slug: t-t
+    - name: K.I.
+      role: speaker
+      slug: k-i
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 精灵球 Plus
+      slug: null
+  id: interview-gamefreak-crosstalk-programmer-2019
+  observations:
+  - anchor: 11
+    seg: 10
+    text: 内存64GB，存储SSD 2T，截至2019年12月
+  - anchor: 12
+    seg: 11
+    text: 桌宽160cm，大家都用双显示器
+2019-12-11-interview-gamefreak-projectstory-giga-wrecker:
+  facets:
+    people:
+    - name: 尾上将之
+      role: speaker
+      slug: wei-shang-jiang-zhi
+    - kind: staff
+      name: 伊藤博人
+      role: speaker
+      slug: ito-hiroto
+    - name: 小川一美
+      role: speaker
+      slug: ogawa-kazumi
+    places: []
+    pokemon: []
+    works:
+    - name: GIGA WRECKER
+      slug: null
+    - name: MAGNETIC GIRL
+      slug: null
+  id: interview-gamefreak-projectstory-giga-wrecker
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 2016年8月起在Steam开启抢先体验，2017年2月正式发行
+  - anchor: 8
+    seg: 7
+    text: 企划暂定名为《MAGNETIC GIRL》，主角能操纵磁力
+2019-12-11-interview-gamefreak-projectstory-sword-shield:
+  facets:
+    people:
+    - name: 大森滋
+      role: speaker
+      slug: ohmori-shigeru
+    - name: 岩尾和昌
+      role: speaker
+      slug: iwao-kazumasa
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 剑／盾
+      slug: null
+    - name: 宝可梦 剑·盾
+      slug: sword-shield
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+    - name: 宝可梦 究极太阳·究极月亮
+      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 红·
+      slug: null
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+  id: interview-gamefreak-projectstory-sword-shield
+  observations:
+  - anchor: 7
+    seg: 6
+    text: 2016年秋《太阳·月亮》开发结束后，大森等人开始酝酿新作构想
+  - anchor: 7
+    seg: 6
+    text: 2017年9月项目正式启动，岩尾加入
+2019-12-11-interview-gamefreak-recruit-message-watanabe:
+  facets:
+    people:
+    - name: 渡边哲也
+      role: speaker
+      slug: watanabe-tetsuya
+    places: []
+    pokemon: []
+    works:
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦
+      slug: null
+  id: interview-gamefreak-recruit-message-watanabe
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 渡边哲也1994年入职，从《宝可梦 红·绿》起作为程序员参与多款系列开发
+  - anchor: 6
+    seg: 5
+    text: 研究开发部于2016年新设，被称作为此而设的战略组织
+2019-12-11-interview-gamefreak-recruit-programmer-dn:
+  facets:
+    people:
+    - name: D.N.
+      role: speaker
+      slug: d-n
+    places:
+    - name: 上智大学
+      what: D.N. 留学与再学一年的大学
+      world: real
+    - name: 千叶县
+      what: D.N. 担任英语指导助手的小学所在地
+      world: real
+    - name: HAL东京
+      what: D.N. 学习编程的学校
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦
+      slug: null
+  id: interview-gamefreak-recruit-programmer-dn
+  observations:
+  - anchor: 2
+    seg: 1
+    text: D.N. 19岁第一次来日本，入职后担任场景程序员。
+  - anchor: 4
+    seg: 3
+    text: D.N. 19岁作为交换留学生来到上智大学。
 2020-03-01-interview-tpc-business-professionals:
   facets:
     people:
@@ -46765,22 +47030,18 @@
     works:
     - name: 宝可梦传说 阿尔宙斯
       slug: legends-arceus
-    - name: 宝可梦 黑／白
-      slug: null
-    - name: 宝可梦 红／绿
-      slug: null
-    - name: Pokémon LEGENDS 阿尔宙斯
-      slug: null
-    - name: 宝可梦
-      slug: null
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 红·绿
+      slug: red-green
   id: interview-gamefreak-crosstalk-game-programmer
   observations:
-  - anchor: 9
+  - anchor: 6
     seg: 5
-    text: K.I.说推进项目前先制作了投球捕捉野生宝可梦的核心玩法原型
-  - anchor: 16
-    seg: 11
-    text: M.O.列举跳跃动作需调整起跳、滞空、着地硬直、重力等数值
+    text: K.I.说推进项目前先从朝野生宝可梦扔球捕捉的试作开始。
+  - anchor: 7
+    seg: 6
+    text: M.O.说从试作阶段起就深究草丛中宝可梦的视线与动作如何像生物。
   relations:
   - id: interview-gamefreak-crosstalk-programmer
     kind: same-occasion
@@ -46803,27 +47064,23 @@
 2021-12-27-interview-gamefreak-crosstalk-new-graduate:
   facets:
     people:
-    - name: R.S.（企划）
+    - name: I.F.
       role: speaker
-    - name: K.K.（人事）
-      role: speaker
-    - name: R.S.
-      role: mentioned
-      slug: r-s
+      slug: i-f
     - name: T.M.
-      role: mentioned
+      role: speaker
       slug: t-m
     - name: A.T.
-      role: mentioned
+      role: speaker
       slug: a-t
-    - name: I.F.
-      role: mentioned
-      slug: i-f
     - name: R.N.
-      role: mentioned
+      role: speaker
       slug: r-n
+    - name: R.S.
+      role: speaker
+      slug: r-s
     - name: K.K.
-      role: mentioned
+      role: speaker
       slug: k-k
     places: []
     pokemon: []
@@ -46834,12 +47091,12 @@
       slug: null
   id: interview-gamefreak-crosstalk-new-graduate
   observations:
+  - anchor: 17
+    seg: 16
+    text: 程序员3个月培训，最后约3周做一个小游戏。
   - anchor: 18
-    seg: 9
-    text: T.M.学生时代研究AI和机器学习，曾犹豫去WEB行业还是游戏行业
-  - anchor: 23
-    seg: 13
-    text: R.N.称新人研修中组成跨职能混合团队，从零制作游戏原型
+    seg: 17
+    text: 培训后参加《宝可梦 朱·紫》，负责动画、玩法与系统部分调试。
   relations:
   - id: interview-gamefreak-crosstalk-designer
     kind: same-occasion
@@ -46859,6 +47116,33 @@
     title: 乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK。
     url: /interviews/interview-gamefreak-crosstalk-system-programmer/
     why: 同日GAME FREAK官方招聘特辑对谈系列
+2021-12-27-interview-gamefreak-crosstalk-new-programmer:
+  facets:
+    people:
+    - name: T.K.
+      role: speaker
+      slug: t-k
+    - name: R.H.
+      role: speaker
+    places: []
+    pokemon:
+    - name: 阿尔宙斯
+      ndex: 493
+    works:
+    - name: 宝可梦 剑／盾
+      slug: null
+    - name: 宝可梦传说 阿尔宙斯
+      slug: legends-arceus
+    - name: Pokémon LEGENDS 阿尔宙斯
+      slug: null
+  id: interview-gamefreak-crosstalk-new-programmer
+  observations:
+  - anchor: 9
+    seg: 8
+    text: 会议用Google日历安排，用Google Meet开
+  - anchor: 10
+    seg: 9
+    text: 进度管理用Jira，研究开发部每月都有发布
 2021-12-27-interview-gamefreak-crosstalk-planner:
   facets:
     people:
@@ -46959,12 +47243,8 @@
     - name: K.M.
       role: speaker
       slug: k-m
-    - name: 岩尾和昌
-      role: mentioned
-      slug: iwao-kazumasa
-    - name: 松岛贤二
-      role: mentioned
-      slug: matsushima-kenji
+    - name: S.N.
+      role: speaker
     places: []
     pokemon:
     - name: 洛托姆
@@ -46982,10 +47262,10 @@
   observations:
   - anchor: 4
     seg: 1
-    text: K.I.现任开发二部副部长，兼世界概念团队成员
+    text: K.I.现任开发二部副部长，兼任世界概念团队成员
   - anchor: 6
     seg: 2
-    text: K.M.1993年入职，负责跨媒体衍生作品设定监修
+    text: K.M.1993年入职，负责系列跨媒体衍生作品设定监修
   relations:
   - id: interview-gamefreak-crosstalk-designer
     kind: same-occasion
@@ -47011,6 +47291,8 @@
     - name: K.M.
       role: speaker
       slug: k-m
+    - name: J.I.
+      role: speaker
     - name: H.T.
       role: speaker
       slug: h-t
@@ -47021,14 +47303,16 @@
       slug: legends-arceus
     - name: 宝可梦 朱·紫
       slug: scarlet-violet
+    - name: 宝可梦
+      slug: null
   id: interview-gamefreak-crosstalk-system-programmer
   observations:
-  - anchor: 4
-    seg: 1
-    text: K.M. 2018年入职，现任研究开发部副部长
-  - anchor: 6
-    seg: 2
-    text: H.T. 2019年入职，曾任AI创业公司COO
+  - anchor: 10
+    seg: 9
+    text: J.I.说作品开发以2到3年推进，研究开发部须以5到10年跨度思考
+  - anchor: 13
+    seg: 12
+    text: 需求由全公司跨部门与各项目总监开会决定优先级，此做法由J.I.提议
   relations:
   - id: interview-gamefreak-crosstalk-programmer
     kind: same-occasion
@@ -48748,6 +49032,33 @@
   - anchor: 23
     seg: 22
     text: 新员工培训约3周，含远程和店铺培训
+2024-02-13-interview-gamefreak-message-ohmori:
+  facets:
+    people:
+    - name: 大森滋
+      role: speaker
+      slug: ohmori-shigeru
+    places: []
+    pokemon:
+    - name: 阿尔宙斯
+      ndex: 493
+    works:
+    - name: 宝可梦传说 阿尔宙斯
+      slug: legends-arceus
+    - name: 宝可梦 朱／紫
+      slug: null
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 朱·紫
+      slug: scarlet-violet
+  id: interview-gamefreak-message-ohmori
+  observations:
+  - anchor: 4
+    seg: 3
+    text: 大森滋说平台换成Nintendo Switch后，新游玩体验的探索比以前更加速
+  - anchor: 8
+    seg: 7
+    text: 开发一部通过Gear Project开发继《宝可梦》系列之后的新游戏
 2024-02-15-interview-pokemon-recruit-designer:
   facets:
     people:

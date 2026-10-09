@@ -7238,6 +7238,74 @@ quotes:
   - 谁都能当编剧
   - 宝可梦
   links: []
+- id: 2009-09-14-interview-gamefreak-career-message-masuda#5
+  post: 2009-09-14-interview-gamefreak-career-message-masuda
+  segment: 5
+  speaker: 增田顺一
+  reported: false
+  kind: quote
+  hook: 增田顺一：希望你有匹敌《4分33秒》的点子
+  zh: 声音创作者里，我想很多人有擅长钢琴、擅长吉他之类的卖点，但我们想要的是不被乐器固定住、有挑战心的声音创作者。有一首叫《4分33秒》的曲子，什么都不演奏，享受无声，希望你有能和它匹敌的点子。不被既有概念束缚，能创造出新东西。我想和这样的人一起工作。
+  ja: サウンドクリエイターにはピアノが得意であるとか、ギターが得意であるとか売りがある人が多いと思うのですが、楽器に固定されないような挑戦心を持ったサウンドクリエイターが欲しいですね。「4分33秒」という、何も演奏しない無音を楽しむ曲があるのですが、それに匹敵する位のアイディアを持っているとか。既成概念に捕われずに、新しい物を産み出せる。そんな人と仕事がしたいですね。
+  lang: ja
+  year: 2009
+  date: '2009-09-14'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 2009 中途招聘寄语：增田顺一（声音）——GAME FREAK现在想要的人
+  score: 4
+  why: 用约翰·凯奇《4分33秒》作比，说明GAME FREAK招声音创作者时看重的是不被乐器固定的创意，而非演奏技巧。
+  more: 同段还提到游戏音乐不受贝斯、吉他、鼓、键盘、主唱这种乐队编制常识的束缚。
+  people:
+  - 增田顺一
+  works: []
+  links: []
+- id: 2009-09-14-interview-gamefreak-career-message-watanabe#7
+  post: 2009-09-14-interview-gamefreak-career-message-watanabe
+  segment: 7
+  speaker: 渡边哲也
+  reported: false
+  kind: quote
+  hook: 渡边哲也：真正新的游戏只能从新技术中诞生
+  zh: 我自己是技术出身，所以也有这方面原因，但我认为首先有技术，在此基础上才会产生新的想法、新的“游玩”。先有想法的情况我也觉得不错，但真正新的游戏，我觉得只能从新技术中诞生。例如新的RPG策划也能创作，但谁都没接触过的游戏，我觉得没有基础技术就不会诞生。
+  ja: 僕は自分が技術屋だからというのもあるけど、まず技術が先にあった上で新しい発想、新しい「遊び」が生まれると思っています。先にアイデアがあるってパターンもいいとは思うけど、本当に新しいゲームっていうのは新しい技術からしか生まれないんじゃないかなと。例えば新しいＲＰＧはプランナーでも創れるけど、誰も触ったことのないゲームというのは、基盤となる技術がないと生まれないと思うんですよ。
+  lang: ja
+  year: 2009
+  date: '2009-09-14'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 2009 中途招聘寄语：渡边哲也（程序）——技术创造「游玩」
+  score: 4
+  why: 程序总监对技术与创意关系的判断，认为新「游玩」先有技术基础，反常识地不把想法放在首位。
+  more: 渡边哲也自《宝可梦 红·绿》起参与开发，现为程序团队总监。
+  people:
+  - 渡边哲也
+  works: []
+  links:
+  - type: person
+    name: 渡边哲也
+    slug: watanabe-tetsuya
+  - type: work
+    name: 宝可梦 红·绿
+- id: 2009-09-14-interview-gamefreak-career-message-watanabe#10
+  post: 2009-09-14-interview-gamefreak-career-message-watanabe
+  segment: 10
+  speaker: 渡边哲也
+  reported: false
+  kind: quote
+  hook: 渡边哲也：有实绩又精力充沛的人会自己开公司
+  zh: 技术高当然越好，但有实绩、精力充沛的人会自己开公司吧。所以，只要是“虽然还没到自己开公司的程度，但已经做好在这个世界生存的觉悟”的人就好。将来想独立也可以。当然，既然说到这个份上，希望你能给公司留下点什么。
+  ja: 高い技術力はあるに越した事はないけど、実績があり、エネルギッシュな人は自分で会社起こしちゃうでしょう。だから「まだ自分で会社創るまではいかないけど、この世界で生きる覚悟が出来ている」という人であればいいです。いずれ独立しようと思っててもいいですよ。もちろん、そこまで言うからには何か会社に落としていって欲しいですね。
+  lang: ja
+  year: 2009
+  date: '2009-09-14'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 2009 中途招聘寄语：渡边哲也（程序）——技术创造「游玩」
+  score: 4
+  why: 招聘标准的具体表述：不要求顶尖到能独立，只要做好在这个世界生存的觉悟，将来想独立也可以。
+  more: 同篇第3句也提到「没完成、没发售就是零的世界」。
+  people:
+  - 渡边哲也
+  works: []
+  links: []
 - id: 2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197#42
   post: 2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197
   segment: 42
@@ -15994,6 +16062,114 @@ quotes:
     slug: iwata-satoru
   - type: term
     name: 超级进化
+- id: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk#10
+  post: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk
+  segment: 10
+  speaker: F.K.
+  reported: false
+  kind: quote
+  hook: F.K.：宝可梦动作坚持手工逐帧，过场可考虑动捕
+  zh: 是的，我们能做、该做的事情还有太多太多。在动作设计上，为了精准传递宝可梦独特的世界观神韵，我们依然坚信纯手工逐帧打磨（手付け / Hand-keyed）是最契合的方式；但如果要在过场剧情演示中展现更具呼吸感的真实动态，引入动作捕捉（Motion Capture）也是完全可行的手段；而在面部表情表现上，除了传统的骨骼绑定（Joints），结合使用变形目标（Morphing / Blendshapes）也大有可为。像这样，为了无限逼近脑海中构想的终极表现力而不断探索创新工法，这正是最吸引人的乐趣所在。
+  ja: うん、出来ることはまだたくさんあるでしょうね。モーションはポケモンの世界観を表現するためにはやっぱり手付けが適していると考えているけれど、デモにリアルさを出すならモーションキャプチャーを使ってもいいし、表情にはジョイントだけでなく、モーフィングを使うのもあり。そうやって「思い描いている表現」に近づけるために、工夫するのが面白いなと。僕個人はそう思います。
+  lang: ja
+  year: 2013
+  date: '2013-10-20'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
+  score: 4
+  why: 说明动作设计上的工法取舍：为传递宝可梦世界观神韵坚持手付け，过场剧情演示则可用动作捕捉，面部表情可结合变形目标。
+  more: 同篇第 5 句介绍 F.K. 是入社 2 年的角色动作团队组长。
+  people:
+  - T.O.
+  - F.K.
+  - 杉森建
+  works:
+  - 宝可梦 X·Y
+  - Gear Project（齿轮企划）
+  links:
+  - type: person
+    name: F.K.
+    slug: f-k
+- id: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk#11
+  post: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk
+  segment: 11
+  speaker: T.O.
+  reported: false
+  kind: quote
+  hook: T.O.：为还原杉森建插画，我们打破了物理光影规则
+  zh: 而且在本作中，将杉森建老师（GAME FREAK 设计总监 / 美术总监）笔下那极富韵味的插画风貌在 3D 空间中完美还原，是我们图形表现最核心的战略大方针。为此，我们做出了极具突破性的尝试。通常在 3D 引擎中，物体是根据物理光照法则自然投射明暗阴影的；但为了完全契合杉森老师水彩插画那独特的通透笔触与高光阴影，我们特意打破了常规物理光影规则，采用了一种非同寻常的方式来呈现光暗关系。
+  ja: 今回は杉森（ゲームフリークデザイングループ、アートディレクター）のイラストを３Dで再現するっていうのがグラフィック表現の、ひとつの大きな方針だったから、それについてはかなり面白いことをしてますよ。普通は立体に対して影が入るところをイラストのタッチに合わせて、そうではない出し方をしているんです。
+  lang: ja
+  year: 2013
+  date: '2013-10-20'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
+  score: 5
+  why: 披露《宝可梦 X·Y》图形表现的核心方针：为契合杉森建的水彩插画风貌，刻意不按物理光照法则投射明暗。
+  more: 同篇第 13 句提到，这不是普通的标准光照着色器，而是美术团队与底层程序员协同开发的定制算法。
+  people:
+  - T.O.
+  - F.K.
+  - 杉森建
+  works:
+  - 宝可梦 X·Y
+  - Gear Project（齿轮企划）
+  links:
+  - type: term
+    name: 程序员
+- id: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk#20
+  post: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk
+  segment: 20
+  speaker: T.O.
+  reported: false
+  kind: quote
+  hook: T.O.：公司现在最渴求的是硬核专业造诣的专家
+  zh: 可事实上，公司现在最迫切渴求的反而是这类拥有硬核专业造诣的专家啊！该怎么把这个信号清晰地传递给外界呢…… 以往大家总觉得纯粹的“手绘画力”和“脑洞发想力”是最关键的；但以角色建模师为例，能够深刻理解真实人体解剖学（Anatomy）与素描体积骨骼构造的底子，反而比什么都重要。
+  ja: そういう人って実はすごく求められているのにね。どうすれば伝わるのかな～。今まで「画力」と「発想力」が重要だったけど、例えばキャラクターモデラーなら人体デッサンを理解していることのほうが重要だし。
+  lang: ja
+  year: 2013
+  date: '2013-10-20'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
+  score: 4
+  why: 给出与「复合型通才」不同的招聘判断：以角色建模师为例，理解人体解剖学与素描体积骨骼构造比手绘画力更关键。
+  more: 同篇第 18 句提到 GAME FREAK 长期倾向索求能涉猎多种维度的复合型通才。
+  people:
+  - T.O.
+  - F.K.
+  - 杉森建
+  works:
+  - 宝可梦 X·Y
+  - Gear Project（齿轮企划）
+  links:
+  - type: term
+    name: GAME FREAK
+- id: 2013-11-01-interview-gamefreak-recruit-programmer-tt-mi#15
+  post: 2013-11-01-interview-gamefreak-recruit-programmer-tt-mi
+  segment: 15
+  speaker: T.T.
+  reported: false
+  kind: quote
+  hook: T.T.：以前做全3D，GAME FREAK像小学生
+  zh: 说实话，正是因为I先生的加入，我们才真正大幅拓展了画面的表现力与广度。怎么说呢，在制作“全3D游戏内容”这一维度上，以前的GAME FREAK我觉得就跟小学生水平差不多。当然团队里也有个别精通3D技术的人才，但就整体团队的开发管线而言确实如此。之后随着各路社招资深人才的加入，加上外部专业合作公司的深度协同，我觉得我们现在总算是达到了“成年社会人”的水平吧。
+  ja: 本当に、Iさんが加入したことにより、表現の幅が広がったと思います。あのね、３Dのコンテンツを作るっていう意味において、ゲームフリークは小学生みたいなものだったと思うんですよ。もちろん中には３Dの技術に長けている人もいるけど、全体としてはね。それで現在は中途入社の方々が加わったり、外部の協力会社さんに入ってもらったりして社会人くらいにはなったんじゃないかなと思っています。
+  lang: ja
+  year: 2013
+  date: '2013-10-20'
+  publication: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
+  title: GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）
+  score: 5
+  why: T.T. 用「小学生水平」形容《宝可梦 X·Y》之前 GAME FREAK 团队整体的全3D开发管线，并说明靠社招资深人才与外部合作才达到「成年社会人」水平。
+  more: 同篇 M.I. 提到自己 2011 年从另一家游戏公司 3D 图形 R&D 部门中途入职，负责 3D 模型渲染与开发环境搭建。
+  people:
+  - T.T.
+  - M.I.
+  works:
+  - 宝可梦 X·Y
+  links:
+  - type: person
+    name: M.I.
+    slug: m-i
 - id: 2013-10-21-scan-ndream-2013-12-xy-character-design-interview#50
   post: 2013-10-21-scan-ndream-2013-12-xy-character-design-interview
   segment: 50
@@ -16101,114 +16277,6 @@ quotes:
     slug: ohmura-yusuke
   - type: term
     name: GAME FREAK
-- id: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk#10
-  post: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk
-  segment: 10
-  speaker: F.K.
-  reported: false
-  kind: quote
-  hook: F.K.：宝可梦动作坚持手工逐帧，过场可考虑动捕
-  zh: 是的，我们能做、该做的事情还有太多太多。在动作设计上，为了精准传递宝可梦独特的世界观神韵，我们依然坚信纯手工逐帧打磨（手付け / Hand-keyed）是最契合的方式；但如果要在过场剧情演示中展现更具呼吸感的真实动态，引入动作捕捉（Motion Capture）也是完全可行的手段；而在面部表情表现上，除了传统的骨骼绑定（Joints），结合使用变形目标（Morphing / Blendshapes）也大有可为。像这样，为了无限逼近脑海中构想的终极表现力而不断探索创新工法，这正是最吸引人的乐趣所在。
-  ja: うん、出来ることはまだたくさんあるでしょうね。モーションはポケモンの世界観を表現するためにはやっぱり手付けが適していると考えているけれど、デモにリアルさを出すならモーションキャプチャーを使ってもいいし、表情にはジョイントだけでなく、モーフィングを使うのもあり。そうやって「思い描いている表現」に近づけるために、工夫するのが面白いなと。僕個人はそう思います。
-  lang: ja
-  year: 2013
-  date: '2013-11-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
-  score: 4
-  why: 说明动作设计上的工法取舍：为传递宝可梦世界观神韵坚持手付け，过场剧情演示则可用动作捕捉，面部表情可结合变形目标。
-  more: 同篇第 5 句介绍 F.K. 是入社 2 年的角色动作团队组长。
-  people:
-  - T.O.
-  - F.K.
-  - 杉森建
-  works:
-  - 宝可梦 X·Y
-  - Gear Project（齿轮企划）
-  links:
-  - type: person
-    name: F.K.
-    slug: f-k
-- id: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk#11
-  post: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk
-  segment: 11
-  speaker: T.O.
-  reported: false
-  kind: quote
-  hook: T.O.：为还原杉森建插画，我们打破了物理光影规则
-  zh: 而且在本作中，将杉森建老师（GAME FREAK 设计总监 / 美术总监）笔下那极富韵味的插画风貌在 3D 空间中完美还原，是我们图形表现最核心的战略大方针。为此，我们做出了极具突破性的尝试。通常在 3D 引擎中，物体是根据物理光照法则自然投射明暗阴影的；但为了完全契合杉森老师水彩插画那独特的通透笔触与高光阴影，我们特意打破了常规物理光影规则，采用了一种非同寻常的方式来呈现光暗关系。
-  ja: 今回は杉森（ゲームフリークデザイングループ、アートディレクター）のイラストを３Dで再現するっていうのがグラフィック表現の、ひとつの大きな方針だったから、それについてはかなり面白いことをしてますよ。普通は立体に対して影が入るところをイラストのタッチに合わせて、そうではない出し方をしているんです。
-  lang: ja
-  year: 2013
-  date: '2013-11-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
-  score: 5
-  why: 披露《宝可梦 X·Y》图形表现的核心方针：为契合杉森建的水彩插画风貌，刻意不按物理光照法则投射明暗。
-  more: 同篇第 13 句提到，这不是普通的标准光照着色器，而是美术团队与底层程序员协同开发的定制算法。
-  people:
-  - T.O.
-  - F.K.
-  - 杉森建
-  works:
-  - 宝可梦 X·Y
-  - Gear Project（齿轮企划）
-  links:
-  - type: term
-    name: 程序员
-- id: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk#20
-  post: 2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk
-  segment: 20
-  speaker: T.O.
-  reported: false
-  kind: quote
-  hook: T.O.：公司现在最渴求的是硬核专业造诣的专家
-  zh: 可事实上，公司现在最迫切渴求的反而是这类拥有硬核专业造诣的专家啊！该怎么把这个信号清晰地传递给外界呢…… 以往大家总觉得纯粹的“手绘画力”和“脑洞发想力”是最关键的；但以角色建模师为例，能够深刻理解真实人体解剖学（Anatomy）与素描体积骨骼构造的底子，反而比什么都重要。
-  ja: そういう人って実はすごく求められているのにね。どうすれば伝わるのかな～。今まで「画力」と「発想力」が重要だったけど、例えばキャラクターモデラーなら人体デッサンを理解していることのほうが重要だし。
-  lang: ja
-  year: 2013
-  date: '2013-11-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
-  score: 4
-  why: 给出与「复合型通才」不同的招聘判断：以角色建模师为例，理解人体解剖学与素描体积骨骼构造比手绘画力更关键。
-  more: 同篇第 18 句提到 GAME FREAK 长期倾向索求能涉猎多种维度的复合型通才。
-  people:
-  - T.O.
-  - F.K.
-  - 杉森建
-  works:
-  - 宝可梦 X·Y
-  - Gear Project（齿轮企划）
-  links:
-  - type: term
-    name: GAME FREAK
-- id: 2013-11-01-interview-gamefreak-recruit-programmer-tt-mi#15
-  post: 2013-11-01-interview-gamefreak-recruit-programmer-tt-mi
-  segment: 15
-  speaker: T.T.
-  reported: false
-  kind: quote
-  hook: T.T.：以前做全3D，GAME FREAK像小学生
-  zh: 说实话，正是因为I先生的加入，我们才真正大幅拓展了画面的表现力与广度。怎么说呢，在制作“全3D游戏内容”这一维度上，以前的GAME FREAK我觉得就跟小学生水平差不多。当然团队里也有个别精通3D技术的人才，但就整体团队的开发管线而言确实如此。之后随着各路社招资深人才的加入，加上外部专业合作公司的深度协同，我觉得我们现在总算是达到了“成年社会人”的水平吧。
-  ja: 本当に、Iさんが加入したことにより、表現の幅が広がったと思います。あのね、３Dのコンテンツを作るっていう意味において、ゲームフリークは小学生みたいなものだったと思うんですよ。もちろん中には３Dの技術に長けている人もいるけど、全体としてはね。それで現在は中途入社の方々が加わったり、外部の協力会社さんに入ってもらったりして社会人くらいにはなったんじゃないかなと思っています。
-  lang: ja
-  year: 2013
-  date: '2013-11-01'
-  publication: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
-  title: GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）
-  score: 5
-  why: T.T. 用「小学生水平」形容《宝可梦 X·Y》之前 GAME FREAK 团队整体的全3D开发管线，并说明靠社招资深人才与外部合作才达到「成年社会人」水平。
-  more: 同篇 M.I. 提到自己 2011 年从另一家游戏公司 3D 图形 R&D 部门中途入职，负责 3D 模型渲染与开发环境搭建。
-  people:
-  - T.T.
-  - M.I.
-  works:
-  - 宝可梦 X·Y
-  links:
-  - type: person
-    name: M.I.
-    slug: m-i
 - id: 2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida#12
   post: 2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida
   segment: 12
@@ -17381,23 +17449,23 @@ quotes:
   - 宝可梦 剧场版 光轮的超魔神 胡帕
   - 宝可梦 动画系列
   links: []
-- id: 2015-08-01-interview-gamefreak-gear-tembo-turner#20
+- id: 2015-08-01-interview-gamefreak-gear-tembo-turner#8
   post: 2015-08-01-interview-gamefreak-gear-tembo-turner
-  segment: 20
-  speaker: T.M.
+  segment: 8
+  speaker: James Turner
   reported: false
-  kind: quote
-  hook: T.M.：全高清跨平台第一次，吃尽苦头
-  zh: 因为这是我们第一次涉足全高清跨平台（Multi-platform），吃尽了苦头。在开发机 PC 上跑得好好的东西，一烧录到 PS4 或 Xbox One 零售测试机上，就会发生严重的帧率骤降（掉帧），或者画面的光影色调完全变了样。而且由于关卡地图的 3D 模型数据量极其庞大，疯狂吞噬主机显存，我们反反复复进行了无数次网格面数轻量化削减与贴图管线优化。因为是极少数人的独立小团队，根本没有任何其他部门的人来替你擦屁股，你必须自己深入底层揪出所有性能瓶颈并亲自解决。那种背水一战的高压是非常真实的。
-  ja: マルチプラットフォームは初めてだったので、やっぱり苦労しました。PC上だと動くのに、PS4やXbox Oneの実機に持っていくと処理落ちしたり、想定通りの色味が出なかったり。また、マップモデルのデータ量が多すぎてメモリを圧迫し、何度もモデルの軽量化やテクスチャの最適化を行いました。少人数チームなので、誰かがやってくれるわけではなく、自分で原因を突き止めて解決しなければならない。そのプレッシャーは大きかったですね。
+  kind: question
+  hook: 《TEMBO》的灵感来自路边招牌？
+  zh: 正好是参与的《宝可梦 X・Y》开发告一段落的时候。有一天走在回家的路上，路边的招牌上画着大象的插图。看到那个，我灵光一闪：“大象作为动作游戏的角色不是很有趣吗？”回家后马上画了好几张大象的插图，把印象逐渐扩展开来。
+  ja: ちょうど、参加していた『ポケットモンスター X・Y』の開発が一段落した頃のことです。ある日帰り道を歩いていると、道端の看板に象のイラストが。それを見て、「象はアクションゲームのキャラとしておもしろいのではないか」とひらめきました。帰宅後すぐ、象のイラストを何枚も書いて、イメージを膨らませていきました。
   lang: ja
   year: 2015
-  date: '2015-08-01'
+  date: '2015-10-12'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
   score: 4
-  why: 讲齿轮企划首次做全高清跨平台，PC 上正常、烧录到 PS4 或 Xbox One 零售机就掉帧、光影变样，只能自己削面数、优化贴图。
-  more: 同篇 T.M. 提到最初想做 3D 自由空间的大象游戏，原型跑起来后才发现体现不出大象特性。
+  why: James Turner 说明游戏起点是《宝可梦 X・Y》开发告一段落后，回家路上看到招牌上的大象插图。
+  more: 他回家后马上画了好几张大象插图，把印象逐渐扩展成企划。
   people:
   - James Turner
   - T.M.
@@ -17406,10 +17474,59 @@ quotes:
   - 节奏猎人 哈莫奈特（リズムハンター ハーモナイト）
   - 宝可梦 X·Y
   - Gear Project（齿轮企划）
-  links:
-  - type: person
-    name: T.M.
-    slug: t-m
+  links: []
+- id: 2015-08-01-interview-gamefreak-gear-tembo-turner#19
+  post: 2015-08-01-interview-gamefreak-gear-tembo-turner
+  segment: 19
+  speaker: James Turner
+  reported: false
+  kind: question
+  hook: 为什么放弃横版卷轴格斗游戏？
+  zh: 做成一款活用主角是大象这一点的动作游戏。 其实一开始，我想做成横版卷轴的格斗游戏。比如用鼻子出拳之类的。 但那样的话，总觉得感觉不到“非大象不可的必然性”。 所以，我开始重新思考如何利用大象的体型和重量。试着做了一个房子的模型，让大象撞上去，房子爆炸的演示，感觉非常合适。于是，就决定做一款以“活用大象体格的破坏”为核心的游戏！
+  ja: 主人公が象であることを活かしたアクションゲームにすることです。 実は最初は、横スクロールのファイティングゲームにしようと思っていました。鼻でパンチしたりとかするような。 でもそれだとどうしても「象である必然性」を感じられなかった。 なので、象の大きさ、重さを活用できる方法を改めて考え始めて。試しに家のモデルを作り、象が体当たりをして家が爆発するデモを作ってみたら、すごくしっくりきました。それで、「象の体格を活かした破壊」をコアにしたゲームにしよう！ と。
+  lang: ja
+  year: 2015
+  date: '2015-10-12'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
+  score: 4
+  why: James Turner 说最初想做横版卷轴格斗游戏，但感觉不到非大象不可的必然性，转而做活用体格的破坏玩法。
+  more: 他提到用房子模型让大象撞上去、房子爆炸的演示，觉得非常合适。
+  people:
+  - James Turner
+  - T.M.
+  works:
+  - TEMBO THE BADASS ELEPHANT
+  - 节奏猎人 哈莫奈特（リズムハンター ハーモナイト）
+  - 宝可梦 X·Y
+  - Gear Project（齿轮企划）
+  links: []
+- id: 2015-08-01-interview-gamefreak-gear-tembo-turner#21
+  post: 2015-08-01-interview-gamefreak-gear-tembo-turner
+  segment: 21
+  speaker: T.M.
+  reported: false
+  kind: quote
+  hook: T.M.：同时面向3种平台开发相当困难
+  zh: 因为是多平台，第一次做，所以还是很辛苦。在 PC 上能运行，但在 Xbox One 上却运行不好、卡顿、显示不正常等等。开发前我以为用 Unity 就能比较轻松地做出华丽的东西，但实际上同时面向 3 种平台开发是相当困难的。
+  ja: マルチプラットフォームは初めてだったので、やっぱり苦労しました。PC上だと動くのに、Xbox Oneだとうまく動かない、カクカクする、うまく表示されない、など。開発前は、Unityを使えば比較的楽に派手なものが作れるだろうと思っていたんですが、実際には同時に3種類のプラットフォームに向けて開発するのはかなり大変でした。
+  lang: ja
+  year: 2015
+  date: '2015-10-12'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
+  score: 4
+  why: T.M. 说多平台开发是第一次，PC 能运行但 Xbox One 上卡顿、显示不正常，原以为 Unity 能轻松做出华丽效果。
+  more: 这款游戏面向 PS4／Xbox One／Steam 同时发售。
+  people:
+  - James Turner
+  - T.M.
+  works:
+  - TEMBO THE BADASS ELEPHANT
+  - 节奏猎人 哈莫奈特（リズムハンター ハーモナイト）
+  - 宝可梦 X·Y
+  - Gear Project（齿轮企划）
+  links: []
 - id: 2015-09-01-interview-gamefreak-rnd-launch-taya-mi#15
   post: 2015-09-01-interview-gamefreak-rnd-launch-taya-mi
   segment: 15
@@ -17421,7 +17538,7 @@ quotes:
   ja: 進化して制限の少なくなっていくハードのスペックをフルに活かし、ベストな表現をしていきたいと思っています。 例えば2015年の映画『ポケモン・ザ・ムービーＸＹ「光輪（リング）の超魔神 フーパ」』に登場するフーパはリングを扱うのですが、本来の設定ではこのリングの向こうは異次元なので、リングの向こうの何もないところから、突然物が出て来るはずなんですよ。しかしこの表現が、ゲームの『ポケットモンスター Ｘ・Ｙ』では実現できませんでした。次のハードでは、こういったところも設定に忠実に表現したいです。 弊社はギアプロジェクト制度の中でマルチプラットフォームのゲーム開発にも挑戦したりもしていますから、その辺りにも一枚噛んでいきたいですね。
   lang: ja
   year: 2015
-  date: '2015-09-01'
+  date: '2015-10-21'
   publication: GAME FREAK 招聘网站
   title: GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标
   score: 4
@@ -17433,79 +17550,23 @@ quotes:
   works:
   - 宝可梦 X·Y
   links: []
-- id: 2015-10-01-interview-gamefreak-recruit-designers#20
+- id: 2015-10-01-interview-gamefreak-recruit-designers#9
   post: 2015-10-01-interview-gamefreak-recruit-designers
-  segment: 20
-  speaker: A.I.
-  reported: false
-  kind: quote
-  hook: A.I.：新人立刻被委以重任，建议直达决策层
-  zh: 首先最让我吃惊的，是全公司的员工总数居然比我想象的还要精简得多！因此，哪怕是刚进公司的新人，立刻就会被委以重任。我刚入社不久，就被指派主导关键剧情过场动画的核心演出动作、以及全新宝可梦的常态待机与攻击动作，瞬间感受到了沉甸甸的责任感与信任。在这里，任何人的专业建议都能直达核心决策层，推行效率极高。
-  ja: まず、思った以上に社員数が少ない。なので、最初からけっこう重要な部分を任されます。私も入社してすぐに、重要なイベントシーンのモーションや、新ポケモンの待機・攻撃モーションを任せてもらえて、身が引き締まる思いでした。意見もすごく通りやすいですね。
-  lang: ja
-  year: 2015
-  date: '2015-10-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
-  score: 4
-  why: 说明 GAME FREAK 员工总数精简，新人入社不久即主导关键过场动画与宝可梦动作，反映公司扁平化与信任机制。
-  more: 同篇 T.W. 提到公司的新人研修期会系统讲解自研框架与宝可梦世界观。
-  people:
-  - T.W.
-  - A.I.
-  - T.A.
-  works:
-  - 宝可梦 X·Y
-  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-  links:
-  - type: person
-    name: T.W.
-    slug: t-w
-- id: 2015-10-01-interview-gamefreak-recruit-designers#22
-  post: 2015-10-01-interview-gamefreak-recruit-designers
-  segment: 22
+  segment: 9
   speaker: T.W.
   reported: false
   kind: quote
-  hook: T.W.：中途入社也认真做新人研修
-  zh: 我最惊讶的是，公司承诺的“新人研修期”居然是真的在认认真真进行全方位培训（笑）！在很多中途招聘的大厂里，往往觉得“你反正是熟手，第一天就直接给我顶上一线去画图”，但在 GAME FREAK，从基础工具链操作、公司自研框架到宝可梦过去二十年的世界观哲学与设计准则，老员工们会极其耐心地为你提供系统化沉淀讲解。得益于此，我非常自然且丝滑地融入了团队的核心节奏之中。
-  ja: 「研修期間」に本当に研修をしてもらえると思ってなかったのでびっくりしました（笑）。中途採用だと「即戦力だから初日からラインに入って」という会社も多い中、ゲームフリークでは座学からツール研修、ポケモンの歴史や世界観のレクチャーまで、じっくり時間をかけて受けさせてもらえました。おかげでスムーズにチームに馴染むことができましたね。
+  hook: T.W.：12年主机游戏后转社交游戏两年半
+  zh: 1999年进入游戏行业，之后一直从事游戏制作。最初的12年在大游戏公司做主机游戏开发。起初一心想着“想让大家看到自己做的东西！”，但渐渐地越来越意识到用户。于是对用户量大的社交游戏产生了兴趣，在大社交游戏公司工作了大约两年半。 岗位一直以UI为主，但在上一家公司被委任了手机游戏的运营，也有过对数字负责的管理经验。
+  ja: 1999年にゲーム業界に入り、それ以降一貫してゲーム制作に携わっています。最初の12年は大手ゲーム会社でコンシューマーゲーム開発に従事。当初は「自分の作ったものをみんなに見せたい！」という一心だったのですが、だんだんユーザーを強く意識するようになって。それで、ユーザー数の多いソーシャルゲームに興味を持ち、大手ソーシャルゲーム会社で2年半ほど就業しました。 職種としてはずっとUIがメインですが、前職ではスマホゲームの運営を任され、数字にコミットしたマネジメントも経験しています。
   lang: ja
   year: 2015
-  date: '2015-10-01'
+  date: '2015-10-21'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
   score: 4
-  why: 对比很多中途招聘大厂让熟手第一天直接上一线，GAME FREAK 会从工具链、自研框架到宝可梦设计准则系统培训。
-  more: 同篇 T.A. 提到特效管线已高度自动化，设计师可在自研可视化工具链中独立完成粒子到镜头震屏。
-  people:
-  - T.W.
-  - A.I.
-  - T.A.
-  works:
-  - 宝可梦 X·Y
-  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-  links:
-  - type: person
-    name: T.A.
-    slug: t-a
-- id: 2015-10-01-interview-gamefreak-recruit-designers#26
-  post: 2015-10-01-interview-gamefreak-recruit-designers
-  segment: 26
-  speaker: T.A.
-  reported: false
-  kind: quote
-  hook: T.A.：做 UI 或特效也能投宝可梦新物种设计案
-  zh: 我的头号梦想是：一定要亲自投递宝可梦的新物种设计案！在 GAME FREAK 内部，每逢新作筹备都会面向全公司发起宝可梦原案设计大赛，只要是设计师，哪怕你是做 UI 或是特效的，任何人都拥有完全平等的提案资格！如果我亲手构想出的宝可梦最终能够被收录进正统图鉴、被全世界无数的孩子们在冠军之路上派上对战场，作为创作者这辈子就没有比这更浪漫的奇迹了。当然作为本职，伴随未来新硬件算力的跃迁，我也必将打造出让全球惊掉下巴的全新次元招式演出！
-  ja: ポケモンデザイン案を応募したいです。ポケモンデザインは原案やイメージの提案が全社から募集される機会があり、デザイナーであれば職種に関係なく誰でも応募できるんです。自分の考えたポケモンがゲームの中に登場して、世界中の子供たちにバトルで使ってもらえたら、これ以上の夢はありません。もちろん、エフェクトとしても、ハードの進化に合わせてさらに驚きのある表現を突き詰めていきます。
-  lang: ja
-  year: 2015
-  date: '2015-10-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
-  score: 4
-  why: GAME FREAK 每逢新作筹备会面向全公司发起宝可梦原案设计大赛，任何设计师都有平等提案资格。
-  more: 同篇 A.I. 谈到《宝可梦》全面迈入 3D 时代不久，动作演出仍有大量未知疆域。
+  why: 具体数字勾勒出从主机到社交游戏再回到GAME FREAK的职业路径，涉及UI与运营管理经验。
+  more: 同篇A.I.从动画行业转来，T.A.应届起做特效7年，三人背景各异。
   people:
   - T.W.
   - A.I.
@@ -17517,23 +17578,82 @@ quotes:
   - type: person
     name: A.I.
     slug: a-i
-- id: 2015-10-01-interview-gamefreak-recruit-planners#12
+  - type: person
+    name: T.A.
+    slug: t-a
+- id: 2015-10-01-interview-gamefreak-recruit-designers#10
+  post: 2015-10-01-interview-gamefreak-recruit-designers
+  segment: 10
+  speaker: A.I.
+  reported: false
+  kind: quote
+  hook: A.I.：动画师7年，应届时本想进游戏行业
+  zh: 我是动态设计师A.I.。 我上一份工作是在动画行业，作为动画师做了7年，主要做周播动画和剧场动画里赛璐璐风格的3DCG。当时就喜欢手绘动画，一直在追求那种有花哨劲儿的动作。 其实应届的时候，我是打算进游戏行业的。本来就喜欢游戏，主要是玩那种大家能一起热闹玩的欧美游戏。具体来说就是《Left 4 Dead》之类的。 但实习时碰巧去了动画公司。在那里做的东西让我觉得有意思，结果就那样入职了。
+  ja: モーションデザイナーのA.I.です。 私の前職はアニメーション業界で、週アニメや劇場アニメ内のセルアニメ調3ＤCGを中心に手掛けるアニメーターとして7年間就業。当時から手書きのアニメーションが好きで、外連味のある感じの動きを追求してきました。 本当は新卒の時、ゲーム業界に入るつもりだったんですよ。ゲームは元々好きで、特にみんなでわいわい遊べるような洋ゲー中心に遊んでいます。具体的には『Left 4 Dead』とか。 でもインターンでたまたまアニメ会社に行くことになって。そこでの作業におもしろみを感じ、結局そのまま入社しました。
+  lang: ja
+  year: 2015
+  date: '2015-10-21'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
+  score: 4
+  why: 7年动画师经历与应届时想进游戏行业的转折，说明入职GAME FREAK前的行业跨度。
+  more: 同篇T.A.也是从应届起做特效7年，两人经历形成对照。
+  people:
+  - T.W.
+  - A.I.
+  - T.A.
+  works:
+  - 宝可梦 X·Y
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  links:
+  - type: person
+    name: T.A.
+    slug: t-a
+- id: 2015-10-01-interview-gamefreak-recruit-designers#16
+  post: 2015-10-01-interview-gamefreak-recruit-designers
+  segment: 16
+  speaker: A.I.
+  reported: false
+  kind: quote
+  hook: A.I.：因《宝可梦 X・Y》3D化看到参与空间
+  zh: 我的情况是，原本就喜欢《宝可梦》系列，这是最大的理由。大家一起热热闹闹地玩，钻研要素也很丰富， 《宝可梦》系列是我最喜欢的日本游戏。 知道《宝可梦 X・Y》开始3D化后，我觉得自己也有参与的空间。我比较擅长偏2D风格的3D动画，也觉得自己的风格能派上用场。
+  ja: 私の場合は、元々『ポケットモンスター』シリーズが好きだったのが最大の理由です。わいわいみんなで遊べて、やり込み要素も豊富な 『ポケットモンスター』シリーズは、日本のゲームの中では一番好きなゲームです。 『ポケットモンスター Ｘ・Ｙ』から3D化したと知って、私も参加する余地がありそうだと思いました。2Dっぽいテイストの3Dアニメーションが得意なので、自分の作風が活かせるとも感じました。
+  lang: ja
+  year: 2015
+  date: '2015-10-21'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
+  score: 4
+  why: 把入职动机与《宝可梦 X・Y》3D化直接挂钩，并提到自己擅长偏2D风格的3D动画。
+  more: 同篇T.A.也提到玩《宝可梦 X・Y》时注意到招式特效的细致。
+  people:
+  - T.W.
+  - A.I.
+  - T.A.
+  works:
+  - 宝可梦 X·Y
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  links:
+  - type: person
+    name: T.A.
+    slug: t-a
+- id: 2015-10-01-interview-gamefreak-recruit-planners#5
   post: 2015-10-01-interview-gamefreak-recruit-planners
-  segment: 12
+  segment: 5
   speaker: R.M.
   reported: false
   kind: quote
-  hook: R.M.：GAME FREAK 全社仅百人左右
-  zh: 在上一家公司时，我制作的主要是偏向特定成年核心玩家群体的重度游戏；但我内心最向往的造物形态，恰恰是像《宝可梦》这样上至古稀老人、下至学龄幼童，任何人拿起手柄都能瞬间体会到纯真快乐、并长久留存于灵魂深处的常青作品。更重要的是，相比于《宝可梦》在全球呼风唤雨的巨大声量，GAME FREAK 全社的人员规模竟惊人地克制在百人左右！这就意味着，在这里你绝不会沦为庞大流水线上毫无话语权的冰冷工具人，你的每一个脑洞和主张都能以极短的路径直接烙印在作品本身之上。
-  ja: 前職では、わりと大人向けのゲームを作っていましたが、私が本来好きなゲームは『ポケットモンスター』のように、子どもから大人まで誰でも楽しめて、心に残るゲームだったんです。また、ゲームフリークは社員数が100人前後と、タイトルの知名度に対して驚くほどコンパクト。ここなら、企画の歯車ではなく、自分のアイデアをダイレクトにゲームに反映できると思いました。
+  hook: R.M.：4年只做支线事件、文本、镜头和小游戏
+  zh: 我是2015年入职、作为事件策划工作的R.M.。 上一份工作是从2011年起4年间，在一家大游戏公司一直参与一个动作冒险游戏系列。负责的是支线事件的策划、其文本撰写、镜头演出，还有小游戏规格设计等，故事主线以外的部分。
+  ja: 2015年に入社し、イベントプランナーとして就業しているR.M.です。 前職では2011年から4年間、大手ゲーム会社でアクションアドベンチャーゲームのシリーズにずっと携わっていました。担当はサブイベントのプランニング、そのテキスト作成、カメラ演出、あとはミニゲームの仕様設計など、ストーリーの本筋以外の部分でした。
   lang: ja
   year: 2015
-  date: '2015-10-01'
+  date: '2015-10-21'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
-  score: 5
-  why: 披露 GAME FREAK 在《宝可梦》全球声量下仍保持约百人规模，并说明小团队让策划主张能直接落到作品上。
-  more: 同篇 H.T. 也提到 GAME FREAK 是极度扁平的精英组织。
+  score: 4
+  why: 具体交代了入职前的工作年限与职责范围，说明其经验集中在故事主线之外的部分。
+  more: 同篇H.T.提到上一份工作是九州游戏公司3年程序员，负责战斗和UI。
   people:
   - H.T.
   - R.M.
@@ -17545,51 +17665,24 @@ quotes:
     name: H.T.
     slug: h-t
   - type: term
-    name: GAME FREAK
-- id: 2015-10-01-interview-gamefreak-recruit-planners#19
+    name: 程序员
+- id: 2015-10-01-interview-gamefreak-recruit-planners#9
   post: 2015-10-01-interview-gamefreak-recruit-planners
-  segment: 19
-  speaker: H.T.
-  reported: false
-  kind: quote
-  hook: H.T.：策划要在内存墙内推敲存档结构
-  zh: 完全超出了我的预期！从游戏存档数据（Save Data）的比特级底层布局、到自研地图关卡编辑器（Level Editor）的功能架构定义，GAME FREAK 策划涉及的技术纵深令人叹为观止。在这里，策划绝不是画画草图、写写对话的感性工种，你必须在极限的主机内存墙与读取带宽红线内，与底层程序员平起平坐地坐在白板前严密推敲数据存储结构。我过去的编程工程履历在这里得到了堪称完美的施展；正因我能拿出具备严密技术可行性论证的硬核规格案，团队从上到下的沟通协作阻力几乎为零。
-  ja: セーブデータ/エディタまわりの設計等、想像していたより、プランナーの仕事の領域が技術的に深くて驚きました。単に「面白いお話やマップの絵を描く」だけではなく、メモリの制限の中でどうデータを保持するか、プログラマと対等に議論しながらデータ構造を詰めていく。元プログラマの経験がこれ以上ないほど活きていますし、技術的な裏付けを持って仕様を提案できるので、開発が非常にスムーズです。
-  lang: ja
-  year: 2015
-  date: '2015-10-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
-  score: 4
-  why: 具体说明 GAME FREAK 策划涉及存档数据比特级布局与自研地图关卡编辑器，技术纵深超出 H.T. 预期。
-  more: H.T. 因此把自己定位为精通技术架构的全能型战略策划（Technical Planner）。
-  people:
-  - H.T.
-  - R.M.
-  works:
-  - 宝可梦 X·Y
-  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-  links:
-  - type: person
-    name: H.T.
-    slug: h-t
-- id: 2015-10-01-interview-gamefreak-recruit-planners#20
-  post: 2015-10-01-interview-gamefreak-recruit-planners
-  segment: 20
+  segment: 9
   speaker: R.M.
   reported: false
   kind: quote
-  hook: R.M.：GAME FREAK 铁律是玩家双脚探险实感
-  zh: 即便是同样名为“事件策划”，两家公司的造物哲学却有着云泥之别。在前东家时，我们追求的往往是那种大开大合、镜头飞旋的“电影化华丽运镜”；然而在 GAME FREAK，全团队上下最为神圣不可侵犯的铁律是——“确保玩家手握按键、用自己的双脚在大地上一寸寸探险的原生实感”！我们绝不屑于用漫长无聊的播片剧情去粗暴剥夺玩家的操作自由，而是必须在最纯粹干脆的按键回馈与台词节拍中，精准挑动玩家心弦的暗涌。这种如同百年老铺匠人雕琢般的深厚内功与设计心法，每天都让我叹服不已。
-  ja: 一口にイベントプランニングと言っても、作り方が大きく異なっていたので驚きました。前職では、どちらかといえば「映画的な演出」を重視していましたが、ゲームフリークでは「プレイヤーがコントローラーを握って、自分の足で冒険している感覚」を何よりも神聖視しています。過剰なムービーでプレイヤーの操作を奪うのではなく、シンプルな操作と会話のテンポで、どうやってプレイヤーの感情を揺さぶるか。その職人芸のようなノウハウの蓄積に、日々圧倒されています。
+  hook: R.M.：给朋友曲子填词拿特奖后决定进游戏行业
+  zh: 我在大学专攻英国文学，模糊地想着以后当个英语老师。就在学生时代，我偶然遇到一个会作曲的朋友，有机会给他的曲子填词。结果，做出来的曲子在某个比赛中拿了特奖，投稿曲子的视频网站上也有很多反响。能得到很多人的反应让我很开心，从那以后我就定期发布作品。看到很多听歌的人因为自己写的歌词、世界观、故事而高兴，我就想：“啊，我竟然有这么大的让人开心的才能！不用这个才能太可惜了！”于是决定进入自己一直喜欢的游戏行业。
+  ja: 私は大学では英文学を専攻していまして、漠然と英語の先生になろうかなと思っていました。そんな学生時代にたまたま作曲できる友達と出会い、その友達の曲に歌詞をつける機会があったんですよね。そしたら、作った曲がとあるコンテストで特賞を取りまして、曲を投稿した動画サイトでも多くの反響をもらえたんです。大勢の人から反応をもらえることが楽しくて、それから定期的に作品を出すようになりました。曲を聴いてくれる多くの人達が、自分の考えた歌詞、世界観、ストーリーで喜んでくれるのを見て、「あぁ、自分にはこんなにも人を楽しませる才能があるんだ！ この才能を使わないのはもったいない！」と思い、昔から好きだったゲーム業界に入ることにしました。
   lang: ja
   year: 2015
-  date: '2015-10-01'
+  date: '2015-10-21'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
   score: 4
-  why: 对比前东家的电影化运镜，说明 GAME FREAK 事件策划以按键回馈与台词节拍挑动玩家，而非播片剥夺操作自由。
-  more: 同篇 R.M. 还谈到自己从重度成年向游戏转向《宝可梦》这类全年龄常青作品。
+  why: 用一次比赛特奖和视频网站反响，解释了从英国文学专业转向游戏行业的契机。
+  more: 同篇R.M.提到上一份工作从2011年起4年参与一个动作冒险游戏系列。
   people:
   - H.T.
   - R.M.
@@ -17600,52 +17693,50 @@ quotes:
   - type: person
     name: R.M.
     slug: r-m
-- id: 2015-10-01-interview-gamefreak-recruit-programmers#18
-  post: 2015-10-01-interview-gamefreak-recruit-programmers
-  segment: 18
-  speaker: M.K.
+- id: 2015-10-01-interview-gamefreak-recruit-planners#15
+  post: 2015-10-01-interview-gamefreak-recruit-planners
+  segment: 15
+  speaker: H.T.
   reported: false
-  kind: quote
-  hook: M.K.：既要盒装大作，也要齿轮企划的原创IP
-  zh: 而在我这方面，最首要的一条原则是我必须做实体的盒装大作。而且不仅仅是普通作品，而是必须深度切入“体量超群”的现象级巨作；其次，正是 GAME FREAK 独步业界的“齿轮企划（Gear Project）”！在操盘世界级航母大作的同时，公司竟然还为你留出了能够在极少人数编制下向最锋芒毕露的全新原创 IP 挥剑的通道——放眼全球游戏工业，能够同时实现这种“巨擘与独立双刀流”的梦幻圣地，绝对绝无仅有！
-  ja: 私の場合は、第一にパッケージゲームを作りたいというのがありました。それも、ただのパッケージではなく、「サイズの大きい」タイトルに携わりたかった。そして第二に、「ギアプロジェクト」の存在です。世界規模の大作に携わりながら、同時に少人数で尖った新規タイトルに挑戦できる。この二刀流ができる環境は、他には絶対にありませんでした。
+  kind: question
+  hook: H.T.为什么把《宝可梦》当作换工作的目标？
+  zh: 我很看重一件事：自己做出来的东西得到反馈，再把它用在下一个东西上。所以考虑换工作时，我想的是“在日本，能拿到最多反馈的作品是什么？”《宝可梦》系列是全世界各种年龄层都在玩的游戏，反馈的质量、数量和广度应该都是数一数二的。于是我就决定应聘GAME FREAK。
+  ja: 私は、作ったものに対しフィードバックをもらい、それを活かして次のものを生み出すことを大事にしています。そこで、転職を考える時に、「日本で一番フィードバックをもらえるタイトルは何だろう？」と考えました。『ポケットモンスター』シリーズは、全世界の幅広い年齢層に遊ばれているゲームなので、フィードバックの質も量も幅の広さもピカイチだろうと。それで、ゲームフリークに応募することにしました。
   lang: ja
   year: 2015
-  date: '2015-10-01'
+  date: '2015-10-21'
   publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
+  title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
   score: 4
-  why: 说明GAME FREAK同时运作世界级大作与少人数原创IP的“齿轮企划”机制，是选择入职的具体理由。
-  more: Y.I.在i=31也提到未来想叩响齿轮企划的大门，以总监身份做原创动作神作。
+  why: 把换工作的标准定为“能拿到最多反馈的作品”，并据此选择应聘GAME FREAK。
+  more: 同篇H.T.提到上一份工作从策划到开发全程负责对战动作游戏的看点场景。
   people:
-  - Y.I.
-  - M.K.
+  - H.T.
+  - R.M.
   works:
   - 宝可梦 X·Y
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-  - 风之克罗诺亚
-  - 女神异闻录3
   links:
   - type: person
-    name: Y.I.
-    slug: y-i
-- id: 2015-10-01-interview-gamefreak-recruit-programmers#24
+    name: H.T.
+    slug: h-t
+- id: 2015-10-01-interview-gamefreak-recruit-programmers#19
   post: 2015-10-01-interview-gamefreak-recruit-programmers
-  segment: 24
+  segment: 19
   speaker: Y.I.
   reported: false
   kind: quote
-  hook: Y.I.：新作主角操作手感代码几乎全由我一人挑起
-  zh: 远远超出我的预想，公司放手交办核心任务的速度快得惊人！目前从最前期的软件顶层设计、算法具体实现到极限性能调优，整部新作中关于主角操作手感与行为逻辑的几乎全部代码，都已经全权由我一人挑起大梁。这种高压固然如泰山压顶，但当你亲眼看到自己一行行敲下的逻辑代码直接化为全世界训练家触手可及的骨骼与呼吸，那份沉甸甸的成就感是世上任何褒奖都无法比拟的！
-  ja: 予想していた以上に、どんどん仕事を任せてもらえて驚いています。今は設計から実装、チューニングまで、プレイヤー挙動のほぼ全般を担当させてもらっています。もちろんプレッシャーは大きいですが、自分の作ったロジックがそのままゲームの骨格になっていく手応えは何物にも代え難いですね。
+  hook: Y.I.：首款游戏只卖几千份，跳槽瞄准全球畅销作
+  zh: 就我而言，应届入职后最先制作的游戏，虽然真的非常努力地做了，但只卖出了几千份。因此我痛感到，无论多么努力制作，如果传达不到用户手中就没有意义。所以这次我以“想参与全世界畅销的游戏”为核心进行跳槽活动。另外，拥有畅销作品的公司有好几家，但进入大公司的话不知道会被分配到哪个部门。而GAME FREAK的话，听说几乎可以肯定能参与《宝可梦》系列。还有，我对RPG的开发也很感兴趣。
+  ja: 私の場合、新卒で入社して最初に作ったタイトル、本当に頑張って作ったんですが、数千本しか売れなかったんですよ。それで、どんなに頑張って作っても、ユーザーに届かなければ意味がないなと痛感しました。だから今回は、「世界中で売れるゲームに携わりたい」というのを軸に転職活動をしていました。また、売れるタイトルを持っているゲーム会社は複数ありますが、大手に入ってしまうとどこに配属されるかわかりません。その点ゲームフリークならほぼ確実に『ポケットモンスター』シリーズに関われると聞いたので。あと、RPGの開発にも興味がありました。
   lang: ja
   year: 2015
-  date: '2015-10-01'
+  date: '2015-10-21'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
-  score: 4
-  why: 具体说明入社不久即被交付核心任务，从顶层设计到性能调优由一人负责，反映公司放权速度。
-  more: Y.I.在i=31提到想成为技术管线主管、搭建支撑下一个十年的底层技术底座。
+  score: 5
+  why: 以具体销量数字说明跳槽动机，并点出选择GAME FREAK是因为几乎确定能参与《宝可梦》系列。
+  more: 同篇M.K.提到Gear Project制度，可对照两人对加入GAME FREAK的不同考量。
   people:
   - Y.I.
   - M.K.
@@ -17656,25 +17747,56 @@ quotes:
   - 女神异闻录3
   links:
   - type: person
-    name: Y.I.
-    slug: y-i
+    name: M.K.
+    slug: m-k
+  - type: term
+    name: GAME FREAK
+- id: 2015-10-01-interview-gamefreak-recruit-programmers#25
+  post: 2015-10-01-interview-gamefreak-recruit-programmers
+  segment: 25
+  speaker: Y.I.
+  reported: false
+  kind: quote
+  hook: Y.I.：入职半年新人被委以场地玩家整体设计
+  zh: 让我惊讶的是，他们比预想的更愿意把工作交给我。现在我在做包括设计在内的场地玩家相关整体内容，没想到入职半年的新人能被委以这么重要的部分！
+  ja: 予想していた以上に、どんどん仕事を任せてもらえて驚いています。今は設計を含めフィールドプレイヤー関連全般を作っているんですが、入社半年の若造にこんな重要な部分を任せてくれるなんて！
+  lang: ja
+  year: 2015
+  date: '2015-10-21'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
+  score: 4
+  why: 具体说明新人被交付的工作范围，反映GAME FREAK对中途入职程序员的授权程度。
+  more: M.K.在同篇提到前辈会听取改善意见，可对照两人对开发环境的观察。
+  people:
+  - Y.I.
+  - M.K.
+  works:
+  - 宝可梦 X·Y
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  - 风之克罗诺亚
+  - 女神异闻录3
+  links:
+  - type: person
+    name: M.K.
+    slug: m-k
 - id: 2015-10-01-interview-gamefreak-recruit-programmers#28
   post: 2015-10-01-interview-gamefreak-recruit-programmers
   segment: 28
   speaker: Y.I.
   reported: false
   kind: quote
-  hook: Y.I.：碰撞判定还烙印着2D点阵网格时代的遗风
-  zh: 比如美术 3D 模型与高清贴图资产的管理与打包流转方式，我敏锐地察觉到如果未来掌机硬件算力再度大跨步升级，现有的祖传格式必将彻底崩溃。又比如大地图野外的“碰撞判定（Collision）”逻辑，底层竟然还深深烙印着多年前 2D 点阵网格时代（Grid-based）的古老遗风！为了让主角能在全 3D 的起伏山川与复杂地形中如丝般顺滑奔跑穿梭，我们必须彻底抛弃历史包袱，从零自研编写一套完全现代化的全新 3D 碰撞判定引擎！而这正是我目前正在夜以继日攻坚的核心战役。
-  ja: モデルやテクスチャの管理方法は、今後ハードのスペックが上がった時に対応しきれなくなるだろうな、という危機感がありました。また、フィールド上のコリジョン（当たり判定）の処理なども、昔ながらのグリッドベースの思想が残っていたりして。フル3Dの自由な地形をスムーズに移動させるためには、もっと現代的なコリジョンエンジンを自前で組み直す必要があると感じました。今まさにその改革に取り組んでいます。
+  hook: Y.I.：模型纹理管理方式无法应对未来硬件提升
+  zh: 模型和纹理的管理方法，将来硬件性能提升时无法应对，所以我认为有必要在那之前改为面向大规模开发的方式。
+  ja: モデルやテクスチャの管理方法は、今後ハードのスペックが上がった時に対応できないので、そうなる前に大規模開発向けに変えていく必要があると思います。
   lang: ja
   year: 2015
-  date: '2015-10-01'
+  date: '2015-10-21'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
-  score: 5
-  why: 披露了GAME FREAK底层技术的历史包袱：资产格式与碰撞逻辑仍沿用旧时代设计，需要从零自研3D碰撞引擎。
-  more: M.K.在i=29提到资产管线与CI、分布式自动化云编译的引入。
+  score: 4
+  why: 指出现有资源管理方式面向未来硬件性能提升的局限，属于具体的技术判断。
+  more: M.K.在同篇提到资产管线工具仍有改善余地，可一并看两人对工具链的看法。
   people:
   - Y.I.
   - M.K.
@@ -18500,23 +18622,109 @@ quotes:
     slug: ohmori-shigeru
   - type: term
     name: 阿罗拉
-- id: 2017-03-01-interview-gamefreak-gear-gigawrecker#15
+- id: 2017-09-01-interview-gamefreak-recruit-cross-industry#17
+  post: 2017-09-01-interview-gamefreak-recruit-cross-industry
+  segment: 17
+  speaker: H.I.
+  reported: false
+  kind: quote
+  hook: H.I.：人生只有一次，还是想参与游戏
+  zh: 其实，我从应届生的时候就想去游戏行业做图形设计师。挑战过，但当时没有结果，就利用在研究生院学到的信息学，作为程序员就职了。 在前公司工作了4年，一个大项目结束时，我想“人生只有一次，还是想参与游戏！”。 也考虑过作为程序员再次挑战游戏行业，但深入思考后，我意识到自己对游戏的热情很大程度上来源于对角色的热情。所以果断辞职，去了CG学校。
+  ja: 実は、新卒の時からグラフィックデザイナーとしてゲーム業界に就職したかったんです。チャレンジしたのですがその時は結果が出ず、大学院で学んだ情報学を活かして、プログラマとして就職しました。 前職で4年勤めて大きなプロジェクトが終わった時、「一度きりの人生、やっぱりゲームに携わりたい！」と。 プログラマとしてゲーム業界に再チャレンジすることも考えたのですが、突き詰めていくと、自分のゲームへの情熱はキャラクターへの情熱に由来している部分が大きいということに気付きました。だから思い切って仕事を辞めてCGの学校に通いました。
+  lang: ja
+  year: 2017
+  date: '2017-01-19'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
+  score: 5
+  why: 从应届生挑战游戏行业失败，到印刷公司程序员，再到辞职去CG学校，完整呈现一次跨行业转职的决断过程。
+  more: 同篇A.I.从动画行业转行动态设计师，S.A.从SIer转行程序员，三人路径可对照阅读。
+  people:
+  - A.I.
+  - S.A.
+  - H.I.
+  works:
+  - 宝可梦 太阳·月亮
+  links:
+  - type: person
+    name: A.I.
+    slug: a-i
+  - type: person
+    name: S.A.
+    slug: s-a
+  - type: term
+    name: 程序员
+- id: 2017-09-01-interview-gamefreak-recruit-cross-industry#22
+  post: 2017-09-01-interview-gamefreak-recruit-cross-industry
+  segment: 22
+  speaker: S.A.
+  reported: false
+  kind: quote
+  hook: S.A.：最初作为内部SE应聘，最终被录用为研究开发部程序员
+  zh: 我单纯是因为喜欢《宝可梦》系列，所以和WEB系企业一起，轻松地试着应聘了。 应聘GAME FREAK时，最初是作为内部SE应聘的。随着选拔进行，对方说“研究开发部的程序员不是更接近你想做和能做的事吗？”，最终作为研究开发部的程序员被录用了。
+  ja: 私は、単純に『ポケットモンスター』シリーズが好きだったので、WEB系企業と並行して軽い気持ちで受けてみただけでした。 ゲームフリークを受けた時、最初は社内SEとして応募していて。選考が進む内に「研究開発のプログラマのほうがやりたいこと、できることに近いんじゃない？」と言われて、最終的に研究開発部のプログラマとして採用されました。
+  lang: ja
+  year: 2017
+  date: '2017-01-19'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
+  score: 4
+  why: 披露了GAME FREAK招聘中岗位调整的具体过程，应聘者原本的志愿与实际录用岗位并不一致。
+  more: 同篇S.A.提到自己研究生毕业后进入大型SIer，被安排到名义上是开发岗、实际上类似SE的职位。
+  people:
+  - A.I.
+  - S.A.
+  - H.I.
+  works:
+  - 宝可梦 太阳·月亮
+  links:
+  - type: person
+    name: S.A.
+    slug: s-a
+- id: 2017-09-01-interview-gamefreak-recruit-cross-industry#27
+  post: 2017-09-01-interview-gamefreak-recruit-cross-industry
+  segment: 27
+  speaker: S.A.
+  reported: false
+  kind: quote
+  hook: S.A.：在《太阳·月亮》中运用计算机科学知识实现战斗随机数
+  zh: 我负责开发环境的搭建与维护、库的构建和修改等。在《太阳·月亮》中，有人找我商量战斗的随机数问题，我运用计算机科学的知识进行了实现和测试，并对各种规格提出了建议。
+  ja: 開発環境の整備とメンテナンス、ライブラリの構築・改修などを行っています。『サン・ムーン』ではバトルの乱数について相談を受け、計算機科学の知識を活かして実装とテスト、各種仕様への助言を行いました。
+  lang: ja
+  year: 2017
+  date: '2017-01-19'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
+  score: 4
+  why: 具体说明了研究开发部程序员在《宝可梦 太阳·月亮》中的实际工作内容，涉及战斗随机数这一核心机制。
+  more: 同篇S.A.还负责开发环境搭建与维护、库的构建和修改。
+  people:
+  - A.I.
+  - S.A.
+  - H.I.
+  works:
+  - 宝可梦 太阳·月亮
+  links:
+  - type: person
+    name: S.A.
+    slug: s-a
+- id: 2017-03-01-interview-gamefreak-gear-gigawrecker#19
   post: 2017-03-01-interview-gamefreak-gear-gigawrecker
-  segment: 15
+  segment: 19
   speaker: H.I.
   reported: false
   kind: question
-  hook: 为什么《GIGA WRECKER》从爽快动作转向硬核解谜？
-  zh: 决定将游戏的核心支柱全面转向“硬核解谜”，正是因为《坏象坦博》的刺激！既然那边的坦博大象已经把“纯粹野蛮冲撞与破坏爽快感”做到了极致，那我们同门如果再去硬碰硬做纯动作，就毫无区分度了。于是我们果断彻底调转船头——转向开动脑筋、严密拆解物理法则的“物理动作解谜（Physics Puzzle Action）”。将粉碎生成的瓦砾不再仅仅当作远程投掷武器，而是可以随时聚合成垫脚高台、搭建逃生斜坡、或是充当压下重力机关的配重块。我们决定将实打实的 2D 物理引擎碰撞演算本身，铸造成整个关卡设计的灵魂中枢。
-  ja: パズルメインのゲームに変更したのは、『TEMBO THE BADASS ELEPHANT』の存在があったからこそですね。向こうが「爽快なアクション」を極めるなら、こちらは頭を使って物理法則を解き明かす「パズルアクション」へと大きく舵を切ろうと。壊した瓦礫を単なる武器として投げるだけでなく、足場にしたり、斜面を作ったり、スイッチを押す重石にしたりと、物理挙動そのものをギミックの核に据えることにしました。
+  hook: 为什么《GIGA WRECKER》从动作改成解谜？
+  zh: 改成以解谜为主的游戏，是因为会跟《TEMBO THE BADASS ELEPHANT》相似。连续发售“以破坏东西的快感为卖点的动作游戏”感觉有点没意思。
+  ja: パズルメインのゲームに変更したのは、『TEMBO THE BADASS ELEPHANT』と似てしまうから。「物を壊す快感を売りにしたアクションゲーム」を連続で発売するのはちょっとおもしろくないかな、と。
   lang: ja
   year: 2017
-  date: '2017-03-01'
+  date: '2017-01-28'
   publication: Game Freak 採用情報 (Wayback 历史存档)
   title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
   score: 4
-  why: 说明核心玩法转向物理动作解谜，是因为同属齿轮企划的《坏象坦博》已把破坏爽快感做到极致。
-  more: James Turner 领衔的《坏象坦博》（TEMBO THE BADASS ELEPHANT）与瓦砾聚合、垫脚、配重等具体机制。
+  why: H.I. 说明改方向是因为会跟《TEMBO THE BADASS ELEPHANT》相似，连续做以破坏快感为卖点的动作游戏没意思。
+  more: 同一段里 M.O. 提到目标硬件从游戏专用机转向 PC，也是企划调整的一部分。
   people:
   - M.O.
   - H.I.
@@ -18527,8 +18735,183 @@ quotes:
   - 宝可梦 X·Y
   links:
   - type: person
-    name: James Turner
-    slug: james-turner
+    name: M.O.
+    slug: m-o
+- id: 2017-03-01-interview-gamefreak-gear-gigawrecker#23
+  post: 2017-03-01-interview-gamefreak-gear-gigawrecker
+  segment: 23
+  speaker: M.O.
+  reported: false
+  kind: quote
+  hook: M.O.：物理引擎单纯使用容易变成模糊的行为
+  zh: 获得了INDIE STREAM AWARDS 2016的Best of TECHNICAL ARTS奖。物理引擎如果只是单纯使用，容易变成模糊的行为，而这一点我们调整得很好，得到了好评。
+  ja: INDIE STREAM AWARDS 2016のBest of TECHNICAL ARTSという賞を頂いています。物理エンジンをただ使うだけだとファジーな挙動になってしまいがちなのですが、そこをきちんと調整できているというところが評価されました。
+  lang: ja
+  year: 2017
+  date: '2017-01-28'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
+  score: 4
+  why: 提到《GIGA WRECKER》获得 INDIE STREAM AWARDS 2016 的 Best of TECHNICAL ARTS 奖，并说明获奖原因在于对物理引擎的调整。
+  more: 前文 M.O. 说从学生时代就接触物理引擎，想重新做出完成度高的作品。
+  people:
+  - M.O.
+  - H.I.
+  works:
+  - GIGA WRECKER
+  - TEMBO THE BADASS ELEPHANT
+  - 宝可梦 黑·白
+  - 宝可梦 X·Y
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+- id: 2017-03-01-interview-gamefreak-gear-gigawrecker#31
+  post: 2017-03-01-interview-gamefreak-gear-gigawrecker
+  segment: 31
+  speaker: H.I.
+  reported: false
+  kind: quote
+  hook: H.I.：以创造出第二个《宝可梦》系列那样的游戏为目标
+  zh: 我想把原创作品作为业务走上正轨，并系列化。可能听起来像理想论，但我真心以创造出第二个《宝可梦》系列那样的游戏为目标。
+  ja: 私はオリジナルタイトルをビジネスとして軌道に乗せて、シリーズ化したいです。理想論だと思われるかも知れませんが、第2の『ポケットモンスター』シリーズのようなゲームを創ることを、本気で目指しています。
+  lang: ja
+  year: 2017
+  date: '2017-01-28'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
+  score: 4
+  why: H.I. 说想把原创作品作为业务走上正轨并系列化，以第二个《宝可梦》系列那样的游戏为目标。
+  more: M.O. 在上一句提到想完善 Gear Project 之间的经验共享。
+  people:
+  - M.O.
+  - H.I.
+  works:
+  - GIGA WRECKER
+  - TEMBO THE BADASS ELEPHANT
+  - 宝可梦 黑·白
+  - 宝可梦 X·Y
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+- id: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk#8
+  post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
+  segment: 8
+  speaker: 田谷正夫
+  reported: false
+  kind: question
+  hook: 为什么《宝可梦 X·Y》之后要成立研究开发部？
+  zh: 我深切感受到研究开发部的必要性，是在《宝可梦 X·Y》开发的时候。因为全面3D化，开发规模达到过去最大，我切实感到仅靠“全体员工全力投入”已经赶不上开发进度了。 那么该怎么办？如果召集熟悉新表现手法和硬件的程序员，先于项目推进目标硬件的相关研究，应该就能解决《X·Y》时出现的许多问题。于是，我向管理层提议成立研究开发部，2015年4月正式启动。
+  ja: 研究開発部の必要性を痛感したのは、『ポケットモンスター X・Y』の開発の時です。フル3D化したために過去最大の開発規模になり、単に「全社員が全力投球する」だけでは、開発が間に合わなくなってきたと実感しました。 ではどうすればいいのか？ 新しい表現・ハードに詳しいプログラマを集め、プロジェクトに先んじてターゲットハードウェアに関する研究を進めて行けば、『X・Y』の時に発生した問題の多くを解決できるはずだ、と。それで、研究開発部の創設を経営陣に提案し、2015年4月に始動しました。
+  lang: ja
+  year: 2017
+  date: '2017-03-29'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
+  score: 5
+  why: 田谷正夫披露研究开发部因《X·Y》全面3D化、开发规模达过去最大而成立，2015年4月启动。
+  more: K.K. 提到研究开发部最初只计划由程序员组成，后来在《太阳·月亮》开发后加入技术美术。
+  people:
+  - 田谷正夫
+  - K.K.
+  works:
+  - 宝可梦 X·Y
+  - 宝可梦 太阳·月亮
+  - 宝可梦 蓝
+  links:
+  - type: person
+    name: K.K.
+    slug: k-k
+  - type: term
+    name: 技术美术
+  - type: term
+    name: 程序员
+- id: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk#18
+  post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
+  segment: 18
+  speaker: 田谷正夫
+  reported: false
+  kind: quote
+  hook: 田谷正夫：解决「难做」，实现「想做细」
+  zh: 研究开发部从创立之初就提出的口号是“解决‘难做’，实现‘想做细’”。 把没有机制时费工夫、技术上又难做的事情变得简单，把基础打好，等下一个项目进入量产期时，我想让一线的人说：“比《宝可梦 太阳·月亮》的时候好做多了！” 另外，关于 AI、VR 这些，我也想把它做成一个能积累“这样做就能实现这些”的经验、并供公司内部使用的组织。
+  ja: 研究開発部創設当初から掲げているスローガンは、「“難しい”を解決し、“作りこみたい”を実現する」。 仕組み無しで行うと手間がかかったり技術的に難しかったりすることを簡単にできるように基盤を整えて、次のプロジェクトが量産期に入った時、現場に「『サン・ムーン』の時より作りやすくなりましたね！」と言わせたいです。 加えて、AIやVRなどについても、「こういうことをしたらこういうことを実現できますよ」というノウハウを蓄積して社内に提供できる組織にしていきたいですね。
+  lang: ja
+  year: 2017
+  date: '2017-03-29'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
+  score: 4
+  why: 研究开发部创立之初的口号，目标是让下一个项目量产期一线觉得比《太阳·月亮》好做。
+  more: 田谷正夫还提到想积累 AI、VR 的经验供公司内部使用。
+  people:
+  - 田谷正夫
+  - K.K.
+  works:
+  - 宝可梦 X·Y
+  - 宝可梦 太阳·月亮
+  - 宝可梦 蓝
+  links:
+  - type: person
+    name: 田谷正夫
+    slug: taya-masao
+- id: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk#22
+  post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
+  segment: 22
+  speaker: K.K.
+  reported: false
+  kind: quote
+  hook: K.K.：现阶段不需要技术能力特别高
+  zh: 现阶段不需要技术能力特别高。技术能力只要实际感到需要、平时多留意外面的动向，自然会跟上来。 比这更重要的是推进力。 希望下一位入职的技术美术先进入一线，把为项目优化的工作流骨架搭起来，把研究开发部积累的技术落到项目里，这些我想交给他来做。 为此，适合的是能反复调整和判断、不断解决问题并向前推进的人。
+  ja: 現時点で技術力がすごく高い必要はありません。技術力は、必要性を実感し、外にアンテナを張るようにしていれば、自然と付いて来ると思います。 それよりも大切なのは、推進力。 次に入社するテクニカルアーティストの方にはまずは現場に入って頂き、プロジェクトに最適化したワークフローの骨組作りや、研究開発部が蓄積している技術をプロジェクトへ落とし込むといったことをお任せしたいと思っています。 それには、調整と判断を繰り返し、どんどん問題解決をしながら前に進む力のある人が向いていると思います。
+  lang: ja
+  year: 2017
+  date: '2017-03-29'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
+  score: 4
+  why: 技术美术招聘中反常识的判断，强调推进力比技术能力更重要。
+  more: K.K. 希望下一位技术美术先进入一线，把研究开发部积累的技术落到项目里。
+  people:
+  - 田谷正夫
+  - K.K.
+  works:
+  - 宝可梦 X·Y
+  - 宝可梦 太阳·月亮
+  - 宝可梦 蓝
+  links:
+  - type: person
+    name: K.K.
+    slug: k-k
+  - type: term
+    name: 技术美术
+- id: 2019-10-19-interview-gamefreak-rnd-2019#19
+  post: 2019-10-19-interview-gamefreak-rnd-2019
+  segment: 19
+  speaker: K.K.
+  reported: false
+  kind: quote
+  hook: K.K.：为Switch开发是很大的一步提升
+  zh: 对于一直为便携机开发《宝可梦》系列的GAME FREAK来说，挑战为Nintendo Switch这一家用主机开发，我认为是很大的一步提升。配合这次硬件的切换，要好好看清哪些部分应作为传统经验保留、哪些部分应替换成新的，并整顿出更容易制作、且更不容易出现bug和事故的机制。
+  ja: 『ポケットモンスター』シリーズをずっと携帯機向けに開発してきたゲームフリークにとって、Nintendo Switchという据え置きハードに向けた開発に挑戦することは、大きなステップアップになると思います。このハードの切り替わりに合わせて、伝統的なノウハウとして残すべき部分と、新しく置き換えるべき部分の線引きをしっかりと見極め、より作りやすく、かつ、バグや事故が起こりにくい仕組みを整えていきたいです。
+  lang: ja
+  year: 2017
+  date: '2017-04-01'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方专访 研究开发部篇（2019）：引入多种技术，实现“想要精心打磨”（R.T. × Y.Y.）
+  score: 4
+  why: GAME FREAK长期为便携机开发《宝可梦》系列，此处说明转向Nintendo Switch这一家用主机时，需要区分保留的传统与替换的新部分。
+  more: 同一受访者K.K.还谈到引入多种技术，推进“解决‘困难’，实现‘想要精心打磨’”的口号。
+  people:
+  - Y.Y.
+  - R.T.
+  - S.T.
+  - K.K.
+  works: []
+  links:
+  - type: person
+    name: K.K.
+    slug: k-k
 - id: 2017-05-10-interview-pokemon-recruit-passion#20
   post: 2017-05-10-interview-pokemon-recruit-passion
   segment: 20
@@ -18620,36 +19003,6 @@ quotes:
   - type: person
     name: 的场昂树
     slug: de-chang-ang-shu
-- id: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk#13
-  post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
-  segment: 13
-  speaker: K.K.
-  reported: false
-  kind: quote
-  hook: K.K.：在GAME FREAK能全盘一手抓
-  zh: 当时猎头把 GAME FREAK 的招聘简章递给我时，我极受触动——这家曾被世人贴着“2D 像素图老铺”标签的传奇公司，不仅凭借《X·Y》震撼完成了全 3D 蝶变，更在以无比决绝的魄力全方位大炼技术内功！相比于那些分工过度固化、TA 只能沦为修修小插件螺丝钉的臃肿巨头，在 GAME FREAK 这样极度崇尚少数精锐的团队里，你能从资产全流程管线搭建、专属手绘风 Shader 编写到全场景光影渲染统筹全盘一手抓，拥有无与伦比的自主裁量权。我的技术直觉告诉我：在这里，我才能真正大展宏图！
-  ja: ゲームフリークの求人票を人材紹介会社で渡されて、ドット絵のイメージだった会社が『X・Y』でフル3Dに挑戦し、さらに次に向けて本気で技術革新を進めようとしていることを知りました。大企業のように分業が進みすぎてTAの仕事が細切れになっている環境よりも、ゲームフリークのように少数精鋭で、パイプラインの構築からシェーダー、レンダリングまで全領域を横断して裁量を持てる環境のほうが、絶対に面白いし自分の力を発揮できると直感しました。
-  lang: ja
-  year: 2017
-  date: '2017-06-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
-  score: 4
-  why: 对比分工固化的大厂，说明GAME FREAK少数精锐团队里TA的自主裁量权范围。
-  more: 同篇K.K.提到自己历经3D建模师与CG动画总监，是GAME FREAK历史上第一任专职TA。
-  people:
-  - 田谷正夫
-  - K.K.
-  works:
-  - 宝可梦 X·Y
-  - 宝可梦 太阳·月亮
-  - 宝可梦 蓝
-  links:
-  - type: person
-    name: K.K.
-    slug: k-k
-  - type: term
-    name: GAME FREAK
 - id: 2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage#85
   post: 2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage
   segment: 85
@@ -19073,80 +19426,6 @@ quotes:
     name: GAME FREAK
   - type: term
     name: 阿罗拉
-- id: 2017-09-01-interview-gamefreak-recruit-cross-industry#8
-  post: 2017-09-01-interview-gamefreak-recruit-cross-industry
-  segment: 8
-  speaker: A.I.
-  reported: false
-  kind: quote
-  hook: A.I.：在动画工业死磕了整整 7 年
-  zh: 我曾是一名在传统动画工业死磕了整整 7 年的专业原画师，参与过多部周播国民级商业 TV 动画与剧场版大电影的原画绘制及作画监督辅佐。在极度严苛的赛璐珞张数限制与生死时速的交片工期下，如何通过纯手工逐帧绘制（手付け）把角色的微表情、跃动感与戏剧张力催化到极限，是深深烙印在我骨髓里的基本功。
-  ja: 私はアニメーション業界のアニメーターでした。7年間、テレビの週アニメ・劇場版アニメの原画や作画監督補佐などを担当していました。限られた枚数とスケジュールの中で、キャラクターの感情や躍動感を極限まで引き出す手付けのノウハウを徹底的に叩き込まれました。
-  lang: ja
-  year: 2017
-  date: '2017-09-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
-  score: 4
-  why: 给出转职前具体年限与工种，说明动作设计师的手绘逐帧背景。
-  more: 同篇 i 24 提到他把「动作张弛节奏心法」倾注进《宝可梦 太阳·月亮》的 3D 骨骼动作。
-  people:
-  - A.I.
-  - S.A.
-  - H.I.
-  works:
-  - 宝可梦 太阳·月亮
-  links:
-  - type: work
-    name: 宝可梦 太阳·月亮
-- id: 2017-09-01-interview-gamefreak-recruit-cross-industry#25
-  post: 2017-09-01-interview-gamefreak-recruit-cross-industry
-  segment: 25
-  speaker: H.I.
-  reported: false
-  kind: quote
-  hook: H.I.：在 3DS 显存上限内做上百套换装建模
-  zh: 在《太阳·月亮》里，我主要挑起了全地图野生宝可梦、核心 NPC 以及男女主角极为庞大的“换装系统（上百套服饰、背包、帽子与微型配饰）”的超精密 3D 建模战役！凭借在印刷出版时代磨练出的对微观细节的近乎偏执的狂热，在 3DS 极其苛刻的掌机显存上限与多边形红线内，如何把不同面料的布纹纤维、金属徽章的冷硬反射表现得如同实物般真实，我将性能轻量化削减与质感美学逼向了掌机工程的物理极限！
-  ja: 『サン・ムーン』では主に、フィールド上のポケモンやNPC、主人公の着せ替えアイテム（衣服・帽子・アクセサリー）の3Dモデリングを大量に担当しました。印刷時代に培った細部への狂気的なこだわりを活かして、布地の織り目や金属の質感、光の反射を3DSの限られた解像度とポリゴン数の中でどうリッチに見せるか、限界ギリギリの最適化と美しさの両立を成し遂げました。
-  lang: ja
-  year: 2017
-  date: '2017-09-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
-  score: 4
-  why: 点出《太阳·月亮》换装系统的建模规模与掌机性能限制。
-  more: 同篇 i 10 提到他出身印刷企业 CG 事业部，专事商业 3D 渲染。
-  people:
-  - A.I.
-  - S.A.
-  - H.I.
-  works:
-  - 宝可梦 太阳·月亮
-  links: []
-- id: 2017-09-01-interview-gamefreak-recruit-cross-industry#26
-  post: 2017-09-01-interview-gamefreak-recruit-cross-industry
-  segment: 26
-  speaker: S.A.
-  reported: false
-  kind: quote
-  hook: S.A.：在《太阳·月亮》数万件 3D 资产每天更新提交
-  zh: 而在研发部，我全面统领全公司开发环境的现代化架构升级、跨项目通用代码库的封装以及日常高可用维护。我将大型集成商出身的看家本领——超大规模分布式编译自动化、持续集成（CI）工具链全面落地，彻底重构了美术资产管线。在《太阳·月亮》数万件庞大 3D 资产每天疯狂更新提交的火线实战中，帮全社数百位设计师与程序员哪怕省下 1 秒钟的无谓编译等待、提前在后台静默拦截每一次代码冲突与崩溃——为一线的同伴们彻底筑牢免除后顾之忧的钢铁护城河，正是我的天职！
-  ja: 開発環境の整備とメンテナンス、ライブラリの構築・改修などを行っています。SIer出身の強みを活かして、アセットのビルドパイプラインの高速化や、バージョン管理・自動化テストツールの刷新に取り組みました。数万点に及ぶゲームアセットが毎日更新される中で、デザイナーやプログラマが1秒でも待たされる時間を減らし、クラッシュを未然に防ぐ。現場のクリエイターがクリエイティブな仕事に没頭できる環境を支えることが、私の使命です。
-  lang: ja
-  year: 2017
-  date: '2017-09-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
-  score: 4
-  why: 以具体规模说明研发部如何把 CI 工具链落地到美术资产管线。
-  more: 同篇 i 9 提到他在大型 SIer 负责金融级核心清算系统与高并发 Web 服务。
-  people:
-  - A.I.
-  - S.A.
-  - H.I.
-  works:
-  - 宝可梦 太阳·月亮
-  links: []
 - id: 2017-09-05-interview-gigazine-gamefreak-sketches-masuda#42
   post: 2017-09-05-interview-gigazine-gamefreak-sketches-masuda
   segment: 42
@@ -20947,53 +21226,6 @@ quotes:
     slug: egami-shusaku
   - type: work
     name: Pokémon GO
-- id: 2019-04-01-interview-gamefreak-recruit-pg-yi#3
-  post: 2019-04-01-interview-gamefreak-recruit-pg-yi
-  segment: 3
-  speaker: Y.I.
-  reported: false
-  kind: quote
-  hook: Y.I.：6年沉淀后中途入社，现调任R&D
-  zh: 在历经家用机游戏开发公司与中间件研发公司长达6年的沉淀后中途入社 GAME FREAK。曾隶属于开发二部主导一线研发，现调任至研究开发部（R&D）统筹底层技术。
-  ja: コンシューマーゲームの開発会社とミドルウェア開発会社を経て、ゲームフリークに中途入社。開発二部に在籍後、研究開発部へ。
-  lang: ja
-  year: 2019
-  date: '2019-04-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）
-  score: 4
-  why: 交代了说话人的职业路径：先在家用机开发与中间件公司待了6年，中途进入GAME FREAK，从开发二部转到研究开发部。
-  more: 访谈标题提到『日月』自研碰撞引擎，可与开发二部的一线研发经历对照看。
-  people:
-  - Y.I.
-  works:
-  - 宝可梦 太阳·月亮
-  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
-  links: []
-- id: 2019-04-01-interview-gamefreak-recruit-pl-my#3
-  post: 2019-04-01-interview-gamefreak-recruit-pl-my
-  segment: 3
-  speaker: M.Y.
-  reported: false
-  kind: quote
-  hook: M.Y.：以策划身份入社，非设计师
-  zh: 毕业于日本顶级艺术殿堂武藏野美术大学映像学科。并非以设计师、而是以游戏策划（Planner）身份入社 GAME FREAK。2018年在全社原创孵化“齿轮企划”的社长杯评选中荣获优秀奖。
-  ja: 武蔵野美術大学卒業。デザイナーではなくプランナーとしてゲームフリークに入社。2018年、ギアプロジェクトの社長杯にて優秀賞を受賞。
-  lang: ja
-  year: 2019
-  date: '2019-04-01'
-  publication: Game Freak 採用情報 (Wayback 历史存档)
-  title: GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）
-  score: 4
-  why: 交代了受访者入社时的岗位选择，说明其并非以美术背景进入开发一线，而是走策划路线。
-  more: 同句提到2018年“齿轮企划”社长杯评选获优秀奖，可延伸看GAME FREAK内部原创提案机制。
-  people:
-  - M.Y.
-  works:
-  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
-  links:
-  - type: term
-    name: GAME FREAK
 - id: 2019-05-09-interview-vgc-gamefreak-gear-project#13
   post: 2019-05-09-interview-vgc-gamefreak-gear-project
   segment: 13
@@ -21914,6 +22146,474 @@ quotes:
   - 菜花健作
   works: []
   links: []
+- id: 2019-04-01-interview-gamefreak-recruit-pg-yi#3
+  post: 2019-04-01-interview-gamefreak-recruit-pg-yi
+  segment: 3
+  speaker: Y.I.
+  reported: false
+  kind: quote
+  hook: Y.I.：6年沉淀后中途入社，现调任R&D
+  zh: 在历经家用机游戏开发公司与中间件研发公司长达6年的沉淀后中途入社 GAME FREAK。曾隶属于开发二部主导一线研发，现调任至研究开发部（R&D）统筹底层技术。
+  ja: コンシューマーゲームの開発会社とミドルウェア開発会社を経て、ゲームフリークに中途入社。開発二部に在籍後、研究開発部へ。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）
+  score: 4
+  why: 交代了说话人的职业路径：先在家用机开发与中间件公司待了6年，中途进入GAME FREAK，从开发二部转到研究开发部。
+  more: 访谈标题提到『日月』自研碰撞引擎，可与开发二部的一线研发经历对照看。
+  people:
+  - Y.I.
+  works:
+  - 宝可梦 太阳·月亮
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  links: []
+- id: 2019-04-01-interview-gamefreak-recruit-pl-my#3
+  post: 2019-04-01-interview-gamefreak-recruit-pl-my
+  segment: 3
+  speaker: M.Y.
+  reported: false
+  kind: quote
+  hook: M.Y.：以策划身份入社，非设计师
+  zh: 毕业于日本顶级艺术殿堂武藏野美术大学映像学科。并非以设计师、而是以游戏策划（Planner）身份入社 GAME FREAK。2018年在全社原创孵化“齿轮企划”的社长杯评选中荣获优秀奖。
+  ja: 武蔵野美術大学卒業。デザイナーではなくプランナーとしてゲームフリークに入社。2018年、ギアプロジェクトの社長杯にて優秀賞を受賞。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報 (Wayback 历史存档)
+  title: GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）
+  score: 4
+  why: 交代了受访者入社时的岗位选择，说明其并非以美术背景进入开发一线，而是走策划路线。
+  more: 同句提到2018年“齿轮企划”社长杯评选获优秀奖，可延伸看GAME FREAK内部原创提案机制。
+  people:
+  - M.Y.
+  works:
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  links:
+  - type: term
+    name: GAME FREAK
+- id: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019#11
+  post: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019
+  segment: 11
+  speaker: T.T.
+  reported: false
+  kind: quote
+  hook: T.T.：内存64GB、存储SSD 2T，CPU据说是最快
+  zh: 设备方面，我认为无可挑剔。对开发者来说是舒适且高效的环境。使用的CPU，据说“没有比这更快的CPU了”。内存也装了64GB，存储是SSD 2T。对机器的投资不惜成本，备齐了好的东西。（截至2019年12月）
+  ja: 機材は、文句のつけようがないと思っています。開発者にとって快適で生産性の高い環境です。使っているCPUは、「これ以上速いCPUはない」と言われているそうです。メモリも64GB積まれていて、ストレージはSSDで2T。マシンへの投資は惜しまず、良いものを揃えています。 （2019年12月現在）
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 程序员篇（2019 年版）：土生土长的游戏程序员与拥有最新技术的程序员的合作（T.T. × K.I.）
+  score: 4
+  why: 列出开发机的具体配置，并注明截至2019年12月，是当时开发环境的直接记录。
+  more: K.I. 提到大家用双显示器、桌宽160cm，Switch 后有人用三屏。
+  people:
+  - T.T.
+  - K.I.
+  works: []
+  links:
+  - type: person
+    name: K.I.
+    slug: k-i
+- id: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019#23
+  post: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019
+  segment: 23
+  speaker: T.T.
+  reported: false
+  kind: quote
+  hook: T.T.：入职半年的程序员把渲染库引擎彻底换掉
+  zh: 在研究开发部，有入职半年的程序员把渲染库的引擎彻底换掉。只要想做的事和我们的方向一致，就可以改变。希望那些一边尝试自己的技术，一边想向世界问“这样怎么样！”的人来。
+  ja: 研究開発部では、中途入社から半年のプログラマが描画ライブラリのエンジンをガラリと変えていたりします。やりたいことが私たちの方向性と合致していれば、変えられる。自分の技術を試しながら、世界に向けて「これでどうだ！」と問いたい人に来てもらいたいですね。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 程序员篇（2019 年版）：土生土长的游戏程序员与拥有最新技术的程序员的合作（T.T. × K.I.）
+  score: 5
+  why: 具体到入职时长与改动规模，说明研究开发部允许新人直接替换底层渲染库。
+  more: 同一篇里 T.T. 提到正在开发针对《宝可梦》系列优化的自研引擎。
+  people:
+  - T.T.
+  - K.I.
+  works: []
+  links:
+  - type: person
+    name: T.T.
+    slug: t-t
+- id: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019#24
+  post: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019
+  segment: 24
+  speaker: K.I.
+  reported: false
+  kind: quote
+  hook: K.I.：能力评估9级，第9级要全世界知名
+  zh: 如果能展示自己的实力，我认为公司会给予非常好的评价。公司内部能力评估分为9个层级，要成为第9级的程序员，需要达到全世界知名、业界独一无二的水平。希望愿意和我们一起以那里为目标的人来。
+  ja: 自分の実力を示すことができれば、非常に良い評価をしてくれる会社だと思います。社内では能力評価のレイヤーが9段階に分かれていて、9段階目のプログラマになるためは、世界中で名前が知られているような業界唯一無二のレベルを求められるのです。ぜひ、一緒にそこまで目指してくれる人に来てほしいですね。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 程序员篇（2019 年版）：土生土长的游戏程序员与拥有最新技术的程序员的合作（T.T. × K.I.）
+  score: 5
+  why: 给出公司内部能力评估的层级数与最高级标准，是少见的评价制度细节。
+  more: K.I. 在另一处提到自己兼任团队领导和招聘负责人。
+  people:
+  - T.T.
+  - K.I.
+  works: []
+  links:
+  - type: person
+    name: K.I.
+    slug: k-i
+- id: 2019-12-11-interview-gamefreak-projectstory-giga-wrecker#6
+  post: 2019-12-11-interview-gamefreak-projectstory-giga-wrecker
+  segment: 6
+  speaker: 小川一美
+  reported: false
+  kind: quote
+  hook: 小川一美：中途入职后立刻加入已启动的项目
+  zh: 以中途录用方式入职后，立刻加入了已经启动的《GIGA WRECKER》项目。在GAME FREAK，多数人是从《宝可梦》项目起步，这样的经历很少见。
+  ja: 中途採用で入社後すぐに、始動していた『GIGA WRECKER』プロジェクトに参画。『ポケモン』プロジェクトから始まることが多いゲームフリークでは珍しいキャリア。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK Project Story《GIGA WRECKER》：从零开始全靠自己打造新IP（尾上将之、伊藤博人、小川一美）
+  score: 4
+  why: 在GAME FREAK多数人从《宝可梦》项目起步，中途录用直接进入新IP项目是少见的路径。
+  more: 《GIGA WRECKER》由齿轮项目孵化，2016年8月Steam抢先体验，2017年2月正式发行。
+  people:
+  - 尾上将之
+  - 伊藤博人
+  - 小川一美
+  works:
+  - GIGA WRECKER
+  links: []
+- id: 2019-12-11-interview-gamefreak-recruit-message-watanabe#6
+  post: 2019-12-11-interview-gamefreak-recruit-message-watanabe
+  segment: 6
+  speaker: 渡边哲也
+  reported: false
+  kind: quote
+  hook: 渡边哲也：2016年新设研究开发部
+  zh: 所以，我希望员工不要缩手缩脚。想做什么就放手去做。我希望带来更多兴奋、心跳和紧张感。2016年新设的研究开发部，可以说正是为此而设的战略组织。天马行空、以现有技术无法实现的想法，如果能通过尖端技术的研发来实现，那就太美好了。在电影、小说等各种娱乐形式中，游戏的有趣之处在于互动性——自己的行动会得到反应。如果能用还无法想象的新颖而独创的技术，创造出只有在数字游戏中才能诞生的世界，那一定会很有趣。
+  ja: だから社員には、小さくまとまってほしくない。何でもやりたい放題やればいい。もっとワクワク、ドキドキハラハラさせてほしいと考えています。2016年に新設した研究開発部はまさにそのための戦略組織だと言えます。荒唐無稽で今の技術では実現できないアイデアを、先端技術のR&Dで実現できたら美しい。映画や小説、いろいろなエンタテインメントがある中で、自分の行動に対してリアクションのあるインタラクティブ性がゲームの面白いところです。デジタルなゲームの中にしか生み出せない世界を、まだ想像すらできないような新しくてオリジナリティある技術でつくり出せたら、きっと楽しいはずです。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 开发负责人寄语（2019，渡边哲也）：做出只有 GAME FREAK 才能做出的东西
+  score: 4
+  why: 把组织架构的设立时间与目的讲清楚，说明GAME FREAK为无法用现有技术实现的想法专门设了战略组织。
+  more: 同一段还提到游戏的有趣之处在于互动性，可与开发二部的《宝可梦》系列对照看。
+  people:
+  - 渡边哲也
+  works: []
+  links: []
+- id: 2019-12-11-interview-gamefreak-recruit-message-watanabe#10
+  post: 2019-12-11-interview-gamefreak-recruit-message-watanabe
+  segment: 10
+  speaker: 渡边哲也
+  reported: false
+  kind: quote
+  hook: 渡边哲也：开发一部要做下一根支柱
+  zh: 另一方面，开发一部则通过Gear Project，以打造与《宝可梦》并列的“下一根支柱”为目标。作为游戏的理想和风格也很重要，但总之希望不择手段地挑战，做出“能让更多人享受的东西”。在怀着梦想和希望进来的年轻人中，一定存在“钻石原石”。我想在自下而上的项目中，把这样的人才发掘出来。另外，对于一直制作《宝可梦》的成员，希望他们能把它作为自由发挥创造力的场所。就这样，开发一部蕴藏着各种可能性。
+  ja: その一方で開発一部では、ギアプロジェクトを通じて『ポケモン』に並ぶ「次の柱」をつくることを目標にしています。ゲームとしての理想やスタイルも大切ですが、とにかく「多くの人々に楽しんでもらえるもの」をつくることになりふり構わず挑戦していってほしいです。夢と希望を描いて入ってきた若者のなかには、「ダイヤの原石」がきっと存在します。そういう人材をボトムアップ型のプロジェクトのなかで、ピックアップしていきたいですね。また、ずっと『ポケモン』をつくってきたメンバーには、クリエイティビティを自由に発揮できる場として活用してほしい。このように開発一部は様々な可能性を秘めています。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 开发负责人寄语（2019，渡边哲也）：做出只有 GAME FREAK 才能做出的东西
+  score: 4
+  why: 点明开发一部通过Gear Project打造与《宝可梦》并列的支柱，并提到在自下而上的项目中发掘人才。
+  more: 开发二部负责《宝可梦》系列，与开发一部并列为开发本部的两个部门。
+  people:
+  - 渡边哲也
+  works: []
+  links: []
+- id: 2019-12-11-interview-gamefreak-recruit-programmer-dn#6
+  post: 2019-12-11-interview-gamefreak-recruit-programmer-dn
+  segment: 6
+  speaker: D.N.
+  reported: false
+  kind: quote
+  hook: D.N.：母亲寄来我小学时写的“要成为游戏设计师”的信
+  zh: 工作虽然开心，但英语指导助手的工作是有期限的。正烦恼着为了继续在日本工作该怎么办时，美国的母亲寄来一封信，里面装着小学时的我写的“要成为游戏设计师”的信。我不想放弃儿时的梦想。我想去追。于是进入HAL东京，开始学习编程。与GAME FREAK的第一次接触是实习。因为这是一家制作《宝可梦》系列的历史悠久的公司，最初印象比较刻板。但实际和想象不同。员工们总是把用户放在第一位，非常亲切。我憧憬这种态度，所以现在在这里。
+  ja: 仕事は楽しかったけれど、英語指導助手の仕事には期限がある。日本で働きつづけるためにどうすべきか悩んでいたとき、アメリカの母から手紙が届き、そこには「ゲームデザイナーになる」と小学生の私が書いた手紙が入っていたのです。子どもの頃からの夢を諦めたくない。追いかけたい。そこからHAL東京に入学し、プログラミングの勉強を始めました。ゲームフリークとの最初の接点はインターンシップ。『ポケモン』シリーズをつくっている歴史ある会社なので、最初はカタいイメージがありました。でも、実際は想像と違った。社員の皆さんは常にユーザーのことを第一に考えていて、とても優しかった。その姿勢に憧れて、私は今ここにいます。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方程序员特写 D.N.：开心地制作，所以才能做出好玩的游戏
+  score: 5
+  why: 从JET项目英语指导助手到HAL东京学编程，再到GAME FREAK实习，儿时信件成为转行的直接契机。
+  more: 他提到与GAME FREAK的第一次接触是实习，最初对《宝可梦》公司的印象比较刻板。
+  people:
+  - D.N.
+  works: []
+  links:
+  - type: term
+    name: GAME FREAK
+- id: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk#9
+  post: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk
+  segment: 9
+  speaker: F.K.
+  reported: false
+  kind: quote
+  hook: F.K.：刚入社就被指派绘制《究极之日／究极之月》概念原画
+  zh: 在游戏研发体系中，有一项核心职责叫做“绘制概念原画（Concept Art）”。这是一份为了向整个庞大开发团队传达并统合作品宏大世界观的极其关键的工作。令人难以置信的是，刚入社不久，我便被指派承担《宝可梦 究极之日／究极之月》部分概念原画的重任。“把这么重大的责任交给我这个初出茅庐的新人真的没问题吗？”——当时连我自己都忍不住心生忐忑，但只要你展现出才能，即便资历尚浅也敢于委以重任，这就是 GAME FREAK 的魄力所在。
+  ja: ゲーム制作の中に、「コンセプトアートをつくる」という仕事があります。タイトルの世界観を開発チーム全体と共有するための重要な仕事なのですが、入社早々、『ポケットモンスター ウルトラサン・ウルトラムーン』のコンセプトアートの一部を担当することになったのです。「こんな若造が担当していいの？」と疑ってしまうほど責任重大な仕事でしたが、若くても任せてくれるのがゲームフリークですね。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
+  score: 4
+  why: 新人入社不久即被委以《宝可梦 究极之日／究极之月》概念原画重任，是具体的人事决定，也点出概念原画统合世界观的核心职责。
+  more: 概念原画（Concept Art）在开发团队中承担向全体成员传达并统合作品世界观的作用。
+  people:
+  - F.K.
+  works:
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦 太阳·月亮
+  links: []
+- id: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk#14
+  post: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk
+  segment: 14
+  speaker: F.K.
+  reported: false
+  kind: quote
+  hook: F.K.：入社后每年一次海外采风，已去秘鲁墨西哥埃及南非
+  zh: 灵感的储备抽屉自然是越丰富越好，因此自从加入 GAME FREAK 之后，我每年都会安排一次海外采风旅行。迄今为止，我已经踏足过秘鲁、墨西哥、埃及以及南非。为了在《宝可梦》的作品中刻画出真正具有厚重感的真实世界，我必须亲身站在那片土地上，用双眼去观察那些古遗迹和城镇街区的每一个细微纹理。因为石柱在重力与岁月下的具体挺拔姿态、古建筑带给人类视觉的压迫与尺度感，仅凭二维照片是绝不可能真正理解的。打破职能与世代的隔阂，与团队全体成员共享这一份宏阔的世界观，我希望能将这些化为动力，去打造更加出色的游戏世界。
+  ja: 引き出しは多ければ多いほど良いので、ゲームフリークに入社してからは毎年、海外旅行へ出かけるようになりました。これまで行った国は、ペルー、メキシコ、エジプト、そして南アフリカ。ポケモンの世界観を表現するために、遺跡や街の細部を自分の目で見て学んでいます。具体的な柱の建ち方やスケール感は写真では分かりませんから。職種や世代の垣根を超えて、同じ世界観を共有することで、もっといいゲームづくりにつなげていきたいですね。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
+  score: 4
+  why: 给出具体频率与四个国家，说明为刻画《宝可梦》世界的厚重感而实地观察古遗迹与街区纹理的做法。
+  more: F.K. 认为石柱姿态与古建筑的尺度感仅凭二维照片无法真正理解。
+  people:
+  - F.K.
+  works:
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦 太阳·月亮
+  links:
+  - type: person
+    name: F.K.
+    slug: f-k
+- id: 2021-12-27-interview-gamefreak-recruit-designer-ek#12
+  post: 2021-12-27-interview-gamefreak-recruit-designer-ek
+  segment: 12
+  speaker: E.K.
+  reported: false
+  kind: quote
+  hook: E.K.：教育支援制度是我提议后设立的
+  zh: 现在，我利用公司的教育支援制度，每周六去一所可以学习3DCG的学校上课。其实这个制度是我向管理层提议后设立的。这是一家真正想做什么都能让你去做的公司。随着经验年数增加，容易自然而然地重复同样的事情，但自从去学校上课后，我每天都实际感受到自己在成长。每次听课都会被信息风暴席卷，这让我感到新鲜，而且在公司内部也能和不同工种的人交流学到的东西，学习快乐得不得了。GAME FREAK现在整个公司都充满“不断学习、吸收新技术”的气概。公司会如何进化，我自己也非常期待。
+  ja: 現在、会社の教育支援制度を利用して、毎週土曜日に3DCGを学べる学校に通わせてもらっています。実はこれ、私が経営層に提案してつくってもらった制度なんです。やりたいことは本当に何でもやらせてもらえる会社です。経験年数を重ねるにつれて、自ずと同じことの繰り返しになりがちですが、学校に行くようになって自分が成長していることを日々実感しています。講義を受けると毎回、情報の嵐に晒されることが新鮮ですし、社内では別の職種の人と学んだことについて会話もでき、勉強が楽しくて仕方ありません。ゲームフリークは今、会社全体として「どんどん勉強しよう、新しい技術を取り入れよう」という気概にあふれています。会社がどう進化していくのか。私自身も楽しみにしているところです。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验
+  score: 5
+  why: 员工向管理层提议后公司设立了可每周六去外部学校学3DCG的制度，是具体可查的制度性事实。
+  more: E.K.在《宝可梦 太阳／月亮》后曾赴美国阿纳海姆宝可梦世界锦标赛出差研修。
+  people:
+  - E.K.
+  works:
+  - 宝可梦 太阳·月亮
+  - 宝可梦 剑·盾
+  links:
+  - type: person
+    name: E.K.
+    slug: e-k
+- id: 2021-12-27-interview-gamefreak-recruit-designer-ht#8
+  post: 2021-12-27-interview-gamefreak-recruit-designer-ht
+  segment: 8
+  speaker: H.T.
+  reported: false
+  kind: quote
+  hook: H.T.：为与AAA大作并列时留下不同印象
+  zh: 在GEAR PROJECT的新作《小镇英雄》中，我担任了美术总监。总之，凡是能做的事我都想亲自尝试！抱着这样的想法，我不仅负责擅长的背景，还担纲了角色设计、UI以及宣传物料的设计。通过这部作品，我坚持的一点是：与AAA大作并列时，要给人留下不同的印象。几年前在「E3」上看到AAA大作时，我个人感觉虽然画面品质很高，但都颇为相似。因此，为了彰显独特性，我尝试将着色处理得像插画一样，并让角色的色块更大、轮廓更醒目，在有限的预算内下足了创意功夫。
+  ja: ギアプロジェクトの新規タイトル、『リトルタウンヒーロー』でアートディレクターを務めました。とにかく出来る事は全部、自分でやってみたい！と思い、専門である背景だけでなくキャラクターデザイン、UI、広報物のデザインも担当しました。作品を通してこだわったのは、AAAタイトルと並んだ時に異なる印象を与えること。何年か前に「E3」でAAAタイトルを見ていた時に、絵のクオリティは高くても、どれも似ているなと個人的に感じました。そこで、独自性を出すために、シェーディングをイラストっぽくしたり、キャラクターの色面を大きく取ってシルエットが目立つようにしたりと、限られた予算の中で創意工夫をしました。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
+  score: 4
+  why: 美术总监谈《小镇英雄》的差异化策略：着色像插画、色块更大、轮廓更醒目，在有限预算内下创意功夫。
+  more: 《小镇英雄》是GEAR PROJECT的新作，H.T.在其中担任美术总监。
+  people:
+  - H.T.
+  works:
+  - 小镇英雄
+  - 宝可梦 剑·盾
+  links:
+  - type: person
+    name: H.T.
+    slug: h-t
+  - type: term
+    name: 美术总监
+- id: 2021-12-27-interview-gamefreak-recruit-designer-ht#9
+  post: 2021-12-27-interview-gamefreak-recruit-designer-ht
+  segment: 9
+  speaker: H.T.
+  reported: false
+  kind: quote
+  hook: H.T.：GEAR PROJECT少数人制作，决策迅速
+  zh: GEAR PROJECT以少数人制作游戏，因此决策非常迅速。另外，需要特定技能的编程等由各专业职位负责，但游戏的企划和系统层面则由全体成员共同讨论决定。自己设计，并参与到最后。我认为这正是GEAR PROJECT最大的乐趣所在。
+  ja: ギアプロジェクトは少人数でゲームを作り上げるため、とにかく意思決定が早いです。また、特定のスキルが必要なプログラミングなどは各専門職種が担当しますが、ゲームの企画やシステム面についてはメンバー全員で話し合いながら決めて行きます。自分で設計して、最後まで関わることができるのです。これがギアプロジェクトの最大の面白さだと思います。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
+  score: 4
+  why: 说明GEAR PROJECT的运作方式：企划与系统由全体成员共同讨论决定，自己设计并参与到最后。
+  more: GEAR PROJECT是GAME FREAK内部无论什么职位都能从零开始制作游戏的制度。
+  people:
+  - H.T.
+  works:
+  - 小镇英雄
+  - 宝可梦 剑·盾
+  links:
+  - type: term
+    name: GAME FREAK
+- id: 2021-12-27-interview-gamefreak-recruit-designer-kn#8
+  post: 2021-12-27-interview-gamefreak-recruit-designer-kn
+  segment: 8
+  speaker: K.N.
+  reported: false
+  kind: quote
+  hook: K.N.：已配置数千棵树，仍决定全部修正
+  zh: 在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》开发中期，我作为场景组长做出了一个重大决断。在反复摸索整体设计平衡的过程中，我发现只有树木看起来显得突兀。当时已经配置了数千棵树，影响范围广、风险也大，但我仍然判断应当修正。或许有人觉得不过是树而已，但正是这种微差左右着世界观。正因为对细节精益求精，才能诞生出让用户沉浸其中的世界观。
+  ja: 『ポケモン Let’s Go! ピカチュウ・Let’s Go! イーブイ』開発の中盤、フィールドリーダーとして大きな決断をしました。全体のデザインバランスを試行錯誤しているうちに、木だけが浮いているように見えたのです。既に何千本という木が配置されており、影響範囲が広くリスクもありましたが、それでも修正するべきだと判断しました。たかが木だと思われるかもしれませんが、その微差が世界観を左右するんです。細部にまでこだわるからこそ、ユーザーが没入できる世界観が生まれるのだと思います。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界
+  score: 5
+  why: 在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》开发中期，场景组长因树木突兀而做出重大决断，体现对细节的极致追求。
+  more: 同一访谈中，K.N.提到在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》中担任场景组长，负责从城镇森林设计到游戏画面落实。
+  people:
+  - K.N.
+  works:
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  - 宝可梦 剑·盾
+  links:
+  - type: person
+    name: K.N.
+    slug: k-n
+- id: 2021-12-27-interview-gamefreak-recruit-planner-kf#8
+  post: 2021-12-27-interview-gamefreak-recruit-planner-kf
+  segment: 8
+  speaker: K.F.
+  reported: false
+  kind: quote
+  hook: K.F.：在休息区闲聊中加入企划，后来成了总监
+  zh: 目前，我担任『Pokémon HOME』这一项目的总监。据说这个构想从进公司时就已经存在，当时在公司的休息区，有人站着闲聊说「有这样一个企划哦」，我觉得听起来很有趣，便加入了讨论。在反复提出方案的过程中，当项目正式启动时，我便就任了总监。
+  ja: 現在、『Pokémon HOME』というプロジェクトのディレクターを任されています。入社当時から構想はあったようで、社内の休憩スペースで「こういう企画があるんだよね」と立ち話をしていたので、面白そうだな、と話の輪に入っていきました。そして提案を重ねていくうちに、プロジェクトが正式に立ち上がる際にはディレクターに就任することになりました。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落
+  score: 4
+  why: 交代了『Pokémon HOME』总监职位的由来：构想早于其入职，他因休息区闲聊加入讨论，项目启动时出任总监。
+  more: 『Pokémon HOME』；K.F.在访谈中还谈到宝可梦系列已延续20多年，维持形象与改变它都是工作的一部分。
+  people:
+  - K.F.
+  works:
+  - Pokémon HOME
+  - 宝可梦系列生态架构
+  links:
+  - type: person
+    name: K.F.
+    slug: k-f
+  - type: work
+    name: Pokémon HOME
+  - type: term
+    name: 宝可梦系列
+- id: 2021-12-27-interview-gamefreak-recruit-programmer-km#8
+  post: 2021-12-27-interview-gamefreak-recruit-programmer-km
+  segment: 8
+  speaker: K.M.
+  reported: false
+  kind: quote
+  hook: K.M.：宝可梦有超1000个模型，没有引擎能处理
+  zh: 研究开发部的使命，是为下一款作品进行画面制作，以及基础库的架构设计与重构。《宝可梦》系列拥有超过1000个模型，且每一个形状都各不相同。世界上没有哪款引擎能处理如此多样形状的模型。所以，我们决定自己来做。当然，在追求效率的同时，我们也希望保留所有角色独有的动作与特性。目前，我们正以5年后为目标进行规划，将动作、形变等角色表现的路线图落实到具体规格中。
+  ja: 研究開発部のミッションは、次のタイトルに向けた絵づくりや、ライブラリの基盤設計と再構築です。『ポケモン』シリーズはモデルが1,000体以上存在し、すべて形状が違います。これだけいろいろな形状のモデルを扱うエンジンは、世の中にありません。だから、自分たちでつくるのです。もちろん効率化をめざしながらも、すべてのキャラクター独自の動きや特性は残していきたい。現在、5年後を見据えた上で考案した、モーションやデフォームなど、キャラクター表現のロードマップを仕様に落とし込んでいるところです。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来
+  score: 5
+  why: 披露宝可梦模型数量超1000且形状各异，解释GAME FREAK为何自研引擎，是研发部使命的具体背景。
+  more: 研究开发部以5年后为目标，将动作、形变等角色表现路线图落实到具体规格。
+  people:
+  - K.M.
+  works:
+  - 宝可梦系列专有引擎研发
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  links: []
+- id: 2021-12-27-interview-gamefreak-recruit-programmer-ko#8
+  post: 2021-12-27-interview-gamefreak-recruit-programmer-ko
+  segment: 8
+  speaker: K.O.
+  reported: false
+  kind: quote
+  hook: K.O.：编辑工具规格与最初完全不同
+  zh: 被分配到开发二部后，我参与了开发环境的改善、CI环境的搭建、通用数据编辑工具的开发、游戏实现等各种项目。尤其是编辑工具的开发，是在详细规格和使用方法都尚未确定的状态下开始的。最辛苦的是，试做了原型，实际让大家使用后，却发现需要的其实是别的东西。最终完成的东西，规格与最初完全不同。但也正因如此，我意识到先做出来、听取意见是非常重要的。为了减少制作方和使用方对成品共同印象的认知差异，需要沟通。事先预测需要什么是很重要的，但另一方面，如果不经历制作、使用、获得反馈的过程，就无法做出真正被需要的东西。
+  ja: 開発二部への配属後は、開発環境の改善、CI環境の整備、汎用データ編集ツールの開発、ゲームの実装など、さまざまな案件に携わりました。特に編集ツールの開発は、詳細な仕様や使い方が定まっていない状態からのスタートでした。苦労したのは、試作を作ってみたけれど、いざ使ってもらったら実は違うものが必要だったと判明した時。最終的に完成したものは、当初とは全然違う仕様になりました。でもおかげで、まずはつくってみて、意見をもらうことが大切だと気づくことができました。作る側と使う側とで、完成品の共通イメージに対する認識の相違を減らすためには、意思疎通をおこなうこと。何が必要なのか最初に予想をすることは重要ですが、一方でつくって、使ってもらって、フィードバックを受けるというプロセスを経ないと、本当に必要とされているものはつくれないんですね。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃
+  score: 4
+  why: 讲通用数据编辑工具从规格未定到推翻重做的过程，得出先做出来、听取意见比事先预测更重要的判断。
+  more: 同一访谈中K.O.还提到开发环境引入云技术、CI环境搭建，可对照看开发二部的工具与流程改善。
+  people:
+  - K.O.
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: K.O.
+    slug: k-o
+- id: 2021-12-27-interview-gamefreak-recruit-programmer-ko#9
+  post: 2021-12-27-interview-gamefreak-recruit-programmer-ko
+  segment: 9
+  speaker: K.O.
+  reported: false
+  kind: quote
+  hook: K.O.：我出错，宝可梦就做不出来
+  zh: 让我感到成就感的，是在开发环境中引入云技术的时候。将分散的数据集中管理，使大家能够在此基础上作业，从而压缩了开发所需的时间和成本。看到效果立竿见影，我很开心。改善开发环境这项工作，会影响到参与《宝可梦》项目的所有程序员。一旦我出错，全体作业就会停滞。也就是说，宝可梦就做不出来了。我正是带着这样的使命感在开展工作。
+  ja: 達成感を覚えたのは、開発環境にクラウドを導入したときのことです。散在していたデータを一括管理し、作業できるようにしたことで、開発にかかる時間もコストも圧縮することができました。目に見えて効果が出たことが嬉しかったです。開発環境の改善という仕事は、『ポケモン』プロジェクトに携わるプログラマ全員に影響を与えます。私がミスをすれば、全体の作業が止まってしまう。つまり、『ポケモン』がつくれなくなってしまう。そのくらいの使命感を持って業務にあたっています。
+  lang: ja
+  year: 2019
+  date: '2019-12-11'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃
+  score: 4
+  why: 说明开发环境改善影响所有参与《宝可梦》项目的程序员，并给出引入云技术集中管理数据、压缩时间成本的具体成果。
+  more: 可与第8条编辑工具开发对照，看开发二部在环境改善上的两类工作。
+  people:
+  - K.O.
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  links: []
 - id: 2020-03-01-interview-tpc-business-professionals#58
   post: 2020-03-01-interview-tpc-business-professionals
   segment: 58
@@ -22166,6 +22866,31 @@ quotes:
   people: []
   works: []
   links: []
+- id: 2021-12-27-interview-gamefreak-recruit-programmer-ht#12
+  post: 2021-12-27-interview-gamefreak-recruit-programmer-ht
+  segment: 12
+  speaker: H.T.
+  reported: false
+  kind: quote
+  hook: H.T.：我的野心是将GAME FREAK开发环境全面云化
+  zh: 我的野心是“将GAME FREAK的开发环境全面云化”。由于外部因素，开发环境也不得不发生变化，因此需要能够灵活应对的体制。GAME FREAK已经在大量使用云服务，但我们要加速这一举措，实现全面云化，从而提升远程办公的效率，并加强与外部开发伙伴的协作。经营层也秉持“创作者优先”的风气，灵活采纳现场意见。公司具备快速引进新设备和系统的速度感，我相信这一定能够实现。
+  ja: 私の野望は「ゲームフリークの開発環境をフルクラウド化する」ことです。外的要因により開発環境も変化せざるを得ない状況なので、柔軟に対応していく体制が必要です。ゲームフリークはすでにクラウドサービスを多用していますが、その取り組みを加速させてフルクラウド化することで、在宅勤務の効率向上や、社外の開発パートナーとの連携を強化していきたい。経営も「クリエイターファースト」の風土で現場の意見を柔軟に取り入れてくれます。新しい機材やシステムの導入にも迅速に対応できるスピード感があるので、実現可能だと信じています。
+  lang: ja
+  year: 2020
+  date: '2020-11-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进
+  score: 5
+  why: 这是访谈标题的核心主张，明确提出了全面云化的目标，并关联远程办公与外部协作。
+  more: 文中提到GAME FREAK已在大量使用云服务，经营层秉持“创作者优先”的风气。
+  people:
+  - H.T.
+  works:
+  - 宝可梦 剑·盾
+  - 开发环境全云端架构
+  links:
+  - type: term
+    name: GAME FREAK
 - id: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling#6
   post: 2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling
   segment: 6
@@ -22663,170 +23388,89 @@ quotes:
   links:
   - type: work
     name: Pokémon GO
-- id: 2021-12-27-interview-gamefreak-crosstalk-designer#20
-  post: 2021-12-27-interview-gamefreak-crosstalk-designer
-  segment: 20
-  speaker: 栃木遥
+- id: 2021-12-27-interview-gamefreak-crosstalk-new-programmer#13
+  post: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
+  segment: 13
+  speaker: T.K.
   reported: false
   kind: quote
-  hook: 栃木遥：2022 年新设概念与视觉工作室
-  zh: 进入 2022 年，我们新设立了“概念与视觉工作室（Concept & Visual Studio）”。打个比方，它就相当于设计师专门的技术研发（R&D）尖端实验室，专门攻坚面向次世代硬核研发的美术规范标准构建与前沿颠覆性视觉技术预研的专家们悉数集结于此。有了这个前沿部门在底层保驾护航，各正作项目组的一线设计师便能彻底解放生产力，比以往任何时候都更加纯粹地聚焦于“如何把游戏本身打磨得登峰造极”。
-  ja: 2022年には「コンセプト＆ビジュアルスタジオ」が新設されました。イメージとしてはデザイナー版の研究開発部のような組織で、次世代の開発に向けた仕様設計や新規技術の導入に特化したエキスパートたちがここに集まっています。これにより、各プロジェクトに携わるデザイナーは、これまで以上にゲームそのものを面白くすることに集中できるようになりました。
+  hook: T.K.：阿尔宙斯没法沿用以往经验，从零积累
+  zh: 《宝可梦传说 阿尔宙斯》没法直接沿用GAME FREAK以往积累的经验，是从零开始积累，接连面对新的挑战。场景规模变大了，物体也增多了。为了稳定处理物理行为和AI，我们引入了Havok，为了用好它，和研究开发部合作进行了调查。
+  ja: 『Pokémon LEGENDS アルセウス』は、これまでゲームフリークが培ってきた経験をそのまま転用することができず、ゼロから積み上げるような新しい挑戦の連続でした。フィールドの規模も大きくなったし、オブジェクトも増えた。物理挙動やAIを安定して処理するためにHavokを導入したのですが、使いこなしていくために研究開発部と協力して調査していきました。
   lang: ja
   year: 2021
   date: '2021-12-27'
-  publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
-  title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
-  score: 5
-  why: 首次披露 GAME FREAK 设立设计师专属 R&D 部门，负责次世代美术规范与视觉技术预研。
-  more: 同篇大森滋谈到该部门成立后，对设计师「想创造什么」的要求比以往更严峻。
-  people:
-  - 栃木遥
-  - 大森滋
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links:
-  - type: person
-    name: 大森滋
-    slug: ohmori-shigeru
-- id: 2021-12-27-interview-gamefreak-crosstalk-designer#24
-  post: 2021-12-27-interview-gamefreak-crosstalk-designer
-  segment: 24
-  speaker: 大森滋
-  reported: false
-  kind: quote
-  hook: 大森滋：开发中期的未完成品像「粪作」
-  zh: 要在 GAME FREAK 扎根战斗，归根结底最适合的一定是打心底里骨子里挚爱游戏的人。做游戏绝非永远是鲜花与掌声，开发中期的未完成品在临近发售前常常连正常运行都卡成PPT，数值平衡崩坏到离谱，说得难听点简直就是一坨“粪作（Kusoge，笑）”。面对“搞什么啊！这敌人强得太不讲道理了吧！”这种设定失误或离谱 Bug 时，你能不能在痛苦中依然敏锐捕捉到闪光的趣味性、带着乐在其中的幽默感与狂热去亲手修复打磨它——如果没有这样的大心脏与纯粹热爱，是绝对无法长久走下去的。
-  ja: ゲームフリークで働くならやっぱり、心の底からゲームが好きな人が向いていると思います。ゲームづくりは楽しいことだけではありません。開発中のゲームは、完成間近まで動かないことがあったり、ゲームバランスが悪いことがあったり、いわばクソゲー（笑）。「なんだこりゃ、敵が強すぎる！」とかそういう設定ミスやバグの中にさえも面白みを発見できて、楽しみながら作っていけるくらいのマインドがないと長く続かないと思います。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
-  title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 新人程序员篇：不是「只是实现」，而是「解决问题」（T.K. × R.H.）
   score: 4
-  why: 用「卡成PPT」「数值平衡崩坏」描述开发中期常态，说明做游戏并非只有鲜花掌声。
-  more: 同篇大森滋说最适合 GAME FREAK 的是打心底挚爱游戏的人。
+  why: 点出《宝可梦传说 阿尔宙斯》在GAME FREAK内部是脱离既有积累的项目，并提到引入Havok处理物理与AI。
+  more: 同篇T.K.提到最初完全无法控制Havok的物理，角色站坡上会滑着飞出去。
   people:
-  - 栃木遥
-  - 大森滋
+  - T.K.
+  - R.H.
   works:
-  - 宝可梦 剑·盾
+  - 宝可梦 剑／盾
   - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
+  note: Havok是用于物理模拟和AI的中间件。
   links:
   - type: person
-    name: 大森滋
-    slug: ohmori-shigeru
-  - type: term
-    name: GAME FREAK
-- id: 2021-12-27-interview-gamefreak-crosstalk-designer#26
-  post: 2021-12-27-interview-gamefreak-crosstalk-designer
-  segment: 26
-  speaker: 大森滋
-  reported: false
-  kind: quote
-  hook: 大森滋：能重构宝可梦的只有 GAME FREAK
-  zh: 完全赞同。《宝可梦》系列至今已昂首跨越了 25 个春秋的漫长征程。正因如此，如果身边全都是墨守成规、认为“反正宝可梦自古以来就应该长这样吧”的守旧派，这个宏大超级内容的生命力进化就会彻底停滞死绝。**能够亲手为全人类创造出全新宝可梦、能够彻底打破旧框去重构宝可梦的，在这个世界上唯有我们 GAME FREAK 一家！** 我们必须不断向死而生，向着“与神秘不可思议的生物伙伴共同漫步世界去冒险”这一最本源体验的终极潜能深处无尽探索，全力去构思与锻造下一部划时代巨作！
-  ja: そうですね、『ポケットモンスター』シリーズはもう25年以上続いているコンテンツです。だからこそ、こういうものだよね、という型にはまっている人ばかりではコンテンツの進化は止まってしまいます。『ポケモン』を新しく作っていくことができる、作り変えられるのは、ゲームフリークだけなんです。「モンスターと一緒に旅をする」という体験の本質的な可能性を探って、次の作品を考えていきたいですね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
-  title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
-  score: 4
-  why: 在系列跨越 25 年之际，大森滋把「打破旧框」说成公司存续的前提，反对守旧派。
-  more: 同篇栃木遥称宝可梦在视觉与技术上仍处于「半途之中」。
-  people:
-  - 栃木遥
-  - 大森滋
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links:
-  - type: person
-    name: 栃木遥
-    slug: tochigi-haruka
-- id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#9
-  post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
-  segment: 9
-  speaker: K.I.
-  reported: false
-  kind: quote
-  hook: K.I.：先做投球捕捉原型，再验证趣味性
-  zh: 那感觉就像是抛开以往的开发流程，从零开始构建游戏。在推进项目之前，我们首先制作了“野生宝可梦栖息在旷野中，向其投掷球进行捕捉”这一核心玩法的原型，并对趣味性进行了彻底验证。而站在这一核心位置上的，正是游戏程序员。
-  ja: 今までの開発プロセスを取っ払って、一からゲームを作っていくようなものでしたね。プロジェクトを進めていく前に、まず「野生のポケモンがフィールドにいて、そこにボールを投げて捕まえる」というコアな遊びのプロトタイプを作り、面白さを徹底的に検証しました。その中心にいたのが、ゲームプログラマでした。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: ゲームプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-  title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
-  score: 4
-  why: 说明《Pokémon LEGENDS 阿尔宙斯》开发时先抛开既有流程，从零构建核心玩法原型。
-  more: 同一对谈中M.O.提到从试作阶段就探讨草丛中宝可梦的视线与动作。
-  people:
-  - M.O.
-  - K.I.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: M.O.
-    slug: m-o
-- id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#16
-  post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
-  segment: 16
-  speaker: M.O.
-  reported: false
-  kind: quote
-  hook: M.O.：一个跳跃动作要调起跳、滞空、着地硬直
-  zh: 哪怕只是一个跳跃动作，要让用户操作起来感觉舒适也是非常困难的。我自己也曾为此大费苦心。起跳的动作、滞空时间、着地硬直、重力的施加方式……这些数值要如何调整才能让人感到“舒适”？将这类感觉层面的东西语言化，并作为经验诀窍积累下来，是非常重要的。
-  ja: ジャンプ一つとっても、ユーザーが気持ち良く操作できるように作るのはすごく難しい。私自身もすごく苦労した経験があります。踏み切りの挙動、滞空時間、着地の硬直、重力の掛け方……それらの数値をどう調整すれば「気持ちいい」と感じられるのか。そうした感覚的な部分を言語化し、ノウハウとして蓄積していくことが大切です。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: ゲームプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-  title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
-  score: 4
-  why: 把感觉层面的舒适度拆解为具体数值，是游戏程序员将体验语言化的例子。
-  more: K.I.在下一句也提到验证投球的旋转和轨迹、奔跑转弯的惯性。
-  people:
-  - M.O.
-  - K.I.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: K.I.
-    slug: k-i
-- id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#22
-  post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
+    name: T.K.
+    slug: t-k
+- id: 2021-12-27-interview-gamefreak-crosstalk-new-programmer#22
+  post: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
   segment: 22
-  speaker: M.O.
+  speaker: T.K.
   reported: false
   kind: quote
-  hook: M.O.：做躲猫猫时婴儿为什么会高兴
-  zh: 我们寻求的人才，果然是“能够捕捉玩法本质的人”。例如“做躲猫猫时，婴儿为什么会高兴？”“积木倒塌时，孩子为什么会笑？”能够对日常生活中这些情感波动和游戏根源产生兴趣的人，适合这份工作。
-  ja: 求める人物像としては、やはり「遊びの本質を捉えている人」です。例えば「いないいないばあをした時に、何で赤ちゃんが喜ぶのか？」「積み木が崩れた時に、なぜ子どもは笑うのか？」。そういった日常の中にある感情の動きや遊びの根本に興味を持てる人が向いています。
+  hook: T.K.：比起实现，更重视从根源解决问题
+  zh: 感觉是在反复对话中制作。开发初期，策划、程序员和图形设计师会聚在一起，召开实现启动会议。基于策划的规格书和企划意图，从各岗位的角度提出“如果想实现那个，这样做实现更好”的想法，并决定为了实现该如何分工。规格书根据内容，有时也会由程序员或图形设计师来写。真的是能不分岗位界限商量事情的扁平环境。
+  ja: 対話を何回も繰り返しながら作っていく感じですよね。開発初期にプランナーとプログラマとグラフィックデザイナーが集まって、実装キックオフMTGを開きます。プランナーの仕様書と企画意図を元に各職種の観点から、「それを実現したいなら、こういう実装にした方がいい」とアイデアを出して、実現するためにはどうすれば良いのか分担を決めていきます。仕様書も、内容によってはプログラマやグラフィックデザイナーが書く場合もあります。本当に職種の垣根なく相談ができる、フラットな環境です。
   lang: ja
   year: 2021
   date: '2021-12-27'
-  publication: ゲームプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-  title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 新人程序员篇：不是「只是实现」，而是「解决问题」（T.K. × R.H.）
   score: 4
-  why: 用日常情感波动解释“捕捉玩法本质”，是对招聘人才的具体判断标准。
-  more: K.I.在同段提到希望与对广泛文化和体验保持敏感的人一起工作。
+  why: 给出这位程序员的工作判断：不按需求直接实现，而是先挖掘需求背后的原因，常能提出不同方案。
+  more: 同篇提到开发初期策划、程序员、图形设计师一起开实现启动会议，规格书有时由程序员或设计师来写。
   people:
-  - M.O.
-  - K.I.
+  - T.K.
+  - R.H.
   works:
+  - 宝可梦 剑／盾
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: term
+    name: 图形设计师
+  - type: term
+    name: 程序员
+- id: 2021-12-27-interview-gamefreak-crosstalk-new-programmer#24
+  post: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
+  segment: 24
+  speaker: T.K.
+  reported: false
+  kind: quote
+  hook: T.K.：想以绝对不说「做不到」的程序员为目标
+  zh: 果然好学是程序员的条件。即使是自己没掌握的技术也不害怕，能学习的人更好。我自己“想把GAME FREAK的技术提升到被称为业界最前沿的水平”这种想法非常强烈。做游戏，如果程序员说“做不到”，再好的点子也会变得不可能。所以不要轻易放弃，要顽强地思考能做到的方法，去学习。我想以绝对不说“做不到”的程序员为目标，也希望这样的人入职。
+  ja: やっぱり勉強熱心であることがプログラマの条件ですよね。今まで自分が身につけていない技術でも恐れず、学べる人がいい。私自身、「ゲームフリークの技術を業界の最先端と言われるレベルまで押し上げたい」という気持ちはすごく強いですね。ゲーム作りって、プログラマが「無理」と言ってしまうとどんな素晴らしいアイデアも無理になってしまうんです。だからこそ簡単に諦めずに、何とかできる方法を粘り強く考えて、勉強して。絶対に「無理」と言わないプログラマを目指したいですし、そういう人に入社してもらいたいですね。
+  lang: ja
+  year: 2021
+  date: '2021-12-27'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 新人程序员篇：不是「只是实现」，而是「解决问题」（T.K. × R.H.）
+  score: 4
+  why: 把「好学」列为程序员的条件，并说明程序员说做不到会让好点子变得不可能，是招人取向的直接表述。
+  more: 同篇T.K.说遇到困难时和研究开发部的前辈商量，他们一定会给出某种解决方案。
+  people:
+  - T.K.
+  - R.H.
+  works:
+  - 宝可梦 剑／盾
   - 宝可梦传说 阿尔宙斯
   links:
   - type: person
-    name: K.I.
-    slug: k-i
+    name: T.K.
+    slug: t-k
 - id: 2021-12-27-interview-gamefreak-crosstalk-planner#9
   post: 2021-12-27-interview-gamefreak-crosstalk-planner
   segment: 9
@@ -22909,401 +23553,6 @@ quotes:
     slug: k-f
   - type: term
     name: 程序员
-- id: 2021-12-27-interview-gamefreak-crosstalk-programmer#16
-  post: 2021-12-27-interview-gamefreak-crosstalk-programmer
-  segment: 16
-  speaker: M.O.
-  reported: false
-  kind: quote
-  hook: M.O.：底层管线进化催生阿尔宙斯与朱紫
-  zh: 正得益于底层开发管线的飞速进化，游戏程序员才得以比以往任何时候都更加纯粹地聚焦在打磨游戏内容本身。正是这套体系，最终孕育催生出了《宝可梦传说 阿尔宙斯》以及《宝可梦 朱·紫》这样具有划时代颠覆性的宏大开放世界挑战之作！不过，关于新作中究竟应该前瞻性引入哪些颠覆性机制，目前很大程度上依然由研发部在主导牵引；今后我们极度渴望培养出更多能够由游戏程序员亲自从玩法一线主动提出战略研发方向的领军之才。
-  ja: 開発環境の進化もあって、ゲームプログラマはよりコンテンツ作りに集中できるようになってきています。その結果、『Pokémon LEGENDS アルセウス』や『ポケットモンスター スカーレット・バイオレット』のようなチャレンジングなタイトルを生み出すことができました。ただ、新しいゲーム開発に導入するべき要素に関しては、現在は研究開発部が主導している役割が大きいので、今後はゲームプログラマ自身でゲーム作りの方針を発信できる人材を育成していきたいですね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
-  title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
-  score: 4
-  why: 把《宝可梦传说 阿尔宙斯》《宝可梦 朱·紫》的开放世界挑战与程序员分工体系直接关联。
-  more: M.O.还提到新作颠覆性机制目前多由研发部主导，希望游戏程序员更多从玩法一线提案。
-  people:
-  - M.O.
-  - T.T.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links:
-  - type: person
-    name: M.O.
-    slug: m-o
-  - type: term
-    name: 程序员
-- id: 2021-12-27-interview-gamefreak-crosstalk-programmer#19
-  post: 2021-12-27-interview-gamefreak-crosstalk-programmer
-  segment: 19
-  speaker: T.T.
-  reported: false
-  kind: quote
-  hook: T.T.：数千万日元动捕系统瞬间拍板引进
-  zh: 例如此前一线研发刚提出需要构建顶级动画表现，高达数千万日元规模的专业动作捕捉（Motion Capture）系统几乎在一瞬间就完成了拍板引进；而在疫情突发之时，全公司开发环境向云端的全盘迁移更是以不可思议的超高敏捷度闪电完成。
-  ja: 社内から要望があった数千万円規模のモーションキャプチャシステムも、素早く導入されましたし、コロナ禍での社内システムのクラウド化も本当にスピーディでしたよね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
-  title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
-  score: 5
-  why: 用具体金额和决策速度说明GAME FREAK管理层多为一线创作者，研发决策链路极短。
-  more: 同段还提到疫情时全公司开发环境向云端迁移。
-  people:
-  - M.O.
-  - T.T.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links: []
-- id: 2021-12-27-interview-gamefreak-crosstalk-programmer#22
-  post: 2021-12-27-interview-gamefreak-crosstalk-programmer
-  segment: 22
-  speaker: T.T.
-  reported: false
-  kind: quote
-  hook: T.T.：技术考核连续追问多个为什么
-  zh: 在 GAME FREAK 的技术考核选拔中，最显著的特质莫过于连续多维度的深度“为什么（Why）”层层追问。“你当年为什么选择这所院校？”“为什么在人生关口做出这样的职业抉择？”“为什么在这个架构设计中坚持要这么做？”——我们会从各个维度展开连环考量。因为我们极度渴望彻底看透你底层的思维决策脉络与内在驱动力，真正理解你作为一个独特个体的志向格局。
-  ja: ゲームフリークの選考では、「なぜ？」と質問し、深掘りしていく面接が特徴的かもしれません。「なぜ、この学校を選んだのか？」「なぜこのキャリアを選んだのか？」「なぜ、こうしたいと思ったのか？」と、色々な角度から問いかけていきます。思考の過程や意図を知って、個々の志向や考え方をより深く理解したいからです。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
-  title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
-  score: 4
-  why: 披露GAME FREAK选拔程序员时以连环Why追问考察底层思维与内在驱动力。
-  more: M.O.在下一句补充，逻辑表达与沟通共情能力同样被看重。
-  people:
-  - M.O.
-  - T.T.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links:
-  - type: person
-    name: M.O.
-    slug: m-o
-- id: 2021-12-27-interview-gamefreak-crosstalk-scenario#15
-  post: 2021-12-27-interview-gamefreak-crosstalk-scenario
-  segment: 15
-  speaker: K.I.
-  reported: false
-  kind: quote
-  hook: K.I.：世界观团队从策划部门独立成专职部门
-  zh: 最早世界观设定团队是隶属于策划部门之下的，但随着团队规模日益壮大，逐渐走向专业化细分，最终独立成为了专职负责世界观与设计的专门部门。今后我们也期望进一步扩大这一团队。
-  ja: 元々はプランナーの中に世界観設定のチームがあったのですが、組織が大きくなっていく中で専業化し、世界観とデザインを担当する専門部署になりました。さらに拡大していきたいと思ってはいます。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
-  title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
-  score: 4
-  why: 交代了世界观设定团队的组织沿革：最初隶属策划部门，随规模扩大走向专业化细分后独立。
-  more: K.I. 在第 11 行还区分了成员分工，如自己负责宏观世界观与地图构造。
-  people:
-  - K.M.
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦 究极之日·究极之月
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: K.I.
-    slug: k-i
-- id: 2021-12-27-interview-gamefreak-crosstalk-scenario#21
-  post: 2021-12-27-interview-gamefreak-crosstalk-scenario
-  segment: 21
-  speaker: K.M.
-  reported: false
-  kind: quote
-  hook: K.M.：自拍杆是洛托姆手机的「栖木」
-  zh: 于是，我们换了一个全新角度来重新解读这根“自拍杆”——将其定义为“能让洛托姆手机稍作歇息的‘停栖之木’（栖木）”。也就是说，“如果一直飘浮在空中拍照画面容易抖动发虚，所以它特意停在栖木上面保持稳定来抓拍”。就像这样，针对开发端想要实现的玩法功能与机制规格，量身定制出高度契合《宝可梦》系列生态世界观的巧妙设定，正是我们最为关键的核心职责之一。
-  ja: そこで「スマホロトムが一休みできる止まり木」という考え方で、いわゆる「自撮り棒」の概念を捉えなおしてみました。「浮いた状態で撮影するとブレるから、あえて止まり木に止まって撮る」ということです。こんな風に、タイトル開発側がやりたい仕様に対して『ポケモン』シリーズの世界観に合った設定を考えるのも、私たちの重要な仕事のひとつです。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
-  title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
-  score: 5
-  why: 开发端要加自拍杆玩法，世界观团队把它重新解释成让洛托姆手机停栖的「栖木」，说明设定如何为机制服务。
-  more: 同一段对话里 K.I. 提到洛托姆手机本应自主浮空拍照，可对照第 20 行。
-  people:
-  - K.M.
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦 究极之日·究极之月
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: K.I.
-    slug: k-i
-- id: 2021-12-27-interview-gamefreak-crosstalk-scenario#26
-  post: 2021-12-27-interview-gamefreak-crosstalk-scenario
-  segment: 26
-  speaker: K.I.
-  reported: false
-  kind: quote
-  hook: K.I.：数月雕琢的设定可能瞬间推倒重来
-  zh: 除此之外，某种“果断放手的心态”与“轻盈敏捷的身段”也是必不可少的。花费数月反复雕琢的故事与设定，一旦项目大方向调整，瞬间付诸东流推倒重来的情况屡见不鲜。但是，有时当机立断地舍弃旧案，反倒会成就更加卓越的作品。如果死死固执于自己的点子不能自拔、暗自神伤，是绝对无法走下去的。
-  ja: それに加えて、ある種の「諦めの良さ」や「フットワークの軽さ」も必要です。何か月もかけて考えたストーリーや設定が、プロジェクトの方針が変わった瞬間にボツになることもざらにある。でも、ときには思い切って捨てた方が結果良いものにもなる。自身のアイデアに固執し、心を痛めるようではやっていけませんから。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
-  title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
-  score: 4
-  why: 点出世界观岗位的日常：项目大方向一变，长期积累的设定就要舍弃，需要「果断放手的心态」。
-  more: K.M. 在第 27 行把这种状态概括为「兼具真诚与轻盈之人」。
-  people:
-  - K.M.
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦 究极之日·究极之月
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: K.M.
-    slug: k-m
-- id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#13
-  post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
-  segment: 13
-  speaker: K.M.
-  reported: false
-  kind: quote
-  hook: K.M.：作品3到4年，技术思考5到10年
-  zh: 作品开发需要以3到4年的周期来推进，但我们必须以5年到10年的跨度来思考问题。我们始终意识到“10年后的GAME FREAK应该是什么样子？”“到那时，需要什么样的技术？”，并以此推进作为先行投资的技术开发。
-  ja: タイトル開発は3～4年のスパンで動く必要がありますが、私たちは5年～10年スパンで物事を考えなければなりません。「10年後のゲームフリークはどうあるべきか？」「その時、どんな技術が必要とされるか？」を常に意識しながら、先行投資としての技術開発を進めています。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-  title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
-  score: 5
-  why: 明确区分作品开发周期与技术先行投资的时间尺度，说明系统程序员的规划跨度。
-  more: 同篇H.T.提到打造10年后GAME FREAK的正是今后入职的各位。
-  people:
-  - K.M.
-  - H.T.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links:
-  - type: person
-    name: H.T.
-    slug: h-t
-  - type: term
-    name: GAME FREAK
-- id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#16
-  post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
-  segment: 16
-  speaker: H.T.
-  reported: false
-  kind: quote
-  hook: H.T.：一位工程师的新工具可成全公司标准
-  zh: GAME FREAK的系统开发还处于发展阶段。正因如此，自己的意见和提案才更容易直接得到采纳。完全不会像大企业那样因为分工过于细化，而出现“看不到自己的工作在哪里发挥作用”的情况。仅仅一位工程师引入的新工具成为全公司标准，这种事也屡见不鲜。
-  ja: ゲームフリークのシステム開発は、まだまだ発展途上です。だからこそ、自分の意見や提案がダイレクトに通りやすい。大企業のように分業化が進みすぎて「自分の仕事がどこに役立っているか見えない」ということは一切ありません。たった1人のエンジニアが持ち込んだ新ツールが、全社標準になることだって珍しくないんです。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-  title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
-  score: 4
-  why: 具体说明GAME FREAK系统开发尚处发展阶段，个人提案容易被采纳，与大企业分工细化形成对比。
-  more: 同篇K.M.提到裁量权非常大，只要觉得有必要就可以主动举手发起项目。
-  people:
-  - K.M.
-  - H.T.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links:
-  - type: person
-    name: K.M.
-    slug: k-m
-- id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#18
-  post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
-  segment: 18
-  speaker: H.T.
-  reported: false
-  kind: quote
-  hook: H.T.：数千万粉丝IP与初创般速度并存
-  zh: 近年来，我们正在加速推进云技术、CI/CD流水线的革新、自研引擎的强化等，以增强作为工程组织的根基。用技术支撑起让全世界数千万粉丝为之狂热的IP，这种规模感，与类似初创企业般的机动性和决策速度并存，正是GAME FREAK的有趣之处。
-  ja: 近年はクラウド技術やCI/CDパイプラインの刷新、内製エンジンの強化など、エンジニアリング組織としての足腰を強める取り組みを加速させています。世界中の何千万人ものファンが熱狂するIPを技術で支えるというスケールの大きさと、ベンチャーのような機動力と意思決定の早さが共存しているのが、ゲームフリークの面白さですね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
-  title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
-  score: 4
-  why: 点出GAME FREAK同时具备大规模IP支撑与初创企业式机动性、决策速度的特点。
-  more: 同篇提到正在加速推进云技术、CI/CD流水线革新、自研引擎强化。
-  people:
-  - K.M.
-  - H.T.
-  works:
-  - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱·紫
-  links: []
-- id: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk#9
-  post: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk
-  segment: 9
-  speaker: F.K.
-  reported: false
-  kind: quote
-  hook: F.K.：刚入社就被指派绘制《究极之日／究极之月》概念原画
-  zh: 在游戏研发体系中，有一项核心职责叫做“绘制概念原画（Concept Art）”。这是一份为了向整个庞大开发团队传达并统合作品宏大世界观的极其关键的工作。令人难以置信的是，刚入社不久，我便被指派承担《宝可梦 究极之日／究极之月》部分概念原画的重任。“把这么重大的责任交给我这个初出茅庐的新人真的没问题吗？”——当时连我自己都忍不住心生忐忑，但只要你展现出才能，即便资历尚浅也敢于委以重任，这就是 GAME FREAK 的魄力所在。
-  ja: ゲーム制作の中に、「コンセプトアートをつくる」という仕事があります。タイトルの世界観を開発チーム全体と共有するための重要な仕事なのですが、入社早々、『ポケットモンスター ウルトラサン・ウルトラムーン』のコンセプトアートの一部を担当することになったのです。「こんな若造が担当していいの？」と疑ってしまうほど責任重大な仕事でしたが、若くても任せてくれるのがゲームフリークですね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
-  score: 4
-  why: 新人入社不久即被委以《宝可梦 究极之日／究极之月》概念原画重任，是具体的人事决定，也点出概念原画统合世界观的核心职责。
-  more: 概念原画（Concept Art）在开发团队中承担向全体成员传达并统合作品世界观的作用。
-  people:
-  - F.K.
-  works:
-  - 宝可梦 究极之日·究极之月
-  - 宝可梦 太阳·月亮
-  links: []
-- id: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk#14
-  post: 2021-12-27-interview-gamefreak-recruit-concept-artist-fk
-  segment: 14
-  speaker: F.K.
-  reported: false
-  kind: quote
-  hook: F.K.：入社后每年一次海外采风，已去秘鲁墨西哥埃及南非
-  zh: 灵感的储备抽屉自然是越丰富越好，因此自从加入 GAME FREAK 之后，我每年都会安排一次海外采风旅行。迄今为止，我已经踏足过秘鲁、墨西哥、埃及以及南非。为了在《宝可梦》的作品中刻画出真正具有厚重感的真实世界，我必须亲身站在那片土地上，用双眼去观察那些古遗迹和城镇街区的每一个细微纹理。因为石柱在重力与岁月下的具体挺拔姿态、古建筑带给人类视觉的压迫与尺度感，仅凭二维照片是绝不可能真正理解的。打破职能与世代的隔阂，与团队全体成员共享这一份宏阔的世界观，我希望能将这些化为动力，去打造更加出色的游戏世界。
-  ja: 引き出しは多ければ多いほど良いので、ゲームフリークに入社してからは毎年、海外旅行へ出かけるようになりました。これまで行った国は、ペルー、メキシコ、エジプト、そして南アフリカ。ポケモンの世界観を表現するために、遺跡や街の細部を自分の目で見て学んでいます。具体的な柱の建ち方やスケール感は写真では分かりませんから。職種や世代の垣根を超えて、同じ世界観を共有することで、もっといいゲームづくりにつなげていきたいですね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
-  score: 4
-  why: 给出具体频率与四个国家，说明为刻画《宝可梦》世界的厚重感而实地观察古遗迹与街区纹理的做法。
-  more: F.K. 认为石柱姿态与古建筑的尺度感仅凭二维照片无法真正理解。
-  people:
-  - F.K.
-  works:
-  - 宝可梦 究极之日·究极之月
-  - 宝可梦 太阳·月亮
-  links:
-  - type: person
-    name: F.K.
-    slug: f-k
-- id: 2021-12-27-interview-gamefreak-recruit-designer-ek#12
-  post: 2021-12-27-interview-gamefreak-recruit-designer-ek
-  segment: 12
-  speaker: E.K.
-  reported: false
-  kind: quote
-  hook: E.K.：教育支援制度是我提议后设立的
-  zh: 现在，我利用公司的教育支援制度，每周六去一所可以学习3DCG的学校上课。其实这个制度是我向管理层提议后设立的。这是一家真正想做什么都能让你去做的公司。随着经验年数增加，容易自然而然地重复同样的事情，但自从去学校上课后，我每天都实际感受到自己在成长。每次听课都会被信息风暴席卷，这让我感到新鲜，而且在公司内部也能和不同工种的人交流学到的东西，学习快乐得不得了。GAME FREAK现在整个公司都充满“不断学习、吸收新技术”的气概。公司会如何进化，我自己也非常期待。
-  ja: 現在、会社の教育支援制度を利用して、毎週土曜日に3DCGを学べる学校に通わせてもらっています。実はこれ、私が経営層に提案してつくってもらった制度なんです。やりたいことは本当に何でもやらせてもらえる会社です。経験年数を重ねるにつれて、自ずと同じことの繰り返しになりがちですが、学校に行くようになって自分が成長していることを日々実感しています。講義を受けると毎回、情報の嵐に晒されることが新鮮ですし、社内では別の職種の人と学んだことについて会話もでき、勉強が楽しくて仕方ありません。ゲームフリークは今、会社全体として「どんどん勉強しよう、新しい技術を取り入れよう」という気概にあふれています。会社がどう進化していくのか。私自身も楽しみにしているところです。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验
-  score: 5
-  why: 员工向管理层提议后公司设立了可每周六去外部学校学3DCG的制度，是具体可查的制度性事实。
-  more: E.K.在《宝可梦 太阳／月亮》后曾赴美国阿纳海姆宝可梦世界锦标赛出差研修。
-  people:
-  - E.K.
-  works:
-  - 宝可梦 太阳·月亮
-  - 宝可梦 剑·盾
-  links:
-  - type: person
-    name: E.K.
-    slug: e-k
-- id: 2021-12-27-interview-gamefreak-recruit-designer-ht#8
-  post: 2021-12-27-interview-gamefreak-recruit-designer-ht
-  segment: 8
-  speaker: H.T.
-  reported: false
-  kind: quote
-  hook: H.T.：为与AAA大作并列时留下不同印象
-  zh: 在GEAR PROJECT的新作《小镇英雄》中，我担任了美术总监。总之，凡是能做的事我都想亲自尝试！抱着这样的想法，我不仅负责擅长的背景，还担纲了角色设计、UI以及宣传物料的设计。通过这部作品，我坚持的一点是：与AAA大作并列时，要给人留下不同的印象。几年前在「E3」上看到AAA大作时，我个人感觉虽然画面品质很高，但都颇为相似。因此，为了彰显独特性，我尝试将着色处理得像插画一样，并让角色的色块更大、轮廓更醒目，在有限的预算内下足了创意功夫。
-  ja: ギアプロジェクトの新規タイトル、『リトルタウンヒーロー』でアートディレクターを務めました。とにかく出来る事は全部、自分でやってみたい！と思い、専門である背景だけでなくキャラクターデザイン、UI、広報物のデザインも担当しました。作品を通してこだわったのは、AAAタイトルと並んだ時に異なる印象を与えること。何年か前に「E3」でAAAタイトルを見ていた時に、絵のクオリティは高くても、どれも似ているなと個人的に感じました。そこで、独自性を出すために、シェーディングをイラストっぽくしたり、キャラクターの色面を大きく取ってシルエットが目立つようにしたりと、限られた予算の中で創意工夫をしました。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
-  score: 4
-  why: 美术总监谈《小镇英雄》的差异化策略：着色像插画、色块更大、轮廓更醒目，在有限预算内下创意功夫。
-  more: 《小镇英雄》是GEAR PROJECT的新作，H.T.在其中担任美术总监。
-  people:
-  - H.T.
-  works:
-  - 小镇英雄
-  - 宝可梦 剑·盾
-  links:
-  - type: person
-    name: H.T.
-    slug: h-t
-  - type: term
-    name: 美术总监
-- id: 2021-12-27-interview-gamefreak-recruit-designer-ht#9
-  post: 2021-12-27-interview-gamefreak-recruit-designer-ht
-  segment: 9
-  speaker: H.T.
-  reported: false
-  kind: quote
-  hook: H.T.：GEAR PROJECT少数人制作，决策迅速
-  zh: GEAR PROJECT以少数人制作游戏，因此决策非常迅速。另外，需要特定技能的编程等由各专业职位负责，但游戏的企划和系统层面则由全体成员共同讨论决定。自己设计，并参与到最后。我认为这正是GEAR PROJECT最大的乐趣所在。
-  ja: ギアプロジェクトは少人数でゲームを作り上げるため、とにかく意思決定が早いです。また、特定のスキルが必要なプログラミングなどは各専門職種が担当しますが、ゲームの企画やシステム面についてはメンバー全員で話し合いながら決めて行きます。自分で設計して、最後まで関わることができるのです。これがギアプロジェクトの最大の面白さだと思います。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
-  score: 4
-  why: 说明GEAR PROJECT的运作方式：企划与系统由全体成员共同讨论决定，自己设计并参与到最后。
-  more: GEAR PROJECT是GAME FREAK内部无论什么职位都能从零开始制作游戏的制度。
-  people:
-  - H.T.
-  works:
-  - 小镇英雄
-  - 宝可梦 剑·盾
-  links:
-  - type: term
-    name: GAME FREAK
-- id: 2021-12-27-interview-gamefreak-recruit-designer-kn#8
-  post: 2021-12-27-interview-gamefreak-recruit-designer-kn
-  segment: 8
-  speaker: K.N.
-  reported: false
-  kind: quote
-  hook: K.N.：已配置数千棵树，仍决定全部修正
-  zh: 在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》开发中期，我作为场景组长做出了一个重大决断。在反复摸索整体设计平衡的过程中，我发现只有树木看起来显得突兀。当时已经配置了数千棵树，影响范围广、风险也大，但我仍然判断应当修正。或许有人觉得不过是树而已，但正是这种微差左右着世界观。正因为对细节精益求精，才能诞生出让用户沉浸其中的世界观。
-  ja: 『ポケモン Let’s Go! ピカチュウ・Let’s Go! イーブイ』開発の中盤、フィールドリーダーとして大きな決断をしました。全体のデザインバランスを試行錯誤しているうちに、木だけが浮いているように見えたのです。既に何千本という木が配置されており、影響範囲が広くリスクもありましたが、それでも修正するべきだと判断しました。たかが木だと思われるかもしれませんが、その微差が世界観を左右するんです。細部にまでこだわるからこそ、ユーザーが没入できる世界観が生まれるのだと思います。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界
-  score: 5
-  why: 在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》开发中期，场景组长因树木突兀而做出重大决断，体现对细节的极致追求。
-  more: 同一访谈中，K.N.提到在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》中担任场景组长，负责从城镇森林设计到游戏画面落实。
-  people:
-  - K.N.
-  works:
-  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
-  - 宝可梦 剑·盾
-  links:
-  - type: person
-    name: K.N.
-    slug: k-n
 - id: 2021-12-27-interview-gamefreak-recruit-designer-mi#5
   post: 2021-12-27-interview-gamefreak-recruit-designer-mi
   segment: 5
@@ -23350,162 +23599,6 @@ quotes:
   works:
   - 宝可梦 剑·盾
   links: []
-- id: 2021-12-27-interview-gamefreak-recruit-planner-kf#8
-  post: 2021-12-27-interview-gamefreak-recruit-planner-kf
-  segment: 8
-  speaker: K.F.
-  reported: false
-  kind: quote
-  hook: K.F.：在休息区闲聊中加入企划，后来成了总监
-  zh: 目前，我担任『Pokémon HOME』这一项目的总监。据说这个构想从进公司时就已经存在，当时在公司的休息区，有人站着闲聊说「有这样一个企划哦」，我觉得听起来很有趣，便加入了讨论。在反复提出方案的过程中，当项目正式启动时，我便就任了总监。
-  ja: 現在、『Pokémon HOME』というプロジェクトのディレクターを任されています。入社当時から構想はあったようで、社内の休憩スペースで「こういう企画があるんだよね」と立ち話をしていたので、面白そうだな、と話の輪に入っていきました。そして提案を重ねていくうちに、プロジェクトが正式に立ち上がる際にはディレクターに就任することになりました。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落
-  score: 4
-  why: 交代了『Pokémon HOME』总监职位的由来：构想早于其入职，他因休息区闲聊加入讨论，项目启动时出任总监。
-  more: 『Pokémon HOME』；K.F.在访谈中还谈到宝可梦系列已延续20多年，维持形象与改变它都是工作的一部分。
-  people:
-  - K.F.
-  works:
-  - Pokémon HOME
-  - 宝可梦系列生态架构
-  links:
-  - type: person
-    name: K.F.
-    slug: k-f
-  - type: work
-    name: Pokémon HOME
-  - type: term
-    name: 宝可梦系列
-- id: 2021-12-27-interview-gamefreak-recruit-programmer-ht#12
-  post: 2021-12-27-interview-gamefreak-recruit-programmer-ht
-  segment: 12
-  speaker: H.T.
-  reported: false
-  kind: quote
-  hook: H.T.：我的野心是将GAME FREAK开发环境全面云化
-  zh: 我的野心是“将GAME FREAK的开发环境全面云化”。由于外部因素，开发环境也不得不发生变化，因此需要能够灵活应对的体制。GAME FREAK已经在大量使用云服务，但我们要加速这一举措，实现全面云化，从而提升远程办公的效率，并加强与外部开发伙伴的协作。经营层也秉持“创作者优先”的风气，灵活采纳现场意见。公司具备快速引进新设备和系统的速度感，我相信这一定能够实现。
-  ja: 私の野望は「ゲームフリークの開発環境をフルクラウド化する」ことです。外的要因により開発環境も変化せざるを得ない状況なので、柔軟に対応していく体制が必要です。ゲームフリークはすでにクラウドサービスを多用していますが、その取り組みを加速させてフルクラウド化することで、在宅勤務の効率向上や、社外の開発パートナーとの連携を強化していきたい。経営も「クリエイターファースト」の風土で現場の意見を柔軟に取り入れてくれます。新しい機材やシステムの導入にも迅速に対応できるスピード感があるので、実現可能だと信じています。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进
-  score: 5
-  why: 这是访谈标题的核心主张，明确提出了全面云化的目标，并关联远程办公与外部协作。
-  more: 文中提到GAME FREAK已在大量使用云服务，经营层秉持“创作者优先”的风气。
-  people:
-  - H.T.
-  works:
-  - 宝可梦 剑·盾
-  - 开发环境全云端架构
-  links:
-  - type: term
-    name: GAME FREAK
-- id: 2021-12-27-interview-gamefreak-recruit-programmer-km#8
-  post: 2021-12-27-interview-gamefreak-recruit-programmer-km
-  segment: 8
-  speaker: K.M.
-  reported: false
-  kind: quote
-  hook: K.M.：宝可梦有超1000个模型，没有引擎能处理
-  zh: 研究开发部的使命，是为下一款作品进行画面制作，以及基础库的架构设计与重构。《宝可梦》系列拥有超过1000个模型，且每一个形状都各不相同。世界上没有哪款引擎能处理如此多样形状的模型。所以，我们决定自己来做。当然，在追求效率的同时，我们也希望保留所有角色独有的动作与特性。目前，我们正以5年后为目标进行规划，将动作、形变等角色表现的路线图落实到具体规格中。
-  ja: 研究開発部のミッションは、次のタイトルに向けた絵づくりや、ライブラリの基盤設計と再構築です。『ポケモン』シリーズはモデルが1,000体以上存在し、すべて形状が違います。これだけいろいろな形状のモデルを扱うエンジンは、世の中にありません。だから、自分たちでつくるのです。もちろん効率化をめざしながらも、すべてのキャラクター独自の動きや特性は残していきたい。現在、5年後を見据えた上で考案した、モーションやデフォームなど、キャラクター表現のロードマップを仕様に落とし込んでいるところです。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来
-  score: 5
-  why: 披露宝可梦模型数量超1000且形状各异，解释GAME FREAK为何自研引擎，是研发部使命的具体背景。
-  more: 研究开发部以5年后为目标，将动作、形变等角色表现路线图落实到具体规格。
-  people:
-  - K.M.
-  works:
-  - 宝可梦系列专有引擎研发
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  links: []
-- id: 2021-12-27-interview-gamefreak-recruit-programmer-ko#8
-  post: 2021-12-27-interview-gamefreak-recruit-programmer-ko
-  segment: 8
-  speaker: K.O.
-  reported: false
-  kind: quote
-  hook: K.O.：编辑工具规格与最初完全不同
-  zh: 被分配到开发二部后，我参与了开发环境的改善、CI环境的搭建、通用数据编辑工具的开发、游戏实现等各种项目。尤其是编辑工具的开发，是在详细规格和使用方法都尚未确定的状态下开始的。最辛苦的是，试做了原型，实际让大家使用后，却发现需要的其实是别的东西。最终完成的东西，规格与最初完全不同。但也正因如此，我意识到先做出来、听取意见是非常重要的。为了减少制作方和使用方对成品共同印象的认知差异，需要沟通。事先预测需要什么是很重要的，但另一方面，如果不经历制作、使用、获得反馈的过程，就无法做出真正被需要的东西。
-  ja: 開発二部への配属後は、開発環境の改善、CI環境の整備、汎用データ編集ツールの開発、ゲームの実装など、さまざまな案件に携わりました。特に編集ツールの開発は、詳細な仕様や使い方が定まっていない状態からのスタートでした。苦労したのは、試作を作ってみたけれど、いざ使ってもらったら実は違うものが必要だったと判明した時。最終的に完成したものは、当初とは全然違う仕様になりました。でもおかげで、まずはつくってみて、意見をもらうことが大切だと気づくことができました。作る側と使う側とで、完成品の共通イメージに対する認識の相違を減らすためには、意思疎通をおこなうこと。何が必要なのか最初に予想をすることは重要ですが、一方でつくって、使ってもらって、フィードバックを受けるというプロセスを経ないと、本当に必要とされているものはつくれないんですね。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃
-  score: 4
-  why: 讲通用数据编辑工具从规格未定到推翻重做的过程，得出先做出来、听取意见比事先预测更重要的判断。
-  more: 同一访谈中K.O.还提到开发环境引入云技术、CI环境搭建，可对照看开发二部的工具与流程改善。
-  people:
-  - K.O.
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: K.O.
-    slug: k-o
-- id: 2021-12-27-interview-gamefreak-recruit-programmer-ko#9
-  post: 2021-12-27-interview-gamefreak-recruit-programmer-ko
-  segment: 9
-  speaker: K.O.
-  reported: false
-  kind: quote
-  hook: K.O.：我出错，宝可梦就做不出来
-  zh: 让我感到成就感的，是在开发环境中引入云技术的时候。将分散的数据集中管理，使大家能够在此基础上作业，从而压缩了开发所需的时间和成本。看到效果立竿见影，我很开心。改善开发环境这项工作，会影响到参与《宝可梦》项目的所有程序员。一旦我出错，全体作业就会停滞。也就是说，宝可梦就做不出来了。我正是带着这样的使命感在开展工作。
-  ja: 達成感を覚えたのは、開発環境にクラウドを導入したときのことです。散在していたデータを一括管理し、作業できるようにしたことで、開発にかかる時間もコストも圧縮することができました。目に見えて効果が出たことが嬉しかったです。開発環境の改善という仕事は、『ポケモン』プロジェクトに携わるプログラマ全員に影響を与えます。私がミスをすれば、全体の作業が止まってしまう。つまり、『ポケモン』がつくれなくなってしまう。そのくらいの使命感を持って業務にあたっています。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃
-  score: 4
-  why: 说明开发环境改善影响所有参与《宝可梦》项目的程序员，并给出引入云技术集中管理数据、压缩时间成本的具体成果。
-  more: 可与第8条编辑工具开发对照，看开发二部在环境改善上的两类工作。
-  people:
-  - K.O.
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  links: []
-- id: 2021-12-27-interview-gamefreak-recruit-programmer-tk#9
-  post: 2021-12-27-interview-gamefreak-recruit-programmer-tk
-  segment: 9
-  speaker: T.K.
-  reported: false
-  kind: quote
-  hook: T.K.：最初完全无法控制Havok，角色在斜坡上一直滑出去飞走
-  zh: 为了稳定处理物理行为和AI，我们引入了Havok，但为了熟练掌握它，研究开发部陪同我们一起进行了调查。最初完全无法控制Havok，明明想让角色站在斜坡上，它却一直滑出去飞走了。从那种状态起步来想，真的很感动。不是因为是系统方面的事就交给研究开发部，而是大家一起做到最后，这是令我印象深刻的经历。开发途中也曾因动作卡顿而担心，但最终在抑制处理负荷的同时实现了精美的视觉效果和动作。在能够打磨的期间把能做的都做了！达到了不留遗憾的水平，我认为这部作品能让用户们乐在其中。
-  ja: 物理挙動やAIを安定して処理するためにHavokを導入したのですが、使いこなしていくために研究開発部に伴走してもらって調査していきました。最初期はHavokを全く制御できず、キャラクターを坂に立たせたいのにどこまでも滑って飛んで行ってしまいました。そこから始まったことを考えると、本当に感動しますね。システムのことだからと研究開発部に任せるのではなく、最後まで一緒に作り上げていったのが印象的な経験でした。開発途中ではカクカクした動きに心配になったこともありましたが、最終的には処理負荷を抑えてきれいなビジュアルとアクションになりました。ブラッシュアップできる間にできることは全部やろう！と、後悔がないレベルに到達できて、ユーザーの方々に楽しんでもらえる作品になったと思います。
-  lang: ja
-  year: 2021
-  date: '2021-12-27'
-  publication: Game Freak 採用情報
-  title: GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影
-  score: 4
-  why: 具体描述了引入Havok物理引擎初期的失控状态，以及研究开发部陪同调查的过程，是《宝可梦传说 阿尔宙斯》开发中的技术细节。
-  more: 同篇第8句提到《宝可梦传说 阿尔宙斯》场景规模变大、对象增多，T.K.主要负责玩家行为。
-  people:
-  - T.K.
-  works:
-  - 宝可梦 剑·盾
-  - 宝可梦传说 阿尔宙斯
-  links:
-  - type: person
-    name: T.K.
-    slug: t-k
-  - type: work
-    name: 宝可梦传说 阿尔宙斯
 - id: 2021-12-27-interview-gamefreak-recruit-ta-tk#8
   post: 2021-12-27-interview-gamefreak-recruit-ta-tk
   segment: 8
@@ -23757,6 +23850,92 @@ quotes:
   - 宝可梦 朱·紫
   - 宝可梦 剑·盾
   links: []
+- id: 2021-12-27-interview-gamefreak-crosstalk-designer#20
+  post: 2021-12-27-interview-gamefreak-crosstalk-designer
+  segment: 20
+  speaker: 栃木遥
+  reported: false
+  kind: quote
+  hook: 栃木遥：2022 年新设概念与视觉工作室
+  zh: 进入 2022 年，我们新设立了“概念与视觉工作室（Concept & Visual Studio）”。打个比方，它就相当于设计师专门的技术研发（R&D）尖端实验室，专门攻坚面向次世代硬核研发的美术规范标准构建与前沿颠覆性视觉技术预研的专家们悉数集结于此。有了这个前沿部门在底层保驾护航，各正作项目组的一线设计师便能彻底解放生产力，比以往任何时候都更加纯粹地聚焦于“如何把游戏本身打磨得登峰造极”。
+  ja: 2022年には「コンセプト＆ビジュアルスタジオ」が新設されました。イメージとしてはデザイナー版の研究開発部のような組織で、次世代の開発に向けた仕様設計や新規技術の導入に特化したエキスパートたちがここに集まっています。これにより、各プロジェクトに携わるデザイナーは、これまで以上にゲームそのものを面白くすることに集中できるようになりました。
+  lang: ja
+  year: 2022
+  date: '2022-10-15'
+  publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
+  title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+  score: 5
+  why: 首次披露 GAME FREAK 设立设计师专属 R&D 部门，负责次世代美术规范与视觉技术预研。
+  more: 同篇大森滋谈到该部门成立后，对设计师「想创造什么」的要求比以往更严峻。
+  people:
+  - 栃木遥
+  - 大森滋
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: 大森滋
+    slug: ohmori-shigeru
+- id: 2021-12-27-interview-gamefreak-crosstalk-designer#24
+  post: 2021-12-27-interview-gamefreak-crosstalk-designer
+  segment: 24
+  speaker: 大森滋
+  reported: false
+  kind: quote
+  hook: 大森滋：开发中期的未完成品像「粪作」
+  zh: 要在 GAME FREAK 扎根战斗，归根结底最适合的一定是打心底里骨子里挚爱游戏的人。做游戏绝非永远是鲜花与掌声，开发中期的未完成品在临近发售前常常连正常运行都卡成PPT，数值平衡崩坏到离谱，说得难听点简直就是一坨“粪作（Kusoge，笑）”。面对“搞什么啊！这敌人强得太不讲道理了吧！”这种设定失误或离谱 Bug 时，你能不能在痛苦中依然敏锐捕捉到闪光的趣味性、带着乐在其中的幽默感与狂热去亲手修复打磨它——如果没有这样的大心脏与纯粹热爱，是绝对无法长久走下去的。
+  ja: ゲームフリークで働くならやっぱり、心の底からゲームが好きな人が向いていると思います。ゲームづくりは楽しいことだけではありません。開発中のゲームは、完成間近まで動かないことがあったり、ゲームバランスが悪いことがあったり、いわばクソゲー（笑）。「なんだこりゃ、敵が強すぎる！」とかそういう設定ミスやバグの中にさえも面白みを発見できて、楽しみながら作っていけるくらいのマインドがないと長く続かないと思います。
+  lang: ja
+  year: 2022
+  date: '2022-10-15'
+  publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
+  title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+  score: 4
+  why: 用「卡成PPT」「数值平衡崩坏」描述开发中期常态，说明做游戏并非只有鲜花掌声。
+  more: 同篇大森滋说最适合 GAME FREAK 的是打心底挚爱游戏的人。
+  people:
+  - 栃木遥
+  - 大森滋
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: 大森滋
+    slug: ohmori-shigeru
+  - type: term
+    name: GAME FREAK
+- id: 2021-12-27-interview-gamefreak-crosstalk-designer#26
+  post: 2021-12-27-interview-gamefreak-crosstalk-designer
+  segment: 26
+  speaker: 大森滋
+  reported: false
+  kind: quote
+  hook: 大森滋：能重构宝可梦的只有 GAME FREAK
+  zh: 完全赞同。《宝可梦》系列至今已昂首跨越了 25 个春秋的漫长征程。正因如此，如果身边全都是墨守成规、认为“反正宝可梦自古以来就应该长这样吧”的守旧派，这个宏大超级内容的生命力进化就会彻底停滞死绝。**能够亲手为全人类创造出全新宝可梦、能够彻底打破旧框去重构宝可梦的，在这个世界上唯有我们 GAME FREAK 一家！** 我们必须不断向死而生，向着“与神秘不可思议的生物伙伴共同漫步世界去冒险”这一最本源体验的终极潜能深处无尽探索，全力去构思与锻造下一部划时代巨作！
+  ja: そうですね、『ポケットモンスター』シリーズはもう25年以上続いているコンテンツです。だからこそ、こういうものだよね、という型にはまっている人ばかりではコンテンツの進化は止まってしまいます。『ポケモン』を新しく作っていくことができる、作り変えられるのは、ゲームフリークだけなんです。「モンスターと一緒に旅をする」という体験の本質的な可能性を探って、次の作品を考えていきたいですね。
+  lang: ja
+  year: 2022
+  date: '2022-10-15'
+  publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
+  title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+  score: 4
+  why: 在系列跨越 25 年之际，大森滋把「打破旧框」说成公司存续的前提，反对守旧派。
+  more: 同篇栃木遥称宝可梦在视觉与技术上仍处于「半途之中」。
+  people:
+  - 栃木遥
+  - 大森滋
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: 栃木遥
+    slug: tochigi-haruka
 - id: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka#10
   post: 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka
   segment: 10
@@ -24504,6 +24683,330 @@ quotes:
   people: []
   works: []
   links: []
+- id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#6
+  post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
+  segment: 6
+  speaker: K.I.
+  reported: false
+  kind: quote
+  hook: K.I.：阿尔宙斯从扔球捕捉的试作开始
+  zh: 那是一种抛开以往的开发流程、从零开始做游戏的感觉。在推进项目之前，先从“野生宝可梦在场景中，直接朝它扔球捕捉”这一部分的试作开始。
+  ja: 今までの開発プロセスを取っ払って、一からゲームを作っていくようなものでしたね。プロジェクトを進めていく前に、まず「野生のポケモンがフィールドにいて、そこに直接ボールを投げて捕まえる」という部分の試作から始まりました。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
+  score: 4
+  why: 披露《宝可梦传说 阿尔宙斯》开发起点：抛开以往流程，先做“直接朝野生宝可梦扔球捕捉”的试作。
+  more: M.O. 在第 5 句提到该作从企划书阶段就有“要做新东西”的意志。
+  people:
+  - M.O.
+  - K.I.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+- id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#8
+  post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
+  segment: 8
+  speaker: K.I.
+  reported: false
+  kind: quote
+  hook: K.I.：试作时间变多，才有看着宝可梦也有趣的体验
+  zh: 最近试作阶段花的时间更多了。由此，我们正逐渐实现让宝可梦就像生活在游戏世界里一样、充满真实感的新体验。我觉得正是从这些地方，诞生了《宝可梦》系列中“光是看着宝可梦的动作就很有趣”“光是追着跑也很有趣”的用户体验。
+  ja: 最近は試作フェーズにより時間をかけるようになりましたね。それにより、ゲームの世界にそのままポケモンが生活しているような、リアリティ溢れる新しい体験を実現できるようになりつつあると思っています。こういうところから、『ポケットモンスター』シリーズの中で、「ポケモンの挙動を見ているだけで楽しい」「追いかけてみるだけでも楽しい」というユーザー体験が生まれると思うんです。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
+  score: 4
+  why: 说明试作阶段投入增加，与“光是看着宝可梦的动作就很有趣”的用户体验之间的关联。
+  more: 第 7 句 M.O. 谈到试作阶段就在深究宝可梦的视线与动作如何像生物一样自然。
+  people:
+  - M.O.
+  - K.I.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+- id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#20
+  post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
+  segment: 20
+  speaker: M.O.
+  reported: false
+  kind: quote
+  hook: M.O.：想要能抓住玩法本质的人，比如想透婴儿为何爱躲猫猫
+  zh: 我们想要的人，还是“能抓住玩法本质的人”。比如，“做躲猫猫时，婴儿为什么会高兴？”“积木只是堆起来可能不好玩，但能搭出房子和城市就好玩，所以孩子们才会着迷。”能不能把这类事情想透。我认为新的玩法就是从那里开发出来的。
+  ja: 求める人物像としては、やはり「遊びの本質を捉えている人」です。例えば「いないいないばあをした時に、何で赤ちゃんが喜ぶのか？」「積み木は積むだけでは面白くないかもしれないけれど、家や街を作れるから面白い。だから子どもたちは夢中になるんだ」といったことを考え抜けるかどうか。そこから新しい遊びは開発されると思います。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）
+  score: 4
+  why: 用躲猫猫、积木等具体例子说明“抓住玩法本质”的招聘标准，并称新玩法由此开发。
+  more: 第 22 句 M.O. 补充说喜欢运动、户外等经历也能与玩法本质相连。
+  people:
+  - M.O.
+  - K.I.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+- id: 2021-12-27-interview-gamefreak-crosstalk-programmer#16
+  post: 2021-12-27-interview-gamefreak-crosstalk-programmer
+  segment: 16
+  speaker: M.O.
+  reported: false
+  kind: quote
+  hook: M.O.：底层管线进化催生阿尔宙斯与朱紫
+  zh: 正得益于底层开发管线的飞速进化，游戏程序员才得以比以往任何时候都更加纯粹地聚焦在打磨游戏内容本身。正是这套体系，最终孕育催生出了《宝可梦传说 阿尔宙斯》以及《宝可梦 朱·紫》这样具有划时代颠覆性的宏大开放世界挑战之作！不过，关于新作中究竟应该前瞻性引入哪些颠覆性机制，目前很大程度上依然由研发部在主导牵引；今后我们极度渴望培养出更多能够由游戏程序员亲自从玩法一线主动提出战略研发方向的领军之才。
+  ja: 開発環境の進化もあって、ゲームプログラマはよりコンテンツ作りに集中できるようになってきています。その結果、『Pokémon LEGENDS アルセウス』や『ポケットモンスター スカーレット・バイオレット』のようなチャレンジングなタイトルを生み出すことができました。ただ、新しいゲーム開発に導入するべき要素に関しては、現在は研究開発部が主導している役割が大きいので、今後はゲームプログラマ自身でゲーム作りの方針を発信できる人材を育成していきたいですね。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
+  title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
+  score: 4
+  why: 把《宝可梦传说 阿尔宙斯》《宝可梦 朱·紫》的开放世界挑战与程序员分工体系直接关联。
+  more: M.O.还提到新作颠覆性机制目前多由研发部主导，希望游戏程序员更多从玩法一线提案。
+  people:
+  - M.O.
+  - T.T.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+  - type: term
+    name: 程序员
+- id: 2021-12-27-interview-gamefreak-crosstalk-programmer#19
+  post: 2021-12-27-interview-gamefreak-crosstalk-programmer
+  segment: 19
+  speaker: T.T.
+  reported: false
+  kind: quote
+  hook: T.T.：数千万日元动捕系统瞬间拍板引进
+  zh: 例如此前一线研发刚提出需要构建顶级动画表现，高达数千万日元规模的专业动作捕捉（Motion Capture）系统几乎在一瞬间就完成了拍板引进；而在疫情突发之时，全公司开发环境向云端的全盘迁移更是以不可思议的超高敏捷度闪电完成。
+  ja: 社内から要望があった数千万円規模のモーションキャプチャシステムも、素早く導入されましたし、コロナ禍での社内システムのクラウド化も本当にスピーディでしたよね。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
+  title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
+  score: 5
+  why: 用具体金额和决策速度说明GAME FREAK管理层多为一线创作者，研发决策链路极短。
+  more: 同段还提到疫情时全公司开发环境向云端迁移。
+  people:
+  - M.O.
+  - T.T.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links: []
+- id: 2021-12-27-interview-gamefreak-crosstalk-programmer#22
+  post: 2021-12-27-interview-gamefreak-crosstalk-programmer
+  segment: 22
+  speaker: T.T.
+  reported: false
+  kind: quote
+  hook: T.T.：技术考核连续追问多个为什么
+  zh: 在 GAME FREAK 的技术考核选拔中，最显著的特质莫过于连续多维度的深度“为什么（Why）”层层追问。“你当年为什么选择这所院校？”“为什么在人生关口做出这样的职业抉择？”“为什么在这个架构设计中坚持要这么做？”——我们会从各个维度展开连环考量。因为我们极度渴望彻底看透你底层的思维决策脉络与内在驱动力，真正理解你作为一个独特个体的志向格局。
+  ja: ゲームフリークの選考では、「なぜ？」と質問し、深掘りしていく面接が特徴的かもしれません。「なぜ、この学校を選んだのか？」「なぜこのキャリアを選んだのか？」「なぜ、こうしたいと思ったのか？」と、色々な角度から問いかけていきます。思考の過程や意図を知って、個々の志向や考え方をより深く理解したいからです。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
+  title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
+  score: 4
+  why: 披露GAME FREAK选拔程序员时以连环Why追问考察底层思维与内在驱动力。
+  more: M.O.在下一句补充，逻辑表达与沟通共情能力同样被看重。
+  people:
+  - M.O.
+  - T.T.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: M.O.
+    slug: m-o
+- id: 2021-12-27-interview-gamefreak-crosstalk-scenario#15
+  post: 2021-12-27-interview-gamefreak-crosstalk-scenario
+  segment: 15
+  speaker: K.I.
+  reported: false
+  kind: quote
+  hook: K.I.：世界观设定团队从策划部门独立为专门部门
+  zh: 最早世界观设定团队是隶属于策划部门之下的，但随着团队规模日益壮大，逐渐走向专业化细分，最终独立成为了专职负责世界观与设计的专门部门。今后我们也期望进一步扩大这一团队。
+  ja: 元々はプランナーの中に世界観設定のチームがあったのですが、組織が大きくなっていく中で専業化し、世界観とデザインを担当する専門部署になりました。さらに拡大していきたいと思ってはいます。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+  title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
+  score: 4
+  why: 交代了团队组织沿革：最早隶属策划部门，随规模扩大走向专业化细分，最终独立。
+  more: K.I. 与 K.M. 分别负责宏观世界观与将新概念融入系列设定。
+  people:
+  - K.M.
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: K.M.
+    slug: k-m
+  - type: person
+    name: K.I.
+    slug: k-i
+- id: 2021-12-27-interview-gamefreak-crosstalk-scenario#26
+  post: 2021-12-27-interview-gamefreak-crosstalk-scenario
+  segment: 26
+  speaker: K.I.
+  reported: false
+  kind: quote
+  hook: K.I.：花费数月雕琢的设定，可能因方向调整瞬间推倒重来
+  zh: 除此之外，某种“果断放手的心态”与“轻盈敏捷的身段”也是必不可少的。花费数月反复雕琢的故事与设定，一旦项目大方向调整，瞬间付诸东流推倒重来的情况屡见不鲜。但是，有时当机立断地舍弃旧案，反倒会成就更加卓越的作品。如果死死固执于自己的点子不能自拔、暗自神伤，是绝对无法走下去的。
+  ja: それに加えて、ある種の「諦めの良さ」や「フットワークの軽さ」も必要です。何か月もかけて考えたストーリーや設定が、プロジェクトの方針が変わった瞬間にボツになることもざらにある。でも、ときには思い切って捨てた方が結果良いものにもなる。自身のアイデアに固執し、心を痛めるようではやっていけませんから。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+  title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
+  score: 4
+  why: 点出这份工作对“果断放手”的要求，说明世界观设定在项目变动中常被舍弃，与真诚推敲形成对照。
+  more: K.M. 在下一句总结，契合岗位的是“兼具真诚与轻盈之人”。
+  people:
+  - K.M.
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: K.M.
+    slug: k-m
+- id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#13
+  post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+  segment: 13
+  speaker: K.M.
+  reported: false
+  kind: quote
+  hook: K.M.：作品开发2到3年，研究开发要5到10年
+  zh: “希望有这样的功能”这类需求，会由全公司跨部门与各项目的总监开会，决定优先级后再实现。实际使用功能的是项目，所以应该由当事者之间来协调需求，这是J.I.提议开始的。对于“这样试试看”的想法，如果有人赞同说“不错！”并积极行动，组织就会不断改变。
+  ja: 「こんな機能がほしい」という要望は、全社横断的に各プロジェクトのディレクターと会議をして、優先度を決めて実装しています。実際に機能を使うのはプロジェクトだから当事者同士で要望をすり合わせるべきだ、と、J.I.さんの発案で始めました。「こうしてみたら」というアイデアに対して、「いいね！」と賛同する人が積極的に動けば、組織はどんどん変わっていきます。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
+  score: 4
+  why: 点出研究开发部独立存在的意义：以更长的时间跨度挑战短期无法实现的技术和想法。
+  more: 同篇K.M.提到面向2030年代的挑战，以及为《宝可梦》系列开发优化的独特机制。
+  people:
+  - K.M.
+  - J.I.
+  - H.T.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: K.M.
+    slug: k-m
+- id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#21
+  post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+  segment: 21
+  speaker: K.M.
+  reported: false
+  kind: quote
+  hook: K.M.：为《宝可梦》系列开发优化的独特举措
+  zh: 与研发部诞生时相比，成员增加了，开发环境也完善了。我们专注于为《宝可梦》系列开发优化的独特举措。那些“其他公司不会做，但未来的GAME FREAK和《宝可梦》系列必定需要”的机制和技术。这正是面向2030年代的挑战。
+  ja: 研究開発部が誕生した頃から比べると、メンバーも増え、開発環境も整ってきました。『ポケットモンスター』シリーズの開発に最適化された独自の取り組みに注力しています。「他社はやらないだろうけれど、将来のゲームフリークと『ポケモン』シリーズには必ず必要」という仕組みや技術。まさに2030年代に向けたチャレンジです。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
+  score: 4
+  why: 说明研究开发部专注的是其他公司不会做、但未来GAME FREAK和《宝可梦》系列必定需要的机制与技术。
+  more: 同篇H.T.提到其部门正持续推进云迁移，建立少人数也能高效提供环境的体制。
+  people:
+  - K.M.
+  - J.I.
+  - H.T.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: H.T.
+    slug: h-t
+- id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#26
+  post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+  segment: 26
+  speaker: K.M.
+  reported: false
+  kind: quote
+  hook: K.M.：谁都可以成为变化的当事者
+  zh: 不管是应届还是中途入职，也不管入职年份，只要有说服力的建议就会被立刻采纳。在GAME FREAK，谁都可以成为变化的当事者。希望来的是能享受这种眼花缭乱的变化、并对其可能性感到兴奋的人。期待能和我们一起打造10年后GAME FREAK的伙伴。
+  ja: 新卒とか中途とか入社年次に関係なく、説得力のある提案は即採用される。ゲームフリークなら、誰もが変化の当事者になれるんです。目まぐるしいほどの変化を楽しみ、その可能性にワクワクできる人に来てほしい。10年後のゲームフリークを共に作ってくれる仲間をお待ちしています。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
+  score: 4
+  why: 强调在GAME FREAK不论应届或中途、入职年份，只要有说服力的建议就会被立刻采纳。
+  more: 同篇K.M.提到有领导素质的人可以当领导组建新团队，职位可以无限增加。
+  people:
+  - K.M.
+  - J.I.
+  - H.T.
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: K.M.
+    slug: k-m
+- id: 2024-02-13-interview-gamefreak-message-ohmori#4
+  post: 2024-02-13-interview-gamefreak-message-ohmori
+  segment: 4
+  speaker: 大森滋
+  reported: false
+  kind: quote
+  hook: 大森滋：Switch 后加速探索新游玩体验
+  zh: GAME FREAK最看重的事情，是做出“新的玩法”。正因如此，我们必须不断挑战。平台换成Nintendo Switch之后，我们对新游玩体验的探索比以前更加加速。在《宝可梦传说 阿尔宙斯》中挑战了动作与RPG的融合，在《宝可梦 朱·紫》中则挑战了开放世界这一《宝可梦》系列此前没有过的游戏性。
+  ja: ゲームフリークが一番大切にしていることは、「新しい遊び」を作ることです。だからこそ、常にチャレンジし続けなければいけません。プラットフォームがNintendo Switchに変わって以降、これまで以上に新しい遊び体験への探究を加速させています。『Pokémon LEGENDS アルセウス』ではアクションとRPGの融合を、そして、『ポケットモンスター スカーレット・バイオレット』ではオープンワールドというこれまでの『ポケモン』シリーズにはなかったゲーム性の創出にチャレンジしました。
+  lang: ja
+  year: 2024
+  date: '2024-02-13'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 开发负责人寄语（2024，大森滋）：持续创造超越以往系列作品的新玩法
+  score: 4
+  why: 点出 GAME FREAK 最看重“新的玩法”，并具体列出《宝可梦传说 阿尔宙斯》的动作与 RPG 融合、《宝可梦 朱·紫》的开放世界两项挑战。
+  more: 《宝可梦 红宝石·蓝宝石》起参与系列开发，此后在多部作品担任总监。
+  people:
+  - 大森滋
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱／紫
+  links:
+  - type: work
+    name: 宝可梦 红宝石·蓝宝石
 - id: 2024-02-15-interview-pokemon-recruit-designer#14
   post: 2024-02-15-interview-pokemon-recruit-designer
   segment: 14
@@ -25797,6 +26300,34 @@ quotes:
   people: []
   works: []
   links: []
+- id: 2021-12-27-interview-gamefreak-recruit-programmer-tk#9
+  post: 2021-12-27-interview-gamefreak-recruit-programmer-tk
+  segment: 9
+  speaker: T.K.
+  reported: false
+  kind: quote
+  hook: T.K.：最初完全无法控制Havok，角色在斜坡上一直滑出去飞走
+  zh: 为了稳定处理物理行为和AI，我们引入了Havok，但为了熟练掌握它，研究开发部陪同我们一起进行了调查。最初完全无法控制Havok，明明想让角色站在斜坡上，它却一直滑出去飞走了。从那种状态起步来想，真的很感动。不是因为是系统方面的事就交给研究开发部，而是大家一起做到最后，这是令我印象深刻的经历。开发途中也曾因动作卡顿而担心，但最终在抑制处理负荷的同时实现了精美的视觉效果和动作。在能够打磨的期间把能做的都做了！达到了不留遗憾的水平，我认为这部作品能让用户们乐在其中。
+  ja: 物理挙動やAIを安定して処理するためにHavokを導入したのですが、使いこなしていくために研究開発部に伴走してもらって調査していきました。最初期はHavokを全く制御できず、キャラクターを坂に立たせたいのにどこまでも滑って飛んで行ってしまいました。そこから始まったことを考えると、本当に感動しますね。システムのことだからと研究開発部に任せるのではなく、最後まで一緒に作り上げていったのが印象的な経験でした。開発途中ではカクカクした動きに心配になったこともありましたが、最終的には処理負荷を抑えてきれいなビジュアルとアクションになりました。ブラッシュアップできる間にできることは全部やろう！と、後悔がないレベルに到達できて、ユーザーの方々に楽しんでもらえる作品になったと思います。
+  lang: ja
+  year: 2025
+  date: '2025-03-28'
+  publication: Game Freak 採用情報
+  title: GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影
+  score: 4
+  why: 具体描述了引入Havok物理引擎初期的失控状态，以及研究开发部陪同调查的过程，是《宝可梦传说 阿尔宙斯》开发中的技术细节。
+  more: 同篇第8句提到《宝可梦传说 阿尔宙斯》场景规模变大、对象增多，T.K.主要负责玩家行为。
+  people:
+  - T.K.
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  links:
+  - type: person
+    name: T.K.
+    slug: t-k
+  - type: work
+    name: 宝可梦传说 阿尔宙斯
 - id: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience#4
   post: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience
   segment: 4

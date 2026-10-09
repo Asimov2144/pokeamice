@@ -3,7 +3,12 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）
 title_ja: 新作タイトルを開発。R&Dで最新技術を追求。両方できる。（プログラマ Y.I.）
-date: 2019-04-01 10:00:00 +0900
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-pg-yi
+  version: '2019-12-11'
+  capture: '20191211222205'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）；2020-10-24 至 12-16 之间，招聘首页上换成了程序员 H.T. 的页面
 era: '2019'
 categories:
 - developer-interviews

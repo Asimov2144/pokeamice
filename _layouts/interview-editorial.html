@@ -253,7 +253,7 @@ kept on the turns even though the presentation around them is new.
       {% endif %}
       <p class="ed-meta">
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
-        <span>{{ page.date | date: "%Y.%m.%d" }}</span>
+        <span>{% if page.recruit.date_basis %}<a href="#recruit-version" data-tip="{{ page.recruit.date_basis | escape }}">约 {{ page.date | date: "%Y.%m" }}</a>{% else %}{{ page.date | date: "%Y.%m.%d" }}{% endif %}</span>
         <span data-tip="{{ ui.read_tip }}">{{ ui.read_a }}{{ reading_minutes }}{{ ui.read_b }}</span>
         {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener" data-tip="{{ ui.src_tip }}{% if record_language != "" %}（{{ record_language | upcase }}）{% endif %}">{{ ui.src_link }}</a>{% endif %}
         {% if ja %}<a class="ed-lang" href="{{ page.zh_url | relative_url }}" hreflang="zh-CN" lang="zh-CN" data-tip="同一篇的中文版">中文</a>{% elsif ja_url %}<a class="ed-lang" href="{{ ja_url | relative_url }}" hreflang="ja" lang="ja" data-tip="同一篇的日文版（AI 翻译）">日本語</a>{% endif %}
@@ -262,6 +262,8 @@ kept on the turns even though the presentation around them is new.
       {% if digest %}<aside class="ed-digest-note" role="note"><b>要点整理</b>本篇是玩家 wiki 对这篇杂志访谈的笔记式整理，条目和小标题沿用了 wiki 的写法，不是杂志原文的全文。要读原话，请以杂志为准。</aside>{% endif %}
       {%- comment -%} a magazine interview the archive only has from a transcript: ask for the page itself (_data/wanted.yml, /wanted/) {%- endcomment -%}
       {% unless ja %}{% assign wanted_hit = site.data.wanted.items | where: "post", post_stem | first %}{% if wanted_hit and wanted_hit.status == "text" %}<aside class="ed-digest-note ed-wanted-note" role="note"><b>原刊征集</b>本篇来自网上的转录或摘录，还缺《{{ wanted_hit.pub }}》{{ wanted_hit.issue }}的原刊页来核对。手上有这一期的话，<a href="{{ '/wanted/' | relative_url }}#{{ wanted_hit.id }}">看看缺哪几页 →</a></aside>{% endif %}{% endunless %}
+      {%- comment -%} a GAME FREAK recruit page: which version of that address this is (_data/recruit_archive.yml) {%- endcomment -%}
+      {% if page.recruit and ja == false %}{% include recruit-version.html %}{% endif %}
     </header>
 
     {%- comment -%} The photograph is the cover, not an attachment. {%- endcomment -%}

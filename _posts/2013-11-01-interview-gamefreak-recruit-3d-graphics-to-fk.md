@@ -3,7 +3,12 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
 title_ja: 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ
-date: 2013-11-01 10:00:00 +0900
+date: 2013-10-20 10:00:00 +0900
+recruit:
+  page: interview_1
+  version: '2013-10-22'
+  capture: '20131022004448'
+  date_basis: 招聘首页 2013-04-03 的快照还没有、2013-10-20 的已有；2016-11 至 2017-01 之间撤下
 era: '2013'
 categories:
 - developer-interviews

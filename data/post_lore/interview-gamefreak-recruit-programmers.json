@@ -2,11 +2,11 @@
  "id": "interview-gamefreak-recruit-programmers",
  "stem": "2015-10-01-interview-gamefreak-recruit-programmers",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-09",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 32
+  "n": 33
  },
  "facets": {
   "pokemon": [],
@@ -26,24 +26,28 @@
    {
     "name": "风之克罗诺亚",
     "slug": null,
-    "seg": [
-     12
-    ],
+    "seg": [],
     "via": "entities"
    },
    {
     "name": "女神异闻录3",
     "slug": null,
-    "seg": [
-     13
-    ],
+    "seg": [],
     "via": "entities"
    },
    {
-    "name": "真·女神转生",
+    "name": "圣剑传说",
     "slug": null,
     "seg": [
-     13
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "星之卡比",
+    "slug": null,
+    "seg": [
+     14
     ],
     "via": "llm"
    },
@@ -51,7 +55,7 @@
     "name": "宝可梦",
     "slug": null,
     "seg": [
-     16
+     18
     ],
     "via": "llm"
    }
@@ -62,12 +66,12 @@
     "slug": "y-i",
     "role": "speaker",
     "seg": [
-     2,
-     6,
-     12,
-     16,
-     23,
-     27
+     3,
+     7,
+     11,
+     13,
+     18,
+     24
     ]
    },
    {
@@ -75,12 +79,12 @@
     "slug": "m-k",
     "role": "speaker",
     "seg": [
-     3,
-     7,
-     13,
-     17,
-     20,
-     24
+     4,
+     8,
+     14,
+     19,
+     21,
+     25
     ]
    }
   ],
@@ -93,9 +97,9 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     6
+     7
     ],
-    "what": "Y.I.首家公司所在地",
+    "what": "Y.I.前公司所在地",
     "via": "llm"
    },
    {
@@ -106,206 +110,23 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     6
+     7
     ],
-    "what": "Y.I.转战的大厂所在地",
+    "what": "Y.I.跳槽后去的地方",
     "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     2,
-     3,
-     6,
-     15,
-     16
-    ],
-    "as": [
-     "入社",
-     "职业生涯",
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     2,
-     12,
-     23
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     3
-    ],
-    "as": [
-     "开发工具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     3
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     6,
-     11,
-     16,
-     20,
-     23,
-     24
-    ],
-    "as": [
-     "编程",
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     19
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     20,
-     27
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "联机对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "孵蛋"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     24
-    ],
-    "as": [
-     "工期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
    }
   ]
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "Y.I. 2014年入社，统领玩家角色操作手感与移动控制程序架构。",
-   "anchor": 3
+   "seg": 7,
+   "text": "Y.I.在名古屋一家游戏公司做了约两年PS3和Xbox 360开发",
+   "anchor": 8
   },
   {
-   "seg": 3,
-   "text": "M.K. 2014年入社，负责全公司资产管线与美术开发工具链。",
-   "anchor": 4
+   "seg": 8,
+   "text": "M.K.在大型社交游戏公司做浏览器游戏的服务器端编程",
+   "anchor": 9
   }
  ],
  "relations": [
@@ -337,9 +158,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

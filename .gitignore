@@ -117,3 +117,6 @@ data/cache_web/images/
 
 # the linked worktree that keeps main checked out beside the working tree
 routeA-worktree/
+
+# Wayback captures of the GAME FREAK recruit site (design/recruit-archive/scripts, reproducible)
+data/cache_web/recruit-wayback/

@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界
 title_ja: みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-gr-kn
+  version: '2019-12-11'
+  capture: '20191211233647'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）
+era: '2019'
 era_skin: '2019'
 categories:
 - developer-interviews

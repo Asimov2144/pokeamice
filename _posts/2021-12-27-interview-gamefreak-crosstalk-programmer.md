@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
 title_ja: プログラマ対談 「『新しい遊び』創りに、終わりはない。プログラマが、その原動力に。」 ｜ GAME FREAK 採用情報
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2024-02-13 10:00:00 +0900
+recruit:
+  page: crosstalk-programmer
+  version: '2024-02-29'
+  capture: '20240229104525'
+  date_basis: 页面素材批次 ?20240213；2022-10-15 的快照仍是旧版（T.T. × K.I.），2024-02-29 已是这一版
+era: '2024'
 categories:
 - developer-interviews
 - gamefreak-recruit
@@ -20,7 +25,7 @@ tags:
 - '技术选型'
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-programmer/
 outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
-interviewee: M.O., T.T., 档案
+interviewee: T.T.、M.O.
 interviewer: Game Freak 官方招聘团队
 parallel_items:
 - type: image
@@ -37,7 +42,7 @@ parallel_items:
   caption: T.T.——研究开发部部长 兼 研发二部程序主管
 - type: text
   speaker_orig: プロフィール
-  original: T.T.：『ポケットモンスター ダイヤモンド・パール』から開発に参画。様々なプロジェクトでプログラマの組織全体をマネジメントし、現在は研究開発部長と開発二部プログラマのセクションディレクターを務める。
+  original: 『ポケットモンスター ダイヤモンド・パール』から開発に参画。様々なプロジェクトでプログラマの組織全体をマネジメントし、現在は研究開発部長と開発二部プログラマのセクションディレクターを務める。
   translation: T.T.：自《宝可梦 钻石·珍珠》起深入参与核心开发。在众多正作项目中统筹管理全体程序员的技术组织，目前出任研究开发部（R&D）部长，并兼任开发二部程序员板块总监（Section Director）。
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-programmer/member-mo.jpg
@@ -45,7 +50,7 @@ parallel_items:
   caption: M.O.——开发一部程序主管 兼 程序员技术招聘负责人
 - type: text
   speaker_orig: プロフィール
-  original: M.O.：『ポケットモンスターブラック・ホワイト』からシリーズタイトルの開発に携わる。現在は開発一部プログラマのセクションディレクターと、プログラマ職種の採用責任者を務める。
+  original: 『ポケットモンスターブラック・ホワイト』からシリーズタイトルの開発に携わる。現在は開発一部プログラマのセクションディレクターと、プログラマ職種の採用責任者を務める。
   translation: M.O.：自《宝可梦 黑·白》起参与系列正作一线研发。目前担任开发一部程序员板块总监，并兼任公司全体程序员职能的技术招聘把关总负责人。
 - type: heading
   level: 2
@@ -162,7 +167,7 @@ entities:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
 original_lang: ja
-summary: "2021年GAME FREAK程序员对谈，T.T.（自《宝可梦 钻石·珍珠》起参与核心开发，现任研究开发部部长）与M.O.（自《宝可梦 黑·白》起参与正作研发，现任开发一部程序员板块总监）介绍程序员组织改革：将程序员分为系统程序员与游戏程序员两类，分别负责底层技术与玩法内容。T.T.称R&D在渲染管线与骨骼动画等图形学领域数年内大幅提升；M.O.提到该体系支撑了《宝可梦传说 阿尔宙斯》与《宝可梦 朱·紫》的开放世界挑战。文中还提及数千万日元动作捕捉系统引进、疫情期间开发环境云端迁移，以及招聘中连续追问“为什么”的考核方式。"
+summary: "2024年GAME FREAK程序员对谈，T.T.（自《宝可梦 钻石·珍珠》起参与核心开发，现任研究开发部部长）与M.O.（自《宝可梦 黑·白》起参与正作研发，现任开发一部程序员板块总监）介绍程序员组织改革：将程序员分为系统程序员与游戏程序员两类，分别负责底层技术与玩法内容。T.T.称R&D在渲染管线与骨骼动画等图形学领域数年内大幅提升；M.O.提到该体系支撑了《宝可梦传说 阿尔宙斯》与《宝可梦 朱·紫》的开放世界挑战。文中还提及数千万日元动作捕捉系统引进、疫情期间开发环境云端迁移，以及招聘中连续追问“为什么”的考核方式。"
 dek: "GAME FREAK 程序员分两类，双轮驱动玩法进化。"
 topics:
 - "开发流程"

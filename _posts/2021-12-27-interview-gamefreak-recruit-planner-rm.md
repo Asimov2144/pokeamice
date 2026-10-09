@@ -4,6 +4,11 @@ layout: interview-editorial
 title: GAME FREAK 官方策划特写 R.M.：哪怕是普通的文科生，也能向着顶级游戏策划发起冲击
 title_ja: 普通の文系学生でも、めざせ！ ゲームプランナー。｜プランナー社員紹介 R.M.
 date: 2021-12-27 10:00:00 +0900
+recruit:
+  page: interview-pl-rm
+  version: '2022-04-25'
+  capture: '20240229104432'
+  date_basis: 招聘首页 2021-12-13 的快照还没有、2022-03-11 的已有，与策划对谈（Wayback 首见 2022-01-25）同批；本篇依据 2024-02-29 的快照，与首版只差个别字句
 era: '2021'
 era_skin: '2019'
 categories:

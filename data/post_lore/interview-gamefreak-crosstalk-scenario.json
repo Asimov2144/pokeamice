@@ -2,11 +2,11 @@
  "id": "interview-gamefreak-crosstalk-scenario",
  "stem": "2021-12-27-interview-gamefreak-crosstalk-scenario",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-09",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 21
+  "n": 27
  },
  "facets": {
   "pokemon": [
@@ -16,7 +16,8 @@
     "seg": [
      12,
      13,
-     14
+     14,
+     25
     ],
     "as": [
      "洛托姆",
@@ -41,7 +42,8 @@
     "name": "宝可梦 剑·盾",
     "slug": "sword-shield",
     "seg": [
-     6
+     6,
+     23
     ],
     "via": "entities"
    },
@@ -88,220 +90,27 @@
     ]
    },
    {
-    "name": "岩尾和昌",
-    "slug": "iwao-kazumasa",
-    "role": "mentioned",
+    "name": "S.N.",
+    "slug": null,
+    "role": "speaker",
     "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "松岛贤二",
-    "slug": "matsushima-kenji",
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
+     22,
+     23,
+     26
+    ]
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     1
-    ],
-    "as": [
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     2
-    ],
-    "as": [
-     "角色设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     2
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "media-mix",
-    "name": "媒体展开",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "跨媒体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     2,
-     3,
-     4,
-     5,
-     6,
-     9
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     4,
-     5,
-     6,
-     15,
-     17,
-     19
-    ],
-    "as": [
-     "舞台设定",
-     "为蓝本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     5
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "团队规模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     10,
-     15,
-     20
-    ],
-    "as": [
-     "编剧",
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "企划案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     14
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
    "seg": 1,
-   "text": "K.I.现任开发二部副部长，兼世界概念团队成员",
+   "text": "K.I.现任开发二部副部长，兼任世界概念团队成员",
    "anchor": 4
   },
   {
    "seg": 2,
-   "text": "K.M.1993年入职，负责跨媒体衍生作品设定监修",
+   "text": "K.M.1993年入职，负责系列跨媒体衍生作品设定监修",
    "anchor": 6
   }
  ],
@@ -334,9 +143,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

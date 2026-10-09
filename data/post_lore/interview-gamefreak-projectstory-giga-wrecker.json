@@ -1,0 +1,84 @@
+{
+ "id": "interview-gamefreak-projectstory-giga-wrecker",
+ "stem": "2019-12-11-interview-gamefreak-projectstory-giga-wrecker",
+ "rev": 1,
+ "built": "2026-10-09",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 29
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "GIGA WRECKER",
+    "slug": null,
+    "seg": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "MAGNETIC GIRL",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "尾上将之",
+    "slug": "wei-shang-jiang-zhi",
+    "role": "speaker",
+    "seg": [
+     3
+    ]
+   },
+   {
+    "name": "伊藤博人",
+    "slug": "ito-hiroto",
+    "role": "speaker",
+    "seg": [
+     4
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "小川一美",
+    "slug": "ogawa-kazumi",
+    "role": "speaker",
+    "seg": [
+     5
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "2016年8月起在Steam开启抢先体验，2017年2月正式发行",
+   "anchor": 3
+  },
+  {
+   "seg": 7,
+   "text": "企划暂定名为《MAGNETIC GIRL》，主角能操纵磁力",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

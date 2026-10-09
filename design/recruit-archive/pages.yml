@@ -1,0 +1,87 @@
+# The GAME FREAK recruit pages tools/recruit-archive.py follows (hand-kept).
+#   id       cache / data key; for the 2019+ site the path segment under /recruit/
+#   path     on www.gamefreak.co.jp (host: to override)
+#   family   cms (the 2019 site) | gen1 (interview_0x.html, 2015-2017) | gen0 (interview_1/2.html, 2013) | career2009
+#   group    crosstalk | story | message | people | gen1 | gen0 | career2009 - how the archive page groups it
+#   label    Chinese label on the archive page; label_ja the page's own name
+#   status   live | removed | moved (checked 2026-10-09)
+#   members  only when the page names no initials the tool can read (named staff)
+#   version_notes  {version id: one line shown with that version}
+
+pages:
+  # ---------------------------------------------------------------- 2019 site: cross talks
+  - {id: crosstalk-programmer, path: /recruit/crosstalk-programmer/, family: cms, group: crosstalk, label: 程序员对谈, label_ja: プログラマ対談, status: live}
+  - {id: crosstalk-designer, path: /recruit/crosstalk-designer/, family: cms, group: crosstalk, label: 设计师对谈, label_ja: デザイナー対談, status: live}
+  - {id: crosstalk-planner, path: /recruit/crosstalk-planner/, family: cms, group: crosstalk, label: 策划对谈, label_ja: プランナー対談, status: live}
+  - {id: crosstalk-new-programmer, path: /recruit/crosstalk-new-programmer/, family: cms, group: crosstalk, label: 新人程序员对谈, label_ja: 新卒プログラマ対談, status: removed}
+  - {id: crosstalk-game-programmer, path: /recruit/crosstalk-game-programmer/, family: cms, group: crosstalk, label: 游戏程序员对谈, label_ja: ゲームプログラマ対談, status: live}
+  - id: crosstalk-system-programmer
+    path: /recruit/crosstalk-system-programmer/
+    family: cms
+    group: crosstalk
+    label: 系统程序员对谈
+    label_ja: システムプログラマ対談
+    status: live
+    version_posts: {"2025-06-15": 2021-12-27-interview-gamefreak-crosstalk-system-programmer}
+    version_notes: {"2025-06-15": 删去了 J.I.；本站译文按首版，现行版删改的段落在文中标出。}
+  - id: crosstalk-scenario
+    path: /recruit/crosstalk-scenario/
+    family: cms
+    group: crosstalk
+    label: 剧本与世界观设定对谈
+    label_ja: シナリオ・世界観設定対談
+    status: live
+    version_posts: {"2024-02-29": 2021-12-27-interview-gamefreak-crosstalk-scenario}
+    version_notes: {"2024-02-29": 首版还有 S.N.；本站译文按现行版，首版独有的段落附在文末。}
+  - {id: crosstalk-new-graduate, path: /recruit/crosstalk-new-graduate/, family: cms, group: crosstalk, label: 应届新人对谈, label_ja: 新卒若手対談, status: live}
+  # ---------------------------------------------------------------- 2019 site: project stories, message
+  - {id: projectstory-pokemon, path: /recruit/projectstory-pokemon/, family: cms, group: story, label: Project Story 宝可梦 剑／盾, label_ja: Project Story ポケットモンスター ソード・シールド, status: live}
+  - id: projectstory-gw
+    path: /recruit/projectstory-gw/
+    family: cms
+    group: story
+    label: Project Story GIGA WRECKER
+    label_ja: Project Story GIGA WRECKER
+    status: live
+    version_posts: {"2022-05-29": 2019-12-11-interview-gamefreak-projectstory-giga-wrecker}
+    version_notes: {"2022-05-29": 删去了小川一美；本站译文按首版，现行版删改的段落在文中标出。}
+  - {id: message, path: /recruit/message/, family: cms, group: message, label: 开发负责人寄语（招聘站）, label_ja: 開発責任者メッセージ, status: moved, note: 2019 年招聘站改版时的开发负责人寄语；2022 年移到 /message/。}
+  - id: message-site
+    path: /message/
+    family: cms
+    group: message
+    label: 开发负责人寄语（现址）
+    label_ja: 開発責任者メッセージ
+    status: live
+    note: 2022 年起寄语移到官网 /message/，先照搬渡边哲也的原文，2024 年 2 月换成大森滋。
+    version_posts: {"2022-04-25": 2019-12-11-interview-gamefreak-recruit-message-watanabe}
+    version_notes: {"2022-04-25": 与 /recruit/message/ 的渡边哲也寄语是同一篇，只改了个别字句。}
+  # ---------------------------------------------------------------- 2019 site: people cards
+  - {id: interview-gr-fk, path: /recruit/interview-gr-fk/, family: cms, group: people, label: 设计师 F.K., status: live}
+  - {id: interview-gr-kn, path: /recruit/interview-gr-kn/, family: cms, group: people, label: 设计师 K.N., status: live}
+  - {id: interview-pg-dn, path: /recruit/interview-pg-dn/, family: cms, group: people, label: 程序员 D.N., status: removed}
+  - {id: interview-pg-ko, path: /recruit/interview-pg-ko/, family: cms, group: people, label: 程序员 K.O., status: live}
+  - {id: interview-pl-my, path: /recruit/interview-pl-my/, family: cms, group: people, label: 策划 M.Y., status: removed}
+  - {id: interview-gr-ek, path: /recruit/interview-gr-ek/, family: cms, group: people, label: 设计师 E.K., status: live}
+  - {id: interview-gr-ht, path: /recruit/interview-gr-ht/, family: cms, group: people, label: 设计师 H.T., status: live}
+  - {id: interview-pg-km, path: /recruit/interview-pg-km/, family: cms, group: people, label: 程序员 K.M., status: live}
+  - {id: interview-pg-yi, path: /recruit/interview-pg-yi/, family: cms, group: people, label: 程序员 Y.I., status: removed}
+  - {id: interview-pl-kf, path: /recruit/interview-pl-kf/, family: cms, group: people, label: 策划 K.F., status: live}
+  - {id: interview-pg-ht, path: /recruit/interview-pg-ht/, family: cms, group: people, label: 程序员 H.T., status: live}
+  - {id: interview-gr-mi, path: /recruit/interview-gr-mi/, family: cms, group: people, label: 设计师 M.I., status: live}
+  - {id: interview-pl-rm, path: /recruit/interview-pl-rm/, family: cms, group: people, label: 策划 R.M., status: live}
+  - {id: interview-ta-tk, path: /recruit/interview-ta-tk/, family: cms, group: people, label: 技术美术 T.K., status: live}
+  - {id: interview-pg-tk, path: /recruit/interview-pg-tk/, family: cms, group: people, label: 程序员 T.K., status: live}
+  # ---------------------------------------------------------------- 2015-2017: numbered interviews (the same file reused)
+  - {id: interview_01, path: /recruit/interview_01.html, family: gen1, group: gen1, label: 员工访谈 01, status: removed}
+  - {id: interview_02, path: /recruit/interview_02.html, family: gen1, group: gen1, label: 员工访谈 02, status: removed}
+  - {id: interview_03, path: /recruit/interview_03.html, family: gen1, group: gen1, label: 员工访谈 03, status: removed}
+  - {id: interview_04, path: /recruit/interview_04.html, family: gen1, group: gen1, label: 员工访谈 04, status: removed}
+  - {id: interview_05, path: /recruit/interview_05.html, family: gen1, group: gen1, label: 员工访谈 05, status: removed}
+  - {id: interview_06, path: /recruit/interview_06.html, family: gen1, group: gen1, label: 员工访谈 06, status: removed}
+  # ---------------------------------------------------------------- 2013: 「最近、どう？」「どっち？」
+  - {id: interview_1, path: /recruit/interview_1.html, family: gen0, group: gen0, label: 员工访谈 vol.1（3D 图形）, status: removed, members: [T.O., F.K.]}
+  - {id: interview_2, path: /recruit/interview_2.html, family: gen0, group: gen0, label: 员工访谈 vol.1（程序员）, status: removed, members: [T.T., M.I.]}
+  # ---------------------------------------------------------------- 2009: mid-career hiring, messages to applicants
+  - {id: career-message_pr, path: /recruit/career/message_pr.html, family: career2009, group: career2009, label: 2009 中途招聘寄语：程序员, status: removed, members: [渡边哲也]}
+  - {id: career-message_sd, path: /recruit/career/message_sd.html, family: career2009, group: career2009, label: 2009 中途招聘寄语：声音, status: removed, members: [增田顺一]}

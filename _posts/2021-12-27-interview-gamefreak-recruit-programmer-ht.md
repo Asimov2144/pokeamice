@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进
 title_ja: 「組織の効率」強化へ。開発環境をフルクラウド化したい。｜プログラマ社員紹介 H.T.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2020-11-13 10:00:00 +0900
+recruit:
+  page: interview-pg-ht
+  version: '2020-11-13'
+  capture: '20201113062528'
+  date_basis: 2020-10-24 的招聘首页还是 Y.I.，2020-12-16 已换成这一页（Wayback 首见 2020-11-13）
+era: '2020'
 era_skin: '2019'
 categories:
 - developer-interviews

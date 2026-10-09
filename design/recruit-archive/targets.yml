@@ -1,0 +1,218 @@
+# What tools/import-gf-recruit.py imports. One entry = one post.
+#   stem      the post's file stem (an existing stem is a re-import: the items are replaced)
+#   page      id in pages.yml; capture = the Wayback capture read
+#   version   the version id in _data/recruit_archive.yml the post translates
+#   date      front matter date; date_basis says what it rests on (shown in the version note)
+#   later     a capture of a later version: items it no longer has are marked `removed_on`
+#   earlier   a capture of an earlier version: its paragraphs this one lacks are appended (editor's heading)
+# The body is the page as first published unless said otherwise.
+
+targets:
+  # ---------------------------------------------------------------- re-imports: the invented "originals"
+  - stem: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
+    page: crosstalk-game-programmer
+    capture: 20240229104448
+    version: "2024-02-29"
+    date: "2024-02-13"
+    date_basis: 页面素材批次 ?20240213；Wayback 首见 2024-02-29，2022-10-15 的招聘首页还没有这一篇
+    label_ja: ゲームプログラマ対談
+    works: [宝可梦传说 阿尔宙斯, 宝可梦 朱／紫]
+  - stem: 2021-12-27-interview-gamefreak-crosstalk-new-graduate
+    page: crosstalk-new-graduate
+    capture: 20240229104209
+    version: "2024-02-29"
+    date: "2024-02-13"
+    date_basis: 页面素材批次 ?20240213；Wayback 首见 2024-02-29，2022-10-15 的招聘首页还没有这一篇
+    label_ja: 新卒若手対談
+  - stem: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+    page: crosstalk-system-programmer
+    capture: 20240229104144
+    version: "2024-02-29"
+    later: 20250615091204
+    date: "2024-02-13"
+    date_basis: 页面素材批次 ?20240213；Wayback 首见 2024-02-29，2022-10-15 的招聘首页还没有这一篇
+    label_ja: システムプログラマ対談
+
+  # ---------------------------------------------------------------- new: versions the site never had
+  - stem: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019
+    page: crosstalk-programmer
+    capture: 20191211222212
+    version: "2019-12-11"
+    date: "2019-12-11"
+    date_basis: 2019 年 12 月招聘站改版时上线（Wayback 首见 2019-12-11）；2022-10-15 仍是这一版，2024-02 整页换成 T.T. × M.O.
+    label_ja: プログラマ対談
+    img_dir: gamefreak-crosstalk-programmer-2019
+    title_like: 「GAME FREAK 官方对谈 程序员篇（2019 年版）：<主题>（T.T. × K.I.）」
+  - stem: 2019-12-11-interview-gamefreak-crosstalk-designer-2019
+    page: crosstalk-designer
+    capture: 20191211230437
+    version: "2019-12-11"
+    date: "2019-12-11"
+    date_basis: 2019 年 12 月招聘站改版时上线（Wayback 首见 2019-12-11）；2022-04-25 仍是这一版，2022-10-15 已整页换成 S.O. × H.T.
+    label_ja: デザイナー対談
+    img_dir: gamefreak-crosstalk-designer-2019
+    title_like: 「GAME FREAK 官方对谈 设计师篇（2019 年版）：<主题>（T.U. × J.K.）」
+  - stem: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
+    page: crosstalk-new-programmer
+    capture: 20220425080732
+    version: "2022-04-25"
+    date: "2021-12-27"
+    date_basis: 招聘首页 2021-12-13 的快照还没有、2022-03-11 的已有，与策划对谈（首见 2022-01-25）同批；2025-03 起首页已不再列出
+    label_ja: 新卒プログラマ対談
+    title_like: 「GAME FREAK 官方对谈 新人程序员篇：<主题>（T.K. × R.H.）」
+    works: [宝可梦 剑／盾, 宝可梦传说 阿尔宙斯]
+    img_dir: gamefreak-crosstalk-new-programmer
+  - stem: 2019-12-11-interview-gamefreak-recruit-programmer-dn
+    page: interview-pg-dn
+    capture: 20191211213057
+    version: "2019-12-11"
+    date: "2019-12-11"
+    date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）；2026 年 2–3 月间从招聘首页撤下
+    label_ja: プログラマ社員紹介 D.N.
+    title_like: 「GAME FREAK 官方程序员特写 D.N.：<主题>」
+    img_dir: gamefreak-recruit-dn
+  - stem: 2019-12-11-interview-gamefreak-projectstory-sword-shield
+    page: projectstory-pokemon
+    capture: 20191211213118
+    version: "2019-12-11"
+    date: "2019-12-11"
+    date_basis: 2019 年 12 月招聘站改版时上线（Wayback 首见 2019-12-11）；之后 2021、2024 年只改过作品名的写法
+    label_ja: Project Story ポケットモンスター ソード・シールド
+    title_like: 「GAME FREAK Project Story《宝可梦 剑／盾》：<主题>（大森滋、岩尾和昌）」
+    works: [宝可梦 剑／盾]
+    img_dir: gamefreak-projectstory-sword-shield
+  - stem: 2019-12-11-interview-gamefreak-projectstory-giga-wrecker
+    page: projectstory-gw
+    capture: 20191211231800
+    version: "2019-12-11"
+    later: 20220529122855
+    date: "2019-12-11"
+    date_basis: 2019 年 12 月招聘站改版时上线（Wayback 首见 2019-12-11）；2022-05 起删去了小川一美
+    label_ja: Project Story GIGA WRECKER
+    title_like: 「GAME FREAK Project Story《GIGA WRECKER》：<主题>（尾上将之、伊藤博人、小川一美）」
+    works: [GIGA WRECKER]
+    img_dir: gamefreak-projectstory-giga-wrecker
+  - stem: 2019-12-11-interview-gamefreak-recruit-message-watanabe
+    page: message
+    capture: 20191211223100
+    version: "2019-12-11"
+    date: "2019-12-11"
+    date_basis: 2019 年 12 月招聘站改版时上线（Wayback 首见 2019-12-11，末次 2022-05-29）；现址 /message/ 已换成大森滋的寄语
+    label_ja: 開発責任者メッセージ
+    img_dir: gamefreak-recruit-message-watanabe
+    title_like: 「GAME FREAK 开发负责人寄语（2019，渡边哲也）：<主题>」
+
+  # ---------------------------------------------------------------- re-imports: 2015-2017 numbered interviews (invented "originals")
+  - stem: 2015-08-01-interview-gamefreak-gear-tembo-turner
+    page: interview_01
+    capture: 20151012063614
+    version: "2015-10-12"
+    date: "2015-10-12"
+    date_basis: Wayback 首见 2015-10-12；2017-01 起同一网址换成《GIGA WRECKER》的访谈
+    label_ja: 社員インタビュー『TEMBO THE BADASS ELEPHANT』
+  - stem: 2015-10-01-interview-gamefreak-recruit-designers
+    page: interview_03
+    capture: 20151026024204
+    version: "2015-10-26"
+    date: "2015-10-26"
+    date_basis: Wayback 首见 2015-10-26；2017-03 起同一网址换成另一组设计师（J.K.、Y.U.）
+    label_ja: 私がゲームフリークに入った理由 グラフィックデザイナー編
+  - stem: 2015-10-01-interview-gamefreak-recruit-planners
+    page: interview_04
+    capture: 20151026024404
+    version: "2015-10-26"
+    date: "2015-10-26"
+    date_basis: Wayback 首见 2015-10-26
+    label_ja: 私がゲームフリークに入った理由 プランナー編
+  - stem: 2015-10-01-interview-gamefreak-recruit-programmers
+    page: interview_05
+    capture: 20151026024410
+    version: "2015-10-26"
+    date: "2015-10-26"
+    date_basis: Wayback 首见 2015-10-26
+    label_ja: 私がゲームフリークに入った理由 プログラマ編
+  - stem: 2017-03-01-interview-gamefreak-gear-gigawrecker
+    page: interview_01
+    capture: 20170128021506
+    version: "2017-01-28"
+    date: "2017-01-28"
+    date_basis: 同一网址 2016-11-22 的快照仍是《TEMBO》的访谈，2017-01-28 已是这一篇
+    label_ja: 社員インタビュー『GIGA WRECKER』
+    works: [GIGA WRECKER]
+  - stem: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
+    page: interview_02
+    capture: 20170329213109
+    version: "2017-03-29"
+    date: "2017-03-29"
+    date_basis: 同一网址 2016-03-30 的快照仍是 2015 年的研究开发部访谈，2017-03-29 已是这一篇
+    label_ja: 研究開発部、始動！（テクニカルアーティスト）
+  - stem: 2017-09-01-interview-gamefreak-recruit-cross-industry
+    page: interview_06
+    capture: 20170212181502
+    version: "2017-02-12"
+    date: "2017-02-12"
+    date_basis: Wayback 首见 2017-02-12
+    label_ja: 異業種からの転職者座談会
+
+  # ---------------------------------------------------------------- new: later versions of the numbered pages
+  - stem: 2017-03-29-interview-gamefreak-recruit-designers-2017
+    page: interview_03
+    capture: 20170329213459
+    version: "2017-03-29"
+    date: "2017-03-29"
+    date_basis: 同一网址 2016-03-02 的快照仍是 2015 年那组设计师，2017-03-29 已换成这一篇
+    label_ja: 私がゲームフリークに入った理由 グラフィックデザイナー編（2017）
+    title_like: 「GAME FREAK 官方专访：我加入 GAME FREAK 的理由（图形设计师篇，2017 年版：J.K. × Y.U.）」
+    img_dir: gamefreak-recruit-designers-2017
+  - stem: 2019-10-19-interview-gamefreak-rnd-2019
+    page: interview_02
+    capture: 20191019173830
+    version: "2019-10-19"
+    date: "2019-10-19"
+    date_basis: 同一网址 2017-03-29 的快照仍是 TA 篇，2019-10-19 已换成这一篇；2019 年 12 月改版后编号页不再出现
+    label_ja: 研究開発部、始動！（設立3年目）
+    title_like: 「GAME FREAK 官方专访 研究开发部篇（2019）：<主题>（R.T. × Y.Y.）」
+    img_dir: gamefreak-rnd-2019
+
+  # ---------------------------------------------------------------- new: the developer message, its later author
+  - stem: 2024-02-13-interview-gamefreak-message-ohmori
+    page: message-site
+    capture: 20240229104233
+    version: "2024-02-29"
+    date: "2024-02-13"
+    date_basis: 2023-12-06 的快照仍是渡边哲也的寄语，2024-02-29 已换成大森滋（同批页面素材 ?20240213）
+    label_ja: 開発責任者メッセージ
+    title_like: 「GAME FREAK 开发负责人寄语（2024，大森滋）：<主题>」
+    works: [宝可梦传说 阿尔宙斯, 宝可梦 朱／紫]
+    img_dir: gamefreak-message-ohmori
+
+  # ---------------------------------------------------------------- new: 2009 mid-career hiring, messages to applicants
+  - stem: 2009-09-14-interview-gamefreak-career-message-watanabe
+    page: career-message_pr
+    capture: 20090914063612
+    version: "2009-09-14"
+    date: "2009-09-14"
+    date_basis: 2009 年中途招聘特设站（页面版权 2009），Wayback 只存到 2009-09-14 这一份
+    label_ja: 応募者へのメッセージ（プログラマー）
+    title_like: 「GAME FREAK 2009 中途招聘寄语：渡边哲也（程序）——<主题>」
+    img_dir: gamefreak-career-2009
+  - stem: 2009-09-14-interview-gamefreak-career-message-masuda
+    page: career-message_sd
+    capture: 20090914063644
+    version: "2009-09-14"
+    date: "2009-09-14"
+    date_basis: 2009 年中途招聘特设站（页面版权 2009），Wayback 只存到 2009-09-14 这一份
+    label_ja: 応募者へのメッセージ（サウンド）
+    title_like: 「GAME FREAK 2009 中途招聘寄语：增田顺一（声音）——<主题>」
+    img_dir: gamefreak-career-2009
+
+  # ---------------------------------------------------------------- additions to a faithful post
+  - stem: 2021-12-27-interview-gamefreak-crosstalk-scenario
+    mode: append_earlier
+    page: crosstalk-scenario
+    capture: 20250214192116
+    earlier: 20240229104150
+    date: "2024-02-13"
+    label_ja: シナリオ・世界観設定対談
+    earlier_label_ja: （編集部注）2024年2月の初出版にあった、現行版にない部分
+    earlier_label: 首版（2024 年 2 月）里有、现行版删去的部分

@@ -1,0 +1,119 @@
+/* ==========================================================================
+   GAME FREAK recruit archive - the version note on a recruit post (_includes/recruit-version.html)
+   and /keys/gamefreak-recruit-archive/ (_pages/gamefreak-recruit-archive.md, _data/recruit_archive.yml).
+
+   The page sits in the timeline shell (.tl .library.front), like /wanted/: the head and the type are
+   the library's. The roster grid is a table - one row per page the recruit index linked, one column
+   per period of the index - so a card that stayed (D.N. until 2026) or went (Y.I. in 2020) reads at
+   a glance; it scrolls sideways on a phone rather than shrinking.
+   ========================================================================== */
+
+$rarc-on: #c53030;
+$rarc-in: #2f855a;
+
+/* ---- the version note on a post ---- */
+.ed-recruit-note {
+  p { margin: 0 0 4px; }
+  ul { margin: 2px 0 6px; padding-left: 1.2em; }
+  li { margin: 0; }
+  .ed-recruit-note__none { opacity: 0.6; }
+  .ed-recruit-note__basis { opacity: 0.75; }
+}
+
+/* ---- the archive page ---- */
+.rarc {
+  .rarc-sec { margin-top: 2.2em; }
+  .rarc-h2 {
+    margin: 0 0 0.6em;
+    padding-bottom: 6px;
+    border-bottom: 2px solid $lib-ink;
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+  }
+  .rarc-h3 {
+    margin: 1.8em 0 0.6em;
+    font-size: 0.95rem;
+    color: $lib-ink-soft;
+    letter-spacing: 0.04em;
+  }
+  .rarc-lead, .rarc-note { margin: 0 0 12px; font-size: 0.85rem; line-height: 1.75; color: $lib-ink-soft; }
+  .rarc-note { margin-top: 8px; font-size: 0.78rem; color: $lib-ink-faint; }
+
+  .rarc-grid-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .rarc-grid {
+    border-collapse: collapse;
+    font-size: 0.75rem;
+    min-width: 100%;
+    th, td { border: 1px solid $lib-rule; padding: 0; }
+    thead th {
+      padding: 4px 3px;
+      font-weight: 600;
+      color: $lib-ink-faint;
+      white-space: nowrap;
+      span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); }
+    }
+    tbody th {
+      padding: 3px 8px 3px 0;
+      text-align: left;
+      font-weight: 400;
+      white-space: nowrap;
+      border-left: 0;
+      a { color: $lib-ink; text-decoration: none; &:hover { text-decoration: underline; } }
+    }
+    td { width: 22px; min-width: 22px; height: 20px; }
+    td.is-on { background: $rarc-on; }
+  }
+
+  .rarc-pages { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .rarc-page {
+    padding: 12px 14px;
+    border: 1px solid $lib-rule;
+    background: $lib-band;
+    scroll-margin-top: 80px;
+    &:target { outline: 2px solid $rarc-on; outline-offset: 2px; }
+    header p { margin: 2px 0 0; font-size: 0.75rem; color: $lib-ink-faint; word-break: break-all; }
+    header a { color: inherit; }
+    h4 { margin: 0; font-size: 0.95rem; line-height: 1.4; span { margin-left: 8px; font-size: 0.75rem; font-weight: 400; color: $lib-ink-faint; } }
+  }
+  .rarc-pnote { color: $lib-ink-soft !important; word-break: normal !important; }
+  .rarc-status {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 0 6px;
+    border: 1px solid currentColor;
+    font-size: 0.7rem;
+    &--live { color: $rarc-in; }
+    &--removed, &--moved { color: $lib-ink-faint; }
+  }
+  .rarc-empty { margin: 8px 0 0; font-size: 0.8rem; color: $lib-ink-faint; }
+  .rarc-versions {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0 10px;
+      margin: 0;
+      padding: 6px 0 6px 10px;
+      border-top: 1px dashed $lib-rule;
+      border-left: 3px solid $lib-rule;
+      font-size: 0.8rem;
+      &.is-in { border-left-color: $rarc-in; }
+    }
+  }
+  .rarc-v__when { font-variant-numeric: tabular-nums; color: $lib-ink-soft; }
+  .rarc-v__who { grid-column: 1; font-weight: 600; color: $lib-ink; }
+  .rarc-v__change { grid-column: 1; font-size: 0.75rem; color: $lib-ink-faint; i { font-style: normal; margin-left: 4px; } }
+  .rarc-v__post { grid-column: 2; grid-row: 1 / span 3; align-self: center; text-align: right; white-space: nowrap;
+    a { color: $lib-accent; } span { color: $lib-ink-faint; } .rarc-wb { margin-left: 6px; font-size: 0.72rem; color: $lib-ink-faint; } }
+  .rarc-v__note { grid-column: 1 / -1; font-size: 0.75rem; color: $lib-ink-soft; }
+  .rarc-list { margin: 0; padding-left: 1.2em; font-size: 0.85rem; line-height: 1.8; color: $lib-ink-soft; b { color: $lib-ink; } }
+}
+
+body.theme-bg-black .rarc {
+  .rarc-h2 { border-bottom-color: #e6e8ec; }
+  .rarc-page { background: #1c1f25; border-color: #333842; }
+  .rarc-grid th, .rarc-grid td { border-color: #333842; }
+  .rarc-grid tbody th a, .rarc-v__who { color: #e6e8ec; }
+}

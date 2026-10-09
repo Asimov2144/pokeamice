@@ -2,11 +2,11 @@
  "id": "interview-gamefreak-rnd-ta-taya-kk",
  "stem": "2017-06-01-interview-gamefreak-rnd-ta-taya-kk",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-09",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 22
+  "n": 23
  },
  "facets": {
   "pokemon": [],
@@ -15,7 +15,7 @@
     "name": "宝可梦 X·Y",
     "slug": "x-y",
     "seg": [
-     6
+     7
     ],
     "via": "entities"
    },
@@ -23,42 +23,31 @@
     "name": "宝可梦 太阳·月亮",
     "slug": "sun-moon",
     "seg": [
-     17
+     4,
+     8,
+     17,
+     18
     ],
     "via": "entities"
    },
    {
     "name": "宝可梦 蓝",
     "slug": "blue-jp",
-    "seg": [],
+    "seg": [
+     3
+    ],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦 青",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
    }
   ],
   "people": [
    {
-    "name": "S.T.",
-    "slug": null,
+    "name": "田谷正夫",
+    "slug": "taya-masao",
     "role": "speaker",
     "seg": [
-     2,
-     6,
-     16,
+     3,
+     7,
+     17,
      20
     ]
    },
@@ -67,239 +56,27 @@
     "slug": "k-k",
     "role": "speaker",
     "seg": [
-     3,
-     7,
+     4,
+     8,
      10,
      12,
-     17,
+     18,
      21
-    ]
-   },
-   {
-    "name": "田谷正夫",
-    "slug": "taya-masao",
-    "role": "mentioned",
-    "seg": [
-     2
     ]
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     2,
-     3,
-     10,
-     21
-    ],
-    "as": [
-     "入社",
-     "职业生涯"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     3,
-     9,
-     10,
-     15
-    ],
-    "as": [
-     "建模",
-     "多边形"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     7
-    ],
-    "as": [
-     "美术设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     10
-    ],
-    "as": [
-     "内存"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     10
-    ],
-    "as": [
-     "脚本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     12,
-     17
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     12
-    ],
-    "as": [
-     "像素图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     12
-    ],
-    "as": [
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     16
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     16
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     17,
-     20
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     17
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     17
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     21
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     21
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "S.T. 自 1996 年入社，从《宝可梦 青》起主导正统作品核心系统底层与软件架构设计",
-   "anchor": 3
+   "seg": 7,
+   "text": "田谷正夫在《宝可梦 X·Y》开发时感到研究开发部的必要性，2015年4月正式启动。",
+   "anchor": 8
   },
   {
-   "seg": 3,
-   "text": "K.K. 2014 年入社，是 GAME FREAK 历史上第一任专职 TA",
-   "anchor": 4
+   "seg": 8,
+   "text": "研究开发部成立之初原本计划只由程序员组成，K.K.在《太阳·月亮》开发后加入。",
+   "anchor": 9
   }
  ],
  "relations": [
@@ -323,9 +100,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

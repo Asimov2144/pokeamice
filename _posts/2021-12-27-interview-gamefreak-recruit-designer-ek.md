@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验
 title_ja: 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-gr-ek
+  version: '2019-12-11'
+  capture: '20191211222214'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）
+era: '2019'
 era_skin: '2019'
 categories:
 - developer-interviews

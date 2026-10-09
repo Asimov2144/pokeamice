@@ -3,7 +3,12 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）
 title_ja: 『ポケモン』シリーズのディレクター、そして、私ならではの新規IPを実現させたい。（プランナー M.Y.）
-date: 2019-04-01 10:00:00 +0900
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-pl-my
+  version: '2019-12-11'
+  capture: '20191211222535'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）；2021-12-13 至 2022-03-11 之间从招聘首页撤下
 era: '2019'
 categories:
 - developer-interviews

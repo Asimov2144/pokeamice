@@ -4,6 +4,11 @@ layout: interview-editorial
 title: GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）
 title_ja: プランナー対談 「まず、私たちを驚かせてほしい。周りを振り回してくれる人、募集。」 ｜ GAME FREAK 採用情報
 date: 2021-12-27 10:00:00 +0900
+recruit:
+  page: crosstalk-planner
+  version: '2022-01-25'
+  capture: '20220125155308'
+  date_basis: 招聘首页 2021-12-13 的快照还没有、2022-03-11 的已有，与策划对谈（Wayback 首见 2022-01-25）同批
 era: '2021'
 categories:
 - developer-interviews
@@ -37,7 +42,7 @@ parallel_items:
   caption: K.F.——开发一部总监 兼 开发二部《Pokémon HOME》总监
 - type: text
   speaker_orig: プロフィール
-  original: K.F.：プランナーとしてソーシャルゲーム開発会社から、ゲームフリークに転職。開発一部のディレクターと、開発二部で『Pokémon HOME』のディレクターを兼任。
+  original: プランナーとしてソーシャルゲーム開発会社から、ゲームフリークに転職。開発一部のディレクターと、開発二部で『Pokémon HOME』のディレクターを兼任。
   translation: K.F.：曾作为策划任职于移动社交游戏开发公司，后社招跳槽至 GAME FREAK。目前兼任开发一部总监，以及开发二部《Pokémon HOME》总监。
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-planner/member-ht.jpg
@@ -45,7 +50,7 @@ parallel_items:
   caption: 谷博行（H.T.）——开发二部《宝可梦 剑·盾 扩展票》总监
 - type: text
   speaker_orig: プロフィール
-  original: H.T.（谷博行 / Hiroyuki Tani）：ゲームプログラマを経て、プランナーとしてゲームフリークに入社。開発二部で『ポケットモンスター ソード・シールド エキスパンションパス』のディレクターを務めた。
+  original: ゲームプログラマを経て、プランナーとしてゲームフリークに入社。開発二部で『ポケットモンスター ソード・シールド エキスパンションパス』のディレクターを務めた。
   translation: H.T.（谷博行 / Hiroyuki Tani）：经历过一线游戏程序员历练后，作为策划加入 GAME FREAK。在开发二部担纲《宝可梦 剑·盾 扩展票（铠之孤岛 / 冠之雪原）》的总监（Director）。
 - type: heading
   level: 2

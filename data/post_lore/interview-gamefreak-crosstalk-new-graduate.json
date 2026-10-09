@@ -2,11 +2,11 @@
  "id": "interview-gamefreak-crosstalk-new-graduate",
  "stem": "2021-12-27-interview-gamefreak-crosstalk-new-graduate",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-09",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 21
+  "n": 30
  },
  "facets": {
   "pokemon": [],
@@ -14,39 +14,26 @@
    {
     "name": "宝可梦 朱·紫",
     "slug": "scarlet-violet",
-    "seg": [],
+    "seg": [
+     17
+    ],
     "via": "entities"
    },
    {
     "name": "Gear Project",
     "slug": null,
-    "seg": [],
+    "seg": [
+     7,
+     10
+    ],
     "via": "entities"
    }
   ],
   "people": [
    {
-    "name": "R.S.（企划）",
-    "slug": null,
+    "name": "I.F.",
+    "slug": "i-f",
     "role": "speaker",
-    "seg": [
-     8,
-     15
-    ]
-   },
-   {
-    "name": "K.K.（人事）",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     14,
-     20
-    ]
-   },
-   {
-    "name": "R.S.",
-    "slug": "r-s",
-    "role": "mentioned",
     "seg": [
      1
     ]
@@ -54,7 +41,7 @@
    {
     "name": "T.M.",
     "slug": "t-m",
-    "role": "mentioned",
+    "role": "speaker",
     "seg": [
      2
     ]
@@ -62,23 +49,23 @@
    {
     "name": "A.T.",
     "slug": "a-t",
-    "role": "mentioned",
+    "role": "speaker",
     "seg": [
      3
     ]
    },
    {
-    "name": "I.F.",
-    "slug": "i-f",
-    "role": "mentioned",
+    "name": "R.N.",
+    "slug": "r-n",
+    "role": "speaker",
     "seg": [
      4
     ]
    },
    {
-    "name": "R.N.",
-    "slug": "r-n",
-    "role": "mentioned",
+    "name": "R.S.",
+    "slug": "r-s",
+    "role": "speaker",
     "seg": [
      5
     ]
@@ -86,208 +73,24 @@
    {
     "name": "K.K.",
     "slug": "k-k",
-    "role": "mentioned",
+    "role": "speaker",
     "seg": [
      6
     ]
    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6
-    ],
-    "as": [
-     "入职",
-     "学生时代",
-     "面试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     3
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "角色设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     5
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     6
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     6,
-     12,
-     13,
-     14,
-     15,
-     18
-    ],
-    "as": [
-     "应届",
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     14
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     14
-    ],
-    "as": [
-     "团队合作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     16
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     18,
-     19
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   }
-  ]
+  "places": []
  },
  "observations": [
   {
-   "seg": 9,
-   "text": "T.M.学生时代研究AI和机器学习，曾犹豫去WEB行业还是游戏行业",
-   "anchor": 18
+   "seg": 16,
+   "text": "程序员3个月培训，最后约3周做一个小游戏。",
+   "anchor": 17
   },
   {
-   "seg": 13,
-   "text": "R.N.称新人研修中组成跨职能混合团队，从零制作游戏原型",
-   "anchor": 23
+   "seg": 17,
+   "text": "培训后参加《宝可梦 朱·紫》，负责动画、玩法与系统部分调试。",
+   "anchor": 18
   }
  ],
  "relations": [
@@ -319,9 +122,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "model": "deepseek-chat"
  },
  "edited": false
 }

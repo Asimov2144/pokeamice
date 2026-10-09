@@ -1,0 +1,67 @@
+{
+ "id": "interview-gamefreak-recruit-message-watanabe",
+ "stem": "2019-12-11-interview-gamefreak-recruit-message-watanabe",
+ "rev": 1,
+ "built": "2026-10-09",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 14
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "渡边哲也",
+    "slug": "watanabe-tetsuya",
+    "role": "speaker",
+    "seg": [
+     1,
+     3,
+     5,
+     7,
+     9,
+     11
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "渡边哲也1994年入职，从《宝可梦 红·绿》起作为程序员参与多款系列开发",
+   "anchor": 2
+  },
+  {
+   "seg": 5,
+   "text": "研究开发部于2016年新设，被称作为此而设的战略组织",
+   "anchor": 6
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,103 @@
+{
+ "id": "interview-gamefreak-crosstalk-new-programmer",
+ "stem": "2021-12-27-interview-gamefreak-crosstalk-new-programmer",
+ "rev": 1,
+ "built": "2026-10-09",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 25
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     1,
+     2,
+     11,
+     12,
+     15
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     12,
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon LEGENDS 阿尔宙斯",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.K.",
+    "slug": "t-k",
+    "role": "speaker",
+    "seg": [
+     1,
+     4,
+     6,
+     8,
+     12,
+     15
+    ]
+   },
+   {
+    "name": "R.H.",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     7,
+     9,
+     13,
+     16
+    ]
+   }
+  ],
+  "places": []
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "会议用Google日历安排，用Google Meet开",
+   "anchor": 9
+  },
+  {
+   "seg": 9,
+   "text": "进度管理用Jira，研究开发部每月都有发布",
+   "anchor": 10
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat"
+ },
+ "edited": false
+}

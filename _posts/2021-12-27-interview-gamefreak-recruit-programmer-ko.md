@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃
 title_ja: 自分の成長が、ゲームフリークの成長につながると信じて。｜プログラマ社員紹介 K.O.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-pg-ko
+  version: '2019-12-11'
+  capture: '20240229104429'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）；本篇依据 2024-02-29 的快照，与首版只差个别字句
+era: '2019'
 era_skin: '2019'
 categories:
 - developer-interviews

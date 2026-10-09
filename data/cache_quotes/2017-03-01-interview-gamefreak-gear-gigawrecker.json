@@ -1,29 +1,29 @@
 {
- "key": "8863ee040af4521d",
+ "key": "b0e8b07b0b99c54a",
  "picks": [
   {
-   "i": 16,
-   "kind": "quote",
-   "score": 5,
-   "hook": "M.O.：登陆 Steam 以 Early Access 发售，GAME FREAK 史上首次",
-   "why": "披露首发平台从传统主机转向 Steam 并采用抢先体验，是 GAME FREAK 历史上前所未有的决定。",
-   "more": "同段提到物理运算对硬件算力的严苛要求，以及为获取全球硬核玩家反馈而选择 Early Access。"
-  },
-  {
-   "i": 15,
+   "i": 19,
    "kind": "question",
    "score": 4,
-   "hook": "为什么《GIGA WRECKER》从爽快动作转向硬核解谜？",
-   "why": "说明核心玩法转向物理动作解谜，是因为同属齿轮企划的《坏象坦博》已把破坏爽快感做到极致。",
-   "more": "James Turner 领衔的《坏象坦博》（TEMBO THE BADASS ELEPHANT）与瓦砾聚合、垫脚、配重等具体机制。"
+   "hook": "为什么《GIGA WRECKER》从动作改成解谜？",
+   "why": "H.I. 说明改方向是因为会跟《TEMBO THE BADASS ELEPHANT》相似，连续做以破坏快感为卖点的动作游戏没意思。",
+   "more": "同一段里 M.O. 提到目标硬件从游戏专用机转向 PC，也是企划调整的一部分。"
   },
   {
-   "i": 20,
+   "i": 23,
    "kind": "quote",
    "score": 4,
-   "hook": "M.O.：本作获 INDIE STREAM AWARDS 2016 最佳技术奖",
-   "why": "给出具体奖项与年份，并提到 Steam 玩家对物理谜题与末世科幻叙事的评价。",
-   "more": "同段强调小人数编制下把纯粹所爱与毫厘考究倾注其中。"
+   "hook": "M.O.：物理引擎单纯使用容易变成模糊的行为",
+   "why": "提到《GIGA WRECKER》获得 INDIE STREAM AWARDS 2016 的 Best of TECHNICAL ARTS 奖，并说明获奖原因在于对物理引擎的调整。",
+   "more": "前文 M.O. 说从学生时代就接触物理引擎，想重新做出完成度高的作品。"
+  },
+  {
+   "i": 31,
+   "kind": "quote",
+   "score": 4,
+   "hook": "H.I.：以创造出第二个《宝可梦》系列那样的游戏为目标",
+   "why": "H.I. 说想把原创作品作为业务走上正轨并系列化，以第二个《宝可梦》系列那样的游戏为目标。",
+   "more": "M.O. 在上一句提到想完善 Gear Project 之间的经验共享。"
   }
  ]
 }

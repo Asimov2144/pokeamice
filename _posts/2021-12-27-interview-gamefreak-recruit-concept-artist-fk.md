@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
 title_ja: 入社早々、『ポケモン』のコンセプトアートを任されました。｜デザイナー社員紹介 F.K.
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2019-12-11 10:00:00 +0900
+recruit:
+  page: interview-gr-fk
+  version: '2019-12-11'
+  capture: '20191211221312'
+  date_basis: 2019 年 12 月招聘站改版时的首批人物页（Wayback 首见 2019-12-11）
+era: '2019'
 categories:
 - developer-interviews
 - gamefreak-recruit

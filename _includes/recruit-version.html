@@ -1,0 +1,37 @@
+{%- comment -%}
+  Which version of a GAME FREAK recruit page a post translates (interview-editorial, posts with
+  `recruit: {page, version, capture, date_basis}`). The recruit site reuses its addresses - the same
+  URL has carried other people and another text - so the post says which one it is, what else that
+  address has carried, and whether the page is still up. Data: _data/recruit_archive.yml
+  (tools/recruit-archive.py build). Paragraphs a later version dropped carry `removed_on`; they are
+  marked here by their segment ids, so the layout's item loop is left alone.
+{%- endcomment -%}
+{% assign rv = page.recruit %}
+{% assign rv_page = site.data.recruit_archive.pages | where: "id", rv.page | first %}
+{% if rv_page %}
+{% assign rv_mine = rv_page.versions | where: "id", rv.version | first %}
+{% assign rv_cap = rv.capture | default: rv_mine.wayback | append: "" %}
+{% capture rv_cap_date %}{{ rv_cap | slice: 0, 4 }}-{{ rv_cap | slice: 4, 2 }}-{{ rv_cap | slice: 6, 2 }}{% endcapture %}
+{% capture rv_wb %}https://web.archive.org/web/{{ rv_cap }}/{{ rv_page.url }}{% endcapture %}
+<aside class="ed-digest-note ed-recruit-note" role="note" id="recruit-version">
+  <b>版本</b>
+  <p>本篇译自 GAME FREAK 招聘网站「{{ rv_page.label_ja | default: rv_page.label }}」{% if rv_mine %}{{ rv_mine.first | date: "%Y 年 %-m 月" }}起的版本{% if rv_mine.members.size > 0 %}（{{ rv_mine.members | join: " × " }}）{% endif %}{% endif %}，依据 <a href="{{ rv_wb }}" target="_blank" rel="noopener">Wayback {{ rv_cap_date }} 的快照</a>{% if rv_mine.edits %}；这一版后来在 {% for e in rv_mine.edits %}{{ e.at }}{% unless forloop.last %}、{% endunless %}{% endfor %} 改过个别字句{% endif %}。
+  {% if rv_page.status == "removed" %}这一页已从官网撤下。{% elsif rv_page.status == "moved" %}这一页已不在原址。{% else %}<a href="{{ rv_page.url }}" target="_blank" rel="noopener">官网原页</a>现在仍在。{% endif %}</p>
+  {% if rv_page.versions.size > 1 %}
+  <p>同一网址的其他版本：</p>
+  <ul>
+    {% for v in rv_page.versions %}{% if v.id != rv.version %}
+    {% assign v_post = nil %}{% if v.post %}{% assign v_path = "_posts/" | append: v.post | append: ".md" %}{% assign v_post = site.posts | where: "path", v_path | first %}{% endif %}
+    <li>{{ v.first | date: "%Y.%m" }}–{% if forloop.last and rv_page.status == "live" %}现在{% else %}{{ v.last | date: "%Y.%m" }}{% endif %}{% if v.members.size > 0 %}：{{ v.members | join: " × " }}{% endif %}{% case v.change %}{% when "replaced" %}（整页换人）{% when "members_removed" %}（删去了部分成员）{% when "rewritten" %}（改写）{% endcase %}
+      {% if v.post == post_stem %}<span class="ed-recruit-note__none">{{ v.note | default: "见本篇" }}</span>{% elsif v_post %}<a href="{{ v_post.url | relative_url }}">本站译文 →</a>{% else %}<span class="ed-recruit-note__none">本站未收录</span>{% endif %}</li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endif %}
+  {% assign rv_removed = "" %}{% assign rv_removed_on = "" %}
+  {% for it in items %}{% if it.removed_on %}{% capture rv_removed %}{{ rv_removed }}{% if rv_removed != "" %},{% endif %}#segment-{{ forloop.index }}{% endcapture %}{% assign rv_removed_on = it.removed_on %}{% endif %}{% endfor %}
+  {% if rv_removed != "" %}<p>正文里左边标了虚线的段落，官网 {{ rv_removed_on | date: "%Y 年 %-m 月" }}起已删去或改写。</p>{% endif %}
+  {% if rv.date_basis %}<p class="ed-recruit-note__basis">日期依据：{{ rv.date_basis }}</p>{% endif %}
+  <p><a href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}#{{ rv_page.id }}">这一网址的全部版本 →</a></p>
+</aside>
+{% if rv_removed != "" %}{% capture rv_before %}{{ rv_removed | replace: ",", "::before," }}::before{% endcapture %}<style>{{ rv_removed }}{border-left:2px dashed #b9b1a3 !important;padding-left:12px !important}{{ rv_before }}{content:"官网 {{ rv_removed_on | date: "%Y.%m" }} 起已删改";display:block;margin-bottom:4px;font-size:.72em;letter-spacing:.04em;color:#9a8f7f}</style>{% endif %}
+{% endif %}

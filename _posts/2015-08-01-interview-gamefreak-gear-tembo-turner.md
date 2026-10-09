@@ -1,9 +1,10 @@
 ---
-archive_type: interview_translation
 layout: interview-editorial
+archive_type: interview_translation
 title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
+display_title: 员工访谈《TEMBO THE BADASS ELEPHANT》
 title_ja: ギアプロジェクト『TEMBO THE BADASS ELEPHANT』開発秘話
-date: 2015-08-01 10:00:00 +0900
+date: 2015-10-12 10:00:00 +0900
 era: '2015'
 categories:
 - developer-interviews
@@ -18,14 +19,21 @@ tags:
 - 跨平台研发
 - 招聘访谈
 - Wayback历史存档
-interview_id: PKMN-1023
 publication: Game Freak 採用情報 (Wayback 历史存档)
-original_link: http://web.archive.org/web/20160405054948/http://www.gamefreak.co.jp/recruit/interview_01.html
+original_link: https://www.gamefreak.co.jp/recruit/interview_01.html
+source_url: https://web.archive.org/web/20151012063614/https://www.gamefreak.co.jp/recruit/interview_01.html
+source:
+  title: ギアプロジェクト『TEMBO THE BADASS ELEPHANT』開発秘話
+  url: https://www.gamefreak.co.jp/recruit/interview_01.html
+  language: ja
+  source_type: official_interview
 author: Game Freak 採用チーム
-interviewee: James Turner, T.M.
+interviewee: James Turner（J.T.）、T.M.
 original_lang: ja
 translation_lang: zh-CN
-summary: 《坏象坦博 TEMBO THE BADASS ELEPHANT》正式登陆 PS4/Xbox One/PC 之际，GAME FREAK 招聘专栏特刊专访：总监 James Turner 与 3D 设计师 T.M. 首次全面复盘本作诞生全过程。专访详述了在《宝可梦 X·Y》收尾后，如何借助 GAME FREAK 独具特色的内部孵化机制“齿轮企划（Gear Project）”实现原创 IP 从概念到商业发行的跃升；揭秘了大象主角利用长鼻喷水、滚动碾碎一切障碍的硬汉动作物理手感打造；深度探讨了首次挑战高画质跨平台（Multi-platform）主机开发带来的管线革新，以及在自由与严苛并存的独立研发中创作者所获得的不可替代的成长。
+translator: PokeAmice（DeepSeek 初译）
+summary: 2015年7月面向PS4／Xbox One／Steam发售的《TEMBO THE BADASS ELEPHANT》。设计师J.T.和T.M.讲述从路边招牌上的大象插图获得灵感、以活用大象体格的破坏为核心、用Unity同时面向三种平台开发的经过，以及Gear Project制度中从企划到发售全程负责的经验。
+dek: 2015年7月发售的《TEMBO THE BADASS ELEPHANT》，采访以Gear Project形式启动并做到发售的设计师J.T.和T.M.。
 entities:
   people:
   - James Turner
@@ -38,163 +46,192 @@ entities:
   organizations:
   - 株式会社ゲームフリーク
   - SEGA（世嘉）
+recruit:
+  page: interview_01
+  version: '2015-10-12'
+  capture: '20151012063614'
+  date_basis: 招聘首页 2015-09-15 的快照还没有编号访谈、2015-10-21 的已有（这一页 Wayback 首见 2015-10-12）；2017-01 起同一网址换成《GIGA WRECKER》的访谈
 parallel_items:
 - type: image
-  src: /assets/img/interviews/2015-gamefreak-gear-tembo/keyvisual.jpg
-  caption: GAME FREAK 官方访谈：齿轮企划『TEMBO THE BADASS ELEPHANT』开发秘话
+  src: /assets/img/interviews/2015-gamefreak-gear-tembo/keyvisual.png
+- type: text
+  original: '2015年7月にPS4／Xbox One／Steam向けに同時リリースされた、『TEMBO THE BADASS ELEPHANT』。
+
+    ギアプロジェクトとしてこのゲームを立ち上げ、発売までこぎつけたデザイナーのJ.T.とT.M.に話を聞きました。'
+  translation: '2015年7月，面向PS4／Xbox One／Steam同时发售的《TEMBO THE BADASS ELEPHANT》。
+
+    我们采访了以Gear Project形式启动这款游戏、并一直做到发售的设计师J.T.和T.M.。'
 - type: heading
   level: 2
   original: 社員紹介
-  translation: 受访员工简介
+  translation: 员工介绍
 - type: profile
-  speaker: J.T.
-  speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/profile_01.png
-  role_ja: デザイナー（2009年入社）
-  role_zh: 设计师 / 总监（2009年入社）
-  original: 2009年入社のデザイナー、J.T.です。ギアプロジェクトから生まれた、『リズムハンター ハーモナイト』、『TEMBO THE BADASS ELEPHANT』の2本のソフトでディレクターを務めました。好きなものはピザと映画とデザイン！　映画は月10本以上観ます。デザインは、ゲーム向けのものだけでなくプロダクトデザインなども好きで、毎日デザインブログをチェックしています。
-  translation: 我是 2009 年入社的设计师 J.T.（James Turner）。在诞生自齿轮企划的两部作品——《节奏猎人 哈莫奈特》（HarmoKnight）与《坏象坦博》（TEMBO THE BADASS ELEPHANT）中均担任了总监（Director）。最喜欢的东西是披萨、电影和设计！每个月至少看 10 部以上电影。关于设计，不仅局限于游戏领域，我也非常热爱工业产品设计等门类，每天都会浏览各大设计博客。
+  speaker: James Turner
+  speaker_orig: J.T. デザイナー
+  role_ja: デザイナー
+  original: '2009年入社のデザイナー、J.T.です。ギアプロジェクトから生まれた、
+
+    『リズムハンター ハーモナイト』、『TEMBO THE BADASS ELEPHANT』の2本のソフトでディレクターを務めました。
+
+
+    好きなものはピザと映画とデザイン！　映画は月10本以上観ます。デザインは、ゲーム向けのものだけでなくプロダクトデザインなども好きで、毎日デザインブログをチェックしています。'
   role: answer
+  translation: '我是2009年入职的设计师J.T.。在Gear Project中诞生的《节奏猎人 哈莫奈特》和《TEMBO THE BADASS ELEPHANT》这两款软件中，我担任了总监。
+
+
+    喜欢的东西是披萨、电影和设计！电影每个月看10部以上。设计方面，不仅是面向游戏的，也喜欢产品设计等，每天都在看设计博客。'
+  role_zh: 设计师
+  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/profile_01.png
 - type: profile
   speaker: T.M.
-  speaker_orig: 3Dグラフィックデザイナー T.M.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/profile_02.png
-  role_ja: 3Dグラフィックデザイナー（2011年入社）
-  role_zh: 3D图形设计师（2011年入社）
-  original: 2011年入社の3Dグラフィックデザイナー、T.M.です。『TEMBO THE BADASS ELEPHANT』では、マップモデルを中心に、3Dグラフィック全般に関わりました。ゲーム以外で好きなものは、ヘヴィメタルです。
-  translation: 我是 2011 年入社的 3D 图形设计师 T.M.。在《坏象坦博》项目中，我以场景地图模型为中心，全面参与了整体 3D 图形资产的制作。在游戏之外，我最喜欢的爱好是重金属音乐（Heavy Metal）。
+  speaker_orig: T.M. 3Dグラフィックデザイナー
+  role_ja: 3Dグラフィックデザイナー
+  original: '2011年入社の3Dグラフィックデザイナー、T.M.です。
+
+    『TEMBO THE BADASS ELEPHANT』では、マップモデルを中心に、3Dグラフィック全般に関わりました。
+
+
+    ゲーム以外で好きなものは、ヘヴィメタルです。'
   role: answer
+  translation: '我是2011年入职的3D图形设计师T.M.。
+
+    在《TEMBO THE BADASS ELEPHANT》中，我以地图模型为中心，参与了3D图形的整体工作。
+
+
+    游戏之外喜欢的东西是重金属。'
+  role_zh: 3D图形设计师
+  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/profile_02.png
 - type: heading
   level: 2
   original: 『TEMBO THE BADASS ELEPHANT』、最初のイメージ
-  translation: 『坏象坦博』：最初的原型构想与立项起点
+  translation: 《TEMBO THE BADASS ELEPHANT》最初的印象
 - type: heading
   level: 3
   original: 『TEMBO THE BADASS ELEPHANT』を開発するに至った経緯を教えてください。
-  translation: 请先谈谈《坏象坦博》（TEMBO THE BADASS ELEPHANT）最初是如何立项并启动开发的？
+  translation: 请告诉我们开发《TEMBO THE BADASS ELEPHANT》的经过。
 - type: text
-  speaker: J.T.
+  speaker: James Turner
   speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_01.png
-  original: ちょうど、参加していた『ポケットモンスター X・Y』の開発が一段落した頃のことです。リフレッシュ休暇をもらえたので、そこで新しいゲームのアイデアを練り、企画書を作ってギアプロジェクトに提出しました。それがきっかけですね。
-  translation: 正好是我参与的《宝可梦 X·Y》正统作开发告一段落的时候。当时公司批准了一段调休充电假期（Refresh 假期），我便趁着那段时间梳理全新游戏玩法的灵感，撰写了企划书并提交给了齿轮企划（Gear Project）。那就是这部作品最初的发端。
+  original: ちょうど、参加していた『ポケットモンスター X・Y』の開発が一段落した頃のことです。ある日帰り道を歩いていると、道端の看板に象のイラストが。それを見て、「象はアクションゲームのキャラとしておもしろいのではないか」とひらめきました。帰宅後すぐ、象のイラストを何枚も書いて、イメージを膨らませていきました。
   role: answer
+  translation: 正好是参与的《宝可梦 X・Y》开发告一段落的时候。有一天走在回家的路上，路边的招牌上画着大象的插图。看到那个，我灵光一闪：“大象作为动作游戏的角色不是很有趣吗？”回家后马上画了好几张大象的插图，把印象逐渐扩展开来。
 - type: heading
   level: 3
   original: なぜ、象がアクションゲームのキャラクターとしておもしろいと思ったのですか？
-  translation: 为什么会觉得将“大象”选作动作游戏的主角会非常有趣呢？
+  translation: 为什么觉得大象作为动作游戏的角色很有趣呢？
 - type: text
-  speaker: J.T.
+  speaker: James Turner
   speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_01.png
-  original: 象は長い鼻があって、独特の動きをさせることができます。鼻で物をつかんだり、鼻から水を噴射したり、重い体重を活かして突進したり。また、象の背中に人を乗せて移動するのも、象ならではの表現としておもしろいと考えました。
-  translation: 大象长着长长的鼻子，能够做出非常独特的动作。比如用鼻子抓取各种物体、从鼻孔猛烈喷水灭火解谜、利用重达数吨的庞大体重向前发动摧毁一切的野蛮冲撞。此外，让市民爬上大象的后背载着他们逃难移动，也是唯有大象才能成立的趣味表现。
+  original: 象は長い鼻があって、独特の動きをさせることができます。鼻で物をつかんだり、鼻から水を出したりね。それから、象はかっこよさ・かわいいさ・コミカルさを兼ね備えています。例えば馬だと、なかなかコミカルにはならないんですよね。
   role: answer
+  translation: 大象有长长的鼻子，可以做出独特的动作。用鼻子抓东西，从鼻子里喷水之类的。还有，大象兼具帅气、可爱和滑稽。比如说马的话，就很难变得滑稽。
+- type: image
+  src: /assets/img/interviews/2015-gamefreak-gear-tembo/photo_01.png
 - type: heading
   level: 3
   original: 他に、着想の時点で考えていたことは何かありますか？
-  translation: 在最初构思这个案子时，脑海中还有什么特别坚持的想法吗？
-- type: image
-  src: /assets/img/interviews/2015-gamefreak-gear-tembo/photo_01.png
-  caption: James Turner 畅谈在度假期间绘制的坏象坦博首版硬派草图与暴力美学动作原型
+  translation: 其他在构思阶段还考虑过什么吗？
 - type: text
-  speaker: J.T.
+  speaker: James Turner
   speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_01.png
-  original: マルチプラットフォームでゲームを作りたいという気持ちも元々ありました。会社としても、プラットフォームに縛られないものづくりをしていこう、という方針を打ち出していた時期でもありましたから、自分にとっても会社にとっても良い挑戦になるんじゃないかと。
-  translation: 我从一开始就怀揣着强烈的愿望，想打造一款登陆多平台（Multi-platform）的作品。当时公司内部正好也明确提出了“不拘泥于特定掌机硬件，积极探索无拘束游戏创造”的大战略方针，因此我认为无论对于我个人的职业生涯，还是对于 GAME FREAK 整体的技术积累而言，这都是一次绝佳的挑战契机。
+  original: マルチプラットフォームでゲームを作りたいという気持ちも元々ありました。会社として初めての試みになりますからね。
   role: answer
+  translation: 我原本就有想做多平台游戏的想法。毕竟这是公司第一次尝试。
 - type: heading
   level: 3
   original: T.M.さんはどういった経緯で参加することになったのですか？
-  translation: T.M. 先生又是通过怎样的契机加入到这个项目中的呢？
+  translation: T.M. 先生是怎么参与进来的？
 - type: text
   speaker: T.M.
   speaker_orig: 3Dグラフィックデザイナー T.M.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_02.png
-  original: 私はギアプロジェクトに参加したいというのがまずありました。私も以前、『リズムハンター ハーモナイト』のギアプロジェクトに参加したことがあったので、またああいう少人数で密度の濃い開発をやりたいと思っていたんです。そこにJ.T.さんから「象のアクションゲームを作るんだけど、やらない？」と声をかけてもらって。「やります！」と即答しました。
-  translation: 首先是我自己内心一直渴望能够再次参与齿轮企划。此前我也曾参与过《节奏猎人 哈莫奈特》的齿轮企划攻坚，那段在紧凑的少数精锐团队中进行极高密度碰撞的开发体验让我念念不忘，一直希望能再来一次。正在那时，J.T. 跑来问我：“我打算做一款大象为主角的横版爆破动作游戏，你要不要一起来干？”我当时毫不犹豫地秒回：“我要干！”
+  original: '私はギアプロジェクトに参加したいというのがまずありました。
+
+    私も以前、『リズムハンター ハーモナイト』の開発に関わっていたのですが、それが本当にいい経験になったので、再度ギアの募集がかかった時に、今回も是非参加したい！　と。自前の企画も出していましたし、J.T.さんからもお声がかかって、他の企画にも一枚噛んで。その中でJ.T.さんの案が採用されたので、『TEMBO THE BADASS ELEPHANT』に参画することになりました。'
   role: answer
+  translation: '首先，我是想参加齿轮项目。
+
+    我以前也参与过《节奏猎人 和谐》的开发，那段经历真的很有收获，所以当齿轮项目再次招募时，我就想这次也一定要参加！我自己也提交了企划，J.T. 先生也邀请了我，于是也参与了其他企划。其中 J.T. 先生的方案被采纳了，所以我就参与了《TEMBO THE BADASS ELEPHANT》。'
 - type: heading
   level: 2
   original: 主人公が象であることをどう活かすか
-  translation: 如何将“大象”的生物与物理特质发挥到极致
+  translation: 如何利用主角是大象这一点
 - type: heading
   level: 3
   original: 開発の際、一番大切にしていたことは何ですか？
-  translation: 在实际开发攻坚中，两位最视若生命的核心考量是什么？
+  translation: 开发时最重视的是什么？
 - type: image
   src: /assets/img/interviews/2015-gamefreak-gear-tembo/photo_02.png
-  caption: 探讨大象物理冲撞手感与美漫手绘拟声词炸裂风格的深度结合
 - type: text
-  speaker: J.T.
+  speaker: James Turner
   speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_01.png
-  original: 主人公が象であることを活かしたアクションゲームにすることです。実は最初は、横スクロールアクションではなく、3D空間を自由に走り回るゲームを考えていたんです。でも、プロトタイプを作ってみたら、スピード感が出なくてあまり面白くなかった。そこで、2Dの横スクロールアクションに舵を切り直しました。スピードに乗って突進し、敵や障害物を次々に粉砕していく爽快感を突き詰めたかったんです。コミック調の派手なエフェクトやオノマトペ（擬音・擬態語）を取り入れたのも、その破壊の爽快感を最大限に高めるためでした。
-  translation: 最核心的一点，就是必须做出一款把“主角是一头大象”这一特性发挥到极致的动作游戏。其实最开始的时候，我想的并不是 2D 横版卷轴，而是做成一个在 3D 自由空间中四处狂奔探险的游戏。然而当我们把原型 demo 跑起来之后，发现根本体现不出那种一往无前的速度感，玩起来非常平庸乏味。于是我们果断彻底调头，转向 2D 横版纯粹动作。我们想死磕到底的，正是大象一旦加速冲刺起来，就能把沿途的一切强敌、坦克和摩天大楼接连彻底撞得粉碎的那种极致爽快感！引入美漫风格（Comic-book style）的夸张爆破特效以及漫天飞舞的拟声词（BAROOM! SMASH!），也完全是为了将这种暴力破坏的爽快手感推向顶峰。
+  original: '主人公が象であることを活かしたアクションゲームにすることです。
+
+
+    実は最初は、横スクロールのファイティングゲームにしようと思っていました。鼻でパンチしたりとかするような。
+
+
+    でもそれだとどうしても「象である必然性」を感じられなかった。
+
+
+    なので、象の大きさ、重さを活用できる方法を改めて考え始めて。試しに家のモデルを作り、象が体当たりをして家が爆発するデモを作ってみたら、すごくしっくりきました。それで、「象の体格を活かした破壊」をコアにしたゲームにしよう！　と。'
   role: answer
+  translation: '做成一款活用主角是大象这一点的动作游戏。
+
+
+    其实一开始，我想做成横版卷轴的格斗游戏。比如用鼻子出拳之类的。
+
+
+    但那样的话，总觉得感觉不到“非大象不可的必然性”。
+
+
+    所以，我开始重新思考如何利用大象的体型和重量。试着做了一个房子的模型，让大象撞上去，房子爆炸的演示，感觉非常合适。于是，就决定做一款以“活用大象体格的破坏”为核心的游戏！'
 - type: heading
   level: 3
   original: 大変だったことは何ですか？
-  translation: 在整个开发过程中，遇到过最艰巨的挑战是什么？
+  translation: 最辛苦的是什么？
 - type: text
   speaker: T.M.
   speaker_orig: 3Dグラフィックデザイナー T.M.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_02.png
-  original: マルチプラットフォームは初めてだったので、やっぱり苦労しました。PC上だと動くのに、PS4やXbox Oneの実機に持っていくと処理落ちしたり、想定通りの色味が出なかったり。また、マップモデルのデータ量が多すぎてメモリを圧迫し、何度もモデルの軽量化やテクスチャの最適化を行いました。少人数チームなので、誰かがやってくれるわけではなく、自分で原因を突き止めて解決しなければならない。そのプレッシャーは大きかったですね。
-  translation: 因为这是我们第一次涉足全高清跨平台（Multi-platform），吃尽了苦头。在开发机 PC 上跑得好好的东西，一烧录到 PS4 或 Xbox One 零售测试机上，就会发生严重的帧率骤降（掉帧），或者画面的光影色调完全变了样。而且由于关卡地图的 3D 模型数据量极其庞大，疯狂吞噬主机显存，我们反反复复进行了无数次网格面数轻量化削减与贴图管线优化。因为是极少数人的独立小团队，根本没有任何其他部门的人来替你擦屁股，你必须自己深入底层揪出所有性能瓶颈并亲自解决。那种背水一战的高压是非常真实的。
+  original: マルチプラットフォームは初めてだったので、やっぱり苦労しました。PC上だと動くのに、Xbox Oneだとうまく動かない、カクカクする、うまく表示されない、など。開発前は、Unityを使えば比較的楽に派手なものが作れるだろうと思っていたんですが、実際には同時に3種類のプラットフォームに向けて開発するのはかなり大変でした。
   role: answer
+  translation: 因为是多平台，第一次做，所以还是很辛苦。在 PC 上能运行，但在 Xbox One 上却运行不好、卡顿、显示不正常等等。开发前我以为用 Unity 就能比较轻松地做出华丽的东西，但实际上同时面向 3 种平台开发是相当困难的。
 - type: heading
   level: 3
   original: リリース後の感想としては如何ですか？
-  translation: 游戏在全球正式发售之后，两位现在的心情与感触如何？
-- type: image
-  src: /assets/img/interviews/2015-gamefreak-gear-tembo/photo_03.png
-  caption: 跨平台发行后全球硬核玩家的实况与评价反馈，给予了团队极大的创作成就感
+  translation: 发布后的感想如何？
 - type: text
-  speaker: J.T.
+  speaker: James Turner
   speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_01.png
-  original: 多くのゲームクリエイターがそうだと思いますが、ユーザーの感想を見るのが何より楽しいですね。特に今回はマルチプラットフォームで世界中に配信されたので、海外のゲーム配信者がTwitchやYouTubeで大声を出しながら実況プレイしてくれているのを見て、本当に嬉しかったです。「こんなアクションゲームがやりたかったんだ！」という声を聞いた時は、苦労が報われた思いでした。
-  translation: 我想绝大多数游戏创作者都是如此——亲眼看到全世界玩家的真实反响，是世上最让人兴奋的事情。特别是这一次我们是通过世嘉全球数字发售登陆多平台，当我们看到欧美各大海外游戏主播在 Twitch 和 YouTube 上扯着嗓子大喊大叫、畅快淋漓地实况通关时，内心真的涌起无以言表的自豪与感动。听到玩家们评价说“我渴望的就是这种纯粹硬核的热血动作爽游啊！”，所有为之流血流汗的煎熬都在那一瞬间得到了最完美的奖赏。
+  original: 多くのゲームクリエイターがそうだと思いますが、ユーザーの感想を見るのが何より楽しいし嬉しいです！　PewDiePieさんという著名なYouTuberの方がアップして下さったプレイ動画は、260万PVと10万の「いいね」をもらっています(2015年8月時点)。ユーザーが自発的に取り上げてくれることは、非常にありがたいですね。
   role: answer
+  translation: 我想很多游戏创作者都是这样，看用户的感想是最开心也最高兴的！PewDiePie 这位知名 YouTuber 上传的游玩视频，获得了 260 万播放量和 10 万点赞（截至 2015 年 8 月）。用户自发地提及我们，真的非常感激。
 - type: heading
   level: 2
   original: ギアプロジェクトでしかできない経験
-  translation: 唯有在齿轮企划（Gear Project）中才能淬炼的宝贵蜕变
+  translation: 只有在Gear Project才能获得的经验
 - type: heading
   level: 3
   original: 『TEMBO THE BADASS ELEPHANT』に限らず、ギアプロジェクト制度についてもお伺いしたいと思います。おふたりとも、ギアプロジェクトに参加するのは2回目でしたよね。ギアプロジェクトの魅力は何ですか？
-  translation: 不仅限于《坏象坦博》，我们还想深入请教一下关于 GAME FREAK 独有的“齿轮企划”制度。两位都是第二次参与齿轮企划了，在你们眼中，齿轮企划最大的魅力究竟在哪里？
+  translation: 不仅是《TEMBO THE BADASS ELEPHANT》，我们也想请教一下关于Gear Project制度的事。两位都是第二次参加Gear Project了吧。Gear Project的魅力是什么？
 - type: text
-  speaker: J.T.
+  speaker: James Turner
   speaker_orig: デザイナー J.T.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_01.png
-  original: 自分の考えた世界観が評価され、チャレンジさせてもらえるような環境、なかなかないなと思います。普通、会社で新しいIPを立ち上げるのはリスクが大きいですし、ましてやゲームフリークのように『ポケットモンスター』という巨大なタイトルを持っている会社であれば、なおさらです。でも、ここでは年齢や社歴に関係なく、面白いアイデアがあれば提案でき、認められれば実際にディレクターとしてチームを率いて形にできる。クリエイターにとってこれ以上の刺激はないと思います。
-  translation: 能够让个人纯粹构想的世界观获得严肃公正的评审、并被赋予放手一搏的机会，这样的环境在整个游戏行业内都极度罕见。在普通大厂里，开辟全新原创 IP 伴随着巨大的商业风险；更何况 GAME FREAK 坐拥《宝可梦》这样体量超乎想象的超级 IP，按常理更没有理由分心他顾。然而在游戏狂想，无论你的年龄多小、入职资历多浅，只要有真正击中人心的有趣点子，任何人都能直接向全公司提案；一旦通过审核，你就能以总监（Director）身份亲手组建团队、执掌帅印将其化为现实商业产品。对于任何一个有野心的创作者来说，这世上再没有比这更让人血脉贲张的舞台了。
+  original: 自分の考えた世界観が評価され、チャレンジさせてもらえるような環境、なかなかないなと思います。
   role: answer
+  translation: 自己构思的世界观能得到认可，并且有机会去挑战，这样的环境我觉得很难得。
 - type: text
   speaker: T.M.
   speaker_orig: 3Dグラフィックデザイナー T.M.
-  avatar: /assets/img/interviews/2015-gamefreak-gear-tembo/people_02.png
-  original: 弊社は携帯ハードのゲームを制作しているイメージがあると思いますが、ギアプロジェクトでは本当に何をやってもいいんです。据置機向けでもPC向けでも、ジャンルも自由。また、少人数だからこそ、自分の仕事がダイレクトにゲームのクオリティに反映されます。大きなプロジェクトの歯車のひとつになるのではなく、「自分がこのゲームを作っているんだ」という強烈な手応えと責任感を持てる。そこで得たノウハウや技術は、必ずメインプロジェクトである『ポケットモンスター』の開発にも還元されます。その好循環こそが、ゲームフリークという会社の強みだと実感しています。
-  translation: 外界可能往往带有一种固有刻板印象，觉得 GAME FREAK 只是专门制作掌机平台游戏的厂商；但只要进入齿轮企划，你真正可以做任何想做的事情！无论是面向全高清家用主机还是 PC 平台，游戏类型与表现题材完全不受任何束缚。更重要的是，正因为是极少人数的独立小编制，你的每一笔雕琢、每一行代码都会直接赤裸裸地决定整部作品的生死与品质。你不再是大型工业化生产线上可被替代的一枚螺丝钉，而是由始至终怀揣着“是我亲手创造了这部游戏”的强烈实感与神圣责任感。而在这个过程中千锤百炼积累下来的跨平台开发经验、前沿管线与底层技术，最终又会毫无保留地全数反哺给主力大作《宝可梦》的研发军团之中。这种双轮驱动的良性循环，正是 GAME FREAK 能够长盛不衰的核心底蕴所在。
+  original: '弊社は携帯ハードのゲームを制作しているイメージがあると思いますが、ギアプロジェクトでは本当に何をやってもいいので、デバイスの制限も一切ありません。とにかく、ギアプロジェクトに開発許可を出す人間に「おもしろそう！」と言わせることができれば、チャンスを得ることができます。
+
+
+    あとやっぱり、「ゲームを作っている感」が大規模開発よりも強く味わえます。社内公募に応募して、許可をもらえたら開発して、発売まで責任をもって関わる。どういうゲームにするか、グラフィックのコンセプト、売り方、といったことを一貫して全て体験できる。自分が知らない間に勝手に決まってしまっていることはひとつもないので、本当に「自分たちの手でゲームを作っているんだ」と実感できます。そういう経験をしたいと思っている人にとって、すごく魅力的な制度だと思います。'
   role: answer
+  translation: '公司给人的印象可能是在做掌机游戏，但在Gear Project里真的做什么都可以，设备上也没有任何限制。总之，只要能让批准Gear Project开发的人说出“好像挺有意思！”，就能获得机会。
+
+
+    还有，比起大规模开发，这里更能强烈地体会到“在做游戏”的感觉。参加公司内部征集，获得批准后开发，直到发售都负责任地参与其中。做成什么样的游戏、图形的概念、怎么卖，这些都能从头到尾全部体验一遍。没有一件事是在自己不知道的情况下被擅自决定的，所以真的能感受到“是我们在亲手做游戏”。对于想获得这种经验的人来说，我觉得这是非常有魅力的制度。'
+- type: image
+  src: /assets/img/interviews/2015-gamefreak-gear-tembo/photo_03.png
+interview_id: PKMN-1023
 ---
-<div class="interview-profiles my-5 p-4 bg-light rounded shadow-sm">
-  <h3 class="border-bottom pb-2 mb-4 text-primary fw-bold">受访核心主创背景档案</h3>
-  <div class="row g-4">
-    <div class="col-md-6 border-end">
-      <h4 class="fw-bold mb-1">James Turner（J.T.）</h4>
-      <p class="text-muted small mb-1"><strong>入职：</strong>2009年中途入社（英国籍资深设计师）</p>
-      <p class="text-muted small mb-2"><strong>职务：</strong>《坏象坦博》总监兼艺术总监 /《宝可梦》艺术总监</p>
-      <p class="small text-secondary mb-0">曾主导齿轮企划初代代表作《节奏猎人 哈莫奈特》与《坏象坦博 TEMBO THE BADASS ELEPHANT》，后续担任《宝可梦 剑·盾》艺术总监，以极富个性的美漫手绘夸张爆破风格和硬派动作手感打破传统框架。</p>
-    </div>
-    <div class="col-md-6 ps-md-4">
-      <h4 class="fw-bold mb-1">T.M.</h4>
-      <p class="text-muted small mb-1"><strong>入职：</strong>2011年中途入社</p>
-      <p class="text-muted small mb-2"><strong>职务：</strong>3D 图形设计师 / 场景建模统括</p>
-      <p class="small text-secondary mb-0">深度参与《节奏猎人》与《坏象坦博》双重齿轮企划攻坚，攻克 GAME FREAK 首次登陆 PS4 / Xbox One / PC 跨平台高精度 3D 资产轻量化与底层渲染优化，开辟次世代生产管线。</p>
-    </div>
-  </div>
-</div>

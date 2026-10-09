@@ -3,8 +3,13 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
 title_ja: デザイナー対談 「ゲームクリエイターとしての、ゲームフリークデザイナー」 ｜ GAME FREAK 採用情報
-date: 2021-12-27 10:00:00 +0900
-era: '2021'
+date: 2022-10-15 10:00:00 +0900
+recruit:
+  page: crosstalk-designer
+  version: '2022-10-15'
+  capture: '20221015223633'
+  date_basis: 2022-04-25 的快照仍是旧版（T.U. × J.K.），2022-10-15 已是这一版
+era: '2022'
 categories:
 - developer-interviews
 - gamefreak-recruit
@@ -39,7 +44,7 @@ parallel_items:
   caption: H.T.——《宝可梦传说 阿尔宙斯》CG总监
 - type: text
   speaker_orig: プロフィール
-  original: H.T.：美術大学卒業後、コンシューマーゲームの開発会社に入社。背景を担当したのち、ゲームフリークへ。『Pokémon LEGENDS アルセウス』のCGディレクターを務めた。
+  original: 美術大学卒業後、コンシューマーゲームの開発会社に入社。背景を担当したのち、ゲームフリークへ。『Pokémon LEGENDS アルセウス』のCGディレクターを務めた。
   translation: H.T.：美术大学毕业后，进入家用主机游戏开发公司任职，在担当游戏背景美术设计之后加入 GAME FREAK。担纲《宝可梦传说 阿尔宙斯（Pokémon LEGENDS アルセウス）》的 CG 视觉总监。
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-designer/member-so.jpg
@@ -47,7 +52,7 @@ parallel_items:
   caption: S.O.（大森 滋 / Shigeru Ohmori）——GAME FREAK 取缔役・游戏总监
 - type: text
   speaker_orig: プロフィール
-  original: S.O.（大森 滋 / Shigeru Ohmori）：『ポケットモンスター ルビー・サファイア』から『ポケットモンスター』シリーズの制作に携わり、以後、数々の作品でディレクターを務める。株式会社ゲームフリーク・取締役。
+  original: 『ポケットモンスター ルビー・サファイア』から『ポケットモンスター』シリーズの制作に携わり、以後、数々の作品でディレクターを務める。株式会社ゲームフリーク・取締役。
   translation: S.O.（大森 滋 / Shigeru Ohmori）：从《宝可梦 红宝石·蓝宝石》起深入参与《宝可梦》系列的研发核心，此后在多部正作中担纲总监（Director，包括 ORAS、日月、剑盾、朱紫等）。株式会社 GAME FREAK 取缔役（董事）。
 - type: heading
   level: 2
@@ -174,7 +179,7 @@ entities:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
 original_lang: ja
-summary: "2021 年 GAME FREAK 设计师对谈，大森滋与 H.T. 谈设计师如何超越职能边界。H.T. 任《宝可梦传说 阿尔宙斯》CG 视觉总监，大森滋自《宝可梦 红宝石·蓝宝石》起参与系列，后任 ORAS、日月、剑盾、朱紫总监。两人强调以游戏机制有趣为轴心，设计师可主动提案、跨界做玩法策划；2022 年公司新设概念与视觉工作室，负责次世代美术规范与技术预研。大森滋称公司为实力主义，无论资排辈；《宝可梦》系列已走过 25 年，仍自认处于发展途中。"
+summary: "2022 年 GAME FREAK 设计师对谈，大森滋与 H.T. 谈设计师如何超越职能边界。H.T. 任《宝可梦传说 阿尔宙斯》CG 视觉总监，大森滋自《宝可梦 红宝石·蓝宝石》起参与系列，后任 ORAS、日月、剑盾、朱紫总监。两人强调以游戏机制有趣为轴心，设计师可主动提案、跨界做玩法策划；2022 年公司新设概念与视觉工作室，负责次世代美术规范与技术预研。大森滋称公司为实力主义，无论资排辈；《宝可梦》系列已走过 25 年，仍自认处于发展途中。"
 dek: "大森滋与 H.T. 谈设计师如何跨界创造游戏。"
 topics:
 - "开发流程"

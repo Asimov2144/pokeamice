@@ -4,6 +4,11 @@ layout: interview-editorial
 title: GAME FREAK 官方技术美术（TA）特写 T.K.：敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道
 title_ja: 作り手のニーズを先読みし、新しい環境を創造するTAでありたい。｜テクニカルアーティスト社員紹介 T.K.
 date: 2021-12-27 10:00:00 +0900
+recruit:
+  page: interview-ta-tk
+  version: '2022-06-28'
+  capture: '20220628160831'
+  date_basis: 招聘首页 2021-12-13 的快照还没有、2022-03-11 的已有，与策划对谈（Wayback 首见 2022-01-25）同批
 era: '2021'
 era_skin: '2019'
 categories:
