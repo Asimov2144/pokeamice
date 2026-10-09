@@ -1379,7 +1379,7 @@ overseas:
       - 154
       blurb: Niantic与Pokémon圆桌会议谈《Pokémon GO》开发与未来
 games:
-  docs: 439
+  docs: 443
   n: 41
   top:
   - id: g1-1
@@ -2352,7 +2352,7 @@ games:
   - key: g8
     label: 第八世代
     sub: Switch 上的剑·盾与重制
-    docs: 27
+    docs: 29
     from: 2019
     to: 2022
     people:
@@ -2362,12 +2362,12 @@ games:
     - name: 大森滋
       slug: ohmori-shigeru
       n: 10
+    - name: H.T.
+      slug: h-t
+      n: 3
     - name: T.K.
       slug: t-k
       n: 3
-    - name: 岩尾和昌
-      slug: iwao-kazumasa
-      n: 2
     games:
     - name: 宝可梦 剑·盾
       aliases: []
@@ -2449,10 +2449,10 @@ games:
       id: g8-2
     - name: 宝可梦传说 阿尔宙斯
       aliases: []
-      docs: 11
+      docs: 13
       blogs: 0
       kinds:
-        interview: 9
+        interview: 11
         scan: 0
         topic: 0
         article: 2
@@ -2476,11 +2476,11 @@ games:
       - name: T.K.
         slug: t-k
         n: 3
+      - name: K.M.
+        slug: k-m
+        n: 2
       - name: 今村啓太
         slug: jin-cun-qi-tai
-        n: 1
-      - name: 大洞翔一
-        slug: da-dong-xiang-yi
         n: 1
       year: 2022
       span:
@@ -2493,7 +2493,7 @@ games:
   - key: g9
     label: 第九世代
     sub: 朱·紫与 Z-A
-    docs: 17
+    docs: 19
     from: 2022
     to: 2025
     people:
@@ -2512,24 +2512,24 @@ games:
     games:
     - name: 宝可梦 朱·紫
       aliases: []
-      docs: 11
+      docs: 13
       blogs: 0
       kinds:
-        interview: 11
+        interview: 13
         scan: 0
         topic: 0
         article: 0
       picks:
-      - title: 宝可梦朱紫的动画制作
-        kind: interview
-        date: '2023-04-19'
-        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/
-        pub: CGWORLD.jp
       - title: 宝可梦环境音的制作幕后
         kind: interview
         date: '2023-08-24'
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2023-cedec-sound/
         pub: Fami通.com
+      - title: 入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。
+        kind: interview
+        date: '2024-02-13'
+        url: /interviews/interview-gamefreak-crosstalk-new-graduate/
+        pub: Game Freak 採用情報
       - title: 宝可梦战斗系统基础设计
         kind: interview
         date: '2026-07-22'
