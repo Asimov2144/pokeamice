@@ -159,7 +159,9 @@ def canonical_url(fm: dict, slug: str) -> str:
     if explicit:
         return SITE + (explicit if explicit.startswith("/") else "/" + explicit)
     cats = [clean(c).lower() for c in as_list(fm.get("categories")) if clean(c)]
-    return SITE + "/" + "/".join(urllib.parse.quote(c) for c in cats) + "/" + urllib.parse.quote(jekyll_title_slug(slug)) + "/"
+    # 没有分类的帖子 Jekyll 给的是 /<slug>/，不能拼出 .com//<slug>/
+    parts = [urllib.parse.quote(c) for c in cats] + [urllib.parse.quote(jekyll_title_slug(slug))]
+    return SITE + "/" + "/".join(parts) + "/"
 
 
 def kind_of(fm: dict) -> str:
