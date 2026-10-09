@@ -1,8 +1,8 @@
 ---
 layout: interview-editorial
 archive_type: interview_translation
-title: GAME FREAK 官方专访 研究开发部篇（2019）：引入多种技术，实现“想要精心打磨”（R.T. × Y.Y.）
-display_title: 研究开发部，启动
+title: GAME FREAK 官方专访 研究开发部篇（设立第 3 年）：引入多种技术，实现“想要精心打磨”（R.T. × Y.Y.）
+display_title: 研究开发部，启动（设立第 3 年）
 title_ja: ゲームフリーク、技術開発への挑戦
 date: 2017-04-01 10:00:00 +0900
 era: '2017'
