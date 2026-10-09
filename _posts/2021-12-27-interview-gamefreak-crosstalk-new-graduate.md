@@ -6,8 +6,8 @@ display_title: 入社动机是什么？新人培训如何？能否茁壮成长�
 title_ja: 新卒若手対談：入社の理由は？新人研修は？成長できる環境？若手社員6人が、本音で語り合いました。
 date: 2024-02-13 10:00:00 +0900
 era: '2024'
-categories:
-- interviews
+permalink: /interviews/interview-gamefreak-crosstalk-new-graduate/
+- interviews
 - gamefreak-recruit
 tags:
 - Game Freak

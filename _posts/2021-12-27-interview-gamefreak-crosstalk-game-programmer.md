@@ -6,8 +6,8 @@ display_title: 最重要的是否能把握住“玩法的本质”。
 title_ja: ゲームプログラマ対談｜採用情報
 date: 2024-02-13 10:00:00 +0900
 era: '2024'
-categories:
-- interviews
+permalink: /interviews/interview-gamefreak-crosstalk-game-programmer/
+- interviews
 - gamefreak-recruit
 tags:
 - Game Freak

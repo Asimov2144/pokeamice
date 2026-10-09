@@ -6,8 +6,8 @@ display_title: 乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK�
 title_ja: システムプログラマ対談：変化を楽しみ続ける人が、10年後のゲームフリークを作る。
 date: 2024-02-13 10:00:00 +0900
 era: '2024'
-categories:
-- interviews
+permalink: /interviews/interview-gamefreak-crosstalk-system-programmer/
+- interviews
 - gamefreak-recruit
 tags:
 - Game Freak
