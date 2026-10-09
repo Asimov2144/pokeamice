@@ -331,7 +331,9 @@ end
 FileUtils.mkdir_p(DATA_DIR)
 File.write(File.join(DATA_DIR, "resource-index.json"), JSON.pretty_generate(index), encoding: "UTF-8")
 
-FileUtils.rm_rf(GENERATED_DIR)
+# only the entity pages are ours; _pages/generated/timeline/<year>.md belongs to tools/build-timeline.py
+# (wiping the whole folder took the year pages off the site in 5d72f67d)
+FileUtils.rm_rf(File.join(GENERATED_DIR, "entities"))
 FileUtils.mkdir_p(GENERATED_DIR)
 
 def write_page(path, front, body)
