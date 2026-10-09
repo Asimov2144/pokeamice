@@ -333,7 +333,7 @@ overseas:
         icon: /assets/img/works/bulba-platinum-icon.png
       blurb: 增田顺一与河内丸武史解释宝可梦如何以简单上手、收集交换与隐藏深度长期留住玩家。
     - title: 解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
-      url: //interview-g4tv-platinum-masuda-kawachimaru/
+      url: /interview-g4tv-platinum-masuda-kawachimaru/
       date: '2009-03-24'
       outlet: g4
       outlet_name: G4TV
@@ -496,7 +496,7 @@ overseas:
       - 309
       blurb: 精灵球里是什么样？人类能吃神奇糖果吗？《宝可梦 黑2·白2》总监与制作人回答那些你一直好奇的问题。
     - title: 从3D全面进化到超级超级特训
-      url: //interview-nwr-xy-masuda-yoshida/
+      url: /interview-nwr-xy-masuda-yoshida/
       date: '2013-10-04'
       outlet: nwr
       outlet_name: Nintendo World Report
@@ -676,7 +676,7 @@ overseas:
       - 550
       blurb: Game Freak 的增田顺一回顾初代《宝可梦》六年的开发历程、数据危机与系列核心。
     - title: 增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》
-      url: //interview-gamespot-lgpe-masuda/
+      url: /interview-gamespot-lgpe-masuda/
       date: '2018-10-17'
       outlet: gamespot
       outlet_name: GameSpot
@@ -898,7 +898,7 @@ overseas:
       - 450
       blurb: 增田顺一与吉田宏信谈《宝可梦 X·Y》的3D转型、卡洛斯地区与超级进化。
     - title: 任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛
-      url: //interview-onm-xy-sugimori/
+      url: /interview-onm-xy-sugimori/
       date: '2013-10-24'
       outlet: onm
       outlet_name: ONM
@@ -911,7 +911,7 @@ overseas:
       - 343
       blurb: 杉森建谈《宝可梦 X／Y》封面神兽设计瓶颈
     - title: “世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道
-      url: //interview-eurogamer-spain-xy-masuda-yoshida/
+      url: /interview-eurogamer-spain-xy-masuda-yoshida/
       date: '2013-11-04'
       outlet: eurogamer
       outlet_name: Eurogamer
@@ -1063,7 +1063,7 @@ overseas:
         icon: /assets/img/works/bulba-platinum-icon.png
       blurb: “没有二流的宝可梦。每一只都品质很高、设计出色。”——增田顺一
     - title: 专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访
-      url: //interview-hobbyconsolas-xy-masuda/
+      url: /interview-hobbyconsolas-xy-masuda/
       date: '2013-11-06'
       outlet: hobby
       outlet_name: Hobby Consolas
@@ -1076,7 +1076,7 @@ overseas:
       - 720
       blurb: 增田顺一谈《宝可梦 X／Y》全球同步发售与设计幕后
     - title: “为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋
-      url: //interview-elpais-oras-masuda-ohmori/
+      url: /interview-elpais-oras-masuda-ohmori/
       date: '2014-11-01'
       outlet: elpais
       outlet_name: 《国家报》
@@ -1102,7 +1102,7 @@ overseas:
       - 466
       blurb: 增田顺一与大森滋在巴塞罗那 iDÉAME Kids 回答少年儿童提问。
     - title: 专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋
-      url: //interview-gq-spain-sun-moon-masuda-ohmori/
+      url: /interview-gq-spain-sun-moon-masuda-ohmori/
       date: '2016-12-05'
       outlet: gq
       outlet_name: GQ 西班牙
@@ -1115,7 +1115,7 @@ overseas:
       - 594
       blurb: 增田顺一与大森滋谈《太阳／月亮》与宝可梦二十年。
     - title: Nintendo Switch 就是未来。
-      url: //interview-meristation-sun-moon-switch-masuda-ohmori/
+      url: /interview-meristation-sun-moon-switch-masuda-ohmori/
       date: '2016-12-12'
       outlet: meri
       outlet_name: MeriStation
@@ -1213,7 +1213,7 @@ overseas:
       n: 2
     items:
     - title: 走入幕后对话 GAME FREAK 的宝可梦大师：《心金／魂银》十周年重塑·六位核心主创深度圆桌访谈
-      url: //interview-pokemon-com-hgss-masuda-morimoto/
+      url: /interview-pokemon-com-hgss-masuda-morimoto/
       date: '2010-03-31'
       outlet: pcom
       outlet_name: Pokémon.com
@@ -1294,7 +1294,7 @@ overseas:
       - 327
       blurb: GAME FREAK 两位开发者谈《究极之日／究极之月》的设计与制作。
     - title: 大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
-      url: //interview-pokemon-com-usum-ohmori-iwao/
+      url: /interview-pokemon-com-usum-ohmori-iwao/
       date: '2017-11-09'
       outlet: pcom
       outlet_name: Pokémon.com
@@ -1379,12 +1379,12 @@ overseas:
       - 154
       blurb: Niantic与Pokémon圆桌会议谈《Pokémon GO》开发与未来
 games:
-  docs: 441
+  docs: 439
   n: 41
   top:
   - id: g1-1
     name: 宝可梦 红·绿
-    docs: 72
+    docs: 71
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
   - id: g5-1
@@ -1423,7 +1423,7 @@ games:
   - key: g1
     label: 第一世代
     sub: 红·绿·蓝·皮卡丘
-    docs: 74
+    docs: 73
     from: 1996
     to: 1998
     people:
@@ -1442,10 +1442,10 @@ games:
     games:
     - name: 宝可梦 红·绿
       aliases: []
-      docs: 72
+      docs: 71
       blogs: 32
       kinds:
-        interview: 67
+        interview: 66
         scan: 5
         topic: 0
         article: 0
@@ -1499,11 +1499,11 @@ games:
       - title: GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）
         kind: interview
         date: '1997-10-16'
-        url: //interview-gamefreak-official-red-green-staff/
+        url: /interview-gamefreak-official-red-green-staff/
         pub: ''
-      - title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.…
+      - title: 研究开发部，启动！（技术美术）
         kind: interview
-        date: '2017-06-01'
+        date: '2017-03-29'
         url: /developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-ta-taya-kk/
         pub: Game Freak 採用情報
       people:
@@ -2163,20 +2163,20 @@ games:
         topic: 0
         article: 0
       picks:
-      - title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
+      - title: 我加入GAME FREAK的理由 图形设计师篇
         kind: interview
-        date: '2015-10-01'
+        date: '2015-10-21'
         url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/
         pub: Game Freak 採用情報
-      - title: GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）
+      - title: 我进入GAME FREAK的理由 策划篇
         kind: interview
-        date: '2015-10-01'
+        date: '2015-10-21'
         url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/
         pub: Game Freak 採用情報
       - title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
         kind: interview
         date: '2017-11-09'
-        url: //interview-pokemon-com-usum-ohmori-iwao/
+        url: /interview-pokemon-com-usum-ohmori-iwao/
         pub: ''
       people:
       - name: A.I.
@@ -2299,7 +2299,7 @@ games:
       year: 2017
       span:
       - 2017
-      - 2021
+      - 2019
       icon: /assets/img/works/home-ultra-sun.png
       icon2: /assets/img/works/home-ultra-moon.png
       credits: usum
@@ -2343,7 +2343,7 @@ games:
       year: 2018
       span:
       - 2018
-      - 2021
+      - 2019
       icon: /assets/img/works/home-lets-go-pikachu.png
       icon2: /assets/img/works/home-lets-go-eevee.png
       credits: lets-go
@@ -2352,7 +2352,7 @@ games:
   - key: g8
     label: 第八世代
     sub: Switch 上的剑·盾与重制
-    docs: 26
+    docs: 27
     from: 2019
     to: 2022
     people:
@@ -2361,9 +2361,9 @@ games:
       n: 11
     - name: 大森滋
       slug: ohmori-shigeru
-      n: 9
-    - name: H.T.
-      slug: h-t
+      n: 10
+    - name: T.K.
+      slug: t-k
       n: 3
     - name: 岩尾和昌
       slug: iwao-kazumasa
@@ -2407,7 +2407,7 @@ games:
       year: 2019
       span:
       - 2019
-      - 2023
+      - 2025
       icon: /assets/img/works/home-sword.png
       icon2: /assets/img/works/home-shield.png
       credits: sword-shield
@@ -2449,10 +2449,10 @@ games:
       id: g8-2
     - name: 宝可梦传说 阿尔宙斯
       aliases: []
-      docs: 10
+      docs: 11
       blogs: 0
       kinds:
-        interview: 8
+        interview: 9
         scan: 0
         topic: 0
         article: 2
@@ -2462,30 +2462,30 @@ games:
         date: '2021-11-29'
         url: /developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/
         pub: NewsPicks Brand Design
-      - title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
+      - title: 程序员说「做不到」，再好的点子也实现不了
         kind: interview
         date: '2021-12-27'
-        url: /interviews/interview-gamefreak-crosstalk-system-programmer/
-        pub: ''
+        url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-programmer/
+        pub: Game Freak 採用情報
       - title: 两款宝可梦同时开发的模型共通化
         kind: interview
         date: '2022-08-25'
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/
         pub: 电Fami Nico Gamer
       people:
-      - name: K.M.
-        slug: k-m
-        n: 2
       - name: T.K.
         slug: t-k
-        n: 2
+        n: 3
       - name: 今村啓太
         slug: jin-cun-qi-tai
         n: 1
+      - name: 大洞翔一
+        slug: da-dong-xiang-yi
+        n: 1
       year: 2022
       span:
-      - 2021
-      - 2024
+      - 2019
+      - 2025
       icon: /assets/img/works/home-legends-arceus.png
       credits: legends-arceus
       title_zh: 宝可梦传说 阿尔宙斯
@@ -2493,7 +2493,7 @@ games:
   - key: g9
     label: 第九世代
     sub: 朱·紫与 Z-A
-    docs: 19
+    docs: 17
     from: 2022
     to: 2025
     people:
@@ -2512,19 +2512,19 @@ games:
     games:
     - name: 宝可梦 朱·紫
       aliases: []
-      docs: 13
+      docs: 11
       blogs: 0
       kinds:
-        interview: 13
+        interview: 11
         scan: 0
         topic: 0
         article: 0
       picks:
-      - title: GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声
+      - title: 宝可梦朱紫的动画制作
         kind: interview
-        date: '2021-12-27'
-        url: /interviews/interview-gamefreak-crosstalk-new-graduate/
-        pub: ''
+        date: '2023-04-19'
+        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/
+        pub: CGWORLD.jp
       - title: 宝可梦环境音的制作幕后
         kind: interview
         date: '2023-08-24'
@@ -2547,7 +2547,7 @@ games:
         n: 3
       year: 2022
       span:
-      - 2021
+      - 2022
       - 2026
       icon: /assets/img/works/home-scarlet.png
       icon2: /assets/img/works/home-violet.png
@@ -2680,7 +2680,7 @@ games:
       - title: 正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人
         kind: interview
         date: '2018-02-23'
-        url: //interview-newspicks-pokemon-utsunomiya-kawamoto/
+        url: /interview-newspicks-pokemon-utsunomiya-kawamoto/
         pub: ''
       - title: 皮卡丘诞生秘话
         kind: interview
@@ -2722,7 +2722,7 @@ games:
         pub: Game Informer
       - title: GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落
         kind: interview
-        date: '2021-12-27'
+        date: '2019-12-11'
         url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planner-kf/
         pub: Game Freak 採用情報
       people:
@@ -2735,7 +2735,7 @@ games:
       year: 2020
       span:
       - 2014
-      - 2021
+      - 2019
       icon: /assets/img/works/home-home.png
       id: mobile-3
   - key: spin
