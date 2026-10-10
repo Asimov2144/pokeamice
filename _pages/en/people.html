@@ -1,0 +1,11 @@
+---
+layout: english-discovery
+lang: en
+title: Pokémon Developers & Staff
+description: Find Pokémon developer profiles by English, Japanese and Chinese names, with related interviews, credited games and source references in the Chinese archive.
+permalink: /en/people/
+search: false
+---
+{% assign archive = site.data.en_discovery %}
+<section class="en-archive__section"><h2>Follow a developer through the sources</h2><p>{{ archive.people_count }} profiles connect people to archive records and staff credits. The selection below starts with people frequently covered in interviews. Profiles include source references, historical portraits where available, related people and game credits.</p><p>Role summaries come from credited work. They describe recorded contributions across games and do not assert a person's current job or employer. Interview counts include records associated with the person; a mention does not always mean they were interviewed.</p><p><a href="{{ '/people/' | relative_url }}">Open the complete Chinese people directory</a> · <a href="{{ '/credits/staff/' | relative_url }}">Compare staff across games</a></p></section>
+<section class="en-archive__section"><h2>Developers in the interview archive</h2>{% include english/people.html people=archive.people %}</section>

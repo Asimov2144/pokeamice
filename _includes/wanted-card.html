@@ -37,8 +37,8 @@
   {%- if it.people %}
   <p class="wanted-card__people">
     {%- for n in it.people -%}
-      {%- assign pe = site.data.people | where: "name", n | first -%}
-      {%- if pe.slug and pe.kind != "character" -%}<a href="{{ '/people/' | append: pe.slug | append: '/' | relative_url }}">{{ n }}</a>{%- else -%}<span>{{ n }}</span>{%- endif -%}
+      {%- assign wanted_person = n | person_identity -%}
+      {%- if wanted_person -%}<a href="{{ wanted_person.url | relative_url }}">{% include person-name.html person=n %}</a>{%- else -%}<span>{{ n | escape }}</span>{%- endif -%}
       {%- unless forloop.last %}<i aria-hidden="true">·</i>{% endunless -%}
     {%- endfor -%}
   </p>

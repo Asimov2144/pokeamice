@@ -31,7 +31,7 @@
     (links || []).forEach(function (l) {
       if (!l || !l.name) return;
       var href = l.type === "person" && l.slug ? card.dataset.peopleBase + l.slug + "/" : card.dataset.searchBase + encodeURIComponent(l.name);
-      html = html.replace(esc(l.name), '<a href="' + href + '">' + esc(l.name) + '</a>');
+      html = html.replace(esc(l.name), '<a href="' + href + '">' + esc((l.type === 'person' && l.slug && (window.pokeamicePersonLabels || {})[l.slug]) || l.name) + '</a>');
     });
     return html;
   }

@@ -573,8 +573,8 @@
   margin-top: 8px;
 }
 
-.search-result-card__tags span,
-.search-result-card__tags a {
+.search-result-card__tags > span,
+.search-result-card__tags > a {
   border: 1px solid rgba($primary-color, 0.22);
   border-radius: 999px;
   padding: 2px 8px;

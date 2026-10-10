@@ -1,0 +1,7 @@
+<div class="masthead"><div class="masthead__inner-wrap"><div class="masthead__menu">
+<nav id="site-nav" class="greedy-nav" lang="en">
+{% if site.logo %}<a class="site-logo" href="{{ '/en/' | relative_url }}"><img src="{{ site.logo | relative_url }}" alt="{{ site.title }}"></a>{% endif %}
+<a class="site-title" href="{{ '/en/' | relative_url }}">{{ site.title }}<span class="site-subtitle">Pokémon development research</span></a>
+<ul class="visible-links"><li class="masthead__menu-item"><a href="{{ '/en/interviews/' | relative_url }}">Interviews</a></li><li class="masthead__menu-item"><a href="{{ '/en/people/' | relative_url }}">People</a></li><li class="masthead__menu-item"><a href="{{ '/en/credits/' | relative_url }}">Credits</a></li><li class="masthead__menu-item"><a href="{{ '/' | relative_url }}" lang="zh-CN" hreflang="zh-CN">中文</a></li><li class="masthead__menu-item"><a href="{{ '/ja/' | relative_url }}" lang="ja" hreflang="ja">日本語</a></li></ul>
+<button class="greedy-nav__toggle hidden" type="button"><span class="visually-hidden">Menu</span><div class="navicon"></div></button><ul class="hidden-links hidden"></ul>
+</nav></div></div></div>

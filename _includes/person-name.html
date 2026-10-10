@@ -1,0 +1,3 @@
+{%- assign identity = include.person | person_identity -%}
+{%- assign native_name = include.native | default: identity.name_zh | default: identity.name | default: include.person -%}
+{{- native_name | escape -}}{%- if identity.name_en and identity.name_en != native_name %} · <span lang="en" class="person-romanized">{{ identity.name_en | escape }}</span>{% endif -%}

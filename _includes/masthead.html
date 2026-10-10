@@ -15,6 +15,7 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
+          <li class="masthead__menu-item"><a href="{{ '/en/' | relative_url }}" lang="en" hreflang="en">English</a></li>
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
               <a

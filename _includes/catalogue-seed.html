@@ -73,7 +73,7 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
     {% assign avatars = "" | split: "" %}
     {% assign slugs = "" | split: "" %}
     {% for who in post.entities.people %}
-      {% assign hit = site.data.people | where: "name", who | first %}
+      {% assign hit = who | person_identity %}
       {% include person-avatar.html who=who post=post %}
       {% assign avatars = avatars | push: pa_src %}
       {% if hit.slug and hit.kind != "character" %}{% assign slugs = slugs | push: hit.slug %}{% else %}{% assign slugs = slugs | push: "" %}{% endif %}
@@ -94,6 +94,8 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
       "tags": {{ post.tags | jsonify }},
       "topics": {% if post.topics %}{{ post.topics | jsonify }}{% else %}[]{% endif %},
       "people": {% if post.entities.people %}{{ post.entities.people | jsonify }}{% else %}[]{% endif %},
+      "people_labels": [{% for who in post.entities.people %}{% assign identity = who | person_identity %}{{ identity.label | default: who | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}],
+      "people_aliases": [{% for who in post.entities.people %}{% assign identity = who | person_identity %}{{ identity.aliases | join: " " | default: who | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}],
       "avatars": {{ avatars | jsonify }},
       "slugs": {{ slugs | jsonify }},
       "work_icons": {{ work_icons | jsonify }},

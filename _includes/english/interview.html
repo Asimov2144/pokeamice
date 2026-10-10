@@ -1,0 +1,14 @@
+<article class="en-archive__record">
+  <p class="en-archive__eyebrow">{{ include.record.year }} · {{ include.record.source | escape }}</p>
+  <h3><a href="{{ include.record.url | relative_url }}">{{ include.record.title | escape }}</a></h3>
+  {% if include.record.summary %}<p>{{ include.record.summary }}</p>{% endif %}
+  {% if include.record.works.size > 0 %}<p>Works discussed: {{ include.record.works | join: '; ' | escape }}.</p>{% endif %}
+  {% if include.record.people.size > 0 %}<p>People in this record: {% for person in include.record.people %}<a href="{{ person.url | relative_url }}">{{ person.name_en | default: person.name | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
+  <p class="en-archive__native" lang="zh-CN">{{ include.record.chinese_title | escape }}</p>
+  <ul class="en-archive__availability" aria-label="Available source languages">
+    {% if include.record.original_en %}<li><a href="{{ include.record.original_url | escape }}" lang="en" rel="noopener">Original English available</a></li>{% endif %}
+    <li><a href="{{ include.record.url | relative_url }}" lang="zh-CN">{% if include.record.chinese_translation %}Chinese translation available{% else %}Chinese archive record{% endif %}</a></li>
+    {% if include.record.ja_url %}<li><a href="{{ include.record.ja_url | relative_url }}" lang="ja">Japanese translation available</a></li>{% endif %}
+  </ul>
+  {% if include.record.added %}<p class="en-archive__fine">Added to this archive: {{ include.record.added }}. The year above refers to the source record.</p>{% endif %}
+</article>

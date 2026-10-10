@@ -33,7 +33,8 @@ i icon · m entries that mention the work.
   {%- assign summary = summary | replace: "  ", " " | replace: " 。", "。" | strip -%}
   {%- assign xp = pf.credits.expertise -%}{%- if xp == nil -%}{%- assign xp = "" | split: "" -%}{%- endif -%}
   {%- unless tj_first -%},{%- endunless -%}{%- assign tj_first = false -%}
-  {{ me.slug | jsonify }}:{"n":{{ me.name | jsonify }},"a":{{ me.avatar | default: "" | jsonify }},"r":{{ role_line | strip | jsonify }},"i":{{ pf.interviews.entries | default: 0 }},"k":{{ pf.interviews.spoken_in | default: 0 }},"g":{{ pf.credits.games | default: cr.games | default: 0 }},"x":{{ xp | slice: 0, 3 | jsonify }},"s":{{ summary | truncate: 96 | jsonify }}}
+  {%- assign tip_person = me.slug | person_identity -%}
+  {{ me.slug | jsonify }}:{"n":{{ tip_person.label | default: me.name | jsonify }},"a":{{ me.avatar | default: "" | jsonify }},"r":{{ role_line | strip | jsonify }},"i":{{ pf.interviews.entries | default: 0 }},"k":{{ pf.interviews.spoken_in | default: 0 }},"g":{{ pf.credits.games | default: cr.games | default: 0 }},"x":{{ xp | slice: 0, 3 | jsonify }},"s":{{ summary | truncate: 96 | jsonify }}}
 {%- endfor -%}
 },"works":{
 {%- assign tj_first = true -%}

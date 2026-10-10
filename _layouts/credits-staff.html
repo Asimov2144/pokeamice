@@ -56,6 +56,7 @@ row so a mark can be traced back to its game and person.
 
 <script>
 (function () {
+  var personLabels = {% include person-labels-json.html %};
   var url = "{{ '/assets/data/credits-staff.json' | relative_url }}";
   var q = document.getElementById("credits-q"), min = document.getElementById("credits-min"), cat = document.getElementById("credits-cat"),
       lead = document.getElementById("credits-lead"), count = document.getElementById("credits-count"),
@@ -110,7 +111,7 @@ row so a mark can be traced back to its game and person.
     var s = q.value.trim().toLowerCase(), m = parseInt(min.value, 10), c = cat.value, onlyLead = lead.checked;
     view = data.people.filter(function (p) {
       if (p.c < m) return false;
-      if (s && !((p.n || "").toLowerCase().indexOf(s) >= 0 || (p.k || "").indexOf(s) >= 0 || (p.y || "").indexOf(s) >= 0)) return false;
+      if (s && !((p.n || "").toLowerCase().indexOf(s) >= 0 || (personLabels[p.s] || "").toLowerCase().indexOf(s) >= 0 || (p.k || "").indexOf(s) >= 0 || (p.y || "").indexOf(s) >= 0)) return false;
       if (c || onlyLead) {
         // any of the person's roles on any game, not the primary alone
         var ok = false;
@@ -129,7 +130,7 @@ row so a mark can be traced back to its game and person.
 
   function row(p, i) {
     rowIndex[i] = p;
-    var name = p.s ? '<a href="{{ '/people/' | relative_url }}' + esc(p.s) + '/">' + esc(p.n) + '</a>' : esc(p.n);
+    var name = p.s ? '<a href="{{ '/people/' | relative_url }}' + esc(p.s) + '/">' + esc(personLabels[p.s] || p.n) + '</a>' : esc(p.n);
     var sub = [p.k, p.y].filter(Boolean).map(esc).join(" · ");
     var h = '<tr data-i="' + i + '"><td class="is-name">' + name + (sub ? '<small>' + sub + '</small>' : '') + '</td><td class="is-num">' + p.c + '</td><td class="is-num">' + p.f + '</td><td class="is-num">' + p.l + '</td>';
     data.games.forEach(function (g, k) {
@@ -181,7 +182,7 @@ row so a mark can be traced back to its game and person.
       '<div><b><a href="' + creditsBase + esc(g.slug) + '/">' + esc(g.title) + '</a></b><small>' + esc(g.short) + ' · ' + g.year + ' · ' + esc(g.developer) + '</small></div>';
     var initial = (p.k || p.n || "?").charAt(0);
     cardPerson.innerHTML = (p.a ? '<img src="' + esc(p.a) + '" alt="" width="44" height="44">' : '<span class="credits__card-initial" aria-hidden="true">' + esc(initial) + '</span>') +
-      '<div><b>' + (p.s ? '<a href="' + peopleBase + esc(p.s) + '/">' + esc(p.n) + '</a>' : esc(p.n)) + '</b>' +
+      '<div><b>' + (p.s ? '<a href="' + peopleBase + esc(p.s) + '/">' + esc(personLabels[p.s] || p.n) + '</a>' : esc(p.n)) + '</b>' +
       ([p.k, p.y].filter(Boolean).length ? '<small>' + [p.k, p.y].filter(Boolean).map(esc).join(" · ") + '</small>' : '') + '</div>';
     var roles = rolesOf(r).map(function (x) { return '<span><i class="cat-' + esc(x.cat) + '">' + esc(abbr(x.cat)) + MARK[x.rank] + '</i>' + esc(x.role) + (x.ja ? '<small>' + esc(x.ja) + '</small>' : '') + '</span>'; }).join("");
     // every category the person held on this game, the primary first, each with its best rank

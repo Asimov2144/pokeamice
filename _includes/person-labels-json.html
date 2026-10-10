@@ -1,0 +1,1 @@
+{ {% for entry in site.data.person_identities %}{{ entry[0] | jsonify }}: {{ entry[1].label | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %} }

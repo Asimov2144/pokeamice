@@ -1,0 +1,17 @@
+# Identity aliases only. These do not add invisible names or sameAs to JSON-LD.
+# Keep separate subsidiaries and publishers separate (e.g. Nintendo Europe / TPCi).
+organizations:
+  - name: Game Freak
+    aliases: [GAME FREAK inc., ゲームフリーク, 株式会社ゲームフリーク]
+    sources: [https://www.gamefreak.co.jp/company/]
+  - name: Nintendo
+    aliases: [任天堂, 任天堂株式会社, "Nintendo Co., Ltd."]
+    sources:
+      - https://www.nintendo.co.jp/corporate/en/outline/index.html
+      - https://www.nintendo.co.jp/corporate/outline/index.html
+  - name: Creatures
+    aliases: ["Creatures, Inc.", Creatures Inc., クリーチャーズ, 株式会社クリーチャーズ]
+    sources: [https://www.creatures.co.jp/company/]
+  - name: The Pokémon Company
+    aliases: [株式会社ポケモン]
+    sources: [https://corporate.pokemon.co.jp/aboutus/company/]

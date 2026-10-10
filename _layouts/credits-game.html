@@ -28,6 +28,7 @@ person page are already linked in the body.
         <div class="person__id">
           <h1 class="person__name">{{ g.title_zh }}</h1>
           <p class="person__aliases">{{ g.title }} · {{ g.year }} · {{ g.developer }}{% if g.note %} · {{ g.note }}{% endif %}</p>
+          {% if page.credits_japanese_name %}<p class="person__aliases">日文名单名：<a href="{{ g.source_ja }}" rel="noopener">{{ page.credits_japanese_name }}</a></p>{% endif %}
           <p class="credits__meta">{{ g.count }} 条署名{% if g.core %} · 核心作品{% else %} · 外传{% endif %}{% if page.gf_count %} · <img class="credits__gf credits__gf--head" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> Game Freak 成员 {{ page.gf_count }} 人{% endif %}
             · 来源：<a href="{{ g.source }}" rel="noopener">Bulbapedia</a>{% if g.source_ja %} · <a href="{{ g.source_ja }}" rel="noopener">ポケモンWiki</a>{% endif %}</p>
         </div>
@@ -37,9 +38,10 @@ person page are already linked in the body.
         <div class="credits__roll">
           {%- comment -%} 团队画像：tools/build-atlas-pages.py 预渲染到 _includes/atlas/<game>.html，按数据等级降级 {%- endcomment -%}
           {% capture atlas_file %}atlas/{{ page.game }}.html{% endcapture %}
-          {% include {{ atlas_file }} %}
+          {% capture atlas_html %}{% include {{ atlas_file }} %}{% endcapture %}
+          {{ atlas_html | person_links }}
           <h2 class="credits__h2" id="roll">名单 <small>{{ g.count }} 条署名</small></h2>
-          {{ content }}
+          {{ content | person_links }}
         </div>
 
         <aside class="person__side credits__side">

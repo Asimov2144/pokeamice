@@ -93,7 +93,7 @@
     {% if has_entities %}
       <div class="resource-entities" aria-label="关联实体">
         {% if entities.people %}
-          <p><span>人物</span>{% for item in entities.people %}<em>{{ item }}</em>{% endfor %}</p>
+          <p><span>人物</span>{% for item in entities.people %}{% assign person_identity = item | person_identity %}<em>{% if person_identity %}<a href="{{ person_identity.url | relative_url }}">{% include person-name.html person=item %}</a>{% else %}{{ item }}{% endif %}</em>{% endfor %}</p>
         {% endif %}
         {% if entities.works %}
           <p><span>作品</span>{% for item in entities.works %}<em>{{ item }}</em>{% endfor %}</p>

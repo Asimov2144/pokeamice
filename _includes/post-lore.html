@@ -36,7 +36,8 @@
       <dt>人</dt>
       {%- comment -%} 动画角色与只被引述的人物（kind: character / figure）在人物库里有 slug 却没有页，不做成链接 {%- endcomment -%}
       <dd>{%- for p in lore_people limit: 12 -%}
-        {%- if p.slug and p.kind == nil -%}<a href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }}</a>
+        {%- assign lore_person = p.slug | person_identity -%}
+        {%- if lore_person -%}<a href="{{ lore_person.url | relative_url }}">{% include person-name.html person=p.slug %}</a>
         {%- else -%}<span>{{ p.name }}</span>{%- endif -%}
       {%- endfor -%}</dd>
     </div>

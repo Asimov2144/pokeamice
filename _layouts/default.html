@@ -35,7 +35,7 @@
     <script>(function(){try{var t=localStorage.getItem("selectedTheme");if(t==="black"){document.body.classList.replace("theme-bg-white","theme-bg-black");}else if(t==="default"){document.body.classList.remove("theme-bg-white");}}catch(e){}})();</script>
     {%- endunless %}
     {% include_cached skip-links.html lang=page.lang %}
-    {% if page.lang == "ja" %}{% include masthead-ja.html %}{% else %}{% include_cached masthead.html %}{% endif %}
+    {% if page.lang == "ja" %}{% include masthead-ja.html %}{% elsif page.lang == "en" %}{% include masthead-en.html %}{% else %}{% include_cached masthead.html %}{% endif %}
 
     <div class="initial-content">
       {{ content }}

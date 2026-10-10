@@ -1,0 +1,19 @@
+---
+layout: english-discovery
+lang: en
+title: Poke Amice Docs — Pokémon Development Research Archive
+seo_title: Poke Amice Docs — Pokémon Development Research Archive
+description: Explore historical Pokémon developer interviews, Game Freak archive reconstruction, staff credits, people profiles, magazine scans and multilingual translations.
+permalink: /en/
+search: false
+---
+{% assign archive = site.data.en_discovery %}
+<section class="en-archive__section" aria-labelledby="overview"><h2 id="overview">Archive overview</h2>
+<p>Follow the people and sources behind Pokémon's development. This independent research archive brings together interviews, reconstructed Game Freak pages, scanned magazines and game staff rolls. Sources may be old, moved or lost; records keep publication context and archived copies where available.</p>
+<ul class="en-archive__stats"><li><b>{{ archive.interview_count }}</b> interview records</li><li><b>{{ archive.people_count }}</b> people profiles</li><li><b>{{ archive.game_count }}</b> game staff rolls</li><li><b>{{ archive.scan_count }}</b> scan records</li><li><b>{{ archive.japanese_count }}</b> Japanese translations</li></ul>
+</section>
+<section class="en-archive__section" aria-labelledby="featured"><h2 id="featured">Featured people</h2>{% include english/people.html people=archive.featured_people %}<p><a href="{{ '/en/people/' | relative_url }}">Explore Pokémon developers and staff →</a></p></section>
+<section class="en-archive__section" aria-labelledby="games"><h2 id="games">Major games</h2>{% include english/games.html games=archive.major_games %}<p><a href="{{ '/en/credits/' | relative_url }}">Browse all game staff credits →</a></p></section>
+<section class="en-archive__section" aria-labelledby="collections"><h2 id="collections">Developer interview collections</h2><p><a href="{{ '/en/interviews/' | relative_url }}">Start with the Pokémon Developer Interview Archive</a>: browse historical eras and original English sources.</p>{% include english/collections.html %}</section>
+<section class="en-archive__section" aria-labelledby="recovered"><h2 id="recovered">Recently recovered sources</h2>{% for record in archive.recent_sources limit: 3 %}{% include english/interview.html record=record %}{% endfor %}<p><a href="{{ '/en/archive/' | relative_url }}">Read the source recovery guide →</a></p></section>
+<section class="en-archive__section" aria-labelledby="datasets"><h2 id="datasets">Research datasets</h2>{% include english/datasets.html %}</section>

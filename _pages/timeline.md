@@ -75,7 +75,7 @@ the year), each column a link to /timeline/<year>/ (_includes/timeline-year.html
       </div>
       {% endif %}
       {% if e.people.size > 0 %}
-      <div class="tl-chips tl-era__people"><span class="tl-chips__label">谈得最多</span>{% for p in e.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }} <b>{{ p.n }}</b></a>{% endfor %}</div>
+      <div class="tl-chips tl-era__people"><span class="tl-chips__label">谈得最多</span>{% for p in e.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% endfor %}</div>
       {% endif %}
     </header>
 

@@ -1,0 +1,3 @@
+<div class="en-archive__grid">
+{% for dataset in site.data.english_discovery.research_datasets %}<article class="en-archive__card"><h3><a href="{{ dataset.url | relative_url }}">{{ dataset.title }}</a></h3><p>{{ dataset.summary }}</p><a class="en-archive__fine" href="{{ dataset.download | relative_url }}">Read the JSON dataset</a></article>{% endfor %}
+</div>

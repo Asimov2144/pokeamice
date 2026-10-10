@@ -19,6 +19,11 @@ search: false
     <p class="ja-index__lead">Poke Amice Docs（宝可梦友会）は、ポケモンの開発者インタビューや関連資料を集めて中国語に訳しているアーカイブです。日本語版では、そのうち海外のメディアに英語・スペイン語・フランス語・イタリア語・ドイツ語・中国語で掲載され、日本語では読めなかったインタビュー{{ docs.size }}本を、日本語に訳して掲載しています。</p>
     <aside class="ja-index__note" role="note"><b>AI翻訳</b>いずれも AI（機械翻訳）による訳文で、人による校正は行っていません。発言は日本語で語られたものではなく、表現や細部が原文と異なる場合があります。各ページから原文（掲載元）と中国語版に移動できます。</aside>
   </header>
+  <section class="ja-index__overview" aria-labelledby="ja-archive-overview">
+    <h2 id="ja-archive-overview">ポケモン開発資料アーカイブ</h2>
+    <p>Poke Amice Docs は、過去の開発者インタビュー、ゲームのスタッフクレジット、雑誌のスキャン、失われた GAME FREAK のウェブ資料を集める独立した研究アーカイブです。この日本語版では、海外メディアのインタビュー訳を案内しています。</p>
+    <p><a href="{{ '/people/' | relative_url }}">人物プロフィール（中国語）</a> · <a href="{{ '/credits/' | relative_url }}">スタッフクレジット（中国語）</a> · <a href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}">GAME FREAK 採用サイトの復元資料（中国語）</a> · <a href="{{ '/en/' | relative_url }}" lang="en">English research guide</a></p>
+  </section>
   <ol class="ja-index__list">
     {%- assign prev_year = "" -%}
     {%- for d in docs -%}

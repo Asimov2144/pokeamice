@@ -124,7 +124,7 @@ group it qualifies for. Manual relations.related_posts come first.
             <span class="ed-related__kicker">{{ item.date | date: "%Y" }}{% if item_outlet != "" %} · {{ item_outlet }}{% endif %}</span>
             <strong class="ed-related__name">{{ item.display_title | default: item.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " }}</strong>
             {%- if item_people.size > 0 and item.interviewee -%}
-              <span class="ed-related__people">{{ item_people | slice: 0, 3 | join: " × " }}{% if item_people.size > 3 %} 等{% endif %}</span>
+              <span class="ed-related__people">{% for related_person in item_people limit: 3 %}{% include person-name.html person=related_person %}{% unless forloop.last %} × {% endunless %}{% endfor %}{% if item_people.size > 3 %} 等{% endif %}</span>
             {%- endif -%}
           </a>
         {%- endfor -%}

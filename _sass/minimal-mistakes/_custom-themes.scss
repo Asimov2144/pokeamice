@@ -790,8 +790,8 @@ body.theme-bg-black:not(.archive-reproduction-theme):not([data-era]) {
     color: #fff !important;
   }
 
-  .search-result-card__tags span,
-  .search-result-card__tags span.is-work,
+  .search-result-card__tags > span,
+  .search-result-card__tags > span.is-work,
   .editor-workbench__pipeline article span {
     background-color: rgba(159, 215, 255, 0.13) !important;
     border-color: rgba(159, 215, 255, 0.28) !important;

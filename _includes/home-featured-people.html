@@ -1,0 +1,4 @@
+<section class="home-featured-people" aria-label="开发者档案">
+<strong>开发者档案</strong>
+{% for slug in site.data.english_discovery.featured_people limit: 3 %}{% assign identity = slug | person_identity %}{% if identity %}<a href="{{ identity.url | relative_url }}">{% include person-name.html person=slug %}</a>{% endif %}{% endfor %}
+</section>

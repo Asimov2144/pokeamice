@@ -215,7 +215,7 @@ kept on the turns even though the presentation around them is new.
     </div>
   </details>
 
-  <article class="ed-article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+  <article class="ed-article"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
 
     {%- comment -%} Cover: when, where, who, what - before a single control. {%- endcomment -%}
     <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}{% if page.source_kind == "official_corporate_topic" %}TOPICS{% else %}INTERVIEW{% endif %}{% endif %}">
@@ -232,7 +232,7 @@ kept on the turns even though the presentation around them is new.
         in the headline; the kicker and the dek already do.
       {%- endcomment -%}
       {%- comment -%} the inner span lets an era paint a highlight band behind each line {%- endcomment -%}
-      <h1 class="ed-title" itemprop="headline"><span class="ed-title__text">{{ page.display_title | default: page.title }}</span></h1>
+      <h1 class="ed-title"><span class="ed-title__text">{{ page.display_title | default: page.title }}</span></h1>
       {%- comment -%}
         Who the piece is about. An interview names the people who answer; a
         technical feature has no answers, so it names the presenters the post
@@ -242,7 +242,19 @@ kept on the turns even though the presentation around them is new.
       {% assign people_line = answerers %}
       {% if people_line.size == 0 and page.entities.people %}{% assign people_line = page.entities.people %}{% endif %}
       {% if people_line.size > 0 %}
-        <p class="ed-people">{% for who in people_line %}{% assign who_key = who %}{% if ja %}{% assign who_key = page.speaker_zh[who] | default: who %}{% endif %}{% assign portrait = site.data.people | where: "name", who_key | first %}{% if portrait.slug and portrait.kind != "character" %}<a class="ed-person" href="{{ '/people/' | append: portrait.slug | append: '/' | relative_url }}">{% else %}<span class="ed-person">{% endif %}{% include person-avatar.html who=who_key post=page %}{% if pa_src != "" %}<img class="ed-person__avatar" src="{{ pa_src | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}{{ who }}{% if portrait.slug and portrait.kind != "character" %}</a>{% else %}</span>{% endif %}{% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}{% endfor %}</p>
+        <p class="ed-people">
+          {% for who in people_line %}
+            {% assign who_key = who %}{% assign who_native = "" %}
+            {% if ja %}{% assign who_key = page.speaker_zh[who] | default: who %}{% assign who_native = who %}{% endif %}
+            {% assign identity = who_key | person_identity %}
+            {% if identity %}<a class="ed-person" href="{{ identity.url | relative_url }}">{% else %}<span class="ed-person">{% endif %}
+              {% include person-avatar.html who=who_key post=page %}
+              {% if pa_src != "" %}<img class="ed-person__avatar" src="{{ pa_src | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}
+              {% include person-name.html person=who_key native=who_native %}
+            {% if identity %}</a>{% else %}</span>{% endif %}
+            {% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}
+          {% endfor %}
+        </p>
       {% elsif is_technical and page.interviewee %}
         <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% elsif is_scan and page.interviewee %}

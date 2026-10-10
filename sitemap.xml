@@ -5,7 +5,7 @@ sitemap: false
 {%- comment -%}
   手写的 sitemap：源目录里有 sitemap.xml，jekyll-sitemap 就不再自动生成全站版本（robots.txt 照旧由它生成）。
   只提交值得被收录的页面：首页、访谈与翻译正文、人物库（/people/）、作品制作名单（/credits/），
-  以及日文版（/ja/ 与 _ja 集合的各篇，tools/build-ja-edition.py）。
+  以及五个英文研究入口（english-discovery）、日文版（/ja/ 与 _ja 集合的各篇，tools/build-ja-edition.py）。
   /entities/ 下的人物·作品·组织·事件页、标签、分类、年表和内部工具页大多是几百字的索引页，
   Google 发现了也不愿收录，不再提交，靠正文里的内链被发现。
   站务帖（分类含 Sites 的更新日志、建站纪事、新年贺词）同样不提交。
@@ -24,7 +24,7 @@ sitemap: false
 {%- endfor %}
 {%- for page in site.html_pages %}
   {%- assign seg = page.url | split: "/" %}
-  {%- unless seg[1] == "people" or seg[1] == "credits" %}{% continue %}{% endunless %}
+  {%- unless seg[1] == "people" or seg[1] == "credits" or page.layout == "english-discovery" %}{% continue %}{% endunless %}
   {%- if page.sitemap == false %}{% continue %}{% endif %}
   <url>
     <loc>{{ page.url | replace: "/index.html", "/" | absolute_url | xml_escape }}</loc>

@@ -89,7 +89,7 @@ Sets nothing for the caller. Expects interview_posts.
             <span class="hii-item__meta">
               {%- if kind != "" -%}<b class="hii-item__kind">{{ kind }}</b>{%- endif -%}
               {%- if outlet != "" -%}<span>{{ outlet }}</span>{%- endif -%}
-              {%- if post.interviewee -%}<span>{{ people | slice: 0, 3 | join: " × " }}{% if people.size > 3 %} 等{% endif %}</span>{%- endif -%}
+              {%- if post.interviewee -%}<span>{% for indexed_person in people limit: 3 %}{% include person-name.html person=indexed_person %}{% unless forloop.last %} × {% endunless %}{% endfor %}{% if people.size > 3 %} 等{% endif %}</span>{%- endif -%}
             </span>
           </li>
         {%- endfor -%}

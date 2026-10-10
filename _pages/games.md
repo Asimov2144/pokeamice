@@ -35,7 +35,7 @@ already filtered to the game.
       <p class="hub-note">{{ g.sub }}</p>
       <p class="tl-era__sum"><b>{{ g.docs }}</b> 篇文献</p>
       {% if g.people.size > 0 %}
-      <div class="tl-chips tl-era__people"><span class="tl-chips__label">谈得最多</span>{% for p in g.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }} <b>{{ p.n }}</b></a>{% endfor %}</div>
+      <div class="tl-chips tl-era__people"><span class="tl-chips__label">谈得最多</span>{% for p in g.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% endfor %}</div>
       {% endif %}
     </header>
     <div class="hub-games">

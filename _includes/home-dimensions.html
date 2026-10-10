@@ -67,7 +67,7 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
     {% for g in dims_by_year reversed %}<button type="button" data-dim="year" data-value="{{ g.name }}">{{ g.name }}<b>{{ g.items.size }}</b></button>{% endfor %}
   </div>
   <div class="front__dims-row front__dims-row--people">
-    {% for k in dims_people_keys limit: 14 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign pe = site.data.people | where: "name", name | first %}<button type="button" data-dim="person" data-value="{{ name | escape }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="22" height="22">{% else %}<i>{{ name | slice: 0, 1 }}</i>{% endif %}{{ name }}<b>{{ parts[0] | plus: 0 }}</b></button>{% endfor %}
+    {% for k in dims_people_keys limit: 14 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign pe = name | person_record %}<button type="button" data-dim="person" data-value="{{ name | escape }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="22" height="22">{% else %}<i>{{ name | slice: 0, 1 }}</i>{% endif %}{% include person-name.html person=name %}<b>{{ parts[0] | plus: 0 }}</b></button>{% endfor %}
   </div>
   <div class="front__dims-row front__dims-row--works">
     {% for k in dims_works_keys limit: 12 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign wi = site.data.works | where: "name", name | first %}<button type="button" data-dim="work" data-value="{{ name | escape }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy" width="22" height="22">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ name | remove_first: "宝可梦 " }}<b>{{ parts[0] | plus: 0 }}</b></button>{% endfor %}
@@ -82,8 +82,8 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
 
   <h2>人物 <a href="{{ '/people/' | relative_url }}">人物库</a></h2>
   <ul class="dims__people">
-    {% for k in dims_people_keys limit: 12 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign pe = site.data.people | where: "name", name | first %}
-    <li><button type="button" data-dim="person" data-value="{{ name | escape }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="28" height="28">{% else %}<i aria-hidden="true">{{ name | slice: 0, 1 }}</i>{% endif %}<span>{{ name }}</span><b>{{ parts[0] | plus: 0 }}</b></button><a href="{{ '/people/' | append: pe.slug | append: '/' | relative_url }}" title="{{ name }} 的人物页" aria-label="{{ name }} 的人物页">↗</a></li>
+    {% for k in dims_people_keys limit: 12 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign pe = name | person_record %}{% assign identity = name | person_identity %}
+    <li><button type="button" data-dim="person" data-value="{{ name | escape }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="28" height="28">{% else %}<i aria-hidden="true">{{ name | slice: 0, 1 }}</i>{% endif %}<span>{{ name }}</span><b>{{ parts[0] | plus: 0 }}</b></button>{% if identity %}<a href="{{ identity.url | relative_url }}" title="{{ identity.label | escape }} 的人物页" class="dims__profile">{% include person-name.html person=name %} ↗</a>{% endif %}</li>
     {% endfor %}
   </ul>
 

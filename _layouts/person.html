@@ -37,11 +37,10 @@ carry a `kind` in the registry and never appear as co-interviewees.
   {% assign pub = p.publication | default: p.source.publication | default: p.outlet | default: p.source.title | default: "" %}
   {% if pub != "" %}{% assign pub_short = pub | split: "（" | first | split: " (" | first | strip %}{% assign pubs_all = pubs_all | push: pub_short %}{% endif %}
   {% for c in p.entities.people %}
-    {% if c == who %}{% continue %}{% endif %}
-    {% assign ce = site.data.people | where: "name", c | first %}
+    {% assign companion = c | person_identity %}
     {%- comment -%} a co-interviewee is a person: a character or a cited figure is not one {%- endcomment -%}
-    {% if ce == nil or ce.kind == "character" or ce.kind == "figure" %}{% continue %}{% endif %}
-    {% assign co_all = co_all | push: c %}
+    {% if companion == nil or companion.slug == page.slug %}{% continue %}{% endif %}
+    {% assign co_all = co_all | push: companion.slug %}
   {% endfor %}
 {% endfor %}
 {% assign works_u = works_all | uniq %}
@@ -73,7 +72,7 @@ carry a `kind` in the registry and never appear as co-interviewees.
           {% endif %}
           <div class="person__id">
             <h1 class="person__name">{{ who }}</h1>
-            {% if me.aliases %}<p class="person__aliases">{{ me.aliases | join: " · " }}</p>{% endif %}
+            {% assign person_identity = me.slug | person_identity %}{% if person_identity %}<p class="person__aliases">{{ person_identity.aliases | join: " · " }}</p>{% endif %}
             {% if me.role or me.org %}<p class="person__role">{{ me.org }}{% if me.org and me.role %} · {% endif %}{{ me.role }}</p>
             {% elsif cr.latest_role %}{% assign lg = site.data.credits_games | where: "slug", cr.latest_game | first %}<p class="person__role">{{ lg.title_zh }} · {{ cr.latest_role }}</p>{% endif %}
             {% if topics_u.size > 0 %}
@@ -196,8 +195,9 @@ carry a `kind` in the registry and never appear as co-interviewees.
                     <a class="person__pub-title" href="{{ p.url | relative_url }}">{{ p.title }}</a>
                     <div class="person__pub-meta">
                       {% assign others = "" | split: "" %}
-                      {% for c in p.entities.people %}{% if c != who %}{% assign ce = site.data.people | where: "name", c | first %}{% if ce and ce.kind != "character" and ce.kind != "figure" %}{% assign others = others | push: c %}{% endif %}{% endif %}{% endfor %}
-                      {% if others.size > 0 %}<span class="person__pub-with">与 {{ others | join: "、" }}</span>{% endif %}
+                      {% for c in p.entities.people %}{% assign companion = c | person_identity %}{% if companion and companion.slug != page.slug %}{% assign others = others | push: companion.slug %}{% endif %}{% endfor %}
+                      {% assign others = others | uniq %}
+                      {% if others.size > 0 %}<span class="person__pub-with">与 {% for slug in others %}{% assign companion = slug | person_identity %}<a href="{{ companion.url | relative_url }}">{% include person-name.html person=slug %}</a>{% unless forloop.last %}、{% endunless %}{% endfor %}</span>{% endif %}
                       <span class="person__pub-src">{{ card_type }}{% if pub_short != "" %} · {{ pub_short }}{% endif %}{% if p.issue %} {{ p.issue | split: "（" | first }}{% endif %}</span>
                       {% if p.entities.works %}<span class="person__pub-works">{% for w in p.entities.works limit: 2 %}{% assign wi = site.data.works | where: "name", w | first %}<span class="is-work{% if wi.icon %} has-icon{% elsif wi.color %} has-swatch{% endif %}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% endfor %}</span>{% endif %}
                     </div>
@@ -247,11 +247,12 @@ carry a `kind` in the registry and never appear as co-interviewees.
           <ul class="person__co">
             {% for c in co_u %}
               {% assign n = 0 %}{% for x in co_all %}{% if x == c %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
-              {% assign ce = site.data.people | where: "name", c | first %}
+              {% assign ce = c | person_record %}
+              {% assign companion = c | person_identity %}
               <li>
-                <a href="{{ '/people/' | append: ce.slug | append: '/' | relative_url }}">
-                  {% if ce.avatar %}<img src="{{ ce.avatar | relative_url }}" alt="" loading="lazy" width="36" height="36">{% else %}<span class="person__co-blank" aria-hidden="true">{{ c | slice: 0, 1 }}</span>{% endif %}
-                  <span class="person__co-name">{{ c }}{% if ce.aliases %}<small>{{ ce.aliases | last }}</small>{% endif %}</span>
+                <a href="{{ companion.url | relative_url }}">
+                  {% if ce.avatar %}<img src="{{ ce.avatar | relative_url }}" alt="" loading="lazy" width="36" height="36">{% else %}<span class="person__co-blank" aria-hidden="true">{{ ce.name | slice: 0, 1 }}</span>{% endif %}
+                  <span class="person__co-name">{% include person-name.html person=c %}</span>
                   <b>{{ n }}</b>
                 </a>
               </li>

@@ -1,0 +1,11 @@
+<div class="en-archive__grid">
+{% for game in include.games %}
+  <article class="en-archive__card">
+    <p class="en-archive__eyebrow">{{ game.year }} · {{ game.developer | escape }}</p>
+    <h3><a href="{{ game.url | relative_url }}">{{ game.title | escape }} Staff Credits</a></h3>
+    <p lang="zh-CN" class="en-archive__native">{{ game.title_zh }}</p>
+    <p>{{ game.count }} credited entries{% if game.stats.persons %} · {{ game.stats.persons }} people{% endif %}{% if game.team.dev %} · {{ game.team.dev }} development contributors{% endif %}</p>
+    <p class="en-archive__fine">{% if game.team.sections %}{{ game.team.sections }} source sections. {% endif %}Staff roll, department breakdown and development atlas in Chinese. Counts describe this source roll, not the entire company.</p>
+  </article>
+{% endfor %}
+</div>

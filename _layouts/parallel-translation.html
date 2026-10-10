@@ -26,7 +26,7 @@ layout: default
 <div class="interview-reading-progress" id="readingProgressBar" aria-hidden="true"></div>
 
 <main class="parallel-translation" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
-  <article class="parallel-translation__article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+  <article class="parallel-translation__article"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
     {% include crumbs.html %}
     <header class="parallel-translation__header">
       <div class="parallel-era-masthead">
@@ -69,7 +69,7 @@ layout: default
       {% if page.kicker %}
         <p class="parallel-translation__kicker">{{ page.kicker }}</p>
       {% endif %}
-      <h1 itemprop="headline">{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       {%- comment -%}
         One line, per section 4. It deliberately does not repeat the era
         masthead directly above, which already carries the publication, the
@@ -166,7 +166,7 @@ layout: default
     </header>
 
     <div class="parallel-translation__body">
-      <div class="parallel-translation__content" itemprop="text">
+      <div class="parallel-translation__content">
         {%- comment -%}
           Only the one-line intro stands between the title and the interview
           now. The route, the translator's note, the related list and the
@@ -186,10 +186,8 @@ layout: default
           the archive are headings, so a nav built from section titles would be
           empty on most interviews.
 
-          Text, not links. The entity pages live at /entities/people/<name in
-          hex>/, which Liquid cannot construct, and slugify collapses a CJK
-          name to nothing - either would have produced a row of dead links.
-          The resource card states them as plain text for the same reason.
+          Registered people use the shared identity map and canonical profile paths.
+          Other subjects stay as text when no verified profile exists.
         {%- endcomment -%}
         {% assign topic_terms = "" | split: "" %}
         {% if page.entities.people %}{% assign topic_terms = topic_terms | concat: page.entities.people %}{% endif %}
@@ -197,7 +195,7 @@ layout: default
         {% if page.entities.organizations %}{% assign topic_terms = topic_terms | concat: page.entities.organizations %}{% endif %}
         {% if topic_terms.size > 0 %}
           <p class="parallel-topics" aria-label="本篇涉及">
-            {% for term in topic_terms limit: 8 %}<span>{{ term }}</span>{% endfor %}
+            {% for term in topic_terms limit: 8 %}{% assign identity = term | person_identity %}{% if identity %}<a href="{{ identity.url | relative_url }}">{% include person-name.html person=term %}</a>{% else %}<span>{{ term }}</span>{% endif %}{% endfor %}
           </p>
         {% endif %}
 

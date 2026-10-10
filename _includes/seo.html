@@ -11,17 +11,36 @@
   {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
 {%- endif -%}
 
-{%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
-{%- assign seo_title  = seo_title  | markdownify | strip_html | strip_newlines | escape_once -%}
+{%- comment -%} Head-only English entity identity; page.title and the Chinese H1 stay untouched. {%- endcomment -%}
+{%- assign search_metadata = page.search_metadata -%}
+{%- if search_metadata -%}
+  {%- assign page_title = search_metadata.title -%}
+  {%- assign seo_title = search_metadata.title | append: " | " | append: site.title -%}
+{%- endif -%}
+
+{%- if page.seo_title -%}{%- assign seo_title = page.seo_title | escape_once -%}{%- endif -%}
+
+{%- if search_metadata -%}
+  {%- comment -%} Generated names/facts are plain text: Markdown would parse | as a table and change name punctuation. {%- endcomment -%}
+  {%- assign page_title = page_title | strip_newlines | escape_once -%}
+  {%- assign seo_title = seo_title | strip_newlines | escape_once -%}
+{%- else -%}
+  {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
+  {%- assign seo_title  = seo_title  | markdownify | strip_html | strip_newlines | escape_once -%}
+{%- endif -%}
 
 {%- assign canonical_url = page.canonical_url | default: page.url | replace: "/index.html", "/" | absolute_url %}
 
 {%- comment -%} 文章的一句话简介写在 summary 里；excerpt 是对象，default 不把空摘录当空，所以 summary 要排在它前面 {%- endcomment -%}
 {%- comment -%} person / credits pages and the directories have neither: page-description.html writes one from their data {%- endcomment -%}
-{%- include page-description.html -%}
-{%- assign seo_description = page.description | default: page.summary | default: pd_text | default: page.excerpt | default: site.description -%}
-{%- if seo_description -%}
-  {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
+{%- if search_metadata -%}
+  {%- assign seo_description = search_metadata.description | strip_newlines | escape_once | strip -%}
+{%- else -%}
+  {%- include page-description.html -%}
+  {%- assign seo_description = page.description | default: page.summary | default: pd_text | default: page.excerpt | default: site.description -%}
+  {%- if seo_description -%}
+    {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
+  {%- endif -%}
 {%- endif -%}
 
 {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
@@ -54,7 +73,7 @@
 {% endif %}
 
 <meta property="og:type" content="{{ og_type }}">
-<meta property="og:locale" content="{% if page.lang == "ja" %}ja_JP{% else %}{{ site.locale | replace: "-", "_" | default: "en_US" }}{% endif %}">
+<meta property="og:locale" content="{% if page.lang == "ja" %}ja_JP{% elsif page.lang == "en" %}en_US{% else %}{{ site.locale | replace: "-", "_" | default: "en_US" }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:url" content="{{ canonical_url }}">
@@ -115,7 +134,14 @@
 <link rel="canonical" href="{{ canonical_url }}">
 
 {%- comment -%} the Japanese edition: a Chinese post and its Japanese page name each other (tools/build-ja-edition.py) {%- endcomment -%}
-{%- if page.lang == "ja" and page.zh_url %}
+{%- if page.url == '/' or page.url == '/ja/' or page.url == '/en/' %}
+  {%- for edition in site.data.language_homes %}
+<link rel="alternate" hreflang="{{ edition[0] }}" href="{{ edition[1] | absolute_url }}">
+  {%- endfor %}
+{%- elsif page.lang == 'en' %}
+<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonical_url }}">
+{%- elsif page.lang == "ja" and page.zh_url %}
 <link rel="alternate" hreflang="zh-CN" href="{{ page.zh_url | absolute_url }}">
 <link rel="alternate" hreflang="ja" href="{{ canonical_url }}">
 {%- elsif page.collection == "posts" %}
@@ -127,8 +153,14 @@
   {%- endif %}
 {%- endif %}
 
-{% if page.collection == "posts" %}
+{% if page.collection == "posts" or page.collection == "ja" %}
   {% include article-schema.html %}
+{% elsif page.layout == "person" or page.layout == "credits-game" %}
+  {% include entity-schema.html %}
+{% endif %}
+
+{% if page.discovery_schema %}
+<script type="application/ld+json">{{ page.discovery_schema | jsonify | replace: '<', '\u003c' }}</script>
 {% endif %}
 
 {% if paginator.previous_page %}

@@ -69,7 +69,7 @@ buttons hide the cards that are already on the page (assets/js/hubs.js).
   {% endfor %}
 
   <section class="hub-who">
-    <div class="tl-chips"><span class="tl-chips__label">被问得最多</span>{% for p in ov.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }} <b>{{ p.n }}</b></a>{% endfor %}</div>
+    <div class="tl-chips"><span class="tl-chips__label">被问得最多</span>{% for p in ov.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% endfor %}</div>
     <div class="tl-chips"><span class="tl-chips__label">谈得最多的作品</span>{% for w in ov.works %}<a class="tl-game" href="{{ '/search/' | relative_url }}?work={{ w.name | url_encode }}" title="在检索里看提到 {{ w.name }} 的全部文献">{% if w.icon %}<img src="{{ w.icon | relative_url }}" alt="" width="18" height="18" loading="lazy">{% if w.icon2 %}<img src="{{ w.icon2 | relative_url }}" alt="" width="18" height="18" loading="lazy">{% endif %}{% endif %}<span>{{ w.name | remove_first: "宝可梦 " }}</span> <b>{{ w.n }}</b></a>{% endfor %}</div>
   </section>
 

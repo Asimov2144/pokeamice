@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign json_ld_article = false %}{% if page.collection == "posts" or page.collection == "ja" %}{% assign json_ld_article = true %}{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -11,19 +13,21 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <article class="page{% if page.annotations %} page--annotated{% endif %}" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+  <article class="page{% if page.annotations %} page--annotated{% endif %}"{% unless json_ld_article %} itemscope itemtype="https://schema.org/CreativeWork"{% endunless %}{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    {% unless json_ld_article %}
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+    {% endunless %}
 
     <div class="page__inner-wrap">
       {% include crumbs.html %}
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title -%}
-          <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+          <h1 id="page-title" class="page__title"{% unless json_ld_article %} itemprop="headline"{% endunless %}>
+            <a href="{{ page.url | absolute_url }}"{% unless json_ld_article %} itemprop="url"{% endunless %}>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>
           {%- endif %}
           {% include page__meta.html %}
@@ -31,7 +35,7 @@ layout: default
         </header>
       {% endunless %}
 
-      <section class="page__content{% if page.annotations %} page__content--annotated{% endif %}" itemprop="text">
+      <section class="page__content{% if page.annotations %} page__content--annotated{% endif %}"{% unless json_ld_article %} itemprop="text"{% endunless %}>
         <div class="page__content-body">
           {% if page.toc and page.annotations == nil %}
             <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">

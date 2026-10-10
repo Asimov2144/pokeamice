@@ -1,0 +1,13 @@
+---
+layout: english-discovery
+lang: en
+title: Pokémon Developer Interview Archive
+description: Discover historical Pokémon developer interviews by era, person and game, with original English sources, Chinese translations and selected Japanese translations.
+permalink: /en/interviews/
+search: false
+---
+{% assign archive = site.data.en_discovery %}
+<section class="en-archive__section"><h2>How to read the interview archive</h2><p>The archive has {{ archive.interview_count }} interview records. Use this selection to find a starting point, then follow a developer profile or game to related material. Interview records preserve the outlet, source language and translation status. Dates refer to the source, not the date the translation was added.</p><p><a href="{{ '/' | relative_url }}#interview-translations">Open the complete Chinese interview index</a> · <a href="{{ '/search/' | relative_url }}">Search the archive</a></p><p>Source links can lead to a publisher or an archived copy. Historical URLs may no longer load; check the individual record for scans, snapshots and source notes. Japanese translations are AI generated and have not been human proofread.</p></section>
+<section class="en-archive__section"><h2>Original English sources</h2><p>These records explicitly identify an English source and provide its URL. The source link and Chinese record are separate.</p>{% for record in archive.english_originals %}{% include english/interview.html record=record %}{% endfor %}</section>
+{% for era in archive.eras %}<section class="en-archive__section"><h2>{{ era.decade }}s interviews</h2><p>{{ era.count }} records from this decade are held in the archive. Selected starting points:</p>{% for record in era.items %}{% include english/interview.html record=record %}{% endfor %}</section>{% endfor %}
+<section class="en-archive__section"><h2>Related source collections</h2>{% include english/collections.html %}</section>

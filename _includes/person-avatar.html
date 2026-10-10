@@ -6,7 +6,7 @@ avatar. Leaves the path in `pa_src` ("" when the library has no picture).
     {% include person-avatar.html who=name post=post %}
 {%- endcomment -%}
 {%- assign pa_src = "" -%}
-{%- assign pa_hit = site.data.people | where: "name", include.who | first -%}
+{%- assign pa_hit = include.who | person_record -%}
 {%- if pa_hit -%}
   {%- assign pa_src = pa_hit.avatar | default: "" -%}
   {%- if pa_hit.portraits and include.post -%}

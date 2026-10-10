@@ -67,6 +67,7 @@
         (item.tags || []).join(" "),
         (item.topics || []).join(" "),
         (item.people || []).join(" "),
+        (item.people_aliases || []).join(" "),
         (item.works || []).join(" ")
       ].join(" ").toLowerCase();
     }
@@ -266,7 +267,7 @@
       const people = (item.people || []).slice(0, 4).map(function(name, i) {
         const av = (item.avatars || [])[i];
         const slug = (item.slugs || [])[i];
-        const inner = `${av ? `<img src="${escapeHtml(av)}" alt="" loading="lazy">` : ""}${escapeHtml(name)}`;
+        const inner = `${av ? `<img src="${escapeHtml(av)}" alt="" loading="lazy">` : ""}${escapeHtml((item.people_labels || [])[i] || name)}`;
         const cls = `is-person${av ? " has-avatar" : ""}`;
         return slug ? `<a class="${cls}" href="${escapeHtml(PEOPLE_BASE + slug + "/")}">${inner}</a>` : `<span class="${cls}">${inner}</span>`;
       }).join("");

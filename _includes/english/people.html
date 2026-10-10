@@ -1,0 +1,12 @@
+<div class="en-archive__grid">
+{% for person in include.people %}
+  <article class="en-archive__card">
+    {% if person.avatar %}<img class="en-archive__portrait" src="{{ person.avatar | relative_url }}" alt="" width="56" height="56" loading="lazy">{% endif %}
+    <h3><a href="{{ person.url | relative_url }}">{{ person.name_en | default: person.name | escape }}</a></h3>
+    <p class="en-archive__native">{% if person.name_zh %}<span lang="zh-CN">{{ person.name_zh }}</span>{% endif %}{% if person.name_ja and person.name_ja != person.name_zh %} / <span lang="ja">{{ person.name_ja }}</span>{% endif %}</p>
+    {% if person.roles.size > 0 %}<p>Credits include {{ person.roles | join: ', ' }} roles.</p>{% endif %}
+    <p>{{ person.interviews }} related interview records · {{ person.credited_games }} credited games</p>
+    <p class="en-archive__fine">Profile, source references and detailed credits in Chinese.</p>
+  </article>
+{% endfor %}
+</div>

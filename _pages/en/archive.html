@@ -1,0 +1,13 @@
+---
+layout: english-discovery
+lang: en
+title: Recovered Pokémon Sources & Game Freak Archives
+description: Explore reconstructed Game Freak archives, magazine interview scans and recovered sources, with publication context, archived versions and multilingual translations.
+permalink: /en/archive/
+search: false
+---
+{% assign archive = site.data.en_discovery %}
+<section class="en-archive__section"><h2>Source recovery and reconstruction</h2><p>Historical research needs more than an article title. A recruitment URL can change speakers, a magazine scan can lack pages, and a publisher's website can disappear. Source records connect translations to the version or scan used, so readers can inspect that context before citing a claim.</p><p>The archive includes {{ archive.scan_count }} scan records. Scans, OCR and translations have different error risks; individual pages record their sources and available workflow status. An archived snapshot date is not necessarily a publication date.</p><p><a href="{{ '/search/' | relative_url }}?q=%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3">Find magazine scans in the Chinese archive</a></p></section>
+<section class="en-archive__section"><h2>Game Freak and multilingual source collections</h2>{% include english/collections.html %}<p><a href="{{ '/gamefreak-art/' | relative_url }}">Game Freak art blog reconstruction</a> · <a href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}">Game Freak staff archive research</a></p></section>
+<section class="en-archive__section"><h2>Recently recovered sources</h2><p>These additions come from the recruitment reconstruction and magazine recovery batches. Addition dates are recorded separately from the dates of the historical sources.</p>{% for record in archive.recent_sources %}{% include english/interview.html record=record %}{% endfor %}</section>
+<section class="en-archive__section"><h2>Using the material</h2><p>Follow original source links whenever possible. For a lost or replaced page, inspect the archived version supplied by the record. Chinese and Japanese translations help discovery, but the source's wording and publication context remain the basis for research.</p>{% include english/datasets.html %}</section>

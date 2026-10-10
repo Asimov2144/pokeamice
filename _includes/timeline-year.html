@@ -64,7 +64,7 @@ filters what is already on the page.
     <div class="tl-context__row">
       <h2>谈得最多的人</h2>
       <div class="tl-chips">
-        {% for p in yd.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{{ p.name }} <b>{{ p.n }}</b></a>{% endfor %}
+        {% for p in yd.people %}{% assign timeline_person = p.slug | person_identity %}{% if timeline_person %}<a class="tl-chip" href="{{ timeline_person.url | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% else %}<span class="tl-chip">{{ p.name | escape }} <b>{{ p.n }}</b></span>{% endif %}{% endfor %}
       </div>
     </div>
     {% endif %}

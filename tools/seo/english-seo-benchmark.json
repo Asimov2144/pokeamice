@@ -1,0 +1,1307 @@
+{
+  "version": 1,
+  "purpose": "Local semantic signals for English entity queries; no ranking predictions.",
+  "origin": "https://docs.pokeamice.com",
+  "targets": {
+    "masuda": {
+      "expected_landing_page": "/people/masuda-junichi/",
+      "expected_entity": {
+        "type": "Person",
+        "name": "Junichi Masuda",
+        "id_fragment": "#person",
+        "alternate_names": [
+          "Junichi Masuda",
+          "増田順一",
+          "增田顺一"
+        ],
+        "visible_names": [
+          "Junichi Masuda",
+          "増田順一",
+          "增田顺一"
+        ]
+      },
+      "expected_language": "zh-CN",
+      "required_schema": [
+        {
+          "type": "Person",
+          "id_fragment": "#person",
+          "required_properties": [
+            "alternateName",
+            "subjectOf"
+          ],
+          "linked_relations": {
+            "subjectOf": {
+              "target_schema": "Article",
+              "minimum": 1
+            }
+          }
+        },
+        {
+          "type": "ProfilePage",
+          "id_fragment": "#page",
+          "entity_relation": "mainEntity"
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/people/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/en/people/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/credits/x-y/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "Article",
+          "minimum": 3,
+          "path_contains": "interview",
+          "mentions_entity": true
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "VideoGame",
+          "minimum": 3
+        }
+      ],
+      "required_facts": [
+        {
+          "kind": "description_count",
+          "name": "interview_count",
+          "pattern": "(\\d+) related interviews?",
+          "minimum": 1
+        },
+        {
+          "kind": "linked_game_count",
+          "name": "credited_works_count",
+          "pattern": "credits across (\\d+) games?",
+          "schema_type": "ProfilePage",
+          "property": "mentions",
+          "entity_suffix": "#game"
+        }
+      ]
+    },
+    "ohmori": {
+      "expected_landing_page": "/people/ohmori-shigeru/",
+      "expected_entity": {
+        "type": "Person",
+        "name": "Shigeru Ohmori",
+        "id_fragment": "#person",
+        "alternate_names": [
+          "Shigeru Ohmori",
+          "大森滋"
+        ],
+        "visible_names": [
+          "Shigeru Ohmori",
+          "大森滋"
+        ]
+      },
+      "expected_language": "zh-CN",
+      "required_schema": [
+        {
+          "type": "Person",
+          "id_fragment": "#person",
+          "required_properties": [
+            "alternateName",
+            "subjectOf"
+          ],
+          "linked_relations": {
+            "subjectOf": {
+              "target_schema": "Article",
+              "minimum": 1
+            }
+          }
+        },
+        {
+          "type": "ProfilePage",
+          "id_fragment": "#page",
+          "entity_relation": "mainEntity"
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/",
+          "text_keywords": [
+            [
+              "Shigeru Ohmori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/people/",
+          "text_keywords": [
+            [
+              "Shigeru Ohmori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/en/people/",
+          "text_keywords": [
+            [
+              "Shigeru Ohmori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/credits/x-y/",
+          "text_keywords": [
+            [
+              "Shigeru Ohmori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "Article",
+          "minimum": 3,
+          "path_contains": "interview",
+          "mentions_entity": true
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "VideoGame",
+          "minimum": 3
+        }
+      ],
+      "required_facts": [
+        {
+          "kind": "description_count",
+          "name": "interview_count",
+          "pattern": "(\\d+) related interviews?",
+          "minimum": 1
+        },
+        {
+          "kind": "linked_game_count",
+          "name": "credited_works_count",
+          "pattern": "credits across (\\d+) games?",
+          "schema_type": "ProfilePage",
+          "property": "mentions",
+          "entity_suffix": "#game"
+        }
+      ]
+    },
+    "sugimori": {
+      "expected_landing_page": "/people/sugimori-ken/",
+      "expected_entity": {
+        "type": "Person",
+        "name": "Ken Sugimori",
+        "id_fragment": "#person",
+        "alternate_names": [
+          "Ken Sugimori",
+          "杉森建"
+        ],
+        "visible_names": [
+          "Ken Sugimori",
+          "杉森建"
+        ]
+      },
+      "expected_language": "zh-CN",
+      "required_schema": [
+        {
+          "type": "Person",
+          "id_fragment": "#person",
+          "required_properties": [
+            "alternateName",
+            "subjectOf"
+          ],
+          "linked_relations": {
+            "subjectOf": {
+              "target_schema": "Article",
+              "minimum": 1
+            }
+          }
+        },
+        {
+          "type": "ProfilePage",
+          "id_fragment": "#page",
+          "entity_relation": "mainEntity"
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/people/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/en/people/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/credits/x-y/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "Article",
+          "minimum": 3,
+          "path_contains": "interview",
+          "mentions_entity": true
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "VideoGame",
+          "minimum": 3
+        }
+      ],
+      "required_facts": [
+        {
+          "kind": "description_count",
+          "name": "interview_count",
+          "pattern": "(\\d+) related interviews?",
+          "minimum": 1
+        },
+        {
+          "kind": "linked_game_count",
+          "name": "credited_works_count",
+          "pattern": "credits across (\\d+) games?",
+          "schema_type": "ProfilePage",
+          "property": "mentions",
+          "entity_suffix": "#game"
+        }
+      ]
+    },
+    "xy": {
+      "expected_landing_page": "/credits/x-y/",
+      "expected_entity": {
+        "type": "VideoGame",
+        "name": "Pokémon X and Y",
+        "id_fragment": "#game",
+        "alternate_names": [
+          "Pokémon X and Y"
+        ],
+        "visible_names": [
+          "Pokémon X and Y"
+        ]
+      },
+      "expected_language": "zh-CN",
+      "required_schema": [
+        {
+          "type": "VideoGame",
+          "id_fragment": "#game",
+          "required_properties": [
+            "alternateName",
+            "creator"
+          ],
+          "required_relations": {
+            "creator": [
+              "https://docs.pokeamice.com/entities/organizations/game-freak/#organization"
+            ]
+          }
+        },
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "entity_relation": "mainEntity"
+        },
+        {
+          "type": "ItemList",
+          "id_fragment": "#roll",
+          "required_properties": [
+            "numberOfItems"
+          ]
+        },
+        {
+          "type": "Organization",
+          "id": "https://docs.pokeamice.com/entities/organizations/game-freak/#organization",
+          "name": "Game Freak"
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/en/credits/",
+          "text_keywords": [
+            [
+              "Pokémon X and Y"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/credits/",
+          "text_keywords": [],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/masuda-junichi/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/sugimori-ken/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": [
+        {
+          "kind": "data_count",
+          "name": "credited_entries",
+          "data_file": "/assets/data/credits-profile/x-y.json",
+          "data_path": "team_size.names",
+          "pattern": "(\\d+) credited entries",
+          "visible_region": "atlas__nums",
+          "schema_type": "ItemList",
+          "schema_property": "numberOfItems"
+        },
+        {
+          "kind": "data_count",
+          "name": "people_count",
+          "data_file": "/assets/data/credits-profile/x-y.json",
+          "data_path": "team_size.persons",
+          "pattern": "(\\d+) people",
+          "visible_region": "atlas__nums"
+        }
+      ]
+    },
+    "bw": {
+      "expected_landing_page": "/credits/black-white/",
+      "expected_entity": {
+        "type": "VideoGame",
+        "name": "Pokémon Black and White",
+        "id_fragment": "#game",
+        "alternate_names": [
+          "Pokémon Black and White"
+        ],
+        "visible_names": [
+          "Pokémon Black and White"
+        ]
+      },
+      "expected_language": "zh-CN",
+      "required_schema": [
+        {
+          "type": "VideoGame",
+          "id_fragment": "#game",
+          "required_properties": [
+            "alternateName",
+            "creator"
+          ],
+          "required_relations": {
+            "creator": [
+              "https://docs.pokeamice.com/entities/organizations/game-freak/#organization"
+            ]
+          }
+        },
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "entity_relation": "mainEntity"
+        },
+        {
+          "type": "ItemList",
+          "id_fragment": "#roll",
+          "required_properties": [
+            "numberOfItems"
+          ]
+        },
+        {
+          "type": "Organization",
+          "id": "https://docs.pokeamice.com/entities/organizations/game-freak/#organization",
+          "name": "Game Freak"
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/en/credits/",
+          "text_keywords": [
+            [
+              "Pokémon Black and White"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/credits/",
+          "text_keywords": [],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/masuda-junichi/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/sugimori-ken/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": [
+        {
+          "kind": "data_count",
+          "name": "credited_entries",
+          "data_file": "/assets/data/credits-profile/black-white.json",
+          "data_path": "team_size.names",
+          "pattern": "(\\d+) credited entries",
+          "visible_region": "atlas__nums",
+          "schema_type": "ItemList",
+          "schema_property": "numberOfItems"
+        },
+        {
+          "kind": "data_count",
+          "name": "people_count",
+          "data_file": "/assets/data/credits-profile/black-white.json",
+          "data_path": "team_size.persons",
+          "pattern": "(\\d+) people",
+          "visible_region": "atlas__nums"
+        }
+      ]
+    },
+    "sv": {
+      "expected_landing_page": "/credits/scarlet-violet/",
+      "expected_entity": {
+        "type": "VideoGame",
+        "name": "Pokémon Scarlet and Violet",
+        "id_fragment": "#game",
+        "alternate_names": [
+          "Pokémon Scarlet and Violet"
+        ],
+        "visible_names": [
+          "Pokémon Scarlet and Violet"
+        ]
+      },
+      "expected_language": "zh-CN",
+      "required_schema": [
+        {
+          "type": "VideoGame",
+          "id_fragment": "#game",
+          "required_properties": [
+            "alternateName",
+            "creator"
+          ],
+          "required_relations": {
+            "creator": [
+              "https://docs.pokeamice.com/entities/organizations/game-freak/#organization"
+            ]
+          }
+        },
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "entity_relation": "mainEntity"
+        },
+        {
+          "type": "ItemList",
+          "id_fragment": "#roll",
+          "required_properties": [
+            "numberOfItems"
+          ]
+        },
+        {
+          "type": "Organization",
+          "id": "https://docs.pokeamice.com/entities/organizations/game-freak/#organization",
+          "name": "Game Freak"
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/en/credits/",
+          "text_keywords": [
+            [
+              "Pokémon Scarlet and Violet"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "inbound",
+          "source": "/credits/",
+          "text_keywords": [],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/masuda-junichi/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/sugimori-ken/",
+          "text_keywords": [
+            [
+              "Ken Sugimori"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": [
+        {
+          "kind": "data_count",
+          "name": "credited_entries",
+          "data_file": "/assets/data/credits-profile/scarlet-violet.json",
+          "data_path": "team_size.names",
+          "pattern": "(\\d+) credited entries",
+          "visible_region": "atlas__nums",
+          "schema_type": "ItemList",
+          "schema_property": "numberOfItems"
+        },
+        {
+          "kind": "data_count",
+          "name": "people_count",
+          "data_file": "/assets/data/credits-profile/scarlet-violet.json",
+          "data_path": "team_size.persons",
+          "pattern": "(\\d+) people",
+          "visible_region": "atlas__nums"
+        }
+      ]
+    },
+    "interviews": {
+      "expected_landing_page": "/en/interviews/",
+      "expected_entity": {
+        "type": "CollectionPage",
+        "name": "Pokémon Developer Interview Archive",
+        "id_fragment": "#page",
+        "visible_names": [
+          "Pokémon Developer Interview Archive"
+        ]
+      },
+      "expected_language": "en",
+      "required_schema": [
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "required_properties": [
+            "name",
+            "description",
+            "inLanguage"
+          ]
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/en/",
+          "text_keywords": [
+            [
+              "Interviews"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target_schema": "Article",
+          "minimum": 3,
+          "path_contains": "interview"
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/masuda-junichi/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/keys/gamefreak-recruit-archive/",
+          "text_keywords": [
+            [
+              "Game Freak recruitment interviews"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": []
+    },
+    "development": {
+      "expected_landing_page": "/en/",
+      "expected_entity": {
+        "type": "CollectionPage",
+        "name": "Poke Amice Docs — Pokémon Development Research Archive",
+        "id_fragment": "#page",
+        "visible_names": [
+          "Poke Amice Docs — Pokémon Development Research Archive"
+        ]
+      },
+      "expected_language": "en",
+      "required_schema": [
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "required_properties": [
+            "name",
+            "description",
+            "inLanguage"
+          ]
+        },
+        {
+          "type": "WebSite",
+          "id_fragment": "#website",
+          "required_properties": [
+            "name",
+            "inLanguage"
+          ]
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/",
+          "text_keywords": [
+            [
+              "English"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/en/interviews/",
+          "text_keywords": [
+            [
+              "interview archive"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/people/masuda-junichi/",
+          "text_keywords": [
+            [
+              "Junichi Masuda"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/credits/x-y/",
+          "text_keywords": [
+            [
+              "Pokémon X and Y"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/en/archive/",
+          "text_keywords": [
+            [
+              "source recovery"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": []
+    },
+    "magazines": {
+      "expected_landing_page": "/en/archive/",
+      "expected_entity": {
+        "type": "CollectionPage",
+        "name": "Recovered Pokémon Sources & Game Freak Archives",
+        "id_fragment": "#page",
+        "visible_names": [
+          "Recovered Pokémon Sources & Game Freak Archives"
+        ]
+      },
+      "expected_language": "en",
+      "required_schema": [
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "required_properties": [
+            "name",
+            "description",
+            "inLanguage"
+          ]
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/en/",
+          "text_keywords": [
+            [
+              "Recovered sources"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "path_contains": "scan-ndream-084-ruby-sapphire-interview",
+          "text_keywords": [
+            [
+              "Nintendo DREAM"
+            ],
+            [
+              "interview scans"
+            ]
+          ],
+          "target_schema": "Article",
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/keys/gamefreak-recruit-archive/",
+          "text_keywords": [
+            [
+              "Game Freak recruitment interviews"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": []
+    },
+    "game_credits": {
+      "expected_landing_page": "/en/credits/",
+      "expected_entity": {
+        "type": "CollectionPage",
+        "name": "Pokémon Game Staff Credits",
+        "id_fragment": "#page",
+        "visible_names": [
+          "Pokémon Game Staff Credits"
+        ]
+      },
+      "expected_language": "en",
+      "required_schema": [
+        {
+          "type": "CollectionPage",
+          "id_fragment": "#page",
+          "required_properties": [
+            "name",
+            "description",
+            "inLanguage"
+          ]
+        }
+      ],
+      "canonical_expectation": "absolute_self",
+      "sitemap_inclusion": true,
+      "indexability": "index_follow",
+      "required_internal_anchors": [
+        {
+          "direction": "inbound",
+          "source": "/en/",
+          "text_keywords": [
+            [
+              "Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/credits/x-y/",
+          "text_keywords": [
+            [
+              "Pokémon X and Y"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/credits/black-white/",
+          "text_keywords": [
+            [
+              "Pokémon Black and White"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/credits/scarlet-violet/",
+          "text_keywords": [
+            [
+              "Pokémon Scarlet and Violet"
+            ],
+            [
+              "Staff Credits"
+            ]
+          ],
+          "minimum": 1
+        },
+        {
+          "direction": "outbound",
+          "target": "/credits/staff/",
+          "text_keywords": [
+            [
+              "staff dataset"
+            ]
+          ],
+          "minimum": 1
+        }
+      ],
+      "required_facts": []
+    }
+  },
+  "queries": [
+    {
+      "query": "Junichi Masuda interview archive",
+      "target": "masuda",
+      "expected_title_keywords": [
+        [
+          "Junichi Masuda"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [
+        [
+          "archive"
+        ]
+      ],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Junichi Masuda Pokemon interviews",
+      "target": "masuda",
+      "expected_title_keywords": [
+        [
+          "Junichi Masuda"
+        ],
+        [
+          "Pokemon"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Junichi Masuda credits",
+      "target": "masuda",
+      "expected_title_keywords": [
+        [
+          "Junichi Masuda"
+        ],
+        [
+          "credits"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Shigeru Ohmori interviews",
+      "target": "ohmori",
+      "expected_title_keywords": [
+        [
+          "Shigeru Ohmori"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Ken Sugimori interview archive",
+      "target": "sugimori",
+      "expected_title_keywords": [
+        [
+          "Ken Sugimori"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [
+        [
+          "archive"
+        ]
+      ],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Pokemon X Y staff credits",
+      "target": "xy",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "X"
+        ],
+        [
+          "Y"
+        ],
+        [
+          "staff"
+        ],
+        [
+          "credits"
+        ]
+      ],
+      "required_metadata_keywords": [
+        [
+          "department breakdown"
+        ],
+        [
+          "development atlas"
+        ]
+      ],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Pokemon Black White staff credits",
+      "target": "bw",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "Black"
+        ],
+        [
+          "White"
+        ],
+        [
+          "staff"
+        ],
+        [
+          "credits"
+        ]
+      ],
+      "required_metadata_keywords": [
+        [
+          "department breakdown"
+        ],
+        [
+          "development atlas"
+        ]
+      ],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Pokemon Scarlet Violet development team",
+      "target": "sv",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "Scarlet"
+        ],
+        [
+          "Violet"
+        ],
+        [
+          "development team"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Pokemon developer interviews",
+      "target": "interviews",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "developer"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Game Freak developer interviews",
+      "target": "interviews",
+      "expected_title_keywords": [
+        [
+          "developer"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": [
+        [
+          "Game Freak"
+        ],
+        [
+          "Game Freak recruitment interviews"
+        ]
+      ]
+    },
+    {
+      "query": "Pokemon development archive",
+      "target": "development",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "development"
+        ],
+        [
+          "archive"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": [
+        [
+          "Game Freak"
+        ],
+        [
+          "staff credits"
+        ],
+        [
+          "magazine",
+          "magazines"
+        ]
+      ]
+    },
+    {
+      "query": "Pokemon interview archive",
+      "target": "interviews",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "interview",
+          "interviews"
+        ],
+        [
+          "archive"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": []
+    },
+    {
+      "query": "Pokemon magazine interview archive",
+      "target": "magazines",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "archive",
+          "archives",
+          "sources"
+        ]
+      ],
+      "required_metadata_keywords": [
+        [
+          "magazine interview"
+        ]
+      ],
+      "required_visible_keywords": [
+        [
+          "magazine"
+        ],
+        [
+          "interview scans"
+        ]
+      ]
+    },
+    {
+      "query": "Game Freak recruitment interviews",
+      "target": "interviews",
+      "expected_title_keywords": [
+        [
+          "developer"
+        ],
+        [
+          "interview",
+          "interviews"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": [
+        [
+          "Game Freak recruitment interviews"
+        ]
+      ]
+    },
+    {
+      "query": "Pokemon game credits archive",
+      "target": "game_credits",
+      "expected_title_keywords": [
+        [
+          "Pokemon"
+        ],
+        [
+          "game"
+        ],
+        [
+          "staff"
+        ],
+        [
+          "credits"
+        ]
+      ],
+      "required_metadata_keywords": [],
+      "required_visible_keywords": [
+        [
+          "staff rolls"
+        ],
+        [
+          "Staff Credits"
+        ]
+      ]
+    }
+  ]
+}

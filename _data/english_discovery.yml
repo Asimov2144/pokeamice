@@ -1,0 +1,44 @@
+# Editorial summaries for five entrance pages, not translations of detail pages.
+featured_people: [masuda-junichi, ohmori-shigeru, sugimori-ken, tajiri-satoshi, morimoto-shigeki, nishino-koji]
+major_games: [red-green, ruby-sapphire, diamond-pearl, heartgold-soulsilver, black-white, x-y, sun-moon, sword-shield]
+collections:
+  - title: Game Freak archive reconstruction
+    url: /gamefreak-director/
+    summary: Read Junichi Masuda's director columns with their original dates, source records and Chinese translations. These are first-person columns, rather than interviews.
+  - title: Game Freak recruitment interviews
+    url: /keys/gamefreak-recruit-archive/
+    summary: Compare archived versions of recruitment pages. The same URL can hold different interviewees and text in different years; version records preserve that context.
+  - title: Japanese interview translations
+    url: /ja/
+    summary: Read Japanese AI translations of selected interviews originally published in English and other languages. They are not human proofread; each page links to its source and Chinese version.
+research_datasets:
+  - title: Cross-game staff credits
+    url: /credits/staff/
+    summary: Compare credited names, roles and games. A credit records a contribution to a work; it does not by itself prove employment at a company.
+    download: /assets/data/credits-staff.json
+  - title: Credit relationships
+    url: /credits/staff/
+    summary: Explore connections between people through the games in which they are credited, with links back to the underlying staff rolls.
+    download: /assets/data/credits-relations.json
+  - title: Searchable archive catalogue
+    url: /search/
+    summary: Search the existing Chinese archive by person, work, year and source. English aliases are included for registered people.
+    download: /assets/js/catalogue.json
+recent_sources:
+  # Added in the 2026-10-09 recruitment reconstruction and 2026-09-29 scan batch.
+  - stem: 2024-02-13-interview-gamefreak-message-ohmori
+    added: '2026-10-09'
+    title: Shigeru Ohmori's archived recruitment message
+    summary: An archived Game Freak recruitment page, linked to its recorded version and Chinese translation.
+  - stem: 2019-12-11-interview-gamefreak-crosstalk-programmer-2019
+    added: '2026-10-09'
+    title: Game Freak programmer roundtable — archived 2019 version
+    summary: A recovered version of a reused recruitment URL. Compare the speakers and source snapshot before citing the interview.
+  - stem: 2009-09-14-interview-gamefreak-career-message-masuda
+    added: '2026-10-09'
+    title: Junichi Masuda's historical recruitment message
+    summary: A first-person recruitment message from Game Freak's older site, preserved with its original source record.
+  - stem: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+    added: '2026-09-29'
+    title: Nintendo DREAM 84 — Ruby and Sapphire interview scans
+    summary: A magazine interview with Junichi Masuda and Ken Sugimori, with scanned source pages and a Chinese translation.
