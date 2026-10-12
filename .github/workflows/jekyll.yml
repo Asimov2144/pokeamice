@@ -13,6 +13,11 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: "App 数据篇数 / 计数明显变少也照样发布（有意撤帖时用）"
+        type: boolean
+        default: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -42,11 +47,29 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # 给 App 的数据（assets/data/app/）每次部署都按这次提交重导，见 tools/app-data-release.py
+      - name: Export App data
+        run: |
+          python -m pip install --quiet pyyaml==6.0.2
+          python tools/app-data-release.py fill-concepts
+          python tools/export-docs-archive.py --commit "${GITHUB_SHA::8}" > /dev/null
+          python tools/export-document-entities.py --commit "${GITHUB_SHA::8}" > /dev/null
+        env:
+          PYTHONHASHSEED: '0'
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build 
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      # 计数明显变少就停下不发布；数据没变就沿用线上的版本号，App 不用重拉
+      - name: Check App data
+        run: python tools/app-data-release.py check --site _site --commit "${GITHUB_SHA::8}"
+        env:
+          APP_DATA_ALLOW_SHRINK: ${{ inputs.allow_shrink }}
       - name: Check English SEO semantic benchmark
         run: python3 tools/check_english_seo_benchmark.py --site _site
       - name: Upload artifact

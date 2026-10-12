@@ -41,6 +41,10 @@ join 键（都核对过，别改）：
 用法：
     python tools/export-docs-archive.py                 # 写到 assets/data/app
     python tools/export-docs-archive.py --out <目录>
+
+部署时自动跑（.github/workflows/jekyll.yml）：每次推 main 都按那次提交重导、检查计数、
+数据没变就沿用线上的版本号（tools/app-data-release.py）。改了文章不用再手动导出提交；
+仓库里提交着的 assets/data/app 只是上次手动导出的快照，线上拉不到 manifest 时拿它当比较基准。
 """
 from __future__ import annotations
 

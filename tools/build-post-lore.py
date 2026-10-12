@@ -1041,6 +1041,9 @@ def main() -> int:
     matchers = {"poke_cjk": poke_cjk, "poke_latin": poke_latin, "place": place_re, "place_index": place_index}
     people_by_name, kinds = people_index()
     works = works_index()
+    #  概念是规则标注、不花钱：重建一条记录时顺手标上。以前这里不标，新收录、重导、--force 过的
+    #  记录都丢了 facets.concepts，App 的概念表因此一路掉篇（10-04 → 10-13 少了 118 篇）
+    vocab = load_concepts()
 
     posts = load_posts()
     by_id = {p["id"]: p for p in posts}
@@ -1134,11 +1137,12 @@ def main() -> int:
                     failed += 1
         if model:
             obs = merge_model(facets, model, post, tables, matchers, people_by_name, kinds, works)
+        facets["concepts"] = concept_hits(post, vocab)
         out = {"id": post["id"], "stem": post["stem"], "rev": REV, "built": date.today().isoformat(),
                "kind": post["kind"], "body": {"kind": post["body_kind"], "n": len(post["segs"])},
                "facets": facets, "observations": obs, "relations": rec.get("relations") or [],
                "sources": {"pokemon_names": tables["pokemon_names"]["synced"], "tour_places": tables["tour_places"]["synced"],
-                           "model": None if args.no_llm else "deepseek-chat"},
+                           "model": None if args.no_llm else "deepseek-chat", "concepts": concepts_version()},
                "edited": False}
         write_record(out)
         lore_by_id[post["id"]] = out
