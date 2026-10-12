@@ -11,7 +11,9 @@ A target may also carry `max_images` (default 10 - a lecture report's slides nee
 `stop_at` (a heading regex: the page's own index after the piece is cut there), and
 `images_live` (the pictures from their live addresses although the page is a Wayback copy -
 a CDN that outlived the site, like Kinja's), `unmarked: question` (a paragraph with no
-speaker's name is the interviewer's - a page that labels every answer), and `drop` (a regex:
+speaker's name is the interviewer's - a page that labels every answer), `questions_marked`
+(every question carries its own mark, so a paragraph before a lone 「大森氏：」 line is not
+turned into one - 電ファミ 2026), and `drop` (a regex:
 blocks whose text, alt or address match it are left out), `append_to` (a post's file stem:
 the target's pages are the later pages of a serial and their turns are added after the
 post's own), `page_headings` / `strip` (see run); on a re-import over an existing post
@@ -458,8 +460,10 @@ def to_items(blocks, target, slug, dry):
         if m and len(text) <= 24 and (match_speaker(m.group(1), target) or is_asker(m.group(1), target)):
             who = match_speaker(m.group(1), target)
             pending = ("answer", who) if who else ("question", None)
-            # the paragraph before a lone speaker line is the question it answers
-            if who and items and items[-1].get("type") is None and not items[-1].get("_explicit") and dialogue:
+            # the paragraph before a lone speaker line is the question it answers - unless the page marks
+            # every question itself (`questions_marked`: 電ファミ repeats 「大森氏：」 before each answer)
+            if who and items and items[-1].get("type") is None and not items[-1].get("_explicit") and dialogue \
+                    and not target.get("questions_marked"):
                 items[-1]["role"], items[-1]["speaker"] = "question", target.get("asker") or ""
             continue
         role, speaker, body = None, None, text

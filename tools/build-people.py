@@ -363,6 +363,7 @@ PORTRAITS = [
     # the interviewee profiles the web articles open with - a photograph per speaker; a group shot is cut by face box
     dict(name="村田佳奈子", year=2026, main=True, src=_FAMI_POKOPIA, box=(153, 266, 106, 106), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から1人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
     dict(name="大森滋", year=2026, src=_FAMI_POKOPIA, box=(446, 103, 111, 111), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から2人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
+    dict(name="大森滋", year=2026, src=_IA + "2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/001.jpg", box=(660, 100, 470, 500), source="電ファミニコゲーマー 2026-10-12『雨のちハレ女』大森滋インタビュー（撮影：永山亘）", post="2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori"),
     dict(name="枝川拓人", year=2026, main=True, src=_FAMI_POKOPIA, box=(736, 157, 113, 113), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から3人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
     dict(name="绫野万里奈", year=2026, main=True, src=_FAMI_POKOPIA, box=(925, 268, 108, 108), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から4人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
     dict(name="阵内弘之", year=2018, main=True, src="https://www.famitsu.com/images/000/154/405/y_5ab938900d505.jpg", source="ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）", post="2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita"),

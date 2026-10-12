@@ -1,0 +1,229 @@
+{
+ "id": "interview-denfami-2026-ame-nochi-hareonna-ohmori",
+ "stem": "2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori",
+ "rev": 1,
+ "built": "2026-10-13",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 452
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "プリン",
+    "ndex": 39,
+    "seg": [
+     3
+    ],
+    "as": [
+     "プリン"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "雨のちハレ女",
+    "slug": null,
+    "seg": [
+     0,
+     10,
+     14,
+     19,
+     28,
+     34
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "ぽこ あ ポケモン",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     212
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "美少女梦工场",
+    "slug": null,
+    "seg": [
+     163
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "学园偶像大师",
+    "slug": null,
+    "seg": [
+     286
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔导物语",
+    "slug": null,
+    "seg": [
+     311
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "噗哟噗哟",
+    "slug": null,
+    "seg": [
+     311
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "指环王",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "DQ",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "FF",
+    "slug": null,
+    "seg": [
+     102
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "電ファミ",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     14,
+     20,
+     34,
+     40,
+     47,
+     51
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     21
+    ]
+   },
+   {
+    "name": "南野（あき）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     283
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     389
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "增田（顺一）",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     389
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "TAITAI",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ジスロマ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "北海道",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     69
+    ],
+    "what": "游戏内派遣雨女的地区",
+    "via": "llm"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 19,
+   "text": "大森滋称《ぽこ あ ポケモン》与《雨のちハレ女》是同时推进开发的作品",
+   "anchor": 20
+  },
+  {
+   "seg": 149,
+   "text": "大森滋称把魔法少女称为“晴女”时，企划成形，一切统合起来",
+   "anchor": 150
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

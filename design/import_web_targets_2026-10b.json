@@ -1,0 +1,41 @@
+{
+ "note": "2026-10-13：電ファミ 2026-10-12 刊《雨のちハレ女》大森滋专访（三页）。版式照 2016 年《不可思议的迷宫》那篇：#articleBody、── 是提问、pages 续页。",
+ "targets": [
+  {
+   "key": "denfami-2026-ame-nochi-hareonna-ohmori",
+   "url": "https://news.denfaminicogamer.jp/interview/261012a",
+   "lang": "ja",
+   "date": "2026-10-12",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？",
+   "kind": "interview",
+   "asker": "電ファミ",
+   "asker_aliases": [
+    "――",
+    "──",
+    "—―"
+   ],
+   "speakers": {
+    "大森": "大森滋"
+   },
+   "works": [
+    "雨のちハレ女"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "大森滋",
+    "雨のちハレ女",
+    "Game Freak",
+    "原创新作"
+   ],
+   "container": "#articleBody",
+   "max_images": 60,
+   "pages": [
+    "https://news.denfaminicogamer.jp/interview/261012a/2",
+    "https://news.denfaminicogamer.jp/interview/261012a/3"
+   ],
+   "questions_marked": true
+  }
+ ]
+}

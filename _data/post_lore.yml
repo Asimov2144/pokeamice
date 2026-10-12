@@ -51775,3 +51775,59 @@
   - anchor: 7
     seg: 6
     text: 《圆形竞技场》世界被描述为犯罪横行、阴暗破败
+2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori:
+  facets:
+    people:
+    - name: 電ファミ
+      role: speaker
+    - name: 大森滋
+      role: speaker
+      slug: ohmori-shigeru
+    - name: 南野（あき）
+      role: mentioned
+    - name: 田尻
+      role: mentioned
+    - name: 增田（顺一）
+      role: mentioned
+    - name: TAITAI
+      role: mentioned
+    - name: ジスロマ
+      role: mentioned
+    places:
+    - name: 北海道
+      what: 游戏内派遣雨女的地区
+      world: game
+    pokemon:
+    - name: プリン
+      ndex: 39
+    works:
+    - name: 雨のちハレ女
+      slug: null
+    - name: ぽこ あ ポケモン
+      slug: null
+    - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      slug: oras
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 美少女梦工场
+      slug: null
+    - name: 学园偶像大师
+      slug: null
+    - name: 魔导物语
+      slug: null
+    - name: 噗哟噗哟
+      slug: null
+    - name: 指环王
+      slug: null
+    - name: DQ
+      slug: null
+    - name: FF
+      slug: null
+  id: interview-denfami-2026-ame-nochi-hareonna-ohmori
+  observations:
+  - anchor: 20
+    seg: 19
+    text: 大森滋称《ぽこ あ ポケモン》与《雨のちハレ女》是同时推进开发的作品
+  - anchor: 150
+    seg: 149
+    text: 大森滋称把魔法少女称为“晴女”时，企划成形，一切统合起来

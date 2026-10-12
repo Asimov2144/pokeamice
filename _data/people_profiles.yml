@@ -212,8 +212,8 @@
   slug: ohmori-shigeru
   kind: person
   interviews:
-    entries: 32
-    spoken_in: 31
+    entries: 35
+    spoken_in: 34
     columns: 3
     first: '2010'
     last: '2026'
@@ -235,81 +235,81 @@
       games: 7
     - cat: 管理/协调
       games: 1
-  summary: 大森滋长期负责宝可梦主系列的企划、设计与总监工作，从《红宝石·蓝宝石》时期负责在地图上放置草丛起步，逐步承担更重要的开发角色并最终成为系列总监 [4][12]。他关注玩家与宝可梦的日常相伴体验，如宝可步频器与宝可梦跟随 [1]，并重视降低通信玩法的使用门槛 [2]。在《太阳·月亮》中，他以太阳与月亮的相互影响来表现人与宝可梦的关系及生命的光辉，并用12小时时差区分两个版本 [3]。在《剑·盾》中，他围绕“最强宝可梦”主题引入极巨化、旷野地带与明雷遇敌，并说明全部宝可梦登场在现实操作与对战平衡上的困难 [8][11]。他也参与新形式的尝试，在《ぽこ あ ポケモン》中组建小规模团队试作，并与外部公司共同开发 [12]。
+  summary: 大森滋从策划岗位起步，早期负责道具配置、地图设计详细规格与用户界面、通信系统开发，并在《钻石／珍珠》中统括全部策划 [4][6]。他长期主导通信相关企划，如地下通道、超级华丽大赛，并关注擦肩通信等低门槛通信玩法 [2][4]。担任总监后，他从核心主题出发构思作品，如以「生命」为主题设计《太阳／月亮》的阿罗拉地区与Z招式、岛屿挑战 [6]。作为制作人，他关注内容能否被大众接受，并注意系统与要素名称是否易被各年龄层接受 [5]。他也主张设计师不应局限于本职，而要主动对整体游戏提出构想 [11]。
   citations:
   - n: 1
     post: 2010-03-19-interview-gameinformer-masuda-morimoto-hgss
     title: '[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化'
     date: '2010-03-19'
     publication: Game Informer
-    detail: 谈宝可步频器与宝可梦跟随，让玩家随时与宝可梦相伴。
+    detail: 谈宝可步频器让玩家随时与宝可梦相伴，并提到宝可梦跟随与宝可全能竞技赛。
   - n: 2
     post: 2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear
     title: 週刊ファミ通 No.1153「通信開発のウラ側を公開！！」太田哲司・大森滋インタビュー（摘录）
     date: '2011-01-06'
     publication: 週刊ファミ通 No.1153「通信開発のウラ側を公開！！」
-    detail: 谈擦肩通信反响超预期，以C装置开关降低通信门槛。
-  - n: 3
-    post: 2016-09-06-interview-pokemoncojp-2016-ohmori-sm
-    title: 宝可梦官网 2016：总监大森滋谈两款软件寄托的想法
-    date: '2016-09-06'
-    publication: 《宝可梦 太阳·月亮》官网
-    detail: 以太阳月亮相互影响解释标题，并说明两版本有12小时时差。
+    detail: 称擦肩通信反响超预期，C装置开关使通信门槛很低。
   - n: 4
-    post: 2016-12-12-interview-reportajes
-    title: '[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
-    date: '2016-12-12'
-    publication: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
-    detail: 据访谈介绍，他自《红宝石／蓝宝石》时期加入，任地区地图设计师。
+    post: 2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage
+    title: Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）
+    date: '2017-07-03'
+    publication: ゲームフリークの伝説と若き才能：大森滋×尾上将之
+    detail: 2001年入职任策划，在《钻石／珍珠》任策划组长并负责地下通道等通信企划。
+  - n: 5
+    post: 2017-10-19-interview-famitsu-usum-ohmori-iwao-director
+    title: '[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制'
+    date: '2017-10-19'
+    publication: 週刊ファミ通
+    detail: 从增田顺一接手，首次担任制作人，开始注意要素名称是否易被接受。
   - n: 6
-    post: 2017-11-06-interview-2017-game-freak-dordogne-enquete
-    title: '[访谈翻译] [Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'
-    date: '2017-11-06'
-    publication: '[Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'
-    detail: 据访谈介绍，他在《欧米伽红宝石／阿尔法蓝宝石》《太阳／月亮》任设计师后任总监。
+    post: 2017-11-09-interview-pokemon-com-usum-ohmori-iwao
+    title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
+    date: '2017-11-09'
+    publication: Pokemon.com / PocketMonsters.net
+    detail: 最初在《红宝石·蓝宝石》负责用户界面、通信系统开发与机制创意。
   - n: 7
-    post: 2018-05-12-interview-4gamer-2018-usum-fanmeeting
-    title: 4Gamer.net 2018：Game Freak谈《宝可梦 究极之日·究极之月》秘话
-    date: '2018-05-12'
-    publication: 4Gamer.net
-    detail: 据活动报道，他在《究极之日·究极之月》首次就任制作人。
+    post: 2018-05-30-interview-gamer-pokemon-press-conference-2018
+    title: 《宝可梦 探险寻宝》与《Let's Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈
+    date: '2018-05-30'
+    publication: Gamer.ne.jp
+    detail: 据该报道，他在发布会上宣布GAME FREAK新作《宝可梦 探险寻宝》。
   - n: 8
-    post: 2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori
-    title: Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新
-    date: '2019-06-13'
-    publication: ファミ通.com
-    detail: 说明全部宝可梦登场在《太阳／月亮》时期已吃力，转向Switch后决定改变方针。
-  - n: 9
-    post: 2019-10-24-interview-gi-2019-champion
-    title: Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》
+    post: 2019-10-24-interview-gi-2019-burning
+    title: Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈
     date: '2019-10-24'
     publication: Game Informer
-    detail: 谈《剑／盾》延续传统RPG，增加冠军戏份并改进惊喜交换。
+    detail: 谈《剑·盾》旷野地带穿着熊，并说自己开发中选水系、发售后常选草系。
+  - n: 9
+    post: 2019-10-24-interview-vg247-2019-swsh
+    title: VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议
+    date: '2019-10-24'
+    publication: VG247
+    detail: 称《剑·盾》主题是打造最强宝可梦，并因个人喜欢英国摇滚而影响地区选择。
   - n: 10
-    post: 2019-10-25-interview-famitsu-2019-swsh-autosave
-    title: Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档
-    date: '2019-10-25'
-    publication: Fami通.com
-    detail: 谈Switch分辨率提升后对大小表现的考虑，以及采用自动存档的理由。
-  - n: 11
     post: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest
     title: '[访谈翻译] 4Gamer《宝可梦 剑·盾》发售纪念专访：大森滋与增田顺一详解“最强”设计哲学、极巨化与伽勒尔生态'
     date: '2019-11-12'
     publication: 4Gamer.net (Gueed 独家专访)
-    detail: 谈以英国为原型、由“最强”主题构思极巨化与极巨团体战。
+    detail: 谈苍响、藏玛然特命名体现神秘感，极巨团体战由巨大化与英国巨人传说推动。
+  - n: 11
+    post: 2021-12-27-interview-gamefreak-crosstalk-designer
+    title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+    date: '2022-10-15'
+    publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
+    detail: 主张设计师不应只问设计，要主动对整体游戏提出逆向提案。
   - n: 12
-    post: 2026-02-16-interview-famitsu-2026-pokopia
-    title: Fami通.com 2026：《ぽこ あ ポケモン》开发访谈——大森滋谈从「放草丛」的原体验到三社共同开发
-    date: '2026-02-16'
-    publication: Fami通.com
-    detail: 谈进入GAME FREAK后首次工作是在《红宝石·蓝宝石》地图上放置草丛。
+    post: 2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori
+    title: 电Fami Nico Gamer 2026：大森滋谈《雨のちハレ女》——一边做《宝可梦》一边做美少女游戏
+    date: '2026-10-12'
+    publication: 电Fami Nico Gamer
+    detail: 谈《宝可梦 朱·紫》开发结束后思考新作，同时推进《ぽこ あ ポケモン》与《雨のちハレ女》。
   expertise:
   - 总监/制作人
   - 企划
   - 美术
-  - 游戏设计
   - 地图设计
-  - 通信玩法
+  - 通信系统
+  - 用户界面
 - name: 太田哲司
   slug: ota-tetsuji
   kind: person
