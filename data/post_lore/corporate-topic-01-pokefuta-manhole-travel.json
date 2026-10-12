@@ -113,6 +113,20 @@
     "what": "设置宝可盖的町",
     "via": "llm"
    }
+  ],
+  "concepts": [
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     12
+    ],
+    "as": [
+     "社交网络"
+    ],
+    "via": "body"
+   }
   ]
  },
  "observations": [
@@ -156,7 +170,8 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat"
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26"
  },
  "edited": false
 }
