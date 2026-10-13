@@ -10,6 +10,7 @@ categories:
 tags:
 - Game Freak
 - 增田顺一
+- Pokémon GO
 - 宝可梦
 - 官方博客
 archive_type: gamefreak_director_column

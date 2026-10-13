@@ -14,12 +14,13 @@ tags:
   - '扫描存档'
   - '日中对照'
   - '宝可梦 黑·白'
+  - '杉森建'
   - '增田顺一'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: オトナファミ
 issue: 2011年3月号
 publisher: エンターブレイン
-interviewee: 增田顺一
+interviewee: 杉森建
 interviewer: オトナファミ 編集部
 dek: 《宝可梦 黑·白》美术总监杉森建讲述全面替换宝可梦与最初三只的设计经过。
 summary: 《宝可梦 黑·白》首次全面替换宝可梦，美术总监杉森建回顾四年前的决定与约两年的制作，讲述藤藤蛇、暖暖猪、水水獭的原型选择、进化形态以武将为意象的设定，以及电影中比克提尼的由来。
@@ -50,6 +51,7 @@ pending_review_regions: 40
 scan_set: ia-otonafamily-201103
 entities:
   people:
+    - 杉森建
     - 增田顺一
   works:
     - 宝可梦 黑·白

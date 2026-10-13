@@ -17,7 +17,7 @@ search: false
 <a href="/entities/works/bushi/"><strong>BUSHI青龙传？二人的勇者？</strong><span>1 条资料</span></a>
 <a href="/entities/works/corocoro-g/"><strong>CoroCoro G</strong><span>1 条资料</span></a>
 <a href="/entities/works/da-vinci/"><strong>Da Vinci</strong><span>1 条资料</span></a>
-<a href="/entities/works/giga-wrecker/"><strong>GIGA WRECKER</strong><span>1 条资料</span></a>
+<a href="/entities/works/giga-wrecker/"><strong>GIGA WRECKER</strong><span>2 条资料</span></a>
 <a href="/entities/works/gotcha/"><strong>GOTCHA!</strong><span>1 条资料</span></a>
 <a href="/entities/works/gamasutra/"><strong>Gamasutra</strong><span>1 条资料</span></a>
 <a href="/entities/works/game-informer-6/"><strong>Game Informer 6月号</strong><span>1 条资料</span></a>
@@ -38,7 +38,7 @@ search: false
 <a href="/entities/works/pok-mon-center-shibuya/"><strong>Pokémon Center SHIBUYA</strong><span>1 条资料</span></a>
 <a href="/entities/works/pok-mon-center-singapore/"><strong>Pokémon Center SINGAPORE</strong><span>1 条资料</span></a>
 <a href="/entities/works/pok-mon-center-taipei/"><strong>Pokémon Center TAIPEI</strong><span>1 条资料</span></a>
-<a href="/entities/works/pok-mon-go/"><strong>Pokémon GO</strong><span>30 条资料</span></a>
+<a href="/entities/works/pok-mon-go/"><strong>Pokémon GO</strong><span>29 条资料</span></a>
 <a href="/entities/works/pok-mon-home/"><strong>Pokémon HOME</strong><span>2 条资料</span></a>
 <a href="/entities/works/pok-mon-legends-z-a/"><strong>Pokémon LEGENDS Z-A</strong><span>7 条资料</span></a>
 <a href="/entities/works/pok-mon-sleep/"><strong>Pokémon Sleep</strong><span>1 条资料</span></a>
@@ -120,7 +120,7 @@ search: false
 <a href="/entities/works/the-animation/"><strong>宝可梦 The Animation</strong><span>1 条资料</span></a>
 <a href="/entities/works/xd/"><strong>宝可梦 XD 暗之旋风 黑暗洛奇亚</strong><span>1 条资料</span></a>
 <a href="/entities/works/x-y/"><strong>宝可梦 X·Y</strong><span>53 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e58991c2b7e79bbe/"><strong>宝可梦 剑·盾</strong><span>30 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e58991c2b7e79bbe/"><strong>宝可梦 剑·盾</strong><span>32 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e58991c2b7e79bbe+e689a9e58585/"><strong>宝可梦 剑·盾 扩充票</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e589a7e59cbae78988+e58589e8bd/"><strong>宝可梦 剧场版 光轮的超魔神 胡帕</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"><strong>宝可梦 动画系列</strong><span>47 条资料</span></a>
@@ -130,7 +130,7 @@ search: false
 <a href="/entities/works/e5ae9de58fafe6a2a6+e68898e69697e99da9e591bd/"><strong>宝可梦 战斗革命</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e68ea2e999a9e5afbbe5ae9d/"><strong>宝可梦 探险寻宝</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e699b6e781bfe992bbe79fb3c2b7e/"><strong>宝可梦 晶灿钻石·明亮珍珠</strong><span>1 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e69cb1c2b7e7b4ab/"><strong>宝可梦 朱·紫</strong><span>19 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e69cb1c2b7e7b4ab/"><strong>宝可梦 朱·紫</strong><span>20 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e6aca7e7b1b3e4bcbde7baa2e5ae9/"><strong>宝可梦 欧米伽红宝石·阿尔法蓝宝石</strong><span>7 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e6b0b4e699b6e78988/"><strong>宝可梦 水晶版</strong><span>14 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e781abe7baa2c2b7e58fb6e7bbbf/"><strong>宝可梦 火红·叶绿</strong><span>22 条资料</span></a>
@@ -178,7 +178,7 @@ search: false
 <a href="/entities/works/e5ae9de58fafe6a2a6e4b8ade5bf83+e7babfe4b88ae5958/"><strong>宝可梦中心 线上商城</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6e4b8ade5bf83e7babfe4b88ae59586/"><strong>宝可梦中心线上商城</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6e4b9b1e68898/"><strong>宝可梦乱战</strong><span>4 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6e4bca0e8afb4+e998bfe5b094e5ae9/"><strong>宝可梦传说 阿尔宙斯</strong><span>18 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6e4bca0e8afb4+e998bfe5b094e5ae9/"><strong>宝可梦传说 阿尔宙斯</strong><span>20 条资料</span></a>
 <a href="/entities/works/pro/"><strong>宝可梦全国图鉴 Pro</strong><span>2 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6e585a8e79083e8bf9ee68ea5/"><strong>宝可梦全球连接</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6e586b2e588ba/"><strong>宝可梦冲刺</strong><span>3 条资料</span></a>
@@ -338,6 +338,7 @@ search: false
 <a href="/entities/works/e993b6e6b2b3e88bb1e99b84e4bca0e8afb4/"><strong>银河英雄传说</strong><span>1 条资料</span></a>
 <a href="/entities/works/e993b6e6b2b3e88bb1e99b84e4bca0e8afb4+e68891e79a8/"><strong>银河英雄传说 我的征途是星辰大海</strong><span>1 条资料</span></a>
 <a href="/entities/works/e998bfe587a1e8bebe/"><strong>阿凡达</strong><span>3 条资料</span></a>
+<a href="/entities/works/e99ba8e381aee381a1e3838fe383ace5a5b3/"><strong>雨のちハレ女</strong><span>1 条资料</span></a>
 <a href="/entities/works/e99bbbe8a696e9818ae688afe5a4a7e585a8/"><strong>電視遊戯大全</strong><span>1 条资料</span></a>
 <a href="/entities/works/6/"><strong>青之6号</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9a38ee381a8e38184e381a3e38197e38287e381ab/"><strong>风といっしょに</strong><span>1 条资料</span></a>

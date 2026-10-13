@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon GO</h2>
-    <span>30 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
+    <span>29 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -184,12 +184,6 @@ search: false
   <p>2016 · interview_translation · ポケモンが現実世界と仮想世界を繋いでいく、20年目の挑戦・・・株式会社ポケモン代表取締役社長・石原恒和氏インタビュー</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-inside-2016-ishihara-20th/">INSIDE 2016：宝可梦20年，石原恒和谈现实与虚拟的连接</a></h3>
   <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2015 · gamefreak_director_column · 増田部長のめざめるパワー 第244回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/GameFreak部长专栏-第244回-Pokemon-GO发布/">[GameFreak部长专栏] 第244回 Pokémon GO 发布</a></h3>
-  <span>这是模板示例页，只保留摘要和结构字段；正式收录时可在这里放入原文、译文、评注和链接解析。 摘要 本回文章记录了《Pokémon GO》发表后的回应。增田顺一提到自己参与了世界观构建、游戏设计和音乐，并说明该作会与 Niantic 一起继续开发。 正文模板 正式整理时建议使用以下结构： 1. 原文段落 2. 中文译文 3. 译注 / 背景说明 4. 关联链接与</span>
 </article>
 
 <article class="resource-network-card">

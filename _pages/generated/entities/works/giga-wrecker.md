@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>GIGA WRECKER</h2>
-    <span>1 篇文章 · 0 条评注 · 2017</span>
+    <span>2 篇文章 · 0 条评注 · 2019 / 2017</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,9 +19,15 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2017 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
+  <p>2019 · interview_translation · プロジェクトストーリー２｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-giga-wrecker/">GAME FREAK Project Story《GIGA WRECKER》：从零开始全靠自己打造新IP（尾上将之、伊藤博人、小川一美）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · ギアプロジェクト『GIGA WRECKER』開発秘話</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-gear-gigawrecker/">GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）</a></h3>
-  <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心年轻主创背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
+  <span></span>
 </article>
 
   </section>

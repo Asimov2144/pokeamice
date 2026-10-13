@@ -1,0 +1,32 @@
+---
+title: "伊藤博人 - 人物"
+permalink: "/entities/people/e4bc8ae897a4e58d9ae4baba/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>伊藤博人</h2>
+    <span>1 篇文章 · 0 条评注 · 2019</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2019 · interview_translation · プロジェクトストーリー２｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-giga-wrecker/">GAME FREAK Project Story《GIGA WRECKER》：从零开始全靠自己打造新IP（尾上将之、伊藤博人、小川一美）</a></h3>
+  <span></span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

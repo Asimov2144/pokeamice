@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 剑·盾</h2>
-    <span>30 篇文章 · 0 条评注 · 2023 / 2022 / 2021 / 2020 / 2019</span>
+    <span>32 篇文章 · 0 条评注 · 2025 / 2024 / 2023 / 2022 / 2021 / 2020 / 2019</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,18 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2025 · interview_translation · プログラマが「無理」と言ったら、どんなアイデアも実現できない。｜プログラマ社員紹介 T.K.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tk/">GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2024 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/">GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
   <span></span>
@@ -27,6 +39,12 @@ search: false
 <article class="resource-network-card">
   <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2022 · interview_translation · デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/">GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）</a></h3>
   <span></span>
 </article>
 
@@ -43,32 +61,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2021 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-planner/">GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2021 · interview_translation · 新卒プログラマ対談｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-programmer/">GAME FREAK 官方对谈 新人程序员篇：不是「只是实现」，而是「解决问题」（T.K. × R.H.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2021 · interview_translation · Game Freak 採用情報</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-ta-tk/">GAME FREAK 官方技术美术（TA）特写 T.K.：敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · プログラマが「無理」と言ったら、どんなアイデアも実現できない。｜プログラマ社員紹介 T.K.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tk/">GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · 自分の成長が、ゲームフリークの成長につながると信じて。｜プログラマ社員紹介 K.O.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-ko/">GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · 開発しているのは、ゲームフリークの未来です。｜プログラマ社員紹介 K.M.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-km/">GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · 「組織の効率」強化へ。開発環境をフルクラウド化したい。｜プログラマ社員紹介 H.T.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-ht/">GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进</a></h3>
   <span></span>
 </article>
 
@@ -79,50 +85,56 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/">GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · ギアプロジェクトなら、自分のアイディアをゲームにできる。だから、面白い。｜デザイナー社員紹介 H.T.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ht/">GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/">GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/">GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-planner/">GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/">GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2021 · interview_translation · ポケモン式ジョブローテーションによって得られる「変化への対応力」とは</p>
   <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">㈱宝可梦式轮岗机制带来的“应对变化的能力”是什么</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>2020 · interview_translation · 「組織の効率」強化へ。開発環境をフルクラウド化したい。｜プログラマ社員紹介 H.T.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-ht/">GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2020 · interview_translation · Pokemon Business Professionals</p>
   <h3><a href="/developer-interviews/official-archives/interview-tpc-business-professionals/">宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · 開発しているのは、ゲームフリークの未来です。｜プログラマ社員紹介 K.M.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-km/">GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · 自分の成長が、ゲームフリークの成長につながると信じて。｜プログラマ社員紹介 K.O.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-ko/">GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/">GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · ギアプロジェクトなら、自分のアイディアをゲームにできる。だから、面白い。｜デザイナー社員紹介 H.T.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ht/">GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/">GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · プロジェクトストーリー1｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-sword-shield/">GAME FREAK Project Story《宝可梦 剑／盾》：从策划流程开始，改变过去的《宝可梦》（大森滋、岩尾和昌）</a></h3>
   <span></span>
 </article>
 

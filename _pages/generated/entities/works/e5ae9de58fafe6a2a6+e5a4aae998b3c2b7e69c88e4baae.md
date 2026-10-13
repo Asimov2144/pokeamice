@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 太阳·月亮</h2>
-    <span>48 篇文章 · 0 条评注 · 2026 / 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
+    <span>48 篇文章 · 0 条评注 · 2026 / 2023 / 2019 / 2018 / 2017 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -37,14 +37,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · 『ポケモン』のコンセプトアートをのびのびと。｜デザイナー社員紹介 F.K.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-concept-artist-fk/">GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任</a></h3>
+  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/">GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&amp;D 前沿技术追求（Y.I.）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.</p>
+  <p>2019 · interview_translation · 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/">GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · 『ポケモン』のコンセプトアートをのびのびと。｜デザイナー社員紹介 F.K.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-concept-artist-fk/">GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任</a></h3>
   <span></span>
 </article>
 
@@ -57,12 +63,6 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
   <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/">GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&amp;D 前沿技术追求（Y.I.）</a></h3>
   <span></span>
 </article>
 
@@ -88,12 +88,6 @@ search: false
   <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
   <h3><a href="/developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/">GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案</a></h3>
   <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2017 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/">GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）</a></h3>
-  <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心跨界先锋背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
 </article>
 
 <article class="resource-network-card">
@@ -127,21 +121,27 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-ta-taya-kk/">GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）</a></h3>
-  <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心技术主管背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ファミ通アワード2016</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-9274234/">【活动】2016年宝可梦获电玩通大奖</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;宝可梦 太阳·月亮&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--c</span>
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · ゲームフリーク、技術開発への挑戦</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-ta-taya-kk/">GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2017 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · サントラ打ち上げ！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-9262888/">【活动】2017《日月》原声带庆功宴</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;前几天&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;我们举办了宝可梦太阳·月亮原声带的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · 他業界出身の社員、活躍中！</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/">GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

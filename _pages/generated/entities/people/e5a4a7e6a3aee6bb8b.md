@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>大森滋</h2>
-    <span>35 篇文章 · 0 条评注 · 2026 / 2025 / 2021 / 2019 / 2018 / 2017 / 2016 / 2014 / 2011 / 2010 / 2009 / 2005</span>
+    <span>38 篇文章 · 0 条评注 · 2026 / 2025 / 2024 / 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2011 / 2010 / 2009 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-ame-nochi-hareonna-ohmori/">电Fami Nico Gamer 2026：大森滋谈《雨のちハレ女》——一边做《宝可梦》一边做美少女游戏</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2026 · interview_translation · 【ぽこポケ】『ぽこ あ ポケモン』開発インタビュー。大森滋氏が『ポケットモンスター』開発時に“マップに草むらを置いた”経験から生まれた！</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2026-pokopia/">Fami通.com 2026：《ぽこ あ ポケモン》开发访谈——大森滋谈从「放草丛」的原体验到三社共同开发</a></h3>
   <span></span>
@@ -31,8 +37,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。</p>
+  <p>2024 · interview_translation · MESSAGE</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-message-ohmori/">GAME FREAK 开发负责人寄语（2024，大森滋）：持续创造超越以往系列作品的新玩法</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2022 · interview_translation · デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/">GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · プロジェクトストーリー1｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-sword-shield/">GAME FREAK Project Story《宝可梦 剑／盾》：从策划流程开始，改变过去的《宝可梦》（大森滋、岩尾和昌）</a></h3>
   <span></span>
 </article>
 
@@ -49,14 +67,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
+  <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · 『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/">Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
-  <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
+  <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
   <span></span>
 </article>
 
@@ -81,12 +105,6 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · More Burning Questions For The Pokémon Series</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-burning/">Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
   <span></span>
 </article>
 

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>T.T.</h2>
-    <span>2 篇文章 · 0 条评注 · 2021 / 2013</span>
+    <span>3 篇文章 · 0 条评注 · 2024 / 2019 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,8 +19,14 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2021 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
+  <p>2024 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/">GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · プログラマ対談｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer-2019/">GAME FREAK 官方对谈 程序员篇（2019 年版）：土生土长的游戏程序员与拥有最新技术的程序员的合作（T.T. × K.I.）</a></h3>
   <span></span>
 </article>
 

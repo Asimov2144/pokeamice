@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>K.F.</h2>
-    <span>2 篇文章 · 0 条评注 · 2021</span>
+    <span>2 篇文章 · 0 条评注 · 2021 / 2019</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -25,7 +25,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · Game Freak 採用情報</p>
+  <p>2019 · interview_translation · Game Freak 採用情報</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planner-kf/">GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落</a></h3>
   <span></span>
 </article>
