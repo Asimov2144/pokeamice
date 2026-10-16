@@ -1,0 +1,561 @@
+# 站内收录缺口登记（/keys/archive-gaps/）
+# 来源：GAME FREAK 招聘版本档案 v0.1（2026-10-08）；剑盾之后实体访谈档案 v0.3（2026-10-08）
+#
+# 每条：
+#   id        锚点，也是之后补入时的编号
+#   doc       recruit（招聘版本档案） | print（实体访谈档案）
+#   group     interview 访谈 | book 攻略本 | people 人物 | roster 名单
+#   title     条目名（不确定就写文档里的说法）
+#   period    时期 / 刊期
+#   people    受访或涉及的人，写 _data/people.yml 里的名字
+#   site      站内状态：
+#               in_site      站内已有对应文章（posts 列文件名，不带 .md）
+#               partial      站内只有一部分（网页版、摘录、部分人物），缺的部分写在 need 里
+#               placeholder  站内没有，但有可核对的链接，按 links 占位
+#               gap          站内没有，文档也没有给链接，只能标缺口
+#   links     [{label, url}]  文档给出的链接、Wayback 快照（已核对时间戳）
+#   posts     站内对应文章（_posts 文件名，不带 .md）
+#   need      还缺什么
+#   note      关键的版本或来源说明
+#   priority  S / A / B（沿用文档的征集优先级）
+
+meta:
+  updated: "2026-10-16"
+  sources:
+    - "GAME FREAK 招聘版本档案 v0.1"
+    - "剑盾之后实体访谈档案 v0.3"
+  note: "placeholder 条目只登记链接与状态，不含正文。占位稿放在 _drafts/gap-<id>.md（未发布）；补入正文时把占位稿移到 _posts 并加日期，把 site 改为 in_site 并填 posts。"
+
+entries:
+
+  # ───────────────────────── 招聘版本档案 ─────────────────────────
+
+  - id: rc-gen25-2019-spring
+    doc: recruit
+    group: interview
+    title: "2019 春季人物页（Gen-2.5）：Y.I. / M.Y."
+    period: "2019-04-01"
+    people: ["Y.I.", "M.Y."]
+    site: in_site
+    posts:
+      - 2019-04-01-interview-gamefreak-recruit-pg-yi
+      - 2019-04-01-interview-gamefreak-recruit-pl-my
+    links:
+      - {label: "Wayback 2019-12-11 · Y.I.", url: "https://web.archive.org/web/20191211222205/https://www.gamefreak.co.jp/recruit/interview-pg-yi/"}
+      - {label: "Wayback 2019-12-11 · M.Y.", url: "https://web.archive.org/web/20191211222535/https://www.gamefreak.co.jp/recruit/interview-pl-my/"}
+    note: "文档记作 /recruit/interview/yi/ 与 /my/（现已 404）；Wayback 中同内容的路径为 /recruit/interview-pg-yi/ 与 /recruit/interview-pl-my/。"
+    priority: ""
+
+  - id: rc-gen1
+    doc: recruit
+    group: interview
+    title: "Gen-1 编号式员工采访（interview_01–06 及同批）"
+    period: "2015–2017"
+    people: []
+    site: in_site
+    posts:
+      - 2015-08-01-interview-gamefreak-gear-tembo-turner
+      - 2015-09-01-interview-gamefreak-rnd-launch-taya-mi
+      - 2015-10-01-interview-gamefreak-recruit-designers
+      - 2015-10-01-interview-gamefreak-recruit-planners
+      - 2015-10-01-interview-gamefreak-recruit-programmers
+      - 2017-03-01-interview-gamefreak-gear-gigawrecker
+      - 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
+      - 2017-09-01-interview-gamefreak-recruit-cross-industry
+    links: []
+    need: ""
+    note: "文档判断 Gen-1 大体已恢复；站内 8 篇覆盖 interview_01–06 的主题（程序、策划、美术、R&D / TA、Gear、异业种座谈）。"
+    priority: ""
+
+  - id: rc-crosstalk-programmer-gen1
+    doc: recruit
+    group: interview
+    title: "Cross Talk「程序员」Gen-1（T.T. × K.I. 旧版）"
+    period: "2019-12 → 2020-08（Wayback 快照可读）"
+    people: ["T.T.", "K.I."]
+    site: in_site
+    links:
+      - {label: "Wayback 2019-12-11", url: "https://web.archive.org/web/20191211222212/https://www.gamefreak.co.jp/recruit/crosstalk-programmer/"}
+      - {label: "Wayback 2020-08-04", url: "https://web.archive.org/web/20200804213443/https://www.gamefreak.co.jp/recruit/crosstalk-programmer/"}
+      - {label: "现行网址（已是 Gen-2）", url: "https://www.gamefreak.co.jp/recruit/crosstalk-programmer/"}
+    need: ""
+    note: "2026-10-09 按 Wayback 存档录入（招聘版本档案重收）。站内的 Gen-2 程序员篇见 rc-crosstalk-programmer-gen2。Wayback 显示到 2022-10-15 为止仍是 T.T. × K.I. 版。"
+    posts: ["2019-12-11-interview-gamefreak-crosstalk-programmer-2019"]
+    priority: "S"
+
+  - id: rc-crosstalk-programmer-gen2
+    doc: recruit
+    group: interview
+    title: "Cross Talk「程序员」Gen-2（T.T. × M.O. 版，站内当前版）"
+    period: "2021-12-27 收录；正文为 2024 年前后的版本"
+    people: ["T.T.", "M.O."]
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-programmer"]
+    links: []
+    need: "Gen-2 首次出现的快照（Wayback 已缩小到 2022-10-15 至 2024-02-29 之间）。"
+    note: "日期 2021-12-27 不代表 M.O. 版上线（文档 §9）。"
+    priority: "A"
+
+  - id: rc-crosstalk-new-programmer
+    doc: recruit
+    group: interview
+    title: "新卒プログラマ対談（旧导航名，后改为「新卒若手対談」）"
+    period: "约 2021–2022（Wayback 可见 2022-04-25）"
+    people: ["T.K.", "R.H."]
+    site: in_site
+    links:
+      - {label: "Wayback 2022-04-25（旧网址 crosstalk-new-programmer）", url: "https://web.archive.org/web/20220425080732/https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/"}
+    need: ""
+    note: "2026-10-09 按 Wayback 存档录入（T.K. × R.H.）。站内另有后来的「新卒若手対談」（2021-12-27-interview-gamefreak-crosstalk-new-graduate），不是同一篇。"
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-new-programmer"]
+    priority: "S"
+
+  - id: rc-interview-dn
+    doc: recruit
+    group: interview
+    title: "员工采访 D.N.（2018 年入社，程序员；People 位置后由 T.K. 替换）"
+    period: "2019-12 前后（Wayback 2019-12-11 可见）"
+    people: ["D.N."]
+    site: in_site
+    links:
+      - {label: "Wayback 2019-12-11（旧网址 interview-pg-dn）", url: "https://web.archive.org/web/20191211213057/https://www.gamefreak.co.jp/recruit/interview-pg-dn/"}
+    need: ""
+    note: "2026-10-09 按 Wayback 存档录入，人物条目 /people/d-n/ 同时建好。"
+    posts: ["2019-12-11-interview-gamefreak-recruit-programmer-dn"]
+    priority: "S"
+
+  - id: rc-gen2-new2020
+    doc: recruit
+    group: roster
+    title: "年度新卒站 2020 届（recruit.gamefreak.co.jp/new2020）"
+    period: "至少到 2019 年上半年"
+    people: []
+    site: placeholder
+    links:
+      - {label: "Wayback 2019-05-04", url: "https://web.archive.org/web/20190504120318/https://recruit.gamefreak.co.jp/new2020"}
+      - {label: "原址（2026-10-08 不可达）", url: "https://recruit.gamefreak.co.jp/new2020/"}
+    need: "年度员工介绍、职种说明、Internship 内容；文档称这一代网站没有被系统恢复。"
+    note: "Gen-2 独立域名。原址已不可达，只能从 Wayback 取。"
+    posts: []
+    priority: "S"
+
+  - id: rc-new2021
+    doc: recruit
+    group: roster
+    title: "年度新卒站 2021 届（gamefreak.co.jp/recruit/new2021/）"
+    period: "Wayback 可见 2020-01-25"
+    people: []
+    site: placeholder
+    links:
+      - {label: "Wayback 2020-01-25", url: "https://web.archive.org/web/20200125224619/https://www.gamefreak.co.jp/recruit/new2021/"}
+    need: "确认内容与 Gen-2 的关系，再决定是否并入同一版本线。"
+    note: "文档未列出此页；由 Wayback 目录补入，属同类年度站。"
+    posts: []
+    priority: "A"
+
+  - id: rc-new2022
+    doc: recruit
+    group: roster
+    title: "年度新卒站 2022 届（gamefreak.co.jp/recruit/new2022/）"
+    period: "Wayback 可见 2020-12-15"
+    people: []
+    site: placeholder
+    links:
+      - {label: "Wayback 2020-12-15", url: "https://web.archive.org/web/20201215033139/https://www.gamefreak.co.jp/recruit/new2022/"}
+    need: "同上。"
+    note: "文档未列出此页；由 Wayback 目录补入。"
+    posts: []
+    priority: "A"
+
+  - id: rc-people-2019-roster
+    doc: recruit
+    group: roster
+    title: "2019 年 People Gen-1 名单（完整版）"
+    period: "2019 年底大改版后"
+    people: ["Y.I.", "M.Y.", "T.T.", "K.I."]
+    site: partial
+    links:
+      - {label: "Wayback 2020-08-04 · 招聘首页", url: "https://web.archive.org/web/20200804213442/https://www.gamefreak.co.jp/recruit/index/"}
+    need: "完整名单、人物卡与员工页网址、静态图片名、首个快照。站内只有上面四人对应的条目。"
+    note: "文档只确认这四人与 2019 招聘体系相关，不能当作完整名单。"
+    posts: []
+    priority: "S"
+
+  - id: rc-people-2021-roster
+    doc: recruit
+    group: roster
+    title: "2021 年前后 People 名单（12 个位置）"
+    period: "2021-12 扩容"
+    people: ["F.K.", "K.N.", "M.I.", "D.N.", "K.O.", "R.M.", "E.K.", "H.T.", "K.M.", "K.F.", "T.K."]
+    site: partial
+    links: []
+    need: "D.N. 缺条目（见 rc-interview-dn）。"
+    note: "文档列出 H.T. 两次，站内 people.yml 只有一条 H.T.，而站内收录的 designer-ht 与 programmer-ht 是两篇不同的访谈。"
+    posts: []
+    priority: ""
+
+  - id: rc-individuals-2021
+    doc: recruit
+    group: interview
+    title: "2021-12-27 个人访谈（设计、策划、程序、TA、概念美术）"
+    period: "2021-12-27"
+    people: []
+    site: in_site
+    posts:
+      - 2021-12-27-interview-gamefreak-recruit-concept-artist-fk
+      - 2021-12-27-interview-gamefreak-recruit-designer-ek
+      - 2021-12-27-interview-gamefreak-recruit-designer-ht
+      - 2021-12-27-interview-gamefreak-recruit-designer-kn
+      - 2021-12-27-interview-gamefreak-recruit-designer-mi
+      - 2021-12-27-interview-gamefreak-recruit-planner-kf
+      - 2021-12-27-interview-gamefreak-recruit-planner-rm
+      - 2021-12-27-interview-gamefreak-recruit-programmer-ht
+      - 2021-12-27-interview-gamefreak-recruit-programmer-km
+      - 2021-12-27-interview-gamefreak-recruit-programmer-ko
+      - 2021-12-27-interview-gamefreak-recruit-programmer-tk
+      - 2021-12-27-interview-gamefreak-recruit-ta-tk
+    links: []
+    need: ""
+    note: "日期 2021-12-27 是扩容日期，正文年代需逐篇核对（文档 §4、§22）。"
+    priority: ""
+
+  - id: rc-crosstalk-designer
+    doc: recruit
+    group: interview
+    title: "Cross Talk「设计」"
+    period: "2021-12-27（正文含 2022 年后段落）"
+    people: []
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-designer"]
+    links: []
+    need: "2021 原稿（去掉 2022 年后新增段落）。"
+    note: "正文提到 2022 年新设的「コンセプト＆ビジュアルスタジオ」，不可能是 2021 年原文。"
+    priority: "A"
+
+  - id: rc-crosstalk-planner
+    doc: recruit
+    group: interview
+    title: "Cross Talk「策划」（K.F. × H.T.）"
+    period: "2021-12-27"
+    people: ["K.F.", "H.T."]
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-planner"]
+    links: []
+    need: "首快照。"
+    note: "正文涉及 Pokémon HOME，文档判断很可能是 2021 原稿。"
+    priority: "B"
+
+  - id: rc-crosstalk-game-programmer
+    doc: recruit
+    group: interview
+    title: "Cross Talk「游戏程序员」"
+    period: "2021–2022"
+    people: []
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-game-programmer"]
+    links: []
+    need: "首快照（确认是 2021-12 还是 2022）。"
+    note: "主题集中在 Pokémon LEGENDS アルセウス 的玩法原型。"
+    priority: "A"
+
+  - id: rc-crosstalk-system-programmer
+    doc: recruit
+    group: interview
+    title: "Cross Talk「系统程序员」（K.M. × H.T.）"
+    period: "正文 2021/22，职务与照片后改"
+    people: ["K.M.", "H.T."]
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-system-programmer"]
+    links: []
+    need: "旧职务与旧正文的快照对照。"
+    note: "正文中的旧职务是「研究开发部副部长」与「基盤技術開発部 部長」；现行职务已改。照片为 2024 年素材。"
+    priority: "A"
+
+  - id: rc-crosstalk-scenario
+    doc: recruit
+    group: interview
+    title: "Cross Talk「世界观（Scenario）」"
+    period: "正文 2021 年左右，人物所属后改"
+    people: []
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-scenario"]
+    links: []
+    need: "2021 年时的成员所属。"
+    note: "人物所属标注的 World Concept 相关团队对应 2022 年新设的 Concept & Visual Studio。"
+    priority: "A"
+
+  - id: rc-crosstalk-new-graduate
+    doc: recruit
+    group: interview
+    title: "Cross Talk「新卒若手対談」（应届新人篇）"
+    period: "正文 2023–2024 版"
+    people: []
+    site: in_site
+    posts: ["2021-12-27-interview-gamefreak-crosstalk-new-graduate"]
+    links: []
+    need: ""
+    note: "正文写有 2023 年入社、入社第 2 年，2021-12-27 不能作为正文日期。"
+    priority: ""
+
+  # ───────────────────────── 剑盾之后实体访谈档案 ─────────────────────────
+
+  - id: pr-famitsu-2019-1128
+    doc: print
+    group: interview
+    title: "週刊ファミ通 2019年11月28日号：増田順一 × 大森滋 长访（纸本）"
+    period: "2019-11-28（发售纪念特集，44 页）"
+    people: ["増田順一", "大森滋"]
+    site: partial
+    posts: ["2019-10-25-interview-famitsu-sword-shield-masuda-ohmori"]
+    links:
+      - {label: "Famitsu 2019-10-25 网页采访（说明纸本会刊载完整长访）", url: "https://www.famitsu.com/news/201910/25185773.html"}
+      - {label: "Famitsu 特集介绍（44 页）", url: "https://www.famitsu.com/news/201911/12186564.html"}
+      - {label: "Famitsu 相关介绍", url: "https://www.famitsu.com/news/201911/14186877.html"}
+    need: "纸本页码、版面与标题页、与 Famitsu.com 摘录逐段对照；纸本扫描或数字版页图。"
+    note: "站内只有 2019-10-25 的网页版，纸本长访未单独收录。站内标题里的 增田顺一 写法沿用 people.yml。"
+    priority: "S"
+
+  - id: pr-gi-319
+    doc: print
+    group: interview
+    title: "Game Informer #319（2019年11月）：Going Big 封面报道"
+    period: "2019-11（网页 2019-11-13）"
+    people: ["大森滋", "增田顺一", "岩尾和昌", "James Turner"]
+    site: in_site
+    posts: ["2019-11-13-interview-gi-2019-going-big"]
+    links:
+      - {label: "Going Big（网页）", url: "https://gameinformer.com/feature/2019/11/13/going-big"}
+    need: "纸本完整扫描、cover story 页码、三种封面、纸本与网页拆稿的对应。"
+    note: "站内为网页版封面报道的译文。"
+    priority: "S"
+
+  - id: pr-gi-319-splits
+    doc: print
+    group: interview
+    title: "GI 取材拆出的网页稿（Wild Area、Max Raid、Dynamax、Pokémon 设计、Galar/UK 灵感、Exp. Share、James Turner 设计过程、101 Rapid-Fire）"
+    period: "2019-10 至 2019-12"
+    people: ["大森滋", "增田顺一", "James Turner"]
+    site: gap
+    posts: ["2019-10-01-interview-gi-2019-dexit", "2019-10-24-interview-gi-2019-burning", "2019-10-24-interview-gi-2019-champion"]
+    links: []
+    need: "逐篇的链接。Wayback 的 gameinformer.com/feature/2019/10–12 列表中未见对应条目，需要人工检索。"
+    note: "站内已有 dexit（全国图鉴）、burning（Burning Questions）、champion；其余主题未见。"
+    priority: "B"
+
+  - id: pr-overlap-ss
+    doc: print
+    group: book
+    title: "官方完全攻略本（SwSh）：大森滋 director 访谈"
+    period: "2019-12-07"
+    people: ["大森滋"]
+    site: placeholder
+    links:
+      - {label: "OVERLAP 商品页（已确认访谈标注、928 页、ISBN）", url: "https://over-lap.co.jp/book/ss/"}
+    need: "访谈所在页码与版面；是否可摘录（攻略本版权，只能登记页码与要点）。"
+    note: "出版社页面写明「ポケモン剣盾ディレクター ゲームフリーク大森 滋 氏 インタビュー掲載」。"
+    posts: []
+    priority: "A"
+
+  - id: pr-overlap-la
+    doc: print
+    group: book
+    title: "Pokémon LEGENDS アルセウス 官方攻略本（624 页）"
+    period: "2022-04-16 发售（页面写 4月16日（土））"
+    people: []
+    site: placeholder
+    links:
+      - {label: "OVERLAP 商品页", url: "https://over-lap.co.jp/book/la/Default.aspx"}
+    need: "确认书中是否有开发者访谈；目前公开书目未标注。"
+    note: "只作为攻略本占位，不代表含访谈。"
+    posts: []
+    priority: "B"
+
+  - id: pr-overlap-sv
+    doc: print
+    group: book
+    title: "Pokémon Scarlet / Violet 官方攻略本"
+    period: "2023-02-02 发售（页面写 2月2日（木））"
+    people: []
+    site: placeholder
+    links:
+      - {label: "OVERLAP 商品页", url: "https://over-lap.co.jp/book/sv/"}
+    need: "确认书中是否有开发者访谈；目前公开书目未标注。"
+    note: "只作为攻略本占位。"
+    posts: []
+    priority: "B"
+
+  - id: pr-overlap-zero
+    doc: print
+    group: book
+    title: "The Hidden Treasure of Area Zero 官方书"
+    period: "2023–2024"
+    people: []
+    site: placeholder
+    links:
+      - {label: "OVERLAP 商品页", url: "https://over-lap.co.jp/book/zero/"}
+    need: "确认书中是否有开发者访谈；目前公开商品说明未标注。"
+    note: "只作为攻略本占位。"
+    posts: []
+    priority: "B"
+
+  - id: pr-cedec-2022
+    doc: print
+    group: interview
+    title: "CEDEC 2022：Legends Arceus / Scarlet Violet 的图形与管线（前澤圭一）"
+    period: "2022-08"
+    people: ["前泽圭一"]
+    site: in_site
+    posts:
+      - 2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline
+      - 2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline
+    links:
+      - {label: "Famitsu 2022-08 报道", url: "https://www.famitsu.com/news/202208/27273621.html"}
+    need: ""
+    note: "文档归类为 DEVELOPER_TALK，不计入杂志访谈。"
+    priority: ""
+
+  - id: pr-cedec-2023
+    doc: print
+    group: interview
+    title: "CEDEC 2023：Paldea 视觉管线（前澤圭一）"
+    period: "2023-08"
+    people: ["前泽圭一"]
+    site: in_site
+    posts: ["2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza"]
+    links:
+      - {label: "Nintendo DREAM WEB 报道", url: "https://www.ndw.jp/cedec2023-report-230827/"}
+    need: "站内补记来源：文档引用的是 ND WEB 报道。"
+    note: "DEVELOPER_TALK，非杂志访谈。"
+    priority: ""
+
+  - id: pr-cedec-2026
+    doc: print
+    group: interview
+    title: "CEDEC 2026：Z-A 的 Lumiose 渲染与 PokéRig（相关开发讲演）"
+    period: "2026-07 至 2026-09"
+    people: []
+    site: in_site
+    posts:
+      - 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck
+      - 2026-07-23-interview-denfami-2026-cedec-pokerig
+      - 2026-09-17-interview-cgworld-2026-cedec-pkmnza
+    links: []
+    need: ""
+    note: "文档未单列；站内已有，可作为 Z-A 开发资料的参照。不计入杂志访谈。"
+    priority: ""
+
+  - id: gap-bdsp
+    doc: print
+    group: interview
+    title: "BDSP 开发者纸本访谈（増田順一、上田祐一、ILCA 团队）"
+    period: "2021"
+    people: ["増田順一", "上田祐一"]
+    site: gap
+    links: []
+    need: "文档检索了 Nintendo DREAM、Famitsu、Game Informer，均未找到；需要扩大到 EDGE、N-ZONE、英国纸媒与官方书。"
+    note: "MAJOR_GAP（文档 §5、§28）。"
+    posts: []
+    priority: "A"
+
+  - id: gap-expac-2020
+    doc: print
+    group: interview
+    title: "Sword / Shield Expansion Pass 开发者纸本访谈"
+    period: "2020"
+    people: []
+    site: gap
+    links: []
+    need: "逐期排查未找到；需要官方书、非游戏刊物与技术人员的线索。"
+    note: "NO_INTERVIEW_CONFIRMED_YET，不代表绝对不存在。"
+    posts: []
+    priority: "B"
+
+  - id: gap-pla
+    doc: print
+    group: interview
+    title: "Pokémon LEGENDS アルセウス 开发者纸本访谈（director、planning、art、environment、battle）"
+    period: "2022"
+    people: []
+    site: gap
+    links: []
+    need: "逐期排查未找到。"
+    note: "站内已有 CEDEC 2022 的管线访谈（见 pr-cedec-2022），但不是纸本长访。"
+    posts: []
+    priority: "A"
+
+  - id: gap-sv
+    doc: print
+    group: interview
+    title: "Pokémon Scarlet / Violet 开发者纸本访谈（director、技术与美术、Paldea 企划）"
+    period: "2022–2024"
+    people: []
+    site: gap
+    links: []
+    need: "逐期排查未找到；同期的 ND 中，同类作品标了开发者访谈，Pokémon 条目没有。"
+    note: "NO_INTERVIEW_CONFIRMED_YET。"
+    posts: []
+    priority: "A"
+
+  - id: gap-zero
+    doc: print
+    group: interview
+    title: "The Hidden Treasure of Area Zero 开发者访谈"
+    period: "2024-02"
+    people: []
+    site: gap
+    links: []
+    need: "ND vol.357 的 Pokémon 条目未标访谈；需要其他刊物或官方书的线索。"
+    note: "FEATURE_ONLY。"
+    posts: []
+    priority: "B"
+
+  - id: gap-za
+    doc: print
+    group: interview
+    title: "Pokémon LEGENDS Z-A 开发者纸本访谈"
+    period: "2025–2026"
+    people: []
+    site: gap
+    links: []
+    need: "截至 2026-10-08 未找到；下一步查 Famitsu、ND 的发售期 guide 与员工访谈。"
+    note: "REPEATED_PRINT_COVERAGE / NO_DEVELOPER_PRINT_INTERVIEW_CONFIRMED_YET。"
+    posts: []
+    priority: "B"
+
+  # ───────────────────────── 人物缺口 ─────────────────────────
+
+  - id: person-dn
+    doc: recruit
+    group: people
+    title: "人物条目：D.N."
+    period: "2018 年入社"
+    people: ["D.N."]
+    site: in_site
+    links: []
+    need: ""
+    note: "与 rc-interview-dn 配套。"
+    posts: ["2019-12-11-interview-gamefreak-recruit-programmer-dn"]
+    priority: ""
+
+  - id: person-ueda
+    doc: print
+    group: people
+    title: "人物条目：上田祐一（站内写作 植田祐一）"
+    period: "BDSP 相关"
+    people: ["植田祐一"]
+    site: partial
+    links: []
+    need: "确认文档的「上田祐一」与站内「植田祐一」是否同一人（上田 / 植田 汉字不同）；是同一人则把文档写法记为别名。站内人物页 /people/ueda-yuichi/ 已存在，尚无 BDSP 相关文章。"
+    note: "与 gap-bdsp 配套。"
+    posts: []
+    priority: ""
+
+# 文档中不占位的内容（按文档 §0 的收录原则）：
+excluded:
+  - "Nintendo DREAM 2019–2026 各期目录（FEATURE_ONLY）：特集、企画、新作，未确认开发者访谈，不占位。"
+  - "Famitsu 2020-03、2022-02、2022-12、2025-10 的发售特集（FEATURE_ONLY）：不占位。"
+  - "EDGE 2022-04、Retro Gamer #228（PRINT_REVIEW）：评测，不收入访谈档案。"
+  - "Game Informer 2020-10 Crown Tundra、2021-10 BDSP（preview）：不占位。"
+  - "Famitsu 2019-11-12 / 11-14 特集介绍：作为 pr-famitsu-2019-1128 的线索链接，不单独占位。"
+  - "Skybabies 项目页：背景来源，不占位。"
+  - "pokeamice.com/gfweb（PokeAmice 历史镜像）：未公开（返回 403），不作为链接。"

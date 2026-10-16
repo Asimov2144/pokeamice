@@ -24,6 +24,7 @@ matter, and its version note (_includes/recruit-version.html) links back to the 
       <span>已有译文 <b>{{ n_in }}</b></span>
       <span>更新 <b>{{ RA.updated }}</b></span>
     </div>
+    <p class="library__lead">存档里有、站内还没收的页面（年度新卒站等）登记在<a href="{{ '/keys/archive-gaps/' | relative_url }}">站内收录缺口</a>。</p>
   </header>
 
   <section class="rarc-sec" id="roster" aria-labelledby="rarc-roster-title">
