@@ -68,7 +68,7 @@ parallel_items:
   role_ja: フィールドコンテンツプログラマ
   original: 2014年度に入社した、フィールドコンテンツプログラマのY.I.です。現在はプレイヤープログラム全般を担当しています。
   role: answer
-  translation: 我是2014年度入职的场地内容程序员Y.I.。目前负责玩家程序整体。
+  translation: "我是2014年度入职的场地内容程序员Y.I.。现在负责玩家程序整体。"
   role_zh: 场地内容程序员
   avatar: /assets/img/interviews/2015-gamefreak-recruit-programmers/profile_01.png
 - type: profile
@@ -77,7 +77,7 @@ parallel_items:
   role_ja: フィールド環境プログラマ
   original: 同じく2014年度入社のフィールド環境プログラマ、M.K.です。主にアセットパイプラインやツールの構築を行っています。
   role: answer
-  translation: 我也是2014年度入职的场地环境程序员M.K.。主要负责资源管线和工具的构建。
+  translation: "我也是2014年度入职的场地环境程序员M.K.。主要做资源管线和工具的构建。"
   role_zh: 场地环境程序员
   avatar: /assets/img/interviews/2015-gamefreak-recruit-programmers/profile_02.png
 - type: heading
@@ -93,7 +93,7 @@ parallel_items:
   speaker_orig: フィールドコンテンツプログラマ Y.I.
   original: 専門学校を卒業後、名古屋のゲーム会社で2年ほどPS3とXbox 360のゲームを開発しました。その後東京に出てきて移植プロジェクトに参加、再度転職して、とあるミドルウェアを開発するチームでリーダーをしていました。
   role: answer
-  translation: 从专门学校毕业后，我在名古屋的一家游戏公司做了大约两年PS3和Xbox 360的游戏开发。之后来到东京，参与了一个移植项目，再次跳槽后，在一个开发某中间件的团队担任组长。
+  translation: "从专门学校毕业后，我在名古屋的一家游戏公司做了大约两年PS3和Xbox 360的游戏开发。之后来到东京，参与了一个移植项目，再次跳槽后，在一个开发某中间件的团队当组长。"
 - type: text
   speaker: M.K.
   speaker_orig: フィールド環境 M.K.
@@ -191,7 +191,7 @@ parallel_items:
   speaker_orig: フィールド環境 M.K.
   original: やっぱり巨大なプロジェクトだなあと思う一方で、意外と原始的な部分、改善の余地がある部分も残っていますね。でも、改善したいところを指摘すれば、先輩方が意見を汲んでくれるので、悩みがいがあるなと思っています。
   role: answer
-  translation: 果然还是觉得这是个庞大的项目，但同时也意外地发现有些原始的部分、还有改善余地的地方。不过，只要指出想改善的地方，前辈们就会听取意见，所以觉得很有改进的价值。
+  translation: "果然还是觉得这是个庞大的项目，但同时也意外地发现有些地方还挺原始，还有改善的余地。不过，只要指出想改善的地方，前辈们就会听取意见，所以觉得很有改进的价值。"
 - type: heading
   level: 3
   original: どの辺りが、原始的だと感じますか？
@@ -201,7 +201,7 @@ parallel_items:
   speaker_orig: フィールドコンテンツプログラマ Y.I.
   original: モデルやテクスチャの管理方法は、今後ハードのスペックが上がった時に対応できないので、そうなる前に大規模開発向けに変えていく必要があると思います。
   role: answer
-  translation: 模型和纹理的管理方法，将来硬件性能提升时无法应对，所以我认为有必要在那之前改为面向大规模开发的方式。
+  translation: "模型和纹理的管理方法，将来硬件性能提升时就应付不了了，所以我觉得有必要在那之前改成面向大规模开发的方式。"
 - type: text
   speaker: M.K.
   speaker_orig: フィールド環境 M.K.
@@ -210,10 +210,7 @@ parallel_items:
 
     「作業者が慣れている道具を使うこと」は確かに大切なのですが、その道具が足枷になっているケースもあり、今ならより便利な方法を選択できるなぁと感じることもあります。'
   role: answer
-  translation: '沟通手段、信息管理以及资产管线所使用的工具类也还有很大的改善余地。
-
-
-    “作业者使用熟悉的工具”确实很重要，但有时这些工具会成为束缚，现在的话可以选择更方便的方法，我也有这样的感觉。'
+  translation: "沟通手段、信息管理，还有资产管线用的那些工具，我觉得也还有很大的改善余地。\n\n“作业者用熟悉的工具”确实很重要，但有时候这些工具反而成了束缚，现在的话可以选择更方便的方法，我也会有这样的感觉。"
 - type: image
   src: /assets/img/interviews/2015-gamefreak-recruit-programmers/photo_03.png
 - type: heading
