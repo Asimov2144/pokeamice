@@ -5,16 +5,6 @@ sidebar:
 ---
 
 {{ content }}
-{%- comment -%}
-  jekyll-paginate (paginate: 5 in _config.yml) writes this layout again for /page2/ … /page209/,
-  208 copies of a page that never reads the paginator. Each copy is one line pointing home,
-  so the dashboard - the cards, the counts, the analytics - is rendered once per build.
-{%- endcomment -%}
-{% if paginator and paginator.page > 1 %}
-<link rel="canonical" href="{{ '/' | absolute_url }}">
-<meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
-<p class="home-paginated-stub">这一页没有内容，请回到<a href="{{ '/' | relative_url }}">首页</a>。</p>
-{% else %}
 
 {% assign all_posts = site.posts %}
 {% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
@@ -1872,4 +1862,3 @@ document.addEventListener("DOMContentLoaded", () => {
 <script>window.pokeamicePeopleBase = {{ "/people/" | relative_url | jsonify }};</script>
 <script src="{{ '/assets/js/catalogue.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/quote.js' | relative_url }}" defer></script>
-{% endif %}

@@ -162,7 +162,7 @@
   }
 
   .credits__grid-blank { display: flex; align-items: center; justify-content: center; border-radius: 12px; background: rgba($primary-color, 0.08); color: $primary-color; font-size: 0.72rem; font-weight: 800; }
-  .credits__grid-title { grid-area: title; font-weight: 700; font-size: 0.9rem; line-height: 1.35; }
+  .credits__grid-title { grid-area: title; font-weight: 700; font-size: 0.9rem; line-height: 1.35; small { display: block; color: $muted-text-color; font-size: 0.72rem; font-weight: 400; } }
   .credits__grid-meta { grid-area: meta; color: $muted-text-color; font-size: 0.72rem; }
 
   &--compact a { grid-template-columns: 40px minmax(0, 1fr); padding: 8px 12px; }

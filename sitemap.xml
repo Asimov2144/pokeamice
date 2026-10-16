@@ -26,10 +26,14 @@ sitemap: false
   {%- assign seg = page.url | split: "/" %}
   {%- unless seg[1] == "people" or seg[1] == "credits" or page.layout == "english-discovery" %}{% continue %}{% endunless %}
   {%- if page.sitemap == false %}{% continue %}{% endif %}
+  {%- assign sitemap_lastmod = page.last_modified_at %}
+  {%- if page.layout == "credits-game" and sitemap_lastmod == nil %}
+    {%- assign sitemap_lastmod = site.data.seo_versions.credits_family %}
+  {%- endif %}
   <url>
     <loc>{{ page.url | replace: "/index.html", "/" | absolute_url | xml_escape }}</loc>
-    {%- if page.last_modified_at %}
-    <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    {%- if sitemap_lastmod %}
+    <lastmod>{{ sitemap_lastmod | date_to_xmlschema }}</lastmod>
     {%- endif %}
   </url>
 {%- endfor %}

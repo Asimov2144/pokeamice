@@ -62,8 +62,11 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
-<title>{{ seo_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>{{ seo_title }}</title>
 <meta name="description" content="{{ seo_description }}">
+{% if page.robots %}
+<meta name="robots" content="{{ page.robots | escape }}">
+{% endif %}
 
 {% if author.name %}
   <meta name="author" content="{{ author.name | default: author }}">
@@ -161,13 +164,6 @@
 
 {% if page.discovery_schema %}
 <script type="application/ld+json">{{ page.discovery_schema | jsonify | replace: '<', '\u003c' }}</script>
-{% endif %}
-
-{% if paginator.previous_page %}
-  <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
-{% endif %}
-{% if paginator.next_page %}
-  <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
 
 {% if page.url == '/' %}

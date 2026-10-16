@@ -1,6 +1,8 @@
 ---
 title: "站内搜索"
 permalink: /search/
+sitemap: false
+robots: "noindex,follow"
 layout: search
 archive_type: article
 source:

@@ -43,7 +43,7 @@ _data/credits_games.yml (written by tools/build-credits-site.py).
           <li>
             <a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}">
               {% if wi.icon %}<img src="{{ wi.icon | relative_url }}" alt="" loading="lazy" width="48" height="48">{% elsif g.icon %}<img src="{{ g.icon | relative_url }}" alt="" loading="lazy" width="48" height="48">{% else %}<span class="credits__grid-blank" aria-hidden="true">{{ g.year }}</span>{% endif %}
-              <span class="credits__grid-title">{{ g.title_zh }}</span>
+              <span class="credits__grid-title">{{ g.title_zh }}{% if g.title and g.title != g.title_zh %}{% assign english_title_lower = g.title | downcase %}<small lang="en">{{ g.title }}{% unless english_title_lower contains 'staff credits' %} Staff Credits{% endunless %}</small>{% endif %}</span>
               <span class="credits__grid-meta">{{ g.year }} · {{ g.developer }} · {{ g.count }} 人{% if g.gf_count %} · <img class="credits__gf" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> {{ g.gf_count }}{% endif %}</span>
             </a>
           </li>
@@ -58,7 +58,7 @@ _data/credits_games.yml (written by tools/build-credits-site.py).
             <a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}">
               {% assign swi = site.data.works | where: "name", g.work | first %}
               {% if swi.icon %}<img src="{{ swi.icon | relative_url }}" alt="" loading="lazy" width="40" height="40">{% elsif g.icon %}<img src="{{ g.icon | relative_url }}" alt="" loading="lazy" width="40" height="40">{% endif %}
-              <span class="credits__grid-title">{{ g.title_zh }}{% if g.title_zh != g.title %}<small>{{ g.title }}</small>{% endif %}</span>
+              <span class="credits__grid-title">{{ g.title_zh }}{% if g.title and g.title != g.title_zh %}{% assign english_title_lower = g.title | downcase %}<small lang="en">{{ g.title }}{% unless english_title_lower contains 'staff credits' %} Staff Credits{% endunless %}</small>{% endif %}</span>
               <span class="credits__grid-meta">{{ g.year }} · {{ g.developer }} · {{ g.count }} 人{% if g.gf_count %} · <img class="credits__gf" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> {{ g.gf_count }}{% endif %}</span>
             </a>
           </li>
