@@ -1,5 +1,6 @@
 # 原刊征集（/wanted/）：实体杂志里的宝可梦主创访谈——哪些本站已有原刊，哪些只有文字转录，哪些只知道存在。
-# 来源：design/wanted/pokemon-magazine-interviews-stage-research-2026-10-06.md（书目复原的阶段整理）。手写，改这里即可。
+# 来源：design/wanted/ 下的 1996–2012 阶段整理、2013–2016 媒体巡回 v0.5、剑盾之后纸媒 v0.2。
+# 本轮更新：2026-10-17。网页自采／媒体活动记录只作研究背景，不列为原刊征集卡片。
 #
 # 每条：
 #   id          锚点（/wanted/#id），也是投稿邮件 / Issue 标题里的编号
@@ -35,6 +36,27 @@ eras:
     label: 2010–2011 · 黑·白
   - key: b2w2
     label: 2012 · 黑2·白2（Fami 通「開発キーパーソンインタビュー」1–5）
+
+  - key: xy
+    label: 2013 · X·Y
+  - key: oras
+    label: 2014–2015 · 欧米伽红宝石·阿尔法蓝宝石
+  - key: sm
+    label: 2016 · 太阳·月亮
+  - key: swsh
+    label: 2019 · 剑·盾
+  - key: expansion
+    label: 2020 · 铠之孤岛／冠之雪原
+  - key: bdsp
+    label: 2021 · 晶灿钻石·明亮珍珠
+  - key: pla
+    label: 2022 · 传说 阿尔宙斯
+  - key: sv
+    label: 2022–2023 · 朱·紫
+  - key: zero
+    label: 2023–2024 · 零之秘宝
+  - key: za
+    label: 2025–2026 · 传说 Z-A
 
 items:
   # ---------------------------------------------------------------- 1996–2000
@@ -439,3 +461,556 @@ items:
     need: [访谈的每一页（带页码）]
     sources:
       - {label: 同期报道（pk-mn）, url: "https://pk-mn.com/n/black2-white2-23ban-douro-music/"}
+
+  # ---------------------------------------------------------------- 2013–2026（两份补充研究）
+  - id: ndream-235
+    era: xy
+    pub: Nintendo DREAM
+    issue: Vol.235 别册
+    date: 2013-11
+    title: 《X·Y》卷首增田顺一 × 森本茂树长访
+    status: found
+    priority: S
+    people:
+    - 增田顺一
+    - 森本茂树
+    pages: 扫描记录 P.1–P.5
+    pages_note: 这是站内扫描页记录，实际印刷页码仍待核对；52 页为整个别册。
+    known: 2013-09-21 发售，附 52 页 A5《Nintendoスタジアム》别册。Internet Archive 已有原刊，站内有转写译文；原页仍在外部档案中，不再重复征集。
+    post: 2013-09-21-scan-ndream-235-xy-developer-interview
+    sources:
+    - label: 官方刊物介绍
+      url: https://www.nindori.com/books/nindori/235.html
+    - label: 站内采用的扫描来源
+      url: https://archive.org/details/nindori235_201311_supp_xyinterview
+  - id: ndream-236
+    era: xy
+    pub: Nintendo DREAM
+    issue: Vol.236
+    date: 2013-12
+    title: 《X·Y》人物角色开发秘话
+    status: scan
+    priority: S
+    people:
+    - 杉森建
+    - 大村祐介
+    - 中津井优
+    pages: 12–17
+    known: 本站已有杉森建、大村祐介、中津井优访谈的六页原刊页图与译文，后续工作为人工校对。
+    post: 2013-10-21-scan-ndream-2013-12-xy-character-design-interview
+    sources:
+    - label: 官方刊物介绍
+      url: https://www.nindori.com/books/nindori/236.html
+  - id: famitsu-2013-10-24
+    era: xy
+    pub: 週刊ファミ通
+    issue: 2013年10月24日号
+    date: '2013-10-24'
+    title: 《X·Y》发售直前增田顺一访谈
+    status: known
+    priority: S
+    people:
+    - 增田顺一
+    known: 2013-10-10 发售，同期官方公告确认有增田顺一的发售直前访谈。
+    need:
+    - 访谈每一页（带页码）
+    - 标题页与采访照片
+    - 正式标题、起止页码
+    sources:
+    - label: Famitsu 当期介绍
+      url: https://www.famitsu.com/news/201310/10041343.html
+  - id: famitsu-2013-11-07-14
+    era: xy
+    pub: 週刊ファミ通
+    issue: 2013年11月7・14日合併号
+    date: '2013-11-07'
+    title: 《X·Y》开发关键人物访谈
+    status: known
+    priority: S
+    pages_note: 9 页是整个专题的长度，采访具体占几页还不知道。
+    known: 2013-10-24 发售；官方介绍确认 9 页 XY 专题，其中包含开发关键人物采访。
+    need:
+    - 访谈子页（带页码）
+    - 受访者介绍框与正式标题
+    sources:
+    - label: Famitsu 当期介绍
+      url: https://www.famitsu.com/news/201310/24042079.html
+  - id: guide-xy
+    era: xy
+    pub: OVERLAP 官方攻略本
+    issue: 《X·Y》
+    date: '2013'
+    title: 增田顺一长篇访谈
+    status: known
+    priority: A
+    people:
+    - 增田顺一
+    known: 出版社官方书目明确写有增田顺一长篇访谈，仍缺可核对的原页。
+    need:
+    - 访谈每一页（带页码）
+    - 书名页、版本与出版信息
+    - 访谈正式标题与起止页码
+    sources:
+    - label: OVERLAP 官方书目
+      url: https://over-lap.co.jp/book/xy/
+  - id: famitsu-2014-12-04
+    era: oras
+    pub: 週刊ファミ通
+    issue: 2014年12月4日増刊号
+    date: '2014-12-04'
+    title: ORAS「冒険ナビBOOK」开发人员访谈
+    status: known
+    priority: S
+    pages_note: 52 页为整个附册，不能记成 52 页访谈。
+    known: 官方介绍确认随刊附 52 页「冒険ナビBOOK」，其中有开发人员访谈。
+    need:
+    - 附册封面与目录
+    - 访谈子页（带页码）
+    - 正式标题与完整受访者名单
+    sources:
+    - label: 附册预告
+      url: https://www.famitsu.com/news/201411/18065949.html
+    - label: 当期发售介绍
+      url: https://www.famitsu.com/news/201411/20066095.html
+  - id: ndream-250
+    era: oras
+    pub: Nintendo DREAM
+    issue: Vol.250
+    date: 2015-02
+    title: ORAS「收集攻略本」附册中的声音访谈
+    status: known
+    priority: S
+    people:
+    - 增田顺一
+    known: 2014-12-20 发售；官方介绍确认随刊「收集攻略本」附册中有声音访谈，受访为增田顺一及开发人员。
+    need:
+    - ORAS「收集攻略本」附册的封面与目录
+    - 访谈每一页（带页码）
+    - 声音团队人物介绍框
+    - 采访的正式标题与起止页码
+    sources:
+    - label: 官方刊物介绍
+      url: https://www.nindori.com/books/nindori/250.html
+  - id: ndream-254
+    era: oras
+    pub: Nintendo DREAM
+    issue: Vol.254
+    date: 2015-06
+    title: ORAS 设计与对战访谈
+    status: known
+    priority: S
+    people:
+    - 大森滋
+    - 杉森建
+    - 森本茂树
+    - 岩尾和昌
+    known: 2015-04-21 发售，大森滋、杉森建、森本茂树、岩尾和昌谈设计与对战。
+    need:
+    - 访谈每一页（带页码）
+    - 人物介绍框、正式标题
+    - 采访的起止页码
+    sources:
+    - label: 官方刊物介绍
+      url: https://www.nindori.com/books/nindori/254.html
+  - id: guide-oras-check
+    era: oras
+    pub: OVERLAP 官方攻略本
+    issue: ORAS（采访待查）
+    date: '2014'
+    title: 先确认书中是否有主创访谈
+    status: candidate
+    priority: B
+    people:
+    - 增田顺一
+    - 大森滋
+    known: 研究稿将 ORAS 官方攻略本列为查书目标，但未给能确认采访的书目链接、目录或原页；暂不当作已知访谈。
+    need:
+    - 书名页与目录
+    - 是否有「スタッフインタビュー」「クリエイターインタビュー」等栏目；有的话拍下该部分
+  - id: famitsu-2016-07-28
+    era: sm
+    pub: 週刊ファミ通
+    issue: 2016年7月28日号
+    date: '2016-07-28'
+    title: 《太阳·月亮》发售前增田 × 大森访谈
+    status: known
+    priority: A
+    people:
+    - 增田顺一
+    - 大森滋
+    known: 2016-07-14 发售。研究稿已提供 KADOKAWA 书目与 BOOK☆WALKER 数字原刊入口；本站仍缺采访页码与版面。
+    need:
+    - 采访每一页（带页码）
+    - 正式标题与起止页码
+    sources:
+    - label: Famitsu 当期介绍
+      url: https://www.famitsu.com/news/201607/14110808.html
+    - label: KADOKAWA 书目
+      url: https://www.kadokawa.co.jp/product/301603000581/
+    - label: BOOK☆WALKER 数字原刊入口
+      url: https://bookwalker.jp/de7e3ad1a3-3371-4029-861a-90dd877218be/
+  - id: famitsu-2016-12-01
+    era: sm
+    pub: 週刊ファミ通
+    issue: 2016年12月1日号
+    date: '2016-12-01'
+    title: 《太阳·月亮》发售特集中的开发者采访
+    status: known
+    priority: A
+    people:
+    - 增田顺一
+    - 大森滋
+    pages_note: 14 页是专题总长度，不是采访页数。
+    known: 2016-11-17 发售；14 页日月专题包含增田与大森采访，已有官方数字原刊入口。
+    need:
+    - 14 页专题中的采访子页（带页码）
+    - 正式标题、受访者介绍框
+    sources:
+    - label: Famitsu 专题介绍
+      url: https://www.famitsu.com/news/201611/15120668.html
+    - label: KADOKAWA 书目
+      url: https://www.kadokawa.co.jp/product/301611000470/
+    - label: BOOK☆WALKER 数字原刊入口
+      url: https://bookwalker.jp/de4d37ef7e-155e-4ba6-b048-2a0875b6e6eb/
+  - id: nzone-235
+    era: sm
+    pub: N-ZONE
+    issue: '#235（11/2016）'
+    date: 2016-11
+    title: 《太阳·月亮》增田 × 大森问答
+    status: known
+    priority: S
+    people:
+    - 增田顺一
+    - 大森滋
+    known: 2016-10-19 发售；同期转述保存了宝可骑行、时差、支线任务等问答。伦敦活动归属为高置信推断，还缺德文原刊。
+    need:
+    - 德文采访每一页（带页码）
+    - 作者、正式标题与采访地点说明
+    sources:
+    - label: Nintendo Everything 同期转述（非原刊）
+      url: https://nintendoeverything.com/pokemon-sun-moon-director-on-poke-ride-time-difference-sidequests-coming-up-with-new-pokemon-more/
+  - id: gamesmaster-310
+    era: sm
+    pub: GamesMaster
+    issue: '#310'
+    date: 2016-12
+    title: 《太阳·月亮》专题中的开发者采访
+    status: known
+    priority: S
+    pages: 专题 44–53
+    pages_note: 这里是整个专题范围，采访的起止页还没确认。
+    known: 目录可确认 pp.44–53 为 10 页日月专题，说明包含开发者采访；研究稿给出了 Zinio 当期入口。
+    need:
+    - 专题中实际的采访子页（带页码）
+    - 完整受访者、正式标题与地点说明
+    sources:
+    - label: Zinio 当期入口
+      url: https://www.zinio.com/es-ca/publications/gamesmaster/2091/issues/347468
+  - id: gamestm-180-check
+    era: sm
+    pub: gamesTM
+    issue: '#180（待原刊确认）'
+    date: 2016-11
+    title: 《太阳·月亮》增田 × 大森访谈
+    status: known
+    priority: S
+    people:
+    - 增田顺一
+    - 大森滋
+    title_note: 期号是高置信重建，不是原刊核验结果。
+    known: '同期 Nintendo Everything 与 Siliconera 确认访谈存在；按刊期时间线高度指向 #180，但还没有原刊目录证明。'
+    need:
+    - '#180 的目录页'
+    - 访谈每一页（带页码）
+    - 用目录与正文确认究竟是哪一期
+    sources:
+    - label: Nintendo Everything 同期转述
+      url: https://nintendoeverything.com/pokemon-sunmoon-devs-on-the-drip-feed-of-news-updates-fan-theories-thoughts-on-hardware-more/
+    - label: Siliconera 同期转述
+      url: https://www.siliconera.com/pokmon-sun-moon-devs-fan-theories-main-series-stays-handhelds/
+    - label: Retromags 期号索引
+      url: https://www.retromags.com/magazines/uk/games-tm/page/8/
+  - id: hobbyconsolas-305
+    era: sm
+    pub: Hobby Consolas
+    issue: '#305'
+    date: 2016-12
+    title: 《太阳·月亮》增田 × 大森纸本采访
+    status: known
+    priority: S
+    people:
+    - 增田顺一
+    - 大森滋
+    title_note: 不能与 2016-12-08 的 Madrid 网页／视频采访合并；London 归属仍待原刊。
+    known: 2016-12-01 已上市；刊物自身回顾与发售公告确认采访，研究稿给出 Zinio、Pocketmags 原刊入口。
+    need:
+    - 纸本采访每一页（带页码）
+    - 正式标题与采访地点说明
+    sources:
+    - label: 当期发售公告
+      url: https://www.hobbyconsolas.com/noticias/hobby-consolas-numero-305-venta-pokemon-portada-75244
+    - label: 刊物自身回顾
+      url: https://www.hobbyconsolas.com/reportajes/pokemon-hobby-consolas-25-anos-haciendonos-todos-nos-queda-957125
+    - label: Zinio 当期入口
+      url: https://www.zinio.com/es/publications/hobby-consolas/1342/issues/19299
+    - label: Pocketmags 当期入口
+      url: https://pocketmags.com/es/hobby-consolas-magazine/305
+  - id: revista-nintendo-sm
+    era: sm
+    pub: Revista Oficial Nintendo（西班牙）
+    issue: '#291 / #292（待定）'
+    date: 2016-12
+    title: 《太阳·月亮》增田 × 大森采访
+    status: known
+    priority: A
+    people:
+    - 增田顺一
+    - 大森滋
+    title_note: 部分原页已找到，完整期号与页码仍待确认；更可能属于年末伊比利亚行程。
+    known: 'Lava Cut Content 保存了部分原页照片；Pokémon Project 有原刊 PDF 索引。候选为 #291（2016年12月）或 #292（2017年1月），还没锁定。'
+    need:
+    - '核对 #291、#292 的目录与采访页'
+    - 完整采访原页（带页码）
+    - 查找 Pokémon Gray／Z、Colosseum 续作相关问答
+    sources:
+    - label: Lava Cut Content 保存的部分原页
+      url: https://lavacutcontent.com/masuda-ohmori-pokemon-gray/
+    - label: Pokémon Project 原刊 PDF 索引
+      url: https://pkproject.net/revista-nintendo-accion
+    - label: DeVuego 刊物索引
+      url: https://www.devuego.es/bd/prensa/sol
+  - id: famitsu-2019-11-28
+    era: swsh
+    pub: 週刊ファミ通
+    issue: 2019年11月28日号
+    date: '2019-11-28'
+    title: 《剑·盾》增田 × 大森长篇访谈
+    status: text
+    priority: S
+    people:
+    - 増田順一
+    - 大森滋
+    pages_note: 44 页是整个专题，不是长访页数。
+    known: 2019-11-14 发售，44 页发售专题含长访；本站已有 Famitsu.com 的部分摘录，纸本长访尚缺。
+    need:
+    - 纸本长访每一页（带页码）
+    - 标题页与人物照片
+    - 与网页版摘录逐段核对
+    post: 2019-10-25-interview-famitsu-2019-swsh-autosave
+    sources:
+    - label: Famitsu 2019-10-25 网页采访（说明纸本会刊载完整长访）
+      url: https://www.famitsu.com/news/201910/25185773.html
+    - label: Famitsu 特集介绍（44 页）
+      url: https://www.famitsu.com/news/201911/12186564.html
+    - label: Famitsu 相关介绍
+      url: https://www.famitsu.com/news/201911/14186877.html
+  - id: gameinformer-319
+    era: swsh
+    pub: Game Informer
+    issue: '#319'
+    date: 2019-11
+    title: Going Big ·《剑·盾》封面报道
+    status: text
+    priority: S
+    people:
+    - 大森滋
+    - 增田顺一
+    - 岩尾和昌
+    - James Turner
+    known: 记者前往 GAME FREAK 东京总部取材；网页版注明原刊于 2019年11月号，本站已有该网页译文。纸本目录、三种封面与版面仍缺。
+    need:
+    - 完整目录、封面报道起止页与全部原页
+    - 三种封面版本
+    - 纸本与网页拆稿、视频及 101 Rapid-Fire 的对应关系
+    post: 2019-11-13-interview-gi-2019-going-big
+    sources:
+    - label: Going Big（网页）
+      url: https://gameinformer.com/feature/2019/11/13/going-big
+  - id: guide-swsh
+    era: swsh
+    pub: OVERLAP 官方攻略本
+    issue: 《剑·盾》
+    date: 2019-12
+    title: 大森滋总监访谈
+    status: known
+    priority: A
+    people:
+    - 大森滋
+    known: 2019-12-07 发售。出版社书目明确标注大森滋访谈，内容涉及开发意图与发售后才能谈的剧情内幕。
+    need:
+    - 访谈所在的每一页（带页码）
+    - 版本与书名页
+    - 访谈标题与起止页码
+    sources:
+    - label: OVERLAP 商品页（已确认访谈标注、928 页、ISBN）
+      url: https://over-lap.co.jp/book/ss/
+  - id: ndream-expansion-2020
+    era: expansion
+    pub: Nintendo DREAM
+    issue: 2020年4月号
+    date: 2020-04
+    title: 铠之孤岛／冠之雪原：先查采访栏目
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 2020年4月、7・8月合并、9月、12月及2021年3月号都有资讯、攻略或角色资料，目录未标开发者访谈。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 2020年4月官方目录
+      url: https://www.ndw.jp/nd2004-312/
+    - label: 2020年7・8月合并号
+      url: https://www.ndw.jp/nd200708-315/
+    - label: 2020年9月号
+      url: https://www.ndw.jp/nd2009-316/
+    - label: 2020年12月号
+      url: https://www.ndw.jp/nd2012-319/
+    - label: 2021年3月号
+      url: https://www.ndw.jp/nd2103-322/
+  - id: ndream-bdsp-2021
+    era: bdsp
+    pub: Nintendo DREAM
+    issue: 2021年11–12月号
+    date: 2021-11
+    title: BDSP：先查 ILCA／主创访谈
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 公开目录主要为新情报与海报，未确认 ILCA、增田顺一或 Yuichi Ueda 的访谈；不能把封面或专题当作采访。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 2021年11月目录
+      url: https://www.ndw.jp/nd2111-330/
+    - label: 2021年12月目录
+      url: https://www.ndw.jp/nd2112-331/
+  - id: famitsu-bdsp-2022
+    era: bdsp
+    pub: 週刊ファミ通
+    issue: 2022年2月3日号
+    date: '2022-02-03'
+    title: BDSP 神奥回顾特集：采访待确认
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 官方介绍为游戏魅力、玩家调查与原版回顾，目前未见 ILCA／主创访谈标记。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 官方特集介绍
+      url: https://www.famitsu.com/news/202201/20248298.html
+  - id: famitsu-pla-2022
+    era: pla
+    pub: 週刊ファミ通
+    issue: 2022年2月10日号
+    date: '2022-02-10'
+    title: 《阿尔宙斯》发售纪念特集：采访待确认
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 官方介绍为世界观、人物、操作、战斗与先行体验，尚未确认核心开发者访谈；CEDEC 演讲另外分类。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 官方当期介绍
+      url: https://www.famitsu.com/news/202201/27249114.html
+    - label: ND 2022年4月目录
+      url: https://www.ndw.jp/nd2204-335/
+    - label: ND 2022年5月目录
+      url: https://www.ndw.jp/nd2205-336/
+  - id: famitsu-1772
+    era: sv
+    pub: 週刊ファミ通
+    issue: No.1772／2022年12月1日号
+    date: '2022-12-01'
+    title: 《朱·紫》发售特集：采访待确认
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 2022-11-17 发售，34 页大特集介绍系统与先行体验；官方介绍未标 GAME FREAK 核心开发者访谈。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 官方介绍
+      url: https://www.famitsu.com/news/202211/17282914.html
+    - label: ND 2022年12月目录
+      url: https://www.ndw.jp/nd2212-343/
+    - label: ND 2023年2月目录
+      url: https://www.ndw.jp/nd2302-345/
+  - id: nzone-sv-308-310
+    era: sv
+    pub: N-ZONE
+    issue: '#308–310'
+    date: 2022-12
+    title: 《朱·紫》封面／专题：采访待确认
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 研究稿只确认 2022年12月至2023年2月的封面与评测层级，尚无 GAME FREAK 开发者采访证据；先核目录。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+  - id: ndream-357
+    era: zero
+    pub: Nintendo DREAM
+    issue: Vol.357／2024年2月号
+    date: 2024-02
+    title: 零之秘宝／四天王特集：采访待确认
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 目录列为特集，同一期其他作品会明确标访谈。当前不能认定零之秘宝已有开发者采访。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 官方目录
+      url: https://www.ndw.jp/nd2402-357/
+  - id: famitsu-1918
+    era: za
+    pub: 週刊ファミ通
+    issue: No.1918／2025年10月23日号
+    date: '2025-10-23'
+    title: 《Z-A》发售前冒险指南：采访待确认
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 2025-10-09 发售，官方介绍为已公开玩法整理，没有开发者访谈标记；未确认不等于不存在。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: 官方介绍
+      url: https://www.famitsu.com/article/202510/54674
+  - id: ndream-za-388
+    era: za
+    pub: Nintendo DREAM
+    issue: Vol.388／2026年9月号
+    date: 2026-09
+    title: 《Z-A》企划：先查工作人员原话
+    status: candidate
+    priority: B
+    title_note: 目录核查截至研究稿的 2026-10-08；当前未确认采访存在。
+    known: 2025秋至2026夏多期为专题、DLC、攻略与投票。vol.388 的官方介绍把采访指向另外两部作品，Z-A 仅列企划。
+    need:
+    - 先看目录和相关正文，有没有开发者问答、人物介绍框或「インタビュー／開発スタッフ」标记
+    - 如有，拍下对应页和页码；没有的话，目录与栏目页也可作为核查线索
+    sources:
+    - label: vol.378
+      url: https://www.ndw.jp/nd2511-378/
+    - label: vol.380
+      url: https://www.ndw.jp/nd2601-380/
+    - label: vol.381
+      url: https://www.ndw.jp/nd2602-381/
+    - label: vol.382
+      url: https://www.ndw.jp/nd2603-382/
+    - label: vol.384
+      url: https://www.ndw.jp/nd2605-384/
+    - label: vol.388
+      url: https://www.ndw.jp/nd2609-388/

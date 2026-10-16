@@ -64,7 +64,7 @@ where the gap is. A post whose text came from a transcript points here (intervie
 
   <section class="wanted-chain" id="chain" aria-labelledby="wanted-chain-title">
     <h2 class="wanted-h2" id="wanted-chain-title">整条采访链</h2>
-    <p class="wanted-chain__lead">1996 到 2012 年实体杂志里的主创访谈，已经收录的也列在里面——看得出缺口在哪。</p>
+    <p class="wanted-chain__lead">1996 到 2026 年实体杂志与官方攻略本中的访谈线索，已经收录的也列在里面。2020 年之后的若干期号只确认有专题，仍按“待确认”列出；评测、试玩与技术演讲不当作杂志访谈。</p>
     {%- for e in W.eras %}
       {%- assign rows = W.items | where: "era", e.key -%}
       {%- if rows.size > 0 %}
