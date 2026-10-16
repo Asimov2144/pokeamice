@@ -1,8 +1,10 @@
 /* Chronicle: archive-index density, source-shelf imagery, modern quietness.
-   All styles are scoped to the timeline; the home and interview readers stay intact. */
+   All styles are scoped to the timeline; the home and interview readers stay intact.
+   The other pages on the timeline layout (.tl--hub: 按游戏读, the recruit archive) keep the
+   previous styles, _timeline-hub.scss. */
 /* Retained for the existing hub's timeline mark; not the chronicle palette. */
 $tl-interview: #2b6cb0;
-body.layout--timeline {
+body.layout--timeline:has(.timeline-shell) {
   --tl-paper: #f7f5ef;
   --tl-surface: #fffdfa;
   --tl-ink: #292d29;
@@ -23,12 +25,12 @@ body.layout--timeline {
 }
 /* The global night theme force-colours every link and heading. Match its
    specificity inside this reader only; keep its masthead/footer behaviour. */
-body.layout--timeline.theme-bg-black .tl {
+body.layout--timeline.theme-bg-black .tl:not(.tl--hub) {
   a, a:visited { color: inherit !important; }
   a:hover { color: var(--tl-accent) !important; }
   h1, h2, h3, h4 { color: inherit !important; }
 }
-body.layout--timeline.theme-bg-black {
+body.layout--timeline.theme-bg-black:has(.timeline-shell) {
   --tl-paper: #1c211f;
   --tl-surface: #252b27;
   --tl-ink: #e9ede5;
@@ -38,7 +40,7 @@ body.layout--timeline.theme-bg-black {
   --tl-soft: #30362f;
   --tl-blog: #9aa592;
 }
-.tl {
+.tl:not(.tl--hub) {
   font: 15px/1.7 "Segoe UI", "Helvetica Neue", "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
   color: var(--tl-ink);
   min-width: 0;
@@ -243,7 +245,7 @@ body.layout--timeline.theme-bg-black {
 
 @media (max-width: 1050px) {
   body.layout--timeline #main { padding: 20px 28px 50px; }
-  .tl {
+  .tl:not(.tl--hub) {
     .tl-hero { grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); gap: 32px; }
     .tl-chart__hint { display: inline-flex !important; }
     .tl-catalogue, .tl-year-layout { grid-template-columns: 180px minmax(0, 1fr); gap: 32px; }
@@ -255,7 +257,7 @@ body.layout--timeline.theme-bg-black {
 @media (max-width: 760px) {
   body.layout--timeline #main { padding: 16px 22px 42px; }
   body.layout--timeline .timeline-shell > .crumbs { margin-bottom: 16px; }
-  .tl {
+  .tl:not(.tl--hub) {
     .tl-hero { grid-template-columns: minmax(0, 1fr); gap: 28px; padding: 14px 0 26px; }
     .tl-hero h1 { margin-top: 16px; }
     .tl-hero h1 > span { font-size: clamp(32px, 6.2vw, 44px); line-height: 1.4; }
@@ -312,7 +314,7 @@ body.layout--timeline.theme-bg-black {
 }
 @media (max-width: 520px) {
   body.layout--timeline #main { padding-inline: 18px; }
-  .tl {
+  .tl:not(.tl--hub) {
     .tl-selections { grid-template-columns: minmax(0, 1fr); }
     .tl-entry--compact + .tl-entry--compact { border-top: 1px solid var(--tl-rule); margin-top: 6px; padding-top: 13px; }
     .tl-entry { grid-template-columns: 34px minmax(0, 1fr); gap: 10px; padding: 18px 0; }
@@ -339,7 +341,7 @@ body.layout--timeline.theme-bg-black {
 }
 @media print {
   body.layout--timeline #main { padding: 0; }
-  .tl {
+  .tl:not(.tl--hub) {
     .tl-side, .tl-toolbar, .tl-chart, .tl-year-steps, .tl-foot { display: none !important; }
     .tl-catalogue, .tl-year-layout, .tl-hero { display: block; }
     .tl-entry, .tl-year, .tl-era__head { break-inside: avoid; }

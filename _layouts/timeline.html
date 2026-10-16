@@ -1,12 +1,20 @@
 ---
 layout: default
 ---
-{% assign tl = site.data.timeline %}
-{% assign tl_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{%- comment -%}
+The timeline (/timeline/ and /timeline/<year>/) has its own shell and script since the 2026-09-30
+redesign. The other pages on this layout - the recruit archive, 按游戏读 - still sit in the library's
+shell (.library.front, the head and the compact cards are the library's own) with card-grid.js for
+their card walls; the layout name is what puts them under 时间线 in the crumbs.
+{%- endcomment -%}
+{%- assign tl_route = page.url | slice: 0, 10 -%}
+{%- assign tl_own = false -%}{%- if tl_route == "/timeline/" -%}{%- assign tl_own = true -%}{%- endif -%}
+{% if tl_own %}{% assign tl = site.data.timeline %}
+{% assign tl_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}{% endif %}
 <div id="main" role="main">
-  <div class="timeline-shell">
+  <div class="{% if tl_own %}timeline-shell{% else %}library front{% endif %}">
     {% include crumbs.html %}
     {{ content }}
   </div>
 </div>
-<script src="{{ '/assets/js/timeline.js' | relative_url }}" defer></script>
+{% if tl_own %}<script src="{{ '/assets/js/timeline.js' | relative_url }}" defer></script>{% else %}<script src="{{ '/assets/js/card-grid.js' | relative_url }}" defer></script>{% endif %}
