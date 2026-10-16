@@ -4,113 +4,94 @@ title: "资料时间线"
 permalink: /timeline/
 search: false
 ---
-{%- comment -%}
-The library laid out along the years: which year each interview, magazine scan, official topic and
-Game Freak blog belongs to, against the games that came out. The numbers, the eras and each year's
-picks are baked into _data/timeline.yml by tools/build-timeline.py; the chart is plain HTML and CSS
-(a column per year, the documents stacked above the line, the blogs hung below it, the games under
-the year), each column a link to /timeline/<year>/ (_includes/timeline-year.html).
-{%- endcomment -%}
 {% assign tl = site.data.timeline %}
-{% assign first_y = tl.span[0] %}
-{% assign last_y = tl.span[1] %}
-<div class="tl tl--index">
-  <header class="library__head tl-intro">
-    <p class="library__eyebrow">Key docs · 时间线</p>
-    <h1 class="library__title">资料时间线</h1>
-    <p class="library__lead">{{ first_y }} 到 {{ last_y }}：<b>{{ tl.totals.docs }}</b> 篇访谈、杂志扫描和官方专题，外加 <b>{{ tl.totals.stream }}</b> 篇 Game Freak 的博客，各自落在发表的那一年，旁边是那一年发售的作品。点一年进去，按月份读。</p>
-    <div class="library__stats">
-      <span class="is-interview"><i class="tl-dot"></i>访谈翻译 <b>{{ tl.totals.interview }}</b></span>
-      <span class="is-scan"><i class="tl-dot"></i>杂志扫描 <b>{{ tl.totals.scan }}</b></span>
-      <span class="is-topic"><i class="tl-dot"></i>官方专题 <b>{{ tl.totals.topic }}</b></span>
-      <span class="is-article"><i class="tl-dot"></i>文章 <b>{{ tl.totals.article }}</b></span>
-      <span class="is-stream"><i class="tl-dot"></i>博客 <b>{{ tl.totals.stream }}</b></span>
+{% assign tl_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% include timeline-counts.html posts=site.posts %}
+{% assign total_docs = tlc_docs %}{% assign total_blogs = tlc_stream %}
+{% assign first_y = tl.span[0] %}{% assign last_y = tl.span[1] %}
+{% assign max_docs = 1 %}{% assign max_blogs = 1 %}
+{% for tg in tl_by_year %}
+  {% include timeline-counts.html posts=tg.items %}
+  {% if tlc_docs > max_docs %}{% assign max_docs = tlc_docs %}{% endif %}
+  {% if tlc_stream > max_blogs %}{% assign max_blogs = tlc_stream %}{% endif %}
+{% endfor %}
+{% assign featured = site.posts | where: "slug", "interview-time-satoshi-tajiri-ultimate-game-freak" | first %}
+<div class="tl tl--index" data-tl-root>
+  <header class="tl-hero">
+    <div class="tl-hero__copy">
+      <p class="tl-eyebrow">Poke Amice / Chronicle <span>{{ first_y }} — {{ last_y }}</span></p>
+      <h1>资料时间线<span>在当年的声音里，<br>重读宝可梦。</span></h1>
+      <p class="tl-hero__lead">一段访谈、一页原刊、一篇开发者手记。<br class="tl-desktop-break">把它们放回发表的那一年，沿着时间继续读。</p>
+      <div class="tl-hero__facts"><span><b data-tl-total-docs>{{ total_docs }}</b> 篇文献</span><span><b data-tl-total-stream>{{ total_blogs }}</b> 篇博客</span><span>{{ last_y | minus: first_y | plus: 1 }} 个年份</span></div>
+      <a class="tl-text-link" href="#chronicle">翻开年代目录 <span aria-hidden="true">↓</span></a>
     </div>
+    {% if featured %}
+    {% assign feature_image = featured.image | default: featured.featured_image | default: "" %}
+    {% if feature_image == "" %}{% assign feature_pics = featured.parallel_items | where: "type", "image" %}{% assign feature_image = feature_pics.first.image | default: feature_pics.first.src | default: "" %}{% endif %}
+    {% assign feature_portrait = false %}{% if feature_image == "" %}{% include person-avatar.html who="田尻智" post=featured %}{% assign feature_image = pa_src %}{% assign feature_portrait = true %}{% assign feature_portrait_record = pa_hit.portraits | where: "image", pa_src | first %}{% assign feature_portrait_source = feature_portrait_record.source | default: pa_hit.avatar_source %}{% endif %}
+    <a class="tl-feature" href="{{ featured.url | relative_url }}">
+      <span class="tl-feature__folio">档案选读 <span>No. 1999 / TIME</span></span>
+      {% if feature_image != "" %}<span class="tl-feature__image"><img src="{{ feature_image | relative_url }}" alt="" width="460" height="240" fetchpriority="high" decoding="async"></span>{% endif %}
+      {% if feature_portrait and feature_image != "" %}<span class="tl-feature__image-note">人物资料图：田尻智{% if feature_portrait_source %} · {{ feature_portrait_source | escape }}{% endif %}</span>{% endif %}
+      <span class="tl-feature__body"><span class="tl-feature__date">1999.11.22 · 田尻智 × TIME</span><strong>{{ featured.display_title | default: featured.title }}</strong><span class="tl-feature__caption">从昆虫少年到 Game Freak，读一篇留下来的对话。</span><span class="tl-feature__read">进入访谈 <span aria-hidden="true">↗</span></span></span>
+    </a>
+    {% endif %}
   </header>
-
-  <section class="tl-chart" aria-label="每年收录的数量">
-    <div class="tl-chart__scroll">
+  <section class="tl-chart" aria-labelledby="tl-chart-title">
+    <div class="tl-section-label"><h2 id="tl-chart-title">年度收录分布</h2><p>文献在上，博客在下；点击年份进入档案。</p></div>
+    <div class="tl-chart__scroll" tabindex="0" role="region" aria-label="年度数量图，可横向滚动">
       <div class="tl-chart__inner" style="--n: {{ last_y | minus: first_y | plus: 1 }}">
-        <div class="tl-chart__eras">
-          {% for e in tl.eras %}<a class="tl-chart__era is-e{{ forloop.index0 | modulo: 2 }}" href="#era-{{ forloop.index }}" style="grid-column: span {{ e.to | minus: e.from | plus: 1 }}"><span>{{ e.label }}</span></a>{% endfor %}
-        </div>
-        <div class="tl-chart__cols">
-          {% for e in tl.eras %}{% for y in tl.years %}{% if y.year >= e.from and y.year <= e.to %}
-          {% assign has = false %}{% if y.docs > 0 or y.stream > 0 %}{% assign has = true %}{% endif %}
-          {% capture tip %}{{ y.year }}：{% if y.docs > 0 %}{{ y.docs }} 篇文献{% endif %}{% if y.stream > 0 %}{% if y.docs > 0 %}，{% endif %}{{ y.stream }} 篇博客{% endif %}{% unless has %}暂无收录{% endunless %}{% if y.games.size > 0 %}｜作品：{% for g in y.games %}{{ g.title }}{% unless forloop.last %}、{% endunless %}{% endfor %}{% endif %}{% endcapture %}
-          <{% if has %}a href="{{ '/timeline/' | append: y.year | append: '/' | relative_url }}"{% else %}span{% endif %} class="tl-col is-e{{ forloop.parentloop.index0 | modulo: 2 }}{% unless has %} is-empty{% endunless %}" title="{{ tip | strip }}">
-            <span class="tl-col__docs">
-              {% if y.kinds.interview > 0 %}<i class="is-interview" style="height: {{ y.kinds.interview | times: 2 }}px"></i>{% endif %}
-              {% if y.kinds.scan > 0 %}<i class="is-scan" style="height: {{ y.kinds.scan | times: 2 }}px"></i>{% endif %}
-              {% if y.kinds.topic > 0 %}<i class="is-topic" style="height: {{ y.kinds.topic | times: 2 }}px"></i>{% endif %}
-              {% if y.kinds.article > 0 %}<i class="is-article" style="height: {{ y.kinds.article | times: 2 }}px"></i>{% endif %}
-            </span>
-            <span class="tl-col__stream">{% if y.stream > 0 %}<i style="height: {{ y.stream | times: 0.25 }}px"></i>{% endif %}</span>
-            <b class="tl-col__y">{{ y.year | modulo: 100 | prepend: '00' | slice: -2, 2 }}</b>
-            <span class="tl-col__games">{% assign shown = 0 %}{% for g in y.games %}{% if shown < 3 %}{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="18" height="18" loading="lazy">{% else %}<i class="tl-game__dot"></i>{% endif %}{% assign shown = shown | plus: 1 %}{% endif %}{% endfor %}{% if y.games.size > 3 %}<em>+{{ y.games.size | minus: 3 }}</em>{% endif %}</span>
-          </{% if has %}a{% else %}span{% endif %}>
-          {% endif %}{% endfor %}{% endfor %}
-        </div>
+        {% for y in tl.years %}
+        {% assign chart_year = y.year | append: "" %}
+        {% assign chart_group = tl_by_year | where: "name", chart_year | first %}
+        {% include timeline-counts.html posts=chart_group.items %}
+        {% assign has_entries = false %}{% if tlc_docs > 0 or tlc_stream > 0 %}{% assign has_entries = true %}{% endif %}
+        <{% if has_entries %}a href="{{ '/timeline/' | append: y.year | append: '/' | relative_url }}"{% else %}span{% endif %} class="tl-column{% unless has_entries %} is-empty{% endunless %}"{% if has_entries %} aria-label="{{ y.year }} 年：{{ tlc_docs }} 篇文献，{{ tlc_stream }} 篇博客"{% endif %} title="{{ y.year }} · {{ tlc_docs }} 篇文献 / {{ tlc_stream }} 篇博客" data-tl-chart-year="{{ y.year }}" data-docs="{{ tlc_docs }}" data-stream="{{ tlc_stream }}">
+          <span class="tl-column__docs" aria-hidden="true"><i style="--bar: {{ tlc_docs | times: 100.0 | divided_by: max_docs }}%"></i></span>
+          <span class="tl-column__year">{{ y.year }}</span>
+          <span class="tl-column__blogs" aria-hidden="true"><i style="--bar: {{ tlc_stream | times: 100.0 | divided_by: max_blogs }}%"></i></span>
+        </{% if has_entries %}a{% else %}span{% endif %}>
+        {% endfor %}
       </div>
     </div>
-    <p class="tl-chart__key">
-      <span class="is-interview"><i></i>访谈翻译</span><span class="is-scan"><i></i>杂志扫描</span><span class="is-topic"><i></i>官方专题</span><span class="is-article"><i></i>文章</span>
-      <span class="is-stream"><i></i>线下是 Game Freak 博客（按四分之一比例）</span><span class="is-game"><i></i>年份下的图标是那一年有制作名单的作品</span>
-    </p>
+    <p class="tl-chart__note"><span><i></i>文献</span><span><i class="is-blog"></i>博客</span><span>两组柱高分别按各自最多的年份缩放，不用于直接比较文献与博客数量。</span><span class="tl-chart__hint">左右滑动查看年份 →</span></p>
   </section>
-
-  <nav class="tl-eranav" aria-label="按时代跳转">
-    {% for e in tl.eras %}<a href="#era-{{ forloop.index }}"><b>{{ e.label }}</b><span>{{ e.from }}–{{ e.to }} · {{ e.docs }} 篇</span></a>{% endfor %}
-  </nav>
-
-  {% for e in tl.eras %}
-  <section class="tl-era" id="era-{{ forloop.index }}">
-    <header class="tl-era__head">
-      <p class="tl-era__range">{{ e.from }} – {{ e.to }}</p>
-      <h2 class="tl-era__title">{{ e.label }}</h2>
-      <p class="tl-era__sum"><b>{{ e.docs }}</b> 篇文献{% if e.stream > 0 %} · <b>{{ e.stream }}</b> 篇博客{% endif %}</p>
-      {% if e.games.size > 0 %}
-      <div class="tl-chips tl-era__games">
-        {% for g in e.games %}<a class="tl-game" href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}" title="{{ g.title }} · {{ g.year }} · 制作名单">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="20" height="20" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="20" height="20" loading="lazy">{% endif %}{% else %}<i class="tl-game__dot"></i>{% endif %}<span>{{ g.title }}</span></a>{% endfor %}
+  <div class="tl-catalogue" id="chronicle">
+    <aside class="tl-side">
+      <div class="tl-side__inner">
+        <p class="tl-side__label">年代目录 <span>01 — 06</span></p>
+        <nav class="tl-era-nav" aria-label="按时代跳转">
+          {% for e in tl.eras %}{% assign era_key = e.from | append: "" %}{% assign era_copy = site.data.timeline_editorial[era_key] %}
+          <a href="#era-{{ forloop.index }}" data-tl-section-link><span class="tl-era-nav__number">0{{ forloop.index }}</span><span><b>{{ era_copy.title | default: e.label }}</b><small>{{ e.from }} — {{ e.to }}</small></span></a>
+          {% endfor %}
+        </nav>
+        <div class="tl-enhance" hidden>{% include timeline-year-picker.html %}</div>
+        <p class="tl-side__note">按原资料的发表日期排列。<br>作品图标通向制作名单。</p>
       </div>
-      {% endif %}
-      {% if e.people.size > 0 %}
-      <div class="tl-chips tl-era__people"><span class="tl-chips__label">谈得最多</span>{% for p in e.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% endfor %}</div>
-      {% endif %}
-    </header>
-
-    <ol class="tl-years">
-      {% for y in tl.years %}{% if y.year >= e.from and y.year <= e.to %}{% if y.docs > 0 or y.stream > 0 %}
-      <li class="tl-year" id="y{{ y.year }}">
-        <a class="tl-year__head" href="{{ '/timeline/' | append: y.year | append: '/' | relative_url }}">
-          <span class="tl-year__n">{{ y.year }}</span>
-          <span class="tl-year__count">{% if y.docs > 0 %}<b>{{ y.docs }}</b> 篇文献{% endif %}{% if y.stream > 0 %}{% if y.docs > 0 %}<br>{% endif %}<b>{{ y.stream }}</b> 篇博客{% endif %}</span>
-          <span class="tl-year__go" aria-hidden="true">进入 →</span>
-        </a>
-        <div class="tl-year__main">
-          {% if y.games.size > 0 %}
-          <div class="tl-chips tl-year__games">{% for g in y.games %}<a class="tl-game" href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}" title="{{ g.title }} · 制作名单">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="18" height="18" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="18" height="18" loading="lazy">{% endif %}{% else %}<i class="tl-game__dot"></i>{% endif %}<span>{{ g.title }}</span></a>{% endfor %}</div>
-          {% endif %}
-          {% if y.picks.size > 0 %}
-          <div class="tl-picks">
-            {% for pk in y.picks %}
-            <a class="tl-pick is-{{ pk.kind }}" href="{{ pk.url | relative_url }}">
-              {% if pk.cover %}<span class="tl-pick__cover"><img src="{{ pk.cover | relative_url }}" alt="" loading="lazy" decoding="async"></span>{% endif %}
-              <span class="tl-pick__body">
-                <small>{% case pk.kind %}{% when "interview" %}访谈翻译{% when "scan" %}杂志扫描{% when "topic" %}官方专题{% else %}文章{% endcase %}{% if pk.pub != "" %} · {{ pk.pub }}{% endif %}</small>
-                <strong>{{ pk.title }}</strong>
-                {% if pk.blurb %}<em>{{ pk.blurb }}</em>{% endif %}
-              </span>
-            </a>
-            {% endfor %}
-          </div>
-          {% else %}
-          <p class="tl-year__note">这一年收的是 Game Freak 的博客，没有访谈或杂志。</p>
-          {% endif %}
-        </div>
-      </li>
-      {% endif %}{% endif %}{% endfor %}
-    </ol>
-  </section>
-  {% endfor %}
+    </aside>
+    <div class="tl-era-list">
+      {% for e in tl.eras %}
+      {% assign era_key = e.from | append: "" %}{% assign era_copy = site.data.timeline_editorial[era_key] %}
+      <section class="tl-era" id="era-{{ forloop.index }}" data-tl-section>
+        <header class="tl-era__head"><span class="tl-era__number" aria-hidden="true">0{{ forloop.index }}</span><div><p class="tl-eyebrow">{{ e.from }} — {{ e.to }} / {{ e.label }}</p><h2>{{ era_copy.title | default: e.label }}</h2><p class="tl-era__note">{{ era_copy.note }}</p></div></header>
+        <ol class="tl-years">
+          {% for y in tl.years %}{% if y.year >= e.from and y.year <= e.to %}
+          {% assign row_year = y.year | append: "" %}{% assign row_group = tl_by_year | where: "name", row_year | first %}
+          {% include timeline-counts.html posts=row_group.items %}
+          {% if tlc_docs > 0 or tlc_stream > 0 %}
+          {% assign year_docs = tlc_documents | sort: "date" | reverse %}
+          <li class="tl-year" id="y{{ y.year }}">
+            <a class="tl-year__head" href="{{ '/timeline/' | append: y.year | append: '/' | relative_url }}"><b>{{ y.year }}</b><span>{% if tlc_docs > 0 %}{{ tlc_docs }} 篇文献{% endif %}{% if tlc_stream > 0 %}{% if tlc_docs > 0 %} · {% endif %}{{ tlc_stream }} 篇博客{% endif %}</span><span class="tl-year__go">读这一年 <span aria-hidden="true">↗</span></span></a>
+            <div class="tl-year__main">
+              {% if y.games.size > 0 %}<div class="tl-works" aria-label="{{ y.year }} 年的作品">{% for g in y.games %}<a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}" title="{{ g.title }} · 制作名单">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="22" height="22" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="22" height="22" loading="lazy">{% endif %}{% endif %}<span>{{ g.title }}</span></a>{% endfor %}</div>{% endif %}
+              {% if year_docs.size > 0 %}<ul class="tl-selections" aria-label="{{ y.year }} 年最近发表的文献">{% for p in year_docs limit: 2 %}{% include timeline-entry.html post=p compact=true %}{% endfor %}</ul>{% else %}<p class="tl-year__note">这一年的记录，留在开发者博客里。<a href="{{ '/timeline/' | append: y.year | append: '/' | relative_url }}">翻开手记 →</a></p>{% endif %}
+            </div>
+          </li>
+          {% endif %}{% endif %}{% endfor %}
+        </ol>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+  <noscript><p class="tl-foot">年份与年代链接均可直接使用。搜索与快捷年份选择需要启用 JavaScript。</p></noscript>
 </div>

@@ -1,0 +1,24 @@
+{%- comment -%}
+Use the current Jekyll corpus, not the HEAD snapshot in timeline.yml. An include
+returns the lists and counts to its caller; it never modifies source data.
+{%- endcomment -%}
+{%- assign tlc_documents = "" | split: "," -%}
+{%- assign tlc_blogs = "" | split: "," -%}
+{%- assign tlc_interview = 0 -%}{%- assign tlc_scan = 0 -%}
+{%- assign tlc_topic = 0 -%}{%- assign tlc_article = 0 -%}
+{%- for tlc_post in include.posts -%}
+  {%- include timeline-kind.html post=tlc_post -%}
+  {%- if tl_kind == "stream" -%}
+    {%- assign tlc_blogs = tlc_blogs | push: tlc_post -%}
+  {%- elsif tlc_post.search != false -%}
+    {%- assign tlc_documents = tlc_documents | push: tlc_post -%}
+    {%- case tl_kind -%}
+      {%- when "interview" -%}{%- assign tlc_interview = tlc_interview | plus: 1 -%}
+      {%- when "scan" -%}{%- assign tlc_scan = tlc_scan | plus: 1 -%}
+      {%- when "topic" -%}{%- assign tlc_topic = tlc_topic | plus: 1 -%}
+      {%- else -%}{%- assign tlc_article = tlc_article | plus: 1 -%}
+    {%- endcase -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign tlc_docs = tlc_documents.size -%}
+{%- assign tlc_stream = tlc_blogs.size -%}

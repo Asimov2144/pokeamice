@@ -1,0 +1,14 @@
+# Time-axis thumbnails only: 400px copies of the same source pages (assets/img/timeline-thumbs/).
+# Original article/scan URLs are not changed. Unmapped remote covers become text entries.
+"https://gallery.pokeamice.com/scan-archive/ndream-2008-10-platinum-special/pages/p001_cover.jpg": /assets/img/timeline-thumbs/dream-2008-10-p001_cover.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2008-12-game-freak-interview/pages/p076_gf_interview_p1.jpg": /assets/img/timeline-thumbs/dream-2008-12-p076_gf_interview_p1.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2008-12-masuda-rainbow-bridge/pages/p102_masuda_rainbow_bridge_p1.jpg": /assets/img/timeline-thumbs/dream-2008-12-p102_masuda_rainbow_bridge_p1.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2008-12-platinum-battle-dojo/pages/p001_cover.jpg": /assets/img/timeline-thumbs/dream-2008-12-p001_cover.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p001_cover.jpg": /assets/img/timeline-thumbs/dream-2009-11-p001_cover.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2010-04-creatures-ranger-interview/pages/p069_ranger_special_title.jpg": /assets/img/timeline-thumbs/dream-2010-04-p069_ranger_special_title.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2010-04-pokemon-bw-first-reveal/pages/p001_cover.jpg": /assets/img/timeline-thumbs/dream-2010-04-p001_cover.jpg
+"https://gallery.pokeamice.com/scan-archive/ndream-2010-04-pokemon-ranger-retrospective/pages/p076_ranger_highlight_01.jpg": /assets/img/timeline-thumbs/dream-2010-04-p076_ranger_highlight_01.jpg
+"https://gallery.pokeamice.com/scan-archive/cgworld-2017-07-game-graphics-studio-extra/pages/p001_cover.jpg": /assets/img/timeline-thumbs/cgworld-2017-07-p001_cover.jpg
+"https://gallery.pokeamice.com/scan-archive/continue-vol23-drill-dozer/pages/page008.jpg": /assets/img/timeline-thumbs/continue-vol23-page008.jpg
+"https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page000.jpg": /assets/img/timeline-thumbs/continue-vol23-page000.jpg
+"https://gallery.pokeamice.com/scan-archive/continue-vol32-tajiri-shokotan/pages/p016_cover.jpg": /assets/img/timeline-thumbs/continue-vol32-20260829-p016_cover.jpg

@@ -1,0 +1,14 @@
+{%- comment -%}One classification for timeline counts, entries and filters. Sets tl_kind / tl_kind_label.{%- endcomment -%}
+{%- assign tl_post = include.post -%}
+{%- assign tl_archive = tl_post.archive_type | default: "" -%}
+{%- assign tl_kind = "article" -%}
+{%- assign tl_kind_label = "文章" -%}
+{%- if tl_archive == "gamefreak_director_column" or tl_archive == "gamefreak_masuda_lineblog" or tl_archive == "gamefreak_legacy_blog" -%}
+  {%- assign tl_kind = "stream" -%}{%- assign tl_kind_label = "开发者博客" -%}
+{%- elsif tl_archive == "scan_translation" -%}
+  {%- assign tl_kind = "scan" -%}{%- assign tl_kind_label = "原刊扫描" -%}
+{%- elsif tl_post.categories contains "专题报道" -%}
+  {%- assign tl_kind = "topic" -%}{%- assign tl_kind_label = "官方专题" -%}
+{%- elsif tl_post.layout == "interview-editorial" or tl_post.layout == "parallel-translation" or tl_archive contains "interview" or tl_archive == "media_feature" -%}
+  {%- assign tl_kind = "interview" -%}{%- assign tl_kind_label = "访谈与报道" -%}
+{%- endif -%}

@@ -1,0 +1,15 @@
+<form class="tl-year-picker" action="{{ '/timeline/' | relative_url }}" data-tl-year-picker>
+  <label for="tl-year-select">选择年份</label>
+  <div class="tl-year-picker__row">
+    <select id="tl-year-select" name="year" data-tl-year-select>
+      {% unless page.timeline_year %}<option value="">跳到某一年</option>{% endunless %}
+      {% for t in tl.years %}
+        {% assign picker_year = t.year | append: "" %}
+        {% assign picker_group = tl_by_year | where: "name", picker_year | first %}
+        {% include timeline-counts.html posts=picker_group.items %}
+        {% if tlc_docs > 0 or tlc_stream > 0 %}<option value="{{ '/timeline/' | append: t.year | append: '/' | relative_url }}"{% if t.year == page.timeline_year %} selected{% endif %}>{{ t.year }} · {{ tlc_docs }} 篇文献{% if tlc_stream > 0 %} / {{ tlc_stream }} 篇博客{% endif %}</option>{% endif %}
+      {% endfor %}
+    </select>
+    <button type="submit" aria-label="进入所选年份">进入 <span aria-hidden="true">→</span></button>
+  </div>
+</form>

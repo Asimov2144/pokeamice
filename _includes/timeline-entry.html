@@ -1,0 +1,27 @@
+{%- assign tep = include.post -%}
+{%- include timeline-kind.html post=tep -%}
+{%- assign te_kind = tl_kind -%}{%- assign te_label = tl_kind_label -%}
+{%- assign te_cover = tep.image | default: tep.featured_image | default: "" -%}
+{%- if te_cover == "" -%}
+  {%- assign te_images = tep.translation_segments | default: tep.parallel_items | where: "type", "image" -%}
+  {%- assign te_cover = te_images.first.image | default: te_images.first.src | default: "" -%}
+{%- endif -%}
+{%- comment -%}Only reuse verified local source pages; never substitute a person's portrait for an original scan.{%- endcomment -%}
+{%- assign te_cover = site.data.timeline_thumbnails[te_cover] | default: te_cover -%}
+{%- assign te_prefix = te_cover | slice: 0, 8 -%}
+{%- unless te_prefix == "/assets/" -%}{%- assign te_cover = "" -%}{%- endunless -%}
+{%- assign te_title = tep.display_title | default: tep.title | strip_html -%}
+{%- assign te_pub = tep.publication | default: tep.source.publication | default: tep.source.title | default: "" | strip_html -%}
+{%- capture te_search -%}{{ te_title }} {{ te_pub }} {{ tep.entities.people | join: " " }} {{ tep.entities.works | join: " " }} {{ tep.summary | default: tep.dek | strip_html }}{%- endcapture -%}
+<li class="tl-entry tl-item{% if include.compact %} tl-entry--compact{% endif %}{% if te_cover != '' %} has-cover{% endif %}" data-kind="{{ te_kind }}" data-tl-search="{{ te_search | strip_newlines | escape }}">
+  <time class="tl-entry__date" datetime="{{ tep.date | date: '%Y-%m-%d' }}">{{ tep.date | date: "%m.%d" }}</time>
+  <div class="tl-entry__body">
+    <p class="tl-entry__meta"><span class="tl-entry__kind">{{ te_label }}</span>{% if te_pub != "" %}<span>{{ te_pub | escape }}</span>{% endif %}{% if tep.issue %}<span>{{ tep.issue | escape }}</span>{% endif %}</p>
+    <h3 class="tl-entry__title"><a href="{{ tep.url | relative_url }}">{{ te_title | escape }}</a></h3>
+    {% unless include.compact %}
+      {% if tep.dek or tep.summary %}<p class="tl-entry__summary">{{ tep.dek | default: tep.summary | strip_html | truncate: 150 }}</p>{% endif %}
+      {% if tep.entities.people.size > 0 %}<p class="tl-entry__people">{% for who in tep.entities.people limit: 4 %}{{ who }}{% unless forloop.last %}<span aria-hidden="true"> / </span>{% endunless %}{% endfor %}</p>{% endif %}
+    {% endunless %}
+  </div>
+  {% if te_cover != "" %}<span class="tl-entry__image" aria-hidden="true"><img src="{{ te_cover | relative_url }}" alt="" width="88" height="104" loading="lazy" decoding="async"></span>{% endif %}
+</li>
