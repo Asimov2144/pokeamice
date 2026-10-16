@@ -170,11 +170,13 @@ def main() -> int:
 
     # ---- the timeline ---------------------------------------------------
     tl_index = read(site / "timeline" / "index.html")
-    cols = tl_index.select("a.tl-col") if tl_index else []
-    check(len(cols) >= 25, f"timeline: the overview draws {len(cols)} year columns")
-    check(all(exists(site, a.get("href") or "") for a in cols), "timeline: every column links to a built year page")
-    picks = tl_index.select("a.tl-pick") if tl_index else []
-    check(len(picks) >= 60 and all(exists(site, a.get("href") or "") for a in picks),
+    #  overview (redesign 2026-09-30): an era list of year rows, each heading a link to its year page,
+    #  with that year's latest two documents under it, and one featured interview on top
+    cols = tl_index.select("a.tl-year__head") if tl_index else []
+    check(len(cols) >= 25, f"timeline: the overview lists {len(cols)} years")
+    check(all(exists(site, a.get("href") or "") for a in cols), "timeline: every year links to a built year page")
+    picks = (tl_index.select(".tl-selections .tl-entry__title a") + tl_index.select("a.tl-feature")) if tl_index else []
+    check(len(picks) >= 40 and all(exists(site, a.get("href") or "") for a in picks),
           f"timeline: {len(picks)} picks, every one resolves")
     check(len(tl_index.select("section.tl-era")) >= 5 if tl_index else False, "timeline: the eras are there")
     y2010 = read(site / "timeline" / "2010" / "index.html")
@@ -182,8 +184,9 @@ def main() -> int:
         check(len(y2010.select(".tl-item")) >= 40 and len(y2010.select("details.tl-stream")) >= 1,
               f"timeline: 2010 has {len(y2010.select('.tl-item'))} cards and {len(y2010.select('details.tl-stream'))} folded blogs")
         check([t for t, _ in trail(y2010)][:2] == ["首页", "时间线"], f"timeline: the year sits under 时间线 {trail(y2010)[:3]}")
-        check(all(exists(site, a.get("href") or "") for a in y2010.select(".tl-strip a, .tl-head__step, .tl-game")),
-              "timeline: the year strip, the neighbours and the game chips resolve")
+        steps = y2010.select(".tl-year-steps a, .tl-works a, .tl-context__people a, a.tl-back")
+        check(len(steps) >= 3 and all(exists(site, a.get("href") or "") for a in steps),
+              f"timeline: the neighbouring years, the games and the people of 2010 resolve ({len(steps)} links)")
     else:
         check(False, "timeline: 2010 is built")
 
