@@ -1,0 +1,26 @@
+# Content form and publication era are independent: every prose form can use
+# any era skin. Structural readers (scan / technical) take precedence.
+conversation:
+  name: 单人问答
+  description: 短篇或中篇的一问一答，连续阅读，不把每个问题做成大章。
+roundtable:
+  name: 多人对谈
+  description: 两位及以上受访者，用姓名栏清楚追踪接话顺序。
+longform:
+  name: 长篇专访
+  description: 主题导航与长文行宽，让多个问答在同一话题下自然衔接。
+profile:
+  name: 人物自述
+  description: 招聘访谈、职业故事与标题式提问，以人物和段落为主。
+annotated:
+  name: 摘译与解说
+  description: 保留访谈原话与作者评论，分清来源，不冒充全文转录。
+narrative:
+  name: 叙事专题
+  description: 回忆录、官网专题与报道，按文章而不是虚构问答来阅读。
+technical:
+  name: 技术报道
+  description: 讲座、技术流程与图解，沿用专门的技术正文。
+scan:
+  name: 原刊对读
+  description: 杂志扫描、页码与 OCR 区域，沿用原页同步阅读器。

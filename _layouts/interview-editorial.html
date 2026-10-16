@@ -12,16 +12,17 @@ the page rather than opening it.
 
 Data contract is the same parallel_items as parallel-translation.html, plus
 three optional editorial fields:
-  item.role     "question" | "answer" on dialogue turns (split_turns.py makes these)
+  item.role     "question" | "answer" | "commentary" on spoken / authored turns
   item.chapter  short title for a question turn - the chapter head
   item.pull     the sentence of an answer to pull out full-width
-and on the page: dateline, dek.
+and on the page: dateline, dek, interview_template (optional content-form override).
 
 The reading tools - view, theme, zen, notes, speaker filter - are the same
 script the other layout uses, so the .parallel-text__* hooks it binds to are
 kept on the turns even though the presentation around them is new.
 {%- endcomment -%}
-{% assign items = page.parallel_items | default: page.translation_segments | default: page.segments %}
+{% assign empty_items = "" | split: "" %}
+{% assign items = page.parallel_items | default: page.translation_segments | default: page.segments | default: empty_items %}
 {%- comment -%}
   The Japanese edition (_ja/, tools/build-ja-edition.py) renders through this same layout: the
   Japanese is in `translation`, the labels come from _data/ed_ui.yml, and what is written for
@@ -67,6 +68,7 @@ kept on the turns even though the presentation around them is new.
 {% assign outlet = page.source_name | default: page.publication | default: page.source.title | default: "" %}
 {% assign outlet_short = outlet | split: "（" | first | split: "(" | first | strip %}
 {% assign reading_chars = items | map: "translation" | join: "" | size %}
+{% if items.size == 0 %}{% assign reading_chars = content | strip_html | size %}{% endif %}
 {% assign reading_minutes = reading_chars | divided_by: 400 %}
 {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
 {% assign source_url = page.original_link | default: page.source_url | default: page.source.url | default: "" %}
@@ -77,7 +79,7 @@ kept on the turns even though the presentation around them is new.
   Routed on source_kind so the post does not have to change layout.
 {%- endcomment -%}
 {% assign is_technical = false %}
-{% if page.source_kind == "technical_report" or page.article_kind == "technical_feature" %}{% assign is_technical = true %}{% endif %}
+{% if page.source_kind == "technical_report" or page.source_kind == "lecture_report" or page.source.source_type == "technical_report" or page.source.source_type == "lecture_report" or page.article_kind == "technical_feature" %}{% assign is_technical = true %}{% endif %}
 {%- comment -%}
   A scanned magazine is a third thing: the unit is the page, not the turn,
   and the data is one segment per OCR region with the page and box it came
@@ -89,7 +91,8 @@ kept on the turns even though the presentation around them is new.
   {% if page.source_pages or page.scan_pages or page.archive_type == "scan_translation" %}{% assign is_scan = true %}{% endif %}
 {% endif %}
 {%- comment -%} the scan body shows every region crop in place; a cover photograph would repeat page one {%- endcomment -%}
-{% if is_scan %}{% assign hero = nil %}{% endif %}
+{% if is_scan %}{% assign hero = nil %}{% assign is_technical = false %}{% endif %}
+{% include interview-template.html %}
 {% include era-skin.html %}
 {%- comment -%} the other chapters of this piece, if it has any - for the nav after the body and the shelf at the end {%- endcomment -%}
 {% unless ja %}{% include interview-series.html %}{% endunless %}
@@ -112,11 +115,6 @@ kept on the turns even though the presentation around them is new.
   question turns, only section heads. There every heading is a chapter, so
   the piece gets a contents box and numbered heads like an interview does.
 {%- endcomment -%}
-{% assign n_questions = 0 %}{% assign n_headings = 0 %}
-{% for item in items %}
-  {% if item.role == "question" %}{% assign n_questions = n_questions | plus: 1 %}{% endif %}
-  {% if item.type == "heading" or item.type == "header" %}{% assign n_headings = n_headings | plus: 1 %}{% endif %}
-{% endfor %}
 {% assign essay = false %}
 {% if n_questions == 0 and n_headings >= 2 %}{% assign essay = true %}{% endif %}
 {%- comment -%}
@@ -146,15 +144,6 @@ kept on the turns even though the presentation around them is new.
   {% endfor %}
 {% endunless %}
 
-{%- comment -%} Everyone who answers, for the dek and the speaker filter. {%- endcomment -%}
-{%- comment -%} "众人" answering together is a turn, not a person on the cover {%- endcomment -%}
-{% assign crowd = "众人,全员,一同,全体,众人（笑）,Everyone,All" | split: "," %}
-{% assign answerers = "" | split: "" %}
-{% for it in items %}
-  {% if it.role == "answer" and it.speaker %}
-    {% unless answerers contains it.speaker or crowd contains it.speaker %}{% assign answerers = answerers | push: it.speaker %}{% endunless %}
-  {% endif %}
-{% endfor %}
 {% assign interviewer_label = page.interviewer | default: outlet_short | split: "（" | first | strip %}
 
 <div class="interview-reading-progress" id="readingProgressBar" aria-hidden="true"></div>
@@ -165,7 +154,7 @@ kept on the turns even though the presentation around them is new.
   whole [data-view] rule family - it did, and set this page's answers to
   0.92rem and hid every original toggle before this was removed.
 {%- endcomment -%}
-<main class="ed{% if is_technical %} ed--technical{% endif %}{% if is_scan %} ed--scan{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
+<main class="ed ed--form-{{ interview_template }}{% if is_technical %} ed--technical{% endif %}{% if is_scan %} ed--scan{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}" data-interview-template="{{ interview_template }}"{% if items.size == 0 %} data-prose-only{% endif %}>
   {%- comment -%} where this piece sits: section › year › series or outlet {%- endcomment -%}
   {% if ja %}
   <nav class="crumbs" aria-label="現在位置">
@@ -185,23 +174,23 @@ kept on the turns even though the presentation around them is new.
   {%- endcomment -%}
   <details class="ed-tools parallel-tools" aria-label="{{ ui.tools }}">
     <summary class="ed-tools__summary">
-      <span class="ed-tools__view" data-ed-current-view>{{ ui.v_translation }}</span>
+      <span class="ed-tools__view"{% if items.size > 0 %} data-ed-current-view{% endif %}>{% if items.size > 0 %}{{ ui.v_translation }}{% else %}{{ ui.g_reading }}{% endif %}</span>
       <span class="ed-tools__gear" aria-hidden="true">⚙</span>
       <span class="screen-reader-text">{{ ui.tools }}</span>
     </summary>
     <div class="ed-tools__panel parallel-tools__panel">
-      <div class="ed-tools__group" role="group" aria-label="{{ ui.g_version }}">
+      {% if items.size > 0 %}<div class="ed-tools__group" role="group" aria-label="{{ ui.g_version }}">
         <button type="button" class="ed-tools__btn is-active" data-view-choice="translation" aria-pressed="true" data-tip="{{ ui.tip_translation }}">{{ ui.v_translation }}</button>
         <button type="button" class="ed-tools__btn" data-view-choice="parallel" aria-pressed="false" data-tip="{{ ui.tip_parallel }}">{{ ui.v_parallel }}</button>
         <button type="button" class="ed-tools__btn" data-view-choice="original" aria-pressed="false" data-tip="{{ ui.tip_original }}">{{ ui.v_original }}</button>
-      </div>
+      </div>{% endif %}
       <div class="ed-tools__group" role="group" aria-label="{{ ui.g_theme }}">
         <button type="button" class="ed-tools__btn is-active" data-theme-choice="auto" aria-pressed="true" data-tip="{% if ja %}{{ ui.tip_era }}{% else %}按原刊年代换版式：{{ era_label | default: '早期网页、杂志、Switch 时代各一套' }}{% endif %}">{{ ui.theme_auto }}</button>
         <button type="button" class="ed-tools__btn" data-theme-choice="dark" aria-pressed="false" data-tip="{{ ui.tip_dark }}">{{ ui.theme_dark }}</button>
         <button type="button" class="ed-tools__btn" data-theme-choice="clean" aria-pressed="false" data-tip="{{ ui.tip_clean }}">{{ ui.theme_clean }}</button>
       </div>
       <div class="ed-tools__group" role="group" aria-label="{{ ui.g_reading }}">
-        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle" data-tip="{{ ui.tip_zen }}"{% if ja %} data-label-on="{{ ui.zen_off }}" data-label-off="{{ ui.zen }}"{% endif %}>{{ ui.zen }}</button>
+        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle" aria-pressed="false" data-tip="{{ ui.tip_zen }}"{% if ja %} data-label-on="{{ ui.zen_off }}" data-label-off="{{ ui.zen }}"{% endif %}>{{ ui.zen }}</button>
         {% if is_scan %}<button type="button" class="ed-tools__btn is-active" data-vertical-toggle aria-pressed="true" title="纵排区域的原文按原刊竖排">竖排原文</button>{% endif %}
       </div>
       {% if answerers.size > 0 %}
@@ -220,6 +209,7 @@ kept on the turns even though the presentation around them is new.
     {%- comment -%} Cover: when, where, who, what - before a single control. {%- endcomment -%}
     <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}{% if page.source_kind == "official_corporate_topic" %}TOPICS{% else %}INTERVIEW{% endif %}{% endif %}">
       <p class="ed-kicker">
+        <span class="ed-format">{{ template_info.name }}</span>
         <span>{{ page.date | date: "%Y" }}</span>
         {% if page.dateline %}<span>{{ page.dateline }}</span>{% endif %}
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
@@ -240,7 +230,9 @@ kept on the turns even though the presentation around them is new.
       {%- endcomment -%}
       {%- comment -%} the names, each with its portrait when _data/people.yml has one {%- endcomment -%}
       {% assign people_line = answerers %}
-      {% if people_line.size == 0 and page.entities.people %}{% assign people_line = page.entities.people %}{% endif %}
+      {% if people_line.size == 0 and page.interviewee and interview_template != "narrative" %}
+        {% assign people_line = page.interviewee | replace: ", ", "、" | replace: ",", "、" | replace: "，", "、" | split: "、" %}
+      {% elsif people_line.size == 0 and page.entities.people and interview_template != "narrative" %}{% assign people_line = page.entities.people %}{% endif %}
       {% if people_line.size > 0 %}
         <p class="ed-people">
           {% for who in people_line %}
@@ -276,6 +268,7 @@ kept on the turns even though the presentation around them is new.
       {% unless ja %}{% assign wanted_hit = site.data.wanted.items | where: "post", post_stem | first %}{% if wanted_hit and wanted_hit.status == "text" %}<aside class="ed-digest-note ed-wanted-note" role="note"><b>原刊征集</b>本篇来自网上的转录或摘录，还缺《{{ wanted_hit.pub }}》{{ wanted_hit.issue }}的原刊页来核对。手上有这一期的话，<a href="{{ '/wanted/' | relative_url }}#{{ wanted_hit.id }}">看看缺哪几页 →</a></aside>{% endif %}{% endunless %}
       {%- comment -%} a GAME FREAK recruit page: which version of that address this is (_data/recruit_archive.yml) {%- endcomment -%}
       {% if page.recruit and ja == false %}{% include recruit-version.html %}{% endif %}
+      {% unless ja %}{% if n_commentary > 0 %}<p class="ed-context-note">访谈原话与作者解说按原有顺序保留；标注“作者解说”的段落不属于受访者发言。</p>{% endif %}{% endunless %}
     </header>
 
     {%- comment -%} The photograph is the cover, not an attachment. {%- endcomment -%}
@@ -287,7 +280,8 @@ kept on the turns even though the presentation around them is new.
       </figure>
     {% endif %}
 
-    {% if contents.size >= 6 %}
+    {% include interview-topic-nav.html %}
+    {% if topic_count < 2 and contents.size >= 6 %}
       <details class="ed-contents">
         <summary class="ed-contents__summary"><span class="ed-contents__eyebrow">Contents</span> {{ ui.contents_a }}{{ contents.size }}{{ ui.contents_b }}</summary>
         <ol class="ed-contents__list">
@@ -346,6 +340,9 @@ kept on the turns even though the presentation around them is new.
             {% if digest %}<h3 class="ed-heading ed-heading--sub" id="section-{{ forloop.index }}">{{ heading_text }}</h3>{% else %}<h2 class="ed-heading" id="section-{{ forloop.index }}">{{ heading_text }}</h2>{% endif %}
           {% endif %}
 
+        {% elsif item_type == "hr" %}
+          <hr class="ed-break">
+
         {% elsif item.role == "question" %}
           {%- comment -%}
             A chapter runs from one question to the next, however many answers
@@ -355,7 +352,7 @@ kept on the turns even though the presentation around them is new.
           {% if chapter > 0 %}</section>{% endif %}
           {% assign chapter = chapter | plus: 1 %}
           <section class="ed-chapter" id="chapter-{{ chapter }}">
-            <header class="ed-chapter__head">
+            <header class="ed-chapter__head{% unless item.chapter %} ed-chapter__head--untitled{% endunless %}">
               <span class="ed-chapter__num">{% if chapter < 10 %}0{% endif %}{{ chapter }}</span>
               {% if item.chapter %}<h2 class="ed-chapter__title">{{ item.chapter }}</h2>{% endif %}
             </header>
@@ -369,6 +366,7 @@ kept on the turns even though the presentation around them is new.
                 </details>
                 <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
               </div>
+              {% include interview-turn-note.html %}
             </div>
 
         {% else %}
@@ -377,14 +375,22 @@ kept on the turns even though the presentation around them is new.
             an answer turn is prose under its speaker's name; a marked line
             becomes the pull quote after it.
           {%- endcomment -%}
+          {% assign is_commentary = false %}
+          {% if item.role == "commentary" or item.voice == "commentary" or commentators contains item.speaker %}{% assign is_commentary = true %}{% endif %}
           {% assign is_answer = false %}{% if item.role == "answer" or item_type == "profile" %}{% assign is_answer = true %}{% endif %}
+          {% if is_commentary %}{% assign is_answer = false %}{% endif %}
           {% assign classes = "ed-turn parallel-text__block" %}
           {% if is_answer %}{% assign classes = classes | append: " ed-turn--answer has-speaker speaker-is-guest" %}{% endif %}
-          {% if lead_done == false and is_answer == false and chapter == 0 %}
+          {% if is_answer and forloop.index0 > 0 %}
+            {% assign previous_index = forloop.index0 | minus: 1 %}{% assign previous_item = items[previous_index] %}
+            {% if previous_item.role == "answer" and previous_item.speaker == item.speaker %}{% assign classes = classes | append: " ed-turn--continuation" %}{% endif %}
+          {% endif %}
+          {% if is_commentary %}{% assign classes = classes | append: " ed-turn--commentary" %}{% endif %}
+          {% if lead_done == false and is_answer == false and is_commentary == false and chapter == 0 %}
             {% assign classes = classes | append: " ed-lead" %}{% assign lead_done = true %}
           {% endif %}
           <div class="{{ classes }}" id="segment-{{ forloop.index }}"{% if item.speaker %} data-speaker="{{ item.speaker | escape }}"{% endif %}>
-            {% if is_answer and item.speaker %}<p class="ed-turn__who">{{ item.speaker }}</p>{% endif %}
+            {% if is_commentary %}<p class="ed-turn__who">{% if item.speaker %}{{ item.speaker }} · {% endif %}作者解说</p>{% elsif item.speaker %}<p class="ed-turn__who">{{ item.speaker }}</p>{% endif %}
             <div class="ed-turn__text parallel-text__pair">
               {% assign seg_lang = item.original_lang | default: original_lang %}
               <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
@@ -398,15 +404,7 @@ kept on the turns even though the presentation around them is new.
               empty string is true to Liquid - so 30 of this page's 44 note
               marks opened onto nothing. A note is a note when it says something.
             {%- endcomment -%}
-            {% assign note_text = item.note | default: "" | strip %}
-            {% assign comment_text = item.comment | default: "" | strip %}
-            {% if note_text != "" or comment_text != "" %}
-              <button class="parallel-text__note-toggle ed-note" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注"><span aria-hidden="true">※</span></button>
-              <div class="parallel-text__note-popover">
-                {% if note_text != "" %}<aside class="parallel-text__note" aria-label="译注">{{ note_text | markdownify }}</aside>{% endif %}
-                {% if comment_text != "" %}<aside class="parallel-text__comments" aria-label="段落评论">{{ comment_text | markdownify }}</aside>{% endif %}
-              </div>
-            {% endif %}
+            {% include interview-turn-note.html %}
           </div>
           {% if item.pull %}
             <blockquote class="ed-pull">
@@ -417,6 +415,7 @@ kept on the turns even though the presentation around them is new.
         {% endif %}
       {% endfor %}
       {% if chapter > 0 %}</section>{% endif %}
+      {% if items.size == 0 %}<div class="ed-prose">{{ content }}</div>{% endif %}
     </div>
     {% endif %}
 
@@ -456,7 +455,7 @@ kept on the turns even though the presentation around them is new.
         {{ summary_text | markdownify }}
       </aside>
     {% endif %}
-    {% if content != "" %}
+    {% if content != "" and items.size > 0 %}
       <aside class="ed-epilogue parallel-translation__note">{{ content }}</aside>
     {% endif %}
 

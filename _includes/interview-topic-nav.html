@@ -1,0 +1,33 @@
+{%- comment -%}
+Use actual topic headings, not a 40-line list of every question. Compute IDs
+with the same chapter rules as the body; plain headings use section-INDEX.
+No topics invented and no source text moved. A short piece needs no menu.
+{%- endcomment -%}
+{% assign topic_count = 0 %}
+{% assign topic_links = "" %}
+{% assign topic_forms = "longform,roundtable,profile,narrative,annotated" | split: "," %}
+{% if topic_forms contains interview_template and n_headings >= 2 %}
+  {% assign topic_chapter = 0 %}
+  {% for t in items %}
+    {% if t.type == "heading" or t.type == "header" %}
+      {% assign t_next = items[forloop.index] %}
+      {% if t_next.type == "image" %}{% assign t_after = forloop.index | plus: 1 %}{% assign t_next = items[t_after] %}{% endif %}
+      {% assign t_chap = false %}
+      {% if t_next.role == "answer" or t_next.type == "profile" or essay %}{% assign t_chap = true %}{% endif %}
+      {% if digest %}{% assign t_level = t.level | plus: 0 %}{% if t_level <= 2 %}{% assign t_chap = true %}{% else %}{% assign t_chap = false %}{% endif %}{% endif %}
+      {% if t_chap %}{% assign topic_chapter = topic_chapter | plus: 1 %}{% capture t_id %}chapter-{{ topic_chapter }}{% endcapture %}{% else %}{% capture t_id %}section-{{ forloop.index }}{% endcapture %}{% endif %}
+      {% unless digest and t_chap == false %}
+        {% assign topic_count = topic_count | plus: 1 %}
+        {% assign t_label = t.translation | default: t.title | default: t.original | strip_html %}
+        {% capture t_link %}<li><a href="#{{ t_id }}">{{ t_label | escape }}</a></li>{% endcapture %}
+        {% assign topic_links = topic_links | append: t_link %}
+      {% endunless %}
+    {% elsif t.role == "question" %}{% assign topic_chapter = topic_chapter | plus: 1 %}{% endif %}
+  {% endfor %}
+{% endif %}
+{% if topic_count >= 2 %}
+  <details class="ed-topic-nav"{% if topic_count <= 6 %} open{% endif %}>
+    <summary>本篇话题 <span>{{ topic_count }}</span></summary>
+    <nav aria-label="本篇话题"><ol>{{ topic_links }}</ol></nav>
+  </details>
+{% endif %}

@@ -85,7 +85,7 @@ shared script's view switching and note popovers work here too.
         {% assign fig = fig | plus: 1 %}
         <figure class="tf-figure" id="figure-{{ fig }}">
           <img src="{{ src | relative_url }}" alt="{{ item.alt | default: item.caption | default: page.title | escape }}" loading="lazy" decoding="async">
-          {% if item.caption %}<figcaption><span class="tf-figure__num">图 {{ fig }}</span>{{ item.caption }}</figcaption>{% endif %}
+          {% if item.caption %}<figcaption><span class="tf-figure__num">图 {{ fig }}</span>{{ item.caption }}{% if item.caption_original %}<span class="ed-figcap-orig"{% if original_lang != "" %} lang="{{ original_lang }}"{% endif %}>{{ item.caption_original }}</span>{% endif %}</figcaption>{% endif %}
         </figure>
       {% endif %}
 
@@ -110,11 +110,12 @@ shared script's view switching and note popovers work here too.
           </details>
           <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
         </div>
-        {% if item.note or item.comment %}
+        {% assign note_text = item.note | default: "" | strip %}{% assign comment_text = item.comment | default: "" | strip %}
+        {% if note_text != "" or comment_text != "" %}
           <button class="parallel-text__note-toggle ed-note" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注"><span aria-hidden="true">※</span></button>
           <div class="parallel-text__note-popover">
-            {% if item.note %}<aside class="parallel-text__note" aria-label="译注">{{ item.note | markdownify }}</aside>{% endif %}
-            {% if item.comment %}<aside class="parallel-text__comments" aria-label="段落评论">{{ item.comment | markdownify }}</aside>{% endif %}
+            {% if note_text != "" %}<aside class="parallel-text__note" aria-label="译注">{{ note_text | markdownify }}</aside>{% endif %}
+            {% if comment_text != "" %}<aside class="parallel-text__comments" aria-label="段落评论">{{ comment_text | markdownify }}</aside>{% endif %}
           </div>
         {% endif %}
       </div>

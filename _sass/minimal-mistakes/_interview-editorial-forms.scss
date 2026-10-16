@@ -1,0 +1,227 @@
+/* Content-form grammar, layered AFTER the era skins. No paragraph cards,
+   generated decoration, new fonts to download, or motion in the reading flow.
+   Era = period; form = how people speak / how an article tells its story. */
+.layout--interview-editorial .ed[data-interview-template] {
+  --form-ink: #24272b;
+  --form-soft: #5b6068;
+  --form-rule: #d8d9d5;
+  --form-accent: #99522f;
+  --form-measure: 704px;
+
+  &[data-era-skin="1999"] { --form-accent: #003a70; --form-rule: #c4beb0; --form-measure: 660px; }
+  &[data-era-skin="2003"] { --form-accent: #2f6f45; --form-measure: 660px; }
+  &[data-era-skin="2007"] { --form-accent: #276276; }
+  &[data-era-skin="2011"] { --form-accent: #78633c; }
+  &[data-era-skin="2019"] { --form-accent: #355f54; }
+  &[data-era-skin="2026"] { --form-accent: #72513d; }
+  &[data-reading-theme="dark"] {
+    --form-ink: #ecebe5;
+    --form-soft: #b5b8bd;
+    --form-rule: #3b4147;
+    --form-accent: #d4bb91;
+  }
+
+  .ed-context-note {
+    margin: 12px 0 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--form-soft);
+  }
+  /* Some era skins used filled speaker pills. A form changes the name colour,
+     so reset the pill too: dark blue type on the old blue fill is illegible. */
+  &[data-era-skin] .ed-turn .ed-turn__who,
+  &[data-era-skin] .ed-turn--answer .ed-turn__who,
+  &[data-era-skin] .ed-turn--question .ed-turn__who {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .ed-turn .ed-turn__who { color: var(--form-soft); }
+  .ed-turn--answer .ed-turn__who { color: var(--form-accent); }
+  .ed-turn .ed-turn__who::before, .ed-turn--answer .ed-turn__who::before {
+    background: currentColor;
+    box-shadow: none;
+  }
+  /* The site's global p/span transition must not fade reading text between
+     incompatible theme colours. Paint the whole turn in the new theme at once. */
+  .ed-turn p, .ed-trans, .ed-orig, .ed-chapter__title { transition: none; }
+
+  /* A lightweight topic strip rather than a research control panel. */
+  .ed-topic-nav {
+    max-width: var(--form-measure);
+    margin: 24px auto 30px;
+    padding: 12px 0;
+    border-top: 1px solid var(--form-rule);
+    border-bottom: 1px solid var(--form-rule);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .ed-topic-nav > summary {
+    width: fit-content;
+    cursor: pointer;
+    color: var(--form-soft);
+    font-weight: 600;
+  }
+  .ed-topic-nav > summary span { margin-left: 6px; font-size: 11px; }
+  .ed-topic-nav ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .ed-topic-nav li { margin: 0; min-width: 0; }
+  .ed-topic-nav a { display: inline-block; color: var(--form-accent); text-underline-offset: 4px; }
+  .ed-topic-nav a:hover { text-decoration: underline; }
+  &:not([data-interview-template="scan"]):not([data-interview-template="technical"]) {
+    .ed-body { overflow-wrap: anywhere; }
+    .ed-chapter, .ed-heading, .ed-turn { scroll-margin-top: 90px; }
+    .ed-prose { margin-top: 26px; }
+    .ed-prose h2, .ed-prose h3 { margin-top: 2em; line-height: 1.5; }
+  }
+  a:focus-visible, button:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--form-accent);
+    outline-offset: 4px;
+  }
+
+  /* Single-speaker conversation: the question is a turn, not a chapter banner. */
+  &.ed--form-conversation {
+    .ed-cover, .ed-body { max-width: 660px; }
+    .ed-body { font-size: 17px; line-height: 1.85; }
+    .ed-chapter { margin-top: 32px; }
+    .ed-chapter__head--untitled { display: none; }
+    .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+      font-family: inherit;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.75;
+      color: var(--form-ink);
+    }
+    .ed-turn--question .ed-turn__who { font-size: 12px; color: var(--form-soft); }
+    .ed-turn--answer .ed-turn__who { color: var(--form-accent); }
+  }
+
+  /* Roundtable: stable speaker gutter; names remain text, never colour-only. */
+  &.ed--form-roundtable {
+    --form-measure: 800px;
+    .ed-cover, .ed-body { max-width: var(--form-measure); }
+    .ed-chapter { margin-top: 32px; }
+    .ed-chapter__head--untitled { display: none; }
+    .ed-turn--answer, .ed-turn--question, .ed-turn:has(> .ed-turn__who) {
+      display: grid;
+      grid-template-columns: 116px minmax(0, 1fr);
+      gap: 0 22px;
+      margin-bottom: 24px;
+    }
+    .ed-turn:not(:has(> .ed-turn__who)) { display: block; }
+    .ed-turn__who {
+      display: block;
+      margin: 4px 0 0;
+      font-size: 13px;
+      line-height: 1.65;
+      font-weight: 700;
+      color: var(--form-accent);
+      overflow-wrap: anywhere;
+    }
+    .ed-turn__who::before { content: none; }
+    .ed-turn--question .ed-turn__who { color: var(--form-soft); }
+    .ed-turn__text { min-width: 0; }
+    .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+      font-family: inherit;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.75;
+      color: var(--form-ink);
+    }
+    &[data-view="parallel"] .ed-body { max-width: 992px; }
+  }
+
+  /* Long-form: editorial topics carry hierarchy; small questions carry dialogue. */
+  &.ed--form-longform {
+    .ed-body { font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif; font-size: 18px; line-height: 1.95; }
+    .ed-chapter { margin-top: 30px; }
+    .ed-chapter__head--untitled { display: none; }
+    .ed-heading { margin-top: 52px; padding-top: 20px; border-top: 1px solid var(--form-rule); font-size: 24px; line-height: 1.5; }
+    .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+      font-family: inherit;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.85;
+      color: var(--form-ink);
+    }
+    .ed-turn__who { font-family: "Helvetica Neue", "Microsoft YaHei", sans-serif; font-size: 12px; }
+    .ed-turn--answer .ed-turn__who { color: var(--form-accent); }
+    .ed-turn--question .ed-turn__who { color: var(--form-soft); }
+  }
+
+  /* Career profiles: photographs pace the story, statements run without boxes. */
+  &.ed--form-profile {
+    .ed-hero { max-width: 720px; margin-top: 24px; margin-bottom: 30px; }
+    .ed-hero img { max-height: 360px; }
+    .ed-body { font-size: 17px; line-height: 1.9; }
+    .ed-chapter { margin-top: 40px; }
+    .ed-chapter__head { background: none; border-radius: 0; border-top: 1px solid var(--form-rule); padding: 16px 0 0; }
+    .ed-chapter__num { color: var(--form-accent); background: none; }
+    .ed-chapter__title { color: var(--form-ink); font-size: 22px; line-height: 1.55; }
+    .ed-turn--answer .ed-turn__who { color: var(--form-accent); font-size: 12px; }
+    .ed-turn--continuation .ed-turn__who { display: none; }
+  }
+
+  /* Annotated excerpts: comments stay readable IN PLACE, separate from the quote. */
+  &.ed--form-annotated {
+    .ed-chapter { margin-top: 32px; }
+    .ed-chapter__head--untitled { display: none; }
+    .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans { font-family: inherit; font-size: 17px; line-height: 1.75; color: var(--form-ink); }
+    .ed-turn--commentary { margin-top: 28px; margin-bottom: 28px; font-size: 15px; line-height: 1.85; color: var(--form-soft); }
+    .ed-turn--commentary .ed-turn__who { color: var(--form-soft); font-size: 12px; font-weight: 600; }
+    .ed-turn--commentary .ed-turn__who::before { content: none; }
+    .ed-turn--commentary .ed-turn__text { padding-left: 16px; border-left: 2px solid var(--form-rule); }
+    .ed-turn--commentary .ed-trans, .ed-turn--commentary .ed-orig { color: var(--form-soft); font-size: 15px; }
+    .ed-digest-note { padding: 12px 0; background: none; border: 0; border-bottom: 1px solid var(--form-rule); border-radius: 0; color: var(--form-soft); }
+  }
+
+  /* Essays / official features are articles, with no invented Q/A hierarchy. */
+  &.ed--form-narrative {
+    .ed-body { font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif; font-size: 18px; line-height: 1.95; }
+    .ed-turn { margin-bottom: 16px; }
+    .ed-chapter { margin-top: 46px; }
+    .ed-chapter__head { background: none; border-radius: 0; border-top: 1px solid var(--form-rule); padding: 18px 0 0; }
+    .ed-chapter__num { color: var(--form-accent); background: none; }
+    .ed-chapter__title { color: var(--form-ink); font-family: inherit; font-size: 24px; line-height: 1.5; }
+    .ed-turn__who { font-size: 12px; color: var(--form-soft); }
+  }
+
+  @media (max-width: 720px) {
+    .ed-topic-nav { margin-top: 18px; }
+    .ed-topic-nav ol { display: block; }
+    .ed-topic-nav li + li { margin-top: 6px; }
+    .ed-tools__summary, .ed-tools__btn { min-height: 36px; }
+    .ed-tools[open] .ed-tools__panel { top: 46px; max-width: calc(100vw - 40px); min-width: min(256px, calc(100vw - 40px)); }
+    &.ed--form-roundtable .ed-turn--answer,
+    &.ed--form-roundtable .ed-turn--question,
+    &.ed--form-roundtable .ed-turn:has(> .ed-turn__who) { display: block; }
+    &.ed--form-roundtable .ed-turn__who { margin: 0 0 7px; }
+    &.ed--form-longform .ed-body, &.ed--form-narrative .ed-body { font-size: 17px; }
+    &.ed--form-longform .ed-heading, &.ed--form-narrative .ed-chapter__title { font-size: 21px; }
+    &.ed--form-profile .ed-hero img { max-height: 280px; }
+  }
+
+  @media print {
+    .ed-tools, .ed-topic-nav { display: none; }
+    &.ed--form-roundtable .ed-turn--answer, &.ed--form-roundtable .ed-turn--question { break-inside: avoid; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .layout--interview-editorial .ed,
+  .layout--interview-editorial .ed *,
+  .layout--interview-editorial .interview-reading-progress {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -12,7 +12,8 @@ same script instead of a copy. It binds to data attributes and the
     if (!root) return;
     var buttons = Array.prototype.slice.call(root.querySelectorAll("[data-view-choice]"));
     var storageKey = "parallelTranslationView";
-    var allowed = ["translation", "parallel", "original"];
+    var proseOnly = root.hasAttribute("data-prose-only");
+    var allowed = proseOnly ? ["translation"] : ["translation", "parallel", "original"];
 
     function setView(view) {
       if (allowed.indexOf(view) === -1) view = "translation";
@@ -34,7 +35,7 @@ same script instead of a copy. It binds to data attributes and the
         });
       });
       try {
-        window.localStorage.setItem(storageKey, view);
+        if (!proseOnly) window.localStorage.setItem(storageKey, view);
       } catch (_) {}
     }
 
@@ -107,6 +108,7 @@ same script instead of a copy. It binds to data attributes and the
       }
       themeButtons.forEach(function (b) {
         b.classList.toggle("is-active", b.getAttribute("data-theme-choice") === theme);
+        b.setAttribute("aria-pressed", b.getAttribute("data-theme-choice") === theme ? "true" : "false");
       });
       try { localStorage.setItem(themeStorageKey, theme); } catch (_) {}
     }
@@ -127,6 +129,7 @@ same script instead of a copy. It binds to data attributes and the
       document.body.classList.toggle("is-zen-mode", active);
       if (zenBtn) {
         zenBtn.classList.toggle("is-zen-active", active);
+        zenBtn.setAttribute("aria-pressed", active ? "true" : "false");
         // the Japanese edition gives its own words in data-label-on / -off
         zenBtn.innerHTML = active ? '<i class="fas fa-compress-alt"></i> ' + (zenBtn.getAttribute("data-label-on") || "退出专注")
                                   : '<i class="fas fa-expand-alt"></i> ' + (zenBtn.getAttribute("data-label-off") || "专注模式");

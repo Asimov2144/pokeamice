@@ -1,0 +1,40 @@
+{%- comment -%}
+Resolve content form once; era-skin.html independently resolves its period.
+Mirror these rules in tools/audit_interview_templates.py and test parity.
+Scan/technical shapes are protected; a prose override cannot hide their data.
+{%- endcomment -%}
+{% include interview-commentators.html %}
+{%- assign crowd = "众人,全员,一同,全体,众人（笑）,Everyone,All" | split: "," -%}
+{%- assign answerers = "" | split: "" -%}
+{%- assign n_questions = 0 -%}{%- assign n_headings = 0 -%}
+{%- assign n_answers = 0 -%}{%- assign n_commentary = 0 -%}
+{%- for it in items -%}
+  {%- if it.role == "question" -%}{%- assign n_questions = n_questions | plus: 1 -%}{%- endif -%}
+  {%- if it.type == "heading" or it.type == "header" -%}{%- assign n_headings = n_headings | plus: 1 -%}{%- endif -%}
+  {%- assign it_commentary = false -%}
+  {%- if it.role == "commentary" or it.voice == "commentary" or commentators contains it.speaker -%}{%- assign it_commentary = true -%}{%- assign n_commentary = n_commentary | plus: 1 -%}{%- endif -%}
+  {%- if it.role == "answer" and it_commentary == false -%}
+    {%- assign n_answers = n_answers | plus: 1 -%}
+    {%- if it.speaker -%}{%- unless answerers contains it.speaker or crowd contains it.speaker -%}{%- assign answerers = answerers | push: it.speaker -%}{%- endunless -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign prose_templates = "conversation,roundtable,longform,profile,annotated,narrative" | split: "," -%}
+{%- assign interview_template = "conversation" -%}
+{%- if is_scan -%}
+  {%- assign interview_template = "scan" -%}
+{%- elsif is_technical -%}
+  {%- assign interview_template = "technical" -%}
+{%- elsif prose_templates contains page.interview_template -%}
+  {%- assign interview_template = page.interview_template -%}
+{%- elsif page.archive_type == "interview_excerpt" or n_commentary > 0 -%}
+  {%- assign interview_template = "annotated" -%}
+{%- elsif answerers.size >= 2 -%}
+  {%- assign interview_template = "roundtable" -%}
+{%- elsif n_questions == 0 -%}
+  {%- if n_answers > 0 -%}{%- assign interview_template = "profile" -%}{%- else -%}{%- assign interview_template = "narrative" -%}{%- endif -%}
+{%- elsif page.source_kind == "corporate_interview" or page.slug contains "-recruit-" -%}
+  {%- assign interview_template = "profile" -%}
+{%- elsif n_questions >= 12 or reading_chars >= 6000 -%}
+  {%- assign interview_template = "longform" -%}
+{%- endif -%}
+{%- assign template_info = site.data.interview_templates[interview_template] -%}

@@ -1,0 +1,9 @@
+{%- assign note_text = item.note | default: "" | strip -%}
+{%- assign comment_text = item.comment | default: "" | strip -%}
+{%- if note_text != "" or comment_text != "" -%}
+  <button class="parallel-text__note-toggle ed-note" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注"><span aria-hidden="true">※</span></button>
+  <div class="parallel-text__note-popover">
+    {% if note_text != "" %}<aside class="parallel-text__note" aria-label="译注">{{ note_text | markdownify }}</aside>{% endif %}
+    {% if comment_text != "" %}<aside class="parallel-text__comments" aria-label="段落评论">{{ comment_text | markdownify }}</aside>{% endif %}
+  </div>
+{%- endif -%}

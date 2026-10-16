@@ -1,0 +1,7 @@
+{%- comment -%}
+Authored context is kept in sequence, but is not an interviewee. Explicit
+role/voice: commentary also works; commentary_speakers extends this list.
+Do not classify an ordinary reporter's narration as an annotated interview.
+{%- endcomment -%}
+{%- assign commentators = "Dr. Lava,Dr Lava,Dr.Lava,编者注,编者按,编者,译者注,作者解说,Editor,Editorial" | split: "," -%}
+{%- if page.commentary_speakers -%}{%- assign commentators = commentators | concat: page.commentary_speakers -%}{%- endif -%}
