@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 黑·白</h2>
-    <span>109 篇文章 · 0 条评注 · 2017 / 2014 / 2012 / 2011 / 2010 / 2009</span>
+    <span>110 篇文章 · 0 条评注 · 2017 / 2014 / 2012 / 2011 / 2010 / 2009</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -598,6 +598,12 @@ search: false
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンワールドチャンピオンシップス2010！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-198/">【工作日志】2010宝可梦世界锦标赛</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，初次见面。&lt;br 我是3D图形设计师フジワ（藤和）。&lt;br 今年暑假，我飞离了日本炎热的夏天，&lt;br 和 GAME FREAK 一行人前往夏威夷岛科纳，参加了在那里举办的&lt;br “宝可梦世界锦标赛2010”！ 从神秘的夏威夷音乐开始，这场气势十足的开场让人印象深刻。&lt;br 我是中途</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · ［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/">4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

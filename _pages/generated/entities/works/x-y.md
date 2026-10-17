@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 X·Y</h2>
-    <span>53 篇文章 · 0 条评注 · 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013</span>
+    <span>56 篇文章 · 0 条评注 · 2023 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/">IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2020 · interview_translation · Pokemon Business Professionals</p>
   <h3><a href="/developer-interviews/official-archives/interview-tpc-business-professionals/">宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学</a></h3>
   <span></span>
@@ -211,12 +217,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 4Gamer.net</p>
-  <h3><a href="/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/">4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · ファミ通.com 特集記事：『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/">[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学</a></h3>
   <span></span>
@@ -229,8 +229,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 4Gamer.net</p>
+  <h3><a href="/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/">4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · Hobby Consolas（西班牙最大游戏媒体）</p>
   <h3><a href="/interview-hobbyconsolas-xy-masuda/">专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/">Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售</a></h3>
   <span></span>
 </article>
 
@@ -328,6 +340,12 @@ search: false
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第237回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-237/">[GameFreak部长专栏] 第237回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 将日语翻译成各国语言的本地化工作。 重新构建本地化的方法和组织架构。 在相关各家公司以及许多人的协助下， 历时</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · ［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/">4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

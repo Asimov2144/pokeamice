@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:07:40+09:00",
+  "generated_at": "2026-10-17T13:46:54+09:00",
   "entities": {
     "people": {
       "田尻智": {
@@ -2315,6 +2315,25 @@
             }
           },
           {
+            "id": "7a90d1807e",
+            "title": "Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议",
+            "url": "/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/",
+            "date": "2019-10-24",
+            "year": "2019",
+            "source": "Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 剑·盾"
+              ]
+            }
+          },
+          {
             "id": "be0981d6ab",
             "title": "Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》",
             "url": "/访谈翻译/翻译/访谈整理/interview-gi-2019-champion/",
@@ -3073,6 +3092,25 @@
             }
           },
           {
+            "id": "c68d38bbdc",
+            "title": "はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一",
+            "url": "/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/",
+            "date": "2017-08-09",
+            "year": "2017",
+            "source": "『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿",
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
             "id": "c5cdbb165a",
             "title": "【活动】2017年芝加哥宝可梦GO",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-9290179/",
@@ -3812,6 +3850,25 @@
               "organizations": [
                 "Game Freak",
                 "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "84498b81e3",
+            "title": "Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/",
+            "date": "2016-12-01",
+            "year": "2016",
+            "source": "Translation: Masuda on Sun & Moon, Pokemon Gray, Z, and Colosseum Sequel",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 太阳·月亮"
               ]
             }
           },
@@ -8159,6 +8216,24 @@
             }
           },
           {
+            "id": "c01d0ad502",
+            "title": "Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售",
+            "url": "/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/",
+            "date": "2013-11-06",
+            "year": "2013",
+            "source": "La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 X·Y"
+              ]
+            }
+          },
+          {
             "id": "0c5d661456",
             "title": "Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道",
             "url": "/interview-eurogamer-spain-xy-masuda-yoshida/",
@@ -8490,6 +8565,25 @@
               ],
               "organizations": [
                 "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "7d47069e3e",
+            "title": "4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/",
+            "date": "2013-06-12",
+            "year": "2013",
+            "source": "［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 X·Y"
               ]
             }
           },
@@ -8833,27 +8927,6 @@
             }
           },
           {
-            "id": "c4ca9cad55",
-            "title": "Nintendo DREAM 2012：黑2白2庆典任务与宝可坞开发秘闻",
-            "url": "/杂志特辑/扫描存档/scan-ndream-2012-10-b2w2-pickup-secrets/",
-            "date": "2012-08-21",
-            "year": "2012",
-            "source": "『ポケットモンスターブラック2・ホワイト2』新要素攻略＋開発秘話：フェスミッション・ポケウッド",
-            "type": "scan_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "海野隆雄",
-                "佐藤仁美",
-                "增田顺一",
-                "一之濑刚"
-              ],
-              "works": [
-                "宝可梦 黑2·白2"
-              ]
-            }
-          },
-          {
             "id": "06998a608a",
             "title": "Nintendo DREAM 2012：宝可梦音乐访谈 一之濑刚、佐藤仁美、增田顺一",
             "url": "/访谈翻译/扫描存档/scan-ndream-2012-10-pokemon-music-interview/",
@@ -8877,12 +8950,33 @@
             }
           },
           {
-            "id": "f910b50e88",
-            "title": "[访谈翻译] 周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-b2w2-fanmeeting-masuda-unno/",
+            "id": "c4ca9cad55",
+            "title": "Nintendo DREAM 2012：黑2白2庆典任务与宝可坞开发秘闻",
+            "url": "/杂志特辑/扫描存档/scan-ndream-2012-10-b2w2-pickup-secrets/",
+            "date": "2012-08-21",
+            "year": "2012",
+            "source": "『ポケットモンスターブラック2・ホワイト2』新要素攻略＋開発秘話：フェスミッション・ポケウッド",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "海野隆雄",
+                "佐藤仁美",
+                "增田顺一",
+                "一之濑刚"
+              ],
+              "works": [
+                "宝可梦 黑2·白2"
+              ]
+            }
+          },
+          {
+            "id": "7fe14aae9b",
+            "title": "电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学",
+            "url": "/采访/现场活动/宝可梦黑白2/角色与对战/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/",
             "date": "2012-08-05",
             "year": "2012",
-            "source": "ファミ通.com 特集記事：増田順一氏＆海野隆雄氏が登壇！『ポケモンB2・W2』ファンミーティング",
+            "source": "『ポケットモンスター ブラック2・ホワイト2』増田順一氏・海野隆雄氏トークショー",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
@@ -8897,12 +8991,12 @@
             }
           },
           {
-            "id": "7fe14aae9b",
-            "title": "电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学",
-            "url": "/采访/现场活动/宝可梦黑白2/角色与对战/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/",
+            "id": "f910b50e88",
+            "title": "[访谈翻译] 周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-b2w2-fanmeeting-masuda-unno/",
             "date": "2012-08-05",
             "year": "2012",
-            "source": "『ポケットモンスター ブラック2・ホワイト2』増田順一氏・海野隆雄氏トークショー",
+            "source": "ファミ通.com 特集記事：増田順一氏＆海野隆雄氏が登壇！『ポケモンB2・W2』ファンミーティング",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
@@ -9317,24 +9411,6 @@
             }
           },
           {
-            "id": "252c207ccb",
-            "title": "[GameFreak部长专栏] 第214回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-214/",
-            "date": "2011-10-07",
-            "year": "2011",
-            "source": "増田部長のめざめるパワー 第214回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 我（增田顺一）开通 Twitter 了！ 大家，请关注我！ 专栏和 Twitter，两个都请大家多多支持！ 下",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "dfe186aacc",
             "title": "[GameFreak部长专栏] 第213回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-213/",
@@ -9351,6 +9427,24 @@
               "organizations": [
                 "Game Freak",
                 "苹果公司"
+              ]
+            }
+          },
+          {
+            "id": "252c207ccb",
+            "title": "[GameFreak部长专栏] 第214回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-214/",
+            "date": "2011-10-07",
+            "year": "2011",
+            "source": "増田部長のめざめるパワー 第214回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 我（增田顺一）开通 Twitter 了！ 大家，请关注我！ 专栏和 Twitter，两个都请大家多多支持！ 下",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak"
               ]
             }
           },
@@ -9372,33 +9466,6 @@
               ],
               "organizations": [
                 "Game Freak"
-              ]
-            }
-          },
-          {
-            "id": "5f63c082fc",
-            "title": "[GameFreak部长专栏] 第210回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-210/",
-            "date": "2011-09-22",
-            "year": "2011",
-            "source": "増田部長のめざめるパワー 第210回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 幕张展览馆举行了日本游戏大奖颁奖典礼！！ 没想到！！宝可梦相关作品竟然获得了四项大奖！！ 太棒了！！ １）经济",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "石原恒和"
-              ],
-              "works": [
-                "宝可梦 心金·魂银",
-                "宝可梦 黑·白"
-              ],
-              "organizations": [
-                "Game Freak",
-                "The Pokémon Company"
-              ],
-              "events": [
-                "日本游戏大奖"
               ]
             }
           },
@@ -9428,6 +9495,33 @@
               ],
               "events": [
                 "PRESS START 2011"
+              ]
+            }
+          },
+          {
+            "id": "5f63c082fc",
+            "title": "[GameFreak部长专栏] 第210回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-210/",
+            "date": "2011-09-22",
+            "year": "2011",
+            "source": "増田部長のめざめるパワー 第210回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 幕张展览馆举行了日本游戏大奖颁奖典礼！！ 没想到！！宝可梦相关作品竟然获得了四项大奖！！ 太棒了！！ １）经济",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 心金·魂银",
+                "宝可梦 黑·白"
+              ],
+              "organizations": [
+                "Game Freak",
+                "The Pokémon Company"
+              ],
+              "events": [
+                "日本游戏大奖"
               ]
             }
           },
@@ -12071,6 +12165,24 @@
             }
           },
           {
+            "id": "befe8b0343",
+            "title": "Nintendo DREAM 2008：增田顺一谈彩虹大桥与制作者视角",
+            "url": "/访谈翻译/扫描存档/scan-ndream-2008-12-masuda-rainbow-bridge/",
+            "date": "2008-10-21",
+            "year": "2008",
+            "source": "連載「長官らしい」vol.7 ゲスト：増田順一さん「レインボーブリッジが好きだ！」",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 白金"
+              ]
+            }
+          },
+          {
             "id": "223a8d67da",
             "title": "Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界",
             "url": "/访谈翻译/扫描存档/scan-ndream-2008-12-game-freak-interview/",
@@ -12086,24 +12198,6 @@
                 "太田哲司",
                 "西野弘二",
                 "中津井优"
-              ],
-              "works": [
-                "宝可梦 白金"
-              ]
-            }
-          },
-          {
-            "id": "befe8b0343",
-            "title": "Nintendo DREAM 2008：增田顺一谈彩虹大桥与制作者视角",
-            "url": "/访谈翻译/扫描存档/scan-ndream-2008-12-masuda-rainbow-bridge/",
-            "date": "2008-10-21",
-            "year": "2008",
-            "source": "連載「長官らしい」vol.7 ゲスト：増田順一さん「レインボーブリッジが好きだ！」",
-            "type": "scan_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一"
               ],
               "works": [
                 "宝可梦 白金"
@@ -17735,6 +17829,24 @@
         "url": "/entities/people/e79fb3e58e9fe68192e5928c/",
         "posts": [
           {
+            "id": "6134ce6868",
+            "title": "产经新闻（産経ニュース） 2026：宝可梦30年 株式会社宝可梦社长石原恒和谈虚拟与现实融合",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-30th/",
+            "date": "2026-03-26",
+            "year": "2026",
+            "source": "ポケモンは今年で30年　仮想と現実の融合を目指す、唯一無二のブランド　株式会社ポケモン石原恒和社長インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 红·绿"
+              ]
+            }
+          },
+          {
             "id": "aad3dddd83",
             "title": "宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）",
             "url": "/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-designer/",
@@ -17995,6 +18107,58 @@
             }
           },
           {
+            "id": "45d9688fb8",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/",
+            "date": "2016-07-22",
+            "year": "2016",
+            "source": "【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "Pokémon GO"
+              ]
+            }
+          },
+          {
+            "id": "3760f0a898",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/",
+            "date": "2016-06-16",
+            "year": "2016",
+            "source": "【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 红·绿",
+                "Pokémon GO"
+              ]
+            }
+          },
+          {
+            "id": "6c763af849",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈智能手机游戏全球展开与AI",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-smartphone-global-ai/",
+            "date": "2016-05-24",
+            "year": "2016",
+            "source": "ポケモン、スマホ向けの世界展開目指す　社長インタビュー　ＡＩで新しい遊び方を提案",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ]
+            }
+          },
+          {
             "id": "5b1dd00815",
             "title": "INSIDE 2016：宝可梦20年，石原恒和谈现实与虚拟的连接",
             "url": "/访谈翻译/翻译/访谈整理/interview-inside-2016-ishihara-20th/",
@@ -18131,6 +18295,25 @@
                 "E3",
                 "开发者圆桌会议",
                 "任天堂直面会"
+              ]
+            }
+          },
+          {
+            "id": "7d47069e3e",
+            "title": "4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/",
+            "date": "2013-06-12",
+            "year": "2013",
+            "source": "［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 X·Y"
               ]
             }
           },
@@ -18621,29 +18804,6 @@
             }
           },
           {
-            "id": "a04238b403",
-            "title": "[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
-            "date": "2010-09-10",
-            "year": "2010",
-            "source": "任天堂公式ウェブサイト「社長が訊く」Pokemon Black & White Vol.1 第1回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田聪",
-                "增田顺一",
-                "杉森建",
-                "石原恒和"
-              ],
-              "works": [
-                "宝可梦 黑·白",
-                "宝可梦 钻石·珍珠",
-                "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
             "id": "4714da00ff",
             "title": "[访谈翻译] 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/",
@@ -18726,6 +18886,49 @@
               "works": [
                 "宝可梦 黑·白",
                 "宝可梦 钻石·珍珠"
+              ]
+            }
+          },
+          {
+            "id": "a04238b403",
+            "title": "[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+            "date": "2010-09-10",
+            "year": "2010",
+            "source": "任天堂公式ウェブサイト「社長が訊く」Pokemon Black & White Vol.1 第1回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田聪",
+                "增田顺一",
+                "杉森建",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 黑·白",
+                "宝可梦 钻石·珍珠",
+                "宝可梦 红·绿"
+              ]
+            }
+          },
+          {
+            "id": "c91cfae7d3",
+            "title": "4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/",
+            "date": "2010-09-03",
+            "year": "2010",
+            "source": "［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "吉田直树",
+                "市村龙太郎",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 黑·白"
               ]
             }
           },
@@ -19242,6 +19445,7 @@
         ],
         "annotations": [],
         "years": [
+          "2026",
           "2024",
           "2023",
           "2021",
@@ -22071,28 +22275,6 @@
             }
           },
           {
-            "id": "3bc729b387",
-            "title": "[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
-            "url": "/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
-            "date": "2019-10-24",
-            "year": "2019",
-            "source": "Game Freak's Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch'd, and pressure from Pokémon fans",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "大森滋"
-              ],
-              "works": [
-                "宝可梦 剑·盾",
-                "Pokémon GO",
-                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
-                "塞尔达传说：旷野之息"
-              ]
-            }
-          },
-          {
             "id": "16aac06535",
             "title": "VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议",
             "url": "/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/",
@@ -22119,6 +22301,25 @@
             "date": "2019-10-24",
             "year": "2019",
             "source": "Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 剑·盾"
+              ]
+            }
+          },
+          {
+            "id": "7a90d1807e",
+            "title": "Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议",
+            "url": "/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/",
+            "date": "2019-10-24",
+            "year": "2019",
+            "source": "Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
@@ -22166,6 +22367,28 @@
               ],
               "works": [
                 "宝可梦 剑·盾"
+              ]
+            }
+          },
+          {
+            "id": "3bc729b387",
+            "title": "[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+            "url": "/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+            "date": "2019-10-24",
+            "year": "2019",
+            "source": "Game Freak's Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch'd, and pressure from Pokémon fans",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 剑·盾",
+                "Pokémon GO",
+                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+                "塞尔达传说：旷野之息"
               ]
             }
           },
@@ -22474,6 +22697,25 @@
             }
           },
           {
+            "id": "84498b81e3",
+            "title": "Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/",
+            "date": "2016-12-01",
+            "year": "2016",
+            "source": "Translation: Masuda on Sun & Moon, Pokemon Gray, Z, and Colosseum Sequel",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
             "id": "929485a71e",
             "title": "宝可梦官网 2016：总监大森滋谈两款软件寄托的想法",
             "url": "/访谈翻译/官方档案/interview-pokemoncojp-2016-ohmori-sm/",
@@ -22488,6 +22730,25 @@
               ],
               "works": [
                 "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
+            "id": "15fdcaca74",
+            "title": "ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿",
+            "url": "/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/",
+            "date": "2015-07-30",
+            "year": "2015",
+            "source": "『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+                "宝可梦 红宝石·蓝宝石"
               ]
             }
           },
@@ -22686,6 +22947,7 @@
           "2018",
           "2017",
           "2016",
+          "2015",
           "2014",
           "2011",
           "2010",
@@ -47775,6 +48037,70 @@
           "2010"
         ]
       },
+      "吉田直树": {
+        "name": "吉田直树",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e59089e794b0e79bb4e6a091/",
+        "posts": [
+          {
+            "id": "c91cfae7d3",
+            "title": "4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/",
+            "date": "2010-09-03",
+            "year": "2010",
+            "source": "［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "吉田直树",
+                "市村龙太郎",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 黑·白"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2010"
+        ]
+      },
+      "市村龙太郎": {
+        "name": "市村龙太郎",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e5b882e69d91e9be99e5a4aae9838e/",
+        "posts": [
+          {
+            "id": "c91cfae7d3",
+            "title": "4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/",
+            "date": "2010-09-03",
+            "year": "2010",
+            "source": "［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "吉田直树",
+                "市村龙太郎",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 黑·白"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2010"
+        ]
+      },
       "藤和": {
         "name": "藤和",
         "type": "people",
@@ -52523,6 +52849,25 @@
             }
           },
           {
+            "id": "fa73051117",
+            "title": "产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/",
+            "date": "2016-09-09",
+            "year": "2016",
+            "source": "【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "宇都宫崇人",
+                "川岛优志"
+              ],
+              "works": [
+                "Pokémon GO"
+              ]
+            }
+          },
+          {
             "id": "f35aa7a142",
             "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
             "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
@@ -52569,6 +52914,86 @@
         "years": [
           "2024",
           "2023",
+          "2018",
+          "2016"
+        ]
+      },
+      "川岛优志": {
+        "name": "川岛优志",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e5b79de5b29be4bc98e5bf97/",
+        "posts": [
+          {
+            "id": "d3b08b44be",
+            "title": "[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+            "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/",
+            "date": "2018-06-08",
+            "year": "2018",
+            "source": "電ファミニコゲーマー (Denfaminicogamer 2018-06-08)",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和",
+                "川岛优志",
+                "增田顺一",
+                "约翰·汉克",
+                "野村达雄"
+              ],
+              "works": [
+                "Pokémon GO",
+                "Ingress",
+                "宝可梦 红·绿",
+                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+              ]
+            }
+          },
+          {
+            "id": "0cac636dcf",
+            "title": "[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
+            "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/",
+            "date": "2018-06-08",
+            "year": "2018",
+            "source": "『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "川岛优志",
+                "石原恒和",
+                "约翰·汉克",
+                "野村达雄"
+              ],
+              "works": [
+                "Pokémon GO",
+                "Ingress"
+              ]
+            }
+          },
+          {
+            "id": "fa73051117",
+            "title": "产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/",
+            "date": "2016-09-09",
+            "year": "2016",
+            "source": "【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "宇都宫崇人",
+                "川岛优志"
+              ],
+              "works": [
+                "Pokémon GO"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
           "2018",
           "2016"
         ]
@@ -54090,66 +54515,6 @@
           "2018"
         ]
       },
-      "川岛优志": {
-        "name": "川岛优志",
-        "type": "people",
-        "type_label": "人物",
-        "url": "/entities/people/e5b79de5b29be4bc98e5bf97/",
-        "posts": [
-          {
-            "id": "d3b08b44be",
-            "title": "[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
-            "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/",
-            "date": "2018-06-08",
-            "year": "2018",
-            "source": "電ファミニコゲーマー (Denfaminicogamer 2018-06-08)",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "石原恒和",
-                "川岛优志",
-                "增田顺一",
-                "约翰·汉克",
-                "野村达雄"
-              ],
-              "works": [
-                "Pokémon GO",
-                "Ingress",
-                "宝可梦 红·绿",
-                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
-              ]
-            }
-          },
-          {
-            "id": "0cac636dcf",
-            "title": "[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
-            "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/",
-            "date": "2018-06-08",
-            "year": "2018",
-            "source": "『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "川岛优志",
-                "石原恒和",
-                "约翰·汉克",
-                "野村达雄"
-              ],
-              "works": [
-                "Pokémon GO",
-                "Ingress"
-              ]
-            }
-          }
-        ],
-        "annotations": [],
-        "years": [
-          "2018"
-        ]
-      },
       "菜花健作": {
         "name": "菜花健作",
         "type": "people",
@@ -54267,6 +54632,36 @@
           "2018"
         ]
       },
+      "有田满弘": {
+        "name": "有田满弘",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e69c89e794b0e6bba1e5bc98/",
+        "posts": [
+          {
+            "id": "583e1a0686",
+            "title": "JDN（设计情报网站） 2019：插画师有田满弘谈宝可梦卡牌的余白与玩心",
+            "url": "/访谈翻译/翻译/访谈整理/interview-jdn-arita-pokemon-card-illustrator/",
+            "date": "2019-02-12",
+            "year": "2019",
+            "source": "イラストレーター・有田満弘が語る、ポケモンカードゲームの余白と遊び",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "有田满弘"
+              ],
+              "works": [
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2019"
+        ]
+      },
       "M.Y.": {
         "name": "M.Y.",
         "type": "people",
@@ -54292,6 +54687,68 @@
               "organizations": [
                 "Game Freak",
                 "武蔵野美術大学"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2019"
+        ]
+      },
+      "那须基仁": {
+        "name": "那须基仁",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e982a3e9a1bbe59fbae4bb81/",
+        "posts": [
+          {
+            "id": "f8f1148045",
+            "title": "CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-cgworld-mewtwo-evolution-3dcg-olm/",
+            "date": "2019-08-29",
+            "year": "2019",
+            "source": "【CG初心者向け】映画『ミュウツーの逆襲 EVOLUTION』3DCG大解剖！",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "那须基仁",
+                "须藤秀希"
+              ],
+              "works": [
+                "宝可梦 剧场版 超梦的逆袭 EVOLUTION"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2019"
+        ]
+      },
+      "须藤秀希": {
+        "name": "须藤秀希",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e9a1bbe897a4e7a780e5b88c/",
+        "posts": [
+          {
+            "id": "f8f1148045",
+            "title": "CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-cgworld-mewtwo-evolution-3dcg-olm/",
+            "date": "2019-08-29",
+            "year": "2019",
+            "source": "【CG初心者向け】映画『ミュウツーの逆襲 EVOLUTION』3DCG大解剖！",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "那须基仁",
+                "须藤秀希"
+              ],
+              "works": [
+                "宝可梦 剧场版 超梦的逆袭 EVOLUTION"
               ]
             }
           }
@@ -55759,6 +56216,37 @@
           "2023"
         ]
       },
+      "渡边敦": {
+        "name": "渡边敦",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e6b8a1e8beb9e695a6/",
+        "posts": [
+          {
+            "id": "0f52b617a0",
+            "title": "IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发",
+            "url": "/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/",
+            "date": "2023-03-24",
+            "year": "2023",
+            "source": "『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "渡边敦"
+              ],
+              "works": [
+                "宝可梦 X·Y",
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2023"
+        ]
+      },
       "小野寺瞬": {
         "name": "小野寺瞬",
         "type": "people",
@@ -56581,6 +57069,142 @@
           "2024"
         ]
       },
+      "半田佑马": {
+        "name": "半田佑马",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e58d8ae794b0e4bd91e9a9ac/",
+        "posts": [
+          {
+            "id": "11371dd1f8",
+            "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+            "date": "2025-08-04",
+            "year": "2025",
+            "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "半田佑马",
+                "山本真史",
+                "广田隆哉",
+                "长屋悟"
+              ],
+              "works": [
+                "Pokémon Trading Card Game Pocket",
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2025"
+        ]
+      },
+      "山本真史": {
+        "name": "山本真史",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e5b1b1e69cace79c9fe58fb2/",
+        "posts": [
+          {
+            "id": "11371dd1f8",
+            "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+            "date": "2025-08-04",
+            "year": "2025",
+            "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "半田佑马",
+                "山本真史",
+                "广田隆哉",
+                "长屋悟"
+              ],
+              "works": [
+                "Pokémon Trading Card Game Pocket",
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2025"
+        ]
+      },
+      "广田隆哉": {
+        "name": "广田隆哉",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e5b9bfe794b0e99a86e59389/",
+        "posts": [
+          {
+            "id": "11371dd1f8",
+            "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+            "date": "2025-08-04",
+            "year": "2025",
+            "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "半田佑马",
+                "山本真史",
+                "广田隆哉",
+                "长屋悟"
+              ],
+              "works": [
+                "Pokémon Trading Card Game Pocket",
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2025"
+        ]
+      },
+      "长屋悟": {
+        "name": "长屋悟",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e995bfe5b18be6829f/",
+        "posts": [
+          {
+            "id": "11371dd1f8",
+            "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+            "date": "2025-08-04",
+            "year": "2025",
+            "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "半田佑马",
+                "山本真史",
+                "广田隆哉",
+                "长屋悟"
+              ],
+              "works": [
+                "Pokémon Trading Card Game Pocket",
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2025"
+        ]
+      },
       "N.A.": {
         "name": "N.A.",
         "type": "people",
@@ -57140,6 +57764,24 @@
             }
           },
           {
+            "id": "6134ce6868",
+            "title": "产经新闻（産経ニュース） 2026：宝可梦30年 株式会社宝可梦社长石原恒和谈虚拟与现实融合",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-30th/",
+            "date": "2026-03-26",
+            "year": "2026",
+            "source": "ポケモンは今年で30年　仮想と現実の融合を目指す、唯一無二のブランド　株式会社ポケモン石原恒和社長インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 红·绿"
+              ]
+            }
+          },
+          {
             "id": "09c0614ff2",
             "title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及",
             "url": "/采访/开发者访谈/宝可梦sleep/生活娱乐化/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/",
@@ -57586,6 +58228,25 @@
             }
           },
           {
+            "id": "c68d38bbdc",
+            "title": "はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一",
+            "url": "/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/",
+            "date": "2017-08-09",
+            "year": "2017",
+            "source": "『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿",
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
             "id": "3b266c1baa",
             "title": "【活动】2016宝可梦游戏音乐会",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-7296420/",
@@ -57649,6 +58310,25 @@
               "organizations": [
                 "Game Freak",
                 "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "3760f0a898",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/",
+            "date": "2016-06-16",
+            "year": "2016",
+            "source": "【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 红·绿",
+                "Pokémon GO"
               ]
             }
           },
@@ -57926,6 +58606,28 @@
             }
           },
           {
+            "id": "1bdf3149f3",
+            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+            "date": "2013-10-10",
+            "year": "2013",
+            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第1回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田聪",
+                "增田顺一",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 X·Y",
+                "宝可梦 红·绿",
+                "宝可梦 红宝石·蓝宝石"
+              ]
+            }
+          },
+          {
             "id": "5d19f8cf07",
             "title": "[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
@@ -57967,28 +58669,6 @@
               "works": [
                 "宝可梦 X·Y",
                 "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
-            "id": "1bdf3149f3",
-            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
-            "date": "2013-10-10",
-            "year": "2013",
-            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第1回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田聪",
-                "增田顺一",
-                "石原恒和"
-              ],
-              "works": [
-                "宝可梦 X·Y",
-                "宝可梦 红·绿",
-                "宝可梦 红宝石·蓝宝石"
               ]
             }
           },
@@ -65826,6 +66506,28 @@
             }
           },
           {
+            "id": "11371dd1f8",
+            "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+            "date": "2025-08-04",
+            "year": "2025",
+            "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "半田佑马",
+                "山本真史",
+                "广田隆哉",
+                "长屋悟"
+              ],
+              "works": [
+                "Pokémon Trading Card Game Pocket",
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          },
+          {
             "id": "50453d76b5",
             "title": "[技能机] 卡图下载 查询时间 Download & Time Inqury",
             "url": "/tech/ptcg/技能机-卡图下载-查询时间-Download-Inqury/",
@@ -65927,6 +66629,24 @@
                 "宝可梦 红·绿",
                 "宝可梦集换式卡牌游戏",
                 "Pokémon GO"
+              ]
+            }
+          },
+          {
+            "id": "583e1a0686",
+            "title": "JDN（设计情报网站） 2019：插画师有田满弘谈宝可梦卡牌的余白与玩心",
+            "url": "/访谈翻译/翻译/访谈整理/interview-jdn-arita-pokemon-card-illustrator/",
+            "date": "2019-02-12",
+            "year": "2019",
+            "source": "イラストレーター・有田満弘が語る、ポケモンカードゲームの余白と遊び",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "有田满弘"
+              ],
+              "works": [
+                "宝可梦集换式卡牌游戏"
               ]
             }
           },
@@ -66151,6 +66871,7 @@
           "2025",
           "2024",
           "2021",
+          "2019",
           "2017",
           "2016",
           "2012",
@@ -66378,6 +67099,25 @@
             }
           },
           {
+            "id": "15fdcaca74",
+            "title": "ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿",
+            "url": "/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/",
+            "date": "2015-07-30",
+            "year": "2015",
+            "source": "『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+                "宝可梦 红宝石·蓝宝石"
+              ]
+            }
+          },
+          {
             "id": "456909b05a",
             "title": "Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录",
             "url": "/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/",
@@ -66402,28 +67142,6 @@
             }
           },
           {
-            "id": "1bdf3149f3",
-            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
-            "date": "2013-10-10",
-            "year": "2013",
-            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第1回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田聪",
-                "增田顺一",
-                "石原恒和"
-              ],
-              "works": [
-                "宝可梦 X·Y",
-                "宝可梦 红·绿",
-                "宝可梦 红宝石·蓝宝石"
-              ]
-            }
-          },
-          {
             "id": "5d19f8cf07",
             "title": "[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/",
@@ -66439,6 +67157,28 @@
                 "石原恒和",
                 "大谷育江",
                 "杉森建"
+              ],
+              "works": [
+                "宝可梦 X·Y",
+                "宝可梦 红·绿",
+                "宝可梦 红宝石·蓝宝石"
+              ]
+            }
+          },
+          {
+            "id": "1bdf3149f3",
+            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+            "date": "2013-10-10",
+            "year": "2013",
+            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第1回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田聪",
+                "增田顺一",
+                "石原恒和"
               ],
               "works": [
                 "宝可梦 X·Y",
@@ -67118,6 +67858,7 @@
           "2023",
           "2017",
           "2016",
+          "2015",
           "2014",
           "2013",
           "2011",
@@ -78361,6 +79102,26 @@
             }
           },
           {
+            "id": "c91cfae7d3",
+            "title": "4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/",
+            "date": "2010-09-03",
+            "year": "2010",
+            "source": "［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "吉田直树",
+                "市村龙太郎",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 黑·白"
+              ]
+            }
+          },
+          {
             "id": "759083cd29",
             "title": "[GameFreak部长专栏] 第174回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-174/",
@@ -89071,6 +89832,25 @@
         "url": "/entities/works/x-y/",
         "posts": [
           {
+            "id": "0f52b617a0",
+            "title": "IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发",
+            "url": "/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/",
+            "date": "2023-03-24",
+            "year": "2023",
+            "source": "『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "渡边敦"
+              ],
+              "works": [
+                "宝可梦 X·Y",
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
             "id": "d78b1e17cf",
             "title": "宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学",
             "url": "/developer-interviews/official-archives/interview-tpc-business-professionals/",
@@ -89757,25 +90537,6 @@
             }
           },
           {
-            "id": "9886d14071",
-            "title": "4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录",
-            "url": "/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/",
-            "date": "2013-11-16",
-            "year": "2013",
-            "source": "4Gamer.net",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "景山将太"
-              ],
-              "works": [
-                "宝可梦 X·Y"
-              ]
-            }
-          },
-          {
             "id": "7cea752263",
             "title": "[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学",
             "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/",
@@ -89816,12 +90577,49 @@
             }
           },
           {
+            "id": "9886d14071",
+            "title": "4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录",
+            "url": "/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/",
+            "date": "2013-11-16",
+            "year": "2013",
+            "source": "4Gamer.net",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "景山将太"
+              ],
+              "works": [
+                "宝可梦 X·Y"
+              ]
+            }
+          },
+          {
             "id": "35a136c232",
             "title": "专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访",
             "url": "/interview-hobbyconsolas-xy-masuda/",
             "date": "2013-11-06",
             "year": "2013",
             "source": "Hobby Consolas（西班牙最大游戏媒体）",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 X·Y"
+              ]
+            }
+          },
+          {
+            "id": "c01d0ad502",
+            "title": "Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售",
+            "url": "/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/",
+            "date": "2013-11-06",
+            "year": "2013",
+            "source": "La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
@@ -90158,6 +90956,25 @@
             }
           },
           {
+            "id": "7d47069e3e",
+            "title": "4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/",
+            "date": "2013-06-12",
+            "year": "2013",
+            "source": "［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 X·Y"
+              ]
+            }
+          },
+          {
             "id": "67ba87b30e",
             "title": "[GameFreak部长专栏] 第233回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-233/",
@@ -90185,6 +91002,7 @@
         ],
         "annotations": [],
         "years": [
+          "2023",
           "2020",
           "2019",
           "2018",
@@ -90730,6 +91548,25 @@
               ],
               "organizations": [
                 "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "15fdcaca74",
+            "title": "ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿",
+            "url": "/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/",
+            "date": "2015-07-30",
+            "year": "2015",
+            "source": "『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+                "宝可梦 红宝石·蓝宝石"
               ]
             }
           },
@@ -91441,6 +92278,25 @@
             }
           },
           {
+            "id": "fa73051117",
+            "title": "产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/",
+            "date": "2016-09-09",
+            "year": "2016",
+            "source": "【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "宇都宫崇人",
+                "川岛优志"
+              ],
+              "works": [
+                "Pokémon GO"
+              ]
+            }
+          },
+          {
             "id": "8daa8fc01a",
             "title": "【日记】2016年世田谷公园寻化石盔",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-6827320/",
@@ -91525,6 +92381,21 @@
             }
           },
           {
+            "id": "56080b5c86",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈《宝可梦GO》热潮与混乱",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-business-pokemon-go-dangerous-game/",
+            "date": "2016-07-25",
+            "year": "2016",
+            "source": "【ビジネスの裏側】「ポケモンＧＯは危険なゲーム」架空生物に現実世界が大迷惑、開発者も当惑？",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "works": [
+                "Pokémon GO"
+              ]
+            }
+          },
+          {
             "id": "7d2d9fdb27",
             "title": "【日记】2016惠比寿偶遇伊布",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-5298007/",
@@ -91587,6 +92458,43 @@
               "organizations": [
                 "Game Freak",
                 "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "45d9688fb8",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/",
+            "date": "2016-07-22",
+            "year": "2016",
+            "source": "【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "Pokémon GO"
+              ]
+            }
+          },
+          {
+            "id": "3760f0a898",
+            "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO",
+            "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/",
+            "date": "2016-06-16",
+            "year": "2016",
+            "source": "【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 红·绿",
+                "Pokémon GO"
               ]
             }
           },
@@ -91998,24 +92906,21 @@
             }
           },
           {
-            "id": "b8ffc84fc7",
-            "title": "GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）",
-            "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/",
-            "date": "2019-12-11 10:00:00 +0900",
-            "year": "2019",
-            "source": "Game Freak 採用情報 (Wayback 历史存档)",
+            "id": "0f52b617a0",
+            "title": "IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发",
+            "url": "/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/",
+            "date": "2023-03-24",
+            "year": "2023",
+            "source": "『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
               "people": [
-                "Y.I."
+                "渡边敦"
               ],
               "works": [
-                "宝可梦 太阳·月亮",
-                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
-              ],
-              "organizations": [
-                "Game Freak"
+                "宝可梦 X·Y",
+                "宝可梦 太阳·月亮"
               ]
             }
           },
@@ -92061,6 +92966,28 @@
               "organizations": [
                 "Game Freak",
                 "女子美術大学"
+              ]
+            }
+          },
+          {
+            "id": "b8ffc84fc7",
+            "title": "GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）",
+            "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/",
+            "date": "2019-12-11 10:00:00 +0900",
+            "year": "2019",
+            "source": "Game Freak 採用情報 (Wayback 历史存档)",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "Y.I."
+              ],
+              "works": [
+                "宝可梦 太阳·月亮",
+                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+              ],
+              "organizations": [
+                "Game Freak"
               ]
             }
           },
@@ -92208,6 +93135,25 @@
                 "增田顺一"
               ],
               "works": [
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
+            "id": "c68d38bbdc",
+            "title": "はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一",
+            "url": "/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/",
+            "date": "2017-08-09",
+            "year": "2017",
+            "source": "『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿",
                 "宝可梦 太阳·月亮"
               ]
             }
@@ -92438,6 +93384,25 @@
             "entities": {
               "people": [
                 "增田顺一"
+              ],
+              "works": [
+                "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
+            "id": "84498b81e3",
+            "title": "Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/",
+            "date": "2016-12-01",
+            "year": "2016",
+            "source": "Translation: Masuda on Sun & Moon, Pokemon Gray, Z, and Colosseum Sequel",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
               ],
               "works": [
                 "宝可梦 太阳·月亮"
@@ -93948,25 +94913,6 @@
             }
           },
           {
-            "id": "671291cf75",
-            "title": "[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线",
-            "url": "/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/",
-            "date": "2023-08-25",
-            "year": "2023",
-            "source": "［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "前泽圭一"
-              ],
-              "works": [
-                "宝可梦 朱·紫",
-                "宝可梦 剑·盾"
-              ]
-            }
-          },
-          {
             "id": "1b150f6f00",
             "title": "[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎",
             "url": "/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/",
@@ -93989,6 +94935,25 @@
                 "宝可梦 红宝石·蓝宝石",
                 "宝可梦 心金·魂银",
                 "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
+            "id": "671291cf75",
+            "title": "[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线",
+            "url": "/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/",
+            "date": "2023-08-25",
+            "year": "2023",
+            "source": "［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "前泽圭一"
+              ],
+              "works": [
+                "宝可梦 朱·紫",
+                "宝可梦 剑·盾"
               ]
             }
           },
@@ -94222,6 +95187,51 @@
             }
           },
           {
+            "id": "fd5cfd8b56",
+            "title": "GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验",
+            "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/",
+            "date": "2019-12-11 10:00:00 +0900",
+            "year": "2019",
+            "source": "好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "E.K."
+              ],
+              "works": [
+                "宝可梦 太阳·月亮",
+                "宝可梦 剑·盾"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "5d4068f621",
+            "title": "GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界",
+            "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/",
+            "date": "2019-12-11 10:00:00 +0900",
+            "year": "2019",
+            "source": "みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "K.N."
+              ],
+              "works": [
+                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+                "宝可梦 剑·盾"
+              ],
+              "organizations": [
+                "Game Freak",
+                "千葉工業大学"
+              ]
+            }
+          },
+          {
             "id": "d5a5212229",
             "title": "GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来",
             "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-km/",
@@ -94268,28 +95278,6 @@
             }
           },
           {
-            "id": "fd5cfd8b56",
-            "title": "GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验",
-            "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/",
-            "date": "2019-12-11 10:00:00 +0900",
-            "year": "2019",
-            "source": "好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "E.K."
-              ],
-              "works": [
-                "宝可梦 太阳·月亮",
-                "宝可梦 剑·盾"
-              ],
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "38e270b7eb",
             "title": "GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶",
             "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ht/",
@@ -94308,29 +95296,6 @@
               ],
               "organizations": [
                 "Game Freak"
-              ]
-            }
-          },
-          {
-            "id": "5d4068f621",
-            "title": "GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界",
-            "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/",
-            "date": "2019-12-11 10:00:00 +0900",
-            "year": "2019",
-            "source": "みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "K.N."
-              ],
-              "works": [
-                "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
-                "宝可梦 剑·盾"
-              ],
-              "organizations": [
-                "Game Freak",
-                "千葉工業大学"
               ]
             }
           },
@@ -94399,25 +95364,6 @@
             }
           },
           {
-            "id": "fc64df834d",
-            "title": "Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档",
-            "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/",
-            "date": "2019-10-25",
-            "year": "2019",
-            "source": "『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "大森滋"
-              ],
-              "works": [
-                "宝可梦 剑·盾"
-              ]
-            }
-          },
-          {
             "id": "c130b8d1d6",
             "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
             "url": "/interview-famitsu-sword-shield-masuda-ohmori/",
@@ -94435,6 +95381,25 @@
                 "宝可梦 剑·盾",
                 "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
                 "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
+            "id": "fc64df834d",
+            "title": "Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档",
+            "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/",
+            "date": "2019-10-25",
+            "year": "2019",
+            "source": "『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 剑·盾"
               ]
             }
           },
@@ -94465,6 +95430,25 @@
             "date": "2019-10-24",
             "year": "2019",
             "source": "Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "宝可梦 剑·盾"
+              ]
+            }
+          },
+          {
+            "id": "7a90d1807e",
+            "title": "Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议",
+            "url": "/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/",
+            "date": "2019-10-24",
+            "year": "2019",
+            "source": "Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’",
             "type": "interview_translation",
             "excerpt": "",
             "entities": {
@@ -94601,6 +95585,37 @@
           "2022",
           "2021",
           "2020",
+          "2019"
+        ]
+      },
+      "宝可梦 剧场版 超梦的逆袭 EVOLUTION": {
+        "name": "宝可梦 剧场版 超梦的逆袭 EVOLUTION",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/evolution/",
+        "posts": [
+          {
+            "id": "f8f1148045",
+            "title": "CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-cgworld-mewtwo-evolution-3dcg-olm/",
+            "date": "2019-08-29",
+            "year": "2019",
+            "source": "【CG初心者向け】映画『ミュウツーの逆襲 EVOLUTION』3DCG大解剖！",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "那须基仁",
+                "须藤秀希"
+              ],
+              "works": [
+                "宝可梦 剧场版 超梦的逆袭 EVOLUTION"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
           "2019"
         ]
       },
@@ -96981,6 +97996,40 @@
         ],
         "years": [
           "2024"
+        ]
+      },
+      "Pokémon Trading Card Game Pocket": {
+        "name": "Pokémon Trading Card Game Pocket",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/pok-mon-trading-card-game-pocket/",
+        "posts": [
+          {
+            "id": "11371dd1f8",
+            "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+            "date": "2025-08-04",
+            "year": "2025",
+            "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "半田佑马",
+                "山本真史",
+                "广田隆哉",
+                "长屋悟"
+              ],
+              "works": [
+                "Pokémon Trading Card Game Pocket",
+                "宝可梦集换式卡牌游戏"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2025"
         ]
       },
       "Pokémon TCG Pocket": {
@@ -154580,6 +155629,26 @@
           }
         },
         {
+          "id": "c91cfae7d3",
+          "title": "4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作",
+          "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/",
+          "date": "2010-09-03",
+          "year": "2010",
+          "source": "［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "吉田直树",
+              "市村龙太郎",
+              "石原恒和"
+            ],
+            "works": [
+              "宝可梦 黑·白"
+            ]
+          }
+        },
+        {
           "id": "759083cd29",
           "title": "[GameFreak部长专栏] 第174回",
           "url": "/官方博客/game-freak/翻译资料/gamefreak-director-174/",
@@ -159385,6 +160454,24 @@
           }
         },
         {
+          "id": "c01d0ad502",
+          "title": "Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售",
+          "url": "/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/",
+          "date": "2013-11-06",
+          "year": "2013",
+          "source": "La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "works": [
+              "宝可梦 X·Y"
+            ]
+          }
+        },
+        {
           "id": "0c5d661456",
           "title": "Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道",
           "url": "/interview-eurogamer-spain-xy-masuda-yoshida/",
@@ -159819,6 +160906,25 @@
             ],
             "organizations": [
               "Game Freak"
+            ]
+          }
+        },
+        {
+          "id": "7d47069e3e",
+          "title": "4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作",
+          "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/",
+          "date": "2013-06-12",
+          "year": "2013",
+          "source": "［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一",
+              "石原恒和"
+            ],
+            "works": [
+              "宝可梦 X·Y"
             ]
           }
         },
@@ -160401,6 +161507,25 @@
           }
         },
         {
+          "id": "15fdcaca74",
+          "title": "ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿",
+          "url": "/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/",
+          "date": "2015-07-30",
+          "year": "2015",
+          "source": "『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）",
+          "type": "scan_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "大森滋"
+            ],
+            "works": [
+              "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+              "宝可梦 红宝石·蓝宝石"
+            ]
+          }
+        },
+        {
           "id": "2cf50e1f94",
           "title": "宝可梦剧场版官方频道深度专访：总监督汤山邦彦谈〈光轮的超魔神 胡帕〉、传说宝可梦大决战与全设定画精选",
           "url": "/developer-interviews/official-archives/interview-movie18-yuyama-hoopa-model-sheets/",
@@ -160706,6 +161831,25 @@
           }
         },
         {
+          "id": "84498b81e3",
+          "title": "Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作",
+          "url": "/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/",
+          "date": "2016-12-01",
+          "year": "2016",
+          "source": "Translation: Masuda on Sun & Moon, Pokemon Gray, Z, and Colosseum Sequel",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一",
+              "大森滋"
+            ],
+            "works": [
+              "宝可梦 太阳·月亮"
+            ]
+          }
+        },
+        {
           "id": "5cef2cf568",
           "title": "【活动】2016宝可梦太阳月亮原声带",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-9245991/",
@@ -160864,6 +162008,25 @@
           }
         },
         {
+          "id": "b0b5d8926e",
+          "title": "【活动】2016年火箭队入团日",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8198401/",
+          "date": "2016-10-16",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · R",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天　我们为了加入火箭队</div <div class=\"gf-lineblog-line gf-lineblog-line",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
           "id": "f6fdf9d24f",
           "title": "【日记】2016年晴空塔后台",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8216041/",
@@ -160910,25 +162073,6 @@
           "source": "増田順一 公式ブログ · ポケモンセンタースカイツリータウンまもなくサイン会！",
           "type": "gamefreak_masuda_lineblog",
           "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"20周年签名会的最后一场</div <div class=\"gf-lineblog-line gf-lineblog-line",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
-          "id": "b0b5d8926e",
-          "title": "【活动】2016年火箭队入团日",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8198401/",
-          "date": "2016-10-16",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · R",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天　我们为了加入火箭队</div <div class=\"gf-lineblog-line gf-lineblog-line",
           "entities": {
             "people": [
               "增田顺一"
@@ -161165,6 +162309,25 @@
             "organizations": [
               "Game Freak",
               "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "fa73051117",
+          "title": "产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发",
+          "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/",
+          "date": "2016-09-09",
+          "year": "2016",
+          "source": "【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "宇都宫崇人",
+              "川岛优志"
+            ],
+            "works": [
+              "Pokémon GO"
             ]
           }
         },
@@ -161531,6 +162694,21 @@
           }
         },
         {
+          "id": "56080b5c86",
+          "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈《宝可梦GO》热潮与混乱",
+          "url": "/访谈翻译/翻译/访谈整理/interview-sankei-business-pokemon-go-dangerous-game/",
+          "date": "2016-07-25",
+          "year": "2016",
+          "source": "【ビジネスの裏側】「ポケモンＧＯは危険なゲーム」架空生物に現実世界が大迷惑、開発者も当惑？",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "works": [
+              "Pokémon GO"
+            ]
+          }
+        },
+        {
           "id": "7d2d9fdb27",
           "title": "【日记】2016惠比寿偶遇伊布",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-5298007/",
@@ -161571,6 +162749,24 @@
             "organizations": [
               "Game Freak",
               "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "45d9688fb8",
+          "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想",
+          "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/",
+          "date": "2016-07-22",
+          "year": "2016",
+          "source": "【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "石原恒和"
+            ],
+            "works": [
+              "Pokémon GO"
             ]
           }
         },
@@ -161866,6 +163062,25 @@
           }
         },
         {
+          "id": "8af4006c50",
+          "title": "【日记】2016年发型变身",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4619388/",
+          "date": "2016-07-01",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · 変身",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"7月</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"在",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
           "id": "eff4fe15b3",
           "title": "【活动】2016年宝可梦太阳月亮采访",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4626007/",
@@ -161880,25 +163095,6 @@
             ],
             "works": [
               "宝可梦 太阳·月亮"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
-          "id": "8af4006c50",
-          "title": "【日记】2016年发型变身",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4619388/",
-          "date": "2016-07-01",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · 変身",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"7月</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"在",
-          "entities": {
-            "people": [
-              "增田顺一"
             ],
             "organizations": [
               "Game Freak",
@@ -162239,21 +163435,21 @@
           }
         },
         {
-          "id": "69b3c7dce7",
-          "title": "【活动】2016年宝可梦GO亮相E3",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4216408/",
+          "id": "3760f0a898",
+          "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO",
+          "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/",
           "date": "2016-06-16",
           "year": "2016",
-          "source": "増田順一 公式ブログ · Pokémon GO",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 日本时间凌晨2点播出的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"Treehouse Live @ E3</div <div class=\"gf-lineblog-li",
+          "source": "【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー",
+          "type": "interview_translation",
+          "excerpt": "",
           "entities": {
             "people": [
-              "增田顺一"
+              "石原恒和"
             ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
+            "works": [
+              "宝可梦 红·绿",
+              "Pokémon GO"
             ]
           }
         },
@@ -162288,6 +163484,47 @@
           "entities": {
             "people": [
               "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "69b3c7dce7",
+          "title": "【活动】2016年宝可梦GO亮相E3",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4216408/",
+          "date": "2016-06-16",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · Pokémon GO",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 日本时间凌晨2点播出的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"Treehouse Live @ E3</div <div class=\"gf-lineblog-li",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "7019016e32",
+          "title": "【活动】2016宝可梦日月美国展会现场",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4185470/",
+          "date": "2016-06-15",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · ポケモン サン・ムーン 新情報 @ E3！",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp\" target=\"blank\" rel=\"n",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "works": [
+              "宝可梦 太阳·月亮"
             ],
             "organizations": [
               "Game Freak",
@@ -162356,28 +163593,6 @@
           }
         },
         {
-          "id": "7019016e32",
-          "title": "【活动】2016宝可梦日月美国展会现场",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4185470/",
-          "date": "2016-06-15",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · ポケモン サン・ムーン 新情報 @ E3！",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp\" target=\"blank\" rel=\"n",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "works": [
-              "宝可梦 太阳·月亮"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
           "id": "eab4a92293",
           "title": "【日记】2016年宝可梦现场彩排",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4150839/",
@@ -162386,6 +163601,25 @@
           "source": "増田順一 公式ブログ · Rehearsal Day （リハーサル日）",
           "type": "gamefreak_masuda_lineblog",
           "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"今天从一大早到晚上</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"宝可梦 太阳·月亮和</div <div class=\"gf-lineblog-line gf-lineblog-",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "654e49a966",
+          "title": "【日记】2016年台湾到旧金山",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4122260/",
+          "date": "2016-06-13",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · 長い日曜日",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4122260/001-fc18416810.webp\" target=\"blank\" rel=\"n",
           "entities": {
             "people": [
               "增田顺一"
@@ -162416,14 +163650,14 @@
           }
         },
         {
-          "id": "654e49a966",
-          "title": "【日记】2016年台湾到旧金山",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4122260/",
-          "date": "2016-06-13",
+          "id": "8563489094",
+          "title": "【活动】2016台湾宝可梦全国联赛",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4073542/",
+          "date": "2016-06-12",
           "year": "2016",
-          "source": "増田順一 公式ブログ · 長い日曜日",
+          "source": "増田順一 公式ブログ · 台湾:シークレットゲスト",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4122260/001-fc18416810.webp\" target=\"blank\" rel=\"n",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4073542/001-09000beaa2.webp\" target=\"blank\" rel=\"n",
           "entities": {
             "people": [
               "增田顺一"
@@ -162473,25 +163707,6 @@
           }
         },
         {
-          "id": "8563489094",
-          "title": "【活动】2016台湾宝可梦全国联赛",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4073542/",
-          "date": "2016-06-12",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · 台湾:シークレットゲスト",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4073542/001-09000beaa2.webp\" target=\"blank\" rel=\"n",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
           "id": "bdc20455db",
           "title": "【活动】2016宝可梦交响音乐会",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4062329/",
@@ -162530,6 +163745,25 @@
           }
         },
         {
+          "id": "65de00ec0f",
+          "title": "【活动】2016横滨皮卡丘大量出现",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4031356/",
+          "date": "2016-06-09",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · ぬれる？",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
           "id": "66bb5a9104",
           "title": "【活动】2016年洛杉矶宝可梦E3",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3891134/",
@@ -162552,14 +163786,14 @@
           }
         },
         {
-          "id": "65de00ec0f",
-          "title": "【活动】2016横滨皮卡丘大量出现",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4031356/",
-          "date": "2016-06-09",
+          "id": "a005196164",
+          "title": "【活动】2016宝可梦总选举结果公布",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3991437/",
+          "date": "2016-06-08",
           "year": "2016",
-          "source": "増田順一 公式ブログ · ぬれる？",
+          "source": "増田順一 公式ブログ · 総選挙720結果発表セレモニー",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"都",
           "entities": {
             "people": [
               "增田顺一"
@@ -162579,25 +163813,6 @@
           "source": "増田順一 公式ブログ · 「ゲームフリーク ゼミナール」開催します！",
           "type": "gamefreak_masuda_lineblog",
           "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"告诉大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一个消息！</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
-          "id": "a005196164",
-          "title": "【活动】2016宝可梦总选举结果公布",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3991437/",
-          "date": "2016-06-08",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · 総選挙720結果発表セレモニー",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"都",
           "entities": {
             "people": [
               "增田顺一"
@@ -162688,14 +163903,14 @@
           }
         },
         {
-          "id": "e599c16476",
-          "title": "【活动】2016札幌宝可梦中心",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3921825/",
+          "id": "f0059e4fb3",
+          "title": "【活动】2016年新千岁机场宝可梦商店",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3939372/",
           "date": "2016-06-05",
           "year": "2016",
-          "source": "増田順一 公式ブログ · ポケモンセンターサッポロ（控室）",
+          "source": "増田順一 公式ブログ · ポケモンストア新千歳空港店",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"这次的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"居然！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
           "entities": {
             "people": [
               "增田顺一"
@@ -162707,14 +163922,14 @@
           }
         },
         {
-          "id": "f0059e4fb3",
-          "title": "【活动】2016年新千岁机场宝可梦商店",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3939372/",
+          "id": "e599c16476",
+          "title": "【活动】2016札幌宝可梦中心",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3921825/",
           "date": "2016-06-05",
           "year": "2016",
-          "source": "増田順一 公式ブログ · ポケモンストア新千歳空港店",
+          "source": "増田順一 公式ブログ · ポケモンセンターサッポロ（控室）",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"居然！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"这次的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
           "entities": {
             "people": [
               "增田顺一"
@@ -163096,21 +164311,17 @@
           }
         },
         {
-          "id": "6be0aeaad6",
-          "title": "【日记】2016皇居月光浴",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3654479/",
+          "id": "6c763af849",
+          "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈智能手机游戏全球展开与AI",
+          "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-smartphone-global-ai/",
           "date": "2016-05-24",
           "year": "2016",
-          "source": "増田順一 公式ブログ · 皇居で月光浴！",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"因为工作的关系</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+          "source": "ポケモン、スマホ向けの世界展開目指す　社長インタビュー　ＡＩで新しい遊び方を提案",
+          "type": "interview_translation",
+          "excerpt": "",
           "entities": {
             "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
+              "石原恒和"
             ]
           }
         },
@@ -163123,6 +164334,25 @@
           "source": "増田順一 公式ブログ · 博多中洲",
           "type": "gamefreak_masuda_lineblog",
           "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"今天是会餐</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"美味的肉！</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "6be0aeaad6",
+          "title": "【日记】2016皇居月光浴",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3654479/",
+          "date": "2016-05-24",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · 皇居で月光浴！",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"因为工作的关系</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
           "entities": {
             "people": [
               "增田顺一"
@@ -163254,25 +164484,6 @@
           }
         },
         {
-          "id": "5c906164f4",
-          "title": "【日记】2016年海边偶遇海鸥",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3556962/",
-          "date": "2016-05-19",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · カモメ（Seagull runaway!）",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"太可爱了！</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
           "id": "544606632a",
           "title": "【日记】2016旧金山海鲜午餐",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3565626/",
@@ -163292,14 +164503,14 @@
           }
         },
         {
-          "id": "4bbf916b0a",
-          "title": "【日记】2016年旧金山为戴维庆生",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3538077/",
-          "date": "2016-05-18",
+          "id": "5c906164f4",
+          "title": "【日记】2016年海边偶遇海鸥",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3556962/",
+          "date": "2016-05-19",
           "year": "2016",
-          "source": "増田順一 公式ブログ · おめでとう！",
+          "source": "増田順一 公式ブログ · カモメ（Seagull runaway!）",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一直在舞台和采访等场合</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"太可爱了！</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
           "entities": {
             "people": [
               "增田顺一"
@@ -163319,6 +164530,25 @@
           "source": "増田順一 公式ブログ · 路面電車（Tram）",
           "type": "gamefreak_masuda_lineblog",
           "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"工作的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "4bbf916b0a",
+          "title": "【日记】2016年旧金山为戴维庆生",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3538077/",
+          "date": "2016-05-18",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · おめでとう！",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一直在舞台和采访等场合</div <div class=\"gf-lineblog-line gf-lineblog-line-",
           "entities": {
             "people": [
               "增田顺一"
@@ -163387,25 +164617,6 @@
           }
         },
         {
-          "id": "178c503af0",
-          "title": "【活动】2016年宝可梦中心东北",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3470766/",
-          "date": "2016-05-15",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · ポケモンセンタートウホク来たよ！",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"宝可梦中心东北店</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
           "id": "31f906732b",
           "title": "【活动】2016年仙台宝可梦中心",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3476333/",
@@ -163447,6 +164658,44 @@
           }
         },
         {
+          "id": "178c503af0",
+          "title": "【活动】2016年宝可梦中心东北",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3470766/",
+          "date": "2016-05-15",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · ポケモンセンタートウホク来たよ！",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"宝可梦中心东北店</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
+          "id": "5b7b0e6957",
+          "title": "【活动】2016年东京湾宝可梦中心签名会",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3457903/",
+          "date": "2016-05-14",
+          "year": "2016",
+          "source": "増田順一 公式ブログ · ポケモンセンタートウキョーベイ",
+          "type": "gamefreak_masuda_lineblog",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天 增田签名会举行啦！ <br 今天也是“替身”周边的 发售日， 当然，可达鸭也有很多！ <br <figure class",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "organizations": [
+              "Game Freak",
+              "LINE BLOG"
+            ]
+          }
+        },
+        {
           "id": "5eedfcf1d1",
           "title": "【日记】2016年虎鲸训练师",
           "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3463490/",
@@ -163474,25 +164723,6 @@
           "source": "増田順一 公式ブログ · みがわりな控室",
           "type": "gamefreak_masuda_lineblog",
           "excerpt": "<br 今天 增田的签名会 在宝可梦中心东京湾 举行啦！ <br <br 今天也是 “替身”主题商品的 发售日…… <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3458953/001-659570d1cb.webp\" target=\"blank",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "organizations": [
-              "Game Freak",
-              "LINE BLOG"
-            ]
-          }
-        },
-        {
-          "id": "5b7b0e6957",
-          "title": "【活动】2016年东京湾宝可梦中心签名会",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3457903/",
-          "date": "2016-05-14",
-          "year": "2016",
-          "source": "増田順一 公式ブログ · ポケモンセンタートウキョーベイ",
-          "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天 增田签名会举行啦！ <br 今天也是“替身”周边的 发售日， 当然，可达鸭也有很多！ <br <figure class",
           "entities": {
             "people": [
               "增田顺一"
@@ -163696,14 +164926,14 @@
           }
         },
         {
-          "id": "6740723fd6",
-          "title": "【日记】2016母亲节寄语",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3340075/",
+          "id": "1fa8f9f9de",
+          "title": "【活动】2016克罗地亚音乐会",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3343483/",
           "date": "2016-05-08",
           "year": "2016",
-          "source": "増田順一 公式ブログ · Happy Mother's Day!",
+          "source": "増田順一 公式ブログ · Croatia Music!",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"母亲节</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 天才钢琴家 安达君邀请我 去听了 克罗地亚音乐会！ <br <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3343483/001-",
           "entities": {
             "people": [
               "增田顺一"
@@ -163715,14 +164945,14 @@
           }
         },
         {
-          "id": "1fa8f9f9de",
-          "title": "【活动】2016克罗地亚音乐会",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3343483/",
+          "id": "6740723fd6",
+          "title": "【日记】2016母亲节寄语",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3340075/",
           "date": "2016-05-08",
           "year": "2016",
-          "source": "増田順一 公式ブログ · Croatia Music!",
+          "source": "増田順一 公式ブログ · Happy Mother's Day!",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 天才钢琴家 安达君邀请我 去听了 克罗地亚音乐会！ <br <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3343483/001-",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"母亲节</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
           "entities": {
             "people": [
               "增田顺一"
@@ -163832,14 +165062,14 @@
           }
         },
         {
-          "id": "e3c5fe5412",
-          "title": "【日记】世界各地的斑马线",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/",
+          "id": "39372f299f",
+          "title": "【日记】2016暖地板上的猫",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/",
           "date": "2016-05-03",
           "year": "2016",
-          "source": "増田順一 公式ブログ · ヨコシマ",
+          "source": "増田順一 公式ブログ · にゃ？！",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"查",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp\" target=\"blank\" rel=\"n",
           "entities": {
             "people": [
               "增田顺一"
@@ -163851,14 +165081,14 @@
           }
         },
         {
-          "id": "39372f299f",
-          "title": "【日记】2016暖地板上的猫",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/",
+          "id": "e3c5fe5412",
+          "title": "【日记】世界各地的斑马线",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/",
           "date": "2016-05-03",
           "year": "2016",
-          "source": "増田順一 公式ブログ · にゃ？！",
+          "source": "増田順一 公式ブログ · ヨコシマ",
           "type": "gamefreak_masuda_lineblog",
-          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp\" target=\"blank\" rel=\"n",
+          "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"查",
           "entities": {
             "people": [
               "增田顺一"
@@ -165474,6 +166704,25 @@
           }
         },
         {
+          "id": "c68d38bbdc",
+          "title": "はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一",
+          "url": "/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/",
+          "date": "2017-08-09",
+          "year": "2017",
+          "source": "『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "works": [
+              "宝可梦 红·绿",
+              "宝可梦 太阳·月亮"
+            ]
+          }
+        },
+        {
           "id": "a9b1fa7d33",
           "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
           "url": "/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/",
@@ -167068,6 +168317,25 @@
           }
         },
         {
+          "id": "fc64df834d",
+          "title": "Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档",
+          "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/",
+          "date": "2019-10-25",
+          "year": "2019",
+          "source": "『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一",
+              "大森滋"
+            ],
+            "works": [
+              "宝可梦 剑·盾"
+            ]
+          }
+        },
+        {
           "id": "c130b8d1d6",
           "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
           "url": "/interview-famitsu-sword-shield-masuda-ohmori/",
@@ -167089,12 +168357,31 @@
           }
         },
         {
-          "id": "fc64df834d",
-          "title": "Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档",
-          "url": "/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/",
-          "date": "2019-10-25",
+          "id": "be0981d6ab",
+          "title": "Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》",
+          "url": "/访谈翻译/翻译/访谈整理/interview-gi-2019-champion/",
+          "date": "2019-10-24",
           "year": "2019",
-          "source": "『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー",
+          "source": "Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一",
+              "大森滋"
+            ],
+            "works": [
+              "宝可梦 剑·盾"
+            ]
+          }
+        },
+        {
+          "id": "7a90d1807e",
+          "title": "Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议",
+          "url": "/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/",
+          "date": "2019-10-24",
+          "year": "2019",
+          "source": "Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’",
           "type": "interview_translation",
           "excerpt": "",
           "entities": {
@@ -167168,25 +168455,6 @@
           }
         },
         {
-          "id": "be0981d6ab",
-          "title": "Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》",
-          "url": "/访谈翻译/翻译/访谈整理/interview-gi-2019-champion/",
-          "date": "2019-10-24",
-          "year": "2019",
-          "source": "Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More",
-          "type": "interview_translation",
-          "excerpt": "",
-          "entities": {
-            "people": [
-              "增田顺一",
-              "大森滋"
-            ],
-            "works": [
-              "宝可梦 剑·盾"
-            ]
-          }
-        },
-        {
           "id": "16aac06535",
           "title": "VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议",
           "url": "/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/",
@@ -167221,6 +168489,25 @@
             ],
             "works": [
               "宝可梦 剑·盾"
+            ]
+          }
+        },
+        {
+          "id": "f8f1148045",
+          "title": "CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作",
+          "url": "/访谈翻译/翻译/访谈整理/interview-cgworld-mewtwo-evolution-3dcg-olm/",
+          "date": "2019-08-29",
+          "year": "2019",
+          "source": "【CG初心者向け】映画『ミュウツーの逆襲 EVOLUTION』3DCG大解剖！",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "那须基仁",
+              "须藤秀希"
+            ],
+            "works": [
+              "宝可梦 剧场版 超梦的逆袭 EVOLUTION"
             ]
           }
         },
@@ -167278,6 +168565,24 @@
             ],
             "works": [
               "宝可梦 剑·盾"
+            ]
+          }
+        },
+        {
+          "id": "583e1a0686",
+          "title": "JDN（设计情报网站） 2019：插画师有田满弘谈宝可梦卡牌的余白与玩心",
+          "url": "/访谈翻译/翻译/访谈整理/interview-jdn-arita-pokemon-card-illustrator/",
+          "date": "2019-02-12",
+          "year": "2019",
+          "source": "イラストレーター・有田満弘が語る、ポケモンカードゲームの余白と遊び",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "有田满弘"
+            ],
+            "works": [
+              "宝可梦集换式卡牌游戏"
             ]
           }
         }
@@ -168453,6 +169758,21 @@
           "entities": {}
         },
         {
+          "id": "9265c44aa9",
+          "title": "Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力",
+          "url": "/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/",
+          "date": "2025-12-09",
+          "year": "2025",
+          "source": "ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "works": [
+              "宝可梦集换式卡牌游戏"
+            ]
+          }
+        },
+        {
           "id": "1dc21a7fcc",
           "title": "Creatures 招聘网站：背景模型师 T.T. 谈《名侦探皮卡丘》的世界观",
           "url": "/访谈翻译/官方档案/interview-creatures-recruit-cg-environment-artist/",
@@ -168490,41 +169810,6 @@
           }
         },
         {
-          "id": "9265c44aa9",
-          "title": "Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力",
-          "url": "/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/",
-          "date": "2025-12-09",
-          "year": "2025",
-          "source": "ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる",
-          "type": "interview_translation",
-          "excerpt": "",
-          "entities": {
-            "works": [
-              "宝可梦集换式卡牌游戏"
-            ]
-          }
-        },
-        {
-          "id": "b6008c08f2",
-          "title": "Creatures 招聘网站：宝可梦卡牌开发本部管理层对谈",
-          "url": "/访谈翻译/官方档案/interview-creatures-recruit-card-management-cross-talk/",
-          "date": "2025-12-06",
-          "year": "2025",
-          "source": "ポケモンカード開発本部管理職対談：本気のモノづくりに、チームで挑む",
-          "type": "interview_translation",
-          "excerpt": "",
-          "entities": {
-            "people": [
-              "N.A.",
-              "N.S.",
-              "O.K."
-            ],
-            "works": [
-              "宝可梦集换式卡牌游戏"
-            ]
-          }
-        },
-        {
           "id": "add3dfe0f3",
           "title": "Creatures 招聘网站：声音创作者 M.H. 谈《宝可梦集换式卡牌游戏 Pocket》的声音",
           "url": "/访谈翻译/官方档案/interview-creatures-recruit-sound-creator/",
@@ -168551,6 +169836,26 @@
           "entities": {
             "people": [
               "氏家淳子"
+            ]
+          }
+        },
+        {
+          "id": "b6008c08f2",
+          "title": "Creatures 招聘网站：宝可梦卡牌开发本部管理层对谈",
+          "url": "/访谈翻译/官方档案/interview-creatures-recruit-card-management-cross-talk/",
+          "date": "2025-12-06",
+          "year": "2025",
+          "source": "ポケモンカード開発本部管理職対談：本気のモノづくりに、チームで挑む",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "N.A.",
+              "N.S.",
+              "O.K."
+            ],
+            "works": [
+              "宝可梦集换式卡牌游戏"
             ]
           }
         },
@@ -168597,6 +169902,28 @@
           "type": "interview_translation",
           "excerpt": "",
           "entities": {}
+        },
+        {
+          "id": "11371dd1f8",
+          "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+          "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+          "date": "2025-08-04",
+          "year": "2025",
+          "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "半田佑马",
+              "山本真史",
+              "广田隆哉",
+              "长屋悟"
+            ],
+            "works": [
+              "Pokémon Trading Card Game Pocket",
+              "宝可梦集换式卡牌游戏"
+            ]
+          }
         },
         {
           "id": "172c739281",
@@ -169015,6 +170342,25 @@
           }
         },
         {
+          "id": "0f52b617a0",
+          "title": "IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发",
+          "url": "/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/",
+          "date": "2023-03-24",
+          "year": "2023",
+          "source": "『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "渡边敦"
+            ],
+            "works": [
+              "宝可梦 X·Y",
+              "宝可梦 太阳·月亮"
+            ]
+          }
+        },
+        {
           "id": "4a0a04dce3",
           "title": "株式会社宝可梦中心 官方招聘访谈 01：代表取缔役社长 上乡赖臣 × 执行役员 山冈梢",
           "url": "/官方档案/访谈翻译/interview-pokemon-center-president-kamigo-yamaoka/",
@@ -169313,6 +170659,24 @@
           "type": "interview_translation",
           "excerpt": "",
           "entities": {}
+        },
+        {
+          "id": "6134ce6868",
+          "title": "产经新闻（産経ニュース） 2026：宝可梦30年 株式会社宝可梦社长石原恒和谈虚拟与现实融合",
+          "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-30th/",
+          "date": "2026-03-26",
+          "year": "2026",
+          "source": "ポケモンは今年で30年　仮想と現実の融合を目指す、唯一無二のブランド　株式会社ポケモン石原恒和社長インタビュー",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "石原恒和"
+            ],
+            "works": [
+              "宝可梦 红·绿"
+            ]
+          }
         },
         {
           "id": "353aafcb1e",
@@ -180602,6 +181966,26 @@
       }
     },
     {
+      "id": "c91cfae7d3",
+      "title": "4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作",
+      "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-cedec-2010-ishihara-ichimura/",
+      "date": "2010-09-03",
+      "year": "2010",
+      "source": "［CEDEC 2010］「ドラクエ」や「ポケモン」はなぜバカ売れするのか。それぞれの関係者を招いた特別セッション「人を楽しませるプロデュース」をレポート",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "吉田直树",
+          "市村龙太郎",
+          "石原恒和"
+        ],
+        "works": [
+          "宝可梦 黑·白"
+        ]
+      }
+    },
+    {
       "id": "3d1fac39b7",
       "title": "[GameFreak部长专栏] 第175回",
       "url": "/官方博客/game-freak/翻译资料/gamefreak-director-175/",
@@ -184456,6 +185840,25 @@
       }
     },
     {
+      "id": "7d47069e3e",
+      "title": "4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作",
+      "url": "/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/",
+      "date": "2013-06-12",
+      "year": "2013",
+      "source": "［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "增田顺一",
+          "石原恒和"
+        ],
+        "works": [
+          "宝可梦 X·Y"
+        ]
+      }
+    },
+    {
       "id": "c53069e044",
       "title": "[GameFreak部长专栏] 第237回",
       "url": "/官方博客/game-freak/翻译资料/gamefreak-director-237/",
@@ -184900,6 +186303,24 @@
       "date": "2013-11-06",
       "year": "2013",
       "source": "Hobby Consolas（西班牙最大游戏媒体）",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "增田顺一"
+        ],
+        "works": [
+          "宝可梦 X·Y"
+        ]
+      }
+    },
+    {
+      "id": "c01d0ad502",
+      "title": "Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售",
+      "url": "/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/",
+      "date": "2013-11-06",
+      "year": "2013",
+      "source": "La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto",
       "type": "interview_translation",
       "excerpt": "",
       "entities": {
@@ -185374,6 +186795,25 @@
         "works": [
           "宝可梦 剧场版 光轮的超魔神 胡帕",
           "宝可梦 动画系列"
+        ]
+      }
+    },
+    {
+      "id": "15fdcaca74",
+      "title": "ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿",
+      "url": "/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/",
+      "date": "2015-07-30",
+      "year": "2015",
+      "source": "『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）",
+      "type": "scan_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "大森滋"
+        ],
+        "works": [
+          "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+          "宝可梦 红宝石·蓝宝石"
         ]
       }
     },
@@ -187429,6 +188869,21 @@
       }
     },
     {
+      "id": "6c763af849",
+      "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈智能手机游戏全球展开与AI",
+      "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-smartphone-global-ai/",
+      "date": "2016-05-24",
+      "year": "2016",
+      "source": "ポケモン、スマホ向けの世界展開目指す　社長インタビュー　ＡＩで新しい遊び方を提案",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "石原恒和"
+        ]
+      }
+    },
+    {
       "id": "c258d6f89a",
       "title": "【活动】2016年宝可梦GO现场测试",
       "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3688526/",
@@ -188286,6 +189741,25 @@
       }
     },
     {
+      "id": "3760f0a898",
+      "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO",
+      "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/",
+      "date": "2016-06-16",
+      "year": "2016",
+      "source": "【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "石原恒和"
+        ],
+        "works": [
+          "宝可梦 红·绿",
+          "Pokémon GO"
+        ]
+      }
+    },
+    {
       "id": "cbfe3fbbae",
       "title": "【日记】2016年台湾伴手礼",
       "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4245921/",
@@ -188950,6 +190424,24 @@
       }
     },
     {
+      "id": "45d9688fb8",
+      "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想",
+      "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/",
+      "date": "2016-07-22",
+      "year": "2016",
+      "source": "【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "石原恒和"
+        ],
+        "works": [
+          "Pokémon GO"
+        ]
+      }
+    },
+    {
       "id": "19b535016c",
       "title": "【日记】2016年宝可梦开始游玩",
       "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-5235956/",
@@ -189013,6 +190505,21 @@
         "organizations": [
           "Game Freak",
           "LINE BLOG"
+        ]
+      }
+    },
+    {
+      "id": "56080b5c86",
+      "title": "产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈《宝可梦GO》热潮与混乱",
+      "url": "/访谈翻译/翻译/访谈整理/interview-sankei-business-pokemon-go-dangerous-game/",
+      "date": "2016-07-25",
+      "year": "2016",
+      "source": "【ビジネスの裏側】「ポケモンＧＯは危険なゲーム」架空生物に現実世界が大迷惑、開発者も当惑？",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "works": [
+          "Pokémon GO"
         ]
       }
     },
@@ -189352,6 +190859,25 @@
         "organizations": [
           "Game Freak",
           "LINE BLOG"
+        ]
+      }
+    },
+    {
+      "id": "fa73051117",
+      "title": "产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发",
+      "url": "/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/",
+      "date": "2016-09-09",
+      "year": "2016",
+      "source": "【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "宇都宫崇人",
+          "川岛优志"
+        ],
+        "works": [
+          "Pokémon GO"
         ]
       }
     },
@@ -189815,6 +191341,25 @@
         "organizations": [
           "Game Freak",
           "LINE BLOG"
+        ]
+      }
+    },
+    {
+      "id": "84498b81e3",
+      "title": "Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作",
+      "url": "/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/",
+      "date": "2016-12-01",
+      "year": "2016",
+      "source": "Translation: Masuda on Sun & Moon, Pokemon Gray, Z, and Colosseum Sequel",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "增田顺一",
+          "大森滋"
+        ],
+        "works": [
+          "宝可梦 太阳·月亮"
         ]
       }
     },
@@ -190776,6 +192321,25 @@
       }
     },
     {
+      "id": "c68d38bbdc",
+      "title": "はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一",
+      "url": "/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/",
+      "date": "2017-08-09",
+      "year": "2017",
+      "source": "『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "增田顺一"
+        ],
+        "works": [
+          "宝可梦 红·绿",
+          "宝可梦 太阳·月亮"
+        ]
+      }
+    },
+    {
       "id": "95a407ecf1",
       "title": "Game Informer 独家特写：Game Freak 是如何设计宝可梦的？——杉森建与增田顺一深度复盘生物设计法则、评审委员会机制与 3D 演进",
       "url": "/访谈翻译/角色设计/开发历史/interview-gameinformer-how-game-freak-designs-pokemon-creatures/",
@@ -191689,6 +193253,24 @@
       }
     },
     {
+      "id": "583e1a0686",
+      "title": "JDN（设计情报网站） 2019：插画师有田满弘谈宝可梦卡牌的余白与玩心",
+      "url": "/访谈翻译/翻译/访谈整理/interview-jdn-arita-pokemon-card-illustrator/",
+      "date": "2019-02-12",
+      "year": "2019",
+      "source": "イラストレーター・有田満弘が語る、ポケモンカードゲームの余白と遊び",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "有田满弘"
+        ],
+        "works": [
+          "宝可梦集换式卡牌游戏"
+        ]
+      }
+    },
+    {
       "id": "b8ffc84fc7",
       "title": "GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）",
       "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/",
@@ -191790,6 +193372,25 @@
       }
     },
     {
+      "id": "f8f1148045",
+      "title": "CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作",
+      "url": "/访谈翻译/翻译/访谈整理/interview-cgworld-mewtwo-evolution-3dcg-olm/",
+      "date": "2019-08-29",
+      "year": "2019",
+      "source": "【CG初心者向け】映画『ミュウツーの逆襲 EVOLUTION』3DCG大解剖！",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "那须基仁",
+          "须藤秀希"
+        ],
+        "works": [
+          "宝可梦 剧场版 超梦的逆袭 EVOLUTION"
+        ]
+      }
+    },
+    {
       "id": "84926ead66",
       "title": "Game Informer 2019：增田顺一谈《宝可梦 剑·盾》图鉴削减与未来回归",
       "url": "/访谈翻译/翻译/访谈整理/interview-gi-2019-dexit/",
@@ -191876,6 +193477,25 @@
       "date": "2019-10-24",
       "year": "2019",
       "source": "Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "增田顺一",
+          "大森滋"
+        ],
+        "works": [
+          "宝可梦 剑·盾"
+        ]
+      }
+    },
+    {
+      "id": "7a90d1807e",
+      "title": "Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议",
+      "url": "/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/",
+      "date": "2019-10-24",
+      "year": "2019",
+      "source": "Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’",
       "type": "interview_translation",
       "excerpt": "",
       "entities": {
@@ -193055,6 +194675,25 @@
       }
     },
     {
+      "id": "0f52b617a0",
+      "title": "IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发",
+      "url": "/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/",
+      "date": "2023-03-24",
+      "year": "2023",
+      "source": "『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "渡边敦"
+        ],
+        "works": [
+          "宝可梦 X·Y",
+          "宝可梦 太阳·月亮"
+        ]
+      }
+    },
+    {
       "id": "dd7d2cbd91",
       "title": "CGWORLD.jp 2023：Creatures 谈《宝可梦 朱·紫》动画制作",
       "url": "/访谈翻译/翻译/访谈整理/interview-cgworld-2023-sv-making-1/",
@@ -193812,6 +195451,28 @@
       "entities": {}
     },
     {
+      "id": "11371dd1f8",
+      "title": "ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作",
+      "url": "/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/",
+      "date": "2025-08-04",
+      "year": "2025",
+      "source": "紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "半田佑马",
+          "山本真史",
+          "广田隆哉",
+          "长屋悟"
+        ],
+        "works": [
+          "Pokémon Trading Card Game Pocket",
+          "宝可梦集换式卡牌游戏"
+        ]
+      }
+    },
+    {
       "id": "e1d60babfa",
       "title": "株式会社宝可梦 官方专题 41：行动生态学解读宝可梦生态图鉴——米原善成与きのしたちひろ访谈",
       "url": "/官方档案/专题报道/corporate-topic-41-pokemon-ecology-illustrated-book/",
@@ -194051,6 +195712,24 @@
       "type": "interview_translation",
       "excerpt": "",
       "entities": {}
+    },
+    {
+      "id": "6134ce6868",
+      "title": "产经新闻（産経ニュース） 2026：宝可梦30年 株式会社宝可梦社长石原恒和谈虚拟与现实融合",
+      "url": "/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-30th/",
+      "date": "2026-03-26",
+      "year": "2026",
+      "source": "ポケモンは今年で30年　仮想と現実の融合を目指す、唯一無二のブランド　株式会社ポケモン石原恒和社長インタビュー",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "石原恒和"
+        ],
+        "works": [
+          "宝可梦 红·绿"
+        ]
+      }
     },
     {
       "id": "4cef0e512a",

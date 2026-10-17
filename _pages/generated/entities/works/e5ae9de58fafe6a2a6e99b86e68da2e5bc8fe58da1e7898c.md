@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦集换式卡牌游戏</h2>
-    <span>17 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
+    <span>19 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2019 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -33,6 +33,12 @@ search: false
 <article class="resource-network-card">
   <p>2025 · interview_translation · ポケモンカード開発本部管理職対談：本気のモノづくりに、チームで挑む</p>
   <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-management-cross-talk/">Creatures 招聘网站：宝可梦卡牌开发本部管理层对谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2025 · interview_translation · 紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/">ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作</a></h3>
   <span></span>
 </article>
 
@@ -63,6 +69,12 @@ search: false
 <article class="resource-network-card">
   <p>2021 · interview_translation · 「ポケモン」新たな遊び開拓続けた25年　石原恒和社長、核“人との繋がり”に手応え</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-oricon-2021-ishihara-25th/">ORICON NEWS 2021：宝可梦25周年 石原恒和谈人与人的联系</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · イラストレーター・有田満弘が語る、ポケモンカードゲームの余白と遊び</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-jdn-arita-pokemon-card-illustrator/">JDN（设计情报网站） 2019：插画师有田满弘谈宝可梦卡牌的余白与玩心</a></h3>
   <span></span>
 </article>
 

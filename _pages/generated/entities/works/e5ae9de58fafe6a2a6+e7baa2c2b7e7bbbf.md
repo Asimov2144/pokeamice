@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>118 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
+    <span>121 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2026 · interview_translation · 电击 Online 30周年纪念专栏</p>
   <h3><a href="/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/">与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2026 · interview_translation · ポケモンは今年で30年　仮想と現実の融合を目指す、唯一無二のブランド　株式会社ポケモン石原恒和社長インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-30th/">产经新闻（産経ニュース） 2026：宝可梦30年 株式会社宝可梦社长石原恒和谈虚拟与现实融合</a></h3>
   <span></span>
 </article>
 
@@ -145,6 +151,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · 『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/">はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ゲーム音楽会！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-7296420/">【活动】2016宝可梦游戏音乐会</a></h3>
   <span>&lt;br &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;东京铜管乐团&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;与&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--ce</span>
@@ -160,6 +172,12 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 取材</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4991670/">【活动】2016年宝可梦音乐与攻略采访</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;接受了两次采访！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--ce</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · 【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/">产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -235,6 +253,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
   <span></span>
@@ -243,12 +267,6 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
   <span></span>
 </article>
 

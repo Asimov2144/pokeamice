@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 剑·盾</h2>
-    <span>32 篇文章 · 0 条评注 · 2025 / 2024 / 2023 / 2022 / 2021 / 2020 / 2019</span>
+    <span>33 篇文章 · 0 条评注 · 2025 / 2024 / 2023 / 2022 / 2021 / 2020 / 2019</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -31,14 +31,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
+  <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
+  <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
   <span></span>
 </article>
 
@@ -103,6 +103,18 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2019 · interview_translation · 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/">GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/">GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · 開発しているのは、ゲームフリークの未来です。｜プログラマ社員紹介 K.M.</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-km/">GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来</a></h3>
   <span></span>
@@ -115,20 +127,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/">GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2019 · interview_translation · ギアプロジェクトなら、自分のアイディアをゲームにできる。だから、面白い。｜デザイナー社員紹介 H.T.</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ht/">GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2019 · interview_translation · みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-kn/">GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界</a></h3>
   <span></span>
 </article>
 
@@ -151,14 +151,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · 『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/">Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档</a></h3>
+  <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
+  <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
-  <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
+  <p>2019 · interview_translation · 『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/">Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档</a></h3>
   <span></span>
 </article>
 
@@ -171,6 +171,12 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-polygon-2019-swsh/">Polygon 2019：增田顺一与大森滋谈《宝可梦 剑·盾》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/">Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议</a></h3>
   <span></span>
 </article>
 

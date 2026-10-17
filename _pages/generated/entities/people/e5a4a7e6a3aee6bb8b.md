@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>大森滋</h2>
-    <span>38 篇文章 · 0 条评注 · 2026 / 2025 / 2024 / 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2011 / 2010 / 2009 / 2005</span>
+    <span>41 篇文章 · 0 条评注 · 2026 / 2025 / 2024 / 2022 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2011 / 2010 / 2009 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -79,12 +79,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2019 · interview_translation · Pokemon Sword &amp; Shield interview: &quot;we have no regrets&quot; around the national dex</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/">VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议</a></h3>
   <span></span>
@@ -97,6 +91,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2019 · interview_translation · Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-metro-gamecentral-swsh-masuda-ohmori/">Metro GameCentral 2019：增田顺一谈《宝可梦 剑／盾》的玩法优先与争议</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak Talks Sword And Shield&#39;s Champion, Wild Area Interactions, And More</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-champion/">Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》</a></h3>
   <span></span>
@@ -105,6 +105,12 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · More Burning Questions For The Pokémon Series</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-burning/">Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
   <span></span>
 </article>
 
@@ -193,8 +199,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · Translation: Masuda on Sun &amp; Moon, Pokemon Gray, Z, and Colosseum Sequel</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/">Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · interview_translation · ディレクター・大森滋氏が語る、2つのソフトに込めた想いとは？</p>
   <h3><a href="/访谈翻译/官方档案/interview-pokemoncojp-2016-ohmori-sm/">宝可梦官网 2016：总监大森滋谈两款软件寄托的想法</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · scan_translation · 『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/">ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿</a></h3>
   <span></span>
 </article>
 

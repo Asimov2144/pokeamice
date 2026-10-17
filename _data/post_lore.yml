@@ -37805,6 +37805,18 @@
     seg: 3
     text: 4月12日在日本国内开始免费上线《ポケモンコマスター》
   relations:
+  - id: interview-sankei-ishihara-pokemon-go-20th
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 宝可梦20年构想与宝可梦GO
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-ishihara-pokemon-go-20th/
+    why: 同为石原恒和接受产经新闻采访谈20年与GO
+  - id: interview-sankei-pokemon-go-nintendo-concept
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦GO：现实与游戏的融合
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-nintendo-concept/
+    why: 说明GO由Niantic提供技术及与岩田聪的渊源
   - id: interview-inside-2016-ishihara-20th
     kind: background
     label: 为这篇提供背景
@@ -39129,6 +39141,12 @@
     title: 宝可梦20年：连接现实与虚拟
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-inside-2016-ishihara-20th/
     why: 同为石原恒和回顾宝可梦20年与GO构想
+  - id: interview-sankei-pokemon-go-nintendo-concept
+    kind: responds
+    label: 后来回应了这篇
+    title: 宝可梦GO：现实与游戏的融合
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-nintendo-concept/
+    why: 同报后续报道GO，石原谈与岩田聪最大项目
 2016-06-17-gamefreak-lineblog-4245921:
   facets:
     people:
@@ -40098,6 +40116,12 @@
     seg: 7
     text: 收入归宝可梦和Niantic，任天堂持宝可梦32%股份
   relations:
+  - id: interview-sankei-ishihara-pokemon-go-20th
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦20年构想与宝可梦GO
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-ishihara-pokemon-go-20th/
+    why: 同为石原恒和谈宝可梦GO构想与岩田聪
   - id: interview-nikkei-utsunomiya-pokemon-go
     kind: responds
     label: 后来回应了这篇
@@ -40295,6 +40319,19 @@
   - anchor: 12
     seg: 11
     text: 奥斯维辛-比克瑙博物馆在推特上向约翰·汉克抗议，要求停止指定为游玩地点
+  relations:
+  - id: interview-sankei-ishihara-pokemon-go-20th
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦20年构想与宝可梦GO
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-ishihara-pokemon-go-20th/
+    why: 同报同人采访，石原谈融合现实理念
+  - id: interview-sankei-pokemon-go-nintendo-concept
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦GO：现实与游戏的融合
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-nintendo-concept/
+    why: 同报同人采访，石原谈GO项目与岩田聪
 2016-08-12-gamefreak-lineblog-5460146:
   facets:
     people:

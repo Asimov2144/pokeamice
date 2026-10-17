@@ -1,4 +1,18 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-10-17'
+  count: 17
+  types:
+    访谈翻译: 16
+    扫描翻译: 1
+  posts:
+  - 2026-03-26-interview-sankei-ishihara-pokemon-30th
+  - 2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards
+  - 2023-03-24-interview-geeq-creatures-design-leader-watanabe
+  - 2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori
+  - 2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm
+  - 2019-02-12-interview-jdn-arita-pokemon-card-illustrator
+  - 2017-08-09-interview-hamarepo-masuda-yokohama-origins
+  - 2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon
 - date: '2026-10-13'
   count: 1
   types:

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 太阳·月亮</h2>
-    <span>48 篇文章 · 0 条评注 · 2026 / 2023 / 2019 / 2018 / 2017 / 2016</span>
+    <span>51 篇文章 · 0 条评注 · 2026 / 2023 / 2019 / 2018 / 2017 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -37,8 +37,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/">GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&amp;D 前沿技术追求（Y.I.）</a></h3>
+  <p>2023 · interview_translation · 『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-geeq-creatures-design-leader-watanabe/">IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发</a></h3>
   <span></span>
 </article>
 
@@ -51,6 +51,12 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · 『ポケモン』のコンセプトアートをのびのびと。｜デザイナー社員紹介 F.K.</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-concept-artist-fk/">GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/">GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&amp;D 前沿技术追求（Y.I.）</a></h3>
   <span></span>
 </article>
 
@@ -93,6 +99,12 @@ search: false
 <article class="resource-network-card">
   <p>2017 · interview_translation · Here&#39;s How Game Freak Designs Pokémon Creatures</p>
   <h3><a href="/访谈翻译/角色设计/开发历史/interview-gameinformer-how-game-freak-designs-pokemon-creatures/">Game Informer 独家特写：Game Freak 是如何设计宝可梦的？——杉森建与增田顺一深度复盘生物设计法则、评审委员会机制与 3D 演进</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · 『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/">はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一</a></h3>
   <span></span>
 </article>
 
@@ -159,6 +171,12 @@ search: false
 <article class="resource-network-card">
   <p>2016 · interview_translation · GQ España</p>
   <h3><a href="/interview-gq-spain-sun-moon-masuda-ohmori/">专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Translation: Masuda on Sun &amp; Moon, Pokemon Gray, Z, and Colosseum Sequel</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/">Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作</a></h3>
   <span></span>
 </article>
 

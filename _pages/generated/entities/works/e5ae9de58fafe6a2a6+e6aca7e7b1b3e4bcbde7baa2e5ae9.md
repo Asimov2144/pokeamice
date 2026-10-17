@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 欧米伽红宝石·阿尔法蓝宝石</h2>
-    <span>7 篇文章 · 0 条评注 · 2017 / 2015 / 2014</span>
+    <span>8 篇文章 · 0 条评注 · 2017 / 2015 / 2014</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -39,6 +39,12 @@ search: false
 <article class="resource-network-card">
   <p>2015 · interview_translation · 私がゲームフリークに入った理由 プランナー編</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/">GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · scan_translation · 『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/">ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿</a></h3>
   <span></span>
 </article>
 

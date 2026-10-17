@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon GO</h2>
-    <span>29 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
+    <span>33 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -139,6 +139,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · 【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/">产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · カブト</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-6827320/">【日记】2016年世田谷公园寻化石盔</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;因为想抓化石盔&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
@@ -163,6 +169,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · 【ビジネスの裏側】「ポケモンＧＯは危険なゲーム」架空生物に現実世界が大迷惑、開発者も当惑？</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-business-pokemon-go-dangerous-game/">产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈《宝可梦GO》热潮与混乱</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 恵比寿へGO</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5298007/">【日记】2016惠比寿偶遇伊布</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;星期天&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
@@ -178,6 +190,18 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · 【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/">产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · 【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/">产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

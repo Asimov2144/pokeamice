@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宇都宫崇人</h2>
-    <span>5 篇文章 · 0 条评注 · 2024 / 2023 / 2018 / 2016</span>
+    <span>6 篇文章 · 0 条评注 · 2024 / 2023 / 2018 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -33,6 +33,12 @@ search: false
 <article class="resource-network-card">
   <p>2018 · interview_translation · NewsPicks</p>
   <h3><a href="/interview-newspicks-pokemon-utsunomiya-kawamoto/">正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · 【ポケモンＧＯインタビュー】ダウンロード５億回！　かくて「ポケモンＧＯ」は伝説のゲームとなった　開発のキーマンに聞く</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-utsunomiya-kawashima/">产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发</a></h3>
   <span></span>
 </article>
 
