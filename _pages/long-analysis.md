@@ -9,12 +9,13 @@ design and model studies, gameplay essays, trip and site notes. Sections are cut
 whatever no section claims lands in the last one. The short posts live at /notes/weibo/.
 {%- endcomment -%}
 {% assign la = site.posts | where_exp: "p", "p.categories contains '长文分析'" %}
-{% assign la_pv = la | where_exp: "p", "p.tags contains '逐帧分析'" %}
-{% assign la_rest = la | where_exp: "p", "p.tags contains '逐帧分析' == false" %}
-{% assign la_design = la_rest | where_exp: "p", "p.tags contains '设定分析' or p.tags contains '模型'" %}
-{% assign la_rest = la_rest | where_exp: "p", "p.tags contains '设定分析' == false and p.tags contains '模型' == false" %}
-{% assign la_cards = la_rest | where_exp: "p", "p.tags contains '宝可梦卡牌' or p.tags contains 'J联赛'" %}
-{% assign la_other = la_rest | where_exp: "p", "p.tags contains '宝可梦卡牌' == false and p.tags contains 'J联赛' == false" %}
+{% assign la_pv = "" | split: "" %}{% assign la_design = "" | split: "" %}{% assign la_cards = "" | split: "" %}{% assign la_other = "" | split: "" %}
+{% for p in la %}
+  {% if p.tags contains "逐帧分析" %}{% assign la_pv = la_pv | push: p %}
+  {% elsif p.tags contains "设定分析" or p.tags contains "模型" %}{% assign la_design = la_design | push: p %}
+  {% elsif p.tags contains "宝可梦卡牌" or p.tags contains "J联赛" %}{% assign la_cards = la_cards | push: p %}
+  {% else %}{% assign la_other = la_other | push: p %}{% endif %}
+{% endfor %}
 
 <header class="library__head">
   <p class="library__eyebrow">Long reads · 长文分析</p>
