@@ -1,0 +1,147 @@
+{
+ "id": "interview-pokemaster-xy-masuda-barcelona",
+ "stem": "2013-11-06-interview-pokemaster-xy-masuda-barcelona",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 11
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     2,
+     3,
+     5,
+     9,
+     10
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "巴黎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "卡洛斯地区灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "法国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     4
+    ],
+    "what": "设定灵感来源",
+    "via": "llm"
+   },
+   {
+    "name": "西班牙",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     1
+    ],
+    "what": "采访地点",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "stage-model",
+    "name": "舞台取材",
+    "facet": "design",
+    "seg": [
+     5
+    ],
+    "as": [
+     "舞台设定"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [],
+    "as": [
+     "漫画"
+    ],
+    "via": "tag"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "制作人员名单中约500人参与该项目",
+   "anchor": 3
+  },
+  {
+   "seg": 5,
+   "text": "从DS到3DS的转变是设定灵感的起点",
+   "anchor": 6
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-nintendolife-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/",
+   "why": "同为增田谈X·Y开发规模，均提制作人员名单约500人"
+  },
+  {
+   "id": "interview-jv-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/",
+   "why": "同为增田谈X·Y，均提卡洛斯地区取材法国"
+  },
+  {
+   "id": "interview-multiplayer-2013-xy",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "增田顺一谈宝可梦 X·Y",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-multiplayer-2013-xy/",
+   "why": "同为增田谈X·Y，均提全球同步发售与3D化"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

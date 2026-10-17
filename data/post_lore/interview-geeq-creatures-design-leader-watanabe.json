@@ -1,0 +1,331 @@
+{
+ "id": "interview-geeq-creatures-design-leader-watanabe",
+ "stem": "2023-03-24-interview-geeq-creatures-design-leader-watanabe",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 46
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     4,
+     12,
+     16,
+     22,
+     28,
+     30
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X・Y",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦加傲乐",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "ポケモンコマスター",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可公园",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探皮卡丘",
+    "slug": "detective-pikachu",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员 巴特那吉",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员 光的轨迹",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可公园Wii ～皮卡丘的大冒险～",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可公园2 ～Beyond the World～",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探皮卡丘 ～新组合诞生～",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "名侦探皮卡丘 完全完结篇",
+    "slug": null,
+    "seg": [
+     28
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "渡边敦",
+    "slug": "du-bian-dun",
+    "role": "mentioned",
+    "seg": [
+     19,
+     26
+    ]
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     0,
+     3,
+     20,
+     23,
+     24,
+     30
+    ],
+    "as": [
+     "建模"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     2
+    ],
+    "as": [
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     3
+    ],
+    "as": [
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     24,
+     35,
+     40
+    ],
+    "as": [
+     "入职"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "motion",
+    "name": "动作设计",
+    "facet": "art",
+    "seg": [
+     24
+    ],
+    "as": [
+     "动作设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     30,
+     37,
+     45
+    ],
+    "as": [
+     "打磨",
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     34
+    ],
+    "as": [
+     "音效"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     37
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-freedom",
+    "name": "玩家的自由",
+    "facet": "design",
+    "seg": [
+     43
+    ],
+    "as": [
+     "自由度"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 22,
+   "text": "渡边敦2011年经IMAGICA DIGITALSCAPE介绍，作为派遣员工到GAME FREAK工作。",
+   "anchor": 23
+  },
+  {
+   "seg": 34,
+   "text": "数字开发本部有60多名员工，宝可梦CG工作室下设建模、动作和信息管理团队。",
+   "anchor": 35
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-cgworld-creatures-3d-character-life",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术",
+   "url": "/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/",
+   "why": "同属Creatures建模与动作团队专访，提供工作室与人员背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,727 @@
+{
+ "id": "scan-pokemon-life-2015-07-ohmori-oras",
+ "stem": "2015-07-30-scan-pokemon-life-2015-07-ohmori-oras",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 268
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     248
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黑暗鸦",
+    "ndex": 198,
+    "seg": [
+     240
+    ],
+    "as": [
+     "黑暗鸦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "土狼犬",
+    "ndex": 261,
+    "seg": [
+     24
+    ],
+    "as": [
+     "土狼犬"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "拉鲁拉丝",
+    "ndex": 280,
+    "seg": [
+     36
+    ],
+    "as": [
+     "拉鲁拉丝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蘑蘑菇",
+    "ndex": 285,
+    "seg": [
+     24
+    ],
+    "as": [
+     "蘑蘑菇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ラティアス",
+    "ndex": 380,
+    "seg": [
+     230,
+     231,
+     232
+    ],
+    "as": [
+     "ラティアス",
+     "拉帝亚斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ラティオス",
+    "ndex": 381,
+    "seg": [
+     230,
+     231,
+     232
+    ],
+    "as": [
+     "ラティオス",
+     "拉帝欧斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "カイオーガ",
+    "ndex": 382,
+    "seg": [
+     120,
+     147,
+     160,
+     175,
+     121,
+     127,
+     148,
+     170,
+     182,
+     185
+    ],
+    "as": [
+     "カイオーガ",
+     "盖欧卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "グラードン",
+    "ndex": 383,
+    "seg": [
+     120,
+     147,
+     160,
+     163,
+     121,
+     126,
+     148,
+     170,
+     182,
+     185
+    ],
+    "as": [
+     "グラードン",
+     "固拉多"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈空坐",
+    "ndex": 384,
+    "seg": [
+     182,
+     189,
+     221,
+     266,
+     267
+    ],
+    "as": [
+     "烈空坐"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "代欧奇希斯",
+    "ndex": 386,
+    "seg": [
+     267
+    ],
+    "as": [
+     "代欧奇希斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "飘飘球",
+    "ndex": 425,
+    "seg": [
+     240
+    ],
+    "as": [
+     "飘飘球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "艾路雷朵",
+    "ndex": 475,
+    "seg": [
+     35,
+     36
+    ],
+    "as": [
+     "艾路雷朵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "勇士雄鹰",
+    "ndex": 628,
+    "seg": [
+     240
+    ],
+    "as": [
+     "勇士雄鹰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "豪力",
+    "ndex": 67,
+    "seg": [
+     24
+    ],
+    "as": [
+     "豪力"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     1,
+     2,
+     4,
+     7,
+     12,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     7,
+     12,
+     13,
+     17,
+     25,
+     39
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     234
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "mentioned",
+    "seg": [
+     3,
+     14,
+     30,
+     114,
+     137,
+     162
+    ]
+   },
+   {
+    "name": "小遥",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小悠",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "满充",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "赤焰松",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "水梧桐",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     68
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁旋",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大吾",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     148
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "小田卷博士的家",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "拜访博士的家",
+    "via": "llm"
+   },
+   {
+    "name": "未白镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     131
+    ],
+    "what": "主角的故乡",
+    "via": "llm"
+   },
+   {
+    "name": "103号道路",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     136
+    ],
+    "what": "出发地点",
+    "via": "llm"
+   },
+   {
+    "name": "流星瀑布",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     79
+    ],
+    "what": "两队对峙之地",
+    "via": "llm"
+   },
+   {
+    "name": "天气研究所",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     100
+    ],
+    "what": "119号道路的研究所",
+    "via": "llm"
+   },
+   {
+    "name": "觉醒祠堂",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     121
+    ],
+    "what": "固拉多盖欧卡苏醒处",
+    "via": "llm"
+   },
+   {
+    "name": "丰缘地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "故事舞台",
+    "via": "llm"
+   },
+   {
+    "name": "紫堇市",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     92
+    ],
+    "what": "铁旋任馆主的城市",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     1
+    ],
+    "as": [
+     "携手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     1,
+     28,
+     92
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     1
+    ],
+    "as": [
+     "主题是"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     7
+    ],
+    "as": [
+     "怀旧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     14
+    ],
+    "as": [
+     "吃惊"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     36,
+     121,
+     232,
+     266,
+     267
+    ],
+    "as": [
+     "超级进化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     70
+    ],
+    "as": [
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     70,
+     72,
+     75,
+     77,
+     92,
+     157
+    ],
+    "as": [
+     "道馆",
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     77,
+     129,
+     239
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     80
+    ],
+    "as": [
+     "人对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     87
+    ],
+    "as": [
+     "继承"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     113
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     162,
+     170,
+     172,
+     182,
+     191,
+     193
+    ],
+    "as": [
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     162
+    ],
+    "as": [
+     "开发期间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     169,
+     193
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     188,
+     198
+    ],
+    "as": [
+     "洞窟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     229
+    ],
+    "as": [
+     "攻略"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     231
+    ],
+    "as": [
+     "全国图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     245,
+     250,
+     251
+    ],
+    "as": [
+     "等级"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     248
+    ],
+    "as": [
+     "动画版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     248
+    ],
+    "as": [
+     "声优"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "距《宝可梦 红宝石·蓝宝石》发售已过去约12年。"
+  },
+  {
+   "seg": 38,
+   "text": "满充在对战度假地的对战屋达成50连胜后出现。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,219 @@
+{
+ "id": "interview-lavacut-onm-spain-masuda-ohmori-sun-moon",
+ "stem": "2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 25
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     13
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "木木枭",
+    "ndex": 722,
+    "seg": [
+     10
+    ],
+    "as": [
+     "木木枭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火斑喵",
+    "ndex": 725,
+    "seg": [
+     9
+    ],
+    "as": [
+     "火斑喵"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳／月亮",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 GO",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑／白",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑2／白2",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X／Y",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 灰",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 Z",
+    "slug": null,
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦圆形竞技场",
+    "slug": "colosseum",
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     10,
+     12
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     9,
+     14,
+     16,
+     18,
+     20,
+     22
+    ]
+   },
+   {
+    "name": "Dr Lava",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     20
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "new-hardware",
+    "name": "新硬件",
+    "facet": "tech",
+    "seg": [
+     23
+    ],
+    "as": [
+     "新主机"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 20,
+   "text": "增田顺一称从未计划做第三版本，想做让粉丝惊喜的东西。",
+   "anchor": 21
+  },
+  {
+   "seg": 22,
+   "text": "被问及《宝可梦圆形竞技场》风格游戏时，增田顺一回答没有。",
+   "anchor": 23
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

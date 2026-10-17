@@ -1,0 +1,320 @@
+{
+ "id": "interview-4gamer-cedec-2010-ishihara-ichimura",
+ "stem": "2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 45
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     28
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "勇者斗恶龙IX 星空的守护者",
+    "slug": null,
+    "seg": [
+     12
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "勇者斗恶龙 达伊的大冒险",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "吉田直树",
+    "slug": "ji-tian-zhi-shu",
+    "role": "mentioned",
+    "seg": [
+     0,
+     10
+    ]
+   },
+   {
+    "name": "市村龙太郎",
+    "slug": "shi-cun-long-tai-lang",
+    "role": "mentioned",
+    "seg": [
+     0,
+     21
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     0,
+     4
+    ]
+   },
+   {
+    "name": "TAITAI",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "六本木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     15
+    ],
+    "what": "露伊达的酒馆开业地",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     7,
+     26
+    ],
+    "as": [
+     "玩家群体"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     8
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     8
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     12
+    ],
+    "as": [
+     "配信"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     17
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     23,
+     40
+    ],
+    "as": [
+     "热潮",
+     "批评"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "wireless",
+    "name": "无线与擦肩",
+    "facet": "tech",
+    "seg": [
+     23,
+     24,
+     26
+    ],
+    "as": [
+     "擦肩通信"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     24,
+     28
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     24
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     29,
+     31,
+     32,
+     33
+    ],
+    "as": [
+     "动画化",
+     "动画版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     31
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     31,
+     32,
+     41
+    ],
+    "as": [
+     "卡牌游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "education",
+    "name": "教育与育儿",
+    "facet": "audience",
+    "seg": [
+     32
+    ],
+    "as": [
+     "教材"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     33
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     33
+    ],
+    "as": [
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     40
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "市村说《勇者斗恶龙9》采取长期数据配信等措施，仍远不及宝可梦。",
+   "anchor": 13
+  },
+  {
+   "seg": 32,
+   "text": "石原说《宝可梦》一开始只考虑卡牌游戏化，其余展开未定。",
+   "anchor": 33
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

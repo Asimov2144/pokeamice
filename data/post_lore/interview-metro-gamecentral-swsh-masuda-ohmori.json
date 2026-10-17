@@ -1,0 +1,480 @@
+{
+ "id": "interview-metro-gamecentral-swsh-masuda-ohmori",
+ "stem": "2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 70
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     31,
+     37,
+     62
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔小火马",
+    "ndex": 77,
+    "seg": [
+     20
+    ],
+    "as": [
+     "Galarian Ponyta"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "超级马力欧 奥德赛",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦随乐拍2",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Let's Go，皮卡丘／Let's Go，伊布",
+    "slug": null,
+    "seg": [
+     31
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "纸片马力欧",
+    "slug": null,
+    "seg": [
+     58
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "唐顿庄园",
+    "slug": null,
+    "seg": [
+     55
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "蒙提·派森",
+    "slug": null,
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "GC",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     8,
+     10,
+     12,
+     14,
+     16
+    ]
+   },
+   {
+    "name": "大森滋",
+    "slug": "ohmori-shigeru",
+    "role": "speaker",
+    "seg": [
+     9,
+     11,
+     13,
+     31,
+     32,
+     34
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     15,
+     17,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   {
+    "name": "David Jenkins",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小泉欢晃",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [],
+    "what": "宝可梦中心开业地",
+    "via": "llm"
+   },
+   {
+    "name": "伽勒尔地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [],
+    "what": "本作游戏舞台",
+    "via": "llm"
+   },
+   {
+    "name": "东京",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [],
+    "what": "大森滋视频连线地",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     2,
+     5,
+     33,
+     34,
+     35
+    ],
+    "as": [
+     "配音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     4,
+     33,
+     44,
+     51
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     6
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     8
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-model",
+    "name": "舞台取材",
+    "facet": "design",
+    "seg": [
+     8
+    ],
+    "as": [
+     "为原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     9,
+     57
+    ],
+    "as": [
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     9
+    ],
+    "as": [
+     "本地化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     18,
+     32,
+     51
+    ],
+    "as": [
+     "通信功能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     18
+    ],
+    "as": [
+     "全国图鉴"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     22
+    ],
+    "as": [
+     "截止"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     30
+    ],
+    "as": [
+     "掌机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "new-hardware",
+    "name": "新硬件",
+    "facet": "tech",
+    "seg": [
+     32
+    ],
+    "as": [
+     "新硬件"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
+    "seg": [
+     34
+    ],
+    "as": [
+     "文本量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     40
+    ],
+    "as": [
+     "随机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     44,
+     45
+    ],
+    "as": [
+     "在线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     44
+    ],
+    "as": [
+     "批评"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     45
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     60
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "GameCentral在不到六个月里第二次与增田顺一、大森滋对话，首次是6月E3。",
+   "anchor": 4
+  },
+  {
+   "seg": 4,
+   "text": "《宝可梦 剑／盾》曾办24小时直播，只展示一个新宝可梦变体。",
+   "anchor": 5
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/",
+   "why": "6月E3采访增田、大森，为本篇第二次对话提供前情"
+  },
+  {
+   "id": "interview-gi-2019-champion",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "大森滋与增田顺一谈《剑／盾》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
+   "why": "同日采访增田顺一与大森滋谈剑盾"
+  },
+  {
+   "id": "interview-polygon-2019-swsh",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦剑盾开发访谈",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/",
+   "why": "同日采访增田顺一与大森滋谈剑盾"
+  },
+  {
+   "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+   "why": "同日采访增田顺一与大森滋谈剑盾"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

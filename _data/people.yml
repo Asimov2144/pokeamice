@@ -92,6 +92,10 @@
     year: 2019
     source: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest · 《宝可梦 剑·盾》制作人 增田顺一（Junichi Masuda） Game Freak 制作人增田顺一
     post: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest
+  - image: /assets/img/people/masuda-junichi-2019-d026.jpg
+    year: 2019
+    source: '2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori · The creators of Pokémon Sword and Shield: Junichi Masuda and Shigeru Ohmori（右：增田顺一）'
+    post: 2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori
   - image: /assets/img/people/masuda-junichi-2019.jpg
     year: 2019
     source: 2019-10-24-interview-polygon-2019-swsh · Shigeru Ohmori (left) and Junichi Masuda (right) Shigeru Ohm
@@ -165,6 +169,10 @@
     year: 2019
     source: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest · 《宝可梦 剑·盾》总监 大森滋（Shigeru Ohmori） Game Freak 游戏总监大森滋
     post: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest
+  - image: /assets/img/people/ohmori-shigeru-2019-d026.jpg
+    year: 2019
+    source: '2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori · The creators of Pokémon Sword and Shield: Junichi Masuda and Shigeru Ohmori（左：视频连线的大森滋）'
+    post: 2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori
   - image: /assets/img/people/ohmori-shigeru-2019.jpg
     year: 2019
     source: 2019-10-24-interview-polygon-2019-swsh · Shigeru Ohmori (left) and Junichi Masuda (right) Shigeru Ohm
@@ -441,6 +449,10 @@
     year: 2021
     source: 2021-11-08-interview-creatures-history-special-ishihara-tanaka · 石原恒和（Tsunekazu Ishihara）：株式会社 The Pokémon Company 代表取缔役社长、株式
     post: 2021-11-08-interview-creatures-history-special-ishihara-tanaka
+  - image: /assets/img/people/ishihara-tsunekazu-2026.jpg
+    year: 2026
+    source: 产经新闻 2026-03-26 石原恒和社长访谈 · 图注「…と振り返る石原恒和社長」
+    post: 2026-03-26-interview-sankei-ishihara-pokemon-30th
   credits_key: ishihara tsunekazu
 - name: 首藤刚志
   slug: shudo-takeshi
@@ -5309,3 +5321,51 @@
   slug: d-n
 - name: 小川一美
   slug: ogawa-kazumi
+- name: 吉田直树
+  slug: ji-tian-zhi-shu
+  aliases:
+  - 吉田直樹
+  - Naoki Yoshida
+- name: 市村龙太郎
+  slug: shi-cun-long-tai-lang
+  aliases:
+  - 市村龍太郎
+  - Ryutaro Ichimura
+- name: 有田满弘
+  slug: you-tian-man-hong
+  aliases:
+  - 有田満弘
+  - Mitsuhiro Arita
+- name: 那须基仁
+  slug: na-xu-ji-ren
+  aliases:
+  - 那須基仁
+- name: 须藤秀希
+  slug: xu-teng-xiu-xi
+  aliases:
+  - 須藤秀希
+- name: 渡边敦
+  slug: du-bian-dun
+  aliases:
+  - 渡辺敦
+  portraits:
+  - image: /assets/img/people/du-bian-dun-2023.jpg
+    year: 2023
+    source: IMAGICA GEEQ 2023-03-24 Creatures 设计负责人访谈 · 图注「デザインリーダー渡辺敦（ワタナベ アツシ）氏」
+    post: 2023-03-24-interview-geeq-creatures-design-leader-watanabe
+  avatar: /assets/img/people/du-bian-dun.jpg
+  avatar_source: IMAGICA GEEQ 2023-03-24 Creatures 设计负责人访谈 · 图注「デザインリーダー渡辺敦（ワタナベ アツシ）氏」
+- name: 半田佑马
+  slug: ban-tian-you-ma
+  aliases:
+  - 半田佑馬
+- name: 山本真史
+  slug: shan-ben-zhen-shi
+- name: 广田隆哉
+  slug: guang-tian-long-zai
+  aliases:
+  - 廣田隆哉
+- name: 长屋悟
+  slug: zhang-wu-wu
+  aliases:
+  - 長屋悟

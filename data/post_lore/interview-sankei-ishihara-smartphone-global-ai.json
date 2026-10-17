@@ -1,0 +1,142 @@
+{
+ "id": "interview-sankei-ishihara-smartphone-global-ai",
+ "stem": "2016-05-24-interview-sankei-ishihara-smartphone-global-ai",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 6
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "ポケモンコマスター",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦GO",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     2
+    ]
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     0
+    ],
+    "as": [
+     "提案"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     1,
+     2,
+     4
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     3,
+     4
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     5
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 1,
+   "text": "以4月上线的首款正式智能手机游戏和年内上线的位置信息游戏为新支柱",
+   "anchor": 2
+  },
+  {
+   "seg": 3,
+   "text": "4月12日在日本国内开始免费上线《ポケモンコマスター》",
+   "anchor": 4
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-sankei-ishihara-pokemon-go-20th",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "宝可梦20年构想与宝可梦GO",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-ishihara-pokemon-go-20th/",
+   "why": "同为石原恒和接受产经新闻采访谈20年与GO"
+  },
+  {
+   "id": "interview-sankei-pokemon-go-nintendo-concept",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦GO：现实与游戏的融合",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-nintendo-concept/",
+   "why": "说明GO由Niantic提供技术及与岩田聪的渊源"
+  },
+  {
+   "id": "interview-inside-2016-ishihara-20th",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦20年：连接现实与虚拟",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-inside-2016-ishihara-20th/",
+   "why": "20周年访谈回顾系列起点与GO构想"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

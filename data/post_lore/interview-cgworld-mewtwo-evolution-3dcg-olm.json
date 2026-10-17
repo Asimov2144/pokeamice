@@ -1,0 +1,483 @@
+{
+ "id": "interview-cgworld-mewtwo-evolution-3dcg-olm",
+ "stem": "2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 71
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     3,
+     46,
+     47,
+     61,
+     53,
+     67
+    ],
+    "as": [
+     "皮卡丘",
+     "ピカチュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ドンファン",
+    "ndex": 232,
+    "seg": [
+     41,
+     39
+    ],
+    "as": [
+     "ドンファン"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 剧场版 超梦的逆袭 EVOLUTION",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "剧场版宝可梦 超梦的逆袭",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太阳&月亮",
+    "slug": null,
+    "seg": [
+     17
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "那须基仁",
+    "slug": "na-xu-ji-ren",
+    "role": "mentioned",
+    "seg": [
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "name": "须藤秀希",
+    "slug": "xu-teng-xiu-xi",
+    "role": "mentioned",
+    "seg": [
+     5,
+     10
+    ]
+   },
+   {
+    "name": "野澤 慧",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "市村正亲",
+    "slug": "ichimura-masachika",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小林幸子",
+    "slug": "kobayashi-sachiko",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "山寺宏一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "松本梨香",
+    "slug": "matsumoto-rica",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "林原惠美",
+    "slug": "hayashibara-megumi",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "三木真一郎",
+    "slug": "miki-shinichiro",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "犬山犬子",
+    "slug": "inuyama-inuko",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "石冢运昇",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "中川翔子",
+    "slug": "nakagawa-shoko",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "榊原干典",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "首藤刚志",
+    "slug": "shudo-takeshi",
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "冈本顺哉",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "片上秀长",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "下平聪士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "关口彩香",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "长渕阳介",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小林雅士",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     0
+    ],
+    "as": [
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     0
+    ],
+    "as": [
+     "热潮"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     1,
+     3,
+     5,
+     8,
+     11
+    ],
+    "as": [
+     "监修"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     1,
+     15,
+     17,
+     29
+    ],
+    "as": [
+     "建模"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     2
+    ],
+    "as": [
+     "期限"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     3
+    ],
+    "as": [
+     "主题曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     3
+    ],
+    "as": [
+     "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     13
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     14
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     17
+    ],
+    "as": [
+     "电视动画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     19
+    ],
+    "as": [
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     26,
+     32,
+     55
+    ],
+    "as": [
+     "カメラ",
+     "摄像机",
+     "镜头"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     45
+    ],
+    "as": [
+     "完成度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     62,
+     65
+    ],
+    "as": [
+     "真实感",
+     "画风"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 12,
+   "text": "那须基仁与须藤秀希异口同声担心3DCG能否被接受。",
+   "anchor": 13
+  },
+  {
+   "seg": 23,
+   "text": "小刚的细眼最终用生长大量粗硬睫毛来表现。",
+   "anchor": 24
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

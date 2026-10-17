@@ -212,8 +212,8 @@
   slug: ohmori-shigeru
   kind: person
   interviews:
-    entries: 35
-    spoken_in: 34
+    entries: 38
+    spoken_in: 37
     columns: 3
     first: '2010'
     last: '2026'
@@ -235,7 +235,7 @@
       games: 7
     - cat: 管理/协调
       games: 1
-  summary: 大森滋从策划岗位起步，早期负责道具配置、地图设计详细规格与用户界面、通信系统开发，并在《钻石／珍珠》中统括全部策划 [4][6]。他长期主导通信相关企划，如地下通道、超级华丽大赛，并关注擦肩通信等低门槛通信玩法 [2][4]。担任总监后，他从核心主题出发构思作品，如以「生命」为主题设计《太阳／月亮》的阿罗拉地区与Z招式、岛屿挑战 [6]。作为制作人，他关注内容能否被大众接受，并注意系统与要素名称是否易被各年龄层接受 [5]。他也主张设计师不应局限于本职，而要主动对整体游戏提出构想 [11]。
+  summary: 大森滋从地区地图设计与游戏设计起步，逐步承担企划、美术与总监/制作人等职责，长期参与主系列宝可梦的开发。他关注玩家与宝可梦的日常陪伴体验，并以降低通信玩法门槛为设计考量 [1][2]。在《太阳／月亮》中，他围绕自然与人与宝可梦的联系选择夏威夷作为舞台，并用四座岛屿维持冒险的新鲜感 [4]。他强调从大量提案中筛选可行想法，认为最终总会有内容未能实现 [3]。在《剑·盾》中，他重视分辨率提升带来的大小表现与草丛等细节对游戏性的影响，并引入自动保存以适配 Switch 的游玩习惯 [10]。
   citations:
   - n: 1
     post: 2010-03-19-interview-gameinformer-masuda-morimoto-hgss
@@ -248,68 +248,32 @@
     title: 週刊ファミ通 No.1153「通信開発のウラ側を公開！！」太田哲司・大森滋インタビュー（摘录）
     date: '2011-01-06'
     publication: 週刊ファミ通 No.1153「通信開発のウラ側を公開！！」
-    detail: 称擦肩通信反响超预期，C装置开关使通信门槛很低。
+    detail: 称擦肩通信反响超出预期，希望以低门槛通信引导玩家尝试其他通信功能。
+  - n: 3
+    post: 2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon
+    title: Official Nintendo Magazine 西班牙版 2016：大森滋与增田顺一谈《太阳／月亮》、《宝可梦Z》与《圆形竞技场》续作
+    date: '2016-12-01'
+    publication: Official Nintendo Magazine 西班牙版
+    detail: 谈《太阳／月亮》成功因素，并说开发中会筛选想法、舍弃不可行内容。
   - n: 4
-    post: 2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage
-    title: Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）
-    date: '2017-07-03'
-    publication: ゲームフリークの伝説と若き才能：大森滋×尾上将之
-    detail: 2001年入职任策划，在《钻石／珍珠》任策划组长并负责地下通道等通信企划。
-  - n: 5
-    post: 2017-10-19-interview-famitsu-usum-ohmori-iwao-director
-    title: '[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制'
-    date: '2017-10-19'
-    publication: 週刊ファミ通
-    detail: 从增田顺一接手，首次担任制作人，开始注意要素名称是否易被接受。
-  - n: 6
-    post: 2017-11-09-interview-pokemon-com-usum-ohmori-iwao
-    title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
-    date: '2017-11-09'
-    publication: Pokemon.com / PocketMonsters.net
-    detail: 最初在《红宝石·蓝宝石》负责用户界面、通信系统开发与机制创意。
-  - n: 7
-    post: 2018-05-30-interview-gamer-pokemon-press-conference-2018
-    title: 《宝可梦 探险寻宝》与《Let's Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈
-    date: '2018-05-30'
-    publication: Gamer.ne.jp
-    detail: 据该报道，他在发布会上宣布GAME FREAK新作《宝可梦 探险寻宝》。
-  - n: 8
-    post: 2019-10-24-interview-gi-2019-burning
-    title: Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈
-    date: '2019-10-24'
-    publication: Game Informer
-    detail: 谈《剑·盾》旷野地带穿着熊，并说自己开发中选水系、发售后常选草系。
-  - n: 9
-    post: 2019-10-24-interview-vg247-2019-swsh
-    title: VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议
-    date: '2019-10-24'
-    publication: VG247
-    detail: 称《剑·盾》主题是打造最强宝可梦，并因个人喜欢英国摇滚而影响地区选择。
+    post: 2016-12-12-interview-reportajes
+    title: '[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
+    date: '2016-12-12'
+    publication: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
+    detail: 说明因人与自然关系紧密而选夏威夷，并采用四座岛屿保持冒险新鲜感。
   - n: 10
-    post: 2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest
-    title: '[访谈翻译] 4Gamer《宝可梦 剑·盾》发售纪念专访：大森滋与增田顺一详解“最强”设计哲学、极巨化与伽勒尔生态'
-    date: '2019-11-12'
-    publication: 4Gamer.net (Gueed 独家专访)
-    detail: 谈苍响、藏玛然特命名体现神秘感，极巨团体战由巨大化与英国巨人传说推动。
-  - n: 11
-    post: 2021-12-27-interview-gamefreak-crosstalk-designer
-    title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
-    date: '2022-10-15'
-    publication: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
-    detail: 主张设计师不应只问设计，要主动对整体游戏提出逆向提案。
-  - n: 12
-    post: 2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori
-    title: 电Fami Nico Gamer 2026：大森滋谈《雨のちハレ女》——一边做《宝可梦》一边做美少女游戏
-    date: '2026-10-12'
-    publication: 电Fami Nico Gamer
-    detail: 谈《宝可梦 朱·紫》开发结束后思考新作，同时推进《ぽこ あ ポケモン》与《雨のちハレ女》。
+    post: 2019-10-25-interview-famitsu-sword-shield-masuda-ohmori
+    title: 《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路
+    date: '2019-10-25'
+    publication: ファミ通.com / 週刊ファミ通 2019年11月28日号
+    detail: 称仅确定草丛呈现方式就反复讨论约半年，并说明采用自动保存的考量。
   expertise:
   - 总监/制作人
   - 企划
   - 美术
-  - 地图设计
-  - 通信系统
-  - 用户界面
+  - 游戏设计
+  - 通信玩法
+  - 画面表现
 - name: 太田哲司
   slug: ota-tetsuji
   kind: person
@@ -2902,31 +2866,37 @@
   slug: kawashima-masashi
   kind: person
   interviews:
-    entries: 2
-    spoken_in: 2
+    entries: 3
+    spoken_in: 3
     columns: 0
-    first: '2018'
+    first: '2016'
     last: '2018'
-  summary: 川岛优志参与《Pokemon GO》的发布与运营，曾亲自按下App Store的发布按钮，并经历上线后服务器负载远超预期、工程师不眠不休应对的过程[1]。他关注通信量与数据容量的限制，认为在“不自由的限制”下才会产生创造力和创新[2]。他把《宝可梦》卡牌游戏与Game Boy连线交换视为具有AR性质的意象，并认为这种被培育20年的意象在《Pokemon GO》中结出果实[2]。他也在近处观察石原恒和与约翰，注意到两人着眼于未来同时意识到现实中能在哪里传递给人们[2]。
+  summary: 川岛优志参与《Pokémon GO》的开发与上线推进，曾亲自按下App Store发布按钮，并参与面向全球发布的产品决策 [2]。他关注游戏与出行、健康的关系，希望游戏成为人们走出家门、探访各地风土与历史的契机 [1]。在技术层面，他熟悉大规模访问应对与通信量优化，提及团队沿用谷歌地图团队的经验并做减少通信量的设计 [2]。他也从媒体与数据容量的角度理解宝可梦系列，认为限制会催生创造力 [3]。
   citations:
   - n: 1
+    post: 2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima
+    title: 产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发
+    date: '2016-09-09'
+    publication: 产经新闻
+    detail: 称收到各国来信说孩子因宝可梦GO开始出门，希望游戏助人健康。
+  - n: 2
     post: 2018-06-08-interview-denfaminicogamer-pokemon-go-miracle
     title: '[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇'
     date: '2018-06-08'
     publication: 电ファミニコゲーマー (Denfaminicogamer)
-    detail: 他按下App Store发布按钮，上线后服务器负载图表大幅超出预期，工程师约一个月不眠不休应对。
-  - n: 2
+    detail: 自述按下App Store发布按钮，上线后服务器负载远超预期。
+  - n: 3
     post: 2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle
     title: '[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象'
     date: '2018-06-08'
     publication: 电玩志
-    detail: 他称《红·绿》每份数据512KB，并认为限制会催生创造力与创新。
+    detail: 提到《红·绿》每份512KB，并出于兴趣计算任天堂软件容量总和。
   expertise:
-  - 游戏发布
-  - 服务器运营
+  - 游戏上线
+  - 服务器应对
   - 通信优化
-  - 数据容量
-  - AR意象
+  - 产品决策
+  - 媒体论
 - name: 菜花健作
   slug: nabana-kensaku
   kind: person
@@ -4094,8 +4064,8 @@
   slug: utsunomiya-takato
   kind: person
   interviews:
-    entries: 5
-    spoken_in: 5
+    entries: 6
+    spoken_in: 6
     columns: 0
     first: '2016'
     last: '2024'
@@ -4113,7 +4083,7 @@
       games: 7
     - cat: 其他
       games: 2
-  summary: 宇都宫崇人在宝可梦公司负责游戏开发相关的整体工作，并以制作人身份参与具体项目，如促成与万代南梦宫的沟通并参与《宝可梦 铁拳锦标赛》[1]。他参与《Pokémon GO》的日美合作，认为岩田聪的支持对项目至关重要，并转述石原恒和“降低门槛、扩大受众”的方针[2]。他强调游戏是品牌核心，主张让宝可梦呈现为活生生的生物，并关注社区反馈与品牌的长期传承[4]。他通过线下活动结识开发者并主动邀请其加入公司，进而促成与SELECT BUTTON的合作[5]。其咨询公司经历帮助他快速把握宝可梦多种业态的关键[3]。
+  summary: 宇都宫崇人在株式会社宝可梦负责游戏开发相关的整体工作，并以制作人身份参与多个项目，从《宝可梦+信长的野望》起担任总监/制作人。他促成与万代南梦宫就《宝可梦 铁拳锦标赛》的沟通，并参与组建由爱好与工作互换的成员构成的团队 [1]。他参与《Pokémon GO》的日美合作，认为该项目源于愚人节企划，并称岩田聪在背后的支持对项目成真起了很大作用 [2][3]。他重视让宝可梦长久传承给下一代，主张保持对年轻孩子的吸引力，并持续关注社区反馈 [5]。他还从《Ingress》线下活动结识人才，推动与SELECT BUTTON合作开发《Pokémon Sleep》等作品 [6]。
   citations:
   - n: 1
     post: 2016-05-12-interview-inside-pokken-tournament-developers
@@ -4126,31 +4096,31 @@
     title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
     date: '2016-08-25'
     publication: ポケモンGO、爆発力生んだ日米協業の舞台裏
-    detail: 他参与《Pokémon GO》日美合作，称若任天堂社长不是岩田聪大概不会有今天。
+    detail: 他称《Pokémon GO》项目始于与谷歌的合同谈判，源头是愚人节企划。
   - n: 3
-    post: 2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto
-    title: 正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人
-    date: '2018-02-23'
-    publication: NewsPicks
-    detail: 他由咨询公司跳槽加入宝可梦公司，认为前职经验有助于把握复杂业态。
-  - n: 4
+    post: 2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima
+    title: 产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发
+    date: '2016-09-09'
+    publication: 产经新闻
+    detail: 他表示石原等人几乎当即决定推进《Pokémon GO》，岩田聪在背后推动。
+  - n: 5
     post: 2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years
     title: '‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon'
     date: '2023-11-20'
     publication: The Guardian
-    detail: 他表示游戏是品牌核心，并称会密切关注社区反馈与对话。
-  - n: 5
+    detail: 他强调保持对年轻孩子的吸引力，并称电子游戏是品牌核心。
+  - n: 6
     post: 2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
     title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及
     date: '2024-11-20'
     publication: ファミ通.com (Famitsu)
-    detail: 他在2014年《Ingress》涩谷线下活动结识小川慧并邀其加入宝可梦公司。
+    detail: 他回忆2014年在《Ingress》活动结识小川慧，后经其介绍接触SELECT BUTTON三人组。
   expertise:
   - 总监/制作人
   - 游戏开发统筹
   - 跨公司合作
-  - 品牌长期运营
-  - 社区反馈
+  - 品牌传承
+  - 外部团队协作
 - name: 河本拓
   slug: he-ben-tuo
   kind: person
@@ -18374,3 +18344,217 @@
   - 新IP开发
   - 中途入职
   - 项目开发
+- name: 吉田直树
+  slug: ji-tian-zhi-shu
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2010'
+    last: '2010'
+  summary: 吉田直树是史克威尔艾尼克斯的导演（ディレクター），在CEDEC 2010的特别会议“让人快乐的制作”上担任主持 [1]。据4Gamer.net报道，会议由石原恒和与《勇者斗恶龙》系列制作人市村龙太郎互相提问，吉田先从“让制作者自己享受、也让尽可能多的人享受”这一话题切入 [1]。
+  citations:
+  - n: 1
+    post: 2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura
+    title: 4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作
+    date: '2010-09-03'
+    publication: 4Gamer.net
+    detail: 据4Gamer.net报道，吉田直树在CEDEC特别会议中担任主持，促成石原与市村对谈。
+  expertise:
+  - 导演
+  - 会议主持
+  - 制作对谈
+- name: 市村龙太郎
+  slug: shi-cun-long-tai-lang
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2010'
+    last: '2010'
+  summary: 市村龙太郎在史克威尔艾尼克斯负责《勇者斗恶龙》系列的制作人工作 [1]。据4Gamer.net报道，他在CEDEC与石原恒和同台，围绕“让人快乐的制作”交流，并由吉田直树主持 [1]。他自述原本是玩家立场，关注如何把自己曾感受到的感动传达给新人 [1]。他认为独创内容难以传达，倾向让世界观采用谁都能接受的形式，而游玩体验保持革新 [1]。据同一报道，他还向石原询问宝可梦为何能长期销售，并提及《勇者斗恶龙IX 星空的守护者》采取多项长期销售措施 [1]。
+  citations:
+  - n: 1
+    post: 2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura
+    title: 4Gamer.net 2010：宝可梦石原恒和与勇者斗恶龙市村龙太郎、吉田直树谈制作
+    date: '2010-09-03'
+    publication: 4Gamer.net
+    detail: 据4Gamer.net报道，他与石原恒和同台交流，并询问宝可梦为何能长期销售。
+  expertise:
+  - 系列制作
+  - 长期销售
+  - 世界观构建
+  - 玩家视角
+- name: 有田满弘
+  slug: you-tian-man-hong
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: 有田满弘是宝可梦卡牌游戏的公认插画师，负责卡牌插画制作，从Creatures分配卡牌与委托开始，经草图、线稿、上色到交付，周期约2个月 [1]。他直到线稿都用铅笔在纸上画，上色则导入电脑进行数字上色 [1]。为提高表现力，他长期写生日常所见，把画材和小速写本放在裤兜里随时作画 [1]。他认为勉强去画并不好，不设“一天几张”的指标，只在想画时写生 [1]。
+  citations:
+  - n: 1
+    post: 2019-02-12-interview-jdn-arita-pokemon-card-illustrator
+    title: JDN（设计情报网站） 2019：插画师有田满弘谈宝可梦卡牌的余白与玩心
+    date: '2019-02-12'
+    publication: JDN
+    detail: 称截至2019年2月公认插画师约80名，由Creatures分配卡牌并委托，周期约2个月。
+  expertise:
+  - 卡牌插画
+  - 草图线稿
+  - 数字上色
+  - 日常写生
+- name: 那须基仁
+  slug: na-xu-ji-ren
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: 那须基仁在《超梦的逆袭 EVOLUTION》中担任CGI监修，统领CG团队 [1]。据CGWORLD.jp报道，他与构图监修须藤秀希一同接受采访，面向CG初学者解说3DCG的建模、动画、光照、特效四个工序 [1]。报道提到两人曾担心3DCG能否被接受 [1]。
+  citations:
+  - n: 1
+    post: 2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm
+    title: CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作
+    date: '2019-08-29'
+    publication: CGWORLD.jp
+    detail: 据CGWORLD.jp报道，他任该片CGI监修并统领CG团队，与须藤秀希共同解说3DCG四工序。
+  expertise:
+  - CGI监修
+  - 3DCG制作
+  - CG团队统筹
+- name: 须藤秀希
+  slug: xu-teng-xiu-xi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: 须藤秀希在《超梦的逆袭 EVOLUTION》中担任构图监修，与CGI监修那须基仁一同统领CG团队 [1]。据CGWORLD.jp报道，该篇采访请两人面向CG初学者解说3DCG的建模、动画、光照、特效四个工序 [1]。据同一报道，两人在采访中谈及对3DCG能否被接受的担忧 [1]。
+  citations:
+  - n: 1
+    post: 2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm
+    title: CGWORLD.jp 2019：OLM Digital谈《超梦的逆袭 EVOLUTION》3DCG制作
+    date: '2019-08-29'
+    publication: CGWORLD.jp
+    detail: 据CGWORLD.jp报道，须藤秀希在本作担任构图监修，与CGI监修那须基仁共同统领CG团队。
+  expertise:
+  - 构图监修
+  - 3DCG
+  - CG团队统括
+- name: 渡边敦
+  slug: du-bian-dun
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 渡边敦在Creatures株式会社的动作团队担任设计负责人 [1]。据IMAGICA GEEQ报道，Creatures在《宝可梦 X・Y》之后的正篇系列中负责宝可梦的建模和动作制作，并制作提供用于《Pokémon GO》等作品及宣传影像、手办原型的宝可梦模型数据 [1]。其经手的领域涉及宝可梦的3D建模与动作制作 [1]。
+  citations:
+  - n: 1
+    post: 2023-03-24-interview-geeq-creatures-design-leader-watanabe
+    title: IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发
+    date: '2023-03-24'
+    publication: IMAGICA GEEQ
+    detail: 据IMAGICA GEEQ报道，渡边敦在动作团队担任设计负责人。
+  expertise:
+  - 3D建模
+  - 动作制作
+  - 设计负责
+- name: 半田佑马
+  slug: ban-tian-you-ma
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2025'
+    last: '2025'
+  summary: 半田佑马在DeNA担任视觉工程师/技术美术，参与《Pokémon TCG Pocket》的卡牌表现制作 [1]。据ゲームメーカーズ报道，他与Creatures的长屋悟及DeNA的山本真史、广田隆哉共同登台介绍该作的卡牌表现制作 [1]。其经手领域涉及卡牌视觉表现与技术美术方向 [1]。
+  citations:
+  - n: 1
+    post: 2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards
+    title: ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作
+    date: '2025-08-04'
+    publication: ゲームメーカーズ
+    detail: 据ゲームメーカーズ报道，其以DeNA视觉工程师/技术美术身份登台介绍《Pokémon TCG Pocket》卡牌表现制作。
+  expertise:
+  - 技术美术
+  - 视觉工程
+  - 卡牌表现
+- name: 山本真史
+  slug: shan-ben-zhen-shi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2025'
+    last: '2025'
+  summary: 据ゲームメーカーズ报道，山本真史以DeNA游戏服务事业本部开发运营统括部第一技术部技术推进第一组图形工程师的身份，参与《Pokémon TCG Pocket》的卡牌表现制作 [1]。该篇访谈中，他与Creatures的长屋悟及同公司的半田佑马、广田隆哉一同登台，围绕卡牌表现的制作进行分享 [1]。其经手领域涉及集换式卡牌游戏中卡牌视觉表现的图形技术实现 [1]。
+  citations:
+  - n: 1
+    post: 2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards
+    title: ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作
+    date: '2025-08-04'
+    publication: ゲームメーカーズ
+    detail: 据该篇报道，其头衔为DeNA技术推进第一组图形工程师，并作为4位登台者之一参与卡牌表现制作分享。
+  expertise:
+  - 图形工程
+  - 卡牌表现
+  - 视觉实现
+- name: 广田隆哉
+  slug: guang-tian-long-zai
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2025'
+    last: '2025'
+  summary: 据ゲームメーカーズ报道，广田隆哉以DeNA游戏服务事业本部开发运营统括部设计部创意第一组技术美术的身份，参与了《Pokémon TCG Pocket》卡牌表现制作的会议分享 [1]。其经手的领域为卡牌视觉表现相关的技术美术工作 [1]。
+  citations:
+  - n: 1
+    post: 2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards
+    title: ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作
+    date: '2025-08-04'
+    publication: ゲームメーカーズ
+    detail: 据ゲームメーカーズ报道，其头衔为DeNA设计部创意第一组技术美术。
+  expertise:
+  - 技术美术
+  - 卡牌表现
+  - 视觉设计
+- name: 长屋悟
+  slug: zhang-wu-wu
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2025'
+    last: '2025'
+  summary: 长屋悟在《Pokémon TCG Pocket》相关会议上以Creatures美术开发部部长、高级美术总监身份出席，介绍宝可梦卡牌游戏的整体概念与移动游戏版的概念 [1]。据该篇报道，他讲解了卡牌收藏性的设计思路，包括按稀有度变化全息图种类、发光方式与UV印刷等特殊加工，从视觉上呈现稀有度层级 [1]。报道还提到，AR与SAR卡牌描绘能让人感受到宝可梦生态的插画，设计时会兼顾插画易看性来施加加工 [1]。其专长集中于卡牌视觉表现与稀有度加工设计。
+  citations:
+  - n: 1
+    post: 2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards
+    title: ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作
+    date: '2025-08-04'
+    publication: ゲームメーカーズ
+    detail: 据该篇报道，他以Creatures美术开发部部长、高级美术总监身份登台介绍卡牌概念。
+  expertise:
+  - 卡牌视觉设计
+  - 稀有度表现
+  - 全息加工
+  - 特殊印刷
+  - 美术总监

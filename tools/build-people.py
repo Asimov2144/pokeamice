@@ -517,6 +517,14 @@ PORTRAITS = [
     # 2026-10-02 按原页重导的帖子里，图注 / alt 点了名的照片
     dict(name="小澤宗明", year=1999, src=_IA + "1999-02-10-interview-hobonichi-1999-ambrella-ozawa/002.jpg", source="ほぼ日刊イトイ新聞 1999-02-10「樹の上の秘密基地」第3回 · 图 alt「小澤宗明氏」", post="1999-02-10-interview-hobonichi-1999-ambrella-ozawa"),
     dict(name="多和田吏", year=2026, src=_IA + "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/006.jpeg", source="Couch Co-op with Dr. Pez 2026-09-21 · 图注「Tawada in front of a poster for Pokemon XD」", post="2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority"),
+    # 2026-10-17 batch (bookmarks import). Metro's group photo: the man on the screen at the left (video link from Tokyo, glasses) is Ohmori,
+    # the one holding the plush is Masuda - the same left/right as the Polygon photo of the same session above; the photo's caption names both.
+    dict(name="大森滋", year=2019, src=_IA + "2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori/001.jpg", region="left", source="2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori · The creators of Pokémon Sword and Shield: Junichi Masuda and Shigeru Ohmori（左：视频连线的大森滋）", post="2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori"),
+    dict(name="增田顺一", year=2019, src=_IA + "2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori/001.jpg", region="right", source="2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori · The creators of Pokémon Sword and Shield: Junichi Masuda and Shigeru Ohmori（右：增田顺一）", post="2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori"),
+    # GEEQ: the caption under the photo names him (デザインリーダー渡辺敦（ワタナベ アツシ）氏), a single person
+    dict(name="渡边敦", year=2023, main=True, src=_IA + "2023-03-24-interview-geeq-creatures-design-leader-watanabe/008.jpg", source="IMAGICA GEEQ 2023-03-24 Creatures 设计负责人访谈 · 图注「デザインリーダー渡辺敦（ワタナベ アツシ）氏」", post="2023-03-24-interview-geeq-creatures-design-leader-watanabe"),
+    # 産経ニュース 2026-03-26: the caption names him (…と振り返る石原恒和社長)
+    dict(name="石原恒和", year=2026, src=_IA + "2026-03-26-interview-sankei-ishihara-pokemon-30th/002.jpg", source="产经新闻 2026-03-26 石原恒和社长访谈 · 图注「…と振り返る石原恒和社長」", post="2026-03-26-interview-sankei-ishihara-pokemon-30th"),
 ]
 
 

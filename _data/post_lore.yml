@@ -22159,6 +22159,40 @@
     text: 妮洛莉卡独自去法国旅行，努力和当地人聊天。
   - seg: 13
     text: 乔尼在婚礼前拍了婚纱照，按摄影师指示摆姿势。
+2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura:
+  facets:
+    people:
+    - name: 吉田直树
+      role: mentioned
+      slug: ji-tian-zhi-shu
+    - name: 市村龙太郎
+      role: mentioned
+      slug: shi-cun-long-tai-lang
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    - name: TAITAI
+      role: mentioned
+    places:
+    - name: 六本木
+      what: 露伊达的酒馆开业地
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 勇者斗恶龙IX 星空的守护者
+      slug: null
+    - name: 勇者斗恶龙 达伊的大冒险
+      slug: null
+  id: interview-4gamer-cedec-2010-ishihara-ichimura
+  observations:
+  - anchor: 13
+    seg: 12
+    text: 市村说《勇者斗恶龙9》采取长期数据配信等措施，仍远不及宝可梦。
+  - anchor: 33
+    seg: 32
+    text: 石原说《宝可梦》一开始只考虑卡牌游戏化，其余展开未定。
 2010-09-10-gamefreak-director-175:
   facets:
     people:
@@ -31618,6 +31652,51 @@
     title: 第237回
     url: /gamefreak-director/entry-237/
     why: 同系列后篇，接续广播节目之后的专栏
+2013-06-12-interview-4gamer-e3-2013-xy-developer-discussion:
+  facets:
+    people:
+    - name: 4Gamer
+      role: speaker
+    - name: 石原恒和
+      role: speaker
+      slug: ishihara-tsunekazu
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: 御月亜希
+      role: mentioned
+    places: []
+    pokemon:
+    - name: 独角犀牛
+      ndex: 111
+    - name: 音波龙
+      ndex: 715
+    - name: 伊裴尔塔尔
+      ndex: 717
+    works:
+    - name: 宝可梦 X·Y
+      slug: x-y
+  id: interview-4gamer-e3-2013-xy-developer-discussion
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 2013年6月11日E3首日，任天堂在会场举办Developer discussion
+  - anchor: 24
+    seg: 23
+    text: 增田顺一称本作可向8个方向移动，采用网格是为让玩家易明白遇宝可梦
+  relations:
+  - id: gamefreak-director-238
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 第238回
+    url: /gamefreak-director/entry-238/
+    why: 同为2013年E3开发者圆桌会议的记录
+  - id: gamefreak-director-237
+    kind: background
+    label: 为这篇提供背景
+    title: 第237回
+    url: /gamefreak-director/entry-237/
+    why: 交代X·Y全球同日发售与本地化完成
 2013-06-18-gamefreak-director-237:
   facets:
     people:
@@ -32805,6 +32884,53 @@
     title: Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道
     url: //interview-eurogamer-spain-xy-masuda-yoshida/
     why: 同为2013年增田谈《X·Y》全球同步发售的专访
+2013-11-06-interview-pokemaster-xy-masuda-barcelona:
+  facets:
+    people:
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    places:
+    - name: 巴黎
+      what: 卡洛斯地区灵感来源
+      world: real
+    - name: 法国
+      what: 设定灵感来源
+      world: real
+    - name: 西班牙
+      what: 采访地点
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可梦 X·Y
+      slug: x-y
+  id: interview-pokemaster-xy-masuda-barcelona
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 制作人员名单中约500人参与该项目
+  - anchor: 6
+    seg: 5
+    text: 从DS到3DS的转变是设定灵感的起点
+  relations:
+  - id: interview-nintendolife-2013-xy
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 增田顺一与吉田宏信谈《宝可梦 X·Y》
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/
+    why: 同为增田谈X·Y开发规模，均提制作人员名单约500人
+  - id: interview-jv-2013-xy
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 增田顺一谈宝可梦 X·Y
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/
+    why: 同为增田谈X·Y，均提卡洛斯地区取材法国
+  - id: interview-multiplayer-2013-xy
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 增田顺一谈宝可梦 X·Y
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-multiplayer-2013-xy/
+    why: 同为增田谈X·Y，均提全球同步发售与3D化
 2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama:
   facets:
     people:
@@ -34390,6 +34516,95 @@
   - anchor: 76
     seg: 75
     text: 汤山说从最初想到主意算起已做了19(?)年
+2015-07-30-scan-pokemon-life-2015-07-ohmori-oras:
+  facets:
+    people:
+    - name: 大森滋
+      role: mentioned
+      slug: ohmori-shigeru
+    - name: 小遥
+      role: mentioned
+    - name: 小悠
+      role: mentioned
+    - name: 满充
+      role: mentioned
+    - name: 赤焰松
+      role: mentioned
+    - name: 水梧桐
+      role: mentioned
+    - name: 铁旋
+      role: mentioned
+    - name: 大吾
+      role: mentioned
+    places:
+    - name: 小田卷博士的家
+      what: 拜访博士的家
+      world: game
+    - name: 未白镇
+      what: 主角的故乡
+      world: game
+    - name: 103号道路
+      what: 出发地点
+      world: game
+    - name: 流星瀑布
+      what: 两队对峙之地
+      world: game
+    - name: 天气研究所
+      what: 119号道路的研究所
+      world: game
+    - name: 觉醒祠堂
+      what: 固拉多盖欧卡苏醒处
+      world: game
+    - name: 丰缘地区
+      what: 故事舞台
+      world: game
+    - name: 紫堇市
+      what: 铁旋任馆主的城市
+      world: game
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 黑暗鸦
+      ndex: 198
+    - name: 土狼犬
+      ndex: 261
+    - name: 拉鲁拉丝
+      ndex: 280
+    - name: 蘑蘑菇
+      ndex: 285
+    - name: ラティアス
+      ndex: 380
+    - name: ラティオス
+      ndex: 381
+    - name: カイオーガ
+      ndex: 382
+    - name: グラードン
+      ndex: 383
+    - name: 烈空坐
+      ndex: 384
+    - name: 代欧奇希斯
+      ndex: 386
+    - name: 飘飘球
+      ndex: 425
+    - name: 艾路雷朵
+      ndex: 475
+    - name: 勇士雄鹰
+      ndex: 628
+    - name: 豪力
+      ndex: 67
+    works:
+    - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      slug: oras
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 X·Y
+      slug: x-y
+  id: scan-pokemon-life-2015-07-ohmori-oras
+  observations:
+  - seg: 7
+    text: 距《宝可梦 红宝石·蓝宝石》发售已过去约12年。
+  - seg: 38
+    text: 满充在对战度假地的对战屋达成50连胜后出现。
 2015-08-01-interview-gamefreak-gear-tembo-turner:
   facets:
     people:
@@ -37568,6 +37783,34 @@
     text: 今天是会餐，本店在博多中洲的店
   - seg: 7
     text: 左边是猪肉，右边是牛肉
+2016-05-24-interview-sankei-ishihara-smartphone-global-ai:
+  facets:
+    people:
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    places: []
+    pokemon: []
+    works:
+    - name: ポケモンコマスター
+      slug: null
+    - name: 宝可梦GO
+      slug: null
+  id: interview-sankei-ishihara-smartphone-global-ai
+  observations:
+  - anchor: 2
+    seg: 1
+    text: 以4月上线的首款正式智能手机游戏和年内上线的位置信息游戏为新支柱
+  - anchor: 4
+    seg: 3
+    text: 4月12日在日本国内开始免费上线《ポケモンコマスター》
+  relations:
+  - id: interview-inside-2016-ishihara-20th
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦20年：连接现实与虚拟
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-inside-2016-ishihara-20th/
+    why: 20周年访谈回顾系列起点与GO构想
 2016-05-25-gamefreak-lineblog-3688526:
   facets:
     people:
@@ -38842,6 +39085,50 @@
     title: 【活动】2016伦敦宝可梦媒体之旅
     url: /gamefreak-director/lineblog-7558415/
     why: 同为太阳月亮媒体巡回行程记录
+2016-06-16-interview-sankei-ishihara-pokemon-go-20th:
+  facets:
+    people:
+    - name: 産経新聞
+      role: speaker
+    - name: 石原恒和
+      role: speaker
+      slug: ishihara-tsunekazu
+    - name: 牛岛要平
+      role: mentioned
+    - name: 岩田聪
+      role: mentioned
+      slug: iwata-satoru
+    places:
+    - name: 东京
+      what: HEROZ所在地
+      world: real
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    works:
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: Pokémon GO
+      slug: null
+    - name: ポケモンコマスター
+      slug: null
+    - name: Ingress
+      slug: null
+  id: interview-sankei-ishihara-pokemon-go-20th
+  observations:
+  - anchor: 4
+    seg: 3
+    text: 宝可梦首作于平成8年2月面向Game Boy发售，系列累计25款。
+  - anchor: 4
+    seg: 3
+    text: 截至今年2月下旬，全球累计销量突破2亿份。
+  relations:
+  - id: interview-inside-2016-ishihara-20th
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦20年：连接现实与虚拟
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-inside-2016-ishihara-20th/
+    why: 同为石原恒和回顾宝可梦20年与GO构想
 2016-06-17-gamefreak-lineblog-4245921:
   facets:
     people:
@@ -39779,6 +40066,50 @@
     title: 【日记】2016年世田谷公园寻化石盔
     url: /gamefreak-director/lineblog-6827320/
     why: 同系列日记，继续记录外出捕捉宝可梦
+2016-07-22-interview-sankei-pokemon-go-nintendo-concept:
+  facets:
+    people:
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    - name: 岩田聪
+      role: mentioned
+      slug: iwata-satoru
+    places:
+    - name: 东京
+      what: 宝可梦公司所在地
+      world: real
+    pokemon: []
+    works:
+    - name: Pokémon GO
+      slug: null
+    - name: 宝可梦GO
+      slug: null
+    - name: Ingress
+      slug: null
+    - name: Miitomo
+      slug: null
+  id: interview-sankei-pokemon-go-nintendo-concept
+  observations:
+  - anchor: 3
+    seg: 2
+    text: 石原称《宝可梦GO》是他与岩田聪投入的最大项目
+  - anchor: 8
+    seg: 7
+    text: 收入归宝可梦和Niantic，任天堂持宝可梦32%股份
+  relations:
+  - id: interview-nikkei-utsunomiya-pokemon-go
+    kind: responds
+    label: 后来回应了这篇
+    title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
+    url: /developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/
+    why: 宇都宫详述GO日美合作及岩田聪参与
+  - id: interview-inside-2016-ishihara-20th
+    kind: background
+    label: 为这篇提供背景
+    title: 宝可梦20年：连接现实与虚拟
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-inside-2016-ishihara-20th/
+    why: 石原谈GO连接现实与虚拟的理念
 2016-07-23-gamefreak-lineblog-5235956:
   facets:
     people:
@@ -39914,6 +40245,56 @@
     title: 【创作】2016年宝可梦音效制作
     url: /gamefreak-director/lineblog-2648469/
     why: 增田回忆红绿声音设计，对应作曲方法
+2016-07-25-interview-sankei-business-pokemon-go-dangerous-game:
+  facets:
+    people:
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    - name: 约翰·汉克
+      role: mentioned
+      slug: john-hanke
+    places:
+    - name: 道顿堀
+      what: 宝可梦出现地
+      world: real
+    - name: 戎桥
+      what: 照片拍摄地
+      world: real
+    - name: 大屠杀纪念博物馆
+      what: 华盛顿纪念设施
+      world: real
+    - name: 阿灵顿国家公墓
+      what: 安葬阵亡者之地
+      world: real
+    - name: 奥斯维辛-比克瑙博物馆
+      what: 集中营旧址博物馆
+      world: real
+    - name: 纽约州
+      what: 撞树事故地点
+      world: real
+    - name: 加利福尼亚州
+      what: 坠崖受伤地点
+      world: real
+    - name: 密苏里州
+      what: 埋伏抢劫案地点
+      world: real
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    works:
+    - name: Pokémon GO
+      slug: null
+    - name: 糖果传奇
+      slug: null
+  id: interview-sankei-business-pokemon-go-dangerous-game
+  observations:
+  - anchor: 9
+    seg: 8
+    text: SurveyMonkey称美国日玩家人数发布一周内约2100万，超过《糖果传奇》
+  - anchor: 12
+    seg: 11
+    text: 奥斯维辛-比克瑙博物馆在推特上向约翰·汉克抗议，要求停止指定为游玩地点
 2016-08-12-gamefreak-lineblog-5460146:
   facets:
     people:
@@ -40433,6 +40814,55 @@
     text: 游戏介绍映像里有究极异兽、属性：空、阿罗拉形态的拉达登场
   - seg: 15
     text: 增田顺一没想到会取名为“属性：空”
+2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima:
+  facets:
+    people:
+    - name: 産経新聞
+      role: speaker
+    - name: 宇都宫崇人
+      role: speaker
+      slug: utsunomiya-takato
+    - name: 川岛优志
+      role: speaker
+      slug: kawashima-masashi
+    - name: 约翰·汉克
+      role: mentioned
+      slug: john-hanke
+    - name: 野村达雄
+      role: mentioned
+      slug: nomura-tatsuo
+    - name: 岩田先生
+      role: mentioned
+    places: []
+    pokemon: []
+    works:
+    - name: Pokémon GO
+      slug: null
+    - name: 宝可梦GO
+      slug: null
+    - name: 谷歌地图
+      slug: null
+  id: interview-sankei-pokemon-go-utsunomiya-kawashima
+  observations:
+  - anchor: 4
+    seg: 3
+    text: 宇都宫崇人称约翰·汉克多次说人只要出门走路就能变得幸福
+  - anchor: 7
+    seg: 6
+    text: 契机是2014年4月野村达雄在地图应用上做的愚人节企划
+  relations:
+  - id: interview-nikkei-utsunomiya-pokemon-go
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
+    url: /developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/
+    why: 同为宇都宫崇人谈GO日美合作与2014愚人节企划
+  - id: interview-gnn-pokemon-go-tokyo-roundtable
+    kind: background
+    label: 为这篇提供背景
+    title: 巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望
+    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6go/%E7%AD%96%E5%88%92%E4%B8%8E%E8%BF%90%E8%90%A5/interview-gnn-pokemon-go-tokyo-roundtable/
+    why: 野村达雄详述2014谷歌愚人节企划起源
 2016-09-14-gamefreak-lineblog-5309273:
   facets:
     people:
@@ -41116,6 +41546,56 @@
     title: 【活动】2016年宝可梦日月新情报
     url: /gamefreak-director/lineblog-3375970/
     why: 5月10日新情报公开，前篇预告后篇发布
+2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon:
+  facets:
+    people:
+    - name: 大森滋
+      role: speaker
+      slug: ohmori-shigeru
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: Dr Lava
+      role: mentioned
+    places: []
+    pokemon:
+    - name: 鲤鱼王
+      ndex: 129
+    - name: 木木枭
+      ndex: 722
+    - name: 火斑喵
+      ndex: 725
+    works:
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+    - name: 宝可梦 太阳／月亮
+      slug: null
+    - name: 宝可梦 GO
+      slug: null
+    - name: 宝可梦 黑／白
+      slug: null
+    - name: 宝可梦 黑2／白2
+      slug: null
+    - name: 宝可梦 X／Y
+      slug: null
+    - name: 宝可梦 欧米伽红宝石／阿尔法蓝宝石
+      slug: null
+    - name: 宝可梦 灰
+      slug: null
+    - name: 宝可梦 Z
+      slug: null
+    - name: 宝可梦竞技场
+      slug: stadium
+    - name: 宝可梦圆形竞技场
+      slug: colosseum
+  id: interview-lavacut-onm-spain-masuda-ohmori-sun-moon
+  observations:
+  - anchor: 21
+    seg: 20
+    text: 增田顺一称从未计划做第三版本，想做让粉丝惊喜的东西。
+  - anchor: 23
+    seg: 22
+    text: 被问及《宝可梦圆形竞技场》风格游戏时，增田顺一回答没有。
 2016-12-02-gamefreak-lineblog-9246403:
   facets:
     people:
@@ -42550,6 +43030,59 @@
     title: NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学
     url: //interview-niconico-gamefreak-origins-masuda/
     why: 同述自制FC开发机做《旋转方块》由南梦宫发行
+2017-08-09-interview-hamarepo-masuda-yokohama-origins:
+  facets:
+    people:
+    - name: 增田顺一
+      role: mentioned
+      slug: masuda-junichi
+    - name: 浅田优希
+      role: mentioned
+    - name: 吉田美久
+      role: mentioned
+    places:
+    - name: 东户冢
+      what: 增田成长之地
+      world: real
+    - name: 东户冢站
+      what: 采访出发点
+      world: real
+    - name: 港未来
+      what: 皮卡丘活动会场
+      world: real
+    - name: 川上北小学
+      what: 增田母校
+      world: real
+    - name: 冰淇淋工房梅利亚
+      what: 采访途中去的店
+      world: real
+    - name: 森之洋馆
+      what: 游戏中的神秘地点
+      world: game
+    - name: 陌生人之家
+      what: 游戏中的神秘地点
+      world: game
+    - name: 横滨
+      what: 活动举办城市
+      world: real
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 脱壳忍者
+      ndex: 292
+    works:
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+  id: interview-hamarepo-masuda-yokohama-origins
+  observations:
+  - anchor: 29
+    seg: 28
+    text: 增田说东户冢站建成时他约12岁，此前坐公交去户冢或横滨要一小时。
+  - anchor: 62
+    seg: 61
+    text: 增田说西雅图本来没有蝉，脱壳忍者本地化时曾费过一番功夫。
 2017-08-10-interview-gameinformer-how-game-freak-designs-pokemon-creatures:
   facets:
     people:
@@ -45012,6 +45545,35 @@
     title: 宝可梦 Let's Go 开发者访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/
     why: 同谈Pokémon GO与Let's Go联动背景
+2019-02-12-interview-jdn-arita-pokemon-card-illustrator:
+  facets:
+    people:
+    - name: JDN
+      role: speaker
+    - name: 有田满弘
+      role: speaker
+      slug: you-tian-man-hong
+    - name: 平林理奈
+      role: mentioned
+    places: []
+    pokemon:
+    - name: 小火龙
+      ndex: 4
+    - name: 皮卡丘
+      ndex: 25
+    works:
+    - name: 宝可梦集换式卡牌游戏
+      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
+  id: interview-jdn-arita-pokemon-card-illustrator
+  observations:
+  - anchor: 6
+    seg: 5
+    text: 有田满弘称公认插画师约有80名，由Creatures分配卡牌。
+  - anchor: 7
+    seg: 6
+    text: 从下单到交付的周期大约2个月。
 2019-04-01-interview-gamefreak-recruit-pg-yi:
   facets:
     people:
@@ -45234,6 +45796,89 @@
     title: 宝可梦剑盾开发访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/
     why: 后续解释遗留宝可梦缺席原因
+2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm:
+  facets:
+    people:
+    - name: 那须基仁
+      role: mentioned
+      slug: na-xu-ji-ren
+    - name: 须藤秀希
+      role: mentioned
+      slug: xu-teng-xiu-xi
+    - name: 野澤 慧
+      role: mentioned
+    - name: 市村正亲
+      role: mentioned
+      slug: ichimura-masachika
+    - name: 小林幸子
+      role: mentioned
+      slug: kobayashi-sachiko
+    - name: 山寺宏一
+      role: mentioned
+    - name: 松本梨香
+      role: mentioned
+      slug: matsumoto-rica
+    - name: 大谷育江
+      role: mentioned
+      slug: otani-ikue
+    - name: 林原惠美
+      role: mentioned
+      slug: hayashibara-megumi
+    - name: 三木真一郎
+      role: mentioned
+      slug: miki-shinichiro
+    - name: 犬山犬子
+      role: mentioned
+      slug: inuyama-inuko
+    - name: 石冢运昇
+      role: mentioned
+    - name: 中川翔子
+      role: mentioned
+      slug: nakagawa-shoko
+    - name: 田尻智
+      role: mentioned
+      slug: tajiri-satoshi
+    - name: 汤山邦彦
+      role: mentioned
+      slug: yuyama-kunihiko
+    - name: 榊原干典
+      role: mentioned
+    - name: 首藤刚志
+      role: mentioned
+      slug: shudo-takeshi
+    - name: 冈本顺哉
+      role: mentioned
+    - name: 片上秀长
+      role: mentioned
+    - name: 下平聪士
+      role: mentioned
+    - name: 关口彩香
+      role: mentioned
+    - name: 长渕阳介
+      role: mentioned
+    - name: 小林雅士
+      role: mentioned
+    places: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: ドンファン
+      ndex: 232
+    works:
+    - name: 宝可梦 剧场版 超梦的逆袭 EVOLUTION
+      slug: null
+    - name: 剧场版宝可梦 超梦的逆袭
+      slug: null
+    - name: 太阳&月亮
+      slug: null
+  id: interview-cgworld-mewtwo-evolution-3dcg-olm
+  observations:
+  - anchor: 13
+    seg: 12
+    text: 那须基仁与须藤秀希异口同声担心3DCG能否被接受。
+  - anchor: 24
+    seg: 23
+    text: 小刚的细眼最终用生长大量粗硬睫毛来表现。
 2019-10-01-interview-gi-2019-dexit:
   facets:
     people:
@@ -45545,6 +46190,86 @@
     title: 宝可梦剑盾开发访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/
     why: 同日Polygon采访增田顺一与大森滋
+2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori:
+  facets:
+    people:
+    - name: GC
+      role: speaker
+    - name: 大森滋
+      role: speaker
+      slug: ohmori-shigeru
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: David Jenkins
+      role: mentioned
+    - name: 小泉欢晃
+      role: mentioned
+    places:
+    - name: 伦敦
+      what: 宝可梦中心开业地
+      world: real
+    - name: 伽勒尔地区
+      what: 本作游戏舞台
+      world: game
+    - name: 东京
+      what: 大森滋视频连线地
+      world: real
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 伽勒尔小火马
+      ndex: 77
+    works:
+    - name: 宝可梦 剑·盾
+      slug: sword-shield
+    - name: 宝可梦 剑／盾
+      slug: null
+    - name: 超级马力欧 奥德赛
+      slug: null
+    - name: 宝可梦随乐拍2
+      slug: null
+    - name: Let's Go，皮卡丘／Let's Go，伊布
+      slug: null
+    - name: 纸片马力欧
+      slug: null
+    - name: 唐顿庄园
+      slug: null
+    - name: 蒙提·派森
+      slug: null
+  id: interview-metro-gamecentral-swsh-masuda-ohmori
+  observations:
+  - anchor: 4
+    seg: 3
+    text: GameCentral在不到六个月里第二次与增田顺一、大森滋对话，首次是6月E3。
+  - anchor: 5
+    seg: 4
+    text: 《宝可梦 剑／盾》曾办24小时直播，只展示一个新宝可梦变体。
+  relations:
+  - id: interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori
+    kind: background
+    label: 为这篇提供背景
+    title: Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新
+    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E4%B8%96%E4%BB%A3%E5%8F%98%E9%9D%A9/interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/
+    why: 6月E3采访增田、大森，为本篇第二次对话提供前情
+  - id: interview-gi-2019-champion
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 大森滋与增田顺一谈《剑／盾》
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/
+    why: 同日采访增田顺一与大森滋谈剑盾
+  - id: interview-polygon-2019-swsh
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 宝可梦剑盾开发访谈
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/
+    why: 同日采访增田顺一与大森滋谈剑盾
+  - id: interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/
+    why: 同日采访增田顺一与大森滋谈剑盾
 2019-10-24-interview-polygon-2019-swsh:
   facets:
     people:
@@ -48169,6 +48894,64 @@
   - anchor: 26
     seg: 25
     text: 上乡赖臣称能直接交到顾客手中的地方以日本为主
+2023-03-24-interview-geeq-creatures-design-leader-watanabe:
+  facets:
+    people:
+    - name: 渡边敦
+      role: mentioned
+      slug: du-bian-dun
+    places: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    works:
+    - name: 宝可梦 X·Y
+      slug: x-y
+    - name: 宝可梦 太阳·月亮
+      slug: sun-moon
+    - name: 宝可梦 X・Y
+      slug: null
+    - name: Pokémon GO
+      slug: null
+    - name: 宝可梦加傲乐
+      slug: null
+    - name: ポケモンコマスター
+      slug: null
+    - name: 宝可梦巡护员
+      slug: null
+    - name: 宝可公园
+      slug: null
+    - name: 名侦探皮卡丘
+      slug: detective-pikachu
+    - name: 宝可梦巡护员 巴特那吉
+      slug: null
+    - name: 宝可梦巡护员 光的轨迹
+      slug: null
+    - name: 宝可公园Wii ～皮卡丘的大冒险～
+      slug: null
+    - name: 宝可公园2 ～Beyond the World～
+      slug: null
+    - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      slug: oras
+    - name: 名侦探皮卡丘 ～新组合诞生～
+      slug: null
+    - name: 名侦探皮卡丘 完全完结篇
+      slug: null
+  id: interview-geeq-creatures-design-leader-watanabe
+  observations:
+  - anchor: 23
+    seg: 22
+    text: 渡边敦2011年经IMAGICA DIGITALSCAPE介绍，作为派遣员工到GAME FREAK工作。
+  - anchor: 35
+    seg: 34
+    text: 数字开发本部有60多名员工，宝可梦CG工作室下设建模、动作和信息管理团队。
+  relations:
+  - id: interview-cgworld-creatures-3d-character-life
+    kind: background
+    label: 为这篇提供背景
+    title: CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术
+    url: /developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/
+    why: 同属Creatures建模与动作团队专访，提供工作室与人员背景
 2023-04-19-interview-cgworld-2023-sv-making-1:
   facets:
     people:
@@ -50281,6 +51064,44 @@
   - anchor: 5
     seg: 4
     text: 活动配合韩国儿童节于2024年首次举办，今年是第二届
+2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards:
+  facets:
+    people:
+    - name: 半田佑马
+      role: mentioned
+      slug: ban-tian-you-ma
+    - name: 山本真史
+      role: mentioned
+      slug: shan-ben-zhen-shi
+    - name: 广田隆哉
+      role: mentioned
+      slug: guang-tian-long-zai
+    - name: 长屋悟
+      role: mentioned
+      slug: zhang-wu-wu
+    - name: NUMAKURA Arihito
+      role: mentioned
+    places: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 火焰鸟
+      ndex: 146
+    works:
+    - name: Pokémon Trading Card Game Pocket
+      slug: null
+    - name: 宝可梦集换式卡牌游戏
+      slug: null
+    - name: Pokémon TCG Pocket
+      slug: null
+  id: interview-gamemakers-cedec-2025-ptcg-pocket-cards
+  observations:
+  - anchor: 60
+    seg: 59
+    text: 判断♢♢♢相比纸卡稀有卡稍增视觉冲击力更利于整体平衡，定为两种全息
+  - anchor: 317
+    seg: 316
+    text: 项目初期用Maya工作流，引入Houdini后工时削减约60%
 2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book:
   facets:
     people:
@@ -50815,6 +51636,27 @@
   - anchor: 8
     seg: 7
     text: 2025年9至10月在茨城县永旺梦乐城水户内原开店
+2026-03-26-interview-sankei-ishihara-pokemon-30th:
+  facets:
+    people:
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    places: []
+    pokemon:
+    - name: 梦幻
+      ndex: 151
+    works:
+    - name: 宝可梦 红·绿
+      slug: red-green
+  id: interview-sankei-ishihara-pokemon-30th
+  observations:
+  - anchor: 6
+    seg: 5
+    text: 《红·绿》因技术问题开发耗时6年，发售时Game Boy热潮已过。
+  - anchor: 7
+    seg: 6
+    text: 《CoroCoro Comic》的梦幻赠送企划成为引爆点，带来大热。
 2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program:
   facets:
     people: []

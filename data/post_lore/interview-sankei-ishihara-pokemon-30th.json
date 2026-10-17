@@ -1,0 +1,133 @@
+{
+ "id": "interview-sankei-ishihara-pokemon-30th",
+ "stem": "2026-03-26-interview-sankei-ishihara-pokemon-30th",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 7
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     6
+    ],
+    "as": [
+     "梦幻"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     1
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3
+    ]
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     1
+    ],
+    "as": [
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "education",
+    "name": "教育与育儿",
+    "facet": "audience",
+    "seg": [
+     1
+    ],
+    "as": [
+     "教育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     1
+    ],
+    "as": [
+     "品牌管理"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     5
+    ],
+    "as": [
+     "通信线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     5,
+     6
+    ],
+    "as": [
+     "热潮",
+     "社会现象"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "《红·绿》因技术问题开发耗时6年，发售时Game Boy热潮已过。",
+   "anchor": 6
+  },
+  {
+   "seg": 6,
+   "text": "《CoroCoro Comic》的梦幻赠送企划成为引爆点，带来大热。",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

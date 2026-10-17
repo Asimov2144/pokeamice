@@ -1,0 +1,351 @@
+{
+ "id": "interview-jdn-arita-pokemon-card-illustrator",
+ "stem": "2019-02-12-interview-jdn-arita-pokemon-card-illustrator",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 49
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "小火龙",
+    "ndex": 4,
+    "seg": [
+     27,
+     29
+    ],
+    "as": [
+     "小火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     40
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     40
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "JDN",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     4,
+     11,
+     15,
+     20,
+     22,
+     25
+    ]
+   },
+   {
+    "name": "有田满弘",
+    "slug": "you-tian-man-hong",
+    "role": "speaker",
+    "seg": [
+     5,
+     6,
+     7,
+     12,
+     16,
+     17
+    ]
+   },
+   {
+    "name": "平林理奈",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     0,
+     1,
+     5,
+     7,
+     10,
+     20
+    ],
+    "as": [
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     0,
+     1,
+     5,
+     10,
+     21,
+     29
+    ],
+    "as": [
+     "集换式卡牌",
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     1,
+     10
+    ],
+    "as": [
+     "企划阶段"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     5,
+     6,
+     7,
+     12,
+     14,
+     43
+    ],
+    "as": [
+     "草图",
+     "铅笔",
+     "画材"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "education",
+    "name": "教育与育儿",
+    "facet": "audience",
+    "seg": [
+     10
+    ],
+    "as": [
+     "教育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     10
+    ],
+    "as": [
+     "指导"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     10
+    ],
+    "as": [
+     "动画电影"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     18
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     21
+    ],
+    "as": [
+     "火属性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     23
+    ],
+    "as": [
+     "翻译"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     23
+    ],
+    "as": [
+     "海外版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
+    "seg": [
+     23
+    ],
+    "as": [
+     "文字量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     26
+    ],
+    "as": [
+     "画风"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     26
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     32
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     32
+    ],
+    "as": [
+     "社交网络"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     38,
+     47
+    ],
+    "as": [
+     "分发"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     43
+    ],
+    "as": [
+     "手感"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 5,
+   "text": "有田满弘称公认插画师约有80名，由Creatures分配卡牌。",
+   "anchor": 6
+  },
+  {
+   "seg": 6,
+   "text": "从下单到交付的周期大约2个月。",
+   "anchor": 7
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

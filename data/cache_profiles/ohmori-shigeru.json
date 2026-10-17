@@ -1,14 +1,14 @@
 {
- "key": "9d2f03cbc094ed73",
+ "key": "ab81d776516457eb",
  "answer": {
-  "summary": "大森滋从策划岗位起步，早期负责道具配置、地图设计详细规格与用户界面、通信系统开发，并在《钻石／珍珠》中统括全部策划 [4][6]。他长期主导通信相关企划，如地下通道、超级华丽大赛，并关注擦肩通信等低门槛通信玩法 [2][4]。担任总监后，他从核心主题出发构思作品，如以「生命」为主题设计《太阳／月亮》的阿罗拉地区与Z招式、岛屿挑战 [6]。作为制作人，他关注内容能否被大众接受，并注意系统与要素名称是否易被各年龄层接受 [5]。他也主张设计师不应局限于本职，而要主动对整体游戏提出构想 [11]。",
+  "summary": "大森滋从地区地图设计与游戏设计起步，逐步承担企划、美术与总监/制作人等职责，长期参与主系列宝可梦的开发。他关注玩家与宝可梦的日常陪伴体验，并以降低通信玩法门槛为设计考量 [1][2]。在《太阳／月亮》中，他围绕自然与人与宝可梦的联系选择夏威夷作为舞台，并用四座岛屿维持冒险的新鲜感 [4]。他强调从大量提案中筛选可行想法，认为最终总会有内容未能实现 [3]。在《剑·盾》中，他重视分辨率提升带来的大小表现与草丛等细节对游戏性的影响，并引入自动保存以适配 Switch 的游玩习惯 [10]。",
   "expertise": [
-   "企划统筹",
-   "地图设计",
-   "通信系统",
-   "用户界面",
+   "游戏设计",
+   "企划",
+   "美术",
    "总监制作",
-   "玩法设计"
+   "通信玩法",
+   "画面表现"
   ],
   "citations": [
    {
@@ -17,57 +17,33 @@
    },
    {
     "n": 2,
-    "detail": "称擦肩通信反响超预期，C装置开关使通信门槛很低。"
+    "detail": "称擦肩通信反响超出预期，希望以低门槛通信引导玩家尝试其他通信功能。"
+   },
+   {
+    "n": 3,
+    "detail": "谈《太阳／月亮》成功因素，并说开发中会筛选想法、舍弃不可行内容。"
    },
    {
     "n": 4,
-    "detail": "2001年入职任策划，在《钻石／珍珠》任策划组长并负责地下通道等通信企划。"
-   },
-   {
-    "n": 5,
-    "detail": "从增田顺一接手，首次担任制作人，开始注意要素名称是否易被接受。"
-   },
-   {
-    "n": 6,
-    "detail": "最初在《红宝石·蓝宝石》负责用户界面、通信系统开发与机制创意。"
-   },
-   {
-    "n": 7,
-    "detail": "据该报道，他在发布会上宣布GAME FREAK新作《宝可梦 探险寻宝》。"
-   },
-   {
-    "n": 8,
-    "detail": "谈《剑·盾》旷野地带穿着熊，并说自己开发中选水系、发售后常选草系。"
-   },
-   {
-    "n": 9,
-    "detail": "称《剑·盾》主题是打造最强宝可梦，并因个人喜欢英国摇滚而影响地区选择。"
+    "detail": "说明因人与自然关系紧密而选夏威夷，并采用四座岛屿保持冒险新鲜感。"
    },
    {
     "n": 10,
-    "detail": "谈苍响、藏玛然特命名体现神秘感，极巨团体战由巨大化与英国巨人传说推动。"
-   },
-   {
-    "n": 11,
-    "detail": "主张设计师不应只问设计，要主动对整体游戏提出逆向提案。"
-   },
-   {
-    "n": 12,
-    "detail": "谈《宝可梦 朱·紫》开发结束后思考新作，同时推进《ぽこ あ ポケモン》与《雨のちハレ女》。"
+    "detail": "称仅确定草丛呈现方式就反复讨论约半年，并说明采用自动保存的考量。"
    }
   ]
  },
  "posts": [
   "2010-03-19-interview-gameinformer-masuda-morimoto-hgss",
   "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
-  "2016-12-05-interview-25043",
-  "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
-  "2017-10-19-interview-famitsu-usum-ohmori-iwao-director",
-  "2017-11-09-interview-pokemon-com-usum-ohmori-iwao",
+  "2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon",
+  "2016-12-12-interview-reportajes",
+  "2017-09-22-interview-gi-2017-gs-history",
+  "2017-11-06-interview-2017-game-freak-dordogne-enquete",
   "2018-05-30-interview-gamer-pokemon-press-conference-2018",
   "2019-10-24-interview-gi-2019-burning",
-  "2019-10-24-interview-vg247-2019-swsh",
-  "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest",
+  "2019-10-24-interview-polygon-2019-swsh",
+  "2019-10-25-interview-famitsu-sword-shield-masuda-ohmori",
   "2021-12-27-interview-gamefreak-crosstalk-designer",
   "2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori"
  ]

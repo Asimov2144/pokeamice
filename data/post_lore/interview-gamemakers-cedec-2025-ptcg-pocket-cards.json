@@ -1,0 +1,512 @@
+{
+ "id": "interview-gamemakers-cedec-2025-ptcg-pocket-cards",
+ "stem": "2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 358
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     106,
+     326,
+     328
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸟",
+    "ndex": 146,
+    "seg": [
+     326,
+     328
+    ],
+    "as": [
+     "火焰鸟"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon Trading Card Game Pocket",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦集换式卡牌游戏",
+    "slug": null,
+    "seg": [
+     35
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon TCG Pocket",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "半田佑马",
+    "slug": "ban-tian-you-ma",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3
+    ]
+   },
+   {
+    "name": "山本真史",
+    "slug": "shan-ben-zhen-shi",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3
+    ]
+   },
+   {
+    "name": "广田隆哉",
+    "slug": "guang-tian-long-zai",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3
+    ]
+   },
+   {
+    "name": "长屋悟",
+    "slug": "zhang-wu-wu",
+    "role": "mentioned",
+    "seg": [
+     1,
+     3
+    ]
+   },
+   {
+    "name": "NUMAKURA Arihito",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     0,
+     4,
+     5,
+     6,
+     19,
+     20
+    ],
+    "as": [
+     "宝可梦卡牌",
+     "集换式卡牌",
+     "卡牌游戏",
+     "TCG"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     6
+    ],
+    "as": [
+     "出货"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     10,
+     30,
+     171,
+     243,
+     265,
+     283
+    ],
+    "as": [
+     "打磨",
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     15,
+     16,
+     42,
+     49,
+     53,
+     56
+    ],
+    "as": [
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     15
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     16
+    ],
+    "as": [
+     "容易理解"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     19,
+     20
+    ],
+    "as": [
+     "手机游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     24,
+     46,
+     115,
+     143,
+     235
+    ],
+    "as": [
+     "手感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     25,
+     283
+    ],
+    "as": [
+     "从零开始"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     31
+    ],
+    "as": [
+     "监修"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     44,
+     97,
+     101,
+     103,
+     104,
+     106
+    ],
+    "as": [
+     "3D模型",
+     "多边形"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-tools",
+    "name": "开发工具与环境",
+    "facet": "tech",
+    "seg": [
+     52
+    ],
+    "as": [
+     "编辑器"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     59,
+     72,
+     74,
+     285
+    ],
+    "as": [
+     "整体平衡",
+     "强度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     142
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     170,
+     175,
+     321
+    ],
+    "as": [
+     "视觉效果",
+     "演出效果"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     199,
+     230,
+     240,
+     251,
+     274,
+     279
+    ],
+    "as": [
+     "脚本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     203
+    ],
+    "as": [
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     208,
+     210,
+     213,
+     220
+    ],
+    "as": [
+     "随机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     235
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     243,
+     342,
+     348
+    ],
+    "as": [
+     "镜头"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     268
+    ],
+    "as": [
+     "试作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     275
+    ],
+    "as": [
+     "原画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     290,
+     291
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     294
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     301,
+     323,
+     332,
+     347
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     303,
+     317
+    ],
+    "as": [
+     "代码"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     304
+    ],
+    "as": [
+     "调试"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 59,
+   "text": "判断♢♢♢相比纸卡稀有卡稍增视觉冲击力更利于整体平衡，定为两种全息",
+   "anchor": 60
+  },
+  {
+   "seg": 316,
+   "text": "项目初期用Maya工作流，引入Houdini后工时削减约60%",
+   "anchor": 317
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

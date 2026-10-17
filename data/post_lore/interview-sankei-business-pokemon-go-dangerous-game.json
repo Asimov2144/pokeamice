@@ -1,0 +1,309 @@
+{
+ "id": "interview-sankei-business-pokemon-go-dangerous-game",
+ "stem": "2016-07-25-interview-sankei-business-pokemon-go-dangerous-game",
+ "rev": 1,
+ "built": "2026-10-17",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 26
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     24
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "糖果传奇",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "约翰·汉克",
+    "slug": "john-hanke",
+    "role": "mentioned",
+    "seg": [
+     11
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "道顿堀",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "宝可梦出现地",
+    "via": "llm"
+   },
+   {
+    "name": "戎桥",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "照片拍摄地",
+    "via": "llm"
+   },
+   {
+    "name": "大屠杀纪念博物馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     3
+    ],
+    "what": "华盛顿纪念设施",
+    "via": "llm"
+   },
+   {
+    "name": "阿灵顿国家公墓",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     5
+    ],
+    "what": "安葬阵亡者之地",
+    "via": "llm"
+   },
+   {
+    "name": "奥斯维辛-比克瑙博物馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     11
+    ],
+    "what": "集中营旧址博物馆",
+    "via": "llm"
+   },
+   {
+    "name": "纽约州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "撞树事故地点",
+    "via": "llm"
+   },
+   {
+    "name": "加利福尼亚州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     13
+    ],
+    "what": "坠崖受伤地点",
+    "via": "llm"
+   },
+   {
+    "name": "密苏里州",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     14
+    ],
+    "what": "埋伏抢劫案地点",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     0
+    ],
+    "as": [
+     "配信"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     1,
+     3,
+     6,
+     8
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     1
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     7,
+     11
+    ],
+    "as": [
+     "热潮",
+     "抗议"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     15
+    ],
+    "as": [
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     20
+    ],
+    "as": [
+     "玩家之间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     24
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     24
+    ],
+    "as": [
+     "水属性"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "SurveyMonkey称美国日玩家人数发布一周内约2100万，超过《糖果传奇》",
+   "anchor": 9
+  },
+  {
+   "seg": 11,
+   "text": "奥斯维辛-比克瑙博物馆在推特上向约翰·汉克抗议，要求停止指定为游玩地点",
+   "anchor": 12
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-sankei-ishihara-pokemon-go-20th",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦20年构想与宝可梦GO",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-ishihara-pokemon-go-20th/",
+   "why": "同报同人采访，石原谈融合现实理念"
+  },
+  {
+   "id": "interview-sankei-pokemon-go-nintendo-concept",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "宝可梦GO：现实与游戏的融合",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-nintendo-concept/",
+   "why": "同报同人采访，石原谈GO项目与岩田聪"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}
