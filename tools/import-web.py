@@ -85,6 +85,10 @@ NOISE_CLASS = re.compile(r"(?:^|[-_ ])(ads?|advert\w*|sponsor\w*|share|social|sn
 # where a site keeps the full-size file of the picture it shows small
 FULLSIZE = [(r"(/games/\d+/G\d+/\d+/)TN/(\d+\.jpg)$", r"\g<1>SS/\g<2>"),               # 4Gamer
             (r"^(https?://image\.gamer\.ne\.jp/.*/)m/(\d+\.jpg)$", r"\g<1>o/\g<2>")]    # gamer.ne.jp
+# FULLSIZE guesses the big file from the thumbnail's address; where the site never made one (4Gamer keeps /SS/ only for the pictures it links)
+# the guess is a 404, so fetch_image falls back to the address the page itself gave
+FULLSIZE_BACK = [(r"(/games/\d+/G\d+/\d+/)SS/(\d+\.jpg)$", r"\g<1>TN/\g<2>"),
+                 (r"^(https?://image\.gamer\.ne\.jp/.*/)o/(\d+\.jpg)$", r"\g<1>m/\g<2>")]
 IMG_NOISE = re.compile(r"(logo|icon|avatar|button|spacer|pixel|1x1|badge|banner|share|ad[-_]|counter|arrow|blank\.gif|loading|dummy|placeholder|hubcoverage)", re.I)
 BLOCK_TAGS = {"p", "h1", "h2", "h3", "h4", "h5", "li", "dt", "dd", "blockquote", "figure", "figcaption", "img", "pre", "table",
               "div", "section", "article", "main", "td", "tr", "tbody", "ul", "ol", "dl", "center", "font", "span", "body", "header"}
@@ -144,13 +148,25 @@ def fetch_image(src, page_url, wayback, dest_dir, index, images_live=False):
     dest_dir.mkdir(parents=True, exist_ok=True)
     out = dest_dir / f"{index:03d}{ext}"
     if not out.exists():
-        url = absolute
-        if wayback and not images_live:
-            ts = re.search(r"/web/(\d+)", wayback).group(1)
-            url = f"https://web.archive.org/web/{ts}im_/{absolute}"
+        candidates = [absolute] + [re.sub(p, r, absolute) for p, r in FULLSIZE_BACK if re.search(p, absolute)]
+        data = None
+        for cand in candidates:
+            url = cand
+            if wayback and not images_live:
+                ts = re.search(r"/web/(\d+)", wayback).group(1)
+                url = f"https://web.archive.org/web/{ts}im_/{cand}"
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                    data = r.read()
+                break
+            except urllib.error.HTTPError as exc:
+                if exc.code != 404 or cand == candidates[-1]:
+                    print(f"    image {name}: {exc}")
+                    return None
+            except Exception as exc:
+                print(f"    image {name}: {exc}")
+                return None
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
-                data = r.read()
             if len(data) < 3000:          # a tracking pixel or a broken thumbnail
                 return None
             out.write_bytes(data)
@@ -374,8 +390,9 @@ def extract_blocks(container, join_br=False):
 
 
 # ---------------------------------------------------------------- items
-DASH_Q = re.compile(r"^\s*(?:[―─—–‐\-]{1,3}|——|――|──)\s*(.+)$")
+DASH_Q = re.compile(r"^\s*(?:[―─—–‐－\-]{1,3}|——|――|──)\s*(.+)$")
 JA_NAME = re.compile(r"^\s*([^\s：:　（(]{1,12}?)\s*(?:氏|さん|社長|様|先生)?\s*(?:（[^）]{0,20}）)?\s*[：:]\s*(.+)$")
+JA_QUOTED = re.compile(r"^\s*([^\s：:　（()「」]{1,12}?)\s*(?:氏|さん|社長|様|先生)?\s*「(.+)」\s*$")   # 宇都宮氏「…」: the name, then the whole answer in 「」 (Sankei)
 JA_SPACE = re.compile(r"^\s*([一-鿿゠-ヿ]{1,5})[　 ]\s*(\S.+)$")
 EN_NAME = re.compile(r"^\s*([A-Z][A-Za-z.'’\- ]{0,30}?)\s*:\s+(.+)$")     # {0,30}: a lone "Q:" counts
 CAPTION_LINE = re.compile(r"^(Title|Caption|Image|Picture|図|キャプション)\s*[:：]\s*(.+)$", re.I)
@@ -411,9 +428,12 @@ def to_items(blocks, target, slug, dry):
     pending, seen_heading, alt_turn, title_line = None, False, 0, ""
     wayback = target.get("wayback")
     dest = IMG_DIR / slug
+    until = re.compile(target["narrative_until"]) if target.get("narrative_until") else None
     for b in blocks:
         if b["t"] == "h":
             name = b["x"].strip()
+            if until and until.search(name):
+                until = None
             if len(name) <= 24 and (match_speaker(name, target) or is_asker(name, target)):
                 # a name set as a heading over the turn (Eurogamer's <h3>Junichi Masuda</h3>)
                 who = match_speaker(name, target)
@@ -453,6 +473,13 @@ def to_items(blocks, target, slug, dry):
             title_line = (title_line + " " + m.group(2).strip()).strip()
             continue
         title_line = ""          # a paragraph in between: the held line was not a caption after all
+        if until:                # narrative_until: the lead-in before the first real section
+            it = {"original": text.strip()}
+            if b.get("quote"):
+                it["quote"] = True
+            items.append(it)
+            last_role = last_speaker = pending = None
+            continue
         # a speaker's name on a line of its own (Famitsu 2026, Gpara) names the next paragraph
         m = SPEAKER_LINE.match(text)
         if len(text) <= 24 and not m and (match_speaker(text.strip(), target) or is_asker(text.strip(), target)):
@@ -463,7 +490,7 @@ def to_items(blocks, target, slug, dry):
             # the paragraph before a lone speaker line is the question it answers - unless the page marks
             # every question itself (`questions_marked`: 電ファミ repeats 「大森氏：」 before each answer)
             if who and items and items[-1].get("type") is None and not items[-1].get("_explicit") and dialogue \
-                    and not target.get("questions_marked"):
+                    and not target.get("questions_marked") and not target.get("explicit_questions"):
                 items[-1]["role"], items[-1]["speaker"] = "question", target.get("asker") or ""
             continue
         role, speaker, body = None, None, text
@@ -488,6 +515,10 @@ def to_items(blocks, target, slug, dry):
                     m = JA_SPACE.match(text)
                     if m and match_speaker(m.group(1), target):
                         role, speaker, body = "answer", match_speaker(m.group(1), target), m.group(2)
+                    else:
+                        m = JA_QUOTED.match(text)
+                        if m and match_speaker(m.group(1), target):
+                            role, speaker, body = "answer", match_speaker(m.group(1), target), m.group(2)
         elif lang == "fr":
             m = FR_Q.match(text)
             if m:
