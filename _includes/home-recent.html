@@ -1,0 +1,97 @@
+{%- comment -%}
+The home page's 近期发布: the days entries came into the library (tools/build-feed.py) and the
+keeper's own news (_data/feed.yml), newest first. It goes by the day an entry came in, not the date
+on the entry, so a long article written in 2022 that joined the library today is recent here.
+Each day is a heading and a grid of cards (home-recent-card.html); the chips on top filter by kind.
+Styles: assets/css/home-recent.css.
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/home-recent.css' | relative_url }}">
+{% assign site_avatar = "/assets/img/site/author-pikachu.jpg" %}
+{% assign hr_dated = "" | split: "" %}
+{% for e in site.data.feed_log limit: 8 %}{% assign row = e.date | append: "|added|" | append: forloop.index0 %}{% assign hr_dated = hr_dated | push: row %}{% endfor %}
+{% for e in site.data.feed limit: 6 %}{% assign row = e.date | append: "|site|" | append: forloop.index0 %}{% assign hr_dated = hr_dated | push: row %}{% endfor %}
+{% assign hr_dated = hr_dated | sort | reverse %}
+{% assign hr_n = 0 %}
+<div class="rc" data-rc>
+  <nav class="rc-filters" aria-label="只看">
+    <button type="button" class="is-on" data-rc-f="">全部</button>
+    <button type="button" data-rc-f="长文分析"><i class="fas fa-chart-line" aria-hidden="true"></i>长文分析</button>
+    <button type="button" data-rc-f="访谈翻译"><i class="fas fa-comments" aria-hidden="true"></i>访谈翻译</button>
+    <button type="button" data-rc-f="扫描翻译"><i class="fas fa-book-open" aria-hidden="true"></i>扫描翻译</button>
+    <button type="button" data-rc-f="Game Freak 博客"><i class="fas fa-pen-nib" aria-hidden="true"></i>博客</button>
+    <button type="button" data-rc-f="站点动态"><i class="fas fa-bolt" aria-hidden="true"></i>站点动态</button>
+  </nav>
+{% for row in hr_dated %}
+  {% if hr_n < 6 %}
+  {% assign f = row | split: "|" %}
+  {% assign d = f[0] %}{% assign kind = f[1] %}{% assign idx = f[2] | plus: 0 %}
+  {% if kind == "added" %}
+    {% assign e = site.data.feed_log[idx] %}
+    {% assign shown = "" | split: "" %}
+    {% for stem in e.posts %}
+      {% assign stem_md = "/" | append: stem | append: ".md" %}
+      {% assign fp = site.posts | where_exp: "p", "p.path contains stem_md" | first %}
+      {% if fp %}{% assign shown = shown | push: fp %}{% endif %}
+    {% endfor %}
+    {% if shown.size > 0 %}
+    {% assign show_n = 8 %}{% if e.count >= 120 %}{% assign show_n = 4 %}{% endif %}
+    {% capture tally %}{% for t in e.types %}{{ t[0] }} {{ t[1] }}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endcapture %}
+  <section class="rc-day" data-rc-day>
+    <header class="rc-dayhead">
+      <time datetime="{{ d }}">{{ d | date: "%-m月%-d日" }}</time>
+      <b>{% if e.count >= 120 %}大批入库 {{ e.count }} 篇{% else %}新收录 {{ e.count }} 篇{% endif %}</b>
+      <span class="rc-tally">{{ tally }}</span>
+    </header>
+    <div class="rc-grid">{% for post in shown limit: show_n %}{% include home-recent-card.html post=post %}{% endfor %}</div>
+    {% if e.count > show_n %}<p class="rc-more"><a href="{{ '/search/' | relative_url }}">这天一共 {{ e.count }} 篇，去检索中心看全部 →</a></p>{% endif %}
+  </section>
+    {% assign hr_n = hr_n | plus: 1 %}
+    {% endif %}
+  {% elsif kind == "site" %}
+    {% assign e = site.data.feed[idx] %}
+  <section class="rc-day rc-day--news" data-rc-day data-rc-news>
+    <header class="rc-dayhead">
+      <time datetime="{{ d }}">{{ d | date: "%-m月%-d日" }}</time>
+      <b>站点动态</b>
+    </header>
+    <a class="rc-news" href="{{ e.url | relative_url }}">
+      <img class="rc-news__avatar" src="{{ site_avatar | relative_url }}" alt="" width="40" height="40" loading="lazy">
+      <span class="rc-news__main">
+        <strong>{{ e.title }}</strong>
+        <span>{{ e.text }}</span>
+        <em>{{ e.label | default: "看看 →" }}</em>
+      </span>
+      {% if e.cover %}<img class="rc-news__cover" src="{{ e.cover | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}
+    </a>
+  </section>
+    {% assign hr_n = hr_n | plus: 1 %}
+  {% endif %}
+  {% endif %}
+{% endfor %}
+  <p class="rc-end">更早的动态、今日一句和人物聚焦在 <a href="{{ '/keys/' | relative_url }}">资料窗口</a>，按分类看全部在 <a href="{{ '/categories/' | relative_url }}">分类</a>。</p>
+</div>
+<script>
+(function () {
+  var root = document.querySelector("[data-rc]");
+  if (!root) return;
+  var buttons = root.querySelectorAll("[data-rc-f]");
+  var days = root.querySelectorAll("[data-rc-day]");
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      var f = b.getAttribute("data-rc-f");
+      buttons.forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      days.forEach(function (d) {
+        var any = false;
+        if (d.hasAttribute("data-rc-news")) { any = f === "" || f === "站点动态"; }
+        else {
+          d.querySelectorAll(".rc-card").forEach(function (c) {
+            var ok = f === "" || c.getAttribute("data-rc-type") === f;
+            c.hidden = !ok; if (ok) any = true;
+          });
+        }
+        d.hidden = !any;
+      });
+    });
+  });
+})();
+</script>

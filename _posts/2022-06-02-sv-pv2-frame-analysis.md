@@ -4,6 +4,7 @@ title: "『宝可梦 朱＆紫』PV2情报逐帧分析"
 date: '2022-06-02'
 categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦 朱/紫", "逐帧分析", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1h2t7x8tmotj31hc0u07wh.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1h2t7x8tmotj31hc0u07wh.jpg
 author: 2144jx
 author_profile: false

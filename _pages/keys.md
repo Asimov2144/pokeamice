@@ -198,6 +198,8 @@ a list of titles: each post is something that happened.
       <a href="{{ '/gamefreak-director/' | relative_url }}">博客 <b>{{ gf_masuda_posts.size | plus: gf_art_posts.size | plus: gf_staff_posts.size }}</b></a>
       <a href="{{ '/people/' | relative_url }}">人物 <b>{{ lib_people | size }}</b></a>
       <a href="{{ '/works/' | relative_url }}">作品 <b>{{ site.data.works | size }}</b></a>
+      <a href="{{ '/notes/' | relative_url }}">站主笔记 <b>{{ lib_long | size }}</b></a>
+      <a href="{{ '/categories/' | relative_url }}">全部分类</a>
       <a href="{{ '/credits/' | relative_url }}">制作名单 <b>{{ site.data.credits_games | size }}</b> 作</a>
     </p>
   </section>

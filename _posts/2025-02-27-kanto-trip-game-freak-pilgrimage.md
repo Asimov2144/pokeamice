@@ -4,6 +4,7 @@ title: "长文/攻略 | 关都地区游记＆Game Freak三址巡礼"
 date: '2025-02-27'
 categories: [长文分析, 宝可梦友会]
 tags: ["巡礼", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1hyymkzim1zj335s2dcu0y.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1hyymkzim1zj335s2dcu0y.jpg
 author: 2144jx
 author_profile: false

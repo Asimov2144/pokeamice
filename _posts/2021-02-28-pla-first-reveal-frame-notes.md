@@ -4,6 +4,7 @@ title: "『宝可梦传说 阿尔宙斯』初公开逐帧分析＆个人猜想"
 date: '2021-02-28'
 categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦传说 阿尔宙斯", "逐帧分析", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1go1y99r01yj30u90h11kx.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1go1y99r01yj30u90h11kx.jpg
 author: 2144jx
 author_profile: false

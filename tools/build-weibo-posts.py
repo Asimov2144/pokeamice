@@ -61,6 +61,24 @@ TAG_RULES = [
 ]
 
 
+def best_cover(urls):
+    """The first landscape picture among the first few (a card cover is wide), else the first one."""
+    from PIL import Image
+    first = None
+    for u in urls[:8]:
+        name = u.rsplit("/", 1)[-1]
+        try:
+            with Image.open(WORK / "cos" / name) as im:
+                w, h = im.size
+        except Exception:
+            continue
+        if first is None:
+            first = u
+        if w / h >= 1.3:
+            return u
+    return first or (urls[0] if urls else "")
+
+
 def q(s):
     return json.dumps(s, ensure_ascii=False)
 
@@ -99,7 +117,9 @@ def main():
             "tags: [" + ", ".join(q(t) for t in (tags + ["PokeAmice"])) + "]",
         ]
         if imgs:
-            fm.append(f"card_image: {imgs[0]}")
+            cover = best_cover(imgs)
+            fm.append(f"image: {cover}")
+            fm.append(f"card_image: {cover}")
         fm += [
             "author: 2144jx", "author_profile: false", 'archive_type: "article"',
             "publication: 微博头条文章 · 宝可梦友会", "weibo_article: " + a["id"],

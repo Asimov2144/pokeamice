@@ -4,6 +4,7 @@ title: "宝可梦友会 | 2024 宝可梦世界锦标赛 卡牌项目的虚拟备
 date: '2024-08-15'
 categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦卡牌", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1hsngwsvmifj31u116khay.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1hsngwsvmifj31u116khay.jpg
 author: 2144jx
 author_profile: false

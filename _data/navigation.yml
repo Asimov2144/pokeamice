@@ -31,8 +31,12 @@ main:
         url: /gamefreak-art/
       - title: "访谈翻译"
         url: /#interview-translations
+      - title: "站主笔记"
+        url: /notes/
       - title: "长文分析"
         url: /long-analysis/
+      - title: "碎片 · 微博存档"
+        url: /notes/weibo/
       - title: "文档索引"
         url: /#documents
   - title: "KEy docs"
@@ -42,6 +46,8 @@ main:
         url: /keys/
       - title: "使用指南"
         url: /guide/
+      - title: "全部分类"
+        url: /categories/
       - title: "全景数据分析"
         url: /analytics/
       - title: "资料检索"

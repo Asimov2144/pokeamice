@@ -1,0 +1,36 @@
+{%- comment -%}
+One entry as a card of the home page's 近期发布 (home-recent.html): a cover, a type badge with its
+icon, the title, the date and the publication. Pass `post`. The type follows entry-card.html's rules;
+the cover is the entry's own picture, else the collection's tile or the first person's photo
+(cover-fallback.html), else a typographic panel in the type's colour.
+{%- endcomment -%}
+{% assign p = include.post %}
+{% assign rc_arch = p.archive_type | default: p.resource_type %}
+{% assign rc_type = "文章" %}{% assign rc_key = "article" %}{% assign rc_icon = "fa-newspaper" %}
+{% if p.categories contains "长文分析" %}{% assign rc_type = "长文分析" %}{% assign rc_key = "analysis" %}{% assign rc_icon = "fa-chart-line" %}
+{% elsif rc_arch == "scan_translation" %}{% assign rc_type = "扫描翻译" %}{% assign rc_key = "scan" %}{% assign rc_icon = "fa-book-open" %}
+{% elsif p.layout == "interview-editorial" or p.layout == "parallel-translation" or rc_arch == "interview_translation" or p.categories contains "访谈翻译" %}{% assign rc_type = "访谈翻译" %}{% assign rc_key = "interview" %}{% assign rc_icon = "fa-comments" %}
+{% elsif rc_arch == "gamefreak_director_column" or rc_arch == "gamefreak_masuda_lineblog" or rc_arch == "gamefreak_legacy_blog" %}{% assign rc_type = "Game Freak 博客" %}{% assign rc_key = "blog" %}{% assign rc_icon = "fa-pen-nib" %}
+{% elsif p.categories contains "文档" %}{% assign rc_type = "文档" %}{% assign rc_key = "doc" %}{% assign rc_icon = "fa-file" %}{% endif %}
+{% assign rc_cover = p.image | default: p.featured_image | default: "" %}
+{% if p.translation_segments %}
+  {% assign rc_plates = p.translation_segments | where: "type", "image" %}
+  {% if rc_plates.first.image %}{% assign rc_cover = rc_plates.first.image %}{% endif %}
+{% elsif rc_cover == "" and p.parallel_items %}
+  {% assign rc_pics = p.parallel_items | where: "type", "image" %}
+  {% assign rc_pic = rc_pics.first.image | default: rc_pics.first.src | default: rc_pics.first.original | default: "" %}
+  {% if rc_pic != "" %}{% assign rc_cover = rc_pic %}{% endif %}
+{% endif %}
+{% include cover-fallback.html post=p cover=rc_cover %}
+{% assign rc_cover = cf_cover %}
+{% assign rc_pub = p.publication | default: p.source.publication | default: p.source.title | default: "" | split: "（" | first | split: " (" | first | truncate: 20, "…" %}
+<a class="rc-card rc-t-{{ rc_key }}{% if rc_cover == "" %} rc-card--bare{% endif %}" href="{{ p.url | relative_url }}" data-rc-type="{{ rc_type }}">
+  <span class="rc-cover{% if cf_kind != "" %} rc-cover--{{ cf_kind }}{% endif %}">
+    {% if rc_cover != "" %}<img src="{{ rc_cover | relative_url }}" alt="" loading="lazy" decoding="async">{% else %}<i class="fas {{ rc_icon }} rc-cover__icon" aria-hidden="true"></i>{% if rc_pub != "" %}<em>{{ rc_pub }}</em>{% endif %}{% endif %}
+    <b class="rc-badge"><i class="fas {{ rc_icon }}" aria-hidden="true"></i>{{ rc_type }}</b>
+  </span>
+  <span class="rc-body">
+    <strong class="rc-title">{{ p.title }}</strong>
+    <span class="rc-meta"><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%Y-%m-%d" }}</time>{% if rc_pub != "" %}<span>{{ rc_pub }}</span>{% endif %}</span>
+  </span>
+</a>

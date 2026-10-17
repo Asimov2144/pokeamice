@@ -4,6 +4,7 @@ title: "近世代宝可梦模型考察（一）——交付品＆开发规格的
 date: '2022-11-15'
 categories: [长文分析, 宝可梦友会]
 tags: ["模型", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1h85x5nptroj30dc07iwh9.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1h85x5nptroj30dc07iwh9.jpg
 author: 2144jx
 author_profile: false

@@ -4,6 +4,7 @@ title: "『宝可梦传说 Z-A』PV4逐帧分析"
 date: '2025-07-24'
 categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦传说 Z-A", "逐帧分析", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1i3nqqm0q4gj31d80sc7wi.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1i3nqqm0q4gj31d80sc7wi.jpg
 author: 2144jx
 author_profile: false

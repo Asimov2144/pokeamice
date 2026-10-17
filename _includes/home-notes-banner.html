@@ -1,0 +1,30 @@
+{%- comment -%}
+Two doors under the topic shelf: the long articles (/long-analysis/) and the fragments (/notes/weibo/),
+the keeper's own writing. A banner rather than a tile, because the shelf scrolls past and was missed.
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/home-recent.css' | relative_url }}">
+{% assign nb_long = site.posts | where_exp: "p", "p.categories contains '长文分析'" %}
+<section class="nb" aria-label="站主笔记">
+  <a class="nb-card nb-card--long" href="{{ '/long-analysis/' | relative_url }}">
+    <img src="{{ '/assets/img/topics/long-analysis.jpg' | relative_url }}" alt="" width="336" height="192" loading="lazy" decoding="async">
+    <span class="nb-card__text">
+      <span class="nb-kicker"><i class="fas fa-chart-line" aria-hidden="true"></i>专题 · 站主原创</span>
+      <strong>长文分析</strong>
+      <em>PV 逐帧分析、设定与模型考察、玩法推演——{{ nb_long.size }} 篇</em>
+      <small>最新：{{ nb_long.first.title }}</small>
+    </span>
+  </a>
+  <a class="nb-card nb-card--frag" href="{{ '/notes/weibo/' | relative_url }}">
+    <span class="nb-stickers" aria-hidden="true">
+      <img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png" alt="" loading="lazy">
+      <img src="{{ '/assets/img/works/home-legends-arceus.png' | relative_url }}" alt="" loading="lazy">
+      <img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png" alt="" loading="lazy">
+      <img src="{{ '/assets/img/works/home-scarlet.png' | relative_url }}" alt="" loading="lazy">
+    </span>
+    <span class="nb-card__text">
+      <span class="nb-kicker"><i class="fas fa-note-sticky" aria-hidden="true"></i>碎片 · 微博存档</span>
+      <strong>随手发的东西</strong>
+      <em>一句观察、一张截图、半截猜想——近千条，按时间摊开，可按作品和宝可梦筛选</em>
+    </span>
+  </a>
+</section>

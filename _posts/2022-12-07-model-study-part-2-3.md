@@ -4,6 +4,7 @@ title: "【长文】近世代宝可梦模型考察（二＆三）——图形资
 date: '2022-12-07'
 categories: [长文分析, 宝可梦友会]
 tags: ["模型", "PokeAmice"]
+image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly4h8v9qyb95kj31hc0f0478.jpg
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly4h8v9qyb95kj31hc0f0478.jpg
 author: 2144jx
 author_profile: false
