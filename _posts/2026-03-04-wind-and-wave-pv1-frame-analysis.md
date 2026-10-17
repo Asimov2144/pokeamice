@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】『宝可梦 风与波 』PV1 逐帧分析＆水体情报解读"
 date: '2026-03-04'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦 风与波", "逐帧分析", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1iar9o1hwttj31hc0u0107.jpg
 author: 2144jx

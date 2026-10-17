@@ -308,7 +308,7 @@ def sticker_bar():
 body = [
     '<h1 class="fr-title">碎片 <small>· 2144jx 的微博 2021—2026</small></h1>',
     '<p class="fr-lead">这里是随手发的东西：一句观察、一张截图、半截猜想、几句吐槽。它们不是资料，也不都站得住，只是当时的碎片，按时间摊开。'
-    '长文已经单独收进站内文章（<a href="/categories/站主原创/">分类「站主原创」</a>）。<br><span class="fr-ai">分类、图注与图中文字由模型（Qwen）生成，可能有误；每条的「原微博」链接可对照原帖。</span></p>',
+    '长文已经单独收进站内文章（<a href="/long-analysis/">专题「长文分析」</a>）。<br><span class="fr-ai">分类、图注与图中文字由模型（Qwen）生成，可能有误；每条的「原微博」链接可对照原帖。</span></p>',
     '<div class="fr-tools">',
     f'<input id="fr-q" type="search" placeholder="搜文字、图中字、话题…" autocomplete="off">',
     f'<select id="fr-y"><option value="">全部年份</option>{yopts}</select>',

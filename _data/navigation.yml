@@ -31,6 +31,8 @@ main:
         url: /gamefreak-art/
       - title: "访谈翻译"
         url: /#interview-translations
+      - title: "长文分析"
+        url: /long-analysis/
       - title: "文档索引"
         url: /#documents
   - title: "KEy docs"

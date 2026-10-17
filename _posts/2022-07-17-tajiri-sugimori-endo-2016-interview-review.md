@@ -2,7 +2,7 @@
 layout: single
 title: "【访谈回顾】2016年 田尻智X杉森建X《铁板阵》之父远藤雅伸对谈"
 date: '2022-07-17'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["访谈回顾", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly4h49w22dcawj30sg046tax.jpg
 author: 2144jx

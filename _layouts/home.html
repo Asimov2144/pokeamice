@@ -414,11 +414,7 @@ sidebar:
         <h2>{{ site.data.ui-text[site.locale].recent_posts | default: "近期发布" }}</h2>
       </div>
 
-      <div class="home-post-list entries-{{ entries_layout }}">
-        {% for post in site.posts limit:recent_posts_limit %}
-          {% include archive-single.html type=entries_layout show_card_media=true %}
-        {% endfor %}
-      </div>
+      {% include home-recent-keys.html %}
     </section>
 
     <section class="home-section" id="documents">

@@ -2,7 +2,7 @@
 layout: single
 title: "宝可梦友会 | J联赛 × 宝可梦 新赛季各队选宝原型整理【J1篇】"
 date: '2026-08-08'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["J联赛", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1if1l78hp5gj312w0lvth8.jpg
 author: 2144jx

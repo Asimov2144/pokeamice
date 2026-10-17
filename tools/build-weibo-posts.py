@@ -95,7 +95,7 @@ def main():
         summary = pre or re.sub(r"\s+", " ", text)[:110]
         fm = [
             "---", "layout: single", f"title: {q(title)}", f"date: '{date}'",
-            "categories: [站主原创, 长文, 宝可梦友会]",
+            "categories: [长文分析, 宝可梦友会]",
             "tags: [" + ", ".join(q(t) for t in (tags + ["PokeAmice"])) + "]",
         ]
         if imgs:

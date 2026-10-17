@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】 Pokeamice 建设进展报告＆思考 2022.10.04"
 date: '2022-10-04'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["站点", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1h6tbhy48qqj31z40xne81.jpg
 author: 2144jx

@@ -2,7 +2,7 @@
 layout: single
 title: "近世代宝可梦模型考察（一）——交付品＆开发规格的共通化"
 date: '2022-11-15'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["模型", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1h85x5nptroj30dc07iwh9.jpg
 author: 2144jx

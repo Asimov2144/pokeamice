@@ -2,7 +2,7 @@
 layout: single
 title: "宝可梦友会 | 高级扩充包『太晶庆典』中的卡图细节"
 date: '2024-12-09'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦卡牌", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1hwcv6jt4kyj30t60kl46j.jpg
 author: 2144jx

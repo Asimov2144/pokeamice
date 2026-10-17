@@ -391,3 +391,7 @@ body.theme-bg-black .library {
   .feed-item.is-today .feed-item__side::before { border-color: #23272d; }
   .feed__today-thumb.is-blank { border-color: #46505a; }
 }
+
+/* the home page borrows the hub's stream for 近期发布: a single column, no page padding */
+.library--embed { padding: 0; }
+.library--embed .feed { grid-template-columns: minmax(0, 1fr); }

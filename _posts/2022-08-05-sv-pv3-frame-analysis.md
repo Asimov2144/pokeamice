@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】『宝可梦 朱＆紫』PV3逐帧分析"
 date: '2022-08-05'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦 朱/紫", "逐帧分析", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly4h4uo13vmtnj30sg0k37ex.jpg
 author: 2144jx

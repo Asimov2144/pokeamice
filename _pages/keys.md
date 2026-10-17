@@ -27,6 +27,7 @@ a list of titles: each post is something that happened.
 {% assign lib_tech = lib_posts | where_exp: "p", "p.source_kind == 'technical_report' or p.article_kind == 'technical_feature'" %}
 {% assign lib_iwata = lib_posts | where_exp: "p", "p.publication contains '社長が訊く' or p.title contains '社长问'" %}
 {% assign lib_ndream = lib_posts | where_exp: "p", "p.publication contains 'Nintendo DREAM'" %}
+{% assign lib_long = lib_posts | where_exp: "p", "p.categories contains '长文分析'" %}
 {% assign lib_gi = lib_posts | where_exp: "p", "p.publication contains 'Game Informer'" %}
 {% assign lib_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure' and e.kind != 'staff'" %}
 {% assign lib_by_year = lib_posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
@@ -73,7 +74,7 @@ a list of titles: each post is something that happened.
 {% assign dated = dated | sort | reverse %}
 
 {%- comment -%} the collections that take a turn in the stream: key|title|tile|href|blurb {%- endcomment -%}
-{% assign topics = "interview|访谈翻译|iwata|/search/?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91|开发者与媒体的对谈译文，日中对照，从 1996 年的图鉴访谈到最新的讲演报道;;scan|杂志扫描|scan|/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91|整页扫描，逐页转写翻译，段落可在页图上定位;;director|部长专栏|director|/gamefreak-director/|増田部長のめざめるパワー，2004 年起的开发随笔;;staff|员工博客|staff|/gamefreak-staff/|晴时偶有阴：员工写的开发、招聘、活动与日常;;art|杉森建博客|art|/gamefreak-art/|绘画日和：电影角色设计稿与设计说明;;shudo|首藤刚志手记|shudo|/people/shudo-takeshi/|动画系列构成的连载手记，226 章;;recruit|招聘访谈|recruit|/search/?q=%E6%8B%9B%E8%81%98%E8%AE%BF%E8%B0%88|GAME FREAK 与宝可梦公司招聘站上的员工访谈;;tech|技术报告|tech|/search/?q=%E6%8A%80%E6%9C%AF|CEDEC 等讲演的技术报道;;iwata|社长问|iwata|/search/?q=%E7%A4%BE%E9%95%BF%E9%97%AE|岩田聪的访谈系列;;ndream|Nintendo DREAM|ndream|/search/?q=Nintendo%20DREAM|任天堂杂志的开发者访谈与特辑;;gi|Game Informer|gi|/search/?q=Game%20Informer|海外媒体的深度报道" | split: ";;" %}
+{% assign topics = "interview|访谈翻译|iwata|/search/?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91|开发者与媒体的对谈译文，日中对照，从 1996 年的图鉴访谈到最新的讲演报道;;scan|杂志扫描|scan|/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91|整页扫描，逐页转写翻译，段落可在页图上定位;;director|部长专栏|director|/gamefreak-director/|増田部長のめざめるパワー，2004 年起的开发随笔;;staff|员工博客|staff|/gamefreak-staff/|晴时偶有阴：员工写的开发、招聘、活动与日常;;art|杉森建博客|art|/gamefreak-art/|绘画日和：电影角色设计稿与设计说明;;shudo|首藤刚志手记|shudo|/people/shudo-takeshi/|动画系列构成的连载手记，226 章;;recruit|招聘访谈|recruit|/search/?q=%E6%8B%9B%E8%81%98%E8%AE%BF%E8%B0%88|GAME FREAK 与宝可梦公司招聘站上的员工访谈;;tech|技术报告|tech|/search/?q=%E6%8A%80%E6%9C%AF|CEDEC 等讲演的技术报道;;iwata|社长问|iwata|/search/?q=%E7%A4%BE%E9%95%BF%E9%97%AE|岩田聪的访谈系列;;ndream|Nintendo DREAM|ndream|/search/?q=Nintendo%20DREAM|任天堂杂志的开发者访谈与特辑;;gi|Game Informer|gi|/search/?q=Game%20Informer|海外媒体的深度报道" | split: ";;;;long|长文分析|long-analysis|/long-analysis/|站主的原创长文：PV 逐帧分析、设定与模型考察、玩法推演、巡礼与建站笔记" %}
 {% assign t_n = topics | size %}
 {% assign t_off = day_n | modulo: t_n %}
 {% assign t_used = 0 %}
@@ -165,6 +166,7 @@ a list of titles: each post is something that happened.
       {% when "tech" %}{% assign t_posts = lib_tech %}
       {% when "iwata" %}{% assign t_posts = lib_iwata %}
       {% when "ndream" %}{% assign t_posts = lib_ndream %}
+      {% when "long" %}{% assign t_posts = lib_long %}
       {% else %}{% assign t_posts = lib_gi %}
     {% endcase %}
     {% capture body %}

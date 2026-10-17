@@ -2,7 +2,7 @@
 layout: single
 title: "长文 |《宝可梦传说 阿尔宙斯》PV2 情报逐帧分析"
 date: '2021-08-19'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦传说 阿尔宙斯", "逐帧分析", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1gtlwnvpugzj30fe08n761.jpg
 author: 2144jx

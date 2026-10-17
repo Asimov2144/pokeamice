@@ -2,7 +2,7 @@
 layout: single
 title: "『宝可梦传说 Z-A』PV2逐帧分析"
 date: '2025-03-01'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦传说 Z-A", "逐帧分析", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1hyzplkvaaej31hc11qu0x.jpg
 author: 2144jx

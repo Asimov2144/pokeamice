@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】近世代宝可梦模型考察（二＆三）——图形资源库＆模型动画"
 date: '2022-12-07'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["模型", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly4h8v9qyb95kj31hc0f0478.jpg
 author: 2144jx

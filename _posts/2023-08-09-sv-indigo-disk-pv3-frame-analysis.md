@@ -2,7 +2,7 @@
 layout: single
 title: "『宝可梦 朱/紫』零之秘宝 PV3逐帧分析"
 date: '2023-08-09'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦 朱/紫", "逐帧分析", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1hgk208g9nkj31jlc5hx74.jpg
 author: 2144jx

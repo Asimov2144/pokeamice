@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】《宝可梦传说 阿尔宙斯》初公开信息分析整合与其昭示的未来"
 date: '2021-06-12'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦传说 阿尔宙斯", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1gp8w63nj2vj30nj0e1n8q.jpg
 author: 2144jx

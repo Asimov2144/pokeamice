@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】《宝可梦 剑＆盾》传说宝可梦设定分析续篇"
 date: '2022-01-27'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦 剑/盾", "设定分析", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1gfs8fijh5lj328g35sgyo.jpg
 author: 2144jx

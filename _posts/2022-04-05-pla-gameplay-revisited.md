@@ -2,7 +2,7 @@
 layout: single
 title: "【长文】再议《宝可梦传说 阿尔宙斯》的玩法以及其昭示的宝可梦未来"
 date: '2022-04-05'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["宝可梦传说 阿尔宙斯", "PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1h0yw0osbaxj30qo0f075o.jpg
 author: 2144jx

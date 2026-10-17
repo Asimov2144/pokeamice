@@ -2,7 +2,7 @@
 layout: single
 title: "【随想】Live A Pokemon 『时空勇士』通关随梦"
 date: '2022-09-18'
-categories: [站主原创, 长文, 宝可梦友会]
+categories: [长文分析, 宝可梦友会]
 tags: ["PokeAmice"]
 card_image: https://gallery.pokeamice.com/weibo-notes/006SNtUgly4h6b4ogrk13j30sg0ffke3.jpg
 author: 2144jx
