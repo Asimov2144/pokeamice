@@ -10,7 +10,7 @@ hidden: true
 ---
 
 <h1 class="fr-title">碎片 <small>· 2144jx 的微博 2021—2026</small></h1>
-<p class="fr-lead">这里是随手发的东西：一句观察、一张截图、半截猜想、几句吐槽。它们不是资料，也不都站得住，只是当时的碎片，按时间摊开。长文已经单独收进站内文章（分类「站主原创」）。<br><span class="fr-ai">分类、图注与图中文字由模型（Qwen）生成，可能有误；每条的「原微博」链接可对照原帖。</span></p>
+<p class="fr-lead">这里是随手发的东西：一句观察、一张截图、半截猜想、几句吐槽。它们不是资料，也不都站得住，只是当时的碎片，按时间摊开。长文已经单独收进站内文章（<a href="/categories/站主原创/">分类「站主原创」</a>）。<br><span class="fr-ai">分类、图注与图中文字由模型（Qwen）生成，可能有误；每条的「原微博」链接可对照原帖。</span></p>
 <div class="fr-tools">
 <input id="fr-q" type="search" placeholder="搜文字、图中字、话题…" autocomplete="off">
 <select id="fr-y"><option value="">全部年份</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option></select>
@@ -7456,7 +7456,7 @@ cg・映像クリエイター総合誌【月刊シ...ワールド】
 <p class="fr-ocr" title="模型转写的图中文字">▤ Creatures</p>
 <p class="fr-topics">#氏家淳子 #Creatures #Pokémon CG Studio</p>
 <footer class="fr-foot">♥ 17 · <a href="https://m.weibo.cn/detail/4871312671246095" rel="nofollow noopener" target="_blank">原微博</a></footer>
-<span class="stk stk-br st-md st-w" title="宝可梦竞技场" style="--sr:-2deg"><img src="/assets/img/works/ball-stadium.png" alt="" loading="lazy"></span><span class="stk stk-tl st-md st-w" title="宝可梦对战革命" style="--sr:10deg"><img src="/assets/img/works/ball-battle-revolution.png" alt="" loading="lazy"></span><span class="stk stk-ml st-lg st-p" title="皮卡丘" style="--sr:14deg"><img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png" alt="" loading="lazy"></span>
+<span class="stk stk-br st-md st-w" title="宝可梦竞技场" style="--sr:-2deg"><img src="/assets/img/works/ball-stadium.png" alt="" loading="lazy"></span><span class="stk stk-tl st-md st-w" title="宝可梦对战革命" style="--sr:10deg"><img src="/assets/img/works/crop-pokemon-battle-revolution-wii-save-icon.png" alt="" loading="lazy"></span><span class="stk stk-ml st-lg st-p" title="皮卡丘" style="--sr:14deg"><img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png" alt="" loading="lazy"></span>
 </article>
 <article class="fr fr-v-mosaic has-stk" id="f-c11e857b" data-d="2023-02-19" data-c="考据观察" data-r="3" data-i="1" data-k="w6 w0" data-s="在之前流出的2018年2月beta版lgpe中，西尔佛公司战是被设定为能够在赤红，青绿和小进中三选一作为搭档来完成，类似la中刚石珠贝二选一。(beta版中还没有对应建模，就以空手道高手占位)*在发售版中改为了青绿替主角解围，随后要求对战一场，兵分两路消灭火箭队 lgpe早期测试版截图，西尔佛公司可用空手道家占位选赤红或青绿同行。 lewtwo @lewchube
 feb. 2018 let&#x27;s go eevee build, seems like red &amp; green were originally intended to accompany you through silph. co, and you had the opportunity to choose which to battle.

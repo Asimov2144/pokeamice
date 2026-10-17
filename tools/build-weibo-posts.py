@@ -112,7 +112,8 @@ def main():
             "---", "",
         ]
         foot = (f'<p class="wbn-note">本文原发布于微博头条文章（专栏：宝可梦友会），{date}。图片已转存；'
-                f'文中引用的微博保留为引用块，视频未收录。<a href="{a["url"]}" target="_blank" rel="nofollow noopener">微博原文</a></p>')
+                f'文中引用的微博保留为引用块，视频未收录。<a href="{a["url"]}" target="_blank" rel="nofollow noopener">微博原文</a>'
+                f' · <a href="/notes/weibo/">更多随手发的碎片 →</a></p>')
         out = "\n".join(fm) + '\n<link rel="stylesheet" href="/assets/css/notes-archive.css">\n<div class="wbn-article">\n' + body + "\n</div>\n" + foot + "\n"
         (POSTS / f"{date}-{slug}.md").write_text(out, encoding="utf-8", newline="\n")
         n += 1

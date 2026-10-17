@@ -32,6 +32,7 @@ search page, which filters the whole catalogue. The choice is remembered.
 <header class="library__head">
   <h1 class="library__title">{{ tx_title }}{% if tx_title != page.title %} <small>{{ page.title }}</small>{% endif %}</h1>
   <p class="library__lead">{% if tx_info.blurb %}{{ tx_info.blurb }}{% else %}这个{{ tx_word }}下收录的条目，按时间倒序。{% endif %}</p>
+  {% if tx_info.link_url %}<p class="library__lead"><a href="{{ tx_info.link_url | relative_url }}">{{ tx_info.link_title | default: tx_info.link_url }} →</a></p>{% endif %}
   <p class="library__facts"><b>{{ tx_posts.size }}</b> 条{% if tx_posts.size > 0 %} · {{ tx_posts.last.date | date: "%Y" }}–{{ tx_posts.first.date | date: "%Y" }}{% endif %} · <a href="{{ tx_search_url | relative_url }}">在检索中心继续筛 →</a></p>
   {% if tx_near_groups.size > 0 %}
     <p class="library__near"><span>{% if tx_kind == "tag" %}相关标签{% else %}同时属于{% endif %}</span>{% for g in tx_near_groups limit: 8 %}{% assign g_slug = g.name | slugify %}<a href="{{ tx_base | append: g_slug | append: '/' | relative_url }}">{{ g.name }}<b>{{ g.size }}</b></a>{% endfor %}</p>
