@@ -1,0 +1,55 @@
+# Build and check a branch without publishing it.
+#
+# A full build takes ~3.5 minutes here and ~15 on the Windows machine the site is edited on, so a
+# branch pushed to GitHub is the quick way to check the whole site before it goes to main. Same steps
+# as the deploy (jekyll.yml) - App data export, Jekyll, the App data check - plus the site check
+# (tools/check-build.py); nothing is uploaded or deployed. The App data check compares with what is
+# live, so a branch that drops posts on purpose shows it here first.
+name: Check a branch
+
+on:
+  push:
+    branches-ignore: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.195.0
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          cache-version: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Export App data
+        run: |
+          python -m pip install --quiet pyyaml==6.0.2 beautifulsoup4==4.12.3
+          python tools/app-data-release.py fill-concepts
+          python tools/export-docs-archive.py --commit "${GITHUB_SHA::8}" > /dev/null
+          python tools/export-document-entities.py --commit "${GITHUB_SHA::8}" > /dev/null
+        env:
+          PYTHONHASHSEED: '0'
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      - name: Check the site
+        run: python tools/check-build.py _site
+      - name: Check App data
+        run: python tools/app-data-release.py check --site _site --commit "${GITHUB_SHA::8}"
+      - name: Check English SEO semantic benchmark
+        run: python3 tools/check_english_seo_benchmark.py --site _site
