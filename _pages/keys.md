@@ -181,7 +181,7 @@ a list of titles: each post is something that happened.
   {% endif %}
 {% endfor %}
 
-  <p class="feed__end">动态到这里为止。更早的入库都在 <a href="{{ '/search/' | relative_url }}">检索中心</a>；分类和标签在右边。</p>
+  <p class="feed__end">动态到这里为止。站点自己的事（批量收录、新功能、征集）在 <a href="{{ '/news/' | relative_url }}">News</a>；更早的入库都在 <a href="{{ '/search/' | relative_url }}">检索中心</a>；分类和标签在右边。</p>
 </div>
 
 <aside class="feed__rail">

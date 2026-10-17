@@ -80,7 +80,7 @@ main:
       - title: "关于本站"
         url: /about/
   - title: "News"
-    url: /#recent-updates
+    url: /news/
 
 
 docs:
