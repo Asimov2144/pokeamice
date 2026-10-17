@@ -1,0 +1,80 @@
+{%- comment -%}
+方法与说明 (the home page's former 文档索引). The documents about the archive itself: how to read it, how it is
+organised, what is missing and how to help, the research notes behind some collections, the editing tools,
+and the site's own change log. The Game Freak blog archive that used to fill this tab has its own pages
+(/gamefreak-director/, /gamefreak-staff/, /gamefreak-art/) and its tiles on the topic shelf.
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/home-tabs.css' | relative_url }}">
+{% assign me_gaps = site.data.archive_gaps.entries | size %}
+{% assign me_wanted = site.data.wanted.items | where_exp: "i", "i.status == 'known' or i.status == 'candidate' or i.status == 'text'" | size %}
+{% assign me_log = site.posts | where_exp: "p", "p.categories contains '文档'" %}
+<div class="me">
+  <header class="co-head">
+    <div>
+      <p class="co-kicker">Methods &amp; docs</p>
+      <h2>方法与说明</h2>
+      <p class="co-lead">这个档案是怎么做出来的：怎么读、怎么组织、缺什么、谁在核对、改过什么。资料本身在别处，这里讲资料的来历。</p>
+    </div>
+  </header>
+
+  <ol class="me-flow" aria-label="一篇资料怎么进来">
+    <li><i class="fas fa-box-archive" aria-hidden="true"></i><b>收集</b><span>杂志扫描、官网与博客的归档页、媒体访谈原文</span></li>
+    <li><i class="fas fa-eye" aria-hidden="true"></i><b>转写</b><span>扫描页整页转写，逐页对照，不用别处附带的转写</span></li>
+    <li><i class="fas fa-language" aria-hidden="true"></i><b>翻译</b><span>模型初译，译法与术语按站内统一表核对</span></li>
+    <li><i class="fas fa-check-double" aria-hidden="true"></i><b>校对</b><span>对着原页、原文抽查，每篇的 workflow 字段记着做到哪一步</span></li>
+    <li><i class="fas fa-link" aria-hidden="true"></i><b>关联</b><span>人物、作品、制作名单与时间线互相指向</span></li>
+  </ol>
+
+  <section class="me-group">
+    <h3><i class="fas fa-compass" aria-hidden="true"></i>怎么用</h3>
+    <div class="me-grid">
+      <a class="me-card" href="{{ '/guide/' | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i><span><b>使用指南</b><em>从找一篇访谈到顺着人物和作品读下去</em></span></a>
+      <a class="me-card" href="{{ '/guide/docs-site/' | relative_url }}"><i class="fas fa-circle-question" aria-hidden="true"></i><span><b>文档站怎么用</b><em>首页的几个栏目各管什么</em></span></a>
+      <a class="me-card" href="{{ '/keys/' | relative_url }}"><i class="fas fa-key" aria-hidden="true"></i><span><b>资料窗口</b><em>按入库日看新进的条目，今日一句与人物聚焦</em></span></a>
+    </div>
+  </section>
+
+  <section class="me-group">
+    <h3><i class="fas fa-sitemap" aria-hidden="true"></i>怎么组织</h3>
+    <div class="me-grid">
+      <a class="me-card" href="{{ '/metadata-schema/' | relative_url }}"><i class="fas fa-tags" aria-hidden="true"></i><span><b>资料元数据规范</b><em>每篇的字段：来源、人物、作品、进度</em></span></a>
+      <a class="me-card" href="{{ '/resource-graph/' | relative_url }}"><i class="fas fa-diagram-project" aria-hidden="true"></i><span><b>关系图谱</b><em>条目、人物、作品之间的连线</em></span></a>
+      <a class="me-card" href="{{ '/timeline/' | relative_url }}"><i class="fas fa-timeline" aria-hidden="true"></i><span><b>资料时间线</b><em>按年份看每一年留下了什么</em></span></a>
+      <a class="me-card" href="{{ '/games/' | relative_url }}"><i class="fas fa-gamepad" aria-hidden="true"></i><span><b>按游戏读</b><em>以作品为轴的入口</em></span></a>
+    </div>
+  </section>
+
+  <section class="me-group">
+    <h3><i class="fas fa-magnifying-glass-minus" aria-hidden="true"></i>缺什么、怎么帮忙</h3>
+    <div class="me-grid">
+      <a class="me-card" href="{{ '/keys/archive-gaps/' | relative_url }}"><i class="fas fa-puzzle-piece" aria-hidden="true"></i><span><b>收录缺口</b><em>登记了 {{ me_gaps }} 条站内没有或只有一部分的资料</em></span></a>
+      <a class="me-card" href="{{ '/wanted/' | relative_url }}"><i class="fas fa-bullhorn" aria-hidden="true"></i><span><b>原刊征集</b><em>{{ me_wanted }} 条在找原刊的杂志访谈，可以邮件或 Issue 投稿</em></span></a>
+    </div>
+  </section>
+
+  <section class="me-group">
+    <h3><i class="fas fa-flask" aria-hidden="true"></i>研究笔记</h3>
+    <div class="me-grid">
+      <a class="me-card" href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}"><i class="fas fa-chart-line" aria-hidden="true"></i><span><b>员工博客内容分析</b><em>两百多篇员工博客写了什么、谁写得多</em></span></a>
+      <a class="me-card" href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}"><i class="fas fa-clock-rotate-left" aria-hidden="true"></i><span><b>招聘站版本档案</b><em>GAME FREAK 招聘站各版本的更替</em></span></a>
+      <a class="me-card" href="{{ '/keys/pokemon-post-swsh-print-interviews/' | relative_url }}"><i class="fas fa-newspaper" aria-hidden="true"></i><span><b>剑盾之后的实体访谈</b><em>2019–2026 年纸媒访谈的收录清单</em></span></a>
+      <a class="me-card" href="{{ '/long-analysis/' | relative_url }}"><i class="fas fa-pen-nib" aria-hidden="true"></i><span><b>长文分析</b><em>站主的原创长文，另有<a href="{{ '/notes/weibo/' | relative_url }}">碎片</a></em></span></a>
+    </div>
+  </section>
+
+  <section class="me-group">
+    <h3><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i>编辑工具与迁移</h3>
+    <div class="me-grid">
+      <a class="me-card" href="{{ '/editor-workbench/' | relative_url }}"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span><b>本地编辑工作台</b><em>在本机整理与校对条目</em></span></a>
+      <a class="me-card" href="{{ '/local-editing-tools/' | relative_url }}"><i class="fas fa-toolbox" aria-hidden="true"></i><span><b>本地编辑工具索引</b><em>导入、检查、生成各类脚本</em></span></a>
+      <a class="me-card" href="{{ '/article-migration-guide/' | relative_url }}"><i class="fas fa-truck-moving" aria-hidden="true"></i><span><b>旧平台文章迁移</b><em>把旧站的图文搬进来的教程</em></span></a>
+    </div>
+  </section>
+
+  <section class="me-group">
+    <h3><i class="fas fa-clock-rotate-left" aria-hidden="true"></i>站点记录</h3>
+    <ul class="me-log">
+      {% for p in me_log limit: 6 %}<li><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%Y-%m-%d" }}</time><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor %}
+    </ul>
+  </section>
+</div>

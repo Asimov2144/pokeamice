@@ -37,7 +37,7 @@ main:
         url: /long-analysis/
       - title: "碎片 · 微博存档"
         url: /notes/weibo/
-      - title: "文档索引"
+      - title: "方法与说明"
         url: /#documents
   - title: "KEy docs"
     url: /keys/
@@ -48,9 +48,7 @@ main:
         url: /guide/
       - title: "全部分类"
         url: /categories/
-      - title: "全景数据分析"
-        url: /analytics/
-      - title: "资料检索"
+      - title: "馆藏概览"
         url: /#retrieval
       - title: "人物索引"
         url: /entities/people/
