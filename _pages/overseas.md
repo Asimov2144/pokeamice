@@ -10,6 +10,9 @@ Spanish press, Pokemon.com - gathered from every year in one place. Who counts a
 are grouped is decided in tools/build-hubs.py; the numbers and the cards are baked into
 _data/hubs.yml. The same interviews carry the topic 海外媒体专访 on their entry cards. The outlet
 buttons hide the cards that are already on the page (assets/js/hubs.js).
+Two views of the same cards: 按媒体 (the default) gives every outlet with two or more interviews a board
+of its own - Game Informer's is the biggest, and it has no tile on the home page any more - and puts the
+outlets with one each on a last board; 按地区 is the regional sections with their notes.
 {%- endcomment -%}
 {% assign ov = site.data.hubs.overseas %}
 <div class="tl tl--hub tl--overseas">
@@ -36,12 +39,53 @@ buttons hide the cards that are already on the page (assets/js/hubs.js).
   </section>
 
   <div class="tl-bar">
+    <div class="tl-filters hub-views" role="group" aria-label="怎么排">
+      <button type="button" class="is-on" data-hub-view="outlet">按媒体</button>
+      <button type="button" data-hub-view="region">按地区</button>
+    </div>
     <div class="tl-filters" role="group" aria-label="按媒体筛选" data-hub-bar>
       <button type="button" class="is-on" data-hub-filter="all">全部<b>{{ ov.total }}</b></button>
       {% for o in ov.outlets %}{% if o.n > 1 %}<button type="button" data-hub-filter="{{ o.key }}">{{ o.name }}<b>{{ o.n }}</b></button>{% endif %}{% endfor %}
     </div>
   </div>
 
+  {%- comment -%} 按媒体: a board per outlet with two or more, in the order of their counts; the rest share the last board {%- endcomment -%}
+  {%- assign ov_all = "" | split: "" -%}
+  {%- for r in ov.regions -%}{%- assign ov_all = ov_all | concat: r.items -%}{%- endfor -%}
+  {%- assign ov_all = ov_all | sort: "date" -%}
+  {%- assign ov_singles = ov.outlets | where: "n", 1 -%}
+  <div class="hub-pane" data-hub-pane="outlet">
+  {% for o in ov.outlets %}{% if o.n > 1 %}
+  {%- assign o_items = ov_all | where: "outlet", o.key -%}
+  {%- assign o_region = "" -%}{%- for r in ov.regions -%}{%- assign o_in = r.outlets | where: "key", o.key | first -%}{%- if o_in -%}{%- assign o_region = r.label -%}{%- endif -%}{%- endfor -%}
+  <section class="tl-era hub-board" id="o-{{ o.key }}" data-hub-region>
+    <header class="tl-era__head">
+      <p class="tl-era__range">{{ o_items.first.date | slice: 0, 4 }}{% if o_items.last.date != o_items.first.date %} – {{ o_items.last.date | slice: 0, 4 }}{% endif %}</p>
+      <h2 class="tl-era__title">{{ o.name }}</h2>
+      <p class="tl-era__sum"><b data-hub-count>{{ o_items.size }}</b> 篇{% if o_region != "" %} · {{ o_region }}{% endif %}</p>
+    </header>
+    <div class="tl-picks hub-picks">
+      {% for it in o_items %}{% include hub-pick.html it=it %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}{% endfor %}
+  {%- assign o_rest = "" | split: "" -%}
+  {%- for it in ov_all -%}{%- assign o_one = ov_singles | where: "key", it.outlet | first -%}{%- if o_one -%}{%- assign o_rest = o_rest | push: it -%}{%- endif -%}{%- endfor -%}
+  {% if o_rest.size > 0 %}
+  <section class="tl-era hub-board" id="o-others" data-hub-region>
+    <header class="tl-era__head">
+      <p class="tl-era__range">{{ o_rest.first.date | slice: 0, 4 }} – {{ o_rest.last.date | slice: 0, 4 }}</p>
+      <h2 class="tl-era__title">其他媒体</h2>
+      <p class="tl-era__sum"><b data-hub-count>{{ o_rest.size }}</b> 篇 · {{ ov_singles.size }} 家，各一篇</p>
+    </header>
+    <div class="tl-picks hub-picks">
+      {% for it in o_rest %}{% include hub-pick.html it=it %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  </div>
+
+  <div class="hub-pane" data-hub-pane="region" hidden>
   {% for r in ov.regions %}
   <section class="tl-era" id="{{ r.key }}" data-hub-region>
     <header class="tl-era__head">
@@ -54,19 +98,11 @@ buttons hide the cards that are already on the page (assets/js/hubs.js).
       </div>
     </header>
     <div class="tl-picks hub-picks">
-      {% for it in r.items %}
-      <a class="tl-pick is-{{ it.kind }}" href="{{ it.url | relative_url }}" data-hub-item="{{ it.outlet }}">
-        {% if it.cover %}<span class="tl-pick__cover"><img src="{{ it.cover | relative_url }}" alt="" loading="lazy" decoding="async"></span>{% endif %}
-        <span class="tl-pick__body">
-          <small>{{ it.outlet_name }} · {{ it.date | slice: 0, 7 }}</small>
-          <strong>{{ it.title }}</strong>
-          {% if it.blurb %}<em>{{ it.blurb }}</em>{% elsif it.people.size > 0 %}<em>{{ it.people | join: "、" }}</em>{% endif %}
-        </span>
-      </a>
-      {% endfor %}
+      {% for it in r.items %}{% include hub-pick.html it=it %}{% endfor %}
     </div>
   </section>
   {% endfor %}
+  </div>
 
   <section class="hub-who">
     <div class="tl-chips"><span class="tl-chips__label">被问得最多</span>{% for p in ov.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% endfor %}</div>

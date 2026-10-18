@@ -61,15 +61,12 @@ sidebar:
       </a>
       <a href="#retrieval" class="home-nav-link" data-scroll-ignore>
         <span>馆藏概览</span>
-        <strong>{{ all_posts | size }}</strong>
       </a>
       <a href="#recent-updates" class="home-nav-link" data-scroll-ignore>
         <span>近期发布</span>
-        <strong>{{ recent_posts_count }}</strong>
       </a>
       <a href="#documents" class="home-nav-link" data-scroll-ignore>
         <span>方法与说明</span>
-        <strong>16</strong>
       </a>
       <a href="#interview-translations" class="home-nav-link" data-scroll-ignore>
         <span>访谈翻译</span>
@@ -276,7 +273,7 @@ sidebar:
     <section class="home-section" id="recent-updates">
       <div class="section-heading">
         <p class="section-kicker">Latest</p>
-        <h2>{{ site.data.ui-text[site.locale].recent_posts | default: "近期发布" }}</h2>
+        <h2>近期发布</h2>
       </div>
 
       {% include home-recent.html %}
@@ -290,6 +287,9 @@ sidebar:
       <div class="section-heading">
         <p class="section-kicker">Interviews</p>
         <h2>访谈翻译</h2>
+        {%- comment -%} the tab's number is this list; 馆藏概览 counts its magazine scans apart, so say how the two add up {%- endcomment -%}
+        {%- assign ii_scans = interview_posts | where: "archive_type", "scan_translation" | size -%}
+        <p class="section-lead">按年代排开的全部 {{ interview_posts | size }} 篇访谈{% if ii_scans > 0 %}，其中 {{ ii_scans }} 篇是杂志扫描（馆藏概览里单算）{% endif %}。</p>
       </div>
       {% include home-interview-index.html %}
     </section>
@@ -311,15 +311,12 @@ sidebar:
       </a>
       <a href="#retrieval" class="home-nav-link" data-scroll-ignore>
         <span>馆藏概览</span>
-        <strong>{{ all_posts | size }}</strong>
       </a>
       <a href="#recent-updates" class="home-nav-link" data-scroll-ignore>
         <span>近期发布</span>
-        <strong>{{ recent_posts_count }}</strong>
       </a>
       <a href="#documents" class="home-nav-link" data-scroll-ignore>
         <span>方法与说明</span>
-        <strong>16</strong>
       </a>
       <a href="#interview-translations" class="home-nav-link" data-scroll-ignore>
         <span>访谈翻译</span>
@@ -333,15 +330,15 @@ sidebar:
       <section class="sidebar-panel">
         <h2>资料索引</h2>
         <div class="sidebar-reader-grid">
-          <a href="{{ '/entities/people/' | relative_url }}">
+          <a href="{{ '/people/' | relative_url }}">
             <i class="fas fa-user" aria-hidden="true"></i>
             <strong>人物</strong>
-            <span>{{ resource_people_count }} 个条目</span>
+            <span>{% include_cached people-library-count.html %} 位</span>
           </a>
-          <a href="{{ '/entities/works/' | relative_url }}">
+          <a href="{{ '/works/' | relative_url }}">
             <i class="fas fa-cube" aria-hidden="true"></i>
             <strong>作品</strong>
-            <span>{{ resource_works_count }} 个条目</span>
+            <span>{{ site.data.works | size }} 部</span>
           </a>
           <a href="{{ '/timeline/' | relative_url }}">
             <i class="fas fa-clock" aria-hidden="true"></i>
@@ -427,16 +424,16 @@ sidebar:
           <a href="{{ '/search/' | relative_url }}?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91">
             <i class="fas fa-language" aria-hidden="true"></i>
             <strong>全部访谈</strong>
-            <span>{{ interview_posts | size }} 篇</span>
+            <span>在检索中心筛选</span>
           </a>
-          <a href="{{ '/entities/people/' | relative_url }}">
+          <a href="{{ '/people/' | relative_url }}">
             <i class="fas fa-user" aria-hidden="true"></i>
-            <strong>人物索引</strong>
+            <strong>人物库</strong>
             <span>按受访者</span>
           </a>
-          <a href="{{ '/entities/works/' | relative_url }}">
+          <a href="{{ '/works/' | relative_url }}">
             <i class="fas fa-cube" aria-hidden="true"></i>
-            <strong>作品索引</strong>
+            <strong>作品库</strong>
             <span>按作品</span>
           </a>
           <a href="{{ '/timeline/' | relative_url }}">

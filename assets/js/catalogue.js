@@ -23,7 +23,9 @@
       work: document.getElementById("searchWorkFilter"),
       year: document.getElementById("searchYearFilter"),
       source: document.getElementById("searchSourceFilter"),
-      type: document.getElementById("searchTypeFilter")
+      type: document.getElementById("searchTypeFilter"),
+      // the shelf's collections (社长问, the magazines, CEDEC ...): fixed options, the rule is in the seed's "col"
+      collection: document.getElementById("searchCollectionFilter")
     };
     const PEOPLE_BASE = window.pokeamicePeopleBase || "/people/";
     const PAGE = parseInt(resultList.dataset.pageSize || "60", 10) || 60;
@@ -147,12 +149,13 @@
         work: filterEls.work ? filterEls.work.value : "",
         year: filterEls.year ? filterEls.year.value : "",
         source: filterEls.source ? filterEls.source.value : "",
-        type: filterEls.type ? filterEls.type.value : ""
+        type: filterEls.type ? filterEls.type.value : "",
+        collection: filterEls.collection ? filterEls.collection.value : ""
       };
     }
 
     function isDefault(filters) {
-      return !filters.query && !filters.person && !filters.work && !filters.year && !filters.source && !filters.type
+      return !filters.query && !filters.person && !filters.work && !filters.year && !filters.source && !filters.type && !filters.collection
         && (!sortEl || sortEl.value === "date-desc");
     }
 
@@ -165,6 +168,7 @@
       if (filters.year && String(item.year) !== filters.year) return false;
       if (filters.source && String(item.source || "未注明来源") !== filters.source) return false;
       if (filters.type && contentType(item.type) !== filters.type) return false;
+      if (filters.collection && !(item.col || []).includes(filters.collection)) return false;
       return true;
     }
 
@@ -210,8 +214,9 @@
       setSelect(filterEls.year, keep.year, true);
       setSelect(filterEls.source, keep.source, true);
       setSelect(filterEls.type, keep.type, true);
+      setSelect(filterEls.collection, keep.collection, false);
       if (pendingParams) {
-        ["type", "work", "person", "year", "source"].forEach(function(k) {
+        ["type", "work", "person", "year", "source", "collection"].forEach(function(k) {
           if (pendingParams.get(k) && filterEls[k]) setSelect(filterEls[k], pendingParams.get(k), false);
         });
         pendingParams = null;
@@ -419,7 +424,7 @@
       const params = new URLSearchParams(window.location.search);
       let any = false;
       if (params.get("q")) { queryInput.value = params.get("q"); any = true; }
-      const keys = ["type", "work", "person", "year", "source"].filter(function(k) { return params.get(k) && filterEls[k]; });
+      const keys = ["type", "work", "person", "year", "source", "collection"].filter(function(k) { return params.get(k) && filterEls[k]; });
       if (keys.length) {
         any = true;
         if (loaded) keys.forEach(function(k) { setSelect(filterEls[k], params.get(k), false); });

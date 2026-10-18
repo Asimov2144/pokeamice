@@ -1,0 +1,8 @@
+{%- comment -%}
+How many searchable posts each shelf collection holds, as " key=n key=n " (include_cached: one pass over
+the posts per build). Read by home-topics.html; the rule per post is tile-collection-keys.html.
+{%- endcomment -%}
+{%- assign tcc_posts = site.posts | where_exp: "post", "post.search != false" -%}
+{%- comment -%} "#" at both ends: split drops a trailing empty piece, which would lose the last match {%- endcomment -%}
+{%- capture tcc_all -%}#{%- for p in tcc_posts -%}{%- include tile-collection-keys.html post=p -%}{%- if tck != "" -%}|{{ tck | replace: " ", "||" }}|{%- endif -%}{%- endfor -%}#{%- endcapture -%}
+{%- for c in site.data.tile_collections -%}{%- assign tcc_mark = "|" | append: c.key | append: "|" -%}{%- assign tcc_n = tcc_all | split: tcc_mark | size | minus: 1 -%}{%- if tcc_n < 0 -%}{%- assign tcc_n = 0 -%}{%- endif %} {{ c.key }}={{ tcc_n }}{% endfor %}

@@ -2,54 +2,46 @@
 A shelf of the library's collections under the search bar - the director's
 column, the staff blog, 社長が訊く, the magazines, the recruit rounds, the
 people library - each a picture tile (assets/img/topics, made by
-tools/build-topic-tiles.py) with its title and count. A chip with data-q filters the catalogue
+tools/build-topic-tiles.py) with its title and count. A data-dim tile filters the catalogue
 on this page in place; the others open their own index. The row scrolls
 sideways and, left alone, advances one chip at a time (assets/js/catalogue.js),
 so the whole shelf passes by without a click; it stops under the pointer.
-Counts are one pass over site.posts each; the blog counts come from home.html.
+A collection that is not a page of its own (社长问, the magazines, CEDEC ...) is a data-dim="collection"
+tile: on this page it sets the catalogue's 专题 filter, elsewhere it opens /search/?collection=<key>;
+its count comes from the same rule (_data/tile_collections.yml). The blog counts come from home.html.
 {%- endcomment -%}
 {% assign tp_posts = site.posts | where_exp: "post", "post.search != false" %}
-{% assign tp_iwata = tp_posts | where_exp: "p", "p.publication contains '社長が訊く' or p.title contains '社长问'" %}
-{% assign tp_shudo = tp_posts | where_exp: "p", "p.categories contains '首藤刚志手记'" %}
 {% assign tp_scan = tp_posts | where: "archive_type", "scan_translation" %}
-{% assign tp_ndream = tp_posts | where_exp: "p", "p.publication contains 'Nintendo DREAM'" %}
-{% assign tp_famitsu = tp_posts | where_exp: "p", "p.publication contains 'ファミ通' or p.publication contains 'Fami通' or p.source.title contains 'ファミ通' or p.title contains 'Fami通' or p.title contains 'ファミ通'" %}
-{% assign tp_dengeki = tp_posts | where_exp: "p", "p.publication contains '電撃' or p.publication contains '电击' or p.source.title contains '電撃' or p.title contains '電撃' or p.title contains '电击'" %}
-{% assign tp_cedec = tp_posts | where_exp: "p", "p.title contains 'CEDEC'" %}
-{% assign tp_corp = tp_posts | where_exp: "p", "p.categories contains '专题报道'" %}
-{%- comment -%} the recruit interviews and the N.O.M ones carry a tag, which is also what their tiles search for {%- endcomment -%}
-{% assign tp_recruit = tp_posts | where_exp: "p", "p.tags contains '招聘访谈'" %}
-{% assign tp_gi = tp_posts | where_exp: "p", "p.publication contains 'Game Informer'" %}
-{% assign tp_nom = tp_posts | where_exp: "p", "p.tags contains 'N.O.M'" %}
-{% assign tp_tech = tp_posts | where_exp: "p", "p.source_kind == 'technical_report' or p.article_kind == 'technical_feature'" %}
-{% assign tp_long = tp_posts | where_exp: "p", "p.categories contains '长文分析'" %}
-{% assign tp_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure' and e.kind != 'staff'" %}
+{%- comment -%} the collections' counts, by the rule the 专题 filter uses (tile-collection-keys.html): a tile's number is the number of cards it opens {%- endcomment -%}
+{% capture tp_counts %}{% include_cached tile-collection-counts.html %}{% endcapture %}
 {%- comment -%} grid=true (the hub, /keys/) wraps the tiles into a wall and leaves out the auto-advance hook {%- endcomment -%}
 <nav class="front__topics{% if include.grid %} front__topics--grid{% endif %}" aria-label="专题导航"{% unless include.grid %} data-topics{% endunless %}>
 {%- assign tile_base = "/assets/img/topics/" | relative_url -%}
 {%- comment -%} a tile: picture, kind, title, count; data-q filters this page's catalogue in place, the rest open their own index {%- endcomment -%}
   <a class="front__tile" href="{{ '/gamefreak-director/' | relative_url }}"><img src="{{ tile_base }}director.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">博客</span><strong>部长专栏</strong><b>{{ gf_masuda_posts | size }}</b></a>
   <a class="front__tile" href="{{ '/gamefreak-staff/' | relative_url }}"><img src="{{ tile_base }}staff.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">博客</span><strong>员工博客</strong><b>{{ gf_staff_posts | size }}</b></a>
+  {%- comment -%} 长文分析 has its own big card on the home page; the wall on /keys/ has no card, so the tile stays there {%- endcomment -%}
+  {%- if include.grid -%}{%- assign tp_long = tp_posts | where_exp: "p", "p.categories contains '长文分析'" %}
   <a class="front__tile" href="{{ '/long-analysis/' | relative_url }}"><img src="{{ tile_base }}long-analysis.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>长文分析</strong><b>{{ tp_long | size }}</b></a>
+  {%- endif %}
   <a class="front__tile" href="{{ '/gamefreak-art/' | relative_url }}"><img src="{{ tile_base }}art.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">博客</span><strong>杉森建博客</strong><b>{{ gf_art_posts | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E7%A4%BE%E9%95%BF%E9%97%AE' | relative_url }}" data-q="社长问"><img src="{{ tile_base }}iwata.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>社长问</strong><b>{{ tp_iwata | size }}</b></a>
-  <a class="front__tile" href="{{ '/people/shudo-takeshi/' | relative_url }}" data-q="首藤刚志手记"><img src="{{ tile_base }}shudo.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">手记</span><strong>{% include person-name.html person="shudo-takeshi" %}</strong><b>{{ tp_shudo | size }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=iwata' | relative_url }}" data-dim="collection" data-value="iwata"><img src="{{ tile_base }}iwata.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>社长问</strong><b>{{ tp_counts | split: " iwata=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/people/shudo-takeshi/' | relative_url }}" data-dim="collection" data-value="shudo"><img src="{{ tile_base }}shudo.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">手记</span><strong>{% include person-name.html person="shudo-takeshi" %}</strong><b>{{ tp_counts | split: " shudo=" | last | split: " " | first }}</b></a>
   <a class="front__tile" href="{{ '/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91' | relative_url }}" data-dim="type" data-value="扫描翻译"><img src="{{ tile_base }}scan.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">扫描</span><strong>杂志扫描</strong><b>{{ tp_scan | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=Nintendo%20DREAM' | relative_url }}" data-q="Nintendo DREAM"><img src="{{ tile_base }}ndream.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>Nintendo DREAM</strong><b>{{ tp_ndream | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E3%83%95%E3%82%A1%E3%83%9F%E9%80%9A' | relative_url }}" data-q="ファミ通"><img src="{{ tile_base }}famitsu.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>Fami通</strong><b>{{ tp_famitsu | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E9%9B%BB%E6%92%83' | relative_url }}" data-q="電撃"><img src="{{ tile_base }}dengeki.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>電撃</strong><b>{{ tp_dengeki | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=N.O.M' | relative_url }}" data-q="N.O.M"><img src="{{ tile_base }}nom.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>任天堂 NOM</strong><b>{{ tp_nom | size }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=ndream' | relative_url }}" data-dim="collection" data-value="ndream"><img src="{{ tile_base }}ndream.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>Nintendo DREAM</strong><b>{{ tp_counts | split: " ndream=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=famitsu' | relative_url }}" data-dim="collection" data-value="famitsu"><img src="{{ tile_base }}famitsu.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>Fami通</strong><b>{{ tp_counts | split: " famitsu=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=dengeki' | relative_url }}" data-dim="collection" data-value="dengeki"><img src="{{ tile_base }}dengeki.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>電撃</strong><b>{{ tp_counts | split: " dengeki=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=nom' | relative_url }}" data-dim="collection" data-value="nom"><img src="{{ tile_base }}nom.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>任天堂 NOM</strong><b>{{ tp_counts | split: " nom=" | last | split: " " | first }}</b></a>
   <a class="front__tile" href="{{ '/overseas/' | relative_url }}"><img src="{{ tile_base }}overseas.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">海外</span><strong>海外媒体专访</strong><b>{{ site.data.hubs.overseas.total }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=Game%20Informer' | relative_url }}" data-q="Game Informer"><img src="{{ tile_base }}gi.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">海外</span><strong>Game Informer</strong><b>{{ tp_gi | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=CEDEC' | relative_url }}" data-q="CEDEC"><img src="{{ tile_base }}cedec.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">讲演</span><strong>CEDEC</strong><b>{{ tp_cedec | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E6%8A%80%E6%9C%AF' | relative_url }}" data-q="技术"><img src="{{ tile_base }}tech.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">技术</span><strong>技术报告</strong><b>{{ tp_tech | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E6%8B%9B%E8%81%98%E8%AE%BF%E8%B0%88' | relative_url }}" data-q="招聘访谈"><img src="{{ tile_base }}recruit.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>招聘访谈</strong><b>{{ tp_recruit | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E6%B3%A8%E7%9B%AE%E3%81%AE%E8%A9%B1%E9%A1%8C' | relative_url }}" data-q="注目の話題"><img src="{{ tile_base }}corporate.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>官方专题</strong><b>{{ tp_corp | size }}</b></a>
-  <a class="front__tile" href="{{ '/people/' | relative_url }}"><img src="{{ tile_base }}people.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>人物库</strong><b>{{ tp_people | size }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=cedec' | relative_url }}" data-dim="collection" data-value="cedec"><img src="{{ tile_base }}cedec.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">讲演</span><strong>CEDEC</strong><b>{{ tp_counts | split: " cedec=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=tech' | relative_url }}" data-dim="collection" data-value="tech"><img src="{{ tile_base }}tech.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">技术</span><strong>技术报告</strong><b>{{ tp_counts | split: " tech=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=recruit' | relative_url }}" data-dim="collection" data-value="recruit"><img src="{{ tile_base }}recruit.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>招聘访谈</strong><b>{{ tp_counts | split: " recruit=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/search/?collection=corp' | relative_url }}" data-dim="collection" data-value="corp"><img src="{{ tile_base }}corporate.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>官方专题</strong><b>{{ tp_counts | split: " corp=" | last | split: " " | first }}</b></a>
+  <a class="front__tile" href="{{ '/people/' | relative_url }}"><img src="{{ tile_base }}people.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>人物库</strong><b>{% include_cached people-library-count.html %}</b></a>
   <a class="front__tile" href="{{ '/credits/' | relative_url }}"><img src="{{ tile_base }}credits.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>制作名单</strong><b>{{ site.data.credits_games | size }}</b></a>
   <a class="front__tile" href="{{ '/games/' | relative_url }}"><img src="{{ tile_base }}games.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>按游戏读</strong><b>{{ site.data.hubs.games.n }}</b></a>
   <a class="front__tile" href="{{ '/works/' | relative_url }}"><img src="{{ tile_base }}works.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>作品库</strong><b>{{ site.data.works | size }}</b></a>
-  <a class="front__tile" href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}"><img src="{{ tile_base }}analysis.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>员工博客分析</strong><b>{{ gf_staff_posts | size }}</b></a>
+  <a class="front__tile" href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}"><img src="{{ tile_base }}analysis.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>员工博客分析</strong></a>
   <a class="front__tile" href="{{ '/quotes/' | relative_url }}"><img src="{{ tile_base }}quotes.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">余兴</span><strong>今日一句</strong><b>{{ site.data.quotes.quotes | size }}</b></a>
   <a class="front__tile" href="{{ '/timeline/' | relative_url }}"><img src="{{ tile_base }}timeline.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>时间线</strong></a>
   <a class="front__tile" href="{{ '/resource-graph/' | relative_url }}"><img src="{{ tile_base }}graph.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>关系图谱</strong></a>

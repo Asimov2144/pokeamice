@@ -29,6 +29,10 @@ layout: default
             <select id="searchTypeFilter"><option value="">全部类型</option></select>
           </label>
           <label>
+            <span>专题</span>
+            <select id="searchCollectionFilter"><option value="">全部专题</option>{% for c in site.data.tile_collections %}<option value="{{ c.key }}">{{ c.label }}</option>{% endfor %}</select>
+          </label>
+          <label>
             <span>人物</span>
             <select id="searchPersonFilter"><option value="">全部人物</option></select>
           </label>

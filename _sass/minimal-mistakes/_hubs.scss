@@ -13,6 +13,7 @@
 
   .tl-pick[hidden],
   [data-hub-region][hidden] { display: none; }
+  [data-hub-pane][hidden] { display: none; }   /* /overseas/: 按媒体 / 按地区 */
 
   .hub-note { font-size: 12.5px; line-height: 1.65; color: $lib-ink-soft; }
   .hub-top { margin-top: 12px; }

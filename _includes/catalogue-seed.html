@@ -78,6 +78,8 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
       {% assign avatars = avatars | push: pa_src %}
       {% if hit.slug and hit.kind != "character" %}{% assign slugs = slugs | push: hit.slug %}{% else %}{% assign slugs = slugs | push: "" %}{% endif %}
     {% endfor %}
+    {%- comment -%} the shelf collections it is in (tile-collection-keys.html), for the 专题 filter {%- endcomment -%}
+    {% include tile-collection-keys.html post=post %}
     {
       "kind": "post",
       "card": {{ card_kind | jsonify }},
@@ -92,6 +94,7 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
       "year": {{ post.date | date: "%Y" | jsonify }},
       "categories": {{ post.categories | jsonify }},
       "tags": {{ post.tags | jsonify }},
+      "col": {{ tck | split: " " | jsonify }},
       "topics": {% if post.topics %}{{ post.topics | jsonify }}{% else %}[]{% endif %},
       "people": {% if post.entities.people %}{{ post.entities.people | jsonify }}{% else %}[]{% endif %},
       "people_labels": [{% for who in post.entities.people %}{% assign identity = who | person_identity %}{{ identity.label | default: who | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}],

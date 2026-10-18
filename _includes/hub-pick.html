@@ -1,0 +1,10 @@
+{%- comment -%} one card on /overseas/ (_pages/overseas.md), in the region view and the outlet view alike. include.it: an item of _data/hubs.yml {%- endcomment -%}
+{%- assign it = include.it -%}
+      <a class="tl-pick is-{{ it.kind }}" href="{{ it.url | relative_url }}" data-hub-item="{{ it.outlet }}">
+        {% if it.cover %}<span class="tl-pick__cover"><img src="{{ it.cover | relative_url }}" alt="" loading="lazy" decoding="async"></span>{% endif %}
+        <span class="tl-pick__body">
+          <small>{{ it.outlet_name }} · {{ it.date | slice: 0, 7 }}</small>
+          <strong>{{ it.title }}</strong>
+          {% if it.blurb %}<em>{{ it.blurb }}</em>{% elsif it.people.size > 0 %}<em>{{ it.people | join: "、" }}</em>{% endif %}
+        </span>
+      </a>

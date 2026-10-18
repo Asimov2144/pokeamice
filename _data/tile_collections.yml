@@ -1,0 +1,15 @@
+# The collections on the home page's topic shelf that are not pages of their own (社长问, the magazines,
+# CEDEC ...). Each is a rule over a post's fields, written once in _includes/tile-collection-keys.html;
+# the tile's count (tile-collection-counts.html), the catalogue's 专题 filter (catalogue-seed.html's
+# "col", assets/js/catalogue.js) and /search/?collection=<key> all read that one rule, so the number on
+# a tile is the number of cards it opens. Order here is the order of the filter's options.
+- {key: iwata, label: 社长问}
+- {key: shudo, label: 首藤刚志手记}
+- {key: ndream, label: Nintendo DREAM}
+- {key: famitsu, label: Fami通}
+- {key: dengeki, label: 電撃}
+- {key: nom, label: 任天堂 NOM}
+- {key: cedec, label: CEDEC}
+- {key: tech, label: 技术报告}
+- {key: recruit, label: 招聘访谈}
+- {key: corp, label: 官方专题}
