@@ -1,0 +1,91 @@
+/* 关于本站 (/about/) and 参考与同类站 (/references/): the pages about the site itself. They borrow the
+   methods tab's cards and five-step strip (home-tabs.css, loaded alongside) and add a reading column with
+   a sticky rail, the same frame as 站点动态 (/news/). */
+.si {
+  --rc-ink: #1e293b; --rc-soft: #475569; --rc-faint: #64748b; --rc-rule: #e2e8f0; --rc-accent: #b91c1c;
+  display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 32px; align-items: start;
+  margin-top: 8px; color: var(--rc-ink);
+}
+.si-main { display: grid; gap: 34px; min-width: 0; }
+.si-sec { display: grid; gap: 12px; scroll-margin-top: 80px; }
+.si-sec > h2 {
+  margin: 0; padding: 0 0 8px; display: flex; align-items: baseline; gap: 10px;
+  font-size: 19px; line-height: 1.3; border: 0; border-bottom: 2px solid var(--rc-ink);
+}
+.si-sec > h2 small { font-size: 11.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--rc-faint); }
+.si-sec > h3 { margin: 6px 0 0; font-size: 15px; border: 0; padding: 0; }
+.si-sec p, .si-sec li { font-size: 14.5px; line-height: 1.8; color: var(--rc-soft); }
+.si-sec p { margin: 0; }
+.si-sec ul:not([class]) { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; }
+.si-sec li { margin: 0; }
+.si-sec b, .si-sec strong { color: var(--rc-ink); }
+.si-sec a { color: var(--rc-accent); text-decoration: none; font-weight: 600; }
+.si-sec a:hover { text-decoration: underline; }
+.si-sec .me-card, .si-sec .me-card:hover { text-decoration: none; font-weight: 400; }
+.si-sec .me-card b { color: var(--rc-ink); font-weight: 700; }
+.si-note {
+  margin: 0; padding: 10px 14px; border-left: 3px solid var(--rc-accent); border-radius: 0 8px 8px 0;
+  background: #fef2f2; font-size: 13.5px; line-height: 1.7; color: var(--rc-soft);
+}
+.si-cite {
+  margin: 0; padding: 12px 14px; border: 1px solid var(--rc-rule); border-radius: 10px; background: #f8fafc;
+  font-size: 13.5px; line-height: 1.75; color: var(--rc-ink); overflow-wrap: anywhere;
+}
+.si-cite span { color: var(--rc-faint); }
+
+/* a definition list: a label on the left, what it means on the right */
+.si-defs { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 16px; }
+.si-defs dt { margin: 0; font-size: 14px; font-weight: 700; color: var(--rc-ink); white-space: nowrap; }
+.si-defs dd { margin: 0; font-size: 14px; line-height: 1.7; color: var(--rc-soft); }
+.si-defs dd a { color: var(--rc-accent); font-weight: 600; text-decoration: none; }
+.si-tag { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; font-style: normal; }
+.si-tag--draft { background: #fff7ed; color: #c2410c; }
+.si-tag--done { background: #ecfdf5; color: #047857; }
+
+/* 站点记录: date, what happened, where to read it */
+.si-log { list-style: none; margin: 0; padding: 0 !important; display: grid; gap: 0 !important; }
+.si-log li { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; align-items: baseline; padding: 8px 0; border-bottom: 1px solid #f1f5f9; }
+.si-log time { font-size: 12.5px; font-variant-numeric: tabular-nums; color: var(--rc-faint); }
+.si-log span { font-size: 14px; line-height: 1.65; }
+
+/* 参考与同类站: one row per site */
+.si-sites { list-style: none; margin: 0; padding: 0 !important; display: grid; gap: 10px !important; }
+.si-site {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: baseline;
+  padding: 12px 14px; border: 1px solid var(--rc-rule); border-radius: 12px; background: #fff;
+}
+.si-site h3 { margin: 0; font-size: 15px; line-height: 1.35; border: 0; padding: 0; }
+.si-site h3 a { color: var(--rc-ink) !important; }
+.si-site h3 a:hover { color: var(--rc-accent) !important; }
+.si-site__meta { font-size: 12px; color: var(--rc-faint); white-space: nowrap; }
+.si-site p { grid-column: 1 / -1; font-size: 13.5px !important; line-height: 1.7 !important; }
+.si-site p i { font-style: normal; color: var(--rc-faint); }
+
+.si-rail { display: grid; gap: 14px; position: sticky; top: 76px; }
+.si-box { padding: 14px 16px; border: 1px solid var(--rc-rule); border-radius: 12px; background: #fff; }
+.si-box h2 { margin: 0 0 8px; display: flex; align-items: center; gap: 8px; font-size: 14px; border: 0; padding: 0; }
+.si-box h2 i { color: var(--rc-faint); font-size: 12px; }
+.si-box ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.si-box li { margin: 0; font-size: 13.5px; line-height: 1.6; }
+.si-box a { color: var(--rc-ink); text-decoration: none; }
+.si-box a:hover { color: var(--rc-accent); }
+.si-box li span { display: block; font-size: 12px; color: var(--rc-faint); }
+
+@media (max-width: 900px) {
+  .si { grid-template-columns: minmax(0, 1fr); }
+  .si-rail { position: static; order: -1; }
+  .si-rail .si-box--more { display: none; }
+}
+@media (max-width: 560px) {
+  .si-defs { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .si-defs dd { margin-bottom: 8px; }
+  .si-log li { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .si-site { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* the night theme (body.theme-bg-black) */
+body.theme-bg-black .si { --rc-ink: #eef3f7; --rc-soft: #c4ccd4; --rc-faint: #9aa5b1; --rc-rule: #46505a; --rc-accent: #fca5a5; }
+body.theme-bg-black .si .si-site, body.theme-bg-black .si .si-box, body.theme-bg-black .si .me-card, body.theme-bg-black .si .me-flow li { background: #2a2f35; }
+body.theme-bg-black .si .si-cite { background: #22272c; }
+body.theme-bg-black .si .si-note { background: #3a2a2c; }
+body.theme-bg-black .si .si-log li { border-bottom-color: #3a424a; }

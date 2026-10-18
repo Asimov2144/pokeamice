@@ -69,6 +69,10 @@ main:
   - title: "MOre at"
     url: https://pokeamice.com
     children:
+      - title: "关于本站"
+        url: /about/
+      - title: "参考与同类站"
+        url: /references/
       - title: "宝可梦友会主站"
         url: https://pokeamice.com
       - title: "本地工具索引"
@@ -77,8 +81,6 @@ main:
         url: /editor-workbench/
       - title: "元数据规范"
         url: /metadata-schema/
-      - title: "关于本站"
-        url: /about/
   - title: "News"
     url: /news/
 

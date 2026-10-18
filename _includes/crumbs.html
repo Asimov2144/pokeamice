@@ -213,7 +213,8 @@ caller needs.
     {%- endif -%}
   {%- endif -%}
 {%- elsif c_layout == "library" -%}
-  {%- assign c_here = "资料窗口" -%}
+  {%- comment -%} page.crumb names a library page that is not the resource window (关于本站, 站点动态) {%- endcomment -%}
+  {%- assign c_here = page.crumb | default: "资料窗口" -%}
 {%- else -%}
   {%- comment -%} the rest by where the page lives: the timeline's years, the entity indexes, the docs under /keys/ {%- endcomment -%}
   {%- assign c_parts = page.url | split: "/" -%}

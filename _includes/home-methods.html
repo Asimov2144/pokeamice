@@ -1,13 +1,13 @@
 {%- comment -%}
 方法与说明 (the home page's former 文档索引). The documents about the archive itself: how to read it, how it is
 organised, what is missing and how to help, the research notes behind some collections, the editing tools,
-and the site's own change log. The Game Freak blog archive that used to fill this tab has its own pages
+and the page about the site itself (/about/), its news and the sites it points to. The Game Freak blog archive that used to fill this tab has its own pages
 (/gamefreak-director/, /gamefreak-staff/, /gamefreak-art/) and its tiles on the topic shelf.
 {%- endcomment -%}
 <link rel="stylesheet" href="{{ '/assets/css/home-tabs.css' | relative_url }}">
 {% assign me_gaps = site.data.archive_gaps.entries | size %}
 {% assign me_wanted = site.data.wanted.items | where_exp: "i", "i.status == 'known' or i.status == 'candidate' or i.status == 'text'" | size %}
-{% assign me_log = site.posts | where_exp: "p", "p.categories contains '文档'" %}
+{% assign me_news = site.data.feed | sort: "date" | last %}
 <div class="me">
   <header class="co-head">
     <div>
@@ -58,7 +58,7 @@ and the site's own change log. The Game Freak blog archive that used to fill thi
       <a class="me-card" href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}"><i class="fas fa-chart-line" aria-hidden="true"></i><span><b>员工博客内容分析</b><em>两百多篇员工博客写了什么、谁写得多</em></span></a>
       <a class="me-card" href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}"><i class="fas fa-clock-rotate-left" aria-hidden="true"></i><span><b>招聘站版本档案</b><em>GAME FREAK 招聘站各版本的更替</em></span></a>
       <a class="me-card" href="{{ '/keys/pokemon-post-swsh-print-interviews/' | relative_url }}"><i class="fas fa-newspaper" aria-hidden="true"></i><span><b>剑盾之后的实体访谈</b><em>2019–2026 年纸媒访谈的收录清单</em></span></a>
-      <a class="me-card" href="{{ '/long-analysis/' | relative_url }}"><i class="fas fa-pen-nib" aria-hidden="true"></i><span><b>长文分析</b><em>站主的原创长文，另有<a href="{{ '/notes/weibo/' | relative_url }}">碎片</a></em></span></a>
+      <a class="me-card" href="{{ '/long-analysis/' | relative_url }}"><i class="fas fa-pen-nib" aria-hidden="true"></i><span><b>长文分析</b><em>站主的原创长文：逐帧分析、设定与模型考察</em></span></a>
     </div>
   </section>
 
@@ -72,9 +72,12 @@ and the site's own change log. The Game Freak blog archive that used to fill thi
   </section>
 
   <section class="me-group">
-    <h3><i class="fas fa-clock-rotate-left" aria-hidden="true"></i>站点记录</h3>
-    <ul class="me-log">
-      {% for p in me_log limit: 6 %}<li><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%Y-%m-%d" }}</time><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor %}
-    </ul>
+    <h3><i class="fas fa-circle-info" aria-hidden="true"></i>关于本站</h3>
+    <div class="me-grid">
+      <a class="me-card" href="{{ '/about/' | relative_url }}"><i class="fas fa-circle-info" aria-hidden="true"></i><span><b>关于本站</b><em>收什么、怎么做的、怎么引用、版权与联系</em></span></a>
+      <a class="me-card" href="{{ '/about/#build' | relative_url }}"><i class="fas fa-code" aria-hidden="true"></i><span><b>这个站怎么搭的</b><em>Jekyll、GitHub Pages、源码仓库与鸣谢</em></span></a>
+      <a class="me-card" href="{{ '/news/' | relative_url }}"><i class="fas fa-clock-rotate-left" aria-hidden="true"></i><span><b>站点动态</b><em>{% if me_news %}最近：{{ me_news.title }}{% else %}收录、整理、新功能、征集{% endif %}</em></span></a>
+      <a class="me-card" href="{{ '/references/' | relative_url }}"><i class="fas fa-book-bookmark" aria-hidden="true"></i><span><b>参考与同类站</b><em>同类的访谈翻译站、百科与档案工具</em></span></a>
+    </div>
   </section>
 </div>

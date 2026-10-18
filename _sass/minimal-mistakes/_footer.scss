@@ -51,6 +51,25 @@
   font-size: $type-size-7;
 }
 
+/* 关于本站 · 参考与同类站 · 站点动态 (footer.html) */
+.page__footer-site {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0 0 0.6em;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .page__footer-follow {
   ul {
     margin: 0;

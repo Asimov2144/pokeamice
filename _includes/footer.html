@@ -20,4 +20,12 @@
   </ul>
 </div>
 
+{%- comment -%} the pages about the site itself, on every page: /about/ is where the site explains itself {%- endcomment -%}
+<nav class="page__footer-site" aria-label="{% if ui_loc == 'ja' %}このサイトについて{% else %}关于本站{% endif %}">
+  <a href="{{ '/about/' | relative_url }}">{% if ui_loc == 'ja' %}このサイトについて（中国語）{% else %}关于本站{% endif %}</a>
+  <a href="{{ '/references/' | relative_url }}">{% if ui_loc == 'ja' %}参考サイト（中国語）{% else %}参考与同类站{% endif %}</a>
+  <a href="{{ '/news/' | relative_url }}">{% if ui_loc == 'ja' %}更新情報（中国語）{% else %}站点动态{% endif %}</a>
+  <a href="https://github.com/Asimov2144/pokeamice">GitHub</a>
+</nav>
+
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[ui_loc].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

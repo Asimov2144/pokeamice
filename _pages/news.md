@@ -1,6 +1,7 @@
 ---
 layout: library
 title: "站点动态"
+crumb: 站点动态
 permalink: /news/
 ---
 {%- comment -%}
@@ -61,6 +62,7 @@ the day-by-day stream with quotes and people (that is the resource window, /keys
         <li><a href="{{ '/#recent-updates' | relative_url }}"><b>近期发布</b></a><span>最近几天新进了哪些条目</span></li>
         <li><a href="{{ '/keys/' | relative_url }}"><b>资料窗口</b></a><span>按入库日的完整记录，今日一句、历史上的今天、人物聚焦</span></li>
         <li><a href="{{ '/#retrieval' | relative_url }}"><b>馆藏概览</b></a><span>馆藏由什么构成、缺什么</span></li>
+        <li><a href="{{ '/about/' | relative_url }}"><b>关于本站</b></a><span>收什么、怎么做的、怎么引用、怎么搭的</span></li>
       </ul>
     </section>
     <section class="nw-box">

@@ -24,11 +24,12 @@
   status: published
   verified: 2026-09-29
   # every screenshot is of https://docs.pokeamice.com, taken 2026-09-29 with tools/cdpshot.mjs
-  # (Pokeamice_app); desktop 1280 wide, phone 390x844 at 2x (stored at 560 wide).
+  # (Pokeamice_app); desktop 1280 wide, phone 390x844 at 2x (stored at 560 wide). The two home
+  # shots were redone 2026-10-19 after the 10-18 home redesign, taller (1100) to reach the filters.
   # url is a path on the site; a change to that page means redoing the shot.
   shots:
-    - {file: home-d.webp, url: /, viewport: 1280x800}
-    - {file: home-m.webp, url: /, viewport: 390x844}
+    - {file: home-d.webp, url: /, viewport: 1280x1100, taken: 2026-10-19}
+    - {file: home-m.webp, url: /, viewport: 390x1100, taken: 2026-10-19}
     - {file: reader-tools-d.webp, url: /访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/, viewport: 1280x900, state: 阅读工具展开}
     - {file: person-card-d.webp, url: /访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/, viewport: 1280x900, state: 悬停在页头第一个人名上}
     - {file: lore-d.webp, url: /访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/, viewport: 1280x900, state: 滚到「本篇提到」}

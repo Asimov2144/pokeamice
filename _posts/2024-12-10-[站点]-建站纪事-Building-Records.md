@@ -65,17 +65,14 @@ links:
     url: "https://realfavicongenerator.net/"
     domain: "realfavicongenerator.net"
     type: "web"
-workflow:
-  scan: "pending"
-  preprocess: "pending"
-  ocr: "pending"
-  translation: "pending"
-  proofreading: "done"
-  published: "done"
 entities:
   organizations:
   - Poke Amice Docs
 ---
+
+这是 2024 年 12 月建站时的记录，只讲了主题、图标与图床。站点现在收什么、怎么做、怎么搭、怎么联系，见[关于本站](/about/#build)；之后的变化记在[站点动态](/news/)。
+{: .notice--info}
+
 # 建站纪事&鸣谢
 前人栽树，后人乘凉。\
 立碑刻道，按图索骥。
