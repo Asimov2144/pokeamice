@@ -97,7 +97,7 @@ scan-prepared/
 # Local temporary directories and caches
 ._site*
 .local-backup*
-.codex-*/
+.codex-*
 tmp_inspect/
 scratch/
 .jid
