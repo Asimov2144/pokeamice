@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】『宝可梦 朱＆紫』PV3逐帧分析"
 date: '2022-08-05'
 categories: [长文分析, 宝可梦友会]

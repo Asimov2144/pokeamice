@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "『宝可梦 朱/紫』零之秘宝 PV3逐帧分析"
 date: '2023-08-09'
 categories: [长文分析, 宝可梦友会]

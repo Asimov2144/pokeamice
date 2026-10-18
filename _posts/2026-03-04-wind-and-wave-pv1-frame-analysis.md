@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】『宝可梦 风与波 』PV1 逐帧分析＆水体情报解读"
 date: '2026-03-04'
 categories: [长文分析, 宝可梦友会]

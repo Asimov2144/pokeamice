@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】 Pokeamice 建设进展报告＆思考 2022.10.04"
 date: '2022-10-04'
 categories: [长文分析, 宝可梦友会]

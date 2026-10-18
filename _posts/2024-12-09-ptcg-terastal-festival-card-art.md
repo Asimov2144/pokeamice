@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "宝可梦友会 | 高级扩充包『太晶庆典』中的卡图细节"
 date: '2024-12-09'
 categories: [长文分析, 宝可梦友会]

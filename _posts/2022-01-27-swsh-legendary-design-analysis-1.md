@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】《宝可梦 剑＆盾》传说宝可梦设定分析篇"
 date: '2022-01-27'
 categories: [长文分析, 宝可梦友会]

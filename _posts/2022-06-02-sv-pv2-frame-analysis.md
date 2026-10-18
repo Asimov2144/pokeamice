@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "『宝可梦 朱＆紫』PV2情报逐帧分析"
 date: '2022-06-02'
 categories: [长文分析, 宝可梦友会]

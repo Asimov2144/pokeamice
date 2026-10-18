@@ -95,6 +95,10 @@ def main():
         if "weibo_article:" in f.read_text(encoding="utf-8", errors="ignore")[:1500]:
             f.unlink()
     n = 0
+    # Keep intrinsic dimensions beside the posts: the reader can reserve image
+    # space without rewriting the preserved article HTML or fetching the CDN.
+    image_index = ROOT / "_data" / "weibo_article_images.json"
+    dimensions = json.loads(image_index.read_text(encoding="utf-8")) if image_index.exists() else {}
     for a in sorted(data["articles"], key=lambda x: first[x["id"]]):
         if a["id"] == EXISTING and not args.include_existing:
             continue
@@ -108,11 +112,19 @@ def main():
                 tags.append(tag)
         body = article_html(a)
         imgs = re.findall(r'src="(%s[^"]+)"' % re.escape(CDN), body)
+        from PIL import Image
+        for url in imgs:
+            image_file = WORK / "cos" / url.rsplit("/", 1)[-1]
+            try:
+                with Image.open(image_file) as image:
+                    dimensions[url] = {"width": image.width, "height": image.height}
+            except (OSError, ValueError):
+                pass  # Missing archived images retain their existing metadata.
         pre = (a.get("preface") or "").strip().replace("\n", " ")
         text = re.sub(r"<[^>]+>", "", body)
         summary = pre or re.sub(r"\s+", " ", text)[:110]
         fm = [
-            "---", "layout: single", f"title: {q(title)}", f"date: '{date}'",
+            "---", "layout: original-article", f"title: {q(title)}", f"date: '{date}'",
             "categories: [长文分析, 宝可梦友会]",
             "tags: [" + ", ".join(q(t) for t in (tags + ["PokeAmice"])) + "]",
         ]
@@ -137,6 +149,7 @@ def main():
         out = "\n".join(fm) + '\n<link rel="stylesheet" href="/assets/css/notes-archive.css">\n<div class="wbn-article">\n' + body + "\n</div>\n" + foot + "\n"
         (POSTS / f"{date}-{slug}.md").write_text(out, encoding="utf-8", newline="\n")
         n += 1
+    image_index.write_text(json.dumps(dimensions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{n} posts written to {POSTS}")
 
 

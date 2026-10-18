@@ -61,7 +61,7 @@ caller needs.
       {%- assign c_blog_tip = c_blog.subtitle | default: c_blog.description | default: "GAME FREAK 官方站上的博客，本站的复刻存档" -%}
       {%- assign c_tips = c_tips | push: c_blog_tip -%}
     {%- endif -%}
-  {%- elsif c_layout == "single" -%}
+  {%- elsif c_layout == "single" or c_layout == "original-article" -%}
     {%- comment -%} the site's own posts - notes, updates, essays: their first category is their section {%- endcomment -%}
     {%- assign c_cat = page.categories | first -%}
     {%- if c_cat -%}

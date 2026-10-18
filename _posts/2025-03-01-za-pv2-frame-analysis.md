@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "『宝可梦传说 Z-A』PV2逐帧分析"
 date: '2025-03-01'
 categories: [长文分析, 宝可梦友会]

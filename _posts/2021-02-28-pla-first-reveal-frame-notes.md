@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "『宝可梦传说 阿尔宙斯』初公开逐帧分析＆个人猜想"
 date: '2021-02-28'
 categories: [长文分析, 宝可梦友会]

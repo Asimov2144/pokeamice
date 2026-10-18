@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【随想】Live A Pokemon 『时空勇士』通关随梦"
 date: '2022-09-18'
 categories: [长文分析, 宝可梦友会]

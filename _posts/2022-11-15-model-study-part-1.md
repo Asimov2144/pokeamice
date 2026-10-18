@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "近世代宝可梦模型考察（一）——交付品＆开发规格的共通化"
 date: '2022-11-15'
 categories: [长文分析, 宝可梦友会]

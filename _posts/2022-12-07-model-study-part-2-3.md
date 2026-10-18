@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】近世代宝可梦模型考察（二＆三）——图形资源库＆模型动画"
 date: '2022-12-07'
 categories: [长文分析, 宝可梦友会]

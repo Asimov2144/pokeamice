@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】再议《宝可梦传说 阿尔宙斯》的玩法以及其昭示的宝可梦未来"
 date: '2022-04-05'
 categories: [长文分析, 宝可梦友会]

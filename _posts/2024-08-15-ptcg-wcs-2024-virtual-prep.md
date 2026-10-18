@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "宝可梦友会 | 2024 宝可梦世界锦标赛 卡牌项目的虚拟备战报告"
 date: '2024-08-15'
 categories: [长文分析, 宝可梦友会]

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "【长文】《宝可梦传说 阿尔宙斯》初公开信息分析整合与其昭示的未来"
 date: '2021-06-12'
 categories: [长文分析, 宝可梦友会]

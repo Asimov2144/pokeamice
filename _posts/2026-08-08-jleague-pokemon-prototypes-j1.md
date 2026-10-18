@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "宝可梦友会 | J联赛 × 宝可梦 新赛季各队选宝原型整理【J1篇】"
 date: '2026-08-08'
 categories: [长文分析, 宝可梦友会]

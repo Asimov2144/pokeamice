@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{%- assign original_body = content | original_article_markup -%}
+{%- assign original_toc = original_body | original_article_toc -%}
+{%- assign original_dek = page.summary | original_article_dek -%}
+{%- assign original_minutes = original_body | original_article_minutes -%}
+{%- assign original_posts = site.posts | where_exp: "p", "p.weibo_article != nil" | sort: "date" | reverse -%}
+
+<main id="main" class="original-shell" data-original-reader>
+  {% include crumbs.html %}
+  <div class="original-frame">
+    {%- if original_toc != "" %}
+    <aside class="original-rail" aria-label="文章导航">
+      <details class="original-toc" data-original-toc>
+        <summary>本文目录 <span aria-hidden="true">＋</span></summary>
+        <nav aria-label="本文目录">{{ original_toc }}</nav>
+      </details>
+      <div class="original-progress" data-original-progress hidden>
+        <label for="original-progress">阅读进度 <output data-original-percent>0%</output></label>
+        <progress id="original-progress" max="100" value="0"></progress>
+      </div>
+      <a class="original-rail__back" href="{{ '/notes/weibo/' | relative_url }}">回到微博碎片 <span aria-hidden="true">↗</span></a>
+    </aside>
+    {%- endif %}
+
+    <article class="original-article" itemscope itemtype="https://schema.org/BlogPosting">
+      <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
+      <header class="original-head">
+        <p class="original-eyebrow">宝可梦友会 <span aria-hidden="true">/</span> 原创长文</p>
+        <h1 id="page-title" itemprop="headline">{{ page.display_title | default: page.title | escape }}</h1>
+        {%- if original_dek != "" %}<p class="original-dek" itemprop="description">{{ original_dek | escape }}</p>{% endif %}
+        <div class="original-byline">
+          <span class="original-author" itemprop="author">{{ page.author | default: "2144jx" | escape }}</span>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+          <span>约 {{ original_minutes }} 分钟</span>
+          {%- if page.source.url %}<a href="{{ page.source.url | escape }}" target="_blank" rel="nofollow noopener">微博原文 <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
+      </header>
+
+      <div class="original-article__content" itemprop="articleBody" data-original-content>{{ original_body }}</div>
+
+      {%- capture original_appendix %}{% include post-lore.html %}{% include article-link-analysis.html %}{% include article-references.html %}{% if page.annotations %}{% include article-annotations.html %}{% endif %}{% endcapture -%}
+      {%- assign original_appendix = original_appendix | strip -%}
+      {%- if original_appendix != "" %}
+      <details class="original-appendix"><summary>本文的引用与相关资料</summary><div>{{ original_appendix }}</div></details>
+      {%- endif %}
+
+      <footer class="original-footer">
+        <div class="original-footer__trail"><a href="{{ '/search/?type=站主原创' | relative_url }}">更多站主原创</a><a href="{{ '/notes/weibo/' | relative_url }}">微博碎片</a><a href="#page-title">回到篇首 ↑</a></div>
+        {%- if original_posts.size > 1 %}
+        <section class="original-next" aria-labelledby="original-next-title">
+          <h2 id="original-next-title">接着读</h2>
+          <ol>
+            {%- assign original_shown = 0 -%}
+            {%- for next_post in original_posts -%}
+              {%- if next_post.url != page.url -%}
+            <li><time datetime="{{ next_post.date | date_to_xmlschema }}">{{ next_post.date | date: "%Y.%m" }}</time><a href="{{ next_post.url | relative_url }}">{{ next_post.display_title | default: next_post.title }}</a></li>
+                {%- assign original_shown = original_shown | plus: 1 -%}
+                {%- if original_shown == 3 %}{% break %}{% endif -%}
+              {%- endif -%}
+            {%- endfor %}
+          </ol>
+        </section>
+        {%- endif %}
+      </footer>
+    </article>
+  </div>
+
+  <dialog class="original-viewer" data-original-viewer aria-label="文章配图原图">
+    <form method="dialog"><button class="original-viewer__close" aria-label="关闭原图">关闭 ×</button></form>
+    <p class="original-viewer__status" data-original-image-status role="status" hidden></p>
+    <figure><img alt="" data-original-full-image><figcaption data-original-image-caption></figcaption></figure>
+    <div class="original-viewer__controls"><button type="button" data-original-prev aria-label="上一张配图">← 上一张</button><a data-original-image-source target="_blank" rel="noopener">打开原图 ↗</a><button type="button" data-original-next aria-label="下一张配图">下一张 →</button></div>
+  </dialog>
+</main>
+<script src="{{ '/assets/js/original-article.js' | relative_url }}" defer></script>

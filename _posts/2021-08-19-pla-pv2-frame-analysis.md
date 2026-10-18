@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "长文 |《宝可梦传说 阿尔宙斯》PV2 情报逐帧分析"
 date: '2021-08-19'
 categories: [长文分析, 宝可梦友会]

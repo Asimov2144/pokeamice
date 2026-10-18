@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: original-article
 title: "长文/攻略 | 关都地区游记＆Game Freak三址巡礼"
 date: '2025-02-27'
 categories: [长文分析, 宝可梦友会]
