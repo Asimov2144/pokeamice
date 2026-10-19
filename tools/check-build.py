@@ -191,17 +191,22 @@ def main() -> int:
         check(False, "timeline: 2010 is built")
 
     # ---- the two cross-cutting hubs (tools/build-hubs.py) ---------------------
-    ov = read(site / "overseas" / "index.html")
-    if ov:
-        cards = ov.select("a.tl-pick[data-hub-item]")
-        check(len(cards) >= 55 and all(exists(site, a.get("href") or "") for a in cards),
-              f"overseas: {len(cards)} interviews, every one resolves")
-        check(len(ov.select("section.tl-era")) >= 4 and len(ov.select("[data-hub-bar] button")) >= 5,
-              f"overseas: {len(ov.select('section.tl-era'))} regions and {len(ov.select('[data-hub-bar] button'))} outlet buttons")
-        check([t for t, _ in trail(ov)][:2] == ["首页", "海外媒体专访"], f"overseas: the crumbs are 首页 › 海外媒体专访 {trail(ov)[:3]}")
-        check(all(exists(site, a.get("href") or "") for a in ov.select(".hub-who a")), "overseas: the people and game chips resolve")
+    # 媒体专访 (/media/): the Japanese and the foreign press, a board per named outlet; /overseas/ redirects into it
+    md = read(site / "media" / "index.html")
+    if md:
+        cards = md.select("a.tl-pick[data-hub-item]")
+        check(len(cards) >= 150 and all(exists(site, a.get("href") or "") for a in cards),
+              f"media: {len(cards)} interviews, every one resolves")
+        boards = md.select("section.hub-board")
+        check(len(boards) >= 12 and md.select_one("#japan") is not None and md.select_one("#overseas") is not None,
+              f"media: {len(boards)} boards on the 日本 and 海外 sides")
+        check(all(md.select_one("#" + (a.get("href") or "#")[1:]) is not None for a in md.select(".media-bar a")),
+              "media: every jump in the bar lands on a board")
+        check([t for t, _ in trail(md)][:2] == ["首页", "媒体专访"], f"media: the crumbs are 首页 › 媒体专访 {trail(md)[:3]}")
     else:
-        check(False, "overseas: the page is built")
+        check(False, "media: the page is built")
+    ov = (site / "overseas" / "index.html")
+    check(ov.exists() and "/media/" in ov.read_text(encoding="utf-8"), "overseas: the old address redirects to /media/")
     gm = read(site / "games" / "index.html")
     if gm:
         games = gm.select("article.hub-game")
@@ -216,7 +221,7 @@ def main() -> int:
     home = read(site / "index.html")
     if home:
         hrefs = {a.get("href") for a in home.select("a.front__tile")}
-        check({"/overseas/", "/games/"} <= hrefs, "home: the shelf has the 海外媒体专访 and 按游戏读 tiles")
+        check({"/media/", "/games/"} <= hrefs, "home: the shelf has the 媒体专访 and 按游戏读 tiles")
 
     # ---- nothing leaked -------------------------------------------------
     leaks = []
