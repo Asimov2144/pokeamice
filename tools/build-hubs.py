@@ -32,6 +32,7 @@ import io
 import json
 import re
 import sys
+import urllib.parse
 from pathlib import Path
 
 import yaml
@@ -170,7 +171,13 @@ def series_key(fm):
 
 
 def url_of(p):
-    return xp.canonical_url(p["fm"], p["id"]).replace(xp.SITE, "")
+    url = xp.canonical_url(p["fm"], p["id"]).replace(xp.SITE, "")
+    # a file name with spaces or full-width brackets ("[专栏翻译] 与宝可梦同行的30年【1996年】…"): Jekyll turns every
+    # run of anything but letters, digits, _ and - into one hyphen; canonical_url only drops the ASCII brackets
+    if re.search(r"[^\w-]", p["id"]) and not p["fm"].get("permalink"):
+        slug = re.sub(r"-{2,}", "-", re.sub(r"[^\w-]+", "-", p["id"])).strip("-")
+        url = url.rstrip("/").rsplit("/", 1)[0] + "/" + urllib.parse.quote(slug) + "/"
+    return url
 
 
 def cover_row(p, covers):
