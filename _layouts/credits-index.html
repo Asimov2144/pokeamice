@@ -35,6 +35,18 @@ _data/credits_games.yml (written by tools/build-credits-site.py).
         </ol>
       </section>
 
+      {%- comment -%} 各作团队按职能：assets/js/credits-roles.js，数据 assets/data/credits-orgmap/index.json（tools/build-atlas-pages.py） {%- endcomment -%}
+      <section class="cr" data-credits-roles data-src="{{ '/assets/data/credits-orgmap/index.json' | relative_url }}">
+        <h2 class="credits__h2">各作团队按职能 <small>Team by Role</small></h2>
+        <p class="cr-lead">每一行是一部作品的开发团队（不含本地化和特别感谢），按每个人的主职分成总监、企划、程序、美术、音乐、管理、调试。点一行看那一作的部门与职能图。</p>
+        <div class="cr-bar-top">
+          <div class="om-seg" role="group" aria-label="怎么画"><button type="button" class="is-on" data-cr-mode="count">按人数</button><button type="button" data-cr-mode="share">按比例</button></div>
+          <div class="om-seg" role="group" aria-label="范围"><button type="button" class="is-on" data-cr-spin="0">核心作品</button><button type="button" data-cr-spin="1">含外传</button></div>
+          <div class="cr-legend" data-cr-legend></div>
+        </div>
+        <div class="cr-list" data-cr-list><p class="om-empty">正在读取…</p></div>
+      </section>
+
       <h2 class="credits__h2">核心作品 <small>{{ core.size }}</small></h2>
       <ul class="credits__grid">
         {% for g in core %}
@@ -67,3 +79,4 @@ _data/credits_games.yml (written by tools/build-credits-site.py).
     </section>
   </div>
 </div>
+<script src="{{ '/assets/js/credits-roles.js' | relative_url }}" defer></script>

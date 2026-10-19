@@ -36,6 +36,18 @@ person page are already linked in the body.
 
       <div class="credits__body">
         <div class="credits__roll">
+          {%- comment -%} 部门与职能图：assets/js/credits-orgmap.js 画，数据 assets/data/credits-orgmap/<game>.json（tools/build-atlas-pages.py） {%- endcomment -%}
+          <section class="om" id="orgmap" data-orgmap data-src="{{ '/assets/data/credits-orgmap/' | append: page.game | append: '.json' | relative_url }}">
+            <header class="om-head">
+              <h2 class="credits__h2">部门与职能 <small>Org Map</small></h2>
+              <p>这一作的名单按部门（或职能）摆开：块越大人越多，颜色是职能。点一格看这一组有谁，「找人」看一个人坐在哪几格。</p>
+            </header>
+            <div class="om-bar" data-om-bar></div>
+            <div class="om-body">
+              <div class="om-stage" data-om-stage><p class="om-empty">正在读取组织图…</p></div>
+              <aside class="om-panel" data-om-panel aria-live="polite"></aside>
+            </div>
+          </section>
           {%- comment -%} 团队画像：tools/build-atlas-pages.py 预渲染到 _includes/atlas/<game>.html，按数据等级降级 {%- endcomment -%}
           {% capture atlas_file %}atlas/{{ page.game }}.html{% endcapture %}
           {% capture atlas_html %}{% include {{ atlas_file }} %}{% endcapture %}
@@ -69,3 +81,4 @@ person page are already linked in the body.
   </div>
 </div>
 <script src="{{ '/assets/js/atlas.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/credits-orgmap.js' | relative_url }}" defer></script>

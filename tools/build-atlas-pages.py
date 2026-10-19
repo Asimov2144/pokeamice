@@ -35,6 +35,7 @@ def zh_small(name):
 PROFILES = ROOT / "assets" / "data" / "credits-profile"
 RELATIONS = ROOT / "assets" / "data" / "credits-relations.json"
 OUT = ROOT / "_includes" / "atlas"
+ORGMAP = ROOT / "assets" / "data" / "credits-orgmap"   # 部门与职能图（assets/js/credits-orgmap.js 读）
 
 CAT_ZH = {"Dir": "总监/制作人", "Plan": "企划", "Prog": "程序", "Art": "美术", "Sound": "音乐", "Mgmt": "管理/协调", "Debug": "调试",
           "Loc/QA": "本地化/海外QA", "Thanks": "特别感谢", "Other": "其他"}
@@ -80,9 +81,11 @@ class Site:
     def __init__(self):
         self.games = {g["slug"]: g for g in yaml.safe_load((ROOT / "_data" / "credits_games.yml").read_text(encoding="utf-8"))}
         self.key2slug = {}
+        self.key2name = {}
         for e in yaml.safe_load((ROOT / "_data" / "people.yml").read_text(encoding="utf-8")) or []:
             if e.get("credits_key") and e.get("slug"):
                 self.key2slug[e["credits_key"]] = e["slug"]
+                self.key2name[e["credits_key"]] = e.get("name") or ""
         self.rels = json.loads(RELATIONS.read_text(encoding="utf-8"))
         self._posts = {}
 
@@ -266,7 +269,8 @@ def related(p, site):
 
 def anatomy(p, site):
     lv = p["level"]
-    out = ['<div class="atlas__card atlas__anatomy">', '<h3>组织结构 <small>Team Anatomy</small></h3>']
+    # the org map above the atlas (credits-orgmap.js) is the way in; this is the full text of it, folded
+    out = ['<div class="atlas__card atlas__anatomy">', '<details class="atlas__fold"><summary><h3>文字版组织结构 <small>Team Anatomy · 展开看全部区块与成员</small></h3></summary>']
     secs = [s for s in p["sections"] if s["n"] or s["companies"]]
     if lv["nested"]:
         out.append(_tree(secs, site))
@@ -274,7 +278,7 @@ def anatomy(p, site):
         out.append('<p class="atlas__note">这部作品的名单在来源里是平铺的（没有 Section / Team 层级'
                    + ("，日文页也没有" if lv["alignment"] else "，也没有日文页") + "），这里按类别 → 领域归组显示区块，不假装有组织树。</p>")
         out.append(_flat(secs, site))
-    out.append("</div>")
+    out.append("</details></div>")
     return "\n".join(out)
 
 
@@ -394,16 +398,76 @@ def render(p, site):
     return "\n".join(parts) + "\n"
 
 
+def orgmap(p, site):
+    """部门与职能图的数据：每个区块一块瓦片（职名、中文、日文职名、职能、领域、人数、成员），两种归组——
+    按部门（有 Section / Team 层级的作品：路径第一级是部门，单级的总监类归「总监与负责人」）和按职能（全部作品）。
+    k: dev / loc / thanks——默认只画开发本体，本地化与鸣谢可以打开。"""
+    tiles = []
+    for s in p["sections"]:
+        if not (s["n"] or s["companies"]):
+            continue
+        cat = s["cat"] if s["cat"] in CAT_ZH else "Other"
+        scope = s.get("scope") or ""
+        kind = "loc" if cat == "Loc/QA" or scope == "localization" else "thanks" if cat == "Thanks" or scope == "thanks" else "dev"
+        label = s["path"][-1]
+        members = []
+        for m in sorted(s["members"], key=lambda m: -m["rank"]):
+            key = m["key"]
+            members.append([site.key2name.get(key) or m.get("kanji") or m["name"], site.key2slug.get(key, ""), m["rank"], m["name"]])
+        tiles.append({"l": label, "z": role_zh(label) or "", "p": " / ".join(s["path"]), "j": (s.get("ja_role") or "").strip(),
+                      "c": cat, "d": DOM_ZH.get(s["domain"], s["domain"]) if s["domain"] else "", "n": s["n"], "o": s.get("org") or "",
+                      "s": scope, "k": kind, "m": members, "co": len(s["companies"])})
+    role = []
+    for cat in CAT_ORDER:
+        ids = [i for i, t in enumerate(tiles) if t["c"] == cat]
+        if ids:
+            role.append({"c": cat, "n": sum(tiles[i]["n"] for i in ids), "t": ids})
+    dept = []
+    if p["level"]["nested"]:
+        idx = OrderedDict()
+        for i, t in enumerate(tiles):
+            path = t["p"].split(" / ")
+            if len(path) > 1:
+                key = (t["s"], path[0])
+                label = path[0]
+            elif t["c"] == "Dir" or re.search(r"director|supervisor|producer|manager", t["l"], re.I):
+                key, label = (t["s"], "__lead"), "总监与负责人"
+            else:
+                key, label = (t["s"], "__" + t["c"]), CAT_ZH.get(t["c"], "其他")
+            b = idx.setdefault(key, {"l": label, "z": "" if label.startswith("总监") or label in CAT_ZH.values() else (role_zh(label) or ""),
+                                     "s": t["s"], "o": [], "n": 0, "t": []})
+            b["t"].append(i)
+            b["n"] += t["n"]
+            if t["o"] and t["o"] not in b["o"]:
+                b["o"].append(t["o"])
+        dept = sorted(idx.values(), key=lambda b: (SCOPE_ORDER.index(b["s"]) if b["s"] in SCOPE_ORDER else 99,
+                                                   0 if b["l"] == "总监与负责人" else 1))
+    return {"slug": p["slug"], "title": p["title"], "year": p["year"], "nested": bool(p["level"]["nested"]),
+            "cats": [[c, CAT_ZH[c]] for c in CAT_ORDER], "scopes": {k: v for k, v in SCOPE_ZH.items()},
+            "dept": dept, "role": role, "tiles": tiles}
+
+
 def main():
     site = Site()
     OUT.mkdir(parents=True, exist_ok=True)
+    ORGMAP.mkdir(parents=True, exist_ok=True)
+    for old in ORGMAP.glob("*.json"):
+        old.unlink()
     for old in OUT.glob("*.html"):
         old.unlink()
     n = 0
+    index = []      # every game's team by 职能 (主职), for the strip on /credits/ (credits-roles.js)
     for f in sorted(PROFILES.glob("*.json")):
         p = json.loads(f.read_text(encoding="utf-8"))
         (OUT / f"{p['slug']}.html").write_text(render(p, site), encoding="utf-8", newline="\n")
+        (ORGMAP / f"{p['slug']}.json").write_text(json.dumps(orgmap(p, site), ensure_ascii=False, separators=(",", ":")), encoding="utf-8", newline="\n")
+        index.append({"slug": p["slug"], "title": (site.games.get(p["slug"]) or {}).get("title_zh") or p["title"], "year": p["year"], "core": bool(p.get("core")), "nested": bool(p["level"]["nested"]),
+                      "dev": p["team_size"].get("dev", 0), "roles": {k: v for k, v in (p.get("role_distribution") or {}).items() if v}})
         n += 1
+    order = {slug: i for i, slug in enumerate(site.games)}      # credits_games.yml's order inside a year (红·绿 before 蓝)
+    index.sort(key=lambda r: (r["year"], order.get(r["slug"], 999)))
+    (ORGMAP / "index.json").write_text(json.dumps({"cats": [[c, CAT_ZH[c]] for c in CAT_ORDER], "games": index}, ensure_ascii=False, separators=(",", ":")),
+                                       encoding="utf-8", newline="\n")
     print(f"atlas pages: {n} → {OUT.relative_to(ROOT)}")
 
 

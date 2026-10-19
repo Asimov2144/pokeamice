@@ -174,7 +174,10 @@ def main():
                 r = {"cat": cat, "rank": ac.rank_of(role, n.get("lead")), "domain": dom, "role": ac.short_role(role), "raw": role,
                      "lead": n.get("lead"), "sec": i, "org": s.get("_org"), "scope": s.get("_scope"), "ja_match": n.get("ja_match")}
                 roles[k][slug].append(r)
-                members.append({"key": k, "name": n["name"], "rank": r["rank"], "lead": n.get("lead")})
+                m = {"key": k, "name": n["name"], "rank": r["rank"], "lead": n.get("lead")}
+                if n.get("kanji"):
+                    m["kanji"] = n["kanji"]     # the org map (credits-orgmap.js) shows the name as the roll does
+                members.append(m)
             rows.append({"i": i, "path": path, "raw_path": list(s["path"]), "org": s.get("_org"), "scope": s.get("_scope"),
                          "cat": cat, "domain": dom, "ja_role": s.get("ja_role"), "n": len(members),
                          "companies": [n["name"] for n in s["names"] if n.get("kind") == "company"], "members": members})
