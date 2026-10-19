@@ -1,0 +1,62 @@
+/* ==========================================================================
+   卡片即球 - the catalogue card read as a Poké Ball (home, /search/, the category and tag pages, the
+   resource window: every .search-result-card, from _includes/entry-card.html and assets/js/catalogue.js).
+
+   The footer row (date, status, the works it mentions) is the equator: a rule across the whole card with
+   a small button on it, near the start. Above the rule the card carries a breath of its type colour - the
+   ball's top half - and below it the card is plain - the bottom half. No band on the top edge any more.
+   Cards in a row that end level put their rules side by side, so a row reads as one band.
+
+   The footer row is the card's last child (moved out of the text column), so it spans the cover too.
+   The tint is a translucent background image over whatever colour the card has, so the night theme
+   (which sets that colour) needs only the footer's own colour.
+   ========================================================================== */
+
+.search-result-card[class*="is-type-"] {
+  --pb-pad: 12px;                                   // the card's padding: the footer reaches the edges through it
+  --pb-base: #fff;                                  // the card's own colour, under the footer
+  --pb-ink: rgba(31, 42, 54, 0.16);
+  border-top-width: 1px !important;
+  border-top-color: mix(#fff, $border-color, 24%) !important;
+  background-image: linear-gradient(color-mix(in srgb, var(--pa-type) 5%, transparent), color-mix(in srgb, var(--pa-type) 5%, transparent));
+
+  .search-result-card__facts {
+    grid-column: 1 / -1;
+    position: relative;
+    align-self: end;
+    margin: 2px calc(-1 * var(--pb-pad)) calc(-1 * var(--pb-pad));
+    padding: 7px var(--pb-pad) 7px calc(var(--pb-pad) + 26px);
+    border-top: 1px solid var(--pb-ink);
+    border-radius: 0 0 9px 9px;
+    background: var(--pb-base);
+  }
+
+  /* the button: a ring in the ink, the type colour at its centre, a gap of the card's colour round it */
+  .search-result-card__facts::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--pb-pad) + 3px);
+    top: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--pa-type) 0 2.2px, var(--pb-base) 2.8px);
+    box-shadow: 0 0 0 1.5px rgba(31, 42, 54, 0.5), 0 0 0 4px var(--pb-base);
+  }
+}
+
+/* the home page's compact cards are tighter */
+.front .search-result-card[class*="is-type-"] {
+  --pb-pad: 8px;
+}
+
+body.theme-bg-black .search-result-card[class*="is-type-"] {
+  --pb-base: #2a2d31;
+  --pb-ink: rgba(228, 232, 236, 0.18);
+  border-top-color: #46505a !important;
+  background-image: linear-gradient(color-mix(in srgb, var(--pa-type) 10%, transparent), color-mix(in srgb, var(--pa-type) 10%, transparent));
+
+  .search-result-card__facts::before {
+    box-shadow: 0 0 0 1.5px rgba(228, 232, 236, 0.6), 0 0 0 4px var(--pb-base);
+  }
+}
