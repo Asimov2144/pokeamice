@@ -44,7 +44,7 @@ entities:
   - 广田隆哉
   - 长屋悟
   works:
-  - Pokémon Trading Card Game Pocket
+  - 宝可梦集换式卡牌游戏 Pocket
   - 宝可梦集换式卡牌游戏
 workflow:
   fetch: live

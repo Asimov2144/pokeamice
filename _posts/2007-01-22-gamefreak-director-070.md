@@ -37,7 +37,7 @@ entities:
   people:
     - "增田顺一"
   works:
-    - "宝可梦 战斗革命"
+    - "宝可梦对战革命"
     - "宝可梦 电影"
     - "宝可梦集换式卡牌游戏"
   organizations:

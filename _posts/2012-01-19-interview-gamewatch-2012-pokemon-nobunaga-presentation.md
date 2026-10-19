@@ -37,7 +37,7 @@ entities:
   people:
   - 石原恒和
   works:
-  - 宝可梦＋信长之野望
+  - 宝可梦+信长的野望
 workflow:
   fetch: live
   translation: deepseek-chat

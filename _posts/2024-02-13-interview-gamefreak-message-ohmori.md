@@ -32,7 +32,7 @@ entities:
   - 大森滋
   works:
   - 宝可梦传说 阿尔宙斯
-  - 宝可梦 朱／紫
+  - 宝可梦 朱·紫
   organizations:
   - 株式会社ゲームフリーク
 recruit:

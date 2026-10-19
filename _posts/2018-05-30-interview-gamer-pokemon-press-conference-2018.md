@@ -30,7 +30,7 @@ entities:
   - 野村达雄
   - 约翰·汉克
   works:
-  - 宝可梦 探险寻宝
+  - 宝可梦探险寻宝
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - Pokémon GO
   - 宝可梦 红·绿

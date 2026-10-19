@@ -159,8 +159,8 @@
   core: true
   count: 177
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dream_Radar
+  work: 宝可梦AR搜寻器
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンARサーチャーのスタッフクレジット
-  icon: /assets/img/works/menu-pkmn-dr-menu-icon.png
 - slug: x-y
   title: Pokémon X and Y
   title_zh: 宝可梦 X·Y
@@ -459,9 +459,9 @@
   core: false
   count: 67
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dash
+  work: 宝可梦冲刺赛
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンダッシュのスタッフクレジット
   gf_count: 2
-  icon: /assets/img/works/crop-pokemon-dash-official-site.png
 - slug: masters-arena
   title: Pokémon Masters Arena
   title_zh: 宝可梦大师竞技场
@@ -531,9 +531,9 @@
   core: false
   count: 95
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger
+  work: 宝可梦巡护员
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャーのスタッフクレジット
   gf_count: 10
-  icon: /assets/img/works/bulba-prevcicon.png
 - slug: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
   title: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
   title_zh: 宝可梦不可思议迷宫 时之探险队·暗之探险队
@@ -542,10 +542,9 @@
   core: false
   count: 175
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness
+  work: 宝可梦不可思议迷宫 时之探险队·暗之探险队
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_時の探検隊・闇の探検隊のスタッフクレジット
   gf_count: 5
-  icon: /assets/img/works/bulba-pmd-time-icon.png
-  icon2: /assets/img/works/bulba-pmd-darkness-icon.png
 - slug: my-pokemon-ranch
   title: My Pokémon Ranch
   title_zh: 大家的宝可梦牧场
@@ -554,9 +553,9 @@
   core: false
   count: 105
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_My_Pokémon_Ranch
+  work: 大家的宝可梦牧场
   source_ja: https://wiki.pokemonwiki.com/wiki/みんなのポケモン牧場のスタッフクレジット
   gf_count: 6
-  icon: /assets/img/works/crop-my-pokemon-ranch-wii-save-icon-jp.png
 - slug: ranger-shadows-of-almia
   title: 'Pokémon Ranger: Shadows of Almia'
   title_zh: 宝可梦巡护员 风涌篇
@@ -576,9 +575,9 @@
   core: false
   count: 136
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Sky
+  work: 宝可梦不可思议迷宫 空之探险队
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_空の探検隊のスタッフクレジット
   gf_count: 4
-  icon: /assets/img/works/bulba-pmd-sky-icon.png
 - slug: mystery-dungeon-wiiware
   title: Pokémon Mystery Dungeon (WiiWare)
   title_zh: 宝可梦不可思议迷宫 炎·岚·光之冒险团（WiiWare）
@@ -620,9 +619,9 @@
   core: false
   count: 159
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger:_Guardian_Signs
+  work: 宝可梦巡护员 光的轨迹
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャー_光の軌跡のスタッフクレジット
   gf_count: 21
-  icon: /assets/img/works/bulba-prgseicon.png
 - slug: learn-with-pokemon-typing-adventure
   title: 'Learn with Pokémon: Typing Adventure'
   title_zh: 宝可梦打字DS
@@ -673,9 +672,9 @@
   core: false
   count: 130
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Conquest
+  work: 宝可梦+信长的野望
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン+ノブナガの野望のスタッフクレジット
   gf_count: 5
-  icon: /assets/img/works/menu-pkmn-c-menu-icon.png
 - slug: mystery-dungeon-gates-to-infinity
   title: 'Pokémon Mystery Dungeon: Gates to Infinity'
   title_zh: 宝可梦不可思议迷宫 极大之门与无限迷宫
@@ -684,9 +683,9 @@
   core: false
   count: 129
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Gates_to_Infinity
+  work: 宝可梦不可思议迷宫 极大之门与无限迷宫
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_〜マグナゲートと∞迷宮〜のスタッフクレジット
   gf_count: 2
-  icon: /assets/img/works/bulba-gates-to-infinity-icon.png
 - slug: pokedex-3d-pro
   title: Pokédex 3D Pro
   title_zh: 宝可梦全国图鉴专业版
@@ -695,8 +694,8 @@
   core: false
   count: 213
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D_Pro
+  work: 宝可梦全国图鉴专业版
   gf_count: 33
-  icon: /assets/img/works/menu-pkmn-3d-p-menu-icon.png
 - slug: rumble-u
   title: Pokémon Rumble U
   title_zh: 宝可梦大乱战U
@@ -759,9 +758,9 @@
   core: false
   count: 417
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokkén_Tournament
+  work: 宝可拳 POKKÉN TOURNAMENT
   source_ja: https://wiki.pokemonwiki.com/wiki/ポッ拳_POKKÉN_TOURNAMENTのスタッフクレジット
   gf_count: 8
-  icon: /assets/img/works/bulba-pokken-icon.png
 - slug: rumble-world
   title: Pokémon Rumble World
   title_zh: 大家的宝可梦大乱战
@@ -792,9 +791,9 @@
   core: false
   count: 181
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Super_Mystery_Dungeon
+  work: 宝可梦超级不可思议迷宫
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン超不思議のダンジョンのスタッフクレジット
   gf_count: 4
-  icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
 - slug: detective-pikachu
   title: Detective Pikachu
   title_zh: 名侦探皮卡丘
@@ -857,8 +856,8 @@
   core: false
   count: 201
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Quest
+  work: 宝可梦探险寻宝
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンクエストのスタッフクレジット
-  icon: /assets/img/works/bulba-quest-icon.png
 - slug: rumble-rush
   title: Pokémon Rumble Rush
   title_zh: 宝可梦大乱战SP
@@ -920,9 +919,9 @@
   core: false
   count: 500
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_New_Pokémon_Snap
+  work: New 宝可梦随乐拍
   source_ja: https://wiki.pokemonwiki.com/wiki/New_ポケモンスナップのスタッフクレジット
   gf_count: 26
-  icon: /assets/img/works/bulba-new-snap-icon.png
 - slug: detective-pikachu-returns
   title: Detective Pikachu Returns
   title_zh: 名侦探皮卡丘 闪电回归
@@ -942,9 +941,9 @@
   core: false
   count: 300
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep
+  work: Pokémon Sleep
   source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
   gf_count: 3
-  icon: /assets/img/works/bulba-pokemon-sleep-icon.png
 - slug: trading-card-game-pocket
   title: Pokémon Trading Card Game Pocket
   title_zh: 宝可梦集换式卡牌游戏 Pocket
@@ -953,9 +952,9 @@
   core: false
   count: 1166
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_Pocket
+  work: 宝可梦集换式卡牌游戏 Pocket
   source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Trading_Card_Game_Pocketのスタッフクレジット
   gf_count: 5
-  icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
 - slug: friends
   title: Pokémon Friends
   title_zh: Pokémon Friends

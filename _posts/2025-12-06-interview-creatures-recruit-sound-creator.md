@@ -34,7 +34,7 @@ summary: 声音创作者 M.H. 自幼学习音乐，因喜爱游戏音乐进入�
 entities:
   people: []
   works:
-  - Pokémon TCG Pocket
+  - 宝可梦集换式卡牌游戏 Pocket
 workflow:
   fetch: live
   translation: deepseek-chat

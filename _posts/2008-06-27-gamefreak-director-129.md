@@ -37,7 +37,8 @@ entities:
     - "增田顺一"
   works:
     - "宝可梦 白金"
-    - "宝可梦 红宝石·蓝宝石·绿宝石"
+    - "宝可梦 红宝石·蓝宝石"
+    - "宝可梦 绿宝石"
   organizations:
     - "Game Freak"
 

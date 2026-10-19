@@ -63,7 +63,7 @@ entities:
     - 渔康智
     - 一同
   works:
-    - 宝可梦巡护员 光之轨迹
+    - 宝可梦巡护员 光的轨迹
   organizations: []
 translation_segments:
   - speaker: image

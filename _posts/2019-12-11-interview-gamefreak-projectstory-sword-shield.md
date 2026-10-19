@@ -32,7 +32,7 @@ entities:
   - 大森滋
   - 岩尾和昌
   works:
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   organizations:
   - 株式会社ゲームフリーク
 recruit:

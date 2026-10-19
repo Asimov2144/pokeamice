@@ -42,7 +42,7 @@ entities:
   - 超梦
   works:
   - 结晶塔的帝王
-  - 超梦！我就在这里（超梦我在此处）
+  - 超梦！我就在这里
   - 魔法小天使（甜甜仙子）
   organizations:
   - WEB Anime Style

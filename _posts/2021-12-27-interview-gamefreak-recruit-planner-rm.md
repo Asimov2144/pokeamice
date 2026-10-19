@@ -37,7 +37,7 @@ entities:
   people:
   - R.M.
   works:
-  - 宝可梦 剑·盾 扩充票
+  - 宝可梦 剑·盾
   - 全新企划项目
   organizations:
   - 株式会社ゲームフリーク

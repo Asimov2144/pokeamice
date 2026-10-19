@@ -37,7 +37,8 @@ entities:
   people:
     - "增田顺一"
   works:
-    - "宝可梦 钻石·珍珠·白金"
+    - "宝可梦 钻石·珍珠"
+    - "宝可梦 白金"
   organizations:
     - "Game Freak"
     - "宝可梦中心"

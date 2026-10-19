@@ -259,3 +259,53 @@
   color: '#8fd14f'
   icon: /assets/img/works/pokopia.png
   icon_credit: 官方标志「ぽこ あ ポケモン」（Logopedia 存档）裁成方形图标；Koei Tecmo × Game Freak 共同开发
+# 以下是制作名单里有官方图标的作品（图标取自 credits_games.yml，2026-10-19 补进来，让文章的作品标签也有图标）
+- name: 宝可梦巡护员
+  icon: /assets/img/works/bulba-prevcicon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦巡护员 光的轨迹
+  icon: /assets/img/works/bulba-prgseicon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦冲刺赛
+  icon: /assets/img/works/crop-pokemon-dash-official-site.png
+  icon_credit: 官方标志（官网或存档截图裁切）
+- name: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+  icon: /assets/img/works/bulba-pmd-time-icon.png
+  icon2: /assets/img/works/bulba-pmd-darkness-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦不可思议迷宫 空之探险队
+  icon: /assets/img/works/bulba-pmd-sky-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦不可思议迷宫 极大之门与无限迷宫
+  icon: /assets/img/works/bulba-gates-to-infinity-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦超级不可思议迷宫
+  icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦全国图鉴专业版
+  icon: /assets/img/works/menu-pkmn-3d-p-menu-icon.png
+  icon_credit: 官方菜单图标（Pokémon Wiki，Wayback 存档）
+- name: 宝可梦AR搜寻器
+  icon: /assets/img/works/menu-pkmn-dr-menu-icon.png
+  icon_credit: 官方菜单图标（Pokémon Wiki，Wayback 存档）
+- name: 宝可梦+信长的野望
+  icon: /assets/img/works/menu-pkmn-c-menu-icon.png
+  icon_credit: 官方菜单图标（Pokémon Wiki，Wayback 存档）
+- name: 大家的宝可梦牧场
+  icon: /assets/img/works/crop-my-pokemon-ranch-wii-save-icon-jp.png
+  icon_credit: 官方标志（官网或存档截图裁切）
+- name: 宝可拳 POKKÉN TOURNAMENT
+  icon: /assets/img/works/bulba-pokken-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦探险寻宝
+  icon: /assets/img/works/bulba-quest-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: New 宝可梦随乐拍
+  icon: /assets/img/works/bulba-new-snap-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: Pokémon Sleep
+  icon: /assets/img/works/bulba-pokemon-sleep-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+- name: 宝可梦集换式卡牌游戏 Pocket
+  icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）

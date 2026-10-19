@@ -44,7 +44,7 @@ entities:
     - "秋吉文江"
   works:
     - "皮卡丘现场演出"
-    - "宝可梦星期天"
+    - "宝可梦☆星期天"
     - "目标是宝可梦大师"
     - "Together"
   organizations:

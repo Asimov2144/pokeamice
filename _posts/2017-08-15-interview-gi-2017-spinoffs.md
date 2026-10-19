@@ -40,7 +40,7 @@ entities:
   - 大森滋
   works:
   - Pokémon GO
-  - 宝可梦 随乐拍
+  - 宝可梦随乐拍
 workflow:
   fetch: live
   translation: deepseek-chat

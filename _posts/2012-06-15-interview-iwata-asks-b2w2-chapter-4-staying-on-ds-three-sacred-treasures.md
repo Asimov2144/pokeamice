@@ -44,8 +44,8 @@ entities:
   - 石原恒和
   works:
   - 宝可梦 黑2·白2
-  - 宝可梦AR搜索器
-  - 宝可梦全国图鉴 Pro
+  - 宝可梦AR搜寻器
+  - 宝可梦全国图鉴专业版
 parallel_items:
 - original: 4. ポケモンセンターを最初の街に
   translation: 4. 将宝可梦中心作为最初的城镇

@@ -34,7 +34,7 @@ summary: Creatures 招聘网站 2026 年文章，商品企划副经理 F.Y.回�
 entities:
   people: []
   works:
-  - Pokémon TCG Pocket
+  - 宝可梦集换式卡牌游戏 Pocket
 workflow:
   fetch: live
   translation: deepseek-chat

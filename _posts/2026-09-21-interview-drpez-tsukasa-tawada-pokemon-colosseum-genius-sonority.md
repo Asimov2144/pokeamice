@@ -36,8 +36,8 @@ entities:
   people:
   - 多和田吏
   works:
-  - 宝可梦 圆形竞技场
-  - 宝可梦 XD 暗之旋风 黑暗洛奇亚
+  - 宝可梦圆形竞技场
+  - 宝可梦XD 暗之旋风 黑暗洛奇亚
 workflow:
   fetch: live
   translation: deepseek-chat

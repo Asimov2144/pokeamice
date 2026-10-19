@@ -39,7 +39,7 @@ entities:
   - 长畑成一郎
   works:
   - 不可思议的迷宫
-  - 宝可梦不可思议的迷宫
+  - 宝可梦不可思议迷宫
 workflow:
   fetch: live
   translation: deepseek-chat

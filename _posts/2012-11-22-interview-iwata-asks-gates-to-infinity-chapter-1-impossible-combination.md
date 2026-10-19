@@ -44,7 +44,6 @@ entities:
   - 富江慎一郎
   works:
   - 宝可梦不可思议迷宫
-  - 不可思议迷宫
   - 风来的西林
 parallel_items:
 - type: image

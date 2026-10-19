@@ -38,7 +38,7 @@ entities:
   people:
     - "增田顺一"
   works:
-    - "宝可梦冲刺"
+    - "宝可梦冲刺赛"
   organizations:
     - "Game Freak"
     - "东京电视台"

@@ -49,7 +49,7 @@ entities:
     - "杉森建"
     - "吉田宏信"
   works:
-    - "宝可梦卡牌游戏"
+    - "宝可梦集换式卡牌游戏"
   organizations:
     - "Game Freak"
   events:

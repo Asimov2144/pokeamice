@@ -45,7 +45,7 @@ entities:
   works:
   - 超级宝可梦乱战
   - 宝可梦乱战
-  - 宝可梦冲刺
+  - 宝可梦冲刺赛
   - 宝可梦 黑·白
 parallel_items:
 - type: image

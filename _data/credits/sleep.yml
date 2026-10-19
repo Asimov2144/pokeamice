@@ -1,7 +1,7 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep + https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
 slug: sleep
 title: Staff of Pokémon Sleep
-work: null
+work: Pokémon Sleep
 year: 2023
 developer: SELECT BUTTON inc. (2023-2024), The Pokémon Works (2024-present)
 core: false
