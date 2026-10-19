@@ -1,62 +1,189 @@
 /* ==========================================================================
-   卡片即球 - the catalogue card read as a Poké Ball (home, /search/, the category and tag pages, the
-   resource window: every .search-result-card, from _includes/entry-card.html and assets/js/catalogue.js).
+   卡片即球 - the site's cards read as a Poké Ball.
 
-   The footer row (date, status, the works it mentions) is the equator: a rule across the whole card with
-   a small button on it, near the start. Above the rule the card carries a breath of its type colour - the
-   ball's top half - and below it the card is plain - the bottom half. No band on the top edge any more.
-   Cards in a row that end level put their rules side by side, so a row reads as one band.
+   A card's footer is the equator: a rule across the whole card with a small button on it, near the
+   start. Above the rule the card carries a breath of its colour - the ball's top half - and below it the
+   card is plain - the bottom half. No band on the top edge any more. Cards in a row that end level put
+   their rules side by side, so a row reads as one band.
 
-   The footer row is the card's last child (moved out of the text column), so it spans the cover too.
-   The tint is a translucent background image over whatever colour the card has, so the night theme
-   (which sets that colour) needs only the footer's own colour.
+     .search-result-card  the catalogue (home, /search/, categories, tags, the resource window): its date /
+                          status / works row, moved out of the text column to be the card's last child
+                          (_includes/entry-card.html, assets/js/catalogue.js)
+     .tl-pick             the hub cards (/media/): the outlet · date line, pulled out of the text column
+                          by display: contents on it
+     .tl-feature          the timeline's 档案选读: its 读一篇 row (an editorial block - no corners to round)
+     .me-card             方法与说明 and /about/: no meta line of their own, so a thin empty band
+     .si-site             /references/: the language line, moved below the description
+
+   The tint is a translucent background image over whatever colour the card has, so a theme that sets
+   the card colour needs only the footer's own (--pb-base).
    ========================================================================== */
 
-.search-result-card[class*="is-type-"] {
-  --pb-pad: 12px;                                   // the card's padding: the footer reaches the edges through it
-  --pb-base: #fff;                                  // the card's own colour, under the footer
+@mixin pb-tint($strength: 5%) {
+  background-image: linear-gradient(color-mix(in srgb, var(--pa-type) #{$strength}, transparent), color-mix(in srgb, var(--pa-type) #{$strength}, transparent));
+}
+
+// the footer band: reaches the card's edges through its padding, a rule on top, the card's own colour
+@mixin pb-equator($pad-x, $pad-b, $radius, $indent: 26px) {
+  position: relative;
+  margin-left: calc(-1 * #{$pad-x});
+  margin-right: calc(-1 * #{$pad-x});
+  margin-bottom: calc(-1 * #{$pad-b});
+  padding-left: calc(#{$pad-x} + #{$indent});
+  padding-right: $pad-x;
+  border-top: 1px solid var(--pb-ink);
+  border-radius: 0 0 $radius $radius;
+  background: var(--pb-base);
+}
+
+// the button: a ring in the ink, the colour at its centre, a gap of the card's colour round it
+@mixin pb-button($left) {
+  content: "";
+  position: absolute;
+  left: $left;
+  top: -8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--pa-type) 0 2.2px, var(--pb-base) 2.8px);
+  box-shadow: 0 0 0 1.5px var(--pb-ring), 0 0 0 4px var(--pb-base);
+}
+
+.search-result-card[class*="is-type-"],
+.tl.tl--hub .tl-pick,
+.tl:not(.tl--hub) .tl-feature,
+a.me-card,
+li.si-site {
+  --pb-base: #fff;
   --pb-ink: rgba(31, 42, 54, 0.16);
+  --pb-ring: rgba(31, 42, 54, 0.5);
+}
+
+/* ---- the catalogue */
+.search-result-card[class*="is-type-"] {
+  --pb-pad: 12px;
   border-top-width: 1px !important;
   border-top-color: mix(#fff, $border-color, 24%) !important;
-  background-image: linear-gradient(color-mix(in srgb, var(--pa-type) 5%, transparent), color-mix(in srgb, var(--pa-type) 5%, transparent));
+  @include pb-tint;
 
   .search-result-card__facts {
     grid-column: 1 / -1;
-    position: relative;
     align-self: end;
-    margin: 2px calc(-1 * var(--pb-pad)) calc(-1 * var(--pb-pad));
-    padding: 7px var(--pb-pad) 7px calc(var(--pb-pad) + 26px);
-    border-top: 1px solid var(--pb-ink);
-    border-radius: 0 0 9px 9px;
-    background: var(--pb-base);
+    margin-top: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    @include pb-equator(var(--pb-pad), var(--pb-pad), 9px);
   }
+  .search-result-card__facts::before { @include pb-button(calc(var(--pb-pad) + 3px)); }
+}
+// the home page's compact cards are tighter
+.front .search-result-card[class*="is-type-"] { --pb-pad: 8px; }
 
-  /* the button: a ring in the ink, the type colour at its centre, a gap of the card's colour round it */
-  .search-result-card__facts::before {
+/* ---- the hub cards: cover on the left, title and blurb beside it, the outlet · date line underneath all */
+.tl.tl--hub .tl-pick {
+  --pa-type: var(--tl-c);
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  grid-template-rows: auto 1fr auto;
+  column-gap: 10px;
+  row-gap: 3px;
+  border-top-width: 1px;
+  border-top-color: $lib-rule;
+  @include pb-tint;
+
+  .tl-pick__cover { grid-column: 1; grid-row: 1 / 3; }
+  .tl-pick__body { display: contents; }
+  strong { grid-column: 2; grid-row: 1; }
+  em { grid-column: 2; grid-row: 2; align-self: start; }
+  small {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 600;
+    overflow: visible;                              // the button sits half above the line; a short line wraps instead of clipping
+    white-space: normal;
+    @include pb-equator(10px, 10px, 11px);
+  }
+  small::before { @include pb-button(13px); }
+  &:hover { border-color: var(--tl-c); }
+}
+.tl.tl--hub .tl-pick:not(:has(.tl-pick__cover)) {
+  grid-template-columns: minmax(0, 1fr);
+  strong, em { grid-column: 1; }
+}
+
+/* ---- the timeline's 档案选读: the 读一篇 row at its foot */
+.tl:not(.tl--hub) .tl-feature {
+  --pa-type: var(--tl-accent);
+  --pb-base: var(--tl-surface);
+  border-top: 1px solid var(--tl-rule);
+  @include pb-tint(4%);
+
+  .tl-feature__read {
+    margin-top: 10px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    @include pb-equator(20px, 18px, 0, 28px);
+  }
+  .tl-feature__read::before { @include pb-button(24px); }
+}
+
+/* ---- 方法与说明 and /about/: a thin band at the foot of the card carries the line and the button */
+a.me-card {
+  --pa-type: var(--rc-accent, #b91c1c);
+  position: relative;
+  padding-bottom: 0;
+  @include pb-tint(4%);
+
+  &::after {
     content: "";
-    position: absolute;
-    left: calc(var(--pb-pad) + 3px);
-    top: -8px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: radial-gradient(circle, var(--pa-type) 0 2.2px, var(--pb-base) 2.8px);
-    box-shadow: 0 0 0 1.5px rgba(31, 42, 54, 0.5), 0 0 0 4px var(--pb-base);
+    grid-column: 1 / -1;
+    height: 9px;
+    margin-top: -2px;
+    @include pb-equator(14px, 0px, 11px, 0px);
+  }
+  &::before {
+    @include pb-button(17px);
+    top: auto;
+    bottom: calc(9px - 7.5px);
+    z-index: 1;
   }
 }
 
-/* the home page's compact cards are tighter */
-.front .search-result-card[class*="is-type-"] {
-  --pb-pad: 8px;
+/* ---- /references/: the language line moves below the description and becomes the foot */
+li.si-site {
+  --pa-type: var(--rc-accent, #b91c1c);
+  @include pb-tint(4%);
+
+  .si-site__meta {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    white-space: normal;
+    @include pb-equator(14px, 12px, 11px);
+  }
+  .si-site__meta::before { @include pb-button(17px); }
 }
 
-body.theme-bg-black .search-result-card[class*="is-type-"] {
-  --pb-base: #2a2d31;
-  --pb-ink: rgba(228, 232, 236, 0.18);
-  border-top-color: #46505a !important;
-  background-image: linear-gradient(color-mix(in srgb, var(--pa-type) 10%, transparent), color-mix(in srgb, var(--pa-type) 10%, transparent));
-
-  .search-result-card__facts::before {
-    box-shadow: 0 0 0 1.5px rgba(228, 232, 236, 0.6), 0 0 0 4px var(--pb-base);
+/* ---- the night theme */
+body.theme-bg-black {
+  .search-result-card[class*="is-type-"],
+  .tl.tl--hub .tl-pick,
+  .tl:not(.tl--hub) .tl-feature,
+  a.me-card,
+  li.si-site {
+    --pb-ink: rgba(228, 232, 236, 0.18);
+    --pb-ring: rgba(228, 232, 236, 0.6);
   }
+  .search-result-card[class*="is-type-"] {
+    --pb-base: #2a2d31;
+    border-top-color: #46505a !important;
+    @include pb-tint(10%);
+  }
+  .tl.tl--hub .tl-pick { --pb-base: #23282e; @include pb-tint(9%); }
+  a.me-card, li.si-site { --pb-base: #2a2f35; @include pb-tint(8%); }
 }
