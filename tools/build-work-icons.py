@@ -376,6 +376,10 @@ def main():
     wanted = set()
     for w in works:
         name = w["name"]
+        if w.get("placeholder"):
+            # a borrowed mark (film logo, card ball, grey ball...) for a work with no icon of its own: keep as written
+            wanted.update(w[k].rsplit("/", 1)[-1] for k in ("icon", "icon2") if w.get(k))
+            continue
         files, credit = [], ""
         if name in LOCAL and all((OUT / fn).exists() for fn in LOCAL[name]):
             credit = "Pokémon HOME 的作品图标（官方公告图裁切）" if LOCAL[name][0].startswith("home-") else (w.get("icon_credit") or "手选的官方图")

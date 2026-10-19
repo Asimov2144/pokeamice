@@ -443,6 +443,9 @@ def build_works(works_raw: list, games_raw: list):
     for w in works_raw:
         if not isinstance(w, dict) or not clean(w.get("name")):
             continue
+        if w.get("placeholder"):
+            # site-only placeholder marks; generic names like 宝可梦 would also match every topic below
+            continue
         name = clean(w["name"])
         g = games_by_work.get(name)
         by_name[name] = {

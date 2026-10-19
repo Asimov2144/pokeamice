@@ -309,3 +309,292 @@
 - name: 宝可梦集换式卡牌游戏 Pocket
   icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
   icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+# 以下是占位图标：文章提到、但还没有自己图标的宝可梦作品，按种类借一个标准标记（电影 / 卡牌 / 动画 / 宝可梦中心 / 其他）。placeholder 标出它们，作品库和作品计数都跳过（2026-10-19）
+- name: "剧场版宝可梦 钻石·珍珠"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "酋雷姆VS圣剑士凯路迪欧"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "裂空的访问者 代欧奇希斯"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "水之都的护神 拉帝亚斯与拉帝欧斯"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "比克提尼与黑英雄捷克罗姆"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "比克提尼与白英雄莱希拉姆"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "宝可梦剧场版：极速的盖诺赛克特 超梦觉醒"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "宝可梦 剧场版 超梦的逆袭 EVOLUTION"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "宝可梦 剧场版 光轮的超魔神 胡帕"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "剧场版宝可梦 钻石＆珍珠 阿尔宙斯：超克的时空"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "剧场版宝可梦 超级愿望：酋雷姆 VS 圣剑士凯路迪欧"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "剧场版宝可梦 Best Wishes 比克提尼与黑英雄 捷克罗姆·比克提尼与白英雄 莱希拉姆"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "剧场版 宝可梦 可可"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "宝可梦 电影"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "皮卡丘的暑假"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "皮卡丘的假期"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "美洛耶塔的闪亮音乐会"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "美洛耶塔的闪亮独唱会"
+  placeholder: film
+  icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  icon_credit: 占位：Pokémon the Movie 标志（Bulbagarden Archives）
+- name: "宝可梦卡牌游戏BW初学者套装"
+  placeholder: tcg
+  icon: /assets/img/works/ball-tcg.png
+  icon2: /assets/img/works/ball-tcg-2.png
+  icon_credit: 占位：宝可梦集换式卡牌游戏的经典标记
+- name: "宝可梦卡牌游戏BW 黑色收藏"
+  placeholder: tcg
+  icon: /assets/img/works/ball-tcg.png
+  icon2: /assets/img/works/ball-tcg-2.png
+  icon_credit: 占位：宝可梦集换式卡牌游戏的经典标记
+- name: "宝可梦卡牌游戏BW 白色收藏"
+  placeholder: tcg
+  icon: /assets/img/works/ball-tcg.png
+  icon2: /assets/img/works/ball-tcg-2.png
+  icon_credit: 占位：宝可梦集换式卡牌游戏的经典标记
+- name: "宝可梦卡牌游戏 破空的激斗"
+  placeholder: tcg
+  icon: /assets/img/works/ball-tcg.png
+  icon2: /assets/img/works/ball-tcg-2.png
+  icon_credit: 占位：宝可梦集换式卡牌游戏的经典标记
+- name: "宝可梦☆星期天"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "宝可梦 Smash"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "目标是宝可梦大师"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "宝可梦 The Animation"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "超梦重现"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "梦幻之轮舞"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "波波与特大波波！飞向未见之天！！"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "火箭队直到永远"
+  placeholder: anime
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 占位：宝可梦动画标志（Bulbagarden Archives）
+- name: "宝可梦中心"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦中心 线上商城"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦中心线上商城"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦中心 涩谷"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦中心 新加坡"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦中心 台北"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦中心 出张所"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "Pokemon Center"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "Pokémon Center TAIPEI"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "Pokémon Center SINGAPORE"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "Pokémon Center SHIBUYA"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "Pokémon Center POP UP STORE"
+  placeholder: store
+  icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
+  icon_credit: 占位：Pokémon Center 店铺标志（Bulbagarden Archives）
+- name: "宝可梦"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "精灵宝可梦"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦XD 暗之旋风 黑暗洛奇亚"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦竞技场 金银"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦搜查器 黑·白"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦计步器"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "口袋皮卡丘"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "皮卡丘2 GS"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦大爆笑！"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦咖啡馆"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦ぴあ"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦Pia"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可盖（宝可梦井盖）"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦舞台剧（Pokemon Live!）"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "皮卡丘现场演出"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦全球连接"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "Pokémon Bank"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "Pokemon Local Acts（宝可梦地方应援）"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦系列生态架构"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦系列专有引擎研发"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦 黑·白 原声音乐光盘"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦 特别组曲"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "你能说出宝可梦吗？BW"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦 银魂"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦 立体图鉴"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "超梦"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "梦幻"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "基拉祈"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）

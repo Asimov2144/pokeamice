@@ -12,6 +12,7 @@ post metadata stays on the generated entity index, linked at the end.
 {% assign games = "" | split: "" %}
 {% assign others = "" | split: "" %}
 {% for w in site.data.works %}
+  {% if w.placeholder %}{% continue %}{% endif %}
   {% assign name = w.name %}
   {% assign cg = site.data.credits_games | where: "work", name | first %}
   {% assign mine = site.posts | where_exp: "p", "p.entities.works contains name" %}
@@ -33,7 +34,7 @@ post metadata stays on the generated entity index, linked at the end.
       <header class="people__head">
         <p class="person__kicker">作品库</p>
         <h1 class="person__name">作品</h1>
-        <p class="people__lede">{{ site.data.works | size }} 部作品：每张卡片写站内收录了多少条目；有制作名单的游戏另标署名人数，点「名单」看整份 credits。图标是 Pokémon HOME 的作品图标或版本色精灵球。</p>
+        <p class="people__lede">{{ games.size | plus: others.size }} 部作品：每张卡片写站内收录了多少条目；有制作名单的游戏另标署名人数，点「名单」看整份 credits。图标是 Pokémon HOME 的作品图标或版本色精灵球。</p>
       </header>
 
       <h2 class="people__h2">有制作名单的游戏 <small>{{ games.size }}</small></h2>

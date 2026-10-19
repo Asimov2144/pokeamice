@@ -45,7 +45,7 @@ entities:
   - 岩田聪
   works:
   - New 宝可梦随乐拍
-  - 宝可梦快照
+  - 宝可梦随乐拍
   - 宝可拳 POKKÉN TOURNAMENT
   - 杰克与魔豆
 parallel_items:

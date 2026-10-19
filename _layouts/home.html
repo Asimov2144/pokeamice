@@ -338,7 +338,7 @@ sidebar:
           <a href="{{ '/works/' | relative_url }}">
             <i class="fas fa-cube" aria-hidden="true"></i>
             <strong>作品</strong>
-            <span>{{ site.data.works | size }} 部</span>
+            <span>{{ site.data.works | where_exp: "w", "w.placeholder == nil" | size }} 部</span>
           </a>
           <a href="{{ '/timeline/' | relative_url }}">
             <i class="fas fa-clock" aria-hidden="true"></i>

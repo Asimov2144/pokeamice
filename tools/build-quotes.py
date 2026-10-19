@@ -67,7 +67,7 @@ def registry():
             alias_of[re.sub(r"\s+", "", a)] = p["name"]
             if " " in a and re.match(r"^[A-Za-z' .-]+$", a):
                 alias_of.setdefault(a.split()[-1].lower(), p["name"])      # Masuda for Junichi Masuda
-    works = [w["name"] for w in (yaml.safe_load(io.open(ROOT / "_data" / "works.yml", encoding="utf-8")) or []) if w.get("name")]
+    works = [w["name"] for w in (yaml.safe_load(io.open(ROOT / "_data" / "works.yml", encoding="utf-8")) or []) if w.get("name") and not w.get("placeholder")]
     terms = []
     site = ROOT / "design" / "glossary-site.json"
     if site.exists():

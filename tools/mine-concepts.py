@@ -94,7 +94,7 @@ def load_entities() -> set:
         names.update(str(a) for a in (row.get("aliases") or []))
     works = yaml.safe_load(io.open(ROOT / "_data" / "works.yml", encoding="utf-8")) or []
     for row in works if isinstance(works, list) else works.values():
-        if isinstance(row, dict):
+        if isinstance(row, dict) and not row.get("placeholder"):
             for key in ("name", "title", "title_zh", "title_ja"):
                 if row.get(key):
                     names.add(str(row[key]))
