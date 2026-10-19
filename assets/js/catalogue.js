@@ -306,7 +306,7 @@
       }).join("");
       const topics = compact ? "" : chips(item.topics, "is-topic", 4);
       return `
-        <article class="search-result-card search-result-card--${escapeHtml(item.card || item.kind)} is-type-${typeClass(type)}${compact ? ` search-result-card--compact search-result-card--${shape(item)}` : ""}">
+        <article data-pb-url="${escapeHtml(item.url)}" data-pb-title="${escapeHtml(item.title)}" data-pb-lead="${escapeHtml(String(lead).slice(0, 220))}" data-pb-pub="${escapeHtml(item.publication ? (item.issue ? item.publication + " " + item.issue : item.publication) : (item.source || ""))}" data-pb-orig="${escapeHtml(item.original_title || "")}" class="search-result-card search-result-card--${escapeHtml(item.card || item.kind)} is-type-${typeClass(type)}${compact ? ` search-result-card--compact search-result-card--${shape(item)}` : ""}">
           ${coverBlock(item)}
           <div class="search-result-card__body">
             <div class="search-result-card__kicker">${kicker}</div>
@@ -315,7 +315,7 @@
             ${(people || works) ? `<div class="search-result-card__tags">${people}${works}</div>` : ""}
             ${topics ? `<div class="search-result-card__topics">${topics}</div>` : ""}
           </div>
-            <div class="search-result-card__facts">${facts.map(function(v) { return v === proof ? `<span><i data-tip="${proof === "已校对" ? "译文已经人工校对" : "机器初译，还没有人工逐句校对；引用前请对照原文"}">${escapeHtml(v)}</i></span>` : `<span>${escapeHtml(v)}</span>`; }).join("")}${marks ? `<span class="search-result-card__works" aria-label="提到的作品">${marks}</span>` : ""}</div>
+            <div class="search-result-card__facts"><button type="button" class="pb-btn${proof === "已校对" ? " is-done" : proof ? " is-draft" : ""}" aria-label="速览这一篇（长按分享）" aria-expanded="false"></button>${facts.map(function(v) { return v === proof ? `<span><i data-tip="${proof === "已校对" ? "译文已经人工校对" : "机器初译，还没有人工逐句校对；引用前请对照原文"}">${escapeHtml(v)}</i></span>` : `<span>${escapeHtml(v)}</span>`; }).join("")}${marks ? `<span class="search-result-card__works" aria-label="提到的作品">${marks}</span>` : ""}</div>
         </article>
       `;
     }
@@ -376,6 +376,7 @@
       });
     }
     if (compact) {
+      resultList.addEventListener("pb:relayout", masonry);     // a card opened or closed its quick look (pb-button.js)
       if (window.ResizeObserver) new ResizeObserver(masonry).observe(resultList);
       else window.addEventListener("resize", masonry);
       resultList.addEventListener("load", masonry, true);

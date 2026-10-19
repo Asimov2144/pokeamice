@@ -26,6 +26,8 @@
 
 {%- comment -%} tooltips and the person / game hover cards, on every page {%- endcomment -%}
 <script src="{{ '/assets/js/tip.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H' }}" defer></script>
+{%- comment -%} the button on a catalogue card's footer rule: tap for a quick look, long press to share {%- endcomment -%}
+<script src="{{ '/assets/js/pb-button.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H' }}" defer></script>
 
 {% if site.search == true or page.layout == "search" %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
