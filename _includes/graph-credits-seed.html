@@ -1,0 +1,24 @@
+{%- comment -%}
+The relationship graph's second basis, 共同作品: who is credited on which game. Two lists - the games of
+_data/credits_games.yml (slug, the work's name, year, core) and the people of _data/credits_people.yml with
+the indexes of the games they are credited on, their name and portrait from _data/people.yml and whether
+they are only in the staff rolls (kind staff) or also interviewed. assets/js/graph.js turns each game into
+an "entry" whose people are its credited staff, so the network, the communities, the panel and the index
+work as for the entries: a line is a game two people both worked on.
+{%- endcomment -%}
+{%- assign gc_games = site.data.credits_games -%}
+{"games": [
+{%- for g in gc_games -%}
+  [{{ g.slug | jsonify }},{{ g.work | default: g.title_zh | default: g.title | jsonify }},{{ g.year | default: 0 }},{% if g.core %}1{% else %}0{% endif %}]{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+],
+"people": [
+{%- for pair in site.data.credits_people -%}
+  {%- assign gc_slug = pair[0] -%}{%- assign gc_v = pair[1] -%}
+  {%- assign gc_hit = site.data.people | where: "slug", gc_slug | first -%}
+  {%- assign gc_idx = "" | split: "" -%}
+  {%- assign gc_mine = gc_v.credits | map: "game" | uniq -%}
+  {%- for g in gc_games -%}{%- if gc_mine contains g.slug -%}{%- assign gc_idx = gc_idx | push: forloop.index0 -%}{%- endif -%}{%- endfor -%}
+  [{{ gc_hit.name | default: gc_v.kanji | default: gc_v.name | jsonify }},{{ gc_slug | jsonify }},{% if gc_hit.kind == "staff" %}"staff"{% else %}"person"{% endif %},{{ gc_hit.avatar | default: "" | jsonify }},{{ gc_idx | jsonify }}]{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]}

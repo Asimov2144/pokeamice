@@ -17,5 +17,6 @@ window.pokeamiceWorks = [{% for w in site.data.works %}{"name":{{ w.name | jsoni
 window.pokeamicePeopleBase = {{ '/people/' | relative_url | jsonify }};
 window.pokeamiceSearchBase = {{ '/search/' | relative_url | jsonify }};
 window.pokeamiceGraphData = {{ '/assets/js/graph.json' | relative_url | jsonify }};
+window.pokeamiceGraphCredits = {{ '/assets/js/graph-credits.json' | relative_url | jsonify }};
 </script>
 <script src="{{ '/assets/js/graph.js' | relative_url }}" defer></script>

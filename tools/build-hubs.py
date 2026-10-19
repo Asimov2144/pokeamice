@@ -1,4 +1,4 @@
-"""The two cross-cutting hubs: 海外媒体专访 (/overseas/) and 按游戏 (/games/).
+"""The cross-cutting hubs: 媒体专访 (/media/), 海外媒体专访 (/overseas/, now a redirect into /media/) and 按游戏 (/games/).
 
     python tools/build-hubs.py            # write _data/hubs.yml
     python tools/build-hubs.py --tag      # also put/remove the 海外媒体专访 topic on the posts
@@ -13,6 +13,13 @@ by the outlet named in the publication / title / source (OUTLETS below), not by 
 these are Spanish or French originals, some are English, and a few carry no language at all. What is
 left out on purpose: GlitterBerri (English fan translations of Japanese magazines - a second-hand
 copy, not an interview the outlet ran) and interviews that only *cite* a foreign site.
+
+媒体专访 - the same, with the Japanese press beside it (JP_OUTLETS). An outlet named in
+_data/media_boards.yml has a board of its own however few it ran; the rest share 其他日本媒体 / 其他海外媒体.
+Japanese outlets are matched on the publication, the source and the source URL, and on the title only
+when it starts with the name - a title that merely mentions ファミ通 is not a Fami通 interview. The
+post -> outlet map (media.by_stem) is also what the home page's magazine tiles count from
+(_includes/tile-collection-keys.html), so a tile and its board give the same number.
 
 按游戏 - the works of _data/works.yml in the order they came out, by generation, each with how many
 documents mention it, what kind, and three to read first. Blog posts are counted apart (they name
@@ -83,6 +90,35 @@ REGIONS = [
     ("官方海外站", "宝可梦官方海外站", "Pokémon.com 和 PocketMonsters.net：公司自己面向海外的站点。"),
     ("中文（台湾）", "中文媒体（台湾）", "巴哈姆特 GNN 在东京的圆桌采访。"),
 ]
+# the Japanese press for 媒体专访 (/media/): key, name, region, pattern. Not here on purpose: the publisher's
+# own channels (社長が訊く, the corporate and recruit sites), CEDEC's slides, WEBアニメスタイル (首藤刚志's memoir
+# has its own page) and GlitterBerri (a fan site translating these magazines, not the press itself).
+JP_OUTLETS = [
+    ("ndream", "Nintendo DREAM", "日本", r"Nintendo ?DREAM|ニンテンドードリーム|ニンドリ"),
+    ("famitsu", "Fami通", "日本", r"ファミ通|Fami通|[Ff]amitsu"),
+    ("nom", "任天堂 NOM", "日本", r"N\.O\.M|网络杂志\s*NOM|Nintendo Online Magazine"),
+    ("dengeki", "電撃", "日本", r"電撃|电击|[Dd]engeki"),
+    ("4gamer", "4Gamer.net", "日本", r"4[Gg]amer"),
+    ("denfami", "电Fami Nico Gamer", "日本", r"電ファミ|电Fami|电ファミ|denfaminicogamer"),
+    ("cgworld", "CGWORLD", "日本", r"CGWORLD|cgworld"),
+    ("continue", "CONTINUE", "日本", r"\bCONTINUE\b"),
+    ("ascii", "週刊アスキー", "日本", r"アスキー|ASCII|ascii\.jp"),
+    ("otonafami", "オトナファミ", "日本", r"オトナファミ"),
+    ("davinci", "ダ・ヴィンチ", "日本", r"ダ・ヴィンチ"),
+    ("hobonichi", "ほぼ日刊イトイ新聞", "日本", r"ほぼ日|1101\.com"),
+    ("sankei", "产经新闻", "日本", r"产经|産経|sankei"),
+    ("oricon", "ORICON NEWS", "日本", r"ORICON"),
+    ("corocoro", "コロコロ", "日本", r"コロコロ"),
+    ("gamemakers", "ゲームメーカーズ", "日本", r"ゲームメーカーズ"),
+    ("gamewatch", "GAME Watch", "日本", r"GAME Watch|game\.watch\.impress"),
+    ("inside", "インサイド", "日本", r"インサイド|inside-games"),
+    ("newspicks", "NewsPicks", "日本", r"NewsPicks"),
+]
+JP_FIELDS_ONLY = ("4gamer",)   # names short enough to need the publication / source, never the title
+# the outlet by the file name, when the front matter does not name it (the import scripts name the file after the outlet)
+JP_BY_ID = {"interview-nom-": "nom", "interview-nintendodream-": "ndream", "interview-famitsu-": "famitsu", "interview-dengeki-": "dengeki",
+            "interview-4gamer-": "4gamer", "interview-denfaminicogamer-": "denfami", "interview-denfami-": "denfami", "interview-cgworld-": "cgworld"}
+
 # ids (the part of the file name after the date) that match an outlet by accident, or are second-hand copies
 NOT_OVERSEAS = ("glitterberri", "yomiuri", "读卖")
 # the outlet by the id, when nothing in the front matter names it
@@ -166,6 +202,31 @@ def outlet_of(p):
             return o
     if "pokemon.com" in str(src).lower():
         return next(o for o in OUTLETS if o[0] == "pcom")
+    return None
+
+
+def media_outlet_of(p):
+    """The outlet for /media/: an overseas one (outlet_of), else a Japanese one. None for the rest."""
+    o = outlet_of(p)
+    if o:
+        return o
+    fm = p["fm"]
+    if "glitterberri" in p["id"] or "glitterberri" in str(fm.get("source") or "").lower():
+        return None
+    src = fm.get("source_url") or fm.get("original_link") or ""
+    if isinstance(fm.get("source"), dict):
+        src = src or fm["source"].get("url") or ""
+    fields = " ".join([text_of(fm.get("publication")), text_of(fm.get("source")), str(src)])
+    title = bt.clean_title(text_of(fm.get("display_title") or fm.get("title")), 300)
+    for frag, key in JP_BY_ID.items():
+        if p["id"].startswith(frag):
+            return next(o for o in JP_OUTLETS if o[0] == key)
+    for o in JP_OUTLETS:
+        if re.search(o[3], fields):
+            return o
+    for o in JP_OUTLETS:
+        if o[0] not in JP_FIELDS_ONLY and re.match(r"^\s*(?:%s)" % o[3], title):
+            return o
     return None
 
 
@@ -264,6 +325,63 @@ def main():
         "regions": region_rows,
     }
 
+    # ------------------------------------------------------------------- media
+    boards_cfg = yaml.safe_load(io.open(ROOT / "_data" / "media_boards.yml", encoding="utf-8")) or {}
+    all_outlets = {o[0]: o for o in OUTLETS + JP_OUTLETS}
+    mmembers = []
+    for p in posts:
+        if p["kind"] not in ("interview", "scan", "article"):
+            continue
+        o = media_outlet_of(p)
+        if o:
+            mmembers.append((p, o))
+    mmembers.sort(key=lambda t: (t[0]["date"], t[0]["id"]))
+
+    def media_item(p, o):
+        row, fm = cover_row(p, covers)
+        item = {
+            "title": clean_overseas_title(fm.get("display_title") or fm.get("title"), o),
+            "url": url_of(p), "date": p["date"], "outlet": o[0], "outlet_name": o[1], "kind": p["kind"],
+            "people": [n for n in p["people"]][:3],
+            **row,
+        }
+        blurb = bt.plain(fm.get("dek") or fm.get("summary"), 88)
+        if blurb:
+            item["blurb"] = blurb
+        return item
+
+    def media_side(side, jp):
+        mine = [(p, o) for p, o in mmembers if (o[2] == "日本") == jp]
+        named = [b["key"] for b in boards_cfg.get(side) or []]
+        blurbs = {b["key"]: b.get("blurb", "") for b in boards_cfg.get(side) or []}
+        boards = []
+        for key in named:
+            o = all_outlets.get(key)
+            items = [media_item(p, oo) for p, oo in mine if oo[0] == key]
+            if not o or not items:
+                continue
+            yrs = [int(i["date"][:4]) for i in items]
+            boards.append({"key": key, "name": o[1], "region": o[2], "blurb": blurbs.get(key, ""), "n": len(items),
+                           "from": min(yrs), "to": max(yrs), "items": items})
+        rest = [(p, o) for p, o in mine if o[0] not in named]
+        rest_items = [media_item(p, o) for p, o in rest]
+        rest_outlets = collections.Counter(o[0] for _, o in rest)
+        yc_side = collections.Counter(int(p["date"][:4]) for p, _ in mine)
+        return {
+            "n": len(mine), "from": min(yc_side) if yc_side else None, "to": max(yc_side) if yc_side else None,
+            "outlets": len({o[0] for _, o in mine}),
+            "boards": boards,
+            "rest": {"n": len(rest_items), "outlets": [{"key": k, "name": all_outlets[k][1], "n": n} for k, n in rest_outlets.most_common()], "items": rest_items},
+        }
+
+    media = {
+        "total": len(mmembers),
+        "japan": media_side("japan", True),
+        "overseas": media_side("overseas", False),
+        # post file name -> outlet key, for the home page's magazine tiles (tile-collection-keys.html)
+        "by_stem": {p["stem"]: o[0] for p, o in mmembers},
+    }
+
     # ------------------------------------------------------------------- games
     group_rows = []
     all_docs = 0
@@ -353,12 +471,15 @@ def main():
         "groups": group_rows,
     }
 
-    out = {"overseas": overseas, "games": games_out}
-    text = "# 由 tools/build-hubs.py 生成：海外媒体专访（/overseas/）和按游戏（/games/）两个横切专题页的数据。\n" + yaml.safe_dump(out, allow_unicode=True, sort_keys=False, width=1000)
+    out = {"media": media, "overseas": overseas, "games": games_out}
+    text = "# 由 tools/build-hubs.py 生成：媒体专访（/media/）、海外媒体专访（/overseas/）和按游戏（/games/）几个横切专题页的数据。\n" + yaml.safe_dump(out, allow_unicode=True, sort_keys=False, width=1000)
     io.open(ROOT / "_data" / "hubs.yml", "w", encoding="utf-8", newline="\n").write(text)
     print("hubs.yml:", "overseas", overseas["total"], "|", len(overseas["outlets"]), "outlets | games", games_out["n"], "in", len(group_rows), "groups,", games_out["docs"], "documents")
     for r in region_rows:
         print("  ", r["label"], r["n"], [(o["name"], o["n"]) for o in r["outlets"]])
+    for side in ("japan", "overseas"):
+        m = media[side]
+        print("  media", side, m["n"], [(b["name"], b["n"]) for b in m["boards"]], "rest", m["rest"]["n"], [(o["name"], o["n"]) for o in m["rest"]["outlets"]])
 
     if tag_mode:
         tag_posts({p["rel"] for p, _ in members})

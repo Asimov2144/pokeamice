@@ -1,0 +1,19 @@
+# 媒体专访（/media/）的板块：列在这里的媒体各有一个板块，不论篇数；没列的进「其他日本媒体」「其他海外媒体」。
+# key 是 tools/build-hubs.py 里 JP_OUTLETS / OUTLETS 的键；blurb 是板块下的一句介绍。加一家：先在 build-hubs.py
+# 里给它一条匹配规则，再在这里列出，重跑 python tools/build-hubs.py。顺序就是页面上的顺序。
+japan:
+  - {key: ndream, blurb: 任天堂主机专门月刊，前身是 64DREAM。}
+  - {key: famitsu, blurb: 日本老牌游戏周刊「週刊ファミ通」和它的网站 ファミ通.com。}
+  - {key: nom, blurb: 任天堂官网上的线上杂志 Nintendo Online Magazine。}
+  - {key: dengeki, blurb: 电击系的游戏杂志（電撃GAMES、電撃Nintendo 等）和网站 電撃オンライン。}
+  - {key: 4gamer, blurb: 日本游戏新闻网站，讲演和技术方面的报道多。}
+  - {key: denfami, blurb: 电Fami Nico Gamer（電ファミニコゲーマー），以长篇访谈见长的日本游戏媒体。}
+  - {key: cgworld, blurb: CG 与影像制作的专门媒体，报道游戏的美术与技术。}
+overseas:
+  - {key: gi, blurb: 美国游戏杂志，宝可梦海外访谈里篇数最多的一家。}
+  - {key: ign, blurb: 美国游戏网站。}
+  - {key: gamespot, blurb: 美国游戏网站。}
+  - {key: polygon, blurb: 美国游戏网站。}
+  - {key: eurogamer, blurb: 英国游戏网站，常在欧洲发售前采访。}
+  - {key: np, blurb: 任天堂美国的官方杂志。}
+  - {key: pcom, blurb: 宝可梦官方海外站 Pokémon.com 自己做的开发者访谈。}

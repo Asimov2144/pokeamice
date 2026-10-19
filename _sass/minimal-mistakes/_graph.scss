@@ -707,6 +707,21 @@
   }
 }
 
+/* a phone: no web, one person at a time (graph.js picks the best-connected one until the reader picks) */
+.graph__phone-hint { margin: 0 0 10px; padding: 8px 10px; border-radius: 8px; background: #f1f5f9; font-size: 12.5px; line-height: 1.6; color: #475569; }
+
+@media (max-width: 700px) {
+  .graph__canvas-wrap,
+  [data-graph-reset],
+  .graph__legend {
+    display: none;
+  }
+
+  .graph__stage {
+    display: block;
+  }
+}
+
 @media (max-width: 600px) {
   .graph__title {
     font-size: 1.4rem;
@@ -723,6 +738,11 @@
 
 /* the dark theme */
 body.theme-bg-black {
+  .graph__phone-hint {
+    background: #2a2f35;
+    color: #c4ccd4;
+  }
+
   .graph {
     color: #dce4ea;
   }

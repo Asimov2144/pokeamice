@@ -1,4 +1,4 @@
-{%- comment -%} one card on /overseas/ (_pages/overseas.md), in the region view and the outlet view alike. include.it: an item of _data/hubs.yml {%- endcomment -%}
+{%- comment -%} one card on /media/ (_pages/media.md), on an outlet board. include.it: an item of _data/hubs.yml {%- endcomment -%}
 {%- assign it = include.it -%}
       <a class="tl-pick is-{{ it.kind }}" href="{{ it.url | relative_url }}" data-hub-item="{{ it.outlet }}">
         {% if it.cover %}<span class="tl-pick__cover"><img src="{{ it.cover | relative_url }}" alt="" loading="lazy" decoding="async"></span>{% endif %}

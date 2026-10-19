@@ -1,114 +1,18 @@
 ---
-layout: timeline
-title: "海外媒体专访"
+layout: null
 permalink: /overseas/
+sitemap: false
 search: false
 ---
 {%- comment -%}
-The interviews that a media outlet outside Japan ran - Game Informer, Eurogamer, Nintendo Power, the
-Spanish press, Pokemon.com - gathered from every year in one place. Who counts and how the outlets
-are grouped is decided in tools/build-hubs.py; the numbers and the cards are baked into
-_data/hubs.yml. The same interviews carry the topic 海外媒体专访 on their entry cards. The outlet
-buttons hide the cards that are already on the page (assets/js/hubs.js).
-Two views of the same cards: 按媒体 (the default) gives every outlet with two or more interviews a board
-of its own - Game Informer's is the biggest, and it has no tile on the home page any more - and puts the
-outlets with one each on a last board; 按地区 is the regional sections with their notes.
+海外媒体专访 became the 海外媒体 half of 媒体专访 (/media/, _pages/media.md) on 2026-10-19; the old address
+keeps working. ?o=<outlet> links (the old per-outlet filter) land on that outlet's board.
 {%- endcomment -%}
-{% assign ov = site.data.hubs.overseas %}
-<div class="tl tl--hub tl--overseas">
-  <header class="library__head tl-intro">
-    <p class="library__eyebrow">Key docs · 横切专题</p>
-    <h1 class="library__title">海外媒体专访</h1>
-    <p class="library__lead">日本以外的媒体做的宝可梦主创访谈：<b>{{ ov.total }}</b> 篇，来自 <b>{{ ov.outlets.size }}</b> 家媒体，{{ ov.from }} 到 {{ ov.to }}。多是新作在欧美发售前后，对增田顺一、杉森建、大森滋等人的采访；原文是英语、西班牙语、法语或意大利语，本站译成中文。</p>
-    <div class="library__stats">
-      {% for r in ov.regions %}<span class="is-interview"><i class="tl-dot"></i>{{ r.label }} <b>{{ r.n }}</b></span>{% endfor %}
-    </div>
-  </header>
-
-  <section class="hub-years" aria-label="每年的篇数">
-    <p class="hub-years__title">哪一年最多</p>
-    <div class="hub-years__cols" style="--n: {{ ov.years.size }}">
-      {% for y in ov.years %}
-      <span class="hub-year{% if y.n == 0 %} is-empty{% endif %}" title="{{ y.year }}：{% if y.n > 0 %}{{ y.n }} 篇{% else %}暂无{% endif %}">
-        <b class="hub-year__n">{% if y.n > 0 %}{{ y.n }}{% endif %}</b>
-        <i style="height: {{ y.n | times: 100 | divided_by: ov.max_year }}%"></i>
-        <em>{{ y.year | modulo: 100 | plus: 100 | append: '' | slice: 1, 2 }}</em>
-      </span>
-      {% endfor %}
-    </div>
-  </section>
-
-  <div class="tl-bar">
-    <div class="tl-filters hub-views" role="group" aria-label="怎么排">
-      <button type="button" class="is-on" data-hub-view="outlet">按媒体</button>
-      <button type="button" data-hub-view="region">按地区</button>
-    </div>
-    <div class="tl-filters" role="group" aria-label="按媒体筛选" data-hub-bar>
-      <button type="button" class="is-on" data-hub-filter="all">全部<b>{{ ov.total }}</b></button>
-      {% for o in ov.outlets %}{% if o.n > 1 %}<button type="button" data-hub-filter="{{ o.key }}">{{ o.name }}<b>{{ o.n }}</b></button>{% endif %}{% endfor %}
-    </div>
-  </div>
-
-  {%- comment -%} 按媒体: a board per outlet with two or more, in the order of their counts; the rest share the last board {%- endcomment -%}
-  {%- assign ov_all = "" | split: "" -%}
-  {%- for r in ov.regions -%}{%- assign ov_all = ov_all | concat: r.items -%}{%- endfor -%}
-  {%- assign ov_all = ov_all | sort: "date" -%}
-  {%- assign ov_singles = ov.outlets | where: "n", 1 -%}
-  <div class="hub-pane" data-hub-pane="outlet">
-  {% for o in ov.outlets %}{% if o.n > 1 %}
-  {%- assign o_items = ov_all | where: "outlet", o.key -%}
-  {%- assign o_region = "" -%}{%- for r in ov.regions -%}{%- assign o_in = r.outlets | where: "key", o.key | first -%}{%- if o_in -%}{%- assign o_region = r.label -%}{%- endif -%}{%- endfor -%}
-  <section class="tl-era hub-board" id="o-{{ o.key }}" data-hub-region>
-    <header class="tl-era__head">
-      <p class="tl-era__range">{{ o_items.first.date | slice: 0, 4 }}{% if o_items.last.date != o_items.first.date %} – {{ o_items.last.date | slice: 0, 4 }}{% endif %}</p>
-      <h2 class="tl-era__title">{{ o.name }}</h2>
-      <p class="tl-era__sum"><b data-hub-count>{{ o_items.size }}</b> 篇{% if o_region != "" %} · {{ o_region }}{% endif %}</p>
-    </header>
-    <div class="tl-picks hub-picks">
-      {% for it in o_items %}{% include hub-pick.html it=it %}{% endfor %}
-    </div>
-  </section>
-  {% endif %}{% endfor %}
-  {%- assign o_rest = "" | split: "" -%}
-  {%- for it in ov_all -%}{%- assign o_one = ov_singles | where: "key", it.outlet | first -%}{%- if o_one -%}{%- assign o_rest = o_rest | push: it -%}{%- endif -%}{%- endfor -%}
-  {% if o_rest.size > 0 %}
-  <section class="tl-era hub-board" id="o-others" data-hub-region>
-    <header class="tl-era__head">
-      <p class="tl-era__range">{{ o_rest.first.date | slice: 0, 4 }} – {{ o_rest.last.date | slice: 0, 4 }}</p>
-      <h2 class="tl-era__title">其他媒体</h2>
-      <p class="tl-era__sum"><b data-hub-count>{{ o_rest.size }}</b> 篇 · {{ ov_singles.size }} 家，各一篇</p>
-    </header>
-    <div class="tl-picks hub-picks">
-      {% for it in o_rest %}{% include hub-pick.html it=it %}{% endfor %}
-    </div>
-  </section>
-  {% endif %}
-  </div>
-
-  <div class="hub-pane" data-hub-pane="region" hidden>
-  {% for r in ov.regions %}
-  <section class="tl-era" id="{{ r.key }}" data-hub-region>
-    <header class="tl-era__head">
-      <p class="tl-era__range">{{ r.from }} – {{ r.to }}</p>
-      <h2 class="tl-era__title">{{ r.label }}</h2>
-      <p class="tl-era__sum"><b data-hub-count>{{ r.n }}</b> 篇 · {{ r.outlets.size }} 家</p>
-      <p class="hub-note">{{ r.note }}</p>
-      <div class="tl-chips">
-        {% for o in r.outlets %}<span class="tl-chip">{{ o.name }} <b>{{ o.n }}</b></span>{% endfor %}
-      </div>
-    </header>
-    <div class="tl-picks hub-picks">
-      {% for it in r.items %}{% include hub-pick.html it=it %}{% endfor %}
-    </div>
-  </section>
-  {% endfor %}
-  </div>
-
-  <section class="hub-who">
-    <div class="tl-chips"><span class="tl-chips__label">被问得最多</span>{% for p in ov.people %}<a class="tl-chip" href="{{ '/people/' | append: p.slug | append: '/' | relative_url }}">{% include person-name.html person=p.slug %} <b>{{ p.n }}</b></a>{% endfor %}</div>
-    <div class="tl-chips"><span class="tl-chips__label">谈得最多的作品</span>{% for w in ov.works %}<a class="tl-game" href="{{ '/search/' | relative_url }}?work={{ w.name | url_encode }}" title="在检索里看提到 {{ w.name }} 的全部文献">{% if w.icon %}<img src="{{ w.icon | relative_url }}" alt="" width="18" height="18" loading="lazy">{% if w.icon2 %}<img src="{{ w.icon2 | relative_url }}" alt="" width="18" height="18" loading="lazy">{% endif %}{% endif %}<span>{{ w.name | remove_first: "宝可梦 " }}</span> <b>{{ w.n }}</b></a>{% endfor %}</div>
-  </section>
-
-  <p class="tl-foot">这一页只收海外媒体自己做的采访。英文粉丝站 GlitterBerri 转译的日本杂志、日本媒体转载的海外文章不在其中；想按作品看，去 <a href="{{ '/games/' | relative_url }}">按游戏读</a>，想按年份看，去 <a href="{{ '/timeline/' | relative_url }}">资料时间线</a>。</p>
-</div>
-<script src="{{ '/assets/js/hubs.js' | relative_url }}" defer></script>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>已并入：媒体专访</title>
+<link rel="canonical" href="{{ '/media/' | relative_url }}#overseas">
+<meta http-equiv="refresh" content="0; url={{ '/media/' | relative_url }}#overseas">
+<meta name="robots" content="noindex">
+<script>(function(){var m=/[?&]o=([a-z0-9]+)/.exec(location.search);location.replace("{{ '/media/' | relative_url }}#"+(m?"o-"+m[1]:"overseas"));})();</script>
+</head><body><p>海外媒体专访已并入<a href="{{ '/media/' | relative_url }}#overseas">媒体专访</a>。</p></body></html>

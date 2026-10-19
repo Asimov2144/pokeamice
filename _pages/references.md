@@ -133,8 +133,8 @@ groups:
         url: ""
         lang: 多语种
         text: Game Informer、Polygon、Eurogamer、VGC 等的开发者专访。
-        here: /overseas/
-        here_label: 海外媒体专访
+        here: /media/#overseas
+        here_label: 媒体专访
 ---
 {%- comment -%}
 Sites by others that a reader of this archive would want: peers doing the same work, history and

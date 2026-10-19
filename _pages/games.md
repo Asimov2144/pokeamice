@@ -72,5 +72,5 @@ already filtered to the game.
   </section>
   {% endfor %}
 
-  <p class="tl-foot">“文献”指访谈翻译、杂志扫描、官方专题和文章，不含 Game Freak 的博客。同一部电影在数据里有几个名字（例如《超梦的逆袭》），这里合在一起数。想看海外媒体怎么谈这些作品，去 <a href="{{ '/overseas/' | relative_url }}">海外媒体专访</a>。</p>
+  <p class="tl-foot">“文献”指访谈翻译、杂志扫描、官方专题和文章，不含 Game Freak 的博客。同一部电影在数据里有几个名字（例如《超梦的逆袭》），这里合在一起数。想看海外媒体怎么谈这些作品，去 <a href="{{ '/media/' | relative_url }}">媒体专访</a>。</p>
 </div>

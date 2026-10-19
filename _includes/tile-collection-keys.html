@@ -1,16 +1,16 @@
 {%- comment -%}
 Which shelf collections (_data/tile_collections.yml) a post belongs to: sets tck to their keys,
-space-separated ("" for none). The only place the rules live - the tile counts and the catalogue's
+space-separated ("" for none). The only place the rules live (the magazines' through hubs.yml) - the tile counts and the catalogue's
 专题 filter both come from here. include.post: the post.
 {%- endcomment -%}
 {%- assign tk_p = include.post -%}
 {%- assign tck = "" -%}
+{%- comment -%} the magazines are the outlets of 媒体专访 (/media/): tools/build-hubs.py matches each post to its outlet once (hubs.yml media.by_stem), so a tile and its board agree {%- endcomment -%}
+{%- assign tk_stem = tk_p.path | split: "/" | last | replace: ".md", "" -%}
+{%- assign tk_outlet = site.data.hubs.media.by_stem[tk_stem] -%}
+{%- if tk_outlet == "ndream" or tk_outlet == "famitsu" or tk_outlet == "nom" or tk_outlet == "dengeki" -%}{%- assign tck = tck | append: " " | append: tk_outlet -%}{%- endif -%}
 {%- if tk_p.publication contains '社長が訊く' or tk_p.title contains '社长问' -%}{%- assign tck = tck | append: " iwata" -%}{%- endif -%}
 {%- if tk_p.categories contains '首藤刚志手记' -%}{%- assign tck = tck | append: " shudo" -%}{%- endif -%}
-{%- if tk_p.publication contains 'Nintendo DREAM' -%}{%- assign tck = tck | append: " ndream" -%}{%- endif -%}
-{%- if tk_p.publication contains 'ファミ通' or tk_p.publication contains 'Fami通' or tk_p.source.title contains 'ファミ通' or tk_p.title contains 'Fami通' or tk_p.title contains 'ファミ通' -%}{%- assign tck = tck | append: " famitsu" -%}{%- endif -%}
-{%- if tk_p.publication contains '電撃' or tk_p.publication contains '电击' or tk_p.source.title contains '電撃' or tk_p.title contains '電撃' or tk_p.title contains '电击' -%}{%- assign tck = tck | append: " dengeki" -%}{%- endif -%}
-{%- if tk_p.tags contains 'N.O.M' -%}{%- assign tck = tck | append: " nom" -%}{%- endif -%}
 {%- if tk_p.title contains 'CEDEC' -%}{%- assign tck = tck | append: " cedec" -%}{%- endif -%}
 {%- if tk_p.source_kind == 'technical_report' or tk_p.article_kind == 'technical_feature' -%}{%- assign tck = tck | append: " tech" -%}{%- endif -%}
 {%- if tk_p.tags contains '招聘访谈' -%}{%- assign tck = tck | append: " recruit" -%}{%- endif -%}
