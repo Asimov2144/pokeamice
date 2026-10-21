@@ -1721,14 +1721,20 @@
   slug: da-ri-xiang-jun
 - name: 鹿瀬島英介
   slug: lu-lai-dao-ying-jie
+  org: 株式会社宝可梦 执行役员
+  role: 合同会社宝可乐园·关东 副社长 COO（2025–）
   credits_key: eisuke kasejima
   portraits:
   - image: /assets/img/people/lu-lai-dao-ying-jie-2014.jpg
     year: 2014
     source: 株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）
     post: 2014-05-01-interview-tpc-leaders-challenge
+  - image: /assets/img/people/lu-lai-dao-ying-jie-2026.jpg
+    year: 2026
+    source: 虎ノ門広告祭 2026 登壇者紹介（鹿瀬島英介）
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
   avatar: /assets/img/people/lu-lai-dao-ying-jie.jpg
-  avatar_source: 株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）
+  avatar_source: 虎ノ門広告祭 2026 登壇者紹介（鹿瀬島英介）
 - name: 福嶋ゆかり
   slug: fu-dao
   portraits:
@@ -5369,3 +5375,64 @@
   slug: zhang-wu-wu
   aliases:
   - 長屋悟
+- name: 藤原ヒロシ
+  slug: fujiwara-hiroshi
+  org: fragment design
+  role: 主宰
+  aliases:
+  - 藤原浩
+  - 藤原 ヒロシ
+  - Hiroshi Fujiwara
+- name: 皆川壮一郎
+  slug: minagawa-soichiro
+  org: 株式会社みんな
+  role: 代表（创意总监；2023 年时属博报堂 Kettle）
+  aliases:
+  - 皆川 壮一郎
+- name: 大野達也
+  slug: ono-tatsuya
+  org: 合同会社宝可乐园·关东
+  role: GM／事业·运营企划负责人（株式会社宝可梦，2018 年入社）
+  aliases:
+  - 大野 達也
+  - 大野达也
+  portraits:
+  - image: /assets/img/people/ono-tatsuya-2026.jpg
+    year: 2026
+    source: 虎ノ門広告祭 2026 登壇者紹介（大野達也）
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+  avatar: /assets/img/people/ono-tatsuya.jpg
+  avatar_source: 虎ノ門広告祭 2026 登壇者紹介（大野達也）
+- name: 小暮菜月
+  slug: kogure-natsuki
+  org: 博报堂 创意局／SIX
+  role: 首席艺术总监／创意总监
+  aliases:
+  - 小暮 菜月
+  portraits:
+  - image: /assets/img/people/kogure-natsuki-2026.jpg
+    year: 2026
+    source: 虎ノ門広告祭 2026 登壇者紹介（小暮菜月）
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+  avatar: /assets/img/people/kogure-natsuki.jpg
+  avatar_source: 虎ノ門広告祭 2026 登壇者紹介（小暮菜月）
+- name: 本山敬一
+  slug: motoyama-keiichi
+  org: SIX
+  role: 执行创意总监（创办人）
+  aliases:
+  - 本山 敬一
+  portraits:
+  - image: /assets/img/people/motoyama-keiichi-2026.jpg
+    year: 2026
+    source: 虎ノ門広告祭 2026 登壇者紹介（本山敬一）
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+  avatar: /assets/img/people/motoyama-keiichi.jpg
+  avatar_source: 虎ノ門広告祭 2026 登壇者紹介（本山敬一）
+- name: 齋藤精一
+  slug: saito-seiichi
+  org: Rhizomatiks
+  role: 代表（2019 年时）
+  aliases:
+  - 斋藤精一
+  - 齋藤 精一

@@ -5290,11 +5290,11 @@
   slug: lu-lai-dao-ying-jie
   kind: person
   interviews:
-    entries: 1
-    spoken_in: 1
+    entries: 4
+    spoken_in: 4
     columns: 0
     first: '2014'
-    last: '2014'
+    last: '2026'
   credits:
     games: 30
     core_games: 13
@@ -5310,21 +5310,39 @@
       games: 3
     - cat: 美术
       games: 2
-  summary: 鹿瀬島英介长期从事营业工作，在株式会社宝可梦营业企划部负责游戏软件与卡牌游戏的提案销售、促销企划运营及商品接单发货与物流管理 [1]。他所在的营业企划团队自行策划销售战略与具体措施，不经广告代理店，并需与部门内外、原作者、开发公司及印刷、活动等外部公司协调 [1]。他认为新作普及程度会左右此后宝可梦相关业务，促销措施在扩大市场中承担重要作用 [1]。在《宝可梦 X·Y》中，他参与策划与任天堂的联合活动、早期购买特典，并在全国反斗城门店举办交换会 [1]。其履历显示他也担任过总监/制作人与美术相关署名。
+  summary: 长期从事营业企划与流通营业，负责游戏软件、卡牌游戏及电影预售票的销售战略与促销措施，并协调公司内外与外部合作方推进落地 [1]。2011 年东日本大地震后启动并持续负责复兴支援项目「POKÉMON with YOU」，主张联合企业与团体补足宝可梦单独做不到的部分 [2]。在时尚联名等跨界合作中，倾向以全球开展为前提、不在自有媒体发布，先让合作在相应语境中被接受 [3]。此后负责集换式卡牌游戏事业、宣传、商品化授权、宝可梦中心商品开发、企业联盟等领域，并负责《宝可乐园 关东》的开业与运营 [4]。
   citations:
   - n: 1
     post: 2014-05-01-interview-tpc-leaders-challenge
     title: 宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）
     date: '2014-05-01'
     publication: Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」
-    detail: 称营业企划团队自行策划销售战略与措施，不经广告代理店。
+    detail: 称《宝可梦 X·Y》策划与任天堂联合活动及早期购买特典，并办圣诞交换会
+  - n: 2
+    post: 2019-09-18-interview-fukko-design-2019-talk-kasejima
+    title: FUKKO DESIGN 2019 座谈《能为灾区做的事》：宝可梦执行役员鹿濑岛英介谈 POKÉMON with YOU（摘录）
+    date: '2019-09-18'
+    publication: FUKKO DESIGN 官方 note
+    detail: 2011 年 3 月启动复兴支援项目，以 POKÉMON with YOU 运送物资、建游乐场所
+  - n: 3
+    post: 2025-05-03-interview-shueisha-2025-fragment-university-thunderbolt
+    title: 集英社 Online 2025：藤原浩与宝可梦「THUNDERBOLT PROJECT」诞生秘话
+    date: '2025-05-03'
+    publication: 集英社 Online
+    detail: 谈与藤原浩合作，定下从日本走向全球、不在自有媒体发布
+  - n: 4
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+    title: 虎之门广告祭 2026：实录《宝可乐园 关东》的体验设计（鹿濑岛英介 × 大野达也 × SIX）
+    date: '2026-10-12'
+    publication: 虎ノ門広告祭 2026 官方网站 节目介绍
+    detail: 2007 年加入，2014 年就任执行役员，2025 年起负责《宝可乐园 关东》
   expertise:
   - 总监/制作人
   - 美术
   - 营业企划
-  - 促销策划
-  - 销售战略
-  - 流通协调
+  - 流通营业
+  - 促销战略
+  - 跨界联名
 - name: 福嶋ゆかり
   slug: fu-dao
   kind: person
@@ -18558,3 +18576,138 @@
   - 全息加工
   - 特殊印刷
   - 美术总监
+- name: 藤原ヒロシ
+  slug: fujiwara-hiroshi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2025'
+    last: '2025'
+  summary: 藤原ヒロシ没有游戏署名记录，在宝可梦相关合作中以时尚品牌 Fragment 的视角参与。他因周围人都在玩而开始接触宝可梦，并自述不属于宝可梦世代、几乎不了解 [1]。合作起因是宝岛社熟人询问是否有兴趣，他与朋友想到把 Fragment 的闪电标志加到宝可梦尾巴上 [1]。他主张合作应在能做的部分做加法、改变某些东西，而非只改颜色，并倾向从小规模起步 [1]。在设计上他认为用黑色线条勾勒皮卡丘比胸前放黄色皮卡丘更好 [1]。
+  citations:
+  - n: 1
+    post: 2025-05-03-interview-shueisha-2025-fragment-university-thunderbolt
+    title: 集英社 Online 2025：藤原浩与宝可梦「THUNDERBOLT PROJECT」诞生秘话
+    date: '2025-05-03'
+    publication: 集英社 Online
+    detail: 自述非宝可梦世代、几乎不了解，因周围人都在玩而开始玩。
+  expertise:
+  - 时尚联名
+  - 服饰设计
+  - 品牌合作
+  - 图形设计
+- name: 皆川壮一郎
+  slug: minagawa-soichiro
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2025'
+    last: '2025'
+  summary: 皆川壮一郎在本次访谈中担任主持与提问角色，围绕「THUNDERBOLT PROJECT BY FRGMT & POKÉMON」的起点、约定与设计过程向嘉宾提问 [1]。他关注《Pokémon GO》对宝可梦认知度和目标人群的扩大，并追问相关数字 [1]。他就联名中「不被既有粉丝束缚」的约定、原创宝可梦的门槛以及更改体色这一禁忌逐一追问 [1]。其发言体现对时尚联名项目决策过程与创作限制的关注 [1]。
+  citations:
+  - n: 1
+    post: 2025-05-03-interview-shueisha-2025-fragment-university-thunderbolt
+    title: 集英社 Online 2025：藤原浩与宝可梦「THUNDERBOLT PROJECT」诞生秘话
+    date: '2025-05-03'
+    publication: 集英社 Online
+    detail: 他就《Pokémon GO》扩大认知度与目标人群追问具体数字，并询问联名中两个约定的含义。
+  expertise:
+  - 访谈主持
+  - 联名企划
+  - 品牌合作
+  - 创作限制
+- name: 大野達也
+  slug: ono-tatsuya
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2026'
+    last: '2026'
+  summary: 大野達也在株式会社宝可梦先后负责国内流通营业及应用程序、游戏软件开发，工作横跨营业与开发两类职能。2023 年起他参与《宝可乐园 关东》事业的筹建，此后在负责该设施企划运营的合同会社宝可乐园·关东担任事业与运营企划负责人，转向户外常设设施的企划与运营。[1] 据节目介绍，他在相关对谈中以总监身份出现，围绕《宝可乐园 关东》的体验设计进行说明。[1]
+  citations:
+  - n: 1
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+    title: 虎之门广告祭 2026：实录《宝可乐园 关东》的体验设计（鹿濑岛英介 × 大野达也 × SIX）
+    date: '2026-10-12'
+    publication: 虎ノ門広告祭 2026 官方网站 节目介绍
+    detail: 以总监身份参与对谈，介绍《宝可乐园 关东》的体验设计，并说明自身职务经历。
+  expertise:
+  - 流通营业
+  - 应用开发
+  - 游戏开发
+  - 事业企划
+  - 运营企划
+  - 体验设计
+- name: 小暮菜月
+  slug: kogure-natsuki
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2026'
+    last: '2026'
+  summary: 小暮菜月以品牌价值观为起点，横跨商品、服务、空间与广告，设计一段完整的体验 [1]。其头衔为首席艺术总监／创意总监，所属博报堂创意局，2023 年起兼属 SIX [1]。主要客户包括 Pokémon、花王、KIRIN、KDDI 等 [1]。
+  citations:
+  - n: 1
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+    title: 虎之门广告祭 2026：实录《宝可乐园 关东》的体验设计（鹿濑岛英介 × 大野达也 × SIX）
+    date: '2026-10-12'
+    publication: 虎ノ門広告祭 2026 官方网站 节目介绍
+    detail: 据节目介绍，她1989年生，多摩美术大学平面设计系毕业后进入博报堂，2023年起兼属SIX。
+  expertise:
+  - 体验设计
+  - 艺术指导
+  - 创意指导
+  - 平面设计
+  - 品牌设计
+- name: 本山敬一
+  slug: motoyama-keiichi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2026'
+    last: '2026'
+  summary: 本山敬一以执行创意总监身份参与《宝可乐园 关东》的体验设计对谈，讨论范围涉及互动、影像、数字、活动、现场演出与常设设施等多种媒介与规模 [1]。其经手作品涵盖广告、电视节目开场与本地地图等不同类型 [1]。主要客户包括 Google、Pokémon、Aniplex、SQUARE ENIX、PlayStation、Netflix、BEAMS，并在国内外获奖 [1]。2023 年担任戛纳国际创意节游戏类评审 [1]。
+  citations:
+  - n: 1
+    post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+    title: 虎之门广告祭 2026：实录《宝可乐园 关东》的体验设计（鹿濑岛英介 × 大野达也 × SIX）
+    date: '2026-10-12'
+    publication: 虎ノ門広告祭 2026 官方网站 节目介绍
+    detail: 以执行创意总监身份参与《宝可乐园 关东》体验设计对谈，讨论互动到常设设施。
+  expertise:
+  - 体验设计
+  - 创意指导
+  - 互动设计
+  - 跨媒介制作
+  - 活动策划
+- name: 齋藤精一
+  slug: saito-seiichi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: 材料中未见齋藤精一的游戏制作署名记录。在座谈中，他以提问者的身份参与讨论，围绕 FUKKO DESIGN 与以往复兴活动的差异及参与者的期待发问 [1]。他也向鹿濑岛英介询问宝可梦在海外的人气、《Pokémon GO》带来的外出机会，以及入境旅游方面的考虑 [1]。从这些发言看，其关注点集中在灾区复兴活动的定位与宝可梦的海外传播、入境旅游等议题上 [1]。
+  citations:
+  - n: 1
+    post: 2019-09-18-interview-fukko-design-2019-talk-kasejima
+    title: FUKKO DESIGN 2019 座谈《能为灾区做的事》：宝可梦执行役员鹿濑岛英介谈 POKÉMON with YOU（摘录）
+    date: '2019-09-18'
+    publication: FUKKO DESIGN 官方 note
+    detail: 他向鹿濑岛英介询问宝可梦海外人气与入境旅游的考虑
+  expertise:
+  - 座谈提问
+  - 复兴议题
+  - 入境旅游

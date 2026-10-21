@@ -426,7 +426,12 @@ PORTRAITS = [
     # 2026-09-17 第五批：另一会话占着的帖子补图后新收的个人照（2014 领导层访谈的名片式照片、N.O.M 2001 卡片e）
     dict(name="河本拓", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/001.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（河本拓）", post="2014-05-01-interview-tpc-leaders-challenge"),
     dict(name="福嶋ゆかり", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/003.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（福嶋ゆかり）", post="2014-05-01-interview-tpc-leaders-challenge"),
-    dict(name="鹿瀬島英介", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/002.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）", post="2014-05-01-interview-tpc-leaders-challenge"),
+    dict(name="鹿瀬島英介", year=2014, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/002.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）", post="2014-05-01-interview-tpc-leaders-challenge"),
+    # 2026-10-21：虎ノ門広告祭 2026《ポケパーク カントー》场次的登壇者官方照（正方形证件照，鹿瀬島换成这张做主头像）
+    dict(name="鹿瀬島英介", year=2026, main=True, src=_IA + "2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design/speaker-kasejima.jpg", source="虎ノ門広告祭 2026 登壇者紹介（鹿瀬島英介）", post="2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design"),
+    dict(name="大野達也", year=2026, main=True, src=_IA + "2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design/speaker-ohno.jpg", source="虎ノ門広告祭 2026 登壇者紹介（大野達也）", post="2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design"),
+    dict(name="小暮菜月", year=2026, main=True, src=_IA + "2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design/speaker-kogure.jpg", source="虎ノ門広告祭 2026 登壇者紹介（小暮菜月）", post="2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design"),
+    dict(name="本山敬一", year=2026, main=True, src=_IA + "2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design/speaker-motoyama.jpg", source="虎ノ門広告祭 2026 登壇者紹介（本山敬一）", post="2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design"),
     dict(name="赤羽卓美", year=2001, main=True, src=_IA + "2001-11-01-interview-nom-2001-pokemon-card-e-creatures/001.jpg", source="N.O.M 2001-11 ポケモンカードe 開発者インタビュー（赤羽卓美さん）", post="2001-11-01-interview-nom-2001-pokemon-card-e-creatures"),
     # 2026-09-17 第四批：N.O.M 2002-11 RS 特集重导后页上的三张职员照（增田头歪着，取左侧脸）
     dict(name="增田顺一", year=2002, src=_IA + "nom-0211-rs-2002/b_masu.jpg", source="N.O.M 2002-11 開発者よりみなさまへのメッセージ（増田順一さん）", post="2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages"),

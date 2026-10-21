@@ -1,0 +1,64 @@
+{
+ "note": "2026-10-21：集英社オンライン 2025-05-03〜06 连载四篇（藤原ヒロシ《FRAGMENT UNIVERSITY 非言語マーケティング》书摘，2023 年 12 月讲座），嘉宾 株式会社ポケモン执行役员 鹿瀬島英介 谈 THUNDERBOLT PROJECT。四篇十页并成一篇，每篇的标题作分节。正文里的图都是 Shutterstock 示意图，不收。",
+ "targets": [
+  {
+   "key": "shueisha-2025-fragment-university-thunderbolt",
+   "url": "https://shueisha.online/articles/-/253622",
+   "pages": [
+    "https://shueisha.online/articles/-/253622?page=2",
+    "https://shueisha.online/articles/-/253622?page=3",
+    "https://shueisha.online/articles/-/253623",
+    "https://shueisha.online/articles/-/253623?page=2",
+    "https://shueisha.online/articles/-/253624",
+    "https://shueisha.online/articles/-/253624?page=2",
+    "https://shueisha.online/articles/-/253624?page=3",
+    "https://shueisha.online/articles/-/253627",
+    "https://shueisha.online/articles/-/253627?page=2"
+   ],
+   "page_headings": [
+    "ポケモン×フラグメント誕生秘話「始まりは税金対策でいいんです」",
+    "",
+    "",
+    "「黒いピカチュウ」はいかにして生まれたか",
+    "",
+    "メゾンからホテル、アイスキャンデーまで。今だから明かせる奇跡のコラボの舞台裏",
+    "",
+    "",
+    "「みんなが認識しているものだから、ちょっと変えるだけ」藤原ヒロシのコラボレーションのルール",
+    ""
+   ],
+   "lang": "ja",
+   "date": "2025-05-03",
+   "outlet": "集英社オンライン",
+   "outlet_zh": "集英社 Online",
+   "title": "藤原ヒロシ×ポケモン「THUNDERBOLT PROJECT」誕生秘話（FRAGMENT UNIVERSITY 藤原ヒロシの特殊講義 より）",
+   "kind": "interview",
+   "asker": "皆川壮一郎",
+   "speakers": {
+    "皆川": "皆川壮一郎",
+    "藤原": "藤原ヒロシ",
+    "鹿瀬島": "鹿瀬島英介"
+   },
+   "works": [
+    "Pokémon GO"
+   ],
+   "tags": [
+    "集英社オンライン",
+    "鹿瀬島英介",
+    "藤原ヒロシ",
+    "fragment design",
+    "THUNDERBOLT PROJECT",
+    "联名",
+    "授权"
+   ],
+   "container": "div.article-body",
+   "strip": [
+    "div.article-photo",
+    "div.article-related-book",
+    "div.article-gallery-btn"
+   ],
+   "max_images": 0,
+   "drop": "^(写真はイメージ|すべての画像を見る)"
+  }
+ ]
+}
