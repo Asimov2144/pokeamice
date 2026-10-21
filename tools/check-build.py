@@ -170,15 +170,22 @@ def main() -> int:
 
     # ---- the timeline ---------------------------------------------------
     tl_index = read(site / "timeline" / "index.html")
-    #  overview (redesign 2026-09-30): an era list of year rows, each heading a link to its year page,
-    #  with that year's latest two documents under it, and one featured interview on top
-    cols = tl_index.select("a.tl-year__head") if tl_index else []
+    #  overview (desk calendar, 2026-10): a today sheet, era tabs, one sheet per year whose number
+    #  links to its year page with that year's latest three documents, and behind them one layer of
+    #  cover-legend silhouettes per generation (_data/timeline_covers.yml)
+    cols = tl_index.select("a.tlc-sheet__year") if tl_index else []
     check(len(cols) >= 25, f"timeline: the overview lists {len(cols)} years")
     check(all(exists(site, a.get("href") or "") for a in cols), "timeline: every year links to a built year page")
-    picks = (tl_index.select(".tl-selections .tl-entry__title a") + tl_index.select("a.tl-feature")) if tl_index else []
+    picks = tl_index.select(".tlc-entries .tl-entry__title a") if tl_index else []
     check(len(picks) >= 40 and all(exists(site, a.get("href") or "") for a in picks),
           f"timeline: {len(picks)} picks, every one resolves")
-    check(len(tl_index.select("section.tl-era")) >= 5 if tl_index else False, "timeline: the eras are there")
+    check(len(tl_index.select("section.tlc-era")) >= 5 if tl_index else False, "timeline: the eras are there")
+    check(len(tl_index.select("[data-tlc-tab]")) == len(tl_index.select("section.tlc-era")) if tl_index else False,
+          "timeline: one era tab per era")
+    gens = tl_index.select("[data-tlc-gen]") if tl_index else []
+    legends = [re.search(r"url\('([^']+)'\)", i.get("style") or "") for i in tl_index.select(".tlc-legend, .tlc-sheet__legend")] if tl_index else []
+    check(len(gens) >= 9 and legends and all(m and exists(site, m.group(1)) for m in legends),
+          f"timeline: {len(gens)} generation layers, {len(legends)} silhouettes, every picture built")
     y2010 = read(site / "timeline" / "2010" / "index.html")
     if y2010:
         check(len(y2010.select(".tl-item")) >= 40 and len(y2010.select("details.tl-stream")) >= 1,

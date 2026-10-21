@@ -1,0 +1,460 @@
+/* ==========================================================================
+   资料时间线 as a desk calendar (/timeline/, _pages/timeline.md, 2026-10).
+   A today sheet, sticky era tabs, one sheet per year; behind them the cover legends of
+   each generation as silhouettes in its version colours (a mask of the HOME render
+   filled with a gradient and an engraved line pattern). assets/js/timeline-calendar.js
+   cross-fades the generations with the scroll and sets --tlc-a / --tlc-b, the time of
+   day (data-tod) and the season. The year pages keep _timeline.scss.
+   ========================================================================== */
+
+$tlc-ink: #1a2430;
+$tlc-soft: #4b5563;
+$tlc-faint: #8a94a0;
+$tlc-rule: #e3e8ee;
+$tlc-desk: #f4f6f9;
+$tlc-accent: #2b6cb0;
+$tlc-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+$tlc-font: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+
+body.layout--timeline:has(.tlc) .timeline-shell > .crumbs { margin-bottom: 14px; }
+/* the theme's body { overflow-x: hidden } makes body a scroll container that never scrolls,
+   and position: sticky (the era tabs, the silhouette stage) would stick to it; clip does
+   the same clipping without being one */
+body.layout--timeline:has(.tlc) { overflow-x: clip; }
+
+.tlc {
+  --tlc-a: #39b36b;
+  --tlc-b: #1b2a3a;
+  position: relative;
+  font-family: $tlc-font;
+  color: $tlc-ink;
+  margin: 0 -1rem;          // let the backdrop reach the shell's edges
+  padding: 0 1rem;
+
+  a { text-decoration: none; }
+  img { max-width: none; }
+}
+
+/* ---- the backdrop: generation silhouettes ------------------------------------- */
+.tlc-backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 50vw);     // the full window width, whatever the shell's margins
+  width: 100vw;
+  z-index: 0;
+  pointer-events: none;
+  overflow: clip;
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--tlc-a) 9%, #{$tlc-desk}) 0%,
+      color-mix(in srgb, var(--tlc-b) 7%, #{$tlc-desk}) 100%);
+}
+.tlc-backdrop__stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+}
+.tlc-gen {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  &.is-on { opacity: 1; }          // the last generation, before the script takes over
+}
+.tlc-legend {
+  position: absolute;
+  display: block;
+  -webkit-mask: var(--src) center / contain no-repeat;
+  mask: var(--src) center / contain no-repeat;
+  background:
+    repeating-linear-gradient(118deg, rgba(255, 255, 255, .22) 0 1.5px, transparent 1.5px 7px),
+    linear-gradient(155deg, var(--c1) 10%, var(--c2) 90%);
+  opacity: .24;
+}
+.tlc-legend--1 { right: -8vw; top: 6vh; width: min(64vw, 760px); height: 80vh; }
+.tlc-legend--2 { left: -10vw; bottom: -2vh; width: min(42vw, 520px); height: 54vh; transform: scaleX(-1); opacity: .13; }
+@media (max-width: 760px) {
+  .tlc-legend--1 { right: -38vw; top: 14vh; width: 124vw; height: 72vh; opacity: .24; }
+  .tlc-legend--2 { left: -44vw; bottom: 0; width: 90vw; height: 44vh; opacity: .14; }
+}
+
+/* ---- the desk ------------------------------------------------------------------ */
+.tlc-desk {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 6px 0 120px;
+}
+.tlc-k {
+  margin: 0;
+  font-family: $tlc-mono;
+  font-size: 11px;
+  letter-spacing: .06em;
+  color: $tlc-faint;
+}
+.tlc-rings {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 12%;
+  height: 12px;
+  i {
+    width: 10px;
+    height: 24px;
+    margin-top: -4px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #8f99a4, #e9edf1 48%, #8f99a4);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .18);
+  }
+}
+
+/* ---- the today sheet: time of day, season, 历史上的今天 ------------------------- */
+.tlc-today {
+  position: relative;
+  background: rgba(255, 255, 255, .9);
+  border: 1px solid $tlc-rule;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 #dfe4ea, 0 6px 0 -3px #fff, 0 6px 0 -2px $tlc-rule, 0 11px 0 -6px #fff, 0 11px 0 -5px $tlc-rule;
+  overflow: hidden;
+}
+.tlc-sky {
+  position: relative;
+  min-height: 152px;
+  padding: 16px 18px 14px;
+  overflow: hidden;
+  color: #24384f;
+  background: linear-gradient(180deg, #bfe3ff 0%, #e3f2ff 62%, #f6fafd 100%);
+  &[data-tod="morning"] { color: #6a3a1d; background: linear-gradient(180deg, #ffd8b4 0%, #fde9d5 58%, #fbf4ec 100%); }
+  &[data-tod="evening"] { color: #5a2a10; background: linear-gradient(180deg, #f39a62 0%, #f7c39b 48%, #fae7d8 100%); }
+  &[data-tod="night"] { color: #e3e8ff; background: linear-gradient(180deg, #141b33 0%, #24305a 62%, #34406d 100%); }
+}
+.tlc-sky__tod { margin: 0; font-family: $tlc-mono; font-size: 11px; letter-spacing: .08em; opacity: .82; }
+.tlc-sky__date {
+  margin: 6px 0 0;
+  font-size: clamp(46px, 11vw, 76px);
+  font-weight: 800;
+  line-height: .95;
+  letter-spacing: -.03em;
+  color: inherit;
+  small { margin-left: 8px; font-size: 15px; font-weight: 600; letter-spacing: 0; }
+}
+.tlc-sky__season {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 0 0;
+  font-family: $tlc-mono;
+  font-size: 11px;
+  letter-spacing: .06em;
+  opacity: .85;
+  img { width: 18px; height: auto; }
+}
+.tlc-sky__actor {
+  position: absolute;
+  right: 10px;
+  bottom: -6px;
+  width: clamp(96px, 26vw, 150px);
+  height: auto;
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, .12));
+}
+.tlc-today__body { padding: 16px 18px 14px; }
+.tlc-otd {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  li { display: grid; grid-template-columns: 44px 1fr; gap: 10px; margin: 0 0 8px; font-size: 14px; line-height: 1.5; }
+  time { font-family: $tlc-mono; font-size: 11.5px; color: $tlc-faint; padding-top: 2px; }
+  a { color: $tlc-ink; font-weight: 700; }
+  a:hover { color: $tlc-accent; }
+  .tlc-otd__empty { display: block; color: $tlc-soft; font-size: 13px; }
+}
+.tlc-today__note { margin: 6px 0 0; font-size: 12px; color: $tlc-faint; &:empty { display: none; } }
+.tlc-perf { border: 0; border-top: 1px dashed #cfd6de; margin: 14px -18px 12px; }
+.tlc-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  font-size: 12.5px;
+  color: $tlc-soft;
+  b { font-size: 18px; color: $tlc-ink; margin-right: 2px; }
+  span:last-child { color: $tlc-faint; }
+}
+
+/* ---- era tabs ------------------------------------------------------------------ */
+.tlc-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 4px;
+  margin: 26px -6px 0;
+  padding: 8px 6px 0;
+  background: color-mix(in srgb, #{$tlc-desk} 86%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid $tlc-rule;
+  a {
+    display: block;
+    min-width: 0;
+    padding: 7px 6px 6px;
+    border: 1px solid $tlc-rule;
+    border-bottom: 0;
+    border-radius: 7px 7px 0 0;
+    background: #e9edf2;
+    color: $tlc-soft;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  b { display: block; font-family: $tlc-mono; font-size: 11px; font-weight: 600; }
+  span { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 11px; color: $tlc-faint; }
+  a[aria-current] { background: #fff; color: $tlc-ink; box-shadow: inset 0 3px 0 $tlc-ink; b { font-weight: 800; } span { color: $tlc-soft; } }
+  @media (max-width: 560px) { span { display: none; } a { padding: 8px 2px 7px; } }
+}
+
+/* ---- eras and year sheets ------------------------------------------------------ */
+.tlc-era { scroll-margin-top: 64px; }
+.tlc-era__head {
+  margin: 34px 4px 14px;
+  h2 { margin: 4px 0 0; font-size: 22px; font-weight: 800; letter-spacing: -.01em; color: $tlc-ink; }
+  p:last-child:not(.tlc-k) { margin: 4px 0 0; font-size: 13px; color: $tlc-soft; }
+}
+.tlc-sheet {
+  position: relative;
+  margin: 0 0 18px;
+  padding: 24px 18px 0;
+  scroll-margin-top: 70px;
+  background: rgba(255, 255, 255, .84);     // paper the cover legend shows through
+  -webkit-backdrop-filter: saturate(1.1);
+  backdrop-filter: saturate(1.1);
+  border: 1px solid $tlc-rule;
+  border-radius: 4px 4px 6px 6px;
+  box-shadow: 0 1px 0 #dfe4ea, 0 14px 26px -22px rgba(26, 36, 48, .45);
+  transform-origin: 50% 0;
+  &::before {                       // the version colours along the top edge
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3px;
+    border-radius: 4px 4px 0 0;
+    background: linear-gradient(90deg, var(--c1), var(--c2));
+  }
+  &.is-turning { animation: tlc-turn .55s cubic-bezier(.2, .7, .2, 1) both; }
+  overflow: hidden;
+  > :not(.tlc-sheet__legend):not(.tlc-sheet__holes) { position: relative; z-index: 1; }
+}
+/* the generation's cover legend in the sheet's corner, cut by the paper's edge
+   (the two of a pair take turns, year by year) */
+.tlc-sheet__legend {
+  position: absolute;
+  z-index: 0;
+  right: -34px;
+  top: -18px;
+  width: 210px;
+  height: 210px;
+  pointer-events: none;
+  -webkit-mask: var(--src) center / contain no-repeat;
+  mask: var(--src) center / contain no-repeat;
+  background:
+    repeating-linear-gradient(118deg, rgba(255, 255, 255, .3) 0 1.5px, transparent 1.5px 6px),
+    linear-gradient(155deg, var(--c1) 10%, var(--c2) 90%);
+  opacity: .17;
+  @media (max-width: 560px) { width: 160px; height: 160px; right: -30px; top: -10px; opacity: .2; }
+}
+@keyframes tlc-turn {
+  from { transform: perspective(1000px) rotateX(-9deg); opacity: .35; }
+  to { transform: none; opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) { .tlc-sheet.is-turning { animation: none; } }
+.tlc-sheet__holes {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  i { width: 7px; height: 7px; border-radius: 50%; background: $tlc-desk; box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25); }
+}
+.tlc-sheet__head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: end;
+  gap: 4px 12px;
+}
+.tlc-sheet__year {
+  font-size: clamp(48px, 12vw, 64px);
+  font-weight: 800;
+  line-height: .86;
+  letter-spacing: -.035em;
+  color: $tlc-ink !important;
+  &:hover { color: $tlc-accent !important; }
+}
+.tlc-sheet__count { margin: 0; font-size: 12px; line-height: 1.45; color: $tlc-soft; b { color: $tlc-ink; } }
+.tlc-sheet__gen {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 3px 10px 3px 6px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--c1) 9%, #fff);
+  color: color-mix(in srgb, var(--c1) 70%, #{$tlc-ink});
+  font-size: 11.5px;
+  white-space: nowrap;
+  i { width: 12px; height: 12px; border-radius: 50%; background: linear-gradient(90deg, var(--c1) 50%, var(--c2) 50%); }
+  @media (max-width: 560px) { grid-column: 1 / -1; justify-self: start; }
+}
+.tlc-works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0 0;
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 9px 2px 4px;
+    border: 1px solid $tlc-rule;
+    border-radius: 999px;
+    color: $tlc-soft;
+    font-size: 12px;
+  }
+  a:hover { color: $tlc-ink; border-color: #cfd6de; }
+  img { width: 20px; height: 20px; border-radius: 5px; object-fit: contain; }
+}
+
+/* the speakers of the year, gliding past as the sheet scrolls by */
+.tlc-passers {
+  margin: 12px -18px 0;
+  padding: 6px 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+.tlc-passers__row {
+  display: flex;
+  gap: 8px;
+  width: max-content;
+  padding: 0 18px;
+  transform: translate3d(var(--x, 0px), 0, 0);
+  will-change: transform;
+}
+.tlc-passer {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px 2px 2px;
+  border-radius: 999px;
+  background: $tlc-desk;
+  color: $tlc-soft;
+  font-size: 12px;
+  white-space: nowrap;
+  img, i { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; filter: grayscale(.35); }
+  i { display: grid; place-items: center; font-style: normal; font-size: 12px; background: #dde3ea; color: $tlc-soft; }
+  &:hover { color: $tlc-ink; img { filter: none; } }
+}
+
+.tlc-entries {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  .tl-entry {
+    display: grid;
+    grid-template-columns: 46px minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: start;
+    margin: 0;
+    padding: 12px 0;
+    border-top: 1px solid $tlc-rule;
+  }
+  .tl-entry__date { font-family: $tlc-mono; font-size: 11.5px; color: $tlc-faint; padding-top: 3px; }
+  .tl-entry__meta { display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; font-size: 11.5px; color: $tlc-faint; }
+  .tl-entry__kind { color: #b45309; }
+  .tl-entry[data-kind="interview"] .tl-entry__kind { color: #2b6cb0; }
+  .tl-entry[data-kind="topic"] .tl-entry__kind { color: #0f766e; }
+  .tl-entry__title { margin: 2px 0 0; font-size: 15px; line-height: 1.5; font-weight: 700; a { color: $tlc-ink; } a:hover { color: $tlc-accent; } }
+  .tl-entry__image img { display: block; width: 52px; height: 62px; object-fit: cover; border-radius: 3px; border: 1px solid $tlc-rule; }
+}
+.tlc-sheet__note { margin: 12px 0 0; padding: 12px 0; border-top: 1px solid $tlc-rule; font-size: 13px; color: $tlc-soft; }
+.tlc-sheet__foot {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 -18px;
+  padding: 10px 18px 12px;
+  border-top: 1px dashed #d5dce4;
+  font-size: 13px;
+  a { color: $tlc-accent; }
+}
+.tlc-end { margin: 30px 4px 0; text-align: center; font-size: 13px; color: $tlc-faint; }
+
+/* ---- Celebi: jump to a year ---------------------------------------------------- */
+.tlc-jump {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 20;
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+    padding: 6px 14px 6px 8px;
+    list-style: none;
+    border: 1px solid #cfe5bd;
+    border-radius: 999px;
+    background: #f1f8ea;
+    color: #3d6b2a;
+    font-size: 12.5px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(60, 120, 40, .2);
+    &::-webkit-details-marker { display: none; }
+    img { width: 40px; height: auto; margin: -10px 0 -8px; }
+  }
+  &[open] summary { background: #fff; }
+}
+.tlc-jump__years {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 10px);
+  display: grid;
+  grid-template-columns: repeat(5, 54px);
+  gap: 6px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid $tlc-rule;
+  border-radius: 12px;
+  box-shadow: 0 16px 36px rgba(26, 36, 48, .18);
+  a {
+    padding: 5px 0 5px 8px;
+    border-left: 3px solid var(--c1);
+    border-radius: 3px;
+    background: $tlc-desk;
+    color: $tlc-ink;
+    font-family: $tlc-mono;
+    font-size: 12px;
+  }
+  a:hover { background: #e9edf2; }
+}
+
+/* ---- the site's night theme ---------------------------------------------------- */
+body.theme-bg-black .tlc {
+  color: #e6eaf0;
+  .tlc-backdrop { background: linear-gradient(180deg, color-mix(in srgb, var(--tlc-a) 12%, #12161c), color-mix(in srgb, var(--tlc-b) 14%, #12161c)); }
+  .tlc-legend { opacity: .26; }
+  .tlc-today, .tlc-sheet, .tlc-jump__years, .tlc-jump[open] summary { background: #1d232b !important; border-color: #313a45; }
+  .tlc-tabs { background: rgba(18, 22, 28, .86); border-color: #313a45; a { background: #252c35; border-color: #313a45; color: #aab3be; } a[aria-current] { background: #1d232b; color: #fff; box-shadow: inset 0 3px 0 #fff; } }
+  .tlc-sheet__year, .tlc-otd a, .tlc-entries .tl-entry__title a, .tlc-era__head h2, .tlc-facts b, .tlc-sheet__count b { color: #f1f4f8 !important; }
+  .tlc-passer, .tlc-jump__years a { background: #252c35; color: #c3cad3; }
+  .tlc-sheet__gen { background: color-mix(in srgb, var(--c1) 22%, #1d232b); color: #e6eaf0; }
+  .tlc-sheet a.tlc-sheet__year, .tlc-sheet a.tlc-sheet__year:visited { color: #f1f4f8 !important; }
+  .tlc-sheet__count, .tlc-facts, .tlc-era__head p { color: #aab3be; }
+  .tlc-works a, .tlc-entries .tl-entry, .tlc-sheet__note { border-color: #313a45; color: #c3cad3; }
+}

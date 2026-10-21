@@ -17,4 +17,4 @@ their card walls; the layout name is what puts them under 时间线 in the crumb
     {{ content }}
   </div>
 </div>
-{% if tl_own %}<script src="{{ '/assets/js/timeline.js' | relative_url }}" defer></script>{% else %}<script src="{{ '/assets/js/card-grid.js' | relative_url }}" defer></script>{% endif %}
+{% if page.url == "/timeline/" %}<script src="{{ '/assets/js/timeline-calendar.js' | relative_url }}" defer></script>{% elsif tl_own %}<script src="{{ '/assets/js/timeline.js' | relative_url }}" defer></script>{% else %}<script src="{{ '/assets/js/card-grid.js' | relative_url }}" defer></script>{% endif %}

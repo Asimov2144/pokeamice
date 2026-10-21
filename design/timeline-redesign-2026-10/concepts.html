@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Timeline Concepts</title>
+<style>
+  :root{
+    --ink:#1a2430; --soft:#4b5563; --faint:#8a94a0; --rule:#e6ebf0; --band:#f5f7fa; --accent:#2b6cb0;
+    --font:"Inter","Helvetica Neue","Segoe UI","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+    --mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+    /* time of day skies (morning / day / evening / night) */
+    --sky-morn:linear-gradient(180deg,#ffd9b8 0%,#fbe9d7 55%,#f7f1ea 100%);
+    --sky-day:linear-gradient(180deg,#bfe3ff 0%,#e3f2ff 60%,#f5f9fd 100%);
+    --sky-eve:linear-gradient(180deg,#f6a26b 0%,#f7c59f 45%,#f9e6d6 100%);
+    --sky-night:linear-gradient(180deg,#1b2440 0%,#2a3560 60%,#3a4572 100%);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#eef1f5;font-family:var(--font);color:var(--ink)}
+  .board{max-width:1280px;margin:0 auto;padding:28px 16px 60px}
+  .board h1{font-size:22px;margin:0 0 4px}
+  .board .sub{color:var(--soft);font-size:13px;margin:0 0 22px;line-height:1.7}
+  .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}
+  @media (max-width:1100px){.cols{grid-template-columns:1fr}}
+  .col h2{font-size:15px;margin:0 0 4px;display:flex;gap:8px;align-items:baseline}
+  .col h2 b{font-family:var(--mono);font-size:12px;color:var(--faint);font-weight:500}
+  .col .why{font-size:12.5px;color:var(--soft);line-height:1.7;margin:0 0 12px;min-height:84px}
+  .phone{width:375px;max-width:100%;margin:0 auto;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 1px 0 #d9dee5,0 14px 34px rgba(26,36,48,.12)}
+  .mast{height:44px;display:flex;align-items:center;gap:8px;padding:0 14px;border-bottom:1px solid var(--rule);font-size:13px;font-weight:700}
+  .mast i{width:20px;height:20px;border-radius:50%;background:#dfe4ea;display:inline-block}
+  .crumb{font-size:11px;color:var(--faint);padding:10px 16px 0}
+  .notes{margin-top:12px;font-size:12px;color:var(--soft);line-height:1.75;padding:0 6px}
+  .notes li{margin:2px 0}
+  img.px{image-rendering:auto}
+
+  /* ============ A  翻页日历 ============ */
+  .A .desk{padding:14px 16px 18px;background:var(--band)}
+  .A .rings{display:flex;justify-content:space-around;padding:0 34px;height:14px;position:relative;z-index:2}
+  .A .rings span{width:9px;height:20px;border-radius:5px;background:linear-gradient(90deg,#9aa3ad,#e3e7ec 50%,#9aa3ad);margin-top:-2px}
+  .A .sheet{background:#fff;border:1px solid var(--rule);border-radius:4px;position:relative;overflow:hidden}
+  .A .sheet + .sheet{margin-top:-6px}
+  .A .stack{position:relative}
+  .A .stack::before,.A .stack::after{content:"";position:absolute;left:6px;right:6px;height:8px;border:1px solid var(--rule);border-top:0;background:#fbfcfd;border-radius:0 0 4px 4px}
+  .A .stack::before{bottom:-5px}.A .stack::after{bottom:-10px;left:12px;right:12px}
+  .A .sky{height:92px;background:var(--sky-eve);position:relative;padding:12px 14px;color:#5a2f12}
+  .A .sky .tod{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;opacity:.8}
+  .A .sky .date{font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1;margin-top:6px}
+  .A .sky .date small{font-size:13px;font-weight:600;margin-left:6px;letter-spacing:0}
+  .A .sky img{position:absolute;right:6px;bottom:-14px;width:84px}
+  .A .sky .season{position:absolute;right:92px;top:12px;font-size:10.5px;font-family:var(--mono);opacity:.75}
+  .A .body{padding:14px}
+  .A .k{font-size:10.5px;color:var(--faint);font-family:var(--mono);letter-spacing:.06em}
+  .A .today{margin-top:6px;font-size:14px;font-weight:700;line-height:1.5}
+  .A .today small{display:block;font-weight:400;color:var(--soft);font-size:12px;margin-top:2px}
+  .A .perf{border:0;border-top:1px dashed #cfd6de;margin:12px -14px}
+  .A .tabs{display:flex;gap:4px;margin:14px 0 0;overflow:hidden}
+  .A .tabs a{flex:1;font-size:10px;text-align:center;padding:6px 0 5px;border-radius:6px 6px 0 0;background:#e9edf2;color:var(--soft);font-family:var(--mono)}
+  .A .tabs a.on{background:#fff;color:var(--ink);font-weight:700;box-shadow:0 -1px 0 var(--rule) inset}
+  .A .year{background:#fff;border:1px solid var(--rule);border-top:0;padding:12px 14px 14px}
+  .A .yhead{display:flex;align-items:flex-end;gap:10px}
+  .A .yhead .y{font-size:46px;font-weight:800;line-height:.9;letter-spacing:-.03em}
+  .A .yhead .stamp{font-size:11px;color:var(--soft);line-height:1.5}
+  .A .yhead .games{margin-left:auto;display:flex;gap:4px}
+  .A .yhead .games img{width:26px;height:26px;border-radius:6px}
+  .A .entries{margin-top:10px;display:grid;gap:8px}
+  .A .e{display:grid;grid-template-columns:42px 1fr;gap:10px;align-items:start;font-size:13px;line-height:1.5}
+  .A .e .d{font-family:var(--mono);font-size:11px;color:var(--faint);border-right:1px solid var(--rule);padding-top:2px}
+  .A .e b{display:block;font-size:13.5px}
+  .A .e span{font-size:11px;color:#b45309}
+  .A .flip{margin-top:12px;display:flex;justify-content:space-between;font-size:12px;color:var(--accent)}
+  .A .curl{position:absolute;right:0;bottom:0;width:34px;height:34px;background:linear-gradient(225deg,#fff 0 45%,#dfe5ec 50%,#eef2f6 100%);border-top-left-radius:8px;box-shadow:-2px -2px 4px rgba(0,0,0,.06)}
+
+  /* ============ B  时空之轴 ============ */
+  .B .hero{position:relative;height:210px;background:linear-gradient(90deg,#f6e3cf 0%,#fbf4ec 38%,#eef2fb 62%,#dfe6fb 100%);overflow:hidden}
+  .B .hero .past,.B .hero .future{position:absolute;bottom:14px;width:128px}
+  .B .hero .past{left:-8px}.B .hero .future{right:-8px}
+  .B .hero .lab{position:absolute;top:14px;font-family:var(--mono);font-size:10.5px;color:var(--soft);letter-spacing:.06em}
+  .B .hero .lab.l{left:14px}.B .hero .lab.r{right:14px;text-align:right}
+  .B .hero h3{position:absolute;left:0;right:0;top:56px;text-align:center;margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em}
+  .B .hero p{position:absolute;left:0;right:0;top:90px;text-align:center;margin:0;font-size:12px;color:var(--soft)}
+  .B .axis{position:relative;padding:8px 16px 18px 16px}
+  .B .spine{position:absolute;left:58px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,#f0b27a,#7fb3e6 50%,#4b4f9c)}
+  .B .era{position:relative;padding:14px 0 6px 64px}
+  .B .era .tag{font-size:9.5px}
+  .B .era .tag{position:absolute;left:-4px;top:14px;width:34px;text-align:right;font-family:var(--mono);font-size:10.5px;color:var(--faint);line-height:1.3}
+  .B .era .gem{position:absolute;left:36px;top:15px;width:14px;height:14px;transform:rotate(45deg);background:#fff;border:2px solid #7fb3e6}
+  .B .era.now .gem{background:#4a7bd1;border-color:#2b4fa0;box-shadow:0 0 0 4px rgba(74,123,209,.18)}
+  .B .era h4{margin:0;font-size:14px}
+  .B .era small{font-size:11.5px;color:var(--soft)}
+  .B .bars{display:flex;align-items:flex-end;gap:3px;height:34px;margin-top:8px}
+  .B .bars i{flex:1;background:#c8d6ea;border-radius:2px 2px 0 0}
+  .B .dialga{position:absolute;right:10px;top:4px;width:70px;opacity:.95}
+  .B .celebi{position:absolute;right:14px;bottom:14px;width:62px;height:62px;border-radius:50%;background:#f1f8ea;border:1px solid #cfe5bd;display:grid;place-items:center;box-shadow:0 6px 16px rgba(60,120,40,.18)}
+  .B .celebi img{width:54px}
+  .B .celebi::after{content:"跳到某一年";position:absolute;right:68px;white-space:nowrap;font-size:11px;background:#fff;border:1px solid var(--rule);padding:3px 8px;border-radius:999px;color:var(--soft)}
+
+  /* ============ C  四季轮转 ============ */
+  .C .ring{position:relative;height:300px;display:grid;place-items:center;background:radial-gradient(circle at 50% 50%,#fff 0 30%,#f6f8fb 31% 100%)}
+  .C svg{position:absolute;inset:0;margin:auto}
+  .C .center{position:relative;text-align:center}
+  .C .center img{width:96px;display:block;margin:0 auto -4px}
+  .C .center b{font-size:28px;font-weight:800;letter-spacing:-.02em}
+  .C .center small{display:block;font-size:11px;color:var(--soft)}
+  .C .seasons{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:12px 14px}
+  .C .s{border-radius:10px;padding:8px 6px 6px;text-align:center;font-size:11px;color:var(--soft)}
+  .C .s img{width:52px;display:block;margin:0 auto}
+  .C .s.sp{background:#fdeef3}.C .s.su{background:#e8f6e9}.C .s.au{background:#fdf0e2}.C .s.wi{background:#eef3f8}
+  .C .s.on{outline:2px solid #e46b93;outline-offset:-2px;color:var(--ink);font-weight:700}
+  .C .dn{margin:4px 14px 16px;border:1px solid var(--rule);border-radius:12px;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+  .C .dn div{padding:10px;display:flex;gap:8px;align-items:center;font-size:12px}
+  .C .dn div + div{background:#20263d;color:#dfe5ff}
+  .C .dn img{width:44px}
+  .C .dn b{display:block;font-size:13px}
+</style>
+</head>
+<body>
+<div class="board">
+  <h1>资料时间线 · 重新设计的三个方向</h1>
+  <p class="sub">都用站里现有的数据（6 个时代、31 年、每年的推荐与作品图标）和站内图库的 HOME 立绘。每个方向只有一个“主角”，其余的时间元素做环境：读者此刻的昼夜、所在月份的季节。三张图都是 375 宽手机视图，现在的样子是傍晚 10 月。</p>
+  <div class="cols">
+
+    <!-- A -->
+    <section class="col A">
+      <h2>A　翻页日历 <b>CALENDAR</b></h2>
+      <p class="why">容器就是一本台历：顶上一张是“今天”（读者当天的日期 + 历史上的今天），往下每一年是一张撕页，换年 = 翻页。页头的天色跟读者的时钟走（晨 / 昼 / 夕 / 夜），角落的宝可梦随昼夜换（伊布 → 太阳伊布 / 月亮伊布，岩狗狗 → 鬃岩狼人三形态），季节只改一句小字和一点色。6 个时代是台历侧边的索引页签。</p>
+      <div class="phone">
+        <div class="mast"><i></i>Poke Amice Docs</div>
+        <div class="crumb">首页 › 时间线</div>
+        <div class="desk">
+          <div class="rings"><span></span><span></span><span></span><span></span></div>
+          <div class="stack">
+            <div class="sheet">
+              <div class="sky">
+                <div class="tod">EVENING · 傍晚 17:42</div>
+                <div class="date">10.21<small>周二</small></div>
+                <div class="season">AUTUMN · 秋</div>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10152.png" alt="">
+              </div>
+              <div class="body">
+                <div class="k">历史上的今天</div>
+                <div class="today">2008.10.21 · Nintendo DREAM：增田顺一谈彩虹大桥<small>这一天站里还有 4 篇：2008 年的白金对战专访、2013 年 X·Y 角色设计……</small></div>
+                <hr class="perf">
+                <div class="k">傍晚的鬃岩狼人 —— 只在黄昏进化的形态</div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs"><a>96–01</a><a class="on">02–09</a><a>10–15</a><a>16–20</a><a>21–24</a><a>25–26</a></div>
+          <div class="year" style="position:relative">
+            <div class="yhead">
+              <div class="y">2004</div>
+              <div class="stamp">3 篇文献<br>29 篇博客</div>
+              <div class="games"><img src="../../assets/img/works/bulba-home-firered-icon.png" alt=""><img src="../../assets/img/works/bulba-home-leafgreen-icon.png" alt=""></div>
+            </div>
+            <div class="entries">
+              <div class="e"><div class="d">09.01</div><div><span>访谈与报道</span><b>N.O.M 2004年9月号宝可梦总力特集</b></div></div>
+              <div class="e"><div class="d">05.13</div><div><span>访谈与报道</span><b>E3 2004 IGN：火红·叶绿与无线对战</b></div></div>
+            </div>
+            <div class="flip"><span>← 2003</span><span>2005 →</span></div>
+            <div class="curl"></div>
+          </div>
+        </div>
+      </div>
+      <ul class="notes">
+        <li>翻页动效：撕页向上卷起（一次只翻一页，别的都静止）。</li>
+        <li>昼夜四档沿用金银以来的“朝 / 昼 / 夕 / 夜”；季节按月份，取黑白的四季。</li>
+        <li>和“卡片即球”不冲突：年份页的页脚就是那条带按钮的赤道。</li>
+      </ul>
+    </section>
+
+    <!-- B -->
+    <section class="col B">
+      <h2>B　时空之轴 <b>AXIS</b></h2>
+      <p class="why">一根贯穿 30 年的竖轴，两端是故勒顿（往前：1996 以前的源流）和密勒顿（往后看：还没发生的事），轴上的天色从黎明走到深夜。帝牙卢卡胸口的菱形宝石是“现在”的刻度；时拉比是悬浮的“跳到某一年”按钮——点它就穿越。</p>
+      <div class="phone">
+        <div class="mast"><i></i>Poke Amice Docs</div>
+        <div class="hero">
+          <div class="lab l">PAST ←<br>1996 以前</div>
+          <div class="lab r">→ FUTURE<br>往后看</div>
+          <h3>30 年，一根时间轴</h3>
+          <p>526 篇文献 · 709 篇博客 · 31 个年份</p>
+          <img class="past" src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--1007.png" alt="">
+          <img class="future" src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--1008.png" alt="">
+        </div>
+        <div class="axis">
+          <div class="spine"></div>
+          <img class="dialga" src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0483.png" alt="">
+          <div class="era"><div class="tag">1996<br>2001</div><div class="gem"></div><h4>红绿到金银</h4><small>22 篇 · 从早期访谈读起</small><div class="bars"><i style="height:15%"></i><i style="height:22%"></i><i style="height:2%"></i><i style="height:38%"></i><i style="height:60%"></i><i style="height:30%"></i></div></div>
+          <div class="era"><div class="tag">2002<br>2009</div><div class="gem"></div><h4>红宝石·蓝宝石到心金·魂银</h4><small>掌机时代的杂志、官网与手记</small><div class="bars"><i style="height:20%"></i><i style="height:28%"></i><i style="height:40%"></i><i style="height:35%"></i><i style="height:22%"></i><i style="height:50%"></i><i style="height:80%"></i><i style="height:100%"></i></div></div>
+          <div class="era now"><div class="tag">2025<br>2026</div><div class="gem"></div><h4>Z-A 及以后</h4><small>现在 · 53 篇</small><div class="bars"><i style="height:55%"></i><i style="height:50%"></i></div></div>
+          <div class="celebi"><img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0251.png" alt=""></div>
+        </div>
+      </div>
+      <ul class="notes">
+        <li>滚动 = 时间流逝：轴的颜色从 1996 的晨光渐到 2026 的夜色（和读者时钟无关）。</li>
+        <li>两端的古代 / 未来只出现在页首和页尾，不跟着滚动。</li>
+        <li>风险：宝可梦立绘多，容易“抢戏”，要控制在一屏一只。</li>
+      </ul>
+    </section>
+
+    <!-- C -->
+    <section class="col C">
+      <h2>C　四季轮转 <b>SEASONS</b></h2>
+      <p class="why">页首是一个环形日历：31 年绕一圈，像钟面也像帝牙卢卡的钟盘，指针停在读者所在的年份 / 时代。时代按季节着色，中间的四季鹿随季节换形；昼夜进化做成一对开关——太阳伊布是浅色、月亮伊布是深色主题。</p>
+      <div class="phone">
+        <div class="mast"><i></i>Poke Amice Docs</div>
+        <div class="ring">
+          <svg width="280" height="280" viewBox="-140 -140 280 280">
+            <g fill="none" stroke-width="18">
+              <circle r="110" stroke="#f6c7d6" stroke-dasharray="132 559" transform="rotate(-90)"/>
+              <circle r="110" stroke="#bfe3c4" stroke-dasharray="180 511" transform="rotate(-21)"/>
+              <circle r="110" stroke="#f6cf9f" stroke-dasharray="132 559" transform="rotate(73)"/>
+              <circle r="110" stroke="#c9d8e8" stroke-dasharray="110 581" transform="rotate(142)"/>
+              <circle r="110" stroke="#f6c7d6" stroke-dasharray="88 603" transform="rotate(200)"/>
+              <circle r="110" stroke="#bfe3c4" stroke-dasharray="44 647" transform="rotate(246)"/>
+            </g>
+            <g stroke="#1a2430" stroke-width="1" opacity=".35">
+              <line x1="0" y1="-124" x2="0" y2="-96"/><line x1="124" y1="0" x2="96" y2="0"/><line x1="0" y1="124" x2="0" y2="96"/><line x1="-124" y1="0" x2="-96" y2="0"/>
+            </g>
+            <line x1="0" y1="0" x2="-62" y2="-88" stroke="#e46b93" stroke-width="3" stroke-linecap="round"/>
+            <circle r="5" fill="#e46b93"/>
+            <text x="0" y="-126" text-anchor="middle" font-size="10" fill="#8a94a0" font-family="monospace">1996</text>
+            <text x="128" y="4" text-anchor="start" font-size="10" fill="#8a94a0" font-family="monospace">2004</text>
+            <text x="0" y="136" text-anchor="middle" font-size="10" fill="#8a94a0" font-family="monospace">2011</text>
+            <text x="-128" y="4" text-anchor="end" font-size="10" fill="#8a94a0" font-family="monospace">2019</text>
+          </svg>
+          <div class="center">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/586.png" alt="">
+            <b>2024</b><small>晶灿钻石·明亮珍珠到朱·紫 · 第二个春</small>
+          </div>
+        </div>
+        <div class="seasons">
+          <div class="s sp on"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585.png" alt="">春 · 96–01 · 21–24</div>
+          <div class="s su"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585-summer.png" alt="">夏 · 02–09 · 25–26</div>
+          <div class="s au"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585-autumn.png" alt="">秋 · 10–15</div>
+          <div class="s wi"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/585-winter.png" alt="">冬 · 16–20</div>
+        </div>
+        <div class="dn">
+          <div><img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0196.png" alt=""><span><b>白天读</b>浅色</span></div>
+          <div><img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0197.png" alt=""><span><b>夜里读</b>深色</span></div>
+        </div>
+      </div>
+      <ul class="notes">
+        <li>环形是导航：拖指针 / 点扇区直接跳到年份或时代。</li>
+        <li>季节是“时代的季节”（循环），不是读者的季节——这一点比 A 抽象。</li>
+        <li>风险：环形在手机上信息密度低，年份文字只能放刻度。</li>
+      </ul>
+    </section>
+  </div>
+</div>
+</body>
+</html>
