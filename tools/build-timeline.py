@@ -225,6 +225,16 @@ def main():
                 pool.append(p)
                 seen.add(key)
 
+        def url_of(p):
+            url = xp.canonical_url(p["fm"], p["id"]).replace(xp.SITE, "")
+            # :title is Jekyll's "pretty" slug of the file name: every run of anything but letters, marks, digits
+            # and ._~!$&'()+,;=@ becomes one hyphen ("Download & Inqury" -> "Download-&-Inqury", "【1996年】"
+            # -> "-1996年-"); canonical_url only drops the ASCII brackets
+            if re.search(r"[^\w-]", p["id"]) and not p["fm"].get("permalink"):
+                slug = re.sub(r"[^\w.~!$&'()+,;=@]+|_+", "-", p["id"]).strip("-")
+                url = url.rstrip("/").rsplit("/", 1)[0] + "/" + urllib.parse.quote(slug) + "/"
+            return url
+
         def row_of(p, full=True):
             fm = read_post(p["rel"], full=True) or p["fm"]
             cover = cover_of(fm)
@@ -233,7 +243,7 @@ def main():
                 "kind": p["kind"],
                 "pub": plain(fm.get("publication"), 40),
                 "date": p["date"],
-                "url": xp.canonical_url(p["fm"], p["id"]).replace(xp.SITE, ""),
+                "url": url_of(p),
                 "series": series_key(p["fm"]),
             }
             if full and (fm.get("summary") or fm.get("dek")):

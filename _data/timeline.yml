@@ -172,11 +172,11 @@ eras:
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 32
-  - name: 杉森建
-    slug: sugimori-ken
-    n: 27
   - name: 岩田聪
     slug: iwata-satoru
+    n: 27
+  - name: 杉森建
+    slug: sugimori-ken
     n: 27
   - name: 首藤刚志
     slug: shudo-takeshi
@@ -253,11 +253,11 @@ eras:
   - name: 前泽圭一
     slug: maezawa-keiichi
     n: 3
-  - name: 小野寺瞬
-    slug: onodera-shun
-    n: 3
   - name: 深谷卓
     slug: fukaya-taku
+    n: 3
+  - name: 小野寺瞬
+    slug: onodera-shun
     n: 3
   - name: 米谷由贵
     slug: yonetani-yuki
@@ -285,17 +285,17 @@ eras:
   - name: 大森滋
     slug: ohmori-shigeru
     n: 3
-  - name: 宗像快
-    slug: munakata-kai
-    n: 3
   - name: 小幡敏宏
     slug: obata-toshihiro
     n: 3
+  - name: 宗像快
+    slug: munakata-kai
+    n: 3
+  - name: Alfredo Spadafina
+    slug: alfredo-spadafina
+    n: 3
   - name: 前泽圭一
     slug: maezawa-keiichi
-    n: 3
-  - name: 赤木达也
-    slug: chi-mu-da-ye-2
     n: 3
 years:
 - year: 1996
@@ -327,17 +327,17 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 1
-  - name: 西野弘二
-    slug: nishino-koji
-    n: 1
-  - name: 森本茂树
-    slug: morimoto-shigeki
-    n: 1
   - name: 太田健程
     slug: ota-takenori
     n: 1
-  - name: 藤原基史
-    slug: fujiwara-motofumi
+  - name: 渡边哲也
+    slug: watanabe-tetsuya
+    n: 1
+  - name: 西野弘二
+    slug: nishino-koji
+    n: 1
+  - name: 田尻智
+    slug: tajiri-satoshi
     n: 1
   works:
   - name: 宝可梦 红·绿
@@ -383,20 +383,20 @@ years:
   - name: 田尻智
     slug: tajiri-satoshi
     n: 2
+  - name: 杉森建
+    slug: sugimori-ken
+    n: 1
   - name: 增田顺一
     slug: masuda-junichi
-    n: 1
-  - name: 森本茂树
-    slug: morimoto-shigeki
-    n: 1
-  - name: 太田健程
-    slug: ota-takenori
     n: 1
   - name: 林原惠美
     slug: hayashibara-megumi
     n: 1
-  - name: 杉森建
-    slug: sugimori-ken
+  - name: 太田健程
+    slug: ota-takenori
+    n: 1
+  - name: 森本茂树
+    slug: morimoto-shigeki
     n: 1
   works:
   - name: 宝可梦 金·银
@@ -527,11 +527,11 @@ years:
   - name: 岩田聪
     slug: iwata-satoru
     n: 1
-  - name: 蒂姆·拉里默
-    slug: di-mu-la-li-mo
-    n: 1
   - name: 田尻智
     slug: tajiri-satoshi
+    n: 1
+  - name: 蒂姆·拉里默
+    slug: di-mu-la-li-mo
     n: 1
   - name: 西野弘二
     slug: nishino-koji
@@ -551,11 +551,7 @@ years:
     n: 1
   - name: 旋转方块
     n: 1
-  - name: 宝可梦 红·绿
-    icon: /assets/img/works/bulba-red-vc-jp-icon.png
-    icon2: /assets/img/works/bulba-green-vc-icon.png
-    color: '#d8262a'
-    color2: '#2f9e44'
+  - name: 铁板阵
     n: 1
   picks:
   - title: 究极的 Game Freak
@@ -637,14 +633,14 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 4
+  - name: 杉森建
+    slug: sugimori-ken
+    n: 3
   - name: 田尻智
     slug: tajiri-satoshi
     n: 3
   - name: 森本茂树
     slug: morimoto-shigeki
-    n: 3
-  - name: 杉森建
-    slug: sugimori-ken
     n: 3
   - name: 太田健程
     slug: ota-takenori
@@ -770,17 +766,17 @@ years:
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 1
-  - name: 吉野元文
-    slug: ji-ye-yuan-wen
-    n: 1
-  - name: 赤羽卓美
-    slug: chi-yu-zhuo-mei
+  - name: 入江胜义
+    slug: ru-jiang-sheng-yi
     n: 1
   - name: 福田和彦
     slug: fu-tian-he-yan
     n: 1
-  - name: 入江胜义
-    slug: ru-jiang-sheng-yi
+  - name: 赤羽卓美
+    slug: chi-yu-zhuo-mei
+    n: 1
+  - name: 吉野元文
+    slug: ji-ye-yuan-wen
     n: 1
   - name: 久須美龍太
     slug: jiu-xu-mei-long-tai
@@ -876,11 +872,11 @@ years:
   - name: 杉森建
     slug: sugimori-ken
     n: 1
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
-    n: 1
   - name: 增田顺一
     slug: masuda-junichi
+    n: 1
+  - name: 石原恒和
+    slug: ishihara-tsunekazu
     n: 1
   works:
   - name: 宝可梦 红宝石·蓝宝石
@@ -964,11 +960,11 @@ years:
   - name: 森本茂树
     slug: morimoto-shigeki
     n: 1
-  - name: 松村憲男
-    slug: matsumura-norio
-    n: 1
   - name: 石原恒和
     slug: ishihara-tsunekazu
+    n: 1
+  - name: 松村憲男
+    slug: matsumura-norio
     n: 1
   - name: 小澤宗明
     slug: ozawa-muneaki
@@ -1067,12 +1063,6 @@ years:
     color: '#e6522c'
     color2: '#5fa14a'
     n: 3
-  - name: 宝可梦 红·绿
-    icon: /assets/img/works/bulba-red-vc-jp-icon.png
-    icon2: /assets/img/works/bulba-green-vc-icon.png
-    color: '#d8262a'
-    color2: '#2f9e44'
-    n: 1
   - name: 裂空的访问者 代欧奇希斯
     icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
@@ -1083,6 +1073,12 @@ years:
   - name: 宝可梦圆形竞技场
     icon: /assets/img/works/ball-colosseum.png
     color: '#5c6bc0'
+    n: 1
+  - name: 宝可梦 红·绿
+    icon: /assets/img/works/bulba-red-vc-jp-icon.png
+    icon2: /assets/img/works/bulba-green-vc-icon.png
+    color: '#d8262a'
+    color2: '#2f9e44'
     n: 1
   picks:
   - title: 火红·叶绿 开发者访谈
@@ -1147,11 +1143,11 @@ years:
   - name: 吉田宏信
     slug: yoshida-hironobu
     n: 1
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 1
   - name: 江尾可奈子
     slug: eo-kanako
+    n: 1
+  - name: 田尻智
+    slug: tajiri-satoshi
     n: 1
   - name: 海野隆雄
     slug: unno-takao
@@ -1163,16 +1159,16 @@ years:
     color: '#4f7fc9'
     color2: '#c98ab6'
     n: 1
-  - name: 宝可梦圆形竞技场
-    icon: /assets/img/works/ball-colosseum.png
-    color: '#5c6bc0'
+  - name: 宝可梦 绿宝石
+    icon: /assets/img/works/ball-emerald.png
+    color: '#2e9e6b'
     n: 1
   - name: 宝可梦XD 暗之旋风 黑暗洛奇亚
     icon: /assets/img/works/classic-placeholder.png
     n: 1
-  - name: 宝可梦 绿宝石
-    icon: /assets/img/works/ball-emerald.png
-    color: '#2e9e6b'
+  - name: 宝可梦圆形竞技场
+    icon: /assets/img/works/ball-colosseum.png
+    color: '#5c6bc0'
     n: 1
   - name: 螺旋破碎机
     n: 1
@@ -1251,11 +1247,11 @@ years:
   - name: 杉森建
     slug: sugimori-ken
     n: 1
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
-    n: 1
   - name: 增田顺一
     slug: masuda-junichi
+    n: 1
+  - name: 石原恒和
+    slug: ishihara-tsunekazu
     n: 1
   works:
   - name: 宝可梦 钻石·珍珠
@@ -1329,11 +1325,11 @@ years:
     icon: /assets/img/works/bulba-pmd-time-icon.png
     icon2: /assets/img/works/bulba-pmd-darkness-icon.png
   people:
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 1
   - name: 中川翔子
     slug: nakagawa-shoko
+    n: 1
+  - name: 田尻智
+    slug: tajiri-satoshi
     n: 1
   works:
   - name: 宝可梦 红·绿
@@ -1553,8 +1549,8 @@ years:
   - name: 河内丸武史
     slug: kawachimaru-takeshi
     n: 4
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
+  - name: 岩田聪
+    slug: iwata-satoru
     n: 4
   works:
   - name: 超梦的逆袭
@@ -2098,11 +2094,11 @@ years:
     color: '#222222'
     color2: '#e6e6e6'
     n: 5
-  - name: 风来的西林
-    n: 4
   - name: 宝可梦不可思议迷宫
     icon: /assets/img/works/bulba-pmd-time-icon.png
     color: '#6d4c41'
+    n: 4
+  - name: 风来的西林
     n: 4
   - name: 宝可梦不可思议迷宫 极大之门与无限迷宫
     icon: /assets/img/works/bulba-gates-to-infinity-icon.png
@@ -2443,14 +2439,14 @@ years:
   - name: Pokémon Bank
     icon: /assets/img/works/classic-placeholder.png
     n: 1
-  - name: Pokémon HOME
-    icon: /assets/img/works/home-home.png
-    n: 1
   - name: 宝可梦 黑·白
     icon: /assets/img/works/bulba-black-icon.png
     icon2: /assets/img/works/bulba-white-icon.png
     color: '#222222'
     color2: '#e6e6e6'
+    n: 1
+  - name: Pokémon HOME
+    icon: /assets/img/works/home-home.png
     n: 1
   picks:
   - title: Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生
@@ -2595,11 +2591,11 @@ years:
   - name: 大森滋
     slug: ohmori-shigeru
     n: 1
-  - name: James Turner
-    slug: james-turner
-    n: 1
   - name: T.M.
     slug: t-m
+    n: 1
+  - name: James Turner
+    slug: james-turner
     n: 1
   - name: M.I.
     slug: m-i
@@ -2746,14 +2742,14 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 3
+  - name: 杉森建
+    slug: sugimori-ken
+    n: 1
+  - name: 横井军平
+    slug: yokoi-gunpei
+    n: 1
   - name: 远藤雅伸
     slug: endo-masanobu
-    n: 1
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 1
-  - name: 一之濑刚
-    slug: ichinose-go
     n: 1
   works:
   - name: Pokémon GO
@@ -2771,7 +2767,7 @@ years:
     icon: /assets/img/works/home-sun.png
     icon2: /assets/img/works/home-moon.png
     n: 3
-  - name: 接龙马
+  - name: 吃豆人世界
     n: 1
   - name: 迷宫塔
     n: 1
@@ -2948,15 +2944,15 @@ years:
     icon: /assets/img/works/home-ultra-sun.png
     icon2: /assets/img/works/home-ultra-moon.png
     n: 4
+  - name: 宝可梦 X·Y
+    icon: /assets/img/works/home-x.png
+    icon2: /assets/img/works/home-y.png
+    n: 3
   - name: 宝可梦 黑·白
     icon: /assets/img/works/bulba-black-icon.png
     icon2: /assets/img/works/bulba-white-icon.png
     color: '#222222'
     color2: '#e6e6e6'
-    n: 3
-  - name: 宝可梦 X·Y
-    icon: /assets/img/works/home-x.png
-    icon2: /assets/img/works/home-y.png
     n: 3
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
@@ -3108,11 +3104,11 @@ years:
   - name: 杉森建
     slug: sugimori-ken
     n: 3
-  - name: 约翰·汉克
-    slug: john-hanke
-    n: 3
   - name: 野村达雄
     slug: nomura-tatsuo
+    n: 3
+  - name: 约翰·汉克
+    slug: john-hanke
     n: 3
   - name: 菜花健作
     slug: nabana-kensaku
@@ -3463,8 +3459,14 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-smile-icon.png
   people:
+  - name: 小林幸子
+    slug: kobayashi-sachiko
+    n: 1
   - name: 乌龟松本
     slug: wu-gui-song-ben
+    n: 1
+  - name: 木村KAELA
+    slug: kimura-kaela
     n: 1
   - name: 橘庆太
     slug: tachibana-keita
@@ -3475,25 +3477,19 @@ years:
   - name: 冈崎体育
     slug: okazaki-taiiku
     n: 1
-  - name: 木村KAELA
-    slug: kimura-kaela
-    n: 1
-  - name: 小林幸子
-    slug: kobayashi-sachiko
-    n: 1
   works:
-  - name: 剧场版 宝可梦 可可
-    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
-    n: 1
   - name: 超梦的逆袭
     icon: /assets/img/works/bulba-japanese-m01-logo.png
     color: '#7e57c2'
     n: 1
+  - name: 剧场版 宝可梦 可可
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+    n: 1
+  - name: 开发环境全云端架构
+    n: 1
   - name: 宝可梦 剑·盾
     icon: /assets/img/works/home-sword.png
     icon2: /assets/img/works/home-shield.png
-    n: 1
-  - name: 开发环境全云端架构
     n: 1
   picks:
   - title: 全面强化“组织效能”——推动开发环境向全云端架构演进。
@@ -3616,11 +3612,11 @@ years:
   - name: T.K.
     slug: t-k
     n: 2
-  - name: 须崎春树
-    slug: xu-qi-chun-shu
-    n: 1
   - name: 岩田聪
     slug: iwata-satoru
+    n: 1
+  - name: 须崎春树
+    slug: xu-qi-chun-shu
     n: 1
   - name: 久保雅一
     slug: kubo-masakazu
@@ -3633,16 +3629,16 @@ years:
     icon: /assets/img/works/home-sword.png
     icon2: /assets/img/works/home-shield.png
     n: 5
-  - name: Pokémon GO
-    icon: /assets/img/works/bulba-home-go-icon.png
-    color: '#1e88e5'
-    color2: '#ffd54f'
-    n: 3
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
     color: '#d8262a'
     color2: '#2f9e44'
+    n: 3
+  - name: Pokémon GO
+    icon: /assets/img/works/bulba-home-go-icon.png
+    color: '#1e88e5'
+    color2: '#ffd54f'
     n: 3
   - name: 宝可梦集换式卡牌游戏
     icon: /assets/img/works/ball-tcg.png
@@ -3786,11 +3782,11 @@ years:
   - name: 富江慎一郎
     slug: tomie-shinichiro
     n: 1
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 1
   - name: 杉森建
     slug: sugimori-ken
+    n: 1
+  - name: 田尻智
+    slug: tajiri-satoshi
     n: 1
   - name: 前泽圭一
     slug: maezawa-keiichi
@@ -3802,17 +3798,15 @@ years:
   - name: 宝可梦传说 阿尔宙斯
     icon: /assets/img/works/home-legends-arceus.png
     n: 2
-  - name: 宝可梦超级不可思议迷宫
-    icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
-    n: 1
   - name: 风来之西林
+    n: 1
+  - name: 弟切草
+    n: 1
+  - name: 宝可梦不可思议迷宫 极大之门与无限迷宫
+    icon: /assets/img/works/bulba-gates-to-infinity-icon.png
     n: 1
   - name: 宝可梦不可思议迷宫 空之探险队
     icon: /assets/img/works/bulba-pmd-sky-icon.png
-    n: 1
-  - name: 宝可梦不可思议迷宫
-    icon: /assets/img/works/bulba-pmd-time-icon.png
-    color: '#6d4c41'
     n: 1
   picks:
   - title: Seafoam Gaming 2022：Spike Chunsoft 富江慎一郎访谈
@@ -3934,11 +3928,11 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-sleep-icon.png
   people:
-  - name: 小野寺瞬
-    slug: onodera-shun
-    n: 3
   - name: 深谷卓
     slug: fukaya-taku
+    n: 3
+  - name: 小野寺瞬
+    slug: onodera-shun
     n: 3
   - name: 米谷由贵
     slug: yonetani-yuki
@@ -3946,11 +3940,11 @@ years:
   - name: 前泽圭一
     slug: maezawa-keiichi
     n: 2
+  - name: 岩本翔
+    slug: iwamoto-sho
+    n: 2
   - name: 北村一树
     slug: kitamura-kazuki
-    n: 2
-  - name: 一之濑刚
-    slug: ichinose-go
     n: 2
   works:
   - name: 宝可梦 朱·紫
@@ -3965,7 +3959,7 @@ years:
     icon: /assets/img/works/home-sword.png
     icon2: /assets/img/works/home-shield.png
     n: 2
-  - name: 宝可梦中心线上商城
+  - name: 宝可梦中心
     icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
     n: 1
   - name: 宝可梦咖啡馆
@@ -4109,14 +4103,14 @@ years:
   - name: K.I.
     slug: k-i
     n: 1
-  - name: I.F.
-    slug: i-f
-    n: 1
   - name: R.N.
     slug: r-n
     n: 1
-  - name: K.K.
-    slug: k-k
+  - name: A.T.
+    slug: a-t
+    n: 1
+  - name: T.M.
+    slug: t-m
     n: 1
   - name: R.S.
     slug: r-s
@@ -4137,7 +4131,7 @@ years:
     n: 2
   - name: Gear Project
     n: 1
-  - name: Pokémon Center TAIPEI
+  - name: 宝可梦中心 台北
     icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
     n: 1
   picks:
@@ -4225,7 +4219,7 @@ years:
     kind: article
     pub: ''
     date: '2024-12-24'
-    url: /tech/ptcg/%E6%8A%80%E8%83%BD%E6%9C%BA-%E5%8D%A1%E5%9B%BE%E4%B8%8B%E8%BD%BD-%E6%9F%A5%E8%AF%A2%E6%97%B6%E9%97%B4-Download%20%26%20Inqury/
+    url: /tech/ptcg/%E6%8A%80%E8%83%BD%E6%9C%BA-%E5%8D%A1%E5%9B%BE%E4%B8%8B%E8%BD%BD-%E6%9F%A5%E8%AF%A2%E6%97%B6%E9%97%B4-Download-%26-Inqury/
     series: '[技能机]卡图下载查询'
   - title: 2025 新年快乐
     kind: article
@@ -4275,20 +4269,20 @@ years:
   - name: T.K.
     slug: t-k
     n: 1
+  - name: 大森滋
+    slug: ohmori-shigeru
+    n: 1
   - name: James Turner
     slug: james-turner
     n: 1
   - name: 一之濑刚
     slug: ichinose-go
     n: 1
-  - name: 大森滋
-    slug: ohmori-shigeru
-    n: 1
   - name: 皆川壮一郎
     slug: minagawa-soichiro
     n: 1
-  - name: 藤原ヒロシ
-    slug: fujiwara-hiroshi
+  - name: 鹿瀬島英介
+    slug: lu-lai-dao-ying-jie
     n: 1
   works:
   - name: 宝可梦集换式卡牌游戏
@@ -4449,20 +4443,20 @@ years:
     core: true
     icon: /assets/img/works/home-champions.png
   people:
+  - name: 小幡敏宏
+    slug: obata-toshihiro
+    n: 3
   - name: 宗像快
     slug: munakata-kai
     n: 3
-  - name: 小幡敏宏
-    slug: obata-toshihiro
+  - name: Alfredo Spadafina
+    slug: alfredo-spadafina
     n: 3
   - name: 前泽圭一
     slug: maezawa-keiichi
     n: 3
   - name: 赤木达也
     slug: chi-mu-da-ye-2
-    n: 3
-  - name: Alfredo Spadafina
-    slug: alfredo-spadafina
     n: 3
   - name: 大森滋
     slug: ohmori-shigeru
@@ -4603,7 +4597,7 @@ years:
     kind: interview
     pub: ''
     date: '2026-06-21'
-    url: /%E7%BF%BB%E8%AF%91/%E4%B8%93%E6%A0%8F%E7%BF%BB%E8%AF%91%20%E4%B8%8E%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8C%E8%A1%8C%E7%9A%8430%E5%B9%B41996%E5%B9%B4%E5%88%9D%E4%BB%A3%E3%80%8A%E7%BA%A2%C2%B7%E7%BB%BF%E3%80%8B%E4%B8%8E%E5%B9%BB%E4%B9%8B%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%A2%A6%E5%B9%BB%20%E5%89%8D%E7%AF%87/
+    url: /%E7%BF%BB%E8%AF%91/%E4%B8%93%E6%A0%8F%E7%BF%BB%E8%AF%91-%E4%B8%8E%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8C%E8%A1%8C%E7%9A%8430%E5%B9%B4-1996%E5%B9%B4-%E5%88%9D%E4%BB%A3-%E7%BA%A2-%E7%BB%BF-%E4%B8%8E%E5%B9%BB%E4%B9%8B%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%A2%A6%E5%B9%BB-%E5%89%8D%E7%AF%87/
     series: 与宝可梦同行的30年【
     cover: https://cimg.kgl-systems.io/camion/files/dengeki/67042/abab09351766b5a0dad7435692d20b203.jpg?x=1280
     cover_size:
