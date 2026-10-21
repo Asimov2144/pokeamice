@@ -73,7 +73,8 @@
   function rgb(c) { return "rgb(" + c.map(Math.round).join(",") + ")"; }
 
   var ss = function (x) { x = Math.min(1, Math.max(0, x)); return x * x * (3 - 2 * x); };
-  var SPAN = 1;          // a hand-over between generations takes one year of scrolling, centred on the boundary
+  var SPAN = 0.7;        // a hand-over between cover sets takes most of a year of scrolling, centred on the boundary
+                          // (many sets are a single year: a whole year would leave them never fully on stage)
   var ticking = false;
   function frame() {
     ticking = false;

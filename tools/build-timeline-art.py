@@ -67,6 +67,8 @@ def main():
     n = 0
     for g in covers:
         for lg in g["legends"]:
+            if lg.get("file"):                       # a picture of our own (Pokopia's Ditto), not a HOME render
+                continue
             key = lg.get("form") or lg["dex"]       # a form (Zygarde's 10% / Complete / Mega) has its own PokeAPI number
             n += save(POKEAPI.format(key), OUT / "legends" / f"{key}.png", force)
     for name, url in EXTRAS.items():
