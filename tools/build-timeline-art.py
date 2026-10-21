@@ -67,7 +67,8 @@ def main():
     n = 0
     for g in covers:
         for lg in g["legends"]:
-            n += save(POKEAPI.format(lg["dex"]), OUT / "legends" / f"{lg['dex']}.png", force)
+            key = lg.get("form") or lg["dex"]       # a form (Zygarde's 10% / Complete / Mega) has its own PokeAPI number
+            n += save(POKEAPI.format(key), OUT / "legends" / f"{key}.png", force)
     for name, url in EXTRAS.items():
         n += save(url, OUT / f"{name}.png", force)
     print(f"timeline art: {n} written")

@@ -72,15 +72,25 @@
   function hex(s) { s = (s || "#888888").replace("#", ""); return [parseInt(s.substr(0, 2), 16), parseInt(s.substr(2, 2), 16), parseInt(s.substr(4, 2), 16)]; }
   function rgb(c) { return "rgb(" + c.map(Math.round).join(",") + ")"; }
 
+  var ss = function (x) { x = Math.min(1, Math.max(0, x)); return x * x * (3 - 2 * x); };
+  var SPAN = 1;          // a hand-over between generations takes one year of scrolling, centred on the boundary
   var ticking = false;
   function frame() {
     ticking = false;
     var vh = window.innerHeight, line = vh * 0.45;
-    // the fractional year under the reading line; above the first sheet it is "now"
-    var fy = null;
+    var rects = sheets.map(function (s) { return s.el.getBoundingClientRect(); });
+    // the fractional year under the reading line, interpolated from one sheet's top to the next
+    // (so a year with no sheet, 1998, is crossed smoothly); above the first sheet, `pre` runs
+    // from 1 (today, the latest generation) down to 0 (1996)
+    var fy = sheets.length ? sheets[0].year : 0, pre = 0;
+    if (sheets.length && rects[0].top > line) pre = ss((rects[0].top - line) / (vh * 0.9));
     for (var i = 0; i < sheets.length; i++) {
-      var r = sheets[i].el.getBoundingClientRect();
-      if (r.top <= line) fy = sheets[i].year + Math.min(1, Math.max(0, (line - r.top) / Math.max(1, r.height)));
+      var r = rects[i];
+      if (r.top <= line) {
+        var nextTop = i + 1 < sheets.length ? rects[i + 1].top : r.bottom;
+        var nextYear = i + 1 < sheets.length ? sheets[i + 1].year : sheets[i].year + 1;
+        fy = sheets[i].year + (nextYear - sheets[i].year) * Math.min(1, Math.max(0, (line - r.top) / Math.max(1, nextTop - r.top)));
+      }
       // passers glide from right to left while the sheet crosses the screen
       if (sheets[i].row && r.bottom > 0 && r.top < vh) {
         var p = Math.min(1, Math.max(0, (vh - r.top) / (vh + r.height)));
@@ -89,15 +99,22 @@
         sheets[i].row.style.setProperty("--x", x.toFixed(1) + "px");
       }
     }
+    // each generation fades in over the year around its first year and out over the year around
+    // the next one's; the two curves are complementary, so the weights always add up to one.
+    // The outgoing set drifts up and shrinks a little, the incoming one rises from below, and a
+    // generation on stage drifts slowly with its years - one hand-over at a time, no hard cut
     var wsum = 0, a = [0, 0, 0], b = [0, 0, 0];
-    gens.forEach(function (g) {
-      var op;
-      if (fy === null) op = g === last ? 1 : 0;
-      else {
-        var dist = fy < g.from ? g.from - fy : fy > g.to + 1 ? fy - (g.to + 1) : 0;
-        op = Math.max(0, 1 - dist / 0.45);
-      }
+    gens.forEach(function (g, gi) {
+      var inW = gi === 0 ? 1 : ss((fy - (g.from - SPAN / 2)) / SPAN);
+      var outW = g === last ? 0 : ss((fy - (g.to + 1 - SPAN / 2)) / SPAN);
+      var op = inW * (1 - outW);
+      var q = Math.min(1, Math.max(0, (fy - g.from) / (g.to + 1 - g.from)));
+      var ty = (1 - inW) * 8 - outW * 8 - q * 3;
+      if (gi === 0) { op *= 1 - pre; ty += pre * 8; }
+      if (g === last && pre > 0) { op = Math.max(op, pre); ty = -(1 - pre) * 8; }
+      var sc = 1 - 0.04 * Math.max(1 - inW, outW, g === last ? 1 - pre : 0) * (op < 1 ? 1 : 0);
       g.el.style.opacity = op.toFixed(3);
+      g.el.style.transform = op > 0 ? "translate3d(0," + ty.toFixed(2) + "vh,0) scale(" + sc.toFixed(4) + ")" : "";
       g.el.classList.remove("is-on");
       if (op > 0) { wsum += op; for (var k = 0; k < 3; k++) { a[k] += g.a[k] * op; b[k] += g.b[k] * op; } }
     });

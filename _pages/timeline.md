@@ -25,7 +25,7 @@ list of years in daylight.
   <div class="tlc-backdrop" aria-hidden="true"><div class="tlc-backdrop__stage">
     {%- for g in covers %}
     <div class="tlc-gen{% if forloop.last %} is-on{% endif %}" data-tlc-gen="{{ g.gen }}" data-from="{{ g.from }}" data-to="{{ g.to }}" data-c1="{{ g.colors[0] }}" data-c2="{{ g.colors[1] }}" style="--c1: {{ g.colors[0] }}; --c2: {{ g.colors[1] }}">
-      {%- for lg in g.legends %}<i class="tlc-legend tlc-legend--{{ forloop.index }}" data-head="{{ lg.head }}" style="--src: url('{{ art }}legends/{{ lg.dex }}.png')"></i>{% endfor %}
+      {%- for lg in g.legends %}<i class="tlc-legend tlc-legend--{{ forloop.index }}" data-head="{{ lg.head }}" style="--src: url('{{ art }}legends/{{ lg.form | default: lg.dex }}.png')"></i>{% endfor %}
     </div>
     {%- endfor %}
   </div></div>
@@ -71,12 +71,12 @@ list of years in daylight.
       {%- assign year_url = '/timeline/' | append: y.year | append: '/' | relative_url %}
       <article class="tlc-sheet" id="y{{ y.year }}" data-tlc-year="{{ y.year }}" style="--c1: {{ yg.colors[0] }}; --c2: {{ yg.colors[1] }}">
         {%- assign li = y.year | minus: yg.from | modulo: yg.legends.size %}{% assign sl = yg.legends[li] %}
-        <i class="tlc-sheet__legend" aria-hidden="true" data-head="{{ sl.head }}" style="--src: url('{{ art }}legends/{{ sl.dex }}.png')"></i>
+        <i class="tlc-sheet__legend" aria-hidden="true" data-head="{{ sl.head }}" style="--src: url('{{ art }}legends/{{ sl.form | default: sl.dex }}.png')"></i>
         <div class="tlc-sheet__holes" aria-hidden="true"><i></i><i></i><i></i></div>
         <header class="tlc-sheet__head">
           <a class="tlc-sheet__year" href="{{ year_url }}">{{ y.year }}</a>
           <p class="tlc-sheet__count">{% if tlc_docs > 0 %}<b>{{ tlc_docs }}</b> 篇文献{% endif %}{% if tlc_stream > 0 %}{% if tlc_docs > 0 %}<br>{% endif %}<b>{{ tlc_stream }}</b> 篇博客{% endif %}</p>
-          <p class="tlc-sheet__gen"><i aria-hidden="true"></i>{{ yg.label }}{% if yg.legends.size > 0 %} · {% for lg in yg.legends %}{{ lg.name }}{% unless forloop.last %}／{% endunless %}{% endfor %}{% endif %}</p>
+          <p class="tlc-sheet__gen"><i aria-hidden="true"></i>{{ yg.label }}{% if yg.who %} · {{ yg.who }}{% elsif yg.legends.size > 0 %} · {% for lg in yg.legends %}{{ lg.name }}{% unless forloop.last %}／{% endunless %}{% endfor %}{% endif %}</p>
         </header>
         {%- if y.games.size > 0 %}
         <p class="tlc-works">{% for g in y.games %}<a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}" title="{{ g.title }} · 制作名单">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="20" height="20" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="20" height="20" loading="lazy">{% endif %}{% endif %}<span>{{ g.title | remove_first: "宝可梦 " }}</span></a>{% endfor %}</p>

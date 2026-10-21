@@ -60,6 +60,7 @@ body.layout--timeline:has(.tlc) { overflow-x: clip; }
   position: absolute;
   inset: 0;
   opacity: 0;
+  will-change: opacity, transform;    // the script cross-fades and drifts whole layers, nothing else
   &.is-on { opacity: 1; }          // the last generation, before the script takes over
 }
 .tlc-legend {
@@ -74,14 +75,21 @@ body.layout--timeline:has(.tlc) { overflow-x: clip; }
 }
 .tlc-legend--1 { right: -8vw; top: 6vh; width: min(64vw, 760px); height: 80vh; }
 .tlc-legend--2 { left: -10vw; bottom: -2vh; width: min(42vw, 520px); height: 54vh; opacity: .13; }
+/* a third and fourth (Zygarde's forms) stand further back, smaller and fainter */
+.tlc-legend--3 { right: 26vw; bottom: 2vh; width: min(24vw, 300px); height: 30vh; opacity: .11; }
+.tlc-legend--4 { left: 6vw; top: 3vh; width: min(26vw, 340px); height: 38vh; opacity: .09; }
 /* turn every silhouette to face into the page, so the paper's or the window's edge cuts a
    tail, never a head (head: left / right / center in _data/timeline_covers.yml) */
 .tlc-legend--1[data-head="right"],
+.tlc-legend--3[data-head="right"],
 .tlc-legend--2[data-head="left"],
+.tlc-legend--4[data-head="left"],
 .tlc-sheet__legend[data-head="right"] { transform: scaleX(-1); }
 @media (max-width: 760px) {
   .tlc-legend--1 { right: -38vw; top: 14vh; width: 124vw; height: 72vh; opacity: .24; }
   .tlc-legend--2 { left: -44vw; bottom: 0; width: 90vw; height: 44vh; opacity: .14; }
+  .tlc-legend--3 { right: -8vw; bottom: 4vh; width: 46vw; height: 24vh; }
+  .tlc-legend--4 { left: -6vw; top: 4vh; width: 50vw; height: 28vh; }
 }
 
 /* ---- the desk ------------------------------------------------------------------ */

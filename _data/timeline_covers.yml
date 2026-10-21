@@ -1,6 +1,7 @@
 # 资料时间线（/timeline/）每个世代的“封面神”：页面背后那层剪影和它的配色。
 # 年份区间按正作的世代划（不是 timeline.yml 的六个时代），滚到哪一年就渐变到哪一代。
-# dex 是全国图鉴号，图在 assets/img/timeline/legends/<dex>.png（HOME 立绘，tools/build-timeline-art.py 取）；
+# dex 是全国图鉴号，form 是 PokeAPI 的形态号（有就用它），图在 assets/img/timeline/legends/<form 或 dex>.png（HOME 立绘，tools/build-timeline-art.py 取）；
+# 一代最多四只：1 = 右边主位，2 = 左下，3、4 = 远处的小剪影。
 # colors 取那一代版本色（works.yml 有的照抄，没有的按包装色手定）。
 # Z-A 的包装是密阿雷市和主角，没有神兽，这里用名字里的“Z”——基格尔德。
 # head 是 HOME 立绘里头朝哪边（人工看图定的；按轮廓自动判断会被张开的翅膀骗）：页面把剪影翻成头朝里，免得头被纸边裁掉。
@@ -72,5 +73,10 @@
   to: 2026
   label: Z-A 及以后
   games: Pokémon LEGENDS Z-A
-  legends: [{dex: 718, name: 基格尔德, head: left}]
+  legends:            # 基格尔德四种形态一起上台：完全体在主位，50% / 10% / 超级进化在旁边
+  - {dex: 718, form: 10120, name: 基格尔德（完全体形态）, head: left}
+  - {dex: 718, name: 基格尔德（50%形态）, head: left}
+  - {dex: 718, form: 10181, name: 基格尔德（10%形态）, head: left}
+  - {dex: 718, form: 10301, name: 超级基格尔德, head: center}
+  who: 基格尔德 四形态     # the year sheets' chip; otherwise the names joined
   colors: ['#39b36b', '#1b2a3a']
