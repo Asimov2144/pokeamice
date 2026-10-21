@@ -126,6 +126,35 @@
     sheets.forEach(function (s) { if (s.el.getBoundingClientRect().top > window.innerHeight) io.observe(s.el); });
   }
 
+  // ---- each year: its first pick, and two drawn at random from the rest -----------------
+  // (the other picks and the pool, tools/build-timeline.py); a series shows at most twice,
+  // new series first. The drawn ones say 随手翻到; 换几篇 draws again.
+  function draw(list) {
+    var rows = $$("li[data-series]", list);
+    var rep = rows.filter(function (r) { return r.getAttribute("data-role") === "rep"; })[0];
+    var rest = rows.filter(function (r) { return r !== rep; });
+    for (var i = rest.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = rest[i]; rest[i] = rest[j]; rest[j] = t; }
+    var shown = rep ? [rep] : [], count = {};
+    if (rep) count[rep.getAttribute("data-series")] = 1;
+    [function (s) { return !count[s]; }, function (s) { return (count[s] || 0) < 2; }].forEach(function (ok) {
+      rest.forEach(function (r) {
+        var s = r.getAttribute("data-series");
+        if (shown.length < 3 && shown.indexOf(r) < 0 && ok(s)) { shown.push(r); count[s] = (count[s] || 0) + 1; }
+      });
+    });
+    rows.forEach(function (r) {
+      r.hidden = shown.indexOf(r) < 0;
+      var tag = r.querySelector(".tlc-rand");
+      if (tag) tag.hidden = r.getAttribute("data-role") !== "pool";
+    });
+    shown.forEach(function (r) { list.appendChild(r); });     // the first pick, then the drawn ones
+  }
+  $$("[data-tlc-picks]").forEach(function (list) {
+    draw(list);
+    var btn = $("[data-tlc-shuffle]", list.closest(".tlc-sheet"));
+    if (btn) { btn.hidden = false; btn.addEventListener("click", function () { draw(list); }); }
+  });
+
   // ---- Celebi: close the year list after a jump ---------------------------------------
   var jump = $("[data-tlc-jump]");
   if (jump) jump.addEventListener("click", function (ev) { if (ev.target.closest("a")) jump.open = false; });

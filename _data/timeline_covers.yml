@@ -3,73 +3,74 @@
 # dex 是全国图鉴号，图在 assets/img/timeline/legends/<dex>.png（HOME 立绘，tools/build-timeline-art.py 取）；
 # colors 取那一代版本色（works.yml 有的照抄，没有的按包装色手定）。
 # Z-A 的包装是密阿雷市和主角，没有神兽，这里用名字里的“Z”——基格尔德。
+# head 是 HOME 立绘里头朝哪边（人工看图定的；按轮廓自动判断会被张开的翅膀骗）：页面把剪影翻成头朝里，免得头被纸边裁掉。
 - gen: 1
   from: 1996
   to: 1998
   label: 第一世代
   games: 红·绿 / 蓝 / 皮卡丘
-  legends: [{dex: 150, name: 超梦}, {dex: 151, name: 梦幻}]
+  legends: [{dex: 150, name: 超梦, head: left}, {dex: 151, name: 梦幻, head: left}]
   colors: ['#d8262a', '#2f9e44']
 - gen: 2
   from: 1999
   to: 2001
   label: 第二世代
   games: 金·银 / 水晶
-  legends: [{dex: 250, name: 凤王}, {dex: 249, name: 洛奇亚}]
+  legends: [{dex: 250, name: 凤王, head: right}, {dex: 249, name: 洛奇亚, head: left}]
   colors: ['#d4a72c', '#a8adb5']
 - gen: 3
   from: 2002
   to: 2005
   label: 第三世代
   games: 红宝石·蓝宝石 / 绿宝石
-  legends: [{dex: 383, name: 固拉多}, {dex: 382, name: 盖欧卡}]
+  legends: [{dex: 383, name: 固拉多, head: right}, {dex: 382, name: 盖欧卡, head: left}]
   colors: ['#c9302c', '#2b6cb0']
 - gen: 4
   from: 2006
   to: 2009
   label: 第四世代
   games: 钻石·珍珠 / 白金 / 心金·魂银
-  legends: [{dex: 483, name: 帝牙卢卡}, {dex: 484, name: 帕路奇亚}]
+  legends: [{dex: 483, name: 帝牙卢卡, head: right}, {dex: 484, name: 帕路奇亚, head: left}]
   colors: ['#4f7fc9', '#c98ab6']
 - gen: 5
   from: 2010
   to: 2012
   label: 第五世代
   games: 黑·白 / 黑2·白2
-  legends: [{dex: 643, name: 莱希拉姆}, {dex: 644, name: 捷克罗姆}]
+  legends: [{dex: 643, name: 莱希拉姆, head: right}, {dex: 644, name: 捷克罗姆, head: right}]
   colors: ['#3a3a3a', '#c9ced6']
 - gen: 6
   from: 2013
   to: 2015
   label: 第六世代
   games: X·Y / 欧米伽红宝石·阿尔法蓝宝石
-  legends: [{dex: 716, name: 哲尔尼亚斯}, {dex: 717, name: 伊裴尔塔尔}]
+  legends: [{dex: 716, name: 哲尔尼亚斯, head: left}, {dex: 717, name: 伊裴尔塔尔, head: right}]
   colors: ['#1e5aa8', '#c8282e']
 - gen: 7
   from: 2016
   to: 2018
   label: 第七世代
   games: 太阳·月亮 / 究极之日·究极之月
-  legends: [{dex: 791, name: 索尔迦雷欧}, {dex: 792, name: 露奈雅拉}]
+  legends: [{dex: 791, name: 索尔迦雷欧, head: right}, {dex: 792, name: 露奈雅拉, head: center}]
   colors: ['#f08a1c', '#6a4bb5']
 - gen: 8
   from: 2019
   to: 2021
   label: 第八世代
   games: 剑·盾 / 晶灿钻石·明亮珍珠
-  legends: [{dex: 888, name: 苍响}, {dex: 889, name: 藏玛然特}]
+  legends: [{dex: 888, name: 苍响, head: right}, {dex: 889, name: 藏玛然特, head: left}]
   colors: ['#2f7fd0', '#c2185b']
 - gen: 9
   from: 2022
   to: 2024
   label: 第九世代
   games: 传说 阿尔宙斯 / 朱·紫
-  legends: [{dex: 1007, name: 故勒顿}, {dex: 1008, name: 密勒顿}]
+  legends: [{dex: 1007, name: 故勒顿, head: right}, {dex: 1008, name: 密勒顿, head: left}]
   colors: ['#d23a2f', '#7a3fa6']
 - gen: 10
   from: 2025
   to: 2026
   label: Z-A 及以后
   games: Pokémon LEGENDS Z-A
-  legends: [{dex: 718, name: 基格尔德}]
+  legends: [{dex: 718, name: 基格尔德, head: left}]
   colors: ['#39b36b', '#1b2a3a']

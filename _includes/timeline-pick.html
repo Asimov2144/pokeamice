@@ -1,0 +1,18 @@
+{%- comment -%}
+One row of a year sheet on the timeline overview, from _data/timeline.yml's picks / pool
+(tools/build-timeline.py): include.row, include.role (rep = the year's first pick, always shown;
+pick / pool = drawn at random by timeline-calendar.js), include.hidden.
+The cover is a thumbnail: the gallery's (COS) pictures are asked at 120 px.
+{%- endcomment -%}
+{%- assign tp = include.row -%}
+{%- case tp.kind -%}{%- when "scan" -%}{%- assign tp_label = "原刊扫描" -%}{%- when "topic" -%}{%- assign tp_label = "官方专题" -%}{%- when "interview" -%}{%- assign tp_label = "访谈与报道" -%}{%- else -%}{%- assign tp_label = "文章" -%}{%- endcase -%}
+{%- assign tp_cover = site.data.timeline_thumbnails[tp.cover] | default: tp.cover | default: "" -%}
+{%- if tp_cover contains "gallery.pokeamice.com" -%}{%- assign tp_cover = tp_cover | append: "?imageMogr2/thumbnail/120x%3E" -%}{%- endif -%}
+<li class="tl-entry{% if tp_cover != '' %} has-cover{% endif %}" data-kind="{{ tp.kind }}" data-series="{{ tp.series | escape }}" data-role="{{ include.role }}"{% if include.hidden %} hidden{% endif %}>
+  <time class="tl-entry__date" datetime="{{ tp.date }}">{{ tp.date | slice: 5, 5 | replace: "-", "." }}</time>
+  <div class="tl-entry__body">
+    <p class="tl-entry__meta"><span class="tl-entry__kind">{{ tp_label }}</span>{% if tp.pub and tp.pub != "" %}<span>{{ tp.pub | escape }}</span>{% endif %}<span class="tlc-rand" hidden>随手翻到</span></p>
+    <h3 class="tl-entry__title"><a href="{{ tp.url | relative_url }}">{{ tp.title | escape }}</a></h3>
+  </div>
+  {% if tp_cover != "" %}<span class="tl-entry__image" aria-hidden="true"><img src="{{ tp_cover | relative_url }}" alt="" width="52" height="62" loading="lazy" decoding="async"></span>{% endif %}
+</li>

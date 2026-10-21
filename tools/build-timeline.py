@@ -195,20 +195,37 @@ def main():
             scored.append((s, p["date"], p))
         scored.sort(key=lambda t: (-t[0], t[1]))
         picks, taken, seen = [], collections.Counter(), set()
-        for strict in (True, False):
+        # pass 0: one per series and at most two of a kind; pass 1: still one per series. Never two of
+        # one series: a year that has only two series gets two picks (relaxing the series rule along
+        # with the kind rule let a column fill two of three - 2008, 首藤)
+        for strict in (0, 1):
             for s, d, p in scored:
                 if p in picks or len(picks) == 3:
                     continue
                 fm = p["fm"]
-                # one run of a column or a magazine per year first: the pick shows the year's range, not one series three times
                 key = series_key(fm)
-                if strict and (key in seen or taken[p["kind"]] >= 2 and len(docs) > 3):
+                if key in seen:
+                    continue
+                if strict < 1 and taken[p["kind"]] >= 2 and len(docs) > 3:
                     continue
                 picks.append(p)
                 seen.add(key)
                 taken[p["kind"]] += 1
-        pick_rows = []
-        for p in picks:
+        # the pool: up to nine more of the year's best for the overview to draw from at random next to
+        # the first pick (assets/js/timeline-calendar.js, which shows no series more than twice) - other
+        # series first, then more of the series already there when a year has few
+        pool = []
+        for again in (False, True):
+            for s, d, p in scored:
+                if len(pool) == 9:
+                    break
+                key = series_key(p["fm"])
+                if p in picks or p in pool or (key in seen and not again):
+                    continue
+                pool.append(p)
+                seen.add(key)
+
+        def row_of(p, full=True):
             fm = read_post(p["rel"], full=True) or p["fm"]
             cover = cover_of(fm)
             row = {
@@ -217,14 +234,18 @@ def main():
                 "pub": plain(fm.get("publication"), 40),
                 "date": p["date"],
                 "url": xp.canonical_url(p["fm"], p["id"]).replace(xp.SITE, ""),
+                "series": series_key(p["fm"]),
             }
-            if fm.get("summary") or fm.get("dek"):
+            if full and (fm.get("summary") or fm.get("dek")):
                 row["blurb"] = plain(fm.get("dek") or fm.get("summary"), 88)
             if cover:
                 row["cover"] = cover
                 if covers.get(cover):
                     row["cover_size"] = list(covers[cover])
-            pick_rows.append(row)
+            return row
+
+        pool_rows = [row_of(p, full=False) for p in pool]
+        pick_rows = [row_of(p) for p in picks]
         rel_games = [g for g in games if g.get("year") == year]
         years.append({
             "year": year,
@@ -236,6 +257,7 @@ def main():
             "people": [{"name": n, "slug": slug_of[n], "n": c} for n, c in pc.most_common(6)],
             "works": [dict(work_chip(n), n=c) for n, c in wc.most_common(5)],
             "picks": pick_rows,
+            "pool": pool_rows,
         })
 
     era_rows = []

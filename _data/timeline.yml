@@ -3,12 +3,12 @@ span:
 - 1996
 - 2026
 totals:
-  interview: 399
+  interview: 401
   scan: 51
-  topic: 44
+  topic: 45
   article: 29
   stream: 709
-  docs: 523
+  docs: 526
   max_docs: 52
   max_stream: 213
 eras:
@@ -59,11 +59,11 @@ eras:
   - name: 田尻智
     slug: tajiri-satoshi
     n: 7
-  - name: 森本茂树
-    slug: morimoto-shigeki
-    n: 6
   - name: 杉森建
     slug: sugimori-ken
+    n: 6
+  - name: 森本茂树
+    slug: morimoto-shigeki
     n: 6
   - name: 太田健程
     slug: ota-takenori
@@ -184,7 +184,7 @@ eras:
 - label: SM–SwSh
   from: 2016
   to: 2020
-  docs: 108
+  docs: 109
   stream: 251
   games:
   - slug: sun-moon
@@ -253,19 +253,19 @@ eras:
   - name: 前泽圭一
     slug: maezawa-keiichi
     n: 3
-  - name: 米谷由贵
-    slug: yonetani-yuki
-    n: 3
   - name: 小野寺瞬
     slug: onodera-shun
     n: 3
   - name: 深谷卓
     slug: fukaya-taku
     n: 3
+  - name: 米谷由贵
+    slug: yonetani-yuki
+    n: 3
 - label: Z-A 以后
   from: 2025
   to: 2026
-  docs: 51
+  docs: 53
   stream: 0
   games:
   - slug: legends-za
@@ -285,14 +285,14 @@ eras:
   - name: 大森滋
     slug: ohmori-shigeru
     n: 3
-  - name: 小幡敏宏
-    slug: obata-toshihiro
-    n: 3
   - name: 宗像快
     slug: munakata-kai
     n: 3
-  - name: Alfredo Spadafina
-    slug: alfredo-spadafina
+  - name: 小幡敏宏
+    slug: obata-toshihiro
+    n: 3
+  - name: 前泽圭一
+    slug: maezawa-keiichi
     n: 3
   - name: 赤木达也
     slug: chi-mu-da-ye-2
@@ -321,23 +321,23 @@ years:
     icon: /assets/img/works/bulba-blue-vc-jp-icon.png
     color: '#1f5fb0'
   people:
-  - name: 森本茂树
-    slug: morimoto-shigeki
-    n: 1
-  - name: 藤原基史
-    slug: fujiwara-motofumi
-    n: 1
-  - name: 西田敦子
-    slug: nishida-atsuko
-    n: 1
-  - name: 西野弘二
-    slug: nishino-koji
+  - name: 杉森建
+    slug: sugimori-ken
     n: 1
   - name: 增田顺一
     slug: masuda-junichi
     n: 1
-  - name: 渡边哲也
-    slug: watanabe-tetsuya
+  - name: 西野弘二
+    slug: nishino-koji
+    n: 1
+  - name: 森本茂树
+    slug: morimoto-shigeki
+    n: 1
+  - name: 太田健程
+    slug: ota-takenori
+    n: 1
+  - name: 藤原基史
+    slug: fujiwara-motofumi
     n: 1
   works:
   - name: 宝可梦 红·绿
@@ -352,17 +352,19 @@ years:
     pub: ポケットモンスター図鑑
     date: '1996-04-05'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-shodai-zukan-1996-staff-interview/
+    series: ポケットモンスター図鑑
     blurb: 《宝可梦》开发人员回顾六年制作历程与系统取舍
     cover: https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/p001_cover.jpg
     cover_size:
     - 1460
     - 2048
+  pool:
   - title: 宝可梦日志：大木博士与正辉
     kind: scan
     pub: ポケットモンスター図鑑
     date: '1996-04-05'
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-shodai-zukan-1996-pokemon-journal/
-    blurb: 大木博士与正辉讲述宝可梦的收集、交换与对战。
+    series: ポケットモンスター図鑑
     cover: https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p131_p129_ch5_journal_part1.jpg
     cover_size:
     - 1394
@@ -381,20 +383,20 @@ years:
   - name: 田尻智
     slug: tajiri-satoshi
     n: 2
+  - name: 增田顺一
+    slug: masuda-junichi
+    n: 1
   - name: 森本茂树
     slug: morimoto-shigeki
+    n: 1
+  - name: 太田健程
+    slug: ota-takenori
     n: 1
   - name: 林原惠美
     slug: hayashibara-megumi
     n: 1
-  - name: 增田顺一
-    slug: masuda-junichi
-    n: 1
   - name: 杉森建
     slug: sugimori-ken
-    n: 1
-  - name: 太田健程
-    slug: ota-takenori
     n: 1
   works:
   - name: 宝可梦 金·银
@@ -403,12 +405,6 @@ years:
     color: '#d4a72c'
     color2: '#a8adb5'
     n: 2
-  - name: 宝可梦 红·绿
-    icon: /assets/img/works/bulba-red-vc-jp-icon.png
-    icon2: /assets/img/works/bulba-green-vc-icon.png
-    color: '#d8262a'
-    color2: '#2f9e44'
-    n: 1
   - name: 宝可梦 蓝
     icon: /assets/img/works/bulba-blue-vc-jp-icon.png
     color: '#1f5fb0'
@@ -417,12 +413,19 @@ years:
     icon: /assets/img/works/bulba-yellow-vc-jp-icon.png
     color: '#f2c94c'
     n: 1
+  - name: 宝可梦 红·绿
+    icon: /assets/img/works/bulba-red-vc-jp-icon.png
+    icon2: /assets/img/works/bulba-green-vc-icon.png
+    color: '#d8262a'
+    color2: '#2f9e44'
+    n: 1
   picks:
   - title: 1997年《宝可梦2》访谈
     kind: interview
     pub: GlitterBerri（英译）（1997-11-27）
     date: '1997-11-27'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-glitterberri-spaceworld-pokemon2-en/
+    series: GlitterBerr
     blurb: 1997年，宫本茂、田尻智与石原恒和谈尚未定名的《宝可梦 金／银》。
     cover: /assets/img/interviews/1997-11-27-interview-glitterberri-spaceworld-pokemon2-en/001.jpg
     cover_size:
@@ -433,6 +436,7 @@ years:
     pub: ''
     date: '1997-10-16'
     url: /interview-gamefreak-official-red-green-staff/
+    series: GAMEFREAK早期
     blurb: 1997年由GAME FREAK官方网站举办的极其珍贵的初代主创开发者全员专访！由初出茅庐的吉祥物‘皮卡丘’担任特派记者，对初代《宝可梦 赤·绿》五大灵魂缔造者进行了地毯式直击…
     cover: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/01_tajiri.jpg
     cover_size:
@@ -443,7 +447,9 @@ years:
     pub: ''
     date: '1997-05-23'
     url: /developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/
+    series: 初代宝可梦黎明期杂志报
     blurb: 从《红／绿》发售前预告到《金·银》上市，1995～2000年杂志报道串起早期宝可梦开发史。
+  pool: []
 - year: 1998
   docs: 0
   stream: 0
@@ -477,6 +483,7 @@ years:
   people: []
   works: []
   picks: []
+  pool: []
 - year: 1999
   docs: 5
   stream: 0
@@ -526,8 +533,8 @@ years:
   - name: 田尻智
     slug: tajiri-satoshi
     n: 1
-  - name: 森本茂树
-    slug: morimoto-shigeki
+  - name: 西野弘二
+    slug: nishino-koji
     n: 1
   works:
   - name: 宝可梦 金·银
@@ -544,7 +551,11 @@ years:
     n: 1
   - name: 旋转方块
     n: 1
-  - name: 铁板阵
+  - name: 宝可梦 红·绿
+    icon: /assets/img/works/bulba-red-vc-jp-icon.png
+    icon2: /assets/img/works/bulba-green-vc-icon.png
+    color: '#d8262a'
+    color2: '#2f9e44'
     n: 1
   picks:
   - title: 究极的 Game Freak
@@ -552,12 +563,14 @@ years:
     pub: 《时代周刊》(TIME Magazine) 1999年11月22日号
     date: '1999-11-22'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-time-satoshi-tajiri-ultimate-game-freak/
+    series: 《时代周刊》(TIME
     blurb: 1999年11月《时代周刊》在东京世田谷区 Game Freak 办公室对田尻智进行的划时代独家专访。彼时田尻智连续三年保持‘睡12小时、工作24小时’的高强度作息，刚完成《金…
   - title: 《宝可梦随乐拍》开发团队
     kind: interview
     pub: ほぼ日刊イトイ新聞「樹の上の秘密基地」第 5 弹（1999 年 5 月 13 日…
     date: '1999-05-13'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-hobonichi-1999-jack-and-beans-snap/
+    series: ほぼ日刊イトイ新聞「樹
     blurb: 岩田聪与宫本茂回顾Jack团队从公开招募到《宝可梦随乐拍》完成的三年半历程。
     cover: /assets/img/interviews/1999-05-13-interview-hobonichi-1999-jack-and-beans-snap/001.jpg
     cover_size:
@@ -568,10 +581,32 @@ years:
     pub: 任天堂公式ガイドブック ポケットモンスター 金・銀
     date: '1999-12-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-developer-interview/
+    series: 任天堂公式ガイドブック
     blurb: Game Freak四人谈《金·银》开发内幕与249种宝可梦之谜
     cover: https://gallery.pokeamice.com/scan-archive/gs-guidebook-1999-developer-interview/pages/p193_interview_koko_ga_shiritai_intro.jpg
     cover_size:
     - 1491
+    - 2048
+  pool:
+  - title: 用声音与皮卡丘对话
+    kind: interview
+    pub: ほぼ日刊イトイ新聞「樹の上の秘密基地」（1999 年 2 月 10 日—3 月…
+    date: '1999-02-10'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-hobonichi-1999-ambrella-ozawa/
+    series: ほぼ日刊イトイ新聞「樹
+    cover: /assets/img/interviews/1999-02-10-interview-hobonichi-1999-ambrella-ozawa/001.jpg
+    cover_size:
+    - 160
+    - 210
+  - title: 金·银开发人员图鉴
+    kind: scan
+    pub: 任天堂公式ガイドブック ポケットモンスター 金・銀
+    date: '1999-12-01'
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-staff-zukan-journal/
+    series: 任天堂公式ガイドブック
+    cover: https://gallery.pokeamice.com/scan-archive/gs-guidebook-1999-staff-zukan-journal/pages/p198_staff_zukan_part1.jpg
+    cover_size:
+    - 1421
     - 2048
 - year: 2000
   docs: 8
@@ -602,14 +637,14 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 4
+  - name: 田尻智
+    slug: tajiri-satoshi
+    n: 3
   - name: 森本茂树
     slug: morimoto-shigeki
     n: 3
   - name: 杉森建
     slug: sugimori-ken
-    n: 3
-  - name: 田尻智
-    slug: tajiri-satoshi
     n: 3
   - name: 太田健程
     slug: ota-takenori
@@ -630,14 +665,14 @@ years:
     color: '#d8262a'
     color2: '#2f9e44'
     n: 3
+  - name: 超梦的逆袭
+    icon: /assets/img/works/bulba-japanese-m01-logo.png
+    color: '#7e57c2'
+    n: 1
   - name: 宝可梦 动画系列
     icon: /assets/img/works/bulba-s01-logo-jp.png
     color: '#ffcc00'
     color2: '#e53935'
-    n: 1
-  - name: 超梦的逆袭
-    icon: /assets/img/works/bulba-japanese-m01-logo.png
-    color: '#7e57c2'
     n: 1
   - name: 宝可梦卡牌
     icon: /assets/img/works/ball-tcg.png
@@ -651,19 +686,73 @@ years:
     pub: ''
     date: '2000-07-01'
     url: /interview-nom-special-dialogue-tajiri-ishihara/
+    series: N.O.M2000年7
     blurb: 宝可梦开发史上最高价值的黄金对话！任天堂官方杂志《N.O.M》2000年7月号特邀‘宝可梦之父’田尻智（Game Freak社长）与‘总掌舵人’石原恒和（Creatures社长…
   - title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
     kind: interview
     pub: ''
     date: '2000-01-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/
+    series: 《游戏会议》Vol.9
     blurb: 1997年《游戏会议》Vol.9 宝可梦特辑：GAME FREAK 座谈会与田尻智访谈的整理纪要
   - title: 宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录
     kind: interview
     pub: ''
     date: '2000-05-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-05-01-kakeru-pokemon-site-dawn/
+    series: 宝可梦互联网络黎明期记
     blurb: 追溯金银发售前互联网宝可梦网站的兴起与早期社区生态。
+  pool:
+  - title: 久保雅一谈宝可梦
+    kind: interview
+    pub: 任天堂官网「N.O.M」2000年6月号（No.23）
+    date: '2000-06-01'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2000-kubo-masakazu-pokemon-hit/
+    series: 任天堂官网「N.O.M
+    cover: /assets/img/interviews/2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit/001.jpg
+    cover_size:
+    - 120
+    - 160
+  - title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
+    kind: interview
+    pub: ''
+    date: '2000-07-01'
+    url: /developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/
+    series: NintendoPow
+    cover: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/134-cover-1.jpg
+    cover_size:
+    - 908
+    - 1197
+  - title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
+    kind: interview
+    pub: ''
+    date: '2000-07-01'
+    url: /interview-nom-genesis-gamefreak/
+    series: 任天堂官方杂志NOM专
+    cover: /assets/img/interviews/2000-07-01-interview-nom-genesis-gamefreak/masuda.jpg
+    cover_size:
+    - 100
+    - 133
+  - title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
+    kind: interview
+    pub: ''
+    date: '2000-07-01'
+    url: /developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/
+    series: 任天堂官方网络杂志NO
+    cover: /assets/img/interviews/2000-07-01-interview-nom-gold-silver-gamefreak/p08.jpg
+    cover_size:
+    - 160
+    - 120
+  - title: 任天堂官方网络杂志 N.O.M：《宝可梦 水晶版》礼物目录（2000年12月号）与编辑长体验记（2001年1月号）
+    kind: interview
+    pub: 任天堂官网「N.O.M」（Nintendo Online Magazine）20…
+    date: '2000-12-14'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-crystal-new-elements-heroine/
+    series: 任天堂官网「N.O.M
+    cover: /assets/img/interviews/2000-12-14-crystal/kris_chara.gif
+    cover_size:
+    - 174
+    - 143
 - year: 2001
   docs: 4
   stream: 0
@@ -693,8 +782,8 @@ years:
   - name: 入江胜义
     slug: ru-jiang-sheng-yi
     n: 1
-  - name: 三浦昌幸
-    slug: miura-masayuki
+  - name: 久須美龍太
+    slug: jiu-xu-mei-long-tai
     n: 1
   works:
   - name: 宝可梦 水晶版
@@ -708,6 +797,7 @@ years:
     color2: '#1e3a8a'
     n: 2
   - name: 宝可梦竞技场 金银
+    icon: /assets/img/works/classic-placeholder.png
     n: 1
   - name: 宝可梦 金·银
     icon: /assets/img/works/bulba-gold-vc-icon.png
@@ -725,17 +815,19 @@ years:
     pub: 任天堂官网「N.O.M」2001年11月号（No.40）
     date: '2001-11-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-pokemon-card-e-creatures/
+    series: 任天堂官网「N.O.M
     blurb: Creatures、任天堂、HAL研究所与奥林巴斯四方合作，把数据埋进卡牌。
     cover: /assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-card-e-creatures/001.jpg
     cover_size:
     - 120
     - 120
+  pool:
   - title: 宝可梦迷你开发访谈
     kind: interview
     pub: 任天堂官网「N.O.M」2001年11月号（No.40）
     date: '2001-11-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-pokemon-mini-developers/
-    blurb: 宝可梦迷你开发者谈可换卡带、震动传感器与随身游玩的开发思路。
+    series: 任天堂官网「N.O.M
     cover: /assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-mini-developers/001.jpg
     cover_size:
     - 120
@@ -745,11 +837,21 @@ years:
     pub: 任天堂官网「N.O.M」2001年11月号（No.40）
     date: '2001-11-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-ishihara-tsunekazu-pokemon-world/
-    blurb: 株式会社宝可梦社长石原恒和谈宝可梦迷你与宝可梦卡牌e的构想。
+    series: 任天堂官网「N.O.M
     cover: /assets/img/interviews/2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world/001.jpg
     cover_size:
     - 120
     - 120
+  - title: 任天堂官方网络杂志 N.O.M 特辑：移动系统GB——是什么、能怎么玩、怎么买适配器、怎么连接和申请
+    kind: interview
+    pub: 任天堂官网「N.O.M」（Nintendo Online Magazine）20…
+    date: '2001-01-27'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-mobile-system-gb-revolution/
+    series: 任天堂官网「N.O.M
+    cover: /assets/img/interviews/2001-01-27-mobile/pdc.gif
+    cover_size:
+    - 96
+    - 170
 - year: 2002
   docs: 3
   stream: 0
@@ -787,9 +889,10 @@ years:
     color: '#c9302c'
     color2: '#2b6cb0'
     n: 2
-  - name: 皮卡皮卡星空露营
-    n: 1
   - name: 水之都的护神 拉帝亚斯与拉帝欧斯
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+    n: 1
+  - name: 皮卡皮卡星空露营
     n: 1
   picks:
   - title: 宝可梦 红宝石·蓝宝石 发售纪念
@@ -797,17 +900,19 @@ years:
     pub: 任天堂官网「N.O.M」2002年11月号（No.52）
     date: '2002-11-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2002-ruby-sapphire-staff-messages/
+    series: 任天堂官网「N.O.M
     blurb: 增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》的开发与设计。
     cover: /assets/img/interviews/nom-0211-rs-2002/b_masu.jpg
     cover_size:
     - 174
     - 135
+  pool:
   - title: 任天堂官方网络杂志 N.O.M：2002年剧场版《水之都的护神 拉帝亚斯与拉帝欧斯》情报
     kind: interview
     pub: 任天堂官网「N.O.M」（Nintendo Online Magazine）20…
     date: '2002-05-01'
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-movie-latios-latias-water-capital/
-    blurb: N.O.M 2002年5月号的剧场版情报页：介绍7月13日东宝系上映的《水之都的护神 拉帝亚斯与拉帝欧斯》（以威尼斯为原型的水之都奥多马雷，兄妹宝可梦与怪盗姐妹争夺心之水滴）…
+    series: 任天堂官网「N.O.M
     cover: /assets/img/interviews/2002-05-01-mizunomiyako/poster.jpg
     cover_size:
     - 160
@@ -817,7 +922,7 @@ years:
     pub: 任天堂官网「N.O.M」2002年11月号（No.52）
     date: '2002-11-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report/
-    blurb: 借《红宝石·蓝宝石》发售之机，探访宝可梦公司，体验对战与秘密基地。
+    series: 任天堂官网「N.O.M
     cover: /assets/img/interviews/nom-0211-rs-2002-report/taisen.jpg
     cover_size:
     - 414
@@ -859,14 +964,14 @@ years:
   - name: 森本茂树
     slug: morimoto-shigeki
     n: 1
-  - name: 小澤宗明
-    slug: ozawa-muneaki
+  - name: 松村憲男
+    slug: matsumura-norio
     n: 1
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 1
-  - name: 松村憲男
-    slug: matsumura-norio
+  - name: 小澤宗明
+    slug: ozawa-muneaki
     n: 1
   works:
   - name: 宝可梦 红宝石·蓝宝石
@@ -889,19 +994,29 @@ years:
     pub: Nintendo DREAM
     date: '2003-02-21'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-084-ruby-sapphire-interview/
+    series: NintendoDRE
     blurb: GAME FREAK的增田顺一与杉森建回顾《宝可梦 红宝石·蓝宝石》的开发，谈新宝可梦、丰缘地区与游戏平衡。
   - title: Game Freak 谈宝可梦创作
     kind: interview
     pub: CVG（2003-05-30）
     date: '2003-05-30'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto/
+    series: CVG（2003-05
     blurb: Game Freak 三位核心成员在电话会议中谈宝可梦的设计灵感、画面取舍、平衡与交流理念。
   - title: 和皮卡丘一起看电视
     kind: interview
     pub: 任天堂官网「N.O.M」2003年8月号（No.61）
     date: '2003-08-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2003-pokemon-channel-staff/
+    series: 任天堂官网「N.O.M
     blurb: 《宝可梦频道》开发团队谈在GameCube上做一款与皮卡丘交流的新形态游戏。
+  pool:
+  - title: 宝可梦圆形竞技场的开发
+    kind: interview
+    pub: 任天堂官网「N.O.M」2003年11月号（No.64）
+    date: '2003-11-01'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2003-pokemon-colosseum-staff/
+    series: 任天堂官网「N.O.M
 - year: 2004
   docs: 3
   stream: 29
@@ -936,11 +1051,11 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 2
-  - name: 渡边哲也
-    slug: watanabe-tetsuya
-    n: 1
   - name: 西野弘二
     slug: nishino-koji
+    n: 1
+  - name: 渡边哲也
+    slug: watanabe-tetsuya
     n: 1
   - name: 石原恒和
     slug: ishihara-tsunekazu
@@ -952,21 +1067,18 @@ years:
     color: '#e6522c'
     color2: '#5fa14a'
     n: 3
-  - name: 宝可梦 绿宝石
-    icon: /assets/img/works/ball-emerald.png
-    color: '#2e9e6b'
-    n: 1
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
     color: '#d8262a'
     color2: '#2f9e44'
     n: 1
-  - name: 宝可梦 红宝石·蓝宝石
-    icon: /assets/img/works/ball-ruby-sapphire.png
-    icon2: /assets/img/works/ball-ruby-sapphire-2.png
-    color: '#c9302c'
-    color2: '#2b6cb0'
+  - name: 裂空的访问者 代欧奇希斯
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+    n: 1
+  - name: 宝可梦 绿宝石
+    icon: /assets/img/works/ball-emerald.png
+    color: '#2e9e6b'
     n: 1
   - name: 宝可梦圆形竞技场
     icon: /assets/img/works/ball-colosseum.png
@@ -978,23 +1090,27 @@ years:
     pub: Nintendo DREAM
     date: '2004-03-21'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-108-frlg-developer-interview/
+    series: NintendoDRE
     blurb: GAME FREAK 团队讲述《宝可梦 火红·叶绿》的开发秘闻，以及以「60岁也能游玩」为目标的制作理念。
   - title: E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战
     kind: interview
     pub: ''
     date: '2004-05-13'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2004-05-13-ign-e3-2004-pokemon-creators/
+    series: '[访谈翻译]E3200'
     blurb: 增田顺一与石原恒和谈《火红／叶绿》的无线对战与系列未来。
   - title: N.O.M 2004年9月号宝可梦总力特集
     kind: interview
     pub: 任天堂官网「N.O.M」（Nintendo Online Magazine）20…
     date: '2004-09-01'
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-emerald-battle-frontier-evolution/
+    series: 任天堂官网「N.O.M
     blurb: 任天堂官方网络杂志 N.O.M 2004年9月号（No.74）的宝可梦总力特集，由编辑长与“宝可梦研讨会”顾问近藤共同呈现。第1部分“游戏的历程”回顾1996年《红·绿》以来各…
     cover: /assets/img/interviews/2004-09-01-emerald/nom_0409_main.jpg
     cover_size:
     - 425
     - 96
+  pool: []
 - year: 2005
   docs: 4
   stream: 26
@@ -1031,14 +1147,14 @@ years:
   - name: 吉田宏信
     slug: yoshida-hironobu
     n: 1
-  - name: 海野隆雄
-    slug: unno-takao
+  - name: 田尻智
+    slug: tajiri-satoshi
     n: 1
   - name: 江尾可奈子
     slug: eo-kanako
     n: 1
-  - name: 田尻智
-    slug: tajiri-satoshi
+  - name: 海野隆雄
+    slug: unno-takao
     n: 1
   works:
   - name: 宝可梦 钻石·珍珠
@@ -1047,11 +1163,12 @@ years:
     color: '#4f7fc9'
     color2: '#c98ab6'
     n: 1
-  - name: 宝可梦XD 暗之旋风 黑暗洛奇亚
-    n: 1
   - name: 宝可梦圆形竞技场
     icon: /assets/img/works/ball-colosseum.png
     color: '#5c6bc0'
+    n: 1
+  - name: 宝可梦XD 暗之旋风 黑暗洛奇亚
+    icon: /assets/img/works/classic-placeholder.png
     n: 1
   - name: 宝可梦 绿宝石
     icon: /assets/img/works/ball-emerald.png
@@ -1065,12 +1182,14 @@ years:
     pub: コロコロコミック
     date: '2005-07-15'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-corocoro-200508-diamond-pearl-scoop/
+    series: コロコロコミック
     blurb: 杉森建、增田顺一、石原恒和三人受访，披露新作对应DS、可与GBA联动等情报。
   - title: 宝可梦XD 暗之旋风：游玩报告与 Pokemon Festa 2005
     kind: interview
     pub: 任天堂官网「N.O.M」（Nintendo Online Magazine）20…
     date: '2005-08-01'
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-xd-gale-of-darkness-pokemon-festa/
+    series: 任天堂官网「N.O.M
     blurb: N.O.M 2005年8月号：《宝可梦XD》游玩报告、新井贤一寄语与东京大会代表决定战
     cover: /assets/img/interviews/2005-08-01-xd/package.jpg
     cover_size:
@@ -1081,10 +1200,22 @@ years:
     pub: CONTINUE
     date: '2005-08-18'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-drill-dozer/
+    series: CONTINUE
     blurb: GAME FREAK久违原创2D动作游戏，杉森建与吉田宏信谈开发经纬。
     cover: https://gallery.pokeamice.com/scan-archive/continue-vol23-drill-dozer/pages/page008.jpg
     cover_size:
     - 1503
+    - 2048
+  pool:
+  - title: GAME FREAK 玩《DOTZ》
+    kind: scan
+    pub: CONTINUE
+    date: '2005-08-18'
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-continue-vol23-gamefreak-special/
+    series: CONTINUE
+    cover: https://gallery.pokeamice.com/scan-archive/continue-vol23-gamefreak-special/pages/page000.jpg
+    cover_size:
+    - 1566
     - 2048
 - year: 2006
   docs: 5
@@ -1143,19 +1274,43 @@ years:
     pub: Gpara.com（2006-04-24）
     date: '2006-04-24'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gpara-2006-yoshida/
+    series: Gpara.com（2
     blurb: Game Freak角色设计师吉田宏信回顾入行经历与《宝可梦》设计工作。
   - title: 宝可梦 钻石·珍珠开发谈
     kind: interview
     pub: 任天堂官网「N.O.M」2006年10月号（No.99）
     date: '2006-10-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/
+    series: 任天堂官网「N.O.M
     blurb: 杉森建、增田顺一、石原恒和谈《宝可梦 钻石·珍珠》的设计、对战与通信。
   - title: 苍井优 × 皮卡丘
     kind: scan
     pub: CONTINUE
     date: '2006-11-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/continue-vol31-aoi-yu-pikachu/
+    series: CONTINUE
     blurb: 苍井优谈到童年时哥哥唱的宝可梦歌曲、自己的游戏习惯，以及在《Dr.科托诊疗所》外景期间学做饭的经历。
+  pool:
+  - title: 任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神…
+    kind: interview
+    pub: ''
+    date: '2006-10-01'
+    url: /interview-nom-dp-ishihara-masuda-sugimori/
+    series: 任天堂官方杂志NOM专
+    cover: /assets/img/interviews/2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/ph_73.jpg
+    cover_size:
+    - 304
+    - 154
+  - title: 钻石·珍珠游玩报告：N.O.M 2006年10月号
+    kind: interview
+    pub: 任天堂官网「N.O.M」（Nintendo Online Magazine）20…
+    date: '2006-10-01'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nom-dp-underground-fossil-battle-report/
+    series: 任天堂官网「N.O.M
+    cover: /assets/img/interviews/2006-10-01-dp/info.jpg
+    cover_size:
+    - 612
+    - 200
 - year: 2007
   docs: 1
   stream: 80
@@ -1174,11 +1329,11 @@ years:
     icon: /assets/img/works/bulba-pmd-time-icon.png
     icon2: /assets/img/works/bulba-pmd-darkness-icon.png
   people:
-  - name: 中川翔子
-    slug: nakagawa-shoko
-    n: 1
   - name: 田尻智
     slug: tajiri-satoshi
+    n: 1
+  - name: 中川翔子
+    slug: nakagawa-shoko
     n: 1
   works:
   - name: 宝可梦 红·绿
@@ -1199,11 +1354,13 @@ years:
     pub: CONTINUE
     date: '2007-02-24'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/continue-vol32-scan-archive/
+    series: CONTINUE
     blurb: 田尻智与中川翔子谈《宝可梦》11周年与创作幕后
     cover: https://gallery.pokeamice.com/scan-archive/continue-vol32-tajiri-shokotan/pages/p016_cover.jpg
     cover_size:
     - 1620
     - 2048
+  pool: []
 - year: 2008
   docs: 35
   stream: 69
@@ -1276,23 +1433,74 @@ years:
     pub: WEBアニメスタイル「シナリオえーだば創作術」
     date: '2008-02-27'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
+    series: WEBアニメスタイル「
     blurb: 宝可梦动画初代总编剧（系列构成）首藤刚志晚年亲笔连载手记第138回：揭秘《宝可梦》动画企划的最初源起。1996年秋天，处于闲散失业状态的首藤突然接到老搭档、《魔法公主明琪桃子》…
   - title: GAME FREAK谈宝可梦白金
     kind: scan
     pub: Nintendo DREAM
     date: '2008-10-21'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/
+    series: NintendoDRE
     blurb: 采访增田顺一与川内丸武史等GAME FREAK成员，谈《宝可梦 白金》的对战、世界设定与秘话。
     cover: https://gallery.pokeamice.com/scan-archive/ndream-2008-12-game-freak-interview/pages/p076_gf_interview_p1.jpg
     cover_size:
     - 1448
     - 2048
+  pool:
   - title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
     kind: interview
     pub: WEBアニメスタイル「シナリオえーだば創作術」
     date: '2008-03-05'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
-    blurb: 宝可梦动画初代总编剧首藤刚志亲笔连载手记第139回：深度剖析电子游戏改编为影视动画的本质哲学困境。在接到《宝可梦》系列构成委托至出席首次企划会之间的短短数日内，首藤先生结合自身…
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-03-12'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-03-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-03-26'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-04-09'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-04-16'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-04-23'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch145/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-04-30'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch146/
+    series: WEBアニメスタイル「
+  - title: 首藤刚志动画创作手记 第147回：“无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2008-05-07'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch147/
+    series: WEBアニメスタイル「
 - year: 2009
   docs: 52
   stream: 77
@@ -1380,6 +1588,7 @@ years:
     pub: GamePro（2009-03-23）
     date: '2009-03-23'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gamepro-platinum-masuda-kawachimaru/
+    series: GamePro（200
     blurb: GamePro 在任天堂湾区总部采访《宝可梦 白金》制作人增田顺一与总监河内丸武史，谈命名、剧情与Wi-Fi对战。
     cover: /assets/img/interviews/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru/001.jpg
     cover_size:
@@ -1390,17 +1599,90 @@ years:
     pub: Nintendo Acción No.199
     date: '2009-05-15'
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendoaccion-199-masuda-kawachimaru-platinum/
+    series: NintendoAcc
     blurb: “没有二流的宝可梦。每一只都品质很高、设计出色。”——增田顺一
   - title: 心金·魂银开发访谈
     kind: scan
     pub: Nintendo DREAM
     date: '2009-09-21'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/
+    series: NintendoDRE
     blurb: 《心金·魂银》发售之际，GAME FREAK 开发人员回顾《金·银》岁月，讲述重制背后的考量。
     cover: https://gallery.pokeamice.com/scan-archive/ndream-2009-11-hgss-developer-interview/pages/p001_cover.jpg
     cover_size:
     - 1448
     - 2048
+  pool:
+  - title: 增田顺一谈宝可梦白金
+    kind: interview
+    pub: G4tv.com（2009-05-17）
+    date: '2009-05-17'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/
+    series: G4tv.com（20
+  - title: 宝可梦为何仍被玩家喜爱
+    kind: interview
+    pub: 1UP.com（2009-03-24）
+    date: '2009-03-24'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-1up-why-gamers-still-play-pokemon-masuda/
+    series: 1UP.com（200
+  - title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
+    kind: interview
+    pub: ''
+    date: '2009-03-24'
+    url: /interview-g4tv-platinum-masuda-kawachimaru/
+    series: G4TV专访增田顺一与
+    cover: /assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg
+    cover_size:
+    - 570
+    - 319
+  - title: 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世…
+    kind: interview
+    pub: ''
+    date: '2009-04-01'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/
+    series: '[访谈翻译]《任天堂力'
+    cover: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/001.jpg
+    cover_size:
+    - 843
+    - 1126
+  - title: 致应聘者的寄语
+    kind: interview
+    pub: Game Freak 採用情報
+    date: '2009-09-14'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-career-message-masuda/
+    series: GameFreak採用
+  - title: 首藤刚志动画创作手记 第171回：《宝可梦》超梦能否通行于全世界？（存在主义叩问、替身战胜本体与哥斯拉的跨国隐喻）
+    kind: interview
+    pub: WEBアニメスタイル「シナリオえーだば創作術」
+    date: '2009-01-14'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch171/
+    series: WEBアニメスタイル「
+  - title: 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相
+    kind: interview
+    pub: 任天堂官网「社長が訊く」
+    date: '2009-09-04'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/
+    series: 任天堂官网「社長が訊く
+    cover: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew/001.jpg
+    cover_size:
+    - 322
+    - 223
+  - title: 电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛
+    kind: interview
+    pub: 電撃オンライン
+    date: '2009-09-18'
+    url: /developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/
+    series: 電撃オンライン
+    cover: /assets/img/interviews/2009-09-18-interview-dengeki-hgss-shigeki-morimoto/hgss_pack_silver.jpg
+    cover_size:
+    - 143
+    - 130
+  - title: 致应聘者的话
+    kind: interview
+    pub: Game Freak 採用情報
+    date: '2009-09-14'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-career-message-watanabe/
+    series: GameFreak採用
 - year: 2010
   docs: 50
   stream: 78
@@ -1470,6 +1752,7 @@ years:
     pub: Game Informer
     date: '2010-03-19'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-morimoto-hgss/
+    series: GameInforme
     blurb: 2010 年 3 月《宝可梦 心金·魂银》欧美发售之际，Game Informer 独家专访了 Game Freak 核心开发团队：总监森本茂树、制作人增田顺一、艺术总监海野隆…
     cover: /assets/img/interviews/2010-03-19-interview-gameinformer-masuda-morimoto-hgss/001.jpg
     cover_size:
@@ -1480,6 +1763,7 @@ years:
     pub: Pokemon Peer (ポケモン ピア) / Pokebeach
     date: '2010-09-10'
     url: /developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/
+    series: PokemonPeer
     blurb: 2010 年 9 月宝可梦官方特刊《Pokemon Peer》深度专访 Game Freak 设计核心团队：艺术总监杉森建、角色与御三家设计师大村祐介、比克提尼设计师井部真那…
     cover: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/victini.png
     cover_size:
@@ -1490,11 +1774,84 @@ years:
     pub: 電撃GAMES
     date: '2010-10-15'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-dengeki-games-vol14-bw-gamefreak-interview/
+    series: 電撃GAMES
     blurb: GAME FREAK 谈《宝可梦 黑·白》改变与不变之处
     cover: https://gallery.pokeamice.com/scan-archive/dengeki-games-vol14-bw-gamefreak-interview/pages/p001_cover.jpg
     cover_size:
     - 1637
     - 2048
+  pool:
+  - title: 周刊 ASCII 专访增田顺一：杂志未及详叙的《宝可梦 黑·白》开发秘话
+    kind: interview
+    pub: 週刊アスキー (Weekly ASCII)
+    date: '2010-09-13'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-weekly-ascii-masuda-bw/
+    series: 週刊アスキー(Week
+    cover: /assets/img/interviews/2010-09-13-interview-weekly-ascii-masuda-bw/masuda_portrait_2010.jpg
+    cover_size:
+    - 400
+    - 600
+  - title: 增田顺一、景山将太等详谈合众动态音效与世界音乐构建
+    kind: interview
+    pub: 《宝可梦 黑／白 超级音乐集》CD 内页
+    date: '2010-10-20'
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
+    series: 《宝可梦黑／白超级音乐
+  - title: 剧本负责人松宫稔展专访
+    kind: interview
+    pub: 週刊Fami通 No.1146
+    date: '2010-12-02'
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1146-matsumiya-bw-scenario/
+    series: 週刊Fami通No.1
+  - title: 女子大学生询问宝可梦 黑·白
+    kind: interview
+    pub: 任天堂官网「女子大生が訊く」（2010-12-24）
+    date: '2010-12-24'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nintendo-joshidaisei-masuda-sugimori-bw/
+    series: 任天堂官网「女子大生が
+    cover: /assets/img/interviews/2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw/001.jpg
+  - title: WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路
+    kind: interview
+    pub: WEDGE（2010-05-12）
+    date: '2010-05-12'
+    url: /developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/
+    series: WEDGE（2010-
+    cover: /assets/img/interviews/2010-05-12-interview-wedge-ishihara-pokemon-disney/001.jpg
+    cover_size:
+    - 250
+    - 312
+  - title: 宝可梦与勇者斗恶龙的制作之道
+    kind: interview
+    pub: 4Gamer.net（2010-09-03）
+    date: '2010-09-03'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-cedec-2010-ishihara-ichimura/
+    series: 4Gamer.net（
+    cover: /assets/img/interviews/2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura/010.jpg
+    cover_size:
+    - 504
+    - 262
+  - title: 增田顺一谈宝可梦 黑·白
+    kind: interview
+    pub: 週刊アスキー（ASCII）（2010-09-13）
+    date: '2010-09-13'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-weekly-ascii-masuda-bw-secrets/
+    series: 週刊アスキー（ASCI
+    cover: /assets/img/interviews/2010-09-13-interview-weekly-ascii-masuda-bw-secrets/001.jpg
+    cover_size:
+    - 400
+    - 600
+  - title: 宝可梦迈向新生
+    kind: scan
+    pub: 週刊ファミ通
+    date: '2010-09-16'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1137-bw-launch-interview/
+    series: 週刊ファミ通
+  - title: 杉森建谈《宝可梦 黑／白》角色设计
+    kind: interview
+    pub: ニンテンドードリーム（wiki 记作 2010年1月号，与内容年代不符）
+    date: '2010-11-20'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
+    series: ニンテンドードリーム（
 - year: 2011
   docs: 28
   stream: 59
@@ -1575,19 +1932,105 @@ years:
     pub: 週刊ファミ通 No.1153「通信開発のウラ側を公開！！」
     date: '2011-01-06'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-famitsu-1153-ota-ohmori-c-gear/
+    series: 週刊ファミ通No.11
     blurb: 太田哲司与大森滋谈通信功能门槛的降低与擦肩通信的反响。
   - title: 开发团队讲述对战的秘密
     kind: interview
     pub: 週刊Fami通 No.1155
     date: '2011-01-20'
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1155-morimoto-taya-iwao-battle-secrets/
+    series: 週刊Fami通No.1
     blurb: 森本茂树、田谷正夫、岩尾和昌回答《Fami通》：为什么加入三打和轮转对战，梦特性是怎么来的。
   - title: 最初三只的诞生
     kind: scan
     pub: オトナファミ
     date: '2011-01-20'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-otonafamily-201103-masuda-bw-adults/
+    series: オトナファミ
     blurb: 《宝可梦 黑·白》美术总监杉森建讲述全面替换宝可梦与最初三只的设计经过。
+  pool:
+  - title: Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦
+    kind: interview
+    pub: Nintendo Power 杂志第 265 期
+    date: '2011-03-01'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-bw-masuda-sugimori/
+    series: NintendoPow
+    cover: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/001.jpg
+    cover_size:
+    - 597
+    - 785
+  - title: 宝可梦如何诞生
+    kind: interview
+    pub: 1UP.com（2011-03-05）
+    date: '2011-03-05'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-1up-black-white-how-pokemon-get-made/
+    series: 1UP.com（201
+    cover: /assets/img/interviews/2011-03-05-interview-1up-black-white-how-pokemon-get-made/reshiram_zekrom.jpg
+    cover_size:
+    - 624
+    - 324
+  - title: Game Informer 专访增田顺一与井部真那：宝可梦 15 年的过去、现在与未来
+    kind: interview
+    pub: Game Informer
+    date: '2011-03-07'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-past-present-future/
+    series: GameInforme
+    cover: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/001.jpg
+    cover_size:
+    - 610
+    - 293
+  - title: 大人也着迷的《宝可梦》
+    kind: scan
+    pub: ダ・ヴィンチ
+    date: '2011-01-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-davinci-201102-masuda-comment/
+    series: ダ・ヴィンチ
+  - title: Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决…
+    kind: interview
+    pub: Eurogamer（2011-03-01）
+    date: '2011-03-01'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/
+    series: Eurogamer（2
+  - title: SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱
+    kind: interview
+    pub: SPOnG（2011-03-04）
+    date: '2011-03-04'
+    url: /developer-interviews/official-archives/interview-spong-bw-launch-masuda-sugimori/
+    series: SPOnG（2011-
+    cover: /assets/img/interviews/2011-03-04-interview-spong-bw-launch-masuda-sugimori/001.jpg
+    cover_size:
+    - 320
+    - 240
+  - title: 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制…
+    kind: interview
+    pub: 任天堂官网「社長が訊く」
+    date: '2011-06-16'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/
+    series: 任天堂官网「社長が訊く
+    cover: /assets/img/interviews/2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/mainvisual1.jpg
+    cover_size:
+    - 740
+    - 227
+  - title: 宝可梦黑·白诞生秘话
+    kind: scan
+    pub: Nintendo DREAM
+    date: '2011-02-21'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
+    series: NintendoDRE
+    cover: https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p001_cover.jpg
+    cover_size:
+    - 1630
+    - 2048
+  - title: Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻
+    kind: interview
+    pub: ''
+    date: '2011-02-21'
+    url: /developer-interviews/official-archives/interview-nintendodream-bw-bridges-masuda/
+    series: NintendoDre
+    cover: /assets/img/interviews/2011-02-21-pokemon-memo-bw-bridge-interview/black-white-bridge.gif
+    cover_size:
+    - 376
+    - 240
 - year: 2012
   docs: 23
   stream: 18
@@ -1624,11 +2067,11 @@ years:
     core: false
     icon: /assets/img/works/menu-pkmn-3d-p-menu-icon.png
   people:
-  - name: 海野隆雄
-    slug: unno-takao
-    n: 13
   - name: 增田顺一
     slug: masuda-junichi
+    n: 13
+  - name: 海野隆雄
+    slug: unno-takao
     n: 13
   - name: 石原恒和
     slug: ishihara-tsunekazu
@@ -1655,13 +2098,14 @@ years:
     color: '#222222'
     color2: '#e6e6e6'
     n: 5
+  - name: 风来的西林
+    n: 4
   - name: 宝可梦不可思议迷宫
     icon: /assets/img/works/bulba-pmd-time-icon.png
     color: '#6d4c41'
     n: 4
-  - name: 风来的西林
-    n: 4
-  - name: 宝可梦不可思议迷宫 极大之门与∞迷宫
+  - name: 宝可梦不可思议迷宫 极大之门与无限迷宫
+    icon: /assets/img/works/bulba-gates-to-infinity-icon.png
     n: 3
   picks:
   - title: 黑2·白2开发访谈：策划篇
@@ -1669,23 +2113,109 @@ years:
     pub: 週刊ファミ通
     date: '2012-07-19'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1233-b2w2-interview/
+    series: 週刊ファミ通
     blurb: 《宝可梦 黑2·白2》企划总监齐藤优史讲述汇合任务、汇合大道、钥匙系统与回忆连接等新要素的开发经过。
   - title: 周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）
     kind: interview
     pub: 週刊ファミ通 (Famitsu.com)
     date: '2012-08-05'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-b2w2-fanmeeting-masuda-unno/
+    series: 週刊ファミ通(Fami
     blurb: 2012 年 8 月 5 日，在横滨地标大厦举行的《宝可梦 黑2·白2》发售纪念粉丝见面会上，Game Freak 制作人增田顺一与总监海野隆雄亲临现场展开深度对谈。活动首次向…
   - title: 宝可梦与信长之野望完成披露会
     kind: interview
     pub: GAME Watch（2012-01-19）
     date: '2012-01-19'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gamewatch-2012-pokemon-nobunaga-presentation/
+    series: GAMEWatch（2
     blurb: 宝可梦与光荣特库摩合作开发的DS游戏《宝可梦＋信长之野望》完成披露会报道。
     cover: /assets/img/interviews/2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation/001.gif
     cover_size:
     - 160
     - 160
+  pool:
+  - title: 宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的…
+    kind: interview
+    pub: 株式会社ポケモン 企業情報・採用サイト
+    date: '2012-05-01'
+    url: /developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/
+    series: 株式会社ポケモン企業情
+    cover: /assets/img/interviews/2012-05-01-ishihara-corporate/ttl_interview.jpg
+    cover_size:
+    - 862
+    - 210
+  - title: 电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典…
+    kind: interview
+    pub: 电击Online（2012-08-05）
+    date: '2012-08-05'
+    url: /%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E9%BB%91%E7%99%BD2/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/
+    series: 电击Online（20
+    cover: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/001.jpg
+    cover_size:
+    - 298
+    - 223
+  - title: Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁
+    kind: interview
+    pub: Pokémon.com（2012-10-01）
+    date: '2012-10-01'
+    url: /developer-interviews/official-archives/interview-pokemon-com-b2w2-masuda-unno/
+    series: Pokémon.com
+  - title: 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第1章：不可思议的组合（石原恒和千次游玩之缘与醒来变成宝可梦的原点）
+    kind: interview
+    pub: 任天堂官网「社長が訊く」
+    date: '2012-11-22'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination/
+    series: 任天堂官网「社長が訊く
+    cover: /assets/img/interviews/2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/mainvisual1.jpg
+    cover_size:
+    - 740
+    - 227
+  - title: 宝可梦世界的未解之谜
+    kind: interview
+    pub: Game Informer（2012-11-23）
+    date: '2012-11-23'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2012-burning-questions/
+    series: GameInforme
+    cover: /assets/img/interviews/2012-11-23-interview-gi-2012-burning-questions/001.jpg
+    cover_size:
+    - 610
+    - 309
+  - title: 只有《2》才能做到的冒险
+    kind: scan
+    pub: Nintendo DREAM
+    date: '2012-07-21'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/
+    series: NintendoDRE
+    cover: https://gallery.pokeamice.com/scan-archive/ndream-2012-09-b2w2-developer-interview/pages/p001_cover.jpg
+    cover_size:
+    - 1631
+    - 2048
+  - title: 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、AR圆环与现实连…
+    kind: interview
+    pub: 社长问（2012-11-22）
+    date: '2012-11-22'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/
+    series: 社长问（2012-11
+    cover: /assets/img/interviews/2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/001.jpg
+    cover_size:
+    - 250
+    - 150
+  - title: 宝可梦公司官方员工特写 诸月纱保子：授权企划部——小学生眼中的宝可梦工作与跨界无尽可能
+    kind: interview
+    pub: ''
+    date: '2012-05-01'
+    url: /developer-interviews/pokemon-recruit/interview-tpc-employee-morotsuki/
+    series: 宝可梦公司官方员工特写
+  - title: 增田顺一谈首款编号续作
+    kind: interview
+    pub: Game Informer（2012-09-17）
+    date: '2012-09-17'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2012-b2w2-sequel/
+    series: GameInforme
+    cover: /assets/img/interviews/2012-09-17-interview-gi-2012-b2w2-sequel/001.jpg
+    cover_size:
+    - 610
+    - 574
 - year: 2013
   docs: 28
   stream: 10
@@ -1756,6 +2286,7 @@ years:
     pub: GlitterBerri（2013-05-29）
     date: '2013-05-29'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-glitterberri-early-concept-art/
+    series: GlitterBerr
     blurb: 从《胶囊怪兽》企划书到初代《红·绿》，早期概念图揭示了宝可梦的原始构想。
     cover: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/001.jpg
     cover_size:
@@ -1766,6 +2297,7 @@ years:
     pub: 法国 jeuxvideo.com（2013-09-19）
     date: '2013-09-19'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jv-2013-xy/
+    series: 法国jeuxvideo
     blurb: Game Freak 的增田顺一与吉田宏信谈《宝可梦 X·Y》的命名、3D 化、超级进化与虚拟银行。
     cover: /assets/img/interviews/2013-09-19-interview-jv-2013-xy/001.jpg
     cover_size:
@@ -1776,7 +2308,95 @@ years:
     pub: Nintendo DREAM
     date: '2013-09-21'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-235-xy-developer-interview/
+    series: NintendoDRE
     blurb: 《宝可梦 X・Y》发售前夕，GAME FREAK的增田顺一与森本茂树围绕超级进化、妖精属性等对战新要素接受专访。
+  pool:
+  - title: 增田顺一与吉田宏信谈《宝可梦 X·Y》
+    kind: interview
+    pub: Nintendo Life（2013-09-21）
+    date: '2013-09-21'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/
+    series: NintendoLif
+    cover: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/001.jpg
+    cover_size:
+    - 300
+    - 450
+  - title: Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学
+    kind: interview
+    pub: Gamasutra / Game Developer
+    date: '2013-10-10'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gamasutra-xy-monster-design/
+    series: Gamasutra/G
+  - title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
+    kind: interview
+    pub: Game Freak 採用情報 (Wayback 历史存档)
+    date: '2013-10-20'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2013-gamefreak-recruit-3d-graphics/top_image.png
+    cover_size:
+    - 732
+    - 269
+  - title: 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学
+    kind: interview
+    pub: 週刊ファミ通 (Famitsu.com)
+    date: '2013-11-16'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/
+    series: 週刊ファミ通(Fami
+    cover: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/fami_xy_01.jpg
+    cover_size:
+    - 640
+    - 424
+  - title: 增田顺一谈宝可梦 X·Y
+    kind: interview
+    pub: 意大利 Multiplayer.it（2013-09-20）
+    date: '2013-09-20'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-multiplayer-2013-xy/
+    series: 意大利Multipla
+    cover: /assets/img/interviews/2013-09-20-interview-multiplayer-2013-xy/001.jpg
+    cover_size:
+    - 800
+    - 450
+  - title: Game Freak的原点回归
+    kind: interview
+    pub: 4Gamer.net（2013-10-08）
+    date: '2013-10-08'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2013-solitiba/
+    series: 4Gamer.net（
+    cover: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/001.jpg
+    cover_size:
+    - 240
+    - 228
+  - title: 增田顺一谈《宝可梦 X/Y》
+    kind: interview
+    pub: Pokémaster（西班牙）（2013-11-06）
+    date: '2013-11-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-pokemaster-xy-masuda-barcelona/
+    series: Pokémaster（
+    cover: /assets/img/interviews/2013-11-06-interview-pokemaster-xy-masuda-barcelona/001.jpg
+    cover_size:
+    - 1000
+    - 536
+  - title: 电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典
+    kind: interview
+    pub: 电击Online（2013-11-16）
+    date: '2013-11-16'
+    url: /%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-xy-masuda-kageyama-setting-art/
+    series: 电击Online（20
+    cover: /assets/img/interviews/2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art/001.jpg
+    cover_size:
+    - 298
+    - 223
+  - title: 任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛
+    kind: interview
+    pub: ''
+    date: '2013-10-24'
+    url: /interview-onm-xy-sugimori/
+    series: 任天堂官方杂志ONM专
+    cover: /assets/img/interviews/2013-10-30-ken-sugimori-got-artists-block-duri/01_sugimori_xy.jpg
+    cover_size:
+    - 610
+    - 343
 - year: 2014
   docs: 11
   stream: 2
@@ -1820,6 +2440,9 @@ years:
     color: '#d8262a'
     color2: '#2f9e44'
     n: 2
+  - name: Pokémon Bank
+    icon: /assets/img/works/classic-placeholder.png
+    n: 1
   - name: Pokémon HOME
     icon: /assets/img/works/home-home.png
     n: 1
@@ -1829,14 +2452,13 @@ years:
     color: '#222222'
     color2: '#e6e6e6'
     n: 1
-  - name: Pokémon Bank
-    n: 1
   picks:
   - title: Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生
     kind: interview
     pub: Game Informer
     date: '2014-02-14'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-afterwords-xy/
+    series: GameInforme
     blurb: 2014 年 2 月，Game Informer 刊发第 250 期《宝可梦 X·Y》全景事后专访未删节完整版（Unabridged）。总监增田顺一深度解密了卡洛斯地区的诸多剧…
     cover: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/001.jpg
     cover_size:
@@ -1847,6 +2469,7 @@ years:
     pub: 宝可梦公司 招聘信息（2014-05-01）
     date: '2014-05-01'
     url: /developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/
+    series: 宝可梦公司招聘信息（2
     blurb: 宝可梦公司社长室广部圭太讲述《宝可梦 X·Y》首次全球同步发售的项目管理。
     cover: /assets/img/interviews/2014-05-01-tpc-global-hirobe/img_b1.jpg
   - title: 增田顺一谈宝可梦音乐创作
@@ -1854,11 +2477,83 @@ years:
     pub: Pokemon.com（美国官网）（2014-05-14）
     date: '2014-05-14'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2014-maestro/
+    series: Pokemon.com
     blurb: Game Freak的增田顺一回顾二十多年游戏作曲经历、创作过程与宝可梦原声带的制作。
     cover: /assets/img/interviews/2014-05-14-interview-pokemoncom-2014-maestro/001.jpg
     cover_size:
     - 200
     - 200
+  pool:
+  - title: 增田顺一谈宝可梦与游戏音乐
+    kind: interview
+    pub: ニコニコ自作ゲームフェス（2014-08-22）
+    date: '2014-08-22'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/
+    series: ニコニコ自作ゲームフェ
+    cover: /assets/img/interviews/2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins/001.jpg
+    cover_size:
+    - 581
+    - 412
+  - title: NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红…
+    kind: interview
+    pub: ''
+    date: '2014-08-22'
+    url: /interview-niconico-gamefreak-origins-masuda/
+    series: NicoNico专访G
+    cover: /assets/img/interviews/2014-08-22-interview-niconico-gamefreak-origins-masuda/masuda_portrait.jpg
+    cover_size:
+    - 581
+    - 412
+  - title: 宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）
+    kind: interview
+    pub: ''
+    date: '2014-05-01'
+    url: /developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/
+    series: 宝可梦公司官方专访领袖
+    cover: /assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/001.jpg
+  - title: 宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）
+    kind: interview
+    pub: ''
+    date: '2014-05-01'
+    url: /developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/
+    series: 宝可梦公司官方专访青年
+    cover: /assets/img/interviews/2014-05-01-interview-tpc-youth-roundtable/001.jpg
+  - title: GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺…
+    kind: interview
+    pub: ''
+    date: '2014-07-02'
+    url: /%E8%AE%BF%E8%B0%88/%E5%88%9B%E4%B8%9A%E5%8E%86%E5%8F%B2/interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto/
+    series: GAMEWatch独家
+  - title: 2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石…
+    kind: interview
+    pub: 2083WEB
+    date: '2014-10-31'
+    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/
+    series: 2083WEB专访GA
+    cover: /assets/img/interviews/2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/contentsTitle.jpg
+    cover_size:
+    - 624
+    - 285
+  - title: “为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋
+    kind: interview
+    pub: ''
+    date: '2014-11-01'
+    url: /interview-elpais-oras-masuda-ohmori/
+    series: “为全世界所有孩子创造
+    cover: /assets/img/interviews/2014-11-01-interview-elpais-oras-masuda-ohmori/01_hero_masuda_ohmori_barcelona.jpg
+    cover_size:
+    - 1200
+    - 716
+  - title: Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦…
+    kind: interview
+    pub: ''
+    date: '2014-11-01'
+    url: /developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/
+    series: TopoGamer独家
+    cover: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_01_2014-10-31-12.31.35_lzn-700x466.jpg
+    cover_size:
+    - 700
+    - 466
 - year: 2015
   docs: 9
   stream: 1
@@ -1900,11 +2595,11 @@ years:
   - name: 大森滋
     slug: ohmori-shigeru
     n: 1
-  - name: T.M.
-    slug: t-m
-    n: 1
   - name: James Turner
     slug: james-turner
+    n: 1
+  - name: T.M.
+    slug: t-m
     n: 1
   - name: M.I.
     slug: m-i
@@ -1919,13 +2614,15 @@ years:
     icon2: /assets/img/works/home-alpha-sapphire.png
     n: 4
   - name: 宝可拳 POKKÉN TOURNAMENT
+    icon: /assets/img/works/bulba-pokken-icon.png
+    n: 1
+  - name: 宝可梦 剧场版 光轮的超魔神 胡帕
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
   - name: 宝可梦 动画系列
     icon: /assets/img/works/bulba-s01-logo-jp.png
     color: '#ffcc00'
     color2: '#e53935'
-    n: 1
-  - name: 宝可梦 剧场版 光轮的超魔神 胡帕
     n: 1
   picks:
   - title: 宝可拳试玩与原田、星野访谈
@@ -1933,6 +2630,7 @@ years:
     pub: 4Gamer.net（2015-02-16）
     date: '2015-02-16'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-pokken-tournament-harada-hoshino/
+    series: 4Gamer.net（
     blurb: JAEPO2015展出的《宝可拳》试玩感受，并采访原田胜弘与星野正昭。
     cover: /assets/img/interviews/2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino/001.jpg
     cover_size:
@@ -1943,6 +2641,7 @@ years:
     pub: GAME FREAK 招聘网站（2015-09-01）
     date: '2015-10-21'
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/
+    series: GAMEFREAK招聘
     blurb: GAME FREAK 研究开发部谈成立经过、目标与人才需求。
     cover: /assets/img/interviews/2015-gamefreak-rnd-launch/photo_01.png
   - title: 与大森滋探寻ORAS魅力
@@ -1950,11 +2649,64 @@ years:
     pub: ポケモンLife
     date: '2015-07-30'
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-pokemon-life-2015-07-ohmori-oras/
+    series: ポケモンLife
     blurb: 总监大森滋回顾《欧米伽红宝石·阿尔法蓝宝石》如何以「共存」为主题重制，并首次公开分镜稿。
     cover: https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg17.jpg
     cover_size:
     - 1576
     - 2048
+  pool:
+  - title: 汤山导演谈胡帕电影
+    kind: interview
+    pub: PocketMonsters.net（2015-07-14）
+    date: '2015-07-14'
+    url: /developer-interviews/official-archives/interview-movie18-yuyama-hoopa-model-sheets/
+    series: PocketMonst
+    cover: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/001.jpg
+    cover_size:
+    - 635
+    - 499
+  - title: 员工访谈《TEMBO THE BADASS ELEPHANT》
+    kind: interview
+    pub: Game Freak 採用情報 (Wayback 历史存档)
+    date: '2015-10-12'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-gear-tembo-turner/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2015-gamefreak-gear-tembo/keyvisual.png
+  - title: 宝可梦公司官方专访 商业篇：游戏×角色×授权——宝可梦商业彻底解剖（长田英树 × 陆川和男 × 藤井健）
+    kind: interview
+    pub: ''
+    date: '2015-05-20'
+    url: /developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-business-anatomy/
+    series: 宝可梦公司官方专访商业
+    cover: /assets/img/interviews/2015-05-20-interview-pokemon-recruit-business-anatomy/001.gif
+  - title: 我加入GAME FREAK的理由 图形设计师篇
+    kind: interview
+    pub: Game Freak 採用情報 (Wayback 历史存档)
+    date: '2015-10-21'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2015-gamefreak-recruit-designers/keyvisual.png
+  - title: 我进入GAME FREAK的理由 策划篇
+    kind: interview
+    pub: Game Freak 採用情報 (Wayback 历史存档)
+    date: '2015-10-21'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2015-gamefreak-recruit-planners/keyvisual.png
+    cover_size:
+    - 950
+    - 380
+  - title: 我进入GAME FREAK的理由 程序员篇
+    kind: interview
+    pub: Game Freak 採用情報 (Wayback 历史存档)
+    date: '2015-10-21'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2015-gamefreak-recruit-programmers/keyvisual.png
+    cover_size:
+    - 950
+    - 380
 - year: 2016
   docs: 23
   stream: 213
@@ -1994,14 +2746,14 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 3
+  - name: 远藤雅伸
+    slug: endo-masanobu
+    n: 1
+  - name: 田尻智
+    slug: tajiri-satoshi
+    n: 1
   - name: 一之濑刚
     slug: ichinose-go
-    n: 1
-  - name: 横井军平
-    slug: yokoi-gunpei
-    n: 1
-  - name: 杉森建
-    slug: sugimori-ken
     n: 1
   works:
   - name: Pokémon GO
@@ -2019,9 +2771,9 @@ years:
     icon: /assets/img/works/home-sun.png
     icon2: /assets/img/works/home-moon.png
     n: 3
-  - name: 俄罗斯方块
-    n: 1
   - name: 接龙马
+    n: 1
+  - name: 迷宫塔
     n: 1
   picks:
   - title: 能玩1000次的RPG如何诞生
@@ -2029,6 +2781,7 @@ years:
     pub: 电Fami Nico Gamer（2016-03-07）
     date: '2016-03-07'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2016-mystery-dungeon-nakamura-nagahata/
+    series: 电FamiNicoGa
     blurb: 《不可思议的迷宫》绝妙的游戏平衡，竟是从一张Excel表格中诞生的。
     cover: /assets/img/interviews/2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata/001.jpg
     cover_size:
@@ -2039,6 +2792,7 @@ years:
     pub: Official Nintendo Magazine 西班牙版（2016-12-…
     date: '2016-12-01'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/
+    series: OfficialNin
     blurb: 《太阳／月亮》发售后，大森滋与增田顺一接受西班牙版《官方任天堂杂志》采访，谈及新作反响、第三版本与《圆形竞技场》续作的可能性。
     cover: /assets/img/interviews/2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon/001.jpg
     cover_size:
@@ -2049,11 +2803,99 @@ years:
     pub: ''
     date: '2016-02-17'
     url: /interview-denfami-xevious-tajiri-sugimori-endo/
+    series: 电玩迷电玩「游戏的企划
     blurb: 日本游戏媒体‘电玩迷电玩’（Denfaminicogamer）极高声誉的深度历史连载‘游戏的企划书’第一回！邀请到日本游戏界的两代传奇巨匠——《铁板阵》《迷宫塔》之父远藤雅伸…
     cover: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/00_D4S32391.jpg
     cover_size:
     - 1440
     - 1080
+  pool:
+  - title: 宝可梦20年：连接现实与虚拟
+    kind: interview
+    pub: INSIDE（インサイド）（2016-02-27）
+    date: '2016-02-27'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-inside-2016-ishihara-20th/
+    series: INSIDE（インサイ
+    cover: /assets/img/interviews/2016-02-27-interview-inside-2016-ishihara-20th/001.jpg
+    cover_size:
+    - 640
+    - 425
+  - title: 大森滋谈太阳月亮
+    kind: interview
+    pub: 《宝可梦 太阳·月亮》官网（2016-09-06）
+    date: '2016-09-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncojp-2016-ohmori-sm/
+    series: 《宝可梦太阳·月亮》官
+    cover: /assets/img/interviews/2016-09-06-interview-pokemoncojp-2016-ohmori-sm/001.png
+    cover_size:
+    - 670
+    - 402
+  - title: '2016 Entrevistamos a los responsables de Pokémon: "No creíam…'
+    kind: interview
+    pub: ''
+    date: '2016-12-05'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-25043/
+    series: '[访谈翻译]2016E'
+  - title: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Swi…'
+    kind: interview
+    pub: ''
+    date: '2016-12-12'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-reportajes/
+    series: '[访谈翻译]Entre'
+    cover: /assets/img/interviews/2016-12-12-interview-reportajes/001.jpg
+    cover_size:
+    - 360
+    - 203
+  - title: 宝可梦GO开发谈
+    kind: interview
+    pub: 产经新闻（産経ニュース）（2016-09-09）
+    date: '2016-09-09'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-utsunomiya-kawashima/
+    series: 产经新闻（産経ニュース
+    cover: /assets/img/interviews/2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima/001.jpg
+    cover_size:
+    - 221
+    - 224
+  - title: Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精…
+    kind: interview
+    pub: ''
+    date: '2016-04-18'
+    url: /developer-interviews/official-archives/interview-denfami-sonobe-gamefreak-morimoto/
+    series: Denfami独家专访
+    cover: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/DMA-DEC-YU50-001-e1458128892934.jpg
+    cover_size:
+    - 483
+    - 349
+  - title: Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详…
+    kind: interview
+    pub: ''
+    date: '2016-05-12'
+    url: /developer-interviews/official-archives/interview-inside-pokken-tournament-developers/
+    series: InsideGames
+    cover: /assets/img/interviews/2016-05-12-interview-inside-pokken-tournament-developers/661991.jpg
+    cover_size:
+    - 640
+    - 426
+  - title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
+    kind: interview
+    pub: ''
+    date: '2016-08-25'
+    url: /developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/
+    series: 日经商务独家专访宝可梦
+    cover: /assets/img/interviews/2016-08-25-interview-nikkei-utsunomiya-pokemon-go/nikkei_go_p1_p1.jpg
+    cover_size:
+    - 500
+    - 333
+  - title: 巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百…
+    kind: interview
+    pub: ''
+    date: '2016-09-30'
+    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6go/%E7%AD%96%E5%88%92%E4%B8%8E%E8%BF%90%E8%90%A5/interview-gnn-pokemon-go-tokyo-roundtable/
+    series: 巴哈姆特GNN现场直击
+    cover: /assets/img/interviews/2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable/0001446174.JPG
+    cover_size:
+    - 245
+    - 154
 - year: 2017
   docs: 24
   stream: 38
@@ -2128,6 +2970,7 @@ years:
     pub: 週刊ファミ通
     date: '2017-10-19'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-usum-ohmori-iwao-director/
+    series: 週刊ファミ通
     blurb: 2017 年 10 月《宝可梦 究极之日·究极之月》发售前夕，Fami通独家专访总监岩尾和昌与制作人大森滋。岩尾和昌首次挑起正统续作总监大梁，回顾了从《黑·白》地图与战斗系统策…
     cover: /assets/img/interviews/2017-10-19-interview-famitsu-usum-ohmori-iwao-director/ohmori_iwao_famitsu.jpg
     cover_size:
@@ -2138,6 +2981,7 @@ years:
     pub: CGWORLD
     date: '2017-06-10'
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-cgworld-2017-07-game-graphics-studio-extra/
+    series: CGWORLD
     blurb: Creatures与GAME FREAK谈宝可梦3DCG制作与人才招聘
     cover: https://gallery.pokeamice.com/scan-archive/cgworld-2017-07-game-graphics-studio-extra/pages/p001_cover.jpg
     cover_size:
@@ -2148,11 +2992,93 @@ years:
     pub: はまれぽ.com（横滨地方信息站）（2017-08-09）
     date: '2017-08-09'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-hamarepo-masuda-yokohama-origins/
+    series: はまれぽ.com（横滨
     blurb: 横滨地方信息站走访东户冢，请GAME FREAK董事增田顺一讲述童年与创作的原点。
     cover: /assets/img/interviews/2017-08-09-interview-hamarepo-masuda-yokohama-origins/001.jpg
     cover_size:
     - 400
     - 266
+  pool:
+  - title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
+    kind: interview
+    pub: ''
+    date: '2017-11-09'
+    url: /interview-pokemon-com-usum-ohmori-iwao/
+    series: Pokemon.com
+    cover: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/hero_ohmori_iwao.jpg
+    cover_size:
+    - 578
+    - 327
+  - title: PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》
+    kind: interview
+    pub: ''
+    date: '2017-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-pocketmonsters-usum-iwao-ohmori/
+    series: '[访谈翻译]Pocke'
+    cover: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/001.jpg
+    cover_size:
+    - 578
+    - 327
+  - title: 'Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'
+    kind: interview
+    pub: ''
+    date: '2017-11-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2017-game-freak-dordogne-enquete/
+    series: '[访谈翻译][Enqu'
+    cover: /assets/img/interviews/2017-11-06-interview-2017-game-freak-dordogne-enquete/001.png
+    cover_size:
+    - 1196
+    - 1280
+  - title: 从其他行业转行入职者座谈会
+    kind: interview
+    pub: Game Freak 採用情報 (Wayback 历史存档)
+    date: '2017-01-19'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2017-gamefreak-recruit-cross-industry/keyvisual.png
+  - title: 增田与大森最爱的宝可梦衍生作
+    kind: interview
+    pub: Game Informer（2017-08-15）
+    date: '2017-08-15'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2017-spinoffs/
+    series: GameInforme
+    cover: /assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/001.jpg
+    cover_size:
+    - 610
+    - 421
+  - title: 宝可梦公司官方专访 『Pokémon GO』特别篇：开启次时代大门的那一天（江上周作）
+    kind: interview
+    pub: ''
+    date: '2017-03-01'
+    url: /developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-world-egami/
+    series: 宝可梦公司官方专访『P
+  - title: 宝可梦公司官方专访 青年员工座谈：凝聚无尽可能，我们将改变未来（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小…
+    kind: interview
+    pub: ''
+    date: '2017-05-10'
+    url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-passion/
+    series: 宝可梦公司官方专访青年
+    cover: /assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/001.jpg
+  - title: Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时…
+    kind: interview
+    pub: ''
+    date: '2017-07-03'
+    url: /developer-interviews/official-archives/interview-denfami-ohmori-onoue-gamefreak-heritage/
+    series: Denfami独家专访
+    cover: /assets/img/interviews/2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_01.jpg
+    cover_size:
+    - 1980
+    - 1040
+  - title: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代…
+    kind: interview
+    pub: ''
+    date: '2017-09-05'
+    url: /developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/
+    series: GIGAZINE独家特
+    cover: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/00_m.jpg
+    cover_size:
+    - 400
+    - 225
 - year: 2018
   docs: 20
   stream: 0
@@ -2182,11 +3108,11 @@ years:
   - name: 杉森建
     slug: sugimori-ken
     n: 3
-  - name: 野村达雄
-    slug: nomura-tatsuo
-    n: 3
   - name: 约翰·汉克
     slug: john-hanke
+    n: 3
+  - name: 野村达雄
+    slug: nomura-tatsuo
     n: 3
   - name: 菜花健作
     slug: nabana-kensaku
@@ -2219,6 +3145,7 @@ years:
     pub: 株式会社宝可梦 官方网站（2018-05-02）
     date: '2018-05-02'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/
+    series: 株式会社宝可梦官方网站
     blurb: 结合未公开的初期插图，采访三位创作者，回顾皮卡丘从设计到成名的过程。
     cover: /assets/img/interviews/2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa/001.jpg
     cover_size:
@@ -2229,6 +3156,7 @@ years:
     pub: 4Gamer.net（2018-05-12）
     date: '2018-05-12'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2018-usum-fanmeeting/
+    series: 4Gamer.net（
     blurb: 发售半年后，Game Freak三位开发者登台讲述究极奈克洛兹玛、彩虹火箭队与Z招式的幕后。
     cover: /assets/img/interviews/2018-05-12-interview-4gamer-2018-usum-fanmeeting/001.jpg
     cover_size:
@@ -2239,16 +3167,104 @@ years:
     pub: 电ファミニコゲーマー (Denfaminicogamer)
     date: '2018-06-08'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/
+    series: 电ファミニコゲーマー(
     blurb: 2018 年 6 月，电玩志（Denfaminicogamer）集结宝可梦社长石原恒和、Niantic 亚太副总裁川岛优志、Game Freak 董事增田顺一展开里程碑级深度长…
     cover: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/001.jpg
     cover_size:
     - 1280
     - 643
+  pool:
+  - title: Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景
+    kind: interview
+    pub: Eurogamer.net (Chris Tapsell 独家专访)
+    date: '2018-10-26'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/
+    series: Eurogamer.n
+    cover: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/hero_masuda_nabana.jpg
+    cover_size:
+    - 1200
+    - 671
+  - title: 宝可梦公司官方专访 『Pokémon GO』特别篇：以现实为舞台、连接全球人际纽带的沟通奇迹（江上周作）
+    kind: interview
+    pub: 株式会社ポケモン 採用サイト (Wayback 历史存档)
+    date: '2018-12-01'
+    url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-communication-egami/
+    series: 株式会社ポケモン採用サ
+    cover: /assets/img/interviews/2018-tpc-recruit-pokemongo-communication/topimg.jpg
+    cover_size:
+    - 850
+    - 415
+  - title: 正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人
+    kind: interview
+    pub: ''
+    date: '2018-02-23'
+    url: /interview-newspicks-pokemon-utsunomiya-kawamoto/
+    series: 正因为“唯有宝可梦”才
+    cover: /assets/img/interviews/2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto/01_hero_utsunomiya_kawamoto.jpg
+    cover_size:
+    - 1200
+    - 480
+  - title: 《宝可梦 探险寻宝》与《Let's Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈
+    kind: interview
+    pub: ''
+    date: '2018-05-30'
+    url: /interview-gamer-pokemon-press-conference-2018/
+    series: 《宝可梦探险寻宝》与《
+    cover: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/01_hero_press_conference_all_stars.jpg
+    cover_size:
+    - 960
+    - 636
+  - title: 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象
+    kind: interview
+    pub: 电玩志（2018-06-08）
+    date: '2018-06-08'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-server-miracle/
+    series: 电玩志（2018-06
+    cover: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle/011.jpg
+    cover_size:
+    - 1280
+    - 853
+  - title: 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二
+    kind: interview
+    pub: Pokemon.com 官方特辑
+    date: '2018-07-26'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-creators-of-pikachu/
+    series: Pokemon.com
+    cover: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/ken_sugimori.jpg
+    cover_size:
+    - 200
+    - 183
+  - title: 读卖新闻 × Siliconera 专访杉森建：宝可梦设计的“减法美学”与帅气/可爱的微妙平衡
+    kind: interview
+    pub: 読売新聞 (Yomiuri Shimbun) / Siliconera
+    date: '2018-07-27'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-yomiuri-siliconera-sugimori-monster-balance/
+    series: 読売新聞(Yomiur
+  - title: 增田顺一忆红蓝开发
+    kind: interview
+    pub: Polygon（2018-09-27）
+    date: '2018-09-27'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2018-masuda-rb/
+    series: Polygon（201
+    cover: /assets/img/interviews/2018-09-27-interview-polygon-2018-masuda-rb/001.jpg
+    cover_size:
+    - 825
+    - 550
+  - title: GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《…
+    kind: interview
+    pub: ''
+    date: '2018-10-17'
+    url: /interview-gamespot-lgpe-masuda/
+    series: GameSpot独家深
+    cover: /assets/img/interviews/2018-10-17-interview-gamespot-lgpe-masuda/01_hero_lets_go_vs_yellow.jpg
+    cover_size:
+    - 1920
+    - 1080
 - year: 2019
-  docs: 32
+  docs: 33
   stream: 0
   kinds:
-    interview: 32
+    interview: 33
     scan: 0
     topic: 0
     article: 0
@@ -2290,7 +3306,7 @@ years:
   - name: 宝可梦 剑·盾
     icon: /assets/img/works/home-sword.png
     icon2: /assets/img/works/home-shield.png
-    n: 16
+    n: 17
   - name: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
     icon: /assets/img/works/home-lets-go-pikachu.png
     icon2: /assets/img/works/home-lets-go-eevee.png
@@ -2299,46 +3315,131 @@ years:
     icon: /assets/img/works/home-sun.png
     icon2: /assets/img/works/home-moon.png
     n: 5
+  - name: Pokémon GO
+    icon: /assets/img/works/bulba-home-go-icon.png
+    color: '#1e88e5'
+    color2: '#ffd54f'
+    n: 2
   - name: 宝可梦传说 阿尔宙斯
     icon: /assets/img/works/home-legends-arceus.png
     n: 2
-  - name: 宝可梦集换式卡牌游戏
-    icon: /assets/img/works/ball-tcg.png
-    icon2: /assets/img/works/ball-tcg-2.png
-    color: '#f5b400'
-    color2: '#1e3a8a'
-    n: 1
   picks:
   - title: 超梦的逆袭3DCG制作解析
     kind: interview
     pub: CGWORLD.jp（2019-08-29）
     date: '2019-08-29'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-mewtwo-evolution-3dcg-olm/
+    series: CGWORLD.jp（
     blurb: OLM Digital监修那须基仁与须藤秀希面向CG初学者解说本作3DCG的建模、动画、光照、特效四道工序。
     cover: /assets/img/interviews/2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm/001.jpg
     cover_size:
     - 533
     - 800
+  - title: 鹿濑岛英介谈宝可梦的复兴支援
+    kind: interview
+    pub: FUKKO DESIGN 官方 note（2019-09-18；活动于 2019…
+    date: '2019-09-18'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-fukko-design-2019-talk-kasejima/
+    series: FUKKODESIGN
+    blurb: 2019 年 9 月 1 日防灾日的 FUKKO DESIGN 启动活动上，株式会社宝可梦执行役员鹿濑岛英介介绍 POKÉMON with YOU 与“推荐宝可梦”，并谈复兴与…
   - title: Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力
     kind: interview
     pub: Eurogamer
     date: '2019-10-24'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/
+    series: Eurogamer
     blurb: 2019年10月《宝可梦 剑·盾》发售前夕，Eurogamer 主编 Chris Tapsell 在伦敦专访主创增田顺一与大森滋。主创首度辟谣‘葱游兵并非金银废案复活，而是考察…
     cover: /assets/img/interviews/2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/sirfetchd.jpg
     cover_size:
     - 480
     - 360
+  pool:
   - title: 宝可梦剑盾开发访谈
     kind: interview
     pub: Polygon（2019-10-24）
     date: '2019-10-24'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/
-    blurb: Game Freak谈Switch主机定位、千人参与规模与部分宝可梦缺席。
+    series: Polygon（201
     cover: /assets/img/interviews/2019-10-24-interview-polygon-2019-swsh/001.jpg
     cover_size:
     - 750
     - 1053
+  - title: 增田顺一与大森滋谈剑盾
+    kind: interview
+    pub: VG247（2019-10-24）
+    date: '2019-10-24'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-vg247-2019-swsh/
+    series: VG247（2019-
+    cover: /assets/img/interviews/2019-10-24-interview-vg247-2019-swsh/001.jpg
+    cover_size:
+    - 480
+    - 360
+  - title: 增田顺一与大森滋谈剑盾培育
+    kind: interview
+    pub: Fami通.com（2019-10-25）
+    date: '2019-10-25'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2019-swsh-autosave/
+    series: Fami通.com（2
+    cover: /assets/img/interviews/2019-10-25-interview-famitsu-2019-swsh-autosave/001.jpg
+    cover_size:
+    - 1280
+    - 720
+  - title: 4Gamer《宝可梦 剑·盾》发售纪念专访：大森滋与增田顺一详解“最强”设计哲学、极巨化与伽勒尔生态
+    kind: interview
+    pub: 4Gamer.net (Gueed 独家专访)
+    date: '2019-11-12'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-sword-shield-ohmori-masuda-strongest/
+    series: 4Gamer.net(
+    cover: /assets/img/interviews/2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest/001.jpg
+    cover_size:
+    - 1024
+    - 682
+  - title: 有田满弘谈宝可梦卡牌插画
+    kind: interview
+    pub: JDN（设计情报网站）（2019-02-12）
+    date: '2019-02-12'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-jdn-arita-pokemon-card-illustrator/
+    series: JDN（设计情报网站）
+    cover: /assets/img/interviews/2019-02-12-interview-jdn-arita-pokemon-card-illustrator/001.jpg
+    cover_size:
+    - 1200
+    - 799
+  - title: 增田顺一谈剑盾：玩法优先
+    kind: interview
+    pub: Metro GameCentral（2019-10-24）
+    date: '2019-10-24'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-metro-gamecentral-swsh-masuda-ohmori/
+    series: MetroGameCe
+    cover: /assets/img/interviews/2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori/001.jpg
+    cover_size:
+    - 644
+    - 472
+  - title: 《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路
+    kind: interview
+    pub: ''
+    date: '2019-10-25'
+    url: /interview-famitsu-sword-shield-masuda-ohmori/
+    series: 《宝可梦剑·盾》增田顺
+    cover: /assets/img/interviews/2019-10-25-interview-famitsu-sword-shield-masuda-ohmori/01_hero_masuda_ohmori.jpg
+    cover_size:
+    - 720
+    - 399
+  - title: Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘
+    kind: interview
+    pub: ''
+    date: '2019-05-18'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-siliconera-harmoknight-drill-dozer/
+    series: '[访谈翻译]Silic'
+  - title: 宝可梦主创的胡闹问答
+    kind: interview
+    pub: Game Informer（2019-10-24）
+    date: '2019-10-24'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/
+    series: GameInforme
+    cover: /assets/img/interviews/2019-10-24-interview-gi-2019-burning/001.webp
+    cover_size:
+    - 800
+    - 450
 - year: 2020
   docs: 9
   stream: 0
@@ -2362,11 +3463,14 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-smile-icon.png
   people:
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
+  - name: 乌龟松本
+    slug: wu-gui-song-ben
     n: 1
   - name: 橘庆太
     slug: tachibana-keita
+    n: 1
+  - name: 石原恒和
+    slug: ishihara-tsunekazu
     n: 1
   - name: 冈崎体育
     slug: okazaki-taiiku
@@ -2377,13 +3481,13 @@ years:
   - name: 小林幸子
     slug: kobayashi-sachiko
     n: 1
-  - name: 乌龟松本
-    slug: wu-gui-song-ben
-    n: 1
   works:
   - name: 剧场版 宝可梦 可可
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
-  - name: 剧场版 宝可梦 超梦的逆袭
+  - name: 超梦的逆袭
+    icon: /assets/img/works/bulba-japanese-m01-logo.png
+    color: '#7e57c2'
     n: 1
   - name: 宝可梦 剑·盾
     icon: /assets/img/works/home-sword.png
@@ -2397,6 +3501,7 @@ years:
     pub: Game Freak 採用情報
     date: '2020-11-13'
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-ht/
+    series: GameFreak採用
     blurb: Game Freak 官方一线环境与架构工程师深度特写：历经移动游戏大潮与 AI 创业公司 COO 磨砺的 H.T.，分享重返热爱的主机游戏界并加入 GAME FREAK 的心…
     cover: /assets/img/interviews/gamefreak-recruit-ht-pg/mv.jpg
     cover_size:
@@ -2407,6 +3512,7 @@ years:
     pub: ''
     date: '2020-12-25'
     url: /interview-corocoro-coco-okazaki-taiiku/
+    series: 《剧场版宝可梦可可》音
     blurb: 由《Corocoro Online》在《剧场版 宝可梦 可可》公映首日带来的音乐总监冈崎体育深度专访：1. 回顾登上童年崇拜的《月刊Corocoro Comic》‘冈崎体育探险…
     cover: /assets/img/interviews/2020-12-25-interview-corocoro-coco-okazaki-taiiku/01_441a608629850219a6353b411ae6ac43.jpg
     cover_size:
@@ -2417,11 +3523,73 @@ years:
     pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
     date: '2020-08-18'
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/
+    series: 株式会社ポケモンコーポ
     blurb: 绘有宝可梦的井盖被赠予各地，成为点缀当地风景的存在。
     cover: /assets/img/interviews/2020-08-18-corporate-topic-01-pokefuta-manhole-travel/000.jpg
     cover_size:
     - 1080
     - 608
+  pool:
+  - title: 宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学
+    kind: interview
+    pub: ''
+    date: '2020-03-01'
+    url: /developer-interviews/official-archives/interview-tpc-business-professionals/
+    series: 宝可梦公司官方领袖专访
+    cover: /assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_topimg.jpg
+    cover_size:
+    - 850
+    - 415
+  - title: CANUCH 建筑设计深度特写：揭秘 GAME FREAK 东京新总部——以“红·绿宝可梦世界与常青森林探索”为核心的生…
+    kind: interview
+    pub: ''
+    date: '2020-07-01'
+    url: /developer-interviews/official-archives/interview-canuch-gamefreak-office-architecture/
+    series: CANUCH建筑设计深
+    cover: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-001.jpg
+    cover_size:
+    - 1200
+    - 800
+  - title: 日本经济新闻 深度特写宝可梦社长石原恒和：从父亲传授围棋到千亿IP帝国舵手，与岩田聪、田尻智的初心原点
+    kind: interview
+    pub: ''
+    date: '2020-12-21'
+    url: /developer-interviews/official-archives/interview-nikkei-ishihara-go-boardgames/
+    series: 日本经济新闻深度特写宝
+    cover: /assets/img/interviews/2020-12-21-interview-nikkei-ishihara-go-boardgames/ishihara_nikkei_portrait.jpg
+    cover_size:
+    - 187
+    - 116
+  - title: 千年后的宝可梦
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2020-08-18'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/000.jpg
+    cover_size:
+    - 1160
+    - 680
+  - title: 游戏融入生活
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2020-08-18'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-03-pokemon-smile-gamification-health/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2020-08-18-corporate-topic-03-pokemon-smile-gamification-health/000.jpg
+    cover_size:
+    - 1080
+    - 607
+  - title: 肚子饿的臭泥，让城市更干净
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2020-11-30'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-04-harapeko-betbeter-ai-recycling/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling/000.jpg
+    cover_size:
+    - 1080
+    - 604
 - year: 2021
   docs: 15
   stream: 0
@@ -2461,6 +3629,15 @@ years:
     slug: tanaka-hirokazu
     n: 1
   works:
+  - name: 宝可梦 剑·盾
+    icon: /assets/img/works/home-sword.png
+    icon2: /assets/img/works/home-shield.png
+    n: 5
+  - name: Pokémon GO
+    icon: /assets/img/works/bulba-home-go-icon.png
+    color: '#1e88e5'
+    color2: '#ffd54f'
+    n: 3
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
@@ -2473,15 +3650,6 @@ years:
     color: '#f5b400'
     color2: '#1e3a8a'
     n: 3
-  - name: Pokémon GO
-    icon: /assets/img/works/bulba-home-go-icon.png
-    color: '#1e88e5'
-    color2: '#ffd54f'
-    n: 3
-  - name: 宝可梦 剑·盾
-    icon: /assets/img/works/home-sword.png
-    icon2: /assets/img/works/home-shield.png
-    n: 3
   - name: 宝可梦传说 阿尔宙斯
     icon: /assets/img/works/home-legends-arceus.png
     n: 3
@@ -2491,27 +3659,110 @@ years:
     pub: ファミ通.com (Famitsu)
     date: '2021-04-30'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%A4%96%E5%8C%85%E4%BC%A0%E5%A5%87/interview-famitsu-new-pokemon-snap-ishihara-suzaki/
+    series: ファミ通.com(Fa
     blurb: 2021年4月30日《New 宝可梦随乐拍》全球发售当日Fami通独家万字深度特稿。株式会社The Pokémon Company社长石原恒和与万代南梦宫工作室（Bandai…
   - title: Creatures 25周年特别对谈
     kind: interview
     pub: Creatures 官网（2021-11-08）
     date: '2021-11-08'
     url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E5%85%AC%E5%8F%B8%E4%B8%8E%E6%88%98%E7%95%A5/interview-creatures-history-special-ishihara-tanaka/
+    series: Creatures官网
     blurb: 石原恒和与田中宏和回顾 Creatures 的创立、分工与代表产品。
     cover: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/001.png
     cover_size:
     - 1130
     - 873
+  - title: 『宝可梦传说 阿尔宙斯』初公开逐帧分析＆个人猜想
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2021-02-28'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/pla-first-reveal-frame-notes/
+    series: 微博头条文章·宝可梦友
+    blurb: 这次『宝可梦』系列会迈向新时代吗？
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1go1y99r01yj30u90h11kx.jpg
+    cover_size:
+    - 1089
+    - 613
+  pool:
+  - title: ㈱宝可梦式轮岗机制带来的“应对变化的能力”是什么
+    kind: interview
+    pub: NewsPicks Brand Design
+    date: '2021-11-29'
+    url: /developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/
+    series: NewsPicksBr
+    cover: /assets/img/interviews/2021-11-29-newspicks/4718001.jpg
+    cover_size:
+    - 1200
+    - 1200
+  - title: 宝可梦25年：连接人与人的核心
+    kind: interview
+    pub: ORICON NEWS（2021-02-27）
+    date: '2021-02-27'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-oricon-2021-ishihara-25th/
+    series: ORICONNEWS（
+  - title: 编辑的才能是做普通人
+    kind: interview
+    pub: ほぼ日刊イトイ新聞（Hobonichi）（2021-10-25）
+    date: '2021-10-25'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-hobonichi-2021-kubo/
+    series: ほぼ日刊イトイ新聞（H
+    cover: /assets/img/interviews/2021-10-25-interview-hobonichi-2021-kubo/001.jpg
+    cover_size:
+    - 1280
+    - 853
+  - title: 宝可梦卡牌25年开发者访谈
+    kind: interview
+    pub: 宝可梦卡牌 25 周年纪念网站「开发者访谈」（原页没有日期；Wayback 最早…
+    date: '2021-11-05'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-card-25th-nagashima/
+    series: 宝可梦卡牌25周年纪念
+    cover: /assets/img/interviews/2021-11-05-interview-pokemon-card-25th-nagashima/001.png
+    cover_size:
+    - 400
+    - 559
   - title: 在森林中寻找宝可梦
     kind: topic
     pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
     date: '2021-08-13'
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-07-pokemon-wonder-nature-forest-adventure/
-    blurb: 《Pokémon WONDER》让参加者在真实森林中寻找宝可梦，回归系列采集昆虫的原点。
+    series: 株式会社ポケモンコーポ
     cover: /assets/img/interviews/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure/000.jpg
     cover_size:
     - 1080
     - 608
+  - title: 程序员说「做不到」，再好的点子也实现不了
+    kind: interview
+    pub: Game Freak 採用情報
+    date: '2021-12-27'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-programmer/
+    series: GameFreak採用
+    cover: /assets/img/interviews/gamefreak-crosstalk-new-programmer/mv.jpg
+  - title: GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）
+    kind: interview
+    pub: ''
+    date: '2021-12-27'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-planner/
+    series: GAMEFREAK官方
+  - title: 《宝可梦传说 阿尔宙斯》初公开信息分析整合与其昭示的未来
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2021-06-12'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/pla-first-reveal-analysis/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1gp8w63nj2vj30nj0e1n8q.jpg
+    cover_size:
+    - 847
+    - 505
+  - title: 长文 |《宝可梦传说 阿尔宙斯》PV2 情报逐帧分析
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2021-08-19'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/pla-pv2-frame-analysis/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1gtlwnvpugzj30fe08n761.jpg
+    cover_size:
+    - 554
+    - 311
 - year: 2022
   docs: 20
   stream: 0
@@ -2535,11 +3786,11 @@ years:
   - name: 富江慎一郎
     slug: tomie-shinichiro
     n: 1
-  - name: 杉森建
-    slug: sugimori-ken
-    n: 1
   - name: 田尻智
     slug: tajiri-satoshi
+    n: 1
+  - name: 杉森建
+    slug: sugimori-ken
     n: 1
   - name: 前泽圭一
     slug: maezawa-keiichi
@@ -2551,13 +3802,17 @@ years:
   - name: 宝可梦传说 阿尔宙斯
     icon: /assets/img/works/home-legends-arceus.png
     n: 2
-  - name: 宝可梦不可思议迷宫：时之探险队／暗之探险队／空之探险队
+  - name: 宝可梦超级不可思议迷宫
+    icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
     n: 1
   - name: 风来之西林
     n: 1
-  - name: 弟切草
+  - name: 宝可梦不可思议迷宫 空之探险队
+    icon: /assets/img/works/bulba-pmd-sky-icon.png
     n: 1
-  - name: 宝可梦超不可思议迷宫
+  - name: 宝可梦不可思议迷宫
+    icon: /assets/img/works/bulba-pmd-time-icon.png
+    color: '#6d4c41'
     n: 1
   picks:
   - title: Seafoam Gaming 2022：Spike Chunsoft 富江慎一郎访谈
@@ -2565,12 +3820,14 @@ years:
     pub: Seafoam Gaming
     date: '2022-04-17'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto/
+    series: SeafoamGami
     blurb: Spike Chunsoft 的富江慎一郎用日文回答了 Seafoam Gaming 的 15 个问题，谈《风来的西林》与《宝可梦不可思议的迷宫》的剧本。
   - title: 两款宝可梦同时开发的模型共通化
     kind: interview
     pub: 电Fami Nico Gamer（2022-08-25）
     date: '2022-08-25'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/
+    series: 电FamiNicoGa
     blurb: GAME FREAK的CG技术总监前泽圭一在CEDEC 2022讲解《阿尔宙斯》与《朱·紫》同时开发时的模型制作环境。
     cover: /assets/img/interviews/2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/001.jpg
     cover_size:
@@ -2581,7 +3838,80 @@ years:
     pub: ''
     date: '2022-05-31'
     url: /sites/%E6%96%87%E6%A1%A3/Updates/
+    series: '[站点]-更新日志'
     blurb: Poke Amice 更新日志（2022 年 5 月至 6 月）：石原访谈回顾、全世代 OST 小册子扫描、设计者页面翻译与菜单调整、PTCG 访谈投稿等。
+  pool:
+  - title: 用音乐连接宝可梦世界
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2022-03-30'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-08-pokemon-dp-sound-library-music/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music/000.jpg
+    cover_size:
+    - 1080
+    - 607
+  - title: 宝可梦传说阿尔宙斯 日本游戏大赏 岩尾获奖感言
+    kind: article
+    pub: ''
+    date: '2022-10-10'
+    url: /%E7%BF%BB%E8%AF%91/%E9%87%87%E8%AE%BF/%E9%87%87%E8%AE%BF-%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%BC%A0%E8%AF%B4%E9%98%BF%E5%B0%94%E5%AE%99%E6%96%AF-%E6%97%A5%E6%9C%AC%E6%B8%B8%E6%88%8F%E5%A4%A7%E8%B5%8F-%E5%B2%A9%E5%B0%BE%E8%8E%B7%E5%A5%96%E6%84%9F%E8%A8%80/
+    series: '[采访]宝可梦传说阿尔'
+  - title: 《宝可梦 剑＆盾》传说宝可梦设定分析篇
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2022-01-27'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/swsh-legendary-design-analysis-1/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1g3th75pqrkj30ku0cq75h.jpg
+    cover_size:
+    - 150
+    - 150
+  - title: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变
+    kind: interview
+    pub: ''
+    date: '2022-03-01'
+    url: /interviews/interview-tpc-recruit-new-generation/
+    series: 宝可梦公司官方专访新人
+    cover: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/001.jpg
+  - title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 ×…
+    kind: interview
+    pub: ''
+    date: '2022-04-10'
+    url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-growth/
+    series: 宝可梦公司官方专访职场
+  - title: Famitsu / CEDEC 2022 专访《宝可梦 朱／紫》：皮卡丘实现系列史上最佳蓬松毛发质感——与《传说 阿尔宙…
+    kind: interview
+    pub: ''
+    date: '2022-08-27'
+    url: /%E8%AE%BF%E8%B0%88/%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90/interview-famitsu-sv-arceus-cedec2022-shader-pipeline/
+    series: Famitsu/CED
+    cover: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/016.jpg
+    cover_size:
+    - 793
+    - 447
+  - title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+    kind: interview
+    pub: ''
+    date: '2022-10-15'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/
+    series: GAMEFREAK官方
+  - title: 宝可梦公司官方专访 工程开发特别篇：造物的核心乐趣，或许在于“与谁一同创造”（太田 × 小川）
+    kind: interview
+    pub: ''
+    date: '2022-10-15'
+    url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-engineering/
+    series: 宝可梦公司官方专访工程
+  - title: 《宝可梦 剑＆盾》传说宝可梦设定分析续篇
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2022-01-27'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/swsh-legendary-design-analysis-2/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1gyr3ub4c4uj30zk0k00yu.jpg
+    cover_size:
+    - 1280
+    - 720
 - year: 2023
   docs: 18
   stream: 0
@@ -2604,14 +3934,14 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-sleep-icon.png
   people:
-  - name: 米谷由贵
-    slug: yonetani-yuki
-    n: 3
   - name: 小野寺瞬
     slug: onodera-shun
     n: 3
   - name: 深谷卓
     slug: fukaya-taku
+    n: 3
+  - name: 米谷由贵
+    slug: yonetani-yuki
     n: 3
   - name: 前泽圭一
     slug: maezawa-keiichi
@@ -2636,8 +3966,10 @@ years:
     icon2: /assets/img/works/home-shield.png
     n: 2
   - name: 宝可梦中心线上商城
+    icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
     n: 1
   - name: 宝可梦咖啡馆
+    icon: /assets/img/works/classic-placeholder.png
     n: 1
   picks:
   - title: 宝可梦环境音的制作幕后
@@ -2645,6 +3977,7 @@ years:
     pub: Fami通.com（2023-08-24）
     date: '2023-08-24'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2023-cedec-sound/
+    series: Fami通.com（2
     blurb: CEDEC2023上，Game Freak的一之濑刚等人讲解宝可梦世界环境叫声与环境音的制作方法与效率化。
     cover: /assets/img/interviews/2023-08-24-interview-famitsu-2023-cedec-sound/001.jpg
     cover_size:
@@ -2655,6 +3988,7 @@ years:
     pub: IMAGICA GEEQ（游戏行业求职平台）（2023-03-24）
     date: '2023-03-24'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-geeq-creatures-design-leader-watanabe/
+    series: IMAGICAGEEQ
     blurb: Creatures设计负责人渡边敦讲述从派遣员工到正式入职的经历，以及建模、动作制作与团队管理的工作。
     cover: /assets/img/interviews/2023-03-24-interview-geeq-creatures-design-leader-watanabe/001.jpg
     cover_size:
@@ -2664,8 +3998,96 @@ years:
     kind: article
     pub: 微博头条文章 · 宝可梦友会
     date: '2023-08-09'
-    url: /%E7%AB%99%E4%B8%BB%E5%8E%9F%E5%88%9B/%E9%95%BF%E6%96%87/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/sv-indigo-disk-pv3-frame-analysis/
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/sv-indigo-disk-pv3-frame-analysis/
+    series: 微博头条文章·宝可梦友
     blurb: 似曾相识 也焕然一新
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1hgk1fp7sj9j33341qiww9.jpg
+    cover_size:
+    - 1600
+    - 900
+  pool:
+  - title: 宝可梦SV视觉表现全解
+    kind: interview
+    pub: 电Fami Nico Gamer（2023-08-24）
+    date: '2023-08-24'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2023-cedec-visual/
+    series: 电FamiNicoGa
+    cover: /assets/img/interviews/2023-08-24-interview-denfami-2023-cedec-visual/001.jpg
+    cover_size:
+    - 787
+    - 443
+  - title: 宝可梦世界的音响设计
+    kind: interview
+    pub: 4Gamer.net（2023-08-25）
+    date: '2023-08-25'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2023-sound-design-ichinose-paldea/
+    series: 4Gamer.net（
+    cover: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/001.jpg
+    cover_size:
+    - 1280
+    - 732
+  - title: 上乡赖臣 × 山冈梢：株式会社宝可梦中心的现在与今后
+    kind: interview
+    pub: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 01
+    date: '2023-03-01'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-pokemon-center-president-kamigo-yamaoka/
+    series: 株式会社ポケモンセンタ
+    cover: /assets/img/interviews/pokemoncenter-01/img_mainX7BrJsqY.jpg
+    cover_size:
+    - 1200
+    - 896
+  - title: 宝可梦朱紫的动画制作
+    kind: interview
+    pub: CGWORLD.jp（2023-04-19）
+    date: '2023-04-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/
+    series: CGWORLD.jp（
+    cover: /assets/img/interviews/2023-04-19-interview-cgworld-2023-sv-making-1/001.jpeg
+    cover_size:
+    - 640
+    - 150
+  - title: '‘Our goal is to keep Pokémon alive for hundreds of years’: i…'
+    kind: interview
+    pub: The Guardian
+    date: '2023-11-20'
+    url: /%E9%87%87%E8%AE%BF/%E9%AB%98%E7%AE%A1%E4%B8%93%E8%AE%BF/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%9C%B1%E7%B4%AB/%E5%93%81%E7%89%8C%E6%88%98%E7%95%A5/interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/
+    series: TheGuardian
+    cover: /assets/img/interviews/2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/utsunomiya_portrait.jpg
+    cover_size:
+    - 1200
+    - 720
+  - title: 宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）
+    kind: interview
+    pub: ''
+    date: '2023-09-10'
+    url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-data/
+    series: 宝可梦公司官方专访数据
+  - title: 睡眠×宝可梦的新挑战
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2023-09-28'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-09-pokemon-sleep-science-and-dream/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream/000.jpg
+    cover_size:
+    - 1080
+    - 608
+  - title: Famitsu 专访《名侦探皮卡丘 归来》：石原恒和×阵内弘之——大叔皮卡丘是“会说人类语言的宝可梦”的终点，兼谈《赤·…
+    kind: interview
+    pub: ''
+    date: '2023-10-19'
+    url: /%E8%AE%BF%E8%B0%88/%E4%B8%BB%E5%88%9B%E5%AF%B9%E8%AF%9D/interview-famitsu-detective-pikachu-returns-ishihara-jinnai/
+    series: Famitsu专访《名
+    cover: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/001.jpg
+    cover_size:
+    - 1280
+    - 853
+  - title: 宝可梦公司官方专访 IT部门特别篇：支撑全球数亿训练家的数字命脉与云端架构（铃木 × 新井 × 中野 × 柴山）
+    kind: interview
+    pub: ''
+    date: '2023-11-20'
+    url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-it/
+    series: 宝可梦公司官方专访IT
 - year: 2024
   docs: 33
   stream: 0
@@ -2681,14 +4103,11 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
   people:
-  - name: K.I.
-    slug: k-i
-    n: 1
   - name: M.O.
     slug: m-o
     n: 1
-  - name: K.K.
-    slug: k-k
+  - name: K.I.
+    slug: k-i
     n: 1
   - name: I.F.
     slug: i-f
@@ -2696,16 +4115,19 @@ years:
   - name: R.N.
     slug: r-n
     n: 1
-  - name: T.M.
-    slug: t-m
+  - name: K.K.
+    slug: k-k
+    n: 1
+  - name: R.S.
+    slug: r-s
     n: 1
   works:
-  - name: 宝可梦传说 阿尔宙斯
-    icon: /assets/img/works/home-legends-arceus.png
-    n: 4
   - name: 宝可梦 朱·紫
     icon: /assets/img/works/home-scarlet.png
     icon2: /assets/img/works/home-violet.png
+    n: 5
+  - name: 宝可梦传说 阿尔宙斯
+    icon: /assets/img/works/home-legends-arceus.png
     n: 4
   - name: 宝可梦集换式卡牌游戏
     icon: /assets/img/works/ball-tcg.png
@@ -2715,7 +4137,8 @@ years:
     n: 2
   - name: Gear Project
     n: 1
-  - name: Pokémon Center SINGAPORE
+  - name: Pokémon Center TAIPEI
+    icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
     n: 1
   picks:
   - title: 宝可梦中心的海外拓展：台北与新加坡
@@ -2723,6 +4146,7 @@ years:
     pub: 株式会社ポケモンセンター 採用公式サイト INTERVIEW 04
     date: '2024-01-15'
     url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-pokemon-center-overseas-taipei-singapore/
+    series: 株式会社ポケモンセンタ
     blurb: 宝可梦中心台北与新加坡项目成员讲述海外开店的项目管理与法务推进。
     cover: /assets/img/interviews/pokemoncenter-04/img_mainC-iQ2HSs.jpg
     cover_size:
@@ -2733,6 +4157,7 @@ years:
     pub: 株式会社ポケモン 採用情報
     date: '2024-02-15'
     url: /developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-designer/
+    series: 株式会社ポケモン採用情
     blurb: 株式会社宝可梦官方设计师特别访谈：聚焦开发制作部、品牌管理部、卡牌事业统括部与商品部的5位设计师。访谈深入了解了宝可梦的多领域视觉设计，从游戏宣传物料、地方联动（Local A…
     cover: /assets/img/interviews/pokemon-recruit-designer/topimg.jpg
     cover_size:
@@ -2742,13 +4167,93 @@ years:
     kind: article
     pub: 微博头条文章 · 宝可梦友会
     date: '2024-08-15'
-    url: /%E7%AB%99%E4%B8%BB%E5%8E%9F%E5%88%9B/%E9%95%BF%E6%96%87/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/ptcg-wcs-2024-virtual-prep/
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/ptcg-wcs-2024-virtual-prep/
+    series: 微博头条文章·宝可梦友
     blurb: 打不上，但总能假装参与一下，说不定明年就能打上了呢
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUgly1hsngwsvmifj31u116khay.jpg
+    cover_size:
+    - 1600
+    - 1031
+  pool:
+  - title: PJCS2024 冠军ハラ ヒュウマ专访
+    kind: interview
+    pub: Fami通.com（2024-07-10）
+    date: '2024-07-10'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos/
+    series: Fami通.com（2
+    cover: /assets/img/interviews/2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos/001.jpg
+    cover_size:
+    - 767
+    - 431
+  - title: 拨云见日 从百代市到水脉图书馆
+    kind: article
+    pub: ''
+    date: '2024-10-24'
+    url: /长文/分析/宝可梦友会/长文-拨云见日-从百代市到水脉图书馆/
+    series: '[长文]拨云见日从百代'
+    cover: https://gallery.pokeamice.com/006SNtUggy1huwxayjax4j30zk0k0wjr.jpg
+    cover_size:
+    - 1280
+    - 720
+  - title: 最重要的是否能把握住“玩法的本质”。
+    kind: interview
+    pub: Game Freak 採用情報
+    date: '2024-02-13'
+    url: /interviews/interview-gamefreak-crosstalk-game-programmer/
+    series: GameFreak採用
+    cover: /assets/img/interviews/2021-gamefreak-crosstalk-game-programmer/mv.jpg
+    cover_size:
+    - 1880
+    - 1200
+  - title: 『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事…
+    kind: interview
+    pub: ファミ通.com (Famitsu)
+    date: '2024-11-20'
+    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/
+    series: ファミ通.com(Fa
+    cover: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/001.jpg
+    cover_size:
+    - 1280
+    - 720
+  - title: -建站纪事-Building-Records
+    kind: article
+    pub: ''
+    date: '2024-12-10'
+    url: /sites/%E6%96%87%E6%A1%A3/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/%E7%AB%99%E7%82%B9-%E5%BB%BA%E7%AB%99%E7%BA%AA%E4%BA%8B-Building-Records/
+    series: '[站点]-建站纪事-B'
+  - title: 卡图下载 查询时间 Download & Time Inqury
+    kind: article
+    pub: ''
+    date: '2024-12-24'
+    url: /tech/ptcg/%E6%8A%80%E8%83%BD%E6%9C%BA-%E5%8D%A1%E5%9B%BE%E4%B8%8B%E8%BD%BD-%E6%9F%A5%E8%AF%A2%E6%97%B6%E9%97%B4-Download%20%26%20Inqury/
+    series: '[技能机]卡图下载查询'
+  - title: 2025 新年快乐
+    kind: article
+    pub: ''
+    date: '2024-12-30'
+    url: /%E5%85%AC%E5%91%8A/sites/%E7%AB%99%E7%82%B9-2025-%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/
+    series: '[站点]2025新年快'
+  - title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
+    kind: interview
+    pub: ''
+    date: '2024-02-13'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/
+    series: GAMEFREAK官方
+  - title: 宝可梦礼宾部幕后
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2024-02-29'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-13-pokemon-concierge-stop-motion-craft/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft/000.jpg
+    cover_size:
+    - 1080
+    - 608
 - year: 2025
-  docs: 26
+  docs: 27
   stream: 0
   kinds:
-    interview: 9
+    interview: 10
     scan: 0
     topic: 13
     article: 4
@@ -2770,20 +4275,20 @@ years:
   - name: T.K.
     slug: t-k
     n: 1
-  - name: 一之濑刚
-    slug: ichinose-go
-    n: 1
   - name: James Turner
     slug: james-turner
+    n: 1
+  - name: 一之濑刚
+    slug: ichinose-go
     n: 1
   - name: 大森滋
     slug: ohmori-shigeru
     n: 1
-  - name: 长屋悟
-    slug: zhang-wu-wu
+  - name: 皆川壮一郎
+    slug: minagawa-soichiro
     n: 1
-  - name: 半田佑马
-    slug: ban-tian-you-ma
+  - name: 藤原ヒロシ
+    slug: fujiwara-hiroshi
     n: 1
   works:
   - name: 宝可梦集换式卡牌游戏
@@ -2792,6 +4297,9 @@ years:
     color: '#f5b400'
     color2: '#1e3a8a'
     n: 4
+  - name: 宝可梦集换式卡牌游戏 Pocket
+    icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
+    n: 2
   - name: 宝可梦传说 阿尔宙斯
     icon: /assets/img/works/home-legends-arceus.png
     n: 1
@@ -2799,44 +4307,135 @@ years:
     icon: /assets/img/works/home-sword.png
     icon2: /assets/img/works/home-shield.png
     n: 1
-  - name: Pokémon Trading Card Game Pocket
-    n: 1
-  - name: Pokémon TCG Pocket
+  - name: Pokémon GO
+    icon: /assets/img/works/bulba-home-go-icon.png
+    color: '#1e88e5'
+    color2: '#ffd54f'
     n: 1
   picks:
+  - title: 黑色皮卡丘的诞生
+    kind: interview
+    pub: 集英社 Online（2025-05-03〜06 四篇连载；藤原ヒロシ《FRAG…
+    date: '2025-05-03'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-shueisha-2025-fragment-university-thunderbolt/
+    series: 集英社Online（2
+    blurb: 藤原浩与宝可梦团队回顾联名项目五年历程，讲述黑色皮卡丘如何从草图走向世界。
   - title: 宝可梦卡牌Pocket的卡牌表现制作
     kind: interview
     pub: ゲームメーカーズ（2025-08-04）
     date: '2025-08-04'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gamemakers-cedec-2025-ptcg-pocket-cards/
+    series: ゲームメーカーズ（20
     blurb: Creatures与DeNA四位开发者讲述如何在保留纸卡魅力的同时，实现数字特有的卡牌表现。
     cover: /assets/img/interviews/2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards/001.jpg
     cover_size:
     - 1200
     - 779
-  - title: 如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影。
-    kind: interview
-    pub: Game Freak 採用情報
-    date: '2025-03-28'
-    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tk/
-    blurb: Game Freak 官方一线程序员深度特写：专门学校毕业即投身主机研发的 T.K.，分享在《宝可梦 剑／盾》中开发“宝可梦露营”迷你游戏、在《宝可梦传说 阿尔宙斯》中担纲主角…
-    cover: /assets/img/interviews/gamefreak-recruit-tk/mv.jpg
-    cover_size:
-    - 940
-    - 450
   - title: 近年 Game Freak 开发事件年表
     kind: article
     pub: ''
     date: 2025-1-1
     url: /game%20freak/%E6%95%B4%E7%90%86/%E6%95%B4%E7%90%86-GameFreak-Development-TimeLine/
+    series: '[整理]近年GameF'
     blurb: 按时间整理 Game Freak 近年的开发事件：从 2008 年迁入新办公室起，依次列出第五世代以来各作的发售与立项节点。
+  pool:
+  - title: 如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影。
+    kind: interview
+    pub: Game Freak 採用情報
+    date: '2025-03-28'
+    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tk/
+    series: GameFreak採用
+    cover: /assets/img/interviews/gamefreak-recruit-tk/mv.jpg
+    cover_size:
+    - 940
+    - 450
+  - title: 长文/攻略 | 关都地区游记＆Game Freak三址巡礼
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2025-02-27'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/kanto-trip-game-freak-pilgrimage/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1hyymkzim1zj335s2dcu0y.jpg
+    cover_size:
+    - 1600
+    - 1200
+  - title: 以团队挑战认真的制作
+    kind: interview
+    pub: Creatures 招聘网站「对谈」（原页没有日期；Wayback 最早存档 2…
+    date: '2025-12-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-creatures-recruit-card-management-cross-talk/
+    series: Creatures招聘
+    cover: /assets/img/interviews/2025-12-06-interview-creatures-recruit-card-management-cross-talk/001.jpg
+    cover_size:
+    - 584
+    - 396
+  - title: 宝可梦机内安全视频诞生记
+    kind: topic
+    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
+    date: '2025-01-31'
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-31-ana-in-flight-safety-video/
+    series: 株式会社ポケモンコーポ
+    cover: /assets/img/interviews/2025-01-31-corporate-topic-31-ana-in-flight-safety-video/000.jpg
+    cover_size:
+    - 1080
+    - 608
+  - title: 『宝可梦传说 Z-A』PV2逐帧分析
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2025-03-01'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/za-pv2-frame-analysis/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1hyzplkvaaej31hc11qu0x.jpg
+    cover_size:
+    - 1600
+    - 1131
+  - title: 『宝可梦传说 Z-A』PV4逐帧分析
+    kind: article
+    pub: 微博头条文章 · 宝可梦友会
+    date: '2025-07-24'
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/za-pv4-frame-analysis/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1i3nqqm0q4gj31d80sc7wi.jpg
+    cover_size:
+    - 1600
+    - 920
+  - title: 创造宝可梦，培育宝可梦
+    kind: interview
+    pub: Creatures 招聘网站「役员访谈」（原页没有日期；Wayback 最早存档…
+    date: '2025-12-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-creatures-recruit-director/
+    series: Creatures招聘
+    cover: /assets/img/interviews/2025-12-06-interview-creatures-recruit-director/001.jpg
+    cover_size:
+    - 912
+    - 1218
+  - title: 用声音让人沉浸宝可梦世界
+    kind: interview
+    pub: Creatures 招聘网站「社员访谈」（原页没有日期；Wayback 最早存档…
+    date: '2025-12-06'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-creatures-recruit-sound-creator/
+    series: Creatures招聘
+    cover: /assets/img/interviews/2025-12-06-interview-creatures-recruit-sound-creator/001.jpg
+    cover_size:
+    - 938
+    - 1252
+  - title: 兼顾游戏性与宝可梦魅力
+    kind: interview
+    pub: Creatures 招聘网站「社员访谈」（原页没有日期；Wayback 最早存档…
+    date: '2025-12-09'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-creatures-recruit-card-game-designer/
+    series: Creatures招聘
+    cover: /assets/img/interviews/2025-12-09-interview-creatures-recruit-card-game-designer/001.jpg
+    cover_size:
+    - 938
+    - 1252
 - year: 2026
-  docs: 25
+  docs: 26
   stream: 0
   kinds:
     interview: 16
     scan: 0
-    topic: 6
+    topic: 7
     article: 3
   streams: {}
   games:
@@ -2850,20 +4449,20 @@ years:
     core: true
     icon: /assets/img/works/home-champions.png
   people:
-  - name: 小幡敏宏
-    slug: obata-toshihiro
-    n: 3
   - name: 宗像快
     slug: munakata-kai
     n: 3
-  - name: Alfredo Spadafina
-    slug: alfredo-spadafina
+  - name: 小幡敏宏
+    slug: obata-toshihiro
+    n: 3
+  - name: 前泽圭一
+    slug: maezawa-keiichi
     n: 3
   - name: 赤木达也
     slug: chi-mu-da-ye-2
     n: 3
-  - name: 前泽圭一
-    slug: maezawa-keiichi
+  - name: Alfredo Spadafina
+    slug: alfredo-spadafina
     n: 3
   - name: 大森滋
     slug: ohmori-shigeru
@@ -2883,8 +4482,10 @@ years:
     icon2: /assets/img/works/home-moon.png
     n: 2
   - name: 宝可梦巡护员
+    icon: /assets/img/works/bulba-prevcicon.png
     n: 1
-  - name: Pokémon TCG Pocket
+  - name: 宝可梦集换式卡牌游戏 Pocket
+    icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
     n: 1
   picks:
   - title: 《ぽこ あ ポケモン》（Pokémon Pokopia）开发访谈
@@ -2892,6 +4493,7 @@ years:
     pub: Fami通.com（2026-02-16）
     date: '2026-02-16'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2026-pokopia/
+    series: Fami通.com（2
     blurb: Game Freak、宝可梦公司与光荣特库摩游戏三家共同开发，大森滋讲述企划原点。
     cover: /assets/img/interviews/2026-02-16-interview-famitsu-2026-pokopia/001.jpg
     cover_size:
@@ -2902,17 +4504,111 @@ years:
     pub: 4Gamer.net（2026-07-28）
     date: '2026-07-28'
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2026-cedec-battle/
+    series: 4Gamer.net（
     blurb: Game Freak在CEDEC 2026讲解支撑回合制与实时制的共通战斗系统设计。
     cover: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/020.jpg
     cover_size:
     - 1920
     - 1080
+  - title: 实录《宝可乐园 关东》的体验设计
+    kind: topic
+    pub: 虎ノ門広告祭 2026 官方网站 节目介绍（session 3099）
+    date: '2026-10-12'
+    url: /%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/event-toradfes-2026-pokepark-kanto-experience-design/
+    series: 虎ノ門広告祭2026官
+    blurb: 虎之门广告祭 2026 的一场座谈：株式会社宝可梦的鹿濑岛英介、大野达也与 SIX 的本山敬一、小暮菜月，谈《宝可乐园 关东》四年筹建中的判断。本篇收录官方节目介绍与四位登台者…
+    cover: /assets/img/interviews/2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design/kv.jpg
+  pool:
+  - title: 密阿雷市如何被画出来
+    kind: interview
+    pub: CGWORLD.jp（2026-09-17）
+    date: '2026-09-17'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2026-cedec-pkmnza/
+    series: CGWORLD.jp（
+    cover: /assets/img/interviews/2026-09-17-interview-cgworld-2026-cedec-pkmnza/001.jpg
+    cover_size:
+    - 1000
+    - 564
+  - title: 宝可梦30年 石原恒和访谈
+    kind: interview
+    pub: 产经新闻（産経ニュース）（2026-03-26）
+    date: '2026-03-26'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-ishihara-pokemon-30th/
+    series: 产经新闻（産経ニュース
+    cover: /assets/img/interviews/2026-03-26-interview-sankei-ishihara-pokemon-30th/001.jpg
+    cover_size:
+    - 1200
+    - 1340
+  - title: 多和田吏谈作曲人生
+    kind: interview
+    pub: Couch Co-op with Dr. Pez（Substack，2026-0…
+    date: '2026-09-21'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/
+    series: CouchCo-opw
+    cover: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/001.png
+    cover_size:
+    - 1620
+    - 1080
   - title: 『宝可梦 风与波 』PV1 逐帧分析＆水体情报解读
     kind: article
     pub: 微博头条文章 · 宝可梦友会
     date: '2026-03-04'
-    url: /%E7%AB%99%E4%B8%BB%E5%8E%9F%E5%88%9B/%E9%95%BF%E6%96%87/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/wind-and-wave-pv1-frame-analysis/
-    blurb: 上周去抢像素皮，PC门都进不去，颗粒无收。
+    url: /%E9%95%BF%E6%96%87%E5%88%86%E6%9E%90/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%8F%8B%E4%BC%9A/wind-and-wave-pv1-frame-analysis/
+    series: 微博头条文章·宝可梦友
+    cover: https://gallery.pokeamice.com/weibo-notes/006SNtUggy1iar9o1hwttj31hc0u0107.jpg
+    cover_size:
+    - 1600
+    - 900
+  - title: 宝可梦战斗系统基础设计
+    kind: interview
+    pub: CEDEC 2026 講演資料（CEDEC Digital Library）
+    date: '2026-07-22'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-battle-system-deck/
+    series: CEDEC2026講演
+    cover: /assets/img/interviews/2026-07-22-interview-cedec-2026-battle-system-deck/slide-01.jpg
+    cover_size:
+    - 960
+    - 1384
+  - title: 宝可梦对战系统为何重构
+    kind: interview
+    pub: 电Fami Nico Gamer（2026-07-22）
+    date: '2026-07-22'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-battle/
+    series: 电FamiNicoGa
+    cover: /assets/img/interviews/2026-07-22-interview-denfami-2026-cedec-battle/001.jpg
+    cover_size:
+    - 1920
+    - 1080
+  - title: 让宝可梦仿佛凭自己的意志行动
+    kind: interview
+    pub: Creatures 招聘网站「社员访谈」（原页没有日期；Wayback 最早存档…
+    date: '2026-02-15'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-creatures-recruit-cg-animator/
+    series: Creatures招聘
+    cover: /assets/img/interviews/2026-02-15-interview-creatures-recruit-cg-animator/001.jpg
+    cover_size:
+    - 938
+    - 1252
+  - title: CONTINUE Vol.31 自动化对照存档
+    kind: interview
+    pub: CONTINUE
+    date: '2026-08-29'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/continue-vol31-scan-archive/
+    series: CONTINUE
+    cover: /assets/images/scan-archive/continue-vol31-20260829/regions/p001-p001_o003_image_qwen-r3.jpg
+    cover_size:
+    - 804
+    - 1119
+  - title: 与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇
+    kind: interview
+    pub: ''
+    date: '2026-06-21'
+    url: /%E7%BF%BB%E8%AF%91/%E4%B8%93%E6%A0%8F%E7%BF%BB%E8%AF%91%20%E4%B8%8E%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8C%E8%A1%8C%E7%9A%8430%E5%B9%B41996%E5%B9%B4%E5%88%9D%E4%BB%A3%E3%80%8A%E7%BA%A2%C2%B7%E7%BB%BF%E3%80%8B%E4%B8%8E%E5%B9%BB%E4%B9%8B%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%A2%A6%E5%B9%BB%20%E5%89%8D%E7%AF%87/
+    series: 与宝可梦同行的30年【
+    cover: https://cimg.kgl-systems.io/camion/files/dengeki/67042/abab09351766b5a0dad7435692d20b203.jpg?x=1280
+    cover_size:
+    - 1280
+    - 719
 streams:
 - key: director
   name: 部长专栏
