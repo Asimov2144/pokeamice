@@ -1,40 +1,84 @@
-{% assign tl = site.data.timeline %}
-{% assign tl_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
-{% assign ty = page.timeline_year %}{% assign ty_s = ty | append: "" %}
-{% assign yd = tl.years | where: "year", ty | first %}
-{% assign y_group = tl_by_year | where: "name", ty_s | first %}
-{% include timeline-counts.html posts=y_group.items %}
-{% assign y_docs = tlc_documents | sort: "date" %}{% assign y_blogs = tlc_blogs | sort: "date" %}
-{% assign y_interview = tlc_interview %}{% assign y_scan = tlc_scan %}{% assign y_topic = tlc_topic %}{% assign y_article = tlc_article %}
-{% assign y_count = y_docs.size | plus: y_blogs.size %}
-{% assign months = y_docs | group_by_exp: "p", "p.date | date: '%m'" | sort: "name" %}
-{% assign era_now = nil %}{% for e in tl.eras %}{% if ty >= e.from and ty <= e.to %}{% assign era_now = e %}{% endif %}{% endfor %}
-{% assign era_key = era_now.from | append: "" %}{% assign era_copy = site.data.timeline_editorial[era_key] %}
-{% assign prev_y = nil %}{% assign next_y = nil %}
-{% for t in tl.years %}
-  {% assign neighbor_year = t.year | append: "" %}{% assign neighbor_group = tl_by_year | where: "name", neighbor_year | first %}
-  {% include timeline-counts.html posts=neighbor_group.items %}
-  {% if tlc_docs > 0 or tlc_stream > 0 %}{% if t.year < ty %}{% assign prev_y = t.year %}{% endif %}{% if t.year > ty and next_y == nil %}{% assign next_y = t.year %}{% endif %}{% endif %}
-{% endfor %}
-<div class="tl tl--year" data-tl-root data-tl-year="{{ ty }}">
-  <header class="tl-year-hero">
-    <div><p class="tl-eyebrow"><a href="{{ '/timeline/' | relative_url }}">资料时间线</a> / {{ era_copy.title | default: era_now.label }}</p><h1>{{ ty }}<span>年的声音与记录</span></h1><p class="tl-year-hero__facts"><b data-tl-year-docs>{{ y_docs.size }}</b> 篇文献 <span aria-hidden="true">/</span> <b data-tl-year-stream>{{ y_blogs.size }}</b> 篇开发者博客</p></div>
-    <nav class="tl-year-steps" aria-label="相邻年份">{% if prev_y %}<a href="{{ '/timeline/' | append: prev_y | append: '/' | relative_url }}" rel="prev"><span>上一年</span><b><span aria-hidden="true">←</span> {{ prev_y }}</b></a>{% endif %}{% if next_y %}<a href="{{ '/timeline/' | append: next_y | append: '/' | relative_url }}" rel="next"><span>下一年</span><b>{{ next_y }} <span aria-hidden="true">→</span></b></a>{% endif %}</nav>
-  </header>
-  <div class="tl-year-layout">
-    <aside class="tl-side">
-      <div class="tl-side__inner">
-        {% if months.size > 0 %}<p class="tl-side__label">本年目录 <span>INDEX</span></p><nav class="tl-month-nav" aria-label="月份导航">{% for m in months %}<a href="#m{{ m.name }}" data-tl-month-link="m{{ m.name }}" data-tl-section-link><b>{{ m.name }}<span>月</span></b><span data-tl-nav-count>{{ m.items.size }}</span></a>{% endfor %}{% if y_blogs.size > 0 %}<a href="#developers" data-tl-blog-link data-tl-section-link><b>开发者手记</b><span>{{ y_blogs.size }}</span></a>{% endif %}</nav>{% elsif y_blogs.size > 0 %}<a class="tl-text-link" href="#developers" data-tl-blog-link>开发者手记 <span aria-hidden="true">↓</span></a>{% endif %}
-        <details class="tl-navigation-tools" data-tl-nav-tools><summary><span>切换年份与背景</span><span aria-hidden="true">+</span></summary>
-          <div class="tl-enhance" hidden>{% include timeline-year-picker.html %}</div>
-          {% if yd.games.size > 0 or yd.people.size > 0 %}<details class="tl-context"><summary>这一年的作品与人物</summary>{% if yd.games.size > 0 %}<h2>发售作品</h2><div class="tl-works">{% for g in yd.games %}<a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="22" height="22" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="22" height="22" loading="lazy">{% endif %}{% endif %}<span>{{ g.title }}</span></a>{% endfor %}</div>{% endif %}{% if yd.people.size > 0 %}<h2>相关人物</h2><div class="tl-context__people">{% for p in yd.people %}{% assign timeline_person = p.slug | person_identity %}{% if timeline_person %}<a href="{{ timeline_person.url | relative_url }}">{% include person-name.html person=p.slug %}</a>{% else %}<span>{{ p.name | escape }}</span>{% endif %}{% endfor %}</div>{% endif %}<p class="tl-context__note">作品与人物关联来自时间轴资料表，不作为本页搜索结果统计。</p></details>{% endif %}
-        </details>
-        <a class="tl-back" href="{{ '/timeline/' | relative_url }}">← 全部年代</a>
-      </div>
-    </aside>
-    <div class="tl-year-content">
-      <div class="tl-toolbar tl-enhance" hidden>
-        <div class="tl-search"><label for="tl-search-input">在 {{ ty }} 年的资料中查找</label><div><input id="tl-search-input" type="search" autocomplete="off" spellcheck="false" placeholder="标题、来源、人物或作品" data-tl-query><button type="button" data-tl-clear-query aria-label="清空搜索" hidden>清空</button></div></div>
+{%- comment -%}
+A year of the timeline (/timeline/<year>/) as one torn-off sheet of the desk calendar on
+/timeline/ (_pages/timeline.md, 2026-10): the same desk, rings and paper (_timeline-calendar.scss),
+behind it the cover legends of the year's game as silhouettes in its version colours
+(_data/timeline_covers.yml), and in the sheet's corner the same legend the overview's sheet for
+this year shows. On the sheet: the year's games, its speakers (they glide past as the head scrolls
+by), a month index that sticks to the top like the overview's era tabs, the full list of documents
+with the kind filters and the search, and the Game Freak blogs folded under it.
+assets/js/timeline.js filters, sets the reader's time of day and season on the sheet's head, marks
+this month of the year, and slides the speakers. Without the script everything is listed, in daylight.
+{%- endcomment -%}
+{%- assign tl = site.data.timeline -%}
+{%- assign covers = site.data.timeline_covers -%}
+{%- assign tl_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+{%- assign ty = page.timeline_year -%}{%- assign ty_s = ty | append: "" -%}
+{%- assign yd = tl.years | where: "year", ty | first -%}
+{%- assign y_group = tl_by_year | where: "name", ty_s | first -%}
+{%- include timeline-counts.html posts=y_group.items -%}
+{%- assign y_docs = tlc_documents | sort: "date" -%}{%- assign y_blogs = tlc_blogs | sort: "date" -%}
+{%- assign y_interview = tlc_interview -%}{%- assign y_scan = tlc_scan -%}{%- assign y_topic = tlc_topic -%}{%- assign y_article = tlc_article -%}
+{%- assign y_count = y_docs.size | plus: y_blogs.size -%}
+{%- assign months = y_docs | group_by_exp: "p", "p.date | date: '%m'" | sort: "name" -%}
+{%- assign era_now = nil -%}{%- for e in tl.eras -%}{%- if ty >= e.from and ty <= e.to -%}{%- assign era_now = e -%}{%- endif -%}{%- endfor -%}
+{%- assign era_key = era_now.from | append: "" -%}{%- assign era_copy = site.data.timeline_editorial[era_key] -%}
+{%- assign yg = nil -%}{%- for g in covers -%}{%- if ty >= g.from and ty <= g.to -%}{%- assign yg = g -%}{%- endif -%}{%- endfor -%}
+{%- assign art = '/assets/img/timeline/' | relative_url -%}
+{%- assign prev_y = nil -%}{%- assign next_y = nil -%}
+{%- for t in tl.years -%}
+  {%- assign neighbor_year = t.year | append: "" -%}{%- assign neighbor_group = tl_by_year | where: "name", neighbor_year | first -%}
+  {%- include timeline-counts.html posts=neighbor_group.items -%}
+  {%- if tlc_docs > 0 or tlc_stream > 0 -%}{%- if t.year < ty -%}{%- assign prev_y = t.year -%}{%- endif -%}{%- if t.year > ty and next_y == nil -%}{%- assign next_y = t.year -%}{%- endif -%}{%- endif -%}
+{%- endfor -%}
+<div class="tlc tlc--year tl--year" data-tl-root data-tl-year="{{ ty }}" data-art="{{ art }}" style="--tlc-a: {{ yg.colors[0] }}; --tlc-b: {{ yg.colors[1] }}; --c1: {{ yg.colors[0] }}; --c2: {{ yg.colors[1] }}">
+  <div class="tlc-backdrop" aria-hidden="true"><div class="tlc-backdrop__stage">
+    <div class="tlc-gen is-on" data-tl-gen>
+      {%- for lg in yg.legends %}<i class="tlc-legend tlc-legend--{{ forloop.index }}" data-head="{{ lg.head }}" style="--src: url('{{ art }}legends/{{ lg.file | default: lg.form | default: lg.dex }}.png')"></i>{% endfor %}
+    </div>
+  </div></div>
+
+  <div class="tlc-desk">
+    <nav class="tlc-steps tl-year-steps" aria-label="相邻年份">
+      {%- if prev_y %}<a href="{{ '/timeline/' | append: prev_y | append: '/' | relative_url }}" rel="prev"><span aria-hidden="true">←</span> {{ prev_y }}</a>{% else %}<span></span>{% endif %}
+      <a class="tl-back" href="{{ '/timeline/' | relative_url }}#y{{ ty }}">整本台历</a>
+      {%- if next_y %}<a href="{{ '/timeline/' | append: next_y | append: '/' | relative_url }}" rel="next">{{ next_y }} <span aria-hidden="true">→</span></a>{% else %}<span></span>{% endif %}
+    </nav>
+    <div class="tlc-rings" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+    <article class="tlc-sheet tlc-sheet--year">
+      {%- assign li = ty | minus: yg.from | modulo: yg.legends.size %}{% assign sl = yg.legends[li] %}
+      <header class="tlc-sky tlc-yhead" data-tod="day" data-tl-sky>
+        <i class="tlc-sheet__legend" aria-hidden="true" data-head="{{ sl.head }}" style="--src: url('{{ art }}legends/{{ sl.file | default: sl.form | default: sl.dex }}.png')"></i>
+        <div class="tlc-sheet__holes" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="tlc-k tlc-yhead__era">{{ era_copy.title | default: era_now.label }}<span data-tl-tod></span></p>
+        <h1 class="tlc-yhead__year">{{ ty }}<small>年的声音与记录</small></h1>
+        <p class="tlc-yhead__count"><span><b data-tl-year-docs>{{ y_docs.size }}</b> 篇文献</span>{% if y_blogs.size > 0 %}<span><b data-tl-year-stream>{{ y_blogs.size }}</b> 篇开发者博客</span>{% endif %}</p>
+        <p class="tlc-sheet__gen"><i aria-hidden="true"></i>{{ yg.label }}{% if yg.who %} · {{ yg.who }}{% elsif yg.legends.size > 0 %} · {% for lg in yg.legends %}{{ lg.name }}{% unless forloop.last %}／{% endunless %}{% endfor %}{% endif %}</p>
+      </header>
+
+      {%- if yd.games.size > 0 %}
+      <p class="tlc-works" aria-label="{{ ty }} 年发售的作品">{% for g in yd.games %}<a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}" title="{{ g.title }} · 制作名单">{% if g.icon %}<img src="{{ g.icon | relative_url }}" alt="" width="20" height="20" loading="lazy">{% if g.icon2 %}<img src="{{ g.icon2 | relative_url }}" alt="" width="20" height="20" loading="lazy">{% endif %}{% endif %}<span>{{ g.title | remove_first: "宝可梦 " }}</span></a>{% endfor %}</p>
+      {%- endif %}
+      {%- if yd.people.size > 0 %}
+      <div class="tlc-passers" aria-label="{{ ty }} 年说话的人"><div class="tlc-passers__row" data-tl-passers>
+        {%- for who in yd.people limit: 24 %}{% assign pr = site.data.people | where: "slug", who.slug | first %}{% assign pid = who.slug | person_identity %}
+        {% if pid %}<a href="{{ pid.url | relative_url }}" class="tlc-passer">{% else %}<span class="tlc-passer">{% endif %}{% if pr.avatar %}<img src="{{ pr.avatar | relative_url }}" alt="" width="26" height="26" decoding="async">{% else %}<i aria-hidden="true">{{ who.name | slice: 0, 1 }}</i>{% endif %}<span>{{ who.name }}</span>{% if pid %}</a>{% else %}</span>{% endif %}
+        {%- endfor %}
+      </div></div>
+      {%- endif %}
+      <p class="tlc-thismonth" data-tl-thismonth hidden></p>
+
+      {%- if months.size > 0 or y_blogs.size > 0 %}
+      <nav class="tlc-tabs tlc-months" aria-label="月份">
+        {%- for n in (1..12) %}{% assign mm = n | prepend: "0" | slice: -2, 2 %}{% assign mg = nil %}{% for m in months %}{% if m.name == mm %}{% assign mg = m %}{% endif %}{% endfor %}
+        {% if mg %}<a href="#m{{ mm }}" data-tl-month-link="m{{ mm }}" data-tl-section-link data-month="{{ n }}"><b>{{ mm }}</b><span data-tl-nav-count>{{ mg.items.size }}</span></a>{% else %}<span class="is-empty" data-month="{{ n }}"><b>{{ mm }}</b><span>·</span></span>{% endif %}
+        {%- endfor %}
+        {% if y_blogs.size > 0 %}<a class="tlc-months__blog" href="#developers" data-tl-blog-link data-tl-section-link><b>手记</b><span>{{ y_blogs.size }}</span></a>{% endif %}
+      </nav>
+      {%- endif %}
+
+      <div class="tlc-tools tl-toolbar tl-enhance" hidden>
+        <div class="tl-search"><label for="tl-search-input" class="tlc-k">在 {{ ty }} 年的资料中查找</label><div><input id="tl-search-input" type="search" autocomplete="off" spellcheck="false" placeholder="标题、来源、人物或作品" data-tl-query><button type="button" data-tl-clear-query aria-label="清空搜索" hidden>清空</button></div></div>
         <div class="tl-filters" role="group" aria-label="资料类型">
           <button type="button" data-tl-filter="all" class="is-on" aria-pressed="true">全部 <span>{{ y_count }}</span></button>
           {% if y_interview > 0 %}<button type="button" data-tl-filter="interview" aria-pressed="false">访谈与报道 <span>{{ y_interview }}</span></button>{% endif %}
@@ -45,23 +89,42 @@
         </div>
       </div>
       <p class="tl-result-status" data-tl-status role="status" aria-live="polite">{{ y_count }} 篇记录 · 按发表日期从早到晚排列</p>
-      <section class="tl-empty" data-tl-empty hidden><p class="tl-eyebrow">NO MATCHES</p><h2>这一年，没有找到匹配的资料。</h2><p>试试更短的关键词，或查看其他类型。</p><button type="button" data-tl-reset>清除搜索与筛选</button></section>
-      {% if y_count == 0 %}<p class="tl-empty">这一年尚无收录。<a href="{{ '/timeline/' | relative_url }}">回到时间线选择其他年份。</a></p>{% endif %}
-      {% for m in months %}<section class="tl-month" id="m{{ m.name }}" data-tl-month data-tl-section><header class="tl-month__head"><h2><span>{{ m.name }}</span> 月</h2><p><b data-tl-count>{{ m.items.size }}</b> 篇文献</p></header><ol class="tl-entries">{% for p in m.items %}{% include timeline-entry.html post=p %}{% endfor %}</ol></section>{% endfor %}
-      {% if y_blogs.size > 0 %}
-      {% assign s_dir = y_blogs | where: "archive_type", "gamefreak_director_column" %}
-      {% assign s_line = y_blogs | where: "archive_type", "gamefreak_masuda_lineblog" %}
-      {% assign s_staff = y_blogs | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "staff" %}
-      {% assign s_art = y_blogs | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "art" %}
-      <section class="tl-streams" id="developers" data-tl-streams data-tl-section><header class="tl-streams__head"><p class="tl-eyebrow">DEVELOPER JOURNALS / {{ ty }}</p><h2>开发者手记</h2><p>短篇日常另放一架，不打断文献的阅读顺序。<b data-tl-blog-count>{{ y_blogs.size }}</b> 篇博客，按栏目展开。</p></header>
+      <section class="tl-empty" data-tl-empty hidden><p class="tlc-k">NO MATCHES</p><h2>这一年，没有找到匹配的资料。</h2><p>试试更短的关键词，或查看其他类型。</p><button type="button" data-tl-reset>清除搜索与筛选</button></section>
+      {%- if y_count == 0 %}<p class="tl-empty">这一年尚无收录。<a href="{{ '/timeline/' | relative_url }}">回到时间线选择其他年份。</a></p>{% endif %}
+
+      {%- for m in months %}
+      <section class="tl-month" id="m{{ m.name }}" data-tl-month data-tl-section data-month="{{ m.name | plus: 0 }}">
+        <header class="tl-month__head"><h2><span>{{ m.name }}</span>月</h2><p><b data-tl-count>{{ m.items.size }}</b> 篇文献</p></header>
+        <ol class="tl-entries">{% for p in m.items %}{% include timeline-entry.html post=p %}{% endfor %}</ol>
+      </section>
+      {%- endfor %}
+
+      {%- if y_blogs.size > 0 %}
+      {%- assign s_dir = y_blogs | where: "archive_type", "gamefreak_director_column" %}
+      {%- assign s_line = y_blogs | where: "archive_type", "gamefreak_masuda_lineblog" %}
+      {%- assign s_staff = y_blogs | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "staff" %}
+      {%- assign s_art = y_blogs | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "art" %}
+      <section class="tl-streams" id="developers" data-tl-streams data-tl-section>
+        <header class="tl-streams__head"><p class="tlc-k">DEVELOPER JOURNALS · {{ ty }}</p><h2>开发者手记</h2><p>短篇日常折在页尾，不打断文献的顺序。<b data-tl-blog-count>{{ y_blogs.size }}</b> 篇博客，按栏目展开。</p></header>
         {% include timeline-stream.html name="部长专栏" list=s_dir %}
         {% include timeline-stream.html name="员工博客《晴时偶有阴》" list=s_staff %}
         {% include timeline-stream.html name="增田顺一 LINE 博客" list=s_line %}
         {% include timeline-stream.html name="杉森建的お絵かき日和" list=s_art %}
       </section>
-      {% endif %}
-      <footer class="tl-foot"><a href="{{ '/timeline/' | relative_url }}">← 回到年代目录</a>{% if next_y %}<a href="{{ '/timeline/' | append: next_y | append: '/' | relative_url }}">接着读 {{ next_y }} 年 →</a>{% endif %}</footer>
-    </div>
+      {%- endif %}
+
+      <footer class="tlc-sheet__foot tlc-yfoot">
+        {%- if prev_y %}<a href="{{ '/timeline/' | append: prev_y | append: '/' | relative_url }}"><span aria-hidden="true">←</span> {{ prev_y }} 年</a>{% endif %}
+        {%- if next_y %}<a href="{{ '/timeline/' | append: next_y | append: '/' | relative_url }}">接着翻 {{ next_y }} 年 <span aria-hidden="true">→</span></a>{% else %}<span>翻到这里是最后一页。</span>{% endif %}
+      </footer>
+    </article>
+    <noscript><p class="tlc-end">全部资料已直接显示；搜索与类型筛选需要启用 JavaScript。月份、年份与文章链接不受影响。</p></noscript>
   </div>
-  <noscript><p class="tl-foot">全部资料已直接显示；搜索与类型筛选需要启用 JavaScript。月份、年份与文章链接不受影响。</p></noscript>
+
+  <details class="tlc-jump" data-tl-jump>
+    <summary aria-label="跳到某一年"><img src="{{ art }}celebi.png" alt="" width="44" height="40"><span>跳到某一年</span></summary>
+    <nav class="tlc-jump__years" aria-label="年份">
+      {%- for t in tl.years %}{% assign jy = t.year | append: "" %}{% assign jg = tl_by_year | where: "name", jy | first %}{% if jg.items.size > 0 %}{% assign jc = nil %}{% for g in covers %}{% if t.year >= g.from and t.year <= g.to %}{% assign jc = g %}{% endif %}{% endfor %}<a href="{{ '/timeline/' | append: t.year | append: '/' | relative_url }}" style="--c1: {{ jc.colors[0] }}"{% if t.year == ty %} aria-current="page"{% endif %}>{{ t.year }}</a>{% endif %}{% endfor %}
+    </nav>
+  </details>
 </div>

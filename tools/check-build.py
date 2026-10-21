@@ -186,14 +186,22 @@ def main() -> int:
     legends = [re.search(r"url\('([^']+)'\)", i.get("style") or "") for i in tl_index.select(".tlc-legend, .tlc-sheet__legend")] if tl_index else []
     check(len(gens) >= 9 and legends and all(m and exists(site, m.group(1)) for m in legends),
           f"timeline: {len(gens)} generation layers, {len(legends)} silhouettes, every picture built")
+    #  a year page (_includes/timeline-year.html) is one sheet of the same calendar: its cover legends
+    #  behind it, twelve month tabs, every document, the blogs folded, Celebi to the other years
     y2010 = read(site / "timeline" / "2010" / "index.html")
     if y2010:
         check(len(y2010.select(".tl-item")) >= 40 and len(y2010.select("details.tl-stream")) >= 1,
               f"timeline: 2010 has {len(y2010.select('.tl-item'))} cards and {len(y2010.select('details.tl-stream'))} folded blogs")
         check([t for t, _ in trail(y2010)][:2] == ["首页", "时间线"], f"timeline: the year sits under 时间线 {trail(y2010)[:3]}")
-        steps = y2010.select(".tl-year-steps a, .tl-works a, .tl-context__people a, a.tl-back")
-        check(len(steps) >= 3 and all(exists(site, a.get("href") or "") for a in steps),
-              f"timeline: the neighbouring years, the games and the people of 2010 resolve ({len(steps)} links)")
+        steps = y2010.select(".tl-year-steps a, .tlc-works a, a.tlc-passer, .tlc-yfoot a, .tlc-jump__years a")
+        check(len(steps) >= 10 and all(exists(site, a.get("href") or "") for a in steps),
+              f"timeline: the neighbouring years, the games, the people of 2010 and Celebi's years resolve ({len(steps)} links)")
+        y_legends = [re.search(r"url\('([^']+)'\)", i.get("style") or "") for i in y2010.select(".tlc-legend, .tlc-sheet__legend")]
+        tabs = y2010.select(".tlc-months > [data-month]")
+        linked = [a for a in tabs if a.name == "a"]
+        check(len(y_legends) >= 2 and all(m and exists(site, m.group(1)) for m in y_legends)
+              and len(tabs) == 12 and linked and all(y2010.select_one(a.get("href")) for a in linked),
+              f"timeline: 2010 stands on {len(y_legends)} silhouettes, {len(tabs)} month tabs, {len(linked)} linked to their month")
     else:
         check(False, "timeline: 2010 is built")
 

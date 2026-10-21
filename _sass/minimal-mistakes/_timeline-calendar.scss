@@ -4,7 +4,8 @@
    each generation as silhouettes in its version colours (a mask of the HOME render
    filled with a gradient and an engraved line pattern). assets/js/timeline-calendar.js
    cross-fades the generations with the scroll and sets --tlc-a / --tlc-b, the time of
-   day (data-tod) and the season. The year pages keep _timeline.scss.
+   day (data-tod) and the season. The year pages (/timeline/<year>/, .tlc--year) are one
+   sheet of the same calendar, at the end of this file; _timeline.scss holds the previous look.
    ========================================================================== */
 
 $tlc-ink: #1a2430;
@@ -488,4 +489,293 @@ body.theme-bg-black .tlc {
   .tlc-sheet a.tlc-sheet__year, .tlc-sheet a.tlc-sheet__year:visited { color: #f1f4f8 !important; }
   .tlc-sheet__count, .tlc-facts, .tlc-era__head p { color: #aab3be; }
   .tlc-works a, .tlc-entries .tl-entry, .tlc-sheet__note { border-color: #313a45; color: #c3cad3; }
+}
+
+/* ==========================================================================
+   A year (/timeline/<year>/, _includes/timeline-year.html): one torn-off sheet.
+   The overview's desk, rings and paper; the head is a band of the reader's sky (time of
+   day, set by assets/js/timeline.js) with the year's cover legend cut by the paper's edge;
+   the months stick to the top as tabs, a perforation between them.
+   ========================================================================== */
+.tlc--year {
+  [hidden] { display: none !important; }
+  :is(button, input) { font: inherit; color: inherit; }
+  :is(a, button, input, summary):focus-visible { outline: 2px solid $tlc-accent; outline-offset: 3px; }
+  .tlc-desk { padding-top: 0; }
+  .tlc-gen { animation: tlc-rise .9s cubic-bezier(.2, .7, .2, 1) both; }   // the one thing that moves on arrival
+}
+@keyframes tlc-rise {
+  from { opacity: 0; transform: translate3d(0, 4vh, 0) scale(.97); }
+  to { opacity: 1; transform: none; }
+}
+
+/* the neighbouring years, above the rings */
+.tlc-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 4px 8px;
+  font-family: $tlc-mono;
+  font-size: 12.5px;
+  a { padding: 6px 2px; color: $tlc-soft; }
+  a:hover { color: $tlc-accent; }
+  .tl-back { font-family: $tlc-font; font-size: 12px; color: $tlc-faint; }
+}
+
+.tlc-sheet--year {
+  overflow: clip;          // not hidden: the month tabs stick to the window, not to the sheet
+  padding-top: 0;
+}
+.tlc-yhead {
+  margin: 0 -18px;
+  padding: 28px 18px 16px;
+  min-height: 0;
+  > :not(.tlc-sheet__legend):not(.tlc-sheet__holes) { position: relative; z-index: 1; }
+  .tlc-sheet__legend { top: 12px; right: -44px; width: 250px; height: 250px; opacity: .2; }
+  &[data-tod="night"] .tlc-sheet__legend { opacity: .3; }
+  .tlc-sheet__gen { margin-top: 12px; }
+  @media (max-width: 560px) {
+    .tlc-sheet__legend { width: 180px; height: 180px; right: -40px; top: 18px; opacity: .22; }
+  }
+}
+.tlc-yhead__era {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 8px;
+  color: inherit;
+  opacity: .8;
+  span:not(:empty)::before { content: "·"; margin-right: 8px; }
+  @media (max-width: 560px) { flex-direction: column; span::before { display: none; } }
+}
+.tlc-yhead__year {
+  margin: 8px 0 0;
+  font-size: clamp(62px, 15vw, 96px);
+  font-weight: 800;
+  line-height: .9;
+  letter-spacing: -.04em;
+  color: inherit;
+  small { margin-left: 10px; font-size: 15px; font-weight: 600; letter-spacing: 0; }
+  @media (max-width: 400px) { small { display: block; margin: 8px 0 0; } }
+}
+.tlc-yhead__count {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+  margin: 12px 0 0;
+  font-size: 12.5px;
+  b { margin-right: 2px; font-size: 18px; }
+}
+.tlc-thismonth {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px 6px;
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: $tlc-soft;
+  img { width: 14px; height: auto; }
+  a { color: $tlc-accent; font-weight: 600; }
+}
+
+/* the twelve months, as tabs; a month with nothing in it stays as a blank tab */
+.tlc--year .tlc-sheet > .tlc-months {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  grid-template-columns: repeat(12, minmax(0, 1fr)) auto;
+  gap: 3px;
+  margin: 18px -18px 0;
+  padding: 8px 12px 0;
+  background: rgba(255, 255, 255, .9);
+  > a, > span { display: block; padding: 6px 1px 5px; }
+  > span { border: 1px solid $tlc-rule; border-bottom: 0; border-radius: 7px 7px 0 0; background: transparent; text-align: center; color: #c3cad3; }
+  b { font-size: 11.5px; }
+  .is-empty { pointer-events: none; color: #c3cad3; background: transparent; b { font-weight: 500; } }
+  .is-now b::after { content: ""; display: block; width: 5px; height: 5px; margin: 2px auto 0; border-radius: 50%; background: var(--c1); }
+  .tlc-months__blog { padding-inline: 10px; }
+  @media (max-width: 560px) {
+    gap: 2px;
+    padding-inline: 8px;
+    > span { display: block; }
+    > span > span { display: none; }
+    b { font-size: 10.5px; }
+    .tlc-months__blog { padding-inline: 6px; }
+  }
+}
+
+/* search and kinds */
+.tlc-tools { margin: 16px 0 0; }
+.tlc--year {
+  .tl-search label { display: block; margin: 0 0 6px; }
+  .tl-search > div {
+    display: flex;
+    align-items: center;
+    max-width: 520px;
+    padding: 0 6px 0 14px;
+    border: 1px solid $tlc-rule;
+    border-radius: 999px;
+    background: #fff;
+    &:focus-within { border-color: $tlc-soft; }
+  }
+  .tl-search input {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding: 8px 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 1.4;
+    &::placeholder { color: $tlc-faint; opacity: 1; }
+    &::-webkit-search-cancel-button { display: none; }
+    &:focus-visible { outline: 0; }
+  }
+  .tl-search button { padding: 6px 8px; border: 0; background: transparent; font-size: 12px; color: $tlc-soft; cursor: pointer; }
+  .tl-filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+  .tl-filters button {
+    padding: 3px 11px;
+    border: 1px solid $tlc-rule;
+    border-radius: 999px;
+    background: transparent;
+    font-size: 12.5px;
+    color: $tlc-soft;
+    cursor: pointer;
+    span { margin-left: 2px; font-family: $tlc-mono; font-size: 11px; color: $tlc-faint; }
+    &:hover { color: $tlc-ink; border-color: #cfd6de; }
+    &.is-on { border-color: $tlc-ink; background: color-mix(in srgb, var(--c1) 10%, #fff); color: $tlc-ink; font-weight: 700; }
+  }
+  .tl-result-status { margin: 10px 0 14px; font-size: 12px; color: $tlc-faint; }
+  .tl-empty {
+    margin: 0 -18px;
+    padding: 26px 18px;
+    border-top: 1px dashed #d5dce4;
+    h2 { margin: 6px 0; font-size: 19px; font-weight: 800; color: $tlc-ink; }
+    p { margin: 0; font-size: 13px; color: $tlc-soft; }
+    button { margin-top: 14px; padding: 4px 14px; border: 1px solid $tlc-rule; border-radius: 999px; background: transparent; font-size: 13px; color: $tlc-accent; cursor: pointer; }
+  }
+}
+
+/* a month: a strip of the sheet, torn along the perforation */
+.tlc--year .tl-month {
+  margin: 0 -18px;
+  padding: 20px 18px 4px;
+  border-top: 1px dashed #d5dce4;
+  scroll-margin-top: 52px;
+}
+.tlc--year .tl-month__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 0 6px;
+  h2 { margin: 0; font-size: 13px; font-weight: 600; color: $tlc-soft; }
+  h2 span { margin-right: 3px; font-size: 34px; font-weight: 800; line-height: 1; letter-spacing: -.03em; color: $tlc-ink; }
+  p { margin: 0; font-size: 12px; color: $tlc-faint; b { color: $tlc-ink; font-weight: 600; } }
+}
+.tlc--year .tl-entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  .tl-entry {
+    display: grid;
+    grid-template-columns: 46px minmax(0, 1fr);
+    gap: 12px;
+    align-items: start;
+    margin: 0;
+    padding: 14px 0;
+    border-top: 1px solid $tlc-rule;
+  }
+  .tl-entry.has-cover { grid-template-columns: 46px minmax(0, 1fr) 64px; }
+  .tl-entry__date { padding-top: 3px; font-family: $tlc-mono; font-size: 11.5px; color: $tlc-faint; }
+  .tl-entry__body { min-width: 0; }
+  .tl-entry__meta { display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; font-size: 11.5px; color: $tlc-faint; overflow-wrap: anywhere; }
+  .tl-entry__kind { color: #b45309; }
+  .tl-entry[data-kind="interview"] .tl-entry__kind { color: #2b6cb0; }
+  .tl-entry[data-kind="topic"] .tl-entry__kind { color: #0f766e; }
+  .tl-entry__title { margin: 2px 0 0; font-size: 16px; line-height: 1.55; font-weight: 700; overflow-wrap: anywhere; a { color: $tlc-ink; } a:hover { color: $tlc-accent; } }
+  .tl-entry__summary { margin: 6px 0 0; font-size: 13.5px; line-height: 1.75; color: $tlc-soft; overflow-wrap: anywhere; }
+  .tl-entry__people { margin: 6px 0 0; font-size: 12px; color: $tlc-faint; > span { padding: 0 4px; } }
+  .tl-entry__image img { display: block; width: 64px; height: 78px; object-fit: cover; border-radius: 3px; border: 1px solid $tlc-rule; }
+  @media (max-width: 560px) {
+    .tl-entry { grid-template-columns: 38px minmax(0, 1fr); gap: 10px; }
+    .tl-entry.has-cover { grid-template-columns: 38px minmax(0, 1fr) 52px; }
+    .tl-entry__image img { width: 52px; height: 64px; }
+    .tl-entry__title { font-size: 15px; }
+    .tl-entry__summary { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+  }
+}
+
+/* the Game Freak blogs, folded at the foot of the sheet */
+.tlc--year .tl-streams {
+  margin: 0 -18px;
+  padding: 22px 18px 8px;
+  border-top: 1px dashed #d5dce4;
+  background: color-mix(in srgb, #{$tlc-desk} 60%, transparent);
+  scroll-margin-top: 52px;
+}
+.tlc--year .tl-streams__head {
+  margin-bottom: 10px;
+  h2 { margin: 4px 0; font-size: 20px; font-weight: 800; color: $tlc-ink; }
+  p:not(.tlc-k) { margin: 0; font-size: 13px; color: $tlc-soft; }
+  b { font-weight: 600; color: $tlc-ink; }
+}
+.tlc--year .tl-stream {
+  border-top: 1px solid $tlc-rule;
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding: 12px 0;
+    list-style: none;
+    font-size: 14.5px;
+    font-weight: 700;
+    color: $tlc-ink;
+    cursor: pointer;
+    &::-webkit-details-marker { display: none; }
+    > span:last-child { flex: none; font-size: 12px; font-weight: 400; color: $tlc-faint; }
+    i { display: inline-block; margin-left: 10px; font-style: normal; font-family: $tlc-mono; font-size: 15px; transition: transform .18s ease; }
+  }
+  &[open] summary i { transform: rotate(45deg); }
+}
+.tlc--year .tl-stream__list {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  li { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 12px; padding: 6px 0; font-size: 14px; line-height: 1.6; }
+  time { padding-top: 2px; font-family: $tlc-mono; font-size: 11.5px; color: $tlc-faint; }
+  a { color: $tlc-ink; overflow-wrap: anywhere; }
+  a:hover { color: $tlc-accent; }
+  @media (max-width: 560px) { li { grid-template-columns: 38px minmax(0, 1fr); gap: 10px; } }
+}
+.tlc-yfoot {
+  justify-content: space-between;
+  gap: 12px;
+  > :last-child { margin-left: auto; }
+  span { color: $tlc-faint; }
+}
+.tlc--year .tlc-jump__years a[aria-current] { background: $tlc-ink; color: #fff; }
+
+/* the site's night theme: the paper goes dark, and so does the reader's sky
+   (outranks the theme's own `body.theme-bg-black:not(…):not(…) a { color: … !important }`) */
+body.theme-bg-black:not(.archive-reproduction-theme) .tlc.tlc--year {
+  a, a:visited, h1, h2, h3 { color: inherit !important; }
+  a:hover { color: #8fb8e8 !important; }
+  .tlc-yhead { color: #e6eaf0; background: linear-gradient(180deg, #23384f 0%, #1d232b 100%); }
+  .tlc-yhead[data-tod="morning"] { background: linear-gradient(180deg, #4a3326 0%, #1d232b 100%); }
+  .tlc-yhead[data-tod="evening"] { background: linear-gradient(180deg, #55301c 0%, #1d232b 100%); }
+  .tlc-yhead[data-tod="night"] { background: linear-gradient(180deg, #141b33 0%, #1d232b 100%); }
+  .tlc-sheet > .tlc-months { background: rgba(29, 35, 43, .92); > span, .is-empty { color: #4a5360 !important; border-color: #313a45; } }
+  .tlc-steps a, .tlc-thismonth, .tl-entry__summary, .tl-streams__head p:not(.tlc-k), .tl-empty p, .tl-filters button { color: #aab3be; }
+  .tlc-thismonth a { color: #8fb8e8 !important; }
+  .tl-month, .tl-streams, .tl-empty { border-color: #3a4450; }
+  .tl-month__head h2 span, .tl-entry__title, .tl-stream summary, .tl-stream__list a, .tl-streams__head h2, .tl-month__head p b { color: #f1f4f8; }
+  .tl-entries .tl-entry, .tl-stream, .tl-search > div, .tl-filters button, .tl-entry__image img { border-color: #313a45; }
+  .tl-search > div { background: #252c35; }
+  .tl-filters button.is-on { border-color: #c3cad3; background: color-mix(in srgb, var(--c1) 22%, #1d232b); color: #fff; }
+  .tl-streams { background: rgba(37, 44, 53, .5); }
+  .tlc-jump__years a[aria-current] { background: #f1f4f8; color: #12161c !important; }
 }
