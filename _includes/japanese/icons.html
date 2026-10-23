@@ -1,0 +1,29 @@
+{%- comment -%}
+  The Japanese edition's icon set: one sprite, drawn for this page (24 x 24, a 1.6 stroke in the current ink colour,
+  round ends - a fountain-pen line). Use <svg class="ji"><use href="#ji-..."/></svg>. Included once by _layouts/japanese-archive.html.
+{%- endcomment -%}
+<svg class="ja-sprite" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <defs>
+    <!-- ink that has bled into the paper: the stamps are run through this -->
+    <filter id="ji-ink" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/>
+    </filter>
+  </defs>
+  <symbol id="ji-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3 9h18M7 13h6M7 16h4"/></symbol>
+  <symbol id="ji-press" viewBox="0 0 24 24"><path d="M5 4h11a1 1 0 0 1 1 1v14H6a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1z"/><path d="M17 8h3v9a2 2 0 0 1-2 2"/><path d="M7.5 8h6M7.5 11h6M7.5 14h3.5"/></symbol>
+  <symbol id="ji-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20c.6-4 3.2-6 6.5-6s5.9 2 6.5 6"/></symbol>
+  <symbol id="ji-talk" viewBox="0 0 24 24"><path d="M4 5h10a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H8l-3 3v-3H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/><path d="M10 16v.2a.8.8 0 0 0 .8.8H16l3 3v-3h1a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-4"/></symbol>
+  <symbol id="ji-timeline" viewBox="0 0 24 24"><path d="M3 14h18"/><path d="M6 14v-4M12 14V6M18 14v-3"/><circle cx="6" cy="8" r="1.4"/><circle cx="12" cy="4" r="1.4"/><circle cx="18" cy="9" r="1.4"/><path d="M6 18v2M12 18v2M18 18v2"/></symbol>
+  <symbol id="ji-drawer" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="1.2"/><rect x="3" y="13" width="18" height="7" rx="1.2"/><path d="M10 7.5h4M10 16.5h4"/></symbol>
+  <symbol id="ji-note" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 12h7M9 16h5"/></symbol>
+  <symbol id="ji-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="M15 15l5 5"/></symbol>
+  <symbol id="ji-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c3 3 3 14 0 17M12 3.5c-3 3-3 14 0 17"/></symbol>
+  <symbol id="ji-out" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="ji-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h5.2M15.3 12h5.2"/><circle cx="12" cy="12" r="3.2"/></symbol>
+  <symbol id="ji-book" viewBox="0 0 24 24"><rect x="5" y="3.5" width="14" height="17" rx="1"/><path d="M8.5 3.5v17M6.7 6.5v2M6.7 11v2M6.7 15.5v2"/></symbol>
+  <symbol id="ji-scroll" viewBox="0 0 24 24"><path d="M7 4h11a2 2 0 0 1 2 2v1H9"/><path d="M7 4a2 2 0 0 0-2 2v11a2.5 2.5 0 0 0 2.5 2.5H19a1 1 0 0 0 1-1V7"/><path d="M9 11h7M9 14.5h5"/></symbol>
+  <symbol id="ji-up" viewBox="0 0 24 24"><path d="M6 14l6-6 6 6M6 19h12"/></symbol>
+  <symbol id="ji-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="ji-tag" viewBox="0 0 24 24"><path d="M4 6a2 2 0 0 1 2-2h6l8 8-7 7a1.5 1.5 0 0 1-2 0L4 13z"/><circle cx="8.5" cy="8.5" r="1.2"/></symbol>
+</svg>

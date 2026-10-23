@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{%- comment -%}
+  The Japanese edition's entrance, drawn as a Japanese reading-room: washi ground, sumi and indigo ink, a vermilion
+  seal. Its own look (assets/css/japanese-archive.css, .ja-*), not the English or Chinese front desk's.
+  Data: site.data.ja_discovery (_plugins/japanese_discovery.rb).
+{%- endcomment -%}
+{% assign ja = site.data.ja_discovery %}
+{% include japanese/icons.html %}
+<main class="ja-arc" id="main" lang="ja">
+  <nav class="ja-nav" aria-label="ページ内の見出し">
+    <a href="#nenpyo"><svg class="ji" aria-hidden="true"><use href="#ji-timeline"/></svg>年表</a>
+    <a href="#find"><svg class="ji" aria-hidden="true"><use href="#ji-search"/></svg>探す</a>
+    <a href="#list"><svg class="ji" aria-hidden="true"><use href="#ji-drawer"/></svg>一覧</a>
+    <a href="#notes"><svg class="ji" aria-hidden="true"><use href="#ji-note"/></svg>注記</a>
+    <span class="ja-nav__langs"><a href="{{ '/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">中文</a><a href="{{ '/en/' | relative_url }}" hreflang="en" lang="en">English</a></span>
+  </nav>
+
+  <header class="ja-hero">
+    <div class="ja-hero__text">
+      <p class="ja-eyebrow"><svg class="ji" aria-hidden="true"><use href="#ji-book"/></svg>Poke Amice Docs 日本語版 <span>資料室</span></p>
+      {%- assign title_bits = page.title | split: '（' -%}
+      <h1>{{ title_bits[0] }}{% if title_bits.size > 1 %}<span class="ja-h1-sub">（{{ title_bits[1] }}</span>{% endif %}</h1>
+      <p class="ja-lead">{{ page.description }}</p>
+      <ul class="ja-stats" aria-label="収録の概要">
+        <li><svg class="ji" aria-hidden="true"><use href="#ji-card"/></svg><b>{{ ja.count }}</b><span>本のインタビュー</span></li>
+        <li><svg class="ji" aria-hidden="true"><use href="#ji-press"/></svg><b>{{ ja.outlets.size }}</b><span>の媒体</span></li>
+        <li><svg class="ji" aria-hidden="true"><use href="#ji-globe"/></svg><b>{{ ja.languages.size }}</b><span>つの原文言語</span></li>
+        <li><svg class="ji" aria-hidden="true"><use href="#ji-timeline"/></svg><b>{{ ja.first_year }}–{{ ja.last_year }}</b><span>年の掲載</span></li>
+      </ul>
+    </div>
+    <svg class="ja-hero__art" viewBox="0 0 380 280" aria-hidden="true" focusable="false">
+      <defs>
+        <pattern id="ja-sei" width="40" height="20" patternUnits="userSpaceOnUse">
+          <g fill="#f5f0e4" stroke="#1e3a5f" stroke-width="1" stroke-opacity=".5">
+            <circle cx="0" cy="20" r="20"/><circle cx="40" cy="20" r="20"/>
+            <circle cx="20" cy="10" r="20"/>
+          </g>
+          <g fill="none" stroke="#1e3a5f" stroke-width="1" stroke-opacity=".5">
+            <circle cx="0" cy="20" r="14"/><circle cx="0" cy="20" r="8"/><circle cx="40" cy="20" r="14"/><circle cx="40" cy="20" r="8"/>
+            <circle cx="20" cy="10" r="14"/><circle cx="20" cy="10" r="8"/>
+          </g>
+        </pattern>
+      </defs>
+      <circle cx="196" cy="116" r="100" fill="none" stroke="#1e3a5f" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-dasharray="570 58" transform="rotate(-72 196 116)"/>
+      <rect x="0" y="214" width="380" height="66" fill="url(#ja-sei)"/>
+      <rect x="0" y="213" width="380" height="2" fill="#1e3a5f" opacity=".55"/>
+      <g transform="translate(186 118)">
+        <g transform="rotate(-11)"><rect x="-86" y="-58" width="172" height="116" fill="#f3ecd9" stroke="#cfc4aa"/><rect x="-86" y="-58" width="172" height="9" fill="#1e3a5f" opacity=".7"/></g>
+        <g transform="rotate(6)"><rect x="-86" y="-58" width="172" height="116" fill="#f8f3e5" stroke="#cfc4aa"/><rect x="-86" y="-58" width="172" height="9" fill="#a8873a" opacity=".75"/></g>
+        <g transform="rotate(-2)">
+          <rect x="-88" y="-60" width="176" height="120" fill="#fffdf7" stroke="#1e1b18" stroke-width="1.2"/>
+          <rect x="-88" y="-60" width="176" height="13" fill="#c93a2b"/>
+          <g stroke="#cfc4aa" stroke-width="1"><path d="M-76 -26h152M-76 -10h152M-76 6h152M-76 22h152M-76 38h152"/></g>
+          <g class="ja-art-ink" stroke="#1e1b18" fill="none" stroke-width="1.7" stroke-linecap="round"><use href="#ji-ball" x="-74" y="-36" width="54" height="54"/></g>
+          <g stroke="#1e1b18" stroke-width="2" stroke-linecap="round" opacity=".7"><path d="M-8 -22h58M-8 -6h72M-8 10h44"/></g>
+          <g transform="translate(40 14) rotate(-9)" filter="url(#ji-ink)"><rect width="42" height="42" fill="none" stroke="#c93a2b" stroke-width="3"/><text x="21" y="32" text-anchor="middle" font-size="29" font-weight="700" fill="#c93a2b" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP',serif">訳</text></g>
+        </g>
+      </g>
+      <g transform="translate(322 34)">
+        <path d="M17 -40v40" stroke="#1e3a5f" stroke-width="1.4"/>
+        <rect width="34" height="150" fill="#fffdf7" stroke="#1e3a5f" stroke-width="1.2"/>
+        <rect width="34" height="12" fill="#1e3a5f"/>
+        <text x="17" y="26" writing-mode="vertical-rl" text-anchor="start" font-size="15" letter-spacing="3" fill="#1e1b18" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif JP',serif">開発者の声</text>
+        <circle cx="17" cy="136" r="4" fill="#c93a2b"/>
+      </g>
+    </svg>
+  </header>
+
+  {{ content }}
+
+  <footer class="ja-foot">
+    <a class="ja-foot__up" href="#main"><svg class="ji" aria-hidden="true"><use href="#ji-up"/></svg>ページの先頭へ</a>
+    <p>中国語のサイトは<a href="{{ '/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">こちら</a>、英語の案内は<a href="{{ '/en/' | relative_url }}" hreflang="en" lang="en">English</a>へ。日本語で発表されたインタビューや資料は、中国語版の各ページに原文として収録しています。</p>
+  </footer>
+</main>
