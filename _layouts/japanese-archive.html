@@ -2,19 +2,26 @@
 layout: default
 ---
 {%- comment -%}
-  The Japanese edition's entrance: quiet and modern - white ground, black type, hairlines, one red accent.
-  What identifies an interview is the pictures the site already has for it: the icons of the games it is about
-  and the portraits of the people in it. Look: assets/css/japanese-archive.css (.ja-*).
-  Data: site.data.ja_discovery (_plugins/japanese_discovery.rb).
+  The Japanese edition's entrance, laid out like a Japanese guide site: a notice bar, a compact masthead, then a
+  main column (newest, games, people, year chart, finder, list) beside a sidebar (operator, notes, source sites,
+  related pages). White ground, black type, hairlines, one red accent. An interview is recognised by the site's
+  own pictures - the icons of the games it is about and the portraits of the people in it.
+  Look: assets/css/japanese-archive.css (.ja-*). Data: site.data.ja_discovery (_plugins/japanese_discovery.rb).
 {%- endcomment -%}
 {% assign ja = site.data.ja_discovery %}
 {% include japanese/icons.html %}
 <main class="ja-arc" id="main" lang="ja">
+  {%- assign latest = ja.recent.first %}
+  <p class="ja-notice"><b>NEW</b><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a><time>{{ latest.date }}</time><span>全{{ ja.count }}本 ・ AI翻訳（人による校正なし）</span></p>
+
   <nav class="ja-nav" aria-label="ページ内の見出し">
+    <a href="#new">新着</a>
+    <a href="#games">ゲーム別</a>
+    <a href="#people">人物別</a>
     <a href="#nenpyo">年表</a>
     <a href="#find">探す</a>
     <a href="#list">一覧</a>
-    <a href="#notes">注記</a>
+    <a href="#operator">運営者情報</a>
     <span class="ja-nav__langs"><a href="{{ '/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">中文</a><a href="{{ '/en/' | relative_url }}" hreflang="en" lang="en">English</a></span>
   </nav>
 
@@ -27,6 +34,8 @@ layout: default
       <ul class="ja-stats" aria-label="収録の概要">
         <li><b>{{ ja.count }}</b><span>インタビュー</span></li>
         <li><b>{{ ja.outlets.size }}</b><span>媒体</span></li>
+        <li><b>{{ ja.games.size }}</b><span>ゲーム</span></li>
+        <li><b>{{ ja.people.size }}</b><span>人物</span></li>
         <li><b>{{ ja.languages.size }}</b><span>原文言語</span></li>
         <li><b>{{ ja.first_year }}–{{ ja.last_year }}</b><span>掲載年</span></li>
       </ul>
@@ -38,7 +47,6 @@ layout: default
         <li title="{{ w.title | escape }}"><img src="{{ w.icon | relative_url }}" alt="{{ w.title | escape }}" width="72" height="72" loading="lazy" decoding="async"><span>{{ w.count }}</span></li>
         {%- endfor %}
       </ul>
-      <p>数字は、そのゲームが話題になったインタビューの本数</p>
     </div>
     {%- endif %}
   </header>

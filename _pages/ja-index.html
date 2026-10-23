@@ -7,14 +7,66 @@ permalink: /ja/
 search: false
 ---
 {%- comment -%}
-  The Japanese edition's entrance: every page of the _ja collection (tools/build-ja-edition.py) as an index card,
-  newest first, grouped by year with the Japanese era name, with a year chart and filters by language, outlet and
-  interviewee. Only these interviews are here - the site's Japanese originals are not re-published as Japanese pages.
+  The Japanese edition's entrance: every page of the _ja collection (tools/build-ja-edition.py) as a card, newest
+  first, grouped by year with the Japanese era name. Main column: newest, games, people, year chart, finder, list.
+  Sidebar: operator, notes, source sites, related pages. Only these interviews are here - the site's Japanese
+  originals are not re-published as Japanese pages.
   Layout: _layouts/japanese-archive.html; data: _plugins/japanese_discovery.rb; look: assets/css/japanese-archive.css.
 {%- endcomment -%}
 {% assign ja = site.data.ja_discovery %}
 {% assign heisei = 0 %}{% assign reiwa = 0 %}
 {% for t in ja.timeline %}{% if t.year < 2019 %}{% assign heisei = heisei | plus: 1 %}{% else %}{% assign reiwa = reiwa | plus: 1 %}{% endif %}{% endfor %}
+
+<div class="ja-cols">
+<div class="ja-main">
+
+<section class="ja-sec" id="new" aria-labelledby="ja-h-new">
+  <header class="ja-sec__head"><h2 id="ja-h-new">新着インタビュー<small>最近追加した{{ ja.recent.size }}本</small></h2><a class="ja-sec__more" href="#list">一覧へ →</a></header>
+  <ol class="ja-feed">
+    {%- for r in ja.recent %}
+    <li>
+      <a href="{{ r.url | relative_url }}">
+        {%- if r.works.size > 0 %}<img src="{{ r.works[0].icon | relative_url }}" alt="" width="44" height="44" loading="lazy" decoding="async">{% else %}<span class="ja-feed__mono">{{ r.initial }}</span>{% endif %}
+        <span class="ja-feed__body"><span class="ja-feed__title">{% if forloop.first %}<b>NEW</b>{% endif %}{{ r.title }}</span><span class="ja-feed__meta">{{ r.source }} · {{ r.lang }} · {{ r.date }}{% if r.people.size > 0 %} · {{ r.people | join: '、' }}{% endif %}</span></span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<section class="ja-sec" id="games" aria-labelledby="ja-h-games">
+  <header class="ja-sec__head"><h2 id="ja-h-games">ゲーム別<small>話題になったゲームから探す</small></h2></header>
+  <div class="ja-games">
+    {%- for g in ja.games limit: 18 %}
+    <button type="button" class="ja-game" data-kind="game" data-val="{{ g.title | escape }}" data-jump="list" aria-pressed="false"><img src="{{ g.icon | relative_url }}" alt="" width="40" height="40" loading="lazy" decoding="async"><span>{{ g.title }}</span><i>{{ g.count }}</i></button>
+    {%- endfor %}
+  </div>
+  {%- if ja.games.size > 18 %}
+  <details class="ja-more"><summary>ほかのゲーム {{ ja.games.size | minus: 18 }}</summary>
+    <div class="ja-games">
+      {%- for g in ja.games offset: 18 %}
+      <button type="button" class="ja-game" data-kind="game" data-val="{{ g.title | escape }}" data-jump="list" aria-pressed="false"><img src="{{ g.icon | relative_url }}" alt="" width="40" height="40" loading="lazy" decoding="async"><span>{{ g.title }}</span><i>{{ g.count }}</i></button>
+      {%- endfor %}
+    </div>
+  </details>
+  {%- endif %}
+</section>
+
+{%- if ja.people.size > 0 %}
+<section class="ja-sec" id="people" aria-labelledby="ja-h-people">
+  <header class="ja-sec__head"><h2 id="ja-h-people">人物別<small>登場回数の多い順</small></h2></header>
+  <ol class="ja-ranks">
+    {%- for p in ja.people limit: 10 %}
+    <li><button type="button" class="ja-rank" data-kind="person" data-val="{{ p.name | escape }}" data-jump="list" aria-pressed="false"><b>{{ forloop.index }}</b>{% if p.avatar %}<img src="{{ p.avatar | relative_url }}" alt="" width="36" height="36" loading="lazy" decoding="async">{% else %}<span class="ja-rank__mono">{{ p.name | slice: 0 }}</span>{% endif %}<span>{{ p.name }}</span><i>{{ p.count }}本</i></button></li>
+    {%- endfor %}
+  </ol>
+  {%- if ja.people.size > 10 %}
+  <details class="ja-more"><summary>ほかの人物 {{ ja.people.size | minus: 10 }}</summary>
+    <div class="ja-chips__row">{%- for p in ja.people offset: 10 -%}<button type="button" class="ja-chip" data-kind="person" data-val="{{ p.name | escape }}" data-jump="list" aria-pressed="false">{{ p.name }}<i>{{ p.count }}</i></button>{%- endfor -%}</div>
+  </details>
+  {%- endif %}
+</section>
+{%- endif %}
 
 <section class="ja-sec" id="nenpyo" aria-labelledby="ja-h-nenpyo">
   <header class="ja-sec__head"><h2 id="ja-h-nenpyo">年表<small>掲載年ごとの本数</small></h2></header>
@@ -39,44 +91,18 @@ search: false
 </section>
 
 <section class="ja-sec ja-find" id="find" aria-labelledby="ja-h-find">
-  <header class="ja-sec__head"><h2 id="ja-h-find">探す<small>題名・言語・媒体・人物</small></h2></header>
+  <header class="ja-sec__head"><h2 id="ja-h-find">探す<small>題名・言語・媒体で絞り込む</small></h2></header>
   <div class="ja-find__box">
-    <label class="ja-search"><svg class="ji" aria-hidden="true"><use href="#ji-search"/></svg><span class="visually-hidden">題名・人物・媒体で絞り込む</span><input type="search" id="ja-q" placeholder="題名・人物・媒体で絞り込む" autocomplete="off"></label>
+    <label class="ja-search"><svg class="ji" aria-hidden="true"><use href="#ji-search"/></svg><span class="visually-hidden">題名・人物・媒体で絞り込む</span><input type="search" id="ja-q" placeholder="題名・人物・媒体・執筆者で絞り込む" autocomplete="off"></label>
 
-    <div class="ja-chips" data-kind="lang" role="group" aria-label="原文の言語">
+    <div class="ja-chips" role="group" aria-label="原文の言語">
       <p class="ja-chips__label">原文の言語</p>
       <div class="ja-chips__row">
         {%- for l in ja.languages -%}<button type="button" class="ja-chip" data-kind="lang" data-val="{{ l.name | escape }}" aria-pressed="false"><span class="ja-chip__seal">{{ l.seal }}</span>{{ l.name }}<i>{{ l.count }}</i></button>{%- endfor -%}
       </div>
     </div>
 
-    <div class="ja-chips" data-kind="outlet" role="group" aria-label="掲載媒体">
-      <p class="ja-chips__label">掲載媒体</p>
-      <div class="ja-chips__row">
-        {%- for o in ja.outlets limit: 10 -%}<button type="button" class="ja-chip" data-kind="outlet" data-val="{{ o.name | escape }}" aria-pressed="false">{{ o.name }}<i>{{ o.count }}</i></button>{%- endfor -%}
-      </div>
-      {%- if ja.outlets.size > 10 %}
-      <details class="ja-more"><summary>ほかの媒体 {{ ja.outlets.size | minus: 10 }}</summary>
-        <div class="ja-chips__row">{%- for o in ja.outlets offset: 10 -%}<button type="button" class="ja-chip" data-kind="outlet" data-val="{{ o.name | escape }}" aria-pressed="false">{{ o.name }}<i>{{ o.count }}</i></button>{%- endfor -%}</div>
-      </details>
-      {%- endif %}
-    </div>
-
-    {%- if ja.people.size > 0 %}
-    <div class="ja-chips" data-kind="person" role="group" aria-label="登場する人物">
-      <p class="ja-chips__label">登場する人物</p>
-      <div class="ja-chips__row">
-        {%- for p in ja.people limit: 12 -%}<button type="button" class="ja-chip" data-kind="person" data-val="{{ p.name | escape }}" aria-pressed="false">{{ p.name }}<i>{{ p.count }}</i></button>{%- endfor -%}
-      </div>
-      {%- if ja.people.size > 12 %}
-      <details class="ja-more"><summary>ほかの人物 {{ ja.people.size | minus: 12 }}</summary>
-        <div class="ja-chips__row">{%- for p in ja.people offset: 12 -%}<button type="button" class="ja-chip" data-kind="person" data-val="{{ p.name | escape }}" aria-pressed="false">{{ p.name }}<i>{{ p.count }}</i></button>{%- endfor -%}</div>
-      </details>
-      {%- endif %}
-    </div>
-    {%- endif %}
-
-    <p class="ja-find__status" role="status" aria-live="polite"><span><b id="ja-n">{{ ja.count }}</b> / {{ ja.count }} 本を表示中</span><button type="button" class="ja-reset" id="ja-reset" hidden><svg class="ji" aria-hidden="true"><use href="#ji-x"/></svg>絞り込みを解除</button></p>
+    <p class="ja-find__status" role="status" aria-live="polite"><span id="ja-state"><b id="ja-n">{{ ja.count }}</b> / {{ ja.count }} 本を表示中</span><button type="button" class="ja-reset" id="ja-reset" hidden><svg class="ji" aria-hidden="true"><use href="#ji-x"/></svg>絞り込みを解除</button></p>
   </div>
 </section>
 
@@ -90,8 +116,9 @@ search: false
     </header>
     <ol class="ja-cards">
       {%- for r in y.items %}
-      {%- capture haystack %}{{ r.title }} {{ r.source }} {{ r.lang }} {{ r.people | join: ' ' }}{% endcapture %}
-      <li class="ja-card" data-lang="{{ r.lang | escape }}" data-outlet="{{ r.source | escape }}" data-people="{{ r.people | join: '|' | escape }}" data-text="{{ haystack | downcase | escape }}">
+      {%- capture haystack %}{{ r.title }} {{ r.source }} {{ r.lang }} {{ r.people | join: ' ' }} {{ r.author }} {{ r.interviewer }} {{ r.host }} {{ r.orig_title }}{% endcapture %}
+      {%- capture game_names %}{% for w in r.works %}{{ w.title }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
+      <li class="ja-card" data-lang="{{ r.lang | escape }}" data-outlet="{{ r.source | escape }}" data-people="{{ r.people | join: '|' | escape }}" data-games="{{ game_names | escape }}" data-text="{{ haystack | downcase | escape }}">
         <a class="ja-card__link" href="{{ r.url | relative_url }}">
           <span class="ja-card__ids">
             {%- if r.works.size > 0 -%}
@@ -102,9 +129,16 @@ search: false
           <span class="ja-card__body">
             <span class="ja-card__meta"><span>{{ r.source }}</span><span>{{ r.lang }}</span><time>{{ r.date }}</time></span>
             <span class="ja-card__title">{{ r.title }}</span>
+            {%- if r.dek != "" and r.dek != r.title %}<span class="ja-card__dek">{{ r.dek }}</span>{% endif %}
             {%- if r.people.size > 0 %}
             <span class="ja-card__people">{% if r.avatars.size > 0 %}<span class="ja-card__faces">{% for av in r.avatars %}<img src="{{ av.src | relative_url }}" alt="" width="22" height="22" loading="lazy" decoding="async">{% endfor %}</span>{% endif %}<span>{{ r.people | join: '、' }}</span></span>
             {%- endif %}
+            <span class="ja-card__credit">
+              {%- if r.interviewer != "" %}<span><em>取材</em>{{ r.interviewer }}</span>{% endif -%}
+              {%- if r.author != "" and r.author != r.interviewer %}<span><em>執筆</em>{{ r.author }}</span>{% endif -%}
+              {%- if r.host != "" %}<span><em>掲載</em>{{ r.host }}</span>{% endif -%}
+            </span>
+            {%- if r.orig_title != "" %}<span class="ja-card__orig" lang="{{ r.lang_code }}">{{ r.orig_title }}</span>{% endif %}
             {%- if r.works.size > 0 %}<span class="visually-hidden">取り上げるゲーム：{% for w in r.works %}{{ w.title }}{% unless forloop.last %}、{% endunless %}{% endfor %}</span>{% endif %}
           </span>
         </a>
@@ -117,34 +151,91 @@ search: false
 </section>
 
 <section class="ja-sec" id="notes" aria-labelledby="ja-h-notes">
-  <header class="ja-sec__head"><h2 id="ja-h-notes">注記<small>この日本語版について</small></h2></header>
-  <aside class="ja-ai" role="note">
-    <span class="ja-ai__tag" aria-hidden="true">AI</span>
-    <p><b>AI翻訳</b>いずれも AI（機械翻訳）による訳文で、人による校正は行っていません。発言は日本語で語られたものではなく、表現や細部が原文と異なる場合があります。各ページから原文（掲載元）と中国語版に移動できます。</p>
-  </aside>
+  <header class="ja-sec__head"><h2 id="ja-h-notes">この日本語版について</h2></header>
   <div class="ja-about">
     <section><h3>資料室について</h3><p>Poke Amice Docs（宝可梦友会）は、ポケモンの開発者インタビュー、ゲームのスタッフクレジット、雑誌のスキャン、失われた GAME FREAK のウェブ資料を集める独立した研究アーカイブです。</p></section>
     <section><h3>収録の範囲</h3><p>海外のメディアに英語・スペイン語・フランス語・イタリア語・ドイツ語・中国語で掲載され、日本語では読めなかったインタビュー{{ ja.count }}本を訳しています。日本語で発表されたものは、日本語版では再掲載していません。</p></section>
     <section><h3>読み方</h3><p>各ページの上部で、中国語版と日本語版を行き来できます。年代ごとの誌面の雰囲気は、原文が掲載された頃のページ様式に合わせています。</p></section>
   </div>
-  <p class="ja-links"><svg class="ji" aria-hidden="true"><use href="#ji-out"/></svg><a href="{{ '/people/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">人物プロフィール（中国語）</a><a href="{{ '/credits/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">スタッフクレジット（中国語）</a><a href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">GAME FREAK 採用サイトの復元資料（中国語）</a><a href="{{ '/en/' | relative_url }}" lang="en" hreflang="en">English research guide</a></p>
 </section>
+
+</div>
+
+<aside class="ja-side" aria-label="サイト情報">
+  <section class="ja-box" id="operator">
+    <h2>運営者情報</h2>
+    <div class="ja-op">
+      {%- if site.author.avatar %}<img src="{{ site.author.avatar | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async">{% endif %}
+      <div><b>{{ site.author.name }}</b><span>Poke Amice Docs 運営</span></div>
+    </div>
+    <p>コミュニティに有益な情報を届けることを目的に、ポケモン開発者のインタビューとクレジットを集めて整理しています。誤訳や欠けている資料は、各リンクからお知らせください。</p>
+    <ul class="ja-linklist">
+      {%- for link in site.author.links %}{% if link.label != "Email" and link.label != "Website" %}
+      <li><a href="{{ link.url }}" rel="noopener" target="_blank">{{ link.label }}<svg class="ji" aria-hidden="true"><use href="#ji-out"/></svg></a></li>
+      {%- endif %}{% endfor %}
+    </ul>
+    <dl class="ja-facts">
+      <div><dt>最新の追加</dt><dd>{{ ja.updated }}</dd></div>
+      <div><dt>収録</dt><dd>{{ ja.count }}本</dd></div>
+      <div><dt>翻訳</dt><dd>AI（未校正）</dd></div>
+    </dl>
+  </section>
+
+  <section class="ja-box">
+    <h2>AI翻訳について</h2>
+    <p><span class="ja-ai__tag" aria-hidden="true">AI</span>いずれも AI（機械翻訳）による訳文で、人による校正は行っていません。発言は日本語で語られたものではなく、表現や細部が原文と異なる場合があります。各ページから原文（掲載元）と中国語版に移動できます。</p>
+  </section>
+
+  <section class="ja-box">
+    <h2>掲載元サイト<small>原文の媒体</small></h2>
+    <ul class="ja-sites">
+      {%- for o in ja.outlets limit: 12 %}
+      <li><button type="button" class="ja-site" data-kind="outlet" data-val="{{ o.name | escape }}" data-jump="list" aria-pressed="false"><span>{{ o.name }}{% if o.host != "" %}<small>{{ o.host }}</small>{% endif %}</span><i>{{ o.count }}</i></button></li>
+      {%- endfor %}
+    </ul>
+    {%- if ja.outlets.size > 12 %}
+    <details class="ja-more"><summary>ほかの媒体 {{ ja.outlets.size | minus: 12 }}</summary>
+      <ul class="ja-sites">
+        {%- for o in ja.outlets offset: 12 %}
+        <li><button type="button" class="ja-site" data-kind="outlet" data-val="{{ o.name | escape }}" data-jump="list" aria-pressed="false"><span>{{ o.name }}{% if o.host != "" %}<small>{{ o.host }}</small>{% endif %}</span><i>{{ o.count }}</i></button></li>
+        {%- endfor %}
+      </ul>
+    </details>
+    {%- endif %}
+  </section>
+
+  <section class="ja-box">
+    <h2>関連ページ</h2>
+    <ul class="ja-linklist ja-linklist--rows">
+      <li><a href="{{ '/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">中国語アーカイブ<small>インタビュー全体（中国語）</small></a></li>
+      <li><a href="{{ '/people/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">人物プロフィール<small>中国語</small></a></li>
+      <li><a href="{{ '/credits/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">スタッフクレジット<small>中国語</small></a></li>
+      <li><a href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}" hreflang="zh-CN" lang="zh-CN">GAME FREAK 採用サイトの復元資料<small>中国語</small></a></li>
+      <li><a href="{{ '/en/' | relative_url }}" lang="en" hreflang="en">English research guide<small>英語</small></a></li>
+    </ul>
+  </section>
+</aside>
+</div>
 
 <script>
 (function () {
   var cards = [].slice.call(document.querySelectorAll('.ja-card'));
   var years = [].slice.call(document.querySelectorAll('.ja-year'));
-  var chips = [].slice.call(document.querySelectorAll('.ja-chip'));
+  var controls = [].slice.call(document.querySelectorAll('[data-kind][data-val]'));
   var q = document.getElementById('ja-q');
   var n = document.getElementById('ja-n');
   var empty = document.getElementById('ja-empty');
+  var reset = document.getElementById('ja-reset');
   var resets = [].slice.call(document.querySelectorAll('#ja-reset, [data-reset]'));
-  var state = { lang: '', outlet: '', person: '' };
+  var blank = { lang: '', outlet: '', person: '', game: '' };
+  var state = Object.assign({}, blank);
 
+  function has(card, attr, val) { return ('|' + card.getAttribute(attr) + '|').indexOf('|' + val + '|') >= 0; }
   function match(card, text) {
     if (state.lang && card.getAttribute('data-lang') !== state.lang) return false;
     if (state.outlet && card.getAttribute('data-outlet') !== state.outlet) return false;
-    if (state.person && ('|' + card.getAttribute('data-people') + '|').indexOf('|' + state.person + '|') < 0) return false;
+    if (state.person && !has(card, 'data-people', state.person)) return false;
+    if (state.game && !has(card, 'data-games', state.game)) return false;
     return !text || card.getAttribute('data-text').indexOf(text) >= 0;
   }
   function apply() {
@@ -162,25 +253,29 @@ search: false
     });
     n.textContent = shown;
     empty.hidden = shown !== 0;
-    var filtered = !!(text || state.lang || state.outlet || state.person);
-    document.getElementById('ja-reset').hidden = !filtered;
+    reset.hidden = !(text || state.lang || state.outlet || state.person || state.game);
   }
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      var kind = chip.getAttribute('data-kind'), val = chip.getAttribute('data-val');
+  controls.forEach(function (control) {
+    control.addEventListener('click', function () {
+      var kind = control.getAttribute('data-kind'), val = control.getAttribute('data-val');
       state[kind] = state[kind] === val ? '' : val;
-      chips.forEach(function (c) {
+      controls.forEach(function (c) {
         if (c.getAttribute('data-kind') === kind) c.setAttribute('aria-pressed', c.getAttribute('data-val') === state[kind] ? 'true' : 'false');
       });
       apply();
+      var jump = control.getAttribute('data-jump');
+      if (state[kind] && jump) {
+        var target = document.getElementById('find');
+        if (target) target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+      }
     });
   });
   q.addEventListener('input', apply);
   resets.forEach(function (b) {
     b.addEventListener('click', function () {
-      state = { lang: '', outlet: '', person: '' };
+      state = Object.assign({}, blank);
       q.value = '';
-      chips.forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+      controls.forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
       apply();
     });
   });

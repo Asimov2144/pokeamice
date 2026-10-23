@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'uri'
+
 module PokeAmice
   # Fills site.data.ja_discovery for the Japanese entrance (_pages/ja-index.html, _layouts/japanese-archive.html):
   # the _ja collection grouped by year (with the Japanese era name), language, outlet and interviewee.
@@ -32,13 +34,16 @@ module PokeAmice
       @site.data['ja_discovery'] = {
         'count' => rows.size,
         'showcase' => showcase(rows),
+        'games' => games(rows),
+        'recent' => rows.first(6),
+        'updated' => rows.first['date'],
         'years' => years,
         'first_year' => years.last['year'],
         'last_year' => years.first['year'],
         'timeline' => timeline(years),
         'languages' => tally(rows.map { |r| [r['lang'], r['seal']] }).map { |(name, seal), n| { 'name' => name, 'seal' => seal, 'count' => n } },
-        'outlets' => tally(rows.map { |r| r['source'] }).map { |name, n| { 'name' => name, 'count' => n } },
-        'people' => tally(rows.flat_map { |r| r['people'] }).map { |name, n| { 'name' => name, 'count' => n } }
+        'outlets' => tally(rows.map { |r| r['source'] }).map { |name, n| { 'name' => name, 'count' => n, 'host' => rows.find { |r| r['source'] == name }['host'] } },
+        'people' => tally(rows.flat_map { |r| r['people'] }).map { |name, n| { 'name' => name, 'count' => n, 'avatar' => (@people[name] || {})['avatar'] } }
       }
     end
 
@@ -49,7 +54,15 @@ module PokeAmice
       lang = d['original_lang_name'].to_s
       names = Array(d['people_ja']).map(&:to_s).reject(&:empty?)
       post = @posts[d['zh_stem'].to_s]
+      zh = post ? post.data : {}
+      source = d['source'].is_a?(Hash) ? d['source'] : {}
       {
+        'lang_code' => d['original_lang'].to_s,
+        'dek' => (d['dek'] || d['description']).to_s,
+        'orig_title' => source['title'].to_s,
+        'host' => host_of(source['url'] || d['source_url'] || d['original_link']),
+        'author' => credit_name(zh['author']),
+        'interviewer' => credit_name(zh['interviewer']),
         'works' => works_for(post),
         'avatars' => names.filter_map { |name| (person = @people[name]) && person['avatar'] && { 'name' => name, 'src' => person['avatar'] } }.first(3),
         'initial' => d['source_name'].to_s.strip[0].to_s.upcase,
@@ -74,6 +87,27 @@ module PokeAmice
         next unless work && work['icon']
         { 'name' => name, 'title' => (@games[name] || {})['title'] || name, 'icon' => work['icon'], 'icon2' => work['icon2'], 'color' => work['color'] }
       end.uniq { |w| w['name'] }
+    end
+
+    def credit_name(value)
+      value.is_a?(Array) ? value.join(', ') : value.to_s.strip
+    end
+
+    # the site an interview was first published on (inside a Wayback link, the archived site)
+    def host_of(url)
+      text = url.to_s
+      text = Regexp.last_match(1) if text =~ %r{web\.archive\.org/web/\d+[a-z_]*/(https?://.+)}i
+      URI.parse(text).host.to_s.sub(/\Awww\./, '')
+    rescue URI::InvalidURIError
+      ''
+    end
+
+    # every game that comes up, most often first, for the game index and the game filter
+    def games(rows)
+      counts = Hash.new(0)
+      info = {}
+      rows.each { |r| r['works'].each { |w| counts[w['title']] += 1; info[w['title']] ||= w } }
+      counts.sort_by { |title, n| [-n, title] }.map { |title, n| { 'title' => title, 'icon' => info[title]['icon'], 'count' => n } }
     end
 
     # the games that come up most across the interviews: the icon wall in the hero
