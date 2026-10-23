@@ -69,3 +69,5 @@ tiles:
   - {label: Game Informer, kind: Magazine, img: gi, q: Game Informer, pub: ['Game Informer']}
   - {label: CEDEC talks, kind: Talks, img: cedec, q: CEDEC, pub: ['CEDEC']}
   - {label: Game Freak recruiting, kind: Archive, img_src: /assets/img/interviews/2015-gamefreak-recruit-designers/keyvisual.jpg, q: Game Freak 採用情報, tag: 招聘访谈, pub: ['Game Freak', 'GAME FREAK']}
+# Portraits left off the record covers: only a 240px magazine crop exists, and blown up it frightens more than it identifies.
+portrait_skip: [/assets/img/people/tajiri-satoshi.jpg, /assets/img/people/tajiri-satoshi-1996.jpg]

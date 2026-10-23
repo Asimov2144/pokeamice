@@ -22,9 +22,11 @@ holds, who and what it is about, and which languages it can be read in as small 
     {% if rhit and rhit.kind != "character" and rhit.kind != "figure" %}{% include person-avatar.html who=rwho post=rp %}{% if pa_src and pa_src != "" %}{% assign ric = pa_src %}{% assign cf_kind = 'portrait' %}{% break %}{% endif %}{% endif %}
   {% endfor %}
 {% endif %}{% endif %}
+{%- comment -%} a portrait the library only has as a small magazine crop reads worse than no face at all (_data/english_discovery.yml) {%- endcomment -%}
+{% if cf_kind == 'portrait' and site.data.english_discovery.portrait_skip contains ric %}{% assign ric = '' %}{% assign cf_kind = '' %}{% endif %}
 <article class="en-rec en-rec--{{ rc.kind | default: 'interview' }}{% if ric == '' %} en-rec--bare{% endif %}">
   <a class="en-rec__cover{% if cf_kind == 'tile' or cf_kind == 'portrait' %} en-rec__cover--{{ cf_kind }}{% endif %}" href="{{ rc.url | relative_url }}" tabindex="-1" aria-hidden="true">
-    {% if rpics.size > 1 %}<span class="en-rec__mosaic en-rec__mosaic--{{ rpics.size }}">{% for rpic in rpics %}<img src="{{ rpic | relative_url }}" alt="" loading="lazy" decoding="async">{% endfor %}</span>{% elsif ric != '' %}<img src="{{ ric | relative_url }}" alt="" loading="lazy" decoding="async">{% else %}<span><i class="fas {% if rc.kind == 'scan' %}fa-newspaper{% elsif rc.kind == 'blog' %}fa-pen-nib{% else %}fa-comments{% endif %}"></i><em>{{ rc.source | escape | truncate: 22 }}</em></span>{% endif %}
+    {% if rpics.size > 1 %}<img src="{{ rpics[0] | relative_url }}" alt="" loading="lazy" decoding="async"><span class="en-rec__thumbs">{% for rpic in rpics offset: 1 %}<img src="{{ rpic | relative_url }}" alt="" loading="lazy" decoding="async">{% endfor %}</span>{% elsif ric != '' %}<img src="{{ ric | relative_url }}" alt="" loading="lazy" decoding="async">{% else %}<span><i class="fas {% if rc.kind == 'scan' %}fa-newspaper{% elsif rc.kind == 'blog' %}fa-pen-nib{% else %}fa-comments{% endif %}"></i><em>{{ rc.source | escape | truncate: 26 }}</em><small>{{ rc.year }}</small></span>{% endif %}
   </a>
   <div class="en-rec__body">
     <p class="en-rec__kicker"><span class="en-rec__kind">{% if rc.kind == 'scan' %}Magazine scan{% elsif rc.kind == 'blog' %}Game Freak blog{% else %}Interview{% endif %}</span>{{ rc.year }} · {{ rc.source | escape }}</p>
