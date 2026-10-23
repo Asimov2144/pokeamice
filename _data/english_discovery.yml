@@ -5,7 +5,7 @@ collections:
   - title: Game Freak archive reconstruction
     img: director
     kind: Blog
-    pics: [/assets/images/gamefreak-director/original/header-photo.png, /assets/img/people/masuda-junichi.jpg, /assets/images/gamefreak-director/original/masuda-profile.png]
+    pics: [/assets/images/gamefreak-director/original/header-photo.png, /assets/img/people/masuda-junichi.jpg]
     url: /gamefreak-director/
     summary: Read Junichi Masuda's director columns with their original dates, source records and Chinese translations. These are first-person columns, rather than interviews.
   - title: Game Freak recruitment interviews

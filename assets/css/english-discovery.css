@@ -179,7 +179,7 @@
 .en-card__pic { position: relative; display: block; aspect-ratio: 16 / 7; overflow: hidden; background: #26323f; }
 .en-card__pic img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .en-card__pic span { position: absolute; left: 10px; top: 10px; padding: 1px 9px; border-radius: 999px; background: rgba(255, 255, 255, .9); color: #26323f; font-size: 11px; font-weight: 700; }
-.en-card__pic--strip { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 2px; }
+.en-card__pic--strip { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 3px; }
 .en-card__pic--strip img { position: static; min-width: 0; }
 .en-card__body { display: grid; gap: 7px; padding: 14px 16px 16px; }
 .en-card__body p { margin: 0; font-size: 13.5px; color: var(--en-soft); }
@@ -188,20 +188,26 @@
 
 /* interview, scan and blog records */
 .en-recs { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.en-rec { --c: #2563eb; display: grid; grid-template-columns: 34% minmax(0, 1fr); overflow: hidden; }
+.en-rec { --c: #2563eb; display: flex; flex-direction: column; overflow: hidden; }
 .en-rec--scan { --c: #7c3aed; }
 .en-rec--blog { --c: #0f766e; }
-.en-rec__cover { position: relative; display: block; min-height: 168px; overflow: hidden; background: #e2e8f0; }
-.en-rec__cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+/* the cover: a banner of fixed height, so no picture is blown up to the card's height; the three kinds of
+   picture are each framed for what they are - a photograph fills it, a magazine page sits whole on a
+   tinted plate, a portrait is a small round photo on the plate */
+.en-rec__cover { position: relative; display: block; height: 172px; overflow: hidden; background: color-mix(in srgb, var(--c) 9%, #f1f5f9); }
+.en-rec__cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
 .en-rec__cover--tile img { object-position: center; }
+.en-rec--scan .en-rec__cover img { object-fit: contain; padding: 8px 0; filter: drop-shadow(0 3px 6px rgba(15, 23, 42, .3)); }
+.en-rec__cover--portrait { display: grid; place-items: center; background: linear-gradient(135deg, color-mix(in srgb, var(--c) 16%, #fff), color-mix(in srgb, var(--c) 5%, #fff)); }
+.en-rec__cover--portrait img { position: static; width: 104px; height: 104px; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 6px 16px rgba(15, 23, 42, .2); object-position: center 20%; }
 /* an entry's first pictures side by side: the first large, the others stacked beside it */
-.en-rec__mosaic { position: absolute; inset: 0; display: grid; gap: 2px; background: #fff; }
-.en-rec__mosaic img { position: static; width: 100%; height: 100%; min-height: 0; object-fit: cover; object-position: center 25%; }
+.en-rec__mosaic { position: absolute; inset: 0; display: grid; gap: 3px; background: #fff; }
+.en-rec__mosaic img { position: static; width: 100%; height: 100%; min-height: 0; object-fit: cover; object-position: center 25%; padding: 0; filter: none; }
 .en-rec__mosaic--2 { grid-template-columns: 1fr 1fr; }
-.en-rec__mosaic--3 { grid-template-columns: 1.35fr 1fr; grid-template-rows: 1fr 1fr; }
+.en-rec__mosaic--3 { grid-template-columns: 1.5fr 1fr; grid-template-rows: 1fr 1fr; }
 .en-rec__mosaic--3 img:first-child { grid-row: 1 / span 2; }
-.en-rec--bare .en-rec__cover { background: linear-gradient(135deg, color-mix(in srgb, var(--c) 18%, #fff), color-mix(in srgb, var(--c) 5%, #fff)); }
-.en-rec__cover > span { position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 8px; padding: 12px; text-align: center; color: color-mix(in srgb, var(--c) 70%, #fff); font-size: 30px; }
+.en-rec--bare .en-rec__cover { background: linear-gradient(135deg, color-mix(in srgb, var(--c) 18%, #fff), color-mix(in srgb, var(--c) 5%, #fff)); height: 120px; }
+.en-rec__cover > span:not(.en-rec__mosaic) { position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 8px; padding: 12px; text-align: center; color: color-mix(in srgb, var(--c) 70%, #fff); font-size: 30px; }
 .en-rec__cover em { font-size: 12px; font-style: normal; color: var(--en-soft); line-height: 1.3; }
 .en-rec__body { display: grid; align-content: start; gap: 7px; padding: 14px 16px 14px; min-width: 0; }
 .en-rec__kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin: 0; font-size: 12px; color: var(--en-faint); }
@@ -256,8 +262,7 @@
   .en-hero, .en-hero--compact { padding: 24px 18px 20px; border-radius: 16px; margin-bottom: 22px; }
   .en-grid, .en-grid--cards { grid-template-columns: minmax(0, 1fr); }
   .en-grid--people, .en-grid--games { grid-template-columns: minmax(0, 1fr); }
-  .en-rec { grid-template-columns: minmax(0, 1fr); }
-  .en-rec__cover { min-height: 0; aspect-ratio: 16 / 8; }
+  .en-rec__cover { height: 150px; }
   .en-search { padding-left: 14px; }
   .en-search button { padding: 8px 16px; }
   .en-sec__head h2 { font-size: 1.15rem; }
