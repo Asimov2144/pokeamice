@@ -1,14 +1,34 @@
-<article class="en-archive__record">
-  <p class="en-archive__eyebrow">{{ include.record.year }} · {{ include.record.source | escape }}</p>
-  <h3><a href="{{ include.record.url | relative_url }}">{{ include.record.title | escape }}</a></h3>
-  {% if include.record.summary %}<p>{{ include.record.summary }}</p>{% endif %}
-  {% if include.record.works.size > 0 %}<p>Works discussed: {{ include.record.works | join: '; ' | escape }}.</p>{% endif %}
-  {% if include.record.people.size > 0 %}<p>People in this record: {% for person in include.record.people %}<a href="{{ person.url | relative_url }}">{{ person.name_en | default: person.name | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
-  <p class="en-archive__native" lang="zh-CN">{{ include.record.chinese_title | escape }}</p>
-  <ul class="en-archive__availability" aria-label="Available source languages">
-    {% if include.record.original_en %}<li><a href="{{ include.record.original_url | escape }}" lang="en" rel="noopener">Original English available</a></li>{% endif %}
-    <li><a href="{{ include.record.url | relative_url }}" lang="zh-CN">{% if include.record.chinese_translation %}Chinese translation available{% else %}Chinese archive record{% endif %}</a></li>
-    {% if include.record.ja_url %}<li><a href="{{ include.record.ja_url | relative_url }}" lang="ja">Japanese translation available</a></li>{% endif %}
-  </ul>
-  {% if include.record.added %}<p class="en-archive__fine">Added to this archive: {{ include.record.added }}. The year above refers to the source record.</p>{% endif %}
+{%- comment -%}
+One record of the interview archive as a card: the cover the Chinese cards use (the entry's own picture,
+its collection's tile or the first person's portrait - cover-fallback.html), the source and year, what it
+holds, who and what it is about, and which languages it can be read in as small tags.
+{%- endcomment -%}
+{% assign rc = include.record %}
+{% assign rp = rc.post %}
+{% assign ric = "" %}
+{% assign cf_kind = "" %}
+{% if rp %}
+  {% assign ric = rp.image | default: rp.featured_image | default: "" %}
+  {% if rp.translation_segments %}{% assign rplates = rp.translation_segments | where: "type", "image" %}{% if rplates.first.image %}{% assign ric = rplates.first.image %}{% endif %}{% endif %}
+  {% include cover-fallback.html post=rp cover=ric %}
+  {% assign ric = cf_cover %}
+{% endif %}
+<article class="en-rec en-rec--{{ rc.kind | default: 'interview' }}{% if ric == '' %} en-rec--bare{% endif %}">
+  <a class="en-rec__cover{% if cf_kind == 'tile' or cf_kind == 'portrait' %} en-rec__cover--{{ cf_kind }}{% endif %}" href="{{ rc.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    {% if ric != '' %}<img src="{{ ric | relative_url }}" alt="" loading="lazy" decoding="async">{% else %}<span><i class="fas {% if rc.kind == 'scan' %}fa-newspaper{% elsif rc.kind == 'blog' %}fa-pen-nib{% else %}fa-comments{% endif %}"></i><em>{{ rc.source | escape | truncate: 22 }}</em></span>{% endif %}
+  </a>
+  <div class="en-rec__body">
+    <p class="en-rec__kicker"><span class="en-rec__kind">{% if rc.kind == 'scan' %}Magazine scan{% elsif rc.kind == 'blog' %}Game Freak blog{% else %}Interview{% endif %}</span>{{ rc.year }} · {{ rc.source | escape }}</p>
+    <h3><a href="{{ rc.url | relative_url }}">{{ rc.title | escape }}</a></h3>
+    {% if rc.summary %}<p class="en-rec__sum">{{ rc.summary }}</p>{% endif %}
+    {% if rc.works.size > 0 %}<p class="en-rec__line"><i class="fas fa-gamepad" aria-hidden="true"></i><span>Works discussed: {{ rc.works | join: '; ' | escape }}.</span></p>{% endif %}
+    {% if rc.people.size > 0 %}<p class="en-rec__line"><i class="fas fa-user-group" aria-hidden="true"></i><span>People in this record: {% for person in rc.people %}<a href="{{ person.url | relative_url }}">{{ person.name_en | default: person.name | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</span></p>{% endif %}
+    <p class="en-native" lang="zh-CN">{{ rc.chinese_title | escape }}</p>
+    <ul class="en-langs" aria-label="Available source languages">
+      {% if rc.original_en %}<li><a href="{{ rc.original_url | escape }}" lang="en" rel="noopener"><b>EN</b>Original English available</a></li>{% endif %}
+      <li><a href="{{ rc.url | relative_url }}" lang="zh-CN"><b>中</b>{% if rc.chinese_translation %}Chinese translation available{% else %}Chinese archive record{% endif %}</a></li>
+      {% if rc.ja_url %}<li><a href="{{ rc.ja_url | relative_url }}" lang="ja"><b>日</b>Japanese translation available</a></li>{% endif %}
+    </ul>
+    {% if rc.added %}<p class="en-fine">Added to this archive: {{ rc.added }}. The year above refers to the source record.</p>{% endif %}
+  </div>
 </article>

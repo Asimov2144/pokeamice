@@ -7,6 +7,12 @@ permalink: /en/credits/
 search: false
 ---
 {% assign archive = site.data.en_discovery %}
-<section class="en-archive__section"><h2>Read the team behind a game</h2><p>{{ archive.game_count }} staff rolls are indexed here. Each game links to its existing Chinese credits page, with English staff names, Japanese names where sourced, and links to developer profiles.</p><p>Credited entries and unique people are different measures. Counts refer to the available roll; department breakdowns and atlas coverage vary by source. A missing name or role is not evidence that someone did not contribute.</p><p><a href="{{ '/credits/' | relative_url }}">Open the Chinese credits index</a> · <a href="{{ '/credits/staff/' | relative_url }}">Read the cross-game staff dataset</a></p></section>
-<section class="en-archive__section"><h2>Game staff rolls</h2>{% include english/games.html games=archive.games %}</section>
-<section class="en-archive__section"><h2>Research datasets</h2>{% include english/datasets.html %}</section>
+<section class="en-sec" aria-labelledby="team"><header class="en-sec__head"><h2 id="team"><i class="fas fa-people-group" aria-hidden="true"></i>Read the team behind a game</h2></header>
+<div class="en-howto">
+<p>{{ archive.game_count }} staff rolls are indexed here. Each game links to its existing Chinese credits page, with English staff names, Japanese names where sourced, and links to developer profiles.</p>
+<p>Credited entries and unique people are different measures. Counts refer to the available roll; department breakdowns and atlas coverage vary by source. A missing name or role is not evidence that someone did not contribute.</p>
+<p class="en-actions"><a class="en-btn en-btn--solid" href="{{ '/credits/' | relative_url }}"><i class="fas fa-list-check" aria-hidden="true"></i>Open the Chinese credits index</a><a class="en-btn" href="{{ '/credits/staff/' | relative_url }}"><i class="fas fa-table-list" aria-hidden="true"></i>Read the cross-game staff dataset</a></p>
+</div>
+</section>
+<section class="en-sec" aria-labelledby="rolls"><header class="en-sec__head"><h2 id="rolls"><i class="fas fa-gamepad" aria-hidden="true"></i>Game staff rolls</h2><span class="en-sec__hint">Bar length = credited entries, scaled to 600</span></header>{% include english/games.html games=archive.games %}</section>
+<section class="en-sec" aria-labelledby="data"><header class="en-sec__head"><h2 id="data"><i class="fas fa-database" aria-hidden="true"></i>Research datasets</h2></header>{% include english/datasets.html %}</section>

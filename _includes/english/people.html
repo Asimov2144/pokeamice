@@ -1,12 +1,16 @@
-<div class="en-archive__grid">
+<div class="en-grid en-grid--people">
 {% for person in include.people %}
-  <article class="en-archive__card">
-    {% if person.avatar %}<img class="en-archive__portrait" src="{{ person.avatar | relative_url }}" alt="" width="56" height="56" loading="lazy">{% endif %}
-    <h3><a href="{{ person.url | relative_url }}">{{ person.name_en | default: person.name | escape }}</a></h3>
-    <p class="en-archive__native">{% if person.name_zh %}<span lang="zh-CN">{{ person.name_zh }}</span>{% endif %}{% if person.name_ja and person.name_ja != person.name_zh %} / <span lang="ja">{{ person.name_ja }}</span>{% endif %}</p>
-    {% if person.roles.size > 0 %}<p>Credits include {{ person.roles | join: ', ' }} roles.</p>{% endif %}
-    <p>{{ person.interviews }} related interview records · {{ person.credited_games }} credited games</p>
-    <p class="en-archive__fine">Profile, source references and detailed credits in Chinese.</p>
+  <article class="en-person" data-en-filter="{{ person.name_en | default: person.name | escape }} {{ person.name_zh }} {{ person.name_ja }}">
+    <div class="en-person__top">
+      {% if person.avatar %}<img class="en-person__portrait" src="{{ person.avatar | relative_url }}" alt="" width="64" height="64" loading="lazy">{% else %}<span class="en-person__portrait en-person__portrait--blank" aria-hidden="true">{{ person.name_en | default: person.name | slice: 0 }}</span>{% endif %}
+      <div class="en-person__names">
+        <h3><a href="{{ person.url | relative_url }}">{{ person.name_en | default: person.name | escape }}</a></h3>
+        <p class="en-native">{% if person.name_zh %}<span lang="zh-CN">{{ person.name_zh }}</span>{% endif %}{% if person.name_ja and person.name_ja != person.name_zh %} / <span lang="ja">{{ person.name_ja }}</span>{% endif %}</p>
+      </div>
+    </div>
+    {% if person.roles.size > 0 %}<ul class="en-chips" aria-label="Credited roles">{% for role in person.roles %}<li>{{ role }}</li>{% endfor %}</ul>{% endif %}
+    <p class="en-person__nums"><span><i class="fas fa-comments" aria-hidden="true"></i><b>{{ person.interviews }}</b> related interview records</span><span><i class="fas fa-gamepad" aria-hidden="true"></i><b>{{ person.credited_games }}</b> credited games</span></p>
+    <p class="en-fine">Profile, source references and detailed credits in Chinese.{% if person.roles.size > 0 %} Credits include {{ person.roles | join: ', ' }} roles.{% endif %}</p>
   </article>
 {% endfor %}
 </div>

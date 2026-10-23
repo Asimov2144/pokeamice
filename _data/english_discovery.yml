@@ -3,24 +3,33 @@ featured_people: [masuda-junichi, ohmori-shigeru, sugimori-ken, tajiri-satoshi, 
 major_games: [red-green, ruby-sapphire, diamond-pearl, heartgold-soulsilver, black-white, x-y, sun-moon, sword-shield]
 collections:
   - title: Game Freak archive reconstruction
+    img: director
+    kind: Blog
     url: /gamefreak-director/
     summary: Read Junichi Masuda's director columns with their original dates, source records and Chinese translations. These are first-person columns, rather than interviews.
   - title: Game Freak recruitment interviews
+    img: recruit
+    kind: Archive
     url: /keys/gamefreak-recruit-archive/
     summary: Compare archived versions of recruitment pages. The same URL can hold different interviewees and text in different years; version records preserve that context.
   - title: Japanese interview translations
+    img: overseas
+    kind: 日本語
     url: /ja/
     summary: Read Japanese AI translations of selected interviews originally published in English and other languages. They are not human proofread; each page links to its source and Chinese version.
 research_datasets:
   - title: Cross-game staff credits
+    icon: fa-table-list
     url: /credits/staff/
     summary: Compare credited names, roles and games. A credit records a contribution to a work; it does not by itself prove employment at a company.
     download: /assets/data/credits-staff.json
   - title: Credit relationships
+    icon: fa-diagram-project
     url: /credits/staff/
     summary: Explore connections between people through the games in which they are credited, with links back to the underlying staff rolls.
     download: /assets/data/credits-relations.json
   - title: Searchable archive catalogue
+    icon: fa-magnifying-glass
     url: /search/
     summary: Search the existing Chinese archive by person, work, year and source. English aliases are included for registered people.
     download: /assets/js/catalogue.json
@@ -42,3 +51,18 @@ recent_sources:
     added: '2026-09-29'
     title: Nintendo DREAM 84 — Ruby and Sapphire interview scans
     summary: A magazine interview with Junichi Masuda and Ken Sugimori, with scanned source pages and a Chinese translation.
+# The picture shelf on the English home page. A tile counts the posts that match every key it names:
+# archive_types, legacy_blog (a Game Freak legacy blog), tag, pub (any substring of publication / source title / title).
+# url opens an index; q opens the search page for that phrase.
+tiles:
+  - {label: "Director's columns", kind: Blog, img: director, url: /gamefreak-director/, archive_types: [gamefreak_director_column, gamefreak_masuda_lineblog]}
+  - {label: Staff blog, kind: Blog, img: staff, url: /gamefreak-staff/, archive_types: [gamefreak_legacy_blog], legacy_blog: staff}
+  - {label: Art blog, kind: Blog, img: art, url: /gamefreak-art/, archive_types: [gamefreak_legacy_blog], legacy_blog: art}
+  - {label: Iwata Asks, kind: Official, img: iwata, q: 社长问, pub: ['社長が訊く', '社长问']}
+  - {label: Magazine scans, kind: Scans, img: scan, url: /search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91, archive_types: [scan_translation]}
+  - {label: Nintendo DREAM, kind: Magazine, img: ndream, q: Nintendo DREAM, pub: ['Nintendo DREAM']}
+  - {label: Famitsu, kind: Magazine, img: famitsu, q: ファミ通, pub: ['ファミ通', 'Fami通']}
+  - {label: Dengeki, kind: Magazine, img: dengeki, q: 電撃, pub: ['電撃', '电击']}
+  - {label: Game Informer, kind: Magazine, img: gi, q: Game Informer, pub: ['Game Informer']}
+  - {label: CEDEC talks, kind: Talks, img: cedec, q: CEDEC, pub: ['CEDEC']}
+  - {label: Recruitment interviews, kind: Archive, img: recruit, q: 招聘访谈, tag: 招聘访谈}

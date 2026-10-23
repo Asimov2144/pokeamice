@@ -1,11 +1,21 @@
-<div class="en-archive__grid">
+{%- comment -%}
+A game's staff roll as a card: the work's own icon (_data/works.yml) and version colour, the year,
+the size of the roll as a bar against 600 entries, and the development team when the roll names it.
+{%- endcomment -%}
+<div class="en-grid en-grid--games">
 {% for game in include.games %}
-  <article class="en-archive__card">
-    <p class="en-archive__eyebrow">{{ game.year }} · {{ game.developer | escape }}</p>
+  {% assign gw = site.data.works | where: "name", game.work | first %}
+  {% assign gpct = game.count | times: 100 | divided_by: 600 | at_most: 100 | at_least: 4 %}
+  <article class="en-game" style="--gc: {{ gw.color | default: '#64748b' }}; --gc2: {{ gw.color2 | default: gw.color | default: '#94a3b8' }}">
+    <div class="en-game__head">
+      <span class="en-game__icons" aria-hidden="true">{% if gw.icon %}<img src="{{ gw.icon | relative_url }}" alt="" width="44" height="44" loading="lazy">{% endif %}{% if gw.icon2 %}<img src="{{ gw.icon2 | relative_url }}" alt="" width="44" height="44" loading="lazy">{% endif %}{% unless gw.icon %}<i class="fas fa-gamepad"></i>{% endunless %}</span>
+      <span class="en-game__year">{{ game.year }}<small>{{ game.developer | escape }}</small></span>
+    </div>
     <h3><a href="{{ game.url | relative_url }}">{{ game.title | escape }} Staff Credits</a></h3>
-    <p lang="zh-CN" class="en-archive__native">{{ game.title_zh }}</p>
-    <p>{{ game.count }} credited entries{% if game.stats.persons %} · {{ game.stats.persons }} people{% endif %}{% if game.team.dev %} · {{ game.team.dev }} development contributors{% endif %}</p>
-    <p class="en-archive__fine">{% if game.team.sections %}{{ game.team.sections }} source sections. {% endif %}Staff roll, department breakdown and development atlas in Chinese. Counts describe this source roll, not the entire company.</p>
+    <p class="en-native" lang="zh-CN">{{ game.title_zh }}</p>
+    <div class="en-bar" role="img" aria-label="{{ game.count }} credited entries"><i style="width: {{ gpct }}%"></i></div>
+    <p class="en-game__nums"><span><b>{{ game.count }}</b> credited entries</span>{% if game.stats.persons %}<span><b>{{ game.stats.persons }}</b> people</span>{% endif %}{% if game.team.dev %}<span><b>{{ game.team.dev }}</b> development contributors</span>{% endif %}</p>
+    <p class="en-fine">{% if game.team.sections %}{{ game.team.sections }} source sections. {% endif %}Staff roll, department breakdown and development atlas in Chinese. Counts describe this source roll, not the entire company.</p>
   </article>
 {% endfor %}
 </div>

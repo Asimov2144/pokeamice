@@ -1,0 +1,11 @@
+{%- comment -%}
+The picture shelf: the same collection tiles the Chinese home page scrolls under its search bar
+(assets/img/topics), labelled in English. Counts come from EnglishDiscovery#tiles. The pages behind
+the tiles are the Chinese archive's own indexes, so each tile says so in its title.
+{%- endcomment -%}
+<nav class="en-shelf" aria-label="Collections in the archive">
+{%- for tile in site.data.en_discovery.tiles -%}
+  {%- if tile.q -%}{%- capture tile_href -%}/search/?q={{ tile.q | uri_escape }}{%- endcapture -%}{%- else -%}{%- assign tile_href = tile.url -%}{%- endif -%}
+  <a class="en-tile" href="{{ tile_href | relative_url }}" title="{{ tile.label | escape }} (opens the Chinese archive index)"><img src="{{ '/assets/img/topics/' | append: tile.img | append: '.jpg' | relative_url }}" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="en-tile__kind">{{ tile.kind }}</span>{% if tile.count %}<b>{{ tile.count }}</b>{% endif %}<strong>{{ tile.label }}</strong></a>
+{%- endfor -%}
+</nav>

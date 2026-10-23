@@ -48,11 +48,32 @@ module PokeAmice
         'games' => games.sort_by { |game| [game['year'].to_s, game['slug']] },
         'major_games' => Array(@config['major_games']).map { |slug| games.find { |game| game['slug'] == slug } }.compact,
         'eras' => eras, 'english_originals' => rows.select { |row| row['original_en'] }.sort_by { |row| row['year'] }.reverse.first(8),
-        'recent_sources' => recovered
+        'recent_sources' => recovered,
+        'tiles' => tiles(@site.posts.docs)
       }
       @site.pages.select { |page| page.data['layout'] == 'english-discovery' }.each do |page|
         page.data['discovery_schema'] = schema(page)
       end
+    end
+
+    # The shelf tiles with the number of posts each one stands for (see _data/english_discovery.yml).
+    def tiles(posts)
+      posts = posts.reject { |post| post.data['search'] == false }
+      Array(@config['tiles']).map do |tile|
+        criteria = %w[archive_types legacy_blog tag pub].select { |key| tile[key] }
+        count = criteria.empty? ? nil : posts.count { |post| tile_match?(tile, post.data) }
+        tile.merge('count' => count)
+      end
+    end
+
+    def tile_match?(tile, data)
+      source = data['source'].is_a?(Hash) ? data['source'] : {}
+      text = [data['publication'], source['title'], data['title']].compact.join(' ')
+      return false if tile['archive_types'] && !tile['archive_types'].include?(data['archive_type'])
+      return false if tile['legacy_blog'] && data['gf_legacy_blog'] != tile['legacy_blog']
+      return false if tile['tag'] && !Array(data['tags']).include?(tile['tag'])
+      return false if tile['pub'] && tile['pub'].none? { |word| text.include?(word) }
+      true
     end
 
     def interview_row(post)
@@ -72,7 +93,11 @@ module PokeAmice
                 "#{source_name} — #{subjects.empty? ? 'developer interview' : subjects.join(' / ')}"
               end
       stem = File.basename(post.path, File.extname(post.path))
-      { 'url' => data['canonical_url'] || post.url, 'title' => title, 'chinese_title' => data['title'],
+      kind = if data['archive_type'] == 'scan_translation' then 'scan'
+             elsif %w[gamefreak_director_column gamefreak_masuda_lineblog gamefreak_legacy_blog].include?(data['archive_type']) then 'blog'
+             else 'interview'
+             end
+      { 'url' => data['canonical_url'] || post.url, 'title' => title, 'post' => post, 'kind' => kind, 'chinese_title' => data['title'],
         'year' => post.date.year, 'source' => source_name, 'people' => people,
         'works' => works.map { |game| game['title'] }, 'original_en' => english,
         'original_url' => url, 'original_language' => language,

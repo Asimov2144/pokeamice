@@ -2,17 +2,42 @@
 layout: default
 ---
 {% assign archive = site.data.en_discovery %}
+{% assign en_home = false %}{% if page.url == '/en/' %}{% assign en_home = true %}{% endif %}
 <main class="en-archive" id="main" lang="en">
-  <nav class="en-archive__nav" aria-label="English archive sections">
-    {% assign sections = 'Overview:/en/,Interviews:/en/interviews/,People:/en/people/,Credits:/en/credits/,Recovered sources:/en/archive/' | split: ',' %}
-    {% for section in sections %}{% assign bits = section | split: ':' %}<a href="{{ bits[1] | relative_url }}"{% if page.url == bits[1] %} aria-current="page"{% endif %}>{{ bits[0] }}</a>{% endfor %}
+  <nav class="en-nav" aria-label="English archive sections">
+    {% assign sections = 'Overview:/en/:fa-house,Interviews:/en/interviews/:fa-comments,People:/en/people/:fa-user-group,Credits:/en/credits/:fa-list-check,Recovered sources:/en/archive/:fa-box-archive' | split: ',' %}
+    {% for section in sections %}{% assign bits = section | split: ':' %}<a href="{{ bits[1] | relative_url }}"{% if page.url == bits[1] %} aria-current="page"{% endif %}><i class="fas {{ bits[2] }}" aria-hidden="true"></i>{{ bits[0] }}</a>{% endfor %}
+    <span class="en-nav__langs"><a href="{{ '/' | relative_url }}" lang="zh-CN" hreflang="zh-CN">中文</a><a href="{{ '/ja/' | relative_url }}" lang="ja" hreflang="ja">日本語</a></span>
   </nav>
-  <header class="en-archive__intro">
-    <p class="en-archive__eyebrow">Poke Amice Docs · English research guide</p>
-    <h1>{{ page.title }}</h1>
-    <p class="en-archive__lead">{{ page.description }}</p>
-    <p class="en-archive__note">This is an English discovery layer. Detailed records remain in the Chinese archive; original sources and available translations are linked separately.</p>
+  <header class="en-hero{% unless en_home %} en-hero--compact{% endunless %}">
+    <div class="en-hero__text">
+      <p class="en-eyebrow"><i class="fas fa-book-open" aria-hidden="true"></i>Poke Amice Docs · English research guide</p>
+      <h1>{{ page.title }}</h1>
+      <p class="en-lead">{{ page.description }}</p>
+      {% if en_home %}
+      <form class="en-search" role="search" action="{{ '/search/' | relative_url }}" method="get">
+        <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+        <input type="search" name="q" placeholder="Search a person, game, magazine or year…" autocomplete="off" aria-label="Search the archive">
+        <button type="submit">Search</button>
+      </form>
+      <ul class="en-stats">
+        <li><i class="fas fa-comments" aria-hidden="true"></i><b>{{ archive.interview_count }}</b> interview records</li>
+        <li><i class="fas fa-user-group" aria-hidden="true"></i><b>{{ archive.people_count }}</b> people profiles</li>
+        <li><i class="fas fa-list-check" aria-hidden="true"></i><b>{{ archive.game_count }}</b> game staff rolls</li>
+        <li><i class="fas fa-newspaper" aria-hidden="true"></i><b>{{ archive.scan_count }}</b> scan records</li>
+        <li><i class="fas fa-language" aria-hidden="true"></i><b>{{ archive.japanese_count }}</b> Japanese translations</li>
+      </ul>
+      {% endif %}
+      <p class="en-note"><i class="fas fa-circle-info" aria-hidden="true"></i>This is an English discovery layer. Detailed records remain in the Chinese archive; original sources and available translations are linked separately.</p>
+    </div>
+    {% if en_home %}
+    <div class="en-hero__art" aria-hidden="true">
+      <img src="{{ '/assets/img/topics/ndream.jpg' | relative_url }}" alt="" width="336" height="192" decoding="async">
+      <img src="{{ '/assets/img/topics/scan.jpg' | relative_url }}" alt="" width="336" height="192" decoding="async">
+      <img src="{{ '/assets/img/topics/director.jpg' | relative_url }}" alt="" width="336" height="192" decoding="async">
+    </div>
+    {% endif %}
   </header>
   {{ content }}
-  <footer class="en-archive__foot">Read the <a href="{{ '/' | relative_url }}" lang="zh-CN" hreflang="zh-CN">Chinese archive</a> or the <a href="{{ '/ja/' | relative_url }}" lang="ja" hreflang="ja">Japanese interview edition</a>. Translation methods and proofreading status are recorded on individual pages.</footer>
+  <footer class="en-foot">Read the <a href="{{ '/' | relative_url }}" lang="zh-CN" hreflang="zh-CN">Chinese archive</a> or the <a href="{{ '/ja/' | relative_url }}" lang="ja" hreflang="ja">Japanese interview edition</a>. Translation methods and proofreading status are recorded on individual pages.</footer>
 </main>
