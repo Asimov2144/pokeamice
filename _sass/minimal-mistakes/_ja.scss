@@ -10,15 +10,8 @@
 
 /* "AI翻訳" in the kicker, and the note under the meta line */
 .ed-kicker .ed-kicker__ai {
-  display: inline-block;
-  margin-left: 0.4em;
-  padding: 0 0.45em;
-  border: 1.5px solid #c93a2b;
-  border-radius: 2px;
-  color: #c93a2b;
+  color: #c2410c;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  transform: rotate(-2deg);
 }
 .ed-ai-note {
   margin-top: 14px !important;
