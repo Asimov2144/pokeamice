@@ -5,16 +5,19 @@ collections:
   - title: Game Freak archive reconstruction
     img: director
     kind: Blog
+    pics: [/assets/images/gamefreak-director/original/header-photo.png, /assets/img/people/masuda-junichi.jpg, /assets/images/gamefreak-director/original/masuda-profile.png]
     url: /gamefreak-director/
     summary: Read Junichi Masuda's director columns with their original dates, source records and Chinese translations. These are first-person columns, rather than interviews.
   - title: Game Freak recruitment interviews
     img: recruit
     kind: Archive
+    pics: [/assets/img/interviews/2015-gamefreak-recruit-designers/keyvisual.jpg, /assets/img/interviews/2019-gamefreak-recruit-pg-yi/img-01.jpg, /assets/img/interviews/2013-gamefreak-recruit-3d-graphics/pic_01.png]
     url: /keys/gamefreak-recruit-archive/
     summary: Compare archived versions of recruitment pages. The same URL can hold different interviewees and text in different years; version records preserve that context.
   - title: Japanese interview translations
     img: overseas
     kind: 日本語
+    pics: [/assets/img/topics/overseas.jpg, /assets/img/topics/gi.jpg, /assets/img/topics/famitsu.jpg]
     url: /ja/
     summary: Read Japanese AI translations of selected interviews originally published in English and other languages. They are not human proofread; each page links to its source and Chinese version.
 research_datasets:
@@ -65,4 +68,4 @@ tiles:
   - {label: Dengeki, kind: Magazine, img: dengeki, q: 電撃, pub: ['電撃', '电击']}
   - {label: Game Informer, kind: Magazine, img: gi, q: Game Informer, pub: ['Game Informer']}
   - {label: CEDEC talks, kind: Talks, img: cedec, q: CEDEC, pub: ['CEDEC']}
-  - {label: Recruitment interviews, kind: Archive, img: recruit, q: 招聘访谈, tag: 招聘访谈}
+  - {label: Game Freak recruiting, kind: Archive, img_src: /assets/img/interviews/2015-gamefreak-recruit-designers/keyvisual.jpg, q: Game Freak 採用情報, tag: 招聘访谈, pub: ['Game Freak', 'GAME FREAK']}

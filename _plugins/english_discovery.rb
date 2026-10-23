@@ -76,6 +76,22 @@ module PokeAmice
       true
     end
 
+    # The first few pictures of the entry's own text (a recruitment page's key visual and photographs, a
+    # magazine's inline plates): what a card shows when the entry names no cover of its own, instead of
+    # its collection's single stand-in picture.
+    BODY_IMAGE = %r{(?<![\w/])/?(assets/(?:img|images)/[^"'()\s<>]+\.(?:jpe?g|png|webp))}i
+    SKIP_IMAGE = /loading|icon|logo|btn|button|arrow|spacer|bullet/i
+
+    def body_images(post)
+      items = %w[translation_segments parallel_items].flat_map { |key| Array(post.data[key]) }
+      items = items.select { |item| item.is_a?(Hash) && item['type'].to_s == 'image' }
+      paths = items.map { |item| item['image'] || item['src'] || item['original'] }.compact.map(&:to_s)
+      paths += post.content.to_s.scan(BODY_IMAGE).flatten if post.respond_to?(:content)
+      paths.map { |path| path.sub(%r{\A/?}, '/') }
+           .select { |path| path.match?(%r{\A/assets/(?:img|images)/.+\.(?:jpe?g|png|webp)\z}i) && !path.match?(SKIP_IMAGE) }
+           .uniq.first(3)
+    end
+
     def interview_row(post)
       data = post.data
       source = data['source'].is_a?(Hash) ? data['source'] : {}
@@ -97,7 +113,7 @@ module PokeAmice
              elsif %w[gamefreak_director_column gamefreak_masuda_lineblog gamefreak_legacy_blog].include?(data['archive_type']) then 'blog'
              else 'interview'
              end
-      { 'url' => data['canonical_url'] || post.url, 'title' => title, 'post' => post, 'kind' => kind, 'chinese_title' => data['title'],
+      { 'url' => data['canonical_url'] || post.url, 'title' => title, 'post' => post, 'kind' => kind, 'images' => body_images(post), 'chinese_title' => data['title'],
         'year' => post.date.year, 'source' => source_name, 'people' => people,
         'works' => works.map { |game| game['title'] }, 'original_en' => english,
         'original_url' => url, 'original_language' => language,

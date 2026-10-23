@@ -6,6 +6,6 @@ the tiles are the Chinese archive's own indexes, so each tile says so in its tit
 <nav class="en-shelf" aria-label="Collections in the archive">
 {%- for tile in site.data.en_discovery.tiles -%}
   {%- if tile.q -%}{%- capture tile_href -%}/search/?q={{ tile.q | uri_escape }}{%- endcapture -%}{%- else -%}{%- assign tile_href = tile.url -%}{%- endif -%}
-  <a class="en-tile" href="{{ tile_href | relative_url }}" title="{{ tile.label | escape }} (opens the Chinese archive index)"><img src="{{ '/assets/img/topics/' | append: tile.img | append: '.jpg' | relative_url }}" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="en-tile__kind">{{ tile.kind }}</span>{% if tile.count %}<b>{{ tile.count }}</b>{% endif %}<strong>{{ tile.label }}</strong></a>
+  <a class="en-tile" href="{{ tile_href | relative_url }}" title="{{ tile.label | escape }} (opens the Chinese archive index)"><img src="{% if tile.img_src %}{{ tile.img_src | relative_url }}{% else %}{{ '/assets/img/topics/' | append: tile.img | append: '.jpg' | relative_url }}{% endif %}" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="en-tile__kind">{{ tile.kind }}</span>{% if tile.count %}<b>{{ tile.count }}</b>{% endif %}<strong>{{ tile.label }}</strong></a>
 {%- endfor -%}
 </nav>
