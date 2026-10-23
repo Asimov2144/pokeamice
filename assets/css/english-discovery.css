@@ -223,14 +223,90 @@
 .en-langs a:hover { border-color: var(--en-accent); color: var(--en-accent); }
 .en-langs b { display: inline-grid; place-items: center; min-width: 22px; height: 22px; border-radius: 999px; background: var(--en-deep); color: #fff; font-size: 11px; }
 
-/* the decades */
+/* the eras: each wears the look of the interview page templates of those years (_sass/minimal-mistakes/_interview-editorial-*.scss) */
 .en-eras { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
-.en-eras a { display: grid; padding: 8px 16px; border: 1px solid var(--en-rule); border-radius: 12px; background: #fff; text-decoration: none; line-height: 1.25; }
-.en-eras a:hover { border-color: var(--en-accent); }
-.en-eras b { font-size: 17px; font-variant-numeric: tabular-nums; }
+.en-eras a { --ek-chip: var(--en-faint); display: grid; padding: 7px 16px 7px 12px; border: 1px solid var(--en-rule); border-left: 5px solid var(--ek-chip); border-radius: 10px; background: #fff; text-decoration: none; line-height: 1.25; }
+.en-eras a:hover { border-color: var(--ek-chip); }
+.en-eras b { font-size: 15px; font-variant-numeric: tabular-nums; }
 .en-eras span { font-size: 12px; color: var(--en-faint); }
-.en-decade { margin-right: 4px; padding: 0 12px; border-radius: 10px; background: var(--en-deep); color: #fff; font-variant-numeric: tabular-nums; }
-.en-sec--era { scroll-margin-top: 16px; }
+.en-eras a[data-en-era="1999"] { --ek-chip: #003a70; }
+.en-eras a[data-en-era="2003"] { --ek-chip: #2f6f45; }
+.en-eras a[data-en-era="2007"] { --ek-chip: #2a6ea3; }
+.en-eras a[data-en-era="2011"] { --ek-chip: #2b3038; }
+.en-eras a[data-en-era="2014"] { --ek-chip: #e74c3c; }
+.en-eras a[data-en-era="2019"] { --ek-chip: #3ec9a7; }
+.en-eras a[data-en-era="2026"] { --ek-chip: #8f8f88; }
+.en-decade { margin-right: 8px; padding: 1px 12px; border-radius: 10px; background: var(--en-deep); color: #fff; font-size: .8em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.en-sec--era { --ek-ground: #fff; --ek-rule: #e2e8f0; --ek-radius: 14px; --ek-card-radius: 12px; --ek-card-rule: #e2e8f0; --ek-accent: #b91c1c;
+  position: relative; margin: 0 0 26px; padding: 22px 22px 24px; scroll-margin-top: 16px;
+  border: 1px solid var(--ek-rule); border-radius: var(--ek-radius); background: var(--ek-ground); }
+.en-sec--era .en-sec__head { border-left-color: var(--ek-accent); }
+.en-sec--era .en-sec__lead { margin-bottom: 14px; }
+.en-sec--era .en-rec { border-color: var(--ek-card-rule); border-radius: var(--ek-card-radius); }
+.en-sec--era .en-rec__line a, .en-sec--era .en-sec__lead a { color: var(--ek-link, var(--en-accent)); }
+
+/* 1996-2001 · the early web: a paper ground, hard 1px rules, square corners, serif heads, navy and gold, classic blue links */
+.en-sec--era[data-en-era="1999"] { --ek-ground: #fffdf5; --ek-rule: #9a958a; --ek-radius: 0; --ek-card-radius: 0; --ek-card-rule: #9a958a; --ek-accent: #003a70; --ek-link: #0000cc;
+  font-family: Georgia, "Times New Roman", "Songti SC", SimSun, serif; }
+.en-sec--era[data-en-era="1999"] .en-sec__head { border-left: 0; padding-left: 0; padding-bottom: 8px; border-bottom: 1px solid #9a958a; }
+.en-sec--era[data-en-era="1999"] .en-decade { border-radius: 0; background: #003a70; color: #ffcb05; }
+.en-sec--era[data-en-era="1999"] .en-rec { box-shadow: none; background: #fff; }
+.en-sec--era[data-en-era="1999"] .en-rec:hover { transform: none; box-shadow: none; border-color: #003a70; }
+.en-sec--era[data-en-era="1999"] .en-rec__kind { border-radius: 0; background: #003a70; color: #ffcb05; }
+
+/* 2002-2005 · the portal years: a pale panel, a green section bar with white type, 2px borders, Verdana */
+.en-sec--era[data-en-era="2003"] { --ek-ground: #eef3f7; --ek-rule: #b9c4cc; --ek-radius: 4px; --ek-card-radius: 3px; --ek-card-rule: #b9c4cc; --ek-accent: #2f6f45; --ek-link: #10457f;
+  border-width: 2px; font-family: Verdana, Tahoma, "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif; }
+.en-sec--era[data-en-era="2003"] .en-sec__head { padding: 8px 14px; border-left: 0; border-radius: 3px; background: #2f6f45; }
+.en-sec--era[data-en-era="2003"] .en-sec__head h2 { color: #fff; font-size: 1.15rem; }
+.en-sec--era[data-en-era="2003"] .en-sec__hint { color: #cfe6d7; }
+.en-sec--era[data-en-era="2003"] .en-decade { border-radius: 2px; background: #fff; color: #245635; }
+.en-sec--era[data-en-era="2003"] .en-rec { border-width: 2px; background: #fff; }
+.en-sec--era[data-en-era="2003"] .en-rec__kind { border-radius: 2px; background: #1b4f8f; color: #fff; }
+
+/* 2006-2009 · the DS web: a pale blue frame, a gradient lit from the top, rounded signboard tabs */
+.en-sec--era[data-en-era="2007"] { --ek-ground: linear-gradient(180deg, #fff 0%, #e8f4fc 100%); --ek-rule: #a9c9de; --ek-radius: 20px; --ek-card-radius: 12px; --ek-card-rule: #d3e5f0; --ek-accent: #2a6ea3; --ek-link: #1668a8;
+  border-width: 2px; font-family: "Trebuchet MS", "Meiryo", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif; }
+.en-sec--era[data-en-era="2007"] .en-sec__head { padding: 8px 18px; border-left: 0; border-radius: 14px; background: linear-gradient(180deg, #4c8fc6, #2a6ea3); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .45); }
+.en-sec--era[data-en-era="2007"] .en-sec__head h2 { color: #fff; font-size: 1.15rem; }
+.en-sec--era[data-en-era="2007"] .en-sec__hint { color: #dcecf8; }
+.en-sec--era[data-en-era="2007"] .en-decade { background: #f4b400; color: #3a2a00; }
+.en-sec--era[data-en-era="2007"] .en-rec { box-shadow: 0 2px 0 #cfe3f0; }
+
+/* 2010-2012 · the connected web: charcoal chips, a status green, a service blue, a plain grey panel, Arial */
+.en-sec--era[data-en-era="2011"] { --ek-ground: #f3f5f8; --ek-rule: #cfd5dc; --ek-radius: 8px; --ek-card-radius: 6px; --ek-card-rule: #cfd5dc; --ek-accent: #2c7be5; --ek-link: #1f5fbf;
+  font-family: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif; }
+.en-sec--era[data-en-era="2011"] .en-sec__head { padding: 8px 14px; border-left: 0; border-radius: 6px; background: linear-gradient(180deg, #3a4048, #1c2026); }
+.en-sec--era[data-en-era="2011"] .en-sec__head h2 { color: #fff; font-size: 1.15rem; }
+.en-sec--era[data-en-era="2011"] .en-sec__hint { color: #aab3bd; }
+.en-sec--era[data-en-era="2011"] .en-decade { border-radius: 4px; background: #2f9e4a; color: #fff; }
+.en-sec--era[data-en-era="2011"] .en-rec { background: linear-gradient(180deg, #fff, #f8f9fb); }
+
+/* 2013-2016 · the editorial web: a warm paper, a black rule, red as the only colour, near-square corners */
+.en-sec--era[data-en-era="2014"] { --ek-ground: #faf9f7; --ek-rule: #eae7e1; --ek-radius: 4px; --ek-card-radius: 4px; --ek-card-rule: #eae7e1; --ek-accent: #e74c3c; --ek-link: #c0392b;
+  border-top: 3px solid #222; }
+.en-sec--era[data-en-era="2014"] .en-sec__head { border-left: 0; padding-left: 0; padding-bottom: 8px; border-bottom: 2px solid #222; }
+.en-sec--era[data-en-era="2014"] .en-decade { border-radius: 0; background: #222; color: #fff; letter-spacing: .08em; }
+.en-sec--era[data-en-era="2014"] .en-rec { box-shadow: 0 4px 15px rgba(0, 0, 0, .03); }
+.en-sec--era[data-en-era="2014"] .en-rec__kind { border-radius: 0; background: #222; color: #fff; }
+
+/* 2017-2021 · the Switch era: a light band with yellow, pink, sky and violet dots in the margins, mint and sky gradient */
+.en-sec--era[data-en-era="2019"] { --ek-ground: #f5f5f5; --ek-rule: transparent; --ek-radius: 22px; --ek-card-radius: 14px; --ek-card-rule: transparent; --ek-accent: #3ec9a7; --ek-link: #5b3fb8;
+  border: 0; font-family: "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-image: radial-gradient(circle at calc(100% - 12px) 14px, #f7c948 0 8px, transparent 9px), radial-gradient(circle at 10px calc(100% - 10px), #f48fb1 0 7px, transparent 8px),
+    radial-gradient(circle at calc(100% - 20px) calc(100% - 12px), #79b8ea 0 10px, transparent 11px), radial-gradient(circle at 9px 10px, #7c5cd6 0 5px, transparent 6px), radial-gradient(circle at 50% calc(100% - 5px), #3ec9a7 0 4px, transparent 5px); }
+.en-sec--era[data-en-era="2019"] .en-sec__head { border-left-width: 6px; border-image: linear-gradient(180deg, #3ec9a7, #79b8ea) 1; }
+.en-sec--era[data-en-era="2019"] .en-decade { border-radius: 999px; background: linear-gradient(90deg, #3ec9a7, #79b8ea); color: #fff; }
+.en-sec--era[data-en-era="2019"] .en-rec { box-shadow: 0 6px 18px rgba(15, 23, 42, .07); }
+
+/* 2022-2026 · the modern archive: quiet - one ink, hairlines, grey numerals, nothing competing for the page */
+.en-sec--era[data-en-era="2026"] { --ek-ground: #fbfbfa; --ek-rule: #e6e6e3; --ek-radius: 6px; --ek-card-radius: 4px; --ek-card-rule: #e6e6e3; --ek-accent: #cfcfca; --ek-link: #2451b3;
+  font-family: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+.en-sec--era[data-en-era="2026"] .en-sec__head { border-left: 0; padding-left: 0; padding-bottom: 8px; border-bottom: 1px solid #cfcfca; }
+.en-sec--era[data-en-era="2026"] .en-decade { padding: 0; background: none; color: #8f8f88; font-weight: 500; }
+.en-sec--era[data-en-era="2026"] .en-rec { box-shadow: none; background: #fff; }
+.en-sec--era[data-en-era="2026"] .en-rec:hover { transform: none; box-shadow: none; border-color: #cfcfca; }
 
 /* how a source is recorded */
 .en-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 22px 0 0; padding: 0; list-style: none; counter-reset: step; }
@@ -259,6 +335,7 @@
   .en-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
+  .en-sec--era { padding: 16px 12px 18px; }
   .en-archive { padding: 12px 14px 40px; }
   .en-hero, .en-hero--compact { padding: 24px 18px 20px; border-radius: 16px; margin-bottom: 22px; }
   .en-grid, .en-grid--cards { grid-template-columns: minmax(0, 1fr); }

@@ -5,6 +5,18 @@ require_relative 'search_metadata'
 
 module PokeAmice
   class EnglishDiscovery
+    # The interview pages' era skins (_includes/era-skin.html draws the same lines): the English shelf
+    # groups by them so each era can wear its own page template's look (assets/css/english-discovery.css).
+    ERAS = [
+      { 'key' => '1999', 'from' => 0, 'to' => 2001, 'range' => '1996–2001', 'name' => 'Early web' },
+      { 'key' => '2003', 'from' => 2002, 'to' => 2005, 'range' => '2002–2005', 'name' => 'Portal years' },
+      { 'key' => '2007', 'from' => 2006, 'to' => 2009, 'range' => '2006–2009', 'name' => 'DS web' },
+      { 'key' => '2011', 'from' => 2010, 'to' => 2012, 'range' => '2010–2012', 'name' => 'Connected web' },
+      { 'key' => '2014', 'from' => 2013, 'to' => 2016, 'range' => '2013–2016', 'name' => 'Editorial web' },
+      { 'key' => '2019', 'from' => 2017, 'to' => 2021, 'range' => '2017–2021', 'name' => 'Switch era' },
+      { 'key' => '2026', 'from' => 2022, 'to' => 9999, 'range' => '2022–2026', 'name' => 'Modern archive' }
+    ].freeze
+
     def initialize(site)
       @site = site
       @config = site.data['english_discovery'] || {}
@@ -17,10 +29,11 @@ module PokeAmice
       interviews = @site.posts.docs.select { |post| SearchMetadata.interview?(post.data) }
       rows = interviews.map { |post| interview_row(post) }
       # The English shelf samples eras and then offers the complete Chinese index.
-      eras = rows.group_by { |row| row['year'].to_i / 10 * 10 }.sort.map do |decade, group|
-        { 'decade' => decade, 'count' => group.size,
-          'items' => group.sort_by { |row| [row['original_en'] ? 0 : 1, row['year'], row['url']] }.first(6) }
-      end
+      eras = ERAS.map do |era|
+        group = rows.select { |row| (era['from']..era['to']).cover?(row['year'].to_i) }
+        era.merge('count' => group.size,
+                  'items' => group.sort_by { |row| [row['original_en'] ? 0 : 1, row['year'], row['url']] }.first(4))
+      end.reject { |era| era['count'].zero? }
       people = @identities.values.map do |identity|
         record = @site.data['people'].find { |person| person['slug'] == identity['slug'] }
         credit = (@site.data['credits_people'] || {})[identity['slug']] || {}
