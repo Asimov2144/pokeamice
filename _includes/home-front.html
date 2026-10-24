@@ -7,7 +7,9 @@ ones), rendered here at build time
 so they are on screen with the first frame; assets/js/catalogue.js takes over
 the moment a filter is touched, with the full list from /assets/js/catalogue.json.
 Below 900px the rail folds into a <details>, and a strip of dimension chips
-(years, people, works) stands in for the sidebar's panel.
+(years, people, works) stands in for the filter bar (home-facets.html), which on a wider
+screen carries type / year / person / work above the cards; the rail then keeps only what the
+bar does not (collection, source, sort).
 {%- endcomment -%}
 {% assign front_posts = site.posts | where_exp: "post", "post.search != false" %}
 {% assign front_by_year = front_posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
@@ -32,7 +34,7 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
         <script>(function(){try{if(window.matchMedia("(max-width: 900px)").matches){document.currentScript.parentElement.removeAttribute("open");}}catch(e){}})();</script>
         <summary>筛选<span id="searchStatus" class="front__status" aria-live="polite">综合推荐 36 条</span></summary>
         <section class="search-lab__filters" aria-label="筛选条件">
-          <label>
+          <label class="front__dup">
             <span>内容类型</span>
             <select id="searchTypeFilter"><option value="">全部类型</option></select>
           </label>
@@ -40,15 +42,15 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
             <span>专题</span>
             <select id="searchCollectionFilter"><option value="">全部专题</option>{% for c in site.data.tile_collections %}<option value="{{ c.key }}">{{ c.label }}</option>{% endfor %}</select>
           </label>
-          <label>
+          <label class="front__dup">
             <span>人物</span>
             <select id="searchPersonFilter"><option value="">全部人物</option></select>
           </label>
-          <label>
+          <label class="front__dup">
             <span>作品</span>
             <select id="searchWorkFilter"><option value="">全部作品</option></select>
           </label>
-          <label>
+          <label class="front__dup">
             <span>年份</span>
             <select id="searchYearFilter"><option value="">全部年份</option></select>
           </label>
@@ -68,8 +70,8 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
         </section>
         <section class="search-lab__tools" aria-label="检索工具">
           <button type="button" data-search-reset>清空</button>
-          <button type="button" data-search-mode="interview">只看访谈</button>
-          <button type="button" data-search-mode="scan">只看扫描</button>
+          <button type="button" class="front__dup" data-search-mode="interview">只看访谈</button>
+          <button type="button" class="front__dup" data-search-mode="scan">只看扫描</button>
           <a href="{{ '/search/' | relative_url }}">完整检索</a>
           <a href="{{ '/people/' | relative_url }}">人物库</a>
           <a href="{{ '/resource-graph/' | relative_url }}">关系图谱</a>
@@ -78,6 +80,7 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
     </aside>
 
     <div class="front__main search-lab__main">
+      {% include home-facets.html %}
       {% include home-dimensions.html strip=true %}
       {%- comment -%} 今日一句: an aside above the entries, hidden until the reader idles or returns after a long while (assets/js/quote.js) {%- endcomment -%}
       {% include home-quote.html %}

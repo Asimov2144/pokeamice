@@ -1,0 +1,66 @@
+{%- comment -%}
+The filter bar above the cards (desktop; a phone keeps the chip rows of home-dimensions.html):
+one row of buttons - type, year, person, work - and each opens a panel as wide as the cards, so
+a year is a bar you can read, a person has a portrait and a name that fits, a work has its icon.
+It replaces the sidebar's dimension panel, which said the same things in 300px, and the four
+selects of the left rail (kept in the markup - they hold the filter's state - but hidden here).
+Every button carries data-dim / data-value and sets the catalogue's matching filter
+(assets/js/catalogue.js), which also writes the chosen value back onto the row's button
+([data-facet-val]) and lets the reader look up a person or work that is not listed ([data-find]).
+Needs the counts of home-dimensions.html.
+{%- endcomment -%}
+<div class="fbar" data-fbar aria-label="按维度筛选">
+  <details class="fbar__item" name="fbar">
+    <summary><span class="fbar__k">类型</span><span class="fbar__v" data-facet-val="type">全部</span></summary>
+    <div class="fbar__panel">
+      <p class="fbar__cap">内容类型</p>
+      <div class="dims__types">
+        <button type="button" data-dim="type" data-value="访谈翻译">访谈翻译 <b>{{ dims_n_interview }}</b></button>
+        <button type="button" data-dim="type" data-value="媒体专题">媒体专题 <b>{{ dims_n_feature }}</b></button>
+        <button type="button" data-dim="type" data-value="扫描翻译">扫描翻译 <b>{{ dims_n_scan }}</b></button>
+        <button type="button" data-dim="type" data-value="Game Freak 博客">Game Freak 博客 <b>{{ dims_n_blog }}</b></button>
+        <button type="button" data-dim="type" data-value="文档">文档 <b>{{ dims_n_doc }}</b></button>
+      </div>
+    </div>
+  </details>
+
+  <details class="fbar__item" name="fbar">
+    <summary><span class="fbar__k">年份</span><span class="fbar__v" data-facet-val="year">全部</span></summary>
+    <div class="fbar__panel">
+      <p class="fbar__cap">每年收录的条数 · 点一根柱子只看那一年 <a href="{{ '/timeline/' | relative_url }}">时间线 ↗</a></p>
+      <div class="dims__years" role="group" aria-label="年份">
+        {% for g in dims_by_year %}{% assign pct = g.items.size | times: 100 | divided_by: dims_year_max %}{% if pct < 4 %}{% assign pct = 4 %}{% endif %}<button type="button" data-dim="year" data-value="{{ g.name }}" data-y="{{ g.name }}" data-n="{{ g.items.size }} 条" title="{{ g.name }} · {{ g.items.size }} 条"><i style="height: {{ pct }}%"></i><span>{{ g.name | slice: 2, 2 }}</span></button>{% endfor %}
+      </div>
+    </div>
+  </details>
+
+  <details class="fbar__item" name="fbar">
+    <summary><span class="fbar__k">人物</span><span class="fbar__v" data-facet-val="person">全部</span></summary>
+    <div class="fbar__panel">
+      <p class="fbar__cap">被提到最多的人 · 点头像筛选，↗ 去人物页 <a href="{{ '/people/' | relative_url }}">人物库 ↗</a></p>
+      <ul class="dims__people">
+        {% for k in dims_people_keys limit: 15 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign pe = name | person_record %}{% assign identity = name | person_identity %}
+        <li><button type="button" data-dim="person" data-value="{{ name | escape }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="30" height="30">{% else %}<i aria-hidden="true">{{ name | slice: 0, 1 }}</i>{% endif %}<span>{{ name }}</span><b>{{ parts[0] | plus: 0 }}</b></button>{% if identity %}<a href="{{ identity.url | relative_url }}" title="{{ identity.label | escape }} 的人物页" aria-label="{{ identity.label | escape }} 的人物页">↗</a>{% endif %}</li>
+        {% endfor %}
+      </ul>
+      <label class="fbar__find"><input type="search" data-find="person" placeholder="输入姓名，找列表里没有的人…" autocomplete="off" aria-label="查找人物"></label>
+      <ul class="fbar__found" data-found="person"></ul>
+    </div>
+  </details>
+
+  <details class="fbar__item" name="fbar">
+    <summary><span class="fbar__k">作品</span><span class="fbar__v" data-facet-val="work">全部</span></summary>
+    <div class="fbar__panel">
+      <p class="fbar__cap">被讨论最多的作品 · 点图标筛选 <a href="{{ '/entities/works/' | relative_url }}">全部作品 ↗</a></p>
+      <ul class="dims__works">
+        {% for k in dims_works_keys limit: 12 %}{% assign parts = k | split: "¦" %}{% assign name = parts[1] %}{% assign wi = site.data.works | where: "name", name | first %}
+        <li><button type="button" data-dim="work" data-value="{{ name | escape }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy" width="28" height="28">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}<span>{{ name | remove_first: "宝可梦 " }}</span>{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy" width="28" height="28">{% endif %}<b>{{ parts[0] | plus: 0 }}</b></button></li>
+        {% endfor %}
+      </ul>
+      <label class="fbar__find"><input type="search" data-find="work" placeholder="输入作品名，找列表里没有的作品…" autocomplete="off" aria-label="查找作品"></label>
+      <ul class="fbar__found" data-found="work"></ul>
+    </div>
+  </details>
+
+  <button type="button" class="fbar__clear" data-search-reset data-fbar-clear hidden>清空筛选</button>
+</div>

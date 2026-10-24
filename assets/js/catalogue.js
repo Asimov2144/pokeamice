@@ -12,7 +12,7 @@
     const status = document.getElementById("searchStatus");
     if (!queryInput || !resultList) return;
     const form = document.querySelector("[data-search-lab-form]");
-    const resetButton = document.querySelector("[data-search-reset]");
+    const resetButtons = Array.from(document.querySelectorAll("[data-search-reset]"));
     const modeButtons = Array.from(document.querySelectorAll("[data-search-mode]"));
     const dimButtons = Array.from(document.querySelectorAll("[data-dim]"));
     const aiButton = document.getElementById("deepseekSearchButton");
@@ -339,6 +339,7 @@
         const el = filterEls[b.dataset.dim];
         b.classList.toggle("is-on", !!el && el.value === b.dataset.value);
       });
+      syncFacets(filters);
       if (!lastResults.length) {
         resultList.innerHTML = "<p class='search-lab__empty'>没有找到匹配结果。可以放宽筛选，或先只按年份、类型过滤。</p>";
         masonry();
@@ -453,10 +454,12 @@
     Object.values(filterEls).forEach(function(select) { if (select) select.addEventListener("change", change); });
     if (sortEl) sortEl.addEventListener("change", change);
     if (moreButton) moreButton.addEventListener("click", function() { shown += PAGE; render(); });
-    if (resetButton) resetButton.addEventListener("click", function() {
-      queryInput.value = "";
-      Object.values(filterEls).forEach(function(select) { if (select) select.value = ""; });
-      change();
+    resetButtons.forEach(function(resetButton) {
+      resetButton.addEventListener("click", function() {
+        queryInput.value = "";
+        Object.values(filterEls).forEach(function(select) { if (select) select.value = ""; });
+        change();
+      });
     });
     modeButtons.forEach(function(button) {
       button.addEventListener("click", function() { setMode(button.dataset.searchMode); });
@@ -475,8 +478,62 @@
         }
         setSelect(el, next, true);
         change();
+        closeFacets();
         const anchor = document.getElementById("overview") || resultList;
         if (window.matchMedia && window.matchMedia("(max-width: 900px)").matches) anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
+    // the filter bar (home-facets.html): each button wears the value it filters by, a clear
+    // button shows once anything narrows the list, and a panel closes when a choice is made,
+    // when the reader clicks elsewhere or presses Esc
+    function closeFacets(except) {
+      document.querySelectorAll(".fbar__item[open]").forEach(function(d) { if (d !== except) d.removeAttribute("open"); });
+    }
+
+    function syncFacets(filters) {
+      document.querySelectorAll("[data-facet-val]").forEach(function(v) {
+        const value = filters[v.dataset.facetVal] || "";
+        v.textContent = value || "全部";
+        const item = v.closest(".fbar__item");
+        if (item) item.classList.toggle("is-set", !!value);
+      });
+      const any = !!(filters.query || filters.person || filters.work || filters.year || filters.source || filters.type || filters.collection);
+      document.querySelectorAll("[data-fbar-clear]").forEach(function(b) { b.hidden = !any; });
+    }
+
+    document.querySelectorAll(".fbar__item").forEach(function(d) {
+      d.addEventListener("toggle", function() { if (d.open) closeFacets(d); });
+    });
+    document.addEventListener("click", function(event) {
+      if (!event.target.closest || !event.target.closest(".fbar__item")) closeFacets();
+    });
+    document.addEventListener("keydown", function(event) { if (event.key === "Escape") closeFacets(); });
+
+    // "find someone who is not on the list": the person / work options the catalogue holds
+    Array.from(document.querySelectorAll("[data-find]")).forEach(function(input) {
+      const kind = input.dataset.find;
+      const list = document.querySelector('[data-found="' + kind + '"]');
+      const select = filterEls[kind];
+      if (!list || !select) return;
+      function run() {
+        if (!loaded) { load().then(function() { if (loaded) run(); }); return; }
+        const q = normalize(input.value);
+        const hits = q ? Array.from(select.options).map(function(o) { return o.value; })
+          .filter(function(v) { return v && normalize(v).includes(q); }).slice(0, 12) : [];
+        list.innerHTML = hits.map(function(v) { return `<li><button type="button" data-pick="${escapeHtml(v)}">${escapeHtml(v)}</button></li>`; }).join("")
+          || (q ? "<li class='fbar__none'>没有匹配的结果</li>" : "");
+      }
+      input.addEventListener("input", run);
+      input.addEventListener("focus", function() { if (!loaded) load(); });
+      list.addEventListener("click", function(event) {
+        const pick = event.target.closest ? event.target.closest("[data-pick]") : null;
+        if (!pick) return;
+        setSelect(select, pick.dataset.pick, true);
+        input.value = "";
+        list.innerHTML = "";
+        change();
+        closeFacets();
       });
     });
 

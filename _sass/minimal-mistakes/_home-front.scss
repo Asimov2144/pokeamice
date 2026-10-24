@@ -342,6 +342,7 @@
     color: #26323f;
     font-size: 0.82rem;
     font-weight: 700;
+    white-space: nowrap;
     pointer-events: none;
 
     &::-webkit-details-marker {
@@ -1290,4 +1291,298 @@ body.theme-bg-black {
   border-radius: 10px;
   overflow: hidden;
   img { aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px; }
+}
+
+/* ---- the filter bar above the cards (home-facets.html): type / year / person / work, each a
+   panel as wide as the cards. A phone keeps the chip rows; the rail drops the four selects the
+   bar replaces (they stay in the markup, holding the state) ---- */
+.fbar {
+  display: none;
+}
+
+@media (min-width: 901px) {
+  .fbar {
+    position: relative;
+    z-index: 6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 12px;
+  }
+
+  .front__rail .front__dup {
+    display: none;
+  }
+}
+
+.fbar__item > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #dfe5eb;
+  border-radius: 999px;
+  background: #fff;
+  color: #26323f;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::after {
+    content: "▾";
+    color: #9aa5b1;
+    font-size: 0.7rem;
+  }
+
+  &:hover {
+    border-color: #c4ced8;
+  }
+}
+
+.fbar__item[open] > summary {
+  border-color: #26323f;
+
+  &::after {
+    content: "▴";
+  }
+}
+
+.fbar__item.is-set > summary {
+  border-color: rgba(189, 75, 75, 0.5);
+  background: #fff5f5;
+  color: #a83f3f;
+}
+
+.fbar__k {
+  color: #7b8794;
+  font-weight: 600;
+}
+
+.fbar__item.is-set .fbar__k {
+  color: inherit;
+}
+
+.fbar__v {
+  max-width: 11em;
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fbar__item:not(.is-set) .fbar__v {
+  color: #9aa5b1;
+  font-weight: 400;
+}
+
+.fbar__panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  left: 0;
+  z-index: 30;
+  padding: 14px 16px 16px;
+  border: 1px solid #dfe5eb;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.16);
+}
+
+.fbar__cap {
+  margin: 0 0 10px;
+  color: #7b8794;
+  font-size: 0.74rem;
+
+  a {
+    margin-left: 6px;
+    color: #7b8794;
+    text-decoration: none;
+
+    &:hover {
+      color: #a83f3f;
+    }
+  }
+}
+
+/* the year bars, with room: every year is labelled, the hovered one says its count */
+.fbar__panel .dims__years {
+  gap: 3px;
+  height: 120px;
+  padding-top: 24px;
+
+  button {
+    position: relative;
+
+    span {
+      color: #7b8794;
+      font-size: 0.62rem;
+      visibility: visible;
+    }
+
+    &:hover::before,
+    &.is-on::before {
+      content: attr(data-y) " · " attr(data-n);
+      position: absolute;
+      top: -24px;
+      left: 50%;
+      z-index: 2;
+      padding: 2px 7px;
+      border-radius: 6px;
+      background: #26323f;
+      color: #fff;
+      font-size: 0.7rem;
+      white-space: nowrap;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+  }
+}
+
+.fbar__panel .dims__people,
+.fbar__panel .dims__works {
+  grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+  gap: 4px 8px;
+
+  button {
+    padding: 5px 8px;
+    font-size: 0.82rem;
+
+    img,
+    i {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .work-swatch {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.fbar__find {
+  display: block;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eef1f4;
+
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #dfe5eb;
+    border-radius: 8px;
+    background: #fff;
+    color: inherit;
+    font-size: 0.8rem;
+  }
+}
+
+.fbar__found {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+
+  &:empty {
+    display: none;
+  }
+
+  li {
+    margin: 0;
+  }
+
+  button {
+    padding: 4px 10px;
+    border: 1px solid #dfe5eb;
+    border-radius: 999px;
+    background: #fff;
+    color: #26323f;
+    font-size: 0.78rem;
+    cursor: pointer;
+
+    &:hover {
+      border-color: rgba(189, 75, 75, 0.5);
+      color: #a83f3f;
+    }
+  }
+}
+
+.fbar__none {
+  color: #7b8794;
+  font-size: 0.78rem;
+}
+
+.fbar__clear {
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #a83f3f;
+  font-size: 0.78rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+body.theme-bg-black {
+  .fbar__item > summary,
+  .fbar__panel,
+  .fbar__found button {
+    border-color: #46505a;
+    background: #2a2f35;
+    color: #dce4ea;
+  }
+
+  .fbar__k,
+  .fbar__cap,
+  .fbar__cap a,
+  .fbar__none,
+  .fbar__item:not(.is-set) .fbar__v,
+  .fbar__panel .dims__years button span {
+    color: #b9c2ca;
+  }
+
+  .fbar__item[open] > summary {
+    border-color: #9fd7ff;
+  }
+
+  .fbar__item.is-set > summary {
+    border-color: #9fd7ff;
+    background: #353c44;
+    color: #9fd7ff;
+  }
+
+  .fbar__find {
+    border-top-color: #46505a;
+
+    input {
+      border-color: #46505a;
+      background: #1f2429;
+      color: #eef3f7;
+    }
+  }
+
+  .fbar__clear {
+    color: #9fd7ff;
+  }
+
+  .fbar__panel .dims__years button:hover::before,
+  .fbar__panel .dims__years button.is-on::before {
+    background: #9fd7ff;
+    color: #1b2128;
+  }
 }
