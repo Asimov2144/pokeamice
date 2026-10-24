@@ -15,7 +15,7 @@ the keeper's own writing. A banner rather than a tile, because the shelf scrolls
     </span>
   </a>
   <a class="nb-card nb-card--frag" href="{{ '/notes/weibo/' | relative_url }}">
-    <span class="nb-stickers" aria-hidden="true">
+    <span class="nb-stickers" aria-hidden="true" data-covers="{{ '/assets/data/weibo-covers.json' | relative_url }}">
       <img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png" alt="" loading="lazy">
       <img src="{{ '/assets/img/works/home-legends-arceus.png' | relative_url }}" alt="" loading="lazy">
       <img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png" alt="" loading="lazy">
@@ -25,6 +25,8 @@ the keeper's own writing. A banner rather than a tile, because the shelf scrolls
       <span class="nb-kicker"><i class="fas fa-note-sticky" aria-hidden="true"></i>碎片 · 微博存档</span>
       <strong>随手发的东西</strong>
       <em>一句观察、一张截图、半截猜想——近千条，按时间摊开，可按作品和宝可梦筛选</em>
+      <small class="nb-pick" hidden></small>
     </span>
   </a>
 </section>
+<script src="{{ '/assets/js/home-notes-covers.js' | relative_url }}" defer></script>

@@ -117,11 +117,55 @@
 .nb-card--frag { background: #fffdf8; border-top: 3px solid #d4a72c; }
 .nb-card--frag .nb-kicker { color: #8a6d1a; }
 .nb-stickers { position: relative; display: block; min-height: 132px; background: repeating-linear-gradient(transparent 0 25px, rgba(60, 90, 160, .1) 25px 26px), #fff8d4; }
-.nb-stickers img { position: absolute; display: block; width: 58px; height: 58px; object-fit: contain; filter: drop-shadow(2px 0 0 #fff) drop-shadow(-2px 0 0 #fff) drop-shadow(0 2px 0 #fff) drop-shadow(0 -2px 0 #fff) drop-shadow(0 3px 4px rgba(0, 0, 0, .3)); }
-.nb-stickers img:nth-child(1) { left: 12%; top: 14%; transform: rotate(-9deg); width: 66px; height: 66px; }
-.nb-stickers img:nth-child(2) { right: 12%; top: 10%; transform: rotate(8deg); width: 46px; height: 46px; border-radius: 10px; background: #fff; border: 3px solid #fff; box-sizing: content-box; }
-.nb-stickers img:nth-child(3) { left: 34%; bottom: 8%; transform: rotate(5deg); width: 62px; height: 62px; }
-.nb-stickers img:nth-child(4) { right: 8%; bottom: 14%; transform: rotate(-6deg); width: 42px; height: 42px; border-radius: 10px; background: #fff; border: 3px solid #fff; box-sizing: content-box; }
+.nb-stickers > img { position: absolute; display: block; width: 58px; height: 58px; object-fit: contain; filter: drop-shadow(2px 0 0 #fff) drop-shadow(-2px 0 0 #fff) drop-shadow(0 2px 0 #fff) drop-shadow(0 -2px 0 #fff) drop-shadow(0 3px 4px rgba(0, 0, 0, .3)); }
+.nb-stickers > img:nth-child(1) { left: 12%; top: 14%; transform: rotate(-9deg); width: 66px; height: 66px; }
+.nb-stickers > img:nth-child(2) { right: 12%; top: 10%; transform: rotate(8deg); width: 46px; height: 46px; border-radius: 10px; background: #fff; border: 3px solid #fff; box-sizing: content-box; }
+.nb-stickers > img:nth-child(3) { left: 34%; bottom: 8%; transform: rotate(5deg); width: 62px; height: 62px; }
+.nb-stickers > img:nth-child(4) { right: 8%; bottom: 14%; transform: rotate(-6deg); width: 42px; height: 42px; border-radius: 10px; background: #fff; border: 3px solid #fff; box-sizing: content-box; }
+/* The cover once assets/js/home-notes-covers.js has dealt it: three fragments drawn at random,
+   each shown by one of its own stickers on a scrap whose style is drawn too. Static; the only
+   motion is one fade when the scraps replace the fixed stickers in view. */
+.nb-stickers { --nb-desk: #fff8d4; }
+.nb-pick[hidden] { display: none; }
+.nb-stickers.is-dealt { overflow: hidden; }
+.nb-slips { position: absolute; inset: 0; display: block; }
+.nb-slips.is-arriving { animation: nb-arrive .32s ease-out both; }
+@keyframes nb-arrive { from { opacity: 0; } to { opacity: 1; } }
+.nb-slip {
+  --s: 76px;
+  position: absolute; display: grid; grid-template-rows: minmax(0, 1fr) auto; justify-items: center; align-items: center;
+  width: var(--s); height: calc(var(--s) * 1.14); padding: 6px 6px 4px; box-sizing: border-box;
+  background: #fff; color: #4b5563;
+  box-shadow: 0 1px 1px rgba(15, 23, 42, .08), 0 5px 12px rgba(15, 23, 42, .16);
+  transform: rotate(var(--r, 0deg));
+}
+.nb-slip--at0 { --s: 90px; left: calc(50% - var(--s) / 2); top: calc(50% - var(--s) * .57); z-index: 3; }
+.nb-slip--at1 { left: 5%; top: 7%; z-index: 1; }
+.nb-slip--at2 { right: 5%; bottom: 7%; z-index: 2; }
+.nb-slip__pic { display: grid; place-items: center; width: 100%; height: 100%; min-height: 0; }
+.nb-slip__pic img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+.nb-slip__pic .is-mon { width: 88%; height: 88%; filter: drop-shadow(1.5px 0 0 #fff) drop-shadow(-1.5px 0 0 #fff) drop-shadow(0 1.5px 0 #fff) drop-shadow(0 -1.5px 0 #fff) drop-shadow(0 2px 2px rgba(0, 0, 0, .25)); }
+.nb-slip__pic .is-work { width: 60%; height: auto; aspect-ratio: 1; border: 2px solid #fff; border-radius: 22%; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .28); }
+.nb-slip__date { font: 600 9.5px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .06em; color: #6b7280; padding-top: 3px; }
+.nb-slip__words { align-self: start; width: 100%; font-size: 11.5px; line-height: 1.4; color: #374151; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; word-break: break-all; }
+.nb-slip__words::before { content: "“"; color: var(--c); font-weight: 700; }
+/* note: a torn-off notebook leaf, taped on, its margin line in the fragment's category colour */
+.nb-slip--note { background: linear-gradient(90deg, transparent 9px, var(--c) 9px 10px, transparent 10px), repeating-linear-gradient(transparent 0 11px, rgba(60, 90, 160, .15) 11px 12px), #fffef6; padding-left: 13px; }
+.nb-slip--note::before { content: ""; position: absolute; top: -6px; left: 50%; width: 36px; height: 13px; margin-left: -18px; background: rgba(244, 214, 120, .72); transform: rotate(-5deg); }
+/* polaroid: a white frame around a print tinted by the category */
+.nb-slip--polaroid { padding: 5px 5px 3px; grid-template-rows: minmax(0, 1fr) 15px; }
+.nb-slip--polaroid .nb-slip__pic { background: color-mix(in srgb, var(--c) 15%, #fff); }
+/* stamp: a perforated edge (dots in the desk's colour) and a frame line in the category colour */
+.nb-slip--stamp { padding: 8px 8px 5px; }
+.nb-slip--stamp::after { content: ""; position: absolute; inset: -2px; border: 4px dotted var(--nb-desk); pointer-events: none; }
+.nb-slip--stamp .nb-slip__pic { outline: 1.5px solid color-mix(in srgb, var(--c) 70%, #fff); outline-offset: 0; background: color-mix(in srgb, var(--c) 7%, #fff); }
+/* tag: a kraft luggage label with clipped shoulders and a punched hole */
+.nb-slip--tag { background: #e6cfa2; color: #6b4f24; box-shadow: none; filter: drop-shadow(0 4px 6px rgba(15, 23, 42, .2)); clip-path: polygon(22% 0, 78% 0, 100% 15%, 100% 100%, 0 100%, 0 15%); padding-top: 15px; }
+.nb-slip--tag::before { content: ""; position: absolute; top: 4px; left: 50%; width: 7px; height: 7px; margin-left: -3.5px; border-radius: 50%; background: var(--nb-desk); box-shadow: inset 0 0 0 1.5px rgba(107, 79, 36, .35); }
+.nb-slip--tag .nb-slip__date { color: #7a5a28; }
+/* grid: graph paper with a dog-eared corner and a category strip down the side */
+.nb-slip--grid { background: linear-gradient(rgba(47, 111, 181, .12) 1px, transparent 1px) 0 0 / 8px 8px, linear-gradient(90deg, rgba(47, 111, 181, .12) 1px, transparent 1px) 0 0 / 8px 8px, #fbfdff; border-left: 3px solid var(--c); }
+.nb-slip--grid::after { content: ""; position: absolute; top: 0; right: 0; width: 14px; height: 14px; background: linear-gradient(225deg, var(--nb-desk) 50%, #d9e2ec 50%); }
 
 /* ---- phones ---- */
 @media (max-width: 820px) {
@@ -145,8 +189,27 @@
   .nb-card { grid-template-columns: 38% minmax(0, 1fr); min-height: 112px; }
   .nb-card strong { font-size: 17px; }
   .nb-stickers { min-height: 112px; }
+  .nb-slip { --s: 54px; padding: 4px 4px 3px; }
+  .nb-slip--at0 { --s: 66px; }
+  .nb-slip--at1 { left: 4%; top: 5%; }
+  .nb-slip--at2 { right: 4%; bottom: 5%; }
+  .nb-slip--note { padding-left: 11px; }
+  .nb-slip--tag { padding-top: 12px; }
+  .nb-slip__date { font-size: 8.5px; }
+  .nb-slip__words { font-size: 10px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .rc-card, .nb-card { transition: none; }
+  .nb-slips.is-arriving { animation: none; }
   .rc-card:hover, .nb-card:hover { transform: none; }
 }
+
+/* ---- the night theme (body.theme-bg-black) ---- */
+body.theme-bg-black .nb { --rc-ink: #eef3f7; --rc-soft: #c4ccd4; --rc-faint: #9aa5b1; --rc-rule: #46505a; --rc-card: #22272c; --rc-accent: #fca5a5; }
+body.theme-bg-black .nb-card:hover { box-shadow: 0 12px 26px rgba(0, 0, 0, .45); }
+body.theme-bg-black .nb-card--long .nb-kicker { color: #fdba74; }
+body.theme-bg-black .nb-card--frag { background: #24282c; border-top-color: #a8841f; }
+body.theme-bg-black .nb-card--frag .nb-kicker { color: #e2c066; }
+body.theme-bg-black .nb-stickers { --nb-desk: #2d3237; background: repeating-linear-gradient(transparent 0 25px, rgba(170, 190, 230, .07) 25px 26px), var(--nb-desk); }
+body.theme-bg-black .nb-slip { filter: brightness(.84); box-shadow: 0 1px 1px rgba(0, 0, 0, .3), 0 6px 14px rgba(0, 0, 0, .45); }
+body.theme-bg-black .nb-slip--tag { box-shadow: none; filter: brightness(.84) drop-shadow(0 4px 6px rgba(0, 0, 0, .45)); }

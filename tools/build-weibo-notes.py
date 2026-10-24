@@ -6,6 +6,7 @@
 Input : P:/weibo/_work/dataset.json (posts) + analysis.jsonl (model-made category / topics /
         caption / OCR per post; optional - posts without a record show as plain scraps)
 Output: _pages/notes-weibo/index.md  -> /notes/weibo/   (noindex, not in navigation)
+        assets/data/weibo-covers.json (via tools/build-weibo-covers.py, for the home page card)
 
 The long articles are not here: they are regular posts (tools/build-weibo-posts.py).
 An announcement post for one of them links to that post instead.
@@ -347,3 +348,7 @@ hidden: true
 """
 (OUT / "index.md").write_text(front + "\n" + "\n".join(body) + "\n", encoding="utf-8", newline="\n")
 print(f"{len(posts)} fragments, {len(ana)} analysed, {len(months)} months -> {OUT / 'index.md'}")
+
+# the home page's 随手发的东西 card draws its covers from this page's stickers
+import subprocess  # noqa: E402
+subprocess.run([sys.executable, str(ROOT / "tools" / "build-weibo-covers.py")], check=True)

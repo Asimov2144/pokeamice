@@ -23,7 +23,7 @@ The keeper's own writing: the long articles (category 长文分析) and the shor
     </span>
   </a>
   <a class="nb-card nb-card--frag" href="{{ '/notes/weibo/' | relative_url }}">
-    <span class="nb-stickers" aria-hidden="true">
+    <span class="nb-stickers" aria-hidden="true" data-covers="{{ '/assets/data/weibo-covers.json' | relative_url }}">
       <img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png" alt="" loading="lazy">
       <img src="{{ '/assets/img/works/home-legends-arceus.png' | relative_url }}" alt="" loading="lazy">
       <img src="https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png" alt="" loading="lazy">
@@ -33,9 +33,11 @@ The keeper's own writing: the long articles (category 长文分析) and the shor
       <span class="nb-kicker"><i class="fas fa-note-sticky" aria-hidden="true"></i>碎片</span>
       <strong>微博存档</strong>
       <em>近千条随手发的东西，按时间摊开，可按作品和宝可梦筛选</em>
+      <small class="nb-pick" hidden></small>
     </span>
   </a>
 </section>
+<script src="{{ '/assets/js/home-notes-covers.js' | relative_url }}" defer></script>
 <section class="rc" aria-label="最新长文">
   <section class="rc-day">
     <header class="rc-dayhead"><b>最新长文</b><span class="rc-tally"><a href="{{ '/long-analysis/' | relative_url }}">全部 {{ la.size }} 篇 →</a></span></header>
