@@ -494,7 +494,7 @@
     function syncFacets(filters) {
       document.querySelectorAll("[data-facet-val]").forEach(function(v) {
         const value = filters[v.dataset.facetVal] || "";
-        v.textContent = value || "全部";
+        v.textContent = value;
         const item = v.closest(".fbar__item");
         if (item) item.classList.toggle("is-set", !!value);
       });

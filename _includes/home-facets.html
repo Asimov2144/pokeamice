@@ -11,7 +11,7 @@ Needs the counts of home-dimensions.html.
 {%- endcomment -%}
 <div class="fbar" data-fbar aria-label="按维度筛选">
   <details class="fbar__item" name="fbar">
-    <summary><span class="fbar__k">类型</span><span class="fbar__v" data-facet-val="type">全部</span></summary>
+    <summary><span class="fbar__pre fbar__pre--dots" aria-hidden="true"><i style="background:#2b6cb0"></i><i style="background:#b45309"></i><i style="background:#2f855a"></i><i style="background:#6b46c1"></i></span><span class="fbar__k">类型</span><span class="fbar__v" data-facet-val="type"></span></summary>
     <div class="fbar__panel">
       <p class="fbar__cap">内容类型</p>
       <div class="dims__types">
@@ -25,7 +25,7 @@ Needs the counts of home-dimensions.html.
   </details>
 
   <details class="fbar__item" name="fbar">
-    <summary><span class="fbar__k">年份</span><span class="fbar__v" data-facet-val="year">全部</span></summary>
+    <summary><span class="fbar__pre fbar__pre--bars" aria-hidden="true">{% for g in dims_by_year reversed limit: 16 %}{% assign pct = g.items.size | times: 100 | divided_by: dims_year_max %}{% if pct < 10 %}{% assign pct = 10 %}{% endif %}<i style="height: {{ pct }}%"></i>{% endfor %}</span><span class="fbar__k">年份</span><span class="fbar__v" data-facet-val="year"></span></summary>
     <div class="fbar__panel">
       <p class="fbar__cap">每年收录的条数 · 点一根柱子只看那一年 <a href="{{ '/timeline/' | relative_url }}">时间线 ↗</a></p>
       <div class="dims__years" role="group" aria-label="年份">
@@ -35,7 +35,7 @@ Needs the counts of home-dimensions.html.
   </details>
 
   <details class="fbar__item" name="fbar">
-    <summary><span class="fbar__k">人物</span><span class="fbar__v" data-facet-val="person">全部</span></summary>
+    <summary><span class="fbar__pre fbar__pre--faces" aria-hidden="true">{% for k in dims_people_keys limit: 3 %}{% assign parts = k | split: "¦" %}{% assign pe = parts[1] | person_record %}{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" width="22" height="22" loading="lazy">{% endif %}{% endfor %}</span><span class="fbar__k">人物</span><span class="fbar__v" data-facet-val="person"></span></summary>
     <div class="fbar__panel">
       <p class="fbar__cap">被提到最多的人 · 点头像筛选，↗ 去人物页 <a href="{{ '/people/' | relative_url }}">人物库 ↗</a></p>
       <ul class="dims__people">
@@ -49,7 +49,7 @@ Needs the counts of home-dimensions.html.
   </details>
 
   <details class="fbar__item" name="fbar">
-    <summary><span class="fbar__k">作品</span><span class="fbar__v" data-facet-val="work">全部</span></summary>
+    <summary><span class="fbar__pre fbar__pre--faces fbar__pre--icons" aria-hidden="true">{% for k in dims_works_keys limit: 3 %}{% assign parts = k | split: "¦" %}{% assign wi = site.data.works | where: "name", parts[1] | first %}{% if wi.icon %}<img src="{{ wi.icon }}" alt="" width="22" height="22" loading="lazy">{% endif %}{% endfor %}</span><span class="fbar__k">作品</span><span class="fbar__v" data-facet-val="work"></span></summary>
     <div class="fbar__panel">
       <p class="fbar__cap">被讨论最多的作品 · 点图标筛选 <a href="{{ '/entities/works/' | relative_url }}">全部作品 ↗</a></p>
       <ul class="dims__works">

@@ -1361,8 +1361,8 @@ body.theme-bg-black {
 }
 
 .fbar__k {
-  color: #7b8794;
-  font-weight: 600;
+  color: #26323f;
+  font-weight: 700;
 }
 
 .fbar__item.is-set .fbar__k {
@@ -1378,8 +1378,62 @@ body.theme-bg-black {
 }
 
 .fbar__item:not(.is-set) .fbar__v {
-  color: #9aa5b1;
-  font-weight: 400;
+  display: none;
+}
+
+/* what is behind the button, at a glance: the type colours, the last years as bars, the most-named
+   people and works - they give way to the chosen value once there is one */
+.fbar__pre {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+}
+
+.fbar__item.is-set .fbar__pre {
+  display: none;
+}
+
+.fbar__pre--dots {
+  gap: 3px;
+
+  i {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+}
+
+.fbar__pre--bars {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  gap: 1px;
+  height: 14px;
+
+  i {
+    width: 3px;
+    border-radius: 1px 1px 0 0;
+    background: #8d9bab;
+  }
+}
+
+.fbar__pre--faces {
+  img {
+    width: 22px;
+    height: 22px;
+    margin-left: -7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.fbar__pre--icons img {
+  border-radius: 6px;
 }
 
 .fbar__panel {
@@ -1558,6 +1612,19 @@ body.theme-bg-black {
 
   .fbar__item[open] > summary {
     border-color: #9fd7ff;
+  }
+
+  .fbar__k {
+    color: #eef3f7;
+  }
+
+  .fbar__pre--bars i {
+    background: #6b7885;
+  }
+
+  .fbar__pre--faces img {
+    border-color: #2a2f35;
+    background: #2a2f35;
   }
 
   .fbar__item.is-set > summary {
