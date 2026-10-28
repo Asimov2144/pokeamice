@@ -1,0 +1,334 @@
+{
+ "id": "interview-famitsu-2023-wcs-utsunomiya-brown",
+ "stem": "2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 46
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     34
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕奇利兹",
+    "ndex": 417,
+    "seg": [
+     43
+    ],
+    "as": [
+     "帕奇利兹"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦世界锦标赛",
+    "slug": null,
+    "seg": [
+     0,
+     3,
+     21
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 GO",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦大集结",
+    "slug": null,
+    "seg": [
+     4
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     24,
+     26,
+     29,
+     31,
+     33,
+     36
+    ]
+   },
+   {
+    "name": "宇都宫崇人",
+    "slug": "utsunomiya-takato",
+    "role": "speaker",
+    "seg": [
+     25,
+     27,
+     30,
+     32,
+     34,
+     37
+    ]
+   },
+   {
+    "name": "Chris Brown",
+    "slug": "chris-brown",
+    "role": "speaker",
+    "seg": [
+     28,
+     35,
+     38,
+     41,
+     45
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "パク・セジュン",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     43
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "横滨国际平和会议场展示厅",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "大会会场",
+    "via": "llm"
+   },
+   {
+    "name": "港未来",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     21
+    ],
+    "what": "周边活动地区",
+    "via": "llm"
+   },
+   {
+    "name": "横滨",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     0
+    ],
+    "what": "举办城市",
+    "via": "llm"
+   },
+   {
+    "name": "伦敦",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     3
+    ],
+    "what": "2022年举办地",
+    "via": "llm"
+   },
+   {
+    "name": "夏威夷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     27
+    ],
+    "what": "2010年观赛地",
+    "via": "llm"
+   },
+   {
+    "name": "华盛顿特区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     35
+    ],
+    "what": "克里斯·布朗家乡",
+    "via": "llm"
+   },
+   {
+    "name": "韩国",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     43
+    ],
+    "what": "宇都宫崇人出差地",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     0
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     0,
+     3,
+     14,
+     15,
+     21,
+     41
+    ],
+    "as": [
+     "世界大赛",
+     "世界锦标赛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     4
+    ],
+    "as": [
+     "集换式卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     44
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     44
+    ],
+    "as": [
+     "继承"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     45
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "宝可梦WCS2023于8月11日至13日在横滨国际平和会议场展示厅举办。",
+   "anchor": 1
+  },
+  {
+   "seg": 25,
+   "text": "宇都宫崇人称受邀选手来自50个国家和地区，预计2000名。",
+   "anchor": 26
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon",
+   "url": "/%E9%87%87%E8%AE%BF/%E9%AB%98%E7%AE%A1%E4%B8%93%E8%AE%BF/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%9C%B1%E7%B4%AB/%E5%93%81%E7%89%8C%E6%88%98%E7%95%A5/interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/",
+   "why": "同届横滨WCS，均提2000名参赛者"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,757 @@
+{
+ "id": "interview-famitsu-2026-champions-hoshino-2",
+ "stem": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 114
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "化石翼龙",
+    "ndex": 142,
+    "seg": [
+     83
+    ],
+    "as": [
+     "化石翼龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿利多斯",
+    "ndex": 168,
+    "seg": [
+     51
+    ],
+    "as": [
+     "阿利多斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蛙皇",
+    "ndex": 186,
+    "seg": [
+     79
+    ],
+    "as": [
+     "蚊香蛙皇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大钢蛇",
+    "ndex": 208,
+    "seg": [
+     51
+    ],
+    "as": [
+     "大钢蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蜥蜴王",
+    "ndex": 254,
+    "seg": [
+     110
+    ],
+    "as": [
+     "蜥蜴王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火焰鸡",
+    "ndex": 257,
+    "seg": [
+     110
+    ],
+    "as": [
+     "火焰鸡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大嘴鸥",
+    "ndex": 279,
+    "seg": [
+     79
+    ],
+    "as": [
+     "大嘴鸥"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "煤炭龟",
+    "ndex": 324,
+    "seg": [
+     111
+    ],
+    "as": [
+     "煤炭龟"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨金怪",
+    "ndex": 376,
+    "seg": [
+     47
+    ],
+    "as": [
+     "巨金怪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "姆克鹰",
+    "ndex": 398,
+    "seg": [
+     47,
+     48
+    ],
+    "as": [
+     "姆克鹰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "烈咬陆鲨",
+    "ndex": 445,
+    "seg": [
+     110
+    ],
+    "as": [
+     "烈咬陆鲨"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "雪妖女",
+    "ndex": 478,
+    "seg": [
+     79
+    ],
+    "as": [
+     "雪妖女"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火炎狮",
+    "ndex": 668,
+    "seg": [
+     111
+    ],
+    "as": [
+     "火炎狮"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "虫电宝",
+    "ndex": 737,
+    "seg": [
+     27
+    ],
+    "as": [
+     "虫电宝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "谜拟丘",
+    "ndex": 778,
+    "seg": [
+     53
+    ],
+    "as": [
+     "谜拟丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "长毛巨魔",
+    "ndex": 861,
+    "seg": [
+     47,
+     57
+    ],
+    "as": [
+     "长毛巨魔"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon Champions",
+    "slug": "champions",
+    "seg": [
+     0,
+     2,
+     3,
+     6,
+     61,
+     63
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "灵魂能力",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可拳 POKKÉN TOURNAMENT",
+    "slug": "pokken-tournament",
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦大集结",
+    "slug": null,
+    "seg": [
+     6
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "質問者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     8,
+     10,
+     14,
+     17,
+     20,
+     23
+    ]
+   },
+   {
+    "name": "星野正昭",
+    "slug": "hoshino-masaaki",
+    "role": "speaker",
+    "seg": [
+     9,
+     11,
+     12,
+     13,
+     15,
+     16
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "滨崎",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     87
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "田口",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Elm",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Refu",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "白秋",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "桃月なしこ",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小杉怜子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     92
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "佐佐木雄一",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     80
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "涩谷亚纪",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     80
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "小野龙生",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "北泽苍真",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "巴西",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     16
+    ],
+    "what": "下载量进入全球前五",
+    "via": "llm"
+   },
+   {
+    "name": "旧金山",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     104
+    ],
+    "what": "宝可梦WCS2026举办地",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     0,
+     1,
+     2,
+     41,
+     51,
+     53
+    ],
+    "as": [
+     "宝可梦对战",
+     "打对战",
+     "回合"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     0,
+     52,
+     55,
+     56
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     0
+    ],
+    "as": [
+     "基本免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     1,
+     3,
+     7,
+     8,
+     9,
+     40
+    ],
+    "as": [
+     "智能手机",
+     "手机游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     6
+    ],
+    "as": [
+     "转职"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     7,
+     69
+    ],
+    "as": [
+     "在线",
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     13,
+     60,
+     67
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     16
+    ],
+    "as": [
+     "玩家群体"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     17,
+     46,
+     51,
+     86
+    ],
+    "as": [
+     "世界大赛",
+     "世界锦标赛",
+     "官方大赛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     27
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     27
+    ],
+    "as": [
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     29
+    ],
+    "as": [
+     "手感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     33,
+     43,
+     87,
+     88
+    ],
+    "as": [
+     "打磨",
+     "品质",
+     "完成度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     36,
+     40,
+     41,
+     43
+    ],
+    "as": [
+     "容量",
+     "内存"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     41,
+     51,
+     110
+    ],
+    "as": [
+     "双打对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     44,
+     61,
+     62,
+     63
+    ],
+    "as": [
+     "超级进化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     46,
+     89,
+     90
+    ],
+    "as": [
+     "游戏平衡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     46,
+     57
+    ],
+    "as": [
+     "容易理解",
+     "易上手"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     60
+    ],
+    "as": [
+     "推迟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     70
+    ],
+    "as": [
+     "代码"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     82,
+     85,
+     91
+    ],
+    "as": [
+     "存档"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     83
+    ],
+    "as": [
+     "概率"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     87
+    ],
+    "as": [
+     "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     88
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     95,
+     96
+    ],
+    "as": [
+     "热潮"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 11,
+   "text": "星野称《宝可梦大集结》也是在Switch版推出约两个月后发布手机版",
+   "anchor": 12
+  },
+  {
+   "seg": 15,
+   "text": "手机版发布8天后，含Switch版总下载量突破1000万",
+   "anchor": 16
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

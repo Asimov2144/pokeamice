@@ -31984,6 +31984,48 @@
     title: 第237回
     url: /gamefreak-director/entry-237/
     why: 第237回讲本地化完成与全球同日发售
+2013-08-14-interview-famitsu-2013-solitiba:
+  facets:
+    people:
+    - name: ファミ通
+      role: speaker
+    - name: 田谷正夫
+      role: speaker
+      slug: taya-masao
+    - name: 一之濑刚
+      role: speaker
+      slug: ichinose-go
+    - name: 小幡敏宏
+      role: speaker
+      slug: obata-toshihiro
+    - name: 渡边
+      role: mentioned
+    - name: 渡边哲也
+      role: mentioned
+      slug: watanabe-tetsuya
+    - name: 武丰
+      role: mentioned
+    places: []
+    pokemon: []
+    works:
+    - name: ソリティ馬
+      slug: null
+    - name: 纸牌马
+      slug: null
+    - name: 纸牌高尔夫
+      slug: null
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 节奏猎人 哈莫奈特
+      slug: null
+  id: interview-famitsu-2013-solitiba
+  observations:
+  - anchor: 20
+    seg: 19
+    text: 一之濑玩《纸牌高尔夫》时想到把它和赛马结合，做成轻度内容
+  - anchor: 25
+    seg: 24
+    text: 最初用拿到的牌数让马前进，因双六方式被否决，后改为画线操作
 2013-09-19-interview-jv-2013-xy:
   facets:
     people:
@@ -45833,6 +45875,39 @@
     title: 宝可梦剑盾开发访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-polygon-2019-swsh/
     why: 后续解释遗留宝可梦缺席原因
+2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki:
+  facets:
+    people:
+    - name: ファミ通
+      role: speaker
+    - name: 佐々木悠
+      role: speaker
+      slug: zuo-mu-you
+    - name: 杉森建
+      role: mentioned
+      slug: sugimori-ken
+    places:
+    - name: 帕希欧
+      what: 本作舞台人工岛
+      world: game
+    pokemon:
+    - name: 大岩蛇
+      ndex: 95
+    - name: 班基拉斯
+      ndex: 248
+    works:
+    - name: 宝可梦大师
+      slug: null
+    - name: 宝可梦 黑2·白2
+      slug: black2-white2
+  id: interview-famitsu-2019-pokemon-masters-sasaki
+  observations:
+  - anchor: 14
+    seg: 13
+    text: 集齐5枚徽章就能进入WPM正赛
+  - anchor: 23
+    seg: 22
+    text: 发售时预定可玩到第18章，故事止于WPM本选途中
 2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm:
   facets:
     people:
@@ -47391,6 +47466,72 @@
   - anchor: 2
     seg: 1
     text: 每次任天堂推出新主机，公司内部都会讨论是否做《宝可梦快照》新作
+2021-07-17-interview-famitsu-2021-pokemon-wonder:
+  facets:
+    people:
+    - name: ファミ通
+      role: speaker
+    - name: 津田明子
+      role: speaker
+      slug: jin-tian-ming-zi
+    - name: 本山敬一
+      role: speaker
+      slug: motoyama-keiichi
+    - name: 藤本海右
+      role: speaker
+      slug: teng-ben-hai-you
+    - name: 松丸亮吾
+      role: mentioned
+    - name: 蕾切尔·卡森
+      role: mentioned
+    - name: 中谷芙二子
+      role: mentioned
+    places:
+    - name: 读卖乐园
+      what: 活动实施游乐园
+      world: real
+    - name: 京王读卖乐园站
+      what: 记者抵达的车站
+      world: real
+    - name: 稻城市
+      what: 读卖乐园所在城市
+      world: real
+    - name: 横滨
+      what: 往届活动举办城市
+      world: real
+    - name: 京都
+      what: 中谷芙二子作品展出地
+      world: real
+    pokemon:
+    - name: 铁甲蛹
+      ndex: 11
+    - name: 皮卡丘
+      ndex: 25
+    - name: 走路草
+      ndex: 43
+    - name: 大宇怪
+      ndex: 606
+    works:
+    - name: Pokémon WONDER
+      slug: null
+    - name: 宝可梦GO
+      slug: null
+    - name: FGO
+      slug: null
+    - name: 尼尔
+      slug: null
+    - name: 宝可梦不可思议迷宫 救助队DX
+      slug: null
+    - name: 惊奇之心
+      slug: null
+  id: interview-famitsu-2021-pokemon-wonder
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 宝可梦WONDER于2021年7月1日公布，7月17日起在读卖乐园实施。
+  - anchor: 11
+    seg: 10
+    text: 一次体验可调查3个区域，共有5个区域，每进入新区域会得到对应地图。
 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure:
   facets:
     people:
@@ -49248,6 +49389,157 @@
   - anchor: 7
     seg: 6
     text: 入职第一年被分配到池袋的宝可梦中心MEGA TOKYO，不久新冠开始流行
+2023-07-21-interview-famitsu-2023-pokemon-sleep-team:
+  facets:
+    people:
+    - name: ファミ通
+      role: speaker
+    - name: 小杉要
+      role: speaker
+      slug: xiao-shan-yao
+    - name: 中畑虎也
+      role: speaker
+      slug: zhong-tian-hu-ye
+    - name: 宮川佳祐
+      role: speaker
+      slug: gong-chuan-jia-you
+    - name: 首藤まり江
+      role: speaker
+      slug: shou-teng-jiang
+    - name: 寺田佑贵
+      role: speaker
+      slug: si-tian-you-gui
+    - name: 塚田拓実
+      role: speaker
+      slug: zhong-tian-tuo-shi
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    - name: 柳泽正史
+      role: mentioned
+    - name: 汤山邦彦
+      role: mentioned
+      slug: yuyama-kunihiko
+    - name: 富安大贵
+      role: mentioned
+    - name: 景山将太
+      role: mentioned
+      slug: kageyama-shota
+    places: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 鲤鱼王
+      ndex: 129
+    - name: 卡比兽
+      ndex: 143
+    - name: 美录坦
+      ndex: 808
+    - name: 皮丘
+      ndex: 172
+    works:
+    - name: Pokémon Sleep
+      slug: sleep
+    - name: Pokémon GO
+      slug: null
+    - name: 跳跃吧！鲤鱼王
+      slug: null
+    - name: Pokémon HOME
+      slug: null
+    - name: 宝可梦 晶灿钻石／明亮珍珠
+      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 金·银
+      slug: gold-silver
+  id: interview-famitsu-2023-pokemon-sleep-team
+  observations:
+  - anchor: 23
+    seg: 22
+    text: 小杉要说约5年半前了解到睡眠计测技术，由此开始制作
+  - anchor: 72
+    seg: 71
+    text: 睡满8个半小时以上（未满16岁为11小时以上）得100分满分
+  relations:
+  - id: corporate-topic-09-pokemon-sleep-science-and-dream
+    kind: background
+    label: 为这篇提供背景
+    title: 睡眠×宝可梦的新挑战
+    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-09-pokemon-sleep-science-and-dream/
+    why: 同为Pokémon Sleep开发访谈，补充睡眠测量与制作背景
+  - id: interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
+    kind: continues
+    label: 同一系列的前后篇
+    title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及
+    url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/
+    why: 同为Fami通Pokémon Sleep开发访谈，回顾企划起点
+2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown:
+  facets:
+    people:
+    - name: ファミ通
+      role: speaker
+    - name: 宇都宫崇人
+      role: speaker
+      slug: utsunomiya-takato
+    - name: Chris Brown
+      role: speaker
+      slug: chris-brown
+    - name: 石原恒和
+      role: mentioned
+      slug: ishihara-tsunekazu
+    - name: パク・セジュン
+      role: mentioned
+    places:
+    - name: 横滨国际平和会议场展示厅
+      what: 大会会场
+      world: real
+    - name: 港未来
+      what: 周边活动地区
+      world: real
+    - name: 横滨
+      what: 举办城市
+      world: real
+    - name: 伦敦
+      what: 2022年举办地
+      world: real
+    - name: 夏威夷
+      what: 2010年观赛地
+      world: real
+    - name: 华盛顿特区
+      what: 克里斯·布朗家乡
+      world: real
+    - name: 韩国
+      what: 宇都宫崇人出差地
+      world: real
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 帕奇利兹
+      ndex: 417
+    works:
+    - name: 宝可梦世界锦标赛
+      slug: null
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦 GO
+      slug: null
+    - name: 宝可梦大集结
+      slug: null
+  id: interview-famitsu-2023-wcs-utsunomiya-brown
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 宝可梦WCS2023于8月11日至13日在横滨国际平和会议场展示厅举办。
+  - anchor: 26
+    seg: 25
+    text: 宇都宫崇人称受邀选手来自50个国家和地区，预计2000名。
+  relations:
+  - id: interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: '‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon'
+    url: /%E9%87%87%E8%AE%BF/%E9%AB%98%E7%AE%A1%E4%B8%93%E8%AE%BF/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%9C%B1%E7%B4%AB/%E5%93%81%E7%89%8C%E6%88%98%E7%95%A5/interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/
+    why: 同届横滨WCS，均提2000名参赛者
 2023-08-24-interview-denfami-2023-cedec-visual:
   facets:
     people:
@@ -49762,6 +50054,124 @@
   - anchor: 13
     seg: 12
     text: 为展现18种个性，制作18个角色设计和插画、18首乐曲和MV
+2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv:
+  facets:
+    people:
+    - name: ファミ通
+      role: speaker
+    - name: 武田绫乃
+      role: speaker
+      slug: wu-tian-ling-nai
+    - name: Ayase
+      role: speaker
+      slug: ayase
+    - name: ikura
+      role: speaker
+      slug: ikura
+    - name: YOASOBI
+      role: speaker
+    places:
+    - name: 橘子学院
+      what: 《朱》中的学校
+      world: game
+    - name: 京都府
+      what: 武田绫乃出生地
+      world: real
+    - name: 帕底亚地区
+      what: 《朱·紫》冒险舞台
+      world: game
+    pokemon:
+    - name: 喷火龙
+      ndex: 6
+    - name: 皮卡丘
+      ndex: 25
+    - name: 水伊布
+      ndex: 134
+    - name: ミュウ
+      ndex: 151
+    - name: 阿尔宙斯
+      ndex: 493
+    - name: 黏美龙
+      ndex: 706
+    - name: 新叶喵
+      ndex: 906
+    - name: 呆火鳄
+      ndex: 909
+    - name: 骨纹巨声鳄
+      ndex: 911
+    - name: 润水鸭
+      ndex: 912
+    - name: 涌跃鸭
+      ndex: 913
+    - name: 巴布土拨
+      ndex: 923
+    - name: 巨锻匠
+      ndex: 959
+    - name: 弃世猴
+      ndex: 979
+    - name: 伊布
+      ndex: 133
+    - name: 耿鬼
+      ndex: 94
+    works:
+    - name: 宝可梦 朱·紫
+      slug: scarlet-violet
+    - name: Biri-Biri
+      slug: null
+    - name: 与你雨后初晴
+      slug: null
+    - name: 吹响！上低音号
+      slug: null
+    - name: 夜に駆ける
+      slug: null
+    - name: 【我推的孩子】
+      slug: null
+    - name: アイドル
+      slug: null
+    - name: 今日、きみと息をする。
+      slug: null
+    - name: 即使不被爱也无所谓
+      slug: null
+    - name: 说谎的两人
+      slug: null
+    - name: 与你划桨
+      slug: null
+    - name: なんやかんや日記 京都と猫と本のこと
+      slug: null
+    - name: 花は咲く、修羅の如く
+      slug: null
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦巡护员
+      slug: ranger
+    - name: 宝可梦 X·Y
+      slug: x-y
+    - name: 宝可梦传说 阿尔宙斯
+      slug: legends-arceus
+    - name: 宝可梦 红宝石·蓝宝石·绿宝石
+      slug: null
+    - name: 宝可梦 银
+      slug: null
+    - name: 宝可梦 紫
+      slug: null
+    - name: THE BOOK 3
+      slug: null
+    - name: 宝可梦 朱 ＋ 零之秘宝
+      slug: null
+    - name: 宝可梦 紫 ＋ 零之秘宝
+      slug: null
+  id: interview-famitsu-2023-yoasobi-takeda-sv
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 《宝可梦 朱·紫》2023年11月18日迎来发售1周年，同日《Biri-Biri》发行。
+  - anchor: 2
+    seg: 1
+    text: 《Biri-Biri》以武田绫乃执笔的短篇小说《与你雨后初晴》为原作。
 2024-01-15-interview-pokemon-center-overseas-taipei-singapore:
   facets:
     people:
@@ -51673,6 +52083,62 @@
   - anchor: 8
     seg: 7
     text: 2025年9至10月在茨城县永旺梦乐城水户内原开店
+2026-03-25-interview-famitsu-2026-champions-hoshino-1:
+  facets:
+    people:
+    - name: 質問者
+      role: speaker
+    - kind: staff
+      name: 星野正昭
+      role: speaker
+      slug: hoshino-masaaki
+    - name: 森本茂树
+      role: mentioned
+      slug: morimoto-shigeki
+    places: []
+    pokemon:
+    - name: 皮可西
+      ndex: 36
+    - name: 多边兽２型
+      ndex: 233
+    - name: 阿勃梭鲁
+      ndex: 359
+    - name: 皮皮
+      ndex: 35
+    works:
+    - name: Pokémon Champions
+      slug: champions
+    - name: 宝可拳 POKKÉN TOURNAMENT
+      slug: pokken-tournament
+    - name: 宝可梦大集结
+      slug: null
+    - name: Pokémon LEGENDS Z-A
+      slug: legends-za
+    - name: 宝可梦竞技场
+      slug: stadium
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: Pokémon HOME
+      slug: null
+    - name: Pokémon GO
+      slug: null
+    - name: Pokémon UNITE
+      slug: null
+  id: interview-famitsu-2026-champions-hoshino-1
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 《Pokémon Champions》2026年4月8日推出Switch版，基本免费，夏季计划推手机版
+  - anchor: 24
+    seg: 23
+    text: 星野称本作将作为PJCS与宝可梦WCS等赛事的游戏部门持续进化
+  relations:
+  - id: interview-famitsu-2026-champions-hoshino-2
+    kind: responds
+    label: 后来回应了这篇
+    title: 星野正昭谈手机版与PJCS
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2026-champions-hoshino-2/
+    why: 同由星野正昭谈《Pokémon Champions》手机版与PJCS运营
 2026-03-26-interview-sankei-ishihara-pokemon-30th:
   facets:
     people:
@@ -52115,6 +52581,94 @@
     title: 宝可梦战斗系统基础设计
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-battle-system-deck/
     why: CEDEC2026同一讲演的讲演资料
+2026-08-20-interview-famitsu-2026-champions-hoshino-2:
+  facets:
+    people:
+    - name: 質問者
+      role: speaker
+    - kind: staff
+      name: 星野正昭
+      role: speaker
+      slug: hoshino-masaaki
+    - name: 滨崎
+      role: mentioned
+    - name: 田口
+      role: mentioned
+    - name: Elm
+      role: mentioned
+    - name: Refu
+      role: mentioned
+    - name: 白秋
+      role: mentioned
+    - name: 桃月なしこ
+      role: mentioned
+    - name: 小杉怜子
+      role: mentioned
+    - name: 佐佐木雄一
+      role: mentioned
+    - name: 涩谷亚纪
+      role: mentioned
+    - name: 小野龙生
+      role: mentioned
+    - name: 北泽苍真
+      role: mentioned
+    places:
+    - name: 巴西
+      what: 下载量进入全球前五
+      world: real
+    - name: 旧金山
+      what: 宝可梦WCS2026举办地
+      world: real
+    pokemon:
+    - name: 化石翼龙
+      ndex: 142
+    - name: 阿利多斯
+      ndex: 168
+    - name: 蚊香蛙皇
+      ndex: 186
+    - name: 大钢蛇
+      ndex: 208
+    - name: 蜥蜴王
+      ndex: 254
+    - name: 火焰鸡
+      ndex: 257
+    - name: 大嘴鸥
+      ndex: 279
+    - name: 煤炭龟
+      ndex: 324
+    - name: 巨金怪
+      ndex: 376
+    - name: 姆克鹰
+      ndex: 398
+    - name: 烈咬陆鲨
+      ndex: 445
+    - name: 雪妖女
+      ndex: 478
+    - name: 火炎狮
+      ndex: 668
+    - name: 虫电宝
+      ndex: 737
+    - name: 谜拟丘
+      ndex: 778
+    - name: 长毛巨魔
+      ndex: 861
+    works:
+    - name: Pokémon Champions
+      slug: champions
+    - name: 灵魂能力
+      slug: null
+    - name: 宝可拳 POKKÉN TOURNAMENT
+      slug: pokken-tournament
+    - name: 宝可梦大集结
+      slug: null
+  id: interview-famitsu-2026-champions-hoshino-2
+  observations:
+  - anchor: 12
+    seg: 11
+    text: 星野称《宝可梦大集结》也是在Switch版推出约两个月后发布手机版
+  - anchor: 16
+    seg: 15
+    text: 手机版发布8天后，含Switch版总下载量突破1000万
 2026-08-29-continue-vol31-scan-archive:
   facets:
     people:

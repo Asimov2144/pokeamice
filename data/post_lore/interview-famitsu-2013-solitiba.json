@@ -1,0 +1,387 @@
+{
+ "id": "interview-famitsu-2013-solitiba",
+ "stem": "2013-08-14-interview-famitsu-2013-solitiba",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 114
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "ソリティ馬",
+    "slug": null,
+    "seg": [
+     50
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "纸牌马",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "纸牌高尔夫",
+    "slug": null,
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [
+     75
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "节奏猎人 哈莫奈特",
+    "slug": null,
+    "seg": [
+     101
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     15,
+     17,
+     22,
+     25,
+     29,
+     31
+    ]
+   },
+   {
+    "name": "田谷正夫",
+    "slug": "taya-masao",
+    "role": "speaker",
+    "seg": [
+     16,
+     18,
+     20,
+     23,
+     27,
+     30
+    ]
+   },
+   {
+    "name": "一之濑刚",
+    "slug": "ichinose-go",
+    "role": "speaker",
+    "seg": [
+     19,
+     24,
+     26,
+     32,
+     36,
+     43
+    ]
+   },
+   {
+    "name": "小幡敏宏",
+    "slug": "obata-toshihiro",
+    "role": "speaker",
+    "seg": [
+     21,
+     42,
+     44,
+     61,
+     72,
+     74
+    ]
+   },
+   {
+    "name": "渡边",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     30
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "渡边哲也",
+    "slug": "watanabe-tetsuya",
+    "role": "mentioned",
+    "seg": [
+     52
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "武丰",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     57
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     16,
+     20,
+     23,
+     24
+    ],
+    "as": [
+     "试作",
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     18
+    ],
+    "as": [
+     "卡牌游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     23,
+     52,
+     54
+    ],
+    "as": [
+     "商品化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     23
+    ],
+    "as": [
+     "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     25,
+     27,
+     30,
+     35,
+     38,
+     40
+    ],
+    "as": [
+     "操作方式",
+     "界面",
+     "手感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     26,
+     27
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     30
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     49,
+     66,
+     71
+    ],
+    "as": [
+     "游戏平衡",
+     "强度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     57,
+     107
+    ],
+    "as": [
+     "广告",
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     58,
+     59,
+     60,
+     62
+    ],
+    "as": [
+     "画风"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     70
+    ],
+    "as": [
+     "吃惊"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     85
+    ],
+    "as": [
+     "继承"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     87
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     98
+    ],
+    "as": [
+     "完成度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     101
+    ],
+    "as": [
+     "门槛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "debugging",
+    "name": "调试与除错",
+    "facet": "tech",
+    "seg": [
+     107
+    ],
+    "as": [
+     "调试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     107
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 19,
+   "text": "一之濑玩《纸牌高尔夫》时想到把它和赛马结合，做成轻度内容",
+   "anchor": 20
+  },
+  {
+   "seg": 24,
+   "text": "最初用拿到的牌数让马前进，因双六方式被否决，后改为画线操作",
+   "anchor": 25
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

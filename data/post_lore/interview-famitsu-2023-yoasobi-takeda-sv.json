@@ -1,0 +1,798 @@
+{
+ "id": "interview-famitsu-2023-yoasobi-takeda-sv",
+ "stem": "2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 100
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "喷火龙",
+    "ndex": 6,
+    "seg": [
+     27,
+     28,
+     30
+    ],
+    "as": [
+     "喷火龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     97
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水伊布",
+    "ndex": 134,
+    "seg": [
+     24
+    ],
+    "as": [
+     "水伊布"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "ミュウ",
+    "ndex": 151,
+    "seg": [
+     32,
+     31
+    ],
+    "as": [
+     "ミュウ"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     22
+    ],
+    "as": [
+     "阿尔宙斯"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "黏美龙",
+    "ndex": 706,
+    "seg": [
+     75
+    ],
+    "as": [
+     "黏美龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "新叶喵",
+    "ndex": 906,
+    "seg": [
+     97
+    ],
+    "as": [
+     "新叶喵"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "呆火鳄",
+    "ndex": 909,
+    "seg": [
+     97
+    ],
+    "as": [
+     "呆火鳄"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "骨纹巨声鳄",
+    "ndex": 911,
+    "seg": [
+     75
+    ],
+    "as": [
+     "骨纹巨声鳄"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "润水鸭",
+    "ndex": 912,
+    "seg": [
+     97
+    ],
+    "as": [
+     "润水鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "涌跃鸭",
+    "ndex": 913,
+    "seg": [
+     94
+    ],
+    "as": [
+     "涌跃鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巴布土拨",
+    "ndex": 923,
+    "seg": [
+     94
+    ],
+    "as": [
+     "巴布土拨"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "巨锻匠",
+    "ndex": 959,
+    "seg": [
+     73,
+     75
+    ],
+    "as": [
+     "巨锻匠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "弃世猴",
+    "ndex": 979,
+    "seg": [
+     75
+    ],
+    "as": [
+     "弃世猴"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     26
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "耿鬼",
+    "ndex": 94,
+    "seg": [
+     75
+    ],
+    "as": [
+     "耿鬼"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 朱·紫",
+    "slug": "scarlet-violet",
+    "seg": [
+     0,
+     1,
+     3,
+     13,
+     14,
+     15
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Biri-Biri",
+    "slug": null,
+    "seg": [
+     0
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "与你雨后初晴",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "吹响！上低音号",
+    "slug": null,
+    "seg": [
+     1
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "夜に駆ける",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "【我推的孩子】",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "アイドル",
+    "slug": null,
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "今日、きみと息をする。",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "即使不被爱也无所谓",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "说谎的两人",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "与你划桨",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "なんやかんや日記 京都と猫と本のこと",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "花は咲く、修羅の如く",
+    "slug": null,
+    "seg": [
+     10
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石",
+    "slug": "ruby-sapphire",
+    "seg": [
+     19
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦巡护员",
+    "slug": "ranger",
+    "seg": [
+     20
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红宝石·蓝宝石·绿宝石",
+    "slug": null,
+    "seg": [
+     22
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 银",
+    "slug": null,
+    "seg": [
+     24
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 紫",
+    "slug": null,
+    "seg": [
+     64
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "THE BOOK 3",
+    "slug": null,
+    "seg": [
+     95
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 朱 ＋ 零之秘宝",
+    "slug": null,
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 紫 ＋ 零之秘宝",
+    "slug": null,
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     18,
+     23,
+     25,
+     29,
+     33
+    ]
+   },
+   {
+    "name": "武田绫乃",
+    "slug": "wu-tian-ling-nai",
+    "role": "speaker",
+    "seg": [
+     13,
+     19,
+     24,
+     34,
+     36,
+     38
+    ]
+   },
+   {
+    "name": "Ayase",
+    "slug": "ayase",
+    "role": "speaker",
+    "seg": [
+     14,
+     22,
+     27,
+     31,
+     45,
+     46
+    ]
+   },
+   {
+    "name": "ikura",
+    "slug": "ikura",
+    "role": "speaker",
+    "seg": [
+     15,
+     20,
+     21,
+     26,
+     28,
+     30
+    ]
+   },
+   {
+    "name": "YOASOBI",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     90,
+     91
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "橘子学院",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     84
+    ],
+    "what": "《朱》中的学校",
+    "via": "llm"
+   },
+   {
+    "name": "京都府",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     10
+    ],
+    "what": "武田绫乃出生地",
+    "via": "llm"
+   },
+   {
+    "name": "帕底亚地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     64
+    ],
+    "what": "《朱·紫》冒险舞台",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     1,
+     48,
+     58
+    ],
+    "as": [
+     "监修"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     6,
+     96,
+     97
+    ],
+    "as": [
+     "惊喜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     8,
+     10
+    ],
+    "as": [
+     "电视动画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     8,
+     61,
+     63,
+     64,
+     65
+    ],
+    "as": [
+     "主题曲",
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     8,
+     46,
+     61
+    ],
+    "as": [
+     "作曲",
+     "编曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     10
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     10
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     12
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     12
+    ],
+    "as": [
+     "企划时"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     14
+    ],
+    "as": [
+     "一起做"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     37
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     48,
+     52,
+     53
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     54,
+     58
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     61
+    ],
+    "as": [
+     "从零开始"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "open-world",
+    "name": "开放世界",
+    "facet": "system",
+    "seg": [
+     64
+    ],
+    "as": [
+     "开放世界"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     75,
+     77
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     78
+    ],
+    "as": [
+     "孵蛋"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     81
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     84
+    ],
+    "as": [
+     "存档"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     87
+    ],
+    "as": [
+     "容易理解"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     94
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《宝可梦 朱·紫》2023年11月18日迎来发售1周年，同日《Biri-Biri》发行。",
+   "anchor": 1
+  },
+  {
+   "seg": 1,
+   "text": "《Biri-Biri》以武田绫乃执笔的短篇小说《与你雨后初晴》为原作。",
+   "anchor": 2
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

@@ -1,0 +1,399 @@
+{
+ "id": "interview-famitsu-2019-pokemon-masters-sasaki",
+ "stem": "2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 60
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "大岩蛇",
+    "ndex": 95,
+    "seg": [
+     41
+    ],
+    "as": [
+     "大岩蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "班基拉斯",
+    "ndex": 248,
+    "seg": [
+     41,
+     43,
+     44
+    ],
+    "as": [
+     "班基拉斯"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦大师",
+    "slug": null,
+    "seg": [
+     0,
+     4,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 黑2·白2",
+    "slug": "black2-white2",
+    "seg": [
+     44
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     8,
+     10,
+     12,
+     14,
+     17
+    ]
+   },
+   {
+    "name": "佐々木悠",
+    "slug": "zuo-mu-you",
+    "role": "speaker",
+    "seg": [
+     6,
+     9,
+     11,
+     13,
+     15,
+     18
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "mentioned",
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "帕希欧",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     28
+    ],
+    "what": "本作舞台人工岛",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     0,
+     20
+    ],
+    "as": [
+     "手机应用",
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     0
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     1,
+     13,
+     18,
+     20,
+     33
+    ],
+    "as": [
+     "战斗系统",
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     4
+    ],
+    "as": [
+     "应届"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     5
+    ],
+    "as": [
+     "提案"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     6,
+     24
+    ],
+    "as": [
+     "主视觉",
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     13
+    ],
+    "as": [
+     "集齐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     13
+    ],
+    "as": [
+     "对战大会"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     23
+    ],
+    "as": [
+     "画面表现"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     24
+    ],
+    "as": [
+     "3D模型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     36
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     37
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     38,
+     47
+    ],
+    "as": [
+     "劲敌",
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     38
+    ],
+    "as": [
+     "一家人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     41
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     47
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     49,
+     50
+    ],
+    "as": [
+     "付费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     49
+    ],
+    "as": [
+     "随机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     51
+    ],
+    "as": [
+     "年龄层"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     52,
+     53
+    ],
+    "as": [
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     52
+    ],
+    "as": [
+     "编曲"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 13,
+   "text": "集齐5枚徽章就能进入WPM正赛",
+   "anchor": 14
+  },
+  {
+   "seg": 22,
+   "text": "发售时预定可玩到第18章，故事止于WPM本选途中",
+   "anchor": 23
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

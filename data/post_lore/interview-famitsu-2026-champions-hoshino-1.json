@@ -1,0 +1,450 @@
+{
+ "id": "interview-famitsu-2026-champions-hoshino-1",
+ "stem": "2026-03-25-interview-famitsu-2026-champions-hoshino-1",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 86
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮可西",
+    "ndex": 36,
+    "seg": [
+     33
+    ],
+    "as": [
+     "皮可西"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "多边兽２型",
+    "ndex": 233,
+    "seg": [
+     34
+    ],
+    "as": [
+     "多边兽２型"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "阿勃梭鲁",
+    "ndex": 359,
+    "seg": [
+     36
+    ],
+    "as": [
+     "阿勃梭鲁"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮皮",
+    "ndex": 35,
+    "seg": [
+     33
+    ],
+    "as": [
+     "皮皮"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon Champions",
+    "slug": "champions",
+    "seg": [
+     0,
+     1,
+     4,
+     5,
+     8,
+     10
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可拳 POKKÉN TOURNAMENT",
+    "slug": "pokken-tournament",
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦大集结",
+    "slug": null,
+    "seg": [
+     2
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon LEGENDS Z-A",
+    "slug": "legends-za",
+    "seg": [
+     8
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦竞技场",
+    "slug": "stadium",
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon HOME",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     16
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon UNITE",
+    "slug": null,
+    "seg": [
+     66
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "質問者",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     5,
+     7,
+     9,
+     11,
+     13,
+     15
+    ]
+   },
+   {
+    "name": "星野正昭",
+    "slug": "hoshino-masaaki",
+    "role": "speaker",
+    "seg": [
+     6,
+     8,
+     10,
+     12,
+     14,
+     16
+    ],
+    "kind": "staff"
+   },
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "mentioned",
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     0,
+     6,
+     7,
+     8,
+     11,
+     17
+    ],
+    "as": [
+     "宝可梦对战",
+     "回合"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     0,
+     11,
+     12,
+     14,
+     15,
+     52
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     0,
+     24,
+     61,
+     74
+    ],
+    "as": [
+     "基本免费",
+     "付费",
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     14,
+     18,
+     52
+    ],
+    "as": [
+     "易上手",
+     "容易理解",
+     "门槛"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     14,
+     18,
+     23,
+     49,
+     52
+    ],
+    "as": [
+     "培养"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     16,
+     82
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     21,
+     32,
+     33,
+     46,
+     48
+    ],
+    "as": [
+     "超级进化",
+     "进化形态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "competitive",
+    "name": "竞技与官方大赛",
+    "facet": "system",
+    "seg": [
+     23,
+     26
+    ],
+    "as": [
+     "世界锦标赛",
+     "竞技性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     35
+    ],
+    "as": [
+     "团队内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     41,
+     48,
+     51,
+     52,
+     79
+    ],
+    "as": [
+     "平衡性",
+     "强度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     45
+    ],
+    "as": [
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     48
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     59
+    ],
+    "as": [
+     "随机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     63
+    ],
+    "as": [
+     "BGM"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     65
+    ],
+    "as": [
+     "存档"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     68
+    ],
+    "as": [
+     "人对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     76
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "《Pokémon Champions》2026年4月8日推出Switch版，基本免费，夏季计划推手机版",
+   "anchor": 1
+  },
+  {
+   "seg": 23,
+   "text": "星野称本作将作为PJCS与宝可梦WCS等赛事的游戏部门持续进化",
+   "anchor": 24
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-famitsu-2026-champions-hoshino-2",
+   "kind": "responds",
+   "label": "后来回应了这篇",
+   "title": "星野正昭谈手机版与PJCS",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2026-champions-hoshino-2/",
+   "why": "同由星野正昭谈《Pokémon Champions》手机版与PJCS运营"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

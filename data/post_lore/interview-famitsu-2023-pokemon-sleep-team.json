@@ -1,0 +1,591 @@
+{
+ "id": "interview-famitsu-2023-pokemon-sleep-team",
+ "stem": "2023-07-21-interview-famitsu-2023-pokemon-sleep-team",
+ "rev": 1,
+ "built": "2026-10-29",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 136
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     103,
+     120
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "鲤鱼王",
+    "ndex": 129,
+    "seg": [
+     36,
+     37
+    ],
+    "as": [
+     "鲤鱼王"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     50,
+     70
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "美录坦",
+    "ndex": 808,
+    "seg": [
+     119
+    ],
+    "as": [
+     "美录坦"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     65
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "Pokémon Sleep",
+    "slug": "sleep",
+    "seg": [
+     0,
+     72,
+     85,
+     118,
+     129
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Pokémon GO",
+    "slug": null,
+    "seg": [
+     25
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "跳跃吧！鲤鱼王",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Pokémon HOME",
+    "slug": null,
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 晶灿钻石／明亮珍珠",
+    "slug": null,
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     114
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [
+     114
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファミ通",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     21,
+     24,
+     26,
+     28,
+     31,
+     36
+    ]
+   },
+   {
+    "name": "小杉要",
+    "slug": "xiao-shan-yao",
+    "role": "speaker",
+    "seg": [
+     22,
+     25,
+     27,
+     29,
+     33,
+     37
+    ]
+   },
+   {
+    "name": "中畑虎也",
+    "slug": "zhong-tian-hu-ye",
+    "role": "speaker",
+    "seg": [
+     30,
+     32,
+     39,
+     42,
+     44,
+     47
+    ]
+   },
+   {
+    "name": "宮川佳祐",
+    "slug": "gong-chuan-jia-you",
+    "role": "speaker",
+    "seg": [
+     40,
+     45,
+     48,
+     50,
+     87,
+     89
+    ]
+   },
+   {
+    "name": "首藤まり江",
+    "slug": "shou-teng-jiang",
+    "role": "speaker",
+    "seg": [
+     56,
+     60,
+     64,
+     66,
+     74,
+     78
+    ]
+   },
+   {
+    "name": "寺田佑贵",
+    "slug": "si-tian-you-gui",
+    "role": "speaker",
+    "seg": [
+     62,
+     65,
+     99,
+     101,
+     103,
+     105
+    ]
+   },
+   {
+    "name": "塚田拓実",
+    "slug": "zhong-tian-tuo-shi",
+    "role": "speaker",
+    "seg": [
+     75,
+     77,
+     79,
+     90,
+     96,
+     126
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "mentioned",
+    "seg": [
+     99
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "柳泽正史",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     62
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "汤山邦彦",
+    "slug": "yuyama-kunihiko",
+    "role": "mentioned",
+    "seg": [
+     80
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "富安大贵",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     80
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "景山将太",
+    "slug": "kageyama-shota",
+    "role": "mentioned",
+    "seg": [
+     83
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     0,
+     42,
+     87,
+     100,
+     112,
+     122
+    ],
+    "as": [
+     "智能手机",
+     "手机游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     39
+    ],
+    "as": [
+     "推迟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     43
+    ],
+    "as": [
+     "全球同步发售"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
+    "seg": [
+     44
+    ],
+    "as": [
+     "平衡调整"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     50
+    ],
+    "as": [
+     "培育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     50
+    ],
+    "as": [
+     "一起做"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     56,
+     60,
+     68
+    ],
+    "as": [
+     "宝可梦图鉴",
+     "集齐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     56,
+     60
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     59,
+     60,
+     62
+    ],
+    "as": [
+     "监修"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     62
+    ],
+    "as": [
+     "火属性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     75,
+     82
+    ],
+    "as": [
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     79
+    ],
+    "as": [
+     "开发期间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     83,
+     84
+    ],
+    "as": [
+     "服务器"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     84
+    ],
+    "as": [
+     "推翻"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     95
+    ],
+    "as": [
+     "测试"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     96,
+     97
+    ],
+    "as": [
+     "试作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     98,
+     99,
+     104,
+     117,
+     120
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     99,
+     110,
+     124
+    ],
+    "as": [
+     "精灵球",
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     110,
+     111,
+     112
+    ],
+    "as": [
+     "免费",
+     "付费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     116
+    ],
+    "as": [
+     "音效"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     128
+    ],
+    "as": [
+     "指导"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 22,
+   "text": "小杉要说约5年半前了解到睡眠计测技术，由此开始制作",
+   "anchor": 23
+  },
+  {
+   "seg": 71,
+   "text": "睡满8个半小时以上（未满16岁为11小时以上）得100分满分",
+   "anchor": 72
+  }
+ ],
+ "relations": [
+  {
+   "id": "corporate-topic-09-pokemon-sleep-science-and-dream",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "睡眠×宝可梦的新挑战",
+   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-09-pokemon-sleep-science-and-dream/",
+   "why": "同为Pokémon Sleep开发访谈，补充睡眠测量与制作背景"
+  },
+  {
+   "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及",
+   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/",
+   "why": "同为Fami通Pokémon Sleep开发访谈，回顾企划起点"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}
