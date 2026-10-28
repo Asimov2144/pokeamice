@@ -81,9 +81,15 @@ where the gap is. A post whose text came from a transcript points here (intervie
           {%- if href == "" and UI.status[it.status].wanted %}{% capture href %}#{{ it.id }}{% endcapture %}{% endif -%}
           {%- if href == "" and it.post and wr_post %}{% assign href = wr_post.url | relative_url %}{% endif -%}
           {%- if href == "" and it.sources %}{% assign href = it.sources[0].url %}{% endif %}
-        <li class="wanted-row wst-{{ it.status }}">
+        <li class="wanted-row wst-{{ it.status }}{% if it.cover %} has-cover{% endif %}">
           <i class="wanted-dot" title="{{ UI.status[it.status].label }}"></i>
           <span class="wanted-row__date">{{ it.date | slice: 0, 7 }}</span>
+          {%- comment -%} the cover of an issue the archive holds (a thumbnail of the scan's own cover page); the slot stays when there is none so the titles line up {%- endcomment %}
+          {%- if it.cover %}
+          <a class="wanted-row__cover" href="{{ href }}" tabindex="-1" aria-hidden="true"><img src="{{ it.cover | relative_url }}" alt="" width="30" loading="lazy"></a>
+          {%- else %}
+          <span class="wanted-row__cover is-empty" aria-hidden="true"></span>
+          {%- endif %}
           <a class="wanted-row__name" href="{{ href }}"{% if href contains "://" %} target="_blank" rel="noopener"{% endif %}><b>{{ it.pub }} {{ it.issue }}</b>{{ it.title }}</a>
           <span class="wanted-row__state">{{ UI.status[it.status].label }}{% if it.conflict %} · 资料矛盾{% endif %}</span>
         </li>

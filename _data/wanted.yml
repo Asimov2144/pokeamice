@@ -72,6 +72,7 @@ items:
     title: 开发人员访谈「花费 6 年岁月的怪物们」
     people: [田尻智, 增田顺一, 杉森建, 西野弘二, 森本茂树]
     status: scan
+    cover: /assets/img/wanted/shodai-zukan-1996.jpg
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
   - id: famicom-magazine-1996-13
     era: early
@@ -87,14 +88,14 @@ items:
   - id: famimaga64-1996-08
     era: early
     pub: ファミマガ64
-    issue: No.4・5（合并号）
+    issue: No.4・5
     date: "1996-08-23"
     title: 《宝可梦2》制作中的田尻智 · FAX 问答
     people: [田尻智]
     status: known
     priority: A
     pages: "30–31"
-    known: "「ゲームボーイの逆襲」栏目：编辑部提问，田尻智用传真回答，谈制作中的《宝可梦2》（后来的《金·银》）。书目已识别，本站还没有这一期。"
+    known: "1996 年 8/23・9/6 合并号。「ゲームボーイの逆襲」栏目：编辑部提问，田尻智用传真回答，谈制作中的《宝可梦2》（后来的《金·银》）。书目已识别，本站还没有这一期。"
     need: [这一期的封面与目录页, 30–31 页的全页（带页码）, 提问与回答的原文]
     sources:
       - {label: "田尻智媒体书目（「砂の碑」整理）", url: http://sunanohi.web.fc2.com/pokemon/magazine/game.html}
@@ -241,6 +242,7 @@ items:
     title: 田尻智 × 中川翔子 特别对谈
     people: [田尻智, 中川翔子]
     status: scan
+    cover: /assets/img/wanted/continue-32.jpg
     post: 2026-08-29-continue-vol32-scan-archive
   - id: np-215
     era: dp
@@ -365,6 +367,7 @@ items:
     title: 《心金·魂银》GAME FREAK 开发访谈 + 杉森建个人访谈
     people: [增田顺一, 森本茂树, 海野隆雄, 森彰人, 松岛贤二, 一之濑刚, 杉森建]
     status: scan
+    cover: /assets/img/wanted/ndream-187.jpg
     post: 2009-09-21-scan-ndream-2009-11-hgss-developer-interview
 
   # ---------------------------------------------------------------- BW
@@ -401,6 +404,7 @@ items:
     title: GAME FREAK 開発スタッフインタビュー 『ポケットモンスター』を変えること／変わらないこと
     people: [增田顺一, 杉森建, 大森滋, 太田哲司, 水口舞]
     status: scan
+    cover: /assets/img/wanted/dengeki-games-14.jpg
     post: 2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview
   - id: famitsu-1146
     era: bw
@@ -434,6 +438,7 @@ items:
     title: 《黑·白》美术与插画诞生秘闻；声音总监景山将太访谈
     people: [杉森建, 海野隆雄, 大村祐介, 景山将太]
     status: scan
+    cover: /assets/img/wanted/ndream-201.jpg
     post: 2010-11-20-scan-ndream-2011-01-bw-design-secrets
   - id: davinci-2011-01
     era: bw
@@ -443,6 +448,7 @@ items:
     title: 增田顺一谈《黑·白》
     people: [增田顺一]
     status: scan
+    cover: /assets/img/wanted/davinci-2011-01.jpg
     post: 2010-12-06-scan-davinci-2011-01-masuda-interview
   - id: famitsu-1155
     era: bw
@@ -527,6 +533,7 @@ items:
     title: 《黑·白》开发者访谈：宝可梦与角色诞生秘话；增田顺一谈“桥”
     people: [杉森建, 海野隆雄, 大村祐介, 增田顺一]
     status: scan
+    cover: /assets/img/wanted/ndream-204.jpg
     post: 2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2
   - id: onm-68
     era: bw
@@ -552,6 +559,7 @@ items:
     title: 《黑·白》宝可梦与角色诞生秘话 EX；大村祐介谈人物设计
     people: [杉森建, 海野隆雄, 大村祐介]
     status: scan
+    cover: /assets/img/wanted/ndream-205.jpg
     post: 2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex
   - id: ndream-bw-tanjou-hiwa
     era: bw
@@ -561,6 +569,7 @@ items:
     title: 《黑·白》诞生秘话 总集篇
     people: [杉森建, 海野隆雄, 大村祐介]
     status: scan
+    cover: /assets/img/wanted/ndream-bw-tanjou-hiwa.jpg
     post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon
 
   # ---------------------------------------------------------------- B2W2
@@ -628,6 +637,7 @@ items:
     title: 《黑2·白2》GAME FREAK 开发访谈
     people: [增田顺一, 海野隆雄, 一之濑刚, 佐藤仁美]
     status: scan
+    cover: /assets/img/wanted/ndream-221.jpg
     post: 2012-07-21-scan-ndream-2012-09-b2w2-developer-interview
   - id: ndream-222
     era: b2w2
@@ -637,6 +647,7 @@ items:
     title: 庆典任务与宝可坞开发秘闻；宝可梦音乐访谈
     people: [增田顺一, 海野隆雄, 一之濑刚, 佐藤仁美]
     status: scan
+    cover: /assets/img/wanted/ndream-222.jpg
     post: 2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets
 
   # ---------------------------------------------------------------- 2013–2026（两份补充研究）
@@ -674,6 +685,7 @@ items:
     - 中津井优
     pages: 12–17
     known: 本站已有杉森建、大村祐介、中津井优访谈的六页原刊页图与译文，后续工作为人工校对。
+    cover: /assets/img/wanted/ndream-236.jpg
     post: 2013-10-21-scan-ndream-2013-12-xy-character-design-interview
     sources:
     - label: 官方刊物介绍
@@ -738,6 +750,7 @@ items:
     title: 《X·Y》声音团队访谈「乐曲魂」特别篇
     people: [景山将太, 佐藤仁美]
     status: scan
+    cover: /assets/img/wanted/ndream-237.jpg
     post: 2013-11-21-scan-ndream-2014-01-xy-sound-team-interview
   - id: famitsu-2014-12-04
     era: oras
@@ -985,6 +998,7 @@ items:
     title: 《日月》3D 资产制作与 Creatures、GAME FREAK 的三社协作
     people: [海野隆雄]
     status: scan
+    cover: /assets/img/wanted/cgworld-227.jpg
     post: 2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra
   - id: famitsu-2019-11-28
     era: swsh

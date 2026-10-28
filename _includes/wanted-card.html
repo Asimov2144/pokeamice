@@ -28,9 +28,18 @@
 <article class="wanted-card wst-{{ it.status }}{% if it.priority %} is-p{{ it.priority | downcase }}{% endif %}" id="{{ it.id }}">
   <header class="wanted-card__head">
     <p class="wanted-card__stamp"><span>WANTED</span>{% if it.priority %}<b class="wanted-card__prio" title="{{ site.data.wanted_ui.priority[it.priority] }}">{{ it.priority }}</b>{% endif %}</p>
-    <p class="wanted-card__pub">{{ it.pub }}</p>
-    <p class="wanted-card__issue{% assign wc_len = it.issue | size %}{% if wc_len > 9 %} is-long{% endif %}">{{ it.issue }}</p>
-    <p class="wanted-card__date">{{ it.date }}</p>
+    {%- comment -%} the photo of the poster: the cover of the issue when the archive has one (it.cover, a thumbnail of a cover page we hold or were sent), else an empty frame that says so {%- endcomment %}
+    <div class="wanted-card__id">
+      <figure class="wanted-cover{% unless it.cover %} is-empty{% endunless %}">
+        {%- if it.cover %}<img src="{{ it.cover | relative_url }}" alt="{{ it.pub }} {{ it.issue }} 的封面" width="72" loading="lazy">
+        {%- else %}<span class="wanted-cover__q" aria-hidden="true">?</span><figcaption>封面<br>待补</figcaption>{% endif -%}
+      </figure>
+      <div class="wanted-card__idtext">
+        <p class="wanted-card__pub">{{ it.pub }}</p>
+        <p class="wanted-card__issue{% assign wc_len = it.issue | size %}{% if wc_len > 9 %} is-long{% endif %}">{{ it.issue }}</p>
+        <p class="wanted-card__date">{{ it.date }}</p>
+      </div>
+    </div>
   </header>
   <h3 class="wanted-card__title">{{ it.title }}</h3>
   {%- if it.title_note %}<p class="wanted-card__note">{{ it.title_note }}</p>{% endif %}

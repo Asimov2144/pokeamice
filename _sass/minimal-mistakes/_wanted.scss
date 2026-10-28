@@ -179,6 +179,47 @@ $wd-paper-rule: #2a2420;
     font-size: 0.72rem;
     line-height: 1;
   }
+  /* the id block: the photo on the left (the cover, or an empty frame), the issue on the right */
+  .wanted-card__id {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 14px;
+    align-items: center;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .wanted-cover {
+    position: relative;
+    margin: 0;
+    width: 72px;
+    aspect-ratio: 5 / 7;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: 1.5px solid $wd-paper-rule;
+      box-shadow: 3px 3px 0 rgba(42, 36, 32, 0.25);
+    }
+    &.is-empty {
+      display: grid;
+      place-content: center;
+      justify-items: center;
+      gap: 0;
+      border: 1.5px dashed rgba(42, 36, 32, 0.5);
+      background: repeating-linear-gradient(135deg, rgba(42, 36, 32, 0.06) 0 6px, transparent 6px 12px);
+      color: rgba(42, 36, 32, 0.6);
+      text-align: center;
+    }
+    figcaption { font-size: 0.66rem; line-height: 1.35; letter-spacing: 0.12em; }
+  }
+  .wanted-cover__q {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.9rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: rgba(197, 48, 48, 0.55);
+  }
   .wanted-card__pub { font-size: 0.8rem; color: $lib-ink-soft; letter-spacing: 0.02em; }
   .wanted-card__issue {
     font-family: Georgia, "Times New Roman", serif;
@@ -274,13 +315,25 @@ $wd-paper-rule: #2a2420;
   .wanted-rows { margin: 0; padding: 0; list-style: none; }
   .wanted-row {
     display: grid;
-    grid-template-columns: 16px 64px minmax(0, 1fr) auto;
+    grid-template-columns: 16px 64px 30px minmax(0, 1fr) auto;
     align-items: baseline;
     gap: 8px;
     margin: 0;
     padding: 6px 0;
     border-bottom: 1px solid $lib-rule;
     font-size: 0.84rem;
+    &.has-cover { align-items: center; }
+  }
+  .wanted-row__cover {
+    display: block;
+    width: 30px;
+    img {
+      display: block;
+      width: 30px;
+      height: auto;
+      border: 1px solid $lib-rule;
+      box-shadow: 0 1px 3px rgba(42, 36, 32, 0.22);
+    }
   }
   .wanted-row__date { color: $lib-ink-faint; font-size: 0.75rem; font-variant-numeric: tabular-nums; }
   .wanted-row__name {
@@ -301,8 +354,10 @@ $wd-paper-rule: #2a2420;
 @media (max-width: 640px) {
   .wanted {
     .wanted-row { grid-template-columns: 14px minmax(0, 1fr); }
-    .wanted-row__date { display: none; }
+    .wanted-row.has-cover { grid-template-columns: 14px 30px minmax(0, 1fr); }
+    .wanted-row__date, .wanted-row__cover.is-empty { display: none; }
     .wanted-row__state { grid-column: 2; white-space: normal; }
+    .wanted-row.has-cover .wanted-row__state { grid-column: 3; }
     .wanted-legend div { grid-template-columns: 1fr; gap: 0; }
   }
 }
@@ -324,6 +379,14 @@ body.theme-bg-black .wanted {
     color: #ece6d6;
   }
   .wanted-card__head, .wanted-card__act { border-color: rgba(203, 191, 159, 0.35); }
+  .wanted-cover img { border-color: #cbbf9f; box-shadow: 3px 3px 0 rgba(203, 191, 159, 0.22); }
+  .wanted-cover.is-empty {
+    border-color: rgba(203, 191, 159, 0.5);
+    background: repeating-linear-gradient(135deg, rgba(203, 191, 159, 0.08) 0 6px, transparent 6px 12px);
+    color: #c2b9a3;
+  }
+  .wanted-cover__q { color: rgba(240, 120, 120, 0.7); }
+  .wanted-row__cover img { border-color: #2a2f37; }
   .wanted-card__pub, .wanted-card__known, .wanted-card__status span { color: #c2b9a3; }
   .wanted-row { border-bottom-color: #2a2f37; }
   .wanted-row__name { color: #e6e8ec; }
