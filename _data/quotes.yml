@@ -15373,6 +15373,78 @@ quotes:
   links:
   - type: term
     name: 道馆馆主
+- id: 2013-08-14-interview-famitsu-2013-solitiba#17
+  post: 2013-08-14-interview-famitsu-2013-solitiba
+  segment: 17
+  speaker: 田谷正夫
+  reported: false
+  kind: quote
+  hook: 田谷：GAME FREAK有“齿轮”制度，3人觉得有趣就能做试作版
+  zh: 好的。首先作为前提，还是先说明一下GAME FREAK独有的制度比较好。GAME FREAK有一个叫“齿轮”的制度，就是某个人提出游戏企划，只要有3名觉得“好像很有趣”的员工聚集起来，就可以开始制作试作版，是这样一个系统。这个制度大约从3年前开始，我报名参加它就是契机。
+  ja: はい。まず前提としてゲームフリーク独自の制度からお話したほうがいいですね。ゲームフリークには、“ギア”という制度がありまして、誰かがゲームの企画を立ち上げて「おもしろそうだ」というスタッフが3人集まれば、試作を始めてもよいというシステムがあるんですよ。これは3年くらい前から始まった制度なんですが、それに応募したのがきっかけですね。
+  lang: ja
+  year: 2013
+  date: '2013-08-14'
+  publication: Fami通.com
+  title: Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌
+  score: 5
+  why: 首次具体说明GAME FREAK的“齿轮”制度：员工提出企划，凑齐3人即可开始制作试作版，是理解《纸牌马》诞生路径的前提。
+  more: 同篇第24句提到“齿轮”有3个月试作期和6个月审查的分阶段流程。
+  people:
+  - 一之濑刚
+  - 小幡敏宏
+  - 田谷正夫
+  works:
+  - ソリティ馬
+  links: []
+- id: 2013-08-14-interview-famitsu-2013-solitiba#25
+  post: 2013-08-14-interview-famitsu-2013-solitiba
+  segment: 25
+  speaker: 一之濑刚
+  reported: false
+  kind: quote
+  hook: 一之濑：最初想用双六方式，因别的马行动耗时被否决
+  zh: 最初的两个月，大家聚在会议室之类的地方，总之一直在想企划。之后大约用一个月做出了原型。最初的点子是，用纸牌游戏《纸牌》中拿到的牌数来让马前进……这种双六方式。但双六的话，别的马行动要花时间吧，所以被否决了。而用触控笔可以画线，能用和双六一样的机制来做，于是就变成了现在的形式。
+  ja: 最初の2ヵ月間は、みんなで会議室とかに集まって、とにかく企画を考えていましたね。そこから1ヵ月くらいでプロトタイプを作ったという。最初のアイデアは、『ソリティア』で取ったカードの分だけ馬が進める……という、すごろく方式でしたね。でも、すごろくだとほかの馬が動いたりするのに時間がかかるだろうということでNGになりました。で、タッチペンだと線を引けるし、すごろくと同じようなギミックで行けるということで、いまのようなスタイルになったんです。
+  lang: ja
+  year: 2013
+  date: '2013-08-14'
+  publication: Fami通.com
+  title: Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌
+  score: 4
+  why: 交代《纸牌马》原型从双六式改为触控画线操作的具体经过，是玩法成形的关键转折。
+  more: 第27、28句提到还曾考虑用骑手台词选项决定比赛进程，最终落定为直观操作。
+  people:
+  - 一之濑刚
+  - 小幡敏宏
+  - 田谷正夫
+  works:
+  - ソリティ馬
+  links: []
+- id: 2013-08-14-interview-famitsu-2013-solitiba#72
+  post: 2013-08-14-interview-famitsu-2013-solitiba
+  segment: 72
+  speaker: 一之濑刚
+  reported: false
+  kind: quote
+  hook: 一之濑：《纸牌马》收录1000匹以上马，全部检查参数花了约两个月
+  zh: 在我心中已经看到了完成形态，所以剩下的就只有“想办法做成形，总之要让它有趣！”这个念头。不过，我反省自己当初的预估相当天真。比如，《纸牌马》收录了1000匹以上的马，而我在一定程度上没能预见调整这些参数需要多少时间。因为需要全部检查马的强度和属性是否确实反映在游戏中，所以全部检查完最终花了大约两个月。
+  ja: 僕の中では完成形は見えていたので、あとは、「何とか形にして、とにかくおもしろくする！」という思いだけでしたね。ただ、想定がかなり甘かったという反省はあります。たとえば、『ソリティ馬』には1000頭以上の馬を収録しているのですが、そのパラメータ調整にどれくらい時間がかかるかということを見通せていなかった部分もありました。馬の強さや属性がしっかりゲームに反映されているかを全部チェックする必要があったので、全部見るのにけっきょく2ヵ月くらいかかりましたね。
+  lang: ja
+  year: 2013
+  date: '2013-08-14'
+  publication: Fami通.com
+  title: Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌
+  score: 4
+  why: 给出具体数字：1000匹以上马匹的参数调整与全数检查耗时约两个月，反映小规模项目的实际工作量。
+  more: 第84句提到默认马名由全体员工每人想100匹，作为寒假作业完成。
+  people:
+  - 一之濑刚
+  - 小幡敏宏
+  - 田谷正夫
+  works:
+  - ソリティ馬
+  links: []
 - id: 2013-09-19-interview-jv-2013-xy#11
   post: 2013-09-19-interview-jv-2013-xy
   segment: 11
@@ -21978,6 +22050,74 @@ quotes:
   links:
   - type: work
     name: Pokémon HOME
+- id: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki#38
+  post: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki
+  segment: 38
+  speaker: 佐々木悠
+  reported: false
+  kind: quote
+  hook: 佐佐木悠：同一组拍档的能力和招式固定
+  zh: 不能，本作中每组拍档都有固定的4个招式（加上拍档招式共5个），会随着成长程度逐步学会，因此无法定制招式。《宝可梦》系列中，即使是同一只宝可梦，根据培养方式不同也能拥有不同的能力，但在本作中，同一组拍档必定拥有相同的能力和招式。相应地，希望玩家通过拍档的组合来进行定制。
+  ja: いえ、本作では、バディーズごとに決まった4つのわざ（バディーズわざを含めて5つ）を成長度合いに応じて段階的に覚えますので、わざのカスタマイズはできません。『ポケットモンスター』シリーズでは、同じポケモンでも育てかた次第で違った能力を持つことができますが、本作ではおなじバディーズであれば必ずおなじ能力・わざを持つことになります。そのぶん、バディーズの組み合わせによってカスタマイズを行ってもらえればと。
+  lang: ja
+  year: 2019
+  date: '2019-07-24'
+  publication: Fami通.com
+  title: Fami通.com 2019：宝可梦大师制作人佐佐木悠谈世界观与拍档组合
+  score: 5
+  why: 明确本作不能像招式学习器那样定制招式，定制空间转移到拍档组合上，是理解本作对战设计的关键决定。
+  more: 同一访谈第34句提到发售时65组拍档，组合数即战略数。
+  people:
+  - 佐々木悠
+  works:
+  - 宝可梦大师
+  links: []
+- id: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki#45
+  post: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki
+  segment: 45
+  speaker: 佐々木悠
+  reported: false
+  kind: quote
+  hook: 佐佐木悠：小刚魔法装选班基拉斯因其强力
+  zh: 关于身穿魔法装的拍档，大前提也是设定为带着在《宝可梦》系列中曾经收入队伍里的宝可梦。小刚的魔法装版本，则是从它的队伍中选了在《宝可梦 黑2·白2》中登场的班基拉斯，因为给人留下特别强力的宝可梦的印象，所以让它做了搭档。
+  ja: マジコスバージョンのバディーズについても、大前提として『ポケットモンスター』シリーズで、手持ちに入れていたことのあるポケモンを連れている、という設定です。タケシのマジコスの場合は、手持ちの中でも、『ポケットモンスターブラック2・ホワイト2』で登場したバンギラスが、とくに強力なポケモンというイメージがあるので相棒としました。
+  lang: ja
+  year: 2019
+  date: '2019-07-24'
+  publication: Fami通.com
+  title: Fami通.com 2019：宝可梦大师制作人佐佐木悠谈世界观与拍档组合
+  score: 4
+  why: 说明魔法装拍档的选角逻辑：从该训练家在系列中曾收入队伍的宝可梦裡挑，并给出小刚与班基拉斯的具体例子。
+  more: 第43句提到魔法装训练家会带与平常不同的宝可梦，且不止小刚一组。
+  people:
+  - 佐々木悠
+  works:
+  - 宝可梦大师
+  links:
+  - type: term
+    name: 训练家
+- id: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki#52
+  post: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki
+  segment: 52
+  speaker: 佐々木悠
+  reported: false
+  kind: quote
+  hook: 佐佐木悠：所有拍档星级都能升到★5
+  zh: 我们正是这样用心设计的。如前所述，通过推进故事，会有很多拍档组合成为伙伴；本作中星级最高到★5（发布时点），而且所有拍档组合的星级也都能提升到★5，所以成为伙伴的拍档组合可以一直用下去。《宝可梦》系列是全世界广泛年龄层喜爱的作品。为了让无论哪个世代的人、所有宝可梦粉丝都能安心地长期享受，我们在开发时进行了充分考虑，力求做到这样的设计。
+  ja: そのように心掛けています。先述のように、ストーリーを進めることにより、仲間になるバディーズもたくさんいますし、本作では星の数が★5まであるのですが（リリース時点）、すべてのバディーズの星の数を★5にすることもできますので、仲間になったバディーズを、ずっと使い続けることも可能です。『ポケットモンスター』シリーズは、世界中で幅広い年代に愛されている作品です。どのような世代の方でも、すべてのポケモンファンが安心して長いあいだ楽しんでいただける設計になるよう、十分考慮して開発を行っています。
+  lang: ja
+  year: 2019
+  date: '2019-07-24'
+  publication: Fami通.com
+  title: Fami通.com 2019：宝可梦大师制作人佐佐木悠谈世界观与拍档组合
+  score: 4
+  why: 给出付费抽卡与游戏平衡的具体设计：推进故事可获得大量拍档，且低星拍档也能培养到最高星级长期使用。
+  more: 第50句说明拍档组合搜寻消耗钻石，钻石可付费购买也可游玩获得。
+  people:
+  - 佐々木悠
+  works:
+  - 宝可梦大师
+  links: []
 - id: 2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm#24
   post: 2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm
   segment: 24
@@ -23883,6 +24023,78 @@ quotes:
   links:
   - type: work
     name: 宝可梦 太阳·月亮
+- id: 2021-07-17-interview-famitsu-2021-pokemon-wonder#45
+  post: 2021-07-17-interview-famitsu-2021-pokemon-wonder
+  segment: 45
+  speaker: 津田明子
+  reported: false
+  kind: question
+  hook: 为什么宝可梦要在自然中办新企划？
+  zh: 宝可梦从2014年起在户外举办都市型活动“皮卡丘大量出现中”，到2019年为止每年都有近200万人参与。在探讨户外新企划的过程中，我们开始考虑这次能否不在横滨这样的城市，而是在广阔的大自然中，以符合宝可梦风格的形式做一项新企划，这就是本企划的开端。
+  ja: ポケモンは屋外での都市型イベント、ピカチュウ大量発生チュウを2014年から実施し、2019年まで毎年200万人近い方に楽しんでいただけました。屋外の新しい企画を検討していく中で、今度は横浜のような都市ではなく、広い自然の中でポケモンらしい形での新しい企画はないかと検討を開始したのがこの企画のスタートです。
+  lang: ja
+  year: 2021
+  date: '2021-07-17'
+  publication: Fami通.com
+  title: Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法
+  score: 4
+  why: 津田明子说明企划起点：2014年起“皮卡丘大量出现中”每年近200万人参与，由此考虑转向大自然。
+  more: “皮卡丘大量出现中”是宝可梦在横滨举办的户外都市型活动。
+  people:
+  - 本山敬一
+  - 津田明子
+  - 藤本海右
+  works:
+  - Pokémon WONDER
+  links: []
+- id: 2021-07-17-interview-famitsu-2021-pokemon-wonder#56
+  post: 2021-07-17-interview-famitsu-2021-pokemon-wonder
+  segment: 56
+  speaker: 本山敬一
+  reported: false
+  kind: quote
+  hook: 本山敬一：主题取自蕾切尔·卡森《惊奇之心》
+  zh: 正如津田先生在开头也提到的，本企划以“惊奇之心”这一概念为主题。所谓惊奇之心，源自美国生物学家蕾切尔·卡森的著作《惊奇之心》，指的是“对自然的神秘与不可思议睁大眼睛的感性”。让人们在日常生活中逐渐遗忘的这种感受性，通过宝可梦重新找回，是本企划的一大目标。
+  ja: 冒頭でも津田さんがおっしゃられていたように、本企画はセンス・オブ・ワンダーという概念がテーマになっています。センス・オブ・ワンダーというのは、アメリカの生物学者レイチェル・カーソンの著作『センス・オブ・ワンダー』に由来する、“自然の神秘や不思議に目を見張る感性”のことです。日々の生活で忘れていってしまうこの感受性を、ポケモンを通して取り戻してもらうことが本企画の大きな目標です。
+  lang: ja
+  year: 2021
+  date: '2021-07-17'
+  publication: Fami通.com
+  title: Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法
+  score: 4
+  why: 点明企划核心概念“惊奇之心”的出处与定义，是理解整个活动理念的关键。
+  more: 蕾切尔·卡森是美国生物学家，著有《惊奇之心》。
+  people:
+  - 本山敬一
+  - 津田明子
+  - 藤本海右
+  works:
+  - Pokémon WONDER
+  links: []
+- id: 2021-07-17-interview-famitsu-2021-pokemon-wonder#76
+  post: 2021-07-17-interview-famitsu-2021-pokemon-wonder
+  segment: 76
+  speaker: 本山敬一
+  reported: false
+  kind: question
+  hook: 实际登场的宝可梦有多少种？
+  zh: 实际登场的宝可梦有50种以上，而点子的数量当然比登场的宝可梦数量还要多。每周的会议上大家都会带来点子，一手拿着宝可梦图鉴各自提出方案。有些东西当场觉得可行，实际一试却有很多行不通的。
+  ja: 実際に登場するポケモンの数は50種類以上ですが、は、アイデア自体は当然登場するポケモンの数以上に出しています。毎週の会議に皆でアイデアを持ち寄って、ポケモン図鑑を片手に各々が提案をしあっていました。その場ではアリだと思ったものでも、実際に試してみるとうまくいかないこともたくさんありましたね。
+  lang: ja
+  year: 2021
+  date: '2021-07-17'
+  publication: Fami通.com
+  title: Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法
+  score: 4
+  why: 本山敬一给出具体规模：登场宝可梦50种以上，点子数量更多，每周会议拿图鉴提方案。
+  more: 同一段提到有些点子当场可行、实际一试却行不通。
+  people:
+  - 本山敬一
+  - 津田明子
+  - 藤本海右
+  works:
+  - Pokémon WONDER
+  links: []
 - id: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure#5
   post: 2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure
   segment: 5
@@ -25011,6 +25223,118 @@ quotes:
   links:
   - type: term
     name: 动画师
+- id: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team#23
+  post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+  segment: 23
+  speaker: 小杉要
+  reported: false
+  kind: quote
+  hook: 小杉要：5年半前因睡眠计测技术启动项目
+  zh: 大约5年半前，我有机会了解到睡眠计测技术。睡眠是每个人都会做的事，其数据会不断积累。我认为把这一技术与游戏结合起来，应该能做出前所未有的有趣东西，于是开始了制作。
+  ja: 約5年半前に睡眠計測の技術を知る機会がありました。睡眠は誰しもが行い、そのデータは蓄積されていくものです。これをゲームと組み合わせることで、これまでにないおもしろいものが作れそうだと思い、制作をスタートさせました。
+  lang: ja
+  year: 2023
+  date: '2023-07-21'
+  publication: Fami通.com
+  title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+  score: 4
+  why: 交代《Pokémon Sleep》立项起点，把睡眠数据积累与游戏结合的想法来源。
+  more: 同段小杉要还提到《Pokémon GO》把走路娱乐化，本项目是接下来的挑战（i 26）。
+  people:
+  - 中畑虎也
+  - 塚田拓実
+  - 宮川佳祐
+  - 寺田佑贵
+  - 小杉要
+  - 首藤まり江
+  works:
+  - Pokémon Sleep
+  links:
+  - type: person
+    name: 小杉要
+    slug: xiao-shan-yao
+  - type: work
+    name: Pokémon GO
+- id: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team#45
+  post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+  segment: 45
+  speaker: 中畑虎也
+  reported: false
+  kind: quote
+  hook: 中畑虎也：最费苦心是睡眠工具与游戏的平衡
+  zh: 而最费苦心的是，为让“睡眠测量工具”和“游戏”两者兼顾而进行的平衡调整。如果作为睡眠测量工具优化过度，作为游戏就无聊了；如果过度追求作为游戏的趣味，那又只会变成普通的游戏。
+  ja: そしてもっとも苦労したのが、“睡眠計測ツール”と“ゲーム”を両立させるためのバランス調整です。睡眠計測ツールとして最適化させすぎてしまうとゲームとしてつまらないし、ゲームとしてのおもしろさを追求しすぎるとそれはもうただのゲームになってしまいます。
+  lang: ja
+  year: 2023
+  date: '2023-07-21'
+  publication: Fami通.com
+  title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+  score: 4
+  why: 点出本作核心设计矛盾：偏工具则无聊，偏游戏则沦为普通游戏。
+  more: 宮川佳祐补充担心玩得太有趣反而削减睡眠时间（i 46）。
+  people:
+  - 中畑虎也
+  - 塚田拓実
+  - 宮川佳祐
+  - 寺田佑贵
+  - 小杉要
+  - 首藤まり江
+  works:
+  - Pokémon Sleep
+  links:
+  - type: person
+    name: 宮川佳祐
+    slug: gong-chuan-jia-you
+- id: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team#76
+  post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+  segment: 76
+  speaker: 塚田拓実
+  reported: false
+  kind: quote
+  hook: 塚田拓実：不用自动补间，逐帧手动调整
+  zh: 制作2D动画时，近年的一般做法是用Spine、Live2D这类动画工具给插画设置骨骼，再用自动补间动画让它动起来。正因为效率高才成为普遍做法，但这次我们想做没有既视感的画面，所以以定格动画的感觉，在自动补间动画的基础上，把每一帧全部手动调整出来。
+  ja: 2Dアニメーションを作る際にはSpineやLive2Dといったアニメーションツールを使ってイラストにボーンを設定して、自動補完のアニメーションで動かすのが近年は一般的です。効率的だからこそ一般的なわけですが、今回は既視感のない画作りがしたかったので、コマアニメのようなイメージで、自動補完のアニメーションをベースにひとつひとつのコマをすべて手動でつけていく手法で作っています。
+  lang: ja
+  year: 2023
+  date: '2023-07-21'
+  publication: Fami通.com
+  title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+  score: 4
+  why: 说明2D动画为何放弃Spine、Live2D的常规效率做法，追求无既视感画面。
+  more: 同段提到睡姿动作缓慢，还逐个加了揉眼、打哈欠的小动作（i 78）。
+  people:
+  - 中畑虎也
+  - 塚田拓実
+  - 宮川佳祐
+  - 寺田佑贵
+  - 小杉要
+  - 首藤まり江
+  works:
+  - Pokémon Sleep
+  links: []
+- id: 2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown#44
+  post: 2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown
+  segment: 44
+  speaker: 宇都宫崇人
+  reported: false
+  kind: quote
+  hook: 宇都宫崇人：帕奇利兹在韩国火到卡牌店摆毛绒玩偶
+  zh: 首先对选手说几句。前几天我去了韩国，当时在一家卡牌店里看到了帕奇利兹的毛绒玩偶。这只帕奇利兹，是在华盛顿特区举办的“宝可梦WCS2014”上夺冠的パク・セジュン选手所使用的宝可梦，他当时的打法非常新颖，给粉丝留下了强烈的印象。于是在韩国，帕奇利兹变得非常受欢迎。甚至到了卡牌店里会摆放毛绒玩偶的程度。选手的活跃，确实能带来让宝可梦在某个特定国家的人气发生变化的冲击。从某种意义上说，作为创造宝可梦历史一部分的存在，希望你们全力以赴。
+  ja: まず選手に向けて。先日韓国へ行ったのですが、その際カードショップにパチリスのぬいぐるみがあったのです。このパチリスは、ワシントンD.C.で開催された“ポケモンWCS2014”で優勝したパク・セジュン選手が使用したポケモンなのですが、このときの戦いかたが非常に斬新なもので、ファンに強い印象を与えました。そして韓国ではパチリスがとても人気になったのです。まさにカードショップにぬいぐるみが置かれるほどに。選手の方の活躍で、ポケモンの人気が特定の国で変化するほどのインパクトを与えることが実際にあります。ある意味ポケモンの歴史のひとつを作っていく、そういった存在として全力を尽くしてがんばってほしいと思います。
+  lang: ja
+  year: 2023
+  date: '2023-08-12'
+  publication: Fami通.com
+  title: Fami通.com 2023：宝可梦WCS2023开幕式与宇都宫崇人、克丽丝·布朗访谈
+  score: 4
+  why: 以WCS2014冠军パク・セジュン与帕奇利兹为例，说明选手表现能改变某国的人气。
+  more: 宝可梦WCS2014在华盛顿特区举办；帕奇利兹是パク・セジュン夺冠时使用的宝可梦。
+  people:
+  - Chris Brown
+  - 宇都宫崇人
+  works:
+  - 宝可梦世界锦标赛
+  links: []
 - id: 2023-08-24-interview-denfami-2023-cedec-visual#14
   post: 2023-08-24-interview-denfami-2023-cedec-visual
   segment: 14
@@ -25469,6 +25793,81 @@ quotes:
   more: 该负责人还提到创作者的热情远超项目团队期待。
   people: []
   works: []
+  links: []
+- id: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv#62
+  post: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+  segment: 62
+  speaker: Ayase
+  reported: false
+  kind: quote
+  hook: Ayase：我扒了《红·绿》战斗曲的谱
+  zh: 在接到这个委托之前，我就在“Pokémon Game Sound Library”上狂听BGM了。非常喜欢。所以这次我想着一定要从里面拉一个动机过来。虽然不是采样，但我自己扒了《战斗（VS训练家）》（《宝可梦 红·绿》）的谱并加了编曲，作为致敬。我作曲基本上是从零开始，所以这样的尝试还是第一次。
+  ja: このお話をいただく前から、“Pokémon Game Sound Library”でBGMをめっちゃ聞いていたんです。すごく好きで。ですので、今回は何かモチーフを引っ張ってきたいという思いがありました。サンプリングをしているわけではないのですが、『戦い（VSトレーナー）』（『ポケットモンスター 赤・緑』）を自分で耳コピしてアレンジを入れ、オマージュしています。基本的に作曲の際はゼロベースでやるので、こういった試みは初めてでした。
+  lang: ja
+  year: 2023
+  date: '2023-12-22'
+  publication: Fami通.com
+  title: Fami通.com 2023：YOASOBI《Biri-Biri》×武田绫乃《与你雨后初晴》对谈
+  score: 5
+  why: Ayase首次披露《Biri-Biri》里致敬《宝可梦 红·绿》战斗BGM的具体做法，并说明这是他作曲生涯第一次这样尝试。
+  more: 同段提到Pokémon Game Sound Library；后文Ayase说《朱·紫》本身就已经是《Biri-Biri》。
+  people:
+  - Ayase
+  - ikura
+  - 武田绫乃
+  works:
+  - 宝可梦 朱·紫
+  links:
+  - type: person
+    name: Ayase
+    slug: ayase
+- id: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv#67
+  post: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+  segment: 67
+  speaker: Ayase
+  reported: false
+  kind: quote
+  hook: Ayase：全系列标题都写进歌词了
+  zh: 是的，全都放进去了。不过其实“赤青绿五颜六色”一开始并不是那个意图。单纯是作为音韵的契合一下子浮出来的，但既然这样不如把其他的也放进去。这还挺辛苦的（笑）。尤其“有趣得令人沉睡”里放白金（白金：しろがね）的方式很难，我以为不会被发现，结果几秒钟内就在SNS和YouTube评论里被找出来了，吓我一跳！
+  ja: そうですね、すべて入れています。でもじつは、「赤青緑色とりどり」は最初その意図で入れたものではなかったんです。単純に音のハマりとしてぱっと浮かんだものだったのですが、せっかくならほかのものも入れたいなと。けっこうたいへんではありました（笑）。とくに「面白いが眠る」でプラチナ（白金：しろがね）は難しい入れかただったので気付いてもらえないと思っていたのですが、秒速でSNSやYouTubeのコメントで見つかっていてびっくりしました！
+  lang: ja
+  year: 2023
+  date: '2023-12-22'
+  publication: Fami通.com
+  title: Fami通.com 2023：YOASOBI《Biri-Biri》×武田绫乃《与你雨后初晴》对谈
+  score: 5
+  why: Ayase确认歌词把《红·绿》到《朱·紫》的标题全放进去，并说“白金”的藏法几秒内就被SNS和YouTube评论找出。
+  more: 开头“赤青绿五颜六色”原本只是音韵契合，并非有意埋标题。
+  people:
+  - Ayase
+  - ikura
+  - 武田绫乃
+  works:
+  - 宝可梦 朱·紫
+  links: []
+- id: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv#85
+  post: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+  segment: 85
+  speaker: Ayase
+  reported: false
+  kind: quote
+  hook: Ayase：《朱·紫》已玩到第4周目
+  zh: 制作《Biri-Biri》的时候，我从头重新玩了一遍。因为也想进入橘子学院，所以玩的是《宝可梦 朱》。另外，我也想用设定成英语的存档数据玩一玩，所以又玩了英语版的数据，现在则是第4周目。宝可梦真的让我的人生变得丰富。
+  ja: 『Biri-Biri』を作るときに一度最初からプレイしなおしました。オレンジアカデミーにも入学したかったので『ポケットモンスター スカーレット』で。あとは、英語に設定した（セーブ）データでも遊んでみたかったので英語版のデータ、そしていまは4周目です。ポケモンは本当に僕の人生を豊かにしてくれています。
+  lang: ja
+  year: 2023
+  date: '2023-12-22'
+  publication: Fami通.com
+  title: Fami通.com 2023：YOASOBI《Biri-Biri》×武田绫乃《与你雨后初晴》对谈
+  score: 4
+  why: Ayase具体说明为制作《Biri-Biri》从头重玩，还玩了英语设定存档，现在进入第4周目。
+  more: 前文他提到通关队里有黏美龙、巨锻匠、骨纹巨声鳄、耿鬼、弃世猴。
+  people:
+  - Ayase
+  - ikura
+  - 武田绫乃
+  works:
+  - 宝可梦 朱·紫
   links: []
 - id: 2021-12-27-interview-gamefreak-crosstalk-game-programmer#6
   post: 2021-12-27-interview-gamefreak-crosstalk-game-programmer
@@ -28432,6 +28831,74 @@ quotes:
   links:
   - type: work
     name: 宝可梦 红·绿
+- id: 2026-03-25-interview-famitsu-2026-champions-hoshino-1#26
+  post: 2026-03-25-interview-famitsu-2026-champions-hoshino-1
+  segment: 26
+  speaker: 星野正昭
+  reported: false
+  kind: quote
+  hook: 星野正昭：有收费构想，但绝不会做成Pay to Win
+  zh: 虽然我们有收费的构想，但绝不会做成Pay to Win。每天能招募1只，只要完成对战教程和每日任务等，就足以在《Pokémon Champions》中进行对战了。
+  ja: マネタイズの構想はあれど、Pay to Winには決してしません。毎日1匹スカウト出来たり、バトルチュートリアルやデイリーなどをこなしていってもらえば、十分に『Pokémon Champions』で対戦できると思います。
+  lang: ja
+  year: 2026
+  date: '2026-03-25'
+  publication: Fami通.com
+  title: Fami通.com 2026：制作人星野正昭谈《Pokémon Champions》39问，目标让宝可梦对战永远留存
+  score: 4
+  why: 首次说明付费边界，并给出每天招募1只、完成教程和每日任务即可对战的具体设计。
+  more: 第63问补充战斗通行证和会员资格定位为让游戏更顺畅的要素。
+  people:
+  - 星野正昭
+  works:
+  - Pokémon Champions
+  links: []
+- id: 2026-03-25-interview-famitsu-2026-champions-hoshino-1#53
+  post: 2026-03-25-interview-famitsu-2026-champions-hoshino-1
+  segment: 53
+  speaker: 星野正昭
+  reported: false
+  kind: quote
+  hook: 星野正昭：天生强度固定，把孵蛋时间留给对战
+  zh: 如何培养用于对战的宝可梦，对新手来说一直是一道门槛。由于也有智能手机版，为了让更多人游玩，“天生强度”被设定为固定值。我自己过去也曾骑着自行车孵了很多蛋，但在《Pokémon Champions》中，希望把那段时间用于对战的反复尝试。
+  ja: バトルに出すポケモンをどう育てるかは、初心者にとってハードルとなっていました。スマートフォン版もあるので、より多くの人にプレイしていただくために、“生まれつきの強さ”は一定にしています。自分も過去には自転車に乗ってたくさんのタマゴをかえしたものですが、『Pokémon Champions』ではその時間は、対戦のトライアンドエラーに充てていただけたらと考えています。
+  lang: ja
+  year: 2026
+  date: '2026-03-25'
+  publication: Fami通.com
+  title: Fami通.com 2026：制作人星野正昭谈《Pokémon Champions》39问，目标让宝可梦对战永远留存
+  score: 5
+  why: 明确《Pokémon Champions》把个体值固定，直接取消系列长期存在的孵蛋门槛，是具体机制决定。
+  more: 同一访谈第19问提到培养花费时间成为障碍，第57问谈招募宝可梦的能力点数接近预设。
+  people:
+  - 星野正昭
+  works:
+  - Pokémon Champions
+  links: []
+- id: 2026-03-25-interview-famitsu-2026-champions-hoshino-1#55
+  post: 2026-03-25-interview-famitsu-2026-champions-hoshino-1
+  segment: 55
+  speaker: 星野正昭
+  reported: false
+  kind: quote
+  hook: 星野正昭：调整是为应对系列变化，而非反过来
+  zh: 我自己也不清楚今后的《宝可梦》系列会怎样发展，但我认为《Pokémon Champions》必须成为能够应对《宝可梦》系列任何变化的承接平台。关于能力点数，是我和GAME FREAK的森本先生一起决定作为《Pokémon Champions》专用机制该如何设定的。与其说是“《Pokémon Champions》中的调整会影响今后的《宝可梦》系列”，不如理解为“为了应对今后的《宝可梦》系列而在《Pokémon Champions》中进行调整”，这样认识应该更准确。
+  ja: 自分も今後『ポケットモンスター』シリーズがどうなっていくのか正確には分かりませんが、『Pokémon Champions』は『ポケットモンスター』シリーズがどんな変化をしても対応できる受け皿になっていなければいけないと考えています。こと能力ポイントについては、『Pokémon Champions』用の仕組みとしてどう設定するかをゲームフリーク森本さんと決めました。「『Pokémon Champions』での調整が今後の『ポケットモンスター』シリーズに影響を与える」というよりは、「今後の『ポケットモンスター』シリーズに対応できるように『Pokémon Champions』で調整している」と捉えていただく方が正しい認識になるかと思います。
+  lang: ja
+  year: 2026
+  date: '2026-03-25'
+  publication: Fami通.com
+  title: Fami通.com 2026：制作人星野正昭谈《Pokémon Champions》39问，目标让宝可梦对战永远留存
+  score: 5
+  why: 澄清能力点数改动与《宝可梦》系列的关系，指出《Pokémon Champions》定位为承接平台。
+  more: 第9问说无论系列变成什么形式，以往对战都会继续存在；第47问提到超级进化与Z招式曾并存。
+  people:
+  - 星野正昭
+  works:
+  - Pokémon Champions
+  links:
+  - type: term
+    name: 超级进化
 - id: 2026-03-26-interview-sankei-ishihara-pokemon-30th#6
   post: 2026-03-26-interview-sankei-ishihara-pokemon-30th
   segment: 6
@@ -29079,6 +29546,72 @@ quotes:
   works:
   - Pokémon LEGENDS Z-A
   - 宝可梦 太阳·月亮
+  links: []
+- id: 2026-08-20-interview-famitsu-2026-champions-hoshino-2#12
+  post: 2026-08-20-interview-famitsu-2026-champions-hoshino-2
+  segment: 12
+  speaker: 星野正昭
+  reported: false
+  kind: question
+  hook: 为什么手机版要在Switch版两个月后上线？
+  zh: 是的。其实《宝可梦大集结》也是在Nintendo Switch版推出约两个月后发布了手机版。作为制作人参与开发时的经验让我认为，那是最快的节奏。话虽如此，从开发流程来看真的是卡得很紧，能够按计划发布，全靠开发团队全体成员的努力。
+  ja: はい。じつは『ポケモンユナイト』もNintendo Switch版から約2ヵ月後にスマホ版をリリースしているんです。プロデューサーとして開発に携わった当時の経験から、それが最速だと考えていました。とはいえ開発の工程としては本当にギリギリで、想定通りにリリースできたのは開発メンバー全員が本当にがんばってくれたおかげです。
+  lang: ja
+  year: 2026
+  date: '2026-08-20'
+  publication: Fami通.com
+  title: Fami通.com 2026：星野正昭谈《Pokémon Champions》手机版与PJCS2026
+  score: 4
+  why: 星野正昭以《宝可梦大集结》的经验为依据，说明两个月是团队认为最快的节奏。
+  more: 同一访谈中，i=13提到还要避开PJCS、NAIC等大型赛事结束的时机。
+  people:
+  - 星野正昭
+  works:
+  - Pokémon Champions
+  links: []
+- id: 2026-08-20-interview-famitsu-2026-champions-hoshino-2#16
+  post: 2026-08-20-interview-famitsu-2026-champions-hoshino-2
+  segment: 16
+  speaker: 星野正昭
+  reported: false
+  kind: question
+  hook: 手机版发布8天总下载量为何能破1000万？
+  zh: 反响远超预期，非常强烈。多亏了大家，发布8天后，加上Nintendo Switch版的总下载量突破了1000万，现在还在继续增长。说实话，有这么多人游玩，我还没有什么实感，但对每一位游玩的玩家，我只有感谢。
+  ja: 想定以上のものすごい手応えを感じています。おかげさまで、リリースの8日後にはNintendo Switch版と合わせたトータルダウンロード数が1000万を突破し、いまではもっと伸びています。それだけの方々に遊んでいただけているというのは、正直まだ実感が湧きませんが、プレイしてくださっている皆様には、本当に感謝の気持ちしかありません。
+  lang: ja
+  year: 2026
+  date: '2026-08-20'
+  publication: Fami通.com
+  title: Fami通.com 2026：星野正昭谈《Pokémon Champions》手机版与PJCS2026
+  score: 5
+  why: 这是手机版上线后的首个具体数字，包含Switch版合计，反映触达新玩家的效果。
+  more: i=17进一步给出地区分布：巴西进入全球前五，亚洲多个地区进入前十。
+  people:
+  - 星野正昭
+  works:
+  - Pokémon Champions
+  links: []
+- id: 2026-08-20-interview-famitsu-2026-champions-hoshino-2#19
+  post: 2026-08-20-interview-famitsu-2026-champions-hoshino-2
+  segment: 19
+  speaker: 星野正昭
+  reported: false
+  kind: question
+  hook: 线上大赛为何能有超过130万人参加？
+  zh: 是啊，很期待。手机版发布后不久的6月底举办的线上大赛“月度挑战系列 2026.06”，竟然有超过130万人参加，大赛圈子的热情之高连我自己都感到惊讶。
+  ja: そうですね、楽しみです。スマホ版リリース直後の6月末に開催したオンライン大会“マンスリーチャレンジシリーズ 2026.06”には、なんと130万人を超える方々にご参加いただき、大会シーンへの熱量の高さには私自身も驚かされています。
+  lang: ja
+  year: 2026
+  date: '2026-08-20'
+  publication: Fami通.com
+  title: Fami通.com 2026：星野正昭谈《Pokémon Champions》手机版与PJCS2026
+  score: 5
+  why: “月度挑战系列 2026.06”的参赛规模，是手机版发布后对战圈子热度的直接数据。
+  more: i=22提到此前“热身挑战”约72万人，星野称人数多到能填满25个东京巨蛋。
+  people:
+  - 星野正昭
+  works:
+  - Pokémon Champions
   links: []
 - id: 2026-08-29-continue-vol31-scan-archive#343
   post: 2026-08-29-continue-vol31-scan-archive
