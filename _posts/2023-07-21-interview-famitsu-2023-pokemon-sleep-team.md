@@ -21,12 +21,12 @@ tags:
 - 塚田拓実
 - 小杉要
 - 首藤まり江
-- 寺田佑貴
+- 寺田佑贵
 - SELECT BUTTON
 publication: Fami通.com（2023-07-21）
 source_kind: media_interview
 interviewer: ファミ通
-interviewee: 中畑虎也、塚田拓実、宮川佳祐、寺田佑貴、小杉要、首藤まり江
+interviewee: 中畑虎也、塚田拓実、宮川佳祐、寺田佑贵、小杉要、首藤まり江
 translator: PokeAmice（DeepSeek 初译）
 original_lang: ja
 translation_lang: zh-CN
@@ -42,7 +42,7 @@ entities:
   - 中畑虎也
   - 塚田拓実
   - 宮川佳祐
-  - 寺田佑貴
+  - 寺田佑贵
   - 小杉要
   - 首藤まり江
   works:
@@ -89,7 +89,7 @@ parallel_items:
 - original: 『ポケモンスリープ』プロデューサー
   translation: 《宝可梦 Sleep》制作人
 - original: 首藤まり江（しゅとう まりえ）
-  translation: 首藤玛丽江（しゅとう まりえ）
+  translation: 首藤まり江（しゅとう まりえ）
 - original: 『ポケモンスリープ』リードコーディネーター
   translation: 《宝可梦 Sleep》首席协调员
 - original: 寺田佑貴（てらだ ゆうき）
@@ -259,7 +259,7 @@ parallel_items:
   translation: 本作中用户和宝可梦的睡眠类型被分为打盹、安睡、熟睡3种，宝可梦的睡眠类型是如何决定的呢？
 - original: ポケモンの睡眠タイプは、ポケモンの持つタイプと関連しています。たとえばほのおタイプのポケモンは体温が高いです。本作の監修をしていただいている睡眠学の世界的権威・柳沢正史先生によれば体温が高いと眠りが浅くなりやすいとのことなので、ほのおタイプはすやすやタイプになっています。逆に、体温の低いこおりタイプのポケモンは眠りが深いぐっすりタイプです。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 宝可梦的睡眠类型与宝可梦拥有的属性相关。比如火属性的宝可梦体温较高。为本作担任监修的世界睡眠学权威柳泽正史老师表示，体温高时睡眠容易变浅，因此火属性就是安睡类型。相反，体温较低的冰属性宝可梦睡眠较深，属于熟睡类型。
 - type: image
   image: /assets/img/interviews/2023-07-21-interview-famitsu-2023-pokemon-sleep-team/010.jpg
@@ -270,7 +270,7 @@ parallel_items:
   translation: 基本上是按属性决定的，但其中也有例外。
 - original: たとえば、赤ちゃんはたくさん眠るからピチューなどの一部のポケモンはぐっすりタイプとか。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 比如婴儿睡得很多，所以皮丘等部分宝可梦就是熟睡类型。
 - original: 例外となっている理由はポケモンファンの皆さんなら納得していただけると思うので、ぜひ探してみてほしいです。
   role: answer
@@ -406,7 +406,7 @@ parallel_items:
   translation: 2023年7月14日“Pokémon GO Plus +”发售了，请告诉我们它与本作联动的经过。
 - original: “Pokémon GO Plus ”、“モンスターボール Plus”に続く、『ポケモン GO』と連携する3つ目のデバイスとして作られたのが“Pokémon GO Plus +”です。睡眠計測のデバイスとしても使おうというアイデアは社長の石原恒和による発案でした。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: “Pokémon GO Plus +”是继“Pokémon GO Plus”、“精灵球Plus”之后，作为与《Pokémon GO》联动的第三个设备而制作的。把它也用作睡眠测量设备的点子，来自社长石原恒和的提议。
 - original: 『ポケモンスリープ』自体はスマートフォンだけで遊べるとのことですが、“Pokémon GO Plus +”を使う利点はどこにあるのでしょうか。
   role: question
@@ -414,7 +414,7 @@ parallel_items:
   translation: 据说《宝可梦Sleep》本身只用智能手机就能游玩，那么使用“Pokémon GO Plus +”的优势在哪里呢？
 - original: スマホをベッドに持ちこみたくない人は一定数いらっしゃると考えています。眠る直前に画面を見たくないという人や、物理的に充電ケーブルが届かない人など理由はそれぞれですが。そういった人にとって“Pokémon GO Plus +”はコンパクトだしバッテリーもかなり長持ちなので便利だと思います。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 我认为有一定数量的人不想把手机带上床。理由各有不同，比如不想在睡前看屏幕，或者充电线物理上够不到等。对这些人来说，“Pokémon GO Plus +”很紧凑，电池也相当耐用，所以我觉得很方便。
 - original: 確かに、アプリを起動して睡眠ボタンを押すにも寝ちゃうこともありそうですね。
   role: question
@@ -422,7 +422,7 @@ parallel_items:
   translation: 确实，启动应用按睡眠按钮时也可能睡着呢。
 - original: そうですね、ふだんはなんともない手間なのですが、眠る前だと眠さが勝っちゃうこともたまに……。“Pokémon GO Plus +”はベッドに置いてボタンを押すだけ。このちょっとした差が、毎日使っていると思ったより大きく感じてきます。また“Pokémon GO Plus +”の中にはナイトキャップをかぶった特別なピカチュウがいて、ピカチュウといっしょに眠ることでなかよくなれます。そしてゲーム内では特別なおてつだいポケモンとして活躍してくれるんです。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 是啊，平时不算什么麻烦，但睡前有时睡意会占上风……“Pokémon GO Plus +”只要放在床上按按钮就行。这点小小的差别，每天用下来会比想象中感受更大。另外“Pokémon GO Plus +”里有一只戴着睡帽的特别皮卡丘，和皮卡丘一起睡就能增进感情。然后在游戏内它会作为特别的帮忙宝可梦活跃。
 - original: “Pokémon GO Plus +”を介して『ポケモン GO』とも連携できるんですよね。
   role: question
@@ -430,7 +430,7 @@ parallel_items:
   translation: 通过“Pokémon GO Plus +”也能和《Pokémon GO》联动吧。
 - original: そうなんです。“Pokémon GO Plus +”を使って『ポケモン GO』でポケストップを回すとその回数が保存されます。その後『ポケモンスリープ』と同期した際に、回数に応じてちょっとした報酬がもらえます。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 是的。使用“Pokémon GO Plus +”在《Pokémon GO》中转动宝可补给站，其次数会被保存。之后与《宝可梦Sleep》同步时，会根据次数获得一些小奖励。
 - original: 日中は『ポケモン GO』で、夜は『ポケモンスリープ』でと使い分けられるんですね。
   role: question
@@ -438,7 +438,7 @@ parallel_items:
   translation: 白天用《Pokémon GO》，晚上用《宝可梦Sleep》，可以这样分开使用呢。
 - original: ちなみに記録するデータをポケストップを回した回数にしたのには理由がありまして。ポケストップをたくさん回そうとすると、たくさん歩き回る必要がありますよね。日中『ポケモン GO』をしながらたくさん歩くと『ポケモンスリープ』でいいことがある。実生活でも昼間たくさん歩くことで夜にぐっすり眠れるようになりますので、どうぞ“Pokémon GO Plus +”を活用して『ポケモン GO』と『ポケモンスリープ』をあわせてお楽しみいただければと思います。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 顺便说，把记录的数据定为转动宝可补给站的次数是有原因的。想多转宝可补给站，就需要多走动。白天一边玩《Pokémon GO》一边多走，在《宝可梦Sleep》里就会有好事。现实生活中白天多走路也能让晚上睡得更香，所以请活用“Pokémon GO Plus +”，把《Pokémon GO》和《宝可梦Sleep》合起来享受。
 - type: heading
   level: 2
@@ -522,7 +522,7 @@ parallel_items:
   translation: 最后，请对读者各位各说一句话。
 - original: 睡眠の世界的権威を持つ教授に教わりながらゲームを作るという経験は純粋におもしろかったです。睡眠に関する部分もかなりこだわって作っていますので、これまでになかったポケモンと睡眠のコラボレーションをぜひ楽しんでください。
   role: answer
-  speaker: 寺田佑貴
+  speaker: 寺田佑贵
   translation: 在世界级睡眠权威教授的指导下制作游戏，这种经验纯粹很有趣。与睡眠相关的部分我们也相当讲究地制作了，请务必享受至今未曾有过的宝可梦与睡眠的结合。
 - original: どんなに熱心なポケモンファンの方であっても、ポケモンの寝顔にすごく詳しいという方は少ないと思います。『ポケモンスリープ』でたくさんの寝顔に出会って、詳しくなってもらえたらうれしいです。
   role: answer

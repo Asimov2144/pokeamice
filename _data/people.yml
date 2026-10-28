@@ -279,6 +279,10 @@
   - image: /assets/img/people/ichinose-go-2012.jpg
     year: 2012
     source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/ichinose-go-2013.jpg
+    year: 2013
+    source: ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲一之瀬剛氏）
+    post: 2013-08-14-interview-famitsu-2013-solitiba
   - image: /assets/img/people/ichinose-go-2014.jpg
     year: 2014
     source: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras · 特别篇：祝贺荣获日本游戏大赏 2014 特别奖！一之濑刚访谈《纸牌跑马》
@@ -855,6 +859,10 @@
   aliases:
   - 小幡敏宏
   portraits:
+  - image: /assets/img/people/obata-toshihiro-2013.jpg
+    year: 2013
+    source: ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲小幡敏宏氏）
+    post: 2013-08-14-interview-famitsu-2013-solitiba
   - image: /assets/img/people/obata-toshihiro-2026.jpg
     year: 2026
     source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）
@@ -981,6 +989,13 @@
   aliases:
   - 田谷正夫
   credits_key: masao taya
+  portraits:
+  - image: /assets/img/people/taya-masao-2013.jpg
+    year: 2013
+    source: ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲田谷正夫氏）
+    post: 2013-08-14-interview-famitsu-2013-solitiba
+  avatar: /assets/img/people/taya-masao.jpg
+  avatar_source: ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲田谷正夫氏）
 - name: M.I.
   slug: m-i
 - name: A.I.
@@ -1669,6 +1684,8 @@
   avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
 - name: 寺田佑贵
   slug: si-tian-you-gui
+  aliases:
+  - 寺田佑貴
 - name: T.T.
   slug: t-t
 - name: 古谷翔
@@ -5436,3 +5453,25 @@
   aliases:
   - 斋藤精一
   - 齋藤 精一
+- name: 佐々木悠
+  slug: zuo-mu-you
+- name: 津田明子
+  slug: jin-tian-ming-zi
+- name: 藤本海右
+  slug: teng-ben-hai-you
+- name: 中畑虎也
+  slug: zhong-tian-hu-ye
+- name: 塚田拓実
+  slug: zhong-tian-tuo-shi
+- name: 宮川佳祐
+  slug: gong-chuan-jia-you
+- name: 首藤まり江
+  slug: shou-teng-jiang
+- name: Chris Brown
+  slug: chris-brown
+- name: Ayase
+  slug: ayase
+- name: ikura
+  slug: ikura
+- name: 武田绫乃
+  slug: wu-tian-ling-nai

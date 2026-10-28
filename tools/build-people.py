@@ -376,6 +376,10 @@ PORTRAITS = [
     dict(name="栃木遥", year=2021, main=True, src=_IA + "2021-gamefreak-crosstalk-designer/member-ht.jpg", box=(100, 20, 350, 350), source="GAME FREAK 採用 Crosstalk「デザイナー対談」2021 member-ht", post="2021-12-27-interview-gamefreak-crosstalk-designer"),
     dict(name="武上纯希", main=True, src="https://lain.bgm.tv/pic/crt/l/f7/77/294_prsn_oZe70.jpg", source="Bangumi 番组计划 person/294"),
     dict(name="远藤雅伸", main=True, src="https://unavatar.io/x/evezoo", source="X @evezoo プロフィール写真（2026-09 取得）"),
+    # Fami通.com 2013-08-14 『ソリティ馬』の開発者に聞く！: a single portrait of each of the three, every one named by the page's own caption (▲…氏)
+    dict(name="一之濑刚", year=2013, src=_IA + "2013-08-14-interview-famitsu-2013-solitiba/006.jpg", source="ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲一之瀬剛氏）", post="2013-08-14-interview-famitsu-2013-solitiba"),
+    dict(name="小幡敏宏", year=2013, src=_IA + "2013-08-14-interview-famitsu-2013-solitiba/009.jpg", source="ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲小幡敏宏氏）", post="2013-08-14-interview-famitsu-2013-solitiba"),
+    dict(name="田谷正夫", year=2013, main=True, src=_IA + "2013-08-14-interview-famitsu-2013-solitiba/003.jpg", source="ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲田谷正夫氏）", post="2013-08-14-interview-famitsu-2013-solitiba"),
     # the wikis - Bulbapedia's staff pages and the Nintendo Wiki on Fandom, when the site has nothing better
     dict(name="海野隆雄", main=True, src="bulba:File:Takao_Unno.png", source="Bulbapedia File:Takao_Unno.png"),
     dict(name="海野隆雄", src="https://static.wikia.nocookie.net/nintendo/images/2/24/Takao_Unno-0.jpg/revision/latest?path-prefix=en", source="Nintendo Wiki (Fandom) File:Takao_Unno-0.jpg"),
