@@ -1,0 +1,221 @@
+{
+ "note": "Fami通.com interviews from the 2026-10-28 walkthrough comparison (design/walkthrough-vs-site-2026-10-28.md), originals taken from the page itself",
+ "targets": [
+  {
+   "key": "famitsu-2013-solitiba",
+   "url": "https://www.famitsu.com/news/201308/14038252.html",
+   "lang": "ja",
+   "date": "2013-08-14",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "田谷": "田谷正夫",
+    "一之瀬": "一之瀬剛",
+    "小幡": "小幡敏宏"
+   },
+   "works": [
+    "ソリティ馬"
+   ],
+   "tags": [
+    "ファミ通",
+    "ソリティ馬",
+    "田谷正夫",
+    "一之瀬剛",
+    "小幡敏宏",
+    "Game Freak"
+   ],
+   "container": "div.article-body",
+   "max_images": 20
+  },
+  {
+   "key": "famitsu-2019-pokemon-masters-sasaki",
+   "url": "https://www.famitsu.com/news/201907/24180135.html",
+   "lang": "ja",
+   "date": "2019-07-24",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "『ポケモンマスターズ』の世界観は？　登場するバディーズは？　ここでしか聞けない、プロデューサー独占インタビュー！",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "佐々木": "佐々木悠"
+   },
+   "works": [
+    "宝可梦大师"
+   ],
+   "tags": [
+    "ファミ通",
+    "宝可梦大师",
+    "佐々木悠",
+    "DeNA"
+   ],
+   "container": "div.article-body"
+  },
+  {
+   "key": "famitsu-2021-pokemon-wonder",
+   "url": "https://www.famitsu.com/news/202107/17227079.html",
+   "lang": "ja",
+   "date": "2021-07-17",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "“ポケモンワンダー”仕掛け人たちに聞く、新機軸の遊び。ポケモン×自然×冒険で得られる体験は人々に何をもたらすのか？",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "津田": "津田明子",
+    "本山": "本山敬一",
+    "藤本": "藤本海右"
+   },
+   "works": [
+    "Pokémon WONDER"
+   ],
+   "tags": [
+    "ファミ通",
+    "Pokémon WONDER",
+    "津田明子",
+    "本山敬一",
+    "藤本海右",
+    "よみうりランド"
+   ],
+   "container": "div.article-body",
+   "max_images": 16
+  },
+  {
+   "key": "famitsu-2023-pokemon-sleep-team",
+   "url": "https://www.famitsu.com/news/202307/21310083.html",
+   "lang": "ja",
+   "date": "2023-07-21",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "『ポケモンスリープ』インタビュー。ゲームとしてのおもしろさを追求しつつ、長時間遊ばせない睡眠計測アプリならではの工夫とは。アニメ『ポケットモンスター』湯山監督など豪華制作協力陣も判明",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "中畑": "中畑虎也",
+    "宮川": "宮川佳祐",
+    "塚田": "塚田拓実",
+    "小杉": "小杉要",
+    "首藤": "首藤まり江",
+    "寺田": "寺田佑貴"
+   },
+   "works": [
+    "Pokémon Sleep"
+   ],
+   "tags": [
+    "ファミ通",
+    "Pokémon Sleep",
+    "中畑虎也",
+    "宮川佳祐",
+    "塚田拓実",
+    "小杉要",
+    "首藤まり江",
+    "寺田佑貴",
+    "SELECT BUTTON"
+   ],
+   "container": "div.article-body"
+  },
+  {
+   "key": "famitsu-2023-wcs-utsunomiya-brown",
+   "url": "https://www.famitsu.com/news/202308/12313160.html",
+   "lang": "ja",
+   "date": "2023-08-12",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "【ポケモンWCS2023】開会式・会場風景リポート／ポケモン・宇都宮崇人氏（COO）＆クリス・ブラウン氏インタビュー 「ポケモンの歴史のひとつを作る存在として、選手の方には全力を尽くしてがんばってほしい」",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "宇都宮": "宇都宫崇人",
+    "クリス": "Chris Brown"
+   },
+   "works": [
+    "宝可梦世界锦标赛"
+   ],
+   "tags": [
+    "ファミ通",
+    "ポケモンWCS2023",
+    "宇都宫崇人",
+    "Chris Brown",
+    "横滨"
+   ],
+   "container": "div.article-body"
+  },
+  {
+   "key": "famitsu-2023-yoasobi-takeda-sv",
+   "url": "https://www.famitsu.com/news/202312/22328364.html",
+   "lang": "ja",
+   "date": "2023-12-22",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "【ポケモンSV】YOASOBI『Biri-Biri』×武田綾乃『きみと雨上がりを』記念対談。『ポケモン S・V』4周目のAyaseさん、武田先生によって描かれた解像度の高いネモについてなど、深い話をお届け",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "Ayase": "Ayase",
+    "ikura": "ikura",
+    "武田": "武田绫乃"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "ファミ通",
+    "YOASOBI",
+    "武田绫乃",
+    "Biri-Biri",
+    "宝可梦 朱·紫"
+   ],
+   "container": "div.article-body"
+  },
+  {
+   "key": "famitsu-2026-champions-hoshino-1",
+   "url": "https://www.famitsu.com/article/202603/69795",
+   "lang": "ja",
+   "date": "2026-03-25",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "『ポケモンチャンピオンズ』プロデューサー星野正昭氏によるインタビュー（Q&A）39問が公開。いちばんの目標は「ポケモンバトルを未来永劫残すこと」",
+   "kind": "interview",
+   "asker": "質問者",
+   "speakers": {
+    "星野": "星野正昭"
+   },
+   "works": [
+    "Pokémon Champions"
+   ],
+   "tags": [
+    "ファミ通",
+    "Pokémon Champions",
+    "星野正昭"
+   ],
+   "qa_prefix": true
+  },
+  {
+   "key": "famitsu-2026-champions-hoshino-2",
+   "url": "https://www.famitsu.com/article/202608/83825",
+   "lang": "ja",
+   "date": "2026-08-20",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "『ポケモンチャンピオンズ』プロデューサー・星野正昭氏インタビュー第2弾。スマホ版リリース後8日で総DL数1000万突破＆“PJCS2026”大成功を振り返り。新レギュレーションで“さまざまな仕掛け”との匂わせ発言も",
+   "kind": "interview",
+   "asker": "質問者",
+   "speakers": {
+    "星野": "星野正昭"
+   },
+   "works": [
+    "Pokémon Champions"
+   ],
+   "tags": [
+    "ファミ通",
+    "Pokémon Champions",
+    "星野正昭",
+    "PJCS 2026"
+   ],
+   "qa_prefix": true
+  }
+ ]
+}

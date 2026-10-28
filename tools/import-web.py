@@ -183,7 +183,11 @@ def parse(html):
     can also lose most of the body, so the plain parser wins when it keeps more."""
     a = BeautifulSoup(html, "lxml")
     b = BeautifulSoup(html, "html.parser")
-    return b if len(b.get_text()) > 1.3 * len(a.get_text()) else a
+    soup = b if len(b.get_text()) > 1.3 * len(a.get_text()) else a
+    # Famitsu sets a speaker's name as <b class="article-interviewee__name"> with the words straight after it
+    for name in soup.select('b[class*="interviewee__name"]'):
+        name.insert_after(NavigableString("："))
+    return soup
 
 
 def strip_noise(soup):
@@ -390,6 +394,8 @@ def extract_blocks(container, join_br=False):
 
 
 # ---------------------------------------------------------------- items
+QA_Q = re.compile(r"^Q[.．:：]\s*")
+QA_A = re.compile(r"^A[.．:：]\s*")
 DASH_Q = re.compile(r"^\s*(?:[―─—–‐－\-]{1,3}|——|――|──)\s*(.+)$")
 JA_NAME = re.compile(r"^\s*([^\s：:　（(]{1,12}?)\s*(?:氏|さん|社長|様|先生)?\s*(?:（[^）]{0,20}）)?\s*[：:]\s*(.+)$")
 JA_QUOTED = re.compile(r"^\s*([^\s：:　（()「」]{1,12}?)\s*(?:氏|さん|社長|様|先生)?\s*「(.+)」\s*$")   # 宇都宮氏「…」: the name, then the whole answer in 「」 (Sankei)
@@ -429,7 +435,12 @@ def to_items(blocks, target, slug, dry):
     wayback = target.get("wayback")
     dest = IMG_DIR / slug
     until = re.compile(target["narrative_until"]) if target.get("narrative_until") else None
+    qa_prefix = target.get("qa_prefix")          # a Q&A list: "Q. ..." as a heading, "A. ..." as the answer under it
     for b in blocks:
+        if qa_prefix and b["t"] == "h" and QA_Q.match(b["x"].strip()):
+            items.append({"original": QA_Q.sub("", b["x"].strip(), count=1), "role": "question", "speaker": target.get("asker") or "", "_explicit": True})
+            last_role, last_speaker, pending, seen_heading = "question", None, None, True
+            continue
         if b["t"] == "h":
             name = b["x"].strip()
             if until and until.search(name):
@@ -494,7 +505,9 @@ def to_items(blocks, target, slug, dry):
                 items[-1]["role"], items[-1]["speaker"] = "question", target.get("asker") or ""
             continue
         role, speaker, body = None, None, text
-        if pending:
+        if qa_prefix and solo and QA_A.match(text):
+            role, speaker, body = "answer", solo, QA_A.sub("", text, count=1)
+        elif pending:
             role, speaker = pending
             pending = None
         elif target.get("all_answers_by") and seen_heading:
