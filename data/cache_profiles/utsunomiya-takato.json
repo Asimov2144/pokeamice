@@ -1,13 +1,13 @@
 {
- "key": "e8c8089407a3c8ea",
+ "key": "6cbd4322595db215",
  "answer": {
-  "summary": "宇都宫崇人在株式会社宝可梦负责游戏开发相关的整体工作，并以制作人身份参与多个项目，从《宝可梦+信长的野望》起担任总监/制作人。他促成与万代南梦宫就《宝可梦 铁拳锦标赛》的沟通，并参与组建由爱好与工作互换的成员构成的团队 [1]。他参与《Pokémon GO》的日美合作，认为该项目源于愚人节企划，并称岩田聪在背后的支持对项目成真起了很大作用 [2][3]。他重视让宝可梦长久传承给下一代，主张保持对年轻孩子的吸引力，并持续关注社区反馈 [5]。他还从《Ingress》线下活动结识人才，推动与SELECT BUTTON合作开发《Pokémon Sleep》等作品 [6]。",
+  "summary": "宇都宫崇人在宝可梦公司负责游戏开发相关的整体工作，并以总监/制作人身份参与多部作品，2012年《宝可梦+信长的野望》起任总监/制作人。他参与促成与万代南梦宫就《宝可梦 铁拳锦标赛》的沟通，并以制作人身份加入该项目[1]。在《Pokémon GO》项目中，他参与日美协同推进，并称岩田聪在背后的支持对项目成局起了很大作用[2][3]。他重视让宝可梦长久传承给下一代，认为电子游戏是品牌核心，并关注社区反馈与年轻用户的吸引力[6]。在《Pokémon Sleep》等项目上，他主动接触外部小型开发团队并推动合作[7]。",
   "expertise": [
    "游戏开发统筹",
    "制作人",
-   "跨公司合作",
-   "品牌传承",
-   "外部团队协作"
+   "跨公司协作",
+   "品牌运营",
+   "外部团队合作"
   ],
   "citations": [
    {
@@ -16,19 +16,27 @@
    },
    {
     "n": 2,
-    "detail": "他称《Pokémon GO》项目始于与谷歌的合同谈判，源头是愚人节企划。"
+    "detail": "他称若任天堂社长不是岩田聪，项目大概不会有今天的样子。"
    },
    {
     "n": 3,
-    "detail": "他表示石原等人几乎当即决定推进《Pokémon GO》，岩田聪在背后推动。"
+    "detail": "他称石原等人在Niantic独立时几乎当即决定继续推进《Pokémon GO》。"
+   },
+   {
+    "n": 4,
+    "detail": "他称咨询公司经历帮助他迅速把握宝可梦多种业务形态的关键。"
    },
    {
     "n": 5,
-    "detail": "他强调保持对年轻孩子的吸引力，并称电子游戏是品牌核心。"
+    "detail": "他2010年首次在夏威夷观看宝可梦大会，此后一直想在日本举办WCS。"
    },
    {
     "n": 6,
-    "detail": "他回忆2014年在《Ingress》活动结识小川慧，后经其介绍接触SELECT BUTTON三人组。"
+    "detail": "他表示游戏是品牌核心，并称会持续关注社区反馈与年轻用户。"
+   },
+   {
+    "n": 7,
+    "detail": "他因线下活动结识小川慧，并经介绍与SELECT BUTTON三人合作。"
    }
   ]
  },
@@ -37,6 +45,7 @@
   "2016-08-25-interview-nikkei-utsunomiya-pokemon-go",
   "2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima",
   "2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto",
+  "2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown",
   "2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years",
   "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata"
  ]

@@ -522,9 +522,9 @@
   slug: ichinose-go
   kind: person
   interviews:
-    entries: 14
-    spoken_in: 12
-    columns: 1
+    entries: 15
+    spoken_in: 13
+    columns: 4
     first: '2000'
     last: '2023'
   credits:
@@ -543,86 +543,49 @@
       games: 1
     - cat: 特别感谢
       games: 1
-  summary: 一之濑刚是 GAME FREAK 的声音工程师，自《宝可梦 金·银》起参与系列音乐制作，负责作曲、编曲与音效设计 [2][3]。他参与《心金·魂银》时更换音源、提升采样率，并加入环境音 [2]；在《黑／白》中与团队研究世界音乐以配合合众地区 [4]。他重视在保留原曲旋律与氛围的同时进行改编，也参与环境叫声等音响设计 [2][11]。此外，他发起《宝可骑行》企划并负责游戏内音效 [10]。
+  summary: 一之濑刚是GAME FREAK的声音工程师，自《宝可梦 金·银》起参与系列音乐制作，负责作曲、编曲与整体音效 [2][10]。他参与确立各地区音乐理念，如神奥地区的成熟酷感、城都地区的和风意象，并推动环境音与互动音乐的引入 [2][5]。在《黑2・白2》中，他提议并重新编曲历代战斗曲，用于宝可梦世界锦标赛设施 [6]。他也发起《宝可骑行》企划，并负责游戏内整体音效 [7][10]。据2023年报道，他在CEDEC讲解《宝可梦》世界环境叫声与环境音的制作与效率化 [11]。
   citations:
-  - n: 1
-    post: 2000-07-01-interview-nintendopower-gold-silver-roundtable
-    title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
-    date: '2000-07-01'
-    publication: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)
-    detail: 称《金·银》是自己参与制作的第一款宝可梦游戏，需忠实原版氛围并创新。
   - n: 2
     post: 2009-09-21-scan-ndream-2009-11-hgss-developer-interview
     title: Nintendo DREAM 2009：心金·魂银 GAME FREAK 特别访谈
     date: '2009-09-21'
     publication: Nintendo DREAM
-    detail: 说明《心金·魂银》更换音源、提高采样率，并加入海浪等环境音。
-  - n: 3
-    post: 2010-08-04-interview-cd-anime-ost-miyazaki-soundteam
-    title: 动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂
-    date: '2010-08-04'
-    publication: Shinji Miyazaki × Game Freak Sound Team “Talk about Pokémon Music”
-    detail: 回忆幼时学钢琴、喜欢肖邦，进 GAME FREAK 本为考证却做起音乐。
-  - n: 4
-    post: 2010-10-20-interview-bw-music-collection-liner-notes
-    title: 《宝可梦 黑／白 超级音乐集》官方原声带 Liner Notes 专访：增田顺一、景山将太、一之濑刚、佐藤仁美与足立美奈子详谈合众动态音效与世界音乐构建
-    date: '2010-10-20'
-    publication: 『ポケットモンスターブラック・ホワイト スーパーミュージックコレクション』CDブックレット
-    detail: 称《黑白》音乐方向是吸收世界音乐，并提到新成员足立加入。
+    detail: 谈《心金·魂银》更换音源、提高采样率，并重新编曲关都道馆馆主曲
   - n: 5
     post: 2012-07-21-scan-ndream-2012-09-b2w2-developer-interview
     title: Nintendo DREAM 2012：《宝可梦 黑2・白2》GAME FREAK开发访谈
     date: '2012-07-21'
     publication: Nintendo DREAM
-    detail: 负责酋雷姆叫声，因设定不完整而重做，使其偏弱。
+    detail: 负责酋雷姆叫声，因设定要求重做为偏弱版本
   - n: 6
     post: 2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets
     title: Nintendo DREAM 2012：黑2白2庆典任务与宝可坞开发秘闻
     date: '2012-08-21'
     publication: Nintendo DREAM
-    detail: 提议制作 PWT 设施，结果自己承担历代战斗曲重新编曲。
+    detail: 提议WCS优胜者登场设施，并重新编曲历代战斗曲
   - n: 7
-    post: 2012-08-21-scan-ndream-2012-10-pokemon-music-interview
-    title: Nintendo DREAM 2012：宝可梦音乐访谈 一之濑刚、佐藤仁美、增田顺一
-    date: '2012-08-21'
-    publication: Nintendo DREAM
-    detail: 为阿克罗玛战斗曲加入电子音，为魁奇思曲子加入杖敲击音效。
-  - n: 8
-    post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
-    title: 2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》
-    date: '2014-10-31'
-    publication: 2083WEB
-    detail: 认为战斗曲存在感大，若垮掉宝可梦韵味会崩塌。
-  - n: 9
-    post: 2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo
-    title: 电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈
-    date: '2016-02-17'
-    publication: 电ファミニコゲーマー
-    detail: 从社长和杉森处学到 GAME FREAK 主义，曾被社长训三小时。
+    post: 2013-08-14-interview-famitsu-2013-solitiba
+    title: Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌
+    date: '2013-08-14'
+    publication: Fami通.com
+    detail: 从《纸牌高尔夫》获得灵感，发起《纸牌马》企划
   - n: 10
     post: 2016-04-18-interview-denfami-sonobe-gamefreak-morimoto
     title: Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经
     date: '2016-04-18'
     publication: ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛
-    detail: 与田谷等人发起《宝可骑行》企划，并负责游戏内整体音效。
+    detail: 自述为声音工程师，与田谷等发起《宝可骑行》企划并负责音效
   - n: 11
     post: 2023-08-24-interview-famitsu-2023-cedec-sound
     title: Fami通.com 2023：一之濑刚等谈宝可梦环境叫声与环境音的制作
     date: '2023-08-24'
     publication: Fami通.com
-    detail: 据 Fami通报道，其在 CEDEC2023 讲解环境叫声自《红宝石·蓝宝石》引入。
-  - n: 12
-    post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
-    title: '[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎'
-    date: '2023-08-25'
-    publication: 4Gamer.net
-    detail: 据 4Gamer 报道，其在 CEDEC2023 详解《朱·紫》帕底亚生态音响与 PokeSynth。
+    detail: 据Fami通报道，他在CEDEC2023讲解环境叫声与环境音制作
   expertise:
   - 音乐
   - 编曲
-  - 音效设计
+  - 音响设计
   - 环境音
-  - 声音总监
   - 企划
 - name: 佐藤仁美
   slug: sato-hitomi
@@ -2258,10 +2221,10 @@
   slug: obata-toshihiro
   kind: person
   interviews:
-    entries: 3
-    spoken_in: 3
+    entries: 4
+    spoken_in: 4
     columns: 0
-    first: '2026'
+    first: '2013'
     last: '2026'
   credits:
     games: 11
@@ -2275,30 +2238,36 @@
       games: 10
     - cat: 特别感谢
       games: 1
-  summary: 小幡敏宏是 GAME FREAK 研究开发部「宝可梦・战斗系统团队」的程序员，自《宝可梦 黑・白》起参与系列开发，目前跨项目负责战斗逻辑相关数据的维护与开发 [3]。他参与所有宝可梦项目，为对战及宝可梦部分的实现提供支持，致力于保证品质 [1]。他在演讲中把宝可梦对战的特征归纳为设定数据繁多、被动技能与对战中的参数变化三点，并指出这些要素相互组合、相互影响，构成极为复杂的系统 [1]。他认为若每个系列都单独开发这套系统，组合的考量会变得困难，品质也难以保证，因此需要专职团队 [1]。
+  summary: 小幡敏宏以程序身份长期参与《宝可梦》系列开发，目前跨项目负责战斗逻辑相关数据的维护与开发，据4Gamer.net报道他从《宝可梦 黑·白》起参与系列 [4]。他在宝可梦对战系统团队中参与所有宝可梦项目，为对战及宝可梦部分的实现提供支持，以维持庞大设定数据下的品质 [2]。他关注对战系统的复杂性来源，包括数据量、被动技能的递归处理与参数动态变化 [2]。在少数人推进的《纸牌马》项目中，他自认较少参与策划，主要负责把想法落实完成，并为赛马命名查证历代赛马资料 [1]。
   citations:
   - n: 1
+    post: 2013-08-14-interview-famitsu-2013-solitiba
+    title: Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌
+    date: '2013-08-14'
+    publication: Fami通.com
+    detail: 谈《纸牌马》时称自己较少参与策划，为起赛马名查了历代赛马
+  - n: 2
     post: 2026-07-22-interview-cedec-2026-battle-system-deck
     title: CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）
     date: '2026-07-22'
     publication: CEDEC 2026 講演資料
-    detail: 本人撰文称团队参与所有宝可梦项目，为对战及宝可梦部分的实现提供支持。
-  - n: 2
+    detail: 介绍宝可梦对战三大特征：数据量大、被动技能、参数动态变化
+  - n: 3
     post: 2026-07-22-interview-denfami-2026-cedec-battle
     title: 电Fami Nico Gamer（電ファミニコゲーマー） 2026：Game Freak对战专职团队谈宝可梦战斗系统重构
     date: '2026-07-22'
     publication: 电Fami Nico Gamer
-    detail: 据电Fami Nico Gamer报道，他与宗像快在CEDEC2026讲述对战系统基础设计与运用案例。
-  - n: 3
+    detail: 据电Fami Nico Gamer报道，他与宗像快在CEDEC 2026讲述对战系统基础设计
+  - n: 4
     post: 2026-07-28-interview-4gamer-2026-cedec-battle
     title: 4Gamer.net 2026：Game Freak谈宝可梦战斗系统基础设计与Z-A实时制运用
     date: '2026-07-28'
     publication: 4Gamer.net
-    detail: 据4Gamer.net报道，他2009年入职，从《宝可梦 黑・白》起参与系列开发。
+    detail: 据4Gamer.net报道，他2009年入职，现跨项目负责战斗逻辑数据维护与开发
   expertise:
   - 程序
   - 战斗系统
-  - 战斗逻辑
+  - 对战逻辑
   - 数据维护
 - name: 渡边哲也
   slug: watanabe-tetsuya
@@ -2622,8 +2591,8 @@
   slug: taya-masao
   kind: person
   interviews:
-    entries: 3
-    spoken_in: 3
+    entries: 4
+    spoken_in: 4
     columns: 0
     first: '2011'
     last: '2017'
@@ -2639,31 +2608,38 @@
       games: 11
     - cat: 总监/制作人
       games: 1
-  summary: 田谷正夫长期负责宝可梦系列的系统与内部设计，1996年入职后参与《宝可梦 蓝》之后的系列作品[3]。在三打对战与轮转对战的设计中，他关注招式演出能否正常显示、处理速度能否跟上，并参与引入运气要素以让初学者更容易获胜的轮转对战规则[1]。他曾试做重现《德比骏马》最后直道场景的程序，并以此推进《宝可骑行》的企划，认为先把有吸引力的部分做出来并成形是重要的开发思路[2]。在《宝可梦 X·Y》全面3D化、开发规模达到过去最大的背景下，他提议成立研究开发部，并于2015年4月正式启动，口号是“解决‘难做’，实现‘想做细’”[3]。
+  summary: 长期负责宝可梦系列的系统与内部设计，参与《宝可梦 蓝》之后的系列作品，并因《宝可梦 X·Y》全面3D化带来的开发规模问题提议成立研究开发部 [4]。在战斗规则设计上关注招式演出与处理速度，并参与引入运气要素的轮转对战 [1]。通过公司内部企划制度提出《纸牌马》原型，把赛马与卡牌游戏结合，并按试作、审查阶段推进 [2]。担任《宝可骑行》总监，此前曾试做重现赛马直道攻防的程序，作为企划推进的基础 [3]。主张先把有吸引力的部分做出来并成形 [3]，研究开发部则以“解决‘难做’，实现‘想做细’”为口号 [4]。
   citations:
   - n: 1
     post: 2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets
     title: 週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性
     date: '2011-01-20'
     publication: 週刊Fami通 No.1155
-    detail: 谈三打对战开发时留意招式演出显示与处理速度，并参与加入轮转对战。
+    detail: 谈三打对战留意演出显示与处理速度，轮转对战为引入运气要素而加入
   - n: 2
+    post: 2013-08-14-interview-famitsu-2013-solitiba
+    title: Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌
+    date: '2013-08-14'
+    publication: Fami通.com
+    detail: 借“齿轮”制度报名，把赛马与卡牌结合提出《纸牌马》原型
+  - n: 3
     post: 2016-04-18-interview-denfami-sonobe-gamefreak-morimoto
     title: Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经
     date: '2016-04-18'
     publication: ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛
-    detail: 曾任《宝可骑行》总监，此前试做重现《德比骏马》最后直道的程序。
-  - n: 3
+    detail: 任《宝可骑行》总监，此前试做重现赛马直道攻防的程序
+  - n: 4
     post: 2017-06-01-interview-gamefreak-rnd-ta-taya-kk
     title: GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
     date: '2017-03-29'
     publication: Game Freak 採用情報 (Wayback 历史存档)
-    detail: 1996年入职，任研究开发部部长，2015年4月启动该部门。
+    detail: 1996年入职，参与《宝可梦 蓝》之后作品，提议成立研究开发部
   expertise:
   - 程序
   - 系统设计
   - 内部设计
-  - 战斗系统
+  - 战斗规则
+  - 企划提案
   - 研究开发
 - name: M.I.
   slug: m-i
@@ -4064,8 +4040,8 @@
   slug: utsunomiya-takato
   kind: person
   interviews:
-    entries: 6
-    spoken_in: 6
+    entries: 7
+    spoken_in: 7
     columns: 0
     first: '2016'
     last: '2024'
@@ -4083,7 +4059,7 @@
       games: 7
     - cat: 其他
       games: 2
-  summary: 宇都宫崇人在株式会社宝可梦负责游戏开发相关的整体工作，并以制作人身份参与多个项目，从《宝可梦+信长的野望》起担任总监/制作人。他促成与万代南梦宫就《宝可梦 铁拳锦标赛》的沟通，并参与组建由爱好与工作互换的成员构成的团队 [1]。他参与《Pokémon GO》的日美合作，认为该项目源于愚人节企划，并称岩田聪在背后的支持对项目成真起了很大作用 [2][3]。他重视让宝可梦长久传承给下一代，主张保持对年轻孩子的吸引力，并持续关注社区反馈 [5]。他还从《Ingress》线下活动结识人才，推动与SELECT BUTTON合作开发《Pokémon Sleep》等作品 [6]。
+  summary: 宇都宫崇人在宝可梦公司负责游戏开发相关的整体工作，并以总监/制作人身份参与多部作品，2012年《宝可梦+信长的野望》起任总监/制作人。他参与促成与万代南梦宫就《宝可梦 铁拳锦标赛》的沟通，并以制作人身份加入该项目[1]。在《Pokémon GO》项目中，他参与日美协同推进，并称岩田聪在背后的支持对项目成局起了很大作用[2][3]。他重视让宝可梦长久传承给下一代，认为电子游戏是品牌核心，并关注社区反馈与年轻用户的吸引力[6]。在《Pokémon Sleep》等项目上，他主动接触外部小型开发团队并推动合作[7]。
   citations:
   - n: 1
     post: 2016-05-12-interview-inside-pokken-tournament-developers
@@ -4096,31 +4072,43 @@
     title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
     date: '2016-08-25'
     publication: ポケモンGO、爆発力生んだ日米協業の舞台裏
-    detail: 他称《Pokémon GO》项目始于与谷歌的合同谈判，源头是愚人节企划。
+    detail: 他称若任天堂社长不是岩田聪，项目大概不会有今天的样子。
   - n: 3
     post: 2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima
     title: 产经新闻（産経ニュース） 2016：宇都宫崇人与川岛优志谈宝可梦GO开发
     date: '2016-09-09'
     publication: 产经新闻
-    detail: 他表示石原等人几乎当即决定推进《Pokémon GO》，岩田聪在背后推动。
+    detail: 他称石原等人在Niantic独立时几乎当即决定继续推进《Pokémon GO》。
+  - n: 4
+    post: 2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto
+    title: 正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人
+    date: '2018-02-23'
+    publication: NewsPicks
+    detail: 他称咨询公司经历帮助他迅速把握宝可梦多种业务形态的关键。
   - n: 5
+    post: 2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown
+    title: Fami通.com 2023：宝可梦WCS2023开幕式与宇都宫崇人、克丽丝·布朗访谈
+    date: '2023-08-12'
+    publication: Fami通.com
+    detail: 他2010年首次在夏威夷观看宝可梦大会，此后一直想在日本举办WCS。
+  - n: 6
     post: 2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years
     title: '‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon'
     date: '2023-11-20'
     publication: The Guardian
-    detail: 他强调保持对年轻孩子的吸引力，并称电子游戏是品牌核心。
-  - n: 6
+    detail: 他表示游戏是品牌核心，并称会持续关注社区反馈与年轻用户。
+  - n: 7
     post: 2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
     title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及
     date: '2024-11-20'
     publication: ファミ通.com (Famitsu)
-    detail: 他回忆2014年在《Ingress》活动结识小川慧，后经其介绍接触SELECT BUTTON三人组。
+    detail: 他因线下活动结识小川慧，并经介绍与SELECT BUTTON三人合作。
   expertise:
   - 总监/制作人
   - 游戏开发统筹
-  - 跨公司合作
-  - 品牌传承
-  - 外部团队协作
+  - 跨公司协作
+  - 品牌运营
+  - 外部团队合作
 - name: 河本拓
   slug: he-ben-tuo
   kind: person
@@ -4923,37 +4911,43 @@
   slug: si-tian-you-gui
   kind: person
   interviews:
-    entries: 3
-    spoken_in: 3
+    entries: 4
+    spoken_in: 4
     columns: 0
     first: '2017'
     last: '2023'
-  summary: 寺田佑贵在移动应用游戏部门负责已上线游戏的研发迭代与全球营销统筹，并参与新作孵化探索 [3]。他具备电子信息与计算机系统的学术背景，能与开发端工程师用技术语言沟通 [1]。他曾在Pokémon GO推进室工作，后调至商品部负责宝可梦中心·宝可梦商店商品的企划与制作，并提议了「墨绘列传系列」 [2]。他还以兼任形式加入经营企划部数据战略团队，负责数据分析业务 [2][3]。其观点强调通过数据关联挖掘洞见、以全局视角推演企划 [3]。
+  summary: 寺田佑贵在移动应用游戏部门负责已上线游戏的研发迭代与全球营销统筹，并参与新作孵化 [4]。他曾在Pokémon GO推进室工作，后调至商品部负责宝可梦中心与宝可梦商店所售商品的企划与制作，提出「墨绘列传系列」[2]。他具备大学院电子信息与计算机系统的背景，能以技术语言与开发团队沟通 [1]。他还以兼任形式加入经营企划部数据战略团队，从数据关联中提炼洞见并俯瞰整体商业大盘 [4]。在《Pokémon Sleep》相关工作中，他参与说明睡眠类型与属性的对应及「Pokémon GO Plus +」的联动设计 [3]。
   citations:
   - n: 1
     post: 2017-05-10-interview-pokemon-recruit-passion
     title: 宝可梦公司官方专访 青年员工座谈：凝聚无尽可能，我们将改变未来（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
     date: '2017-05-10'
     publication: 株式会社ポケモン 採用情報 Special Interview
-    detail: 大学院攻读电子信息与计算机系统，能与开发端工程师用技术语言沟通。
+    detail: 称凭大学院电子信息与计算机系统背景，用工程师语言与开发团队沟通
   - n: 2
     post: 2022-04-10-interview-pokemon-recruit-growth
     title: 宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）
     date: '2022-04-10'
     publication: 株式会社ポケモン 採用情報 Special Interview
-    detail: 从Pokémon GO推进室调至商品部，提议「墨绘列传系列」。
+    detail: 提出以帅气沉稳为表现的「墨绘列传系列」并获批准
   - n: 3
+    post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+    title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+    date: '2023-07-21'
+    publication: Fami通.com
+    detail: 说明火属性对应安睡类型、冰属性对应熟睡类型的设定
+  - n: 4
     post: 2023-09-10-interview-pokemon-recruit-data
     title: 宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）
     date: '2023-09-10'
     publication: 株式会社ポケモン 採用情報 Special Interview
-    detail: 任职移动应用游戏部门，兼任经营企划部数据战略团队。
+    detail: 以兼任形式加入经营企划部数据战略团队
   expertise:
   - 应用研发推进
-  - 全球营销宣发
-  - 商品企划制作
-  - 数据分析
+  - 商品企划
+  - 数据战略
   - 跨部门协同
+  - 技术沟通
 - name: T.T.
   slug: t-t
   kind: person
@@ -5462,25 +5456,31 @@
   slug: xiao-shan-yao
   kind: person
   interviews:
-    entries: 1
-    spoken_in: 1
+    entries: 2
+    spoken_in: 2
     columns: 0
     first: '2016'
-    last: '2016'
-  summary: 小杉要在经营统括部门任职，负责全社战略经营计划与年度预算的推演编制、月度预算执行与实际业绩的差异复盘分析、海外跨国关联子公司的经营管控，以及全社最高决策层经营会议的组织统筹 [1]。他推进重大经营提案时，要求从推动公司基业与各项事业长效跃迁等宏观全局视角进行论证 [1]。其工作方法包括穿透并协调各业务部门以催生协同效应，以及主动洞察深层课题、拉起跨界专项团队推进项目 [1]。他自述从初代《宝可梦 红／绿》起就是玩家，并关注宝可梦作为跨文化内容被广泛世代人群游玩 [1]。他还提到要立足当下夯实基本盘、吃透现代企业经营管理实务，并进阶跨国知识产权法律层面的知识 [1]。
+    last: '2023'
+  summary: 小杉要长期从事全社战略经营计划与年度预算的编制、月度预算执行与业绩差异分析、海外关联子公司经营管控及最高经营会议统筹等经营管理工作 [1]。他主张在经营提案中从推动公司基业与事业长效发展的宏观全局视角进行论证，并重视跨部门协同与跨界专项攻坚 [1]。在游戏项目方面，他基于对睡眠计测技术的了解发起并推进了《Pokémon Sleep》的制作，将睡眠娱乐化、可视化作为核心思路 [2]。他选择与曾开发《跳跃吧！鲤鱼王》的团队合作，看重其对宝可梦的理解以及反复游玩型玩法与每日睡眠记录的相配性 [2]。
   citations:
   - n: 1
     post: 2016-01-10-interview-pokemon-recruit-staff-kosugi
     title: 宝可梦公司官方员工特写04 小杉要：集团统括部——传统与革新并行，维系长盛不衰的经营中枢
     date: '2016-01-10'
     publication: 株式会社ポケモン 採用情報 Pokémon Business Professionals
-    detail: 自述从初代《宝可梦 红／绿》起就是玩家，因深爱宝可梦而决定入职。
+    detail: 称其所在经营统括部门仅部长与他两人，负责全社战略经营计划与预算等
+  - n: 2
+    post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+    title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+    date: '2023-07-21'
+    publication: Fami通.com
+    detail: 称约5年半前了解到睡眠计测技术，并由此开始制作《Pokémon Sleep》
   expertise:
   - 经营企划
   - 预算管理
   - 子公司管控
-  - 经营会议
-  - 跨部门协同
+  - 跨界协同
+  - 项目统筹
 - name: 吉原有香
   slug: ji-yuan-you-xiang
   kind: person
@@ -17104,11 +17104,11 @@
   slug: hoshino-masaaki
   kind: staff
   interviews:
-    entries: 1
-    spoken_in: 1
+    entries: 3
+    spoken_in: 3
     columns: 0
     first: '2015'
-    last: '2015'
+    last: '2026'
   credits:
     games: 4
     core_games: 1
@@ -17124,20 +17124,32 @@
       games: 1
     - cat: 特别感谢
       games: 1
-  summary: 星野正昭参与格斗游戏与宝可梦联动作品的开发，在《宝可拳》项目中负责让不擅长动作游戏的宝可梦粉丝也能上手的机制设计[1]。他关注对战公平性，采用按等级相近匹配的方式，并借 BANA Passport 联动成长要素扩展支援宝可梦组合与战略深度[1]。在操作方式上，他依据现场测试反馈判断手柄更适合宝可梦粉丝[1]。他还提到开发团队中有不少具备格斗游戏制作经验的人员，并引入《灵魂能力》系列工作人员参与调整[1]。
+  summary: 星野正昭长期参与格斗游戏与宝可梦对战类作品的开发，在《宝可拳 POKKÉN TOURNAMENT DX》中担任部门总监，负责技术方向。他关注降低动作游戏与对战玩法的入门门槛，例如让不擅长动作游戏的宝可梦粉丝也能上手，并通过匹配与成长要素的设计兼顾公平性 [1]。在《Pokémon Champions》中，他以制作人身份提出让宝可梦对战永远留存的目标，把系列以往对战内容集大成地呈现 [2]。他重视跨平台发布节奏，认为手机版与 Switch 版发售间隔过大会形成先行有利的壁垒，并以《宝可梦大集结》的经验作为参照 [3]。他也注意削减培养成本、明确说明文字，同时不失去对战深度 [2]。
   citations:
   - n: 1
     post: 2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino
     title: 4Gamer.net 2015：宝可拳试玩与原田胜弘、星野正昭访谈
     date: '2015-02-16'
     publication: 4Gamer.net
-    detail: 谈宝可拳概念是让喜欢宝可梦但不擅长动作游戏的人也能玩，并称现场测试反馈手柄容易上手。
+    detail: 谈宝可拳概念是让喜欢宝可梦但不擅长动作游戏的人也能玩，并说明等级相近匹配。
+  - n: 2
+    post: 2026-03-25-interview-famitsu-2026-champions-hoshino-1
+    title: Fami通.com 2026：制作人星野正昭谈《Pokémon Champions》39问，目标让宝可梦对战永远留存
+    date: '2026-03-25'
+    publication: Fami通.com
+    detail: 提出让宝可梦对战永远留存，称本作是系列以往内容的集大成之作。
+  - n: 3
+    post: 2026-08-20-interview-famitsu-2026-champions-hoshino-2
+    title: Fami通.com 2026：星野正昭谈《Pokémon Champions》手机版与PJCS2026
+    date: '2026-08-20'
+    publication: Fami通.com
+    detail: 称最重视手机版与 Switch 版发售间隔，参照大集结约两个月的节奏。
   expertise:
-  - 战斗系统
-  - 对战匹配
-  - 成长要素
-  - 操作适配
+  - 对战设计
   - 格斗游戏
+  - 跨平台发行
+  - 入门门槛
+  - 技术统筹
 - name: Masahiko Ota
   slug: oota-masahiko
   kind: staff
@@ -18671,25 +18683,31 @@
   slug: motoyama-keiichi
   kind: person
   interviews:
-    entries: 1
-    spoken_in: 1
+    entries: 2
+    spoken_in: 2
     columns: 0
-    first: '2026'
+    first: '2021'
     last: '2026'
-  summary: 本山敬一以执行创意总监身份参与《宝可乐园 关东》的体验设计对谈，讨论范围涉及互动、影像、数字、活动、现场演出与常设设施等多种媒介与规模 [1]。其经手作品涵盖广告、电视节目开场与本地地图等不同类型 [1]。主要客户包括 Google、Pokémon、Aniplex、SQUARE ENIX、PlayStation、Netflix、BEAMS，并在国内外获奖 [1]。2023 年担任戛纳国际创意节游戏类评审 [1]。
+  summary: 本山敬一参与策划以“惊奇之心”为主题的宝可梦体验项目，主张让宝可梦像自然的一部分那样融入森林场景，而非单纯藏匿玩偶或手办 [1]。他重视通过试作品与儿童试玩反复验证，逐步确立让宝可梦自然融入及玩家寻找宝可梦的方法 [1]。在谜题设计上，他记录了围绕“观察自然即可明白”的方向与解谜取向之间的讨论，并将其视为项目的转折点 [1]。他还参与整体体验流程与基本游戏循环的构建，并组织每周会议汇集超过登场数量的宝可梦点子 [1]。据虎之门广告祭2026的节目介绍，他作为执行创意总监SIX参与该场实录对谈 [2]。
   citations:
   - n: 1
+    post: 2021-07-17-interview-famitsu-2021-pokemon-wonder
+    title: Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法
+    date: '2021-07-17'
+    publication: Fami通.com
+    detail: 谈以“惊奇之心”为主题，主张宝可梦像自然一部分般融入森林，并组织每周会议汇集点子。
+  - n: 2
     post: 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
     title: 虎之门广告祭 2026：实录《宝可乐园 关东》的体验设计（鹿濑岛英介 × 大野达也 × SIX）
     date: '2026-10-12'
     publication: 虎ノ門広告祭 2026 官方网站 节目介绍
-    detail: 以执行创意总监身份参与《宝可乐园 关东》体验设计对谈，讨论互动到常设设施。
+    detail: 据节目介绍，他以执行创意总监SIX身份参与《宝可乐园 关东》体验设计实录对谈。
   expertise:
-  - 体验设计
-  - 创意指导
-  - 互动设计
-  - 跨媒介制作
-  - 活动策划
+  - 体验策划
+  - 自然融合设计
+  - 试玩验证
+  - 谜题设计
+  - 游戏循环
 - name: 齋藤精一
   slug: saito-seiichi
   kind: person
@@ -18711,3 +18729,249 @@
   - 座谈提问
   - 复兴议题
   - 入境旅游
+- name: 佐々木悠
+  slug: zuo-mu-you
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2019'
+    last: '2019'
+  summary: 佐々木悠在《宝可梦大师》项目中担任制作人，负责统筹以宝可梦训练家为核心的新作开发。[1]他说明该项目由杉森先生提出“让历代训练家活跃”的构想而启动，主视觉图也由杉森全新绘制。[1]在玩法上，他主导采用3对3实时对战，理由是让玩家用各种拍档组合轻松享受，并保留宝可梦对战的战略性。[1]他强调面向智能手机用户层优化，重视当场选择招式的轻松感而非逐一深思熟虑。[1]他表示公开信息只是极小一部分，会继续推进开发以回应粉丝期待。[1]
+  citations:
+  - n: 1
+    post: 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki
+    title: Fami通.com 2019：宝可梦大师制作人佐佐木悠谈世界观与拍档组合
+    date: '2019-07-24'
+    publication: Fami通.com
+    detail: 说明项目源于杉森先生提出让历代训练家活跃的构想，主视觉由其绘制。
+  expertise:
+  - 项目统筹
+  - 实时对战
+  - 世界观
+  - 用户层适配
+- name: 津田明子
+  slug: jin-tian-ming-zi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2021'
+    last: '2021'
+  summary: 津田明子是「宝可梦WONDER」的策划者，专长在于把宝可梦与户外自然体验结合，设计让参与者在自然中寻找宝可梦的游玩方式[1]。她以「惊奇之感」×宝可梦为主题，出发点是想让大家通过宝可梦感受与自然接触的喜悦[1]。在企划中她主导引入解谜元素，并邀请RIDDLER协助，看重对方对宝可梦的理解与热情[1]。她重视在自然中表现宝可梦的平衡，认为宝可梦太显眼就无法成立为寻找宝可梦的游玩，过于融入自然又会找不到[1]。
+  citations:
+  - n: 1
+    post: 2021-07-17-interview-famitsu-2021-pokemon-wonder
+    title: Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法
+    date: '2021-07-17'
+    publication: Fami通.com
+    detail: 说明「宝可梦WONDER」以惊奇之感×宝可梦为主题，并请RIDDLER协助加入解谜元素。
+  expertise:
+  - 企划策划
+  - 户外活动
+  - 自然体验
+  - 解谜玩法
+  - 跨方协作
+- name: 藤本海右
+  slug: teng-ben-hai-you
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2021'
+    last: '2021'
+  summary: 藤本海右在《宝可梦WONDER》中负责策划，核心思路是让玩家在广阔自然中凭直觉寻找宝可梦，而非面对纸笔解谜[1]。他把这一体验归结为“调查队的线索”形式，并围绕调查队为何没能找到宝可梦来推敲线索内容[1]。他重视试玩反馈，例如根据反馈加入发放工作手套，让大人也能毫不犹豫地接触自然[1]。他强调以“Sense of Wonder”为旗号，引导玩家直接把手伸进自然里寻找[1]。
+  citations:
+  - n: 1
+    post: 2021-07-17-interview-famitsu-2021-pokemon-wonder
+    title: Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法
+    date: '2021-07-17'
+    publication: Fami通.com
+    detail: 他说明根据试玩反馈加入发放工作手套，让大人也能毫不犹豫地感受自然。
+  expertise:
+  - 玩法策划
+  - 谜题设计
+  - 线索设计
+  - 体验设计
+- name: 中畑虎也
+  slug: zhong-tian-hu-ye
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 中畑虎也在《Pokémon Sleep》开发中负责统筹睡眠测量工具与游戏性之间的平衡，提出有意设置“收手的时机”，把让用户热衷的要素集中在起床时段 [1]。他关注睡眠习惯与社会性时差问题，将每周重置的游戏周期与周一早上的睡眠节奏评价相结合，使规律睡眠获得更高评价与报酬 [1]。在开发管理上，他说明发售推迟的原因包括与“Pokémon GO Plus +”同步对应、全球同步发布，以及上述平衡调整所耗费的劳力 [1]。他主张睡眠测量需长期持续才有价值，并希望玩家在白天无事可做时去玩其他游戏 [1]。
+  citations:
+  - n: 1
+    post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+    title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+    date: '2023-07-21'
+    publication: Fami通.com
+    detail: 说明发售推迟的三个原因，包括与“Pokémon GO Plus +”同步对应及全球同步发布。
+  expertise:
+  - 睡眠测量
+  - 游戏平衡
+  - 周期评价
+  - 全球同步
+  - 长期目标
+- name: 塚田拓実
+  slug: zhong-tian-tuo-shi
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 塚田拓実在《Pokémon Sleep》开发中负责2D动画制作，采用在自动补间基础上逐帧手动调整的方式，追求没有既视感的画面 [1]。他为每个睡姿加入揉眼、打哈欠等小动作，并参与昼夜表现与Unity 2D光照功能的试错和实装 [1]。在演出层面，他根据试作阶段反馈调整动画速度、加入一键跳过与“稍后查看功能”，以减轻早晨游玩负担 [1]。他还参与UI风格在睡眠测量工具与游戏之间的平衡取舍 [1]。
+  citations:
+  - n: 1
+    post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+    title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+    date: '2023-07-21'
+    publication: Fami通.com
+    detail: 以定格动画感觉逐帧手动调整睡姿动画，并为每个睡姿加小动作。
+  expertise:
+  - 2D动画
+  - 逐帧调整
+  - 演出节奏
+  - UI平衡
+  - 光照表现
+- name: 宮川佳祐
+  slug: gong-chuan-jia-you
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 宮川佳祐参与《Pokémon Sleep》开发，经手设备与游戏同步推出的工作，并处理由此产生的故障与功能追加需求 [1]。他重视逐一梳理使用模式并反复验证实现，在测试中尽量让参与者真实入睡以发现预想不到的情况 [1]。他参与睡眠测量与评价机制的相关工作，说明系统利用智能手机加速度传感器检测身体活动，并在积累数据后改为与自身过去睡眠对比 [1]。他关注维护期间仍能测量睡眠等使用场景，并希望玩家通过连续一周拿100分的玩法感受睡眠的重要性 [1]。
+  citations:
+  - n: 1
+    post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+    title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+    date: '2023-07-21'
+    publication: Fami通.com
+    detail: 表示同时推出设备与游戏是第一次经历，曾请对方为“Pokémon GO Plus +”追加功能。
+  expertise:
+  - 设备联动
+  - 功能验证
+  - 睡眠测量
+  - 测试设计
+  - 使用场景梳理
+- name: 首藤まり江
+  slug: shou-teng-jiang
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 首藤まり江在《Pokémon Sleep》中负责「宝可梦睡脸图鉴」的内容策划，将其定位为重新调查并记录此前未解明的宝可梦睡眠生态 [1]。她注重与既有「宝可梦图鉴」记载保持一致，为此请相关方进行扎实监修以避免矛盾 [1]。在睡脸分类上，她表示基本按属性决定，但也设有例外，并认为例外理由能让宝可梦粉丝接受 [1]。动画演出方面，她与汤山邦彦导演、富安大贵导演及多家动画制作公司的动画师、插画师协作，讲究动作细节的可爱表现 [1]。她还说明游戏无法刻意刷出特定睡眠类型，付费与否都不改变睡好觉最重要这一设计 [1]。
+  citations:
+  - n: 1
+    post: 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+    title: Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发
+    date: '2023-07-21'
+    publication: Fami通.com
+    detail: 她称睡脸图鉴重新调查未解明的睡眠生态，并请相关方监修以避免与既有图鉴矛盾。
+  expertise:
+  - 图鉴内容策划
+  - 睡眠生态设定
+  - 文本制作
+  - 监修协调
+  - 动画演出协作
+- name: Chris Brown
+  slug: chris-brown
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: Chris Brown 参与宝可梦世界大赛的举办工作，关注在日本举办赛事时与当地文化、场地和设施的衔接 [1]。他重视活动作为株式会社宝可梦与 The Pokémon Company International 合作的纽带作用 [1]。在组织层面，他关注在物理空间有限的情况下为粉丝创造愉快交流的场所，并思考粉丝以何种方式参与 [1]。对参赛选手，他强调享受比赛、通过对战结交朋友与交流 [1]。
+  citations:
+  - n: 1
+    post: 2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown
+    title: Fami通.com 2023：宝可梦WCS2023开幕式与宇都宫崇人、克丽丝·布朗访谈
+    date: '2023-08-12'
+    publication: Fami通.com
+    detail: 提到世界大赛有1000名以上工作人员参与，并称在日本举办是长期考虑
+  expertise:
+  - 赛事举办
+  - 活动策划
+  - 粉丝参与
+  - 国际合作
+- name: Ayase
+  slug: ayase
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: Ayase以作曲者身份参与宝可梦相关音乐企划，在接到委托前已在“Pokémon Game Sound Library”上大量收听BGM [1]。他作曲基本从零开始，此次为致敬而自行扒谱并编曲《战斗（VS训练家）》（《宝可梦 红·绿》），称这样的尝试还是第一次 [1]。作为玩家，他除《宝可梦 X·Y》外玩过其他系列作品，并深度投入《宝可梦传说 阿尔宙斯》 [1]。他对《宝可梦 红宝石·蓝宝石·绿宝石》感情最深，最喜欢的宝可梦是梦幻 [1]。
+  citations:
+  - n: 1
+    post: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+    title: Fami通.com 2023：YOASOBI《Biri-Biri》×武田绫乃《与你雨后初晴》对谈
+    date: '2023-12-22'
+    publication: Fami通.com
+    detail: 称自行扒谱并编曲《战斗（VS训练家）》作为致敬，此类尝试为首次。
+  expertise:
+  - 音乐作曲
+  - 编曲
+  - BGM赏析
+  - 系列玩家
+- name: ikura
+  slug: ikura
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: ikura 以歌手身份参与《宝可梦 朱·紫》相关歌曲《Biri-Biri》的创作，发言中说明自己此前首次游玩《宝可梦》系列，并玩过《宝可梦巡护员》[1]。她阅读合作小说时关注游戏正篇未描绘的妮莫视角与对战场景的生动感，认为做成歌时不能漏掉这种跃动感[1]。她也提到对战认真决胜负与一起冒险的轻快感、兴奋感，并将其纳入歌曲表达[1]。
+  citations:
+  - n: 1
+    post: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+    title: Fami通.com 2023：YOASOBI《Biri-Biri》×武田绫乃《与你雨后初晴》对谈
+    date: '2023-12-22'
+    publication: Fami通.com
+    detail: 称首次游玩《宝可梦》系列，玩得最多的是《宝可梦巡护员》，并参与《Biri-Biri》相关对谈。
+  expertise:
+  - 歌曲演唱
+  - 歌词表达
+  - 游戏体验
+- name: 武田绫乃
+  slug: wu-tian-ling-nai
+  kind: person
+  interviews:
+    entries: 1
+    spoken_in: 1
+    columns: 0
+    first: '2023'
+    last: '2023'
+  summary: 武田绫乃以小说作者身份参与宝可梦相关创作，为以《宝可梦 朱·紫》中妮莫为题材的小说执笔，并据此参与YOASOBI歌曲《Biri-Biri》的原作联动 [1]。她写作时注重再现“在宝可梦世界里的体验”，把游戏里较少描写的一般人与宝可梦的生活、气味和触感融入文体 [1]。为塑造妮莫，她依据GAME FREAK与株式会社宝可梦的监修信息，在宝可梦对战要素之外补充人物形象 [1]。她本人有《宝可梦 金·银》《宝可梦 红宝石·蓝宝石》等游玩经历 [1]。
+  citations:
+  - n: 1
+    post: 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+    title: Fami通.com 2023：YOASOBI《Biri-Biri》×武田绫乃《与你雨后初晴》对谈
+    date: '2023-12-22'
+    publication: Fami通.com
+    detail: 为写妮莫研究游戏，称监修方提供许多未知信息
+  expertise:
+  - 小说执笔
+  - 角色塑造
+  - 世界观描写
+  - 文体与语感
