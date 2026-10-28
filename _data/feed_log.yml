@@ -1,4 +1,25 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-10-28'
+  count: 8
+  types:
+    访谈翻译: 8
+  posts:
+  - 2026-08-20-interview-famitsu-2026-champions-hoshino-2
+  - 2026-03-25-interview-famitsu-2026-champions-hoshino-1
+  - 2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv
+  - 2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown
+  - 2023-07-21-interview-famitsu-2023-pokemon-sleep-team
+  - 2021-07-17-interview-famitsu-2021-pokemon-wonder
+  - 2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki
+  - 2013-08-14-interview-famitsu-2013-solitiba
+- date: '2026-10-21'
+  count: 3
+  types:
+    访谈翻译: 3
+  posts:
+  - 2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design
+  - 2025-05-03-interview-shueisha-2025-fragment-university-thunderbolt
+  - 2019-09-18-interview-fukko-design-2019-talk-kasejima
 - date: '2026-10-17'
   count: 38
   types:
