@@ -1,0 +1,8715 @@
+# 由 tools/build-designers.py 生成：宝可梦设计者（gfworks 原表 + 本站名单核对），别手改
+source:
+  name: Pokémon Primary Designers
+  url: https://gfworks.github.io/designer.html
+  mirror: https://pokeamice.com/designers/
+  fetched: '2026-10-29'
+  updated: '2026-01-27'
+cells:
+  both: 126
+  credits: 20
+  gf: 0
+sprite_base: /assets/img/pokemon-sprites/
+gens:
+- gen: 1
+  games:
+  - game: red-green
+    short: 红绿
+    title: 宝可梦 红·绿
+  - game: blue-jp
+    short: 蓝
+    title: 宝可梦 蓝
+  - game: yellow
+    short: 皮卡丘
+    title: 宝可梦 皮卡丘版
+- gen: 2
+  games:
+  - game: gold-silver
+    short: 金银
+    title: 宝可梦 金·银
+  - game: crystal
+    short: 水晶
+    title: 宝可梦 水晶版
+- gen: 3
+  games:
+  - game: ruby-sapphire
+    short: 红蓝宝石
+    title: 宝可梦 红宝石·蓝宝石
+  - game: firered-leafgreen
+    short: 火红叶绿
+    title: 宝可梦 火红·叶绿
+  - game: emerald
+    short: 绿宝石
+    title: 宝可梦 绿宝石
+- gen: 4
+  games:
+  - game: diamond-pearl
+    short: 钻石珍珠
+    title: 宝可梦 钻石·珍珠
+  - game: platinum
+    short: 白金
+    title: 宝可梦 白金
+  - game: heartgold-soulsilver
+    short: 心金魂银
+    title: 宝可梦 心金·魂银
+- gen: 5
+  games:
+  - game: black-white
+    short: 黑白
+    title: 宝可梦 黑·白
+  - game: black2-white2
+    short: 黑2白2
+    title: 宝可梦 黑2·白2
+- gen: 6
+  games:
+  - game: x-y
+    short: XY
+    title: 宝可梦 X·Y
+  - game: oras
+    short: ΩRαS
+    title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+- gen: 7
+  games:
+  - game: sun-moon
+    short: 日月
+    title: 宝可梦 太阳·月亮
+  - game: usum
+    short: 究极日月
+    title: 宝可梦 究极之日·究极之月
+  - game: lets-go
+    short: Let's Go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+- gen: 8
+  games:
+  - game: sword-shield
+    short: 剑盾
+    title: 宝可梦 剑·盾
+  - game: bdsp
+    short: 晶灿明亮
+    title: 宝可梦 晶灿钻石·明亮珍珠
+  - game: legends-arceus
+    short: 阿尔宙斯
+    title: 宝可梦传说 阿尔宙斯
+- gen: 9
+  games:
+  - game: scarlet-violet
+    short: 朱紫
+    title: 宝可梦 朱·紫
+  - game: area-zero
+    short: 零之秘宝
+    title: 宝可梦 朱·紫 零之秘宝
+  - game: legends-za
+    short: Z-A
+    title: Pokémon LEGENDS Z-A
+designers:
+- id: morimoto
+  en: Shigeki Morimoto
+  ja: 森本茂樹
+  name: 森本茂树
+  credits_key: morimoto shigeki
+  gens:
+  - gen: 1
+    gf: true
+    games:
+    - game: red-green
+      short: 红绿
+      title: 宝可梦 红·绿
+      role: Pokémon Design
+      role_ja: モンスター デザイン
+    - game: blue-jp
+      short: 蓝
+      title: 宝可梦 蓝
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: both
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: false
+    games:
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Diglett
+    zh: 地鼠
+    ja: ディグダ
+    ndex: 50
+    sprite: 50
+    refs: &id020
+    - 25
+  - en: Mankey
+    zh: 猴怪
+    ja: マンキー
+    ndex: 56
+    sprite: 56
+    refs: &id021
+    - 25
+  - en: Tauros
+    zh: 肯泰罗
+    ja: ケンタロス
+    ndex: 128
+    sprite: 128
+    refs: &id034
+    - 25
+  - en: Mew
+    zh: 梦幻
+    ja: ミュウ
+    ndex: 151
+    sprite: 151
+    refs: &id042
+    - 1
+    - 3
+    - 25
+  - en: Shuckle
+    zh: 壶壶
+    ja: ツボツボ
+    ndex: 213
+    sprite: 213
+    refs: &id050
+    - 9
+    - 25
+  - en: Piloswine
+    zh: 长毛猪
+    ja: イノムー
+    ndex: 221
+    sprite: 221
+    refs: &id052
+    - 25
+  person: morimoto-shigeki
+  avatar: /assets/img/people/morimoto-shigeki.jpg
+- id: sugimori
+  en: Ken Sugimori
+  ja: 杉森健
+  name: 杉森建
+  credits_key: ken sugimori
+  gens:
+  - gen: 1
+    gf: true
+    games:
+    - game: red-green
+      short: 红绿
+      title: 宝可梦 红·绿
+      role: Pokémon Design
+      role_ja: モンスター デザイン
+    - game: blue-jp
+      short: 蓝
+      title: 宝可梦 蓝
+      role: Monster Design
+      role_ja: モンスター デザイン
+    - game: yellow
+      short: 皮卡丘
+      title: 宝可梦 皮卡丘版
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: both
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design & Concept
+      role_ja: Pokémon Characters Design & Concept
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Clefairy
+    zh: 皮皮
+    ja: ピッピ
+    ndex: 35
+    sprite: 35
+    refs: &id014
+    - 14
+  - en: Hoothoot
+    zh: 咕咕
+    ja: ホーホー
+    ndex: 163
+    sprite: 163
+    refs: &id043
+    - 43
+  - en: Sudowoodo
+    zh: 树才怪
+    ja: ウソッキー
+    ndex: 185
+    sprite: 185
+    refs: &id044
+    - 1
+  - en: Unown
+    zh: 未知图腾
+    ja: アンノーン
+    ndex: 201
+    sprite: 201
+    refs: &id047
+    - 49
+  - en: Manaphy
+    zh: 玛纳霏
+    ja: マナフィ
+    ndex: 490
+    sprite: 490
+    refs: &id075
+    - 4
+  - en: Dialga
+    zh: 帝牙卢卡
+    ja: ディアルガ
+    ndex: 483
+    sprite: 483
+    refs: &id073
+    - 5
+  - en: Palkia
+    zh: 帕路奇亚
+    ja: パルキア
+    ndex: 484
+    sprite: 484
+    refs: &id074
+    - 5
+  - en: Heatmor
+    zh: 熔蚁兽
+    ja: クイタラン
+    ndex: 631
+    sprite: 631
+    refs: &id145
+    - 20
+  - en: Durant
+    zh: 铁蚁
+    ja: アイアント
+    ndex: 632
+    sprite: 632
+    refs: &id146
+    - 20
+  - en: Sawk
+    zh: 打击鬼
+    ja: ダゲキ
+    ndex: 539
+    sprite: 539
+    refs: &id097
+    - 22
+  - en: Throh
+    zh: 投摔鬼
+    ja: ナゲキ
+    ndex: 538
+    sprite: 538
+    refs: &id096
+    - 22
+  - en: Reshiram
+    zh: 莱希拉姆
+    ja: レシラム
+    ndex: 643
+    sprite: 643
+    refs: &id150
+    - 21
+  - en: Zekrom
+    zh: 捷克罗姆
+    ja: ゼクロム
+    ndex: 644
+    sprite: 644
+    refs: &id151
+    - 21
+  - en: Xerneas
+    zh: 哲尔尼亚斯
+    ja: ゼルネアス
+    ndex: 716
+    sprite: 716
+    refs: &id171
+    - 13
+    remark: 与大村祐介合作
+    remark_en: w/ Yūsuke Ōmura
+  - en: Yveltal
+    zh: 伊裴尔塔尔
+    ja: イベルタル
+    ndex: 717
+    sprite: 717
+    refs: &id172
+    - 13
+    remark: 与大村祐介合作
+    remark_en: w/ Yūsuke Ōmura
+  person: sugimori-ken
+  avatar: /assets/img/people/sugimori-ken.jpg
+- id: fujiwara
+  en: Motofumi Fujiwara
+  ja: 藤原基史
+  name: 藤原基史
+  credits_key: fujiwara motofumi
+  gens:
+  - gen: 1
+    gf: true
+    games:
+    - game: red-green
+      short: 红绿
+      title: 宝可梦 红·绿
+      role: Pokémon Design
+      role_ja: モンスター デザイン
+    - game: blue-jp
+      short: 蓝
+      title: 宝可梦 蓝
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: both
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Eevee
+    zh: 伊布
+    ja: イーブイ
+    ndex: 133
+    sprite: 133
+    refs: &id035
+    - 16
+  - en: Flareon
+    zh: 火伊布
+    ja: ブースター
+    ndex: 136
+    sprite: 136
+    refs: &id038
+    - 16
+  - en: Jolteon
+    zh: 雷伊布
+    ja: サンダース
+    ndex: 135
+    sprite: 135
+    refs: &id037
+    - 16
+  person: fujiwara-motofumi
+  avatar: /assets/img/people/fujiwara.jpg
+- id: nishida
+  en: Atsuko Nishida
+  ja: 西田敦子
+  name: 西田敦子
+  credits_key: atsuko nishida
+  gens:
+  - gen: 1
+    gf: true
+    games:
+    - game: red-green
+      short: 红绿
+      title: 宝可梦 红·绿
+      role: Pokémon Design
+      role_ja: モンスター デザイン
+    - game: blue-jp
+      short: 蓝
+      title: 宝可梦 蓝
+      role: Monster Design
+      role_ja: モンスター デザイン
+    - game: yellow
+      short: 皮卡丘
+      title: 宝可梦 皮卡丘版
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: both
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designer
+      role_ja: ポケモン デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Bulbasaur
+    zh: 妙蛙种子
+    ja: フシギダネ
+    ndex: 1
+    sprite: 1
+    refs: &id001
+    - 14
+  - en: Charmander
+    zh: 小火龙
+    ja: ヒトカゲ
+    ndex: 4
+    sprite: 4
+    refs: &id002
+    - 14
+    - 34
+  - en: Charmeleon
+    zh: 火恐龙
+    ja: リザード
+    ndex: 5
+    sprite: 5
+    refs: &id003
+    - 34
+  - en: Charizard
+    zh: 喷火龙
+    ja: リザードン
+    ndex: 6
+    sprite: 6
+    refs: &id004
+    - 34
+  - en: Mega Charizard X
+    zh: 超级喷火龙X
+    ja: メガリザードンX
+    ndex: 6
+    sprite: 6
+    refs: &id005
+    - 40
+    form: 超级进化
+  - en: Squirtle
+    zh: 杰尼龟
+    ja: ゼニガメ
+    ndex: 7
+    sprite: 7
+    refs: &id006
+    - 14
+    - 34
+  - en: Wartortle
+    zh: 卡咪龟
+    ja: カメール
+    ndex: 8
+    sprite: 8
+    refs: &id007
+    - 34
+  - en: Weedle
+    zh: 独角虫
+    ja: ビードル
+    ndex: 13
+    sprite: 13
+    refs: &id008
+    - 34
+  - en: Kakuna
+    zh: 铁壳蛹
+    ja: コクーン
+    ndex: 14
+    sprite: 14
+    refs: &id009
+    - 34
+  - en: Beedrill
+    zh: 大针蜂
+    ja: スピアー
+    ndex: 15
+    sprite: 15
+    refs: &id010
+    - 34
+  - en: Pikachu
+    zh: 皮卡丘
+    ja: ピカチュウ
+    ndex: 25
+    sprite: 25
+    refs: &id012
+    - 14
+    - 34
+  - en: Raichu
+    zh: 雷丘
+    ja: ライチュウ
+    ndex: 26
+    sprite: 26
+    refs: &id013
+    - 14
+    - 34
+  - en: Vulpix
+    zh: 六尾
+    ja: ロコン
+    ndex: 37
+    sprite: 37
+    refs: &id015
+    - 40
+  - en: Ninetales
+    zh: 九尾
+    ja: キュウコン
+    ndex: 38
+    sprite: 38
+    refs: &id016
+    - 40
+  - en: Oddish
+    zh: 走路草
+    ja: ナゾノクサ
+    ndex: 43
+    sprite: 43
+    refs: &id017
+    - 34
+  - en: Gloom
+    zh: 臭臭花
+    ja: クサイハナ
+    ndex: 44
+    sprite: 44
+    refs: &id018
+    - 34
+  - en: Vileplume
+    zh: 霸王花
+    ja: ラフレシア
+    ndex: 45
+    sprite: 45
+    refs: &id019
+    - 34
+  - en: Bellsprout
+    zh: 喇叭芽
+    ja: マダツボミ
+    ndex: 69
+    sprite: 69
+    refs: &id024
+    - 34
+  - en: Weepinbell
+    zh: 口呆花
+    ja: ウツドン
+    ndex: 70
+    sprite: 70
+    refs: &id025
+    - 34
+  - en: Victreebel
+    zh: 大食花
+    ja: ウツボット
+    ndex: 71
+    sprite: 71
+    refs: &id026
+    - 34
+  - en: Ponyta
+    zh: 小火马
+    ja: ポニータ
+    ndex: 77
+    sprite: 77
+    refs: &id030
+    - 34
+  - en: Rapidash
+    zh: 烈焰马
+    ja: ギャロップ
+    ndex: 78
+    sprite: 78
+    refs: &id031
+    - 34
+  - en: Vaporeon
+    zh: 水伊布
+    ja: シャワーズ
+    ndex: 134
+    sprite: 134
+    refs: &id036
+    - 16
+  - en: Espeon
+    zh: 太阳伊布
+    ja: エーフィ
+    ndex: 196
+    sprite: 196
+    refs: &id045
+    - 16
+  - en: Umbreon
+    zh: 月亮伊布
+    ja: ブラッキー
+    ndex: 197
+    sprite: 197
+    refs: &id046
+    - 16
+  - en: Leafeon
+    zh: 叶伊布
+    ja: リーフィア
+    ndex: 470
+    sprite: 470
+    refs: &id071
+    - 16
+  - en: Glaceon
+    zh: 冰伊布
+    ja: グレイシア
+    ndex: 471
+    sprite: 471
+    refs: &id072
+    - 16
+    - 26
+  - en: Sylveon
+    zh: 仙子伊布
+    ja: ニンフィア
+    ndex: 700
+    sprite: 700
+    refs: &id166
+    - 13
+    - 16
+  - en: Dratini
+    zh: 迷你龙
+    ja: ミニリュウ
+    ndex: 147
+    sprite: 147
+    refs: &id039
+    - 34
+  - en: Dragonair
+    zh: 哈克龙
+    ja: ハクリュー
+    ndex: 148
+    sprite: 148
+    refs: &id040
+    - 34
+  - en: Kricketot
+    zh: 圆法师
+    ja: コロボーシ
+    ndex: 401
+    sprite: 401
+    refs: &id066
+    - 40
+  - en: Kricketune
+    zh: 音箱蟀
+    ja: コロトック
+    ndex: 402
+    sprite: 402
+    refs: &id067
+    - 40
+  - en: Zorua
+    zh: 索罗亚
+    ja: ゾロア
+    ndex: 570
+    sprite: 570
+    refs: &id109
+    - 40
+  - en: Hisuian Zorua
+    zh: 洗翠索罗亚
+    ja: ゾロア（ヒスイのすがた）
+    ndex: 570
+    sprite: 10238
+    refs: &id110
+    - 62
+    form: 洗翠的样子
+  - en: Zoroark
+    zh: 索罗亚克
+    ja: ゾロアーク
+    ndex: 571
+    sprite: 571
+    refs: &id111
+    - 40
+  - en: Hisuian Zoroark
+    zh: 洗翠索罗亚克
+    ja: ゾロアーク（ヒスイのすがた）
+    ndex: 571
+    sprite: 10239
+    refs: &id112
+    - 62
+    form: 洗翠的样子
+  - en: Cottonee
+    zh: 木棉球
+    ja: モンメン
+    ndex: 546
+    sprite: 546
+    refs: &id102
+    - 19
+  - en: Whimsicott
+    zh: 风妖精
+    ja: エルフーン
+    ndex: 547
+    sprite: 547
+    refs: &id103
+    - 19
+  - en: Petilil
+    zh: 百合根娃娃
+    ja: チュリネ
+    ndex: 548
+    sprite: 548
+    refs: &id104
+    - 19
+  - en: Lilligant
+    zh: 裙儿小姐
+    ja: ドレディア
+    ndex: 549
+    sprite: 549
+    refs: &id105
+    - 19
+  - en: Minccino
+    zh: 泡沫栗鼠
+    ja: チラーミィ
+    ndex: 572
+    sprite: 572
+    refs: &id113
+    - 22
+  - en: Cinccino
+    zh: 奇诺栗鼠
+    ja: チラチーノ
+    ndex: 573
+    sprite: 573
+    refs: &id114
+    - 22
+  - en: Munna
+    zh: 食梦梦
+    ja: ムンナ
+    ndex: 517
+    sprite: 517
+    refs: &id092
+    - 22
+  - en: Musharna
+    zh: 梦梦蚀
+    ja: ムシャーナ
+    ndex: 518
+    sprite: 518
+    refs: &id093
+    - 22
+  - en: Karrablast
+    zh: 盖盖虫
+    ja: カブルモ
+    ndex: 588
+    sprite: 588
+    refs: &id119
+    - 22
+  - en: Lillipup
+    zh: 小约克
+    ja: ヨーテリー
+    ndex: 506
+    sprite: 506
+    refs: &id086 []
+    remark: 也可能是井部真那
+    remark_en: or Ibe?
+    unsure: true
+  - en: Herdier
+    zh: 哈约克
+    ja: ハーデリア
+    ndex: 507
+    sprite: 507
+    refs: &id087 []
+    unsure: true
+  - en: Stoutland
+    zh: 长毛狗
+    ja: ムーランド
+    ndex: 508
+    sprite: 508
+    refs: &id088 []
+    remark: 她最喜欢的一只
+    remark_en: her favorite
+    unsure: true
+  - en: Pawmi
+    zh: 布拨
+    ja: パモ
+    ndex: 921
+    sprite: 921
+    refs: &id208
+    - 78
+  - en: Pawmo
+    zh: 布土拨
+    ja: パモット
+    ndex: 922
+    sprite: 922
+    refs: &id209
+    - 78
+  - en: Pawmot
+    zh: 巴布土拨
+    ja: パーモット
+    ndex: 923
+    sprite: 923
+    refs: &id210
+    - 78
+  - en: Tadbulb
+    zh: 光蚪仔
+    ja: ズピカ
+    ndex: 938
+    sprite: 938
+    refs: &id219
+    - 78
+  - en: Bellibolt
+    zh: 电肚蛙
+    ja: ハラバリー
+    ndex: 939
+    sprite: 939
+    refs: &id220
+    - 78
+  - en: Flittle
+    zh: 飘飘雏
+    ja: ヒラヒナ
+    ndex: 955
+    sprite: 955
+    refs: &id221
+    - 78
+  person: nishida-atsuko
+  avatar: /assets/img/people/nishida-atsuko.jpg
+- id: rena-yoshikawa
+  en: Rena Yoshikawa
+  ja: 吉川玲奈
+  name: 吉川玲奈
+  credits_key: rena yoshikawa
+  gens:
+  - gen: 1
+    gf: false
+    games:
+    - game: blue-jp
+      short: 蓝
+      title: 宝可梦 蓝
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: credits
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: false
+    games:
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: yoshikawa-rena
+- id: saitou
+  en: Muneo Saitō
+  ja: 斉藤むねお
+  name: 斉藤むねお
+  credits_key: muneo saito
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: false
+    games:
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Raikou
+    zh: 雷公
+    ja: ライコウ
+    ndex: 243
+    sprite: 243
+    refs: &id053
+    - 2
+  - en: Entei
+    zh: 炎帝
+    ja: エンテイ
+    ndex: 244
+    sprite: 244
+    refs: &id054
+    - 2
+  - en: Suicune
+    zh: 水君
+    ja: スイクン
+    ndex: 245
+    sprite: 245
+    refs: &id055
+    - 2
+  person: saito-muneo
+- id: satoshi-ota
+  en: Satoshi Ōta
+  ja: 太田敏
+  name: 太田敏
+  credits_key: ota satoshi
+  gens:
+  - gen: 1
+    gf: false
+    games:
+    - game: blue-jp
+      short: 蓝
+      title: 宝可梦 蓝
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: credits
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: ohta-satoshi
+- id: yoshida
+  en: Hironobu Yoshida
+  ja: 吉田宏信
+  name: 吉田宏信
+  credits_key: hironobu yoshida
+  gens:
+  - gen: 1
+    gf: false
+    games:
+    - game: yellow
+      short: 皮卡丘
+      title: 宝可梦 皮卡丘版
+      role: Monster Design
+      role_ja: モンスター デザイン
+    state: credits
+  - gen: 2
+    gf: true
+    games:
+    - game: gold-silver
+      short: 金银
+      title: 宝可梦 金·银
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    - game: crystal
+      short: 水晶
+      title: 宝可梦 水晶版
+      role: Monster Design
+      role_ja: ポケモンデザイン
+    state: both
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design & Concept
+      role_ja: Pokémon Characters Design & Concept
+    - game: lets-go
+      short: Let's Go
+      title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: both
+  - gen: 8
+    gf: false
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+      role_ja: Concept Art, Pokémon & Human Designs
+    state: credits
+  - gen: 9
+    gf: false
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン&じんぶつデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    state: credits
+  pokemon:
+  - en: Wobbuffet
+    zh: 果然翁
+    ja: ソーナンス
+    ndex: 202
+    sprite: 202
+    refs: &id048
+    - 15
+  - en: Deoxys
+    zh: 代欧奇希斯
+    ja: デオキシス
+    ndex: 386
+    sprite: 386
+    refs: &id061
+    - 5
+    - 10
+  - en: Celebi
+    zh: 时拉比
+    ja: セレビィ
+    ndex: 251
+    sprite: 251
+    refs: &id056
+    - 10
+    - 15
+  - en: Dunsparce
+    zh: 土龙弟弟
+    ja: ノコッチ
+    ndex: 206
+    sprite: 206
+    refs: &id049
+    - 15
+  - en: Rayquaza
+    zh: 烈空坐
+    ja: レックウザ
+    ndex: 384
+    sprite: 384
+    refs: &id060
+    - 10
+  - en: Magmortar
+    zh: 鸭嘴炎兽
+    ja: ブーバーン
+    ndex: 467
+    sprite: 467
+    refs: &id070
+    - 5
+  - en: Darkrai
+    zh: 达克莱伊
+    ja: ダークライ
+    ndex: 491
+    sprite: 491
+    refs: &id076
+    - 10
+    - 46
+  person: yoshida-hironobu
+  avatar: /assets/img/people/yoshida-hironobu.jpg
+- id: jun-okutani
+  en: Jun Okutani
+  ja: 奥谷順
+  name: 奥谷順
+  credits_key: jun okutani
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: false
+    games:
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: okutani-jun
+- id: asuka-iwashita
+  en: Asuka Iwashita
+  ja: 岩下明日香
+  name: 岩下明日香
+  credits_key: asuka iwashita
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: false
+    games:
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: iwashita-asuka
+- id: aimi-tomita
+  en: Aimi Tomita
+  ja: 富田愛美
+  name: 富田愛美
+  credits_key: aimi tomita
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: false
+    games:
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: kanako-eo
+  en: Kanako Eo
+  ja: 江尾可奈子
+  name: 江尾可奈子
+  credits_key: eo kanako
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: eo-kanako
+- id: unno
+  en: Takao Unno
+  ja: 海野隆雄
+  name: 海野隆雄
+  credits_key: takao unno
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: true
+    games:
+    - game: ruby-sapphire
+      short: 红蓝宝石
+      title: 宝可梦 红宝石·蓝宝石
+      role: Pokémon & Graphic Designers
+      role_ja: ポケモン & グラフィック デザイン
+    - game: firered-leafgreen
+      short: 火红叶绿
+      title: 宝可梦 火红·叶绿
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    - game: emerald
+      short: 绿宝石
+      title: 宝可梦 绿宝石
+      role: Pokémon Designers
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+      role_ja: Concept Art, Pokémon & Human Designs
+    state: both
+  - gen: 9
+    gf: false
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン&じんぶつデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    state: credits
+  pokemon:
+  - en: Whismur
+    zh: 咕妞妞
+    ja: ゴニョニョ
+    ndex: 293
+    sprite: 293
+    refs: &id058
+    - 54
+  - en: Loudred
+    zh: 吼爆弹
+    ja: ドゴーム
+    ndex: 294
+    sprite: 294
+    refs: &id059
+    - 54
+  - en: Chimchar
+    zh: 小火焰猴
+    ja: ヒコザル
+    ndex: 390
+    sprite: 390
+    refs: &id062
+    - 23
+  - en: Monferno
+    zh: 猛火猴
+    ja: モウカザル
+    ndex: 391
+    sprite: 391
+    refs: &id063
+    - 23
+  - en: Infernape
+    zh: 烈焰猴
+    ja: ゴウカザル
+    ndex: 392
+    sprite: 392
+    refs: &id064
+    - 23
+  - en: Croagunk
+    zh: 不良蛙
+    ja: グレッグル
+    ndex: 453
+    sprite: 453
+    refs: &id069
+    - 71
+  - en: Garchomp
+    zh: 烈咬陆鲨
+    ja: ガブリアス
+    ndex: 445
+    sprite: 445
+    refs: &id068
+    - 46
+    - 71
+  - en: Arceus
+    zh: 阿尔宙斯
+    ja: アルセウス
+    ndex: 493
+    sprite: 493
+    refs: &id077
+    - 71
+  - en: Pansage
+    zh: 花椰猴
+    ja: ヤナップ
+    ndex: 511
+    sprite: 511
+    refs: &id089
+    - 22
+  - en: Pansear
+    zh: 爆香猴
+    ja: バオップ
+    ndex: 513
+    sprite: 513
+    refs: &id090
+    - 22
+  - en: Panpour
+    zh: 冷水猴
+    ja: ヒヤップ
+    ndex: 515
+    sprite: 515
+    refs: &id091
+    - 22
+  - en: Rufflet
+    zh: 毛头小鹰
+    ja: ワシボン
+    ndex: 627
+    sprite: 627
+    refs: &id141
+    - 20
+  - en: Braviary
+    zh: 勇士雄鹰
+    ja: ウォーグル
+    ndex: 628
+    sprite: 628
+    refs: &id142
+    - 20
+  - en: Cobalion
+    zh: 勾帕路翁
+    ja: コバルオン
+    ndex: 638
+    sprite: 638
+    refs: &id147
+    - 19
+  - en: Terrakion
+    zh: 代拉基翁
+    ja: テラキオン
+    ndex: 639
+    sprite: 639
+    refs: &id148
+    - 19
+  - en: Virizion
+    zh: 毕力吉翁
+    ja: ビリジオン
+    ndex: 640
+    sprite: 640
+    refs: &id149
+    - 19
+  person: unno-takao
+  avatar: /assets/img/people/unno-takao.jpg
+- id: hiroyuki-yagi
+  en: Hiroyuki Yagi
+  ja: 八木裕之
+  name: 八木裕之
+  credits_key: hiroyuki yagi
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: emi-yoshida
+  en: Emi Yoshida
+  ja: 吉田絵美
+  name: 吉田絵美
+  credits_key: emi yoshida
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: hiroyuki-goto
+  en: Hiroyuki Gotō
+  ja: 後藤浩之
+  name: 後藤浩之
+  credits_key: goto hiroyuki
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: kenkichi-toyama
+  en: Kenkichi Toyama
+  ja: 外山健吉
+  name: 外山健吉
+  credits_key: kenkichi toyama
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: toyama-kenchi
+- id: hiroki-fuchino
+  en: Hiroki Fuchino
+  ja: 渕野大樹
+  name: 渕野大樹
+  credits_key: fuchino hiroki
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design & Concept
+      role_ja: Pokémon Characters Design & Concept
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: fuchino-hiroki
+- id: ohmura
+  en: Yūsuke Ōmura
+  ja: 大村祐介
+  name: 大村祐介
+  credits_key: omura yusuke
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: true
+    games:
+    - game: diamond-pearl
+      short: 钻石珍珠
+      title: 宝可梦 钻石·珍珠
+      role: Pokémon Designers & Graphic Designers
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: false
+    games:
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: credits
+  pokemon:
+  - en: Piplup
+    zh: 波加曼
+    ja: ポッチャマ
+    ndex: 393
+    sprite: 393
+    refs: &id065
+    - 8
+  - en: Oshawott
+    zh: 水水獭
+    ja: ミジュマル
+    ndex: 501
+    sprite: 501
+    refs: &id083
+    - 8
+  - en: Dewott
+    zh: 双刃丸
+    ja: フタチマル
+    ndex: 502
+    sprite: 502
+    refs: &id084
+    - 21
+  - en: Samurott
+    zh: 大剑鬼
+    ja: ダイケンキ
+    ndex: 503
+    sprite: 503
+    refs: &id085
+    - 21
+  - en: Tynamo
+    zh: 麻麻小鱼
+    ja: シビシラス
+    ndex: 602
+    sprite: 602
+    refs: &id130
+    - 20
+  - en: Eelektrik
+    zh: 麻麻鳗
+    ja: シビビール
+    ndex: 603
+    sprite: 603
+    refs: &id131
+    - 20
+  - en: Eelektross
+    zh: 麻麻鳗鱼王
+    ja: シビルドン
+    ndex: 604
+    sprite: 604
+    refs: &id132
+    - 20
+  - en: Froakie
+    zh: 呱呱泡蛙
+    ja: ケロマツ
+    ndex: 656
+    sprite: 656
+    refs: &id152
+    - 71
+  - en: Greninja
+    zh: 甲贺忍蛙
+    ja: ゲッコウガ
+    ndex: 658
+    sprite: 658
+    refs: &id153
+    - 46
+  - en: Zacian
+    zh: 苍响
+    ja: ザシアン
+    ndex: 888
+    sprite: 888
+    refs: &id203
+    - 47
+  - en: Zamazenta
+    zh: 藏玛然特
+    ja: ザマゼンタ
+    ndex: 889
+    sprite: 889
+    refs: &id204
+    - 47
+  - en: Kubfu
+    zh: 熊徒弟
+    ja: ダクマ
+    ndex: 891
+    sprite: 891
+    refs: &id205
+    - 53
+  - en: Urshifu
+    zh: 武道熊师
+    ja: ウーラオス
+    ndex: 892
+    sprite: 892
+    refs: &id206
+    - 53
+  person: ohmura-yusuke
+  avatar: /assets/img/people/ohmura-yusuke.jpg
+- id: moritsugu
+  en: Keiko Moritsugu
+  ja: 森次慶子
+  name: 森次慶子
+  credits_key: keiko moritsugu
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Reuniclus
+    zh: 人造细胞卵
+    ja: ランクルス
+    ndex: 579
+    sprite: 579
+    refs: &id115
+    - 27
+    - 40
+  - en: Sigilyph
+    zh: 象征鸟
+    ja: シンボラー
+    ndex: 561
+    sprite: 561
+    refs: &id108
+    - 40
+  - en: Klink
+    zh: 齿轮儿
+    ja: ギアル
+    ndex: 599
+    sprite: 599
+    refs: &id127
+    - 40
+  - en: Klang
+    zh: 齿轮组
+    ja: ギギアル
+    ndex: 600
+    sprite: 600
+    refs: &id128
+    - 40
+  - en: Klinklang
+    zh: 齿轮怪
+    ja: ギギギアル
+    ndex: 601
+    sprite: 601
+    refs: &id129
+    - 40
+- id: maiko-fujiwara
+  en: Maiko Fujiwara
+  ja: 藤原麻衣子
+  name: 藤原麻衣子
+  credits_key: fujiwara maiko
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: fujiwara-maiko
+- id: tomohiko-okubo
+  en: Tomohiko Ōkubo
+  ja: 大久保智彦
+  name: 大久保智彦
+  credits_key: okubo tomohiko
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: ookubo-tomohiko
+- id: tanoue
+  en: Reiko Tanoue
+  ja: 田上怜子
+  name: 田上怜子
+  credits_key: reiko tanoe
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Snivy
+    zh: 藤藤蛇
+    ja: ツタージャ
+    ndex: 495
+    sprite: 495
+    refs: &id079
+    - 8
+  - en: Pidove
+    zh: 豆豆鸽
+    ja: マメパト
+    ndex: 519
+    sprite: 519
+    refs: &id094
+    - 8
+  - en: Swadloon
+    zh: 宝包茧
+    ja: クルマユ
+    ndex: 541
+    sprite: 541
+    refs: &id098
+    - 8
+  person: tian-shang-lian-zi
+- id: kitakaze
+  en: Tomohiro Kitakaze
+  ja: 北風友裕
+  name: 北風友裕
+  credits_key: kitakaze tomohiro
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Venipede
+    zh: 百足蜈蚣
+    ja: フシデ
+    ndex: 543
+    sprite: 543
+    refs: &id099
+    - 38
+  - en: Whirlipede
+    zh: 车轮球
+    ja: ホイーガ
+    ndex: 544
+    sprite: 544
+    refs: &id100
+    - 38
+  - en: Scolipede
+    zh: 蜈蚣王
+    ja: ペンドラー
+    ndex: 545
+    sprite: 545
+    refs: &id101
+    - 28
+    - 29
+    - 38
+  - en: Escavalier
+    zh: 骑士蜗牛
+    ja: シュバルゴ
+    ndex: 589
+    sprite: 589
+    refs: &id120
+    - 55
+  - en: Shelmet
+    zh: 小嘴蜗
+    ja: チョボマキ
+    ndex: 616
+    sprite: 616
+    refs: &id136
+    - 28
+  - en: Mega Mewtwo Y
+    zh: 超级超梦Y
+    ja: メガミュウツーY
+    ndex: 150
+    sprite: 150
+    refs: &id041
+    - 51
+    form: 超级进化
+  - en: Charcadet
+    zh: 炭小侍
+    ja: カルボウ
+    ndex: 935
+    sprite: 935
+    refs: &id216
+    - 76
+  - en: Armarouge
+    zh: 红莲铠骑
+    ja: グレンアルマ
+    ndex: 936
+    sprite: 936
+    refs: &id217
+    - 76
+  - en: Ceruledge
+    zh: 苍炎刃鬼
+    ja: ソウブレイズ
+    ndex: 937
+    sprite: 937
+    refs: &id218
+    - 76
+  person: kitakaze-tomohiro
+- id: hyunjung
+  en: Lee HyunJung
+  ja: 李ヒョンジョン
+  name: 李ヒョンジョン
+  credits_key: hyonjyon lee
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games:
+    - game: platinum
+      short: 白金
+      title: 宝可梦 白金
+      role: Pokémon Design & Graphic Design
+      role_ja: ポケモン デザイン & グラフィック デザイン
+    - game: heartgold-soulsilver
+      short: 心金魂银
+      title: 宝可梦 心金·魂银
+      role: Pokémon Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Tepig
+    zh: 暖暖猪
+    ja: ポカブ
+    ndex: 498
+    sprite: 498
+    refs: &id080
+    - 21
+  - en: Pignite
+    zh: 炒炒猪
+    ja: チャオブー
+    ndex: 499
+    sprite: 499
+    refs: &id081
+    - 21
+  - en: Emboar
+    zh: 炎武王
+    ja: エンブオー
+    ndex: 500
+    sprite: 500
+    refs: &id082
+    - 21
+  person: hyunjung-lee
+- id: ibe
+  en: Mana Ibe
+  ja: 井部真那
+  name: 井部真那
+  credits_key: ibe mana
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games:
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン&じんぶつデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    state: credits
+  pokemon:
+  - en: Axew
+    zh: 牙牙
+    ja: キバゴ
+    ndex: 610
+    sprite: 610
+    refs: &id133
+    - 19
+  - en: Fraxure
+    zh: 斧牙龙
+    ja: オノンド
+    ndex: 611
+    sprite: 611
+    refs: &id134
+    - 19
+  - en: Haxorus
+    zh: 双斧战龙
+    ja: オノノクス
+    ndex: 612
+    sprite: 612
+    refs: &id135
+    - 19
+  - en: Darumaka
+    zh: 火红不倒翁
+    ja: ダルマッカ
+    ndex: 554
+    sprite: 554
+    refs: &id106
+    - 19
+  - en: Darmanitan
+    zh: 达摩狒狒
+    ja: ヒヒダルマ
+    ndex: 555
+    sprite: 555
+    refs: &id107
+    - 19
+  - en: Frillish
+    zh: 轻飘飘
+    ja: プルリル
+    ndex: 592
+    sprite: 592
+    refs: &id123
+    - 19
+  - en: Victini
+    zh: 比克提尼
+    ja: ビクティニ
+    ndex: 494
+    sprite: 494
+    refs: &id078
+    - 6
+    - 46
+  - en: Klefki
+    zh: 钥圈儿
+    ja: クレッフィ
+    ndex: 707
+    sprite: 707
+    refs: &id168
+    - 17
+  - en: Stunfisk
+    zh: 泥巴鱼
+    ja: マッギョ
+    ndex: 618
+    sprite: 618
+    refs: &id137
+    - 7
+    - 19
+  person: ibe-mana
+  avatar: /assets/img/people/ibe-mana.jpg
+- id: mizutani
+  en: Megumi Mizutani
+  ja: 水谷恵
+  name: 水谷恵
+  credits_key: megumi mizutani
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: false
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: credits
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Mienshao
+    zh: 师父鼬
+    ja: コジョンド
+    ndex: 620
+    sprite: 620
+    refs: &id138
+    - 71
+  - en: Pancham
+    zh: 顽皮熊猫
+    ja: ヤンチャム
+    ndex: 674
+    sprite: 674
+    refs: &id154
+    - 46
+    - 71
+  - en: Mimikyu
+    zh: 谜拟丘
+    ja: ミミッキュ
+    ndex: 778
+    sprite: 778
+    refs: &id179
+    - 72
+  - en: Hisuian Growlithe
+    zh: 洗翠卡蒂狗
+    ja: ガーディ（ヒスイのすがた）
+    ndex: 58
+    sprite: 10229
+    refs: &id022
+    - 64
+    form: 洗翠的样子
+  - en: Hisuian Arcanine
+    zh: 洗翠风速狗
+    ja: ウインディ（ヒスイのすがた）
+    ndex: 59
+    sprite: 10230
+    refs: &id023
+    - 64
+    form: 洗翠的样子
+  - en: Tandemaus
+    zh: 一对鼠
+    ja: ワッカネズミ
+    ndex: 924
+    sprite: 924
+    refs: &id211
+    - 73
+  - en: Maushold
+    zh: 一家鼠
+    ja: イッカネズミ
+    ndex: 925
+    sprite: 925
+    refs: &id212
+    - 73
+  - en: Tinkatink
+    zh: 小锻匠
+    ja: カヌチャン
+    ndex: 957
+    sprite: 957
+    refs: &id223
+    - 73
+  - en: Tinkatuff
+    zh: 巧锻匠
+    ja: ナカヌチャン
+    ndex: 958
+    sprite: 958
+    refs: &id224
+    - 73
+  - en: Tinkaton
+    zh: 巨锻匠
+    ja: デカヌチャン
+    ndex: 959
+    sprite: 959
+    refs: &id225
+    - 73
+  person: mizutani-megumi
+- id: tsuruta
+  en: Saya Tsuruta
+  ja: 鶴田沙綾
+  name: つるたさや
+  credits_key: saya tsuruta
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Audino
+    zh: 差不多娃娃
+    ja: タブンネ
+    ndex: 531
+    sprite: 531
+    refs: &id095
+    - 42
+  - en: Galvantula
+    zh: 电蜘蛛
+    ja: デンチュラ
+    ndex: 596
+    sprite: 596
+    refs: &id124
+    - 42
+  - en: Aromatisse
+    zh: 芳香精
+    ja: フレフワン
+    ndex: 683
+    sprite: 683
+    refs: &id159
+    - 37
+    - 42
+  - en: Goomy
+    zh: 黏黏宝
+    ja: ヌメラ
+    ndex: 704
+    sprite: 704
+    refs: &id167
+    - 36
+    - 42
+  - en: Morelull
+    zh: 睡睡菇
+    ja: ネマシュ
+    ndex: 755
+    sprite: 755
+    refs: &id176
+    - 35
+    unsure: true
+  - en: Indeedee
+    zh: 爱管侍
+    ja: イエッサン
+    ndex: 876
+    sprite: 876
+    refs: &id198
+    - 48
+  person: tsuruta-saya
+- id: turner
+  en: James Turner
+  ja: ジェイムス・ターナー
+  name: James Turner
+  credits_key: james tsurner
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: true
+    games:
+    - game: black-white
+      short: 黑白
+      title: 宝可梦 黑·白
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    - game: black2-white2
+      short: 黑2白2
+      title: 宝可梦 黑2·白2
+      role: Pokémon Character Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design & Concept
+      role_ja: Pokémon Characters Design & Concept
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Galarian Zigzagoon
+    zh: 伽勒尔蛇纹熊
+    ja: ジグザグマ（ガラルのすがた）
+    ndex: 263
+    sprite: 10174
+    refs: &id057
+    - 61
+    form: 伽勒尔的样子
+  - en: Vullaby
+    zh: 秃鹰丫头
+    ja: バルチャイ
+    ndex: 629
+    sprite: 629
+    refs: &id143
+    - 18
+    - 20
+  - en: Mandibuzz
+    zh: 秃鹰娜
+    ja: バルジーナ
+    ndex: 630
+    sprite: 630
+    refs: &id144
+    - 18
+    - 20
+  - en: Golett
+    zh: 泥偶小人
+    ja: ゴビット
+    ndex: 622
+    sprite: 622
+    refs: &id139
+    - 18
+    - 31
+  - en: Golurk
+    zh: 泥偶巨人
+    ja: ゴルーグ
+    ndex: 623
+    sprite: 623
+    refs: &id140
+    - 18
+    - 31
+  - en: Vanillite
+    zh: 迷你冰
+    ja: バニプッチ
+    ndex: 582
+    sprite: 582
+    refs: &id116
+    - 18
+    - 31
+  - en: Vanillish
+    zh: 多多冰
+    ja: バニリッチ
+    ndex: 583
+    sprite: 583
+    refs: &id117
+    - 18
+    - 31
+  - en: Vanilluxe
+    zh: 双倍多多冰
+    ja: バイバニラ
+    ndex: 584
+    sprite: 584
+    refs: &id118
+    - 18
+    - 31
+  - en: Phantump
+    zh: 小木灵
+    ja: ボクレー
+    ndex: 708
+    sprite: 708
+    refs: &id169
+    - 45
+  - en: Trevenant
+    zh: 朽木妖
+    ja: オーロット
+    ndex: 709
+    sprite: 709
+    refs: &id170
+    - 45
+  - en: Bruxish
+    zh: 磨牙彩皮鱼
+    ja: ハギギシリ
+    ndex: 779
+    sprite: 779
+    refs: &id180
+    - 33
+    remark: 定稿；原案出自一位「女性设计师」
+    remark_en: finalized design; original by 'female designer'
+  - en: Buzzwole
+    zh: 爆肌蚊
+    ja: マッシブーン
+    ndex: 794
+    sprite: 794
+    refs: &id183
+    - 31
+  - en: Poipole
+    zh: 毒贝比
+    ja: ベベノム
+    ndex: 803
+    sprite: 803
+    refs: &id186
+    - 30
+    - 31
+  - en: Naganadel
+    zh: 四颚针龙
+    ja: アーゴヨン
+    ndex: 804
+    sprite: 804
+    refs: &id187
+    - 32
+  - en: Centiskorch
+    zh: 焚焰蚣
+    ja: マルヤクデ
+    ndex: 851
+    sprite: 851
+    refs: &id193
+    - 50
+  - en: Sinistea
+    zh: 来悲茶
+    ja: ヤバチャ
+    ndex: 854
+    sprite: 854
+    refs: &id194
+    - 57
+  - en: Polteageist
+    zh: 怖思壶
+    ja: ポットデス
+    ndex: 855
+    sprite: 855
+    refs: &id195
+    - 58
+  - en: Obstagoon
+    zh: 堵拦熊
+    ja: タチフサグマ
+    ndex: 862
+    sprite: 862
+    refs: &id196
+    - 60
+  person: james-turner
+  avatar: /assets/img/people/james-turner.jpg
+- id: yuki-kawamoto
+  en: Yuki Kawamoto
+  ja: 河本幸
+  name: 河本幸
+  credits_key: kawamoto yuki
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: mayo-otani
+  en: Mayo Ōtani
+  ja: 大谷真代
+  name: 大谷真代
+  credits_key: mayo otani
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: ariga
+  en: Hitoshi Ariga
+  ja: ありがひとし
+  name: ありがひとし
+  credits_key: ariga hitoshi
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: true
+    games:
+    - game: x-y
+      short: XY
+      title: 宝可梦 X·Y
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: both
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Hisuian Sneasel
+    zh: 洗翠狃拉
+    ja: ニューラ（ヒスイのすがた）
+    ndex: 215
+    sprite: 10235
+    refs: &id051
+    - 63
+    form: 洗翠的样子
+  - en: Sneasler
+    zh: 大狃拉
+    ja: オオニューラ
+    ndex: 903
+    sprite: 903
+    refs: &id207
+    - 63
+  - en: Pangoro
+    zh: 霸道熊猫
+    ja: ゴロンダ
+    ndex: 675
+    sprite: 675
+    refs: &id155
+    - 11
+  - en: Inkay
+    zh: 好啦鱿
+    ja: マーイーカ
+    ndex: 686
+    sprite: 686
+    refs: &id160
+    - 11
+  - en: Malamar
+    zh: 乌贼王
+    ja: カラマネロ
+    ndex: 687
+    sprite: 687
+    refs: &id161
+    - 11
+  - en: Honedge
+    zh: 独剑鞘
+    ja: ヒトツキ
+    ndex: 679
+    sprite: 679
+    refs: &id156
+    - 11
+  - en: Doublade
+    zh: 双剑鞘
+    ja: ニダンギル
+    ndex: 680
+    sprite: 680
+    refs: &id157
+    - 11
+  - en: Aegislash
+    zh: 坚盾剑怪
+    ja: ギルガルド
+    ndex: 681
+    sprite: 681
+    refs: &id158
+    - 11
+  - en: Tyrunt
+    zh: 宝宝暴龙
+    ja: チゴラス
+    ndex: 696
+    sprite: 696
+    refs: &id162
+    - 11
+  - en: Tyrantrum
+    zh: 怪颚龙
+    ja: ガチゴラス
+    ndex: 697
+    sprite: 697
+    refs: &id163
+    - 11
+  - en: Amaura
+    zh: 冰雪龙
+    ja: アマルス
+    ndex: 698
+    sprite: 698
+    refs: &id164
+    - 11
+  - en: Aurorus
+    zh: 冰雪巨龙
+    ja: アマルルガ
+    ndex: 699
+    sprite: 699
+    refs: &id165
+    - 11
+  - en: Mega Beedrill
+    zh: 超级大针蜂
+    ja: メガスピアー
+    ndex: 15
+    sprite: 15
+    refs: &id011
+    - 12
+    form: 超级进化
+  - en: Alolan Geodude
+    zh: 阿罗拉小拳石
+    ja: イシツブテ（アローラのすがた）
+    ndex: 74
+    sprite: 10109
+    refs: &id027
+    - 24
+    form: 阿罗拉的样子
+  - en: Alolan Graveler
+    zh: 阿罗拉隆隆石
+    ja: ゴローン（アローラのすがた）
+    ndex: 75
+    sprite: 10110
+    refs: &id028
+    - 24
+    form: 阿罗拉的样子
+  - en: Alolan Golem
+    zh: 阿罗拉隆隆岩
+    ja: ゴローニャ（アローラのすがた）
+    ndex: 76
+    sprite: 10111
+    refs: &id029
+    - 24
+    form: 阿罗拉的样子
+  - en: Alolan Grimer
+    zh: 阿罗拉臭泥
+    ja: ベトベター（アローラのすがた）
+    ndex: 88
+    sprite: 10112
+    refs: &id032
+    - 24
+    form: 阿罗拉的样子
+  - en: Alolan Muk
+    zh: 阿罗拉臭臭泥
+    ja: ベトベトン（アローラのすがた）
+    ndex: 89
+    sprite: 10113
+    refs: &id033
+    - 24
+    form: 阿罗拉的样子
+  - en: Grubbin
+    zh: 强颚鸡母虫
+    ja: アゴジムシ
+    ndex: 736
+    sprite: 736
+    refs: &id173
+    - 24
+  - en: Charjabug
+    zh: 虫电宝
+    ja: デンヂムシ
+    ndex: 737
+    sprite: 737
+    refs: &id174
+    - 24
+  - en: Vikavolt
+    zh: 锹农炮虫
+    ja: クワガノン
+    ndex: 738
+    sprite: 738
+    refs: &id175
+    - 24
+  - en: Minior
+    zh: 小陨星
+    ja: メテノ
+    ndex: 774
+    sprite: 774
+    refs: &id178
+    - 24
+  - en: Drampa
+    zh: 老翁龙
+    ja: ジジーロン
+    ndex: 780
+    sprite: 780
+    refs: &id181
+    - 24
+  - en: Mega Drampa
+    zh: 超级老翁龙
+    ja: メガジジーロン
+    ndex: 780
+    sprite: 780
+    refs: &id182
+    - 79
+    form: 超级进化
+  - en: Necrozma
+    zh: 奈克洛兹玛
+    ja: ネクロズマ
+    ndex: 800
+    sprite: 800
+    refs: &id184
+    - 67
+    remark: 草案，由 Game Freak 定稿
+    remark_en: draft design, finished by Game Freak
+  - en: Ultra Necrozma
+    zh: 究极奈克洛兹玛
+    ja: ウルトラネクロズマ
+    ndex: 800
+    sprite: 800
+    refs: &id185
+    - 59
+    form: 究极
+    remark: 团队合作
+    remark_en: as part of a team
+  - en: Rookidee
+    zh: 稚山雀
+    ja: ココガラ
+    ndex: 821
+    sprite: 821
+    refs: &id188
+    - 66
+  - en: Corvisquire
+    zh: 蓝鸦
+    ja: アオガラス
+    ndex: 822
+    sprite: 822
+    refs: &id189
+    - 66
+  - en: Corviknight
+    zh: 钢铠鸦
+    ja: アーマーガア
+    ndex: 823
+    sprite: 823
+    refs: &id190
+    - 44
+    - 66
+  - en: Dracozolt
+    zh: 雷鸟龙
+    ja: パッチラゴン
+    ndex: 880
+    sprite: 880
+    refs: &id199
+    - 56
+  - en: Arctozolt
+    zh: 雷鸟海兽
+    ja: パッチルドン
+    ndex: 881
+    sprite: 881
+    refs: &id200
+    - 56
+  - en: Dracovish
+    zh: 鳃鱼龙
+    ja: ウオノラゴン
+    ndex: 882
+    sprite: 882
+    refs: &id201
+    - 56
+  - en: Arctovish
+    zh: 鳃鱼海兽
+    ja: ウオチルドン
+    ndex: 883
+    sprite: 883
+    refs: &id202
+    - 56
+  - en: Nacli
+    zh: 盐石宝
+    ja: コジオ
+    ndex: 932
+    sprite: 932
+    refs: &id213
+    - 70
+  - en: Naclstack
+    zh: 盐石垒
+    ja: ジオヅム
+    ndex: 933
+    sprite: 933
+    refs: &id214
+    - 70
+  - en: Garganacl
+    zh: 盐石巨灵
+    ja: キョジオーン
+    ndex: 934
+    sprite: 934
+    refs: &id215
+    - 70
+  - en: Espathra
+    zh: 超能艳鸵
+    ja: クエスパトラ
+    ndex: 956
+    sprite: 956
+    refs: &id222
+    - 70
+  - en: Flutter Mane
+    zh: 振翼发
+    ja: ハバタクカミ
+    ndex: 987
+    sprite: 987
+    refs: &id232
+    - 75
+  - en: Ogerpon
+    zh: 厄鬼椪
+    ja: オーガポン
+    ndex: 1017
+    sprite: 1017
+    refs: &id233
+    - 77
+  person: ariga-hitoshi
+- id: emi-ando
+  en: Emi Ando
+  ja: 安藤絵美
+  name: 安藤絵美
+  credits_key: ando emi
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games:
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design & Concept
+      role_ja: Pokémon Characters Design & Concept
+    state: both
+  - gen: 8
+    gf: false
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+      role_ja: Concept Art, Pokémon & Human Designs
+    state: credits
+  - gen: 9
+    gf: false
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン&じんぶつデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    state: credits
+  pokemon: []
+  person: ando-emi
+- id: haruka-tochigi
+  en: Haruka Tochigi
+  ja: 栃木遥
+  name: 栃木遥
+  credits_key: haruka tochigi
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: tochigi-haruka
+  avatar: /assets/img/people/tochigi-haruka.jpg
+- id: mayuka-yoshikawa
+  en: Mayuka Yoshikawa
+  ja: 吉川麻由花
+  name: 吉川麻由花
+  credits_key: mayuka yoshikawa
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: yoshikawa-mayuka
+- id: haruko-ichikawa
+  en: Haruko Ichikawa
+  ja: 市川春子
+  name: 市川春子
+  credits_key: haruko ichikawa
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+- id: nabana
+  en: Kensaku Nabana
+  ja: 菜花健作
+  name: 菜花健作
+  credits_key: kensaku nabana
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games:
+    - game: oras
+      short: ΩRαS
+      title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      role: Pokémon Characters Design
+      role_ja: ポケモン デザイン
+    state: credits
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon:
+  - en: Golisopod
+    zh: 具甲武者
+    ja: グソクムシャ
+    ndex: 768
+    sprite: 768
+    refs: &id177
+    - 41
+  person: nabana-kensaku
+  avatar: /assets/img/people/nabana-kensaku.jpg
+- id: take
+  en: take
+  ja: 竹
+  name: 竹
+  credits_key: take
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: take
+- id: sakiko-maeda
+  en: Sakiko Maeda
+  ja: 前田咲子
+  name: 前田咲子
+  credits_key: maeda sakiko
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon: []
+  person: maeda-sakiko
+- id: yuki-yamamoto
+  en: Yūki Yamamoto
+  ja: 山本裕輝
+  name: 山本裕輝
+  credits_key: yamamoto yuki
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: true
+    games:
+    - game: sun-moon
+      short: 日月
+      title: 宝可梦 太阳·月亮
+      role: Pokémon Characters Design
+      role_ja: Pokémon Characters Design
+    state: both
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+      role_ja: コンセプトアート / ポケモン＆じんぶつデザイン
+    state: both
+  pokemon: []
+  person: yamamoto-yuki
+- id: erika-kuga
+  en: Erika Kuga
+  ja: 久我絵理佳
+  name: 久我絵理佳
+  credits_key: erika kuga
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: false
+    games: []
+    state: ''
+  pokemon: []
+  person: kuga-erika
+- id: hiroto-ito
+  en: Hiroto Ito
+  ja: 伊藤博人
+  name: 伊藤博人
+  credits_key: hiroto ito
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+      role_ja: Pokémon Character Design
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon: []
+  person: ito-hiroto
+- id: kozaki
+  en: Yusuke Kozaki
+  ja: コザキユースケ
+  name: コザキユースケ
+  credits_key: kozaki yusuke
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Toxel
+    zh: 电音婴
+    ja: エレズン
+    ndex: 848
+    sprite: 848
+    refs: &id191
+    - 65
+  - en: Toxtricity
+    zh: 颤弦蝾螈
+    ja: ストリンダー
+    ndex: 849
+    sprite: 849
+    refs: &id192
+    - 65
+  - en: Falinks
+    zh: 列阵兵
+    ja: タイレーツ
+    ndex: 870
+    sprite: 870
+    refs: &id197
+    - 65
+  - en: Varoom
+    zh: 噗隆隆
+    ja: ブロロン
+    ndex: 965
+    sprite: 965
+    refs: &id226
+    - 74
+  - en: Revavroom
+    zh: 普隆隆姆
+    ja: ブロロローム
+    ndex: 966
+    sprite: 966
+    refs: &id227
+    - 74
+  - en: Cetoddle
+    zh: 走鲸
+    ja: アルクジラ
+    ndex: 974
+    sprite: 974
+    refs: &id230
+    - 74
+  - en: Cetitan
+    zh: 浩大鲸
+    ja: ハルクジラ
+    ndex: 975
+    sprite: 975
+    refs: &id231
+    - 74
+- id: ami
+  en: ami
+  ja: 網
+  name: 網
+  credits_key: ami
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: true
+    games:
+    - game: sword-shield
+      short: 剑盾
+      title: 宝可梦 剑·盾
+      role: Pokémon Design
+      role_ja: ワールドコンセプトセクション / ポケモンデザイン
+    state: both
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon: []
+- id: kurashima
+  en: Kazuyuki Kurashima
+  ja: 倉島一幸
+  name: 倉島一幸
+  credits_key: kazuyuki kurashima
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon:
+  - en: Greavard
+    zh: 墓仔狗
+    ja: ボチ
+    ndex: 971
+    sprite: 971
+    refs: &id228
+    - 68
+  - en: Houndstone
+    zh: 墓扬犬
+    ja: ハカドッグ
+    ndex: 972
+    sprite: 972
+    refs: &id229
+    - 69
+- id: ryosuke-oshiro
+  en: Ryosuke Ōshiro
+  ja: 大城良輔
+  name: 大城良輔
+  credits_key: oshiro ryosuke
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon: []
+- id: mari-shimazaki
+  en: Mari Shimazaki
+  ja: 島崎麻里
+  name: 島崎麻里
+  credits_key: mari shimazaki
+  gens:
+  - gen: 1
+    gf: false
+    games: []
+    state: ''
+  - gen: 2
+    gf: false
+    games: []
+    state: ''
+  - gen: 3
+    gf: false
+    games: []
+    state: ''
+  - gen: 4
+    gf: false
+    games: []
+    state: ''
+  - gen: 5
+    gf: false
+    games: []
+    state: ''
+  - gen: 6
+    gf: false
+    games: []
+    state: ''
+  - gen: 7
+    gf: false
+    games: []
+    state: ''
+  - gen: 8
+    gf: false
+    games: []
+    state: ''
+  - gen: 9
+    gf: true
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon Design
+      role_ja: ポケモンデザイン
+    state: both
+  pokemon: []
+unknown:
+- en: Foongus
+  zh: 哎呀球菇
+  ja: タマゲタケ
+  ndex: 590
+  sprite: 590
+  refs: &id121 []
+  unsure: true
+- en: Amoonguss
+  zh: 败露球菇
+  ja: モロバレル
+  ndex: 591
+  sprite: 591
+  refs: &id122 []
+  unsure: true
+- en: Ferroseed
+  zh: 种子铁球
+  ja: テッシード
+  ndex: 597
+  sprite: 597
+  refs: &id125 []
+  unsure: true
+- en: Ferrothorn
+  zh: 坚果哑铃
+  ja: ナットレイ
+  ndex: 598
+  sprite: 598
+  refs: &id126 []
+  unsure: true
+extra:
+- en: Misaki Hashimoto
+  ja: 橋本美咲
+  credits_key: hashimoto misaki
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games:
+    - game: lets-go
+      short: Let's Go
+      title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+      role: Pokémon Character Design
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: hashimoto-misaki
+  name: 橋本美咲
+- en: Suguru Nakatsui
+  ja: 中津井優
+  credits_key: nakatsui suguru
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games:
+    - game: usum
+      short: 究极日月
+      title: 宝可梦 究极之日·究极之月
+      role: Pokémon Characters Design & Concept
+  - gen: 8
+    games: []
+  - gen: 9
+    games: []
+  person: nakatsui-yu
+  name: 中津井优
+- en: Akira Katsuta
+  ja: ''
+  credits_key: akira katsuta
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: katsuta-akira
+  name: Akira Katsuta
+- en: Daiki Sato
+  ja: ''
+  credits_key: daiki sato
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: sato-daiki
+  name: Daiki Sato
+- en: Fumie Kittaka
+  ja: 橘高文美恵
+  credits_key: fumie kittaka
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: kittaka-fumie
+  name: 橘高文美恵
+- en: Junsei Kuninobu
+  ja: ''
+  credits_key: junsei kuninobu
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Pokémon Character Design
+  - gen: 9
+    games: []
+  person: kuninobu-junsei
+  name: Junsei Kuninobu
+- en: Kyoko Abe
+  ja: 阿部杏子
+  credits_key: abe kyoko
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: abe-kyoko
+  name: 阿部杏子
+- en: Nanae Tabata
+  ja: ''
+  credits_key: nanae tabata
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games: []
+  person: tabata-nanae
+  name: Nanae Tabata
+- en: Seimi Ohshiro
+  ja: ''
+  credits_key: oshiro seimi
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: ohshiro-seimi
+  name: Seimi Ohshiro
+- en: Tomomi Kaneko
+  ja: 金子智美
+  credits_key: kaneko tomomi
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: kaneko-tomomi
+  name: 金子智美
+- en: Tzuen Huang
+  ja: ''
+  credits_key: fuang tzuen
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games:
+    - game: legends-arceus
+      short: 阿尔宙斯
+      title: 宝可梦传说 阿尔宙斯
+      role: Concept Art, Pokémon & Human Designs
+  - gen: 9
+    games:
+    - game: scarlet-violet
+      short: 朱紫
+      title: 宝可梦 朱·紫
+      role: Pokémon & Character Design
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+  person: en-huang-tzu
+  name: Tzuen Huang
+- en: Chiashien Lin
+  ja: ''
+  credits_key: chiashien lin
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games: []
+  - gen: 9
+    games:
+    - game: area-zero
+      short: 零之秘宝
+      title: 宝可梦 朱·紫 零之秘宝
+      role: Pokémon & Character Design
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+- en: Rin Nishizawa
+  ja: ''
+  credits_key: nishizawa rin
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games: []
+  - gen: 9
+    games:
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+- en: Wakako Hideshima
+  ja: ''
+  credits_key: hideshima wakako
+  gens:
+  - gen: 1
+    games: []
+  - gen: 2
+    games: []
+  - gen: 3
+    games: []
+  - gen: 4
+    games: []
+  - gen: 5
+    games: []
+  - gen: 6
+    games: []
+  - gen: 7
+    games: []
+  - gen: 8
+    games: []
+  - gen: 9
+    games:
+    - game: legends-za
+      short: Z-A
+      title: Pokémon LEGENDS Z-A
+      role: Pokémon & Character Design
+dex:
+- en: Bulbasaur
+  zh: 妙蛙种子
+  ja: フシギダネ
+  ndex: 1
+  sprite: 1
+  refs: *id001
+  designer: nishida
+  designer_name: 西田敦子
+- en: Charmander
+  zh: 小火龙
+  ja: ヒトカゲ
+  ndex: 4
+  sprite: 4
+  refs: *id002
+  designer: nishida
+  designer_name: 西田敦子
+- en: Charmeleon
+  zh: 火恐龙
+  ja: リザード
+  ndex: 5
+  sprite: 5
+  refs: *id003
+  designer: nishida
+  designer_name: 西田敦子
+- en: Charizard
+  zh: 喷火龙
+  ja: リザードン
+  ndex: 6
+  sprite: 6
+  refs: *id004
+  designer: nishida
+  designer_name: 西田敦子
+- en: Mega Charizard X
+  zh: 超级喷火龙X
+  ja: メガリザードンX
+  ndex: 6
+  sprite: 6
+  refs: *id005
+  form: 超级进化
+  designer: nishida
+  designer_name: 西田敦子
+- en: Squirtle
+  zh: 杰尼龟
+  ja: ゼニガメ
+  ndex: 7
+  sprite: 7
+  refs: *id006
+  designer: nishida
+  designer_name: 西田敦子
+- en: Wartortle
+  zh: 卡咪龟
+  ja: カメール
+  ndex: 8
+  sprite: 8
+  refs: *id007
+  designer: nishida
+  designer_name: 西田敦子
+- en: Weedle
+  zh: 独角虫
+  ja: ビードル
+  ndex: 13
+  sprite: 13
+  refs: *id008
+  designer: nishida
+  designer_name: 西田敦子
+- en: Kakuna
+  zh: 铁壳蛹
+  ja: コクーン
+  ndex: 14
+  sprite: 14
+  refs: *id009
+  designer: nishida
+  designer_name: 西田敦子
+- en: Beedrill
+  zh: 大针蜂
+  ja: スピアー
+  ndex: 15
+  sprite: 15
+  refs: *id010
+  designer: nishida
+  designer_name: 西田敦子
+- en: Mega Beedrill
+  zh: 超级大针蜂
+  ja: メガスピアー
+  ndex: 15
+  sprite: 15
+  refs: *id011
+  form: 超级进化
+  designer: ariga
+  designer_name: ありがひとし
+- en: Pikachu
+  zh: 皮卡丘
+  ja: ピカチュウ
+  ndex: 25
+  sprite: 25
+  refs: *id012
+  designer: nishida
+  designer_name: 西田敦子
+- en: Raichu
+  zh: 雷丘
+  ja: ライチュウ
+  ndex: 26
+  sprite: 26
+  refs: *id013
+  designer: nishida
+  designer_name: 西田敦子
+- en: Clefairy
+  zh: 皮皮
+  ja: ピッピ
+  ndex: 35
+  sprite: 35
+  refs: *id014
+  designer: sugimori
+  designer_name: 杉森建
+- en: Vulpix
+  zh: 六尾
+  ja: ロコン
+  ndex: 37
+  sprite: 37
+  refs: *id015
+  designer: nishida
+  designer_name: 西田敦子
+- en: Ninetales
+  zh: 九尾
+  ja: キュウコン
+  ndex: 38
+  sprite: 38
+  refs: *id016
+  designer: nishida
+  designer_name: 西田敦子
+- en: Oddish
+  zh: 走路草
+  ja: ナゾノクサ
+  ndex: 43
+  sprite: 43
+  refs: *id017
+  designer: nishida
+  designer_name: 西田敦子
+- en: Gloom
+  zh: 臭臭花
+  ja: クサイハナ
+  ndex: 44
+  sprite: 44
+  refs: *id018
+  designer: nishida
+  designer_name: 西田敦子
+- en: Vileplume
+  zh: 霸王花
+  ja: ラフレシア
+  ndex: 45
+  sprite: 45
+  refs: *id019
+  designer: nishida
+  designer_name: 西田敦子
+- en: Diglett
+  zh: 地鼠
+  ja: ディグダ
+  ndex: 50
+  sprite: 50
+  refs: *id020
+  designer: morimoto
+  designer_name: 森本茂树
+- en: Mankey
+  zh: 猴怪
+  ja: マンキー
+  ndex: 56
+  sprite: 56
+  refs: *id021
+  designer: morimoto
+  designer_name: 森本茂树
+- en: Hisuian Growlithe
+  zh: 洗翠卡蒂狗
+  ja: ガーディ（ヒスイのすがた）
+  ndex: 58
+  sprite: 10229
+  refs: *id022
+  form: 洗翠的样子
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Hisuian Arcanine
+  zh: 洗翠风速狗
+  ja: ウインディ（ヒスイのすがた）
+  ndex: 59
+  sprite: 10230
+  refs: *id023
+  form: 洗翠的样子
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Bellsprout
+  zh: 喇叭芽
+  ja: マダツボミ
+  ndex: 69
+  sprite: 69
+  refs: *id024
+  designer: nishida
+  designer_name: 西田敦子
+- en: Weepinbell
+  zh: 口呆花
+  ja: ウツドン
+  ndex: 70
+  sprite: 70
+  refs: *id025
+  designer: nishida
+  designer_name: 西田敦子
+- en: Victreebel
+  zh: 大食花
+  ja: ウツボット
+  ndex: 71
+  sprite: 71
+  refs: *id026
+  designer: nishida
+  designer_name: 西田敦子
+- en: Alolan Geodude
+  zh: 阿罗拉小拳石
+  ja: イシツブテ（アローラのすがた）
+  ndex: 74
+  sprite: 10109
+  refs: *id027
+  form: 阿罗拉的样子
+  designer: ariga
+  designer_name: ありがひとし
+- en: Alolan Graveler
+  zh: 阿罗拉隆隆石
+  ja: ゴローン（アローラのすがた）
+  ndex: 75
+  sprite: 10110
+  refs: *id028
+  form: 阿罗拉的样子
+  designer: ariga
+  designer_name: ありがひとし
+- en: Alolan Golem
+  zh: 阿罗拉隆隆岩
+  ja: ゴローニャ（アローラのすがた）
+  ndex: 76
+  sprite: 10111
+  refs: *id029
+  form: 阿罗拉的样子
+  designer: ariga
+  designer_name: ありがひとし
+- en: Ponyta
+  zh: 小火马
+  ja: ポニータ
+  ndex: 77
+  sprite: 77
+  refs: *id030
+  designer: nishida
+  designer_name: 西田敦子
+- en: Rapidash
+  zh: 烈焰马
+  ja: ギャロップ
+  ndex: 78
+  sprite: 78
+  refs: *id031
+  designer: nishida
+  designer_name: 西田敦子
+- en: Alolan Grimer
+  zh: 阿罗拉臭泥
+  ja: ベトベター（アローラのすがた）
+  ndex: 88
+  sprite: 10112
+  refs: *id032
+  form: 阿罗拉的样子
+  designer: ariga
+  designer_name: ありがひとし
+- en: Alolan Muk
+  zh: 阿罗拉臭臭泥
+  ja: ベトベトン（アローラのすがた）
+  ndex: 89
+  sprite: 10113
+  refs: *id033
+  form: 阿罗拉的样子
+  designer: ariga
+  designer_name: ありがひとし
+- en: Tauros
+  zh: 肯泰罗
+  ja: ケンタロス
+  ndex: 128
+  sprite: 128
+  refs: *id034
+  designer: morimoto
+  designer_name: 森本茂树
+- en: Eevee
+  zh: 伊布
+  ja: イーブイ
+  ndex: 133
+  sprite: 133
+  refs: *id035
+  designer: fujiwara
+  designer_name: 藤原基史
+- en: Vaporeon
+  zh: 水伊布
+  ja: シャワーズ
+  ndex: 134
+  sprite: 134
+  refs: *id036
+  designer: nishida
+  designer_name: 西田敦子
+- en: Jolteon
+  zh: 雷伊布
+  ja: サンダース
+  ndex: 135
+  sprite: 135
+  refs: *id037
+  designer: fujiwara
+  designer_name: 藤原基史
+- en: Flareon
+  zh: 火伊布
+  ja: ブースター
+  ndex: 136
+  sprite: 136
+  refs: *id038
+  designer: fujiwara
+  designer_name: 藤原基史
+- en: Dratini
+  zh: 迷你龙
+  ja: ミニリュウ
+  ndex: 147
+  sprite: 147
+  refs: *id039
+  designer: nishida
+  designer_name: 西田敦子
+- en: Dragonair
+  zh: 哈克龙
+  ja: ハクリュー
+  ndex: 148
+  sprite: 148
+  refs: *id040
+  designer: nishida
+  designer_name: 西田敦子
+- en: Mega Mewtwo Y
+  zh: 超级超梦Y
+  ja: メガミュウツーY
+  ndex: 150
+  sprite: 150
+  refs: *id041
+  form: 超级进化
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Mew
+  zh: 梦幻
+  ja: ミュウ
+  ndex: 151
+  sprite: 151
+  refs: *id042
+  designer: morimoto
+  designer_name: 森本茂树
+- en: Hoothoot
+  zh: 咕咕
+  ja: ホーホー
+  ndex: 163
+  sprite: 163
+  refs: *id043
+  designer: sugimori
+  designer_name: 杉森建
+- en: Sudowoodo
+  zh: 树才怪
+  ja: ウソッキー
+  ndex: 185
+  sprite: 185
+  refs: *id044
+  designer: sugimori
+  designer_name: 杉森建
+- en: Espeon
+  zh: 太阳伊布
+  ja: エーフィ
+  ndex: 196
+  sprite: 196
+  refs: *id045
+  designer: nishida
+  designer_name: 西田敦子
+- en: Umbreon
+  zh: 月亮伊布
+  ja: ブラッキー
+  ndex: 197
+  sprite: 197
+  refs: *id046
+  designer: nishida
+  designer_name: 西田敦子
+- en: Unown
+  zh: 未知图腾
+  ja: アンノーン
+  ndex: 201
+  sprite: 201
+  refs: *id047
+  designer: sugimori
+  designer_name: 杉森建
+- en: Wobbuffet
+  zh: 果然翁
+  ja: ソーナンス
+  ndex: 202
+  sprite: 202
+  refs: *id048
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Dunsparce
+  zh: 土龙弟弟
+  ja: ノコッチ
+  ndex: 206
+  sprite: 206
+  refs: *id049
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Shuckle
+  zh: 壶壶
+  ja: ツボツボ
+  ndex: 213
+  sprite: 213
+  refs: *id050
+  designer: morimoto
+  designer_name: 森本茂树
+- en: Hisuian Sneasel
+  zh: 洗翠狃拉
+  ja: ニューラ（ヒスイのすがた）
+  ndex: 215
+  sprite: 10235
+  refs: *id051
+  form: 洗翠的样子
+  designer: ariga
+  designer_name: ありがひとし
+- en: Piloswine
+  zh: 长毛猪
+  ja: イノムー
+  ndex: 221
+  sprite: 221
+  refs: *id052
+  designer: morimoto
+  designer_name: 森本茂树
+- en: Raikou
+  zh: 雷公
+  ja: ライコウ
+  ndex: 243
+  sprite: 243
+  refs: *id053
+  designer: saitou
+  designer_name: 斉藤むねお
+- en: Entei
+  zh: 炎帝
+  ja: エンテイ
+  ndex: 244
+  sprite: 244
+  refs: *id054
+  designer: saitou
+  designer_name: 斉藤むねお
+- en: Suicune
+  zh: 水君
+  ja: スイクン
+  ndex: 245
+  sprite: 245
+  refs: *id055
+  designer: saitou
+  designer_name: 斉藤むねお
+- en: Celebi
+  zh: 时拉比
+  ja: セレビィ
+  ndex: 251
+  sprite: 251
+  refs: *id056
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Galarian Zigzagoon
+  zh: 伽勒尔蛇纹熊
+  ja: ジグザグマ（ガラルのすがた）
+  ndex: 263
+  sprite: 10174
+  refs: *id057
+  form: 伽勒尔的样子
+  designer: turner
+  designer_name: James Turner
+- en: Whismur
+  zh: 咕妞妞
+  ja: ゴニョニョ
+  ndex: 293
+  sprite: 293
+  refs: *id058
+  designer: unno
+  designer_name: 海野隆雄
+- en: Loudred
+  zh: 吼爆弹
+  ja: ドゴーム
+  ndex: 294
+  sprite: 294
+  refs: *id059
+  designer: unno
+  designer_name: 海野隆雄
+- en: Rayquaza
+  zh: 烈空坐
+  ja: レックウザ
+  ndex: 384
+  sprite: 384
+  refs: *id060
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Deoxys
+  zh: 代欧奇希斯
+  ja: デオキシス
+  ndex: 386
+  sprite: 386
+  refs: *id061
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Chimchar
+  zh: 小火焰猴
+  ja: ヒコザル
+  ndex: 390
+  sprite: 390
+  refs: *id062
+  designer: unno
+  designer_name: 海野隆雄
+- en: Monferno
+  zh: 猛火猴
+  ja: モウカザル
+  ndex: 391
+  sprite: 391
+  refs: *id063
+  designer: unno
+  designer_name: 海野隆雄
+- en: Infernape
+  zh: 烈焰猴
+  ja: ゴウカザル
+  ndex: 392
+  sprite: 392
+  refs: *id064
+  designer: unno
+  designer_name: 海野隆雄
+- en: Piplup
+  zh: 波加曼
+  ja: ポッチャマ
+  ndex: 393
+  sprite: 393
+  refs: *id065
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Kricketot
+  zh: 圆法师
+  ja: コロボーシ
+  ndex: 401
+  sprite: 401
+  refs: *id066
+  designer: nishida
+  designer_name: 西田敦子
+- en: Kricketune
+  zh: 音箱蟀
+  ja: コロトック
+  ndex: 402
+  sprite: 402
+  refs: *id067
+  designer: nishida
+  designer_name: 西田敦子
+- en: Garchomp
+  zh: 烈咬陆鲨
+  ja: ガブリアス
+  ndex: 445
+  sprite: 445
+  refs: *id068
+  designer: unno
+  designer_name: 海野隆雄
+- en: Croagunk
+  zh: 不良蛙
+  ja: グレッグル
+  ndex: 453
+  sprite: 453
+  refs: *id069
+  designer: unno
+  designer_name: 海野隆雄
+- en: Magmortar
+  zh: 鸭嘴炎兽
+  ja: ブーバーン
+  ndex: 467
+  sprite: 467
+  refs: *id070
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Leafeon
+  zh: 叶伊布
+  ja: リーフィア
+  ndex: 470
+  sprite: 470
+  refs: *id071
+  designer: nishida
+  designer_name: 西田敦子
+- en: Glaceon
+  zh: 冰伊布
+  ja: グレイシア
+  ndex: 471
+  sprite: 471
+  refs: *id072
+  designer: nishida
+  designer_name: 西田敦子
+- en: Dialga
+  zh: 帝牙卢卡
+  ja: ディアルガ
+  ndex: 483
+  sprite: 483
+  refs: *id073
+  designer: sugimori
+  designer_name: 杉森建
+- en: Palkia
+  zh: 帕路奇亚
+  ja: パルキア
+  ndex: 484
+  sprite: 484
+  refs: *id074
+  designer: sugimori
+  designer_name: 杉森建
+- en: Manaphy
+  zh: 玛纳霏
+  ja: マナフィ
+  ndex: 490
+  sprite: 490
+  refs: *id075
+  designer: sugimori
+  designer_name: 杉森建
+- en: Darkrai
+  zh: 达克莱伊
+  ja: ダークライ
+  ndex: 491
+  sprite: 491
+  refs: *id076
+  designer: yoshida
+  designer_name: 吉田宏信
+- en: Arceus
+  zh: 阿尔宙斯
+  ja: アルセウス
+  ndex: 493
+  sprite: 493
+  refs: *id077
+  designer: unno
+  designer_name: 海野隆雄
+- en: Victini
+  zh: 比克提尼
+  ja: ビクティニ
+  ndex: 494
+  sprite: 494
+  refs: *id078
+  designer: ibe
+  designer_name: 井部真那
+- en: Snivy
+  zh: 藤藤蛇
+  ja: ツタージャ
+  ndex: 495
+  sprite: 495
+  refs: *id079
+  designer: tanoue
+  designer_name: 田上怜子
+- en: Tepig
+  zh: 暖暖猪
+  ja: ポカブ
+  ndex: 498
+  sprite: 498
+  refs: *id080
+  designer: hyunjung
+  designer_name: 李ヒョンジョン
+- en: Pignite
+  zh: 炒炒猪
+  ja: チャオブー
+  ndex: 499
+  sprite: 499
+  refs: *id081
+  designer: hyunjung
+  designer_name: 李ヒョンジョン
+- en: Emboar
+  zh: 炎武王
+  ja: エンブオー
+  ndex: 500
+  sprite: 500
+  refs: *id082
+  designer: hyunjung
+  designer_name: 李ヒョンジョン
+- en: Oshawott
+  zh: 水水獭
+  ja: ミジュマル
+  ndex: 501
+  sprite: 501
+  refs: *id083
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Dewott
+  zh: 双刃丸
+  ja: フタチマル
+  ndex: 502
+  sprite: 502
+  refs: *id084
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Samurott
+  zh: 大剑鬼
+  ja: ダイケンキ
+  ndex: 503
+  sprite: 503
+  refs: *id085
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Lillipup
+  zh: 小约克
+  ja: ヨーテリー
+  ndex: 506
+  sprite: 506
+  refs: *id086
+  remark: 也可能是井部真那
+  remark_en: or Ibe?
+  unsure: true
+  designer: nishida
+  designer_name: 西田敦子
+- en: Herdier
+  zh: 哈约克
+  ja: ハーデリア
+  ndex: 507
+  sprite: 507
+  refs: *id087
+  unsure: true
+  designer: nishida
+  designer_name: 西田敦子
+- en: Stoutland
+  zh: 长毛狗
+  ja: ムーランド
+  ndex: 508
+  sprite: 508
+  refs: *id088
+  remark: 她最喜欢的一只
+  remark_en: her favorite
+  unsure: true
+  designer: nishida
+  designer_name: 西田敦子
+- en: Pansage
+  zh: 花椰猴
+  ja: ヤナップ
+  ndex: 511
+  sprite: 511
+  refs: *id089
+  designer: unno
+  designer_name: 海野隆雄
+- en: Pansear
+  zh: 爆香猴
+  ja: バオップ
+  ndex: 513
+  sprite: 513
+  refs: *id090
+  designer: unno
+  designer_name: 海野隆雄
+- en: Panpour
+  zh: 冷水猴
+  ja: ヒヤップ
+  ndex: 515
+  sprite: 515
+  refs: *id091
+  designer: unno
+  designer_name: 海野隆雄
+- en: Munna
+  zh: 食梦梦
+  ja: ムンナ
+  ndex: 517
+  sprite: 517
+  refs: *id092
+  designer: nishida
+  designer_name: 西田敦子
+- en: Musharna
+  zh: 梦梦蚀
+  ja: ムシャーナ
+  ndex: 518
+  sprite: 518
+  refs: *id093
+  designer: nishida
+  designer_name: 西田敦子
+- en: Pidove
+  zh: 豆豆鸽
+  ja: マメパト
+  ndex: 519
+  sprite: 519
+  refs: *id094
+  designer: tanoue
+  designer_name: 田上怜子
+- en: Audino
+  zh: 差不多娃娃
+  ja: タブンネ
+  ndex: 531
+  sprite: 531
+  refs: *id095
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Throh
+  zh: 投摔鬼
+  ja: ナゲキ
+  ndex: 538
+  sprite: 538
+  refs: *id096
+  designer: sugimori
+  designer_name: 杉森建
+- en: Sawk
+  zh: 打击鬼
+  ja: ダゲキ
+  ndex: 539
+  sprite: 539
+  refs: *id097
+  designer: sugimori
+  designer_name: 杉森建
+- en: Swadloon
+  zh: 宝包茧
+  ja: クルマユ
+  ndex: 541
+  sprite: 541
+  refs: *id098
+  designer: tanoue
+  designer_name: 田上怜子
+- en: Venipede
+  zh: 百足蜈蚣
+  ja: フシデ
+  ndex: 543
+  sprite: 543
+  refs: *id099
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Whirlipede
+  zh: 车轮球
+  ja: ホイーガ
+  ndex: 544
+  sprite: 544
+  refs: *id100
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Scolipede
+  zh: 蜈蚣王
+  ja: ペンドラー
+  ndex: 545
+  sprite: 545
+  refs: *id101
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Cottonee
+  zh: 木棉球
+  ja: モンメン
+  ndex: 546
+  sprite: 546
+  refs: *id102
+  designer: nishida
+  designer_name: 西田敦子
+- en: Whimsicott
+  zh: 风妖精
+  ja: エルフーン
+  ndex: 547
+  sprite: 547
+  refs: *id103
+  designer: nishida
+  designer_name: 西田敦子
+- en: Petilil
+  zh: 百合根娃娃
+  ja: チュリネ
+  ndex: 548
+  sprite: 548
+  refs: *id104
+  designer: nishida
+  designer_name: 西田敦子
+- en: Lilligant
+  zh: 裙儿小姐
+  ja: ドレディア
+  ndex: 549
+  sprite: 549
+  refs: *id105
+  designer: nishida
+  designer_name: 西田敦子
+- en: Darumaka
+  zh: 火红不倒翁
+  ja: ダルマッカ
+  ndex: 554
+  sprite: 554
+  refs: *id106
+  designer: ibe
+  designer_name: 井部真那
+- en: Darmanitan
+  zh: 达摩狒狒
+  ja: ヒヒダルマ
+  ndex: 555
+  sprite: 555
+  refs: *id107
+  designer: ibe
+  designer_name: 井部真那
+- en: Sigilyph
+  zh: 象征鸟
+  ja: シンボラー
+  ndex: 561
+  sprite: 561
+  refs: *id108
+  designer: moritsugu
+  designer_name: 森次慶子
+- en: Zorua
+  zh: 索罗亚
+  ja: ゾロア
+  ndex: 570
+  sprite: 570
+  refs: *id109
+  designer: nishida
+  designer_name: 西田敦子
+- en: Hisuian Zorua
+  zh: 洗翠索罗亚
+  ja: ゾロア（ヒスイのすがた）
+  ndex: 570
+  sprite: 10238
+  refs: *id110
+  form: 洗翠的样子
+  designer: nishida
+  designer_name: 西田敦子
+- en: Zoroark
+  zh: 索罗亚克
+  ja: ゾロアーク
+  ndex: 571
+  sprite: 571
+  refs: *id111
+  designer: nishida
+  designer_name: 西田敦子
+- en: Hisuian Zoroark
+  zh: 洗翠索罗亚克
+  ja: ゾロアーク（ヒスイのすがた）
+  ndex: 571
+  sprite: 10239
+  refs: *id112
+  form: 洗翠的样子
+  designer: nishida
+  designer_name: 西田敦子
+- en: Minccino
+  zh: 泡沫栗鼠
+  ja: チラーミィ
+  ndex: 572
+  sprite: 572
+  refs: *id113
+  designer: nishida
+  designer_name: 西田敦子
+- en: Cinccino
+  zh: 奇诺栗鼠
+  ja: チラチーノ
+  ndex: 573
+  sprite: 573
+  refs: *id114
+  designer: nishida
+  designer_name: 西田敦子
+- en: Reuniclus
+  zh: 人造细胞卵
+  ja: ランクルス
+  ndex: 579
+  sprite: 579
+  refs: *id115
+  designer: moritsugu
+  designer_name: 森次慶子
+- en: Vanillite
+  zh: 迷你冰
+  ja: バニプッチ
+  ndex: 582
+  sprite: 582
+  refs: *id116
+  designer: turner
+  designer_name: James Turner
+- en: Vanillish
+  zh: 多多冰
+  ja: バニリッチ
+  ndex: 583
+  sprite: 583
+  refs: *id117
+  designer: turner
+  designer_name: James Turner
+- en: Vanilluxe
+  zh: 双倍多多冰
+  ja: バイバニラ
+  ndex: 584
+  sprite: 584
+  refs: *id118
+  designer: turner
+  designer_name: James Turner
+- en: Karrablast
+  zh: 盖盖虫
+  ja: カブルモ
+  ndex: 588
+  sprite: 588
+  refs: *id119
+  designer: nishida
+  designer_name: 西田敦子
+- en: Escavalier
+  zh: 骑士蜗牛
+  ja: シュバルゴ
+  ndex: 589
+  sprite: 589
+  refs: *id120
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Foongus
+  zh: 哎呀球菇
+  ja: タマゲタケ
+  ndex: 590
+  sprite: 590
+  refs: *id121
+  unsure: true
+  designer: unknown-a
+  designer_name: 不明人物 A
+- en: Amoonguss
+  zh: 败露球菇
+  ja: モロバレル
+  ndex: 591
+  sprite: 591
+  refs: *id122
+  unsure: true
+  designer: unknown-a
+  designer_name: 不明人物 A
+- en: Frillish
+  zh: 轻飘飘
+  ja: プルリル
+  ndex: 592
+  sprite: 592
+  refs: *id123
+  designer: ibe
+  designer_name: 井部真那
+- en: Galvantula
+  zh: 电蜘蛛
+  ja: デンチュラ
+  ndex: 596
+  sprite: 596
+  refs: *id124
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Ferroseed
+  zh: 种子铁球
+  ja: テッシード
+  ndex: 597
+  sprite: 597
+  refs: *id125
+  unsure: true
+  designer: unknown-a
+  designer_name: 不明人物 A
+- en: Ferrothorn
+  zh: 坚果哑铃
+  ja: ナットレイ
+  ndex: 598
+  sprite: 598
+  refs: *id126
+  unsure: true
+  designer: unknown-a
+  designer_name: 不明人物 A
+- en: Klink
+  zh: 齿轮儿
+  ja: ギアル
+  ndex: 599
+  sprite: 599
+  refs: *id127
+  designer: moritsugu
+  designer_name: 森次慶子
+- en: Klang
+  zh: 齿轮组
+  ja: ギギアル
+  ndex: 600
+  sprite: 600
+  refs: *id128
+  designer: moritsugu
+  designer_name: 森次慶子
+- en: Klinklang
+  zh: 齿轮怪
+  ja: ギギギアル
+  ndex: 601
+  sprite: 601
+  refs: *id129
+  designer: moritsugu
+  designer_name: 森次慶子
+- en: Tynamo
+  zh: 麻麻小鱼
+  ja: シビシラス
+  ndex: 602
+  sprite: 602
+  refs: *id130
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Eelektrik
+  zh: 麻麻鳗
+  ja: シビビール
+  ndex: 603
+  sprite: 603
+  refs: *id131
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Eelektross
+  zh: 麻麻鳗鱼王
+  ja: シビルドン
+  ndex: 604
+  sprite: 604
+  refs: *id132
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Axew
+  zh: 牙牙
+  ja: キバゴ
+  ndex: 610
+  sprite: 610
+  refs: *id133
+  designer: ibe
+  designer_name: 井部真那
+- en: Fraxure
+  zh: 斧牙龙
+  ja: オノンド
+  ndex: 611
+  sprite: 611
+  refs: *id134
+  designer: ibe
+  designer_name: 井部真那
+- en: Haxorus
+  zh: 双斧战龙
+  ja: オノノクス
+  ndex: 612
+  sprite: 612
+  refs: *id135
+  designer: ibe
+  designer_name: 井部真那
+- en: Shelmet
+  zh: 小嘴蜗
+  ja: チョボマキ
+  ndex: 616
+  sprite: 616
+  refs: *id136
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Stunfisk
+  zh: 泥巴鱼
+  ja: マッギョ
+  ndex: 618
+  sprite: 618
+  refs: *id137
+  designer: ibe
+  designer_name: 井部真那
+- en: Mienshao
+  zh: 师父鼬
+  ja: コジョンド
+  ndex: 620
+  sprite: 620
+  refs: *id138
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Golett
+  zh: 泥偶小人
+  ja: ゴビット
+  ndex: 622
+  sprite: 622
+  refs: *id139
+  designer: turner
+  designer_name: James Turner
+- en: Golurk
+  zh: 泥偶巨人
+  ja: ゴルーグ
+  ndex: 623
+  sprite: 623
+  refs: *id140
+  designer: turner
+  designer_name: James Turner
+- en: Rufflet
+  zh: 毛头小鹰
+  ja: ワシボン
+  ndex: 627
+  sprite: 627
+  refs: *id141
+  designer: unno
+  designer_name: 海野隆雄
+- en: Braviary
+  zh: 勇士雄鹰
+  ja: ウォーグル
+  ndex: 628
+  sprite: 628
+  refs: *id142
+  designer: unno
+  designer_name: 海野隆雄
+- en: Vullaby
+  zh: 秃鹰丫头
+  ja: バルチャイ
+  ndex: 629
+  sprite: 629
+  refs: *id143
+  designer: turner
+  designer_name: James Turner
+- en: Mandibuzz
+  zh: 秃鹰娜
+  ja: バルジーナ
+  ndex: 630
+  sprite: 630
+  refs: *id144
+  designer: turner
+  designer_name: James Turner
+- en: Heatmor
+  zh: 熔蚁兽
+  ja: クイタラン
+  ndex: 631
+  sprite: 631
+  refs: *id145
+  designer: sugimori
+  designer_name: 杉森建
+- en: Durant
+  zh: 铁蚁
+  ja: アイアント
+  ndex: 632
+  sprite: 632
+  refs: *id146
+  designer: sugimori
+  designer_name: 杉森建
+- en: Cobalion
+  zh: 勾帕路翁
+  ja: コバルオン
+  ndex: 638
+  sprite: 638
+  refs: *id147
+  designer: unno
+  designer_name: 海野隆雄
+- en: Terrakion
+  zh: 代拉基翁
+  ja: テラキオン
+  ndex: 639
+  sprite: 639
+  refs: *id148
+  designer: unno
+  designer_name: 海野隆雄
+- en: Virizion
+  zh: 毕力吉翁
+  ja: ビリジオン
+  ndex: 640
+  sprite: 640
+  refs: *id149
+  designer: unno
+  designer_name: 海野隆雄
+- en: Reshiram
+  zh: 莱希拉姆
+  ja: レシラム
+  ndex: 643
+  sprite: 643
+  refs: *id150
+  designer: sugimori
+  designer_name: 杉森建
+- en: Zekrom
+  zh: 捷克罗姆
+  ja: ゼクロム
+  ndex: 644
+  sprite: 644
+  refs: *id151
+  designer: sugimori
+  designer_name: 杉森建
+- en: Froakie
+  zh: 呱呱泡蛙
+  ja: ケロマツ
+  ndex: 656
+  sprite: 656
+  refs: *id152
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Greninja
+  zh: 甲贺忍蛙
+  ja: ゲッコウガ
+  ndex: 658
+  sprite: 658
+  refs: *id153
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Pancham
+  zh: 顽皮熊猫
+  ja: ヤンチャム
+  ndex: 674
+  sprite: 674
+  refs: *id154
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Pangoro
+  zh: 霸道熊猫
+  ja: ゴロンダ
+  ndex: 675
+  sprite: 675
+  refs: *id155
+  designer: ariga
+  designer_name: ありがひとし
+- en: Honedge
+  zh: 独剑鞘
+  ja: ヒトツキ
+  ndex: 679
+  sprite: 679
+  refs: *id156
+  designer: ariga
+  designer_name: ありがひとし
+- en: Doublade
+  zh: 双剑鞘
+  ja: ニダンギル
+  ndex: 680
+  sprite: 680
+  refs: *id157
+  designer: ariga
+  designer_name: ありがひとし
+- en: Aegislash
+  zh: 坚盾剑怪
+  ja: ギルガルド
+  ndex: 681
+  sprite: 681
+  refs: *id158
+  designer: ariga
+  designer_name: ありがひとし
+- en: Aromatisse
+  zh: 芳香精
+  ja: フレフワン
+  ndex: 683
+  sprite: 683
+  refs: *id159
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Inkay
+  zh: 好啦鱿
+  ja: マーイーカ
+  ndex: 686
+  sprite: 686
+  refs: *id160
+  designer: ariga
+  designer_name: ありがひとし
+- en: Malamar
+  zh: 乌贼王
+  ja: カラマネロ
+  ndex: 687
+  sprite: 687
+  refs: *id161
+  designer: ariga
+  designer_name: ありがひとし
+- en: Tyrunt
+  zh: 宝宝暴龙
+  ja: チゴラス
+  ndex: 696
+  sprite: 696
+  refs: *id162
+  designer: ariga
+  designer_name: ありがひとし
+- en: Tyrantrum
+  zh: 怪颚龙
+  ja: ガチゴラス
+  ndex: 697
+  sprite: 697
+  refs: *id163
+  designer: ariga
+  designer_name: ありがひとし
+- en: Amaura
+  zh: 冰雪龙
+  ja: アマルス
+  ndex: 698
+  sprite: 698
+  refs: *id164
+  designer: ariga
+  designer_name: ありがひとし
+- en: Aurorus
+  zh: 冰雪巨龙
+  ja: アマルルガ
+  ndex: 699
+  sprite: 699
+  refs: *id165
+  designer: ariga
+  designer_name: ありがひとし
+- en: Sylveon
+  zh: 仙子伊布
+  ja: ニンフィア
+  ndex: 700
+  sprite: 700
+  refs: *id166
+  designer: nishida
+  designer_name: 西田敦子
+- en: Goomy
+  zh: 黏黏宝
+  ja: ヌメラ
+  ndex: 704
+  sprite: 704
+  refs: *id167
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Klefki
+  zh: 钥圈儿
+  ja: クレッフィ
+  ndex: 707
+  sprite: 707
+  refs: *id168
+  designer: ibe
+  designer_name: 井部真那
+- en: Phantump
+  zh: 小木灵
+  ja: ボクレー
+  ndex: 708
+  sprite: 708
+  refs: *id169
+  designer: turner
+  designer_name: James Turner
+- en: Trevenant
+  zh: 朽木妖
+  ja: オーロット
+  ndex: 709
+  sprite: 709
+  refs: *id170
+  designer: turner
+  designer_name: James Turner
+- en: Xerneas
+  zh: 哲尔尼亚斯
+  ja: ゼルネアス
+  ndex: 716
+  sprite: 716
+  refs: *id171
+  remark: 与大村祐介合作
+  remark_en: w/ Yūsuke Ōmura
+  designer: sugimori
+  designer_name: 杉森建
+- en: Yveltal
+  zh: 伊裴尔塔尔
+  ja: イベルタル
+  ndex: 717
+  sprite: 717
+  refs: *id172
+  remark: 与大村祐介合作
+  remark_en: w/ Yūsuke Ōmura
+  designer: sugimori
+  designer_name: 杉森建
+- en: Grubbin
+  zh: 强颚鸡母虫
+  ja: アゴジムシ
+  ndex: 736
+  sprite: 736
+  refs: *id173
+  designer: ariga
+  designer_name: ありがひとし
+- en: Charjabug
+  zh: 虫电宝
+  ja: デンヂムシ
+  ndex: 737
+  sprite: 737
+  refs: *id174
+  designer: ariga
+  designer_name: ありがひとし
+- en: Vikavolt
+  zh: 锹农炮虫
+  ja: クワガノン
+  ndex: 738
+  sprite: 738
+  refs: *id175
+  designer: ariga
+  designer_name: ありがひとし
+- en: Morelull
+  zh: 睡睡菇
+  ja: ネマシュ
+  ndex: 755
+  sprite: 755
+  refs: *id176
+  unsure: true
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Golisopod
+  zh: 具甲武者
+  ja: グソクムシャ
+  ndex: 768
+  sprite: 768
+  refs: *id177
+  designer: nabana
+  designer_name: 菜花健作
+- en: Minior
+  zh: 小陨星
+  ja: メテノ
+  ndex: 774
+  sprite: 774
+  refs: *id178
+  designer: ariga
+  designer_name: ありがひとし
+- en: Mimikyu
+  zh: 谜拟丘
+  ja: ミミッキュ
+  ndex: 778
+  sprite: 778
+  refs: *id179
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Bruxish
+  zh: 磨牙彩皮鱼
+  ja: ハギギシリ
+  ndex: 779
+  sprite: 779
+  refs: *id180
+  remark: 定稿；原案出自一位「女性设计师」
+  remark_en: finalized design; original by 'female designer'
+  designer: turner
+  designer_name: James Turner
+- en: Drampa
+  zh: 老翁龙
+  ja: ジジーロン
+  ndex: 780
+  sprite: 780
+  refs: *id181
+  designer: ariga
+  designer_name: ありがひとし
+- en: Mega Drampa
+  zh: 超级老翁龙
+  ja: メガジジーロン
+  ndex: 780
+  sprite: 780
+  refs: *id182
+  form: 超级进化
+  designer: ariga
+  designer_name: ありがひとし
+- en: Buzzwole
+  zh: 爆肌蚊
+  ja: マッシブーン
+  ndex: 794
+  sprite: 794
+  refs: *id183
+  designer: turner
+  designer_name: James Turner
+- en: Necrozma
+  zh: 奈克洛兹玛
+  ja: ネクロズマ
+  ndex: 800
+  sprite: 800
+  refs: *id184
+  remark: 草案，由 Game Freak 定稿
+  remark_en: draft design, finished by Game Freak
+  designer: ariga
+  designer_name: ありがひとし
+- en: Ultra Necrozma
+  zh: 究极奈克洛兹玛
+  ja: ウルトラネクロズマ
+  ndex: 800
+  sprite: 800
+  refs: *id185
+  form: 究极
+  remark: 团队合作
+  remark_en: as part of a team
+  designer: ariga
+  designer_name: ありがひとし
+- en: Poipole
+  zh: 毒贝比
+  ja: ベベノム
+  ndex: 803
+  sprite: 803
+  refs: *id186
+  designer: turner
+  designer_name: James Turner
+- en: Naganadel
+  zh: 四颚针龙
+  ja: アーゴヨン
+  ndex: 804
+  sprite: 804
+  refs: *id187
+  designer: turner
+  designer_name: James Turner
+- en: Rookidee
+  zh: 稚山雀
+  ja: ココガラ
+  ndex: 821
+  sprite: 821
+  refs: *id188
+  designer: ariga
+  designer_name: ありがひとし
+- en: Corvisquire
+  zh: 蓝鸦
+  ja: アオガラス
+  ndex: 822
+  sprite: 822
+  refs: *id189
+  designer: ariga
+  designer_name: ありがひとし
+- en: Corviknight
+  zh: 钢铠鸦
+  ja: アーマーガア
+  ndex: 823
+  sprite: 823
+  refs: *id190
+  designer: ariga
+  designer_name: ありがひとし
+- en: Toxel
+  zh: 电音婴
+  ja: エレズン
+  ndex: 848
+  sprite: 848
+  refs: *id191
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Toxtricity
+  zh: 颤弦蝾螈
+  ja: ストリンダー
+  ndex: 849
+  sprite: 849
+  refs: *id192
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Centiskorch
+  zh: 焚焰蚣
+  ja: マルヤクデ
+  ndex: 851
+  sprite: 851
+  refs: *id193
+  designer: turner
+  designer_name: James Turner
+- en: Sinistea
+  zh: 来悲茶
+  ja: ヤバチャ
+  ndex: 854
+  sprite: 854
+  refs: *id194
+  designer: turner
+  designer_name: James Turner
+- en: Polteageist
+  zh: 怖思壶
+  ja: ポットデス
+  ndex: 855
+  sprite: 855
+  refs: *id195
+  designer: turner
+  designer_name: James Turner
+- en: Obstagoon
+  zh: 堵拦熊
+  ja: タチフサグマ
+  ndex: 862
+  sprite: 862
+  refs: *id196
+  designer: turner
+  designer_name: James Turner
+- en: Falinks
+  zh: 列阵兵
+  ja: タイレーツ
+  ndex: 870
+  sprite: 870
+  refs: *id197
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Indeedee
+  zh: 爱管侍
+  ja: イエッサン
+  ndex: 876
+  sprite: 876
+  refs: *id198
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Dracozolt
+  zh: 雷鸟龙
+  ja: パッチラゴン
+  ndex: 880
+  sprite: 880
+  refs: *id199
+  designer: ariga
+  designer_name: ありがひとし
+- en: Arctozolt
+  zh: 雷鸟海兽
+  ja: パッチルドン
+  ndex: 881
+  sprite: 881
+  refs: *id200
+  designer: ariga
+  designer_name: ありがひとし
+- en: Dracovish
+  zh: 鳃鱼龙
+  ja: ウオノラゴン
+  ndex: 882
+  sprite: 882
+  refs: *id201
+  designer: ariga
+  designer_name: ありがひとし
+- en: Arctovish
+  zh: 鳃鱼海兽
+  ja: ウオチルドン
+  ndex: 883
+  sprite: 883
+  refs: *id202
+  designer: ariga
+  designer_name: ありがひとし
+- en: Zacian
+  zh: 苍响
+  ja: ザシアン
+  ndex: 888
+  sprite: 888
+  refs: *id203
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Zamazenta
+  zh: 藏玛然特
+  ja: ザマゼンタ
+  ndex: 889
+  sprite: 889
+  refs: *id204
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Kubfu
+  zh: 熊徒弟
+  ja: ダクマ
+  ndex: 891
+  sprite: 891
+  refs: *id205
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Urshifu
+  zh: 武道熊师
+  ja: ウーラオス
+  ndex: 892
+  sprite: 892
+  refs: *id206
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Sneasler
+  zh: 大狃拉
+  ja: オオニューラ
+  ndex: 903
+  sprite: 903
+  refs: *id207
+  designer: ariga
+  designer_name: ありがひとし
+- en: Pawmi
+  zh: 布拨
+  ja: パモ
+  ndex: 921
+  sprite: 921
+  refs: *id208
+  designer: nishida
+  designer_name: 西田敦子
+- en: Pawmo
+  zh: 布土拨
+  ja: パモット
+  ndex: 922
+  sprite: 922
+  refs: *id209
+  designer: nishida
+  designer_name: 西田敦子
+- en: Pawmot
+  zh: 巴布土拨
+  ja: パーモット
+  ndex: 923
+  sprite: 923
+  refs: *id210
+  designer: nishida
+  designer_name: 西田敦子
+- en: Tandemaus
+  zh: 一对鼠
+  ja: ワッカネズミ
+  ndex: 924
+  sprite: 924
+  refs: *id211
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Maushold
+  zh: 一家鼠
+  ja: イッカネズミ
+  ndex: 925
+  sprite: 925
+  refs: *id212
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Nacli
+  zh: 盐石宝
+  ja: コジオ
+  ndex: 932
+  sprite: 932
+  refs: *id213
+  designer: ariga
+  designer_name: ありがひとし
+- en: Naclstack
+  zh: 盐石垒
+  ja: ジオヅム
+  ndex: 933
+  sprite: 933
+  refs: *id214
+  designer: ariga
+  designer_name: ありがひとし
+- en: Garganacl
+  zh: 盐石巨灵
+  ja: キョジオーン
+  ndex: 934
+  sprite: 934
+  refs: *id215
+  designer: ariga
+  designer_name: ありがひとし
+- en: Charcadet
+  zh: 炭小侍
+  ja: カルボウ
+  ndex: 935
+  sprite: 935
+  refs: *id216
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Armarouge
+  zh: 红莲铠骑
+  ja: グレンアルマ
+  ndex: 936
+  sprite: 936
+  refs: *id217
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Ceruledge
+  zh: 苍炎刃鬼
+  ja: ソウブレイズ
+  ndex: 937
+  sprite: 937
+  refs: *id218
+  designer: kitakaze
+  designer_name: 北風友裕
+- en: Tadbulb
+  zh: 光蚪仔
+  ja: ズピカ
+  ndex: 938
+  sprite: 938
+  refs: *id219
+  designer: nishida
+  designer_name: 西田敦子
+- en: Bellibolt
+  zh: 电肚蛙
+  ja: ハラバリー
+  ndex: 939
+  sprite: 939
+  refs: *id220
+  designer: nishida
+  designer_name: 西田敦子
+- en: Flittle
+  zh: 飘飘雏
+  ja: ヒラヒナ
+  ndex: 955
+  sprite: 955
+  refs: *id221
+  designer: nishida
+  designer_name: 西田敦子
+- en: Espathra
+  zh: 超能艳鸵
+  ja: クエスパトラ
+  ndex: 956
+  sprite: 956
+  refs: *id222
+  designer: ariga
+  designer_name: ありがひとし
+- en: Tinkatink
+  zh: 小锻匠
+  ja: カヌチャン
+  ndex: 957
+  sprite: 957
+  refs: *id223
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Tinkatuff
+  zh: 巧锻匠
+  ja: ナカヌチャン
+  ndex: 958
+  sprite: 958
+  refs: *id224
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Tinkaton
+  zh: 巨锻匠
+  ja: デカヌチャン
+  ndex: 959
+  sprite: 959
+  refs: *id225
+  designer: mizutani
+  designer_name: 水谷恵
+- en: Varoom
+  zh: 噗隆隆
+  ja: ブロロン
+  ndex: 965
+  sprite: 965
+  refs: *id226
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Revavroom
+  zh: 普隆隆姆
+  ja: ブロロローム
+  ndex: 966
+  sprite: 966
+  refs: *id227
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Greavard
+  zh: 墓仔狗
+  ja: ボチ
+  ndex: 971
+  sprite: 971
+  refs: *id228
+  designer: kurashima
+  designer_name: 倉島一幸
+- en: Houndstone
+  zh: 墓扬犬
+  ja: ハカドッグ
+  ndex: 972
+  sprite: 972
+  refs: *id229
+  designer: kurashima
+  designer_name: 倉島一幸
+- en: Cetoddle
+  zh: 走鲸
+  ja: アルクジラ
+  ndex: 974
+  sprite: 974
+  refs: *id230
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Cetitan
+  zh: 浩大鲸
+  ja: ハルクジラ
+  ndex: 975
+  sprite: 975
+  refs: *id231
+  designer: kozaki
+  designer_name: コザキユースケ
+- en: Flutter Mane
+  zh: 振翼发
+  ja: ハバタクカミ
+  ndex: 987
+  sprite: 987
+  refs: *id232
+  designer: ariga
+  designer_name: ありがひとし
+- en: Ogerpon
+  zh: 厄鬼椪
+  ja: オーガポン
+  ndex: 1017
+  sprite: 1017
+  refs: *id233
+  designer: ariga
+  designer_name: ありがひとし
+sources:
+- n: 1
+  text: ''
+  links:
+  - url: https://web.archive.org/web/20230407010514/https://www.nintendo.co.jp/nom/0007/gfreak/page06.html
+    label: nintendo.co.jp/nom/0007/gfreak/page06.html
+    archived: true
+  used:
+  - zh: 梦幻
+    designer: morimoto
+  - zh: 树才怪
+    designer: sugimori
+- n: 2
+  text: ''
+  links:
+  - url: http://kai-you.net/article/5034
+    label: kai-you.net/article/5034
+  used:
+  - zh: 雷公
+    designer: saitou
+  - zh: 炎帝
+    designer: saitou
+  - zh: 水君
+    designer: saitou
+- n: 3
+  text: ''
+  links:
+  - url: http://www.nintendo.co.uk/Iwata-Asks/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/1-Just-Making-The-Last-Train/1-Just-Making-The-Last-Train-225842.html
+    label: nintendo.co.uk/Iwata-Asks/Iwata-Asks-Pokemon-HeartGold-Versio…
+  used:
+  - zh: 梦幻
+    designer: morimoto
+  post: 2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew
+- n: 4
+  text: ''
+  links:
+  - url: http://web.archive.org/web/20071103203031/http://blog.pokemon-movie.jp/archives/2006/07/post_85.html
+    label: blog.pokemon-movie.jp/archives/2006/07/post_85.html
+    archived: true
+  used:
+  - zh: 玛纳霏
+    designer: sugimori
+- n: 5
+  text: ''
+  links:
+  - url: http://web.archive.org/web/20100111034554/http://www.go-pokemon.com/op/news/articles/16.html
+    label: go-pokemon.com/op/news/articles/16.html
+    archived: true
+  used:
+  - zh: 帝牙卢卡
+    designer: sugimori
+  - zh: 帕路奇亚
+    designer: sugimori
+  - zh: 代欧奇希斯
+    designer: yoshida
+  - zh: 鸭嘴炎兽
+    designer: yoshida
+- n: 6
+  text: ''
+  links:
+  - url: http://www.eurogamer.net/articles/2011-02-22-the-brains-behind-pokemon-black-and-white-interview?page=2
+    label: eurogamer.net/articles/2011-02-22-the-brains-behind-pokemon-b…
+  used:
+  - zh: 比克提尼
+    designer: ibe
+  post: 2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains
+- n: 7
+  text: ''
+  links:
+  - url: https://twitter.com/Junichi_Masuda/status/300020609323261954
+    label: twitter.com/Junichi_Masuda/status/300020609323261954
+  used:
+  - zh: 泥巴鱼
+    designer: ibe
+- n: 8
+  text: ''
+  links:
+  - url: http://www.pokebeach.com/2010/09/pokemon-peer-interview-translations
+    label: pokebeach.com/2010/09/pokemon-peer-interview-translations
+  used:
+  - zh: 波加曼
+    designer: ohmura
+  - zh: 水水獭
+    designer: ohmura
+  - zh: 藤藤蛇
+    designer: tanoue
+  - zh: 豆豆鸽
+    designer: tanoue
+  - zh: 宝包茧
+    designer: tanoue
+  post: 2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers
+- n: 9
+  text: Nintendo Dream vol. 187 interview
+  links:
+  - url: http://www.nindori.com/books/backnumber/187.html
+    label: nindori.com/books/backnumber/187.html
+  used:
+  - zh: 壶壶
+    designer: morimoto
+  zh: Nintendo DREAM vol.187 访谈
+- n: 10
+  text: ''
+  links:
+  - url: http://www.pokemon.com/us/play-pokemon/worlds/2014/info/vips/
+    label: pokemon.com/us/play-pokemon/worlds/2014/info/vips/
+  used:
+  - zh: 代欧奇希斯
+    designer: yoshida
+  - zh: 时拉比
+    designer: yoshida
+  - zh: 烈空坐
+    designer: yoshida
+  - zh: 达克莱伊
+    designer: yoshida
+- n: 11
+  text: ''
+  links:
+  - url: http://hitoshiariga.deviantart.com/art/Pocket-Monsters-XY-413536751
+    label: hitoshiariga.deviantart.com/art/Pocket-Monsters-XY-413536751
+  used:
+  - zh: 霸道熊猫
+    designer: ariga
+  - zh: 好啦鱿
+    designer: ariga
+  - zh: 乌贼王
+    designer: ariga
+  - zh: 独剑鞘
+    designer: ariga
+  - zh: 双剑鞘
+    designer: ariga
+  - zh: 坚盾剑怪
+    designer: ariga
+  - zh: 宝宝暴龙
+    designer: ariga
+  - zh: 怪颚龙
+    designer: ariga
+  - zh: 冰雪龙
+    designer: ariga
+  - zh: 冰雪巨龙
+    designer: ariga
+- n: 12
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/548085137955508224
+    label: twitter.com/ariga_megamix/status/548085137955508224
+  used:
+  - zh: 超级大针蜂
+    designer: ariga
+- n: 13
+  text: ''
+  links:
+  - url: http://web.archive.org/web/20140803014650/http://www.officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists-block-during-pokemon-x-and-y-development/
+    label: officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists…
+    archived: true
+  used:
+  - zh: 哲尔尼亚斯
+    designer: sugimori
+  - zh: 伊裴尔塔尔
+    designer: sugimori
+  - zh: 仙子伊布
+    designer: nishida
+  post: 2013-10-24-interview-onm-xy-sugimori
+- n: 14
+  text: ''
+  links:
+  - url: https://www.pokemon.com/us/pokemon-news/creator-profile-the-creators-of-pikachu/
+    label: pokemon.com/us/pokemon-news/creator-profile-the-creators-of-p…
+  used:
+  - zh: 皮皮
+    designer: sugimori
+  - zh: 妙蛙种子
+    designer: nishida
+  - zh: 小火龙
+    designer: nishida
+  - zh: 杰尼龟
+    designer: nishida
+  - zh: 皮卡丘
+    designer: nishida
+  - zh: 雷丘
+    designer: nishida
+  post: 2018-07-26-interview-creators-of-pikachu
+- n: 15
+  text: ''
+  links:
+  - url: http://web.archive.org/web/20080704081535/http://www.gpara.com/contents/creator/bn_225.htm
+    label: gpara.com/contents/creator/bn_225.htm
+    archived: true
+  used:
+  - zh: 果然翁
+    designer: yoshida
+  - zh: 时拉比
+    designer: yoshida
+  - zh: 土龙弟弟
+    designer: yoshida
+  post: 2006-04-24-interview-gpara-2006-yoshida
+- n: 16
+  text: ''
+  links:
+  - url: https://twitter.com/atsuko_nishida/status/783643367523557376
+    label: twitter.com/atsuko_nishida/status/783643367523557376
+  - url: https://www.animenewsnetwork.com/interest/2018-09-10/pokemon-designers-reflect-on-history-of-eevee-design/.136529
+    label: animenewsnetwork.com/interest/2018-09-10/pokemon-designers-re…
+  used:
+  - zh: 伊布
+    designer: fujiwara
+  - zh: 火伊布
+    designer: fujiwara
+  - zh: 雷伊布
+    designer: fujiwara
+  - zh: 水伊布
+    designer: nishida
+  - zh: 太阳伊布
+    designer: nishida
+  - zh: 月亮伊布
+    designer: nishida
+  - zh: 叶伊布
+    designer: nishida
+  - zh: 冰伊布
+    designer: nishida
+  - zh: 仙子伊布
+    designer: nishida
+- n: 17
+  text: ''
+  links:
+  - url: http://www.gameinformer.com/b/features/archive/2014/02/14/afterwords-unabridged-pokemon-x-and-y.aspx?PostPageIndex=3
+    label: gameinformer.com/b/features/archive/2014/02/14/afterwords-una…
+  used:
+  - zh: 钥圈儿
+    designer: ibe
+  post: 2014-02-14-interview-gameinformer-masuda-afterwords-xy
+- n: 18
+  text: ''
+  links:
+  - url: http://web.archive.org/web/20130115083652/http://www.gamefreak.co.jp/blog/staff/?p=204
+    label: gamefreak.co.jp/blog/staff/?p=204
+    archived: true
+  used:
+  - zh: 秃鹰丫头
+    designer: turner
+  - zh: 秃鹰娜
+    designer: turner
+  - zh: 泥偶小人
+    designer: turner
+  - zh: 泥偶巨人
+    designer: turner
+  - zh: 迷你冰
+    designer: turner
+  - zh: 多多冰
+    designer: turner
+  - zh: 双倍多多冰
+    designer: turner
+  post: 2010-10-22-gamefreak-staff-204
+- n: 19
+  text: Nintendo Dream, vol. 204, April 2011
+  links:
+  - url: http://lavacutcontent.com/ken-sugimori-nintendo-dream-2/
+    label: lavacutcontent.com/ken-sugimori-nintendo-dream-2/
+  - url: http://web.archive.org/web/20110704155314/http://shellspider.blog101.fc2.com/blog-entry-502.html
+    label: shellspider.blog101.fc2.com/blog-entry-502.html
+    archived: true
+  - url: http://blog.livedoor.jp/shellspider/archives/696157.html
+    label: blog.livedoor.jp/shellspider/archives/696157.html
+  - url: http://www.serebiiforums.com/showthread.php?467053-Official-Pokemon-Discussion-Thread&p=11993403#post11993403
+    label: serebiiforums.com/showthread.php?467053-Official-Pokemon-Disc…
+  used:
+  - zh: 木棉球
+    designer: nishida
+  - zh: 风妖精
+    designer: nishida
+  - zh: 百合根娃娃
+    designer: nishida
+  - zh: 裙儿小姐
+    designer: nishida
+  - zh: 勾帕路翁
+    designer: unno
+  - zh: 代拉基翁
+    designer: unno
+  - zh: 毕力吉翁
+    designer: unno
+  - zh: 牙牙
+    designer: ibe
+  - zh: 斧牙龙
+    designer: ibe
+  - zh: 双斧战龙
+    designer: ibe
+  - zh: 火红不倒翁
+    designer: ibe
+  - zh: 达摩狒狒
+    designer: ibe
+  - zh: 轻飘飘
+    designer: ibe
+  - zh: 泥巴鱼
+    designer: ibe
+  post: 2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2
+  zh: Nintendo DREAM vol.204（2011 年 4 月号）
+- n: 20
+  text: Nintendo Dream, vol. 205, May 2011
+  links:
+  - url: http://lavacutcontent.com/ken-sugimori-nintendo-dream/
+    label: lavacutcontent.com/ken-sugimori-nintendo-dream/
+  - url: http://web.archive.org/web/20110402003550/http://shellspider.blog101.fc2.com/blog-entry-562.html
+    label: shellspider.blog101.fc2.com/blog-entry-562.html
+    archived: true
+  - url: http://blog.livedoor.jp/shellspider/archives/696210.html
+    label: blog.livedoor.jp/shellspider/archives/696210.html
+  - url: http://www.serebiiforums.com/showthread.php?467053-Official-Pokemon-Discussion-Thread&p=12163722#post12163722
+    label: serebiiforums.com/showthread.php?467053-Official-Pokemon-Disc…
+  used:
+  - zh: 熔蚁兽
+    designer: sugimori
+  - zh: 铁蚁
+    designer: sugimori
+  - zh: 毛头小鹰
+    designer: unno
+  - zh: 勇士雄鹰
+    designer: unno
+  - zh: 麻麻小鱼
+    designer: ohmura
+  - zh: 麻麻鳗
+    designer: ohmura
+  - zh: 麻麻鳗鱼王
+    designer: ohmura
+  - zh: 秃鹰丫头
+    designer: turner
+  - zh: 秃鹰娜
+    designer: turner
+  post: 2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex
+  zh: Nintendo DREAM vol.205（2011 年 5 月号）
+- n: 21
+  text: '"報道特集『ポケモン』ヒットの理由." Weekly Famitsu, no. 1140, 2010/11/11'
+  links:
+  - url: https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made
+    label: 1up.com/news/how-pokemon-get-made
+    archived: true
+  used:
+  - zh: 莱希拉姆
+    designer: sugimori
+  - zh: 捷克罗姆
+    designer: sugimori
+  - zh: 双刃丸
+    designer: ohmura
+  - zh: 大剑鬼
+    designer: ohmura
+  - zh: 暖暖猪
+    designer: hyunjung
+  - zh: 炒炒猪
+    designer: hyunjung
+  - zh: 炎武王
+    designer: hyunjung
+  post: 2011-03-05-interview-1up-black-white-how-pokemon-get-made
+  zh: 周刊 Fami通 No.1140（2010-11-11）「报道特集 宝可梦热卖的理由」
+- n: 22
+  text: Nintendo Dream, vol. 201, January 2011
+  links:
+  - url: http://lavacutcontent.com/ken-sugimori-nintendo-dream-3/
+    label: lavacutcontent.com/ken-sugimori-nintendo-dream-3/
+  - url: http://rpgland.com/2010/11/30/pokemon-black-and-white-scans-interview-in-nintendo-dream/
+    label: rpgland.com/2010/11/30/pokemon-black-and-white-scans-intervie…
+  used:
+  - zh: 打击鬼
+    designer: sugimori
+  - zh: 投摔鬼
+    designer: sugimori
+  - zh: 泡沫栗鼠
+    designer: nishida
+  - zh: 奇诺栗鼠
+    designer: nishida
+  - zh: 食梦梦
+    designer: nishida
+  - zh: 梦梦蚀
+    designer: nishida
+  - zh: 盖盖虫
+    designer: nishida
+  - zh: 花椰猴
+    designer: unno
+  - zh: 爆香猴
+    designer: unno
+  - zh: 冷水猴
+    designer: unno
+  post: 2010-11-20-interview-nintendodream-201-sugimori-bw-characters
+  zh: Nintendo DREAM vol.201（2011 年 1 月号）
+- n: 23
+  text: ''
+  links:
+  - url: https://twitter.com/TakaoUnno/status/386157379563188224
+    label: twitter.com/TakaoUnno/status/386157379563188224
+  used:
+  - zh: 小火焰猴
+    designer: unno
+  - zh: 猛火猴
+    designer: unno
+  - zh: 烈焰猴
+    designer: unno
+- n: 24
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/804500572967555072
+    label: twitter.com/ariga_megamix/status/804500572967555072
+  used:
+  - zh: 阿罗拉小拳石
+    designer: ariga
+  - zh: 阿罗拉隆隆石
+    designer: ariga
+  - zh: 阿罗拉隆隆岩
+    designer: ariga
+  - zh: 阿罗拉臭泥
+    designer: ariga
+  - zh: 阿罗拉臭臭泥
+    designer: ariga
+  - zh: 强颚鸡母虫
+    designer: ariga
+  - zh: 虫电宝
+    designer: ariga
+  - zh: 锹农炮虫
+    designer: ariga
+  - zh: 小陨星
+    designer: ariga
+  - zh: 老翁龙
+    designer: ariga
+- n: 25
+  text: ''
+  links:
+  - url: https://www.serebii.net/ultrasunultramoon/virtualconsole.shtml
+    label: serebii.net/ultrasunultramoon/virtualconsole.shtml
+  used:
+  - zh: 地鼠
+    designer: morimoto
+  - zh: 猴怪
+    designer: morimoto
+  - zh: 肯泰罗
+    designer: morimoto
+  - zh: 梦幻
+    designer: morimoto
+  - zh: 壶壶
+    designer: morimoto
+  - zh: 长毛猪
+    designer: morimoto
+- n: 26
+  text: ''
+  links:
+  - url: https://twitter.com/atsuko_nishida/status/773133923303907328
+    label: twitter.com/atsuko_nishida/status/773133923303907328
+  used:
+  - zh: 冰伊布
+    designer: nishida
+- n: 27
+  text: ''
+  links:
+  - url: https://twitter.com/W_Fei_hung/status/301400320758652928
+    label: twitter.com/W_Fei_hung/status/301400320758652928
+  used:
+  - zh: 人造细胞卵
+    designer: moritsugu
+- n: 28
+  text: ''
+  links:
+  - url: https://comments.deviantart.com/4/17947970/4310269526
+    label: comments.deviantart.com/4/17947970/4310269526
+  used:
+  - zh: 蜈蚣王
+    designer: kitakaze
+  - zh: 小嘴蜗
+    designer: kitakaze
+- n: 29
+  text: ''
+  links:
+  - url: https://twitter.com/kitakazeee/status/774909529460838400
+    label: twitter.com/kitakazeee/status/774909529460838400
+  used:
+  - zh: 蜈蚣王
+    designer: kitakaze
+- n: 30
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/931516761970688000
+    label: twitter.com/JamesTurner_42/status/931516761970688000
+  used:
+  - zh: 毒贝比
+    designer: turner
+- n: 31
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/935371474772180992
+    label: twitter.com/JamesTurner_42/status/935371474772180992
+  used:
+  - zh: 泥偶小人
+    designer: turner
+  - zh: 泥偶巨人
+    designer: turner
+  - zh: 迷你冰
+    designer: turner
+  - zh: 多多冰
+    designer: turner
+  - zh: 双倍多多冰
+    designer: turner
+  - zh: 爆肌蚊
+    designer: turner
+  - zh: 毒贝比
+    designer: turner
+- n: 32
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/942921680518766593
+    label: twitter.com/JamesTurner_42/status/942921680518766593
+  used:
+  - zh: 四颚针龙
+    designer: turner
+- n: 33
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/957951568925548544
+    label: twitter.com/JamesTurner_42/status/957951568925548544
+  used:
+  - zh: 磨牙彩皮鱼
+    designer: turner
+- n: 34
+  text: ''
+  links:
+  - url: https://web.archive.org/web/19980121112202/http://www.gamefreak.co.jp/pokemon/INTER/ATSUKO/INTER_AT.HTM
+    label: gamefreak.co.jp/pokemon/INTER/ATSUKO/INTER_AT.HTM
+    archived: true
+  used:
+  - zh: 小火龙
+    designer: nishida
+  - zh: 火恐龙
+    designer: nishida
+  - zh: 喷火龙
+    designer: nishida
+  - zh: 杰尼龟
+    designer: nishida
+  - zh: 卡咪龟
+    designer: nishida
+  - zh: 独角虫
+    designer: nishida
+  - zh: 铁壳蛹
+    designer: nishida
+  - zh: 大针蜂
+    designer: nishida
+  - zh: 皮卡丘
+    designer: nishida
+  - zh: 雷丘
+    designer: nishida
+  - zh: 走路草
+    designer: nishida
+  - zh: 臭臭花
+    designer: nishida
+  - zh: 霸王花
+    designer: nishida
+  - zh: 喇叭芽
+    designer: nishida
+  - zh: 口呆花
+    designer: nishida
+  - zh: 大食花
+    designer: nishida
+  - zh: 小火马
+    designer: nishida
+  - zh: 烈焰马
+    designer: nishida
+  - zh: 迷你龙
+    designer: nishida
+  - zh: 哈克龙
+    designer: nishida
+- n: 35
+  text: ''
+  links:
+  - url: https://twitter.com/sakumasanosuke/status/807082155427786753
+    label: twitter.com/sakumasanosuke/status/807082155427786753
+  used:
+  - zh: 睡睡菇
+    designer: tsuruta
+- n: 36
+  text: ''
+  links:
+  - url: https://twitter.com/saya_tsuruta/status/1070980404918706176
+    label: twitter.com/saya_tsuruta/status/1070980404918706176
+  used:
+  - zh: 黏黏宝
+    designer: tsuruta
+- n: 37
+  text: ''
+  links:
+  - url: https://twitter.com/seramiya/status/1084039808429711362
+    label: twitter.com/seramiya/status/1084039808429711362
+  used:
+  - zh: 芳香精
+    designer: tsuruta
+- n: 38
+  text: ''
+  links:
+  - url: https://twitter.com/kitakazeee/status/1123171470245367808
+    label: twitter.com/kitakazeee/status/1123171470245367808
+  used:
+  - zh: 百足蜈蚣
+    designer: kitakaze
+  - zh: 车轮球
+    designer: kitakaze
+  - zh: 蜈蚣王
+    designer: kitakaze
+- n: 39
+  text: ''
+  links:
+  - url: https://twitter.com/W_Fei_hung/status/1050435484567003136
+    label: twitter.com/W_Fei_hung/status/1050435484567003136
+  used: []
+- n: 40
+  text: ''
+  links:
+  - url: https://funs-project.com/poplab/007/index_2.html
+    label: funs-project.com/poplab/007/index_2.html
+  used:
+  - zh: 超级喷火龙X
+    designer: nishida
+  - zh: 六尾
+    designer: nishida
+  - zh: 九尾
+    designer: nishida
+  - zh: 圆法师
+    designer: nishida
+  - zh: 音箱蟀
+    designer: nishida
+  - zh: 索罗亚
+    designer: nishida
+  - zh: 索罗亚克
+    designer: nishida
+  - zh: 人造细胞卵
+    designer: moritsugu
+  - zh: 象征鸟
+    designer: moritsugu
+  - zh: 齿轮儿
+    designer: moritsugu
+  - zh: 齿轮组
+    designer: moritsugu
+  - zh: 齿轮怪
+    designer: moritsugu
+  post: 2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design
+- n: 41
+  text: ''
+  links:
+  - url: http://www.robotics.it-chiba.ac.jp/j/?p=484
+    label: robotics.it-chiba.ac.jp/j/?p=484
+  used:
+  - zh: 具甲武者
+    designer: nabana
+  post: 2019-11-20-interview-cit-kensaku-nabana-robotics
+- n: 42
+  text: ''
+  links:
+  - url: https://twitter.com/saya_tsuruta/status/1131920610995531776
+    label: twitter.com/saya_tsuruta/status/1131920610995531776
+  used:
+  - zh: 差不多娃娃
+    designer: tsuruta
+  - zh: 电蜘蛛
+    designer: tsuruta
+  - zh: 芳香精
+    designer: tsuruta
+  - zh: 黏黏宝
+    designer: tsuruta
+- n: 43
+  text: Nintendo Power, vol. 134, July 2000
+  links:
+  - url: http://lavacutcontent.com/sugimori-hundreds-pokemon-cut/
+    label: lavacutcontent.com/sugimori-hundreds-pokemon-cut/
+  used:
+  - zh: 咕咕
+    designer: sugimori
+  post: 2000-07-01-interview-nintendopower-gold-silver-roundtable
+  zh: Nintendo Power vol.134（2000 年 7 月）
+- n: 44
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1195152257869737984
+    label: twitter.com/ariga_megamix/status/1195152257869737984
+  used:
+  - zh: 钢铠鸦
+    designer: ariga
+- n: 45
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/1201528753731465216
+    label: twitter.com/JamesTurner_42/status/1201528753731465216
+  used:
+  - zh: 小木灵
+    designer: turner
+  - zh: 朽木妖
+    designer: turner
+- n: 46
+  text: ''
+  links:
+  - url: https://pokemon.jeuxonline.info/actualite/44635/soiree-inauguration-pokemon-center-paris
+    label: pokemon.jeuxonline.info/actualite/44635/soiree-inauguration-p…
+  - url: https://www.pokebip.com/news2988__pokemon_center_de_paris_:_les_premieres_images_.html
+    label: pokebip.com/news2988__pokemon_center_de_paris_:_les_premieres…
+  used:
+  - zh: 达克莱伊
+    designer: yoshida
+  - zh: 烈咬陆鲨
+    designer: unno
+  - zh: 甲贺忍蛙
+    designer: ohmura
+  - zh: 比克提尼
+    designer: ibe
+  - zh: 顽皮熊猫
+    designer: mizutani
+- n: 47
+  text: ''
+  links:
+  - url: https://twitter.com/yusuke_omura/status/1197832943630090241
+    label: twitter.com/yusuke_omura/status/1197832943630090241
+  used:
+  - zh: 苍响
+    designer: ohmura
+  - zh: 藏玛然特
+    designer: ohmura
+- n: 48
+  text: ''
+  links:
+  - url: https://twitter.com/saya_tsuruta/status/1206016520830107648
+    label: twitter.com/saya_tsuruta/status/1206016520830107648
+  used:
+  - zh: 爱管侍
+    designer: tsuruta
+- n: 49
+  text: ''
+  links:
+  - url: http://shmuplations.com/pokemon/
+    label: shmuplations.com/pokemon/
+  used:
+  - zh: 未知图腾
+    designer: sugimori
+- n: 50
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/1270467534022574080
+    label: twitter.com/JamesTurner_42/status/1270467534022574080
+  used:
+  - zh: 焚焰蚣
+    designer: turner
+- n: 51
+  text: ''
+  links:
+  - url: https://twitter.com/kitakazeee/status/1149513798115459073
+    label: twitter.com/kitakazeee/status/1149513798115459073
+  used:
+  - zh: 超级超梦Y
+    designer: kitakaze
+- n: 52
+  text: Pokémon Origins (2013
+  links: []
+  used: []
+  zh: 动画《宝可梦 起源》（2013）
+- n: 53
+  text: ''
+  links:
+  - url: https://twitter.com/yusuke_omura/status/1280804410176622593
+    label: twitter.com/yusuke_omura/status/1280804410176622593
+  used:
+  - zh: 熊徒弟
+    designer: ohmura
+  - zh: 武道熊师
+    designer: ohmura
+- n: 54
+  text: ''
+  links:
+  - url: https://www.youtube.com/watch?v=iA91WPotG2I
+    label: 'GAME FREAK Illustration Demonstration: Episode One [Ken Sugimori x Pulseman] (YouTube)'
+  used:
+  - zh: 咕妞妞
+    designer: unno
+  - zh: 吼爆弹
+    designer: unno
+  zh: GAME FREAK 插画演示 第 1 集：杉森建 × Pulseman（YouTube）
+- n: 55
+  text: ''
+  links:
+  - url: https://twitter.com/kitakazeee/status/1306609190425616384
+    label: twitter.com/kitakazeee/status/1306609190425616384
+  used:
+  - zh: 骑士蜗牛
+    designer: kitakaze
+- n: 56
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1319507626372153344
+    label: twitter.com/ariga_megamix/status/1319507626372153344
+  used:
+  - zh: 雷鸟龙
+    designer: ariga
+  - zh: 雷鸟海兽
+    designer: ariga
+  - zh: 鳃鱼龙
+    designer: ariga
+  - zh: 鳃鱼海兽
+    designer: ariga
+- n: 57
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/1322295051058212866
+    label: twitter.com/JamesTurner_42/status/1322295051058212866
+  used:
+  - zh: 来悲茶
+    designer: turner
+- n: 58
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/1317232673882959872
+    label: twitter.com/JamesTurner_42/status/1317232673882959872
+  used:
+  - zh: 怖思壶
+    designer: turner
+- n: 59
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/941802025385304065
+    label: twitter.com/ariga_megamix/status/941802025385304065
+  used:
+  - zh: 究极奈克洛兹玛
+    designer: ariga
+- n: 60
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/1348527095840964614
+    label: twitter.com/JamesTurner_42/status/1348527095840964614
+  used:
+  - zh: 堵拦熊
+    designer: turner
+- n: 61
+  text: ''
+  links:
+  - url: https://twitter.com/JamesTurner_42/status/1348881864086478848
+    label: twitter.com/JamesTurner_42/status/1348881864086478848
+  used:
+  - zh: 伽勒尔蛇纹熊
+    designer: turner
+- n: 62
+  text: ''
+  links:
+  - url: https://www.instagram.com/p/CZR0ngKvAfy/
+    label: instagram.com/p/CZR0ngKvAfy/
+  used:
+  - zh: 洗翠索罗亚
+    designer: nishida
+  - zh: 洗翠索罗亚克
+    designer: nishida
+- n: 63
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1493600999038021632
+    label: twitter.com/ariga_megamix/status/1493600999038021632
+  used:
+  - zh: 洗翠狃拉
+    designer: ariga
+  - zh: 大狃拉
+    designer: ariga
+- n: 64
+  text: ''
+  links:
+  - url: https://twitter.com/megtany/status/1500305951479324673
+    label: twitter.com/megtany/status/1500305951479324673
+  used:
+  - zh: 洗翠卡蒂狗
+    designer: mizutani
+  - zh: 洗翠风速狗
+    designer: mizutani
+- n: 65
+  text: ''
+  links:
+  - url: https://twitter.com/kymg/status/1341384533459910656
+    label: twitter.com/kymg/status/1341384533459910656
+  used:
+  - zh: 电音婴
+    designer: kozaki
+  - zh: 颤弦蝾螈
+    designer: kozaki
+  - zh: 列阵兵
+    designer: kozaki
+- n: 66
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1213844996975017989
+    label: twitter.com/ariga_megamix/status/1213844996975017989
+  used:
+  - zh: 稚山雀
+    designer: ariga
+  - zh: 蓝鸦
+    designer: ariga
+  - zh: 钢铠鸦
+    designer: ariga
+- n: 67
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/942380524294742016
+    label: twitter.com/ariga_megamix/status/942380524294742016
+  used:
+  - zh: 奈克洛兹玛
+    designer: ariga
+- n: 68
+  text: ''
+  links:
+  - url: https://twitter.com/kurashimakaz/status/1604174633065816066
+    label: twitter.com/kurashimakaz/status/1604174633065816066
+  used:
+  - zh: 墓仔狗
+    designer: kurashima
+- n: 69
+  text: ''
+  links:
+  - url: https://twitter.com/kurashimakaz/status/1604180891311280129
+    label: twitter.com/kurashimakaz/status/1604180891311280129
+  used:
+  - zh: 墓扬犬
+    designer: kurashima
+- n: 70
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1604786117487853568
+    label: twitter.com/ariga_megamix/status/1604786117487853568
+  used:
+  - zh: 盐石宝
+    designer: ariga
+  - zh: 盐石垒
+    designer: ariga
+  - zh: 盐石巨灵
+    designer: ariga
+  - zh: 超能艳鸵
+    designer: ariga
+- n: 71
+  text: Pokémon Trading Card Game Illustration Collection
+  links: []
+  used:
+  - zh: 不良蛙
+    designer: unno
+  - zh: 烈咬陆鲨
+    designer: unno
+  - zh: 阿尔宙斯
+    designer: unno
+  - zh: 呱呱泡蛙
+    designer: ohmura
+  - zh: 师父鼬
+    designer: mizutani
+  - zh: 顽皮熊猫
+    designer: mizutani
+  zh: 宝可梦集换式卡牌游戏 插画集
+- n: 72
+  text: ''
+  links:
+  - url: https://web.archive.org/web/20220423234524/https://www.pokemoncenter-online.com/?s=special%2Fmy151cam
+    label: My151キャンペーン
+    archived: true
+  used:
+  - zh: 谜拟丘
+    designer: mizutani
+  zh: 宝可梦中心在线 My151 活动
+- n: 73
+  text: ''
+  links:
+  - url: https://twitter.com/megtany/status/1607179613431824384
+    label: twitter.com/megtany/status/1607179613431824384
+  used:
+  - zh: 一对鼠
+    designer: mizutani
+  - zh: 一家鼠
+    designer: mizutani
+  - zh: 小锻匠
+    designer: mizutani
+  - zh: 巧锻匠
+    designer: mizutani
+  - zh: 巨锻匠
+    designer: mizutani
+- n: 74
+  text: ''
+  links:
+  - url: https://twitter.com/kymg/status/1612716767444631552
+    label: twitter.com/kymg/status/1612716767444631552
+  used:
+  - zh: 噗隆隆
+    designer: kozaki
+  - zh: 普隆隆姆
+    designer: kozaki
+  - zh: 走鲸
+    designer: kozaki
+  - zh: 浩大鲸
+    designer: kozaki
+- n: 75
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1613830459871629317
+    label: twitter.com/ariga_megamix/status/1613830459871629317
+  used:
+  - zh: 振翼发
+    designer: ariga
+- n: 76
+  text: ''
+  links:
+  - url: https://twitter.com/kitakazeee/status/1725529436752326916
+    label: twitter.com/kitakazeee/status/1725529436752326916
+  used:
+  - zh: 炭小侍
+    designer: kitakaze
+  - zh: 红莲铠骑
+    designer: kitakaze
+  - zh: 苍炎刃鬼
+    designer: kitakaze
+- n: 77
+  text: ''
+  links:
+  - url: https://twitter.com/ariga_megamix/status/1750538856590696596
+    label: twitter.com/ariga_megamix/status/1750538856590696596
+  used:
+  - zh: 厄鬼椪
+    designer: ariga
+- n: 78
+  text: ''
+  links:
+  - url: https://www.instagram.com/p/DDCg3wKPJDR/
+    label: instagram.com/p/DDCg3wKPJDR/
+  used:
+  - zh: 布拨
+    designer: nishida
+  - zh: 布土拨
+    designer: nishida
+  - zh: 巴布土拨
+    designer: nishida
+  - zh: 光蚪仔
+    designer: nishida
+  - zh: 电肚蛙
+    designer: nishida
+  - zh: 飘飘雏
+    designer: nishida
+- n: 79
+  text: ''
+  links:
+  - url: https://bsky.app/profile/arigamegamix.bsky.social/post/3mdhep5dp7k2q
+    label: bsky.app/profile/arigamegamix.bsky.social/post/3mdhep5dp7k2q
+  used:
+  - zh: 超级老翁龙
+    designer: ariga
+changelog:
+- date: '2026-01-27'
+  text: Add source for Mega Drampa
+- date: '2024-12-02'
+  text: Add source for Pawmi family, Tadbulb family, and Flittle
+- date: '2024-01-25'
+  text: Add source for Ogerpon, update some citations
+- date: '2023-12-12'
+  text: Add source for the Charcadet family
+- date: '2023-01-13'
+  text: Add source for Flutter Mane, the Varoom family, and the Cetoddle family
+- date: '2022-12-25'
+  text: Add source for Croagunk, Arceus, Froakie, Mienshao, Mimikyu, the Tandemaus family and the Tinkatuff family
+- date: '2022-12-19'
+  text: Add source for the Nacli family and Espathra
+- date: '2022-12-17'
+  text: Add source for the Greavard family
+- date: '2022-11-17'
+  text: Add credits for Generation 9 designers
+- date: '2022-03-07'
+  text: Add source for Necrozma, the Rookidee family, the Toxel family, and Falinks
+- date: '2022-03-05'
+  text: Add source for Hisuian Growlithe, Hisuian Arcanine, Hisuian Sneasel, and Sneasler
+- date: '2022-01-30'
+  text: Add source for Hisuian Zorua and Hisuian Zoroark
+- date: '2021-01-12'
+  text: Add source for Galarian Zigzagoon
+- date: '2021-01-11'
+  text: Add source for Obstagoon
+- date: '2020-12-05'
+  text: Add source for Ultra Necrozma
+- date: '2020-11-01'
+  text: Add source for Sinistea and Polteageist
+- date: '2020-10-23'
+  text: Add source for Dracozolt, Arctozolt, Dracovish, and Arctovish
+- date: '2020-09-17'
+  text: Add source for Escavalier
+- date: '2020-07-09'
+  text: Add source for Mega Mewtwo Y, Mega Charizard X, Kubfu, Urshifu, Darkrai, Pancham, Whismur, Loudred, Monferno, and Infernape
+- date: '2020-06-09'
+  text: Add source for Centiskorch
+- date: '2020-03-25'
+  text: Add source for Unown
+- date: '2019-12-19'
+  text: Add source for Indeedee
+- date: '2019-12-19'
+  text: Add source for Zacian and Zamazenta
+- date: '2019-12-19'
+  text: Add sources for Phantump line and Greninja
+- date: '2019-11-14'
+  text: Add Corviknight source
+- date: '2019-11-14'
+  text: Add Gen 8 credits, Nintendo Power interview, and Sugimori design
+- date: '2019-11-12'
+  text: Add source for Tsuruta designs
+- date: '2019-11-06'
+  text: Add sources for Nabana, Nishida, and Moritsugu designs
+- date: '2019-06-17'
+  text: Added direct source for Venipede line
+- date: '2019-06-17'
+  text: Added source translations of 3 Nintendo Dream interviews via. Dr. Lava
+- date: '2019-06-09'
+  text: Corrected Unno credits
+- date: '2019-03-12'
+  text: Corrected Nishida credits
+- date: '2019-02-02'
+  text: Added note for Yūsuke Ōmura
+- date: '2019-02-02'
+  text: Added Atsuko Nishida interview
+- date: '2019-02-02'
+  text: Initial version

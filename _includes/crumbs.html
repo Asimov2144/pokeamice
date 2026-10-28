@@ -158,7 +158,7 @@ caller needs.
   {%- assign c_urls = c_urls | push: "/people/" -%}
   {%- assign c_tips = c_tips | push: "站内访谈提到的人物和历作 staff 名单上的每个人，各有一页" -%}
   {%- assign c_here = page.person | default: page.title -%}
-{%- elsif c_layout == "credits-game" or c_layout == "credits-staff" -%}
+{%- elsif c_layout == "credits-game" or c_layout == "credits-staff" or c_layout == "pokemon-designers" -%}
   {%- assign c_names = c_names | push: "制作名单" -%}
   {%- assign c_urls = c_urls | push: "/credits/" -%}
   {%- capture c_tip %}{{ site.data.credits_games | size }} 部作品的 staff 名单，按职务分组，每个名字连到人物页{% endcapture -%}

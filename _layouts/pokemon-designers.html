@@ -1,0 +1,236 @@
+---
+layout: default
+---
+{%- comment -%}
+/credits/designers/: who designed which Pokémon. The list is gfworks'
+"Pokémon Primary Designers" (snapshot in archive/designers/); the generation
+grid is checked game by game against our staff rolls - a cell is solid when
+the list and a "Pokémon design" credit agree, tinted when only the roll has
+it, hatched when only the list does. Everything comes from
+_data/pokemon_designers.yml (tools/build-designers.py); the search box and
+the by-designer / by-dex switch are the script at the bottom.
+{%- endcomment -%}
+{% assign D = site.data.pokemon_designers %}
+{% assign with_mons = D.designers | where_exp: "d", "d.pokemon.size > 0" %}
+{% assign gen_only = D.designers | where_exp: "d", "d.pokemon.size == 0" %}
+{% assign no_ref = D.dex | where_exp: "p", "p.refs.size == 0" %}
+
+<div id="main" role="main">
+  <div class="archive archive--person archive--credits archive--designers">
+    {% include crumbs.html %}
+    <section class="people credits designers">
+      <header class="people__head">
+        <p class="person__kicker">制作名单</p>
+        <h1 class="person__name">宝可梦设计者</h1>
+        <p class="people__lede">哪只宝可梦是谁设计的。清单整理自 gfworks 的 <a href="{{ D.source.url }}" rel="noopener">Pokémon Primary Designers</a>（原表更新至 {{ D.source.updated }}，{{ D.source.fetched }} 抓取；主站另有<a href="{{ D.source.mirror }}" rel="noopener">中文版</a>）：{{ D.designers.size }} 位设计者、{{ D.dex.size }} 只宝可梦，{% if no_ref.size > 0 %}除 {{ no_ref.size }} 只原表没注出处的以外，{% endif %}每一只都带原表的出处编号，站内已有译文的出处直接连到译文。
+          下面的世代表按本站<a href="{{ '/credits/' | relative_url }}">历作 staff 名单</a>逐作核对过：原表记的 {{ D.cells.both | plus: D.cells.gf }} 格里{% if D.cells.gf == 0 %}每一格都{% else %}有 {{ D.cells.both }} 格{% endif %}在名单里找得到「宝可梦设计」类署名{% if D.cells.gf > 0 %}，{{ D.cells.gf }} 格没找到{% endif %}；名单多出来的 {{ D.cells.credits }} 格和原表没收的 {{ D.extra.size }} 人另外标出。</p>
+      </header>
+
+      <h2 class="credits__h2" id="grid">世代分工 <small>原表 × 名单</small></h2>
+      <p class="credits__help">一行一位设计者，一格一个世代；格子里的小方块是该世代的各部作品（如第 4 世代：钻石珍珠 / 白金 / 心金魂银），实心 = 那一作的名单里署名了宝可梦设计。悬停看职务原文，点格子跳到这个人。
+        重制和续作会把原班设计者再署一遍（心金魂银、零之秘宝、Z-A），所以名单的格子比原表多。</p>
+      <p class="dz-legend"><i class="dz-key is-both"></i> 原表与名单一致　<i class="dz-key is-credits"></i> 名单有、原表没记{% if D.cells.gf > 0 %}　<i class="dz-key is-gf"></i> 原表有、名单没找到{% endif %}</p>
+      <div class="dz-scroll">
+        <table class="dz-matrix">
+          <thead>
+            <tr>
+              <th scope="col" class="dz-name">设计者</th>
+              {% for g in D.gens %}<th scope="col" class="dz-gen g{{ g.gen }}" title="{% for x in g.games %}{{ x.title }}{% unless forloop.last %} / {% endunless %}{% endfor %}">{{ g.gen }}<small>世代</small></th>{% endfor %}
+              <th scope="col" class="dz-num" title="原表列出的宝可梦数">只</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for d in D.designers %}
+              <tr>
+                <th scope="row" class="dz-name"><a href="#d-{{ d.id }}">{{ d.name }}</a><small lang="en">{{ d.en }}</small></th>
+                {% for c in d.gens %}
+                  {% assign gg = D.gens[forloop.index0] %}
+                  {% capture tip %}第 {{ c.gen }} 世代{% if c.state == "both" %}：原表与名单一致{% elsif c.state == "credits" %}：名单有、原表没记{% elsif c.state == "gf" %}：原表有，名单里没有宝可梦设计署名{% endif %}{% for x in c.games %}&#10;{{ x.title }} · {{ x.role }}{% endfor %}{% for x in c.other %}&#10;{{ x.short }} · {{ x.role }}{% endfor %}{% endcapture %}
+                  <td class="dz-cell g{{ c.gen }}{% if c.state != '' %} is-{{ c.state }}{% endif %}"{% if c.state != '' %} title="{{ tip | strip }}"{% endif %}>
+                    {%- if c.state != '' -%}
+                      <a href="#d-{{ d.id }}"><span class="dz-pips">{% for x in gg.games %}{% assign hit = c.games | where: "game", x.game | first %}<i{% if hit %} class="on"{% endif %}></i>{% endfor %}</span></a>
+                    {%- endif -%}
+                  </td>
+                {% endfor %}
+                <td class="dz-num">{% if d.pokemon.size > 0 %}{{ d.pokemon.size }}{% endif %}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="dz-bar" id="pokemon">
+        <div class="om-seg" role="group" aria-label="怎么排">
+          <button type="button" class="is-on" data-dz-view="person">按设计者</button><button type="button" data-dz-view="dex">按图鉴编号</button>
+        </div>
+        <input type="search" id="dz-q" placeholder="搜宝可梦或设计者：中 / 日 / 英名、图鉴号" autocomplete="off">
+        <span class="dz-count" id="dz-count"></span>
+      </div>
+      <p class="credits__help">数字是下面「出处」里的编号；虚线框是原表自己打了问号或没注出处的。精灵图里超级进化与究极形态用原形代替。</p>
+
+      <div class="dz-view" data-dz-pane="person">
+        {% for d in with_mons %}
+          <article class="dz-person" id="d-{{ d.id }}" data-q="{{ d.name }} {{ d.ja }} {{ d.en | downcase }}">
+            <header class="dz-person__head">
+              {% if d.avatar %}<img class="dz-person__avatar" src="{{ d.avatar | relative_url }}" alt="" width="52" height="52" loading="lazy">{% else %}<span class="dz-person__avatar is-blank" aria-hidden="true">{{ d.name | slice: 0 }}</span>{% endif %}
+              <div class="dz-person__id">
+                <h3 class="dz-person__name">{% if d.person %}<a href="{{ '/people/' | append: d.person | append: '/' | relative_url }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}
+                  <small>{% if d.ja != d.name %}<span lang="ja">{{ d.ja }}</span> · {% endif %}<span lang="en">{{ d.en }}</span> · {{ d.pokemon.size }} 只</small></h3>
+                <p class="dz-person__credits">名单署名
+                  {%- for c in d.gens -%}{%- for x in c.games -%}
+                    <a class="{% if c.state == 'credits' %}is-credits{% endif %}" href="{{ '/credits/' | append: x.game | append: '/' | relative_url }}" title="{{ x.title }} · {{ x.role }}{% if x.role_ja != '' %}（{{ x.role_ja }}）{% endif %}">{{ x.short }}</a>
+                  {%- endfor -%}{%- endfor -%}
+                </p>
+              </div>
+            </header>
+            <ul class="dz-mons">
+              {% for p in d.pokemon %}{% include designer-mon.html p=p %}{% endfor %}
+            </ul>
+          </article>
+        {% endfor %}
+
+        {% if D.unknown.size > 0 %}
+          <article class="dz-person" id="d-unknown-a" data-q="不明人物 unknown">
+            <header class="dz-person__head">
+              <span class="dz-person__avatar is-blank" aria-hidden="true">?</span>
+              <div class="dz-person__id">
+                <h3 class="dz-person__name">不明人物 A <small><span lang="en">unknown person A</span> · {{ D.unknown.size }} 只</small></h3>
+                <p class="dz-person__credits">原表认为这几只出自同一位尚未查明的设计者，没有注出处。</p>
+              </div>
+            </header>
+            <ul class="dz-mons">
+              {% for p in D.unknown %}{% include designer-mon.html p=p %}{% endfor %}
+            </ul>
+          </article>
+        {% endif %}
+
+        <section class="dz-genonly" aria-labelledby="genonly">
+          <h3 class="dz-sub" id="genonly">只知道参与世代的设计者 <small>{{ gen_only.size }}</small></h3>
+          <p class="credits__help">原表把这些人列进了世代表，但没有列出他们设计的具体宝可梦。</p>
+          <ul class="dz-genonly__list">
+            {% for d in gen_only %}
+              <li id="d-{{ d.id }}" data-q="{{ d.name }} {{ d.ja }} {{ d.en | downcase }}">
+                <b>{% if d.person %}<a href="{{ '/people/' | append: d.person | append: '/' | relative_url }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}</b>
+                <small lang="en">{{ d.en }}</small>
+                <span class="dz-person__credits">
+                  {%- for c in d.gens -%}{%- for x in c.games -%}
+                    <a class="{% if c.state == 'credits' %}is-credits{% endif %}" href="{{ '/credits/' | append: x.game | append: '/' | relative_url }}" title="{{ x.title }} · {{ x.role }}{% if x.role_ja != '' %}（{{ x.role_ja }}）{% endif %}">{{ x.short }}</a>
+                  {%- endfor -%}{%- endfor -%}
+                </span>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+
+      <div class="dz-view" data-dz-pane="dex" hidden>
+        <ul class="dz-mons dz-mons--dex">
+          {% for p in D.dex %}{% include designer-mon.html p=p who=true %}{% endfor %}
+        </ul>
+      </div>
+      <p class="dz-empty" id="dz-empty" hidden>没有找到。原表只收了有公开出处的设计者，大多数宝可梦的设计者没有公开。</p>
+
+      {% if D.extra.size > 0 %}
+        <h2 class="credits__h2" id="extra">名单里还有这些人 <small>{{ D.extra.size }}</small></h2>
+        <p class="credits__help">核心作品名单里署名了宝可梦设计、原表没有收的人。阿尔宙斯以后的名单把概念美术和宝可梦、人物设计并在一栏（Concept Art, Pokémon &amp; Human Designs / Pokémon &amp; Character Design），所以这一批多在第 8、9 世代；他们具体画了哪只没有公开出处。悬停格子看职务原文。</p>
+        <div class="dz-scroll dz-scroll--extra">
+          <table class="dz-matrix dz-matrix--extra">
+            <thead>
+              <tr>
+                <th scope="col" class="dz-name">名单署名者</th>
+                {% for g in D.gens %}<th scope="col" class="dz-gen g{{ g.gen }}">{{ g.gen }}<small>世代</small></th>{% endfor %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for e in D.extra %}
+                <tr>
+                  <th scope="row" class="dz-name">{% if e.person %}<a href="{{ '/people/' | append: e.person | append: '/' | relative_url }}">{{ e.name | default: e.en }}</a>{% else %}{{ e.ja | default: e.en }}{% endif %}<small lang="en">{{ e.en }}</small></th>
+                  {% for c in e.gens %}
+                    {% assign gg = D.gens[forloop.index0] %}
+                    <td class="dz-cell g{{ c.gen }}{% if c.games.size > 0 %} is-credits{% endif %}"{% if c.games.size > 0 %} title="{% for x in c.games %}{{ x.title }} · {{ x.role }}{% unless forloop.last %}&#10;{% endunless %}{% endfor %}"{% endif %}>
+                      {%- if c.games.size > 0 -%}<span class="dz-pips">{% for x in gg.games %}{% assign hit = c.games | where: "game", x.game | first %}<i{% if hit %} class="on"{% endif %}></i>{% endfor %}</span>{%- endif -%}
+                    </td>
+                  {% endfor %}
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% endif %}
+
+      <h2 class="credits__h2" id="sources">出处 <small>{{ D.sources.size }}</small></h2>
+      <p class="credits__help">编号与原表一致。<b>本站译文</b>是站内已收录的同一篇访谈；推特等社交网站的帖子可能已删除或需要登录。</p>
+      <ol class="dz-sources">
+        {% for s in D.sources %}
+          <li id="src-{{ s.n }}" value="{{ s.n }}">
+            {% if s.zh %}<b>{{ s.zh }}</b>{% elsif s.text != "" %}<b>{{ s.text }}</b>{% endif %}
+            {% if s.post %}{% assign sp_path = "_posts/" | append: s.post | append: ".md" %}{% assign sp = site.posts | where: "path", sp_path | first %}{% if sp %}<a class="dz-src__post" href="{{ sp.url | relative_url }}"><small>本站译文</small>{{ sp.title }}</a>{% endif %}{% endif %}
+            {% for l in s.links %}<a class="dz-src__link" href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% if l.archived %}<small class="dz-src__tag">存档</small>{% endif %}{% endfor %}
+            {% if s.used.size > 0 %}<span class="dz-src__used">{% for u in s.used %}<a href="#d-{{ u.designer }}">{{ u.zh }}</a>{% unless forloop.last %}、{% endunless %}{% endfor %}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+
+      <details class="dz-changelog">
+        <summary>原表更新记录（{{ D.changelog.size }} 条，英文原文）</summary>
+        <ul>{% for c in D.changelog %}<li><time datetime="{{ c.date }}">{{ c.date }}</time> {{ c.text }}</li>{% endfor %}</ul>
+      </details>
+      <p class="credits__help dz-colophon">数据：<code>tools/build-designers.py</code> 读原表快照 <code>archive/designers/gfworks-designer.html</code>、历作名单索引与人物库生成；宝可梦中文名取自 52poke。原表或名单更新后重跑脚本即可。</p>
+    </section>
+  </div>
+</div>
+
+<script>
+(function () {
+  var q = document.getElementById("dz-q"), count = document.getElementById("dz-count"), empty = document.getElementById("dz-empty");
+  var panes = document.querySelectorAll("[data-dz-pane]"), buttons = document.querySelectorAll("[data-dz-view]");
+  var view = "person";
+  function pane() { return document.querySelector('[data-dz-pane="' + view + '"]'); }
+  function apply() {
+    var term = q.value.trim().toLowerCase(), shown = 0, root = pane();
+    root.querySelectorAll(".dz-person").forEach(function (card) {
+      var whole = term && card.getAttribute("data-q").toLowerCase().indexOf(term) >= 0, any = false;
+      card.querySelectorAll(".dz-mon").forEach(function (m) {
+        var ok = !term || whole || m.getAttribute("data-q").indexOf(term) >= 0;
+        m.hidden = !ok; if (ok) { any = true; shown++; }
+      });
+      card.hidden = !any;
+    });
+    root.querySelectorAll(".dz-mons--dex > .dz-mon").forEach(function (m) {
+      var ok = !term || m.getAttribute("data-q").indexOf(term) >= 0;
+      m.hidden = !ok; if (ok) shown++;
+    });
+    root.querySelectorAll(".dz-genonly li").forEach(function (li) {
+      li.hidden = !!term && li.getAttribute("data-q").toLowerCase().indexOf(term) < 0;
+    });
+    var gen = root.querySelector(".dz-genonly");
+    if (gen) gen.hidden = !!term && !gen.querySelector("li:not([hidden])");
+    var genHit = gen && !gen.hidden && term;
+    count.textContent = term ? shown + " 只" : "";
+    empty.hidden = !term || shown > 0 || genHit;
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      view = b.getAttribute("data-dz-view");
+      buttons.forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      panes.forEach(function (p) { p.hidden = p.getAttribute("data-dz-pane") !== view; });
+      apply();
+    });
+  });
+  q.addEventListener("input", apply);
+  // a link into a designer (from the grid, the by-dex list or a source) shows the by-designer view and clears a
+  // filter that hides the target. On click, in the capture phase: the theme's smooth scroll takes over in-page
+  // links (pushState, no hashchange) and measures the target as it is at that moment.
+  function reveal(id) {
+    var t = document.getElementById(id), p = t && t.closest("[data-dz-pane]");
+    if (!p) return;
+    if (p.hidden) buttons[0].click();          // only the by-designer pane has anchors
+    if (t.closest("[hidden]")) { q.value = ""; apply(); }
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (a) reveal(decodeURIComponent(a.getAttribute("href").slice(1)));
+  }, true);
+  window.addEventListener("hashchange", function () { reveal(decodeURIComponent(location.hash.slice(1))); });
+})();
+</script>

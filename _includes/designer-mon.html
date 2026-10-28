@@ -1,0 +1,19 @@
+{%- comment -%}
+One Pokémon on /credits/designers/: sprite, Chinese name, dex number, the
+source notes from the gfworks list, and its remark. who=true adds the
+designer's name (the by-dex view). Data: _data/pokemon_designers.yml.
+{%- endcomment -%}
+{%- assign p = include.p -%}
+<li class="dz-mon{% if p.unsure %} is-unsure{% endif %}{% if p.form %} is-form{% endif %}" data-q="{{ p.zh }} {{ p.ja }} {{ p.en | downcase }} {{ p.ndex }}{% if include.who %} {{ p.designer_name | downcase }}{% endif %}">
+  <img class="dz-mon__sprite" src="{{ site.data.pokemon_designers.sprite_base | append: p.sprite | append: '.png' | relative_url }}" alt="" width="96" height="96" loading="lazy" decoding="async">
+  <span class="dz-mon__name">{{ p.zh }}</span>
+  <span class="dz-mon__meta">#{{ p.ndex | prepend: '000' | slice: -4, 4 }}<span lang="ja" title="{{ p.ja }}">{{ p.ja }}</span></span>
+  {%- if p.remark %}<span class="dz-mon__remark" title="{{ p.remark_en | escape }}">{{ p.remark }}</span>{% endif %}
+  <span class="dz-mon__refs">
+    {%- if p.refs.size > 0 -%}
+      {%- for n in p.refs %}<a href="#src-{{ n }}" title="出处 {{ n }}">{{ n }}</a>{% endfor -%}
+    {%- else -%}<em>原表未注出处</em>{%- endif -%}
+    {%- if p.unsure and p.refs.size > 0 %} <em>存疑</em>{% endif -%}
+  </span>
+  {%- if include.who %}<a class="dz-mon__who" href="#d-{{ p.designer }}">{{ p.designer_name }}</a>{% endif %}
+</li>

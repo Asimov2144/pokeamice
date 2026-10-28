@@ -1,0 +1,151 @@
+/* ==========================================================================
+   POKÉMON DESIGNERS - /credits/designers/ (_layouts/pokemon-designers.html):
+   the generation grid checked against the staff rolls, the designers' cards
+   of Pokémon, the by-dex list and the numbered sources. Reuses the credits
+   page frame (.credits__h2 / .credits__help / .om-seg).
+   ========================================================================== */
+
+$dz-agree: #1f6f8b;
+$dz-roll: #d7ebf3;
+$dz-gf: #c9a227;
+$dz-even: #eef3f8;
+
+.layout--pokemon-designers #main { max-width: 100%; padding-left: 1.25rem; padding-right: 1.25rem; }
+.layout--pokemon-designers .archive.archive--credits {
+  float: none;
+  width: 100%;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* the filter hides cards with the hidden attribute; the theme's normalize sets article / section to display: block */
+.designers [hidden] { display: none !important; }
+
+/* ---- legend keys, shared by the grid and the extra table ---- */
+.dz-legend { margin: 0 0 8px; color: $muted-text-color; font-size: 0.76rem; }
+.dz-key { display: inline-block; width: 14px; height: 14px; margin: 0 4px 0 0; border-radius: 3px; vertical-align: -2px; }
+.dz-key.is-both, .dz-cell.is-both a { background: $dz-agree; color: #fff; }
+.dz-key.is-credits, .dz-cell.is-credits a, .dz-cell.is-credits .dz-pips { background: $dz-roll; color: $dz-agree; }
+.dz-key.is-gf, .dz-cell.is-gf a { background: repeating-linear-gradient(135deg, #fff 0 3px, mix(#fff, $dz-gf, 55%) 3px 6px); color: mix(#000, $dz-gf, 25%); box-shadow: inset 0 0 0 1px $dz-gf; }
+.dz-key + .dz-key { margin-left: 10px; }
+
+/* ---- the generation grid ---- */
+.dz-scroll { overflow-x: auto; margin: 0 0 6px; border: 1px solid mix(#fff, $border-color, 30%); border-radius: 8px; background: #fff; }
+.dz-matrix {
+  /* the theme turns tables into block scrollers; keep a real table so the name column can stick */
+  display: table;
+  overflow: visible;
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.78rem;
+
+  th, td { padding: 3px 4px; border-bottom: 1px solid mix(#fff, $border-color, 55%); }
+  thead th { background: #fafafa; color: $muted-text-color; font-size: 0.72rem; font-weight: 800; text-align: center; vertical-align: bottom; white-space: nowrap; }
+  thead th small { display: block; font-size: 0.6rem; font-weight: 600; }
+  .g2, .g4, .g6, .g8 { background-color: $dz-even; }
+  thead .g2, thead .g4, thead .g6, thead .g8 { background-color: #e3ebf3; }
+
+  .dz-name { position: sticky; left: 0; z-index: 1; min-width: 9.5em; background: #fff; text-align: left; font-weight: 700; white-space: nowrap; box-shadow: 1px 0 0 mix(#fff, $border-color, 30%); }
+  thead .dz-name { background: #fafafa; }
+  .dz-name a { color: $primary-color; text-decoration: none; &:hover { text-decoration: underline; } }
+  .dz-name small { display: block; color: $muted-text-color; font-size: 0.64rem; font-weight: 400; }
+  .dz-num { width: 2.5em; color: $muted-text-color; text-align: right; }
+
+  .dz-cell { min-width: 44px; text-align: center; }
+  .dz-cell a, .dz-cell > .dz-pips { display: flex; align-items: center; justify-content: center; height: 24px; border-radius: 4px; text-decoration: none; }
+  tbody tr:hover th, tbody tr:hover td { background-color: rgba(255, 196, 0, 0.16); }
+}
+.dz-pips { display: inline-flex; gap: 2px; line-height: 0; }
+.dz-pips i { display: inline-block; width: 6px; height: 11px; border-radius: 1px; box-shadow: inset 0 0 0 1px currentColor; opacity: 0.55; }
+.dz-pips i.on { background: currentColor; opacity: 1; }
+
+/* ---- the switch and the search ---- */
+.dz-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 26px 0 6px; }
+.dz-bar input[type="search"] { flex: 1 1 220px; max-width: 360px; margin: 0; padding: 5px 10px; border: 1px solid #d5dde5; border-radius: 999px; font-size: 0.82rem; }
+.dz-count { color: $muted-text-color; font-size: 0.78rem; }
+.dz-empty { margin: 12px 0; color: $muted-text-color; font-size: 0.85rem; }
+
+/* ---- one designer ---- */
+.dz-person { margin: 0 0 22px; padding-top: 14px; border-top: 1px solid mix(#fff, $border-color, 40%); scroll-margin-top: 1rem; }
+.dz-person__head { display: flex; gap: 12px; align-items: center; margin: 0 0 10px; }
+.dz-person__avatar { flex: 0 0 52px; width: 52px; height: 52px; border-radius: 8px; object-fit: cover; background: #fff; box-shadow: 0 1px 4px rgba(30, 41, 59, 0.15); }
+.dz-person__avatar.is-blank { display: flex; align-items: center; justify-content: center; background: mix(#fff, $dz-agree, 88%); color: $dz-agree; font-size: 1.3rem; font-weight: 800; box-shadow: none; }
+.dz-person__id { min-width: 0; }
+.dz-person__name { margin: 0; font-size: 1.05rem; a { color: inherit; } small { margin-left: 6px; color: $muted-text-color; font-size: 0.74rem; font-weight: 400; } }
+.dz-person__credits { margin: 3px 0 0; color: $muted-text-color; font-size: 0.72rem; line-height: 1.9; }
+.dz-person__credits a { display: inline-block; margin: 0 0 0 4px; padding: 0 6px; border-radius: 3px; background: $dz-agree; color: #fff; font-size: 0.68rem; line-height: 1.6; text-decoration: none; }
+.dz-person__credits a.is-credits { background: $dz-roll; color: $dz-agree; }
+
+/* ---- the Pokémon cards ---- */
+.dz-mons { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+.dz-mon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 2px 4px 8px;
+  border: 1px solid mix(#fff, $border-color, 35%);
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+  line-height: 1.35;
+
+  &.is-unsure { border-style: dashed; border-color: $dz-gf; }
+}
+/* the sprites are 96 px pixel art with a wide margin: show the middle 80 px at 1:1 so the pixels stay square */
+.dz-mon__sprite { width: 80px; height: 80px; object-fit: none; image-rendering: pixelated; }
+.dz-mon__name { font-size: 0.86rem; font-weight: 700; }
+.dz-mon__meta { max-width: 100%; color: $muted-text-color; font-size: 0.64rem; font-variant-numeric: tabular-nums; }
+.dz-mon__meta span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dz-mon__remark { margin-top: 2px; color: #8a6d3b; font-size: 0.68rem; }
+.dz-mon__refs { margin-top: 3px; font-size: 0.64rem; color: $muted-text-color; }
+.dz-mon__refs a { display: inline-block; margin: 0 1px; padding: 0 4px; border-radius: 3px; background: $dz-even; color: $dz-agree; font-weight: 700; text-decoration: none; &:hover { background: $dz-roll; } }
+.dz-mon__refs em { font-style: normal; }
+.dz-mon.is-unsure .dz-mon__refs em { color: mix(#000, $dz-gf, 25%); }
+.dz-mon__who { margin-top: 3px; font-size: 0.72rem; font-weight: 700; text-decoration: none; }
+
+/* ---- designers known only by generation ---- */
+.dz-sub { margin: 26px 0 6px; font-size: 0.95rem; small { margin-left: 6px; color: $muted-text-color; font-weight: 400; } }
+.dz-genonly__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 18px; margin: 0; padding: 0; list-style: none; font-size: 0.82rem; }
+.dz-genonly__list li { margin: 0; scroll-margin-top: 1rem; }
+.dz-genonly__list b a { color: inherit; }
+.dz-genonly__list small { margin: 0 4px; color: $muted-text-color; font-size: 0.68rem; }
+.dz-genonly__list .dz-person__credits { display: block; margin: 0; }
+.dz-genonly__list .dz-person__credits a:first-child { margin-left: 0; }
+
+/* ---- sources ---- */
+.dz-sources { margin: 0 0 16px 2.2em; padding: 0; font-size: 0.8rem; line-height: 1.6; }
+.dz-sources li { margin: 0 0 8px; scroll-margin-top: 1rem; &:target { background: #fff3c4; } }
+.dz-sources b { font-weight: 700; margin-right: 6px; }
+.dz-src__post { display: block; color: $dz-agree; font-weight: 700; text-decoration: none; &:hover { text-decoration: underline; } }
+.dz-src__post small { margin-right: 6px; padding: 0 6px; border-radius: 3px; background: $dz-agree; color: #fff; font-size: 0.66rem; font-weight: 700; vertical-align: 1px; }
+.dz-src__link { margin-right: 6px; word-break: break-all; }
+.dz-src__tag { margin-right: 8px; padding: 0 4px; border-radius: 3px; background: #f1f1f1; color: $muted-text-color; font-size: 0.64rem; }
+.dz-src__used { display: block; color: $muted-text-color; font-size: 0.72rem; a { color: inherit; } }
+
+.dz-changelog { margin: 0 0 12px; font-size: 0.78rem; color: $muted-text-color; summary { cursor: pointer; } ul { margin: 6px 0 0 1.2em; } li { margin: 0 0 2px; } time { margin-right: 6px; font-variant-numeric: tabular-nums; } }
+.dz-colophon code { font-size: 0.72rem; }
+
+@media (max-width: $small) {
+  .layout--pokemon-designers #main { padding-left: 16px; padding-right: 16px; }
+  .dz-matrix .dz-name { min-width: 6.5em; }
+  .dz-matrix .dz-name small, .dz-matrix thead th small { display: none; }
+  .dz-matrix .dz-cell { min-width: 28px; }
+  .dz-matrix th, .dz-matrix td { padding: 3px 2px; }
+  .dz-pips i { width: 4px; height: 9px; }
+  .dz-mons { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; }
+  .dz-person__name small { display: block; margin-left: 0; }
+}
+
+body.theme-bg-black {
+  .dz-scroll, .dz-mon, .dz-matrix .dz-name { background: #23282d; border-color: #3a434c; }
+  .dz-matrix thead th, .dz-matrix thead .dz-name { background: #2a2f35; }
+  .dz-matrix .g2, .dz-matrix .g4, .dz-matrix .g6, .dz-matrix .g8 { background-color: #2b333b; }
+  .dz-mon__refs a { background: #2f3a44; color: #9fd3e6; }
+  .dz-bar input[type="search"] { background: #2a2f35; border-color: #46505a; color: #dce4ea; }
+}
