@@ -50,7 +50,7 @@ search: false
 <a href="/entities/organizations/nintendo-power/"><strong>Nintendo Power</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/olm/"><strong>OLM</strong><span>73 条资料</span></a>
 <a href="/entities/organizations/one-direction/"><strong>One Direction</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/poke-amice-docs/"><strong>Poke Amice Docs</strong><span>6 条资料</span></a>
+<a href="/entities/organizations/poke-amice-docs/"><strong>Poke Amice Docs</strong><span>27 条资料</span></a>
 <a href="/entities/organizations/recruit-navi/"><strong>Recruit Navi</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/sega/"><strong>SEGA（世嘉）</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/steam-valve/"><strong>Steam（Valve）</strong><span>1 条资料</span></a>

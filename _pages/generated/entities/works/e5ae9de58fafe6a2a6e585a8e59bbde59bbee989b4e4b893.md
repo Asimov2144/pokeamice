@@ -1,6 +1,6 @@
 ---
-title: "宝可梦全国图鉴 Pro - 作品"
-permalink: "/entities/works/pro/"
+title: "宝可梦全国图鉴专业版 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a6e585a8e59bbde59bbee989b4e4b893/"
 layout: "single"
 search: false
 ---
@@ -8,7 +8,7 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>宝可梦全国图鉴 Pro</h2>
+    <h2>宝可梦全国图鉴专业版</h2>
     <span>2 篇文章 · 0 条评注 · 2012</span>
   </div>
   <div class="resource-network-jump">

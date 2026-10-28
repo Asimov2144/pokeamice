@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon GO</h2>
-    <span>33 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
+    <span>35 篇文章 · 0 条评注 · 2025 / 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2025 · interview_translation · 藤原ヒロシ×ポケモン「THUNDERBOLT PROJECT」誕生秘話（FRAGMENT UNIVERSITY 藤原ヒロシの特殊講義 より）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-shueisha-2025-fragment-university-thunderbolt/">集英社 Online 2025：藤原浩与宝可梦「THUNDERBOLT PROJECT」诞生秘话</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2024 · interview_translation · 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</p>
   <h3><a href="/采访/开发者访谈/宝可梦sleep/生活娱乐化/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/">【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</a></h3>
   <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0688 --</span>
@@ -57,6 +63,12 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_excerpt · 【イベントリポート③】被災地×行政×民間のトークセッション｜fukko_design</p>
+  <h3><a href="/访谈翻译/访谈整理/interview-fukko-design-2019-talk-kasejima/">FUKKO DESIGN 2019 座谈《能为灾区做的事》：宝可梦执行役员鹿濑岛英介谈 POKÉMON with YOU（摘录）</a></h3>
   <span></span>
 </article>
 

@@ -27,7 +27,7 @@ search: false
 <article class="resource-network-card">
   <p>2022 · article · 本站传送门</p>
   <h3><a href="/sites/文档/Updates/">[站点]-更新日志</a></h3>
-  <span>Poke Amice 更新日志 From New to Old\ {: .align-center} 2022.5.14 1.更新了一篇对2016年末机核翻译的石原采访的回顾 &lt;a href = &quot;https://weibo.com/ttarticle/p/show?id=2309404775939119644801&quot; title = &quot;link weibo</span>
+  <span>这是宝可梦友会 2022 年的更新日志，留作记录，之后没有再更新。现在的站点动态在站点动态，站点本身的说明见关于本站。 {: .notice--info} Poke Amice 更新日志 From New to Old\ {: .align-center} 2022.5.14 1.更新了一篇对2016年末机核翻译的石原采访的回顾 &lt;a href = &quot;htt</span>
 </article>
 
 <article class="resource-network-card">

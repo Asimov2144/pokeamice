@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>寺田佑贵</h2>
-    <span>3 篇文章 · 0 条评注 · 2023 / 2022 / 2017</span>
+    <span>4 篇文章 · 0 条评注 · 2023 / 2022 / 2017</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2023 · interview_translation</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-pokemon-recruit-data/">宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケモンスリープ』インタビュー。ゲームとしてのおもしろさを追求しつつ、長時間遊ばせない睡眠計測アプリならではの工夫とは。アニメ『ポケットモンスター』湯山監督など豪華制作協力陣も判明</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2023-pokemon-sleep-team/">Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发</a></h3>
   <span></span>
 </article>
 

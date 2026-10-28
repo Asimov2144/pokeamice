@@ -1,6 +1,6 @@
 ---
-title: "宝可梦超不可思议迷宫 - 作品"
-permalink: "/entities/works/e5ae9de58fafe6a2a6e8b685e4b88de58fafe6809de8aeae/"
+title: "宝可梦探险寻宝 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a6e68ea2e999a9e5afbbe5ae9d/"
 layout: "single"
 search: false
 ---
@@ -8,8 +8,8 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>宝可梦超不可思议迷宫</h2>
-    <span>1 篇文章 · 0 条评注 · 2022</span>
+    <h2>宝可梦探险寻宝</h2>
+    <span>1 篇文章 · 0 条评注 · 2018</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2022 · interview_translation · The Meeting of Destiny: An Interview with Shinichiro Tomie from SPIKE CHUNSOFT</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto/">Seafoam Gaming 2022：Spike Chunsoft 富江慎一郎访谈</a></h3>
+  <p>2018 · interview_translation · Gamer.ne.jp</p>
+  <h3><a href="/interview-gamer-pokemon-press-conference-2018/">《宝可梦 探险寻宝》与《Let&#39;s Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈</a></h3>
   <span></span>
 </article>
 

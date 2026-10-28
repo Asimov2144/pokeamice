@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 X·Y</h2>
-    <span>56 篇文章 · 0 条评注 · 2023 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013</span>
+    <span>57 篇文章 · 0 条评注 · 2023 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -277,6 +277,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
@@ -297,12 +303,6 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
   <span></span>
 </article>
 
@@ -346,6 +346,12 @@ search: false
   <p>2013 · interview_translation · ［E3 2013］「ポケットモンスター X・Y」の情報公開＆質疑応答が行われた「Developer discussion」をレポート</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-e3-2013-xy-developer-discussion/">4Gamer.net 2013：宝可梦X·Y开发者讨论会 石原恒和与增田顺一谈新作</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第234回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-234/">[GameFreak部长专栏] 第234回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 世界首次。 自从１９９６年《宝可梦 红·绿》发售以来， 宝可梦的信息发布，一直都是从日本开始的。 因为游戏会先</span>
 </article>
 
 <article class="resource-network-card">

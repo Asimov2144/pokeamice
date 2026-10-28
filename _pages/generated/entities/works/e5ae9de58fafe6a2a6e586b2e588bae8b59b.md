@@ -1,6 +1,6 @@
 ---
-title: "宝可梦冲刺 - 作品"
-permalink: "/entities/works/e5ae9de58fafe6a2a6e586b2e588ba/"
+title: "宝可梦冲刺赛 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a6e586b2e588bae8b59b/"
 layout: "single"
 search: false
 ---
@@ -8,7 +8,7 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>宝可梦冲刺</h2>
+    <h2>宝可梦冲刺赛</h2>
     <span>3 篇文章 · 0 条评注 · 2011</span>
   </div>
   <div class="resource-network-jump">

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 蓝</h2>
-    <span>2 篇文章 · 0 条评注 · 2017 / 1997</span>
+    <span>3 篇文章 · 0 条评注 · 2017 / 2008 / 1997</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -22,6 +22,12 @@ search: false
   <p>2017 · interview_translation · ゲームフリーク、技術開発への挑戦</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-ta-taya-kk/">GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第125回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-125/">[GameFreak部长专栏] 第125回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 我想一边比较过去的开场曲，一边看看至今为止音乐的变化。 ※这里只放了曲子的一部分，其中还加入了演出时的音效。还</span>
 </article>
 
 <article class="resource-network-card">

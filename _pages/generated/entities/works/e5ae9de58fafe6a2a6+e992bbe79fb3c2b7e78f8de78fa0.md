@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 钻石·珍珠</h2>
-    <span>68 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>72 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -61,14 +61,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/">[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）</a></h3>
+  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-2-brand-new-world/">[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-2-brand-new-world/">[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）</a></h3>
+  <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/">[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）</a></h3>
   <span></span>
 </article>
 
@@ -109,9 +109,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2009 · gamefreak_director_column · 増田部長のめざめるパワー 第153回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-153/">[GameFreak部长专栏] 第153回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 东京都涩谷区，涩谷站前。 涩谷十字路口的四块巨型屏幕上播放了影像。 没错，第二天的21日，就是《宝可梦 金·银</span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その6</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-155/">【工作日志】2009年《心金·魂银》的美术设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，初次见面！&lt;br 我是《宝可梦 心金·魂银》（以下简称HG·SS）的美术总监海野。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/155/unno091120-83ab7</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その１</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-145/">【工作日志】2009年心金·魂银开发随笔</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 正如总监もりもと（森本）之前预告的那样，接下来预计会分成全8回，&lt;br 作为《宝可梦 心金·魂银》（以下简称“心金·魂银”）发售纪念，&lt;br 我们将以《来聊聊心金·魂银！》为题，陆续刊载参与开发的工作人员的故事。&lt;br 敬请期待！ 作为第1回，这次由开发部程序员森负责。&lt;br 在</span>
 </article>
 
 <article class="resource-network-card">
@@ -124,6 +136,12 @@ search: false
   <p>2009 · interview_translation · Nintendo power Interview: Masuda on Developing Gens 1-4</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-gens-1-4/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · gamefreak_director_column · 増田部長のめざめるパワー 第137回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-137/">[GameFreak部长专栏] 第137回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家知道“睡觉皮卡丘”吗？ 其实现在，所有宝可梦中心都在举办“睡觉皮卡丘庆典”！ 而且在3月15日（星期日）之</span>
 </article>
 
 <article class="resource-network-card">
@@ -208,6 +226,12 @@ search: false
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第106回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-106/">[GameFreak部长专栏] 第106回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 日本的《钻石·珍珠》发售，今天正好满一年。 多亏大家的支持，截至今年7月底，全球累计销量已经超过1000万套，</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 社内の流行しているゲーム</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-33/">【工作日志】2007年公司里流行的游戏</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面。&lt;br 我是一名程序员，名叫なぎー（纳吉）。&lt;br 虽然入职才半年，是个新人，但还请大家多多关照。 那么。&lt;br GAME FREAK里有很多像公司名称所说的那样喜欢游戏的人。&lt;br 有自己和别人都承认的宝可梦狂热爱好者，玩《宝可梦 钻石》超过500小时；&lt;br 有超级喜欢《勇</span>
 </article>
 
 <article class="resource-network-card">

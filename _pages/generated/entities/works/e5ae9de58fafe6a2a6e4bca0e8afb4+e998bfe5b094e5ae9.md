@@ -26,7 +26,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2024 · article · Link</p>
-  <h3><a href="/长文/分析/宝可梦友会/长文-拨云见日-从百代市到水脉图书馆/">[长文] 拨云见日 从百代市到水脉图书馆</a></h3>
+  <h3><a href="/长文分析/长文/分析/宝可梦友会/长文-拨云见日-从百代市到水脉图书馆/">[长文] 拨云见日 从百代市到水脉图书馆</a></h3>
   <span>&lt;font color=gray size=2这段故事将从水脉图书馆一路讲到百代市。&lt;/font&lt;br/ 写在前面的话： &lt;center style=&quot;font-size:14px;color:C0C0C0;text-decoration:underline&quot;其即太阳&lt;/center &amp;emsp;过去两年每每构思，撰写这篇文章的时候，总想着会赶在某年的LA（</span>
 </article>
 

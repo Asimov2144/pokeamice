@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon Sleep</h2>
-    <span>1 篇文章 · 0 条评注 · 2023</span>
+    <span>2 篇文章 · 0 条评注 · 2023</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2023 · interview_translation · ポケモンセンター出張所ができるまで K.K｜株式会社ポケモンセンター 採用サイト</p>
   <h3><a href="/官方档案/访谈翻译/interview-pokemon-center-pop-up-store-project/">株式会社宝可梦中心 官方招聘访谈 03：活动企划部 K.K——宝可梦中心出张所的企划与运营</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケモンスリープ』インタビュー。ゲームとしてのおもしろさを追求しつつ、長時間遊ばせない睡眠計測アプリならではの工夫とは。アニメ『ポケットモンスター』湯山監督など豪華制作協力陣も判明</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2023-pokemon-sleep-team/">Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发</a></h3>
   <span></span>
 </article>
 

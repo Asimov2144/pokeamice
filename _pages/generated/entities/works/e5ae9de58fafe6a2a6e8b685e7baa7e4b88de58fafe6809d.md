@@ -1,6 +1,6 @@
 ---
-title: "剧场版 宝可梦 超梦的逆袭 - 作品"
-permalink: "/entities/works/e589a7e59cbae78988+e5ae9de58fafe6a2a6+e8b685e6a2/"
+title: "宝可梦超级不可思议迷宫 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a6e8b685e7baa7e4b88de58fafe6809d/"
 layout: "single"
 search: false
 ---
@@ -8,8 +8,8 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>剧场版 宝可梦 超梦的逆袭</h2>
-    <span>1 篇文章 · 0 条评注 · 2020</span>
+    <h2>宝可梦超级不可思议迷宫</h2>
+    <span>1 篇文章 · 0 条评注 · 2022</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2020 · interview_translation · コロコロオンライン（Corocoro Online）</p>
-  <h3><a href="/interview-corocoro-coco-okazaki-taiiku/">《剧场版 宝可梦 可可》音乐总监专访：冈崎体育谈父子羁绊与萨戮德之歌</a></h3>
+  <p>2022 · interview_translation · The Meeting of Destiny: An Interview with Shinichiro Tomie from SPIKE CHUNSOFT</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto/">Seafoam Gaming 2022：Spike Chunsoft 富江慎一郎访谈</a></h3>
   <span></span>
 </article>
 

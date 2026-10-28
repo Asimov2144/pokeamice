@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>121 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
+    <span>122 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -592,6 +592,12 @@ search: false
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第125回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-125/">[GameFreak部长专栏] 第125回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 我想一边比较过去的开场曲，一边看看至今为止音乐的变化。 ※这里只放了曲子的一部分，其中还加入了演出时的音效。还</span>
 </article>
 
 <article class="resource-network-card">

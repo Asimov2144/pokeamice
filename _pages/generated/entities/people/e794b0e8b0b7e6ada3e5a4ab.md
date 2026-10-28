@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>田谷正夫</h2>
-    <span>3 篇文章 · 0 条评注 · 2017 / 2016 / 2011</span>
+    <span>4 篇文章 · 0 条评注 · 2017 / 2016 / 2013 / 2011</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -28,6 +28,12 @@ search: false
   <p>2016 · interview_translation · ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛</p>
   <h3><a href="/developer-interviews/official-archives/interview-denfami-sonobe-gamefreak-morimoto/">Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经</a></h3>
   <span>导读：当《宝可梦》的缔造者们遇上改变一生的游戏神作 在 GAME FREAK 漫长而辉煌的独立开发史上，除了享誉全球的《精灵宝可梦》之外，有一款名为《德比骏马》（Derby Stallion / ダビスタ）的传奇赛马模拟游戏，曾彻底改变了 GAME FREAK 早期创作者们的生命轨迹： 1. 红白机时代的‘办公室全员沉迷危机’：作为‘初代始作俑者’的森本茂树</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · 『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2013-solitiba/">Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

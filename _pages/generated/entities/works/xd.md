@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦XD 暗之旋风 黑暗洛奇亚</h2>
-    <span>1 篇文章 · 0 条评注 · 2005</span>
+    <span>2 篇文章 · 0 条评注 · 2026 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · Tsukasa Tawada: A Peek Into the Mind of a Composer</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/">Dr. Pez 2026：作曲家多和田吏访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2005 · interview_translation · イベントと応援で燃えろ！パワーで押し切る今年の夏！『ポケモンフェスタ2005』＆『ポケモンＸＤ』大特集｜Nintendo Online Magazine 2005年8月号 No.85</p>
   <h3><a href="/官方档案/访谈翻译/interview-nom-xd-gale-of-darkness-pokemon-festa/">任天堂官方网络杂志 N.O.M 特辑：GC《宝可梦XD 暗之旋风 黑暗洛奇亚》游玩报告、株式会社宝可梦宣传部新井贤一寄语与 Pokemon Festa 2005 东京大会</a></h3>
   <span></span>

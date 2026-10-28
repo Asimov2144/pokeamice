@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宇都宫崇人</h2>
-    <span>6 篇文章 · 0 条评注 · 2024 / 2023 / 2018 / 2016</span>
+    <span>7 篇文章 · 0 条评注 · 2024 / 2023 / 2018 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -28,6 +28,12 @@ search: false
   <p>2023 · interview_translation · ‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon</p>
   <h3><a href="/采访/高管专访/宝可梦朱紫/品牌战略/interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/">‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon</a></h3>
   <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0855 --</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 【ポケモンWCS2023】開会式・会場風景リポート／ポケモン・宇都宮崇人氏（COO）＆クリス・ブラウン氏インタビュー 「ポケモンの歴史のひとつを作る存在として、選手の方には全力を尽くしてがんばってほしい」</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2023-wcs-utsunomiya-brown/">Fami通.com 2023：宝可梦WCS2023开幕式与宇都宫崇人、克丽丝·布朗访谈</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

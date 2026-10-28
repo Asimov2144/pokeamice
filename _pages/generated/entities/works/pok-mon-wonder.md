@@ -1,6 +1,6 @@
 ---
-title: "宝可梦 皮卡丘 - 作品"
-permalink: "/entities/works/e5ae9de58fafe6a2a6+e79aaee58da1e4b898/"
+title: "Pokémon WONDER - 作品"
+permalink: "/entities/works/pok-mon-wonder/"
 layout: "single"
 search: false
 ---
@@ -8,8 +8,8 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>宝可梦 皮卡丘</h2>
-    <span>1 篇文章 · 0 条评注 · 1997</span>
+    <h2>Pokémon WONDER</h2>
+    <span>1 篇文章 · 0 条评注 · 2021</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>1997 · interview_translation · その他のポケモンのゲーム関連記事 ─ 『赤・緑』発売前後のファミマガなど</p>
-  <h3><a href="/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/">初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈</a></h3>
+  <p>2021 · interview_translation · “ポケモンワンダー”仕掛け人たちに聞く、新機軸の遊び。ポケモン×自然×冒険で得られる体験は人々に何をもたらすのか？</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2021-pokemon-wonder/">Fami通.com 2021：宝可梦WONDER策划者访谈——宝可梦×自然×冒险的新玩法</a></h3>
   <span></span>
 </article>
 

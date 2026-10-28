@@ -1,6 +1,6 @@
 ---
-title: "宝可梦＋信长之野望 - 作品"
-permalink: "/entities/works/e5ae9de58fafe6a2a6efbc8be4bfa1e995bfe4b98be9878e/"
+title: "宝可梦+信长的野望 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a62be4bfa1e995bfe79a84e9878ee69c/"
 layout: "single"
 search: false
 ---
@@ -8,7 +8,7 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>宝可梦＋信长之野望</h2>
+    <h2>宝可梦+信长的野望</h2>
     <span>1 篇文章 · 0 条评注 · 2012</span>
   </div>
   <div class="resource-network-jump">

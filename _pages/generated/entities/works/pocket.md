@@ -1,6 +1,6 @@
 ---
-title: "Pokémon TCG Pocket - 作品"
-permalink: "/entities/works/pok-mon-tcg-pocket/"
+title: "宝可梦集换式卡牌游戏 Pocket - 作品"
+permalink: "/entities/works/pocket/"
 layout: "single"
 search: false
 ---
@@ -8,8 +8,8 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>作品</p>
-    <h2>Pokémon TCG Pocket</h2>
-    <span>2 篇文章 · 0 条评注 · 2026 / 2025</span>
+    <h2>宝可梦集换式卡牌游戏 Pocket</h2>
+    <span>3 篇文章 · 0 条评注 · 2026 / 2025</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -27,6 +27,12 @@ search: false
 <article class="resource-network-card">
   <p>2025 · interview_translation · “気づいたらポケモンの世界にいる”そんなサウンドを、届けたい</p>
   <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-sound-creator/">Creatures 招聘网站：声音创作者 M.H. 谈《宝可梦集换式卡牌游戏 Pocket》的声音</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2025 · interview_translation · 紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/">ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作</a></h3>
   <span></span>
 </article>
 

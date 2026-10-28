@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦集换式卡牌游戏</h2>
-    <span>19 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2019 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
+    <span>20 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2019 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -112,6 +112,12 @@ search: false
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンカードゲーム大会！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-38/">【工作日志】2007年GAME FREAK宝可梦卡牌赛</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面。我是规划师マー（小玛）。 前些日子，GAME FREAK举办了宝可梦卡牌游戏社内赛。&lt;br 下班后，卡牌族们陆陆续续聚到了会议室。 会议室一下子就变成了比赛会场！&lt;br &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ハワイの島の、いちばんあつい日</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-18/">【工作日志】2007年夏威夷岛最热的一天</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是 よっしー（小吉）～。 我在 GAME FREAK 担任图形设计师。&lt;br 我的主要工作，是制作游戏画面。 除此之外，除了游戏画面，&lt;br GAME FREAK 的图形设计师们，&lt;br 也会为宝可梦卡牌游戏绘制插画哦～。 就是这样，&lt;br 这次想和大家聊聊宝可梦卡牌游戏。 </span>
 </article>
 
 <article class="resource-network-card">
