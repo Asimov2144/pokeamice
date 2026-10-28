@@ -1,6 +1,6 @@
 # 原刊征集（/wanted/）：实体杂志里的宝可梦主创访谈——哪些本站已有原刊，哪些只有文字转录，哪些只知道存在。
 # 来源：design/wanted/ 下的 1996–2012 阶段整理、2013–2016 媒体巡回 v0.5、剑盾之后纸媒 v0.2。
-# 本轮更新：2026-10-17。网页自采／媒体活动记录只作研究背景，不列为原刊征集卡片。
+# 本轮更新：2026-10-29（补登记本站已有扫本的 19 期杂志，新增 2 期书目已识别的原刊）；上一轮 2026-10-17。网页自采／媒体活动记录只作研究背景，不列为原刊征集卡片。
 #
 # 每条：
 #   id          锚点（/wanted/#id），也是投稿邮件 / Issue 标题里的编号
@@ -26,6 +26,8 @@ eras:
     label: 1996–2000 · 初代与金银
   - key: rse
     label: 2003–2004 · 红宝石·蓝宝石 · 火红·叶绿 · 绿宝石
+  - key: rs2
+    label: 2005–2006 · 绿宝石之后、钻石·珍珠之前
   - key: dp
     label: 2007 · 钻石·珍珠
   - key: pt
@@ -43,6 +45,8 @@ eras:
     label: 2014–2015 · 欧米伽红宝石·阿尔法蓝宝石
   - key: sm
     label: 2016 · 太阳·月亮
+  - key: usum
+    label: 2017–2018 · 究极之日·究极之月 · Let's Go
   - key: swsh
     label: 2019 · 剑·盾
   - key: expansion
@@ -60,6 +64,15 @@ eras:
 
 items:
   # ---------------------------------------------------------------- 1996–2000
+  - id: shodai-zukan-1996
+    era: early
+    pub: ポケットモンスター図鑑
+    issue: 1996 年初版
+    date: "1996-04-05"
+    title: 开发人员访谈「花费 6 年岁月的怪物们」
+    people: [田尻智, 增田顺一, 杉森建, 西野弘二, 森本茂树]
+    status: scan
+    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
   - id: famicom-magazine-1996-13
     era: early
     pub: ファミリーコンピュータMagazine
@@ -71,6 +84,34 @@ items:
     priority: A
     known: 书目已识别，是初代发售后不久的早期访谈。
     need: [这一期的封面与目录页, 访谈所在的每一页（带页码）, 受访者与提问形式（访谈还是 FAX 问答）]
+  - id: famimaga64-1996-08
+    era: early
+    pub: ファミマガ64
+    issue: No.4・5（合并号）
+    date: "1996-08-23"
+    title: 《宝可梦2》制作中的田尻智 · FAX 问答
+    people: [田尻智]
+    status: known
+    priority: A
+    pages: "30–31"
+    known: "「ゲームボーイの逆襲」栏目：编辑部提问，田尻智用传真回答，谈制作中的《宝可梦2》（后来的《金·银》）。书目已识别，本站还没有这一期。"
+    need: [这一期的封面与目录页, 30–31 页的全页（带页码）, 提问与回答的原文]
+    sources:
+      - {label: "田尻智媒体书目（「砂の碑」整理）", url: http://sunanohi.web.fc2.com/pokemon/magazine/game.html}
+  - id: gamehihyou-14
+    era: early
+    pub: ゲーム批評
+    issue: Vol.14
+    date: "1997-04-10"
+    title: COVER ARTIST INTERVIEW · 杉森建
+    people: [杉森建]
+    status: known
+    priority: A
+    pages: "53"
+    known: "这一期的封面是杉森建画的；书中有一篇他的封面画家访谈，回答 10 个问题。书目已识别，本站还没有这一期。"
+    need: [这一期的封面, 53 页的全页（带页码）, 10 个问题与回答的原文]
+    sources:
+      - {label: "田尻智媒体书目（「砂の碑」整理）", url: http://sunanohi.web.fc2.com/pokemon/magazine/other.html}
   - id: famimaga64-26
     era: early
     pub: ファミマガ64
@@ -94,6 +135,15 @@ items:
     priority: A
     known: 上一期长访谈的续篇，内容只在二手整理里见过。
     need: [访谈所在的每一页（带页码）, 标题与栏目名]
+  - id: gs-guidebook-1999
+    era: early
+    pub: 任天堂公式ガイドブック ポケットモンスター 金・銀
+    issue: 卷末特集
+    date: "1999-12-01"
+    title: 开发人员直击采访「金·银的这些想知道！」
+    people: [森本茂树, 杉森建, 增田顺一, 西野弘二]
+    status: scan
+    post: 1999-12-01-scan-gs-guidebook-1999-developer-interview
   - id: game-kaigi-9
     era: early
     pub: ゲーム会議
@@ -162,7 +212,36 @@ items:
     sources:
       - {label: 電撃オンライン 2026 回顾, url: "https://dengekionline.com/article/202604/73546"}
 
+  # ---------------------------------------------------------------- 2005–2006
+  - id: corocoro-2005-08
+    era: rs2
+    pub: コロコロコミック
+    issue: 2005 年 8 月号 别册附录
+    date: "2005-08"
+    title: 《钻石·珍珠》紧急采访
+    people: [增田顺一]
+    status: scan
+    post: 2005-07-15-scan-corocoro-200508-diamond-pearl-scoop
+  - id: continue-23
+    era: rs2
+    pub: CONTINUE
+    issue: Vol.23
+    date: "2005-08"
+    title: GAME FREAK 众人谈《DOTZ》；杉森建、吉田宏信谈《螺旋破坏者》
+    people: [田尻智, 杉森建, 增田顺一, 海野隆雄, 吉田宏信]
+    status: scan
+    post: 2005-08-18-scan-continue-vol23-gamefreak-special
+
   # ---------------------------------------------------------------- DP
+  - id: continue-32
+    era: dp
+    pub: CONTINUE
+    issue: Vol.32
+    date: "2007-02"
+    title: 田尻智 × 中川翔子 特别对谈
+    people: [田尻智, 中川翔子]
+    status: scan
+    post: 2026-08-29-continue-vol32-scan-archive
   - id: np-215
     era: dp
     pub: Nintendo Power
@@ -193,6 +272,15 @@ items:
     need: [正刊与附录里有没有「インタビュー」「開発スタッフ」「増田順一」「河内丸武史」等字样——有的话拍下那几页]
     sources:
       - {label: 駿河屋 书目, url: "https://www.suruga-ya.jp/kaitori/kaitori_detail/ZNON4512"}
+  - id: ndream-174
+    era: pt
+    pub: Nintendo DREAM
+    issue: Vol.174
+    date: "2008-10"
+    title: 田尻智回顾与任天堂的相遇；《白金》发售直前特报
+    people: [田尻智]
+    status: scan
+    post: 2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th
   - id: ndream-176
     era: pt
     pub: Nintendo DREAM
@@ -280,6 +368,14 @@ items:
     post: 2009-09-21-scan-ndream-2009-11-hgss-developer-interview
 
   # ---------------------------------------------------------------- BW
+  - id: ndream-192
+    era: bw
+    pub: Nintendo DREAM
+    issue: Vol.192
+    date: "2010-04"
+    title: Creatures 谈《宝可梦巡护员 光之轨迹》；《黑·白》初公开特报
+    status: scan
+    post: 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview
   - id: famitsu-1137
     era: bw
     pub: 週刊ファミ通
@@ -330,6 +426,24 @@ items:
     known: 本站现在只有玩家 wiki 的摘录，不是全文。
     need: [访谈的每一页（带页码）——有了原页就能补成全文]
     post: 2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear
+  - id: ndream-201
+    era: bw
+    pub: Nintendo DREAM
+    issue: Vol.201
+    date: "2011-01"
+    title: 《黑·白》美术与插画诞生秘闻；声音总监景山将太访谈
+    people: [杉森建, 海野隆雄, 大村祐介, 景山将太]
+    status: scan
+    post: 2010-11-20-scan-ndream-2011-01-bw-design-secrets
+  - id: davinci-2011-01
+    era: bw
+    pub: ダ・ヴィンチ
+    issue: 2011 年 1 月号
+    date: "2011-01"
+    title: 增田顺一谈《黑·白》
+    people: [增田顺一]
+    status: scan
+    post: 2010-12-06-scan-davinci-2011-01-masuda-interview
   - id: famitsu-1155
     era: bw
     pub: 週刊ファミ通
@@ -357,6 +471,15 @@ items:
     sources:
       - {label: 任天堂英国 当期介绍, url: "https://www.nintendo.com/en-gb/News/2011/The-new-Official-Nintendo-Magazine-is-on-sale-now--253631.html"}
       - {label: PocketMonsters 同期整理, url: "https://pocketmonsters.net/index.php/news/979"}
+  - id: davinci-2011-02
+    era: bw
+    pub: ダ・ヴィンチ
+    issue: 2011 年 2 月号
+    date: "2011-02"
+    title: 增田顺一谈《黑·白》（短评）
+    people: [增田顺一]
+    status: scan
+    post: 2011-01-06-scan-davinci-201102-masuda-comment
   - id: np-265
     era: bw
     pub: Nintendo Power
@@ -387,6 +510,24 @@ items:
     sources:
       - {label: Lewtwo 转录, url: "https://lewtwo.neocities.org/Interviews/bw-NintendoAccion220"}
       - {label: DeVuego 书目, url: "https://www.devuego.es/pres/revista/nintendo-accion/220"}
+  - id: otonafami-2011-03
+    era: bw
+    pub: オトナファミ
+    issue: 2011 年 3 月号
+    date: "2011-03"
+    title: 杉森建谈《黑·白》最初三只宝可梦的设计
+    people: [杉森建]
+    status: scan
+    post: 2011-01-20-scan-otonafamily-201103-masuda-bw-adults
+  - id: ndream-204
+    era: bw
+    pub: Nintendo DREAM
+    issue: Vol.204
+    date: "2011-04"
+    title: 《黑·白》开发者访谈：宝可梦与角色诞生秘话；增田顺一谈“桥”
+    people: [杉森建, 海野隆雄, 大村祐介, 增田顺一]
+    status: scan
+    post: 2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2
   - id: onm-68
     era: bw
     pub: Official Nintendo Magazine（英国）
@@ -403,6 +544,24 @@ items:
     sources:
       - {label: 任天堂英国 当期介绍, url: "https://www.nintendo.com/en-gb/News/2011/The-latest-issue-of-Official-Nintendo-Magazine-is-on-shop-shelves-now--253616.html"}
       - {label: PocketMonsters 镜像, url: "https://pocketmonsters.net/content/Interview_The_best_of_Pokemon"}
+  - id: ndream-205
+    era: bw
+    pub: Nintendo DREAM
+    issue: Vol.205
+    date: "2011-05"
+    title: 《黑·白》宝可梦与角色诞生秘话 EX；大村祐介谈人物设计
+    people: [杉森建, 海野隆雄, 大村祐介]
+    status: scan
+    post: 2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex
+  - id: ndream-bw-tanjou-hiwa
+    era: bw
+    pub: Nintendo DREAM 特别附录
+    issue: 『ポケモン誕生秘話』完全总集版
+    date: "2011-05"
+    title: 《黑·白》诞生秘话 总集篇
+    people: [杉森建, 海野隆雄, 大村祐介]
+    status: scan
+    post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon
 
   # ---------------------------------------------------------------- B2W2
   - id: famitsu-1229
@@ -461,6 +620,24 @@ items:
     need: [访谈的每一页（带页码）]
     sources:
       - {label: 同期报道（pk-mn）, url: "https://pk-mn.com/n/black2-white2-23ban-douro-music/"}
+  - id: ndream-221
+    era: b2w2
+    pub: Nintendo DREAM
+    issue: Vol.221
+    date: "2012-09"
+    title: 《黑2·白2》GAME FREAK 开发访谈
+    people: [增田顺一, 海野隆雄, 一之濑刚, 佐藤仁美]
+    status: scan
+    post: 2012-07-21-scan-ndream-2012-09-b2w2-developer-interview
+  - id: ndream-222
+    era: b2w2
+    pub: Nintendo DREAM
+    issue: Vol.222
+    date: "2012-10"
+    title: 庆典任务与宝可坞开发秘闻；宝可梦音乐访谈
+    people: [增田顺一, 海野隆雄, 一之濑刚, 佐藤仁美]
+    status: scan
+    post: 2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets
 
   # ---------------------------------------------------------------- 2013–2026（两份补充研究）
   - id: ndream-235
@@ -553,6 +730,15 @@ items:
     sources:
     - label: OVERLAP 官方书目
       url: https://over-lap.co.jp/book/xy/
+  - id: ndream-237
+    era: xy
+    pub: Nintendo DREAM
+    issue: Vol.237
+    date: "2014-01"
+    title: 《X·Y》声音团队访谈「乐曲魂」特别篇
+    people: [景山将太, 佐藤仁美]
+    status: scan
+    post: 2013-11-21-scan-ndream-2014-01-xy-sound-team-interview
   - id: famitsu-2014-12-04
     era: oras
     pub: 週刊ファミ通
@@ -627,6 +813,15 @@ items:
     need:
     - 书名页与目录
     - 是否有「スタッフインタビュー」「クリエイターインタビュー」等栏目；有的话拍下该部分
+  - id: pokemon-life-2015-07
+    era: oras
+    pub: ポケモンLife
+    issue: 创刊号
+    date: "2015-07"
+    title: 大森滋谈《ORAS》的魅力与分镜稿
+    people: [大森滋]
+    status: scan
+    post: 2015-07-30-scan-pokemon-life-2015-07-ohmori-oras
   - id: famitsu-2016-07-28
     era: sm
     pub: 週刊ファミ通
@@ -780,6 +975,17 @@ items:
       url: https://pkproject.net/revista-nintendo-accion
     - label: DeVuego 刊物索引
       url: https://www.devuego.es/bd/prensa/sol
+
+  # ---------------------------------------------------------------- 2017–2018
+  - id: cgworld-227
+    era: usum
+    pub: CGWORLD
+    issue: Vol.227
+    date: "2017-07"
+    title: 《日月》3D 资产制作与 Creatures、GAME FREAK 的三社协作
+    people: [海野隆雄]
+    status: scan
+    post: 2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra
   - id: famitsu-2019-11-28
     era: swsh
     pub: 週刊ファミ通
