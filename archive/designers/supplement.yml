@@ -1,0 +1,180 @@
+# 宝可梦设计者页的补充条目：原表（gfworks）没收、但有原始出处的「谁设计了哪只」。手写，build-designers.py 读进来。
+#
+# 线索来自 tools/research-designers.py 对 Bulbapedia 的整理（archive/designers/bulbapedia-candidates.json）
+# 和本站已收访谈；收录的标准是能指到原始出处（本人帖子、访谈、官方书刊、视频），Bulbapedia 本身不算出处。
+# 2026-10-30 整理。
+#
+# entries[]：
+#   pokemon   图鉴英文名（形态另写 form：Mega X / Alolan / Galarian / Paldean / Gigantamax / Shadow）
+#   designer  与原表英文名一致的设计者
+#   role      design（设计）/ co（合作）/ idea（构想）/ draft（初稿）/ colors（配色）
+#   remark    中文括注
+#   sources   下面 sources 的键；gf<N> 表示直接用原表第 N 条出处
+# annotate[]：给原表已有条目加括注（不改原表本身）
+
+sources:
+  nishida-ig-alcremie:
+    label: "西田敦子（@coloatsu）Instagram 帖子下的留言，2019-11-20"
+    url: https://www.instagram.com/p/B5EnBIaAzFz/
+  usum-pokedex:
+    label: "《Pokémon Ultra Sun & Ultra Moon: The Official National Pokédex》（2017）杉森建访谈「What It Takes to Create a Pokémon」，p.xiii–xxi"
+  am-gakuin-dp:
+    label: "代代木动画学院「钻石·珍珠」开发人员座谈「通往钻石·珍珠之路」Vol.1"
+    url: https://web.archive.org/web/20231129221027/https://www.amgakuin.co.jp/contents/p=1625
+  turner-dondozo:
+    label: "James Turner 推文：吃吼霸与其异色，2023-03"
+    url: https://twitter.com/JamesTurner_42/status/1634814245027172352
+    also: [https://twitter.com/JamesTurner_42/status/1634841181858459648]
+  turner-tatsugiri:
+    label: "James Turner 推文：米立龙三种样子与其异色，2023-03"
+    url: https://twitter.com/JamesTurner_42/status/1634467575898710017
+    also: [https://twitter.com/JamesTurner_42/status/1634470202250342402]
+  turner-tauros:
+    label: "James Turner 推文：帕底亚肯泰罗三个种类，2023-03-26"
+    url: https://twitter.com/JamesTurner_42/status/1639923490957545472
+  turner-linoone:
+    label: "James Turner 推文：伽勒尔直冲熊与其异色，2021-01"
+    url: https://twitter.com/JamesTurner_42/status/1349616139031224320
+    also: [https://twitter.com/JamesTurner_42/status/1355071104084275202]
+  turner-gmax-gengar:
+    label: "James Turner 推文：超极巨化耿鬼与其异色，2020-07"
+    url: https://twitter.com/JamesTurner_42/status/1282081394940801025
+    also: [https://twitter.com/JamesTurner_42/status/1283183146972745728]
+  turner-gmax-pikachu:
+    label: "James Turner 推文：超极巨化皮卡丘，2022-08"
+    url: https://twitter.com/JamesTurner_42/status/1559091292889497602
+  turner-gmax-centiskorch:
+    label: "James Turner 推文：超极巨化焚焰蚣，2020-08"
+    url: https://twitter.com/JamesTurner_42/status/1291859316736065536
+  turner-shadow-lugia:
+    label: "James Turner 推文：暗影洛奇亚（据 Hiromoto-SIN-ichi 的草图定稿、定配色），2017-08 / 2019-11"
+    url: https://twitter.com/JamesTurner_42/status/900861377333542912
+    also: [https://twitter.com/JamesTurner_42/status/1201041088942723072]
+  turner-sizzlipede:
+    label: "James Turner 推文：烧火蚣，2023-11-21"
+    url: https://twitter.com/JamesTurner_42/status/1726989880151220600
+  moritsugu-deleted:
+    label: "森次庆子已删除推文的截图存档（说明她设计了哪些第五世代宝可梦）"
+    url: https://imgur.com/a/cgf0g14
+  lava-eevee:
+    label: "杉森建谈伊布进化型（《EVs》2018，Dr. Lava 委托英译）"
+    url: https://lavacutcontent.com/ken-sugimori-eevee-origins/
+  yomiuri-2018:
+    label: "读卖新闻「深読み」2018-05-01 杉森建、西野弘二、西田敦子谈皮卡丘诞生（第 1 页）"
+    url: https://www.yomiuri.co.jp/fukayomi/ichiran/20180501-OYT8T50139/1/
+  nd84:
+    label: "Nintendo DREAM vol.84（2003 年 3 月号）红宝石·蓝宝石开发者访谈"
+    url: https://lavacutcontent.com/sugimori-masuda-gen-3-interview/
+    post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+  ign-platinum:
+    label: "IGN「Pokemon Creators on Platinum」，2009-02-24"
+    url: https://www.ign.com/articles/2009/02/23/pokemon-creators-on-platinum
+  gamespot-cards:
+    label: "GameSpot「How Pokemon Cards Are Made」"
+    url: https://www.gamespot.com/articles/how-pokemon-cards-are-made/1100-6459450/
+  gametrailers-bw:
+    label: "GameTrailers 2011 年对增田顺一、井部真那的黑·白访谈（2016-07-13 上传 YouTube）"
+    url: https://www.youtube.com/watch?v=FE7HCruzD_0
+  peer-raim:
+    label: "《Pokémon Peer》访谈的日文转录（raim2005 博客）"
+    url: http://raim2005.blog18.fc2.com/blog-entry-911.html
+  shimazaki-fidough:
+    label: "島崎麻里推文：狗仔包、麻花犬与人物莱伏、米莫莎，2024-06-28"
+    url: https://twitter.com/MariShimazaki/status/1806662918186188869
+  tcg-exhibition:
+    label: "宝可梦卡牌线上插画展：鹤田沙绫对「小箭雀」卡（Unified Minds 179）的解说"
+  tsuruta-goodra:
+    label: "鹤田沙绫推文：黏美龙与黏宝宝，2021-06-18"
+    url: https://twitter.com/saya_tsuruta/status/1405666612103901188
+  gf-demo-2:
+    label: "GAME FREAK 插画演示 第 2 集：James Turner × HarmoKnight（YouTube）"
+    url: https://www.youtube.com/watch?v=8c1X6A2Tyh0
+  iwata-xy:
+    label: "社长问《宝可梦 X·Y》第 2 页"
+    url: https://iwataasks.nintendo.com/interviews/3ds/pokemonxy/0/1
+  game-kaigi-9:
+    label: "《游戏会议》Vol.9（1997-08-20）GAME FREAK 座谈会（据 sunanohi 的整理笔记）"
+    post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
+
+entries:
+  # 西田敦子
+  - {pokemon: Alcremie, designer: Atsuko Nishida, sources: [nishida-ig-alcremie]}
+  - {pokemon: Raichu, form: Alolan, designer: Atsuko Nishida, remark: 构想来自貫田将文, sources: [usum-pokedex]}
+  # 吉田绘美
+  - {pokemon: Happiny, designer: Emi Yoshida, sources: [am-gakuin-dp]}
+  # James Turner
+  - {pokemon: Guzzlord, designer: James Turner, sources: [gf31, gf-demo-2]}
+  - {pokemon: Dondozo, designer: James Turner, sources: [turner-dondozo]}
+  - {pokemon: Tatsugiri, designer: James Turner, remark: 三种样子, sources: [turner-tatsugiri]}
+  - {pokemon: Tauros, form: Paldean, designer: James Turner, remark: 三个种类, sources: [turner-tauros]}
+  - {pokemon: Linoone, form: Galarian, designer: James Turner, sources: [turner-linoone]}
+  - {pokemon: Sizzlipede, designer: James Turner, sources: [turner-sizzlipede]}
+  - {pokemon: Gengar, form: Gigantamax, designer: James Turner, sources: [turner-gmax-gengar]}
+  - {pokemon: Pikachu, form: Gigantamax, designer: James Turner, sources: [turner-gmax-pikachu]}
+  - {pokemon: Centiskorch, form: Gigantamax, designer: James Turner, sources: [turner-gmax-centiskorch]}
+  - {pokemon: Lugia, form: Shadow, designer: James Turner, remark: 据 Hiromoto-SIN-ichi 的草图定稿、定配色, sources: [turner-shadow-lugia]}
+  # 杉森建
+  - {pokemon: Lapras, designer: Ken Sugimori, remark: 原话是「只想得到超梦、暴鲤龙、卡比兽、拉普拉斯这类粗犷的」, sources: [yomiuri-2018]}
+  - {pokemon: Rhydon, designer: Ken Sugimori, remark: 最早一批草图里留下来的, sources: [gf49]}
+  - {pokemon: Nidoking, designer: Ken Sugimori, remark: 最早一批草图里留下来的, sources: [gf49]}
+  - {pokemon: Gyarados, designer: Ken Sugimori, sources: [yomiuri-2018]}
+  - {pokemon: Mewtwo, designer: Ken Sugimori, sources: [yomiuri-2018]}
+  - {pokemon: Snorlax, designer: Ken Sugimori, sources: [yomiuri-2018]}
+  - {pokemon: Magnemite, designer: Ken Sugimori, remark: 构想来自田尻智, sources: [usum-pokedex]}
+  - {pokemon: Exeggutor, designer: Ken Sugimori, sources: [usum-pokedex]}
+  - {pokemon: Exeggutor, form: Alolan, designer: Ken Sugimori, sources: [usum-pokedex]}
+  - {pokemon: Ivysaur, designer: Ken Sugimori, sources: [gamespot-cards]}
+  - {pokemon: Pichu, designer: Ken Sugimori, sources: [ign-platinum]}
+  - {pokemon: Blaziken, designer: Ken Sugimori, remark: 红宝石·蓝宝石最早定下的一只, sources: [nd84]}
+  - {pokemon: Umbreon, designer: Ken Sugimori, role: colors, remark: 配色；造型是西田敦子, sources: [lava-eevee]}
+  - {pokemon: Klink, designer: Ken Sugimori, role: idea, remark: 构想；森次庆子定稿, sources: [gf19, moritsugu-deleted]}
+  - {pokemon: Klang, designer: Ken Sugimori, role: idea, remark: 构想；森次庆子定稿, sources: [gf19, moritsugu-deleted]}
+  - {pokemon: Klinklang, designer: Ken Sugimori, role: idea, remark: 构想；森次庆子定稿, sources: [gf19, moritsugu-deleted]}
+  # 森次庆子
+  - {pokemon: Reshiram, designer: Keiko Moritsugu, role: draft, remark: 初稿；杉森建定稿, sources: [moritsugu-deleted, gf21]}
+  - {pokemon: Zekrom, designer: Keiko Moritsugu, role: draft, remark: 初稿；杉森建定稿, sources: [moritsugu-deleted, gf21]}
+  # 大村祐介
+  - {pokemon: Xerneas, designer: Yūsuke Ōmura, role: co, remark: 杉森建起稿后接手完成, sources: [gf13, iwata-xy]}
+  - {pokemon: Yveltal, designer: Yūsuke Ōmura, role: co, remark: 杉森建起稿后接手完成, sources: [gf13, iwata-xy]}
+  # 井部真那
+  - {pokemon: Herdier, designer: Mana Ibe, unsure: true, remark: Pokémon Peer 里她只说交了一只狗型宝可梦；点名哈约克的是 GameTrailers 视频访谈（未逐字核对）, sources: [peer-raim, gametrailers-bw]}
+  # 田上怜子
+  - {pokemon: Sewaddle, designer: Reiko Tanoue, remark: 访谈原文是 Kurumiru（虫宝包）, sources: [gf8]}
+  # 島崎麻里
+  - {pokemon: Fidough, designer: Mari Shimazaki, sources: [shimazaki-fidough]}
+  - {pokemon: Dachsbun, designer: Mari Shimazaki, sources: [shimazaki-fidough]}
+  # 鹤田沙绫
+  - {pokemon: Fletchling, designer: Saya Tsuruta, sources: [tcg-exhibition]}
+  - {pokemon: Goodra, designer: Saya Tsuruta, sources: [tsuruta-goodra]}
+  # 海野隆雄
+  - {pokemon: Bouffalant, designer: Takao Unno, sources: [gf-demo-2]}
+  - {pokemon: Zeraora, designer: Takao Unno, sources: [gf-demo-2]}
+  # 森本茂树
+  - {pokemon: Poliwag, designer: Shigeki Morimoto, remark: 原话是「参与了蚊香蝌蚪和猴怪的设计」, sources: [game-kaigi-9]}
+
+annotate:
+  - {designer: Reiko Tanoue, pokemon: Swadloon, remark: 原表据 Pokémon Peer 访谈记作宝包茧，访谈原文说的是 Kurumiru（虫宝包）}
+  - {designer: Atsuko Nishida, pokemon: Herdier, remark: 也有说法是井部真那}
+  - {designer: Atsuko Nishida, pokemon: Umbreon, remark: 配色由杉森建决定}
+  - {designer: Ken Sugimori, pokemon: Reshiram, remark: 初稿出自森次庆子}
+  - {designer: Ken Sugimori, pokemon: Zekrom, remark: 初稿出自森次庆子}
+  - {designer: Keiko Moritsugu, pokemon: Klink, remark: 构想来自杉森建}
+  - {designer: Keiko Moritsugu, pokemon: Klang, remark: 构想来自杉森建}
+  - {designer: Keiko Moritsugu, pokemon: Klinklang, remark: 构想来自杉森建}
+
+# 查过但不收的线索（留着，免得下次再查一遍）
+rejected:
+  - lead: 大舌头（Bulbapedia 记为杉森建设计）
+    why: 它引的 NOM 第 2 页和《游戏大师》Vol.4 英译里都没有提到大舌头
+  - lead: Bulbapedia 把约 20 只初代宝可梦（水箭龟、风速狗、卡拉卡拉、耿鬼、尼多后、独角犀牛…）记为杉森建设计
+    why: 唯一出处是粉丝 Lewtwo（@Lewchube）2023-04-26 的推文，原话是「从年代看这批精灵图应该都是杉森建画的」——是推测，不是证据
+  - lead: KirisAki、Tika Matsuno 的「设计的宝可梦」
+    why: 是宝可梦大集结的服装（Holowear），不是宝可梦本身的设计
+  - lead: 斉藤コーキ（Kouki Saitou）设计的「宝可梦中心飞行员皮卡丘」
+    why: 周边商品造型，不是宝可梦设计
+  - lead: 美录坦由桥本美咲设计
+    why: Bulbapedia 自己的推断（Let's Go 名单里两位宝可梦设计者，吉田宏信资历久，所以「暗示」是桥本），没有出处
+  - lead: 猛恶菇、雷吼龙、铁磐岩等「以某只为原型」的条目
+    why: 只是说原型是谁设计的，不是这只本身的设计者
+  - lead: 洛托姆（杉森建）、掘掘兔（李ヒョンジョン）
+    why: Bulbapedia 正文里是注释掉的待核句子，没有出处

@@ -1,14 +1,19 @@
 {%- comment -%}
 One Pokémon on /credits/designers/: sprite, Chinese name, dex number, the
-source notes from the gfworks list, and its remark. who=true adds the
-designer's name (the by-dex view). Data: _data/pokemon_designers.yml.
+source notes, and its remark. who=true adds the designer's name (the by-dex
+view). Entries from archive/designers/supplement.yml carry supp (a 补 tag,
+S-numbered sources) and sometimes a role (构想 / 初稿 / 合作 / 配色); note is
+our annotation on an entry of the original list. Data: _data/pokemon_designers.yml.
 {%- endcomment -%}
 {%- assign p = include.p -%}
-<li class="dz-mon{% if p.unsure %} is-unsure{% endif %}{% if p.form %} is-form{% endif %}" data-q="{{ p.zh }} {{ p.ja }} {{ p.en | downcase }} {{ p.ndex }}{% if include.who %} {{ p.designer_name | downcase }}{% endif %}">
+<li class="dz-mon{% if p.unsure %} is-unsure{% endif %}{% if p.form %} is-form{% endif %}{% if p.supp %} is-supp{% endif %}" data-q="{{ p.zh }} {{ p.ja }} {{ p.en | downcase }} {{ p.ndex }}{% if include.who %} {{ p.designer_name | downcase }}{% endif %}">
+  {%- if p.supp %}<span class="dz-mon__tag" title="原表没有、本站据原始出处补充">补</span>{% endif %}
   <img class="dz-mon__sprite" src="{{ site.data.pokemon_designers.sprite_base | append: p.sprite | append: '.png' | relative_url }}" alt="" width="96" height="96" loading="lazy" decoding="async">
   <span class="dz-mon__name">{{ p.zh }}</span>
   <span class="dz-mon__meta">#{{ p.ndex | prepend: '000' | slice: -4, 4 }}<span lang="ja" title="{{ p.ja }}">{{ p.ja }}</span></span>
-  {%- if p.remark %}<span class="dz-mon__remark" title="{{ p.remark_en | escape }}">{{ p.remark }}</span>{% endif %}
+  {%- if p.role %}<span class="dz-mon__role">{{ p.role }}</span>{% endif %}
+  {%- if p.remark %}<span class="dz-mon__remark"{% if p.remark_en %} title="{{ p.remark_en | escape }}"{% endif %}>{{ p.remark }}</span>{% endif %}
+  {%- if p.note %}<span class="dz-mon__note">注：{{ p.note }}</span>{% endif %}
   <span class="dz-mon__refs">
     {%- if p.refs.size > 0 -%}
       {%- for n in p.refs %}<a href="#src-{{ n }}" title="出处 {{ n }}">{{ n }}</a>{% endfor -%}

@@ -14,6 +14,7 @@ the by-designer / by-dex switch are the script at the bottom.
 {% assign with_mons = D.designers | where_exp: "d", "d.pokemon.size > 0" %}
 {% assign gen_only = D.designers | where_exp: "d", "d.pokemon.size == 0" %}
 {% assign no_ref = D.dex | where_exp: "p", "p.refs.size == 0" %}
+{% assign original = D.dex | where_exp: "p", "p.supp != true" %}
 
 <div id="main" role="main">
   <div class="archive archive--person archive--credits archive--designers">
@@ -22,7 +23,8 @@ the by-designer / by-dex switch are the script at the bottom.
       <header class="people__head">
         <p class="person__kicker">制作名单</p>
         <h1 class="person__name">宝可梦设计者</h1>
-        <p class="people__lede">哪只宝可梦是谁设计的。清单整理自 gfworks 的 <a href="{{ D.source.url }}" rel="noopener">Pokémon Primary Designers</a>（原表更新至 {{ D.source.updated }}，{{ D.source.fetched }} 抓取；主站另有<a href="{{ D.source.mirror }}" rel="noopener">中文版</a>）：{{ D.designers.size }} 位设计者、{{ D.dex.size }} 只宝可梦，{% if no_ref.size > 0 %}除 {{ no_ref.size }} 只原表没注出处的以外，{% endif %}每一只都带原表的出处编号，站内已有译文的出处直接连到译文。
+        <p class="people__lede">哪只宝可梦是谁设计的。清单整理自 gfworks 的 <a href="{{ D.source.url }}" rel="noopener">Pokémon Primary Designers</a>（原表更新至 {{ D.source.updated }}，{{ D.source.fetched }} 抓取；主站另有<a href="{{ D.source.mirror }}" rel="noopener">中文版</a>）：{{ D.designers.size }} 位设计者、{{ original.size }} 只宝可梦，{% if no_ref.size > 0 %}除 {{ no_ref.size }} 只原表没注出处的以外，{% endif %}每一只都带原表的出处编号，站内已有译文的出处直接连到译文。
+          原表没收的，本站按 Bulbapedia 与本站访谈里的线索逐条追到原始出处，<a href="#supp-sources">补充了 {{ D.supp_count }} 条</a>（标「补」，出处编号 S1、S2…）；只有二手说法的没有收。
           下面的世代表按本站<a href="{{ '/credits/' | relative_url }}">历作 staff 名单</a>逐作核对过：原表记的 {{ D.cells.both | plus: D.cells.gf }} 格里{% if D.cells.gf == 0 %}每一格都{% else %}有 {{ D.cells.both }} 格{% endif %}在名单里找得到「宝可梦设计」类署名{% if D.cells.gf > 0 %}，{{ D.cells.gf }} 格没找到{% endif %}；名单多出来的 {{ D.cells.credits }} 格和原表没收的 {{ D.extra.size }} 人另外标出。</p>
       </header>
 
@@ -36,7 +38,7 @@ the by-designer / by-dex switch are the script at the bottom.
             <tr>
               <th scope="col" class="dz-name">设计者</th>
               {% for g in D.gens %}<th scope="col" class="dz-gen g{{ g.gen }}" title="{% for x in g.games %}{{ x.title }}{% unless forloop.last %} / {% endunless %}{% endfor %}">{{ g.gen }}<small>世代</small></th>{% endfor %}
-              <th scope="col" class="dz-num" title="原表列出的宝可梦数">只</th>
+              <th scope="col" class="dz-num" title="列出的宝可梦数（含本站补充）">只</th>
             </tr>
           </thead>
           <tbody>
@@ -66,7 +68,7 @@ the by-designer / by-dex switch are the script at the bottom.
         <input type="search" id="dz-q" placeholder="搜宝可梦或设计者：中 / 日 / 英名、图鉴号" autocomplete="off">
         <span class="dz-count" id="dz-count"></span>
       </div>
-      <p class="credits__help">数字是下面「出处」里的编号；虚线框是原表自己打了问号或没注出处的。精灵图里超级进化与究极形态用原形代替。</p>
+      <p class="credits__help">数字是下面「出处」里的编号，S 开头的是<a href="#supp-sources">补充出处</a>；角上标「补」的是原表没有、本站补充的；虚线框是原表自己打了问号、没注出处，或出处只说了一半的。精灵图里超级进化、超极巨化、究极与暗影宝可梦用原形代替。</p>
 
       <div class="dz-view" data-dz-pane="person">
         {% for d in with_mons %}
@@ -171,11 +173,33 @@ the by-designer / by-dex switch are the script at the bottom.
         {% endfor %}
       </ol>
 
+      {% if D.supp_sources.size > 0 %}
+        <h2 class="credits__h2" id="supp-sources">补充出处 <small>{{ D.supp_sources.size }}</small></h2>
+        <p class="credits__help">标「补」的条目用的出处。线索多来自 Bulbapedia 的设计者与宝可梦条目，但这里只列它们所引的原始出处（本人帖子、访谈、官方书刊、视频）；能打开的页面逐条核对过原话，纸本书只有页码。补充条目也会直接用上面原表的出处编号。</p>
+        <ol class="dz-sources dz-sources--supp">
+          {% for s in D.supp_sources %}
+            <li id="src-{{ s.id }}">
+              <b class="dz-src__id">{{ s.id }}</b><b>{{ s.label }}</b>
+              {% if s.post %}{% assign sp_path = "_posts/" | append: s.post | append: ".md" %}{% assign sp = site.posts | where: "path", sp_path | first %}{% if sp %}<a class="dz-src__post" href="{{ sp.url | relative_url }}"><small>本站译文</small>{{ sp.title }}</a>{% endif %}{% endif %}
+              {% if s.url %}<a class="dz-src__link" href="{{ s.url }}" rel="noopener">{{ s.url | remove: "https://" | remove: "http://" | remove: "www." | truncate: 64 }}</a>{% if s.url contains "web.archive.org" %}<small class="dz-src__tag">存档</small>{% endif %}{% endif %}
+              {% for u in s.also %}<a class="dz-src__link" href="{{ u }}" rel="noopener">另一条</a>{% endfor %}
+              {% if s.used.size > 0 %}<span class="dz-src__used">{% for u in s.used %}<a href="#d-{{ u.designer }}">{{ u.zh }}</a>{% unless forloop.last %}、{% endunless %}{% endfor %}</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+        {% if D.rejected.size > 0 %}
+          <details class="dz-changelog">
+            <summary>查过但没有收的线索（{{ D.rejected.size }} 条）</summary>
+            <ul>{% for r in D.rejected %}<li><b>{{ r.lead }}</b>：{{ r.why }}</li>{% endfor %}</ul>
+          </details>
+        {% endif %}
+      {% endif %}
+
       <details class="dz-changelog">
         <summary>原表更新记录（{{ D.changelog.size }} 条，英文原文）</summary>
         <ul>{% for c in D.changelog %}<li><time datetime="{{ c.date }}">{{ c.date }}</time> {{ c.text }}</li>{% endfor %}</ul>
       </details>
-      <p class="credits__help dz-colophon">数据：<code>tools/build-designers.py</code> 读原表快照 <code>archive/designers/gfworks-designer.html</code>、历作名单索引与人物库生成；宝可梦中文名取自 52poke。原表或名单更新后重跑脚本即可。</p>
+      <p class="credits__help dz-colophon">数据：<code>tools/build-designers.py</code> 读原表快照 <code>archive/designers/gfworks-designer.html</code>、补充条目 <code>archive/designers/supplement.yml</code>、历作名单索引与人物库生成；宝可梦中文名取自 52poke。补充线索由 <code>tools/research-designers.py</code> 从 Bulbapedia 收集。原表或名单更新后重跑脚本即可。</p>
     </section>
   </div>
 </div>

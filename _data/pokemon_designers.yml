@@ -9,6 +9,216 @@ cells:
   both: 126
   credits: 20
   gf: 0
+supp_count: 42
+supp_sources:
+- label: 西田敦子（@coloatsu）Instagram 帖子下的留言，2019-11-20
+  url: https://www.instagram.com/p/B5EnBIaAzFz/
+  id: S1
+  used:
+  - zh: 霜奶仙
+    designer: nishida
+- label: '《Pokémon Ultra Sun & Ultra Moon: The Official National Pokédex》（2017）杉森建访谈「What It Takes to Create a Pokémon」，p.xiii–xxi'
+  id: S2
+  used:
+  - zh: 小磁怪
+    designer: sugimori
+  - zh: 椰蛋树
+    designer: sugimori
+  - zh: 阿罗拉椰蛋树
+    designer: sugimori
+  - zh: 阿罗拉雷丘
+    designer: nishida
+- label: 代代木动画学院「钻石·珍珠」开发人员座谈「通往钻石·珍珠之路」Vol.1
+  url: https://web.archive.org/web/20231129221027/https://www.amgakuin.co.jp/contents/p=1625
+  id: S3
+  used:
+  - zh: 小福蛋
+    designer: emi-yoshida
+- label: GAME FREAK 插画演示 第 2 集：James Turner × HarmoKnight（YouTube）
+  url: https://www.youtube.com/watch?v=8c1X6A2Tyh0
+  id: S4
+  used:
+  - zh: 爆炸头水牛
+    designer: unno
+  - zh: 捷拉奥拉
+    designer: unno
+  - zh: 恶食大王
+    designer: turner
+- label: James Turner 推文：吃吼霸与其异色，2023-03
+  url: https://twitter.com/JamesTurner_42/status/1634814245027172352
+  also:
+  - https://twitter.com/JamesTurner_42/status/1634841181858459648
+  id: S5
+  used:
+  - zh: 吃吼霸
+    designer: turner
+- label: James Turner 推文：米立龙三种样子与其异色，2023-03
+  url: https://twitter.com/JamesTurner_42/status/1634467575898710017
+  also:
+  - https://twitter.com/JamesTurner_42/status/1634470202250342402
+  id: S6
+  used:
+  - zh: 米立龙
+    designer: turner
+- label: James Turner 推文：帕底亚肯泰罗三个种类，2023-03-26
+  url: https://twitter.com/JamesTurner_42/status/1639923490957545472
+  id: S7
+  used:
+  - zh: 帕底亚肯泰罗
+    designer: turner
+- label: James Turner 推文：伽勒尔直冲熊与其异色，2021-01
+  url: https://twitter.com/JamesTurner_42/status/1349616139031224320
+  also:
+  - https://twitter.com/JamesTurner_42/status/1355071104084275202
+  id: S8
+  used:
+  - zh: 伽勒尔直冲熊
+    designer: turner
+- label: James Turner 推文：烧火蚣，2023-11-21
+  url: https://twitter.com/JamesTurner_42/status/1726989880151220600
+  id: S9
+  used:
+  - zh: 烧火蚣
+    designer: turner
+- label: James Turner 推文：超极巨化耿鬼与其异色，2020-07
+  url: https://twitter.com/JamesTurner_42/status/1282081394940801025
+  also:
+  - https://twitter.com/JamesTurner_42/status/1283183146972745728
+  id: S10
+  used:
+  - zh: 超极巨化耿鬼
+    designer: turner
+- label: James Turner 推文：超极巨化皮卡丘，2022-08
+  url: https://twitter.com/JamesTurner_42/status/1559091292889497602
+  id: S11
+  used:
+  - zh: 超极巨化皮卡丘
+    designer: turner
+- label: James Turner 推文：超极巨化焚焰蚣，2020-08
+  url: https://twitter.com/JamesTurner_42/status/1291859316736065536
+  id: S12
+  used:
+  - zh: 超极巨化焚焰蚣
+    designer: turner
+- label: James Turner 推文：暗影洛奇亚（据 Hiromoto-SIN-ichi 的草图定稿、定配色），2017-08 / 2019-11
+  url: https://twitter.com/JamesTurner_42/status/900861377333542912
+  also:
+  - https://twitter.com/JamesTurner_42/status/1201041088942723072
+  id: S13
+  used:
+  - zh: 暗影洛奇亚
+    designer: turner
+- label: 读卖新闻「深読み」2018-05-01 杉森建、西野弘二、西田敦子谈皮卡丘诞生（第 1 页）
+  url: https://www.yomiuri.co.jp/fukayomi/ichiran/20180501-OYT8T50139/1/
+  id: S14
+  used:
+  - zh: 拉普拉斯
+    designer: sugimori
+  - zh: 暴鲤龙
+    designer: sugimori
+  - zh: 超梦
+    designer: sugimori
+  - zh: 卡比兽
+    designer: sugimori
+- label: GameSpot「How Pokemon Cards Are Made」
+  url: https://www.gamespot.com/articles/how-pokemon-cards-are-made/1100-6459450/
+  id: S15
+  used:
+  - zh: 妙蛙草
+    designer: sugimori
+- label: IGN「Pokemon Creators on Platinum」，2009-02-24
+  url: https://www.ign.com/articles/2009/02/23/pokemon-creators-on-platinum
+  id: S16
+  used:
+  - zh: 皮丘
+    designer: sugimori
+- label: Nintendo DREAM vol.84（2003 年 3 月号）红宝石·蓝宝石开发者访谈
+  url: https://lavacutcontent.com/sugimori-masuda-gen-3-interview/
+  post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
+  id: S17
+  used:
+  - zh: 火焰鸡
+    designer: sugimori
+- label: 杉森建谈伊布进化型（《EVs》2018，Dr. Lava 委托英译）
+  url: https://lavacutcontent.com/ken-sugimori-eevee-origins/
+  id: S18
+  used:
+  - zh: 月亮伊布
+    designer: sugimori
+- label: 森次庆子已删除推文的截图存档（说明她设计了哪些第五世代宝可梦）
+  url: https://imgur.com/a/cgf0g14
+  id: S19
+  used:
+  - zh: 齿轮儿
+    designer: sugimori
+  - zh: 齿轮组
+    designer: sugimori
+  - zh: 齿轮怪
+    designer: sugimori
+  - zh: 莱希拉姆
+    designer: moritsugu
+  - zh: 捷克罗姆
+    designer: moritsugu
+- label: 社长问《宝可梦 X·Y》第 2 页
+  url: https://iwataasks.nintendo.com/interviews/3ds/pokemonxy/0/1
+  id: S20
+  used:
+  - zh: 哲尔尼亚斯
+    designer: ohmura
+  - zh: 伊裴尔塔尔
+    designer: ohmura
+- label: 《Pokémon Peer》访谈的日文转录（raim2005 博客）
+  url: http://raim2005.blog18.fc2.com/blog-entry-911.html
+  id: S21
+  used:
+  - zh: 哈约克
+    designer: ibe
+- label: GameTrailers 2011 年对增田顺一、井部真那的黑·白访谈（2016-07-13 上传 YouTube）
+  url: https://www.youtube.com/watch?v=FE7HCruzD_0
+  id: S22
+  used:
+  - zh: 哈约克
+    designer: ibe
+- label: 島崎麻里推文：狗仔包、麻花犬与人物莱伏、米莫莎，2024-06-28
+  url: https://twitter.com/MariShimazaki/status/1806662918186188869
+  id: S23
+  used:
+  - zh: 狗仔包
+    designer: mari-shimazaki
+  - zh: 麻花犬
+    designer: mari-shimazaki
+- label: 宝可梦卡牌线上插画展：鹤田沙绫对「小箭雀」卡（Unified Minds 179）的解说
+  id: S24
+  used:
+  - zh: 小箭雀
+    designer: tsuruta
+- label: 鹤田沙绫推文：黏美龙与黏宝宝，2021-06-18
+  url: https://twitter.com/saya_tsuruta/status/1405666612103901188
+  id: S25
+  used:
+  - zh: 黏美龙
+    designer: tsuruta
+- label: 《游戏会议》Vol.9（1997-08-20）GAME FREAK 座谈会（据 sunanohi 的整理笔记）
+  post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
+  id: S26
+  used:
+  - zh: 蚊香蝌蚪
+    designer: morimoto
+rejected:
+- lead: 大舌头（Bulbapedia 记为杉森建设计）
+  why: 它引的 NOM 第 2 页和《游戏大师》Vol.4 英译里都没有提到大舌头
+- lead: Bulbapedia 把约 20 只初代宝可梦（水箭龟、风速狗、卡拉卡拉、耿鬼、尼多后、独角犀牛…）记为杉森建设计
+  why: 唯一出处是粉丝 Lewtwo（@Lewchube）2023-04-26 的推文，原话是「从年代看这批精灵图应该都是杉森建画的」——是推测，不是证据
+- lead: KirisAki、Tika Matsuno 的「设计的宝可梦」
+  why: 是宝可梦大集结的服装（Holowear），不是宝可梦本身的设计
+- lead: 斉藤コーキ（Kouki Saitou）设计的「宝可梦中心飞行员皮卡丘」
+  why: 周边商品造型，不是宝可梦设计
+- lead: 美录坦由桥本美咲设计
+  why: Bulbapedia 自己的推断（Let's Go 名单里两位宝可梦设计者，吉田宏信资历久，所以「暗示」是桥本），没有出处
+- lead: 猛恶菇、雷吼龙、铁磐岩等「以某只为原型」的条目
+  why: 只是说原型是谁设计的，不是这只本身的设计者
+- lead: 洛托姆（杉森建）、掘掘兔（李ヒョンジョン）
+  why: Bulbapedia 正文里是注释掉的待核句子，没有出处
 sprite_base: /assets/img/pokemon-sprites/
 gens:
 - gen: 1
@@ -190,28 +400,28 @@ designers:
     ja: ディグダ
     ndex: 50
     sprite: 50
-    refs: &id020
+    refs: &id024
     - 25
   - en: Mankey
     zh: 猴怪
     ja: マンキー
     ndex: 56
     sprite: 56
-    refs: &id021
+    refs: &id025
     - 25
   - en: Tauros
     zh: 肯泰罗
     ja: ケンタロス
     ndex: 128
     sprite: 128
-    refs: &id034
+    refs: &id044
     - 25
   - en: Mew
     zh: 梦幻
     ja: ミュウ
     ndex: 151
     sprite: 151
-    refs: &id042
+    refs: &id057
     - 1
     - 3
     - 25
@@ -220,7 +430,7 @@ designers:
     ja: ツボツボ
     ndex: 213
     sprite: 213
-    refs: &id050
+    refs: &id067
     - 9
     - 25
   - en: Piloswine
@@ -228,8 +438,17 @@ designers:
     ja: イノムー
     ndex: 221
     sprite: 221
-    refs: &id052
+    refs: &id069
     - 25
+  - en: Poliwag
+    zh: 蚊香蝌蚪
+    ja: ニョロモ
+    ndex: 60
+    sprite: 60
+    refs: &id028
+    - S26
+    supp: true
+    remark: 原话是「参与了蚊香蝌蚪和猴怪的设计」
   person: morimoto-shigeki
   avatar: /assets/img/people/morimoto-shigeki.jpg
 - id: sugimori
@@ -365,98 +584,100 @@ designers:
     ja: ピッピ
     ndex: 35
     sprite: 35
-    refs: &id014
+    refs: &id018
     - 14
   - en: Hoothoot
     zh: 咕咕
     ja: ホーホー
     ndex: 163
     sprite: 163
-    refs: &id043
+    refs: &id058
     - 43
   - en: Sudowoodo
     zh: 树才怪
     ja: ウソッキー
     ndex: 185
     sprite: 185
-    refs: &id044
+    refs: &id060
     - 1
   - en: Unown
     zh: 未知图腾
     ja: アンノーン
     ndex: 201
     sprite: 201
-    refs: &id047
+    refs: &id064
     - 49
   - en: Manaphy
     zh: 玛纳霏
     ja: マナフィ
     ndex: 490
     sprite: 490
-    refs: &id075
+    refs: &id096
     - 4
   - en: Dialga
     zh: 帝牙卢卡
     ja: ディアルガ
     ndex: 483
     sprite: 483
-    refs: &id073
+    refs: &id094
     - 5
   - en: Palkia
     zh: 帕路奇亚
     ja: パルキア
     ndex: 484
     sprite: 484
-    refs: &id074
+    refs: &id095
     - 5
   - en: Heatmor
     zh: 熔蚁兽
     ja: クイタラン
     ndex: 631
     sprite: 631
-    refs: &id145
+    refs: &id172
     - 20
   - en: Durant
     zh: 铁蚁
     ja: アイアント
     ndex: 632
     sprite: 632
-    refs: &id146
+    refs: &id173
     - 20
   - en: Sawk
     zh: 打击鬼
     ja: ダゲキ
     ndex: 539
     sprite: 539
-    refs: &id097
+    refs: &id119
     - 22
   - en: Throh
     zh: 投摔鬼
     ja: ナゲキ
     ndex: 538
     sprite: 538
-    refs: &id096
+    refs: &id118
     - 22
   - en: Reshiram
     zh: 莱希拉姆
     ja: レシラム
     ndex: 643
     sprite: 643
-    refs: &id150
+    refs: &id177
     - 21
+    note: 初稿出自森次庆子
   - en: Zekrom
     zh: 捷克罗姆
     ja: ゼクロム
     ndex: 644
     sprite: 644
-    refs: &id151
+    refs: &id179
     - 21
+    note: 初稿出自森次庆子
   - en: Xerneas
     zh: 哲尔尼亚斯
     ja: ゼルネアス
     ndex: 716
     sprite: 716
-    refs: &id171
+    refs: &id202
     - 13
     remark: 与大村祐介合作
     remark_en: w/ Yūsuke Ōmura
@@ -465,10 +686,155 @@ designers:
     ja: イベルタル
     ndex: 717
     sprite: 717
-    refs: &id172
+    refs: &id204
     - 13
     remark: 与大村祐介合作
     remark_en: w/ Yūsuke Ōmura
+  - en: Lapras
+    zh: 拉普拉斯
+    ja: ラプラス
+    ndex: 131
+    sprite: 131
+    refs: &id047
+    - S14
+    supp: true
+    remark: 原话是「只想得到超梦、暴鲤龙、卡比兽、拉普拉斯这类粗犷的」
+  - en: Rhydon
+    zh: 钻角犀兽
+    ja: サイドン
+    ndex: 112
+    sprite: 112
+    refs: &id043
+    - 49
+    supp: true
+    remark: 最早一批草图里留下来的
+  - en: Nidoking
+    zh: 尼多王
+    ja: ニドキング
+    ndex: 34
+    sprite: 34
+    refs: &id017
+    - 49
+    supp: true
+    remark: 最早一批草图里留下来的
+  - en: Gyarados
+    zh: 暴鲤龙
+    ja: ギャラドス
+    ndex: 130
+    sprite: 130
+    refs: &id046
+    - S14
+    supp: true
+  - en: Mewtwo
+    zh: 超梦
+    ja: ミュウツー
+    ndex: 150
+    sprite: 150
+    refs: &id055
+    - S14
+    supp: true
+  - en: Snorlax
+    zh: 卡比兽
+    ja: カビゴン
+    ndex: 143
+    sprite: 143
+    refs: &id052
+    - S14
+    supp: true
+  - en: Magnemite
+    zh: 小磁怪
+    ja: コイル
+    ndex: 81
+    sprite: 81
+    refs: &id037
+    - S2
+    supp: true
+    remark: 构想来自田尻智
+  - en: Exeggutor
+    zh: 椰蛋树
+    ja: ナッシー
+    ndex: 103
+    sprite: 103
+    refs: &id041
+    - S2
+    supp: true
+  - en: Alolan Exeggutor
+    zh: 阿罗拉椰蛋树
+    ja: ナッシー（アローラのすがた）
+    ndex: 103
+    sprite: 10114
+    form: 阿罗拉的样子
+    refs: &id042
+    - S2
+    supp: true
+  - en: Ivysaur
+    zh: 妙蛙草
+    ja: フシギソウ
+    ndex: 2
+    sprite: 2
+    refs: &id002
+    - S15
+    supp: true
+  - en: Pichu
+    zh: 皮丘
+    ja: ピチュー
+    ndex: 172
+    sprite: 172
+    refs: &id059
+    - S16
+    supp: true
+  - en: Blaziken
+    zh: 火焰鸡
+    ja: バシャーモ
+    ndex: 257
+    sprite: 257
+    refs: &id075
+    - S17
+    supp: true
+    remark: 红宝石·蓝宝石最早定下的一只
+  - en: Umbreon
+    zh: 月亮伊布
+    ja: ブラッキー
+    ndex: 197
+    sprite: 197
+    refs: &id062
+    - S18
+    supp: true
+    role: 配色
+    remark: 配色；造型是西田敦子
+  - en: Klink
+    zh: 齿轮儿
+    ja: ギアル
+    ndex: 599
+    sprite: 599
+    refs: &id150
+    - 19
+    - S19
+    supp: true
+    role: 构想
+    remark: 构想；森次庆子定稿
+  - en: Klang
+    zh: 齿轮组
+    ja: ギギアル
+    ndex: 600
+    sprite: 600
+    refs: &id152
+    - 19
+    - S19
+    supp: true
+    role: 构想
+    remark: 构想；森次庆子定稿
+  - en: Klinklang
+    zh: 齿轮怪
+    ja: ギギギアル
+    ndex: 601
+    sprite: 601
+    refs: &id154
+    - 19
+    - S19
+    supp: true
+    role: 构想
+    remark: 构想；森次庆子定稿
   person: sugimori-ken
   avatar: /assets/img/people/sugimori-ken.jpg
 - id: fujiwara
@@ -599,21 +965,21 @@ designers:
     ja: イーブイ
     ndex: 133
     sprite: 133
-    refs: &id035
+    refs: &id048
     - 16
   - en: Flareon
     zh: 火伊布
     ja: ブースター
     ndex: 136
     sprite: 136
-    refs: &id038
+    refs: &id051
     - 16
   - en: Jolteon
     zh: 雷伊布
     ja: サンダース
     ndex: 135
     sprite: 135
-    refs: &id037
+    refs: &id050
     - 16
   person: fujiwara-motofumi
   avatar: /assets/img/people/fujiwara.jpg
@@ -767,7 +1133,7 @@ designers:
     ja: ヒトカゲ
     ndex: 4
     sprite: 4
-    refs: &id002
+    refs: &id003
     - 14
     - 34
   - en: Charmeleon
@@ -775,29 +1141,29 @@ designers:
     ja: リザード
     ndex: 5
     sprite: 5
-    refs: &id003
+    refs: &id004
     - 34
   - en: Charizard
     zh: 喷火龙
     ja: リザードン
     ndex: 6
     sprite: 6
-    refs: &id004
+    refs: &id005
     - 34
   - en: Mega Charizard X
     zh: 超级喷火龙X
     ja: メガリザードンX
     ndex: 6
     sprite: 6
-    refs: &id005
-    - 40
     form: 超级进化
+    refs: &id006
+    - 40
   - en: Squirtle
     zh: 杰尼龟
     ja: ゼニガメ
     ndex: 7
     sprite: 7
-    refs: &id006
+    refs: &id007
     - 14
     - 34
   - en: Wartortle
@@ -805,35 +1171,35 @@ designers:
     ja: カメール
     ndex: 8
     sprite: 8
-    refs: &id007
+    refs: &id008
     - 34
   - en: Weedle
     zh: 独角虫
     ja: ビードル
     ndex: 13
     sprite: 13
-    refs: &id008
+    refs: &id009
     - 34
   - en: Kakuna
     zh: 铁壳蛹
     ja: コクーン
     ndex: 14
     sprite: 14
-    refs: &id009
+    refs: &id010
     - 34
   - en: Beedrill
     zh: 大针蜂
     ja: スピアー
     ndex: 15
     sprite: 15
-    refs: &id010
+    refs: &id011
     - 34
   - en: Pikachu
     zh: 皮卡丘
     ja: ピカチュウ
     ndex: 25
     sprite: 25
-    refs: &id012
+    refs: &id013
     - 14
     - 34
   - en: Raichu
@@ -841,7 +1207,7 @@ designers:
     ja: ライチュウ
     ndex: 26
     sprite: 26
-    refs: &id013
+    refs: &id015
     - 14
     - 34
   - en: Vulpix
@@ -849,105 +1215,106 @@ designers:
     ja: ロコン
     ndex: 37
     sprite: 37
-    refs: &id015
+    refs: &id019
     - 40
   - en: Ninetales
     zh: 九尾
     ja: キュウコン
     ndex: 38
     sprite: 38
-    refs: &id016
+    refs: &id020
     - 40
   - en: Oddish
     zh: 走路草
     ja: ナゾノクサ
     ndex: 43
     sprite: 43
-    refs: &id017
+    refs: &id021
     - 34
   - en: Gloom
     zh: 臭臭花
     ja: クサイハナ
     ndex: 44
     sprite: 44
-    refs: &id018
+    refs: &id022
     - 34
   - en: Vileplume
     zh: 霸王花
     ja: ラフレシア
     ndex: 45
     sprite: 45
-    refs: &id019
+    refs: &id023
     - 34
   - en: Bellsprout
     zh: 喇叭芽
     ja: マダツボミ
     ndex: 69
     sprite: 69
-    refs: &id024
+    refs: &id029
     - 34
   - en: Weepinbell
     zh: 口呆花
     ja: ウツドン
     ndex: 70
     sprite: 70
-    refs: &id025
+    refs: &id030
     - 34
   - en: Victreebel
     zh: 大食花
     ja: ウツボット
     ndex: 71
     sprite: 71
-    refs: &id026
+    refs: &id031
     - 34
   - en: Ponyta
     zh: 小火马
     ja: ポニータ
     ndex: 77
     sprite: 77
-    refs: &id030
+    refs: &id035
     - 34
   - en: Rapidash
     zh: 烈焰马
     ja: ギャロップ
     ndex: 78
     sprite: 78
-    refs: &id031
+    refs: &id036
     - 34
   - en: Vaporeon
     zh: 水伊布
     ja: シャワーズ
     ndex: 134
     sprite: 134
-    refs: &id036
+    refs: &id049
     - 16
   - en: Espeon
     zh: 太阳伊布
     ja: エーフィ
     ndex: 196
     sprite: 196
-    refs: &id045
+    refs: &id061
     - 16
   - en: Umbreon
     zh: 月亮伊布
     ja: ブラッキー
     ndex: 197
     sprite: 197
-    refs: &id046
+    refs: &id063
     - 16
+    note: 配色由杉森建决定
   - en: Leafeon
     zh: 叶伊布
     ja: リーフィア
     ndex: 470
     sprite: 470
-    refs: &id071
+    refs: &id092
     - 16
   - en: Glaceon
     zh: 冰伊布
     ja: グレイシア
     ndex: 471
     sprite: 471
-    refs: &id072
+    refs: &id093
     - 16
     - 26
   - en: Sylveon
@@ -955,7 +1322,7 @@ designers:
     ja: ニンフィア
     ndex: 700
     sprite: 700
-    refs: &id166
+    refs: &id196
     - 13
     - 16
   - en: Dratini
@@ -963,128 +1330,128 @@ designers:
     ja: ミニリュウ
     ndex: 147
     sprite: 147
-    refs: &id039
+    refs: &id053
     - 34
   - en: Dragonair
     zh: 哈克龙
     ja: ハクリュー
     ndex: 148
     sprite: 148
-    refs: &id040
+    refs: &id054
     - 34
   - en: Kricketot
     zh: 圆法师
     ja: コロボーシ
     ndex: 401
     sprite: 401
-    refs: &id066
+    refs: &id086
     - 40
   - en: Kricketune
     zh: 音箱蟀
     ja: コロトック
     ndex: 402
     sprite: 402
-    refs: &id067
+    refs: &id087
     - 40
   - en: Zorua
     zh: 索罗亚
     ja: ゾロア
     ndex: 570
     sprite: 570
-    refs: &id109
+    refs: &id132
     - 40
   - en: Hisuian Zorua
     zh: 洗翠索罗亚
     ja: ゾロア（ヒスイのすがた）
     ndex: 570
     sprite: 10238
-    refs: &id110
-    - 62
     form: 洗翠的样子
+    refs: &id133
+    - 62
   - en: Zoroark
     zh: 索罗亚克
     ja: ゾロアーク
     ndex: 571
     sprite: 571
-    refs: &id111
+    refs: &id134
     - 40
   - en: Hisuian Zoroark
     zh: 洗翠索罗亚克
     ja: ゾロアーク（ヒスイのすがた）
     ndex: 571
     sprite: 10239
-    refs: &id112
-    - 62
     form: 洗翠的样子
+    refs: &id135
+    - 62
   - en: Cottonee
     zh: 木棉球
     ja: モンメン
     ndex: 546
     sprite: 546
-    refs: &id102
+    refs: &id125
     - 19
   - en: Whimsicott
     zh: 风妖精
     ja: エルフーン
     ndex: 547
     sprite: 547
-    refs: &id103
+    refs: &id126
     - 19
   - en: Petilil
     zh: 百合根娃娃
     ja: チュリネ
     ndex: 548
     sprite: 548
-    refs: &id104
+    refs: &id127
     - 19
   - en: Lilligant
     zh: 裙儿小姐
     ja: ドレディア
     ndex: 549
     sprite: 549
-    refs: &id105
+    refs: &id128
     - 19
   - en: Minccino
     zh: 泡沫栗鼠
     ja: チラーミィ
     ndex: 572
     sprite: 572
-    refs: &id113
+    refs: &id136
     - 22
   - en: Cinccino
     zh: 奇诺栗鼠
     ja: チラチーノ
     ndex: 573
     sprite: 573
-    refs: &id114
+    refs: &id137
     - 22
   - en: Munna
     zh: 食梦梦
     ja: ムンナ
     ndex: 517
     sprite: 517
-    refs: &id092
+    refs: &id114
     - 22
   - en: Musharna
     zh: 梦梦蚀
     ja: ムシャーナ
     ndex: 518
     sprite: 518
-    refs: &id093
+    refs: &id115
     - 22
   - en: Karrablast
     zh: 盖盖虫
     ja: カブルモ
     ndex: 588
     sprite: 588
-    refs: &id119
+    refs: &id142
     - 22
   - en: Lillipup
     zh: 小约克
     ja: ヨーテリー
     ndex: 506
     sprite: 506
-    refs: &id086 []
+    refs: &id107 []
     remark: 也可能是井部真那
     remark_en: or Ibe?
     unsure: true
@@ -1093,14 +1460,15 @@ designers:
     ja: ハーデリア
     ndex: 507
     sprite: 507
-    refs: &id087 []
+    refs: &id108 []
     unsure: true
+    note: 也有说法是井部真那
   - en: Stoutland
     zh: 长毛狗
     ja: ムーランド
     ndex: 508
     sprite: 508
-    refs: &id088 []
+    refs: &id110 []
     remark: 她最喜欢的一只
     remark_en: her favorite
     unsure: true
@@ -1109,43 +1477,61 @@ designers:
     ja: パモ
     ndex: 921
     sprite: 921
-    refs: &id208
+    refs: &id246
     - 78
   - en: Pawmo
     zh: 布土拨
     ja: パモット
     ndex: 922
     sprite: 922
-    refs: &id209
+    refs: &id247
     - 78
   - en: Pawmot
     zh: 巴布土拨
     ja: パーモット
     ndex: 923
     sprite: 923
-    refs: &id210
+    refs: &id248
     - 78
   - en: Tadbulb
     zh: 光蚪仔
     ja: ズピカ
     ndex: 938
     sprite: 938
-    refs: &id219
+    refs: &id259
     - 78
   - en: Bellibolt
     zh: 电肚蛙
     ja: ハラバリー
     ndex: 939
     sprite: 939
-    refs: &id220
+    refs: &id260
     - 78
   - en: Flittle
     zh: 飘飘雏
     ja: ヒラヒナ
     ndex: 955
     sprite: 955
-    refs: &id221
+    refs: &id261
     - 78
+  - en: Alcremie
+    zh: 霜奶仙
+    ja: マホイップ
+    ndex: 869
+    sprite: 869
+    refs: &id234
+    - S1
+    supp: true
+  - en: Alolan Raichu
+    zh: 阿罗拉雷丘
+    ja: ライチュウ（アローラのすがた）
+    ndex: 26
+    sprite: 10100
+    form: 阿罗拉的样子
+    refs: &id016
+    - S2
+    supp: true
+    remark: 构想来自貫田将文
   person: nishida-atsuko
   avatar: /assets/img/people/nishida-atsuko.jpg
 - id: rena-yoshikawa
@@ -1305,21 +1691,21 @@ designers:
     ja: ライコウ
     ndex: 243
     sprite: 243
-    refs: &id053
+    refs: &id070
     - 2
   - en: Entei
     zh: 炎帝
     ja: エンテイ
     ndex: 244
     sprite: 244
-    refs: &id054
+    refs: &id071
     - 2
   - en: Suicune
     zh: 水君
     ja: スイクン
     ndex: 245
     sprite: 245
-    refs: &id055
+    refs: &id072
     - 2
   person: saito-muneo
 - id: satoshi-ota
@@ -1559,14 +1945,14 @@ designers:
     ja: ソーナンス
     ndex: 202
     sprite: 202
-    refs: &id048
+    refs: &id065
     - 15
   - en: Deoxys
     zh: 代欧奇希斯
     ja: デオキシス
     ndex: 386
     sprite: 386
-    refs: &id061
+    refs: &id081
     - 5
     - 10
   - en: Celebi
@@ -1574,7 +1960,7 @@ designers:
     ja: セレビィ
     ndex: 251
     sprite: 251
-    refs: &id056
+    refs: &id074
     - 10
     - 15
   - en: Dunsparce
@@ -1582,28 +1968,28 @@ designers:
     ja: ノコッチ
     ndex: 206
     sprite: 206
-    refs: &id049
+    refs: &id066
     - 15
   - en: Rayquaza
     zh: 烈空坐
     ja: レックウザ
     ndex: 384
     sprite: 384
-    refs: &id060
+    refs: &id080
     - 10
   - en: Magmortar
     zh: 鸭嘴炎兽
     ja: ブーバーン
     ndex: 467
     sprite: 467
-    refs: &id070
+    refs: &id091
     - 5
   - en: Darkrai
     zh: 达克莱伊
     ja: ダークライ
     ndex: 491
     sprite: 491
-    refs: &id076
+    refs: &id097
     - 10
     - 46
   person: yoshida-hironobu
@@ -2021,49 +2407,49 @@ designers:
     ja: ゴニョニョ
     ndex: 293
     sprite: 293
-    refs: &id058
+    refs: &id078
     - 54
   - en: Loudred
     zh: 吼爆弹
     ja: ドゴーム
     ndex: 294
     sprite: 294
-    refs: &id059
+    refs: &id079
     - 54
   - en: Chimchar
     zh: 小火焰猴
     ja: ヒコザル
     ndex: 390
     sprite: 390
-    refs: &id062
+    refs: &id082
     - 23
   - en: Monferno
     zh: 猛火猴
     ja: モウカザル
     ndex: 391
     sprite: 391
-    refs: &id063
+    refs: &id083
     - 23
   - en: Infernape
     zh: 烈焰猴
     ja: ゴウカザル
     ndex: 392
     sprite: 392
-    refs: &id064
+    refs: &id084
     - 23
   - en: Croagunk
     zh: 不良蛙
     ja: グレッグル
     ndex: 453
     sprite: 453
-    refs: &id069
+    refs: &id090
     - 71
   - en: Garchomp
     zh: 烈咬陆鲨
     ja: ガブリアス
     ndex: 445
     sprite: 445
-    refs: &id068
+    refs: &id089
     - 46
     - 71
   - en: Arceus
@@ -2071,64 +2457,80 @@ designers:
     ja: アルセウス
     ndex: 493
     sprite: 493
-    refs: &id077
+    refs: &id098
     - 71
   - en: Pansage
     zh: 花椰猴
     ja: ヤナップ
     ndex: 511
     sprite: 511
-    refs: &id089
+    refs: &id111
     - 22
   - en: Pansear
     zh: 爆香猴
     ja: バオップ
     ndex: 513
     sprite: 513
-    refs: &id090
+    refs: &id112
     - 22
   - en: Panpour
     zh: 冷水猴
     ja: ヒヤップ
     ndex: 515
     sprite: 515
-    refs: &id091
+    refs: &id113
     - 22
   - en: Rufflet
     zh: 毛头小鹰
     ja: ワシボン
     ndex: 627
     sprite: 627
-    refs: &id141
+    refs: &id168
     - 20
   - en: Braviary
     zh: 勇士雄鹰
     ja: ウォーグル
     ndex: 628
     sprite: 628
-    refs: &id142
+    refs: &id169
     - 20
   - en: Cobalion
     zh: 勾帕路翁
     ja: コバルオン
     ndex: 638
     sprite: 638
-    refs: &id147
+    refs: &id174
     - 19
   - en: Terrakion
     zh: 代拉基翁
     ja: テラキオン
     ndex: 639
     sprite: 639
-    refs: &id148
+    refs: &id175
     - 19
   - en: Virizion
     zh: 毕力吉翁
     ja: ビリジオン
     ndex: 640
     sprite: 640
-    refs: &id149
+    refs: &id176
     - 19
+  - en: Bouffalant
+    zh: 爆炸头水牛
+    ja: バッフロン
+    ndex: 626
+    sprite: 626
+    refs: &id167
+    - S4
+    supp: true
+  - en: Zeraora
+    zh: 捷拉奥拉
+    ja: ゼラオラ
+    ndex: 807
+    sprite: 807
+    refs: &id222
+    - S4
+    supp: true
   person: unno-takao
   avatar: /assets/img/people/unno-takao.jpg
 - id: hiroyuki-yagi
@@ -2246,7 +2648,15 @@ designers:
     gf: false
     games: []
     state: ''
-  pokemon: []
+  pokemon:
+  - en: Happiny
+    zh: 小福蛋
+    ja: ピンプク
+    ndex: 440
+    sprite: 440
+    refs: &id088
+    - S3
+    supp: true
 - id: hiroyuki-goto
   en: Hiroyuki Gotō
   ja: 後藤浩之
@@ -2576,92 +2986,114 @@ designers:
     ja: ポッチャマ
     ndex: 393
     sprite: 393
-    refs: &id065
+    refs: &id085
     - 8
   - en: Oshawott
     zh: 水水獭
     ja: ミジュマル
     ndex: 501
     sprite: 501
-    refs: &id083
+    refs: &id104
     - 8
   - en: Dewott
     zh: 双刃丸
     ja: フタチマル
     ndex: 502
     sprite: 502
-    refs: &id084
+    refs: &id105
     - 21
   - en: Samurott
     zh: 大剑鬼
     ja: ダイケンキ
     ndex: 503
     sprite: 503
-    refs: &id085
+    refs: &id106
     - 21
   - en: Tynamo
     zh: 麻麻小鱼
     ja: シビシラス
     ndex: 602
     sprite: 602
-    refs: &id130
+    refs: &id156
     - 20
   - en: Eelektrik
     zh: 麻麻鳗
     ja: シビビール
     ndex: 603
     sprite: 603
-    refs: &id131
+    refs: &id157
     - 20
   - en: Eelektross
     zh: 麻麻鳗鱼王
     ja: シビルドン
     ndex: 604
     sprite: 604
-    refs: &id132
+    refs: &id158
     - 20
   - en: Froakie
     zh: 呱呱泡蛙
     ja: ケロマツ
     ndex: 656
     sprite: 656
-    refs: &id152
+    refs: &id181
     - 71
   - en: Greninja
     zh: 甲贺忍蛙
     ja: ゲッコウガ
     ndex: 658
     sprite: 658
-    refs: &id153
+    refs: &id182
     - 46
   - en: Zacian
     zh: 苍响
     ja: ザシアン
     ndex: 888
     sprite: 888
-    refs: &id203
+    refs: &id241
     - 47
   - en: Zamazenta
     zh: 藏玛然特
     ja: ザマゼンタ
     ndex: 889
     sprite: 889
-    refs: &id204
+    refs: &id242
     - 47
   - en: Kubfu
     zh: 熊徒弟
     ja: ダクマ
     ndex: 891
     sprite: 891
-    refs: &id205
+    refs: &id243
     - 53
   - en: Urshifu
     zh: 武道熊师
     ja: ウーラオス
     ndex: 892
     sprite: 892
-    refs: &id206
+    refs: &id244
     - 53
+  - en: Xerneas
+    zh: 哲尔尼亚斯
+    ja: ゼルネアス
+    ndex: 716
+    sprite: 716
+    refs: &id203
+    - 13
+    - S20
+    supp: true
+    role: 合作
+    remark: 杉森建起稿后接手完成
+  - en: Yveltal
+    zh: 伊裴尔塔尔
+    ja: イベルタル
+    ndex: 717
+    sprite: 717
+    refs: &id205
+    - 13
+    - S20
+    supp: true
+    role: 合作
+    remark: 杉森建起稿后接手完成
   person: ohmura-yusuke
   avatar: /assets/img/people/ohmura-yusuke.jpg
 - id: moritsugu
@@ -2722,7 +3154,7 @@ designers:
     ja: ランクルス
     ndex: 579
     sprite: 579
-    refs: &id115
+    refs: &id138
     - 27
     - 40
   - en: Sigilyph
@@ -2730,29 +3162,54 @@ designers:
     ja: シンボラー
     ndex: 561
     sprite: 561
-    refs: &id108
+    refs: &id131
     - 40
   - en: Klink
     zh: 齿轮儿
     ja: ギアル
     ndex: 599
     sprite: 599
-    refs: &id127
+    refs: &id151
     - 40
+    note: 构想来自杉森建
   - en: Klang
     zh: 齿轮组
     ja: ギギアル
     ndex: 600
     sprite: 600
-    refs: &id128
+    refs: &id153
     - 40
+    note: 构想来自杉森建
   - en: Klinklang
     zh: 齿轮怪
     ja: ギギギアル
     ndex: 601
     sprite: 601
-    refs: &id129
+    refs: &id155
     - 40
+    note: 构想来自杉森建
+  - en: Reshiram
+    zh: 莱希拉姆
+    ja: レシラム
+    ndex: 643
+    sprite: 643
+    refs: &id178
+    - S19
+    - 21
+    supp: true
+    role: 初稿
+    remark: 初稿；杉森建定稿
+  - en: Zekrom
+    zh: 捷克罗姆
+    ja: ゼクロム
+    ndex: 644
+    sprite: 644
+    refs: &id180
+    - S19
+    - 21
+    supp: true
+    role: 初稿
+    remark: 初稿；杉森建定稿
 - id: maiko-fujiwara
   en: Maiko Fujiwara
   ja: 藤原麻衣子
@@ -2929,22 +3386,32 @@ designers:
     ja: ツタージャ
     ndex: 495
     sprite: 495
-    refs: &id079
+    refs: &id100
     - 8
   - en: Pidove
     zh: 豆豆鸽
     ja: マメパト
     ndex: 519
     sprite: 519
-    refs: &id094
+    refs: &id116
     - 8
   - en: Swadloon
     zh: 宝包茧
     ja: クルマユ
     ndex: 541
     sprite: 541
-    refs: &id098
+    refs: &id121
     - 8
+    note: 原表据 Pokémon Peer 访谈记作宝包茧，访谈原文说的是 Kurumiru（虫宝包）
+  - en: Sewaddle
+    zh: 虫宝包
+    ja: クルミル
+    ndex: 540
+    sprite: 540
+    refs: &id120
+    - 8
+    supp: true
+    remark: 访谈原文是 Kurumiru（虫宝包）
   person: tian-shang-lian-zi
 - id: kitakaze
   en: Tomohiro Kitakaze
@@ -3019,21 +3486,21 @@ designers:
     ja: フシデ
     ndex: 543
     sprite: 543
-    refs: &id099
+    refs: &id122
     - 38
   - en: Whirlipede
     zh: 车轮球
     ja: ホイーガ
     ndex: 544
     sprite: 544
-    refs: &id100
+    refs: &id123
     - 38
   - en: Scolipede
     zh: 蜈蚣王
     ja: ペンドラー
     ndex: 545
     sprite: 545
-    refs: &id101
+    refs: &id124
     - 28
     - 29
     - 38
@@ -3042,43 +3509,43 @@ designers:
     ja: シュバルゴ
     ndex: 589
     sprite: 589
-    refs: &id120
+    refs: &id143
     - 55
   - en: Shelmet
     zh: 小嘴蜗
     ja: チョボマキ
     ndex: 616
     sprite: 616
-    refs: &id136
+    refs: &id162
     - 28
   - en: Mega Mewtwo Y
     zh: 超级超梦Y
     ja: メガミュウツーY
     ndex: 150
     sprite: 150
-    refs: &id041
-    - 51
     form: 超级进化
+    refs: &id056
+    - 51
   - en: Charcadet
     zh: 炭小侍
     ja: カルボウ
     ndex: 935
     sprite: 935
-    refs: &id216
+    refs: &id256
     - 76
   - en: Armarouge
     zh: 红莲铠骑
     ja: グレンアルマ
     ndex: 936
     sprite: 936
-    refs: &id217
+    refs: &id257
     - 76
   - en: Ceruledge
     zh: 苍炎刃鬼
     ja: ソウブレイズ
     ndex: 937
     sprite: 937
-    refs: &id218
+    refs: &id258
     - 76
   person: kitakaze-tomohiro
 - id: hyunjung
@@ -3159,21 +3626,21 @@ designers:
     ja: ポカブ
     ndex: 498
     sprite: 498
-    refs: &id080
+    refs: &id101
     - 21
   - en: Pignite
     zh: 炒炒猪
     ja: チャオブー
     ndex: 499
     sprite: 499
-    refs: &id081
+    refs: &id102
     - 21
   - en: Emboar
     zh: 炎武王
     ja: エンブオー
     ndex: 500
     sprite: 500
-    refs: &id082
+    refs: &id103
     - 21
   person: hyunjung-lee
 - id: ibe
@@ -3259,49 +3726,49 @@ designers:
     ja: キバゴ
     ndex: 610
     sprite: 610
-    refs: &id133
+    refs: &id159
     - 19
   - en: Fraxure
     zh: 斧牙龙
     ja: オノンド
     ndex: 611
     sprite: 611
-    refs: &id134
+    refs: &id160
     - 19
   - en: Haxorus
     zh: 双斧战龙
     ja: オノノクス
     ndex: 612
     sprite: 612
-    refs: &id135
+    refs: &id161
     - 19
   - en: Darumaka
     zh: 火红不倒翁
     ja: ダルマッカ
     ndex: 554
     sprite: 554
-    refs: &id106
+    refs: &id129
     - 19
   - en: Darmanitan
     zh: 达摩狒狒
     ja: ヒヒダルマ
     ndex: 555
     sprite: 555
-    refs: &id107
+    refs: &id130
     - 19
   - en: Frillish
     zh: 轻飘飘
     ja: プルリル
     ndex: 592
     sprite: 592
-    refs: &id123
+    refs: &id146
     - 19
   - en: Victini
     zh: 比克提尼
     ja: ビクティニ
     ndex: 494
     sprite: 494
-    refs: &id078
+    refs: &id099
     - 6
     - 46
   - en: Klefki
@@ -3309,16 +3776,27 @@ designers:
     ja: クレッフィ
     ndex: 707
     sprite: 707
-    refs: &id168
+    refs: &id199
     - 17
   - en: Stunfisk
     zh: 泥巴鱼
     ja: マッギョ
     ndex: 618
     sprite: 618
-    refs: &id137
+    refs: &id163
     - 7
     - 19
+  - en: Herdier
+    zh: 哈约克
+    ja: ハーデリア
+    ndex: 507
+    sprite: 507
+    refs: &id109
+    - S21
+    - S22
+    supp: true
+    remark: Pokémon Peer 里她只说交了一只狗型宝可梦；点名哈约克的是 GameTrailers 视频访谈（未逐字核对）
+    unsure: true
   person: ibe-mana
   avatar: /assets/img/people/ibe-mana.jpg
 - id: mizutani
@@ -3404,14 +3882,14 @@ designers:
     ja: コジョンド
     ndex: 620
     sprite: 620
-    refs: &id138
+    refs: &id164
     - 71
   - en: Pancham
     zh: 顽皮熊猫
     ja: ヤンチャム
     ndex: 674
     sprite: 674
-    refs: &id154
+    refs: &id184
     - 46
     - 71
   - en: Mimikyu
@@ -3419,58 +3897,58 @@ designers:
     ja: ミミッキュ
     ndex: 778
     sprite: 778
-    refs: &id179
+    refs: &id212
     - 72
   - en: Hisuian Growlithe
     zh: 洗翠卡蒂狗
     ja: ガーディ（ヒスイのすがた）
     ndex: 58
     sprite: 10229
-    refs: &id022
-    - 64
     form: 洗翠的样子
+    refs: &id026
+    - 64
   - en: Hisuian Arcanine
     zh: 洗翠风速狗
     ja: ウインディ（ヒスイのすがた）
     ndex: 59
     sprite: 10230
-    refs: &id023
-    - 64
     form: 洗翠的样子
+    refs: &id027
+    - 64
   - en: Tandemaus
     zh: 一对鼠
     ja: ワッカネズミ
     ndex: 924
     sprite: 924
-    refs: &id211
+    refs: &id249
     - 73
   - en: Maushold
     zh: 一家鼠
     ja: イッカネズミ
     ndex: 925
     sprite: 925
-    refs: &id212
+    refs: &id250
     - 73
   - en: Tinkatink
     zh: 小锻匠
     ja: カヌチャン
     ndex: 957
     sprite: 957
-    refs: &id223
+    refs: &id263
     - 73
   - en: Tinkatuff
     zh: 巧锻匠
     ja: ナカヌチャン
     ndex: 958
     sprite: 958
-    refs: &id224
+    refs: &id264
     - 73
   - en: Tinkaton
     zh: 巨锻匠
     ja: デカヌチャン
     ndex: 959
     sprite: 959
-    refs: &id225
+    refs: &id265
     - 73
   person: mizutani-megumi
 - id: tsuruta
@@ -3546,21 +4024,21 @@ designers:
     ja: タブンネ
     ndex: 531
     sprite: 531
-    refs: &id095
+    refs: &id117
     - 42
   - en: Galvantula
     zh: 电蜘蛛
     ja: デンチュラ
     ndex: 596
     sprite: 596
-    refs: &id124
+    refs: &id147
     - 42
   - en: Aromatisse
     zh: 芳香精
     ja: フレフワン
     ndex: 683
     sprite: 683
-    refs: &id159
+    refs: &id189
     - 37
     - 42
   - en: Goomy
@@ -3568,7 +4046,7 @@ designers:
     ja: ヌメラ
     ndex: 704
     sprite: 704
-    refs: &id167
+    refs: &id197
     - 36
     - 42
   - en: Morelull
@@ -3576,7 +4054,7 @@ designers:
     ja: ネマシュ
     ndex: 755
     sprite: 755
-    refs: &id176
+    refs: &id209
     - 35
     unsure: true
   - en: Indeedee
@@ -3584,8 +4062,24 @@ designers:
     ja: イエッサン
     ndex: 876
     sprite: 876
-    refs: &id198
+    refs: &id236
     - 48
+  - en: Fletchling
+    zh: 小箭雀
+    ja: ヤヤコマ
+    ndex: 661
+    sprite: 661
+    refs: &id183
+    - S24
+    supp: true
+  - en: Goodra
+    zh: 黏美龙
+    ja: ヌメルゴン
+    ndex: 706
+    sprite: 706
+    refs: &id198
+    - S25
+    supp: true
   person: tsuruta-saya
 - id: turner
   en: James Turner
@@ -3670,15 +4164,15 @@ designers:
     ja: ジグザグマ（ガラルのすがた）
     ndex: 263
     sprite: 10174
-    refs: &id057
-    - 61
     form: 伽勒尔的样子
+    refs: &id076
+    - 61
   - en: Vullaby
     zh: 秃鹰丫头
     ja: バルチャイ
     ndex: 629
     sprite: 629
-    refs: &id143
+    refs: &id170
     - 18
     - 20
   - en: Mandibuzz
@@ -3686,7 +4180,7 @@ designers:
     ja: バルジーナ
     ndex: 630
     sprite: 630
-    refs: &id144
+    refs: &id171
     - 18
     - 20
   - en: Golett
@@ -3694,7 +4188,7 @@ designers:
     ja: ゴビット
     ndex: 622
     sprite: 622
-    refs: &id139
+    refs: &id165
     - 18
     - 31
   - en: Golurk
@@ -3702,7 +4196,7 @@ designers:
     ja: ゴルーグ
     ndex: 623
     sprite: 623
-    refs: &id140
+    refs: &id166
     - 18
     - 31
   - en: Vanillite
@@ -3710,7 +4204,7 @@ designers:
     ja: バニプッチ
     ndex: 582
     sprite: 582
-    refs: &id116
+    refs: &id139
     - 18
     - 31
   - en: Vanillish
@@ -3718,7 +4212,7 @@ designers:
     ja: バニリッチ
     ndex: 583
     sprite: 583
-    refs: &id117
+    refs: &id140
     - 18
     - 31
   - en: Vanilluxe
@@ -3726,7 +4220,7 @@ designers:
     ja: バイバニラ
     ndex: 584
     sprite: 584
-    refs: &id118
+    refs: &id141
     - 18
     - 31
   - en: Phantump
@@ -3734,21 +4228,21 @@ designers:
     ja: ボクレー
     ndex: 708
     sprite: 708
-    refs: &id169
+    refs: &id200
     - 45
   - en: Trevenant
     zh: 朽木妖
     ja: オーロット
     ndex: 709
     sprite: 709
-    refs: &id170
+    refs: &id201
     - 45
   - en: Bruxish
     zh: 磨牙彩皮鱼
     ja: ハギギシリ
     ndex: 779
     sprite: 779
-    refs: &id180
+    refs: &id213
     - 33
     remark: 定稿；原案出自一位「女性设计师」
     remark_en: finalized design; original by 'female designer'
@@ -3757,14 +4251,14 @@ designers:
     ja: マッシブーン
     ndex: 794
     sprite: 794
-    refs: &id183
+    refs: &id216
     - 31
   - en: Poipole
     zh: 毒贝比
     ja: ベベノム
     ndex: 803
     sprite: 803
-    refs: &id186
+    refs: &id220
     - 30
     - 31
   - en: Naganadel
@@ -3772,36 +4266,126 @@ designers:
     ja: アーゴヨン
     ndex: 804
     sprite: 804
-    refs: &id187
+    refs: &id221
     - 32
   - en: Centiskorch
     zh: 焚焰蚣
     ja: マルヤクデ
     ndex: 851
     sprite: 851
-    refs: &id193
+    refs: &id229
     - 50
   - en: Sinistea
     zh: 来悲茶
     ja: ヤバチャ
     ndex: 854
     sprite: 854
-    refs: &id194
+    refs: &id231
     - 57
   - en: Polteageist
     zh: 怖思壶
     ja: ポットデス
     ndex: 855
     sprite: 855
-    refs: &id195
+    refs: &id232
     - 58
   - en: Obstagoon
     zh: 堵拦熊
     ja: タチフサグマ
     ndex: 862
     sprite: 862
-    refs: &id196
+    refs: &id233
     - 60
+  - en: Guzzlord
+    zh: 恶食大王
+    ja: アクジキング
+    ndex: 799
+    sprite: 799
+    refs: &id217
+    - 31
+    - S4
+    supp: true
+  - en: Dondozo
+    zh: 吃吼霸
+    ja: ヘイラッシャ
+    ndex: 977
+    sprite: 977
+    refs: &id272
+    - S5
+    supp: true
+  - en: Tatsugiri
+    zh: 米立龙
+    ja: シャリタツ
+    ndex: 978
+    sprite: 978
+    refs: &id273
+    - S6
+    supp: true
+    remark: 三种样子
+  - en: Paldean Tauros
+    zh: 帕底亚肯泰罗
+    ja: ケンタロス（パルデアのすがた）
+    ndex: 128
+    sprite: 10250
+    form: 帕底亚的样子
+    refs: &id045
+    - S7
+    supp: true
+    remark: 三个种类
+  - en: Galarian Linoone
+    zh: 伽勒尔直冲熊
+    ja: マッスグマ（ガラルのすがた）
+    ndex: 264
+    sprite: 10175
+    form: 伽勒尔的样子
+    refs: &id077
+    - S8
+    supp: true
+  - en: Sizzlipede
+    zh: 烧火蚣
+    ja: ヤクデ
+    ndex: 850
+    sprite: 850
+    refs: &id228
+    - S9
+    supp: true
+  - en: Gigantamax Gengar
+    zh: 超极巨化耿鬼
+    ja: ゲンガー（キョダイマックスのすがた）
+    ndex: 94
+    sprite: 94
+    form: 超极巨化
+    refs: &id040
+    - S10
+    supp: true
+  - en: Gigantamax Pikachu
+    zh: 超极巨化皮卡丘
+    ja: ピカチュウ（キョダイマックスのすがた）
+    ndex: 25
+    sprite: 25
+    form: 超极巨化
+    refs: &id014
+    - S11
+    supp: true
+  - en: Gigantamax Centiskorch
+    zh: 超极巨化焚焰蚣
+    ja: マルヤクデ（キョダイマックスのすがた）
+    ndex: 851
+    sprite: 851
+    form: 超极巨化
+    refs: &id230
+    - S12
+    supp: true
+  - en: Shadow Lugia
+    zh: 暗影洛奇亚
+    ja: ダークルギア
+    ndex: 249
+    sprite: 249
+    form: 暗影
+    refs: &id073
+    - S13
+    supp: true
+    remark: 据 Hiromoto-SIN-ichi 的草图定稿、定配色
   person: james-turner
   avatar: /assets/img/people/james-turner.jpg
 - id: yuki-kawamoto
@@ -3993,183 +4577,183 @@ designers:
     ja: ニューラ（ヒスイのすがた）
     ndex: 215
     sprite: 10235
-    refs: &id051
-    - 63
     form: 洗翠的样子
+    refs: &id068
+    - 63
   - en: Sneasler
     zh: 大狃拉
     ja: オオニューラ
     ndex: 903
     sprite: 903
-    refs: &id207
+    refs: &id245
     - 63
   - en: Pangoro
     zh: 霸道熊猫
     ja: ゴロンダ
     ndex: 675
     sprite: 675
-    refs: &id155
+    refs: &id185
     - 11
   - en: Inkay
     zh: 好啦鱿
     ja: マーイーカ
     ndex: 686
     sprite: 686
-    refs: &id160
+    refs: &id190
     - 11
   - en: Malamar
     zh: 乌贼王
     ja: カラマネロ
     ndex: 687
     sprite: 687
-    refs: &id161
+    refs: &id191
     - 11
   - en: Honedge
     zh: 独剑鞘
     ja: ヒトツキ
     ndex: 679
     sprite: 679
-    refs: &id156
+    refs: &id186
     - 11
   - en: Doublade
     zh: 双剑鞘
     ja: ニダンギル
     ndex: 680
     sprite: 680
-    refs: &id157
+    refs: &id187
     - 11
   - en: Aegislash
     zh: 坚盾剑怪
     ja: ギルガルド
     ndex: 681
     sprite: 681
-    refs: &id158
+    refs: &id188
     - 11
   - en: Tyrunt
     zh: 宝宝暴龙
     ja: チゴラス
     ndex: 696
     sprite: 696
-    refs: &id162
+    refs: &id192
     - 11
   - en: Tyrantrum
     zh: 怪颚龙
     ja: ガチゴラス
     ndex: 697
     sprite: 697
-    refs: &id163
+    refs: &id193
     - 11
   - en: Amaura
     zh: 冰雪龙
     ja: アマルス
     ndex: 698
     sprite: 698
-    refs: &id164
+    refs: &id194
     - 11
   - en: Aurorus
     zh: 冰雪巨龙
     ja: アマルルガ
     ndex: 699
     sprite: 699
-    refs: &id165
+    refs: &id195
     - 11
   - en: Mega Beedrill
     zh: 超级大针蜂
     ja: メガスピアー
     ndex: 15
     sprite: 15
-    refs: &id011
-    - 12
     form: 超级进化
+    refs: &id012
+    - 12
   - en: Alolan Geodude
     zh: 阿罗拉小拳石
     ja: イシツブテ（アローラのすがた）
     ndex: 74
     sprite: 10109
-    refs: &id027
-    - 24
     form: 阿罗拉的样子
+    refs: &id032
+    - 24
   - en: Alolan Graveler
     zh: 阿罗拉隆隆石
     ja: ゴローン（アローラのすがた）
     ndex: 75
     sprite: 10110
-    refs: &id028
-    - 24
     form: 阿罗拉的样子
+    refs: &id033
+    - 24
   - en: Alolan Golem
     zh: 阿罗拉隆隆岩
     ja: ゴローニャ（アローラのすがた）
     ndex: 76
     sprite: 10111
-    refs: &id029
-    - 24
     form: 阿罗拉的样子
+    refs: &id034
+    - 24
   - en: Alolan Grimer
     zh: 阿罗拉臭泥
     ja: ベトベター（アローラのすがた）
     ndex: 88
     sprite: 10112
-    refs: &id032
-    - 24
     form: 阿罗拉的样子
+    refs: &id038
+    - 24
   - en: Alolan Muk
     zh: 阿罗拉臭臭泥
     ja: ベトベトン（アローラのすがた）
     ndex: 89
     sprite: 10113
-    refs: &id033
-    - 24
     form: 阿罗拉的样子
+    refs: &id039
+    - 24
   - en: Grubbin
     zh: 强颚鸡母虫
     ja: アゴジムシ
     ndex: 736
     sprite: 736
-    refs: &id173
+    refs: &id206
     - 24
   - en: Charjabug
     zh: 虫电宝
     ja: デンヂムシ
     ndex: 737
     sprite: 737
-    refs: &id174
+    refs: &id207
     - 24
   - en: Vikavolt
     zh: 锹农炮虫
     ja: クワガノン
     ndex: 738
     sprite: 738
-    refs: &id175
+    refs: &id208
     - 24
   - en: Minior
     zh: 小陨星
     ja: メテノ
     ndex: 774
     sprite: 774
-    refs: &id178
+    refs: &id211
     - 24
   - en: Drampa
     zh: 老翁龙
     ja: ジジーロン
     ndex: 780
     sprite: 780
-    refs: &id181
+    refs: &id214
     - 24
   - en: Mega Drampa
     zh: 超级老翁龙
     ja: メガジジーロン
     ndex: 780
     sprite: 780
-    refs: &id182
-    - 79
     form: 超级进化
+    refs: &id215
+    - 79
   - en: Necrozma
     zh: 奈克洛兹玛
     ja: ネクロズマ
     ndex: 800
     sprite: 800
-    refs: &id184
+    refs: &id218
     - 67
     remark: 草案，由 Game Freak 定稿
     remark_en: draft design, finished by Game Freak
@@ -4178,9 +4762,9 @@ designers:
     ja: ウルトラネクロズマ
     ndex: 800
     sprite: 800
-    refs: &id185
-    - 59
     form: 究极
+    refs: &id219
+    - 59
     remark: 团队合作
     remark_en: as part of a team
   - en: Rookidee
@@ -4188,21 +4772,21 @@ designers:
     ja: ココガラ
     ndex: 821
     sprite: 821
-    refs: &id188
+    refs: &id223
     - 66
   - en: Corvisquire
     zh: 蓝鸦
     ja: アオガラス
     ndex: 822
     sprite: 822
-    refs: &id189
+    refs: &id224
     - 66
   - en: Corviknight
     zh: 钢铠鸦
     ja: アーマーガア
     ndex: 823
     sprite: 823
-    refs: &id190
+    refs: &id225
     - 44
     - 66
   - en: Dracozolt
@@ -4210,70 +4794,70 @@ designers:
     ja: パッチラゴン
     ndex: 880
     sprite: 880
-    refs: &id199
+    refs: &id237
     - 56
   - en: Arctozolt
     zh: 雷鸟海兽
     ja: パッチルドン
     ndex: 881
     sprite: 881
-    refs: &id200
+    refs: &id238
     - 56
   - en: Dracovish
     zh: 鳃鱼龙
     ja: ウオノラゴン
     ndex: 882
     sprite: 882
-    refs: &id201
+    refs: &id239
     - 56
   - en: Arctovish
     zh: 鳃鱼海兽
     ja: ウオチルドン
     ndex: 883
     sprite: 883
-    refs: &id202
+    refs: &id240
     - 56
   - en: Nacli
     zh: 盐石宝
     ja: コジオ
     ndex: 932
     sprite: 932
-    refs: &id213
+    refs: &id253
     - 70
   - en: Naclstack
     zh: 盐石垒
     ja: ジオヅム
     ndex: 933
     sprite: 933
-    refs: &id214
+    refs: &id254
     - 70
   - en: Garganacl
     zh: 盐石巨灵
     ja: キョジオーン
     ndex: 934
     sprite: 934
-    refs: &id215
+    refs: &id255
     - 70
   - en: Espathra
     zh: 超能艳鸵
     ja: クエスパトラ
     ndex: 956
     sprite: 956
-    refs: &id222
+    refs: &id262
     - 70
   - en: Flutter Mane
     zh: 振翼发
     ja: ハバタクカミ
     ndex: 987
     sprite: 987
-    refs: &id232
+    refs: &id274
     - 75
   - en: Ogerpon
     zh: 厄鬼椪
     ja: オーガポン
     ndex: 1017
     sprite: 1017
-    refs: &id233
+    refs: &id275
     - 77
   person: ariga-hitoshi
 - id: emi-ando
@@ -4570,7 +5154,7 @@ designers:
     ja: グソクムシャ
     ndex: 768
     sprite: 768
-    refs: &id177
+    refs: &id210
     - 41
   person: nabana-kensaku
   avatar: /assets/img/people/nabana-kensaku.jpg
@@ -4927,49 +5511,49 @@ designers:
     ja: エレズン
     ndex: 848
     sprite: 848
-    refs: &id191
+    refs: &id226
     - 65
   - en: Toxtricity
     zh: 颤弦蝾螈
     ja: ストリンダー
     ndex: 849
     sprite: 849
-    refs: &id192
+    refs: &id227
     - 65
   - en: Falinks
     zh: 列阵兵
     ja: タイレーツ
     ndex: 870
     sprite: 870
-    refs: &id197
+    refs: &id235
     - 65
   - en: Varoom
     zh: 噗隆隆
     ja: ブロロン
     ndex: 965
     sprite: 965
-    refs: &id226
+    refs: &id266
     - 74
   - en: Revavroom
     zh: 普隆隆姆
     ja: ブロロローム
     ndex: 966
     sprite: 966
-    refs: &id227
+    refs: &id267
     - 74
   - en: Cetoddle
     zh: 走鲸
     ja: アルクジラ
     ndex: 974
     sprite: 974
-    refs: &id230
+    refs: &id270
     - 74
   - en: Cetitan
     zh: 浩大鲸
     ja: ハルクジラ
     ndex: 975
     sprite: 975
-    refs: &id231
+    refs: &id271
     - 74
 - id: ami
   en: ami
@@ -5077,14 +5661,14 @@ designers:
     ja: ボチ
     ndex: 971
     sprite: 971
-    refs: &id228
+    refs: &id268
     - 68
   - en: Houndstone
     zh: 墓扬犬
     ja: ハカドッグ
     ndex: 972
     sprite: 972
-    refs: &id229
+    refs: &id269
     - 69
 - id: ryosuke-oshiro
   en: Ryosuke Ōshiro
@@ -5181,35 +5765,51 @@ designers:
       role: Pokémon Design
       role_ja: ポケモンデザイン
     state: both
-  pokemon: []
+  pokemon:
+  - en: Fidough
+    zh: 狗仔包
+    ja: パピモッチ
+    ndex: 926
+    sprite: 926
+    refs: &id251
+    - S23
+    supp: true
+  - en: Dachsbun
+    zh: 麻花犬
+    ja: バウッツェル
+    ndex: 927
+    sprite: 927
+    refs: &id252
+    - S23
+    supp: true
 unknown:
 - en: Foongus
   zh: 哎呀球菇
   ja: タマゲタケ
   ndex: 590
   sprite: 590
-  refs: &id121 []
+  refs: &id144 []
   unsure: true
 - en: Amoonguss
   zh: 败露球菇
   ja: モロバレル
   ndex: 591
   sprite: 591
-  refs: &id122 []
+  refs: &id145 []
   unsure: true
 - en: Ferroseed
   zh: 种子铁球
   ja: テッシード
   ndex: 597
   sprite: 597
-  refs: &id125 []
+  refs: &id148 []
   unsure: true
 - en: Ferrothorn
   zh: 坚果哑铃
   ja: ナットレイ
   ndex: 598
   sprite: 598
-  refs: &id126 []
+  refs: &id149 []
   unsure: true
 extra:
 - en: Misaki Hashimoto
@@ -5711,12 +6311,21 @@ dex:
   refs: *id001
   designer: nishida
   designer_name: 西田敦子
+- en: Ivysaur
+  zh: 妙蛙草
+  ja: フシギソウ
+  ndex: 2
+  sprite: 2
+  refs: *id002
+  supp: true
+  designer: sugimori
+  designer_name: 杉森建
 - en: Charmander
   zh: 小火龙
   ja: ヒトカゲ
   ndex: 4
   sprite: 4
-  refs: *id002
+  refs: *id003
   designer: nishida
   designer_name: 西田敦子
 - en: Charmeleon
@@ -5724,7 +6333,7 @@ dex:
   ja: リザード
   ndex: 5
   sprite: 5
-  refs: *id003
+  refs: *id004
   designer: nishida
   designer_name: 西田敦子
 - en: Charizard
@@ -5732,7 +6341,7 @@ dex:
   ja: リザードン
   ndex: 6
   sprite: 6
-  refs: *id004
+  refs: *id005
   designer: nishida
   designer_name: 西田敦子
 - en: Mega Charizard X
@@ -5740,8 +6349,8 @@ dex:
   ja: メガリザードンX
   ndex: 6
   sprite: 6
-  refs: *id005
   form: 超级进化
+  refs: *id006
   designer: nishida
   designer_name: 西田敦子
 - en: Squirtle
@@ -5749,7 +6358,7 @@ dex:
   ja: ゼニガメ
   ndex: 7
   sprite: 7
-  refs: *id006
+  refs: *id007
   designer: nishida
   designer_name: 西田敦子
 - en: Wartortle
@@ -5757,7 +6366,7 @@ dex:
   ja: カメール
   ndex: 8
   sprite: 8
-  refs: *id007
+  refs: *id008
   designer: nishida
   designer_name: 西田敦子
 - en: Weedle
@@ -5765,7 +6374,7 @@ dex:
   ja: ビードル
   ndex: 13
   sprite: 13
-  refs: *id008
+  refs: *id009
   designer: nishida
   designer_name: 西田敦子
 - en: Kakuna
@@ -5773,7 +6382,7 @@ dex:
   ja: コクーン
   ndex: 14
   sprite: 14
-  refs: *id009
+  refs: *id010
   designer: nishida
   designer_name: 西田敦子
 - en: Beedrill
@@ -5781,7 +6390,7 @@ dex:
   ja: スピアー
   ndex: 15
   sprite: 15
-  refs: *id010
+  refs: *id011
   designer: nishida
   designer_name: 西田敦子
 - en: Mega Beedrill
@@ -5789,8 +6398,8 @@ dex:
   ja: メガスピアー
   ndex: 15
   sprite: 15
-  refs: *id011
   form: 超级进化
+  refs: *id012
   designer: ariga
   designer_name: ありがひとし
 - en: Pikachu
@@ -5798,23 +6407,54 @@ dex:
   ja: ピカチュウ
   ndex: 25
   sprite: 25
-  refs: *id012
+  refs: *id013
   designer: nishida
   designer_name: 西田敦子
+- en: Gigantamax Pikachu
+  zh: 超极巨化皮卡丘
+  ja: ピカチュウ（キョダイマックスのすがた）
+  ndex: 25
+  sprite: 25
+  form: 超极巨化
+  refs: *id014
+  supp: true
+  designer: turner
+  designer_name: James Turner
 - en: Raichu
   zh: 雷丘
   ja: ライチュウ
   ndex: 26
   sprite: 26
-  refs: *id013
+  refs: *id015
   designer: nishida
   designer_name: 西田敦子
+- en: Alolan Raichu
+  zh: 阿罗拉雷丘
+  ja: ライチュウ（アローラのすがた）
+  ndex: 26
+  sprite: 10100
+  form: 阿罗拉的样子
+  refs: *id016
+  supp: true
+  remark: 构想来自貫田将文
+  designer: nishida
+  designer_name: 西田敦子
+- en: Nidoking
+  zh: 尼多王
+  ja: ニドキング
+  ndex: 34
+  sprite: 34
+  refs: *id017
+  supp: true
+  remark: 最早一批草图里留下来的
+  designer: sugimori
+  designer_name: 杉森建
 - en: Clefairy
   zh: 皮皮
   ja: ピッピ
   ndex: 35
   sprite: 35
-  refs: *id014
+  refs: *id018
   designer: sugimori
   designer_name: 杉森建
 - en: Vulpix
@@ -5822,7 +6462,7 @@ dex:
   ja: ロコン
   ndex: 37
   sprite: 37
-  refs: *id015
+  refs: *id019
   designer: nishida
   designer_name: 西田敦子
 - en: Ninetales
@@ -5830,7 +6470,7 @@ dex:
   ja: キュウコン
   ndex: 38
   sprite: 38
-  refs: *id016
+  refs: *id020
   designer: nishida
   designer_name: 西田敦子
 - en: Oddish
@@ -5838,7 +6478,7 @@ dex:
   ja: ナゾノクサ
   ndex: 43
   sprite: 43
-  refs: *id017
+  refs: *id021
   designer: nishida
   designer_name: 西田敦子
 - en: Gloom
@@ -5846,7 +6486,7 @@ dex:
   ja: クサイハナ
   ndex: 44
   sprite: 44
-  refs: *id018
+  refs: *id022
   designer: nishida
   designer_name: 西田敦子
 - en: Vileplume
@@ -5854,7 +6494,7 @@ dex:
   ja: ラフレシア
   ndex: 45
   sprite: 45
-  refs: *id019
+  refs: *id023
   designer: nishida
   designer_name: 西田敦子
 - en: Diglett
@@ -5862,7 +6502,7 @@ dex:
   ja: ディグダ
   ndex: 50
   sprite: 50
-  refs: *id020
+  refs: *id024
   designer: morimoto
   designer_name: 森本茂树
 - en: Mankey
@@ -5870,7 +6510,7 @@ dex:
   ja: マンキー
   ndex: 56
   sprite: 56
-  refs: *id021
+  refs: *id025
   designer: morimoto
   designer_name: 森本茂树
 - en: Hisuian Growlithe
@@ -5878,8 +6518,8 @@ dex:
   ja: ガーディ（ヒスイのすがた）
   ndex: 58
   sprite: 10229
-  refs: *id022
   form: 洗翠的样子
+  refs: *id026
   designer: mizutani
   designer_name: 水谷恵
 - en: Hisuian Arcanine
@@ -5887,16 +6527,26 @@ dex:
   ja: ウインディ（ヒスイのすがた）
   ndex: 59
   sprite: 10230
-  refs: *id023
   form: 洗翠的样子
+  refs: *id027
   designer: mizutani
   designer_name: 水谷恵
+- en: Poliwag
+  zh: 蚊香蝌蚪
+  ja: ニョロモ
+  ndex: 60
+  sprite: 60
+  refs: *id028
+  supp: true
+  remark: 原话是「参与了蚊香蝌蚪和猴怪的设计」
+  designer: morimoto
+  designer_name: 森本茂树
 - en: Bellsprout
   zh: 喇叭芽
   ja: マダツボミ
   ndex: 69
   sprite: 69
-  refs: *id024
+  refs: *id029
   designer: nishida
   designer_name: 西田敦子
 - en: Weepinbell
@@ -5904,7 +6554,7 @@ dex:
   ja: ウツドン
   ndex: 70
   sprite: 70
-  refs: *id025
+  refs: *id030
   designer: nishida
   designer_name: 西田敦子
 - en: Victreebel
@@ -5912,7 +6562,7 @@ dex:
   ja: ウツボット
   ndex: 71
   sprite: 71
-  refs: *id026
+  refs: *id031
   designer: nishida
   designer_name: 西田敦子
 - en: Alolan Geodude
@@ -5920,8 +6570,8 @@ dex:
   ja: イシツブテ（アローラのすがた）
   ndex: 74
   sprite: 10109
-  refs: *id027
   form: 阿罗拉的样子
+  refs: *id032
   designer: ariga
   designer_name: ありがひとし
 - en: Alolan Graveler
@@ -5929,8 +6579,8 @@ dex:
   ja: ゴローン（アローラのすがた）
   ndex: 75
   sprite: 10110
-  refs: *id028
   form: 阿罗拉的样子
+  refs: *id033
   designer: ariga
   designer_name: ありがひとし
 - en: Alolan Golem
@@ -5938,8 +6588,8 @@ dex:
   ja: ゴローニャ（アローラのすがた）
   ndex: 76
   sprite: 10111
-  refs: *id029
   form: 阿罗拉的样子
+  refs: *id034
   designer: ariga
   designer_name: ありがひとし
 - en: Ponyta
@@ -5947,7 +6597,7 @@ dex:
   ja: ポニータ
   ndex: 77
   sprite: 77
-  refs: *id030
+  refs: *id035
   designer: nishida
   designer_name: 西田敦子
 - en: Rapidash
@@ -5955,16 +6605,26 @@ dex:
   ja: ギャロップ
   ndex: 78
   sprite: 78
-  refs: *id031
+  refs: *id036
   designer: nishida
   designer_name: 西田敦子
+- en: Magnemite
+  zh: 小磁怪
+  ja: コイル
+  ndex: 81
+  sprite: 81
+  refs: *id037
+  supp: true
+  remark: 构想来自田尻智
+  designer: sugimori
+  designer_name: 杉森建
 - en: Alolan Grimer
   zh: 阿罗拉臭泥
   ja: ベトベター（アローラのすがた）
   ndex: 88
   sprite: 10112
-  refs: *id032
   form: 阿罗拉的样子
+  refs: *id038
   designer: ariga
   designer_name: ありがひとし
 - en: Alolan Muk
@@ -5972,24 +6632,93 @@ dex:
   ja: ベトベトン（アローラのすがた）
   ndex: 89
   sprite: 10113
-  refs: *id033
   form: 阿罗拉的样子
+  refs: *id039
   designer: ariga
   designer_name: ありがひとし
+- en: Gigantamax Gengar
+  zh: 超极巨化耿鬼
+  ja: ゲンガー（キョダイマックスのすがた）
+  ndex: 94
+  sprite: 94
+  form: 超极巨化
+  refs: *id040
+  supp: true
+  designer: turner
+  designer_name: James Turner
+- en: Exeggutor
+  zh: 椰蛋树
+  ja: ナッシー
+  ndex: 103
+  sprite: 103
+  refs: *id041
+  supp: true
+  designer: sugimori
+  designer_name: 杉森建
+- en: Alolan Exeggutor
+  zh: 阿罗拉椰蛋树
+  ja: ナッシー（アローラのすがた）
+  ndex: 103
+  sprite: 10114
+  form: 阿罗拉的样子
+  refs: *id042
+  supp: true
+  designer: sugimori
+  designer_name: 杉森建
+- en: Rhydon
+  zh: 钻角犀兽
+  ja: サイドン
+  ndex: 112
+  sprite: 112
+  refs: *id043
+  supp: true
+  remark: 最早一批草图里留下来的
+  designer: sugimori
+  designer_name: 杉森建
 - en: Tauros
   zh: 肯泰罗
   ja: ケンタロス
   ndex: 128
   sprite: 128
-  refs: *id034
+  refs: *id044
   designer: morimoto
   designer_name: 森本茂树
+- en: Paldean Tauros
+  zh: 帕底亚肯泰罗
+  ja: ケンタロス（パルデアのすがた）
+  ndex: 128
+  sprite: 10250
+  form: 帕底亚的样子
+  refs: *id045
+  supp: true
+  remark: 三个种类
+  designer: turner
+  designer_name: James Turner
+- en: Gyarados
+  zh: 暴鲤龙
+  ja: ギャラドス
+  ndex: 130
+  sprite: 130
+  refs: *id046
+  supp: true
+  designer: sugimori
+  designer_name: 杉森建
+- en: Lapras
+  zh: 拉普拉斯
+  ja: ラプラス
+  ndex: 131
+  sprite: 131
+  refs: *id047
+  supp: true
+  remark: 原话是「只想得到超梦、暴鲤龙、卡比兽、拉普拉斯这类粗犷的」
+  designer: sugimori
+  designer_name: 杉森建
 - en: Eevee
   zh: 伊布
   ja: イーブイ
   ndex: 133
   sprite: 133
-  refs: *id035
+  refs: *id048
   designer: fujiwara
   designer_name: 藤原基史
 - en: Vaporeon
@@ -5997,7 +6726,7 @@ dex:
   ja: シャワーズ
   ndex: 134
   sprite: 134
-  refs: *id036
+  refs: *id049
   designer: nishida
   designer_name: 西田敦子
 - en: Jolteon
@@ -6005,7 +6734,7 @@ dex:
   ja: サンダース
   ndex: 135
   sprite: 135
-  refs: *id037
+  refs: *id050
   designer: fujiwara
   designer_name: 藤原基史
 - en: Flareon
@@ -6013,15 +6742,24 @@ dex:
   ja: ブースター
   ndex: 136
   sprite: 136
-  refs: *id038
+  refs: *id051
   designer: fujiwara
   designer_name: 藤原基史
+- en: Snorlax
+  zh: 卡比兽
+  ja: カビゴン
+  ndex: 143
+  sprite: 143
+  refs: *id052
+  supp: true
+  designer: sugimori
+  designer_name: 杉森建
 - en: Dratini
   zh: 迷你龙
   ja: ミニリュウ
   ndex: 147
   sprite: 147
-  refs: *id039
+  refs: *id053
   designer: nishida
   designer_name: 西田敦子
 - en: Dragonair
@@ -6029,16 +6767,25 @@ dex:
   ja: ハクリュー
   ndex: 148
   sprite: 148
-  refs: *id040
+  refs: *id054
   designer: nishida
   designer_name: 西田敦子
+- en: Mewtwo
+  zh: 超梦
+  ja: ミュウツー
+  ndex: 150
+  sprite: 150
+  refs: *id055
+  supp: true
+  designer: sugimori
+  designer_name: 杉森建
 - en: Mega Mewtwo Y
   zh: 超级超梦Y
   ja: メガミュウツーY
   ndex: 150
   sprite: 150
-  refs: *id041
   form: 超级进化
+  refs: *id056
   designer: kitakaze
   designer_name: 北風友裕
 - en: Mew
@@ -6046,7 +6793,7 @@ dex:
   ja: ミュウ
   ndex: 151
   sprite: 151
-  refs: *id042
+  refs: *id057
   designer: morimoto
   designer_name: 森本茂树
 - en: Hoothoot
@@ -6054,7 +6801,16 @@ dex:
   ja: ホーホー
   ndex: 163
   sprite: 163
-  refs: *id043
+  refs: *id058
+  designer: sugimori
+  designer_name: 杉森建
+- en: Pichu
+  zh: 皮丘
+  ja: ピチュー
+  ndex: 172
+  sprite: 172
+  refs: *id059
+  supp: true
   designer: sugimori
   designer_name: 杉森建
 - en: Sudowoodo
@@ -6062,7 +6818,7 @@ dex:
   ja: ウソッキー
   ndex: 185
   sprite: 185
-  refs: *id044
+  refs: *id060
   designer: sugimori
   designer_name: 杉森建
 - en: Espeon
@@ -6070,7 +6826,7 @@ dex:
   ja: エーフィ
   ndex: 196
   sprite: 196
-  refs: *id045
+  refs: *id061
   designer: nishida
   designer_name: 西田敦子
 - en: Umbreon
@@ -6078,7 +6834,19 @@ dex:
   ja: ブラッキー
   ndex: 197
   sprite: 197
-  refs: *id046
+  refs: *id062
+  supp: true
+  role: 配色
+  remark: 配色；造型是西田敦子
+  designer: sugimori
+  designer_name: 杉森建
+- en: Umbreon
+  zh: 月亮伊布
+  ja: ブラッキー
+  ndex: 197
+  sprite: 197
+  refs: *id063
+  note: 配色由杉森建决定
   designer: nishida
   designer_name: 西田敦子
 - en: Unown
@@ -6086,7 +6854,7 @@ dex:
   ja: アンノーン
   ndex: 201
   sprite: 201
-  refs: *id047
+  refs: *id064
   designer: sugimori
   designer_name: 杉森建
 - en: Wobbuffet
@@ -6094,7 +6862,7 @@ dex:
   ja: ソーナンス
   ndex: 202
   sprite: 202
-  refs: *id048
+  refs: *id065
   designer: yoshida
   designer_name: 吉田宏信
 - en: Dunsparce
@@ -6102,7 +6870,7 @@ dex:
   ja: ノコッチ
   ndex: 206
   sprite: 206
-  refs: *id049
+  refs: *id066
   designer: yoshida
   designer_name: 吉田宏信
 - en: Shuckle
@@ -6110,7 +6878,7 @@ dex:
   ja: ツボツボ
   ndex: 213
   sprite: 213
-  refs: *id050
+  refs: *id067
   designer: morimoto
   designer_name: 森本茂树
 - en: Hisuian Sneasel
@@ -6118,8 +6886,8 @@ dex:
   ja: ニューラ（ヒスイのすがた）
   ndex: 215
   sprite: 10235
-  refs: *id051
   form: 洗翠的样子
+  refs: *id068
   designer: ariga
   designer_name: ありがひとし
 - en: Piloswine
@@ -6127,7 +6895,7 @@ dex:
   ja: イノムー
   ndex: 221
   sprite: 221
-  refs: *id052
+  refs: *id069
   designer: morimoto
   designer_name: 森本茂树
 - en: Raikou
@@ -6135,7 +6903,7 @@ dex:
   ja: ライコウ
   ndex: 243
   sprite: 243
-  refs: *id053
+  refs: *id070
   designer: saitou
   designer_name: 斉藤むねお
 - en: Entei
@@ -6143,7 +6911,7 @@ dex:
   ja: エンテイ
   ndex: 244
   sprite: 244
-  refs: *id054
+  refs: *id071
   designer: saitou
   designer_name: 斉藤むねお
 - en: Suicune
@@ -6151,24 +6919,55 @@ dex:
   ja: スイクン
   ndex: 245
   sprite: 245
-  refs: *id055
+  refs: *id072
   designer: saitou
   designer_name: 斉藤むねお
+- en: Shadow Lugia
+  zh: 暗影洛奇亚
+  ja: ダークルギア
+  ndex: 249
+  sprite: 249
+  form: 暗影
+  refs: *id073
+  supp: true
+  remark: 据 Hiromoto-SIN-ichi 的草图定稿、定配色
+  designer: turner
+  designer_name: James Turner
 - en: Celebi
   zh: 时拉比
   ja: セレビィ
   ndex: 251
   sprite: 251
-  refs: *id056
+  refs: *id074
   designer: yoshida
   designer_name: 吉田宏信
+- en: Blaziken
+  zh: 火焰鸡
+  ja: バシャーモ
+  ndex: 257
+  sprite: 257
+  refs: *id075
+  supp: true
+  remark: 红宝石·蓝宝石最早定下的一只
+  designer: sugimori
+  designer_name: 杉森建
 - en: Galarian Zigzagoon
   zh: 伽勒尔蛇纹熊
   ja: ジグザグマ（ガラルのすがた）
   ndex: 263
   sprite: 10174
-  refs: *id057
   form: 伽勒尔的样子
+  refs: *id076
+  designer: turner
+  designer_name: James Turner
+- en: Galarian Linoone
+  zh: 伽勒尔直冲熊
+  ja: マッスグマ（ガラルのすがた）
+  ndex: 264
+  sprite: 10175
+  form: 伽勒尔的样子
+  refs: *id077
+  supp: true
   designer: turner
   designer_name: James Turner
 - en: Whismur
@@ -6176,7 +6975,7 @@ dex:
   ja: ゴニョニョ
   ndex: 293
   sprite: 293
-  refs: *id058
+  refs: *id078
   designer: unno
   designer_name: 海野隆雄
 - en: Loudred
@@ -6184,7 +6983,7 @@ dex:
   ja: ドゴーム
   ndex: 294
   sprite: 294
-  refs: *id059
+  refs: *id079
   designer: unno
   designer_name: 海野隆雄
 - en: Rayquaza
@@ -6192,7 +6991,7 @@ dex:
   ja: レックウザ
   ndex: 384
   sprite: 384
-  refs: *id060
+  refs: *id080
   designer: yoshida
   designer_name: 吉田宏信
 - en: Deoxys
@@ -6200,7 +6999,7 @@ dex:
   ja: デオキシス
   ndex: 386
   sprite: 386
-  refs: *id061
+  refs: *id081
   designer: yoshida
   designer_name: 吉田宏信
 - en: Chimchar
@@ -6208,7 +7007,7 @@ dex:
   ja: ヒコザル
   ndex: 390
   sprite: 390
-  refs: *id062
+  refs: *id082
   designer: unno
   designer_name: 海野隆雄
 - en: Monferno
@@ -6216,7 +7015,7 @@ dex:
   ja: モウカザル
   ndex: 391
   sprite: 391
-  refs: *id063
+  refs: *id083
   designer: unno
   designer_name: 海野隆雄
 - en: Infernape
@@ -6224,7 +7023,7 @@ dex:
   ja: ゴウカザル
   ndex: 392
   sprite: 392
-  refs: *id064
+  refs: *id084
   designer: unno
   designer_name: 海野隆雄
 - en: Piplup
@@ -6232,7 +7031,7 @@ dex:
   ja: ポッチャマ
   ndex: 393
   sprite: 393
-  refs: *id065
+  refs: *id085
   designer: ohmura
   designer_name: 大村祐介
 - en: Kricketot
@@ -6240,7 +7039,7 @@ dex:
   ja: コロボーシ
   ndex: 401
   sprite: 401
-  refs: *id066
+  refs: *id086
   designer: nishida
   designer_name: 西田敦子
 - en: Kricketune
@@ -6248,15 +7047,24 @@ dex:
   ja: コロトック
   ndex: 402
   sprite: 402
-  refs: *id067
+  refs: *id087
   designer: nishida
   designer_name: 西田敦子
+- en: Happiny
+  zh: 小福蛋
+  ja: ピンプク
+  ndex: 440
+  sprite: 440
+  refs: *id088
+  supp: true
+  designer: emi-yoshida
+  designer_name: 吉田絵美
 - en: Garchomp
   zh: 烈咬陆鲨
   ja: ガブリアス
   ndex: 445
   sprite: 445
-  refs: *id068
+  refs: *id089
   designer: unno
   designer_name: 海野隆雄
 - en: Croagunk
@@ -6264,7 +7072,7 @@ dex:
   ja: グレッグル
   ndex: 453
   sprite: 453
-  refs: *id069
+  refs: *id090
   designer: unno
   designer_name: 海野隆雄
 - en: Magmortar
@@ -6272,7 +7080,7 @@ dex:
   ja: ブーバーン
   ndex: 467
   sprite: 467
-  refs: *id070
+  refs: *id091
   designer: yoshida
   designer_name: 吉田宏信
 - en: Leafeon
@@ -6280,7 +7088,7 @@ dex:
   ja: リーフィア
   ndex: 470
   sprite: 470
-  refs: *id071
+  refs: *id092
   designer: nishida
   designer_name: 西田敦子
 - en: Glaceon
@@ -6288,7 +7096,7 @@ dex:
   ja: グレイシア
   ndex: 471
   sprite: 471
-  refs: *id072
+  refs: *id093
   designer: nishida
   designer_name: 西田敦子
 - en: Dialga
@@ -6296,7 +7104,7 @@ dex:
   ja: ディアルガ
   ndex: 483
   sprite: 483
-  refs: *id073
+  refs: *id094
   designer: sugimori
   designer_name: 杉森建
 - en: Palkia
@@ -6304,7 +7112,7 @@ dex:
   ja: パルキア
   ndex: 484
   sprite: 484
-  refs: *id074
+  refs: *id095
   designer: sugimori
   designer_name: 杉森建
 - en: Manaphy
@@ -6312,7 +7120,7 @@ dex:
   ja: マナフィ
   ndex: 490
   sprite: 490
-  refs: *id075
+  refs: *id096
   designer: sugimori
   designer_name: 杉森建
 - en: Darkrai
@@ -6320,7 +7128,7 @@ dex:
   ja: ダークライ
   ndex: 491
   sprite: 491
-  refs: *id076
+  refs: *id097
   designer: yoshida
   designer_name: 吉田宏信
 - en: Arceus
@@ -6328,7 +7136,7 @@ dex:
   ja: アルセウス
   ndex: 493
   sprite: 493
-  refs: *id077
+  refs: *id098
   designer: unno
   designer_name: 海野隆雄
 - en: Victini
@@ -6336,7 +7144,7 @@ dex:
   ja: ビクティニ
   ndex: 494
   sprite: 494
-  refs: *id078
+  refs: *id099
   designer: ibe
   designer_name: 井部真那
 - en: Snivy
@@ -6344,7 +7152,7 @@ dex:
   ja: ツタージャ
   ndex: 495
   sprite: 495
-  refs: *id079
+  refs: *id100
   designer: tanoue
   designer_name: 田上怜子
 - en: Tepig
@@ -6352,7 +7160,7 @@ dex:
   ja: ポカブ
   ndex: 498
   sprite: 498
-  refs: *id080
+  refs: *id101
   designer: hyunjung
   designer_name: 李ヒョンジョン
 - en: Pignite
@@ -6360,7 +7168,7 @@ dex:
   ja: チャオブー
   ndex: 499
   sprite: 499
-  refs: *id081
+  refs: *id102
   designer: hyunjung
   designer_name: 李ヒョンジョン
 - en: Emboar
@@ -6368,7 +7176,7 @@ dex:
   ja: エンブオー
   ndex: 500
   sprite: 500
-  refs: *id082
+  refs: *id103
   designer: hyunjung
   designer_name: 李ヒョンジョン
 - en: Oshawott
@@ -6376,7 +7184,7 @@ dex:
   ja: ミジュマル
   ndex: 501
   sprite: 501
-  refs: *id083
+  refs: *id104
   designer: ohmura
   designer_name: 大村祐介
 - en: Dewott
@@ -6384,7 +7192,7 @@ dex:
   ja: フタチマル
   ndex: 502
   sprite: 502
-  refs: *id084
+  refs: *id105
   designer: ohmura
   designer_name: 大村祐介
 - en: Samurott
@@ -6392,7 +7200,7 @@ dex:
   ja: ダイケンキ
   ndex: 503
   sprite: 503
-  refs: *id085
+  refs: *id106
   designer: ohmura
   designer_name: 大村祐介
 - en: Lillipup
@@ -6400,7 +7208,7 @@ dex:
   ja: ヨーテリー
   ndex: 506
   sprite: 506
-  refs: *id086
+  refs: *id107
   remark: 也可能是井部真那
   remark_en: or Ibe?
   unsure: true
@@ -6411,16 +7219,28 @@ dex:
   ja: ハーデリア
   ndex: 507
   sprite: 507
-  refs: *id087
+  refs: *id108
   unsure: true
+  note: 也有说法是井部真那
   designer: nishida
   designer_name: 西田敦子
+- en: Herdier
+  zh: 哈约克
+  ja: ハーデリア
+  ndex: 507
+  sprite: 507
+  refs: *id109
+  supp: true
+  remark: Pokémon Peer 里她只说交了一只狗型宝可梦；点名哈约克的是 GameTrailers 视频访谈（未逐字核对）
+  unsure: true
+  designer: ibe
+  designer_name: 井部真那
 - en: Stoutland
   zh: 长毛狗
   ja: ムーランド
   ndex: 508
   sprite: 508
-  refs: *id088
+  refs: *id110
   remark: 她最喜欢的一只
   remark_en: her favorite
   unsure: true
@@ -6431,7 +7251,7 @@ dex:
   ja: ヤナップ
   ndex: 511
   sprite: 511
-  refs: *id089
+  refs: *id111
   designer: unno
   designer_name: 海野隆雄
 - en: Pansear
@@ -6439,7 +7259,7 @@ dex:
   ja: バオップ
   ndex: 513
   sprite: 513
-  refs: *id090
+  refs: *id112
   designer: unno
   designer_name: 海野隆雄
 - en: Panpour
@@ -6447,7 +7267,7 @@ dex:
   ja: ヒヤップ
   ndex: 515
   sprite: 515
-  refs: *id091
+  refs: *id113
   designer: unno
   designer_name: 海野隆雄
 - en: Munna
@@ -6455,7 +7275,7 @@ dex:
   ja: ムンナ
   ndex: 517
   sprite: 517
-  refs: *id092
+  refs: *id114
   designer: nishida
   designer_name: 西田敦子
 - en: Musharna
@@ -6463,7 +7283,7 @@ dex:
   ja: ムシャーナ
   ndex: 518
   sprite: 518
-  refs: *id093
+  refs: *id115
   designer: nishida
   designer_name: 西田敦子
 - en: Pidove
@@ -6471,7 +7291,7 @@ dex:
   ja: マメパト
   ndex: 519
   sprite: 519
-  refs: *id094
+  refs: *id116
   designer: tanoue
   designer_name: 田上怜子
 - en: Audino
@@ -6479,7 +7299,7 @@ dex:
   ja: タブンネ
   ndex: 531
   sprite: 531
-  refs: *id095
+  refs: *id117
   designer: tsuruta
   designer_name: つるたさや
 - en: Throh
@@ -6487,7 +7307,7 @@ dex:
   ja: ナゲキ
   ndex: 538
   sprite: 538
-  refs: *id096
+  refs: *id118
   designer: sugimori
   designer_name: 杉森建
 - en: Sawk
@@ -6495,15 +7315,26 @@ dex:
   ja: ダゲキ
   ndex: 539
   sprite: 539
-  refs: *id097
+  refs: *id119
   designer: sugimori
   designer_name: 杉森建
+- en: Sewaddle
+  zh: 虫宝包
+  ja: クルミル
+  ndex: 540
+  sprite: 540
+  refs: *id120
+  supp: true
+  remark: 访谈原文是 Kurumiru（虫宝包）
+  designer: tanoue
+  designer_name: 田上怜子
 - en: Swadloon
   zh: 宝包茧
   ja: クルマユ
   ndex: 541
   sprite: 541
-  refs: *id098
+  refs: *id121
+  note: 原表据 Pokémon Peer 访谈记作宝包茧，访谈原文说的是 Kurumiru（虫宝包）
   designer: tanoue
   designer_name: 田上怜子
 - en: Venipede
@@ -6511,7 +7342,7 @@ dex:
   ja: フシデ
   ndex: 543
   sprite: 543
-  refs: *id099
+  refs: *id122
   designer: kitakaze
   designer_name: 北風友裕
 - en: Whirlipede
@@ -6519,7 +7350,7 @@ dex:
   ja: ホイーガ
   ndex: 544
   sprite: 544
-  refs: *id100
+  refs: *id123
   designer: kitakaze
   designer_name: 北風友裕
 - en: Scolipede
@@ -6527,7 +7358,7 @@ dex:
   ja: ペンドラー
   ndex: 545
   sprite: 545
-  refs: *id101
+  refs: *id124
   designer: kitakaze
   designer_name: 北風友裕
 - en: Cottonee
@@ -6535,7 +7366,7 @@ dex:
   ja: モンメン
   ndex: 546
   sprite: 546
-  refs: *id102
+  refs: *id125
   designer: nishida
   designer_name: 西田敦子
 - en: Whimsicott
@@ -6543,7 +7374,7 @@ dex:
   ja: エルフーン
   ndex: 547
   sprite: 547
-  refs: *id103
+  refs: *id126
   designer: nishida
   designer_name: 西田敦子
 - en: Petilil
@@ -6551,7 +7382,7 @@ dex:
   ja: チュリネ
   ndex: 548
   sprite: 548
-  refs: *id104
+  refs: *id127
   designer: nishida
   designer_name: 西田敦子
 - en: Lilligant
@@ -6559,7 +7390,7 @@ dex:
   ja: ドレディア
   ndex: 549
   sprite: 549
-  refs: *id105
+  refs: *id128
   designer: nishida
   designer_name: 西田敦子
 - en: Darumaka
@@ -6567,7 +7398,7 @@ dex:
   ja: ダルマッカ
   ndex: 554
   sprite: 554
-  refs: *id106
+  refs: *id129
   designer: ibe
   designer_name: 井部真那
 - en: Darmanitan
@@ -6575,7 +7406,7 @@ dex:
   ja: ヒヒダルマ
   ndex: 555
   sprite: 555
-  refs: *id107
+  refs: *id130
   designer: ibe
   designer_name: 井部真那
 - en: Sigilyph
@@ -6583,7 +7414,7 @@ dex:
   ja: シンボラー
   ndex: 561
   sprite: 561
-  refs: *id108
+  refs: *id131
   designer: moritsugu
   designer_name: 森次慶子
 - en: Zorua
@@ -6591,7 +7422,7 @@ dex:
   ja: ゾロア
   ndex: 570
   sprite: 570
-  refs: *id109
+  refs: *id132
   designer: nishida
   designer_name: 西田敦子
 - en: Hisuian Zorua
@@ -6599,8 +7430,8 @@ dex:
   ja: ゾロア（ヒスイのすがた）
   ndex: 570
   sprite: 10238
-  refs: *id110
   form: 洗翠的样子
+  refs: *id133
   designer: nishida
   designer_name: 西田敦子
 - en: Zoroark
@@ -6608,7 +7439,7 @@ dex:
   ja: ゾロアーク
   ndex: 571
   sprite: 571
-  refs: *id111
+  refs: *id134
   designer: nishida
   designer_name: 西田敦子
 - en: Hisuian Zoroark
@@ -6616,8 +7447,8 @@ dex:
   ja: ゾロアーク（ヒスイのすがた）
   ndex: 571
   sprite: 10239
-  refs: *id112
   form: 洗翠的样子
+  refs: *id135
   designer: nishida
   designer_name: 西田敦子
 - en: Minccino
@@ -6625,7 +7456,7 @@ dex:
   ja: チラーミィ
   ndex: 572
   sprite: 572
-  refs: *id113
+  refs: *id136
   designer: nishida
   designer_name: 西田敦子
 - en: Cinccino
@@ -6633,7 +7464,7 @@ dex:
   ja: チラチーノ
   ndex: 573
   sprite: 573
-  refs: *id114
+  refs: *id137
   designer: nishida
   designer_name: 西田敦子
 - en: Reuniclus
@@ -6641,7 +7472,7 @@ dex:
   ja: ランクルス
   ndex: 579
   sprite: 579
-  refs: *id115
+  refs: *id138
   designer: moritsugu
   designer_name: 森次慶子
 - en: Vanillite
@@ -6649,7 +7480,7 @@ dex:
   ja: バニプッチ
   ndex: 582
   sprite: 582
-  refs: *id116
+  refs: *id139
   designer: turner
   designer_name: James Turner
 - en: Vanillish
@@ -6657,7 +7488,7 @@ dex:
   ja: バニリッチ
   ndex: 583
   sprite: 583
-  refs: *id117
+  refs: *id140
   designer: turner
   designer_name: James Turner
 - en: Vanilluxe
@@ -6665,7 +7496,7 @@ dex:
   ja: バイバニラ
   ndex: 584
   sprite: 584
-  refs: *id118
+  refs: *id141
   designer: turner
   designer_name: James Turner
 - en: Karrablast
@@ -6673,7 +7504,7 @@ dex:
   ja: カブルモ
   ndex: 588
   sprite: 588
-  refs: *id119
+  refs: *id142
   designer: nishida
   designer_name: 西田敦子
 - en: Escavalier
@@ -6681,7 +7512,7 @@ dex:
   ja: シュバルゴ
   ndex: 589
   sprite: 589
-  refs: *id120
+  refs: *id143
   designer: kitakaze
   designer_name: 北風友裕
 - en: Foongus
@@ -6689,7 +7520,7 @@ dex:
   ja: タマゲタケ
   ndex: 590
   sprite: 590
-  refs: *id121
+  refs: *id144
   unsure: true
   designer: unknown-a
   designer_name: 不明人物 A
@@ -6698,7 +7529,7 @@ dex:
   ja: モロバレル
   ndex: 591
   sprite: 591
-  refs: *id122
+  refs: *id145
   unsure: true
   designer: unknown-a
   designer_name: 不明人物 A
@@ -6707,7 +7538,7 @@ dex:
   ja: プルリル
   ndex: 592
   sprite: 592
-  refs: *id123
+  refs: *id146
   designer: ibe
   designer_name: 井部真那
 - en: Galvantula
@@ -6715,7 +7546,7 @@ dex:
   ja: デンチュラ
   ndex: 596
   sprite: 596
-  refs: *id124
+  refs: *id147
   designer: tsuruta
   designer_name: つるたさや
 - en: Ferroseed
@@ -6723,7 +7554,7 @@ dex:
   ja: テッシード
   ndex: 597
   sprite: 597
-  refs: *id125
+  refs: *id148
   unsure: true
   designer: unknown-a
   designer_name: 不明人物 A
@@ -6732,7 +7563,7 @@ dex:
   ja: ナットレイ
   ndex: 598
   sprite: 598
-  refs: *id126
+  refs: *id149
   unsure: true
   designer: unknown-a
   designer_name: 不明人物 A
@@ -6741,7 +7572,19 @@ dex:
   ja: ギアル
   ndex: 599
   sprite: 599
-  refs: *id127
+  refs: *id150
+  supp: true
+  role: 构想
+  remark: 构想；森次庆子定稿
+  designer: sugimori
+  designer_name: 杉森建
+- en: Klink
+  zh: 齿轮儿
+  ja: ギアル
+  ndex: 599
+  sprite: 599
+  refs: *id151
+  note: 构想来自杉森建
   designer: moritsugu
   designer_name: 森次慶子
 - en: Klang
@@ -6749,7 +7592,19 @@ dex:
   ja: ギギアル
   ndex: 600
   sprite: 600
-  refs: *id128
+  refs: *id152
+  supp: true
+  role: 构想
+  remark: 构想；森次庆子定稿
+  designer: sugimori
+  designer_name: 杉森建
+- en: Klang
+  zh: 齿轮组
+  ja: ギギアル
+  ndex: 600
+  sprite: 600
+  refs: *id153
+  note: 构想来自杉森建
   designer: moritsugu
   designer_name: 森次慶子
 - en: Klinklang
@@ -6757,7 +7612,19 @@ dex:
   ja: ギギギアル
   ndex: 601
   sprite: 601
-  refs: *id129
+  refs: *id154
+  supp: true
+  role: 构想
+  remark: 构想；森次庆子定稿
+  designer: sugimori
+  designer_name: 杉森建
+- en: Klinklang
+  zh: 齿轮怪
+  ja: ギギギアル
+  ndex: 601
+  sprite: 601
+  refs: *id155
+  note: 构想来自杉森建
   designer: moritsugu
   designer_name: 森次慶子
 - en: Tynamo
@@ -6765,7 +7632,7 @@ dex:
   ja: シビシラス
   ndex: 602
   sprite: 602
-  refs: *id130
+  refs: *id156
   designer: ohmura
   designer_name: 大村祐介
 - en: Eelektrik
@@ -6773,7 +7640,7 @@ dex:
   ja: シビビール
   ndex: 603
   sprite: 603
-  refs: *id131
+  refs: *id157
   designer: ohmura
   designer_name: 大村祐介
 - en: Eelektross
@@ -6781,7 +7648,7 @@ dex:
   ja: シビルドン
   ndex: 604
   sprite: 604
-  refs: *id132
+  refs: *id158
   designer: ohmura
   designer_name: 大村祐介
 - en: Axew
@@ -6789,7 +7656,7 @@ dex:
   ja: キバゴ
   ndex: 610
   sprite: 610
-  refs: *id133
+  refs: *id159
   designer: ibe
   designer_name: 井部真那
 - en: Fraxure
@@ -6797,7 +7664,7 @@ dex:
   ja: オノンド
   ndex: 611
   sprite: 611
-  refs: *id134
+  refs: *id160
   designer: ibe
   designer_name: 井部真那
 - en: Haxorus
@@ -6805,7 +7672,7 @@ dex:
   ja: オノノクス
   ndex: 612
   sprite: 612
-  refs: *id135
+  refs: *id161
   designer: ibe
   designer_name: 井部真那
 - en: Shelmet
@@ -6813,7 +7680,7 @@ dex:
   ja: チョボマキ
   ndex: 616
   sprite: 616
-  refs: *id136
+  refs: *id162
   designer: kitakaze
   designer_name: 北風友裕
 - en: Stunfisk
@@ -6821,7 +7688,7 @@ dex:
   ja: マッギョ
   ndex: 618
   sprite: 618
-  refs: *id137
+  refs: *id163
   designer: ibe
   designer_name: 井部真那
 - en: Mienshao
@@ -6829,7 +7696,7 @@ dex:
   ja: コジョンド
   ndex: 620
   sprite: 620
-  refs: *id138
+  refs: *id164
   designer: mizutani
   designer_name: 水谷恵
 - en: Golett
@@ -6837,7 +7704,7 @@ dex:
   ja: ゴビット
   ndex: 622
   sprite: 622
-  refs: *id139
+  refs: *id165
   designer: turner
   designer_name: James Turner
 - en: Golurk
@@ -6845,15 +7712,24 @@ dex:
   ja: ゴルーグ
   ndex: 623
   sprite: 623
-  refs: *id140
+  refs: *id166
   designer: turner
   designer_name: James Turner
+- en: Bouffalant
+  zh: 爆炸头水牛
+  ja: バッフロン
+  ndex: 626
+  sprite: 626
+  refs: *id167
+  supp: true
+  designer: unno
+  designer_name: 海野隆雄
 - en: Rufflet
   zh: 毛头小鹰
   ja: ワシボン
   ndex: 627
   sprite: 627
-  refs: *id141
+  refs: *id168
   designer: unno
   designer_name: 海野隆雄
 - en: Braviary
@@ -6861,7 +7737,7 @@ dex:
   ja: ウォーグル
   ndex: 628
   sprite: 628
-  refs: *id142
+  refs: *id169
   designer: unno
   designer_name: 海野隆雄
 - en: Vullaby
@@ -6869,7 +7745,7 @@ dex:
   ja: バルチャイ
   ndex: 629
   sprite: 629
-  refs: *id143
+  refs: *id170
   designer: turner
   designer_name: James Turner
 - en: Mandibuzz
@@ -6877,7 +7753,7 @@ dex:
   ja: バルジーナ
   ndex: 630
   sprite: 630
-  refs: *id144
+  refs: *id171
   designer: turner
   designer_name: James Turner
 - en: Heatmor
@@ -6885,7 +7761,7 @@ dex:
   ja: クイタラン
   ndex: 631
   sprite: 631
-  refs: *id145
+  refs: *id172
   designer: sugimori
   designer_name: 杉森建
 - en: Durant
@@ -6893,7 +7769,7 @@ dex:
   ja: アイアント
   ndex: 632
   sprite: 632
-  refs: *id146
+  refs: *id173
   designer: sugimori
   designer_name: 杉森建
 - en: Cobalion
@@ -6901,7 +7777,7 @@ dex:
   ja: コバルオン
   ndex: 638
   sprite: 638
-  refs: *id147
+  refs: *id174
   designer: unno
   designer_name: 海野隆雄
 - en: Terrakion
@@ -6909,7 +7785,7 @@ dex:
   ja: テラキオン
   ndex: 639
   sprite: 639
-  refs: *id148
+  refs: *id175
   designer: unno
   designer_name: 海野隆雄
 - en: Virizion
@@ -6917,7 +7793,7 @@ dex:
   ja: ビリジオン
   ndex: 640
   sprite: 640
-  refs: *id149
+  refs: *id176
   designer: unno
   designer_name: 海野隆雄
 - en: Reshiram
@@ -6925,7 +7801,28 @@ dex:
   ja: レシラム
   ndex: 643
   sprite: 643
-  refs: *id150
+  refs: *id177
+  note: 初稿出自森次庆子
+  designer: sugimori
+  designer_name: 杉森建
+- en: Reshiram
+  zh: 莱希拉姆
+  ja: レシラム
+  ndex: 643
+  sprite: 643
+  refs: *id178
+  supp: true
+  role: 初稿
+  remark: 初稿；杉森建定稿
+  designer: moritsugu
+  designer_name: 森次慶子
+- en: Zekrom
+  zh: 捷克罗姆
+  ja: ゼクロム
+  ndex: 644
+  sprite: 644
+  refs: *id179
+  note: 初稿出自森次庆子
   designer: sugimori
   designer_name: 杉森建
 - en: Zekrom
@@ -6933,15 +7830,18 @@ dex:
   ja: ゼクロム
   ndex: 644
   sprite: 644
-  refs: *id151
-  designer: sugimori
-  designer_name: 杉森建
+  refs: *id180
+  supp: true
+  role: 初稿
+  remark: 初稿；杉森建定稿
+  designer: moritsugu
+  designer_name: 森次慶子
 - en: Froakie
   zh: 呱呱泡蛙
   ja: ケロマツ
   ndex: 656
   sprite: 656
-  refs: *id152
+  refs: *id181
   designer: ohmura
   designer_name: 大村祐介
 - en: Greninja
@@ -6949,15 +7849,24 @@ dex:
   ja: ゲッコウガ
   ndex: 658
   sprite: 658
-  refs: *id153
+  refs: *id182
   designer: ohmura
   designer_name: 大村祐介
+- en: Fletchling
+  zh: 小箭雀
+  ja: ヤヤコマ
+  ndex: 661
+  sprite: 661
+  refs: *id183
+  supp: true
+  designer: tsuruta
+  designer_name: つるたさや
 - en: Pancham
   zh: 顽皮熊猫
   ja: ヤンチャム
   ndex: 674
   sprite: 674
-  refs: *id154
+  refs: *id184
   designer: mizutani
   designer_name: 水谷恵
 - en: Pangoro
@@ -6965,7 +7874,7 @@ dex:
   ja: ゴロンダ
   ndex: 675
   sprite: 675
-  refs: *id155
+  refs: *id185
   designer: ariga
   designer_name: ありがひとし
 - en: Honedge
@@ -6973,7 +7882,7 @@ dex:
   ja: ヒトツキ
   ndex: 679
   sprite: 679
-  refs: *id156
+  refs: *id186
   designer: ariga
   designer_name: ありがひとし
 - en: Doublade
@@ -6981,7 +7890,7 @@ dex:
   ja: ニダンギル
   ndex: 680
   sprite: 680
-  refs: *id157
+  refs: *id187
   designer: ariga
   designer_name: ありがひとし
 - en: Aegislash
@@ -6989,7 +7898,7 @@ dex:
   ja: ギルガルド
   ndex: 681
   sprite: 681
-  refs: *id158
+  refs: *id188
   designer: ariga
   designer_name: ありがひとし
 - en: Aromatisse
@@ -6997,7 +7906,7 @@ dex:
   ja: フレフワン
   ndex: 683
   sprite: 683
-  refs: *id159
+  refs: *id189
   designer: tsuruta
   designer_name: つるたさや
 - en: Inkay
@@ -7005,7 +7914,7 @@ dex:
   ja: マーイーカ
   ndex: 686
   sprite: 686
-  refs: *id160
+  refs: *id190
   designer: ariga
   designer_name: ありがひとし
 - en: Malamar
@@ -7013,7 +7922,7 @@ dex:
   ja: カラマネロ
   ndex: 687
   sprite: 687
-  refs: *id161
+  refs: *id191
   designer: ariga
   designer_name: ありがひとし
 - en: Tyrunt
@@ -7021,7 +7930,7 @@ dex:
   ja: チゴラス
   ndex: 696
   sprite: 696
-  refs: *id162
+  refs: *id192
   designer: ariga
   designer_name: ありがひとし
 - en: Tyrantrum
@@ -7029,7 +7938,7 @@ dex:
   ja: ガチゴラス
   ndex: 697
   sprite: 697
-  refs: *id163
+  refs: *id193
   designer: ariga
   designer_name: ありがひとし
 - en: Amaura
@@ -7037,7 +7946,7 @@ dex:
   ja: アマルス
   ndex: 698
   sprite: 698
-  refs: *id164
+  refs: *id194
   designer: ariga
   designer_name: ありがひとし
 - en: Aurorus
@@ -7045,7 +7954,7 @@ dex:
   ja: アマルルガ
   ndex: 699
   sprite: 699
-  refs: *id165
+  refs: *id195
   designer: ariga
   designer_name: ありがひとし
 - en: Sylveon
@@ -7053,7 +7962,7 @@ dex:
   ja: ニンフィア
   ndex: 700
   sprite: 700
-  refs: *id166
+  refs: *id196
   designer: nishida
   designer_name: 西田敦子
 - en: Goomy
@@ -7061,7 +7970,16 @@ dex:
   ja: ヌメラ
   ndex: 704
   sprite: 704
-  refs: *id167
+  refs: *id197
+  designer: tsuruta
+  designer_name: つるたさや
+- en: Goodra
+  zh: 黏美龙
+  ja: ヌメルゴン
+  ndex: 706
+  sprite: 706
+  refs: *id198
+  supp: true
   designer: tsuruta
   designer_name: つるたさや
 - en: Klefki
@@ -7069,7 +7987,7 @@ dex:
   ja: クレッフィ
   ndex: 707
   sprite: 707
-  refs: *id168
+  refs: *id199
   designer: ibe
   designer_name: 井部真那
 - en: Phantump
@@ -7077,7 +7995,7 @@ dex:
   ja: ボクレー
   ndex: 708
   sprite: 708
-  refs: *id169
+  refs: *id200
   designer: turner
   designer_name: James Turner
 - en: Trevenant
@@ -7085,7 +8003,7 @@ dex:
   ja: オーロット
   ndex: 709
   sprite: 709
-  refs: *id170
+  refs: *id201
   designer: turner
   designer_name: James Turner
 - en: Xerneas
@@ -7093,7 +8011,28 @@ dex:
   ja: ゼルネアス
   ndex: 716
   sprite: 716
-  refs: *id171
+  refs: *id202
+  remark: 与大村祐介合作
+  remark_en: w/ Yūsuke Ōmura
+  designer: sugimori
+  designer_name: 杉森建
+- en: Xerneas
+  zh: 哲尔尼亚斯
+  ja: ゼルネアス
+  ndex: 716
+  sprite: 716
+  refs: *id203
+  supp: true
+  role: 合作
+  remark: 杉森建起稿后接手完成
+  designer: ohmura
+  designer_name: 大村祐介
+- en: Yveltal
+  zh: 伊裴尔塔尔
+  ja: イベルタル
+  ndex: 717
+  sprite: 717
+  refs: *id204
   remark: 与大村祐介合作
   remark_en: w/ Yūsuke Ōmura
   designer: sugimori
@@ -7103,17 +8042,18 @@ dex:
   ja: イベルタル
   ndex: 717
   sprite: 717
-  refs: *id172
-  remark: 与大村祐介合作
-  remark_en: w/ Yūsuke Ōmura
-  designer: sugimori
-  designer_name: 杉森建
+  refs: *id205
+  supp: true
+  role: 合作
+  remark: 杉森建起稿后接手完成
+  designer: ohmura
+  designer_name: 大村祐介
 - en: Grubbin
   zh: 强颚鸡母虫
   ja: アゴジムシ
   ndex: 736
   sprite: 736
-  refs: *id173
+  refs: *id206
   designer: ariga
   designer_name: ありがひとし
 - en: Charjabug
@@ -7121,7 +8061,7 @@ dex:
   ja: デンヂムシ
   ndex: 737
   sprite: 737
-  refs: *id174
+  refs: *id207
   designer: ariga
   designer_name: ありがひとし
 - en: Vikavolt
@@ -7129,7 +8069,7 @@ dex:
   ja: クワガノン
   ndex: 738
   sprite: 738
-  refs: *id175
+  refs: *id208
   designer: ariga
   designer_name: ありがひとし
 - en: Morelull
@@ -7137,7 +8077,7 @@ dex:
   ja: ネマシュ
   ndex: 755
   sprite: 755
-  refs: *id176
+  refs: *id209
   unsure: true
   designer: tsuruta
   designer_name: つるたさや
@@ -7146,7 +8086,7 @@ dex:
   ja: グソクムシャ
   ndex: 768
   sprite: 768
-  refs: *id177
+  refs: *id210
   designer: nabana
   designer_name: 菜花健作
 - en: Minior
@@ -7154,7 +8094,7 @@ dex:
   ja: メテノ
   ndex: 774
   sprite: 774
-  refs: *id178
+  refs: *id211
   designer: ariga
   designer_name: ありがひとし
 - en: Mimikyu
@@ -7162,7 +8102,7 @@ dex:
   ja: ミミッキュ
   ndex: 778
   sprite: 778
-  refs: *id179
+  refs: *id212
   designer: mizutani
   designer_name: 水谷恵
 - en: Bruxish
@@ -7170,7 +8110,7 @@ dex:
   ja: ハギギシリ
   ndex: 779
   sprite: 779
-  refs: *id180
+  refs: *id213
   remark: 定稿；原案出自一位「女性设计师」
   remark_en: finalized design; original by 'female designer'
   designer: turner
@@ -7180,7 +8120,7 @@ dex:
   ja: ジジーロン
   ndex: 780
   sprite: 780
-  refs: *id181
+  refs: *id214
   designer: ariga
   designer_name: ありがひとし
 - en: Mega Drampa
@@ -7188,8 +8128,8 @@ dex:
   ja: メガジジーロン
   ndex: 780
   sprite: 780
-  refs: *id182
   form: 超级进化
+  refs: *id215
   designer: ariga
   designer_name: ありがひとし
 - en: Buzzwole
@@ -7197,7 +8137,16 @@ dex:
   ja: マッシブーン
   ndex: 794
   sprite: 794
-  refs: *id183
+  refs: *id216
+  designer: turner
+  designer_name: James Turner
+- en: Guzzlord
+  zh: 恶食大王
+  ja: アクジキング
+  ndex: 799
+  sprite: 799
+  refs: *id217
+  supp: true
   designer: turner
   designer_name: James Turner
 - en: Necrozma
@@ -7205,7 +8154,7 @@ dex:
   ja: ネクロズマ
   ndex: 800
   sprite: 800
-  refs: *id184
+  refs: *id218
   remark: 草案，由 Game Freak 定稿
   remark_en: draft design, finished by Game Freak
   designer: ariga
@@ -7215,8 +8164,8 @@ dex:
   ja: ウルトラネクロズマ
   ndex: 800
   sprite: 800
-  refs: *id185
   form: 究极
+  refs: *id219
   remark: 团队合作
   remark_en: as part of a team
   designer: ariga
@@ -7226,7 +8175,7 @@ dex:
   ja: ベベノム
   ndex: 803
   sprite: 803
-  refs: *id186
+  refs: *id220
   designer: turner
   designer_name: James Turner
 - en: Naganadel
@@ -7234,15 +8183,24 @@ dex:
   ja: アーゴヨン
   ndex: 804
   sprite: 804
-  refs: *id187
+  refs: *id221
   designer: turner
   designer_name: James Turner
+- en: Zeraora
+  zh: 捷拉奥拉
+  ja: ゼラオラ
+  ndex: 807
+  sprite: 807
+  refs: *id222
+  supp: true
+  designer: unno
+  designer_name: 海野隆雄
 - en: Rookidee
   zh: 稚山雀
   ja: ココガラ
   ndex: 821
   sprite: 821
-  refs: *id188
+  refs: *id223
   designer: ariga
   designer_name: ありがひとし
 - en: Corvisquire
@@ -7250,7 +8208,7 @@ dex:
   ja: アオガラス
   ndex: 822
   sprite: 822
-  refs: *id189
+  refs: *id224
   designer: ariga
   designer_name: ありがひとし
 - en: Corviknight
@@ -7258,7 +8216,7 @@ dex:
   ja: アーマーガア
   ndex: 823
   sprite: 823
-  refs: *id190
+  refs: *id225
   designer: ariga
   designer_name: ありがひとし
 - en: Toxel
@@ -7266,7 +8224,7 @@ dex:
   ja: エレズン
   ndex: 848
   sprite: 848
-  refs: *id191
+  refs: *id226
   designer: kozaki
   designer_name: コザキユースケ
 - en: Toxtricity
@@ -7274,15 +8232,34 @@ dex:
   ja: ストリンダー
   ndex: 849
   sprite: 849
-  refs: *id192
+  refs: *id227
   designer: kozaki
   designer_name: コザキユースケ
+- en: Sizzlipede
+  zh: 烧火蚣
+  ja: ヤクデ
+  ndex: 850
+  sprite: 850
+  refs: *id228
+  supp: true
+  designer: turner
+  designer_name: James Turner
 - en: Centiskorch
   zh: 焚焰蚣
   ja: マルヤクデ
   ndex: 851
   sprite: 851
-  refs: *id193
+  refs: *id229
+  designer: turner
+  designer_name: James Turner
+- en: Gigantamax Centiskorch
+  zh: 超极巨化焚焰蚣
+  ja: マルヤクデ（キョダイマックスのすがた）
+  ndex: 851
+  sprite: 851
+  form: 超极巨化
+  refs: *id230
+  supp: true
   designer: turner
   designer_name: James Turner
 - en: Sinistea
@@ -7290,7 +8267,7 @@ dex:
   ja: ヤバチャ
   ndex: 854
   sprite: 854
-  refs: *id194
+  refs: *id231
   designer: turner
   designer_name: James Turner
 - en: Polteageist
@@ -7298,7 +8275,7 @@ dex:
   ja: ポットデス
   ndex: 855
   sprite: 855
-  refs: *id195
+  refs: *id232
   designer: turner
   designer_name: James Turner
 - en: Obstagoon
@@ -7306,15 +8283,24 @@ dex:
   ja: タチフサグマ
   ndex: 862
   sprite: 862
-  refs: *id196
+  refs: *id233
   designer: turner
   designer_name: James Turner
+- en: Alcremie
+  zh: 霜奶仙
+  ja: マホイップ
+  ndex: 869
+  sprite: 869
+  refs: *id234
+  supp: true
+  designer: nishida
+  designer_name: 西田敦子
 - en: Falinks
   zh: 列阵兵
   ja: タイレーツ
   ndex: 870
   sprite: 870
-  refs: *id197
+  refs: *id235
   designer: kozaki
   designer_name: コザキユースケ
 - en: Indeedee
@@ -7322,7 +8308,7 @@ dex:
   ja: イエッサン
   ndex: 876
   sprite: 876
-  refs: *id198
+  refs: *id236
   designer: tsuruta
   designer_name: つるたさや
 - en: Dracozolt
@@ -7330,7 +8316,7 @@ dex:
   ja: パッチラゴン
   ndex: 880
   sprite: 880
-  refs: *id199
+  refs: *id237
   designer: ariga
   designer_name: ありがひとし
 - en: Arctozolt
@@ -7338,7 +8324,7 @@ dex:
   ja: パッチルドン
   ndex: 881
   sprite: 881
-  refs: *id200
+  refs: *id238
   designer: ariga
   designer_name: ありがひとし
 - en: Dracovish
@@ -7346,7 +8332,7 @@ dex:
   ja: ウオノラゴン
   ndex: 882
   sprite: 882
-  refs: *id201
+  refs: *id239
   designer: ariga
   designer_name: ありがひとし
 - en: Arctovish
@@ -7354,7 +8340,7 @@ dex:
   ja: ウオチルドン
   ndex: 883
   sprite: 883
-  refs: *id202
+  refs: *id240
   designer: ariga
   designer_name: ありがひとし
 - en: Zacian
@@ -7362,7 +8348,7 @@ dex:
   ja: ザシアン
   ndex: 888
   sprite: 888
-  refs: *id203
+  refs: *id241
   designer: ohmura
   designer_name: 大村祐介
 - en: Zamazenta
@@ -7370,7 +8356,7 @@ dex:
   ja: ザマゼンタ
   ndex: 889
   sprite: 889
-  refs: *id204
+  refs: *id242
   designer: ohmura
   designer_name: 大村祐介
 - en: Kubfu
@@ -7378,7 +8364,7 @@ dex:
   ja: ダクマ
   ndex: 891
   sprite: 891
-  refs: *id205
+  refs: *id243
   designer: ohmura
   designer_name: 大村祐介
 - en: Urshifu
@@ -7386,7 +8372,7 @@ dex:
   ja: ウーラオス
   ndex: 892
   sprite: 892
-  refs: *id206
+  refs: *id244
   designer: ohmura
   designer_name: 大村祐介
 - en: Sneasler
@@ -7394,7 +8380,7 @@ dex:
   ja: オオニューラ
   ndex: 903
   sprite: 903
-  refs: *id207
+  refs: *id245
   designer: ariga
   designer_name: ありがひとし
 - en: Pawmi
@@ -7402,7 +8388,7 @@ dex:
   ja: パモ
   ndex: 921
   sprite: 921
-  refs: *id208
+  refs: *id246
   designer: nishida
   designer_name: 西田敦子
 - en: Pawmo
@@ -7410,7 +8396,7 @@ dex:
   ja: パモット
   ndex: 922
   sprite: 922
-  refs: *id209
+  refs: *id247
   designer: nishida
   designer_name: 西田敦子
 - en: Pawmot
@@ -7418,7 +8404,7 @@ dex:
   ja: パーモット
   ndex: 923
   sprite: 923
-  refs: *id210
+  refs: *id248
   designer: nishida
   designer_name: 西田敦子
 - en: Tandemaus
@@ -7426,7 +8412,7 @@ dex:
   ja: ワッカネズミ
   ndex: 924
   sprite: 924
-  refs: *id211
+  refs: *id249
   designer: mizutani
   designer_name: 水谷恵
 - en: Maushold
@@ -7434,15 +8420,33 @@ dex:
   ja: イッカネズミ
   ndex: 925
   sprite: 925
-  refs: *id212
+  refs: *id250
   designer: mizutani
   designer_name: 水谷恵
+- en: Fidough
+  zh: 狗仔包
+  ja: パピモッチ
+  ndex: 926
+  sprite: 926
+  refs: *id251
+  supp: true
+  designer: mari-shimazaki
+  designer_name: 島崎麻里
+- en: Dachsbun
+  zh: 麻花犬
+  ja: バウッツェル
+  ndex: 927
+  sprite: 927
+  refs: *id252
+  supp: true
+  designer: mari-shimazaki
+  designer_name: 島崎麻里
 - en: Nacli
   zh: 盐石宝
   ja: コジオ
   ndex: 932
   sprite: 932
-  refs: *id213
+  refs: *id253
   designer: ariga
   designer_name: ありがひとし
 - en: Naclstack
@@ -7450,7 +8454,7 @@ dex:
   ja: ジオヅム
   ndex: 933
   sprite: 933
-  refs: *id214
+  refs: *id254
   designer: ariga
   designer_name: ありがひとし
 - en: Garganacl
@@ -7458,7 +8462,7 @@ dex:
   ja: キョジオーン
   ndex: 934
   sprite: 934
-  refs: *id215
+  refs: *id255
   designer: ariga
   designer_name: ありがひとし
 - en: Charcadet
@@ -7466,7 +8470,7 @@ dex:
   ja: カルボウ
   ndex: 935
   sprite: 935
-  refs: *id216
+  refs: *id256
   designer: kitakaze
   designer_name: 北風友裕
 - en: Armarouge
@@ -7474,7 +8478,7 @@ dex:
   ja: グレンアルマ
   ndex: 936
   sprite: 936
-  refs: *id217
+  refs: *id257
   designer: kitakaze
   designer_name: 北風友裕
 - en: Ceruledge
@@ -7482,7 +8486,7 @@ dex:
   ja: ソウブレイズ
   ndex: 937
   sprite: 937
-  refs: *id218
+  refs: *id258
   designer: kitakaze
   designer_name: 北風友裕
 - en: Tadbulb
@@ -7490,7 +8494,7 @@ dex:
   ja: ズピカ
   ndex: 938
   sprite: 938
-  refs: *id219
+  refs: *id259
   designer: nishida
   designer_name: 西田敦子
 - en: Bellibolt
@@ -7498,7 +8502,7 @@ dex:
   ja: ハラバリー
   ndex: 939
   sprite: 939
-  refs: *id220
+  refs: *id260
   designer: nishida
   designer_name: 西田敦子
 - en: Flittle
@@ -7506,7 +8510,7 @@ dex:
   ja: ヒラヒナ
   ndex: 955
   sprite: 955
-  refs: *id221
+  refs: *id261
   designer: nishida
   designer_name: 西田敦子
 - en: Espathra
@@ -7514,7 +8518,7 @@ dex:
   ja: クエスパトラ
   ndex: 956
   sprite: 956
-  refs: *id222
+  refs: *id262
   designer: ariga
   designer_name: ありがひとし
 - en: Tinkatink
@@ -7522,7 +8526,7 @@ dex:
   ja: カヌチャン
   ndex: 957
   sprite: 957
-  refs: *id223
+  refs: *id263
   designer: mizutani
   designer_name: 水谷恵
 - en: Tinkatuff
@@ -7530,7 +8534,7 @@ dex:
   ja: ナカヌチャン
   ndex: 958
   sprite: 958
-  refs: *id224
+  refs: *id264
   designer: mizutani
   designer_name: 水谷恵
 - en: Tinkaton
@@ -7538,7 +8542,7 @@ dex:
   ja: デカヌチャン
   ndex: 959
   sprite: 959
-  refs: *id225
+  refs: *id265
   designer: mizutani
   designer_name: 水谷恵
 - en: Varoom
@@ -7546,7 +8550,7 @@ dex:
   ja: ブロロン
   ndex: 965
   sprite: 965
-  refs: *id226
+  refs: *id266
   designer: kozaki
   designer_name: コザキユースケ
 - en: Revavroom
@@ -7554,7 +8558,7 @@ dex:
   ja: ブロロローム
   ndex: 966
   sprite: 966
-  refs: *id227
+  refs: *id267
   designer: kozaki
   designer_name: コザキユースケ
 - en: Greavard
@@ -7562,7 +8566,7 @@ dex:
   ja: ボチ
   ndex: 971
   sprite: 971
-  refs: *id228
+  refs: *id268
   designer: kurashima
   designer_name: 倉島一幸
 - en: Houndstone
@@ -7570,7 +8574,7 @@ dex:
   ja: ハカドッグ
   ndex: 972
   sprite: 972
-  refs: *id229
+  refs: *id269
   designer: kurashima
   designer_name: 倉島一幸
 - en: Cetoddle
@@ -7578,7 +8582,7 @@ dex:
   ja: アルクジラ
   ndex: 974
   sprite: 974
-  refs: *id230
+  refs: *id270
   designer: kozaki
   designer_name: コザキユースケ
 - en: Cetitan
@@ -7586,15 +8590,34 @@ dex:
   ja: ハルクジラ
   ndex: 975
   sprite: 975
-  refs: *id231
+  refs: *id271
   designer: kozaki
   designer_name: コザキユースケ
+- en: Dondozo
+  zh: 吃吼霸
+  ja: ヘイラッシャ
+  ndex: 977
+  sprite: 977
+  refs: *id272
+  supp: true
+  designer: turner
+  designer_name: James Turner
+- en: Tatsugiri
+  zh: 米立龙
+  ja: シャリタツ
+  ndex: 978
+  sprite: 978
+  refs: *id273
+  supp: true
+  remark: 三种样子
+  designer: turner
+  designer_name: James Turner
 - en: Flutter Mane
   zh: 振翼发
   ja: ハバタクカミ
   ndex: 987
   sprite: 987
-  refs: *id232
+  refs: *id274
   designer: ariga
   designer_name: ありがひとし
 - en: Ogerpon
@@ -7602,7 +8625,7 @@ dex:
   ja: オーガポン
   ndex: 1017
   sprite: 1017
-  refs: *id233
+  refs: *id275
   designer: ariga
   designer_name: ありがひとし
 sources:
@@ -7695,6 +8718,8 @@ sources:
     designer: tanoue
   - zh: 宝包茧
     designer: tanoue
+  - zh: 虫宝包
+    designer: tanoue
   post: 2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers
 - n: 9
   text: Nintendo Dream vol. 187 interview
@@ -7766,6 +8791,10 @@ sources:
     designer: sugimori
   - zh: 仙子伊布
     designer: nishida
+  - zh: 哲尔尼亚斯
+    designer: ohmura
+  - zh: 伊裴尔塔尔
+    designer: ohmura
   post: 2013-10-24-interview-onm-xy-sugimori
 - n: 14
   text: ''
@@ -7870,6 +8899,12 @@ sources:
   - url: http://www.serebiiforums.com/showthread.php?467053-Official-Pokemon-Discussion-Thread&p=11993403#post11993403
     label: serebiiforums.com/showthread.php?467053-Official-Pokemon-Disc…
   used:
+  - zh: 齿轮儿
+    designer: sugimori
+  - zh: 齿轮组
+    designer: sugimori
+  - zh: 齿轮怪
+    designer: sugimori
   - zh: 木棉球
     designer: nishida
   - zh: 风妖精
@@ -7948,6 +8983,10 @@ sources:
     designer: ohmura
   - zh: 大剑鬼
     designer: ohmura
+  - zh: 莱希拉姆
+    designer: moritsugu
+  - zh: 捷克罗姆
+    designer: moritsugu
   - zh: 暖暖猪
     designer: hyunjung
   - zh: 炒炒猪
@@ -8103,6 +9142,8 @@ sources:
   - zh: 爆肌蚊
     designer: turner
   - zh: 毒贝比
+    designer: turner
+  - zh: 恶食大王
     designer: turner
 - n: 32
   text: ''
@@ -8334,6 +9375,10 @@ sources:
     label: shmuplations.com/pokemon/
   used:
   - zh: 未知图腾
+    designer: sugimori
+  - zh: 钻角犀兽
+    designer: sugimori
+  - zh: 尼多王
     designer: sugimori
 - n: 50
   text: ''

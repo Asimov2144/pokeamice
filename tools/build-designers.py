@@ -82,10 +82,13 @@ REMARK_ZH = {
 }
 # 地区形态 → PokeAPI 形态号（与 App 的 src/pokemonForms.ts 同一套）
 REGIONAL = {
-    "Alolan": ("阿罗拉", {74: 10109, 75: 10110, 76: 10111, 88: 10112, 89: 10113}),
-    "Galarian": ("伽勒尔", {263: 10174}),
+    "Alolan": ("阿罗拉", {26: 10100, 74: 10109, 75: 10110, 76: 10111, 88: 10112, 89: 10113, 103: 10114}),
+    "Galarian": ("伽勒尔", {263: 10174, 264: 10175}),
     "Hisuian": ("洗翠", {58: 10229, 59: 10230, 215: 10235, 570: 10238, 571: 10239}),
+    "Paldean": ("帕底亚", {128: 10250}),          # 斗战种；三个种类共用一格
 }
+SUPPLEMENT = ROOT / "archive" / "designers" / "supplement.yml"
+ROLE_ZH = {"co": "合作", "idea": "构想", "draft": "初稿", "colors": "配色"}
 # 原表出处 → 站内已收的同一篇（文件名不带 .md；只收确认是同一来源的）
 SOURCE_POSTS = {
     3: "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew",
@@ -195,6 +198,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--species", default="P:/WEBSITE/.cache/52poke-out/species.lite.json")
     ap.add_argument("--sprites", default="P:/WEBSITE/pokeamice/Pokeamice_app/public/pokemon-sprites")
+    # App 那套里没有的形态（如阿罗拉椰蛋树 10114），从 PokeAPI/sprites 同一套补到这里
+    ap.add_argument("--extra-sprites", default="P:/WEBSITE/.cache/designers-research/sprites")
     ap.add_argument("--report", action="store_true", help="只打印核对结果，不写文件")
     args = ap.parse_args()
     if hasattr(sys.stdout, "reconfigure"):
@@ -245,32 +250,40 @@ def main():
         uniq.sort(key=lambda p: (-len(design_credits(p)), -len(p.get("credits", []))))
         return uniq[0] if uniq else None, len(uniq)
 
-    def pokemon(item):
-        name = NAME_FIX.get(item["name"], item["name"])
-        prefix, form_zh, sprite = "", "", None
-        m = re.match(r"(Mega|Ultra|Alolan|Galarian|Hisuian) (.+?)( [XY])?$", name)
+    def resolve(name):
+        """英文名（可带形态前缀）→ 中日名、图鉴号、精灵图号。"""
+        m = re.match(r"(Mega|Ultra|Alolan|Galarian|Hisuian|Paldean|Gigantamax|Shadow) (.+?)( [XY])?$", name)
         base = m.group(2) if m else name
         sp = by_en.get(base)
         if not sp:
             raise SystemExit(f"宝可梦名对不上 52poke：{name!r}")
         nd = sp["ndex"]
-        zh, ja = sp["name"]["zh"], sp["name"]["ja"]
+        zh, ja, form_zh, sprite = sp["name"]["zh"], sp["name"]["ja"], "", nd
         if m:
             kind, xy = m.group(1), (m.group(3) or "").strip()
             if kind == "Mega":
                 zh, ja, form_zh = f"超级{zh}{xy}", f"メガ{ja}{xy}", "超级进化"
             elif kind == "Ultra":
                 zh, ja, form_zh = f"究极{zh}", f"ウルトラ{ja}", "究极"
+            elif kind == "Gigantamax":
+                zh, ja, form_zh = f"超极巨化{zh}", f"{ja}（キョダイマックスのすがた）", "超极巨化"
+            elif kind == "Shadow":
+                zh, ja, form_zh = f"暗影{zh}", f"ダーク{ja}", "暗影"
             else:
                 region, ids = REGIONAL[kind]
                 zh, form_zh = f"{region}{zh}", f"{region}的样子"
-                ja = f"{ja}（{ {'Alolan': 'アローラ', 'Galarian': 'ガラル', 'Hisuian': 'ヒスイ'}[kind]}のすがた）"
+                ja = f"{ja}（{ {'Alolan': 'アローラ', 'Galarian': 'ガラル', 'Hisuian': 'ヒスイ', 'Paldean': 'パルデア'}[kind]}のすがた）"
                 sprite = ids[nd]
-        remark = item["remark"]
-        unsure = remark == "?" or not item["refs"]
-        out = {"en": name, "zh": zh, "ja": ja, "ndex": nd, "sprite": sprite or nd, "refs": item["refs"]}
+        out = {"en": name, "zh": zh, "ja": ja, "ndex": nd, "sprite": sprite}
         if form_zh:
             out["form"] = form_zh
+        return out
+
+    def pokemon(item):
+        name = NAME_FIX.get(item["name"], item["name"])
+        remark = item["remark"]
+        unsure = remark == "?" or not item["refs"]
+        out = dict(resolve(name), refs=item["refs"])
         if remark and remark != "?":
             if remark not in REMARK_ZH:
                 raise SystemExit(f"原表括注没有中文：{remark!r}")
@@ -347,6 +360,43 @@ def main():
     extra.sort(key=lambda e: (min(g["gen"] for g in e["gens"] if g["games"]), e["en"]))
 
     unknown = [pokemon(i) for i in lists.get("unknown-a", [])]
+
+    # 补充条目（archive/designers/supplement.yml）：排在各人原表条目之后，出处编号 S1、S2…（原表出处写 gf<N> 的直接用 N）
+    supp = yaml.safe_load(SUPPLEMENT.read_text(encoding="utf-8"))
+    by_name = {d["en"]: d for d in designers}
+    supp_sources, sid = [], {}
+    for e in supp["entries"]:
+        d = by_name.get(e["designer"])
+        if not d:
+            raise SystemExit(f"补充条目的设计者不在原表里：{e['designer']}")
+        refs = []
+        for k in e["sources"]:
+            if re.fullmatch(r"gf\d+", k):
+                refs.append(int(k[2:]))
+                continue
+            if k not in supp["sources"]:
+                raise SystemExit(f"补充条目引用了没登记的出处：{k}")
+            if k not in sid:
+                sid[k] = f"S{len(sid) + 1}"
+                s = dict(supp["sources"][k], id=sid[k])
+                if s.get("post") and not (ROOT / "_posts" / f"{s['post']}.md").exists():
+                    raise SystemExit(f"补充出处 {k} 对应的帖子不存在：{s['post']}")
+                supp_sources.append(s)
+            refs.append(sid[k])
+        p = dict(resolve(f"{e['form']} {e['pokemon']}" if e.get("form") else e["pokemon"]), refs=refs, supp=True)
+        if e.get("role") in ROLE_ZH:
+            p["role"] = ROLE_ZH[e["role"]]
+        if e.get("remark"):
+            p["remark"] = e["remark"]
+        if e.get("unsure"):
+            p["unsure"] = True
+        d["pokemon"].append(p)
+    for a in supp.get("annotate", []):
+        hit = [p for p in by_name[a["designer"]]["pokemon"] if p["en"] == a["pokemon"] and not p.get("supp")]
+        if not hit:
+            raise SystemExit(f"annotate 对不上原表条目：{a}")
+        hit[0]["note"] = a["remark"]
+
     used = defaultdict(list)          # 出处 → 引了它的宝可梦（出处列表里反查用）
     for d in designers:
         for p in d["pokemon"]:
@@ -360,6 +410,8 @@ def main():
                 raise SystemExit(f"出处 {s['n']} 对应的帖子不存在：{s['post']}")
         if s["n"] in SOURCE_ZH:
             s["zh"] = SOURCE_ZH[s["n"]]
+    for s in supp_sources:
+        s["used"] = used.get(s["id"], [])
 
     # 按图鉴号的一览：同一只宝可梦（含形态）一行，列出设计者
     dex = []
@@ -376,17 +428,18 @@ def main():
         print(f"\n名单里有宝可梦设计署名、原表没收：{len(extra)} 人")
         for e in extra:
             print("  ", e["en"], e["ja"], e.get("person", ""), [g["short"] for x in e["gens"] for g in x["games"]])
+        print(f"\n补充条目 {len(supp['entries'])} 条、补充出处 {len(supp_sources)} 条、原表条目加注 {len(supp.get('annotate', []))} 条")
         return
 
     sprites = sorted({p["sprite"] for p in dex})
     SPRITE_DIR.mkdir(parents=True, exist_ok=True)
     missing = []
-    for sid in sprites:
-        f = Path(args.sprites) / f"{sid}.png"
-        if f.exists():
+    for num in sprites:
+        f = next((Path(d) / f"{num}.png" for d in (args.sprites, args.extra_sprites) if (Path(d) / f"{num}.png").exists()), None)
+        if f:
             shutil.copyfile(f, SPRITE_DIR / f.name)
         else:
-            missing.append(sid)
+            missing.append(num)
     if missing:
         raise SystemExit(f"缺精灵图：{missing}")
 
@@ -396,6 +449,9 @@ def main():
                    "fetched": SNAPSHOT_DATE, "updated": changelog[0]["date"] if changelog else ""},
         # 世代表的格子数：两边一致 / 只有名单 / 只有原表（页面导语和图例按这个说话）
         "cells": {s: states.count(s) for s in ("both", "credits", "gf")},
+        "supp_count": len(supp["entries"]),
+        "supp_sources": supp_sources,
+        "rejected": supp.get("rejected", []),
         "sprite_base": SPRITE_URL,
         "gens": [{"gen": n, "games": [{"game": s, "short": SHORT[s], "title": games[s]["title_zh"]} for s in slugs]}
                  for n, slugs in GENS],
