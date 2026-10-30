@@ -111,6 +111,7 @@ search: false
 <a href="/entities/works/e5ae87e5ae99e5b7a1e888aae69cba/"><strong>宇宙巡航机</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae87e5ae99e68898e888b0e5a4a7e5928ce58fb7/"><strong>宇宙战舰大和号</strong><span>1 条资料</span></a>
 <a href="/entities/works/dvd/"><strong>宝冢DVD</strong><span>1 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe4b990e59bad+e585b3e4b89c/"><strong>宝可乐园 关东</strong><span>1 条资料</span></a>
 <a href="/entities/works/pokk-n-tournament/"><strong>宝可拳 POKKÉN TOURNAMENT</strong><span>2 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6/"><strong>宝可梦</strong><span>3 条资料</span></a>
 <a href="/entities/works/ar/"><strong>宝可梦 AR 搜寻器</strong><span>3 条资料</span></a>

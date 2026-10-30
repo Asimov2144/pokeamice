@@ -1,4 +1,10 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-10-30'
+  count: 1
+  types:
+    访谈翻译: 1
+  posts:
+  - 2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda
 - date: '2026-10-28'
   count: 8
   types:

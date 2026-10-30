@@ -187,7 +187,7 @@ search: false
 <a href="/entities/people/e59fbae58aaac2b7e9878ce7bbb4e696af/"><strong>基努·里维斯</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5a194e5b0bce4bb80e58d9ae5a3ab/"><strong>塔尼什博士</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5a19ae794b0e68b93e5ae9f/"><strong>塚田拓実</strong><span>1 条资料</span></a>
-<a href="/entities/people/e5a29ee794b0e9a1bae4b880/"><strong>增田顺一</strong><span>639 条资料</span></a>
+<a href="/entities/people/e5a29ee794b0e9a1bae4b880/"><strong>增田顺一</strong><span>640 条资料</span></a>
 <a href="/entities/people/e5a49ae5928ce794b0e5908f/"><strong>多和田吏</strong><span>2 条资料</span></a>
 <a href="/entities/people/e5a4a7e4bd9be6aca1e9838e/"><strong>大佛次郎</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5a4a7e5a588e8b7afe381bee3828ae381aa/"><strong>大奈路まりな</strong><span>1 条资料</span></a>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:15:16+09:00",
+  "generated_at": "2026-10-30T17:09:16+09:00",
   "entities": {
     "people": {
       "田尻智": {
@@ -2169,6 +2169,24 @@
         "url": "/entities/people/e5a29ee794b0e9a1bae4b880/",
         "posts": [
           {
+            "id": "f562297244",
+            "title": "读卖新闻 2025：增田顺一谈宝可乐园 关东的构想与讲究",
+            "url": "/访谈翻译/翻译/访谈整理/interview-yomiuri-2025-pokepark-kanto-masuda/",
+            "date": "2025-07-22",
+            "year": "2025",
+            "source": "「いつでもポケモンに会える」「手をのばせば実際に触れる」場所にこだわり…増田順一・チーフ・クリエイティブ・フェロー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可乐园 关东"
+              ]
+            }
+          },
+          {
             "id": "1b150f6f00",
             "title": "[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎",
             "url": "/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/",
@@ -2563,29 +2581,6 @@
             }
           },
           {
-            "id": "0cac636dcf",
-            "title": "[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
-            "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/",
-            "date": "2018-06-08",
-            "year": "2018",
-            "source": "『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "川岛优志",
-                "石原恒和",
-                "约翰·汉克",
-                "野村达雄"
-              ],
-              "works": [
-                "Pokémon GO",
-                "Ingress"
-              ]
-            }
-          },
-          {
             "id": "d3b08b44be",
             "title": "[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
             "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/",
@@ -2607,6 +2602,29 @@
                 "Ingress",
                 "宝可梦 红·绿",
                 "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+              ]
+            }
+          },
+          {
+            "id": "0cac636dcf",
+            "title": "[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
+            "url": "/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/",
+            "date": "2018-06-08",
+            "year": "2018",
+            "source": "『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "川岛优志",
+                "石原恒和",
+                "约翰·汉克",
+                "野村达雄"
+              ],
+              "works": [
+                "Pokémon GO",
+                "Ingress"
               ]
             }
           },
@@ -2937,25 +2955,6 @@
             }
           },
           {
-            "id": "5bdfe423a8",
-            "title": "【活动】2017年超梦现身横滨",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-9293972/",
-            "date": "2017-08-17",
-            "year": "2017",
-            "source": "増田順一 公式ブログ · ミュウツー",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"皮卡丘大量出现中</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"8月14日</div <div class=\"gf-lineblog-line gf-lineblog-line--",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "bdf9ba09d8",
             "title": "[访谈翻译] Game Informer 独家专访：增田顺一谈初代动画——“我们起初并不确定它能否成功”与大谷育江皮卡丘之声的诞生",
             "url": "/访谈翻译/翻译/访谈整理/interview-game-informer-creators-on-pokemon-anime/",
@@ -2976,22 +2975,21 @@
             }
           },
           {
-            "id": "82fe49ca9f",
-            "title": "Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品",
-            "url": "/访谈翻译/翻译/访谈整理/interview-gi-2017-spinoffs/",
-            "date": "2017-08-15",
+            "id": "5bdfe423a8",
+            "title": "【活动】2017年超梦现身横滨",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-9293972/",
+            "date": "2017-08-17",
             "year": "2017",
-            "source": "Game Freak's Directors Share Their Favorite Pokémon Spin-Offs",
-            "type": "interview_translation",
-            "excerpt": "",
+            "source": "増田順一 公式ブログ · ミュウツー",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"皮卡丘大量出现中</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"8月14日</div <div class=\"gf-lineblog-line gf-lineblog-line--",
             "entities": {
               "people": [
-                "增田顺一",
-                "大森滋"
+                "增田顺一"
               ],
-              "works": [
-                "Pokémon GO",
-                "宝可梦随乐拍"
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
               ]
             }
           },
@@ -3011,6 +3009,26 @@
               "organizations": [
                 "Game Freak",
                 "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "82fe49ca9f",
+            "title": "Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品",
+            "url": "/访谈翻译/翻译/访谈整理/interview-gi-2017-spinoffs/",
+            "date": "2017-08-15",
+            "year": "2017",
+            "source": "Game Freak's Directors Share Their Favorite Pokémon Spin-Offs",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "works": [
+                "Pokémon GO",
+                "宝可梦随乐拍"
               ]
             }
           },
@@ -3663,26 +3681,6 @@
             }
           },
           {
-            "id": "5d5d898237",
-            "title": "[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
-            "url": "/访谈翻译/翻译/访谈整理/interview-reportajes/",
-            "date": "2016-12-12",
-            "year": "2016",
-            "source": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "大森滋"
-              ],
-              "organizations": [
-                "Game Freak",
-                "Nintendo"
-              ]
-            }
-          },
-          {
             "id": "57e61e37cd",
             "title": "MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”",
             "url": "/interview-meristation-sun-moon-switch-masuda-ohmori/",
@@ -3699,6 +3697,26 @@
               "works": [
                 "宝可梦 钻石·珍珠",
                 "宝可梦 太阳·月亮"
+              ]
+            }
+          },
+          {
+            "id": "5d5d898237",
+            "title": "[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+            "url": "/访谈翻译/翻译/访谈整理/interview-reportajes/",
+            "date": "2016-12-12",
+            "year": "2016",
+            "source": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "大森滋"
+              ],
+              "organizations": [
+                "Game Freak",
+                "Nintendo"
               ]
             }
           },
@@ -4032,6 +4050,25 @@
             }
           },
           {
+            "id": "b0b5d8926e",
+            "title": "【活动】2016年火箭队入团日",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8198401/",
+            "date": "2016-10-16",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · R",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天　我们为了加入火箭队</div <div class=\"gf-lineblog-line gf-lineblog-line",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "f6fdf9d24f",
             "title": "【日记】2016年晴空塔后台",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8216041/",
@@ -4078,25 +4115,6 @@
             "source": "増田順一 公式ブログ · ポケモンセンタースカイツリータウンまもなくサイン会！",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"20周年签名会的最后一场</div <div class=\"gf-lineblog-line gf-lineblog-line",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "b0b5d8926e",
-            "title": "【活动】2016年火箭队入团日",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8198401/",
-            "date": "2016-10-16",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · R",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天　我们为了加入火箭队</div <div class=\"gf-lineblog-line gf-lineblog-line",
             "entities": {
               "people": [
                 "增田顺一"
@@ -4784,14 +4802,14 @@
             }
           },
           {
-            "id": "7c931a0462",
-            "title": "【活动】2016年日本博览会见闻",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4836338/",
+            "id": "c9cadfabdb",
+            "title": "【日记】2016年法国初体验",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4849768/",
             "date": "2016-07-09",
             "year": "2016",
-            "source": "増田順一 公式ブログ · Japan Expo見学！",
+            "source": "増田順一 公式ブログ · 初めて！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"昨天</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"活",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"这次的法国</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
             "entities": {
               "people": [
                 "增田顺一"
@@ -4803,14 +4821,14 @@
             }
           },
           {
-            "id": "c9cadfabdb",
-            "title": "【日记】2016年法国初体验",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4849768/",
+            "id": "7c931a0462",
+            "title": "【活动】2016年日本博览会见闻",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4836338/",
             "date": "2016-07-09",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 初めて！",
+            "source": "増田順一 公式ブログ · Japan Expo見学！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"这次的法国</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"昨天</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"活",
             "entities": {
               "people": [
                 "增田顺一"
@@ -4860,6 +4878,25 @@
             }
           },
           {
+            "id": "f229f539e8",
+            "title": "【日记】2016年宝可梦与法国",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4758930/",
+            "date": "2016-07-06",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · カロス地方",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"《宝可梦 X・Y》的</div <div class=\"gf-lineblog-line gf-lineblog-line--",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "ca504318a7",
             "title": "【创作】2016年棱镜塔设计随笔",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4768508/",
@@ -4879,14 +4916,14 @@
             }
           },
           {
-            "id": "f229f539e8",
-            "title": "【日记】2016年宝可梦与法国",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4758930/",
-            "date": "2016-07-06",
+            "id": "d1628d2959",
+            "title": "【日记】2016法国日本动漫展出发前",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4718539/",
+            "date": "2016-07-05",
             "year": "2016",
-            "source": "増田順一 公式ブログ · カロス地方",
+            "source": "増田順一 公式ブログ · 緊張！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"《宝可梦 X・Y》的</div <div class=\"gf-lineblog-line gf-lineblog-line--",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在我一个人</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
             "entities": {
               "people": [
                 "增田顺一"
@@ -4912,25 +4949,6 @@
               ],
               "works": [
                 "宝可梦 X·Y"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "d1628d2959",
-            "title": "【日记】2016法国日本动漫展出发前",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4718539/",
-            "date": "2016-07-05",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 緊張！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在我一个人</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-            "entities": {
-              "people": [
-                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -5037,14 +5055,14 @@
             }
           },
           {
-            "id": "62bdc2a8d1",
-            "title": "【活动】2016波尔凯尼恩电影试映",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4575117/",
+            "id": "192c3158cb",
+            "title": "【日记】2016年与HAL研究所交流",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4565344/",
             "date": "2016-06-29",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ボルケニオンとマギアナ",
+            "source": "増田順一 公式ブログ · ハルさんと！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"糟糕！！</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我一直以来都受到HAL研究所各位的关照！</div <div class=\"gf-lineblog-line gf-lineb",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5056,14 +5074,14 @@
             }
           },
           {
-            "id": "192c3158cb",
-            "title": "【日记】2016年与HAL研究所交流",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4565344/",
+            "id": "62bdc2a8d1",
+            "title": "【活动】2016波尔凯尼恩电影试映",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4575117/",
             "date": "2016-06-29",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ハルさんと！",
+            "source": "増田順一 公式ブログ · ボルケニオンとマギアナ",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我一直以来都受到HAL研究所各位的关照！</div <div class=\"gf-lineblog-line gf-lineb",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"糟糕！！</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5255,6 +5273,25 @@
             }
           },
           {
+            "id": "b9ec2a77c9",
+            "title": "【日记】2016年宝可梦初始伙伴",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4284549/",
+            "date": "2016-06-18",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · キミに決めた！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 大家 《宝可梦 太阳·月亮》的 最初的3只 陪你一同踏上冒险的最初伙伴 决定好了吗？？ <br <br <br 增田 一直都很难做决定，可是…… <br <figure class=\"gf-lineblog-image\"<a href=\"/as",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "1a006335c0",
             "title": "【日记】2016年宝可梦与总选举",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4294815/",
@@ -5293,14 +5330,14 @@
             }
           },
           {
-            "id": "b9ec2a77c9",
-            "title": "【日记】2016年宝可梦初始伙伴",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4284549/",
-            "date": "2016-06-18",
+            "id": "e150202316",
+            "title": "【活动】2016年美国游戏展直播回顾",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4261374/",
+            "date": "2016-06-17",
             "year": "2016",
-            "source": "増田順一 公式ブログ · キミに決めた！",
+            "source": "増田順一 公式ブログ · 日本到着！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 大家 《宝可梦 太阳·月亮》的 最初的3只 陪你一同踏上冒险的最初伙伴 决定好了吗？？ <br <br <br 增田 一直都很难做决定，可是…… <br <figure class=\"gf-lineblog-image\"<a href=\"/as",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我回来啦！</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5331,14 +5368,14 @@
             }
           },
           {
-            "id": "e150202316",
-            "title": "【活动】2016年美国游戏展直播回顾",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4261374/",
-            "date": "2016-06-17",
+            "id": "69b3c7dce7",
+            "title": "【活动】2016年宝可梦GO亮相E3",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4216408/",
+            "date": "2016-06-16",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 日本到着！",
+            "source": "増田順一 公式ブログ · Pokémon GO",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我回来啦！</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 日本时间凌晨2点播出的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"Treehouse Live @ E3</div <div class=\"gf-lineblog-li",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5377,25 +5414,6 @@
             "source": "増田順一 公式ブログ · E3 2016",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今年的E3</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "69b3c7dce7",
-            "title": "【活动】2016年宝可梦GO亮相E3",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4216408/",
-            "date": "2016-06-16",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · Pokémon GO",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 日本时间凌晨2点播出的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"Treehouse Live @ E3</div <div class=\"gf-lineblog-li",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5508,6 +5526,25 @@
             }
           },
           {
+            "id": "654e49a966",
+            "title": "【日记】2016年台湾到旧金山",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4122260/",
+            "date": "2016-06-13",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 長い日曜日",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4122260/001-fc18416810.webp\" target=\"blank\" rel=\"n",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "d9334f66b0",
             "title": "【活动】2016洛杉矶E3直播",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4120120/",
@@ -5527,14 +5564,14 @@
             }
           },
           {
-            "id": "654e49a966",
-            "title": "【日记】2016年台湾到旧金山",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4122260/",
-            "date": "2016-06-13",
+            "id": "8563489094",
+            "title": "【活动】2016台湾宝可梦全国联赛",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4073542/",
+            "date": "2016-06-12",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 長い日曜日",
+            "source": "増田順一 公式ブログ · 台湾:シークレットゲスト",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4122260/001-fc18416810.webp\" target=\"blank\" rel=\"n",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4073542/001-09000beaa2.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5573,25 +5610,6 @@
             "source": "増田順一 公式ブログ · 台湾:可達鴨（こだや）",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"台湾的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "8563489094",
-            "title": "【活动】2016台湾宝可梦全国联赛",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4073542/",
-            "date": "2016-06-12",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 台湾:シークレットゲスト",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/4073542/001-09000beaa2.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5682,14 +5700,14 @@
             }
           },
           {
-            "id": "a005196164",
-            "title": "【活动】2016宝可梦总选举结果公布",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3991437/",
+            "id": "54ca244bef",
+            "title": "【活动】2016年GAME FREAK游戏创作讲座",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4006377/",
             "date": "2016-06-08",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 総選挙720結果発表セレモニー",
+            "source": "増田順一 公式ブログ · 「ゲームフリーク ゼミナール」開催します！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"都",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"告诉大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一个消息！</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5701,14 +5719,14 @@
             }
           },
           {
-            "id": "54ca244bef",
-            "title": "【活动】2016年GAME FREAK游戏创作讲座",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-4006377/",
+            "id": "a005196164",
+            "title": "【活动】2016宝可梦总选举结果公布",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3991437/",
             "date": "2016-06-08",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 「ゲームフリーク ゼミナール」開催します！",
+            "source": "増田順一 公式ブログ · 総選挙720結果発表セレモニー",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"告诉大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一个消息！</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"大家</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"都",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5734,6 +5752,25 @@
               ],
               "works": [
                 "宝可梦 X·Y"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "8fe29d7c67",
+            "title": "【活动】2016年宝可梦总选举",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3895109/",
+            "date": "2016-06-06",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · ポケモン総選挙セレモニー！LINE LIVEにて放送！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3895109/001-f38a90f750.webp\" target=\"blank\" rel=\"n",
+            "entities": {
+              "people": [
+                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -5769,25 +5806,6 @@
             "source": "増田順一 公式ブログ · 全国ポケモンセンターサイン会の旅",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"全国10处</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"在宝可梦中心举办的</div <div class=\"gf-lineblog-line gf-lineblog-line-",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "8fe29d7c67",
-            "title": "【活动】2016年宝可梦总选举",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3895109/",
-            "date": "2016-06-06",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモン総選挙セレモニー！LINE LIVEにて放送！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3895109/001-f38a90f750.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5875,14 +5893,14 @@
             }
           },
           {
-            "id": "7fbc2542a5",
-            "title": "【活动】2016年宝可梦日月新情报",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3864160/",
+            "id": "c2471d3934",
+            "title": "【活动】2016年宝可梦太阳月亮新情报",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/",
             "date": "2016-06-02",
             "year": "2016",
-            "source": "増田順一 公式ブログ · あと12時間（12 hours to go)",
+            "source": "増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3864160/001-155d41f1fd.webp\" target=\"blank\" rel=\"n",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 大家看了吗？ <a class=\"gf-lineblog-source-link\" href=\"http://www.pokemon.co.jp/ex/sunmoon/?a001=msign\" target=\"blank\" rel=\"noope",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5897,14 +5915,14 @@
             }
           },
           {
-            "id": "c2471d3934",
-            "title": "【活动】2016年宝可梦太阳月亮新情报",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/",
+            "id": "7fbc2542a5",
+            "title": "【活动】2016年宝可梦日月新情报",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3864160/",
             "date": "2016-06-02",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！",
+            "source": "増田順一 公式ブログ · あと12時間（12 hours to go)",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 大家看了吗？ <a class=\"gf-lineblog-source-link\" href=\"http://www.pokemon.co.jp/ex/sunmoon/?a001=msign\" target=\"blank\" rel=\"noope",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3864160/001-155d41f1fd.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -5941,6 +5959,25 @@
             }
           },
           {
+            "id": "2e973e43e0",
+            "title": "【日记】2016京都岚山学习会",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3816260/",
+            "date": "2016-05-31",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 京都勉強会 その1",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"要创造出东西</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "ff6a97b80e",
             "title": "【日记】2016京都学习会",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3828794/",
@@ -5968,25 +6005,6 @@
             "source": "増田順一 公式ブログ · Workshop in Kyoto!",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"京都是《金·银》的创作灵感来源。 <br 这是我第一次来到京都的岚山。</div <div class=\"gf-lineblo",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "2e973e43e0",
-            "title": "【日记】2016京都岚山学习会",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3816260/",
-            "date": "2016-05-31",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 京都勉強会 その1",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"要创造出东西</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6055,25 +6073,6 @@
             }
           },
           {
-            "id": "8cf5837508",
-            "title": "【活动】2016年大阪宝可梦中心",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3743335/",
-            "date": "2016-05-28",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモンセンターオーサカに来たよ！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"开店前的</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "1d41867c26",
             "title": "【活动】2016年宝可梦EXPO乐园",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3752587/",
@@ -6131,14 +6130,14 @@
             }
           },
           {
-            "id": "7f5d164985",
-            "title": "【日记】2016大阪签名之旅",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3737700/",
-            "date": "2016-05-27",
+            "id": "8cf5837508",
+            "title": "【活动】2016年大阪宝可梦中心",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3743335/",
+            "date": "2016-05-28",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 大阪！（Hello, Osaka!）",
+            "source": "増田順一 公式ブログ · ポケモンセンターオーサカに来たよ！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3737700/001-2276a4fe7b.webp\" target=\"blank\" rel=\"n",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"开店前的</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6158,6 +6157,25 @@
             "source": "増田順一 公式ブログ · Welcome! あばれる君&りんかちゃん！",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"没想到！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"大闹一番和琳卡酱</div <div class=\"gf-lineblog-line gf-lineblog-line--c",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "7f5d164985",
+            "title": "【日记】2016大阪签名之旅",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3737700/",
+            "date": "2016-05-27",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 大阪！（Hello, Osaka!）",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3737700/001-2276a4fe7b.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6207,14 +6225,14 @@
             }
           },
           {
-            "id": "6be0aeaad6",
-            "title": "【日记】2016皇居月光浴",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3654479/",
+            "id": "6bf402a5d3",
+            "title": "【日记】2016年博多中洲美食",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3670399/",
             "date": "2016-05-24",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 皇居で月光浴！",
+            "source": "増田順一 公式ブログ · 博多中洲",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"因为工作的关系</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"今天是会餐</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"美味的肉！</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6226,14 +6244,14 @@
             }
           },
           {
-            "id": "6bf402a5d3",
-            "title": "【日记】2016年博多中洲美食",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3670399/",
+            "id": "6be0aeaad6",
+            "title": "【日记】2016皇居月光浴",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3654479/",
             "date": "2016-05-24",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 博多中洲",
+            "source": "増田順一 公式ブログ · 皇居で月光浴！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"今天是会餐</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"美味的肉！</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"因为工作的关系</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6327,14 +6345,14 @@
             }
           },
           {
-            "id": "42f5ecbe93",
-            "title": "【日记】2016年飞机上的无线网络",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3580362/",
+            "id": "5e223ce538",
+            "title": "【活动】2016旧金山世界锦标赛之行",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3571634/",
             "date": "2016-05-20",
             "year": "2016",
-            "source": "増田順一 公式ブログ · かがくの ちからって すげー！",
+            "source": "増田順一 公式ブログ · Goodbye San Francisco!",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"听",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"将于8月举行的</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6346,14 +6364,14 @@
             }
           },
           {
-            "id": "5e223ce538",
-            "title": "【活动】2016旧金山世界锦标赛之行",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3571634/",
+            "id": "42f5ecbe93",
+            "title": "【日记】2016年飞机上的无线网络",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3580362/",
             "date": "2016-05-20",
             "year": "2016",
-            "source": "増田順一 公式ブログ · Goodbye San Francisco!",
+            "source": "増田順一 公式ブログ · かがくの ちからって すげー！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"将于8月举行的</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"听",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6403,14 +6421,14 @@
             }
           },
           {
-            "id": "eab414d2cd",
-            "title": "【日记】2016旧金山路面电车",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3526852/",
+            "id": "4bbf916b0a",
+            "title": "【日记】2016年旧金山为戴维庆生",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3538077/",
             "date": "2016-05-18",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 路面電車（Tram）",
+            "source": "増田順一 公式ブログ · おめでとう！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"工作的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一直在舞台和采访等场合</div <div class=\"gf-lineblog-line gf-lineblog-line-",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6422,14 +6440,14 @@
             }
           },
           {
-            "id": "4bbf916b0a",
-            "title": "【日记】2016年旧金山为戴维庆生",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3538077/",
+            "id": "eab414d2cd",
+            "title": "【日记】2016旧金山路面电车",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3526852/",
             "date": "2016-05-18",
             "year": "2016",
-            "source": "増田順一 公式ブログ · おめでとう！",
+            "source": "増田順一 公式ブログ · 路面電車（Tram）",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一直在舞台和采访等场合</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"工作的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6919,14 +6937,14 @@
             }
           },
           {
-            "id": "39372f299f",
-            "title": "【日记】2016暖地板上的猫",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/",
+            "id": "e3c5fe5412",
+            "title": "【日记】世界各地的斑马线",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/",
             "date": "2016-05-03",
             "year": "2016",
-            "source": "増田順一 公式ブログ · にゃ？！",
+            "source": "増田順一 公式ブログ · ヨコシマ",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp\" target=\"blank\" rel=\"n",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"查",
             "entities": {
               "people": [
                 "增田顺一"
@@ -6938,14 +6956,14 @@
             }
           },
           {
-            "id": "e3c5fe5412",
-            "title": "【日记】世界各地的斑马线",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/",
+            "id": "39372f299f",
+            "title": "【日记】2016暖地板上的猫",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/",
             "date": "2016-05-03",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ヨコシマ",
+            "source": "増田順一 公式ブログ · にゃ？！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"查",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7055,6 +7073,25 @@
             }
           },
           {
+            "id": "23bc313ae4",
+            "title": "【日记】2016年春日数花",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3101639/",
+            "date": "2016-04-29",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · つまらない道も！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在这个季节</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "504e83843f",
             "title": "【创作】2016年《游戏的人》",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2777075/",
@@ -7074,17 +7111,20 @@
             }
           },
           {
-            "id": "23bc313ae4",
-            "title": "【日记】2016年春日数花",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3101639/",
-            "date": "2016-04-29",
+            "id": "db4996985d",
+            "title": "【创作】2016年下北泽拍摄",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/",
+            "date": "2016-04-28",
             "year": "2016",
-            "source": "増田順一 公式ブログ · つまらない道も！",
+            "source": "増田順一 公式ブログ · 撮影",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在这个季节</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"2月9日 上午9:45</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line-",
             "entities": {
               "people": [
                 "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿"
               ],
               "organizations": [
                 "Game Freak",
@@ -7123,28 +7163,6 @@
             "entities": {
               "people": [
                 "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "db4996985d",
-            "title": "【创作】2016年下北泽拍摄",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/",
-            "date": "2016-04-28",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 撮影",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"2月9日 上午9:45</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line-",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 红·绿"
               ],
               "organizations": [
                 "Game Freak",
@@ -7251,14 +7269,14 @@
             }
           },
           {
-            "id": "fb369fe477",
-            "title": "【创作】2016年叠加点子",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2955963/",
+            "id": "6f04d9bf5f",
+            "title": "【日记】2016年猫咪日常",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2969118/",
             "date": "2016-04-23",
             "year": "2016",
-            "source": "増田順一 公式ブログ · アイディアの話２（重ねる）",
+            "source": "増田順一 公式ブログ · 猫",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"从平时映入眼帘的事物中</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"我家的猫</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7270,14 +7288,14 @@
             }
           },
           {
-            "id": "6f04d9bf5f",
-            "title": "【日记】2016年猫咪日常",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2969118/",
+            "id": "fb369fe477",
+            "title": "【创作】2016年叠加点子",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2955963/",
             "date": "2016-04-23",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 猫",
+            "source": "増田順一 公式ブログ · アイディアの話２（重ねる）",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"我家的猫</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"从平时映入眼帘的事物中</div <div class=\"gf-lineblog-line gf-lineblog-line-",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7349,14 +7367,14 @@
             }
           },
           {
-            "id": "4778718953",
-            "title": "【创作】2016年谷歌自动驾驶自行车",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2894164/",
+            "id": "cc92f8c0d5",
+            "title": "【创作】2016年创作中的感觉",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2895101/",
             "date": "2016-04-19",
             "year": "2016",
-            "source": "増田順一 公式ブログ · センス",
+            "source": "増田順一 公式ブログ · センス（後半）",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"4月1日公开的</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"制作的感觉固然必要 但要在哪里、如何使用？ 如何配置？ 这样的感觉也很重要 <br <br <br <br 关于感觉这件事 再",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7368,14 +7386,14 @@
             }
           },
           {
-            "id": "cc92f8c0d5",
-            "title": "【创作】2016年创作中的感觉",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2895101/",
+            "id": "4778718953",
+            "title": "【创作】2016年谷歌自动驾驶自行车",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2894164/",
             "date": "2016-04-19",
             "year": "2016",
-            "source": "増田順一 公式ブログ · センス（後半）",
+            "source": "増田順一 公式ブログ · センス",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"制作的感觉固然必要 但要在哪里、如何使用？ 如何配置？ 这样的感觉也很重要 <br <br <br <br 关于感觉这件事 再",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"4月1日公开的</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7656,6 +7674,25 @@
             }
           },
           {
+            "id": "ea9b8c3f25",
+            "title": "【活动】2016年鹰爪团十周年",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2659314/",
+            "date": "2016-04-09",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 10周年！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"10周年</div 祝贺！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2659314/001-f88aa4640e.webp\" tar",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "92c4fbc2be",
             "title": "【创作】2016年宝可梦音效制作",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2648469/",
@@ -7670,25 +7707,6 @@
               ],
               "works": [
                 "宝可梦 红·绿"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "ea9b8c3f25",
-            "title": "【活动】2016年鹰爪团十周年",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2659314/",
-            "date": "2016-04-09",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 10周年！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"10周年</div 祝贺！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2659314/001-f88aa4640e.webp\" tar",
-            "entities": {
-              "people": [
-                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -7773,14 +7791,14 @@
             }
           },
           {
-            "id": "9f8edd313b",
-            "title": "【日记】2016八丈岛邂逅小麂",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2540602/",
+            "id": "8706c43f5b",
+            "title": "【日记】2016年八丈岛美味再现",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2554691/",
             "date": "2016-04-04",
             "year": "2016",
-            "source": "増田順一 公式ブログ · キョン！",
+            "source": "増田順一 公式ブログ · 再現！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "八丈岛 紫茉莉节最终日！ <br 从早上开始 皮卡丘就活力满满！ <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2540602/001-7d0f253bb3.webp\" target=\"blank\" rel=\"noopener\"<img src=\"/as",
+            "excerpt": "在八丈岛吃喝过 觉得美味的东西 想要把它们 再现出来！ 给自己的奖励（笑） <br <br 没错！ 伴手礼！！！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2554691/001-30f1f80fd0.webp\" target=\"blank\"",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7792,14 +7810,14 @@
             }
           },
           {
-            "id": "8706c43f5b",
-            "title": "【日记】2016年八丈岛美味再现",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2554691/",
+            "id": "9f8edd313b",
+            "title": "【日记】2016八丈岛邂逅小麂",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2540602/",
             "date": "2016-04-04",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 再現！",
+            "source": "増田順一 公式ブログ · キョン！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "在八丈岛吃喝过 觉得美味的东西 想要把它们 再现出来！ 给自己的奖励（笑） <br <br 没错！ 伴手礼！！！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2554691/001-30f1f80fd0.webp\" target=\"blank\"",
+            "excerpt": "八丈岛 紫茉莉节最终日！ <br 从早上开始 皮卡丘就活力满满！ <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2540602/001-7d0f253bb3.webp\" target=\"blank\" rel=\"noopener\"<img src=\"/as",
             "entities": {
               "people": [
                 "增田顺一"
@@ -7970,6 +7988,30 @@
             }
           },
           {
+            "id": "73256c443c",
+            "title": "[GameFreak部长专栏] 第242回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-242/",
+            "date": "2014-10-31",
+            "year": "2014",
+            "source": "増田部長のめざめるパワー 第242回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 在日本，我们获得了日本游戏大奖的优秀奖、最佳销量奖和全球奖， 在英国也有好消息！ 英国游戏业界的游戏大奖颁奖典",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 X·Y"
+              ],
+              "organizations": [
+                "Game Freak"
+              ],
+              "events": [
+                "Golden Joystick Awards 2014"
+              ]
+            }
+          },
+          {
             "id": "88d224579d",
             "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
             "url": "/采访/开发者访谈/宝可梦oras/音乐与设计/interview-2083-gamefreak-sound-team-red-green-to-oras/",
@@ -7991,30 +8033,6 @@
               ],
               "organizations": [
                 "Game Freak"
-              ]
-            }
-          },
-          {
-            "id": "73256c443c",
-            "title": "[GameFreak部长专栏] 第242回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-242/",
-            "date": "2014-10-31",
-            "year": "2014",
-            "source": "増田部長のめざめるパワー 第242回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 在日本，我们获得了日本游戏大奖的优秀奖、最佳销量奖和全球奖， 在英国也有好消息！ 英国游戏业界的游戏大奖颁奖典",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 X·Y"
-              ],
-              "organizations": [
-                "Game Freak"
-              ],
-              "events": [
-                "Golden Joystick Awards 2014"
               ]
             }
           },
@@ -9087,29 +9105,6 @@
             }
           },
           {
-            "id": "80e53ed4c7",
-            "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
-            "date": "2012-06-15",
-            "year": "2012",
-            "source": "任天堂公式ウェブサイト「社長が訊く」Pokemon Black 2 & White 2 Vol.1 第1回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田聪",
-                "增田顺一",
-                "海野隆雄",
-                "石原恒和"
-              ],
-              "works": [
-                "宝可梦 黑2·白2",
-                "宝可梦 黑·白",
-                "宝可梦 白金"
-              ]
-            }
-          },
-          {
             "id": "bab37e05f7",
             "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第4章：为什么在3DS已上市时坚守NDS硬件（桧扇市全新开局、宝可梦本质与三神器联动）",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures/",
@@ -9172,6 +9167,29 @@
               "works": [
                 "宝可梦 黑2·白2",
                 "宝可梦 黑·白"
+              ]
+            }
+          },
+          {
+            "id": "80e53ed4c7",
+            "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/",
+            "date": "2012-06-15",
+            "year": "2012",
+            "source": "任天堂公式ウェブサイト「社長が訊く」Pokemon Black 2 & White 2 Vol.1 第1回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田聪",
+                "增田顺一",
+                "海野隆雄",
+                "石原恒和"
+              ],
+              "works": [
+                "宝可梦 黑2·白2",
+                "宝可梦 黑·白",
+                "宝可梦 白金"
               ]
             }
           },
@@ -10093,25 +10111,6 @@
             }
           },
           {
-            "id": "c5f1a4d0d1",
-            "title": "[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦",
-            "url": "/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/",
-            "date": "2011-03-01",
-            "year": "2011",
-            "source": "Nintendo Power Vol. 265",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "增田顺一",
-                "杉森建"
-              ],
-              "works": [
-                "宝可梦 黑·白"
-              ]
-            }
-          },
-          {
             "id": "178b6fd88c",
             "title": "[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
             "url": "/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/",
@@ -10129,6 +10128,25 @@
               "works": [
                 "宝可梦 黑·白",
                 "宝可梦 红·绿"
+              ]
+            }
+          },
+          {
+            "id": "c5f1a4d0d1",
+            "title": "[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦",
+            "url": "/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/",
+            "date": "2011-03-01",
+            "year": "2011",
+            "source": "Nintendo Power Vol. 265",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一",
+                "杉森建"
+              ],
+              "works": [
+                "宝可梦 黑·白"
               ]
             }
           },
@@ -10301,25 +10319,6 @@
             }
           },
           {
-            "id": "1de6601af3",
-            "title": "オトナファミ 2011：杉森建谈《宝可梦 黑·白》最初三只设计",
-            "url": "/访谈翻译/扫描存档/scan-otonafamily-201103-masuda-bw-adults/",
-            "date": "2011-01-20",
-            "year": "2011",
-            "source": "増田順一インタビュー 大人のための『ポケットモンスター ブラック・ホワイト』",
-            "type": "scan_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "杉森建",
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 黑·白"
-              ]
-            }
-          },
-          {
             "id": "9bf60380a1",
             "title": "週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性",
             "url": "/开发者访谈/宝可梦主系列/实体杂志专访/interview-famitsu-1155-morimoto-taya-iwao-battle-secrets/",
@@ -10333,6 +10332,25 @@
                 "森本茂树",
                 "田谷正夫",
                 "岩尾和昌",
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 黑·白"
+              ]
+            }
+          },
+          {
+            "id": "1de6601af3",
+            "title": "オトナファミ 2011：杉森建谈《宝可梦 黑·白》最初三只设计",
+            "url": "/访谈翻译/扫描存档/scan-otonafamily-201103-masuda-bw-adults/",
+            "date": "2011-01-20",
+            "year": "2011",
+            "source": "増田順一インタビュー 大人のための『ポケットモンスター ブラック・ホワイト』",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "杉森建",
                 "增田顺一"
               ],
               "works": [
@@ -10701,27 +10719,6 @@
             }
           },
           {
-            "id": "146d97352e",
-            "title": "[GameFreak部长专栏] 第177回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-177/",
-            "date": "2010-09-17",
-            "year": "2010",
-            "source": "増田部長のめざめるパワー 第177回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 终于，明天就要发售了！ 花了四年时间，倾注心血打造出来的《黑／白》。 感觉好像很漫长，又好像很短…… 这次以合",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 黑·白"
-              ],
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "ff17c5919f",
             "title": "【工作日志】《宝可梦黑白》完成日",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-199/",
@@ -10743,21 +10740,23 @@
             }
           },
           {
-            "id": "fdb4a39ba7",
-            "title": "週刊ファミ通 2010：石原恒和谈《宝可梦 黑·白》",
-            "url": "/访谈翻译/扫描存档/scan-famitsu-1137-bw-launch-interview/",
-            "date": "2010-09-16",
+            "id": "146d97352e",
+            "title": "[GameFreak部长专栏] 第177回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-177/",
+            "date": "2010-09-17",
             "year": "2010",
-            "source": "ポケットモンスター ブラック・ホワイト 発売記念インタビュー",
-            "type": "scan_translation",
-            "excerpt": "",
+            "source": "増田部長のめざめるパワー 第177回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 终于，明天就要发售了！ 花了四年时间，倾注心血打造出来的《黑／白》。 感觉好像很漫长，又好像很短…… 这次以合",
             "entities": {
               "people": [
-                "石原恒和",
                 "增田顺一"
               ],
               "works": [
                 "宝可梦 黑·白"
+              ],
+              "organizations": [
+                "Game Freak"
               ]
             }
           },
@@ -10787,6 +10786,25 @@
               ],
               "events": [
                 "宝可梦祭典！Best Wishes"
+              ]
+            }
+          },
+          {
+            "id": "fdb4a39ba7",
+            "title": "週刊ファミ通 2010：石原恒和谈《宝可梦 黑·白》",
+            "url": "/访谈翻译/扫描存档/scan-famitsu-1137-bw-launch-interview/",
+            "date": "2010-09-16",
+            "year": "2010",
+            "source": "ポケットモンスター ブラック・ホワイト 発売記念インタビュー",
+            "type": "scan_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "石原恒和",
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 黑·白"
               ]
             }
           },
@@ -12531,6 +12549,25 @@
             }
           },
           {
+            "id": "ce98b58586",
+            "title": "[GameFreak部长专栏] 第120回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-120/",
+            "date": "2008-01-11",
+            "year": "2008",
+            "source": "増田部長のめざめるパワー 第120回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 没想到！！ 现在！工作人员给我庆祝生日了！！ 我明天过生日！！ 巧克力蛋糕和星巴克的 Tall 号拿铁！！ 超",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "星巴克"
+              ]
+            }
+          },
+          {
             "id": "ad7a2e43ba",
             "title": "【工作日志】公司说明会与年末大扫除",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-52/",
@@ -12549,25 +12586,6 @@
               ],
               "events": [
                 "GAME FREAK首次公司说明会"
-              ]
-            }
-          },
-          {
-            "id": "ce98b58586",
-            "title": "[GameFreak部长专栏] 第120回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-120/",
-            "date": "2008-01-11",
-            "year": "2008",
-            "source": "増田部長のめざめるパワー 第120回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 没想到！！ 现在！工作人员给我庆祝生日了！！ 我明天过生日！！ 巧克力蛋糕和星巴克的 Tall 号拿铁！！ 超",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "星巴克"
               ]
             }
           },
@@ -15521,6 +15539,7 @@
         ],
         "annotations": [],
         "years": [
+          "2025",
           "2023",
           "2019",
           "2018",
@@ -99017,6 +99036,36 @@
           "2024"
         ]
       },
+      "宝可乐园 关东": {
+        "name": "宝可乐园 关东",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/e5ae9de58fafe4b990e59bad+e585b3e4b89c/",
+        "posts": [
+          {
+            "id": "f562297244",
+            "title": "读卖新闻 2025：增田顺一谈宝可乐园 关东的构想与讲究",
+            "url": "/访谈翻译/翻译/访谈整理/interview-yomiuri-2025-pokepark-kanto-masuda/",
+            "date": "2025-07-22",
+            "year": "2025",
+            "source": "「いつでもポケモンに会える」「手をのばせば実際に触れる」場所にこだわり…増田順一・チーフ・クリエイティブ・フェロー",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可乐园 关东"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2025"
+        ]
+      },
       "宝可梦集换式卡牌游戏 Pocket": {
         "name": "宝可梦集换式卡牌游戏 Pocket",
         "type": "works",
@@ -171587,6 +171636,24 @@
           }
         },
         {
+          "id": "f562297244",
+          "title": "读卖新闻 2025：增田顺一谈宝可乐园 关东的构想与讲究",
+          "url": "/访谈翻译/翻译/访谈整理/interview-yomiuri-2025-pokepark-kanto-masuda/",
+          "date": "2025-07-22",
+          "year": "2025",
+          "source": "「いつでもポケモンに会える」「手をのばせば実際に触れる」場所にこだわり…増田順一・チーフ・クリエイティブ・フェロー",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "works": [
+              "宝可乐园 关东"
+            ]
+          }
+        },
+        {
           "id": "4d097854b5",
           "title": "株式会社宝可梦 官方专题 38：负责人谈宝可梦公园的设计与安全",
           "url": "/官方档案/专题报道/corporate-topic-38-pokemon-parks-community-playground/",
@@ -197735,6 +197802,24 @@
       "type": "interview_translation",
       "excerpt": "",
       "entities": {}
+    },
+    {
+      "id": "f562297244",
+      "title": "读卖新闻 2025：增田顺一谈宝可乐园 关东的构想与讲究",
+      "url": "/访谈翻译/翻译/访谈整理/interview-yomiuri-2025-pokepark-kanto-masuda/",
+      "date": "2025-07-22",
+      "year": "2025",
+      "source": "「いつでもポケモンに会える」「手をのばせば実際に触れる」場所にこだわり…増田順一・チーフ・クリエイティブ・フェロー",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "增田顺一"
+        ],
+        "works": [
+          "宝可乐园 关东"
+        ]
+      }
     },
     {
       "id": "74f58fb1fb",
