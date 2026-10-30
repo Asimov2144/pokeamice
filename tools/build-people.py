@@ -380,6 +380,8 @@ PORTRAITS = [
     dict(name="一之濑刚", year=2013, src=_IA + "2013-08-14-interview-famitsu-2013-solitiba/006.jpg", source="ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲一之瀬剛氏）", post="2013-08-14-interview-famitsu-2013-solitiba"),
     dict(name="小幡敏宏", year=2013, src=_IA + "2013-08-14-interview-famitsu-2013-solitiba/009.jpg", source="ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲小幡敏宏氏）", post="2013-08-14-interview-famitsu-2013-solitiba"),
     dict(name="田谷正夫", year=2013, main=True, src=_IA + "2013-08-14-interview-famitsu-2013-solitiba/003.jpg", source="ファミ通.com 2013-08-14『ソリティ馬』の開発者に聞く！（▲田谷正夫氏）", post="2013-08-14-interview-famitsu-2013-solitiba"),
+    # 読売新聞オンライン 2025-07-22: the one photograph of the interviewee, with plush Pokemon (the page gives no caption; he is the only person interviewed)
+    dict(name="增田顺一", year=2025, src=_IA + "2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda/002.jpg", box=(290, 40, 300, 300), source="読売新聞オンライン 2025-07-22 増田順一・チーフ・クリエイティブ・フェロー（写真）", post="2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda"),
     # the wikis - Bulbapedia's staff pages and the Nintendo Wiki on Fandom, when the site has nothing better
     dict(name="海野隆雄", main=True, src="bulba:File:Takao_Unno.png", source="Bulbapedia File:Takao_Unno.png"),
     dict(name="海野隆雄", src="https://static.wikia.nocookie.net/nintendo/images/2/24/Takao_Unno-0.jpg/revision/latest?path-prefix=en", source="Nintendo Wiki (Fandom) File:Takao_Unno-0.jpg"),
