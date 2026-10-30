@@ -21,7 +21,7 @@ bar does not (collection, source, sort).
     <i class="fas fa-search" aria-hidden="true"></i>
     <input type="search" id="filteredSearchQuery" placeholder="标题、正文、人物、作品、来源…" autocomplete="off" aria-label="站内检索">
     <button type="submit">检索</button>
-    <span class="front__count" aria-label="收录规模"><b>{{ front_posts | size }}</b> 条 · 访谈 <b>{{ dims_n_interview }}</b> · 扫描 <b>{{ dims_n_scan }}</b> · {{ front_first_year.name }}–{{ front_last_year.name }}</span>
+    <span class="front__count" aria-label="收录规模">{% include inv.html key="total" %} 条 · 访谈 {% include inv.html key="kind_interview" %} · 扫描 {% include inv.html key="kind_scan" %} · {{ front_first_year.name }}–{{ front_last_year.name }}</span>
   </form>
   {% include home-topics.html %}
   {% include home-notes-banner.html %}

@@ -44,12 +44,13 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
   {% endfor %}
   {% if prev != "" %}{% assign key = n | prepend: "00000" | slice: -5, 5 | append: "¦" | append: prev %}{% assign dims_works_keys = dims_works_keys | push: key %}{% endif %}
   {% assign dims_works_keys = dims_works_keys | sort | reverse %}
-  {% assign dims_n_scan = dims_posts | where: "archive_type", "scan_translation" | size %}
-  {% assign dims_n_feature = dims_posts | where: "archive_type", "media_feature" | size %}
-  {%- comment -%} the scans sit on the interview layout too; the seed types them apart {%- endcomment -%}
-  {% assign dims_n_interview = dims_posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation' or p.archive_type == 'interview_translation'" | size | minus: dims_n_scan | minus: dims_n_feature %}
-  {% assign dims_n_blog = dims_posts | where_exp: "p", "p.archive_type == 'gamefreak_director_column' or p.archive_type == 'gamefreak_masuda_lineblog' or p.archive_type == 'gamefreak_legacy_blog'" | size %}
-  {% assign dims_n_doc = dims_posts | where_exp: "p", "p.categories contains '文档'" | size %}
+  {%- comment -%} the type counts are the site inventory's (tools/site_inventory.py), the same classes the seed types the cards by {%- endcomment -%}
+  {% assign dims_inv = site.data.site_inventory.metrics %}
+  {% assign dims_n_scan = dims_inv.kind_scan.value %}
+  {% assign dims_n_feature = dims_inv.kind_feature.value %}
+  {% assign dims_n_interview = dims_inv.kind_interview.value %}
+  {% assign dims_n_blog = dims_inv.kind_blog.value %}
+  {% assign dims_n_doc = dims_inv.kind_doc.value %}
   {% assign dims_ready = true %}
 {% endunless %}
 
@@ -57,11 +58,11 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
 {% elsif include.strip %}
 <div class="front__dims" aria-label="按维度筛选">
   <div class="front__dims-row front__dims-row--types">
-    <button type="button" data-dim="type" data-value="访谈翻译">访谈 <b>{{ dims_n_interview }}</b></button>
-    <button type="button" data-dim="type" data-value="媒体专题">专题 <b>{{ dims_n_feature }}</b></button>
-    <button type="button" data-dim="type" data-value="扫描翻译">扫描 <b>{{ dims_n_scan }}</b></button>
-    <button type="button" data-dim="type" data-value="Game Freak 博客">GF 博客 <b>{{ dims_n_blog }}</b></button>
-    <button type="button" data-dim="type" data-value="文档">文档 <b>{{ dims_n_doc }}</b></button>
+    <button type="button" data-dim="type" data-value="访谈翻译">访谈 {% include inv.html key="kind_interview" %}</button>
+    <button type="button" data-dim="type" data-value="媒体专题">专题 {% include inv.html key="kind_feature" %}</button>
+    <button type="button" data-dim="type" data-value="扫描翻译">扫描 {% include inv.html key="kind_scan" %}</button>
+    <button type="button" data-dim="type" data-value="Game Freak 博客">GF 博客 {% include inv.html key="kind_blog" %}</button>
+    <button type="button" data-dim="type" data-value="文档">文档 {% include inv.html key="kind_doc" %}</button>
   </div>
   <div class="front__dims-row front__dims-row--years">
     {% for g in dims_by_year reversed %}<button type="button" data-dim="year" data-value="{{ g.name }}">{{ g.name }}<b>{{ g.items.size }}</b></button>{% endfor %}
@@ -96,10 +97,10 @@ under 900px, the plain call gives the sidebar panel shown beside the cards.
 
   <h2>类型</h2>
   <div class="dims__types">
-    <button type="button" data-dim="type" data-value="访谈翻译">访谈翻译<b>{{ dims_n_interview }}</b></button>
-    <button type="button" data-dim="type" data-value="扫描翻译">扫描翻译<b>{{ dims_n_scan }}</b></button>
-    <button type="button" data-dim="type" data-value="Game Freak 博客">Game Freak 博客<b>{{ dims_n_blog }}</b></button>
-    <button type="button" data-dim="type" data-value="文档">文档<b>{{ dims_n_doc }}</b></button>
+    <button type="button" data-dim="type" data-value="访谈翻译">访谈翻译{% include inv.html key="kind_interview" %}</button>
+    <button type="button" data-dim="type" data-value="扫描翻译">扫描翻译{% include inv.html key="kind_scan" %}</button>
+    <button type="button" data-dim="type" data-value="Game Freak 博客">Game Freak 博客{% include inv.html key="kind_blog" %}</button>
+    <button type="button" data-dim="type" data-value="文档">文档{% include inv.html key="kind_doc" %}</button>
   </div>
 </section>
 {% endif %}

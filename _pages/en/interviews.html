@@ -9,7 +9,7 @@ search: false
 {% assign archive = site.data.en_discovery %}
 <section class="en-sec" aria-labelledby="how"><header class="en-sec__head"><h2 id="how"><i class="fas fa-book-open" aria-hidden="true"></i>How to read the interview archive</h2></header>
 <div class="en-howto">
-<p>The archive has {{ archive.interview_count }} interview records. Use this selection to find a starting point, then follow a developer profile or game to related material. Interview records preserve the outlet, source language and translation status. Dates refer to the source, not the date the translation was added.</p>
+<p>The archive has {% include inv.html key="kind_interview" lang="en" %} interview records. Use this selection to find a starting point, then follow a developer profile or game to related material. Interview records preserve the outlet, source language and translation status. Dates refer to the source, not the date the translation was added.</p>
 <p>Source links can lead to a publisher or an archived copy. Historical URLs may no longer load; check the individual record for scans, snapshots and source notes. Japanese translations are AI generated and have not been human proofread.</p>
 <p class="en-actions"><a class="en-btn en-btn--solid" href="{{ '/' | relative_url }}#interview-translations"><i class="fas fa-list" aria-hidden="true"></i>Open the complete Chinese interview index</a><a class="en-btn" href="{{ '/search/' | relative_url }}"><i class="fas fa-magnifying-glass" aria-hidden="true"></i>Search the archive</a></p>
 </div>

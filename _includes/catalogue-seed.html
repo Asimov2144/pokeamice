@@ -7,20 +7,8 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
 {% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
   {% for post in searchable_posts %}
     {% assign archive_type = post.archive_type | default: post.resource_type %}
-    {%- comment -%} explicit media type first, then scan, interview layout, blog, document, or article {%- endcomment -%}
-    {% if archive_type == "media_feature" %}
-      {% assign type_label = "媒体专题" %}
-    {% elsif archive_type == "scan_translation" %}
-      {% assign type_label = "扫描翻译" %}
-    {% elsif post.layout == "interview-editorial" or post.layout == "parallel-translation" or archive_type == "interview_translation" or post.categories contains "访谈翻译" %}
-      {% assign type_label = "访谈翻译" %}
-    {% elsif archive_type == "gamefreak_director_column" or archive_type == "gamefreak_masuda_lineblog" or archive_type == "gamefreak_legacy_blog" %}
-      {% assign type_label = "Game Freak 博客" %}
-    {% elsif post.categories contains "文档" %}
-      {% assign type_label = "文档" %}
-    {% else %}
-      {% assign type_label = "文章" %}
-    {% endif %}
+    {%- comment -%} the type is the site inventory's (tools/site_inventory.py), so the filter counts are the home page's and /keys/'s {%- endcomment -%}
+    {% assign type_label = post.inv_type_label | default: "文章" %}
     {% assign source_title = post.source.title | default: post.publication | default: post.source.publication | default: "" %}
     {%- comment -%} a corporate topic's source is the page's own title, one per post; the filter should list the outlet {%- endcomment -%}
     {% if post.source_kind == "official_corporate_topic" %}{% assign source_title = post.publication %}{% endif %}

@@ -1,13 +1,6 @@
 {%- comment -%}
 How many people the people library (/people/) lists as interviewees, speakers and authors: the rule of
-_layouts/people-index.html (no anime characters, figures or credits-only staff; at least one entry).
-include_cached, so the home page's tile and sidebar show the page's own number at the cost of one pass.
+_layouts/people-index.html (no anime characters, figures or credits-only staff; at least one entry),
+counted once in the site inventory (tools/site_inventory.py, metric `people`).
 {%- endcomment -%}
-{%- assign plc_n = 0 -%}
-{%- for e in site.data.people -%}
-  {%- if e.kind == "character" or e.kind == "figure" or e.kind == "staff" -%}{%- continue -%}{%- endif -%}
-  {%- assign plc_name = e.name -%}
-  {%- assign plc_mine = site.posts | where_exp: "p", "p.entities.people contains plc_name" | first -%}
-  {%- if plc_mine -%}{%- assign plc_n = plc_n | plus: 1 -%}{%- endif -%}
-{%- endfor -%}
-{{- plc_n -}}
+{{- site.data.site_inventory.metrics.people.value -}}

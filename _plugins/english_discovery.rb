@@ -28,10 +28,14 @@ module PokeAmice
     def apply
       interviews = @site.posts.docs.select { |post| SearchMetadata.interview?(post.data) }
       rows = interviews.map { |post| interview_row(post) }
-      # The English shelf samples eras and then offers the complete Chinese index.
+      # The counts are the site inventory's (tools/site_inventory.py, _plugins/site_inventory.rb): an era
+      # counts every inventory interview of those years, so the eras add up to the number the Chinese
+      # home page prints; the records shown are still sampled from the named interviews above.
+      metrics = (@site.data['site_inventory'] || {})['metrics'] || {}
+      counted = @site.posts.docs.select { |post| post.data['inv_kind'] == 'interview' && post.data['inv_listed'] }
       eras = ERAS.map do |era|
         group = rows.select { |row| (era['from']..era['to']).cover?(row['year'].to_i) }
-        era.merge('count' => group.size,
+        era.merge('count' => counted.count { |post| (era['from']..era['to']).cover?(post.date.year) },
                   'items' => group.sort_by { |row| [row['original_en'] ? 0 : 1, row['year'], row['url']] }.first(4))
       end.reject { |era| era['count'].zero? }
       people = @identities.values.map do |identity|
@@ -53,9 +57,9 @@ module PokeAmice
         interview_row(post).merge(entry)
       end
       @site.data['en_discovery'] = {
-        'interview_count' => interviews.size, 'people_count' => people.size, 'game_count' => games.size,
-        'scan_count' => @site.posts.docs.count { |post| Array(post.data['categories']).include?('扫描存档') || post.data['archive_type'] == 'scan_translation' },
-        'japanese_count' => @site.collections['ja']&.docs&.size || 0,
+        'interview_count' => (metrics['kind_interview'] || {})['value'], 'people_count' => (metrics['people'] || {})['value'],
+        'game_count' => (metrics['credits_games'] || {})['value'], 'scan_count' => (metrics['kind_scan'] || {})['value'],
+        'japanese_count' => (metrics['lang_ja'] || {})['value'], 'profile_count' => people.size,
         'people' => people.sort_by { |person| [-person['interviews'], person['name_en'] || person['name']] }.first(24),
         'featured_people' => Array(@config['featured_people']).map { |slug| people.find { |person| person['slug'] == slug } }.compact,
         'games' => games.sort_by { |game| [game['year'].to_s, game['slug']] },

@@ -7,13 +7,10 @@ rows are. Styles: assets/css/home-tabs.css.
 {%- endcomment -%}
 <link rel="stylesheet" href="{{ '/assets/css/home-tabs.css' | relative_url }}">
 {% assign co_posts = site.posts | where_exp: "p", "p.search != false" %}
-{% capture co_kinds %}{% for p in co_posts %}{% assign co_a = p.archive_type | default: p.resource_type %}{% if p.categories contains "长文分析" %}long{% elsif co_a == "scan_translation" %}scan{% elsif p.layout == "interview-editorial" or p.layout == "parallel-translation" or co_a == "interview_translation" or p.categories contains "访谈翻译" %}interview{% elsif co_a == "gamefreak_director_column" or co_a == "gamefreak_masuda_lineblog" or co_a == "gamefreak_legacy_blog" %}blog{% elsif p.categories contains "专题报道" %}topic{% elsif p.categories contains "文档" %}doc{% else %}other{% endif %}
-{% endfor %}{% endcapture %}
-{% assign co_groups = co_kinds | strip | split: "
-" | group_by_exp: "k", "k" %}
+{%- comment -%} what it is made of: the site inventory's classes (tools/site_inventory.py), which add up to the total {%- endcomment -%}
+{% assign co_inv = site.data.site_inventory.metrics %}
 {% assign co_years = co_posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
 {% assign co_ymax = 0 %}{% for y in co_years %}{% if y.size > co_ymax %}{% assign co_ymax = y.size %}{% endif %}{% endfor %}
-{% assign co_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure' and e.kind != 'staff'" %}
 {% assign co_now = site.time | date: "%s" | plus: 0 %}
 {% assign co_recent = 0 %}
 {% for e in site.data.feed_log %}{% assign co_t = e.date | date: "%s" | plus: 0 %}{% assign co_age = co_now | minus: co_t %}{% if co_age < 2592000 %}{% assign co_recent = co_recent | plus: e.count %}{% endif %}{% endfor %}
@@ -34,21 +31,21 @@ rows are. Styles: assets/css/home-tabs.css.
   </header>
 
   <div class="co-kpis">
-    <a class="co-kpi" href="{{ '/search/' | relative_url }}"><i class="fas fa-layer-group" aria-hidden="true"></i><strong>{{ co_posts.size }}</strong><span>条目</span></a>
-    <a class="co-kpi" href="{{ '/people/' | relative_url }}"><i class="fas fa-user-group" aria-hidden="true"></i><strong>{{ co_people.size }}</strong><span>人物</span></a>
-    <a class="co-kpi" href="{{ '/credits/' | relative_url }}"><i class="fas fa-clapperboard" aria-hidden="true"></i><strong>{{ site.data.credits_games | size }}</strong><span>作品制作名单</span></a>
+    <a class="co-kpi" href="{{ '/search/' | relative_url }}"><i class="fas fa-layer-group" aria-hidden="true"></i>{% include inv.html key="total" tag="strong" %}<span>条目</span></a>
+    <a class="co-kpi" href="{{ '/people/' | relative_url }}"><i class="fas fa-user-group" aria-hidden="true"></i>{% include inv.html key="people" tag="strong" %}<span>人物</span></a>
+    <a class="co-kpi" href="{{ '/credits/' | relative_url }}"><i class="fas fa-clapperboard" aria-hidden="true"></i>{% include inv.html key="credits_games" tag="strong" %}<span>作品制作名单</span></a>
     <a class="co-kpi" href="#recent-updates" data-scroll-ignore><i class="fas fa-seedling" aria-hidden="true"></i><strong>{{ co_recent }}</strong><span>近 30 天新增</span></a>
   </div>
 
   <section class="co-block" aria-label="馆藏的构成">
     <h3><i class="fas fa-chart-pie" aria-hidden="true"></i>它由什么构成</h3>
-    {% assign co_order = "interview|访谈翻译|开发者与媒体的对谈，日中对照|/search/?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91;;scan|扫描翻译|杂志与攻略本的整页扫描，逐页转写翻译|/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91;;blog|Game Freak 博客|部长专栏、LINE BLOG、员工博客与美术日和|/gamefreak-director/;;topic|官方专题报道|株式会社宝可梦官方站「注目的话题」等专题|/search/?q=%E6%B3%A8%E7%9B%AE%E3%81%AE%E8%A9%B1%E9%A1%8C;;long|长文分析|站主的原创长文：逐帧分析、设定与模型考察|/long-analysis/;;doc|站点文档|建站纪事与更新日志|/keys/;;other|其他文章|不属于以上的整理与译文|/search/" | split: ";;" %}
+    {% assign co_order = "interview|访谈翻译|开发者与媒体的对谈，日中对照|/search/?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91;;feature|媒体专题|视频与媒体的专题|/search/?type=%E5%AA%92%E4%BD%93%E4%B8%93%E9%A2%98;;scan|扫描翻译|杂志与攻略本的整页扫描，逐页转写翻译|/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91;;blog|Game Freak 博客|部长专栏、LINE BLOG、员工博客与美术日和|/gamefreak-director/;;topic|官方专题报道|株式会社宝可梦官方站「注目的话题」等专题|/search/?q=%E6%B3%A8%E7%9B%AE%E3%81%AE%E8%A9%B1%E9%A1%8C;;long|长文分析|站主的原创长文：逐帧分析、设定与模型考察|/long-analysis/;;doc|站点文档|建站纪事与更新日志|/keys/;;other|其他文章|不属于以上的整理与译文|/search/" | split: ";;" %}
     <div class="co-bar" role="img" aria-label="构成比例">
-      {% for row in co_order %}{% assign f = row | split: "|" %}{% assign g = co_groups | where: "name", f[0] | first %}{% if g.size > 0 %}<span class="co-seg co-k-{{ f[0] }}" style="flex: {{ g.size }}" title="{{ f[1] }} {{ g.size }}"></span>{% endif %}{% endfor %}
+      {% for row in co_order %}{% assign f = row | split: "|" %}{% assign co_key = "kind_" | append: f[0] %}{% assign g_n = co_inv[co_key].value %}{% if g_n > 0 %}<span class="co-seg co-k-{{ f[0] }}" style="flex: {{ g_n }}" title="{{ f[1] }} {{ g_n }}"></span>{% endif %}{% endfor %}
     </div>
     <ul class="co-legend">
-      {% for row in co_order %}{% assign f = row | split: "|" %}{% assign g = co_groups | where: "name", f[0] | first %}{% if g.size > 0 %}
-      <li><a class="co-k-{{ f[0] }}" href="{{ f[3] | relative_url }}"><i class="co-dot" aria-hidden="true"></i><b>{{ f[1] }}</b><strong>{{ g.size }}</strong><em>{{ f[2] }}</em></a></li>
+      {% for row in co_order %}{% assign f = row | split: "|" %}{% assign co_key = "kind_" | append: f[0] %}{% assign g_n = co_inv[co_key].value %}{% if g_n > 0 %}
+      <li><a class="co-k-{{ f[0] }}" href="{{ f[3] | relative_url }}"><i class="co-dot" aria-hidden="true"></i><b>{{ f[1] }}</b>{% include inv.html key=co_key tag="strong" %}<em>{{ f[2] }}</em></a></li>
       {% endif %}{% endfor %}
     </ul>
   </section>
@@ -83,6 +80,8 @@ rows are. Styles: assets/css/home-tabs.css.
       <p class="co-more"><a href="#documents" data-scroll-ignore>怎么投稿、怎么核对 →</a></p>
     </section>
   </div>
+
+  {% include inv-definitions.html %}
 
   <footer class="co-foot">
     <span>继续：</span>

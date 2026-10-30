@@ -1,0 +1,8 @@
+---
+layout: null
+sitemap: false
+search: false
+---
+{%- comment -%} The public copy of the site inventory as Jekyll used it, without the per-post rows; tools/site_inventory.py check compares it with a fresh count. {%- endcomment -%}
+{%- assign inv = site.data.site_inventory -%}
+{"version":{{ inv.version | jsonify }},"years":{{ inv.years | jsonify }},"groups":{{ inv.groups | jsonify }},"metrics":{{ inv.metrics | jsonify }},"coverage":{{ inv.coverage | jsonify }},"ja_seen":{{ inv.ja_seen | jsonify }}}

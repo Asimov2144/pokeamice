@@ -21,11 +21,13 @@ layout: default
         <button type="submit">Search</button>
       </form>
       <ul class="en-stats">
-        <li><i class="fas fa-comments" aria-hidden="true"></i><b>{{ archive.interview_count }}</b> interview records</li>
-        <li><i class="fas fa-user-group" aria-hidden="true"></i><b>{{ archive.people_count }}</b> people profiles</li>
-        <li><i class="fas fa-list-check" aria-hidden="true"></i><b>{{ archive.game_count }}</b> game staff rolls</li>
-        <li><i class="fas fa-newspaper" aria-hidden="true"></i><b>{{ archive.scan_count }}</b> scan records</li>
-        <li><i class="fas fa-language" aria-hidden="true"></i><b>{{ archive.japanese_count }}</b> Japanese translations</li>
+        {%- comment -%} the site inventory's numbers (tools/site_inventory.py), the same the Chinese home page prints {%- endcomment -%}
+        <li><i class="fas fa-layer-group" aria-hidden="true"></i>{% include inv.html key="total" lang="en" %} records</li>
+        <li><i class="fas fa-comments" aria-hidden="true"></i>{% include inv.html key="kind_interview" lang="en" %} interview records</li>
+        <li><i class="fas fa-newspaper" aria-hidden="true"></i>{% include inv.html key="kind_scan" lang="en" %} scan records</li>
+        <li><i class="fas fa-user-group" aria-hidden="true"></i>{% include inv.html key="people" lang="en" %} people</li>
+        <li><i class="fas fa-list-check" aria-hidden="true"></i>{% include inv.html key="credits_games" lang="en" %} game staff rolls</li>
+        <li><i class="fas fa-language" aria-hidden="true"></i>{% include inv.html key="lang_ja" lang="en" %} Japanese translations</li>
       </ul>
       {% endif %}
       <p class="en-note"><i class="fas fa-circle-info" aria-hidden="true"></i>This is an English discovery layer. Detailed records remain in the Chinese archive; original sources and available translations are linked separately.</p>

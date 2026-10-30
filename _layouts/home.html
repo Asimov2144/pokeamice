@@ -9,10 +9,10 @@ sidebar:
 {% assign all_posts = site.posts %}
 {% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
 {%- comment -%}
-  Interview-layout posts are the interview shelf, except entries explicitly
-  classified as another media type (for example, a video feature).
+  The interview shelf: the site inventory's interviews and magazine scans (post.inv_kind,
+  tools/site_inventory.py); its number is the inventory's interview_shelf.
 {%- endcomment -%}
-{% assign interview_posts = site.posts | where_exp: "post", "post.layout == 'interview-editorial' or post.layout == 'parallel-translation'" | where_exp: "post", "post.archive_type != 'media_feature'" %}
+{% assign interview_posts = site.posts | where_exp: "post", "post.inv_kind == 'interview' or post.inv_kind == 'scan'" %}
 {% assign gf_director_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
 {% assign gf_lineblog_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" %}
 {% assign gf_legacy_posts = site.posts | where: "archive_type", "gamefreak_legacy_blog" %}
@@ -57,7 +57,7 @@ sidebar:
     <nav class="home-section-switcher" aria-label="主页栏目切换">
       <a href="#overview" class="home-nav-link active" data-scroll-ignore>
         <span>总览</span>
-        <strong>{{ all_posts | size }}</strong>
+        {% include inv.html key="total" tag="strong" %}
       </a>
       <a href="#retrieval" class="home-nav-link" data-scroll-ignore>
         <span>馆藏概览</span>
@@ -70,7 +70,7 @@ sidebar:
       </a>
       <a href="#interview-translations" class="home-nav-link" data-scroll-ignore>
         <span>访谈翻译</span>
-        <strong>{{ interview_posts | size }}</strong>
+        {% include inv.html key="interview_shelf" tag="strong" %}
       </a>
     </nav>
 
@@ -288,8 +288,7 @@ sidebar:
         <p class="section-kicker">Interviews</p>
         <h2>访谈翻译</h2>
         {%- comment -%} the tab's number is this list; 馆藏概览 counts its magazine scans apart, so say how the two add up {%- endcomment -%}
-        {%- assign ii_scans = interview_posts | where: "archive_type", "scan_translation" | size -%}
-        <p class="section-lead">按年代排开的全部 {{ interview_posts | size }} 篇访谈{% if ii_scans > 0 %}，其中 {{ ii_scans }} 篇是杂志扫描（馆藏概览里单算）{% endif %}。</p>
+        <p class="section-lead">按年代排开的全部 {% include inv.html key="interview_shelf" %} 篇：访谈 {% include inv.html key="kind_interview" %} 篇，加上杂志扫描 {% include inv.html key="kind_scan" %} 篇（馆藏概览里单算）。</p>
       </div>
       {% include home-interview-index.html %}
     </section>
@@ -307,7 +306,7 @@ sidebar:
       <h2>栏目切换</h2>
       <a href="#overview" class="home-nav-link active" data-scroll-ignore>
         <span>总览</span>
-        <strong>{{ all_posts | size }}</strong>
+        {% include inv.html key="total" tag="strong" %}
       </a>
       <a href="#retrieval" class="home-nav-link" data-scroll-ignore>
         <span>馆藏概览</span>
@@ -320,7 +319,7 @@ sidebar:
       </a>
       <a href="#interview-translations" class="home-nav-link" data-scroll-ignore>
         <span>访谈翻译</span>
-        <strong>{{ interview_posts | size }}</strong>
+        {% include inv.html key="interview_shelf" tag="strong" %}
       </a>
     </nav>
 
@@ -333,12 +332,12 @@ sidebar:
           <a href="{{ '/people/' | relative_url }}">
             <i class="fas fa-user" aria-hidden="true"></i>
             <strong>人物</strong>
-            <span>{% include_cached people-library-count.html %} 位</span>
+            <span>{% include inv.html key="people" %} 位</span>
           </a>
           <a href="{{ '/works/' | relative_url }}">
             <i class="fas fa-cube" aria-hidden="true"></i>
             <strong>作品</strong>
-            <span>{{ site.data.works | where_exp: "w", "w.placeholder == nil" | size }} 部</span>
+            <span>{% include inv.html key="works" %} 部</span>
           </a>
           <a href="{{ '/timeline/' | relative_url }}">
             <i class="fas fa-clock" aria-hidden="true"></i>

@@ -60,6 +60,9 @@ jobs:
           python tools/export-document-entities.py --commit "${GITHUB_SHA::8}" > /dev/null
         env:
           PYTHONHASHSEED: '0'
+      # 站点清单：首页、资料窗口、英文层、sitemap 上的数字都从这里来，见 tools/site_inventory.py
+      - name: Build site inventory
+        run: python tools/site_inventory.py build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build
@@ -70,6 +73,9 @@ jobs:
         run: python tools/app-data-release.py check --site _site --commit "${GITHUB_SHA::8}"
         env:
           APP_DATA_ALLOW_SHRINK: ${{ inputs.allow_shrink }}
+      # 总量、类型、扫描类型、语言版本、公开状态：页面上印的数和 sitemap 都要等于清单，对不上就不发布
+      - name: Check site inventory
+        run: python tools/site_inventory.py check --site _site
       - name: Check English SEO semantic benchmark
         run: python3 tools/check_english_seo_benchmark.py --site _site
       - name: Upload artifact

@@ -1,0 +1,19 @@
+{%- comment -%}
+Every number of the site inventory with its definition (口径), folded: the home page, /keys/ and /en/
+show the same list, so a number on any of them can be looked up here. include.lang="en" for English.
+{%- endcomment -%}
+{%- assign inv = site.data.site_inventory -%}
+{%- assign inv_en = false -%}{%- if include.lang == "en" -%}{%- assign inv_en = true -%}{%- endif -%}
+<details class="inv-defs">
+  <summary>{% if inv_en %}How these numbers are counted{% else %}数字的口径{% endif %}</summary>
+  <p>{% if inv_en %}Every count on the home page, the library feed, the English pages and the sitemap comes from one inventory (<a href="{{ '/assets/data/site-inventory.json' | relative_url }}">site-inventory.json</a>), rebuilt on each deploy.{% else %}首页、资料窗口、英文页和 sitemap 上的数字都出自同一份站点清单（<a href="{{ '/assets/data/site-inventory.json' | relative_url }}">site-inventory.json</a>），每次部署重算并核对。{% endif %}</p>
+  {%- for group in inv.groups %}
+  <h3>{% if inv_en %}{{ group[2] }}{% else %}{{ group[1] }}{% endif %}</h3>
+  <dl>
+    {%- for item in inv.metrics %}{% if item[1].group != group[0] %}{% continue %}{% endif %}{% assign inv_key = item[0] %}
+    <dt>{% if inv_en %}{{ item[1].label_en }}{% else %}{{ item[1].label }}{% endif %} {% include inv.html key=inv_key lang=include.lang %}</dt>
+    <dd>{% if inv_en %}{{ item[1].definition_en }}{% else %}{{ item[1].definition }}{% endif %}</dd>
+    {%- endfor %}
+  </dl>
+  {%- endfor %}
+</details>

@@ -20,8 +20,9 @@ a list of titles: each post is something that happened.
 {% assign gf_art_posts = gf_legacy_posts | where: "gf_legacy_blog", "art" %}
 {% assign gf_staff_posts = gf_legacy_posts | where: "gf_legacy_blog", "staff" %}
 {% assign gf_masuda_posts = gf_director_posts | concat: gf_lineblog_posts | sort: "date" | reverse %}
-{% assign lib_scan = lib_posts | where: "archive_type", "scan_translation" %}
-{% assign lib_interview = lib_posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation' or p.categories contains '访谈翻译'" | where_exp: "p", "p.archive_type != 'scan_translation'" %}
+{%- comment -%} interviews and scans are the site inventory's classes (post.inv_kind, tools/site_inventory.py), the numbers its metrics {%- endcomment -%}
+{% assign lib_scan = lib_posts | where: "inv_kind", "scan" %}
+{% assign lib_interview = lib_posts | where: "inv_kind", "interview" %}
 {% assign lib_shudo = lib_posts | where_exp: "p", "p.categories contains '首藤刚志手记'" %}
 {% assign lib_recruit = lib_posts | where_exp: "p", "p.tags contains '招聘访谈'" %}
 {% assign lib_tech = lib_posts | where_exp: "p", "p.source_kind == 'technical_report' or p.article_kind == 'technical_feature'" %}
@@ -29,7 +30,6 @@ a list of titles: each post is something that happened.
 {% assign lib_ndream = lib_posts | where_exp: "p", "p.publication contains 'Nintendo DREAM'" %}
 {% assign lib_long = lib_posts | where_exp: "p", "p.categories contains '长文分析'" %}
 {% assign lib_gi = lib_posts | where_exp: "p", "p.publication contains 'Game Informer'" %}
-{% assign lib_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure' and e.kind != 'staff'" %}
 {% assign lib_by_year = lib_posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
 {% assign site_avatar = "/assets/img/site/author-pikachu.jpg" %}
 {% assign site_name = "Poke Amice Docs" %}
@@ -147,7 +147,7 @@ a list of titles: each post is something that happened.
       <div class="feed__person" data-feed-person><p class="feed__muted">正在选今天的人…</p></div>
       <script type="application/json" data-feed-people>[{% for pf in pf_all limit: 60 %}{% assign pp = pf.slug | person_record %}{% assign featured_person = pf.slug | person_identity %}{"n":{{ featured_person.label | default: pf.name | jsonify }},"s":{{ pf.slug | jsonify }},"a":{{ pp.avatar | default: "" | relative_url | jsonify }},"r":{{ pp.role | default: pf.credits.line | default: "" | truncate: 60 | jsonify }},"m":{{ pf.summary | strip_newlines | truncate: 150 | jsonify }},"e":{{ pf.interviews.entries | default: 0 }},"y":{{ pf.interviews.first | append: "–" | append: pf.interviews.last | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
     {% endcapture %}
-    {% capture foot %}<a href="{{ '/people/' | relative_url }}">人物库 {{ lib_people | size }} 人 →</a>{% endcapture %}
+    {% capture foot %}<a href="{{ '/people/' | relative_url }}">人物库 {% include inv.html key="people" %} 人 →</a>{% endcapture %}
     {% include feed-item.html kind="person" date="" who="人物聚焦" avatar="" body=body foot=foot id="feedPerson" %}
   {% endif %}
   {% assign n_mod = n | modulo: 6 %}
@@ -192,16 +192,17 @@ a list of titles: each post is something that happened.
   <section class="feed__rail-section" aria-label="收录规模">
     <h2 class="feed__rail-head">规模</h2>
     <p class="library__stats">
-      <span><b>{{ lib_posts | size }}</b> 条 · {{ lib_by_year.first.name }}–{{ lib_by_year.last.name }}</span>
-      <a href="{{ '/search/?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91' | relative_url }}">访谈 <b>{{ lib_interview | size }}</b></a>
-      <a href="{{ '/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91' | relative_url }}">扫描 <b>{{ lib_scan | size }}</b></a>
-      <a href="{{ '/gamefreak-director/' | relative_url }}">博客 <b>{{ gf_masuda_posts.size | plus: gf_art_posts.size | plus: gf_staff_posts.size }}</b></a>
-      <a href="{{ '/people/' | relative_url }}">人物 <b>{{ lib_people | size }}</b></a>
-      <a href="{{ '/works/' | relative_url }}">作品 <b>{{ site.data.works | where_exp: "w", "w.placeholder == nil" | size }}</b></a>
-      <a href="{{ '/notes/' | relative_url }}">站主笔记 <b>{{ lib_long | size }}</b></a>
+      <span>{% include inv.html key="total" %} 条 · {{ lib_by_year.first.name }}–{{ lib_by_year.last.name }}</span>
+      <a href="{{ '/search/?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91' | relative_url }}">访谈 {% include inv.html key="kind_interview" %}</a>
+      <a href="{{ '/search/?type=%E6%89%AB%E6%8F%8F%E7%BF%BB%E8%AF%91' | relative_url }}">扫描 {% include inv.html key="kind_scan" %}</a>
+      <a href="{{ '/gamefreak-director/' | relative_url }}">博客 {% include inv.html key="kind_blog" %}</a>
+      <a href="{{ '/people/' | relative_url }}">人物 {% include inv.html key="people" %}</a>
+      <a href="{{ '/works/' | relative_url }}">作品 {% include inv.html key="works" %}</a>
+      <a href="{{ '/notes/' | relative_url }}">站主笔记 {% include inv.html key="kind_long" %}</a>
       <a href="{{ '/categories/' | relative_url }}">全部分类</a>
-      <a href="{{ '/credits/' | relative_url }}">制作名单 <b>{{ site.data.credits_games | size }}</b> 作</a>
+      <a href="{{ '/credits/' | relative_url }}">制作名单 {% include inv.html key="credits_games" %} 作</a>
     </p>
+    {% include inv-definitions.html %}
   </section>
   <section class="feed__rail-section" aria-label="分类">
     <h2 class="feed__rail-head">分类</h2>

@@ -38,7 +38,7 @@
 .co-more { margin: 12px 0 0; display: flex; gap: 16px; font-size: 13px; }
 
 /* composition */
-.co-k-interview { --k: #2563eb; } .co-k-scan { --k: #7c3aed; } .co-k-blog { --k: #0f766e; }
+.co-k-interview { --k: #2563eb; } .co-k-feature { --k: #db2777; } .co-k-scan { --k: #7c3aed; } .co-k-blog { --k: #0f766e; }
 .co-k-topic { --k: #0891b2; } .co-k-long { --k: #c2410c; } .co-k-doc { --k: #64748b; } .co-k-other { --k: #94a3b8; }
 .co-bar { display: flex; height: 16px; overflow: hidden; border-radius: 999px; background: #f1f5f9; gap: 2px; }
 .co-seg { background: var(--k); min-width: 4px; }

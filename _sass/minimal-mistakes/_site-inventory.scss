@@ -1,0 +1,17 @@
+/* 站点清单的数字口径（_includes/inv-definitions.html）：首页馆藏概览、资料窗口侧栏、/en/ 共用的折叠说明 */
+[data-inv][title] { cursor: help; }
+.inv-defs { margin: 1.25rem 0 0; font-size: .8rem; line-height: 1.55; color: var(--inv-muted, #64748b); }
+.inv-defs > summary { cursor: pointer; font-weight: 700; color: inherit; }
+.inv-defs > p { margin: .5rem 0; }
+.inv-defs h3 { margin: .9rem 0 .3rem; font-size: .78rem; letter-spacing: .04em; color: #334155; }
+.inv-defs dl { display: grid; grid-template-columns: minmax(7rem, max-content) 1fr; gap: .2rem .8rem; margin: 0; }
+.inv-defs dt { font-weight: 600; color: #1f2937; white-space: nowrap; }
+.inv-defs dt [data-inv] { margin-left: .25rem; font-variant-numeric: tabular-nums; }
+.inv-defs dd { margin: 0; }
+@media (max-width: 560px) {
+  .inv-defs dl { grid-template-columns: 1fr; }
+  .inv-defs dd { margin-bottom: .35rem; }
+}
+@media (prefers-color-scheme: dark) {
+  .inv-defs h3, .inv-defs dt { color: #e2e8f0; }
+}

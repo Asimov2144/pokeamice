@@ -77,7 +77,7 @@ Sets nothing for the caller. Expects interview_posts.
           {%- assign kind = "" -%}
           {%- assign cats = post.categories | join: "," -%}
           {%- if post.source_kind == "technical_report" or post.article_kind == "technical_feature" -%}{%- assign kind = "技术专题" -%}
-          {%- elsif post.translation_segments or post.archive_type == "scan_translation" -%}{%- assign kind = "杂志扫描" -%}
+          {%- elsif post.inv_kind == "scan" -%}{%- assign kind = "杂志扫描" -%}
           {%- elsif cats contains "首藤刚志手记" or post.title contains "创作手记" -%}{%- assign kind = "手记连载" -%}
           {%- elsif cats contains "recruit" or post.title contains "招聘" or post.title contains "採用" -%}{%- assign kind = "招聘访谈" -%}
           {%- elsif post.title contains "社长问" or post.publication contains "社長が訊く" -%}{%- assign kind = "社长问" -%}

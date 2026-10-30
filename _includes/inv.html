@@ -1,0 +1,11 @@
+{%- comment -%}
+One number from the site inventory (_data/site_inventory.json, tools/site_inventory.py) with its
+definition (口径) as the tooltip. data-inv is what tools/site_inventory.py check reads: every number
+printed this way must equal the inventory, so do not print an inventory count any other way.
+  {% include inv.html key="kind_scan" %}            -> <b data-inv="kind_scan" title="口径：…">53</b>
+  {% include inv.html key="people" lang="en" tag="strong" %}
+{%- endcomment -%}
+{%- assign inv_m = site.data.site_inventory.metrics[include.key] -%}
+{%- assign inv_tag = include.tag | default: "b" -%}
+{%- if include.lang == "en" -%}{%- assign inv_def = inv_m.definition_en | prepend: "Definition: " -%}{%- else -%}{%- assign inv_def = inv_m.definition | prepend: "口径：" -%}{%- endif -%}
+<{{ inv_tag }} data-inv="{{ include.key }}" title="{{ inv_def | escape }}">{{ inv_m.value }}</{{ inv_tag }}>

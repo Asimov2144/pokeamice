@@ -15,11 +15,11 @@ Needs the counts of home-dimensions.html.
     <div class="fbar__panel">
       <p class="fbar__cap">内容类型</p>
       <div class="dims__types">
-        <button type="button" data-dim="type" data-value="访谈翻译">访谈翻译 <b>{{ dims_n_interview }}</b></button>
-        <button type="button" data-dim="type" data-value="媒体专题">媒体专题 <b>{{ dims_n_feature }}</b></button>
-        <button type="button" data-dim="type" data-value="扫描翻译">扫描翻译 <b>{{ dims_n_scan }}</b></button>
-        <button type="button" data-dim="type" data-value="Game Freak 博客">Game Freak 博客 <b>{{ dims_n_blog }}</b></button>
-        <button type="button" data-dim="type" data-value="文档">文档 <b>{{ dims_n_doc }}</b></button>
+        <button type="button" data-dim="type" data-value="访谈翻译">访谈翻译 {% include inv.html key="kind_interview" %}</button>
+        <button type="button" data-dim="type" data-value="媒体专题">媒体专题 {% include inv.html key="kind_feature" %}</button>
+        <button type="button" data-dim="type" data-value="扫描翻译">扫描翻译 {% include inv.html key="kind_scan" %}</button>
+        <button type="button" data-dim="type" data-value="Game Freak 博客">Game Freak 博客 {% include inv.html key="kind_blog" %}</button>
+        <button type="button" data-dim="type" data-value="文档">文档 {% include inv.html key="kind_doc" %}</button>
       </div>
     </div>
   </details>

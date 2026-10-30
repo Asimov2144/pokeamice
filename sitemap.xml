@@ -9,6 +9,8 @@ sitemap: false
   /entities/ 下的人物·作品·组织·事件页、标签、分类、年表和内部工具页大多是几百字的索引页，
   Google 发现了也不愿收录，不再提交，靠正文里的内链被发现。
   站务帖（分类含 Sites 的更新日志、建站纪事、新年贺词）同样不提交。
+  帖子收不收由站点清单决定（post.inv_indexed，tools/site_inventory.py）；每类多少个网址也记在清单的
+  sitemap_* 里，部署前 tools/site_inventory.py check 按类数这个文件，对不上就不发布。
 {%- endcomment -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -16,7 +18,7 @@ sitemap: false
     <loc>{{ "/" | absolute_url | xml_escape }}</loc>
   </url>
 {%- for post in site.posts %}
-  {%- if post.sitemap == false or post.categories contains "Sites" %}{% continue %}{% endif %}
+  {%- unless post.inv_indexed %}{% continue %}{% endunless %}
   <url>
     <loc>{{ post.url | absolute_url | xml_escape }}</loc>
     <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
