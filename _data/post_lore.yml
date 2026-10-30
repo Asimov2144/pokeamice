@@ -51469,6 +51469,49 @@
   - anchor: 6
     seg: 5
     text: 福岛县吉利蛋公园以带来幸福（福）的吉利蛋为主题
+2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda:
+  facets:
+    people:
+    - name: 読売新聞
+      role: speaker
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    places:
+    - name: 宝可梦中心
+      what: 园区设施
+      world: real
+    - name: 读卖乐园
+      what: 游乐园
+      world: real
+    - name: 宝可梦森林
+      what: 园区区域
+      world: real
+    - name: 卡雅茨利镇
+      what: 园区区域
+      world: real
+    - name: 友好商店
+      what: 园区设施
+      world: real
+    - name: 道馆
+      what: 园区设施
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可乐园 关东
+      slug: null
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 GO
+      slug: null
+  id: interview-yomiuri-2025-pokepark-kanto-masuda
+  observations:
+  - anchor: 1
+    seg: 0
+    text: 宝可乐园 关东将于2026年春季在读卖乐园内开业。
+  - anchor: 21
+    seg: 20
+    text: 设施内有超过600只宝可梦，每只都构思了故事。
 2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte:
   facets:
     people: []

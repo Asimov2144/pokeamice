@@ -1,0 +1,263 @@
+{
+ "id": "interview-yomiuri-2025-pokepark-kanto-masuda",
+ "stem": "2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda",
+ "rev": 1,
+ "built": "2026-10-30",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 31
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可乐园 关东",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     7,
+     20,
+     28
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 GO",
+    "slug": null,
+    "seg": [
+     15
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "読売新聞",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     7,
+     14,
+     19,
+     24,
+     27
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     3,
+     5,
+     6,
+     8,
+     10,
+     12
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "园区设施",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "读卖乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     0
+    ],
+    "what": "游乐园",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "园区区域",
+    "via": "llm"
+   },
+   {
+    "name": "卡雅茨利镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "园区区域",
+    "via": "llm"
+   },
+   {
+    "name": "友好商店",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "园区设施",
+    "via": "llm"
+   },
+   {
+    "name": "道馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     13
+    ],
+    "what": "园区设施",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     3,
+     5
+    ],
+    "as": [
+     "连接起来",
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     3
+    ],
+    "as": [
+     "卡牌游戏"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     5
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     13
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "mobile-app",
+    "name": "手机应用",
+    "facet": "franchise",
+    "seg": [
+     15
+    ],
+    "as": [
+     "智能手机"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     24,
+     26
+    ],
+    "as": [
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "composing",
+    "name": "作曲",
+    "facet": "audio",
+    "seg": [
+     30
+    ],
+    "as": [
+     "作曲"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 0,
+   "text": "宝可乐园 关东将于2026年春季在读卖乐园内开业。",
+   "anchor": 1
+  },
+  {
+   "seg": 20,
+   "text": "设施内有超过600只宝可梦，每只都构思了故事。",
+   "anchor": 21
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}
