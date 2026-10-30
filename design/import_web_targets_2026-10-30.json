@@ -1,0 +1,30 @@
+{
+ "note": "The Yomiuri interview with Masuda Junichi on Pokepark Kanto (page: 2025-07-22 22:39; the 0715 in the URL is the article number)",
+ "targets": [
+  {
+   "key": "yomiuri-2025-pokepark-kanto-masuda",
+   "url": "https://www.yomiuri.co.jp/national/20250715-OYT1T50180/",
+   "lang": "ja",
+   "date": "2025-07-22",
+   "outlet": "読売新聞オンライン",
+   "outlet_zh": "读卖新闻",
+   "title": "「いつでもポケモンに会える」「手をのばせば実際に触れる」場所にこだわり…増田順一・チーフ・クリエイティブ・フェロー",
+   "kind": "interview",
+   "asker": "読売新聞",
+   "speakers": {
+    "増田": "增田顺一"
+   },
+   "works": [
+    "宝可乐园 关东"
+   ],
+   "tags": [
+    "読売新聞",
+    "宝可乐园 关东",
+    "增田顺一",
+    "よみうりランド"
+   ],
+   "container": "div.p-main-contents",
+   "drop": "^©|登録商標です|^あわせて読みたい|^ポケモンスタンプ集めよう|^ポケパーク カントー 特集へ"
+  }
+ ]
+}
