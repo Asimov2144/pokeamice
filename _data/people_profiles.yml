@@ -3,11 +3,11 @@
   slug: masuda-junichi
   kind: person
   interviews:
-    entries: 126
-    spoken_in: 116
-    columns: 508
+    entries: 133
+    spoken_in: 123
+    columns: 507
     first: '1996'
-    last: '2019'
+    last: '2025'
   credits:
     games: 67
     core_games: 28
@@ -36,75 +36,81 @@
       games: 3
     - cat: 管理/协调
       games: 2
-  summary: 增田顺一长期参与宝可梦系列开发，署名涵盖总监、制作人、音乐、企划与美术等多个领域，早期还以程序员身份参与并同时负责音乐 [6]。他重视游戏核心趣味的延续，认为从最初作品至今概念始终如一：寻找并捕捉宝可梦、与训练家对战 [9]。在具体设计上，他关注属性平衡，曾因龙属性等使对战平衡倾斜而推动引入妖精属性 [8]；也重视交换这一核心概念，并据此选择便携式硬件 [3]。在音乐方面，他坚持仅凭倾听便能心领神会的作曲原则，用旋律刻画玩家旅程中的心境变化 [8]。
+  summary: 增田顺一长期在 GAME FREAK 担任总监与制作人，同时从系列初期起负责音乐与音效，并参与编程、剧本和世界观设定 [3][6][7]。他重视玩家之间的交流，把交换与沟通视为宝可梦的基本理念，并据此设计通信与多人游玩功能 [2][9][12]。在创作方法上，他先考虑游玩内容与新元素，再规划地区、城镇、道馆和宝可梦 [5]；他也从对战平衡出发调整系统，例如加入妖精属性 [8]。近年他参与策划线下常设设施，强调让宝可梦“真实存在、能够触摸” [12]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 提到6年前制作的宝可梦叫声仍在使用，并回忆最后关头加入通信对战。
+    detail: 回忆6年前制作的宝可梦叫声仍在使用，并称最后加入通信对战最费苦功。
   - n: 2
-    post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
-    title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
-    date: '2003-02-21'
-    publication: Nintendo DREAM
-    detail: 谈到用旧作宝可梦补足属性不足，并称不放可达鸭不行。
+    post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
+    title: CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦
+    date: '2003-05-30'
+    publication: CVG
+    detail: 说明GBA版实现四人同时传输，并称交流是宝可梦背后的基本理念。
   - n: 3
-    post: 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru
-    title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
-    date: '2009-03-24'
-    publication: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!
-    detail: 称与杉森建讨论很久才设计出皮丘，并提到晃晃斑每只图案不同。
-  - n: 4
-    post: 2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence
-    title: '[访谈翻译] 社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）'
-    date: '2010-09-10'
-    publication: 任天堂官网「社長が訊く」
-    detail: 说明本作过桥前有意不改变以往世界，过桥后游戏变得开放。
+    post: 2009-04-01-interview-nintendo-power-masuda-gens-1-4
+    title: '[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）'
+    date: '2009-04-01'
+    publication: 'Nintendo power Interview: Masuda on Developing Gens 1-4'
+    detail: 21岁受田尻智邀请入行作曲，开发“声音驱动”程序并负责宝可梦叫声。
   - n: 5
-    post: 2011-02-21-scan-ndream-2011-04-masuda-bridges
-    title: Nintendo DREAM 2011：增田顺一谈《宝可梦 黑·白》桥梁诞生秘话
-    date: '2011-02-21'
-    publication: Nintendo DREAM
-    detail: 称合众地区以纽约为原型，天箭桥参考布鲁克林大桥与彩虹大桥。
+    post: 2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains
+    title: '[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）'
+    date: '2011-03-01'
+    publication: Eurogamer
+    detail: 称新作先考虑游玩内容与新元素，再规划地区、城镇、道馆与宝可梦。
   - n: 6
-    post: 2012-07-21-scan-ndream-221-b2w2-developer-interview
-    title: Nintendo DREAM 2012：宝可梦 黑2·白2 开发者访谈
-    date: '2012-07-21'
-    publication: Nintendo DREAM
-    detail: 提到GAME FREAK当初规模小，每人尝试各种工作成为公司风气基础。
+    post: 2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno
+    title: '[访谈翻译] 周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）'
+    date: '2012-08-05'
+    publication: 週刊ファミ通 (Famitsu.com)
+    detail: 表示自己参与作曲、剧本与整体执导等多项工作，不限定于单一领域。
   - n: 7
-    post: 2013-09-21-interview-nintendolife-2013-xy
-    title: Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》
-    date: '2013-09-21'
-    publication: Nintendo Life
-    detail: 称标题X和Y来自X轴与Y轴，代表不同思维方式与观点。
+    post: 2013-10-04-interview-nwr-xy-masuda-yoshida
+    title: Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训
+    date: '2013-10-04'
+    publication: Nintendo World Report
+    detail: 称任总监后作曲减少，但在《X／Y》仍创作野生、训练家、道馆馆主与四天王战斗音乐。
   - n: 8
-    post: 2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama
-    title: 4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录
+    post: 2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama
+    title: '[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学'
     date: '2013-11-16'
-    publication: 4Gamer.net
-    detail: 称因龙属性等使平衡倾斜，与森本茂树研讨后引入妖精属性。
+    publication: 週刊ファミ通 (Famitsu.com)
+    detail: 称因观赛感到对战平衡失衡而决定加入妖精属性。
   - n: 9
-    post: 2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori
-    title: 专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋
-    date: '2016-12-05'
-    publication: GQ España
-    detail: 称游戏核心趣味从最初至今没有太大变化，概念始终如一。
+    post: 2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori
+    title: MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”
+    date: '2016-12-12'
+    publication: MeriStation
+    detail: 称宝可梦是沟通工具，将根据当时主机技术考量如何维持人们聚在一起游玩。
+  - n: 10
+    post: 2018-05-12-interview-4gamer-2018-usum-fanmeeting
+    title: 4Gamer.net 2018：Game Freak谈《宝可梦 究极之日·究极之月》秘话
+    date: '2018-05-12'
+    publication: 4Gamer.net
+    detail: 据4Gamer.net报道，他在活动中透露为奈克洛兹玛战斗BGM作曲，主题为“未完成”。
   - n: 11
-    post: 2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori
-    title: Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新
-    date: '2019-06-13'
-    publication: ファミ通.com
-    detail: 称因Switch开发工时与时间成本大增，以保证品质和发售档期为优先。
+    post: 2019-10-01-interview-gi-2019-dexit
+    title: Game Informer 2019：增田顺一谈《宝可梦 剑·盾》图鉴削减与未来回归
+    date: '2019-10-01'
+    publication: Game Informer
+    detail: 据Game Informer报道，他解释《剑／盾》削减宝可梦是为优先新的玩法构想。
+  - n: 12
+    post: 2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda
+    title: 读卖新闻 2025：增田顺一谈宝可乐园 关东的构想与讲究
+    date: '2025-07-22'
+    publication: 读卖新闻
+    detail: 称从制作首作起就重视通过宝可梦让人交流，并策划可随时相聚的线下设施。
   expertise:
   - 总监/制作人
   - 音乐
   - 企划
-  - 战斗平衡
-  - 宝可梦设计
-  - 程序开发
+  - 音效程序
+  - 战斗系统
+  - 世界观设定
 - name: 杉森建
   slug: sugimori-ken
   kind: person

@@ -1,70 +1,74 @@
 {
- "key": "83cc4734aff396da",
+ "key": "83702a88a0c8ab87",
  "answer": {
-  "summary": "增田顺一长期参与宝可梦系列开发，署名涵盖总监、制作人、音乐、企划与美术等多个领域，早期还以程序员身份参与并同时负责音乐 [6]。他重视游戏核心趣味的延续，认为从最初作品至今概念始终如一：寻找并捕捉宝可梦、与训练家对战 [9]。在具体设计上，他关注属性平衡，曾因龙属性等使对战平衡倾斜而推动引入妖精属性 [8]；也重视交换这一核心概念，并据此选择便携式硬件 [3]。在音乐方面，他坚持仅凭倾听便能心领神会的作曲原则，用旋律刻画玩家旅程中的心境变化 [8]。",
+  "summary": "增田顺一长期在 GAME FREAK 担任总监与制作人，同时从系列初期起负责音乐与音效，并参与编程、剧本和世界观设定 [3][6][7]。他重视玩家之间的交流，把交换与沟通视为宝可梦的基本理念，并据此设计通信与多人游玩功能 [2][9][12]。在创作方法上，他先考虑游玩内容与新元素，再规划地区、城镇、道馆和宝可梦 [5]；他也从对战平衡出发调整系统，例如加入妖精属性 [8]。近年他参与策划线下常设设施，强调让宝可梦“真实存在、能够触摸” [12]。",
   "expertise": [
-   "总监制作",
    "音乐作曲",
-   "企划设计",
-   "战斗平衡",
-   "宝可梦设计",
-   "程序开发"
+   "音效程序",
+   "总监制作",
+   "战斗系统",
+   "世界观设定",
+   "交流玩法"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "提到6年前制作的宝可梦叫声仍在使用，并回忆最后关头加入通信对战。"
+    "detail": "回忆6年前制作的宝可梦叫声仍在使用，并称最后加入通信对战最费苦功。"
    },
    {
     "n": 2,
-    "detail": "谈到用旧作宝可梦补足属性不足，并称不放可达鸭不行。"
+    "detail": "说明GBA版实现四人同时传输，并称交流是宝可梦背后的基本理念。"
    },
    {
     "n": 3,
-    "detail": "称与杉森建讨论很久才设计出皮丘，并提到晃晃斑每只图案不同。"
-   },
-   {
-    "n": 4,
-    "detail": "说明本作过桥前有意不改变以往世界，过桥后游戏变得开放。"
+    "detail": "21岁受田尻智邀请入行作曲，开发“声音驱动”程序并负责宝可梦叫声。"
    },
    {
     "n": 5,
-    "detail": "称合众地区以纽约为原型，天箭桥参考布鲁克林大桥与彩虹大桥。"
+    "detail": "称新作先考虑游玩内容与新元素，再规划地区、城镇、道馆与宝可梦。"
    },
    {
     "n": 6,
-    "detail": "提到GAME FREAK当初规模小，每人尝试各种工作成为公司风气基础。"
+    "detail": "表示自己参与作曲、剧本与整体执导等多项工作，不限定于单一领域。"
    },
    {
     "n": 7,
-    "detail": "称标题X和Y来自X轴与Y轴，代表不同思维方式与观点。"
+    "detail": "称任总监后作曲减少，但在《X／Y》仍创作野生、训练家、道馆馆主与四天王战斗音乐。"
    },
    {
     "n": 8,
-    "detail": "称因龙属性等使平衡倾斜，与森本茂树研讨后引入妖精属性。"
+    "detail": "称因观赛感到对战平衡失衡而决定加入妖精属性。"
    },
    {
     "n": 9,
-    "detail": "称游戏核心趣味从最初至今没有太大变化，概念始终如一。"
+    "detail": "称宝可梦是沟通工具，将根据当时主机技术考量如何维持人们聚在一起游玩。"
+   },
+   {
+    "n": 10,
+    "detail": "据4Gamer.net报道，他在活动中透露为奈克洛兹玛战斗BGM作曲，主题为“未完成”。"
    },
    {
     "n": 11,
-    "detail": "称因Switch开发工时与时间成本大增，以保证品质和发售档期为优先。"
+    "detail": "据Game Informer报道，他解释《剑／盾》削减宝可梦是为优先新的玩法构想。"
+   },
+   {
+    "n": 12,
+    "detail": "称从制作首作起就重视通过宝可梦让人交流，并策划可随时相聚的线下设施。"
    }
   ]
  },
  "posts": [
   "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-  "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
-  "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru",
-  "2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence",
-  "2011-02-21-scan-ndream-2011-04-masuda-bridges",
-  "2012-07-21-scan-ndream-221-b2w2-developer-interview",
-  "2013-09-21-interview-nintendolife-2013-xy",
-  "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
-  "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori",
-  "2017-11-06-interview-2017-game-freak-dordogne-enquete",
-  "2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
-  "2019-11-13-interview-gi-2019-going-big"
+  "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+  "2009-04-01-interview-nintendo-power-masuda-gens-1-4",
+  "2010-09-10-interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+  "2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains",
+  "2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno",
+  "2013-10-04-interview-nwr-xy-masuda-yoshida",
+  "2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama",
+  "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori",
+  "2018-05-12-interview-4gamer-2018-usum-fanmeeting",
+  "2019-10-01-interview-gi-2019-dexit",
+  "2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda"
  ]
 }
