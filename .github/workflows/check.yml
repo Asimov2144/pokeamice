@@ -2,7 +2,7 @@
 #
 # A full build takes ~3.5 minutes here and ~15 on the Windows machine the site is edited on, so a
 # branch pushed to GitHub is the quick way to check the whole site before it goes to main. Same steps
-# as the deploy (jekyll.yml) - App data export, Jekyll, the App data check - plus the site check
+# as the deploy (jekyll.yml) - App data export, site inventory, Jekyll, the App data and inventory checks - plus the site check
 # (tools/check-build.py); nothing is uploaded or deployed. The App data check compares with what is
 # live, so a branch that drops posts on purpose shows it here first.
 name: Check a branch
@@ -43,10 +43,15 @@ jobs:
           python tools/export-document-entities.py --commit "${GITHUB_SHA::8}" > /dev/null
         env:
           PYTHONHASHSEED: '0'
+      # 站点清单：首页、资料窗口、英文层、sitemap 上的数字都从这里来，见 tools/site_inventory.py
+      - name: Build site inventory
+        run: python tools/site_inventory.py build
       - name: Build with Jekyll
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Check site inventory
+        run: python tools/site_inventory.py check --site _site
       - name: Check the site
         run: python tools/check-build.py _site
       - name: Check App data
