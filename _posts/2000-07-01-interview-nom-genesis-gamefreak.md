@@ -23,11 +23,11 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nom-genesis-gamefreak/masuda.jpg
-  caption: 增田顺一（董事・开发部长）：负责总监、游戏设计、音乐、程序。在《红／绿》中负责音乐、程序。目前负责几乎所有企划和整体总监工作。
+  caption: "增田顺一（董事・开发部长）：负责总监、游戏设计、音乐、程序。在《红·绿》中负责音乐、程序。目前负责几乎所有企划和整体总监工作。"
   alt: 增田顺一肖像（2000年）
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nom-genesis-gamefreak/watanabe.jpg
-  caption: 渡边哲也（程序员）：在《红／绿》中负责演出方面的程序，在《金／银》中负责系统程序及声音驱动等。
+  caption: "渡边哲也（程序员）：在《红·绿》中负责演出方面的程序，在《金·银》中负责系统程序及声音驱动等。"
   alt: 渡边哲也肖像（2000年）
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nom-genesis-gamefreak/sugimori.jpg

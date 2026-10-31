@@ -93,7 +93,7 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/scarlet_violet.jpg
-  caption: 'Fans were underwhelmed by Pokémon Scarlet and Violet''s technical launch performance. Photograph: Nintendo（《宝可梦 朱／紫》发售初期的技术瓶颈与画面表现曾引发玩家社群的热烈讨论。图片来源：任天堂）'
+  caption: "Fans were underwhelmed by Pokémon Scarlet and Violet's technical launch performance. Photograph: Nintendo（《宝可梦 朱·紫》发售初期的技术瓶颈与画面表现曾引发玩家社群的热烈讨论。图片来源：任天堂）"
   alt: 《宝可梦 朱／紫》发售初期的技术瓶颈与画面表现曾引发玩家社群的热烈讨论。图片来源：任天堂
 - speaker: The Guardian
   original: Outside the games, Pokémon’s recent releases have been spilling over more and more into real life with the eyebrow-raising sleep-tracking app, Pokémon Sleep, and a dental hygiene companion app called Pokémon Smile. It increasingly feels as if Pokémon are positioned less as battling monsters and more as mascots that slot into our day to day lives.

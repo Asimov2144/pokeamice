@@ -343,7 +343,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: Q9 『D・P』以外の新作はある?
-    translation: Q9 除了《D・P》还有新作吗？
+    translation: "Q9 除了《D·P》还有新作吗？"
   - speaker: 石原恒和
     type: paragraph
     kind: text

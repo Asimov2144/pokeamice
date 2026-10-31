@@ -69,7 +69,7 @@ parallel_items:
   translation: "想制作面向全世界的作品。"
 - type: image
   src: /assets/img/interviews/2019-gamefreak-recruit-pg-yi/img-01.jpg
-  caption: 为 3DS《宝可梦 太阳／月亮》从零全量自研碰撞检测引擎
+  caption: "为 3DS《宝可梦 太阳·月亮》从零全量自研碰撞检测引擎"
 - type: text
   speaker: Y.I.
   avatar: /assets/img/interviews/2019-gamefreak-recruit-pg-yi/thumb-yi.jpg

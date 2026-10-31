@@ -70,7 +70,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「ポケットモンスター X・Y」発売直前記念！ 巻頭スペシャルインタビュー
-    translation: 《宝可梦 X・Y》发售前夕纪念！卷首特别访谈
+    translation: "《宝可梦 X·Y》发售前夕纪念！卷首特别访谈"
   - type: heading
     kind: text
     region_type: heading
@@ -90,7 +90,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモン X・Y』のバトルがここまでわかった！
-    translation: 《宝可梦 X・Y》的对战已经了解到这个程度了！
+    translation: "《宝可梦 X·Y》的对战已经了解到这个程度了！"
   - type: heading
     kind: text
     region_type: heading
@@ -120,7 +120,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: シリーズの常識を覆す、さまざまな新しい試みが行われている『ポケットモンスター X・Y』。今回は「バトル」に関する新要素を中心に、開発を手掛けた株式会社ゲームフリークの増田順一さん、森本茂樹さんを直撃取材。バトル初心者へのアドバイスからディープな極秘情報まで、たっぷり語っていただきました！
-    translation: 《宝可梦 X・Y》进行了各种颠覆系列常识的新尝试。本次我们直击采访了负责开发的GAME FREAK的增田顺一和森本茂树，重点围绕与“对战”相关的新要素。从给对战初学者的建议到深入的极秘情报，他们畅谈了许多！
+    translation: "《宝可梦 X·Y》进行了各种颠覆系列常识的新尝试。本次我们直击采访了负责开发的GAME FREAK的增田顺一和森本茂树，重点围绕与“对战”相关的新要素。从给对战初学者的建议到深入的极秘情报，他们畅谈了许多！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -160,7 +160,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 今回は「ポケットモンスター X・Y」の新要素を中心に「ポケモンバトル」についてお伺いしたいと思います。よろしくお願いします。
-    translation: 本次想以《宝可梦 X・Y》的新要素为中心，请教关于“宝可梦对战”的内容。请多关照。
+    translation: "本次想以《宝可梦 X·Y》的新要素为中心，请教关于“宝可梦对战”的内容。请多关照。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -180,7 +180,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 先日の「ニンテンドーダイレクト」での放送や「ポケモンゲームショウ」での体験版テレビCMを間と、「ポケットモンスター X・Y」のままなバトル映像を見られるようになりました。立体的になったポケモンたちが今までに生き生きと動くのは、3DSならではという感じがします。
-    translation: 在前些天的“任天堂直面会”播出以及“宝可梦游戏展”的体验版电视广告之后，已经可以看到《宝可梦 X・Y》的对战影像了。立体化的宝可梦们比以往更加生动地动起来，让人感觉这正是3DS独有的表现。
+    translation: "在前些天的“任天堂直面会”播出以及“宝可梦游戏展”的体验版电视广告之后，已经可以看到《宝可梦 X·Y》的对战影像了。立体化的宝可梦们比以往更加生动地动起来，让人感觉这正是3DS独有的表现。"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -330,7 +330,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 「ポケモンＸ・Ｙ」系『ポケットモンスター』シリーズは、意識して変えている部分もあるんです。例えばポケモンバトルレボリューションなどでは、ちらちらとシェーディングが路線に寄った物の作りかたをしていたんです。具体的には「フィクス感」などでかね。
-    translation: 《宝可梦 X・Y》与《宝可梦》系列相比，也有刻意改变的部分。例如在《宝可梦战斗革命》等作品中，我们曾采用偏向写实路线的渲染方式。具体来说，就是追求一种“真实感”。
+    translation: "《宝可梦 X·Y》与《宝可梦》系列相比，也有刻意改变的部分。例如在《宝可梦战斗革命》等作品中，我们曾采用偏向写实路线的渲染方式。具体来说，就是追求一种“真实感”。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -350,7 +350,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 『ポケモンＸ・Ｙ』ではリアル感を追求するよりも、ある程度ファンタジックな面を持っていいる方が楽しいし、やりやすいだろうと考えました。ポケモンって「草むらを歩いていたら出てきて、捕まえたくなるかわいらしさを持っている」、身近なものなんですよ。ゲームの中でその感覚を表現するため、ポケモンの魅力を前面に出すため、ふわっとした柔らかいシェーダー（※）を使うなどしています。
-    translation: 在《宝可梦 X・Y》中，比起追求真实感，我们认为在一定程度上保留幻想色彩会更有趣，也更容易制作。宝可梦是“走在草丛里就会冒出来，让人忍不住想捕捉的可爱存在”，是很贴近身边的东西。为了在游戏中表现这种感觉，为了将宝可梦的魅力展现出来，我们使用了柔和蓬松的着色器（※）等。
+    translation: "在《宝可梦 X·Y》中，比起追求真实感，我们认为在一定程度上保留幻想色彩会更有趣，也更容易制作。宝可梦是“走在草丛里就会冒出来，让人忍不住想捕捉的可爱存在”，是很贴近身边的东西。为了在游戏中表现这种感觉，为了将宝可梦的魅力展现出来，我们使用了柔和蓬松的着色器（※）等。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -810,7 +810,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: "メガシンカ以外にも、さらに気になる戦闘が!? もちろん気になりますが、「ポケモンＸ・Ｙ」のバトルで、メガシンカが勝敗のカギを握ることは確かなんですね。"
-    translation: 除了超级进化之外，还有更令人在意的战斗！？虽然确实很令人在意，但在《宝可梦 X・Y》的对战中，超级进化掌握胜负关键这一点是确凿的吧。
+    translation: "除了超级进化之外，还有更令人在意的战斗！？虽然确实很令人在意，但在《宝可梦 X·Y》的对战中，超级进化掌握胜负关键这一点是确凿的吧。"
   - speaker: 森本茂树
     type: paragraph
     kind: text

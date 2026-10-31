@@ -199,7 +199,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: We’re definitely always thinking of that kind of forward-moving functionality, especially since we’ve introduced the Pokemon Bank. Now, up to Ultra Sun and Ultra Moon, you’re able to store your Pokemon. We know they’re very important to everyone. I mean, obviously, people would be very sad if they couldn’t use their Pokemon in a future game. So, it does get complicated when you talk about the details and we’re still figuring it out, but we do have plans to find ways to let players use their Pokemon in the next game.
-  translation: 我们始终在考虑这种前瞻性的功能设计，特别是在引入了宝可梦银行之后。目前，直至《究极之日／究极之月》，玩家都能存储自己的宝可梦。我们深知这些宝可梦对每位玩家都至关重要。显然，如果玩家无法在未来游戏中继续使用他们的宝可梦，会感到非常难过。因此，当涉及到具体细节时，情况就变得复杂了，我们仍在探索解决方案，但我们确实有计划寻找方法，让玩家能够在下一款游戏中使用他们的宝可梦。
+  translation: "我们始终在考虑这种前瞻性的功能设计，特别是在引入了宝可梦银行之后。目前，直至《究极之日·究极之月》，玩家都能存储自己的宝可梦。我们深知这些宝可梦对每位玩家都至关重要。显然，如果玩家无法在未来游戏中继续使用他们的宝可梦，会感到非常难过。因此，当涉及到具体细节时，情况就变得复杂了，我们仍在探索解决方案，但我们确实有计划寻找方法，让玩家能够在下一款游戏中使用他们的宝可梦。"
   role: answer
 - type: dialogue
   speaker: GameSpot

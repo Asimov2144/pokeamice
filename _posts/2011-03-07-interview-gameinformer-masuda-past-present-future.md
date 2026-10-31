@@ -124,7 +124,7 @@ parallel_items:
   note: 宝可梦全球连接是《黑／白》的在线服务，支持数据传输和远程互动。
 - speaker: 井部真那
   original: There were about 17 designers for Black and White project at Game Freak and one of the ways we make sure we don’t have too much overlap with any of the previous Pokémon is if we have a new design, we’ll take a silhouette of it, just the outline of it, and color the rest of it in black, and make sure the shape of it doesn’t overlap with previous Pokémon designs, and make sure it still looks original. We also do that with the color palette, color combinations, and make sure that there aren’t any Pokémon in the older games that share that exact same color palette as the new ones. Some of the directions we got from planners was to not be restricted or bound by old designs, for example, just because there might be one type of Pokémon existing in the old games, doesn’t mean you can’t make a similar type of Pokémon in a different light.
-  translation: 在GAME FREAK，负责《黑／白》项目的设计师大约有17人。我们确保新宝可梦不与以往任何宝可梦过于重叠的方法之一是，对于新设计，我们会先制作其剪影，只保留轮廓，其余部分涂黑，确保其形状不与之前的宝可梦设计重叠，并确保它看起来仍然具有原创性。我们还会对配色方案和颜色组合进行同样的检查，确保旧游戏中的任何宝可梦都没有与新的宝可梦完全相同的配色。策划人员给我们的指导方向之一是不要被旧设计所限制或束缚，例如，仅仅因为旧游戏中存在某种类型的宝可梦，并不意味着你不能以不同的角度来制作类似类型的宝可梦。
+  translation: "在GAME FREAK，负责《黑·白》项目的设计师大约有17人。我们确保新宝可梦不与以往任何宝可梦过于重叠的方法之一是，对于新设计，我们会先制作其剪影，只保留轮廓，其余部分涂黑，确保其形状不与之前的宝可梦设计重叠，并确保它看起来仍然具有原创性。我们还会对配色方案和颜色组合进行同样的检查，确保旧游戏中的任何宝可梦都没有与新的宝可梦完全相同的配色。策划人员给我们的指导方向之一是不要被旧设计所限制或束缚，例如，仅仅因为旧游戏中存在某种类型的宝可梦，并不意味着你不能以不同的角度来制作类似类型的宝可梦。"
 - speaker: 井部真那
   original: Finding inspiration in real-life animals, objects
   translation: 从现实生活中的动物和物品中寻找灵感

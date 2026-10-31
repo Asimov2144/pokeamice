@@ -239,7 +239,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/012.png
   alt: Early Concept Art
 - original: As you can see, Gastly’s trainer has a whip, perhaps indicating a more hands-on approach to participation in Pokémon battles. These whips are preserved in several trainer sprites in Red/Blue/Green, including the Cooltrainers, Rockets, Rockers, and Tamers, as well as Sabrina. Perhaps their designs are leftovers of the concept.
-  translation: 如你所见，鬼斯的训练家拿着鞭子，或许表明当时对参与宝可梦对战有更亲力亲为的设想。这些鞭子在《红／蓝／绿》的多个训练家精灵图中保留了下来，包括精英训练家、火箭队、摇滚乐手和驯兽师，以及娜姿。也许它们的设计是这一构想的遗留。
+  translation: "如你所见，鬼斯的训练家拿着鞭子，或许表明当时对参与宝可梦对战有更亲力亲为的设想。这些鞭子在《红·蓝·绿》的多个训练家精灵图中保留了下来，包括精英训练家、火箭队、摇滚乐手和驯兽师，以及娜姿。也许它们的设计是这一构想的遗留。"
 - original: At one time, the protagonist would fight as well. But then we asked ourselves “If you can fight on your own, what’s the point of having Pokémon?”
   role: answer
   speaker: 杉森建

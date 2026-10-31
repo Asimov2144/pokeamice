@@ -58,7 +58,7 @@ parallel_items:
   speaker: M.I.
   speaker_orig: 'M.I:'
   original: 私は2011年の中途入社です。前職は別のゲーム会社で３DグラフィックスのR&Dの部署で働いていました。現在は主に3Dモデルの描画等の表示制御のプログラムと、社内のゲーム制作環境の構築を行っています。
-  translation: "我是2011年中途入职的。之前在另一家游戏公司的3D图形R&D部门工作。现在主要负责3D模型描画等显示控制的程序，以及公司内部游戏制作环境的搭建。"
+  translation: "我是2011年中途入职的。之前在另一家游戏公司的3D图形R&D部门工作。现在主要负责3D模型渲染等显示控制的程序，以及公司内部游戏制作环境的搭建。"
   role: answer
 - type: heading
   level: 3
@@ -74,7 +74,7 @@ parallel_items:
   speaker: M.I.
   speaker_orig: 'M.I:'
   original: 今回から個人ベースで少しずつ専門領域に分かれてきた感はありますね。僕自身は描画の環境に特化していますよ。
-  translation: "从这次开始，感觉以个人为单位逐渐分出各自的专业领域了。我自己专门负责描画方面的环境。"
+  translation: "从这次开始，感觉以个人为单位逐渐分出各自的专业领域了。我自己专门负责渲染方面的环境。"
   role: answer
 - type: text
   speaker: T.T.

@@ -87,7 +87,7 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori/001_5d0152e94fc60.jpg
-  caption: 《宝可梦 剑／盾》制作人 增田顺一先生（左）与导演 大森滋先生（右）
+  caption: "《宝可梦 剑·盾》制作人 增田顺一先生（左）与导演 大森滋先生（右）"
 - original: ――（ソフトの発売段階で）ガラル図鑑に出てこないポケモンは、その後のアップデートで追加されることはあるのでしょうか。
   translation: ――（在游戏发售初期阶段）未被收录进伽勒尔图鉴的宝可梦，未来是否会通过后续更新的方式追加呢？
   speaker: Fami通

@@ -42,7 +42,7 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon/masudaohmori_610.jpg
-  caption: Pokémon Sun and Moon director Shigeru Ohmori (left) and Game Freak co-founder Junichi Masuda reflect on the studio's history.（《宝可梦 太阳／月亮》总监大森滋（左）与 GAME FREAK 联合创始人增田顺一（右）在工作室回顾草创历史。）
+  caption: "Pokémon Sun and Moon director Shigeru Ohmori (left) and Game Freak co-founder Junichi Masuda reflect on the studio's history.（《宝可梦 太阳·月亮》总监大森滋（左）与 GAME FREAK 联合创始人增田顺一（右）在工作室回顾草创历史。）"
   alt: 《宝可梦 太阳／月亮》总监大森滋（左）与 GAME FREAK 联合创始人增田顺一（右）在工作室回顾草创历史。
 - speaker: Game Informer
   original: Game Freak began as a magazine in Japan, or as Pokémon producer and composer and Game Freak co-founder Junichi Masuda refers to it, a mini comic. Satoshi Tajiri, who is credited as Pokémon’s creator, would visit arcades, talk to their owners and get tips for the games that would be included in the magazine, but making video games was always its goal. As a small group of video game fans, they didn’t think they could make an arcade game, but with the release of the Famicom (the Nintendo Entertainment System in America) Game Freak thought it might finally be able to make something.

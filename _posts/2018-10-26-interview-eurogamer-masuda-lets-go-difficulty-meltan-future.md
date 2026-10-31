@@ -61,7 +61,7 @@ parallel_items:
   caption: Game Freak 专访现场：总监兼执行董事增田顺一（Junichi Masuda）与环境美术设计主管菜花健作（Kensaku Nabana）
 - speaker: Eurogamer
   original: Two decades on from Pokémon Red and Blue's arrival here in the west, we're going back to Kanto once again. Pokémon Let's Go have made big changes - some proving more popular than others in the lead up to its release - but there's still a lingering sense that, with just the first generation of Pokémon available, in the first region, we've seen it all before. A couple of weeks ago, alongside an extended hands-on preview of Let's Go Pikachu and Eevee, we talked to Junichi Masuda, executive director and head of game development at Pokémon's main studio Game Freak, as well as fellow designer Kensaku Nabana, about some of the nitty gritty details fans are always after, including how that whole Meltan reveal came about, HMs, and those perpetual questions of difficulty, open worlds, and the series' future.
-  translation: "在《宝可梦 红·蓝》登陆西方二十年之后，我们再次回到了关都。《宝可梦 Let's Go！皮卡丘／Let's Go！伊布》做出了很大的改动——在发售前，其中一些改动比另一些更受欢迎——但仍有一种挥之不去的感觉：只有第一世代的宝可梦，只在第一个地区，这些我们以前都见过了。几周前，在长时间试玩《Let's Go！皮卡丘／伊布》之余，我们采访了宝可梦主要开发商 GAME FREAK 的执行董事兼游戏开发负责人增田顺一，以及同为设计师的菜花健作，请他们谈谈粉丝一直想知道的一些细节，包括美录坦的公布是怎么来的、秘传学习器，以及关于难度、开放世界和系列未来的那些老问题。"
+  translation: "在《宝可梦 红·蓝》登陆西方二十年之后，我们再次回到了关都。《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》做出了很大的改动——在发售前，其中一些改动比另一些更受欢迎——但仍有一种挥之不去的感觉：只有第一世代的宝可梦，只在第一个地区，这些我们以前都见过了。几周前，在长时间试玩《Let's Go！皮卡丘／伊布》之余，我们采访了宝可梦主要开发商 GAME FREAK 的执行董事兼游戏开发负责人增田顺一，以及同为设计师的菜花健作，请他们谈谈粉丝一直想知道的一些细节，包括美录坦的公布是怎么来的、秘传学习器，以及关于难度、开放世界和系列未来的那些老问题。"
   role: question
 - type: heading
   level: 3

@@ -33,7 +33,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida/01_hero_masuda_eurogamer.jpg
   alt: 增田顺一在伦敦接受 Eurogamer 专访
-  caption: 宝可梦系列总监增田顺一在伦敦接受 Eurogamer 独家专访，深度拆解《宝可梦 X／Y》的设计哲学。
+  caption: "宝可梦系列总监增田顺一在伦敦接受 Eurogamer 独家专访，深度拆解《宝可梦 X·Y》的设计哲学。"
 - type: dialogue
   speaker: Eurogamer
   original: Sólo he podido jugar un poco más de una hora, pero me ha parecido que el juego se sentía casi como un reboot, en algunos momentos. ¿Es una decisión consciente? Junichi

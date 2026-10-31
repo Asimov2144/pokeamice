@@ -59,19 +59,19 @@ parallel_items:
 - speaker: 增田顺一
   role: answer
   original: "Cuando terminamos Diamante y Perla, todavía tenía unas cuantas ideas que no había podido incluir en el juego. DP iba sobre el tiempo y el espacio. Con Platino, Giratina incorporaba algo más, algo opuesto al tiempo y al espacio. Pensé que había potencial para desarrollar un nuevo mundo. Y nos pusimos a ello."
-  translation: "完成《钻石／珍珠》之后，我还有几个没能放进游戏里的点子。DP讲的是时间与空间。在《白金》里，骑拉帝纳带来了更多东西，一种与时间和空间相对的东西。我觉得这有潜力开发出一个新的世界。于是我们就着手去做了。"
+  translation: "完成《钻石·珍珠》之后，我还有几个没能放进游戏里的点子。DP讲的是时间与空间。在《白金》里，骑拉帝纳带来了更多东西，一种与时间和空间相对的东西。我觉得这有潜力开发出一个新的世界。于是我们就着手去做了。"
 - speaker: Nintendo Acción
   role: question
   original: "Al ser una continuación de Diamante y Perla, ¿se puede decir que fue un desarrollo más o menos fácil?"
-  translation: "作为《钻石／珍珠》的续作，可以说开发或多或少更轻松吗？"
+  translation: "作为《钻石·珍珠》的续作，可以说开发或多或少更轻松吗？"
 - speaker: 河内丸武史
   role: answer
   original: "Si tienes en cuenta la parte de planteamiento del proyecto, el diseño de las criaturas, el código de programación, sonidos... sí se puede decir que el juego fue menos complejo de desarrollar. Sin embargo, no queríamos que los que se divirtieron con Diamante y Perla se sintieran decepcionados con Platino. Intentamos evitar que el juego parezca lo mismo que sus predecesores. Así que invertimos el tiempo en dar con nuevas ideas para lograr que el juego fuera todo lo divertido posible. Al final, el desarrollo requirió tanto tiempo como el de Diamante y Perla."
-  translation: "如果只算项目的策划部分、宝可梦的设计、编程代码、声音等等，确实可以说这款游戏开发起来没那么复杂。不过，我们不希望玩过《钻石／珍珠》的人对《白金》感到失望。我们努力避免让游戏看起来和前作一样，所以把时间花在寻找新点子上，好让游戏尽可能地有趣。最后，开发花的时间和《钻石／珍珠》一样长。"
+  translation: "如果只算项目的策划部分、宝可梦的设计、编程代码、声音等等，确实可以说这款游戏开发起来没那么复杂。不过，我们不希望玩过《钻石·珍珠》的人对《白金》感到失望。我们努力避免让游戏看起来和前作一样，所以把时间花在寻找新点子上，好让游戏尽可能地有趣。最后，开发花的时间和《钻石·珍珠》一样长。"
 - speaker: Nintendo Acción
   role: question
   original: "¿Cuánto tiempo y personal necesitáis para desarrollar un Pokémon tan bestial como Diamante y Perla?"
-  translation: "开发一个像《钻石／珍珠》这样庞大的宝可梦游戏，需要多长时间、多少人手？"
+  translation: "开发一个像《钻石·珍珠》这样庞大的宝可梦游戏，需要多长时间、多少人手？"
 - speaker: 增田顺一
   role: answer
   original: "DP se hizo en 3 años. Y creednos que no perdimos el tiempo durmiendo. Y respecto al equipo, al final éramos 50, con 15 personas centradas en los gráficos. Necesitas un buen número de diseñadores gráficos que piensen no sólo en los Pokémon sino especialmente en cómo el mundo puede ser influenciado por tus actos o por el guión. En realidad DP llegó en un momento de grandes cambios. Nos enfrentamos a un montón de decisiones por tomar antes de que la DS aterrizara. ¿Cómo íbamos a usar el Wi-Fi?, ¿qué íbamos a hacer en las dos pantallas?, ¿cómo serían las reglas del juego cuando interactuáramos con la táctil? Invertimos un sinfín de tiempo en solucionar esto."
@@ -115,7 +115,7 @@ parallel_items:
 - speaker: 增田顺一
   role: answer
   original: "En realidad no pensamos en una audiencia de edad determinada cuando desarrollamos los juegos. Son para todo el mundo, y cuanta más gente de edad y sexo diferentes se divierta, mejor. Uno de los aspectos principales sigue siendo el intercambio de Pokémon. Esto triunfa más en los niños, lo que explica por qué muchos de ellos son la base de los fans de Pokémon. Pero estamos muy contentos de que incluso la gente más mayor se sienta atraída por los Pokémon. Cuando lanzamos Rojo Fuego y Verde Hoja intentamos expandirnos y atraer a los más mayores. Incluso promocionamos el juego en webs para gente de 60 años o más. Yo oí de una abuela que no sólo se divirtió con el juego sino que estaba feliz de encontrar un nexo común con sus nietos."
-  translation: "其实我们开发游戏时并没有考虑特定年龄的受众。游戏是给所有人的，年龄和性别不同的人玩得开心的越多越好。主要的方面之一仍然是宝可梦的交换。这在孩子中更受欢迎，这也说明了为什么很多孩子是宝可梦粉丝的基础。但我们很高兴，连年纪更大的人也被宝可梦吸引。发售《火红／叶绿》的时候，我们尝试扩大范围、吸引年纪更大的人，甚至在面向60岁以上人群的网站上宣传了这款游戏。我听说过一位奶奶，她不但玩得开心，还很高兴找到了和孙子孙女的共同话题。"
+  translation: "其实我们开发游戏时并没有考虑特定年龄的受众。游戏是给所有人的，年龄和性别不同的人玩得开心的越多越好。主要的方面之一仍然是宝可梦的交换。这在孩子中更受欢迎，这也说明了为什么很多孩子是宝可梦粉丝的基础。但我们很高兴，连年纪更大的人也被宝可梦吸引。发售《火红·叶绿》的时候，我们尝试扩大范围、吸引年纪更大的人，甚至在面向60岁以上人群的网站上宣传了这款游戏。我听说过一位奶奶，她不但玩得开心，还很高兴找到了和孙子孙女的共同话题。"
 - speaker: Nintendo Acción
   role: question
   original: "¿Cree que los jugadores americanos, europeos y japoneses tienen las mismas costumbres a la hora de jugar? Por cierto, ¿sabe cómo ha ido el lanzamiento en USA o Europa, tras el éxito en Japón?"

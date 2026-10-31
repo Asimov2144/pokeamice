@@ -36,7 +36,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori/01_hero_masuda_ohmori_madrid.jpg
   alt: 大森滋与增田顺一在马德里 Juvenalia 展会现场
-  caption: 大森滋（左，《宝可梦 太阳／月亮》总监）与增田顺一（右，制作人兼系列作曲家）在西班牙马德里 Juvenalia 展会期间接受 MeriStation 独家深度专访。
+  caption: "大森滋（左，《宝可梦 太阳·月亮》总监）与增田顺一（右，制作人兼系列作曲家）在西班牙马德里 Juvenalia 展会期间接受 MeriStation 独家深度专访。"
 - type: narrative
   original: Dentro de Game Freak, la fábrica donde se fraguan todos los títulos de la saga principal de Pokémon entre otros videojuegos, tenemos a diferentes artistas que asumen roles muy diferentes dependiendo de la licencia o incluso en entregas dentro de una propia saga. Un buen ejemplo de ello es Junichi Masuda, que ha sido compositor, director, productor y programador a lo largo de sus más de veinte años de trayectoria en la saga. Original de Yokohama, Masuda siempre soñó con poder hacer que los ordenadores que veía en las escuelas y fábricas pudiesen ser utilizados como herramientas de juego, pero también quería que todas esas melodías que escuchaba en sus vacaciones pudiesen trasladarse a cualquier parte porque para él era como una forma de recuperar y llevar consigo sus recuerdos a cualquier parte. Por este motivo, desde que comenzó a trabajar en Game Freak en 1989, se ha preocupado tanto por hacer de las bandas sonoras de los juegos algo que recordar, que se pueda identificar un
     tema musical concreto con un momento específico de sus aventuras. Esto responde, por ende, a las más de cien melodías diferentes que se incluyen con cada entrega de Pokémon, algo de lo que él es el principal responsable.

@@ -186,7 +186,7 @@ parallel_items:
   translation: 第3章：宝可梦的音乐与151种叫声是如何诞生的
 - type: image
   image: /assets/img/interviews/2014-08-22-interview-niconico-gamefreak-origins-masuda/pokemon_sound_waveform.jpg
-  caption: 初代《宝可梦 红／绿》151只怪兽独立叫声的波形衰减与寄存器参数设计手稿
+  caption: "初代《宝可梦 红·绿》151只怪兽独立叫声的波形衰减与寄存器参数设计手稿"
   alt: 宝可梦叫声声波参数
 - speaker: NicoNico采访者
   original: ――今回は、サウンドクリエイターとしての増田さんにお話を聞きたいです。『ポケットモンスター 赤・緑』に登場するポケモン151匹の鳴き声は、増田さんが一人で作られたんですよね。

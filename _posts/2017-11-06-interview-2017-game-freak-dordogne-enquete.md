@@ -77,7 +77,7 @@ parallel_items:
   translation: 假期、勘察、媒体巡演
 - type: paragraph
   original: En m'intéressant à XY et au rapport qu'entretient Masuda avec la France, j'ai trouvé quelques pistes cool . Si t'as eu le courage de visionner cette petite vidéo, t'as appris que notre mangeur de ramen préféré est venu en France pour la première fois en l'an 2000, à la sortie du premier film Pokémon au cinéma. En 2010, le mec revient pendant un mois et sillonne quelques-unes de nos plus belles villes en se mettant à l'aise.
-  translation: 在关注《X/Y》以及增田与法国关系的过程中，我找到了一些很酷的线索。如果你有勇气看完那段小视频，你就会知道我们最喜欢的拉面爱好者第一次来法国是在2000年，当时第一部宝可梦电影上映。2010年，这家伙又回来待了一个月，悠闲地游览了我们一些最美丽的城市。
+  translation: "在关注《X·Y》以及增田与法国关系的过程中，我找到了一些很酷的线索。如果你有勇气看完那段小视频，你就会知道我们最喜欢的拉面爱好者第一次来法国是在2000年，当时第一部宝可梦电影上映。2010年，这家伙又回来待了一个月，悠闲地游览了我们一些最美丽的城市。"
   note: “mangeur de ramen”指增田顺一，他喜欢拉面。
 - type: paragraph
   original: 'C''est surtout en 2011 que les bails deviennent sérieux. Masuda ramène son crew, ça sort les blocs-notes, les carnets à croquis façon Jacky (pour Michelle on repassera), et la phase de repérage débute : Paris, Lyon, Reims, Carnac... Notre pays est passé au peigne fin. Deux ans plus tard, Game Freak nous pond les versions X et Y. Cocorico...'
@@ -95,7 +95,7 @@ parallel_items:
   translation: 团队
 - type: paragraph
   original: 'Un rassemblement comme celui qu''on vient de vivre n''était pas arrivé en France depuis la phase de repérage pour X et Y, en 2011. On a droit à un putain de CREW venu fouler le sol français, et dont les membres ont séjourné à l''hôtel-restaurant de Bouilhac . De cette résidence cinq étoiles ont émergé deux photos. La première, tu l''as vue dans ma news précédente. Il est temps de dévoiler la seconde :'
-  translation: 像我们刚刚经历的这样的聚会，自2011年《X/Y》的勘察阶段以来，在法国还没有发生过。我们迎来了一个该死的团队踏上法国土地，其成员入住了布亚克酒店餐厅。从这次五星级住宿中流出了两张照片。第一张你在我之前的新闻中已经看到了。现在是时候揭晓第二张了：
+  translation: "像我们刚刚经历的这样的聚会，自2011年《X·Y》的勘察阶段以来，在法国还没有发生过。我们迎来了一个该死的团队踏上法国土地，其成员入住了布亚克酒店餐厅。从这次五星级住宿中流出了两张照片。第一张你在我之前的新闻中已经看到了。现在是时候揭晓第二张了："
   note: 布亚克（Bouilhac）是法国多尔多涅省的一个市镇。
 - type: image
   image: /assets/img/interviews/2017-11-06-interview-2017-game-freak-dordogne-enquete/002.jpg
@@ -110,18 +110,18 @@ parallel_items:
   translation: 队长们：
 - type: paragraph
   original: 'Junichi Masuda : compositeur, programmeur, directeur de rubis jusque XY.'
-  translation: "增田顺一：作曲家、程序员，从《红宝石》到《X/Y》的总监。"
+  translation: "增田顺一：作曲家、程序员，从《红宝石》到《X·Y》的总监。"
   speaker: 增田顺一
   role: answer
 - type: paragraph
   original: 'Shigeru Ohmori : designer puis directeur sur ROSA ainsi que Sun/Moon.'
-  translation: 大森滋：在《欧米伽红宝石／阿尔法蓝宝石》以及《太阳／月亮》中担任设计师，随后担任总监。
+  translation: "大森滋：在《欧米伽红宝石·阿尔法蓝宝石》以及《太阳·月亮》中担任设计师，随后担任总监。"
   note: ROSA 指《宝可梦欧米伽红宝石／阿尔法蓝宝石》（Pokémon Omega Ruby and Alpha Sapphire）。
   speaker: 大森滋
   role: answer
 - type: paragraph
   original: 'Iwao Kazumasa : designer, système de combat puis directeur des Jeux USUL.'
-  translation: 岩尾和昌：设计师，负责战斗系统，随后担任《究极之日／究极之月》的总监。
+  translation: "岩尾和昌：设计师，负责战斗系统，随后担任《究极之日·究极之月》的总监。"
   note: USUL 指《宝可梦究极之日／究极之月》（Pokémon Ultra Sun and Ultra Moon）。
   speaker: 岩尾和昌
   role: answer
@@ -138,7 +138,7 @@ parallel_items:
   translation: "寺地惇：负责“场地系统设计”。"
 - type: paragraph
   original: 'Tomoya Takahashi : s''occupe d''animes. Il a bossé sur Pokémon XY et SM en tant que storyboarder, ainsi que sur Pokémon Génération.'
-  translation: "高桥友也：负责动画方面。他曾担任《宝可梦 XY》和《宝可梦 太阳／月亮》的分镜师，并参与了《宝可梦 世代》的制作。"
+  translation: "高桥友也：负责动画方面。他曾担任《宝可梦 XY》和《宝可梦 太阳·月亮》的分镜师，并参与了《宝可梦 世代》的制作。"
 - type: paragraph
   original: 'Tamada Sosuke : Programmeur présent depuis la Version Rouge.'
   translation: "玉田荘介：从《红版》起就参与的程序员。"
@@ -236,7 +236,7 @@ parallel_items:
   translation: 设计与保密
 - type: paragraph
   original: Penchons-nous (sans mauvais jeu de mot) sur le jeu à venir sur Switch et intéressons-nous à ces fameuses phases de repérages. D'abord, il semblerait que les jeux Pokémon mettraient en moyenne deux à trois ans pour voir le jour . Si l'on estime que les phases de repérages de 2011 marquaient les prémisses de X et Y, il aura donc fallu deux ans à Game Freak pour sortir son bébé.
-  translation: "让我们（无意双关）来关注一下即将登陆 Switch 的游戏，并探讨一下那些著名的实地考察阶段。首先，宝可梦游戏的平均开发周期似乎是两到三年。如果我们认为2011年的实地考察是《X／Y》的前奏，那么 GAME FREAK 花了两年时间才推出他们的作品。"
+  translation: "让我们（无意双关）来关注一下即将登陆 Switch 的游戏，并探讨一下那些著名的实地考察阶段。首先，宝可梦游戏的平均开发周期似乎是两到三年。如果我们认为2011年的实地考察是《X·Y》的前奏，那么 GAME FREAK 花了两年时间才推出他们的作品。"
   note: “sans mauvais jeu de mot”是法语习语，意为“无意双关”，此处可能暗指“Penchons”与“pencher”（倾斜）有关。
 - type: paragraph
   original: Revenons un instant en 2017. Le 3 mars sort la nouvelle console de Nintendo, mais Tsunekazu Ishihara (patron de The Pokémon Company, aka walletman) n'était pas le mec le plus confiant de la Terre. Mon avis, c'est que le CEO attendait sûrement que la Switch fasse ses preuves avant de donner le feu vert aux équipes de Game Freak pour s'attaquer à la next-gen. Après un succès console foudroyant, Game Freak lance (étrangement) un appel d'offre pour un " RPG mondialement connu " .
@@ -376,7 +376,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Néanmoins, l'idée d'un jeu se déroulant à Sinnoh sans forcément reprendre les événements et le contexte de DPP, dans le passé par exemple, est à mon sens tout à fait bandante (surtout que la sortie concorderait avec l'attente d'un "remake" 4G). Simple fantasme de fan ou hypothèse plausible ? On verra bien ! (2/2)
-  translation: 不过，我认为一个以神奥为背景、但不一定沿用《钻石/珍珠/白金》的事件和背景的游戏，比如设定在过去，这个想法相当令人兴奋（尤其是考虑到发售时间与玩家对第四世代“重制版”的期待相吻合）。这究竟是粉丝的单纯幻想，还是合理的假设？我们拭目以待！(2/2)
+  translation: "不过，我认为一个以神奥为背景、但不一定沿用《钻石·珍珠·白金》的事件和背景的游戏，比如设定在过去，这个想法相当令人兴奋（尤其是考虑到发售时间与玩家对第四世代“重制版”的期待相吻合）。这究竟是粉丝的单纯幻想，还是合理的假设？我们拭目以待！(2/2)"
   speaker: Randomeuf
   note: DPP指《宝可梦 钻石/珍珠/白金》，第四世代游戏。
   role: answer
@@ -490,7 +490,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Quels leaks, ils sont officiel et tout comme ceux sortis avant Soleil et Lune où on voyait tous des pokemon ?
-  translation: 什么泄露？它们是官方的，就像《太阳／月亮》发售前那些展示宝可梦的泄露一样吗？
+  translation: "什么泄露？它们是官方的，就像《太阳·月亮》发售前那些展示宝可梦的泄露一样吗？"
   speaker: mecinutile
   note: Soleil et Lune指《宝可梦 太阳／月亮》。
   role: answer
@@ -507,7 +507,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Tiens, Masuda a aussi été en Espagne récemment. Et vu les indices présents dans SoLu, notamment les tapus représentant chacun des régions déjà visitées sauf Tokotoro qui rappelle fortement les régions hispaniques, et l'oiseau d'Ula-Ula représentant le flammenco... Pensez pas qu'il faudrait plutôt regarder dans cette direction?
-  translation: 话说，增田最近也去了西班牙。鉴于《太阳／月亮》中出现的线索，尤其是代表已访问地区的守护神们，除了卡璞・哞哞强烈让人联想到西班牙地区，还有乌拉乌拉岛的鸟代表弗拉门戈……你们不觉得应该朝这个方向看吗？
+  translation: "话说，增田最近也去了西班牙。鉴于《太阳·月亮》中出现的线索，尤其是代表已访问地区的守护神们，除了卡璞・哞哞强烈让人联想到西班牙地区，还有乌拉乌拉岛的鸟代表弗拉门戈……你们不觉得应该朝这个方向看吗？"
   speaker: c0mpu73rguy
   note: Masuda指增田顺一，宝可梦系列游戏总监。SoLu指《宝可梦 太阳／月亮》。Tokotoro是卡璞・哞哞的法语名。Ula-Ula是乌拉乌拉岛。
   role: answer

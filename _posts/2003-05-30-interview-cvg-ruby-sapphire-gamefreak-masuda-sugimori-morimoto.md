@@ -153,7 +153,7 @@ parallel_items:
 - original: I would like you to explain to our readers how did you use the Pokemon be featured in Ruby and Sapphire? With a complete new set of Pokemon, why did you include some and not all of the previous Pokemon?
   role: answer
   speaker: 增田顺一
-  translation: 我想请你向我们的读者解释一下，你们是如何让宝可梦在《红宝石／蓝宝石》中登场的？既然是一整套全新的宝可梦，为什么你们只收录了之前部分宝可梦，而不是全部？
+  translation: "我想请你向我们的读者解释一下，你们是如何让宝可梦在《红宝石·蓝宝石》中登场的？既然是一整套全新的宝可梦，为什么你们只收录了之前部分宝可梦，而不是全部？"
   note: 《宝可梦 红宝石／蓝宝石》是2002年发售的Game Boy Advance作品，引入了第三代全新的宝可梦，同时只能通过交换等方式获得部分旧作宝可梦。
 - original: We try to balance on that account. Numbers is the most important aspect in this game and it would be hard for players to collect all Pokemon, but if the players can't really collect lower numbers of Pokemon, that makes the game more simple and not so interesting. So the number is very important. And in this new Pokemon game we wanted to add more new Pokemon, but there are many players who like all Pokemon from the previous games. So we try to balance on that also.
   role: answer
@@ -170,7 +170,7 @@ parallel_items:
 - original: What has been the main technical and playable differences between the different Pokemon games from Red and Blue through Gold and Silver and finally to the new Ruby and Sapphire?
   role: question
   speaker: CVG
-  translation: 从《红／蓝》到《金／银》，再到新的《红宝石／蓝宝石》，不同的宝可梦游戏之间主要的技术差异和可玩性差异是什么？
+  translation: "从《红·蓝》到《金·银》，再到新的《红宝石·蓝宝石》，不同的宝可梦游戏之间主要的技术差异和可玩性差异是什么？"
 - original: One of the main differences between the old Pokemon and this new Pokemon game is that it is on a new platform, the Game Boy Advance, and also that four players can link to each other at the same time. Four players can transmit data at one time. That is the most important difference here.
   role: answer
   speaker: 增田顺一
@@ -178,11 +178,11 @@ parallel_items:
 - original: My second question is how much time did you spend on creating the new music and song effects for Ruby and Sapphire?
   role: question
   speaker: CVG
-  translation: 我的第二个问题是，你们花了多少时间为《红宝石／蓝宝石》创作新的音乐和音效？
+  translation: "我的第二个问题是，你们花了多少时间为《红宝石·蓝宝石》创作新的音乐和音效？"
 - original: We had two people working on music and sound effects when Pokemon Ruby and Sapphire was in development. It took about two years to finish all the work. We had to collect some older sounds, and also create some new Pokemon sounds, and also we had to do the music overall in the game, so it took about two years.
   role: answer
   speaker: 增田顺一
-  translation: 在《宝可梦 红宝石／蓝宝石》开发期间，我们有两个人负责音乐和音效。完成全部工作花了大约两年时间。我们必须收集一些旧的声音，还要制作一些新的宝可梦叫声，另外还要完成整个游戏中的音乐，所以花了大约两年。
+  translation: "在《宝可梦 红宝石·蓝宝石》开发期间，我们有两个人负责音乐和音效。完成全部工作花了大约两年时间。我们必须收集一些旧的声音，还要制作一些新的宝可梦叫声，另外还要完成整个游戏中的音乐，所以花了大约两年。"
 - original: In the beginning, did you start drawing artwork from scratch, or have you been forced to adapt existing artwork in certain circumstances?
   role: question
   speaker: CVG
@@ -190,7 +190,7 @@ parallel_items:
 - original: Up until gold and silver, I had tried to make the image integrated from existing artwork, but for this new Ruby and Sapphire, I wanted to add a more unique design to this new Pokemon. But still I tried to maintain some integrating images from all Pokemon. And for the Ruby and Sapphire game I was sure that some of the fans were trying to get more of Pokemon, but I wanted to surprise all the fans and enjoy all the designs of Pokemon appearing in Ruby and Sapphire. But we still try to maintain the images and we didn't try to go beyond the border line.
   role: answer
   speaker: 杉森建
-  translation: 在《金／银》之前，我一直试图把已有的美术图整合成统一的形象，但在这部新的《红宝石／蓝宝石》中，我想为这些新宝可梦加入更独特的设计。不过我还是尽量保持所有宝可梦形象之间的一定统一性。对于《红宝石／蓝宝石》，我确信有些粉丝想要看到更多宝可梦，但我希望让所有粉丝都感到惊喜，并享受《红宝石／蓝宝石》中出现的所有宝可梦设计。不过我们仍然尽量保持形象统一，没有试图越过那条界线。
+  translation: "在《金·银》之前，我一直试图把已有的美术图整合成统一的形象，但在这部新的《红宝石·蓝宝石》中，我想为这些新宝可梦加入更独特的设计。不过我还是尽量保持所有宝可梦形象之间的一定统一性。对于《红宝石·蓝宝石》，我确信有些粉丝想要看到更多宝可梦，但我希望让所有粉丝都感到惊喜，并享受《红宝石·蓝宝石》中出现的所有宝可梦设计。不过我们仍然尽量保持形象统一，没有试图越过那条界线。"
 - original: In our magazine, on top of informing kids about new animation series and videogames, we also teach kids how to make hand drawings. Which drawing technique do you prefer to draw and illustrate Pokemon, and which technique would you recommend to kids interested in drawing?
   role: question
   speaker: CVG
@@ -202,7 +202,7 @@ parallel_items:
 - original: What are your future plans for Pokemon on the GBA? Will there for example be something similar to the yellow edition or the crystal edition for Pokemon Ruby and Sapphire as well, or a GBA Pokemon Trading Card Game like we had it on the Game Boy Colours?
   role: question
   speaker: CVG
-  translation: 你们对GBA上的宝可梦未来有什么计划？比如说，《宝可梦 红宝石／蓝宝石》会不会也有类似《皮卡丘》版或《水晶》版的作品，或者像当年Game Boy Color上的《宝可梦集换式卡牌游戏》那样推出GBA版？
+  translation: "你们对GBA上的宝可梦未来有什么计划？比如说，《宝可梦 红宝石·蓝宝石》会不会也有类似《皮卡丘》版或《水晶》版的作品，或者像当年Game Boy Color上的《宝可梦集换式卡牌游戏》那样推出GBA版？"
   note: 《宝可梦 皮卡丘》是《宝可梦 红／绿》的加强版，《宝可梦 水晶》是《金／银》的加强版；《宝可梦集换式卡牌游戏》是1998年在Game Boy Color上推出的游戏。
 - original: There might be possibilities for that and we are still thinking about adding more interesting aspects to new possible games. That's what we're hunting for now.
   role: answer

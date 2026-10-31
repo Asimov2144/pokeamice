@@ -86,7 +86,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: In Pokémon Black Version and Pokémon White Version, Team Plasma's philosophy had a bit more of a serious tone to it. With Team Flare, I wanted to separate them from some kind of philosophy and make them a bit more goofy and funny.
-  translation: 在《宝可梦 黑／白》中，等离子队的理念带有更严肃的基调。而对于闪焰队，我想让他们脱离某种哲学，使其更滑稽有趣一些。
+  translation: "在《宝可梦 黑·白》中，等离子队的理念带有更严肃的基调。而对于闪焰队，我想让他们脱离某种哲学，使其更滑稽有趣一些。"
   role: answer
 - type: image
   image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/003.jpg
@@ -124,7 +124,7 @@ parallel_items:
   role: answer
 - speaker: 提问
   original: Fans have read into some of the dialogue from travelers in the game as being hints of an upcoming Ruby/Sapphire remake. Do you care to comment?
-  translation: 粉丝们从游戏中旅行者的某些对话中解读出即将推出《红宝石/蓝宝石》重制版的暗示。您能对此发表评论吗？
+  translation: "粉丝们从游戏中旅行者的某些对话中解读出即将推出《红宝石·蓝宝石》重制版的暗示。您能对此发表评论吗？"
   role: question
 - speaker: 增田顺一
   original: Travelers play the role of characters who have come from other regions. We put them in the game to make sure people know that the new region is connected with the rest of the world.
@@ -135,11 +135,11 @@ parallel_items:
   alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: In our Pokemon's Burning Questions interview in 2012, you said "Humans are definitely separate from Pokémon. The way you think about it is different than how we think about animals in relation to humans on Earth." But then in Pokémon X&Y a character says, "They say that in the ancient days, man and Pokémon were the same." I'm curious if you and the team changed your mind on this topic.
-  translation: 在2012年我们的“宝可梦灼热问题”采访中，您曾说：“人类与宝可梦绝对是分开的。您对此的思考方式不同于我们在地球上思考动物与人类关系的方式。”但在《宝可梦 X/Y》中，一个角色说：“据说在古代，人类和宝可梦是一样的。”我很好奇您和团队是否在这个话题上改变了想法。
+  translation: "在2012年我们的“宝可梦灼热问题”采访中，您曾说：“人类与宝可梦绝对是分开的。您对此的思考方式不同于我们在地球上思考动物与人类关系的方式。”但在《宝可梦 X·Y》中，一个角色说：“据说在古代，人类和宝可梦是一样的。”我很好奇您和团队是否在这个话题上改变了想法。"
   role: question
 - speaker: 增田顺一
   original: This is simply showing a different way of thinking from a past era. In ancient times, like in the myths and legends we put in the Diamond and Pearl games, it was said that Pokémon were the same as humans. However, I like to think of Pokémon as mysterious creatures – they're closer to humans than dogs or cats that people might keep as pets.
-  translation: 这只是在展示过去时代的一种不同思维方式。在古代，就像我们在《钻石/珍珠》游戏中加入的神话和传说那样，据说宝可梦与人类是一样的。然而，我更倾向于认为宝可梦是神秘的生物——它们比人们可能饲养的狗或猫更接近人类。
+  translation: "这只是在展示过去时代的一种不同思维方式。在古代，就像我们在《钻石·珍珠》游戏中加入的神话和传说那样，据说宝可梦与人类是一样的。然而，我更倾向于认为宝可梦是神秘的生物——它们比人们可能饲养的狗或猫更接近人类。"
   role: answer
 - speaker: 提问
   original: Occasionally in the game, most notably in Lumiose City, the camera's perspective shifts to rest behind the character's head. Is the team interested in trying to keep this closer perspective throughout an entire game in the future? Or do you see the overhead cameras as a key component of the Pokémon experience?

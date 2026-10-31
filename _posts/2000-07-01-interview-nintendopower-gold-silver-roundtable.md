@@ -83,7 +83,7 @@ parallel_items:
   translation: "第1章：超越《红》《蓝》——《金·银》三年半的开发"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/RBY.jpg
-  caption: 红、蓝、黄三色的初代传奇，为《金／银》的革新提供了最坚实也最具挑战的基石。
+  caption: "红、蓝、黄三色的初代传奇，为《金·银》的革新提供了最坚实也最具挑战的基石。"
   alt: 初代游戏包装
 - speaker: Nintendo Power
   original: 'Nintendo Power: The first Pokémon games came in three colors: Red, Blue and Yellow. Is there any reason you chose Gold and Silver for the new Pokémon games?'
@@ -155,7 +155,7 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Iwata.jpg
-  caption: 时任HAL研究所社长岩田聪亲手编写图像压缩工具，拯救了容量濒临崩溃的《金／银》，让完整的关都地图得以装进卡带。
+  caption: "时任HAL研究所社长岩田聪亲手编写图像压缩工具，拯救了容量濒临崩溃的《金·银》，让完整的关都地图得以装进卡带。"
   alt: 岩田聪压缩代码历史
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/004.jpg
@@ -259,7 +259,7 @@ parallel_items:
   translation: "第5章：一瞥未来——第三世代的早期端倪"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Sap.png
-  caption: 石原恒和在2000年夏天向海外媒体暗示的“金银之后的下一部正作”，正是两年后引爆GBA世代的《宝可梦 红宝石／蓝宝石》。
+  caption: "石原恒和在2000年夏天向海外媒体暗示的“金银之后的下一部正作”，正是两年后引爆GBA世代的《宝可梦 红宝石·蓝宝石》。"
   alt: 红蓝宝石早期暗示
 - speaker: Nintendo Power
   original: Nintendo Power:We know that Pokémon Puzzle League and Hey You, Pikachu! will soon hit the US Market, as will Gold and Silver. What is the plan for Pokémon beyond that?

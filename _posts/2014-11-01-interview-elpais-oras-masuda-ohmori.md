@@ -63,7 +63,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/2014-11-01-interview-elpais-oras-masuda-ohmori/02_pokemon_719_poster.jpg
   alt: 截至《宝可梦 X／Y》世代的719只宝可梦海报
-  caption: 在巴塞罗那漫展活动现场展示的截至《宝可梦 X／Y》全世代719只宝可梦全员集结海报。
+  caption: "在巴塞罗那漫展活动现场展示的截至《宝可梦 X·Y》全世代719只宝可梦全员集结海报。"
 - type: narrative
   original: Eso no le impide afirmar que en todos los títulos de la saga subyace una simbología. Por ejemplo, Pokémon X Y, bautizado en honor a los ejes de coordenadas horizontal y vertical, habla de “cómo las personas piensan y actúan de manera distinta, pero siempre existen puntos en común”. En Perla y Diamante quiso expresar “lo complementario” y en Blanco y Negro, “lo opuesto”.
   translation: "这并不妨碍他断言，宝可梦系列的每一部作品中都潜藏着象征意义。例如，《宝可梦 X·Y》的名字取自水平和垂直的坐标轴，讲的是“人们的想法和行为方式各不相同，但总有共通之处”。在《宝可梦 钻石·珍珠》中，他想表达的是“互补”，而在《宝可梦 黑·白》中，则是“对立”。"

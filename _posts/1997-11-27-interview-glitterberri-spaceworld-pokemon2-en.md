@@ -54,7 +54,7 @@ topics:
 - 开发历程
 parallel_items:
 - original: The following interview concerning the then-unnamed Pokémon Gold & Silver was taken from Game Staff List Association Japan, a Japanese site that aims to, among other things, summarize, transcribe, and categorize interviews with video game developers. It took place in 1997, with participants Shigeru Miyamoto, Satoshi Tajiri (the creator of Pokémon), and Tsunekazu Ishihara (the series’ producer). The original source is unknown.
-  translation: 以下这篇关于当时尚未定名的《宝可梦 金／银》的访谈，摘自Game Staff List Association Japan，这是一个以整理、转录和归类电子游戏开发者访谈等为目的的日本网站。访谈发生于1997年，参与者为宫本茂、田尻智（宝可梦的创造者）和石原恒和（该系列的制作人）。原始出处不明。
+  translation: "以下这篇关于当时尚未定名的《宝可梦 金·银》的访谈，摘自Game Staff List Association Japan，这是一个以整理、转录和归类电子游戏开发者访谈等为目的的日本网站。访谈发生于1997年，参与者为宫本茂、田尻智（宝可梦的创造者）和石原恒和（该系列的制作人）。原始出处不明。"
   note: Game Staff List Association Japan是一个日本网站，专门整理和归类电子游戏开发者访谈。
 - original: I’m actually not really involved with Pokémon 2 yet. Since the first games were released, I’ve been busy producing for the Nintendo 64.
   role: answer
@@ -92,7 +92,7 @@ parallel_items:
 - original: In order to economize on memory in RGB, we made it so that if you were looking at a character from behind, it would appear out of focus in relation to the camera angle. Since we’re now able to use more memory, things will be much clearer. Having twice as much memory doesn’t necessarily mean that there are going to be twice as many Pokémon or twice as many maps.
   role: answer
   speaker: 田尻智
-  translation: 为了在《红／绿／蓝》中节省内存，我们做了这样的处理：如果你从背后看一个角色，它会根据镜头角度而显得模糊。既然我们现在能使用更多内存，画面会清晰得多。内存翻倍并不一定意味着宝可梦数量翻倍或地图数量翻倍。
+  translation: "为了在《红·绿·蓝》中节省内存，我们做了这样的处理：如果你从背后看一个角色，它会根据镜头角度而显得模糊。既然我们现在能使用更多内存，画面会清晰得多。内存翻倍并不一定意味着宝可梦数量翻倍或地图数量翻倍。"
 - type: image
   image: /assets/img/interviews/1997-11-27-interview-glitterberri-spaceworld-pokemon2-en/004.png
   alt: Long Grass

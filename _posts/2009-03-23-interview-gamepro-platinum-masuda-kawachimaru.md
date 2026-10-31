@@ -55,7 +55,7 @@ parallel_items:
 - original: With Pokemon Platinum just a few days away, GamePro was invited to Nintendo to talk with two of the developers behind Nintendo's powerhouse RPG franchise!
   translation: 距离《宝可梦 白金》发售只剩几天，GamePro 受邀前往任天堂，与这部任天堂王牌 RPG 系列背后的两位开发者进行了交谈！
 - original: Pokemon Platinum is just around the corner for gamers in the U.S., and I'm already polishing up my Nintendo DS in anticipation of the new battles and Pokemon I'm going to see. Nintendo recently invited GamePro to their Bay Area headquarters to interview two of the men behind the development of Pokemon Platinum, just in time to increase my hunger for the release of this much-awaited remake edition in the record-breaking Pokemon Diamond & Pearl series. We chatted up Takeshi Kawachimaru, one of Game Freak's designers behind Pokemon Ruby and Pokemon Sapphire (as well as Pokemon Platinum's game director) and the famous video game composer Junichi Masuda, one of the original developers of Pokemon since Red and Blue/Green, who is also producing Pokemon Platinum.
-  translation: "对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石／珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——GAME FREAK 参与《宝可梦 红宝石／蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红／蓝／绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。"
+  translation: "对美国的玩家来说，《宝可梦 白金》即将到来，我已经在擦拭我的任天堂 DS，期待即将看到的新战斗和新宝可梦。任天堂最近邀请 GamePro 前往其湾区总部，采访《宝可梦 白金》开发团队的两位成员，正好让我对这部在破纪录的《宝可梦 钻石·珍珠》系列中备受期待的加强版的发售更加饥渴。我们与河内丸武史——GAME FREAK 参与《宝可梦 红宝石·蓝宝石》的设计师之一（也是《宝可梦 白金》的游戏总监）——以及著名游戏作曲家增田顺一聊了聊，后者自《红·蓝·绿》起就是宝可梦最初的开发者之一，也是《宝可梦 白金》的制作人。"
   note: "河内丸武史（Takeshi Kawachimaru）是 GAME FREAK 的设计师，后担任《宝可梦 白金》总监；增田顺一（Junichi Masuda）是 GAME FREAK 的作曲家与制作人，自初代起参与宝可梦开发。"
 - type: image
   image: /assets/img/interviews/2009-03-23-interview-gamepro-platinum-masuda-kawachimaru/001.jpg
@@ -65,19 +65,19 @@ parallel_items:
 - original: This is the first Pokemon game that's been named after a metal since Gold & Silver. Was there a special reason for calling this one "Platinum"?
   role: question
   speaker: GamePro
-  translation: 这是自《金／银》以来第一款以金属命名的宝可梦游戏。把这一作叫作“白金”有什么特别的原因吗？
+  translation: "这是自《金·银》以来第一款以金属命名的宝可梦游戏。把这一作叫作“白金”有什么特别的原因吗？"
 - original: Diamond is a gem, as you know, and a pearl is something that nature creates. When we researched about Diamond & Pearl, [the word] "diamond" has a meaning of "love", and "pearl" has a meaning of "happiness". So when we thought of the third one, we wanted to have something "beautiful," at the next level. [It's] different from a diamond, different from a gem, different from a pearl, different from something that nature creates, something [that] shines, something beautiful. That's how we came up with Platinum.
   role: answer
   speaker: 增田顺一
-  translation: 如你所知，钻石是一种宝石，而珍珠是自然创造出来的东西。我们在研究《钻石／珍珠》时发现，“diamond”有“爱”的含义，而“pearl”有“幸福”的含义。所以当我们考虑第三作时，我们想要某种“美丽”的、更高层次的东西。它不同于钻石，不同于宝石，不同于珍珠，不同于自然创造出来的东西，是某种闪耀的、美丽的东西。我们就是这样想出“白金”的。
+  translation: "如你所知，钻石是一种宝石，而珍珠是自然创造出来的东西。我们在研究《钻石·珍珠》时发现，“diamond”有“爱”的含义，而“pearl”有“幸福”的含义。所以当我们考虑第三作时，我们想要某种“美丽”的、更高层次的东西。它不同于钻石，不同于宝石，不同于珍珠，不同于自然创造出来的东西，是某种闪耀的、美丽的东西。我们就是这样想出“白金”的。"
 - original: Are there any Pokemon that can be caught in Platinum that trainers didn't have access to in Diamond & Pearl?
   role: question
   speaker: GamePro
-  translation: 在《白金》中有没有一些宝可梦是训练家在《钻石／珍珠》中无法获得的？
+  translation: "在《白金》中有没有一些宝可梦是训练家在《钻石·珍珠》中无法获得的？"
 - original: (Speaks to translator.) There are some Pokemon which you cannot meet in Diamond & Pearl, but you can meet [those Pokemon] in Platinum.
   role: answer
   speaker: 河内丸武史
-  translation: （对翻译说。）有一些宝可梦你在《钻石／珍珠》中遇不到，但在《白金》中可以遇到。
+  translation: "（对翻译说。）有一些宝可梦你在《钻石·珍珠》中遇不到，但在《白金》中可以遇到。"
 - original: How did you decide on the different story changes in the main game? There are certain elements of the story that have been tweaked and the villains have different motivations, so...
   role: question
   speaker: GamePro
@@ -85,11 +85,11 @@ parallel_items:
 - original: In Diamond & Pearl, you have Dialga and Palkia, and it has a story to each Pokemon. [It's] two different Pokemon, but one story in Diamond & Pearl. We wanted to create a different story for Platinum. That's how we developed Giratina, as something opposite of Dialga and Palkia. We wanted to make the existence of Giratina more fun, more interesting, cooler. That's how we came up with the whole scenario of Diamond & Pearl and then advanced to Platinum. We wanted to make different roles easier for the player to understand, so we used the text to explain how this is related. We set up an environment where Giratina exists, so that's something we have to add to make the storyline more appealing and approachable and accessible to players.
   role: answer
   speaker: 河内丸武史
-  translation: 在《钻石／珍珠》中，有帝牙卢卡和帕路奇亚，每只宝可梦都有自己的故事。它们是两只不同的宝可梦，但在《钻石／珍珠》中是一个故事。我们想为《白金》创造一个不同的故事。于是我们设计了骑拉帝纳，作为帝牙卢卡和帕路奇亚的对立面。我们想让骑拉帝纳的存在更有趣、更引人入胜、更酷。我们就是这样构思出《钻石／珍珠》的整个剧情，然后推进到《白金》的。我们想让不同的角色更容易被玩家理解，所以用文本来解释它们之间是如何关联的。我们设定了一个骑拉帝纳存在的环境，这是我们必须加入的内容，好让故事线更有吸引力，也更容易让玩家接受和理解。
+  translation: "在《钻石·珍珠》中，有帝牙卢卡和帕路奇亚，每只宝可梦都有自己的故事。它们是两只不同的宝可梦，但在《钻石·珍珠》中是一个故事。我们想为《白金》创造一个不同的故事。于是我们设计了骑拉帝纳，作为帝牙卢卡和帕路奇亚的对立面。我们想让骑拉帝纳的存在更有趣、更引人入胜、更酷。我们就是这样构思出《钻石·珍珠》的整个剧情，然后推进到《白金》的。我们想让不同的角色更容易被玩家理解，所以用文本来解释它们之间是如何关联的。我们设定了一个骑拉帝纳存在的环境，这是我们必须加入的内容，好让故事线更有吸引力，也更容易让玩家接受和理解。"
 - original: What is your reaction to the success of the Wi-Fi battling system shown in Diamond & Pearl?
   role: question
   speaker: GamePro
-  translation: 对于《钻石／珍珠》中展示的Wi-Fi对战系统取得的成功，你们有什么反应？
+  translation: "对于《钻石·珍珠》中展示的Wi-Fi对战系统取得的成功，你们有什么反应？"
 - original: One of the features that utilize the Wi-Fi connection is voice chat. You can chat while playing, and that makes the Wi-Fi battles more interesting because you can talk to each other. We definitely wanted to include that. If there was no voice chat, I [wouldn't] think this was that successful. Once we realized that was something we could make, we knew this was going to be very big.
   role: answer
   speaker: 增田顺一

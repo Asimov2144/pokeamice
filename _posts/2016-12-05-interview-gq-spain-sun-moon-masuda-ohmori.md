@@ -35,7 +35,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori/01_hero_masuda_ohmori_gq.jpg
   alt: 大森滋与增田顺一在马德里接受专访
-  caption: 大森滋（左，《宝可梦 太阳／月亮》总监）与增田顺一（右，制作人兼系列作曲家）在马德里接受《GQ》西班牙专访。
+  caption: "大森滋（左，《宝可梦 太阳·月亮》总监）与增田顺一（右，制作人兼系列作曲家）在马德里接受《GQ》西班牙专访。"
 - type: dialogue
   original: 'GQ: ‘Pokémon Sol y Luna’ nos pareció “pura alegría de vivir”. ¿Cómo se mantiene la ilusión durante dos décadas de Pokémon? JUNICHI MASUDA: Porque es como un hijo. Es fácil mantener el amor al proyecto desde el principio hasta ahora, en parte por los jugadores de Pokémon. Que se definen a sí mismos como "primera generación", "segunda generación", y nos dejan ver desde cuándo están con nostros.'
   translation: "GQ：《宝可梦 太阳·月亮》给我们带来了“纯粹的生活乐趣”。在宝可梦的二十年历程中，是如何保持这份热情的呢？增田顺一：因为它就像我们的孩子一样。从最初到现在，保持对这个项目的热爱很容易，部分原因在于宝可梦的玩家们。他们自称为“第一世代”、“第二世代”，让我们看到他们从何时起与我们同行。"

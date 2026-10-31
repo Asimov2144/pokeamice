@@ -63,7 +63,7 @@ parallel_items:
 - original: 'P.Com: I’ve played a little bit of Pokémon Black Version 2, and it’s surprising how different these games feel from the outset than the first two games in Unova, from the look to the Pokémon you’ll encounter. They feel more original than, say, Pokémon Emerald does from Pokémon Ruby and Sapphire. Was this a particular point of emphasis during development?'
   role: question
   speaker: Pokemon.com
-  translation: P.Com：我玩了一点《宝可梦 黑版2》，令人惊讶的是，这些游戏从一开始就与合众地区的前两部作品感觉如此不同，从外观到你会遇到的宝可梦都是如此。它们比《宝可梦 绿宝石》相对于《宝可梦 红宝石／蓝宝石》的变化感觉更具原创性。这是开发过程中特别强调的一点吗？
+  translation: "P.Com：我玩了一点《宝可梦 黑版2》，令人惊讶的是，这些游戏从一开始就与合众地区的前两部作品感觉如此不同，从外观到你会遇到的宝可梦都是如此。它们比《宝可梦 绿宝石》相对于《宝可梦 红宝石·蓝宝石》的变化感觉更具原创性。这是开发过程中特别强调的一点吗？"
 - original: It was definitely something we paid attention to during development. When we first decided to make a true sequel to Pokémon Black Version and Pokémon White Version and set it two years later, we had two big concerns.
   role: answer
   speaker: 海野隆雄
@@ -140,7 +140,7 @@ parallel_items:
 - original: 'P.Com: What was behind the decision to create two follow-up games as opposed to a single game, as Pokémon Platinum was to Pokémon Diamond and Pokémon Pearl?'
   role: question
   speaker: Pokemon.com
-  translation: P.Com：决定制作两款后续作品而不是像《宝可梦 白金》之于《宝可梦 钻石／珍珠》那样只做一款，背后的原因是什么？
+  translation: "P.Com：决定制作两款后续作品而不是像《宝可梦 白金》之于《宝可梦 钻石·珍珠》那样只做一款，背后的原因是什么？"
 - original: In terms of why it’s usually one—that’s usually because we want to specialize in something. Like in Pokémon Platinum, our goal was to really focus on battling, so we really needed one version.
   role: answer
   speaker: 增田顺一
@@ -148,7 +148,7 @@ parallel_items:
 - original: In the new games, before we even had an idea for the story, we came up with the Key System. We didn’t have enough time to get it into Pokémon Black Version and Pokémon White Version. One aspect of the Key System is that when someone completes his or her game, they’ll get a key that they can give to someone else which can adjust the difficulty of his or her game. The idea is that if one player has siblings or friends, he or she can help them. Since that concept really needs two games, that was really when we made the decision.
   role: answer
   speaker: 增田顺一
-  translation: 在新作中，我们甚至在构思故事之前就想出了钥匙系统。当时我们没有足够时间把它加入《宝可梦 黑／白》。钥匙系统的一个方面是，当某人完成自己的游戏后，会得到一把钥匙，可以交给别人，用来调整对方游戏的难度。这个想法是，如果玩家有兄弟姐妹或朋友，就能帮助他们。由于这个概念确实需要两款游戏，那时我们就做出了决定。
+  translation: "在新作中，我们甚至在构思故事之前就想出了钥匙系统。当时我们没有足够时间把它加入《宝可梦 黑·白》。钥匙系统的一个方面是，当某人完成自己的游戏后，会得到一把钥匙，可以交给别人，用来调整对方游戏的难度。这个想法是，如果玩家有兄弟姐妹或朋友，就能帮助他们。由于这个概念确实需要两款游戏，那时我们就做出了决定。"
 - original: Also, since these games are true sequels, it felt like a much more natural progression from the first two games.
   role: answer
   speaker: 增田顺一

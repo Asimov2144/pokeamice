@@ -33,7 +33,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/2013-11-06-interview-hobbyconsolas-xy-masuda/01_hero_masuda_hobbyconsolas.jpg
   alt: 增田顺一在巴塞罗那漫展接受 Hobby Consolas 专访
-  caption: 宝可梦系列总监增田顺一在巴塞罗那国际漫画展出席《宝可梦 X／Y》官方首发庆典并接受 Hobby Consolas 独家深度专访。
+  caption: "宝可梦系列总监增田顺一在巴塞罗那国际漫画展出席《宝可梦 X·Y》官方首发庆典并接受 Hobby Consolas 独家深度专访。"
 - type: dialogue
   speaker: Hobby Consolas
   original: 'Hemos leído recientemente que Ken Sugimori podría plantearse una simplificación de la estructura de los juegos de Pokémon en el futuro: no reduciendo el número de Pokémon, pero sí a lo mejor habilidades o movimientos. Esto ya lo hemos visto en Pokémon X/Y, donde hay 72 nuevos Pokémon e igualmente pocas nuevas habilidades y movimientos. Y sin embargo la edad media del jugador de Pokémon está aumentando a unos 20 años. ¿Estamos hablando de un nuevo reto para Pokémon?'

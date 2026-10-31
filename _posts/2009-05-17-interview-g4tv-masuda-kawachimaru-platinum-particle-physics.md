@@ -73,7 +73,7 @@ parallel_items:
 - original: One of the things I, along with the other designers, wanted to focus on in Distortion World is creating a place that's very similar to Sinnoh [the world of Pokemon Diamond/Pearl], but very different. It's definitely a real world, but as soon as the player enters Distortion World, I want to make sure they know that it's different. For example, the sky is a little bit darker in Distortion World than it is in Sinnoh. The player will see lots of plants that they've never seen before. Waterfalls will have water flowing in strange directions. There are many similar elements between the real world and Distortion World -- whether it's movement, shape, or color -- but we want to make sure the player feels that they're in a distinct and opposite world.
   role: answer
   speaker: 河内丸武史
-  translation: 我和其他设计师在毁坏的世界中想要着重做的一件事，是创造一个与神奥地区（《宝可梦 钻石／珍珠》的世界）非常相似、但又非常不同的地方。它绝对是一个真实的世界，但玩家一进入毁坏的世界，我就想让他们知道这里不一样。比如，毁坏的世界的天空比神奥地区稍暗一些。玩家会看到许多从未见过的植物。瀑布的水会以奇怪的方向流动。真实世界和毁坏的世界之间有许多相似的元素——无论是运动、形状还是颜色——但我们想确保玩家感到自己身处一个截然不同、彼此对立的世界。
+  translation: "我和其他设计师在毁坏的世界中想要着重做的一件事，是创造一个与神奥地区（《宝可梦 钻石·珍珠》的世界）非常相似、但又非常不同的地方。它绝对是一个真实的世界，但玩家一进入毁坏的世界，我就想让他们知道这里不一样。比如，毁坏的世界的天空比神奥地区稍暗一些。玩家会看到许多从未见过的植物。瀑布的水会以奇怪的方向流动。真实世界和毁坏的世界之间有许多相似的元素——无论是运动、形状还是颜色——但我们想确保玩家感到自己身处一个截然不同、彼此对立的世界。"
 - original: Along with millions of competitive players, I'm personally looking forward to Battle Frontier. Would you tell G4 readers what they can expect in Battle Frontier?
   role: question
   speaker: G4
@@ -89,7 +89,7 @@ parallel_items:
 - original: In Diamond and Pearl you have Dialga and Palkia. In Platinum you have Giratina. There are three legendary Pokemon and there's a relationship between the three. From there we have a story to move onto with other legendary Pokemon, but at this point that's all I can share.
   role: answer
   speaker: 增田顺一
-  translation: "在《钻石／珍珠》里有帝牙卢卡和帕路奇亚。在《白金》里有骑拉帝纳。一共有三只传说的宝可梦，这三只之间存在着某种关系。从那里出发，我们还有一段与其他传说的宝可梦相关的故事要展开，但目前我能说的只有这些。"
+  translation: "在《钻石·珍珠》里有帝牙卢卡和帕路奇亚。在《白金》里有骑拉帝纳。一共有三只传说的宝可梦，这三只之间存在着某种关系。从那里出发，我们还有一段与其他传说的宝可梦相关的故事要展开，但目前我能说的只有这些。"
 - original: A lot of G4 readers love the Pokemon series, but want to see a proper Pokemon role-playing game on a home console, or even a Pokemon MMO. Do you see that ever happening?
   role: question
   speaker: G4

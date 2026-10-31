@@ -43,7 +43,7 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nom-gold-silver-gamefreak/p08.jpg
-  caption: 渡边哲也（程序员）：打破了《红／绿》时代的内存限制，引领实现了大容量化与新系统的实装。
+  caption: "渡边哲也（程序员）：打破了《红·绿》时代的内存限制，引领实现了大容量化与新系统的实装。"
   alt: 渡边哲也谈初代内存限制与金银的技术飞跃
 - speaker: 渡边哲也
   original: まずは行ける場所を多くするということと、ポケモンを増やすということです。あとは、『赤・緑』のときにメモリの関係でできなかったことを実現していこうということです。
