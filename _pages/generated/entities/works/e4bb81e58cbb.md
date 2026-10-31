@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第205回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch205/">[访谈翻译] 首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”（松开洛奇亚脚爪的悲壮自白、惨遭顶包的片尾曲公案与日剧《仁医》剧作鉴赏）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch205/">[访谈翻译] 首藤刚志动画创作手记 第205回：“其实我们只是想出风头罢了”</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 205</span>
 </article>
 

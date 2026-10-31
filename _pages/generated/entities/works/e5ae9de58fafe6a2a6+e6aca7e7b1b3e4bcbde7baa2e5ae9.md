@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 欧米伽红宝石·阿尔法蓝宝石</h2>
-    <span>8 篇文章 · 0 条评注 · 2017 / 2015 / 2014</span>
+    <span>10 篇文章 · 0 条评注 · 2017 / 2015 / 2014</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -25,8 +25,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · 私がゲームフリークに入った理由 グラフィックデザイナー編</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/">GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）</a></h3>
+  <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
+  <h3><a href="/访谈翻译/开发历史/总监专访/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/">Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道</a></h3>
   <span></span>
 </article>
 
@@ -43,6 +43,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2015 · interview_translation · 私がゲームフリークに入った理由 グラフィックデザイナー編</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/">GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2015 · scan_translation · 『ポケットモンスター オメガルビー・アルファサファイア』の魅力を再発見！ — 大森滋さんと魅力を探っていこう（絵コンテも初公開）</p>
   <h3><a href="/杂志特辑/扫描存档/scan-pokemon-life-2015-07-ohmori-oras/">ポケモンLife 2015：大森滋谈《欧米伽红宝石·阿尔法蓝宝石》的魅力与分镜稿</a></h3>
   <span></span>
@@ -51,6 +57,12 @@ search: false
 <article class="resource-network-card">
   <p>2015 · interview_translation · Special Interview 「ポケモンビジネス、徹底解剖」</p>
   <h3><a href="/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-business-anatomy/">宝可梦公司官方专访 商业篇：游戏×角色×授权——宝可梦商业彻底解剖（长田英树 × 陆川和男 × 藤井健）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
+  <h3><a href="/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/">Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录</a></h3>
   <span></span>
 </article>
 

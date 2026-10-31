@@ -92,7 +92,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · Junichi Masuda &amp; Takeshi Kawachimaru Talk &#39;Pokemon Platinum&#39;, Particle Physics, Bridges, And More!</p>
-  <h3><a href="/interview-g4tv-platinum-masuda-kawachimaru/">G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳</a></h3>
+  <h3><a href="/interview-g4tv-platinum-masuda-kawachimaru/">G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、破败世界与骑拉帝纳</a></h3>
   <span></span>
 </article>
 

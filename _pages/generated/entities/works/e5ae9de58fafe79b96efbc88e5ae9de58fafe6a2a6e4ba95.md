@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可盖（宝可梦井盖）</h2>
-    <span>1 篇文章 · 0 条评注 · 2021</span>
+    <span>2 篇文章 · 0 条评注 · 2021 / 2020</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2021 · interview_translation · ポケモン式ジョブローテーションによって得られる「変化への対応力」とは</p>
   <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">㈱宝可梦式轮岗机制带来的“应对变化的能力”是什么</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2020 · interview_translation · 世界でただひとつだけのマンホールを見つける旅</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-01-pokefuta-manhole-travel/">株式会社宝可梦 官方专题 01：宝可梦井盖的旅与地方故事</a></h3>
   <span></span>
 </article>
 

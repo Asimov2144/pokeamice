@@ -55,8 +55,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
-  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
+  <p>2016 · interview_translation · Inside Games 独家专访《宝可拳 POKKÉN TOURNAMENT》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
+  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可拳 POKKÉN TOURNAMENT》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
   <span></span>
 </article>
 

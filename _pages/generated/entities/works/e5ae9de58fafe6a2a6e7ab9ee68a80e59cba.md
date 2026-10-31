@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦竞技场</h2>
-    <span>3 篇文章 · 0 条评注 · 2017 / 2011 / 2009</span>
+    <span>4 篇文章 · 0 条评注 · 2017 / 2011 / 2009 / 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -33,6 +33,12 @@ search: false
 <article class="resource-network-card">
   <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第3回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/">[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2001 · interview_translation · 今月の特集：モバイルシステムGBで広がる遊び ＆ システム解説</p>
+  <h3><a href="/官方档案/访谈翻译/interview-nom-mobile-system-gb-revolution/">任天堂官方网络杂志 N.O.M 特辑：移动系统GB——是什么、能怎么玩、怎么买适配器、怎么连接和申请</a></h3>
   <span></span>
 </article>
 

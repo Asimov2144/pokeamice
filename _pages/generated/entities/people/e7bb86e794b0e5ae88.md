@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第221回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch221/">[访谈翻译] 首藤刚志动画创作手记 第221回：“纽约的宝可梦”（时代广场数码兽招牌、无线电城大号皮卡丘与“绝不写他人能写之物”）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch221/">[访谈翻译] 首藤刚志动画创作手记 第221回：纽约的宝可梦</a></h3>
   <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
 </article>
 

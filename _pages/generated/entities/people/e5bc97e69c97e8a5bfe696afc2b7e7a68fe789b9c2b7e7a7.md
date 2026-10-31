@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第173回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch173/">[访谈翻译] 首藤刚志动画创作手记 第173回：请不要直白喊出《宝可梦》的主题（地狱启示录作派、合家欢的成人隐线与绝不能挑明的“歧视”母题）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch173/">[访谈翻译] 首藤刚志动画创作手记 第173回：请不要说出《宝可梦》的主题</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 173: Please Do Not State the Theme of Pokemon Outright</span>
 </article>
 

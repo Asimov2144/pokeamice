@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宫本茂</h2>
-    <span>7 篇文章 · 0 条评注 · 2013 / 2011 / 2007 / 1999 / 1997</span>
+    <span>9 篇文章 · 0 条评注 · 2016 / 2013 / 2011 / 2007 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2016 · interview_translation · 电ファミニコゲーマー</p>
+  <h3><a href="/interview-denfami-xevious-tajiri-sugimori-endo/">电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第238回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-238/">[GameFreak部长专栏] 第238回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 关于6月11日在洛杉矶举行的E3！ 这次，任天堂岩田社长向我发出了邀请， 让我在E3会场内举办的“开发者圆桌会</span>
@@ -57,6 +63,12 @@ search: false
 <article class="resource-network-card">
   <p>1997 · interview_translation · Pokémon 2 (1997 Space World interview, translated by GlitterBerri)</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-spaceworld-pokemon2-en/">GlitterBerri（英译） 1997：宫本茂、田尻智、石原恒和谈《宝可梦2》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-shodai-zukan-1996-staff-interview/">《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」</a></h3>
   <span></span>
 </article>
 

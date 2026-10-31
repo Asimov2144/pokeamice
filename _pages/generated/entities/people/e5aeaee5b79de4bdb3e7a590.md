@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宮川佳祐</h2>
-    <span>1 篇文章 · 0 条评注 · 2023</span>
+    <span>2 篇文章 · 0 条评注 · 2024 / 2023</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2024 · interview_translation · 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</p>
+  <h3><a href="/采访/开发者访谈/宝可梦sleep/生活娱乐化/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/">【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</a></h3>
+  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0688 --</span>
+</article>
+
+<article class="resource-network-card">
   <p>2023 · interview_translation · 『ポケモンスリープ』インタビュー。ゲームとしてのおもしろさを追求しつつ、長時間遊ばせない睡眠計測アプリならではの工夫とは。アニメ『ポケットモンスター』湯山監督など豪華制作協力陣も判明</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2023-pokemon-sleep-team/">Fami通.com 2023：SELECT BUTTON与宝可梦团队谈《Pokémon Sleep》开发</a></h3>
   <span></span>

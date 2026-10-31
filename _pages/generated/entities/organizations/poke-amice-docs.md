@@ -140,14 +140,14 @@ search: false
 
 <article class="resource-network-card">
   <p>2022 · article · 微博头条文章</p>
-  <h3><a href="/长文分析/宝可梦友会/swsh-legendary-design-analysis-1/">【长文】《宝可梦 剑＆盾》传说宝可梦设定分析篇</a></h3>
-  <span>&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/notes-archive.css&quot; &lt;div class=&quot;wbn-article&quot; &lt;h2前言：&lt;/h2 &lt;p align=&quot;justify&quot;    本文中的设定分析整理自平时偶有所得的相关文献阅读和游戏体验，因此会包含一定的剧透，建议还未通关一二周目的读者通关后阅读。最初</span>
+  <h3><a href="/长文分析/宝可梦友会/swsh-legendary-design-analysis-2/">【长文】《宝可梦 剑＆盾》传说宝可梦设定分析续篇</a></h3>
+  <span>&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/notes-archive.css&quot; &lt;div class=&quot;wbn-article&quot; &lt;p&lt;span style=&quot;font-size:20px&quot;&lt;strong前言：&lt;/strong&lt;/span&lt;/p &lt;p style=&quot;text-indent:2em&quot;距离上次发布《宝可梦 </span>
 </article>
 
 <article class="resource-network-card">
   <p>2022 · article · 微博头条文章</p>
-  <h3><a href="/长文分析/宝可梦友会/swsh-legendary-design-analysis-2/">【长文】《宝可梦 剑＆盾》传说宝可梦设定分析续篇</a></h3>
-  <span>&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/notes-archive.css&quot; &lt;div class=&quot;wbn-article&quot; &lt;p&lt;span style=&quot;font-size:20px&quot;&lt;strong前言：&lt;/strong&lt;/span&lt;/p &lt;p style=&quot;text-indent:2em&quot;距离上次发布《宝可梦 </span>
+  <h3><a href="/长文分析/宝可梦友会/swsh-legendary-design-analysis-1/">【长文】《宝可梦 剑＆盾》传说宝可梦设定分析篇</a></h3>
+  <span>&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/notes-archive.css&quot; &lt;div class=&quot;wbn-article&quot; &lt;h2前言：&lt;/h2 &lt;p align=&quot;justify&quot;    本文中的设定分析整理自平时偶有所得的相关文献阅读和游戏体验，因此会包含一定的剧透，建议还未通关一二周目的读者通关后阅读。最初</span>
 </article>
 
 <article class="resource-network-card">
@@ -173,14 +173,14 @@ search: false
     <h2>相关评注</h2>
     <article class="resource-network-card resource-network-card--annotation">
   <p>2024 · Pokeamice.com · [站点]-建站纪事-Building-Records</p>
-  <h3><a href="/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-mm-theme">Minimal Mistakes 主题</a></h3>
-  <span>本站基础结构来自 Minimal Mistakes。后续的首页、侧边栏、扫描翻译页和评注系统都在这个主题上继续扩展。</span>
+  <h3><a href="/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg">随机背景方案</a></h3>
+  <span>这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。</span>
 </article>
 
 <article class="resource-network-card resource-network-card--annotation">
   <p>2024 · Pokeamice.com · [站点]-建站纪事-Building-Records</p>
-  <h3><a href="/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg">随机背景方案</a></h3>
-  <span>这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。</span>
+  <h3><a href="/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-mm-theme">Minimal Mistakes 主题</a></h3>
+  <span>本站基础结构来自 Minimal Mistakes。后续的首页、侧边栏、扫描翻译页和评注系统都在这个主题上继续扩展。</span>
 </article>
 
   </section>

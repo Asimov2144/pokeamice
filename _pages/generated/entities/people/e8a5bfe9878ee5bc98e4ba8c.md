@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>西野弘二</h2>
-    <span>9 篇文章 · 0 条评注 · 2018 / 2008 / 2004 / 2000 / 1999 / 1996</span>
+    <span>13 篇文章 · 0 条评注 · 2019 / 2018 / 2017 / 2013 / 2008 / 2004 / 2000 / 1999 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2019 · interview_translation · More Burning Questions For The Pokémon Series</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-burning/">Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2018 · interview_translation · Creator Profile: The Creators of Pikachu</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-creators-of-pikachu/">[访谈翻译] 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二</a></h3>
   <span></span>
@@ -31,14 +37,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · scan_translation · ゲームフリーク開発陣に聞く バトル・世界・ポケモン秘話</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2008-12-game-freak-interview/">Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界</a></h3>
+  <p>2017 · interview_translation · ゲームフリークの伝説と若き才能：大森滋×尾上将之</p>
+  <h3><a href="/developer-interviews/official-archives/interview-denfami-ohmori-onoue-gamefreak-heritage/">Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Early Concept Art</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · scan_translation · ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ</p>
   <h3><a href="/杂志特辑/扫描存档/scan-ndream-2008-12-platinum-battle-dojo/">Nintendo DREAM 2008：GAME FREAK对战与《宝可梦 白金》专访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · scan_translation · ゲームフリーク開発陣に聞く バトル・世界・ポケモン秘話</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2008-12-game-freak-interview/">Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界</a></h3>
   <span></span>
 </article>
 
@@ -57,6 +75,12 @@ search: false
 <article class="resource-network-card">
   <p>2000 · interview_translation · 『ポケットモンスター』を生んだ男たち（ゲームフリーク・インタビュー·初代篇）</p>
   <h3><a href="/interview-nom-genesis-gamefreak/">任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1999 · scan_translation · ポケットモンスター 金・銀 公式ガイドブック 巻末特集：かいはつスタッフずかん＆ポケモンジャーナル臨時増刊</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-gs-guidebook-1999-staff-zukan-journal/">《宝可梦 金·银》官方攻略本 1999：开发人员图鉴与宝可梦研究报告</a></h3>
   <span></span>
 </article>
 

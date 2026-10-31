@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon mini</h2>
-    <span>1 篇文章 · 0 条评注 · 2001</span>
+    <span>2 篇文章 · 0 条评注 · 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2001 · interview_translation · 未来へ広がるポケモンワールド／ポケモンミニソフト開発者インタビュー｜Nintendo Online Magazine 2001年11月号</p>
   <h3><a href="/访谈翻译/官方档案/interview-nom-2001-pokemon-mini-developers/">N.O.M 2001年11月号：宝可梦迷你开发者访谈——三浦昌幸与久須美谈硬件与软件同步开发</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-ishihara-tsunekazu-pokemon-world/">N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e</a></h3>
   <span></span>
 </article>
 

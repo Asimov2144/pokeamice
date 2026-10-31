@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第187回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch187/">[访谈翻译] 首藤刚志动画创作手记 第187回：洛奇亚默示录（小智妈妈“无需赌命拯救世界”台词、反派吉拉尔丹被剪掉的10分钟戏份与御前大人的白板造词“爆诞”）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch187/">[访谈翻译] 首藤刚志动画创作手记 第187回：洛奇亚默示录</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 187</span>
 </article>
 

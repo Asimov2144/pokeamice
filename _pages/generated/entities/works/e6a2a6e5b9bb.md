@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>梦幻</h2>
-    <span>1 篇文章 · 0 条评注 · 2026</span>
+    <span>2 篇文章 · 0 条评注 · 2026 / 1999</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2026 · interview_translation · 电击 Online 30周年纪念专栏</p>
   <h3><a href="/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/">与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1999 · interview_translation · The Ultimate Game Freak: An Interview with Satoshi Tajiri</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-time-satoshi-tajiri-ultimate-game-freak/">[访谈翻译] 《时代周刊》(TIME) 独家专访宝可梦之父田尻智：究极的 Game Freak（町田田园昆虫少年、GB通信线顿悟与无暴力游戏哲学）</a></h3>
   <span></span>
 </article>
 

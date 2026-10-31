@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · scan_translation · クリーチャーズ直撃取材！！ALL ABOUT Pokémon Ranger</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2010-04-creatures-ranger-interview/">Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》</a></h3>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2010-04-creatures-ranger-interview/">Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光的轨迹》</a></h3>
   <span></span>
 </article>
 

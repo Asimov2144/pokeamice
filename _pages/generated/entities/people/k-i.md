@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>K.I.</h2>
-    <span>2 篇文章 · 0 条评注 · 2024 / 2019</span>
+    <span>3 篇文章 · 0 条评注 · 2024 / 2019</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2024 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/">GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2024 · interview_translation · ゲームプログラマ対談｜採用情報</p>
   <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-game-programmer/">GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）</a></h3>
   <span></span>

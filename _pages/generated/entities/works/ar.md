@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 AR 搜寻器</h2>
-    <span>3 篇文章 · 0 条评注 · 2013 / 2012</span>
+    <span>4 篇文章 · 0 条评注 · 2013 / 2012</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2013 · interview_translation · GAME FREAK STAFF 日记</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-staff-diary/">[访谈翻译] GAME FREAK STAFF 日记</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第235回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-235/">[GameFreak部长专栏] 第235回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好！ 与《宝可梦 黑2·白2》联动的3DS下载软件， 大家有没有玩过《宝可梦AR搜寻器》呢？ 首次公开！！</span>

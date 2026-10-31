@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第184回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch184/">[访谈翻译] 首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch184/">[访谈翻译] 首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 184</span>
 </article>
 

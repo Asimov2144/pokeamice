@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 太阳·月亮</h2>
-    <span>51 篇文章 · 0 条评注 · 2026 / 2023 / 2019 / 2018 / 2017 / 2016</span>
+    <span>53 篇文章 · 0 条评注 · 2026 / 2023 / 2019 / 2018 / 2017 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -163,6 +163,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
   <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>
@@ -171,6 +177,12 @@ search: false
 <article class="resource-network-card">
   <p>2016 · interview_translation · GQ España</p>
   <h3><a href="/interview-gq-spain-sun-moon-masuda-ohmori/">专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-25043/">[访谈翻译] 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</a></h3>
   <span></span>
 </article>
 
@@ -235,15 +247,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン サン・ムーン 新情報 @ E3！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4185470/">【活动】2016宝可梦日月美国展会现场</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · New Pokémon Sun and Moon information @ E3</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4186463/">【活动】2016宝可梦日月E3</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4186463/001-c557333cec.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン サン・ムーン 新情報 @ E3！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4185470/">【活动】2016宝可梦日月美国展会现场</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">
@@ -253,15 +265,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · あと12時間（12 hours to go)</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3864160/">【活动】2016年宝可梦日月新情报</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3864160/001-155d41f1fd.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/">【活动】2016年宝可梦太阳月亮新情报</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 大家看了吗？ &lt;a class=&quot;gf-lineblog-source-link&quot; href=&quot;http://www.pokemon.co.jp/ex/sunmoon/?a001=msign&quot; target=&quot;blank&quot; rel=&quot;noope</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · あと12時間（12 hours to go)</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3864160/">【活动】2016年宝可梦日月新情报</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3864160/001-155d41f1fd.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">

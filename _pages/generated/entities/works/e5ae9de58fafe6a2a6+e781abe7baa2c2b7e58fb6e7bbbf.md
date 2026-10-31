@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 火红·叶绿</h2>
-    <span>22 篇文章 · 0 条评注 · 2016 / 2011 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>23 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -28,6 +28,12 @@ search: false
   <p>2011 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 想像力トレーニング！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-231/">【工作日志】2011年想象力训练</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好。&lt;br 我是策划员マー（小玛）。 前几天，我久违地自己做了顿饭。&lt;br 最近很少下厨了，&lt;br 但看着肚子一点一点鼓起来，&lt;br 也不能总是在外面吃饭。 我想着做点看起来对身体有益的料理，&lt;br 于是决定做一道放满蔬菜的炒菜。 我纠结了一下该怎么调味，想着要不要试试中式风味——&lt;b</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2010-11-five-regions-guide/">Nintendo DREAM 2010：宝可梦五大地区观光指南</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

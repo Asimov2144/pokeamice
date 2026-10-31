@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>中川翔子</h2>
-    <span>5 篇文章 · 0 条评注 · 2011 / 2009 / 2007 / 2006</span>
+    <span>7 篇文章 · 0 条评注 · 2026 / 2018 / 2011 / 2009 / 2007 / 2006</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,18 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · CONTINUE</p>
+  <h3><a href="/访谈翻译/扫描存档/continue-vol31-scan-archive/">[扫描访谈] CONTINUE Vol.31 自动化对照存档</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · グラフィックデザイナー・イラストレーター にしだあつこ対談 - 中川翔子のポップカルチャー・ラボ</p>
+  <h3><a href="/访谈翻译/角色设计/对谈/interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/">FUN&#39;S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第209回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-209/">[GameFreak部长专栏] 第209回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月4日的MTM演出，大家都看了吗！？ 竟然演奏了三首曲子！ 那还是《宝可梦冲刺！》叫作《宝可梦☆星期天》的年</span>

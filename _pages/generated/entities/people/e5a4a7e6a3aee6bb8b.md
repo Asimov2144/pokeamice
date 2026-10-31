@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>大森滋</h2>
-    <span>41 篇文章 · 0 条评注 · 2026 / 2025 / 2024 / 2022 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2011 / 2010 / 2009 / 2005</span>
+    <span>46 篇文章 · 0 条评注 · 2026 / 2025 / 2024 / 2022 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2011 / 2010 / 2009 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -50,7 +50,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2019 · interview_translation · プロジェクトストーリー1｜採用情報</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-sword-shield/">GAME FREAK Project Story《宝可梦 剑／盾》：从策划流程开始，改变过去的《宝可梦》（大森滋、岩尾和昌）</a></h3>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-sword-shield/">GAME FREAK Project Story《宝可梦 剑·盾》：从策划流程开始，改变过去的《宝可梦》（大森滋、岩尾和昌）</a></h3>
   <span></span>
 </article>
 
@@ -151,14 +151,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
+  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
+  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
   <span></span>
 </article>
 
@@ -169,8 +169,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
+  <h3><a href="/developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/">GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2017 · interview_translation · Game Freak&#39;s Directors Share Their Favorite Pokémon Spin-Offs</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-spinoffs/">Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
+  <h3><a href="/访谈翻译/开发历史/总监专访/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/">Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/">CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</a></h3>
   <span></span>
 </article>
 
@@ -181,14 +199,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
   <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <p>2016 · interview_translation · GQ España</p>
+  <h3><a href="/interview-gq-spain-sun-moon-masuda-ohmori/">专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋</a></h3>
   <span></span>
 </article>
 
@@ -219,6 +243,12 @@ search: false
 <article class="resource-network-card">
   <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
   <h3><a href="/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/">Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · “为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋</p>
+  <h3><a href="/interview-elpais-oras-masuda-ohmori/">“为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋</a></h3>
   <span></span>
 </article>
 

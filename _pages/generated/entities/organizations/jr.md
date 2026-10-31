@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第208回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch208/">[访谈翻译] 首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch208/">[访谈翻译] 首藤刚志动画创作手记 第208回：《宝可梦》电影第二弹之后、第三弹之前</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 208</span>
 </article>
 

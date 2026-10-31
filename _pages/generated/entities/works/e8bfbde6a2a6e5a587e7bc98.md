@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第210回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch210/">[访谈翻译] 首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch210/">[访谈翻译] 首藤刚志动画创作手记 第210回：幻之《宝可梦》电影第三弹……化作泡影</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 210</span>
 </article>
 

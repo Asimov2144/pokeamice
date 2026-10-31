@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第150回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch150/">[访谈翻译] 首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch150/">[访谈翻译] 首藤刚志动画创作手记 第150回：《宝可梦》「正辉的灯塔」</a></h3>
   <span></span>
 </article>
 

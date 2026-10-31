@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第145回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch145/">[访谈翻译] 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch145/">[访谈翻译] 首藤刚志动画创作手记 第145回：在《宝可梦》的开机酒会上……</a></h3>
   <span></span>
 </article>
 

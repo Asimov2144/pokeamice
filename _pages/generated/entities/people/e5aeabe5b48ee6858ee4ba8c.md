@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宫崎慎二</h2>
-    <span>1 篇文章 · 0 条评注 · 2011</span>
+    <span>2 篇文章 · 0 条评注 · 2011 / 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -22,6 +22,12 @@ search: false
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第202回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-202/">[GameFreak部长专栏] 第202回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 战斗基因M，你看了吗？ 有人会问：“那是什么？”！！ 你没看《宝可梦大爆笑！》吧？？ 每周都要看哦——！ 前些</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · Shinji Miyazaki × Game Freak Sound Team “Talk about Pokémon Music”</p>
+  <h3><a href="/developer-interviews/music-archives/interview-cd-anime-ost-miyazaki-soundteam/">动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂</a></h3>
+  <span></span>
 </article>
 
   </section>

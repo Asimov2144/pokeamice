@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦集换式卡牌游戏 Pocket</h2>
-    <span>3 篇文章 · 0 条评注 · 2026 / 2025</span>
+    <span>4 篇文章 · 0 条评注 · 2026 / 2025 / 2024</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -33,6 +33,12 @@ search: false
 <article class="resource-network-card">
   <p>2025 · interview_translation · 紙のカード本来の魅力とデジタル特有の表現を両立させる。『Pokémon TCG Pocket（ポケポケ）』カード表現の制作手法【CEDEC2025】</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamemakers-cedec-2025-ptcg-pocket-cards/">ゲームメーカーズ 2025：Creatures与DeNA谈《Pokémon TCG Pocket》卡牌表现制作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2024 · interview_translation · デジタルで広がる　ポケモンカードゲームの世界</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-28-pokemon-trading-card-game-pocket/">株式会社宝可梦 官方专题 28：宝可梦卡牌Pocket开发团队谈数字卡牌</a></h3>
   <span></span>
 </article>
 

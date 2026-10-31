@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦对战革命</h2>
-    <span>3 篇文章 · 0 条评注 · 2008 / 2007 / 2006</span>
+    <span>4 篇文章 · 0 条评注 · 2008 / 2007 / 2006</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -28,6 +28,12 @@ search: false
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第70回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-070/">[GameFreak部长专栏] 第70回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 周六上午，我去了次世代世界兴趣博览会！ 从东京出发的电车上，孩子们已经沉浸在游戏的世界里了。 大家玩着各种各样</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2006 · interview_translation</p>
+  <h3><a href="/interview-nom-dp-ishihara-masuda-sugimori/">任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

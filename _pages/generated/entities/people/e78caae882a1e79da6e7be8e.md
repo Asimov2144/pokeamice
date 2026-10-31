@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第217回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch217/">[访谈翻译] 首藤刚志动画创作手记 第217回：“病房里的妄想症恶化？在《宝可梦》的世界里所谓的‘第一’究竟是什么？”（巴黎公社梦碎、暴发户刻板印象、世界第一的伪善虚相与小田原圣地巡礼）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch217/">[访谈翻译] 首藤刚志动画创作手记 第217回：病房里的妄想症恶化？在《宝可梦》的世界里所谓的“第一”究竟是什么？</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 217</span>
 </article>
 

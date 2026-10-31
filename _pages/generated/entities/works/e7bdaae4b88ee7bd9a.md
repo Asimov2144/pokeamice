@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第225回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch225/">[访谈翻译] 首藤刚志动画创作手记 第225回：“我就是我”（昏迷倒地三日的“异常正常”、母校演讲一元二手书与《告白》《从河底问好》）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch225/">[访谈翻译] 首藤刚志动画创作手记 第225回：我就是我</a></h3>
   <span></span>
 </article>
 

@@ -20,19 +20,19 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」最終回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：大家都能成为编剧</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第206回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch206/">[访谈翻译] 首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch206/">[访谈翻译] 首藤刚志动画创作手记 第206回：《宝可梦》还要再做十年</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 206</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第169回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch169/">[访谈翻译] 首藤刚志动画创作手记 第169回：《宝可梦》这里是哪里？我是谁？（独白破壁、自我意识觉醒与商业动画的极限突破）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch169/">[访谈翻译] 首藤刚志动画创作手记 第169回：《宝可梦》这里是哪里？我是谁？</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 169: Pokemon - Where is this place? Who am I?</span>
 </article>
 

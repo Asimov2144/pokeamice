@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第218回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch218/">[访谈翻译] 首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch218/">[访谈翻译] 首藤刚志动画创作手记 第218回：回过神来身在纽约</a></h3>
   <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
 </article>
 

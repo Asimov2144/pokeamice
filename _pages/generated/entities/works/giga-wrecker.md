@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>GIGA WRECKER</h2>
-    <span>2 篇文章 · 0 条评注 · 2019 / 2017</span>
+    <span>3 篇文章 · 0 条评注 · 2019 / 2017</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,12 @@ search: false
     <article class="resource-network-card">
   <p>2019 · interview_translation · プロジェクトストーリー２｜採用情報</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-projectstory-giga-wrecker/">GAME FREAK Project Story《GIGA WRECKER》：从零开始全靠自己打造新IP（尾上将之、伊藤博人、小川一美）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · ゲームフリークの伝説と若き才能：大森滋×尾上将之</p>
+  <h3><a href="/developer-interviews/official-archives/interview-denfami-ohmori-onoue-gamefreak-heritage/">Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）</a></h3>
   <span></span>
 </article>
 

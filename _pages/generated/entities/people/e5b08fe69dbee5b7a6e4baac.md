@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」最終回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：大家都能成为编剧</a></h3>
   <span></span>
 </article>
 

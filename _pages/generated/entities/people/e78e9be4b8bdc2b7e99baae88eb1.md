@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第172回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch172/">[访谈翻译] 首藤刚志动画创作手记 第172回：克隆体与本体的“自己究竟为何物？”（梦幻Bug都市传说、多莉羊与科学怪人的悲剧宿命）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch172/">[访谈翻译] 首藤刚志动画创作手记 第172回：复制品与原版的“自己是什么？”</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 172: What am I? Clone and Original</span>
 </article>
 

@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第147回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch147/">[访谈翻译] 首藤刚志动画创作手记 第147回：“无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch147/">[访谈翻译] 首藤刚志动画创作手记 第147回：在《宝可梦》里什么都没做的系列构成</a></h3>
   <span></span>
 </article>
 

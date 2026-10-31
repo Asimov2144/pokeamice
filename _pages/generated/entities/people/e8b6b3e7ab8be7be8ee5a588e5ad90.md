@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>足立美奈子</h2>
-    <span>3 篇文章 · 0 条评注 · 2014 / 2013 / 2010</span>
+    <span>4 篇文章 · 0 条评注 · 2014 / 2013 / 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -27,6 +27,12 @@ search: false
 <article class="resource-network-card">
   <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』サウンドチーム インタビュー「楽曲魂」特別編</p>
   <h3><a href="/访谈翻译/扫描存档/scan-ndream-2014-01-xy-sound-team-interview/">Nintendo DREAM 2013：《宝可梦 X·Y》声音团队访谈「乐曲魂」特别篇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · ALL ABOUT ポケットモンスターブラック・ホワイト 音 SOUNDS &amp; MUSIC：楽曲魂 特別編</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/">Nintendo DREAM 2010：宝可梦 黑·白 声音总监景山将太访谈</a></h3>
   <span></span>
 </article>
 

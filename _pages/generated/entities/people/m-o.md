@@ -19,14 +19,14 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2024 · interview_translation · ゲームプログラマ対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-game-programmer/">GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）</a></h3>
+  <p>2024 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/">GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/">GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）</a></h3>
+  <p>2024 · interview_translation · ゲームプログラマ対談｜採用情報</p>
+  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-game-programmer/">GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）</a></h3>
   <span></span>
 </article>
 

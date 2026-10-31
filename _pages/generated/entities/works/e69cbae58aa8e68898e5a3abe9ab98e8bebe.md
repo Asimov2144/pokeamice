@@ -20,19 +20,19 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」最終回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：大家都能成为编剧</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第179回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch179/">[访谈翻译] 首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch179/">[访谈翻译] 首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 179</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第170回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch170/">[访谈翻译] 首藤刚志动画创作手记 第170回：新年寄语与心境（英国国教会认证、海外版税长流与无印时代的距离感）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch170/">[访谈翻译] 首藤刚志动画创作手记 第170回：今年也请多关照 能帮上忙我会很高兴</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 170: New Year Greetings and Memoir Reflection</span>
 </article>
 

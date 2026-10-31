@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦中心 出张所</h2>
-    <span>1 篇文章 · 0 条评注 · 2023</span>
+    <span>2 篇文章 · 0 条评注 · 2026 / 2023</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · ポケモンがあなたの町へやってくる「ポケモンセンター出張所」</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-50-pokemon-center-pop-up-store-nationwide/">株式会社宝可梦 官方专题 50：宝可梦中心出张所负责人谈快闪店企划</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2023 · interview_translation · ポケモンセンター出張所ができるまで K.K｜株式会社ポケモンセンター 採用サイト</p>
   <h3><a href="/官方档案/访谈翻译/interview-pokemon-center-pop-up-store-project/">株式会社宝可梦中心 官方招聘访谈 03：活动企划部 K.K——宝可梦中心出张所的企划与运营</a></h3>
   <span></span>

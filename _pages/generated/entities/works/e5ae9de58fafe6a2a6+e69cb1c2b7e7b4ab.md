@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 朱·紫</h2>
-    <span>21 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2022</span>
+    <span>23 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2022</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -25,8 +25,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2024 · interview_translation · 志摩スペイン村で楽しむ「パルデア地方」の世界</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-25-shima-spain-village-paldea-crossover/">株式会社宝可梦 官方专题 25：志摩西班牙村再现帕底亚地区</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2024 · interview_translation · 【ポケモンSV】“PJCS2024”でテラパゴスとともに優勝したハラ ヒュウマ選手へインタビュー</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos/">Fami通.com 2024：PJCS2024 冠军ハラ ヒュウマ专访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2024 · interview_translation · 大人の本気が子どもの夢になる「トヨタミライドンプロジェクト」</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-14-toyota-miraidon-project-future-mobility/">株式会社宝可梦 官方专题 14：丰田密勒顿项目访谈</a></h3>
   <span></span>
 </article>
 
@@ -43,8 +55,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · 新卒若手対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-graduate/">GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声</a></h3>
+  <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
+  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
   <span></span>
 </article>
 
@@ -55,8 +67,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
+  <p>2024 · interview_translation · 新卒若手対談｜採用情報</p>
+  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-graduate/">GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声</a></h3>
   <span></span>
 </article>
 

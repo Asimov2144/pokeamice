@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红宝石·蓝宝石</h2>
-    <span>38 篇文章 · 0 条评注 · 2023 / 2017 / 2016 / 2015 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2003 / 2002</span>
+    <span>40 篇文章 · 0 条评注 · 2023 / 2017 / 2016 / 2015 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2003 / 2002</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -31,14 +31,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
+  <h3><a href="/developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/">GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
   <h3><a href="/访谈翻译/开发历史/总监专访/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/">Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
-  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
+  <p>2016 · interview_translation · Inside Games 独家专访《宝可拳 POKKÉN TOURNAMENT》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
+  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可拳 POKKÉN TOURNAMENT》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
   <span></span>
 </article>
 
@@ -57,6 +63,12 @@ search: false
 <article class="resource-network-card">
   <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
   <h3><a href="/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/">Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · 2083WEB (Game Music Web)</p>
+  <h3><a href="/采访/开发者访谈/宝可梦oras/音乐与设计/interview-2083-gamefreak-sound-team-red-green-to-oras/">2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》</a></h3>
   <span></span>
 </article>
 
@@ -235,14 +247,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／対戦＆「ひみつきち」体験！ 株式会社ポケモン潜入取材｜Nintendo Online Magazine 2002年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report/">N.O.M 2002年：宝可梦公司潜入采访 对战与秘密基地体验</a></h3>
+  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）｜Nintendo Online Magazine 2002年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-staff-messages/">N.O.M 2002年：增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）｜Nintendo Online Magazine 2002年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-staff-messages/">N.O.M 2002年：增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》</a></h3>
+  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／対戦＆「ひみつきち」体験！ 株式会社ポケモン潜入取材｜Nintendo Online Magazine 2002年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report/">N.O.M 2002年：宝可梦公司潜入采访 对战与秘密基地体验</a></h3>
   <span></span>
 </article>
 

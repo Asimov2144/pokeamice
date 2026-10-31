@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 钻石·珍珠</h2>
-    <span>72 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>77 篇文章 · 0 条评注 · 2026 / 2022 / 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,24 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · CONTINUE</p>
+  <h3><a href="/访谈翻译/扫描存档/continue-vol31-scan-archive/">[扫描访谈] CONTINUE Vol.31 自动化对照存档</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2022 · interview_translation · “耳”は、あの冒険を覚えているか？</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-08-pokemon-dp-sound-library-music/">株式会社宝可梦 官方专题 08：Yaffle谈宝可梦游戏音乐的再创作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
   <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>
@@ -40,6 +58,12 @@ search: false
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第200回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-200/">[GameFreak部长专栏] 第200回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 祝贺！专栏第200回！ 这次能够迎来第200回， 也是因为有一直支持宝可梦的大家。 真的非常感谢！ 而且，为了</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · GAME FREAK 開発スタッフインタビュー『ポケットモンスター』を変えること／変わらないこと</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-dengeki-games-vol14-bw-gamefreak-interview/">電撃GAMES 2010：GAME FREAK谈宝可梦 黑·白 改变与不变</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -361,20 +385,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2006 · scan_translation · CONTINUE 2006 vol.31</p>
+  <h3><a href="/访谈翻译/扫描存档/continue-vol31-aoi-yu-pikachu/">[扫描访谈] 苍井优 × 皮卡丘</a></h3>
+  <span>本页是纯文本档案版本，正文与主站图文版同源。原刊图片与完整阅读体验请见主站。</span>
+</article>
+
+<article class="resource-network-card">
   <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』プレイレポート｜Nintendo Online Magazine 2006年10月号 No.99</p>
   <h3><a href="/官方档案/访谈翻译/interview-nom-dp-underground-fossil-battle-report/">任天堂官方网络杂志 N.O.M：《宝可梦 钻石·珍珠》游玩报告（2006年10月号）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/">N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈</a></h3>
+  <p>2006 · interview_translation</p>
+  <h3><a href="/interview-nom-dp-ishihara-masuda-sugimori/">任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2006 · interview_translation</p>
-  <h3><a href="/interview-nom-dp-ishihara-masuda-sugimori/">任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）</a></h3>
+  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/">N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈</a></h3>
   <span></span>
 </article>
 

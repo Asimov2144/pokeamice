@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>田谷正夫</h2>
-    <span>4 篇文章 · 0 条评注 · 2017 / 2016 / 2013 / 2011</span>
+    <span>5 篇文章 · 0 条评注 · 2017 / 2016 / 2013 / 2011</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -31,8 +31,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺 哲也氏に聞いた</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-2013-solitiba/">4Gamer.net 2013：Game Freak杉森建与渡边哲也谈原点回归与自主发行</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2013-solitiba/">Fami通.com 2013：GAME FREAK谈《纸牌马》为何是赛马加纸牌</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2013-solitiba/">Fami通.com 2013：GAME FREAK谈《纸牌赛马》为何是赛马加纸牌</a></h3>
   <span></span>
 </article>
 

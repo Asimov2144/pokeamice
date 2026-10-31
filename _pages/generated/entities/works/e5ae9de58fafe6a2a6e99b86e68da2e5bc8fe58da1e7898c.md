@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦集换式卡牌游戏</h2>
-    <span>20 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2019 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
+    <span>23 篇文章 · 0 条评注 · 2025 / 2024 / 2021 / 2019 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,14 +19,14 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2025 · interview_translation · ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる</p>
-  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/">Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力</a></h3>
+  <p>2025 · interview_translation · ブランドを守り、子どもたちを守る。ポケモンカードゲームのアートの使命</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-illustration-production/">Creatures 招聘网站：插画制作进度管理 S.H. 谈宝可梦卡牌美术的使命</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2025 · interview_translation · ブランドを守り、子どもたちを守る。ポケモンカードゲームのアートの使命</p>
-  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-illustration-production/">Creatures 招聘网站：插画制作进度管理 S.H. 谈宝可梦卡牌美术的使命</a></h3>
+  <p>2025 · interview_translation · ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/">Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力</a></h3>
   <span></span>
 </article>
 
@@ -43,9 +43,27 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2025 · interview_translation · プレイヤーから支える立場へ ポケモンカードゲーム公式資格</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-36-ptcg-official-judge-organizer-certification/">株式会社宝可梦 官方专题 36：宝可卡官方资格制度访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2025 · interview_translation · 中国一線都市を巡る　ポケモンカードゲーム大会「マスターズ」</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-33-pokemon-shanghai-tcg-masters-china/">株式会社宝可梦 官方专题 33：中国一线城市宝可梦卡牌大师赛负责人访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2024 · article · special.pokemon.cn</p>
   <h3><a href="/tech/ptcg/技能机-卡图下载-查询时间-Download-Inqury/">[技能机] 卡图下载 查询时间 Download &amp; Time Inqury</a></h3>
   <span>批量下载卡图&amp;查询服务器存档时间 宝活小妙招\ {: .align-center} 下载卡图！ 得先推测出链接的格式，比如 &lt;a href=&quot;https://special.pokemon.cn/&quot; title = &quot;151&quot;https://special.pokemon.cn/&lt;/a 上有一些151卡图的链接 点开卡图后可以发现对应的静态链接 &lt;a hre</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2024 · interview_translation · 渋谷に“特別な場所”が誕生「POKÉMON CARD LOUNGE」</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge/">株式会社宝可梦 官方专题 19：SHIBUYA TSUTAYA的POKÉMON CARD LOUNGE</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -127,14 +145,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-ishihara-tsunekazu-pokemon-world/">N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e</a></h3>
+  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／ポケモンカードe・カードeリーダー開発者インタビュー｜Nintendo Online Magazine 2001年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-pokemon-card-e-creatures/">N.O.M 2001年11月号：宝可梦卡牌e与卡牌e读取器开发者访谈</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／ポケモンカードe・カードeリーダー開発者インタビュー｜Nintendo Online Magazine 2001年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-pokemon-card-e-creatures/">N.O.M 2001年11月号：宝可梦卡牌e与卡牌e读取器开发者访谈</a></h3>
+  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-ishihara-tsunekazu-pokemon-world/">N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e</a></h3>
   <span></span>
 </article>
 

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>James Turner</h2>
-    <span>5 篇文章 · 0 条评注 · 2025 / 2019 / 2015 / 2010</span>
+    <span>6 篇文章 · 0 条评注 · 2025 / 2019 / 2015 / 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -27,6 +27,12 @@ search: false
 <article class="resource-network-card">
   <p>2019 · interview_translation · Going Big</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-going-big/">Game Informer 2019：大森滋与岩尾和昌谈《宝可梦 剑·盾》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-siliconera-harmoknight-drill-dozer/">[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘</a></h3>
   <span></span>
 </article>
 

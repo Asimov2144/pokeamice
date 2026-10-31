@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>122 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
+    <span>128 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2021 / 2020 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · CONTINUE</p>
+  <h3><a href="/访谈翻译/扫描存档/continue-vol31-scan-archive/">[扫描访谈] CONTINUE Vol.31 自动化对照存档</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2026 · interview_translation · 电击 Online 30周年纪念专栏</p>
   <h3><a href="/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/">与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇</a></h3>
   <span></span>
@@ -64,6 +70,12 @@ search: false
   <p>2020 · interview_translation · 石原恒和・ポケモン社長　父に囲碁教わりゲーム好きに</p>
   <h3><a href="/developer-interviews/official-archives/interview-nikkei-ishihara-go-boardgames/">日本经济新闻 深度特写宝可梦社长石原恒和：从父亲传授围棋到千亿IP帝国舵手，与岩田聪、田尻智的初心原点</a></h3>
   <span>导读：棋盘盘上的孤独推演与千亿商业帝国的原点 作为统领全球第一娱乐 IP 宝可梦（Pokémon）全商业裂变与游戏发行的掌舵人，石原恒和（Tsunekazu Ishihara）的名字往往与“商业奇才”、“卡牌之父”、“制作人操盘手”等宏大词汇联系在一起。然而在这篇刊载于《日本经济新闻》夕刊的经典纪实专栏《即便如此仍是父子》中，石原恒和卸下了商业领袖的威严外衣</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2020 · interview_translation · 1,000年後にポケモンが発掘されたとしたら？ 現代アートからの回答</p>
+  <h3><a href="/官方档案/专题报道/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/">株式会社宝可梦 官方专题 02：丹尼尔·阿尔轩谈千年后的宝可梦</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -115,6 +127,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
   <span></span>
@@ -133,6 +151,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · The History Of Pokémon Gold And Silver</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-gs-history/">Game Informer 2017：增田顺一谈《宝可梦 金·银》的开发困境与京都灵感</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
   <h3><a href="/developer-interviews/official-archives/interview-gigazine-gamefreak-sketches-masuda/">GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案</a></h3>
   <span></span>
@@ -145,15 +169,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Game Freak’s Origins And Its Pre-Pokémon Games</p>
-  <h3><a href="/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
-  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0827 --</span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · 『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/">はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · Game Freak’s Origins And Its Pre-Pokémon Games</p>
+  <h3><a href="/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
+  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0827 --</span>
 </article>
 
 <article class="resource-network-card">
@@ -229,14 +253,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
+  <p>2014 · interview_translation</p>
+  <h3><a href="/interview-niconico-gamefreak-origins-masuda/">NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation</p>
-  <h3><a href="/interview-niconico-gamefreak-origins-masuda/">NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学</a></h3>
+  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
   <span></span>
 </article>
 
@@ -253,8 +277,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
 </article>
 
@@ -265,8 +289,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
   <span></span>
 </article>
 
@@ -322,6 +346,12 @@ search: false
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 6</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-206/">【工作日志】2010年宝可梦设定制作幕后</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br “《宝可梦 黑·白》的制作方法”第6回，&lt;br 这次将以策划松岛的“关于宝可梦设定的故事”为中心，为大家带来内容！&lt;br —–&lt;br 大家好，我是策划松岛。&lt;br 在《宝可梦 黑·白》中，我负责宝可梦的设定、&lt;br 命名、宝可梦图</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · GAME FREAK 開発スタッフインタビュー『ポケットモンスター』を変えること／変わらないこと</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-dengeki-games-vol14-bw-gamefreak-interview/">電撃GAMES 2010：GAME FREAK谈宝可梦 黑·白 改变与不变</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -385,14 +415,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-1-red-green-mew/">[访谈翻译] 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相</a></h3>
+  <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第3回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/">[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第3回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/">[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场</a></h3>
+  <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-1-red-green-mew/">[访谈翻译] 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相</a></h3>
   <span></span>
 </article>
 
@@ -404,73 +434,73 @@ search: false
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第172回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch172/">[访谈翻译] 首藤刚志动画创作手记 第172回：克隆体与本体的“自己究竟为何物？”（梦幻Bug都市传说、多莉羊与科学怪人的悲剧宿命）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch172/">[访谈翻译] 首藤刚志动画创作手记 第172回：复制品与原版的“自己是什么？”</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 172: What am I? Clone and Original</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第168回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch168/">[访谈翻译] 首藤刚志动画创作手记 第168回：《超梦的逆袭》市村正亲先生（歌剧魅影的宿命投影、现代声优危机与悲剧巨匠降临）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch168/">[访谈翻译] 首藤刚志动画创作手记 第168回：《超梦的逆袭》市村正亲先生</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 168: Mewtwo Strikes Back and Masachika Ichimura</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第167回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch167/">[访谈翻译] 首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch167/">[访谈翻译] 首藤刚志动画创作手记 第167回：宝可梦事件之前的《超梦的逆袭》</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 167: Mewtwo Strikes Back before the Pokemon Incident</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第166回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch166/">[访谈翻译] 首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch166/">[访谈翻译] 首藤刚志动画创作手记 第166回：宝可梦《超梦的逆袭》的主题</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 166: The Theme of Mewtwo Strikes Back</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/">[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/">[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的指导方针</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/">[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/">[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直到NHK的事件被发现</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/">[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/">[访谈翻译] 首藤刚志动画创作手记 第163回：《宝可梦》动画陷入绝境的幕后操盘手</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/">[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/">[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件，相关人员们……</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/">[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/">[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/">[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/">[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 事发当天，医院里……</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/">[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/">[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/">[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/">[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕</a></h3>
   <span></span>
 </article>
 
@@ -488,103 +518,103 @@ search: false
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第157回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/">[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/">[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第156回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch156/">[访谈翻译] 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch156/">[访谈翻译] 首藤刚志动画创作手记 第156回：在《宝可梦》中初尝压力</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第155回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch155/">[访谈翻译] 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch155/">[访谈翻译] 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第152回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch152/">[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch152/">[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第151回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch151/">[访谈翻译] 首藤刚志动画创作手记 第151回：带字幕的宝可梦（“巨大宝可梦之岛”的御前舌战与欧洲酒馆里的抱怨哲学）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch151/">[访谈翻译] 首藤刚志动画创作手记 第151回：带字幕的《宝可梦》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第150回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch150/">[访谈翻译] 首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch150/">[访谈翻译] 首藤刚志动画创作手记 第150回：《宝可梦》「正辉的灯塔」</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第149回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch149/">[访谈翻译] 首藤刚志动画创作手记 第149回：让宝可梦稍微写实一点……？（校园霸凌的暗线与社会现实反思）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch149/">[访谈翻译] 首藤刚志动画创作手记 第149回：让宝可梦稍微写实一点……？</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第148回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch148/">[访谈翻译] 首藤刚志动画创作手记 第148回：第9话『宝可梦必胜指南』（应试教育与理论派的落败）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch148/">[访谈翻译] 首藤刚志动画创作手记 第148回：《宝可梦必胜指南》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第147回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch147/">[访谈翻译] 首藤刚志动画创作手记 第147回：“无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch147/">[访谈翻译] 首藤刚志动画创作手记 第147回：在《宝可梦》里什么都没做的系列构成</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第146回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch146/">[访谈翻译] 首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch146/">[访谈翻译] 首藤刚志动画创作手记 第146回：我能为《宝可梦》做些什么？</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第145回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch145/">[访谈翻译] 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch145/">[访谈翻译] 首藤刚志动画创作手记 第145回：在《宝可梦》的开机酒会上……</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第144回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch144/">[访谈翻译] 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch144/">[访谈翻译] 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第143回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch143/">[访谈翻译] 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch143/">[访谈翻译] 首藤刚志动画创作手记 第143回：第1、2话开播</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第142回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch142/">[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch142/">[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第141回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch141/">[访谈翻译] 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch141/">[访谈翻译] 首藤刚志动画创作手记 第141回：我亲自试玩了游戏</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第140回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch140/">[访谈翻译] 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch140/">[访谈翻译] 首藤刚志动画创作手记 第140回：请爱《宝可梦》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第139回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch139/">[访谈翻译] 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch139/">[访谈翻译] 首藤刚志动画创作手记 第139回：对游戏动画化的所思所想</a></h3>
   <span></span>
 </article>
 
@@ -601,15 +631,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-124/">[GameFreak部长专栏] 第124回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）</a></h3>
-  <span></span>
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-124/">[GameFreak部长专栏] 第124回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
 </article>
 
 <article class="resource-network-card">
@@ -721,6 +751,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>1999 · interview_translation · The Ultimate Game Freak: An Interview with Satoshi Tajiri</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-time-satoshi-tajiri-ultimate-game-freak/">[访谈翻译] 《时代周刊》(TIME) 独家专访宝可梦之父田尻智：究极的 Game Freak（町田田园昆虫少年、GB通信线顿悟与无暴力游戏哲学）</a></h3>
   <span></span>
@@ -739,14 +775,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル</p>
-  <h3><a href="/杂志特辑/扫描存档/scan-shodai-zukan-1996-pokemon-journal/">《ポケットモンスター図鑑》1996：宝可梦期刊——大木博士与正辉谈宝可梦研究</a></h3>
+  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-shodai-zukan-1996-staff-interview/">《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-shodai-zukan-1996-staff-interview/">《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」</a></h3>
+  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-shodai-zukan-1996-pokemon-journal/">《ポケットモンスター図鑑》1996：宝可梦期刊——大木博士与正辉谈宝可梦研究</a></h3>
   <span></span>
 </article>
 

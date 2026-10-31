@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon GO</h2>
-    <span>35 篇文章 · 0 条评注 · 2025 / 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
+    <span>37 篇文章 · 0 条评注 · 2025 / 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -79,6 +79,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2018 · interview_translation · Pokémon: Let&#39;s Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer</p>
+  <h3><a href="/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/">Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let&#39;s Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2018 · interview_translation · Junichi Masuda on Pokémon Let&#39;s Go&#39;s difficulty, mechanics, and the series&#39; future</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/">[访谈翻译] Eurogamer 独家专访：增田顺一谈《Let&#39;s Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景</a></h3>
   <span></span>
@@ -97,14 +103,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
   <span></span>
 </article>
 
@@ -199,20 +205,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · interview_translation · 【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/">产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · interview_translation · 【ポケモンＧＯ】ポケモンＧＯは２０年前、最初からの構想　生みの親ポケモン社長インタビュー</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-pokemon-go-20th/">产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · ポケモン、スマホ向けの世界展開目指す　社長インタビュー　ＡＩで新しい遊び方を提案</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-ishihara-smartphone-global-ai/">产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈智能手机游戏全球展开与AI</a></h3>
   <span></span>
 </article>
 

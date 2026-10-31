@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第224回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch224/">[访谈翻译] 首藤刚志动画创作手记 第224回：“大器晚成的编剧始于动画”（放送作家协会之伪善、著作权占比超六成与《和巴什尔跳华尔兹》）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch224/">[访谈翻译] 首藤刚志动画创作手记 第224回：大成的编剧出自动画</a></h3>
   <span></span>
 </article>
 
@@ -32,7 +32,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第207回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch207/">[访谈翻译] 首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch207/">[访谈翻译] 首藤刚志动画创作手记 第207回：2010……既喜亦不喜</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 207</span>
 </article>
 

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon Bank</h2>
-    <span>1 篇文章 · 0 条评注 · 2014</span>
+    <span>3 篇文章 · 0 条评注 · 2014 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -21,6 +21,18 @@ search: false
     <article class="resource-network-card">
   <p>2014 · interview_translation · Game Informer Issue #250 Unabridged Feature</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameinformer-masuda-afterwords-xy/">[访谈翻译] Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Quel mostro di Junichi Masuda</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-multiplayer-2013-xy/">意大利 Multiplayer.it 2013：采访增田顺一谈《宝可梦 X·Y》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Interview sur Pokémon X et Y</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-jv-2013-xy/">法国 jeuxvideo.com 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》</a></h3>
   <span></span>
 </article>
 
