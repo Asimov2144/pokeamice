@@ -19,14 +19,14 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2025 · interview_translation · ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる</p>
-  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/">Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力</a></h3>
+  <p>2025 · interview_translation · ブランドを守り、子どもたちを守る。ポケモンカードゲームのアートの使命</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-illustration-production/">Creatures 招聘网站：插画制作进度管理 S.H. 谈宝可梦卡牌美术的使命</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2025 · interview_translation · ブランドを守り、子どもたちを守る。ポケモンカードゲームのアートの使命</p>
-  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-illustration-production/">Creatures 招聘网站：插画制作进度管理 S.H. 谈宝可梦卡牌美术的使命</a></h3>
+  <p>2025 · interview_translation · ゲーム性とポケモンの魅力を、絶妙なバランスで成り立たせる</p>
+  <h3><a href="/访谈翻译/官方档案/interview-creatures-recruit-card-game-designer/">Creatures 招聘网站：游戏设计师 K.K. 谈宝可梦卡牌的游戏性与宝可梦的魅力</a></h3>
   <span></span>
 </article>
 
@@ -86,7 +86,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · キュン！！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2957353/">【活动】2016年宝可梦卡牌心动时刻</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-2957353/">【活动】2016年宝可梦卡牌心动时刻</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;没想到……&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
@@ -110,31 +110,31 @@ search: false
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンカードゲーム大会！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-38/">【工作日志】2007年GAME FREAK宝可梦卡牌赛</a></h3>
+  <h3><a href="/gamefreak-staff/entry-38/">【工作日志】2007年GAME FREAK宝可梦卡牌赛</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面。我是规划师マー（小玛）。 前些日子，GAME FREAK举办了宝可梦卡牌游戏社内赛。&lt;br 下班后，卡牌族们陆陆续续聚到了会议室。 会议室一下子就变成了比赛会场！&lt;br &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ハワイの島の、いちばんあつい日</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-18/">【工作日志】2007年夏威夷岛最热的一天</a></h3>
+  <h3><a href="/gamefreak-staff/entry-18/">【工作日志】2007年夏威夷岛最热的一天</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是 よっしー（小吉）～。 我在 GAME FREAK 担任图形设计师。&lt;br 我的主要工作，是制作游戏画面。 除此之外，除了游戏画面，&lt;br GAME FREAK 的图形设计师们，&lt;br 也会为宝可梦卡牌游戏绘制插画哦～。 就是这样，&lt;br 这次想和大家聊聊宝可梦卡牌游戏。 </span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第70回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-070/">[GameFreak部长专栏] 第70回</a></h3>
+  <h3><a href="/gamefreak-director/entry-070/">[GameFreak部长专栏] 第70回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 周六上午，我去了次世代世界兴趣博览会！ 从东京出发的电车上，孩子们已经沉浸在游戏的世界里了。 大家玩着各种各样</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-ishihara-tsunekazu-pokemon-world/">N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2001 · interview_translation · 未来へ広がるポケモンワールド／ポケモンカードe・カードeリーダー開発者インタビュー｜Nintendo Online Magazine 2001年11月号</p>
   <h3><a href="/访谈翻译/官方档案/interview-nom-2001-pokemon-card-e-creatures/">N.O.M 2001年11月号：宝可梦卡牌e与卡牌e读取器开发者访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-ishihara-tsunekazu-pokemon-world/">N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e</a></h3>
   <span></span>
 </article>
 

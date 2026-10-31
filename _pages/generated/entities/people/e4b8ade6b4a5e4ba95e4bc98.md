@@ -25,14 +25,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · scan_translation · ゲームフリーク開発陣に聞く バトル・世界・ポケモン秘話</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2008-12-game-freak-interview/">Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界</a></h3>
+  <p>2008 · scan_translation · ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2008-12-platinum-battle-dojo/">Nintendo DREAM 2008：GAME FREAK对战与《宝可梦 白金》专访</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · scan_translation · ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ</p>
-  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2008-12-platinum-battle-dojo/">Nintendo DREAM 2008：GAME FREAK对战与《宝可梦 白金》专访</a></h3>
+  <p>2008 · scan_translation · ゲームフリーク開発陣に聞く バトル・世界・ポケモン秘話</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2008-12-game-freak-interview/">Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界</a></h3>
   <span></span>
 </article>
 

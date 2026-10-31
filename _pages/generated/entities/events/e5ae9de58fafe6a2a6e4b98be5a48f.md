@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · それぞれの夏</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-84/">【工作日志】2008年各自的夏日时光</a></h3>
+  <h3><a href="/gamefreak-staff/entry-84/">【工作日志】2008年各自的夏日时光</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是负责网站的カニ子（蟹子）。上周大家一起放了盂兰盆假期！&lt;br 我照例问了问 GAME FREAK 的大家：“都去哪儿了？做了些什么？” &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/st</span>
 </article>
 

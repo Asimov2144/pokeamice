@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2024 · interview_translation · 新卒若手対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-graduate/">GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声</a></h3>
+  <h3><a href="/interviews/interview-gamefreak-crosstalk-new-graduate/">GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声</a></h3>
   <span></span>
 </article>
 

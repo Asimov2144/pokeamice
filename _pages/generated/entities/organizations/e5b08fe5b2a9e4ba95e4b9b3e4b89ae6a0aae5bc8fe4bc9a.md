@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 殺菌乳酸菌</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-147/">【工作日志】2009年开发现场的乳酸菌</a></h3>
+  <h3><a href="/gamefreak-staff/entry-147/">【工作日志】2009年开发现场的乳酸菌</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见。&lt;br 参加《心金／魂银》的开发时，&lt;br 不知不觉已经入职第三年了，我是程序员ほっしー（小星）。 最近几乎每天早上，我都会喝小岩井乳业株式会社的“牛奶与乳酸菌”，&lt;br 这是 GAME FREAK 内的自动贩卖机里卖的饮料。&lt;br 喝起来清爽、容易入口，喝完之后，&lt;br 以肠</span>
 </article>
 

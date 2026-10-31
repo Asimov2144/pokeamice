@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 大好きなポケモン</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-35/">【工作日志】2007年员工最爱的宝可梦</a></h3>
+  <h3><a href="/gamefreak-staff/entry-35/">【工作日志】2007年员工最爱的宝可梦</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是负责策划＋音效的ラッペン（拉彭）。 员工的名片上，都画着各不相同的宝可梦。&lt;br 以前カニ子（蟹子）的文章里提到过，&lt;br 名片上的宝可梦，基本都是从红绿中登场的151只里选的。 我的名片上画的是红绿里我最喜欢的鲤鱼王，不过……&lt;br 在所有宝可梦中，我最喜欢的是它！ &lt;f</span>
 </article>
 

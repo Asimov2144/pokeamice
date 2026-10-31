@@ -181,6 +181,12 @@ def strip_markdown(text)
 end
 
 def post_url(path, front)
+  permalink = front["permalink"].to_s.strip
+  unless permalink.empty?
+    permalink = "/" + permalink.sub(%r{\A/+}, "")
+    return permalink.end_with?("/") || File.extname(permalink) != "" ? permalink : permalink + "/"
+  end
+
   categories = array(front["categories"])
   date_slug = File.basename(path, ".md").sub(/\A\d{4}-\d{2}-\d{2}-/, "")
   category_parts = categories.map { |part| permalink_part(part, downcase: true) }

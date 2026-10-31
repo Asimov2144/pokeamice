@@ -62,19 +62,19 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン X・Yの作り方 第2回</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-6446757/">【创作】2013宝可梦亲密关系设计</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-6446757/">【创作】2013宝可梦亲密关系设计</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div 从第1回开始 虽然已经隔了非常长的时间 这次是第2回！ &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/6446757/0</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンX・Yの作り方 第1回</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2968236/">【创作】2010宝可梦X·Y的起点</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-2968236/">【创作】2010宝可梦X·Y的起点</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;在法国巴黎举办的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--ce</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · メェークル</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3846757/">【创作】2016年坐骑小羊的秘密</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-3846757/">【创作】2016年坐骑小羊的秘密</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;说起来……&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
@@ -115,12 +115,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · 研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2015 · interview_translation · 私がゲームフリークに入った理由 プログラマー編</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/">GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）</a></h3>
   <span></span>
@@ -135,6 +129,12 @@ search: false
 <article class="resource-network-card">
   <p>2015 · interview_translation · 私がゲームフリークに入った理由 グラフィックデザイナー編</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/">GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · 研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 招聘网站 2015：研究开发部 S.T. 与 M.I. 谈成立经过与目标</a></h3>
   <span></span>
 </article>
 
@@ -158,7 +158,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2014 · gamefreak_director_column · 増田部長のめざめるパワー 第242回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-242/">[GameFreak部长专栏] 第242回</a></h3>
+  <h3><a href="/gamefreak-director/entry-242/">[GameFreak部长专栏] 第242回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 在日本，我们获得了日本游戏大奖的优秀奖、最佳销量奖和全球奖， 在英国也有好消息！ 英国游戏业界的游戏大奖颁奖典</span>
 </article>
 
@@ -169,14 +169,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/">宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）</a></h3>
+  <p>2014 · interview_translation · Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/">宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/">宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）</a></h3>
+  <p>2014 · interview_translation · Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/">宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）</a></h3>
   <span></span>
 </article>
 
@@ -193,12 +193,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」</p>
-  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2014-01-lumiose-city-guide/">Nintendo DREAM 2013：宝可梦X·Y密阿雷市观光指南与人物名鉴</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』サウンドチーム インタビュー「楽曲魂」特別編</p>
   <h3><a href="/访谈翻译/扫描存档/scan-ndream-2014-01-xy-sound-team-interview/">Nintendo DREAM 2013：《宝可梦 X·Y》声音团队访谈「乐曲魂」特别篇</a></h3>
   <span></span>
@@ -211,8 +205,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2014-01-lumiose-city-guide/">Nintendo DREAM 2013：宝可梦X·Y密阿雷市观光指南与人物名鉴</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第241回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-241/">[GameFreak部长专栏] 第241回</a></h3>
+  <h3><a href="/gamefreak-director/entry-241/">[GameFreak部长专栏] 第241回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 对我来说，这是梦想成真的一天。 没错，就在这一天，《宝可梦 X・Y》在全球同步发售了。 法国、纽约、德国、日本</span>
 </article>
 
@@ -235,14 +235,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Hobby Consolas（西班牙最大游戏媒体）</p>
-  <h3><a href="/interview-hobbyconsolas-xy-masuda/">专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访</a></h3>
+  <p>2013 · interview_translation · La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/">Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/">Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售</a></h3>
+  <p>2013 · interview_translation · Hobby Consolas（西班牙最大游戏媒体）</p>
+  <h3><a href="/interview-hobbyconsolas-xy-masuda/">专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访</a></h3>
   <span></span>
 </article>
 
@@ -265,21 +265,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
-  <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tt-mi/">GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
-  <span></span>
+  <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
+  <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
 </article>
 
 <article class="resource-network-card">
@@ -307,20 +301,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · Nintendo World Report</p>
   <h3><a href="/interview-nwr-xy-masuda-yoshida/">Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendolife-2013-xy/">Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》</a></h3>
+  <p>2013 · scan_translation · ポケットモンスター X・Y 増田順一＆森本茂樹インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-235-xy-developer-interview/">Nintendo DREAM 2013：增田顺一与森本茂树谈《宝可梦 X・Y》对战</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · scan_translation · ポケットモンスター X・Y 増田順一＆森本茂樹インタビュー</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-ndream-235-xy-developer-interview/">Nintendo DREAM 2013：增田顺一与森本茂树谈《宝可梦 X・Y》对战</a></h3>
+  <p>2013 · interview_translation · Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendolife-2013-xy/">Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》</a></h3>
   <span></span>
 </article>
 
@@ -338,7 +338,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第237回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-237/">[GameFreak部长专栏] 第237回</a></h3>
+  <h3><a href="/gamefreak-director/entry-237/">[GameFreak部长专栏] 第237回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 将日语翻译成各国语言的本地化工作。 重新构建本地化的方法和组织架构。 在相关各家公司以及许多人的协助下， 历时</span>
 </article>
 
@@ -350,13 +350,13 @@ search: false
 
 <article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第234回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-234/">[GameFreak部长专栏] 第234回</a></h3>
+  <h3><a href="/gamefreak-director/entry-234/">[GameFreak部长专栏] 第234回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 世界首次。 自从１９９６年《宝可梦 红·绿》发售以来， 宝可梦的信息发布，一直都是从日本开始的。 因为游戏会先</span>
 </article>
 
 <article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第233回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-233/">[GameFreak部长专栏] 第233回</a></h3>
+  <h3><a href="/gamefreak-director/entry-233/">[GameFreak部长专栏] 第233回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好！ 2013年1月8日。 大家看了日本时间20:00开始的发布会吗？ 还没看的人，请看这里！ 官方《宝可</span>
 </article>
 

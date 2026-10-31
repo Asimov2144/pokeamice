@@ -25,14 +25,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2026 · interview_translation · ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-za-lumiose-rendering-deck/">CEDEC 2026：GAME FREAK 讲《Pokémon LEGENDS Z-A》密阿雷市渲染与绑定技术</a></h3>
+  <p>2026 · interview_translation · 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-cedec-pokerig/">电Fami Nico Gamer 2026：GAME FREAK谈《宝可梦传说 Z-A》密阿雷市渲染技术</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2026 · interview_translation · 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-cedec-pokerig/">电Fami Nico Gamer 2026：GAME FREAK谈《宝可梦传说 Z-A》密阿雷市渲染技术</a></h3>
+  <p>2026 · interview_translation · ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-za-lumiose-rendering-deck/">CEDEC 2026：GAME FREAK 讲《Pokémon LEGENDS Z-A》密阿雷市渲染与绑定技术</a></h3>
   <span></span>
 </article>
 

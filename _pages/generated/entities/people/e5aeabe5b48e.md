@@ -20,13 +20,13 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第193回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-193/">[GameFreak部长专栏] 第193回</a></h3>
+  <h3><a href="/gamefreak-director/entry-193/">[GameFreak部长专栏] 第193回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 星期六不巧下起了雨。 在这样的天气里，我从东京赤羽桥站出发，望着东京塔前往音乐录音室！ 今年的电影可是宝可梦史</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第95回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-095/">[GameFreak部长专栏] 第95回</a></h3>
+  <h3><a href="/gamefreak-director/entry-095/">[GameFreak部长专栏] 第95回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 8月7日（星期二），我去了在东京国际论坛举办的 “皮卡丘现场演出”！ 虽然是16点那一场，但人实在太多了！让我</span>
 </article>
 

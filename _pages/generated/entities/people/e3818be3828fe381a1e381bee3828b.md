@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモン☆サンデー放映！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-80/">【工作日志】2008年电视节目探访办公室</a></h3>
+  <h3><a href="/gamefreak-staff/entry-80/">【工作日志】2008年电视节目探访办公室</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面。&lt;br 《宝可梦 白金》的总监かわちまる向大家问好。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/80/maru080718-13838bb6.jpg&quot; target</span>
 </article>
 
