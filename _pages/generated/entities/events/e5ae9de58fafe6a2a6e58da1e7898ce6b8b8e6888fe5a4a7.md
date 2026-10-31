@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンカードゲーム大会 葉月の陣！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-85/">【工作日志】2008年夏日卡牌大会</a></h3>
+  <h3><a href="/gamefreak-staff/entry-85/">【工作日志】2008年夏日卡牌大会</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好！&lt;br 好久不见，我是 なぎー（纳吉）。 前几天，公司内部举办了宝可梦卡牌游戏大会，&lt;br 下面就来为大家介绍一下当时的情况。&lt;br 在 GAME FREAK，正如之前 マー（小玛） 写过的那样，&lt;br 大家会在工作结束后自发举办宝可梦卡牌游戏大会。&lt;br 忙的时候会暂时不举办大</span>
 </article>
 

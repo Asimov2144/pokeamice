@@ -180,7 +180,12 @@ def strip_markdown(text)
       .strip
 end
 
+# a permalink in the front matter wins over _config's /:categories/:title/
+# (the gamefreak-staff / gamefreak-director archive posts all set one)
 def post_url(path, front)
+  permalink = front["permalink"].to_s.strip
+  return "/" + permalink.gsub(%r{\A/+|/+\z}, "") + "/" unless permalink.empty?
+
   categories = array(front["categories"])
   date_slug = File.basename(path, ".md").sub(/\A\d{4}-\d{2}-\d{2}-/, "")
   category_parts = categories.map { |part| permalink_part(part, downcase: true) }

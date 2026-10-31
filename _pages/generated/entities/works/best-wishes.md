@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ビクティニと黒き英雄 ゼクロム」「ビクティニと白き英雄 レシラム」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-226/">【设定资料】剧场版角色设计稿</a></h3>
+  <h3><a href="/gamefreak-art/entry-226/">【设定资料】剧场版角色设计稿</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 Best Wishes&lt;br 「比克提尼与黑英雄 捷克罗姆」「比克提尼与白英雄 莱希拉姆」&lt;br 今年也来公开动画原创角色设计稿！ ※由于是原案设计，和实际使用的角色在&lt;br 细节、颜色等方面有所不同 评论：杉森建 ■德雷德&lt;br 这次故事舞台所在的城镇“艾因托克”周边，感</span>
 </article>
 

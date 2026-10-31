@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 謎のロッカー</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-30/">【工作日志】2007年GAME FREAK的神秘鞋柜</a></h3>
+  <h3><a href="/gamefreak-staff/entry-30/">【工作日志】2007年GAME FREAK的神秘鞋柜</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是カニ子（蟹子）。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/30/dosoku01-e9ed3a1f.jpg&quot; target=&quot;blank&quot; rel=&quot;noope</span>
 </article>
 

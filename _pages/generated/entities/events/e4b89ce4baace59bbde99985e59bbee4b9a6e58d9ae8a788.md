@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · しゃちの夏、日本の夏</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-140/">【工作日志】2009年夏日与东京书展</a></h3>
+  <h3><a href="/gamefreak-staff/entry-140/">【工作日志】2009年夏日与东京书展</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是程序员しゃち（沙奇）。 最近这段时间，早晚的气温已经完全平稳下来，&lt;br 今天更是零零星星地感受到了秋天的气息。&lt;br 大家这个夏天想做的事，都好好完成了吗？ 说到しゃち呢，我和蜜蜂、大蜈蚣以及杂草们展开了地盘争夺战，&lt;br 吃了很多夏季蔬菜来养精蓄锐，尽情享受了蓝天、大海和</span>
 </article>
 

@@ -97,14 +97,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
   <span></span>
 </article>
 
@@ -158,7 +158,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · カブト</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-6827320/">【日记】2016年世田谷公园寻化石盔</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-6827320/">【日记】2016年世田谷公园寻化石盔</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;因为想抓化石盔&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
 </article>
 
@@ -170,13 +170,13 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Niantic社にて</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-6143081/">【日记】2016年宝可梦与Niantic</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-6143081/">【日记】2016年宝可梦与Niantic</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;在旧金山的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · みなさんへ</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5865812/">【日记】2016年宝可梦与玩家同行</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-5865812/">【日记】2016年宝可梦与玩家同行</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;宝可梦&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
 </article>
 
@@ -188,26 +188,26 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 恵比寿へGO</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5298007/">【日记】2016惠比寿偶遇伊布</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-5298007/">【日记】2016惠比寿偶遇伊布</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;星期天&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO プレイ開始！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5235956/">【日记】2016年宝可梦开始游玩</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-5235956/">【日记】2016年宝可梦开始游玩</a></h3>
   <span>&lt;br 增田我也 开始体验正式发布版了！ &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/5235956/001-477b97b690.webp&quot; target=&quot;blank&quot; rel=&quot;noopener&quot;&lt;img src=&quot;/assets/ima</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · interview_translation · 【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/">产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
+  <h3><a href="/gamefreak-director/lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">
@@ -224,7 +224,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2015 · gamefreak_director_column · 増田部長のめざめるパワー 第244回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-244/">[GameFreak部长专栏] 第244回</a></h3>
+  <h3><a href="/gamefreak-director/entry-244/">[GameFreak部长专栏] 第244回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于能够公布《宝可梦GO》了。 &lt;p class=&quot;gf-director-spacer&quot;&lt;/p 我的推特上收</span>
 </article>
 

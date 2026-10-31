@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第67回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-067/">[GameFreak部长专栏] 第67回</a></h3>
+  <h3><a href="/gamefreak-director/entry-067/">[GameFreak部长专栏] 第67回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 在六本木的东京君悦酒店， 举行了“Invitation大奖”的颁奖典礼。 而就在那儿！我们拿到了游戏奖！ 游戏</span>
 </article>
 

@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第238回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-238/">[GameFreak部长专栏] 第238回</a></h3>
+  <h3><a href="/gamefreak-director/entry-238/">[GameFreak部长专栏] 第238回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 关于6月11日在洛杉矶举行的E3！ 这次，任天堂岩田社长向我发出了邀请， 让我在E3会场内举办的“开发者圆桌会</span>
 </article>
 
@@ -32,13 +32,13 @@ search: false
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第198回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-198/">[GameFreak部长专栏] 第198回</a></h3>
+  <h3><a href="/gamefreak-director/entry-198/">[GameFreak部长专栏] 第198回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 从洛杉矶为大家带来最新消息和现场氛围！ 今天，先从任天堂的发布会开始！ &lt;img src=&quot;/assets/i</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第71回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-071/">[GameFreak部长专栏] 第71回</a></h3>
+  <h3><a href="/gamefreak-director/entry-071/">[GameFreak部长专栏] 第71回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天的话题稍微有点严肃。 说说为什么要让大家能够用手指操作触摸屏。 第一次在任天堂那边看到还处于试制阶段的 D</span>
 </article>
 

@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンプラチナバトル大会決勝</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-100/">【工作日志】2008年宝可梦白金决赛</a></h3>
+  <h3><a href="/gamefreak-staff/entry-100/">【工作日志】2008年宝可梦白金决赛</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！&lt;br 我是策划人员いわし（沙丁鱼）。 继上一篇员工博客之后，&lt;br 这次继续为大家介绍宝可梦白金对战大会的现场情况！&lt;br 这次想向大家介绍决胜淘汰赛的情况。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamef</span>
 </article>
 

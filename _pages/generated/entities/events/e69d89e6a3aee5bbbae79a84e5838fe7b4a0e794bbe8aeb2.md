@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 杉森建のドット絵講座</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-65/">【工作日志】2008年像素画讲座现场</a></h3>
+  <h3><a href="/gamefreak-staff/entry-65/">【工作日志】2008年像素画讲座现场</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是平面设计师エノキ（榎木）。&lt;br 今天来给大家记录一下前些天举行的公司内部讲习会。&lt;br 这次举办的是“杉森建的像素画讲座”。 GAME FREAK尤其擅长“像素画”这种图像表现形式。&lt;br GAME FREAK的平面设计师们个个都在为了提高&lt;br 像素画技术，日复一日地进行</span>
 </article>
 

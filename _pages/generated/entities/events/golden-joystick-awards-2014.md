@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2014 · gamefreak_director_column · 増田部長のめざめるパワー 第242回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-242/">[GameFreak部长专栏] 第242回</a></h3>
+  <h3><a href="/gamefreak-director/entry-242/">[GameFreak部长专栏] 第242回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 在日本，我们获得了日本游戏大奖的优秀奖、最佳销量奖和全球奖， 在英国也有好消息！ 英国游戏业界的游戏大奖颁奖典</span>
 </article>
 

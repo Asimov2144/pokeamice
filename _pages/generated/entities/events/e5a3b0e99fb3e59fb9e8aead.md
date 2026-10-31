@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 3Dグラフィック講習会</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-93/">【工作日志】2008年3D图形培训记录</a></h3>
+  <h3><a href="/gamefreak-staff/entry-93/">【工作日志】2008年3D图形培训记录</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好！&lt;br 我是なぎー（纳吉）。 我每次都会写游戏相关的文章，&lt;br 但这次，我想聊聊工作上的事情。 我的职业是程序员，&lt;br 大家觉得程序员是做什么工作的呢？ 正如松田所说，程序员的工作就是向计算机发出指令。&lt;br 比如“让宝可梦的图形显示出来”“让场地地图显示出来”等等……。 在</span>
 </article>
 

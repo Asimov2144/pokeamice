@@ -151,14 +151,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
+  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
+  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
   <span></span>
 </article>
 
@@ -181,14 +181,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
-  <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
+  <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>
 </article>
 
@@ -248,19 +248,19 @@ search: false
 
 <article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その2</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-148/">【工作日志】2009年心金魂银的计步器设计</a></h3>
+  <h3><a href="/gamefreak-staff/entry-148/">【工作日志】2009年心金魂银的计步器设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好！ 这次由开发部的策划大森负责记录。&lt;br 在《宝可梦 心金·魂银》（HG·SS）中&lt;br 我负责了宝可梦计步器的游戏设计。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/</span>
 </article>
 
 <article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第34回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-034/">[GameFreak部长专栏] 第34回</a></h3>
+  <h3><a href="/gamefreak-director/entry-034/">[GameFreak部长专栏] 第34回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 看我嘛，感谢大家踊跃报名！！ 接下来会有怎样的发展！？又会蹦出什么样的故事呢！？ 我非常期待！！！ 听说下面会</span>
 </article>
 
 <article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第33回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-033/">[GameFreak部长专栏] 第33回</a></h3>
+  <h3><a href="/gamefreak-director/entry-033/">[GameFreak部长专栏] 第33回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天和往常的专栏不同，有一件事要通知大家。 GAME FREAK 企划成员带来的宝可梦九周年特别企划！！ 期待</span>
 </article>
 

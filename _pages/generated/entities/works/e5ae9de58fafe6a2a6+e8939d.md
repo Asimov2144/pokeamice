@@ -26,7 +26,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第125回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-125/">[GameFreak部长专栏] 第125回</a></h3>
+  <h3><a href="/gamefreak-director/entry-125/">[GameFreak部长专栏] 第125回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 我想一边比较过去的开场曲，一边看看至今为止音乐的变化。 ※这里只放了曲子的一部分，其中还加入了演出时的音效。还</span>
 </article>
 

@@ -91,14 +91,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
+  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
   <span></span>
 </article>
 
@@ -116,7 +116,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ビクティニと黒き英雄 ゼクロム」「ビクティニと白き英雄 レシラム」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-226/">【设定资料】剧场版角色设计稿</a></h3>
+  <h3><a href="/gamefreak-art/entry-226/">【设定资料】剧场版角色设计稿</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 Best Wishes&lt;br 「比克提尼与黑英雄 捷克罗姆」「比克提尼与白英雄 莱希拉姆」&lt;br 今年也来公开动画原创角色设计稿！ ※由于是原案设计，和实际使用的角色在&lt;br 细节、颜色等方面有所不同 评论：杉森建 ■德雷德&lt;br 这次故事舞台所在的城镇“艾因托克”周边，感</span>
 </article>
 
@@ -140,13 +140,13 @@ search: false
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第190回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-190/">[GameFreak部长专栏] 第190回</a></h3>
+  <h3><a href="/gamefreak-director/entry-190/">[GameFreak部长专栏] 第190回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 这是伦敦和纽约的照片特辑！ &lt;img src=&quot;/assets/images/gamefreak-direct</span>
 </article>
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第189回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-189/">[GameFreak部长专栏] 第189回</a></h3>
+  <h3><a href="/gamefreak-director/entry-189/">[GameFreak部长专栏] 第189回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 欧洲及北美，《宝可梦黑／白》发售！！！太棒了！！！ 3月2日　从成田前往伦敦。 3月3日　在伦敦市中心一家著名</span>
 </article>
 
@@ -169,14 +169,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
+  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
+  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
   <span></span>
 </article>
 
@@ -194,7 +194,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第181回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-181/">[GameFreak部长专栏] 第181回</a></h3>
+  <h3><a href="/gamefreak-director/entry-181/">[GameFreak部长专栏] 第181回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好 新年快乐！ 2011年也请多多关照。 既然是新年，就来说点喜庆的事吧。 收录了1994年发售的《パルス</span>
 </article>
 
@@ -212,14 +212,8 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 8</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-208/">【工作日志】2010年黑白开发：信息管理组</a></h3>
+  <h3><a href="/gamefreak-staff/entry-208/">【工作日志】2010年黑白开发：信息管理组</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是にょろリカ（妮洛莉卡）。&lt;br 最近，我周围感冒的人很多，大家都还好吗？&lt;br 那么，这次为大家带来的是《宝可梦黑／白》开发者访谈，&lt;br 由信息管理组的ユーリー（尤里）为我们讲述。&lt;br 信息管理组究竟是做什么工作的呢……？&lt;br —–&lt;br ―你好。首先请做一下自我介绍。</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2010 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
-  <h3><a href="/访谈翻译/杂志摘录/interview-nintendodream-201-sugimori-bw-characters/">ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -229,20 +223,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2010 · interview_excerpt · インタビュー関係 ─ ポケモンBWシリーズ不満点まとめwiki（3代目）</p>
+  <h3><a href="/访谈翻译/杂志摘录/interview-nintendodream-201-sugimori-bw-characters/">ニンテンドードリーム 杉森建 キャラクターデザインインタビュー（摘录）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 7</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-207/">【工作日志】2010年宝可梦角色设计访谈</a></h3>
+  <h3><a href="/gamefreak-staff/entry-207/">【工作日志】2010年宝可梦角色设计访谈</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是にょろリカ（妮洛莉卡）。&lt;br 从10月1日开始连载的《宝可梦黑·白》&lt;br 开发者访谈也只剩下最后两篇了。&lt;br 第7篇，这次我们请图形设计师おおむら（大村）谈了谈角色设计&lt;br ？！&lt;br —–&lt;br 大家好，我是图形设计师おおむら。&lt;br 这次主要负责了道馆馆主的角色设计</span>
 </article>
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 6</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-206/">【工作日志】2010年宝可梦设定制作幕后</a></h3>
+  <h3><a href="/gamefreak-staff/entry-206/">【工作日志】2010年宝可梦设定制作幕后</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br “《宝可梦 黑·白》的制作方法”第6回，&lt;br 这次将以策划松岛的“关于宝可梦设定的故事”为中心，为大家带来内容！&lt;br —–&lt;br 大家好，我是策划松岛。&lt;br 在《宝可梦 黑·白》中，我负责宝可梦的设定、&lt;br 命名、宝可梦图</span>
 </article>
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 4</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-204/">【工作日志】2010年宝可梦开发访谈</a></h3>
+  <h3><a href="/gamefreak-staff/entry-204/">【工作日志】2010年宝可梦开发访谈</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是负责网站工作的 にょろリカ（妮洛莉卡）。&lt;br “宝可梦黑／白”开发者访谈第4弹，&lt;br 这次为大家带来图形设计师ジェイミー（杰米）的故事。 —–&lt;br ―那么，请先做个自我介绍吧。 大家好，初次见面！&lt;br 我是图形设计师ジェイミー。&lt;br 请多关照。 ―ジェイミー是去年秋</span>
 </article>
 
@@ -254,7 +254,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 2</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-202/">【工作日志】2010年宝可梦剧本幕后</a></h3>
+  <h3><a href="/gamefreak-staff/entry-202/">【工作日志】2010年宝可梦剧本幕后</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 这周也为大家带来《宝可梦黑／白》的开发者访谈。&lt;br 今天是第2回，我们将为大家送上策划・まつみや（松宫）的&lt;br “剧本，这里才说的事”！&lt;br —–&lt;br ―那么，首先请您做个自我介绍。 我是策划まつみや。&lt;br 在《宝可梦黑／</span>
 </article>
 
@@ -296,13 +296,13 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第175回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-175/">[GameFreak部长专栏] 第175回</a></h3>
+  <h3><a href="/gamefreak-director/entry-175/">[GameFreak部长专栏] 第175回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天，《宝可梦ぴあ》正式发售啦！！ ・AKB48的指原小姐和北原小姐都有精彩亮相！ ・醒目的黄色皮卡丘封面！ </span>
 </article>
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「幻影の覇者 ゾロアーク」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-8/">【设定资料】2010年索罗亚克角色设计</a></h3>
+  <h3><a href="/gamefreak-art/entry-8/">【设定资料】2010年索罗亚克角色设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br “幻影的霸者 索罗亚克”&lt;br 这是动画原创角色设计稿。 今年也要把由 GAME FREAK 绘制的&lt;br 动画原创角色设计稿一次性公开给大家！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■科代&lt;br “能看</span>
 </article>
 
@@ -314,7 +314,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「アルセウス 超克の時空へ」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-7/">【设定资料】2009年阿尔宙斯角色设计</a></h3>
+  <h3><a href="/gamefreak-art/entry-7/">【设定资料】2009年阿尔宙斯角色设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石＆珍珠&lt;br 《阿尔宙斯：超克的时空》&lt;br 动画原创角色设计图。 今年也公开由 GAME FREAK 绘制完成的&lt;br 动画原创角色设计图。&lt;br ※由于是原案设计，和实际使用的角色在&lt;br 细节、颜色等方面有所不同 评论：杉森建 ■达莫斯&lt;br 采用了通过鬓角和粗眉</span>
 </article>
 
@@ -326,32 +326,26 @@ search: false
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · プラチナここだけの話 その１</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-89/">【工作日志】2008年白金版开发秘闻</a></h3>
+  <h3><a href="/gamefreak-staff/entry-89/">【工作日志】2008年白金版开发秘闻</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好！&lt;br 虽然有点突然，为了纪念《宝可梦 白金》的发售，&lt;br 我们想以《白金版这里才说的事》为题，连续三周为大家带来开发部各位负责人的幕后故事，&lt;br 一些稍微深入的话题，敬请期待！！ 首先，第一回请看开发部图形设计团队的内容。&lt;br 再次向大家问好。&lt;br 我是负责白金版图形工</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 杉森建のドット絵講座</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-65/">【工作日志】2008年像素画讲座现场</a></h3>
+  <h3><a href="/gamefreak-staff/entry-65/">【工作日志】2008年像素画讲座现场</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是平面设计师エノキ（榎木）。&lt;br 今天来给大家记录一下前些天举行的公司内部讲习会。&lt;br 这次举办的是“杉森建的像素画讲座”。 GAME FREAK尤其擅长“像素画”这种图像表现形式。&lt;br GAME FREAK的平面设计师们个个都在为了提高&lt;br 像素画技术，日复一日地进行</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ハワイの島の、いちばんあつい日</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-18/">【工作日志】2007年夏威夷岛最热的一天</a></h3>
+  <h3><a href="/gamefreak-staff/entry-18/">【工作日志】2007年夏威夷岛最热的一天</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是 よっしー（小吉）～。 我在 GAME FREAK 担任图形设计师。&lt;br 我的主要工作，是制作游戏画面。 除此之外，除了游戏画面，&lt;br GAME FREAK 的图形设计师们，&lt;br 也会为宝可梦卡牌游戏绘制插画哦～。 就是这样，&lt;br 这次想和大家聊聊宝可梦卡牌游戏。 </span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ディアルガVSパルキアVSダークライ」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-5/">【设定资料】剧场版三龙角色设计稿</a></h3>
+  <h3><a href="/gamefreak-art/entry-5/">【设定资料】剧场版三龙角色设计稿</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br 《帝牙卢卡VS帕路奇亚VS达克莱伊》&lt;br 这是动画原创角色的设计稿！ GAME FREAK 绘制的&lt;br 动画原创角色设计稿大公开！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■阿尔贝特男爵&lt;br 我一边想</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/">N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -361,15 +355,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第53回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-053/">[GameFreak部长专栏] 第53回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 各位，让大家久等了！ Game Boy Advance软件 《螺旋破坏者》 《轰振钻钻乐乐》 今天，2005年</span>
+  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/">N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2005 · scan_translation · スクリューブレイカー 轟振どりるれろ 開発者インタビュー</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-continue-vol23-drill-dozer/">CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈</a></h3>
-  <span></span>
+  <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第53回</p>
+  <h3><a href="/gamefreak-director/entry-053/">[GameFreak部长专栏] 第53回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 各位，让大家久等了！ Game Boy Advance软件 《螺旋破坏者》 《轰振钻钻乐乐》 今天，2005年</span>
 </article>
 
 <article class="resource-network-card">
@@ -379,14 +373,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2005 · scan_translation · スクリューブレイカー 轟振どりるれろ 開発者インタビュー</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-continue-vol23-drill-dozer/">CONTINUE 2005：GAME FREAK《螺旋破坏者》杉森建、吉田宏信访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第38回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-038/">[GameFreak部长专栏] 第38回</a></h3>
+  <h3><a href="/gamefreak-director/entry-038/">[GameFreak部长专栏] 第38回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 GAME FREAK 带来的爽快动作游戏 《Screw Breaker》正式公布了！！ screwbreake</span>
 </article>
 
 <article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第31回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-031/">[GameFreak部长专栏] 第31回</a></h3>
+  <h3><a href="/gamefreak-director/entry-031/">[GameFreak部长专栏] 第31回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好！ 看到《U-GE》（USED GAMES）这本杂志的话…… 请什么都别说，直接买下来！！！ 因为它附送</span>
 </article>
 

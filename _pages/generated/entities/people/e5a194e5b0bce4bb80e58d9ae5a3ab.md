@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第80回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-080/">[GameFreak部长专栏] 第80回</a></h3>
+  <h3><a href="/gamefreak-director/entry-080/">[GameFreak部长专栏] 第80回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 第4天。早上8点从酒店出发！ 参观了塔尼什博士的场所后，抵达法兰克福！ 然后，大家就在这里解散了！ 时间是下午</span>
 </article>
 

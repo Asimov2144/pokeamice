@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · とうきょうのしゃかいじん</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-184/">【工作日志】东京新人的通勤日常</a></h3>
+  <h3><a href="/gamefreak-staff/entry-184/">【工作日志】东京新人的通勤日常</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面！&lt;br 我是新人平面设计师わも（和本）。 转眼间，作为一名新入职的社会人，我从爱媛来到东京已经3个月了。&lt;br 礼仪培训也顺利结束了，现在正在接受平面设计培训。&lt;br 一条线、一个点、一个颜色，无论哪一个，&lt;br 都是构成游戏中“有趣！”的一部分……！&lt;br 每天思考着这些事情</span>
 </article>
 

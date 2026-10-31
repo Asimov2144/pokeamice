@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · それぞれの冬’10！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-165/">【工作日志】2010年冬日假期与员工日常</a></h3>
+  <h3><a href="/gamefreak-staff/entry-165/">【工作日志】2010年冬日假期与员工日常</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站的にょろリカ（妮洛莉卡）。&lt;br 虽然寒假结束已经有一阵子了，但我们还是照例策划了假期结束后的特别企划&lt;br “大家寒假都做了些什么？”于是我去问了问 GAME FREAK 的员工们！ &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/a</span>
 </article>
 

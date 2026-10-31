@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2009 · gamefreak_director_column · 増田部長のめざめるパワー 第150回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-150/">[GameFreak部长专栏] 第150回</a></h3>
+  <h3><a href="/gamefreak-director/entry-150/">[GameFreak部长专栏] 第150回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 在旧金山接受采访的内容，已经刊登成文章了。 杂志《Game Informer》6月号中 刊登了采访文章和照片！</span>
 </article>
 

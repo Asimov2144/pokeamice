@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2024 · interview_translation · ゲームプログラマ対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-game-programmer/">GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）</a></h3>
+  <h3><a href="/interviews/interview-gamefreak-crosstalk-game-programmer/">GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）</a></h3>
   <span></span>
 </article>
 
