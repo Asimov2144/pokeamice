@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 祝！ファミ通アワード受賞</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-182/">【工作日志】2010年电玩通奖与卡斯特拉蛋糕</a></h3>
+  <h3><a href="/gamefreak-staff/entry-182/">【工作日志】2010年电玩通奖与卡斯特拉蛋糕</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 『宝可梦 心金·魂银』&lt;br 我是导演もりもと（森本）。 大家好久不见！ 前几天，我前往 ENTERBRAIN 参加了“电玩通奖”颁奖典礼。&lt;br 承蒙大家游玩我们的作品，&lt;br 『宝可梦 心金·魂银』&lt;br 获得了优秀奖。 ⇒电玩通奖颁奖典礼现场请点击这里！&lt;br 负责献上花束的孩子手</span>
 </article>
 

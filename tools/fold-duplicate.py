@@ -8,7 +8,7 @@ kept one's (for a kept post whose title is the importer's placeholder). Then a r
 at the retired address, its cards in the baked lists (_pages/generated) removed or, where the
 kept post has none on that page, repointed, the retired file and its picture folder gone
 (unless a portrait in tools/build-people.py or _data/people.yml is cut from it).
-The addresses are the site's permalink rule, /:categories/:title/.
+The addresses are the post's own permalink, else the site's permalink rule, /:categories/:title/.
 """
 import glob
 import io
@@ -44,6 +44,8 @@ def load(stem):
 
 
 def url_of(stem, fm):
+    if str(fm.get("permalink") or "").strip():
+        return "/" + str(fm["permalink"]).strip().strip("/") + "/"
     cats = fm.get("categories") or []
     if isinstance(cats, str):
         cats = [cats]

@@ -31,14 +31,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）</a></h3>
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第3回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第3章：“一目了然被看穿也无妨”（石原恒和现场手绘比克提尼AR码、开发者直呼“欢迎破解”与可成长的图鉴）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第3回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第3章：“一目了然被看穿也无妨”（石原恒和现场手绘比克提尼AR码、开发者直呼“欢迎破解”与可成长的图鉴）</a></h3>
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）</a></h3>
   <span></span>
 </article>
 

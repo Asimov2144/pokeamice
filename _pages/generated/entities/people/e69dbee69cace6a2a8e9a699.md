@@ -26,7 +26,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第54回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-054/">[GameFreak部长专栏] 第54回</a></h3>
+  <h3><a href="/gamefreak-director/entry-054/">[GameFreak部长专栏] 第54回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月25日，我去宝可梦乐园参加了最后一天的活动。 天气也很帮忙，气温恰到好处，是非常舒适、非常美好的一天。 不</span>
 </article>
 

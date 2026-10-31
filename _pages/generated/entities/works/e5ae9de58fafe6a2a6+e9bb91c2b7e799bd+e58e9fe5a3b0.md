@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 3</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-203/">【工作日志】2010年宝可梦音乐开发</a></h3>
+  <h3><a href="/gamefreak-staff/entry-203/">【工作日志】2010年宝可梦音乐开发</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的 にょろリカ（妮洛莉卡）。&lt;br 《宝可梦 黑／白》开发工作人员访谈·第3弹，&lt;br 这次我们突击采访了音频设计师景山将太！&lt;br ——&lt;br ―那么，请先做个自我介绍吧。 大家好，好久不见！&lt;br 我是音频设计师景山将太。&lt;br 在《宝可梦 黑／白》中，我负责音</span>
 </article>
 

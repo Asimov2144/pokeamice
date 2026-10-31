@@ -145,32 +145,32 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Game Freak’s Origins And Its Pre-Pokémon Games</p>
-  <h3><a href="/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
-  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0827 --</span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · 『ポケモン』開発者、横浜・東戸塚出身の増田順一さんにクリエーターの原体験をインタビュー！</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-hamarepo-masuda-yokohama-origins/">はまれぽ.com（横滨地方信息站） 2017：采访东户冢出身的宝可梦开发者增田顺一</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · Game Freak’s Origins And Its Pre-Pokémon Games</p>
+  <h3><a href="/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
+  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0827 --</span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ゲーム音楽会！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-7296420/">【活动】2016宝可梦游戏音乐会</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-7296420/">【活动】2016宝可梦游戏音乐会</a></h3>
   <span>&lt;br &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;东京铜管乐团&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;与&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--ce</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 木琴3ピカ・赤緑オープニング！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5309468/">【活动】2016皮卡丘大量出现</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-5309468/">【活动】2016皮卡丘大量出现</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;横滨港未来&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 取材</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4991670/">【活动】2016年宝可梦音乐与攻略采访</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-4991670/">【活动】2016年宝可梦音乐与攻略采访</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;接受了两次采访！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--ce</span>
 </article>
 
@@ -182,13 +182,13 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 非日常</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3819168/">【日记】2016京都与艺妓相遇</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-3819168/">【日记】2016京都与艺妓相遇</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 京都 这里是 日常与非日常交汇的地方 &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3819168/001-9b1ece0632.</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 撮影</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/">【创作】2016年下北泽拍摄</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-3059194/">【创作】2016年下北泽拍摄</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;2月9日 上午9:45&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
 </article>
 
@@ -200,7 +200,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 効果音（Sound Effects）</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2648469/">【创作】2016年宝可梦音效制作</a></h3>
+  <h3><a href="/gamefreak-director/lineblog-2648469/">【创作】2016年宝可梦音效制作</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;制作声音！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
@@ -229,14 +229,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
+  <p>2014 · interview_translation</p>
+  <h3><a href="/interview-niconico-gamefreak-origins-masuda/">NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation</p>
-  <h3><a href="/interview-niconico-gamefreak-origins-masuda/">NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学</a></h3>
+  <p>2014 · interview_translation · ゲームフリーク増田順一インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameatsumaru-masuda-indie-gamefreak-origins/">ニコニコ自作ゲームフェス 2014：GAME FREAK增田顺一谈宝可梦与游戏音乐</a></h3>
   <span></span>
 </article>
 
@@ -253,8 +253,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
 </article>
 
@@ -265,8 +265,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
   <span></span>
 </article>
 
@@ -278,7 +278,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第234回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-234/">[GameFreak部长专栏] 第234回</a></h3>
+  <h3><a href="/gamefreak-director/entry-234/">[GameFreak部长专栏] 第234回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 世界首次。 自从１９９６年《宝可梦 红·绿》发售以来， 宝可梦的信息发布，一直都是从日本开始的。 因为游戏会先</span>
 </article>
 
@@ -290,19 +290,19 @@ search: false
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第216回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-216/">[GameFreak部长专栏] 第216回</a></h3>
+  <h3><a href="/gamefreak-director/entry-216/">[GameFreak部长专栏] 第216回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 有人在推特上问我： “能告诉我当初为什么想加入 GAME FREAK 吗？” 所以，我就在这篇博客里回答一下（</span>
 </article>
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第200回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-200/">[GameFreak部长专栏] 第200回</a></h3>
+  <h3><a href="/gamefreak-director/entry-200/">[GameFreak部长专栏] 第200回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 祝贺！专栏第200回！ 这次能够迎来第200回， 也是因为有一直支持宝可梦的大家。 真的非常感谢！ 而且，为了</span>
 </article>
 
 <article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 想像力トレーニング！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-231/">【工作日志】2011年想象力训练</a></h3>
+  <h3><a href="/gamefreak-staff/entry-231/">【工作日志】2011年想象力训练</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好。&lt;br 我是策划员マー（小玛）。 前几天，我久违地自己做了顿饭。&lt;br 最近很少下厨了，&lt;br 但看着肚子一点一点鼓起来，&lt;br 也不能总是在外面吃饭。 我想着做点看起来对身体有益的料理，&lt;br 于是决定做一道放满蔬菜的炒菜。 我纠结了一下该怎么调味，想着要不要试试中式风味——&lt;b</span>
 </article>
 
@@ -320,19 +320,19 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 6</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-206/">【工作日志】2010年宝可梦设定制作幕后</a></h3>
+  <h3><a href="/gamefreak-staff/entry-206/">【工作日志】2010年宝可梦设定制作幕后</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br “《宝可梦 黑·白》的制作方法”第6回，&lt;br 这次将以策划松岛的“关于宝可梦设定的故事”为中心，为大家带来内容！&lt;br —–&lt;br 大家好，我是策划松岛。&lt;br 在《宝可梦 黑·白》中，我负责宝可梦的设定、&lt;br 命名、宝可梦图</span>
 </article>
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 3</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-203/">【工作日志】2010年宝可梦音乐开发</a></h3>
+  <h3><a href="/gamefreak-staff/entry-203/">【工作日志】2010年宝可梦音乐开发</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的 にょろリカ（妮洛莉卡）。&lt;br 《宝可梦 黑／白》开发工作人员访谈·第3弹，&lt;br 这次我们突击采访了音频设计师景山将太！&lt;br ——&lt;br ―那么，请先做个自我介绍吧。 大家好，好久不见！&lt;br 我是音频设计师景山将太。&lt;br 在《宝可梦 黑／白》中，我负责音</span>
 </article>
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 2</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-202/">【工作日志】2010年宝可梦剧本幕后</a></h3>
+  <h3><a href="/gamefreak-staff/entry-202/">【工作日志】2010年宝可梦剧本幕后</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 这周也为大家带来《宝可梦黑／白》的开发者访谈。&lt;br 今天是第2回，我们将为大家送上策划・まつみや（松宫）的&lt;br “剧本，这里才说的事”！&lt;br —–&lt;br ―那么，首先请您做个自我介绍。 我是策划まつみや。&lt;br 在《宝可梦黑／</span>
 </article>
 
@@ -350,7 +350,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第172回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-172/">[GameFreak部长专栏] 第172回</a></h3>
+  <h3><a href="/gamefreak-director/entry-172/">[GameFreak部长专栏] 第172回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 因为我担任导演，创作音乐其实挺辛苦的， 不过在宝可梦里，战斗音乐带有很强的“增田风格”，所以这次我也写了。 场</span>
 </article>
 
@@ -362,7 +362,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第170回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-170/">[GameFreak部长专栏] 第170回</a></h3>
+  <h3><a href="/gamefreak-director/entry-170/">[GameFreak部长专栏] 第170回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 这次的《黑／白》中， 直到结局为止，出现的全都是新宝可梦。 只会有新宝可梦跳出来！ 这是因为我希望孩子和大人都</span>
 </article>
 
@@ -374,25 +374,25 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 明日は何の日？</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-171/">【工作日志】2010年宝可梦14周年寄语</a></h3>
+  <h3><a href="/gamefreak-staff/entry-171/">【工作日志】2010年宝可梦14周年寄语</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！&lt;br 我是负责网站工作的 にょろリカ（妮洛莉卡）。 突然想问一下，有人知道2月27日是什么日子吗？&lt;br 其实……明天2月27日，正好是《宝可梦 红·绿》发售以来&lt;br 整整14周年！！&lt;br 今天早上来上班时，办公室里收到了这么漂亮的花。 &lt;figure class=&quot;gf-l</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その１</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-145/">【工作日志】2009年心金·魂银开发随笔</a></h3>
+  <h3><a href="/gamefreak-staff/entry-145/">【工作日志】2009年心金·魂银开发随笔</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 正如总监もりもと（森本）之前预告的那样，接下来预计会分成全8回，&lt;br 作为《宝可梦 心金·魂银》（以下简称“心金·魂银”）发售纪念，&lt;br 我们将以《来聊聊心金·魂银！》为题，陆续刊载参与开发的工作人员的故事。&lt;br 敬请期待！ 作为第1回，这次由开发部程序员森负责。&lt;br 在</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-1-red-green-mew/">[访谈翻译] 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第3回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/">[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-1-red-green-mew/">[访谈翻译] 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相</a></h3>
   <span></span>
 </article>
 
@@ -476,7 +476,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · それぞれの夏</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-84/">【工作日志】2008年各自的夏日时光</a></h3>
+  <h3><a href="/gamefreak-staff/entry-84/">【工作日志】2008年各自的夏日时光</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是负责网站的カニ子（蟹子）。上周大家一起放了盂兰盆假期！&lt;br 我照例问了问 GAME FREAK 的大家：“都去哪儿了？做了些什么？” &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/st</span>
 </article>
 
@@ -590,20 +590,14 @@ search: false
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
+  <h3><a href="/gamefreak-staff/entry-60/">【工作日志】2008年游戏收藏与创作</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第125回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-125/">[GameFreak部长专栏] 第125回</a></h3>
+  <h3><a href="/gamefreak-director/entry-125/">[GameFreak部长专栏] 第125回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 我想一边比较过去的开场曲，一边看看至今为止音乐的变化。 ※这里只放了曲子的一部分，其中还加入了演出时的音效。还</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-124/">[GameFreak部长专栏] 第124回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
 </article>
 
 <article class="resource-network-card">
@@ -613,44 +607,50 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
+  <h3><a href="/gamefreak-director/entry-124/">[GameFreak部长专栏] 第124回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
+</article>
+
+<article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · げいのう話</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-47/">【工作日志】2007年三味线学习记</a></h3>
+  <h3><a href="/gamefreak-staff/entry-47/">【工作日志】2007年三味线学习记</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面！我是负责策划、也写剧本之类工作的艺能。&lt;br 很久很久以前，在 GAME FREAK 还成立之前，&lt;br 我曾经当过偶像明星的经纪人，却因为游戏玩得太过头而被炒了鱿鱼，&lt;br 这是我用这种虚假的个人简介写游戏文章时所用的名字。&lt;br 我也是时隔许久又用这个名字自称啦。 既然难得</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 秋のイベント♪</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-39/">【工作日志】2007年秋日溪流垂钓与烧烤</a></h3>
+  <h3><a href="/gamefreak-staff/entry-39/">【工作日志】2007年秋日溪流垂钓与烧烤</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是ジョニー（乔尼）。&lt;br 我是 GF 的平面设计师，也是活动委员。&lt;br 活动委员会是由负责策划、准备公司活动的员工组成的团队。 这个秋天，活动委员会举办的活动是“溪流垂钓与烧烤”&lt;br 在十月群山渐渐染上秋色的时候，大家在宁静的溪流边悠闲地钓山女鱼，&lt;br 再一起烧烤，融入大</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 大好きなポケモン</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-35/">【工作日志】2007年员工最爱的宝可梦</a></h3>
+  <h3><a href="/gamefreak-staff/entry-35/">【工作日志】2007年员工最爱的宝可梦</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是负责策划＋音效的ラッペン（拉彭）。 员工的名片上，都画着各不相同的宝可梦。&lt;br 以前カニ子（蟹子）的文章里提到过，&lt;br 名片上的宝可梦，基本都是从红绿中登场的151只里选的。 我的名片上画的是红绿里我最喜欢的鲤鱼王，不过……&lt;br 在所有宝可梦中，我最喜欢的是它！ &lt;f</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ゲームフリークの名刺</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-24/">【工作日志】2007年GAME FREAK特别名片</a></h3>
+  <h3><a href="/gamefreak-staff/entry-24/">【工作日志】2007年GAME FREAK特别名片</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！好久不见，我是カニ子（蟹子）。 那么，时间过得真快，我的试用期也结束了，正式成为一名正式员工，&lt;br 这周一，公司送给了我一样很棒的东西。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · はじめましてのごあいさつ</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-3/">【工作日志】网站焕新与点阵画布</a></h3>
+  <h3><a href="/gamefreak-staff/entry-3/">【工作日志】网站焕新与点阵画布</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面。我是 GAME FREAK 的工作人员カニ子（蟹子）。&lt;br 我入职 GAME FREAK，负责网站制作。&lt;br 今后还请多多关照。 这次，正值 GAME FREAK 网站全面更新，&lt;br 作为趣味内容的一环，我们从今天开始写员工博客。&lt;br 关于 GAME FREAK 里那些</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第79回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-079/">[GameFreak部长专栏] 第79回</a></h3>
+  <h3><a href="/gamefreak-director/entry-079/">[GameFreak部长专栏] 第79回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 德国（3） 第3天。早上8点从酒店出发！ 从普法尔茨前往摩泽尔地区。 坐在巴士里欣赏沿途风景时， 我发现城镇与</span>
 </article>
 
 <article class="resource-network-card">
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第75回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-075/">[GameFreak部长专栏] 第75回</a></h3>
+  <h3><a href="/gamefreak-director/entry-075/">[GameFreak部长专栏] 第75回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 最近一直很忙，没能更新，所以偶尔换个角度来写写。 2月11日（星期日） 　从2月10日?12日，我在山口县下关</span>
 </article>
 
@@ -662,25 +662,25 @@ search: false
 
 <article class="resource-network-card">
   <p>2006 · gamefreak_director_column · 増田部長のめざめるパワー 第64回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-064/">[GameFreak部长专栏] 第64回</a></h3>
+  <h3><a href="/gamefreak-director/entry-064/">[GameFreak部长专栏] 第64回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 宝可梦快乐生日音乐会顺利全部结束了！ 真的非常感谢前来参加的各位！ 最后一站北海道下了很大的雪，不过…… 还是</span>
 </article>
 
 <article class="resource-network-card">
   <p>2006 · gamefreak_director_column · 増田部長のめざめるパワー 第56回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-056/">[GameFreak部长专栏] 第56回</a></h3>
+  <h3><a href="/gamefreak-director/entry-056/">[GameFreak部长专栏] 第56回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 《宝可梦 红＆绿》发售，今天正好十周年！ 时间过得真快啊。 宝可梦已经扩展到全世界，变得如此庞大， 而我就像是</span>
 </article>
 
 <article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第32回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-032/">[GameFreak部长专栏] 第32回</a></h3>
+  <h3><a href="/gamefreak-director/entry-032/">[GameFreak部长专栏] 第32回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 宝可梦红·绿版发售，迎来了第9个年头。 哎呀，时间过得真快。 一路不停奔跑，回过神来，已经九年了。就是这种感觉</span>
 </article>
 
 <article class="resource-network-card">
   <p>2004 · gamefreak_director_column · 増田部長のめざめるパワー 第13回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-013/">[GameFreak部长专栏] 第13回</a></h3>
+  <h3><a href="/gamefreak-director/entry-013/">[GameFreak部长专栏] 第13回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 这次来讲点内容比较深的往事吧。 开始开发《宝可梦 红·绿》的时候，GAME FREAK 也是下定决心， 买了一</span>
 </article>
 
@@ -692,7 +692,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2004 · gamefreak_director_column · 増田部長のめざめるパワー 第11回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-011/">[GameFreak部长专栏] 第11回</a></h3>
+  <h3><a href="/gamefreak-director/entry-011/">[GameFreak部长专栏] 第11回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 北美将在 9 月 9 日发售《ＦＩＲＥ　ＲＥＤ》和《ＬＥＡＦ　ＧＲＥＥＮ》。 觉得“ＧＲＥＥＮ？？ ”的人，观</span>
 </article>
 
@@ -739,14 +739,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル</p>
-  <h3><a href="/杂志特辑/扫描存档/scan-shodai-zukan-1996-pokemon-journal/">《ポケットモンスター図鑑》1996：宝可梦期刊——大木博士与正辉谈宝可梦研究</a></h3>
+  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-shodai-zukan-1996-staff-interview/">《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」</p>
-  <h3><a href="/访谈翻译/扫描存档/scan-shodai-zukan-1996-staff-interview/">《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」</a></h3>
+  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-shodai-zukan-1996-pokemon-journal/">《ポケットモンスター図鑑》1996：宝可梦期刊——大木博士与正辉谈宝可梦研究</a></h3>
   <span></span>
 </article>
 

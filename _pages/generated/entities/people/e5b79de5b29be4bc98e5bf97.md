@@ -19,14 +19,14 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
   <span></span>
 </article>
 

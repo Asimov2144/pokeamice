@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 1</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-201/">【工作日志】黑白开发现场与轨道移动</a></h3>
+  <h3><a href="/gamefreak-staff/entry-201/">【工作日志】黑白开发现场与轨道移动</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 转眼已经到了10月，&lt;br 距离《宝可梦黑·白》发售已经过去12天了。&lt;br 大家拿到几枚道馆徽章了呢？&lt;br 我上周拿到了第8枚徽章，并且就这样一路打通了游戏！ 那么从这次开始，我想用连续9周的时间，刊登对参与《宝可梦黑·白》&lt;</span>
 </article>
 

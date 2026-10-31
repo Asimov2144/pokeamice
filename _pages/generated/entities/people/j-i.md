@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
+  <h3><a href="/interviews/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
   <span></span>
 </article>
 

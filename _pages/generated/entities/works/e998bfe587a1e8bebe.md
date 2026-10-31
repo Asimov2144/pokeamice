@@ -26,7 +26,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第156回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-156/">[GameFreak部长专栏] 第156回</a></h3>
+  <h3><a href="/gamefreak-director/entry-156/">[GameFreak部长专栏] 第156回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 突然这么问，不过大家平时会受到什么事物的刺激呢？ 我看了最喜欢的罗兰·艾默里奇导演的电影《2012》，以及 3</span>
 </article>
 

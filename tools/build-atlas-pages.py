@@ -102,7 +102,7 @@ class Site:
         return f'<a href="/people/{esc(s)}/">{nm}</a>' if s else nm
 
     def post(self, stem):
-        """证据帖：文件名 → (url, 标题)；地址按 /:categories/:title/"""
+        """证据帖：文件名 → (url, 标题)；front matter 有 permalink 就用它，否则按 /:categories/:title/"""
         if stem in self._posts:
             return self._posts[stem]
         f = ROOT / "_posts" / f"{stem}.md"
@@ -119,6 +119,8 @@ class Site:
                 if isinstance(cats, str):
                     cats = [cats]
                 url = "/" + "/".join(list(cats) + [stem[11:]]) + "/"
+                if str(fm.get("permalink") or "").strip():
+                    url = "/" + str(fm["permalink"]).strip().strip("/") + "/"
                 res = (url, fm.get("display_title") or fm.get("title") or stem)
         self._posts[stem] = res
         return res

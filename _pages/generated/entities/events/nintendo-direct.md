@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2012 · gamefreak_director_column · 増田部長のめざめるパワー 第227回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-227/">[GameFreak部长专栏] 第227回</a></h3>
+  <h3><a href="/gamefreak-director/entry-227/">[GameFreak部长专栏] 第227回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天对 GAME FREAK 来说，是一个特别的日子。 我们一直把 “做出好东西来！” 作为共同口号， 不断发</span>
 </article>
 

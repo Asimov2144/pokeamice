@@ -43,8 +43,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · 新卒若手対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-graduate/">GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声</a></h3>
+  <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
+  <h3><a href="/interviews/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
   <span></span>
 </article>
 
@@ -55,8 +55,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
+  <p>2024 · interview_translation · 新卒若手対談｜採用情報</p>
+  <h3><a href="/interviews/interview-gamefreak-crosstalk-new-graduate/">GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声</a></h3>
   <span></span>
 </article>
 

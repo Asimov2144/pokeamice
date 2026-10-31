@@ -25,12 +25,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · 私がゲームフリークに入った理由 グラフィックデザイナー編</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/">GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2015 · interview_translation · 私がゲームフリークに入った理由 プログラマー編</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/">GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）</a></h3>
   <span></span>
@@ -39,6 +33,12 @@ search: false
 <article class="resource-network-card">
   <p>2015 · interview_translation · 私がゲームフリークに入った理由 プランナー編</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/">GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · 私がゲームフリークに入った理由 グラフィックデザイナー編</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/">GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）</a></h3>
   <span></span>
 </article>
 

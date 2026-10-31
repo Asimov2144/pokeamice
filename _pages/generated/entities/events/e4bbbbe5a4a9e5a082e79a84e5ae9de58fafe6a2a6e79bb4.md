@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第233回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-233/">[GameFreak部长专栏] 第233回</a></h3>
+  <h3><a href="/gamefreak-director/entry-233/">[GameFreak部长专栏] 第233回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家好！ 2013年1月8日。 大家看了日本时间20:00开始的发布会吗？ 还没看的人，请看这里！ 官方《宝可</span>
 </article>
 

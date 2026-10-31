@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · タイ行ってきました！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-83/">【工作日志】2008年泰国旅行记</a></h3>
+  <h3><a href="/gamefreak-staff/entry-83/">【工作日志】2008年泰国旅行记</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是カニ子（蟹子）。 之前也写过箱根旅行的事，&lt;br 我可是无论国内国外都非常喜欢旅行的！&lt;br 上周请了带薪假，去泰国玩了三晚四天！&lt;br 从日本坐飞机大约要6个小时。&lt;br 那里是四季如夏的国家，不过现在正值雨季，热得和日本差不多。 &lt;figure class=&quot;gf-lega</span>
 </article>
 
