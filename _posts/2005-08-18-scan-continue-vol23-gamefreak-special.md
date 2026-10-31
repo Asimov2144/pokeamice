@@ -252,8 +252,7 @@ translation_segments:
       - 1224
       - 594
     writing_direction: horizontal
-  - speaker: 1 姓名 2 制作的东西 3 评论
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: page006-h14
@@ -262,7 +261,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1 氏名 2 作った物 3 コメント
-    translation: ""
+    translation: "1 姓名 2 制作的东西 3 评论"
     scan_box:
       - 740
       - 639

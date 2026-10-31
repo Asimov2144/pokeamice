@@ -303,7 +303,7 @@ parallel_items:
   note: 弗朗索瓦·奥朗德是法国前总统。这句话可能是对奥朗德演讲的戏仿或引用，带有讽刺意味。
 - type: paragraph
   original: '"Petit effronté, c''est un scandale" - Mme Pavoshko'
-  translation: '"小无赖，这简直是丑闻"——帕沃什科夫人'
+  translation: "“小无赖，这简直是丑闻”——帕沃什科夫人"
   speaker: Mme Pavoshko
   note: 此处为引用某位夫人的话，可能为网络评论或虚构人物，无特定背景。
   role: answer

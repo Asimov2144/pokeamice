@@ -4137,7 +4137,7 @@ translation_segments:
     scan_page: 13
     review_status: review
     original: おーホッホッホ！ アタシ メリッサです！ ヨスガシティはコンテストやってます。えーと、だから、アタシ見てきなさい！
-    translation: 哦—呵呵呵！我是梅丽莎！缘朱市正在举办华丽大赛。呃，所以，你去看一看吧！
+    translation: "哦——呵呵呵！我是梅丽莎！缘朱市正在举办华丽大赛。呃，所以，你去看一看吧！"
     scan_box:
       - 1099
       - 1151

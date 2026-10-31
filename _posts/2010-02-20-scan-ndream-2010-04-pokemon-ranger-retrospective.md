@@ -25,7 +25,7 @@ issue: 2010年4月号（Vol.192）
 publisher: 毎日コミュニケーションズ
 interviewer: Nintendo DREAM 編集部
 dek: 回顾《宝可梦巡护员》三作的地区、组织与系统进化
-summary: 本文是《Nintendo DREAM》2010年4月号对《宝可梦巡护员》系列三作的回顾专题。文中介绍了2006年发售的《宝可梦巡护员》，舞台为菲奥雷地区，主角因写信给队长疾风而成为巡护员，对抗抢夺新型捕猎游标的冲冲团；2008年发售的《宝可梦巡护员 巴特那吉》以阿尔米亚地区为舞台，加入巡护员学校与巡护员联盟，敌人为使用多卡利莫装置的暗暗团，搭档宝可梦增至17只；以及2010年3月6日发售的《宝可梦巡护员 光的轨迹》，舞台为奥卜利比亚地区，引入巡护员印记与4人通信协力任务。文中还梳理了捕获系统从一笔画到心情计量条的进化，并介绍角色欧伊尔的故事。
+summary: 本文是《Nintendo DREAM》2010年4月号对《宝可梦巡护员》系列三作的回顾专题。文中介绍了2006年发售的《宝可梦巡护员》，舞台为菲奥雷地区，主角因写信给队长疾风而成为巡护员，对抗抢夺新型捕猎游标的冲冲团；2008年发售的《宝可梦巡护员 巴特那吉》以阿尔米亚地区为舞台，加入巡护员学校与巡护员联盟，敌人为使用多卡利莫装置的暗暗团，搭档宝可梦增至17只；以及2010年3月6日发售的《宝可梦巡护员 光的轨迹》，舞台为奥卜利比亚地区，引入巡护员印记与4人通信协力任务。文中还梳理了捕获系统从一笔画到心情计量条的进化，并介绍角色奥伊尔的故事。
 source_pages: P.76–P.83（8 页；2048px 页图）
 source:
   title: 『ポケモンレンジャー』全景通史回顾
@@ -67,8 +67,7 @@ translation_segments:
     review_status: ready
     width: 1614
     height: 2048
-  - speaker: 不捕捉宝可梦、借用其力量的系列新境地
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h2
@@ -77,15 +76,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンを捕まえずに力を借りるシリーズ新境地
-    translation: ""
+    translation: "不捕捉宝可梦、借用其力量的系列新境地"
     scan_box:
       - 181
       - 57
       - 720
       - 160
     writing_direction: horizontal
-  - speaker: 在菲奥雷地区掀起的巡护员VS冲冲团 宝可梦巡护员
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h3
@@ -94,7 +92,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: フィオレ地方で巻き起こるレンジャーVSゴーゴー団 ポケモンレンジャー
-    translation: ""
+    translation: "在菲奥雷地区掀起的巡护员VS冲冲团 宝可梦巡护员"
     comment: 菲奥雷地区为《宝可梦巡护员》系列舞台；冲冲团为反派组织。
     scan_box:
       - 29
@@ -102,8 +100,7 @@ translation_segments:
       - 1554
       - 420
     writing_direction: horizontal
-  - speaker: HIGHTLIGHT 亮点
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h5
@@ -112,7 +109,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: HIGHTLIGHTハイライト
-    translation: ""
+    translation: "HIGHTLIGHT 亮点"
     scan_box:
       - 45
       - 422
@@ -152,8 +149,7 @@ translation_segments:
       - 1546
       - 727
     writing_direction: horizontal
-  - speaker: 巡护员活动
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h8
@@ -162,15 +158,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: レンジャー活動
-    translation: ""
+    translation: "巡护员活动"
     scan_box:
       - 29
       - 967
       - 352
       - 1143
     writing_direction: horizontal
-  - speaker: 从寻找走失宝可梦到潜入邪恶巢穴！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h9
@@ -179,7 +174,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 迷子ポケモン探しから悪のアジト潜入まで！
-    translation: ""
+    translation: "从寻找走失宝可梦到潜入邪恶巢穴！"
     scan_box:
       - 360
       - 946
@@ -428,8 +423,7 @@ translation_segments:
       - 683
       - 1610
     writing_direction: horizontal
-  - speaker: 救助迷路者的任务也有
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h25
@@ -438,7 +432,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 迷子になった人を助けるミッションも
-    translation: ""
+    translation: "救助迷路者的任务也有"
     scan_box:
       - 1139
       - 1393
@@ -461,8 +455,7 @@ translation_segments:
       - 1328
       - 1704
     writing_direction: horizontal
-  - speaker: 走失的老人拉戈
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p076_ranger_highlight_01-h27
@@ -471,7 +464,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 迷子の老人ラゴウ
-    translation: ""
+    translation: "走失的老人拉戈"
     scan_box:
       - 1336
       - 1499
@@ -554,8 +547,7 @@ translation_segments:
     review_status: ready
     width: 1601
     height: 2048
-  - speaker: 巡游菲欧雷地区四座城市的试炼 冒险
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h34
@@ -564,8 +556,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: フィオレ地方の4つの街をめぐる試練 冒険
-    translation: ""
-    comment: 菲欧雷地区是《宝可梦巡护员》系列的舞台。
+    translation: "巡游菲奥雷地区四座城镇的试炼 冒险"
+    comment: 菲奥雷地区是《宝可梦巡护员》系列的舞台。
     scan_box:
       - 64
       - 88
@@ -581,7 +573,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 主人公はフィオレ地方全土が活動範囲。街をつなぐ道なき道を踏破する冒険も、レンジャーに必要な試練なのだ。
-    translation: 主角的活动范围遍及菲欧雷地区全境。踏破连接城市之间没有道路的荒野，也是巡护员必需的试炼。
+    translation: 主角的活动范围遍及菲奥雷地区全境。踏破连接城市之间没有道路的荒野，也是巡护员必需的试炼。
     scan_box:
       - 528
       - 160
@@ -620,8 +612,7 @@ translation_segments:
       - 355
       - 588
     writing_direction: horizontal
-  - speaker: 西之环镇队长疾风
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h39
@@ -630,7 +621,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 西のリングタウンリーダーハヤテ
-    translation: ""
+    translation: "西之环镇队长疾风"
     scan_box:
       - 117
       - 588
@@ -653,8 +644,7 @@ translation_segments:
       - 1148
       - 233
     writing_direction: horizontal
-  - speaker: 北之冬镇队长艾莉达 东之福尔市队长乔
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h41
@@ -663,7 +653,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 北のウィンタウンリーダーエリダ 東のフォルシティリーダージョウ
-    translation: ""
+    translation: "北之冬镇队长艾莉达 东之福尔市队长乔"
     scan_box:
       - 780
       - 254
@@ -697,8 +687,7 @@ translation_segments:
       - 924
       - 860
     writing_direction: horizontal
-  - speaker: 福尔市巡护员阿莉亚
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h44
@@ -707,7 +696,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: フォルシティレンジャーアリア
-    translation: ""
+    translation: "福尔市巡护员阿莉亚"
     scan_box:
       - 432
       - 823
@@ -730,8 +719,7 @@ translation_segments:
       - 828
       - 997
     writing_direction: horizontal
-  - speaker: 南之萨玛兰德队长卡姆莉
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h46
@@ -740,7 +728,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 南のサマランドリーダーカムリ
-    translation: ""
+    translation: "南之萨玛兰德队长卡姆莉"
     scan_box:
       - 940
       - 772
@@ -843,8 +831,7 @@ translation_segments:
       - 1204
       - 946
     writing_direction: vertical
-  - speaker: 邪恶组织
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h53
@@ -853,15 +840,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 悪の組織
-    translation: ""
+    translation: "邪恶组织"
     scan_box:
       - 285
       - 1071
       - 427
       - 1229
     writing_direction: horizontal
-  - speaker: 用抢来的捕猎游标作恶的冲冲团
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h54
@@ -870,7 +856,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 奪ったスタイラーで悪事を働くゴーゴー団
-    translation: ""
+    translation: "用抢来的捕猎游标作恶的冲冲团"
     scan_box:
       - 488
       - 1065
@@ -886,15 +872,14 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 目的は不明だが、ポケモンレンジャーの妨害をするゴーゴー団。彼らは、シンバラ教授から奪った新型スタイラーを改造したものを使い、フィオレ地方各地でさまざまな事件を巻き起こす。中でもゴーゴー団幹部のゴーゴー4兄弟とは何度も出会い、何度も戦うことになる。
-    translation: "目的不明，但会妨碍宝可梦巡护员的冲冲团。他们使用从辛巴拉教授处抢来的新型捕猎游标的改造品，在菲欧雷地区各地引发各种事件。其中，与冲冲团干部冲冲四兄弟会多次相遇，并多次交战。"
+    translation: "目的不明，但会妨碍宝可梦巡护员的冲冲团。他们使用从辛巴拉教授处抢来的新型捕猎游标的改造品，在菲奥雷地区各地引发各种事件。其中，与冲冲团干部冲冲四兄弟会多次相遇，并多次交战。"
     scan_box:
       - 472
       - 1198
       - 800
       - 1499
     writing_direction: horizontal
-  - speaker: 长子 ヤライ 次子 小悠 三子 ヨウジ 长女 ミツイ 冲冲团干部冲冲四兄弟
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p077_ranger_highlight_02-h56
@@ -903,7 +888,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 長男 ヤライ 次男 ユウキ 三男 ヨウジ 長女 ミツイ ゴーゴー団幹部ゴーゴー4兄弟
-    translation: ""
+    translation: "长子 ヤライ 次子 小悠 三子 ヨウジ 长女 ミツイ 冲冲团干部冲冲四兄弟"
     scan_box:
       - 59
       - 1212
@@ -1130,8 +1115,7 @@ translation_segments:
     review_status: ready
     width: 1599
     height: 2048
-  - speaker: 击退暗暗团的阴谋，守护阿尔米亚地方的和平！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p078_batonage_highlight_01-h72
@@ -1140,15 +1124,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ヤミヤミ団の企みを退け アルミア地方の 平和を守れ!!"
-    translation: ""
+    translation: "击退暗暗团的阴谋，守护阿尔米亚地方的和平！！"
     scan_box:
       - 796
       - 12
       - 1593
       - 358
     writing_direction: horizontal
-  - speaker: 描绘巡护员在新天地活跃身姿的第二作 宝可梦巡护员 巴特那吉 HIGHTLIGHT 亮点 2008年3月20日发售 4800日元（含税）
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p078_batonage_highlight_01-h73
@@ -1157,7 +1140,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新たな地でのレンジャーの 活躍を描く第2弾ポケモンレンジャー バトナージHIGHTLIGHTハイライト2008年3月20日発売 4800円(込)
-    translation: ""
+    translation: "描绘巡护员在新天地活跃身姿的第二作 宝可梦巡护员 巴特那吉 HIGHTLIGHT 亮点 2008年3月20日发售 4800日元（含税）"
     scan_box:
       - 269
       - 63
@@ -1292,8 +1275,7 @@ translation_segments:
       - 1430
       - 1022
     writing_direction: horizontal
-  - speaker: 巡护员 活动于山、海、城市！与宝可梦们的大显身手
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p078_batonage_highlight_01-h80
@@ -1302,7 +1284,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "レンジャー 活動山で、海で、街で! ポケモンたちとの大活躍"
-    translation: ""
+    translation: "巡护员 活动于山、海、城市！与宝可梦们的大显身手"
     scan_box:
       - 74
       - 1042
@@ -1491,8 +1473,7 @@ translation_segments:
         - 432
         - 1876
     writing_direction: horizontal
-  - speaker: 统括所有巡护员的 巡护员联盟
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p078_batonage_highlight_01-h88
@@ -1501,7 +1482,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: すべてのレンジャーを統括する レンジャーユニオン
-    translation: ""
+    translation: "统括所有巡护员的 巡护员联盟"
     scan_box:
       - 1091
       - 1047
@@ -1643,8 +1624,7 @@ translation_segments:
     review_status: ready
     width: 1596
     height: 2048
-  - speaker: 与学校时代伙伴们的交流 友情
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h95
@@ -1653,7 +1633,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: スクール時代の仲間たちとの交流 友情
-    translation: ""
+    translation: "与学校时代伙伴们的交流 友情"
     scan_box:
       - 69
       - 78
@@ -1847,8 +1827,7 @@ translation_segments:
       - 196
       - 1081
     writing_direction: vertical
-  - speaker: 主角的劲敌般的存在 达兹尔
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h108
@@ -1857,15 +1836,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 主人公のライバル的存在 ダズル
-    translation: ""
+    translation: "主角的劲敌般的存在 达兹尔"
     scan_box:
       - 891
       - 113
       - 951
       - 543
     writing_direction: vertical
-  - speaker: 在安赫尔公司工作的研究员 伊织 可靠的操作员 莉兹米 在危急时刻拯救你的搭档们
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h109
@@ -1874,7 +1852,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アンヘル社で働く研究者 イオリ しっかり者のオペレーター リズミ ピンチを救ってくれるパートナーたち
-    translation: ""
+    translation: "在安赫尔公司工作的研究员 伊织 可靠的操作员 莉兹米 在危急时刻拯救你的搭档们"
     scan_box:
       - 375
       - 406
@@ -1918,8 +1896,7 @@ translation_segments:
       - 1500
       - 338
     writing_direction: horizontal
-  - speaker: 阴谋
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h113
@@ -1928,15 +1905,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 陰謀
-    translation: ""
+    translation: "阴谋"
     scan_box:
       - 737
       - 967
       - 961
       - 1110
     writing_direction: horizontal
-  - speaker: 让阿尔米亚陷入混乱的暗暗团
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h114
@@ -1945,7 +1921,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アルミアを混乱に陥れるヤミヤミ団
-    translation: ""
+    translation: "让阿尔米亚陷入混乱的暗暗团"
     comment: 阿尔米亚是《宝可梦巡护员 巴特那吉》的舞台地区。
     scan_box:
       - 539
@@ -2033,8 +2009,7 @@ translation_segments:
       - 1034
       - 1470
     writing_direction: horizontal
-  - speaker: 暗暗团大干部 地狱三重奏 德泽尔 艾斯 凯恩 暗暗团的总裁？？？？？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h120
@@ -2043,7 +2018,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヤミヤミ団大幹部 トリオ・ザ・ヘル デゼル アイス ケイン ヤミヤミ団の総統？？？？？
-    translation: ""
+    translation: "暗暗团大干部 地狱三重奏 德泽尔 艾斯 凯恩 暗暗团的总裁？？？？？"
     scan_box:
       - 492
       - 1485
@@ -2081,8 +2056,7 @@ translation_segments:
         - 1088
         - 1397
     writing_direction: horizontal
-  - speaker: 作为学校教师潜入的干部米拉卡德
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h125
@@ -2091,7 +2065,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: スクールの教師として潜入していた幹部ミラカド
-    translation: ""
+    translation: "作为学校教师潜入的干部米拉卡德"
     scan_box:
       - 1433
       - 1286
@@ -2253,8 +2227,7 @@ translation_segments:
       - 1073
       - 1950
     writing_direction: horizontal
-  - speaker: 操控宝可梦的装置多卡利莫
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p079_batonage_highlight_02-h135
@@ -2263,7 +2236,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンたちを操る装置ドカリモ
-    translation: ""
+    translation: "操控宝可梦的装置多卡利莫"
     scan_box:
       - 115
       - 1122
@@ -2437,8 +2410,7 @@ translation_segments:
     review_status: ready
     width: 1614
     height: 2048
-  - speaker: 宝可梦巡护员 巴特那吉
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h146
@@ -2447,7 +2419,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンレンジャー バトナージ
-    translation: ""
+    translation: "宝可梦巡护员 巴特那吉"
     scan_box:
       - 868
       - 111
@@ -2463,15 +2435,14 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 『バトナージ』で、やけに印象に残ってしまうキャラ・オイル。彼の熱い生き様を、余すことなく伝えていく、そんなコーナーです！
-    translation: 在《巴特那吉》中，格外令人印象深刻的角色——欧伊尔。这个栏目将毫无保留地传达他那炽热的生活方式！
+    translation: 在《巴特那吉》中，格外令人印象深刻的角色——奥伊尔。这个栏目将毫无保留地传达他那炽热的生活方式！
     scan_box:
       - 1252
       - 84
       - 1554
       - 268
     writing_direction: horizontal
-  - speaker: 欧伊尔的世间没有恶人！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h148
@@ -2480,15 +2451,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: オイルの渡る世間に鬼はなし！
-    translation: ""
+    translation: "奥伊尔的世间没有恶人！"
     scan_box:
       - 336
       - 12
       - 1590
       - 518
     writing_direction: horizontal
-  - speaker: 有点在意的那个人的成功故事
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h149
@@ -2497,7 +2467,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ちょっと気になるアイツのサクセスストーリー
-    translation: ""
+    translation: "有点在意的那个人的成功故事"
     scan_box:
       - 768
       - 238
@@ -2513,7 +2483,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: オイルを知らないアナタに…オイルまるわかり講座
-    translation: "献给不了解欧伊尔的你……欧伊尔全解讲座"
+    translation: "献给不了解奥伊尔的你……奥伊尔全解讲座"
     comment: 奥伊尔是宝可梦巡护员系列中的角色名。
     scan_box:
       - 66
@@ -2521,8 +2491,7 @@ translation_segments:
       - 320
       - 631
     writing_direction: horizontal
-  - speaker: 笨手笨脚！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h151
@@ -2531,7 +2500,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 不器用！
-    translation: ""
+    translation: "笨手笨脚！"
     scan_box:
       - 139
       - 657
@@ -2570,8 +2539,7 @@ translation_segments:
       - 329
       - 963
     writing_direction: horizontal
-  - speaker: 对女孩子没辙！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h154
@@ -2580,7 +2548,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 女の子に弱い！
-    translation: ""
+    translation: "对女孩子没辙！"
     scan_box:
       - 129
       - 979
@@ -2596,7 +2564,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: いま ニコッとしたから オイルさんに けってい！
-    translation: "刚才他笑了一下 就决定是欧伊尔先生了！"
+    translation: "刚才他笑了一下 就决定是奥伊尔先生了！"
     scan_box:
       - 103
       - 1163
@@ -2619,8 +2587,7 @@ translation_segments:
       - 323
       - 1272
     writing_direction: horizontal
-  - speaker: 胆小！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h157
@@ -2629,7 +2596,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 気弱！
-    translation: ""
+    translation: "胆小！"
     scan_box:
       - 152
       - 1300
@@ -2668,8 +2635,7 @@ translation_segments:
       - 323
       - 1540
     writing_direction: horizontal
-  - speaker: 但是……本质是个好人！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h160
@@ -2678,7 +2644,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: でも…根はいいヤツ！！
-    translation: ""
+    translation: "但是……本质是个好人！！"
     scan_box:
       - 100
       - 1630
@@ -2717,8 +2683,7 @@ translation_segments:
       - 278
       - 1993
     writing_direction: horizontal
-  - speaker: OIL SAGA1 奥伊尔，诞生！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h163
@@ -2727,7 +2692,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: OIL SAGA1 オイル、誕生！
-    translation: ""
+    translation: "OIL SAGA1 奥伊尔，诞生！"
     scan_box:
       - 436
       - 467
@@ -2743,7 +2708,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ビエンの森の火事現場で見つかった男。彼からは、強烈なオイルの匂いが漂っていた。オイルくさい男…なら「オイル」だ！ これがオイルと呼ばれる男が誕生した瞬間だった。
-    translation: "在比恩森林的火灾现场发现的男人。他身上散发着强烈的机油气味。既然是个机油味的男人……那就叫“欧伊尔”吧！这就是被称为欧伊尔的男人诞生的瞬间。"
+    translation: "在比恩森林的火灾现场发现的男人。他身上散发着强烈的机油气味。既然是个机油味的男人……那就叫“奥伊尔”吧！这就是被称为奥伊尔的男人诞生的瞬间。"
     scan_box:
       - 649
       - 524
@@ -2775,7 +2740,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 「オイルブンブンやろう」だ、どうだ きにいったか？
-    translation: "就叫“欧伊尔嗡嗡男”吧，怎么样，喜欢吗？"
+    translation: "就叫“奥伊尔嗡嗡男”吧，怎么样，喜欢吗？"
     scan_box:
       - 383
       - 680
@@ -2814,8 +2779,7 @@ translation_segments:
       - 828
       - 737
     writing_direction: horizontal
-  - speaker: 起名者是拉库亚！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h169
@@ -2824,7 +2788,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 名づけ親はラクア！
-    translation: ""
+    translation: "起名者是拉库亚！"
     scan_box:
       - 642
       - 743
@@ -2911,8 +2875,7 @@ translation_segments:
       - 952
       - 1133
     writing_direction: horizontal
-  - speaker: 奥伊尔受人喜爱的角色轶事
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h175
@@ -2921,15 +2884,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: オイル愛されキャラエピソード
-    translation: ""
+    translation: "奥伊尔受人喜爱的角色轶事"
     scan_box:
       - 1109
       - 500
       - 1532
       - 604
     writing_direction: horizontal
-  - speaker: 因奥伊尔被抓而诞生的流行语 “稍微紧一点的团团捆”
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h176
@@ -2938,7 +2900,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: オイルがつかまったことから生まれた流行語 「ちょいきつめのぐるぐる巻き」
-    translation: ""
+    translation: "因奥伊尔被抓而诞生的流行语 “稍微紧一点的团团捆”"
     scan_box:
       - 1115
       - 571
@@ -3009,8 +2971,7 @@ translation_segments:
       - 1562
       - 938
     writing_direction: horizontal
-  - speaker: OIL SAGA2 奥伊尔，成长！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h182
@@ -3019,7 +2980,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: OIL SAGA2 オイル、成長！
-    translation: ""
+    translation: "OIL SAGA2 奥伊尔，成长！"
     scan_box:
       - 365
       - 1190
@@ -3154,8 +3115,7 @@ translation_segments:
       - 884
       - 1858
     writing_direction: horizontal
-  - speaker: 总觉得好恩爱……
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h191
@@ -3164,7 +3124,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: なんかラブラブ…
-    translation: ""
+    translation: "总觉得好恩爱……"
     scan_box:
       - 749
       - 1786
@@ -3187,8 +3147,7 @@ translation_segments:
       - 926
       - 1950
     writing_direction: horizontal
-  - speaker: OIL SAGA FINAL 奥伊尔，结婚！！ 彼此被对方吸引的地方是？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h193
@@ -3197,7 +3156,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: OIL SAGA FINAL オイル、結婚！！ お互いがひかれ合ったところは？
-    translation: ""
+    translation: "OIL SAGA FINAL 奥伊尔，结婚！！ 彼此被对方吸引的地方是？"
     scan_box:
       - 1094
       - 981
@@ -3284,8 +3243,7 @@ translation_segments:
       - 1533
       - 1892
     writing_direction: horizontal
-  - speaker: 奥伊尔，永远！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p080_oil_special-h200
@@ -3294,7 +3252,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: オイル、フォーエバー！！
-    translation: ""
+    translation: "奥伊尔，永远！！"
     scan_box:
       - 994
       - 1892
@@ -3329,8 +3287,7 @@ translation_segments:
     review_status: ready
     width: 1584
     height: 2048
-  - speaker: 介绍众多巡护员活动的系列各作地区！《宝可梦巡护员》3部作品舞台的地理
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p081_geography_fiore_almia_oblivia-h204
@@ -3339,7 +3296,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 多くのレンジャーたちが活動するシリーズそれぞれの地方をガイド！『ポケモンレンジャー』3作の舞台の地理
-    translation: ""
+    translation: "介绍众多巡护员活动的系列各作地区！《宝可梦巡护员》3部作品舞台的地理"
     scan_box:
       - 52
       - 25
@@ -3362,8 +3319,7 @@ translation_segments:
       - 596
       - 522
     writing_direction: horizontal
-  - speaker: 第1作 宝可梦巡护员 四座巡护员基地守护四方的菲奥雷地区
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p081_geography_fiore_almia_oblivia-h206
@@ -3372,7 +3328,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1作目 ポケモンレンジャー4つのレンジャーベースが四方を守るフィオレ地方
-    translation: ""
+    translation: "第1作 宝可梦巡护员 四座巡护员基地守护四方的菲奥雷地区"
     scan_box:
       - 805
       - 133
@@ -3523,8 +3479,7 @@ translation_segments:
       - 1239
       - 1145
     writing_direction: horizontal
-  - speaker: 第二作 宝可梦巡护员 巴特那吉 巡护员活动中心地·巡护员联盟所在地阿尔米亚地区
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p081_geography_fiore_almia_oblivia-h216
@@ -3533,7 +3488,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2作目 ポケモンレンジャー バトナージレンジャー活動の中心地・レンジャーユニオンのお膝元アルミア地方
-    translation: ""
+    translation: "第二作 宝可梦巡护员 巴特那吉 巡护员活动中心地·巡护员联盟所在地阿尔米亚地区"
     scan_box:
       - 76
       - 600
@@ -3652,8 +3607,7 @@ translation_segments:
       - 744
       - 1651
     writing_direction: horizontal
-  - speaker: 第3作 宝可梦巡护员 光的轨迹 由若干岛屿构成的南国之地 奥卜利比亚地区
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p081_geography_fiore_almia_oblivia-h224
@@ -3662,7 +3616,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3作目 ポケモンレンジャー 光の軌跡いくつかの島で成り立つ南国の地オブリビア地方
-    translation: ""
+    translation: "第3作 宝可梦巡护员 光的轨迹 由若干岛屿构成的南国之地 奥卜利比亚地区"
     comment: 奥卜利比亚地区为《宝可梦巡护员 光的轨迹》的舞台。
     scan_box:
       - 805
@@ -3734,8 +3688,7 @@ translation_segments:
       - 976
       - 1925
     writing_direction: horizontal
-  - speaker: 顺带一提！与《宝可梦》系列有什么关联？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p081_geography_fiore_almia_oblivia-h229
@@ -3744,7 +3697,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ちなみに！『ポケットモンスター』シリーズとのつながりは？
-    translation: ""
+    translation: "顺带一提！与《宝可梦》系列有什么关联？"
     scan_box:
       - 38
       - 1679
@@ -3795,8 +3748,7 @@ translation_segments:
     review_status: ready
     width: 1605
     height: 2048
-  - speaker: 不断变化的捕获与宝可梦协助！！系列《宝可梦巡护员》系统进化史
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h233
@@ -3805,7 +3757,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "変わりゆくキャプチャ&ポケアシスト!!シリーズ『ポケモンレンジャー』システム進化の歴史"
-    translation: ""
+    translation: "不断变化的捕获与宝可梦协助！！系列《宝可梦巡护员》系统进化史"
     scan_box:
       - 61
       - 41
@@ -3849,8 +3801,7 @@ translation_segments:
       - 835
       - 565
     writing_direction: horizontal
-  - speaker: 宝可梦巡护员 巴特那吉 引入“心情计量条”使系统发生巨大变化
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h235
@@ -3859,7 +3810,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンレンジャー バトナージ「きもちゲージ」導入でシステムが大きく変化
-    translation: ""
+    translation: "宝可梦巡护员 巴特那吉 引入“心情计量条”，系统大幅改变"
     comment: 巴特那吉为《宝可梦巡护员 巴特那吉》的标题。
     scan_box:
       - 1106
@@ -3910,8 +3861,7 @@ translation_segments:
       - 1160
       - 993
     writing_direction: vertical
-  - speaker: "宝可梦巡护员转圈圈围住!!捕获系统诞生"
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h238
@@ -3920,7 +3870,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ポケモンレンジャーぐるぐる囲め!!キャプチャシステム誕生"
-    translation: ""
+    translation: "宝可梦巡护员 转圈圈围住！！捕获系统诞生"
     scan_box:
       - 130
       - 702
@@ -3975,8 +3925,7 @@ translation_segments:
       - 559
       - 1311
     writing_direction: horizontal
-  - speaker: 宝可协助按组别划分
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h241
@@ -3985,7 +3934,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケアシストはグループ別
-    translation: ""
+    translation: "宝可协助按组别划分"
     scan_box:
       - 615
       - 1098
@@ -4040,8 +3989,7 @@ translation_segments:
       - 770
       - 1563
     writing_direction: horizontal
-  - speaker: 一笔画一口气围住
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h245
@@ -4050,7 +3998,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 一筆書きで一気に囲む
-    translation: ""
+    translation: "一笔画一口气围住"
     scan_box:
       - 175
       - 1448
@@ -4105,8 +4053,7 @@ translation_segments:
       - 337
       - 1931
     writing_direction: horizontal
-  - speaker: 在场景中完成目标
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h249
@@ -4115,7 +4062,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: フィールドでターゲットクリア
-    translation: ""
+    translation: "在场景中完成目标"
     scan_box:
       - 603
       - 1585
@@ -4154,8 +4101,7 @@ translation_segments:
       - 1014
       - 1925
     writing_direction: horizontal
-  - speaker: 宝可梦巡护员 光的轨迹 宝可梦协助进化，捕获更有趣
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p082_capture_system_history-h252
@@ -4164,7 +4110,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンレンジャー 光の軌跡ポケアシストの進化でよりキャプチャが楽しく
-    translation: ""
+    translation: "宝可梦巡护员 光的轨迹 宝可梦协助进化，捕获更有趣"
     scan_box:
       - 1106
       - 1085
@@ -4226,8 +4172,7 @@ translation_segments:
     review_status: ready
     width: 1598
     height: 2048
-  - speaker: 从一笔画到心情计量条
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h257
@@ -4236,7 +4181,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 一筆書きからきもちゲージへ
-    translation: ""
+    translation: "从一笔画到心情计量条"
   - speaker: body
     type: paragraph
     kind: text
@@ -4257,8 +4202,7 @@ translation_segments:
     review_status: review
     original: Touch screen←↓ポケモンを囲むと「きもちゲージ」が上昇。中断すると少しずつ減る
     translation: Touch screen←↓围住宝可梦，“心情计量条”上升。中断则会逐渐减少
-  - speaker: 这就是心情计量条
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h260
@@ -4267,7 +4211,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: これがきもちゲージ
-    translation: ""
+    translation: "这就是心情计量条"
   - speaker: caption
     type: paragraph
     kind: text
@@ -4278,8 +4222,7 @@ translation_segments:
     review_status: review
     original: Touch screen満タンでキャプチャ！←ゲージが満タンになればキャプチャ成功！ ポケアシストでもゲージが増える
     translation: 触摸屏蓄满即可捕获！←计量条蓄满就捕获成功！使用宝可梦协助也能增加计量条
-  - speaker: 可以蓄力了
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h262
@@ -4288,7 +4231,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: パワーチャージが可能に
-    translation: ""
+    translation: "可以蓄力了"
   - speaker: body
     type: paragraph
     kind: text
@@ -4319,8 +4262,7 @@ translation_segments:
     review_status: review
     original: Touch screen→そのまま囲めば、きもちゲージのアップ量が通常の2倍になるのだ！
     translation: 触摸屏→就这样围住宝可梦，心情计量条的上升量就是通常的两倍！
-  - speaker: 搭档共17只！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h266
@@ -4329,7 +4271,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: パートナーが全17匹に！
-    translation: ""
+    translation: "搭档共17只！"
   - speaker: body
     type: paragraph
     kind: text
@@ -4351,8 +4293,7 @@ translation_segments:
     review_status: review
     original: Touch screen→一度仲間にしたパートナーは、自由に入れ替えることができるパートナーポケモンに コロボーシをつれていきますか？
     translation: 触摸屏→一旦成为伙伴的搭档，就可以自由更换。要把圆法师带作搭档宝可梦吗？
-  - speaker: 通过任务强化捕猎游标
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h269
@@ -4361,7 +4302,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: クエストでスタイラーを強化
-    translation: ""
+    translation: "通过任务强化捕猎游标"
   - speaker: body
     type: paragraph
     kind: text
@@ -4392,8 +4333,7 @@ translation_segments:
     review_status: review
     original: Touch screen→クエストをクリアすると、スタイラーを強化するパワーアップデータを入手エレクトリックガード：でんきの ダメージを -3する！
     translation: 触摸屏→完成任务后，可获得强化捕猎游标的强化数据。电气防守：使电属性伤害减少3！
-  - speaker: 宝可梦亲自进行宝可协助
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h273
@@ -4402,7 +4342,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン自らがポケアシスト
-    translation: ""
+    translation: "宝可梦亲自进行宝可协助"
   - speaker: body
     type: paragraph
     kind: text
@@ -4412,7 +4352,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 『光の軌跡』では、ポケモン自らが登場して独自のポケアシストを繰り出すという、かなり凝ったものになっている。例えば同じくさタイプのポケモンでも、あるポケモンはタネを連射し、別のポケモンはイバラを生えさせたりと、ポケアシストの出方から効果まで大きく異なる。また、相手の攻撃を受けるまでリリースされないのも大きな変更点だ。
-    translation: 在《光之轨迹》中，宝可梦亲自登场并施展独特的宝可协助，设计相当讲究。例如同样是草属性的宝可梦，有的会连射种子，有的则让荆棘生长出来，从宝可协助的出现方式到效果都大不相同。此外，在受到对手攻击之前不会被释放，也是一大变更点。
+    translation: 在《光的轨迹》中，宝可梦亲自登场并施展独特的宝可协助，设计相当讲究。例如同样是草属性的宝可梦，有的会连射种子，有的则让荆棘生长出来，从宝可协助的出现方式到效果都大不相同。此外，在受到对手攻击之前不会被释放，也是一大变更点。
   - speaker: caption
     type: paragraph
     kind: text
@@ -4433,8 +4373,7 @@ translation_segments:
     review_status: review
     original: Touch screen←攻撃を受けるとリリースされてしまう。相手の動きをよく見よう
     translation: Touch screen←受到攻击就会被释放。要仔细观察对手的动向
-  - speaker: 用巡护员印记来呼叫吧
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h277
@@ -4443,7 +4382,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: レンジャーサインで呼び出そう
-    translation: ""
+    translation: "用巡护员印记来呼叫吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -4474,8 +4413,7 @@ translation_segments:
     review_status: review
     original: Touch screen→呼び出したライコウに乗って移動できる。通常は絶対に届かないようなガケもひとっ飛び！！
     translation: Touch screen→可以骑上呼叫来的雷公移动。平时绝对到不了的悬崖也能一跃而过！！
-  - speaker: 大家一起完成目标！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h281
@@ -4484,7 +4422,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: みんなでターゲットクリア！
-    translation: ""
+    translation: "大家一起完成目标！"
   - speaker: body
     type: paragraph
     kind: text
@@ -4505,8 +4443,7 @@ translation_segments:
     review_status: review
     original: Upper screen←例えばこの場合は、「みず2」が使えるポケモンが同時に4匹必要になる
     translation: Upper screen←例如在这个情况下，需要同时有4只能使出“水2”的宝可梦
-  - speaker: 可以游玩通信协力任务
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p083_ranger_evolution_history-h284
@@ -4515,7 +4452,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 通信協力ミッションが遊べる
-    translation: ""
+    translation: "可以游玩通信协力任务"
   - speaker: body
     type: paragraph
     kind: text

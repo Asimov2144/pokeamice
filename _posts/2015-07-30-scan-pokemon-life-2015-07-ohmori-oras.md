@@ -105,8 +105,7 @@ translation_segments:
     review_status: review
     original: Profile/ 株式会社ゲームフリーク開発本部 開発二部長。『ポケモン ΩR・αS』では、ディレクターとして、ゲームに関わるすべての作業に携わった。
     translation: Profile／GAME FREAK 开发总部 开发二部长。在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中担任总监，参与了与游戏相关的全部工作。
-  - speaker: 分镜稿也首次公开！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg17-h6
@@ -115,9 +114,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "絵コンテも初公開!!"
-    translation: ""
-  - speaker: 重新发现《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的魅力！
-    type: heading
+    translation: "分镜稿也首次公开！！"
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg17-h7
@@ -126,7 +124,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスターオメガルビー・アルファサファイア』の魅力を再発見！
-    translation: ""
+    translation: "重新发现《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的魅力！"
   - speaker: body
     type: paragraph
     kind: text
@@ -157,8 +155,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg18.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.18
     review_status: ready
-  - speaker: 重新发现《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的魅力 ❶
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg18-h11
@@ -167,9 +164,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』の魅力再発見 ❶
-    translation: ""
-  - speaker: 历经12年时光，焕然新生的丰缘地区冒险
-    type: heading
+    translation: "重新发现《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的魅力 ❶"
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg18-h12
@@ -178,7 +174,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 12年の時を経て、生まれ変わったホウエン地方の冒険
-    translation: ""
+    translation: "历经12年时光，焕然新生的丰缘地区冒险"
   - speaker: body
     type: paragraph
     kind: text
@@ -209,8 +205,7 @@ translation_segments:
     review_status: review
     original: 大森 滋氏 COMMENTハルカはスタッフからの人気が高くて、表情がユウキより多いんです（笑）開発チームの中にハルカを好きな人が多くて、力が入っていましたね（笑）。驚く顔や、えへへと照れる顔など、様々な表情や動きを丁寧に創ってくれました。まじめ笑顔びっくり照れ笑いハルカの表情を楽しめるのは、主人公に男の子を選んだ場合。女の子を選ぶと、ユウキの百面相を眺められる。
     translation: 大森滋的评论：小遥在工作人员中人气很高，表情比小悠多（笑）。开发团队里喜欢小遥的人很多，所以做得特别用心（笑）。惊讶的表情、嘿嘿害羞的表情等，各种表情和动作都细致地制作了出来。认真、笑容、吃惊、害羞笑，能欣赏到小遥这些表情的是选择男主角的情况。选择女主角的话，则可以观赏小悠的百变表情。
-  - speaker: scene 2 与朋友相遇
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg18-h16
@@ -219,7 +214,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: scene 2 友だちと出会う
-    translation: ""
+    translation: "scene 2 与朋友相遇"
   - speaker: body
     type: paragraph
     kind: text
@@ -290,8 +285,7 @@ translation_segments:
     review_status: review
     original: これから よろしくね友だちの見た目も大きく変わった。ちなみにハルカが頭に巻いているものがバンダナからリボンに変わっている。
     translation: 今后请多关照。朋友的外观也发生了很大变化。顺带一提，小遥头上戴的东西从头巾变成了缎带。
-  - speaker: scene 1 小田卷博士被追赶
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg18-h24
@@ -300,7 +294,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: scene 1 オダマキ博士、追われる
-    translation: ""
+    translation: "scene 1 小田卷博士被追赶"
   - speaker: body
     type: paragraph
     kind: text
@@ -431,8 +425,7 @@ translation_segments:
     review_status: review
     original: ミツルのパートナーのラルトスも、ミツルの成長に合わせてパワーアップ。メガエルレイドにメガシンカする。
     translation: 满充的伙伴拉鲁拉丝也随着满充的成长而变强。会超级进化为超级艾路雷朵。
-  - speaker: scene 3 起初胆怯的满充逐渐强大地成长
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg19-h38
@@ -441,7 +434,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: scene 3 最初は気弱だったミツルが強く成長していく
-    translation: ""
+    translation: "scene 3 起初胆怯的满充逐渐强大地成长"
   - speaker: body
     type: paragraph
     kind: text
@@ -582,8 +575,7 @@ translation_segments:
     review_status: review
     original: チャンピオンロードへ進むと、ミツルが待ち構えている。その瞳には、強い意志と燃える闘志が宿っていた。
     translation: 前往冠军之路时，满充已在那里等候。他的眼中蕴含着坚定的意志与燃烧的斗志。
-  - speaker: scene 5 熔岩队与海洋队的首领各自讲述自己的野心
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg19-h53
@@ -592,7 +584,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: scene 5 マグマ団・アクア団のリーダーがそれぞれ独自の野望を語る
-    translation: ""
+    translation: "scene 5 熔岩队与海洋队的首领各自讲述自己的野心"
   - speaker: body
     type: paragraph
     kind: text
@@ -612,7 +604,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: モン ΩR・αS』では、団の野望がより明確になっている。マグマ団は陸を広げることで人類の発展を目指すことを、アクア団は海を広げることでポケモンの発展を促すことを目標に掲げているのだ。それぞれの団のリーダーたちも性格の違いが強調され、オリジナルの作品で登場したときとは、姿も話し方も大きく変化している。
-    translation: 梦 ΩR·αS》中，组织的野心变得更加明确。熔岩队以扩张陆地来推动人类发展为目标，海洋队则以扩张海洋来促进宝可梦的发展为目标。各组织的首领性格差异也被着重刻画，与在 original 作品中登场时相比，外貌和说话方式都有很大变化。
+    translation: "梦 ΩR·αS》中，组织的野心变得更加明确。熔岩队以扩张陆地来推动人类发展为目标，海洋队则以扩张海洋来促进宝可梦的发展为目标。各组织的首领性格差异也被着重刻画，与在原作中登场时相比，外貌和说话方式都有很大变化。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -753,8 +745,7 @@ translation_segments:
     review_status: review
     original: 兄貴肌のリーダー、アオギリに率いられたアクア団は、粗野ながらも熱い心を持った者が集まっている。
     translation: 由重情义的领袖水梧桐率领的海洋队，聚集着虽然粗野却怀有热情之心的人。
-  - speaker: scene 4 挑战宝可梦道馆
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg19-h70
@@ -763,7 +754,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: scene 4 ポケモンジムに挑む
-    translation: ""
+    translation: "scene 4 挑战宝可梦道馆"
   - speaker: body
     type: paragraph
     kind: text
@@ -854,8 +845,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg20.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.20
     review_status: ready
-  - speaker: scene 7 在流星瀑布，熔岩队与海洋队对峙
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg20-h80
@@ -864,7 +854,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: scene 7 流星の滝でマグマ団とアクア団が対峙する
-    translation: ""
+    translation: "scene 7 在流星瀑布，熔岩队与海洋队对峙"
   - speaker: body
     type: paragraph
     kind: text
@@ -975,8 +965,7 @@ translation_segments:
     review_status: review
     original: 昔は男性の幹部が登場するシーンだったが、女性幹部のイズミに変更。気っ風のいいお姉さんキャラだ。
     translation: 原本是男性干部登场的场景，现改为女性干部阿泉。是个性格爽快的姐姐型角色。
-  - speaker: scene 6 铁旋没有放弃
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg20-h92
@@ -985,7 +974,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: scene 6 テッセンは諦めなかった
-    translation: ""
+    translation: "scene 6 铁旋没有放弃"
   - speaker: body
     type: paragraph
     kind: text
@@ -1066,8 +1055,7 @@ translation_segments:
     review_status: review
     original: テッセンの依頼で訪れるニューキンセツの鍵も、虹彩認証に変化。最先端のセキュリティが採用されている。
     translation: 受铁旋委托前往的新紫堇的钥匙也变成了虹膜认证。采用了最先进的安保系统。
-  - speaker: scene 8 在天气研究所与熔岩队、海洋队干部对决
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg20-h101
@@ -1076,7 +1064,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: scene 8 天気研究所でマグマ団・アクア団幹部と対決する
-    translation: ""
+    translation: "scene 8 在天气研究所与熔岩队、海洋队干部对决"
   - speaker: body
     type: paragraph
     kind: text
@@ -1267,8 +1255,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg21.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.21
     review_status: ready
-  - speaker: scene 10 与超古代宝可梦固拉多·盖欧卡对决
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg21-h121
@@ -1277,7 +1264,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: scene 10 超古代ポケモンのグラードン・カイオーガと対決する
-    translation: ""
+    translation: "scene 10 与超古代宝可梦固拉多·盖欧卡对决"
   - speaker: body
     type: paragraph
     kind: text
@@ -1348,8 +1335,7 @@ translation_segments:
     review_status: review
     original: αのような文様が浮かぶ青い光が弾けると同時に、ゲンシカイキしたカイオーガが水しぶきを上げて姿を現す。
     translation: 浮现出类似α纹样的蓝光迸裂的同时，完成原始回归的盖欧卡激起水花现身。
-  - speaker: scene 9 与朋友加深情谊
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg21-h129
@@ -1358,7 +1344,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: scene 9 友だちとの仲が深まる
-    translation: ""
+    translation: "scene 9 与朋友加深情谊"
   - speaker: body
     type: paragraph
     kind: text
@@ -1539,8 +1525,7 @@ translation_segments:
     review_status: review
     original: 世界が日照りや大雨に見舞われたとき、敵対する団のリーダーからも、心からの謝罪を受ける。
     translation: 当世界遭遇烈日或大雨时，连敌对团体的首领也会献上发自内心的道歉。
-  - speaker: scene 11 与固拉多·盖欧卡战斗，拯救世界
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg21-h148
@@ -1549,7 +1534,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: scene 11 グラードン・カイオーガと戦い世界を救う
-    translation: ""
+    translation: "scene 11 与固拉多·盖欧卡战斗，拯救世界"
   - speaker: body
     type: paragraph
     kind: text
@@ -1670,8 +1655,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg22.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.22
     review_status: ready
-  - speaker: 固拉多·盖欧卡复活场景
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg22-h161
@@ -1680,9 +1664,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: グラードン・カイオーガ復活シーン
-    translation: ""
-  - speaker: 倾注心血的分镜稿
-    type: heading
+    translation: "固拉多·盖欧卡复活场景"
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg22-h162
@@ -1691,7 +1674,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 入魂の絵コンテ
-    translation: ""
+    translation: "倾注心血的分镜稿"
   - speaker: body
     type: paragraph
     kind: text
@@ -1702,8 +1685,7 @@ translation_segments:
     review_status: review
     original: 本誌だけの特別公開！ 大森滋氏が『ポケモン ΩR・αS』の開発中に、ゲームのハイライトシーン用に描いた秘蔵の絵コンテだ。
     translation: 仅限本杂志的特别公开！这是大森滋在《宝可梦 欧米加红宝石·阿尔法蓝宝石》开发期间，为游戏高潮场景绘制的珍贵分镜稿。
-  - speaker: 【固拉多的觉醒】
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg22-h164
@@ -1712,7 +1694,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 【グラードンの目覚め】
-    translation: ""
+    translation: "【固拉多的觉醒】"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1782,7 +1764,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 僕は、中学生の頃からゲームを作っていたのですが、ゲームには絵が必要なので、絵の練習もしていました。『ポケモン ΩR・αS』では、グラードン・カイオーガの復活や、平和になった後の世界をドラマチックに表現したくて、自分で絵コンテを描きました。『ポ
-    translation: 我从初中时就开始制作游戏，而游戏需要画面，所以我也一直在练习绘画。在《宝可梦 欧米加红宝石·阿尔法蓝宝石》中，我想把固拉多、盖欧卡的复活以及恢复和平后的世界表现得富有戏剧性，于是自己绘制了分镜稿。《宝可
+    translation: "我从初中时就开始制作游戏，而游戏需要画面，所以我也一直在练习绘画。在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中，我想把固拉多、盖欧卡的复活以及恢复和平后的世界表现得富有戏剧性，于是自己绘制了分镜稿。《宝可"
   - speaker: note
     type: paragraph
     kind: text
@@ -1813,8 +1795,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg23.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.23
     review_status: ready
-  - speaker: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》总监、大森滋
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg23-h175
@@ -1823,9 +1804,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』ディレクター、大森 滋氏
-    translation: ""
-  - speaker: 【盖欧卡的觉醒】
-    type: heading
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》总监 大森滋"
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg23-h176
@@ -1834,7 +1814,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 【カイオーガの目覚め】
-    translation: ""
+    translation: "【盖欧卡的觉醒】"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1915,8 +1895,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg24.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.24
     review_status: ready
-  - speaker: 丰缘地区危机平息的场景
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg24-h185
@@ -1925,7 +1904,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ホウエン地方の危機終息シーン
-    translation: ""
+    translation: "丰缘地区危机平息的场景"
   - speaker: body
     type: paragraph
     kind: text
@@ -1936,8 +1915,7 @@ translation_segments:
     review_status: review
     original: 超古代ポケモンの目覚めに続いて公開されたのは、『ポケモン ΩR』ではゲンシグラードンの力で起きた日照りが、『ポケモン αS』ではゲンシカイオーガの力で降った大雨が、終息するシーンだ。
     translation: 继超古代宝可梦觉醒之后公开的，是《宝可梦 欧米伽红宝石》中由原始固拉多的力量引发的日照，以及《宝可梦 阿尔法蓝宝石》中由原始盖欧卡的力量降下的大雨平息的场景。
-  - speaker: 【日照的平息】
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg24-h187
@@ -1946,7 +1924,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 【日照りの終息】
-    translation: ""
+    translation: "【日照的平息】"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2039,8 +2017,7 @@ translation_segments:
     review_status: review
     original: "1"
     translation: ""
-  - speaker: 【大雨的平息】
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg25-h197
@@ -2049,7 +2026,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 【大雨の終息】
-    translation: ""
+    translation: "【大雨的平息】"
   - speaker: body
     type: paragraph
     kind: text
@@ -2342,8 +2319,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/pokemon-life-2015-07-ohmori-oras/pages/Pg26.jpg"
     alt: ポケモンLife 創刊号（2015年7月30日発売） P.26
     review_status: ready
-  - speaker: 重新发现《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的魅力—❷
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg26-h227
@@ -2352,9 +2328,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』の魅力再発見―❷
-    translation: ""
-  - speaker: 想玩透的、《宝可梦 ΩR·αS》新增要素
-    type: heading
+    translation: "重新发现《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的魅力—❷"
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg26-h228
@@ -2363,7 +2338,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 遊び尽くしたい、『ポケモン ΩR・αS』から加わった要素
-    translation: ""
+    translation: "想玩透的、《宝可梦 ΩR·αS》新增要素"
   - speaker: body
     type: paragraph
     kind: text
@@ -2384,8 +2359,7 @@ translation_segments:
     review_status: review
     original: 「ポケモンの背中に乗って空を飛びたいな」「出会った野生のポケモンの情報をつかまえる前に知りたい！」。ポケモン好きなら誰もが一度は夢見ること が、この『ポケモン オメガルビー・アルファサファイア』では叶う！『ポケモン ルビー・サファイア』にはなかった新要素の数々は、遊び込めば遊び込むほど面白さが増すものばかり。すでにゲームをクリアした人も、改めて遊んでみてはいかが？ ちょっと役立つ攻略ネタも見逃さないで！
     translation: “想骑在宝可梦背上在空中飞翔”“想在捕捉之前就知道遇到的野生宝可梦的信息！”。喜欢宝可梦的人大概都梦想过这些，而在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中都能实现！《宝可梦 红宝石·蓝宝石》中没有的众多新要素，都是越深入游玩越有趣的。已经通关游戏的人，也不妨再玩一次？也别忘了看看稍微有点用的攻略情报！
-  - speaker: new element 1 骑乘超级拉帝亚斯、超级拉帝欧斯“自由飞翔”
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg26-h231
@@ -2394,7 +2368,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: new element 1 メガラティアス、メガラティオスに乗って「おおぞらをとぶ」
-    translation: ""
+    translation: "new element 1 骑乘超级拉帝亚斯、超级拉帝欧斯“自由飞翔”"
   - speaker: body
     type: paragraph
     kind: text
@@ -2465,8 +2439,7 @@ translation_segments:
     review_status: review
     original: 超古代ポケモンに乗って移動するシーンでは、人間を凌駕するポケモンのパワーを表現したかったそうだ。
     translation: 据说在骑乘超古代宝可梦移动的场景中，是想表现超越人类的宝可梦的力量。
-  - speaker: 情报 Pickup！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg26-h239
@@ -2475,7 +2448,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "情報 Pickup!"
-    translation: ""
+    translation: "情报 Pickup！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2546,8 +2519,7 @@ translation_segments:
     review_status: review
     original: かくれているポケモンサーチレベルは、野生のポケモンと出会うだけで上がっていく。どんどん出会って、サーチレベルを上げよう。
     translation: 隐藏宝可梦的搜寻等级，只要遇到野生宝可梦就会提升。不断去相遇，提升搜寻等级吧。
-  - speaker: new element 2 捉住只露出身体一部分的宝可梦的「接触」
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg27-h247
@@ -2556,7 +2528,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: new element 2 体の一部を見せているポケモンをつかまえる「ふれあい」
-    translation: ""
+    translation: "new element 2 捉住只露出身体一部分的宝可梦的「接触」"
   - speaker: body
     type: paragraph
     kind: text
@@ -2607,8 +2579,7 @@ translation_segments:
     review_status: review
     original: 同じポケモンと出会い続けると、色違いのポケモンと出会いやすくなる！図鑑ナビの「サーチ」を使って、同じポケモンと連続して出会い続けると、色違いのポケモンとの遭遇率がアップするほか、レベルや能力の高いポケモンとも出会いやすくなるのだ。
     translation: 持续与同一种宝可梦相遇，就更容易遇到异色宝可梦！使用图鉴导航的「搜索」功能，连续与同一种宝可梦相遇，不仅能提高与异色宝可梦的遭遇率，也更容易遇到等级和能力较高的宝可梦。
-  - speaker: new element 3 能打造专属基地与团队的「超级秘密基地」
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg27-h253
@@ -2617,7 +2588,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: new element 3 自分だけの基地と団を作れる「スーパーひみつきち」
-    translation: ""
+    translation: "new element 3 能打造专属基地与团队的「超级秘密基地」"
   - speaker: body
     type: paragraph
     kind: text
@@ -2738,8 +2709,7 @@ translation_segments:
     review_status: review
     original: 天体ショーを楽しんだ後、別れ際に友だちが言うセリフ「また明日な！」には、明日への希望が込められている。
     translation: 享受完天体秀之后，分别时朋友说的那句「明天见！」里，蕴含着对明天的希望。
-  - speaker: new element 4 逼近超级进化之谜「德尔塔篇章」
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: Pg27-h266
@@ -2748,7 +2718,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: new element 4 メガシンカの謎に迫る「エピソード デルタ」
-    translation: ""
+    translation: "new element 4 逼近超级进化之谜「德尔塔篇章」"
   - speaker: body
     type: paragraph
     kind: text

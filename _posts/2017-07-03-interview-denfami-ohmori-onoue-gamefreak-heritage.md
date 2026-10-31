@@ -445,11 +445,11 @@ parallel_items:
 - type: heading
   level: 2
   original: 第2回：学生作品に真剣に向き合う姿勢に感動…入社へ／ギアプロジェクトから生まれた『ギガレッカー』
-  translation: 第2回：被认真面对学生作品的态度所感动…入职／从齿轮企划诞生的《GIGA WRECKER》
+  translation: "第2回：被认真面对学生作品的态度所感动……入职／从齿轮企划诞生的《GIGA WRECKER》"
 - type: heading
   level: 3
   original: 学生作品に真剣に向き合う姿勢に感動…入社へ
-  translation: 被认真面对学生作品的态度所感动…入职
+  translation: "被认真面对学生作品的态度所感动……入职"
 - original: それでは、今度は『ポケモン』から離れて、尾上さんのお話を聞かせていただければと思います。ちなみに、そもそもゲームフリークにはどういう経緯で入られたのですか？
   translation: 那么，接下来请允许我们暂时离开《宝可梦》的话题，听尾上先生聊聊您的经历。顺便问一下，您当初是怎么加入GAME FREAK的呢？
   speaker: 电玩志
@@ -920,7 +920,7 @@ parallel_items:
   speaker: 电玩志
   role: question
 - original: これはゲームを遊ぶ「動機」作りの変化なのだと思っています。
-  translation: 我认为这是玩游戏“动机”的変化。
+  translation: "我认为这是玩游戏“动机”的变化。"
   speaker: 尾上将之
   role: answer
 - type: image

@@ -48,7 +48,7 @@ parallel_items:
   image: /assets/img/interviews/2011-03-04-interview-spong-bw-launch-masuda-sugimori/001.jpg
   alt: 'Interview: Pokemon in Black and White with Junichi Masuda'
 - original: There�s a lot of love in this club. For Pokemon, that is. I�m sat in the middle of a VIP area of a Leicester Square bar about to chat to Game Freak�s Junichi Masuda and Ken Sugimori.
-  translation: 这个俱乐部里充满了爱。对宝可梦的爱。我坐在莱斯特广场一家酒吧的VIP区中央，即将与Game Freak的增田顺一和杉森建交谈。
+  translation: "这个俱乐部里充满了爱。对宝可梦的爱。我坐在莱斯特广场一家酒吧的VIP区中央，即将与GAME FREAK的增田顺一和杉森建交谈。"
   note: 增田顺一和杉森建是Game Freak的核心成员，分别担任宝可梦系列的游戏总监和角色设计。
 - original: A row of DS consoles frame a packed dancefloor full of Nintendo representatives, journalists and lucky competition winners eager to get their hands on Pokemon Black and White early.
   translation: 一排DS主机环绕着挤满人的舞池，里面全是任天堂代表、记者和幸运的竞赛获胜者，他们迫不及待地想提前拿到《宝可梦 黑／白》。
@@ -64,7 +64,7 @@ parallel_items:
 - original: With a development time of around four years, it seems that the team had got the balance right - gone are the extraneous and convoluted things like Poffin making and underground exploration, replaced with a heavier emphasis on adventure and story-based play.
   translation: 开发时间大约四年，团队似乎找到了正确的平衡——制作宝芬和地下探险等多余而复杂的内容消失了，取而代之的是更强调冒险和基于故事的玩法。
 - original: But for all the good work Game Freak has done in cutting the chaff here, is there a danger of things slowly inching back to the confusing and arduous world of mandatory fashion shows to complete your Pokedex? Just as I asked this, a representative for the Pokemon Company said, �I don�t think that�s the point, it�s not that it got too confusing. That�s not the point of Black and White�s existence,� before asking the translator to rephrase my question to a simple �Why did you decide to reboot the franchise?�
-  translation: 但是，尽管Game Freak在删减冗余内容方面做得很好，是否存在一种危险，即事情会慢慢回到为了完成宝可梦图鉴而必须参加时装秀的那种令人困惑和艰巨的世界？就在我问这个问题时，宝可梦公司的一位代表说：“我不认为那是重点，并不是它变得太令人困惑了。那不是《黑／白》存在的意义，”然后要求翻译把我的问题改述为一个简单的“你们为什么决定重启这个系列？”
+  translation: "但是，尽管GAME FREAK在删减冗余内容方面做得很好，是否存在一种危险，即事情会慢慢回到为了完成宝可梦图鉴而必须参加时装秀的那种令人困惑和艰巨的世界？就在我问这个问题时，宝可梦公司的一位代表说：“我不认为那是重点，并不是它变得太令人困惑了。那不是《黑／白》存在的意义，”然后要求翻译把我的问题改述为一个简单的“你们为什么决定重启这个系列？”"
 - original: The translator asked me if this was what I wanted to ask. Um, sure, I guess. Pretty sure I didn�t have much of a choice in the matter.
   translation: 翻译问我这是否是我想问的。嗯，当然，我想是吧。我很确定我在这件事上没什么选择。
 - type: image
@@ -73,7 +73,7 @@ parallel_items:
 - original: Masuda said that the studio�s reasoning for rebooting the franchise was he wanted everybody to begin from the same starting line. �There are kids who have played Diamond and Pearl, and adults who grew up with Red and Blue. When you get these players to battle, some may know more about each other�s weaknesses than others. We wanted everyone to start from scratch and lead a team that they had never experienced before.�
   translation: 增田说，工作室重启这个系列的原因是他希望每个人都从同一条起跑线开始。“有些孩子玩过《钻石／珍珠》，有些成年人是伴随着《红／蓝》长大的。当你让这些玩家对战时，有些人可能比其他人更了解彼此的弱点。我们希望每个人都从零开始，带领一支他们从未体验过的队伍。”
 - original: My thoughts turned to the role of the home console in general when it comes to the Pokemon franchise - Game Freak has always said that the main adventure games will be exclusive to handheld platforms like the Nintendo DS, so how does the Wii fit in on the grand scheme of things? Are games like Pokemon Snap and Battle Revolution the only products fit for the home? Perhaps not...
-  translation: 当谈到宝可梦系列时，我的思绪转向了家用主机的一般角色——Game Freak一直表示，主要的冒险游戏将 exclusive 于任天堂DS等掌机平台，那么Wii在宏大计划中处于什么位置？像《宝可梦随乐拍》和《战斗革命》这样的游戏是唯一适合家用的产品吗？也许不是……
+  translation: "当谈到宝可梦系列时，我的思绪转向了家用主机的一般角色——GAME FREAK一直表示，主要的冒险游戏将 exclusive 于任天堂DS等掌机平台，那么Wii在宏大计划中处于什么位置？像《宝可梦随乐拍》和《战斗革命》这样的游戏是唯一适合家用的产品吗？也许不是……"
 - original: -1- 2   next >>
   translation: -1- 2   下一页 >>
 - type: image
@@ -92,10 +92,10 @@ parallel_items:
   image: /assets/img/interviews/2011-03-04-interview-spong-bw-launch-masuda-sugimori/005.jpg
   alt: 'Interview: Pokemon in Black and White with Junichi Masuda'
 - original: Unfortunately, I wasn�t able to pick the director�s brains about the state of the games industry - with Game Freak rejecting the idea of a Pokemon MMO and the world seeming to gravitate towards social networking, I was curious how he sees games (including Pokemon) evolving over time.
-  translation: 遗憾的是，我未能就游戏行业的现状探询这位总监的想法——在Game Freak否决了宝可梦MMO的想法、而世界似乎正被社交网络吸引之际，我很好奇他如何看待游戏（包括宝可梦）随时间演变。
+  translation: "遗憾的是，我未能就游戏行业的现状探询这位总监的想法——在GAME FREAK否决了宝可梦MMO的想法、而世界似乎正被社交网络吸引之际，我很好奇他如何看待游戏（包括宝可梦）随时间演变。"
   note: MMO指大型多人在线游戏。
 - original: Apparently, �that�s not really a question for Game Freak,� according to the Pokemon Company representative. I was instead encouraged to ask questions that would probably have been better answered in a press release.
-  translation: 据宝可梦公司的代表说，“那其实不是该问Game Freak的问题”。我反而被鼓励去问那些或许更适合在新闻稿中回答的问题。
+  translation: "据宝可梦公司的代表说，“那其实不是该问GAME FREAK的问题”。我反而被鼓励去问那些或许更适合在新闻稿中回答的问题。"
 - original: As a result, I didn�t end up getting much, if any, of Masuda�s enthusiasm throughout the interview. Which is a shame when you have a rare opportunity to speak to a key developer behind one of the world�s best-loved gaming franchises. Sticking to safe answers and towing very heavily to the company line may seem like a good idea for PR and business, but it doesn�t do much to communicate a respected developer�s personality.
   translation: 结果，在整个采访中，我几乎没有感受到增田的任何热情。当你难得有机会与世界上最受喜爱的游戏品牌之一背后的关键开发者交谈时，这实在令人遗憾。坚持安全的回答、严格遵循公司口径，对公关和生意来说或许是个好主意，但这无助于传达一位受人尊敬的开发者的个性。
 - type: image

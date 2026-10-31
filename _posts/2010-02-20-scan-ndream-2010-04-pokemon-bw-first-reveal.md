@@ -93,8 +93,7 @@ translation_segments:
     review_status: ready
     width: 1589
     height: 2048
-  - speaker: 《宝可梦》完全新作 下一个标题是颜色？宝石？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p006_pokemon_bw_announce-h4
@@ -103,7 +102,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスター』完全新作 次のタイトルは色？宝石？
-    translation: ""
+    translation: "《宝可梦》完全新作 下一个标题是颜色？宝石？"
     scan_box:
       - 17
       - 16
@@ -126,8 +125,7 @@ translation_segments:
         - 617
         - 676
     writing_direction: horizontal
-  - speaker: 距《钻石·珍珠》4年之后……2010年始动
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p006_pokemon_bw_announce-h6
@@ -136,7 +134,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『D・P』から4年の時を経て…2010年始
-    translation: ""
+    translation: "距《钻石·珍珠》4年之后……2010年始动"
     scan_box:
       - 1220
       - 682
@@ -262,8 +260,7 @@ translation_segments:
     review_status: ready
     width: 1597
     height: 2048
-  - speaker: 首次公开2只新宝可梦！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p007_zorua_zoroark-h14
@@ -272,7 +269,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "2匹の新ポケモンを初公開!!"
-    translation: ""
+    translation: "首次公开2只新宝可梦！！"
     scan_box:
       - 1262
       - 129
@@ -311,8 +308,7 @@ translation_segments:
       - 355
       - 1147
     writing_direction: horizontal
-  - speaker: 妖狐宝可梦 索罗亚克 属性：恶 特性：？ 身高：1.6m 体重：81.1kg 动！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p007_zorua_zoroark-h17
@@ -321,7 +317,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ばけぎつねポケモンゾロアークタイプ:あくとくせい:?たかさ:1.6mおもさ:81.1kg 動!"
-    translation: ""
+    translation: "妖狐宝可梦 索罗亚克 属性：恶 特性：？ 身高：1.6m 体重：81.1kg 动！"
     scan_box:
       - 674
       - 1255
@@ -431,8 +427,7 @@ translation_segments:
     review_status: ready
     width: 1570
     height: 2048
-  - speaker: Nintendo DREAM独家预测！！逼近《宝可梦》完全新作之谜！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h23
@@ -441,7 +436,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ニンドリ独自予想!!『ポケットモンスター』完全新作の謎に迫る!!"
-    translation: ""
+    translation: "Nintendo DREAM独家预测！！逼近《宝可梦》完全新作之谜！！"
     scan_box:
       - 75
       - 109
@@ -475,8 +470,7 @@ translation_segments:
         - 780
         - 547
     writing_direction: horizontal
-  - speaker: 《完全新作》每3～4年发售一次！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h25
@@ -485,7 +479,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "『完全新作』は3〜4年おきに発売!!"
-    translation: ""
+    translation: "“完全新作”每3～4年发售一次！！"
     scan_box:
       - 85
       - 575
@@ -583,8 +577,7 @@ translation_segments:
       - 490
       - 1812
     writing_direction: horizontal
-  - speaker: 然后到了2010年……全新的《宝可梦》完全新作登场！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h31
@@ -593,15 +586,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "そして2010年…また新たな『ポケットモンスター』完全新作が登場!!"
-    translation: ""
+    translation: "然后到了2010年……全新的《宝可梦》完全新作登场！！"
     scan_box:
       - 85
       - 1827
       - 763
       - 1939
     writing_direction: horizontal
-  - speaker: 疑问 完全新作的标题会是什么？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h32
@@ -610,7 +602,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 完全新作のタイトルはどうなる？
-    translation: ""
+    translation: "疑问 完全新作的标题会是什么？"
     scan_box:
       - 820
       - 291
@@ -665,8 +657,7 @@ translation_segments:
       - 1341
       - 946
     writing_direction: horizontal
-  - speaker: 源自最初成为伙伴的宝可梦的形象——“红·绿”
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h36
@@ -675,7 +666,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 最初に仲間にするポケモンのイメージから『赤・緑』
-    translation: ""
+    translation: "源自最初成为伙伴的宝可梦的形象——《红·绿》"
     scan_box:
       - 826
       - 1092
@@ -698,8 +689,7 @@ translation_segments:
       - 1152
       - 1548
     writing_direction: horizontal
-  - speaker: 源自掌握故事关键的传说的宝可梦——“金·银”“R·S”“D·P”
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h38
@@ -708,7 +698,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 物語のカギを握る伝説のポケモンから『金・銀』『R・S』『D・P』
-    translation: ""
+    translation: "源自掌握故事关键的传说的宝可梦——《金·银》《R·S》《D·P》"
     scan_box:
       - 1184
       - 1092
@@ -731,8 +721,7 @@ translation_segments:
       - 1520
       - 1548
     writing_direction: horizontal
-  - speaker: 疑问 会出现新的“秘传学习器”吗？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p008_bw_mystery-h40
@@ -741,7 +730,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 新しい「ひでんわざ」が出る？
-    translation: ""
+    translation: "疑问 会出现新的“秘传学习器”吗？"
     scan_box:
       - 820
       - 1581
@@ -803,8 +792,7 @@ translation_segments:
     review_status: ready
     width: 1518
     height: 2048
-  - speaker: 《宝可梦》完全新作启动！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h44
@@ -813,15 +801,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "『ポケットモンスター』完全新作始動!"
-    translation: ""
+    translation: "《宝可梦》完全新作启动！"
     scan_box:
       - 1041
       - 16
       - 1515
       - 86
     writing_direction: horizontal
-  - speaker: 疑问 新宝可梦会增加多少只？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h45
@@ -830,15 +817,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 新ポケモンは何匹追加される?
-    translation: ""
+    translation: "疑问 新宝可梦会增加多少只？"
     scan_box:
       - 58
       - 98
       - 688
       - 168
     writing_direction: horizontal
-  - speaker: 预测 大约增加100只，总数达到600只？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h46
@@ -847,7 +833,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 予想 100匹ほど追加され、全600匹に?
-    translation: ""
+    translation: "预测 大约增加100只，总数达到600只？"
     scan_box:
       - 58
       - 176
@@ -897,8 +883,7 @@ translation_segments:
       - 764
       - 639
     writing_direction: horizontal
-  - speaker: 疑问 会出现有新进化的宝可梦吗？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h49
@@ -907,15 +892,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 新たな進化をするポケモンが出る?
-    translation: ""
+    translation: "疑问 会出现有新进化的宝可梦吗？"
     scan_box:
       - 64
       - 651
       - 707
       - 721
     writing_direction: horizontal
-  - speaker: 预测 会出！不如说，请务必出！！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h50
@@ -924,7 +908,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "予想 出る! というか、出てください!!!"
-    translation: ""
+    translation: "预测 会出！不如说，请务必出！！！"
     scan_box:
       - 64
       - 729
@@ -1033,8 +1017,7 @@ translation_segments:
         - 764
         - 1442
     writing_direction: horizontal
-  - speaker: 希望有宝可梦能进化成这样！！！
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h55
@@ -1043,7 +1026,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "こんなポケモンに進化してほしい!!!"
-    translation: ""
+    translation: "希望有宝可梦能进化成这样！！！"
     scan_box:
       - 94
       - 1544
@@ -1131,8 +1114,7 @@ translation_segments:
         - 764
         - 1946
     writing_direction: horizontal
-  - speaker: 疑问 索罗亚克是怎样的宝可梦？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h59
@@ -1141,15 +1123,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 ゾロアークはどんなポケモンなのか?
-    translation: ""
+    translation: "疑问 索罗亚克是怎样的宝可梦？"
     scan_box:
       - 812
       - 98
       - 1491
       - 168
     writing_direction: horizontal
-  - speaker: 预测 似乎不是传说的宝可梦……
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h60
@@ -1158,7 +1139,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 予想 伝説のポケモンではないようだが…
-    translation: ""
+    translation: "预测 似乎不是传说的宝可梦……"
     scan_box:
       - 812
       - 176
@@ -1240,8 +1221,7 @@ translation_segments:
       - 999
       - 1028
     writing_direction: horizontal
-  - speaker: 疑问 能和以往作品的宝可梦交换吗？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h65
@@ -1250,15 +1230,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 これまでの作品とポケモンを交換できる?
-    translation: ""
+    translation: "疑问 能和以往作品的宝可梦交换吗？"
     scan_box:
       - 812
       - 1053
       - 1491
       - 1122
     writing_direction: horizontal
-  - speaker: 预测 应该可以，但或许会有些限制
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h66
@@ -1267,7 +1246,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 予想 できそうだが、少し制限がつくかも
-    translation: ""
+    translation: "预测 应该可以，但或许会有些限制"
     scan_box:
       - 812
       - 1130
@@ -1306,8 +1285,7 @@ translation_segments:
       - 1503
       - 1491
     writing_direction: horizontal
-  - speaker: 疑问 新冒险的舞台会是哪个地区？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h69
@@ -1316,15 +1294,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 疑問 新たな冒険の舞台となる地方は?
-    translation: ""
+    translation: "疑问 新冒险的舞台会是哪个地区？"
     scan_box:
       - 812
       - 1511
       - 1460
       - 1581
     writing_direction: horizontal
-  - speaker: 预测 名字不明，但形状是……
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p009_pokemon_history-h70
@@ -1333,7 +1310,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 予想 名前は不明だが、形は…
-    translation: ""
+    translation: "预测 名字不明，但形状是……"
     scan_box:
       - 812
       - 1589

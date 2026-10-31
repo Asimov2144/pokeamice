@@ -17,7 +17,7 @@ outlet_url: http://assets17.pokemon.com/news/gamefreak_interview.html
 original_lang: en
 era_skin: '2006'
 featured_image: /assets/img/interviews/2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/header.jpg
-description: 2010年《宝可梦 心金／魂银》北美发售之际，Pokémon.com 官方对 GAME FREAK 六位核心领军人物（增田顺一、森本茂树、大森滋、松岛贤二、森彰人、海野隆雄）进行独家深度圆桌专访。六位主创倾囊相授：金银十周年从原点到掌机极致的进化与坚守、全宝可梦跟随系统、喇叭芽之塔抗震摇晃环境音效物理还原、宝可计步器（Pokéwalker）让真实世界成为舞台的创想、宝可全能竞技赛的灵感、以及游戏、动画、剧场版与PTCG卡牌多维生态共鸣的深层哲学。
+description: 2010年《宝可梦 心金／魂银》北美发售之际，Pokémon.com 官方对 GAME FREAK 六位核心领军人物（增田顺一、森本茂树、大森滋、松岛贤二、森昭人、海野隆雄）进行独家深度圆桌专访。六位主创倾囊相授：金银十周年从原点到掌机极致的进化与坚守、全宝可梦跟随系统、喇叭芽之塔抗震摇晃环境音效物理还原、宝可计步器（Pokéwalker）让真实世界成为舞台的创想、宝可全能竞技赛的灵感、以及游戏、动画、剧场版与PTCG卡牌多维生态共鸣的深层哲学。
 parallel_items:
 - type: image
   caption: Pokémon.com 官方特别专题：走入幕后对话 GAME FREAK 的六位宝可梦大师（2010年3月31日）
@@ -74,13 +74,13 @@ parallel_items:
   translation: 大森滋（策划）：《金／银》发售时我还是个学生，当时玩得非常投入。我从没想过自己会参与宝可梦游戏的开发。对我个人而言，这是一个巨大的转变。我至今仍清晰地记得玩那些游戏时的情景，这也激励我竭尽全力，为未来的玩家打造一款更好的游戏。
   role: answer
 - type: image
-  caption: 森彰人（Akito Mori，主程序·音效主管 / Programming Lead）
+  caption: 森昭人（Akito Mori，主程序·音效主管 / Programming Lead）
   original_caption: Akito Mori, Programming Lead
   image: /assets/img/interviews/2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/mori.jpg
-  alt: 森彰人（Akito Mori，主程序·音效主管 / Programming Lead）
-- speaker: 森彰人
+  alt: 森昭人（Akito Mori，主程序·音效主管 / Programming Lead）
+- speaker: 森昭人
   original: 'Akito Mori, Programming Lead : Most players will know that one thing that has changed is that the number of Pokémon has doubled— as a result, the data sizes have increased as well. This means we that need to make sure that one new idea is not going to affect any other Pokémon data. But one thing that has never changed is that we are a group of "Game Freaks," just like our company name says.'
-  translation: 森彰人（主程序）：大多数玩家都知道，有一个变化就是宝可梦的数量翻了一倍——因此，数据量也随之增加了。这意味着我们必须确保某一个新点子不会影响到其他任何宝可梦的数据。但有一件事从未改变，那就是我们是一群“游戏狂人”，正如我们公司的名字所说的那样。
+  translation: 森昭人（主程序）：大多数玩家都知道，有一个变化就是宝可梦的数量翻了一倍——因此，数据量也随之增加了。这意味着我们必须确保某一个新点子不会影响到其他任何宝可梦的数据。但有一件事从未改变，那就是我们是一群“游戏狂人”，正如我们公司的名字所说的那样。
   role: answer
 - type: image
   caption: 海野隆雄（Takao Unno，艺术总监 / Art Director）
@@ -127,9 +127,9 @@ parallel_items:
   original: 'Matsushima : The Pokémon world is unique because of the liveliness of the Pokémon. And in HeartGold and SoulSilver , you can walk with Pokémon. I encourage players to try to walk with a wide variety of Pokémon. Travel around so you can meet the main characters, such as the Gym Leaders who appear in different parts of the regions. And there are various events in which you’ll earn their friendship.'
   translation: 松岛贤二：宝可梦世界的独特之处在于宝可梦们的鲜活生命力。而在《宝可梦 心金／魂银》中，你可以与宝可梦一起行走。我希望玩家们能尝试与各种各样的宝可梦结伴同行。四处旅行，去邂逅那些主要角色吧，比如出现在各个地区不同地方的道馆馆主们。此外还有各种活动，你能从中获得它们的友谊。
   role: answer
-- speaker: 森彰人
+- speaker: 森昭人
   original: 'Mori : I was in charge of "environmental sounds" for the new games. So, I highly recommend players listen to the sound of the swinging columns of Sprout Tower. In earthquake-prone Japan, using very flexible materials to support buildings is very common, and I think I was able to express that sound in a very realistic way.'
-  translation: 森彰人：我负责新作中的“环境音效”。因此，我强烈推荐玩家们听一听喇叭芽之塔中柱子摇晃的声音。在地震多发的日本，使用非常柔韧的材料来支撑建筑是很常见的，我觉得我成功地将那种声音表现得非常逼真。
+  translation: 森昭人：我负责新作中的“环境音效”。因此，我强烈推荐玩家们听一听喇叭芽之塔中柱子摇晃的声音。在地震多发的日本，使用非常柔韧的材料来支撑建筑是很常见的，我觉得我成功地将那种声音表现得非常逼真。
   role: answer
 - speaker: 大森滋
   original: 'Ohmori : Definitely the new facility called the Pokéathlon Dome. This didn’t exist in Gold and Silver , and players can enjoy new and different gameplay styles with your Pokémon there. Hopefully players will try it with all of their different Pokémon.'
@@ -159,9 +159,9 @@ parallel_items:
   original: 'Unno : Or how about a fishing competition at the Lake of Rage? Who would catch a biggest Magikarp in the time limit? That would be fun!'
   translation: 或者在愤怒之湖办一场钓鱼比赛怎么样？看谁能在限定时间内钓到最大的鲤鱼王？那一定很有趣！
   role: answer
-- speaker: 森彰人
+- speaker: 森昭人
   original: 'Mori : And battling at the Pokémon League with your Lv.50 Pokémon without auto-healing between rounds. You could see how long it takes to get to the end. On second thought, that may not be a very good competition. ( laughs )'
-  translation: 森彰人：而且在宝可梦联盟对战，你的宝可梦是50级，每轮之间还不能自动回复。你能看出打到最终需要多长时间。不过再想想，这可能算不上什么好的比赛。（笑）
+  translation: 森昭人：而且在宝可梦联盟对战，你的宝可梦是50级，每轮之间还不能自动回复。你能看出打到最终需要多长时间。不过再想想，这可能算不上什么好的比赛。（笑）
   role: answer
 - speaker: Pokemon.com
   original: You work on the Pokémon video games. Do you also take time to catch up on the TV episodes and play the TCG? How do they reflect what you do during game development?
@@ -183,9 +183,9 @@ parallel_items:
   original: 'Ohmori : The Pokémon TV shows and the Pokémon Trading Card Game appeal to audiences differently than video games do. I am particularly interested in how they influence the Pokémon world. For instance, depending on the media, different Pokémon are more popular. Those differences make the Pokémon world both broader and deeper. So, I like to consider new gameplay using communication tools that closely connect these media.'
   translation: 宝可梦电视动画和宝可梦集换式卡牌游戏吸引受众的方式与电子游戏不同。我尤其感兴趣的是它们如何影响宝可梦世界。比如说，根据不同媒体，受欢迎的宝可梦也会有所不同。这些差异让宝可梦世界既更广阔也更深入。因此，我喜欢思考如何利用能将这些媒体紧密联结起来的沟通工具来打造新的玩法。
   role: answer
-- speaker: 森彰人
+- speaker: 森昭人
   original: 'Mori : It is difficult to watch all the episodes, but I still like to watch them one by one. I appreciate the fact that Pokémon are described so vividly in the show; eventually, we would like to express its vividness in the video games. And I’ve played the Pokémon Trading Card Game, but I can’t win at all!'
-  translation: 森彰人：虽然要看完所有集数很难，但我还是喜欢一集一集地看。我很感激动画里把宝可梦描绘得如此生动；最终，我们也希望在电子游戏中表现出这种生动感。还有，我玩过宝可梦集换式卡牌游戏，但我完全赢不了！
+  translation: 森昭人：虽然要看完所有集数很难，但我还是喜欢一集一集地看。我很感激动画里把宝可梦描绘得如此生动；最终，我们也希望在电子游戏中表现出这种生动感。还有，我玩过宝可梦集换式卡牌游戏，但我完全赢不了！
   role: answer
 - speaker: 海野隆雄
   original: 'Unno : Of course, I enjoy both! I feel like I can relate to our players by experiencing the games myself. It makes it possible for me to see things differently and to develop new gameplay. On the other hand, I work on the game design often wishing that it could be applied to the animation or the TCG.'
@@ -195,7 +195,7 @@ parallel_items:
   original: Thanks to the developers at GAME FREAK, inc. for giving their time to give us an in-depth look at Pokémon HeartGold and SoulSilver Versions! For more information on the games, visit www.pokemongoldsilver.com !
   translation: 感谢 GAME FREAK, inc. 的开发者们拨冗为我们深入介绍《宝可梦 心金／魂银》！欲了解更多游戏资讯，请访问 www.pokemongoldsilver.com ！
   role: question
-interviewee: Pokemon.com, 增田顺一, 大森滋, 松岛贤二, 森彰人, 森本茂树, 海野隆雄
+interviewee: Pokemon.com, 增田顺一, 大森滋, 松岛贤二, 森昭人, 森本茂树, 海野隆雄
 source:
   title: Go Behind the Scenes with the Pokémon Masters at GAME FREAK, inc.!
   url: https://web.archive.org/web/20120211023721/http://www.pokemon.com/us/pokemon-news/vg_hgss_interview-2010-03-31/
@@ -205,11 +205,11 @@ entities:
   - "森本茂树"
   - "松岛贤二"
   - "大森滋"
-  - "森彰人"
+  - "森昭人"
   - "海野隆雄"
   works:
   - 宝可梦 心金·魂银
-summary: "2010 年，Pokemon.com 与 GAME FREAK 六位开发者增田顺一、森本茂树、松岛贤二、大森滋、森彰人、海野隆雄围绕《宝可梦 心金／魂银》进行圆桌访谈。他们谈到距《宝可梦 金／银》发售十年间硬件进步带来的画面、音效与数据量变化，宝可梦数量翻倍，开发历时近三年、约二十人参与。访谈还涉及宝可计步器、宝可全能竞技赛、缘朱市与铃铛小道等地点、环境音效，以及动画和集换式卡牌游戏对游戏开发的启发。"
+summary: "2010 年，Pokemon.com 与 GAME FREAK 六位开发者增田顺一、森本茂树、松岛贤二、大森滋、森昭人、海野隆雄围绕《宝可梦 心金／魂银》进行圆桌访谈。他们谈到距《宝可梦 金／银》发售十年间硬件进步带来的画面、音效与数据量变化，宝可梦数量翻倍，开发历时近三年、约二十人参与。访谈还涉及宝可计步器、宝可全能竞技赛、缘朱市与铃铛小道等地点、环境音效，以及动画和集换式卡牌游戏对游戏开发的启发。"
 dek: "GAME FREAK 六位主创谈《宝可梦 心金／魂银》开发幕后。"
 topics:
 - "海外媒体专访"
@@ -224,7 +224,7 @@ mentions:
   - "森本茂树"
   - "松岛贤二"
   - "大森滋"
-  - "森彰人"
+  - "森昭人"
   - "海野隆雄"
   works:
   - "宝可梦 金·银"

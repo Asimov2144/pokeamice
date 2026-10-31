@@ -4186,7 +4186,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 彼の部屋は玩具に埋もれ…
-    translation: 他的房间被玩具淹没…
+    translation: "他的房间被玩具淹没……"
     scan_box:
       - 105
       - 1604
@@ -4235,7 +4235,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: そして…Nは今どこに
-    translation: 而如今…N身在何处
+    translation: "而如今……N身在何处"
     scan_box:
       - 987
       - 1694

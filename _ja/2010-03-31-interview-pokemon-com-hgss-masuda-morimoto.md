@@ -33,7 +33,7 @@ speaker_zh:
   増田順一: 增田顺一
   森本茂樹: 森本茂树
   松島賢二: 松岛贤二
-  森昭人: 森彰人
+  森昭人: 森昭人
 parallel_items:
 - type: image
   caption: Pokemon.com公式特集：ゲームフリークの6人のポケモンマスターたちの舞台裏に迫る（2010年3月31日）

@@ -166,7 +166,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "新たな伝説のポケモンを入手!"
-    translation: "获得新的传说宝可梦!"
+    translation: "获得新的传说宝可梦！"
     scan_box:
       - 935
       - 1409

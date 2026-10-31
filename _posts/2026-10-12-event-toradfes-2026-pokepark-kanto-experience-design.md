@@ -119,7 +119,7 @@ parallel_items:
   alt: 小暮 菜月
   caption: 小暮菜月（虎ノ門広告祭 2026 登壇者照片）
 - original: チーフアートディレクター ／クリエイティブディレクター　博報堂　クリエイティブ局
-  translation: 首席艺术总监／创意总监　博报堂 创意局
+  translation: "首席美术总监／创意总监　博报堂 创意局"
   speaker: 小暮菜月
   speaker_orig: プロフィール
   role: answer

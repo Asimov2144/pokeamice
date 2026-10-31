@@ -55,7 +55,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: Bueno… nosotros es la primera vez que hacemos algo parecido. Es cierto que ha habido varios problemas y que es difícil impedir las filtraciones. Pero de esta forma la gente se divierte más que si el juego sale sólo en Japón y los demás fans ven que la gente en Japón lo está jugando mientras ellos tienen que esperar… Además, en esos casos, la historia entera se cuenta, hay quien lo puede conseguir por Internet…. no es lo mismo que unos detalles de una filtración. Ahora bien, el que algo pueda disfrutarse a nivel mundial nos parece mucho más importante que el que haya habido filtraciones puntuales.
-  translation: 嗯…对我们来说，这是首次尝试类似的做法。确实遇到了一些问题，完全阻止泄露很困难。但这样一来，比起游戏仅在日本发售，其他地区的粉丝只能看着日本玩家先玩，自己却要等待，大家这样更能享受乐趣…此外，在那种情况下，整个故事都会被剧透，有人可能通过网络就能获取…这与仅仅泄露一些细节是不同的。然而，我们认为能够让全世界同时享受游戏，远比偶尔发生的泄露重要得多。
+  translation: "嗯……对我们来说，这是首次尝试类似的做法。确实遇到了一些问题，完全阻止泄露很困难。但这样一来，比起游戏仅在日本发售，其他地区的粉丝只能看着日本玩家先玩，自己却要等待，大家这样更能享受乐趣…此外，在那种情况下，整个故事都会被剧透，有人可能通过网络就能获取…这与仅仅泄露一些细节是不同的。然而，我们认为能够让全世界同时享受游戏，远比偶尔发生的泄露重要得多。"
   role: answer
 - type: dialogue
   speaker: Hobby Consolas

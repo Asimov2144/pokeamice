@@ -568,7 +568,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: ウンノタカオ
-    translation: ウンノタカオ
+    translation: "海野隆雄"
     scan_box:
       - 576
       - 1745

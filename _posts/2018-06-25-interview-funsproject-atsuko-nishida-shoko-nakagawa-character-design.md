@@ -294,7 +294,7 @@ parallel_items:
   role: question
 - type: paragraph
   original: ネタ探しで外出することはあまりなくて、大抵は家の中にあるものからひらめくことが多いです。例えばドレディアは、家でユリの花を見ているときに思いついたんですよ。
-  translation: あつこ（以下、にしだ）我很少为了找灵感而外出，大多是从家里的东西中获得灵感的。比如罗丝雷朵，就是我在家里看着百合花时想到的。
+  translation: "我很少为了找灵感而出门，大多是从家里的东西得到灵感。比如裙儿小姐，就是我在家里看着百合花时想到的。"
   speaker: 西田敦子
   role: answer
 - type: paragraph

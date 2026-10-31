@@ -233,7 +233,7 @@ parallel_items:
 - original: Oh yes! The most difficult thing about adding a new type of Pokémon is that it completely changes the balance of Pokémon battles. We have a team over at Game Freak that focuses solely on getting this balance right, so when adding fairy type they were looking at each individual Pokémon and thinking of all the different combinations of moves in battle and how the balance of the fight would change because of that. They even hosted internal competitions at Game Freak to battle amongst each other and check that everything was perfect! [laughs] Getting that balance right was really important, but also very difficult.
   role: answer
   speaker: 增田顺一
-  translation: 哦，是的！加入一种新属性宝可梦最困难的地方在于，它会彻底改变宝可梦对战的平衡。我们在Game Freak有一个专门负责把这种平衡做好的团队，所以在加入妖精属性时，他们逐一查看每一只宝可梦，思考对战中各种不同的招式组合，以及这会如何改变对战的平衡。他们甚至在Game Freak内部举办比赛，互相切磋，检查一切是否完美！[笑]把平衡做好非常重要，但也非常困难。
+  translation: "哦，是的！加入一种新属性宝可梦最困难的地方在于，它会彻底改变宝可梦对战的平衡。我们在GAME FREAK有一个专门负责把这种平衡做好的团队，所以在加入妖精属性时，他们逐一查看每一只宝可梦，思考对战中各种不同的招式组合，以及这会如何改变对战的平衡。他们甚至在GAME FREAK内部举办比赛，互相切磋，检查一切是否完美！[笑]把平衡做好非常重要，但也非常困难。"
 - original: The most difficult thing about adding a new type of Pokémon is that it completely changes the balance of Pokémon battles.
   role: answer
   speaker: 增田顺一
@@ -256,7 +256,7 @@ parallel_items:
 - original: Mewtwo is a Pokémon for which GameFreak has a special fondness. We came up with Mega Mewtwo X and Y because we thought that by having a two different types of Mewtwo, Pokémon battles would become more strategic and at the same time it would encourage trading. We think it will create a nice surprise to the fans.
   role: answer
   speaker: 增田顺一
-  translation: 超梦是Game Freak特别喜爱的一只宝可梦。我们想出超级超梦X和Y，是因为我们认为，拥有两种不同类型的超梦会让宝可梦对战变得更有策略性，同时也能促进交换。我们认为这会给粉丝带来一个不错的惊喜。
+  translation: "超梦是GAME FREAK特别喜爱的一只宝可梦。我们想出超级超梦X和Y，是因为我们认为，拥有两种不同类型的超梦会让宝可梦对战变得更有策略性，同时也能促进交换。我们认为这会给粉丝带来一个不错的惊喜。"
 - original: We noticed when playing Pokémon X and Y that older Pokémon from previous generations are everywhere in the Kalos region, and pop up as often as newer Pokémon. What influenced the decision to give the player one of the original Pokémon Red and Green starters as well as Kalos starter Pokémon? Are you looking to entice fans of the original games who may not have tried the newer Pokémon titles?
   role: question
   speaker: Nintendo Life

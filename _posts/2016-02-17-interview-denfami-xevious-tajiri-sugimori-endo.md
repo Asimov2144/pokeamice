@@ -1183,7 +1183,7 @@ parallel_items:
   caption: ''
 - type: heading
   original: 今明かされるゼビウス星の真相…！
-  translation: 第9节：此刻揭晓的铁板阵星球惊天真相…！
+  translation: "第9节：此刻揭晓的铁板阵星球惊天真相……！"
 - type: dialogue
   speaker: 电玩志
   original: そろそろ時間なのですが、やはり田尻さんと遠藤さんがお会いしたとなると、最後に「ゼビウス星」の真相についても聞かなければいけないかな……と。

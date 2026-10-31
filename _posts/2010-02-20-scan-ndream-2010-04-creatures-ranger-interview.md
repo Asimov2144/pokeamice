@@ -1,7 +1,7 @@
 ---
 archive_type: scan_translation
 layout: interview-editorial
-title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光之轨迹》
+title: Nintendo DREAM 2010：Creatures谈《宝可梦巡护员 光的轨迹》
 display_title: 直击Creatures：宝可梦巡护员全解
 title_ja: クリーチャーズ直撃取材！！ALL ABOUT Pokémon Ranger
 date: 2010-02-20
@@ -12,7 +12,7 @@ categories:
 tags:
   - 访谈
   - Nintendo DREAM
-  - 宝可梦巡护员 光之轨迹
+  - 宝可梦巡护员 光的轨迹
   - 入江胜义
   - 鸟居廉功
   - 五十岚宽
@@ -30,8 +30,8 @@ issue: 2010年4月号（Vol.192）
 publisher: 毎日コミュニケーションズ
 interviewee: 入江胜义、鸟居廉功、五十岚宽、渔康智、一同
 interviewer: Nintendo DREAM 編集部
-dek: Creatures四人谈《宝可梦巡护员 光之轨迹》的画圈捕获与通信协力
-summary: 《Nintendo DREAM》2010年4月号刊载Creatures四位开发者入江胜义、鸟居廉功、五十岚宽、渔康智的访谈，围绕《宝可梦巡护员》系列第三作《光之轨迹》（2010年3月6日发售）展开。访谈回顾2006年初代《宝可梦巡护员》以触控笔画圈捕获宝可梦的诞生经过，以及2008年《巴特那吉》对捕获系统与内容量的改良；介绍新作将搭档固定为尤克里里皮丘、舞台改为南方群岛奥布利比亚地区、新增巡护员标记与通信协力任务、石板与同步捕获、联合捕获等要素，并说明代欧奇希斯、玛纳霏、席多蓝恩、谢米四个联动特别任务。
+dek: Creatures四人谈《宝可梦巡护员 光的轨迹》的画圈捕获与通信协力
+summary: 《Nintendo DREAM》2010年4月号刊载Creatures四位开发者入江胜义、鸟居廉功、五十岚宽、渔康智的访谈，围绕《宝可梦巡护员》系列第三作《光的轨迹》（2010年3月6日发售）展开。访谈回顾2006年初代《宝可梦巡护员》以触控笔画圈捕获宝可梦的诞生经过，以及2008年《巴特那吉》对捕获系统与内容量的改良；介绍新作将搭档固定为尤克里里皮丘、舞台改为南方群岛奥布利比亚地区、新增巡护员标记与通信协力任务、石板与同步捕获、联合捕获等要素，并说明代欧奇希斯、玛纳霏、席多蓝恩、谢米四个联动特别任务。
 source_pages: P.69–P.75（7 页；2048px 页图）
 source:
   title: クリーチャーズ直撃取材！！ALL ABOUT Pokémon Ranger
@@ -78,8 +78,7 @@ translation_segments:
     review_status: ready
     width: 1591
     height: 2048
-  - speaker: "直击采访Creatures!!大回转企划15页大回转企划"
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p069_ranger_special_title-h2
@@ -88,7 +87,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ちょくげきしゅざいクリーチャーズ直撃取材!!だいかいてんきかく15ページ大回転企画"
-    translation: ""
+    translation: "直击采访 Creatures！！15页大型企划"
     scan_box:
       - 29
       - 41
@@ -127,8 +126,7 @@ translation_segments:
       - 503
       - 913
     writing_direction: horizontal
-  - speaker: ALL ABOUT Pokémon Ranger 关于宝可梦巡护员的一切
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p069_ranger_special_title-h5
@@ -137,7 +135,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ALL ABOUTPokémonRangerオールアバウトポケモンレンジャー
-    translation: ""
+    translation: "ALL ABOUT Pokémon Ranger 关于宝可梦巡护员的一切"
     scan_box:
       - 22
       - 891
@@ -153,7 +151,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "ポケモンレンジャー光の軌跡2010.3.6 Capture On!!"
-    translation: "宝可梦巡护员 光之轨迹 2010.3.6 Capture On!!"
+    translation: "宝可梦巡护员 光的轨迹 2010.3.6 Capture On!!"
     scan_box:
       - 958
       - 1364
@@ -169,15 +167,14 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: 『ポケモンレンジャー』シリーズの3作目となる『光の軌跡』が、3月6日に発売される。『ポケットモンスター』シリーズと一部の設定を共有しつつ、独自のゲーム性や世界観を生み出してきた本シリーズ。その知られざる魅力を、開発者インタビューを交えてたっぷりとお伝えしよう！
-    translation: 《宝可梦巡护员》系列第三作《光之轨迹》将于3月6日发售。本系列与《宝可梦》系列共享部分设定，同时孕育出独特的游戏性与世界观。我们将通过开发者访谈，为大家充分介绍其不为人知的魅力！
+    translation: 《宝可梦巡护员》系列第三作《光的轨迹》将于3月6日发售。本系列与《宝可梦》系列共享部分设定，同时孕育出独特的游戏性与世界观。我们将通过开发者访谈，为大家充分介绍其不为人知的魅力！
     scan_box:
       - 121
       - 1679
       - 792
       - 1931
     writing_direction: horizontal
-  - speaker: 目录
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p069_ranger_special_title-h8
@@ -186,7 +183,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: Contents
-    translation: ""
+    translation: "目录"
     scan_box:
       - 850
       - 1647
@@ -221,8 +218,7 @@ translation_segments:
     review_status: ready
     width: 1562
     height: 2048
-  - speaker: 宝可梦巡护员
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p070_creatures_interview_p1-h11
@@ -231,7 +227,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: Ｐｏｋéｍｏｎ Ｒａｎｇｅｒ
-    translation: ""
+    translation: "宝可梦巡护员"
     scan_box:
       - 50
       - 4
@@ -366,8 +362,7 @@ translation_segments:
       - 1381
       - 987
     writing_direction: horizontal
-  - speaker: 《宝可梦巡护员》系列为何要「围住」宝可梦
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p070_creatures_interview_p1-h20
@@ -376,7 +371,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモンレンジャー』シリーズは、なぜポケモンを「囲む」のか
-    translation: ""
+    translation: "《宝可梦巡护员》系列为何要「围住」宝可梦"
     scan_box:
       - 351
       - 1077
@@ -566,8 +561,7 @@ translation_segments:
     review_status: ready
     width: 1583
     height: 2048
-  - speaker: 《宝可梦巡护员》系列开发人员讲述
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p071_creatures_interview_p2-h31
@@ -576,15 +570,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモンレンジャー』シリーズ開発スタッフが語る
-    translation: ""
+    translation: "《宝可梦巡护员》系列开发人员讲述"
     scan_box:
       - 0
       - 12
       - 1548
       - 88
     writing_direction: horizontal
-  - speaker: 最新作《光的轨迹》与新系统，以及尤克里里皮丘的秘密……！！系列的轨迹《巡护员》诞生背后的故事与画圈的理由即将揭晓……！？
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p071_creatures_interview_p2-h32
@@ -593,7 +586,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "最新作『光の軌跡』と新システムやウクレレピチューのヒミツが…!!シリーズの軌跡『レンジャー』誕生の裏側や囲む理由が明らかに…!?"
-    translation: ""
+    translation: "最新作《光的轨迹》与新系统、尤克里里皮丘的秘密……！！系列的轨迹：《巡护员》诞生的幕后与“围住”的理由即将揭晓"
     scan_box:
       - 17
       - 109
@@ -630,15 +623,14 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "『ポケモンレンジャー』シリーズを開発してきた「クリーチャーズ」の4人に、最新作『光の軌跡』にいたるまでを存分に語っていただきました! ニンドリでしか読めないヒミツも満載です!!"
-    translation: "我们请开发《宝可梦巡护员》系列的Creatures四位成员，畅谈了直到最新作《光之轨迹》为止的历程！还满载只有Nintendo DREAM才能读到的秘密！！"
+    translation: "我们请开发《宝可梦巡护员》系列的Creatures四位成员，畅谈了直到最新作《光的轨迹》为止的历程！还满载只有Nintendo DREAM才能读到的秘密！！"
     scan_box:
       - 66
       - 782
       - 1521
       - 860
     writing_direction: horizontal
-  - speaker: 从第1作《宝可梦巡护员》到第2作《巴特那吉》的巨大进化
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p071_creatures_interview_p2-h34
@@ -647,7 +639,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1作目『ポケモンレンジャー』から2作目『バトナージ』への大きな進化
-    translation: ""
+    translation: "从第1作《宝可梦巡护员》到第2作《巴特那吉》的巨大进化"
     scan_box:
       - 70
       - 926
@@ -938,8 +930,7 @@ translation_segments:
     review_status: ready
     width: 1598
     height: 2048
-  - speaker: 关于宝可梦巡护员
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p072_creatures_interview_p3-h53
@@ -948,15 +939,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: About Pokémon Ranger
-    translation: ""
+    translation: "关于宝可梦巡护员"
     scan_box:
       - 284
       - 0
       - 1524
       - 47
     writing_direction: horizontal
-  - speaker: Creatures 风格孕育出的《宝可梦巡护员》世界
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p072_creatures_interview_p3-h54
@@ -965,7 +955,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: クリーチャーズらしさが生んだ『ポケモンレンジャー』の世界
-    translation: ""
+    translation: "Creatures 风格孕育出的《宝可梦巡护员》世界"
     scan_box:
       - 403
       - 74
@@ -1384,8 +1374,7 @@ translation_segments:
       - 932
       - 1022
     writing_direction: vertical
-  - speaker: 《宝可梦巡护员》系列中可爱的反派们
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p072_creatures_interview_p3-h80
@@ -1394,7 +1383,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモンレンジャー』シリーズの愛すべき悪役たち
-    translation: ""
+    translation: "《宝可梦巡护员》系列中可爱的反派们"
     scan_box:
       - 75
       - 1090
@@ -1442,7 +1431,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: そうです、そうです（笑）。あと『バトナージ』の3幹部とか、あと『光の軌跡』でいうと、現状で公開されてるレッドアイもなかなかいい味出てますよね。こういう悪役へのこだわりなどもあるのでしょうか？
-    translation: 对，对（笑）。还有《巴特纳吉》的3个干部，另外就《光之轨迹》来说，目前已经公开的赤眼也相当有味道呢。对这类反派是否也有讲究呢？
+    translation: 对，对（笑）。还有《巴特纳吉》的3个干部，另外就《光的轨迹》来说，目前已经公开的赤眼也相当有味道呢。对这类反派是否也有讲究呢？
     scan_box:
       - 75
       - 1276
@@ -1666,7 +1655,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: ↑『バトナージ』からシリーズに参加。『光の軌跡』ではディレクターとして、開発の中心的な役割を担う
-    translation: ↑从《巴特那吉》开始参与本系列。在《光之轨迹》中作为总监，承担开发的核心角色
+    translation: ↑从《巴特那吉》开始参与本系列。在《光的轨迹》中作为总监，承担开发的核心角色
     scan_box:
       - 1194
       - 1300
@@ -1797,8 +1786,7 @@ translation_segments:
     review_status: ready
     width: 1604
     height: 2048
-  - speaker: 员工访谈 关于宝可梦巡护员的一切
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p073_creatures_interview_p4-h106
@@ -1807,15 +1795,14 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: t a f f   I n t e r v i e w   ALL ABOUT Pokémon Ranger
-    translation: ""
+    translation: "员工访谈 关于宝可梦巡护员的一切"
     scan_box:
       - 32
       - 0
       - 1561
       - 57
     writing_direction: horizontal
-  - speaker: 可爱的搭档「尤克里里皮丘」与南方岛屿
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p073_creatures_interview_p4-h107
@@ -1824,7 +1811,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: かわいいパートナー「ウクレレピチュー」と南の島
-    translation: ""
+    translation: "可爱的搭档「尤克里里皮丘」与南方岛屿"
     scan_box:
       - 77
       - 74
@@ -2214,7 +2201,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ウクレレピチュー↑「光の軌跡」で主人公のパートナーとなるポケモン。ウクレレがポイント！
-    translation: 尤克里里皮丘↑在「光之轨迹」中成为主角搭档的宝可梦。尤克里里是重点！
+    translation: 尤克里里皮丘↑在「光的轨迹」中成为主角搭档的宝可梦。尤克里里是重点！
     scan_box:
       - 1187
       - 1143
@@ -2264,8 +2251,7 @@ translation_segments:
         - 1519
         - 569
     writing_direction: horizontal
-  - speaker: 追求便利性、令人惊叹的新功能「巡护员标记」
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p073_creatures_interview_p4-h133
@@ -2274,7 +2260,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 便利さを追求した、驚きの新機能「レンジャーサイン」
-    translation: ""
+    translation: "追求便利性、令人惊叹的新功能「巡护员标记」"
     scan_box:
       - 444
       - 1245
@@ -2535,8 +2521,7 @@ translation_segments:
       - 1541
       - 51
     writing_direction: horizontal
-  - speaker: 发生巨大变化的“宝可协助”与宝可梦们的个性
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p074_creatures_interview_p5-h148
@@ -2545,7 +2530,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 大きく変わった『ポケアシスト』とポケモンたちの個性
-    translation: ""
+    translation: "发生巨大变化的“宝可协助”与宝可梦们的个性"
     scan_box:
       - 77
       - 70
@@ -2879,8 +2864,7 @@ translation_segments:
       - 419
       - 1034
     writing_direction: horizontal
-  - speaker: 通过通信协力任务进一步扩展的《宝可梦巡护员》世界
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p074_creatures_interview_p5-h168
@@ -2889,7 +2873,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 通信協力ミッションでさらに広がる『ポケモンレンジャー』の世界
-    translation: ""
+    translation: "通过通信协力任务进一步扩展的《宝可梦巡护员》世界"
     scan_box:
       - 74
       - 1090
@@ -3230,8 +3214,7 @@ translation_segments:
         - 1566
         - 57
     writing_direction: horizontal
-  - speaker: 石板与联合捕获等仅限通信的新要素
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p075_creatures_interview_p6-h188
@@ -3240,7 +3223,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 石版やコンバインキャプチャなど、通信だけの新要素
-    translation: ""
+    translation: "石板与联合捕获等仅限通信的新要素"
     scan_box:
       - 69
       - 78
@@ -3589,8 +3572,7 @@ translation_segments:
       - 1554
       - 127
     writing_direction: horizontal
-  - speaker: 与《宝可梦》系列联动的特别任务
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p075_creatures_interview_p6-h209
@@ -3599,7 +3581,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスター』シリーズとも連動するスペシャルミッション
-    translation: ""
+    translation: "与《宝可梦》系列联动的特别任务"
     scan_box:
       - 69
       - 864
@@ -3857,8 +3839,7 @@ translation_segments:
       - 1496
       - 1970
     writing_direction: horizontal
-  - speaker: 4人给读者的话
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p075_creatures_interview_p6-h225
@@ -3867,7 +3848,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 4人から読者のみんなへのメッセージ
-    translation: ""
+    translation: "4人给读者的话"
     scan_box:
       - 102
       - 1786

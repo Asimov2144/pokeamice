@@ -32,7 +32,7 @@ people_ja:
 - 松島賢二
 - 森昭人
 speaker_zh:
-  森昭人: 森彰人
+  森昭人: 森昭人
   森本茂樹: 森本茂树
   松島賢二: 松岛贤二
 parallel_items:

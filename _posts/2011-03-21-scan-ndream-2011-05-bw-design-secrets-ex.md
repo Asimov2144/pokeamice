@@ -2578,7 +2578,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: "ニンドリの名物といえば、読者参加のキャラ人気投票!! ポケモン誕生秘話の締めくくりとして、イッシュ地方のポケモン152+1の人気投票を開催します!"
-    translation: "Nintendo DREAM的招牌企划，就是读者参与的角色人气投票!! 作为宝可梦诞生秘话的收尾，我们将举办合众地区宝可梦152+1的人气投票!"
+    translation: "Nintendo DREAM的招牌企划，就是读者参与的角色人气投票！！ 作为宝可梦诞生秘话的收尾，我们将举办合众地区宝可梦152+1的人气投票!"
     scan_box:
       - 64
       - 1595

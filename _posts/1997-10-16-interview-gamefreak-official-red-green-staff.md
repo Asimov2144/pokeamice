@@ -913,7 +913,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: 國府田マリ子。
-  translation: 國府田マリ子。
+  translation: "国府田麻理子。"
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）

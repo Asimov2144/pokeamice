@@ -71,7 +71,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/001.jpg
   alt: Early Concept Art
 - original: In 1989, two events happened that were important for the development of Pokémon. First off, Nintendo released the Game Boy. 5 days later, future Pokémon developers Satoshi Tajiri and Ken Sugimori turned Game Freak, their self-published gaming fanzine, into a video game company.
-  translation: 1989年发生了两件对宝可梦开发至关重要的事。首先，任天堂推出了Game Boy。5天后，未来的宝可梦开发者田尻智和杉森建将他们自行出版的游戏同人志Game Freak变成了一家电子游戏公司。
+  translation: "1989年发生了两件对宝可梦开发至关重要的事。首先，任天堂推出了Game Boy。5天后，未来的宝可梦开发者田尻智和杉森建将他们自行出版的游戏同人志GAME FREAK变成了一家电子游戏公司。"
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/002.jpg
   alt: Early Concept Art
@@ -94,7 +94,7 @@ parallel_items:
   original: Capsule Monsters
   translation: 胶囊怪兽
 - original: 'So, just what did that original project proposal for Pokémon look like? In 2009, a book was released in Japan that provided us with a glimpse. Known as Satoshi Tajiri: The Man who Created Pokémon (ISBN: 4840127751), it covered the development history of a number of Game Freak games, including the early Pokémon titles.'
-  translation: '那么，宝可梦最初的那份项目企划书到底是什么样的呢？2009年，日本出版了一本书，让我们得以一窥究竟。这本书名为《田尻智：创造宝可梦的男人》（ISBN: 4840127751），书中涵盖了许多Game Freak游戏的开发历史，包括早期的宝可梦作品。'
+  translation: "那么，宝可梦最初的那份项目企划书到底是什么样的呢？2009年，日本出版了一本书，让我们得以一窥究竟。这本书名为《田尻智：创造宝可梦的男人》（ISBN: 4840127751），书中涵盖了许多GAME FREAK游戏的开发历史，包括早期的宝可梦作品。"
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/005.jpg
   alt: Early Concept Art
@@ -487,9 +487,9 @@ parallel_items:
 - original: Game Freak’s modus operandi is that we add ideas and break things down. For example, at one point we took out the health gauge during battles and tried using phrases like “That hurt,” and “That really hurt,” instead. That didn’t turn out to be very interesting, though, and we went back to using the meters.
   role: answer
   speaker: 增田顺一
-  translation: Game Freak的工作方式是，我们添加想法并分解它们。例如，我们曾一度在战斗中移除生命值槽，并尝试使用“好痛”和“真的好痛”之类的短语。不过，那结果并不十分有趣，于是我们又重新使用了计量槽。
+  translation: "GAME FREAK的工作方式是，我们添加想法并分解它们。例如，我们曾一度在战斗中移除生命值槽，并尝试使用“好痛”和“真的好痛”之类的短语。不过，那结果并不十分有趣，于是我们又重新使用了计量槽。"
 - original: Goriraimo may well be a reference to APE Inc., which was a company run by Shigesato Itoi’s until 1995, when it turned into Creatures Inc.. The latter shares ownership of the copyright to the Pokémon franchise with Nintendo and Game Freak.
-  translation: Goriraimo很可能是指APE Inc.，这是一家由糸井重里经营的公司，直到1995年转变为Creatures Inc.。后者与任天堂和Game Freak共同拥有宝可梦系列的版权。
+  translation: "Goriraimo很可能是指APE Inc.，这是一家由糸井重里经营的公司，直到1995年转变为Creatures Inc.。后者与任天堂和GAME FREAK共同拥有宝可梦系列的版权。"
   note: 糸井重里是日本作家、游戏设计师，曾创立APE Inc.。
 - type: heading
   level: 2
@@ -547,7 +547,7 @@ parallel_items:
   original: Sprites
   translation: 精灵图
 - original: The following pictures were gathered from Gamefreak’s official website in Dec. 1997. The authors of our magazine jumped to conclusions, exclaiming “Could these be some of the new creatures appearing in Pokémon 2 [Pokémon Gold & Silver]?!” (Sorry about that!)
-  translation: 以下图片收集自Game Freak于1997年12月的官方网站。我们杂志的作者们草率地下结论，惊呼“这些会不会是《宝可梦2》[《宝可梦 金·银》]中登场的新生物？！”（对此我们深表歉意！）
+  translation: "以下图片收集自GAME FREAK于1997年12月的官方网站。我们杂志的作者们草率地下结论，惊呼“这些会不会是《宝可梦2》[《宝可梦 金·银》]中登场的新生物？！”（对此我们深表歉意！）"
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/046.jpg
   alt: Early Concept Art

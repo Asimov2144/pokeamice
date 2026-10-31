@@ -52,7 +52,7 @@ parallel_items:
 - original: It is one of the best-selling game franchises, a Nintendo behemoth with truly global appeal. And yet we know so little about where the Pokemon games come from.
   translation: 它是最畅销的游戏系列之一，一个真正具有全球吸引力的任天堂巨兽。然而我们对宝可梦游戏的来源却知之甚少。
 - original: They come from Japan, of course, but, more specifically, they come from a Japanese game developer called GameFreak – somewhat appropriately named given the fanaticism the Pokemon series commands from its loyal fanbase. But what makes the secretive independent developer tick? How does it go about making Pokemon feel fresh version after version? And how does it come up with all those crazy Pokemon names? Here, in a rare interview, Pokemon director Junichi Masuda and graphic designer Mana Ibe reveal all.
-  translation: 它们当然来自日本，但更具体地说，它们来自一家名为GameFreak的日本游戏开发商——考虑到宝可梦系列从其忠实粉丝群体中引发的狂热，这个名字倒也颇为贴切。但这家神秘的独立开发商究竟靠什么运转？它如何让宝可梦在一个又一个版本中保持新鲜感？它又是怎么想出那些疯狂的宝可梦名字的？在这里，宝可梦总监增田顺一和平面设计师伊部麻奈在一篇难得的采访中揭示了一切。
+  translation: "它们当然来自日本，但更具体地说，它们来自一家名为GAME FREAK的日本游戏开发商——考虑到宝可梦系列从其忠实粉丝群体中引发的狂热，这个名字倒也颇为贴切。但这家神秘的独立开发商究竟靠什么运转？它如何让宝可梦在一个又一个版本中保持新鲜感？它又是怎么想出那些疯狂的宝可梦名字的？在这里，宝可梦总监增田顺一和平面设计师伊部麻奈在一篇难得的采访中揭示了一切。"
   note: GameFreak是宝可梦系列游戏的开发公司，总部位于东京。
 - original: How do you keep the Pokemon games fresh and relevant in the rapidly changing videogame market?
   role: question

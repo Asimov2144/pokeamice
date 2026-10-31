@@ -107,8 +107,7 @@ translation_segments:
       - 1095
       - 330
     writing_direction: horizontal
-  - speaker: 为宝可梦设定画注入生命的Creatures 不止于资产制作的现状与未来
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p003_creatures_p76-h5
@@ -117,7 +116,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンの設定画に命を吹き込むクリーチャーズアセット制作にとどまらない現状と未来とは
-    translation: ""
+    translation: "为宝可梦设定画注入生命的 Creatures：不止于资产制作的现状与未来"
     scan_box:
       - 210
       - 385
@@ -188,8 +187,7 @@ translation_segments:
       - 1430
       - 1182
     writing_direction: horizontal
-  - speaker: 为世界屈指可数的宝可梦注入生命的公司
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p003_creatures_p76-h10
@@ -198,7 +196,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 世界で有数のポケモンに命を宿す会社
-    translation: ""
+    translation: "为世界屈指可数的宝可梦注入生命的公司"
     scan_box:
       - 633
       - 1262
@@ -276,8 +274,7 @@ translation_segments:
     review_status: ready
     width: 1558
     height: 2048
-  - speaker: 为2D画作赋予真实感，并以自己的解读进行3D化
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p004_creatures_p77-h15
@@ -286,7 +283,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 2Dの絵にリアリティを付与し自分なりの解釈で3D化
-    translation: ""
+    translation: "为2D画作赋予真实感，并以自己的解读进行3D化"
   - speaker: body
     type: paragraph
     kind: text
@@ -307,8 +304,7 @@ translation_segments:
     review_status: review
     original: 中廣健吾 氏デジタル開発本部／ポケモンCGスタジオモデリングチームマネージャーシニアアーティスト
     translation: 中广健吾 氏 数字开发本部／宝可梦CG工作室 建模团队经理 高级美术师
-  - speaker: 为全世界喜爱的角色注入生命的工作
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p004_creatures_p77-h18
@@ -317,7 +313,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 世界中で愛されるキャラに命を吹き込む仕事
-    translation: ""
+    translation: "为全世界喜爱的角色注入生命的工作"
   - speaker: body
     type: paragraph
     kind: text
@@ -407,8 +403,7 @@ translation_segments:
       - 1097
       - 332
     writing_direction: horizontal
-  - speaker: 仍未忘记独立精神的GAME FREAK 能够“埋头”制作游戏的环境是什么
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p005_gamefreak_p78-h27
@@ -417,7 +412,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: いまだインディ魂を忘れないゲームフリークゲームづくりに“没頭”できる環境とは
-    translation: ""
+    translation: "仍未忘记独立精神的 GAME FREAK：能“埋头”做游戏的环境是怎样的"
     scan_box:
       - 280
       - 389
@@ -456,8 +451,7 @@ translation_segments:
       - 827
       - 657
     writing_direction: horizontal
-  - speaker: 至今仍在持续挑战的游戏业界传说级存在
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p005_gamefreak_p78-h30
@@ -466,7 +460,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 今もなお挑戦を続けるゲーム業界の伝説的存在
-    translation: ""
+    translation: "至今仍在持续挑战的游戏业界传说级存在"
     scan_box:
       - 633
       - 1260
@@ -528,8 +522,7 @@ translation_segments:
     review_status: ready
     width: 1558
     height: 2048
-  - speaker: 宝可梦系列开发所带来的东西
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p006_gamefreak_p79-h34
@@ -538,7 +531,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンシリーズ開発がもたらすもの
-    translation: ""
+    translation: "宝可梦系列开发所带来的东西"
     scan_box:
       - 464
       - 248
@@ -572,8 +565,7 @@ translation_segments:
         - 1407
         - 567
     writing_direction: horizontal
-  - speaker: 齿轮项目制度
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p006_gamefreak_p79-h36
@@ -582,7 +574,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ギアプロジェクト制度
-    translation: ""
+    translation: "齿轮项目制度"
     scan_box:
       - 170
       - 690

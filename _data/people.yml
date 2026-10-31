@@ -1723,19 +1723,19 @@
   avatar: /assets/img/people/jinnai-hiroyuki.jpg
   avatar_source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
   credits_key: hiroyuki jinnai
-- name: 森彰人
+- name: 森昭人
   slug: sen-zhang-ren
   credits_key: akito mori
   aliases:
-  - 森昭人
+  - 森彰人
   - Akito Mori
   portraits:
   - image: /assets/img/people/sen-zhang-ren-2010.jpg
     year: 2010
-    source: Pokemon.com 2010-03-31 HGSS 开发者访谈 森彰人（Programming Lead）
+    source: Pokemon.com 2010-03-31 HGSS 开发者访谈 森昭人（Programming Lead）
     post: 2010-03-31-interview-pokemon-com-hgss-masuda-morimoto
   avatar: /assets/img/people/sen-zhang-ren.jpg
-  avatar_source: Pokemon.com 2010-03-31 HGSS 开发者访谈 森彰人（Programming Lead）
+  avatar_source: Pokemon.com 2010-03-31 HGSS 开发者访谈 森昭人（Programming Lead）
 - name: 诸月纱保子
   slug: zhu-yue-sha-bao-zi
 - name: 大日向俊

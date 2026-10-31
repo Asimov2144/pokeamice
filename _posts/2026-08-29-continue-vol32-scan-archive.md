@@ -115,8 +115,7 @@ translation_segments:
     original: キャー！ 興奮と歓喜の声が飛び交う！『ポケットモンスター』の生みの親と『ポケットモンスター』に人生を変えられた少女がついにめぐり合う！ ドキドキのファン対談が実現。『ポケモン』の聖地である下北沢で、ふたりの会話はどこまでも広がる！ はたして、ふたりのたどり着いた先はどこ？
     translation: 哇！兴奋与欢喜的呼声此起彼伏！《宝可梦》的创造者与因《宝可梦》而改变人生的少女终于相遇！令人心跳加速的粉丝对谈得以实现。在《宝可梦》的圣地下北泽，两人的对话无边无际地展开！那么，两人最终抵达的地方是哪里？
     comment: 下北泽是东京的一个街区，此处被称为《宝可梦》的圣地。
-  - speaker: 田尻智×中川翔子特别对谈
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p101_dialogue_p01-h6
@@ -125,7 +124,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: TAJIRI SATOSHINAKAGAWA SHOKOスペシャル対談
-    translation: ""
+    translation: "田尻智×中川翔子特别对谈"
   - speaker: 田尻智
     type: paragraph
     kind: text
@@ -146,8 +145,7 @@ translation_segments:
     review_status: review
     original: 文＝志田英邦　写真＝石原敦志
     translation: 文＝志田英邦　摄影＝石原敦志
-  - speaker: 用「圣灰」让大家恢复元气就是我的工作
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p101_dialogue_p01-h9
@@ -156,7 +154,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「せいなるはい」でみんなの元気を取り戻すのが仕事
-    translation: ""
+    translation: "用「圣灰」让大家恢复元气就是我的工作"
   - speaker: ──
     type: paragraph
     kind: text
@@ -377,8 +375,7 @@ translation_segments:
     review_status: review
     original: すばらしいよねえ！
     translation: 太棒了！
-  - speaker: 要么做完，要么死。以完美为目标的《宝可梦》
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p102_dialogue_p02-h32
@@ -387,7 +384,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: できあがるか、死ぬか。完璧を目指した『ポケモン』
-    translation: ""
+    translation: "要么做完，要么死。以完美为目标的《宝可梦》"
   - speaker: ──
     type: paragraph
     kind: text
@@ -518,8 +515,7 @@ translation_segments:
     review_status: review
     original: 当時は「できあがるか、死ぬか」の状態でしたから。『ポケモン』がパーフェクトな出来にならなかったら、今後ゲームを作っていても未来はない、と思っていました。半年、発売日を延期して、様々な人にご迷惑をおかけしたけれど、その結果、完璧に近いかたちのゲームになったんですよ。
     translation: 当时是「要么做成，要么去死」的状态。我想，如果《宝可梦》没能做到完美，那以后就算继续做游戏也不会有未来。虽然延期半年发售给许多人添了麻烦，但结果，它变成了一款接近完美的游戏。
-  - speaker: 因为有《宝可梦 绿》，我的人生才改变了
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p103_dialogue_p03-h46
@@ -528,7 +524,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスター緑』があったから私の人生は変わったんですよ
-    translation: ""
+    translation: "因为有《宝可梦 绿》，我的人生才改变了"
   - speaker: 中川翔子
     type: paragraph
     kind: text
@@ -681,8 +677,7 @@ translation_segments:
     review_status: review
     original: ポケモンの後姿の違いが、良かったですよ。とくにオニドリルの後姿がかわいくて、かわいくて！ サンダーの後姿はギザギザしていて、自分がポケモンといっしょにいるようで。
     translation: 宝可梦背影的差异，真的很棒。尤其是大嘴雀的背影，可爱得不得了！闪电鸟的背影棱角分明，让人感觉自己正和宝可梦在一起。
-  - speaker: 我见到那位先生时，一句话都不会听漏
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p105_dialogue_p04-h62
@@ -691,7 +686,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 僕はあの方とお会いすると言葉ひとつ聞き漏らさない
-    translation: ""
+    translation: "我见到那位先生时，一句话都不会听漏"
   - speaker: ──
     type: paragraph
     kind: text
@@ -922,8 +917,7 @@ translation_segments:
     review_status: review
     original: すごい！
     translation: 好厉害！
-  - speaker: 作为少年故事的真实感引发了共鸣
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p106_dialogue_p05-h86
@@ -932,7 +926,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 少年の物語としてのリアリティが共感を呼んだ
-    translation: ""
+    translation: "作为少年故事的真实感引发了共鸣"
   - speaker: 中川翔子
     type: paragraph
     kind: text
@@ -1103,8 +1097,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol32-tajiri-shokotan/pages/p108_dialogue_p07.jpg"
     alt: CONTINUE Vol.32（2007年2月） P.108
     review_status: ready
-  - speaker: 那种从心底涌起的战栗感，我第一次在《宝可梦》中体验到
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p108_dialogue_p07-h104
@@ -1113,7 +1106,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 心の底からゾクゾクする感覚を、『ポケモン』で初めて体験した
-    translation: ""
+    translation: "那种从心底涌起的战栗感，我第一次在《宝可梦》中体验到"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1658,8 +1651,7 @@ translation_segments:
     review_status: review
     original: （爆笑）
     translation: （爆笑）
-  - speaker: 不仅是招式和进化，使用道具的战斗也深奥
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p111_dialogue_p10-h159
@@ -1668,7 +1660,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: わざと進化だけじゃなくどうぐを使う戦闘の奥深さ
-    translation: ""
+    translation: "不仅是招式和进化，使用道具的战斗也深奥"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1688,7 +1680,7 @@ translation_segments:
     scan_page: 12
     review_status: review
     original: 戦闘で、ポケモンにどうぐを持たせていると、ポケモンの振舞い方が変わることがあります。それにチャレンジして欲しいな。たとえば、好きなポケモンにお気に入りのどうぐを持たせるという遊び方ですね。大量発生で捕まえたカモネギは「ながねぎ」を持っていないんですけど、『ファイアレッド・リーフグリーン』で捕まえたカモネギは「ながねぎ」を持っている。それで「ながねぎ」を手に入れて、『ダイヤモンド・パール』でつかまえた、一番好きなカモネギに「ながねぎ」を持たせる。そうやって、カモネギを育てていくと、愛着が沸いてくるんです。たとえば、「きあいのタスキ」を持たせておくと、ダメージを食らったポケモンのＨＰが１で踏みとどまる。そこで１ターン反撃ができるわけ。その１ターンの重みっていうのは、すごく大きいんですよ。そういう風に、わざと進化だけじゃなくて、どうぐという可能性をさらに追求すると、より奥深い戦闘ができます。
-    translation: 在战斗中，让宝可梦携带道具，宝可梦的行为方式有时会改变。希望你去挑战一下。比如，给自己喜欢的宝可梦携带中意的道具这种玩法。大量出现时抓到的的大葱鸭没有携带“大葱”，但在《火红·叶绿》里抓到的大葱鸭携带了“大葱”。于是得到“大葱”，让在《钻石·珍珠》里抓到的、最喜欢的大葱鸭携带“大葱”。这样培育大葱鸭，就会产生感情。比如，让它携带“气势披带”，受到伤害的宝可梦HP会以1点撑住。于是就能反击1回合。这1回合的分量是非常大的。像这样，不仅是招式和进化，进一步追求道具的可能性，就能进行更深奥的战斗。
+    translation: "在战斗中，让宝可梦携带道具，宝可梦的行为方式有时会改变。希望你去挑战一下。比如，给自己喜欢的宝可梦携带中意的道具这种玩法。大量出现时抓到的大葱鸭没有携带“大葱”，但在《火红·叶绿》里抓到的大葱鸭携带了“大葱”。于是得到“大葱”，让在《钻石·珍珠》里抓到的、最喜欢的大葱鸭携带“大葱”。这样培育大葱鸭，就会产生感情。比如，让它携带“气势披带”，受到伤害的宝可梦HP会以1点撑住。于是就能反击1回合。这1回合的分量是非常大的。像这样，不仅是招式和进化，进一步追求道具的可能性，就能进行更深奥的战斗。"
   - speaker: 中川翔子
     type: paragraph
     kind: text
@@ -1779,8 +1771,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol32-tajiri-shokotan/pages/p032_back_cover.jpg"
     alt: CONTINUE Vol.32（2007年2月） P.32
     review_status: ready
-  - speaker: 附录：同期攻略与资料页
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p112_quiz_and_shimokitazawa_walk-supplement
@@ -1789,7 +1780,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -1943,8 +1934,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/continue-vol32-tajiri-shokotan/pages/p113_gamefreak_chronicle_column.jpg"
     alt: CONTINUE Vol.32（2007年2月） P.113
     review_status: ready
-  - speaker: 游戏杂志编年史
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p113_gamefreak_chronicle_column-h187
@@ -1953,7 +1943,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゲーム雑誌クロニクル
-    translation: ""
+    translation: "游戏杂志编年史"
   - speaker: THE VIDEOGAME MAGAZINES CHRONICLE
     type: heading
     kind: text
@@ -1965,8 +1955,7 @@ translation_segments:
     review_status: review
     original: THE VIDEOGAME MAGAZINES CHRONICLE
     translation: ""
-  - speaker: 新连载 第1回《GAMEST》篇（前篇）
-    type: heading
+  - type: heading
     kind: text
     region_type: heading
     region_id: p113_gamefreak_chronicle_column-h189
@@ -1975,7 +1964,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新連載 第1回『ゲーメスト』編（前編）
-    translation: ""
+    translation: "新连载 第1回《GAMEST》篇（前篇）"
     comment: 《GAMEST》是日本过去的街机游戏杂志。
 original_title: スペシャル対談 田尻智×中川翔子
 topics:

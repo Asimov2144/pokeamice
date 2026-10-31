@@ -1836,7 +1836,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: リオルキッド『ひー！ 怖い！』
-    translation: 利欧路小子“咿—！好可怕！”
+    translation: "利欧路小子“咿——！好可怕！”"
   - type: heading
     kind: text
     region_type: heading
