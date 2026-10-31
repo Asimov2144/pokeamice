@@ -31,20 +31,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2026 · interview_translation · ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-za-lumiose-rendering-deck/">CEDEC 2026：GAME FREAK 讲《Pokémon LEGENDS Z-A》密阿雷市渲染与绑定技术</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2026 · interview_translation · 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-cedec-pokerig/">电Fami Nico Gamer 2026：GAME FREAK谈《宝可梦传说 Z-A》密阿雷市渲染技术</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2026 · interview_translation · ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-battle-system-deck/">CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）</a></h3>
+  <p>2026 · interview_translation · ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-za-lumiose-rendering-deck/">CEDEC 2026：GAME FREAK 讲《Pokémon LEGENDS Z-A》密阿雷市渲染与绑定技术</a></h3>
   <span></span>
 </article>
 
@@ -57,6 +51,12 @@ search: false
 <article class="resource-network-card">
   <p>2026 · interview_translation · 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-za-kubernetes-windows-containers/">CEDEC 2026：《宝可梦传说 Z-A》Kubernetes×Windows 容器 CI/CD 构建实例（GAME FREAK 髙山玲央名）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2026 · interview_translation · ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-battle-system-deck/">CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）</a></h3>
   <span></span>
 </article>
 

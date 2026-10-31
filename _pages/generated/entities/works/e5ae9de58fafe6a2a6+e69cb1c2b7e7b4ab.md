@@ -37,8 +37,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · MESSAGE</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-message-ohmori/">GAME FREAK 开发负责人寄语（2024，大森滋）：持续创造超越以往系列作品的新玩法</a></h3>
+  <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
+  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
   <span></span>
 </article>
 
@@ -49,14 +49,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/">GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）</a></h3>
+  <p>2024 · interview_translation · MESSAGE</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-message-ohmori/">GAME FREAK 开发负责人寄语（2024，大森滋）：持续创造超越以往系列作品的新玩法</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2024 · interview_translation · システムプログラマ対談｜採用情報</p>
-  <h3><a href="/interviews/gamefreak-recruit/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
+  <p>2024 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/">GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）</a></h3>
   <span></span>
 </article>
 

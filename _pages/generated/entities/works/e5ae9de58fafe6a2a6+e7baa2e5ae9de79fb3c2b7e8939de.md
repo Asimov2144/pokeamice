@@ -235,14 +235,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／対戦＆「ひみつきち」体験！ 株式会社ポケモン潜入取材｜Nintendo Online Magazine 2002年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report/">N.O.M 2002年：宝可梦公司潜入采访 对战与秘密基地体验</a></h3>
+  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）｜Nintendo Online Magazine 2002年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-staff-messages/">N.O.M 2002年：增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）｜Nintendo Online Magazine 2002年11月号</p>
-  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-staff-messages/">N.O.M 2002年：增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》</a></h3>
+  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／対戦＆「ひみつきち」体験！ 株式会社ポケモン潜入取材｜Nintendo Online Magazine 2002年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report/">N.O.M 2002年：宝可梦公司潜入采访 对战与秘密基地体验</a></h3>
   <span></span>
 </article>
 

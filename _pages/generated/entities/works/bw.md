@@ -25,12 +25,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）</a></h3>
   <span></span>
@@ -45,6 +39,12 @@ search: false
 <article class="resource-network-card">
   <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第2回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）</a></h3>
   <span></span>
 </article>
 

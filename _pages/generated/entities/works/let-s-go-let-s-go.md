@@ -20,6 +20,12 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pl-my/">GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/">GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&amp;D 前沿技术追求（Y.I.）</a></h3>
   <span></span>
 </article>
@@ -31,26 +37,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pl-my/">GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
   <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
+  <p>2019 · interview_translation · Pokemon Sword &amp; Shield interview: &quot;we have no regrets&quot; around the national dex</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/">VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · Pokemon Sword &amp; Shield interview: &quot;we have no regrets&quot; around the national dex</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/">VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议</a></h3>
+  <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
   <span></span>
 </article>
 

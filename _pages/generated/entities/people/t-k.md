@@ -25,14 +25,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · 新卒プログラマ対談｜採用情報</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-programmer/">GAME FREAK 官方对谈 新人程序员篇：不是「只是实现」，而是「解决问题」（T.K. × R.H.）</a></h3>
+  <p>2021 · interview_translation · Game Freak 採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-ta-tk/">GAME FREAK 官方技术美术（TA）特写 T.K.：敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · Game Freak 採用情報</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-ta-tk/">GAME FREAK 官方技术美术（TA）特写 T.K.：敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道</a></h3>
+  <p>2021 · interview_translation · 新卒プログラマ対談｜採用情報</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-new-programmer/">GAME FREAK 官方对谈 新人程序员篇：不是「只是实现」，而是「解决问题」（T.K. × R.H.）</a></h3>
   <span></span>
 </article>
 

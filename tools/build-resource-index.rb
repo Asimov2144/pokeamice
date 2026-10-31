@@ -315,21 +315,40 @@ Dir.glob(File.join(POSTS_DIR, "*.md")).sort.each do |path|
   end
 end
 
+# sort_by isn't stable and breaks ties differently on Linux and Windows, so every key ends in the url / id
+# (unique in each list, see unique_push): same-date cards then come out in the same order on any machine
 ENTITY_TYPES.keys.each do |type|
   index["entities"][type].each_value do |entity|
     entity["years"].sort!.reverse!
-    entity["posts"].sort_by! { |post| post["date"].to_s }.reverse!
-    entity["annotations"].sort_by! { |annotation| [annotation["year"].to_s, annotation["post_title"].to_s] }.reverse!
+    entity["posts"].sort_by! { |post| [post["date"].to_s, post["url"].to_s] }.reverse!
+    entity["annotations"].sort_by! { |annotation| [annotation["year"].to_s, annotation["post_title"].to_s, annotation["id"].to_s] }.reverse!
   end
 end
 
 index["timeline"].each_value do |year|
-  year["posts"].sort_by! { |post| post["date"].to_s }.reverse!
-  year["annotations"].sort_by! { |annotation| [annotation["date"].to_s, annotation["post_title"].to_s] }.reverse!
+  year["posts"].sort_by! { |post| [post["date"].to_s, post["url"].to_s] }.reverse!
+  year["annotations"].sort_by! { |annotation| [annotation["date"].to_s, annotation["post_title"].to_s, annotation["id"].to_s] }.reverse!
+end
+
+def render_index(index)
+  # json before 2.9 (Ruby's default gem; the Gemfile pins 2.9.1) spreads an empty [] / {} over several lines.
+  # A JSON string can't hold a raw newline, so this only touches empty arrays and objects.
+  JSON.pretty_generate(index).gsub(/\[\n\s*\]/, "[]").gsub(/\{\n\s*\}/, "{}")
+end
+
+# generated_at only moves when the index itself changed, so a rerun leaves the file alone
+# (same as App data's generated_at, see tools/app-data-release.py)
+index_path = File.join(DATA_DIR, "resource-index.json")
+previous = File.exist?(index_path) ? File.read(index_path, encoding: "UTF-8").gsub("\r\n", "\n") : ""
+previous_stamp = previous[/\A\{\s*"generated_at": "([^"]*)"/, 1]
+if previous_stamp
+  fresh_stamp = index["generated_at"]
+  index["generated_at"] = previous_stamp
+  index["generated_at"] = fresh_stamp unless render_index(index) == previous
 end
 
 FileUtils.mkdir_p(DATA_DIR)
-File.write(File.join(DATA_DIR, "resource-index.json"), JSON.pretty_generate(index), encoding: "UTF-8")
+File.write(index_path, render_index(index), encoding: "UTF-8")
 
 # only the entity pages are ours; _pages/generated/timeline/<year>.md belongs to tools/build-timeline.py
 # (wiping the whole folder took the year pages off the site in 5d72f67d)

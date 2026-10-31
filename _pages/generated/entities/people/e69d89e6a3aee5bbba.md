@@ -91,14 +91,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
+  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
   <span></span>
 </article>
 
@@ -169,14 +169,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
+  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
+  <p>2011 · interview_translation · The brains behind Pokémon Black and White</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
   <span></span>
 </article>
 
@@ -259,12 +259,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · Pokemon Peer Official Mook / Pokebeach Archive</p>
-  <h3><a href="/developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/">Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第5回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/">[访谈翻译] 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）</a></h3>
   <span></span>
@@ -298,6 +292,12 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第175回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-175/">[GameFreak部长专栏] 第175回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天，《宝可梦ぴあ》正式发售啦！！ ・AKB48的指原小姐和北原小姐都有精彩亮相！ ・醒目的黄色皮卡丘封面！ </span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · Pokemon Peer Official Mook / Pokebeach Archive</p>
+  <h3><a href="/developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/">Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

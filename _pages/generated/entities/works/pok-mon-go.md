@@ -97,14 +97,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
+  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
   <span></span>
 </article>
 
@@ -199,15 +199,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · interview_translation · 【ポケモンＧＯ】「現実世界とゲームの融合が実現」任天堂とポケモンが温めた構想　米社の技術を活用</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-sankei-pokemon-go-nintendo-concept/">产经新闻（産経ニュース） 2016：宝可梦社长石原谈《宝可梦GO》与岩田聪构想</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">

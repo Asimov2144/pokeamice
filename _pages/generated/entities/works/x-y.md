@@ -169,14 +169,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/">宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）</a></h3>
+  <p>2014 · interview_translation · Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/">宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2014 · interview_translation · Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？</p>
-  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-youth-roundtable/">宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）</a></h3>
+  <p>2014 · interview_translation · Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-leaders-challenge/">宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）</a></h3>
   <span></span>
 </article>
 
@@ -193,12 +193,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」</p>
-  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2014-01-lumiose-city-guide/">Nintendo DREAM 2013：宝可梦X·Y密阿雷市观光指南与人物名鉴</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』サウンドチーム インタビュー「楽曲魂」特別編</p>
   <h3><a href="/访谈翻译/扫描存档/scan-ndream-2014-01-xy-sound-team-interview/">Nintendo DREAM 2013：《宝可梦 X·Y》声音团队访谈「乐曲魂」特别篇</a></h3>
   <span></span>
@@ -211,14 +205,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2014-01-lumiose-city-guide/">Nintendo DREAM 2013：宝可梦X·Y密阿雷市观光指南与人物名鉴</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第241回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-241/">[GameFreak部长专栏] 第241回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 对我来说，这是梦想成真的一天。 没错，就在这一天，《宝可梦 X・Y》在全球同步发售了。 法国、纽约、德国、日本</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · ファミ通.com 特集記事：『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/">[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学</a></h3>
+  <p>2013 · interview_translation · 4Gamer.net</p>
+  <h3><a href="/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/">4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录</a></h3>
   <span></span>
 </article>
 
@@ -229,20 +229,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 4Gamer.net</p>
-  <h3><a href="/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/">4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · Hobby Consolas（西班牙最大游戏媒体）</p>
-  <h3><a href="/interview-hobbyconsolas-xy-masuda/">专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访</a></h3>
+  <p>2013 · interview_translation · ファミ通.com 特集記事：『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/">[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2013 · interview_translation · La entrevista a Junichi Masuda, director de Pokémon X/Y, también en texto</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-pokemaster-xy-masuda-barcelona/">Pokémaster（西班牙） 2013：增田顺一谈《宝可梦 X/Y》开发与同步发售</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Hobby Consolas（西班牙最大游戏媒体）</p>
+  <h3><a href="/interview-hobbyconsolas-xy-masuda/">专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访</a></h3>
   <span></span>
 </article>
 
@@ -265,21 +265,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
-  <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tt-mi/">GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
-  <span></span>
+  <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
+  <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
 </article>
 
 <article class="resource-network-card">
@@ -303,6 +297,12 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Gamasutra Feature (2013-10-10)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamasutra-xy-monster-design/">[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学</a></h3>
   <span></span>
 </article>
 

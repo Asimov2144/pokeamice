@@ -67,14 +67,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
-  <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
+  <p>2019 · interview_translation · 『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/">Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2019 · interview_translation · 『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/">Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档</a></h3>
+  <p>2019 · interview_translation · ファミ通.com / 週刊ファミ通 2019年11月28日号</p>
+  <h3><a href="/interview-famitsu-sword-shield-masuda-ohmori/">《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路</a></h3>
   <span></span>
 </article>
 
@@ -151,14 +151,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
+  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
+  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
   <span></span>
 </article>
 
@@ -181,14 +181,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
-  <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
+  <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>
 </article>
 

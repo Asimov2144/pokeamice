@@ -25,14 +25,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2026 · interview_translation · ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-battle-system-deck/">CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）</a></h3>
+  <p>2026 · interview_translation · 『ポケモン』の複雑すぎるバトルシステムがどうなっているのか、ゲーフリの“ポケモンバトル”専門家に聞いてみた。膨大なパターンを制御すべく、『サン・ムーン』をきっかけに専門チームが発足【CEDEC2026】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-cedec-battle/">电Fami Nico Gamer（電ファミニコゲーマー） 2026：Game Freak对战专职团队谈宝可梦战斗系统重构</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2026 · interview_translation · 『ポケモン』の複雑すぎるバトルシステムがどうなっているのか、ゲーフリの“ポケモンバトル”専門家に聞いてみた。膨大なパターンを制御すべく、『サン・ムーン』をきっかけに専門チームが発足【CEDEC2026】</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-cedec-battle/">电Fami Nico Gamer（電ファミニコゲーマー） 2026：Game Freak对战专职团队谈宝可梦战斗系统重构</a></h3>
+  <p>2026 · interview_translation · ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-battle-system-deck/">CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）</a></h3>
   <span></span>
 </article>
 
