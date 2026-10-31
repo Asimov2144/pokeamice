@@ -125,13 +125,13 @@ parallel_items:
   translation: 似乎有宝可梦粉丝的孩子们进行交流的风气。
 - type: paragraph
   original: ただしログがすぐに流れてしまう性質のもので、情報として整理・蓄積されていたサイトは存在しなかったようだ。
-  translation: 但是，由于日志很容易被冲走，似乎没有网站对信息进行整理和积累。
+  translation: "但是，由于聊天记录会很快滚动消失，似乎没有哪个网站对这些信息加以整理和积累。"
 - type: paragraph
   original: （そして、そのことがサイト開設の動機となったとのことである）
   translation: （而且，据说这正是开设网站的原因。）
 - type: paragraph
   original: 書籍『ポケモン・ストーリー』において「ミュウを出す裏技」が、公式公開前の1996年春の時点でネット上で公開されていたかのような記述があるが、
-  translation: 在书籍《宝可梦·故事》中，有描述称“梦幻的秘技”在官方公开前的1996年春天就已经在网上公开，
+  translation: "在书籍《宝可梦·故事》中，有描述称“让梦幻出现的秘技”在官方公开前的1996年春天就已经在网上公开，"
 - type: paragraph
   original: 上記の事情を考えると正しくないと思われる（掲示板やチャットで話題に挙がった可能性は否定できないが）。
   translation: 考虑到上述情况，这似乎是不正确的（尽管不能否认它可能在留言板或聊天中被提及过）。
@@ -151,7 +151,7 @@ parallel_items:
   note: ポケモンセンター下北沢本店是官方设立的宝可梦主题店铺，位于东京下北泽。
 - type: paragraph
   original: 現在では閉鎖されているが、開発資料の公開や、読者からの質問に直接答えるコーナーなど貴重な情報が見られた。
-  translation: 该店现已关闭，但当时曾公开开发资料，并设有直接回答读者提问的栏目，提供了宝贵的信息。
+  translation: "该专区现已关闭，但当时可以看到开发资料的公开、直接回答读者提问的栏目等宝贵信息。"
 - type: paragraph
   original: URLは以下の通り。アーカイブからの発掘は各自で行うこと。
   translation: 网址如下。请自行从网络存档中挖掘内容。
@@ -303,11 +303,11 @@ parallel_items:
   translation: 虽然该网站也存在于存档中，但寻找镜像网站可能更快。
 - type: paragraph
   original: また、任天堂スペースワールド97のポケモン金銀体験記もシステム面に深く切り込んでいた。
-  translation: 此外，关于任天堂太空世界97的宝可梦金银版的试玩报告，也深入剖析了系统层面。
+  translation: "此外，关于任天堂Space World 97上《宝可梦 金·银》的试玩报告，也深入剖析了系统层面。"
   note: 任天堂太空世界97是1997年举办的任天堂展会，宝可梦金银版在此首次提供试玩。
 - type: paragraph
   original: 後述する「おぶりー工房」の体験記とともに、製品版とは異なる旧バージョンを偲ぶ貴重な資料である。
-  translation: 与后述的“Oblivion工房”的试玩报告一样，是缅怀与正式版不同的旧版本的珍贵资料。
+  translation: "与后述的“奥布里工房”的试玩报告一样，是缅怀与正式版不同的旧版本的珍贵资料。"
   note: 「おぶりー工房」是另一个宝可梦网站，其试玩报告同样具有史料价值。
 - type: paragraph
   original: ミュウの話をしたので念のため触れておくが、
@@ -387,7 +387,7 @@ parallel_items:
   note: “宝可梦冲击”指1997年12月因《宝可梦》动画中红蓝闪光导致观众光敏性癫痫发作的事件，当时动画一度停播。
 - type: paragraph
   original: このサイトを語る上で特に重要なのは 任天堂スペースワールド97のポケモン金銀体験レポート である。
-  translation: 在谈论这个网站时，尤其重要的是关于任天堂Space World 97中《宝可梦 金／银》的试玩体验报告。
+  translation: "在谈论这个网站时，尤其重要的是关于任天堂Space World 97中《宝可梦 金·银》的试玩体验报告。"
   note: 任天堂Space World是任天堂举办的贸易展，97年展会上首次公开了《金／银》的试玩版。
 - type: paragraph
   original: イラスト入りのレポートは貴重で、製品版には採用されなかった没ポケモンの姿を後に伝える資料になった。
@@ -410,7 +410,7 @@ parallel_items:
   note: 指1997年12月的“宝可梦冲击”事件。
 - type: paragraph
   original: 金銀もこの頃には発売しているはずだったのに相次ぐ延期に加えて続報が途切れていた。
-  translation: 《金／银》本应在这个时候已经发售，但不仅多次延期，后续消息也中断了。
+  translation: "《金·银》本应在这个时候已经发售，但不仅多次延期，后续消息也中断了。"
 - type: paragraph
   original: この年で更新が途切れたサイトや、97年時点で存在していたはずなのにアーカイブですら掘れないサイトがかなりある。
   translation: 有很多网站在这一年停止了更新，还有一些网站虽然在97年时应该存在，但连存档都找不到了。
@@ -463,7 +463,7 @@ parallel_items:
   translation: 顺便一提，该网站开设于97年，从某种角度看可以说是现存最古老的宝可梦网站。
 - type: paragraph
   original: ・ グリフィンアイランド （サトチ）　http://www2u.biglobe.ne.jp/~endo-c/
-  translation: ・ 狮鹫岛（佐藤）　http://www2u.biglobe.ne.jp/~endo-c/
+  translation: "・ 狮鹫岛（サトチ）　http://www2u.biglobe.ne.jp/~endo-c/"
   note: 网站名“グリフィンアイランド”意译为“狮鹫岛”，作者名“サトチ”音译为“佐藤”。
 - type: paragraph
   original: 1998年10月10日オープン。
@@ -490,14 +490,14 @@ parallel_items:
   translation: 如今该规则本身已鲜为人知，因此仅凭其解说内容就已十分珍贵。
 - type: paragraph
   original: ・ 民営ヨシダジム （けろりん/水玉螢之丞）　http://www.vc-net.ne.jp/~kerorin/index.html
-  translation: · 民营吉田道馆（けろりん/水玉螢之丞） http://www.vc-net.ne.jp/~kerorin/index.html
+  translation: "· 民营吉田道馆（けろりん/水玉萤之丞） http://www.vc-net.ne.jp/~kerorin/index.html"
   note: 民営ヨシダジム：可能是网站名称，ヨシダジム（吉田道馆）可能取自《宝可梦》中的道馆概念。水玉螢之丞：日本著名插画师。
 - type: paragraph
   original: 旧URL→　http://www.vc-net.or.jp/~kerorin/index.htm
   translation: 旧网址→ http://www.vc-net.or.jp/~kerorin/index.htm
 - type: paragraph
   original: ポケモンカード関連では最初期のサイトだと思われる。ゲーム関係では著名なイラストレーターの水玉螢之丞氏がご夫婦で運営。
-  translation: 这被认为是与宝可梦卡牌相关的最早期网站之一。该网站由在游戏领域著名的插画师水玉螢之丞夫妇共同运营。
+  translation: "这被认为是与宝可梦卡牌相关的最早期网站之一。该网站由在游戏领域著名的插画师水玉萤之丞夫妇共同运营。"
   note: 水玉螢之丞：日本插画师，曾参与游戏相关创作。
 - type: paragraph
   original: 「 めざせ！ポケモンカードマスター 」という書籍でも紹介されていたようだ（ なにものか氏情報 ）。
@@ -555,7 +555,7 @@ parallel_items:
   translation: 我是从99年才开始正式参与这些活动的，当时常常隐约感觉到与98年以前那种节日狂欢氛围的断层。
 - type: paragraph
   original: 明るい話題としては、この年の夏ごろについに「金銀」の具体的な情報が公開されて大いに沸いた。
-  translation: 说到令人振奋的话题，大约在这一年夏天，《金／银》的具体信息终于公开，引起了巨大轰动。
+  translation: "说到令人振奋的话题，大约在这一年夏天，《金·银》的具体信息终于公开，引起了巨大轰动。"
   note: 金銀：指《宝可梦 金／银》，1999年发售。
 - type: paragraph
   original: サイトピックアップ

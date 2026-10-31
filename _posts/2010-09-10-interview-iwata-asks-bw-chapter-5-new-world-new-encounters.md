@@ -41,6 +41,7 @@ entities:
   - 增田顺一
   - 杉森建
   - 石原恒和
+  - 松宫稔展
   works:
   - 宝可梦 黑·白
 parallel_items:
@@ -75,7 +76,7 @@ parallel_items:
   alt: 社長が訊く『ポケットモンスターブラック・ホワイト』5. 新しい世界、新しい出会い_001
 - speaker: 岩田聪
   original: いち早く感想を聞きたいんですね。
-  translation: 我们想尽早听听各位的感想。
+  translation: "你是想尽早听到大家的感想吧。"
   role: question
 - speaker: 增田顺一
   original: 本当はここで言っちゃいたいくらいなんですけど（笑）。

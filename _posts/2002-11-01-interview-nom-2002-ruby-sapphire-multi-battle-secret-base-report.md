@@ -63,7 +63,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_vs01.jpg
   alt: コロシアム画面
-  caption: コロシアム画面
+  caption: "竞技场画面"
+  caption_original: "コロシアム画面"
 - type: narrative
   original: ゲームボーイアドバンスを４人で持ち寄って、２対２に分かれて戦えるマルチバトル。株式会社ポケモンのスタッフと、対戦してみることにしました。
   translation: 4个人各自带来Game Boy Advance，分成2对2进行战斗的多人对战。我们决定和株式会社宝可梦的工作人员对战看看。
@@ -76,7 +77,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_vs02.jpg
   alt: コロシアム画面
-  caption: コロシアム画面
+  caption: "竞技场画面"
+  caption_original: "コロシアム画面"
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_vs03.jpg
   alt: 対戦画面
@@ -94,7 +96,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_kiti01.jpg
   alt: 洞窟はっけん画面
-  caption: 洞窟はっけん画面
+  caption: "发现洞窟的画面"
+  caption_original: "洞窟はっけん画面"
 - type: narrative
   original: 自分だけの秘密の場所「ひみつきち」。ぜひぜひ体験してみたい!! でも、ある程度ゲームを進めないと、作れないんですよね。そこで、スタッフのカセットを借りて、「ひみつきち」を新しく作らせてもらいました。
   translation: 只属于自己的秘密场所「秘密基地」。非常非常想体验一下！！不过，游戏不进行到一定程度就做不出来。于是我们借了工作人员的卡带，让他们新建了一个「秘密基地」。
@@ -104,15 +107,18 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_kiti02.jpg
   alt: 「ひみつきち」画面
-  caption: 「ひみつきち」画面
+  caption: "「秘密基地」画面"
+  caption_original: "「ひみつきち」画面"
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_kiti03.jpg
   alt: 「ひみつきち」画面
-  caption: 「ひみつきち」画面
+  caption: "「秘密基地」画面"
+  caption_original: "「ひみつきち」画面"
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_kiti04.jpg
   alt: 「ひみつきち」画面
-  caption: 「ひみつきち」画面
+  caption: "「秘密基地」画面"
+  caption_original: "「ひみつきち」画面"
 - type: narrative
   original: 前の町で買っておいたマットやレンガを置いてみました。ぬいぐるみも飾って、すっかり自宅気分です。
   translation: 试着摆放了之前在镇上买来的垫子和砖块。还装饰了毛绒玩偶，完全是一副自己家的感觉。
@@ -123,6 +129,7 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002-report/g_kiti05.jpg
   alt: レコードコーナー画面
-  caption: レコードコーナー画面
+  caption: "记录角画面"
+  caption_original: "レコードコーナー画面"
 interview_id: PKMN-0117
 ---

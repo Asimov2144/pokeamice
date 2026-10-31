@@ -39,6 +39,7 @@ entities:
   - 田尻智
   - 宫本茂
   - 蒂姆·拉里默
+  - 横田孝司
   works:
   - 宝可梦 红·绿
   - 宝可梦 金·银
@@ -46,22 +47,23 @@ entities:
   - 旋转方块
   - 太空格斗/太空侵略者
   - 铁板阵
+  - 梦幻
 topics:
 - 海外媒体专访
 parallel_items:
 - speaker: ''
   original: After first coming up with the idea for Pokmon in 1990, Satoshi Tajiri labored for nearly six years over the original game. Now 34, he based it partly on things he remembered as a kid. The careful attention paid off. Pokmon swept Japan and is now doing the same in the U.S. and beyond. Spinoffs include trading cards as closely held as stock options, a TV series and, now, a movie.
-  translation: 1990年，田尻智首次萌生宝可梦的构想，此后近六年，他呕心沥血于最初的游戏。如今他34岁，游戏部分取材于他儿时的记忆。这份精心的投入终获回报：宝可梦席卷日本，如今在美国及更远的地方同样风靡。衍生品包括如同股票期权般被严密保护的集换式卡牌、一部电视动画，以及如今的一部电影。
+  translation: "1990年，田尻智首次萌生宝可梦的构想，此后为最初的游戏苦干了近六年。如今他34岁，游戏部分取材于他儿时的记忆。这番用心得到了回报：宝可梦席卷日本，如今在美国及其他地区也是如此。衍生品包括像股票期权一样被人紧紧攥在手里的集换式卡牌、一部电视动画，以及如今的一部电影。"
 - speaker: ''
   original: A person who usually shuns the limelight, Tajiri talked about his labor of love with Larimer and TIME intern Takashi Yokota at the offices of his small company, Game Freak, in Tokyo's Setagaya neighborhood, a youth-culture hub with several colleges and universities. His company occupies two floors in a nondescript office building. Sandwiched between the Game Freak floors is a "cram school" for junior high school students who are taking extra paid-for lessons in hopes of improving their next entrance exam scores.
-  translation: "田尻智通常回避公众目光，此次在位于东京世田谷区的小公司GAME FREAK办公室里，与拉里默及《时代》杂志实习生横田隆志畅谈他的挚爱之作。世田谷是青年文化中心，周边有多所大专院校。他的公司占据一栋普通办公楼的两层，而在这两层之间，夹着一所面向初中生的“补习学校”，学生们付费加课，以期提高下次入学考试的成绩。"
+  translation: "田尻智通常回避公众目光，此次在位于东京世田谷区的小公司GAME FREAK办公室里，与拉里默及《时代》杂志实习生横田孝司畅谈他的挚爱之作。世田谷是青年文化中心，周边有多所大专院校。他的公司占据一栋普通办公楼的两层，而在这两层之间，夹着一所面向初中生的“补习学校”，学生们付费加课，以期提高下次入学考试的成绩。"
 - speaker: ''
   original: Tajiri had just finished work on the new series of Pokmon games for Nintendo's Game Boy, to be released in Japan Nov. 20. He looked tired. His eyes were bloodshot, there were dark circles under his eyes and his hands and lips trembled while he spoke. He looked like he needed a good long sleep.
-  translation: 田尻智刚刚完成了任天堂Game Boy平台新系列宝可梦游戏的开发，该游戏将于11月20日在日本发售。他看上去疲惫不堪：双眼布满血丝，眼袋深重，说话时手和嘴唇微微颤抖。他看起来亟需一场酣畅的长眠。
+  translation: "田尻智刚刚完成了任天堂Game Boy平台新系列宝可梦游戏的开发，该游戏将于11月20日在日本发售。他看上去很疲惫：双眼布满血丝，黑眼圈很重，说话时手和嘴唇微微颤抖。他看起来需要好好睡上一大觉。"
 - type: heading
   level: 3
   original: 'From Bug-Catching Boy to Fanzine Pioneer: The Genesis of Game Freak'
-  translation: "从昆虫少年到同人志先锋：GAME FREAK 的黎明与执念"
+  translation: "从昆虫少年到同人志先驱：GAME FREAK 的诞生"
 - speaker: 时代周刊
   original: Are you O.K.? You look pretty tired.
   translation: 你还好吗？你看起来很累。
@@ -109,8 +111,8 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: The biggest sales were for a special issue on the Zabius game. We sold 10,000 copies. It cost 300 yen each. So when I was 18 I already had a business going. At first I used a photocopy machine--more important than style was selling information. But when sales increased, it was difficult to do it by hand. So I took it to a printer.
-  translation: 销量最高的是关于《扎比乌斯》游戏的特别版。我们卖出了一万份。每份售价300日元。所以当我18岁时，我已经有了自己的事业。起初我用复印机——比风格更重要的是销售信息。但随着销量增加，手工制作变得困难，于是我把印刷交给了印刷厂。
-  note: 《扎比乌斯》是1986年的一款街机射击游戏，由东映动画与Coreland开发。
+  translation: "销量最高的是关于《铁板阵》游戏的特别版。我们卖出了一万份。每份售价300日元。所以当我18岁时，我已经有了自己的事业。起初我用复印机——比风格更重要的是销售信息。但随着销量增加，手工制作变得困难，于是我把印刷交给了印刷厂。"
+  note: "“Zabius”即南梦宫1983年的街机射击游戏《铁板阵》（ゼビウス，Xevious）。"
   role: answer
 - speaker: 时代周刊
   original: How did you move from publishing to designing games?
@@ -136,7 +138,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: They fascinated me. For one thing, they kind of moved funny. They were odd. Every time I found a new insect, it was mysterious to me. And the more I searched for insects, the more I found. If I put my hand in the river, I would get a crayfish. If there was a stick over a hole, it would create an air bubble and I'd find insects there. I usually took them home. As I gathered more and more, I'd learn about them, like how some would feed on one another. So I stopped bringing them home. But I liked coming up with new ideas. Like how to catch beetles. In Japan, a lot of kids like to go out and catch beetles by putting honey on a piece of tree bark. My idea was to put a stone under a tree, because they slept during the day and like sleeping under stones. So in the morning I'd go pick up the stone and find them. Tiny discoveries like that made me excited.
-  translation: 它们令我着迷。首先，它们行动起来很有趣，很奇特。每当我发现一种新的昆虫，它对我来说都是神秘的。而且我越是寻找昆虫，找到的就越多。如果我把手伸进河里，就能抓到一只小龙虾。如果洞口上有根棍子，它会产生气泡，我就能在那里找到昆虫。我通常会把它们带回家。随着我收集得越来越多，我会了解它们，比如有些会互相捕食。所以我就不再带它们回家了。但我喜欢想出新的点子，比如如何捕捉甲虫。在日本，很多孩子喜欢出去，通过在树皮上涂上甜甜蜜来捕捉甲虫。我的想法是在树下放一块石头，因为它们白天睡觉，喜欢睡在石头下面。所以早上我会去搬开石头，找到它们。像这样微小的发现让我兴奋不已。
+  translation: "它们令我着迷。首先，它们行动起来很有趣，很奇特。每当我发现一种新的昆虫，它对我来说都是神秘的。而且我越是寻找昆虫，找到的就越多。如果我把手伸进河里，就能抓到一只小龙虾。如果洞口上有根棍子，它会产生气泡，我就能在那里找到昆虫。我通常会把它们带回家。随着我收集得越来越多，我会了解它们，比如有些会互相捕食。所以我就不再带它们回家了。但我喜欢想出新的点子，比如如何捕捉甲虫。在日本，很多孩子喜欢出去，通过在树皮上涂上蜂蜜来捕捉甲虫。我的想法是在树下放一块石头，因为它们白天睡觉，喜欢睡在石头下面。所以早上我会去搬开石头，找到它们。像这样微小的发现让我兴奋不已。"
   role: answer
 - speaker: 时代周刊
   original: Did you have friends who collected insects?
@@ -144,12 +146,12 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: Usually all the kids did it the same way, with the honey. N one of my friends would do what I did. I got more insects than anyone.
-  translation: 通常所有孩子都用同样的方法，就是用甜甜蜜。没有一个朋友会像我那样做。我抓到的昆虫比任何人都多。
+  translation: "通常所有孩子都用同样的方法，就是用蜂蜜。没有一个朋友会像我那样做。我抓到的昆虫比任何人都多。"
   role: answer
 - type: heading
   level: 3
   original: 'The Cable That Linked Living Beings: Dialogue Over Competition'
-  translation: 连接生命的通信线：重在交流与尊重的日式哲学
+  translation: "连接生命的通信线：交流重于竞争"
 - speaker: 时代周刊
   original: So you were collecting Pokmon a long time ago! Did you make the insects fight against each other?
   translation: 所以你很久以前就在收集宝可梦了！你会让昆虫互相打斗吗？
@@ -222,7 +224,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: It's interesting, because in Japan, everybody goes for Pikachu. In the U.S., the characters Ash [Satoshi in Japan] and Pikachu are grouped together. American kids seem to like that. In America there are more products sold with Ash and Pikachu together, not just Pikachu alone. I think Americans actually understand the concept of Pokmon better than the Japanese. The Japanese focus on Pikachu, but what I think is important is the human aspect--you need Ash.
-  translation: 这很有趣，因为在日本，人人都喜欢皮卡丘。而在美国，小智（日版名为小智）和皮卡丘这两个角色是紧密联系在一起的。美国的孩子似乎喜欢这样。在美国，以小智和皮卡丘一同登场的商品比单独皮卡丘的卖得更多。我认为美国人实际上比日本人更理解宝可梦的概念。日本人只关注皮卡丘，但我认为重要的是人的一面——你需要小智。
+  translation: "这很有趣，因为在日本，人人都喜欢皮卡丘。而在美国，小智（美版名为Ash）和皮卡丘这两个角色是紧密联系在一起的。美国的孩子似乎喜欢这样。在美国，以小智和皮卡丘一同登场的商品更多，而不只是皮卡丘单独的商品。我认为美国人实际上比日本人更理解宝可梦的概念。日本人只关注皮卡丘，但我认为重要的是人的一面——你需要小智。"
   role: answer
 - speaker: 时代周刊
   original: Pikachu is sort of marginal in the game. But it's now the best-known character. How'd that happen?
@@ -243,7 +245,7 @@ parallel_items:
 - type: heading
   level: 3
   original: The Myth of Mew, Mentorship with Miyamoto, and Fainting Over Dying
-  translation: 第151只梦幻的神话、宫本茂的师徒情谊与‘宝可梦只有昏厥没有死亡’
+  translation: "梦幻的神话、与宫本茂的师徒关系，以及“昏厥”而非“死亡”"
 - speaker: 时代周刊
   original: Why is Pokmon still so popular?
   translation: 为什么宝可梦至今仍如此受欢迎？
@@ -266,7 +268,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: No. I had a cat, though. I wanted to name the frogs, because I watched them grow, but there were too many.
-  translation: 不，不过我养过一只猫。我曾想给那些蝌蚪起名字，因为我看着它们长大，但数量太多了。
+  translation: "不，不过我养过一只猫。我曾想给那些青蛙起名字，因为我看着它们长大，但数量太多了。"
   role: answer
 - speaker: 时代周刊
   original: Are the Pokmon names related to those insects?
@@ -283,12 +285,12 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: They all have meaning. Like Nyarth. It's from a Japanese proverb about a cat with money on his head that doesn't know it's there. It's about understanding the value of money. I don't think they have that concept in the U.S., so the name is different. And Pikachu. 'Pika' is the sound Japanese say an electric spark makes. And 'chu' is the sound a mouse makes. So Pikachu is like an electric mouse.
-  translation: 它们都有含义。比如喵喵（Nyarth）。它源自日本谚语，讲一只头上顶着钱却不知道的猫，寓意理解金钱的价值。我认为美国没有这个概念，所以名字不同。还有皮卡丘。'皮卡'是日语中电火花的声响，'丘'是老鼠的叫声。所以皮卡丘就像一只电老鼠。
+  translation: "它们都有含义。比如喵喵（Nyarth）。它源自日本谚语，讲一只头上顶着钱却不知道的猫，寓意理解金钱的价值。我认为美国没有这个概念，所以名字不同。还有皮卡丘。“皮卡”是日语中电火花的声响，“丘”是老鼠的叫声。所以皮卡丘就像一只电老鼠。"
   note: 喵喵：日文名ニャース，源自谚语「猫に小判」（对牛弹琴）。皮卡丘：名字由拟声词组合而成。
   role: answer
 - speaker: 时代周刊
   original: None of the monsters is really evil. So how do you know if one of them is with you or against you?
-  translation: 这些怪物中没有一个是真正邪恶的。那么你怎么知道它们是与你是敌是友呢？
+  translation: "这些怪物中没有一个是真正邪恶的。那么你怎么知道它们是站在你这边，还是与你为敌呢？"
   role: question
 - speaker: 田尻智
   original: Think of it like this. If a horse runs over you and you die, then the horse is bad. But if you're riding the horse, the horse is your ally. So, if you have a monster in your collection, then it's considered good. But if not, it's still not considered bad, because it could be your friend one day.
@@ -410,7 +412,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: I was really careful in making monsters faint rather than die. I think that young people playing games have an abnormal concept about dying. They start to lose and say, "I'm dying." It's not right for kids to think about a concept of death that way. They need to treat death with more respect.
-  translation: 我非常谨慎地让宝可梦“濒死”而不是“死亡”。我认为，玩游戏的年轻人对死亡有一种异常的概念。他们开始输的时候会说“我要死了”。让孩子们以那种方式思考死亡的概念是不对的。他们需要以更尊重的态度对待死亡。
+  translation: "我非常谨慎地让宝可梦“昏厥”而不是“死亡”。我认为，玩游戏的年轻人对死亡有一种异常的概念。他们开始输的时候会说“我要死了”。让孩子们以那种方式思考死亡的概念是不对的。他们需要以更尊重的态度对待死亡。"
   note: 田尻智在此强调宝可梦系列中“濒死”状态的设计理念，体现其对儿童教育的关怀。
   role: answer
 - speaker: 时代周刊
@@ -419,11 +421,11 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: I never heard of that! [Laughs] I heard there was a guy who criticized [kid's book character] Harry Potter because of the magic. But I saw the author, and she seemed really nice. The critic seemed like a grouchy mean guy.
-  translation: 我从没听说过！[笑] 我听说有人批评《哈利·波特》里的魔法。但我见过那位作者，她看起来真的很和善。而那个批评者倒像是个脾气暴躁的刻薄家伙。
+  translation: "我从没听说过！（笑） 我听说有人批评《哈利·波特》里的魔法。但我见过那位作者，她看起来真的很和善。而那个批评者倒像是个脾气暴躁的刻薄家伙。"
   role: answer
 - speaker: 时代周刊
   original: What do you think about that weird incident in Japan in 1997, when 700 kids had seizures while watching Pikachu's blinking lights on the Pokmon TV show?
-  translation: 你怎么看待1997年日本发生的那起奇怪事件？当时有700名儿童在观看宝可梦电视节目中皮卡丘闪烁的灯光时引发了癫痫。
+  translation: "你怎么看待1997年日本发生的那起奇怪事件？当时有700名儿童在观看宝可梦电视节目中皮卡丘闪烁的灯光时癫痫发作。"
   note: 指1997年12月16日发生的“宝可梦休克”事件，因动画中红蓝闪光导致大量儿童出现光敏性癫痫症状。
   role: question
 - speaker: 田尻智

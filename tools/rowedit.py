@@ -26,16 +26,21 @@ LISTS = ("parallel_items", "translation_segments")
 def _scalar_end(lines, n, m):
     """last line index of the scalar that starts on line n (quoted scalars may run on)"""
     val = m.group(2)
+    # a block scalar first: "v: |-" alone parses (as ""), which used to end it on its first line.
+    # Its body is every following line indented deeper than the key (or blank).
+    if val.strip() in ("|", ">", "|-", ">-", "|+", ">+"):
+        key_indent = len(lines[n]) - len(lines[n].lstrip(" -"))
+        e = n
+        while e + 1 < len(lines) and (not lines[e + 1].strip() or len(lines[e + 1]) - len(lines[e + 1].lstrip(" ")) > key_indent):
+            e += 1
+        while e > n and not lines[e].strip():          # trailing blanks belong to the next key
+            e -= 1
+        return e
     try:
         yaml.safe_load("v: " + val)
         return n
     except yaml.YAMLError:
         pass
-    if val.strip() in ("|", ">", "|-", ">-", "|+", ">+"):
-        e = n
-        while e + 1 < len(lines) and (lines[e + 1].startswith("    ") or not lines[e + 1].strip()):
-            e += 1
-        return e
     for e in range(n + 1, min(n + 800, len(lines))):
         try:
             yaml.safe_load("v: " + "\n".join([val] + lines[n + 1:e + 1]))
@@ -121,6 +126,12 @@ class Post:
                     del self.lines[n:e + 1]
                     return
                 prefix = self.ind + ("- " if first else "  ")
+                if m.group(2).strip() in ("|", "|-") and isinstance(value, str) and "\n" in value \
+                        and not re.search(r"[ \t]\n|[ \t]$|^\s|\n\n\n", value):
+                    # it was a literal block: keep it one, so the diff is the text and nothing else
+                    body = self.ind + "    "
+                    self.lines[n:e + 1] = [prefix + field + ": |-"] + [(body + l) if l else "" for l in value.split("\n")]
+                    return
                 new = self._dump(field, value, "").rstrip()
                 self.lines[n:e + 1] = [prefix + new]
                 return

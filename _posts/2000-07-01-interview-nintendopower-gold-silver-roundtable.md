@@ -25,12 +25,13 @@ tags:
 - '咕咕'
 entities:
   people:
-  - "增田顺一"
-  - "石原恒和"
-  - "杉森建"
-  - "森本茂树"
-  - "太田健程"
-  - "一之濑刚"
+  - 增田顺一
+  - 石原恒和
+  - 杉森建
+  - 森本茂树
+  - 太田健程
+  - 一之濑刚
+  - 岩田聪
   works:
   - 宝可梦 金·银
 era_skin: '1999'
@@ -40,7 +41,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Prologue: Nintendo Power Chats with Pokémon Bigwigs (Issue 134)'
-  translation: 序章：巨头聚首——《Nintendo Power》第134期全明星圆桌访谈
+  translation: "序章：《Nintendo Power》与宝可梦大人物们的对谈（第134期）"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/134-cover-1.jpg
   caption: 《Nintendo Power》第134期封面（2000年7月号）：北美发售前夕直击GAME FREAK核心开发阵营。
@@ -57,29 +58,29 @@ parallel_items:
   translation: 转载者补充：人物简介（资料截至2019年）
 - type: narrative
   original: Assistant director & composer for Gold & Silver, directed most mainline Pokemon games in the two decades following this interview
-  translation: 《宝可梦 金／银》助理总监兼作曲，在本次专访之后的二十年间执导了大多数宝可梦正统系列作品
+  translation: "《宝可梦 金·银》助理总监兼作曲，在本次专访之后的二十年间执导了大多数宝可梦正统系列作品"
 - type: narrative
   original: Producer for Gold & Silver, founder of Creatures Inc, modern-day president of The Pokemon Company (as of 2019)
-  translation: 《宝可梦 金／银》制作人，Creatures Inc. 创始人，现任（截至2019年）The Pokémon Company 社长
+  translation: "《宝可梦 金·银》制作人，Creatures Inc. 创始人，现任（截至2019年）The Pokémon Company 社长"
 - type: narrative
   original: Lead monster designer and series art director since Gen 1
   translation: 杉森建自第一世代起担任怪物设计主管与系列艺术总监
 - type: narrative
   original: Programmer and monster designer since Gen 1, later went on to direct Emerald, HeartGold, and SoulSilver
-  translation: 自第一世代起担任程序员与宝可梦设计师，后执导《绿宝石》《心金／魂银》。
+  translation: "自第一世代起担任程序员与宝可梦设计师，后执导《绿宝石》《心金·魂银》。"
 - type: narrative
   original: Programmer for Generations 1-3
   translation: 第一至第三世代程序员
 - type: narrative
   original: Composer for Gold & Silver
-  translation: 《金／银》作曲
+  translation: "《金·银》作曲"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/001.jpg
   alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_001
 - type: heading
   level: 2
   original: 'Chapter 1: Evolving Beyond Red & Blue — The 3.5-Year Development of Gold & Silver'
-  translation: 第1章：从初代跃升——《金／银》三年半研发攻坚与20人核心团队
+  translation: "第1章：超越《红》《蓝》——《金·银》三年半的开发"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/RBY.jpg
   caption: 红、蓝、黄三色的初代传奇，为《金／银》的革新提供了最坚实也最具挑战的基石。
@@ -94,15 +95,15 @@ parallel_items:
   role: answer
 - speaker: Nintendo Power
   original: Nintendo Power:How many people worked on Gold and Silver, and how long did it take?
-  translation: 《Nintendo Power》：有多少人参与了《金／银》的制作？耗费了多长时间？
+  translation: "《Nintendo Power》：有多少人参与了《金·银》的制作？耗费了多长时间？"
   role: question
 - speaker: 增田顺一
   original: Masuda:“Approximately 20 people, I think. We started three years ago, right after Red and Green (Blue in the U.S.) were finished. We developed the Japanese Blue version and the Yellow version after the original game, too, but we were developing Gold and Silver at the same time.”
-  translation: “大概20人吧。我们是三年前，红绿（美版为蓝）刚完成之后便立刻启动的。初代之后我们还开发了日版蓝版和皮卡丘版，但与此同时，金／银的开发也一直在并行推进。”
+  translation: "“大概20人吧。我们是三年前，红绿（美版为蓝）刚完成之后便立刻启动的。初代之后我们还开发了日版蓝版和皮卡丘版，但与此同时，《金·银》的开发也一直在并行推进。”"
   role: answer
 - speaker: Nintendo Power
   original: Nintendo Power:Could you tell us what’s new in Gold and Silver?
-  translation: 《Nintendo Power》：能为我们介绍一下《金／银》中加入了哪些新要素吗？
+  translation: "《Nintendo Power》：能为我们介绍一下《金·银》中加入了哪些新要素吗？"
   role: question
 - speaker: 增田顺一
   original: Masuda:“It’s the same Pokémon World as before, but there is a different story.  You’ll see many new Pokémon. I can’t reveal anything more at this time.”
@@ -123,22 +124,22 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 2: Memory Roadblocks & Satoru Iwata’s Compression Miracle'
-  translation: 第2章：兼容的代价与岩田聪——内存绝壁上的压缩奇迹
+  translation: "第2章：内存的障碍与岩田聪的压缩奇迹"
 - speaker: Nintendo Power
   original: Nintendo Power:What was the hardest part of developing Gold and Silver?
-  translation: 《Nintendo Power》：开发《金／银》过程中最困难的部分是什么？
+  translation: "《Nintendo Power》：开发《金·银》过程中最困难的部分是什么？"
   role: question
 - speaker: 石原恒和
   original: Ishihara:“We designed Gold and Silver to be compatible with Red, Blue and Yellow, and making sure all the elements in all the versions worked together was a challenge. The debugging process was also tough.”
-  translation: “我们在设计《金／银》时，就要求其能够与《红／绿／蓝／皮卡丘》兼容，而确保所有版本中的所有要素都能彼此协同运作，是一大挑战。除错的过程同样艰辛。”
+  translation: "“我们在设计《金·银》时，就要求其能够与《红》《蓝》《黄》兼容，而确保所有版本中的所有要素都能彼此协同运作，是一大挑战。调试的过程同样艰辛。”"
   role: answer
 - speaker: 增田顺一
   original: Masuda:“Making the game easier to understand for everyone was the most difficult part for me. We looked at everything, even how to catch Pokémon. We thought Gold and Silver would be many people’s introduction to playing Pokémon, and we wanted to be prepared for that.”
-  translation: “让所有人都能直观易懂，对我来说是最难的部分。我们从方方面面进行了考量，甚至连如何捕捉宝可梦都重新审视了。我们认为《金／银》会成为许多人接触宝可梦的入门之作，因此希望能为此做好充分准备。”
+  translation: "“让所有人都能直观易懂，对我来说是最难的部分。我们从方方面面进行了考量，甚至连如何捕捉宝可梦都重新审视了。我们认为《金·银》会成为许多人接触宝可梦的入门之作，因此希望能为此做好充分准备。”"
   role: answer
 - speaker: 杉森建
   original: Sugimori:“Keeping the game fresh was a difficult thing for me. Lots of people have played Pokémon, and Gold and Silver need to stay fresh and  interesting for them, too.”
-  translation: “对我来说，保持游戏的新鲜感是最困难的事。许多人都玩过《宝可梦》，而《金／银》也必须为他们保持新鲜与趣味。”
+  translation: "“对我来说，保持游戏的新鲜感是最困难的事。许多人都玩过《宝可梦》，而《金·银》也必须为他们保持新鲜与趣味。”"
   role: answer
 - speaker: 森本茂树
   original: Morimoto:“Keeping true to the feeling of the original Pokémon games while creating a brand-new game was my challenge. Everyone has a unique idea of what Pokémon is, and I didn’t want to betray that.”
@@ -146,7 +147,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: Ichinose:“This is the first Pokémon game I have worked on, and it was a challenge for me to learn about and stay true to the atmosphere of the original Pokémon games.”
-  translation: 一之濑：“这是我参与制作的第一款宝可梦游戏，对我来说，既要了解并忠实于原版宝可梦游戏的氛围，又要在此基础上有所创新，是一大挑战。”
+  translation: "一之濑：“这是我参与制作的第一款宝可梦游戏，对我来说，了解并忠实于原版宝可梦游戏的氛围是一大挑战。”"
   role: answer
 - speaker: 太田健程
   original: Ota:“I was in charge of programming. I tried to make a programming  system that was easier to use. I was able to make some changes, but not all, because we were under a very tight schedule.”
@@ -161,7 +162,7 @@ parallel_items:
   alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_004
   caption: Screenshot from my Gen 1 Cut Content video
 - original: And as I explained in my video aboutGen 2’s cut content, Satoru Iwata even volunteered to help Game Freak with their programming problems in Gold & Silver. This is despite the fact Iwata was actually president of HAL Laboratories at the time, not a member of Game Freak — he just helped out with their data compression issues for the fun of it.
-  translation: 正如我在关于第二世代废案的视频中所说明的，岩田聪甚至主动请缨，协助GAME FREAK解决《金／银》中的编程难题。尽管当时岩田聪实为HAL研究所社长，并非GAME FREAK成员——他纯粹出于兴趣，帮助他们处理了数据压缩方面的问题。
+  translation: "正如我在关于第二世代废案的视频中所说明的，岩田聪甚至主动请缨，协助GAME FREAK解决《金·银》中的编程难题。尽管当时岩田聪实为HAL研究所社长，并非GAME FREAK成员——他纯粹出于兴趣，帮助他们处理了数据压缩方面的问题。"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/005.jpg
   alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_005
@@ -169,14 +170,14 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 3: Hundreds of Scrapped Pokemon — Ken Sugimori on Spaceworld 1997 & Hoothoot'
-  translation: 第3章：数百只废案的沉浮——杉森建谈第二世代300只构想与咕咕的童年原型
+  translation: "第3章：数百只被废弃的宝可梦——杉森建谈Space World 1997与咕咕"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.jpg
   caption: 1997年任天堂Space World展会上公开的《宝可梦 金·银》初期体验版开场画面，蕴含着海量后来被彻底重构的梦幻设定。
   alt: Space World 1997开场画面
 - speaker: Nintendo Power
   original: Nintendo Power:Are there any new Pokémon like Mew in Gold and Silver?
-  translation: 《Nintendo Power》：金银里会有像梦幻那样隐藏的新宝可梦吗？
+  translation: "《Nintendo Power》：《金·银》里有像梦幻那样的新宝可梦吗？"
   role: question
 - speaker: 杉森建
   original: Sugimori:“(Laughing) Maybe, maybe not.”
@@ -188,7 +189,7 @@ parallel_items:
   role: question
 - speaker: 杉森建
   original: Sugimori:“There are several ways we come up with Pokémon. Some are inspired by a shape, figure or creature that already exists. For others, we tried to consider what kind of Pokémon would be interesting in game play. For example, in Gold and Silver, we’ll introduce new Pokémon types.  Psychic Pokémon seemed to dominate in the previous Pokémon game, so we needed to come up with new Pokémon and types to make Gold and  Silver more balanced. We came up with several hundred new Pokémon, but  most of them got cut during development.”
-  translation: “我们构思宝可梦的方式有好几种。有些是从已有的形状、形态或生物中汲取灵感，有些则是去思考什么样的宝可梦在游玩层面会更有趣。举例来说，在《金／银》中，我们引入了新的宝可梦属性。在之前的宝可梦游戏里，超能力属性宝可梦似乎占据了压倒性的优势，所以我们必须设计出新的宝可梦和属性，让《金／银》的对战更加平衡。我们构思了数百只新宝可梦，但其中大部分都在开发过程中被删减掉了。”
+  translation: "“我们构思宝可梦的方式有好几种。有些是从已有的形状、形态或生物中汲取灵感，有些则是去思考什么样的宝可梦在游玩层面会更有趣。举例来说，在《金·银》中，我们引入了新的宝可梦属性。在之前的宝可梦游戏里，超能力属性宝可梦似乎占据了压倒性的优势，所以我们必须设计出新的宝可梦和属性，让《金·银》的对战更加平衡。我们构思了数百只新宝可梦，但其中大部分都在开发过程中被删减掉了。”"
   role: answer
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Spaceworld-link.png
@@ -211,7 +212,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 4: Favorite Companions & The Secret of Mew — Two Weeks Before Gold Master'
-  translation: 第4章：全员本命宝可梦与梦幻的秘密——主程序封盘前两周的“偷渡”
+  translation: "第4章：最喜欢的伙伴与梦幻的秘密——母盘定稿前两周"
 - speaker: Nintendo Power
   original: Nintendo Power:What is your favorite Pokémon?
   translation: 《Nintendo Power》：各位最喜欢的宝可梦是哪一只？
@@ -222,11 +223,11 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: Masuda:“Psyduck. He looks funny.”
-  translation: “可达鸭。它看起来滑稽又可爱。”
+  translation: "“可达鸭。它看起来很滑稽。”"
   role: answer
 - speaker: 杉森建
   original: Sugimori:“Hoothoot. It has only one leg. When I was a kid, I had a pet bird. One day, I was surprised to see my bird standing on only one leg. I’ve learned since that that was normal for that kind of bird, but it had already made a big impression on me and I couldn’t forget it. That inspired me to create Hoothoot.”
-  translation: 咕咕。它只露出一只脚。我小时候养过一只鸟。有一天，我惊讶地发现它竟然单脚站立。后来我才知道，那种鸟本来就会这样，但当时它给我留下了极深的印象，令我久久无法忘怀。咕咕的灵感便源于此。
+  translation: "咕咕。它只有一条腿。我小时候养过一只鸟。有一天，我惊讶地发现它竟然单脚站立。后来我才知道，那种鸟本来就会这样，但当时它给我留下了极深的印象，令我久久无法忘怀。咕咕的灵感便源于此。"
   role: answer
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Hoot.png
@@ -234,7 +235,7 @@ parallel_items:
   alt: 咕咕设计概念
 - speaker: 太田健程
   original: Ota:“Charmander. Fire-types are cool! I also like Cyndaquil, the new Fire-type Pokémon.”
-  translation: 太田：“小火龙。火系宝可梦太帅了！我也很喜欢《金／银》里新出的火系宝可梦火球鼠。”
+  translation: "太田：“小火龙。火系宝可梦太帅了！我也很喜欢《金·银》里新出的火系宝可梦火球鼠。”"
   role: answer
 - speaker: 森本茂树
   original: Morimoto:“Mew. I created Mew two weeks before we were finished developing the original Pokémon game. I owe a lot to Mew.”
@@ -246,30 +247,30 @@ parallel_items:
   alt: 森本茂树与梦幻
 - speaker: 森本茂树
   original: Morimoto:“We put Mew in right at the very end. The cartridge was really full and there wasn’t room for much more on there. Then the debug features which weren’t going to be included in the final version of the game were removed, creating a minuscule 300 bytes of free space. So we thought  that we could slot Mew in there. What we did would be unthinkable  nowadays!”
-  translation: “我们是在最后关头才把梦幻塞进去的。当时卡带真的已经满了，几乎没剩什么空间。后来，那些不会收录进正式版的除错功能被移除，空出了区区300字节的微小空间。于是我们想，正好可以把梦幻塞进去。当年我们干的事，放到今天是不可想象的！”
+  translation: "“我们是在最后关头才把梦幻塞进去的。当时卡带真的已经满了，几乎没剩什么空间。后来，那些不会收录进正式版的调试功能被移除，空出了区区300字节的微小空间。于是我们想，正好可以把梦幻塞进去。当年我们干的事，放到今天是不可想象的！”"
   role: answer
 - speaker: 石原恒和
   original: Ishihara:“This is in spite of being told after debug ended that you weren’t to tamper with even a single bit! (laughs wryly)”
-  translation: “明明除错结束后已经严令过，哪怕一个比特都不准再碰ROM了！（苦笑）”
+  translation: "“明明调试结束后已经严令过，哪怕一个比特都不准动！（苦笑）”"
   role: answer
 - type: heading
   level: 2
   original: 'Chapter 5: Glimpsing the Future — Early Hints of the Third Generation'
-  translation: 第5章：千禧年展望——石原恒和初露第三世代曙光
+  translation: "第5章：一瞥未来——第三世代的早期端倪"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Sap.png
   caption: 石原恒和在2000年夏天向海外媒体暗示的“金银之后的下一部正作”，正是两年后引爆GBA世代的《宝可梦 红宝石／蓝宝石》。
   alt: 红蓝宝石早期暗示
 - speaker: Nintendo Power
   original: Nintendo Power:We know that Pokémon Puzzle League and Hey You, Pikachu! will soon hit the US Market, as will Gold and Silver. What is the plan for Pokémon beyond that?
-  translation: 《Nintendo Power》：我们知道《宝可梦方块》和《嘿，皮卡丘》即将登陆美国市场，《金／银》也是如此。在那之后，宝可梦的计划是什么？
+  translation: "《Nintendo Power》：我们知道《宝可梦方块》和《嘿，皮卡丘》即将登陆美国市场，《金·银》也是如此。在那之后，宝可梦的计划是什么？"
   role: question
 - speaker: 石原恒和
   original: Ishihara:“We are working on a new Pokémon game that will come out after Gold and Silver. We can’t say which platform it’s for at this time. I was thinking about the different language versions of Pokémon and how you can’t trade between them. If we can make them compatible with each other, they would be far more interesting. Pokémon users around the world would be able to communicate through the Pokémon game. A world  without language barriers is possible in the Star Trek world (laughing), and if we could do the same thing in the Pokémon world, that would be great!”
-  translation: “我们已经在着手制作《金／银》之后的新正统续作了，目前还不能透露对应平台。我一直在思考宝可梦各语言版本之间无法交换的问题。如果能让他们彼此兼容，那将会有趣得多。全世界的宝可梦玩家将能通过宝可梦游戏进行交流。在《星际迷航》的世界里，一个没有语言障碍的世界是可能的（笑），如果我们能在宝可梦的世界里做到同样的事，那就太棒了！”
+  translation: "“我们正在制作一款将在《金·银》之后发售的新宝可梦游戏，目前还不能透露是哪个平台。我一直在思考宝可梦各语言版本之间无法交换的问题。如果能让它们彼此兼容，会有趣得多。全世界的宝可梦玩家将能通过宝可梦游戏进行交流。在《星际迷航》的世界里，没有语言障碍的世界是可能的（笑），如果我们能在宝可梦的世界里做到同样的事，那就太棒了！”"
   role: answer
 - original: The “new Pokémon game” mentioned by Ishihara is of course Ruby & Sapphire, which launched on the Gameboy Advance in 2002. Selling over 16 million units combined, Ruby & Sapphire were the best-selling games to ever land on the GBA. What’s more, Ishihara’s goal of “a world without language barriers” was achieved — Ruby & Sapphire were the first games in the series to allow for trading between different language versions.
-  translation: 石原提到的“新宝可梦游戏”正是2002年在Game Boy Advance平台发售的《红宝石／蓝宝石》。两款作品合计销量突破1600万份，成为GBA平台史上最畅销的游戏。更重要的是，石原“打造一个没有语言壁垒的世界”的目标得以实现——《红宝石／蓝宝石》是系列首次允许不同语言版本之间进行交换。
+  translation: "石原提到的“新宝可梦游戏”正是2002年在Game Boy Advance平台发售的《红宝石·蓝宝石》。两款作品合计销量突破1600万份，成为GBA平台史上最畅销的游戏。更重要的是，石原“打造一个没有语言壁垒的世界”的目标得以实现——《红宝石·蓝宝石》是系列首次允许不同语言版本之间进行交换。"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/008.jpg
   alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_008

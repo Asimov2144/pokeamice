@@ -59,19 +59,20 @@ pending_review_regions: 151
 scan_set: shodai-zukan-1996
 entities:
   people:
-    - 田尻智
-    - 渡边哲也
-    - 森本茂树
-    - 太田健程
-    - 西田敦子
-    - 增田顺一
-    - 杉森建
-    - 藤原基史
-    - 西野弘二
+  - 田尻智
+  - 渡边哲也
+  - 森本茂树
+  - 太田健程
+  - 西田敦子
+  - 增田顺一
+  - 杉森建
+  - 藤原基史
+  - 西野弘二
+  - 宫本茂
   works:
-    - 宝可梦 红·绿
+  - 宝可梦 红·绿
   organizations:
-    - Game Freak
+  - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -285,7 +286,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: "▲写真手前左側より、データ管理担当西野、プログラマー渡辺、プログラマー森本、メインプログラマー太田、ゲームデザインおよびディレクター田尻、システムエンジニアおよびサウンドコンポーザー増田、キャラクターおよびチーフグラフィックデザイナー杉森、グラフィックデザイナー藤原、グラフィックデザイナー西田（以上、敬称略!）。"
-    translation: ▲照片中从前往左依次为：数据管理负责人西野、程序员渡边、程序员森本、主程序员太田、游戏设计及总监田尻、系统工程师及音响作曲增田、角色及首席图形设计师杉森、图形设计师藤原、图形设计师西田（以上均省略敬称！）。
+    translation: "▲照片前排从左起依次为：数据管理负责人西野、程序员渡边、程序员森本、主程序员太田、游戏设计及总监田尻、系统工程师及音乐作曲增田、角色及首席图形设计师杉森、图形设计师藤原、图形设计师西田（以上均省略敬称！）。"
     scan_box:
       - 115
       - 1864
@@ -313,7 +314,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 田尻 智(たじりさとし)ディレクター
-    translation: 田尻智（たじりさとし）总监
+    translation: "田尻智 总监"
     scan_box:
       - 437
       - 150
@@ -712,7 +713,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 太田 健程(おおたけのり)メインプログラマー
-    translation: 太田健程（おおたけのり）主程序员
+    translation: "太田健程 主程序员"
     scan_box:
       - 389
       - 160
@@ -744,7 +745,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 森本 茂樹(もりもとしげき)プログラマー
-    translation: 森本茂树（もりもとしげき）程序员
+    translation: "森本茂树 程序员"
     scan_box:
       - 1038
       - 158
@@ -996,7 +997,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 各スタッフがこだわりを持って仕事をしているというのは、ディレクターとしては意見をまとめるのが大変です(笑)。とは言え、でき上がったものはいろいろなゲームの魅力が入っていて、いい結果が出せたかな、と思っています。たとえばミニゲームとしてスロットマシンが入っているんですけど、それは渡辺の担当で、スタッフとして参加してきたときに「パチスロは僕が極めてますから」とか言ってたしね。
-    translation: 每位工作人员都带着自己的讲究去做事，作为总监，要把大家的意见汇总起来可真不容易（笑）。不过话说回来，做出来的东西里融入了各种游戏的魅力，我觉得算是做出了不错的结果。比如作为小游戏加入了老虎机，那是渡边负责的，他加入团队的时候还说过“柏青嫂我可是玩到极致的”之类的话呢。
+    translation: "每位工作人员都带着自己的讲究去做事，作为总监，要把大家的意见汇总起来可真不容易（笑）。不过话说回来，做出来的东西里融入了各种游戏的魅力，我觉得算是做出了不错的结果。比如作为小游戏加入了老虎机，那是渡边负责的，他加入团队的时候还说过“柏青哥老虎机我可是玩到极致的”之类的话呢。"
     scan_box:
       - 720
       - 1329
@@ -1533,7 +1534,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: うたい あいてを ねむらせる。
-    translation: 唱歌，让对方睡着。
+    translation: "让对方睡着。"
     scan_box:
       - 742
       - 1851
@@ -2062,7 +2063,7 @@ translation_segments:
     scan_page: 10
     review_status: review
     original: 西田 対戦もおもしろいですが、あまり勝ち負けにとらわれすぎないで、自分の育てたポケモンをどうかかわいがってあげてほしいですー。
-    translation: 西田：对战也很有趣，但希望大家不要太拘泥于胜负，好好疼爱自己培育的宝可梦。
+    translation: "西田 对战也很有趣，但希望大家不要太拘泥于胜负，好好疼爱自己培育的宝可梦。"
     scan_box:
       - 735
       - 1812
@@ -2151,7 +2152,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 発行人 廣瀬 禎彦
-    translation: 発行人 发行人 广濑祯彦
+    translation: "发行人 广濑祯彦"
     scan_box:
       - 152
       - 348
@@ -2167,7 +2168,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 編集人 浜村 弘一
-    translation: 編集人 编辑人 滨村弘一
+    translation: "编辑人 滨村弘一"
     scan_box:
       - 152
       - 387
@@ -2183,7 +2184,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 副編集人 野田 稔
-    translation: 副編集人 副编辑人 野田稔
+    translation: "副编辑人 野田稔"
     scan_box:
       - 152
       - 426
@@ -2199,7 +2200,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 編集長 田原 誠司
-    translation: 編集長 主编 田原诚司
+    translation: "主编 田原诚司"
     scan_box:
       - 152
       - 465
@@ -2215,7 +2216,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 副編集長 坂本 武郎、宮川 隆
-    translation: 副編集長 副主编 坂本武郎、宫川隆
+    translation: "副主编 坂本武郎、宫川隆"
     scan_box:
       - 152
       - 502
@@ -2231,7 +2232,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 発行所 株式会社アスキー〒151-24東京都渋谷区代々木4-33-10☎03-5351-8111
-    translation: 発行所 发行所 株式会社ASCII 邮编151-24 东京都涩谷区代代木4-33-10 电话03-5351-8111
+    translation: "发行所 株式会社ASCII 邮编151-24 东京都涩谷区代代木4-33-10 电话03-5351-8111"
     scan_box:
       - 152
       - 543
@@ -2268,7 +2269,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 発売元 株式会社アスペクト〒151-24東京都新宿区西新宿3-11-20オフィススクエアBLD新宿5F☎03-3299-1493
-    translation: 発売元 发售方 株式会社Aspect 邮编151-24 东京都新宿区西新宿3-11-20 Office Square BLD新宿5F 电话03-3299-1493
+    translation: "发售方 株式会社Aspect 邮编151-24 东京都新宿区西新宿3-11-20 Office Square BLD新宿5F 电话03-3299-1493"
     scan_box:
       - 150
       - 698
@@ -2310,7 +2311,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 監修 Creatures inc.
-    translation: 監修 监修 Creatures inc.
+    translation: "监修 Creatures inc."
     scan_box:
       - 152
       - 891
@@ -2326,7 +2327,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 指導 石原 恒和（Creatures inc.）
-    translation: 指導 石原恒和（Creatures inc.）
+    translation: "指导 石原恒和（Creatures inc.）"
     scan_box:
       - 152
       - 932
@@ -2342,7 +2343,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 企画・構成 陣内 弘之（Creatures inc.）
-    translation: 企划・构成 阵内弘之（Creatures inc.）
+    translation: "企划·构成 阵内弘之（Creatures inc.）"
     scan_box:
       - 150
       - 971
@@ -2358,7 +2359,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 編集 山本 善宣（ファミ通書籍編集部）
-    translation: 編集 编辑 山本善宣（Fami通书籍编辑部）
+    translation: "编辑 山本善宣（Fami通书籍编辑部）"
     scan_box:
       - 150
       - 1010
@@ -2374,7 +2375,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 中里 有吾（ファミ通書籍編集部）
-    translation: 中里 中里有吾（Fami通书籍编辑部）
+    translation: "中里有吾（Fami通书籍编辑部）"
     scan_box:
       - 310
       - 1049
@@ -2390,7 +2391,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 執筆 とみさわ昭仁川本ひろし
-    translation: 執筆 执笔 富泽昭仁 川本浩
+    translation: "执笔 とみさわ昭仁 川本ひろし"
     scan_box:
       - 150
       - 1087
@@ -2417,7 +2418,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 林 英明（ファミ通書籍編集部）
-    translation: 林 林英明（Fami通书籍编辑部）
+    translation: "林英明（Fami通书籍编辑部）"
     scan_box:
       - 310
       - 1165
@@ -2433,7 +2434,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 装丁 高田 正治（LUCKY NICE）
-    translation: 装丁 装帧 高田正治（LUCKY NICE）
+    translation: "装帧 高田正治（LUCKY NICE）"
     scan_box:
       - 150
       - 1204
@@ -2449,7 +2450,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 吉田 典子（LUCKY NICE）
-    translation: 吉田 吉田典子（LUCKY NICE）
+    translation: "吉田典子（LUCKY NICE）"
     scan_box:
       - 308
       - 1245
@@ -2497,7 +2498,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 崇史（OVER the【eks】）
-    translation: 渡边哲也崇史（OVER the【eks】）
+    translation: "崇史（OVER the【eks】）"
     scan_box:
       - 305
       - 1401
@@ -2513,7 +2514,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 岨 ちあき（OVER the【eks】）
-    translation: 岨 岨千明（OVER the【eks】）
+    translation: "岨ちあき（OVER the【eks】）"
     scan_box:
       - 305
       - 1442
@@ -2529,7 +2530,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 川端 康雄（月刊ファミ通Bros編集部）
-    translation: 川端 川端康雄（月刊Fami通Bros编辑部）
+    translation: "川端康雄（月刊Fami通Bros编辑部）"
     scan_box:
       - 305
       - 1481
@@ -2609,7 +2610,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 宮地 秀孝（START LINE）
-    translation: 宮地 秀孝（START LINE）
+    translation: "宫地秀孝（START LINE）"
     scan_box:
       - 304
       - 1677
@@ -2625,7 +2626,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 撮影 大屋 啓吾
-    translation: 撮影 摄影 大屋启吾
+    translation: "摄影 大屋启吾"
     scan_box:
       - 146
       - 1716
@@ -2641,7 +2642,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 編集協力 松田 華子（ファミ通書籍編集部）
-    translation: 編集協力 编辑协助 松田华子（Fami通书籍编辑部）
+    translation: "编辑协助 松田华子（Fami通书籍编辑部）"
     scan_box:
       - 145
       - 1755
@@ -2657,7 +2658,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 中島 俊（月刊ファミ通Bros編集部）
-    translation: 中島 俊（月刊Fami通Bros编辑部）
+    translation: "中岛俊（月刊Fami通Bros编辑部）"
     scan_box:
       - 302
       - 1796
@@ -2673,7 +2674,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 資料提供 GAME FREAK inc.
-    translation: 資料提供 资料提供 GAME FREAK inc.
+    translation: "资料提供 GAME FREAK inc."
     scan_box:
       - 145
       - 1835
@@ -2705,7 +2706,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: 印刷 大日本印刷株式会社
-    translation: 印刷 印刷 大日本印刷株式会社
+    translation: "印刷 大日本印刷株式会社"
     scan_box:
       - 145
       - 1913

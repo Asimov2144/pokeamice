@@ -262,7 +262,7 @@ parallel_items:
   role: question
 - speaker: 石原恒和
   original: 週間の販売ランキングで１位になったのは、確か発売してから、１年半以上もたった後でした。
-  translation: 在周销量排行榜上登顶，我记得是在发售一年半之后的事了。
+  translation: "在周销量排行榜上登顶，我记得是在发售一年半以上之后的事了。"
   role: answer
 - speaker: 岩田聪
   original: 演歌が発売されて１年半たってから爆発したみたいな（笑）。

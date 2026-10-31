@@ -37,7 +37,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 1: The Musical Roots of the Creators — Classical, Rock, and Synthesis'
-  translation: 第1章：创作者的音乐原点——从武满彻、古典管弦到摇滚与合成器
+  translation: "第1章：创作者的音乐原点——古典、摇滚与合成器"
 - speaker: 采访者（Media Factory）
   original: First, may I inquire about your musical roots, Shinji Miyazaki-san?
   translation: 首先，能否请宫崎慎二先生谈谈您的音乐根源？
@@ -52,7 +52,7 @@ parallel_items:
   role: question
 - speaker: 宫崎慎二
   original: No, I also listened to Kazuo Funaki-san and Sylvie Vartan’s “Search for the Idol” (Cherchez l’idole) and other things.
-  translation: 不，我也听了船木一夫先生和西尔维·瓦尔坦的《寻找偶像》（Cherchez l'idole）等作品。
+  translation: "不，我也听了舟木一夫先生和西尔维·瓦尔坦的《寻找偶像》（Cherchez l'idole）等作品。"
   role: answer
 - speaker: 采访者（Media Factory）
   original: And what made you want to become a professional?
@@ -60,11 +60,11 @@ parallel_items:
   role: question
 - speaker: 宫崎慎二
   original: I liked music, but I hadn’t received any specialized education on it, so I tried to attend a normal university. However, I couldn’t give up on music, so I worried myself, wondering if there were any connections. Shortly before that, I just happened to listen to Toru Takemitsu-san’s music and was incredibly moved. I also read Takemitsu-san’s literary work and thought, “This person is amazing.” That’s when I started brooding and went all the way to Tokyo to meet him.
-  translation: 我虽然喜爱音乐，却未曾接受过任何专业教育，于是便打算报考普通大学。然而，终究无法割舍对音乐的执念，我为此苦恼不已，思忖着是否有什么门路可寻。恰在彼时，我偶然聆听了武满彻先生的音乐，深受震撼。又读了武满先生的著作，心想“此人真是了不起”。于是我开始郁郁思索，一路奔赴东京去见他。
+  translation: "我喜欢音乐，却没有接受过任何专业教育，所以打算去考普通大学。可是我还是放不下音乐，一直在烦恼，不知道有没有什么门路。在那之前不久，我碰巧听到了武满彻先生的音乐，大受感动。我还读了武满先生写的文章，心想“这个人太了不起了”。于是我一门心思想着这件事，一路跑到东京去见他。"
   role: answer
 - speaker: 采访者（Media Factory）
   original: What, all of a sudden (laughs)?
-  translation: 怎么突然这么问？（笑）
+  translation: "什么，这么突然（笑）？"
   role: question
 - speaker: 宫崎慎二
   original: Yes (laughs). I visited a reporter who had written an article on Takemitsu-san in the newspaper and told him that I’d like to meet him. But I was told that he was not in Japan but in Paris at the moment, attending a music festival or something. There was nothing to be done about it, so I thought, “What now? Should I go home?” and was just lazing around at Yotsuya station, when this poster from a music academy caught my eye. Not to mention, it said, “basic course”. I wondered, “What do you do in a basic course? Could it be something I could do as well?” And so I ordered an application form and… All in all, I listened to different kinds of music and just dimly thought, “It would be nice to enter a world like this”, but it wasn’t until I was twenty that I approached it concretely.
@@ -73,7 +73,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 2: Game Freak''s Origins — Soundtracks, Brass Bands, and Chiptunes'
-  translation: 第2章：GAME FREAK 的根基——电影原声、吹奏乐部与8位元点阵之魂
+  translation: "第2章：GAME FREAK的根源——电影原声、铜管乐队与芯片音乐"
 - speaker: 采访者（Media Factory）
   original: Where do the musical roots of the Pokémon sound team lie?
   translation: 宝可梦声音团队的音乐根基源自何处？
@@ -104,11 +104,11 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: In high school, I was part of a brass band and played the trombone, but I never studied it (laughs). Basically, I like techno and rock. Those are far away from the Pokémon world. That one goes more in the direction of Marilyn Manson and Slipknot.
-  translation: 高中时我曾加入铜管乐队，吹奏长号，但从没正经学过（笑）。基本上，我偏爱电子乐与摇滚。那些跟宝可梦的世界相距甚远。宝可梦的世界更偏向玛丽莲·曼森和活结乐队那个方向。
+  translation: "高中时我加入了铜管乐队，吹长号，但从没正经学过（笑）。基本上，我偏爱电子乐与摇滚。这些跟宝可梦的世界相距甚远。我的口味更偏向玛丽莲·曼森和活结乐队那个方向。"
   role: answer
 - speaker: 一之濑刚
   original: Masuda-san’s taste in music from back then is reflected in the battle tracks (laughs).
-  translation: 增田先生当时的音乐品味，在战斗曲目中体现得淋漓尽致（笑）。
+  translation: "增田先生当时的音乐品味，反映在战斗曲目里（笑）。"
   role: answer
 - speaker: 采访者（Media Factory）
   original: Where do your musical roots lie then, Ichinose-san?
@@ -152,7 +152,7 @@ parallel_items:
   role: answer
 - speaker: 采访者（Media Factory）
   original: Regarding the fact that neither Ichinose-san nor Sato-san were originally part of the sound team; does Game Freak often make personnel changes among members?
-  translation: 关于一之濑先生与佐藤先生原本并非声音团队成员一事，GAME FREAK 是否经常在成员之间进行人事调整？
+  translation: "关于一之濑先生与佐藤小姐原本并非声音团队成员一事，GAME FREAK 是否经常在成员之间进行人事调整？"
   role: question
 - speaker: 增田顺一
   original: No, it’s not personnel changes; it’s more like we approach people who are familiar with music and ask them, “Hey, do you want to try and make a music piece like this?” When we find someone talented, we slowly tell them to “come over here” (laughs). So it’s not like they change sections and become part of the sound team.
@@ -169,7 +169,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 3: Transforming 8-Bit Chiptunes into Grand Orchestral Suites'
-  translation: 第3章：从8位元点阵音效到磅礴交响诗——动画管弦配器的创生秘辛
+  translation: "第3章：将8位芯片音乐变为宏大的管弦乐组曲"
 - type: image
   image: /assets/img/interviews/2010-08-04-interview-cd-anime-ost-miyazaki-soundteam/cd_cover.jpg
   caption: 精选集特制插画：小智、皮卡丘与跨世代传说的辉煌交响旅程。
@@ -208,7 +208,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: Yes, during the days of “Red & Green” it was 3 sounds plus background noise.
-  translation: 是的，在《红／绿》那个时代，是3个音加背景噪声。
+  translation: "是的，在《红·绿》那个时代，是3个音加背景噪声。"
   role: answer
 - speaker: 宫崎慎二
   original: So there were actually sounds that didn’t resonate. But I’m sure those sounds did resonate in Masuda-san’s mind as well. How did they resonate in Masuda-san’s mind? What if my world is entirely different from his? Those were the most difficult questions. The first arrangement does kind of determine the direction, after all. I was very worried and wondered, “Is it really okay this way?”
@@ -228,7 +228,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: The things Masuda is particular about – for example, whether something is important scenario-wise or concerning places that are important for the worldview – those are things for which he conveys a very clear image. However, other than that, everyone implements their own respective images and if Masuda says nothing, everything is OK.
-  translation: 增田执着在意之处——譬如某段旋律在剧情上是否举足轻重，或是关乎世界观构建的重要场所——对于这些，他心中都有极为清晰的意象。然而除此之外，每个人各自将自己心中的意象付诸实现，只要增田不置一词，便一切皆可。
+  translation: "增田执着在意的地方——比如在剧情上是否重要，或者对世界观来说是否重要的地点——对于这些，他会给出非常明确的意象。但除此之外，每个人各自把自己心中的意象实现出来，只要增田什么也不说，就是没问题。"
   role: answer
 - speaker: 增田顺一
   original: There aren’t that many “no-go’s” getting submitted anyway. But, for example, while the Jouto region had cities around Kyoto serving as models, I said something like, “Don’t make it too Japanese.” By adding non-Japanese music to a Japanese place, I want to create a new, slightly different worldview.
@@ -240,7 +240,7 @@ parallel_items:
   role: question
 - speaker: 一之濑刚
   original: Pokémon tunes use “input music”, a special trait of the games, and have a tendency to be composed without favoring playing methods for musical compositions or harmonic concepts. Considering all this, it must be very complicated to make orchestra arrangements. What do you think?
-  translation: 宝可梦的乐曲是游戏特有的“编程音乐”（日语「打ち込み」，指在音序器里逐音输入、由机器演奏），其创作往往不偏向于音乐作品本身的演奏方式或和声理念。考虑到这些因素，要将其改编为管弦乐想必极为复杂。您对此有何看法？
+  translation: "宝可梦的乐曲使用的是游戏特有的“编程音乐”（打ち込み），其创作往往不偏向于音乐作品本身的演奏方式或和声理念。考虑到这些因素，要将其改编为管弦乐想必极为复杂。您对此有何看法？"
   role: answer
 - speaker: 宫崎慎二
   original: Choosing the instruments is easy. Determining whether their respective figures and orchestra arrangements are effective is also easy. However, I think the difference is that, compared to input works, the feeling of broadness may get lost. For example, when the original tune uses a variety of synth strings, there is a broadness to the timbre, but if the chords are played with real strings, it doesn’t seem that way any more.
@@ -256,7 +256,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: There is one tune among the ones you arranged, Miyazaki-san, that I really like. It’s Disc 2, Track 14, “Minamo City”. Surprisingly, the sub-melody (the melody that complements the main melody) and the harmony weren’t changed, so it turned out to be extremely close to the original tune. I must say I was very happy and thought, “Miyazaki-san must have approved of this.” (laughs)
-  translation: 宫崎先生，在您改编的曲目中，有一首我特别喜欢。就是Disc 2的第14首《水脉市》。令人惊喜的是，副旋律（即衬托主旋律的旋律）与和声都没有改动，因此成品与原曲极为接近。说实话我非常高兴，心想“宫崎先生一定是认可了这首曲子”。（笑）
+  translation: "宫崎先生，在您改编的曲目中，有一首我特别喜欢。就是Disc 2的第14首《水静市》。令人惊喜的是，副旋律（即衬托主旋律的旋律）与和声都没有改动，因此成品与原曲极为接近。说实话我非常高兴，心想“宫崎先生一定是认可了这首曲子”。（笑）"
   role: answer
 - speaker: 宫崎慎二
   original: Please (laughs). There are some compositions where I’d refuse even if I was asked to change them.
@@ -264,7 +264,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: I’d like to know more about them (laughs).
-  translation: 真想更深入地了解他们呢（笑）。
+  translation: "真想更深入地了解它们呢（笑）。"
   role: answer
 - speaker: 宫崎慎二
   original: There are cases where, if I try it with the key for the instruments I had in mind, it doesn’t sound as I imagined it or, if I change the key, it doesn’t bring out the feeling the original tune had carried.
@@ -276,7 +276,7 @@ parallel_items:
   role: question
 - speaker: 宫崎慎二
   original: I mentioned it earlier, but the battle tunes from the early days couldn’t be left as-is, no matter what. That’s why I slowed down the tempo a little. Having done that, I was torn on what to leave out and what to include. For example, the sound range of the trumpets used in the games is surprisingly high…
-  translation: 方才我也提及过，早期那些战斗曲目无论如何都不能原封不动地沿用。正因如此，我将速度稍稍放慢了一些。可这样一来，究竟该舍弃什么、保留什么，令我颇费踌躇。譬如，游戏中使用的铜管音域之高，实在出人意料……
+  translation: "方才我也提及过，早期那些战斗曲目无论如何都不能原封不动地沿用。正因如此，我将速度稍稍放慢了一些。可这样一来，究竟该舍弃什么、保留什么，令我颇费踌躇。譬如，游戏中使用的小号音域之高，实在出人意料……"
   role: answer
 - speaker: 一之濑刚
   original: That’s true. Low tones don’t come out of game consoles speakers very well, but high tones do. That’s why we often use high tones.
@@ -340,7 +340,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: Like Miyazaki-san, I think of the melody or the framework of a piece while taking a shower or something. The instance I’m freed after having been pressured by the deadline for my work is the best time for me to think of music pieces. Sorry if the story sounds hopeless (laughs).
-  translation: 和一之濑刚一样，我常在洗澡或做其他事情时思考旋律或乐曲的框架。当工作截止日期带来的压力终于卸下、获得解放的那一刻，正是我构思乐曲的最佳时机。如果这话听起来太没出息，还请见谅（笑）。
+  translation: "和宫崎先生一样，我常在洗澡之类的时候想到旋律或乐曲的框架。被工作截止日期逼得紧张之后终于解脱的那一刻，是我构思乐曲的最佳时机。如果这话听起来太没出息，还请见谅（笑）。"
   role: answer
 - speaker: 佐藤仁美
   original: I’m the opposite; if I don’t sit at a desk, nothing will come out. And when I think, “I have little time left. Just one more hour!” everything comes out at once.
@@ -364,7 +364,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: I see, so you’re among those who think of the melody later.
-  translation: 原来如此，您是属于先有和弦、后谱旋律的那一派啊。
+  translation: "原来如此，您是属于后想旋律的那一派啊。"
   role: answer
 - speaker: 佐藤仁美
   original: I never have any ideas.
@@ -392,7 +392,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: It’s still the fight theme from the first games, “Red & Green” [Disc 1, Track 6 Fight (VS Wild Pokémon)].
-  translation: 那仍然是最初《红／绿》中的战斗主题曲［Disc 1 第6轨 战斗（VS 野生宝可梦）］。
+  translation: "那仍然是最初《红·绿》中的战斗主题曲［Disc 1 第6轨 战斗（VS 野生宝可梦）］。"
   role: answer
 - speaker: 宫崎慎二
   original: There are some subtle differences between the versions.
@@ -400,7 +400,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: This arrangement was even more fantastic than I imagined. If I tried to arrange it myself, it’d end up going in the same direction, you see (laughs).
-  translation: 这次改编比我预想中的还要精彩绝伦。若换作我自己来编曲，恐怕也会走向同样的方向呢（笑）。
+  translation: "这次的改编比我想象的还要出色。要是我自己来编，恐怕也会走向同样的方向呢（笑）。"
   role: answer
 - speaker: 宫崎慎二
   original: Perhaps it’s that, even if you think there are many possible directions, there is only one truth (laughs). You just think that this is more or less how it should be.
@@ -416,11 +416,11 @@ parallel_items:
   role: answer
 - speaker: 佐藤仁美
   original: For me, it’s Disc 2, Track 34, “Hakutai Woods”. The original piece was made with a “forest-like” image in mind, but when I listened to the arrangement, it was a lake-like piece. Since in the games, the scenes where you meet the legendary Pokémon take place at lakes, I was incredibly moved when I heard that it was changed that way. I thought, “There is a feeling of mystery to it that I couldn’t bring out.” Another one would be Disc 2, Track 36, “Route 206 (Day)”. It’s played in a place called route 206, and actually, it’s the first piece I ever made. When it was played at the beginning of the first episode of Diamond & Pearl, I was so happy I almost cried.
-  translation: 对我来说，是Disc 2的第34首《白岱森林》。原曲是以“森林”的意象创作的，但当我听到编曲版本时，它变成了一首如湖泊般的乐曲。在游戏中，与传说的宝可梦相遇的场景正好发生在湖畔，所以当我听到它被改编成那样时，内心深受感动。我觉得“其中蕴含着一种我无法表现出的神秘感”。另外一首是Disc 2的第36首《206号道路（白天）》。这首曲子在一个叫206号道路的地方播放，实际上，它是我创作的第一首曲子。当它在《钻石&珍珠》第一集开头响起时，我高兴得几乎要哭出来。
+  translation: "对我来说，是Disc 2的第34首《百代森林》。原曲是以“森林”的意象创作的，但当我听到编曲版本时，它变成了一首如湖泊般的乐曲。在游戏中，与传说的宝可梦相遇的场景正好发生在湖畔，所以当我听到它被改编成那样时，内心深受感动。我觉得“其中蕴含着一种我无法表现出的神秘感”。另外一首是Disc 2的第36首《206号道路（白天）》。这首曲子在一个叫206号道路的地方播放，实际上，它是我创作的第一首曲子。当它在《钻石&珍珠》第一集开头响起时，我高兴得几乎要哭出来。"
   role: answer
 - speaker: 增田顺一
   original: It seems like the direction the arrangements take is what stimulates the sound team.
-  translation: 编曲所选择的方向，似乎正是激发声音团队创作灵感的关键所在。
+  translation: "编曲所采取的方向，似乎会给声音团队带来刺激。"
   role: answer
 - speaker: 一之濑刚
   original: You’re right.
@@ -436,7 +436,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: For a while, I’ve been thinking that, since “Pokémon” is a game millions of people play, the tracks included in it are heard by millions of people as well. In that regard, it’s a production which exerts a lot of influence. Even putting aside whether the same goes for the music, I’d prefer to do new things that differ from others. Concerning this CD, one of the things one should look forward to is hearing diverse endings (the last part of a track) that aren’t present in the games. I’d be happy if game fans as well as anime fans looked back at Pokémon music with fond memories when hearing live performances.
-  translation: 一之濑刚：一直以来我都在思考，既然“宝可梦”是数百万人游玩的游戏，那么其中收录的乐曲自然也会被数百万人所聆听。从这层意义上来说，这是一部影响力巨大的作品。即便暂且不论音乐是否也是如此，我也更倾向于去做与他人不同的新尝试。关于这张CD，值得期待的一点便是能听到游戏中不曾有过的多样化的结尾（乐曲的收束部分）。如果游戏粉丝和动画粉丝在聆听现场演奏时，能够怀着美好的回忆回顾宝可梦的音乐，我会感到非常高兴。
+  translation: "一直以来我都在思考，既然“宝可梦”是数百万人游玩的游戏，那么其中收录的乐曲自然也会被数百万人所聆听。从这层意义上来说，这是一部影响力巨大的作品。即便暂且不论音乐是否也是如此，我也更倾向于去做与他人不同的新尝试。关于这张CD，值得期待的一点便是能听到游戏中不曾有过的多样化的结尾（乐曲的收束部分）。如果游戏粉丝和动画粉丝在聆听现场演奏时，能够怀着美好的回忆回顾宝可梦的音乐，我会感到非常高兴。"
   role: answer
 - speaker: 佐藤仁美
   original: Among those who play the games, there might be some who aren’t very interested in music. I’d like to put something into the worldview of the tracks that makes those people think, “This is a nice piece” and that awakens their interest.
@@ -448,7 +448,7 @@ parallel_items:
   role: answer
 - speaker: 采访者（Media Factory）
   original: It would be great to see that! Thank you for today.
-  translation: 能听到这些真是太棒了！感谢各位今日莅临。
+  translation: "真想看到那样的场面呢！今天非常感谢各位。"
   role: question
 interviewee: Media Factory / PocketMonsters.Net, 一之濑刚, 佐藤仁美, 增田顺一, 宫崎慎二, 采访者（Media Factory）
 source:

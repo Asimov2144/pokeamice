@@ -33,7 +33,7 @@ entities:
 parallel_items:
 - type: heading
   original: 第1回：田尻智 社長編（ポケモンの生みの親が語る構想と『金・銀』最前線）
-  translation: 第1回：田尻智 社长篇（宝可梦之父谈初代构想与《金·银》超前线）
+  translation: "第1回：田尻智 社长篇（宝可梦之父谈构想与《金·银》最前线）"
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/01_tajiri.jpg
   alt: 田尻智（GAME FREAK代表取缔役社长 / 游戏设计师）
@@ -108,7 +108,7 @@ parallel_items:
   speaker: 皮卡丘（记者）
   original: これは、ガチャガチャのやつでぴね。ピカュウもスターミーのもってるでちゅよ。
   speaker_ja: ピカチュウ
-  translation: 那是扭蛋机里的那种吧皮卡。皮卡丘也有海星星的啾。
+  translation: "那是扭蛋机里的那种吧皮卡。皮卡丘也有宝石海星的啾。"
   role: question
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -226,7 +226,7 @@ parallel_items:
   role: answer
 - type: heading
   original: 第2回：杉森建 取締役・アートディレクター編（愛用の画材とフシギバナの苦悩）
-  translation: "第2回：杉森建 美术总监篇（十年画材、画不出的妙蛙花与全主机收藏）"
+  translation: "第2回：杉森建 董事·美术总监篇（惯用的画材与妙蛙花的烦恼）"
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/02_sugimori.jpg
   alt: 杉森建（GAME FREAK取缔役 / 艺术总监）
@@ -234,7 +234,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: こんにちわ。ピカチュウでちゅ！おげんきしてまちゅか？第二回目は、お絵かきのえらい人、「デザイナー杉森建さん」がターゲットでちゅー！なんだか聞いて欲しい質問を募集したら、とんでもないものがおおかったでちゅ。決してぴかちゅうが聞きたいことじゃないで・・・ちゃーっ！！
-  translation: 你好。我是皮卡丘啾！你精神吗啾？第二次的目标是画画的大人物， “设计师杉森建先生”啾！听说征集想问的问题时，来了好多不得了的东西啾。绝对不是皮卡丘想听的…… 呀——！！
+  translation: "你好。我是皮卡丘啾！你精神吗啾？第二次的目标是画画的大人物，“设计师杉森建先生”啾！征集大家想让我问的问题，结果来了好多不得了的东西啾。绝对不是皮卡丘想听的……呀——！！"
   role: question
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -259,7 +259,7 @@ parallel_items:
 - type: dialogue
   speaker: 杉森建
   original: ファミコン・ディスクシステム・PCエンジンDUO-RX・セガマーク3・初代メガドライブ・初代メガCD・スーパー32X・スーパーファミコン・ネオジオ・サターン（ムービーカード付き）プレイステーション・ニンテンドウ64・ゲームボーイ・ゲームギア。
-  translation: 红白机·磁盘系统·PC Engine DUO-RX· 世嘉Mark 3·初代Mega Drive·初代Mega CD·Super 32X· 超级任天堂·Neo Geo·土星（带电影卡） PlayStation·任天堂64· Game Boy·Game Gear。
+  translation: "红白机·磁盘系统·PC Engine DUO-RX·世嘉Mark 3·初代Mega Drive·初代Mega CD·Super 32X·超级任天堂·Neo Geo·土星（带电影卡）·PlayStation·任天堂64·Game Boy·Game Gear。"
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -284,12 +284,12 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ブリーフ派でぴか？　トランクス派でちゅか？
-  translation: 是穿平角裤派皮卡？还是三角裤派啾？
+  translation: "是三角裤派皮卡？还是平角裤派啾？"
   role: question
 - type: dialogue
   speaker: 杉森建
   original: トランクス。２まい500円。
-  translation: 三角裤。两条500日元。
+  translation: "平角裤。两条500日元。"
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -324,7 +324,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ？　ぴかちゅは良くわからないけど、つよそうでちゅね(^ ^) ぴかちゅは「ダイヤモンドダストー！！」だとおもうんでちゃーっ！！
-  translation: ？皮卡丘不太懂，不过听起来好厉害啾(^ ^) 皮卡丘觉得是「钻石星辰——」啾！！
+  translation: "？皮卡丘不太懂，不过听起来好厉害啾(^ ^) 皮卡丘觉得是「钻石星尘——」啾！！"
   role: question
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -384,12 +384,12 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: フシギバナちゃんおきのどくでちゅう・・・。
-  translation: 妙蛙花小姐真可怜皮卡丘……
+  translation: "妙蛙花真可怜啾……"
   role: question
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: 以前連載していたマンガ『クインティ』の連載途中から、女の子のおっぱいがおおきくなりましたが、あれはどうしてでちゅう？杉森さんの好みでちゅか？
-  translation: 以前连载的漫画《麦森探险》连载途中，女孩子的胸部变大了，那是怎么回事啾？是杉森先生的喜好吗？
+  translation: "以前连载的漫画《Quinty》，连载途中女孩子的胸部变大了，那是怎么回事啾？是杉森先生的喜好吗？"
   role: question
 - type: dialogue
   speaker: 杉森建
@@ -439,7 +439,7 @@ parallel_items:
 - type: dialogue
   speaker: 杉森建
   original: ジャンプの打ち切りマンガの単行本を集める。最近では『モートゥルーコマンドーGUY』が熱かったなあ。
-  translation: 收集被《JUMP》腰斩的漫画单行本。最近《莫特鲁指挥官GUY》很燃啊。
+  translation: "收集被《JUMP》腰斩的漫画单行本。最近《莫特鲁突击队GUY》很燃啊。"
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -493,7 +493,7 @@ parallel_items:
   role: question
 - type: heading
   original: 第3回：森本茂樹 バトルプログラマー編（ミュウ誕生の真実と通信対戦の苦闘）
-  translation: 第3回：森本茂树 战斗设计师篇（偷塞梦幻的始末、通信对战危机与健康恶魔）
+  translation: "第3回：森本茂树 战斗程序员篇（梦幻诞生的真相与通信对战的苦战）"
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/05_morimoto.jpg
   alt: 森本茂树（GAME FREAK程序员 / 宝可梦设计师）
@@ -627,17 +627,17 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: では、もんちゃん自身の質問にもどるでちゅう。どこから洗うんでちゅか？
-  translation: 那么，回到蚊香蝌蚪自己的问题啾。先从哪儿开始洗呢？
+  translation: "那么，回到小森自己的问题啾。先从哪儿开始洗呢？"
   role: question
 - type: dialogue
   speaker: 森本茂树
   original: あ・た・ま！
-  translation: 头·发！
+  translation: "头！"
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: つまんないでちゅう～。もんちゃんは髪の毛を触ると怒りますがどうしてでちゅう？何か秘密があるんでちゅか？
-  translation: 真无聊啾～。蚊香蝌蚪被摸头发会生气，这是为什么啾？有什么秘密吗？
+  translation: "真无聊啾～。小森被摸头发会生气，这是为什么啾？有什么秘密吗？"
   role: question
 - type: dialogue
   speaker: 森本茂树
@@ -661,7 +661,7 @@ parallel_items:
   role: question
 - type: heading
   original: 第4回：太田健程 プログラマー編（空手王と林原めぐみさんへの熱き想い）
-  translation: 第4回：太田健程 演出程序员篇（空手道王、极真空手二段与爱之追寻）
+  translation: "第4回：太田健程 程序员篇（空手王与对林原惠美的炽热情感）"
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/06_ohta.png
   alt: 太田健程（GAME FREAK程序员 / 空手道太田）
@@ -715,7 +715,7 @@ parallel_items:
 - type: dialogue
   speaker: 太田健典
   original: 林原めぐみ。（注・ムサシ役の声優）
-  translation: '林原惠。'
+  translation: "林原惠美。"
   note: '武藏的配音演员'
   role: answer
 - type: dialogue
@@ -741,7 +741,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ぴか!?　意外と真面目なこたえっちゃ！もっとアブナイことをしているのかと思ったっちゅ！話題をかえるでちゅう・・・。おフロのときは、どこから洗うんでぴか？
-  translation: 皮卡!? 意外地很正经的回答皮卡！还以为会做什么更危险的事情呢啾！换个话题啾……洗澡的时候，先从哪儿开始洗皮卡？
+  translation: "皮卡！？意外地很正经的回答皮卡！还以为会做什么更危险的事情呢啾！换个话题啾……洗澡的时候，先从哪儿开始洗皮卡？"
   role: question
 - type: dialogue
   speaker: 太田健典
@@ -771,7 +771,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ・・・ギャルに目が行くトコロ当たりが不道徳王っちゃ・・・さすがちゃー!! 林原さんが好きと言っておきながらー・・・。ポケモン２のウリはなんちゃ？
-  translation: ……目光被女孩子吸引这一点果然是不道德王皮卡……不愧是皮卡!! 明明说喜欢林原小姐的——……。《宝可梦2》的卖点是什么？
+  translation: "……目光被女孩子吸引这一点果然是不道德王皮卡……不愧是皮卡！！明明说喜欢林原小姐的——……。《宝可梦2》的卖点是什么？"
   role: question
 - type: dialogue
   speaker: 太田健典
@@ -821,11 +821,11 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ぴひゃひゃ（笑）ありがとうございました～！ひゅうう・・・つかれるインタビューだったっちゃ。次はゲームフリークいち胸元のセクシーな人の登場でちゅ！せくし～っ
-  translation: 皮嘻嘻（笑）谢谢你啦～！呼啊……这次采访好累皮卡。接下来登场的是GAME FREAK中最有胸襟的性感人物！性感～
+  translation: "皮嘻嘻（笑）谢谢你啦～！呼啊……这次采访好累皮卡。接下来登场的是GAME FREAK中胸口最性感的人！性感～"
   role: question
 - type: heading
   original: 第5回：増田順一 サウンドディレクター編（シオンタウンの音階とコダックへの愛）
-  translation: 第5回：增田顺一 音乐总监篇（性感音乐家、宝可梦叫声体系与紫苑镇秘闻）
+  translation: "第5回：增田顺一 声音总监篇（紫苑镇的音阶与对可达鸭的喜爱）"
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/03_masuda.jpg
   alt: 增田顺一（GAME FREAK取缔役 / 音乐总监 / 作曲家）
@@ -833,7 +833,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: こんにちはぴかちゅうでちゅう。最近すっかり秋らしくなりましたでちゅね。サンマの美味しい季節でちゅ(^ ^) 芸術の秋にふさわしく胸元がセクシーな音楽家！！増田部長に直撃インタビューちゃーっ！！
-  translation: 你好皮卡丘来啦啾。最近真是秋意渐浓了啾。是秋刀鱼美味的季节啾(^ ^) 配得上艺术之秋的胸襟性感的音乐家！！直接采访增田部长啦！
+  translation: "你好皮卡丘来啦啾。最近真是秋意渐浓了啾。是秋刀鱼美味的季节啾(^ ^) 配得上艺术之秋的胸口性感的音乐家！！直接采访增田部长啦！"
   role: question
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -1003,7 +1003,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: 地下室を作って、そこを楽器で埋め尽くすこと。おおおっ。たまらん！なぜ地下室なのか気になるでちゅう・・・あやしいでちゅ。ちなみに、ウワサのせくしー胸元で何人「ゲットだぜ！！」しましたか？
-  translation: 在地下室建一个，然后用乐器把它填满。哦哦哦！受不了了！为什么是地下室，皮卡丘好在意啾……好可疑皮卡。顺便问一下，传闻中的性感胸襟，你让多少人“收服宝可梦啦！！”了？
+  translation: "在地下室建一个，然后用乐器把它填满。哦哦哦！受不了了！为什么是地下室，皮卡丘好在意啾……好可疑皮卡。顺便问一下，传闻中的性感的胸口，你让多少人“收服宝可梦啦！！”了？"
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）

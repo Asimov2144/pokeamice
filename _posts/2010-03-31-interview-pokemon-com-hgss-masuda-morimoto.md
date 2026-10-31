@@ -26,7 +26,7 @@ parallel_items:
   alt: Pokémon.com 官方特别专题：走入幕后对话 GAME FREAK 的六位宝可梦大师（2010年3月31日）
 - speaker: Pokemon.com
   original: 'Meet the Pokémon developers and learn what goes into making such incredible games! Recently, we had the rare opportunity to discuss Pokémon HeartGold and SoulSilver Versions with some very knowledgable people: the developers at GAME FREAK, inc. The six developers took time out to provide some insight into topics surrounding the games.'
-  translation: 认识一下宝可梦的开发者们，了解打造这些精彩游戏背后的故事！最近，我们获得了一次难得的机会，与几位非常资深的专业人士讨论了《宝可梦 心金／魂银》。他们就是GAME FREAK, inc.的开发者们。六位开发者在百忙之中抽出时间，围绕这两款游戏的方方面面分享了他们的见解。
+  translation: "认识一下宝可梦的开发者们，了解打造这些精彩游戏背后的故事！最近，我们获得了一次难得的机会，与几位非常资深的专业人士讨论了《宝可梦 心金·魂银》。他们就是GAME FREAK, inc.的开发者们。六位开发者在百忙之中抽出时间，围绕这两款游戏的方方面面分享了他们的见解。"
   role: question
 - type: image
   caption: NDS《宝可梦 心金》与《宝可梦 魂银》北美发售包装盒封面与同捆的 Pokéwalker（宝可计步器）
@@ -35,7 +35,7 @@ parallel_items:
   alt: NDS《宝可梦 心金》与《宝可梦 魂银》北美发售包装盒封面与同捆的 Pokéwalker（宝可计步器）
 - speaker: Pokemon.com
   original: It has been ten years since the original Pokémon Gold and Silver versions. What has changed in that time with regards to your approach to game design and what has remained the same?
-  translation: 距离最初的《宝可梦 金／银》发售已经过去十年了。在这段时间里，你们在游戏设计理念方面有哪些变化，又有哪些始终未变？
+  translation: "距离最初的《宝可梦 金·银》发售已经过去十年了。在这段时间里，你们在游戏设计理念方面有哪些变化，又有哪些始终未变？"
   role: question
 - type: image
   caption: 增田顺一（Junichi Masuda，制作总监 / Director）
@@ -44,7 +44,7 @@ parallel_items:
   alt: 增田顺一（Junichi Masuda，制作总监 / Director）
 - speaker: 增田顺一
   original: 'Junichi Masuda, Director : Because of the hardware, our game design has changed dramatically. Really, I didn’t think of the Internet ten years ago! ( laughs ) Also, the quality of both picture and sound have dramatically advanced in that time—the number of colors and three-dimensional graphics, for instance, has greatly expanded. Of course, that made things harder! ( laughs ) One thing which hasn’t changed is our desire to create a game that is approachable for everyone.'
-  translation: 增田顺一（制作总监）：由于硬件的进步，我们的游戏设计发生了翻天覆地的变化。说实话，十年前我根本没想过互联网会如此普及！（笑）同时，画面和音效的质量在这段时间里也有了飞跃性的提升——比如色彩数量和三维图形技术都大大拓展了。当然，这也让开发变得更加困难了！（笑）但有一点始终未变，那就是我们想要打造一款人人都能轻松上手的游戏的初衷。
+  translation: "增田顺一（制作总监）：受硬件的影响，我们的游戏设计发生了很大的变化。说实话，十年前我连互联网都没有考虑过！（笑）同时，这段时间里画面和音效的质量也有了大幅提升——比如颜色数量和三维图形就大大增加了。当然，这也让开发变得更困难了！（笑）一直没有变的，是我们想做一款人人都能轻松上手的游戏的愿望。"
   role: answer
 - type: image
   caption: 森本茂树（Shigeki Morimoto，游戏总监 / Game Director）
@@ -71,7 +71,7 @@ parallel_items:
   alt: 大森滋（Shigeru Ohmori，策划·游戏设计 / Planner）
 - speaker: 大森滋
   original: 'Shigeru Ohmori, Planner : When Gold and Silver launched, I was a student, and I played the game intensely. I never thought I would be involved in Pokémon game development. For me personally, this has been a huge change. I still have vivid memories of playing those games, and it encourages me to do my best to make an even better game for future players.'
-  translation: 大森滋（策划）：《金／银》发售时我还是个学生，当时玩得非常投入。我从没想过自己会参与宝可梦游戏的开发。对我个人而言，这是一个巨大的转变。我至今仍清晰地记得玩那些游戏时的情景，这也激励我竭尽全力，为未来的玩家打造一款更好的游戏。
+  translation: "大森滋（策划）：《金·银》发售时我还是个学生，当时玩得非常投入。我从没想过自己会参与宝可梦游戏的开发。对我个人而言，这是一个巨大的转变。我至今仍清晰地记得玩那些游戏时的情景，这也激励我竭尽全力，为未来的玩家打造一款更好的游戏。"
   role: answer
 - type: image
   caption: 森昭人（Akito Mori，主程序·音效主管 / Programming Lead）
@@ -97,7 +97,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: 'Masuda : First of all, it is not just a game series that simply presents the Pokémon world, characters, and scenarios. It is the entire gameplay experience that goes way beyond the borders. For instance, let’s take a universal play mechanic like throwing and catching a ball. Children from different countries can play that game right away. But now let’s consider another example: sports. Both of these share the same thing, and that’s gameplay. In Pokémon games, it is a game in which a player encounters Pokémon that have jumped out of the bushes, a game in which a player battles with a Pokémon and catches it, and a game in which a player can battle against other Trainers. Those are the basics. But then you have characters, scenarios, Pokédex, Items, moves, Trainers, and Rivals are intertwined with this basic gameplay. So, to answer your question, what makes Pokémon so universally enjoyed? It is because at the core of all our titles is gameplay.'
-  translation: 首先，它不仅仅是一个单纯呈现宝可梦世界、角色和剧情的游戏系列。它是远远超越这些界限的完整游戏体验。举个例子，就拿“投球并捕捉”这样一个通用的游玩机制来说，不同国家的孩子都能立刻上手。但我们再来看另一个例子：体育运动。这两者有一个共同点，那就是游玩性。在宝可梦游戏中，玩家会遇到从草丛中跳出来的宝可梦，会与宝可梦对战并将其捕获，还能与其他训练家对战。这些都是基础。但在此基础上，角色、剧情、宝可梦图鉴、道具、招式、训练家和劲敌都与这一基础游玩体验交织在一起。所以，回答你的问题——是什么让宝可梦如此受到全世界喜爱？那是因为我们所有作品的核心都是游玩性。
+  translation: "首先，它不仅仅是一个单纯呈现宝可梦世界、角色和剧情的游戏系列。它是远远超越这些界限的完整游戏体验。举个例子，就拿“扔球、接球”这样一个通用的游玩机制来说，不同国家的孩子都能立刻上手。但我们再来看另一个例子：体育运动。这两者有一个共同点，那就是游玩性。在宝可梦游戏中，玩家会遇到从草丛中跳出来的宝可梦，会与宝可梦对战并将其捕获，还能与其他训练家对战。这些都是基础。但在此基础上，角色、剧情、宝可梦图鉴、道具、招式、训练家和劲敌都与这一基础游玩体验交织在一起。所以，回答你的问题——是什么让宝可梦如此受到全世界喜爱？那是因为我们所有作品的核心都是游玩性。"
   role: answer
 - speaker: Pokemon.com
   original: The Pokéwalker is not the first time Pokémon has made an accessory for the games. What do you like about the Pokéwalker concept that made you decide to add one to this game?
@@ -109,7 +109,7 @@ parallel_items:
   role: answer
 - speaker: Pokemon.com
   original: American gamers are becoming more interested in the development of the games they love. Can you give some insight into what it takes to make games like Pokémon HeartGold and SoulSilver Versions?
-  translation: 美国玩家对自身喜爱游戏的开发过程正变得越来越感兴趣。能否请您谈谈，制作《宝可梦 心金／魂银》这样的游戏需要具备哪些条件？
+  translation: "美国玩家对自身喜爱游戏的开发过程正变得越来越感兴趣。能否请您谈谈，制作《宝可梦 心金·魂银》这样的游戏需要具备哪些条件？"
   role: question
 - speaker: 森本茂树
   original: 'Morimoto : Heart and Soul! ( laughs ) It took just under three years to develop and about twenty people were involved.'
@@ -117,15 +117,15 @@ parallel_items:
   role: answer
 - speaker: Pokemon.com
   original: Are there any particular areas or locations in Pokémon HeartGold and SoulSilver Versions that you are proud of or had a lot of fun developing? Any insider tips on what gamers definitely watch for or locations they absolutely must travel to?
-  translation: 在《宝可梦 心金／魂银》中，有没有哪些特定的区域或地点是你们引以为傲，或者开发时觉得特别有趣的？有没有什么内部提示，告诉玩家一定要留意什么，或者绝对必须去哪些地方？
+  translation: "在《宝可梦 心金·魂银》中，有没有哪些特定的区域或地点是你们引以为傲，或者开发时觉得特别有趣的？有没有什么内部提示，告诉玩家一定要留意什么，或者绝对必须去哪些地方？"
   role: question
 - speaker: 森本茂树
   original: 'Morimoto : My favorite place is Ecruteak City. It was the first town/city that we created for HeartGold and SoulSilver .'
-  translation: 森本茂树：我最喜欢的地方是缘朱市。那是我们在制作《心金／魂银》时最先打造的一座城镇。
+  translation: "森本茂树：我最喜欢的地方是缘朱市。那是我们在制作《心金·魂银》时最先打造的一座城镇。"
   role: answer
 - speaker: 松岛贤二
   original: 'Matsushima : The Pokémon world is unique because of the liveliness of the Pokémon. And in HeartGold and SoulSilver , you can walk with Pokémon. I encourage players to try to walk with a wide variety of Pokémon. Travel around so you can meet the main characters, such as the Gym Leaders who appear in different parts of the regions. And there are various events in which you’ll earn their friendship.'
-  translation: 松岛贤二：宝可梦世界的独特之处在于宝可梦们的鲜活生命力。而在《宝可梦 心金／魂银》中，你可以与宝可梦一起行走。我希望玩家们能尝试与各种各样的宝可梦结伴同行。四处旅行，去邂逅那些主要角色吧，比如出现在各个地区不同地方的道馆馆主们。此外还有各种活动，你能从中获得它们的友谊。
+  translation: "松岛贤二：宝可梦世界的独特之处在于宝可梦们的鲜活生命力。而在《宝可梦 心金·魂银》中，你可以与宝可梦一起行走。我希望玩家们能尝试与各种各样的宝可梦结伴同行。四处旅行，去邂逅那些主要角色吧，比如出现在各个地区不同地方的道馆馆主们。此外还有各种事件，你能从中获得他们的友谊。"
   role: answer
 - speaker: 森昭人
   original: 'Mori : I was in charge of "environmental sounds" for the new games. So, I highly recommend players listen to the sound of the swinging columns of Sprout Tower. In earthquake-prone Japan, using very flexible materials to support buildings is very common, and I think I was able to express that sound in a very realistic way.'
@@ -133,11 +133,11 @@ parallel_items:
   role: answer
 - speaker: 大森滋
   original: 'Ohmori : Definitely the new facility called the Pokéathlon Dome. This didn’t exist in Gold and Silver , and players can enjoy new and different gameplay styles with your Pokémon there. Hopefully players will try it with all of their different Pokémon.'
-  translation: 大森滋：那肯定是名为宝可全能竞技穹顶的新设施。这在《金／银》中并不存在，玩家可以在那里和自己的宝可梦一起享受全新的、不同的游玩风格。希望玩家们能用自己各种各样的宝可梦去尝试一下。
+  translation: "大森滋：那肯定是名为宝可全能竞技赛巨蛋的新设施。这在《金·银》中并不存在，玩家可以在那里和自己的宝可梦一起享受全新的、不同的游玩风格。希望玩家们能用自己各种各样的宝可梦去尝试一下。"
   role: answer
 - speaker: 海野隆雄
   original: 'Unno : I would like players to check out all parts of HeartGold and SoulSilver world, but the most sentimental place for me is the Bellchime Trail, leading to the Bell Tower. Players will see how beautiful the turning-leaf graphics are. I recommend every player takes his or her favorite Pokémon there and enjoy the walk!'
-  translation: 我希望玩家能细细品味《心金／魂银》世界的每一个角落，但对我而言，最令我感怀的地方是通往铃铛塔的铃铛小道。玩家们会看到落叶纷飞的画面有多么美丽。我推荐每位玩家带上自己最喜欢的宝可梦去那里散散步！
+  translation: "我希望玩家能细细品味《心金·魂银》世界的每一个角落，但对我而言，最令我感怀的地方是通往铃铛塔的铃铛小道。玩家们会看到树叶变色的画面有多么美丽。我推荐每位玩家带上自己最喜欢的宝可梦去那里散散步！"
   role: answer
 - speaker: Pokemon.com
   original: The Pokémon Video Game Championships are becoming more popular each year. Would you like to see other aspects of the Pokémon games become a part of the competitions?
@@ -173,7 +173,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: 'Masuda : Of course, I also watch TV episodes and go to see the movies—many times, in fact. They are close to video games in their style, and we are personally quite close to the staff that creates the animations. For example, we might say, "let’s do it this way in the game" because it was like that in a movie. Or we might go to a TCG tournament and see the excitement there, which leads us to think about how we can we do the same for the video game. I think all of the Pokémon pillars stimulate each other and resonate across all of them. That is actually the most compelling aspect of Pokémon.'
-  translation: 当然，我也会看动画，还会去电影院看剧场版——实际上看过很多遍。它们在风格上与游戏很接近，我们和制作动画的工作人员私交也很好。比如说，我们可能会说“游戏里也这样做吧”，因为电影里就是那样的。或者我们会去集换式卡牌赛现场，感受那里的热烈气氛，然后思考怎样才能在游戏里也做出同样的效果。我认为宝可梦的各个支柱产业相互刺激、彼此共鸣。这实际上正是宝可梦最引人入胜的地方。
+  translation: "当然，我也会看动画，还会去电影院看剧场版——实际上看过很多遍。它们在风格上与游戏很接近，我们和制作动画的工作人员私交也很好。比如说，我们可能会说“游戏里也这样做吧”，因为电影里就是那样的。或者我们会去集换式卡牌赛现场，感受那里的热烈气氛，然后思考怎样才能在游戏里也做出同样的效果。我认为宝可梦的各个支柱相互刺激、彼此共鸣。这实际上正是宝可梦最引人入胜的地方。"
   role: answer
 - speaker: 松岛贤二
   original: 'Matsushima : In addition, there are a lot of hints I get from the TV shows, such as how a Pokémon moves or how abilities are described in the show. It is a very good reference.'
@@ -193,7 +193,7 @@ parallel_items:
   role: answer
 - speaker: Pokemon.com
   original: Thanks to the developers at GAME FREAK, inc. for giving their time to give us an in-depth look at Pokémon HeartGold and SoulSilver Versions! For more information on the games, visit www.pokemongoldsilver.com !
-  translation: 感谢 GAME FREAK, inc. 的开发者们拨冗为我们深入介绍《宝可梦 心金／魂银》！欲了解更多游戏资讯，请访问 www.pokemongoldsilver.com ！
+  translation: "感谢 GAME FREAK, inc. 的开发者们拨冗为我们深入介绍《宝可梦 心金·魂银》！欲了解更多游戏资讯，请访问 www.pokemongoldsilver.com ！"
   role: question
 interviewee: Pokemon.com, 增田顺一, 大森滋, 松岛贤二, 森昭人, 森本茂树, 海野隆雄
 source:
@@ -201,14 +201,16 @@ source:
   url: https://web.archive.org/web/20120211023721/http://www.pokemon.com/us/pokemon-news/vg_hgss_interview-2010-03-31/
 entities:
   people:
-  - "增田顺一"
-  - "森本茂树"
-  - "松岛贤二"
-  - "大森滋"
-  - "森昭人"
-  - "海野隆雄"
+  - 增田顺一
+  - 森本茂树
+  - 松岛贤二
+  - 大森滋
+  - 森昭人
+  - 海野隆雄
   works:
   - 宝可梦 心金·魂银
+  - 宝可梦 金·银
+  - 宝可梦计步器
 summary: "2010 年，Pokemon.com 与 GAME FREAK 六位开发者增田顺一、森本茂树、松岛贤二、大森滋、森昭人、海野隆雄围绕《宝可梦 心金／魂银》进行圆桌访谈。他们谈到距《宝可梦 金／银》发售十年间硬件进步带来的画面、音效与数据量变化，宝可梦数量翻倍，开发历时近三年、约二十人参与。访谈还涉及宝可计步器、宝可全能竞技赛、缘朱市与铃铛小道等地点、环境音效，以及动画和集换式卡牌游戏对游戏开发的启发。"
 dek: "GAME FREAK 六位主创谈《宝可梦 心金／魂银》开发幕后。"
 topics:

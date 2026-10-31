@@ -110,7 +110,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "No.0001\nマスダジュンイチ\nさかくポケモン\nたかさ 1.72m\nおもさ 64.0kg"
-    translation: "No.0001\n增田顺一\n怪人宝可梦\n身高 1.72m\n体重 64.0kg"
+    translation: "No.0001\n增田顺一\n企划宝可梦\n身高 1.72m\n体重 64.0kg"
   - speaker: body
     type: paragraph
     kind: text
@@ -420,7 +420,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 杉森 でも、今回はちょっと強めにしたいなあというのがあったんです。今回はこれまでのシリーズとの互換性をやむをえず断ち切ったので、育てきったポケモンを『ルビー・サファイア』に連れてくることができないじゃないですか。だから、まちともにプレイして、着々とレベルをあげながら、だんだん強くなっていく敵を倒していくという、ロールプレイングゲームとしてのバランスがとりやすかったんですね。
-    translation: 杉森 不过，这次确实有想做得稍微强一点的想法。这次不得已切断了与以往系列的兼容性，所以没法把培养好的宝可梦带到《红宝石·蓝宝石》里来。因此，玩家在城镇中游玩，一边稳步提升等级，一边打倒逐渐变强的敌人，作为角色扮演游戏的平衡就比较容易把握了。
+    translation: "杉森 不过，这次确实有想做得稍微强一点的想法。这次不得已切断了与以往系列的兼容性，所以没法把培养好的宝可梦带到《红宝石·蓝宝石》里来。因此，玩家正常游玩，一边稳步提升等级，一边打倒逐渐变强的敌人，作为角色扮演游戏的平衡就比较容易把握了。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -440,7 +440,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 杉森 あと、もともと「ポケモン」は戦闘があっけないというか、相性の勝負になりますので…。
-    translation: 杉森 另外，原本“宝可梦”的战斗就有点干脆利落，或者说，是取决于相性的胜负……
+    translation: "杉森 另外，原本“宝可梦”的战斗就比较容易草草结束，或者说，胜负取决于属性相克……"
   - speaker: caption
     type: paragraph
     kind: text
@@ -450,7 +450,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ―― 相手との相性がわかっていればすんなり勝てるということですね。
-    translation: 也就是说，只要了解与对手的相性，就能顺利取胜。
+    translation: "也就是说，只要了解与对手的属性相克关系，就能顺利取胜。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -580,7 +580,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 増田 どのくらいでしょうね。30時間から40時間くらいでしょうか。でも、タマゴを見つけようとしたり、はいを集めようとか、とにかくポケモンをいっぱいつかまえようとかいろいろやりだすと、けっこう時間がたっちゃいますよね（笑）。
-    translation: 增田 大概多久呢。30到40小时左右吧。不过，要是开始找蛋、收集“是”、总之想抓很多宝可梦之类的，各种事情做起来，时间就会过得相当快（笑）。
+    translation: "增田 大概多久呢。30到40小时左右吧。不过，要是开始找蛋、收集火山灰、总之想抓很多宝可梦之类的，各种事情做起来，时间就会过得相当快（笑）。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -631,7 +631,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ―― なるほど。今回、GBアドバンスではじめての「ポケモン」になるわけですが、とくにどんなことを意識してつくったんですか？
-    translation: 原来如此。这次是 GB Advance 上首款《宝可梦》，你们特别意识到哪些事情来制作呢？
+    translation: "原来如此。这次是 GB Advance 上首款《宝可梦》，制作时你们特别注重哪些方面呢？"
   - speaker: caption
     type: paragraph
     kind: text
@@ -661,7 +661,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 増田 そうですね。そばでおとなしくしている友達を仲間に入れたくなる要素を入れたいなあと思っていて…。たとえば、3人が通信をやっていて、1人が離れているとしましょう。コンテストをやるときは4人いないとできないので、「ちょっと入ってよ」と声をかけたくなるような。「キミ、珍しいのを持ってるじゃん。入ってよ」と気軽に声をかけられるような、コミュニケーションの要素をすごく意識してつくったんです。
-    translation: 增田 是啊。我们想加入一种要素，让人想把在旁边安静待着的朋友也拉进伙伴里……比如3个人在通信，1个人在旁边。玩华丽大赛时没有4个人就不行，所以会让人想招呼他“来参加一下嘛”。像“你有个稀罕的东西嘛，来加入吧”这样能轻松搭话的沟通要素，我们非常意识到这一点来制作。
+    translation: "增田 是啊。我们想加入一种要素，让人想把在旁边安静待着的朋友也拉进伙伴里……比如3个人在通信，1个人在旁边。玩华丽大赛时没有4个人就不行，所以会让人想招呼他“来参加一下嘛”。像“你有个稀罕的东西嘛，来加入吧”这样能轻松搭话的沟通要素，是我们制作时非常在意的。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1091,7 +1091,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 生まれはそうですね。あと長崎に住んだこともありますけど、ほとんど東京なんです。だから、僕の場合は劇染みがあると言えばあるという感じですね（笑）。
-    translation: 出生地确实是的。后来也在长崎住过，但基本上都在东京。所以对我来说，要说有戏剧性倒也算是有吧（笑）。
+    translation: "出生地确实是的。后来也在长崎住过，但基本上都在东京。所以对我来说，要说对九州有亲切感，倒也算是有吧（笑）。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1311,7 +1311,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: でも、北海道の海でカイパンやろうが出てくると、ちょっとツライかも（笑）。
-    translation: 不过，如果北海道的海里冒出盖欧卡之类的，可能会有点难受吧（笑）。
+    translation: "不过，如果北海道的海里冒出泳裤小子，可能会有点难受吧（笑）。"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1954,7 +1954,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: カビゴンのモデルとして有名な西野〓二さんのような事はなかった…。
-    translation: 没有像以卡比兽原型而闻名的西野〓二先生那样的事……
+    translation: "没有像作为卡比兽原型而闻名的西野弘二先生那样的事……"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2724,7 +2724,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: それなりに（笑）。100パーセントではないですけど。エレベーターにも点字があったりしますけど、ボタンは「ひらく」と「しまる」の3文字ずつなのに、点字は2文字になっていて「どういうこと？」とか思ったりするじゃないですか。そのような感じで、外で発見することが増えるんです。
-    translation: 算是吧（笑）。虽然不是百分之百。电梯里也有盲文，但按钮上明明写着「开」和「关」各三个字，盲文却只有两个字，就会让人想「这是怎么回事？」之类的。像这样，在外面发现的事情会越来越多。
+    translation: "算是吧（笑）。虽然不是百分之百。电梯里也有盲文，但按钮上明明是「ひらく」和「しまる」各3个假名，盲文却只有2个字，就会让人想「这是怎么回事？」之类的。像这样，在外面发现的事情会越来越多。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2834,7 +2834,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ひとつですから、カタチを変えていろいろやっていきたいと思ってるんですね。
-    translation: 所以只有这一个，我们想改变形式，尝试各种做法。
+    translation: "所以，我们想改变形式，尝试各种做法。"
   - speaker: ──
     type: paragraph
     kind: text
@@ -3821,7 +3821,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ポケモンの生みの親、田尻智さんらが創刊したミニコミ誌『ゲームフリーク』。写真は記念号
-    translation: 宝可梦之父田尻智等人创办的迷你交流志《GAME FREAK》。照片是纪念号
+    translation: "宝可梦之父田尻智等人创办的小型同人志《GAME FREAK》。照片是纪念号"
   - speaker: caption
     type: paragraph
     kind: text

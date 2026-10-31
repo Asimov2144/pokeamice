@@ -57,7 +57,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002/b_masu.jpg
   alt: 株式会社ゲームフリーク 増田順一さん
-  caption: 株式会社ゲームフリーク 増田順一さん
+  caption: "株式会社GAME FREAK 增田顺一先生"
+  caption_original: "株式会社ゲームフリーク 増田順一さん"
 - type: heading
   level: 3
   original: 增田顺一：『ポケットモンスタールビー・サファイア』ディレクター／ゲームデザイナー
@@ -105,11 +106,12 @@ parallel_items:
   speaker: 增田顺一
   original: ２vs２での勝負はタイプ、技、とくせいを考えると本当にいろいろな遊びができます。またコンテストやひみつきちなど４人で遊べるものを多く入れてあるので、友達といろいろな遊びかたを発見して下さい！ とにかく４人で遊べるハードなので、そのおもしろさも４倍です!!
   role: answer
-  translation: 2对2的对战，只要考虑属性、招式和特性，真的能有各种各样的玩法。另外，我们还加入了很多可以4人一起玩的内容，比如华丽大赛和秘密基地，请和朋友一起发现各种玩法吧！总之这是一台可以4人同乐的机器，乐趣也是4倍!!
+  translation: "2对2的对战，只要考虑属性、招式和特性，真的能有各种各样的玩法。另外，我们还加入了很多可以4人一起玩的内容，比如华丽大赛和秘密基地，请和朋友一起发现各种玩法吧！总之这是一台可以4人同乐的机器，乐趣也是4倍！！"
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002/b_sugi.jpg
   alt: 株式会社ゲームフリーク 杉森 建さん
-  caption: 株式会社ゲームフリーク 杉森 建さん
+  caption: "株式会社GAME FREAK 杉森建先生"
+  caption_original: "株式会社ゲームフリーク 杉森 建さん"
 - type: heading
   level: 3
   original: 杉森建：『ポケットモンスタールビー・サファイア』アートディレクター
@@ -162,7 +164,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/nom-0211-rs-2002/b_ishi.jpg
   alt: 株式会社ポケモン代表取締役社長 石原恒和さん
-  caption: 株式会社ポケモン代表取締役社長 石原恒和さん
+  caption: "株式会社宝可梦 代表董事社长 石原恒和先生"
+  caption_original: "株式会社ポケモン代表取締役社長 石原恒和さん"
 - type: heading
   level: 3
   original: 石原恒和：『ポケットモンスター』エグゼクティブプロデューサー

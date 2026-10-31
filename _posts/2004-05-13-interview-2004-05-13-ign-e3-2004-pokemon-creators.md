@@ -33,6 +33,7 @@ entities:
   people:
   - 增田顺一
   - 石原恒和
+  - 田尻智
   works:
   - 宝可梦 火红·叶绿
   organizations:
@@ -41,7 +42,7 @@ entities:
 parallel_items:
 - type: paragraph
   original: 'We chat with the director of the new Pokemon: Fire Red and Leaf Green GBA games.'
-  translation: 我们与新的宝可梦GBA游戏《宝可梦 火红／叶绿》的导演进行了交谈。
+  translation: "我们与新的宝可梦GBA游戏《宝可梦 火红·叶绿》的导演进行了交谈。"
 - type: paragraph
   original: By Interview by Craig Harris
   translation: 采访：克雷格·哈里斯
@@ -58,12 +59,12 @@ parallel_items:
   role: question
 - type: paragraph
   original: 'Jurichi Masuda : In the original Pokemon Red and Blue on the Game Boy, I was in charge of the sound design. On Pokemon Gold and Silver, I was the assistant director. For Pokemon Ruby and Sapphire, and now Fire Red and Leaf Green I took over the project as the director.'
-  translation: 增田顺一：在Game Boy上的初代《宝可梦 红／蓝》中，我负责声音设计。在《宝可梦 金／银》中，我是助理导演。对于《宝可梦 红宝石／蓝宝石》，以及现在的《火红／叶绿》，我作为导演接管了项目。
+  translation: "增田顺一：在Game Boy上的初代《宝可梦 红·蓝》中，我负责声音设计。在《宝可梦 金·银》中，我是助理导演。对于《宝可梦 红宝石·蓝宝石》，以及现在的《火红·叶绿》，我作为导演接管了项目。"
   speaker: 增田顺一
   role: answer
 - type: paragraph
   original: 'IGN: How did the remakes of Pokemon Fire Red and Leaf Green come about? Why go back to the past versions for the next adventure?'
-  translation: IGN：《宝可梦 火红／叶绿》的重制是如何产生的？为什么下一次冒险要回到过去的版本？
+  translation: "IGN：《宝可梦 火红·叶绿》的重制是如何产生的？为什么下一次冒险要回到过去的版本？"
   speaker: IGN记者
   role: question
 - type: paragraph
@@ -99,7 +100,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 'Tsunekazu Ishihara: Fire Red and Leaf Green has a different interface, so it''s easy for new users to try it and play it. If you get stuck, there are hints there so you can move forward. It''s really friendly for any ages. I like that kids can enjoy it with their parents.'
-  translation: 石原恒和：《火红／叶绿》有不同的界面，所以新用户很容易尝试和游玩。如果卡住了，有提示可以帮助你继续前进。它对任何年龄都很友好。我喜欢孩子们能和父母一起享受它。
+  translation: "石原恒和：《火红·叶绿》有不同的界面，所以新用户很容易尝试和游玩。如果卡住了，有提示可以帮助你继续前进。它对任何年龄都很友好。我喜欢孩子们能和父母一起享受它。"
   speaker: 石原恒和
   role: answer
 - type: paragraph

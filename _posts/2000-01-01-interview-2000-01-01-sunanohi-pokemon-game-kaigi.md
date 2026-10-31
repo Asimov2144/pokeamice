@@ -39,6 +39,10 @@ entities:
   - 森本茂树
   - 增田顺一
   - 太田健程
+  - 石原恒和
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
   organizations:
   - Game Freak
   - Nintendo

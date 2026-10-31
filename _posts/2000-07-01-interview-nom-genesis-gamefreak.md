@@ -19,7 +19,7 @@ parallel_items:
   translation: 序言：孕育《宝可梦》的男人们
 - speaker: N.O.M采访者
   original: ポケモンがゲームボーイのソフトとして完成するまでには、たくさんの人々が関わっている。ここでは、『赤・緑・青・ピカチュウ』『金・銀』の開発をおこなった株式会社ゲームフリークのスタッフに、当時の苦労や開発秘話についてうかがってみた。
-  translation: 在《宝可梦》作为Game Boy软件完成之前，有许多人参与其中。在此，我们采访了开发《红／绿／蓝／皮卡丘》及《金／银》的GAME FREAK株式会社的工作人员，请他们讲述了当时的艰辛与开发秘闻。
+  translation: "在《宝可梦》作为Game Boy软件完成之前，有许多人参与其中。在此，我们采访了开发《红·绿·蓝·皮卡丘》及《金·银》的GAME FREAK株式会社的工作人员，请他们讲述了当时的艰辛与开发秘闻。"
   role: question
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nom-genesis-gamefreak/masuda.jpg
@@ -44,7 +44,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 第1章：ゲーム内容が決まるまで――通信交換の発想と151匹への挑戦
-  translation: 第1章：游戏内容确立始末——通信交换的发想与挑战151只极限
+  translation: "第1章：游戏内容确立之前——通信交换的构想与对151只的挑战"
 - speaker: N.O.M采访者
   original: 最初に企画者の田尻智さんにポケモンのアイデアを聞かされたときはどんな印象を持ちましたか？
   translation: 最初从策划者田尻智先生那里听到宝可梦的构想时，您有什么样的印象？
@@ -108,7 +108,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 第2章：キャラクターが決まるまで――属性の誕生と最初のポケモン
-  translation: 第1章：角色诞生始末——属性机制的诞生与最初的宝可梦
+  translation: "第2章：角色确立之前——属性的诞生与最初的宝可梦"
 - speaker: N.O.M采访者
   original: ポケモンにはみずポケモン、くさポケモンなどのタイプがありますよね。このアイデアは最初からあったんですか？
   translation: 宝可梦有水属性、草属性之类的属性划分对吧。这个点子是一开始就有的吗？
@@ -148,7 +148,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 第3章：何度も作り直されたポケモン――破壊と構築のゲームフリーク流
-  translation: "第2章：无数次推倒重来的宝可梦——破坏与重构的 GAME FREAK 研发法"
+  translation: "第3章：反复重做的宝可梦——破坏与构建的 GAME FREAK 风格"
 - speaker: N.O.M采访者
   original: 細かい部分は最初から決めてあったんですか？　それとも、どんどん追加していったんですか？
   translation: 细节部分是一开始就定好的吗？还是后来不断追加的？
@@ -203,11 +203,12 @@ source:
   url: https://www.nintendo.co.jp/nom/0007/gfreak/index.html
 entities:
   people:
-  - "杉森建"
-  - "增田顺一"
-  - "西野弘二"
-  - "渡边哲也"
-  - "森本茂树"
+  - 杉森建
+  - 增田顺一
+  - 西野弘二
+  - 渡边哲也
+  - 森本茂树
+  - 田尻智
   works:
   - 宝可梦 红·绿
 summary: "2000年任天堂官方杂志NOM采访GAME FREAK成员，回顾《宝可梦 红·绿》开发。杉森建称田尻智提出用Game Boy连接线交换宝可梦，角色由约10人团队设计，设计量约为采用数的1.5倍，最终定为151只；游戏目的从RPG转为完成图鉴，主角不参与战斗，宝可梦可命名、只能记4个招式。增田顺一谈属性机制中途加入、伙伴概念与交换条件。西野弘二负责等级平衡与稀有度，渡边哲也谈容量限制与硬撑，森本茂树谈剧本委托。"
