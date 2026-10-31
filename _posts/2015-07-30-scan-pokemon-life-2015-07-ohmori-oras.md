@@ -264,7 +264,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -334,7 +334,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』おーい！ そこの きみ！
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》喂！那边的你！
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》喂！那边的你！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -464,7 +464,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ルビーさん……
-    translation: 小胜……
+    translation: "露比先生……"
   - speaker: caption
     type: paragraph
     kind: text
@@ -494,7 +494,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ぼくに ゆうきと げんきを くれた
-    translation: 为了给了我勇气和活力的
+    translation: "为了给我勇气和活力的"
   - speaker: caption
     type: paragraph
     kind: text
@@ -514,7 +514,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -544,7 +544,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -554,7 +554,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ぼくに 勇気と 元気を くれた
-    translation: 为了给了我勇气和活力的
+    translation: "为了给我勇气和活力的"
   - speaker: caption
     type: paragraph
     kind: text
@@ -674,7 +674,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 『ポケモン オメガルビー』
-    translation: 《宝可梦 欧米加红宝石》
+    translation: "《宝可梦 欧米伽红宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -764,7 +764,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ホウエン地方の8か所にあるポケモンジムでは、ジムリーダーが主人公の挑戦を待っている。『ポケモン ΩR・αS』では、ジムリーダーは3Dのキャラクターやイラストで表現され、迫力ある戦いを盛り上げる。
-    translation: 丰缘地区共有8处宝可梦道馆，道馆馆主在那里等待着主角的挑战。在《宝可梦 欧米加红宝石·阿尔法蓝宝石》中，道馆馆主以3D角色和插画呈现，为激烈的战斗增添气势。
+    translation: "丰缘地区共有8处宝可梦道馆，道馆馆主在那里等待着主角的挑战。在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中，道馆馆主以3D角色和插画呈现，为激烈的战斗增添气势。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -804,7 +804,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -864,7 +864,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 流星の滝では、マグマ団・アクア団の幹部と初めて顔を合わせる。オリジナルの作品では、幹部は名前も明かされず、戦うこともなく、敵対する団のリーダーと対面するだけだった。『ポケモン ΩR・αS』では、友だちと協力してマルチバトルで幹部を倒し、ソライシ博士を救出するドラマチックな展開が待っている。さらに、その後姿を現す別の団のリーダーに脅されるというスリリングな場面も。敵の敵でも、味方ではないということか。
-    translation: 在流星瀑布，主角首次与熔岩队、海洋队的干部见面。在原版作品中，干部连名字都没有公开，也没有发生战斗，只是与敌对组织的首领见了一面。在《宝可梦 欧米加红宝石·阿尔法蓝宝石》中，则等待着与朋友合作、通过多人对战打倒干部并救出索蓝斯博士的戏剧性展开。此外，之后现身的另一组织首领还会威胁主角，场面十分惊险。即便是敌人的敌人，也并非友方。
+    translation: "在流星瀑布，主角首次与熔岩队、海洋队的干部见面。在原版作品中，干部连名字都没有公开，也没有发生战斗，只是与敌对组织的首领见了一面。在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中，则等待着与朋友合作、通过多人对战打倒干部并救出索蓝斯博士的戏剧性展开。此外，之后现身的另一组织首领还会威胁主角，场面十分惊险。即便是敌人的敌人，也并非友方。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -914,7 +914,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 『ポケモン オメガルビー』ウヒョう……！
-    translation: 《宝可梦 欧米加红宝石》呜嘻……！
+    translation: "《宝可梦 欧米伽红宝石》呜嘻……！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -984,7 +984,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: キンセツシティジムリーダーのテッセンは、戦う前のセリフに唯一変化があった人物。オリジナルの作品では街の改造を「あきらめた」と言っていたが、『ポケモン ΩR・αS』では改造を成し遂げ、大都市を生み出した。
-    translation: 紫堇市道馆馆主铁旋是唯一在战斗前台词有所变化的人物。在 original 作品中他说自己“放弃了”改造城市，而在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中他完成了改造，造就了大都市。
+    translation: "紫堇市道馆馆主铁旋是唯一在战斗前台词有所变化的人物。在原版作品中他说自己“放弃了”改造城市，而在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中他完成了改造，造就了大都市。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1074,7 +1074,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 119番道路の天気研究所を訪れると、マグマ団・アクア団が占拠して、悪事を働いていた。戦って職員たちを助けるという主人公の行動は、オリジナルの作品も『ポケモン ΩR・αS』も同じだ。だが、『ポケモン ΩR・αS』でマグマ団・アクア団の幹部が天気研究所を訪れた理由は異なっている。彼らは、超古代ポケモンを目覚めさせるというリーダーの思惑に疑問を持ち、目覚めによって引き起こされる異常気象について調べに来ていたのだ。
-    translation: 来到119号道路的天气研究所，会发现熔岩队、海洋队占领了这里并干着坏事。主人公通过战斗救出职员这一行动，在 original 作品和《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中都是一样的。不过，在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中，熔岩队、海洋队干部造访天气研究所的理由有所不同。他们对首领唤醒超古代宝可梦的意图抱有疑问，是为调查唤醒所引发的异常气象而来。
+    translation: "来到119号道路的天气研究所，会发现熔岩队、海洋队占领了这里并干着坏事。主人公通过战斗救出职员这一行动，在原版作品和《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中都是一样的。不过，在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中，熔岩队、海洋队干部造访天气研究所的理由有所不同。他们对首领唤醒超古代宝可梦的意图抱有疑问，是为调查唤醒所引发的异常气象而来。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1154,7 +1154,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: マツブサの行動を阻止すべく動くホムラ。ちなみに、オリジナルの作品では女性幹部のカガリが相手だった。
-    translation: 火村为阻止赤焰松的行动而行动。顺带一提，在 original 作品中对手是女性干部火雁。
+    translation: "火村为阻止赤焰松的行动而行动。顺带一提，在原版作品中对手是女性干部火雁。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1274,7 +1274,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: マグマ団・アクア団のリーダーが掲げた玉の力で、ついに目覚めたグラードン・カイオーガ。異常気象を引き起こす超古代ポケモンを鎮めるため、主人公は目覚めの祠の奥深くへ向かう。メガシンカが存在する世界が描かれた『ポケモン ΩR・αS』では、祠の最下層でゲンシカイキするグラードン・カイオーガを目の当たりにする。このシーンの迫力は、圧巻のひと言。『ポケモン ΩR・αS』で最大の見せ場といってもいいだろう。
-    translation: 借助熔岩队·海洋队首领所举起的球的力量，固拉多·盖欧卡终于苏醒。为了平息引发异常气象的超古代宝可梦，主角前往觉醒祠堂的深处。在描绘了超级进化存在的世界的《宝可梦 ΩR·αS》中，主角会在祠堂最下层亲眼目睹进行原始回归的固拉多·盖欧卡。这一幕的震撼力，只能用压轴二字形容。可以说这是《宝可梦 ΩR·αS》中最大的看点。
+    translation: "借助熔岩队·海洋队首领所举起的宝珠的力量，固拉多·盖欧卡终于苏醒。为了平息引发异常气象的超古代宝可梦，主角前往觉醒之祠的深处。在描绘了存在超级进化的世界的《宝可梦 ΩR·αS》中，主角会在祠的最下层亲眼目睹进行原始回归的固拉多·盖欧卡。这一幕的魄力，只能用震撼来形容。可以说是《宝可梦 ΩR·αS》中最大的看点。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1464,7 +1464,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 『ポケモン オメガルビー』
-    translation: 《宝可梦 欧米加红宝石》
+    translation: "《宝可梦 欧米伽红宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1544,7 +1544,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: グラードン・カイオーガとの戦いを終えて目覚めの祠を出ると、ルネシティの上空を覆っていた異常気象は終息していた。『ポケモン ΩR・αS』では、ここからマグマ団・アクア団が自らの行動を反省し、未来に向けて気持ちを新たにするドラマが展開する。エネルギーの粒が光となって降り注ぐ中、思想の違う団同士が歩み寄ることを誓うのだ。ダイゴの「はじめの一歩だけでも踏み出せれば良いなって思うよ」という言葉が印象的だ。
-    translation: 结束与固拉多·盖欧卡的战斗、走出觉醒之祠后，笼罩琉璃市上空的异常气象已经平息。在《宝可梦 ΩR·αS》中，从这里开始展开熔岩队·海洋队反省自身行动、面向未来重新振作的剧情。在能量的粒子化作光芒倾泻而下之中，思想不同的两个团体发誓要相互靠近。大吾那句“我觉得哪怕只迈出最初的一步也好”令人印象深刻。
+    translation: "结束与固拉多·盖欧卡的战斗、走出觉醒之祠后，笼罩琉璃市上空的异常气象已经平息。在《宝可梦 ΩR·αS》中，从这里开始展开熔岩队·海洋队反省自身行动、面向未来重新振作的剧情。能量的粒子化作光芒洒落之时，思想不同的两个团体发誓要相互靠近。大吾那句“我觉得哪怕只迈出最初的一步也好”令人印象深刻。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1574,7 +1574,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1604,7 +1604,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 『ポケモン オメガルビー・アルファサファイア』
-    translation: 《宝可梦 欧米加红宝石·阿尔法蓝宝石》
+    translation: "《宝可梦 欧米伽红宝石·阿尔法蓝宝石》"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1684,7 +1684,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 本誌だけの特別公開！ 大森滋氏が『ポケモン ΩR・αS』の開発中に、ゲームのハイライトシーン用に描いた秘蔵の絵コンテだ。
-    translation: 仅限本杂志的特别公开！这是大森滋在《宝可梦 欧米加红宝石·阿尔法蓝宝石》开发期间，为游戏高潮场景绘制的珍贵分镜稿。
+    translation: "仅限本杂志的特别公开！这是大森滋在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》开发期间，为游戏高潮场景绘制的珍贵分镜稿。"
   - type: heading
     kind: text
     region_type: heading
@@ -1784,7 +1784,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ※ 掲載している絵コンテは、開発中のものです。実際の『ポケモン オメガルビー・アルファサファイア』とは異なっている表現があります。
-    translation: ※ 刊登的分镜稿为开发中的内容。与实际《宝可梦 欧米加红宝石·阿尔法蓝宝石》中的表现存在差异。
+    translation: "※ 刊登的分镜稿为开发中的内容。与实际《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中的表现存在差异。"
   - speaker: image
     type: image
     kind: image
@@ -1944,7 +1944,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 1その場のエネルギーのバランスがくずれる※ どろくっ〓こわれるわけではない！穴へ逃げこむ白F.O.
-    translation: 1 该处的能量平衡被打破 ※ 并不是洞窟会崩塌！逃进洞里的白色UFO。
+    translation: "1 该处的能量平衡被打破 ※ 并不是洞窟会崩塌！逃进洞里，白色淡出（F.O.）。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1954,7 +1954,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 4レックウザらしきものから飛行機雲が出るけいと鳥らしきものがてん増えてく白.F.O.END
-    translation: 4 类似烈空坐的东西拖出飞机云，类似鸟的东西逐渐增多。白色UFO。END
+    translation: "4 类似烈空坐的东西拖出飞机云，类似鸟的东西逐渐增多。白色淡出（F.O.）END"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2398,7 +2398,7 @@ translation_segments:
     scan_page: 9
     review_status: review
     original: 大森 滋氏 COMMENTポケモンの背中に乗って、冒険する夢を叶えました！
-    translation: 大森滋先生 COMMENT 实现了骑在宝可梦背上冒险的梦想！
+    translation: "大森滋先生 评论：实现了骑在宝可梦背上冒险的梦想！"
   - speaker: note
     type: paragraph
     kind: text
@@ -2458,7 +2458,7 @@ translation_segments:
     scan_page: 9
     review_status: review
     original: マボロシのばしょにはお得などうぐが埋まっている！出現する場所が毎日変わるマボロシのばしょでは、毎日「ダウジングマシン」で貴重などうぐが見つかる。「しんかいのウロコ」や「するどいツメ」などを入手しよう。
-    translation: 幻影地点里埋着有用的道具！出现地点每天变化的幻影地点中，每天都能用「探宝器」找到贵重道具。去获取「深海鳞片」和「锐利之爪」等吧。
+    translation: "幻之地点里埋着有用的道具！出现地点每天变化的幻之地点中，每天都能用「探宝器」找到贵重道具。去获取「深海鳞片」和「锐利之爪」等吧。"
   - speaker: body
     type: paragraph
     kind: text
@@ -2688,7 +2688,7 @@ translation_segments:
     scan_page: 10
     review_status: review
     original: 「エピソード デルタ」は〝明日に続く物語〟です。
-    translation: 「EpisodeΔ」是〝延续到明天的故事〟。
+    translation: "「德尔塔篇章」是“延续到明天的故事”。"
   - speaker: note
     type: paragraph
     kind: text

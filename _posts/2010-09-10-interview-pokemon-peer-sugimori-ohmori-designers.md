@@ -51,7 +51,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 1: 17 Designers, 156 New Pokémon — Building an Ecosystem from Scratch'
-  translation: 第1章：17位设计师与156只全新宝可梦——从零构筑合众完整生态
+  translation: "第1章：17位设计师与156只全新宝可梦——从零构筑一个生态系统"
 - speaker: 提问
   original: Today we’re meeting with all of the graphic designers, who can be considered the parents of Pokemon.  To start, please tell us how you are involved with the Pocket Monsters series.
   translation: 今天我们采访的是所有图形设计师，他们可以说是宝可梦的父母。首先，请告诉我们你们是如何参与《宝可梦》系列的。
@@ -63,7 +63,7 @@ parallel_items:
   role: answer
 - speaker: 大村祐介
   original: I’m in charge of 2D graphics. I started with Pocket Monsters Diamond and Pearl, and this time I worked on the designs of the human characters and Pokemon such as Mijumaru.
-  translation: 我负责2D图形。我从《宝可梦 钻石／珍珠》开始参与，这次负责了人类角色和诸如水水獭等宝可梦的设计。
+  translation: "我负责2D图形。我从《宝可梦 钻石·珍珠》开始参与，这次负责了人类角色和诸如水水獭等宝可梦的设计。"
   note: 水水獭是《宝可梦 黑／白》的初学者宝可梦之一。
   role: answer
 - speaker: 杉森建
@@ -91,7 +91,7 @@ parallel_items:
   role: answer
 - speaker: 提问
   original: Between the 4 of you are everything from veterans to newcomers, but how many designers worked on Pocket Monsters Black and White in total?
-  translation: 你们四位中既有老手也有新人，那么总共有多少设计师参与了《宝可梦 黑／白》的开发？
+  translation: "你们四位中既有老手也有新人，那么总共有多少设计师参与了《宝可梦 黑·白》的开发？"
   role: question
 - speaker: 杉森建
   original: 'There were 17 people total.  Each person designed about 10 Pokemon. [Note: 17x10 = 170!]'
@@ -108,7 +108,7 @@ parallel_items:
   role: answer
 - speaker: 杉森建
   original: We were developing it at the same time as Pocket Monsters Platinum and Pocket Monsters Heart Gold and Soul Silver.  In this game, since old Pokemon do not appear, and a new world is the stage, we needed to create an ecosystem purely for the newly-designed Pokemon.  Up until now, we designed with the philosophy that, “a mouse-like Pokemon already exists, so let’s make other Pokemon”—but this time they were all new.  So, once again we designed a mouse-like Pokemon, a dog-like Pokemon, etc. from scratch.
-  translation: 我们是在开发《宝可梦 白金》和《宝可梦 心金/魂银》的同时进行开发的。在这款游戏中，由于旧宝可梦不会出现，舞台是一个新世界，我们需要为全新设计的宝可梦创造一个纯粹的生态系统。到目前为止，我们一直秉持着“已经有类似老鼠的宝可梦了，所以让我们制作其他宝可梦”的理念来设计——但这次它们全都是新的。所以，我们再次从零开始设计了类似老鼠的宝可梦、类似狗的宝可梦等等。
+  translation: "我们是和《宝可梦 白金》《宝可梦 心金·魂银》同时开发的。在这款游戏中，由于旧宝可梦不会出现，舞台是一个新世界，我们需要为全新设计的宝可梦创造一个纯粹的生态系统。到目前为止，我们一直秉持着“已经有类似老鼠的宝可梦了，所以让我们制作其他宝可梦”的理念来设计——但这次它们全都是新的。所以，我们再次从零开始设计了类似老鼠的宝可梦、类似狗的宝可梦等等。"
   role: answer
 - speaker: 提问
   original: Then, you started from nothing in the true sense of the word.  What kind of Pokemon did you think of?
@@ -133,12 +133,12 @@ parallel_items:
   role: answer
 - speaker: 大村祐介
   original: I looked at the lineup of Pokemon that everyone had submitted to me, and designed whatever was missing.  Piplup from Pocket Monsters Diamond and Pearl was embraced, and this time I was once again designing Water-type Pokemon.  Not to suggest that Water-types are my specialty.
-  translation: 我看了大家提交给我的宝可梦阵容，然后设计了缺失的部分。《宝可梦 钻石／珍珠》中的波加曼广受好评，这次我又设计了水属性的宝可梦。这并不是说水属性是我的专长。
+  translation: "我看了大家提交给我的宝可梦阵容，然后设计了缺失的部分。《宝可梦 钻石·珍珠》中的波加曼广受好评，这次我又设计了水属性的宝可梦。这并不是说水属性是我的专长。"
   role: answer
 - type: heading
   level: 2
   original: 'Chapter 2: The Genesis of the Unova Starters — Snivy, Tepig, and Oshawott'
-  translation: 第2章：合众御三家诞生秘话——藤藤蛇的傲岸、暖暖猪与水水獭的武士魂
+  translation: "第2章：合众初始宝可梦的诞生——藤藤蛇、暖暖猪与水水獭"
 - type: image
   image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/snivy.png
   caption: 藤藤蛇（Snivy）：田上玲子融合藤蔓与蛇类异质感设计的草系主角。

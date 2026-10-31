@@ -121,7 +121,7 @@ parallel_items:
   speaker_orig: フィールドコンテンツプログラマ Y.I.
   original: 今までの人生でナンバーワンのゲームは『風のクロノア』です。
   role: answer
-  translation: 在我目前为止的人生中，最好的游戏是《风之少年》。
+  translation: "在我目前为止的人生中，最好的游戏是《风之克罗诺亚》。"
 - type: text
   speaker: M.K.
   speaker_orig: フィールド環境 M.K.

@@ -29,7 +29,7 @@ issue: 2010年11月号（Vol.199）
 publisher: 毎日コミュニケーションズ
 interviewer: Nintendo DREAM 編集部
 dek: 以观光指南巡游宝可梦五大地区
-summary: 《Nintendo DREAM》2010年11月号（Vol.199）刊载的15页专题，以观光指南形式介绍宝可梦系列五大地区：合众、关都、城都、丰缘、神奥。文中提及《宝可梦 黑·白》新舞台合众地区、飞云市、天箭桥、汇合连线、音乐剧会馆，以及关都深灰科学博物馆、红莲岛喷火遗迹、发电厂、灵魂之家、月见山、七之岛，城都缘朱市、宝可梦全能竞技赛巨蛋、狩猎地带、四大塔、阿露福遗迹，丰缘烟囱山、海底洞窟、凯那市、釜炎镇温泉、绿岭宇宙中心、幻影岛与幻影之塔，神奥森之洋馆、神和镇壁画、三大湖、名胜区、野濑大湿原、毁坏的世界。编辑部另以独断选出瀑布、伴手礼、游戏城、山、钓鱼、自行车、交通工具、对战殿堂等主题的BEST 3。
+summary: 《Nintendo DREAM》2010年11月号（Vol.199）刊载的15页专题，以观光指南形式介绍宝可梦系列五大地区：合众、关都、城都、丰缘、神奥。文中提及《宝可梦 黑·白》新舞台合众地区、飞云市、天箭桥、汇合连线、音乐剧会馆，以及关都深灰科学博物馆、红莲岛喷火遗迹、发电厂、灵魂之家、月见山、七之岛，城都缘朱市、宝可梦全能竞技赛巨蛋、狩猎地带、四大塔、阿露福遗迹，丰缘烟囱山、海底洞窟、凯那市、釜炎镇温泉、绿岭宇宙中心、幻影岛与幻影之塔，神奥森之洋馆、神和镇壁画、三大湖、名胜区、野原大湿地、毁坏的世界。编辑部另以独断选出瀑布、伴手礼、游戏城、山、钓鱼、自行车、交通工具、对战殿堂等主题的BEST 3。
 source_pages: P.69–P.83（15 页，另附封面/目次；2048px 页图）
 source:
   title: ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド
@@ -54,14 +54,16 @@ review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工
 pending_review_regions: 425
 scan_set: ndream-2010-11
 entities:
-  people: []
   works:
-    - 宝可梦 黑·白
-    - 宝可梦 红·绿
-    - 宝可梦 金·银
-    - 宝可梦 红宝石·蓝宝石
-    - 宝可梦 钻石·珍珠
-  organizations: []
+  - 宝可梦 黑·白
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
+  - 宝可梦 红宝石·蓝宝石
+  - 宝可梦 钻石·珍珠
+  - 宝可梦 心金·魂银
+  - 宝可梦 火红·叶绿
+  - 宝可梦 白金
+  - 宝可梦 绿宝石
 translation_segments:
   - speaker: image
     type: image
@@ -148,7 +150,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: "Contents\nP70 イッシュ地方\nP72 カントー地方\nP74 ジョウト地方\nP76 ホウエン地方\nP78 シンオウ地方\nP80 5大地方\nなんでもベスト3"
-    translation: "目录\nP70 合众地方\nP72 关都地方\nP74 城都地方\nP76 丰缘地方\nP78 神奥地方\nP80 五大地方\n各种最佳3"
+    translation: "目录\nP70 合众地区\nP72 关都地区\nP74 城都地区\nP76 丰缘地区\nP78 神奥地区\nP80 五大地区\n各种最佳3"
     scan_box:
       - 1089
       - 1161
@@ -164,7 +166,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 『ポケモンB・W』でイッシュ地方が登場し、『ポケットモンスター』の舞台は全5地方に。この5つの地方を、観光ガイド風に紹介するとどうなるか…そんなちょっと変わった趣向の特集をお届け！ この記事を参考に、改めていろんな地方を歩いてみてはいかが？
-    translation: 《宝可梦 黑·白》中合众地方登场，《宝可梦》的舞台由此扩展到全部五个地方。将这五个地方以观光指南的风格来介绍会是什么样子……本期就为大家送上这样一个别具趣味的专题！不妨参考本报道，重新去各个地方走一走如何？
+    translation: "《宝可梦 黑·白》中合众地区登场，《宝可梦》的舞台由此扩展到全部五个地区。将这五个地区以观光指南的风格来介绍会是什么样子……本期就为大家送上这样一个别具趣味的专题！不妨参考本报道，重新去各个地区走一走如何？"
     scan_box:
       - 466
       - 1427
@@ -374,7 +376,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: おすすめ！ハーイ！ みんな元気？ イッシュ地方のポケモンを研究しているアララギです。このイッシュ地方は、ほかの地方では見られないようなポケモンの宝庫なの！ ポケモン図鑑を渡すから、がんばってポケモンたちをその目で見てきてね。そうそう、エンディング後には「ポケシフター」でほかの地方からポケモンを連れてこられるから、今までのお気に入りポケモンとイッシュを旅することもできるわよ。
-    translation: 推荐！你好！大家都好吗？我是研究合众地区宝可梦的阿拉拉基。这个合众地区，是别处见不到的宝可梦的宝库！我会把宝可梦图鉴交给你，努力亲眼去见识宝可梦们吧。对了对了，结局之后可以用「宝可梦传送装置」从其它地区带来宝可梦，所以也能和至今中意的宝可梦一起在合众旅行哦。
+    translation: "推荐！你好！大家都好吗？我是研究合众地区宝可梦的红豆杉博士。这个合众地区，是别处见不到的宝可梦的宝库！我会把宝可梦图鉴交给你，努力亲眼去见识宝可梦们吧。对了对了，结局之后可以用「宝可梦传送装置」从其它地区带来宝可梦，所以也能和至今中意的宝可梦一起在合众旅行哦。"
     comment: 阿拉拉基（アララギ）是《宝可梦 黑·白》中合众地区的宝可梦博士。
     scan_box:
       - 698
@@ -440,7 +442,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: チェレンです。ここが、イッシュ最大の都市ヒウンシティ……。まあ、チャンピオンを目指す僕にとっては通過点ですが。…それよりベルが迷子になったり悪い奴に絡まれたりしないか、そっちの方が心配ですね。おすすめ！
-    translation: 我是黑连。这里就是合众最大的城市飞云市……。不过，对以冠军为目标的我来说，这里只是途经点。……比起这个，我更担心贝尔会不会迷路，或者被坏人缠上。推荐！
+    translation: "我是黑连。这里就是合众最大的城市飞云市……。不过，对以冠军为目标的我来说，这里只是途经点。……比起这个，我更担心白露会不会迷路，或者被坏人缠上。推荐！"
     comment: 黑连与贝尔是《宝可梦 黑／白》中主角的两位劲敌。
     scan_box:
       - 970
@@ -566,7 +568,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: →イッシュ地方の中央にある謎の島。ここはCギアの機能でワープすると行ける「ハイリンク」という場所だ。ワイヤレス通信の及ぶ範囲で相手の世界へとワープし、ミッションをクリアして「ハイルツリー」を育てていこう
-    translation: →位于合众地区中央的神秘岛屿。这里是用C装置的功能传送后就能前往的名为“汇合连线”的地方。在无线通信可及的范围内传送到对方的世界，完成任务并培育“汇合树”吧。
+    translation: "→位于合众地区中央的神秘岛屿。这里是用C装置的功能传送后就能前往的名为“连入”的地方。在无线通信可及的范围内传送到对方的世界，完成任务并培育“连入之树”吧。"
     comment: C装置是《宝可梦 黑／白》中集通信、地图等功能于一体的装置。
     scan_box:
       - 278
@@ -583,7 +585,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: "ヤッホー！マコモで〜す。アタシが作ったCギアを使えば、このハイリンクへ行ったり、もっとすごいこともできるよ。サンヨウシティの研究室に来てね!!"
-    translation: "呀吼！我是真菰～。只要使用我制作的C装置，就能前往这个汇合连线，还能做到更厉害的事哦。请来三曜市的研究室找我!!"
+    translation: "呀吼！我是真菰～。只要使用我制作的C装置，就能前往这个连入，还能做到更厉害的事哦。请来三曜市的研究室找我！！"
     comment: 真菰是《宝可梦 黑／白》中研究宝可梦梦境世界的博士。
     scan_box:
       - 303
@@ -600,7 +602,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: じぶんの ハイルツリーを しらべた
-    translation: 调查了自己的汇合树
+    translation: "调查了自己的连入之树"
     scan_box:
       - 634
       - 1458
@@ -845,7 +847,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ハイリンク
-    translation: 联合通道
+    translation: "连入"
     scan_box:
       - 565
       - 748
@@ -938,7 +940,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 『ポケモンFR・LG』の舞台となるカントー地方。西側はジョウト地方とつながっており、『ポケモンHG・SS』では殿堂入り後に行き来できる。気の向くまま、カントー地方の名所を訪ね歩こう！
-    translation: 作为《宝可梦FR・LG》舞台的关都地方。西侧与城都地方相连，在《宝可梦HG・SS》中登入名人堂后便可往来。随心所欲地走访关都地方的名胜吧！
+    translation: "作为《宝可梦 火红·叶绿》舞台的关都地区。西侧与城都地区相连，在《宝可梦 心金·魂银》中登入名人堂后便可往来。随心所欲地走访关都地区的名胜吧！"
     scan_box:
       - 33
       - 379
@@ -1204,7 +1206,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 暮らしを支える発電所見学カントーはつでんしょ
-    translation: 参观支撑生活的大发电所 关都发电所
+    translation: "参观支撑生活的发电厂 关都发电厂"
     scan_box:
       - 970
       - 360
@@ -1394,7 +1396,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "スモモ『もぐもぐっ もぐもぐっおおぐいコンテストっ!!"
-    translation: 小菘“嚼嚼、嚼嚼，大胃王比赛！！”
+    translation: "阿李“嚼嚼、嚼嚼，大胃王比赛！！”"
     comment: 小菘为神奥地区道馆馆主，此处以大吃形象登场。
     scan_box:
       - 117
@@ -1443,7 +1445,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "あたし、シンオウ地方から来たスモモっていいます。もぐっ。強いってどういうことか自分でよく分かってないんですけど、もぐもぐっ。おかわり持ってきてください!"
-    translation: 我叫小菘，是从神奥地区来的。嚼。虽然我自己也不太清楚什么叫强，嚼嚼。请再给我来一碗！
+    translation: "我叫阿李，是从神奥地区来的。嚼。虽然我自己也不太清楚什么叫强，嚼嚼。请再给我来一碗！"
     scan_box:
       - 408
       - 465
@@ -1459,7 +1461,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "タマムシ食堂では、大食い大会を開催中。大物フードファイターが参戦!?"
-    translation: 玉虹食堂正在举办大胃王比赛。大胃王美食家即将参战！？
+    translation: "玉虹食堂正在举办大胃王大赛。有大牌大胃王参赛了！？"
     scan_box:
       - 116
       - 520
@@ -1697,7 +1699,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: ポケモンの きを ひかせる どうぐ。やせいポケモンとの せんとうから
-    translation: 能让宝可梦吸引注意的道具。与野生宝可梦的战斗中
+    translation: "能吸引宝可梦注意力的道具。从与野生宝可梦的战斗中"
     scan_box:
       - 459
       - 905
@@ -1746,7 +1748,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ナナシマ 『ポケモンFR・LG』で行ける魅惑の島々
-    translation: 七之岛 在《宝可梦FR·LG》中可前往的魅惑群岛
+    translation: "七之岛 在《宝可梦 火红·叶绿》中可前往的魅惑群岛"
     scan_box:
       - 123
       - 1026
@@ -1778,7 +1780,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "『ポケモンFR・LG』なら、クチバシティの港から「ナナシマ」という島々へ行ける。ナナシマはその名のとおり、「1のしま」から「7のしま」までの7つの島々で成り立っており、カントーとはまた違った自然や施設がめじろ押し! その見どころをいくつかピックアップしよう。"
-    translation: 在《宝可梦FR・LG》中，可以从枯叶市的港口前往名为“七之岛”的群岛。七之岛正如其名，由“1之岛”到“7之岛”共七座岛屿组成，与关都截然不同的自然风光和设施琳琅满目！这里挑出几处看点介绍。
+    translation: "在《宝可梦 火红·叶绿》中，可以从枯叶市的港口前往名为“七之岛”的群岛。七之岛正如其名，由“1之岛”到“7之岛”共七座岛屿组成，与关都截然不同的自然风光和设施琳琅满目！这里挑出几处看点介绍。"
     comment: 枯叶市在术语表中未列出，此处按通行译名处理。
     scan_box:
       - 104
@@ -1952,7 +1954,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 1のしまにあるともしび温泉。疲れをいやすため、四天王のシバが訪れることもあるという
-    translation: 位于1之岛的灯火山温泉。据说为了消除疲劳，四天王的希巴也会前来。
+    translation: "位于1之岛的灯火温泉。据说为了消除疲劳，四天王的希巴也会前来。"
     scan_box:
       - 219
       - 1653
@@ -1969,7 +1971,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "7つの石室にアンノーンが!!まなぶ アスカナいせき"
-    translation: 7个石室中有未知图腾！！去了解吧 阿斯卡纳遗迹
+    translation: "7个石室中有未知图腾！！去了解吧 七禾遗迹"
     scan_box:
       - 473
       - 1421
@@ -2018,7 +2020,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ナナシマ観光マップ1のしまともしび温泉3のしま2のしま5のしま4のしまおもいでとう6のしま7のしまアスカナいせきカントー地方
-    translation: 七之岛观光地图 1之岛 灯火山温泉 3之岛 2之岛 5之岛 4之岛 回忆之塔 6之岛 7之岛 阿斯卡纳遗迹 关都地区
+    translation: "七之岛观光地图 1之岛 灯火温泉 3之岛 2之岛 5之岛 4之岛 回忆之塔 6之岛 7之岛 七禾遗迹 关都地区"
     scan_box:
       - 1114
       - 987
@@ -2138,7 +2140,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: ↓エンジュシティを中心としたジョウトのイメージイラスト。遠くに見えるのはカントーのシロガネやまだ→まいこはんたちが舞い踊る「かぶれんじょう」。和の魅力を満喫させてくれる、エンジュシティならではの場所だ
-    translation: ↓以缘朱市为中心的城都印象插画。远处能看到的是关都的白银山→舞姬们翩翩起舞的“歌舞练习场”。这里是能让人充分享受和风魅力的缘朱市独有之地
+    translation: "↓以缘朱市为中心的城都印象插画。远处能看到的是关都的白银山→舞妓们翩翩起舞的“缘朱舞场”。这里是能让人充分享受和风魅力的缘朱市独有之地"
     scan_box:
       - 84
       - 604
@@ -2636,7 +2638,7 @@ translation_segments:
     scan_page: 9
     review_status: review
     original: ゆうしょうした ニンドリさんには みずのいしを さしあげます
-    translation: 获得冠军的Nintendo DREAM读者，将获赠水之石。
+    translation: "获得冠军的Nintendo DREAM先生，将获赠水之石。"
     scan_box:
       - 672
       - 1516
@@ -2986,7 +2988,7 @@ translation_segments:
     scan_page: 9
     review_status: review
     original: "撮影場所 月 火 水 木 金 土 日\nワカバタウン※1 ●\nヨシノシティ※1 ● ● ●\nアルフのいせき※1 ● ● ●\nアルフのいせき内部※1 ● ●\n32ばんどうろ※1 ● ● ●\nヤドンのいど※1 ● ●\nウバメのもり※1 ● ●\n34ばんどうろ※1 ● ●\nコガネちかつうろ ● ● ● ● ● ● ●\n35ばんどうろ ● ●\nポケスロンゲート内 ● ●\nポケスロンドーム(ドリンク屋前) ● ● ●\nポケスロンドーム(ドーム前) ● ● ●\nしぜんこうえん(噴水前)※2 ● ●\nしぜんこうえん(花壇横)※2 ● ●\nエンジュシティ ●\nアサギシティ ● ●\nアサギのとうだい5階 ● ●\n39ばんどうろ ●\nタンバシティ(カメラのみ) ● ● ● ● ● ●\n48ばんどうろ ● ●\nサファリゾーン ● ●\nこおりのぬけみち ● ●\nフスベシティ ● ●\n\n撮影場所 月 火 水 木 金 土 日\nりゅうのあな※3 ●\n45ばんどうろ ● ●\n26ばんどうろ ● ●\nフロンティアフロント ● ●\nクチバシティ ● ● ●\nヤマブキシティ(リニア駅前) ● ● ●\nヤマブキシティ(シルフカンパニー前) ● ●\nハナダシティ ● ●\nタマムシシティ ●\nタマムシデパート2階 ●\n12ばんどうろ ● ●\n14ばんどうろ ● ●\nセキチクシティ ● ●\nニビかがくはくぶつかん ●\nニビシティ ● ●\nトキワシティ ● ●\n22ばんどうろ ● ●\n1ばんどうろ ● ●\nマサラタウン ● ● ●\n21ばんすいどう ●\nふたごじま ● ●\nシロガネやま ● ●\nシロガネやまどうぐC ●"
-    translation: "拍摄地点 一 二 三 四 五 六 日\n若叶镇※1 ●\n吉花市※1 ● ● ●\n阿露福遗迹※1 ● ● ●\n阿露福遗迹内部※1 ● ●\n32号道路※1 ● ● ●\n呆呆兽之井※1 ● ●\n栎树林※1 ● ●\n34号道路※1 ● ●\n满金地下通道 ● ● ● ● ● ● ●\n35号道路 ● ●\n宝可梦全能竞技赛入口内 ● ●\n宝可梦全能竞技赛巨蛋（饮料店前） ● ● ●\n宝可梦全能竞技赛巨蛋（巨蛋前） ● ● ●\n自然公园（喷水池前）※2 ● ●\n自然公园（花坛旁）※2 ● ●\n缘朱市 ●\n浅葱市 ● ●\n浅葱灯塔5层 ● ●\n39号道路 ●\n湛蓝市（仅相机） ● ● ● ● ● ●\n48号道路 ● ●\n狩猎地带 ● ●\n冰雪通路 ● ●\n烟墨市 ● ●\n\n拍摄地点 一 二 三 四 五 六 日\n龙穴※3 ●\n45号道路 ● ●\n26号道路 ● ●\n对战开拓区入口 ● ●\n枯叶市 ● ● ●\n金黄市（磁浮列车站前） ● ● ●\n金黄市（西尔佛公司前） ● ●\n华蓝市 ● ●\n玉虹市 ●\n玉虹百货公司2层 ●\n12号道路 ● ●\n14号道路 ● ●\n浅红市 ● ●\n深灰科学博物馆 ●\n深灰市 ● ●\n常磐市 ● ●\n22号道路 ● ●\n1号道路 ● ●\n真新镇 ● ● ●\n21号水路 ●\n双子岛 ● ●\n白银山 ● ●\n白银山道具C ●"
+    translation: "拍摄地点 一 二 三 四 五 六 日\n若叶镇※1 ●\n吉花市※1 ● ● ●\n阿露福遗迹※1 ● ● ●\n阿露福遗迹内部※1 ● ●\n32号道路※1 ● ● ●\n呆呆兽之井※1 ● ●\n栎树林※1 ● ●\n34号道路※1 ● ●\n满金地下通道 ● ● ● ● ● ● ●\n35号道路 ● ●\n宝可梦全能竞技赛入口内 ● ●\n宝可梦全能竞技赛巨蛋（饮料店前） ● ● ●\n宝可梦全能竞技赛巨蛋（巨蛋前） ● ● ●\n自然公园（喷水池前）※2 ● ●\n自然公园（花坛旁）※2 ● ●\n缘朱市 ●\n浅葱市 ● ●\n浅葱灯塔5层 ● ●\n39号道路 ●\n湛蓝市（仅相机） ● ● ● ● ● ●\n48号道路 ● ●\n狩猎地带 ● ●\n冰雪小径 ● ●\n烟墨市 ● ●\n\n拍摄地点 一 二 三 四 五 六 日\n龙穴※3 ●\n45号道路 ● ●\n26号道路 ● ●\n对战开拓区入口 ● ●\n枯叶市 ● ● ●\n金黄市（磁浮列车站前） ● ● ●\n金黄市（西尔佛公司前） ● ●\n华蓝市 ● ●\n玉虹市 ●\n玉虹百货公司2层 ●\n12号道路 ● ●\n14号道路 ● ●\n浅红市 ● ●\n深灰科学博物馆 ●\n深灰市 ● ●\n常青市 ● ●\n22号道路 ● ●\n1号道路 ● ●\n真新镇 ● ● ●\n21号水路 ●\n双子岛 ● ●\n白银山 ● ●\n白银山道具C ●"
     scan_box:
       - 119
       - 272
@@ -3002,7 +3004,7 @@ translation_segments:
     scan_page: 9
     review_status: review
     original: ※1…コガネジム攻略後 ※2…むしとりたいかい開催中を除く ※3…イブキからわざマシンを入手したあと
-    translation: ※1…攻略满金道馆后 ※2…捕捉大会举办期间除外 ※3…从伊吹那里获得招式学习器之后
+    translation: "※1…攻略满金道馆后 ※2…捕虫大会举办期间除外 ※3…从小椿那里获得招式学习器之后"
     scan_box:
       - 125
       - 250
@@ -3161,7 +3163,7 @@ translation_segments:
     scan_page: 10
     review_status: review
     original: "おれはアクア団のリーダー、アオギリ! 海底採くんにたたずむ巨大洞くつ…これぞ広大なる海の象徴。かなり行きづらい場所にあるが、ぜひ多くの人に見てほしいものだ。あ、ここの奥にはカイオーガが眠っているが、下手に起こすなよ。大変だったんだから…。"
-    translation: 我是水舰队的首领水梧桐！矗立在海底深处的巨大洞窟……这正是广阔海洋的象征。虽然位于相当难以前往的地方，但希望众多的人都能来看看。啊，这里的深处沉睡着盖欧卡，可别随便把它吵醒。毕竟当初可费了好大劲……
+    translation: "我是海洋队的首领水梧桐！矗立在海底深处的巨大洞窟……这正是广阔海洋的象征。虽然位于相当难以前往的地方，但希望众多的人都能来看看。啊，这里的深处沉睡着盖欧卡，可别随便把它吵醒。毕竟当初可费了好大劲……"
     scan_box:
       - 685
       - 371
@@ -3628,7 +3630,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: ↑サナギタウンは水にうかぶ民家がいっぱいの水の道を持つ町だ
-    translation: ↑茵郁市是一座拥有众多水上民房的水路城镇
+    translation: "↑暮水镇是一座拥有众多水上民房的水路城镇"
     scan_box:
       - 272
       - 881
@@ -3791,7 +3793,7 @@ translation_segments:
     scan_page: 11
     review_status: review
     original: "カイナシティ\nカラクリやしき\nフエンタウン温泉\nえんとつやま\nヒワマキシティ\nキナギタウン\nトクサネ宇宙センター\nかいていどうくつ"
-    translation: "凯那市\n戏法屋\n釜炎镇温泉\n烟囱山\n茵郁市\n橙华镇\n绿岭宇宙中心\n海底洞窟"
+    translation: "凯那市\n戏法屋\n釜炎镇温泉\n烟囱山\n茵郁市\n暮水镇\n绿岭宇宙中心\n海底洞窟"
     scan_box:
       - 120
       - 346
@@ -3853,7 +3855,7 @@ translation_segments:
     scan_page: 12
     review_status: review
     original: ↓主人公の入った部屋の右隣。普段は誰もいないのに、この時は…！
-    translation: ↓主角所住房间的右边隔壁。平时谁都不在，但这个时候却……！
+    translation: "↓主角进入的房间的右隔壁。平时谁都不在，但这次却……！"
     scan_box:
       - 384
       - 500
@@ -4000,7 +4002,7 @@ translation_segments:
     scan_page: 12
     review_status: review
     original: ←ミオとしょかんには、シンオウ地方の神話に関する文献がそろっている。いろいろ読んでみよう
-    translation: ←水脉图书馆里收藏着与神奥地方神话相关的文献。去读读各种书吧
+    translation: "←水脉图书馆里收藏着与神奥地区神话相关的文献。去读读各种书吧"
     scan_box:
       - 977
       - 834
@@ -4039,7 +4041,7 @@ translation_segments:
       - 1373
       - 1020
     writing_direction: horizontal
-  - speaker: 神奥地方 观光地图 湖畔、名胜区、森之洋馆、宝可梦雕像、花苑花田、神和壁画、宝可梦超级华丽大赛、水脉图书馆、野濑大湿地、立志湖、心齐湖、湖畔大饭店、宝可梦岩石
+  - speaker: 神奥地方 观光地图 湖畔、名胜区、森之洋馆、宝可梦雕像、花苑花田、神和壁画、宝可梦超级华丽大赛、水脉图书馆、野原大湿地、立志湖、心齐湖、湖畔大饭店、宝可梦岩石
     type: heading
     kind: text
     region_type: heading
@@ -4049,7 +4051,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シンオウ地方 観光マップエイチこリゾートエリアもりのようかんポケモンの像ソノオのはなばたけカンナギの壁画ポケモンスーパーコンテストミオとしょかんノモセだいしつげんリッシこシンジこホテルグランドレイクポケモンいわ
-    translation: 神奥地区 观光地图 睿智湖 名胜区 森之洋馆 宝可梦像 花苑花田 神和壁画 宝可梦超级华丽大赛 水脉图书馆 野濑大湿地 立志湖 心齐湖 湖畔大饭店 宝可梦岩
+    translation: "神奥地区 观光地图 睿智湖 名胜区 森之洋馆 宝可梦像 花苑花田 神和壁画 宝可梦超级华丽大赛 水脉图书馆 野原大湿地 立志湖 心齐湖 湖畔大饭店 宝可梦岩"
     scan_box:
       - 14
       - 1130
@@ -4105,7 +4107,7 @@ translation_segments:
     scan_page: 13
     review_status: review
     original: →ヨスガシティでは、ポケモンの美しさなどを競うコンテストを開催！↑「ポフィン」というおかしを与えて、コンディションを上げよう
-    translation: →在缘朱市，会举办比拼宝可梦美丽程度等的华丽大赛！↑喂食名为“宝芬”的点心，提升状态吧
+    translation: "→在家缘市，会举办比拼宝可梦美丽程度等的华丽大赛！↑喂食名为“宝芬”的点心，提升状态吧"
     scan_box:
       - 1226
       - 1505
@@ -4137,7 +4139,7 @@ translation_segments:
     scan_page: 13
     review_status: review
     original: おーホッホッホ！ アタシ メリッサです！ ヨスガシティはコンテストやってます。えーと、だから、アタシ見てきなさい！
-    translation: "哦——呵呵呵！我是梅丽莎！缘朱市正在举办华丽大赛。呃，所以，你去看一看吧！"
+    translation: "哦——呵呵呵！我是梅丽莎！家缘市正在举办华丽大赛。呃，所以，你去看一看吧！"
     scan_box:
       - 1099
       - 1151
@@ -4423,7 +4425,7 @@ translation_segments:
       - 395
       - 844
     writing_direction: horizontal
-  - speaker: 野濑大湿原 广阔湿地中还有未曾见过的宝可梦？
+  - speaker: 野原大湿地 广阔湿地中还有未曾见过的宝可梦？
     type: heading
     kind: text
     region_type: heading
@@ -4433,8 +4435,8 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ノモセたいしつげん広大な湿地帯にまだ見ぬポケモンが？
-    translation: 野濑大湿地 广阔湿地中还有未见过的宝可梦？
-    comment: 野濑大湿原位于神奥地区的野濑市。
+    translation: "野原大湿地 广阔湿地中还有未见过的宝可梦？"
+    comment: 野原大湿地位于神奥地区的野原市。
     scan_box:
       - 889
       - 573
@@ -4450,7 +4452,7 @@ translation_segments:
     scan_page: 13
     review_status: review
     original: よぉーく来たッ！！ ここノモセシティの名物だいじつげん！ ここでポケモンを捕まえて、おれ様と勝負だぁ！！
-    translation: 你可算来了！！这就是野濑市的招牌大湿原！在这里抓宝可梦，然后跟本大爷一决胜负！！
+    translation: "你可算来了！！这就是野原市的招牌大湿原！在这里抓宝可梦，然后跟本大爷一决胜负！！"
     scan_box:
       - 1087
       - 463
@@ -4528,7 +4530,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ニンドリ編集部が独断と偏見で選ぶ!!"
-    translation: "Nintendo DREAM编辑部以独断与偏见选出!!"
+    translation: "Nintendo DREAM编辑部以独断与偏见选出！！"
     scan_box:
       - 366
       - 137
@@ -4561,7 +4563,7 @@ translation_segments:
     scan_page: 14
     review_status: review
     original: ここからはちょっと趣向を変え、テーマ別に5大地方の見どころをピックアップ。編集部の独断と偏見で、テーマ別の見どころベスト3を決めちゃいました！
-    translation: 接下来稍微换个角度，按主题挑选五大地方的看点。编辑部以独断与偏见，决定了各主题看点的BEST 3！
+    translation: "接下来稍微换个角度，按主题挑选五大地区的看点。编辑部以独断与偏见，决定了各主题看点的BEST 3！"
     scan_box:
       - 999
       - 211
@@ -4639,7 +4641,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "滝マニアといえばマキシさん…いや、マキシマム仮面!"
-    translation: 说到瀑布狂热者就是吉宪先生……不，是吉宪假面！
+    translation: "说到瀑布狂热者就是吉宪先生……不，是极限假面！"
     scan_box:
       - 943
       - 702
@@ -4655,7 +4657,7 @@ translation_segments:
     scan_page: 14
     review_status: review
     original: ←ジョウト地方のある滝の前に、シンオウ地方出身のマキシが登場！
-    translation: ←在城都地方的某处瀑布前，出身神奥地方的麦可登场！
+    translation: "←在城都地区的某处瀑布前，出身神奥地区的吉宪登场！"
     scan_box:
       - 1287
       - 811
@@ -4756,7 +4758,7 @@ translation_segments:
     scan_page: 14
     review_status: review
     original: ↑伝説のポケモン・ルギアが潜むうずまきじま。最深部には、地底であることを忘れさせる巨大な滝がある。滝の裏からルギアが登場する瞬間を見逃すな！
-    translation: ↑传说宝可梦洛奇亚潜藏的漩涡列岛。在最深处，有一道让人忘记身处地底的巨大瀑布。不要错过洛奇亚从瀑布背后登场的那一瞬间！
+    translation: "↑传说宝可梦洛奇亚潜藏的漩涡岛。在最深处，有一道让人忘记身处地底的巨大瀑布。不要错过洛奇亚从瀑布背后登场的那一瞬间！"
     scan_box:
       - 85
       - 1692
@@ -4927,7 +4929,7 @@ translation_segments:
     scan_page: 15
     review_status: review
     original: 旅といえば、やはりお土産は欠かせないところ。ここでは、各地方を代表するお菓子を紹介！ 順位の決め手は…名前のインパクトかなあ。
-    translation: 说到旅行，伴手礼果然是不可或缺的。这里介绍各地方具有代表性的点心！排名的决定因素……大概是名字的冲击力吧。
+    translation: "说到旅行，伴手礼果然是不可或缺的。这里介绍各地区具有代表性的点心！排名的决定因素……大概是名字的冲击力吧。"
     scan_box:
       - 140
       - 1663
@@ -5253,7 +5255,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 登山道中は危険でも そこに山がある限り…
-    translation: 登山道中即便危险 只要那里有山…
+    translation: "登山道中即便危险 只要那里有山……"
     scan_box:
       - 799
       - 680
@@ -5269,7 +5271,7 @@ translation_segments:
     scan_page: 15
     review_status: review
     original: 各地方を代表する山は、強いポケモンやトレーナーが待ち受けていることが多い。上級トレーナー向けの厳選登山ガイドをお届け！
-    translation: 代表各地方的山，往往有强大的宝可梦和训练家在等着你。这里为上级训练家送上精选登山指南！
+    translation: "代表各地区的山，往往有强大的宝可梦和训练家在等着你。这里为上级训练家送上精选登山指南！"
     scan_box:
       - 794
       - 618
@@ -5318,7 +5320,7 @@ translation_segments:
     scan_page: 15
     review_status: review
     original: カントー地方
-    translation: 关都地方
+    translation: "关都地区"
     scan_box:
       - 794
       - 467
@@ -5383,7 +5385,7 @@ translation_segments:
     scan_page: 15
     review_status: review
     original: シンオウ地方
-    translation: 神奥地方
+    translation: "神奥地区"
     scan_box:
       - 220
       - 700
@@ -5497,7 +5499,7 @@ translation_segments:
     scan_page: 15
     review_status: review
     original: →ホウエン地方の霊山。アクア団とマグマ団の争いに巻き込まれないよう気をつけよう
-    translation: →丰缘地区的灵山。注意不要被水舰队和熔岩队的争斗卷入
+    translation: "→丰缘地区的灵山。注意不要被海洋队和熔岩队的争斗卷入"
     scan_box:
       - 164
       - 332
@@ -5887,7 +5889,7 @@ translation_segments:
     scan_page: 16
     review_status: review
     original: ↑シンオウ地方でヒンバスが釣れるのは、テンガンざんの地下湖のみだ
-    translation: ↑在神奥地区，能钓到笨笨鱼的地方只有天冠山的地下湖
+    translation: "↑在神奥地区，能钓到丑丑鱼的地方只有天冠山的地下湖"
     comment: 天冠山即テンガンざん，是神奥地区的中央山脉。
     scan_box:
       - 736
@@ -5904,7 +5906,7 @@ translation_segments:
     scan_page: 16
     review_status: review
     original: ↑ホウエン地方は119ばんどうろ。ただし、どちらもヒンバスが釣れるポイントは数か所のみのなので、かなり大変だ
-    translation: ↑丰缘地区是119号道路。不过两处能钓到笨笨鱼的地点都只有几处，相当费劲
+    translation: "↑丰缘地区是119号道路。不过两处能钓到丑丑鱼的地点都只有几处，相当费劲"
     scan_box:
       - 1043
       - 512
@@ -6405,7 +6407,7 @@ translation_segments:
     scan_page: 16
     review_status: review
     original: ホウエンには「マッハじてんしゃ」と「ダートじてんしゃ」という、2種類の自転車がある。「マッハじてんしゃ」は最高速度が自慢で、流れる砂の坂や崩れる床を駆け抜けられる。「ダートじてんしゃ」は速度はそこそこだが、石段を登ったり一本橋を渡ったりできるぞ。状況に合わせて乗り換えることで、ホウエン中をくまなく冒険できるのだ。
-    translation: 丰缘有“音速自行车”和“越野自行车”两种自行车。“音速自行车”以最高速度为傲，能够冲过流沙坡和崩塌的地板。“越野自行车”速度一般，但能够登上石阶、通过独木桥。根据情况换乘，就能在丰缘全境无微不至地冒险。
+    translation: "丰缘有“音速自行车”和“越野自行车”两种自行车。“音速自行车”以最高速度为傲，能够冲过流沙坡和崩塌的地板。“越野自行车”速度一般，但能够登上石阶、通过独木桥。根据情况换乘，就能走遍丰缘的每个角落尽情冒险。"
     scan_box:
       - 938
       - 1618
@@ -6624,7 +6626,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 3位 タイドリップ号 ホウエン地方
-    translation: 第3名 破浪號 丰缘地区
+    translation: "第3名 破浪号 丰缘地区"
     scan_box:
       - 38
       - 1210
@@ -6640,7 +6642,7 @@ translation_segments:
     scan_page: 17
     review_status: review
     original: ↑ホウエン地方を航行する大型船。船内ではお客さんや船員とのバトルも可能
-    translation: ↑航行于丰缘地方的大型船。船上也可以与乘客和船员对战
+    translation: "↑航行于丰缘地区的大型船。船上也可以与乘客和船员对战"
     scan_box:
       - 43
       - 1464
@@ -6656,7 +6658,7 @@ translation_segments:
     scan_page: 17
     review_status: review
     original: ▶ミナモシティバトルフロンティアやめる
-    translation: ▶琉璃市对战开拓区 算了
+    translation: "▶水静市对战开拓区 算了"
     comment: 原文OCR疑有误，此处按字面译出
     scan_box:
       - 207
@@ -6673,7 +6675,7 @@ translation_segments:
     scan_page: 17
     review_status: review
     original: いきさは どちら でしょう?
-    translation: 究竟是在哪里呢？
+    translation: "请问目的地是哪里？"
     scan_box:
       - 77
       - 1413
@@ -6772,7 +6774,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 シーギャロップ号 カントー地方 (『ポケモンFR・LG』のみ)
-    translation: 番外 海马号 关都地区（仅《宝可梦FR·LG》）
+    translation: "番外 海烈焰马号 关都地区（仅《宝可梦 火红·叶绿》）"
     scan_box:
       - 346
       - 1522
@@ -6821,7 +6823,7 @@ translation_segments:
     scan_page: 17
     review_status: review
     original: のんびりとした観光旅行もいいが、ポケモントレーナーたるもの、やはり最高峰のバトルも体験しておきたいところ。最後に、各地方にあるバトルの殿堂をまとめて紹介しておこう。
-    translation: 悠闲的观光旅行固然不错，但身为宝可梦训练家，还是想体验一下最高水平的对战。最后，就来汇总介绍一下各地方的对战殿堂。
+    translation: "悠闲的观光旅行固然不错，但身为宝可梦训练家，还是想体验一下最高水平的对战。最后，就来汇总介绍一下各地区的对战殿堂。"
     scan_box:
       - 681
       - 319
@@ -7085,7 +7087,7 @@ translation_segments:
     scan_page: 17
     review_status: review
     original: "↑5つの施設でバトルが楽しめる。フロンティアブレーンとの対決も!"
-    translation: ↑可在5个设施中享受对战。还能与开拓区首领对决！
+    translation: "↑可在5个设施中享受对战。还能与开拓头脑对决！"
     scan_box:
       - 691
       - 1206
@@ -7295,7 +7297,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 番外 トレーナータワー カントー地方 (『ポケモンFR・LG』のみ)
-    translation: 番外 训练家塔 关都地区（仅《宝可梦FR·LG》）
+    translation: "番外 训练家塔 关都地区（仅《宝可梦 火红·叶绿》）"
     comment: FR・LG指《宝可梦 火红／叶绿》。
     scan_box:
       - 691
