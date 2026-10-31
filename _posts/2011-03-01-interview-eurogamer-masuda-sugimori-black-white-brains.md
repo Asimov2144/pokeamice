@@ -52,7 +52,7 @@ parallel_items:
 - original: It is one of the best-selling game franchises, a Nintendo behemoth with truly global appeal. And yet we know so little about where the Pokemon games come from.
   translation: 它是最畅销的游戏系列之一，一个真正具有全球吸引力的任天堂巨兽。然而我们对宝可梦游戏的来源却知之甚少。
 - original: They come from Japan, of course, but, more specifically, they come from a Japanese game developer called GameFreak – somewhat appropriately named given the fanaticism the Pokemon series commands from its loyal fanbase. But what makes the secretive independent developer tick? How does it go about making Pokemon feel fresh version after version? And how does it come up with all those crazy Pokemon names? Here, in a rare interview, Pokemon director Junichi Masuda and graphic designer Mana Ibe reveal all.
-  translation: "它们当然来自日本，但更具体地说，它们来自一家名为GAME FREAK的日本游戏开发商——考虑到宝可梦系列从其忠实粉丝群体中引发的狂热，这个名字倒也颇为贴切。但这家神秘的独立开发商究竟靠什么运转？它如何让宝可梦在一个又一个版本中保持新鲜感？它又是怎么想出那些疯狂的宝可梦名字的？在这里，宝可梦总监增田顺一和平面设计师伊部麻奈在一篇难得的采访中揭示了一切。"
+  translation: "它们当然来自日本，但更具体地说，它们来自一家名为GAME FREAK的日本游戏开发商——考虑到宝可梦系列从其忠实粉丝群体中引发的狂热，这个名字倒也颇为贴切。但这家神秘的独立开发商究竟靠什么运转？它如何让宝可梦在一个又一个版本中保持新鲜感？它又是怎么想出那些疯狂的宝可梦名字的？在这里，宝可梦总监增田顺一和平面设计师井部真那在一篇难得的采访中揭示了一切。"
   note: GameFreak是宝可梦系列游戏的开发公司，总部位于东京。
 - original: How do you keep the Pokemon games fresh and relevant in the rapidly changing videogame market?
   role: question
@@ -117,7 +117,7 @@ parallel_items:
 - type: heading
   level: 3
   original: Mana Ibe
-  translation: 伊部真奈
+  translation: "井部真那"
   note: Mana Ibe，Game Freak 的宝可梦设计师，曾参与《宝可梦 黑／白》的宝可梦设计。
 - original: All Pokemon shouldn't be just cold or frightening. What we consider first is players have some connectivity, a close feeling with these Pokemon. That's really important to have. For example, some Pokemon could have really edgy nails and could be really frightening to the players. However, if the Pokemon has a cute look, it could be something you feel close to.
   translation: 所有宝可梦都不应该只是冷冰冰或吓人的。我们首先考虑的是让玩家与这些宝可梦之间有某种联系、一种亲近感。这一点非常重要。比如，有些宝可梦可能长着很锋利的爪子，对玩家来说可能很吓人。但如果这只宝可梦外形可爱，它就可能成为让你觉得亲近的东西。
@@ -158,11 +158,11 @@ parallel_items:
 - original: This time, for Black and White, the main concept was extreme in the scenario. So, that's where the name Black and White comes from. It's extreme, different, opposite. This time was the first time we put the title based on the scenario and the world point of view. This title was based on the content of the videogame scenario.
   role: answer
   speaker: 增田顺一
-  translation: 这一次，《黑／白》的主要概念是剧情上的极端。所以‘黑与白’这个名字就由此而来。它是极端的、不同的、对立的。这一次是我们第一次根据剧情和世界观来定标题。这个标题是基于游戏剧情的内容。
+  translation: "这一次，《黑·白》的主要概念是剧情上的极端。所以‘黑与白’这个名字就由此而来。它是极端的、不同的、对立的。这一次是我们第一次根据剧情和世界观来定标题。这个标题是基于游戏剧情的内容。"
 - original: Going forward, I predict we will continue putting titles based on the worldview, like we did for Black and White. But of course, it's really difficult!
   role: answer
   speaker: 增田顺一
-  translation: 往后，我预计我们会像《黑／白》这样，继续根据世界观来定标题。当然，这真的很难！
+  translation: "往后，我预计我们会像《黑·白》这样，继续根据世界观来定标题。当然，这真的很难！"
 - original: In Japan, local wireless DS features are used more than they are in the West, where it's harder to meet people who also play Pokemon. Do you consider adding depth to the single-player side of the game so those players get as much out of Pokemon as those who can play with friends?
   role: question
   speaker: Eurogamer
@@ -186,7 +186,7 @@ parallel_items:
 - original: For Black and White we totally changed the scheme of the organisation. This time we translated directly from Japanese to all other languages. Before, we localised from Japanese to English, and from English to other European languages. So this time it was Japanese directly to European languages.
   role: answer
   speaker: 增田顺一
-  translation: 对于《黑／白》，我们彻底改变了组织的架构。这次我们直接从日语翻译成所有其他语言。以前，我们先从日语本地化成英语，再从英语本地化成其他欧洲语言。所以这次是从日语直接到欧洲语言。
+  translation: "对于《黑·白》，我们彻底改变了组织的架构。这次我们直接从日语翻译成所有其他语言。以前，我们先从日语本地化成英语，再从英语本地化成其他欧洲语言。所以这次是从日语直接到欧洲语言。"
 - original: That made the launch timing a little closer to the Japanese launch. This time, the launch in Europe is 4th March, which is two days before the US launch. So we're making an effort. This time we had many new localisation staff.
   role: answer
   speaker: 增田顺一
@@ -222,7 +222,7 @@ parallel_items:
 - original: I like Victini the best. Victini is something Miss Ibe designed. One of the reasons I like it is the idea of this Pokemon is it's a Victory Pokemon. It will lead to victory for players. Also, when I requested Miss Ibe design this new Pokemon, I said it should be a Pokemon that is more appealing to women than men. I liked that concept.
   role: answer
   speaker: 增田顺一
-  translation: 我最喜欢比克提尼。比克提尼是伊部小姐设计的。我喜欢它的原因之一是这只宝可梦的设定是胜利宝可梦。它会为玩家带来胜利。另外，当我请伊部小姐设计这只新宝可梦时，我说它应该是一只对女性比男性更有吸引力的宝可梦。我喜欢这个理念。
+  translation: "我最喜欢比克提尼。比克提尼是井部小姐设计的。我喜欢它的原因之一是这只宝可梦的设定是胜利宝可梦。它会为玩家带来胜利。另外，当我请井部小姐设计这只新宝可梦时，我说它应该是一只对女性比男性更有吸引力的宝可梦。我喜欢这个理念。"
   note: 伊部小姐指伊部由起子，时任Game Freak设计师，负责多只宝可梦的设计。
 summary: 2011年3月欧洲发售前夕，Eurogamer 资深编辑 Wesley Yin-Poole 罕见面对面对话增田顺一与杉森建两位灵魂人物。增田详述《黑·白》打破常规的‘全图鉴大洗牌’策略——通关前彻底封印历代旧宝可梦，全部采用 156 只全新设计的宝可梦，让即便玩了15年的核心玩家也重回初玩《红·绿》时的未知探索感；杉森建深刻阐释‘宝可梦既是对战对手也是灵魂伴侣’的共情设计哲学，拒绝纯粹可怖与凶恶；增田首度披露《黑·白》是全系列第一次不以矿物颜色而是直接以‘剧情与世界观的哲学极值（真实与理想、黑与白）’命名的作品；并解密彻底重构跨国本地化组织架构，首次实现日语直接翻译法/德/意/西语，使欧洲发售日历史性反超北美；最后分享了井部真那针对女性受众设计、为玩家带来必胜信念的比克提尼诞生秘闻。
 era: 2007–2014 · DS Touch / 神奥神话与合众革新

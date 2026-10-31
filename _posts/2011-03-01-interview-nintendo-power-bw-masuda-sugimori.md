@@ -59,7 +59,7 @@ parallel_items:
   translation: 培育第五代
 - speaker: ''
   original: From photocopying a hand-drawn fanzine to conceiving one of the most successful entertainment franchises ever, few companies have experienced as meteoric a rise as Pokemon developer Game Freak. Pokemon art director and Game Freak cofounder Ken Sugimori joins director Junichi Masuda to answer our questions about Pokemon Black Version and Pokemon White Version, the fifth pair of mainline Pokemon role-playing games.
-  translation: 从复印手绘同人志到构思史上最成功的娱乐系列之一，很少有公司能像宝可梦开发商GAME FREAK那样经历飞速崛起。宝可梦艺术总监兼GAME FREAK联合创始人杉森建与总监增田顺一共同回答了我们的问题，内容涉及宝可梦主系列第五对角色扮演游戏《宝可梦 黑／白》。
+  translation: "从复印手绘同人志到构思史上最成功的娱乐系列之一，很少有公司能像宝可梦开发商GAME FREAK那样经历飞速崛起。宝可梦艺术总监兼GAME FREAK联合创始人杉森建与总监增田顺一共同回答了我们的问题，内容涉及宝可梦主系列第五对角色扮演游戏《宝可梦 黑·白》。"
   note: GAME FREAK 为官方名称，不翻译。
 - speaker: 提问
   original: After years of progressively more exotic titles, is there any special significance to returning to basic colors with black and white?
@@ -67,7 +67,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: “We choose the titles to express the themes of each game. Like, diamonds are the hardest substance in the world, so that fit the theme of “ultimateness” in Pokemon Diamond and Pearl. This time we’re pursuing a theme of “polarity,” things that are defined by their opposition to each other. Take, for example, angels and demons, or light and shadow—if one didn’t exist, the other would lose all meaning. “White” is a blank slate with potential to become anything, while “black” is complete and unchanging. So our intention actually wasn’t to return to the basics, but to evoke that particular theme.”
-  translation: 我们选择标题是为了表达每款游戏的主题。比如，钻石是世界上最坚硬的物质，所以符合《宝可梦 钻石／珍珠》中“终极”的主题。这次我们追求的是“两极对立”的主题，即事物通过相互对立而定义。例如天使与恶魔、光与影——如果一方不存在，另一方就失去了意义。“白”是一张白纸，具有变成任何事物的潜力，而“黑”则是完整且不变的。所以我们的意图其实不是回归基础，而是唤起那个特定的主题。
+  translation: "我们选择标题是为了表达每款游戏的主题。比如，钻石是世界上最坚硬的物质，所以符合《宝可梦 钻石·珍珠》中“终极”的主题。这次我们追求的是“两极对立”的主题，即事物通过相互对立而定义。例如天使与恶魔、光与影——如果一方不存在，另一方就失去了意义。“白”是一张白纸，具有变成任何事物的潜力，而“黑”则是完整且不变的。所以我们的意图其实不是回归基础，而是唤起那个特定的主题。"
   role: answer
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/bw_boxes.jpg
@@ -83,11 +83,11 @@ parallel_items:
   role: answer
 - speaker: 提问
   original: Pokemon Black Version and Pokemon White Version seem to include more new features than previous installments. How does the scale of the project compare to past generations of Pokemon?
-  translation: 《宝可梦 黑／白》似乎比前几代包含了更多新功能。与过去的宝可梦世代相比，这个项目的规模如何？
+  translation: "《宝可梦 黑·白》似乎比前几代包含了更多新功能。与过去的宝可梦世代相比，这个项目的规模如何？"
   role: question
 - speaker: 增田顺一
   original: “In terms of development resources, it was certainly the largest game we’ve ever made. We had a staff of 70 people working on it here at Game Freak, and then there’s the Pokemon Global Link team on top of that, which featured dozens of additional developers.” [Pokemon Global Link is a new website that will launch this spring and allow players to link up their game data to experience additional online features. -Ed.]
-  translation: 就开发资源而言，这无疑是我们制作过的最大规模的游戏。我们在GAME FREAK有70名员工参与开发，此外还有宝可梦全球连接团队，该团队还有数十名额外的开发者。”[宝可梦全球连接是一个新网站，将于今年春季上线，允许玩家关联游戏数据以体验额外的在线功能。——编者注]
+  translation: "就开发资源而言，这无疑是我们制作过的最大规模的游戏。我们在GAME FREAK有70名员工参与开发，此外还有宝可梦全球连接团队，该团队还有数十名额外的开发者。【宝可梦全球连接是一个新网站，将于今年春季上线，允许玩家关联游戏数据以体验额外的在线功能。——编者注】"
   note: 宝可梦全球连接（Pokémon Global Link）为官方译名。
   role: answer
 - type: image
@@ -95,7 +95,7 @@ parallel_items:
   alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_003'
 - speaker: ''
   original: 'Dr Lava’s notes: It’s worth noting, in a July 2000 interview with Nintendo Power, Masuda said the team that worked on Gold & Silver was only about 20 developers. Here he says about 70 people worked on Black & White — a substantial increase in manpower between generations 2 and 5.'
-  translation: 熔岩博士的注释：值得注意的是，在2000年7月接受《Nintendo Power》采访时，增田表示参与《金／银》开发的团队只有大约20名开发者。而这里他说《黑／白》约有70人参与——从第二世代到第五世代，人力大幅增加。
+  translation: "熔岩博士的注释：值得注意的是，在2000年7月接受《Nintendo Power》采访时，增田表示参与《金·银》开发的团队只有大约20名开发者。而这里他说《黑·白》约有70人参与——从第二世代到第五世代，人力大幅增加。"
   note: 熔岩博士（Dr. Lava）是宝可梦历史研究者的网名。
   type: note
 - speaker: 提问
@@ -108,7 +108,7 @@ parallel_items:
   role: answer
 - speaker: 杉森建
   original: “This is the second generation of Pokemon games on the Nintendo DS hardware. So from the visual side, we were focusing on the issue of “how do we make a game feel fresh when it’s on familiar hardware?” One of the ways was to use entirely new Pokemon, instead of mixing new and [existing] Pokemon the way we did in previous installments. Creating an entirely new ecosystem of Pokemon allowed us to return to square one in terms of design. So we already have Pokemon based on dogs, and horses, and deer, for example. But now that we’ve discarded our past work, in a sense, we can go back to the animals that have inspired Pokemon and study them with fresh eyes, and create new and different things.”
-  translation: 这是任天堂DS硬件上的第二世代宝可梦游戏。所以从视觉方面，我们关注的问题是“在熟悉的硬件上如何让游戏感觉新鲜？”方法之一就是使用全新的宝可梦，而不是像前几作那样混合新旧宝可梦。创造全新的宝可梦生态系统让我们在设计上回到了原点。例如，我们已经有基于狗、马和鹿的宝可梦。但现在，从某种意义上说，我们已经抛弃了过去的工作，可以重新审视那些启发宝可梦的动物，用全新的眼光研究它们，创造出新的、不同的东西。
+  translation: "这是任天堂DS硬件上的第二组宝可梦游戏。所以从视觉方面，我们关注的问题是“在熟悉的硬件上如何让游戏感觉新鲜？”方法之一就是使用全新的宝可梦，而不是像前几作那样混合新旧宝可梦。创造全新的宝可梦生态系统让我们在设计上回到了原点。例如，我们已经有基于狗、马和鹿的宝可梦。但现在，从某种意义上说，我们已经抛弃了过去的工作，可以重新审视那些启发宝可梦的动物，用全新的眼光研究它们，创造出新的、不同的东西。"
   role: answer
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/004.jpg
@@ -119,7 +119,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: “For Black and White in Japan, the majority of the players have been high-school and college students, but we expect the proportion of younger players to increase over the holidays.” [This interview took place just prior to the holidays. -Ed.] “Generally, the older players are more familiar with the series while the younger players are new to it. However, we believe most of the older players are “lapsed” Pokemon fans. Maybe they played Red and Blue Versions when they were younger, but have not necessarily been playing it consecutively since.”
-  translation: “在日本的《黑／白》玩家中，大多数是高中生和大学生，但我们预计在假期期间，更年轻玩家的比例会增加。”【本访谈在假期前进行。——编者注】“一般来说，年长玩家对系列更熟悉，而年轻玩家则是新接触。然而，我们认为大多数年长玩家是‘流失’的宝可梦粉丝。也许他们年轻时玩过《红／绿》，但之后并不一定持续游玩。”
+  translation: "“在日本的《黑·白》玩家中，大多数是高中生和大学生，但我们预计在假期期间，更年轻玩家的比例会增加。”【本访谈在假期前进行。——编者注】“一般来说，年长玩家对系列更熟悉，而年轻玩家则是新接触。然而，我们认为大多数年长玩家是‘流失’的宝可梦粉丝。也许他们年轻时玩过《红·绿》，但之后并不一定持续游玩。”"
   note: 《红／绿》指宝可梦系列最初版本，在海外为《红／蓝》。
   role: answer
 - speaker: 提问
@@ -151,7 +151,7 @@ parallel_items:
   caption: Screenshot from my Gen 2 video , which covers the Mobile System GB
 - speaker: ''
   original: 'Dr Lava’s notes: Although Black & White were the first Pokemon games to offer trading and battling over wifi, Gen 2 was actually the first time Pokemon fans got the chance to go online. The Japanese version of Crystal was compatible with an accessory called the Mobile Adapter GB, which allowed a Gameboy to connect to a cellphone. You could then trade, battle, download mini-games, and even access the famous Celebi event via the Mobile System GB. Unfortunately, the service was never made available outside of Japan.'
-  translation: Dr Lava 注：尽管《黑／白》是第一款提供通过 Wi-Fi 交换和对战的宝可梦游戏，但第二世代实际上是宝可梦粉丝首次有机会上网。日版《水晶》兼容一种名为“Mobile Adapter GB”的配件，它允许 Game Boy 连接到手机。然后你可以交换、对战、下载小游戏，甚至通过 Mobile System GB 访问著名的时拉比事件。不幸的是，该服务从未在日本以外提供。
+  translation: "Dr Lava 注：尽管《黑·白》是第一款提供通过 Wi-Fi 交换和对战的宝可梦游戏，但第二世代实际上是宝可梦粉丝首次有机会上网。日版《水晶》兼容一种名为“Mobile Adapter GB”的配件，它允许 Game Boy 连接到手机。然后你可以交换、对战、下载小游戏，甚至通过 Mobile System GB 访问著名的时拉比事件。不幸的是，该服务从未在日本以外提供。"
   note: Mobile Adapter GB 是任天堂为 Game Boy 推出的网络适配器，仅在日版《水晶》中支持。
 - speaker: ''
   original: To hear more about the Mobile System GB, check out my video about Gen 2’s cut content — which also covers Japan-exclusive content.
@@ -162,7 +162,7 @@ parallel_items:
   role: question
 - speaker: 杉森建
   original: “Mr. Masuda asked us to play up the ‘coolness’ of the Pokemon in Black and White. So we’re using a lot more sharp and angular lines, rather than more rounded ones. But a lot of it is just that we have different character designers working on the different generations of games. I think the group that worked on Black and White gravitated more toward ‘cool’ designs.”
-  translation: “增田先生要求我们突出《黑／白》中宝可梦的‘酷’感。所以我们使用了更多锐利和棱角分明的线条，而不是更圆润的线条。但很大程度上是因为不同世代游戏有不同的角色设计师。我认为负责《黑／白》的团队更倾向于‘酷’的设计。”
+  translation: "“增田先生要求我们突出《黑·白》中宝可梦的‘酷’感。所以我们使用了更多锐利和棱角分明的线条，而不是更圆润的线条。但很大程度上是因为不同世代游戏有不同的角色设计师。我认为负责《黑·白》的团队更倾向于‘酷’的设计。”"
   role: answer
 - speaker: 增田顺一
   original: “Advances in the hardware have also impacted the style of Pokemon over the years. Higher-resolution platforms have allowed for more detailed designs.”
@@ -199,7 +199,7 @@ parallel_items:
   role: answer
 - speaker: Dr. Lava
   original: But I suppose this raises the question — what should be classified as a “lost Pokemon”? I think we all agree the unused sprites in Gold & Silver’s 1997 demo are lost Pokemon. So is it when Sugimori approves a monster, then it’s discarded later in development? Is it only after it’s given a sprite, or that sprite is programmed into some sort of demo or beta build? That’s a question that deserves its own article, and at the end of the day, probably comes down to your own opinion.
-  translation: 但我想这引出了一个问题——什么应该被归类为“失落的宝可梦”？我想我们都同意《金／银》1997年演示中未使用的精灵图是失落的宝可梦。那么，是当杉森建批准一只宝可梦，但后来在开发中被丢弃时算吗？还是只有在它被赋予精灵图，或者该精灵图被编程到某个演示或测试版本中才算？这个问题值得单独写一篇文章，而归根结底，可能取决于你自己的看法。
+  translation: "但我想这引出了一个问题——什么应该被归类为“失落的宝可梦”？我想我们都同意《金·银》1997年演示中未使用的精灵图是失落的宝可梦。那么，是当杉森建批准一只宝可梦，但后来在开发中被丢弃时算吗？还是只有在它被赋予精灵图，或者该精灵图被编程到某个演示或测试版本中才算？这个问题值得单独写一篇文章，而归根结底，可能取决于你自己的看法。"
   role: answer
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/009.jpg
@@ -222,14 +222,14 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: “[Laughs] I think one of the joys of Pokemon is being able to use your favorite Pokemon from the Blue and Red Versions all the way through to the newest iterations. So no, I don’t think we can do that.”
-  translation: “[笑] 我认为宝可梦的乐趣之一就是能够使用你最喜欢的宝可梦，从《蓝／红》版本一直到最新的作品。所以不，我认为我们不能那样做。”
+  translation: "“[笑] 我认为宝可梦的乐趣之一就是能够使用你最喜欢的宝可梦，从《蓝·红》版本一直到最新的作品。所以不，我认为我们不能那样做。”"
   role: answer
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/010.jpg
   alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_010'
 - speaker: Dr. Lava
   original: 'Dr Lava’s notes: Considering the backlash following Game Freak’s announcement that only about half the Pokedex was going to make its way into Sword & Shield, I think it’s safe to assume a good chunk of the Pokemon fanbase agrees with this 2010 Masuda quote. Pokemon is a very nostalgic franchise for many of its fans, and having some of their favorite Pokemon cut from Gen 8 rubbed a lot of them the wrong way.'
-  translation: Dr Lava的注释：考虑到GAME FREAK宣布只有大约一半的图鉴宝可梦会出现在《剑／盾》中后引发的强烈反对，我认为可以肯定地说，相当一部分宝可梦粉丝同意增田顺一2010年的这段话。宝可梦对许多粉丝来说是一个非常怀旧的系列，而一些他们最喜欢的宝可梦被从第八世代中移除，这让很多人感到不满。
+  translation: "Dr Lava的注释：考虑到GAME FREAK宣布只有大约一半的图鉴宝可梦会出现在《剑·盾》中后引发的强烈反对，我认为可以肯定地说，相当一部分宝可梦粉丝同意增田顺一2010年的这段话。宝可梦对许多粉丝来说是一个非常怀旧的系列，而一些他们最喜欢的宝可梦被从第八世代中移除，这让很多人感到不满。"
   role: answer
 - speaker: ''
   original: This website is about documenting lost Pokemon history, not badmouthing Game Freak developers… But with that said, I think it’s unfortunate that Game Freak forgot in 2019 what Masuda knew so well in 2010. The whole crapstorm could have been avoided.
@@ -237,11 +237,11 @@ parallel_items:
   note: 此处指2019年《宝可梦 剑/盾》的全国图鉴删除事件，增田顺一在2010年曾强调季节系统带来的持续发现感，而2019年的决定忽视了玩家的长期期待。
 - speaker: 提问
   original: After setting the previous games in a Japan-flavored world, why did you decide on a more Western setting for Pokemon Black Version and Pokemon White Version?
-  translation: 在将前作设定于充满日本风情的世界之后，为什么决定在《宝可梦 黑/白》中采用更偏向西方的设定？
+  translation: "在将前作设定于充满日本风情的世界之后，为什么决定在《宝可梦 黑·白》中采用更偏向西方的设定？"
   role: question
 - speaker: 增田顺一
   original: “In Black and White, we decided to use New York City’s Manhattan as a motif. I visited New York for the launch of Pokemon Diamond and Pearl, and spent a lot of time wandering around. I was impressed with how many different nationalities of people lived there, and the individual communities with their special events and street festivals. It had such an international feel…like a world without borders. It seemed like it would be an ideal setting for a video game, and that inspired me to give it a try.”
-  translation: “在《黑/白》中，我们决定以纽约市的曼哈顿为原型。我曾为《宝可梦 钻石/珍珠》的发售访问纽约，并花了很多时间四处漫步。那里居住着许多不同国籍的人，各个社区有各自特别的活动和街头节日，这给我留下了深刻印象。那种国际化的感觉……就像一个没有国界的世界。它似乎是一个理想的游戏设定，这启发了我去尝试。”
+  translation: "“在《黑·白》中，我们决定以纽约市的曼哈顿为原型。我曾为《宝可梦 钻石·珍珠》的发售访问纽约，并花了很多时间四处漫步。那里居住着许多不同国籍的人，各个社区有各自特别的活动和街头节日，这给我留下了深刻印象。那种国际化的感觉……就像一个没有国界的世界。它似乎是一个理想的游戏设定，这启发了我去尝试。”"
   role: answer
 - speaker: 提问
   original: What inspired the addition of seasons?
@@ -249,7 +249,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: In Pokemon Black and White, the season changes every month. We wanted to introduce an element that would bring some more gradual change to the game. Like, if you look at a plant every day, you don’t notice anything changed. But if you look at it after a month, you’ll clearly notice that it’s grown, or dried out, or its flowers are blooming, or whatever. We wanted players to experience something like that. So if a player puts down the game in December, maybe they’ll be curious about what might have changed, and be motivated to pick it up again in January. The seasons allow us to provide interesting new discoveries for the player over a period of months. For example, the coloring of the Pokemon Deerling changes every season.
-  translation: 在《宝可梦 黑/白》中，季节每月变化。我们想引入一个能为游戏带来更渐进变化的元素。比如，如果你每天都看一株植物，你不会注意到任何变化；但如果你一个月后再看，你会清楚地发现它长大了、枯萎了、开花了等等。我们希望玩家能体验到类似的感觉。所以，如果玩家在十二月放下游戏，也许他们会好奇发生了什么变化，从而有动力在一月再次拿起游戏。季节让我们能够在数月内为玩家提供有趣的发现。例如，宝可梦四季鹿的配色会随季节变化。
+  translation: "在《宝可梦 黑·白》中，季节每月变化。我们想引入一个能为游戏带来更渐进变化的元素。比如，如果你每天都看一株植物，你不会注意到任何变化；但如果你一个月后再看，你会清楚地发现它长大了、枯萎了、开花了等等。我们希望玩家能体验到类似的感觉。所以，如果玩家在十二月放下游戏，也许他们会好奇发生了什么变化，从而有动力在一月再次拿起游戏。季节让我们能够在数月内为玩家提供有趣的发现。例如，宝可梦四季鹿的配色会随季节变化。"
   role: answer
 - speaker: ''
   original: 'Dr Lava’s notes: In a 2011 Japanese interview, Ken Sugimori further discussed Gen 5’s implementation of the seasons mechanic. He says “…having seasons affect every Pokemon would be too difficult, so we decided to use it on just one or two.” Those two Pokemon of course are Deerling and Sawsbuck.'
@@ -257,11 +257,11 @@ parallel_items:
   note: Dr Lava是宝可梦历史考据网站的作者。
 - speaker: 提问
   original: In the months since the Japanese release of Pokemon Black Version and Pokemon White Version, what aspect of the fan reaction have you found most surprising?
-  translation: 在《宝可梦 黑/白》日本发售后的几个月里，粉丝反应的哪一方面最让你感到惊讶？
+  translation: "在《宝可梦 黑·白》日本发售后的几个月里，粉丝反应的哪一方面最让你感到惊讶？"
   role: question
 - speaker: 增田顺一
   original: The biggest surprise was definitely the level of interest in Pokemon Global Link. [Laughs] There isn’t as much Wi-Fi access in Japan as there is in America, so we never imagined that it would prove so popular [in Japan]. We had over a million people register — nearly one in four people who bought the game — and it overwhelmed our servers. We had to significantly increase their capacity almost immediately.
-  translation: 最大的惊喜绝对是玩家对宝可梦全球链接的兴趣。[笑] 日本的Wi-Fi普及率不如美国，所以我们从未想到它会如此受欢迎[在日本]。有超过一百万人注册——几乎是购买游戏人数的四分之一——这压垮了我们的服务器。我们几乎立即大幅增加了服务器容量。
+  translation: "最大的惊喜绝对是玩家对宝可梦全球连接的兴趣。[笑] 日本的Wi-Fi普及率不如美国，所以我们从未想到它会如此受欢迎[在日本]。有超过一百万人注册——几乎是购买游戏人数的四分之一——这压垮了我们的服务器。我们几乎立即大幅增加了服务器容量。"
   note: 宝可梦全球链接（Pokémon Global Link）是第五世代配套的在线服务，允许玩家同步游戏数据并参与网页活动。
   role: answer
 - type: image
@@ -290,7 +290,7 @@ parallel_items:
   role: answer
 - speaker: ''
   original: And that wraps up this March 2011 interview. By the way, Drill Dozer was a GBA action platformer directed by Ken Sugimori and produced by Junichi Masuda. It released in 2005 and received an average review score of 8/10. If you’d like to read more Pokemon interviews, check out this website’s homepage.
-  translation: 这样就结束了这次2011年3月的访谈。顺便提一下，《钻孔钻机》是一款GBA动作平台游戏，由杉森建执导，增田顺一制作。它于2005年发售，平均评测得分为8/10。如果你想阅读更多宝可梦访谈，请查看本网站首页。
+  translation: "这样就结束了这次2011年3月的访谈。顺便提一下，《钻地小子》是一款GBA动作平台游戏，由杉森建执导，增田顺一制作。它于2005年发售，平均评测得分为8/10。如果你想阅读更多宝可梦访谈，请查看本网站首页。"
   note: Drill Dozer 是 GAME FREAK 开发的一款 GBA 游戏，官方译名可能为《钻孔钻机》或《钻头小精灵》，此处采用直译。
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/012.jpg

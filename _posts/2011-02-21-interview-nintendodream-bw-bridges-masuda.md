@@ -24,10 +24,10 @@ parallel_items:
 - type: heading
   level: 2
   original: 序言：「橋ゲー」と称されるほどの圧倒的こだわり
-  translation: 序言：被戏称为“大桥游戏”的极致匠心与投入
+  translation: "序言：被称为“桥游戏”的压倒性讲究"
 - speaker: Nintendo Dream / Pokemon-Memo
   original: 「橋ゲー」と言われることもあるぐらい、強いこだわりや力の入れ具合が見られる「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」（ブリッジ）の設定について、ゲームフリークの増田順一氏がニンテンドードリームでコメントしています。
-  translation: 《宝可梦 黑／白》的合众地区，其“桥”的设定之讲究，甚至被人戏称为“桥梁游戏”，足见其中倾注的执着与心血。GAME FREAK的增田顺一在《Nintendo Dream》中就此发表了评述。
+  translation: "《宝可梦 黑·白》合众地区的“桥”（Bridge）的设定，讲究和投入的程度甚至让它被称为“桥游戏”。关于这些设定，GAME FREAK的增田顺一在《Nintendo Dream》上作了评论。"
   role: question
 - type: image
   image: /assets/img/interviews/2011-02-21-pokemon-memo-bw-bridge-interview/black-white-bridge.gif
@@ -36,7 +36,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 1. スカイアローブリッジ（飞云大桥）――ブルックリン×レインボー×ガウディの融合
-  translation: 1. 飞云大桥（Skyarrow Bridge）——布鲁克林×彩虹桥×高迪美学的融会贯通
+  translation: "1. 飞云大桥（Skyarrow Bridge）——布鲁克林×彩虹桥×高迪的融合"
 - speaker: 增田顺一
   original: 「ブルックリンブリッジ」（ニューヨーク）と、レインボーブリッジ（東京）を足して２で割ってそれをポケモン世界の技術をもって、ガウディ（スペインの建築家）のような人がデザインしたらどうなるかという設定でデザインしました。
   translation: 将“布鲁克林大桥”（纽约）与彩虹大桥（东京）二者相加再除以二，并以宝可梦世界的技术，交给像高迪（西班牙建筑师）那样的人来设计的话会变成什么样——我们便是以这样的设定来进行设计的。
@@ -48,7 +48,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 2. ホドモエの跳ね橋（帆巴吊桥）――跳ね上がるシルエットはリザードンの翼
-  translation: 2. 帆巴吊桥（Driftveil Drawbridge）——升起的力学剪影宛如喷火龙之翼
+  translation: "2. 帆巴吊桥（Driftveil Drawbridge）——升起的剪影是喷火龙的翅膀"
 - speaker: 增田顺一
   original: 実在のモチーフは特になし。橋を上げているところのシルエットがリザードンに似ているので、リザードンっぽいシルエットをそのまま生かすようにデザインしました。
   translation: 现实中的原型倒没有特别参考。因为吊桥升起时的剪影与喷火龙颇为相似，于是便顺势保留那份形似喷火龙的轮廓来进行了设计。
@@ -60,7 +60,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 3. シリンダーブリッジ（圆筒大桥）――フォース鉄道橋と主観カメラ・模型の秘密
-  translation: 3. 圆筒大桥（Tubeline Bridge）——福斯铁路桥、动态主观视角与入口模型之谜
+  translation: "3. 圆筒大桥（Tubeline Bridge）——福斯铁路桥、主观视角与模型的秘密"
 - speaker: 增田顺一
   original: イギリスのフォース鉄道橋がモチーフです。
   translation: 以英国福斯铁路桥为原型设计。
@@ -71,15 +71,15 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: そして、橋を外から見れないので、入口のゲートに橋全体の模型を置いて橋全体の様子をフォローしているんですよ。
-  translation: 而且，由于无法从外部看到桥梁全貌，我们便在入口的闸门处放置了整座桥的模型，以此来补全对桥梁整体风貌的呈现。
+  translation: "而且，因为无法从外面看到桥，所以在入口的大门处放置了整座桥的模型，让人能了解桥的整体样子。"
   role: answer
 - type: heading
   level: 2
   original: 4. ビレッジブリッジ（村庄桥）――ヴェッキオ橋を思わせる歴史と生活の温もり
-  translation: 4. 村庄桥（Village Bridge）——宛如佛罗伦萨老桥般栖居着人间的百年石桥
+  translation: "4. 村庄桥（Village Bridge）——让人想起韦基奥桥的历史与生活的温暖"
 - speaker: 增田顺一
   original: 橋の上に家が建っているイタリアあたりの古い橋（ヴェッキオ橋など）がモチーフになっています。
-  translation: 意大利佛罗伦萨老桥（Ponte Vecchio）等古老桥梁，桥上建屋的独特景象，正是其设计灵感之源。
+  translation: "以意大利一带桥上建有房屋的古桥（韦基奥桥等）为原型。"
   role: answer
 - type: heading
   level: 2
@@ -91,15 +91,15 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: 橋の東端にたたずむ、消えてしまう少女は、ケーシィの力で消えているだけかもしれないけど、たぶん７２％ぐらいの確率で幽霊です（笑）。
-  translation: 伫立于飞云大桥东端的那个消失少女，或许只是借助凯西的力量隐身罢了，但大概有72%左右的概率是幽灵吧（笑）。
+  translation: "伫立在桥东端、会消失的那个少女，或许只是借助凯西的力量消失而已，但大概有72%左右的概率是幽灵吧（笑）。"
   role: answer
 - type: heading
   level: 2
   original: 番外編：ハイリンクの橋（连入之桥）――皇居をモデルにした中央世界観
-  translation: 番外篇：连入之桥（Entralink Bridge）——以皇居为隐喻的核心辐射世界观
+  translation: "番外篇：连入之桥（Entralink Bridge）——以皇居为原型的中央世界观"
 - speaker: 增田顺一
   original: ハイリンクの橋については、イッシュ地方の中央部がニューヨークの「セントラルパーク」ではなく東京の「皇居」をモデルに着想されていることと密接に関連しています。外縁部から中心に向かって渡り、他プレイヤーの世界へとシームレスに侵入する構造が込められています。
-  translation: 关于连入之桥，这与合众地区中央部的设计灵感并非取自纽约的“中央公园”，而是源自东京“皇居”这一构想密切相关。其中蕴含了从外缘向中心渡桥、无缝侵入其他玩家世界的结构设计。
+  translation: "关于连入之桥，它与合众地区中央部的构想密切相关：中央部并非以纽约的“中央公园”，而是以东京的“皇居”为原型构思的。这座桥蕴含着从外围向中心渡过、无缝侵入其他玩家世界的结构。"
   role: answer
 interviewee: Nintendo Dream / Pokemon-Memo, 增田顺一
 source:
