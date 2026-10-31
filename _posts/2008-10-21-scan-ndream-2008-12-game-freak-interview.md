@@ -20,9 +20,9 @@ kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2008年12月号（Vol.176）
 publisher: 毎日コミュニケーションズ
-interviewee: 增田顺一、川内丸武史、太田哲司、西野弘二、中津井优
+interviewee: 增田顺一、河内丸武史、太田哲司、西野弘二、中津井优
 interviewer: Nintendo DREAM 編集部
-dek: 采访增田顺一与川内丸武史等GAME FREAK成员，谈《宝可梦 白金》的对战、世界设定与秘话。
+dek: 采访增田顺一与河内丸武史等GAME FREAK成员，谈《宝可梦 白金》的对战、世界设定与秘话。
 summary: GAME FREAK开发团队受访，谈公司内部对战、日美交流赛与玩家战术，并说明招式与属性设计、对战开拓区双人挑战、骑拉帝纳起源形态与毁坏的世界、谢米和洛托姆的形态变化，以及Wi-Fi广场等《白金》新要素。
 source_pages: P.76–P.79（4 页；2048px 页图）
 source:
@@ -49,13 +49,14 @@ pending_review_regions: 106
 scan_set: ndream-2008-12
 entities:
   people:
-    - 增田顺一
-    - 川内丸武史
-    - 太田哲司
-    - 西野弘二
-    - 中津井优
+  - 增田顺一
+  - 河内丸武史
+  - 太田哲司
+  - 西野弘二
+  - 中津井优
+  - 河内丸武史
   works:
-    - 宝可梦 白金
+  - 宝可梦 白金
 translation_segments:
   - speaker: image
     type: image
@@ -129,7 +130,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "ポケモンバトルの次は、開発者インタビューをお届け！ プロデューサーの増田さんやディレクターの川内丸さんにも来ていただき、『ポケットモンスター プラチナ』のあんな疑問やこんな疑問をぶつけてみました!!"
-    translation: 宝可梦对战之后，是开发者专访！我们请来了制作人增田先生和总监川内丸先生，把关于《宝可梦 白金》的各种疑问一股脑抛给了他们！！
+    translation: "宝可梦对战之后，是开发者专访！我们请来了制作人增田先生和总监河内丸先生，把关于《宝可梦 白金》的各种疑问一股脑抛给了他们！！"
     scan_box:
       - 149
       - 655
@@ -169,7 +170,7 @@ translation_segments:
       - 432
       - 1028
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -194,7 +195,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: ちなみに今日対戦した皆さんは、ゲームフリークさんのなかでは強いほうなんですか？
-    translation: 顺便问一下，今天和我们对战各位，在GAME FREAK里算强的吗？
+    translation: "顺便问一下，今天和我们对战的各位，在GAME FREAK里算强的吗？"
     scan_box:
       - 140
       - 1139
@@ -217,7 +218,7 @@ translation_segments:
       - 298
       - 1243
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -258,7 +259,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: 僕はイーブイが大好きで、自分のチームに「イーブイ戦隊」って勝手に名前を付けていたんですが（笑）。「バトンタッチ」で回していく戦術でGB版『クリスタル』のころまではいい成績を上げていたんですが、今はなかなか…。でも、やっぱり好きなポケモンを育てたくなりますね。
-    translation: 我特别喜欢伊布，还擅自给自己的队伍起名叫“伊布战队”（笑）。用“接棒”轮转的战术，在GB版《水晶》那个时期还能取得不错的成绩，现在就不太行了……不过，还是忍不住想培养自己喜欢的宝可梦呢。
+    translation: "我特别喜欢伊布，还擅自给自己的队伍起名叫“伊布战队”（笑）。用“接力棒”轮转的战术，在GB版《水晶》那个时期还能取得不错的成绩，现在就不太行了……不过，还是忍不住想培养自己喜欢的宝可梦呢。"
     scan_box:
       - 462
       - 987
@@ -414,7 +415,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "プロデューサー\n増田順一さん\n\nディレクター\n川内丸武史さん\n\nプランナー\n太田哲司さん\n\nプランナー\n西野弘二さん\n\nプランナー\n中津井 優さん"
-    translation: "制作人\n增田顺一\n\n总监\n川内丸武史\n\n策划\n太田哲司\n\n策划\n西野弘二\n\n策划\n中津井优"
+    translation: "制作人\n增田顺一\n\n总监\n河内丸武史\n\n策划\n太田哲司\n\n策划\n西野弘二\n\n策划\n中津井优"
     scan_box:
       - 140
       - 1366
@@ -486,7 +487,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バトルフロンティアの全施設に2人で挑戦できます！
-    translation: 可以对战开拓区的所有设施进行双人挑战！
+    translation: "对战开拓区的所有设施都可以两人一起挑战！"
     scan_box:
       - 815
       - 117
@@ -783,7 +784,7 @@ translation_segments:
       - 1122
       - 948
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -815,7 +816,7 @@ translation_segments:
       - 1122
       - 1403
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -915,7 +916,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: ※2…『プラチナ』では、「あかいかけら」「あおいかけら」「きいろいかけら」「みどりのかけら」と引き換えに、わざを教えてくれる人がいる。『D・P』では覚えられなかったわざを習得できるのだ。
-    translation: ※2…在《白金》中，有人会用「红色碎片」「蓝色碎片」「黄色碎片」「绿色碎片」来交换并教你招式。可以学会在《钻石·珍珠》中无法学会的招式。
+    translation: "※2……在《白金》中，有人会用「红色碎片」「蓝色碎片」「黄色碎片」「绿色碎片」来交换并教你招式。可以学会在《钻石·珍珠》中无法学会的招式。"
     scan_box:
       - 815
       - 1645
@@ -987,7 +988,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ➡『プラチナ』でのみ見られるシェイミ（スカイフォルム）。とくせいが「てんのめぐみ」になり、覚えるわざの一部も変化する（なお、シェイミの配布は終了しており、現在は入手不可）
-    translation: ➡只能在《白金》中见到的谢米（天空形态）。特性变为「天恩」，能学会的部分招式也会变化（另外，谢米的配信已经结束，目前无法获得）
+    translation: "➡只能在《白金》中见到的谢米（天空形态）。特性变为「天恩」，能学会的部分招式也会变化（另外，谢米的发放已经结束，目前无法获得）"
     scan_box:
       - 818
       - 338
@@ -1003,7 +1004,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: キアが物質世界を作るという位置づけでしたので、ギラティナはその反対・反物質なんだと考えました。物理学の用語に「CP対称性の破れ」という概念があります（※5）。本来物質と反物質は表裏一体の概念で、ぶつかると消えてしまうんですが、じつは完全に正反対ではなくわずかな違いがあって、その違いを日本語で「破れ」と表現しているんですね。この「破れ」という言葉からイメージを膨らませていって、「やぶれたせかい」が生まれました。「やぶれたせかい」は僕らの世界と表裏一体なんですが、反物質は放っておくとすぐ消えてしまうものなので、この世界では一部のものしか存在しなかったり、出たり消えたりするんです。またE=mc²ではない世界を表現するために、逆さまになったり水が逆に流れたりといった要素を加えて、あのような形になりました。
-    translation: 因为设定上是由奇亚创造物质世界，所以我认为骑拉帝纳就是与之相对的反物质。物理学用语中有「CP对称性破缺」这一概念（※5）。本来物质与反物质是表里一体的概念，相遇就会湮灭，但实际上并非完全正反相对，而是有微小的差异，这种差异在日语中就被表述为「破缺」。我从「破缺」这个词出发不断扩展想象，于是诞生了「毁坏的世界」。「毁坏的世界」与我们的世界表里一体，但反物质放着不管很快就会消失，所以在这个世界里只有一部分东西存在，或者出现又消失。另外，为了表现并非E=mc²的世界，我加入了上下颠倒、水逆向流动等要素，最终形成了那个样子。
+    translation: "因为设定上是由奇亚创造物质世界，所以我认为骑拉帝纳就是与之相对的反物质。物理学用语中有「CP对称性破缺」这一概念（※5）。本来物质与反物质是表里一体的概念，相遇就会湮灭，但实际上并非完全正反相对，而是有微小的差异，这种差异在日语中就被表述为「破缺」。我从「破缺」这个词出发不断扩展想象，于是诞生了「破败世界」。「破败世界」与我们的世界表里一体，但反物质放着不管很快就会消失，所以在这个世界里只有一部分东西存在，或者出现又消失。另外，为了表现并非E=mc²的世界，我加入了上下颠倒、水逆向流动等要素，最终形成了那个样子。"
     scan_box:
       - 708
       - 549
@@ -1019,7 +1020,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "↑「グラシデアのはな」を使うことで、シェイミがスカイフォルムに!!"
-    translation: ↑使用「葛拉西蒂亚花」，谢米就会变成天空形态！！
+    translation: "↑使用「格拉希蒂亚花」，谢米就会变成天空形态！！"
     scan_box:
       - 1035
       - 784
@@ -1036,7 +1037,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「反物質」からイメージされた「やぶれたせかい」
-    translation: 从「反物质」联想到的「毁坏的世界」
+    translation: "从「反物质」联想到的「破败世界」"
     scan_box:
       - 75
       - 899
@@ -1100,14 +1101,14 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ギラティナ（オリジンフォルム）が棲んでいる「やぶれたせかい」とは、どんな世界なんでしょう？
-    translation: 骑拉帝纳（起源形态）栖息的「毁坏的世界」，究竟是什么样的世界呢？
+    translation: "骑拉帝纳（起源形态）栖息的「破败世界」，究竟是什么样的世界呢？"
     scan_box:
       - 374
       - 1028
       - 678
       - 1100
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -1132,7 +1133,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: この反物質というイメージは、映画のほうでも生かされているんです。まあ、僕が「破れてるんです！」と言い続けてきたからなんですが（笑）。
-    translation: 这个反物质的意象，在电影里也得到了运用。不过，这也是因为我一直说「要破开它！」的缘故（笑）。
+    translation: "这个反物质的意象，在电影里也得到了运用。不过，这也是因为我一直在说「它是破缺的！」的缘故（笑）。"
     scan_box:
       - 708
       - 1120
@@ -1148,7 +1149,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: それが映画では「反転世界」となり、『プラチナ』では「やぶれたせかい」になったと？
-    translation: 也就是说，在电影里成了「反转世界」，而在《白金》里成了「毁坏的世界」？
+    translation: "也就是说，在电影里成了「反转世界」，而在《白金》里成了「破败世界」？"
     scan_box:
       - 708
       - 1241
@@ -1236,7 +1237,7 @@ translation_segments:
       - 1326
       - 983
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -1261,14 +1262,14 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: シェイミのフォルムチェンジに必要な「グラシデアのはな」も映画に出てきますが、「グラシデア」とはどういう意味なんでしょうか？
-    translation: 谢米形态变化所需的「葛拉西蒂亚花」也在电影里出现，这个「葛拉西蒂亚」是什么意思呢？
+    translation: "谢米形态变化所需的「格拉希蒂亚花」也在电影里出现，这个「格拉希蒂亚」是什么意思呢？"
     scan_box:
       - 1035
       - 1149
       - 1326
       - 1221
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -1277,7 +1278,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: シェイミは「かんしゃポケモン」という分類名です。体を丸めた姿を花束としてイメージしました。つまり「感謝と花」ですね。スペイン語で「ありがとう」と「ランの花」を合わせてグラシデアという名前にしました。
-    translation: 谢米的分类名是「感谢宝可梦」。它蜷起身体的姿态被想象成一束花。也就是说，是「感谢与花」。我把西班牙语里的「谢谢」和「兰之花」合起来，取名为葛拉西蒂亚。
+    translation: "谢米的分类名是「感谢宝可梦」。它蜷起身体的姿态被想象成一束花。也就是说，是「感谢与花」。我把西班牙语里的「谢谢」和「兰之花」合起来，取名为格拉希蒂亚。"
     scan_box:
       - 1035
       - 1231
@@ -1325,7 +1326,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ↑やぶれたせかいに出現するギラティナ（オリジンフォルム）。姿だけでなく、とくせいなども変化している
-    translation: ↑在毁坏的世界中出现的骑拉帝纳（起源形态）。不只是外形，连特性等也发生了变化
+    translation: "↑在破败世界中出现的骑拉帝纳（起源形态）。不只是外形，连特性等也发生了变化"
     scan_box:
       - 75
       - 1575
@@ -1341,7 +1342,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ↑重力を無視した「やぶれたせかい」。これまでの「ポケットモンスター」シリーズにはない仕掛けが用意されている
-    translation: ↑无视重力的「毁坏的世界」。其中准备了以往「宝可梦」系列中没有的机关
+    translation: "↑无视重力的「破败世界」。其中准备了以往「宝可梦」系列中没有的机关"
     scan_box:
       - 395
       - 1571
@@ -1357,7 +1358,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ※3…1976年に登場したティレル（当時はタイレル）P34というF1マシンのこと。前輪が小さめの4つのタイヤで構成されており、合計で6輪になっていた。
-    translation: ※3…指1976年登场的泰瑞尔（当时称泰雷尔）P34这款F1赛车。前轮由较小的4个轮胎构成，合计共6个车轮。
+    translation: "※3……指1976年登场的泰瑞尔（当时称泰雷尔）P34这款F1赛车。前轮由较小的4个轮胎构成，合计共6个车轮。"
     scan_box:
       - 72
       - 1661
@@ -1373,7 +1374,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ※4…E=mc²は「エネルギー＝質量×光速の2乗」という、アインシュタインの発見した物理学の公式。この法則が通用しない世界は、すなわち物理法則の適用しない世界といえる。
-    translation: ※4…E=mc²是爱因斯坦发现的物理学公式，即「能量＝质量×光速的平方」。不适用这一定律的世界，也就等于不适用物理法则的世界。
+    translation: "※4……E=mc²是爱因斯坦发现的物理学公式，即「能量＝质量×光速的平方」。不适用这一定律的世界，也就等于不适用物理法则的世界。"
     scan_box:
       - 392
       - 1657
@@ -1389,7 +1390,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ※5…「CP対称性の破れ」とは、物質と反物質は本来対になっているはずなのに、実際には対になっていないという事象。
-    translation: ※5…「CP对称性破缺」是指物质与反物质本应成对存在，实际上却并未成对的现象。
+    translation: "※5……「CP对称性破缺」是指物质与反物质本应成对存在，实际上却并未成对的现象。"
     scan_box:
       - 714
       - 1655
@@ -1490,7 +1491,7 @@ translation_segments:
       - 463
       - 719
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -1547,7 +1548,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: Upper screen↑ギンガハクタイビル1階の謎の部屋で、ロトムをフォルムチェンジさせよう
-    translation: Upper screen↑在银河百代大厦1楼的谜之房间里，让洛托姆改变形态吧
+    translation: "上屏幕↑在银河百代大厦1楼的谜之房间里，让洛托姆改变形态吧"
     comment: 银河百代大厦即ギンガハクタイビル，为银河队相关设施。
     scan_box:
       - 495
@@ -1587,7 +1588,7 @@ translation_segments:
       - 786
       - 1010
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -1619,7 +1620,7 @@ translation_segments:
       - 1005
       - 510
     writing_direction: horizontal
-  - speaker: 川内丸武史
+  - speaker: 河内丸武史
     type: paragraph
     kind: text
     region_type: body
@@ -1741,7 +1742,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 川内丸 今回の『プラチナ』の目標の1つに、昔『ポケットモンスター』を遊んだ大人の方に、もう一度遊んでほしいという思いがあります。昔から変わらぬ部分を懐かしみつつ、新しくなった部分で驚きながら遊んでいただけると、とてもうれしいですね。
-    translation: 川内丸 这次《白金》的目标之一，就是希望以前玩过《宝可梦》的大人们能再玩一次。如果大家能在怀念过去不变部分的同时，又为新变化的部分感到惊讶地游玩，我们会非常高兴。
+    translation: "河内丸 这次《白金》的目标之一，就是希望以前玩过《宝可梦》的大人们能再玩一次。如果大家能在怀念过去不变部分的同时，又为新变化的部分感到惊讶地游玩，我们会非常高兴。"
     scan_box:
       - 1140
       - 1184
@@ -1853,7 +1854,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: Upper screen↑バトル登場時に、ポケモンはさまざまなしぐさを見せてくれる。ヨルノズクはこちらを振り向いてくれるぞ
-    translation: Upper screen↑对战中登场时，宝可梦会做出各种各样的动作。猫头夜鹰会转向这边哦
+    translation: "上屏幕↑对战中登场时，宝可梦会做出各种各样的动作。猫头夜鹰会转向这边哦"
     scan_box:
       - 175
       - 1683
@@ -1869,7 +1870,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: Upper screen↑Wi-Fiに接続さえできれば、誰でも遊べるWi-Fiひろば。最大で20人のプレイヤーが同時に集まることができる
-    translation: Upper screen↑只要能连接Wi-Fi，任何人都能游玩的Wi-Fi广场。最多可以有20名玩家同时聚集
+    translation: "上屏幕↑只要能连接Wi-Fi，任何人都能游玩的Wi-Fi广场。最多可以有20名玩家同时聚集"
     scan_box:
       - 500
       - 1683

@@ -24,30 +24,19 @@ LISTS = ("parallel_items", "translation_segments")
 
 
 def _scalar_end(lines, n, m):
-    """last line index of the scalar that starts on line n (quoted scalars may run on)"""
-    val = m.group(2)
-    # a block scalar first: "v: |-" alone parses (as ""), which used to end it on its first line.
-    # Its body is every following line indented deeper than the key (or blank).
-    if val.strip() in ("|", ">", "|-", ">-", "|+", ">+"):
-        key_indent = len(lines[n]) - len(lines[n].lstrip(" -"))
-        e = n
-        while e + 1 < len(lines) and (not lines[e + 1].strip() or len(lines[e + 1]) - len(lines[e + 1].lstrip(" ")) > key_indent):
-            e += 1
-        while e > n and not lines[e].strip():          # trailing blanks belong to the next key
-            e -= 1
-        return e
-    try:
-        yaml.safe_load("v: " + val)
-        return n
-    except yaml.YAMLError:
-        pass
-    for e in range(n + 1, min(n + 800, len(lines))):
-        try:
-            yaml.safe_load("v: " + "\n".join([val] + lines[n + 1:e + 1]))
-            return e
-        except yaml.YAMLError:
-            continue
-    return n
+    """last line index of the value that starts on line n: every following line indented deeper than
+    the key belongs to it (a literal block, a plain or quoted scalar folded over several lines, a nested
+    list), blank lines inside included, trailing blank lines not. Trying to parse the first line alone
+    ended "translation: |-" and long plain scalars on their first line and left the rest behind."""
+    key_indent = len(lines[n]) - len(lines[n].lstrip(" -"))
+    e = n
+    while e + 1 < len(lines) and (not lines[e + 1].strip() or len(lines[e + 1]) - len(lines[e + 1].lstrip(" ")) > key_indent):
+        if lines[e + 1].rstrip() == "---":
+            break
+        e += 1
+    while e > n and not lines[e].strip():
+        e -= 1
+    return e
 
 
 class Post:
