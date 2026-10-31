@@ -17,6 +17,8 @@ source:
   language: ja
   source_type: magazine
 entities:
+  people:
+  - 苍井优
   works:
   - 宝可梦 钻石·珍珠
 workflow:

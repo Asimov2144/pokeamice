@@ -36,6 +36,8 @@ summary: 2017年，横滨地方信息站采访出身东户冢的GAME FREAK董事
 entities:
   people:
   - 增田顺一
+  - 浅田优希
+  - 吉田美久
   works:
   - 宝可梦 红·绿
   - 宝可梦 太阳·月亮

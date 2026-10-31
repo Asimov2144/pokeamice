@@ -57,14 +57,12 @@ pending_review_regions: 219
 scan_set: ndream-2010-04
 entities:
   people:
-    - 入江胜义
-    - 鸟居廉功
-    - 五十岚宽
-    - 渔康智
-    - 一同
+  - 入江胜义
+  - 鸟居廉功
+  - 五十岚宽
+  - 渔康智
   works:
-    - 宝可梦巡护员 光的轨迹
-  organizations: []
+  - 宝可梦巡护员 光的轨迹
 translation_segments:
   - speaker: image
     type: image

@@ -50,10 +50,10 @@ pending_review_regions: 44
 scan_set: ia-famitsu-1233
 entities:
   people:
-    - 海野隆雄
-    - 齐藤优史
+  - 海野隆雄
+  - 斉藤優史
   works:
-    - 宝可梦 黑2·白2
+  - 宝可梦 黑2·白2
 topics:
 - 通信功能
 - 开发历程

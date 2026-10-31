@@ -50,7 +50,7 @@ parallel_items:
   role_ja: 2018年新卒入社
   original: 『ポケットモンスター ソード・シールド』で「ポケモンキャンプ」のミニゲーム開発を担当。『Pokémon LEGENDS アルセウス』ではプレイヤー挙動実装の主担当となる。
   role: answer
-  translation: 在《宝可梦 剑·盾》中负责「宝可梦露营」小游戏的开发。在《Pokémon LEGENDS 阿尔宙斯》中担任玩家行为实现的主要负责人。
+  translation: "在《宝可梦 剑·盾》中负责“宝可梦露营”小游戏的开发。在《宝可梦传说 阿尔宙斯》中担任玩家行为实现的主要负责人。"
   role_zh: 2018年应届入职
   avatar: /assets/img/interviews/gamefreak-crosstalk-new-programmer/member-tk.jpg
 - type: profile
@@ -59,7 +59,7 @@ parallel_items:
   role_ja: 2019年新卒入社
   original: 専門学校卒業後、ゲームフリークへ入社。研究開発部に所属し、『Pokémon LEGENDS アルセウス』では主に描画周りのツール開発と機能整備を担当。
   role: answer
-  translation: 专门学校毕业后入职GAME FREAK。隶属研究开发部，在《Pokémon LEGENDS 阿尔宙斯》中主要负责渲染相关工具开发和功能完善。
+  translation: "专门学校毕业后入职GAME FREAK。隶属研究开发部，在《宝可梦传说 阿尔宙斯》中主要负责渲染相关工具开发和功能完善。"
   role_zh: 2019年应届入职
   avatar: /assets/img/interviews/gamefreak-crosstalk-new-programmer/member-rh.jpg
 - type: heading
@@ -77,7 +77,7 @@ parallel_items:
   speaker_orig: R.H.
   original: 私はインターンに参加した際、ちょっとした提案にプログラマやプランナーの皆さんが、ものすごい量のアイデアや意見を返してくれたことが印象に残り、成長できそうな環境だと思って入社しました。研究開発部は専門分野の技術に尖った先輩が多くて、まるで研究者みたいな人もいる。最新の技術をフォローし続けているので、常に学びがありますね。
   role: answer
-  translation: 我参加实习的时候，自己提了个小建议，程序员和策划们就回了大量的点子和意见，这让我印象很深，觉得这里能让人成长，就入职了。研究开发部里在专业领域技术上很尖的前辈很多，还有人简直像研究者。他们一直在跟进最新技术，所以总有可学的东西。
+  translation: "我参加实习的时候，自己提了个小建议，程序员和策划们就回了大量的点子和意见，这让我印象很深，觉得这里能让人成长，就入职了。研究开发部里在专业领域技术上特别拔尖的前辈很多，还有人简直像研究者。他们一直在跟进最新技术，所以总有可学的东西。"
 - type: text
   speaker: T.K.
   speaker_orig: T.K.
@@ -107,7 +107,7 @@ parallel_items:
 - type: heading
   level: 3
   original: ゼロからの挑戦の連続。アクション要素を取り入れた『Pokémon LEGENDS アルセウス』。
-  translation: 从零开始的挑战接连不断。加入了动作要素的《Pokémon LEGENDS 阿尔宙斯》。
+  translation: "从零开始的挑战接连不断。加入了动作要素的《宝可梦传说 阿尔宙斯》。"
 - type: text
   speaker: T.K.
   speaker_orig: T.K.
@@ -120,7 +120,7 @@ parallel_items:
   speaker_orig: R.H.
   original: 私は初期のワークフロー構築の段階から関わり、エフェクト作成ツールを作ったり、SDKの研究をして使いやすいように工夫したりしていました。ツールを実装し終わった後もプログラマやデザイナーからの要望に合わせて改修やサポートを続けて、リリースまでずっと伴走し続けたという感じです。継続的に使って見つかる改善点や不具合も多いので、随時フィードバックをもらえるのは開発者としても嬉しいですね。
   role: answer
-  translation: 我从初期构建工作流的阶段就参与进来，制作特效创建工具，研究SDK并想办法让它更好用。工具实现后也根据程序员和设计师的需求继续修改和支持，感觉一直陪跑到发布。持续使用会发现很多改进点和问题，能随时收到反馈，作为开发者也很高兴。
+  translation: "我从初期构建工作流的阶段就参与进来，制作特效创建工具，研究SDK并想办法让它更好用。工具实现后也根据程序员和设计师的需求继续修改和支持，感觉是一路陪伴到发布。持续使用会发现很多改进点和问题，能随时收到反馈，作为开发者也很高兴。"
 - type: image
   src: /assets/img/interviews/gamefreak-crosstalk-new-programmer/img-02-01.jpg
 - type: text
@@ -128,7 +128,7 @@ parallel_items:
   speaker_orig: T.K.
   original: 私からR.H.さんに機能に関する要望を出したこともありましたね。システムのことだからと研究開発部に任せっきりにするのではなく、最後まで一緒に作り上げていったのが『Pokémon LEGENDS アルセウス』ならではの経験でした。大変なことが多かったですが、同時にこれまでにない大きなやりがいもありました。
   role: answer
-  translation: 我也向R.H.提出过关于功能的需求。不是因为是系统的事就全交给研究开发部，而是直到最后都一起完成，这是《宝可梦传说 阿尔宙斯》独有的经验。虽然辛苦的事很多，但同时也有前所未有的巨大价值。
+  translation: "我也向R.H.提出过关于功能的需求。不是因为是系统的事就全交给研究开发部，而是直到最后都一起完成，这是《宝可梦传说 阿尔宙斯》独有的经验。虽然辛苦的事很多，但同时也有前所未有的巨大成就感。"
 - type: text
   speaker: R.H.
   speaker_orig: R.H.

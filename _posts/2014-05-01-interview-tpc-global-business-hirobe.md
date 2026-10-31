@@ -35,7 +35,7 @@ source_url: http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/c
 summary: 宝可梦公司社长室广部圭太回顾《宝可梦 X·Y》首次全球同步发售，介绍跨部门协调、与海外子公司协作及本地化等项目管理经验，并谈及宝可梦全球市场拓展的余地。
 entities:
   people:
-  - 广部圭太
+  - 廣部圭太
   works:
   - 宝可梦 X·Y
 workflow:

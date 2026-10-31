@@ -51,9 +51,9 @@ parallel_items:
 - type: heading
   level: 2
   original: ポケモン×フラグメント誕生秘話「始まりは税金対策でいいんです」
-  translation: 宝可梦×Fragment诞生秘话「开端说是税对策就好」
+  translation: "宝可梦×Fragment诞生秘话「一开始只是为了节税也没关系」"
 - original: 藤原ヒロシ（以下藤原） デザイン集団「フラグメント fragment design」主宰。世界中の企業とのコラボレーションを手がけている
-  translation: 藤原浩（以下藤原） 设计团体「Fragment fragment design」主宰。与全世界的企业开展联名合作
+  translation: "藤原ヒロシ（以下藤原） 设计团体「fragment design」主宰。与全世界的企业开展联名合作"
 - original: 皆川壮一郎（以下皆川） クリエイティブディレクター。株式会社みんな代表（2023年時点では博報堂ケトル所属）
   translation: 皆川壮一郎（以下皆川） 创意总监。株式会社Minna代表（2023年时隶属于博报堂Kettle）
   note: 博报堂Kettle是日本广告公司博报堂旗下的创意团队。
@@ -82,7 +82,7 @@ parallel_items:
 - original: すべての始まりは「ポケモンGO」だったわけですよね。「ポケモンGO」を知らない人はこの中にはいないと思いますが、これでポケモンの認知が広がった、ターゲットが広がった。数字的にはどれぐらいですか？
   role: answer
   speaker: 皆川壮一郎
-  translation: 一切的起点都是「Pokémon GO」吧。我想在座没有人不知道「Pokémon GO」，它扩大了宝可梦的认知度，也扩大了目标人群。从数字上看大概是多少？
+  translation: "一切的起点都是《Pokémon GO》吧。我想在座没有人不知道《Pokémon GO》，它扩大了宝可梦的认知度，也扩大了目标人群。从数字上看大概是多少？"
 - original: 10億ダウンロードを超えているような状況です。ちょっと正確な数字は言えないんですが。
   role: answer
   speaker: 鹿瀬島英介
@@ -126,7 +126,7 @@ parallel_items:
 - original: 鹿瀬島さんは（藤原）ヒロシさんのことよくご存じだったんですか？
   role: answer
   speaker: 皆川壮一郎
-  translation: 鹿濑岛先生原本就很了解（藤原）藤原先生吗？
+  translation: "鹿濑岛先生原本就很了解藤原先生吗？"
 - original: そうですね。10代、20代でファッションにのめり込んで、いろいろな雑誌でヒロシさんのことを目にしていたし、さっきグッドイナフの話が出ましたけど、自分もものすごく影響を受けていた人間なので、ファッションをやるなら誰だろうと考えたときに、実は真っ先に浮かんでいたのはヒロシさんでした（笑）。
   role: answer
   speaker: 鹿瀬島英介
@@ -173,7 +173,7 @@ parallel_items:
 - original: 鹿瀬島君の緊張はまったく感じませんでした（笑）。
   role: answer
   speaker: 藤原ヒロシ
-  translation: 我完全没感觉到鹿瀬島君的紧张（笑）。
+  translation: "我完全没感觉到鹿濑岛君的紧张（笑）。"
 - original: それはヒロシさんがすごくいい雰囲気をつくってくださったからだと思います。
   role: answer
   speaker: 鹿瀬島英介
@@ -225,7 +225,7 @@ parallel_items:
 - original: 僕はいつも大きい企業だったり、レコード会社と仕事をしていて思うんですけど、始まりは税金対策でいいんです。
   role: answer
   speaker: 藤原ヒロシ
-  translation: 我跟大企业、唱片公司合作时总是这么想，起因是税务对策也无妨。
+  translation: "我跟大企业、唱片公司合作时总是这么想：一开始是出于节税的考虑也没关系。"
 - original: どういうことですか。
   role: answer
   speaker: 皆川壮一郎
@@ -291,10 +291,10 @@ parallel_items:
   original: 「黒いピカチュウ」はいかにして生まれたか
   translation: “黑色皮卡丘”是如何诞生的
 - original: 藤原ヒロシ（以下藤原） デザイン集団「フラグメント fragment design」主宰。世界中の企業とのコラボレーションを手がけている
-  translation: 藤原浩（以下简称藤原） 设计团体“fragment design”的主持人。与全世界的企业开展联名合作。
+  translation: "藤原ヒロシ（以下简称藤原） 设计团体“fragment design”的主持人。与全世界的企业开展联名合作。"
   note: 藤原浩是日本设计师、音乐人，fragment design 是他创立的设计品牌。
 - original: 皆川壮一郎（以下皆川） クリエイティブディレクター。株式会社みんな代表（2023年時点では博報堂ケトル所属）
-  translation: 皆川壮一郎（以下简称皆川） 创意总监。株式会社みんな代表（2023年时隶属于博报堂Kettle）。
+  translation: "皆川壮一郎（以下简称皆川） 创意总监。株式会社Minna代表（2023年时隶属于博报堂Kettle）。"
   note: 博报堂Kettle是日本广告公司博报堂旗下的创意团队。
 - original: 鹿瀬島英介（以下鹿瀬島） 株式会社ポケモン執行役員
   translation: 鹿濑岛英介（以下简称鹿濑岛） 株式会社宝可梦执行役员。
@@ -377,7 +377,7 @@ parallel_items:
 - original: ファッション業界だと、僕を言い訳にするというか、免罪符にして、「藤原ヒロシが言うんだったら仕方ない、やるしかないか」とか、「藤原ヒロシがわがままで、これができないならやらないと言うんです」となることが多いんですよ（笑）。
   role: answer
   speaker: 藤原ヒロシ
-  translation: 在时尚业界，很多时候会拿我当借口，或者说当免罪符，比如“既然是藤原浩说的那也没办法，只能做了”，或者“藤原浩很任性，说做不到这个就不做”（笑）。
+  translation: "在时尚业界，很多时候会拿我当借口，或者说当挡箭牌，比如“既然是藤原ヒロシ说的，那也没办法，只能做了”，或者“藤原ヒロシ很任性，说做不到这个就不做”（笑）。"
 - original: あとは、このプロジェクトが世の中に出たときに、その反響を見てみんな納得するだろうという。その算段だけでやっていきました。
   role: answer
   speaker: 鹿瀬島英介
@@ -442,7 +442,7 @@ parallel_items:
 - original: タイミングをすごく重視されますよね、いつも。流れが単によかっただけですか？
   role: answer
   speaker: 皆川壮一郎
-  translation: 您总是非常重视时机呢。只是单纯因为潮流好吗？
+  translation: "您总是非常重视时机呢。只是因为事情单纯进展得很顺利吗？"
 - original: はい、本当にそれだけだと思います。ただ、最初から海外をとりたいという話だったので、ここだったら勝負できるかなと。
   role: answer
   speaker: 藤原ヒロシ
@@ -487,15 +487,15 @@ parallel_items:
   translation: ※特拉维斯·斯科特
   note: 美国说唱歌手、音乐制作人。
 - original: ラッパー・プロデューサー・ソングライター・デザイナー・ファッション・アイコン 藤原と同じく数多くのブランドとのコラボレーションを手がける
-  translation: 与身兼说唱歌手、制作人、词曲作者、设计师、时尚偶像的藤原一样，与众多品牌展开合作
+  translation: "说唱歌手、制作人、词曲作者、设计师、时尚偶像。与藤原一样，经手众多品牌的联名合作"
 - type: heading
   level: 2
   original: メゾンからホテル、アイスキャンデーまで。今だから明かせる奇跡のコラボの舞台裏
   translation: 从时装屋到酒店，再到冰棍。如今才能公开的奇迹联动的幕后故事
 - original: 藤原ヒロシ（以下藤原） デザイン集団「フラグメント fragment design」主宰。世界中の企業とのコラボレーションを手がけている
-  translation: 藤原浩（以下简称藤原） 设计团体“fragment fragment design”主理人。与全世界的企业开展合作
+  translation: "藤原ヒロシ（以下简称藤原） 设计团体“fragment design”主理人。与全世界的企业开展合作"
 - original: 皆川壮一郎（以下皆川） クリエイティブディレクター。株式会社みんな代表（2023年時点では博報堂ケトル所属）
-  translation: 皆川壮一郎（以下简称皆川） 创意总监。株式会社みんな代表（2023年时隶属于博报堂Kettle）
+  translation: "皆川壮一郎（以下简称皆川） 创意总监。株式会社Minna代表（2023年时隶属于博报堂Kettle）"
   note: 博报堂Kettle是日本广告公司博报堂旗下的创意团队。
 - original: 鹿瀬島英介（以下鹿瀬島） 株式会社ポケモン執行役員
   translation: 鹿濑岛英介（以下简称鹿濑岛） 株式会社宝可梦执行役员
@@ -506,7 +506,7 @@ parallel_items:
 - original: 「流れ」と「タイミング」という話はこの後もたびたび出てくるんですけど、「ポケモンGO」と取り組めたのもすごいですよね。
   role: answer
   speaker: 皆川壮一郎
-  translation: 关于“潮流”和“时机”的话题之后还会多次出现，不过能跟《Pokémon GO》合作也很厉害啊。
+  translation: "关于“势头”和“时机”的话题之后还会多次出现，不过能跟《Pokémon GO》合作也很厉害啊。"
 - original: あれは本当によくできたなと思います。ヒロシさんから「ポケモンGO」で何かできないの？ と言われて、ダメ元でナイアンティックという開発をしている会社にコンタクトをとったら、わりと短いリードタイムで実装してもらえました。
   role: answer
   speaker: 鹿瀬島英介
@@ -607,11 +607,11 @@ parallel_items:
 - original: ポッチャマ推しで何かやりたいということになって、ペンギンだからアイスでいけるんじゃない、みたいな感じになりました。
   role: answer
   speaker: 藤原ヒロシ
-  translation: 因为想以波加曼为主角做点什么，而它是企鹅，所以就觉得用冰来表现应该行得通。
+  translation: "想以波加曼为主角做点什么，然后觉得它是企鹅，做成冰棍应该行得通。"
 - original: これは僕は知らなかった。北極のアイスって有名なんですか？
   role: answer
   speaker: 皆川壮一郎
-  translation: 这个我之前不知道。北极的冰很有名吗？
+  translation: "这个我之前不知道。北极牌冰棍很有名吗？"
 - original: 関西では有名です。
   role: answer
   speaker: 藤原ヒロシ
@@ -743,9 +743,9 @@ parallel_items:
 - type: heading
   level: 2
   original: 「みんなが認識しているものだから、ちょっと変えるだけ」藤原ヒロシのコラボレーションのルール
-  translation: “因为是大家都认识的东西，所以只需稍作改变”藤原浩的合作规则
+  translation: "“因为是大家都认识的东西，所以只需稍作改变”藤原ヒロシ的合作规则"
 - original: 藤原ヒロシ（以下藤原） デザイン集団「フラグメント fragment design」主宰。世界中の企業とのコラボレーションを手がけている
-  translation: 藤原浩（以下简称藤原） 设计团体“Fragment fragment design”主理人。与全球各地企业开展合作。
+  translation: "藤原ヒロシ（以下简称藤原） 设计团体“fragment design”主理人。与全球各地企业开展合作。"
 - original: 皆川壮一郎（以下皆川） クリエイティブディレクター。株式会社みんな代表（2023年時点では博報堂ケトル所属）
   translation: 皆川壮一郎（以下简称皆川） 创意总监。株式会社Minna代表（2023年时隶属于博报堂Kettle）。
 - original: 鹿瀬島英介（以下鹿瀬島） 株式会社ポケモン執行役員
@@ -773,7 +773,7 @@ parallel_items:
 - original: ヒロシさんが「アイデンティティが強ければ強いほど、いじりがいがある」という話をされていたんですけど、ポケモンはその最たるものということですかね？ 確立されている。
   role: answer
   speaker: 皆川壮一郎
-  translation: 藤原先生说过「认同感越强，就越有改造的余地」，宝可梦可以说是最典型的例子吧？它已经确立起来了。
+  translation: "藤原先生说过「个性越鲜明，就越有改造的乐趣」，宝可梦可以说是最典型的例子吧？它已经确立起来了。"
 - original: すでにある、みんなが認識しているものだから、ちょっと変えるだけ。むしろそのくらいのほうが面白みが出せると思います。
   role: answer
   speaker: 藤原ヒロシ
@@ -789,7 +789,7 @@ parallel_items:
 - original: そこは鹿瀬島さんがサポートしているということなんですか？
   role: answer
   speaker: 皆川壮一郎
-  translation: 这方面是由鹿瀬島先生来支持的吗？
+  translation: "这方面是由鹿濑岛先生来支持的吗？"
 - original: そうですね。ヒロシさんがポケモンに詳しくない部分で、ポケモンのポケモンらしさみたいなものの担保は、僕ら側でしっかりやろうという、そういう連携の仕方ですね。
   role: answer
   speaker: 鹿瀬島英介
@@ -817,7 +817,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 藤原ヒロシと株式会社ポケモン、お互いが得たもの
-  translation: 藤原浩与株式会社宝可梦，双方各自得到的东西
+  translation: "藤原ヒロシ与株式会社宝可梦，双方各自得到的东西"
 - original: 「新しいことにイエスを出して寄り添う」って、めちゃくちゃ苦痛というか、大変ですよね。
   role: answer
   speaker: 皆川壮一郎

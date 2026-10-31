@@ -51,6 +51,7 @@ entities:
   people:
   - 田尻智
   - 杉森建
+  - 山本直人
   works:
   - 宝可梦 红·绿
   - 昆蒂

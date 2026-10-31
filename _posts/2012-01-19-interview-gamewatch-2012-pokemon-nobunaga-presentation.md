@@ -36,6 +36,9 @@ summary: 2012年GAME Watch报道《宝可梦＋信长之野望》完成披露会
 entities:
   people:
   - 石原恒和
+  - 襟川阳一
+  - 鲤沼久史
+  - 南明奈
   works:
   - 宝可梦+信长的野望
 workflow:

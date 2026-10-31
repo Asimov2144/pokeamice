@@ -33,8 +33,8 @@ source:
 original_link: https://recruit.creatures.co.jp/cr_people/3dcg_environment_artist_tt/
 summary: Creatures 背景模型师 T.T. 讲述在《名侦探皮卡丘》完结篇中担任背景首席艺术家的经历，谈到在虚拟与现实边界上权衡的难点，以及公司扁平灵活、积极引入新工具的环境，并提及经验技巧共享与团队强化的课题。
 entities:
-  people: []
-  works: []
+  works:
+  - 名侦探皮卡丘
 workflow:
   fetch: live
   translation: deepseek-chat

@@ -38,6 +38,8 @@ entities:
   - 大森滋
   - 海野隆雄
   - 岩尾和昌
+  - 今泉宜子
+  - 森纯一郎
   works:
   - 宝可梦 X·Y
   organizations:

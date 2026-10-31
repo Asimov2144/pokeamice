@@ -51,11 +51,8 @@ review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工
 pending_review_regions: 66
 scan_set: ndream-2010-04
 entities:
-  people:
-    - 予想
   works:
-    - 宝可梦 黑·白
-  organizations: []
+  - 宝可梦 黑·白
 translation_segments:
   - speaker: image
     type: image

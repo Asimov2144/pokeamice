@@ -145,11 +145,12 @@ topics:
 - "媒体组合"
 - "开发流程"
 entities:
-  people: []
+  people:
+  - 富田裕介
   works:
-  - "Pokémon GO"
+  - Pokémon GO
   organizations:
-  - "株式会社ポケモン"
+  - 株式会社ポケモン
 mentions:
   people:
   - "富田裕介"

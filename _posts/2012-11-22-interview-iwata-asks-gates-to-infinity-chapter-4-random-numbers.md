@@ -36,7 +36,6 @@ source:
 original_link: https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index4.html
 entities:
   people:
-  - 众人
   - 富江慎一郎
   - 石原恒和
   - 长畑成一郎
