@@ -25,16 +25,12 @@ tags:
 - 皮卡丘
 - 开放世界
 author: ファミ通.com 編集部
-interviewee: 前座晃宏（GAME FREAK R&D 部技术总监）、大谷一登（GAME FREAK 角色模型工程师）
+interviewee: 前泽圭一（GAME FREAK 研究开发部 CG 技术总监）
 quote: 为了在一年之内连续打造两部宏大的全新作品，我们将1000种以上的宝可梦3D模型基底全面通用化，并在第九世代实现了系列前所未有的毛发蓬松质感与全新开放世界着色器技术。
 cast:
 - id: maezawa
-  name: 前座晃宏
-  role: GAME FREAK 研究开发部（R&D）技术总监 / 程序员
-  avatar: https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/scarlet-violet-logo.png
-- id: ohtani
-  name: 大谷一登
-  role: GAME FREAK 角色建模工程师 / 3D艺术家
+  name: 前泽圭一
+  role: GAME FREAK 研究开发部 CG 技术总监
   avatar: https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/scarlet-violet-logo.png
 - id: narrator
   name: 解说
@@ -44,11 +40,11 @@ parallel_items:
 - type: paragraph
   speaker: 解说
   original: 2022年8月23日～25日の期間に開催された、日本最大のコンピュータエンターテインメント開発者向けカンファレンス“CEDEC 2022”。CEDEC 2022の2日目に行われたセッション“【ポケットモンスター スカーレット・バイオレット】 パルデア地方を描き出す描画技術”と“オープンワールドに挑むポケモンのモデル・アニメーション制作手法”の模様をお届けする。
-  translation: 2022年8月23日至25日期间，日本最大的电脑娱乐开发者大会“CEDEC 2022”正式举办。本文将为您带来在CEDEC 2022第二天举办的技术专场演讲——《【宝可梦 朱／紫】描绘帕鲁迪亚地区的渲染技术》与《挑战开放世界的宝可梦3D建模与动作设计手法》的深度报道。
+  translation: "2022年8月23日至25日期间，日本最大的面向计算机娱乐开发者的会议“CEDEC 2022”举办。本文介绍在CEDEC 2022第二天举行的讲座“【宝可梦 朱·紫】描绘帕底亚地区的渲染技术”和“挑战开放世界的宝可梦模型与动画制作方法”的情况。"
 - type: paragraph
   speaker: 解说
   original: 2022年8月23日～25日の期間に開催された、日本最大のコンピュータエンターテインメント開発者向けカンファレンス“CEDEC 2022”。本稿では、8月25日に行われたセッション“【アルセウス＋スカーレット・バイオレット】ポケモン2つを同時に作る、ポケモンモデル制作環境”の模様をお届け。
-  translation: 2022年8月23日至25日期间，日本最大的计算机娱乐开发者会议“CEDEC 2022”盛大召开。本文将为您报道8月25日举行的会议“【阿尔宙斯＋朱紫】同时制作两款宝可梦作品的宝可梦模型制作环境”的盛况。
+  translation: "2022年8月23日至25日期间，日本最大的面向计算机娱乐开发者的会议“CEDEC 2022”举办。本文介绍8月25日举行的讲座“【阿尔宙斯＋朱·紫】同时制作两款宝可梦的宝可梦模型制作环境”的情况。"
 - type: paragraph
   speaker: 解说
   original: CEDEC2023の2日目に行われたセッション“【ポケットモンスター スカーレット・バイオレット】 パルデア地方を描き出す――見た目の仕組みを徹底解説！”の内容をまとめてお届け。
@@ -58,7 +54,7 @@ parallel_items:
   original: 1年で2タイトルを制作するため、1000種類以上のポケモンモデルを共通化
   translation: 为在一年内制作两款作品，将1000种以上的宝可梦模型共通化
 - type: paragraph
-  speaker: 前座晃宏
+  speaker: 解说
   original: セッションではまず、ポケモンのモデルの制作体制について紹介。前澤氏の所属するR＆D（研究開発部）では、ゲームエンジンやグラフィックの表現を実現するためのシステムを開発し、各タイトルの開発チームに提供する。その際、ゲームフリーク内部や外部の協力会社にある納品チームのチェックが行われている。
   translation: "会议伊始，首先介绍了宝可梦模型的制作体制。前泽先生所属的R&D（研究开发部）负责开发实现游戏引擎及图形表现的系统，并提供给各作品的开发团队。在此过程中，会由GAME FREAK内部及外部合作公司的交付团队进行检查。"
 - type: paragraph
@@ -66,7 +62,7 @@ parallel_items:
   original: なお、R＆Dにはグラフィック、アニメーション関係のエンジニアが集約している。
   translation: 此外，R&D汇集了图形、动画相关的工程师。
 - type: paragraph
-  speaker: 前座晃宏
+  speaker: 解说
   original: 本セッションでは、『ポケットモンスター』シリーズを開発するゲームフリークの研究開発部 CGテクノロジーディレクターの前澤圭一氏が登壇。
   translation: "本次会议中，开发《宝可梦》系列的GAME FREAK研究开发部CG技术总监前泽圭一先生登台演讲。"
 - type: paragraph
@@ -126,11 +122,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/018.jpg
   alt: PH21
-  caption: ミツハニーのようなむしポケモンの羽根を不透明にしたり、ミカルゲのようなポケモンの場合は背面だけを不透明にしたりするといった、タイトルにあった調整が実施されている。
+  caption: "对于三蜜蜂这样的虫宝可梦，会把翅膀调整为不透明；对于花岩怪这样的宝可梦，则只把背面调整为不透明——会进行这类符合作品的调整。"
+  caption_original: "ミツハニーのようなむしポケモンの羽根を不透明にしたり、ミカルゲのようなポケモンの場合は背面だけを不透明にしたりするといった、タイトルにあった調整が実施されている。"
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/019.jpg
   alt: PH22
-  caption: 火の粉や煙などを表現する際には、パーティクルで対応。
+  caption: "表现火星和烟雾等时，使用粒子来处理。"
+  caption_original: "火の粉や煙などを表現する際には、パーティクルで対応。"
 - type: paragraph
   speaker: 解说
   original: 各タイトルのコンセプトにあったグラフィックにするため、『アルセウス』では版画風のニュアンスを追加。また、空や水などをコンセプトに合わせた景観表現を行ったり、色調補正を行って淡い色調に加工したりしている。
@@ -150,7 +148,7 @@ parallel_items:
 - type: paragraph
   speaker: 解说
   original: セッションでは、『スカーレット・バイオレット』における後工程での調整についても紹介。たとえば、ピカチュウは“『ポケモン』史上最高のふさふさ感”を表現。新ポケモン・クワッサのジェル部位、ミライドンの発光粒子、新要素“テラスタル”の質感も演出。そのほか、空・海・街並みもリアル寄りの表現となっている。
-  translation: 在本次会议中，还介绍了《朱／紫》在后处理阶段的调整。例如，皮卡丘展现了“宝可梦史上最蓬松的质感”。新宝可梦润水鸭的凝胶部位、密勒顿的发光粒子、新要素“太晶化”的质感也进行了演绎。除此之外，天空、海洋、街景也采用了偏向写实的表现。
+  translation: "在本次会议中，还介绍了《朱·紫》在后工序中的调整。例如，皮卡丘展现了“宝可梦史上最蓬松的质感”。新宝可梦润水鸭的凝胶部位、密勒顿的发光粒子、新要素“太晶化”的质感也进行了演绎。除此之外，天空、海洋、街景也采用了偏向写实的表现。"
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/024.jpg
   alt: PH27
@@ -173,7 +171,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/001.jpg
   alt: PH01
-  caption: ゲームフリーク 研究開発部 CGテクノロジーディレクター・前澤圭一氏。
+  caption: "GAME FREAK 研究开发部 CG技术总监前泽圭一先生。"
+  caption_original: "ゲームフリーク 研究開発部 CGテクノロジーディレクター・前澤圭一氏。"
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/002.jpg
   alt: PH02
@@ -256,11 +255,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/036.jpg
   alt: PH39
-  caption: ドラゴン型の場合、歩きかたのほかに翼や尻尾の動きをコピーできる。
+  caption: "龙型除了走路方式之外，还可以复制翅膀和尾巴的动作。"
+  caption_original: "ドラゴン型の場合、歩きかたのほかに翼や尻尾の動きをコピーできる。"
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/037.jpg
   alt: PH40
-  caption: ヘビ型の場合、うねうねとした動きがコピー可能だ。
+  caption: "蛇型可以复制蜿蜒扭动的动作。"
+  caption_original: "ヘビ型の場合、うねうねとした動きがコピー可能だ。"
 - type: paragraph
   speaker: 解说
   original: コピーのもととなるポケモンがいない場合には、ゲームフリーク内部のモーションキャプチャーを導入。撮影したデータをそのままポケモンに流しこむことでイメージをつかむことができ、大幅な工数削減ができるそうだ。
@@ -291,12 +292,14 @@ parallel_items:
 - type: paragraph
   speaker: 解说
   original: 共通の環境・仕様を用意することで各タイトルに合わせて制作する必要がなくなり、納品までの制作時間の短縮に成功。そして、後工程によってタイトルごとによる異なるルックとゲーム性を高い品質で実現。アニメーション制作の効率化も図られたことで、『アルセウス』と『スカーレット・バイオレット』の2タイトル同時制作が可能となった。
-  translation: 通过准备共通的环境与规格，无需针对各作品分别制作，成功缩短了交付前的制作时间。并且，通过后处理阶段以高品质实现了各作品不同的视觉风格与游戏性。动画制作的效率化也得以推进，从而使《传说 阿尔宙斯》与《朱／紫》两款作品的同步制作成为可能。
+  translation: "通过准备共通的环境与规格，无需针对各作品分别制作，成功缩短了交付前的制作时间。并且，通过后工序以高品质实现了各作品不同的视觉风格与游戏性。动画制作的效率化也得以推进，从而使《传说 阿尔宙斯》与《朱·紫》两款作品的同步制作成为可能。"
 - type: paragraph
   speaker: 解说
   original: 我々が大きな間を置かずに高品質なゲームを手にできるのは、こうした企業努力のおかげ。日々感謝しつつ楽しみたいところだ。
   translation: 我们之所以能在不长的时间内获得高品质的游戏，正是得益于这样的企业努力。我们应当心怀感激，每日尽情享受。
 entities:
+  people:
+  - 前泽圭一
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫

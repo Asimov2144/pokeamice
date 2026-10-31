@@ -36,8 +36,9 @@ entities:
   people:
   - 增田顺一
   - 菜花健作
+  - 景山将太
   works:
-  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  - "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
 workflow:
   fetch: wayback
   translation: deepseek-chat
@@ -47,7 +48,7 @@ topics:
 - 海外媒体专访
 parallel_items:
 - original: 'The first Pokémon RPG adventure for Nintendo Switch, Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!, is almost here, and the excitement continues to grow. To learn more about the process that went into the adventure''s creation, we had a chat with two members of GAME FREAK inc.—the developers of the games. Join us as we talk to Junichi Masuda, one of GAME FREAK''s founders and the director of Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!, and Kensaku Nabana, the games'' lead environment designer. Both creators were kind enough to share their thoughts on the production of these upcoming titles.'
-  translation: Nintendo Switch 上的首款宝可梦 RPG 冒险游戏《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》即将发售，玩家的期待也在不断升温。为了解这款冒险游戏的创作过程，我们与 GAME FREAK inc.——这两款游戏的开发者——的两位成员进行了交流。请随我们一起对话增田顺一和 Nabana Kensaku。增田顺一是 GAME FREAK 的创始人之一，也是《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》的总监；Nabana Kensaku 则是这两款游戏的环境设计主管。两位创作者都慷慨地分享了他们对这两款即将推出的作品的制作想法。
+  translation: "Nintendo Switch 上的首款宝可梦 RPG 冒险游戏《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》即将发售，玩家的期待也在不断升温。为了解这款冒险游戏的创作过程，我们与 GAME FREAK inc.——这两款游戏的开发者——的两位成员进行了交流。请随我们一起对话增田顺一和菜花健作。增田顺一是 GAME FREAK 的创始人之一，也是《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》的总监；菜花健作则是这两款游戏的环境设计主管。两位创作者都慷慨地分享了他们对这两款即将推出的作品的制作想法。"
 - type: heading
   level: 3
   original: Creative Inspiration
@@ -147,15 +148,15 @@ parallel_items:
 - original: One of the most difficult aspects of updating all the environments and maps for the new hardware and graphic style was that we wanted to keep it nostalgic for fans of the originals while also making it something that looks very inviting and appealing for younger kids. It should always be very clear where you can go, where you can't go, where Pokémon would appear, and where they wouldn't appear.
   role: answer
   speaker: 菜花健作
-  translation: 为新硬件和图形风格更新所有环境和地图时，最困难的方面之一是我们希望保留原版粉丝的怀旧感，同时让它看起来对年幼的孩子非常有吸引力和吸引力。应该始终非常清楚哪里可以去，哪里不能去，宝可梦会出现在哪里，不会出现在哪里。
+  translation: "为新硬件和图形风格更新所有环境和地图时，最困难的地方之一是，我们既希望让原作的粉丝感到怀旧，又希望它对年幼的孩子来说显得亲切、有吸引力。哪里可以去、哪里不能去、哪里会出现宝可梦、哪里不会出现，必须始终一目了然。"
 - original: I think there was a lot of simplicity in those older pixel graphics, which made things like that obvious to the player. The graphics helped communicate things to the player, so you'll see there are quite a few things that we left mostly unchanged. We updated the way you can move around, but we made it very clear where you can go and where you can't go and where you might find Pokémon.
   role: answer
   speaker: 菜花健作
-  translation: 我认为那些旧的像素图形中有很多简单性，使这些事情对玩家来说显而易见。图形有助于向玩家传达信息，所以你会看到有很多东西我们基本保持不变。我们更新了移动方式，但我们非常清楚地表明哪里可以去，哪里不能去，以及可能在哪里找到宝可梦。
+  translation: "我认为过去的像素画面本身就很简洁，这让玩家很容易看明白这些事。画面本身就在向玩家传达信息，所以你会看到有不少东西我们基本保持原样。我们更新了移动的方式，但哪里可以去、哪里不能去、哪里可能遇到宝可梦，我们仍然做得非常清楚。"
 - original: In terms of locales that I think look especially good or interesting, one thing that we did this time around was go back and update all the towns. We redesigned them, pretty much, giving all the towns their own personalities. I think players will have a lot of fun discovering how the locations have changed.
   role: answer
   speaker: 菜花健作
-  translation: 就我认为看起来特别出色或有趣的地点而言，这次我们做的一件事是回去更新所有城镇。我们几乎重新设计了它们，赋予所有城镇自己的个性。我认为玩家会发现这些地点如何变化而获得很多乐趣。
+  translation: "至于我认为看起来特别出色或有趣的地点，这次我们做的一件事是回过头把所有城镇都更新了一遍。可以说我们把它们几乎重新设计了，让每座城镇都有自己的个性。我想玩家在发现各地有哪些变化的过程中会获得很多乐趣。"
 - type: image
   image: /assets/img/interviews/2018-11-01-interview-pokemoncom-2018-letsgo-makers/006.jpg
   alt: 'Meet the Makers of Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!'
@@ -166,11 +167,11 @@ parallel_items:
 - original: 'The base concept behind Pokémon FireRed and Pokémon LeafGreen was very different from what we are going for with Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee! Back then, the primary focus was to creates games that could connect with Pokémon Ruby and Pokémon Sapphire, which were the other titles available on the Game Boy Advance. This time around, we''re defining what the modern living-room Pokémon RPG experience might be when you play on a home console on a big-screen TV. We''re starting from very different places, and as a result, I think you''ll see the direction is quite different.'
   role: answer
   speaker: 增田顺一
-  translation: 《宝可梦 火红·叶绿》背后的基本概念与我们为《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》所追求的目标非常不同。当时，主要焦点是创建能够与《宝可梦 红宝石·蓝宝石》连接的游戏，那是Game Boy Advance上的其他作品。这一次，我们正在定义当你在家用主机上在大屏幕上玩时，现代客厅宝可梦RPG体验可能是什么样子。我们从非常不同的地方开始，因此，我认为你会看到方向相当不同。
+  translation: "《宝可梦 火红·叶绿》背后的基本概念，与我们这次为《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》所追求的东西非常不同。当时的首要目标，是制作能够与同在 Game Boy Advance 上的《宝可梦 红宝石·蓝宝石》联动的游戏。而这一次，我们要定义的是在家用主机上、面对大屏幕电视游玩时，现代客厅里的宝可梦 RPG 体验应该是什么样子。我们的出发点非常不同，所以我想你会看到方向也相当不同。"
 - original: At the same time, probably because of the popularity of Pokémon the Series, I think most Pokémon fans prefer the less scary, kind of cuter, and more inviting look that the animated series provides. So the feel of the world changed to be a little less scary, and the Pokémon started to look less monsterlike and more like the impression that people get from Pokémon today. We're taking those ideas and continuing to implement them in these new games.
   role: answer
   speaker: 增田顺一
-  translation: 同时，可能因为宝可梦动画系列的流行，我认为大多数宝可梦粉丝更喜欢动画系列提供的较少恐怖、更可爱、更吸引人的外观。所以世界的感觉变得不那么恐怖，宝可梦开始看起来不那么像怪物，而更像人们今天对宝可梦的印象。我们正在采纳这些想法，并在这些新游戏中继续实施它们。
+  translation: "同时，也许是因为动画的人气，我想大多数宝可梦粉丝更喜欢动画所呈现的那种不那么吓人、更可爱、更讨人喜欢的外观。所以世界的感觉变得没那么吓人了，宝可梦看起来也不再那么像怪物，而更接近人们今天对宝可梦的印象。我们把这些想法接过来，在这次的新游戏中继续沿用。"
 - type: heading
   level: 3
   original: Behind the Scenes
@@ -185,7 +186,7 @@ parallel_items:
 - original: I was the one who worked on the base game concept document for Pokémon GO, and even in that original concept, I had the idea of introducing new Pokémon through the mobile game. I wanted to realize that goal by creating games that could connect with Pokémon GO and feel somewhat similar to it without feeling like we were copying it. Given my involvement in Pokémon GO's development, I felt that I was probably the best person to direct these games.
   role: answer
   speaker: 增田顺一
-  translation: 我是为《Pokémon GO》编写基础游戏概念文档的人，即使在那个原始概念中，我也有通过手机游戏引入新宝可梦的想法。我想通过创建能够与《Pokémon GO》连接并感觉有些相似而不觉得我们在抄袭它的游戏来实现这个目标。鉴于我参与了《Pokémon GO》的开发，我觉得我可能是执导这些游戏的最佳人选。
+  translation: "我是为《Pokémon GO》编写基础游戏概念文档的人，即使在最初的构想中，我就有通过手机游戏引入新宝可梦的想法。我想实现这个目标，方法是制作既能与《Pokémon GO》连接、感觉上又有几分相似，却不会让人觉得是在照搬它的游戏。考虑到我参与了《Pokémon GO》的开发，我觉得自己大概是执导这些游戏的最佳人选。"
 - original: It was also interesting to work with Nintendo Switch. There's a lot of technology packed into the hardware that we were all trying to discover at GAME FREAK. For example, developing the Poké Ball Plus and working with Bluetooth to facilitate the connection with Pokémon GO were both very interesting things that I had a chance to work on as the director this time.
   role: answer
   speaker: 增田顺一
@@ -214,7 +215,7 @@ parallel_items:
 - original: We've used various music styles in the past, such as heavy metal or techno, and those are obviously things that certain people really like. At the same time, however, those styles can be divisive or intimidating to others. With that in mind, we wanted the music to feel inclusive, and I think Mr. Kageyama did a great job in achieving that.
   role: answer
   speaker: 增田顺一
-  translation: 我们过去使用过各种音乐风格，比如重金属或电子乐，这些显然是某些人非常喜欢的。但与此同时，这些风格也可能对其他人造成分歧或令人望而生畏。考虑到这一点，我们希望音乐让人感到包容，我认为景山先生在这方面做得很好。
+  translation: "我们过去使用过各种音乐风格，比如重金属或电子乐，这些显然是某些人非常喜欢的。但与此同时，这些风格对另一些人来说可能难以接受，甚至令人望而生畏。考虑到这一点，我们希望音乐让人感到包容，我认为景山先生在这方面做得很好。"
 - original: One of the more interesting things that Mr. Kageyama did comes in the form of how he respected the original music while injecting his own variations on the themes. Most of the songs use the same key and tempo as the original versions, and he keeps things very similar for the first pass of the tune. After the initial loop happens, though, Mr. Kageyama's arrangement kicks in, allowing his own style to come through. I think it'll be very interesting for fans of the original soundtrack to listen to how it's changed.
   role: answer
   speaker: 增田顺一
@@ -248,7 +249,7 @@ parallel_items:
 - original: For the longtime fans like myself, there's obviously the goal of completing the Pokédex. This time, the way you catch the original 151 Pokémon is very different from how it was in the past, so I think it'll be quite a challenge. The experience also feels very fresh because the technique of catching Pokémon is different in these games.
   role: answer
   speaker: 菜花健作
-  translation: 对于像我这样的老玩家来说，目标显然是完成宝可梦图鉴 App。这一次，捕捉最初的 151 种宝可梦的方式与过去大不相同，所以我认为这会相当有挑战性。由于这些游戏中捕捉宝可梦的技巧不同，体验也感觉非常新鲜。
+  translation: "对于像我这样的老玩家来说，目标显然是完成宝可梦图鉴。这一次，捕捉最初的 151 种宝可梦的方式与过去大不相同，所以我认为这会相当有挑战性。由于这些游戏中捕捉宝可梦的技巧不同，体验也感觉非常新鲜。"
 - original: Other than that, we have some interesting content for longtime fans who are more interested in battling. After you finish the main story, there are Master Trainers that exist throughout the Kanto region. There's one for each of the different species of Pokémon—and each is the master of that Pokémon. That's what they call themselves. They've raised their Pokémon to be extremely strong, and you can go out and challenge them.
   role: answer
   speaker: 菜花健作

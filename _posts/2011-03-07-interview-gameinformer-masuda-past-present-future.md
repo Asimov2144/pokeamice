@@ -54,7 +54,7 @@ parallel_items:
   alt: Pokémon Past, Present, And Future
 - speaker: ''
   original: This week marks the long-awaited release of the fifth-generation of Pokémon titles, Black and White. Game Freak producer, Junichi Masuda, and the graphic designer who created many of the game’s 150 new Pokémon, Mana Ibe, tell us about the past, present, and future of the long-running franchise. Did you know the traditional routes found in Pokémon games were initially created as a workaround for cartridge limitations? Did you know that Pokémon originally didn't evolve? If it weren't for the lengthy six-year development cycle of the original games, these series staples would not have existed. Read on to learn more franchise secrets.
-  translation: 本周，备受期待的第五世代宝可梦游戏《黑／白》终于发售。GAME FREAK的制作人增田顺一，以及设计了游戏中150只新宝可梦中许多只的图形设计师井部真那，向我们讲述了这一长寿系列游戏的过去、现在和未来。你知道吗？宝可梦游戏中传统的道路设计最初是为了规避卡带容量限制而创造的。你知道吗？宝可梦最初并不会进化。如果没有初代游戏长达六年的开发周期，这些系列特色就不会存在。继续阅读，了解更多系列秘闻。
+  translation: "本周，备受期待的第五世代宝可梦游戏《黑·白》终于发售。GAME FREAK的制作人增田顺一，以及设计了游戏中150只新宝可梦中许多只的图形设计师井部真那，向我们讲述了这一长寿系列游戏的过去、现在和未来。你知道吗？宝可梦游戏中传统的道路设计最初是为了规避卡带容量限制而创造的。你知道吗？宝可梦最初并不会进化。如果没有初代游戏长达六年的开发周期，这些系列特色就不会存在。继续阅读，了解更多系列秘闻。"
 - type: heading
   level: 3
   original: Game Freak’s beginnings
@@ -105,10 +105,10 @@ parallel_items:
 - type: heading
   level: 3
   original: From Red and Blue to Black and White
-  translation: 从《红／蓝》到《黑／白》
+  translation: "从《红·蓝》到《黑·白》"
 - speaker: 增田顺一
   original: It was actually the themes behind the games that decided the titles [for Black and White]. One of the themes is to really express two polar opposites. For example, you have the big city in one field, and then you have the countryside in the other field. The theme of the polar opposites is what brought us to think of black and white.
-  translation: 实际上，是游戏背后的主题决定了《黑／白》的标题。主题之一是要表现两个截然相反的对立面。例如，一边是大城市，另一边是乡村。这种对立主题让我们想到了黑与白。
+  translation: "实际上，是游戏背后的主题决定了《黑·白》的标题。主题之一是要表现两个截然相反的对立面。例如，一边是大城市，另一边是乡村。这种对立主题让我们想到了黑与白。"
   note: 《宝可梦 黑／白》以黑白象征对立主题，如城市与乡村的对比。
 - speaker: 增田顺一
   original: Pokémon RPG not designed for console
@@ -116,11 +116,11 @@ parallel_items:
   note: 强调宝可梦系列注重便携性，而非家用机平台。
 - speaker: 增田顺一
   original: Portability is really important for the Pokémon series. For example, in Pokémon Black and Pokémon White versions we have the new C-Gear that appears on the bottom screen that has a lot of communication features. When it’s on it’s always communicating information with players nearby, for instance, at a place where a lot of people get together or at a friend’s house. Turn it on and if other players are nearby you can find out what they’re up to, whether they’re catching Pokémon or in a battle with trainers. It’s this concept of always playing and communicating with nearby players that has always been important to the Pokémon.
-  translation: 便携性对宝可梦系列非常重要。例如，在《宝可梦 黑／白》中，我们引入了新的Ｃ装置，它出现在下屏幕，具有许多通信功能。开启后，它会持续与附近的玩家交换信息，比如在人群聚集的地方或朋友家。打开它，如果附近有其他玩家，你就能知道他们在做什么，是在捕捉宝可梦还是与训练家对战。这种始终与附近玩家一起游玩和交流的概念，对宝可梦来说一直很重要。
+  translation: "便携性对宝可梦系列非常重要。例如，在《宝可梦 黑·白》中，我们引入了新的Ｃ装置，它出现在下屏幕，具有许多通信功能。开启后，它会持续与附近的玩家交换信息，比如在人群聚集的地方或朋友家。打开它，如果附近有其他玩家，你就能知道他们在做什么，是在捕捉宝可梦还是与训练家对战。这种始终与附近玩家一起游玩和交流的概念，对宝可梦来说一直很重要。"
   note: Ｃ装置是《黑／白》中的通信功能，利用下屏幕实现近距离通信。
 - speaker: 增田顺一
   original: Aside from that, to be able to communicate with players who are really far away or can’t be in the same area, in Pokémon Black version or Pokémon White version we are introducing the Pokémon Global Link (PGL) that allows players to communicate data from their DS to their computers, go on the Pokémon Global Link website, and view rankings for battles or communicate with players that are really far away. I look forward to seeing how well this does, especially in the United States, as a lot  more people use the internet off their computers.Designing 150 new Pokémon
-  translation: 除此之外，为了能与远方或无法身处同一地区的玩家交流，在《宝可梦 黑／白》中，我们引入了宝可梦全球连接（PGL），玩家可以将DS上的数据传输到电脑，访问宝可梦全球连接网站，查看对战排名或与远方玩家交流。我期待这一功能的表现，尤其是在美国，因为更多人通过电脑上网。设计150只新宝可梦
+  translation: "除此之外，为了能与远方或无法身处同一地区的玩家交流，在《宝可梦 黑·白》中，我们引入了宝可梦全球连接（PGL），玩家可以将DS上的数据传输到电脑，访问宝可梦全球连接网站，查看对战排名或与远方玩家交流。我期待这一功能的表现，尤其是在美国，因为更多人通过电脑上网。设计150只新宝可梦"
   note: 宝可梦全球连接是《黑／白》的在线服务，支持数据传输和远程互动。
 - speaker: 井部真那
   original: There were about 17 designers for Black and White project at Game Freak and one of the ways we make sure we don’t have too much overlap with any of the previous Pokémon is if we have a new design, we’ll take a silhouette of it, just the outline of it, and color the rest of it in black, and make sure the shape of it doesn’t overlap with previous Pokémon designs, and make sure it still looks original. We also do that with the color palette, color combinations, and make sure that there aren’t any Pokémon in the older games that share that exact same color palette as the new ones. Some of the directions we got from planners was to not be restricted or bound by old designs, for example, just because there might be one type of Pokémon existing in the old games, doesn’t mean you can’t make a similar type of Pokémon in a different light.

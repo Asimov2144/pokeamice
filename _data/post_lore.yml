@@ -48916,15 +48916,10 @@
     people:
     - name: 解说
       role: speaker
-    - name: 前座晃宏
-      role: speaker
     - name: 前泽圭一
-      role: mentioned
+      role: speaker
       slug: maezawa-keiichi
     places:
-    - name: 帕鲁迪亚地区
-      what: 《朱／紫》舞台
-      world: game
     - name: 帕底亚地区
       what: 《朱·紫》舞台
       world: game
