@@ -91,7 +91,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-02.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第2页
 - original: "おことわり\n1. 本講演では、紙面の都合等により以下の省略表記を使用しています。\n\n2. 使用しているゲーム画面は開発機で撮影したものです。\n\n『ポケットモンスター』シリーズ\n→ポケモン\n『Pokémon LEGENDS Z-A』\n\n→Z-A ／ 『ポケットモンスターX・Y』 ／ →X・Y\n『ポケットモンスタースカーレット・バイオレット』\n\n→スカーレット・バイオレット"
-  translation: "声明\n1. 本演讲中，出于篇幅等考虑，使用以下省略表述。\n\n2. 使用的游戏画面是在开发机上拍摄的。\n\n《宝可梦》系列\n→宝可梦\n《Pokémon LEGENDS Z-A》\n→Z-A ／ 《宝可梦X・Y》 ／ →X・Y\n《宝可梦 朱・紫》\n→朱・紫"
+  translation: "声明\n1. 本演讲中，出于篇幅等考虑，使用以下省略表述。\n\n2. 使用的游戏画面是在开发机上拍摄的。\n\n《宝可梦》系列\n→宝可梦\n《Pokémon LEGENDS Z-A》\n→Z-A ／ 《宝可梦 X·Y》 ／ →X·Y\n《宝可梦 朱·紫》\n→朱·紫"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-03.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第3页
@@ -108,19 +108,7 @@ parallel_items:
     自然環境から一変し、都市空間へ
 
     『Z-A』について'
-  translation: '- 《宝可梦》系列的全新
-
-    挑战作品
-
-    - 以《X・Y》中登场的城市之一
-
-    『密阿雷市』为舞台
-
-    - 从《朱・紫》的广阔
-
-    自然环境一变，转向都市空间
-
-    关于《Z-A》'
+  translation: "- 《宝可梦》系列的全新\n挑战作品\n- 以《X·Y》中登场的城市之一\n“密阿雷市”为舞台\n- 从《朱·紫》的广阔\n自然环境一变，转向都市空间\n关于《Z-A》"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-04.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第4页
@@ -289,15 +277,7 @@ parallel_items:
     GPU Counter ／ ¼ミップ
 
     （CPU・GPU間の同期不要）'
-  translation: '- 独特模型
-
-    遮挡剔除 ／ OcclusionQuery ／ AABB测试
-
-    DrawConditional
-
-    GPU Counter ／ ¼ Mip
-
-    （无需 CPU 与 GPU 间同步）'
+  translation: "- 唯一模型\n遮挡剔除 ／ OcclusionQuery ／ AABB测试\nDrawConditional\nGPU Counter ／ ¼ Mip\n（无需 CPU 与 GPU 间同步）"
   note: OcclusionQuery 是 GPU 查询遮挡的机制；AABB 为轴对齐包围盒。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-18.jpg
@@ -564,7 +544,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-42.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第42页
 - original: "- ロワイヤルナイト（夜）\n\n– メインライト（月）の方向と軌道が\n太陽と異なる\n– 昼間とテクスチャを分けてベイク\n– ロワイヤルナイトの出入りの演出で\n切り替えが見えない\n- プリズムタワーの影は除外\n– 大きすぎるため ／ ベイク影 ／ （昼用） ／ （夜用）"
-  translation: "- 皇家骑士（夜）\n\n– 主光源（月亮）的方向和轨道与太阳不同\n– 白天和夜晚的纹理分开烘焙\n– 皇家骑士出入的演出中看不到切换\n- 棱镜塔的阴影除外\n– 因为太大 ／ 烘焙阴影 ／ （白天用） ／ （夜晚用）"
+  translation: "- 皇家之夜（夜）\n\n– 主光源（月亮）的方向和轨道与太阳不同\n– 白天和夜晚的纹理分开烘焙\n– 皇家之夜进出的演出中看不到切换\n- 棱镜塔的阴影除外\n– 因为太大 ／ 烘焙阴影 ／ （白天用） ／ （夜晚用）"
   note: 皇家骑士是密阿雷市的地标建筑，夜晚有灯光演出。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-43.jpg
@@ -729,17 +709,17 @@ parallel_items:
 - type: heading
   level: 2
   original: リグの取り組み
-  translation: Rig的举措
+  translation: "绑定的举措"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-56.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第56页
 - original: "目次(リグパート)\n\n- ポケモンタイトル制作での課題\n- ポケリグとは？\n\n- ポケリグによる課題解決\n- 『Z-A』で取り組んだ内容\n- 今後の予定"
-  translation: "目录（Rig部分）\n\n- 宝可梦标题制作中的课题\n- 什么是ポケリグ？\n\n- 通过ポケリグ解决课题\n- 在《Z-A》中着手的内容\n- 今后的计划"
+  translation: "目录（绑定部分）\n\n- 宝可梦标题制作中的课题\n- 什么是ポケリグ？\n\n- 通过ポケリグ解决课题\n- 在《Z-A》中着手的内容\n- 今后的计划"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-57.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第57页
 - original: "総数1000種以上のポケモン+ 人物\nポケモンタイトル制作での課題\n- 登場するキャラクタの数が膨大(x モーションの数)\n\n- 継続・進化していくシリーズタイトル(一度作ったら終わり、ではない)\n\n- 『スカーレット・バイオレット』以前は、人物リグとポケモンリグは異なるリグシステム\n解決のアプローチ\nこれらを解決する統合リギングシステム=ポケリグを開発し解決\n誰もがリグを作る事が出来る\n関わるデザイナーが多くとも堅牢かつ安定\nリグモジュール・ビルドシステム\n効率的なデータ再利用\nリグや骨が異なっていてもモーションを再利用\nモーションリターゲット ／ リグシステムの統合 ／ 学習コスト・運用コスト低減 ／ 段階的な導入"
-  translation: "总数1000种以上的宝可梦+ 人物\n宝可梦作品制作中的课题\n- 登场角色数量庞大（× 动作数量）\n\n- 持续进化中的系列作品（并非做完一次就结束）\n\n- 在《朱·紫》之前，人物绑定与宝可梦绑定使用不同的绑定系统\n解决方案\n开发出解决这些问题的集成绑定系统=ポケリグ\n任何人都能制作绑定\n即使参与的设计师众多也能保持稳健与稳定\n绑定模块·构建系统\n高效的数据复用\n即使绑定和骨骼不同也能复用动作\n动作重定向 ／ 绑定系统的集成 ／ 学习成本·运维成本降低 ／ 分阶段导入"
+  translation: "总数1000种以上的宝可梦+ 人物\n宝可梦作品制作中的课题\n- 登场角色数量庞大（× 动作数量）\n\n- 持续进化中的系列作品（并非做完一次就结束）\n\n- 在《朱·紫》之前，人物绑定与ポケリグ使用不同的绑定系统\n解决方案\n开发出解决这些问题的集成绑定系统=ポケリグ\n任何人都能制作绑定\n即使参与的设计师众多也能保持稳健与稳定\n绑定模块·构建系统\n高效的数据复用\n即使绑定和骨骼不同也能复用动作\n动作重定向 ／ 绑定系统的集成 ／ 学习成本·运维成本降低 ／ 分阶段导入"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-58.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第58页
@@ -875,19 +855,7 @@ parallel_items:
     つき１つだけなので、過去作リグ
 
     の仕様差を補間する処理を通す ／ リマップ処理 ／ HumanIK'
-  translation: '从过去作品的重定向支持
-
-    流程不变，作为宝可梦规格之一
-
-    在重映射处理内应对 ／ FK控制器 ／ IK控制器 ／ 过去作品动作 ／ 过去作品骨骼 ／ 宝可梦骨骼 ／ 重定向 ／ 目标角色 ／ 动作
-
-    - 在重映射处理内分支
-
-    - 人物的规格，在骨骼系统中
-
-    只有一个，因此通过处理来补间过去作品骨骼
-
-    的规格差异 ／ 重映射处理 ／ HumanIK'
+  translation: "从过去作品的重定向支持\n流程不变，作为宝可梦规格之一\n在重映射处理内应对 ／ FK控制器 ／ IK控制器 ／ 过去作品动作 ／ 过去作品绑定 ／ ポケリグ ／ 重定向 ／ 目标角色 ／ 动作\n- 在重映射处理内分支\n- 人物的规格，在每个绑定系统中\n只有一个，因此要经过补间过去作品绑定\n规格差异的处理 ／ 重映射处理 ／ HumanIK"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-66.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第66页
@@ -898,13 +866,7 @@ parallel_items:
     ⚫リグの構造に依らないモーションリターゲット
 
     今後の予定'
-  translation: '⚫所有宝可梦的宝可梦骨骼化
-
-    ⚫通过插入中间结构提高抽象度
-
-    ⚫不依赖骨骼结构的动作重定向
-
-    今后的计划'
+  translation: "⚫所有宝可梦的ポケリグ化\n⚫通过插入中间结构提高抽象度\n⚫不依赖绑定结构的动作重定向\n今后的计划"
 - type: heading
   level: 2
   original: Nintendo Switch 2 対応
@@ -1065,19 +1027,7 @@ parallel_items:
     – ボール投げすると、1投で2個減る
 
     60 fps 対応 ／ 品質向上'
-  translation: '- 试着一跑，居然还能跑起来
-
-    - 把奇怪的地方逐个修掉了
-
-    – 爬梯子上屋顶时会在半途掉落
-
-    – UI 列表滚动时光标会打滑
-
-    – 消息推进音会连续播放两次
-
-    – 投球时，投一次会减少两个
-
-    60 fps 支持 ／ 品质提升'
+  translation: "- 试着运行了一下，基本能跑起来\n- 把奇怪的地方逐个修掉了\n– 爬梯子时，在要爬上屋顶的地方会掉下来\n– UI 列表滚动时光标会打滑\n– 消息推进音会连续播放两次\n– 投球时，投一次会减少两个\n60 fps 支持 ／ 品质提升"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-75.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第75页

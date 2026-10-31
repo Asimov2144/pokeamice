@@ -472,7 +472,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/038.jpg
   alt: Early Concept Art
 - original: 'In Pokémon RGB, each move has a certain number of Power Points (PP) allotted to it. Run out of these, and the move becomes unusable. While PP are tied to individual attacks, TP seem to have been tied to individual Pokémon: a bank of points that could be drawn from. It is unclear whether Dragonchi would have had a list of basic actions, such as Attack and Defend, that it could use in addition to its stat-draining special attack, and whether or not these would have also used up TP.'
-  translation: 在宝可梦 红·绿中，每个招式都有一定数量的力量点数（PP）。用完这些点数，招式就无法使用。PP与个别攻击绑定，而TP似乎与个别宝可梦绑定：一个可以抽取的点数库。目前不清楚龙奇是否会有诸如攻击和防御之类的基本行动列表，可以在其属性吸取的特殊攻击之外使用，以及这些行动是否也会消耗TP。
+  translation: 在宝可梦 红·绿中，每个招式都有一定数量的力量点数（PP）。用完这些点数，招式就无法使用。PP与个别攻击绑定，而TP似乎与个别ポケリグ：一个可以抽取的点数库。目前不清楚龙奇是否会有诸如攻击和防御之类的基本行动列表，可以在其属性吸取的特殊攻击之外使用，以及这些行动是否也会消耗TP。
 - type: heading
   level: 2
   original: Battle Screen

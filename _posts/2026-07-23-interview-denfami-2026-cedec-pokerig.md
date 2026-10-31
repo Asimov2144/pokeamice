@@ -33,7 +33,7 @@ source:
   language: ja
   source_type: media_interview
 original_link: https://news.denfaminicogamer.jp/kikakuthetower/2607233k
-summary: GAME FREAK前泽圭一、斯帕达菲娜·阿尔弗雷多、赤木达也在CEDEC2026介绍《宝可梦传说 Z-A》的渲染技术，包括城市批量绘制与剔除、天空水面与远景阴影表现、宝可梦绑定与动作重定向，以及对Nintendo Switch2版的支持。
+summary: GAME FREAK前泽圭一、斯帕达菲娜·阿尔弗雷多、赤木达也在CEDEC2026介绍《宝可梦传说 Z-A》的渲染技术，包括城市批量绘制与剔除、天空水面与远景阴影表现、ポケリグ与动作重定向，以及对Nintendo Switch2版的支持。
 entities:
   people:
   - Alfredo Spadafina
@@ -48,7 +48,7 @@ workflow:
   published: draft
 parallel_items:
 - original: 『ポケットモンスター X・Y』（以下、 X・Y）や『Pokémon LEGENDS Z-A』（以下、Z-A）の舞台となっている「ミアレシティ」。『X・Y』最大の都市として登場したこの街は、『Z-A』でメガシンカのような変貌をとげた。
-  translation: 《宝可梦 X・Y》（以下简称 X・Y）和《Pokémon LEGENDS Z-A》（以下简称 Z-A）的舞台都是“密阿雷市”。这座在《X・Y》中作为最大都市登场的城市，在《Z-A》中经历了类似超级进化般的巨变。
+  translation: "《宝可梦 X·Y》（以下简称 X·Y）和《Pokémon LEGENDS Z-A》（以下简称 Z-A）的舞台都是“密阿雷市”。这座在《X·Y》中作为最大都市登场的城市，在《Z-A》中经历了类似超级进化般的巨变。"
 - original: 果たして開発チームは、前作で描かれた大自然とは異なる「建物ばかりの都市空間」を、どのように表現したのであろうか？
   translation: 那么，开发团队究竟是如何表现与前作所描绘的大自然不同的“尽是建筑物的都市空间”的呢？
 - original: 国内最大級のゲームカンファレンス「CEDEC2026」のセッション「ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術」では株式会社ゲームフリークの前澤圭一氏、スパダフィーナ・アルフレド氏、赤木達也氏の3名により『Z-A』の描画技術について語られた。
@@ -125,38 +125,38 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/010.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_010
 - original: 『Z-A』は街灯にもこだわり、灯りによって表現方法を変え、スポットライトが円錐モデルだと気づかせない様々な処理をしたと、スパダフィーナ氏は語った。
-  translation: "Spadafina女士表示，《Z-A》在路灯上也下了功夫，根据灯光改变表现方式，并进行了各种处理，让人察觉不到聚光灯是圆锥模型。"
+  translation: "Spadafina先生表示，《Z-A》在路灯上也下了功夫，根据灯光改变表现方式，并进行了各种处理，让人察觉不到聚光灯是圆锥模型。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/011.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_011
 - type: heading
   level: 2
   original: キャラクターの描画と「ポケリグ」
-  translation: 角色的绘制与“宝可梦绑定”
+  translation: 角色的绘制与“ポケリグ”
 - original: 今作のキャラはディファードとフォワードを用いて時間帯ごとに表現し、メガシンカのエフェクトは、ポケモンのサイズごとに設定したとスパダフィーナ氏は語った。
-  translation: "Spadafina女士表示，本作的角色使用延迟渲染和前向渲染按时间段进行表现，超级进化的特效则根据宝可梦的尺寸分别设置。"
+  translation: "Spadafina先生表示，本作的角色使用延迟渲染和前向渲染按时间段进行表现，超级进化的特效则根据宝可梦的尺寸分别设置。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/012.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_012
 - original: 続いて「ポケリグ」の取り組みが紹介された。ポケモンの最大の課題は「物量」であり、この解決策が「ポケリグ」だという。
-  translation: 接着介绍了“宝可梦绑定”的举措。宝可梦最大的课题是“物量”，而解决这一问题的方案就是“宝可梦绑定”。
+  translation: 接着介绍了“ポケリグ”的举措。宝可梦最大的课题是“物量”，而解决这一问题的方案就是“ポケリグ”。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/013.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_013
 - original: 「ポケリグ」には、リグ（骨組み）を知らない人でも使えるシステムや、効率的にデータ再利用が可能なモーションリターゲットがあるという。
-  translation: 据说“宝可梦绑定”具备即使不懂绑定（骨骼结构）的人也能使用的系统，以及能够高效复用数据的动作重定向功能。
+  translation: 据说“ポケリグ”具备即使不懂绑定（骨骼结构）的人也能使用的系统，以及能够高效复用数据的动作重定向功能。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/014.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_014
 - original: ポケリグは段階的に導入され、本作では人物への対応が大きなポイントであり、大量のデータを扱うため、可能な限り共通フローを用いる方針を掲げたとのこと。
-  translation: 宝可梦绑定是分阶段引入的，在本作中对应人物是一大重点，由于要处理大量数据，因此提出了尽可能采用共通流程的方针。
+  translation: ポケリグ是分阶段引入的，在本作中对应人物是一大重点，由于要处理大量数据，因此提出了尽可能采用共通流程的方针。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/015.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_015
 - original: 人物の作成には服と顔それぞれのリグを統合し、モーションはポケモンのリターゲットの派生で対応したと赤木氏は語った。過去作からのリターゲットも共通フローで対応することでスムーズに処理ができたという。
   translation: 赤木先生表示，人物的制作整合了服装和脸部各自的绑定，动作则通过宝可梦重定向的派生来应对。据说以往作品中的重定向也通过共通流程处理，从而实现了顺畅的处理。
 - original: 赤木氏は、全ポケモンのポケリグ化が目標と語った。
-  translation: 赤木先生表示，目标是将所有宝可梦都进行宝可梦绑定化。
+  translation: 赤木先生表示，目标是将所有宝可梦都进行ポケリグ化。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/016.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_016
@@ -167,7 +167,7 @@ parallel_items:
 - original: 『Z-A』は、Nintendo Switch版とNintendo Switch2版が発売されたが、開発は新ハード発表前から進んでいた。このときの課題として、「情報開示者が限られている」「差別化」の二点を前澤氏は挙げた。
   translation: 《Z-A》发售了Nintendo Switch版和Nintendo Switch2版，但开发在新硬件发布之前就已推进。前泽氏列举了此时的两个课题：“信息知悉者有限”和“差异化”。
 - original: 作業は施錠した会議室で進められ、情報は開示者のみのSlackに集約していたが、「こういう事態に備えた管理者の整備が大切だ」と前澤氏は知見を述べた。
-  translation: 作业在上了锁的会议室中进行，信息集中在前泽氏等知悉者专用的Slack上，前泽氏表示：“为应对这种情况，管理者的整备很重要。”
+  translation: "作业在上了锁的会议室中进行，信息集中在仅限知悉者的Slack上，但前泽氏表示：“为应对这种情况，管理者的整备很重要。”"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/017.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_017
