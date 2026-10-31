@@ -51,7 +51,7 @@ parallel_items:
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/001.jpg
   alt: Junichi Masuda
 - original: On 12th October budding Pokémon masters will be able to explore first-hand the beautiful polygonal 3D environments of the French-inspired region of Kalos, where trainers rush around on roller-skates and a giant Ryhorn snoozes outside your front door. We caught up with Pokémon X and Y's Director Junichi Masuda and Chief Designer Hironobu Yoshida to find out more about the development and features of the upcoming title.
-  translation: 10月12日，有志成为宝可梦大师的玩家将能亲身探索以法国为灵感设计的卡洛斯地区，那里有着精美的多边形3D环境，训练家们穿着轮滑鞋四处穿梭，一只巨大的铁甲暴龙在你家门前打盹。我们采访了《宝可梦 X·Y》的总监增田顺一和首席设计师吉田宏信，以了解更多关于这款即将推出的作品的开发情况和特色。
+  translation: "10月12日，有志成为宝可梦大师的玩家将能亲身探索以法国为灵感设计的卡洛斯地区，那里有着精美的多边形3D环境，训练家们穿着轮滑鞋四处穿梭，一只巨大的独角犀牛在你家门前打盹。我们采访了《宝可梦 X·Y》的总监增田顺一和首席设计师吉田宏信，以了解更多关于这款即将推出的作品的开发情况和特色。"
 - original: It's lovely to meet you both today. Thank you very much for letting us play X & Y, we really enjoyed our time with the game. Let’s have a quick ice-breaker question, out of the three new starter Pokémon (Fennekin, Chespin and Froakie) which one would you pick?
   role: question
   speaker: Nintendo Life
@@ -86,7 +86,7 @@ parallel_items:
 - original: In regards to the key system that existed in Black and White 2 that was something that we implemented after we had the balance right in Pokémon Black and White, so we put that in to add in some more options as a sequel to the game. But as X and Y is a totally new entry we have added a lot of new changes, and completely rebalanced the game, so we didn’t really think about putting in a similar system this time around.
   role: answer
   speaker: 增田顺一
-  translation: 关于《黑2／白2》中存在的钥匙系统，那是我们在《宝可梦 黑·白》的平衡调整好之后才实装的，所以作为游戏的续作，我们加入它是为了增加一些选项。但X和Y是全新的作品，我们加入了许多新变化，并完全重新平衡了游戏，所以这次我们并没有真正考虑加入类似的系统。
+  translation: "关于《黑2·白2》中存在的钥匙系统，那是我们在《宝可梦 黑·白》的平衡调整好之后才实装的，所以作为游戏的续作，我们加入它是为了增加一些选项。但X和Y是全新的作品，我们加入了许多新变化，并完全重新平衡了游戏，所以这次我们并没有真正考虑加入类似的系统。"
 - type: image
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/003.jpg
   alt: A whole new world
@@ -101,7 +101,7 @@ parallel_items:
 - original: The theme of X and Y is 'beauty' and France matches that. 'Kalos' is actually an ancient Greek word that means 'beauty'.
   role: answer
   speaker: 增田顺一
-  translation: 《X／Y》的主题是“美丽”，而法国与之相符。“卡洛斯”其实是古希腊语中意为“美丽”的词。
+  translation: "《X·Y》的主题是“美丽”，而法国与之相符。“卡洛斯”其实是古希腊语中意为“美丽”的词。"
 - original: We loved all of the little cafes dotted around Vaniville Town and Luminose City selling 'chocolat chaud' and 'café au lait’, the French inspiration is very clear![/b]
   role: question
   speaker: Nintendo Life
@@ -125,15 +125,15 @@ parallel_items:
 - original: We had around 200 people working on the development of X and Y, as well as localisation staff. In the credits around 500 names that appear!
   role: question
   speaker: Nintendo Life
-  translation: 我们有大约200人参与《X／Y》的开发，还有本地化人员。在制作人员名单中出现了大约500个名字！
+  translation: "我们有大约200人参与《X·Y》的开发，还有本地化人员。在制作人员名单中出现了大约500个名字！"
 - original: Yes, definitely, we have a much larger group of people working on the games this time around. On the actual development of the game we have around 200 people working on X and Y, and then with the global simultaneous release of the titles we have more localisation staff and other people to make that possible. I think in the credits there is around 500 names that appear. And even outside of those people, there are some involved in the development of the game in some way!
   role: answer
   speaker: 增田顺一
-  translation: 是的，确实如此，这次我们有更大的一群人参与游戏制作。在实际的游戏开发中，我们有大约200人参与《X／Y》，而由于本作的全球同步发售，我们有更多的本地化人员和其他人员来实现这一点。我想制作人员名单中大约出现了500个名字。而且除了这些人之外，还有一些人以某种方式参与了游戏的开发！
+  translation: "是的，确实如此，这次我们有更大的一群人参与游戏制作。在实际的游戏开发中，我们有大约200人参与《X·Y》，而由于本作的全球同步发售，我们有更多的本地化人员和其他人员来实现这一点。我想制作人员名单中大约出现了500个名字。而且除了这些人之外，还有一些人以某种方式参与了游戏的开发！"
 - original: In X and Y there are a new group of villains called Team Flare – could you tell us a little bit about them?
   role: question
   speaker: Nintendo Life
-  translation: 在《X／Y》中有一群新的反派，叫做闪焰队——你能给我们稍微介绍一下他们吗？
+  translation: "在《X·Y》中有一群新的反派，叫做闪焰队——你能给我们稍微介绍一下他们吗？"
 - original: So this time around I think that the villainous team are a bit more charming, and funny than maybe other groups in past games. But with the global simultaneous release of X and Y I really want people to experience Team Flare for themselves, and find out exactly what they’re up to.
   role: answer
   speaker: 增田顺一
@@ -145,7 +145,7 @@ parallel_items:
 - original: Ever since the development of Black and White finished and even before it went on sale, I wanted to focus on the concept of beauty this time around, and I really like the world we managed to create. But when it comes to a favourite specific element I think it has to be Pokémon Amie mode. I’ve always wanted to be able to reach out and pet Pokémon, and with Pokémon Amie I’ve finally been able to make that possible, as you can can also play with them. For example you can do little copying mini-games, where you tilt your head and your Pokémon copy you, or maybe you close your eyes and they close their eyes too – of course you can’t see them, you’ve got your eyes shut, but they’re doing it! [laughs]
   role: answer
   speaker: 增田顺一
-  translation: 从《黑／白》开发结束、甚至还没发售的时候起，我这次就想把重点放在“美”这个概念上，我很喜欢我们最终创造出的这个世界。但要说最喜欢的某个具体要素，我觉得还是宝可梦友谊模式（Pokémon Amie）。我一直希望能伸出手去抚摸宝可梦，有了宝可梦友谊模式，我终于让这件事成为可能，你还可以和它们一起玩。比如可以玩一些模仿小游戏，你歪歪头，宝可梦就模仿你；或者你闭上眼睛，它们也闭上眼睛——当然你看不见它们，因为你眼睛闭着，但它们确实在这么做！[笑]
+  translation: "从《黑·白》开发结束、甚至还没发售的时候起，我这次就想把重点放在“美”这个概念上，我很喜欢我们最终创造出的这个世界。但要说最喜欢的某个具体要素，我觉得还是宝可梦友谊模式（Pokémon Amie）。我一直希望能伸出手去抚摸宝可梦，有了宝可梦友谊模式，我终于让这件事成为可能，你还可以和它们一起玩。比如可以玩一些模仿小游戏，你歪歪头，宝可梦就模仿你；或者你闭上眼睛，它们也闭上眼睛——当然你看不见它们，因为你眼睛闭着，但它们确实在这么做！[笑]"
 - original: Are there any battle or stat benefits to regularly using Pokémon Amie mode?
   role: question
   speaker: Nintendo Life
@@ -222,7 +222,7 @@ parallel_items:
 - original: Of course Pokémon don't exist in real life, they come from our imaginations [laughs] but we want to make creatures that are believable enough that could exist in real life! There needs to be a reason behind the element that’s attached to it. For example, does a Pokémon need a mouth? Does it eat? How does it breathe? We always think about all these different aspects when creating new Pokémon.
   role: answer
   speaker: 增田顺一
-  translation: 宝可梦当然不存在于现实中，它们来自我们的想象[笑]，但我们想做出足够可信、让人觉得可能存在于现实中的生物！附加在它身上的属性背后需要有理由。比如，一只宝可梦需要嘴吗？它吃东西吗？它怎么呼吸？创作新宝可梦时，我们总会考虑这些不同的方面。
+  translation: "宝可梦当然不存在于现实中，它们来自我们的想象[笑]，但我们想做出足够可信、让人觉得可能存在于现实中的生物！附加在它身上的要素背后需要有理由。比如，一只宝可梦需要嘴吗？它吃东西吗？它怎么呼吸？创作新宝可梦时，我们总会考虑这些不同的方面。"
 - type: image
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/006.jpg
   alt: 2 DS Red
@@ -249,7 +249,7 @@ parallel_items:
 - original: It's amazing to see some of our old favourite Generation I Pokémon in a new form. Mega Kangaskhan and baby Kangaskahn are adorable! In Pokemon X & Y there are also two Mega forms of Mewtwo, Mega Mewtwo X and Mega Mewtwo Y. Was there a reason why you chose to create two special, version exclusive forms of this particular Pokemon?
   role: question
   speaker: Nintendo Life
-  translation: 看到一些我们过去喜爱的第一世代宝可梦以新形态出现，真是令人惊叹。超级袋兽和袋兽宝宝太可爱了！在宝可梦 X·Y中，超梦也有两种超级形态，超级超梦X和超级超梦Y。你们为什么选择为这只特定的宝可梦创造两种特殊的、版本限定的形态？
+  translation: "看到一些我们过去喜爱的第一世代宝可梦以新形态出现，真是令人惊叹。超级袋兽和袋兽宝宝太可爱了！在《宝可梦 X·Y》中，超梦也有两种超级形态，超级超梦X和超级超梦Y。你们为什么选择为这只特定的宝可梦创造两种特殊的、版本限定的形态？"
 - type: image
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/007.jpg
   alt: Mega Mewtwo X
@@ -260,11 +260,11 @@ parallel_items:
 - original: We noticed when playing Pokémon X and Y that older Pokémon from previous generations are everywhere in the Kalos region, and pop up as often as newer Pokémon. What influenced the decision to give the player one of the original Pokémon Red and Green starters as well as Kalos starter Pokémon? Are you looking to entice fans of the original games who may not have tried the newer Pokémon titles?
   role: question
   speaker: Nintendo Life
-  translation: 我们在玩宝可梦 X·Y时注意到，前几世代的旧宝可梦在卡洛斯地区随处可见，出现的频率和新宝可梦一样高。是什么影响了让玩家获得一只宝可梦 红·绿初始宝可梦以及卡洛斯初始宝可梦的决定？你们是想吸引那些可能没尝试过较新宝可梦作品的初代游戏粉丝吗？
+  translation: "我们在玩《宝可梦 X·Y》时注意到，前几世代的旧宝可梦在卡洛斯地区随处可见，出现的频率和新宝可梦一样高。你们为什么决定除了卡洛斯的初始宝可梦之外，还让玩家获得一只《宝可梦 红·绿》的初始宝可梦？是想吸引那些可能没尝试过较新宝可梦作品的初代游戏粉丝吗？"
 - original: One of the themes in Pokémon X and Y is evolution and one of the player’s missions is to discover more about Mega Evolution. Initially we didn’t come up with the idea of being given Pokémon from Pokémon Red and Green Version, but we had to think of a way to obtain the three Generation I starter Pokémon in order to get the users to experience Mega Evolution of Bulbasaur, Charmander and Squirtle. This led to the idea that they are given as a present by Professor Sycamore. We’d like a lot of people to play Pokémon X and Y - new fans as well as returning players who played Pokémon in the past.
   role: answer
   speaker: 增田顺一
-  translation: 宝可梦 X·Y的主题之一是进化，玩家的任务之一就是更多地了解超级进化。最初我们并没有想到赠送宝可梦 红·绿中的宝可梦这个主意，但我们必须想出一种获得三只第一世代初始宝可梦的方法，好让用户体验妙蛙种子、小火龙和杰尼龟的超级进化。这引出了由布拉塔诺博士将它们作为礼物赠送的想法。我们希望很多人来玩宝可梦 X·Y——既有新粉丝，也有过去玩过宝可梦的老玩家。
+  translation: "《宝可梦 X·Y》的主题之一是进化，玩家的任务之一就是更多地了解超级进化。最初我们并没有想到赠送《宝可梦 红·绿》中的宝可梦这个主意，但我们必须想出一种获得三只第一世代初始宝可梦的方法，好让用户体验妙蛙种子、小火龙和杰尼龟的超级进化。这引出了由布拉塔诺博士将它们作为礼物赠送的想法。我们希望很多人来玩《宝可梦 X·Y》——既有新粉丝，也有过去玩过宝可梦的老玩家。"
 - original: The Pokémon Bank and Poké Transporter sound like great apps, and something series fans have wanted for a long time now. Could you give us a detailed explanation of how the accounts work? For example, will siblings or friends be able to share one Pokémon bank account so that they could trade Pokémon without both having to be available at the same time? Or, will you be able to have a second account if you're crazy enough to fill it with 3,000 Pokémon?
   role: question
   speaker: Nintendo Life
@@ -272,7 +272,7 @@ parallel_items:
 - original: You can now transfer Pokémon from Pokémon Black and White Version and Pokémon Black 2 and White 2 by using the Pokémon Bank and Poké Transporter and you can store as many as 3,000 Pokémon in the Pokémon Bank. Because the Pokémon Bank is linked to each Nintendo 3DS console, it is possible to download your Pokémon stored in your Pokémon Bank and move it to your friend’s Pokémon X and Pokémon Y by inserting your friend’s Pokémon X and PokémonY cartridge into your Nintendo 3DS. The European release of Pokémon Bank is December 27th, but we will be announcing more details and mechanisms at a later date.
   role: answer
   speaker: 增田顺一
-  translation: 现在你可以使用宝可梦银行和宝可梦传送器，从宝可梦 黑·白和宝可梦 黑2·白2中传送宝可梦，宝可梦银行最多可以存放3000只宝可梦。由于宝可梦银行与每台任天堂3DS主机绑定，你可以把朋友宝可梦 X·Y的卡带插入自己的任天堂3DS，从而下载存放在自己宝可梦银行中的宝可梦，并把它移动到朋友的宝可梦 X·Y中。宝可梦银行在欧洲的发售日期是12月27日，但我们会在日后公布更多细节和机制。
+  translation: "现在你可以使用宝可梦银行和宝可梦传送器，从《宝可梦 黑·白》和《宝可梦 黑2·白2》中传送宝可梦，宝可梦银行最多可以存放3000只宝可梦。由于宝可梦银行与每台任天堂3DS主机绑定，你可以把朋友《宝可梦 X·Y》的卡带插入自己的任天堂3DS，从而下载存放在自己宝可梦银行中的宝可梦，并把它移动到朋友的《宝可梦 X·Y》中。宝可梦银行在欧洲的发售日期是12月27日，但我们会在日后公布更多细节和机制。"
 - type: image
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/008.jpg
   alt: Pokemon Wii U

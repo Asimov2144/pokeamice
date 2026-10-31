@@ -54,7 +54,7 @@ parallel_items:
   original: 'The Starters: Faces of the Generation'
   translation: 初始宝可梦：世代的代表
 - original: Pikachu may endure, but each game has its own stars -- the trio of 'starters,' the three monsters from which the player selects his or her first companion. Above, you can see the starters from Pokemon X and Y.
-  translation: 皮卡丘或许经久不衰，但每款游戏都有自己的明星——即“初始宝可梦”三只，玩家从中选择自己的第一只伙伴。上面，你可以看到《宝可梦 X/Y》中的初始宝可梦。
+  translation: "皮卡丘或许经久不衰，但每款游戏都有自己的明星——也就是三只“初始宝可梦”，玩家要从这三只宝可梦中选出自己的第一个伙伴。上面，你可以看到《宝可梦 X·Y》中的初始宝可梦。"
 - speaker: 增田顺一
   original: '"I do believe they represent a very important position in the Pokemon games, of course. They''re the first pokemon you pick," says the game''s director, Junichi Masuda.'
   translation: “我当然相信它们在宝可梦游戏中占有非常重要的地位。它们是你选择的第一只宝可梦，”游戏总监增田顺一说道。
@@ -100,13 +100,13 @@ parallel_items:
   translation: 吉田的职责是以设定稿的形式监修每只宝可梦的最终外观，这些设定稿包含了它们外观的每一个细节。
 - speaker: 吉田宏信
   original: '"I''m in charge of really creating these setup sheets and making the final adjustments to the pokemon," he says. He also created the Pokemon X and Y pokedex -- the in-game catalogue of all the monsters.'
-  translation: “我负责实际制作这些设定稿，并对宝可梦进行最终调整。”他说。他还制作了《宝可梦 X/Y》的宝可梦图鉴——游戏内所有宝可梦的图鉴。
+  translation: "“我负责实际制作这些设定稿，并对宝可梦进行最终调整。”他说。他还制作了《宝可梦 X·Y》的宝可梦图鉴——游戏内所有宝可梦的图鉴。"
   role: answer
 - original: The monster designs also don't occur in a vacuum. The nature of the game means that various monster 'types' -- there are 18, which function similarly to elements in other RPGs -- are needed to fill the roster and provide for balanced play.
   translation: 宝可梦的设计也并非凭空产生。游戏的性质决定了需要各种宝可梦“属性”——共有18种，其作用类似于其他RPG中的元素——来填充图鉴，并保证游戏的平衡性。
 - speaker: 吉田宏信
   original: '"Of course, we do a lot of free thinking on our own, but we also get orders from the planners, saying, ''We need this type of pokemon,'' or even from Mr. Masuda, the director. He''ll say that we need specific pokemon," Yoshida says.'
-  translation: “当然，我们也会进行很多自由构思，但也会接到策划的指令，比如‘我们需要这种属性的宝可梦’，甚至校长增田先生也会提出要求，说我们需要特定的宝可梦。”吉田说道。
+  translation: "“当然，我们也会进行很多自由构思，但也会接到策划的指令，比如‘我们需要这种属性的宝可梦’，甚至总监增田先生也会提出要求，说我们需要特定的宝可梦。”吉田说道。"
   note: 此处“Mr. Masuda”指增田顺一，宝可梦系列的游戏总监，中文官方译名为“增田顺一”，但此处根据上下文译为“校长”可能不准确，应为“增田先生”。
   role: answer
 - speaker: 吉田宏信
