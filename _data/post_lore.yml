@@ -1160,9 +1160,9 @@
   - id: interview-takeshi-shudo-pokemon-memoir-ch163
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）
+    title: 首藤刚志动画创作手记 第163回：身处困境的《宝可梦》动画发起人
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch163/
-    why: 同写久保雅一任《快乐快乐月刊》副主编及动画企划角色
+    why: 第163回写到“御前大人”当时是某本儿童漫画杂志的副主编、推动了《宝可梦》动画化（首藤刚志未写其名）
   - id: interview-hobonichi-2021-kubo
     kind: background
     label: 为这篇提供背景
@@ -7717,21 +7717,12 @@
     - name: 汤山邦彦
       role: mentioned
       slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
     places:
     - name: 稻毛神社
       what: 奉纳绘马的神社
       world: real
     - name: 二宫尊德神社
       what: 奉纳绘马的神社
-      world: real
-    - name: 川崎市
-      what: 稻毛神社所在地
       world: real
     - name: 小田原
       what: 二宫尊德神社所在地
@@ -7742,49 +7733,41 @@
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 魔法公主明琪桃子
+    - name: 甜甜仙子
       slug: null
-    - name: 宝可梦
-      slug: null
-    - name: 漫画童话问答
-      slug: null
-    - name: 超梦的逆袭
-      slug: null
-    - name: 结晶塔的帝王
+    - name: 漫画初次物语
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch138
   observations:
   - anchor: 2
     seg: 1
-    text: 首藤刚志称接到汤山邦彦电话时，正过着无业游民生活约两周。
-  - anchor: 3
-    seg: 2
-    text: 汤山邦彦电话中说很快会有很棒的工作找上门，两天后制片人来电。
+    text: 首藤刚志“无业”约两周后，接到《甜甜仙子》导演汤山邦彦的电话
+  - anchor: 23
+    seg: 22
+    text: 《宝可梦》的剧本定稿印刷装订，每一本都编了号，分发给相关部门和人员
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 第139回紧接第138回，谈接到委托后的思索
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
     why: 第141回续谈接委托后亲自试玩游戏
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 第140回续记首次企划会，接第138回源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
     why: 第142回续谈最初提交的系列构成案
 2008-02-28-gamefreak-director-125:
@@ -7911,12 +7894,6 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
     places:
     - name: 平冢市
       what: 游戏改编研讨会地点
@@ -7927,35 +7904,33 @@
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦
-      slug: null
     - name: 永远的菲蕾娜
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch139
   observations:
-  - anchor: 2
-    seg: 1
-    text: 首藤刚志说当时对《宝可梦》掌机游戏几乎一无所知
-  - anchor: 4
-    seg: 3
-    text: 首藤刚志在平冢市酒店体验过通宵闭关式研讨会
+  - anchor: 6
+    seg: 5
+    text: 首藤刚志的小说《永远的菲蕾娜》曾被改编成OVA和游戏
+  - anchor: 9
+    seg: 8
+    text: 那次游戏的制作会议，在离小田原较近的平冢的酒店里集中开
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回，同系列前篇，讲接委托经过
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 第140回，同系列后篇，讲首次企划会
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
     why: 第141回，同系列后篇，讲亲自试玩游戏
 2008-03-06-gamefreak-staff-61:
@@ -7991,58 +7966,46 @@
     - name: 汤山邦彦
       role: mentioned
       slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
     places: []
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 皮皮
-      ndex: 35
+    pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦
-      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch140
   observations:
-  - anchor: 3
-    seg: 2
-    text: 首藤刚志在初次见面中唯一认识的人是监督汤山邦彦
-  - anchor: 10
-    seg: 9
-    text: 纪要载明在151只点阵怪兽中决定谁担任动画主角第一搭档
+  - anchor: 5
+    seg: 4
+    text: 首藤刚志第一次见《宝可梦》工作人员时，认识的只有导演汤山邦彦
+  - anchor: 77
+    seg: 76
+    text: 会议记录里有一段写给工作人员的话：先玩游戏，然后请爱《宝可梦》
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
-    why: 汤山邦彦来电引荐OLM，是首次企划会前情
+    why: 第138回写汤山邦彦来电，推荐首藤刚志担任系列构成，是第一次碰头会的前情
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 接委托到出席首次企划会之间的思索
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
-    why: 首次企划会前首藤亲自试玩游戏
+    why: 第141回续写首藤刚志试玩游戏的经过
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
-    why: 同为首次企划会提交的系列构成案
+    why: 第142回写首藤刚志随后提交的音乐剧形式构成方案
 2008-03-14-gamefreak-staff-62:
   facets:
     people:
@@ -8063,58 +8026,41 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
-    - name: 久保雅一
-      role: mentioned
-      slug: kubo-masakazu
     places:
-    - name: 秋叶原
-      what: 购买游戏周边之地
-      world: real
     - name: 京都
       what: 任天堂总部所在古都
       world: real
-    - name: 关东
-      what: 游戏中的冒险大地
-      world: game
     pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦物语
-      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch141
   observations:
-  - anchor: 10
-    seg: 9
-    text: 《宝可梦物语》描写他赴京都谈判获授权后在新干线喝啤酒
+  - anchor: 41
+    seg: 40
+    text: 首藤刚志买了在电视上玩Game Boy游戏的连接装置来玩《宝可梦》
+  - anchor: 60
+    seg: 59
+    text: 《宝可梦物语》写到，取得动画化同意后在回东京的新干线上喝啤酒庆祝
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 同为连载手记，第140回紧接第141回前一篇
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
     why: 同为连载手记，第142回紧接第141回后一篇
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 第139回谈游戏改编困境，为试玩卡带提供背景
 2008-03-24-gamefreak-staff-63:
@@ -8137,62 +8083,54 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 斯蒂芬·金
       role: mentioned
-      slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
-    - name: 松本梨香
-      role: mentioned
-      slug: matsumoto-rica
     places: []
-    pokemon: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
     works:
     - name: 宝可梦 动画系列
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦
+    - name: 伴我同行
       slug: null
-    - name: 目标是宝可梦大师
+    - name: 时间飞船
       slug: null
-    - name: めざせポケモンマスター
+    - name: 不愧是猿飞
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch142
   observations:
-  - anchor: 2
-    seg: 1
-    text: 首藤刚志初版企划案中，全篇旁白解说由歌声串联成音乐剧形式
   - anchor: 4
     seg: 3
-    text: 首藤刚志认为游戏核心循环是捕捉怪兽、练级养成、击败道馆
+    text: 首藤刚志最初的构成方案，是全篇旁白由歌曲构成的音乐剧形式
+  - anchor: 48
+    seg: 47
+    text: 会议记录里有让火箭队像《时间飞船》那样作为固定反派登场的点子
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 第140回首次企划会，是第142回音乐剧构想案的前情
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
-    why: 第139回谈游戏改编困境，铺垫第142回打破打怪升级
+    why: 第139回谈游戏改编动画的难处，第142回写首藤刚志为此提出的构成方案
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
-    why: 第141回亲自试玩游戏，对应第142回对游戏循环的认识
+    why: 第141回写首藤刚志试玩游戏，第142回从游戏里的电视画面找到《伴我同行》的主题
   - id: interview-takeshi-shudo-pokemon-memoir-ch143
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    title: 首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
     why: 同为首藤手记连载，第143回紧接第142回之后
 2008-04-03-gamefreak-staff-65:
@@ -8218,105 +8156,66 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
     - name: 林原惠美
       role: mentioned
       slug: hayashibara-megumi
-    - name: 三木真一郎
-      role: mentioned
-      slug: miki-shinichiro
-    - name: 犬山犬子
-      role: mentioned
-      slug: inuyama-inuko
-    - kind: character
-      name: 小智
-      role: mentioned
-      slug: xiao-zhi
-    - kind: character
-      name: 花子
-      role: mentioned
-      slug: hua-zi
-    - kind: character
-      name: 小霞
-      role: mentioned
-      slug: xiao-xia
-    - kind: character
-      name: 武藏
-      role: mentioned
-      slug: wu-cang
-    - kind: character
-      name: 小次郎
-      role: mentioned
-      slug: xiao-ci-lang
-    - name: 乔伊小姐
-      role: mentioned
-    - name: 君莎小姐
+    - name: 斯蒂芬·金
       role: mentioned
     places:
+    - id: carrot_tower
+      name: 三轩茶屋
+      what: GAME FREAK 胡萝卜塔所在
+      world: real
     - name: 宝可梦中心
       what: 救治宝可梦的设施
       world: game
-    - name: 真新镇
-      what: 小智的家乡
-      world: game
-    - name: 东京电视台
-      what: 动画开播的电视台
-      world: real
     pokemon:
+    - name: 妙蛙种子
+      ndex: 1
+    - name: 小火龙
+      ndex: 4
+    - name: 杰尼龟
+      ndex: 7
     - name: 皮卡丘
       ndex: 25
-    - name: 烈雀
-      ndex: 21
-    - name: 伽勒尔喵喵
-      ndex: 52
     works:
     - name: 宝可梦 动画系列
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦
-      slug: null
     - name: 伴我同行
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch143
   observations:
   - anchor: 2
     seg: 1
-    text: 首藤刚志决定把《伴我同行》的主题带入动画骨髓
-  - anchor: 4
-    seg: 3
-    text: 他确立铁律：宝可梦世界年满十岁即视为成年
+    text: 首藤刚志把《伴我同行》的主题原样带进动画版，作为主题之一
+  - anchor: 68
+    seg: 67
+    text: 原计划用一年半涵盖游戏中登场的151只宝可梦
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
     why: 同一连载手记第144回，紧接第143回
   - id: interview-takeshi-shudo-pokemon-memoir-ch145
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）
+    title: 首藤刚志动画创作手记 第145回：在《宝可梦》开工派对上……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch145/
     why: 同一连载第145回，接第143回开播话题
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
     why: 第142回讲最初系列构成案，第143回世界观奠基
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 第140回首次企划会，为开播前史背景
 2008-04-11-gamefreak-staff-66:
@@ -8362,71 +8261,46 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: mentioned
-      slug: ishihara-tsunekazu
-    - kind: character
-      name: 武藏
-      role: mentioned
-      slug: wu-cang
-    - kind: character
-      name: 小次郎
-      role: mentioned
-      slug: xiao-ci-lang
-    - kind: character
-      name: 喵喵
-      role: mentioned
-      slug: miao-miao
-    - kind: character
-      name: 小智
-      role: mentioned
-      slug: xiao-zhi
     places: []
-    pokemon: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
+    - name: 偶像天使阳子
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch144
   observations:
-  - anchor: 2
-    seg: 1
-    text: 初期走向大致在前8话范畴内敲定
-  - anchor: 3
-    seg: 2
-    text: 首藤刚志称此前统领系列构成时习惯跟进到配音现场改词
+  - anchor: 22
+    seg: 21
+    text: 有人说首藤刚志担任系列构成时期的《宝可梦》有他的味道，他认为是因为火箭队
+  - anchor: 33
+    seg: 32
+    text: 有一位制片人外号“御前大人”，有他出席的会议叫御前会议
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch143
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    title: 首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
     why: 第143回为第144回前一篇，讲第1、2话开播
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回讲接任系列构成的源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 第140回首次企划会，先于系列构成搭建
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
     why: 第142回初版系列构成案，与系列构成之职相关
 2008-04-18-gamefreak-staff-67:
@@ -8473,59 +8347,51 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
     - name: 林原惠美
       role: mentioned
       slug: hayashibara-megumi
-    - name: 三木真一郎
+    - kind: figure
+      name: 黑泽明
       role: mentioned
-      slug: miki-shinichiro
-    - name: 犬山犬子
+      slug: hei-ze-ming
+    - name: 小津安二郎
       role: mentioned
-      slug: inuyama-inuko
-    - name: 松本梨香
+    - name: 沟口健二
       role: mentioned
-      slug: matsumoto-rica
     places: []
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    - name: 伽勒尔喵喵
-      ndex: 52
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
+    - name: 大怪兽巴朗
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch145
   observations:
   - anchor: 2
     seg: 1
-    text: 首藤刚志写誓师酒会上三位火箭队声优斗志昂扬、神采奕奕
-  - anchor: 3
-    seg: 2
-    text: 首藤刚志写游戏里火箭队是脸谱化恶役，二人组加喵喵设定游戏里没有
+    text: 开工派对上，为火箭队三人配音的声优们干劲十足
+  - anchor: 5
+    seg: 4
+    text: 一男一女两人组加喵喵的火箭队设定，游戏里没有
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch143
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    title: 首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
     why: 第143回同系列前篇，讲开播与火箭队声优
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
-    why: 第144回同系列前篇，讲火箭队灵魂锚定
+    why: 第144回同系列前篇，讲首藤刚志认为火箭队是他在《宝可梦》中留下的印记
   - id: interview-takeshi-shudo-pokemon-memoir-ch146
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）
+    title: 首藤刚志动画创作手记 第146回：在动画《宝可梦》里我能做的事是？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch146/
     why: 第146回同系列后篇，讲开播酒会登台致辞
 2008-04-25-gamefreak-staff-68:
@@ -8548,43 +8414,38 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
     places: []
     pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
+    - name: 偶像天使阳子
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch146
   observations:
-  - anchor: 2
-    seg: 1
-    text: 首藤刚志在酒会高潮被推上舞台中央，代表全体动画编剧致辞。
-  - anchor: 5
-    seg: 4
-    text: 首藤刚志称对认定的伙伴只嘱托一句，让其按最想表达的方式写。
+  - anchor: 54
+    seg: 53
+    text: 首藤刚志在开工派对上说，151只宝可梦每只至少能做一个有趣的故事
+  - anchor: 85
+    seg: 84
+    text: 游戏的制作负责人向首藤刚志借看《偶像天使阳子》的录像带
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch145
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）
+    title: 首藤刚志动画创作手记 第145回：在《宝可梦》开工派对上……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch145/
-    why: 第145回详述同一场开播誓师酒会现场
+    why: 第145回写同一场开工派对上火箭队声优的干劲
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
-    why: 第144回讲系列构成无为而治，本篇续谈总编剧定位
+    why: 第144回讲首藤刚志在《宝可梦》中改变了做系列构成的方式，本篇续谈他给自己定的位置
   - id: interview-takeshi-shudo-pokemon-memoir-ch147
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第147回：“无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）
+    title: 首藤刚志动画创作手记 第147回：《宝可梦》什么也没做的系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch147/
     why: 第147回紧接第146回，同谈系列构成无所作为
 2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147:
@@ -8593,51 +8454,46 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 武上纯希
-      role: mentioned
-      slug: takegami-junki
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 柘植义春
-      role: mentioned
     - name: 竹中直人
       role: mentioned
-    places:
-    - name: 尼比市
-      what: 小智前往的道馆所在城市
-      world: game
-    pokemon: []
+    - name: 柘植义春
+      role: mentioned
+    places: []
+    pokemon:
+    - name: 大岩蛇
+      ndex: 95
+    - name: 卡拉卡拉
+      ndex: 104
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
-      slug: null
     - name: 无能的人
+      slug: null
+    - name: 战国魔神豪将军
+      slug: null
+    - name: 甜甜仙子
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch147
   observations:
-  - anchor: 2
-    seg: 1
-    text: 首藤刚志整理旧电脑数据时翻出初创期《宝可梦》极早版本系列构成大纲案
-  - anchor: 3
-    seg: 2
-    text: 软盘文件关于第5话仅写小智前往尼比市道馆邂逅馆主小刚等寥寥数语
+  - anchor: 8
+    seg: 7
+    text: 第5话有一位名叫ムノー（无能）、爱收集石头的老人登场
+  - anchor: 9
+    seg: 8
+    text: 老人的名字化用自电影《无能的人》，是编剧在初稿里就写好的
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
-    why: 第144回讲系列构成无为而治，本篇自称仿佛不存在的总编剧
+    why: 第144回讲首藤刚志在剧本会议上几乎不发言，本篇续谈“什么也没做的系列构成”
   - id: interview-takeshi-shudo-pokemon-memoir-ch146
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）
+    title: 首藤刚志动画创作手记 第146回：在动画《宝可梦》里我能做的事是？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch146/
-    why: 第146回讲总编剧敲定大纲后放手，本篇讲大纲仅寥寥数语
+    why: 第146回讲首藤刚志决定自己专写打破常规的剧本，本篇讲他写的构成方案只是简单的备忘
 2008-05-09-gamefreak-staff-69:
   facets:
     people:
@@ -8675,48 +8531,42 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 查理·卓别林
       role: mentioned
-      slug: yuyama-kunihiko
-    places:
-    - name: 石英高原联盟
-      what: 保送资格目标
-      world: game
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
+    - name: 伍迪·艾伦
+      role: mentioned
+    places: []
+    pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
   id: interview-takeshi-shudo-pokemon-memoir-ch148
   observations:
-  - anchor: 2
-    seg: 1
-    text: 第9话标题为《宝可梦胜负指南》，由首藤刚志执笔剧本
-  - anchor: 3
-    seg: 2
-    text: 前8集紧扣《红/绿》卡带框架，第9话出现游戏未提的补习学校体制
+  - anchor: 6
+    seg: 5
+    text: 第9话里出现了游戏里没有的东西，以及与游戏玩法不同的东西
+  - anchor: 54
+    seg: 53
+    text: 首藤刚志给第9话的情节大纲加了副标题“宝可梦不是学习”
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
     why: 第144回交代前8话走向与分工，本篇第9话正接其后
   - id: interview-takeshi-shudo-pokemon-memoir-ch143
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    title: 首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
-    why: 第143回讲第1、2话开播，本篇前8话依卡带流程的前提
+    why: 第143回讲第1、2话的制作与开播，本篇讲首藤刚志自己写的第9话
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
-    why: 第142回提出打破抓怪练级道馆循环，本篇补习学校即此延伸
+    why: 第142回讲首藤刚志最初的构成方案，本篇讲他为第9话写的情节大纲
 2008-05-16-gamefreak-director-127:
   facets:
     people:
@@ -8844,55 +8694,50 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 乔治·卢卡斯
       role: mentioned
-      slug: yuyama-kunihiko
-    - kind: character
-      name: 小智
+    - name: 史蒂文·斯皮尔伯格
       role: mentioned
-      slug: xiao-zhi
+    - name: 哈里森·福特
+      role: mentioned
     places: []
-    pokemon: []
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
     works:
     - name: 宝可梦 动画系列
-      slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
-      slug: null
-    - name: 宝可梦胜负指南
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch149
   observations:
   - anchor: 2
     seg: 1
-    text: 第9话大纲初次提交即获放行许可，之后经历两次大改
-  - anchor: 2
-    seg: 1
-    text: 修改核心集中在补习学校劣等生遭优等生霸凌的情节
+    text: 第9话从初稿到定稿修改了两次左右
+  - anchor: 3
+    seg: 2
+    text: 修改的主要是宝可梦学校差生被欺负的描写
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
     why: 同为手记连载，144回紧接143回谈系列构成
   - id: interview-takeshi-shudo-pokemon-memoir-ch159
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）
+    title: 首藤刚志动画创作手记 第159回：宝可梦事件 那天夜里的烦闷
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch159/
     why: 同为手记连载，159回谈第38话事件
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 同为手记连载，138回谈企划源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 同为手记连载，139回谈改编思索
 2008-05-23-gamefreak-staff-71:
@@ -8922,17 +8767,6 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - kind: character
-      name: 大木博士
-      role: mentioned
-      slug: da-mu-bo-shi
-    - kind: character
-      name: 正辉
-      role: mentioned
-      slug: zheng-hui
     - name: 雷·布拉德伯里
       role: mentioned
     places:
@@ -8953,47 +8787,41 @@
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦必胜指南
+    - name: 战国魔神豪将军
       slug: null
-    - name: 正辉的灯塔
-      slug: null
-    - name: 魔法小仙女/甜甜仙子
-      slug: null
-    - name: 雾笛
+    - name: 巴黎的伊莎贝尔
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch150
   observations:
-  - anchor: 7
-    seg: 6
-    text: 第10、11、12话安排小智收服妙蛙种子、小火龙与杰尼龟
-  - anchor: 6
-    seg: 5
-    text: 每篇剧本要经历三到四轮会议推敲方能定稿
+  - anchor: 25
+    seg: 24
+    text: 第13话“正辉的灯塔”是首藤刚志按剧本轮换写的一集
+  - anchor: 86
+    seg: 85
+    text: 这一集借鉴了雷·布拉德伯里的短篇小说《雾笛》
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 同为首藤刚志手记连载，第138回早于第150回
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 同为该手记连载，第139回早于第150回
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 同为该手记连载，第140回早于第150回
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
     why: 同为该手记连载，第141回早于第150回
 2008-05-30-gamefreak-staff-72:
@@ -9058,66 +8886,54 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 金春智子
       role: mentioned
-      slug: yuyama-kunihiko
-    - name: 大谷育江
+    - name: 筒井ともみ
       role: mentioned
-      slug: otani-ikue
     places: []
     pokemon:
     - name: 妙蛙种子
       ndex: 1
-    - name: 小火龙
-      ndex: 4
-    - name: 杰尼龟
-      ndex: 7
-    - name: 阿柏蛇
-      ndex: 23
     - name: 皮卡丘
       ndex: 25
-    - name: 瓦斯弹
-      ndex: 109
-    - name: 伽勒尔喵喵
-      ndex: 52
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 巨大宝可梦之岛！？
+    - name: 甜甜仙子
+      slug: null
+    - name: 银翼杀手
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch151
   observations:
-  - anchor: 2
-    seg: 1
-    text: 第17话《巨大宝可梦之岛！？》给宝可梦叫声配了人类语言字幕
-  - anchor: 2
-    seg: 1
-    text: 字幕创意出自一位制片人，而非首藤刚志
+  - anchor: 5
+    seg: 4
+    text: 用字幕表现宝可梦对话的点子，出自一位制片人
+  - anchor: 120
+    seg: 119
+    text: 第17话里，宝可梦在关东煮路边摊喝酒发牢骚
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回讲首藤接宝可梦委托的源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 第139回讲游戏改编动画的最初思索
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
-    why: 第140回讲首次企划会与主角搭档抉择
+    why: 第140回讲第一次碰头会与会议记录
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
     why: 第141回讲首藤亲自试玩游戏
 2008-06-06-gamefreak-staff-73:
@@ -9154,20 +8970,9 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 理查德·马西森
       role: mentioned
-      slug: yuyama-kunihiko
-    - kind: character
-      name: 小刚
-      role: mentioned
-      slug: xiao-gang
-    - kind: character
-      name: 小次郎
-      role: mentioned
-      slug: xiao-ci-lang
-    - name: 理查德·马瑟森
-      role: mentioned
-    - name: 约翰·巴里
+    - name: 让诺·斯瓦克
       role: mentioned
     places:
     - name: 积丹半岛
@@ -9176,9 +8981,6 @@
     - name: 神威岩
       what: 又名少女岩的巨岩
       world: real
-    - name: 少女峡
-      what: 第20话副题地点
-      world: game
     - name: 北海道
       what: 首藤刚志童年旅居地
       world: real
@@ -9193,48 +8995,44 @@
       ndex: 25
     - name: 呆呆兽
       ndex: 79
-    - name: 伽勒尔喵喵
-      ndex: 52
+    - name: 鬼斯通
+      ndex: 93
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 水户黄门
-      slug: null
-    - name: 幽灵宝可梦与夏日祭典
-      slug: null
-    - name: 正辉的灯塔
+    - name: 超梦的逆袭
       slug: null
     - name: 时光倒流七十年
       slug: null
+    - name: 甜甜仙子
+      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch152
   observations:
-  - anchor: 2
-    seg: 1
-    text: 第17话《巨大宝可梦之岛！？》为宝可梦啼鸣配上字幕
-  - anchor: 2
-    seg: 1
-    text: 此后制作组再未制作附带字幕的宝可梦回目
+  - anchor: 11
+    seg: 10
+    text: 第17话之后，似乎再也没做过给宝可梦叫声加字幕的剧集
+  - anchor: 91
+    seg: 90
+    text: 第20话的舞台取材于积丹半岛高30米以上的神威岩
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch150
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）
+    title: 首藤刚志动画创作手记 第150回：《宝可梦》“正辉的灯塔”
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch150/
-    why: 第150回谈克制不早揭宝可梦心声与对战本质，本篇正论此议题
+    why: 第150回谈暂不触及“宝可梦对人类是什么”的主题，本篇讨论宝可梦的意志与对战
   - id: interview-takeshi-shudo-pokemon-memoir-ch156
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）
+    title: 首藤刚志动画创作手记 第156回：因《宝可梦》初次体验到压力
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/
     why: 第156回谈喵喵充当倾听宝可梦悲喜的耳朵，关联叫声含义
   - id: interview-takeshi-shudo-pokemon-memoir-ch143
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    title: 首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
-    why: 第143回确立十岁成年等世界观，为本篇对战伦理提供前提
+    why: 第143回讲动画版的世界观设定，为本篇讨论对战提供前提
 2008-06-13-gamefreak-staff-75:
   facets:
     people:
@@ -9519,12 +9317,6 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 久保雅一
-      role: mentioned
-      slug: kubo-masakazu
     places: []
     pokemon:
     - name: 皮卡丘
@@ -9536,41 +9328,37 @@
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 宝可梦
-      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch155
   observations:
-  - anchor: 5
-    seg: 4
-    text: 《宝可梦》动画最初目标是最低限度维持一年半，约第80话迎来终章
-  - anchor: 10
-    seg: 9
-    text: 第31话《地鼠群起！》中人类为修水坝开山伐木，地鼠使工程瘫痪
+  - anchor: 17
+    seg: 16
+    text: 首藤刚志原打算在80话左右让动画迎来高潮和结局
+  - anchor: 116
+    seg: 115
+    text: 第31话“好多地鼠！”是为80话前后的结局埋下的伏笔
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回讲首藤接宝可梦企划的源起，是理解其构想的前提
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 第139回谈游戏改编动画的最初思索，铺垫其创作立场
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
     why: 第140回首次企划会，交代动画开播前内部决策背景
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
     why: 第141回首藤亲自试玩游戏，为其构想提供由来
 2008-08-07-gamefreak-staff-83:
@@ -9606,68 +9394,44 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 柴咲幸
       role: mentioned
-      slug: yuyama-kunihiko
-    - name: 久保雅一
+    - name: 大宅壮一
       role: mentioned
-      slug: kubo-masakazu
-    - kind: character
-      name: 武藏
-      role: mentioned
-      slug: wu-cang
-    - kind: character
-      name: 小次郎
-      role: mentioned
-      slug: xiao-ci-lang
-    - kind: character
-      name: 喵喵
-      role: mentioned
-      slug: miao-miao
     places: []
     pokemon:
     - name: 皮卡丘
       ndex: 25
-    - name: 超梦
-      ndex: 150
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦：超梦的逆袭
-      slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
-      slug: null
-    - name: 星球大战
-      slug: null
-    - name: 帝国反击战
+    - name: 超梦的逆袭
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch156
   observations:
-  - anchor: 5
-    seg: 4
-    text: 首藤刚志深夜穿睡衣开车还录像带，被交警拦下且驾照忘在工作室
-  - anchor: 12
-    seg: 11
-    text: 久保雅一因《星球大战》有《帝国反击战》而决定用「逆袭」一词
+  - anchor: 75
+    seg: 74
+    text: 首藤刚志穿着睡衣开车去还录像带，被警察拦下
+  - anchor: 97
+    seg: 96
+    text: 火箭队三人组作为常驻反派，比主人公更能俯瞰《宝可梦》世界
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch157
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）
+    title: 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——几个月前
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch157/
     why: 同为连载手记，第157回紧接第156回
   - id: interview-takeshi-shudo-pokemon-memoir-ch158
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）
+    title: 首藤刚志动画创作手记 第158回：宝可梦事件，从“活该。啊哈哈”开始
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch158/
     why: 同为连载手记，第158回接续第156回
   - id: interview-takeshi-shudo-pokemon-memoir-ch155
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）
+    title: 首藤刚志动画创作手记 第155回：不听人类摆布的宝可梦
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/
     why: 同为连载手记，第155回为第156回前篇
   - id: interview-takeshi-shudo-pokemon-memoir-ch165
@@ -9682,53 +9446,37 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - kind: character
-      name: 花子
-      role: mentioned
-      slug: hua-zi
-    - kind: character
-      name: 武藏
-      role: mentioned
-      slug: wu-cang
-    - kind: character
-      name: 小次郎
-      role: mentioned
-      slug: xiao-ci-lang
-    places: []
-    pokemon:
-    - name: 多边兽
-      ndex: 137
+    places:
+    - name: 小田原市立图书馆
+      what: 保管首藤捐赠的资料
+      world: real
+    pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
+    - name: 战国魔神豪将军
       slug: null
-    - name: 火箭队永远在一起
+    - name: 甜甜仙子
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch157
   observations:
-  - anchor: 2
-    seg: 1
-    text: 1997年12月中旬爆发孩童晕厥送医事件，已过去十多个春秋
-  - anchor: 3
-    seg: 2
-    text: 风波后日本动画与DVD片头加入光线明亮室内保持距离收看的警示字幕
+  - anchor: 54
+    seg: 53
+    text: 小说《宝可梦》第1卷只写到动画第4话的内容
+  - anchor: 94
+    seg: 93
+    text: 火箭队歌曲“火箭队啊，直到永远”的广告首次播出是在第38话
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch158
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）
+    title: 首藤刚志动画创作手记 第158回：宝可梦事件，从“活该。啊哈哈”开始
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch158/
     why: 同为手记连载，第158回紧接第157回续谈同一事件
   - id: interview-takeshi-shudo-pokemon-memoir-ch156
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）
+    title: 首藤刚志动画创作手记 第156回：因《宝可梦》初次体验到压力
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/
     why: 第156回谈闪烁事件前的创作压力与心境
 2008-08-21-scan-ndream-2008-10-platinum-special:
@@ -10068,26 +9816,16 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 植木等
       role: mentioned
-      slug: yuyama-kunihiko
-    - kind: character
-      name: 武藏
+    - kind: figure
+      name: 宫崎骏
       role: mentioned
-      slug: wu-cang
-    - kind: character
-      name: 小次郎
+      slug: gong-qi-jun
+    - kind: figure
+      name: 押井守
       role: mentioned
-      slug: xiao-ci-lang
-    - name: 林原惠美
-      role: mentioned
-      slug: hayashibara-megumi
-    - name: 三木真一郎
-      role: mentioned
-      slug: miki-shinichiro
-    - name: 犬山犬子
-      role: mentioned
-      slug: inuyama-inuko
+      slug: ya-jing-shou
     places:
     - name: 小田原渔港
       what: 首藤刚志工作室附近
@@ -10099,27 +9837,21 @@
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
-      slug: null
-    - name: 超梦的逆袭
-      slug: null
-    - name: 火箭队永远在一起
+    - name: 甜甜仙子
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch158
   observations:
-  - anchor: 6
-    seg: 5
-    text: 首藤刚志称填词不到30分钟一气呵成，并直接手书原稿纸
-  - anchor: 6
-    seg: 5
-    text: 该单曲CD于1997年12月10日正式发售
+  - anchor: 89
+    seg: 88
+    text: 事件发生在1997年12月16日
+  - anchor: 108
+    seg: 107
+    text: 那天有人打电话给首藤刚志说：“活该。啊哈哈”
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch157
     kind: continues
     label: 同一系列的前后篇
-    title: 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）
+    title: 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——几个月前
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch157/
     why: 同为手记连载，157回为158回前一篇
   - id: interview-takeshi-shudo-pokemon-memoir-ch165
@@ -10195,13 +9927,12 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - kind: figure
+      name: 芥川龙之介
       role: mentioned
-      slug: yuyama-kunihiko
-    - kind: character
-      name: 小智
+      slug: jie-chuan-long-zhi-jie
+    - name: 佐佐木守
       role: mentioned
-      slug: xiao-zhi
     places: []
     pokemon:
     - name: 皮卡丘
@@ -10211,39 +9942,33 @@
       slug: null
     - name: 机动战舰抚子号
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
-      slug: null
     - name: 电子世界争霸战
-      slug: null
-    - name: TRON
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch159
   observations:
   - anchor: 2
     seg: 1
-    text: 首藤刚志独自在工作室将《宝可梦》录像带全屏投射在100英寸幕布上
-  - anchor: 5
-    seg: 4
-    text: 第2话配音录音现场皮卡丘释放十万伏特时强光刺痛双眼，用的是彩色CRT显像管电视
+    text: 首藤刚志用投影仪在100英寸幕布上看了出问题的那一集
+  - anchor: 63
+    seg: 62
+    text: 他曾为《机动战舰抚子号》写过一集在电脑世界里展开的剧本
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch143
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）
+    title: 首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/
     why: 第1、2话开播与配音现场，本篇复盘第2话录音
   - id: interview-takeshi-shudo-pokemon-memoir-ch144
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）
+    title: 首藤刚志动画创作手记 第144回：《宝可梦》系列构成
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/
     why: 系列构成与剧本分工，本篇涉第38话制作背景
   - id: interview-takeshi-shudo-pokemon-memoir-ch145
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）
+    title: 首藤刚志动画创作手记 第145回：在《宝可梦》开工派对上……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch145/
     why: 火箭队声优与开播酒会，本篇涉配音现场
 2008-09-05-gamefreak-staff-86:
@@ -10266,59 +9991,49 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
     places:
-    - name: 小田原综合医院
-      what: 急救医院
-      world: real
     - name: 小田原
       what: 医院所在地
       world: real
-    pokemon:
-    - name: 洛奇亚
-      ndex: 249
+    pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 洛奇亚爆诞
+    - name: 幻想曲
       slug: null
-    - name: 宝可梦
+    - name: 漫画世界童话
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch160
   observations:
   - anchor: 2
     seg: 1
-    text: 事发次日清晨，制作公司与东京电视台发出紧急通告，严禁全体相关人员发表个人观点与回应
-  - anchor: 3
-    seg: 2
-    text: 一位挚友来电，告诫首藤刚志绝不准对外说自己对事件负有责任
+    text: 事件约一年半后，首藤刚志才知道有个女孩那晚被抬进小田原的医院
+  - anchor: 20
+    seg: 19
+    text: 事件第二天，制作公司要求相关人员不对媒体发表个人评论
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回讲首藤接宝可梦委托的源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 第139回讲接手后对游戏改编的最初思索
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
-    why: 第140回讲首次企划会与主角搭档抉择
+    why: 第140回讲第一次碰头会与会议记录
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
     why: 第142回讲初版系列构成案的音乐剧构想
 2008-09-12-gamefreak-staff-87:
@@ -10926,55 +10641,42 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    places:
-    - name: 小田原
-      what: 首藤刚志工作室所在地
-      world: real
-    - name: 东京
-      what: 事件舆论中心
-      world: real
+    places: []
     pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
-      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch161
   observations:
-  - anchor: 4
-    seg: 3
-    text: 1997年12月16日夜，700余人被救护车送医，百数十人情况危殆
   - anchor: 18
     seg: 17
-    text: 惨剧爆发两天后，东京电视台发布《宝可梦》全系列无限期停播决议
+    text: 事件一年半后，首藤刚志住进了受害女孩被送去的同一家医院
+  - anchor: 99
+    seg: 98
+    text: 事件发生2天后，电视台决定停播《宝可梦》
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回讲首藤接宝可梦委托的源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch139
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）
+    title: 首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/
     why: 第139回讲接委托后改编动画的最初思索
   - id: interview-takeshi-shudo-pokemon-memoir-ch140
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）
+    title: 首藤刚志动画创作手记 第140回：请爱《宝可梦》
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/
-    why: 第140回讲首次企划会与主角搭档抉择
+    why: 第140回讲第一次碰头会与会议记录
   - id: interview-takeshi-shudo-pokemon-memoir-ch142
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）
+    title: 首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/
     why: 第142回讲最初提交的系列构成案构想
 2008-10-31-gamefreak-staff-94:
@@ -11004,38 +10706,27 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
-      role: mentioned
-      slug: yuyama-kunihiko
-    - name: 久保雅一
-      role: mentioned
-      slug: kubo-masakazu
     - name: 小林幸子
       role: mentioned
       slug: kobayashi-sachiko
     places:
-    - name: 东京
-      what: 任天堂所在地之一
-      world: real
     - name: 京都
       what: 任天堂所在地之一
       world: real
-    pokemon:
-    - name: 轻飘飘
-      ndex: 592
+    pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
+    - name: 空中杀手
+      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch162
   observations:
-  - anchor: 4
-    seg: 3
-    text: 从剧本定稿到整集动画封包出片需三到四个月周期
-  - anchor: 5
-    seg: 4
-    text: 会上决定把做到一半的剧集全部完成，尽管全系列停播
+  - anchor: 30
+    seg: 29
+    text: 总导演的沮丧程度，已经超出了可怜的地步
+  - anchor: 65
+    seg: 64
+    text: 游戏方立刻准备了“游戏和动画是不同的表现形式”的说法
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch165
     kind: continues
@@ -11052,13 +10743,13 @@
   - id: interview-takeshi-shudo-pokemon-memoir-ch155
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）
+    title: 首藤刚志动画创作手记 第155回：不听人类摆布的宝可梦
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/
     why: 第155回交代原定80话完结的构想
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回交代汤山邦彦引荐首藤接手企划
 2008-11-07-gamefreak-staff-95:
@@ -11125,13 +10816,9 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 汤山邦彦
+    - name: 约翰·福特
       role: mentioned
-      slug: yuyama-kunihiko
-    - name: 久保雅一
-      role: mentioned
-      slug: kubo-masakazu
-    - name: 铃木敏夫
+    - name: 高桥留美子
       role: mentioned
     places:
     - name: 东京湾
@@ -11141,43 +10828,45 @@
     works:
     - name: 宝可梦 动画系列
       slug: null
+    - name: 宝可梦物语
+      slug: null
     - name: 超梦的逆袭
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
+    - name: 福星小子
+      slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch163
   observations:
-  - anchor: 3
-    seg: 2
-    text: 首藤刚志以系列构成身份受邀时，动画化企划已定
-  - anchor: 8
-    seg: 7
-    text: 单集剧本基础稿酬比业界行规高5000日元，系列构成总费被砍2万日元
+  - anchor: 34
+    seg: 33
+    text: 御前大人当时是某本儿童漫画杂志的副主编
+  - anchor: 72
+    seg: 71
+    text: 获益的公司在东京湾举办船上派对答谢
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch138
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）
+    title: 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/
     why: 第138回讲首藤受邀加入宝可梦动画企划的源起
   - id: interview-takeshi-shudo-pokemon-memoir-ch141
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）
+    title: 首藤刚志动画创作手记 第141回：试着玩了游戏
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/
     why: 第141回讲首藤试玩游戏、参与改编的经过
   - id: interview-takeshi-shudo-pokemon-memoir-ch155
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）
+    title: 首藤刚志动画创作手记 第155回：不听人类摆布的宝可梦
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/
     why: 第155回讲原定80话完结的系列构成构想
   - id: interview-takeshi-shudo-pokemon-memoir-ch156
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）
+    title: 首藤刚志动画创作手记 第156回：因《宝可梦》初次体验到压力
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/
-    why: 第156回讲久保雅一决定用「逆袭」一词
+    why: 第156回讲“御前大人”以《星球大战》为例，定下片名《超梦的逆袭》
 2008-11-14-gamefreak-staff-97:
   facets:
     people:
@@ -11234,26 +10923,27 @@
     - name: 首藤刚志
       role: mentioned
       slug: shudo-takeshi
-    - name: 久保雅一
+    - name: 落合茂一
       role: mentioned
-      slug: kubo-masakazu
+    - name: 金春智子
+      role: mentioned
     places: []
     pokemon: []
     works:
     - name: 宝可梦 动画系列
       slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦
+    - name: 福星小子
+      slug: null
+    - name: 不愧是猿飞
       slug: null
   id: interview-takeshi-shudo-pokemon-memoir-ch164
   observations:
-  - anchor: 12
-    seg: 11
-    text: 3D龙事件中全日本数百名儿童抽搐倒地、口吐白沫
-  - anchor: 14
-    seg: 13
-    text: 相同画面红蓝交替闪烁致儿童抽搐的惨剧在宝可梦之前数月已发生
+  - anchor: 75
+    seg: 74
+    text: S学馆和S英社原本是同一家公司
+  - anchor: 117
+    seg: 116
+    text: NHK隐瞒了此前发生的同类事件
   relations:
   - id: interview-takeshi-shudo-pokemon-memoir-ch165
     kind: continues
@@ -11338,15 +11028,15 @@
   - id: interview-takeshi-shudo-pokemon-memoir-ch158
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）
+    title: 首藤刚志动画创作手记 第158回：宝可梦事件，从“活该。啊哈哈”开始
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch158/
     why: 第158回详述3D龙事件当晚与第38话首播
   - id: interview-takeshi-shudo-pokemon-memoir-ch163
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）
+    title: 首藤刚志动画创作手记 第163回：身处困境的《宝可梦》动画发起人
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch163/
-    why: 第163回写久保雅一，本篇提其力排众议
+    why: 第163回写“御前大人”，本篇提其力排众议
   - id: interview-takeshi-shudo-pokemon-memoir-ch166
     kind: continues
     label: 同一系列的前后篇
@@ -11492,9 +11182,9 @@
   - id: interview-takeshi-shudo-pokemon-memoir-ch163
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）
+    title: 首藤刚志动画创作手记 第163回：身处困境的《宝可梦》动画发起人
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch163/
-    why: 同系列前篇，详述久保雅一与超越吉卜力野望
+    why: 同系列前篇，详述“御前大人”及其对电影票房的期望
   - id: interview-takeshi-shudo-pokemon-memoir-ch165
     kind: continues
     label: 同一系列的前后篇
@@ -11600,7 +11290,7 @@
   - id: interview-takeshi-shudo-pokemon-memoir-ch158
     kind: background
     label: 为这篇提供背景
-    title: 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）
+    title: 首藤刚志动画创作手记 第158回：宝可梦事件，从“活该。啊哈哈”开始
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch158/
     why: 第158回讲3D龙事件，本篇标题为事件前夕
 2008-12-12-gamefreak-staff-101:

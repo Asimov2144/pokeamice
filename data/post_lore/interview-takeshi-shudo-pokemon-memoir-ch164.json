@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch164",
  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 14
+  "n": 137
  },
  "facets": {
   "pokemon": [],
@@ -18,18 +18,23 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "福星小子",
+    "slug": null,
+    "seg": [
+     120,
+     130,
+     131,
+     132
+    ],
     "via": "entities"
    },
    {
-    "name": "宝可梦",
+    "name": "不愧是猿飞",
     "slug": null,
     "seg": [
-     11
+     131
     ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -40,130 +45,49 @@
     "seg": []
    },
    {
-    "name": "久保雅一",
-    "slug": "kubo-masakazu",
+    "name": "落合茂一",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     9,
-     11,
-     13
+     127,
+     130
+    ]
+   },
+   {
+    "name": "金春智子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     135
     ]
    }
   ],
   "places": [],
   "concepts": [
    {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     2
-    ],
-    "as": [
-     "运气"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     5
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     6,
-     8,
-     9
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     8
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     8,
-     13
-    ],
-    "as": [
-     "家长",
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "media-mix",
-    "name": "媒体展开",
-    "facet": "business",
-    "seg": [
-     8
-    ],
-    "as": [
-     "多媒体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     8
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     9,
-     11,
-     13
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
     "id": "studio-culture",
     "name": "公司氛围",
     "facet": "team",
     "seg": [
-     9,
-     11
+     6,
+     66,
+     111
     ],
     "as": [
+     "公司内部",
      "社内"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     17
+    ],
+    "as": [
+     "运气"
     ],
     "via": "body"
    },
@@ -172,10 +96,128 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     13
+     44,
+     46,
+     61,
+     119,
+     122,
+     126
     ],
     "as": [
+     "剧本",
      "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     54,
+     77,
+     89,
+     131
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     66
+    ],
+    "as": [
+     "批评"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "education",
+    "name": "教育与育儿",
+    "facet": "audience",
+    "seg": [
+     68
+    ],
+    "as": [
+     "教育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     80
+    ],
+    "as": [
+     "进公司"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "media-mix",
+    "name": "媒体展开",
+    "facet": "business",
+    "seg": [
+     92
+    ],
+    "as": [
+     "多媒体"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     93
+    ],
+    "as": [
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     96
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     120,
+     130
+    ],
+    "as": [
+     "电影版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     131
+    ],
+    "as": [
+     "系列构成"
     ],
     "via": "body"
    }
@@ -183,14 +225,14 @@
  },
  "observations": [
   {
-   "seg": 11,
-   "text": "3D龙事件中全日本数百名儿童抽搐倒地、口吐白沫",
-   "anchor": 12
+   "seg": 74,
+   "text": "S学馆和S英社原本是同一家公司",
+   "anchor": 75
   },
   {
-   "seg": 13,
-   "text": "相同画面红蓝交替闪烁致儿童抽搐的惨剧在宝可梦之前数月已发生",
-   "anchor": 14
+   "seg": 116,
+   "text": "NHK隐瞒了此前发生的同类事件",
+   "anchor": 117
   }
  ],
  "relations": [
@@ -214,8 +256,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

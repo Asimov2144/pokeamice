@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch146",
  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 6
+  "n": 178
  },
  "facets": {
   "pokemon": [],
@@ -18,18 +18,17 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
+    "name": "偶像天使阳子",
     "slug": null,
     "seg": [
-     1
+     77,
+     80,
+     81,
+     82,
+     84,
+     85
     ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -38,14 +37,13 @@
     "slug": "shudo-takeshi",
     "role": "mentioned",
     "seg": [
-     4
+     68,
+     83,
+     87,
+     92,
+     128,
+     138
     ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
    }
   ],
   "places": [],
@@ -55,11 +53,16 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     1,
-     4
+     2,
+     11,
+     12,
+     16,
+     51,
+     58
     ],
     "as": [
-     "编剧"
+     "编剧",
+     "剧本"
     ],
     "via": "body"
    },
@@ -68,34 +71,185 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     4
+     9,
+     11,
+     51,
+     54,
+     59,
+     62
     ],
     "as": [
-     "系列构成"
+     "系列构成",
+     "动画剧本",
+     "分镜"
     ],
     "via": "body"
    },
    {
-    "id": "teamwork",
-    "name": "分工与协作",
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     16,
+     18
+    ],
+    "as": [
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     18
+    ],
+    "as": [
+     "热潮"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "stage-music",
+    "name": "音乐剧与演出",
+    "facet": "franchise",
+    "seg": [
+     19,
+     20,
+     95,
+     97
+    ],
+    "as": [
+     "音乐剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "camera",
+    "name": "视角与镜头",
+    "facet": "system",
+    "seg": [
+     26
+    ],
+    "as": [
+     "镜头"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     54,
+     55,
+     56,
+     60,
+     63,
+     69
+    ],
+    "as": [
+     "动画版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     72,
+     143
+    ],
+    "as": [
+     "配音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     76,
+     148
+    ],
+    "as": [
+     "吃惊"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "education",
+    "name": "教育与育儿",
+    "facet": "audience",
+    "seg": [
+     103
+    ],
+    "as": [
+     "教材"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
     "facet": "process",
     "seg": [
-     4
+     104,
+     106
     ],
     "as": [
-     "流水线"
+     "日程"
     ],
     "via": "body"
    },
    {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
     "seg": [
-     4
+     115
     ],
     "as": [
-     "想表达"
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     135
+    ],
+    "as": [
+     "色彩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     148
+    ],
+    "as": [
+     "铅笔"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     167
+    ],
+    "as": [
+     "台词"
     ],
     "via": "body"
    }
@@ -103,14 +257,14 @@
  },
  "observations": [
   {
-   "seg": 1,
-   "text": "首藤刚志在酒会高潮被推上舞台中央，代表全体动画编剧致辞。",
-   "anchor": 2
+   "seg": 53,
+   "text": "首藤刚志在开工派对上说，151只宝可梦每只至少能做一个有趣的故事",
+   "anchor": 54
   },
   {
-   "seg": 4,
-   "text": "首藤刚志称对认定的伙伴只嘱托一句，让其按最想表达的方式写。",
-   "anchor": 5
+   "seg": 84,
+   "text": "游戏的制作负责人向首藤刚志借看《偶像天使阳子》的录像带",
+   "anchor": 85
   }
  ],
  "relations": [
@@ -118,23 +272,23 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch145",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）",
+   "title": "首藤刚志动画创作手记 第145回：在《宝可梦》开工派对上……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch145/",
-   "why": "第145回详述同一场开播誓师酒会现场"
+   "why": "第145回写同一场开工派对上火箭队声优的干劲"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+   "title": "首藤刚志动画创作手记 第144回：《宝可梦》系列构成",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
-   "why": "第144回讲系列构成无为而治，本篇续谈总编剧定位"
+   "why": "第144回讲首藤刚志在《宝可梦》中改变了做系列构成的方式，本篇续谈他给自己定的位置"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch147",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第147回：“无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）",
+   "title": "首藤刚志动画创作手记 第147回：《宝可梦》什么也没做的系列构成",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch147/",
    "why": "第147回紧接第146回，同谈系列构成无所作为"
   }
@@ -142,8 +296,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

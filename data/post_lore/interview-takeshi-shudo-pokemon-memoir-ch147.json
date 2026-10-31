@@ -2,14 +2,37 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch147",
  "stem": "2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 6
+  "n": 124
  },
  "facets": {
-  "pokemon": [],
+  "pokemon": [
+   {
+    "name": "大岩蛇",
+    "ndex": 95,
+    "seg": [
+     4
+    ],
+    "as": [
+     "大岩蛇"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡拉卡拉",
+    "ndex": 104,
+    "seg": [
+     61
+    ],
+    "as": [
+     "卡拉卡拉"
+    ],
+    "via": "body"
+   }
+  ],
   "works": [
    {
     "name": "宝可梦 动画系列",
@@ -18,26 +41,34 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
     "name": "无能的人",
     "slug": null,
     "seg": [
-     4
+     8,
+     38,
+     41,
+     48
     ],
-    "via": "llm"
+    "via": "entities"
+   },
+   {
+    "name": "战国魔神豪将军",
+    "slug": null,
+    "seg": [
+     22,
+     24
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "甜甜仙子",
+    "slug": null,
+    "seg": [
+     22,
+     24,
+     25
+    ],
+    "via": "entities"
    }
   ],
   "people": [
@@ -45,59 +76,29 @@
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
     "role": "mentioned",
-    "seg": [
-     5
-    ]
-   },
-   {
-    "name": "武上纯希",
-    "slug": "takegami-junki",
-    "role": "mentioned",
-    "seg": [
-     4,
-     5
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
     "seg": []
-   },
-   {
-    "name": "柘植义春",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     4
-    ],
-    "via": "llm"
    },
    {
     "name": "竹中直人",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     4
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
+     8,
+     46,
+     47,
+     48
+    ]
+   },
    {
-    "name": "尼比市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
+    "name": "柘植义春",
+    "slug": null,
+    "role": "mentioned",
     "seg": [
-     2
-    ],
-    "what": "小智前往的道馆所在城市",
-    "via": "llm"
+     8
+    ]
    }
   ],
+  "places": [],
   "concepts": [
    {
     "id": "anime-writing",
@@ -105,23 +106,15 @@
     "facet": "story",
     "seg": [
      0,
-     1
-    ],
-    "as": [
-     "系列构成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
+     1,
      2,
-     4
+     6,
+     9,
+     21
     ],
     "as": [
-     "道馆"
+     "系列构成",
+     "分镜"
     ],
     "via": "body"
    },
@@ -131,11 +124,121 @@
     "facet": "story",
     "seg": [
      2,
+     6,
+     8,
+     9,
+     20,
+     22
+    ],
+    "as": [
+     "剧本",
+     "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
      4
     ],
     "as": [
-     "编剧",
-     "剧本"
+     "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     10,
+     11,
+     17,
+     18,
+     21,
+     22
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     30
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     31,
+     47,
+     105
+    ],
+    "as": [
+     "配音",
+     "声优"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     45,
+     52,
+     62
+    ],
+    "as": [
+     "动画版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     49
+    ],
+    "as": [
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     97
+    ],
+    "as": [
+     "分发"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     111
+    ],
+    "as": [
+     "容易理解"
     ],
     "via": "body"
    }
@@ -143,14 +246,14 @@
  },
  "observations": [
   {
-   "seg": 1,
-   "text": "首藤刚志整理旧电脑数据时翻出初创期《宝可梦》极早版本系列构成大纲案",
-   "anchor": 2
+   "seg": 7,
+   "text": "第5话有一位名叫ムノー（无能）、爱收集石头的老人登场",
+   "anchor": 8
   },
   {
-   "seg": 2,
-   "text": "软盘文件关于第5话仅写小智前往尼比市道馆邂逅馆主小刚等寥寥数语",
-   "anchor": 3
+   "seg": 8,
+   "text": "老人的名字化用自电影《无能的人》，是编剧在初稿里就写好的",
+   "anchor": 9
   }
  ],
  "relations": [
@@ -158,24 +261,23 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+   "title": "首藤刚志动画创作手记 第144回：《宝可梦》系列构成",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
-   "why": "第144回讲系列构成无为而治，本篇自称仿佛不存在的总编剧"
+   "why": "第144回讲首藤刚志在剧本会议上几乎不发言，本篇续谈“什么也没做的系列构成”"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch146",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）",
+   "title": "首藤刚志动画创作手记 第146回：在动画《宝可梦》里我能做的事是？",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch146/",
-   "why": "第146回讲总编剧敲定大纲后放手，本篇讲大纲仅寥寥数语"
+   "why": "第146回讲首藤刚志决定自己专写打破常规的剧本，本篇讲他写的构成方案只是简单的备忘"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

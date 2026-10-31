@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch159",
  "stem": "2008-09-03-interview-takeshi-shudo-pokemon-memoir-ch159",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 8
+  "n": 152
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     4
+     33
     ],
     "as": [
      "皮卡丘"
@@ -33,39 +33,22 @@
     "name": "机动战舰抚子号",
     "slug": null,
     "seg": [
-     6
+     62
     ],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
    },
    {
     "name": "电子世界争霸战",
     "slug": null,
     "seg": [
-     6
+     68,
+     70,
+     71,
+     72,
+     74,
+     76
     ],
-    "via": "llm"
-   },
-   {
-    "name": "TRON",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -73,23 +56,26 @@
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
     "role": "mentioned",
-    "seg": []
+    "seg": [
+     132
+    ]
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "小智",
-    "slug": "xiao-zhi",
+    "name": "芥川龙之介",
+    "slug": "jie-chuan-long-zhi-jie",
     "role": "mentioned",
     "seg": [
-     1
+     79
     ],
-    "via": "llm",
-    "kind": "character"
+    "kind": "figure"
+   },
+   {
+    "name": "佐佐木守",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     118
+    ]
    }
   ],
   "places": [],
@@ -99,24 +85,16 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     1,
-     7
+     3,
+     6,
+     64,
+     89,
+     99,
+     103
     ],
     "as": [
      "系列构成",
-     "分集"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     1
-    ],
-    "as": [
-     "推翻"
+     "动画剧本"
     ],
     "via": "body"
    },
@@ -125,9 +103,12 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     1,
+     3,
+     4,
+     5,
      6,
-     7
+     7,
+     28
     ],
     "as": [
      "剧本",
@@ -136,26 +117,79 @@
     "via": "body"
    },
    {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
     "seg": [
-     4
+     14,
+     25,
+     28,
+     29
     ],
     "as": [
-     "童年"
+     "画面上",
+     "视觉效果"
     ],
     "via": "body"
    },
    {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
     "seg": [
-     4
+     16
     ],
     "as": [
-     "配音"
+     "大银幕"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     19
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     22,
+     149
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     25
+    ],
+    "as": [
+     "批评"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     26
+    ],
+    "as": [
+     "动画版"
     ],
     "via": "body"
    },
@@ -164,10 +198,24 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     7
+     26,
+     46
     ],
     "as": [
-     "儿童"
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     33,
+     35
+    ],
+    "as": [
+     "配音"
     ],
     "via": "body"
    },
@@ -176,10 +224,35 @@
     "name": "易懂与门槛",
     "facet": "design",
     "seg": [
-     7
+     82
     ],
     "as": [
-     "门槛"
+     "容易理解"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     89
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     135,
+     147
+    ],
+    "as": [
+     "吃惊"
     ],
     "via": "body"
    }
@@ -188,13 +261,13 @@
  "observations": [
   {
    "seg": 1,
-   "text": "首藤刚志独自在工作室将《宝可梦》录像带全屏投射在100英寸幕布上",
+   "text": "首藤刚志用投影仪在100英寸幕布上看了出问题的那一集",
    "anchor": 2
   },
   {
-   "seg": 4,
-   "text": "第2话配音录音现场皮卡丘释放十万伏特时强光刺痛双眼，用的是彩色CRT显像管电视",
-   "anchor": 5
+   "seg": 62,
+   "text": "他曾为《机动战舰抚子号》写过一集在电脑世界里展开的剧本",
+   "anchor": 63
   }
  ],
  "relations": [
@@ -202,7 +275,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch143",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+   "title": "首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/",
    "why": "第1、2话开播与配音现场，本篇复盘第2话录音"
   },
@@ -210,7 +283,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+   "title": "首藤刚志动画创作手记 第144回：《宝可梦》系列构成",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
    "why": "系列构成与剧本分工，本篇涉第38话制作背景"
   },
@@ -218,7 +291,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch145",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）",
+   "title": "首藤刚志动画创作手记 第145回：在《宝可梦》开工派对上……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch145/",
    "why": "火箭队声优与开播酒会，本篇涉配音现场"
   }
@@ -226,8 +299,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

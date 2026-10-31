@@ -1,26 +1,26 @@
 ---
-title: "集英社 - 组织"
-permalink: "/entities/organizations/e99b86e88bb1e7a4be/"
+title: "宝可梦物语 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a6e789a9e8afad/"
 layout: "single"
 search: false
 ---
 
 <section class="resource-network-page">
   <div class="resource-network-hero">
-    <p>组织</p>
-    <h2>集英社</h2>
+    <p>作品</p>
+    <h2>宝可梦物语</h2>
     <span>1 篇文章 · 0 条评注 · 2008</span>
   </div>
   <div class="resource-network-jump">
-    <a href="/entities/organizations/">返回组织索引</a>
+    <a href="/entities/works/">返回作品索引</a>
     <a href="/timeline/">时间线</a>
     <a href="/resource-graph/">关系图谱</a>
   </div>
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/">[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直到NHK的事件被发现</a></h3>
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/">[访谈翻译] 首藤刚志动画创作手记 第163回：身处困境的《宝可梦》动画发起人</a></h3>
   <span></span>
 </article>
 

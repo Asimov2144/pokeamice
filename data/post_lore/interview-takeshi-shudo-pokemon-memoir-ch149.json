@@ -2,42 +2,32 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch149",
  "stem": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 5
+  "n": 120
  },
  "facets": {
-  "pokemon": [],
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     51
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   }
+  ],
   "works": [
    {
     "name": "宝可梦 动画系列",
     "slug": null,
     "seg": [],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦胜负指南",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -48,20 +38,29 @@
     "seg": []
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "小智",
-    "slug": "xiao-zhi",
+    "name": "乔治·卢卡斯",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     4
-    ],
-    "via": "llm",
-    "kind": "character"
+     89
+    ]
+   },
+   {
+    "name": "史蒂文·斯皮尔伯格",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     89
+    ]
+   },
+   {
+    "name": "哈里森·福特",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     89,
+     90
+    ]
    }
   ],
   "places": [],
@@ -71,34 +70,14 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     1
+     1,
+     27,
+     64,
+     65,
+     79
     ],
     "as": [
      "动画版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     4
-    ],
-    "as": [
-     "动画剧本"
     ],
     "via": "body"
    },
@@ -107,10 +86,192 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     4
+     1,
+     4,
+     16,
+     28,
+     47,
+     59
     ],
     "as": [
-     "剧本"
+     "剧本",
+     "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     14
+    ],
+    "as": [
+     "联网"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     25,
+     107
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     27,
+     41
+    ],
+    "as": [
+     "儿童"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     40,
+     48
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     51
+    ],
+    "as": [
+     "经验值"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     56
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     64,
+     66,
+     88
+    ],
+    "as": [
+     "吃惊"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     67
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     70
+    ],
+    "as": [
+     "攻略本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     80,
+     110
+    ],
+    "as": [
+     "系列构成",
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     93
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     95,
+     103
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     101
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     110
+    ],
+    "as": [
+     "配音"
     ],
     "via": "body"
    }
@@ -119,13 +280,13 @@
  "observations": [
   {
    "seg": 1,
-   "text": "第9话大纲初次提交即获放行许可，之后经历两次大改",
+   "text": "第9话从初稿到定稿修改了两次左右",
    "anchor": 2
   },
   {
-   "seg": 1,
-   "text": "修改核心集中在补习学校劣等生遭优等生霸凌的情节",
-   "anchor": 2
+   "seg": 2,
+   "text": "修改的主要是宝可梦学校差生被欺负的描写",
+   "anchor": 3
   }
  ],
  "relations": [
@@ -133,7 +294,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+   "title": "首藤刚志动画创作手记 第144回：《宝可梦》系列构成",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
    "why": "同为手记连载，144回紧接143回谈系列构成"
   },
@@ -141,7 +302,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch159",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+   "title": "首藤刚志动画创作手记 第159回：宝可梦事件 那天夜里的烦闷",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch159/",
    "why": "同为手记连载，159回谈第38话事件"
   },
@@ -149,7 +310,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "同为手记连载，138回谈企划源起"
   },
@@ -157,7 +318,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "同为手记连载，139回谈改编思索"
   }
@@ -165,8 +326,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

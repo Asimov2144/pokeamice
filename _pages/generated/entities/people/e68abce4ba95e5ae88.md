@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>押井守</h2>
-    <span>3 篇文章 · 0 条评注 · 2010 / 2009</span>
+    <span>4 篇文章 · 0 条评注 · 2010 / 2009 / 2008</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -34,6 +34,12 @@ search: false
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第182回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch182/">[访谈翻译] 首藤刚志动画创作手记 第182回：《超梦的逆袭》公映</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 182</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/">[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件，从“活该。啊哈哈”开始</a></h3>
+  <span></span>
 </article>
 
   </section>

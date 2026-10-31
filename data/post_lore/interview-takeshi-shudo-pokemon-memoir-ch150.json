@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch150",
  "stem": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 19
+  "n": 136
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     6
+     25
     ],
     "as": [
      "妙蛙种子"
@@ -25,7 +25,7 @@
     "name": "小火龙",
     "ndex": 4,
     "seg": [
-     6
+     25
     ],
     "as": [
      "小火龙"
@@ -36,7 +36,7 @@
     "name": "杰尼龟",
     "ndex": 7,
     "seg": [
-     6
+     25
     ],
     "as": [
      "杰尼龟"
@@ -47,8 +47,8 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     6,
-     9
+     26,
+     32
     ],
     "as": [
      "皮卡丘"
@@ -58,9 +58,7 @@
    {
     "name": "快龙",
     "ndex": 149,
-    "seg": [
-     18
-    ],
+    "seg": [],
     "as": [
      "快龙"
     ],
@@ -75,42 +73,29 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "战国魔神豪将军",
+    "slug": null,
+    "seg": [
+     103,
+     104,
+     115,
+     116,
+     122
+    ],
     "via": "entities"
    },
    {
-    "name": "宝可梦必胜指南",
+    "name": "巴黎的伊莎贝尔",
     "slug": null,
     "seg": [
-     1
+     108,
+     109,
+     114,
+     115,
+     118,
+     120
     ],
-    "via": "llm"
-   },
-   {
-    "name": "正辉的灯塔",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "魔法小仙女/甜甜仙子",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "雾笛",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -121,42 +106,12 @@
     "seg": []
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "大木博士",
-    "slug": "da-mu-bo-shi",
-    "role": "mentioned",
-    "seg": [
-     9
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "正辉",
-    "slug": "zheng-hui",
-    "role": "mentioned",
-    "seg": [
-     0,
-     4,
-     5,
-     6,
-     8,
-     9
-    ],
-    "kind": "character"
-   },
-   {
     "name": "雷·布拉德伯里",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     17
-    ],
-    "via": "llm"
+     85
+    ]
    }
   ],
   "places": [
@@ -168,7 +123,11 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     5
+     0,
+     24,
+     73,
+     90,
+     94
     ],
     "what": "正辉驻留的灯塔",
     "via": "llm"
@@ -176,62 +135,36 @@
   ],
   "concepts": [
    {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     1,
-     2,
-     5,
-     11,
-     18
-    ],
-    "as": [
-     "系列构成",
-     "每集",
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     1,
-     3,
-     5,
-     6,
-     7,
-     18
-    ],
-    "as": [
-     "编剧",
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
     "id": "anime",
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     2
+     1,
+     2,
+     8,
+     12,
+     18,
+     43
     ],
     "as": [
+     "动画版",
      "动画化"
     ],
     "via": "body"
    },
    {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
     "seg": [
-     6
+     2,
+     4,
+     45,
+     115
     ],
     "as": [
-     "老玩家"
+     "系列构成",
+     "动画剧本"
     ],
     "via": "body"
    },
@@ -240,7 +173,7 @@
     "name": "美术风格",
     "facet": "art",
     "seg": [
-     8
+     2
     ],
     "as": [
      "真实感"
@@ -248,26 +181,93 @@
     "via": "body"
    },
    {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
     "seg": [
-     9
+     2,
+     12,
+     18,
+     19,
+     20,
+     22
     ],
     "as": [
-     "宝可梦图鉴"
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
    {
-    "id": "main-story",
-    "name": "主线流程",
+    "id": "battle-system",
+    "name": "对战系统",
     "facet": "system",
     "seg": [
-     13
+     19
     ],
     "as": [
-     "道馆"
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     30
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     51
+    ],
+    "as": [
+     "批评"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     73,
+     77
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     119
+    ],
+    "as": [
+     "企划时"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     120
+    ],
+    "as": [
+     "BGM"
     ],
     "via": "body"
    }
@@ -275,14 +275,14 @@
  },
  "observations": [
   {
-   "seg": 6,
-   "text": "第10、11、12话安排小智收服妙蛙种子、小火龙与杰尼龟",
-   "anchor": 7
+   "seg": 24,
+   "text": "第13话“正辉的灯塔”是首藤刚志按剧本轮换写的一集",
+   "anchor": 25
   },
   {
-   "seg": 5,
-   "text": "每篇剧本要经历三到四轮会议推敲方能定稿",
-   "anchor": 6
+   "seg": 85,
+   "text": "这一集借鉴了雷·布拉德伯里的短篇小说《雾笛》",
+   "anchor": 86
   }
  ],
  "relations": [
@@ -290,7 +290,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "同为首藤刚志手记连载，第138回早于第150回"
   },
@@ -298,7 +298,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "同为该手记连载，第139回早于第150回"
   },
@@ -306,7 +306,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
    "why": "同为该手记连载，第140回早于第150回"
   },
@@ -314,7 +314,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "title": "首藤刚志动画创作手记 第141回：试着玩了游戏",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
    "why": "同为该手记连载，第141回早于第150回"
   }
@@ -322,8 +322,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

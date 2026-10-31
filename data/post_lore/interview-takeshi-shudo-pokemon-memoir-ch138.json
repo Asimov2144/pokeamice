@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
  "stem": "2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 28
+  "n": 110
  },
  "facets": {
   "pokemon": [
@@ -14,11 +14,11 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     12,
-     17,
-     19,
-     21,
-     13
+     41,
+     42,
+     47,
+     49,
+     50
     ],
     "as": [
      "皮卡丘"
@@ -34,50 +34,23 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "甜甜仙子",
+    "slug": null,
+    "seg": [
+     1,
+     61,
+     62,
+     66
+    ],
     "via": "entities"
    },
    {
-    "name": "魔法公主明琪桃子",
+    "name": "漫画初次物语",
     "slug": null,
     "seg": [
-     1
+     11
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "漫画童话问答",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "超梦的逆袭",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "结晶塔的帝王",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -93,20 +66,8 @@
     "role": "mentioned",
     "seg": [
      1,
-     4
+     10
     ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "mentioned",
-    "seg": []
    }
   ],
   "places": [
@@ -118,7 +79,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     15
+     34
     ],
     "what": "奉纳绘马的神社",
     "via": "llm"
@@ -131,22 +92,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     15
+     34
     ],
     "what": "奉纳绘马的神社",
-    "via": "llm"
-   },
-   {
-    "name": "川崎市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     15
-    ],
-    "what": "稻毛神社所在地",
     "via": "llm"
    },
    {
@@ -157,31 +105,13 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     15
+     34
     ],
     "what": "二宫尊德神社所在地",
     "via": "llm"
    }
   ],
   "concepts": [
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     1,
-     5,
-     6,
-     8,
-     9,
-     10
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
    {
     "id": "stage-music",
     "name": "音乐剧与演出",
@@ -199,12 +129,12 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     3,
-     4,
-     5,
      6,
-     8,
-     10
+     10,
+     12,
+     14,
+     17,
+     22
     ],
     "as": [
      "系列构成",
@@ -218,8 +148,8 @@
     "name": "漫画",
     "facet": "franchise",
     "seg": [
-     4,
-     16
+     11,
+     37
     ],
     "as": [
      "漫画"
@@ -231,9 +161,8 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     5,
-     8,
-     13
+     12,
+     28
     ],
     "as": [
      "电视动画",
@@ -242,38 +171,44 @@
     "via": "body"
    },
    {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
     "seg": [
-     5
+     12,
+     14,
+     17,
+     22,
+     24,
+     25
     ],
     "as": [
-     "剧场版"
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
    {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
     "seg": [
-     6
+     22
     ],
     "as": [
-     "抗议"
+     "分发"
     ],
     "via": "body"
    },
    {
-    "id": "dev-cycle",
-    "name": "开发周期",
+    "id": "schedule",
+    "name": "日程与期限",
     "facet": "process",
     "seg": [
-     11
+     23
     ],
     "as": [
-     "工期"
+     "日程"
     ],
     "via": "body"
    },
@@ -282,10 +217,22 @@
     "name": "配音",
     "facet": "audio",
     "seg": [
-     11
+     23
     ],
     "as": [
      "配音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     31
+    ],
+    "as": [
+     "商品化"
     ],
     "via": "body"
    },
@@ -294,34 +241,15 @@
     "name": "版权与监修",
     "facet": "business",
     "seg": [
-     12,
-     17,
-     20,
-     21,
-     22,
-     24
+     41,
+     49,
+     52,
+     53,
+     54,
+     55
     ],
     "as": [
-     "版权",
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     16,
-     17,
-     18,
-     19,
-     20,
-     22
-    ],
-    "as": [
-     "原画",
-     "手绘"
+     "版权"
     ],
     "via": "body"
    },
@@ -330,10 +258,10 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     21
+     50
     ],
     "as": [
-     "孩子们"
+     "小孩子"
     ],
     "via": "body"
    },
@@ -342,10 +270,22 @@
     "name": "二创与同人",
     "facet": "audience",
     "seg": [
-     21
+     51
     ],
     "as": [
-     "同人"
+     "同人志"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     54
+    ],
+    "as": [
+     "抗议"
     ],
     "via": "body"
    },
@@ -354,7 +294,8 @@
     "name": "背景音乐",
     "facet": "audio",
     "seg": [
-     24
+     62,
+     67
     ],
     "as": [
      "BGM"
@@ -366,22 +307,10 @@
     "name": "作曲",
     "facet": "audio",
     "seg": [
-     24
+     67
     ],
     "as": [
      "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     24
-    ],
-    "as": [
-     "海外版"
     ],
     "via": "body"
    },
@@ -400,13 +329,13 @@
  "observations": [
   {
    "seg": 1,
-   "text": "首藤刚志称接到汤山邦彦电话时，正过着无业游民生活约两周。",
+   "text": "首藤刚志“无业”约两周后，接到《甜甜仙子》导演汤山邦彦的电话",
    "anchor": 2
   },
   {
-   "seg": 2,
-   "text": "汤山邦彦电话中说很快会有很棒的工作找上门，两天后制片人来电。",
-   "anchor": 3
+   "seg": 22,
+   "text": "《宝可梦》的剧本定稿印刷装订，每一本都编了号，分发给相关部门和人员",
+   "anchor": 23
   }
  ],
  "relations": [
@@ -414,7 +343,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "第139回紧接第138回，谈接到委托后的思索"
   },
@@ -422,7 +351,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "title": "首藤刚志动画创作手记 第141回：试着玩了游戏",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
    "why": "第141回续谈接委托后亲自试玩游戏"
   },
@@ -430,7 +359,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
    "why": "第140回续记首次企划会，接第138回源起"
   },
@@ -438,7 +367,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch142",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+   "title": "首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/",
    "why": "第142回续谈最初提交的系列构成案"
   }
@@ -446,8 +375,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

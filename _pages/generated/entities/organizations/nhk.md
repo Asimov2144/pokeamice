@@ -44,7 +44,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/">[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直到NHK的事件被发现</a></h3>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/">[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 到NHK的事件曝光为止</a></h3>
   <span></span>
 </article>
 

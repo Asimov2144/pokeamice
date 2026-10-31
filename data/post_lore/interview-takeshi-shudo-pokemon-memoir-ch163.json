@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch163",
  "stem": "2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 15
+  "n": 167
  },
  "facets": {
   "pokemon": [],
@@ -18,18 +18,29 @@
     "via": "entities"
    },
    {
-    "name": "超梦的逆袭",
+    "name": "宝可梦物语",
     "slug": null,
     "seg": [
-     12,
-     13
+     42
     ],
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     84
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "福星小子",
+    "slug": null,
+    "seg": [
+     149,
+     150,
+     151
+    ],
     "via": "entities"
    }
   ],
@@ -38,32 +49,23 @@
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
     "role": "mentioned",
-    "seg": [
-     13
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
     "seg": []
    },
    {
-    "name": "久保雅一",
-    "slug": "kubo-masakazu",
-    "role": "mentioned",
-    "seg": [
-     2
-    ]
-   },
-   {
-    "name": "铃木敏夫",
+    "name": "约翰·福特",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     11
-    ],
-    "via": "llm"
+     118
+    ]
+   },
+   {
+    "name": "高桥留美子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     154
+    ]
    }
   ],
   "places": [
@@ -75,7 +77,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     10
+     71
     ],
     "what": "游轮庆功宴地点",
     "via": "llm"
@@ -87,12 +89,16 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
+     1,
      2,
      6,
-     9
+     32,
+     39,
+     40
     ],
     "as": [
-     "动画化"
+     "动画化",
+     "电视动画"
     ],
     "via": "body"
    },
@@ -101,11 +107,16 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     2,
-     7
+     1,
+     13,
+     58,
+     59,
+     60,
+     140
     ],
     "as": [
-     "系列构成"
+     "系列构成",
+     "分镜"
     ],
     "via": "body"
    },
@@ -114,53 +125,31 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     2,
-     5,
-     7,
+     10,
+     11,
      12,
-     13
+     13,
+     14,
+     15
     ],
     "as": [
-     "编剧",
-     "剧本"
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
    {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
     "seg": [
-     5
+     33,
+     34,
+     70
     ],
     "as": [
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     6
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     6,
-     9,
-     11
-    ],
-    "as": [
-     "卡带"
+     "儿童",
+     "孩子们"
     ],
     "via": "body"
    },
@@ -169,7 +158,12 @@
     "name": "漫画",
     "facet": "franchise",
     "seg": [
-     6
+     33,
+     70,
+     154,
+     158,
+     159,
+     160
     ],
     "as": [
      "漫画"
@@ -181,11 +175,12 @@
     "name": "媒体展开",
     "facet": "business",
     "seg": [
-     6,
-     9
+     33,
+     41,
+     66
     ],
     "as": [
-     "跨媒体"
+     "多媒体"
     ],
     "via": "body"
    },
@@ -194,7 +189,8 @@
     "name": "周边商品",
     "facet": "business",
     "seg": [
-     6
+     33,
+     68
     ],
     "as": [
      "玩具"
@@ -202,76 +198,64 @@
     "via": "body"
    },
    {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
     "seg": [
-     6
+     33
     ],
     "as": [
-     "风靡"
+     "销量"
     ],
     "via": "body"
    },
    {
-    "id": "items",
-    "name": "道具与精灵球",
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     36,
+     68,
+     75
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
     "facet": "system",
     "seg": [
-     9
+     36
     ],
     "as": [
-     "精灵球"
+     "手感"
     ],
     "via": "body"
    },
    {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
     "seg": [
-     9
+     55
     ],
     "as": [
-     "集换式卡牌"
+     "台词"
     ],
     "via": "body"
    },
    {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     10,
-     11,
-     13
-    ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
+    "id": "level-design",
+    "name": "地图与关卡",
     "facet": "system",
     "seg": [
-     11
+     60
     ],
     "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "升级"
+     "路线"
     ],
     "via": "body"
    },
@@ -280,10 +264,51 @@
     "name": "公司氛围",
     "facet": "team",
     "seg": [
-     14
+     69,
+     99
     ],
     "as": [
+     "公司内部",
      "社内"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     75,
+     92,
+     98
+    ],
+    "as": [
+     "热潮",
+     "批评"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     119
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     164
+    ],
+    "as": [
+     "电影版"
     ],
     "via": "body"
    }
@@ -291,14 +316,14 @@
  },
  "observations": [
   {
-   "seg": 2,
-   "text": "首藤刚志以系列构成身份受邀时，动画化企划已定",
-   "anchor": 3
+   "seg": 33,
+   "text": "御前大人当时是某本儿童漫画杂志的副主编",
+   "anchor": 34
   },
   {
-   "seg": 7,
-   "text": "单集剧本基础稿酬比业界行规高5000日元，系列构成总费被砍2万日元",
-   "anchor": 8
+   "seg": 71,
+   "text": "获益的公司在东京湾举办船上派对答谢",
+   "anchor": 72
   }
  ],
  "relations": [
@@ -306,7 +331,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "第138回讲首藤受邀加入宝可梦动画企划的源起"
   },
@@ -314,7 +339,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "title": "首藤刚志动画创作手记 第141回：试着玩了游戏",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
    "why": "第141回讲首藤试玩游戏、参与改编的经过"
   },
@@ -322,7 +347,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch155",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）",
+   "title": "首藤刚志动画创作手记 第155回：不听人类摆布的宝可梦",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/",
    "why": "第155回讲原定80话完结的系列构成构想"
   },
@@ -330,16 +355,15 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch156",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）",
+   "title": "首藤刚志动画创作手记 第156回：因《宝可梦》初次体验到压力",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/",
-   "why": "第156回讲久保雅一决定用「逆袭」一词"
+   "why": "第156回讲“御前大人”以《星球大战》为例，定下片名《超梦的逆袭》"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>芥川龙之介</h2>
-    <span>3 篇文章 · 0 条评注 · 2010 / 2009 / 2008</span>
+    <span>4 篇文章 · 0 条评注 · 2010 / 2009 / 2008</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -34,6 +34,12 @@ search: false
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第169回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch169/">[访谈翻译] 首藤刚志动画创作手记 第169回：《宝可梦》这里是哪里？我是谁？</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 169: Pokemon - Where is this place? Who am I?</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/">[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 那天夜里的烦闷</a></h3>
+  <span></span>
 </article>
 
   </section>

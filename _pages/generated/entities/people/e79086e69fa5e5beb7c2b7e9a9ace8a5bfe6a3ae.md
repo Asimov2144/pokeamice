@@ -1,6 +1,6 @@
 ---
-title: "武上纯希 - 人物"
-permalink: "/entities/people/e6ada6e4b88ae7baafe5b88c/"
+title: "理查德·马西森 - 人物"
+permalink: "/entities/people/e79086e69fa5e5beb7c2b7e9a9ace8a5bfe6a3ae/"
 layout: "single"
 search: false
 ---
@@ -8,7 +8,7 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>人物</p>
-    <h2>武上纯希</h2>
+    <h2>理查德·马西森</h2>
     <span>1 篇文章 · 0 条评注 · 2008</span>
   </div>
   <div class="resource-network-jump">
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第147回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch147/">[访谈翻译] 首藤刚志动画创作手记 第147回：在《宝可梦》里什么都没做的系列构成</a></h3>
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第152回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch152/">[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？</a></h3>
   <span></span>
 </article>
 

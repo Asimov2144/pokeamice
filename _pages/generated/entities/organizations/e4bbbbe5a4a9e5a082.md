@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>任天堂</h2>
-    <span>130 篇文章 · 0 条评注 · 2025 / 2022 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>106 篇文章 · 0 条评注 · 2025 / 2022 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -475,69 +475,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/">[访谈翻译] 首藤刚志动画创作手记 第163回：《宝可梦》动画陷入绝境的幕后操盘手</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/">[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件，相关人员们……</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/">[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第132回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-132/">[GameFreak部长专栏] 第132回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 《宝可梦 白金》 创下了DS软件史上最快的纪录——“仅用3天销量突破100万份！” 我真的特别开心！ 这也都是</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/">[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 事发当天，医院里……</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/">[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/">[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · それぞれの夏</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-84/">【工作日志】2008年各自的夏日时光</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是负责网站的カニ子（蟹子）。上周大家一起放了盂兰盆假期！&lt;br 我照例问了问 GAME FREAK 的大家：“都去哪儿了？做了些什么？” &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/st</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第157回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/">[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第156回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch156/">[访谈翻译] 首藤刚志动画创作手记 第156回：在《宝可梦》中初尝压力</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第155回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch155/">[访谈翻译] 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -553,63 +499,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第152回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch152/">[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第151回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch151/">[访谈翻译] 首藤刚志动画创作手记 第151回：带字幕的《宝可梦》</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第150回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch150/">[访谈翻译] 首藤刚志动画创作手记 第150回：《宝可梦》「正辉的灯塔」</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 22階の恐怖</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-71/">【工作日志】二十二层的游戏机恐惧</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是スティック（斯蒂克）。 其实，我发现了一件可怕的事。&lt;br 这真的相当恐怖。&lt;br 要说到底有什么这么恐怖，那就是 GAME FREAK 的&lt;br 办公室里存在着的“游戏机数量”！ 毕竟是开发游戏的公司， 有很多游戏机不是理所当然的吗！ 我仿佛都能听到这样的声音，&lt;br 确实如此，不</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第149回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch149/">[访谈翻译] 首藤刚志动画创作手记 第149回：让宝可梦稍微写实一点……？</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第148回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch148/">[访谈翻译] 首藤刚志动画创作手记 第148回：《宝可梦必胜指南》</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第147回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch147/">[访谈翻译] 首藤刚志动画创作手记 第147回：在《宝可梦》里什么都没做的系列构成</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第146回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch146/">[访谈翻译] 首藤刚志动画创作手记 第146回：我能为《宝可梦》做些什么？</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第145回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch145/">[访谈翻译] 首藤刚志动画创作手记 第145回：在《宝可梦》的开机酒会上……</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第144回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch144/">[访谈翻译] 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -619,39 +511,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第143回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch143/">[访谈翻译] 首藤刚志动画创作手记 第143回：第1、2话开播</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第142回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch142/">[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第141回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch141/">[访谈翻译] 首藤刚志动画创作手记 第141回：我亲自试玩了游戏</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第140回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch140/">[访谈翻译] 首藤刚志动画创作手记 第140回：请爱《宝可梦》</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · サウンド講習会</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-61/">【工作日志】2008年声音讲习会</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见，我是负责网站工作的カニ子（蟹子）。&lt;br 天气渐渐暖和起来了，但花粉症还是很难受呢。&lt;br GAME FREAK里也有很多人被折腾得直流眼泪。 本周，公司内部举办了一场由增田部长进行演讲的声音讲习会。&lt;br 这是一场面向声音创作者举办的活动，&lt;br 不过听说其他部门的员工也可以</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第139回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch139/">[访谈翻译] 首藤刚志动画创作手记 第139回：对游戏动画化的所思所想</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -670,12 +532,6 @@ search: false
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第125回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-125/">[GameFreak部长专栏] 第125回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 我想一边比较过去的开场曲，一边看看至今为止音乐的变化。 ※这里只放了曲子的一部分，其中还加入了演出时的音效。还</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">

@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
  "stem": "2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 12
+  "n": 119
  },
  "facets": {
   "pokemon": [],
@@ -24,38 +24,18 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
     "name": "永远的菲蕾娜",
     "slug": null,
     "seg": [
-     2
+     5
     ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
    {
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
     "role": "mentioned",
     "seg": []
    }
@@ -69,7 +49,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     3
+     8
     ],
     "what": "游戏改编研讨会地点",
     "via": "llm"
@@ -81,12 +61,13 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
+     0,
      1,
-     10
+     33,
+     71
     ],
     "as": [
-     "动画化",
-     "电视动画"
+     "动画化"
     ],
     "via": "body"
    },
@@ -95,25 +76,10 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     1,
-     11
+     1
     ],
     "as": [
      "系列构成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     1,
-     9,
-     10
-    ],
-    "as": [
-     "掌机"
     ],
     "via": "body"
    },
@@ -122,8 +88,9 @@
     "name": "版权与监修",
     "facet": "business",
     "seg": [
-     3,
-     9
+     6,
+     14,
+     65
     ],
     "as": [
      "监修"
@@ -131,26 +98,14 @@
     "via": "body"
    },
    {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
     "seg": [
-     3
+     11
     ],
     "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     10
-    ],
-    "as": [
-     "通关"
+     "容量"
     ],
     "via": "body"
    },
@@ -159,47 +114,56 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     10
+     14,
+     16,
+     19,
+     22,
+     24,
+     25
     ],
     "as": [
+     "剧本",
      "编剧"
     ],
     "via": "body"
    },
    {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
     "seg": [
-     11
+     34,
+     50
     ],
     "as": [
-     "职业生涯"
+     "漫画"
     ],
     "via": "body"
    },
    {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [],
-    "as": [
-     "卡带"
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     51
     ],
-    "via": "title"
+    "as": [
+     "培养"
+    ],
+    "via": "body"
    }
   ]
  },
  "observations": [
   {
-   "seg": 1,
-   "text": "首藤刚志说当时对《宝可梦》掌机游戏几乎一无所知",
-   "anchor": 2
+   "seg": 5,
+   "text": "首藤刚志的小说《永远的菲蕾娜》曾被改编成OVA和游戏",
+   "anchor": 6
   },
   {
-   "seg": 3,
-   "text": "首藤刚志在平冢市酒店体验过通宵闭关式研讨会",
-   "anchor": 4
+   "seg": 8,
+   "text": "那次游戏的制作会议，在离小田原较近的平冢的酒店里集中开",
+   "anchor": 9
   }
  ],
  "relations": [
@@ -207,7 +171,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "第138回，同系列前篇，讲接委托经过"
   },
@@ -215,7 +179,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
    "why": "第140回，同系列后篇，讲首次企划会"
   },
@@ -223,7 +187,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "title": "首藤刚志动画创作手记 第141回：试着玩了游戏",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
    "why": "第141回，同系列后篇，讲亲自试玩游戏"
   }
@@ -231,8 +195,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

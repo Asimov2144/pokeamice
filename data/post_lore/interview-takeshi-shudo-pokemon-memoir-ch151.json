@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch151",
  "stem": "2008-06-04-interview-takeshi-shudo-pokemon-memoir-ch151",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 13
+  "n": 170
  },
  "facets": {
   "pokemon": [
@@ -14,8 +14,7 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     3,
-     12
+     6
     ],
     "as": [
      "妙蛙种子"
@@ -23,71 +22,16 @@
     "via": "body"
    },
    {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     12
-    ],
-    "as": [
-     "小火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "杰尼龟",
-    "ndex": 7,
-    "seg": [
-     12
-    ],
-    "as": [
-     "杰尼龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "阿柏蛇",
-    "ndex": 23,
-    "seg": [
-     12
-    ],
-    "as": [
-     "阿柏蛇"
-    ],
-    "via": "body"
-   },
-   {
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     3,
-     12
+     6,
+     127
     ],
     "as": [
      "皮卡丘"
     ],
     "via": "body"
-   },
-   {
-    "name": "瓦斯弹",
-    "ndex": 109,
-    "seg": [
-     12
-    ],
-    "as": [
-     "瓦斯弹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "伽勒尔喵喵",
-    "ndex": 52,
-    "seg": [
-     4
-    ],
-    "as": [
-     "喵喵"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
@@ -98,18 +42,24 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "甜甜仙子",
+    "slug": null,
+    "seg": [
+     132,
+     145,
+     158,
+     166,
+     167
+    ],
     "via": "entities"
    },
    {
-    "name": "巨大宝可梦之岛！？",
+    "name": "银翼杀手",
     "slug": null,
     "seg": [
-     1
+     123
     ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -120,61 +70,40 @@
     "seg": []
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
+    "name": "金春智子",
+    "slug": null,
     "role": "mentioned",
-    "seg": []
+    "seg": [
+     135,
+     137
+    ]
    },
    {
-    "name": "大谷育江",
-    "slug": "otani-ikue",
+    "name": "筒井ともみ",
+    "slug": null,
     "role": "mentioned",
-    "seg": []
+    "seg": [
+     147
+    ]
    }
   ],
   "places": [],
   "concepts": [
    {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     1,
-     2,
-     3
-    ],
-    "as": [
-     "叫声",
-     "鸣叫声"
-    ],
-    "via": "body"
-   },
-   {
     "id": "scenario",
     "name": "剧本",
     "facet": "story",
     "seg": [
-     1,
-     3,
-     8,
-     9
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
      2,
-     6
+     3,
+     7,
+     8,
+     53,
+     60
     ],
     "as": [
-     "世界观"
+     "编剧",
+     "剧本"
     ],
     "via": "body"
    },
@@ -183,7 +112,12 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     3
+     5,
+     33,
+     36,
+     38,
+     39,
+     60
     ],
     "as": [
      "动画版"
@@ -191,14 +125,19 @@
     "via": "body"
    },
    {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
     "seg": [
-     3
+     5,
+     8,
+     9,
+     10,
+     11,
+     30
     ],
     "as": [
-     "分集"
+     "叫声"
     ],
     "via": "body"
    },
@@ -207,22 +146,25 @@
     "name": "配音",
     "facet": "audio",
     "seg": [
-     3
+     9,
+     10,
+     11
     ],
     "as": [
-     "配音"
+     "配音",
+     "声优"
     ],
     "via": "body"
    },
    {
-    "id": "planning",
-    "name": "企划",
+    "id": "teamwork",
+    "name": "分工与协作",
     "facet": "process",
     "seg": [
-     4
+     10
     ],
     "as": [
-     "提案"
+     "各自负责"
     ],
     "via": "body"
    },
@@ -231,7 +173,7 @@
     "name": "人与人的连接",
     "facet": "design",
     "seg": [
-     5
+     24
     ],
     "as": [
      "沟通"
@@ -239,26 +181,14 @@
     "via": "body"
    },
    {
-    "id": "accessibility",
-    "name": "无障碍",
-    "facet": "audience",
-    "seg": [
-     6
-    ],
-    "as": [
-     "无障碍"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
+    "id": "world-building",
+    "name": "世界观设定",
     "facet": "design",
     "seg": [
-     6
+     38
     ],
     "as": [
-     "生态"
+     "世界观"
     ],
     "via": "body"
    },
@@ -267,10 +197,56 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     8
+     41,
+     73,
+     82,
+     112
     ],
     "as": [
      "小孩子"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
+    "seg": [
+     43
+    ],
+    "as": [
+     "字数"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     49
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     59,
+     70,
+     76,
+     136,
+     148,
+     149
+    ],
+    "as": [
+     "系列构成",
+     "动画剧本",
+     "分镜"
     ],
     "via": "body"
    },
@@ -279,11 +255,27 @@
     "name": "台词",
     "facet": "story",
     "seg": [
-     9,
-     11
+     86,
+     87,
+     89,
+     95,
+     96,
+     97
     ],
     "as": [
      "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     133
+    ],
+    "as": [
+     "免费"
     ],
     "via": "body"
    }
@@ -291,14 +283,14 @@
  },
  "observations": [
   {
-   "seg": 1,
-   "text": "第17话《巨大宝可梦之岛！？》给宝可梦叫声配了人类语言字幕",
-   "anchor": 2
+   "seg": 4,
+   "text": "用字幕表现宝可梦对话的点子，出自一位制片人",
+   "anchor": 5
   },
   {
-   "seg": 1,
-   "text": "字幕创意出自一位制片人，而非首藤刚志",
-   "anchor": 2
+   "seg": 119,
+   "text": "第17话里，宝可梦在关东煮路边摊喝酒发牢骚",
+   "anchor": 120
   }
  ],
  "relations": [
@@ -306,7 +298,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "第138回讲首藤接宝可梦委托的源起"
   },
@@ -314,7 +306,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "第139回讲游戏改编动画的最初思索"
   },
@@ -322,15 +314,15 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
-   "why": "第140回讲首次企划会与主角搭档抉择"
+   "why": "第140回讲第一次碰头会与会议记录"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "title": "首藤刚志动画创作手记 第141回：试着玩了游戏",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
    "why": "第141回讲首藤亲自试玩游戏"
   }
@@ -338,8 +330,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

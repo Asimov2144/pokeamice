@@ -2,26 +2,14 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch160",
  "stem": "2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 6
+  "n": 172
  },
  "facets": {
-  "pokemon": [
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     4
-    ],
-    "as": [
-     "洛奇亚"
-    ],
-    "via": "body"
-   }
-  ],
+  "pokemon": [],
   "works": [
    {
     "name": "宝可梦 动画系列",
@@ -30,26 +18,25 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "幻想曲",
+    "slug": null,
+    "seg": [
+     145,
+     148,
+     150,
+     152,
+     153,
+     154
+    ],
     "via": "entities"
    },
    {
-    "name": "洛奇亚爆诞",
+    "name": "漫画世界童话",
     "slug": null,
     "seg": [
-     4
+     153
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -58,28 +45,9 @@
     "slug": "shudo-takeshi",
     "role": "mentioned",
     "seg": []
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
    }
   ],
   "places": [
-   {
-    "name": "小田原综合医院",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     3
-    ],
-    "what": "急救医院",
-    "via": "llm"
-   },
    {
     "name": "小田原",
     "id": null,
@@ -88,7 +56,18 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     4
+     1,
+     2,
+     14,
+     61,
+     63,
+     64,
+     66,
+     71,
+     86,
+     88,
+     93,
+     99
     ],
     "what": "医院所在地",
     "via": "llm"
@@ -96,38 +75,32 @@
   ],
   "concepts": [
    {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     2
-    ],
-    "as": [
-     "系列构成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     2
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
     "id": "movie",
     "name": "剧场版",
     "facet": "franchise",
     "seg": [
-     4
+     2
     ],
     "as": [
      "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     2,
+     28,
+     124,
+     125,
+     126,
+     128
+    ],
+    "as": [
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
@@ -136,22 +109,88 @@
     "name": "社会反响",
     "facet": "audience",
     "seg": [
-     4
+     27
     ],
     "as": [
-     "风靡"
+     "抗议"
     ],
     "via": "body"
    },
    {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
     "seg": [
-     4
+     32,
+     33,
+     43,
+     126,
+     136,
+     153
     ],
     "as": [
-     "通宵"
+     "系列构成",
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     126
+    ],
+    "as": [
+     "日程"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     137
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     152
+    ],
+    "as": [
+     "长大以后"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     153
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "life-and-death",
+    "name": "生死的表述",
+    "facet": "design",
+    "seg": [
+     162
+    ],
+    "as": [
+     "死亡"
     ],
     "via": "body"
    },
@@ -160,10 +199,23 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     5
+     168,
+     169
     ],
     "as": [
-     "儿童"
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sound-hardware",
+    "name": "音源与机能",
+    "facet": "audio",
+    "seg": [
+     168
+    ],
+    "as": [
+     "和音"
     ],
     "via": "body"
    }
@@ -172,13 +224,13 @@
  "observations": [
   {
    "seg": 1,
-   "text": "事发次日清晨，制作公司与东京电视台发出紧急通告，严禁全体相关人员发表个人观点与回应",
+   "text": "事件约一年半后，首藤刚志才知道有个女孩那晚被抬进小田原的医院",
    "anchor": 2
   },
   {
-   "seg": 2,
-   "text": "一位挚友来电，告诫首藤刚志绝不准对外说自己对事件负有责任",
-   "anchor": 3
+   "seg": 19,
+   "text": "事件第二天，制作公司要求相关人员不对媒体发表个人评论",
+   "anchor": 20
   }
  ],
  "relations": [
@@ -186,7 +238,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "第138回讲首藤接宝可梦委托的源起"
   },
@@ -194,7 +246,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "第139回讲接手后对游戏改编的最初思索"
   },
@@ -202,15 +254,15 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
-   "why": "第140回讲首次企划会与主角搭档抉择"
+   "why": "第140回讲第一次碰头会与会议记录"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch142",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+   "title": "首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/",
    "why": "第142回讲初版系列构成案的音乐剧构想"
   }
@@ -218,8 +270,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

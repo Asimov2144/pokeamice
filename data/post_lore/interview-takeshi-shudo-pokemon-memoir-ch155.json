@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch155",
  "stem": "2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 11
+  "n": 187
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     10
+     123
     ],
     "as": [
      "皮卡丘"
@@ -24,12 +24,9 @@
    {
     "name": "地鼠",
     "ndex": 50,
-    "seg": [
-     1
-    ],
+    "seg": [],
     "as": [
-     "地鼠",
-     "Diglett"
+     "地鼠"
     ],
     "via": "tag"
    }
@@ -46,20 +43,6 @@
     "slug": "red-green",
     "seg": [],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -67,35 +50,55 @@
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
     "role": "mentioned",
-    "seg": [
-     2
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "久保雅一",
-    "slug": "kubo-masakazu",
-    "role": "mentioned",
     "seg": []
    }
   ],
   "places": [],
   "concepts": [
    {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     1,
+     8,
+     10,
+     11,
+     12,
+     15
+    ],
+    "as": [
+     "动画版",
+     "电视动画",
+     "动画化",
+     "动画系列"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "battle-system",
+    "name": "对战系统",
+    "facet": "system",
+    "seg": [
+     4,
+     124
+    ],
+    "as": [
+     "宝可梦对战"
+    ],
+    "via": "body"
+   },
+   {
     "id": "scenario",
     "name": "剧本",
     "facet": "story",
     "seg": [
-     1,
-     2,
-     4,
-     5,
-     6
+     6,
+     7,
+     8,
+     9,
+     19,
+     40
     ],
     "as": [
      "编剧",
@@ -104,26 +107,114 @@
     "via": "body"
    },
    {
-    "id": "world-building",
-    "name": "世界观设定",
+    "id": "player-freedom",
+    "name": "玩家的自由",
     "facet": "design",
     "seg": [
-     2
+     7
     ],
     "as": [
-     "世界观"
+     "自由度"
     ],
     "via": "body"
    },
    {
-    "id": "dialogue",
-    "name": "台词",
+    "id": "anime-writing",
+    "name": "动画的写法",
     "facet": "story",
     "seg": [
-     5
+     9,
+     57,
+     69,
+     85,
+     88,
+     144
     ],
     "as": [
-     "台词"
+     "系列构成",
+     "分镜"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     20,
+     22,
+     31,
+     33
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
+    "seg": [
+     22
+    ],
+    "as": [
+     "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     24,
+     25,
+     46,
+     49,
+     53,
+     126
+    ],
+    "as": [
+     "儿童",
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     27
+    ],
+    "as": [
+     "新玩家"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "delay",
+    "name": "延期",
+    "facet": "process",
+    "seg": [
+     30
+    ],
+    "as": [
+     "推迟"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     30,
+     170
+    ],
+    "as": [
+     "日程"
     ],
     "via": "body"
    },
@@ -132,7 +223,7 @@
     "name": "等级与经验",
     "facet": "system",
     "seg": [
-     5
+     37
     ],
     "as": [
      "升级"
@@ -144,7 +235,7 @@
     "name": "带人与培养",
     "facet": "team",
     "seg": [
-     8
+     51
     ],
     "as": [
      "培养"
@@ -156,10 +247,76 @@
     "name": "怀旧",
     "facet": "audience",
     "seg": [
-     8
+     54,
+     86
     ],
     "as": [
      "童年"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     71
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     71
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     73,
+     75,
+     77,
+     78,
+     89,
+     91
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     74
+    ],
+    "as": [
+     "攻略本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     95
+    ],
+    "as": [
+     "大主题"
     ],
     "via": "body"
    },
@@ -168,34 +325,10 @@
     "name": "道具与精灵球",
     "facet": "system",
     "seg": [
-     9
+     112
     ],
     "as": [
      "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     10
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     10
-    ],
-    "as": [
-     "家庭"
     ],
     "via": "body"
    },
@@ -204,10 +337,58 @@
     "name": "主线流程",
     "facet": "system",
     "seg": [
-     10
+     124
     ],
     "as": [
      "道馆"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     126
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     143
+    ],
+    "as": [
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     147
+    ],
+    "as": [
+     "动画电影"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     158
+    ],
+    "as": [
+     "分发"
     ],
     "via": "body"
    }
@@ -215,14 +396,14 @@
  },
  "observations": [
   {
-   "seg": 4,
-   "text": "《宝可梦》动画最初目标是最低限度维持一年半，约第80话迎来终章",
-   "anchor": 5
+   "seg": 16,
+   "text": "首藤刚志原打算在80话左右让动画迎来高潮和结局",
+   "anchor": 17
   },
   {
-   "seg": 9,
-   "text": "第31话《地鼠群起！》中人类为修水坝开山伐木，地鼠使工程瘫痪",
-   "anchor": 10
+   "seg": 115,
+   "text": "第31话“好多地鼠！”是为80话前后的结局埋下的伏笔",
+   "anchor": 116
   }
  ],
  "relations": [
@@ -230,7 +411,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "第138回讲首藤接宝可梦企划的源起，是理解其构想的前提"
   },
@@ -238,7 +419,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "第139回谈游戏改编动画的最初思索，铺垫其创作立场"
   },
@@ -246,7 +427,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
    "why": "第140回首次企划会，交代动画开播前内部决策背景"
   },
@@ -254,7 +435,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "title": "首藤刚志动画创作手记 第141回：试着玩了游戏",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch141/",
    "why": "第141回首藤亲自试玩游戏，为其构想提供由来"
   }
@@ -262,8 +443,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch145",
  "stem": "2008-04-23-interview-takeshi-shudo-pokemon-memoir-ch145",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 7
+  "n": 160
  },
  "facets": {
   "pokemon": [
@@ -14,23 +14,13 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     4
+     6,
+     72
     ],
     "as": [
      "皮卡丘"
     ],
     "via": "body"
-   },
-   {
-    "name": "伽勒尔喵喵",
-    "ndex": 52,
-    "seg": [
-     2
-    ],
-    "as": [
-     "喵喵"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
@@ -41,18 +31,17 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
+    "name": "大怪兽巴朗",
     "slug": null,
     "seg": [
-     1
+     133,
+     136,
+     138,
+     149,
+     150,
+     151
     ],
-    "via": "llm"
+    "via": "entities"
    }
   ],
   "people": [
@@ -63,77 +52,91 @@
     "seg": []
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
     "name": "林原惠美",
     "slug": "hayashibara-megumi",
     "role": "mentioned",
     "seg": [
-     1
+     62
     ]
    },
    {
-    "name": "三木真一郎",
-    "slug": "miki-shinichiro",
+    "name": "黑泽明",
+    "slug": "hei-ze-ming",
     "role": "mentioned",
     "seg": [
-     1
-    ]
+     124
+    ],
+    "kind": "figure"
    },
    {
-    "name": "犬山犬子",
-    "slug": "inuyama-inuko",
+    "name": "小津安二郎",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     1
+     126
     ]
    },
    {
-    "name": "松本梨香",
-    "slug": "matsumoto-rica",
+    "name": "沟口健二",
+    "slug": null,
     "role": "mentioned",
-    "seg": []
+    "seg": [
+     126
+    ]
    }
   ],
   "places": [],
   "concepts": [
    {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     1
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
     "id": "voice",
     "name": "配音",
     "facet": "audio",
     "seg": [
-     1
+     1,
+     60,
+     61,
+     62,
+     67,
+     69
     ],
     "as": [
-     "配音"
+     "配音",
+     "声优"
     ],
     "via": "body"
    },
    {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
     "seg": [
-     2
+     2,
+     8,
+     45,
+     46,
+     47,
+     48
     ],
     "as": [
-     "掌机"
+     "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     5,
+     6,
+     23,
+     46,
+     57,
+     77
+    ],
+    "as": [
+     "动画版",
+     "动画化"
     ],
     "via": "body"
    },
@@ -142,12 +145,17 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     4,
-     5
+     6,
+     20,
+     23,
+     72,
+     85,
+     131
     ],
     "as": [
      "孩子们",
-     "儿童"
+     "儿童",
+     "小学生"
     ],
     "via": "body"
    },
@@ -156,10 +164,12 @@
     "name": "易懂与门槛",
     "facet": "design",
     "seg": [
-     4
+     6,
+     50,
+     55
     ],
     "as": [
-     "门槛"
+     "简单易懂"
     ],
     "via": "body"
    },
@@ -168,10 +178,28 @@
     "name": "教育与育儿",
     "facet": "audience",
     "seg": [
-     5
+     10,
+     42,
+     110
     ],
     "as": [
-     "育儿"
+     "育儿",
+     "教育意义",
+     "教育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     13,
+     18,
+     85
+    ],
+    "as": [
+     "漫画"
     ],
     "via": "body"
    },
@@ -180,10 +208,108 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     6
+     14,
+     16,
+     17,
+     18,
+     19,
+     33
     ],
     "as": [
+     "剧本",
      "编剧"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     19,
+     44,
+     50,
+     74,
+     80,
+     93
+    ],
+    "as": [
+     "动画剧本",
+     "系列构成",
+     "每集"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "schedule",
+    "name": "日程与期限",
+    "facet": "process",
+    "seg": [
+     21
+    ],
+    "as": [
+     "期限"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     25
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     37
+    ],
+    "as": [
+     "升级"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "family",
+    "name": "家庭与亲子",
+    "facet": "audience",
+    "seg": [
+     58,
+     86
+    ],
+    "as": [
+     "家庭"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     68
+    ],
+    "as": [
+     "画面上"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     70
+    ],
+    "as": [
+     "台词"
     ],
     "via": "body"
    }
@@ -192,13 +318,13 @@
  "observations": [
   {
    "seg": 1,
-   "text": "首藤刚志写誓师酒会上三位火箭队声优斗志昂扬、神采奕奕",
+   "text": "开工派对上，为火箭队三人配音的声优们干劲十足",
    "anchor": 2
   },
   {
-   "seg": 2,
-   "text": "首藤刚志写游戏里火箭队是脸谱化恶役，二人组加喵喵设定游戏里没有",
-   "anchor": 3
+   "seg": 4,
+   "text": "一男一女两人组加喵喵的火箭队设定，游戏里没有",
+   "anchor": 5
   }
  ],
  "relations": [
@@ -206,7 +332,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch143",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+   "title": "首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/",
    "why": "第143回同系列前篇，讲开播与火箭队声优"
   },
@@ -214,15 +340,15 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+   "title": "首藤刚志动画创作手记 第144回：《宝可梦》系列构成",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
-   "why": "第144回同系列前篇，讲火箭队灵魂锚定"
+   "why": "第144回同系列前篇，讲首藤刚志认为火箭队是他在《宝可梦》中留下的印记"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch146",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）",
+   "title": "首藤刚志动画创作手记 第146回：在动画《宝可梦》里我能做的事是？",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch146/",
    "why": "第146回同系列后篇，讲开播酒会登台致辞"
   }
@@ -230,8 +356,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

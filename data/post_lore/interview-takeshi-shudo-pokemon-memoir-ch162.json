@@ -2,26 +2,14 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch162",
  "stem": "2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 19
+  "n": 150
  },
  "facets": {
-  "pokemon": [
-   {
-    "name": "轻飘飘",
-    "ndex": 592,
-    "seg": [
-     6
-    ],
-    "as": [
-     "轻飘飘"
-    ],
-    "via": "body"
-   }
-  ],
+  "pokemon": [],
   "works": [
    {
     "name": "宝可梦 动画系列",
@@ -30,9 +18,11 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "空中杀手",
+    "slug": null,
+    "seg": [
+     145
+    ],
     "via": "entities"
    }
   ],
@@ -41,52 +31,19 @@
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
     "role": "mentioned",
-    "seg": [
-     9
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": [
-     5,
-     8
-    ]
-   },
-   {
-    "name": "久保雅一",
-    "slug": "kubo-masakazu",
-    "role": "mentioned",
-    "seg": [
-     17,
-     18
-    ]
+    "seg": []
    },
    {
     "name": "小林幸子",
     "slug": "kobayashi-sachiko",
     "role": "mentioned",
     "seg": [
-     15
-    ],
-    "via": "llm"
+     101,
+     105
+    ]
    }
   ],
   "places": [
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     12
-    ],
-    "what": "任天堂所在地之一",
-    "via": "llm"
-   },
    {
     "name": "京都",
     "id": null,
@@ -95,7 +52,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     12
+     90
     ],
     "what": "任天堂所在地之一",
     "via": "llm"
@@ -103,96 +60,38 @@
   ],
   "concepts": [
    {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     2,
-     3
-    ],
-    "as": [
-     "分集",
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
     "id": "scenario",
     "name": "剧本",
     "facet": "story",
     "seg": [
+     1,
      2,
      3,
      4,
      6,
-     9
+     8
     ],
     "as": [
-     "剧本"
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
    {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
     "seg": [
-     3
+     3,
+     4,
+     38,
+     124,
+     128
     ],
     "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     3
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     3
-    ],
-    "as": [
-     "流水线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     6,
-     12,
-     13,
-     18
-    ],
-    "as": [
-     "动画版",
-     "动画化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "死亡"
+     "分镜",
+     "动画剧本",
+     "系列构成"
     ],
     "via": "body"
    },
@@ -201,7 +100,7 @@
     "name": "随机与运气",
     "facet": "system",
     "seg": [
-     6
+     16
     ],
     "as": [
      "运气"
@@ -209,42 +108,32 @@
     "via": "body"
    },
    {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
     "seg": [
-     8,
-     11
+     17,
+     23,
+     29,
+     39,
+     63,
+     66
     ],
     "as": [
-     "家庭"
+     "动画版",
+     "动画化"
     ],
     "via": "body"
    },
    {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
     "seg": [
-     8,
-     12,
-     15
+     28
     ],
     "as": [
-     "机能",
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     11
-    ],
-    "as": [
-     "掌机"
+     "台词"
     ],
     "via": "body"
    },
@@ -253,22 +142,12 @@
     "name": "社会反响",
     "facet": "audience",
     "seg": [
-     11
+     50,
+     58
     ],
     "as": [
+     "批评",
      "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     15
-    ],
-    "as": [
-     "反派"
     ],
     "via": "body"
    },
@@ -277,10 +156,95 @@
     "name": "销量",
     "facet": "business",
     "seg": [
-     15
+     68,
+     94,
+     95,
+     105,
+     106
     ],
     "as": [
      "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
+    "seg": [
+     69,
+     70,
+     71,
+     75,
+     76,
+     77
+    ],
+    "as": [
+     "漫画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     95,
+     100
+    ],
+    "as": [
+     "周边商品"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     101,
+     148
+    ],
+    "as": [
+     "广告",
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     123
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     127,
+     137
+    ],
+    "as": [
+     "动画电影"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
+    "seg": [
+     130
+    ],
+    "as": [
+     "字数"
     ],
     "via": "body"
    }
@@ -288,14 +252,14 @@
  },
  "observations": [
   {
-   "seg": 3,
-   "text": "从剧本定稿到整集动画封包出片需三到四个月周期",
-   "anchor": 4
+   "seg": 29,
+   "text": "总导演的沮丧程度，已经超出了可怜的地步",
+   "anchor": 30
   },
   {
-   "seg": 4,
-   "text": "会上决定把做到一半的剧集全部完成，尽管全系列停播",
-   "anchor": 5
+   "seg": 64,
+   "text": "游戏方立刻准备了“游戏和动画是不同的表现形式”的说法",
+   "anchor": 65
   }
  ],
  "relations": [
@@ -319,7 +283,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch155",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）",
+   "title": "首藤刚志动画创作手记 第155回：不听人类摆布的宝可梦",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/",
    "why": "第155回交代原定80话完结的构想"
   },
@@ -327,7 +291,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch138",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "title": "首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch138/",
    "why": "第138回交代汤山邦彦引荐首藤接手企划"
   }
@@ -335,8 +299,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

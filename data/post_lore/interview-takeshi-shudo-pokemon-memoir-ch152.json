@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch152",
  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 12
+  "n": 135
  },
  "facets": {
   "pokemon": [
@@ -14,9 +14,12 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     6,
-     7,
-     8
+     55,
+     56,
+     59,
+     61,
+     62,
+     63
     ],
     "as": [
      "妙蛙种子"
@@ -27,7 +30,7 @@
     "name": "妙蛙草",
     "ndex": 2,
     "seg": [
-     8
+     68
     ],
     "as": [
      "妙蛙草"
@@ -38,7 +41,7 @@
     "name": "妙蛙花",
     "ndex": 3,
     "seg": [
-     8
+     68
     ],
     "as": [
      "妙蛙花"
@@ -49,7 +52,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     7
+     43
     ],
     "as": [
      "皮卡丘"
@@ -60,8 +63,12 @@
     "name": "呆呆兽",
     "ndex": 79,
     "seg": [
-     6,
-     8
+     72,
+     73,
+     75,
+     77,
+     80,
+     81
     ],
     "as": [
      "呆呆兽"
@@ -69,15 +76,15 @@
     "via": "body"
    },
    {
-    "name": "伽勒尔喵喵",
-    "ndex": 52,
+    "name": "鬼斯通",
+    "ndex": 93,
     "seg": [
-     7
+     102
     ],
     "as": [
-     "喵喵"
+     "鬼斯通"
     ],
-    "via": "llm"
+    "via": "body"
    }
   ],
   "works": [
@@ -88,42 +95,31 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
+    "name": "超梦的逆袭",
+    "slug": null,
+    "seg": [
+     41,
+     42
+    ],
     "via": "entities"
-   },
-   {
-    "name": "水户黄门",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "幽灵宝可梦与夏日祭典",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "正辉的灯塔",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
    },
    {
     "name": "时光倒流七十年",
     "slug": null,
     "seg": [
-     11
+     95
     ],
-    "via": "llm"
+    "via": "entities"
+   },
+   {
+    "name": "甜甜仙子",
+    "slug": null,
+    "seg": [
+     120,
+     123,
+     125
+    ],
+    "via": "entities"
    }
   ],
   "people": [
@@ -134,46 +130,20 @@
     "seg": []
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "小刚",
-    "slug": "xiao-gang",
-    "role": "mentioned",
-    "seg": [
-     11
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小次郎",
-    "slug": "xiao-ci-lang",
-    "role": "mentioned",
-    "seg": [
-     11
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "理查德·马瑟森",
+    "name": "理查德·马西森",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     11
-    ],
-    "via": "llm"
+     95
+    ]
    },
    {
-    "name": "约翰·巴里",
+    "name": "让诺·斯瓦克",
     "slug": null,
     "role": "mentioned",
     "seg": [
-     11
-    ],
-    "via": "llm"
+     95
+    ]
    }
   ],
   "places": [
@@ -185,7 +155,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     10
+     90
     ],
     "what": "神威岩所在之地",
     "via": "llm"
@@ -198,22 +168,9 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     10
+     90
     ],
     "what": "又名少女岩的巨岩",
-    "via": "llm"
-   },
-   {
-    "name": "少女峡",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     10
-    ],
-    "what": "第20话副题地点",
     "via": "llm"
    },
    {
@@ -224,7 +181,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     10
+     89
     ],
     "what": "首藤刚志童年旅居地",
     "via": "llm"
@@ -237,7 +194,11 @@
     "facet": "design",
     "seg": [
      0,
-     7
+     1,
+     10,
+     13,
+     33,
+     45
     ],
     "as": [
      "叫声"
@@ -245,40 +206,46 @@
     "via": "body"
    },
    {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
     "seg": [
-     1,
-     7
+     3,
+     37,
+     103
     ],
     "as": [
-     "海外市场",
-     "海外版"
+     "动画版"
     ],
     "via": "body"
    },
    {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
     "seg": [
-     1
+     12,
+     58,
+     65,
+     71,
+     84,
+     86
     ],
     "as": [
-     "复刻"
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
    {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
+    "id": "connection",
+    "name": "人与人的连接",
     "facet": "design",
     "seg": [
-     3
+     22
     ],
     "as": [
-     "生态"
+     "沟通"
     ],
     "via": "body"
    },
@@ -287,7 +254,8 @@
     "name": "对战系统",
     "facet": "system",
     "seg": [
-     4
+     32,
+     33
     ],
     "as": [
      "宝可梦对战"
@@ -299,62 +267,37 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     5
+     34
     ],
     "as": [
-     "儿童"
+     "孩子们"
     ],
     "via": "body"
    },
    {
-    "id": "scenario",
-    "name": "剧本",
+    "id": "dialogue",
+    "name": "台词",
     "facet": "story",
     "seg": [
-     6,
-     7,
-     10,
-     11
+     38,
+     70,
+     117,
+     129
     ],
     "as": [
-     "剧本",
-     "编剧"
+     "台词"
     ],
     "via": "body"
    },
    {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
     "seg": [
-     7
+     39
     ],
     "as": [
-     "本地化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     8
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "提案"
+     "字数"
     ],
     "via": "body"
    },
@@ -363,7 +306,7 @@
     "name": "世界观设定",
     "facet": "design",
     "seg": [
-     8
+     40
     ],
     "as": [
      "世界观"
@@ -371,14 +314,55 @@
     "via": "body"
    },
    {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
     "seg": [
-     10
+     41
     ],
     "as": [
-     "童年"
+     "剧场版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     49,
+     60,
+     70
+    ],
+    "as": [
+     "各国语言",
+     "翻译"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     61
+    ],
+    "as": [
+     "主题是"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     86,
+     127
+    ],
+    "as": [
+     "每集",
+     "分镜"
     ],
     "via": "body"
    },
@@ -387,10 +371,34 @@
     "name": "背景音乐",
     "facet": "audio",
     "seg": [
-     11
+     97
     ],
     "as": [
      "配乐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "price-model",
+    "name": "免费与付费",
+    "facet": "business",
+    "seg": [
+     124
+    ],
+    "as": [
+     "免费"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     129
+    ],
+    "as": [
+     "配音"
     ],
     "via": "body"
    }
@@ -398,14 +406,14 @@
  },
  "observations": [
   {
-   "seg": 1,
-   "text": "第17话《巨大宝可梦之岛！？》为宝可梦啼鸣配上字幕",
-   "anchor": 2
+   "seg": 10,
+   "text": "第17话之后，似乎再也没做过给宝可梦叫声加字幕的剧集",
+   "anchor": 11
   },
   {
-   "seg": 1,
-   "text": "此后制作组再未制作附带字幕的宝可梦回目",
-   "anchor": 2
+   "seg": 90,
+   "text": "第20话的舞台取材于积丹半岛高30米以上的神威岩",
+   "anchor": 91
   }
  ],
  "relations": [
@@ -413,15 +421,15 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch150",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）",
+   "title": "首藤刚志动画创作手记 第150回：《宝可梦》“正辉的灯塔”",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch150/",
-   "why": "第150回谈克制不早揭宝可梦心声与对战本质，本篇正论此议题"
+   "why": "第150回谈暂不触及“宝可梦对人类是什么”的主题，本篇讨论宝可梦的意志与对战"
   },
   {
    "id": "interview-takeshi-shudo-pokemon-memoir-ch156",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）",
+   "title": "首藤刚志动画创作手记 第156回：因《宝可梦》初次体验到压力",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/",
    "why": "第156回谈喵喵充当倾听宝可梦悲喜的耳朵，关联叫声含义"
   },
@@ -429,16 +437,15 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch143",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+   "title": "首藤刚志动画创作手记 第143回：《宝可梦》第1、2话播出",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/",
-   "why": "第143回确立十岁成年等世界观，为本篇对战伦理提供前提"
+   "why": "第143回讲动画版的世界观设定，为本篇讨论对战提供前提"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>JASRAC</h2>
-    <span>1 篇文章 · 0 条评注 · 2010</span>
+    <span>2 篇文章 · 0 条评注 · 2010 / 2008</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -22,6 +22,12 @@ search: false
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第216回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch216/">[访谈翻译] 首藤刚志动画创作手记 第216回：凝视着医院的天花板……</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 216</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论《宝可梦》之前……</a></h3>
+  <span></span>
 </article>
 
   </section>

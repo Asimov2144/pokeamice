@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch141",
  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 12
+  "n": 97
  },
  "facets": {
   "pokemon": [],
@@ -22,14 +22,6 @@
     "slug": "red-green",
     "seg": [],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦物语",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -37,47 +29,12 @@
     "name": "首藤刚志",
     "slug": "shudo-takeshi",
     "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "久保雅一",
-    "slug": "kubo-masakazu",
-    "role": "mentioned",
-    "seg": []
+    "seg": [
+     9
+    ]
    }
   ],
   "places": [
-   {
-    "name": "秋叶原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "购买游戏周边之地",
-    "via": "llm"
-   },
    {
     "name": "京都",
     "id": null,
@@ -86,45 +43,24 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     9
+     59
     ],
     "what": "任天堂总部所在古都",
-    "via": "llm"
-   },
-   {
-    "name": "关东",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     4
-    ],
-    "what": "游戏中的冒险大地",
     "via": "llm"
    }
   ],
   "concepts": [
    {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     0
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
     "id": "scenario",
     "name": "剧本",
     "facet": "story",
     "seg": [
-     2,
-     11
+     13,
+     17,
+     18,
+     23,
+     32,
+     69
     ],
     "as": [
      "编剧",
@@ -133,31 +69,57 @@
     "via": "body"
    },
    {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     3,
-     10
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
     "id": "anime",
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     5,
-     9,
-     10
+     21,
+     23,
+     25,
+     26,
+     32,
+     36
     ],
     "as": [
-     "电视动画",
-     "动画化",
-     "动画版"
+     "动画版",
+     "动画系列",
+     "动画化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     22
+    ],
+    "as": [
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "movie",
+    "name": "剧场版",
+    "facet": "franchise",
+    "seg": [
+     23
+    ],
+    "as": [
+     "电影版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     40
+    ],
+    "as": [
+     "画面上"
     ],
     "via": "body"
    },
@@ -166,7 +128,7 @@
     "name": "主线流程",
     "facet": "system",
     "seg": [
-     5
+     48
     ],
     "as": [
      "通关"
@@ -174,39 +136,14 @@
     "via": "body"
    },
    {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
     "seg": [
-     8,
-     9
+     63
     ],
     "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "media-mix",
-    "name": "媒体展开",
-    "facet": "business",
-    "seg": [
-     8
-    ],
-    "as": [
-     "多媒体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "品质"
+     "培育"
     ],
     "via": "body"
    },
@@ -215,42 +152,26 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     11
+     70,
+     75
     ],
     "as": [
      "系列构成"
     ],
     "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "流水线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [],
-    "as": [
-     "台词"
-    ],
-    "via": "title"
    }
   ]
  },
  "observations": [
   {
-   "seg": 9,
-   "text": "《宝可梦物语》描写他赴京都谈判获授权后在新干线喝啤酒",
-   "anchor": 10
+   "seg": 40,
+   "text": "首藤刚志买了在电视上玩Game Boy游戏的连接装置来玩《宝可梦》",
+   "anchor": 41
+  },
+  {
+   "seg": 59,
+   "text": "《宝可梦物语》写到，取得动画化同意后在回东京的新干线上喝啤酒庆祝",
+   "anchor": 60
   }
  ],
  "relations": [
@@ -258,7 +179,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch140",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "title": "首藤刚志动画创作手记 第140回：请爱《宝可梦》",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch140/",
    "why": "同为连载手记，第140回紧接第141回前一篇"
   },
@@ -266,7 +187,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch142",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+   "title": "首藤刚志动画创作手记 第142回：《宝可梦》音乐剧？",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/",
    "why": "同为连载手记，第142回紧接第141回后一篇"
   },
@@ -274,7 +195,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch139",
    "kind": "background",
    "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "title": "首藤刚志动画创作手记 第139回：关于游戏的动画化我所想到的事",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch139/",
    "why": "第139回谈游戏改编困境，为试玩卡带提供背景"
   }
@@ -282,8 +203,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

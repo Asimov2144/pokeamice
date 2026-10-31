@@ -2,11 +2,11 @@
  "id": "interview-takeshi-shudo-pokemon-memoir-ch156",
  "stem": "2008-08-13-interview-takeshi-shudo-pokemon-memoir-ch156",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-10-31",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 12
+  "n": 196
  },
  "facets": {
   "pokemon": [
@@ -14,21 +14,13 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     7
+     69,
+     70,
+     94,
+     100
     ],
     "as": [
      "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "超梦",
-    "ndex": 150,
-    "seg": [
-     11
-    ],
-    "as": [
-     "Mewtwo"
     ],
     "via": "body"
    }
@@ -41,40 +33,12 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦：超梦的逆袭",
+    "name": "超梦的逆袭",
     "slug": null,
-    "seg": [],
+    "seg": [
+     138
+    ],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "星球大战",
-    "slug": null,
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "帝国反击战",
-    "slug": null,
-    "seg": [
-     11
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -83,65 +47,44 @@
     "slug": "shudo-takeshi",
     "role": "mentioned",
     "seg": [
-     8
+     181
     ]
    },
    {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
+    "name": "柴咲幸",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     4
+     110
     ]
    },
    {
-    "name": "久保雅一",
-    "slug": "kubo-masakazu",
+    "name": "大宅壮一",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     9,
-     10
+     165
     ]
-   },
-   {
-    "name": "武藏",
-    "slug": "wu-cang",
-    "role": "mentioned",
-    "seg": [
-     8
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小次郎",
-    "slug": "xiao-ci-lang",
-    "role": "mentioned",
-    "seg": [
-     8
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "喵喵",
-    "slug": "miao-miao",
-    "role": "mentioned",
-    "seg": [
-     8
-    ],
-    "kind": "character"
    }
   ],
   "places": [],
   "concepts": [
    {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
     "seg": [
-     1
+     4,
+     5,
+     20,
+     34,
+     35,
+     54
     ],
     "as": [
-     "一目了然"
+     "动画化",
+     "动画版",
+     "电视动画"
     ],
     "via": "body"
    },
@@ -150,10 +93,12 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     1,
-     2,
      4,
-     11
+     5,
+     6,
+     7,
+     8,
+     9
     ],
     "as": [
      "剧本",
@@ -162,11 +107,86 @@
     "via": "body"
    },
    {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     8
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime-writing",
+    "name": "动画的写法",
+    "facet": "story",
+    "seg": [
+     9,
+     24,
+     25,
+     30,
+     41,
+     42
+    ],
+    "as": [
+     "系列构成",
+     "分镜",
+     "动画剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     25
+    ],
+    "as": [
+     "路线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     32,
+     41
+    ],
+    "as": [
+     "推翻",
+     "反复推敲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     44,
+     46,
+     48,
+     49
+    ],
+    "as": [
+     "配音",
+     "声优"
+    ],
+    "via": "body"
+   },
+   {
     "id": "children",
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     2
+     47,
+     172,
+     173
     ],
     "as": [
      "孩子们"
@@ -178,46 +198,36 @@
     "name": "周边商品",
     "facet": "business",
     "seg": [
-     2
+     48,
+     125
     ],
     "as": [
-     "玩具"
+     "玩具",
+     "周边商品"
     ],
     "via": "body"
    },
    {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
+    "id": "manga",
+    "name": "漫画",
+    "facet": "franchise",
     "seg": [
-     2
+     58
     ],
     "as": [
-     "声优"
+     "漫画"
     ],
     "via": "body"
    },
    {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
     "seg": [
-     3
+     72
     ],
     "as": [
-     "社会现象"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     7
-    ],
-    "as": [
-     "每集"
+     "真实感"
     ],
     "via": "body"
    },
@@ -226,8 +236,9 @@
     "name": "对手与反派",
     "facet": "story",
     "seg": [
-     7,
-     8
+     89,
+     96,
+     104
     ],
     "as": [
      "反派"
@@ -239,7 +250,8 @@
     "name": "背景音乐",
     "facet": "audio",
     "seg": [
-     7
+     89,
+     103
     ],
     "as": [
      "主题曲"
@@ -251,7 +263,7 @@
     "name": "道具与精灵球",
     "facet": "system",
     "seg": [
-     7
+     94
     ],
     "as": [
      "精灵球"
@@ -263,10 +275,79 @@
     "name": "剧场版",
     "facet": "franchise",
     "seg": [
-     10
+     108,
+     118,
+     124,
+     126,
+     127,
+     134
     ],
     "as": [
-     "剧场版"
+     "电影版",
+     "动画电影"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "remake",
+    "name": "复刻与重制",
+    "facet": "process",
+    "seg": [
+     111
+    ],
+    "as": [
+     "重新制作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dialogue",
+    "name": "台词",
+    "facet": "story",
+    "seg": [
+     112
+    ],
+    "as": [
+     "台词"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     127
+    ],
+    "as": [
+     "主题是"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "education",
+    "name": "教育与育儿",
+    "facet": "audience",
+    "seg": [
+     148,
+     150,
+     152
+    ],
+    "as": [
+     "教材"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     162,
+     163
+    ],
+    "as": [
+     "吃惊"
     ],
     "via": "body"
    }
@@ -274,14 +355,14 @@
  },
  "observations": [
   {
-   "seg": 4,
-   "text": "首藤刚志深夜穿睡衣开车还录像带，被交警拦下且驾照忘在工作室",
-   "anchor": 5
+   "seg": 74,
+   "text": "首藤刚志穿着睡衣开车去还录像带，被警察拦下",
+   "anchor": 75
   },
   {
-   "seg": 11,
-   "text": "久保雅一因《星球大战》有《帝国反击战》而决定用「逆袭」一词",
-   "anchor": 12
+   "seg": 96,
+   "text": "火箭队三人组作为常驻反派，比主人公更能俯瞰《宝可梦》世界",
+   "anchor": 97
   }
  ],
  "relations": [
@@ -289,7 +370,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch157",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
+   "title": "首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——几个月前",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch157/",
    "why": "同为连载手记，第157回紧接第156回"
   },
@@ -297,7 +378,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch158",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+   "title": "首藤刚志动画创作手记 第158回：宝可梦事件，从“活该。啊哈哈”开始",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch158/",
    "why": "同为连载手记，第158回接续第156回"
   },
@@ -305,7 +386,7 @@
    "id": "interview-takeshi-shudo-pokemon-memoir-ch155",
    "kind": "continues",
    "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）",
+   "title": "首藤刚志动画创作手记 第155回：不听人类摆布的宝可梦",
    "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch155/",
    "why": "同为连载手记，第155回为第156回前篇"
   },
@@ -321,8 +402,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false
