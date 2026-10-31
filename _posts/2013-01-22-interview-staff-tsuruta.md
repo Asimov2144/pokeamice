@@ -30,6 +30,10 @@ workflow:
   proofreading: pending
   published: done
 entities:
+  people:
+  - つるたさや
+  works:
+  - 宝可梦 心金·魂银
   organizations:
   - Game Freak
   - Nintendo
@@ -51,7 +55,7 @@ parallel_items:
   note: 鹤田为姓氏。
 - type: paragraph
   original: ポケットモンスター ハートゴールド・ソウルシルバーでは
-  translation: 在《宝可梦 心金/魂银》中，
+  translation: "在《宝可梦 心金·魂银》中，"
 - type: paragraph
   original: 主に連れ歩きポケモンのグラフィックを担当いたしました。
   translation: 我主要负责跟随宝可梦的图形设计。
@@ -115,7 +119,7 @@ parallel_items:
   note: 指《宝可梦 钻石·珍珠》和《宝可梦 白金》游戏。
 - type: paragraph
   original: 大事に育てて来たあのポケモンを、HG・SSに連れてきたり。
-  translation: 把一直悉心培育的那只宝可梦带到《心金/魂银》里来。
+  translation: "把一直悉心培育的那只宝可梦带到《心金·魂银》里来。"
   note: HG・SS指《宝可梦 心金/魂银》，是《金/银》的重制版。
 - type: paragraph
   original: いままでのシリーズでもう見慣れているポケモンでも、
@@ -130,7 +134,7 @@ parallel_items:
   note: ポケスロン是《心金/魂银》中的设施，官方译名为“宝可梦全能竞技赛”。
 - type: paragraph
   original: あれ？気付いたらHG・SSのボックスがいままでで一番充実してる！
-  translation: 咦？回过神来，发现《心金/魂银》的盒子比以往任何时候都充实！
+  translation: "咦？回过神来，发现《心金·魂银》的盒子比以往任何时候都充实！"
   note: ボックス指游戏中的宝可梦存放系统。
 - type: paragraph
   original: なんてことになっていたらうれしいです。

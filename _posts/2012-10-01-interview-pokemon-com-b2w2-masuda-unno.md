@@ -116,11 +116,11 @@ parallel_items:
 - original: One of the biggest features is the Funfest Missions, where up to 100 players can play together simultaneously. One player can start a Funfest Mission, and anyone in the area who is playing will get an invitation to participate.
   role: answer
   speaker: 海野隆雄
-  translation: 最大的功能之一是欢乐祭任务，最多可有100名玩家同时游玩。一名玩家可以发起欢乐祭任务，附近任何正在游玩的玩家都会收到参加邀请。
+  translation: "最大的功能之一是庆典任务，最多可有100名玩家同时游玩。一名玩家可以发起庆典任务，附近任何正在游玩的玩家都会收到参加邀请。"
 - original: Funfest Missions are always cooperative, with everyone trying to complete the same goal. It might be collecting Berries or searching for a specific Pokémon. By hitting these goals, everyone gets points, which will then earn you items that could be very helpful during gameplay.
   role: answer
   speaker: 海野隆雄
-  translation: 欢乐祭任务始终是合作性的，所有人一起努力完成同一个目标。可能是采集树果，也可能是寻找特定的宝可梦。达成这些目标后，每个人都能获得点数，进而换取在游戏过程中非常有用的道具。
+  translation: "庆典任务始终是合作性的，所有人一起努力完成同一个目标。可能是采集树果，也可能是寻找特定的宝可梦。达成这些目标后，每个人都能获得点数，进而换取在游戏过程中非常有用的道具。"
 - original: 'P.Com: It has always seemed like there is an emphasis to create a strong personal bond between the player and the in-game character. Why do you feel that is important with Pokémon games?'
   role: question
   speaker: Pokemon.com
@@ -188,7 +188,7 @@ parallel_items:
 - original: In regards to setting, at least, whenever a theme is decided we’ll start thinking about specific locations. For example, in Pokémon Black Version and Pokémon White Version the general theme is Manhattan and New York City. In more general terms, I try to be inspired by everything, by noticing and observing differences in the places I go. I try to take all my experiences from day-to-day life and put them into what I create, so it’s hard to pinpoint one exact thing.
   role: answer
   speaker: 增田顺一
-  translation: 至少在设定方面，每当决定一个主题时，我们就会开始考虑具体的地点。例如，在《宝可梦 黑版》和《宝可梦 白版》中，总体主题是曼哈顿和纽约市。更笼统地说，我试着从一切事物中获取灵感，通过注意和观察我所去之处差异。我试着把日常生活中的所有经历都融入到我的创作中，所以很难指出某一件具体的事。
+  translation: "至少在设定方面，每当决定一个主题时，我们就会开始考虑具体的地点。例如，在《宝可梦 黑版》和《宝可梦 白版》中，总体主题是曼哈顿和纽约市。更笼统地说，我试着从一切事物中获取灵感，通过留意并观察我去过的各个地方的不同。我试着把日常生活中的所有经历都融入到我的创作中，所以很难指出某一件具体的事。"
 - original: 'P.Com: There are so many Pokémon now, as well as so many different ways to battle, such as Triple Battles and Rotation Battles, the testing to ensure gameplay balance must be incredibly difficult. How does gameplay testing work for these kinds of games, such as making sure no Pokémon or moves are too powerful?'
   role: question
   speaker: Pokemon.com
@@ -244,7 +244,7 @@ parallel_items:
 - original: The focus back then was really on trading. So everything was designed around that aspect. For example, the Pokédex was added so people could keep track of what Pokémon they had with trading in mind. Even giving them moves was done in an effort to add value to each Pokémon so people would want to trade them. But really the whole process of creating a game from scratch was very memorable for me.
   role: answer
   speaker: 增田顺一
-  translation: 当时重点确实在交换上。所以一切都是围绕这个方面来设计的。比如，加入宝可梦图鉴 App 是为了让人们能记录自己拥有哪些宝可梦，同时考虑到交换。甚至给它们招式也是为了增加每只宝可梦的价值，让人们愿意去交换它们。但真正让我难忘的，还是从零开始制作一款游戏的整个过程。
+  translation: "当时重点确实在交换上。所以一切都是围绕这个方面来设计的。比如，加入宝可梦图鉴是为了让人们能记录自己拥有哪些宝可梦，同时考虑到交换。甚至给它们招式也是为了增加每只宝可梦的价值，让人们愿意去交换它们。但真正让我难忘的，还是从零开始制作一款游戏的整个过程。"
 dek: 增田顺一与海野隆雄谈《宝可梦 黑2／白2》的续作设计与合众两年变迁。
 summary: 2012 年 Pokémon.com 专访 GAME FREAK 开发部长增田顺一与《宝可梦 黑2／白2》总监海野隆雄。增田介绍其兼任总监、作曲与剧情编写，海野说明其艺术总监职责及本作总监工作。两人谈到《宝可梦 黑2／白2》在《宝可梦 黑／白》日本发售前三四个月即开始讨论，设定为两年后的合众地区，并加入宝可坞、支持最多 100 人的节庆任务与回忆连线。增田解释不做单一强化版而做双续作的原因，提及曾考虑把初始宝可梦改为五只或钢、毒属性，并说明有专门小组测试对战平衡。他还谈到用推特与玩家交流，以及开发六年的《宝可梦 红／绿》。
 topics:

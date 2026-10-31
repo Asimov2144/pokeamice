@@ -77,7 +77,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ニンドリ読者が選ぶ!! イッシュ地ポケモン人気"
-    translation: Nindori读者评选！！合众地区宝可梦人气
+    translation: "Nintendo DREAM读者评选！！合众地区宝可梦人气"
     comment: Nindori为《Nintendo DREAM》杂志的昵称
     scan_box:
       - 415
@@ -127,7 +127,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "←1位はなんとシャンデラ!! しかも2位に100票以上の差をつける圧勝で、正直編集部もビックリ。ゴージャスなフォルムや味のある表情、そしてバトルでの強さが、女性を中心に幅広い人気を呼んだ模様だ"
-    translation: "←第1名竟然是水晶灯火灵!! 而且以领先第2名100票以上的压倒性优势获胜，说实话编辑部也吓了一跳。华丽的造型、有味道的表情，再加上对战中的实力，似乎赢得了以女性为中心的广泛人气"
+    translation: "←第1名竟然是水晶灯火灵！！而且以领先第2名100票以上的压倒性优势获胜，说实话编辑部也吓了一跳。华丽的造型、有味道的表情，再加上对战中的实力，似乎赢得了以女性为中心的广泛人气"
     scan_box:
       - 611
       - 688
@@ -143,7 +143,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "↓こちらもバトルでおなじみ。モコモコとしたかわいい見た目に反し、トリッキーな戦法で相手を苦しめる。そのギャップがたまらん!167票"
-    translation: "↓这位在对战中也是熟面孔。与毛茸茸的可爱外表相反，用诡诈的战术折磨对手。这种反差让人受不了!167票"
+    translation: "↓这位在对战中也是熟面孔。与毛茸茸的可爱外表相反，用诡诈的战术折磨对手。这种反差让人受不了！167票"
     scan_box:
       - 947
       - 481
@@ -203,7 +203,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "応募総数約1500!! 投票ありがとう!→この人気投票はニンドリ5月号で開催されたもので、イッシュ地方のポケモン152+1匹に対し3票、人物キャラ31人に対し2票を自由に投票できました投票は5月号で開催"
-    translation: "应募总数约1500!! 感谢投票!→这个人气投票是在Nindori5月号举办的，可以对合众地区的宝可梦152+1只自由投3票、对人物角色31人自由投2票。投票在5月号举办"
+    translation: "应募总数约1500！！感谢投票！→这个人气投票是在Nintendo DREAM 5月号举办的，可以对合众地区的宝可梦152+1只自由投3票、对人物角色31人自由投2票。投票在5月号举办"
     scan_box:
       - 127
       - 1575
@@ -219,7 +219,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "←『ポケットモンスターブラック』のパッケージを飾る伝説のポケモンが3位に! ちなみにレシラムとゼクロムだと、男性はゼクロム、女性はレシラムの方が人気が高かった"
-    translation: "←登上《宝可梦 黑》包装的传说宝可梦获得第3名! 顺带一提，就莱希拉姆和捷克罗姆而言，男性更喜欢捷克罗姆，女性更喜欢莱希拉姆"
+    translation: "←登上《宝可梦 黑》包装的传说宝可梦获得第3名！顺带一提，就莱希拉姆和捷克罗姆而言，男性更喜欢捷克罗姆，女性更喜欢莱希拉姆"
     scan_box:
       - 1375
       - 1571
@@ -302,7 +302,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: "5月号で開催されたポケモン人気投票。応募総数約1500は、これまでニンドリで開催された人気投票でも最大規模でした!! 1人あたり3票を自由に投票できたシステムが、結果にどう反映されるか…。まずはポケモン部門上位30匹を発表!!"
-    translation: 5月号举办的宝可梦人气投票。应募总数约1500票，是至今Nindori举办的人气投票中规模最大的一次！！每人可自由投3票的机制，会如何反映在结果上……首先公布宝可梦部门的前30名！！
+    translation: "5月号举办的宝可梦人气投票。应募总数约1500份，是至今Nintendo DREAM举办的人气投票中规模最大的一次！！每人可自由投3票的机制，会如何反映在结果上……首先公布宝可梦部门的前30名！！"
     comment: Nindori为Nintendo DREAM杂志的昵称。
     scan_box:
       - 791
@@ -739,7 +739,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: でんきグモポケモン●むし・でんき
-    translation: 电蜘蛛宝可梦●虫・电
+    translation: "电蜘蛛宝可梦●虫·电"
     scan_box:
       - 860
       - 434
@@ -799,7 +799,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: こくいんポケモン●ドラゴン・でんき
-    translation: 黑阴宝可梦●龙・电
+    translation: "黑阴宝可梦●龙·电"
     scan_box:
       - 116
       - 532
@@ -864,7 +864,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: たいようポケモン●むし・ほのお
-    translation: 太阳宝可梦●虫・火
+    translation: "太阳宝可梦●虫·火"
     scan_box:
       - 1084
       - 997
@@ -880,7 +880,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ←むし・どくタイプのポケモンが上位に来るのは珍しい。カッコイイぜ！
-    translation: ←虫・毒属性的宝可梦能进入上位实属罕见。真帅！
+    translation: "←虫·毒属性的宝可梦能进入上位实属罕见。真帅！"
     scan_box:
       - 770
       - 827
@@ -978,7 +978,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 76票メガムカデポケモン●むし・どく
-    translation: 76票 巨蜈蚣宝可梦●虫・毒
+    translation: "76票 巨蜈蚣宝可梦●虫·毒"
     scan_box:
       - 575
       - 1153
@@ -1038,7 +1038,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: モモンガポケモン●でんき・ひこう
-    translation: 飞鼠宝可梦●电・飞行
+    translation: "飞鼠宝可梦●电·飞行"
     scan_box:
       - 119
       - 1427
@@ -1151,7 +1151,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ←シャンデラの進化前の姿であるヒトモシも入賞。あの口がたまらん！
-    translation: ←吊灯幽灵的进化前形态烛光灵也入选。那张嘴实在让人受不了！
+    translation: "←水晶灯火灵的进化前形态烛光灵也入选。那张嘴实在让人受不了！"
     scan_box:
       - 306
       - 1622
@@ -1200,7 +1200,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ろうそくポケモン●ゴースト・ほのお
-    translation: 蜡烛宝可梦●幽灵・火
+    translation: "蜡烛宝可梦●幽灵·火"
     scan_box:
       - 119
       - 1898
@@ -1233,7 +1233,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: しょうりポケモン●エスパー・ほのお
-    translation: 胜利宝可梦●超能力・火
+    translation: "胜利宝可梦●超能力·火"
     scan_box:
       - 585
       - 1898
@@ -1249,7 +1249,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: →アララギ博士とともにゲーム開始直後に登場したのが印象的でした
-    translation: →与阿拉拉奇博士一同在游戏刚开始时登场，令人印象深刻
+    translation: "→与红豆杉博士一同在游戏刚开始时登场，令人印象深刻"
     scan_box:
       - 973
       - 1647
@@ -1337,7 +1337,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: ←クールな雰囲気のあくタイプは人気がある。キリキザンも上位入賞！
-    translation: ←冷酷氛围的恶属性很受欢迎。劈斩司令也进入了上位！
+    translation: "←酷劲十足的恶属性很受欢迎。劈斩司令也进入了上位！"
     scan_box:
       - 1160
       - 72
@@ -1353,7 +1353,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 21位 63票キリキザンとうじんポケモン●あく・はがね
-    translation: 第21名 63票 劈斩司令 刀刃宝可梦●恶・钢
+    translation: "第21名 63票 劈斩司令 刀刃宝可梦●恶·钢"
     scan_box:
       - 597
       - 143
@@ -1465,7 +1465,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 53票27位 マッギョトラップポケモン●じめん・でんき
-    translation: 53票第27名 泥巴鱼 陷阱宝可梦●地面・电
+    translation: "53票第27名 泥巴鱼 陷阱宝可梦●地面·电"
     scan_box:
       - 1055
       - 760
@@ -1545,7 +1545,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 48票29位 デスカーンかんおけポケモン●ゴースト→一見怖そうだけど、意外と愛きょうのある顔だよね
-    translation: 48票第29名 迭失棺 棺木宝可梦●幽灵→乍看之下很可怕，但意外地有一张讨喜的脸呢
+    translation: "48票第29名 死神棺 棺木宝可梦●幽灵→乍看之下很可怕，但意外地有一张讨喜的脸呢"
     scan_box:
       - 472
       - 1278
@@ -1594,7 +1594,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: "というわけで、圧倒的な強さを見せたシャンデラがみごと1位に!! 今回の人気投票は男性より女性の投票の方が多かったので、女性に人気のポケモンが全体的に上位に入っている。シャンデラ、エルフーン、ランクルスはまさにその典型といえよう。また、かわいいだけでなく「強い」ことも人気の条件。シャンデラ、エルフーン、ランクルス、サザンドラなどは、Wi-Fiでの通信対戦でもよく見かけるポケモンで、バトルをやり込むプレイヤーにはおなじみ。「かわいい」だけでなく「強く」ないと、ニンドリ読者のハートはつかめないのだ。さらに注目したいのが、むしタイプのポケモンの躍進。8位のバチュルを筆頭に、デンチュラ、ペンドラー、ウルガモスがランクインを果たした。リアルに虫っぽいと、女性からは敬遠されそうだが…。デザインのバランスがうまく取れていたということか。"
-    translation: 就这样，展现出压倒性强度的吊灯以出色的表现拿下第1名！！这次的人气投票中女性投票多于男性，因此受女性欢迎的宝可梦整体上排名靠前。吊灯、风妖精、人造细胞卵正是其典型代表。此外，不仅是可爱，「强」也是受欢迎的条件。吊灯、风妖精、人造细胞卵、三头龙等，在Wi-Fi通信对战中也是常见的宝可梦，是深入钻研对战的玩家所熟悉的。光靠「可爱」而不「强」，是抓不住Nintendo DREAM读者的心的。更值得关注的是虫属性宝可梦的跃进。以第8名的电电虫为首，电蜘蛛、蜈蚣王、火神蛾都成功上榜。若做得太像真实的虫子，似乎会被女性敬而远之……这或许说明它们在设计上取得了良好的平衡。
+    translation: "就这样，展现出压倒性强度的水晶灯火灵以出色的表现拿下第1名！！这次的人气投票中女性投票多于男性，因此受女性欢迎的宝可梦整体上排名靠前。水晶灯火灵、风妖精、人造细胞卵正是其典型代表。此外，不仅是可爱，「强」也是受欢迎的条件。水晶灯火灵、风妖精、人造细胞卵、三首恶龙等，在Wi-Fi通信对战中也是常见的宝可梦，是深入钻研对战的玩家所熟悉的。光靠「可爱」而不「强」，是抓不住Nintendo DREAM读者的心的。更值得关注的是虫属性宝可梦的跃进。以第8名的电电虫为首，电蜘蛛、蜈蚣王、火神蛾都成功上榜。若做得太像真实的虫子，似乎会被女性敬而远之……这或许说明它们在设计上取得了良好的平衡。"
     scan_box:
       - 91
       - 1538
@@ -1621,7 +1621,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: "●男性票ベスト5 ●女性票ベスト5\n1 サザンドラ 1 シャンデラ\n2 ミジュマル 2 エルフーン\n3 ゼクロム 3 ランクルス\n4 ツタージャ 4 ジャローダ\n5 レシラム 5 バチュル"
-    translation: "●男性票前5名 ●女性票前5名\n1 三头龙 1 吊灯\n2 水水獭 2 风妖精\n3 捷克罗姆 3 人造细胞卵\n4 藤藤蛇 4 君主蛇\n5 莱希拉姆 5 电电虫"
+    translation: "●男性票前5名 ●女性票前5名\n1 三首恶龙 1 水晶灯火灵\n2 水水獭 2 风妖精\n3 捷克罗姆 3 人造细胞卵\n4 藤藤蛇 4 君主蛇\n5 莱希拉姆 5 电电虫"
     scan_box:
       - 817
       - 1477
@@ -1650,7 +1650,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "首位争いは白熱の展開に!! 人物キャラ部門 1位プラズマ団の王N"
-    translation: 首位之争进入白热化！！ 人物角色部门 第1名 等离子团的王N
+    translation: "首位之争进入白热化！！ 人物角色部门 第1名 等离子队的王N"
     scan_box:
       - 43
       - 41
@@ -1682,7 +1682,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: "→ノボリの猛追をかわし、Nがみごとに1位を獲得!! プラズマ団の王でありながら、あまりに純粋で、それゆえに悩むN。強さともろさが同居するような危うさが、多くのファンの共感を呼んだ"
-    translation: →甩开北尚的猛烈追赶，N出色地夺得第1名！！身为等离子团的王，却过于纯粹，也因此而苦恼的N。强大与脆弱并存的危险感，引起了众多粉丝的共鸣
+    translation: "→甩开北尚的猛烈追赶，N出色地夺得第1名！！身为等离子队的王，却过于纯粹，也因此而苦恼的N。强大与脆弱并存的危险感，引起了众多粉丝的共鸣"
     scan_box:
       - 343
       - 532
@@ -1815,7 +1815,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: ↑フウロと異なり、男性だけでなく女性票も多かったのがカミツレ。かっこいい美しさだ
-    translation: ↑与小菊儿不同，不仅男性，女性投票也很多的是小菊儿。是帅气的美丽。
+    translation: "↑与风露不同，不仅男性，女性投票也很多的是小菊儿。是帅气的美丽。"
     scan_box:
       - 766
       - 1884
@@ -2005,7 +2005,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 9位●主人公の幼なじみベル
-    translation: 第9位●主角的青梅竹马贝尔
+    translation: "第9位●主角的青梅竹马白露"
     scan_box:
       - 778
       - 569
@@ -2133,7 +2133,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 11位●ポケモンリーグ四天王ギーマ↑カトレアとのデッドヒートを制し、ポケモンリーグ四天王内トップの椅子を確保！
-    translation: 第11位●宝可梦联盟四天王菊野 ↑在与嘉德丽雅的激烈竞争中胜出，确保了宝可梦联盟四天王中头把交椅！
+    translation: "第11位●宝可梦联盟四天王越橘 ↑在与嘉德丽雅的激烈竞争中胜出，确保了宝可梦联盟四天王中头把交椅！"
     scan_box:
       - 59
       - 1163
@@ -2246,7 +2246,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 興味深かったのが男女主人公の人気。一般的に男性は女性キャラ、女性は男性キャラに投票しがちだが、主人公に関しては男性は男の子主人公、女性は女の子主人公と、同性の方が人気が高かった。「自分の分身」として遊ぶうちに愛着が湧くのだろう。女性キャラで上位に入ったフウロとカミツレは、男女で票の傾向がまったく違っていて面白い。フウロはとにかく男性票が多かった！
-    translation: 有趣的是男女主人公的人气。一般来说男性容易投给女性角色、女性容易投给男性角色，但关于主人公，男性投给男孩子主人公、女性投给女孩子主人公，同性的支持率更高。大概是在作为「自己的分身」游玩的过程中产生了感情吧。在女性角色中进入前列的风露和嘉德丽雅，男女投票倾向完全不同，很有意思。风露总之男性票非常多！
+    translation: "有趣的是男女主人公的人气。一般来说男性容易投给女性角色、女性容易投给男性角色，但关于主人公，男性投给男孩子主人公、女性投给女孩子主人公，同性的支持率更高。大概是在作为「自己的分身」游玩的过程中产生了感情吧。在女性角色中进入前列的风露和小菊儿，男女投票倾向完全不同，很有意思。风露总之男性票非常多！"
     scan_box:
       - 456
       - 1540
@@ -2262,7 +2262,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: "●男性票ベスト5\n1 フウロ\n2 N\n3 男の子主人公\n4 カミツレ\n5 ベル"
-    translation: "●男性票前5名\n1 风露\n2 N\n3 男孩子主人公\n4 嘉德丽雅\n5 白露"
+    translation: "●男性票前5名\n1 风露\n2 N\n3 男孩子主人公\n4 小菊儿\n5 白露"
     scan_box:
       - 816
       - 1491
@@ -2340,7 +2340,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ニンドリNo.1に輝く魅惑の炎イッシュ図鑑No.115 いざないポケモンシャンデラ
-    translation: 荣登Nindori No.1的魅惑之炎 合众图鉴No.115 引诱宝可梦水晶灯火灵
+    translation: "荣登Nintendo DREAM No.1的魅惑之炎 合众图鉴No.115 引诱宝可梦水晶灯火灵"
     scan_box:
       - 653
       - 86
@@ -2356,7 +2356,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: "タイプ:ゴースト・ほのお"
-    translation: 属性：幽灵・火
+    translation: "属性：幽灵·火"
     scan_box:
       - 668
       - 424
@@ -2420,7 +2420,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: "シャンデラがこんなに、特に女性に大人気だったとは…。そもそもヒトモシの時点でかわいい。あのプニョンとした口は反則だ。シャンデラまで進化すると、かわいいだけでなくゴージャス感もプラス。バトル中は炎とともにシャンデラ自身も左右にユラユラと揺れ、シャンデリアらしさを演出する。この見た目で強い!というギャップもいいのだろう。"
-    translation: 没想到吊灯怪竟然如此受欢迎，尤其是在女性玩家中……。其实在烛光灵阶段就已经很可爱了。那张圆嘟嘟的嘴简直是犯规。进化到吊灯怪之后，不只是可爱，还多了华丽感。战斗中它会和火焰一起左右摇晃，营造出吊灯的感觉。顶着这副外表却很强！这种反差大概也是它受欢迎的原因。
+    translation: "没想到水晶灯火灵竟然如此受欢迎，尤其是在女性玩家中……。其实在烛光灵阶段就已经很可爱了。那张圆嘟嘟的嘴简直是犯规。进化到水晶灯火灵之后，不只是可爱，还多了华丽感。战斗中它会和火焰一起左右摇晃，营造出吊灯的感觉。顶着这副外表却很强！这种反差大概也是它受欢迎的原因。"
     scan_box:
       - 668
       - 522
@@ -2491,7 +2491,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: "Lugulabre ♂ Lv. 67\n名前 シャンデラ\n親 Ace\nもちもの なし\n預けた人 Ace\n住んでいる場所 フランス\nイルド・フランス\nUpper screen"
-    translation: "Lugulabre ♂ Lv. 67\n名字 吊灯怪\n初训家 Ace\n持有物 无\n寄放者 Ace\n所在地区 法国\n法兰西岛大区\nUpper screen"
+    translation: "Lugulabre ♂ Lv. 67\n名字 水晶灯火灵\n初训家 Ace\n持有物 无\n寄放者 Ace\n所在地区 法国\n法兰西岛大区\n上屏"
     scan_box:
       - 1024
       - 885
@@ -2524,7 +2524,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: ◀シャンデラは英語版だと「Chandelure」で日本語とあまり変わりがないが、フランス語版では全然違う名に
-    translation: ◀吊灯怪在英文版里叫「Chandelure」，和日文差别不大，但法语版的名字完全不同
+    translation: "◀水晶灯火灵在英文版里叫「Chandelure」，和日文差别不大，但法语版的名字完全不同"
     scan_box:
       - 1334
       - 995
@@ -2557,7 +2557,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: シャンデラは野生では出現しないポケモンだ。まずはタワーオブヘブンでヒトモシを捕まえよう。それをLv.41まで育てるとランプラーに進化する。ランプラーに道具「やみのいし」を使えば、シャンデラに進化するぞ。なおシャンデラに進化するとレベルアップで技を覚えなくなるので、進化は必要な技を覚えたあとにしよう。
-    translation: 吊灯怪是不会在野外出现的宝可梦。首先在天堂之塔捕捉烛光灵吧。把它培育到Lv.41就会进化为灯火幽灵。对灯火幽灵使用道具「暗之石」，就能进化为吊灯怪。另外，进化为吊灯怪后就不再通过升级学会招式，所以请在学会必要招式之后再进化。
+    translation: "水晶灯火灵是不会在野外出现的宝可梦。首先在天堂之塔捕捉烛光灵吧。把它培育到Lv.41就会进化为灯火幽灵。对灯火幽灵使用道具「暗之石」，就能进化为水晶灯火灵。另外，进化为水晶灯火灵后就不再通过升级学会招式，所以请在学会必要招式之后再进化。"
     scan_box:
       - 124
       - 1245
@@ -2729,7 +2729,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: "シャンデラの魅力は、そのデザインだけではない。Wi-Fiの対人戦でもよく使われる、バトル向きのポケモンなのだ。特攻の高さは伝説のポケモン並みで、攻撃役として超優秀。タイプが一致する「だいもんじ」「シャドーボール」の威力はまさに驚異的!! ダブルバトルでは「ねっぷう」で相手2匹に大ダメージだ! 素早さが中途半端なので、「こだわりスカーフ」や「きあいのタスキ」を持たせると使いやすい。"
-    translation: 水晶灯火灵的魅力不只在于它的设计。它也是在Wi-Fi对战中经常被使用的、适合对战的宝可梦。其特攻之高堪比传说的宝可梦，作为攻击手极为优秀。与自身属性一致的大文字和暗影球，威力堪称惊人！！在双打对战中，用热风能对对手两只造成巨大伤害！由于速度不上不下，让它携带讲究围巾或气势披带会更好用。
+    translation: "水晶灯火灵的魅力不只在于它的设计。它也是在Wi-Fi对战中经常被使用的、适合对战的宝可梦。其特攻之高堪比传说的宝可梦，作为攻击手极为优秀。与自身属性一致的「大字爆炎」「暗影球」，威力堪称惊人！！在双打对战中，用「热风」能对对手两只造成巨大伤害！由于速度不上不下，让它携带「讲究围巾」或「气势披带」会更好用。"
     scan_box:
       - 838
       - 1245
@@ -2809,7 +2809,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: ↑四天王シキミの切り札的なポケモンでもある。痛い目にあったプレイヤーも多いのではないかな?
-    translation: ↑也是四天王志米（シキミ）的王牌宝可梦。想必有不少玩家吃过它的苦头吧？
+    translation: "↑也是四天王婉龙的王牌宝可梦。想必有不少玩家吃过它的苦头吧？"
     comment: シキミ为合众四天王中的幽灵属性专家，中文译名志米。
     scan_box:
       - 838
@@ -3187,7 +3187,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: チュリネ だけど
-    translation: 是藤藤蛇，不过
+    translation: "是百合根娃娃，不过"
     scan_box:
       - 406
       - 963
@@ -3397,7 +3397,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "タイプ:ドラゴン・ほのお"
-    translation: 属性：龙・火
+    translation: "属性：龙·火"
     scan_box:
       - 675
       - 1069
@@ -3461,7 +3461,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "『ポケモンブラック』で入手できる伝説のポケモン。シャンデラをもしのぐ驚異的な特攻を誇る。『ポケモンホワイト』ではNの手持ちとして対決するだけだったが、今年の夏のポケモン映画で『ポケモンホワイト』でも入手可能に!! 詳しくはこの付録P47の『ポケモン堂 出張版』を読もう。"
-    translation: 可在《宝可梦 黑》中获得的传说的宝可梦。拥有甚至凌驾于吊灯之上的惊人特攻。在《宝可梦 白》中它仅作为N的队伍成员与玩家对决，但在今年夏天的宝可梦电影中，《宝可梦 白》里也将可以获取！！详情请阅读本附录P47的《宝可梦堂 出差版》。
+    translation: "可在《宝可梦 黑》中获得的传说的宝可梦。拥有甚至凌驾于水晶灯火灵之上的惊人特攻。在《宝可梦 白》中它仅作为N的队伍成员与玩家对决，但在今年夏天的宝可梦电影中，《宝可梦 白》里也将可以获取！！详情请阅读本附录P47的《宝可梦堂 出差版》。"
     scan_box:
       - 613
       - 1235
@@ -3510,7 +3510,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "入手法 『ポケモンB』でのみNの城で入手可能!!"
-    translation: 获得方法 仅可在《宝可梦B》中于N的城堡获得！！
+    translation: "获得方法 仅可在《宝可梦 黑》中于N的城堡获得！！"
     scan_box:
       - 1022
       - 1044
@@ -3693,7 +3693,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: "←ゼクロムとの宿命の対決!! 純白のポケモンだが、バトル時には炎がつぽを赤く染める"
-    translation: ←与捷克罗姆的宿命对决！！虽然是纯白的宝可梦，但在对战时火焰会将身体染红
+    translation: "←与捷克罗姆的宿命对决！！虽然是纯白的宝可梦，但在对战时火焰会将尾巴染红"
     scan_box:
       - 877
       - 1706
@@ -3815,7 +3815,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: プラズマ団の若き王 N 名場面集
-    translation: 等离子团的年轻王 N 名场面集
+    translation: "等离子队的年轻王 N 名场面集"
     scan_box:
       - 637
       - 205
@@ -3879,7 +3879,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: Upper screen
-    translation: Upper screen
+    translation: "上屏"
     scan_box:
       - 1058
       - 608
@@ -3895,7 +3895,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: ↓プラズマ団の王として戴冠するN。ここから彼の悲しい戦いが始まる
-    translation: ↓作为等离子团之王加冕的N。他悲伤的战斗由此开始
+    translation: "↓作为等离子队之王加冕的N。他悲伤的战斗由此开始"
     scan_box:
       - 823
       - 557
@@ -3911,7 +3911,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: Upper screen
-    translation: Upper screen
+    translation: "上屏"
     scan_box:
       - 767
       - 887
@@ -3960,7 +3960,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: Upper screen
-    translation: Upper screen
+    translation: "上屏"
     scan_box:
       - 1166
       - 856
@@ -4089,7 +4089,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "純粋ゆえにその力は!!"
-    translation: "正因纯粹，其力量才!!"
+    translation: "正因纯粹，其力量……！！"
     scan_box:
       - 105
       - 1063
@@ -4251,7 +4251,7 @@ translation_segments:
     scan_page: 8
     review_status: review
     original: →エンディング後、ゲーチス以外の七賢人をすべて逮捕すると、その後のNの消息が…
-    translation: →通关后，若将盖奇斯以外的七贤人全部逮捕，便会得知N之后的消息……
+    translation: "→通关后，若将魁奇思以外的七贤人全部逮捕，便会得知N之后的消息……"
     scan_box:
       - 987
       - 1806
@@ -4715,7 +4715,7 @@ translation_segments:
     scan_page: 9
     review_status: review
     original: ↑マルチトレインの21戦目、スーパーマルチトレインの49戦目では、ノボリとクダリが2人が相手となる。ちなみにこの2人は双子だが、どちらが兄か弟かは明らかにされていない
-    translation: ↑在多打列车第21战、超级多打列车第49战中，对手是北尚与南厦两人。顺带一提，这两人是双胞胎，但谁是兄谁是弟并未明确
+    translation: "↑在多人列车第21战、超级多人列车第49战中，对手是北尚与南厦两人。顺带一提，这两人是双胞胎，但谁是兄谁是弟并未明确"
     scan_box:
       - 503
       - 1833

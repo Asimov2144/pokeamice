@@ -57,7 +57,7 @@ parallel_items:
 - original: Near the end of Black version and White version’s development, the Game Freak staff was all playing the game and playing through the entire scenario and the story and I heard from a lot of my staff that the characters like N and Ghetsis from the original games, they’re very interesting and a lot of the staff were curious what became of these characters after the end of the game. So from that we really got the idea to maybe follow-up on this. We thought perhaps we could expand on this story a bit more. Take it a bit further in that direction and after that, talking with Mr. Unno, we eventually decided to set it two years later in the same region and we just kind of saw this as a chance to – we hadn’t really done a sequel for the Pokémon games, a direct sequel – so we saw this as a chance to challenge ourselves with something new.
   role: answer
   speaker: 增田顺一
-  translation: "在《黑》《白》开发接近尾声时，GAME FREAK的员工都在玩这款游戏，把整个剧情和故事通了一遍，我从很多同事那里听说，原作的N和盖奇斯这些角色很有意思，很多同事都好奇这些角色在游戏结局之后怎么样了。由此我们真正产生了或许可以接着这个故事做下去的想法。我们觉得也许可以把这个故事再扩展一些，朝那个方向再推进一步，之后和宇野先生商量，最终决定把时间设定在两年后、同一个地区，我们把这看作一个机会——我们此前还没有做过宝可梦游戏的续作，一部直接续作——所以我们把这看作一个挑战自我、尝试新东西的机会。"
+  translation: "在《黑》《白》开发接近尾声时，GAME FREAK的员工都在玩这款游戏，把整个剧情和故事通了一遍，我从很多同事那里听说，原作的N和盖奇斯这些角色很有意思，很多同事都好奇这些角色在游戏结局之后怎么样了。由此我们真正产生了或许可以接着这个故事做下去的想法。我们觉得也许可以把这个故事再扩展一些，朝那个方向再推进一步，之后和海野先生商量，最终决定把时间设定在两年后、同一个地区，我们把这看作一个机会——我们此前还没有做过宝可梦游戏的续作，一部直接续作——所以我们把这看作一个挑战自我、尝试新东西的机会。"
   note: 宇野先生指宇野和之，Game Freak的开发者，长期参与宝可梦系列的制作。
 - original: Why stick to the original DS? Why not move to the 3DS for the new Pokémon?
   role: question
@@ -107,5 +107,5 @@ parallel_items:
 - original: In the Pokémon World Championships, there is a time limit on when you can choose your moves and whatnot. That is one way that the battles can be enjoyed, at the high-level play having a limited amount of time. Similar to chess, we really want players to be able to have enough time to think about which moves they want to use, and not really feel like they’re being rushed and I think that style of battle is really what works. It’s what we think is best for the Pokémon games right now at least.
   role: answer
   speaker: 增田顺一
-  translation: 在宝可梦世界锦标赛上，选择招式等操作是有时间限制的。这也是享受对战的一种方式，在高水平对战中限制一定的时间。和象棋类似，我们真的希望玩家能有足够的时间去思考要用哪些招式，而不是感觉被催促。我认为这种对战风格才是真正行得通的。至少目前我们认为它最适合宝可梦游戏。
+  translation: "在宝可梦世界锦标赛上，选择招式等操作是有时间限制的。这也是享受对战的一种方式，在高水平对战中限制一定的时间。和国际象棋类似，我们真的希望玩家能有足够的时间去思考要用哪些招式，而不是感觉被催促。我认为这种对战风格才是真正行得通的。至少目前我们认为它最适合宝可梦游戏。"
 ---

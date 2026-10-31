@@ -178,7 +178,7 @@ parallel_items:
 - original: There are more traditional styles of recovery, like the potions and whatnot, various recovery items that exist in the game as well. There are definitely a variety of recovery methods in the Pokémon world.
   role: answer
   speaker: 海野隆雄
-  translation: 也有一些更传统的回复方式，比如药水之类的，游戏里还存在各种回复道具。宝可梦世界里确实有各种各样的回复手段。
+  translation: "也有一些更传统的回复方式，比如伤药之类的，游戏里还存在各种回复道具。宝可梦世界里确实有各种各样的回复手段。"
 - original: Don’t trainers who start their adventure in a town far away from the player’s home time have a difficult time starting because of the high level Pokémon and trainers in the area?
   role: question
   speaker: Game Informer
