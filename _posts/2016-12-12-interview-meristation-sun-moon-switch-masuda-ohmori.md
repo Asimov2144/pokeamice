@@ -29,10 +29,10 @@ intro: '2016年12月，随着《宝可梦 太阳／月亮》在欧洲发售并�
 parallel_items:
 - type: narrative
   original: Esta pasada semana, con motivo del lanzamiento europeo de Pokémon Sol y Luna, dos piezas claves de la saga Pokémon desde sus inicios como son Shigeru Ohmori (director) y Junichi Masuda (productor y compositor principal), visitaron la ciudad de Madrid para participar como invitados estrella en el evento Juvenalia así como para ser entrevistados por los medios de comunicación españoles y compartir sus experiencias y sensaciones tras haber creado los que son a todas luces títulos más completos y sorprendentes de la franquicia justo cuando ésta ha cumplido 20 años. Sol y Luna han arrancado rompiendo récords en todo el mundo, pero son muchas las dudas todavía alrededor de no solo estas entregas, que aún tienen mucho que decir, sino de la saga Pokémon en general.
-  translation: 上周，借《宝可梦 太阳／月亮》在欧洲发售之机，宝可梦系列自诞生以来的两位核心人物——大森滋（总监）与增田顺一（制作人兼首席作曲家）——造访马德里，作为明星嘉宾出席马德里青少年博览会（Juvenalia），并接受西班牙媒体采访，分享他们在打造出这一显然是该系列最完整、最令人惊喜的作品之后的经历与感受——而此刻恰逢宝可梦诞生20周年。《太阳／月亮》已在全球范围内打破纪录，但围绕这两部作品乃至整个宝可梦系列，仍有许多疑问有待解答——这两部作品本身也还有很多话要说。
+  translation: "上周，借《宝可梦 太阳·月亮》在欧洲发售之机，宝可梦系列自诞生以来的两位核心人物——大森滋（总监）与增田顺一（制作人兼首席作曲家）——造访马德里，作为明星嘉宾出席马德里青少年博览会（Juvenalia），并接受西班牙媒体采访，分享他们在打造出这一显然是该系列最完整、最令人惊喜的作品之后的经历与感受——而此刻恰逢宝可梦诞生20周年。《太阳·月亮》已在全球范围内打破纪录，但围绕这两部作品乃至整个宝可梦系列，仍有许多疑问有待解答——这两部作品本身也还有很多话要说。"
 - type: narrative
   original: Desde MeriStation hemos tenido la oportunidad de sentarnos con tanto Junichi Masuda como Shigeru Ohmori a charlar durante veinte minutos en una conversación que dio mucho de sí. Temas como los ansiados remakes de Pokémon Perla y Diamante o las posibilidades que ofrecerá Nintendo Switch a la saga son cosas que no hemos dejado de preguntarles; así que seguid leyendo si queréis conocer qué nos dijeron dos de los artífices por los que unos cuantos millones de jugadores siguen cogiendo su consola cada día queriendo ‘hacerse con todos’.
-  translation: MeriStation 有幸与增田顺一和大森滋坐下来进行了二十分钟的畅谈，对话内容十分丰富。我们不断向他们追问诸如玩家们翘首以盼的《宝可梦 钻石／珍珠》重制版，以及任天堂 Switch 将为该系列带来的可能性等话题；所以，如果你想了解这两位让数百万玩家每天拿起主机、想要“收服全部”的幕后功臣说了什么，请继续往下读。
+  translation: "MeriStation 有幸与增田顺一和大森滋坐下来进行了二十分钟的畅谈，对话内容十分丰富。我们不断向他们追问诸如玩家们翘首以盼的《宝可梦 钻石·珍珠》重制版，以及任天堂 Switch 将为该系列带来的可能性等话题；所以，如果你想了解这两位让数百万玩家每天拿起主机、想要“收服全部”的幕后功臣说了什么，请继续往下读。"
 - type: image
   src: /assets/img/interviews/2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori/01_hero_masuda_ohmori_madrid.jpg
   alt: 大森滋与增田顺一在马德里 Juvenalia 展会现场
@@ -43,7 +43,7 @@ parallel_items:
   translation: 在GAME FREAK——这个孕育了宝可梦主系列众多作品及其他多款游戏的工坊里，我们拥有多位艺术家，他们根据不同的授权作品，甚至在同一系列的不同作品中，承担着截然不同的角色。增田顺一便是一个绝佳的例子，他在宝可梦系列二十多年的职业生涯中，担任过作曲家、总监、制作人及程序员。增田出生于横滨，他一直梦想着能让学校和工厂里见到的电脑成为游戏工具，同时也希望自己在假期中听到的所有旋律能够随身携带至任何地方，因为对他而言，这仿佛是找回并随身携带回忆的一种方式。因此，自1989年加入GAME FREAK以来，他致力于使游戏原声成为令人难忘的存在，让人们能将特定的音乐主题与冒险中的某个特定时刻联系起来。这也就解释了为何每款宝可梦作品中都包含了超过一百种不同的旋律，而增田正是这一成就的主要推手。
 - type: narrative
   original: Shigeru Ohmori comenzó a trabajar en Game Freak como un joven y potencial líder con Game Boy Advance, cuando se estaban desarrollando Pokémon Rubí y Zafiro allá por 2002. Asumió el rol de diseñador del mapa de la región y también uno de los principales diseñadores del título. Ha trabajado también en diversos spin off como Pokémon Ranger e incluso en HarmoKnight, otro proyecto de Game Freak para 3DS. Tras diversas entregas asumiendo su puesto de game designer, poco a poco ha ido tomando más importancia dentro de los desarrollos hasta ser el director de las entregas. Su fórmula principal, tal como él mismo contará en la entrevista, se basa en la toma de lo mejor de tanto la saga canónica como de otros títulos de Game Freak para que sus nuevos proyectos sean lo mejor posibles.
-  translation: 大森滋在2002年《宝可梦 红宝石／蓝宝石》开发期间，以年轻有为的领导者身份加入GAME FREAK，当时他负责地图设计，同时也是游戏的核心设计人员之一。他还参与过《宝可梦巡护员》等衍生作品，甚至包括GAME FREAK为3DS开发的另一款项目《节奏骑士》（HarmoKnight）。在担任游戏设计师多年、参与多部作品后，他在开发团队中的地位逐渐提升，最终成为系列总监。正如他在采访中所说，他的核心方法论是汲取正统系列与GAME FREAK其他作品的长处，让新项目尽可能做到最好。
+  translation: "大森滋在2002年《宝可梦 红宝石·蓝宝石》开发期间，以年轻有为的领导者身份加入GAME FREAK，当时他负责地图设计，同时也是游戏的核心设计人员之一。他还参与过《宝可梦巡护员》等衍生作品，甚至包括GAME FREAK为3DS开发的另一款项目《节奏骑士》（HarmoKnight）。在担任游戏设计师多年、参与多部作品后，他在开发团队中的地位逐渐提升，最终成为系列总监。正如他在采访中所说，他的核心方法论是汲取正统系列与GAME FREAK其他作品的长处，让新项目尽可能做到最好。"
   speaker: 大森滋
 - type: dialogue
   role: question
@@ -55,18 +55,18 @@ parallel_items:
   role: answer
   speaker: 大森滋
   original: Queríamos tratar la naturaleza, queríamos tener una relación estrecha entre humanos y Pokémon. Es por ello que pensamos en Hawaii, porque allí hay una relación realmente natural entre seres humanos y la naturaleza conviven en una relación muy, muy estrecha. El motivo por el que decidimos optar por cuatro islas en vez de un único territorio es porque queríamos, por ejemplo, dar esa sensación de que en cada isla encontrarían una nueva aventura, encuentros diferentes; que con el descubrimiento de una nueva isla el jugador se pudiese encontrar con nuevos retos y especialmente con nuevas maneras de afrontar la aventura Pokémon. Que se sintiese como algo nuevo dentro y se fuese renovando incluso dentro de la propia aventura.
-  translation: 我们想展现自然，想呈现人类与宝可梦之间的紧密联系。正因如此，我们想到了夏威夷，因为在那里，人类与自然之间有着非常天然的关系，彼此共存，联系极为紧密。我们决定采用四座岛屿而非单一大陆的原因在于，我们希望营造出这样一种感觉：每座岛屿都会带来全新的冒险、不同的邂逅；随着玩家发现新的岛屿，能够遇到新的挑战，尤其是以新的方式去面对宝可梦冒险。让玩家在冒险过程中乃至冒险本身都能感受到新鲜感，不断焕发新意。
+  translation: "我们想展现自然，想呈现人类与宝可梦之间的紧密联系。正因如此，我们想到了夏威夷，因为在那里，人类与自然之间有着非常天然的关系，彼此共存，联系极为紧密。我们决定采用四座岛屿而非单一大陆的原因在于，我们希望营造出这样一种感觉：每座岛屿都会带来全新的冒险、不同的邂逅；随着玩家发现新的岛屿，能够遇到新的挑战，尤其是以新的方式去面对宝可梦冒险。希望它让人感觉焕然一新，并且在冒险的过程中也不断更新。"
 - type: dialogue
   role: question
   speaker: MeriStation
   original: Con esta séptima generación hemos ido viendo muchas referencias a anteriores generaciones, muchos guiños. ¿Las formas regionales [Formas Alola en Sol y Luna] de los Pokémon son algo puntual, tal como ha terminado sucediendo con las Mega Evoluciones? ¿Se trata al contrario de algo que veremos también en el futuro con Pokémon de otras regiones como Johto?
-  translation: 随着第七世代的到来，我们看到了许多对前几世代的引用和致敬。请问《太阳／月亮》中宝可梦的地区形态（阿罗拉的样子）是像超级进化那样仅限本作的一次性尝试，还是说我们未来会在其他地区（比如城都地区）的宝可梦身上也看到这种设计？
+  translation: "随着第七世代的到来，我们看到了许多对前几世代的引用和致敬。请问《太阳·月亮》中宝可梦的地区形态（阿罗拉的样子）是像超级进化那样仅限本作的一次性尝试，还是说我们未来会在其他地区（比如城都地区）的宝可梦身上也看到这种设计？"
   chapter: 地区形态只是一次性的尝试吗？
 - type: dialogue
   role: answer
   speaker: 大森滋
   original: En este caso quisimos hacer un guiño a aquellos jugadores que siguen la saga desde Pokémon Rojo y Pokémon Azul, por eso hemos usado tantas referencias. Y por ejemplo, en lo que preguntabas sobre las formas regionales, queríamos un poco que en cada isla se sorprendiese a los jugadores con nuevas formas o evoluciones de Pokémon antiguos que sorprendiesen a aquellos que conocían ya a esas especies pero con una forma diferente; un ejemplo es Exeggutor, que en una de las islas aparece con un cuello muy largo. En el futuro, si encontramos una razón para hacer todo esto, definitivamente seguiremos haciéndolo porque se trata de algo muy interesante y que a la gente le ha gustado mucho.
-  translation: 在本作中，我们希望能向那些从《宝可梦 红／蓝》时代就一直追随系列的老玩家致敬，因此加入了大量引用。举例来说，关于你提到的地区形态，我们希望在每个岛屿上都能用旧有宝可梦的新形态或新进化来给玩家带来惊喜——让那些早已熟悉这些宝可梦的玩家，看到它们以截然不同的样子出现。一个典型的例子就是椰蛋树，它在其中一个岛屿上以脖子极长的形态登场。未来如果我们能找到合适的理由去做这件事，我们一定会继续做下去，因为这实在是一个非常有趣的设计，而且玩家们也非常喜欢。
+  translation: "在本作中，我们希望能向那些从《宝可梦 红·蓝》时代就一直追随系列的老玩家致敬，因此加入了大量引用。举例来说，关于你提到的地区形态，我们希望在每个岛屿上都能用旧有宝可梦的新形态或新进化来给玩家带来惊喜——让那些早已熟悉这些宝可梦的玩家，看到它们以截然不同的样子出现。一个典型的例子就是椰蛋树，它在其中一个岛屿上以脖子极长的形态登场。未来如果我们能找到合适的理由去做这件事，我们一定会继续做下去，因为这实在是一个非常有趣的设计，而且玩家们也非常喜欢。"
 - type: dialogue
   role: question
   speaker: MeriStation
@@ -77,7 +77,7 @@ parallel_items:
   role: answer
   speaker: 大森滋
   original: Por ejemplo, las Poké Monturas no es que las hayamos cogido de Pokémon Ranger sino que con el tema de poder hacer que los humanos y los Pokémon pudiesen convivir de la forma más estrecha y vinculada posible, nos planteamos cuál podría ser la manera de hacer que se ayudasen lo máximo posible mutuamente; es así como surgió la idea de las Poké Monturas. Otro ejemplo es el Poké Visor que hemos introducido en Pokémon Sol y Luna. Esta función la hemos tomado de Pokémon Snap, pensamos desde el primer momento en ese título por las posibilidades que podía tener esta función con las capacidades de 3DS. Es así como trabajamos a la hora de introducir nuevas funciones y mecánicas. Definitivamente no creo que se trate de imitar a los spin off, pero si tenemos que tomar algo prestado porque pensemos que va a aportar algo a la saga principal, lo haremos sin ninguna duda.
-  translation: 举例来说，宝可骑行并不是我们从《宝可梦巡护员》里拿过来的，而是围绕让人类与宝可梦尽可能紧密地共存、建立羁绊这一主题，我们思考了怎样才能让它们最大限度地互相帮助；宝可骑行这个点子就是这样诞生的。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可搜寻镜。这个功能取自《宝可梦随乐拍》，我们一开始就想到那款作品，是因为这个功能在任天堂 3DS 的机能下有很多可能性。我们在引入新功能和新机制时就是这么做的。我完全不认为这是在模仿外传作品，但如果我们觉得某些东西能给正统系列带来价值，就一定会毫不犹豫地拿来用。
+  translation: "举例来说，宝可骑行并不是我们从《宝可梦巡护员》里拿过来的，而是围绕让人类与宝可梦尽可能紧密地共存、建立羁绊这一主题，我们思考了怎样才能让它们最大限度地互相帮助；宝可骑行这个点子就是这样诞生的。另一个例子是我们在《宝可梦 太阳·月亮》中引入的宝可搜寻镜。这个功能取自《宝可梦随乐拍》，我们一开始就想到那款作品，是因为这个功能在任天堂 3DS 的机能下有很多可能性。我们在引入新功能和新机制时就是这么做的。我完全不认为这是在模仿外传作品，但如果我们觉得某些东西能给正统系列带来价值，就一定会毫不犹豫地拿来用。"
 - type: dialogue
   role: question
   speaker: MeriStation
@@ -94,7 +94,7 @@ parallel_items:
   role: question
   speaker: MeriStation
   original: Con cada nueva generación, desde los inicios de la saga, hemos visto como se han ido haciendo remakes de anteriores entregas, aproximadamente cada diez u once años desde el lanzamiento original de dichos títulos. Tras Rubí Omega y Zafiro Alga para la tercera generación, es el momento de volver a Sinnoh con Perla y Diamante, que han cumplido recientemente diez años en Japón. ¿Se acerca el momento de plantear los remakes de Pokémon Perla y Pokémon Diamante?
-  translation: 自系列诞生以来，每一代新作推出后，我们都会看到以往作品被重制，大约每隔十年或十一年，就会基于原版作品推出重制版。继第三世代的《宝可梦 欧米伽红宝石／阿尔法蓝宝石》之后，如今该轮到神奥地区了，《宝可梦 钻石／珍珠》在日本也刚刚迎来了十周年。是不是差不多该考虑《宝可梦 钻石／珍珠》的重制了？
+  translation: "自系列诞生以来，每一代新作推出后，我们都会看到以往作品被重制，大约每隔十年或十一年，就会基于原版作品推出重制版。继第三世代的《宝可梦 欧米伽红宝石·阿尔法蓝宝石》之后，如今该轮到神奥地区了，《宝可梦 钻石·珍珠》在日本也刚刚迎来了十周年。是不是差不多该考虑《宝可梦 钻石·珍珠》的重制了？"
   chapter: 《钻石／珍珠》重制会来吗？
 - type: dialogue
   role: answer

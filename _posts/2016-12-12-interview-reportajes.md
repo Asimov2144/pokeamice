@@ -35,6 +35,9 @@ entities:
   people:
   - 增田顺一
   - 大森滋
+  works:
+  - 宝可梦 太阳·月亮
+  - 宝可梦 钻石·珍珠
   organizations:
   - Game Freak
   - Nintendo
@@ -45,11 +48,11 @@ interviewee: MeriStation, Sergio González, 增田顺一, 大森滋
 parallel_items:
 - type: paragraph
   original: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro" - Meristation'
-  translation: 增田与大森访谈，宝可梦之父："Nintendo Switch是未来" - Meristation
+  translation: "增田与大森访谈，宝可梦之父：“Nintendo Switch是未来” - Meristation"
   note: 增田顺一（Junichi Masuda）和大森滋（Shigeru Ohmori）是Game Freak的开发者，常被称为宝可梦系列的核心创作者。
 - type: paragraph
   original: Dos de los padres de la saga charlan con MeriStation sobre sus venturas y desventuras a lo largo de estos años con Pokémon, que cumplen ahora 20 años por todo lo alto rompiendo récords en Occidente gracias a Sol y Luna. Esto es lo que nos deparará el futuro junto a la franquicia.
-  translation: 系列两位创始人与MeriStation畅谈这些年来与宝可梦共度的风风雨雨。如今宝可梦迎来20周年，凭借《太阳／月亮》在西方打破纪录，风头正劲。这就是未来与这一系列相伴而行的前景。
+  translation: "系列的两位“父亲”与MeriStation畅谈这些年来与宝可梦共度的风风雨雨。如今宝可梦迎来20周年，凭借《太阳·月亮》在西方打破纪录，风头正劲。以下就是这个系列与我们共同面对的未来。"
 - type: paragraph
   original: Sergio González
   translation: 塞尔希奥·冈萨雷斯
@@ -61,17 +64,17 @@ parallel_items:
   translation: 更新于2022年3月8日12:56（欧洲中部时间）
 - type: paragraph
   original: Esta pasada semana, con motivo del lanzamiento europeo de Pokémon Sol y Luna , dos piezas claves de la saga Pokémon desde sus inicios como son Shigeru Ohmori (director) y Junichi Masuda (productor y compositor principal), visitaron la ciudad de Madrid para participar como invitados estrella en el evento Juvenalia así como para ser entrevistados por los medios de comunicación españoles y compartir sus experiencias y sensaciones tras haber creado los que son a todas luces títulos más completos y sorprendentes de la franquicia justo cuando ésta ha cumplido 20 años.
-  translation: 上周，值《宝可梦 太阳／月亮》欧洲发售之际，自系列诞生之初便担任关键角色的两位人物——大森滋（总监）与增田顺一（制作人兼主作曲）——访问了马德里，作为特邀嘉宾出席Juvenalia活动，并接受西班牙媒体采访，分享了他们在创作这款无疑是系列20周年之际最完整、最令人惊叹的作品后的经验与感受。
+  translation: "上周，值《宝可梦 太阳·月亮》欧洲发售之际，自系列诞生之初便担任关键角色的两位人物——大森滋（总监）与增田顺一（制作人兼主作曲）——访问了马德里，作为特邀嘉宾出席Juvenalia活动，并接受西班牙媒体采访，分享了他们在创作这两部无疑是系列20周年之际最完整、最令人惊叹的作品后的经验与感受。"
   note: Juvenalia是西班牙马德里一年一度的青少年娱乐展。
 - type: paragraph
   original: Sol y Luna han arrancado rompiendo récords en todo el mundo, pero son muchas las dudas todavía alrededor de no solo estas entregas, que aún tienen mucho que decir, sino de la saga Pokémon en general. Desde MeriStation hemos tenido la oportunidad de sentarnos con tanto Junichi Masuda como Shigeru Ohmori a charlar durante veinte minutos en una conversación que dio mucho de sí.
-  translation: 《太阳／月亮》一经发售便在全球打破纪录，但围绕这两部作品以及整个宝可梦系列，仍有许多疑问，这些作品还有很多内容值得探讨。MeriStation有幸与增田顺一和大森滋进行了二十分钟的深入交谈，收获颇丰。
+  translation: "《太阳·月亮》一经发售便在全球打破纪录，但围绕这两部作品以及整个宝可梦系列，仍有许多疑问，这些作品还有很多内容值得探讨。MeriStation有幸与增田顺一和大森滋进行了二十分钟的深入交谈，收获颇丰。"
 - type: image
   image: /assets/img/interviews/2016-12-12-interview-reportajes/001.jpg
   alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_001'
 - type: paragraph
   original: Temas como los ansiados remakes de Pokémon Perla y Diamante o las posibilidades que ofáecerá Nintendo Switch a la saga son cosas que no hemos dejado de preguntarles; así que seguid leyendo si queréis conocer qué nos dijeron dos de los artífices por los que unos cuantos millones de jugadores siguen cogiendo su consola cada día queriendo ‘ hacerse con todos’ .
-  translation: 诸如备受期待的《宝可梦 珍珠／钻石》重制版，以及 Nintendo Switch 将为该系列带来的可能性等问题，我们一直在向他们提问；所以，如果你想了解这两位创作者说了什么——正是他们让数百万玩家每天拿起游戏机，想要“收服全部宝可梦”——请继续阅读。
+  translation: "诸如备受期待的《宝可梦 钻石·珍珠》重制版，以及 Nintendo Switch 将为该系列带来的可能性等问题，我们一直在向他们提问；所以，如果你想了解这两位创作者说了什么——正是他们让数百万玩家每天拿起游戏机，想要“收服全部宝可梦”——请继续阅读。"
 - type: heading
   level: 3
   original: Los responsables del fenómeno ¿Quiénes son Junichi Masuda y Shigeru Ohmori?
@@ -87,7 +90,7 @@ parallel_items:
   alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_002'
 - type: paragraph
   original: Shigeru Ohmori comenzó a trabajar en Game Freak como un joven y potencial líder con Game Boy Advance, cuando se estaban desarrollando Pokémon Rubí y Zafiro allá por 2002. Asumió el rol de diseñador del mapa de la región y también uno de los principales diseñadores del título. Ha trabajado también en diversos spin off como Pokémon Ranger e incluso en HarmoKnight, otro proyecto de Game Freak para 3DS. Tras diversas entregas asumiendo su puesto de game designer, poco a poco ha ido tomando más importancia dentro de los desarrollos hasta ser el director de las entregas. Su fórmula principal, tal como él mismo contará en la entrevista, se basa en la toma de lo mejor de tanto la saga canónica como de otros títulos de Game Freak para que sus nuevos proyectos sean lo mejor posibles.
-  translation: "大森滋在 Game Boy Advance 时代作为一位年轻且有潜力的领导者加入 GAME FREAK，当时正值《宝可梦 红宝石／蓝宝石》开发期间（约2002年）。他担任了地区地图设计师，同时也是该作的主要设计师之一。他还参与过多个衍生作品，如《宝可梦巡护员》，甚至参与了 GAME FREAK 的另一款 3DS 游戏《节奏猎人和声骑士》。在担任游戏设计师的多个作品之后，他逐渐在开发中扮演更重要的角色，最终成为系列作品的导演。正如他将在采访中提到的，他的主要方法是汲取主系列和 GAME FREAK 其他游戏的精髓，以确保新项目尽可能出色。"
+  translation: "大森滋在 Game Boy Advance 时代作为一位年轻且有潜力的领导者加入 GAME FREAK，当时正值《宝可梦 红宝石·蓝宝石》开发期间（约2002年）。他担任了地区地图设计师，同时也是该作的主要设计师之一。他还参与过多个衍生作品，如《宝可梦巡护员》，甚至参与了 GAME FREAK 的另一款 3DS 游戏《节奏猎人和声骑士》。在担任游戏设计师的多个作品之后，他逐渐在开发中扮演更重要的角色，最终成为系列作品的导演。正如他将在采访中提到的，他的主要方法是汲取主系列和 GAME FREAK 其他游戏的精髓，以确保新项目尽可能出色。"
   speaker: 大森滋
   role: answer
 - type: heading
@@ -111,7 +114,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 'MeriStation : Con esta séptima generación hemos ido viendo muchas referencias a anteriores generaciones, muchos guiños. ¿Las formas regionales [Formas Alola en Sol y Luna] de los Pokémon son algo puntual, tal como ha terminado sucediendo con las Mega Evoluciones? ¿Se trata al contrario de algo que veremos también en el futuro con Pokémon de otras regiones como Johto?'
-  translation: MeriStation：在第七世代中，我们看到了许多对前代作品的引用和致敬。宝可梦的地区形态（如《太阳／月亮》中的阿罗拉形态）是像超级进化那样的一次性设定吗？还是说未来我们也会看到其他地区（如城都）的宝可梦拥有地区形态？
+  translation: "MeriStation：在第七世代中，我们看到了许多对前代作品的引用和致敬。宝可梦的地区形态（如《太阳·月亮》中的阿罗拉的样子）是像超级进化那样的一次性设定吗？还是说未来我们也会看到其他地区（如城都）的宝可梦拥有地区形态？"
   speaker: MeriStation
   role: question
 - type: image
@@ -119,21 +122,21 @@ parallel_items:
   alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_003'
 - type: paragraph
   original: 'Ohmori : En este caso quisimos hacer un guiño a aquellos jugadores que siguen la saga desde Pokémon Rojo y Pokémon Azul, por eso hemos usado tantas referencias. Y por ejemplo, en lo que preguntabas sobre las formas regionales, queríamos un poco que en cada isla se sorprendiese a los jugadores con nuevas formas o evoluciones de Pokémon antiguos que sorprendiesen a aquellos que conocían ya a esas especies pero con una forma diferente; un ejemplo es Exeggutor, que en una de las islas aparece con un cuello muy largo. En el futuro, si encontramos una razón para hacer todo esto, definitivamente seguiremos haciéndolo porque se trata de algo muy interesante y que a la gente le ha gustado mucho.'
-  translation: 大森滋：在这种情况下，我们想向那些从《宝可梦 红／绿》就开始玩这个系列的玩家致敬，所以我们使用了这么多引用。例如，关于你问的地区形态，我们希望在每座岛屿上都能让玩家看到旧宝可梦的新形态或进化，让那些已经熟悉这些物种的玩家感到惊喜，因为它们以不同的形态出现；一个例子是椰蛋树，在其中一座岛上，它的脖子变得很长。未来，如果我们找到这样做的理由，我们肯定会继续做下去，因为这非常有趣，而且人们非常喜欢。
+  translation: "大森滋：在这种情况下，我们想向那些从《宝可梦 红·蓝》就开始玩这个系列的玩家致敬，所以我们使用了这么多引用。例如，关于你问的地区形态，我们希望在每座岛屿上都能让玩家看到旧宝可梦的新形态或进化，让那些已经熟悉这些物种的玩家感到惊喜，因为它们以不同的形态出现；一个例子是椰蛋树，在其中一座岛上，它的脖子变得很长。未来，如果我们找到这样做的理由，我们肯定会继续做下去，因为这非常有趣，而且人们非常喜欢。"
   speaker: 大森滋
   role: answer
 - type: heading
   level: 3
   original: 'La herencia de los spin off: Pokémon Snap, Ranger y Mundo Misterioso'
-  translation: 衍生作品的遗产：《宝可梦快照》《巡护员》与《不可思议的迷宫》
+  translation: "衍生作品的遗产：《宝可梦随乐拍》《巡护员》与《不可思议的迷宫》"
 - type: paragraph
   original: 'MeriStation : Con respecto a la eliminación de las Máquinas Ocultas (MO) y la introducción de las Poké Monturas, podemos ver que hay más de una referencia a juegos spin off de la saga como Pokémon Ranger y Mundo Misterioso. ¿Cómo puede evolucionar la saga principal en ese sentido? ¿Continuaremos viendo más herencias y préstamos de otros títulos spin off de la franquicia?'
-  translation: MeriStation：关于秘传机器（HM）的移除和宝可骑行（Poké Ride）的引入，我们可以看到对系列衍生游戏如《宝可梦巡护员》和《不可思议的迷宫》的多次引用。在这方面，主系列将如何发展？我们会继续看到更多从衍生作品中借鉴和继承的元素吗？
+  translation: "MeriStation：关于秘传学习器（HM）的移除和宝可骑行（Poké Ride）的引入，我们可以看到对系列衍生游戏如《宝可梦巡护员》和《不可思议的迷宫》的多次引用。在这方面，主系列将如何发展？我们会继续看到更多从衍生作品中借鉴和继承的元素吗？"
   speaker: MeriStation
   role: question
 - type: paragraph
   original: 'Ohmori : Por ejemplo, las Poké Monturas no es que las hayamos cogido de Pokémon Ranger sino que con el tema de poder hacer que los humanos y los Pokémon pudiesen convivir de la forma más estrecha y vinculada posible, nos planteamos cuál podría ser la manera de hacer que se ayudasen lo máximo posible mutuamente; es así como surgió la idea de las Poké Monturas. Otro ejemplo es el Poké Visor que hemos introducido en Pokémon Sol y Luna. Esta función la hemos tomado de Pokémon Snap , pensamos desde el primer momento en ese título por las posibilidades que podía tener esta función con las capacidades de 3DS. Es así como trabajamos a la hora de introducir nuevas funciones y mecánicas. Definitivamente no creo que se trate de imitar a los spin off, pero si tenemos que tomar algo prestado porque pensemos que va a aportar algo a la saga principal, lo haremos sin ninguna duda.'
-  translation: 例如，宝可骑行并不是我们从《宝可梦巡护员》中直接拿来的，而是基于让人类和宝可梦能够尽可能紧密地共同生活、相互帮助的主题，我们思考了如何让他们最大限度地互相协助，由此诞生了宝可骑行的想法。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可梦图鉴相机。这个功能取自《宝可梦 随乐拍》，我们从一开始就考虑到这个功能在3DS上的可能性。我们就是这样引入新功能和机制的。我绝对不认为这是在模仿衍生作品，但如果我们认为某些东西能为正传系列带来价值，我们会毫不犹豫地借鉴。
+  translation: "例如，宝可骑行并不是我们从《宝可梦巡护员》中直接拿来的，而是基于让人类和宝可梦能够尽可能紧密地共同生活、相互帮助的主题，我们思考了如何让他们最大限度地互相协助，由此诞生了宝可骑行的想法。另一个例子是我们在《宝可梦 太阳·月亮》中引入的宝可梦图鉴相机。这个功能取自《宝可梦随乐拍》，我们从一开始就考虑到这个功能在3DS上的可能性。我们就是这样引入新功能和机制的。我绝对不认为这是在模仿衍生作品，但如果我们认为某些东西能为正传系列带来价值，我们会毫不犹豫地借鉴。"
   speaker: 大森滋
   note: 宝可骑行（Poké Monturas）是《宝可梦 太阳／月亮》中的骑乘系统；宝可梦图鉴相机（Poké Visor）是游戏中的拍照功能，源自N64游戏《宝可梦 随乐拍》（Pokémon Snap）。
   role: answer
@@ -163,11 +166,11 @@ parallel_items:
 - type: heading
   level: 3
   original: ¿Tendremos remakes de Pokémon Perla y Diamante?
-  translation: 会有《宝可梦 珍珠／钻石》的重制版吗？
+  translation: "会有《宝可梦 钻石·珍珠》的重制版吗？"
   note: 此句为文章的小标题。
 - type: paragraph
   original: 'MeriStation : Con cada nueva generación, desde los inicios de la saga, hemos visto como se han ido haciendo remakes de anteriores entregas, aproximadamente cada diez u once años desde el lanzamiento original de dichos títulos. Tras Rubí Omega y Zafiro Alga para la tercera generación, es el momento de volver a Sinnoh con Perla y Diamante, que han cumplido recientemente diez años en Japón. ¿Se acerca el momento de plantear los remakes de Pokémon Perla y Pokémon Diamante?'
-  translation: MeriStation：从系列初期开始，每一代新作中，我们都看到前作的重制版大约在原始版本发售后的十到十一年推出。继第三世代的《宝可梦 欧米伽红宝石／阿尔法蓝宝石》之后，是时候回到神奥地区，推出《珍珠／钻石》的重制版了，这两款游戏最近在日本迎来了十周年。现在是否接近考虑重制《宝可梦 珍珠／钻石》的时候了？
+  translation: "MeriStation：从系列初期开始，每一代新作中，我们都看到前作的重制版大约在原始版本发售后的十到十一年推出。继第三世代的《宝可梦 欧米伽红宝石·阿尔法蓝宝石》之后，是时候回到神奥地区，推出《钻石·珍珠》的重制版了，这两款游戏最近在日本迎来了十周年。现在是否接近考虑重制《宝可梦 钻石·珍珠》的时候了？"
   speaker: MeriStation
   note: 《宝可梦 珍珠／钻石》于2006年在日本发售，2016年时正好十周年。
   role: question
@@ -176,7 +179,7 @@ parallel_items:
   alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_006'
 - type: paragraph
   original: 'Masuda : [Risas] Nos lo dicen mucho en Twitter. Bueno… No sé, no sé… [Risas]'
-  translation: '[笑] 我们在推特上经常被问到这个问题。嗯……我不知道，我不知道……[笑]'
+  translation: "（笑）我们在推特上经常被问到这个问题。嗯……我不知道，我不知道……（笑）"
   speaker: 增田顺一
   role: answer
 - type: heading
@@ -186,7 +189,7 @@ parallel_items:
   note: 此句为文章的小标题。
 - type: paragraph
   original: 'MeriStation : Para finalizar, queremos saber cómo intuís que puede estar la saga principal dentro de, digamos cinco años. ¿Es algo que tiene fecha de caducidad? ¿Hasta dónde puede dar de sí este fenómeno? Antes de Pokémon GO, pensábamos que se acercaba irremediablemente la caída de popularidad de la franquicia, pero de repente la fiebre Pokémon ha vuelto en todo el planeta.'
-  translation: MeriStation：最后，我们想知道你们认为正传系列在五年内会处于什么状态。这是否有保质期？这个现象能持续多久？在《宝可梦GO》之前，我们认为该系列的人气不可避免地会下降，但突然间，宝可梦热潮又席卷全球。
+  translation: "MeriStation：最后，我们想知道你们认为正传系列在五年内会处于什么状态。这是否有保质期？这个现象能持续多久？在《Pokémon GO》之前，我们认为该系列的人气不可避免地会下降，但突然间，宝可梦热潮又席卷全球。"
   speaker: MeriStation
   note: 《宝可梦GO》于2016年发布，引发了全球性的宝可梦热潮。
   role: question

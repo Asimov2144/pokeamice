@@ -53,16 +53,16 @@ parallel_items:
   alt: Game Informer - Why Ruby And Sapphire Were The Most Challenging Pokémon To Make - Figure 1
 - type: paragraph
   original: The Pokémon series has transitioned between three different handheld generations comfortably (four if you count Game Boy to Game Boy Color), but there is one one in particular that proved more difficult than the rest. Pokémon X and Y may have marked the series' biggest graphical upgrade, but according to Game Freak co-founder and Pokémon director, producer, and composer Junichi Masuda, the most difficult Pokémon to bring across the finish line were the games that brought the series to the Game Boy Advance.
-  translation: "宝可梦系列曾在三个不同的掌机世代之间平稳过渡（若将Game Boy到Game Boy Color也算作一次，则为四次），但其中有一代被证明比其他世代更为艰难。《宝可梦 X／Y》或许标志着该系列最大幅度的画面升级，但据GAME FREAK联合创始人、宝可梦系列总监、制作人兼作曲家增田顺一所言，最难跨越终点线的宝可梦作品，恰恰是将该系列带入Game Boy Advance的那几款游戏。"
+  translation: "宝可梦系列曾在三个不同的掌机世代之间平稳过渡（若将Game Boy到Game Boy Color也算作一次，则为四次），但其中有一代被证明比其他世代更为艰难。《宝可梦 X·Y》或许标志着该系列最大幅度的画面升级，但据GAME FREAK联合创始人、宝可梦系列总监、制作人兼作曲家增田顺一所言，最难跨越终点线的宝可梦作品，恰恰是将该系列带入Game Boy Advance的那几款游戏。"
   speaker: null
 - type: paragraph
   original: Pokémon Ruby and Sapphire released in 2003 to wide acclaim and impressive sales. In some ways, the technical leap between the Game Boy Color and Game Boy Advance helped development. "With Ruby and Sapphire, the screen got a little longer and it was a different aspect ratio, a lot more colors and sound channels so the tech was improved dramatically," Masuda says. "It allowed us to do a lot more and gave us more freedom, but at the same time it made it take a lot longer to do things and was more resource-intensive."
-  translation: 《宝可梦 红宝石／蓝宝石》于2003年发售，广受好评，销量惊人。在某些方面，Game Boy Color到Game Boy Advance之间的技术飞跃反而助力了开发。“在《红宝石／蓝宝石》中，屏幕变长了一些，宽高比也不同了，颜色和声道都多了很多，所以技术层面有了显著提升，”增田说道。“这让我们能做更多事情，给了我们更多自由，但与此同时，也让做事情的耗时更长，资源消耗更大。”
+  translation: "《宝可梦 红宝石·蓝宝石》于2003年发售，广受好评，销量惊人。在某些方面，Game Boy Color到Game Boy Advance之间的技术飞跃反而助力了开发。“在《红宝石·蓝宝石》中，屏幕变长了一些，宽高比也不同了，颜色和声道都多了很多，所以技术层面有了显著提升，”增田说道。“这让我们能做更多事情，给了我们更多自由，但与此同时，也让做事情的耗时更长，资源消耗更大。”"
   speaker: 增田顺一
   role: answer
 - type: paragraph
   original: The main problem with the game wasn't the technical side, but rather the general opinion surrounding the franchise in the early 2000s. "After Gold and Silver came out, it was a huge hit around the world, but shortly after everyone was saying, 'That’s it. The Pokémon fad is over! It’s dead!'," Masuda says. The games were meant to be the starting line for the next few Pokémon games. "It was a very stressful project, for sure," Masuda says. "When we were first developing it, I had the idea in mind that it would be Ruby and Sapphire, and then the next games, including the titles, would be Diamond and Pearl, and in between we would do the remakes, FireRed and LeafGreen, so we could create this structure where you could take the Pokémon from the Kanto region to the Diamond and Pearl games."
-  translation: 这款游戏的主要问题并不在技术层面，而在于2000年代初围绕这个系列的大众舆论。“《金／银》推出后，在全球范围内大获成功，但不久之后所有人都在说，‘就这样了。宝可梦的热潮结束了！它死了！’”增田说道。这些游戏本应是接下来几款宝可梦作品的起跑线。“这绝对是一个压力非常大的项目，”增田说。“我们最初开发的时候，我心中已经有了构想：先做《红宝石／蓝宝石》，然后下一批游戏——包括标题——会是《钻石／珍珠》，在这之间我们会做重制版《火红／叶绿》，这样就能构建一个结构，让你可以把关都地区的宝可梦带到《钻石／珍珠》游戏中。”
+  translation: "这款游戏的主要问题并不在技术层面，而在于2000年代初围绕这个系列的大众舆论。“《金·银》推出后，在全球范围内大获成功，但不久之后所有人都在说，‘就这样了。宝可梦的热潮结束了！它死了！’”增田说道。这些游戏本应是接下来几款宝可梦作品的起跑线。“这绝对是一个压力非常大的项目，”增田说。“我们最初开发的时候，我心中已经有了构想：先做《红宝石·蓝宝石》，然后下一批游戏——包括标题——会是《钻石·珍珠》，在这之间我们会做重制版《火红·叶绿》，这样就能构建一个结构，让你可以把关都地区的宝可梦带到《钻石·珍珠》游戏中。”"
   speaker: 增田顺一
   role: answer
 - type: paragraph
@@ -72,7 +72,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: '"I got really stressed out and had to go to the hospital and had some stomach issues and had to get a camera inserted and they didn’t know what it was – very stressful," Masuda says. "The night before release I had a dream that it was a complete failure, a total nightmare." Alternatively, Shigeru Ohmori, director of Sun and Moon and Omega Ruby and Alpha Sapphire, views the game as a far less stressful time in his career. Ruby and Sapphire were the first Pokémon games he worked on, marking his official transition from fan to creator. "It was actually a lot of fun to work on it and I was able to think, ''I’m making this'',” Ohmori says.'
-  translation: “我压力大到不得不去医院，胃出了问题，得插管检查，他们也不知道是什么——压力非常大，”增田说道。“发售前一晚，我梦见它彻底失败了，完全是一场噩梦。”而另一方面，《太阳／月亮》及《欧米伽红宝石／阿尔法蓝宝石》的总监大森滋则认为，那款游戏是他职业生涯中压力远没有那么大的时期。《红宝石／蓝宝石》是他参与开发的第一批宝可梦游戏，标志着他从粉丝到创作者的身份正式转变。“实际上做起来非常有趣，我能够想着‘这是我在做的’，”大森说道。
+  translation: "“我压力大到不得不去医院，胃出了问题，还得把摄像头伸进去检查，可他们也查不出是什么——压力非常大，”增田说道。“发售前一晚，我梦见它彻底失败了，完全是一场噩梦。”而另一方面，《太阳·月亮》及《欧米伽红宝石·阿尔法蓝宝石》的总监大森滋则认为，那款游戏是他职业生涯中压力远没有那么大的时期。《红宝石·蓝宝石》是他参与开发的第一批宝可梦游戏，标志着他从粉丝到创作者的身份正式转变。“实际上做起来非常有趣，我能够想着‘这是我在做的’，”大森说道。"
   speaker: 增田顺一
   role: answer
 - type: paragraph
@@ -82,13 +82,15 @@ parallel_items:
   role: answer
 - type: paragraph
   original: in 2014, Game Freak returned to Ruby and Sapphire for the 3DS remakes, Omega Ruby and Alpha Sapphire, with Ohmori taking on director duties. "I kept hearing from Masuda about how hard the original Ruby and Sapphire games were and I kind of had that pressure in mind while creating Alpha Sapphire and Omega Ruby," Ohmori says, "But from my perspective, it was a lot of fun to work on them, so I was super motivated to work as the director on the remakes."
-  translation: "2014年，GAME FREAK回归《红宝石／蓝宝石》，为3DS制作重制版《欧米伽红宝石／阿尔法蓝宝石》，由大森担任总监。“我一直听增田说原版《红宝石／蓝宝石》有多艰难，在制作《阿尔法蓝宝石／欧米伽红宝石》时，我心中也带着那种压力，”大森说道，“但在我看来，做这些游戏非常有趣，所以我作为重制版总监的动力超级强。”"
+  translation: "2014年，GAME FREAK回归《红宝石·蓝宝石》，为3DS制作重制版《欧米伽红宝石·阿尔法蓝宝石》，由大森担任总监。“我一直听增田说原版《红宝石·蓝宝石》有多艰难，在制作《阿尔法蓝宝石·欧米伽红宝石》时，我心中也带着那种压力，”大森说道，“但在我看来，做这些游戏非常有趣，所以我作为重制版总监的动力超级强。”"
   speaker: null
 image: /assets/img/interviews/2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/rs_dev_01.jpg
 entities:
   people:
-  - "增田顺一"
+  - 增田顺一
+  - 大森滋
   works:
   - 宝可梦 黑·白
   - 宝可梦 红宝石·蓝宝石
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
 ---

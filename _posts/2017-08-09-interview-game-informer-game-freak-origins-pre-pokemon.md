@@ -46,7 +46,7 @@ parallel_items:
   alt: 《宝可梦 太阳／月亮》总监大森滋（左）与 GAME FREAK 联合创始人增田顺一（右）在工作室回顾草创历史。
 - speaker: Game Informer
   original: Game Freak began as a magazine in Japan, or as Pokémon producer and composer and Game Freak co-founder Junichi Masuda refers to it, a mini comic. Satoshi Tajiri, who is credited as Pokémon’s creator, would visit arcades, talk to their owners and get tips for the games that would be included in the magazine, but making video games was always its goal. As a small group of video game fans, they didn’t think they could make an arcade game, but with the release of the Famicom (the Nintendo Entertainment System in America) Game Freak thought it might finally be able to make something.
-  translation: "GAME FREAK 起初是日本的一本杂志，或者用宝可梦制作人、作曲家兼 GAME FREAK 联合创始人增田顺一的话来说，是一本迷你漫画。被誉为宝可梦创始人的田尻智，会去逛街机厅，与店主交流，获取游戏技巧，这些内容会被收录进杂志中，但制作电子游戏始终是他们的目标。作为一个由电子游戏爱好者组成的小团体，他们原本认为自己无法制作街机游戏，但随着 FC红白机（在美国称为 NES）的发布，GAME FREAK 觉得他们或许终于能够制作出一些东西了。"
+  translation: "GAME FREAK 起初是日本的一本杂志，或者用宝可梦制作人、作曲家兼 GAME FREAK 联合创始人增田顺一的话来说，是一本迷你漫画。被认为是宝可梦创作者的田尻智，会去逛街机厅，与店主交流，获取游戏技巧，这些内容会被收录进杂志中，但制作电子游戏始终是他们的目标。作为一个由电子游戏爱好者组成的小团体，他们原本认为自己无法制作街机游戏，但随着 FC红白机（在美国称为 NES）的发布，GAME FREAK 觉得他们或许终于能够制作出一些东西了。"
   role: question
 - type: image
   image: /assets/img/interviews/2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon/mendelpalace_610.jpg
@@ -86,11 +86,11 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: “That game is when we first started working with them,” Masuda says. “We got the offer to create it, we developed it, and it was really successful, so we kind of formed that relationship and we got along really well and kept the development units. We borrowed them for about six years.”
-  translation: “那款游戏是我们首次与他们合作，”增田顺一说道，“我们接到了制作它的邀请，开发完成后大获成功，因此我们建立了良好的关系，相处融洽，并保留了开发团队。我们借用他们大约六年时间。”
+  translation: "“那款游戏是我们第一次和他们合作，”增田顺一说道，“我们接到了制作它的邀请，把它开发了出来，而且大获成功，于是我们和他们建立起这层关系，相处得非常融洽，开发机也一直留在我们这里。我们借用了大约六年。”"
   role: answer
 - speaker: Game Informer
   original: It was during this time that Tajiri and Game Freak developed a relationship with Miyamoto and the late Gunpei Yokoi, the creator of the d-pad and the Kid Icarus and Metroid franchises.
-  translation: 正是在这一时期，田尻智与GAME FREAK与宫本茂及已故的横井军平建立了合作关系，后者是十字键以及《光神话》和《银河战士》系列的创造者。
+  translation: "正是在这一时期，田尻智和GAME FREAK与宫本茂以及已故的横井军平建立了交情，横井军平是十字键以及《光神话》和《银河战士》系列的创造者。"
   role: question
 - type: image
   image: /assets/img/interviews/2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon/yoshi_610.jpg
@@ -122,7 +122,7 @@ parallel_items:
   alt: 增田顺一与大森滋交流早期游戏研发的技术攻坚过程。
 - speaker: Game Informer
   original: In 1996, Game Freak finally released Pokémon Red and Green in Japan — a game that the studio had quietly been working on for six years.
-  translation: 1996年，GAME FREAK终于在日本推出了《宝可梦 红／绿》——这款游戏是工作室默默耕耘了六年的成果。
+  translation: "1996年，GAME FREAK终于在日本推出了《宝可梦 红·绿》——这款游戏是工作室默默耕耘了六年的成果。"
   role: question
 - speaker: 增田顺一
   original: “With Pokémon, we were just kind of making it ourselves at first and we did present the game concept to Nintendo and they said, ‘Oh okay, good luck. As long as you guys have money, keep working on it’,” Masuda says.
@@ -162,12 +162,13 @@ topics:
 - "发行合作"
 entities:
   people:
-  - "增田顺一"
+  - 增田顺一
+  - 田尻智
   works:
-  - "宝可梦 红·绿"
+  - 宝可梦 红·绿
   organizations:
-  - "Game Freak"
-  - "任天堂"
+  - Game Freak
+  - 任天堂
 mentions:
   people:
   - "田尻智"

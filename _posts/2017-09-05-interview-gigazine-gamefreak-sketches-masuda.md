@@ -31,15 +31,15 @@ parallel_items:
 - type: heading
   level: 2
   original: プロローグ：Game Informer × GAME FREAK――封印された開発資料の解禁
-  translation: 序章：Game Informer × GAME FREAK——尘封开发手稿的破例解禁
+  translation: "序章：Game Informer × GAME FREAK——被封存的开发资料解禁"
 - original: シリーズ累計販売本数が2億本を突破したゲーム「ポケットモンスター」のゲーム音楽を作曲したりディレクターやプロデューサーを務めてきた増田順一さんに、ポケットモンスター 赤・緑やポケットモンスターブラック・ホワイト、ポケットモンスター サン・ムーンなどの開発秘話を聞いたり初期デザインやアイデアスケッチなどを見せてもらう、という貴重なムービーが公開されています。An Exclusive Look At Pokémon’s Early Design Documents - YouTube
-  translation: Game Informer探访GAME FREAK，增田顺一公开早期手稿与采访视频系列累计销量突破2亿份的游戏《宝可梦》系列中，曾担任游戏音乐作曲、总监及制作人的增田顺一先生，近日接受了一次珍贵采访，谈及《宝可梦 红／绿》《宝可梦 黑／白》《宝可梦 太阳／月亮》等作品的开发秘辛，并展示了早期设计稿与创意草图。这段珍贵影像现已公开。An Exclusive Look At Pokémon’s Early Design Documents - YouTube
+  translation: "系列累计销量突破2亿份的游戏《宝可梦》，其游戏音乐的作曲者、曾担任总监和制作人的增田顺一先生，讲述了《宝可梦 红·绿》《宝可梦 黑·白》《宝可梦 太阳·月亮》等作品的开发秘闻，并展示了早期设计和创意草图，这段珍贵的视频已经公开。An Exclusive Look At Pokémon’s Early Design Documents - YouTube"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/yt_thumb.jpg
   caption: Game Informer 独家视频专访：增田顺一与大森滋展示宝可梦早期珍贵企划手稿与开发档案。
   alt: Game Informer 独家专访封面
 - original: 'Game Informer が公開しているインタビュー動画：[An Exclusive Look At Pokémon’s Early Design Documents (YouTube)](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)'
-  translation: 'Game Informer 公开的采访视频：[An Exclusive Look At Pokémon’s Early Design Documents（YouTube）](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)——本文即 GIGAZINE 对这段视频的图文整理。'
+  translation: "Game Informer 公开的采访视频：[An Exclusive Look At Pokémon’s Early Design Documents（YouTube）](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)"
 - original: インタビューに応えてくれるのはゲームフリークの増田順一さん。
   translation: 接受采访的是GAME FREAK的增田顺一先生。
 - type: image
@@ -49,27 +49,27 @@ parallel_items:
 - type: heading
   level: 2
   original: 第1章：伝票とFAXの時代――『金・銀』ガンテツボールと「丸秘」印章
-  translation: 第1章：传真与纸质办公时代——《金／银》柑果球企划与「圆秘」印章
+  translation: "第1章：传票与传真的时代——《金·银》中钢铁先生的球与“丸秘”印章"
 - speaker: 增田顺一
   original: ゲーム開発における資料などのアーカイブについて質問され、増田さんは「最近は保管プロセスがあるけど、昔はFAXとかで送信しているような紙ベースでやっていたもので、コンピューターで絵を描いたりもしていなかったのでなかなかものが残っていないですよね。特に赤・緑時代とかルビー・サファイア時代はこういうものを見せるとも思っていなかったのでね」と笑いながら回答。
-  translation: 当被问及游戏开发过程中资料等内容的存档管理时，增田先生笑着回答道：“如今是有保管流程的，但过去都是靠传真机传送之类的纸质办公方式，也没有用电脑来画画，所以很多东西都没能留存下来。尤其是《宝可梦 红／绿》时代和《宝可梦 红宝石／蓝宝石》时代，当时压根没想过会把这些东西拿出来给人看呢。”
+  translation: "当被问及游戏开发过程中资料等内容的存档管理时，增田先生笑着回答道：“如今是有保管流程的，但过去都是靠传真机传送之类的纸质办公方式，也没有用电脑来画画，所以很多东西都没能留存下来。尤其是《宝可梦 红·绿》时代和《宝可梦 红宝石·蓝宝石》时代，当时压根没想过会把这些东西拿出来给人看呢。”"
   role: answer
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s02.jpg
   caption: 《宝可梦 金／银》钢铁先生柑果球设定手稿：纸张右上角清晰盖有“丸秘（绝密）”红色印章，详细记录了各色球的材质与捕获机能。
   alt: 金银钢铁先生特殊球圆秘手稿
 - original: ポケットモンスター 金・銀に登場するガンテツボールの種類やボールの材料などが書かれた資料。紙の右上には丸秘のはんこが押されています。
-  translation: 记载了《宝可梦 金／银》中登场的桧皮镇钢铁先生的柑果球（特殊球）种类及制球材料等内容的资料。纸张右上角盖有“丸秘”印章。
+  translation: "记载了《宝可梦 金·银》中登场的钢铁先生的球的种类和球的材料等内容的资料。纸张右上角盖有“丸秘”印章。"
 - type: heading
   level: 2
   original: 第2章：クラッシュとメモリ配分――『赤・緑』開発日誌と2日の消失
-  translation: 第2章：崩溃日记与内存分配——《红／绿》开发手账与“丢失两日”
+  translation: "第2章：崩溃与内存分配——《红·绿》的开发日志与消失的两天"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s03.jpg
   caption: 增田顺一手指指出的是《宝可梦 红／绿》时代的汇编程序内存银行（Bank）空间分配手写便签。
   alt: 红绿时代内存分配便签
 - original: 手で示している部分にあるのは、赤・緑時代のプログラムのバックの何がどこに入っているのかを示すメモ。
-  translation: 他手指的位置，是一张标注《红／绿》时代程序Bank中各处存放内容的便签。
+  translation: "他手指的位置，是一张标注《红·绿》时代程序Bank中各处存放内容的便签。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s04.jpg
   caption: 1990年代GAME FREAK开发周报残卷：赫然写着“电脑系统崩溃导致损失2天进度”。增田感叹万幸当时宝可梦数据没有彻底灰飞烟灭。
@@ -83,17 +83,17 @@ parallel_items:
   caption: 《宝可梦 红宝石／蓝宝石》雷吉洛克、雷吉艾斯、雷吉斯奇鲁三神柱捕捉事件的盲文（点字）系统设计原案草稿。
   alt: 宝石版盲文三神柱企划案
 - original: ルビー・サファイアの資料には、レジロック・レジアイス・レジスチルという3体のポケモンをゲットするためのイベントに点字を盛り込む、というアイデアについて書かれています。
-  translation: 《红宝石／蓝宝石》的资料中，记载了这样一项创意：在获取雷吉洛克、雷吉艾斯、雷吉斯奇鲁这三只宝可梦的事件中，加入盲文（点字）解谜要素。
+  translation: "《红宝石·蓝宝石》的资料中，记载了这样一项创意：在获取雷吉洛克、雷吉艾斯、雷吉斯奇鲁这三只宝可梦的事件中，加入盲文（点字）。"
 - type: heading
   level: 2
   original: 第3章：アイデアの積層――『ブラック・ホワイト』からのスケッチブック革命
-  translation: 第3章：灵感的层叠累加——从《黑／白》开始的速写本档案革命
+  translation: "第3章：创意的叠加——从《黑·白》开始的速写本革命"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s06.jpg
   caption: 从2010年《宝可梦 黑／白》开发起，GAME FREAK开始规范化档案管理，团队成员在大型素描本上记录灵感并标明具体日期。
   alt: 黑白开发速写本手稿
 - original: 資料のアーカイブを意識し始めたのは2010年に発売されたブラック・ホワイトの開発からだそうで、そこからはアイデアスケッチなどに日にちも書き込むようになったそうです。また、手書きでのアイデア出しも続けており、紙の資料としてまとめやすいからか、スケッチブックを使うようになっていったとのこと。
-  translation: 据称，GAME FREAK开始有意识地建立资料档案，是从2010年发售的《宝可梦 黑／白》开发时期开始的，自那之后，他们也会在创意素描等资料上标注日期。此外，手写构思创意的做法也一直延续至今，或许是因为这样更容易整理成纸质资料，他们逐渐开始使用素描本。
+  translation: "据称，GAME FREAK开始有意识地建立资料档案，是从2010年发售的《宝可梦 黑·白》开发时期开始的，自那之后，他们也会在创意素描等资料上标注日期。此外，手写构思创意的做法也一直延续至今，或许是因为这样更容易整理成纸质资料，他们逐渐开始使用素描本。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s08.jpg
   caption: 关于游戏内UI窗口系统与菜单排版的随想手绘草图，哪怕转瞬即逝的微小灵感也随时落在纸面上。
@@ -105,14 +105,14 @@ parallel_items:
   caption: 为简化多国语言本地化难题而构想的“图章戳印（Stamp）拼词交流”手稿，这也成为后续世代在线表情包交流的原型构想。
   alt: 图章替代长文本本地化交流草稿
 - original: 人と会話するというのはローカライズが大変なので、文章の組合わせをやめてスタンプにできないか、と考えたメモ。
-  translation: 与人对话的本地化工作极为繁重，因此曾考虑放弃文章组合的方式，改用图章印章来替代的备忘录。
+  translation: "和人对话的本地化很麻烦，所以曾考虑不再组合句子，改用贴图（stamp）的备忘。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s11.jpg
   caption: 增田顺一动情阐述“保留纸质手稿”的真谛：唯有让过去的想法留下实体痕迹，才能在旧灵感之上不断堆叠进化出全新奇迹。
   alt: 增田讲述灵感累加哲学
 - speaker: 增田顺一
   original: 「こういうの(紙に)に書いておくと、このアイデアから次のアイデアに進められるというか、アイデアにアイデアを重ねられるので。イラストとかもそうだし、こういうもの(紙にアイデアが残されている)があったときに、それじゃあこういうもの(新しいアイデア)が出せるね、と次々プラスに転じていける」と、アイデアを残しておくことの重要性を語る増田さん。
-  translation: “像这样（写在纸上）留下来的话，就能从这个点子推进到下一个点子，或者说，能在点子上不断叠加新的点子。插画之类的也是一样，当这些（留在纸上的点子）摆在那里的时候，就会想‘那么这样的东西（新点子）也能做出来了吧’，于是一步步不断转化为加法。”增田先生如此讲述了留下点子记录的重要性。
+  translation: "“像这样（写在纸上）留下来的话，就能从这个点子推进到下一个点子，或者说，能在点子上不断叠加新的点子。插画之类的也是一样，当这些（留在纸上的点子）摆在那里的时候，就会想‘那么这样的东西（新点子）也能做出来了吧’，于是就能一个接一个地往好的方向发展。”增田先生如此讲述了留下点子记录的重要性。"
   role: answer
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s12.jpg
@@ -123,29 +123,29 @@ parallel_items:
   caption: 回头机制手稿笔记：原案曾设想根据性格决定是否回头，最终在《X／Y》中演化为结合“宝友会”羁绊好感度的回头互动机制。
   alt: 回头机制演化笔记
 - original: 例えば、バトルで自分の手持ちポケモンが振り向くというアイデアをブラック・ホワイト時代に考案したそうですが、これはブラック・ホワイトには実装できなかったそうです。また、メモにはポケモンの性格で振り向くかどうかを決めると書いてあるそうですが、実際にはポケモンをかわいがると振り向くようになるという仕様にして、X・Yで実装することになったとのこと。
-  translation: 例如，在《宝可梦 黑／白》时代，他们曾构思过让己方手持宝可梦在战斗中回头望向训练家的点子，但据说这一想法未能在《宝可梦 黑／白》中实现。此外，笔记中还写着要根据宝可梦的性格来决定它是否会回头，但实际做法改成了只要善待、疼爱宝可梦它就会回头，并最终在《宝可梦 X／Y》中实现了这一机制。
+  translation: "例如，在《宝可梦 黑·白》时代，他们曾构思过让己方手持宝可梦在战斗中回头望向训练家的点子，但据说这一想法未能在《宝可梦 黑·白》中实现。此外，笔记中还写着要根据宝可梦的性格来决定它是否会回头，但实际做法改成了只要善待、疼爱宝可梦它就会回头，并最终在《宝可梦 X·Y》中实现了这一机制。"
 - type: heading
   level: 2
   original: 第4章：大森滋のA3スケッチ――『サン・ムーン』対戦演出とポケリフレ
-  translation: 第4章：大森滋的A3大型速写——《太阳／月亮》对战运镜与宝可清爽乐
+  translation: "第4章：大森滋的A3草图——《太阳·月亮》的对战演出与宝可清爽乐"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s14.jpg
   caption: 《宝可梦 太阳／月亮》总监大森滋登场，手持开会时用于团队概念对齐的巨大A3速写本。
   alt: 大森滋展示大型速写本
 - original: サン・ムーンでディレクターを務めた大森滋さんも登場。
-  translation: 《太阳／月亮》总监大森滋也登场了。
+  translation: "《太阳·月亮》总监大森滋也登场了。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s16.jpg
   caption: 《太阳／月亮》对战开场分镜脚本：训练家抛球姿态、镜头机位推进与宝可梦跃出光芒的动态连环草图。
   alt: 日月对战开场镜头分镜
 - original: 実際に会議をしながらスケッチブックにアイデアやスケッチを書くそうで、イメージを共有するために大きなスケッチブックを使用しているとのこと。以下のスケッチブックに描かれているのはサン・ムーンの、バトル開始時のトレーナーやポケモンの登場シーンの流れを記したもの。
-  translation: 实际上，他们在开会的同时会在速写本上写下点子和草图，据说为了共享构想，会使用大开本的速写本。下面这本速写本上画的，是《宝可梦 太阳／月亮》中战斗开始时训练家和宝可梦登场场景的流程分镜。
+  translation: "实际上，他们在开会的同时会在速写本上写下点子和草图，据说为了共享构想，会使用大开本的速写本。下面这本速写本上画的，是《宝可梦 太阳·月亮》中战斗开始时训练家和宝可梦登场场景的流程分镜。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s17.jpg
   caption: 《太阳／月亮》“宝可清爽乐（Pokémon Refresh）”系统设计笔记：从触碰、梳理、喂食到亲密度提升状态反馈的详细流程规划。
   alt: 宝可清爽乐互动流程笔记
 - original: さらに、サン・ムーンで実装されたポケリフについてのアイデアメモ。ポケリフレを通してどうやってポケモンと仲良くなるのかのプロセスや、各動作に至るまで細かくアイデアがメモされています。
-  translation: 此外，还有一份关于《太阳／月亮》中实装的宝可清爽乐（Pokemon Refresh）的创意笔记。笔记中详细记录了如何通过宝可清爽乐与宝可梦变得亲密的过程，乃至每一个具体动作的细致构想。
+  translation: "此外，还有一份关于《太阳·月亮》中实装的宝可清爽乐（Pokemon Refresh）的创意笔记。笔记中详细记录了如何通过宝可清爽乐与宝可梦变得亲密的过程，乃至每一个具体动作的细致构想。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s18.jpg
   caption: 对战伤害计算公式与数值参数平衡手稿。增田笑称程序敲着敲着数值天天都在改，纸上数字只是当时的一个快照。
@@ -155,14 +155,14 @@ parallel_items:
 - type: heading
   level: 2
   original: 第5章：8ビットの極限芸術――加算による乗算・正弦波圧縮・40の波形魔法
-  translation: 第5章：8比特的极限艺术——累加模拟乘法、正弦波极限压缩与40种叫声魔法
+  translation: "第5章：8位的极限艺术——用加法实现乘法、正弦波压缩、40种波形的魔法"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s19.jpg
   caption: 增田顺一回忆初代Game Boy的Z80变体汇编开发：CPU底层连硬件乘法指令都没有，一切乘法全靠循环累加硬算！
   alt: 增田顺一回忆汇编开发
 - speaker: 增田顺一
   original: また、「赤・緑時代はアセンブリ言語で書いてるので、かけ算もない言語なので、足し算を回数することでかけ算にしている」と、赤・緑の開発当初を振り返りながら懐かしむ増田さん。
-  translation: 此外，增田顺一还回顾并怀念了《红／绿》开发初期的情形：“红绿时代是用汇编语言编写的，那种语言连乘法都没有，所以只能通过反复累加来实现乘法。”
+  translation: "此外，增田顺一还回顾并怀念了《红·绿》开发初期的情形：“红绿时代是用汇编语言编写的，那种语言连乘法都没有，所以只能通过反复累加来实现乘法。”"
   role: answer
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s20.jpg
@@ -195,7 +195,7 @@ parallel_items:
   caption: 增田顺一亲手编写声音驱动并用彩色马克笔绘制的叫声波形示意图：通过交替组合基础波形切片合成宝可梦音效。
   alt: 增田手绘叫声波形图
 - original: また、ポケモンのサウンドプログラムも、赤・緑時代は増田さんが自身で書いていたそうです。鳴き声は以下のように複数の波形を作って表現していたそうです。
-  translation: 此外，宝可梦的音频驱动程序在《红／绿》时代也是由增田亲自编写的。宝可梦叫声据说就是通过合成多种波形来表现的，具体如下。
+  translation: "此外，宝可梦的音频驱动程序在《红·绿》时代也是由增田亲自编写的。宝可梦叫声据说就是通过合成多种波形来表现的，具体如下。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s25.jpg
   caption: 增田手指指向的是A模式波形：这一特定脉宽波形会发出短促明亮的“噗——（Pu-）”声。
@@ -223,14 +223,14 @@ parallel_items:
   caption: “噗珀珀噗珀”的叫声拼接奇迹：初代总共仅有约40种基础波形音源，增田通过改变播放时长、包络与音高，神奇变幻出151只宝可梦的全套叫声！
   alt: 波形交替拼接合成叫声
 - original: 赤・緑ではこの異なる波形を切替えて、「プポポプポ」といった具合にポケモンの鳴き声を表現したそうです。ベースとなる音は40種類ほどしか存在しないそうで、音の長さと音程を変えることで各ポケモンの進化形の鳴き声なども作ったとのこと。
-  translation: 在《红／绿》中，正是通过交替切换这些不同的波形，才实现了“噗啵啵噗啵”这般宝可梦叫声的表现。据说作为基础音源的声音仅有约40种，而通过改变声音的长度与音高，连各宝可梦进化形的叫声等也得以制作出来。
+  translation: "在《红·绿》中，正是通过交替切换这些不同的波形，才实现了“噗啵啵噗啵”这般宝可梦叫声的表现。据说作为基础音源的声音仅有约40种，而通过改变声音的长度与音高，连各宝可梦进化形的叫声等也得以制作出来。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s29.jpg
   caption: 增田顺一解开20年之谜：玩家总觉得某些宝可梦叫声有一种莫名亲切的家族相似感，正是因为它们共享了同一套波形基因！
   alt: 增田解开叫声相似之谜
 - speaker: 增田顺一
   original: 最後は「ポケモンの鳴き声がどこか似ているように感じるのはそういった理由から」と増田さんが語り、ムービーは終了です。
-  translation: 最后，增田顺一总结道：“玩家之所以会觉得某些宝可梦的叫声听起来有些相似，正是出于这样的原因。”视频至此圆满结束。
+  translation: "最后，增田说“宝可梦的叫声之所以听起来有些相似，就是出于这样的原因”，视频到此结束。"
   role: answer
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s30.jpg
@@ -266,10 +266,14 @@ source:
   url: https://gigazine.net/news/20170905-pokemon-early-design-documents/
 entities:
   people:
-  - "增田顺一"
+  - 增田顺一
+  - 大森滋
   works:
   - 宝可梦 红·绿
   - 宝可梦 太阳·月亮
+  - 宝可梦 金·银
+  - 宝可梦 黑·白
+  - 宝可梦 红宝石·蓝宝石
 summary: "Game Informer 探访 GAME FREAK，增田顺一公开早期开发手稿并接受采访，谈及《宝可梦 红／绿》《宝可梦 金／银》《宝可梦 红宝石／蓝宝石》《宝可梦 黑／白》《宝可梦 太阳／月亮》等作品。他提到《红／绿》以汇编语言开发、无乘法指令只能累加实现，正弦波以 8 个数据点加 1 比特表示，叫声基础音源约 40 种；《金／银》柑果球资料盖有「丸秘」印章；《红宝石／蓝宝石》雷吉三兄弟事件曾构思盲文解谜；档案管理自 2010 年《黑／白》起有意识建立。总监大森滋展示《太阳／月亮》对战登场分镜与宝可清爽乐笔记。"
 dek: "增田顺一与大森滋公开《宝可梦》早期手稿与开发细节"
 topics:

@@ -67,10 +67,12 @@ parallel_items:
   translation: 员工介绍
 - type: image
   src: /assets/img/interviews/2017-gamefreak-gear-gigawrecker/profile_01.png
-  caption: J.T. デザイナー
+  caption: "J.T. 设计师"
+  caption_original: "J.T. デザイナー"
 - type: image
   src: /assets/img/interviews/2017-gamefreak-gear-gigawrecker/profile_02.png
-  caption: T.M. 3Dグラフィックデザイナー
+  caption: "T.M. 3D图形设计师"
+  caption_original: "T.M. 3Dグラフィックデザイナー"
 - type: text
   original: '2010年に、新卒で入社したプログラマ&プランナーです。
 
@@ -95,7 +97,7 @@ parallel_items:
   speaker_orig: H.I
   original: 私は一度新規タイトルも開発してみたいな、くらいの軽い気持ちで。『ポケットモンスター X・Y』の終盤からゲーム完成リフレッシュ休暇のときに2人で話して新規タイトル案を練り始めました。
   role: answer
-  translation: 我嘛，就是觉得想试着开发一款新作品，心态比较轻松。从《宝可梦 X·Y》后期到游戏完成后的焕然一新假期期间，我们两个人聊着聊着就开始构思新作品的方案了。
+  translation: "我嘛，就是觉得想试着开发一款新作品，心态比较轻松。从《宝可梦 X·Y》的后期到游戏完成后的休整假期间，我们两个人谈起这件事，开始琢磨新作品的方案。"
 - type: text
   speaker: M.O.
   speaker_orig: M.O
@@ -165,11 +167,11 @@ parallel_items:
 - type: heading
   level: 2
   original: ギアプロジェクトだからこそできる経験
-  translation: 只有齿轮项目才能获得的经验
+  translation: "只有Gear Project才能获得的经验"
 - type: heading
   level: 3
   original: ギアプロジェクトに参加するおもしろみと難しさを教えてください。
-  translation: 请告诉我们参加齿轮项目的趣味和难点。
+  translation: "请告诉我们参加Gear Project的趣味和难点。"
 - type: text
   speaker: M.O.
   speaker_orig: M.O

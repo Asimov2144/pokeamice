@@ -24,13 +24,13 @@ parallel_items:
 - type: heading
   level: 2
   original: 『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制
-  translation: 《精灵宝可梦 太阳／月亮》3D 资产制作与实现工业级突破的三社协同开发体系
+  translation: "《宝可梦 太阳·月亮》的3D资产制作与实现它的高度三社协作体制"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_01.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_01.jpg)
   caption: ''
 - original: ニンテンドー3DSにおけるシリーズ第3弾『ポケットモンスター サン・ムーン（以下、サン・ムーン）』。本作の開発にはゲームフリーク・クリーチャーズ・ポケモンの3社が高度な連携体制を敷いている。携帯ゲーム機向けに大量のアセットを扱う分散開発と、その工夫に迫る。
-  translation: 在任天堂3DS上的系列第三作《宝可梦 太阳／月亮》（以下简称《太阳／月亮》）。本作的开发由GAME FREAK、Creatures、宝可梦三家公司构建了高度协同的体制。本文将深入探讨面向便携式游戏机处理大量资产的分布式开发及其巧思。
+  translation: "在任天堂3DS上的系列第三作《宝可梦 太阳·月亮》（以下简称《太阳·月亮》）。本作的开发由GAME FREAK、Creatures、宝可梦三家公司构建了高度协同的体制。本文将深入探讨面向便携式游戏机处理大量资产的分布式开发及其巧思。"
 - original: ※本記事は月刊「CGWORLD + digital video」vol. 227（2017年7月号）からの転載となります
   translation: '※本文转载自月刊《CGWORLD + digital video》vol. 227（2017年7月号）'
 - type: heading
@@ -38,7 +38,7 @@ parallel_items:
   original: 20年以上続く人気シリーズを影で支える高度な開発体制
   translation: 支撑20年以上人气系列背后的高度开发体制
 - original: 1996年に初代『赤・緑』が発売され、2016年に発売された最新作『サン・ムーン』まで、20年以上にわたって人気を博している『ポケットモンスター』シリーズ。これを支えるのが、ゲーム開発全般を担当するゲームフリーク、プロデュースとブランドマネジメントを行うポケモン、そしてポケモンの3DCGアセット制作を担当するクリーチャーズだ。
-  translation: 从1996年初代《红・绿》发售，到2016年发售的最新作《太阳／月亮》，持续20多年高人气的《宝可梦》系列。支撑这一系列的是负责游戏开发整体的GAME FREAK、负责制作与品牌管理的宝可梦公司，以及负责宝可梦3DCG资产制作的Creatures。
+  translation: "从1996年初代《红・绿》发售，到2016年发售的最新作《太阳·月亮》，持续20多年高人气的《宝可梦》系列。支撑这一系列的是负责游戏开发整体的GAME FREAK、负责制作与品牌管理的宝可梦公司，以及负责宝可梦3DCG资产制作的Creatures。"
 - original: 写真右から　アートディレクター：海野隆雄氏、ディレクター：大森 滋氏（以上、ゲームフリーク）、ポケモンキャラクターアートディレクター：氏家淳子氏、ポケモンモーションアドバイザー：畠祐貴氏、キャラクターモデリングアーティスト：中廣健吾氏、ポケモン3Dモデリングリード：植松俊介氏（以上、クリーチャーズ）
   translation: "照片从右起：美术总监 海野隆雄先生、总监 大森滋先生（以上来自GAME FREAK）、宝可梦角色美术总监 氏家淳子女士、宝可梦动作顾问 畠祐贵先生、角色建模艺术家 中广健吾先生、宝可梦3D建模主管 植松俊介先生（以上来自Creatures）"
   type: note
@@ -47,7 +47,7 @@ parallel_items:
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_prof.jpg)
   caption: ''
 - original: 『サン・ムーン』の特徴は3点ある。第1に世界観をより身近に感じてもらうために、バトル中で人物キャラクターとポケモンを同じ画面で表示させたことだ。これにより描画負荷の向上が予想されたため、従来のニンテンドー3DSで汎用的に使われている描画エンジンではなく、ゲームフリーク側で『サン・ムーン』に特化した内製ゲームエンジンを開発。10％の処理負荷削減が達成された。
-  translation: 《太阳／月亮》有三大特征。第一，为了让世界观更贴近玩家，在战斗中让人物角色和宝可梦显示在同一画面中。由于这预计会提高渲染负荷，因此没有使用任天堂3DS上通用的渲染引擎，而是由GAME FREAK开发了专门针对《太阳／月亮》的自研游戏引擎。实现了10%的处理负荷削减。
+  translation: "《太阳·月亮》有三大特征。第一，为了让世界观更贴近玩家，在战斗中让人物角色和宝可梦显示在同一画面中。由于这预计会提高渲染负荷，因此没有使用任天堂3DS上通用的渲染引擎，而是由GAME FREAK开发了专门针对《太阳·月亮》的自研游戏引擎。实现了10%的处理负荷削减。"
 - original: 第2に合計で1,000匹以上にも及んだ、膨大なポケモンのアセットデータへの対応策。過去作で使用されたデータも流用されたが、それでも140匹以上が新規で制作されている。さらに、登場するポケモンには「歩く」に加えて「走る」モーションが追加されたものもある。これをミスなく制作するために、さらなる効率化と自動化の工夫がなされている。
   translation: 第二，应对总计超过1000只的庞大宝可梦资产数据。虽然也沿用了过去作品中使用的数据，但仍有超过140只被全新制作。此外，登场的宝可梦中还有一些在“走路”之外追加了“跑步”动作。为了无误地制作这些内容，进行了进一步的效率化和自动化改进。
 - original: 最後にニンテンドー3DSというハードウェア上での実装だ。その一方でポケモンのわざやギミックはタイトルを追うごとに複雑化している。そのため本作の開発においても、制限の中での工夫が強く求められた。これらを分散開発の中で滞りなく進めるために、ワークフローの整備をはじめ、様々な工夫が行われている。
@@ -90,7 +90,7 @@ parallel_items:
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_A01d.jpg)
   caption: ''
 - original: 『ポケットモンスター』シリーズ以外に、他のポケモン作品も数多く展開されている。画像はニンテンドー3DS『名探偵ピカチュウ～新コンビ誕生～』のもので、開発はクリーチャーズが担当。他にもアーケードゲーム『ポケモンガオーレ』、アプリゲーム『ポケモンGO』など、多様なプラットフォームで作品が登場しており、これらで使用される3DCGモデルもクリーチャーズが一手に手がけている
-  translation: 除了《宝可梦》系列之外，还有许多其他宝可梦作品展开。图片是任天堂3DS《名侦探皮卡丘～新组合诞生～》的，开发由Creatures负责。此外还有街机游戏《宝可梦加傲乐》、手机应用《宝可梦GO》等，作品在多种平台上登场，这些作品中使用的3DCG模型也由Creatures一手包办。
+  translation: "除了《宝可梦》系列之外，还有许多其他宝可梦作品展开。图片是任天堂3DS《名侦探皮卡丘～新组合诞生～》的，开发由Creatures负责。此外还有街机游戏《宝可梦加傲乐》、手机应用《Pokémon GO》等，作品在多种平台上登场，这些作品中使用的3DCG模型也由Creatures一手包办。"
 - original: ミスを減らして効率化を進める管理ツール
   translation: 减少错误并推进效率化的管理工具
 - type: image
@@ -104,7 +104,7 @@ parallel_items:
 - original: クリーチャーズとゲームフリークとの間で監修用にやりとりされるデータ量は膨大なものとなる。そのため前作にひき続いて、納品用のデータチェックを効率化するためのデータベースが活用された
   translation: Creatures与GAME FREAK之间为监修而交换的数据量非常庞大。因此，继前作之后，活用了用于高效检查交付数据的数据库。
 - original: その上で本作では、内製ゲームエンジンの採用により、Windows上でモデルを確認できるビューアが実現。開発効率に大きく貢献したこの他、エフェクトなどの制作向けに、統合型わざエディタが制作されている
-  translation: 在此基础上，本作采用了自研游戏引擎，实现了可在Windows上确认模型的查看器。对开发效率做出了巨大贡献此外，为制作特效等，还制作了集成型招式编辑器。
+  translation: "在此基础上，本作采用了自研游戏引擎，实现了可在Windows上确认模型的查看器。对开发效率做出了巨大贡献。此外，为制作特效等，还制作了集成型招式编辑器。"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_A02c.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_A02c.jpg)
@@ -178,7 +178,7 @@ parallel_items:
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_B01i.jpg)
   caption: ''
 - original: マッシブーンの例
-  translation: 穿着熊的例子
+  translation: "爆肌蚊的例子"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_B01j.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_B01j.jpg)
@@ -278,7 +278,7 @@ parallel_items:
 - original: ルナアーラのマジョーラカラー
   translation: 露奈雅拉的变色龙色彩
 - original: パッケージを飾るもう1匹の伝説のポケモン、ルナアーラ。『サン・ムーン』というタイトルにあわせて、太陽の使者であるソルガレオに対し、「月の使者」としてデザインされたポケモンだ。最大の特徴は全身が角度や光の当たり方で異なるマジョーラカラーになっていることで、環境マップのフェッチにバイアステクスチャをもたせて表現している。また、発光マップはアニメーションが必要なので、マルチUVを使用している
-  translation: 装点包装的另一只传说的宝可梦，露奈雅拉。与《太阳／月亮》这个标题相呼应，相对于太阳的使者索尔迦雷欧，它被设计为“月亮的使者”宝可梦。最大的特征是全身会根据角度和光线照射方式呈现不同的变色龙色彩，通过为环境贴图的获取添加偏置贴图来表现。此外，由于发光贴图需要动画，因此使用了多重UV。
+  translation: "装点包装的另一只传说的宝可梦，露奈雅拉。与《太阳·月亮》这个标题相呼应，相对于太阳的使者索尔迦雷欧，它被设计为“月亮的使者”宝可梦。最大的特征是全身会根据角度和光线照射方式呈现不同的变色龙色彩，通过为环境贴图的获取添加偏置贴图来表现。此外，由于发光贴图需要动画，因此使用了多重UV。"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_C02a.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_C02a.jpg)
@@ -412,13 +412,13 @@ parallel_items:
 - original: 周囲がトーチカでおおわれ、防御に優れたドヒドイデ【画像左上】。待機ポーズ【画像下】では正面の2枚が開き、防御時には閉じるという、他に見られないギミックを有している。そのためジョイント【画像右上】も全周を傘のように覆う特殊な構造となった
   translation: 被碉堡覆盖、防御力优异的超坏星【图片左上】。在待机姿势【图片下】中，正面的两片会打开，防御时则会闭合，拥有其他宝可梦所没有的机关。因此，其关节【图片右上】也形成了如伞一般覆盖全周的特殊结构。
 - original: デカグースの「歩き」と「走り」
-  translation: 猫鼬少的「走路」与「奔跑」
+  translation: "猫鼬探长的“走路”与“奔跑”"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_D03a.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D03a.jpg)
   caption: ''
 - original: 待機時は上体を起こしているが、移動時は4つ足となるデカグース
-  translation: 待机时抬起上半身，但移动时变为四足行走的猫鼬少。
+  translation: "待机时抬起上半身，但移动时变为四足行走的猫鼬探长。"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_D03b.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D03b.jpg)
@@ -446,15 +446,15 @@ parallel_items:
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D03g.jpg)
   caption: ''
 - original: 走行時はピョンピョンといった感じで移動する。ヤングースの進化形で、名前の通りマングースなどの小動物の動きが参考にされている
-  translation: 奔跑时以蹦蹦跳跳的感觉移动。作为猫鼬探长的进化前形态，正如其名，参考了猫鼬等小动物的动作。
+  translation: "奔跑时以蹦蹦跳跳的感觉移动。猫鼬探长是猫鼬少的进化形，正如其名，参考了猫鼬等小动物的动作。"
 - original: ツツケラの「歩き」と「走り」
-  translation: 小笃儿的「走路」与「奔跑」
+  translation: "小笃儿的“走路”与“奔跑”"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_D04a.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D04a.jpg)
   caption: ''
 - original: アカゲラのように進行方向に対して上下移動しながら飛翔するツツケラ
-  translation: 像赤啄木鸟一样，在飞行时沿着前进方向上下移动的小笃儿。
+  translation: "像大斑啄木鸟那样，朝前进方向飞行时一边上下起伏的小笃儿。"
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_D04b.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D04b.jpg)

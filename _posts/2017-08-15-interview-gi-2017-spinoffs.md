@@ -53,18 +53,18 @@ parallel_items:
   image: /assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/001.jpg
   alt: Game Freak's Directors Share Their Favorite Pokémon Spin-Offs
 - original: 'During our time at Game Freak we spoke with studio co-founder, composer, producer, and director Junichi Masuda and director Shigeru Ohmori extensively about the core Pokémon RPGs, but we did sneak in one question about the Pokémon spin-offs. The franchise has found the most success as an RPG, but it has explored nearly every genre on nearly every platform. Our question for Masuda and Ohmori was simple: what''s your favorite one?'
-  translation: "在GAME FREAK期间，我们与工作室联合创始人、作曲家、制作人兼总监增田顺一以及总监大森滋就宝可梦核心RPG进行了广泛交谈，但我们也插入了一个关于宝可梦衍生作品的问题。该系列作为RPG取得了最大的成功，但它几乎在几乎所有平台上探索了几乎所有类型。我们对增田和大森的问题很简单：你最喜欢哪一个？"
+  translation: "我们在GAME FREAK采访期间，与工作室联合创始人、作曲家、制作人兼总监增田顺一以及总监大森滋就宝可梦核心RPG聊了很多，但也悄悄加了一个关于宝可梦衍生作品的问题。该系列作为RPG取得了最大的成功，但它几乎在所有平台上尝试过几乎所有类型。我们向增田和大森提出的问题很简单：你最喜欢哪一个？"
 - original: Masuda was quick to offer an unsurprising answer, especially if you've been following him on twitter lately.
   translation: 增田很快给出了一个并不令人意外的答案，尤其是如果你最近在推特上关注他的话。
 - type: image
   image: /assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/002.jpg
   alt: Game Freak's Directors Share Their Favorite Pokémon Spin-Offs
 - original: '"Pokémon Go!" Masuda says, "I am not sure if you can call that a spin-off title." Masuda also brought up the mobile game when we were talking to him about the development of Pokémon Ruby and Sapphire, which he acknowledges were the most difficult for him to create. During the development of those games, he could see the Pokémon brand begin to fade which caused him a great deal of stress, but when the game finally came out, he learned that the franchise was still very popular. “Pokémon Go is experiencing something similar where people are saying, ‘Eh, it’s done. The fad’s over,’ but it was way worse than that after Gold and Silver had settled down and we were working on the next game," Masuda says.'
-  translation: “宝可梦GO！”增田说，“我不确定你是否能称其为衍生作品。”当我们在与他谈论《宝可梦 红宝石·蓝宝石》的开发时，增田也提到了这款手机游戏，他承认这两款游戏对他来说是最难制作的。在这些游戏的开发过程中，他可以看到宝可梦品牌开始衰落，这给他带来了巨大的压力，但当游戏最终问世时，他了解到该系列仍然非常受欢迎。“宝可梦GO正在经历类似的事情，人们说，‘呃，它完了。这股热潮结束了，’但在《金／银》尘埃落定、我们正在制作下一款游戏之后，情况要糟糕得多，”增田说。
+  translation: "“Pokémon GO！”增田说，“我不确定你是否能称其为衍生作品。”当我们在与他谈论《宝可梦 红宝石·蓝宝石》的开发时，增田也提到了这款手机游戏，他承认这两款游戏对他来说是最难制作的。在这些游戏的开发过程中，他可以看到宝可梦品牌开始衰落，这给他带来了巨大的压力，但当游戏最终问世时，他了解到该系列仍然非常受欢迎。“Pokémon GO正在经历类似的事情，人们说，‘呃，它完了。这股热潮结束了，’但在《金·银》尘埃落定、我们正在制作下一款游戏之后，情况要糟糕得多，”增田说。"
 - original: Ohmori's answer was a little more unexpected. "I played a lot of Pokémon Snap. I got really into it," Ohmori says. "The most fun part for me – this may have been a Japan-only thing – but you could take your game to a convenience store and print out the photos you took and could use them like stickers and put them on things. I just had a lot of fun being able to take the photos in the game and print them out as things that I could use." You can check out our in-progress Super Replay of Pokémon Snap by heading here.
   translation: 大森的答案则有些出人意料。“我玩了很多《宝可梦随乐拍》。我真的很投入，”大森说。“对我来说最有趣的部分——这可能只在日本有——但你可以把游戏带到便利店，打印出你拍的照片，然后像贴纸一样使用它们，贴到东西上。我只是觉得能够在游戏中拍照并打印出来作为我可以使用的东西非常有趣。”你可以点击这里查看我们正在进行中的《宝可梦随乐拍》超级重玩。
 - original: We also asked which genre Pokémon hasn't explored that Masuda and Ohmori would like to see in the future. "It’s kind of an Easter Egg from X and Y, but Rhydon Racing was a thing in that world. There might be a message in there that I really want to create Rhydon racing," Masuda says.
-  translation: 我们还问了增田和大森希望未来看到宝可梦探索哪种尚未涉足的类型。“这算是《X／Y》里的一个彩蛋，但在那个世界里钻角犀兽赛跑是存在的。那里可能有一个信息，就是我真的很想制作钻角犀兽赛跑，”增田说。
+  translation: "我们还问了增田和大森希望未来看到宝可梦探索哪种尚未涉足的类型。“这算是《X·Y》里的一个彩蛋，但在那个世界里钻角犀兽赛跑是存在的。那里可能有一个信息，就是我真的很想制作钻角犀兽赛跑，”增田说。"
 - original: '"I really want to try working on a real action-focused game," Ohmori says. "Of course, we’ve kind of got those already with fighting games as well so it’s hard to say what it would be. Like a 2D side-scrolling action game, maybe."'
   translation: “我真的很想尝试制作一款真正以动作为主的游戏，”大森说。“当然，我们已经通过格斗游戏有了类似的东西，所以很难说会是什么。也许像2D横版动作游戏。”
 - original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
@@ -82,9 +82,9 @@ parallel_items:
 - original: Everything We Know About Pokémon On The Nintendo Switch
   translation: 关于Nintendo Switch上宝可梦的已知全部信息
 - original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
-  translation: 为什么《红宝石／蓝宝石》是最难制作的宝可梦作品
+  translation: "为什么《红宝石·蓝宝石》是最难制作的宝可梦作品"
 - original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: "GAME FREAK的导演们分享他们最喜欢的宝可梦衍生作品"
+  translation: "GAME FREAK的总监们分享他们最喜欢的宝可梦衍生作品"
 - original: An Exclusive Look At Pokémon's Early Design Documents
   translation: 独家一览宝可梦早期设计文档
 - original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
