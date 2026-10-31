@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-24/
 summary: 文章介绍高中生限定的宝可梦大集结甲子园赛事，由日本电视台与宝可梦公司创办。讲述其创办契机、首届召集学校的艰辛、规则特色与转播考量，以及赛事孕育次世代明星选手的历程。
 entities:
-  people: []
-  works: []
+  works:
+  - Pokémon UNITE
 workflow:
   fetch: live
   translation: deepseek-chat

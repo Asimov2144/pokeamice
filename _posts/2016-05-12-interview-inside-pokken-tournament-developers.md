@@ -513,14 +513,16 @@ topics:
 - "媒体组合"
 entities:
   people:
-  - "宇都宫崇人"
+  - 宇都宫崇人
+  - 星野正昭
+  - 须崎春树
   works:
-  - "宝可梦 红宝石·蓝宝石"
-  - "宝可梦 动画系列"
+  - 宝可梦 红宝石·蓝宝石
+  - 宝可梦 动画系列
   organizations:
-  - "株式会社ポケモン"
-  - "任天堂"
-  - "Creatures"
+  - 株式会社ポケモン
+  - 任天堂
+  - Creatures
 mentions:
   people:
   - "石原恒和"

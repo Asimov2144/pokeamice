@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-28/
 summary: 宝可梦卡牌Pocket于2024年10月上线，由宝可梦、Creatures、DeNA共同开发。团队聚焦收集体验，追求实体卡牌质感与数字演出融合，加入沉浸式卡牌、收藏板与简化对战，让玩家轻松感受卡牌魅力。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦集换式卡牌游戏 Pocket
 workflow:
   fetch: live
   translation: deepseek-chat

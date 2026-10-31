@@ -35,6 +35,9 @@ workflow:
 entities:
   people:
   - 增田顺一
+  - 松岛贤二
+  - 一之濑刚
+  - 大村祐介
   organizations:
   - Game Freak
   - Nintendo

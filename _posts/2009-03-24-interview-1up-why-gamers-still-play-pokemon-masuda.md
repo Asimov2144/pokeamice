@@ -34,7 +34,9 @@ original_link: https://web.archive.org/web/20110805141019/http://www.1up.com/fea
 source_url: https://web.archive.org/web/20110805141019/http://www.1up.com/features/gamers-play-pokemon
 summary: 1UP.com 2009年文章探讨宝可梦长盛不衰的原因。增田顺一强调游戏简单易上手，河内丸武史认为玩家在宝可梦世界中感到舒适。文章分析收集、跨代传输、双版本交换、华丽大赛、皮卡丘互动及隐藏数值机制如何同时吸引休闲与硬核玩家。
 entities:
-  people: []
+  people:
+  - 增田顺一
+  - 河内丸武史
   works:
   - 宝可梦 白金
 workflow:

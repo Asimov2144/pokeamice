@@ -78,6 +78,9 @@ source:
   url: https://elpais.com/cultura/2014/11/01/actualidad/1414798048_551223.html
   source_type: web_interview
 entities:
+  people:
+  - 增田顺一
+  - 大森滋
   works:
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   - 宝可梦 X·Y

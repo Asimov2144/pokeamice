@@ -29,8 +29,10 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-13/
 summary: 文章介绍Netflix与株式会社宝可梦共同制作的定格动画《宝可梦 礼宾部》，由dwarf studios操刀。内容涵盖以成年观众共鸣为目标的故事开发、人偶与布景的手工讲究、竹内玛莉亚创作主题曲，以及支持33种字幕配音的全球发行考量。
 entities:
-  people: []
-  works: []
+  people:
+  - 竹内玛莉亚
+  works:
+  - 宝可梦 礼宾部
 workflow:
   fetch: live
   translation: deepseek-chat

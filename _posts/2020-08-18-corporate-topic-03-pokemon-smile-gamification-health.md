@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-3/
 summary: 文章介绍《宝可梦微笑》：用摄像头检测刷牙，宝可梦帮助孩子养成习惯。该作由宝可梦与LITALICO共同开发，插画由カナヘイ绘制，支持12种语言，在150多个国家和地区发布。
 entities:
-  people: []
-  works: []
+  works:
+  - Pokémon Smile
 workflow:
   fetch: live
   translation: deepseek-chat

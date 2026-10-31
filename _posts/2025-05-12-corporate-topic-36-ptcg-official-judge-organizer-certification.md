@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-36/
 summary: 本文介绍宝可梦卡牌游戏官方资格制度，认证活动组织者与公认评定两类资格。制度始于2015年，旨在支持热情玩家举办活动、担任裁判，扩大游玩场所。文中讲述考试与培训、父母辈参与、赛事运营规模，以及取得资格者传递宝可卡魅力的连锁。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦集换式卡牌游戏
 workflow:
   fetch: live
   translation: deepseek-chat

@@ -227,7 +227,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-08-14-interview-famitsu-2013-solitiba/005.jpg
   alt: 『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？_03
-  caption: ▲競馬と『ソリティア』の楽しさが融合した『ソリティ馬』。
+  caption: "▲融合了赛马与《接龙》乐趣的《纸牌马》。"
+  caption_original: "▲競馬と『ソリティア』の楽しさが融合した『ソリティ馬』。"
 - type: heading
   level: 2
   original: とにかく、あまりの物量に忙殺されて……
@@ -277,7 +278,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-08-14-interview-famitsu-2013-solitiba/007.jpg
   alt: 『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？_10
-  caption: ▲かわいいビジュアルが特徴。
+  caption: "▲特点是可爱的画面。"
+  caption_original: "▲かわいいビジュアルが特徴。"
 - original: 肝心のデザインが決まったら、あとは開発は順調に？
   role: question
   speaker: ファミ通
@@ -421,7 +423,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-08-14-interview-famitsu-2013-solitiba/008.jpg
   alt: 『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？_14
-  caption: ▲かわいいキャラクターも魅力的だ。
+  caption: "▲可爱的角色也很有魅力。"
+  caption_original: "▲かわいいキャラクターも魅力的だ。"
 - type: heading
   level: 2
   original: 『ソリティ馬』を経て掴んだものは……？
@@ -463,7 +466,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-08-14-interview-famitsu-2013-solitiba/010.jpg
   alt: 『ソリティ馬』の開発者に聞く！　ゲームフリーク初パブリッシングタイトルは、なぜ競馬＋ソリティアだったのか？_08
-  caption: ▲やりこみ要素も充実している。
+  caption: "▲可反复游玩的要素也很丰富。"
+  caption_original: "▲やりこみ要素も充実している。"
 - original: 少人数での取り組みということもあり、『ソリティ馬』のプロジェクトは試行錯誤の連続だったようだ。日頃経験のなかった業種に取り組まざるを得なかったゆえに、勝手がわからず、右往左往した……というのは、その最たるものと言えるだろう。とはいえ、『ソリティ馬』で得た経験は大きかったようで、「大きなプロジェクトを手掛けるときにも、役立つことは多かった」という3人の言葉が印象的だった。
   role: answer
   speaker: 小幡敏宏

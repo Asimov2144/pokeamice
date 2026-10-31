@@ -25,6 +25,9 @@ original_lang: ja
 translation_lang: zh-CN
 parallel_view: translation
 published: true
+entities:
+  people:
+  - 中川翔子
 workflow:
   scan: done
   preprocess: done

@@ -53,7 +53,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/001.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_001
-  caption: 大森氏。よく見ると、シャツには『ハレ女』（はれおんな）のマスコット「クモリン」がプリントされている。
+  caption: "大森滋。仔细一看，衬衫上印着《ハレ女》（はれおんな）的吉祥物“库莫林”。"
+  caption_original: "大森氏。よく見ると、シャツには『ハレ女』（はれおんな）のマスコット「クモリン」がプリントされている。"
 - original: 大森氏は、長年ゲームフリークで『ポケットモンスター』シリーズの開発に携わり続け、近年の『ポケットモンスター ソード・シールド』や『ポケットモンスター スカーレット・バイオレット』などのディレクターも務めていた。まさに、「新時代のポケモンの担い手」と言えるクリエイターだ。
   translation: 大森长年在GAME FREAK参与《宝可梦》系列的开发，近年还担任了《宝可梦 剑·盾》和《宝可梦 朱·紫》等作品的总监。可以说正是「新时代宝可梦的担纲者」的创作者。
 - original: そんな大森氏は、なんと今作をポケモンタイトルと並行しながら作っていたらしい。そう、『ぽこ あ ポケモン』を作りながら、まったく新たな美少女ゲームを作っていたのだ。
@@ -111,7 +112,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/002.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_002
-  caption: ©2022 Pokémon. ©1995-2022 Nintendo/Creatures Inc. /GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
+  caption: "©2022 Pokémon. ©1995-2022 Nintendo/Creatures Inc. /GAME FREAK inc. Pocket Monsters・宝可梦・Pokémon是任天堂、Creatures、GAME FREAK的注册商标。"
+  caption_original: "©2022 Pokémon. ©1995-2022 Nintendo/Creatures Inc. /GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。"
 - original: 【※1】『ポケットモンスター スカーレット・バイオレット』
   translation: 【※1】《宝可梦 朱·紫》
 - original: 2022年に発売された、当時の『ポケットモンスター』シリーズ完全新作タイトル。「パルデア地方」での冒険が描かれる。大森氏がディレクターを務めていた。
@@ -119,7 +121,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/003.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_003
-  caption: ©2026 Pokémon. ©1995-2026 Nintendo/Creatures Inc./GAME FREAK inc. ©2026 KOEI TECMO GAMES ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。
+  caption: "©2026 Pokémon. ©1995-2026 Nintendo/Creatures Inc./GAME FREAK inc. ©2026 KOEI TECMO GAMES Pocket Monsters・宝可梦・Pokémon是任天堂、Creatures、GAME FREAK的商标。"
+  caption_original: "©2026 Pokémon. ©1995-2026 Nintendo/Creatures Inc./GAME FREAK inc. ©2026 KOEI TECMO GAMES ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。"
 - original: 【※2】『ぽこ あ ポケモン』
   translation: 【※2】《ぽこ あ ポケモン》
 - original: 2026年に発売された、『ポケモン』初のスローライフ・サンドボックスゲーム。企画開発は株式会社ポケモン・株式会社ゲームフリーク・株式会社コーエーテクモゲームス。大森氏がコンセプト＆シニアディレクターを務めていた。
@@ -279,7 +282,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/009.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_011
-  caption: 右が、本作の「ステージ選択画面」。まさにあの「全国の天気予報」のようになっている。
+  caption: "右图是本作的“关卡选择画面”，简直就是那张“全国天气预报”。"
+  caption_original: "右が、本作の「ステージ選択画面」。まさにあの「全国の天気予報」のようになっている。"
 - original: その画面を見ると、まず日本各地の「ここは雨が降っている、ここは晴れている」という天気の情報がわかります。その時点で、その情報が現実で役に立つ可能性もあるから、イヤじゃないんですよ。
   role: answer
   speaker: 大森滋
@@ -639,7 +643,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/019.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_021
-  caption: （画像は 【公式】『ぽこ あ ポケモン』開発エピソード 前編【#ゲームフリーク ひみつきち#58】 – YouTube より）
+  caption: "（图片出自 YouTube【官方】《Pokémon Pokopia》开发轶事 前篇【#GAME FREAK 秘密基地#58】）"
+  caption_original: "（画像は 【公式】『ぽこ あ ポケモン』開発エピソード 前編【#ゲームフリーク ひみつきち#58】 – YouTube より）"
 - original: そのころは、もうちょっとゲームシステム的には『プリンセスメーカー』【※】などに近かったんですよね。成長していくと学力が上がり、なにかの職業になって、その服がまた自分のストックになって……といった感じで、現在の形とはぜんぜん違うゲームを作っていたんです。
   role: answer
   speaker: 大森滋
@@ -1116,7 +1121,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/028.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_030
-  caption: 公式でも展開されているこちらのイラストは、じつは大森氏が描いている。
+  caption: "官方也在使用的这张插画，其实是大森滋画的。"
+  caption_original: "公式でも展開されているこちらのイラストは、じつは大森氏が描いている。"
 - original: 逆に、今作以外では大森さんは絵を描いていないんですか？
   role: question
   speaker: 電ファミ
@@ -1422,7 +1428,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/035.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_037
-  caption: 南野氏による、キャラの設定画。
+  caption: "南野あき绘制的角色设定图。"
+  caption_original: "南野氏による、キャラの設定画。"
 - type: image
   image: /assets/img/interviews/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori/036.jpg
   alt: 『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？_038

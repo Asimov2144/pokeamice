@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-33/
 summary: 宝可梦卡牌简体中文版2022年发售，官方随后在广州、北京、深圳、上海举办全国大赛大师赛，结合各地特色演出并制定团队战等独有规则。到场人数从2023年广州约6000人增至2024年深圳约2万5000人，成为新粉丝接触卡牌游戏的场所。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦集换式卡牌游戏
 workflow:
   fetch: live
   translation: deepseek-chat

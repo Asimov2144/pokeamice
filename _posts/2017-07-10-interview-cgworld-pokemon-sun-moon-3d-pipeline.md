@@ -563,6 +563,13 @@ parallel_items:
   translation: 这些以公告板形式表现。此外，还使用了利用纹理的粒子图像【图片上】，以及活用公司内部着色器的1网格/1材质的多纹理。
 era_skin: '2019'
 entities:
+  people:
+  - 大森滋
+  - 海野隆雄
+  - 氏家淳子
+  - 畠祐贵
+  - 中广健吾
+  - 植松俊介
   works:
   - 宝可梦 太阳·月亮
 original_lang: ja

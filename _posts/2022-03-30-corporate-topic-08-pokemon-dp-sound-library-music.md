@@ -29,8 +29,10 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-8/
 summary: 文章介绍宝可梦内部项目Pokémon Music Spotlight，该项目推出DP Sound Library，并邀请Yaffle制作《Reconnect》《Grown》，以游戏音源创作新曲，让游戏音乐成为接触宝可梦世界的契机。
 entities:
-  people: []
-  works: []
+  people:
+  - Yaffle
+  works:
+  - 宝可梦 钻石·珍珠
 workflow:
   fetch: live
   translation: deepseek-chat

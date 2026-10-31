@@ -29,8 +29,11 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-41/
 summary: 宝可梦公司员工米原善成结合行动生态学专业，整理历代宝可梦图鉴逾7500行生态信息，与插画师きのしたちひろ合作推出《宝可梦生态图鉴》，以行为生态学视角呈现宝可梦的生物感，并设计观察记录页，希望成为孩子了解生物世界的入口。
 entities:
-  people: []
-  works: []
+  people:
+  - 米原善成
+  - きのしたちひろ
+  works:
+  - 宝可梦生态图鉴
 workflow:
   fetch: live
   translation: deepseek-chat

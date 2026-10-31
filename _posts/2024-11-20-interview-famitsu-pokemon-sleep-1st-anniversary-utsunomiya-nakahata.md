@@ -502,13 +502,16 @@ topics:
 - "开发移管"
 entities:
   people:
-  - "宇都宫崇人"
+  - 宇都宫崇人
+  - 中畑虎也
+  - 宮川佳祐
+  - 塚田拓実
   works:
-  - "Pokémon GO"
-  - "宝可梦 红·绿"
+  - Pokémon GO
+  - 宝可梦 红·绿
   organizations:
-  - "株式会社ポケモン"
-  - "Niantic"
+  - 株式会社ポケモン
+  - Niantic
 mentions:
   people:
   - "中畑虎也"

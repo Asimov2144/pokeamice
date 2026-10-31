@@ -83,11 +83,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/002.jpg
   alt: 04_R
-  caption: 本当に目の前が見えなくなるほどの霧に覆われる。
+  caption: "雾浓得真的让人看不清眼前。"
+  caption_original: "本当に目の前が見えなくなるほどの霧に覆われる。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/003.jpg
   alt: 05_R
-  caption: 霧を抜けると突然知らない場所に出る、いかにもファンタジーな演出が現実に起こってドキドキする！
+  caption: "穿过浓雾，突然来到一个陌生的地方——这种充满奇幻感的演出在现实中发生，让人心跳加速！"
+  caption_original: "霧を抜けると突然知らない場所に出る、いかにもファンタジーな演出が現実に起こってドキドキする！"
 - original: 霧を抜けた先で、ついにポケモン探しが始まる。ひとつのエリアごとに制限時間が決まっており、時間内により多くのポケモンを見つけることが目標となる。ネタバレになってしまうのであまり多くは語れないが、ポケモンファンなら手がかりの文章を見ただけである程度隠れているポケモンの種類や場所がなんとなく推測できるような内容だった。
   translation: 穿过浓雾之后，寻找宝可梦终于开始。每个区域都设有限时，目标是在时间内找到更多宝可梦。因为涉及剧透，不能讲太多，不过其内容对宝可梦粉丝来说，光是看线索文字，就能大致推测出隐藏的宝可梦种类和地点。
 - original: 調査隊が残した手がかりを見て、「これってもしやあのポケモンのことでは!?」とか、「このポケモンならこういうところにいそう！」といった推測をしながらポケモンを探すのは、控えめに言って最高に楽しすぎて帰りたくなかった。
@@ -95,39 +97,48 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/004.jpg
   alt: 08_R
-  caption: 共通エリアのワンダーフィールド。先行体験会ではあいにくの雨で見られなかったが、この日は快晴のため見せてもらえることに。
+  caption: "共通区域“WONDER原野”。先行体验会那天不巧下雨没能看到，这天天气晴朗，便带我们参观了。"
+  caption_original: "共通エリアのワンダーフィールド。先行体験会ではあいにくの雨で見られなかったが、この日は快晴のため見せてもらえることに。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/005.jpg
   alt: WA5_3261_R
-  caption: いかにも何かが飛び出してきそうなモンスターボール型の草むら。
+  caption: "精灵球形状的草丛，仿佛随时会有什么跳出来。"
+  caption_original: "いかにも何かが飛び出してきそうなモンスターボール型の草むら。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/006.jpg
   alt: WA5_3290_R
-  caption: テントの中には謎のどうぐがズラリ。何に使うのだろうか……。
+  caption: "帐篷里摆满了神秘的道具。是做什么用的呢……"
+  caption_original: "テントの中には謎のどうぐがズラリ。何に使うのだろうか……。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/007.jpg
   alt: WA5_3307_R
-  caption: みずタイプのポケモンが隠れていそうな池を発見！　網が用意されていたので水中を探ってみると……？
+  caption: "发现了一个像是藏着水属性宝可梦的池塘！旁边备有网子，往水里探一探……？"
+  caption_original: "みずタイプのポケモンが隠れていそうな池を発見！　網が用意されていたので水中を探ってみると……？"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/008.jpg
   alt: WA5_3338_R
-  caption: こんなところにもポケモンが隠れていた!?
+  caption: "这种地方也藏着宝可梦！？"
+  caption_original: "こんなところにもポケモンが隠れていた!?"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/009.jpg
   alt: 09_R
-  caption: ワンダーフィールドの先へ進んでいくと、けっこうガッツリと森の中へ入っていく。
+  caption: "穿过WONDER原野继续前进，就会真正走进森林深处。"
+  caption_original: "ワンダーフィールドの先へ進んでいくと、けっこうガッツリと森の中へ入っていく。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/010.jpg
   alt: 10_R
-  caption: 森の中にポツンと立っている小屋の中にも、ポケモンが隠れているらしい……。
+  caption: "森林里孤零零立着的小屋中，似乎也藏着宝可梦……"
+  caption_original: "森の中にポツンと立っている小屋の中にも、ポケモンが隠れているらしい……。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/011.jpg
   alt: 11_R
-  caption: ささやきの竹林へ向かう道中で、またもや霧が立ち込めてきた！　スタート地点だけでなく、ここでもタイミング次第では霧が発生するようだ。
+  caption: "前往低语竹林的路上，雾又升起来了！看来不只是起点，这里也会视时机起雾。"
+  caption_original: "ささやきの竹林へ向かう道中で、またもや霧が立ち込めてきた！　スタート地点だけでなく、ここでもタイミング次第では霧が発生するようだ。"
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/012.jpg
   alt: 12_R
-  caption: ガチの自然なので、アップダウンが多くて移動するだけで割とハードな運動になる。
+  caption: "毕竟是真正的大自然，上坡下坡很多，光是移动就是相当辛苦的运动。"
+  caption_original: "ガチの自然なので、アップダウンが多くて移動するだけで割とハードな運動になる。"
 - original: ネタバレに敏感なコンテンツであるため詳しく説明できないのが歯がゆいところだが、とにかく圧倒的に満足度が高かったことは間違いない。事前の打ち合わせではインタビューの前に軽く20分ほど現地を見て回る予定だったのが、結局1時間半くらいガッツリ歩き回っていたといえば、ハマり具合がわかってもらえるだろうか。
   translation: 由于这是对剧透敏感的内容，无法详细说明实在令人着急，但总之满意度极高这一点是毫无疑问的。事先商谈时原本预定在采访前花20分钟左右在现场转一转，结果最后足足走了1个半小时左右，这样说应该能让人明白我们有多着迷吧。
 - original: ポケモンとの出会いかた本当に多彩で、つぎはどんなところにどのポケモンが隠れているのか、まったく飽きずにワクワクし続けていた。記者はこのところ子どもを徒歩1分の保育園に送り届けて帰ってくる都合2分のウォーキング以外にまったく運動していなかった。そもそもバテて動けなくなったり翌日ひどい筋肉痛に悩まされたりを覚悟していたのだが、そのどちらもなかったのは、ひとえに楽しすぎてドーパミンがドバドバ出てハイになっていたからかもしれない……。

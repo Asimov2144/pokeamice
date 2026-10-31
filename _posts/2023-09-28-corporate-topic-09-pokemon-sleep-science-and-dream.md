@@ -29,8 +29,13 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-9/
 summary: 宝可梦官方回顾《Pokémon Sleep》的开发历程：从睡眠调查出发，与睡眠研究者柳泽正史合作，并由汤山邦彦、富安大贵参与分镜，景山将太负责音乐，将睡眠测量与宝可梦世界观融合，帮助人们养成良好睡眠节奏。
 entities:
-  people: []
-  works: []
+  people:
+  - 柳泽正史
+  - 汤山邦彦
+  - 富安大贵
+  - 景山将太
+  works:
+  - Pokémon Sleep
 workflow:
   fetch: live
   translation: deepseek-chat

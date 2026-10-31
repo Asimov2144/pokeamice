@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-44/
 summary: 宝可梦发烧友俱乐部2004年在现实世界诞生，从会员制粉丝社群发展为开放网站，并衍生出宝可梦当地活动项目。负责人回顾其连接虚拟与现实、传递每只宝可梦魅力的20年，并谈及与地方政府合作的缘起与现状。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦发烧友俱乐部
 workflow:
   fetch: live
   translation: deepseek-chat

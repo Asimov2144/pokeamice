@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-19/
 summary: CCC翻新SHIBUYA TSUTAYA时，在五楼开设POKÉMON CARD LOUNGE，以行政酒廊式空间、免费租借牌组和原创周边，吸引20至30多岁人群，并计划推出夜间活动与赛事观影。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦集换式卡牌游戏
 workflow:
   fetch: live
   translation: deepseek-chat

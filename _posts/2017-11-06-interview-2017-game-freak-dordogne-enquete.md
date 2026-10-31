@@ -37,6 +37,7 @@ entities:
   - 增田顺一
   - 大森滋
   - 海野隆雄
+  - 岩尾和昌
   works:
   - 宝可梦 X·Y
   organizations:

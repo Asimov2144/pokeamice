@@ -29,8 +29,12 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-7/
 summary: 文章介绍《Pokémon WONDER》：参加者化身宝可梦调查员，在稻城森林中寻找潜藏于自然的宝可梦。企划由宝可梦的津田明子负责，RIDDLER与本山敬一参与制作，反复调整以兼顾宝可梦特色与游玩趣味，希望成为孩子亲近自然的桥梁。
 entities:
-  people: []
-  works: []
+  people:
+  - 津田明子
+  - 松丸亮吾
+  - 本山敬一
+  works:
+  - Pokémon WONDER
 workflow:
   fetch: live
   translation: deepseek-chat

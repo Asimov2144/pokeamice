@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-48/
 summary: 2025年7月发布的《Pokémon Friends》以灵感问题为核心，题目由Wonderfy提供，共1200多道，并加入收集毛绒玩偶的要素。开发负责人介绍难度自动调整等设计，希望孩子和大人都能借此养成思考习惯。
 entities:
-  people: []
-  works: []
+  works:
+  - Pokémon Friends
 workflow:
   fetch: live
   translation: deepseek-chat

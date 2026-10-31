@@ -223,13 +223,14 @@ topics:
 - "团队组织"
 entities:
   people:
-  - "K.M."
+  - K.M.
+  - K.I.
   works:
-  - "宝可梦 剑·盾"
-  - "宝可梦 究极之日·究极之月"
-  - "宝可梦传说 阿尔宙斯"
+  - 宝可梦 剑·盾
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦传说 阿尔宙斯
   organizations:
-  - "Game Freak"
+  - Game Freak
 mentions:
   people:
   - "岩尾和昌"

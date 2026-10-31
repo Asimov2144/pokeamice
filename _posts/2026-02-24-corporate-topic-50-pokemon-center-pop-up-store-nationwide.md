@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-50/
 summary: 株式会社宝可梦中心在全国开设22家常设门店，并以限期快闪店形式运营宝可梦中心出张所。企划负责人介绍，出张所配合地区与设施特点打造空间，2025年夏季以东北6县巡回开店，并在机场、体育场等地合作，发挥机动性与柔软性，向全国传递宝可梦的体验与回忆。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦中心 出张所
 workflow:
   fetch: live
   translation: deepseek-chat

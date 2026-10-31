@@ -49,7 +49,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda/001.jpg
   alt: 画像はすべてイメージです
-  caption: 画像はすべてイメージです
+  caption: "图片均为示意图"
+  caption_original: "画像はすべてイメージです"
 - original: 「ポケパーク カントー」を作ろうと思ったきっかけは。
   role: question
   speaker: 読売新聞

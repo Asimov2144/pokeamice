@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-11/
 summary: 文章介绍宝可梦公司内部项目Pokémon Music Spotlight，以及其与初音未来的联动企划。项目以宝可梦18种属性为主题，制作了18个角色设计、18首原创乐曲及MV，由18位创作者参与，旨在让更多人享受宝可梦的音乐。
 entities:
-  people: []
-  works: []
+  works:
+  - Project VOLTAGE 18 Types/Songs
 workflow:
   fetch: live
   translation: deepseek-chat

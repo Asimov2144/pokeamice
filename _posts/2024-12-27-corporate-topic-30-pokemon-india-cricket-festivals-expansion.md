@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-30/
 summary: 文章介绍宝可梦在印度的布局：2023年成立印度营销室，2024年新动画系列首播获收视第一，并举办购物广场活动、与板球队合作、推出传统服饰皮卡丘，贴近当地文化传递笑容。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦 动画系列
 workflow:
   fetch: live
   translation: deepseek-chat

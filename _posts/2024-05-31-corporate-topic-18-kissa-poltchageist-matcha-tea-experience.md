@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-18/
 summary: 宝可梦官方以抹茶宝可梦斯魔茶和来悲粗茶为主题，推出「喫茶斯魔茶」企划。负责人讲述以和风现代风格开发陶器茶具与咖啡馆菜单的经过，追求「真的可能存在」的真实感，并希望借此从新角度构建宝可梦的世界观。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦 朱·紫 零之秘宝
 workflow:
   fetch: live
   translation: deepseek-chat

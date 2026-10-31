@@ -153,7 +153,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv/003.jpg
   alt: TN9_1347
-  caption: まさに頂点！　と棚の頂点にいるミュウを見るAyaseさん
+  caption: "“这才叫顶点！”——Ayase看着摆在架子最顶上的梦幻"
+  caption_original: "まさに頂点！　と棚の頂点にいるミュウを見るAyaseさん"
 - original: ここからは今回のプロジェクトについてのお話になります。武田先生とYOASOBIさんの、お互いの今回の作品への印象をお伺いしてもよろしいでしょうか？
   role: question
   speaker: ファミ通

@@ -550,12 +550,13 @@ image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-sh
 entities:
   people:
   - 西田敦子
-  organizations:
-  - Game Freak
+  - 中川翔子
   works:
   - 宝可梦 红·绿
   - 宝可梦 X·Y
   - 宝可梦 动画系列
+  organizations:
+  - Game Freak
 dek: 皮卡丘设计者西田敦子谈仙子伊布、剪影法则与灵感来源。
 topics:
 - 角色设计

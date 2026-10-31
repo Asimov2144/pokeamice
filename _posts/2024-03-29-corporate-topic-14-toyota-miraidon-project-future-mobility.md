@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-14/
 summary: 丰田技术会与宝可梦合作，把《宝可梦 紫》中的密勒顿做成现实中的移动出行工具。项目从孩子问卷起步，约300名技术人员参与，解决变形、配色与操控等难题，2023年11月首次亮相，2024年3月在东京举办展示试驾会。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦 朱·紫
 workflow:
   fetch: live
   translation: deepseek-chat

@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-1/
 summary: 文章介绍宝可梦井盖的由来与案例：2018年首块伊布井盖设于鹿儿岛县指宿市，源于该市任命伊布为交流大使的提议；北海道比布町的井盖因居民冬季细心保护而成为话题。井盖直径63厘米，每枚设计独一无二，旨在与当地共同促进观光与复兴。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可盖（宝可梦井盖）
 workflow:
   fetch: live
   translation: deepseek-chat

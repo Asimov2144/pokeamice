@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-34/
 summary: 宝可梦咖啡馆2018年在东京日本桥开店，次年进入大阪。负责人讲述开店契机、皮卡丘问候、宝可梦风格菜单与门店运营，如何让顾客沉浸于宝可梦世界并留下无可替代的回忆。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦咖啡馆
 workflow:
   fetch: live
   translation: deepseek-chat

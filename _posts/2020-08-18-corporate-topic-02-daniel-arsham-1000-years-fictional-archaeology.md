@@ -29,8 +29,10 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-2/
 summary: 文章介绍美国艺术家丹尼尔·阿尔轩与宝可梦的合作项目。他2018年接触宝可梦，随后以「如果1,000年后宝可梦被发掘出来会怎样」为概念，创作雕塑系列「Relics of Kanto Through Time」，并于2020年在东京展出。
 entities:
-  people: []
-  works: []
+  people:
+  - 丹尼尔·阿尔轩
+  works:
+  - 宝可梦 红·绿
 workflow:
   fetch: live
   translation: deepseek-chat

@@ -29,8 +29,10 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-42/
 summary: 电视动画《宝可梦》在190多个国家和地区播出，株式会社宝可梦负责部分本地化。2025年台湾新篇章委托林宥嘉制作原创片头曲《捉梦大师》，并配合调整影像与字幕，让各地观众获得与日本版不变的感动。
 entities:
-  people: []
-  works: []
+  people:
+  - 林宥嘉
+  works:
+  - 宝可梦 动画系列
 workflow:
   fetch: live
   translation: deepseek-chat

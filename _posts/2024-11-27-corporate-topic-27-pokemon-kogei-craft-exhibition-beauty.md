@@ -29,8 +29,9 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-27/
 summary: 宝可梦与国立工艺馆合作举办“宝可梦×工艺展”，20位艺术家以各自方式理解宝可梦并创作约80件作品。访谈介绍企划缘起、艺术家如何认真面对主题，以及展览跨越粉丝界限、让不同年龄层交流的现场反响。
 entities:
-  people: []
-  works: []
+  people:
+  - 唐泽昌宏
+  - 今井阳子
 workflow:
   fetch: live
   translation: deepseek-chat

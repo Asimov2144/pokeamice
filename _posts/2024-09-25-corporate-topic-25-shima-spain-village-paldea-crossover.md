@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-25/
 summary: 志摩西班牙村与宝可梦合作举办限期活动，以课外授课为概念，在园内再现帕底亚地区的风景。双方负责人共同决定宝可梦的栖息地点，并推出集章活动与原创菜单，细致融合现实与游戏世界。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦 朱·紫
 workflow:
   fetch: live
   translation: deepseek-chat

@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-15/
 summary: 宝可梦公司与HEROZ共同开发AI工具PBS，用于可视化宝可梦对战的形势与候选操作，让新手也能看懂比赛。PBS在2024年宝可梦龙王战投入使用，AI判断与顶级选手的妙手形成对照，反响热烈。开发团队今后将继续更新，丰富观战体验。
 entities:
-  people: []
-  works: []
+  works:
+  - Pokémon Battle Scope
 workflow:
   fetch: live
   translation: deepseek-chat

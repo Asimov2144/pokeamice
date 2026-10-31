@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-46/
 summary: 本文介绍宝可梦中心原创周边的开发思路。商品企划负责人以「破坏光线」「OTENKI TEAM」等企划为例，讲述如何从个人游戏体验出发，挖掘宝可梦的新魅力，并通过商品加深宝可梦与粉丝的羁绊。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦中心
 workflow:
   fetch: live
   translation: deepseek-chat

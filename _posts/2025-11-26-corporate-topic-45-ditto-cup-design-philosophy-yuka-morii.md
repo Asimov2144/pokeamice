@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-45/
 summary: 宝可梦与Ash Concept合作推出百变怪杯，契机是猫杯的质感。造型作家森井ユカ负责原型，2025年5月发售后在社交网络引发热议，用户创造出各种用法。访谈讲述开发经过与授权商品连接新粉丝的意义。
 entities:
-  people: []
-  works: []
+  people:
+  - 森井ユカ
 workflow:
   fetch: live
   translation: deepseek-chat

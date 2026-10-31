@@ -195,7 +195,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki/004.jpg
   alt: 『ポケモンマスターズ』の世界観は？　登場するバディーズは？　ここでしか聞けない、プロデューサー独占インタビュー！_03
-  caption: ※画像はPVのものです。
+  caption: "※图片为宣传视频画面。"
+  caption_original: "※画像はPVのものです。"
 - original: そちらも大きな注目ポイントですね！ 現在開発中の端末をプレイさせていただいた時に、これまでに情報が公開されていた、イワークを相棒としたタケシだけでなく、バンギラスを連れたタケシが存在することが確認できました。また、ポケモンだけでなく衣装も異なっていましたが、こうしたバージョン違いのトレーナーはほかにも？
   role: question
   speaker: ファミ通

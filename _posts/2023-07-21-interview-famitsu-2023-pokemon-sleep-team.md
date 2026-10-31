@@ -71,7 +71,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2023-07-21-interview-famitsu-2023-pokemon-sleep-team/002.jpg
   alt: 『ポケモンスリープ』インタビュー。ゲームとしてのおもしろさを追求しつつ、長時間遊ばせない睡眠計測アプリならではの工夫とは。豪華制作協力陣も判明
-  caption: 画面左上から塚田氏、中畑氏、宮川氏 左下から首藤氏、小杉氏、寺田氏
+  caption: "画面左上起：塚田拓实、中畑虎也、宫川佳祐；左下起：首藤まり江、小杉要、寺田佑贵"
+  caption_original: "画面左上から塚田氏、中畑氏、宮川氏 左下から首藤氏、小杉氏、寺田氏"
 - original: 中畑虎也（なかはた こうや）
   translation: 中畑虎也
 - original: SELECT BUTTON ゲームディレクター

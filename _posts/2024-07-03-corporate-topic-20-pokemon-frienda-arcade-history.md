@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-20/
 summary: 文章介绍2024年7月登场的宝可梦游乐设备《宝可梦Frienda》，由宝可梦、Marvelous、Takara Tomy Arts三家共同开发。回顾系列从《宝可梦战斗》到《宝可梦名侦探》的演进，讲述简化系统、亲子同乐、触摸屏等设计考量。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦Frienda
 workflow:
   fetch: live
   translation: deepseek-chat

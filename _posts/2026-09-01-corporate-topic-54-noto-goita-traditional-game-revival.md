@@ -29,8 +29,8 @@ source:
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-54/
 summary: 文章介绍能登传统娱乐「ごいた」的历史与保存会活动，以及《宝可梦ごいた》的诞生经过。开发中注重保留原规则与易懂设计，并推出教程应用。发售后受众从桌游爱好者扩展到学校与宝可梦粉丝。
 entities:
-  people: []
-  works: []
+  works:
+  - 宝可梦 ごいた
 workflow:
   fetch: live
   translation: deepseek-chat

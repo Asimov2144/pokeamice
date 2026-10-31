@@ -50,10 +50,9 @@ review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工
 pending_review_regions: 279
 scan_set: ndream-2010-04
 entities:
-  people: []
   works:
-    - 宝可梦巡护员
-  organizations: []
+  - 宝可梦巡护员
+  - 宝可梦巡护员 光的轨迹
 translation_segments:
   - speaker: image
     type: image
