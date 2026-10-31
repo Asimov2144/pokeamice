@@ -35,6 +35,8 @@ original_link: https://www.1101.com/n/s/14editors/masakazu_kubo/2021-10-25.html
 entities:
   people:
   - 久保雅一
+  - 汤山邦彦
+  - 大谷育江
   works:
   - 宝可梦 红·绿
   - 宝可梦：超梦的逆袭
@@ -59,11 +61,11 @@ parallel_items:
 - original: 思い返せば‥‥それより前は『コロコロコミック』を読んでました。
   role: question
   speaker: ほぼ日
-  translation: 回想起来……在那之前，我读的是《快乐快乐漫画》。
+  translation: "回想起来……在那之前，我读的是《快乐快乐月刊》。"
 - original: 当時『コミックボンボン』派と『コロコロコミック』派がいましたが、自分は、断然「コロコロ派」で。なかでも、最初のころの『おぼっちゃまくん』に、強烈なインパクトを受けていて。
   role: question
   speaker: ほぼ日
-  translation: 当时有《漫画Bonbon》派和《快乐快乐漫画》派，我绝对是「快乐快乐派」。其中，早期的《富家少爷》给了我强烈的冲击。
+  translation: "当时有《Comic Bonbon》派和《快乐快乐月刊》派，我绝对是「Corocoro派」。其中，早期的《富家少爷》给了我强烈的冲击。"
   note: 《漫画Bonbon》是讲谈社的儿童漫画杂志，与小学馆的《快乐快乐漫画》长期竞争。
 - original: ありがとうございます（笑）。
   role: answer
@@ -95,7 +97,7 @@ parallel_items:
 - original: それが、『ゴーマニズム宣言』でした。
   role: question
   speaker: ほぼ日
-  translation: 那就是《大宣言》。
+  translation: "那就是《傲慢主义宣言》。"
   note: 《ゴーマニズム宣言》是漫画家小林善范在《周刊SPA!》等连载的漫画专栏，中文常译《大宣言》。
 - original: ああ、そうなんですか。
   role: answer
@@ -112,7 +114,7 @@ parallel_items:
 - original: 『ゴーマニズム宣言』の原点ともいえる「おこっちゃまくん」では最後に、蹴とばされて終わるというのがキマリでした。
   role: answer
   speaker: 久保雅一
-  translation: 在可以说是《大宣言》原点的《おこっちゃまくん》里，最后必定是被踢飞收场。
+  translation: "在可以说是《傲慢主义宣言》原点的《生气少爷》里，最后必定是被踢飞收场。"
   note: 《おこっちゃまくん》是《大宣言》前身风格的漫画作品，此处指其固定结尾桥段。
 - original: はい（笑）、なので、自分はずーっと、宝島の『ＶＯＷ』で価値観を育まれたんだなあと思っていたんですけど、その前と後ろに、久保さんの存在があったんだなあって。
   role: question
@@ -330,7 +332,7 @@ parallel_items:
 - original: それが『コロコロコミック』の編集部で、結局、そこに１４年いましたね。
   role: answer
   speaker: 久保雅一
-  translation: 那就是《龙漫CORO-CORO》编辑部，结果我在那里待了14年。
+  translation: "那就是《快乐快乐月刊》编辑部，结果我在那里待了14年。"
   note: 《龙漫CORO-CORO》是小学馆的儿童漫画杂志。
 - original: おお、そんなに長くですか。
   role: question
@@ -344,7 +346,7 @@ parallel_items:
 - original: そのあと、小林よしのり先生は、『ゴーマニズム宣言』に入っていきます。
   role: answer
   speaker: 久保雅一
-  translation: 之后，小林善纪老师就进入了《新傲慢主义宣言》的时期。
+  translation: "之后，小林善纪老师就进入了《傲慢主义宣言》的时期。"
   note: 《新傲慢主义宣言》是小林善纪的评论漫画系列。
 - original: ７年も担当してらっしゃったんですね。
   role: question
@@ -538,7 +540,7 @@ parallel_items:
 - original: 編集者の役割としては、その時点で最高のクリエイティブを、クリエイターの先生とともに創っていくことだと思っています。
   role: answer
   speaker: 久保雅一
-  translation: 作为编辑者的职责，我认为是和在那个时点做到最好的创作者老师一起，创造出最好的创意作品。
+  translation: "作为编辑者的职责，我认为是和创作者老师一起，创作出当时能做到的最好的创意作品。"
 - original: なるほど。
   role: question
   speaker: ほぼ日
@@ -618,7 +620,7 @@ parallel_items:
 - original: 最終的には同じＡを選択するにしても、先生がモチベーション高く「ヤル気」になって、自分のアイディアとして描く作品と、編集者が「こう描いてください」って描く漫画とでは、クオリティが、出来栄えが、もう、まったくちがってくるんですよ。
   role: answer
   speaker: 久保雅一
-  translation: "即使最终同样选择A，老师带着高动机、有「干劲」，把它当作自己的点子来画的作品，和编辑说「请这样画」而画出来的漫画，品质、完成度，都完全不一样。"
+  translation: "即使最终同样选择A，老师干劲十足地把它当作自己的点子来画的作品，和编辑说「请这样画」而画出来的漫画，品质、完成度，都完全不一样。"
 - original: はああ‥‥そうでしょうね。
   role: question
   speaker: ほぼ日
@@ -626,7 +628,7 @@ parallel_items:
 - original: だからこれはヘンな言い方になるけど、所詮、ぼくらはふつうの人なんですから、たとえ卵であっても天才である作家のモチベーションをどれだけ上げるか‥‥が、編集者の仕事として重要だと思ってます。
   role: answer
   speaker: 久保雅一
-  translation: 所以这话说起来有点怪，我们终究只是普通人，哪怕对方还是颗蛋，能让身为天才的作家把动机提升多少……我认为这才是编辑工作中重要的事。
+  translation: "所以这话说起来有点怪，我们终究只是普通人，哪怕还只是未成名的新人，也是天才的作家，能把他们的干劲提升多少……我认为这才是编辑工作中重要的事。"
 - original: 究極のヨイショ技っていうのか（笑）。
   role: answer
   speaker: 久保雅一
@@ -702,7 +704,7 @@ parallel_items:
 - original: 小林よしのり先生からの、あれだけの愛ある誌上いじりを見ても。
   role: question
   speaker: ほぼ日
-  translation: 从小林善范老师那样充满爱意的杂志上调侃来看。
+  translation: "从小林善纪老师那样充满爱意的杂志上调侃来看。"
   note: 小林善范是日本漫画家，曾与久保雅一在《周刊Young Sunday》等杂志上有合作与互动。
 - original: そうなのかなあ？（笑）
   role: answer
@@ -718,7 +720,7 @@ parallel_items:
 - original: あの「クボちゃん」のイメージからは、編集者としての久保さんが、作家さんを説得する感じはないですし。
   role: question
   speaker: ほぼ日
-  translation: 从那个“久保仔”的形象来看，作为编辑的久保先生，似乎并没有说服作家的感觉。
+  translation: "从那个“小久保”的形象来看，作为编辑的久保先生，似乎并没有说服作家的感觉。"
 - original: いやあ、でも、若いころって、やりたいことがここに書いてあるから。
   role: answer
   speaker: 久保雅一
@@ -734,7 +736,7 @@ parallel_items:
 - original: きっと、ぼくだって、「クボちゃん、書いてあるよ、そこに」ってくらいだったと思う。
   role: answer
   speaker: 久保雅一
-  translation: 想必我也一样，大概就是“久保仔，写在那里哦”那种程度吧。
+  translation: "想必我也一样，大概就是“小久保，写在那里哦”那种程度吧。"
 - original: ああ‥‥若かりしころは。
   role: question
   speaker: ほぼ日
@@ -786,7 +788,7 @@ parallel_items:
 - original: でも、そうやって昔の新聞を何年遅れで読んでいたせいで、『一郎くんの写真』という、本当にすばらしい絵本がうまれたんです。
   role: question
   speaker: ほぼ日
-  translation: 但是，正因为这样延迟几年读旧报纸，才诞生了《一郎くんの写真》这本真正出色的绘本。
+  translation: "但是，正因为这样延迟几年读旧报纸，才诞生了《一郎君的照片》这本真正出色的绘本。"
   note: 《一郎くんの写真》是一本日本绘本。
 - original: 多くの人と共感できる感覚を持ちながら、でも、ある１点ですごく独特というか。
   role: question
@@ -839,7 +841,7 @@ parallel_items:
 - original: ちなみになんですけど、クボちゃんが漫画に出るきっかけって、何だったんですか。
   role: question
   speaker: ほぼ日
-  translation: 顺便问一下，久保先生您画漫画的契机是什么？
+  translation: "顺便问一下，“小久保”出现在漫画里的契机是什么？"
 - original: 上がった原稿に描いてあったんですよ。あるときに、突然。
   role: answer
   speaker: 久保雅一
@@ -1024,7 +1026,7 @@ parallel_items:
 - original: 担当編集者にしても、初代のがんばりだけでは無理かもしれませんね。
   role: answer
   speaker: 久保雅一
-  translation: 对负责的编辑来说，光靠初代人的努力，恐怕也是撑不下来的。
+  translation: "对负责的编辑来说，光靠初代编辑的努力，恐怕也是撑不下来的。"
 - original: ２代目、３代目‥‥と、あとを引き継いでいった編集者たちの発明と言ったら大げさだけど、作品を続けさせる相当な「貢献」がなければね。
   role: answer
   speaker: 久保雅一
@@ -1060,7 +1062,7 @@ parallel_items:
 - original: そうそう、ちょっと前にＮＨＫの『ブラタモリ』を見てたときに知ったんですけど、『進撃の巨人』の作者の諫山創先生って、大分県日田市の出身で、生まれた町が「大きな盆地」なんだそうですね。
   role: answer
   speaker: 久保雅一
-  translation: 是啊是啊，前不久看NHK的《ブラタモリ》时才知道，《进击的巨人》的作者谏山创老师是大分县日田市出身，他出生的城镇好像是个“很大的盆地”。
+  translation: "是啊是啊，前不久看NHK的《漫步塔摩利》时才知道，《进击的巨人》的作者谏山创老师是大分县日田市出身，他出生的城镇好像是个“很大的盆地”。"
   note: 《ブラタモリ》是NHK的一档实地探访城镇地形与历史的节目。
 - original: ああ、だから‥‥！
   role: question
@@ -1180,7 +1182,7 @@ parallel_items:
 - original: 当時「コロコロ」的には厳しい時期で、起死回生、もういちど「ミニ四駆」でヒットを狙おう‥‥ということになったんです、編集部で。
   role: answer
   speaker: 久保雅一
-  translation: 当时对《CORO-CORO》来说是一段艰难的时期，编辑部决定绝处逢生，再次用“迷你四驱”来争取热门。
+  translation: "当时对《快乐快乐月刊》来说是一段艰难的时期，编辑部决定绝处逢生，再次用“迷你四驱”来争取热门。"
   note: 迷你四驱是田宫推出的四驱车模型系列，曾在日本引发热潮。
 - original: ええ、ええ。
   role: question
@@ -1210,7 +1212,7 @@ parallel_items:
 - original: 当時は『コロコロコミック』の‥‥。
   role: question
   speaker: ほぼ日
-  translation: 当时是《龙漫CORO-CORO》的……
+  translation: "当时是《快乐快乐月刊》的……"
 - original: デスクだったかなあ。
   role: answer
   speaker: 久保雅一
@@ -1218,12 +1220,12 @@ parallel_items:
 - original: じゃあ、「コロコロ」の編集をやりながら、ミニ四駆の開発にも関わったんですか。
   role: question
   speaker: ほぼ日
-  translation: 那么，您是在做《コロコロ》编辑的同时，也参与了迷你四驱车的开发吗？
+  translation: "那么，您是在做《快乐快乐月刊》编辑的同时，也参与了迷你四驱车的开发吗？"
   note: 《コロコロ》指小学馆的儿童漫画杂志《コロコロコミック》。
 - original: タミヤさんと「コロコロ」の編集者たちと、子どもたちを夢中にさせちゃうような新しいミニ四駆をつくろうと、それまでのオフロードっぽいデザインから、フルカウルなオンロードっぽいデザインにして、粘土細工から、みんなで一緒にやりました。
   role: answer
   speaker: 久保雅一
-  translation: 我们和田宫以及《コロコロ》的编辑们一起，想做出能让孩子们着迷的新迷你四驱车，于是把以往那种越野风格的设计改成全罩式、更像公路赛车的设计，从黏土模型开始，大家一起动手做。
+  translation: "我们和田宫以及《快乐快乐月刊》的编辑们一起，想做出能让孩子们着迷的新迷你四驱车，于是把以往那种越野风格的设计改成全罩式、更像公路赛车的设计，从黏土模型开始，大家一起动手做。"
   note: 田宫是日本模型制造商，迷你四驱车由其推出。
 - original: フルカウルはネイキッドの反対の概念で、タイヤまわりなんかがカバーされているタイプの車両ですよね。
   role: question
@@ -1315,7 +1317,7 @@ parallel_items:
 - original: そうなるともう、待ってました（笑）、お父さんの「経済力」が、一気に、ミニ四駆になだれ込むんですよ。
   role: answer
   speaker: 久保雅一
-  translation: 这样一来，就等着瞧吧（笑），父亲的“经济实力”会一口气涌向迷你四驱车。
+  translation: "这样一来，可就正中下怀了（笑），父亲的“经济实力”会一口气涌向迷你四驱车。"
 - original: なるほど！
   role: question
   speaker: ほぼ日
@@ -1426,7 +1428,7 @@ parallel_items:
 - original: それで‥‥その場でご相談を受けたのは、この『ポケットモンスター』という新しいゲームを、「コロコロ」で漫画化できないかと。
   role: answer
   speaker: 久保雅一
-  translation: 然后……当时对方找我商量的，是能不能把这款叫《宝可梦》的新游戏在「コロコロ」上漫画化。
+  translation: "然后……当时对方找我商量的，是能不能把这款叫《宝可梦》的新游戏在《快乐快乐月刊》上漫画化。"
   note: 「コロコロ」指小学馆的漫画杂志《月刊コロコロコミック》。
 - original: そのときは、どう思われたんですか？
   role: question
@@ -1554,7 +1556,7 @@ parallel_items:
 - original: あるときゲームボーイの「ポケモン」に、まぼろしの１５１匹目のポケモンがいる‥‥という噂が流れたんです。
   role: answer
   speaker: 久保雅一
-  translation: 有一次，流传着Game Boy的“宝可梦”中有梦幻的第151只宝可梦……这样的传闻。
+  translation: "有一次，流传着Game Boy的“宝可梦”中有幻之第151只宝可梦……这样的传闻。"
   note: 梦幻是宝可梦系列中最初作为隐藏要素存在的幻之宝可梦。
 - original: これは開発プログラマーの方が、ゲーム容量に少しだけ空きがあったので、いたずら心で、ひっそり、１５１匹目のポケモンを入れたんですね。
   role: answer
@@ -1579,7 +1581,7 @@ parallel_items:
 - original: そう、まぼろしのポケモンに違いないと、大きな話題になったんです。
   role: answer
   speaker: 久保雅一
-  translation: 是的，大家都说这肯定是梦幻中的宝可梦，成了很大的话题。
+  translation: "是的，大家都说这肯定是幻之宝可梦，成了很大的话题。"
 - original: そこで、そんなに話題になっているなら、ためしに「コロコロ」でプレゼントしてみようと。
   role: answer
   speaker: 久保雅一
@@ -1592,7 +1594,7 @@ parallel_items:
 - original: まぼろしの「ミュウ」という１５１番めのポケモンを、２０名にプレゼントすることにしたんです。
   role: answer
   speaker: 久保雅一
-  translation: 我们决定把梦幻中的「梦幻」这第151只宝可梦，作为礼物送给20个人。
+  translation: "我们决定把幻之宝可梦「梦幻」这第151只宝可梦，作为礼物送给20个人。"
 - original: 合計２０名の当選者に、ゲームのＲＯＭカセットを送ってもらって、そこにミュウを入れて返す‥‥ということをしたんです。
   role: answer
   speaker: 久保雅一
@@ -1694,7 +1696,7 @@ parallel_items:
 - original: たとえば、ＡＮＡのポケモンジェットですね。
   role: answer
   speaker: 久保雅一
-  translation: 比如ANA的宝可梦捷朵。
+  translation: "比如ANA的宝可梦喷气机。"
   note: ANA是日本全日空航空公司。
 - original: ９８年の夏休み映画の『ミュウツーの逆襲』の公開に合わせて、就航したんですが、あのときはもう、本当に、うれしかった。
   role: answer
@@ -1711,7 +1713,7 @@ parallel_items:
 - original: ポケモンジェットが飛ぶのを心待ちにしていて乗ってくださったお客さんもいれば、空の彼方からポケモンジェットが飛んでくるのを、ターミナルの屋上で、ずーっと待っている子どもたちもたくさんいて。
   role: answer
   speaker: 久保雅一
-  translation: 有的乘客一直盼着宝可梦捷朵起飞而特意来乘坐，也有很多孩子一直在航站楼屋顶上等着宝可梦捷朵从天空那头飞来。
+  translation: "有的乘客一直盼着宝可梦喷气机起飞而特意来乘坐，也有很多孩子一直在航站楼屋顶上等着宝可梦喷气机从天空那头飞来。"
 - original: ええ、ええ。
   role: question
   speaker: ほぼ日
@@ -1870,16 +1872,16 @@ parallel_items:
 - original: 久保さんが、テレビ東京の朝の番組『おはスタ』を立ち上げたのも、同じような時期‥‥ですか。
   role: question
   speaker: ほぼ日
-  translation: 久保先生创办东京电视台早间节目《おはスタ》，也是差不多同一时期吗？
+  translation: "久保先生创办东京电视台早间节目《Oha Suta》，也是差不多同一时期吗？"
   note: 《おはスタ》是东京电视台1997年开播的儿童早间综艺节目。
 - original: そうですね。９７年は、ぼくとしては、いわゆる「ＺＯＮＥ」に入っていた状態で、４月に『ポケモン』を、１０月に『おはスタ』をはじめたんです。
   role: answer
   speaker: 久保雅一
-  translation: 是啊。对我来说，97年算是进入了所谓的“ZONE”状态，4月开始了《宝可梦》，10月开始了《おはスタ》。
+  translation: "是啊。对我来说，97年算是进入了所谓的“ZONE”状态，4月开始了《宝可梦》，10月开始了《Oha Suta》。"
 - original: ふつう、番組をひとつ担当するだけでも大変だと思うんですが‥‥『おはスタ』をやろうと思ったきっかけは、いったい何だったんですか。
   role: question
   speaker: ほぼ日
-  translation: 一般来说，光是负责一个节目就已经很辛苦了……您想做《おはスタ》的契机到底是什么呢？
+  translation: "一般来说，光是负责一个节目就已经很辛苦了……您想做《Oha Suta》的契机到底是什么呢？"
 - original: 小学生の男子世代におけるＮＯ.１雑誌になりたかったんです。もちろんライバルは『週刊少年ジャンプ』です。ただ、その気持ちでした。
   role: answer
   speaker: 久保雅一
@@ -1926,7 +1928,7 @@ parallel_items:
 - original: そう、だから『おはスタ』って、アニメしかつくったことのなかった小学館集英社プロダクションが、ライブの生放送を実制作する‥‥という、とっても誇らしい番組なんです。
   role: answer
   speaker: 久保雅一
-  translation: 对，所以《おはスタ》这档节目，是此前只做过动画的小学馆集英社制作公司，实际制作直播的……是一档非常值得骄傲的节目。
+  translation: "对，所以《Oha Suta》这档节目，是此前只做过动画的小学馆集英社制作公司，实际制作直播的……是一档非常值得骄傲的节目。"
   note: 《おはスタ》是东京电视台1997年开播的早间儿童节目；小学馆集英社制作公司此前主要承接动画制作。
 - original: 雑誌でいちばんをとりたかったから、テレビ番組をつくっちゃった。
   role: question
@@ -1939,7 +1941,7 @@ parallel_items:
 - original: もうね、『おはスタ』なんかはじめたら、寝る時間がなくなりました。だって朝の６時前にテレビ東京に行って、生放送を見て、そのあとの反省会に出て、そこから小学館に出勤‥‥という毎日で。
   role: answer
   speaker: 久保雅一
-  translation: 而且啊，一开始做《おはスタ》，睡觉的时间就没了。因为每天都是早上6点前到东京电视台，看直播，之后参加复盘会，再从那里去小学馆上班……
+  translation: "而且啊，一开始做《Oha Suta》，睡觉的时间就没了。因为每天都是早上6点前到东京电视台，看直播，之后参加复盘会，再从那里去小学馆上班……"
   note: 《おはスタ》是东京电视台1997年开播的晨间儿童节目，久保雅一参与策划制作。
 - original: 出勤前に、こってりした「現場」が！
   role: question
@@ -1960,7 +1962,7 @@ parallel_items:
 - original: テレビ東京さん、プロテックスさん、小プロのスタッフががんばってくれました。
   role: answer
   speaker: 久保雅一
-  translation: 东京电视台、Protex、小工作室的工作人员都很努力。
+  translation: "东京电视台、Protex、小学馆集英社制作公司的工作人员都很努力。"
   note: Protex为动画制作公司；小工作室指小学馆旗下的Shogakukan Productions（小プロ）。
 - original: ちなみに映像のプロデューサーになると、編集者と比べても、たくさんの会社の人たちと関わりますね。
   role: question
@@ -2101,7 +2103,7 @@ parallel_items:
 - original: そうそう、同じ雑誌編集者出身だから、仲がいいんですよね。少なくとも、ぼくはそう思ってる。
   role: answer
   speaker: 久保雅一
-  translation: 对对，因为我们都是同一本杂志的编辑出身，所以关系很好。至少我自己是这么认为的。
+  translation: "对对，因为我们都是杂志编辑出身，所以关系很好。至少我自己是这么认为的。"
 - original: おたがいに言いたいことを言える、そういう間柄だと思っているんですが、あるとき「そんなに映画を宣伝したいんだったらぼくのＦＭ東京のラジオに出演しないか」と誘われたんです、鈴木さんに。で、「そうですか」って、出たんですよ。
   role: answer
   speaker: 久保雅一
@@ -2165,7 +2167,7 @@ parallel_items:
 - original: ああ、そのよろこびもはじめの『コロコロコミック』のときと地続きのものですね。
   role: question
   speaker: ほぼ日
-  translation: 啊，那份喜悦也和最初做《龙漫CORO-CORO》时是连着的呢。
+  translation: "啊，那份喜悦也和最初做《快乐快乐月刊》时是连着的呢。"
 - original: はい、そうですね。振り返ってみればね。
   role: answer
   speaker: 久保雅一
@@ -2242,7 +2244,7 @@ parallel_items:
 - original: そんなふうに、若き日のクボちゃん‥‥のように（笑）。
   role: question
   speaker: ほぼ日
-  translation: 就像那样，年轻时的久保仔……这样（笑）。
+  translation: "就像那样，年轻时的小久保……这样（笑）。"
 - original: まあ、そうなのかなあ（笑）。
   role: answer
   speaker: 久保雅一
@@ -2279,7 +2281,7 @@ parallel_items:
 - original: いやあ、好かれていたと思いますよ（笑）。よしりんにも、ぼくたち読者にも。
   role: question
   speaker: ほぼ日
-  translation: 哎呀，我觉得是被喜欢的哦（笑）。无论是吉凛还是我们这些读者。
+  translation: "哎呀，我觉得是被喜欢的哦（笑）。无论是吉琳还是我们这些读者。"
   note: 吉凛是《富家少爷》作者小林よしのり的昵称。
 - original: 何十年前、ぼくが『おぼっちゃまくん』の編集者になったとき、すでに出来上がった作品、すでに出来上がったチームの中に、あとから入っていったので、最初は難しいこともあったんです、正直。
   role: answer
@@ -2300,7 +2302,7 @@ parallel_items:
 - original: あ、小林よしのり先生と‥‥ですか？
   role: question
   speaker: ほぼ日
-  translation: 啊，是小林よしのり老师……吗？
+  translation: "啊，是小林善纪老师……吗？"
 - original: そうです。
   role: answer
   speaker: 久保雅一
@@ -2329,7 +2331,7 @@ parallel_items:
 - original: もういちど‥‥編集者、やりたいなあ。
   role: answer
   speaker: 久保雅一
-  translation: 真想‥‥再当一次编辑啊。
+  translation: "真想……再当一次编辑啊。"
 - original: あ、そうですか！それは、なんだか、うれしい言葉です。
   role: question
   speaker: ほぼ日

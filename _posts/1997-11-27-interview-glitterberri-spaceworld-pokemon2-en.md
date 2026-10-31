@@ -140,9 +140,6 @@ parallel_items:
   note: >-
     译者注（GlitterBerri）：The problem of people using the Mew glitch was so prevalent, Nintendo made an announcement about it, warning Japanese players that attempting the trick might erase their game, corrupt their data, and corrupt the games of others if they attempted to trade with them.
     中文：使用梦幻漏洞的问题非常普遍，任天堂为此发布了一份公告，警告日本玩家尝试该技巧可能会抹除游戏、损坏数据，并且如果试图与他人交易，还会损坏他人的游戏
-  role: answer
-  speaker: 田尻智
-  translation: 我们通过收集玩家的改进建议和推荐来开发游戏。然后我们可以把所有内容都放进去。我希望玩家在前作中发现的谜团都能有答案。我希望在Game Boy硬件的限制内，打造一款更具想象力的游戏，并关注细节。
 - original: I’d like to do an N64 game that supplement the character portraits and memory capacity of the titles. I’m thinking it might be good enough to have a game that’s merely a glorified Pokédex.
   role: answer
   speaker: 宫本茂

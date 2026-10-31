@@ -133,13 +133,7 @@ parallel_items:
     2. WindowsコンテナとKubernetesを採用した理由
 
     3. 導入時の課題と対策 ／ 4. 導入成果・まとめ'
-  translation: '目录
-
-    1. Z-A 之前的 CI/CD 构建环境介绍与课题
-
-    2. 采用 Windows 容器和 Kubernetes 的理由
-
-    3. 导入时的课题与对策 ／ 4. 导入成果・总结'
+  translation: "目录\n1. Z-A 之前的 CI/CD 构建环境介绍与课题\n2. 采用 Windows 容器和 Kubernetes 的理由\n3. 导入时的课题与对策 ／ 4. 导入成果与总结"
 - type: heading
   level: 2
   original: Z-A以前のCI/CD ビルド環境の紹介
@@ -182,7 +176,7 @@ parallel_items:
 - type: heading
   level: 2
   original: Z-A以前のCI/CD ビルド環境の課題
-  translation: Z-A以前CI/CD 构建环境的课题
+  translation: "Z-A 之前 CI/CD 构建环境的课题"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-11.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第11页
@@ -207,7 +201,7 @@ parallel_items:
     本番環境のVMを新しいイメージで再作成
 
     保守するCI/CD環境の数が年々増加しており、作業負担が大きくなっていた'
-  translation: "课题①：不定期发生的CI/CD环境更新工作繁杂\n每个项目的语言/SDK/构建工具版本不同\n版本更新每月可能发生数次，每次都要进行以下更新工作\n① 创建机器镜像\n手动创建更新了版本的Azure VM机器镜像\n② 创建验证用VM\n在不会影响生产环境CI/CD的验证环境中，基于①创建的机器镜像创建VM"
+  translation: "课题①：不定期发生的CI/CD环境更新工作繁杂\n每个项目的语言/SDK/构建工具版本不同\n版本更新每月可能发生数次，每次都要进行以下更新工作\n① 创建机器镜像\n手动创建更新了版本的Azure VM机器镜像\n② 创建验证用VM\n在不会影响生产环境CI/CD的验证环境中，基于①创建的机器镜像创建VM\n※ 构建确认和构建产物的动作确认由其他团队负责\n③ 应用到生产环境\n用新镜像重新创建生产环境的VM\n需要维护的CI/CD环境数量逐年增加，工作负担越来越大"
   note: '构建确认和构建产物的动作确认由其他团队负责 ③ 应用到生产环境 用新镜像重新创建生产环境的VM 需要维护的CI/CD环境数量逐年增加，工作负担越来越大'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-12.jpg
@@ -265,7 +259,7 @@ parallel_items:
     ※ スポットインスタンスも試したが...
 
     →　ビルド中にスポット中断が発生した時のリカバリーが安定せず、現場に求められるサービスレベルを満たせないと判断'
-  translation: "课题③：云费用负担越来越大\n- 营业时间内约90台Windows VM固定台数常时运行\n- 没有构建请求时VM处于空闲状态，但期间仍会产生费用\n→　明显是浪费的成本\n- CI/CD环境更新作业期间还会增加验证用VM\n→　虽然是临时的，但也是不可忽视的成本\n在削减计算费用上苦苦挣扎"
+  translation: "课题③：云费用负担越来越大\n- 营业时间内约90台Windows VM固定台数常时运行\n- 没有构建请求时VM处于空闲状态，但期间仍会产生费用\n→　明显是浪费的成本\n- CI/CD环境更新作业期间还会增加验证用VM\n→　虽然是临时的，但也是不可忽视的成本\n在削减计算费用上苦苦挣扎\n※ 也尝试过Spot实例，但是...\n→　构建中发生Spot中断时的恢复不稳定，判断无法满足现场要求的服务水平"
   note: '也尝试过Spot实例，但是... →　构建中发生Spot中断时的恢复不稳定，判断无法满足现场要求的服务水平'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-14.jpg
@@ -475,18 +469,18 @@ parallel_items:
     ビルド用イメージのベースにはWindows Server Coreを採用
 
     (Nano Serverはビルドツールが動作しない)'
-  translation: "Windows 容器镜像与 Linux 相比，大小相差悬殊\nOS 类型 ／ 镜像大小(解压前) ／ 镜像大小(解压后) ／ Alpine ／ 3.7MB ／ 8.3MB ／ Debian ／ 47MB ／ 106MB ／ Ubuntu ／ 40MB ／ 118MB\nWindows Nano Server\n180MB ／ 450MB\nWindows Server Core\n2GB ／ 4.9GB ／ Windows Server ／ 5.9GB ／ 13.7GB"
+  translation: "Windows 容器镜像与 Linux 相比，大小相差悬殊\nOS 类型 ／ 镜像大小(解压前) ／ 镜像大小(解压后) ／ Alpine ／ 3.7MB ／ 8.3MB ／ Debian ／ 47MB ／ 106MB ／ Ubuntu ／ 40MB ／ 118MB\nWindows Nano Server\n180MB ／ 450MB\nWindows Server Core\n2GB ／ 4.9GB ／ Windows Server ／ 5.9GB ／ 13.7GB\n※ 以 2026 年 6 月时点的最新镜像进行测量\n构建用镜像的基础采用 Windows Server Core\n(Nano Server 无法运行构建工具)"
   note: '以 2026 年 6 月时点的最新镜像进行测量 构建用镜像的基础采用 Windows Server Core (Nano Server 无法运行构建工具)'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-23.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第23页
 - original: "ジョブ開始時のイメージ取得時間が最大の課題\n- ジョブ実行時にコンテナイメージを取得するステップが増えた\n- ビルド用イメージにはベースOSに加え、ビルドツール・SDKも含まれる\n- イメージ取得だけで15〜20分かかってしまう\nジョブ開始 ／ ノード割当 ／ (1分以内)\n\nイメージ取得 (15～20分)\n\nビルド実行 (20～30分)\n\nVM時代にはなかったオーバーヘッド\nこれでは実用に耐えない"
-  translation: "作业开始时的镜像获取时间是最大的课题\n- 作业执行时增加了获取容器镜像的步骤\n- 构建用镜像除了基础 OS 之外，还包含构建工具、SDK\n- 仅镜像获取就要花费 15〜20 分钟\n作业开始 ／ 节点分配 ／ (1分钟以内)\n\n镜像获取 (15〜20分钟)\n\n构建执行 (20〜30分钟)\n\n这是 VM 时代没有的开销\n这样无法承受实际使用"
+  translation: "作业开始时的镜像获取时间是最大的课题\n- 作业执行时增加了获取容器镜像的步骤\n- 构建用镜像除了基础 OS 之外，还包含构建工具、SDK\n- 仅镜像获取就要花费 15〜20 分钟\n作业开始 ／ 节点分配 ／ (1分钟以内)\n\n镜像获取 (15〜20分钟)\n\n构建执行 (20〜30分钟)\n\n这是 VM 时代没有的开销\n这样根本无法投入实际使用"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-24.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第24页
 - original: "改善案\n案①：イメージサイズの縮小(最適化)\n\n- 結論、これだけでは不十分\n- イメージサイズをいくら最適化しても、ベースイメージの大きさで頭打ちになる\n- ジョブ内でコンテナイメージ取得する処理自体がVM時代には無かった\n- ジョブ内でのイメージ取得時間はなるべくゼロに近づけたい\n案②：イメージキャッシュ済みノードにのみジョブをスケジュールする\n- こちらが本命\n- コンテナイメージは一度pullすれば、そのイメージはノード内にキャッシュされ、二回目以降\nはイメージ取得をスキップできる\n- イメージキャッシュ済みノードにのみジョブをスケジュールできれば、ジョブ内のイメージ取\n得時間はゼロにできる\n案②を実現するアプローチを2つ検討"
-  translation: "改善方案\n方案①：缩小镜像大小（优化）\n\n- 结论：仅靠这一点并不充分\n- 无论怎样优化镜像大小，都会受限于基础镜像的大小\n- 在作业内获取容器镜像的处理本身在 VM 时代是不存在的\n- 希望尽量将作业内的镜像获取时间趋近于零\n方案②：仅将作业调度到已缓存镜像的节点上\n- 这才是根本方案\n- 容器镜像一旦 pull 过一次，该镜像就会被缓存在节点内，第二次以后\n即可跳过镜像获取\n- 如果能够仅将作业调度到已缓存镜像的节点上，作业内的镜像获取时间就可以降为零\n探讨了两种实现方案②的方法"
+  translation: "改善方案\n方案①：缩小镜像大小（优化）\n\n- 结论：仅靠这一点并不充分\n- 无论怎样优化镜像大小，都会受限于基础镜像的大小\n- 在作业内获取容器镜像的处理本身在 VM 时代是不存在的\n- 希望尽量将作业内的镜像获取时间趋近于零\n方案②：仅将作业调度到已缓存镜像的节点上\n- 这才是首选方案\n- 容器镜像一旦 pull 过一次，该镜像就会被缓存在节点内，第二次以后\n即可跳过镜像获取\n- 如果能够仅将作业调度到已缓存镜像的节点上，作业内的镜像获取时间就可以降为零\n探讨了两种实现方案②的方法"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-25.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第25页
@@ -849,13 +843,13 @@ parallel_items:
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-39.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第39页
 - original: "このアプローチのメリット・デメリット\n- VM作成後のウォームアップ時間がなく、瞬時にスケールできる\n- DaemonSet + Taintのような独自のKubernetesリソースの管理が不要\n- カスタムマシンイメージに対応しているベンダーが限定 (※2026年6月時点)\n\n- AWS : 利用可\n- Azure : 未対応\n- GCP : 未対応\n- カスタムマシンイメージの管理が必要\nメリット ／ デメリット"
-  translation: "该方法的优点与缺点\n- 没有 VM 创建后的预热时间，可瞬间扩容\n- 无需管理像 DaemonSet + Taint 这样的自定义 Kubernetes 资源\n- 支持自定义机器镜像的供应商有限\n- AWS：可用\n- Azure：未支持\n- GCP：未支持\n- 需要管理自定义机器镜像\n优点 ／ 缺点"
+  translation: "该方法的优点与缺点\n- 没有 VM 创建后的预热时间，可瞬间扩容\n- 无需管理像 DaemonSet + Taint 这样的自定义 Kubernetes 资源\n- 支持自定义机器镜像的供应商有限 (※截至 2026 年 6 月)\n- AWS：可用\n- Azure：未支持\n- GCP：未支持\n- 需要管理自定义机器镜像\n优点 ／ 缺点"
   note: '截至 2026 年 6 月'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-40.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第40页
 - original: "ゲームフリークではアプローチ① DaemonSet + Taintを選択\n観点\nアプローチ① DaemonSet + Taint\nアプローチ② カスタムマシンイメージ\nベンダー依存 ／ なし（標準機能・オンプレ可）\n\nあり（AWS可 / Azure未対応/ GCP未対応）\n\nウォームアップ\n必要（ゲームフリークの場合、30〜45分）\n\n不要 ／ ディスク費用 ／ 停止VM分が常時発生 ／ VM起動中のみ ／ 運用負荷\nKubernetesリソースの管理\nカスタムVMイメージの管理\nマシンイメージをカスタマイズできるオンプレ環境もしくはAWSを\nメインで利用しているならアプローチ②も非常に有力\n- Windowsインスタンスの費用がより安価なAzureのKubernetesサービス(AKS)を採用したため\n- AKSはカスタムマシンイメージ機能は2026年6月時点で未対応\n- ウォームアップ時間については頻繁にVMの再作成を行わないため許容とした"
-  translation: "GAME FREAK 选择了方案① DaemonSet + Taint\n\n| 观点 | 方案① DaemonSet + Taint | 方案② 自定义机器镜像 |\n| --- | --- | --- |\n| 供应商依赖 | 无（标准功能・可本地部署） | 有（AWS 可用 / Azure 不支持 / GCP 不支持） |\n| 预热 | 需要（GAME FREAK 的情况下，30〜45 分钟） | 不需要 |\n| 磁盘费用 | 停止 VM 部分持续产生 | 仅 VM 启动期间产生 |\n| 运维负担 | 管理 Kubernetes 资源 | 管理自定义 VM 镜像 |\n\n如果主要使用可自定义机器镜像的本地环境或 AWS，方案②也非常有潜力\n- 因为采用了 Windows 实例费用更便宜的 Azure 的 Kubernetes 服务（AKS）\n\n- AKS 在 2026 年 6 月时点尚未支持自定义机器镜像功能\n- 关于预热时间，由于不会频繁重建 VM，因此视为可接受"
+  translation: "GAME FREAK 选择了方案① DaemonSet + Taint\n\n| 观点 | 方案① DaemonSet + Taint | 方案② 自定义机器镜像 |\n| --- | --- | --- |\n| 供应商依赖 | 无（标准功能、可本地部署） | 有（AWS 可用 / Azure 不支持 / GCP 不支持） |\n| 预热 | 需要（GAME FREAK 的情况下，30〜45 分钟） | 不需要 |\n| 磁盘费用 | 停止 VM 部分持续产生 | 仅 VM 启动期间产生 |\n| 运维负担 | 管理 Kubernetes 资源 | 管理自定义 VM 镜像 |\n\n如果主要使用可自定义机器镜像的本地环境或 AWS，方案②也非常有潜力\n- 因为采用了 Windows 实例费用更便宜的 Azure 的 Kubernetes 服务（AKS）\n\n- AKS 在 2026 年 6 月时点尚未支持自定义机器镜像功能\n- 关于预热时间，由于不会频繁重建 VM，因此视为可接受"
   note: Taint 是 Kubernetes 中用于排斥 Pod 调度的标记，DaemonSet 配合 Taint 可确保每个节点运行特定 Pod。
 - type: heading
   level: 3
@@ -956,7 +950,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-44.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第44页
 - original: "① 多層構造で「どの層が原因か」を切り分けにくい\n- Pod → CNIプラグイン → kube-proxy → ホストの\nネットワークと多層\n- WindowsではこれらがHNS/VFP経由でOS内部に隠\n蔽される\n② エラー状態が揮発し、保全・再現が難しい\n- Pod破棄時にHNSエンドポイントが回収され、障害時\nの状態が消える\n- 低頻度とはいえノード単位で発生するため、再現条\n件の特定も難しい\nネットワーク関連のトラブルシューティングの難易度が高い\nアプリ / Pod ／ CNI プラグイン ／ kube-proxy\nHNS / VFP（Windows OS）\n\nホスト NIC・DNS\nオレンジの層は HNS / VFP として OS 内部で処理される\n※ HNS(Host Network Service)：コンテナの仮想ネットワーク・エンドポイント・ポリシーを管理する制御プレーン。APIはHCN(Host Compute Network)\n\n※ VFP(Virtual Filtering Platform)：Hyper-V仮想スイッチ上でNAT・ロードバランシング・ACL等のパケット処理を行うデータプレーン"
-  translation: "① 多层结构导致难以判断“哪一层是原因”\n\n- Pod → CNI 插件 → kube-proxy → 主机的网络，多层结构\n- 在 Windows 中，这些通过 HNS/VFP 被隐藏在 OS 内部\n② 错误状态易失，难以保存和复现\n- Pod 销毁时 HNS 端点被回收，故障时的状态消失\n- 虽然频率低，但以节点为单位发生，因此也难以确定复现条件\n\n网络相关故障排查难度高\n\n应用 / Pod / CNI 插件 / kube-proxy\nHNS / VFP（Windows OS）\n\n主机 NIC・DNS\n橙色层作为 HNS / VFP 在 OS 内部处理"
+  translation: "① 多层结构导致难以判断“哪一层是原因”\n\n- Pod → CNI 插件 → kube-proxy → 主机的网络，多层结构\n- 在 Windows 中，这些通过 HNS/VFP 被隐藏在 OS 内部\n② 错误状态易失，难以保存和复现\n- Pod 销毁时 HNS 端点被回收，故障时的状态消失\n- 虽然频率低，但以节点为单位发生，因此也难以确定复现条件\n\n网络相关故障排查难度高\n\n应用 / Pod / CNI 插件 / kube-proxy\nHNS / VFP（Windows OS）\n\n主机 NIC / DNS\n橙色层作为 HNS / VFP 在 OS 内部处理\n\n※ HNS(Host Network Service)：管理容器虚拟网络、端点、策略的控制平面。API 为 HCN(Host Compute Network)\n\n※ VFP(Virtual Filtering Platform)：在 Hyper-V 虚拟交换机上进行 NAT、负载均衡、ACL 等数据包处理的数据平面"
   note: 'HNS(Host Network Service)：管理容器虚拟网络、端点、策略的控制平面。API 为 HCN(Host Compute Network) ※ VFP(Virtual Filtering Platform)：在 Hyper-V 虚拟交换机上进行 NAT、负载均衡、ACL 等数据包处理的数据平面'
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-45.jpg
@@ -980,18 +974,7 @@ parallel_items:
     ※ ネットワーク診断ツールはMicrosoft SDN GitHubリポジトリで公開されているものを使用。URLは
 
     本スライドの最後(付録)に記載'
-  translation: '- 虽然进行了 kube-state-metrics・cAdvisor 的监控，但仅此并不充分
-
-    - 使问题发生时的网络调查成为可能
-
-    - 通过 windows_exporter(HostProcess 容器) 将 HNS(网络) 和 HCS(容器执行) 的状态按时间序列保存
-
-    - 以 CrashLoop 为触发自动执行网络诊断工具 → 结果自动保存到持久存储
-
-
-    今后的举措：强化监控环境
-
-    ※ 网络诊断工具使用 Microsoft SDN GitHub 仓库中公开的工具。URL 记载于本幻灯片最后（附录）'
+  translation: "- 虽然进行了 kube-state-metrics 与 cAdvisor 的监控，但仅此并不充分\n- 使问题发生时的网络调查成为可能\n- 通过 windows_exporter(HostProcess 容器) 将 HNS(网络) 和 HCS(容器执行) 的状态按时间序列保存\n- 以 CrashLoop 为触发自动执行网络诊断工具 → 结果自动保存到持久存储\n\n今后的举措：强化监控环境\n※ 网络诊断工具使用 Microsoft SDN GitHub 仓库中公开的工具。URL 记载于本幻灯片最后（附录）"
   note: HCS 是 Host Compute Service，负责管理 Windows 容器和 Hyper-V 容器的执行。
 - type: heading
   level: 3
@@ -1037,7 +1020,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-50.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第50页
 - original: "GitLab Runner マネージャー (Linux)\n\nCIジョブをBuild Podとしてスケジュール\n最終的なアーキテクチャ(全体像)\n\nAWS ／ GitLab サーバー ／ ソースコード管理 ／ CI/CD制御 ／ CodeArtifact ／ ライブラリパッケージ管理 ／ (オリジン) ／ Amazon S3 ／ ビルド成果物の管理 ／ Express ／ Route ／ (閉域網) ／ Direct ／ Connect ／ (閉域網) ／ オフィス拠点 ／ 相互接続拠点DC ／ Azure\nAzure Kubernetes Service\nRouter\nWindowsノードプール (自動スケール)\n\nジョブ需要に応じてノードが増減\nBuild Podでビルドを実行\nキャッシュ制御・監視\nキャッシュ済みノードのみBuild Podを割当\n異常ノードは自動再起動\nAzure Container Registry\nビルド用イメージ管理\nAzure Blob Storage\nライブラリパッケージ管理 ／ (キャッシュ) ／ イメージ pull ／ パッケージ ／ キャッシュ取得 ／ 閉域網"
-  translation: "GitLab Runner 管理器 (Linux)\n\n将CI作业作为Build Pod进行调度\n最终架构(整体图)\n\nAWS ／ GitLab 服务器 ／ 源代码管理 ／ CI/CD控制 ／ CodeArtifact ／ 库包管理 ／ (源) ／ Amazon S3 ／ 构建产物管理 ／ Express ／ Route ／ (封闭网络) ／ Direct ／ Connect ／ (封闭网络) ／ 办公室据点 ／ 互连据点DC ／ Azure\nAzure Kubernetes Service\nRouter\nWindows节点池 (自动伸缩)\n\n根据作业需求增减节点\n在Build Pod中执行构建\n缓存控制・监控\n仅将Build Pod分配给已缓存的节点\n异常节点自动重启\nAzure Container Registry\n构建用镜像管理\nAzure Blob Storage\n库包管理 ／ (缓存) ／ 镜像拉取 ／ 包 ／ 缓存获取 ／ 封闭网络"
+  translation: "GitLab Runner 管理器 (Linux)\n\n将CI作业作为Build Pod进行调度\n最终架构(整体图)\n\nAWS ／ GitLab 服务器 ／ 源代码管理 ／ CI/CD控制 ／ CodeArtifact ／ 库包管理 ／ (源) ／ Amazon S3 ／ 构建产物管理 ／ Express ／ Route ／ (封闭网络) ／ Direct ／ Connect ／ (封闭网络) ／ 办公室据点 ／ 互连据点DC ／ Azure\nAzure Kubernetes Service\nRouter\nWindows节点池 (自动伸缩)\n\n根据作业需求增减节点\n在Build Pod中执行构建\n缓存控制、监控\n仅将Build Pod分配给已缓存的节点\n异常节点自动重启\nAzure Container Registry\n构建用镜像管理\nAzure Blob Storage\n库包管理 ／ (缓存) ／ 镜像拉取 ／ 包 ／ 缓存获取 ／ 封闭网络"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-51.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第51页
@@ -1051,7 +1034,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 導入成果・まとめ
-  translation: 导入成果・总结
+  translation: "导入成果与总结"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-54.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第54页
@@ -1066,15 +1049,7 @@ parallel_items:
     - ジョブ側でイメージタグを更新すればビルド環境の切り替えが可能
 
     1～2日かかる作業が2時間程度で終わるようになった'
-  translation: '成果① 构建环境更新所需时间大幅缩短
-
-    - 以往更新CI/CD的构建环境需要1～2天
-
-    - 现在创建・更新Dockerfile后，容器镜像会自动部署到容器注册表
-
-    - 在作业侧更新镜像标签即可切换构建环境
-
-    原本需要1～2天的工作现在约2小时即可完成'
+  translation: "成果① 构建环境更新所需时间大幅缩短\n- 以往更新CI/CD的构建环境需要1～2天\n- 现在创建、更新Dockerfile后，容器镜像会自动部署到容器注册表\n- 在作业侧更新镜像标签即可切换构建环境\n原本需要1～2天的工作现在约2小时即可完成"
 - type: image
   image: /assets/img/interviews/2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers/slide-55.jpg
   alt: 『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例 - 第55页

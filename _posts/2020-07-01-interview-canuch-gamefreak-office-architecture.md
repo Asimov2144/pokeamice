@@ -22,15 +22,15 @@ parallel_items:
 - type: heading
   level: 2
   original: コンセプト：ゲームフリークの創造姿勢を体現するオフィス
-  translation: 设计概念：具象化 GAME FREAK 创作姿态的冒险空间
+  translation: "概念：体现 GAME FREAK 创作姿态的办公室"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-001.jpg
   alt: GAME FREAK 新办公室入口主视觉
   caption: GAME FREAK 东京三轩茶屋总部入口主视觉：从精灵球与原野展开的冒险之旅
 - original: ゲームフリーク社の創造姿勢を体現することで、世界観の創造に必要なのは常に冒険心を持ち続ける事であると伝えてくれるオフィス。
-  translation: 通过具象化 GAME FREAK 的创作姿态，向人们传达：构筑独特世界观不可或缺的，正是永远保持一颗冒险之心。
+  translation: "这是一间体现 GAME FREAK 创作姿态的办公室，它向人们传达：创造世界观所需要的，始终是保持冒险心。"
 - original: 株式会社ゲームフリークは、『ポケットモンスター』シリーズをはじめとした家庭用ゲームソフトやスマートフォン向けゲームを開発している企業。高いセキュリティの実現と事業の拡大に伴う座席数増加への対応、プロジェクトを横断する交流が生まれやすい環境を求めてオフィス移転を計画した。
-  translation: 株式会社 GAME FREAK 是一家以《宝可梦》系列为代表、从事家用主机游戏及智能手机游戏开发的知名企业。为实现严密的高安全性标准、应对业务拓展带来的工位扩增需求，并打造一个易于激发跨项目横向交流的环境，公司推进了此次办公室迁址计划。
+  translation: "株式会社 GAME FREAK 是以《宝可梦》系列为首，开发家用游戏软件和智能手机游戏的企业。公司为了实现高安全性、应对业务扩大带来的座位数增加，并营造易于产生跨项目交流的环境，计划了办公室搬迁。"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-002.jpg
   alt: 真新镇大堂接待区（Pallet Town Lobby）
@@ -40,11 +40,11 @@ parallel_items:
   alt: 大堂自然光影与绿意盎然的生灵空间
   caption: 透过玻璃幕墙照射的自然光与常青植物，营造生机勃勃的世界观氛围
 - original: 独特の世界をゲームというメディアを通して表現してきたゲームフリーク社が大切にしている、いつまでも「夢」や「勇気」、そして「冒険心」を持ち続けたいという企業理念。長く楽しめる遊びの面白さや楽しさの探求と、物事の根源を深くリサーチすることで得られる知識の蓄積を重視する姿勢を空間に落とし込む。
-  translation: GAME FREAK 历来通过游戏这一媒介呈现独一无二的奇幻世界，始终珍视“常怀梦想、勇气与冒险心”的企业理念。设计团队将这一理念深深融入空间之中，既强调对长久耐玩、充满乐趣之游戏体验的极致探索，又秉承深入考据万物根源、汲取丰富知识的严谨创作姿态。
+  translation: "GAME FREAK 通过游戏这一媒介表现独特的世界，一直珍视希望始终保有“梦想”“勇气”和“冒险心”的企业理念。办公空间将这样的姿态落实其中：探求可以长久享受的游戏乐趣，并重视通过深入调查事物根源而积累知识。"
 - type: heading
   level: 2
   original: 『ポケットモンスター 赤・緑』をモチーフとした空間構成
-  translation: 以《宝可梦 红·绿》为原点的空间意匠构想
+  translation: "以《宝可梦 红·绿》为主题的空间构成"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-004.jpg
   alt: 精灵球主题造型接待台与墙面纹理
@@ -54,11 +54,11 @@ parallel_items:
   alt: 真新镇向常青森林过渡的绿植景观
   caption: 生动还原训练家迈出小镇、踏入常青森林前所感应到的生机气息
 - original: オフィスの意匠は『ポケットモンスター 赤・緑』の設定をモチーフに、オフィス自体が一つのゲームの世界となるような意図で構成している。「冒険」の始まりの場所として位置するロビーエリアは、ポケモンの鳴き声や太陽の光、息づいた木々や生き物を感じさせるオープニングエリア「マサラタウン」を表現。来客エリアにある会議室はすべてゲーム内に登場する「街」の名前がつけられ、それぞれの街のイメージカラーで空間を彩っている。
-  translation: 办公室的整体设计以《宝可梦 红／绿》的原始设定为主题，意在让整个办公区化身为一个生动的游戏世界。作为“冒险启程之所”的大堂迎宾区，被精心塑造成洋溢着宝可梦叫声、明媚阳光、盎然林木与生灵气息的初始小镇“真新镇（Pallet Town）”。而来客区的各个会议室则全部以游戏中的“城镇”命名，并以各自城镇的标志性主题色彩进行空间粉饰。
+  translation: "办公室的设计以《宝可梦 红·绿》的设定为主题，意图让办公室本身成为一个游戏的世界。作为“冒险”起点的大堂区域，表现的是让人感受到宝可梦叫声、阳光、有生机的树木和生物的开场区域“真新镇”。来客区的会议室全部以游戏中出现的“城镇”命名，并用各个城镇的代表色来装点空间。"
 - type: heading
   level: 2
   original: 「中庭」と「住処」：回遊性とセキュリティの調和
-  translation: “中庭”与“栖息地”：自由漫游与保密性的有机融合
+  translation: "“中庭”与“栖息地”：回游性与安全性的协调"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-007.jpg
   alt: 中央动线核心中庭区
@@ -72,11 +72,11 @@ parallel_items:
   alt: 自然质感的长椅与交流角落
   caption: 随时可以坐下碰撞灵感的开放式讨论位
 - original: 来客エリアから執務エリアに進むと、フロアのコア周りに設置した共有スペース「中庭」と、窓側に設置したプロジェクトのワークスペースがある「住処」と大きく２つのゾーンに分かれている。その境界線は、オープンシェルフを利用して遮蔽度をコントロールすることで、回遊性と機能性、セキュリティ性を共存させている。
-  translation: 从访客区步入内部办公区，空间被清晰地划分为两大核心区域：围绕楼层核心筒构建的共享交流区“中庭”，以及沿窗布置的项目办公专区“栖息地（住处）”。两者之间的界线巧妙借助开放式书架调节视觉遮蔽度，实现了自由流动性、办公实用功能与严密保密性的完美共存。
+  translation: "从来客区进入办公区后，大致分为两个区域：设置在楼层核心周围的共享空间“中庭”，以及设置在窗边、设有项目工作空间的“栖息地”。两者的分界利用开放式书架来控制遮蔽程度，使回游性、功能性和安全性得以并存。"
 - type: heading
   level: 2
   original: 「赤・緑・青・黄」のゾーニングと偶発的な出会い
-  translation: “红·绿·蓝·黄”四色分区与偶发性灵感碰撞
+  translation: "“红·绿·蓝·黄”的分区与偶然的相遇"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-010.jpg
   alt: 红色主题区与茶歇吧台
@@ -94,7 +94,7 @@ parallel_items:
   alt: 多功能公共茶水与餐饮吧台
   caption: 员工日常必经的生活动线中心，创造不期而遇的交流契机
 - original: 共有スペースにある「中庭」は、生活動線上にリフレッシュカウンターを設置し、ワーカーが必ず通る場所を軸として、『ポケットモンスター』シリーズタイトルのパッケージカラーにもなっている「赤、緑、青、黄」でエリアをゾーニング。偶発的な出会いが生まれやすい仕掛けを施している。
-  translation: 位于公共区域的“中庭”沿日常通行主动线设置了茶歇吧台，以员工每日必经的核心枢纽为轴心，并以初代《宝可梦》四大版本包装标志色——“红、绿、蓝、黄”对各个区域进行色彩分区，创造出极易促成同事间偶遇、碰撞灵感火花的巧思机关。
+  translation: "共享空间“中庭”在生活动线上设置了休息吧台，以员工必经之处为轴，用同时也是《宝可梦》系列作品包装颜色的“红、绿、蓝、黄”划分区域，设置了易于产生偶然相遇的机关。"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-014.jpg
   alt: 全景环形回游走廊
@@ -124,11 +124,11 @@ parallel_items:
   alt: 资料阅览与图书收纳架
   caption: 陈列游戏考据资料、生物百科与设计文献的开架书库
 - original: オフィスというフィールドを回遊することで、新たなアイディアを発見できるような冒険心を大切にしたオフィス設計となっている。ゲームフリークの創造姿勢を体現することで、世界観の創造に必要なものは、常に冒険心を持ち続けることであると伝えてくれるオフィスとなっている。
-  translation: 通过在这片如同游戏地图一般的广阔原野中自由穿梭与探索，激发员工随时发现全新灵感的冒险情怀。整座办公室淋漓尽致地展现了 GAME FREAK 的造物哲学：构筑宏大世界观所必须的，唯有永远怀揣着一颗冒险之心。
+  translation: "这是一间重视冒险心的办公室设计，希望员工通过在办公室这个场地中四处走动，发现新的点子。这间办公室体现了 GAME FREAK 的创作姿态，向人们传达：创造世界观所需要的，始终是保持冒险心。"
 - type: heading
   level: 2
   original: 建築写真ギャラリー：ディテールとプロジェクト概要
-  translation: 建筑摄影全景画廊与项目信息
+  translation: "建筑照片画廊：细节与项目概要"
 - type: image
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-021.jpg
   alt: GAME FREAK 新总部建筑摄影 (GF_-021)
@@ -202,9 +202,9 @@ parallel_items:
   alt: GAME FREAK 新总部建筑摄影 (GF_-041)
   caption: GAME FREAK 新总部空间实景（摄影：Hideki Makiguchi / GF_-041）
 - original: 'Credit Interior designer : Canuch Inc. Photographer : Hideki Makiguchi Project Management : DE-SIGN Inc. Construction : Nomura Co., Ltd.'
-  translation: 演职名单 室内设计：Canuch Inc. 建筑摄影：牧口英树（Hideki Makiguchi） 项目管理：DE-SIGN Inc. 施工承造：乃村工艺社（Nomura Co., Ltd.）
+  translation: "制作名单 室内设计：Canuch Inc. 摄影：Hideki Makiguchi 项目管理：DE-SIGN Inc. 施工：乃村工艺社（Nomura Co., Ltd.）"
 - original: 'Project Outline Total Floor Area : 2860.59㎡ Year: 07/2020 Location : Tokyo, Japan'
-  translation: 项目概要 建筑总面积：2,860.59 平方米 竣工时间：2020年7月 地理位置：日本东京都世田谷区三轩茶屋（Carrot Tower）
+  translation: "项目概要 总楼面面积：2860.59㎡ 年份：2020年7月 地点：日本，东京"
 entities:
   works:
   - 宝可梦 红·绿
