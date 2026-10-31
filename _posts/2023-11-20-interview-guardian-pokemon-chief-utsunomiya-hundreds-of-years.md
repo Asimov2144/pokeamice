@@ -81,11 +81,11 @@ parallel_items:
   role: question
 - speaker: 宇都宫崇人
   original: “Video games are truly at the core of the brand – and that will continue,” replies Utsunomiya, “the games are really the best way to experience the settings of each Pokémon. We really try to treat them like living creatures; you see them in the game and how they’re behaving there … In the original games, there’s quite a gap between the descriptions in the Pokédex and what you actually saw in the game. But starting with Legends Arceus and Scarlet/Violet, you see [Pokémon like] Bidoof creating dens in the game, and you have Pokémon travelling in packs. So there’s a newfound realism of their setting. When it comes to delivering the descriptions seen in the original Pokédex … there’s a lot more we can do there.”
-  translation: “电子游戏确实是品牌的核心——而且这一点将继续下去，”宇都宫崇人答道，“游戏确实是体验每只宝可梦所处环境的最佳方式。我们真的努力将它们视为活生生的生物；你在游戏中看到它们，以及它们在那里的行为……在最初的游戏中，宝可梦图鉴的描述与你在游戏中实际看到的之间存在相当大的差距。但从《宝可梦传说 阿尔宙斯》和《宝可梦 朱／紫》开始，你会看到[像]大尾狸这样的宝可梦在游戏中筑巢，还有成群结队旅行的宝可梦。因此，它们的环境设定有了新的真实感。在呈现最初宝可梦图鉴中看到的描述方面……我们还有很多可以做的。”
+  translation: "“电子游戏确实是品牌的核心——而且这一点将继续下去，”宇都宫崇人答道，“游戏确实是体验每只宝可梦所处环境的最佳方式。我们真的努力将它们视为活生生的生物；你在游戏中看到它们，以及它们在那里的行为……在最初的游戏中，宝可梦图鉴的描述与你在游戏中实际看到的之间存在相当大的差距。但从《宝可梦传说 阿尔宙斯》和《宝可梦 朱·紫》开始，你会看到[像]大尾狸这样的宝可梦在游戏中筑巢，还有成群结队旅行的宝可梦。因此，它们的环境设定有了新的真实感。在呈现最初宝可梦图鉴中看到的描述方面……我们还有很多可以做的。”"
   role: answer
 - speaker: The Guardian
   original: It has not all been rosy for Pokémon in recent years. 2022’s games, Scarlet and Violet, were visually underwhelming and plagued with bugs (of the technical kind, rather than the cutesy collectible kind), their poor technical performance inciting backlash the franchise had never seen before.
-  translation: 近年来，宝可梦并非一帆风顺。2022年的游戏《宝可梦 朱／紫》画面平平，且饱受技术性漏洞困扰（而非可爱的收集类小精灵），其糟糕的技术表现引发了该系列前所未有的争议。
+  translation: "近年来，宝可梦并非一帆风顺。2022年的游戏《宝可梦 朱·紫》画面平平，且饱受漏洞困扰（是技术层面的bug，而不是那种可爱的可收集的虫子），其糟糕的技术表现引发了该系列前所未有的争议。"
   role: question
 - speaker: 宇都宫崇人
   original: “Regardless of whether we publicly respond, we’re always paying very close attention to the feedback and conversations happening in the communities,” Utsunomiya says. “There are certain aspects where we can’t always be 100% aligned with what parts of the community are asking for and what we want to provide. But we do this with the desire to keep Pokémon going for a very long time, and I believe that the fans and players are aligned with us in that respect.”
@@ -97,7 +97,7 @@ parallel_items:
   alt: 《宝可梦 朱／紫》发售初期的技术瓶颈与画面表现曾引发玩家社群的热烈讨论。图片来源：任天堂
 - speaker: The Guardian
   original: Outside the games, Pokémon’s recent releases have been spilling over more and more into real life with the eyebrow-raising sleep-tracking app, Pokémon Sleep, and a dental hygiene companion app called Pokémon Smile. It increasingly feels as if Pokémon are positioned less as battling monsters and more as mascots that slot into our day to day lives.
-  translation: 在游戏之外，宝可梦近期的发布越来越多地渗透到现实生活中，推出了令人瞩目的睡眠追踪应用《Pokémon Sleep》和名为《Pokémon Smile》的口腔卫生伴侣应用。越来越让人觉得，宝可梦的定位不再仅仅是战斗怪兽，而是融入我们日常生活的吉祥物。
+  translation: "在游戏之外，宝可梦近期的发布越来越多地渗透到现实生活中，推出了令人诧异的睡眠追踪应用《Pokémon Sleep》和名为《Pokémon Smile》的口腔卫生伴侣应用。越来越让人觉得，宝可梦的定位不再仅仅是战斗怪兽，而是融入我们日常生活的吉祥物。"
   role: question
 - type: image
   image: /assets/img/interviews/2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/wcs_visitor.jpg
@@ -109,7 +109,7 @@ parallel_items:
   role: answer
 - speaker: The Guardian
   original: It may surprise those outside the Pokémon phenomenon – or those who have fallen off the wagon since the turn of the millennium – that these collectible critters are more popular than ever. The original Game Boy games remain the series’ bestselling, at over 46m units, but 2019’s Pokémon Sword and Shield on the Nintendo Switch have already shifted 26m, and the games as a whole have sold over 460m in total. Pokémon Go still has an estimated 80m active players. There is clearly something enduringly appealing about Japan’s most successful entertainment export. Where Tajiri started out on a catch-em-all quest to capture bugs, the Pokémon Company is now on a quest to capture the world.
-  translation: 对于那些置身宝可梦现象之外的人——或是自千禧年以来便已脱坑的人——可能会感到惊讶：这些可收集的小生物如今比以往任何时候都更受欢迎。最初的Game Boy游戏仍是该系列最畅销的作品，销量超过4600万份，但2019年在Nintendo Switch上推出的《宝可梦 剑／盾》已售出2600万份，整个系列游戏总销量已超过4.6亿份。《Pokémon GO》估计仍有8000万活跃玩家。日本最成功的娱乐输出品显然具有某种持久的吸引力。田尻智最初以捕捉昆虫的“集齐所有”任务起步，而株式会社宝可梦如今则致力于征服世界。
+  translation: "对于那些置身宝可梦现象之外的人——或是自千禧年以来便已脱坑的人——可能会感到惊讶：这些可收集的小生物如今比以往任何时候都更受欢迎。最初的Game Boy游戏仍是该系列最畅销的作品，销量超过4600万份，但2019年在Nintendo Switch上推出的《宝可梦 剑·盾》已售出2600万份，整个系列游戏总销量已超过4.6亿份。《Pokémon GO》估计仍有8000万活跃玩家。日本最成功的娱乐输出品显然具有某种持久的吸引力。田尻智最初以捕捉昆虫的“集齐所有”任务起步，而株式会社宝可梦如今则致力于征服世界。"
   role: question
 - speaker: 宇都宫崇人
   original: “That there is something that is just universal about Pokémon,” reckons Utsunomiya. “When the first games came out in Japan, it was typical to look at video games as something that are just for boys, but we [soon] realised a much more diverse audience were playing them. We soon found that the games were very appealing to the rest of the world as well … It would make us very happy if, through Pokémon, people can connect with each other – regardless of where they are, or who they are.”
@@ -121,10 +121,12 @@ source:
   url: https://www.theguardian.com/games/2023/nov/20/pokemon-chief-interview
 entities:
   people:
-  - "宇都宫崇人"
+  - 宇都宫崇人
+  - 田尻智
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
+  - Pokémon Sleep
 summary: "《卫报》2023年文章采访株式会社宝可梦首席运营官宇都宫崇人。他称公司目标是让宝可梦延续数百年，并希望美洲、欧洲、日本约十亿人之外的七十多亿人成为粉丝。文中提及田尻智1990年受Game Boy连接线启发构思交换与对战，2012年退居二线；第18届宝可梦世界锦标赛在横滨举行，2000名参赛者、10000名粉丝到场；宝可梦已超1000种；初代Game Boy游戏销量超4600万份，《宝可梦 剑／盾》2600万份，系列总销量超4.6亿份，《Pokémon GO》约8000万活跃玩家；《宝可梦 朱／紫》因技术问题引发争议；《Pokémon Sleep》《Pokémon Smile》将宝可梦融入日常。"
 dek: "株式会社宝可梦首席运营官宇都宫崇人谈品牌延续与全球扩张。"
 topics:
