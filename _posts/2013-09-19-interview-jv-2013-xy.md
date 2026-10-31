@@ -38,6 +38,7 @@ entities:
   - 增田顺一
   works:
   - 宝可梦 X·Y
+  - Pokémon Bank
 workflow:
   fetch: live
   translation: deepseek-chat
@@ -47,7 +48,7 @@ topics:
 - 海外媒体专访
 parallel_items:
 - original: Accusée à juste titre de ne pas assez se renouveler, la série Pokémon a entamé sa mue depuis quelques années déjà. Depuis 2011 pour être précis, avec l'arrivée des versions Blanche et Noire. Pokémon X et Pokémon Y, les premiers épisodes exclusifs à la 3DS, marquent quant à eux le passage à l'étape supérieure. Voici venue l'ère de la 3D généralisée. Junichi Masuda, le boss de Game Freak, et Hironobu Yoshida, graphic designer au sein du studio japonais, ont accepté de répondre à nos questions à propos du jeu, dont la sortie est prévue pour le 12 octobre prochain.
-  translation: "宝可梦系列因创新不足而受到指责，这一批评不无道理，但事实上它早在几年前就已开始蜕变。确切地说，是从2011年《黑／白》发售起。而《宝可梦 X》与《宝可梦 Y》作为首批3DS独占作品，则标志着它迈上了更高的台阶。全面3D化的时代就此到来。GAME FREAK的负责人增田顺一，以及这家日本工作室的图形设计师吉田宏信，接受了我们的提问，谈到了这款定于10月12日发售的游戏。"
+  translation: "宝可梦系列因创新不足而受到指责，这一批评不无道理，但事实上它早在几年前就已开始蜕变。确切地说，是从2011年《宝可梦 黑·白》发售起。而《宝可梦 X》与《宝可梦 Y》作为首批3DS独占作品，则标志着它迈上了更高的台阶。全面3D化的时代就此到来。GAME FREAK的负责人增田顺一，以及这家日本工作室的图形设计师吉田宏信，接受了我们的提问，谈到了这款定于10月12日发售的游戏。"
   note: 吉田宏信是Game Freak的图形设计师，长期参与宝可梦系列的角色与画面设计。
 - type: image
   image: /assets/img/interviews/2013-09-19-interview-jv-2013-xy/001.jpg
@@ -86,7 +87,7 @@ parallel_items:
 - original: La période de développement a été la même que d'habitude. Nous avons commencé à travailler sur Pokémon X et Y juste après Blanc et Noir. Cela fait donc environ trois ans. En revanche, l'équipe a été agrandie. Nous avons dû engager des personnes. Cela demandait en effet un travail supplémentaire à tous les niveaux. Par exemple, en termes de communication.
   role: answer
   speaker: 增田顺一
-  translation: 开发周期和平时一样。我们在《黑／白》之后紧接着就开始做《宝可梦 X·Y》。所以大约花了三年。不过，团队规模扩大了。我们不得不招人。因为各个层面确实都需要额外的工作。比如宣传沟通方面。
+  translation: "开发周期和平时一样。我们在《宝可梦 黑·白》之后紧接着就开始做《宝可梦 X·Y》。所以大约花了三年。不过，团队规模扩大了。我们不得不招人。因为各个层面确实都需要额外的工作。比如沟通方面。"
 - original: A l'époque de Pokémon Blanc et Noir, vous déclariez partout qu'il n'était pas nécessaire de sortir sur une autre machine que la DS, étant donné qu'elle permettait de toucher massivement tous les publics. Alors pourquoi faire aujourd'hui le choix de la 3DS ? Le constat reste le même.
   role: question
   speaker: jeuxvideo.com
@@ -166,7 +167,7 @@ parallel_items:
 - original: Premièrement, il faut prendre conscience que la DS et la 3DS ne sont pas compatibles. Il n'y aucun moyen de les faire communiquer entre elles. Et nous voulions trouver une solution pour permettre aux joueurs de transférer des Pokémon des versions Blanche et Noire vers les versions X et Y. Nous avons décidé qu'un service utilisant le Cloud était le meilleur moyen de parvenir à nos fins. Il y a beaucoup d'avantages à choisir un système comme celui-ci. A commencer par la capacité de stockage offerte aux joueurs. Cela ouvre aussi de nouvelles possibilités en termes de gameplay puisque vous pouvez accéder à cette banque à partir des versions X et Y. Vous pouvez déposer un Pokémon en jouant à l'une des versions et le récupérer dans l'autre. Et pour permettre à ce service de fonctionner correctement et durablement, il fallait que les joueurs déboursent un peu d'argent.
   role: answer
   speaker: 增田顺一
-  translation: 首先，必须意识到DS和3DS并不兼容。它们之间没有任何通信方式。我们想找到一种解决方案，让玩家能够将宝可梦从《黑／白》版本转移到《X／Y》版本。我们决定，使用云端的服务是达成目标的最佳方式。选择这样的系统有很多好处。首先是提供给玩家的存储容量。这也开启了游戏玩法方面的新可能性，因为你可以从《X／Y》版本访问这个银行。你可以在玩其中一个版本时存入一只宝可梦，然后在另一个版本中取回它。而为了让这项服务能够正确且持久地运作，玩家需要支付一些费用。
+  translation: "首先，必须意识到DS和3DS并不兼容。它们之间没有任何通信方式。我们想找到一种解决方案，让玩家能够将宝可梦从《黑·白》版本转移到《X·Y》版本。我们决定，使用云端的服务是达成目标的最佳方式。选择这样的系统有很多好处。首先是提供给玩家的存储容量。这也开启了游戏玩法方面的新可能性，因为你可以从《X·Y》版本访问这个银行。你可以在玩其中一个版本时存入一只宝可梦，然后在另一个版本中取回它。而为了让这项服务能够正确且持久地运作，玩家需要支付一些费用。"
 - original: A quel prix ce service sera-t-il disponible en Europe ?
   role: question
   speaker: jeuxvideo.com
@@ -174,7 +175,7 @@ parallel_items:
 - original: 'Cela n''a pas encore été annoncé officiellement. En tout cas, au Japon, le prix sera de 500 yens par an (ndlr : en Europe, ce sera finalement 5 euros par an). Je rajoute que nous sommes conscients du fait que les joueurs attachent beaucoup d''importance à leurs Pokémon. Ils mettent du temps à les faire évoluer. Avec ce service, plus personne n''aura à s''inquiéter du moment où il perdra l''accès à ses Pokémon.'
   role: answer
   speaker: 增田顺一
-  translation: '这还没有正式公布。无论如何，在日本，价格将是每年500日元。我还要补充一点，我们意识到玩家非常重视他们的宝可梦。他们花时间让它们进化。有了这项服务，没有人再需要担心何时会失去对自己宝可梦的访问权。'
+  translation: "这还没有正式公布。无论如何，在日本，价格将是每年500日元（编者注：在欧洲，最终为每年5欧元）。我还要补充一点，我们意识到玩家非常重视他们的宝可梦。他们花时间让它们进化。有了这项服务，没有人再需要担心何时会失去对自己宝可梦的访问权。"
   note: '在欧洲，最终将是每年5欧元'
 - type: image
   image: /assets/img/interviews/2013-09-19-interview-jv-2013-xy/007.jpg

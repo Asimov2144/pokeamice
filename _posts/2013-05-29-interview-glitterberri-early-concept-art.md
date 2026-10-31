@@ -52,6 +52,8 @@ entities:
   - 杉森建
   - 田尻智
   - 森本茂树
+  - 西田敦子
+  - 西野弘二
   works:
   - 宝可梦 红·绿
   organizations:
@@ -82,7 +84,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/003.jpg
   alt: Early Concept Art
 - original: What Tajiri really had his eye on, however, was the Game Boy’s linking functionality. This data transfer system inspired the developer to dream up a game in which players would be able to trade with each other. Tajiri was also a fan of Ultra Seven, a TV fantasy series that was a followup to Ultraman, from which he got the idea of capsule monsters. He adopted the name Capsule Monsters for the RPG he set out to plan. The game, he imagined, would have monsters in containers similar to capsule toys travelling back and forth via the Game Link Cable. In the fall of 1990, Tajiri brought the project proposal he’d created to Nintendo, who decided to fund its development.
-  translation: 然而，田尻智真正看中的是Game Boy的联机功能。这种数据传输系统激发了这位开发者的梦想：一款玩家能够彼此交换的游戏。田尻智也是《奥特赛文》的粉丝，这部电视奇幻剧是《奥特曼》的续作，他从其中获得了胶囊怪兽的点子。他为自己着手策划的RPG采用了“胶囊怪兽”这个名字。他设想，游戏中的怪兽会像胶囊玩具一样装在容器里，通过Game Link Cable来回传输。1990年秋天，田尻智将他制作的项目企划书带到了任天堂，任天堂决定资助其开发。
+  translation: "然而，田尻智真正看中的是Game Boy的联机功能。这种数据传输系统激发了这位开发者的梦想：一款玩家能够彼此交换的游戏。田尻智也是《奥特赛文》的粉丝，这部电视奇幻剧是《奥特曼》的续作，他从其中获得了胶囊怪兽的点子。他为自己着手策划的RPG采用了“胶囊怪兽”这个名字。他设想，游戏中的怪兽会像胶囊玩具一样装在容器里，通过连接线来回传输。1990年秋天，田尻智将他制作的项目企划书带到了任天堂，任天堂决定资助其开发。"
   note: 《奥特赛文》是1967年播出的特摄剧，为《奥特曼》的续作。
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/004.jpg
@@ -173,7 +175,7 @@ parallel_items:
 - original: At first, the game was more RPG-like. It was only in the middle of development that the goal of the game became completing your Pokédex.
   role: answer
   speaker: 杉森建
-  translation: 起初，游戏更像RPG。直到开发中期，游戏的目标才变成完成你的宝可梦图鉴 App。
+  translation: "起初，游戏更像RPG。直到开发中期，游戏的目标才变成完成你的宝可梦图鉴。"
 - original: You also may have noticed that the design proposal makes no mention of two separate versions. This is because the idea for the split originated later in development, on the recommendation of Miyamoto himself.
   translation: 你可能也注意到了，设计提案中没有提到两个不同的版本。这是因为分版本的想法是在开发后期，根据宫本茂本人的建议才产生的。
 - original: In the beginning, the original Pokémon didn’t have different variations such as Red and Blue. I took the advice of Miyamoto and split it into two, something that was a first for us.
@@ -213,7 +215,7 @@ parallel_items:
 - original: The first Pokémon were Rhydon, Clefairy, and Lapras. At first, we’d planned to have Pokémon living alongside humans, making their lives easier. So, during the early stages of development, many of the characters we came up with had clear roles, like carrying things around or sailing across the sea with people on their backs.
   role: answer
   speaker: 杉森建
-  translation: 最早的宝可梦是独角犀牛、皮皮和拉普拉斯。起初，我们计划让宝可梦与人类共同生活，让他们的生活更轻松。所以，在开发的早期阶段，我们想出的许多角色都有明确的分工，比如搬运东西或载着人横渡大海。
+  translation: "最早的宝可梦是钻角犀兽、皮皮和拉普拉斯。起初，我们计划让宝可梦与人类共同生活，让人类的生活更轻松。所以，在开发的早期阶段，我们想出的许多角色都有明确的分工，比如搬运东西或载着人横渡大海。"
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/010.jpg
   alt: Early Concept Art
@@ -285,13 +287,13 @@ parallel_items:
   speaker: 杉森建
   translation: 起初，宝可梦比你们今天看到的更像恐龙。
 - original: 'In Red & Blue, all Pokémon have an unseen index number used to identify them in the game’s ROM that differs from their number in the Pokédex. This numbering system seems to have some connection to the order that the Pokémon were created in. However, the list does have some irregularities, such as spaces where Pokémon were removed from the list, which now result in Missingno. Mew, the last Pokémon added to the game, is number #21, because it was fit into one of these empty spaces.'
-  translation: 在红·绿中，所有宝可梦都有一个隐藏的索引编号，用于在游戏ROM中识别它们，这个编号与它们在宝可梦图鉴App中的编号不同。这个编号系统似乎与宝可梦被创作出来的顺序有一定关联。然而，这份列表确实存在一些不规则之处，比如有些位置因为宝可梦被从列表中移除而空了出来，如今这些空缺导致了Missingno的出现。超梦作为最后被加入游戏的宝可梦，编号是#21，因为它被塞进了其中一个空缺位置。
+  translation: "在红·绿中，所有宝可梦都有一个隐藏的索引编号，用于在游戏ROM中识别它们，这个编号与它们在宝可梦图鉴中的编号不同。这个编号系统似乎与宝可梦被创作出来的顺序有一定关联。然而，这份列表确实存在一些不规则之处，比如有些位置因为宝可梦被从列表中移除而空了出来，如今这些空缺导致了Missingno的出现。梦幻作为最后被加入游戏的宝可梦，编号是#21，因为它被塞进了其中一个空缺位置。"
   note: Missingno是红·绿中因数据空缺而出现的故障宝可梦。
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/017.png
   alt: Early Concept Art
 - original: 'Rhydon, Clefairy, and Lapras, who Sugimori previously mentioned were the first Pokémon to be created, are #1, #4, and #19, respectively. Other Pokémon whose early conception is evidenced by their appearance in this planning document are Nidoran ♂ (#3), Slowbro (#8), Gengar (#14), Gastly (#25), Staryu (#27), and Blastoise (#28). While only some of these Pokémon could be said to be similar to dinosaurs, many other early-numbered creatures such as Kangaskhan (#2), Nidoking (#7), Ivysaur (#9), Nidoqueen (#16), and Gyarados (#22) seem to adhere to this principle.'
-  translation: 杉森建之前提到的最早被创作出来的宝可梦——独角犀牛、皮皮和拉普拉斯，编号分别是#1、#4和#19。其他因出现在这份企划文档中而证明其早期构思的宝可梦还有尼多朗♂（#3）、呆壳兽（#8）、耿鬼（#14）、鬼斯（#25）、海星星（#27）和水箭龟（#28）。虽然这些宝可梦中只有一部分可以说与恐龙相似，但许多其他编号靠前的生物，如袋兽（#2）、尼多王（#7）、妙蛙草（#9）、尼多后（#16）和暴鲤龙（#22），似乎也遵循这一原则。
+  translation: "杉森建之前提到的最早被创作出来的宝可梦——钻角犀兽、皮皮和拉普拉斯，编号分别是#1、#4和#19。其他因出现在这份企划文档中而证明其早期构思的宝可梦还有尼多朗♂（#3）、呆壳兽（#8）、耿鬼（#14）、鬼斯（#25）、海星星（#27）和水箭龟（#28）。虽然这些宝可梦中只有一部分可以说与恐龙相似，但许多其他编号靠前的生物，如袋兽（#2）、尼多王（#7）、妙蛙草（#9）、尼多后（#16）和暴鲤龙（#22），似乎也遵循这一原则。"
 - type: heading
   level: 2
   original: Trading Pokémon
@@ -366,12 +368,12 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/026.png
   alt: Early Concept Art
 - original: The lone hotel in RGB is located in Celadon City. It shares the same tileset as the game’s Pokémon Centers, including the counter, floor tiles, palm trees, and couch.
-  translation: 在《宝可梦 红·绿》中，唯一的旅馆位于彩虹市。它与游戏中的宝可梦中心使用同一套图块，包括柜台、地板砖、棕榈树和沙发。
+  translation: "在《宝可梦 红·绿》中，唯一的旅馆位于玉虹市。它与游戏中的宝可梦中心使用同一套图块，包括柜台、地板砖、棕榈树和沙发。"
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/027.png
   alt: Early Concept Art
 - original: The Celadon Hotel and the player’s house are also the only buildings in the game, aside from Pokémon Centers, to have PCs. (However, the player’s PC can only be used to store items.) If you don’t remember the PC in the hotel, that’s because it’s invisible. It sits at the far right of the lobby, in the same position you would expect to find it in a Pokémon Center. Players can access the PC by pressing A while standing in the position shown in the screenshot above. It was later removed in Pokémon Yellow.
-  translation: 彩虹市旅馆和玩家家中也是游戏中除宝可梦中心外仅有的拥有电脑的建筑。（不过，玩家的电脑只能用来存放物品。）如果你不记得旅馆里的电脑，那是因为它是隐形的。它位于大堂最右侧，就在宝可梦中心里你会预期找到它的同一位置。玩家站在上图所示位置按下A键即可访问电脑。该电脑后来在《宝可梦 皮卡丘》中被移除。
+  translation: "玉虹市旅馆和玩家家中也是游戏中除宝可梦中心外仅有的拥有电脑的建筑。（不过，玩家的电脑只能用来存放物品。）如果你不记得旅馆里的电脑，那是因为它是隐形的。它位于大堂最右侧，就在宝可梦中心里你会预期找到它的同一位置。玩家站在上图所示位置按下A键即可访问电脑。该电脑后来在《宝可梦 皮卡丘》中被移除。"
 - type: heading
   level: 2
   original: Catching Pokémon
@@ -418,7 +420,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/033.jpg
   alt: Early Concept Art
 - original: Kabiin’s name is reminiscent of Snorlax’s Japanese name, Kabigon. They say that Kabigon is modeled on a Pokémon developer named Koji Nishino, who appears in the picture above. It seems like Snorlax’s Japanese name stems from the fact that it will eat anything, including things with mold (黴 “kabi”) growing on them. Thus, it may be that this joke Pokémon is a caricature of Nishino as well. What its battle commands mean, however, I haven’t the faintest idea.
-  translation: Kabiin的名字让人联想到卡比兽的日文名Kabigon。据说Kabigon是以一位名叫西野浩二的宝可梦开发者为原型，他出现在上面的图片中。卡比兽的日文名似乎源于它会吃任何东西，包括长霉（黴“kabi”）的东西。因此，这个玩笑宝可梦可能也是对西野的讽刺画。不过，它的战斗指令是什么意思，我完全不知道。
+  translation: "Kabiin的名字让人联想到卡比兽的日文名Kabigon。据说Kabigon是以一位名叫西野弘二的宝可梦开发者为原型，他出现在上面的图片中。卡比兽的日文名似乎源于它会吃任何东西，包括长霉（黴“kabi”）的东西。因此，这个玩笑宝可梦可能也是对西野的讽刺画。不过，它的战斗指令是什么意思，我完全不知道。"
   note: 西野浩二是Game Freak的程序员，卡比兽的日文名Kabigon据传源自他的姓氏。
 - original: As you can see from the storyboards, the animations and sound-effects here are pretty much identical to those of the released game.
   translation: 从分镜图可以看出，这里的动画和音效与发售版游戏几乎完全相同。
@@ -446,7 +448,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/035.jpg
   alt: Early Concept Art
 - original: The idea of buying and selling Pokémon was never really fleshed out in Generation 1. The only way to “buy” Pokémon is to trade your game tokens for them at the Celadon City Game Corner’s prize exchange. The con man on the route to Mount Moon also offers to sell the player a Magikarp for 500. (Remember, that’s about $5 in American currency.)
-  translation: 买卖宝可梦的想法在第一世代中从未真正得到充实。唯一“购买”宝可梦的方式，是在彩虹市的游戏城奖品兑换处用游戏代币换取。通往月见山路上那个骗子也提出以500元卖给玩家一只鲤鱼王。（记住，这大约相当于5美元。）
+  translation: "买卖宝可梦的想法在第一世代中从未真正得到充实。唯一“购买”宝可梦的方式，是在玉虹市的游戏城奖品兑换处用游戏代币换取。通往月见山路上那个骗子也提出以500元卖给玩家一只鲤鱼王。（记住，这大约相当于5美元。）"
 - type: heading
   level: 2
   original: Status Screen
@@ -557,7 +559,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/047.jpg
   alt: Early Concept Art
 - original: From left to right, we see Poliwag, Nyoroppi, and Nyousuka.
-  translation: 从左到右，我们看到的是蚊香蝌蚪、ニョロッピ和ニョウスカ。
+  translation: "从左到右，我们看到的是蚊香蝌蚪、Nyoroppi和Nyousuka。"
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/048.jpg
   alt: Early Concept Art
@@ -594,7 +596,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/052.png
   alt: Early Concept Art
 - original: 'Likewise, Poliwhirl is introduced as Nyoroppi, but its final Japanese name is Nyorozo. Poliwrath is introduced as Nyosuka, even though its final Japanese name is Nyorobon. The appearance of Poliwag’s evolutionary line did not change as much as Weedle’s. However, Poliwrath’s final design does not feature a crown. Interestingly enough, using the King’s Rock item on Poliwhirl will cause it to evolve into Polytoed, one of Poliwag’s two final forms. King’s Rock looks like this:'
-  translation: 同样，蚊香君被介绍为Nyoroppi，但它的最终日文名是Nyorozo。蚊香泳士被介绍为Nyosuka，尽管它的最终日文名是Nyorobon。蚊香蝌蚪的进化线外观变化没有独角虫那么大。然而，蚊香泳士的最终设计没有王冠。有趣的是，对蚊香君使用国王宝可梦道具会使其进化为Polytoed，这是蚊香蝌蚪的两种最终形态之一。国王宝可梦看起来像这样：
+  translation: "同样，蚊香君被介绍为Nyoroppi，但它的最终日文名是Nyorozo。蚊香泳士被介绍为Nyosuka，尽管它的最终日文名是Nyorobon。蚊香蝌蚪的进化线外观变化没有独角虫那么大。然而，蚊香泳士的最终设计没有王冠。有趣的是，对蚊香君使用王者之证会使其进化为蚊香蛙皇，这是蚊香蝌蚪的两种最终形态之一。王者之证看起来像这样："
   note: 国王宝可梦（King's Rock）是第二世代引入的进化道具，用于让蚊香君进化为蚊香蛙皇。
 - original: Dratini, Dragonair, Dragonite
   translation: 迷你龙、哈克龙、快龙
@@ -602,7 +604,7 @@ parallel_items:
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/053.jpg
   alt: Early Concept Art
 - original: 'In this picture, Dragonair lacks the blue baubles on its tail. Instead, it has two antenna-like streamers attached to its head, and a scaly ridge down its back. While we lack early images for Dratini and Dragonite, we have evidence to presume that this ridge was a feature of Dratini’s evolutionary line. Namely, the fact that it is preserved in the sprite art. This is what Dragonite’s front sprite looks like in Pokémon Green the Japanese version of Red:'
-  translation: 在这张图中，哈克龙的尾巴上没有蓝色的圆球。取而代之的是，它的头上附有两条类似触角的飘带，背部有一道鳞状脊。虽然我们缺少迷你龙和快龙的早期图像，但有证据可以推测这道脊是迷你龙进化线的特征。也就是说，它在精灵图中被保留了下来。这是快龙在日本版《红》的《绿》中的正面精灵图的样子：
+  translation: "在这张图中，哈克龙的尾巴上没有蓝色的圆球。取而代之的是，它的头上附有两条类似触角的飘带，背部有一道鳞状脊。虽然我们缺少迷你龙和快龙的早期图像，但有证据可以推测这道脊是迷你龙进化线的特征。也就是说，它在精灵图中被保留了下来。这是快龙在日版《绿》（对应英文版《红》）中的正面精灵图的样子："
 - type: image
   image: /assets/img/interviews/2013-05-29-interview-glitterberri-early-concept-art/054.png
   alt: Early Concept Art

@@ -38,6 +38,11 @@ entities:
   - 松岛贤二
   - 一之濑刚
   - 大村祐介
+  - 藤原基史
+  works:
+  - 宝可梦 黑·白
+  - 宝可梦 黑2·白2
+  - 宝可梦AR搜寻器
   organizations:
   - Game Freak
   - Nintendo
@@ -135,7 +140,7 @@ parallel_items:
   note: 《酋雷姆VS圣剑士凯路迪欧》是宝可梦系列第15部剧场版，于2012年上映。
 - type: paragraph
   original: (同時上映「メロエッタのキラキラリサイタル」)』の公開が控えております！
-  translation: （同时上映《美洛耶塔的闪亮独奏会》）即将上映！
+  translation: "（同时上映《美洛耶塔的闪亮独唱会》）即将上映！"
   note: 《美洛耶塔的闪亮独奏会》是2012年剧场版的短篇附映。
 - type: paragraph
   original: また、夏から秋にかけて、上記以外にも皆様に楽しんで頂けるようなイベントが
@@ -276,13 +281,13 @@ parallel_items:
   translation: 社内宝可梦对战大会 后续
 - type: paragraph
   original: みなさん、こんにちは！ほずです。
-  translation: 大家好！我是穗。
+  translation: "大家好！我是ほず。"
   speaker: ほず
   note: ほず为GAME FREAK员工，可能是开发团队成员。
   role: answer
 - type: paragraph
   original: 今回は、 先日、めめたがご紹介した社内ポケモンバトル大会 の
-  translation: 这次，我想向大家汇报一下前几天梅梅特介绍过的社内宝可梦对战大会的
+  translation: "这次，我想向大家汇报一下前几天めめた介绍过的社内宝可梦对战大会的"
   speaker: ほず
   note: めめた为GAME FREAK员工，可能是开发团队成员。
   role: answer
@@ -372,7 +377,7 @@ parallel_items:
   translation: 许多员工被高手的对战深深吸引，
 - type: paragraph
   original: いつの間にかコメットにはこんなに人だかりが！！
-  translation: 不知不觉间，科美特（公司内）已经围了这么多人！！
+  translation: "不知不觉间，彗星那里已经围了这么多人！！"
   note: 科美特（コメット）可能指GAME FREAK公司内的某个区域或会议室，此处保留音译。
 - type: paragraph
   original: …そしてついに！
@@ -449,7 +454,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」の販売本数が500万本を突破しました！
-  translation: 《宝可梦 黑／白》的累计销量已突破500万份！
+  translation: "《宝可梦 黑·白》的累计销量已突破500万份！"
   speaker: 卡妮子
   note: 《宝可梦 黑／白》：2010年发售的NDS游戏，是宝可梦系列第五世代作品。
   role: answer
@@ -508,7 +513,7 @@ parallel_items:
   translation: 社内宝可梦对战大赛 开幕！
 - type: paragraph
   original: みなさんこんにちはー、めめたです！
-  translation: 大家好～我是梅梅塔！
+  translation: "大家好～我是めめた！"
   speaker: めめた
   note: めめた是GAME FREAK员工的昵称，具体身份不详。
   role: answer
@@ -611,7 +616,7 @@ parallel_items:
   translation: 大家好久不见。
 - type: paragraph
   original: ナギーです。
-  translation: 我是娜琪。
+  translation: "我是ナギー。"
   speaker: ナギー
   note: ナギー是GAME FREAK的开发人员，此处为自我介绍。
   role: answer
@@ -646,7 +651,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 何と、このセットにはつるの剛士さんと一緒に手順を覚えられる「遊び方DVD」が付いているんです！
-  translation: 令人惊讶的是，这个套装中附带了可以跟着つるの剛士先生一起学习步骤的“玩法DVD”！
+  translation: "令人惊讶的是，这个套装中附带了可以跟着鹤野刚士先生一起学习步骤的“玩法DVD”！"
   speaker: ナギー
   note: つるの剛士是日本艺人，曾参与宝可梦相关活动。
   role: answer
@@ -658,7 +663,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 行っているのですが、今回はDVDを見ながら、カードを触りつつ
-  translation: 我们正在进行中，但这次是边看DVD边接触卡片，
+  translation: "一直是这样做的，但这次是一边看DVD，一边动手摆弄卡片，"
 - type: paragraph
   original: 手順を覚えてもらいました。
   translation: 让大家记住操作步骤。
@@ -763,14 +768,14 @@ parallel_items:
   translation: 2010年
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」のつくりかた　9(最終回)
-  translation: 《宝可梦 黑/白》的开发秘闻 9（最终回）
+  translation: "《宝可梦 黑·白》的制作方法 9（最终回）"
 - type: paragraph
   original: こんにちは、にょろリカです。
   translation: 大家好，我是Nyororika。
   note: にょろリカ为作者笔名，可能为游戏媒体编辑。
 - type: paragraph
   original: 10月1日からスタートした「ポケットモンスターブラック・ホワイト」
-  translation: 自10月1日发售的《宝可梦 黑/白》
+  translation: "自10月1日开始的《宝可梦 黑·白》"
 - type: paragraph
   original: 開発者インタビューも、今日で最終回となりました。
   translation: 开发者访谈也在今天迎来了最终回。
@@ -785,7 +790,7 @@ parallel_items:
   translation: 无论是已经通关的玩家，还是仍在游玩中的玩家，亦或是即将开始游玩的玩家，
 - type: paragraph
   original: いう方も、「ポケットモンスターブラック・ホワイト」の遊び方の参考に
-  translation: 希望这些感言能成为大家游玩《宝可梦 黑/白》的参考，
+  translation: "希望这些感言能成为大家游玩《宝可梦 黑·白》的参考，"
 - type: paragraph
   original: なれば幸いです！
   translation: 那将不胜荣幸！
@@ -839,7 +844,7 @@ parallel_items:
   note: カビ为GAME FREAK的开发人员，具体身份未公开。
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」では、バトル
-  translation: 在《宝可梦 黑/白》中，我负责了战斗
+  translation: "在《宝可梦 黑·白》中，我负责了战斗"
 - type: paragraph
   original: ゲームデザインと、ポケモン＆トレーナーのパラメータ
   translation: 游戏设计以及宝可梦和训练家的参数
@@ -875,7 +880,7 @@ parallel_items:
   translation: 【图形设计师篇】
 - type: paragraph
   original: ■グラフィックデザイナーのふじわらもとふみです。
-  translation: ■我是图形设计师藤原基文。
+  translation: "■我是图形设计师藤原基史。"
   note: 藤原基文（ふじわらもとふみ）是GAME FREAK的图形设计师，曾参与多款宝可梦游戏的开发。
 - type: paragraph
   original: 今回はバトルのエフェクトをメインで担当しました。
@@ -894,7 +899,7 @@ parallel_items:
   translation: 请开启特效亲自确认一下吧。
 - type: paragraph
   original: ■グラフィックデザイナーのああああです。
-  translation: ■我是图形设计师，啊啊啊。
+  translation: "■我是图形设计师啊啊啊啊。"
   note: 此处“ああああ”为化名或昵称，保留原文风格。
 - type: paragraph
   original: 3Dマップ作成を主に担当しました。
@@ -931,7 +936,7 @@ parallel_items:
   translation: 发售的《宝可梦 黑·白》，
 - type: paragraph
   original: 前述したどのポケモンシリーズよりも『進化した戦闘画面に
-  translation: 要比前述任何宝可梦系列都更加“进化的战斗画面”，
+  translation: "打造成比前述任何宝可梦系列都更“进化”的战斗画面，"
 - type: paragraph
   original: する』事でした。
   translation: 这一点。
@@ -1080,7 +1085,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」を遊んでいただくことが、私たちの想いが一番伝わる方法ではないかと思います。
-  translation: 但我想，亲自游玩《宝可梦 黑/白》才是最能传达我们心意的方式。
+  translation: "但我想，亲自游玩《宝可梦 黑·白》才是最能传达我们心意的方式。"
   speaker: 一之濑刚
   role: answer
 - type: paragraph
@@ -1100,7 +1105,7 @@ parallel_items:
   translation: '2010'
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」のつくりかた　8
-  translation: 《宝可梦 黑／白》的开发秘闻 8
+  translation: "《宝可梦 黑·白》的制作方法 8"
   note: 这是系列访谈的第八篇。
 - type: paragraph
   original: こんにちは、にょろリカです。
@@ -1111,7 +1116,7 @@ parallel_items:
   translation: 最近，我身边感冒肆虐，大家还好吗？
 - type: paragraph
   original: さて、今回の「ポケットモンスターブラック・ホワイト」開発者インタビューは、
-  translation: 那么，本次《宝可梦 黑／白》开发者访谈，
+  translation: "那么，本次《宝可梦 黑·白》开发者访谈，"
 - type: paragraph
   original: 情報管理グループ・ユーリーのお話をお届けします。
   translation: 将为大家带来信息管理组的Yuri的分享。
@@ -1191,26 +1196,26 @@ parallel_items:
   translation: 关于“宝可梦的动作方式”，你们是如何进行监修的呢？
 - type: paragraph
   original: “動き方”に関しては、基本的には「デザイナーが考えた
-  translation: 关于“动作方式”，基本上我们会确认“是否符合设计师所考虑的设定”，
+  translation: "关于“动作方式”，基本上是确认“有没有按照设计师所考虑的"
 - type: paragraph
   original: 設定どおりに動いているか？」というところを確認していますが、
-  translation: 关于“动作方式”，基本上我们会确认“是否符合设计师所考虑的设定”，
+  translation: "设定在动”，不过"
 - type: paragraph
   original: モチーフが明らかに分かっている場合、たとえばガマガルなら
   translation: 如果原型很明显，比如蓝蟾蜍，
   note: ガマガル：蓝蟾蜍，合众地区宝可梦，原型为蟾蜍。
 - type: paragraph
   original: 「誰が見てもカエルを容易に連想できるかどうか」にポイントを
-  translation: 重点在于“是否能让任何人轻易联想到青蛙”。
+  translation: "我们会把重点放在“是否谁看了都能轻易联想到青蛙”"
 - type: paragraph
   original: 置いています。
-  translation: 我们重点在于“是否能让任何人轻易联想到青蛙”。
+  translation: "上。"
 - type: paragraph
   original: どうしても分からない場合は、デザイナーに「このポケモンって
-  translation: 如果实在不明白，我们会问设计师“这只宝可梦是什么样的生物？”
+  translation: "实在看不明白的时候，我们会问设计师“这只宝可梦"
 - type: paragraph
   original: どんな生き物なの？」などと確認するのですが、どう動かすのが
-  translation: 如果实在不明白，我们会问设计师“这只宝可梦是什么样的生物？”之类的问题，但关于如何让它动起来最合适，
+  translation: "是什么样的生物？”之类的问题，但究竟怎么动才最合适，"
 - type: paragraph
   original: 最適なのかは、情報管理グループ内でもいろいろ意見が分かれました。
   translation: 在信息管理小组内部也有各种意见分歧。
@@ -1229,10 +1234,10 @@ parallel_items:
   translation: 我感到很惊讶。
 - type: paragraph
   original: 「まばたき」をするときの目の設定があっても、「ねむり」の表現が
-  translation: 因为即使有“眨眼”时的眼睛设定，也往往没有“睡眠”的表现。
+  translation: "即使有“眨眼”时的眼睛设定，"
 - type: paragraph
   original: ないこともあって。
-  translation: 因为即使有“眨眼”时的眼睛设定，也往往没有“睡眠”的表现。
+  translation: "有时也没有“睡眠”的表现。"
 - type: paragraph
   original: そういう場合は、アートディレクターの杉森に相談をして、新しい設定を
   translation: "这种情况下，我们会与美术总监杉森商量，并添加新的设定。"
@@ -1260,7 +1265,7 @@ parallel_items:
   translation: 这两种宝可梦在监修之前，会在地面上蹦蹦跳跳的（笑），所以我让策划人员把它们改成了不会跳跃的样子。
 - type: paragraph
   original: ―ミュージカルでディグダがどんな登場の仕方をするのか、
-  translation: ——那么，在音乐剧中，地鼠是如何登场的呢？
+  translation: "——音乐剧里地鼠是以什么方式登场的，"
 - type: paragraph
   original: あとで確認してみます！
   translation: 稍后我会确认一下！
@@ -1281,7 +1286,7 @@ parallel_items:
   translation: 如果大家能仔细品味每一个细节，我们会非常高兴！
 - type: paragraph
   original: ユーリーでした！
-  translation: 我是尤莉！
+  translation: "我是Yuri！"
   note: ユーリー（尤莉）是本文作者或采访者使用的笔名或昵称。
 - type: paragraph
   original: '12'
@@ -1295,7 +1300,7 @@ parallel_items:
   translation: 2010年
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」のつくりかた　7
-  translation: 《宝可梦 黑／白》的开发秘闻 7
+  translation: "《宝可梦 黑·白》的制作方法 7"
   note: 这是系列访谈的第七回。
 - type: paragraph
   original: こんにちは、にょろリカです。
@@ -1303,7 +1308,7 @@ parallel_items:
   note: にょろリカ（Nyororika）是作者或采访者的笔名。
 - type: paragraph
   original: 10月1日からスタートした「ポケットモンスターブラック・ホワイト」
-  translation: 自10月1日开始的《宝可梦 黑／白》
+  translation: "自10月1日开始的《宝可梦 黑·白》"
 - type: paragraph
   original: 開発者インタビューも残すところあと2回となりました。
   translation: 开发者访谈也只剩下最后两回了。
@@ -1424,35 +1429,35 @@ parallel_items:
   translation: 从那以后就很快了。比如不加打理的头发，还有“他大概是这种性格吧？”之类的想法不断涌现。
 - type: paragraph
   original: ―キャラクターを描くに当たって、誰かモデルがいたり、何かを
-  translation: ——在描绘角色时，是否有以某人为原型，或者参考了什么东西？
+  translation: "——在描绘角色时，是否会以某个人为模特，或者"
   note: 此句为采访者提问，原文未完整，翻译补全了问句。
 - type: paragraph
   original: 参考にすることはありますか？
-  translation: 您会参考什么吗？
+  translation: "参考某些东西呢？"
 - type: paragraph
   original: デザイナーによってスタイルが違うと思うんですけど、私の場合は
   translation: 虽然设计师的风格各不相同，但就我而言，
 - type: paragraph
   original: 特定の人をモデルにしたり、資料の類を参考にすることは
-  translation: 几乎不会以特定人物为模特，或参考资料之类的东西。
+  translation: "以特定的人为模特，或是参考资料之类的做法，"
 - type: paragraph
   original: ほとんどありません。
   translation: 几乎没有。
 - type: paragraph
   original: 実際にある道具をモチーフにした場合や、「普遍的なデザイン
-  translation: 当以实际道具为原型，或存在“普遍设计模式”时，我会查阅资料；
+  translation: "以实际存在的道具为原型时，或是有像“普遍的设计"
 - type: paragraph
   original: パターン」のようなものがある場合などは資料を見ますし、
-  translation: 当以实际道具为原型，或存在“普遍设计模式”时，我会查阅资料；
+  translation: "模式”这样的东西时，我会查阅资料，"
 - type: paragraph
   original: プランナーからのオーダーでモデルとして挙げられた人物がいた
   translation: 如果策划方指定了某位人物作为模特，我当然会去了解，
 - type: paragraph
   original: 場合はもちろんチェックしますが、例えば、衣装の参考として
-  translation: 但比如为了参考服装而翻阅时尚杂志，这种情况几乎没有。
+  translation: "但比如为了参考服装，"
 - type: paragraph
   original: ファッション雑誌を読むようなことはほとんどありません。
-  translation: 但比如为了参考服装而翻阅时尚杂志，这种情况几乎没有。
+  translation: "去读时尚杂志之类的事几乎没有。"
 - type: paragraph
   original: 「世代や時代を問わず、通用するデザイン」を意識しているので、
   translation: 因为我注重“不受世代和时代限制、普遍通用的设计”，
@@ -1461,10 +1466,10 @@ parallel_items:
   translation: 所以对于追逐当下潮流的时尚杂志，我并不太在意。
 - type: paragraph
   original: ―今回のキャラクターで、おおむらさんのお気に入りがいたら
-  translation: ——在这次的角色中，如果您有喜欢的，请告诉我们。
+  translation: "——在这次的角色中，大村先生如果有特别喜欢的，"
 - type: paragraph
   original: 教えてください。
-  translation: ——在这次的角色中，如果您有喜欢的，请告诉我们。
+  translation: "请告诉我们。"
 - type: paragraph
   original: 四天王のシキミです。
   translation: 是四天王的婉龙。
@@ -1519,13 +1524,13 @@ parallel_items:
   translation: '2010'
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」のつくりかた　6
-  translation: 《宝可梦 黑／白》的制作方法 6
+  translation: "《宝可梦 黑·白》的制作方法 6"
 - type: paragraph
   original: こんにちは、Web担当のにょろリカです。
   translation: 大家好，我是网络负责人Nyororika。
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイトのつくりかた」第6回は
-  translation: 《宝可梦 黑／白》的制作方法第6回，
+  translation: "《宝可梦 黑·白》的制作方法第6回，"
 - type: paragraph
   original: プランナー・松島の「ポケモンの設定にまつわる話」を中心にお送りします！
   translation: 主要围绕策划松岛的“关于宝可梦设定的故事”展开！
@@ -1537,7 +1542,7 @@ parallel_items:
   translation: 大家好，我是策划松岛。
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」ではポケモンの設定と
-  translation: 在《宝可梦 黑／白》中，我负责了宝可梦的设定、
+  translation: "在《宝可梦 黑·白》中，我负责了宝可梦的设定、"
 - type: paragraph
   original: ネーミング、ポケモン図鑑、それから、伝説のポケモンに関する
   translation: 命名、宝可梦图鉴，以及与传说宝可梦相关的
@@ -1563,18 +1568,18 @@ parallel_items:
   role: question
 - type: paragraph
   original: 初めて設定を担当したポケモンはセレビィですが、1本のソフトに
-  translation: 我第一次负责设定的宝可梦是时拉比，但真正全面参与一款游戏，
+  translation: "我第一次负责设定的宝可梦是时拉比，而在一款游戏中"
   speaker: 松岛贤二
   note: 时拉比是《宝可梦 金/银》中登场的幻之宝可梦。
   role: answer
 - type: paragraph
   original: 本格的に関わるようになったのは、
-  translation: 是从《宝可梦 红宝石/蓝宝石》开始的。
+  translation: "真正全面参与进来，"
   speaker: 松岛贤二
   role: answer
 - type: paragraph
   original: 「ポケットモンスター ルビー・サファイア」からです。
-  translation: 是从《宝可梦 红宝石/蓝宝石》开始的。
+  translation: "是从《宝可梦 红宝石·蓝宝石》开始的。"
   speaker: 松岛贤二
   role: answer
 - type: paragraph
@@ -1585,23 +1590,23 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 「ポケットモンスター 金・銀」のカントーのシナリオを書いていました。
-  translation: "《宝可梦 金/银》中关都地区的剧本。"
+  translation: "《宝可梦 金·银》中关都地区的剧本。"
   speaker: 松岛贤二
   note: 关都地区是《宝可梦 红/绿》的舞台，在《金/银》中作为冒险的后半部分登场。
   role: answer
 - type: paragraph
   original: ―ポケモンのキャラクターデザインは、グラフィックデザイナー
-  translation: ——宝可梦的角色设计是由图形设计师们提交各种设计稿，
+  translation: "——宝可梦的角色设计会由图形设计师"
   speaker: 提问
   role: question
 - type: paragraph
   original: 全員から様々なデザインが提出されますが、それをもらってから
-  translation: 您是在收到这些设计稿之后，再考虑设定吗？
+  translation: "全员提交各种各样的设计，是在拿到这些之后"
   speaker: 提问
   role: question
 - type: paragraph
   original: 設定を考えるのでしょうか？
-  translation: 您是在收到这些设计稿之后，再考虑设定吗？
+  translation: "才考虑设定的吗？"
   speaker: 提问
   role: question
 - type: paragraph
@@ -1616,13 +1621,13 @@ parallel_items:
   role: answer
 - type: paragraph
   original: デザインしているので、それを聞き出してまとめて、最終的に
-  translation: 所以我会听取他们的想法并进行整理，最后与杉森讨论后决定。
+  translation: "所以我会把他们的想法问出来并整理，最后"
   speaker: 松岛贤二
   note: 杉森指杉森建，宝可梦系列的主要设计师之一。
   role: answer
 - type: paragraph
   original: 杉森と話し合って決めています。
-  translation: 所以我会听取他们的想法并进行整理，最后与杉森讨论后决定。
+  translation: "与杉森商量后决定。"
   speaker: 松岛贤二
   role: answer
 - type: paragraph
@@ -1630,10 +1635,10 @@ parallel_items:
   translation: 宝可梦图鉴的文本，是由我一个人负责的。
 - type: paragraph
   original: ―今回は100種類以上のポケモンが新しく登場したので、名前を
-  translation: ——这次有100多种新的宝可梦登场，光是想想名字就让人头大呢。
+  translation: "——这次新登场的宝可梦有100多种，光是想名字"
 - type: paragraph
   original: 考えるだけで気が遠くなりそうですね。
-  translation: 光是想想就让人头晕目眩呢。
+  translation: "就觉得要晕过去了呢。"
 - type: paragraph
   original: ポケモンの名前や設定はどうやって考えていますか？
   translation: 宝可梦的名字和设定是如何构思的呢？
@@ -1654,10 +1659,10 @@ parallel_items:
   translation: ——在撰写宝可梦图鉴时，有什么特别注意的地方吗？
 - type: paragraph
   original: 今回は100種類以上のポケモンが登場しますが、全体のバランスを
-  translation: 这次有100多种宝可梦登场，我会注意保持整体的平衡。
+  translation: "这次有100多种宝可梦登场，我会尽量让整体"
 - type: paragraph
   original: 取るように心がけています。
-  translation: 我会注意保持整体的平衡。
+  translation: "保持平衡。"
 - type: paragraph
   original: 生き物としてリアリティのあるポケモン…たとえば“こんな
   translation: 作为生物具有真实感的宝可梦……比如“过着这样的生活”或“有这样的行为”，
@@ -1685,10 +1690,10 @@ parallel_items:
   translation: ——您是怎么想到这些的……（笑）。
 - type: paragraph
   original: 私だったら、仮にフンが温かかったとしても、カイロにしようとは
-  translation: 如果是我，就算粪便真的温热，也不会想到拿它当暖手宝吧！
+  translation: "如果是我，就算粪便是温热的，也不会想着"
 - type: paragraph
   original: 思いません！
-  translation: 绝不会！
+  translation: "把它当暖手宝！"
 - type: paragraph
   original: そうですか？
   translation: 是吗？
@@ -1776,7 +1781,7 @@ parallel_items:
   translation: ——我也是，玩游戏时不知不觉就过了好几个小时，
 - type: paragraph
   original: 珍しくないです。この時間が、自分のプラスになるゲームなら大歓迎です！
-  translation: 这种情况并不少见。如果这段时间能对自己有所增益的游戏，我非常欢迎！
+  translation: "这种情况并不少见。如果是能让这段时间成为自己收获的游戏，我非常欢迎！"
 - type: paragraph
   original: では、最後にスタッフボイス読者のみなさんへ
   translation: 那么，最后请对Staff Voice的读者们
