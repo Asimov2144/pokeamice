@@ -43,7 +43,7 @@ parallel_items:
   role: question
 - type: heading
   original: First Experiences & Joining GAME FREAK
-  translation: 第1节：从初代小玩家到入职 GAME FREAK
+  translation: "最初的经历与加入 GAME FREAK"
 - type: dialogue
   speaker: Pokemon.com
   original: What were your first experiences with the Pokémon brand as players? How did you end up working at GAME FREAK?
@@ -52,12 +52,12 @@ parallel_items:
 - type: dialogue
   speaker: 岩尾和昌
   original: I first played the Pokémon Red and Pokémon Green games when I was a kid and enjoyed each entry in the series as a player. When I was in college, I started thinking about what I wanted to do for a career. I played Pokémon Diamond and Pokémon Pearl at the time, and it hit me that the games were really fun and made me realize that games are really great. That was what made me decide I wanted to get into the video game industry. I was looking around at different game companies and found a job posting for GAME FREAK. I applied, was hired, and that's how I got my start.
-  translation: 我小时候第一次玩《宝可梦 赤·绿》，作为玩家享受了系列中的每一款作品。大学时期，我开始思考自己的职业道路。那时我玩了《宝可梦 钻石·珍珠》，深深感受到游戏的乐趣，这让我意识到游戏的伟大之处，也正是这份感动促使我决定投身游戏行业。我在寻找不同的游戏公司时，发现了GAME FREAK的招聘信息，便递交了申请并被录用，这就是我职业生涯的起点。
+  translation: "我小时候第一次玩的是《宝可梦 红·绿》，作为玩家玩过系列中的每一款作品。上大学时，我开始考虑自己想从事什么职业。那时我玩了《宝可梦 钻石·珍珠》，觉得这些游戏真的很有趣，也让我意识到游戏真是太棒了。正是这一点让我决定进入游戏行业。我四处查看各家游戏公司，发现了 GAME FREAK 的招聘信息，就去应聘并被录用了，我的职业生涯就是这样开始的。"
   role: answer
 - type: dialogue
   speaker: 大森滋
   original: My younger brother was the perfect age for Pokémon Red and Pokémon Green when they came out, and I played them with him. I was really surprised that a game where you communicated and traded with other players had appeared. I was in high school at the time. I knew I wanted to work in video games as a game designer, but there weren't a lot of companies at the time that were recruiting for that position. However, I found a job posting at GAME FREAK to the position and applied.
-  translation: 我的弟弟在《宝可梦 赤·绿》发售时正值完美年龄，我与他一同游玩。当时我还在上高中，对于一款能与他人交流并交换宝可梦的游戏的出现感到十分惊讶。那时我已立志成为游戏设计师，但当时招聘该职位的公司并不多。然而，我发现了GAME FREAK的招聘启事，便申请了该职位。
+  translation: "《宝可梦 红·绿》发售时，我弟弟正好是玩它们的年纪，我就和他一起玩了。当时我还在上高中，一款能与其他玩家交流、交换宝可梦的游戏出现，让我很惊讶。我知道自己想做游戏设计师，但当时招聘这个职位的公司并不多。不过，我发现 GAME FREAK 有这个职位的招聘信息，就去应聘了。"
   role: answer
 - type: dialogue
   speaker: Pokemon.com
@@ -80,11 +80,11 @@ parallel_items:
   role: answer
 - type: heading
   original: Developing Pokémon Ultra Sun and Pokémon Ultra Moon
-  translation: 第2节：《究极之日·究极之月》的核心主题与集大成定位
+  translation: "《宝可梦 究极之日·究极之月》的开发"
 - type: dialogue
   speaker: Pokemon.com
   original: 'These games are a bit of a departure from previous follow-up titles like Pokémon Yellow: Special Pikachu Edition, or Pokémon Emerald, which were a single new title. How did you come up with the concept of releasing two new games this time around?'
-  translation: 这两款游戏与之前的后续作品，如《宝可梦 皮卡丘》（黄版）或《宝可梦 绿宝石》有所不同，那些是单一的新作。这次你们是如何构思出同时推出两款新作的概念的呢？
+  translation: "这两款游戏与之前的后续作品有些不同，比如《宝可梦 皮卡丘版》或《宝可梦 绿宝石》，那些都只是单一的新作。这次你们是如何想到同时推出两款新作的呢？"
   role: question
 - type: image
   src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/battle_screen.png
@@ -97,7 +97,7 @@ parallel_items:
   role: answer
 - type: heading
   original: Team Rainbow Rocket & Villain Bosses
-  translation: 第3节：彩虹火箭队诞生与历代反派头目的平行宇宙宿命
+  translation: "彩虹火箭队与反派头目"
 - type: dialogue
   speaker: Pokemon.com
   original: Bringing back so many characters from previous games with Team Rainbow Rocket unifies the Pokémon universe. What led to the decision to bring all these legendary villains together?
@@ -138,7 +138,7 @@ parallel_items:
   role: answer
 - type: heading
   original: Directorial Approaches & Mentorship
-  translation: 第4节：总监导师制与游戏设计哲学的代际传承
+  translation: "总监的做法与指导"
 - type: dialogue
   speaker: Pokemon.com
   original: Mr. Ohmori was the director on Pokémon Omega Ruby and Pokémon Alpha Sapphire, then again on Pokémon Sun and Pokémon Moon, but took a producer role on these games. How did your working relationship function with Mr. Iwao stepping into the director role?
@@ -166,7 +166,7 @@ parallel_items:
   role: answer
 - type: heading
   original: Ultra Beasts, Mantine Surf & Competitive Balance
-  translation: 第5节：究极异兽设计差异、巨翅飞鱼冲浪与对战环境平衡
+  translation: "究极异兽、巨翅飞鱼冲浪与竞技平衡"
 - type: dialogue
   speaker: Pokemon.com
   original: Do you take a different approach when it comes to designing Ultra Beasts than you would with a new Pokémon?
@@ -184,7 +184,7 @@ parallel_items:
 - type: dialogue
   speaker: Pokemon.com
   original: 'Is Mantine Surf an homage to the Surfing Pikachu in Pokémon Yellow: Special Pikachu Edition? Pokémon games have included a lot of minigames over the years. What made you decide to develop Mantine Surf for these titles?'
-  translation: 巨翅飞鱼冲浪是否是对《宝可梦 皮卡丘》（黄版）中冲浪皮卡丘的致敬？多年来，宝可梦游戏包含了许多小游戏。是什么促使您决定在这些作品中开发巨翅飞鱼冲浪？
+  translation: "巨翅飞鱼冲浪是否是对《宝可梦 皮卡丘版》中冲浪皮卡丘的致敬？多年来，宝可梦游戏包含了许多小游戏。是什么促使您决定在这些作品中开发巨翅飞鱼冲浪？"
   role: question
 - type: image
   src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/mantine_surf.jpg
@@ -193,7 +193,7 @@ parallel_items:
 - type: dialogue
   speaker: 岩尾和昌
   original: There were two reasons. One is that we wanted to differentiate the games from Pokémon Sun and Pokémon Moon right from the beginning of the adventure, so we wanted to include a fun minigame that players could experience between the islands. The other reason is that, yes, it was partially an homage to the Surfing Pikachu minigame in Pokémon Yellow. We wanted to take that concept and update it for modern players with more dynamic gameplay and tricks you can pull off.
-  translation: 有两个原因。一是我们希望在冒险一开始就使游戏与《宝可梦 太阳·月亮》区分开来，因此我们想加入一个有趣的迷你游戏，让玩家在岛屿之间旅行时能够体验。另一个原因是，是的，它部分是对《宝可梦 皮卡丘》中冲浪皮卡丘迷你游戏的致敬。我们希望将这一概念进行现代化更新，为现代玩家提供更动态的游戏体验和可完成的技巧动作。
+  translation: "有两个原因。一是我们希望在冒险一开始就使游戏与《宝可梦 太阳·月亮》区分开来，因此我们想加入一个有趣的迷你游戏，让玩家在岛屿之间旅行时能够体验。另一个原因是，是的，它部分是对《宝可梦 皮卡丘版》中冲浪皮卡丘迷你游戏的致敬。我们希望将这一概念进行现代化更新，为现代玩家提供更动态的游戏体验和可完成的技巧动作。"
   role: answer
 - type: dialogue
   speaker: Pokemon.com
@@ -217,11 +217,11 @@ parallel_items:
 - type: dialogue
   speaker: 岩尾和昌
   original: The scenario featuring Team Rainbow Rocket is only accessible after the player completes the main story, so that alone provides a lot of post-game content. There are also new legendary Pokémon to catch through the Ultra Wormhole, the Battle Agency facility, and plenty of side quests that become available after you become the Champion.
-  translation: 涉及彩虹火箭队的剧情只有在玩家完成主线故事后才能解锁，因此这本身就提供了大量的一周目通关后内容。此外，还有通过究极之洞捕捉的新传说宝可梦、对战公司设施，以及成为冠军后可用的众多支线任务。
+  translation: "涉及彩虹火箭队的剧情只有在玩家完成主线故事后才能解锁，因此这本身就提供了大量的一周目通关后内容。此外，还有通过究极之洞捕捉的新传说宝可梦、代理人对战设施，以及成为冠军后可用的众多支线任务。"
   role: answer
 - type: heading
   original: Creative Sparks & Looking Ahead
-  translation: 第6节：创意的源初火花与给全球训练家的话
+  translation: "创意火花与展望未来"
 - type: dialogue
   speaker: Pokemon.com
   original: Where does the original creative spark for a new Pokémon game usually come from? What are the first elements that get decided?
@@ -230,7 +230,7 @@ parallel_items:
 - type: dialogue
   speaker: 大森滋
   original: There isn't a predetermined process for it, but I can explain how I approach things when I'm directing a game. I usually start with the core theme I want to explore. For example, with Pokémon Sun and Pokémon Moon, the theme was “life” and exploring the relationship between humans, nature, and Pokémon. From that central theme, we brainstorm what kind of setting would best fit that theme, which led to the creation of the Alola region based on Hawaii. Then we start thinking about what new gameplay mechanics would support that theme, such as Z-Moves and the Island Challenge.
-  translation: 没有预定的流程，但我可以解释我作为导演时如何处理事情。我通常从想要探索的核心主题开始。例如，对于《宝可梦 太阳·月亮》，主题是“生命”，探索人类、自然和宝可梦之间的关系。从这个核心主题出发，我们集思广益，思考什么样的设定最适合这个主题，这导致了基于夏威夷的阿罗拉地区的创造。然后我们开始考虑支持该主题的新游戏机制，如Z招式和岛屿挑战。
+  translation: "没有预定的流程，但我可以解释我担任总监时是如何着手的。我通常从想要探索的核心主题开始。例如，对于《宝可梦 太阳·月亮》，主题是“生命”，探索人类、自然和宝可梦之间的关系。从这个核心主题出发，我们集思广益，思考什么样的设定最适合这个主题，这导致了基于夏威夷的阿罗拉地区的创造。然后我们开始考虑支持该主题的新游戏机制，如Z招式和岛屿挑战。"
   role: answer
 - type: dialogue
   speaker: Pokemon.com

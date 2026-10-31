@@ -1,6 +1,6 @@
 ---
 layout: interview-editorial
-title: '[访谈翻译] 首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）'
+title: "[访谈翻译] 首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜"
 original_title: 第181回　『ミュウツーの逆襲』前夜
 date: '2009-04-15'
 era: 2007–2010 · DS & Worldwide / 全球拓荒时代

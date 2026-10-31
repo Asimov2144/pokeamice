@@ -108,7 +108,7 @@ parallel_items:
   translation: 队长们：
 - type: paragraph
   original: 'Junichi Masuda : compositeur, programmeur, directeur de rubis jusque XY.'
-  translation: 增田顺一：作曲家、程序员，从《红宝石》到《X/Y》的导演。
+  translation: "增田顺一：作曲家、程序员，从《红宝石》到《X/Y》的总监。"
   speaker: 增田顺一
   role: answer
 - type: paragraph
@@ -129,17 +129,17 @@ parallel_items:
 - type: heading
   level: 4
   original: 'LES MOUSSAILLONS :'
-  translation: 新秀们：
+  translation: "水手们："
   note: 此处“moussaillons”原意为“见习水手”，引申为团队中的新人或年轻成员。
 - type: paragraph
   original: 'Atsuchi Terachi : "field system design".'
-  translation: 寺地篤：负责“场地系统设计”。
+  translation: "寺地惇：负责“场地系统设计”。"
 - type: paragraph
   original: 'Tomoya Takahashi : s''occupe d''animes. Il a bossé sur Pokémon XY et SM en tant que storyboarder, ainsi que sur Pokémon Génération.'
-  translation: 高桥知也：负责动画方面。他曾担任《宝可梦 XY》和《宝可梦 太阳／月亮》的分镜师，并参与了《宝可梦 世代》的制作。
+  translation: "高桥友也：负责动画方面。他曾担任《宝可梦 XY》和《宝可梦 太阳／月亮》的分镜师，并参与了《宝可梦 世代》的制作。"
 - type: paragraph
   original: 'Tamada Sosuke : Programmeur présent depuis la Version Rouge.'
-  translation: 玉田壮介：从《红版》起就参与的程序员。
+  translation: "玉田荘介：从《红版》起就参与的程序员。"
   note: Version Rouge 指《宝可梦 红》（Pokémon Red）。
 - type: paragraph
   original: 'Takao Unno : designer, illustrateur, directeur artistique.'
@@ -209,7 +209,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: "ã\x81\"ã\x81\"ã\x81¯ã\x81¨ã\x81¦ã''ç´ 晴ã'‰ã\x81-ã\x81\"ï1/4\x81 #Périgord #France pic.twitter.com/iZeY21Zgnr"
-  translation: '这里非常晴朗！#佩里戈尔 #法国 图片链接：twitter.com/iZeY21Zgnr'
+  translation: "这里非常美妙！#佩里戈尔 #法国 图片链接：twitter.com/iZeY21Zgnr"
   speaker: 增田顺一
   note: 原文为乱码，根据上下文和标签推断为日语，意为“这里非常晴朗”。
   role: answer
@@ -224,7 +224,7 @@ parallel_items:
   translation: 有一种似曾相识的感觉。
 - type: paragraph
   original: Dans un tweet daté du 31 octobre, Shigeru Ohmori résume bien l'objet de leur visite. " C'était un voyage centré sur l'art pariétal français. Nous avons découvert des fresques pariétales uniques dans des sites tels que Lascaux, Combarelles, Rouffignac, Font de Gaume. "
-  translation: 在10月31日的一条推文中，大森茂很好地总结了他们此行的目的：“这是一次以法国洞穴壁画艺术为中心的旅行。我们在拉斯科、孔巴海尔、鲁菲尼亚克、丰德戈姆等地发现了独特的洞穴壁画。”
+  translation: "在10月31日的一条推文中，大森滋很好地总结了他们此行的目的：“这是一次以法国洞穴壁画艺术为中心的旅行。我们在拉斯科、孔巴海尔、鲁菲尼亚克、丰德戈姆等地发现了独特的洞穴壁画。”"
   speaker: 大森滋
   note: 大森茂（Shigeru Ohmori）是 GAME FREAK 的游戏总监，曾担任《宝可梦 太阳／月亮》等作品的导演。
   role: answer
@@ -242,10 +242,10 @@ parallel_items:
   note: 石原恒和（Tsunekazu Ishihara）是 The Pokémon Company 的社长。"walletman"是调侃其掌管钱包。
 - type: paragraph
   original: En admettant que les studios aient débuté le projet en mars 2017, ça voudrait dire que le Pokémon Switch n'a que 7/8 mois au compteur. Il est pas un peu tard pour les phases de repérages ? Mon avis, c'est qu'avec un voyage aussi ciblé et expéditif, le staff est venu pour rattraper son retard sur un aspect du jeu vis-à-vis duquel ils ne pouvaient pas se documenter depuis l'étranger.
-  translation: 假设工作室在2017年3月启动项目，那意味着 Switch 版宝可梦游戏才开发了七八个月。现在进行实地考察是不是有点晚了？我的看法是，通过这样一次目标明确且高效的旅行，开发团队是为了弥补在某个方面无法从国外获取资料的不足。
+  translation: "假设工作室在2017年3月启动项目，那意味着 Switch 版宝可梦游戏才开发了七八个月。现在进行实地考察是不是有点晚了？我的看法是，这次旅行目标如此明确、行程如此紧凑，说明团队是来追赶进度的：游戏里有一个方面，他们没法在国外查到资料。"
 - type: paragraph
   original: J'ai pris contact avec quelques personnes mises en relation avec le crew Game Freakien . Benjamin Fontaine, journaliste chez France Bleu Périgord n'a pas pu organiser de rencontre directe avec Masuda. Leur échange s'est déroulé par interposition de tweets. Le frenchie a voulu questionner le directeur, mais ce dernier est resté évasif. Masuda semblait content d'échapper à la presse.
-  translation: 我联系了一些与 Game Freak 团队有关的人。France Bleu Périgord 的记者 Benjamin Fontaine 未能安排与增田（Masuda）的直接会面。他们的交流是通过推特间接进行的。这位法国人想采访这位总监，但对方一直含糊其辞。增田似乎很乐意避开媒体。
+  translation: "我联系了一些与 GAME FREAK 团队有关的人。France Bleu Périgord 的记者 Benjamin Fontaine 未能安排与增田（Masuda）的直接会面。他们的交流是通过推特间接进行的。这位法国人想采访这位总监，但对方一直含糊其辞。增田似乎很乐意避开媒体。"
   note: 增田顺一（Junichi Masuda）是 Game Freak 的董事，宝可梦系列的制作人之一。
 - type: paragraph
   original: 'Benjamin m''a alors conseillé de me renseigner auprès de Mathieu, Community Manager de Lascaux, qui a pu échanger frontalement avec Masuda :'
@@ -253,7 +253,7 @@ parallel_items:
   note: 拉斯科（Lascaux）指法国著名的拉斯科洞穴壁画遗址。
 - type: paragraph
   original: '" Junichi Masuda est venu nous rendre visite sur le site de Lascaux 2 le 26 octobre dernier. Il est en effet arrivé avec un petit groupe qui ne m''a pas été présenté. Ils ont pour leur part continué vers l''entrée du site afin de se présenter pour la visite programmée quelques minutes plus tard. Il [Junichi] m''a avoué aimer la Dordogne et vouloir visiter les sites de Lascaux depuis plusieurs années déjà. Ils ne nous ont précisé aucune demande, n''ont fait l''objet d''aucune faveur. La réservation a été faite par leur hôtel. "'
-  translation: “增田顺一先生于去年10月26日来到拉斯科二号遗址参观。他确实和一个小团队一起来，但没有人向我介绍他们。他们随后继续前往遗址入口，准备几分钟后开始的预定参观。他（增田）向我坦言喜欢多尔多涅地区，并且多年来一直想参观拉斯科遗址。他们没有提出任何要求，也没有得到任何特殊照顾。预订是由他们下榻的酒店完成的。”
+  translation: "“增田顺一先生于10月26日来到拉斯科二号遗址参观。他确实和一个小团队一起来，但没有人向我介绍他们。他们随后继续前往遗址入口，准备几分钟后开始的预定参观。他（增田）向我坦言喜欢多尔多涅地区，并且多年来一直想参观拉斯科遗址。他们没有提出任何要求，也没有得到任何特殊照顾。预订是由他们下榻的酒店完成的。”"
   speaker: Mathieu
   note: 拉斯科二号（Lascaux 2）是拉斯科洞穴的复制品，供游客参观。多尔多涅（Dordogne）是法国的一个地区，以史前洞穴艺术闻名。
   role: answer
@@ -285,11 +285,11 @@ parallel_items:
   note: 卡洛斯地区以法国为原型，城都和关都地区以日本为原型。
 - type: paragraph
   original: Un retour dans le passé ? Et si le prochain jeu Pokémon se déroulait dans un passé proche ? Ce serait un essai audacieux et novateur. Game Freak a bien embarqué une chercheuse spécialiste des lieux sacrés de l' ère Meiji . L'idéalisation des Japonais pour la France, ça s'appuie sur quelle période, exactement ? Sur la belle époque. Sur la vision décrite par Proust, sur la fin du 19ème et le début du 20ème. Autrement dit, sur ce qui correspond à l'ère Meiji.
-  translation: "回到过去？如果下一款宝可梦游戏设定在近代会怎样？这将是一次大胆而创新的尝试。GAME FREAK 确实聘请了一位专门研究明治时代圣地的研究员。日本人对法国的理想化，究竟基于哪个时期？基于美好时代，基于普鲁斯特所描绘的愿景，基于19世纪末20世纪初。换句话说，相当于日本的明治时代。"
+  translation: "回到过去？如果下一款宝可梦游戏设定在近代会怎样？这将是一次大胆而创新的尝试。GAME FREAK 确实带上了一位专门研究明治时代圣地的研究员。日本人对法国的理想化，究竟基于哪个时期？基于美好时代，基于普鲁斯特所描绘的愿景，基于19世纪末20世纪初。换句话说，相当于日本的明治时代。"
   note: 这里提到的研究员可能指今泉芳子（Yoshiko Imaizumi），她研究非洲，但此处提到明治时代圣地。普鲁斯特是法国作家，其作品描绘了美好时代。
 - type: paragraph
   original: À moins que l'on ne retourne au temps des cavernes . Après tout, Yoshiko Imaizumi a étudié l'Afrique. Vous commencez à voir les liens ? Et les Pokéballs, ça existait à cette période ? Ça me semble compliqué en terme de capture de pokémonstres, mais allez savoir, le concept serait ultra-intéressant.
-  translation: 除非我们回到洞穴时代。毕竟，今泉芳子研究过非洲。你们开始看到联系了吗？而且，精灵球在那个时代存在吗？就捕捉宝可梦而言，这似乎很复杂，但谁知道呢，这个概念会非常有趣。
+  translation: "除非我们回到洞穴时代。毕竟，今泉宜子研究过非洲。你们开始看到联系了吗？而且，精灵球在那个时代存在吗？就捕捉宝可梦而言，这似乎很复杂，但谁知道呢，这个概念会非常有趣。"
   note: 今泉芳子（Yoshiko Imaizumi）是 Game Freak 的员工，曾参与《宝可梦 太阳/月亮》的开发，研究非洲文化。
 - type: paragraph
   original: Sur ce, je me barre. On se retrouve d'ici quelques mois pour parler de tout ça.
@@ -316,7 +316,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Article très intéressant et très bien écrit !! Ça c'est du Pokemon Trash comme on l'aime :))
-  translation: 文章非常有趣，写得很好！！这就是我们喜欢的宝可梦垃圾（笑）
+  translation: "文章非常有趣，写得很好！！这就是我们喜欢的 Pokémon Trash（笑）"
   speaker: milo
   note: Pokemon Trash 可能指一种幽默或自嘲的说法，指对宝可梦的狂热或吐槽。
   role: answer
@@ -328,13 +328,13 @@ parallel_items:
   role: answer
 - type: paragraph
   original: misako c'est pas la mère de lloyd dans ninjago ?
-  translation: 美沙子不是忍者神龟里劳埃德的妈妈吗？
+  translation: "美沙子不是《乐高幻影忍者》里劳埃德的妈妈吗？"
   speaker: Bafouillafripouille
   note: 此处提到美沙子（Misako）可能是忍者神龟（Ninjago）中的角色，但原文为 ninjago，可能指乐高幻影忍者。
   role: answer
 - type: paragraph
   original: Si on reste dans le principe du voyage inter-dimensionnel je pencherai plus sur un jeu avec plusieurs régions. Et pourquoi pas une nouvelle génération sur une région existante ? Sinnoh par exemple et es nombreuses histoires anciennes nous emmèneraient voyager dans le temps à travers les époques (c'est lépop..... ) je vais trop loin xD Mais bon je délire un peu sur ce genre de scénario.
-  translation: 如果我们坚持跨维度旅行的原则，我更倾向于一个包含多个地区的游戏。为什么不在现有地区上推出新世代呢？比如神奥地区，许多古老的故事会带我们穿越时空（这是史诗……）我想得太远了 xD 不过我对这种剧情有点着迷。
+  translation: "如果我们坚持跨维度旅行的原则，我更倾向于一个包含多个地区的游戏。为什么不在现有地区上推出新世代呢？比如神奥地区，许多古老的故事会带我们穿越时空（这是史诗……）我想得太远了 xD 不过我就是对这种剧情有点胡思乱想。"
   speaker: Nosika
   note: Sinnoh 指神奥地区；'c'est lépop.....' 可能是 'c'est l'épopée' 的缩写，意为史诗。
   role: answer
@@ -349,7 +349,7 @@ parallel_items:
   translation: 好文章
 - type: paragraph
   original: Excellent travail, good job. Ça fait plaisir de voir de tels articles, un joli travail journalistique. Qu'est-ce que ça fait envie, le côté archéologie, quaternaire... J'attends vraiment de l'évolution Pokémon, qu'il nous surprenne. En tout cas il s'inspirent d'une belle région
-  translation: 出色的工作，干得好。看到这样的文章很高兴，这是一项漂亮的新闻工作。考古学、第四纪方面真让人羡慕……我真的很期待宝可梦的进化，希望它能给我们惊喜。无论如何，他们从美丽的地区汲取了灵感。
+  translation: "出色的工作，干得好。看到这样的文章很高兴，这是一项漂亮的新闻工作。考古学、第四纪这些方面真让人向往……我真的很期待宝可梦有所进化，能给我们带来惊喜。无论如何，他们取材于一个很美的地区。"
 - type: paragraph
   original: Kazugaya
   translation: Kazugaya
@@ -357,7 +357,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: La signature sous celle de Masuda c'est bien Sawada Misako 沢田美沙子. Mais Kenji je le vois nulle part...
-  translation: 增田下面的签名确实是泽田美沙子（沢田美沙子）。但健二我哪里都没看到……
+  translation: "增田下面的签名确实是泽田美沙子（沢田美沙子）。但 Kenji 我哪里都没看到……"
   speaker: Kazugaya
   note: 增田指增田顺一，宝可梦系列游戏制作人。
   role: answer
@@ -385,19 +385,19 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Goupelin t'es notre héros, un genre de Colombo des temps modernes. Sinon il me semble avoir vu des espèces de pokeballs antiques dans l'anime...
-  translation: 妖火红狐你是我们的英雄，有点像现代版的科伦坡。另外，我好像在看动画时见过某种古代精灵球……
+  translation: "Goupelin，你是我们的英雄，有点像现代版的科伦坡。另外，我好像在看动画时见过某种古代精灵球……"
   speaker: Ritsuki
   note: Goupelin是用户昵称，此处指该用户。Colombo指《神探可伦坡》中的主角。
   role: answer
 - type: paragraph
   original: Bah avant les pokeballs on utilisais des noigrumes non ?
-  translation: 呃，在精灵球之前，我们不是用球果果吗？
+  translation: "呃，在精灵球之前，我们不是用球果吗？"
   speaker: Loana
   note: Noigrumes是球果果，宝可梦世界中的一种果实，用于制作精灵球。
   role: answer
 - type: paragraph
   original: Du coup, même si je ne nie pas l'existence des noigrumes, ne serait-il pas uchronique d'avoir accès à la dématérialisation du Pokémon à l'état d'énergie, quand l'action se déroule dans le passé ? 3/3
-  translation: 因此，即使我不否认球果果的存在，但当故事发生在过去时，能够将宝可梦转化为能量状态并存储，这难道不是一种时代错乱吗？3/3
+  translation: "因此，即使我不否认球果的存在，但当故事发生在过去时，能够将宝可梦转化为能量状态并存储，这难道不是一种时代错乱吗？3/3"
   speaker: Goupelin
   note: uchronique指时代错乱，即历史虚构。
   role: answer
@@ -411,13 +411,13 @@ parallel_items:
   translation: 必须认识到，这是一项雄心勃勃的技术，只存在于宝可梦的平行世界中（想象一下，如果我们也能使用类似的技术！数百万人的生活将发生改变，经济也将被颠覆）。2/3
 - type: paragraph
   original: Goupelin
-  translation: 妖火红狐
+  translation: "Goupelin"
   speaker: Goupelin
   note: Goupelin 是宝可梦妖火红狐的法文名。
   role: answer
 - type: paragraph
   original: Merci pour le feedback positif, les gars :). @Loana Pokémon devait au tout début s'appeler "Capsule Monsters". Toute l'équation de cet univers repose en effet sur le système de dématérialisation en capsule, inspiré de Dragon Ball (capsule corp.). 1/3
-  translation: 感谢大家的积极反馈 :) @Loana 宝可梦最初本应叫做“胶囊怪兽”。这个世界的整个设定确实基于胶囊化的物质传输系统，灵感来自《龙珠》中的万能胶囊。1/3
+  translation: "感谢大家的积极反馈 :) @Loana 宝可梦最初本应叫做“胶囊怪兽”。这个世界的整个设定确实建立在把物体非物质化后收进胶囊的系统之上，灵感来自《龙珠》（胶囊公司）。1/3"
 - type: paragraph
   original: Pride
   translation: Pride
@@ -448,23 +448,23 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Purée, on se refuse rien chez Game Freak ma parole! C'était un gastronomique ce resto. J'applaudis tout de même le travail de recherche, tu es allé loin. Même s'il y a beaucoup trop de suppositions là dedans, (mauvaise foi - ON) si ça se trouve ce sont juste les peintures qui les intéressait, pour les utiliser ailleurs. Genre dans les cavernes du remake de la 4G.
-  translation: "天哪，GAME FREAK 真是啥都敢干！这家餐厅可是米其林级别的。不过我还是很佩服你的调查工作，你走得很远。尽管这里面有太多猜测，（恶意 - 开启）也许他们只是对画作感兴趣，想用在别的地方，比如第四世代重制版的洞穴里。"
+  translation: "天哪，GAME FREAK 真是什么都不亏待自己啊！这家餐厅可是美食级的。不过我还是要为你的调查工作鼓掌，你挖得很深。尽管里面的猜测实在太多了，（强词夺理 - 开启）说不定他们只是对那些画感兴趣，想用在别的地方，比如第四世代重制版的洞穴里。"
   speaker: c0mpu73rguy
   note: 4G 指第四世代（神奥地区），此处可能指《宝可梦 晶灿钻石／明亮珍珠》的重制。
   role: answer
 - type: paragraph
   original: '@c0mpu73rguy: un voyage qui aura surement couté un chèque à 6 chiffres, ça parait un peu light pour juste regarder des peintures, surtout quand tu sais qu''elles sont en photos sur internet.'
-  translation: '@c0mpu73rguy: 这趟旅行肯定花了六位数的支票，只为看画似乎有点轻率，尤其是你知道网上有这些画的照片。'
+  translation: "@c0mpu73rguy：这趟旅行肯定花了六位数的钱，光是为了看几幅画，理由似乎有点单薄，尤其是你知道网上就有这些画的照片。"
   speaker: Alpha-Aquilae
   role: answer
 - type: paragraph
   original: Bah, c'est ce que je me disais en plus, ils sont dépensiers chez GF ma parole... Dépenser une somme pareille pour regarder des peintures dans des grottes. (Mauvaise foi - OFF) Sinon, trop mignon le pikachu sur la carte.
-  translation: 嗯，我也这么想，Game Freak 真是花钱大手大脚……花那么多钱去看洞穴里的画。（恶意 - 关闭）话说回来，地图上的皮卡丘太可爱了。
+  translation: "嗯，我也这么想，GAME FREAK 的人真是花钱大手大脚……花这么一大笔钱就为了看洞穴里的画。（强词夺理 - 关闭）话说回来，菜单上的皮卡丘太可爱了。"
   speaker: c0mpu73rguy
   role: answer
 - type: paragraph
   original: Après, c'est surement couvert directement par TPCi, et pas par GF, et vu le fric que la licence rapporte, j'imagine que c'est pas ça qui va amputer le budget du jeu pour lequel ils auraient fait le voyage.
-  translation: 不过，这很可能直接由 TPCi 承担，而不是 Game Freak，而且考虑到这个 IP 带来的收入，我想这不会削减他们为旅行所做游戏的预算。
+  translation: "不过，这笔费用多半是由 TPCi 直接承担的，而不是 GAME FREAK，而且考虑到这个 IP 带来的收入，我想这不会挤占他们为之出行的那款游戏的预算。"
   speaker: Alpha-Aquilae
   note: TPCi 指 The Pokémon Company International，负责宝可梦品牌国际运营。
   role: answer
