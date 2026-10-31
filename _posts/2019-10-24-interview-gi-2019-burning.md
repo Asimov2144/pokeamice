@@ -38,6 +38,7 @@ entities:
   people:
   - 增田顺一
   - 大森滋
+  - 西野弘二
   works:
   - 宝可梦 剑·盾
 workflow:
@@ -85,7 +86,7 @@ parallel_items:
 - original: Not a Pokémon, but there is a connection with Kirby you might not expect. The guy at Game Freak, Mr. [Kōji] Nishino, who was the inspiration for Snorlax… Snorlax’s Japanese name is Kabigon… anyway, Nishino was always someone who ate a lot and would go to sleep, and he kind of resembles Snorlax, but in development we would always call him Kirby. So we nicknamed him Kirby, then when we were naming Snorlax, the Japanese name was Kabigon – Kirby or “cubby”…
   role: answer
   speaker: 增田顺一
-  translation: "不是宝可梦，但卡比和宝可梦之间有一段你可能想不到的渊源。GAME FREAK的西野先生，就是卡比兽的灵感来源……卡比兽的日文名叫卡比兽（Kabigon）……总之，西野这个人总是吃很多、然后就去睡觉，长得也有点像卡比兽，但在开发时我们一直管他叫卡比（Kirby）。所以我们给他起了个绰号叫卡比，后来给卡比兽起名时，日文名就是Kabigon——卡比或者“cubby”……"
+  translation: "不是宝可梦，但卡比和宝可梦之间有一段你可能想不到的渊源。GAME FREAK的西野先生，就是卡比兽的灵感来源……卡比兽的日文名叫Kabigon……总之，西野这个人总是吃很多、然后就去睡觉，长得也有点像卡比兽，但在开发时我们一直管他叫卡比（Kirby）。所以我们给他起了个绰号叫卡比，后来给卡比兽起名时，日文名就是Kabigon——卡比或者“cubby”……"
   note: 西野弘一是Game Freak的程序员，卡比兽的日文名Kabigon据称源自他的绰号。
 - original: Speaking of which, the original naming inspiration for Kirby passed away. John Kirby.
   role: answer
@@ -99,7 +100,7 @@ parallel_items:
 - original: '[Laughs] A lot of interesting and mysterious connections between the different things!'
   role: answer
   speaker: 增田顺一
-  translation: ［笑］不同事物之间有很多有趣而神秘的联系！
+  translation: "（笑）不同事物之间有很多有趣而神秘的联系！"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-burning/002.webp
   alt: More Burning Questions For The Pokémon Series
@@ -126,11 +127,11 @@ parallel_items:
 - original: The Pokédex entry does say it crushes trainer’s spines…
   role: question
   speaker: Game Informer
-  translation: 宝可梦图鉴 App 的条目确实说它会压碎训练家的脊椎……
+  translation: "宝可梦图鉴的条目确实说它会压碎训练家的脊椎……"
 - original: In Sword and Shield you’ll see Bewear walking around in the Wild Area and it can be kind of nerve wracking! [Laughs]
   role: answer
   speaker: 大森滋
-  translation: 在《剑／盾》中，你会看到穿着熊在旷野地带走来走去，那可能会让人有点紧张！［笑］
+  translation: "在《剑·盾》中，你会看到穿着熊在旷野地带走来走去，那可能会让人有点紧张！（笑）"
 - original: Are there people out there using older versions of the Pokédex, kind of like how some people use older iPhones?
   role: question
   speaker: Game Informer
@@ -138,7 +139,7 @@ parallel_items:
 - original: Probably. But they’re working off old information. [Laughs]
   role: answer
   speaker: 大森滋
-  translation: 大概吧。不过他们依据的是旧情报。[笑]
+  translation: "大概吧。不过他们依据的是旧情报。（笑）"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-burning/003.webp
   alt: More Burning Questions For The Pokémon Series
@@ -172,7 +173,7 @@ parallel_items:
 - original: '[Laughs] Probably…'
   role: answer
   speaker: 增田顺一
-  translation: '[笑]大概吧……'
+  translation: "（笑）大概吧……"
 - original: Since you worked on Pokémon Go so much, you must know what he does with all those Pokémon you transfer to him, right?
   role: question
   speaker: Game Informer
@@ -207,7 +208,7 @@ parallel_items:
 - original: '[Laughs] I wonder…'
   role: answer
   speaker: 增田顺一
-  translation: '[笑] 我也想知道……'
+  translation: "（笑）我也想知道……"
 - original: 'Can you settle this once and for all: What’s it like inside a Poké Ball?'
   role: question
   speaker: Game Informer
@@ -244,7 +245,7 @@ parallel_items:
 - original: Do you think Lance could take on Leon in Sword and Shield?
   role: question
   speaker: Game Informer
-  translation: 你觉得阿渡能在《剑／盾》里打赢丹帝吗？
+  translation: "你觉得阿渡能在《剑·盾》里打赢丹帝吗？"
   note: 丹帝是《宝可梦 剑·盾》中伽勒尔地区的冠军。
 - original: I think Leon’s pretty tough… he may have trouble. Leon’s never lost… undefeated… so I think that’s pretty impressive.
   role: answer
@@ -253,7 +254,7 @@ parallel_items:
 - original: In Ultra Sun and Ultra Moon, we saw Team Rainbow Rocket where all the evil team leaders joined up. Do all the professors even meet up like that?
   role: question
   speaker: Game Informer
-  translation: 在《究极之日／究极之月》里，我们看到了彩虹火箭队，所有邪恶组织的首领都聚到了一起。那所有的博士也会像那样聚在一起吗？
+  translation: "在《究极之日·究极之月》里，我们看到了彩虹火箭队，所有邪恶组织的首领都聚到了一起。那所有的博士也会像那样聚在一起吗？"
   note: 彩虹火箭队是《宝可梦 究极之日·究极之月》中登场的组织，集结了历代反派组织的首领。
 - original: That’s kind of hard to think what they would get up to if all the professors got together!
   role: answer
@@ -303,7 +304,7 @@ parallel_items:
 - original: They’re all cute Pokémon, so I’m not sure if I would actually do very well in the gym. [Laughs]
   role: answer
   speaker: 增田顺一
-  translation: 它们都是可爱的宝可梦，所以我不确定自己在道馆里能不能真的打得很好。[笑]
+  translation: "它们都是可爱的宝可梦，所以我不确定自己在道馆里能不能真的打得很好。（笑）"
 - original: And what about you, Ohmori?
   role: question
   speaker: Game Informer
@@ -327,7 +328,7 @@ parallel_items:
 - original: '[Laughs] Then maybe an Oddish? It’s another one that’s probably not going to do very well! [Laughs]'
   role: answer
   speaker: 大森滋
-  translation: ［笑］那也许走路草？它也是那种可能表现不太好的宝可梦！［笑］
+  translation: "（笑）那也许走路草？它也是那种可能表现不太好的宝可梦！（笑）"
 - original: Bulbasaur, Charmander, or Squirtle?
   role: question
   speaker: Game Informer

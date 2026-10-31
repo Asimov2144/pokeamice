@@ -61,23 +61,23 @@ parallel_items:
   caption: Game Freak 专访现场：总监兼执行董事增田顺一（Junichi Masuda）与环境美术设计主管菜花健作（Kensaku Nabana）
 - speaker: Eurogamer
   original: Two decades on from Pokémon Red and Blue's arrival here in the west, we're going back to Kanto once again. Pokémon Let's Go have made big changes - some proving more popular than others in the lead up to its release - but there's still a lingering sense that, with just the first generation of Pokémon available, in the first region, we've seen it all before. A couple of weeks ago, alongside an extended hands-on preview of Let's Go Pikachu and Eevee, we talked to Junichi Masuda, executive director and head of game development at Pokémon's main studio Game Freak, as well as fellow designer Kensaku Nabana, about some of the nitty gritty details fans are always after, including how that whole Meltan reveal came about, HMs, and those perpetual questions of difficulty, open worlds, and the series' future.
-  translation: "在《宝可梦 红／蓝》登陆西方整整二十年之后，我们再度重返一切梦开始的地方——关都地区。《宝可梦 Let's Go！皮卡丘／Let's Go！伊布》带来了大刀阔斧的革新与颠覆——在发售前的预热期中，某些改动备受好评，而另一些则引发了玩家社群的激烈争论；但也不乏有人隐隐担忧：仅仅收录第一世代的宝可梦、重游最初的关都大陆，是否只是在炒冷饭？数周前，在《Let's Go》的超长实机试玩体验之余，我们与 GAME FREAK 执行董事兼游戏开发负责人增田顺一，以及环境美术主设计师菜花健作坐在一起，深入探讨了玩家们最为关切的硬核细节：包括新宝可梦‘美录坦’横空出世背后的悬疑策划、秘传学习器的废除、饱受讨论的难度曲线，以及系列迈向全开放世界的宏大未来。"
+  translation: "在《宝可梦 红·蓝》登陆西方二十年之后，我们再次回到了关都。《宝可梦 Let's Go！皮卡丘／Let's Go！伊布》做出了很大的改动——在发售前，其中一些改动比另一些更受欢迎——但仍有一种挥之不去的感觉：只有第一世代的宝可梦，只在第一个地区，这些我们以前都见过了。几周前，在长时间试玩《Let's Go！皮卡丘／伊布》之余，我们采访了宝可梦主要开发商 GAME FREAK 的执行董事兼游戏开发负责人增田顺一，以及同为设计师的菜花健作，请他们谈谈粉丝一直想知道的一些细节，包括美录坦的公布是怎么来的、秘传学习器，以及关于难度、开放世界和系列未来的那些老问题。"
   role: question
 - type: heading
   level: 3
   original: Why Kanto and Yellow? Bringing Pokémon to Kids without Smartphones
-  translation: 重返关都与黄版：让没有智能手机的孩子也能体验宝可梦的纯粹乐趣
+  translation: "为什么是关都和黄版？把宝可梦带给没有智能手机的孩子们"
 - speaker: Eurogamer
   original: So it's been 20 years since the release of Pokémon Red and Blue in the west - 19 here in Europe - so first of all congratulations. Was that anniversary one of the main reasons you chose to set Let's Go in the Kanto region, as a retelling of Pokémon Yellow?
-  translation: 距离《宝可梦 红／蓝》在西方发售已经过去了 20 年（欧洲则是 19 年），首先向你们表示由衷祝贺！这个值得纪念的周年节点，是你们决定将《Let's Go》的舞台重新设定在关都地区、并重构《宝可梦 黄》的最主要原因吗？
+  translation: "《宝可梦 红·蓝》在西方发售至今已经 20 年了——在欧洲是 19 年——所以首先要向你们道贺。这个周年纪念是你们选择把《Let's Go》设定在关都地区、作为《宝可梦 黄》的重新演绎的主要原因之一吗？"
   role: question
 - speaker: 增田顺一
   original: So actually it was more that one of the main targets of these games is kids, who haven't had the opportunity to play Pokémon Go, because you know, they don't have a smartphone, and we thought that amongst all of the previous Pokémon games up until now, the one that's the most relatable to kids like this would be Pokémon Yellow. So you have Pikachu of course as a main feature in these games, and you have Team Rocket, who appears a lot in the anime as well, and so, if we're reimagining - this game we're reimagining Pikachu for modern audiences, we thought that Pokémon Yellow would be kind of the easiest for everyone to relate to, everyone to understand, and then actually we only noticed afterwards that it would be the 20th anniversary of the release of the games, so we thought "Ah great! That lines up very nicely."
-  translation: 其实比起周年纪念，更核心的出发点在于：我们这部作品的首要目标群体之一是现代的孩子们。他们因为没有自己的智能手机，从而错过了亲自游玩《Pokémon GO》的机会。我们回顾了迄今为止的所有历代宝可梦作品，认为对于这些新一代的小朋友而言，最容易产生共鸣、最具亲和力的正是《宝可梦 黄》（皮卡丘版）。在这款作品中，皮卡丘是绝对的核心招牌，并且动画里人气极高的火箭队也会频繁登场。既然我们要在现代主机平台上为新一代玩家重新演绎皮卡丘的魅力，那么以《宝可梦 黄》为蓝本无疑是门槛最低、最容易被所有人理解和接受的方式。事实上，我们是在企划敲定之后才意识到今年恰逢欧美发售 20 周年，当时大家都感慨：‘太棒了！这时间点契合得天衣无缝！’
+  translation: "其实更主要的是，这两款游戏的主要目标之一是孩子们，他们没有机会玩《Pokémon GO》，因为他们没有智能手机。我们觉得，在迄今为止的所有宝可梦游戏里，最容易让这样的孩子产生共鸣的就是《宝可梦 黄》。这两款游戏里皮卡丘当然是主角，还有在动画里也经常登场的火箭队。我们这次是在为现代的玩家重新构想皮卡丘，所以觉得《宝可梦 黄》对所有人来说是最容易产生共鸣、最容易理解的。然后我们是后来才注意到，今年正好是这些游戏发售 20 周年，于是觉得：“啊，太好了！时间正好对上了。”"
   role: answer
 - speaker: Eurogamer
   original: So at the time of course, you had the pixel art, all in black and white and monocolour, but with the new games - so we have the television, which is one of the main ways to play, and you're kind of looking at it from quite close up and seeing the kind of high-quality graphics there, so we want people to experience the difference between the first very simple pixel art and the new high graphics on the big television screen.
-  translation: 当年受限于 Game Boy 硬件，呈现的都是极度简朴的黑白单色像素画；而如今在 Switch 平台，在大屏幕电视上游玩成为了核心场景之一。大家近距离注视着高清细腻的画面，能够深切感受到从最初原始像素到如今客厅大屏高画质的跨越体验。
+  translation: "当时当然是像素画，全都是黑白、单色的；但是新游戏——我们有电视，这是主要的游玩方式之一，你会从相当近的距离看着它，看到高画质的画面，所以我们希望大家体验到最初那种非常简单的像素画，和大电视屏幕上全新的高画质画面之间的差别。"
   role: question
 - type: image
   image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/kanto_map.jpg
@@ -85,24 +85,24 @@ parallel_items:
   caption: 以现代明快色调重新绘制的关都地区全景地图：融合夏日清爽空气与客厅家庭合家欢视觉设计
 - speaker: Eurogamer
   original: So would you say that this is the definitive version of Kanto? Is it close to what you, or Game Freak imagined, when you were first making it back then?
-  translation: "那么在你们看来，这是否称得上是关都地区的‘终极决定版’？它是否已经无限接近于你们与 GAME FREAK 当年在最初制作初代时脑海中所构想的真实世界？"
+  translation: "那么你会说这是关都的决定版吗？它接近你或者 GAME FREAK 当年刚开始制作时所设想的样子吗？"
   role: question
 - speaker: 增田顺一
   original: So this time around, obviously where we're making a game that will be played a lot in the living room on the big television as we mentioned, and the setting of the story is the Kanto region - which is a region in Japan - which is known for, or strongly associated with summer, or having a nice kind of summer atmosphere. This is something that we were always aware of when making this game and also the fact that we didn't want to make it in any way a scary game - we wanted the image to be kind of friendly graphics, things like that. But in terms of things that we've been able to do this time that we weren't at the time, so, you know, we couldn't have everyone coming together playing the game in the living room, you had to kind of play it individually at the time of the original games. But this time around there's various ways you can enjoy it you know you could have friends coming over to your house, playing you know one-player and two-player mode support play, throwing the Pokéball,
     you know there's all sorts of aspects that we were kind of able to be successful with creating this time around, and it feels like it was so easy this time, but at the time of the original games it was impossible to do, so it's a big difference.
-  translation: 这一次，正如前面提到的，我们打造的是一款能够让全家人坐在客厅大电视机前其乐融融畅玩的作品。故事的舞台关都地区，在现实日本地理中有着浓厚的夏日印记，总是让人联想到明媚灿烂、微风拂面的盛夏光景。我们在研发全程始终牢牢把握这种夏日氛围，并且明确绝不把游戏做成任何带有压抑恐怖感的作品——我们渴望传递的是温暖、柔和且充满亲和力的视觉美术。从技术与机制层面而言，当年初代 Game Boy 只能每个人低头独自面对掌机屏幕，根本无法实现全家围坐客厅共享欢乐；而这一次，朋友来你家做客时，可以随时拔出另一枚手柄加入双人协助模式，一同甩动手臂投掷精灵球捕捉宝可梦。这一切在如今看来如此自然顺畅，但放在当年是不可想象的飞跃。
+  translation: "这一次，正如我们提到的，我们做的是一款会在客厅的大电视上玩得比较多的游戏，而故事的舞台是关都地区——日本的一个地区——它以夏天、或者说与夏日氛围联系紧密而闻名。我们在做这款游戏时一直都意识到这一点，另外我们也完全不想把它做成一款吓人的游戏——我们想要的是比较亲切友好的画面之类的。至于这次我们能做到而当时做不到的事情，比如当时不可能让大家聚在客厅里一起玩，原版游戏的时候你只能一个人玩。但这一次有各种各样的玩法，比如朋友来到你家，一起玩单人和双人模式下的协助游玩、投掷精灵球，等等，这次我们在很多方面都做成了，感觉做起来很容易，但在原版游戏的时候是不可能做到的，所以差别很大。"
   role: answer
 - type: heading
   level: 3
   original: 'Difficulty and Modern Playstyles: Mobile Habits and Streamlined Traversal'
-  translation: 难度曲线与现代游玩习惯：手游时代的碎片化与流畅的旷野探索
+  translation: "难度与现代玩法：手机游戏的习惯与更顺畅的移动方式"
 - speaker: Eurogamer
   original: So you mentioned not wanting Kanto to be scary, and I know you've talked about Pokémon, and Let's Go in particular, being accessible to new players - are there still puzzles and challenges, things like Strength puzzles in caves, or have you moved away from that entirely now?
-  translation: 你提到不希望关都显得压抑吓人，我也知道你们一直强调《Let's Go》致力于降低新玩家的上手门槛——那么游戏中是否还保留着谜题与挑战？比如过去洞窟里那些需要用‘怪力’推动巨石的机关解谜，还是说你们现在已经彻底抛弃了这种设计？
+  translation: "你提到不想让关都显得吓人，而且我知道你谈到过宝可梦、尤其是《Let's Go》要让新玩家容易上手——那么游戏里还有谜题和挑战吗，比如洞窟里的“怪力”谜题，还是说你们现在已经完全不做这些了？"
   role: question
 - speaker: 增田顺一
   original: So when we tried to think about how kids these days generally play games, what came to mind was mobile games really. Games which you play for a short time, and perhaps you'll be moving between various games pretty quickly, so if it was a game that kind of takes about two hours to get into, we thought that perhaps people might get a bit bored and then decide to move on to a different game. So back in the day, even playing in the virtual console version of the original Pikachu version, it might take you know thirty hours, forty hours to kind of complete, or progress significantly in the game. And in this age with so many games to choose from, we thought that we'd rather make something that was easier to progress through, and kind of tailor that playstyle to how we think that the playstyle has evolved over the years and how children are playing games now.
-  translation: 当我们深入思考当下的孩子们究竟习惯如何玩游戏时，首先映入脑海的其实是手机游戏。如今大家倾向于单次游玩时间较短、在各种不同游戏之间快速切换的游戏习惯。如果一款游戏需要耗费两个多小时枯燥的前戏才能渐入佳境，许多人很可能会失去耐心，转而跳去玩其他应用。当年即使是在 3DS 虚拟主机（VC）上重温初代皮卡丘版，想要通关或者取得实质性推进，通常也需要耗费三四十个小时的硬核摸索。而在当今这个娱乐内容极大丰富、玩家有无数选择的时代，我们更倾向于打造一款能够顺畅推进、节奏明快的作品，以契合时代演进下当代儿童的游玩节奏。
+  translation: "我们思考现在的孩子一般是怎么玩游戏的时候，浮现在脑海里的其实是手机游戏。也就是玩一小会儿，而且可能很快就在各种游戏之间切换的游戏，所以如果一款游戏要花大约两个小时才能进入状态，我们觉得人们也许会有点厌倦，然后决定转去玩别的游戏。当年，即便是在虚拟主机上玩原版的皮卡丘版，要通关，或者在游戏里取得相当大的进展，也可能要花三四十个小时。而在这个有这么多游戏可选的时代，我们觉得与其那样，不如做出更容易推进的东西，让玩法适应我们认为这些年来玩法的演变，以及现在的孩子玩游戏的方式。"
   role: answer
 - type: image
   image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/riding_arcanine.jpg
@@ -110,75 +110,75 @@ parallel_items:
   caption: 在三维关都大地上骑乘风速狗自由疾驰：明雷遇敌与多向全速奔跑彻底打破了传统网格移动的束缚
 - speaker: 增田顺一
   original: In the same vein, back in the day there wasn't any kind of mechanic where you could run anywhere in the games, but now of course with the 3D map you can go diangonally, you can go whichever way you want, you can run, it's faster to actually get around, and with the Pokémon appearing in the field as well, you can choose whether you want to catch the Pokémon or whether you want to avoid them altogether. So we're kind of, you know, bending to the will of the players here, and giving them more options to choose the way to play that's most fun to them.
-  translation: 顺应这种思路，当年初代甚至没有奔跑鞋功能，你只能以固定的缓慢步伐在十字轴向格子里挪动；而现在依托全 3D 地图，你可以任意斜向疾驰，想去哪里就去哪里，甚至能够骑乘喷火龙或风速狗飞速跨越原野。加之野外宝可梦全部改为了明雷可见生态，你可以自主选择是主动靠近捕捉还是直接绕行避开。我们充分尊重玩家的意志与时间，把最舒适、最有趣的游玩方式选择权交还给玩家自己。
+  translation: "同样的道理，当年游戏里没有任何可以到处奔跑的机制，而现在当然有了 3D 地图，你可以斜着走，想往哪个方向走都行，还可以奔跑，到处移动更快；而且宝可梦也出现在野外，你可以选择是要捕捉宝可梦，还是干脆完全避开它们。所以我们算是在顺应玩家的意愿，给他们更多选择，让他们选择对自己来说最有趣的玩法。"
   role: answer
 - type: heading
   level: 3
   original: 'Endgame for Hardcore Fans: Catch Combos and 151 Master Trainers'
-  translation: 老玩家的硬核挑战：连续捕捉连锁与 151 位大师级训练家
+  translation: "给硬核粉丝的终局内容：连续捕捉与 151 位大师级训练家"
 - speaker: Eurogamer
   original: What would you say to those players who are crying out for a bit more of a challenge, maybe adult players who've been playing for these 20 years or who got into it a bit later? Should they wait for next year's RPG instead?
-  translation: 那么对于那些渴望更高难度与严苛挑战的老玩家——比如陪伴了宝可梦整整二十年的成年粉丝，你会对他们说些什么？他们是否应该直接跳过本作，等待明年（2019年）的正统 RPG 新作？
+  translation: "对于那些渴望更多挑战的玩家，比如已经玩了这 20 年、或者入坑稍晚的成年玩家，你想对他们说些什么？他们是不是应该转而等待明年的 RPG？"
   role: question
 - speaker: 增田顺一
   original: So you know to those kinds of fans we'd mention the 'catch combo' mechanic, whereby you catch the same Pokémon multiple times in a row and get various rewards and benefits for that.
-  translation: 针对这部分追求深度的硬核玩家，我们首先推荐的是‘连续捕捉连锁（Catch Combo）’机制。通过连续捕获同一物种的宝可梦，你不仅能获得丰厚的经验与稀有道具奖励，更能大幅提升高个体值、隐藏特性以及异色（Shiny）宝可梦的出现概率。
+  translation: "对于这类粉丝，我们会提到“连续捕捉”（catch combo）机制，也就是连续多次捕捉同一种宝可梦，就能因此获得各种奖励和好处。"
   role: answer
 - speaker: 菜花健作
   original: And also the postgame content as well, in particular the master trainiers - so these are trainers who are kind of the ultimate trainers of a specific Pokémon, so you will challenge them. So you will challenge them, and then get their title for that Pokémon, so you become the master of that Pokémon if you manage to beat them in battle.
-  translation: 此外还有极其充实的一周目通关后终局内容，尤其是‘大师级训练家（Master Trainers）’系统——他们是关都各地潜心将某一种特定宝可梦修行至化境的终极修行者。你必须使用同种宝可梦与他们进行一对一的单挑对决；只要战胜他们，就能夺得该宝可梦的‘大师头衔’，成为无可争议的专属大师。
+  translation: "还有通关后的内容，特别是大师级训练家——这些训练家是某一种特定宝可梦的终极训练家，你要去挑战他们。挑战之后，你就会得到该宝可梦的称号，也就是说，如果你能在战斗中击败他们，你就成为那种宝可梦的大师。"
   role: answer
 - speaker: 增田顺一
   original: So for me, my favourite Pokémon is Psyduck, so I'd be training my Psyduck amazingly and then would challenge the Psyduck Master, and then gain the Psyduck Master title, and that's something you can put a lot of effort and a lot of time into, if I really wanted to create a challenge for myself - and these Master Trainers exist for all of the 151 Pokémon in the game, so you know, if you want to collect all of the titles then that's something you can really challenge yourself with.
-  translation: 比如就我个人而言，我最爱的宝可梦是可达鸭（Psyduck）。我就会倾注全部心血把自己的可达鸭特训到极致强悍，随后去挑战关都大陆上的‘可达鸭大师’，夺得‘可达鸭大师’的崇高荣耀头衔！如果你真想给自己找点硬碰硬的自虐式挑战，这绝对能让你耗费大量精力和战术思考。最关键的是，本作中最初的全部 151 种宝可梦，各自都对应有一位专属大师级训练家！如果你立志收集齐全部 151 个大师头衔，那绝对是一场无比硬核、极其震撼的终极考验。
+  translation: "拿我来说，我最喜欢的宝可梦是可达鸭，所以我会把我的可达鸭训练得非常出色，然后去挑战可达鸭大师，获得可达鸭大师的称号。如果我真想给自己设一个挑战，这是你可以投入大量精力和时间的事情——而且游戏里这 151 种宝可梦全都有对应的大师级训练家，所以如果你想集齐所有称号，那真的可以拿来挑战自己。"
   role: answer
 - type: heading
   level: 3
   original: 'Retiring HMs: Solving the Classic ''Stranded on an Island'' Dilemma'
-  translation: 彻底告别秘传学习器：终结‘被困荒岛无法脱身’的经典死局
+  translation: "告别秘传学习器：解决“困在岛上”这一经典难题"
 - speaker: Eurogamer
   original: We mentioned briefly those HMs like Strength - it's been something that's changed pretty much with every game. Do you feel like you've settled on an implementation of them with Let's Go, with the fan-focused things like surfing Pikachu and flying Pikachu with the balloons?
-  translation: 我们刚才提到了像‘怪力’这样的秘传学习器（HM）——这几乎是每一世代作品都会反复重构的机制。你是否觉得在《Let's Go》中，凭借冲浪皮卡丘、气球飞天皮卡丘这样致敬情怀的搭档秘术，你们终于找到了一个兼顾情怀与实用性的终极解法？
+  translation: "我们刚才简单提到了像“怪力”这样的秘传学习器（HM）——它几乎每一作都在变。你觉得在《Let's Go》里，通过冲浪皮卡丘、带着气球飞行的皮卡丘这些面向粉丝的东西，你们已经确定了它们的实现方式吗？"
   role: question
 - speaker: 增田顺一
   original: So yeah this is something that is tricky every time with every new game. We kind of ask ourselves well, what would you want your Pokémon to be able to do? And this time, because we had the partner Pokémon that was always without you throughout the game, you know we were able to have them have these secret techniques that only your partner can learn. But you know when it comes to the new, or future generations, that would be up to the developer of those games to decide exactly how to implement Hidden Machines. [Laughs] It's... it's a bother every time. It really is difficult. [Laughs]. So sometimes you know players, you become unable to progress in the game or you kind of get stuck somewhere it's... really bothersome. But it would be a bit boring if we just had the player push the blocks themselves!
-  translation: 没错，这在历代每一款新作开发时都是最令人头疼的棘手难题。我们总是在自问：玩家究竟希望自己的宝可梦能为他们做些什么？这一次，因为有一只无论何时都趴在玩家肩头或头顶的专属搭档宝可梦（皮卡丘或伊布），我们得以设计出一套只有搭档才能修习的专属‘秘术’（Secret Techniques）。但至于未来的新世代作品，那就要交由各新作的开发主管去决定具体的落地形式了。【笑】说真的……这玩意儿每次都让人伤透脑筋！因为在传统设计中，玩家很容易陷入死胡同或者卡关无法推进，极其恼人；但如果直接让玩家自己肉身去推开几吨重的巨石，又未免太无趣且破坏宝可梦世界观了！
+  translation: "对，这是每一款新游戏都会让人头疼的事情。我们会问自己，你希望你的宝可梦能做什么？这一次，因为在整个游戏里搭档宝可梦始终与你同行，所以我们能够让它们拥有只有你的搭档才能学会的这些秘术（Secret Techniques）。不过说到新的世代，或者未来的世代，具体怎么实现秘传学习器，就要由那些游戏的开发者来决定了。（笑）每次都很……麻烦。真的很难。（笑）有时候玩家会无法在游戏里推进，或者卡在某个地方，真的……很麻烦。不过，要是让玩家自己去推那些石块，那就有点无聊了！"
   role: answer
 - speaker: Eurogamer
   original: So do you see a future where you just don't have HMs at all, and use another system to manage how players progress?
-  translation: 那么在你的远景规划中，未来是否会彻底剔除秘传学习器机制，改用一套完全不同的系统来引导玩家的探索进程？
+  translation: "那么你觉得未来会出现完全没有秘传学习器、而是用另一套系统来管理玩家推进的游戏吗？"
   role: question
 - speaker: 增田顺一
   original: It's not really like a technical issue that we have with these it's just like you know, if you teach a Pokémon Surf, and then you go out to an island, and then you have your Pokémon forget Surf, and then you're stuck on that island. [Laughs] What are you supposed to do with that? It's just every time it's the same type of problem like how can you solve that issue? So if that were the case then the player would just have to be swimming across the ocean themselves carrying their Pokémon - and you're like, well, am I the Pokémon? Or is my Pokémon the Pokémon? It would get confusing.
-  translation: 这其实不是一个单纯的技术问题，而是一个逻辑与游戏体验的经典悖论。你想想看：如果一只宝可梦学会了‘冲浪’，载着你游到了一座与世隔绝的孤岛；接着如果允许遗忘招式，玩家不小心让它把‘冲浪’给忘了，那你整个人就彻底被困死在孤岛上了！【笑】这时候游戏该怎么处理？每次开发都会面对这种啼笑皆非的死局。如果为了避免卡关而允许主角自己跳进海里游回大陆，顺便把宝可梦背在身上——那到底我是宝可梦，还是它是宝可梦？！这逻辑就彻底乱套了！
+  translation: "这其实不算是技术上的问题，只是比如说，你教宝可梦学会冲浪，然后去了一座岛，然后你让宝可梦忘记冲浪，那你就被困在那座岛上了。（笑）那该怎么办呢？每次都是同一种问题，该怎么解决？所以如果是那样的话，玩家就只能自己带着宝可梦游过海洋——然后你会想，那到底我是宝可梦，还是我的宝可梦才是宝可梦？这会让人混乱的。"
   role: answer
 - type: heading
   level: 3
   original: 'The Mystery of Meltan: A Deliberate Masterclass in Guerrilla Marketing'
-  translation: 美录坦的身世之谜：一场密谋已久的‘解包泄露’悬疑营销大师课
+  translation: "美录坦之谜：一堂刻意为之的游击营销大师课"
 - speaker: Eurogamer
   original: Okay, so something else I wanted to talk about, on a completely different topic, was Meltan. It had a really unusual reveal, it was really exciting for us to try and figure out what was going on, on the day. When it was discovered in the network traffic of Pokémon Go, shortly before it appeared in game, was that a leak? Or was that intentional, so a reveal disguised as a leak, to intentionally get people excited?
-  translation: 好的，我想切换到一个截然不同却极具震撼力的重磅话题——新宝可梦‘美录坦’（Meltan）。它的亮相方式简直匪夷所思，在它登场的那天，全球媒体和玩家都在疯狂试图搞清楚到底发生了什么。在它于游戏中短暂刷新的前夕，先是有人在《Pokémon GO》的网络数据流中捕获到了它的 3D 资产和代号——那究竟是一次纯粹的技术失误泄密？还是你们故意伪装成泄密、以此吊足全球玩家胃口的精心策划？
+  translation: "好的，另一件我想聊的事，是一个完全不同的话题——美录坦。它的公布方式非常不寻常，当天我们都很兴奋，努力想搞清楚到底发生了什么。在它出现在游戏里之前不久，它在《Pokémon GO》的网络流量中被发现了，那是泄露吗？还是故意的，也就是伪装成泄露的公布，是为了故意让大家兴奋？"
   role: question
 - speaker: 增田顺一
   original: '[Laughs] That was planned.'
-  translation: 【放声大笑】那完全是预先策划好的！
+  translation: "（笑）是计划好的。"
   role: answer
 - speaker: Eurogamer
   original: So actually yeah we tried really hard on this one - we didn't even tell company players, so even some of us were surprised when this came out as well, so only a few people know about the plan in advance so it really was a well-kept secret.
-  translation: 事实上我们在这件事上倾注了极大的保密心血——我们甚至没有向公司内部的其他普通员工透露半分，所以当它在游戏里刷出来时，连我们自己公司的许多同事都被吓了一大跳！全世界事前知晓完整计划的只有寥寥数人，保密工作做得滴水不漏。
+  translation: "其实，没错，我们在这件事上下了很大功夫——我们连公司里的人都没有告诉，所以这个出来的时候，我们当中也有些人感到惊讶，事先知道这个计划的只有很少几个人，所以它真的是一个保守得很好的秘密。"
   role: question
 - speaker: 增田顺一
   original: So normally I don't really post on Twitter things about new Pokémon or Pokémon that are featured or more often encountered in Pokémon Go on specific days - but on the day Meltan was released it was community day and there was Chikorita was the Pokémon of the day, and then 15 minutes before Meltan was set to be released I tweeted "oh, everyone hurry up and catch your Chikorita you've only got 15 minutes left!" [laughs] which was... out of the ordinary.
-  translation: 通常我很少在 Twitter 上发帖讨论哪天有什么新宝可梦、或者《Pokémon GO》当天有哪只主角宝可梦刷新率提高——但在美录坦登场的那一天，恰逢菊草叶的社群日（Community Day）。就在距离美录坦突袭登场前整整 15 分钟，我特意发了一条推特：‘大家抓紧时间抓菊草叶哦，活动只剩最后 15 分钟啦！’【笑】这在平时是绝对反常的反常举动，其实就是在悄悄给大家打信号！
+  translation: "通常我不会在 Twitter 上发关于新宝可梦的东西，也不会发《Pokémon GO》里在特定日子登场或更常遇到的宝可梦——但美录坦登场那天是社群日（Community Day），当天的宝可梦是菊草叶，然后在美录坦即将登场的 15 分钟前，我发了一条推文：“大家快点去抓你们的菊草叶，只剩 15 分钟了！”（笑）这……不太寻常。"
   role: answer
 - speaker: Eurogamer
   original: We'll make a point of paying more attention to your tweets! So when you decided to reveal it that way - as far as I know it's never been done this way before, particularly with it first being available in a non-mainline game - when was that first thought up, and who's idea was it to do it that way?
-  translation: 我们以后一定会拿放大镜死死盯住你的每一条推文！据我所知，在宝可梦历史上，从未有一只全新正统宝可梦是通过非正统主系列游戏（衍生手游）以这种方式全球首发的——这个史无前例的构想究竟是在何时诞生的？最初是谁提出了这个大胆的方案？
+  translation: "我们以后会特别留意你的推文的！那么，你们决定用这种方式公布它——据我所知以前从没这样做过，尤其是它首先出现在非正传作品里——这个想法是什么时候最初想到的，又是谁的主意？"
   role: question
 - speaker: 增田顺一
   original: So in terms of who made the decision, so it was TCPI's PR team and Niantic, and also myself who got together and started talking about it, and really we were thinking about how we wanted people to first lay eyes on Meltan, and how to kind of make it appear like a cute Pokémon right from the start, so some people might look at it, if it were handled the wrong way, as "oh it's like a gross Pokémon", but they had it appear in Pokémon Go, kind of moving around, doing it's thing, and then you know, people would be like "Ooh, what's this now?!" And we thought that was the best way to kind of have Meltan first appear to the world.
-  translation: 关于拍板决策的幕后，是 The Pokémon Company International（TPCi）的公关团队、Niantic 公司高层以及我本人坐在一起深入脑暴出来的。我们反复推敲的核心是：我们究竟希望全世界玩家在第一眼看到美录坦时产生怎样的情感印象？如何才能让它从诞生第一秒起就显得灵动讨喜？如果公关宣传处理不当，有些人单看设定图可能会觉得‘这螺母脑袋是什么怪东西，有点诡异’；但如果让它突然成群结队地在《Pokémon GO》大地图上摇摇晃晃地蠕动、笨拙地东张西望，大家瞬间就会被引爆好奇心：‘天呐！这到底是什么全新神秘生物？！’我们深信，唯有这种打破现实与虚拟界限的方式，才是美录坦走向全世界的最佳舞台。
+  translation: "至于是谁做的决定，是 TPCi 的公关团队和 Niantic，还有我，我们聚在一起开始谈这件事，当时我们真正考虑的是，希望大家怎样第一次看到美录坦，以及如何从一开始就让它看起来像一只可爱的宝可梦——因为如果处理不当，有些人看了可能会觉得“哦，这是只恶心的宝可梦”，但让它出现在《Pokémon GO》里，四处移动，做它自己的事，那么大家就会想“哦，这是什么？！”我们觉得这是让美录坦第一次出现在世人面前的最佳方式。"
   role: answer
 - type: image
   image: /assets/img/interviews/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future/meltan_battle.jpg
@@ -190,42 +190,42 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: So, well this info will actually be released on the 10th of October, but you know, we'll tell you know - you're under embargo, so you know don't go talking about it at the bar or whatever! [laughs]. So, after you transfer Pokémon from Pokémon Go to Pokémon Let's Go, you'll receive a Mysterious Box in Go, and then if you open that box, for a limited time, you'll be able to encounter Meltan. You can have lots of Meltan at once, is the basic answer, but as you know this is the first time that we have had a Pokémon make its debut in a game that's not the main series games, but Pokémon Go, so it's pretty special.
-  translation: 这个情报虽然在 10 月 10 日才会正式向全球解禁，不过鉴于你签了严格的保密协议（Embargo），我现在可以提前告诉你——千万别在酒吧喝两杯就说漏嘴啊！【笑】当你将宝可梦从《Pokémon GO》传送到 Switch 上的《Let's Go》之后，你在手机《GO》中就会获得一个‘神秘盒子’（Mysterious Box）。一旦开启这个盒子，在限定的一段时间内，美录坦就会源源不断地在你身边刷新！你可以一次性捕获并拥有大量美录坦。这是历史上首次有全新宝可梦脱离正统掌机作、在《Pokémon GO》中完成世界首秀，它的意义非同凡响。
+  translation: "这个信息其实会在 10 月 10 日公布，不过你们知道的，我们现在就告诉你们——你们受解禁时间限制，所以别跑到酒吧什么的去聊这个！（笑）把宝可梦从《Pokémon GO》传送到《Pokémon Let's Go》之后，你会在《GO》里收到一个神秘盒子（Mysterious Box），打开盒子后，在限定时间内，你就能遇到美录坦。基本的答案就是，你可以同时拥有很多美录坦，不过正如你们所知，这是我们第一次让一只宝可梦在不是正传系列的游戏、也就是《Pokémon GO》里首次登场，所以相当特别。"
   role: answer
 - type: heading
   level: 3
   original: 'Open Worlds and the True Joy of Pokémon: ''More Than Just Hatching Eggs'''
-  translation: 开放世界野望与宝可梦的真谛：“宝可梦绝不仅仅是无休止地孵蛋”
+  translation: "开放世界与宝可梦的真正乐趣：“不只是孵蛋”"
 - speaker: Eurogamer
   original: So last time we spoke, back at the Let's Go reveal in Japan, the topic of open-world Nintendo Switch games came up, like Breath of the Wild and Super Mario Odyssey, and you mentioned that there's a possibility that one day Pokémon might follow suit. I know that's purposefully vague, but is that still something that's being considered? Is that something that you see one day happening on the Switch?
-  translation: 上次我们在日本发布会上面对面交流时，曾探讨过像《塞尔达传说：旷野之息》和《超级马力欧：奥德赛》这样的开放世界 Switch 巨作，你当时曾提到未来某一天宝可梦也可能走上全开放世界的道路。我知道那句回应带着外交辞令般的隐晦，但这如今依然在你们的构想蓝图之中吗？你是否认为这一天会在 Switch 时代真正发生？
+  translation: "上次我们谈话，是在日本的《Let's Go》公布会上，当时聊到了 Nintendo Switch 上的开放世界游戏，比如《塞尔达传说：旷野之息》和《超级马力欧：奥德赛》，你说过宝可梦将来有可能效仿。我知道这是刻意说得含糊，但这仍然是在考虑的事情吗？你觉得有朝一日会在 Switch 上实现吗？"
   role: question
 - speaker: 增田顺一
   original: Well you know in general, I always want to be kind of facing new challenges and trying to you know, do new things with Pokémon. You know it's a different matter whether players will actually enjoy that kind of playstyle, but really you know, things like setting up an AI so that you know real world Pokémon appear, or different ways to appreciate the game, I'm always kind of thinking how to approach the Pokémon series from a different aspect so, in that sense, it's still on the cards.
-  translation: 就我个人的开发信条而言，我永远渴望直面全新的技术挑战，在宝可梦的世界里尝试从未有人做过的全新探索。虽然广大玩家最终是否真的会无条件喜爱那种游玩形态是另一回事，但构建更先进的生物 AI、让宝可梦如同真实生灵般栖息繁衍在大自然中，探索感受作品的全新维度……我始终在思考如何从完全不同的视角来颠覆宝可梦系列。因此从这个意义上说，全开放世界的可能性依然牢牢摆在我们的研发桌案之上（Still on the cards）。
+  translation: "总的来说，我一直想面对新的挑战，尝试用宝可梦做新的事情。玩家是否真的会喜欢那样的玩法是另一回事，不过比如设置 AI，让现实世界的宝可梦出现，或者以不同的方式欣赏游戏，我总是在想怎样从不同的角度来看待宝可梦系列，所以从这个意义上说，它仍然是有可能的。"
   role: answer
 - speaker: Eurogamer
   original: I also wanted to quickly ask about the Pokémon that are available in the game - like those which are related to Kanto but not in the original 151. Pokémon like Igglybuff, or Magmortar, that tie into first-generation Pokémon. What was the reasoning behind leaving those out?
-  translation: 我还想简短追问一个关于登场阵容的疑问：许多与关都初代宝可梦有着进化链渊源的跨世代宝可梦——比如宝宝丁（胖丁的幼年退化型）、或者鸭嘴炎兽（鸭嘴火兽的进化型）——为何这一次没有将它们收录进游戏中？
+  translation: "我还想快速问一下游戏里能出现的宝可梦——比如那些与关都有关、但不在最初 151 种之内的宝可梦。像宝宝丁、鸭嘴炎兽这样与第一世代宝可梦有关联的宝可梦。把它们排除在外的理由是什么？"
   role: question
 - speaker: 增田顺一
   original: So, kind of at the basis of it you know is that in the first generation there aren't any Pokémon Eggs, so you know, when we thought about how would these Pokémon be hatched in the first place, it kind of didn't make any sense. But also you know we wanted to spend more time and put more effort into making the Kanto Pokémon, the original 151, as well made as possible, and expressing them as well as we could.
-  translation: 最底层的设定逻辑在于：初代《红·绿》中根本不存在宝可梦蛋（Pokémon Eggs）的培育繁殖机制。如果我们把宝宝丁放进去，玩家自然会追问‘那它究竟是怎么被生出来孵化的？’，这在无蛋的关都世界观里根本说不通。更重要的是，我们希望将全部有限的精力和研发资源集中起来，将初代最初的 151 种经典宝可梦打磨到极致精细，把它们的生动姿态淋漓尽致地展现给全球观众。
+  translation: "从根本上说，第一世代里没有宝可梦蛋，所以我们思考这些宝可梦最初要怎么孵化时，觉得有点说不通。另外，我们也想花更多时间、投入更多精力，把关都的宝可梦，也就是最初的 151 种，尽可能做好，尽可能好地表现它们。"
   role: answer
 - speaker: Eurogamer
   original: Sure - and does it suggest you have one eye on another Let's Go style game set in Johto?
-  translation: 明白了——这是否暗示着你们已经有一只眼睛在瞄准以城都地区（金·银）为舞台的下一部《Let's Go》续作了？
+  translation: "明白了——这是否意味着你们也在考虑做一款以城都为舞台的《Let's Go》风格的游戏？"
   role: question
 - speaker: 增田顺一
   original: So you know maybe - if everyone enjoys playing these games [laughs] - but you know more than that, I know that a lot of people and fans have spent a lot of time hatching eggs, they've hatched... a lot of eggs, but we want them to kind of discover new ways to enjoy Pokémon games, you know I'd be really sad to think that for them, Pokémon is hatching eggs, so with this one we're trying to show them a different side of the game.
-  translation: 也许吧——如果所有玩家都发自内心地喜爱这一作的话【笑】。不过比起续作，我更想说的是：我知道许多硬核粉丝在过去的世代里耗费了数以百计、千计的小时在培育屋前没日没夜地骑单车‘孵蛋’、刷个体值，他们孵出的蛋堆积如山……但我们真正期盼的，是引导玩家去探索体验宝可梦游戏全新多元的乐趣。如果对广大玩家而言，宝可梦的核心乐趣就只剩下了机械枯燥地‘孵蛋’，我会感到由衷的悲伤。所以在这部《Let's Go》中，我们竭尽全力想要向大家展示这款游戏的另一面——纯粹、鲜活、充满治愈与冒险律动的另一面。
+  translation: "也许吧——如果大家都喜欢玩这些游戏的话（笑）——不过更重要的是，我知道很多人和粉丝花了很多时间孵蛋，他们孵了……很多蛋，但我们想让他们发现享受宝可梦游戏的新方式，我要是想到对他们来说宝可梦就是孵蛋，我会很难过，所以这一作我们想向他们展示游戏的另一面。"
   role: answer
 - speaker: Eurogamer
   original: Finally, I know you can't talk about any specifics just yet, so what I want to know is when you can start talking about that 2019 RPG...
-  translation: 最后，我知道你现在肯定无法透露具体的细节，所以我只想确认：我们究竟什么时候才能听到关于那款即将在 2019 年登场的正统新世代 RPG 新作的消息？
+  translation: "最后，我知道你现在还不能谈任何具体内容，所以我想知道的是，你们什么时候能开始谈那款 2019 年的 RPG……"
   role: question
 - speaker: 增田顺一
   original: '[Laughs] Sometime... next year.'
-  translation: 【大笑】明年的……某个时候吧！
+  translation: "（笑）某个时候……明年吧。"
   role: answer
 ---

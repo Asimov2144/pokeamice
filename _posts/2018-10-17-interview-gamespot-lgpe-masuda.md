@@ -43,10 +43,10 @@ parallel_items:
   translation: 除了少数几款衍生作品外，《宝可梦》系列将于下个月随着《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的发布，正式在Nintendo Switch上登场。这两款Let's Go游戏在很大程度上基于经典的《宝可梦 黄》版本，让该系列在许多方面回归本源。与原作一样，故事再次设定在关都地区，冒险途中你只会遇到最初的151种宝可梦（加上新公开的美录坦）。
 - type: narrative
   original: The Let’s Go games also diverge from tradition in some dramatic ways, particularly in their connection with Pokemon Go. Not only are you able to transfer certain monsters you catch in the mobile game over to the Switch titles, they also employ Pokemon Go’s catching mechanics, meaning you’re no longer be able to battle wild Pokemon.
-  translation: 《Let's Go》系列游戏在某些方面也大胆突破了传统，尤其体现在与《Pokémon GO》的联动上。你不仅能够将手机游戏中捕获的特定宝可梦传输至Switch作品中，这些游戏还采用了《Pokémon GO》的捕捉机制，这意味着你不再能与非玩家控制的野生宝可梦进行对战。
+  translation: "《Let's Go》系列游戏在某些方面也大胆突破了传统，尤其体现在与《Pokémon GO》的联动上。你不仅能够将手机游戏中捕获的特定宝可梦传输至Switch作品中，这些游戏还采用了《Pokémon GO》的捕捉机制，这意味着你不能再与野生宝可梦对战。"
 - type: narrative
   original: 'GameSpot recently had an opportunity to sit down with Pokemon: Let’s Go director Junichi Masuda and lead game environment designer Kensaku Nabana. Through an interpreter, we discussed what it was like reimagining the traditionally 8-bit world of Kanto in 3D, what changes the development team made in bringing the games to Switch, and how the new Mythical Pokemon Meltan came to be.'
-  translation: GameSpot最近有幸采访了《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的总监增田顺一和首席游戏环境设计师名花健作。通过翻译，我们探讨了将传统的8位机关都地区以3D形式重新构想的过程，开发团队在为Switch平台打造这些游戏时所做的改变，以及新幻之宝可梦美录坦的诞生始末。
+  translation: "GameSpot最近有幸采访了《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的总监增田顺一和首席游戏环境设计师菜花健作。通过翻译，我们探讨了将原本是8位画面的关都世界以3D形式重新构想的过程，开发团队在为Switch平台打造这些游戏时所做的改变，以及新幻之宝可梦美录坦的诞生始末。"
 - type: dialogue
   speaker: GameSpot
   original: Despite being inspired by Pokemon Yellow, Let’s Go Pikachu and Eevee seem to introduce a lot of new elements not found in previous Pokemon games. What new things should we expect?
@@ -60,7 +60,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: At the same time, we did add a decent amount of sub-events that weren’t in the originals. It kind of gives it a different feel because there’s a lot of trainers alongside their Pokemon in the actual world itself, so it would be a different impression than the original game, while also covering the same story.
-  translation: 同时，我们也确实加入了不少原版中没有的支线事件。这多少赋予了游戏不同的感觉，因为现实世界中会有许多训练家与他们的宝可梦并肩作战，因此给人的印象会与原版游戏有所不同，尽管故事主线保持一致。
+  translation: "同时，我们也确实加入了不少原版中没有的支线事件。这多少让游戏有了不同的感觉，因为在游戏世界里，有许多训练家带着各自的宝可梦在其中活动，所以给人的印象会与原版游戏有所不同，而讲的依然是同一个故事。"
   role: answer
 - type: dialogue
   speaker: GameSpot
@@ -70,7 +70,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: Yeah, they definitely appear more in the game than in the original Pokemon Yellow Version. With these two games, we really set out at the very beginning with a main target in mind, which was younger kids who maybe didn’t own their own smartphones and weren’t able to really participate in the Pokemon Go craze that happened. They weren’t able to go out and join in on that fun, so really providing them with a really fun experience that also had some of that Pokemon Go gameplay. But at the same time, we wanted to introduce these new players, for whom this might be their first Pokemon game, through the original story, kind of ease them into the Pokemon experience that way.
-  translation: 是的，它们在游戏中的出现频率确实比原版《宝可梦 黄》要高。在开发这两款游戏时，我们一开始就设定了一个主要目标，那就是面向那些可能还没有自己的智能手机、无法真正参与《Pokémon GO》热潮的年轻孩子们。他们无法外出加入那份乐趣，所以我们真的想为他们提供一个既有趣又能体验到一些《Pokémon GO》玩法的游戏体验。但同时，我们也希望通过原版故事来引导这些新玩家——对他们来说，这可能是他们的第一款宝可梦游戏——让他们以这种方式轻松地进入宝可梦的世界。
+  translation: "是的，他们在游戏中的出现频率确实比原版《宝可梦 黄》要高。在开发这两款游戏时，我们一开始就设定了一个主要目标，那就是面向那些可能还没有自己的智能手机、无法真正参与《Pokémon GO》热潮的年轻孩子们。他们无法外出加入那份乐趣，所以我们真的想为他们提供一个既有趣又能体验到一些《Pokémon GO》玩法的游戏体验。但同时，我们也希望通过原版故事来引导这些新玩家——对他们来说，这可能是他们的第一款宝可梦游戏——让他们以这种方式轻松地进入宝可梦的世界。"
   role: answer
 - type: dialogue
   speaker: 增田顺一
@@ -84,7 +84,7 @@ parallel_items:
 - type: dialogue
   speaker: GameSpot
   original: In the original games, your rival was a huge jerk, but the one in Let’s Go seems much friendlier. Why the change?
-  translation: 在最初的游戏中，你的对手是个十足的家伙，但在《Let's Go》里，他似乎友好多了。为什么会有这样的变化呢？
+  translation: "在最初的游戏中，你的对手是个十足的讨厌鬼，但在《Let's Go》里，他似乎友好多了。为什么会有这样的变化呢？"
   role: question
 - type: dialogue
   speaker: 增田顺一
@@ -144,17 +144,17 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: But, of course, we did have to update some other things. For example, we added more types later on and Pokemon got re-typed, so those exist in the game. And, obviously, you weren’t able to run in the original game. We were only able to create four-way movement, so we decided that we probably couldn’t do that today and it made it much easier to move around, I think.
-  translation: 当然，我们也必须更新一些其他内容。比如，后来我们增加了更多属性，宝可梦的属性也得到了重新设定，这些在游戏中都有体现。而且，显然在原版游戏中你是无法奔跑的。当时我们只能实现四方向移动，所以我们认为如今可能无法再那样做了，而能够奔跑让移动变得方便多了，我觉得。
+  translation: "当然，我们也必须更新一些其他内容。比如，后来我们增加了更多属性，宝可梦的属性也得到了重新设定，这些在游戏中都有体现。而且，显然在原版游戏中你是无法奔跑的。当时我们只能实现四方向移动，所以我们认为如今可能无法再那样做了，这样移动起来方便多了，我觉得。"
   role: answer
 - type: dialogue
   speaker: GameSpot
   original: Even though held items aren’t in it, we’ve seen that Mega Evolutions are. Can you tell us how that’s going to work? Traditionally, your Pokemon has to hold the right item to Mega Evolve.
-  translation: 尽管本作中没有携带道具，但我们发现超进化（Mega进化）依然存在。能否告诉我们它是如何运作的？传统上，宝可梦必须携带正确的道具才能进行超进化。
+  translation: "尽管本作中没有携带道具，但我们发现超级进化（Mega进化）依然存在。能否告诉我们它是如何运作的？传统上，宝可梦必须携带正确的道具才能进行超级进化。"
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: No real details, but I can guarantee it’s very simple. We didn’t really think too much about it and just kept it very simple to trigger Mega Evolutions.
-  translation: 没有具体细节，但我可以保证它非常简单。我们没有过多考虑，只是保持非常简单来触发超进化（Mega进化）。
+  translation: "没有具体细节，但我可以保证它非常简单。我们没有过多考虑，只是保持非常简单来触发超级进化（Mega进化）。"
   role: answer
 - type: dialogue
   speaker: GameSpot
@@ -233,7 +233,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: With Red and Green and even games after that, at Game Freak we always wanted to have Pokemon appear in the overworld, in the field itself. But, specifically with the original games, there was no way of doing that with the Game Boy hardware. It just couldn’t handle it. We really wanted to make them feel like living creatures that are in the world with you, so you’ll see on Let’s Go Pikachu and Let’s Go Eevee they’ll all have their own little unique movement characteristics. Some of them will run up and stop. They’re kind of curious. It’ll be fun to just discover how they all react to you.
-  translation: 在《宝可梦 红·绿》乃至其后的作品中，GAME FREAK始终怀揣着一个愿景，那就是让宝可梦在游戏世界的野外、场景中生动展现。然而，受限于Game Boy的硬件性能，初代游戏无法实现这一构想，技术上的局限让我们无法如愿。我们渴望让宝可梦如同活生生的生物，与玩家共处同一世界。因此，在《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》中，你会发现每只宝可梦都拥有独特的行动模式：有的会跑上前来又突然停下，它们充满好奇。探索它们各自对你的反应，将是一大乐趣。
+  translation: "从《宝可梦 红·绿》乃至其后的作品，我们 GAME FREAK 一直都想让宝可梦出现在地图上，也就是野外的场景之中。但就初代游戏而言，用 Game Boy 的硬件根本无法做到，机能承受不了。我们真的很想让它们给人一种与你同在这个世界里的活生生的生物的感觉，所以在《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》里，你会看到它们每一只都有自己独特的动作特点。有的会跑过来然后停下，它们有点好奇。去发现它们各自会对你作何反应，会很有趣。"
   role: answer
 - type: dialogue
   speaker: GameSpot
@@ -248,7 +248,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: We always say Pokemon isn’t a “character game.” It’s not a game where it’s just the characters, but it’s a game that shows this world where these living creatures are existing in a space. That’s kind of a slight nuance, but that’s what we always try to go for at Game Freak. It’s not good enough that they’re just cute. (Laughs) They have to have something more to it.
-  translation: 我们始终强调，《宝可梦》并非一款“角色游戏”。它不仅仅展现角色，而是呈现这样一个世界——这些活生生的生物共存于同一空间。这或许是个微妙的差别，但正是GAME FREAK始终追求的方向。仅仅可爱是不够的（笑），它们必须拥有更深层的内涵。
+  translation: "我们始终强调，《宝可梦》并非一款“角色游戏”。它不仅仅展现角色，而是呈现这样一个世界——这些活生生的生物共存于同一空间。这或许是个微妙的差别，但正是GAME FREAK始终追求的方向。仅仅可爱是不够的（笑），它们还得有点别的东西才行。"
   role: answer
 - type: dialogue
   speaker: 菜花健作

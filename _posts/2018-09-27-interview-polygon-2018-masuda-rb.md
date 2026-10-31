@@ -52,7 +52,7 @@ parallel_items:
 - original: 'To better connect the dots from then to now, we reached out to one of the people who’s been with Pokémon since before the series took over the world: Game Freak’s Junichi Masuda, who has composed the music for every mainline Pokémon RPG, as well as directed nearly every entry since the Game Boy Advance days. That includes Pokémon: Let’s Go!, which is out this November.'
   translation: "为了更好地串联起从那时到现在的脉络，我们联系了一位在宝可梦风靡全球之前就参与其中的人：GAME FREAK 的增田顺一。他为每一部宝可梦正统 RPG 创作了音乐，并且自 Game Boy Advance 时代以来几乎执导了每一部作品，包括今年11月发售的《宝可梦 Let's Go》。"
 - original: Below, read our full Q&A with the Pokémon veteran, as he recalls working at Game Freak like it was a “college club,” long before the studio broke big — and how life has changed then.
-  translation: "下面是我们与这位宝可梦老将的完整问答。他回忆起在 GAME FREAK 工作的日子，那时公司远未做大，感觉就像个“大学社团”——以及生活后来发生了怎样的变化。"
+  translation: "下面是我们与这位宝可梦老将的完整问答。他回忆起在 GAME FREAK 工作的日子——那时公司远未做大，感觉就像个“大学社团”——也谈到后来生活发生了怎样的变化。"
 - original: You’ve been around since the beginning of Pokémon. What was it like working on that original game? What was it like at Game Freak back then — that special time when you were still unsure of if this game was going to be a huge hit?
   role: question
   speaker: Polygon
@@ -60,7 +60,7 @@ parallel_items:
 - original: 'Junichi Masuda, composer and programmer on Pokémon Red/Green/Blue; director of Pokémon: Let’s Go! and many more: At the very beginning, we were still a pretty new company. We were just a few people, and obviously, we didn’t have a lot of huge hits on our hands at Game Freak. We knew we wanted to make games that we all as members at Game Freak wanted to play ourselves. We wanted to make the games that we really cared about wanting to make. At the same time, we had this requirement to run as a company. Obviously, we [needed] payroll and all that, so we needed to make sure that [Pokémon] was also a huge success and it would sell very well.'
   role: answer
   speaker: 增田顺一
-  translation: "增田顺一，《宝可梦 红/绿/蓝》的作曲与程序，以及《宝可梦 Let's Go》等多部作品的导演：最开始的时候，我们还是一家很新的公司。我们只有几个人，而且显然，GAME FREAK 手上并没有什么大热作品。我们知道，我们想制作的是我们作为 GAME FREAK 成员自己都想玩的游戏。我们想制作我们真正在意、真正想做的游戏。与此同时，我们也有作为一家公司运营的需求。显然，我们需要发工资等等，所以我们必须确保《宝可梦》也能大获成功，卖得很好。"
+  translation: "增田顺一，《宝可梦 红·绿·蓝》的作曲与程序，以及《宝可梦 Let's Go》等多部作品的导演：最开始的时候，我们还是一家很新的公司。我们只有几个人，而且显然，GAME FREAK 手上并没有什么大热作品。我们知道，我们想制作的是我们作为 GAME FREAK 成员自己都想玩的游戏。我们想制作我们真正在意、真正想做的游戏。与此同时，我们也有作为一家公司运营的需求。显然，我们需要发工资等等，所以我们必须确保《宝可梦》也能大获成功，卖得很好。"
 - original: It wasn’t always a smooth development. It took about six years for the entire development of the original Red and Green games. We were able to get by by doing other projects for different companies along the way to make ends meet, while also on the side, people who wanted to work on Pokémon within their [...] in the time they had from those other projects, to implement interesting ideas that they had and really put in all of their, I guess, really just creative energy into Pokémon.
   role: answer
   speaker: 增田顺一
@@ -68,7 +68,7 @@ parallel_items:
 - original: It was really because of that kind of teamwork that I think that Pokémon, the original games, just came out to be as interesting and as fun as they were. That also led to their success. We definitely take that kind of [...] that teamwork-focused work style, and that’s part of the Game Freak culture now. The team for Let’s Go, Pikachu! and Let’s Go, Eevee!, at the very end, we’re probably about 100 people total. But we started with that core group of people who really had a shared vision of what we want to make and bring our own interesting ideas to the table to really just make it the best game possible. We carry on that kind of philosophy even today.
   role: answer
   speaker: 增田顺一
-  translation: "正是因为这种团队合作，我认为初代宝可梦游戏才会如此有趣、如此好玩。这也带来了它们的成功。我们确实继承了那种以团队合作为核心的工作方式，这如今已是 GAME FREAK 文化的一部分。《Let's Go 皮卡丘》和《Let's Go 伊布》的团队，到最后大概总共有一百人左右。但我们起步时，核心成员都真正共享着同一个愿景——我们想做什么，并各自带来有趣的想法，只为做出尽可能最好的游戏。直到今天，我们仍延续着这种理念。"
+  translation: "正是因为这种团队合作，我认为初代宝可梦游戏才会如此有趣、如此好玩。这也带来了它们的成功。我们确实继承了那种以团队合作为核心的工作方式，这如今已是 GAME FREAK 文化的一部分。《Let's Go！皮卡丘》和《Let's Go！伊布》的团队，到最后大概总共有一百人左右。但我们起步时，核心成员都真正共享着同一个愿景——我们想做什么，并各自带来有趣的想法，只为做出尽可能最好的游戏。直到今天，我们仍延续着这种理念。"
 - original: What were you expecting to come out of the release of this game? Did you guys think, “Oh, we have this huge hit on our hands,” or “We’re very passionate about this game and we just want to get it out?”
   role: question
   speaker: Polygon
@@ -158,7 +158,7 @@ parallel_items:
 - original: What I mean by that being like a challenge, because we’re a business now with Pokémon being so huge, being able to just rewind is difficult, because a lot of the people who are now on the team, they also grew up with Pokémon. They have an idea of what Pokémon is supposed to be. They’ve played these games, they’ve enjoyed them themselves. Just taking for example, on Let’s Go, Pikachu! and Let’s Go, Eevee!, even the idea of getting rid of wild Pokémon battles and trying something different was obviously met with a lot of resistance at first.
   role: answer
   speaker: 增田顺一
-  translation: 我说这之所以是个挑战，是因为我们现在是一家企业，宝可梦又如此巨大，想要回到过去那种状态很难，因为现在团队里的很多人也是和宝可梦一起长大的。他们对宝可梦应该是什么样有自己的想法。他们玩过这些游戏，自己也享受过。举个例子，在《Let's Go，皮卡丘！》和《Let's Go，伊布！》中，就连取消野生宝可梦对战、尝试不同做法的想法，一开始也遭到了很多抵触。
+  translation: "我说这之所以是个挑战，是因为我们现在是一家企业，宝可梦又如此巨大，想要回到过去那种状态很难，因为现在团队里的很多人也是和宝可梦一起长大的。他们对宝可梦应该是什么样有自己的想法。他们玩过这些游戏，自己也享受过。举个例子，在《Let's Go！皮卡丘》和《Let's Go！伊布》中，就连取消野生宝可梦对战、尝试不同做法的想法，一开始也遭到了很多抵触。"
 - original: People were just like, “No. Of course. It’s Pokémon, there’s wild battles. That’s how it is.” There’s a lot of these unspoken rules that people feel [can’t change], but at the same time at Game Freak, we always want to be open to trying new things. If someone has a good idea or wants to try something out, we want to be able to actually do that. That’s just always a challenge that comes up with each project, just making sure that we don’t take anything for granted.
   role: answer
   speaker: 增田顺一
@@ -177,11 +177,11 @@ parallel_items:
 - original: 'With Pokémon: Let’s Go, Pikachu! and Let’s Go, Eevee! being on Nintendo Switch, we envisioned it from the start that people would mostly be playing it in their living rooms. Up until now, people would get together with Pokémon, but we wanted to take the approach of, “What would a Pokémon in the living room where people get together and are playing with one system look like?” That’s where the features like the simultaneous two-player gameplay where you’re sharing controllers come from.'
   role: answer
   speaker: 增田顺一
-  translation: 《宝可梦 Let's Go 皮卡丘》和《Let's Go 伊布》登陆 Nintendo Switch，我们从一开始就设想人们主要会在客厅里玩。到目前为止，人们会聚在一起玩宝可梦，但我们想采取这样的思路：“在人们聚在一起、用一台主机玩的客厅里，宝可梦会是什么样子？”双人同时游玩、共享手柄等功能就是由此而来的。
+  translation: "《宝可梦 Let's Go！皮卡丘》和《Let's Go！伊布》登陆 Nintendo Switch，我们从一开始就设想人们主要会在客厅里玩。到目前为止，人们会聚在一起玩宝可梦，但我们想采取这样的思路：“在人们聚在一起、用一台主机玩的客厅里，宝可梦会是什么样子？”双人同时游玩、共享手柄等功能就是由此而来的。"
 - original: The connection with Pokémon Go, we figured people would be coming from playing Pokémon Go outside. Then they could do something with the game once they’re all together in the living room, sending Pokémon from that into the game and playing with them together with the controllers and Poké Ball Plus. There’s a variety of features in there that [...] those kind of gameplay features, they have existed elsewhere, they haven’t been part of Pokémon traditionally, that I think we were only able to think of because we tried to approach it from, “OK, so what do we do with this new console?”
   role: answer
   speaker: 增田顺一
-  translation: 与《Pokémon Go》的联动，我们设想人们会在户外玩《Pokémon Go》之后，回到客厅聚在一起时能在游戏里做些什么，把宝可梦从那边传进来，用手柄和精灵球 Plus 一起玩。里面包含各种功能……这类玩法功能在其他地方已经存在，传统上并不是宝可梦的一部分，我认为我们之所以能想到这些，正是因为我们尝试从“好，那我们用这台新主机做什么”的角度出发。
+  translation: "与《Pokémon GO》的联动，我们设想人们会在户外玩《Pokémon GO》之后，回到客厅聚在一起时能在游戏里做些什么，把宝可梦从那边传进来，用手柄和精灵球 Plus 一起玩。里面包含各种功能……这类玩法功能在其他地方已经存在，传统上并不是宝可梦的一部分，我认为我们之所以能想到这些，正是因为我们尝试从“好，那我们用这台新主机做什么”的角度出发。"
   note: 精灵球 Plus 是随《Let's Go》推出的实体外设，可当作手柄使用，也能与《Pokémon Go》联动。
 - original: What has it been like to return to the original world and design of Kanto, Red and Blue, and having to re-envision it? What has that been like for the staff who were around back when the original Red and Blue came out?
   role: question
@@ -194,7 +194,7 @@ parallel_items:
 - original: For example, we all agreed that you wouldn’t want to change most of the dialogue or a lot of text messages that appear in the game. Not like cell phone text messages, but text that appears in the game. Because there’s so much, I don’t know, creator’s intent and all of that stuff that was part of those messages, that we didn’t want to just change it just because. But at the same time, stuff like the Pokédex, we figured we could update that design to be something a little bit more useful and people really wouldn’t care too much. It really complicated decisions about what to keep and what to change.
   role: answer
   speaker: 增田顺一
-  translation: 例如，我们都同意，你不会想改变游戏里出现的大部分对话或大量文本信息。不是手机短信那种，而是游戏里出现的文本。因为那些信息里包含了太多，怎么说呢，创作者的意图之类的东西，我们不想仅仅为了改而改。但与此同时，像宝可梦图鉴 App 这样的东西，我们认为可以更新设计，让它更有用一些，人们也不会太在意。这确实让决定保留什么、改变什么变得非常复杂。
+  translation: "例如，我们都同意，你不会想改变游戏里出现的大部分对话或大量文本信息。不是手机短信那种，而是游戏里出现的文本。因为那些信息里包含了太多，怎么说呢，创作者的意图之类的东西，我们不想仅仅为了改而改。但与此同时，像宝可梦图鉴这样的东西，我们认为可以更新设计，让它更有用一些，人们也不会太在意。这确实让决定保留什么、改变什么变得非常复杂。"
 - original: '[...] Obviously a lot of new players are going to be going through this Kanto adventure for the first time. We wanted to make it so the overall structure is similar, so people who played the original games could give advice to these younger players on the adventure about what to do next. There were just other things that we wanted to streamline a little bit to make it a little bit more of a compact experience.'
   role: answer
   speaker: 增田顺一
@@ -202,7 +202,7 @@ parallel_items:
 - original: We went back and of course played the Yellow version, for example. If you go back now, it’s actually that there’s some fairly tough parts in there. It maybe takes like 40 hours to complete the game. We knew that we needed to make it a little bit more streamlined for more modern audiences. So really just improving the pace of play without destroying the feel of the original games was how we approached it. If you go back to those original games, they didn’t have free directional movement. It was all on a grid where you’d move one space at a time in a 2D environment, monochrome graphics, and you couldn’t even run back then. Even just those kind of movement changes definitely improved the pace of playing Let’s Go, Eevee! and Pikachu.
   role: answer
   speaker: 增田顺一
-  translation: 我们回去当然玩了黄版。如果你现在回去玩，其实里面有一些相当难的部分。通关游戏可能需要大约 40 个小时。我们知道需要为更现代的受众稍微精简一下。所以，在不破坏原版游戏感觉的前提下真正改善游玩节奏，就是我们采取的方式。如果你回去玩那些原版游戏，它们没有自由方向移动。全都是在网格上，在 2D 环境里一次移动一格，单色画面，那时候甚至不能跑。即使只是这些移动方式的改变，也肯定改善了《Let's Go 伊布》和《皮卡丘》的游玩节奏。
+  translation: "我们回去当然玩了黄版。如果你现在回去玩，其实里面有一些相当难的部分。通关游戏可能需要大约 40 个小时。我们知道需要为更现代的受众稍微精简一下。所以，在不破坏原版游戏感觉的前提下真正改善游玩节奏，就是我们采取的方式。如果你回去玩那些原版游戏，它们没有自由方向移动。全都是在网格上，在 2D 环境里一次移动一格，单色画面，那时候甚至不能跑。即使只是这些移动方式的改变，也肯定改善了《Let's Go！伊布》和《Let's Go！皮卡丘》的游玩节奏。"
 - original: “The Pokémon creatures themselves — that’s always the core”
   role: answer
   speaker: 增田顺一

@@ -29,7 +29,7 @@ parallel_items:
 - original: 'Traditionell erscheinen Pokémon-Spiele im Doppelpack. Das ändert sich auch nicht beim Nintendo-Switch-Auftritt der Taschenmonsterhatz in Pokémon Let''s Go, Pikachu! und Pokémon: Let''s Go, Evoli! Inspiriert von Pokémon Gelbe Edition: Special Pikachu Edition, das 1998 für den Nintendo Game Boy erschienen ist, geht es zurück zu den Anfängen der Serie.'
   translation: 宝可梦系列传统上以双版本形式发售。此次登陆Nintendo Switch的《宝可梦 Let's Go！皮卡丘／伊布》也不例外。游戏灵感源自1998年登陆Nintendo Game Boy的《宝可梦 皮卡丘版》，回归系列原点。
 - original: Ihr durchstreift mit eurem Trainer die Kanto-Region und macht euch auf die Suche nach den klassischen 151 Pokémon der 1. Generation sowie deren Alola-Versionen aus den Spielen Pokémon Sonne und Mond. Das Let's Go-Duo ist dabei keineswegs nur ein simples Remake in aufgehübschter Optik, sondern nutzt clever die technischen Möglichkeiten und Features der Nintendo-Switch-Konsole und bietet zusätzliche eine spannende Schnittstelle zum erfolgreichen Outdoor-Abenteuer Pokémon GO.
-  translation: 你将与训练家一同穿越关都地区，寻找第一世代的151只经典宝可梦，以及它们在《宝可梦 太阳／月亮》中的阿罗拉形态。这对Let's Go组合绝非简单的画面重制，而是巧妙运用了Nintendo Switch的技术特性与功能，并与大获成功的户外冒险游戏《Pokémon GO》实现了激动人心的联动。
+  translation: "你将与训练家一同穿越关都地区，寻找第一世代的151只经典宝可梦，以及它们在《宝可梦 太阳·月亮》中的阿罗拉形态。这对Let's Go组合绝非简单的画面重制，而是巧妙运用了Nintendo Switch的技术特性与功能，并与大获成功的户外冒险游戏《Pokémon GO》实现了激动人心的联动。"
 - original: Ich habe mich in Nintendos Deutschland-Zentrale in Frankfurt mit dem Managing Director Junichi Masuda und dem 3D Map Design Leader Kensaku Nabana von Game Freak getroffen und über die Gegenwart und Zukunft von Pokémon geplaudert.
   translation: 我在法兰克福的任天堂德国总部会见了GAME FREAK的常务董事增田顺一和3D地图设计主管菜花健作，与他们畅谈了宝可梦的现在与未来。
 - type: image
@@ -77,7 +77,7 @@ parallel_items:
   alt: Mit dem optionalen Pokéball Plus-Controller macht das Fangen der Taschenmonster noch mal so viel Laune.
   caption: Mit dem optionalen Pokéball Plus-Controller macht das Fangen der Taschenmonster noch mal so viel Laune.
 - original: Wie schwer ist es, nach all den Jahren immer wieder eine neue Generation an Spielern für Pokémon zu begeistern?
-  translation: 多年来，要让新一代玩家对宝可梦保持热情，有多难？
+  translation: "这么多年来，每一次都要让新一代的玩家爱上宝可梦，有多难？"
   speaker: Eurogamer
   role: question
 - original: Das ist heutzutage tatsächlich schwieriger geworden. Kinder haben Zugang zu einer riesigen Auswahl an (meist auch kostenlosen) Spielen auf dem Smartphone. Wir haben aber den Vorteil, dass viele Eltern, die in ihrer Jugend Pokémon gespielt haben und immer noch begeistert sind, ihren Kindern davon erzählen und sie so neugierig machen. Gerade Pokémon GO hat dabei einen hohen Wert, indem die Erwachsenen den Kindern das Spiel ganz einfach auf dem Smartphone zeigen und diese für das Fangen und Sammeln begeistern können. Wir sind der Meinung, ein Spiel für Kinder sollte unkompliziert zu bedienen, leicht zu verstehen und erlernen sein, aber auch ein tief gehendes Spielerlebnis bieten.
@@ -117,16 +117,17 @@ parallel_items:
   speaker: 增田顺一
   role: answer
 - original: Ich freue mich ganz besonders auf die Kämpfe gegen die Meister-Trainer. Wenn das Spiel beendet ist, kann man noch die Kanto-Region frei bereisen und trifft dann auf Meister-Trainer für alle 151 Pokémon, die der Spieler zum Kampf auffordern und besiegen kann, um selber ein Meister zu werden. Und das ist eine richtig schwere Aufgabe.
-  translation: 我特别期待与大师训练家的对战。游戏通关后，玩家仍可自由探索关都地区，并会遇到全部151只宝可梦的大师训练家，他们会向玩家发起挑战，玩家可以击败他们，自己成为大师。这是一项相当艰巨的任务。
+  translation: "我特别期待与大师训练家的对战。游戏通关后，玩家仍可自由探索关都地区，并会遇到全部151只宝可梦各自的大师训练家，玩家可以向他们发起挑战并击败他们，自己成为大师。这是一项相当艰巨的任务。"
   speaker: 菜花健作
   role: answer
 interviewee: Eurogamer, 增田顺一, 菜花健作
 entities:
   people:
-  - "增田顺一"
-  - "菜花健作"
+  - 增田顺一
+  - 菜花健作
   works:
-  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  - "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+  - Pokémon GO
 original_lang: en
 summary: "2018年，GAME FREAK常务董事增田顺一与3D地图设计主管菜花健作在法兰克福任天堂德国总部接受Eurogamer采访，谈Nintendo Switch新作《宝可梦 Let's Go！皮卡丘／伊布》。该作灵感来自1998年Game Boy《宝可梦 皮卡丘版》，以关都地区为舞台，收录第一世代151只宝可梦及阿罗拉形态，可与《Pokémon GO》联动传送宝可梦并触发美录坦。两人谈及精灵球 Plus控制器、附赠梦幻、通关后151位大师训练家挑战，以及具甲武者耗时六个多月的设计过程。"
 dek: "增田顺一与菜花健作谈《Let's Go！皮卡丘／伊布》与系列未来。"

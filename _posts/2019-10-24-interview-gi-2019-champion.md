@@ -52,7 +52,7 @@ parallel_items:
 - original: If you've been following our coverage of Pokémon Sword and Shield, you know we've covered a ton of topics, such as autosave, drawing Pokémon, and the inspiration behind the Galar region. However, in the time since we spent a full day in Game Freak's Tokyo offices for this month's Pokémon Sword and Shield cover story, we've thought of several new questions to ask the development team.
   translation: "如果你一直在关注我们对《宝可梦 剑·盾》的报道，就会知道我们已经聊过很多话题，比如自动保存、绘制宝可梦，以及伽勒尔地区背后的灵感。不过，自从我们在 GAME FREAK 东京办公室待了整整一天、为本月的《宝可梦 剑·盾》封面故事取材之后，我们又想到了几个新问题要问开发团队。"
 - original: Thankfully, Pokémon Sword and Shield director Shigeru Ohmori and producer Junichi Masuda recently visited Redwood City, Calif. just outside of San Francisco, giving us an opportunity to not only play the first hour and a half of Pokémon Sword and Shield, but also catch up with them about several additional topics related to the upcoming Switch games.
-  translation: 所幸，《宝可梦 剑·盾》总监大森滋和制作人增田顺一最近来到了加州旧金山郊外的雷德伍德城，让我们不仅有机会试玩《宝可梦 剑·盾》开头一个半小时的内容，还能就这两款即将登陆 Switch 的游戏聊几个额外的话题。
+  translation: "所幸，《宝可梦 剑·盾》总监大森滋和制作人增田顺一最近来到了加州旧金山郊外的红木城，让我们不仅有机会试玩《宝可梦 剑·盾》开头一个半小时的内容，还能就这两款即将登陆 Switch 的游戏聊几个额外的话题。"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-champion/001.webp
   alt: Pokémon Sword and Shield
@@ -63,7 +63,7 @@ parallel_items:
 - original: One of the biggest reasons for having you interact with the champion and being shown the prowess of the champion so early is that Sword and Shield is a continuation of traditional RPGs like X and Y, Sun and Moon. So really conveying that aspect of you’re going to go on your journey, doing the gym battles, and there’s this really powerful champion you want to aspire to defeat. That was one of the aspects we wanted to convey, so we put the champion in the story much more.
   role: answer
   speaker: 大森滋
-  translation: 让你与冠军互动、并在这么早的阶段就展示冠军的实力，其中一个最大的原因是，《剑／盾》是《X／Y》《太阳／月亮》这类传统 RPG 的延续。所以，真正传达出这一点很重要：你将踏上旅程，去打道馆战，而有一位非常强大的冠军是你想要去击败的。这是我想传达的方面之一，所以我们在故事里加入了更多冠军的戏份。
+  translation: "让你与冠军互动、并在这么早的阶段就展示冠军的实力，其中一个最大的原因是，《剑·盾》是《X·Y》《太阳·月亮》这类传统 RPG 的延续。所以，真正传达出这一点很重要：你将踏上旅程，去打道馆战，而有一位非常强大的冠军是你想要去击败的。这是我们想传达的方面之一，所以我们在故事里加入了更多冠军的戏份。"
 - original: On Leon’s cape, he has all kinds of endorsements and advertisements. One of them was the Game Freak logo. Game Freak has a history of being in Pokémon games. Does that mean we’ll also be able to find the studio in Galar?
   role: question
   speaker: Game Informer
@@ -71,7 +71,7 @@ parallel_items:
 - original: Good eye on you! [Laughs] I hope players will discover for themselves whether it’s there or not.
   role: answer
   speaker: 大森滋
-  translation: 眼力不错！[笑] 它到底在不在，我希望玩家自己去发现。
+  translation: "眼力不错！（笑）它到底在不在，我希望玩家自己去发现。"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-champion/002.webp
   alt: Pokémon Sword and Shield
@@ -101,18 +101,18 @@ parallel_items:
 - original: I think it’s hard to go into details of that, but in terms of the volume or the amount of content in the main adventure, it’s comparable to other Pokémon generations that we’ve played. I think there’s a lot of interesting activities that, for example, completing the Pokédex or really going out into the Wild Area and engaging with those mechanics, that’ll add a lot of replay value for players who are looking to get really hardcore into that.
   role: answer
   speaker: 大森滋
-  translation: 我觉得很难细说，但就主线冒险的体量或内容量而言，和我们玩过的其他宝可梦世代是相当的。我认为有很多有趣的活动，比如完成宝可梦图鉴 App，或者真正走进旷野地带去体验那些机制，这些都会为想要深入钻研的硬核玩家带来很多重复游玩的价值。
+  translation: "我觉得很难细说，但就主线冒险的体量或内容量而言，和我们玩过的其他宝可梦世代是相当的。我认为有很多有趣的活动，比如完成宝可梦图鉴，或者真正走进旷野地带去体验那些机制，这些都会为想要深入钻研的硬核玩家带来很多重复游玩的价值。"
 - original: I feel like a lot of players these days will typically burn through content and try to go to the ending as fast as they can. From our perspective, we spent three years making it! [Laughs] We do hope that players will take their time through the adventure, but yeah, that’s my perspective.
   role: answer
   speaker: 增田顺一
-  translation: 我感觉现在很多玩家会一口气把内容刷完，尽量最快打到结局。从我们的角度看，我们可是花了三年做出来的！[笑] 我们确实希望玩家能慢慢享受这段冒险，不过，这就是我的看法。
+  translation: "我感觉现在很多玩家会一口气把内容刷完，尽量最快打到结局。从我们的角度看，我们可是花了三年做出来的！（笑）我们确实希望玩家能慢慢享受这段冒险，不过，这就是我的看法。"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-champion/004.webp
   alt: Pokémon Sword and Shield
 - original: '[Planning director] Kazumasa Iwao brought up that Max Raid Battles have a difficulty as high as or above anything we’ve seen in the mainline series to this point. Are there any other parts in Sword and Shield that you think will be difficult for players?'
   role: question
   speaker: Game Informer
-  translation: '[企划总监]岩尾和昌提到，极巨团体战的难度已经达到甚至超过了此前主线系列中我们见过的任何内容。你认为《剑／盾》里还有其他部分会让玩家觉得困难吗？'
+  translation: "[企划总监]岩尾和昌提到，极巨团体战的难度已经达到甚至超过了此前主线系列中我们见过的任何内容。你认为《剑·盾》里还有其他部分会让玩家觉得困难吗？"
   note: 岩尾和昌是《宝可梦 剑·盾》的企划总监。
 - original: With Max Raid Battles, we have the star ranking system and I think what he’s talking about was when you go to five stars – the highest-ranked ones – they are quite difficult. I’ve tried to play them on my own and lost many times. When you get to the highest stuff, you need really good team coordination to defeat them. I can’t really go into details, but I can say that there’s other content for players to engage with over the long term and more deeply after you finish the main story.
   role: answer
@@ -132,7 +132,7 @@ parallel_items:
 - original: Are we seeing Meltan and Melmetal in Sword and Shield?
   role: question
   speaker: Game Informer
-  translation: 我们会在《剑／盾》里看到美录坦和美录梅塔吗？
+  translation: "我们会在《剑·盾》里看到美录坦和美录梅塔吗？"
 - original: Hm! No comment!
   role: answer
   speaker: 增田顺一
@@ -140,11 +140,11 @@ parallel_items:
 - original: We spoke in Tokyo about how the Galar region was inspired by the media tour you did for Sun and Moon, which took you to the U.K. Where are you doing media tours for Sword and Shield?
   role: question
   speaker: Game Informer
-  translation: 我们在东京聊过，伽勒尔地区的灵感来自你们为《太阳／月亮》做媒体巡访时去的英国。那你们为《剑／盾》做媒体巡访去了哪里？
+  translation: "我们在东京聊过，伽勒尔地区的灵感来自你们为《太阳·月亮》做媒体巡访时去的英国。那你们为《剑·盾》做媒体巡访去了哪里？"
 - original: Redwood! [Laughs]
   role: answer
   speaker: 增田顺一
-  translation: 红木城！[笑]
+  translation: "红木城！（笑）"
 - original: Anywhere else?
   role: question
   speaker: Game Informer
@@ -160,26 +160,26 @@ parallel_items:
 - original: '[Laughs]'
   role: answer
   speaker: 增田顺一
-  translation: '[笑]'
+  translation: "（笑）"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-champion/006.webp
   alt: Pokémon Sword and Shield
 - original: Obviously, there was some confusion stemming from an earlier conversation we had regarding the number of gyms in Sword and Shield. However, from the confusion, people were very excited about the possibility of a dark-type gym. Can you say whether or not players battle a dark-type gym in Sword or Shield?
   role: question
   speaker: Game Informer
-  translation: 显然，之前我们关于《剑／盾》中道馆数量的对话引发了一些困惑。不过，从这些困惑中，玩家们对可能出现恶属性道馆表现出了极大的兴奋。你能透露玩家是否会在《剑／盾》中挑战恶属性道馆吗？
+  translation: "显然，之前我们关于《剑·盾》中道馆数量的对话引发了一些困惑。不过，从这些困惑中，玩家们对可能出现恶属性道馆表现出了极大的兴奋。你能透露玩家是否会在《剑·盾》中挑战恶属性道馆吗？"
 - original: I don’t want to say. [Laughs] Sorry!
   role: answer
   speaker: 大森滋
-  translation: 我不想说。[笑] 抱歉！
+  translation: "我不想说。（笑）抱歉！"
 - original: In the initial quote, you said that, in the story, the gyms battle every year to determine which is in the major league or minor league. Is there a possibility that over time, they’ll be rotated in the game?
   role: question
   speaker: Game Informer
-  translation: 在最初的引述中，你说过，在故事里，道馆每年都会进行对战，以决定哪些属于 major league 或 minor league。有没有可能随着时间推移，它们在游戏中会轮换？
+  translation: "在最初的引述中，你说过，在故事里，道馆每年都会进行对战，以决定哪些属于大联盟或小联盟。有没有可能随着时间推移，它们在游戏中会轮换？"
 - original: '[Laughs] It is just a background to the story. I can’t really say any more than that.'
   role: answer
   speaker: 大森滋
-  translation: '[笑] 这只是故事的背景设定。我不能再多说了。'
+  translation: "（笑）这只是故事的背景设定。我不能再多说了。"
 - original: How frequently do you battle in stadiums in this game?
   role: question
   speaker: Game Informer
@@ -210,11 +210,11 @@ parallel_items:
 - original: Of course, it can actually be problematic sometimes because the team, when we’re test-playing the games internally before we actually go into the formal debug process, people have their favorites for which version. For example, for Let’s Go, Pikachu and Eevee, a lot of the team preferred Eevee, and they’d always be playing that, and that would be more polished and in a better state. For the Pikachu version, we had to kind of then make up for lost time later on. What about Sword and Shield? You probably have more people playing Sword, right? Do you have more bugs in Shield? [Laughs]
   role: answer
   speaker: 增田顺一
-  translation: 当然，这有时其实会带来问题，因为在正式进入调试流程之前、团队内部试玩的时候，大家会偏爱某个版本。比如《Let's Go，皮卡丘》和《Let's Go，伊布》，团队里很多人更喜欢伊布，总是玩那个版本，那个版本也就打磨得更好、状态更佳。至于皮卡丘版本，我们后来就得把落下的进度补回来。那《剑／盾》呢？大概玩《剑》的人更多吧？是不是《盾》里的bug更多？[笑]
+  translation: "当然，这有时其实会带来问题，因为在正式进入调试流程之前、团队内部试玩的时候，大家会偏爱某个版本。比如《Let's Go，皮卡丘》和《Let's Go，伊布》，团队里很多人更喜欢伊布，总是玩那个版本，那个版本也就打磨得更好、状态更佳。至于皮卡丘版本，我们后来就得把落下的进度补回来。那《剑·盾》呢？大概玩《剑》的人更多吧？是不是《盾》里的bug更多？（笑）"
 - original: '[Laughs] No, no! They’re both good!'
   role: answer
   speaker: 大森滋
-  translation: '[笑]不，不！两个版本都很好！'
+  translation: "（笑）不，不！两个版本都很好！"
 - original: In the end, we do focus on debugging both versions the same, but when you first do that split, there’s definitely some internal favoritism that can create some lopsidedness.
   role: answer
   speaker: 增田顺一
@@ -242,7 +242,7 @@ parallel_items:
 - original: Yeah, I think that would work. [Laughs]
   role: answer
   speaker: 增田顺一
-  translation: 是的，我觉得可以这么说。[笑]
+  translation: "是的，我觉得可以这么说。（笑）"
 - original: Pokémon Sword and Shield launch on Switch November 15. For more coverage on these games, check out our exclusive coverage hub by clicking on the banner below.
   role: answer
   speaker: 增田顺一

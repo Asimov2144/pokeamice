@@ -48,21 +48,21 @@ parallel_items:
 - type: heading
   level: 2
   original: Pokémon Sword and Shield Junichi Masuda interview – ‘it really is gameplay first’
-  translation: 《宝可梦 剑／盾》增田顺一访谈——“真的是玩法优先”
+  translation: "《宝可梦 剑·盾》增田顺一访谈——“真的是玩法优先”"
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori/001.jpg
   alt: Junichi Masuda and Shigeru Ohmori
   caption: The creators of Pokémon Sword and Shield make a good double act
 - original: GameCentral speaks to the creators of the new Pokémon Sword/Shield about graphics, voice-acting, AI, and… Downton Abbey.
-  translation: GameCentral 与新作《宝可梦 剑／盾》的创作者谈论画面、配音、AI，以及……《唐顿庄园》。
+  translation: "GameCentral 与新作《宝可梦 剑·盾》的创作者谈论画面、配音、AI，以及……《唐顿庄园》。"
 - original: You almost never get to meet or interview Nintendo developers. We felt very privileged to speak to Super Mario Odyssey producer Yoshiaki Koizumi back before the game’s release but that was a rare opportunity. The Pokémon Company has always had a different approach though and with the release date for Pokémon Sword/Shield fast approaching this is the second time we’ve been able to speak to producer Junichi Masuda and director Shigeru Ohmori in less than six months, following our initial chat at E3 in June.
-  translation: 你几乎从没机会见到或采访任天堂的开发者。我们曾有幸在《超级马力欧 奥德赛》发售前采访到其制作人小泉欢晃，但那是一次难得的机会。不过，株式会社宝可梦一直有着不同的做法；随着《宝可梦 剑／盾》发售日临近，这已经是我们继6月E3初次交谈之后，不到六个月里第二次有机会与制作人增田顺一和总监大森滋对话。
+  translation: "你几乎从没机会见到或采访任天堂的开发者。我们曾有幸在《超级马力欧 奥德赛》发售前采访到其制作人小泉欢晃，但那是一次难得的机会。不过，株式会社宝可梦一直有着不同的做法；随着《宝可梦 剑·盾》发售日临近，这已经是我们继6月E3初次交谈之后，不到六个月里第二次有机会与制作人增田顺一和总监大森滋对话。"
 - original: But then the marketing for Pokémon Sword/Shield has been very on point all year, as it whips fan anticipation into a fervour with everything from a 24-hour livestream, that gave just a glimpse of a new pokémon variant, and the opening of a Pokémon Center in London that has had fans queuing around the block. Pokémon Sword/Shield is clearly going to be huge and based on the 90 minutes we played last month it probably deserves to be too.
-  translation: 不过，《宝可梦 剑／盾》全年的营销一直非常到位，从一场24小时直播（只让人瞥见一个新宝可梦变体）到伦敦宝可梦中心开业引发粉丝排队绕街区，把粉丝的期待炒得火热。《宝可梦 剑／盾》显然会大卖，而从上个月我们试玩的90分钟来看，它大概也配得上这样的热度。
+  translation: "不过，《宝可梦 剑·盾》全年的营销一直非常到位，从一场24小时直播（只让人瞥见一个新宝可梦变体）到伦敦宝可梦中心开业引发粉丝排队绕街区，把粉丝的期待炒得火热。《宝可梦 剑·盾》显然会大卖，而从上个月我们试玩的90分钟来看，它大概也配得上这样的热度。"
 - original: It was at that same event that we got to meet Masuda-san again, with Ohmori-san appearing via video link in Tokyo. Despite what these photos might suggest Masuda-san is a stern-looking fellow, who at first glance does not seem like the sort of person you’d expect to be in charge of a game series like Pokémon game. But, like last time, we managed to get more than a few laughs out of him, as he and Ohmori-san discussed detail topics like voice-acting, storytelling, and localisation.
   translation: 就是在同一场活动上，我们再次见到了增田先生，大森先生则通过东京的视频连线出现。尽管这些照片可能给人某种印象，增田先生其实是个面相严肃的人，乍看之下不像是你会以为在掌管《宝可梦》这类游戏系列的那种人。但和上次一样，我们还是逗得他笑了好几回，他和大森先生讨论了配音、叙事、本地化等细节话题。
 - original: And of course we had to bring up the controversy over ‘Dexit’, the fan outrage that Pokémon Sword/Shield, for the first time in the series, will not include all pre-existing pokémon. That’s a story that broke mere hours after our previous interview, so there was no chance of catching them with an unguarded comment this time, but on the other issues they were agreeably open, as they discussed the difficulties of making a new sequel to one of the most successful franchises in gaming history.
-  translation: 当然，我们也必须提起“Dexit”争议，即粉丝对《宝可梦 剑／盾》将首次不包含所有既有宝可梦的愤怒。这件事恰好在我们上次采访后几个小时才爆出，所以这次不可能让他们说出什么不设防的话，但在其他问题上他们相当坦率，谈到了为游戏史上最成功的系列之一制作新续作的种种困难。
+  translation: "当然，我们也必须提起“Dexit”争议，即粉丝对《宝可梦 剑·盾》将首次不包含所有既有宝可梦的愤怒。这件事恰好在我们上次采访后几个小时才爆出，所以这次不可能让他们说出什么不设防的话，但在其他问题上他们相当坦率，谈到了为游戏史上最成功的系列之一制作新续作的种种困难。"
 - original: So, I am very pleased to be here at the official unveiling of Pokémon Snap 2.
   role: question
   speaker: GC
@@ -74,7 +74,7 @@ parallel_items:
 - original: The localisation teams have really put a lot of effort into adding some linguistic colour and flair to the translation of the new game, and really making it feel perhaps a little closer to UK English rather than American English. But of course, I am not responsible for the English and do not necessarily understand the details of what’s gone on there. [laughs]
   role: answer
   speaker: 大森滋
-  translation: 本地化团队确实花了很多功夫，为新作的翻译增添语言色彩和风味，让它感觉或许更接近英式英语而非美式英语。当然，我不负责英文部分，也未必了解那边具体是怎么处理的。[笑]
+  translation: "本地化团队确实花了很多功夫，为新作的翻译增添语言色彩和风味，让它感觉或许更接近英式英语而非美式英语。当然，我不负责英文部分，也未必了解那边具体是怎么处理的。（笑）"
 - original: But is that the same dialogue and text that the Americans will get? They’ll have a game with ‘telly’, ‘cheers’, and that sort of thing in it?
   role: question
   speaker: GC
@@ -86,11 +86,11 @@ parallel_items:
 - original: Oh, okay, that’s great. It’s just a shame about the American spelling. [laughs]
   role: question
   speaker: GC
-  translation: 哦，好的，那太好了。只是美式拼写有点可惜。[笑]
+  translation: "哦，好的，那太好了。只是美式拼写有点可惜。（笑）"
 - original: '[laughs]'
   role: answer
   speaker: 大森滋
-  translation: '[笑]'
+  translation: "（笑）"
 - original: I very much enjoyed our chat at E3 but I think it was literally just hours before the whole Dexit controversy broke, which I’m sure you’re desperate to talk about some more.
   role: question
   speaker: GC
@@ -99,7 +99,7 @@ parallel_items:
 - original: '[laughs]'
   role: answer
   speaker: 增田顺一
-  translation: '[笑]'
+  translation: "（笑）"
 - original: I wonder how that sort of thing affects you personally, it can’t be pleasant when fans are accusing you and the studio of being lazy and not caring. Does that get you down at all?
   role: question
   speaker: GC
@@ -144,7 +144,7 @@ parallel_items:
 - original: At the moment we’re really focused on the release of Sword and Shield, and we’re looking forward to seeing how fans react to that and the kind of feedback we receive, and as we go forward into the future games we’ll do all sorts of different things based on that feedback.
   role: answer
   speaker: 增田顺一
-  translation: 目前我们全部精力都放在《剑／盾》的发售上，我们很期待看到粉丝的反应以及收到的反馈，今后在开发未来的游戏时，我们会根据这些反馈做各种不同的尝试。
+  translation: "目前我们全部精力都放在《剑·盾》的发售上，我们很期待看到粉丝的反应以及收到的反馈，今后在开发未来的游戏时，我们会根据这些反馈做各种不同的尝试。"
 - original: And so really the biggest thing for all of us is that we can release a game that all our fans are really going to enjoy. Everyone that works on the games themselves is a really big fan of games, and pokémon games in particular, so the biggest thing when releasing a game is really to focus on our confidence that we’ve created something that our fans are really gonna like and that we can release knowing that we’ve created something really enjoyable.
   role: answer
   speaker: 增田顺一
@@ -156,7 +156,7 @@ parallel_items:
 - original: '[laughs]'
   role: answer
   speaker: 增田顺一
-  translation: '[笑]'
+  translation: "（笑）"
 - original: There have been some fan complaints about the graphics but there are certainly some areas that look really nice. Have you had much trouble getting used to making HD graphics, after all those years on portable-only consoles?
   role: question
   speaker: GC
@@ -168,7 +168,7 @@ parallel_items:
 - original: And, of course, with the new hardware there’s a lot more possibilities, because there’s that much more that you can consider in the first place. But really, when we get down to planning everything it’s down to, ‘How can we make the most fun game? How can we utilise the communication features that the Switch allows us to, to create a really fun game for everyone?’ And we really think we’ve achieved that with producing Sword and Shield.
   role: answer
   speaker: 大森滋
-  translation: 当然，有了新硬件，可能性也多了很多，因为一开始你能考虑的东西就更多了。但真正到了做规划的时候，归根结底还是：‘我们怎样才能做出最有趣的游戏？我们怎样才能利用Switch提供的通信功能，为大家创造一款真正有趣的游戏？’我们确实认为，制作《剑／盾》时我们做到了这一点。
+  translation: "当然，有了新硬件，可能性也多了很多，因为一开始你能考虑的东西就更多了。但真正到了做规划的时候，归根结底还是：‘我们怎样才能做出最有趣的游戏？我们怎样才能利用Switch提供的通信功能，为大家创造一款真正有趣的游戏？’我们确实认为，制作《剑·盾》时我们做到了这一点。"
 - original: But of course the Switch is more capable in many other ways and one thing that struck me when playing the demo is that I’m not sure why it doesn’t have voice-acting. I think it would benefit from it. And I still don’t understand – although I’m sure there’s a stock answer to this – but why don’t the pokémon have their anime voices? Why don’t they shout their names?
   role: question
   speaker: GC
@@ -200,11 +200,11 @@ parallel_items:
 - original: I don’t mean for these questions to come across as negative, but I guess that’s the nature of an interview like this. But the other thing I’d like to see improve is the artificial intelligence. It’s always seemed essentially random, where quite often I’ll only win a difficult battle because my computer opponent made a nonsensical choice. How much of that is intentional versus a technical limitation?
   role: question
   speaker: GC
-  translation: 我不是想让这些问题显得负面，但我想这类采访就是这样。不过另一件我希望看到改进的事是人工智能。它似乎一直基本上都是随机的，我常常只是因为电脑对手做出了莫名其妙的选​​择才赢下一场艰难的战斗。这其中有多少是有意为之，又有多少是技术限制？
+  translation: "我不是想让这些问题显得负面，但我想这类采访就是这样。不过另一件我希望看到改进的事是人工智能。它似乎一直基本上都是随机的，我常常只是因为电脑对手做出了莫名其妙的选择才赢下一场艰难的战斗。这其中有多少是有意为之，又有多少是技术限制？"
 - original: The AI is always something we pour a huge amount of research into when we’re developing the game. So, for example, we’ll experiment and have the AI fight off against itself to see what that does and really fine tune the AI that we create. So it really is quite difficult to tune accurately. [laughs]
   role: answer
   speaker: 大森滋
-  translation: 开发游戏时，AI一直是我们投入大量研究的东西。比如，我们会做实验，让AI自己和自己对战，看看会怎样，并真正对我们创造的AI进行微调。所以要准确调校确实相当困难。[笑]
+  translation: "开发游戏时，AI一直是我们投入大量研究的东西。比如，我们会做实验，让AI自己和自己对战，看看会怎样，并真正对我们创造的AI进行微调。所以要准确调校确实相当困难。（笑）"
 - original: We could, of course, make the AI way smarter, and make it really difficult to fight against but by doing that you could end up making the game not very interesting at all, and it’d become just purely difficult. So instead of really focusing on making the AI strong or weak what we do is make it fight in such a way that it’s interesting for the player and the player has a feeling of enjoyment and also a sense of achievement. So that’s something we focus on as we’re creating the AI, not just whether it’s easy or difficult. It’s something that a lot of effort goes into but it’s tricky to find that balance.
   role: answer
   speaker: 大森滋
@@ -224,7 +224,7 @@ parallel_items:
 - original: Another feature is that you can see what other players are doing or what they’re looking to do. So you can send what are kind of stamps to show, ‘I want to trade’ or ‘I’m camping’ – things like that. So you can see what they’re doing, they can see what you’re doing. So there’s a lot more interaction there with other players in this game.
   role: answer
   speaker: 大森滋
-  translation: 另一个功能是，你可以看到其他玩家在做什么，或者他们想做什么。所以你可以发送类似 stamps 的东西来表明‘我想交换’或‘我在露营’之类的。这样你就能看到他们在做什么，他们也能看到你在做什么。所以这款游戏中有更多与其他玩家的互动。
+  translation: "另一个功能是，你可以看到其他玩家在做什么，或者他们想做什么。所以你可以发送类似图章的东西来表明‘我想交换’或‘我在露营’之类的。这样你就能看到他们在做什么，他们也能看到你在做什么。所以这款游戏中有更多与其他玩家的互动。"
 - original: So, that’s primarily in the Wild Area?
   role: question
   speaker: GC
@@ -232,7 +232,7 @@ parallel_items:
 - original: Yeah, where other players appear and you can directly interact with them is predominately the Wild Area. But where you can share what you’re doing and other players can do the same, that is basically anywhere. You can send out a ‘I want to trade’ stamp anywhere.
   role: answer
   speaker: 大森滋
-  translation: 是的，其他玩家出现并且你可以直接与他们互动的地方主要是在旷野地带。但你可以分享你正在做的事情，其他玩家也可以这样做，这基本上在任何地方都可以。你可以在任何地方发出‘我想交换’的 stamps。
+  translation: "是的，其他玩家出现并且你可以直接与他们互动的地方主要是在旷野地带。但你可以分享你正在做的事情，其他玩家也可以这样做，这基本上在任何地方都可以。你可以在任何地方发出‘我想交换’的图章。"
 - original: And then they’ll appear in the game world?
   role: question
   speaker: GC
@@ -249,7 +249,7 @@ parallel_items:
 - original: 'The Japanese term for Y-Comm is YY Communication, YY means to have fun, everyone excited together. But also, you press ‘Y’ on the Switch to activate it and YY kind of sounds like Wi-Fi. [laughs]'
   role: answer
   speaker: 大森滋
-  translation: Y-Comm的日文名称是YY通信，YY意味着一起开心，大家兴奋。而且，你在Switch上按‘Y’键来激活它，YY听起来有点像Wi-Fi。[笑]
+  translation: "Y-Comm的日文名称是YY通信，YY意味着一起开心，大家兴奋。而且，你在Switch上按‘Y’键来激活它，YY听起来有点像Wi-Fi。（笑）"
 - original: It has always seemed to me that, perhaps because they’re both two large island nations, there are more cultural similarities between the UK and Japan than you might at first think. A love of puns in particular I think, which I notice so often when looking into the explanation for Japanese names in games. Is that something that you noticed while making this game?
   role: question
   speaker: GC
@@ -265,7 +265,7 @@ parallel_items:
 - original: Monty Python! [laughs] I’m particularly fond of puns. Not just in preparation for this game but even in the past I’ve watched a lot of UK programmes and pun-heavy humour.
   role: answer
   speaker: 大森滋
-  translation: 《蒙提·派森》！[笑]我特别喜欢双关语。不只是为了这款游戏的准备，过去我也看过很多英国节目和大量使用双关语的幽默。
+  translation: "巨蟒剧团！（笑）我特别喜欢双关语。不只是为了这款游戏的准备，过去我也看过很多英国节目和大量使用双关语的幽默。"
   note: 《蒙提·派森》是英国著名喜剧团体，以《蒙提·派森的飞行马戏团》等作品闻名。
 - original: I just realised why a lot of these questions have a tinge of negativity, it’s because I’ve been talking to fans to get them.
   role: question
@@ -294,7 +294,7 @@ parallel_items:
 - original: '[laughs] It’s sure to be a good thing because pokémon, really, are all friendly. So if they actually existed they definitely wouldn’t try and destroy the world or anything.'
   role: answer
   speaker: 增田顺一
-  translation: '[笑] 这肯定是件好事，因为宝可梦其实都很友善。所以如果它们真的存在，绝对不会试图毁灭世界之类的。'
+  translation: "（笑）这肯定是件好事，因为宝可梦其实都很友善。所以如果它们真的存在，绝对不会试图毁灭世界之类的。"
 - original: Well, that’s a relief.
   role: question
   speaker: GC
@@ -302,11 +302,11 @@ parallel_items:
 - original: '[laughs] Although if you did something really bad they might kind of gang up on you…'
   role: answer
   speaker: 增田顺一
-  translation: '[笑] 不过如果你做了什么很坏的事，它们可能会联合起来对付你……'
+  translation: "（笑）不过如果你做了什么很坏的事，它们可能会联合起来对付你……"
 - original: '[laughs] Okay, well I’ll bear that in mind. Thank you very much for your time, it’s been great to talk to you both.'
   role: question
   speaker: GC
-  translation: '[笑] 好，我会记住的。非常感谢你们抽出时间，和二位交谈很愉快。'
+  translation: "（笑）好，我会记住的。非常感谢你们抽出时间，和二位交谈很愉快。"
 - original: '[in English] Thank you!'
   role: answer
   speaker: 增田顺一

@@ -189,7 +189,7 @@ parallel_items:
 - original: I mean, from my perspective, it’s always been in the back of my mind that at some point we were going to have to not include all the Pokémon. One of the things we’ve tried to do this time around, and we don’t have a lot of details to share, but we’re introducing a cloud service called Pokémon Home and we really want to use that to kind of expand the Pokémon world, provide a place for players to be able to gather all of their Pokémon in one spot, do fun things, and also use it as a launching pad for different adventures and different games.
   role: answer
   speaker: 增田顺一
-  translation: 我的意思是，从我的角度来看，我一直隐隐约约地意识到，总有一天我们不得不不再包含所有宝可梦。这次我们尝试做的一件事——我们没有太多细节可以分享——是我们推出了一个叫Pokémon Home的云服务，我们真的很想用它来扩展宝可梦世界，为玩家提供一个能把所有宝可梦聚集在一处、做有趣事情的地方，同时也把它作为不同冒险和不同游戏的发射台。
+  translation: "我的意思是，从我的角度来看，我心里一直有个念头：总有一天我们没法再收录所有宝可梦。这次我们尝试做的一件事——我们没有太多细节可以分享——是我们推出了一个叫Pokémon Home的云服务，我们真的很想用它来扩展宝可梦世界，为玩家提供一个能把所有宝可梦聚集在一处、做有趣事情的地方，同时也把它作为不同冒险和不同游戏的发射台。"
 - original: Did you see the, the Twitter challenge, “make a Pokémon in five minutes?”
   role: question
   speaker: Polygon

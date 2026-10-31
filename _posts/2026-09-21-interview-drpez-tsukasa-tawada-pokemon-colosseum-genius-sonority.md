@@ -38,6 +38,8 @@ entities:
   works:
   - 宝可梦圆形竞技场
   - 宝可梦XD 暗之旋风 黑暗洛奇亚
+  - 伊哈托夫物语
+  - 勇者斗恶龙
 workflow:
   fetch: live
   translation: deepseek-chat
@@ -60,13 +62,13 @@ parallel_items:
   quote: true
   translation: 2：负责正传游戏的音响指导与技术实现，以及多首曲目的编曲
 - original: My first run-in with Tawada’s work occurred back in 2004, when Pokémon Colosseum was released internationally. For context, I was around 10 years old at the time and my reference for what a Pokemon game looked like was based on Ruby and Sapphire—the latest games in the series up to that point.
-  translation: "我第一次接触到多和田的作品是在2004年，当时《宝可梦圆形竞技场》在国际上发行。说明一下背景：我那时大约10岁，我对宝可梦游戏长什么样的参照标准来自《红宝石／蓝宝石》——那是当时该系列最新的作品。"
+  translation: "我第一次接触到多和田的作品是在2004年，当时《宝可梦圆形竞技场》在国际上发行。说明一下背景：我那时大约10岁，心目中宝可梦游戏的样子，是以当时系列最新的作品《红宝石·蓝宝石》为准的。"
 - original: Then Pokémon Colosseum came and turned that reference on its head.
   translation: "然后《宝可梦圆形竞技场》出现了，彻底颠覆了我的参照标准。"
 - original: Graphics aside, perhaps the most notable difference was in the game’s tone; instead of a bright world full of possibility and optimism, the player is thrust into a crime-ridden world filled with shady, run-down areas occupied by seedy characters who won’t hesitate to exploit Pokemon to their advantage.
   translation: "撇开画面不谈，最明显的不一样或许是游戏的基调：玩家被丢进的不是一个充满可能性与乐观的明亮世界，而是一个犯罪横行、到处是阴暗破败之地、充斥着不择手段利用宝可梦谋私利的卑劣角色的世界。"
 - original: And playing in the background, constantly reinforcing that darker, edgy tone is Tawada’s distinctive soundtrack, immersing the player through the entirety of their journey. I was hooked.
-  translation: "而在背景中不断强化那种更黑暗、更前卫基调的，正是多和田独具特色的配乐，让玩家在整个旅程中始终沉浸其中。我被深深吸引了。"
+  translation: "而在背景中不断强化那种更黑暗、更尖锐的基调的，正是多和田独具特色的配乐，让玩家在整个旅程中始终沉浸其中。我被深深吸引了。"
 - original: 'Fast forward to 2012: by this time I’d developed a passionate hobby for covering video game tunes and sharing them on YouTube to some modest success. Given the impact that Pokémon Colosseum’s music had on me at the time, it’s no surprise that I chose to dig into Colosseum’s OST for new material to cover, starting with Cipher Peon Battle and its iconic guitar melody (that still gives me goosebumps to this day).'
   translation: "时间快进到2012年：那时我已经把翻奏游戏音乐并分享到YouTube发展成了一项充满热情的爱好，并取得了一些小小的成绩。鉴于《宝可梦圆形竞技场》的音乐当时对我产生的影响，我选择深入挖掘《圆形竞技场》的原声带寻找新的翻奏素材也就不足为奇了，首先从《暗影团手下战斗》及其标志性的吉他旋律开始（至今仍让我起鸡皮疙瘩）。"
 - original: After uploading that video, I shared it with Tawada, and to my astonishment, actually received a response, and a heartfelt one at that, giving praise for the accuracy of the performance and offering words of encouragement. For a young musician like myself at the time, this was an invaluable gift which filled me with motivation to do even better and eventually led to more ambitious projects like the Pokémon Colosseum Medley, which in turn paved the way for even larger projects.
@@ -78,7 +80,7 @@ parallel_items:
 - original: 'Fast forward to 2025: at this point I’d been out of touch with Tawada for nearly a decade, but I’d finally decided to take the plunge and visit Japan. Given the amount of time that had passed, I had no expectation of meeting but figured I’d reach out anyway, letting him know of my upcoming trip. As luck would have it, he responded enthusiastically, agreeing to meet up and even going so far as to organize studio time for us to record in.'
   translation: 快进到2025年：此时我已经和多和田将近十年没有联系，但我终于下定决心去日本一趟。考虑到已经过去了这么久，我并没有指望能见面，但还是想着不妨联系一下，告诉他我即将到来的行程。幸运的是，他热情地回复了，同意见面，甚至主动为我们安排了录音室的录音时间。
 - original: Towards the end of my trip in Japan, I met up with my friend and fellow video game musician Jonathan Parecki, who, having lived there for several years already, was a godsend in helping everything run smoothly and maintaining good vibes during what were a hectic few days of navigating the expansiveness of Tokyo in preparation for the session.
-  translation: 在日本行程接近尾声时，我和我的朋友、同为电子游戏音乐人的Jonathan Parecki碰了面。他已经在日本生活了好几年，在那几天为准备录音而穿梭于东京广阔城区、忙得不可开交的日子里，他帮一切顺利进行、维持良好氛围，简直是天赐之助。
+  translation: "在日本行程接近尾声时，我和朋友、同为电子游戏音乐人的Jonathan Parecki碰了面。他已经在日本生活了好几年，在为录音做准备、穿梭于偌大的东京的那几天忙乱日子里，他帮了大忙，让一切顺顺利利，气氛也一直很好。"
 - original: In the end, what resulted was a surreal couple of days that I’ll never forget, which involved meeting up with the composer of some of mine and Jonathan’s favorite soundtracks, recording music together, and getting the opportunity to ask some burning questions that only Tawada himself could answer.
   translation: 最终的结果是难以忘怀、恍如梦境的两天：我们见到了我和Jonathan最喜爱的一些原声带的作曲者，一起录制音乐，还有机会问出一些只有多和田本人才能回答的迫切问题。
 - original: What follows is a revised transcript of our conversation that took place after the “rehearsal” session on day one of our time together.
@@ -96,7 +98,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/001.png
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: 'From left to right: Parecki, Tawada, and Pez in the studio'
+  caption: "从左到右：Parecki、多和田和Pez在录音室里"
+  caption_original: "From left to right: Parecki, Tawada, and Pez in the studio"
 - type: heading
   level: 2
   original: Interview
@@ -124,7 +127,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/002.png
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: Tawada (right) answering questions from Parecki (left) and Pez (center)
+  caption: "多和田（右）回答Parecki（左）和Pez（中）的提问"
+  caption_original: "Tawada (right) answering questions from Parecki (left) and Pez (center)"
 - type: heading
   level: 3
   original: Early Years
@@ -180,7 +184,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/003.jpeg
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: A young Tawada playing the piano
+  caption: "年轻时弹钢琴的多和田"
+  caption_original: "A young Tawada playing the piano"
 - type: heading
   level: 3
   original: Gravitating Towards Composing
@@ -288,7 +293,7 @@ parallel_items:
 - original: After that game was released, I received many compliments from the staff praising the music—that led to me being commissioned for all of the company’s projects.
   role: answer
   speaker: 多和田吏
-  translation: "那款游戏发售后，公司里的人纷纷夸音乐做得好——后来公司所有的项目都交给我来负责了。"
+  translation: "那款游戏发售后，公司里的人纷纷夸音乐做得好——于是公司所有项目的音乐都委托给了我。"
 - original: What was your experience like composing on that first project? Did you run into any challenges in the process?
   role: question
   speaker: Dr. Pez
@@ -312,7 +317,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/004.jpg
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: Tawada’s hand-written sheet music for Druid (1988)
+  caption: "多和田为《Druid》（1988年）手写的乐谱"
+  caption_original: "Tawada’s hand-written sheet music for Druid (1988)"
 - type: heading
   level: 3
   original: The Technical Process
@@ -332,11 +338,11 @@ parallel_items:
 - original: That initial phase of establishing that musical vision is crucial. Only once that’s solidified can you move on to the programming phase, which involves inputting the performance data using a computer or similar tool. Tempo, phrasing, and articulation —that data all needs to be carefully specified for every note.
   role: answer
   speaker: 多和田吏
-  translation: "先把音乐构想确立下来，这一步至关重要。只有这一步定下来，才能进入编程阶段，也就是用电脑或类似工具输入演奏数据。速度、乐句划分、发音方式——每一个音符的这些数据都需要仔细指定。"
+  translation: "先把音乐构想确立下来，这一步至关重要。只有这一步定下来，才能进入编程阶段，也就是用电脑或类似工具输入演奏数据。速度、乐句划分、运音法——每一个音符的这些数据都需要仔细指定。"
 - original: In my case, I did everything from start to finish, including the implementation itself.
   role: answer
   speaker: 多和田吏
-  translation: 就我而言，从开始到结束，包括植入工作本身，全都是我一个人做的。
+  translation: "就我而言，从头到尾都是我一个人做的，连把音乐实现到游戏里的工作也不例外。"
 - original: What kind of technical knowledge did you need to acquire in order to implement the music into the game?
   role: question
   speaker: Dr. Pez
@@ -380,7 +386,7 @@ parallel_items:
 - original: Jonathan breaks into “Living on a Prayer” - everyone joins in.
   role: answer
   speaker: 多和田吏
-  translation: 乔纳森突然唱起《Living on a Prayer》——大家都跟着唱了起来。
+  translation: "Jonathan突然唱起《Living on a Prayer》——大家都跟着唱了起来。"
 - original: See? Music is great, isn’t it? It brings people together as fellow music lovers, regardless of age.
   role: answer
   speaker: 多和田吏
@@ -428,11 +434,12 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/005.png
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: A signed copy of Suite Ihatovo Monogatari for Piano Solo
+  caption: "签了名的《伊哈托夫物语 钢琴独奏组曲》（Suite Ihatovo Monogatari for Piano Solo）"
+  caption_original: "A signed copy of Suite Ihatovo Monogatari for Piano Solo"
 - original: 'T: For this game, I made the most of the Super Famicom’s 8-voice sound system to create music featuring emotional melodies played on acoustic instruments.'
   role: question
   speaker: Dr. Pez
-  translation: "T：为这款游戏，我充分利用了超级任天堂的8通道发声系统，创作出以原声乐器演奏、旋律富有情感的音乐。"
+  translation: "T：为这款游戏，我充分利用了超级红白机的8声部发声系统，创作出以原声乐器演奏、旋律富有情感的音乐。"
 - original: That music was so well-received that Koichi Sugiyama, the composer for Dragon Quest, happened to hear it live at the Tokyo Game Show and invited me to work together on Dragon Quest—it was a pivotal title for me.
   role: answer
   speaker: 多和田吏
@@ -444,7 +451,7 @@ parallel_items:
 - original: Drawing on my experience as a pianist, I put extra care into packing as much musical expression as I could into the score, but also doing so in a way that ensured that expressive nuance wasn’t lost by the Super Famicom’s limited sound system. As such, I carefully crafted the instrument sounds so that they could stand up to that level of expressive performance.
   role: answer
   speaker: 多和田吏
-  translation: "我把自己当钢琴家的经验用上了，特别用心，尽量在配乐里塞进更多的音乐表现，同时又要保证这些表现上的细微差别不会因为超级任天堂发声系统有限而丢掉。所以，我仔细打磨乐器音色，让它们撑得住那种层次的表现力演奏。"
+  translation: "我把自己当钢琴家的经验用上了，特别用心，尽量在配乐里塞进更多的音乐表现，同时又要保证这些表现上的细微差别不会因为超级红白机发声系统有限而丢掉。所以，我仔细打磨乐器音色，让它们撑得住那种层次的表现力演奏。"
 - original: I think that element of expressiveness is what made the impression.
   role: answer
   speaker: 多和田吏
@@ -488,7 +495,7 @@ parallel_items:
 - type: heading
   level: 3
   original: Scoring Pokemon’s Grittiest Game
-  translation: 为宝可梦最硬核的游戏配乐
+  translation: "为宝可梦最粗粝的游戏配乐"
 - original: Pokémon Colosseum is very different from the rest of the mainline games, most notably because of its darker tone. Where did the decision to give the game a darker tone come from?
   role: question
   speaker: Dr. Pez
@@ -644,7 +651,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/006.jpeg
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: 'Tawada in front of a poster for Pokemon XD: Gale of Darkness'
+  caption: "多和田站在《宝可梦XD 暗之旋风 黑暗洛奇亚》的海报前"
+  caption_original: "Tawada in front of a poster for Pokemon XD: Gale of Darkness"
 - type: heading
   level: 3
   original: Re-visiting Past Work
@@ -700,7 +708,7 @@ parallel_items:
 - original: Live performance of “Miror B. Battle” from our 2025 session
   role: answer
   speaker: 多和田吏
-  translation: "2025年演出中《Miror B. Battle》的现场演奏"
+  translation: "2025年我们那次合奏中《Miror B. Battle》的现场演奏"
 - original: Well it’s been an honor and a privilege, thank you!
   role: question
   speaker: Dr. Pez
@@ -790,7 +798,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority/007.png
   alt: 'Tsukasa Tawada: A Peek Into the Mind of a Composer'
-  caption: Three happy musicians
+  caption: "三位开心的音乐人"
+  caption_original: "Three happy musicians"
 - original: You can follow Tawada on YouTube, X, and nanomusicpro.com.
   translation: "你可以在 YouTube、X 和 nanomusicpro.com 上关注多和田。"
 ---
