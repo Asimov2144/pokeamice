@@ -480,7 +480,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "カフェ\n31 カフェ・ツイスター\n32 カフェ・ひとみしり\n33 カフェ・アラモード\n34 カフェ・トウトウ\n35 カフェ・ソレイユ\n36 カフェ・フォーカス\n37 カフェ・スラローム\n38 カフェ・おとこまえ\n39 カフェ・カンコドール\n40 フラダリカフェ\n41 カフェ・かわいがり\n42 カフェ・アルティメット\n43 カフェ・パルトネール\n44 カフェ・リテイク\n45 カフェ・バタイユ"
-    translation: "咖啡馆\n31 龙卷风咖啡馆\n32 帕生咖啡店\n33 时髦咖啡馆\n34 汪汪咖啡馆\n35 旭日咖啡馆\n36 定焦咖啡馆\n37 回旋咖啡馆\n38 英俊咖啡馆\n39 罗雀咖啡馆\n40 弗拉达利咖啡店\n41 友友乐咖啡馆\n42 极训咖啡馆\n43 牵绊咖啡馆\n44 开拍咖啡馆\n45 对战迷咖啡馆"
+    translation: "咖啡馆\n31 龙卷风咖啡馆\n32 怕生咖啡店\n33 时髦咖啡馆\n34 汪汪咖啡馆\n35 旭日咖啡馆\n36 定焦咖啡馆\n37 回旋咖啡馆\n38 英俊咖啡馆\n39 罗雀咖啡馆\n40 弗拉达利咖啡店\n41 友友乐咖啡馆\n42 极训咖啡馆\n43 牵绊咖啡馆\n44 开拍咖啡馆\n45 对战迷咖啡馆"
     scan_box:
       - 451
       - 1010
@@ -638,7 +638,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "トリックを教えてくれる人も!ローラースケートは民の足"
-    translation: 还有人教你戏法！轮滑手是市民的代步工具
+    translation: "还有人教你花式动作！轮滑鞋是市民的代步工具"
     scan_box:
       - 645
       - 1577
@@ -654,7 +654,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: ローラースケートで街を走る人の姿もよく見かけます。新しいトリック(技)を伝授してくれる人もいるので、気軽に交流してみましょう。
-    translation: 街上也常能看到踩着轮滑手滑行的人。还有人会传授新的戏法（招式），不妨轻松地与他们交流。
+    translation: "街上也常能看到踩着轮滑鞋滑行的人。还有人会传授新的花式动作（技巧），不妨轻松地与他们交流。"
     scan_box:
       - 595
       - 1690
@@ -767,7 +767,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: "Upper screenオウッ! ノット スタイリッシュ!……申し訳 ございません"
-    translation: Upper screen 哦！不够时尚！……非常抱歉
+    translation: "上屏 哦！不够时尚！……非常抱歉"
     scan_box:
       - 1088
       - 1868
@@ -810,7 +810,7 @@ translation_segments:
     scan_page: 0
     review_status: review
     original: Upper screen
-    translation: Upper screen
+    translation: "上屏"
     scan_box:
       - 1365
       - 1976
@@ -1144,7 +1144,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Upper screen←ここの検定を受けられるのは実力者のみ！
-    translation: Upper screen←能在这里接受测试的只有实力者！
+    translation: "上屏←能在这里接受测试的只有实力者！"
     scan_box:
       - 61
       - 1174
@@ -1187,7 +1187,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Upper screen→実力トレーナーが腕を磨くにはぴったり
-    translation: Upper screen→对实力训练家来说，这里是磨练身手的好地方
+    translation: "上屏→对实力训练家来说，这里是磨练身手的好地方"
     scan_box:
       - 124
       - 1362
@@ -1246,7 +1246,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Upper screen
-    translation: Upper screen
+    translation: "上屏"
     scan_box:
       - 506
       - 1368
@@ -1321,7 +1321,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Upper screen↑自慢のポケモンもいっしょに出演できます。メイクのサービスもあり！
-    translation: Upper screen↑自豪的宝可梦也能一起出镜。还有化妆服务！
+    translation: "上屏↑自豪的宝可梦也能一起出镜。还有化妆服务！"
     scan_box:
       - 796
       - 1309
@@ -1520,7 +1520,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: プランニングディレクターから、着せ替えした自分を見せたくなる面白いプロモーションビデオを作ってくれと言われたんです。打ち合わせをして、平成の変身ものアニメみたいな「女の子の変身バンクが作れる」というのが最初の目標になりまして。そこから「どんな背景やポーズ、曲があれば男の子も満足するかな」と、足し算で付け加えていきました。
-    translation: 企划总监对我说，做一个让人想展示换装后自己的有趣宣传视频。经过商讨，最初的目标是做成类似平成变身系动画那种“能做出女孩变身兼用卡”的效果。之后又以“加上怎样的背景、姿势和歌曲，男孩也会满意”为思路，不断做加法补充。
+    translation: "企划总监对我说，要做一个让人想把换装后的自己展示出来的有趣的宣传视频。经过商讨，最初的目标是做成类似平成年代变身类动画那样“能做出少女变身镜头（变身Bank）”的东西。之后以“要有怎样的背景、姿势和曲子，男孩子也会满意呢”为思路，一点一点做加法补充上去。"
     scan_box:
       - 440
       - 1491
@@ -2005,7 +2005,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 07 グランドホテルシュールリッシュ場所▶ノースサイドストリート
-    translation: 07 豪华酒店舒尔里什 地点▶北侧大道
+    translation: "07 舒尔利什大酒店 地点▶北侧大道"
     scan_box:
       - 1189
       - 430
@@ -2263,7 +2263,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンが喜ぶドリンクいっぱい特製ジュースが名物。きのみを使って自分でジュースを作ることも。
-    translation: 宝可梦喜爱的饮品应有尽有 特制果汁是招牌。也可以用果实自己制作果汁。
+    translation: "宝可梦喜爱的饮品应有尽有 特制果汁是招牌。也可以用树果自己制作果汁。"
     scan_box:
       - 454
       - 883
@@ -2295,7 +2295,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: こちら プレミアム きのみジュース カウンターです
-    translation: 这里是高级果实果汁柜台
+    translation: "这里是高级树果果汁柜台"
     scan_box:
       - 539
       - 1071
@@ -2361,7 +2361,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ←「ミアレガレット」は人気のお菓子。ポケモンの状態異常も治る！76298円
-    translation: ←“密阿雷格雷派饼”是人气点心。还能治愈宝可梦的异常状态！76298元
+    translation: "←“密阿雷格雷派饼”是人气点心。还能治愈宝可梦的异常状态！76298日元"
     scan_box:
       - 1449
       - 932
@@ -2862,7 +2862,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "●カフェ・ツイスター …………31 ちょっと変わった常連が多いカフェ\n●カフェ・ひとみしり …………32 通信マニアたちのたまり場\n●カフェ・アラモード …………33 ファッション通のお客が多い\n●カフェ・トウトウ ……………34 トリミアン好きがトリミアン自慢に集まる\n●カフェ・スラローム …………37 ローラースケーターたちが集う\n●カフェ・おとこまえ …………38 なぜかマスターがたくさんいるカフェ\n●カフェ・かわいがり …………41 老若男女のポケモン好きが集まる\n●カフェ・アルティメット ……42 「スパトレ」マニアだらけのカフェ\n●カフェ・パルトネール ………43 タクシー運転手によると「明るくない」とか\n●カフェ・リティク ……………44 トレーナープロモ好きの聖地\n●カフェ・バタイユ ……………45 バトルを極めようとする猛者が集まるカフェ"
-    translation: "●龙卷风咖啡馆 …………31 怪客常客较多的咖啡馆\n●帕生咖啡店 …………32 通信狂人们的聚集地\n●时髦咖啡馆 …………33 时尚通客人较多\n●汪汪咖啡馆 ……………34 喜欢多丽米亚的人聚在一起炫耀多丽米亚\n●回旋咖啡馆 …………37 轮滑手们聚集于此\n●英俊咖啡馆 …………38 不知为何老板很多的咖啡馆\n●友友乐咖啡馆 …………41 老少男女的宝可梦爱好者聚集于此\n●极训咖啡馆 ……42 净是「超级训练」狂人的咖啡馆\n●牵绊咖啡馆 ………43 据出租车司机说「不太明亮」\n●开拍咖啡馆 ……………44 喜欢训练家宣传片的人的圣地\n●对战迷咖啡馆 ……………45 立志将对战练到极致的猛者们聚集的咖啡馆"
+    translation: "●龙卷风咖啡馆 …………31 怪客常客较多的咖啡馆\n●怕生咖啡店 …………32 通信狂人们的聚集地\n●时髦咖啡馆 …………33 时尚通客人较多\n●汪汪咖啡馆 ……………34 喜欢多丽米亚的人聚在一起炫耀多丽米亚\n●回旋咖啡馆 …………37 轮滑手们聚集于此\n●英俊咖啡馆 …………38 不知为何老板很多的咖啡馆\n●友友乐咖啡馆 …………41 老少男女的宝可梦爱好者聚集于此\n●极训咖啡馆 ……42 净是「超级训练」狂人的咖啡馆\n●牵绊咖啡馆 ………43 据出租车司机说「不太明亮」\n●开拍咖啡馆 ……………44 喜欢训练家宣传片的人的圣地\n●对战迷咖啡馆 ……………45 立志将对战练到极致的猛者们聚集的咖啡馆"
     scan_box:
       - 865
       - 1645
@@ -2946,7 +2946,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: "『ポケモン X・Y』に登場する、さまざまな人物にスポットを当てるコーナー。今回は、ミアレシティで初めて出会うことになる、主人公たちとも縁が深い2人の登場人物を紹介します!"
-    translation: 这是一个聚焦《宝可梦 X・Y》中登场形形色色人物的栏目。本次将介绍在密阿雷市初次相遇、与主角们缘分颇深的两位登场人物！
+    translation: "这是一个聚焦《宝可梦 X·Y》中登场形形色色人物的栏目。本次将介绍在密阿雷市初次相遇、与主角们缘分颇深的两位登场人物！"
     scan_box:
       - 395
       - 219
@@ -3298,7 +3298,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 『ポケットモンスター X・Y』のサウンドトラックCDの ごあんないです
-    translation: 《宝可梦 X・Y》原声带CD的介绍
+    translation: "《宝可梦 X·Y》原声带CD的介绍"
     scan_box:
       - 828
       - 1028
@@ -3756,7 +3756,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: あて先 〒101-8469 ニンドリ編集部「カロスコレクション」係
-    translation: 收件地址 邮编101-8469 ニンドリ编辑部「卡洛斯收藏」栏目组
+    translation: "收件地址 邮编101-8469 Nindori编辑部「卡洛斯收藏」栏目组"
     scan_box:
       - 627
       - 1982

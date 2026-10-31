@@ -29,7 +29,7 @@ intro: '2013年11月，在《宝可梦 X／Y》正式发售之际，Eurogamer �
 parallel_items:
 - type: narrative
   original: 'Hablamos con el director de los nuevos Pokémon X e Y: Junichi Masuda no lleva poco tiempo dedicándose a Pokémon, precisamente; Pokémon X y Pokémon Y son los últimos pasos en un camino que se remonta a Rojo y Azul, y no parece que vayan a ser los últimos. Nos reunimos con Masuda en Londres para hablar sobre cómo X e Y no son un reboot, pero sí un intento de eliminar barreras de acceso y hacer que todo el mundo pueda disfrutar del juego; sobre cómo la liga competitiva influye en la adición de nuevos monstruos y mecánicas de combate; y sobre los temas que recorren la historia de las dos últimas entregas de la serie.'
-  translation: Eurogamer：我们与新作《宝可梦 X／Y》的总监增田顺一进行了交谈。增田顺一投身宝可梦系列已有多时，确切地说，《宝可梦 X／Y》是他自《宝可梦 红／蓝》以来漫长旅程中的最新篇章，而且这似乎并不会是终点。我们在伦敦与增田会面，讨论了《X／Y》并非重启之作，而是旨在消除入门障碍，让所有人都能享受游戏的尝试；探讨了竞技联盟如何影响新宝可梦与战斗机制的加入；以及贯穿系列最近两部作品故事的主题。
+  translation: "Eurogamer：我们与新作《宝可梦 X·Y》的总监增田顺一进行了交谈。增田顺一投身宝可梦系列已有多时，确切地说，《宝可梦 X·Y》是他自《宝可梦 红·蓝》以来漫长旅程中的最新篇章，而且这似乎并不会是终点。我们在伦敦与增田会面，讨论了《X·Y》并非重启之作，而是旨在消除入门障碍，让所有人都能享受游戏的尝试；探讨了竞技联盟如何影响新宝可梦与战斗机制的加入；以及贯穿系列最近两部作品故事的主题。"
 - type: image
   src: /assets/img/interviews/2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida/01_hero_masuda_eurogamer.jpg
   alt: 增田顺一在伦敦接受 Eurogamer 专访
@@ -67,22 +67,22 @@ parallel_items:
 - type: dialogue
   speaker: Eurogamer
   original: Con cada juego de la serie se han añadido nuevas capas de complejidad, nuevas opciones, nuevos monstruos. ¿Crees que este incremento en la complejidad puede distraer a los jugadores del lema original, del Hazte con todos?
-  translation: 随着系列每一部作品的推出，游戏都会增添新的复杂层次、新选项和新宝可梦。您认为这种复杂性的增加是否可能让玩家偏离最初的标语——“宝可梦，抓到啦！”？
+  translation: "随着系列每一部作品的推出，游戏都会增添新的复杂层次、新选项和新宝可梦。您认为这种复杂性的增加是否可能让玩家偏离最初的标语——“全部抓到！”？"
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: Bueno, creo que el todos de Hazte con todos depende la interpretación personal de cada jugador; puede significar algo diferente para distintas personas. Por ejemplo, alguna gente quizá quiera cazar todos los Pokémon de cierto tipo, o todos sus Pokémon favoritos. Realmente no creo que sea tan importante cazar todos y cada uno de los Pokémon; alguna gente quizá sólo quiera cazar los Pokémon brillantes, que es una tarea muy difícil (ríe). Creo que el hecho de tener tantos Pokémon, tan versátiles y tan variados, es uno de los puntos fuertes de la serie.
-  translation: 嗯，我认为“抓到啦！”中的“全部”取决于每位玩家的个人解读；对不同的人来说，它可能意味着不同的东西。比如，有些人或许想捕捉某一特定属性的所有宝可梦，或是他们最喜欢的那些宝可梦。我真的不觉得捕捉每一只宝可梦有那么重要；有些人可能只想捕捉闪光宝可梦，那可是项非常艰巨的任务（笑）。我认为拥有这么多宝可梦，如此多样且各具特色，正是该系列的一大强项。
+  translation: "嗯，我认为“全部抓到！”中的“全部”取决于每位玩家的个人解读；对不同的人来说，它可能意味着不同的东西。比如，有些人或许想捕捉某一特定属性的所有宝可梦，或是他们最喜欢的那些宝可梦。我真的不觉得捕捉每一只宝可梦有那么重要；有些人可能只想捕捉闪光宝可梦，那可是项非常艰巨的任务（笑）。我认为拥有这么多宝可梦，如此多样且各具特色，正是该系列的一大强项。"
   role: answer
 - type: dialogue
   speaker: Eurogamer
   original: ¿Se pueden completar la Pokédex teniendo sólo X e Y?
-  translation: 仅凭《X／Y》能否完成宝可梦图鉴？
+  translation: "仅凭《X·Y》能否完成宝可梦图鉴？"
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: Llenar la Pokédex es uno de los objetivos principales para mucha gente, y eso está bien, ya digo, pero esta vez, con el lanzamiento simultáneo en todo el mundo será diferente que con otros juegos, que salían antes en Japón y eso hacía que toda la información estuviera en internet antes de que los jugadores del resto del mundo tuvieran la oportunidad de jugar. Esta vez quiero de verdad que la gente sienta el misterio de no saber qué Pokémon habrá en X e Y; estoy muy emocionado por la posibilidad de que haya alguien que sea el primero en el todo el mundo en encontrar un Pokémon nuevo y pueda compartirlo con todos los demás, esté donde esté en el planeta. Otro detalle interesante que tiene la Pokédex en esta ocasión es que si intercambias un Pokémon con alguien que tiene el juego en otro idioma, desbloqueas la entrada de la Pokédex en ese idioma.
-  translation: 完成宝可梦图鉴是许多人的主要目标之一，这很好，正如我所说，但这次全球同步发售将与以往不同，以往游戏先在日本上市，导致世界其他地方的玩家还没机会玩到，所有信息就已经在网上传开了。这次我真心希望人们能感受到不知道《X／Y》中会出现哪些宝可梦的神秘感；我非常激动地期待着，有人能成为世界上第一个发现新宝可梦的人，并无论身处地球何处都能与其他人分享。这次宝可梦图鉴还有一个有趣的特点，如果你与拥有其他语言版本游戏的人交换宝可梦，就能解锁该语言的宝可梦图鉴条目。
+  translation: "完成宝可梦图鉴是许多人的主要目标之一，这很好，正如我所说，但这次全球同步发售将与以往不同，以往游戏先在日本上市，导致世界其他地方的玩家还没机会玩到，所有信息就已经在网上传开了。这次我真心希望人们能感受到不知道《X·Y》中会出现哪些宝可梦的神秘感；我非常激动地期待着，有人能成为世界上第一个发现新宝可梦的人，并无论身处地球何处都能与其他人分享。这次宝可梦图鉴还有一个有趣的特点，如果你与拥有其他语言版本游戏的人交换宝可梦，就能解锁该语言的宝可梦图鉴条目。"
   role: answer
 - type: dialogue
   speaker: Eurogamer
@@ -92,17 +92,17 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: Al principio del juego hemos intentado hacer que la presentación sea mucho más simple, más sencilla de entender, pero con cada nuevo Pokémon intentamos hacer algo distinto con la historia, y que los fans de la serie lo puedan disfrutar, por lo que no es siempre la misma historia. No sé qué pensarás cuando acabes el juego, pero [la historia] es sin duda distinta que la de las anteriores entregas.
-  translation: 在游戏初期，我们试图让呈现方式更加简单明了，更容易理解，但随着每一款新宝可梦的推出，我们都尝试在故事上做出一些不同的东西，让系列的粉丝能够享受其中，因此故事并不总是一样的。我不知道你通关游戏后会怎么想，但[故事]无疑与之前的作品不同。
+  translation: "在游戏初期，我们试图让呈现方式更加简单明了，更容易理解，但随着每一部新的宝可梦作品推出，我们都尝试在故事上做出一些不同的东西，让系列的粉丝能够享受其中，因此故事并不总是一样的。我不知道你通关游戏后会怎么想，但[故事]无疑与之前的作品不同。"
   role: answer
 - type: dialogue
   speaker: Eurogamer
   original: ¿El regreso del trío inicial original es una forma de atraer a los fans nostálgicos de los primeros juegos de Game Boy?
-  translation: 最初三只宝可梦的回归，是不是为了吸引那些对Game Boy时代最初游戏怀有乡愁的粉丝？
+  translation: "最初的三只初始宝可梦的回归，是不是为了吸引那些对Game Boy时代最初游戏怀有乡愁的粉丝？"
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: En un principio no teníamos planeado que el profesor del juego diera al jugador ningún Pokémon; es una idea que llegó cuando llevábamos dos años desarrollando Pokémon X e Y. Se nos ocurrió cuando vimos los diseños finales de las megaevoluciones de los tres Pokémon iniciales originales. Sabíamos que queríamos que megaevolucionaran, pero cuando vimos los diseños quisimos que los jugadores tuvieran la oportunidad de usarlos. En la historia, el profesor está investigando las megaevoluciones, así que tenía sentido que le ofreciera al jugador uno de estos Pokémon. Desde luego es algo que los jugadores de los primeros Pokémon recibirán con mucha nostalgia, pero también será divertido para los nuevos jugadores, porque presenta las megaevoluciones, que es una de las novedades del juego.
-  translation: 一开始，我们并没有计划让游戏中的博士给玩家任何宝可梦；这个想法是在《宝可梦 X／Y》开发了两年之后才出现的。当我们看到最初三只宝可梦超级进化后的最终设计时，这个念头便油然而生。我们深知想要让它们超级进化，但目睹设计之后，我们希望玩家有机会使用它们。在故事中，博士正在研究超级进化，因此他提供给玩家其中之一就显得合情合理。这无疑会让早期宝可梦玩家倍感怀念，同时对新玩家来说也很有趣，因为它引入了超级进化——游戏的一大创新点。
+  translation: "一开始，我们并没有计划让游戏中的博士给玩家任何宝可梦；这个想法是在《宝可梦 X·Y》开发了两年之后才出现的。当我们看到最初的三只初始宝可梦超级进化后的最终设计时，这个念头便油然而生。我们深知想要让它们超级进化，但目睹设计之后，我们希望玩家有机会使用它们。在故事中，博士正在研究超级进化，因此他提供给玩家其中之一就显得合情合理。这无疑会让早期宝可梦玩家倍感怀念，同时对新玩家来说也很有趣，因为它引入了超级进化——游戏的一大创新点。"
   role: answer
 - type: dialogue
   speaker: Eurogamer
@@ -112,12 +112,12 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: No creo que sea algo específico de ciertos países. Nosotros también recibimos estas quejas y opiniones en Japón. Una de las cosas buenas de los Pokémon es que hay tantos que todo el mundo tiene sus favoritos; los que les gustan y los que no les gustan. Hace poco estuve dando una charla en un colegio y los estudiantes jóvenes no conocían a los iniciales de Rojo y Azul; estaban acostumbrados a los de Blanco y Negro, y esos eran sus iniciales favoritos. Hay distintas generaciones, distintas edades, y todos tienen sus propios Pokémon favoritos. Lo que más miedo me da es conocer a alguien a quien no le guste ningún Pokémon (ríe).
-  translation: 我不认为这是某些国家特有的现象。我们在日本也收到了同样的抱怨和意见。宝可梦的优点之一就是数量众多，每个人都有自己的最爱；有喜欢的，也有不喜欢的。最近我在一所学校做演讲，年轻的学生们不认识《宝可梦 红／蓝》的初始宝可梦；他们习惯了《宝可梦 黑／白》的，那些才是他们最喜欢的初始宝可梦。有不同的世代、不同的年龄层，每个人都有自己喜爱的宝可梦。我最害怕的是遇到一个什么宝可梦都不喜欢的人（笑）。
+  translation: "我不认为这是某些国家特有的现象。我们在日本也收到了同样的抱怨和意见。宝可梦的优点之一就是数量众多，每个人都有自己的最爱；有喜欢的，也有不喜欢的。最近我在一所学校做演讲，年轻的学生们不认识《宝可梦 红·蓝》的初始宝可梦；他们习惯了《宝可梦 黑·白》的，那些才是他们最喜欢的初始宝可梦。有不同的世代、不同的年龄层，每个人都有自己喜爱的宝可梦。我最害怕的是遇到一个什么宝可梦都不喜欢的人（笑）。"
   role: answer
 - type: dialogue
   original: 'Eurogamer: ¿Cómo es el proceso de diseño, entonces? ¿Pensáis primero en qué necesita el juego, en términos de combate o equilibrio, o lo primero son los dibujos? Hironobu Yoshida: Hay varias formas de llegar a diseñar un nuevo Pokémon. Tenemos unos veinte diseñadores gráficos trabajando en el estudio, y cada vez que tenemos que pensar nuevos monstruos hacemos sesiones de brainstorming en las que los diseñadores nos cuentan sus ideas. Las sacan de muchos sitios: algunos piensan en qué necesitan las batallas, otros tienen dibujos hechos y a otros se les ocurren, por ejemplo, en función de cómo se supone que van a evolucionar. Sí que los pensamos, a veces, en función de lo que necesitan los combates; recibimos órdenes de los game designers y los planificadores que nos piden cierto tipo de monstruo para cierta batalla, y tenemos que crear uno basándonos en eso. En función del juego, tenemos distintas filosofías; en Blanco y Negro queríamos tener ciertos tipos de Pokémon. En X e
     Y, más que nunca, queremos que todos tengan una personalidad muy marcada, muy distinta de los otros; creo que los jugadores van a encontrar muchas sorpresas.'
-  translation: Eurogamer：那么，设计过程是怎样的呢？你们是先考虑游戏在战斗或平衡性方面的需求，还是先有设计图？吉田宏信：设计一个新宝可梦有多种途径。我们工作室大约有二十位图像设计师，每当需要构思新怪兽时，我们会举行头脑风暴会议，让设计师们分享他们的想法。灵感来源多样：有人考虑战斗需要什么，有人已有现成的画作，还有人会根据预期的进化方式来构思。确实，有时我们会根据战斗需求来设计；游戏设计师和规划师会要求我们为特定战斗创造特定类型的怪兽，我们就据此创作。根据不同的游戏，我们有着不同的理念；在《宝可梦 黑／白》中，我们想要特定类型的宝可梦。而在《X／Y》中，我们比以往任何时候都更希望每个宝可梦都有鲜明的个性，与其他宝可梦截然不同；我相信玩家们将会遇到许多惊喜。
+  translation: "Eurogamer：那么，设计过程是怎样的呢？你们是先考虑游戏在战斗或平衡性方面的需求，还是先有设计图？吉田宏信：设计一个新宝可梦有多种途径。我们工作室大约有二十位图像设计师，每当需要构思新怪兽时，我们会举行头脑风暴会议，让设计师们分享他们的想法。灵感来源多样：有人考虑战斗需要什么，有人已有现成的画作，还有人会根据预期的进化方式来构思。确实，有时我们会根据战斗需求来设计；游戏设计师和策划会要求我们为特定战斗创造特定类型的怪兽，我们就据此创作。根据不同的游戏，我们有着不同的理念；在《宝可梦 黑·白》中，我们想要特定类型的宝可梦。而在《X·Y》中，我们比以往任何时候都更希望每个宝可梦都有鲜明的个性，与其他宝可梦截然不同；我相信玩家们将会遇到许多惊喜。"
 - type: dialogue
   speaker: Eurogamer
   original: ¿Cómo afecta el circuito profesional de Pokémon a la hora de pensar nuevos Pokémon e introducir novedades en el juego?
@@ -136,7 +136,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: En Pokémon X e Y tenemos varios temas. La belleza es uno; la evolución es otro; otro son los lazos entre personas, y otro son los lazos entre personas y Pokémon. Sobre los lazos entre personas, al principio del juego conoces a tus amigos y te vas de aventuras con ellos. A lo largo del viaje les conoces más, y vas construyendo una relación más profunda. Nos hemos centrado mucho en eso, esta vez. También hemos incluido, hablando de esto, el Pokémon Amie, que te permite estrechar lazos con tus Pokémon, jugando con ellos, cuidándolos...
-  translation: 在《宝可梦 X／Y》中，我们有几个主题。美是其中之一；进化是另一个；人与人之间的纽带，以及人与宝可梦之间的纽带也是。关于人与人之间的纽带，游戏开始时你结识了朋友，并和他们一起踏上冒险之旅。随着旅程的推进，你对他们了解更深，关系也逐渐加深。这次我们特别注重这一点。说到这，我们还加入了宝可清爽乐（Pokémon-Amie），让你能通过与宝可梦玩耍、照顾它们来加深彼此间的联系。
+  translation: "在《宝可梦 X·Y》中，我们有几个主题。美是其中之一；进化是另一个；人与人之间的纽带，以及人与宝可梦之间的纽带也是。关于人与人之间的纽带，游戏开始时你结识了朋友，并和他们一起踏上冒险之旅。随着旅程的推进，你对他们了解更深，关系也逐渐加深。这次我们特别注重这一点。说到这，我们还加入了宝可清爽乐（Pokémon-Amie），让你能通过与宝可梦玩耍、照顾它们来加深彼此间的联系。"
   role: answer
 - type: dialogue
   speaker: Eurogamer
@@ -146,7 +146,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: 'Ya en Blanco y Negro teníamos la idea de hacer que fuera fácil conectarse y luchar; lo hicimos con los infrarrojos, que te permitían conectarte con alguien que estuviera cerca y jugar. Pero echando la vista atrás, en la pantalla inferior [de Nintendo DS] teníamos los infrarrojos, el WiFi y muchas opciones que podían intimidar a alguien que no supiera exactamente qué era todo eso. Esta vez lo hemos diseñado como una opción pensada para personas; en la pantalla tienes a toda la gente que está cerca, y sólo tienes que elegir a la persona y qué quieres hacer con ella. Es más intuitivo, tiene más sentido y es más fácil empezar un combate. Hablando en concreto del combate, es más sencillo que nunca: eliges las normas, los tipos de Pokémon, etc. y no hace falta que elijas eso cada vez que luches, sino que puedes hacerlo una vez y luego repetir ese combate cuantas veces quieras. Es bastante directo.'
-  translation: 在《宝可梦 黑／白》时，我们就已经有了让玩家轻松连接并对战的想法；我们通过红外线实现了这一点，让玩家能够与附近的人连接并进行游戏。但回想起来，在[任天堂 DS]的下屏上，我们有红外线、WiFi以及许多选项，这些可能会让不清楚这一切究竟是什么的人感到畏惧。这一次，我们将其设计为一种为人着想的选项；在屏幕上，你可以看到所有在附近的人，只需选择那个人以及你想和他做什么。这更直观，更合理，也更容易发起对战。具体谈到对战，它比以往任何时候都要简单：你选择规则、宝可梦的类型等，而且不必每次对战时都选择这些，你可以设置一次，然后想重复那个对战多少次就多少次。这相当直接。
+  translation: "在《宝可梦 黑·白》时，我们就已经有了让玩家轻松连接并对战的想法；我们通过红外线实现了这一点，让玩家能够与附近的人连接并进行游戏。但回想起来，在[任天堂 DS]的下屏上，我们有红外线、WiFi以及许多选项，这些可能会让不清楚这一切究竟是什么的人感到畏惧。这一次，我们将其设计为一种以人为中心的选项；在屏幕上，你可以看到所有在附近的人，只需选择那个人以及你想和他做什么。这更直观，更合理，也更容易发起对战。具体谈到对战，它比以往任何时候都要简单：你选择规则、宝可梦的类型等，而且不必每次对战时都选择这些，你可以设置一次，然后想重复那个对战多少次就多少次。这相当直接。"
   role: answer
 - type: dialogue
   speaker: Eurogamer

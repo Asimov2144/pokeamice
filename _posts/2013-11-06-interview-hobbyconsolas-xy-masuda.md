@@ -29,7 +29,7 @@ intro: '2013年11月，在《宝可梦 X／Y》开创系列历史先河实现全
 parallel_items:
 - type: narrative
   original: ¿Cómo ha sido la experiencia del lanzamiento simultáneo de X e Y?, ¿cuál son sus Pokémon "favoritos"?, ¿dónde está la verdadera diversión de Pokémon? Estas fueron algunas de las cuestiones que Junichi Masuda, director de los videojuegos Pokémon, nos respondió durante la entrevista que mantuvo con Hobbyconsolas en el Salón del Manga de Barcelona.
-  translation: 《宝可梦 X／Y》的同步发售体验如何？您“最爱”的宝可梦是哪些？宝可梦真正的乐趣何在？这些都是宝可梦游戏总监增田顺一在巴塞罗那国际漫画展（Salón del Manga）接受Hobby Consolas采访时，为我们解答的部分问题。
+  translation: "《宝可梦 X·Y》的同步发售体验如何？您“最爱”的宝可梦是哪些？宝可梦真正的乐趣何在？这些都是宝可梦游戏总监增田顺一在巴塞罗那国际漫画展（Salón del Manga）接受Hobby Consolas采访时，为我们解答的部分问题。"
 - type: image
   src: /assets/img/interviews/2013-11-06-interview-hobbyconsolas-xy-masuda/01_hero_masuda_hobbyconsolas.jpg
   alt: 增田顺一在巴塞罗那漫展接受 Hobby Consolas 专访
@@ -37,7 +37,7 @@ parallel_items:
 - type: dialogue
   speaker: Hobby Consolas
   original: 'Hemos leído recientemente que Ken Sugimori podría plantearse una simplificación de la estructura de los juegos de Pokémon en el futuro: no reduciendo el número de Pokémon, pero sí a lo mejor habilidades o movimientos. Esto ya lo hemos visto en Pokémon X/Y, donde hay 72 nuevos Pokémon e igualmente pocas nuevas habilidades y movimientos. Y sin embargo la edad media del jugador de Pokémon está aumentando a unos 20 años. ¿Estamos hablando de un nuevo reto para Pokémon?'
-  translation: 我们最近了解到，杉森建可能考虑在未来简化宝可梦游戏的结构：不是减少宝可梦的数量，但也许会简化特性和招式。这在《宝可梦 X／Y》中已经有所体现，游戏引入了72种新宝可梦，而新特性和新招式也同样不多。然而，宝可梦玩家的平均年龄却在增长，目前约为20岁。这是否意味着宝可梦面临着新的挑战？
+  translation: "我们最近了解到，杉森建可能考虑在未来简化宝可梦游戏的结构：不是减少宝可梦的数量，但也许会简化特性和招式。这在《宝可梦 X·Y》中已经有所体现，游戏引入了72种新宝可梦，而新特性和新招式也同样不多。然而，宝可梦玩家的平均年龄却在增长，目前约为20岁。这是否意味着宝可梦面临着新的挑战？"
   role: question
 - type: dialogue
   speaker: 增田顺一
@@ -50,12 +50,12 @@ parallel_items:
 - type: dialogue
   speaker: Hobby Consolas
   original: Pokémon X/Y son los primeros juegos en la historia de Pokémon que se han lanzado de forma simultánea en todo el mundo. Sin embargo, numerosos detalles sobre su contenido fueron filtrados con bastante antelación por diversas fuentes. ¿Cree que esto ha perjudicado la experiencia de los jugadores de Pokémon al no poder descubrir por sí mismos la región de Kalos? ¿Seguirá habiendo estrenos mundiales de juegos de Pokémon tras esta experiencia?
-  translation: 《宝可梦 X／Y》是宝可梦历史上首款全球同步发售的游戏。然而，有关游戏内容的诸多细节却提前被各种渠道泄露。您是否认为这影响了宝可梦玩家的体验，使他们无法自行探索卡洛斯地区？经历了这次事件后，宝可梦游戏是否会继续采用全球同步发售的方式？
+  translation: "《宝可梦 X·Y》是宝可梦历史上首款全球同步发售的游戏。然而，有关游戏内容的诸多细节却提前被各种渠道泄露。您是否认为这影响了宝可梦玩家的体验，使他们无法自行探索卡洛斯地区？经历了这次事件后，宝可梦游戏是否会继续采用全球同步发售的方式？"
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: Bueno… nosotros es la primera vez que hacemos algo parecido. Es cierto que ha habido varios problemas y que es difícil impedir las filtraciones. Pero de esta forma la gente se divierte más que si el juego sale sólo en Japón y los demás fans ven que la gente en Japón lo está jugando mientras ellos tienen que esperar… Además, en esos casos, la historia entera se cuenta, hay quien lo puede conseguir por Internet…. no es lo mismo que unos detalles de una filtración. Ahora bien, el que algo pueda disfrutarse a nivel mundial nos parece mucho más importante que el que haya habido filtraciones puntuales.
-  translation: "嗯……对我们来说，这是首次尝试类似的做法。确实遇到了一些问题，完全阻止泄露很困难。但这样一来，比起游戏仅在日本发售，其他地区的粉丝只能看着日本玩家先玩，自己却要等待，大家这样更能享受乐趣…此外，在那种情况下，整个故事都会被剧透，有人可能通过网络就能获取…这与仅仅泄露一些细节是不同的。然而，我们认为能够让全世界同时享受游戏，远比偶尔发生的泄露重要得多。"
+  translation: "嗯……对我们来说，这是首次尝试类似的做法。确实遇到了一些问题，完全阻止泄露很困难。但这样一来，比起游戏仅在日本发售，其他地区的粉丝只能看着日本玩家先玩，自己却要等待，大家这样更能享受乐趣……此外，在那种情况下，整个故事都会被剧透，有人可能通过网络就能获取……这与仅仅泄露一些细节是不同的。然而，我们认为能够让全世界同时享受游戏，远比偶尔发生的泄露重要得多。"
   role: answer
 - type: dialogue
   speaker: Hobby Consolas
@@ -70,7 +70,7 @@ parallel_items:
 - type: dialogue
   speaker: Hobby Consolas
   original: Hablando del rey de Kalos, en su blog personal reveló hace unos años el verdadero nombre de N, Natural Harmonía Gropius, con una referencia a los números naturales. ¿Qué explicación tendría el nombre del misterioso A.Z. de los nuevos Pokémon X/Y?
-  translation: 说到卡洛斯的王者，您几年前在个人博客上揭示了N的真名——天然·和谐·格罗皮乌斯，其中暗含了对自然数的引用。那么，《宝可梦 X／Y》中神秘角色AZ的名字又有何解释呢？
+  translation: "说到卡洛斯的王者，您几年前在个人博客上揭示了N的真名——天然·和谐·格罗皮乌斯，其中暗含了对自然数的引用。那么，《宝可梦 X·Y》中神秘角色AZ的名字又有何解释呢？"
   role: question
 - type: dialogue
   speaker: 增田顺一
@@ -82,7 +82,7 @@ parallel_items:
   translation: 新作官方发布会：专访结束后，增田顺一出席了在巴塞罗那国际漫画展（Salón del Manga）举行的《宝可梦》新作正式发布会。数百名粉丝热情迎接了增田顺一，向他表达了喜爱之情——以及诸多提问——并把他当作真正的电子游戏明星来对待。以下是他在台上发表的部分言论：
 - type: dialogue
   original: 'Junichi Masuda: “¡Increíble! Estoy gratamente sorprendido de veros a todos aquí, de ver todo esto tan lleno. Estos juegos han tardado más de 3 años en desarrollarse, y en ellos han trabajado más de 500 personas. En nombre de todos ellos, muchas gracias.”'
-  translation: 增田顺一：“太不可思议了！看到大家齐聚一堂，场面如此盛大，我真是又惊又喜。这两款游戏历经三年多的精心打磨，凝聚了超过五百人的心血。我谨代表所有参与制作的同仁，向大家致以最深的谢意。”
+  translation: "增田顺一：“太不可思议了！看到大家都来了，场内如此满座，我又惊又喜。这些游戏的开发花了3年多的时间，有500多人参与了制作。我代表他们所有人，非常感谢大家。”"
   speaker: 增田顺一
   role: answer
 - type: dialogue
@@ -107,7 +107,7 @@ parallel_items:
   role: answer
 - type: dialogue
   original: 'Junichi Masuda: “Hay muchísimos Pokémon diferentes, es difícil decir el tiempo de creación… varía muchísimo según el Pokémon. Por ejemplo, Xerneas e Yveltal, los Pokémon legendarios de Pokémon X y Pokémon Y, llevaron mucho tiempo, y el tema de creación y destrucción se tuvo en cuenta para Pokémon, personas…”'
-  translation: 增田顺一：“宝可梦种类繁多，很难一概而论创作所需的时间……根据具体的宝可梦，这个时间差异极大。比如，《宝可梦 X／Y》中的传说的宝可梦——哲尔尼亚斯与伊裴尔塔尔，它们的创作历时甚久，期间融入了创世与毁灭的主题，不仅关乎宝可梦本身，也涉及人类……”
+  translation: "增田顺一：“宝可梦种类繁多，很难一概而论创作所需的时间……根据具体的宝可梦，这个时间差异极大。比如，《宝可梦 X·Y》中的传说的宝可梦——哲尔尼亚斯与伊裴尔塔尔，它们的创作历时甚久，期间融入了创造与破坏的主题，不仅关乎宝可梦本身，也涉及人类……”"
   speaker: 增田顺一
   role: answer
 source:

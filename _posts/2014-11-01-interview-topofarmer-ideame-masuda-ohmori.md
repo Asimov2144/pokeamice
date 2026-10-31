@@ -38,7 +38,7 @@ parallel_items:
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/001.jpg
   alt: 2014-10-31 09.15.26_lzn
 - original: 'Este fin de semana es el XX’avo Salón del Mangui Manga en BCN. Para esta 20º cumpleaños se han elegido unos protagonistas muy conocidos: los Pokémon. Y dentro de los eventos de promoción de Rubí Omega y Zafiro Alfa hay una serie de actividades dentro y fuera del salón. Y unos invitados muy especiales: Junichi Masuda y Shigeru Ohmori ¡en persona! La mañana del 31 en un privado  céntrico colegio de la capital estos respondieron algunas preguntas preparadas por los alumnos.'
-  translation: 这个周末是巴塞罗那第20届漫画沙龙。为了庆祝20周年，选出了非常知名的主角：宝可梦。在《欧米伽红宝石／阿尔法蓝宝石》的推广活动中，沙龙内外有一系列活动。还有非常特别的嘉宾：增田顺一和大森滋亲临现场！31日上午，在首都中心一所私立学校，他们回答了学生们准备的一些问题。
+  translation: "这个周末是巴塞罗那第20届漫画沙龙。为了这个20岁生日，选出了非常知名的主角：宝可梦。在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》的推广活动中，沙龙内外有一系列活动。还有非常特别的嘉宾：增田顺一和大森滋亲临现场！31日上午，在巴塞罗那市中心的一所私立学校，他们回答了学生们准备的一些问题。"
 - original: Y un pescado se desplazó ahí para cubrirlo para Topofarmer. Tan elegante cómo se podía ser.  No os quejaréis, eh?
   translation: 一条鱼游到那里为 Topofarmer 进行报道。要多优雅有多优雅。你们可别抱怨哦，嗯？
   speaker: 主持人 / 少年提问
@@ -68,7 +68,7 @@ parallel_items:
 - original: «Oye Shigeru, se me acaban de ocurrir unas ideas para pokemóns»
   translation: “嘿，滋，我刚想到了几个宝可梦的点子。”
 - original: Después de este momento fugaz de encuentro cultural, tener la santa potra de estar en el lugar correcto el momento correcto y que el móvil sacara UNA MALDITA FOTO BIEN, tanto Ohmori cómo Masuda saludaron y dieron la mano a  los alumnos de bachillerato del centro. Y a un servidor, que se puso de estrangis en esa cola :).
-  translation: 在这个短暂的文化交流时刻之后，有幸在正确的时间出现在正确的地点，并且手机拍下了一张该死的好照片，大森和增田都向学校的高中生们致意并握手。还有一个我，偷偷混进了那个队伍 :)。
+  translation: "在这个短暂的文化交流时刻之后，我走运地在正确的时间出现在正确的地点，手机也总算拍好了一张该死的照片。大森和增田都向学校的高中生们打招呼、握手。也和在下握了手——我偷偷混进了那条队伍 :)。"
 - original: El evento tuvo lugar en la sala de Actos de Lestonnac. Bonita, grande. La prensa y bachillerato al fondo gallinero. Por que claro, es iDeame Kids y el público que iba a copar las localidades eran niños de 4º de primaria.
   translation: 活动在 Lestonnac 的礼堂举行。漂亮，宽敞。媒体和高中生在后排楼座。因为当然，这是 iDÉAME Kids，要坐满座位的是小学四年级的孩子们。
 - type: image
@@ -128,7 +128,7 @@ parallel_items:
 - original: (Aplausos)
   translation: （掌声）
 - original: … y los panellets.
-  translation: ……还有潘妮托妮。
+  translation: "……还有 panellets。"
   speaker: 增田顺一
   role: answer
 - original: (Aplaudiments)
@@ -168,9 +168,9 @@ parallel_items:
   speaker: 增田顺一
   role: answer
 - original: Por ejemplo, en Pokémon X e Y eran los ejes X e Y que simbolizaban que existen distintas personas y opiniones. Pero que también existen puntos en común. Por ejemplo el hecho de poder darte cuenta de que comparten muchas cosas con otros seres. Tú tienes dos ojos, un caballo también tiene dos ojos, una vaca tiene dos ojos…
-  translation: 比如，在《宝可梦 X／Y》中，X轴和Y轴象征着存在不同的人和观点。但也有共同点。比如，你能意识到自己和其他生命有很多共同之处。你有两只眼睛，马也有两只眼睛，牛也有两只眼睛……
+  translation: "比如，在《宝可梦 X·Y》中，X轴和Y轴象征着存在不同的人和观点。但也有共同点。比如，你能意识到自己和其他生命有很多共同之处。你有两只眼睛，马也有两只眼睛，牛也有两只眼睛……"
 - original: Otro de los puntos que quisimos tocar en X e Y es que cada uno puede tener muchos encuentros en la vida. Y que todos esos encuentros son una maravilla. Es realmente una suerte y una maravilla poder conocer a la gente que te encuentras. Si hubiera nacido 100 años atrás no las habrías podido conocer.
-  translation: 我们在X／Y中想触及的另一点是，每个人一生中会有很多相遇。所有这些相遇都是美好的。能认识遇到的人，真的是一种幸运和奇妙。如果我早出生100年，就不会遇见他们了。
+  translation: "我们在X·Y中想触及的另一点是，每个人一生中会有很多相遇。所有这些相遇都是美好的。能认识遇到的人，真的是一种幸运和奇妙。如果我早出生100年，就不会遇见他们了。"
 - original: El mensaje es poder conocer al resto de personas y ser amable los unos a los otros. Esos son los mensajes que hay en Pokémon.
   translation: 这个信息就是去认识其他人，彼此友善相待。这些就是宝可梦所传达的信息。
 - original: Esa es una pregunta difícil. ¿Que es lo que os gusta más comer?
@@ -210,11 +210,11 @@ parallel_items:
   speaker: 现场孩子们
   role: answer
 - original: Pokemon X/Y, por ejemplo, tuvo un lanzamiento mundial simultáneo, en siete idiomas distintos. Hubo unas 500 personas implicadas.
-  translation: 例如，《宝可梦 X／Y》在全球同步发售，有七种不同的语言。大约有500人参与。
+  translation: "例如，《宝可梦 X·Y》在全球同步发售，有七种不同的语言。大约有500人参与。"
   speaker: 增田顺一
   role: answer
 - original: En esta ocasión con Omega Rubí y Zafiro Alfa hay también siete idiomas. Ha habido muchísima gente implicada. Cuando salga podréis elegir jugar en japonés.
-  translation: 这次《欧米伽红宝石／阿尔法蓝宝石》也有七种语言。有很多人参与。当它发售时，你们可以选择用日语玩。
+  translation: "这次的《宝可梦 欧米伽红宝石·阿尔法蓝宝石》也有七种语言。有很多人参与。当它发售时，你们可以选择用日语玩。"
 - original: '(Shigeru: Raugh)'
   translation: （笑）
   speaker: 大森滋
@@ -228,7 +228,7 @@ parallel_items:
   speaker: 增田顺一
   role: answer
 - original: Hay personajes cómo Pikachu donde chicos de todo el mundo querían un personaje «mono», y creamos algo intermedio que pudiera gustar a todo el mundo.
-  translation: 有些角色像皮卡丘，全世界的小朋友都想要一个‘可爱’的角色，我们创造了一个中间值，让全世界都能喜欢。
+  translation: "有些角色，比如皮卡丘，全世界的小朋友都想要一个“可爱”的角色，所以我们创造了一个折中的形象，让全世界都能喜欢。"
 - original: 'Niños: PIKACHUUUU'
   translation: 孩子们：皮卡丘——！
   speaker: 西班牙少年听众
@@ -244,7 +244,7 @@ parallel_items:
   alt: 250px-255Torchic
   caption: 250px-255Torchic
 - original: Cuando salió Rubí y Zafiro éste era uno de los tres iniciales. Al ver ese pollito tipo fuego nos es familiar, en todos los países. Además salía en la introducción de X/Y.
-  translation: 当《红宝石／蓝宝石》发售时，它就是三个初始宝可梦之一。看到这只火属性的小鸡，我们感到很亲切，在所有国家都是如此。而且它还出现在《X／Y》的开场中。
+  translation: "当《红宝石·蓝宝石》发售时，它就是三个初始宝可梦之一。看到这只火属性的小鸡，我们感到很亲切，在所有国家都是如此。而且它还出现在《X·Y》的开场中。"
   speaker: 增田顺一
   role: answer
 - original: Groudon
@@ -256,7 +256,7 @@ parallel_items:
   alt: 250px-383Groudon
   caption: 250px-383Groudon
 - original: A mi me gustan los Pokémon chulos e imponentes. Este ya tiene 12 años, pero en Omega Rubí y Alfa Zafiro se podrá ver su verdadera forma forma mediante la regresión primigenia (a.k.a la preevolución supongo)
-  translation: 我喜欢帅气又威武的宝可梦。这只已经有12年了，但在《欧米伽红宝石／阿尔法蓝宝石》中，通过原始回归（也就是原始进化，我猜）可以看到它的真正形态。
+  translation: "我喜欢帅气又威武的宝可梦。这只已经有12年了，但在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》中，通过原始回归（也就是所谓的“前进化”，我猜）可以看到它的真正形态。"
   speaker: 大森滋
   role: answer
 - original: Groudon por ejemplo se llama igual en todos todas las versiones idiomas. Es universal. Podemos estar viajando en varios países , y Pikachu se llama igual en todos lados.
@@ -264,7 +264,7 @@ parallel_items:
   speaker: 增田顺一
   role: answer
 - original: (Shigeru, y más tarde cuatro estudiantes del centro suben al escenario)
-  translation: （茂，以及随后四名中心的学生上台）
+  translation: "（滋，以及随后学校的四名学生上台）"
 - type: image
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_10_2014-10-31-11.46.42_lzn-700x466.jpg
   alt: 2014-10-31 11.46.42_lzn
@@ -274,7 +274,7 @@ parallel_items:
   alt: 2014-10-31 12.25.18_lzn
   caption: 2014-10-31 12.25.18_lzn
 - original: El Groudon de Shigeru, la firma de Masuda y el resto de dibujos
-  translation: 茂的固拉多、增田的签名以及其他画作
+  translation: "滋的固拉多、增田的签名以及其余的画"
 - original: Qué kawaii, ¿no?
   translation: 好可爱，对吧？
   speaker: 增田顺一
@@ -290,13 +290,13 @@ parallel_items:
 - original: (apprause)
   translation: （掌声）
 - original: (El director del centro Lestonnac les hace entrega de un anuario de la escuela y Barcelona)
-  translation: （中心负责人莱斯托纳克向他们赠送了学校和巴塞罗那的年鉴）
+  translation: "（莱斯托纳克学校的校长向他们赠送了一本学校和巴塞罗那的年鉴）"
 - type: heading
   level: 2
   original: 活动尾声与花絮感言
   translation: 活动尾声与花絮感言
 - original: 'Fueron evacuando a los niños, y una vez hubo silencio en la sala los medios especializados y las televisiones pudieron llevar a cabo entrevistas con Ohmori y Masuda. Me refiero a TV3, TVE, y algunos medios que habían concertado previamente entrevistas con Nintendo. (DISCLAIMER: No hice entrevista personalizada. Por asuntos personales (PFC) no preparé preguntas ni envié ninguna petición de entrevista cara a cara. Je suís desolée 🙁  De todas formas el compañero de AreaJugones me comenta que a él, trabajando cómo community manager en una web con 10.000 usuarios únicos diarios, le habían dicho sus jefes que «nada de preguntas ni autógrafos, que ellos no eran Meri».)'
-  translation: 孩子们被疏散，当大厅安静下来后，专业媒体和电视台得以对大桥和增田进行采访。我指的是TV3、TVE，以及一些事先与任天堂预约采访的媒体。 （免责声明：我没有进行个人采访。由于个人事务（PFC），我没有准备问题，也没有发送任何面对面采访的请求。我很抱歉🙁 尽管如此，AreaJugones的同事告诉我，他在一个日活用户1万的网站担任社区经理，他的老板告诉他「不要提问也不要签名，他们不是梅里」。）
+  translation: "孩子们陆续退场，等大厅安静下来后，专业媒体和电视台得以对大森和增田进行采访。我指的是TV3、TVE，以及一些事先与任天堂约好采访的媒体。（免责声明：我没有进行个人采访。由于个人事务（PFC），我没有准备问题，也没有发送任何面对面采访的请求。我很抱歉🙁 尽管如此，AreaJugones的同事告诉我，他在一个日活用户1万的网站担任社区经理，他的老板告诉他“不要提问也不要签名，他们不是梅里”。）"
 - original: '>En cualquier caso, conseguí acercarme y sacar una buena foto de los dibujos 🙂 Os dejo con la galería de fotos.'
   translation: '>无论如何，我设法靠近并拍到了画作的好照片🙂 现在请欣赏照片库。'
 - original: Vuestro corresponsal más «salao»,
@@ -320,14 +320,15 @@ topics:
 - "传说宝可梦"
 entities:
   people:
-  - "增田顺一"
-  - "大森滋"
+  - 增田顺一
+  - 大森滋
   works:
-  - "宝可梦 红宝石·蓝宝石"
-  - "宝可梦 X·Y"
+  - 宝可梦 红宝石·蓝宝石
+  - 宝可梦 X·Y
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   organizations:
-  - "Game Freak"
-  - "任天堂"
+  - Game Freak
+  - 任天堂
 mentions:
   people: []
   works:

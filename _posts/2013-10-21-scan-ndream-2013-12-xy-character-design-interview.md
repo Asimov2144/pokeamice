@@ -56,13 +56,14 @@ pending_review_regions: 167
 scan_set: ndream-2013-12
 entities:
   people:
-    - 杉森建
-    - 大村祐介
-    - 中津井优
+  - 杉森建
+  - 大村祐介
+  - 中津井优
+  - 增田顺一
   works:
-    - 宝可梦 X·Y
+  - 宝可梦 X·Y
   organizations:
-    - Game Freak
+  - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -442,7 +443,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "ニンドリ的『ポケモン X・Y』応援プロジェクト!連続スタッフインタビュー第2弾『ポケモン X・Y』の魅力を独自の視点から探る、濃厚スタッフインタビュー。前回の「ポケモンバトル」に続き、今月号は「人物キャラクター」がテーマ。ニンドリでしか読めない情報が今回も満載です!"
-    translation: Nindori的「宝可梦 X・Y」应援企划！连续工作人员访谈第2弹。从独特视角探寻「宝可梦 X・Y」的魅力，内容浓密的工作人员访谈。继上次的「宝可梦对战」之后，本月号的主题是「人物角色」。本次也满载只有在Nindori才能读到的信息！
+    translation: "Nindori的「宝可梦 X·Y」应援企划！连续工作人员访谈第2弹。从独特视角探寻「宝可梦 X·Y」的魅力，内容浓密的工作人员访谈。继上次的「宝可梦对战」之后，本月号的主题是「人物角色」。本次也满载只有在Nindori才能读到的信息！"
     scan_box:
       - 1101
       - 160
@@ -458,7 +459,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: "ポケットモンスター X・Y\n■ポケモン ■10月12日発売 ■パッケージ版、ダウンロード版ともに各4800円(込)\n■RPG ■1人プレイ用(通信プレイ時2~4人) ■CERO全年齢\n■通信ローカルプレイ○ インターネットプレイ○ ダウンロードプレイ× すれちがい通信○\n■いつの間に通信、ニンテンドーネットワーク対応\n» 3DS"
-    translation: "宝可梦 X・Y\n■宝可梦 ■10月12日发售 ■盒装版、下载版均为4800日元（含税）\n■RPG ■单人游玩用（通信游玩时2~4人） ■CERO全年龄\n■通信本地游玩○ 互联网游玩○ 下载游玩× 擦肩通信○\n■不知不觉通信、支持任天堂网络\n» 3DS"
+    translation: "宝可梦 X·Y\n■宝可梦 ■10月12日发售 ■盒装版、下载版均为4800日元（含税）\n■RPG ■单人游玩用（通信游玩时2~4人） ■CERO全年龄\n■通信本地游玩○ 互联网游玩○ 下载游玩× 擦肩通信○\n■不知不觉通信、支持任天堂网络\n» 3DS"
     scan_box:
       - 122
       - 487
@@ -490,7 +491,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 僕は行かなかったのですが、杉森と大村は現地取材に行っています。
-    translation: 中津井：我没有去，但杉森和大村去当地取材了。
+    translation: "我没有去，但杉森和大村去当地取材了。"
     scan_box:
       - 117
       - 655
@@ -1408,7 +1409,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 杉森 『ポケモン X・Y』でもそうでしたね。やはり描きたいのはそちらのほうなので（笑）。女の子主人公で方針・イメージを固めて、男の子のほうにその要素を移すという感じです。
-    translation: 杉森：在《宝可梦 X・Y》里也是这样。毕竟想画的还是那边（笑）。先以女孩子主人公确定方针和形象，再把那个要素转移到男孩子身上。
+    translation: "杉森：在《宝可梦 X·Y》里也是这样。毕竟想画的还是那边（笑）。先以女孩子主人公确定方针和形象，再把那个要素转移到男孩子身上。"
     scan_box:
       - 805
       - 1339
@@ -1646,7 +1647,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: そうですね。『ポケモン X・Y』では、冒険というシチュエーションに、今までになかったキャラクター同士の関係性を持たせたいと思いました。
-    translation: 中津井：是啊。在《宝可梦 X・Y》里，我们想在冒险这一情境中，加入以往没有过的角色之间的关系性。
+    translation: "是啊。在《宝可梦 X·Y》里，我们想在冒险这一情境中，加入以往没有过的角色之间的关系性。"
     scan_box:
       - 462
       - 487
@@ -1678,7 +1679,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: とにかく活発で、元気がいい女の子です。引っ越してきたばかりの主人公にもフランクに話しかけてくる、いい意味で「空気が読めない」性格ですね。準ヒロイン的な立ち位置ですが、それ以前に「仲のいい友だち」でもあります。その辺りは、女の子主人公との対比も意識しています。
-    translation: 中津井：总之是个活泼、很有精神的女孩子。对刚搬来的主角也会很随意地搭话，往好里说是“不会读空气”的性格。她处在准女主角的位置上，但在此之前，她也是“关系很好的朋友”。这一点上，我们也意识到了与女主角色的对比。
+    translation: "总之是个活泼、很有精神的女孩子。对刚搬来的主角也会很随意地搭话，往好里说是“不会读空气”的性格。她处在准女主角的位置上，但在此之前，她也是“关系很好的朋友”。这一点上，我们也意识到了与女孩主角的对比。"
     scan_box:
       - 462
       - 653
@@ -1721,7 +1722,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 旅の仲間たちは、色のバランスにも気を配りましたね。全員にそれぞれ、基調になるカラーがあって。
-    translation: 杉森建：旅行伙伴们在颜色平衡上也很花心思。每个人都有一个基调色。
+    translation: "旅行伙伴们在颜色平衡上也很花心思。每个人都有一个基调色。"
     scan_box:
       - 831
       - 410
@@ -1737,7 +1738,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 「戦隊もの」みたいな（笑）。
-    translation: 大村祐介：就像“战队”一样（笑）。
+    translation: "就像“战队”一样（笑）。"
     scan_box:
       - 831
       - 502
@@ -1753,7 +1754,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 初期のサナは、水色のワンピースを着ていたりもしましたよね。
-    translation: 中津井：初期的莎娜还穿过水蓝色的连衣裙呢。
+    translation: "初期的莎娜还穿过水蓝色的连衣裙呢。"
     scan_box:
       - 831
       - 543
@@ -1769,7 +1770,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: でも、水色だとしっくりこなくって。色の持つ力は大切だなと、改めて思いました。
-    translation: 杉森建：但是水蓝色感觉不太对。我再次觉得，颜色所具有的力量很重要。
+    translation: "但是水蓝色感觉不太对。我再次觉得，颜色所具有的力量很重要。"
     scan_box:
       - 831
       - 600
@@ -2000,7 +2001,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: 彼みたいな太っちょなキャラクターは、例えば「力持ち」ですとか、ステレオタイプにはまりやすいんです。ティエルノの場合は「おっとりしていて、頼りがいがある」というイメージに、さらにアクティブな側面を付け加えて、よくある太っちょキャラから脱却したかったというのがあります。
-    translation: 像他那样胖乎乎的角色，很容易落入刻板印象，比如“力气大”之类的。提耶鲁诺的话，我们想在他“慢吞吞、靠得住”的形象上，再添加积极的一面，摆脱常见的胖角色套路。
+    translation: "像他那样胖乎乎的角色，很容易落入刻板印象，比如“力气大”之类的。提耶鲁诺的话，我们想在他“温和稳重、靠得住”的形象上，再添加积极的一面，摆脱常见的胖角色套路。"
     scan_box:
       - 831
       - 1135
@@ -2324,7 +2325,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 増田からのオーダーはいろいろありまして。「美しさにこだわりを持っている」人であること、「テレビプロデューサー」的な身振り手振りの大きい人物である、というのもありました。
-    translation: 增田提出了各种要求。比如要是“对美有执着追求”的人，要是像“电视制作人”那样手势夸张的人物。
+    translation: "增田提出了各种要求，比如要有“对美有讲究”这一点，还要是个像“电视制作人”那样手势很大的人物。"
     scan_box:
       - 818
       - 233
@@ -2421,7 +2422,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 構えているカメラのレンズは、かなり本格的なものですよね。
-    translation: 他举着的相机镜头相当专业。
+    translation: "她举着的相机镜头相当专业。"
     scan_box:
       - 94
       - 1671
@@ -2437,7 +2438,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: 趣味ではなく、「職業カメラマン」であることを強調しています。肩から下げているちょっと古めのカメラは、誰かからもらった大切なものかもしれないですね。
-    translation: 这不是爱好，而是强调他是「职业摄影师」。他肩上挂着的稍旧的相机，可能是从谁那里得到的珍贵之物。
+    translation: "这不是爱好，而是强调她是「职业摄影师」。她肩上挂着的稍旧的相机，可能是从谁那里得到的珍贵之物。"
     scan_box:
       - 94
       - 1741

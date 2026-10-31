@@ -50,11 +50,11 @@ parallel_items:
 - original: Bienvenido a España, Masuda-san. En cuanto al desarrollo de 'Pokémon X/Y', ¿Cuál ha sido el mayor reto al que os habéis enfrentado en Game Freak?
   role: question
   speaker: Pokémaster
-  translation: 欢迎来到西班牙，增田先生。关于《宝可梦 X/Y》的开发，你们在GAME FREAK面临的最大挑战是什么？
+  translation: "欢迎来到西班牙，增田先生。关于《宝可梦 X·Y》的开发，你们在GAME FREAK面临的最大挑战是什么？"
 - original: Uno de los mayores retos en Game Freak durante el desarrollo de 'Pokémon X/Y' fue el lanzamiento simultáneo que teníamos previsto y que finalmente ha desembocado en el gran éxito que hemos tenido. Para que este juego llegara al mismo tiempo a las consolas de todo el mundo, han sido necesarias unas labores de desarrollo y localización, así como el trabajo con actores, entre ellos, yo mismo. En los títulos de crédito podéis ver alrededor de 500 personas involucradas en el proyecto. Ha sido fruto de una gran labor que hemos sido capaces de llevar a cabo.
   role: answer
   speaker: 增田顺一
-  translation: 在GAME FREAK开发《宝可梦 X/Y》期间，最大的挑战之一是我们计划的同步发售，最终也促成了我们所取得的巨大成功。为了让这款游戏同时登陆全球各地的游戏机，需要开发和本地化工作，以及与演员合作，其中包括我自己。在制作人员名单中，你可以看到大约500人参与了这个项目。这是我们能够完成的一项伟大工作的成果。
+  translation: "在GAME FREAK开发《宝可梦 X·Y》期间，最大的挑战之一是我们计划的同步发售，最终也促成了我们所取得的巨大成功。为了让这款游戏同时登陆全球各地的游戏机，需要开发和本地化工作，以及与演员合作，其中包括我自己。在制作人员名单中，你可以看到大约500人参与了这个项目。这是我们能够完成的一项伟大工作的成果。"
 - original: Como digo, ha sido extremadamente difícil; hay mucha labor detrás durante el proceso de desarrollo, trabajando para el éxito de un lanzamiento simultáneo, pero el hecho de que se haya podido conseguir es algo que me llena de felicidad.
   role: answer
   speaker: 增田顺一

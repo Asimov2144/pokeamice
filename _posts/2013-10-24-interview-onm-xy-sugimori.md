@@ -45,7 +45,9 @@ source:
   url: http://web.archive.org/web/20131030135359/http://www.officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists-block-during-pokemon-x-and-y-development/
 entities:
   people:
-  - "杉森建"
+  - 杉森建
+  - 西田敦子
+  - 大村祐介
   works:
   - 宝可梦 X·Y
 summary: "2013 年，Official Nintendo Magazine 的 Thomas East 报道：宝可梦设计师杉森建在接受日本杂志《Fami通》采访时说，他在为《宝可梦 X／Y》设计封面传说的宝可梦哲尔尼亚斯与伊裴尔塔尔时遭遇创作瓶颈，遂将任务暂时交给同为艺术设计师的大村祐介，待其有进展后再接手收尾，因此两只宝可梦是团队协作成果；他称这是自己首次借助他人摆脱瓶颈。杉森建还说明，妖精属性招牌宝可梦仙子伊布由西田敦子设计，他收到原稿后立刻通过。"
