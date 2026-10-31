@@ -43,11 +43,12 @@ entities:
   - 增田顺一
   - 约翰·汉克
   - 野村达雄
+  - 岩田聪
   works:
   - Pokémon GO
   - Ingress
   - 宝可梦 红·绿
-  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  - "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
 parallel_items:
 - speaker: ''
   original: 2016年の夏、日本……いや、世界中が熱狂の渦に叩き込まれたゲームがあった。
@@ -66,7 +67,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/001.jpg
   alt: 「あの瞬間」何が起きていたのか？ キーマンたちが初めて語るポケモン GOリリース直後の熱狂、その舞台裏【ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一】_001
-  caption: （画像は 『Pokémon GO』公式サイト より）
+  caption: "（图片来自《Pokémon GO》官方网站）"
+  caption_original: "（画像は 『Pokémon GO』公式サイト より）"
 - speaker: ''
   original: 『ポケモン GO』については、すでにひとつのゲーム作品を超えた社会現象にもなったアプリであるため、新聞やニュース番組などで内容を知っている人も多いかもしれない。
   translation: 关于《宝可梦GO》，它已经超越了单纯的游戏作品，成为一种社会现象，因此很多人可能通过报纸或新闻节目等对其内容有所了解。
@@ -86,7 +88,7 @@ parallel_items:
   translation: 《宝可梦 GO》所引发的种种社会现象，即便从游戏史的角度来看，也是前所未有的景象。但令人意外的是，从开发到发布的幕后故事，至今却鲜有提及。
 - speaker: ''
   original: そこで今回、電ファミは『ポケモン GO』開発に携わった、ナイアンティック、株式会社ポケモン、そして『ポケットモンスター』シリーズを手がける株式会社ゲームフリークの三社の主要人物を招いて座談会を開催することにした。
-  translation: 因此，这次电ファミ邀请了参与《宝可梦 GO》开发的Niantic、宝可梦公司，以及负责《宝可梦》系列的GAME FREAK三家公司的核心人物，举办了一场座谈会。
+  translation: "因此，这次电玩志邀请了参与《宝可梦 GO》开发的Niantic、宝可梦公司，以及负责《宝可梦》系列的GAME FREAK三家公司的核心人物，举办了一场座谈会。"
   note: 电ファミ是日本游戏媒体；Niantic为《宝可梦 GO》开发商；株式会社ポケモン即The Pokémon Company；ゲームフリーク即GAME FREAK。
 - speaker: ''
   original: あの瞬間、彼らが目撃した光景はどんなものだったのか？ 前代未聞の、リアルを舞台にした大規模ゲームの舞台裏を訊いた。
@@ -98,7 +100,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/010.jpg
   alt: 「あの瞬間」何が起きていたのか？ キーマンたちが初めて語るポケモン GOリリース直後の熱狂、その舞台裏【ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一】_002
-  caption: 左から 川島優志氏 、 石原恒和氏 、 増田順一氏
+  caption: "左起：川岛优志先生、石原恒和先生、增田顺一先生"
+  caption_original: "左から 川島優志氏 、 石原恒和氏 、 増田順一氏"
 - speaker: ''
   original: 【前篇】ニュージーランドの数字に「そんなはずがない」
   translation: 【前篇】面对新西兰的数字，不禁惊呼“怎么可能”
@@ -109,7 +112,7 @@ parallel_items:
   role: question
 - speaker: 石原恒和
   original: まずオーストラリアとニュージーランドで配信を開始したのですが、なんだか数字がおかしいんです。
-  translation: 首先在澳大利亚和新西兰开始配信，但数字总觉得有些不对劲。
+  translation: "首先在澳大利亚和新西兰开始上线，但数字总觉得有些不对劲。"
   note: 石原恒和是宝可梦公司的社长。
   role: answer
 - type: image
@@ -480,7 +483,7 @@ parallel_items:
   translation: 本页面可能通过联盟营销计划获得收益。
 - speaker: ''
   original: 【后篇】そして『ポケGO』は走り出した
-  translation: 【后篇】然后，《宝可GO》开始奔跑
+  translation: "【后篇】然后，《宝可梦GO》开始奔跑"
   note: 此处'走り出した'意为'开始启动/开始运行'，标题暗示游戏正式上线。
 - speaker: 提问
   original: さて、ここからは『ポケモン GO』がいかにして開発されたのかを、訊いてみたいと思います。
@@ -711,7 +714,7 @@ parallel_items:
   role: question
 - speaker: 石原恒和
   original: 懐かしいですね。シュミットさん（※Googleの元CEOエリック・シュミット氏）の著作『第5の権力』が出た直後ぐらいだったので、それをちょっともじって「第5のゲームパワー」というプレゼンをしたんですよ。
-  translation: '真是令人怀念啊。当时正值施密特先生的著作《第五权力》出版后不久，所以我稍微改编了一下，做了个题为“第五游戏力量”的演讲。'
+  translation: "真是令人怀念啊。当时正值施密特先生的著作《第五权力》（日文版书名，中文版为《新数字时代》）出版后不久，所以我稍微改编了一下，做了个题为“第五游戏力量”的演讲。"
   note: '埃里克·施密特（Eric Schmidt）曾任谷歌CEO。《第五权力》是其著作，日文版标题为『第5の権力』。 谷歌前CEO埃里克·施密特'
   role: answer
 - speaker: 石原恒和
@@ -725,7 +728,7 @@ parallel_items:
   role: answer
 - speaker: 石原恒和
   original: 「ヒルズ周辺だとこうするのが効率がいい」というようなことをとても詳しく解説したのですが、もうその場にいたGoogle社員の150人ぐらいが、一斉に引いているんですよ（笑）。
-  translation: 我详细讲解了“在六本木新城周边这样做效率最高”之类的内容，但在场的约150名谷歌员工全都一脸无奈（笑）。
+  translation: "我详细讲解了“在六本木新城周边这样做效率最高”之类的内容，但在场的约150名谷歌员工全都一齐面露惊诧，明显被吓退了（笑）。"
   role: answer
 - speaker: 提问
   original: 六本木ヒルズでインテリジェンスなトークをしていた人が突然、「廃ゲーマー」そのものみたいな話をし始めるわけですから、そうかもしれませんね（笑）。
@@ -865,7 +868,7 @@ parallel_items:
   role: answer
 - speaker: 石原恒和
   original: だって、ずっと家の中、あるいは電車などでの移動中に遊ぶのが基本だった『ポケモン』が、今度は外で遊ぶ状況になるわけですからね。　『Ingress』の3年間の安全性に対する配慮と実績は、たいへん参考になりました。そしてそこから「Pokémon GO Plus」の開発に向かって行きました。
-  translation: 因为一直以来，《宝可梦》基本上都是在家里或者电车等移动过程中游玩的，而这次却变成了在户外游玩的状况。『Ingress』三年间在安全性方面的考量和实际成绩，给了我们很大的参考。然后从那里开始，我们就朝着开发「Pokémon GO Plus」的方向前进了。
+  translation: "因为一直以来，《宝可梦》基本上都是在家里或者电车等移动过程中游玩的，而这次却变成了在户外游玩的状况。《Ingress》三年间在安全性方面的考量和实际成绩，给了我们很大的参考。然后从那里开始，我们就朝着开发“Pokémon GO Plus”的方向前进了。"
   role: answer
 - speaker: ''
   original: 【后篇】この記事に関するタグ

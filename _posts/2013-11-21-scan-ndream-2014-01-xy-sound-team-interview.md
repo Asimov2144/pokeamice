@@ -56,13 +56,14 @@ pending_review_regions: 255
 scan_set: ndream-2014-01
 entities:
   people:
-    - 景山将太
-    - 佐藤仁美
-    - 足立美奈子
+  - 景山将太
+  - 佐藤仁美
+  - 足立美奈子
+  - 增田顺一
   works:
-    - 宝可梦 X·Y
+  - 宝可梦 X·Y
   organizations:
-    - Game Freak
+  - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -123,7 +124,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "サウンドチームの最初期はたった1人!?"
-    translation: "声音团队最初期只有1人!?"
+    translation: "声音团队最初期只有1人！？"
     scan_box:
       - 136
       - 240
@@ -171,7 +172,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 佐藤さんは『ポケモンブラック２・ホワイト２』、足立さんは『リズムハンター ハーモナイト』に関わっておられた時期ですよね。
-    translation: 佐藤先生当时参与的是《宝可梦 黑2·白2》，足立先生参与的是《节奏猎人 和谐》吧。
+    translation: "佐藤女士当时参与的是《宝可梦 黑2·白2》，足立女士参与的是《节奏猎人 和谐骑士》吧。"
     scan_box:
       - 80
       - 625
@@ -294,7 +295,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ええ。その時はひたすら孤独でしたね（笑）。
-    translation: 是的。那时候真是一味地孤独呢（笑）。
+    translation: "是的。那时候真是孤独得不行呢（笑）。"
     scan_box:
       - 447
       - 598
@@ -748,7 +749,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: なるほど！ そういうテーマをまず景山さんが考えて、後に佐藤さんと足立さんが合流されて共有されていったんですね。
-    translation: 原来如此！也就是说，先由景山先生考虑这样的主题，之后佐藤先生和足立先生加入进来，共享了这个主题。
+    translation: "原来如此！也就是说，先由景山先生考虑这样的主题，之后佐藤女士和足立女士加入进来，共享了这个主题。"
     scan_box:
       - 53
       - 602
@@ -968,7 +969,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: シャラシティは、メガシンカの歴史が眠る街だからなんですね。
-    translation: 因为娑罗市是沉睡著超级进化历史的城市嘛。
+    translation: "因为娑罗市是沉睡着超级进化历史的城市嘛。"
     scan_box:
       - 793
       - 477
@@ -1171,7 +1172,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: Upper screen↑アジアンチックなシャラシティの曲。ヨーロッパやフランスという先入観があると、足を踏み入れたときに驚くかも？
-    translation: Upper screen↑带有亚洲风情的娑罗市曲子。如果抱着欧洲或法国的先入之见，踏入时或许会感到惊讶？
+    translation: "上屏↑带有亚洲风情的娑罗市曲子。如果抱着欧洲或法国的先入之见，踏入时或许会感到惊讶？"
     scan_box:
       - 1162
       - 1059
@@ -1330,7 +1331,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 足立さんとフレア団が起爆剤？
-    translation: 足立先生与闪焰队是起爆剂？
+    translation: "足立女士与闪焰队是起爆剂？"
     scan_box:
       - 536
       - 113
@@ -1780,7 +1781,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ジムリーダーと生のギターとクラブ・ゲームフリーク
-    translation: 道馆馆主与现场吉他与大钳蟹·GAME FREAK
+    translation: "道馆馆主与现场吉他与俱乐部·GAME FREAK"
     scan_box:
       - 1241
       - 113
@@ -2036,7 +2037,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: フレアだんの アクビが勝負を しかけてきた！
-    translation: 闪焰队的手下 发起了 哈欠挑战！
+    translation: "闪焰队的阿可碧 发起了 对战！"
     scan_box:
       - 841
       - 1837
@@ -2052,7 +2053,7 @@ translation_segments:
     scan_page: 4
     review_status: review
     original: Upper screen↑「戦闘！フレア団」をはじめ、フレア団関連の曲はすべて足立さんの手による
-    translation: 上屏↑以《战斗！闪焰队》为首，闪焰队相关的曲子全部出自足立先生之手
+    translation: "上屏↑以《战斗！闪焰队》为首，闪焰队相关的曲子全部出自足立女士之手"
     scan_box:
       - 829
       - 1892
@@ -2429,7 +2430,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ところで、「一曲いかが？」という曲は景山さんと佐藤さんが実際に演奏した生音と聞いたのですが…？ ゲーム内にお2人が登場して、聴き終わったあとにチップを払える、という（笑）。
-    translation: 话说，《来一曲如何？》这首曲子听说实际上是景山先生和佐藤先生现场演奏的原声……？游戏中两人登场，听完之后可以付小费，这样（笑）。
+    translation: "话说，《来一曲如何？》这首曲子听说实际上是景山先生和佐藤女士现场演奏的原声……？游戏中两人登场，听完之后可以付小费，这样（笑）。"
     scan_box:
       - 422
       - 836
@@ -2541,7 +2542,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: あれはプランナーから「サウンドで2人、チップで演奏してくださいよ」って。
-    translation: 那是策划提出“请用声音做两个人，用芯片来演奏”。
+    translation: "那是策划提出的，说“声音组出两个人，为小费来演奏吧”。"
     scan_box:
       - 422
       - 1425
@@ -2568,7 +2569,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: あれは面白かったね。ちなみに、ゲームに登場する僕の台詞は、実はいつも佐藤が書いています。僕のキャラをよくつかんでて。どや顔で「君の想い出にうまいことリンクできたかな」って関西弁で言う（笑）。
-    translation: 那个很有趣呢。顺便说，游戏中登场的我的台词，其实一直是佐藤写的。他很了解我的角色。他会得意洋洋地用关西腔说“有没有很好地和你的回忆联系起来呢”（笑）。
+    translation: "那个很有趣呢。顺便说，游戏中登场的我的台词，其实一直是佐藤写的。她很了解我的角色。他会得意洋洋地用关西腔说“有没有很好地和你的回忆联系起来呢”（笑）。"
     scan_box:
       - 792
       - 176
@@ -2632,7 +2633,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ありがとうございます。心のままにチップを入れていただければと思います（笑）。
-    translation: 谢谢。希望大家随心所欲地加入芯片（笑）。
+    translation: "谢谢。希望大家随心给点小费（笑）。"
     scan_box:
       - 792
       - 1090
@@ -2792,7 +2793,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: ↑「一曲いかが？『揺れぬ想い』」はヒヨクシティの民家で聴くことができる
-    translation: ↑“来一曲如何？《不动的思念》”可以在比翼市的民家听到
+    translation: "↑“来一曲如何？《不动摇的思念》”可以在比翼市的民家听到"
     scan_box:
       - 804
       - 1417
@@ -2888,7 +2889,7 @@ translation_segments:
     scan_page: 5
     review_status: review
     original: Upper sc
-    translation: Upper sc
+    translation: "上屏"
     scan_box:
       - 1176
       - 1475
@@ -2949,7 +2950,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 私も足立も佐藤も、過去いろんな音楽を作ってきたものの、そのまま自分節を入れてしまうと「ポケモンらしい」曲にはならない。そういうときに増田のエッセンスというか、癖といいますか。増田の音楽ってどう構築されているんだということを、今一度アナライズ（＝楽曲分析）して共有しよう、となって。
-    translation: 我、足立和佐藤虽然过去都创作过各种各样的音乐，但如果直接把自己的风格加进去，就做不出「宝可梦风格」的曲子。这种时候，就把增田的精华也好、癖好也好，增田的音乐是如何构建的这一点，重新分析（＝乐曲分析）并共享出来吧。
+    translation: "我、足立和佐藤虽然过去都创作过各种各样的音乐，但如果直接加入自己的风格，就做不出「宝可梦风格」的曲子。这种时候就需要增田的精髓，或者说他的习惯。于是我们决定重新分析（＝乐曲分析）增田的音乐是如何构建的，并将结果共享出来。"
     scan_box:
       - 71
       - 266
@@ -3603,7 +3604,7 @@ translation_segments:
     scan_page: 6
     review_status: review
     original: 「揺れぬ想い」が絶対必要だって言って…。
-    translation: 他说《动摇的思念》绝对必要……
+    translation: "他说《不动摇的思念》绝对必要……"
     scan_box:
       - 1175
       - 1419
@@ -3729,7 +3730,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: ああ、そのお話をしましたね…。ほんとうに世界中の方々にやっていただけてるっていう喜び。今回、ピカチュウの鳴き声についても、世界共通の鳴き声はピカチュウだけだからこそ、世界同時発売の象徴としてピカチュウの鳴き声を入れようっていうアイデアが、増田を含め開発から出てきたんです。そういうことも含めて、今回は世界を意識して作ってたところが、プレッシャーでしたけど、こんなにやりがいのあるプロジェクトはなかったなと感じますね。それが、なによりうれしいです。
-    translation: 啊，是说过那件事……。那种能被全世界的人们演奏的喜悦。这次关于皮卡丘的叫声，正因为全世界共通的叫声只有皮卡丘，所以包括增田在内，开发团队提出了把皮卡丘的叫声作为全球同步发售象征加入进去的想法。包括这些在内，这次是意识到全球来制作的，虽然压力很大，但我觉得没有比这更有价值的项目了。这一点比什么都让我高兴。
+    translation: "啊，是说过那件事……。真正能让全世界的人们玩到游戏的喜悦。这次关于皮卡丘的叫声，正因为全世界共通的叫声只有皮卡丘，所以包括增田在内，开发团队提出了把皮卡丘的叫声作为全球同步发售象征加入进去的想法。包括这些在内，这次是意识到全球来制作的，虽然压力很大，但我觉得没有比这更有价值的项目了。这一点比什么都让我高兴。"
     scan_box:
       - 1190
       - 831
@@ -3921,7 +3922,7 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: 言われました（笑）。でも、こんなにやってよかったって思う効果音はないです。
-    translation: 被说了呢（笑）。不过，没有哪个音效让我觉得这么做到这个程度是值得的。
+    translation: "被说了呢（笑）。不过，再没有哪个音效能让我觉得“做了真好”到这种程度了。"
     scan_box:
       - 783
       - 1503

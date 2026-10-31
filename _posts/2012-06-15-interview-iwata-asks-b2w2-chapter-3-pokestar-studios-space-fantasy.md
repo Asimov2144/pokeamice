@@ -78,11 +78,11 @@ parallel_items:
   role: question
 - speaker: 海野隆雄
   original: そうです。ちょっと、できすぎていますけど（笑）。
-  translation: 是的。不过，稍微有点过头了（笑）。
+  translation: "是的。有点太巧了（笑）。"
   role: answer
 - speaker: 岩田聪
   original: はい、できすぎていますね（笑）。
-  translation: 嗯，确实过头了（笑）。
+  translation: "是啊，太巧了（笑）。"
   role: question
 - speaker: 海野隆雄
   original: 多分、『ポケモンブラック・ホワイト』のあと、「さらに発展させた遊びができるはずだ」という思いが、スタッフみんなにあったのではないかと思います。というのも、企画を考えてもらうとき、上がってくる速度が非常に早かったんです。

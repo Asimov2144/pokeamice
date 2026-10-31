@@ -181,7 +181,7 @@ parallel_items:
 - type: heading
   level: 3
   original: “We really would do whatever.”
-  translation: “我们当时真的是什么都干得出来。”
+  translation: "“我们真的什么都做。”"
 - speaker: 提问
   original: By the way, who designed the first three Pokémon chosen by the main character?
   translation: 顺便问一下，主角最初选择的三只宝可梦是谁设计的？
@@ -293,7 +293,7 @@ parallel_items:
   role: question
 - speaker: 杉森建
   original: “Toward the end of development, we decided that the games should be compatible with a new peripheral called the Super Game Boy, which would let players play the Game Boy on their TVs. This hardware made it possible to add just one color to Pokémon, which would be black and white on the Game Boy. That is where we decided on the colors for each Pokémon—basically an attribute color that expresses the Pokémon's type in a way that is easy to grasp. All of the official art for Pokémon Red and Pokémon Green was based off of the dot drawings, which led to the use of yellow in Pikachu's official art.”
-  translation: “在开发接近尾声时，我们决定让游戏兼容一种名为Super Game Boy的新外设，它可以让玩家在电视上玩Game Boy游戏。这个硬件使得给宝可梦添加一种颜色成为可能，而在Game Boy上它们原本是黑白的。就在那时我们决定了每只宝可梦的颜色——基本上是一种属性颜色，以易于理解的方式表达宝可梦的属性。宝可梦红和宝可梦绿的所有官方艺术图都基于点阵图，这导致了皮卡丘官方艺术图中使用了黄色。”
+  translation: "“在开发接近尾声时，我们决定让游戏兼容一种名为Super Game Boy的新外设，它可以让玩家在电视上玩Game Boy游戏。这个硬件使得给宝可梦添加一种颜色成为可能，而在Game Boy上它们原本是黑白的。就在那时我们决定了每只宝可梦的颜色——基本上是一种属性颜色，以易于理解的方式表达宝可梦的属性。《宝可梦 红》和《宝可梦 绿》的所有官方艺术图都基于点阵图，这也使得皮卡丘的官方艺术图中使用了黄色。”"
   role: answer
 - type: heading
   level: 3
@@ -304,7 +304,7 @@ parallel_items:
   alt: 'Creator Profile: The Creators of Pikachu_pikachu_daifuku_concept'
 - speaker: ''
   original: Seen here are a New Year's card and its original artwork from prior to the 1996 release of Pokémon Red and Pokémon Green. The design for Pikachu is slightly different.
-  translation: 这里展示的是一张新年贺卡及其原始艺术图，时间在1996年宝可梦红和宝可梦绿发售之前。皮卡丘的设计略有不同。
+  translation: "这里展示的是一张新年贺卡及其原始艺术图，时间在1996年《宝可梦 红》和《宝可梦 绿》发售之前。皮卡丘的设计略有不同。"
 - speaker: 提问
   original: How was it received within GAME FREAK at the development stage?
   translation: 在开发阶段，它在GAME FREAK内部的反响如何？
@@ -394,7 +394,7 @@ parallel_items:
   role: answer
 - speaker: 杉森建
   original: “Pikachu doesn't evolve into a magnificent form like Charizard, so at the time I wondered how we would make it stronger. But since Pikachu worked with its ‘cute and strong‘ image for over years, I think it was a keen insight.”
-  translation: “皮卡丘不会像喷火龙那样进化成华丽的形态，所以当时我在想我们如何让它变得更强。但既然皮卡丘多年来一直以‘可爱又强大’的形象运作，我认为这是一个敏锐的洞察。”
+  translation: "“皮卡丘不会像喷火龙那样进化成华丽的形态，所以当时我在想要如何让它变得更强。但皮卡丘靠着“可爱又强大”的形象一直行得通，多年来都是如此，所以我认为这是一个敏锐的洞察。”"
   role: answer
 - speaker: 提问
   original: What was your impression when you saw Pikachu moving?
@@ -524,7 +524,7 @@ parallel_items:
   role: answer
 - speaker: 杉森建
   original: “I think characters play the role of consoling those who have been through hardship, and I hope Pokémon can play that role as well.”
-  translation: “我认为角色扮演着安慰那些经历过困难的人的角色，我希望宝可梦也能扮演这样的角色。”
+  translation: "“我认为，角色承担着安慰经历过艰难的人的作用，我希望宝可梦也能发挥这样的作用。”"
   role: answer
 - speaker: 提问
   original: Hopefully this gives Pokémon fans a better understanding of how Pikachu came to be. The great love the three creators poured into creating this Pokémon are part of the reason it's loved by so many today. And the story of Pikachu continues to evolve—what will we see from Pikachu in the future?

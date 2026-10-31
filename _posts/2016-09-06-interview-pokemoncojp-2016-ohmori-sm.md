@@ -43,14 +43,14 @@ workflow:
   published: draft
 parallel_items:
 - original: 本作のディレクターを務める、株式会社ゲームフリーク 大森滋氏からの、『ポケットモンスター サン・ムーン』2つのソフトに込めた想いについて、コメントを紹介するぞ！
-  translation: 下面介绍担任本作总监的株式会社GAME FREAK大森滋，关于《宝可梦 太阳·月亮》两款软件所寄托的想法发表的评论！
+  translation: "下面为大家介绍担任本作总监的株式会社GAME FREAK的大森滋，就《宝可梦 太阳·月亮》两款软件所寄托的想法发来的评论！"
 - type: image
   image: /assets/img/interviews/2016-09-06-interview-pokemoncojp-2016-ohmori-sm/001.png
   alt: ディレクター・大森滋氏が語る、2つのソフトに込めた想いとは？
 - type: heading
   level: 3
   original: 『サン・ムーン』という2つのタイトルにした理由
-  translation: 将标题定为《太阳・月亮》这两个的理由
+  translation: "选用《太阳》《月亮》两个标题的理由"
 - original: 私たちの暮らす地球にはたくさんの生命があふれています。
   role: answer
   speaker: 大森滋
@@ -78,7 +78,7 @@ parallel_items:
 - original: 2つのタイトルそれぞれの世界の違いについて－サンとムーンでは、12時間の時差があります。
   role: answer
   speaker: 大森滋
-  translation: 关于两个标题各自世界的差异——太阳与月亮之间存在12小时的时差。
+  translation: "关于两个标题各自世界的差异——《太阳》与《月亮》之间存在12小时的时差。"
 - original: バージョンによって、ここまで大きな差があるというのは、初めての試みです。アローラ地方では、同じ道路でも昼と夜で出現するポケモンが異なりますので、12時間の時差があることで、まったく違った体験をすることができます。ポケモンだけではなく、イベントにも違いがありますので、それぞれの世界を楽しんでもらえればと思います。
   role: answer
   speaker: 大森滋

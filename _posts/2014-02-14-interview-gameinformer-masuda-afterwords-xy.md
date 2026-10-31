@@ -247,7 +247,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: I think we'll be announcing what we wanted to do in regards to tips on the Pokémon Global Link or elsewhere soon.
-  translation: 我想我们很快就会公布关于宝可梦全球连接或其他地方的小贴士方面的计划。
+  translation: "我想我们很快就会在宝可梦全球连接或其他地方公布，关于小费我们打算怎么做。"
   role: answer
 - speaker: 提问
   original: How long has Pokémon X&Y been in development? Had work already begun on the game while Black & White 2 were in development?

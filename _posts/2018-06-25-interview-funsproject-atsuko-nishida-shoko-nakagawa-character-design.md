@@ -274,7 +274,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 【第2回】後編：「ドット絵は私の原点」（にしだあつこ）
-  translation: "后篇：像素绘图是我的原点——皮卡丘之母的插画哲思"
+  translation: "后篇：“像素画是我的原点”（西田敦子）"
 - type: image
   image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/img02.jpg
   caption: 中川翔子与西田敦子就点阵原画与宝可梦设计进行热烈讨论
@@ -299,7 +299,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: ドレディアもにしださんだったんですね！にしださんの描くポケモンは、強くて可愛い子が多いですよね。エルフーンもそうだし、ニンフィアなんて「フェアリースキン」という隠れ特性まで付いたら無双状態ですもんね。
-  translation: 罗丝雷朵也是西田老师设计的啊！西田老师画的宝可梦，大多是既强大又可爱的孩子呢。风妖精也是这样，仙子伊布更是如果加上“妖精皮肤”这个隐藏特性的话，简直就是无双状态了嘛。
+  translation: "裙儿小姐也是西田老师设计的啊！西田老师画的宝可梦，大多是既强大又可爱的孩子呢。风妖精也是这样，仙子伊布更是如果加上“妖精皮肤”这个隐藏特性的话，简直就是无双状态了嘛。"
   speaker: 中川翔子
   role: question
 - type: paragraph
@@ -339,7 +339,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 可愛いヒトカゲから、カッコいいメガリザードンＸというギャップにはゾクゾクしました。
-  translation: 从可爱的火稚鸡到帅气的超级喷火龙Ｘ，这种反差让我兴奋不已。
+  translation: "从可爱的小火龙到帅气的超级喷火龙Ｘ，这种反差让我兴奋不已。"
   speaker: 中川翔子
   role: question
 - type: paragraph
