@@ -21,7 +21,7 @@ toc_sticky: true
 
 <figure>
   <img src="{{ '/assets/img/toolbox/today.jpg' | relative_url }}" alt="Pokémon Today 页面：右上角日期选择器，左边「今日关注」大卡片显示活动名称、日期、地点、状态和参与方式，右边列出其他活动，下方是宝可梦之日">
-  <figcaption>2026-11-01 的页面：左边「今日关注」，右边「其他活动」，下方是当天的宝可梦之日（米立龙之日、电龙之日）。</figcaption>
+  <figcaption>2026-11-01 的页面：左边「今日关注」，右边「其他活动」，下方是当天的宝可梦之日（米立龙之日、电龙之日）和当天的计数。</figcaption>
 </figure>
 
 ## 怎么用

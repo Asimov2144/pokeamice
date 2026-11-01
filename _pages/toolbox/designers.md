@@ -19,6 +19,11 @@ toc_sticky: true
 
 整理每只宝可梦的主设计者。底稿是 gfworks 的 Pokémon Primary Designers 表，再用 Docs 的[制作名单](/credits/)逐条核对，补上其他出处（例如设计者本人在社交网站上的说明）。
 
+<figure>
+  <img src="{{ '/assets/img/toolbox/designers-matrix.jpg' | relative_url }}" alt="宝可梦设计者表的世代分工矩阵：每行一位设计者，每列一个世代，格子颜色区分原表与名单一致、名单有而原表没记">
+  <figcaption>「世代分工」矩阵：一行一位设计者，一格一个世代。深色 = 原表与名单一致，浅色 = 名单里有、原表没记。</figcaption>
+</figure>
+
 ## 两种看法
 
 - **按设计者**：选一位设计者，列出他负责的全部宝可梦。
@@ -34,6 +39,3 @@ toc_sticky: true
 
 主站 /designers/ 和 Docs /credits/designers/ 用的是同一份数据。主站版把宝可梦图标换成了本站图床，方便国内访问；Docs 版可以直接跳到对应的制作名单页。
 
-## 截图待补
-
-页面截图还没有截，下一轮补上。
