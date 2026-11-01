@@ -75,6 +75,8 @@ main:
         url: /references/
       - title: "宝可梦友会主站"
         url: https://pokeamice.com
+      - title: "百宝箱 · 站内工具"
+        url: /toolbox/
       - title: "本地工具索引"
         url: /local-editing-tools/
       - title: "编辑工作台"
@@ -83,6 +85,42 @@ main:
         url: /metadata-schema/
   - title: "News"
     url: /news/
+
+
+# 百宝箱（/toolbox/）的左侧目录。站号 = 线路字母 + 线内编号，和主站 pokeamice.com/toolbox/ 的目录卡片一一对应。
+toolbox:
+  - title: "百宝箱"
+    children:
+      - title: "总览"
+        url: /toolbox/
+  - title: "T 站内工具"
+    children:
+      - title: "T01 图片检索"
+        url: /toolbox/image-search/
+      - title: "T02 Game Snapshot 截图检索"
+        url: /toolbox/game-snapshot/
+      - title: "T03 杂志资料库"
+        url: /toolbox/magazine/
+      - title: "T04 今日宝事 Event"
+        url: /toolbox/event/
+      - title: "T05 宝可旅图 Tour"
+        url: /toolbox/tour/
+      - title: "T06 Pokémon Today"
+        url: /toolbox/today/
+      - title: "T07 Docs 检索与索引"
+        url: /toolbox/docs-search/
+      - title: "T08 宝可梦设计者表"
+        url: /toolbox/designers/
+      - title: "T09 访客统计"
+        url: /toolbox/visitor-stats/
+  - title: "W 工作流"
+    children:
+      - title: "W01 扫描访谈的翻译流程"
+        url: /local-editing-tools/
+      - title: "W02 资料元数据规范"
+        url: /metadata-schema/
+      - title: "W03 旧平台文章迁移"
+        url: /article-migration-guide/
 
 
 docs:
