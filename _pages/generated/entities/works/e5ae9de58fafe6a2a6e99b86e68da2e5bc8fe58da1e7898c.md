@@ -44,7 +44,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2024 · article · special.pokemon.cn</p>
-  <h3><a href="/tech/ptcg/技能机-卡图下载-查询时间-Download-Inqury/">[技能机] 卡图下载 查询时间 Download &amp; Time Inqury</a></h3>
+  <h3><a href="/tech/ptcg/技能机-卡图下载-查询时间-Download-&amp;-Inqury/">[技能机] 卡图下载 查询时间 Download &amp; Time Inqury</a></h3>
   <span>批量下载卡图&amp;查询服务器存档时间 宝活小妙招\ {: .align-center} 下载卡图！ 得先推测出链接的格式，比如 &lt;a href=&quot;https://special.pokemon.cn/&quot; title = &quot;151&quot;https://special.pokemon.cn/&lt;/a 上有一些151卡图的链接 点开卡图后可以发现对应的静态链接 &lt;a hre</span>
 </article>
 

@@ -163,13 +163,6 @@ def slug(value)
   ascii.empty? ? CGI.escape(text).gsub("%", "").downcase[0, 48] : ascii
 end
 
-def permalink_part(value, downcase: true)
-  text = value.to_s
-  text = text.downcase if downcase
-  text.gsub(/[^\p{Alnum}\p{Han}\p{Hiragana}\p{Katakana}\p{Hangul}]+/u, "-")
-      .gsub(/\A-+|-+\z/, "")
-end
-
 def strip_markdown(text)
   text.to_s
       .gsub(/\{[%{].*?[%}]\}/m, "")
@@ -187,11 +180,14 @@ def post_url(path, front)
     return permalink.end_with?("/") || File.extname(permalink) != "" ? permalink : permalink + "/"
   end
 
-  categories = array(front["categories"])
-  date_slug = File.basename(path, ".md").sub(/\A\d{4}-\d{2}-\d{2}-/, "")
-  category_parts = categories.map { |part| permalink_part(part, downcase: true) }
-  title_part = permalink_part(date_slug, downcase: false)
-  "/" + (category_parts + [title_part]).reject(&:empty?).join("/") + "/"
+  # Same as Jekyll 4's UrlDrop for `permalink: /:categories/:title/`: a category is only
+  # downcased (a space stays a space: "Game Freak" -> "game freak"), and the title is the
+  # file's slug through Utils.slugify(mode: "pretty", cased: true), which keeps ._~!$&'()+,;=@
+  categories = array(front["categories"]).map { |part| part.to_s.downcase }.uniq
+  slug = front["slug"].to_s.strip
+  slug = File.basename(path, ".md").sub(/\A\d{4}-\d{2}-\d{2}-/, "") if slug.empty?
+  title_part = slug.gsub(/[^\p{M}\p{L}\p{Nd}._~!$&'()+,;=@]+/u, "-").gsub(/\A-|-\z/, "")
+  "/" + (categories + [title_part]).reject(&:empty?).join("/") + "/"
 end
 
 def post_year(front)
@@ -357,7 +353,7 @@ def card_list(items, empty)
     <<~HTML
       <article class="resource-network-card">
         <p>#{CGI.escapeHTML(meta)}</p>
-        <h3><a href="#{item["url"]}">#{CGI.escapeHTML(item["title"])}</a></h3>
+        <h3><a href="#{CGI.escapeHTML(item["url"])}">#{CGI.escapeHTML(item["title"])}</a></h3>
         <span>#{CGI.escapeHTML(text.to_s)}</span>
       </article>
     HTML
@@ -372,7 +368,7 @@ def annotation_list(items)
     <<~HTML
       <article class="resource-network-card resource-network-card--annotation">
         <p>#{CGI.escapeHTML(meta)}</p>
-        <h3><a href="#{item["url"]}">#{CGI.escapeHTML(item["title"])}</a></h3>
+        <h3><a href="#{CGI.escapeHTML(item["url"])}">#{CGI.escapeHTML(item["title"])}</a></h3>
         <span>#{CGI.escapeHTML(item["text"].to_s)}</span>
       </article>
     HTML

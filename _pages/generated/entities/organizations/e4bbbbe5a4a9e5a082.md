@@ -20,7 +20,7 @@ search: false
     <h2>相关文章</h2>
     <article class="resource-network-card">
   <p>2025 · article · t.co</p>
-  <h3><a href="/game-freak/整理/整理-GameFreak-Development-TimeLine/">[整理] 近年 Game Freak 开发事件年表</a></h3>
+  <h3><a href="/game freak/整理/整理-GameFreak-Development-TimeLine/">[整理] 近年 Game Freak 开发事件年表</a></h3>
   <span>近年 Game Freak 开发事件年表 第四时代末尾 2008年初 Game Freak迁入新办公室\ New Office Desgin{:target=&quot;blank&quot;} Weibo 专栏介绍{:target=&quot;blank&quot;} 第五世代末尾 2012年6月23日 『宝可梦 黑2&amp;白2』Pokémon Black 2 and White 2发售\ 52po</span>
 </article>
 
@@ -32,7 +32,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2017 · interview_translation · Game Freak’s Origins And Its Pre-Pokémon Games</p>
-  <h3><a href="/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
+  <h3><a href="/采访/开发者访谈/宝可梦红绿/game freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
   <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0827 --</span>
 </article>
 
