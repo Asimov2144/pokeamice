@@ -4563,12 +4563,12 @@ overseas:
       - 154
       blurb: Niantic与Pokémon圆桌会议谈《Pokémon GO》开发与未来
 games:
-  docs: 474
+  docs: 476
   n: 41
   top:
   - id: g1-1
     name: 宝可梦 红·绿
-    docs: 74
+    docs: 75
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
   - id: anime-2
@@ -4600,14 +4600,14 @@ games:
     icon2: /assets/img/works/home-shield.png
   - id: g2-1
     name: 宝可梦 金·银
-    docs: 24
+    docs: 25
     icon: /assets/img/works/bulba-gold-vc-icon.png
     icon2: /assets/img/works/bulba-silver-vc-icon.png
   groups:
   - key: g1
     label: 第一世代
     sub: 红·绿·蓝·皮卡丘
-    docs: 76
+    docs: 77
     from: 1996
     to: 1998
     people:
@@ -4619,21 +4619,26 @@ games:
       n: 29
     - name: 增田顺一
       slug: masuda-junichi
-      n: 22
+      n: 23
     - name: 石原恒和
       slug: ishihara-tsunekazu
       n: 22
     games:
     - name: 宝可梦 红·绿
       aliases: []
-      docs: 74
+      docs: 75
       blogs: 33
       kinds:
         interview: 69
-        scan: 5
+        scan: 6
         topic: 0
         article: 0
       picks:
+      - title: 为交换而生的《宝可梦》
+        kind: scan
+        date: '1997-08-20'
+        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-game-kaigi-1997-09-gamefreak-roundtable/
+        pub: ゲーム会議
       - title: 田尻智与中川翔子对谈
         kind: scan
         date: '2007-02-24'
@@ -4644,11 +4649,6 @@ games:
         date: '2013-05-29'
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-glitterberri-early-concept-art/
         pub: GlitterBerri
-      - title: 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学
-        kind: interview
-        date: '2013-11-16'
-        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/
-        pub: 週刊ファミ通
       people:
       - name: 首藤刚志
         slug: shudo-takeshi
@@ -4658,7 +4658,7 @@ games:
         n: 29
       - name: 增田顺一
         slug: masuda-junichi
-        n: 22
+        n: 23
       year: 1996
       span:
       - 1996
@@ -4756,33 +4756,38 @@ games:
   - key: g2
     label: 第二世代
     sub: 金·银·水晶
-    docs: 25
+    docs: 26
     from: 1999
     to: 2000
     people:
     - name: 增田顺一
       slug: masuda-junichi
-      n: 10
+      n: 11
     - name: 森本茂树
       slug: morimoto-shigeki
+      n: 10
+    - name: 杉森建
+      slug: sugimori-ken
       n: 9
     - name: 田尻智
       slug: tajiri-satoshi
       n: 9
-    - name: 杉森建
-      slug: sugimori-ken
-      n: 8
     games:
     - name: 宝可梦 金·银
       aliases: []
-      docs: 24
+      docs: 25
       blogs: 31
       kinds:
         interview: 21
-        scan: 3
+        scan: 4
         topic: 0
         article: 0
       picks:
+      - title: 为交换而生的《宝可梦》
+        kind: scan
+        date: '1997-08-20'
+        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-game-kaigi-1997-09-gamefreak-roundtable/
+        pub: ゲーム会議
       - title: 1997年《宝可梦2》访谈
         kind: interview
         date: '1997-11-27'
@@ -4793,20 +4798,15 @@ games:
         date: '1999-12-01'
         url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-developer-interview/
         pub: 任天堂公式ガイドブック ポケットモンスター 金・…
-      - title: 宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录
-        kind: interview
-        date: '2000-05-01'
-        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-05-01-kakeru-pokemon-site-dawn/
-        pub: ''
       people:
       - name: 增田顺一
         slug: masuda-junichi
-        n: 10
+        n: 11
       - name: 森本茂树
         slug: morimoto-shigeki
-        n: 9
-      - name: 田尻智
-        slug: tajiri-satoshi
+        n: 10
+      - name: 杉森建
+        slug: sugimori-ken
         n: 9
       year: 1999
       span:

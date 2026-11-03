@@ -295,12 +295,6 @@
     title: GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）
     url: //interview-gamefreak-official-red-green-staff/
     why: 同为1997年GAME FREAK初代主创访谈，田尻智谈宝可梦2构想
-  - id: interview-2000-01-01-sunanohi-pokemon-game-kaigi
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/
-    why: 同为1997年杂志宝可梦特辑，含GAME FREAK座谈与田尻访谈
   - id: scan-shodai-zukan-1996-staff-interview
     kind: background
     label: 为这篇提供背景
@@ -479,12 +473,6 @@
     title: 初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈
     url: /developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/
     why: 同为1997年前后杂志对初代主创的访谈整理
-  - id: interview-2000-01-01-sunanohi-pokemon-game-kaigi
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/
-    why: 同为1997年GAME FREAK主创访谈，含杉森建座谈
 1997-11-27-interview-spaceworld-tajiri-miyamoto-ishihara-pokemon2:
   facets:
     people:
@@ -527,12 +515,6 @@
     title: GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）
     url: //interview-gamefreak-official-red-green-staff/
     why: 同为1997年GF官网访谈，田尻谈尚在开发的宝可梦2构想
-  - id: interview-2000-01-01-sunanohi-pokemon-game-kaigi
-    kind: background
-    label: 为这篇提供背景
-    title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/
-    why: 同为1997年GF座谈会与田尻访谈，涉金·银开发期
   - id: interview-nom-special-dialogue-tajiri-ishihara
     kind: background
     label: 为这篇提供背景
@@ -1143,12 +1125,6 @@
     title: 初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈
     url: /developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/
     why: 同为1995–2000年杂志报道整理，涉红绿发售前
-  - id: interview-2000-01-01-sunanohi-pokemon-game-kaigi
-    kind: background
-    label: 为这篇提供背景
-    title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/
-    why: 同为sunanohi站整理，涉1997年宝可梦报道
   - id: interview-gamefreak-official-red-green-staff
     kind: background
     label: 为这篇提供背景

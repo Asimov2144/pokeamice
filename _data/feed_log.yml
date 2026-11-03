@@ -1,4 +1,10 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-04'
+  count: 1
+  types:
+    扫描翻译: 1
+  posts:
+  - 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
 - date: '2026-10-30'
   count: 1
   types:
@@ -179,9 +185,9 @@
   - 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
   - 2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza
 - date: '2026-09-05'
-  count: 41
+  count: 40
   types:
-    访谈翻译: 41
+    访谈翻译: 40
   posts:
   - 2019-05-18-interview-siliconera-harmoknight-drill-dozer
   - 2019-05-09-interview-vgc-gamefreak-gear-project
