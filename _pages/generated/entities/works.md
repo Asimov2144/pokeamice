@@ -136,11 +136,11 @@ search: false
 <a href="/entities/works/e5ae9de58fafe6a2a6+e79aaee58da1e4b898e78988/"><strong>宝可梦 皮卡丘版</strong><span>12 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7a9b6e69e81e4b98be697a5c2b7e/"><strong>宝可梦 究极之日·究极之月</strong><span>10 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7ab8be4bd93e59bbee989b4/"><strong>宝可梦 立体图鉴</strong><span>1 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"><strong>宝可梦 红·绿</strong><span>122 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"><strong>宝可梦 红·绿</strong><span>123 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"><strong>宝可梦 红宝石·蓝宝石</strong><span>38 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7bbbfe5ae9de79fb3/"><strong>宝可梦 绿宝石</strong><span>17 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e8939d/"><strong>宝可梦 蓝</strong><span>3 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e98791c2b7e993b6/"><strong>宝可梦 金·银</strong><span>58 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e98791c2b7e993b6/"><strong>宝可梦 金·银</strong><span>59 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e992bbe79fb3c2b7e78f8de78fa0/"><strong>宝可梦 钻石·珍珠</strong><span>72 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e993b6e9ad82/"><strong>宝可梦 银魂</strong><span>1 条资料</span></a>
 <a href="/entities/works/2-2/"><strong>宝可梦 黑2·白2</strong><span>21 条资料</span></a>

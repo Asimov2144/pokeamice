@@ -383,7 +383,7 @@ search: false
 <a href="/entities/people/e78e9be4b8bdc2b7e99baae88eb1/"><strong>玛丽·雪莱</strong><span>1 条资料</span></a>
 <a href="/entities/people/e794b0e4b88ae6809ce5ad90/"><strong>田上怜子</strong><span>1 条资料</span></a>
 <a href="/entities/people/e794b0e4b8ade5ae8fe5928c/"><strong>田中宏和</strong><span>1 条资料</span></a>
-<a href="/entities/people/e794b0e5b0bbe699ba/"><strong>田尻智</strong><span>29 条资料</span></a>
+<a href="/entities/people/e794b0e5b0bbe699ba/"><strong>田尻智</strong><span>28 条资料</span></a>
 <a href="/entities/people/e794b0e8b0b7e6ada3e5a4ab/"><strong>田谷正夫</strong><span>4 条资料</span></a>
 <a href="/entities/people/e794bae794b0/"><strong>町田</strong><span>1 条资料</span></a>
 <a href="/entities/people/e795a0e7a590e8b4b5/"><strong>畠祐贵</strong><span>1 条资料</span></a>

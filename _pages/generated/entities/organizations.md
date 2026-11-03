@@ -46,7 +46,7 @@ search: false
 <a href="/entities/organizations/ntt-docomo/"><strong>NTT DOCOMO</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/niantic/"><strong>Niantic</strong><span>3 条资料</span></a>
 <a href="/entities/organizations/nifty/"><strong>Nifty</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/nintendo/"><strong>Nintendo</strong><span>16 条资料</span></a>
+<a href="/entities/organizations/nintendo/"><strong>Nintendo</strong><span>15 条资料</span></a>
 <a href="/entities/organizations/nintendo-power/"><strong>Nintendo Power</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/olm/"><strong>OLM</strong><span>73 条资料</span></a>
 <a href="/entities/organizations/one-direction/"><strong>One Direction</strong><span>1 条资料</span></a>

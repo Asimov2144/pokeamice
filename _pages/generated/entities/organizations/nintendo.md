@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Nintendo</h2>
-    <span>16 篇文章 · 0 条评注 · 2021 / 2019 / 2018 / 2017 / 2016 / 2013 / 2009 / 2004 / 2000</span>
+    <span>15 篇文章 · 0 条评注 · 2021 / 2019 / 2018 / 2017 / 2016 / 2013 / 2009 / 2004 / 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -105,12 +105,6 @@ search: false
 <article class="resource-network-card">
   <p>2000 · interview_translation · インターネットにおけるポケモンサイト黎明期の記憶 金銀発売前の整理</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-05-01-kakeru-pokemon-site-dawn/">宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏</a></h3>
   <span></span>
 </article>
 
