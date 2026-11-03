@@ -91,6 +91,95 @@ quotes:
   - type: person
     name: 太田健程
     slug: ota-takenori
+- id: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable#14
+  post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
+  segment: 14
+  speaker: 森本茂树
+  reported: false
+  kind: question
+  hook: 《红》《绿》为何不按ID自动分版本？
+  zh: 只要看宝可梦的状态画面就能明白，游戏开始时会分配自己的ID。最初曾讨论过一种机制：在开始游戏时，根据这个ID决定《红》《绿》。但那样的话，玩家会不太清楚自己的软件到底是哪一版。
+  ja: ポケモンのステータス画面を見てもらえばわかると思うんですけど、ゲームを始めると自分のIDが振られるんです。最初はゲームを始めたとき、そのIDによって『赤』『緑』が決定される仕組みにしようという話になってました。でも、それでは自分のソフトがどっちになったかわかりにくいかなと。
+  lang: ja
+  year: 1997
+  date: '1997-08-20'
+  publication: ゲーム会議
+  title: ゲーム会議 1997：GAME FREAK 四人座谈——为交换而生的《宝可梦》与《宝可梦2》的构想
+  score: 4
+  why: 森本说明最初曾讨论按游戏开始分配的ID决定《红》《绿》，但玩家会不清楚自己买的是哪一版，因此放弃。
+  more: 杉森建在下一句补充，实际拍板的是任天堂的宫本茂。
+  people:
+  - 杉森建
+  - 森本茂树
+  - 增田顺一
+  - 太田健程
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
+  links:
+  - type: person
+    name: 杉森建
+    slug: sugimori-ken
+  - type: person
+    name: 宫本茂
+    slug: miyamoto-shigeru
+  - type: term
+    name: 任天堂
+- id: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable#84
+  post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
+  segment: 84
+  speaker: 森本茂树
+  reported: false
+  kind: question
+  hook: 交换功能为何让《宝可梦》数据检查变难？
+  zh: 一涉及交换，数据传输就很费劲。《1》的时候bug也特别多。传送途中会停住，或者传过去的是别的宝可梦。宝可梦数据有151只呢。《2》里还要再加100只左右，光是数据管理就很吃力。
+  ja: やっぱり交換となるとデータ転送は苦労しますよ。『１』でもバグがすごくて。送ってる最中に止まったり、違うポケモンが送られたり。ポケモンデータが１５１匹もあるとね。『２』では、それに１００匹くらい増えるからデータ管理だけでも大変です。
+  lang: ja
+  year: 1997
+  date: '1997-08-20'
+  publication: ゲーム会議
+  title: ゲーム会議 1997：GAME FREAK 四人座谈——为交换而生的《宝可梦》与《宝可梦2》的构想
+  score: 4
+  why: 森本解释发售从夏天延到冬天，与交换数据传输费劲、bug多有关，并提到151只宝可梦的数据管理。
+  more: 同一段还提到《2》要再加100只左右，数据管理更吃力。
+  people:
+  - 杉森建
+  - 森本茂树
+  - 增田顺一
+  - 太田健程
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
+  links: []
+- id: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable#107
+  post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
+  segment: 107
+  speaker: 森本茂树
+  reported: false
+  kind: question
+  hook: 《2》能接收《1》的哪些宝可梦数据？
+  zh: 简单说，《2》里内置了《1》的通信系统，《1》的数据当然能放进《2》。但《2》的新宝可梦，或者带有新招式的怪物就不行了。
+  ja: 要するに『２』に『１』の通信システムが入っていて『１』のデータは当然『２』に入れられる。でも『２』の新しいポケモンや新しい技を持ったモンスターは無理。
+  lang: ja
+  year: 1997
+  date: '1997-08-20'
+  publication: ゲーム会議
+  title: ゲーム会議 1997：GAME FREAK 四人座谈——为交换而生的《宝可梦》与《宝可梦2》的构想
+  score: 4
+  why: 森本说明《2》内置《1》的通信系统，《1》数据能放进《2》，但《2》的新宝可梦或带新招式的怪物不行。
+  more: 杉森建接着说，从《1》带到《2》的宝可梦会以新图像进入新图鉴。
+  people:
+  - 杉森建
+  - 森本茂树
+  - 增田顺一
+  - 太田健程
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
+  links:
+  - type: person
+    name: 杉森建
+    slug: sugimori-ken
 - id: 1997-10-16-interview-gamefreak-official-red-green-staff#108
   post: 1997-10-16-interview-gamefreak-official-red-green-staff
   segment: 108
@@ -586,69 +675,6 @@ quotes:
   - type: person
     name: 西野弘二
     slug: nishino-koji
-- id: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi#11
-  post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
-  segment: 11
-  speaker: null
-  reported: true
-  kind: quote
-  hook: 森本茂树：我设计了蚊香蝌蚪和猴怪
-  zh: 顺便一提，森本先生还在同一采访中透露，他参与了蚊香蝌蚪和猴怪的设计。
-  ja: ちなみに、森本氏はニョロモやマンキーのデザインを手掛けたことも同取材で明かしている。
-  lang: ja
-  year: 2000
-  date: '2000-01-01'
-  publication: その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9
-  title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-  score: 4
-  why: 座谈会中森本茂树透露自己参与了两只早期宝可梦的设计，是具体的设计归属信息。
-  more: 同一座谈会还有杉森建、增田顺一、太田健程参与。
-  people:
-  - 田尻智
-  - 杉森建
-  - 森本茂树
-  - 增田顺一
-  - 太田健程
-  works: []
-  note: 蚊香蝌蚪（ニョロモ）和猴怪（マンキー）是初代宝可梦中的宝可梦。
-  links:
-  - type: person
-    name: 增田顺一
-    slug: masuda-junichi
-  - type: person
-    name: 太田健程
-    slug: ota-takenori
-  - type: person
-    name: 杉森建
-    slug: sugimori-ken
-- id: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi#25
-  post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
-  segment: 25
-  speaker: null
-  reported: true
-  kind: quote
-  hook: 石原恒和：为金·银发售延期致歉
-  zh: 以制作人石原恒和先生致辞的形式，对金·银发售延期表示歉意，同时
-  ja: プロデューサーの石恒恒和氏からのお話という形式で、金・銀の発売延期のお詫びと共に、
-  lang: ja
-  year: 2000
-  date: '2000-01-01'
-  publication: その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9
-  title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-  score: 4
-  why: 以制作人致辞形式记录金·银延期，是当时开发进度的直接说明。
-  more: 同一期还报道了配合电影《超梦的逆袭》上映计划发售皮卡丘版。
-  people:
-  - 田尻智
-  - 杉森建
-  - 森本茂树
-  - 增田顺一
-  - 太田健程
-  works: []
-  note: 原文作“石恒恒和”，系来源页笔误，应为石原恒和。
-  links:
-  - type: work
-    name: 超梦的逆袭
 - id: 2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn#18
   post: 2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn
   segment: 18

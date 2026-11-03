@@ -1,0 +1,515 @@
+{
+ "id": "scan-game-kaigi-1997-09-gamefreak-roundtable",
+ "stem": "1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable",
+ "rev": 1,
+ "built": "2026-11-04",
+ "kind": "scan",
+ "body": {
+  "kind": "segments",
+  "n": 134
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "妙蛙种子",
+    "ndex": 1,
+    "seg": [
+     25
+    ],
+    "as": [
+     "妙蛙种子"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     51
+    ],
+    "as": [
+     "皮卡丘"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "尼多兰",
+    "ndex": 29,
+    "seg": [
+     84
+    ],
+    "as": [
+     "尼多兰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "蚊香蝌蚪",
+    "ndex": 60,
+    "seg": [
+     49
+    ],
+    "as": [
+     "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "霹雳电球",
+    "ndex": 100,
+    "seg": [
+     66
+    ],
+    "as": [
+     "霹雳电球"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "飞腿郎",
+    "ndex": 106,
+    "seg": [
+     25
+    ],
+    "as": [
+     "飞腿郎"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "快拳郎",
+    "ndex": 107,
+    "seg": [
+     25
+    ],
+    "as": [
+     "快拳郎"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "吉利蛋",
+    "ndex": 113,
+    "seg": [
+     52
+    ],
+    "as": [
+     "吉利蛋"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "卡比兽",
+    "ndex": 143,
+    "seg": [
+     52,
+     53,
+     57
+    ],
+    "as": [
+     "卡比兽"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     23
+    ],
+    "as": [
+     "伊布"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "猴怪",
+    "ndex": 56,
+    "seg": [
+     49
+    ],
+    "as": [
+     "猴怪"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "皮皮",
+    "ndex": 35,
+    "seg": [
+     51
+    ],
+    "as": [
+     "皮皮"
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "胖丁",
+    "ndex": 39,
+    "seg": [
+     51
+    ],
+    "as": [
+     "胖丁"
+    ],
+    "via": "llm"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "浪漫沙加",
+    "slug": null,
+    "seg": [
+     29
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "AQUA ZONE",
+    "slug": null,
+    "seg": [
+     125
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "森本茂树",
+    "slug": "morimoto-shigeki",
+    "role": "speaker",
+    "seg": [
+     13,
+     17,
+     24,
+     26,
+     31,
+     34
+    ]
+   },
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     14,
+     18,
+     23,
+     29,
+     33,
+     36
+    ]
+   },
+   {
+    "name": "太田健程",
+    "slug": "ota-takenori",
+    "role": "speaker",
+    "seg": [
+     16,
+     28,
+     30,
+     39,
+     66,
+     71
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "speaker",
+    "seg": [
+     59,
+     61,
+     63,
+     65,
+     67,
+     70
+    ]
+   },
+   {
+    "name": "宫本茂",
+    "slug": "miyamoto-shigeru",
+    "role": "mentioned",
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "西野弘二",
+    "slug": "nishino-koji",
+    "role": "mentioned",
+    "seg": [
+     56
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "平野裕子",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "紫苑镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "spot",
+    "seg": [
+     60
+    ],
+    "what": "曲子被提及的地点",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     4,
+     17,
+     36,
+     51
+    ],
+    "as": [
+     "子供",
+     "小学生",
+     "孩子们",
+     "小孩子"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     6
+    ],
+    "as": [
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     6,
+     58
+    ],
+    "as": [
+     "音效"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     10,
+     11
+    ],
+    "as": [
+     "交換"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     29
+    ],
+    "as": [
+     "路线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     34
+    ],
+    "as": [
+     "经验值"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     41,
+     118,
+     126,
+     129
+    ],
+    "as": [
+     "卡带",
+     "容量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     43,
+     83
+    ],
+    "as": [
+     "存档",
+     "数据管理"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     46
+    ],
+    "as": [
+     "ポケモンのデザイン"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     47
+    ],
+    "as": [
+     "开发期间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     57
+    ],
+    "as": [
+     "原型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     62,
+     63,
+     64,
+     69,
+     72
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [
+     94
+    ],
+    "as": [
+     "秘技"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "version-pair",
+    "name": "两个版本",
+    "facet": "system",
+    "seg": [
+     110
+    ],
+    "as": [
+     "两版"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     118
+    ],
+    "as": [
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [],
+    "as": [
+     "通信功能"
+    ],
+    "via": "tag"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 13,
+   "text": "森本茂树说游戏开始时会分配自己的ID，最初曾讨论按ID决定《红》《绿》。"
+  },
+  {
+   "seg": 14,
+   "text": "杉森建说实际做出决定的是任天堂的宫本茂，宫本给出许可才成现在形式。"
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "relations_model": "deepseek-chat"
+ },
+ "edited": false
+}

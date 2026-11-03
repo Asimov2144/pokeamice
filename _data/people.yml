@@ -13,6 +13,10 @@
   - image: /assets/img/people/masuda-junichi-1996.jpg
     year: 1996
     source: ポケットモンスター図鑑（1996）P.137
+  - image: /assets/img/people/masuda-junichi-1997.jpg
+    year: 1997
+    source: ゲーム会議 1997年8月号 Vol.9 P.8（増田順一氏）
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
   - image: /assets/img/people/masuda-junichi-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
@@ -116,6 +120,10 @@
   - image: /assets/img/people/sugimori-ken-1996.jpg
     year: 1996
     source: ポケットモンスター図鑑（1996）P.137
+  - image: /assets/img/people/sugimori-ken-1997.jpg
+    year: 1997
+    source: ゲーム会議 1997年8月号 Vol.9 P.5（杉森建氏）
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
   - image: /assets/img/people/sugimori-ken-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
@@ -340,6 +348,10 @@
   - image: /assets/img/people/morimoto-shigeki-1996.jpg
     year: 1996
     source: ポケットモンスター図鑑（1996）P.139
+  - image: /assets/img/people/morimoto-shigeki-1997.jpg
+    year: 1997
+    source: ゲーム会議 1997年8月号 Vol.9 P.7（森本茂樹氏）
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
   - image: /assets/img/people/morimoto-shigeki-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
@@ -374,6 +386,10 @@
     year: 1996
     source: ポケットモンスター図鑑 1996 P.142
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
+  - image: /assets/img/people/nishino-koji-1997.jpg
+    year: 1997
+    source: ゲーム会議 1997年8月号 Vol.9 P.8（プランナー 西野弘二氏）
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
   - image: /assets/img/people/nishino-koji-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
@@ -397,6 +413,10 @@
   - image: /assets/img/people/ota-takenori-1996.jpg
     year: 1996
     source: ポケットモンスター図鑑（1996）P.139
+  - image: /assets/img/people/ota-takenori-1997.jpg
+    year: 1997
+    source: ゲーム会議 1997年8月号 Vol.9 P.6（太田健程氏）
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
   credits_key: ota takenori
 - name: 石原恒和
   slug: ishihara-tsunekazu

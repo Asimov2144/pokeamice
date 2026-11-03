@@ -307,6 +307,7 @@ def cmd_commons():
 _GF = "assets/images/gamefreak-legacy/staff/"
 _IA = "assets/img/interviews/"
 _ZUKAN = "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/"
+_KAIGI = "https://gallery.pokeamice.com/scan-archive/game-kaigi-1997-09-gamefreak-roundtable/pages/"
 _FAMI_POKOPIA = "https://cimg.kgl-systems.io/camion/files/66124/thumbnail_yALX.png?x=1280"   # the article's four-up thumbnail, the profile avatars are its faces
 PORTRAITS = [
     # Game Freak staff blog 「晴れたり時々曇ったり」- the writer's own photo in a signed post
@@ -339,6 +340,11 @@ PORTRAITS = [
     dict(name="藤原基史", year=1996, main=True, src=_ZUKAN + "p143_p141_ch6_interview_part7.jpg", box=(858, 154, 116, 116), source="ポケットモンスター図鑑 1996 P.141（藤原基史）", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     dict(name="西田敦子", year=1996, src=_ZUKAN + "p144_p142_ch6_interview_part8.jpg", box=(901, 137, 106, 106), source="ポケットモンスター図鑑 1996 P.142", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     dict(name="西野弘二", year=1996, src=_ZUKAN + "p144_p142_ch6_interview_part8.jpg", box=(205, 109, 127, 127), source="ポケットモンスター図鑑 1996 P.142", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
+    dict(name="杉森建", year=1997, src=_KAIGI + "P05.jpg", box=(235, 150, 360, 360), source="ゲーム会議 1997年8月号 Vol.9 P.5（杉森建氏）", post="1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable"),
+    dict(name="太田健程", year=1997, src=_KAIGI + "P06.jpg", box=(831, 218, 476, 476), source="ゲーム会議 1997年8月号 Vol.9 P.6（太田健程氏）", post="1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable"),
+    dict(name="森本茂树", year=1997, src=_KAIGI + "P07.jpg", box=(133, 157, 580, 580), source="ゲーム会議 1997年8月号 Vol.9 P.7（森本茂樹氏）", post="1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable"),
+    dict(name="西野弘二", year=1997, src=_KAIGI + "P08.jpg", box=(967, 107, 245, 245), source="ゲーム会議 1997年8月号 Vol.9 P.8（プランナー 西野弘二氏）", post="1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable"),
+    dict(name="增田顺一", year=1997, src=_KAIGI + "P08.jpg", box=(99, 795, 487, 487), source="ゲーム会議 1997年8月号 Vol.9 P.8（増田順一氏）", post="1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable"),
     # inside other posts
     dict(name="久保雅一", year=2021, main=True, box=(500, 190, 320, 350), src=_IA + "2021-10-25-interview-hobonichi-2021-kubo/001.jpg", source="ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）", post="2021-10-25-interview-hobonichi-2021-kubo"),
     dict(name="增田顺一", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img01.jpg", source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),

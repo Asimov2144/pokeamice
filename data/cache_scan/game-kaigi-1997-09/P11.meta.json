@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 27.8,
+ "image_tokens": 3674,
+ "completion_tokens": 352,
+ "finish": "stop",
+ "file": "P11",
+ "image_md5": "a95e7b89534435ce1e72b8e44207add3"
+}

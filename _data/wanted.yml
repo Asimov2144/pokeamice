@@ -148,14 +148,30 @@ items:
   - id: game-kaigi-9
     era: early
     pub: ゲーム会議
-    issue: Vol.9
-    date: "2000-01"
-    title: 《ゲーム会議》宝可梦专题
-    status: text
+    issue: Vol.9（1997年8月号）
+    date: "1997-08"
+    title: 《ゲーム会議》特辑：GAME FREAK 四人座谈「これからも、子供が楽しめる親切なゲームを作りたい」
+    status: scan
     priority: B
-    known: 本站已按后人整理收录，缺原刊页。
-    need: [原刊的相关页（带页码）]
-    post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
+    known: 本站已收录座谈会第 4～11 页的原刊页图与日中对照译文；页图来自 X 用户もあちゃ 2023 年发的照片。
+    people: [杉森建, 森本茂树, 增田顺一, 太田健程]
+    sources:
+      - {label: もあちゃ 的推文（4 张跨页）, url: "https://x.com/moa151/status/1613490934079160326"}
+      - {label: 駿河屋 书目, url: "https://www.suruga-ya.jp/product/detail/ZNON7262"}
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
+  - id: game-kaigi-9-tajiri
+    era: early
+    pub: ゲーム会議
+    issue: Vol.9（1997年8月号）
+    date: "1997-08"
+    title: 同期特辑中的田尻智访谈
+    status: known
+    priority: B
+    known: sunanohi 站的整理笔记记有这期特辑里的田尻智访谈（座谈会之外的另一篇）；本站还没有原刊页。
+    need: [田尻智访谈所在的每一页（带页码）, 特辑里「インターネットで『ポケモン』情報をGET!」与田村环专栏第 9 回的页面（可选）]
+    people: [田尻智]
+    sources:
+      - {label: sunanohi 整理笔记, url: "http://sunanohi.web.fc2.com/pokemon/magazine/game.html#kaigi9"}
   - id: dengeki-n64-2000-01
     era: early
     pub: 電撃NINTENDO64

@@ -84,7 +84,9 @@ def page_image(s, page, master=False):
 
 
 def registry_root(s):
-    return reg_root
+    # a set prepared from the scanner workbench's export names its own root (P:/WEBSITE/scan);
+    # the older sets share the registry's scan_root
+    return s.get("scan_root") or reg_root
 
 
 reg_root = None

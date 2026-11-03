@@ -139,81 +139,51 @@
       games: 1
     - cat: 本地化/海外QA
       games: 1
-  summary: 杉森建长期负责宝可梦的视觉定稿与官方插画，并统管绘画团队以维持整体统一感 [4]。他参与新宝可梦的构思与选拔，从草图到三视图誊清形成官方插画 [9]。在系列重启等方向性决策中，他常扮演把过火部分拉回《宝可梦》范畴的角色 [5]。他重视设计多样性，誊清时注意不抹掉各设计师的个性 [9]。
+  summary: 杉森建长期担任美术总监，统管绘画团队并整合不同设计师的画风，以维持宝可梦设计的一致感 [4]。他参与新宝可梦的构思与筛选，与设计师逐一讨论草图并绘制入选宝可梦的官方艺术图 [8]。在系列更迭中，他既推动“只放新宝可梦”等新作感尝试，也负责把过火的部分淡化到不偏离宝可梦范畴 [3][5]。他强调设计需兼顾战斗中的强大感与作为伙伴的可爱感，并按属性需求调整数量 [8]。在人物设计上，他注重实地取材与外观易懂性，并参与女性博士等设定的变更 [9][10]。
   citations:
-  - n: 1
-    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
-    title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
-    date: '1996-04-05'
-    publication: ポケットモンスター図鑑
-    detail: 称从6年前就开始制作，站在角色设计师立场看旧画会觉得不好意思。
-  - n: 2
-    post: 2000-07-01-interview-nintendopower-gold-silver-roundtable
-    title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
-    date: '2000-07-01'
-    publication: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)
-    detail: 称保持游戏新鲜感最困难，咕咕灵感来自小时候养的鸟单脚站立。
   - n: 3
     post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
     title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
     date: '2003-02-21'
     publication: Nintendo DREAM
-    detail: 称《红宝石·蓝宝石》决定序盘只放新宝可梦，并做出刺尾虫。
+    detail: 谈《红宝石·蓝宝石》时决定序盘只放新宝可梦，并以刺尾虫表现进化。
   - n: 4
     post: 2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori
     title: N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈
     date: '2006-10-01'
     publication: 任天堂官网「N.O.M」2006年10月号
-    detail: 称自己是美术总监，负责统管绘画团队并整合画风营造统一感。
+    detail: 自述任美术总监统管绘画团队，职责是整合画风营造统一感。
   - n: 5
     post: 2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world
     title: '[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）'
     date: '2010-09-10'
     publication: 任天堂官网「社長が訊く」
-    detail: 称把做得过火的部分巧妙淡化是自己的职责，设计由17人参与。
-  - n: 6
-    post: 2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview
-    title: 電撃GAMES 2010：GAME FREAK谈宝可梦 黑·白 改变与不变
-    date: '2010-10-15'
-    publication: 電撃GAMES
-    detail: 称御三家定为蛇、猪、水獭，分别以西方贵族、中国武将、日本武士为原型。
-  - n: 7
-    post: 2010-12-20-interview-otonafami-sugimori-starters-victini
-    title: オトナファミ 杉森建インタビュー（摘录）
-    date: '2010-12-20'
-    publication: オトナファミ
-    detail: 据该篇报道，他曾以“要不要只换一半”表示抗拒，但被断言绝不让步。
+    detail: 谈《黑·白》把过火部分淡化到不偏离宝可梦范畴是自己的职责。
   - n: 8
-    post: 2011-03-04-interview-spong-bw-launch-masuda-sugimori
-    title: SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱
-    date: '2011-03-04'
-    publication: SPOnG
-    detail: 据该篇报道，他与增田顺一在伦敦首发活动上接受采访谈《黑／白》重启。
+    post: 2011-03-01-interview-nintendo-power-bw-masuda-sugimori
+    title: '[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦'
+    date: '2011-03-01'
+    publication: Nintendo Power 杂志第 265 期
+    detail: 称设计数量约为实际使用三倍，入选者由他绘制官方艺术图。
   - n: 9
-    post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon
-    title: Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇
+    post: 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters
+    title: Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇
     date: '2011-05-21'
     publication: Nintendo DREAM 特別付録
-    detail: 称设计由17人分工，集中草图选拔后由他绘制三视图并誊清。
+    detail: 提及向增田提议把博士改成女性，并由自己绘制女性博士。
   - n: 10
-    post: 2013-10-24-interview-onm-xy-sugimori
-    title: 任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛
-    date: '2013-10-24'
-    publication: Ken Sugimori got 'artist's block' during Pokemon X and Y development
-    detail: 称设计哲尔尼亚斯和伊裴尔塔尔时遭遇创作瓶颈，曾交给大村祐介推进。
-  - n: 11
-    post: 2019-05-18-interview-siliconera-harmoknight-drill-dozer
-    title: '[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘'
-    date: '2019-05-18'
-    publication: Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer
-    detail: 据该篇报道，海野隆雄谈及决定宝可梦角色设计师的多种模式。
+    post: 2013-10-21-scan-ndream-2013-12-xy-character-design-interview
+    title: Nintendo DREAM 2013：GAME FREAK谈宝可梦X·Y人物设计
+    date: '2013-10-21'
+    publication: Nintendo DREAM
+    detail: 谈《X·Y》人物设计时赴法国取材，并优先考虑外观易懂性。
   expertise:
   - 美术
   - 总监/制作人
   - 宝可梦设计
-  - 官方插画
-  - 角色定稿
-  - 世界观构筑
+  - 角色设计
+  - 画风统合
+  - 设计筛选
 - name: 大森滋
   slug: ohmori-shigeru
   kind: person
@@ -756,7 +726,7 @@
   interviews:
     entries: 22
     spoken_in: 20
-    columns: 0
+    columns: 19
     first: '1996'
     last: '2017'
   credits:
@@ -780,81 +750,57 @@
       games: 6
     - cat: 管理/协调
       games: 3
-  summary: 森本茂树长期参与《宝可梦》系列的战斗系统设计与程序实现，早期在图形和程序两方面都是第一次做游戏，并参与过宝可梦设计 [1][3]。他主张因为开发期限不确定，所以把觉得不错的点子几乎全都放进去，并反复打磨细节 [1]。在战斗方面，他从最初只能观看的对战做起，经历任天堂反馈后改为可输入指令的通信对战，并持续调整招式与平衡 [1][2]。他多次负责重制作品，强调兼顾老玩家的怀旧感与新玩家的初次体验 [8][9]。在系列对战接近完成形后，他仍以新增玩法与平衡调整作为主题 [10]。
+  summary: 森本茂树长期参与《宝可梦》系列的战斗系统设计与程序实现，从初代起就负责战斗程序，并在此后各代中持续调整招式、特性与平衡 [1][3][10]。他主张在既有对战玩法之外加入新玩法，同时削弱过强招式、提升冷门招式，以维持对战平衡 [10]。在重制作品中，他注重兼顾原版玩家的怀旧感与新玩家的初次体验 [8][9]。他也参与图形与程序等多方面工作，并提到早期程序员人数很少、内容却不断追加 [1][7]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 称《宝可梦》在图形和程序两方面都是自己的第一部作品，并参与把观战式对战改为可输入指令的对战。
-  - n: 2
+    detail: 初代战斗画面最初不显示数字和体力条，后逐步加入等级、体力条与数字。
+  - n: 3
     post: 1999-12-01-scan-gs-guidebook-1999-developer-interview
     title: 《宝可梦 金·银》官方攻略本 1999：开发人员直击采访「金·银的这些想知道！」
     date: '1999-12-01'
     publication: 任天堂公式ガイドブック ポケットモンスター 金・銀
-    detail: 提到战斗招式增加后清除bug花了一年半以上，并参与「守住」等招式的设定调整。
-  - n: 3
-    post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
-    title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-    date: '2000-01-01'
-    publication: その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9
-    detail: 据该篇报道，森本在座谈会上透露自己参与了蚊香蝌蚪和猴怪的设计。
-  - n: 4
-    post: 2000-07-01-interview-nom-genesis-gamefreak
-    title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
-    date: '2000-07-01'
-    publication: 『ポケットモンスター』を生んだ男たち
-    detail: 提到剧本负责人有时会委托设计师制作挡路角色这类内容。
-  - n: 5
-    post: 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto
-    title: CVG 2003：Game Freak 增田顺一、森本茂树、杉森建谈宝可梦
-    date: '2003-05-30'
-    publication: CVG
-    detail: 称自己担任《Bat Wing》的导演，为战斗加入许多新要素，并主要关注一对一战斗。
+    detail: 他提到为清除招式相关bug花了一年半以上，并手工编写新招式程序。
   - n: 7
     post: 2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium
     title: '[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场'
     date: '2009-09-04'
     publication: 任天堂官网「社長が訊く」
-    detail: 回忆《赤·绿》时程序员大约只有4人，战斗程序花了很长时间才做出来。
+    detail: 他指出《赤·绿》《金·银》时期程序员大约只有4人。
   - n: 8
     post: 2009-09-18-interview-dengeki-hgss-shigeki-morimoto
     title: 电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛
     date: '2009-09-18'
     publication: 電撃オンライン
-    detail: 作为《心金·魂银》总监，提到制作时把重点放在下屏幕触控，并需从零制作城都与关都地图。
+    detail: 他谈重制时兼顾老玩家怀旧与新玩家初次游玩，并提到下屏幕触控操作。
   - n: 9
     post: 2010-03-19-interview-gameinformer-masuda-morimoto-hgss
     title: '[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化'
     date: '2010-03-19'
     publication: Game Informer
-    detail: 表示借鉴了与《金·银》同期发售的「宝可梦皮卡丘」的元素，为老玩家带来怀旧感。
+    detail: 他表示重制借鉴《宝可梦皮卡丘》元素，剧情忠于原作并加入新元素。
   - n: 10
     post: 2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets
     title: 週刊Fami通 No.1155「比克提尼也大吃一惊！开发团队讲述对战的秘密」：森本茂树、田谷正夫、岩尾和昌谈三打对战、轮转对战、大爆炸削弱与梦特性
     date: '2011-01-20'
-    publication: 週刊ファミ通 2011年2月3日号
-    detail: 谈到本作削弱大爆炸威力、调整招式平衡，并扩展增田提出的三打对战想法。
-  - n: 11
-    post: 2013-09-21-scan-ndream-235-xy-developer-interview
-    title: Nintendo DREAM 2013：增田顺一与森本茂树谈《宝可梦 X・Y》对战
-    date: '2013-09-21'
-    publication: Nintendo DREAM
-    detail: 说明超级进化宝可梦的选择会考虑视觉表现、人气与战斗平衡，并有意识地达到传说的宝可梦级别强度。
+    publication: 週刊Fami通 No.1155
+    detail: 他说明因双打中大爆炸与守住的博弈过多而削弱大爆炸威力。
   expertise:
   - 总监/制作人
   - 企划
   - 美术
   - 程序
   - 战斗系统
-  - 宝可梦设计
+  - 对战平衡
 - name: 西野弘二
   slug: nishino-koji
   kind: person
   interviews:
-    entries: 10
-    spoken_in: 9
+    entries: 9
+    spoken_in: 8
     columns: 0
     first: '1996'
     last: '2018'
@@ -873,62 +819,50 @@
       games: 6
     - cat: 本地化/海外QA
       games: 1
-  summary: 西野弘二长期在 GAME FREAK 担任策划，负责地图以及宝可梦出现率、强度等数据设计 [7]。他参与宝可梦的稀有度与获得难度设定，并据此调整具体出现率 [3][7]。在《宝可梦 火红·叶绿》中他负责整体企划，从剧本到系统相关均有参与，并着力于表达的易懂性 [5]。他也参与对战平衡调整，如《白金》中降低「催眠术」命中率、加入「戏法空间」等 [6]。
+  summary: 西野弘二长期负责宝可梦系列的企划工作，从初代起就参与宝可梦的平衡性调整与强度设定，依据图形想象强度并反复试玩调整 [3]。他也参与训练家角色的细致设定，如不同训练家类型成长后的变化 [4]。在《火红·叶绿》中负责整体企划，从剧本到系统，并着力把术语替换成易懂表达 [5]。他关注对战平衡，参与加入「戏法空间」、调整「催眠术」命中率等决定 [6]。他自述因喜欢可爱的东西而深度参与皮卡丘的外观与出现率设定 [7][8]。
   citations:
-  - n: 1
-    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
-    title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
-    date: '1996-04-05'
-    publication: ポケットモンスター図鑑
-    detail: 称自己也是第一次做这种工作，顺势就做了。
-  - n: 2
-    post: 1999-12-01-scan-gs-guidebook-1999-developer-interview
-    title: 《宝可梦 金·银》官方攻略本 1999：开发人员直击采访「金·银的这些想知道！」
-    date: '1999-12-01'
-    publication: 任天堂公式ガイドブック ポケットモンスター 金・銀
-    detail: 为金·银安排只在早上或晚上出现的宝可梦，并加入恶、钢属性。
   - n: 3
     post: 2000-07-01-interview-nom-genesis-gamefreak
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     date: '2000-07-01'
     publication: 『ポケットモンスター』を生んだ男たち
-    detail: 基础设定由田尻负责，细微平衡性调整由他把握，反复测试调整。
+    detail: 自述基础设定由田尻负责，细微平衡性调整由自己把控，看图形定强度并试玩反复调整。
   - n: 4
     post: 2000-07-01-interview-nom-gold-silver-gamefreak
     title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
     date: '2000-07-01'
     publication: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
-    detail: 提到训练家也有细致设定，如「补习班归来的学生」长大后变成「理科系男子」。
+    detail: 说明训练家类型有细致设定，如「补习班归来的学生」长大变为「理科系男子」。
   - n: 5
     post: 2004-03-21-scan-ndream-108-frlg-developer-interview
     title: Nintendo DREAM 2004：宝可梦 火红·叶绿 GAME FREAK 开发者访谈
     date: '2004-03-21'
     publication: Nintendo DREAM
-    detail: 负责火红·叶绿整体企划，从剧本到系统，并按增田要求追求易懂性。
+    detail: 负责《火红·叶绿》整体企划，从剧本到系统，并逐一拆解替换难懂词汇。
   - n: 6
     post: 2008-10-21-scan-ndream-2008-12-game-freak-interview
     title: Nintendo DREAM 2008：GAME FREAK谈《宝可梦 白金》对战与世界
     date: '2008-10-21'
     publication: Nintendo DREAM
-    detail: 从钻石·珍珠起加入「戏法空间」，并在白金把「催眠术」命中率从70降到60。
+    detail: 参与加入「戏法空间」，并在《白金》把「催眠术」命中率从70降到60。
   - n: 7
     post: 2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa
     title: 株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈
     date: '2018-05-02'
     publication: 株式会社宝可梦 官方网站
-    detail: 在红·绿中主要负责地图及宝可梦出现率、强度等数据设计。
+    detail: 自述因喜欢皮卡丘而降低常青森林出现率，结果事与愿违。
   - n: 8
     post: 2018-07-26-interview-creators-of-pikachu
     title: '[访谈翻译] 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二'
     date: '2018-07-26'
     publication: Pokemon.com 官方特辑
-    detail: 称因喜欢皮卡丘而降低常青森林出现率，结果事与愿违。
+    detail: 英文访谈中同样说明降低皮卡丘出现率，并称计划适得其反。
   expertise:
   - 企划
   - 管理/协调
-  - 地图关卡
-  - 出现率设计
-  - 数值平衡
+  - 平衡调整
+  - 宝可梦设定
+  - 系统易懂化
   - 对战平衡
 - name: 太田健程
   slug: ota-takenori
@@ -954,33 +888,32 @@
       games: 2
     - cat: 特别感谢
       games: 1
-  summary: 太田健程在项目中主要负责程序方面的工作，并尝试构建一套更易于使用的编程体系，但因日程紧张未能完成全部改动 [3]。他参与过宝可梦图鉴相关机制的构思，例如按卡带随机分配的ID编号决定出现宝可梦的差异，以及借出宝可梦、寄养可获得1.5倍经验值等设定 [1]。他也提到主程序对关键信息的掌握程度会影响工作推进 [1]。据座谈会报道，他曾与杉森建、森本茂树、增田顺一共同参加以宝可梦为主题的座谈 [2]。
+  summary: 太田健程在《宝可梦》系列中主要负责程序方面，并尝试构建更易于使用的编程体系，但因日程紧张未能完成全部改动 [3]。他参与过卡带随机 ID 编号等机制的最初构想，也讨论过交换、借出与寄养等玩法设计 [1]。他关注玩家在交换中的行为与心理，包括互相骗人和因不安而交换等情况 [2]。
   citations:
   - n: 1
     post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
     title: 《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」
     date: '1996-04-05'
     publication: ポケットモンスター図鑑
-    detail: 提到按卡带ID编号奇偶决定出现宝可梦，以及寄养宝可梦获1.5倍经验值。
+    detail: 提到卡带随机分配 ID 编号、按奇偶让宝可梦不同的最初构想
   - n: 2
-    post: 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi
-    title: 《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏
-    date: '2000-01-01'
-    publication: その他のポケモンのゲーム関連記事 ─ 「ゲーム会議」Vol.9
-    detail: 据该篇报道，他与杉森建、森本茂树、增田顺一共同参加座谈会。
+    post: 1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable
+    title: ゲーム会議 1997：GAME FREAK 四人座谈——为交换而生的《宝可梦》与《宝可梦2》的构想
+    date: '1997-08-20'
+    publication: ゲーム会議
+    detail: 谈到玩家因不安而交换、交换中互相骗人等行为
   - n: 3
     post: 2000-07-01-interview-nintendopower-gold-silver-roundtable
     title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
     date: '2000-07-01'
     publication: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)
-    detail: 自述负责程序，尝试构建更易用的编程体系，因日程紧张未全部完成。
+    detail: 自述负责程序，尝试构建更易用的编程体系但未全部完成
   expertise:
   - 程序
   - 管理/协调
   - 编程体系
-  - 图鉴机制
-  - 通信交换
-  - 开发协调
+  - 游戏机制
+  - 交换设计
 - name: 石原恒和
   slug: ishihara-tsunekazu
   kind: person

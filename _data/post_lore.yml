@@ -313,6 +313,75 @@
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     url: //interview-nom-genesis-gamefreak/
     why: 同为初代红绿开发秘史访谈，杉森增田回顾
+1997-08-20-scan-game-kaigi-1997-09-gamefreak-roundtable:
+  facets:
+    people:
+    - name: 森本茂树
+      role: speaker
+      slug: morimoto-shigeki
+    - name: 杉森建
+      role: speaker
+      slug: sugimori-ken
+    - name: 太田健程
+      role: speaker
+      slug: ota-takenori
+    - name: 增田顺一
+      role: speaker
+      slug: masuda-junichi
+    - name: 宫本茂
+      role: mentioned
+      slug: miyamoto-shigeru
+    - name: 西野弘二
+      role: mentioned
+      slug: nishino-koji
+    - name: 平野裕子
+      role: mentioned
+    places:
+    - name: 紫苑镇
+      what: 曲子被提及的地点
+      world: game
+    pokemon:
+    - name: 妙蛙种子
+      ndex: 1
+    - name: 皮卡丘
+      ndex: 25
+    - name: 尼多兰
+      ndex: 29
+    - name: 蚊香蝌蚪
+      ndex: 60
+    - name: 霹雳电球
+      ndex: 100
+    - name: 飞腿郎
+      ndex: 106
+    - name: 快拳郎
+      ndex: 107
+    - name: 吉利蛋
+      ndex: 113
+    - name: 卡比兽
+      ndex: 143
+    - name: 伊布
+      ndex: 133
+    - name: 猴怪
+      ndex: 56
+    - name: 皮皮
+      ndex: 35
+    - name: 胖丁
+      ndex: 39
+    works:
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 浪漫沙加
+      slug: null
+    - name: AQUA ZONE
+      slug: null
+  id: scan-game-kaigi-1997-09-gamefreak-roundtable
+  observations:
+  - seg: 13
+    text: 森本茂树说游戏开始时会分配自己的ID，最初曾讨论按ID决定《红》《绿》。
+  - seg: 14
+    text: 杉森建说实际做出决定的是任天堂的宫本茂，宫本给出许可才成现在形式。
 1997-10-16-interview-gamefreak-official-red-green-staff:
   facets:
     people:
