@@ -1,0 +1,13 @@
+{%- comment -%}One Game Freak blog on a person's page, folded like the timeline's (timeline-stream.html), but over the years: the year once, then a date and a title per line. Pass `id`, `name`, `list` (this person's posts of that blog, newest first) and `all` (the blog's own page). {%- endcomment -%}
+{% if include.list.size > 0 %}
+{% assign ps_first = include.list | last %}{% assign ps_last = include.list | first %}
+{% assign ps_from = ps_first.date | date: "%Y" %}{% assign ps_to = ps_last.date | date: "%Y" %}
+<details class="person__stream" id="stream-{{ include.id }}"{% if include.list.size <= 6 %} open{% endif %}>
+  <summary><span class="person__stream-name">{{ include.name }}</span><span class="person__stream-meta">{{ ps_from }}{% if ps_to != ps_from %}–{{ ps_to }}{% endif %} · <b>{{ include.list.size }}</b> 篇</span><i aria-hidden="true"></i></summary>
+  <ol class="person__stream-list">
+    {% assign ps_year = "" %}
+    {% for p in include.list %}{% assign ps_y = p.date | date: "%Y" %}{% assign blog_title = p.gf_translation_title | default: p.title | strip_html %}<li><span class="person__stream-year">{% if ps_y != ps_year %}{{ ps_y }}{% endif %}</span><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%m.%d" }}</time><a href="{{ p.url | relative_url }}">{{ blog_title | escape }}</a></li>{% assign ps_year = ps_y %}{% endfor %}
+  </ol>
+  <p class="person__stream-all"><a href="{{ include.all | relative_url }}">这个博客的全部文章</a></p>
+</details>
+{% endif %}

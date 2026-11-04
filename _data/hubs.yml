@@ -3161,6 +3161,58 @@ media:
     2026-08-29-continue-vol23-tuya-scan-archive: continue
     2026-09-17-interview-cgworld-2026-cedec-pkmnza: cgworld
     2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori: denfami
+  names:
+    1up: 1UP.com
+    4gamer: 4Gamer.net
+    accion: Nintendo Acción
+    ascii: 週刊アスキー
+    bahamut: 巴哈姆特 GNN
+    cgworld: CGWORLD
+    continue: CONTINUE
+    corocoro: コロコロ
+    cvg: CVG
+    davinci: ダ・ヴィンチ
+    denfami: 电Fami Nico Gamer
+    dengeki: 電撃
+    dordogne: 法国地方报
+    elpais: 《国家报》
+    eurogamer: Eurogamer
+    famitsu: Fami通
+    g4: G4TV
+    gamasutra: Gamasutra
+    gamemakers: ゲームメーカーズ
+    gamepro: GamePro
+    gamespot: GameSpot
+    gamewatch: GAME Watch
+    gi: Game Informer
+    gq: GQ 西班牙
+    guardian: The Guardian
+    hobby: Hobby Consolas
+    hobonichi: ほぼ日刊イトイ新聞
+    ign: IGN
+    inside: インサイド
+    jv: jeuxvideo.com
+    meri: MeriStation
+    multi: Multiplayer.it
+    ndream: Nintendo DREAM
+    newspicks: NewsPicks
+    nlife: Nintendo Life
+    nom: 任天堂 NOM
+    np: Nintendo Power
+    nwr: Nintendo World Report
+    onm: ONM
+    oricon: ORICON NEWS
+    otonafami: オトナファミ
+    pcom: Pokémon.com
+    pmnet: PocketMonsters.net
+    polygon: Polygon
+    sankei: 产经新闻
+    siliconera: Siliconera
+    spong: SPOnG
+    time: 《时代周刊》
+    topo: Topo Gamer
+    vg247: VG247
+    vgc: VGC
 overseas:
   total: 63
   from: 1999

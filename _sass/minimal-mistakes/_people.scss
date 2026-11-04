@@ -466,7 +466,8 @@
 
   li { position: relative; display: flex; flex: 1 1 0; flex-direction: column; justify-content: flex-end; height: 100%; min-width: 0; }
   i { display: block; width: 100%; min-height: 2px; border-radius: 2px 2px 0 0; background: $primary-color; }
-  span { position: absolute; top: 100%; left: 0; right: 0; margin-top: 2px; color: $muted-text-color; font-size: 0.6rem; text-align: center; overflow: hidden; }
+  /* centred on its column and free to be wider than it: a long chart labels only some of its years */
+  span { position: absolute; top: 100%; left: 50%; margin-top: 2px; color: $muted-text-color; font-size: 0.6rem; white-space: nowrap; transform: translateX(-50%); }
 }
 
 .person__co {
@@ -502,8 +503,229 @@
 
 .person__mentions-sec { margin-top: 10px; }
 
+/* where a section lands under the jump line */
+.person__pubs,
+.person__mentions-sec,
+.person__stream { scroll-margin-top: 48px; }
+
+/* ---- the jump line: only on long pages, a line of text and nothing more ---- */
+/* the theme's body { overflow-x: hidden } makes body a scroll container, which stops sticky */
+body.layout--person:has(.person__jump) { overflow-x: clip; }
+
+.person__jump {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  gap: 18px;
+  margin: -6px 0 18px;
+  border-bottom: 1px solid mix(#fff, $border-color, 30%);
+  padding: 9px 0 8px;
+  background: #fff;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar { display: none; }
+
+  a {
+    flex: none;
+    color: $muted-text-color;
+    text-decoration: none;
+
+    &:hover { color: $primary-color; }
+
+    &[aria-current] { color: $text-color; font-weight: 700; box-shadow: 0 9px 0 -7.5px $primary-color; }
+  }
+
+  b { margin-left: 4px; font-weight: 400; font-size: 0.92em; opacity: 0.75; }
+}
+
+/* the sidebar sits beside the page on a wide screen: nothing to jump to there */
+.person__jump-side { display: none; }
+
+/* ---- 来源: a small ledger, one line a blog or an outlet ---- */
+.person__src {
+  & + & { margin-top: 12px; }
+
+  ul { margin: 0; padding: 0; list-style: none; }
+
+  li, li > a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  li { margin: 0; padding: 2px 0; font-size: 0.8rem; line-height: 1.4; }
+  li > a { flex: 1 1 auto; min-width: 0; color: inherit; text-decoration: none; &:hover span { color: $primary-color; } }
+  b { flex: none; color: $muted-text-color; font-size: 0.74rem; font-weight: 400; font-variant-numeric: tabular-nums; }
+}
+
+.person__src-kind {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 0 3px;
+  border-bottom: 1px solid mix(#fff, $border-color, 45%);
+  padding-bottom: 3px;
+  font-size: 0.74rem;
+  font-weight: 800;
+
+  b { flex: none; color: inherit; font-size: inherit; font-weight: 800; font-variant-numeric: tabular-nums; }
+}
+
+.person__src-rest {
+  margin-top: 3px;
+
+  summary {
+    color: $muted-text-color;
+    font-size: 0.74rem;
+    cursor: pointer;
+
+    &:hover { color: $primary-color; }
+  }
+
+  p {
+    margin: 5px 0 0;
+    color: $muted-text-color;
+    font-size: 0.72rem;
+    line-height: 1.6;
+  }
+
+  span:not(:last-child)::after { content: " · "; }
+}
+
+/* ---- the blogs in the main column: each folded, the year once and a date per line ---- */
+.person__blogs { margin-bottom: 24px; }
+
+.person__stream {
+  border-bottom: 1px solid mix(#fff, $border-color, 40%);
+
+  summary {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto 12px;
+    align-items: baseline;
+    gap: 12px;
+    padding: 10px 0;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker { display: none; }
+    &:hover .person__stream-name { color: $primary-color; }
+
+    /* a plus that becomes a minus: its upright fades out */
+    i {
+      position: relative;
+      align-self: center;
+      width: 11px;
+      height: 11px;
+
+      &::before, &::after { content: ""; position: absolute; left: 0; right: 0; top: 5px; height: 1px; background: $muted-text-color; }
+      &::after { transform: rotate(90deg); transition: opacity 0.15s; }
+    }
+  }
+
+  &[open] summary i::after { opacity: 0; }
+}
+
+.person__stream-name { font-size: 0.9rem; font-weight: 700; }
+.person__stream-meta { color: $muted-text-color; font-size: 0.76rem; white-space: nowrap; b { font-weight: 700; } }
+
+.person__stream-list {
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+  font-size: 0.84rem;
+
+  li {
+    display: grid;
+    grid-template-columns: 2.9em 3.2em minmax(0, 1fr);
+    align-items: baseline;
+    margin: 0;
+    padding: 3px 0;
+    line-height: 1.45;
+  }
+
+  time, .person__stream-year { color: $muted-text-color; font-size: 0.74rem; font-variant-numeric: tabular-nums; }
+  .person__stream-year { font-weight: 700; }
+
+  a { color: $text-color; text-decoration: none; &:hover { color: $primary-color; } }
+}
+
+.person__stream-all {
+  margin: 0 0 12px calc(6.1 * 0.84rem);  /* under the titles: the year and date columns at the list's own size */
+  font-size: 0.74rem;
+
+  a { color: $muted-text-color; &:hover { color: $primary-color; } }
+}
+
+/* ---- the night theme: the profile was drawn for a white page ---- */
+/* the site's night rules force link colours with !important, so the quiet links here need it too */
+body.theme-bg-black:not(.archive-reproduction-theme):not([data-era]) .person--profile {
+  --pn-text: #e6e9ed;
+  --pn-mute: #a6afb9;
+  --pn-rule: #3a424c;
+
+  .person__pub-title, .person__jump a[aria-current], .person__src li > a, .person__stream-list a, .person__co a { color: var(--pn-text) !important; }
+  .person__jump a, .person__stream-all a { color: var(--pn-mute) !important; }
+  .person__pub-title:hover, .person__jump a:hover, .person__src li > a:hover span, .person__stream-list a:hover, .person__stream-all a:hover { color: #7cc4ea !important; }
+  .person__profile-fold summary { color: #7cc4ea; small { color: var(--pn-mute); } }
+
+  .person__head { border-bottom-color: var(--pn-rule); }
+  .person__role, .person__credit, .person__social-label, .person__social small,
+  .person__profile-credits, .person__profile-summary, .person__profile-note, .person__cites, .person__cites small,
+  .person__pub-meta, .person__pub-with, .person__pub-src, .person__photos span, .person__photos h2,
+  .person__pubs-head h2 small, .person__section h2 small, .person__mentions span, .credits__zh-role, .person__credits-role small { color: var(--pn-mute); }
+
+  .person__social a { background: #2a2f35; border-color: var(--pn-rule); color: var(--pn-text); i { color: var(--pn-mute); } }
+  .person__photos img { box-shadow: 0 0 0 2px #2a2f35, 0 2px 8px rgba(0, 0, 0, 0.4); }
+  .person__profile-chips span { background: #2a2f35; border-color: var(--pn-rule); color: var(--pn-text); }
+  .person__profile-fold { border-color: var(--pn-rule); }
+
+  .person__sort button { background: #2a2f35; border-color: var(--pn-rule); color: var(--pn-mute); }
+  .person__sort button.is-active { border-color: mix(#fff, $primary-color, 35%); background: rgba($primary-color, 0.22); color: #d7ecf7; }
+
+  .person__table {
+    th, td { border-bottom-color: var(--pn-rule); background: transparent; }
+    thead th { color: var(--pn-mute); background: #2a2f35; }
+    .is-num { color: var(--pn-mute); }
+    tbody tr:hover { background: rgba(255, 255, 255, 0.04); }
+  }
+
+  .person__pub-title, .person__credits-role { color: var(--pn-text); }
+  .person__pub-works .is-work { color: #a9cc95; }
+  .person__credits-role b { color: #d3b679; }
+
+  .person__jump { background: #242424; border-bottom-color: var(--pn-rule); }
+
+  .person__card { background: #2a2f35; border-color: var(--pn-rule); color: var(--pn-text); }
+  .person__card h2 { color: var(--pn-mute); }
+  .person__stats dt, .person__chart span { color: var(--pn-mute); }
+  .person__stats dd { color: var(--pn-text); }
+  .person__chart { border-bottom-color: var(--pn-rule); }
+  .person__chart i { background: mix(#fff, $primary-color, 20%); }
+  .person__chips a, .person__chips .is-source { background: #323941; border-color: var(--pn-rule); color: var(--pn-text); b { color: var(--pn-mute); } }
+
+  .person__co li + li { border-top-color: var(--pn-rule); }
+  .person__co b, .person__co .person__co-name small { color: var(--pn-mute); }
+
+  .person__src li, .person__src-kind { color: var(--pn-text); }
+  .person__src li b, .person__src-rest summary, .person__src-rest p { color: var(--pn-mute); }
+  .person__src-kind { border-bottom-color: var(--pn-rule); }
+
+  .person__stream { border-bottom-color: var(--pn-rule); }
+  .person__stream-name { color: var(--pn-text); }
+  .person__stream-meta, .person__stream-list time, .person__stream-year { color: var(--pn-mute); }
+  .person__stream summary i::before, .person__stream summary i::after { background: var(--pn-mute); }
+}
+
 @include breakpoint(max-width $large) {
   .person--profile { grid-template-columns: 1fr; }
+  .person__jump-side { display: inline; }
+  .person__side { scroll-margin-top: 48px; }
 }
 
 @include breakpoint(max-width $medium) {

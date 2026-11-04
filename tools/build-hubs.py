@@ -387,6 +387,8 @@ def main():
         "overseas": media_side("overseas", False),
         # post file name -> outlet key, for the home page's magazine tiles (tile-collection-keys.html)
         "by_stem": {p["stem"]: o[0] for p, o in mmembers},
+        # outlet key -> its name, so a person page's 来源 can say "Game Informer" once for all its spellings (person.html)
+        "names": dict(sorted({o[0]: o[1] for _, o in mmembers}.items())),
     }
 
     # ------------------------------------------------------------------- games

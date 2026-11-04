@@ -29,13 +29,38 @@ carry a `kind` in the registry and never appear as co-interviewees.
 {%- comment -%} works, sources, topics and companions: tallied by hand, Liquid has no flatten {%- endcomment -%}
 {% assign works_all = "" | split: "" %}
 {% assign pubs_all = "" | split: "" %}
+{% assign src_rows = "" | split: "" %}
 {% assign co_all = "" | split: "" %}
 {% assign topics_all = "" | split: "" %}
+{%- comment -%} the same split as the timeline (timeline-kind.html): a blog post is a stream, the rest are documents {%- endcomment -%}
+{% assign docs = "" | split: "" %}
+{% assign blogs = "" | split: "" %}
 {% for p in mine %}
   {% for w in p.entities.works %}{% assign works_all = works_all | push: w %}{% endfor %}
   {% for t in p.topics %}{% assign topics_all = topics_all | push: t %}{% endfor %}
-  {% assign pub = p.publication | default: p.source.publication | default: p.outlet | default: p.source.title | default: "" %}
-  {% if pub != "" %}{% assign pub_short = pub | split: "（" | first | split: " (" | first | strip %}{% assign pubs_all = pubs_all | push: pub_short %}{% endif %}
+  {% include timeline-kind.html post=p %}
+  {% if tl_kind == "stream" %}
+    {%- comment -%} a blog post names its own title as the source: the series below is the source, so it stays out of this tally {%- endcomment -%}
+    {% assign blogs = blogs | push: p %}
+  {% else %}
+    {% assign docs = docs | push: p %}
+    {%- comment -%} one line per outlet whatever its spelling: the outlet map of /media/ (hubs.yml), then the publication as written {%- endcomment -%}
+    {% assign pub_stem = p.path | split: "/" | last | replace: ".md", "" %}
+    {% assign pub_outlet = site.data.hubs.media.by_stem[pub_stem] %}
+    {% if p.publication contains '社長が訊く' or p.title contains '社长问' %}
+      {% assign pub_short = "社长问" %}
+    {% elsif pub_outlet %}
+      {% assign pub_short = site.data.hubs.media.names[pub_outlet] %}
+    {% else %}
+      {% assign pub = p.publication | default: p.source.publication | default: p.outlet | default: p.source.title | default: "" %}
+      {% assign pub_short = pub | split: "（" | first | split: " (" | first | strip %}
+    {% endif %}
+    {% if pub_short and pub_short != "" %}
+      {% assign pubs_all = pubs_all | push: pub_short %}
+      {% assign src_row = tl_kind | append: "¦" | append: pub_short %}
+      {% assign src_rows = src_rows | push: src_row %}
+    {% endif %}
+  {% endif %}
   {% for c in p.entities.people %}
     {% assign companion = c | person_identity %}
     {%- comment -%} a co-interviewee is a person: a character or a cited figure is not one {%- endcomment -%}
@@ -45,6 +70,40 @@ carry a `kind` in the registry and never appear as co-interviewees.
 {% endfor %}
 {% assign works_u = works_all | uniq %}
 {% assign pubs_u = pubs_all | uniq %}
+{%- comment -%} the blogs, one line each: same names as the timeline's year pages {%- endcomment -%}
+{% assign stream_dir = blogs | where: "archive_type", "gamefreak_director_column" %}
+{% assign stream_line = blogs | where: "archive_type", "gamefreak_masuda_lineblog" %}
+{% assign stream_staff = blogs | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "staff" %}
+{% assign stream_art = blogs | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", "art" %}
+{% assign stream_count = 0 %}
+{% if stream_dir.size > 0 %}{% assign stream_count = stream_count | plus: 1 %}{% endif %}
+{% if stream_line.size > 0 %}{% assign stream_count = stream_count | plus: 1 %}{% endif %}
+{% if stream_staff.size > 0 %}{% assign stream_count = stream_count | plus: 1 %}{% endif %}
+{% if stream_art.size > 0 %}{% assign stream_count = stream_count | plus: 1 %}{% endif %}
+{% assign source_total = pubs_u.size | plus: stream_count %}
+{%- comment -%} kind¦name counted by sorting: rows become kind¦0012¦name, so a reversed sort puts the largest first within each kind {%- endcomment -%}
+{% assign src_sorted = src_rows | sort %}
+{% assign src_tally = "" | split: "" %}
+{% assign src_prev = "" %}
+{% assign src_n = 0 %}
+{% for r in src_sorted %}
+  {% if r != src_prev and src_n > 0 %}
+    {% assign src_parts = src_prev | split: "¦" %}
+    {% assign src_pad = src_n | prepend: "000" | slice: -4, 4 %}
+    {% assign src_line = src_parts[0] | append: "¦" | append: src_pad | append: "¦" | append: src_parts[1] %}
+    {% assign src_tally = src_tally | push: src_line %}
+    {% assign src_n = 0 %}
+  {% endif %}
+  {% assign src_prev = r %}
+  {% assign src_n = src_n | plus: 1 %}
+{% endfor %}
+{% if src_n > 0 %}
+  {% assign src_parts = src_prev | split: "¦" %}
+  {% assign src_pad = src_n | prepend: "000" | slice: -4, 4 %}
+  {% assign src_line = src_parts[0] | append: "¦" | append: src_pad | append: "¦" | append: src_parts[1] %}
+  {% assign src_tally = src_tally | push: src_line %}
+{% endif %}
+{% assign src_tally = src_tally | sort | reverse %}
 {% assign co_u = co_all | uniq %}
 {% assign topics_u = topics_all | uniq %}
 {% assign portraits = "" | split: "" %}
@@ -55,6 +114,14 @@ carry a `kind` in the registry and never appear as co-interviewees.
 {% assign pf = site.data.people_profiles | where: "slug", page.slug | first %}
 {%- comment -%} the person's own accounts, each checked to be theirs (_data/people_social.yml); a social avatar stands in only where there is no photograph {%- endcomment -%}
 {% assign social = site.data.people_social[page.slug] %}
+{%- comment -%} a jump line only where the page is long enough to get lost in, and has somewhere to jump to {%- endcomment -%}
+{% assign jump_sections = 0 %}
+{% if cr %}{% assign jump_sections = jump_sections | plus: 1 %}{% endif %}
+{% if docs.size > 0 %}{% assign jump_sections = jump_sections | plus: 1 %}{% endif %}
+{% if blogs.size > 0 %}{% assign jump_sections = jump_sections | plus: 1 %}{% endif %}
+{% if mentions.size > 0 %}{% assign jump_sections = jump_sections | plus: 1 %}{% endif %}
+{% assign jump_rows = mine.size | plus: mentions.size %}
+{% if cr %}{% assign jump_rows = jump_rows | plus: cr.credits.size %}{% endif %}
 
 <div id="main" role="main">
   <div class="archive archive--person">
@@ -102,6 +169,16 @@ carry a `kind` in the registry and never appear as co-interviewees.
           </div>
         </header>
 
+        {% if jump_sections >= 2 and jump_rows >= 40 %}
+        <nav class="person__jump" aria-label="本页目录" data-person-jump>
+          {% if cr %}<a href="#person-credits">参与作品<b>{{ cr.games }}</b></a>{% endif %}
+          {% if docs.size > 0 %}<a href="#person-docs">{% if blogs.size > 0 %}访谈与文献{% else %}收录条目{% endif %}<b>{{ docs.size }}</b></a>{% endif %}
+          {% if blogs.size > 0 %}<a href="#person-blogs">开发者博客<b>{{ blogs.size }}</b></a>{% endif %}
+          {% if mentions.size > 0 %}<a href="#person-mentions">被提及<b>{{ mentions.size }}</b></a>{% endif %}
+          <a class="person__jump-side" href="#person-side">概况与来源</a>
+        </nav>
+        {% endif %}
+
         {% if pf and pf.expertise %}
         <section class="person__section person__profile" aria-label="开发专长">
           <h2>开发专长{% if pf.credits %} <small>{{ pf.credits.games }} 作署名{% if pf.interviews.spoken_in > 0 %} · {{ pf.interviews.spoken_in }} 篇访谈发言{% endif %}</small>{% endif %}</h2>
@@ -148,7 +225,7 @@ carry a `kind` in the registry and never appear as co-interviewees.
         {% endif %}
 
         {% if cr %}
-        <section class="person__pubs person__credits" aria-label="参与作品">
+        <section class="person__pubs person__credits" id="person-credits" aria-label="参与作品">
           <div class="person__pubs-head">
             <h2>参与作品 <small>{{ cr.credits.size }} 条署名 · {{ cr.games }} 作</small></h2>
             <a class="person__credits-all" href="{{ '/credits/staff/' | relative_url }}">历作 staff 总表</a>
@@ -170,22 +247,25 @@ carry a `kind` in the registry and never appear as co-interviewees.
         </section>
         {% endif %}
 
-        {% if mine.size > 0 or cr == nil %}
-        <section class="person__pubs" aria-label="收录条目">
+        {% if docs.size > 0 or blogs.size == 0 and cr == nil %}
+        <section class="person__pubs" id="person-docs" aria-label="{% if blogs.size > 0 %}访谈与文献{% else %}收录条目{% endif %}">
           <div class="person__pubs-head">
-            <h2>收录条目 <small>{{ mine.size }}</small></h2>
+            <h2>{% if blogs.size > 0 %}访谈与文献{% else %}收录条目{% endif %} <small>{{ docs.size }}</small></h2>
             <div class="person__sort" role="group" aria-label="排序">
               <button type="button" data-sort="year" class="is-active">按年份</button>
               <button type="button" data-sort="title">按标题</button>
             </div>
           </div>
-          <table class="person__table">
+          <table class="person__table person__doc-table">
             <thead><tr><th scope="col">条目</th><th scope="col" class="is-num">页</th><th scope="col" class="is-num">年份</th></tr></thead>
             <tbody>
-              {% for p in mine %}
+              {% for p in docs %}
                 {% assign pub = p.publication | default: p.source.publication | default: p.outlet | default: p.source.title | default: "" %}
                 {% assign pub_short = pub | split: "（" | first | split: " (" | first | strip %}
+                {% include timeline-kind.html post=p %}
                 {% assign card_type = "访谈" %}
+                {% if tl_kind == "article" %}{% assign card_type = "文章" %}{% endif %}
+                {% if tl_kind == "topic" %}{% assign card_type = "专题" %}{% endif %}
                 {% if p.archive_type == "scan_translation" %}{% assign card_type = "扫描" %}{% endif %}
                 {% if p.categories contains "杂志特辑" %}{% assign card_type = "特辑" %}{% endif %}
                 {% assign pages = 0 %}
@@ -211,8 +291,24 @@ carry a `kind` in the registry and never appear as co-interviewees.
         </section>
         {% endif %}
 
+        {% if blogs.size > 0 %}
+        <section class="person__pubs person__blogs" id="person-blogs" aria-label="开发者博客">
+          <div class="person__pubs-head">
+            <h2>开发者博客 <small>{{ blogs.size }}</small></h2>
+          </div>
+          {% assign blog_staff = site.data.gamefreak_legacy_blogs["staff"] %}
+          {% assign blog_art = site.data.gamefreak_legacy_blogs["art"] %}
+          {% assign blog_staff_url = "/" | append: blog_staff.slug | append: "/" %}
+          {% assign blog_art_url = "/" | append: blog_art.slug | append: "/" %}
+          {% include person-stream.html id="dir" name="部长专栏" list=stream_dir all="/gamefreak-director/" %}
+          {% include person-stream.html id="staff" name="员工博客《晴时偶有阴》" list=stream_staff all=blog_staff_url %}
+          {% include person-stream.html id="line" name="增田顺一 LINE 博客" list=stream_line all="/gamefreak-director/#lineblog" %}
+          {% include person-stream.html id="art" name="杉森建的お絵かき日和" list=stream_art all=blog_art_url %}
+        </section>
+        {% endif %}
+
         {% if mentions.size > 0 %}
-        <section class="person__section person__mentions-sec" aria-label="被提及">
+        <section class="person__section person__mentions-sec" id="person-mentions" aria-label="被提及">
           <h2>被提及 <small>{{ mentions.size }}</small></h2>
           <ul class="person__mentions">
             {% for p in mentions %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> <span>{{ p.date | date: "%Y" }}</span></li>{% endfor %}
@@ -221,25 +317,77 @@ carry a `kind` in the registry and never appear as co-interviewees.
         {% endif %}
       </div>
 
-      <aside class="person__side">
+      <aside class="person__side" id="person-side">
         <section class="person__card person__stats-card" aria-label="收录概况">
           <h2>收录概况</h2>
           <dl class="person__stats">
             <div><dt>收录</dt><dd>{{ mine.size }}</dd></div>
             {% if by_year.size > 0 %}<div><dt>年份</dt><dd>{{ years_first.name }}{% if years_last.name != years_first.name %}–{{ years_last.name | slice: 2, 2 }}{% endif %}</dd></div>{% endif %}
             <div><dt>作品</dt><dd>{{ works_u.size }}</dd></div>
-            <div><dt>来源</dt><dd>{{ pubs_u.size }}</dd></div>
+            <div><dt>来源</dt><dd>{{ source_total }}</dd></div>
             {% if cr %}<div><dt>署名</dt><dd>{{ cr.games }}<small> 作</small></dd></div><div><dt>署名年份</dt><dd>{{ cr.first }}–{{ cr.last | slice: 2, 2 }}</dd></div>{% endif %}
           </dl>
           {% if by_year.size > 1 %}
           <ol class="person__chart" aria-label="按年份">
             {% for y in by_year %}
               {% assign pct = y.size | times: 100 | divided_by: year_max %}
-              <li title="{{ y.name }}：{{ y.size }} 篇"><i style="height: {{ pct }}%"></i><span>{{ y.name | slice: 2, 2 }}</span></li>
+              {%- comment -%} past a dozen columns the two-digit years run into each other: label only every fifth year {%- endcomment -%}
+              {% assign y_mod = y.name | plus: 0 | modulo: 5 %}
+              <li title="{{ y.name }}：{{ y.size }} 篇"><i style="height: {{ pct }}%"></i>{% if by_year.size <= 12 or y_mod == 0 %}<span>{{ y.name | slice: 2, 2 }}</span>{% endif %}</li>
             {% endfor %}
           </ol>
           {% endif %}
         </section>
+
+        {% if source_total > 0 %}
+        <section class="person__card person__sources" id="person-sources" aria-label="来源">
+          <h2>来源</h2>
+          {% if blogs.size > 0 %}
+          <div class="person__src">
+            <p class="person__src-kind"><span>开发者博客</span><b>{{ blogs.size }}</b></p>
+            <ul>
+              {% if stream_dir.size > 0 %}<li><a href="#stream-dir"><span>部长专栏</span><b>{{ stream_dir.size }}</b></a></li>{% endif %}
+              {% if stream_staff.size > 0 %}<li><a href="#stream-staff"><span>员工博客《晴时偶有阴》</span><b>{{ stream_staff.size }}</b></a></li>{% endif %}
+              {% if stream_line.size > 0 %}<li><a href="#stream-line"><span>增田顺一 LINE 博客</span><b>{{ stream_line.size }}</b></a></li>{% endif %}
+              {% if stream_art.size > 0 %}<li><a href="#stream-art"><span>杉森建的お絵かき日和</span><b>{{ stream_art.size }}</b></a></li>{% endif %}
+            </ul>
+          </div>
+          {% endif %}
+          {% assign src_kinds = "interview:访谈与报道,scan:原刊扫描,topic:官方专题,article:文章" | split: "," %}
+          {% for sk in src_kinds %}
+            {% assign sk_parts = sk | split: ":" %}
+            {% assign sk_rows = "" | split: "" %}
+            {% assign sk_total = 0 %}
+            {% for row in src_tally %}
+              {% assign row_parts = row | split: "¦" %}
+              {% if row_parts[0] != sk_parts[0] %}{% continue %}{% endif %}
+              {% assign sk_rows = sk_rows | push: row %}
+              {% assign sk_total = sk_total | plus: row_parts[1] %}
+            {% endfor %}
+            {% if sk_total == 0 %}{% continue %}{% endif %}
+            {%- comment -%} a short group lists everything; a long one its eight largest, never a one-off, and folds the rest {%- endcomment -%}
+            {% assign sk_shown = 0 %}
+            <div class="person__src">
+              <p class="person__src-kind"><span>{{ sk_parts[1] }}</span><b>{{ sk_total }}</b></p>
+              <ul>
+                {% for row in sk_rows %}
+                  {% assign row_parts = row | split: "¦" %}{% assign row_n = row_parts[1] | plus: 0 %}
+                  {% if sk_rows.size > 8 and row_n < 2 %}{% break %}{% endif %}
+                  {% if forloop.index > 8 %}{% break %}{% endif %}
+                  <li><span>{{ row_parts[2] }}</span><b>{{ row_n }}</b></li>
+                  {% assign sk_shown = forloop.index %}
+                {% endfor %}
+              </ul>
+              {% if sk_shown < sk_rows.size %}
+              <details class="person__src-rest">
+                <summary>{% if sk_shown > 0 %}其余{% else %}共{% endif %} {{ sk_rows.size | minus: sk_shown }} 处</summary>
+                <p>{% for row in sk_rows offset: sk_shown %}{% assign row_parts = row | split: "¦" %}{% assign row_n = row_parts[1] | plus: 0 %}<span title="{{ row_parts[2] | escape }}">{{ row_parts[2] | truncate: 26 }}{% if row_n > 1 %} {{ row_n }}{% endif %}</span>{% endfor %}</p>
+              </details>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </section>
+        {% endif %}
 
         {% if co_u.size > 0 %}
         <section class="person__card" aria-label="一起受访的人">
@@ -273,27 +421,47 @@ carry a `kind` in the registry and never appear as co-interviewees.
           </ul>
         </section>
         {% endif %}
-
-        {% if pubs_u.size > 0 %}
-        <section class="person__card" aria-label="来源">
-          <h2>来源</h2>
-          <ul class="person__chips">
-            {% for s in pubs_u %}
-              {% assign n = 0 %}{% for x in pubs_all %}{% if x == s %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
-              <li><span class="is-source">{{ s }}<b>{{ n }}</b></span></li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %}
       </aside>
     </article>
   </div>
 </div>
 
 <script>
+  // the jump line marks the section being read, and keeps its link in view when the line scrolls sideways;
+  // a link to a blog (the sidebar's 来源) opens that blog before the browser scrolls to it
+  (function () {
+    function openStream(hash) {
+      var el = hash && hash.indexOf("#stream-") === 0 ? document.getElementById(hash.slice(1)) : null;
+      if (el) el.open = true;
+    }
+    openStream(location.hash);
+    Array.prototype.forEach.call(document.querySelectorAll('.person__sources a[href^="#stream-"]'), function (a) {
+      a.addEventListener("click", function () { openStream(a.getAttribute("href")); });
+    });
+
+    var jump = document.querySelector("[data-person-jump]");
+    if (!jump || !("IntersectionObserver" in window)) return;
+    var links = Array.prototype.slice.call(jump.querySelectorAll("a"));
+    var seen = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (a) {
+          var on = a.getAttribute("href") === "#" + e.target.id;
+          if (on) { a.setAttribute("aria-current", "true"); jump.scrollLeft = a.offsetLeft - 16; }
+          else a.removeAttribute("aria-current");
+        });
+      });
+    }, { rootMargin: "-15% 0px -80% 0px" });
+    links.forEach(function (a) {
+      var target = document.getElementById(a.getAttribute("href").slice(1));
+      // a link hidden at this width (the sidebar's, on a wide screen) must not take the mark from the others
+      if (target && a.offsetParent) seen.observe(target);
+    });
+  })();
+
   // the entry table sorts by year (newest first) or by title; nothing else changes
   (function () {
-    var table = document.querySelector(".person__table tbody");
+    var table = document.querySelector(".person__doc-table tbody");
     var buttons = Array.prototype.slice.call(document.querySelectorAll(".person__sort button"));
     if (!table || !buttons.length) return;
     function sortBy(key) {

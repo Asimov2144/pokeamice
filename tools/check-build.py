@@ -61,6 +61,33 @@ def trail(page: BeautifulSoup) -> list:
     return [(li.get_text(" ", strip=True), (li.find("a") or {}).get("href")) for li in nav.select("li")] if nav else []
 
 
+def check_person_pages(site: Path) -> None:
+    """A person's page: the blogs are one source each and listed apart, and a long page gets a jump line that lands."""
+    big = read(site / "people" / "masuda-junichi" / "index.html")
+    if not big:
+        check(False, "person: Masuda's page is built")
+        return
+    stats = {d.select_one("dt").get_text(strip=True): d.select_one("dd").get_text(strip=True) for d in big.select(".person__stats > div")}
+    docs = big.select("#person-docs tbody tr")
+    blogs = big.select("#person-blogs .person__stream-list li")
+    check(int(stats["收录"]) == len(docs) + len(blogs) and len(docs) > 0 and len(blogs) > 0,
+          f"person: {stats['收录']} entries = {len(docs)} documents + {len(blogs)} blog posts, listed apart")
+    series = [li.select_one("span").get_text(strip=True) for li in big.select(".person__sources .person__src:first-of-type li")]
+    check("部长专栏" in series and "增田顺一 LINE 博客" in series and int(stats["来源"]) < len(docs),
+          f"person: the blogs count as one source each ({series}), {stats['来源']} sources in all")
+    lines = big.select(".person__sources li")
+    counted = sum(int(b.get_text()) for b in big.select(".person__src-kind b"))
+    check(len(lines) <= 30 and counted <= int(stats["收录"]), f"person: the sources card is {len(lines)} lines, its groups add up to {counted}")
+    check(all(big.select_one(a.get("href")) is not None for a in big.select(".person__sources a[href^='#']")),
+          "person: each blog in the sources card opens its list")
+    jumps = big.select("[data-person-jump] a")
+    check(len(jumps) >= 3 and all(big.select_one(a.get("href")) is not None for a in jumps),
+          f"person: the jump line on a long page lands ({[a.get('href') for a in jumps]})")
+    tiny = read(site / "people" / "lu-lai-dao-ying-jie" / "index.html")
+    check(tiny is not None and tiny.select_one("[data-person-jump]") is None and len(tiny.select("#person-docs tbody tr")) > 0
+          and tiny.select_one("#person-blogs") is None, "person: a short page has no jump line and no blog section")
+
+
 def main() -> int:
     site = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
     if not (site / "index.html").exists():
@@ -204,6 +231,8 @@ def main() -> int:
               f"timeline: 2010 stands on {len(y_legends)} silhouettes, {len(tabs)} month tabs, {len(linked)} linked to their month")
     else:
         check(False, "timeline: 2010 is built")
+
+    check_person_pages(site)
 
     # ---- the two cross-cutting hubs (tools/build-hubs.py) ---------------------
     # 媒体专访 (/media/): the Japanese and the foreign press, a board per named outlet; /overseas/ redirects into it
