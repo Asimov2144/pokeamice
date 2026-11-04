@@ -71,7 +71,7 @@ gf_count: 2
 <h3>Card Illustrations<span class="credits__zh-role">（卡牌插画）</span><span class="credits__ja-role">カード・イラストレーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建 · すぎもり けん</small></li>
-<li class="credits__name">Mitsuhiro Arita <small>有田満弘 · ありた みつひろ</small></li>
+<li class="credits__name"><a href="/people/you-tian-man-hong/">Mitsuhiro Arita</a> <small>有田満弘 · ありた みつひろ</small></li>
 <li class="credits__name">Keiji Kinebuchi <small>杵淵敬二 · きねぶち けいじ</small></li>
 <li class="credits__name">Kagemaru Himeno <small>姫野かげまる · ひめの かげまる</small></li>
 <li class="credits__name">Tomoaki Imakuni <small>イマクニ? · いまくに ともあき</small></li>

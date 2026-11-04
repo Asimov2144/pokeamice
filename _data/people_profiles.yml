@@ -286,7 +286,7 @@
   interviews:
     entries: 4
     spoken_in: 3
-    columns: 0
+    columns: 1
     first: '2008'
     last: '2011'
   credits:
@@ -432,7 +432,7 @@
   interviews:
     entries: 26
     spoken_in: 25
-    columns: 0
+    columns: 3
     first: '2005'
     last: '2019'
   credits:
@@ -756,7 +756,7 @@
   interviews:
     entries: 22
     spoken_in: 20
-    columns: 0
+    columns: 19
     first: '1996'
     last: '2017'
   credits:
@@ -853,8 +853,8 @@
   slug: nishino-koji
   kind: person
   interviews:
-    entries: 10
-    spoken_in: 9
+    entries: 9
+    spoken_in: 8
     columns: 0
     first: '1996'
     last: '2018'
@@ -985,11 +985,11 @@
   slug: ishihara-tsunekazu
   kind: person
   interviews:
-    entries: 61
-    spoken_in: 57
+    entries: 67
+    spoken_in: 63
     columns: 3
     first: '1997'
-    last: '2023'
+    last: '2026'
   credits:
     games: 91
     core_games: 29
@@ -1334,7 +1334,7 @@
   interviews:
     entries: 9
     spoken_in: 9
-    columns: 0
+    columns: 2
     first: '2010'
     last: '2013'
   credits:
@@ -1408,8 +1408,8 @@
   slug: iwao-kazumasa
   kind: person
   interviews:
-    entries: 10
-    spoken_in: 9
+    entries: 11
+    spoken_in: 10
     columns: 0
     first: '2011'
     last: '2019'
@@ -1501,7 +1501,7 @@
   interviews:
     entries: 5
     spoken_in: 5
-    columns: 1
+    columns: 2
     first: '2005'
     last: '2013'
   credits:
@@ -2279,11 +2279,11 @@
   slug: watanabe-tetsuya
   kind: person
   interviews:
-    entries: 5
-    spoken_in: 5
+    entries: 7
+    spoken_in: 7
     columns: 0
     first: '1996'
-    last: '2013'
+    last: '2019'
   credits:
     games: 56
     core_games: 26
@@ -2353,7 +2353,7 @@
   kind: person
   interviews:
     entries: 4
-    spoken_in: 3
+    spoken_in: 4
     columns: 0
     first: '1996'
     last: '2018'
@@ -2510,7 +2510,7 @@
     spoken_in: 2
     columns: 0
     first: '2013'
-    last: '2021'
+    last: '2019'
   summary: F.K. 的专业职能是动作设计师，担任角色动作团队组长，负责动作研发攻坚与全流程动作资产的质量把控 [1]。在动作设计上，其主张以纯手工逐帧打磨传递宝可梦的世界观神韵，同时认为过场剧情演示可引入动作捕捉、面部表情可结合变形目标 [1]。其认为相比万金油式的泛用性，行业深度专精的专业度正变得关键 [1]。在概念原画方面，F.K. 因热爱生物设计而参加 GAME FREAK 选拔，应聘作品集包含影像作品、插画、黏土雕塑的飞龙以及完全原创的怪物设计 [2]。其入职面试中被追问原创怪物的食性、进食方式、栖息生态与骨骼肌肉运动，并由此记住 GAME FREAK 对细节探求生物学与生态学合理意义的执着 [2]。
   citations:
   - n: 1
@@ -2986,11 +2986,11 @@
   slug: t-k
   kind: person
   interviews:
-    entries: 2
-    spoken_in: 2
+    entries: 3
+    spoken_in: 3
     columns: 0
     first: '2021'
-    last: '2021'
+    last: '2025'
   summary: T.K. 曾作为游戏程序员参与实际开发，主要负责玩家行为相关部分，并参与《宝可梦传说 阿尔宙斯》中物理行为与AI的稳定处理，为掌握Havok与研究开发部共同调查 [1]。他也从事技术美术工作，在制作3D模型的部门负责程序员与设计师之间的桥梁搭建、数据制作规约制定以及对接外部合作公司的窗口业务，并在研究开发部负责Houdini、动作捕捉等工具和技术的导入 [2]。在《宝可梦 剑／盾》中，他负责宝可梦模型制作环境的整备，并参与背景方面应对广阔地图带来的数据过重问题 [2]。作为程序员，他重视不要完全按照需求去实现 [1]。
   citations:
   - n: 1
@@ -3475,7 +3475,7 @@
   interviews:
     entries: 3
     spoken_in: 3
-    columns: 0
+    columns: 2
     first: '2009'
     last: '2010'
   credits:
@@ -3705,7 +3705,7 @@
   slug: hirobe-keita
   kind: person
   interviews:
-    entries: 1
+    entries: 0
     spoken_in: 0
     columns: 0
     first: null
@@ -3860,8 +3860,8 @@
   slug: wei-shang-jiang-zhi
   kind: person
   interviews:
-    entries: 2
-    spoken_in: 2
+    entries: 3
+    spoken_in: 3
     columns: 0
     first: '2017'
     last: '2019'
@@ -4463,37 +4463,37 @@
   kind: person
   interviews:
     entries: 1
-    spoken_in: 0
+    spoken_in: 1
     columns: 0
-    first: null
-    last: null
+    first: '2024'
+    last: '2024'
 - name: A.T.
   slug: a-t
   kind: person
   interviews:
     entries: 1
-    spoken_in: 0
+    spoken_in: 1
     columns: 0
-    first: null
-    last: null
+    first: '2024'
+    last: '2024'
 - name: I.F.
   slug: i-f
   kind: person
   interviews:
     entries: 1
-    spoken_in: 0
+    spoken_in: 1
     columns: 0
-    first: null
-    last: null
+    first: '2024'
+    last: '2024'
 - name: R.N.
   slug: r-n
   kind: person
   interviews:
     entries: 1
-    spoken_in: 0
+    spoken_in: 1
     columns: 0
-    first: null
-    last: null
+    first: '2024'
+    last: '2024'
 - name: E.K.
   slug: e-k
   kind: person
@@ -4501,8 +4501,8 @@
     entries: 1
     spoken_in: 1
     columns: 0
-    first: '2021'
-    last: '2021'
+    first: '2019'
+    last: '2019'
   summary: E.K. 是一名 UI 设计师，毕业后进入大型主机游戏开发公司担任 UI 设计，此后一直从事 UI 设计工作 [1]。在 GAME FREAK 参与《宝可梦》系列菜单画面与 UI 设计，并可就按钮行为等规格向策划和总监提出意见 [1]。其设计重视让第一次接触游戏的孩子与核心粉丝都容易游玩，按信息层级区分必要信息与核心粉丝参照信息 [1]。工作范围不限于 UI，还涉足策划、程序领域以及特效设计、演示场景制作和美术工作 [1]。
   citations:
   - n: 1
@@ -4525,8 +4525,8 @@
     entries: 1
     spoken_in: 1
     columns: 0
-    first: '2021'
-    last: '2021'
+    first: '2019'
+    last: '2019'
   summary: K.N. 以图形设计师身份入职，第一年经历2D设计、角色建模、场景建模等团队工作，目前主要领域是场景建模 [1]。其工学部机器人工程学背景带来的3D设计经验在场景建模中得到运用 [1]。在《宝可梦 Let's Go！皮卡丘・Let's Go！伊布》中担任场景组长，负责从自己设计的城镇和森林到最终落实到游戏画面的全程 [1]。做事上注重细节，曾判断修正已配置数千棵树的突兀感，认为微差左右世界观 [1]。作为组长，向成员和合作公司传达希望大家不断提出想法、自己推动实现 [1]。
   citations:
   - n: 1
@@ -4548,7 +4548,7 @@
     entries: 2
     spoken_in: 2
     columns: 0
-    first: '2021'
+    first: '2019'
     last: '2021'
   summary: K.F.最初是自由职业音效设计师，后转入社交游戏公司担任策划，再进入GAME FREAK，目前担任『Pokémon HOME』的项目总监 [2]。其专长领域涵盖游戏策划与项目总监工作，并关注通过网络构建游玩与交流方式 [2]。在策划理念上，K.F.认为策划应在理解总监与制作人宏观意图的同时融入个人强烈意志与独特构思 [1]。K.F.指出GAME FREAK内部没有新人先做杂务的规矩，新人也会全权负责特定功能企划甚至主动立项 [1]。作为总监，K.F.意识到宝可梦是延续20多年的系列，维持其形象与改变它都是工作的一部分 [2]。
   citations:
@@ -4577,8 +4577,8 @@
     entries: 1
     spoken_in: 1
     columns: 0
-    first: '2021'
-    last: '2021'
+    first: '2019'
+    last: '2019'
   summary: K.O.在研究生阶段研究以3D方式可视化应用程序性能的分析工具，求职时只瞄准游戏行业，凭借研究中的分析工具和自制游戏入职GAME FREAK [1]。入职后经过3个月培训，被分配到开发二部，参与开发环境改善、CI环境搭建、通用数据编辑工具开发和游戏实现等项目 [1]。其编辑工具开发是在规格与使用方法尚未确定的状态下开始的，最终成品规格与最初完全不同，由此他重视先做原型、听取使用方意见并加强沟通 [1]。他还在开发环境中引入云技术，将分散数据集中管理，压缩了开发所需的时间和成本 [1]。他带着一旦出错全体作业就会停滞的使命感从事开发环境改善工作 [1]。
   citations:
   - n: 1
@@ -4958,11 +4958,11 @@
   slug: t-t
   kind: person
   interviews:
-    entries: 2
-    spoken_in: 2
+    entries: 3
+    spoken_in: 3
     columns: 0
     first: '2013'
-    last: '2021'
+    last: '2024'
   summary: 大学毕业后以应届生身份入职 GAME FREAK，长期同时参与「玩法」与「环境」两方面开发 [1]。在《宝可梦 X·Y》中担任原野系统负责人，主导玩法机制实验与团队推进管理 [1]。关注操作手感，曾着力消除 3DS 硬件上可能产生的操作延迟 [1]。认为系统程序员应把前沿技术导入开发管线，提升画质表现力与研发效率 [2]。主张程序员不应只完成既定需求，而要顺应时代持续革新底层技术 [2]。
   citations:
   - n: 1
@@ -5624,10 +5624,10 @@
   kind: person
   interviews:
     entries: 1
-    spoken_in: 1
+    spoken_in: 0
     columns: 0
-    first: '2021'
-    last: '2021'
+    first: null
+    last: null
   summary: 须崎春树担任《New 宝可梦随乐拍》总监，参与拍照游戏的续作开发。[1]他重视宝可梦种类繁多这一魅力，在《宝可拳》中为让更多宝可梦登场，除对战外也在背景上投入精力。[1]面对时隔二十余年的新作，他通过聆听当年开发团队的心血，决定不改变根本概念，再讨论顺应时代的扩展方向。[1]在具体设计上，他坚持保留拍摄张数限制，并顺应时代加入照片后期加工与简化拍摄操作。[1]
   citations:
   - n: 1
@@ -11369,11 +11369,11 @@
   slug: ito-hiroto
   kind: staff
   interviews:
-    entries: 0
-    spoken_in: 0
+    entries: 1
+    spoken_in: 1
     columns: 0
-    first: null
-    last: null
+    first: '2019'
+    last: '2019'
   credits:
     games: 7
     core_games: 7
@@ -11443,8 +11443,8 @@
     entries: 1
     spoken_in: 1
     columns: 0
-    first: '2021'
-    last: '2021'
+    first: '2022'
+    last: '2022'
   credits:
     games: 7
     core_games: 7

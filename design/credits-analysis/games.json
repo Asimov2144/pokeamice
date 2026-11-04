@@ -189,7 +189,7 @@
   "conquest": {
    "slug": "conquest",
    "title": "Staff of Pokémon Conquest",
-   "work": null,
+   "work": "宝可梦+信长的野望",
    "year": 2012,
    "developer": "Tecmo Koei",
    "core": false,
@@ -209,7 +209,7 @@
   "dash": {
    "slug": "dash",
    "title": "Staff of Pokémon Dash",
-   "work": null,
+   "work": "宝可梦冲刺赛",
    "year": 2004,
    "developer": "Ambrella",
    "core": false,
@@ -259,7 +259,7 @@
   "dream-radar": {
    "slug": "dream-radar",
    "title": "Staff of Pokémon Dream Radar",
-   "work": null,
+   "work": "宝可梦AR搜寻器",
    "year": 2012,
    "developer": "Game Freak",
    "core": true,
@@ -409,7 +409,7 @@
   "my-pokemon-ranch": {
    "slug": "my-pokemon-ranch",
    "title": "Staff of My Pokémon Ranch",
-   "work": null,
+   "work": "大家的宝可梦牧场",
    "year": 2008,
    "developer": "Ambrella",
    "core": false,
@@ -419,7 +419,7 @@
   "mystery-dungeon-explorers-of-sky": {
    "slug": "mystery-dungeon-explorers-of-sky",
    "title": "Staff of Pokémon Mystery Dungeon: Explorers of Sky",
-   "work": null,
+   "work": "宝可梦不可思议迷宫 空之探险队",
    "year": 2009,
    "developer": "The Pokémon Company/Chunsoft",
    "core": false,
@@ -429,7 +429,7 @@
   "mystery-dungeon-explorers-of-time-and-explorers-of-darkness": {
    "slug": "mystery-dungeon-explorers-of-time-and-explorers-of-darkness",
    "title": "Staff of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness",
-   "work": null,
+   "work": "宝可梦不可思议迷宫 时之探险队·暗之探险队",
    "year": 2007,
    "developer": "The Pokémon Company/Chunsoft",
    "core": false,
@@ -439,7 +439,7 @@
   "mystery-dungeon-gates-to-infinity": {
    "slug": "mystery-dungeon-gates-to-infinity",
    "title": "Staff of Pokémon Mystery Dungeon: Gates to Infinity",
-   "work": null,
+   "work": "宝可梦不可思议迷宫 极大之门与无限迷宫",
    "year": 2012,
    "developer": "Spike Chunsoft",
    "core": false,
@@ -479,7 +479,7 @@
   "new-pokemon-snap": {
    "slug": "new-pokemon-snap",
    "title": "Staff of New Pokémon Snap",
-   "work": null,
+   "work": "New 宝可梦随乐拍",
    "year": 2021,
    "developer": "Bandai Namco Studios",
    "core": false,
@@ -549,7 +549,7 @@
   "pokedex-3d-pro": {
    "slug": "pokedex-3d-pro",
    "title": "Staff of Pokédex 3D Pro",
-   "work": null,
+   "work": "宝可梦全国图鉴专业版",
    "year": 2012,
    "developer": "Creatures, Inc.",
    "core": false,
@@ -599,7 +599,7 @@
   "pokken-tournament": {
    "slug": "pokken-tournament",
    "title": "Staff of Pokkén Tournament",
-   "work": null,
+   "work": "宝可拳 POKKÉN TOURNAMENT",
    "year": 2015,
    "developer": "Bandai Namco Entertainment",
    "core": false,
@@ -639,7 +639,7 @@
   "quest": {
    "slug": "quest",
    "title": "Staff of Pokémon Quest",
-   "work": null,
+   "work": "宝可梦探险寻宝",
    "year": 2018,
    "developer": "Game Freak",
    "core": false,
@@ -649,7 +649,7 @@
   "ranger-guardian-signs": {
    "slug": "ranger-guardian-signs",
    "title": "Staff of Pokémon Ranger: Guardian Signs",
-   "work": null,
+   "work": "宝可梦巡护员 光的轨迹",
    "year": 2010,
    "developer": "Creatures, Inc.",
    "core": false,
@@ -669,7 +669,7 @@
   "ranger": {
    "slug": "ranger",
    "title": "Staff of Pokémon Ranger",
-   "work": null,
+   "work": "宝可梦巡护员",
    "year": 2006,
    "developer": "HAL Laboratory, Creatures, Inc.",
    "core": false,
@@ -779,7 +779,7 @@
   "sleep": {
    "slug": "sleep",
    "title": "Staff of Pokémon Sleep",
-   "work": null,
+   "work": "Pokémon Sleep",
    "year": 2023,
    "developer": "SELECT BUTTON inc. (2023-2024), The Pokémon Works (2024-present)",
    "core": false,
@@ -849,7 +849,7 @@
   "super-mystery-dungeon": {
    "slug": "super-mystery-dungeon",
    "title": "Staff of Pokémon Super Mystery Dungeon",
-   "work": null,
+   "work": "宝可梦超级不可思议迷宫",
    "year": 2015,
    "developer": "Spike Chunsoft",
    "core": false,
@@ -919,7 +919,7 @@
   "trading-card-game-pocket": {
    "slug": "trading-card-game-pocket",
    "title": "Staff of Pokémon Trading Card Game Pocket",
-   "work": null,
+   "work": "宝可梦集换式卡牌游戏 Pocket",
    "year": 2024,
    "developer": "Creatures, Inc., DeNA Co., Ltd.",
    "core": false,

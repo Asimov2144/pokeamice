@@ -2,6 +2,7 @@
 # portraits 是不同时期的照片（image / year / source），avatar_source 记主头像出处；aliases 供检索；
 # kind=character 是动画角色、kind=figure 是只被引述的人物，都不建人物页。由 tools/build-people.py 维护：registry 只添加不覆盖，
 # harvest 按脚本里 PORTRAITS 表（已核对过身份的照片）裁头像；portraits 里的 post 是照片所在的条目，该条目优先显示这张。
+# kind=staff 是只出现在游戏 staff 名单里的人（tools/build-credits-site.py 按门槛追加，credits_key 对 archive/credits/index.yml），建页但不进受访者目录。
 - name: 增田顺一
   slug: masuda-junichi
   aliases:
@@ -5363,6 +5364,7 @@
   aliases:
   - 有田満弘
   - Mitsuhiro Arita
+  credits_key: arita mitsuhiro
 - name: 那须基仁
   slug: na-xu-ji-ren
   aliases:

@@ -90,7 +90,7 @@ gf_count: 4
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建 · すぎもり けん</small></li>
 <li class="credits__name is-gf"><a href="/people/yoshida-hironobu/">Hironobu Yoshida</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 21 部 GF 自研作品里有开发职务署名，最早 1998）"> <small>吉田宏信 · よしだ ひろのぶ</small></li>
 <li class="credits__name is-gf"><a href="/people/nishida-atsuko/">Atsuko Nishida</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>にしだあつこ · にしだ あつこ</small></li>
-<li class="credits__name">Mitsuhiro Arita <small>有田満弘 · ありた みつひろ</small></li>
+<li class="credits__name"><a href="/people/you-tian-man-hong/">Mitsuhiro Arita</a> <small>有田満弘 · ありた みつひろ</small></li>
 <li class="credits__name">Keiji Kinebuchi <small>杵淵敬二 · きねぶち けいじ</small></li>
 <li class="credits__name">Kagemaru Himeno <small>姫野かげまる · ひめの かげまる</small></li>
 <li class="credits__name">Miki Tanaka <small>田中未樹 · たなか みき</small></li>

@@ -46769,6 +46769,25 @@ miyashita-naoki:
     year: 2023
     role: Special Thanks
     role_zh: 特别感谢
+you-tian-man-hong:
+  name: Mitsuhiro Arita
+  kanji: 有田満弘
+  kana: ありた みつひろ
+  games: 2
+  core_games: 0
+  first: 1998
+  last: 2001
+  credits:
+  - game: trading-card-game
+    year: 1998
+    role: Card Illustrations
+    role_ja: カード・イラストレーター
+    role_zh: 卡牌插画
+  - game: trading-card-game-2-the-invasion-of-team-gr
+    year: 2001
+    role: Card Illustrators
+    role_ja: カード・イラストレーター
+    role_zh: 卡牌插画
 orio-kazunori:
   name: Kazunori Orio
   kanji: null
