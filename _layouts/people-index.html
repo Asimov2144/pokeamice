@@ -23,7 +23,8 @@ the memoir chapters tag as people, are left out of both.
 {%- comment -%} the staff roster, sorted by core-title count then by first year {%- endcomment -%}
 {% assign staff = "" | split: "" %}
 {% for e in site.data.people %}
-  {% if e.kind != "staff" %}{% continue %}{% endif %}
+  {%- comment -%} pinned: kept by hand below the threshold (the musicians the OST page links to); the roster says it lists who clears the threshold, so they stay out {%- endcomment -%}
+  {% if e.kind != "staff" or e.pinned %}{% continue %}{% endif %}
   {% assign cr = site.data.credits_people[e.slug] %}
   {% if cr == nil %}{% continue %}{% endif %}
   {% assign key = cr.core_games | prepend: "000" | slice: -3, 3 | append: "|" | append: cr.first | append: "|" | append: e.slug %}

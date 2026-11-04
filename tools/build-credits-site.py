@@ -204,6 +204,7 @@ def main():
         added += 1
     print(f"追加 kind: staff {added} 人")
     # 已有的 staff 条目：名字/别名是从索引派生的，每次刷新（手改过的加 pinned: true 就不动）；不再够门槛的删掉
+    # pinned 的不看门槛（主站 OST 合集页要链的音乐人），也不进 /people/ 的名册：名册的说明写的是门槛
     def meets(p):
         a = analysis.get(p["name"])
         if not a or not a["core_games"]:
@@ -328,8 +329,10 @@ def main():
                 row["role_zh"] = zh
             credits.append(row)
         a = analysis.get(p["name"])
+        # 署名年份取实际最早和最晚：索引的 first / last 是核心作优先排序后的首行和末行（青木森一会变成 1999–1999）
+        years = [r["year"] for r in credits] or [p["first"], p["last"]]
         cp[e["slug"]] = {"name": p["name"], "kanji": (p.get("kanji") or [None])[0], "kana": (p.get("kana") or [None])[0],
-                         "games": len(p["games"]), "core_games": len(p.get("core_games", [])), "first": p["first"], "last": p["last"],
+                         "games": len(p["games"]), "core_games": len(p.get("core_games", [])), "first": min(years), "last": max(years),
                          "credits": credits}
         if a:
             latest = (a.get("real_games") or a["core_games"] or [None])[-1]  # 最近一次实际参与（Special Thanks 不算）
