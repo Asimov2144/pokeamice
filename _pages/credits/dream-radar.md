@@ -44,7 +44,7 @@ sitemap: true
 <section class="credits__section">
 <h3>Sound<span class="credits__zh-role">（音响）</span><span class="credits__ja-role">サウンド</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Takuto Kitsuta <small>橘田拓人 · きつた たくと</small></li>
+<li class="credits__name"><a href="/people/kitsuta-takuto/">Takuto Kitsuta</a> <small>橘田拓人 · きつた たくと</small></li>
 <li class="credits__name">Ayumu Ito <small>いとう あゆむ</small></li>
 <li class="credits__name">Wataru Ishiyama <small>いしやま わたる</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>

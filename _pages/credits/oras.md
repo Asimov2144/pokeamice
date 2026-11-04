@@ -181,17 +181,17 @@ sitemap: true
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/adachi-minako/">Minako Adachi</a> <small>足立美奈子 · あだち みなこ</small></li>
 <li class="credits__name"><a href="/people/kageyama-shota/">Shota Kageyama</a> <small>景山将太 · かげやま しょうた</small></li>
-<li class="credits__name">Hideaki Kuroda <small>黒田英明 · くろだ ひであき</small></li>
+<li class="credits__name"><a href="/people/kuroda-hideaki/">Hideaki Kuroda</a> <small>黒田英明 · くろだ ひであき</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Pokémon Voice Design<span class="credits__zh-role">（宝可梦配音设计）</span><span class="credits__ja-role">ポケモン ボイス</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hideaki Kuroda <small>くろだ ひであき</small></li>
+<li class="credits__name"><a href="/people/kuroda-hideaki/">Hideaki Kuroda</a> <small>くろだ ひであき</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">サウンド エフェクト</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hideaki Kuroda <small>くろだ ひであき</small></li>
+<li class="credits__name"><a href="/people/kuroda-hideaki/">Hideaki Kuroda</a> <small>くろだ ひであき</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Management<span class="credits__zh-role">（音响管理）</span><span class="credits__ja-role">サウンド マネージャー</span></h3>

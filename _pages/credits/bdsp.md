@@ -100,7 +100,7 @@ gf_count: 14
 <section class="credits__section">
 <h3>Sound<span class="credits__zh-role">（音响）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Jun Fukuda</li>
+<li class="credits__name"><a href="/people/fukuda-jun/">Jun Fukuda</a></li>
 <li class="credits__name is-company">GEMINI BREEZE LLC.</li>
 </ul></section>
 <section class="credits__section">

@@ -18981,3 +18981,112 @@
   - 角色塑造
   - 世界观描写
   - 文体与语感
+- name: 青木森一
+  slug: aoki-morikazu
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 5
+    core_games: 4
+    span: 1999–2004
+    line: 署名 5 作（核心 4 作），1999–2004：音乐 5 作（1999–2004）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 5
+  expertise:
+  - 音乐
+- name: 大賀智章
+  slug: oga-tomoaki
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 2
+    core_games: 2
+    span: 2016–2017
+    line: 署名 2 作，2016–2017：音乐 2 作（2016–2017）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 2
+    - cat: 其他
+      games: 1
+  expertise:
+  - 音乐
+- name: 黒田英明
+  slug: kuroda-hideaki
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 3
+    core_games: 3
+    span: 2013–2016
+    line: 署名 3 作，2013–2016：音乐 3 作（2013–2016）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 3
+  expertise:
+  - 音乐
+- name: 橘田拓人
+  slug: kitsuta-takuto
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 13
+    core_games: 2
+    span: 2006–2024
+    line: 署名 13 作（核心 2 作），2006–2024：音乐 13 作（2006–2024）、本地化/海外QA 1 作（2009）；2010 年《宝可梦巡护员 光的轨迹》起任部门总监（Sound Director）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 13
+    - cat: 本地化/海外QA
+      games: 1
+  expertise:
+  - 音乐
+- name: 福田淳
+  slug: fukuda-jun
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 3
+    core_games: 1
+    span: 2016–2023
+    line: 署名 3 作（核心 1 作），2016–2023：音乐 3 作（2016–2023）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 3
+  expertise:
+  - 音乐

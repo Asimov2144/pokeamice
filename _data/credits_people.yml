@@ -43599,6 +43599,57 @@ saito-shinya:
     role_zh: 制作人
   latest_role: Producers
   latest_game: champions
+aoki-morikazu:
+  name: Morikazu Aoki
+  kanji: 青木森一
+  kana: あおき もりかず
+  games: 5
+  core_games: 4
+  first: 1999
+  last: 2004
+  credits:
+  - game: gold-silver
+    year: 1999
+    role: Sound Effects
+    role_ja: サウンド エフェクト
+    role_zh: 音效
+  - game: crystal
+    year: 2000
+    role: Music
+    role_ja: おんがく
+    role_zh: 音乐
+  - game: crystal
+    year: 2000
+    role: Sound Effects
+    role_ja: サウンド エフェクト
+    role_zh: 音效
+  - game: ruby-sapphire
+    year: 2002
+    role: Music Composition
+    role_ja: おんがく
+    role_zh: 音乐作曲
+  - game: ruby-sapphire
+    year: 2002
+    role: Sound Effects & Pokémon Voices
+    role_ja: サウンド エフェクト & ポケモン ボイス
+    role_zh: 音效与宝可梦配音
+  - game: emerald
+    year: 2004
+    role: Music Composition
+    role_ja: おんがく
+    role_zh: 音乐作曲
+  - game: emerald
+    year: 2004
+    role: Sound Effects & Pokémon Voices
+    role_ja: サウンド エフェクト/ポケモン ボイス
+    role_zh: 音效与宝可梦配音
+  - game: pinball
+    year: 1999
+    role: Sound Effects
+    role_ja: こうかおん
+    role_zh: 音效
+  latest_role: Music Composition
+  latest_game: emerald
 nakajima-tetsuya:
   name: Tetsuya Nakajima
   kanji: null
@@ -44370,6 +44421,54 @@ kajita-futoshi:
     role_zh: 角色动作设计
   latest_role: Character Motion Design
   latest_game: sun-moon
+kuroda-hideaki:
+  name: Hideaki Kuroda
+  kanji: 黒田英明
+  kana: くろだ ひであき
+  games: 3
+  core_games: 3
+  first: 2013
+  last: 2016
+  credits:
+  - game: x-y
+    year: 2013
+    role: Pokémon Voice Design
+    role_ja: ポケモン ボイス
+    role_zh: 宝可梦配音设计
+  - game: x-y
+    year: 2013
+    role: Sound Effects
+    role_ja: サウンド エフェクト
+    role_zh: 音效
+  - game: oras
+    year: 2014
+    role: Music
+    role_ja: おんがく
+    role_zh: 音乐
+  - game: oras
+    year: 2014
+    role: Pokémon Voice Design
+    role_ja: ポケモン ボイス
+    role_zh: 宝可梦配音设计
+  - game: oras
+    year: 2014
+    role: Sound Effects
+    role_ja: サウンド エフェクト
+    role_zh: 音效
+  - game: sun-moon
+    year: 2016
+    role: Music
+    role_zh: 音乐
+  - game: sun-moon
+    year: 2016
+    role: Pokémon Voice Design
+    role_zh: 宝可梦配音设计
+  - game: sun-moon
+    year: 2016
+    role: Sound Effects
+    role_zh: 音效
+  latest_role: Music
+  latest_game: sun-moon
 kawano-kenta:
   name: Kenta Kawano
   kanji: null
@@ -44674,6 +44773,84 @@ moriguchi-shota:
     role_zh: GAME FREAK Inc. / Media 组组长
   latest_role: GAME FREAK Inc. / Media Team Lead
   latest_game: pokopia
+kitsuta-takuto:
+  name: Takuto Kitsuta
+  kanji: 橘田拓人
+  kana: きつた たくと
+  games: 13
+  core_games: 2
+  first: 2006
+  last: 2024
+  credits:
+  - game: heartgold-soulsilver
+    year: 2009
+    role: Music Composition
+    role_ja: おんがく
+    role_zh: 音乐作曲
+  - game: dream-radar
+    year: 2012
+    role: Sound
+    role_ja: サウンド
+    role_zh: 音响
+  - game: ranger
+    year: 2006
+    role: Sound
+    role_ja: サウンド
+    role_zh: 音响
+  - game: ranger-shadows-of-almia
+    year: 2008
+    role: Sound
+    role_ja: サウンド
+    role_zh: 音响
+  - game: pokepark-wii
+    year: 2009
+    role: Sound Direction
+    role_ja: サウンドディレクション
+    role_zh: 音响指导
+  - game: pokepark-wii
+    year: 2009
+    role: Localization Development
+    role_zh: 本地化开发
+  - game: ranger-guardian-signs
+    year: 2010
+    role: Sound Director
+    role_ja: サウンドディレクター
+    role_zh: 音响总监
+  - game: pokedex-3d
+    year: 2011
+    role: Sound Design
+    role_zh: 音响设计
+  - game: pokepark-2
+    year: 2011
+    role: Music
+    role_ja: ミュージック
+    role_zh: 音乐
+  - game: pokedex-3d-pro
+    year: 2012
+    role: Sound Design
+    role_zh: 音响设计
+  - game: detective-pikachu
+    year: 2016
+    role: Music
+    role_zh: 音乐
+  - game: detective-pikachu-birth-of-a-new-duo
+    year: 2016
+    role: Music
+    role_zh: 音乐
+  - game: detective-pikachu-returns
+    year: 2023
+    role: Creatures Inc. / Music
+    role_zh: Creatures Inc. / 音乐
+  - game: trading-card-game-pocket
+    year: 2024
+    role: Pokémon Trading Card Game Development / Apps Planning / Music
+    role_zh: 宝可梦集换式卡牌游戏开发 / 应用企划 / 音乐
+  - game: trading-card-game-pocket
+    year: 2024
+    role: Pokémon Trading Card Game Development / Apps Planning / Music
+    role_zh: 宝可梦集换式卡牌游戏开发 / 应用企划 / 音乐
+  latest_role: Sound
+  latest_game: dream-radar
 shindo-maiko:
   name: Maiko Shindo
   kanji: null
@@ -44986,6 +45163,29 @@ numata-atsushi:
     role_zh: 产品管理
   latest_role: Art Section Manager
   latest_game: champions
+oga-tomoaki:
+  name: Tomoaki Oga
+  kanji: 大賀智章
+  kana: null
+  games: 2
+  core_games: 2
+  first: 2016
+  last: 2017
+  credits:
+  - game: sun-moon
+    year: 2016
+    role: Music
+    role_zh: 音乐
+  - game: usum
+    year: 2017
+    role: Sound
+    role_zh: 音响
+  - game: usum
+    year: 2017
+    role: Guitar
+    role_zh: 吉他
+  latest_role: Sound
+  latest_game: usum
 shintani-hiroki:
   name: Hiroki Shintani
   kanji: null
@@ -45452,6 +45652,30 @@ inuyama-inuko:
     role_zh: 配音演员（alphabetical order）
   latest_role: Gigantamax Meowth Voice
   latest_game: sword-shield
+fukuda-jun:
+  name: Jun Fukuda
+  kanji: null
+  kana: null
+  games: 3
+  core_games: 1
+  first: 2016
+  last: 2023
+  credits:
+  - game: bdsp
+    year: 2021
+    role: Sound
+    role_zh: 音响
+  - game: duel
+    year: 2016
+    role: Sound Effects Developer
+    role_zh: 音效开发
+  - game: sleep
+    year: 2023
+    role: Music & Sound Effect / Gemini Breeze LLC.
+    role_ja: Music & Sound Effect
+    role_zh: 音乐与音响特效 / Gemini Breeze LLC.
+  latest_role: Sound
+  latest_game: bdsp
 oota-masahiko:
   name: Masahiko Ota
   kanji: null

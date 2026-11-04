@@ -48,7 +48,7 @@ gf_count: 33
 <section class="credits__section">
 <h3>Sound Design<span class="credits__zh-role">（音响设计）</span></h3>
 <ul class="credits__names">
-<li class="credits__name is-gf">Takuto Kitsuta<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2009）"></li>
+<li class="credits__name is-gf"><a href="/people/kitsuta-takuto/">Takuto Kitsuta</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2009）"></li>
 <li class="credits__name">Ayumu Ito</li>
 <li class="credits__name">Wataru Ishiyama</li>
 </ul></section>

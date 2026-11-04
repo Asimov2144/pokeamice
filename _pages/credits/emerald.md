@@ -66,14 +66,14 @@ sitemap: true
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>一之瀬剛 · いちのせ ごう</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>ますだ じゅんいち</small></li>
-<li class="credits__name">Morikazu Aoki <small>青木森一 · あおき もりかず</small></li>
+<li class="credits__name"><a href="/people/aoki-morikazu/">Morikazu Aoki</a> <small>青木森一 · あおき もりかず</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects &amp; Pokémon Voices<span class="credits__zh-role">（音效与宝可梦配音）</span><span class="credits__ja-role">サウンド エフェクト/ポケモン ボイス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>いちのせ ごう</small></li>
-<li class="credits__name">Morikazu Aoki <small>あおき もりかず</small></li>
+<li class="credits__name"><a href="/people/aoki-morikazu/">Morikazu Aoki</a> <small>あおき もりかず</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Game Designers<span class="credits__zh-role">（游戏设计）</span><span class="credits__ja-role">ゲーム デザイン</span></h3>

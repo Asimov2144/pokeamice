@@ -77,7 +77,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/kageyama-shota/">Shota Kageyama</a> <small>景山将太 · かげやま しょうた</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>増田順一 · ますだ じゅんいち</small></li>
-<li class="credits__name">Takuto Kitsuta <small>橘田拓人 · きつた たくと</small></li>
+<li class="credits__name"><a href="/people/kitsuta-takuto/">Takuto Kitsuta</a> <small>橘田拓人 · きつた たくと</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">サウンド エフェクト</span></h3>

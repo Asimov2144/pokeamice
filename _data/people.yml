@@ -5479,3 +5479,43 @@
   slug: ikura
 - name: 武田绫乃
   slug: wu-tian-ling-nai
+- name: 青木森一
+  slug: aoki-morikazu
+  kind: staff
+  credits_key: aoki morikazu
+  pinned: true
+  aliases:
+  - Morikazu Aoki
+  - あおき もりかず
+- name: 大賀智章
+  slug: oga-tomoaki
+  kind: staff
+  credits_key: oga tomoaki
+  pinned: true
+  aliases:
+  - Tomoaki Oga
+  - 大贺智章
+- name: 黒田英明
+  slug: kuroda-hideaki
+  kind: staff
+  credits_key: hideaki kuroda
+  pinned: true
+  aliases:
+  - Hideaki Kuroda
+  - くろだ ひであき
+  - 黑田英明
+- name: 橘田拓人
+  slug: kitsuta-takuto
+  kind: staff
+  credits_key: kitsuta takuto
+  pinned: true
+  aliases:
+  - Takuto Kitsuta
+  - きつた たくと
+- name: 福田淳
+  slug: fukuda-jun
+  kind: staff
+  credits_key: fukuda jun
+  pinned: true
+  aliases:
+  - Jun Fukuda

@@ -62,13 +62,13 @@ sitemap: true
 <h3>Music<span class="credits__zh-role">（音乐）</span><span class="credits__ja-role">おんがく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>ますだ じゅんいち</small></li>
-<li class="credits__name">Morikazu Aoki <small>青木森一 · あおき もりかず</small></li>
+<li class="credits__name"><a href="/people/aoki-morikazu/">Morikazu Aoki</a> <small>青木森一 · あおき もりかず</small></li>
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>一之瀬剛 · いちのせ ごう</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">サウンド エフェクト</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Morikazu Aoki <small>あおき もりかず</small></li>
+<li class="credits__name"><a href="/people/aoki-morikazu/">Morikazu Aoki</a> <small>あおき もりかず</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>ますだ じゅんいち</small></li>
 <li class="credits__name"><a href="/people/watanabe-tetsuya/">Tetsuya Watanabe</a> <small>わたなべ てつや</small></li>
 </ul></section>

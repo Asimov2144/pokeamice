@@ -227,7 +227,7 @@ gf_count: 3
 <section class="credits__section">
 <h3><small>Music &amp; Sound Effect / </small>Gemini Breeze LLC.<span class="credits__ja-role">Music &amp; Sound Effect</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Jun Fukuda</li>
+<li class="credits__name"><a href="/people/fukuda-jun/">Jun Fukuda</a></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Music &amp; Sound Effect / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Music &amp; Sound Effect</span></h3>

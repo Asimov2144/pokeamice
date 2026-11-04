@@ -39,7 +39,7 @@ gf_count: 9
 <section class="credits__section">
 <h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">こうかおん</span></h3>
 <ul class="credits__names">
-<li class="credits__name is-gf">Morikazu Aoki<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 1999）"> <small>あおき もりかず</small></li>
+<li class="credits__name is-gf"><a href="/people/aoki-morikazu/">Morikazu Aoki</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 1999）"> <small>あおき もりかず</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Driver<span class="credits__zh-role">（音响 Driver）</span><span class="credits__ja-role">サウンドドライバー</span></h3>

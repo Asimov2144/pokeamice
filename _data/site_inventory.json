@@ -296,7 +296,7 @@
    "definition_en": "Equals the posts submitted to search engines."
   },
   "sitemap_people": {
-   "value": 746,
+   "value": 751,
    "label": "sitemap · 人物页",
    "label_en": "sitemap · people pages",
    "group": "sitemap",
@@ -328,7 +328,7 @@
    "definition_en": "Japanese editions plus /ja/."
   },
   "sitemap_total": {
-   "value": 2154,
+   "value": 2159,
    "label": "sitemap 网址",
    "label_en": "sitemap URLs",
    "group": "sitemap",

@@ -411,20 +411,20 @@ sitemap: true
 <li class="credits__name"><a href="/people/ichinose-go/">Gō Ichinose</a></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Satō</a> <small>佐藤仁美</small></li>
-<li class="credits__name">Tomoaki Oga <small>大賀智章</small></li>
-<li class="credits__name">Hideaki Kuroda <small>黒田英明</small></li>
+<li class="credits__name"><a href="/people/oga-tomoaki/">Tomoaki Oga</a> <small>大賀智章</small></li>
+<li class="credits__name"><a href="/people/kuroda-hideaki/">Hideaki Kuroda</a> <small>黒田英明</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Pokémon Voice Design<span class="credits__zh-role">（宝可梦配音设计）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hideaki Kuroda</li>
+<li class="credits__name"><a href="/people/kuroda-hideaki/">Hideaki Kuroda</a></li>
 <li class="credits__name is-company">GEMINI BREEZE LLC.</li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects<span class="credits__zh-role">（音效）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">GEMINI BREEZE LLC.</li>
-<li class="credits__name">Hideaki Kuroda</li>
+<li class="credits__name"><a href="/people/kuroda-hideaki/">Hideaki Kuroda</a></li>
 </ul></section>
 <section class="credits__section">
 <h3>Recording Coordination<span class="credits__zh-role">（录音协调）</span></h3>

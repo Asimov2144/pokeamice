@@ -166,7 +166,7 @@ gf_count: 29
 <section class="credits__section">
 <h3>Music<span class="credits__zh-role">（音乐）</span></h3>
 <ul class="credits__names">
-<li class="credits__name is-gf">Takuto Kitsuta<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>橘田拓人</small></li>
+<li class="credits__name is-gf"><a href="/people/kitsuta-takuto/">Takuto Kitsuta</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>橘田拓人</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects<span class="credits__zh-role">（音效）</span></h3>

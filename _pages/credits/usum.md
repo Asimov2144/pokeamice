@@ -226,7 +226,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/adachi-minako/">Minako Adachi</a> <small>足立美奈子</small></li>
 <li class="credits__name"><a href="/people/ichinose-go/">Gō Ichinose</a> <small>一之瀬剛</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>増田順一</small></li>
-<li class="credits__name">Tomoaki Oga <small>大賀智章</small></li>
+<li class="credits__name"><a href="/people/oga-tomoaki/">Tomoaki Oga</a> <small>大賀智章</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects / Pokémon Voice Design<span class="credits__zh-role">（音效 / 宝可梦配音设计）</span></h3>
@@ -381,7 +381,7 @@ sitemap: true
 <section class="credits__section">
 <h3>Guitar<span class="credits__zh-role">（吉他）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Tomoaki Oga</li>
+<li class="credits__name"><a href="/people/oga-tomoaki/">Tomoaki Oga</a></li>
 </ul></section>
 <section class="credits__section">
 <h3>Pikachu Voice<span class="credits__zh-role">（Pikachu 配音）</span></h3>

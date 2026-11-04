@@ -84,7 +84,7 @@ gf_count: 10
 <section class="credits__section">
 <h3>Sound<span class="credits__zh-role">（音响）</span><span class="credits__ja-role">サウンド</span></h3>
 <ul class="credits__names">
-<li class="credits__name is-gf">Takuto Kitsuta<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>きつた たくと</small></li>
+<li class="credits__name is-gf"><a href="/people/kitsuta-takuto/">Takuto Kitsuta</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>きつた たくと</small></li>
 <li class="credits__name">Kinta Satō <small>さとう きんた</small></li>
 </ul></section>
 <section class="credits__section">
