@@ -329,10 +329,8 @@ def main():
                 row["role_zh"] = zh
             credits.append(row)
         a = analysis.get(p["name"])
-        # 署名年份取实际最早和最晚：索引的 first / last 是核心作优先排序后的首行和末行（青木森一会变成 1999–1999）
-        years = [r["year"] for r in credits] or [p["first"], p["last"]]
         cp[e["slug"]] = {"name": p["name"], "kanji": (p.get("kanji") or [None])[0], "kana": (p.get("kana") or [None])[0],
-                         "games": len(p["games"]), "core_games": len(p.get("core_games", [])), "first": min(years), "last": max(years),
+                         "games": len(p["games"]), "core_games": len(p.get("core_games", [])), "first": p["first"], "last": p["last"],
                          "credits": credits}
         if a:
             latest = (a.get("real_games") or a["core_games"] or [None])[-1]  # 最近一次实际参与（Special Thanks 不算）
@@ -345,7 +343,8 @@ def main():
     # ---- 4. 每作名单页
     PAGES.mkdir(parents=True, exist_ok=True)
     for old in PAGES.glob("*.md"):
-        old.unlink()
+        if old.name != "designers.md":  # 手写的入口页，不是这里生成的（数据在 _data/pokemon_designers.yml，tools/build-designers.py）
+            old.unlink()
     name2slug = {}
     for p in people:
         e = matched.get(p["key"])

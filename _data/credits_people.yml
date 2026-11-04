@@ -6,7 +6,7 @@ ishihara-tsunekazu:
   games: 91
   core_games: 29
   first: 1996
-  last: 2025
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -460,7 +460,7 @@ tajiri-satoshi:
   games: 66
   core_games: 29
   first: 1996
-  last: 2023
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -848,7 +848,7 @@ masuda-junichi:
   games: 67
   core_games: 28
   first: 1996
-  last: 2023
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -1433,7 +1433,7 @@ sugimori-ken:
   games: 56
   core_games: 27
   first: 1996
-  last: 2023
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -1833,7 +1833,7 @@ watanabe-tetsuya:
   games: 56
   core_games: 26
   first: 1996
-  last: 2021
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -2175,7 +2175,7 @@ yoshida-hironobu:
   games: 30
   core_games: 24
   first: 1998
-  last: 2006
+  last: 2026
   credits:
   - game: yellow
     year: 1998
@@ -2576,7 +2576,7 @@ matsushima-kenji:
   games: 25
   core_games: 23
   first: 1996
-  last: 2023
+  last: 2025
   credits:
   - game: red-green
     year: 1996
@@ -2769,7 +2769,7 @@ kinashi-akira:
   games: 33
   core_games: 22
   first: 2002
-  last: 2025
+  last: 2026
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -2967,7 +2967,7 @@ nishino-koji:
   games: 28
   core_games: 22
   first: 1996
-  last: 2006
+  last: 2022
   credits:
   - game: red-green
     year: 1996
@@ -3436,7 +3436,7 @@ morimoto-shigeki:
   games: 28
   core_games: 21
   first: 1996
-  last: 2006
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -3692,7 +3692,7 @@ ohmori-shigeru:
   games: 23
   core_games: 21
   first: 2002
-  last: 2018
+  last: 2026
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -3903,8 +3903,8 @@ ito-kenijro:
   kana: いとう けんじろう
   games: 52
   core_games: 20
-  first: 2004
-  last: 2025
+  first: 2003
+  last: 2026
   credits:
   - game: firered-leafgreen
     year: 2004
@@ -4152,7 +4152,7 @@ nishida-atsuko:
   games: 29
   core_games: 20
   first: 1996
-  last: 2014
+  last: 2025
   credits:
   - game: red-green
     year: 1996
@@ -4320,7 +4320,7 @@ unno-takao:
   games: 23
   core_games: 20
   first: 2002
-  last: 2006
+  last: 2025
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -4565,7 +4565,7 @@ oohashi-mikiko:
   games: 44
   core_games: 19
   first: 2002
-  last: 2021
+  last: 2026
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -4775,7 +4775,7 @@ ichinose-go:
   games: 22
   core_games: 19
   first: 1999
-  last: 2021
+  last: 2026
   credits:
   - game: gold-silver
     year: 1999
@@ -4968,7 +4968,7 @@ ryu-mikiko:
   games: 44
   core_games: 18
   first: 2008
-  last: 2025
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -5172,8 +5172,8 @@ fukunaga-sususmu:
   kana: ふくなが すすむ
   games: 41
   core_games: 18
-  first: 2006
-  last: 2020
+  first: 2003
+  last: 2026
   credits:
   - game: diamond-pearl
     year: 2006
@@ -5371,7 +5371,7 @@ ballard-kellyn:
   games: 38
   core_games: 18
   first: 2008
-  last: 2025
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -5545,7 +5545,7 @@ fujiwara-motofumi:
   games: 25
   core_games: 18
   first: 1996
-  last: 2006
+  last: 2026
   credits:
   - game: red-green
     year: 1996
@@ -5716,7 +5716,7 @@ matsumiya-toshinobu:
   games: 20
   core_games: 18
   first: 1998
-  last: 2006
+  last: 2025
   credits:
   - game: yellow
     year: 1998
@@ -5914,7 +5914,7 @@ tominaga-kenji:
   games: 19
   core_games: 18
   first: 2002
-  last: 2018
+  last: 2025
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -6207,7 +6207,7 @@ okubo-kenji:
   games: 49
   core_games: 17
   first: 1998
-  last: 2025
+  last: 2026
   credits:
   - game: yellow
     year: 1998
@@ -6443,8 +6443,8 @@ kohori-shunsuke:
   kana: こほり しゅんすけ
   games: 28
   core_games: 17
-  first: 2004
-  last: 2016
+  first: 2003
+  last: 2026
   credits:
   - game: emerald
     year: 2004
@@ -6983,7 +6983,7 @@ susai-gaku:
   games: 45
   core_games: 16
   first: 2008
-  last: 2025
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -7435,7 +7435,7 @@ usui-yasuhiro:
   games: 42
   core_games: 16
   first: 2008
-  last: 2025
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -7637,7 +7637,7 @@ miyahara-toshio:
   games: 36
   core_games: 16
   first: 2008
-  last: 2018
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -7812,7 +7812,7 @@ yamamori-hisato:
   games: 35
   core_games: 16
   first: 2009
-  last: 2025
+  last: 2026
   credits:
   - game: heartgold-soulsilver
     year: 2009
@@ -7979,7 +7979,7 @@ sasaki-teiko:
   games: 17
   core_games: 16
   first: 2002
-  last: 2018
+  last: 2025
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -8683,8 +8683,8 @@ utsunomiya-takato:
   kana: うつのみや たかと
   games: 42
   core_games: 15
-  first: 2012
-  last: 2025
+  first: 2011
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -8901,7 +8901,7 @@ nardo-elena:
   games: 39
   core_games: 15
   first: 2002
-  last: 2025
+  last: 2026
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -9086,8 +9086,8 @@ matsunaga-mitsuyo:
   kana: まつなが みつよ
   games: 35
   core_games: 15
-  first: 2008
-  last: 2025
+  first: 2006
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -9264,8 +9264,8 @@ tanaka-masami:
   kana: たなか まさみ
   games: 31
   core_games: 15
-  first: 2006
-  last: 2020
+  first: 2003
+  last: 2026
   credits:
   - game: diamond-pearl
     year: 2006
@@ -9424,7 +9424,7 @@ nakajima-motoki:
   games: 28
   core_games: 15
   first: 2006
-  last: 2025
+  last: 2026
   credits:
   - game: diamond-pearl
     year: 2006
@@ -9565,7 +9565,7 @@ okada-yuki:
   games: 27
   core_games: 15
   first: 2012
-  last: 2025
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -9703,7 +9703,7 @@ furukawa-shuhei:
   games: 22
   core_games: 15
   first: 2009
-  last: 2025
+  last: 2026
   credits:
   - game: heartgold-soulsilver
     year: 2009
@@ -9823,7 +9823,7 @@ ninomiya-kei:
   games: 21
   core_games: 15
   first: 2012
-  last: 2021
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -9935,7 +9935,7 @@ tajiri-yoshio:
   games: 16
   core_games: 15
   first: 2002
-  last: 2018
+  last: 2023
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -10021,7 +10021,7 @@ mori-yuichiro:
   games: 16
   core_games: 15
   first: 2006
-  last: 2018
+  last: 2025
   credits:
   - game: diamond-pearl
     year: 2006
@@ -10425,7 +10425,7 @@ takizawa-michiko:
   games: 41
   core_games: 14
   first: 2002
-  last: 2021
+  last: 2022
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -10631,8 +10631,8 @@ sartori-marco:
   kana: マルコ サルトーリ
   games: 35
   core_games: 14
-  first: 2012
-  last: 2024
+  first: 2009
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -10790,8 +10790,8 @@ heucher-daniel:
   kana: ダニエル ホイヒャー
   games: 33
   core_games: 14
-  first: 2012
-  last: 2024
+  first: 2009
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -10953,7 +10953,7 @@ kalms-kathleen:
   games: 30
   core_games: 14
   first: 2012
-  last: 2025
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -11092,8 +11092,8 @@ ecke-michael:
   kana: ミヒャエル エッケ
   games: 30
   core_games: 14
-  first: 2012
-  last: 2025
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -11249,8 +11249,8 @@ sugimoto-atsushi:
   kana: すぎもと あつし
   games: 29
   core_games: 14
-  first: 2012
-  last: 2020
+  first: 2005
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -11409,8 +11409,8 @@ castellano-alberto-gracia:
   kana: アルベルト グラシア カステヤノ
   games: 28
   core_games: 14
-  first: 2012
-  last: 2023
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -11554,8 +11554,8 @@ elvira-enrique-joga:
   kana: エンリケ ホガ エルヴィラ
   games: 28
   core_games: 14
-  first: 2012
-  last: 2023
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -11686,7 +11686,7 @@ choi-mihwa:
   games: 25
   core_games: 14
   first: 2012
-  last: 2025
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -11804,8 +11804,8 @@ kusumoto-nami:
   kana: くすもと なみ
   games: 25
   core_games: 14
-  first: 2012
-  last: 2025
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -11944,7 +11944,7 @@ onishi-takahiro:
   games: 20
   core_games: 14
   first: 2002
-  last: 2012
+  last: 2026
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -12396,8 +12396,8 @@ he-ben-tuo:
   kana: かわもと たく
   games: 33
   core_games: 13
-  first: 2012
-  last: 2024
+  first: 2011
+  last: 2025
   credits:
   - game: black2-white2
     year: 2012
@@ -12554,7 +12554,7 @@ giusti-fabio:
   games: 31
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -12716,7 +12716,7 @@ lu-lai-dao-ying-jie:
   games: 30
   core_games: 13
   first: 2012
-  last: 2023
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -12864,8 +12864,8 @@ suriano-manuela:
   kana: マヌエラ スリアーノ
   games: 30
   core_games: 13
-  first: 2012
-  last: 2024
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -13025,7 +13025,7 @@ miguel-mariona-pera-i-de:
   games: 30
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -13182,7 +13182,7 @@ gauthier-pierre:
   games: 30
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -13339,7 +13339,7 @@ nomoto-retsuji:
   games: 29
   core_games: 13
   first: 2003
-  last: 2023
+  last: 2026
   credits:
   - game: box
     year: 2003
@@ -13480,7 +13480,7 @@ bellis-silvia-de:
   games: 29
   core_games: 13
   first: 2013
-  last: 2024
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -13618,8 +13618,8 @@ didier-guillaume:
   kana: ギヨーム ディディエ
   games: 28
   core_games: 13
-  first: 2013
-  last: 2024
+  first: 2011
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -13759,7 +13759,7 @@ scarabello-guido:
   games: 27
   core_games: 13
   first: 2013
-  last: 2024
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -13890,7 +13890,7 @@ hines-jeff:
   games: 27
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14025,7 +14025,7 @@ todo-mayu:
   games: 27
   core_games: 13
   first: 2013
-  last: 2023
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14157,7 +14157,7 @@ moelleken-sina:
   games: 27
   core_games: 13
   first: 2013
-  last: 2024
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14288,7 +14288,7 @@ andrews-marvin:
   games: 26
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14420,7 +14420,7 @@ troiani-alice:
   games: 25
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14536,7 +14536,7 @@ lee-jihye:
   games: 22
   core_games: 13
   first: 2012
-  last: 2025
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -14648,7 +14648,7 @@ candland-thomas:
   games: 22
   core_games: 13
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14754,7 +14754,7 @@ diaz-servando-doval:
   games: 21
   core_games: 13
   first: 2013
-  last: 2024
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -14859,7 +14859,7 @@ nonaka-jillian:
   games: 17
   core_games: 13
   first: 2012
-  last: 2017
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -14948,7 +14948,7 @@ murakawa-teruki:
   games: 14
   core_games: 13
   first: 1998
-  last: 2000
+  last: 2013
   credits:
   - game: yellow
     year: 1998
@@ -15079,7 +15079,7 @@ kawachimaru-takeshi:
   games: 14
   core_games: 13
   first: 2002
-  last: 2018
+  last: 2026
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -15165,8 +15165,8 @@ nomoto-gakuji:
   kana: のもと がくじ
   games: 31
   core_games: 12
-  first: 2000
-  last: 2016
+  first: 1999
+  last: 2018
   credits:
   - game: crystal
     year: 2000
@@ -15594,8 +15594,8 @@ takahashi-shinya:
   kana: たかはし しんや
   games: 27
   core_games: 12
-  first: 2003
-  last: 2025
+  first: 1998
+  last: 2026
   credits:
   - game: box
     year: 2003
@@ -15730,7 +15730,7 @@ egami-shusaku:
   games: 26
   core_games: 12
   first: 2004
-  last: 2016
+  last: 2018
   credits:
   - game: firered-leafgreen
     year: 2004
@@ -15863,7 +15863,7 @@ forgit-aymeric:
   games: 26
   core_games: 12
   first: 2014
-  last: 2025
+  last: 2026
   credits:
   - game: oras
     year: 2014
@@ -15989,7 +15989,7 @@ russell-hideko:
   games: 23
   core_games: 12
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -16105,7 +16105,7 @@ gurrea-virginia-parades:
   games: 23
   core_games: 12
   first: 2013
-  last: 2024
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -16220,7 +16220,7 @@ yoshida-maya:
   games: 20
   core_games: 12
   first: 2012
-  last: 2023
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -16324,7 +16324,7 @@ nakamichi-kimiko:
   games: 15
   core_games: 12
   first: 1998
-  last: 2010
+  last: 2014
   credits:
   - game: yellow
     year: 1998
@@ -16441,7 +16441,7 @@ jung-hyokjin:
   games: 15
   core_games: 12
   first: 2012
-  last: 2023
+  last: 2025
   credits:
   - game: dream-radar
     year: 2012
@@ -16535,7 +16535,7 @@ okata-suirei:
   games: 15
   core_games: 12
   first: 2013
-  last: 2023
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -16614,7 +16614,7 @@ ohmura-yusuke:
   games: 13
   core_games: 12
   first: 2006
-  last: 2006
+  last: 2025
   credits:
   - game: diamond-pearl
     year: 2006
@@ -16748,7 +16748,7 @@ mizutani-megumi:
   games: 13
   core_games: 12
   first: 2009
-  last: 2023
+  last: 2025
   credits:
   - game: heartgold-soulsilver
     year: 2009
@@ -17429,7 +17429,7 @@ munday-sayuri:
   games: 28
   core_games: 11
   first: 2010
-  last: 2025
+  last: 2026
   credits:
   - game: black-white
     year: 2010
@@ -17564,8 +17564,8 @@ schultz-cyril:
   kana: シリル シュールス
   games: 27
   core_games: 11
-  first: 2013
-  last: 2023
+  first: 2009
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -17702,8 +17702,8 @@ kanayama-misuzu:
   kana: かなやま みすず
   games: 26
   core_games: 11
-  first: 2010
-  last: 2023
+  first: 1999
+  last: 2025
   credits:
   - game: black-white
     year: 2010
@@ -18043,8 +18043,8 @@ byun-jieun:
   kana: ビョン ジウン
   games: 22
   core_games: 11
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18148,8 +18148,8 @@ park-youngjun:
   kana: パク ヨンジュン
   games: 22
   core_games: 11
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18254,7 +18254,7 @@ lim-jaiboem:
   games: 21
   core_games: 11
   first: 2014
-  last: 2025
+  last: 2026
   credits:
   - game: oras
     year: 2014
@@ -18360,7 +18360,7 @@ serci-francesca:
   games: 21
   core_games: 11
   first: 2016
-  last: 2024
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18459,8 +18459,8 @@ derbort-christopher:
   kana: クリストファー デルボート
   games: 20
   core_games: 11
-  first: 2016
-  last: 2024
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18556,8 +18556,8 @@ radko-ireneusz:
   kana: イレネウッシュ ラトコ
   games: 20
   core_games: 11
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18666,8 +18666,8 @@ campa-diego-luque-de-la:
   kana: ディエゴ ルーケ デ ラ カンパ
   games: 19
   core_games: 11
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18762,8 +18762,8 @@ shotaro-iwanaga:
   kana: いわなが しょうたろう
   games: 19
   core_games: 11
-  first: 2016
-  last: 2025
+  first: 2013
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18857,8 +18857,8 @@ khrissate-lylia:
   kana: リリア クリサット
   games: 18
   core_games: 11
-  first: 2016
-  last: 2021
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -18948,7 +18948,7 @@ spera-annarita:
   games: 17
   core_games: 11
   first: 2014
-  last: 2024
+  last: 2026
   credits:
   - game: oras
     year: 2014
@@ -19028,8 +19028,8 @@ ogawa-yuuta:
   kana: おがわ ゆうた
   games: 17
   core_games: 11
-  first: 2014
-  last: 2025
+  first: 2012
+  last: 2026
   credits:
   - game: oras
     year: 2014
@@ -19114,7 +19114,7 @@ kim-dongyeon:
   games: 16
   core_games: 11
   first: 2016
-  last: 2025
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -19191,7 +19191,7 @@ eo-kanako:
   games: 15
   core_games: 11
   first: 2002
-  last: 2014
+  last: 2019
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -19291,7 +19291,7 @@ sogabe-hisashi:
   games: 14
   core_games: 11
   first: 2000
-  last: 2006
+  last: 2013
   credits:
   - game: crystal
     year: 2000
@@ -19398,7 +19398,7 @@ lee-eodo:
   games: 14
   core_games: 11
   first: 2013
-  last: 2023
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -19467,7 +19467,7 @@ nakai-yuta:
   games: 13
   core_games: 11
   first: 2012
-  last: 2018
+  last: 2025
   credits:
   - game: black2-white2
     year: 2012
@@ -19564,7 +19564,7 @@ uego-yoriomi:
   games: 13
   core_games: 11
   first: 2014
-  last: 2025
+  last: 2026
   credits:
   - game: oras
     year: 2014
@@ -19633,7 +19633,7 @@ fuchino-hiroki:
   games: 12
   core_games: 11
   first: 2004
-  last: 2006
+  last: 2018
   credits:
   - game: firered-leafgreen
     year: 2004
@@ -20029,7 +20029,7 @@ nakamichi-sachiko:
   kana: なかみち さちこ
   games: 30
   core_games: 10
-  first: 2004
+  first: 1999
   last: 2016
   credits:
   - game: emerald
@@ -20178,8 +20178,8 @@ egan-sean:
   kana: null
   games: 28
   core_games: 10
-  first: 2008
-  last: 2021
+  first: 2000
+  last: 2022
   credits:
   - game: platinum
     year: 2008
@@ -20306,8 +20306,8 @@ mikami-tomoko:
   kana: みかみ ともこ
   games: 28
   core_games: 10
-  first: 2008
-  last: 2025
+  first: 2005
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -20434,8 +20434,8 @@ anazawa-masamichi:
   kana: あなざわ まさみち
   games: 26
   core_games: 10
-  first: 2012
-  last: 2023
+  first: 2004
+  last: 2025
   credits:
   - game: dream-radar
     year: 2012
@@ -20588,7 +20588,7 @@ szolas-makiko:
   games: 25
   core_games: 10
   first: 2008
-  last: 2025
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -20706,8 +20706,8 @@ preece-owen:
   kana: オーエン プリース
   games: 22
   core_games: 10
-  first: 2017
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -20821,8 +20821,8 @@ sowa-takanori:
   kana: そわ たかのり
   games: 22
   core_games: 10
-  first: 2017
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -21049,7 +21049,7 @@ fujita-osamu:
   kana: ふじた おさむ
   games: 19
   core_games: 10
-  first: 2006
+  first: 2003
   last: 2021
   credits:
   - game: diamond-pearl
@@ -21145,7 +21145,7 @@ cuadra-jesus-gutierrez:
   games: 19
   core_games: 10
   first: 2012
-  last: 2023
+  last: 2025
   credits:
   - game: black2-white2
     year: 2012
@@ -21233,8 +21233,8 @@ obora-shoichi:
   kana: おおぼら しょういち
   games: 19
   core_games: 10
-  first: 2016
-  last: 2025
+  first: 2011
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -21333,7 +21333,7 @@ huang-chungte:
   games: 18
   core_games: 10
   first: 2016
-  last: 2024
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -21421,8 +21421,8 @@ couvert-altan:
   kana: アルタン クーベール
   games: 17
   core_games: 10
-  first: 2017
-  last: 2025
+  first: 2016
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -21506,7 +21506,7 @@ payne-rachel:
   games: 16
   core_games: 10
   first: 2013
-  last: 2023
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -21585,7 +21585,7 @@ ohta-satoshi:
   games: 15
   core_games: 10
   first: 1996
-  last: 2006
+  last: 2009
   credits:
   - game: blue-jp
     year: 1996
@@ -21677,7 +21677,7 @@ nakagawa-noriko:
   games: 15
   core_games: 10
   first: 2013
-  last: 2025
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -21755,7 +21755,7 @@ rayes-mary:
   games: 14
   core_games: 10
   first: 2013
-  last: 2023
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -21827,7 +21827,7 @@ stephens-dan:
   games: 14
   core_games: 10
   first: 2016
-  last: 2023
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -21895,7 +21895,7 @@ nakamura-hiro:
   games: 13
   core_games: 10
   first: 2000
-  last: 2005
+  last: 2014
   credits:
   - game: crystal
     year: 2000
@@ -21980,7 +21980,7 @@ ming-xu:
   games: 13
   core_games: 10
   first: 2016
-  last: 2025
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -22048,7 +22048,7 @@ yamamoto-soichi:
   games: 11
   core_games: 10
   first: 2002
-  last: 2017
+  last: 2019
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -22126,7 +22126,7 @@ ono-katsumi:
   games: 11
   core_games: 10
   first: 2006
-  last: 2014
+  last: 2022
   credits:
   - game: diamond-pearl
     year: 2006
@@ -22808,8 +22808,8 @@ shi-jia-chun-zi:
   kana: うじいえ あつこ
   games: 27
   core_games: 9
-  first: 2013
-  last: 2023
+  first: 1998
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -22962,7 +22962,7 @@ thon-claudia:
   games: 23
   core_games: 9
   first: 2013
-  last: 2021
+  last: 2022
   credits:
   - game: x-y
     year: 2013
@@ -23075,7 +23075,7 @@ arai-kenichi:
   kana: あらい けんいち
   games: 22
   core_games: 9
-  first: 2006
+  first: 2005
   last: 2023
   credits:
   - game: diamond-pearl
@@ -23401,8 +23401,8 @@ aoki-kaori:
   kana: あおき かおり
   games: 19
   core_games: 9
-  first: 2018
-  last: 2025
+  first: 2016
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -23499,8 +23499,8 @@ inage-toru:
   kana: いなげ とおる
   games: 18
   core_games: 9
-  first: 2008
-  last: 2020
+  first: 2005
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -23596,8 +23596,8 @@ oshu-ritsuko:
   kana: おうしゅう りつこ
   games: 18
   core_games: 9
-  first: 2018
-  last: 2024
+  first: 2016
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -23779,7 +23779,7 @@ schweinzer-barbara:
   games: 17
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -23859,7 +23859,7 @@ linnenweber-alina-2:
   games: 16
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -23935,7 +23935,7 @@ genestar-irene-mascaro:
   games: 16
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24011,7 +24011,7 @@ menale-valentina:
   games: 16
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24158,7 +24158,7 @@ pirruccio-guendalina:
   games: 15
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24230,7 +24230,7 @@ locatelli-marco:
   games: 15
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24301,8 +24301,8 @@ vallee-marine:
   kana: マリーン ヴァレ
   games: 14
   core_games: 9
-  first: 2018
-  last: 2025
+  first: 2015
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24398,7 +24398,7 @@ furukawa-shuntaro:
   games: 14
   core_games: 9
   first: 2018
-  last: 2025
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24471,7 +24471,7 @@ giang-violette:
   games: 14
   core_games: 9
   first: 2018
-  last: 2024
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24539,8 +24539,8 @@ hirobe-keita:
   kana: ひろべ けいた
   games: 13
   core_games: 9
-  first: 2017
-  last: 2024
+  first: 2016
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -24612,8 +24612,8 @@ takahashi-yasuko:
   kana: たかはし やすこ
   games: 13
   core_games: 9
-  first: 2018
-  last: 2023
+  first: 2003
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24846,8 +24846,8 @@ williamsbrown-shawn:
   kana: ショーン ウィリアムズ ブラウン
   games: 12
   core_games: 9
-  first: 2017
-  last: 2023
+  first: 2016
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -24910,7 +24910,7 @@ wakai-makiko:
   games: 12
   core_games: 9
   first: 2018
-  last: 2023
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -24974,7 +24974,7 @@ ota-takenori:
   games: 11
   core_games: 9
   first: 1996
-  last: 1999
+  last: 2006
   credits:
   - game: red-green
     year: 1996
@@ -25049,8 +25049,8 @@ zhong-guang-jian-wu:
   kana: なかひろ けんご
   games: 11
   core_games: 9
-  first: 2013
-  last: 2023
+  first: 2011
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -25114,7 +25114,7 @@ calvo-pablo-gismero:
   games: 11
   core_games: 9
   first: 2013
-  last: 2016
+  last: 2026
   credits:
   - game: x-y
     year: 2013
@@ -25173,7 +25173,7 @@ na-kyoungim:
   games: 11
   core_games: 9
   first: 2014
-  last: 2025
+  last: 2026
   credits:
   - game: oras
     year: 2014
@@ -25714,7 +25714,7 @@ tanaka-hirokazu:
   kana: たなか ひろかず
   games: 21
   core_games: 8
-  first: 2012
+  first: 2003
   last: 2024
   credits:
   - game: dream-radar
@@ -26003,7 +26003,7 @@ medalle-eric:
   games: 19
   core_games: 8
   first: 2008
-  last: 2015
+  last: 2016
   credits:
   - game: platinum
     year: 2008
@@ -26094,7 +26094,7 @@ nishimura-kentaro:
   games: 18
   core_games: 8
   first: 1998
-  last: 2021
+  last: 2022
   credits:
   - game: yellow
     year: 1998
@@ -26181,8 +26181,8 @@ suenaga-yasunori:
   kana: すえなが やすのり
   games: 18
   core_games: 8
-  first: 2018
-  last: 2025
+  first: 2011
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -26368,7 +26368,7 @@ sakurai-yuuri:
   games: 17
   core_games: 8
   first: 2002
-  last: 2011
+  last: 2012
   credits:
   - game: ruby-sapphire
     year: 2002
@@ -26540,7 +26540,7 @@ colling-robert:
   kana: ロバート コリング
   games: 17
   core_games: 8
-  first: 2016
+  first: 2015
   last: 2023
   credits:
   - game: sun-moon
@@ -26629,7 +26629,7 @@ pak-dongun:
   games: 16
   core_games: 8
   first: 2019
-  last: 2025
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -26708,8 +26708,8 @@ albrito-daniele:
   kana: null
   games: 15
   core_games: 8
-  first: 2012
-  last: 2023
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -26782,7 +26782,7 @@ bagley-peter:
   games: 15
   core_games: 8
   first: 2019
-  last: 2025
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -26862,8 +26862,8 @@ juterbock-sophie:
   kana: ソフィー ユータボック
   games: 15
   core_games: 8
-  first: 2019
-  last: 2024
+  first: 2018
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -26939,8 +26939,8 @@ fujiwara-hiroki:
   kana: ふじわら ひろき
   games: 14
   core_games: 8
-  first: 2013
-  last: 2015
+  first: 2008
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -27024,8 +27024,8 @@ masaya-ishizuka:
   kana: いしづか まさや
   games: 14
   core_games: 8
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -27101,7 +27101,7 @@ riomao-ruben-lado:
   games: 14
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -27173,7 +27173,7 @@ aota-yoshiko:
   games: 14
   core_games: 8
   first: 2019
-  last: 2025
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -27246,7 +27246,7 @@ kageyama-shota:
   games: 13
   core_games: 8
   first: 2009
-  last: 2023
+  last: 2025
   credits:
   - game: heartgold-soulsilver
     year: 2009
@@ -27344,8 +27344,8 @@ misawa-takafumi:
   kana: みさわ たかふみ
   games: 13
   core_games: 8
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2023
   credits:
   - game: x-y
     year: 2013
@@ -27416,7 +27416,7 @@ vassallo-hannah:
   games: 13
   core_games: 8
   first: 2018
-  last: 2023
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -27486,8 +27486,8 @@ minato-kyohei:
   kana: みなと きょうへい
   games: 13
   core_games: 8
-  first: 2018
-  last: 2025
+  first: 2014
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -27555,8 +27555,8 @@ bethencourt-matthieu:
   kana: マテュー ベタンクール
   games: 13
   core_games: 8
-  first: 2018
-  last: 2024
+  first: 2015
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -27629,8 +27629,8 @@ nakazawa-rei:
   kana: レイ なかざわ
   games: 13
   core_games: 8
-  first: 2018
-  last: 2020
+  first: 2016
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -27698,7 +27698,7 @@ mendoza-alicia-iribarren:
   games: 13
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -27761,7 +27761,7 @@ maibach-carolin:
   games: 13
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -27826,7 +27826,7 @@ jimenez-juan-jose-leiva:
   games: 13
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -27890,7 +27890,7 @@ yoshikawa-rena:
   games: 12
   core_games: 8
   first: 1996
-  last: 2005
+  last: 2009
   credits:
   - game: blue-jp
     year: 1996
@@ -27958,7 +27958,7 @@ vanin-jacopo:
   games: 12
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -28018,7 +28018,7 @@ bianchi-sergio:
   games: 12
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -28082,7 +28082,7 @@ vaterhaus-sira:
   games: 12
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -28145,8 +28145,8 @@ gouhara-hiroaki:
   kana: ごうはら ひろあき
   games: 11
   core_games: 8
-  first: 2018
-  last: 2025
+  first: 2013
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -28208,7 +28208,7 @@ haberberg-rei:
   games: 11
   core_games: 8
   first: 2018
-  last: 2023
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -28266,8 +28266,8 @@ iwasaki-yuriko:
   kana: いわさき ゆりこ
   games: 11
   core_games: 8
-  first: 2018
-  last: 2023
+  first: 2016
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -28327,7 +28327,7 @@ lopez-edith-belarra:
   games: 11
   core_games: 8
   first: 2019
-  last: 2021
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -28382,7 +28382,7 @@ verpoort-elodie:
   games: 11
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -28443,7 +28443,7 @@ sindres-nicolas:
   games: 11
   core_games: 8
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -28499,7 +28499,7 @@ mukai-toshio:
   games: 10
   core_games: 8
   first: 2008
-  last: 2010
+  last: 2017
   credits:
   - game: platinum
     year: 2008
@@ -28556,7 +28556,7 @@ tatsuno-rie:
   games: 10
   core_games: 8
   first: 2014
-  last: 2016
+  last: 2025
   credits:
   - game: oras
     year: 2014
@@ -28663,7 +28663,7 @@ hosaka-genya:
   games: 9
   core_games: 8
   first: 2009
-  last: 2018
+  last: 2026
   credits:
   - game: heartgold-soulsilver
     year: 2009
@@ -28717,8 +28717,8 @@ fujita-chisato:
   kana: ふじた ちさと
   games: 9
   core_games: 8
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -28771,7 +28771,7 @@ sakuma-tomomi:
   games: 9
   core_games: 8
   first: 2013
-  last: 2016
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -28825,7 +28825,7 @@ higa-romanov:
   games: 9
   core_games: 8
   first: 2016
-  last: 2021
+  last: 2025
   credits:
   - game: sun-moon
     year: 2016
@@ -28884,7 +28884,7 @@ ichikawa-tsuyoshi:
   games: 9
   core_games: 8
   first: 2016
-  last: 2018
+  last: 2025
   credits:
   - game: sun-moon
     year: 2016
@@ -29769,7 +29769,7 @@ lecocq-bertrand:
   kana: ベルトラン ルコック
   games: 23
   core_games: 7
-  first: 2012
+  first: 2009
   last: 2020
   credits:
   - game: dream-radar
@@ -29882,7 +29882,7 @@ sawabe-nobuhiro:
   kana: さわべ のぶひろ
   games: 23
   core_games: 7
-  first: 2012
+  first: 2011
   last: 2020
   credits:
   - game: dream-radar
@@ -29993,7 +29993,7 @@ itani-kiyomi:
   kana: いたに きよみ
   games: 21
   core_games: 7
-  first: 2008
+  first: 2003
   last: 2014
   credits:
   - game: platinum
@@ -30204,8 +30204,8 @@ kawaguchi-rui:
   kana: かわぐち るい
   games: 20
   core_games: 7
-  first: 2004
-  last: 2025
+  first: 2003
+  last: 2026
   credits:
   - game: firered-leafgreen
     year: 2004
@@ -30306,8 +30306,8 @@ hasegawa-tadasu:
   kana: はせがわ ただす
   games: 20
   core_games: 7
-  first: 2016
-  last: 2021
+  first: 2013
+  last: 2022
   credits:
   - game: sun-moon
     year: 2016
@@ -30495,7 +30495,7 @@ mima-masafumi:
   kana: みま まさふみ
   games: 17
   core_games: 7
-  first: 2013
+  first: 2003
   last: 2023
   credits:
   - game: x-y
@@ -30589,8 +30589,8 @@ grana-eva-rodriguez:
   kana: null
   games: 16
   core_games: 7
-  first: 2016
-  last: 2024
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -30668,8 +30668,8 @@ sakuma-takashi:
   kana: さくま たかし
   games: 15
   core_games: 7
-  first: 2013
-  last: 2016
+  first: 1998
+  last: 2023
   credits:
   - game: x-y
     year: 2013
@@ -30749,7 +30749,7 @@ yoshimoto-sho:
   kana: よしもと しょう
   games: 14
   core_games: 7
-  first: 2017
+  first: 2015
   last: 2024
   credits:
   - game: usum
@@ -30830,8 +30830,8 @@ tamura-junko:
   kana: たむら じゅんこ
   games: 14
   core_games: 7
-  first: 2018
-  last: 2024
+  first: 2016
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -31049,7 +31049,7 @@ gruden-marco:
   games: 13
   core_games: 7
   first: 2013
-  last: 2021
+  last: 2022
   credits:
   - game: x-y
     year: 2013
@@ -31112,8 +31112,8 @@ sugiyama-masafumi:
   kana: すぎやま まさふみ
   games: 12
   core_games: 7
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -31186,7 +31186,7 @@ niederwanger-juliana:
   games: 12
   core_games: 7
   first: 2018
-  last: 2025
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -31246,7 +31246,7 @@ han-jooyeon:
   games: 12
   core_games: 7
   first: 2021
-  last: 2025
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -31309,8 +31309,8 @@ hidaka-hiromichi:
   kana: ひだか ひろみち
   games: 11
   core_games: 7
-  first: 2013
-  last: 2021
+  first: 2009
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -31370,8 +31370,8 @@ takahashi-yousuke:
   kana: たかはし ようすけ
   games: 11
   core_games: 7
-  first: 2013
-  last: 2021
+  first: 2009
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -31431,8 +31431,8 @@ ryer-julia:
   kana: ジュリア ライヤー
   games: 11
   core_games: 7
-  first: 2019
-  last: 2020
+  first: 2016
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -31492,7 +31492,7 @@ marusich-yoriko:
   games: 11
   core_games: 7
   first: 2019
-  last: 2023
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -31552,8 +31552,8 @@ liao-endai:
   kana: りょう おんだい
   games: 11
   core_games: 7
-  first: 2021
-  last: 2025
+  first: 2020
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -31607,8 +31607,8 @@ evans-kendra:
   kana: ケンドラ エヴァンズ
   games: 11
   core_games: 7
-  first: 2021
-  last: 2024
+  first: 2020
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -31672,8 +31672,8 @@ ota-nobuyuki:
   kana: おおた のぶゆき
   games: 11
   core_games: 7
-  first: 2021
-  last: 2024
+  first: 2020
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -31737,8 +31737,8 @@ nonaka-toyokazu:
   kana: のなか とよかず
   games: 11
   core_games: 7
-  first: 2021
-  last: 2025
+  first: 2020
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -31798,7 +31798,7 @@ figaredo-diego:
   games: 10
   core_games: 7
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -31858,7 +31858,7 @@ wang-yuwen:
   games: 10
   core_games: 7
   first: 2019
-  last: 2025
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -31909,8 +31909,8 @@ kryvinskyj-aurelie:
   kana: オレリー クリヴィンスキ
   games: 10
   core_games: 7
-  first: 2021
-  last: 2024
+  first: 2020
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -31963,7 +31963,7 @@ matsumoto-misa:
   games: 10
   core_games: 7
   first: 2021
-  last: 2025
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -32017,7 +32017,7 @@ wakamatsu-koichiro:
   kana: わかまつ こういちろう
   games: 9
   core_games: 7
-  first: 2013
+  first: 2012
   last: 2023
   credits:
   - game: x-y
@@ -32070,7 +32070,7 @@ otsuka-noritaka:
   games: 9
   core_games: 7
   first: 2014
-  last: 2021
+  last: 2022
   credits:
   - game: oras
     year: 2014
@@ -32172,8 +32172,8 @@ furuta-shohei:
   kana: ふるた しょうへい
   games: 9
   core_games: 7
-  first: 2016
-  last: 2016
+  first: 2015
+  last: 2023
   credits:
   - game: sun-moon
     year: 2016
@@ -32223,7 +32223,7 @@ gambini-leslie:
   games: 9
   core_games: 7
   first: 2021
-  last: 2024
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -32272,8 +32272,8 @@ asaoka-yohei:
   kana: あさおか ようへい
   games: 8
   core_games: 7
-  first: 2012
-  last: 2010
+  first: 2010
+  last: 2023
   credits:
   - game: black2-white2
     year: 2012
@@ -32323,7 +32323,7 @@ qi-tian-he-sheng:
   games: 8
   core_games: 7
   first: 2013
-  last: 2018
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -32372,8 +32372,8 @@ maeda-sakiko:
   kana: まえだ さきこ
   games: 8
   core_games: 7
-  first: 2014
-  last: 2011
+  first: 2011
+  last: 2022
   credits:
   - game: oras
     year: 2014
@@ -32447,7 +32447,7 @@ setoguchi-kei:
   games: 8
   core_games: 7
   first: 2016
-  last: 2018
+  last: 2025
   credits:
   - game: sun-moon
     year: 2016
@@ -32498,7 +32498,7 @@ pradier-noemie:
   games: 8
   core_games: 7
   first: 2019
-  last: 2021
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -32542,7 +32542,7 @@ garel-thomas:
   games: 8
   core_games: 7
   first: 2021
-  last: 2021
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -32587,7 +32587,7 @@ yijun-chen:
   games: 8
   core_games: 7
   first: 2021
-  last: 2023
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -33868,7 +33868,7 @@ hanawa-ryosuke:
   games: 26
   core_games: 6
   first: 2008
-  last: 2025
+  last: 2026
   credits:
   - game: platinum
     year: 2008
@@ -34348,8 +34348,8 @@ cottrell-makiko:
   kana: null
   games: 14
   core_games: 6
-  first: 2012
-  last: 2018
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -34420,7 +34420,7 @@ gu-gu-xiang:
   games: 14
   core_games: 6
   first: 2012
-  last: 2023
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -34499,7 +34499,7 @@ kajiwara-ayako:
   kana: かじわら あやこ
   games: 13
   core_games: 6
-  first: 2008
+  first: 2003
   last: 2017
   credits:
   - game: platinum
@@ -34573,7 +34573,7 @@ uhlen-laurence:
   kana: null
   games: 13
   core_games: 6
-  first: 2012
+  first: 2011
   last: 2025
   credits:
   - game: dream-radar
@@ -34637,8 +34637,8 @@ franc-chris:
   kana: クリス フランク
   games: 13
   core_games: 6
-  first: 2017
-  last: 2023
+  first: 2016
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -34705,8 +34705,8 @@ hsu-minyu:
   kana: null
   games: 13
   core_games: 6
-  first: 2017
-  last: 2023
+  first: 2016
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -34771,8 +34771,8 @@ bales-michael:
   kana: マイケル ベールス
   games: 13
   core_games: 6
-  first: 2019
-  last: 2023
+  first: 2015
+  last: 2025
   credits:
   - game: sword-shield
     year: 2019
@@ -34840,7 +34840,7 @@ araki-hideaki:
   games: 12
   core_games: 6
   first: 2008
-  last: 2013
+  last: 2025
   credits:
   - game: platinum
     year: 2008
@@ -34909,7 +34909,7 @@ hertzog-tom:
   kana: null
   games: 12
   core_games: 6
-  first: 2009
+  first: 2000
   last: 2023
   credits:
   - game: heartgold-soulsilver
@@ -34976,8 +34976,8 @@ mochida-keiko:
   kana: もちだ けいこ
   games: 12
   core_games: 6
-  first: 2021
-  last: 2023
+  first: 2018
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -35041,7 +35041,7 @@ bounouar-ahmed:
   kana: null
   games: 11
   core_games: 6
-  first: 2013
+  first: 2009
   last: 2023
   credits:
   - game: x-y
@@ -35097,8 +35097,8 @@ hata-masataka:
   kana: はた まさたか
   games: 11
   core_games: 6
-  first: 2013
-  last: 2016
+  first: 2011
+  last: 2022
   credits:
   - game: x-y
     year: 2013
@@ -35169,8 +35169,8 @@ bonnal-olivia:
   kana: オリビア ボナル
   games: 11
   core_games: 6
-  first: 2017
-  last: 2021
+  first: 2015
+  last: 2022
   credits:
   - game: usum
     year: 2017
@@ -35230,7 +35230,7 @@ vargasfarias-pindaro:
   games: 11
   core_games: 6
   first: 2018
-  last: 2024
+  last: 2025
   credits:
   - game: lets-go
     year: 2018
@@ -35284,8 +35284,8 @@ ammerman-lauren:
   kana: ローレン アママン
   games: 11
   core_games: 6
-  first: 2021
-  last: 2025
+  first: 2020
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -35400,7 +35400,7 @@ saito-muneo:
   games: 10
   core_games: 6
   first: 1999
-  last: 2005
+  last: 2009
   credits:
   - game: gold-silver
     year: 1999
@@ -35516,8 +35516,8 @@ fukaya-suguru:
   kana: ふかや すぐる
   games: 10
   core_games: 6
-  first: 2013
-  last: 2016
+  first: 2011
+  last: 2025
   credits:
   - game: x-y
     year: 2013
@@ -35575,7 +35575,7 @@ eunbi-jo:
   kana: ジョ ウンビ
   games: 10
   core_games: 6
-  first: 2017
+  first: 2015
   last: 2023
   credits:
   - game: usum
@@ -35629,7 +35629,7 @@ chyan-alison:
   games: 10
   core_games: 6
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -35688,8 +35688,8 @@ tsai-huiying:
   kana: さい きえい
   games: 10
   core_games: 6
-  first: 2022
-  last: 2025
+  first: 2021
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -35741,7 +35741,7 @@ otawara-kaoru:
   games: 10
   core_games: 6
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -35848,7 +35848,7 @@ ishikawa-mikihiro:
   games: 9
   core_games: 6
   first: 2000
-  last: 2009
+  last: 2012
   credits:
   - game: crystal
     year: 2000
@@ -35910,7 +35910,7 @@ yoshihara-kazuki:
   games: 9
   core_games: 6
   first: 2004
-  last: 2009
+  last: 2010
   credits:
   - game: firered-leafgreen
     year: 2004
@@ -35970,7 +35970,7 @@ yamaguchi-ryo:
   games: 9
   core_games: 6
   first: 2006
-  last: 2009
+  last: 2013
   credits:
   - game: diamond-pearl
     year: 2006
@@ -36023,7 +36023,7 @@ yoneda-toya:
   games: 9
   core_games: 6
   first: 2009
-  last: 2012
+  last: 2016
   credits:
   - game: heartgold-soulsilver
     year: 2009
@@ -36127,7 +36127,7 @@ jende-sebastian:
   games: 9
   core_games: 6
   first: 2013
-  last: 2018
+  last: 2022
   credits:
   - game: x-y
     year: 2013
@@ -36174,7 +36174,7 @@ olsson-bryan:
   games: 9
   core_games: 6
   first: 2014
-  last: 2018
+  last: 2022
   credits:
   - game: oras
     year: 2014
@@ -36228,8 +36228,8 @@ suzuki-hitomi:
   kana: すずき ひとみ
   games: 9
   core_games: 6
-  first: 2017
-  last: 2023
+  first: 2003
+  last: 2025
   credits:
   - game: usum
     year: 2017
@@ -36286,7 +36286,7 @@ watanabe-izumi:
   games: 9
   core_games: 6
   first: 2019
-  last: 2024
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -36340,7 +36340,7 @@ pietsch-jackson:
   games: 9
   core_games: 6
   first: 2019
-  last: 2025
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -36390,8 +36390,8 @@ jacqueminguillaume-olivier:
   kana: オリビエ ジャックマン ギヨーム
   games: 9
   core_games: 6
-  first: 2019
-  last: 2023
+  first: 2015
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -36439,7 +36439,7 @@ kurosaki-ryosuke:
   games: 9
   core_games: 6
   first: 2019
-  last: 2023
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -36490,8 +36490,8 @@ emmerich-lina:
   kana: リナ エメリッヒ
   games: 9
   core_games: 6
-  first: 2022
-  last: 2024
+  first: 2020
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -36544,7 +36544,7 @@ iwashita-asuka:
   games: 8
   core_games: 6
   first: 1999
-  last: 2005
+  last: 2009
   credits:
   - game: gold-silver
     year: 1999
@@ -36603,7 +36603,7 @@ okutani-jun:
   games: 8
   core_games: 6
   first: 1999
-  last: 2005
+  last: 2009
   credits:
   - game: gold-silver
     year: 1999
@@ -36803,7 +36803,7 @@ peng-yi:
   games: 8
   core_games: 6
   first: 2016
-  last: 2018
+  last: 2022
   credits:
   - game: sun-moon
     year: 2016
@@ -36854,7 +36854,7 @@ pedini-mark:
   games: 8
   core_games: 6
   first: 2018
-  last: 2023
+  last: 2025
   credits:
   - game: lets-go
     year: 2018
@@ -36898,7 +36898,7 @@ matsuzaki-junpei:
   games: 8
   core_games: 6
   first: 2019
-  last: 2021
+  last: 2026
   credits:
   - game: sword-shield
     year: 2019
@@ -36944,8 +36944,8 @@ lin-yencheng:
   kana: りん えんじょう
   games: 8
   core_games: 6
-  first: 2021
-  last: 2024
+  first: 2019
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -36992,7 +36992,7 @@ fest-caroline:
   games: 8
   core_games: 6
   first: 2022
-  last: 2024
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -37041,7 +37041,7 @@ orikata-takashi:
   games: 7
   core_games: 6
   first: 2010
-  last: 2012
+  last: 2019
   credits:
   - game: black-white
     year: 2010
@@ -37082,7 +37082,7 @@ song-qi-yi:
   games: 7
   core_games: 6
   first: 2012
-  last: 2018
+  last: 2019
   credits:
   - game: black2-white2
     year: 2012
@@ -37129,7 +37129,7 @@ kosaka-shin:
   games: 7
   core_games: 6
   first: 2013
-  last: 2014
+  last: 2022
   credits:
   - game: x-y
     year: 2013
@@ -37173,8 +37173,8 @@ koch-michaela:
   kana: ミヒャエラ コッホ
   games: 7
   core_games: 6
-  first: 2018
-  last: 2016
+  first: 2016
+  last: 2026
   credits:
   - game: lets-go
     year: 2018
@@ -37213,7 +37213,7 @@ bramer-derk:
   games: 7
   core_games: 6
   first: 2021
-  last: 2023
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -38391,7 +38391,7 @@ koga-kenichi:
   kana: こが けんいち
   games: 22
   core_games: 5
-  first: 2012
+  first: 2005
   last: 2024
   credits:
   - game: dream-radar
@@ -38500,8 +38500,8 @@ hayakawa-hirotaka:
   kana: はやかわ ひろたか
   games: 18
   core_games: 5
-  first: 2016
-  last: 2025
+  first: 2014
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -38602,7 +38602,7 @@ netley-noriko:
   games: 17
   core_games: 5
   first: 2004
-  last: 2015
+  last: 2016
   credits:
   - game: emerald
     year: 2004
@@ -38781,7 +38781,7 @@ hugot-michael:
   kana: ミカエル ユーゴ
   games: 14
   core_games: 5
-  first: 2008
+  first: 2003
   last: 2014
   credits:
   - game: platinum
@@ -38852,8 +38852,8 @@ majima-miku:
   kana: まじま みく
   games: 14
   core_games: 5
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2019
   credits:
   - game: x-y
     year: 2013
@@ -38937,8 +38937,8 @@ arai-kensuke:
   kana: あらい けんすけ
   games: 13
   core_games: 5
-  first: 2022
-  last: 2025
+  first: 2016
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -39006,8 +39006,8 @@ kasugayama-akiko:
   kana: かすがやま あきこ
   games: 12
   core_games: 5
-  first: 2017
-  last: 2021
+  first: 2015
+  last: 2022
   credits:
   - game: usum
     year: 2017
@@ -39068,8 +39068,8 @@ yoshikawa-shinichi:
   kana: よしかわ しんいち
   games: 12
   core_games: 5
-  first: 2022
-  last: 2005
+  first: 1998
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -39200,7 +39200,7 @@ izushi-takehiro:
   games: 11
   core_games: 5
   first: 1998
-  last: 2003
+  last: 2004
   credits:
   - game: yellow
     year: 1998
@@ -39332,7 +39332,7 @@ nakata-kayo:
   games: 11
   core_games: 5
   first: 2012
-  last: 2024
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -39402,8 +39402,8 @@ gose-andy:
   kana: アンディ ゴース
   games: 11
   core_games: 5
-  first: 2022
-  last: 2025
+  first: 2016
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -39472,7 +39472,7 @@ fey-andy:
   games: 10
   core_games: 5
   first: 1998
-  last: 2012
+  last: 2013
   credits:
   - game: yellow
     year: 1998
@@ -39576,7 +39576,7 @@ oneill-bridget:
   games: 10
   core_games: 5
   first: 2008
-  last: 2011
+  last: 2014
   credits:
   - game: platinum
     year: 2008
@@ -39686,8 +39686,8 @@ clark-bryson:
   kana: ブライソン クラーク
   games: 10
   core_games: 5
-  first: 2016
-  last: 2024
+  first: 2015
+  last: 2025
   credits:
   - game: sun-moon
     year: 2016
@@ -39749,8 +39749,8 @@ soma-akiko:
   kana: そうま あきこ
   games: 10
   core_games: 5
-  first: 2017
-  last: 2016
+  first: 2014
+  last: 2023
   credits:
   - game: usum
     year: 2017
@@ -39816,8 +39816,8 @@ petit-jerome:
   kana: ジェローム プティ
   games: 9
   core_games: 5
-  first: 2012
-  last: 2020
+  first: 2011
+  last: 2026
   credits:
   - game: dream-radar
     year: 2012
@@ -39863,8 +39863,8 @@ kirschenmann-edwin:
   kana: エドヴィン キールシェンマン
   games: 9
   core_games: 5
-  first: 2016
-  last: 2023
+  first: 2015
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -39911,8 +39911,8 @@ ito-jun:
   kana: いとう じゅん
   games: 9
   core_games: 5
-  first: 2016
-  last: 2012
+  first: 2009
+  last: 2025
   credits:
   - game: sun-moon
     year: 2016
@@ -40041,8 +40041,8 @@ fortes-alex:
   kana: アレックス フォルテス
   games: 9
   core_games: 5
-  first: 2022
-  last: 2025
+  first: 2020
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40090,7 +40090,7 @@ ganster-amy:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40146,7 +40146,7 @@ hartpence-andy:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40202,7 +40202,7 @@ bae-byunghun:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40253,7 +40253,7 @@ murphy-peter:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40309,7 +40309,7 @@ long-phaedra:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40365,7 +40365,7 @@ enticknap-richie:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40421,7 +40421,7 @@ okiura-taito:
   games: 9
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -40623,8 +40623,8 @@ motoki-yasuko:
   kana: もとき やすこ
   games: 8
   core_games: 5
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2022
   credits:
   - game: x-y
     year: 2013
@@ -40672,7 +40672,7 @@ koyama-takashi:
   games: 8
   core_games: 5
   first: 2016
-  last: 2020
+  last: 2026
   credits:
   - game: sun-moon
     year: 2016
@@ -40760,7 +40760,7 @@ garcia-jorge-heras:
   games: 8
   core_games: 5
   first: 2017
-  last: 2023
+  last: 2026
   credits:
   - game: usum
     year: 2017
@@ -40804,7 +40804,7 @@ buchanan-kirk:
   games: 8
   core_games: 5
   first: 2018
-  last: 2021
+  last: 2022
   credits:
   - game: lets-go
     year: 2018
@@ -40849,7 +40849,7 @@ eiju-umemura:
   kana: うめむら えいじゅう
   games: 8
   core_games: 5
-  first: 2019
+  first: 2018
   last: 2023
   credits:
   - game: sword-shield
@@ -41028,7 +41028,7 @@ wang-yue:
   games: 7
   core_games: 5
   first: 2019
-  last: 2021
+  last: 2025
   credits:
   - game: sword-shield
     year: 2019
@@ -41077,7 +41077,7 @@ wells-pat:
   games: 7
   core_games: 5
   first: 2021
-  last: 2023
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -41118,8 +41118,8 @@ schiotis-robert:
   kana: ロバート ショーティス
   games: 7
   core_games: 5
-  first: 2022
-  last: 2023
+  first: 2021
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -41161,7 +41161,7 @@ matsunaga-miyuki:
   games: 6
   core_games: 5
   first: 2012
-  last: 2015
+  last: 2025
   credits:
   - game: black2-white2
     year: 2012
@@ -41199,7 +41199,7 @@ taniguchi-teruo:
   games: 6
   core_games: 5
   first: 2012
-  last: 2018
+  last: 2025
   credits:
   - game: black2-white2
     year: 2012
@@ -41242,8 +41242,8 @@ jinyoung-sung:
   kana: ソン ジンヨン
   games: 6
   core_games: 5
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2019
   credits:
   - game: x-y
     year: 2013
@@ -41279,8 +41279,8 @@ inoue-natsumi:
   kana: いのうえ なつみ
   games: 6
   core_games: 5
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2019
   credits:
   - game: x-y
     year: 2013
@@ -41325,7 +41325,7 @@ song-inseon:
   games: 6
   core_games: 5
   first: 2016
-  last: 2018
+  last: 2021
   credits:
   - game: sun-moon
     year: 2016
@@ -41359,8 +41359,8 @@ shimizu-kazuto:
   kana: しみず かずと
   games: 6
   core_games: 5
-  first: 2016
-  last: 2015
+  first: 2015
+  last: 2025
   credits:
   - game: sun-moon
     year: 2016
@@ -41398,8 +41398,8 @@ oto-ryotaro:
   kana: おおと りょうたろう
   games: 6
   core_games: 5
-  first: 2016
-  last: 2011
+  first: 2011
+  last: 2023
   credits:
   - game: sun-moon
     year: 2016
@@ -41435,8 +41435,8 @@ endo-hayato:
   kana: えんどう はやと
   games: 6
   core_games: 5
-  first: 2017
-  last: 2015
+  first: 2015
+  last: 2023
   credits:
   - game: usum
     year: 2017
@@ -41474,7 +41474,7 @@ matsumura-ai:
   games: 6
   core_games: 5
   first: 2019
-  last: 2021
+  last: 2025
   credits:
   - game: sword-shield
     year: 2019
@@ -41513,7 +41513,7 @@ yamato-asuka:
   games: 6
   core_games: 5
   first: 2019
-  last: 2021
+  last: 2025
   credits:
   - game: sword-shield
     year: 2019
@@ -41552,7 +41552,7 @@ yoda-maria:
   games: 6
   core_games: 5
   first: 2019
-  last: 2021
+  last: 2025
   credits:
   - game: sword-shield
     year: 2019
@@ -41591,7 +41591,7 @@ holzhausen-mika:
   games: 6
   core_games: 5
   first: 2021
-  last: 2023
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -41629,8 +41629,8 @@ mihashi-terry:
   kana: みはし テリー
   games: 6
   core_games: 5
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -41668,7 +41668,7 @@ fukushima-tomoki:
   games: 6
   core_games: 5
   first: 2022
-  last: 2025
+  last: 2026
   credits:
   - game: scarlet-violet
     year: 2022
@@ -43496,8 +43496,8 @@ uematsu-shunsuke:
   kana: うえまつ しゅんすけ
   games: 9
   core_games: 4
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2017
   credits:
   - game: x-y
     year: 2013
@@ -43563,7 +43563,7 @@ saito-shinya:
   games: 6
   core_games: 4
   first: 2023
-  last: 2025
+  last: 2026
   credits:
   - game: area-zero
     year: 2023
@@ -43656,8 +43656,8 @@ nakajima-tetsuya:
   kana: なかじま てつや
   games: 5
   core_games: 4
-  first: 2019
-  last: 2016
+  first: 2016
+  last: 2023
   credits:
   - game: sword-shield
     year: 2019
@@ -44329,7 +44329,7 @@ murata-kanako:
   games: 6
   core_games: 3
   first: 2012
-  last: 2017
+  last: 2026
   credits:
   - game: black2-white2
     year: 2012
@@ -44368,7 +44368,7 @@ isayama-hideyo:
   games: 4
   core_games: 3
   first: 2022
-  last: 2024
+  last: 2025
   credits:
   - game: scarlet-violet
     year: 2022
@@ -44857,7 +44857,7 @@ shindo-maiko:
   kana: しんどう まいこ
   games: 7
   core_games: 2
-  first: 2013
+  first: 2009
   last: 2023
   credits:
   - game: x-y
@@ -44909,7 +44909,7 @@ kimishima-tatsumi:
   kana: null
   games: 6
   core_games: 2
-  first: 2016
+  first: 2005
   last: 2018
   credits:
   - game: sun-moon
@@ -44978,8 +44978,8 @@ isari-yasunori:
   kana: いさり やすのり
   games: 5
   core_games: 2
-  first: 2012
-  last: 2011
+  first: 2008
+  last: 2012
   credits:
   - game: black2-white2
     year: 2012
@@ -45033,8 +45033,8 @@ tajima-azusa:
   kana: たじま あずさ
   games: 4
   core_games: 2
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
   credits:
   - game: firered-leafgreen
     year: 2004
@@ -45064,7 +45064,7 @@ ueda-yuichi:
   games: 4
   core_games: 2
   first: 2021
-  last: 2025
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -45091,8 +45091,8 @@ iwamoto-yuya:
   kana: null
   games: 4
   core_games: 2
-  first: 2022
-  last: 2023
+  first: 2021
+  last: 2026
   credits:
   - game: legends-arceus
     year: 2022
@@ -45119,8 +45119,8 @@ imura-atsushi:
   kana: いむら あつし
   games: 3
   core_games: 2
-  first: 2019
-  last: 2014
+  first: 2014
+  last: 2022
   credits:
   - game: sword-shield
     year: 2019
@@ -45147,7 +45147,7 @@ numata-atsushi:
   games: 3
   core_games: 2
   first: 2021
-  last: 2025
+  last: 2026
   credits:
   - game: bdsp
     year: 2021
@@ -45435,7 +45435,7 @@ irie-katsuyoshi:
   kana: いりえ かつよし
   games: 13
   core_games: 1
-  first: 2012
+  first: 1999
   last: 2023
   credits:
   - game: dream-radar
@@ -45504,7 +45504,7 @@ yamato-satoshi:
   kana: やまと さとし
   games: 5
   core_games: 1
-  first: 2000
+  first: 1998
   last: 2003
   credits:
   - game: crystal
@@ -45538,7 +45538,7 @@ shimizu-takae:
   kana: しみず たかお
   games: 4
   core_games: 1
-  first: 2000
+  first: 1998
   last: 2000
   credits:
   - game: crystal
@@ -45598,8 +45598,8 @@ hoshino-masaaki:
   kana: null
   games: 4
   core_games: 1
-  first: 2026
-  last: 2021
+  first: 2015
+  last: 2026
   credits:
   - game: champions
     year: 2026
@@ -45629,8 +45629,8 @@ inuyama-inuko:
   kana: いぬやま いぬこ
   games: 3
   core_games: 1
-  first: 2019
-  last: 2011
+  first: 2003
+  last: 2019
   credits:
   - game: sword-shield
     year: 2019
@@ -45702,8 +45702,8 @@ kitamura-masato:
   kana: null
   games: 2
   core_games: 1
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
   credits:
   - game: champions
     year: 2026

@@ -505,7 +505,7 @@
   - pokopia
   - champions
   first: 1996
-  last: 2025
+  last: 2026
 - key: satoshi tajiri
   name: Satoshi Tajiri
   variants:
@@ -934,7 +934,7 @@
   - pokopia
   - champions
   first: 1996
-  last: 2023
+  last: 2026
 - key: junichi masuda
   name: Jun'ichi Masuda
   variants:
@@ -1518,7 +1518,7 @@
   - legends-za
   - pokopia
   first: 1996
-  last: 2023
+  last: 2026
 - key: ken sugimori
   name: Ken Sugimori
   variants:
@@ -1938,7 +1938,7 @@
   - pokopia
   - champions
   first: 1996
-  last: 2023
+  last: 2026
 - key: tetsuya watanabe
   name: Tetsuya Watanabe
   variants:
@@ -2307,7 +2307,7 @@
   - pokopia
   - champions
   first: 1996
-  last: 2021
+  last: 2026
 - key: hironobu yoshida
   name: Hironobu Yoshida
   variants:
@@ -2556,7 +2556,7 @@
   - pokopia
   - champions
   first: 1998
-  last: 2006
+  last: 2026
 - key: sosuke tamada
   name: Sousuke Tamada
   variants:
@@ -2968,7 +2968,7 @@
   - area-zero
   - legends-za
   first: 1996
-  last: 2023
+  last: 2025
 - key: akira kinashi
   name: Akira Kinashi
   variants:
@@ -3193,7 +3193,7 @@
   - pokopia
   - champions
   first: 2002
-  last: 2025
+  last: 2026
 - key: koji nishino
   name: Kōji Nishino
   variants:
@@ -3497,7 +3497,7 @@
   - legends-arceus
   - scarlet-violet
   first: 1996
-  last: 2006
+  last: 2022
 - key: hitomi sato
   name: Hitomi Satō
   variants:
@@ -3957,7 +3957,7 @@
   - legends-za
   - champions
   first: 1996
-  last: 2006
+  last: 2026
 - key: omori shigeru
   name: Shigeru Ohmori
   variants:
@@ -4187,7 +4187,7 @@
   - pokopia
   - champions
   first: 2002
-  last: 2018
+  last: 2026
 - key: ito kenjiro
   name: Kenjiro Ito
   variants:
@@ -4481,8 +4481,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2004
-  last: 2025
+  first: 2003
+  last: 2026
 - key: atsuko nishida
   name: Atsuko Nishida
   variants:
@@ -4674,7 +4674,7 @@
   - scarlet-violet
   - legends-za
   first: 1996
-  last: 2014
+  last: 2025
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: takao unno
   name: Takao Unno
@@ -4932,7 +4932,7 @@
   - area-zero
   - legends-za
   first: 2002
-  last: 2006
+  last: 2025
 - key: mikiko ohashi
   name: Mikiko Ohashi
   variants:
@@ -5183,7 +5183,7 @@
   - legends-za
   - pokopia
   first: 2002
-  last: 2021
+  last: 2026
 - key: go ichinose
   name: Gō Ichinose
   variants:
@@ -5390,7 +5390,7 @@
   - pokopia
   - champions
   first: 1999
-  last: 2021
+  last: 2026
 - key: mikiko ryu
   name: Mikiko Ryu
   variants:
@@ -5627,7 +5627,7 @@
   - pokopia
   - champions
   first: 2008
-  last: 2025
+  last: 2026
 - key: fukunaga susumu
   name: Susumu Fukunaga
   variants:
@@ -5861,8 +5861,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2006
-  last: 2020
+  first: 2003
+  last: 2026
 - key: ballard kellyn
   name: Kellyn Ballard
   variants:
@@ -6064,7 +6064,7 @@
   - pokopia
   - champions
   first: 2008
-  last: 2025
+  last: 2026
 - key: fujiwara motofumi
   name: Motofumi Fujiwara
   variants:
@@ -6256,7 +6256,7 @@
   - scarlet-violet
   - champions
   first: 1996
-  last: 2006
+  last: 2026
 - key: matsumiya toshinobu
   name: Toshinobu Matsumiya
   variants:
@@ -6465,7 +6465,7 @@
   - area-zero
   - legends-za
   first: 1998
-  last: 2006
+  last: 2025
 - key: kenji tominaga
   name: Kenji Tominaga
   variants:
@@ -6591,7 +6591,7 @@
   - area-zero
   - legends-za
   first: 2002
-  last: 2018
+  last: 2025
 - key: ota tetsuji
   name: Tetsuji Ohta
   variants:
@@ -7065,7 +7065,7 @@
   - pokopia
   - champions
   first: 1998
-  last: 2025
+  last: 2026
 - key: kohori shunsuke
   name: Shunsuke Kohori
   variants:
@@ -7231,8 +7231,8 @@
   - legends-arceus
   - scarlet-violet
   - champions
-  first: 2004
-  last: 2016
+  first: 2003
+  last: 2026
 - key: iwasawa miyuki
   name: Miyuki Iwasawa
   variants:
@@ -7935,7 +7935,7 @@
   - pokopia
   - champions
   first: 2008
-  last: 2025
+  last: 2026
 - key: hiroyuki jinnai
   name: Hiroyuki Jinnai
   variants:
@@ -8426,7 +8426,7 @@
   - pokopia
   - champions
   first: 2008
-  last: 2025
+  last: 2026
 - key: miyahara toshio
   name: Toshio Miyahara
   variants:
@@ -8634,7 +8634,7 @@
   - legends-za
   - pokopia
   first: 2008
-  last: 2018
+  last: 2026
 - key: hisato yamamori
   name: Hisato Yamamori
   variants:
@@ -8827,7 +8827,7 @@
   - pokopia
   - champions
   first: 2009
-  last: 2025
+  last: 2026
 - key: sasaki teiko
   name: Teiko Sasaki
   variants:
@@ -8939,7 +8939,7 @@
   - area-zero
   - legends-za
   first: 2002
-  last: 2018
+  last: 2025
 - key: shimoyamada teruyuki
   name: Teruyuki Shimoyamada
   variants:
@@ -9845,8 +9845,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2025
+  first: 2011
+  last: 2026
 - key: elena nardo
   name: Elena Nardo
   variants:
@@ -10063,7 +10063,7 @@
   - pokopia
   - champions
   first: 2002
-  last: 2025
+  last: 2026
 - key: matsunaga mitsuyo
   name: Mitsuyo Matsunaga
   variants:
@@ -10270,8 +10270,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2008
-  last: 2025
+  first: 2006
+  last: 2026
 - key: masami tanaka
   name: Masami Tanaka
   variants:
@@ -10457,8 +10457,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2006
-  last: 2020
+  first: 2003
+  last: 2026
 - key: motoki nakajima
   name: Motoki Nakajima
   variants:
@@ -10627,7 +10627,7 @@
   - area-zero
   - pokopia
   first: 2006
-  last: 2025
+  last: 2026
 - key: okada yuki
   name: Yuki Okada
   variants:
@@ -10789,7 +10789,7 @@
   - pokopia
   - champions
   first: 2012
-  last: 2025
+  last: 2026
 - key: furukawa shuhei
   name: Shuhei Furukawa
   variants:
@@ -10931,7 +10931,7 @@
   - legends-za
   - pokopia
   first: 2009
-  last: 2025
+  last: 2026
 - key: kei ninomiya
   name: Kei Ninomiya
   variants:
@@ -11066,7 +11066,7 @@
   - pokopia
   - champions
   first: 2012
-  last: 2021
+  last: 2026
 - key: tajiri yoshio
   name: Yoshio Tajiri
   variants:
@@ -11174,7 +11174,7 @@
   - scarlet-violet
   - area-zero
   first: 2002
-  last: 2018
+  last: 2023
 - key: mori yuichiro
   name: Yuichiro Mori
   variants:
@@ -11281,7 +11281,7 @@
   - area-zero
   - legends-za
   first: 2006
-  last: 2018
+  last: 2025
 - key: hiroyuki nakamura
   name: Hiroyuki Nakamura
   variants:
@@ -11885,7 +11885,7 @@
   - bdsp
   - legends-arceus
   first: 2002
-  last: 2021
+  last: 2022
 - key: marco sartori
   name: Marco Sartori
   variants:
@@ -12074,8 +12074,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2024
+  first: 2009
+  last: 2026
 - key: daniel heucher
   name: Daniel Heucher
   variants:
@@ -12263,8 +12263,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2024
+  first: 2009
+  last: 2026
 - key: kalms kathleen
   name: Kathleen Kalms
   variants:
@@ -12432,7 +12432,7 @@
   - pokopia
   - champions
   first: 2012
-  last: 2025
+  last: 2026
 - key: ecke michael
   name: Michael Ecke
   variants:
@@ -12613,8 +12613,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2025
+  first: 2011
+  last: 2026
 - key: atsushi sugimoto
   name: Atsushi Sugimoto
   variants:
@@ -12797,8 +12797,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2012
-  last: 2020
+  first: 2005
+  last: 2026
 - key: alberto castellano gracia
   name: Alberto Gracia Castellano
   variants:
@@ -12966,8 +12966,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2023
+  first: 2011
+  last: 2026
 - key: elvira enrique joga
   name: Enrique Joga Elvira
   variants:
@@ -13123,8 +13123,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2023
+  first: 2011
+  last: 2026
 - key: choi mihwa
   name: Mihwa Choi
   variants:
@@ -13271,7 +13271,7 @@
   - pokopia
   - champions
   first: 2012
-  last: 2025
+  last: 2026
 - key: kusumoto nami
   name: Nami Kusumoto
   variants:
@@ -13430,8 +13430,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2025
+  first: 2011
+  last: 2026
 - key: onishi takahiro
   name: Takahiro Ohnishi
   variants:
@@ -13557,7 +13557,7 @@
   - legends-za
   - pokopia
   first: 2002
-  last: 2012
+  last: 2026
 - key: mcmahill seth
   name: Seth McMahill
   variants:
@@ -14138,8 +14138,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2012
-  last: 2024
+  first: 2011
+  last: 2025
 - key: fabio giusti
   name: Fabio Giusti
   variants:
@@ -14327,7 +14327,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: eisuke kasejima
   name: Eisuke Kasejima
   variants:
@@ -14504,7 +14504,7 @@
   - legends-za
   - pokopia
   first: 2012
-  last: 2023
+  last: 2026
 - key: manuela suriano
   name: Manuela Suriano
   variants:
@@ -14687,8 +14687,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2012
-  last: 2024
+  first: 2011
+  last: 2026
 - key: de i mariona miguel pera
   name: Mariona Pera i de Miguel
   variants:
@@ -14874,7 +14874,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: gauthier pierre
   name: Pierre Gauthier
   variants:
@@ -15056,7 +15056,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: nomoto retsuji
   name: Retsuji Nomoto
   variants:
@@ -15226,7 +15226,7 @@
   - legends-za
   - pokopia
   first: 2003
-  last: 2023
+  last: 2026
 - key: bellis de shilvia
   name: Silvia De Bellis
   variants:
@@ -15394,7 +15394,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2024
+  last: 2026
 - key: didier guillaume
   name: Guillaume Didier
   variants:
@@ -15555,8 +15555,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2013
-  last: 2024
+  first: 2011
+  last: 2026
 - key: guido scarabello
   name: Guido Scarabello
   variants:
@@ -15714,7 +15714,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2024
+  last: 2026
 - key: hines jeff
   name: Jeff Hines
   variants:
@@ -15875,7 +15875,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: mayu todo
   name: Mayu Todo
   variants:
@@ -16033,7 +16033,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2023
+  last: 2026
 - key: moelleken shina
   name: Sina Moelleken
   variants:
@@ -16190,7 +16190,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2024
+  last: 2026
 - key: andrews marvin
   name: Marvin Andrews
   variants:
@@ -16345,7 +16345,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: alice troiani
   name: Alice Troiani
   variants:
@@ -16487,7 +16487,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: jihye lee
   name: Jihye Lee
   variants:
@@ -16626,7 +16626,7 @@
   - legends-za
   - pokopia
   first: 2012
-  last: 2025
+  last: 2026
 - key: candland thomas
   name: Thomas Candland
   variants:
@@ -16755,7 +16755,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: diaz doval servando
   name: Servando Doval Díaz
   variants:
@@ -16884,7 +16884,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2024
+  last: 2026
 - key: jillian nonaka
   name: Jillian Nonaka
   variants:
@@ -16992,7 +16992,7 @@
   - pokopia
   - champions
   first: 2012
-  last: 2017
+  last: 2026
 - key: murakawa teruki
   name: Teruki Murakawa
   variants:
@@ -17123,7 +17123,7 @@
   - black2-white2
   - x-y
   first: 1998
-  last: 2000
+  last: 2013
 - key: kawachimaru takeshi
   name: Takeshi Kawachimaru
   variants:
@@ -17228,7 +17228,7 @@
   - scarlet-violet
   - champions
   first: 2002
-  last: 2018
+  last: 2026
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: gakuji nomoto
   name: Gakuji Nomoto
@@ -17418,8 +17418,8 @@
   - oras
   - sun-moon
   - lets-go
-  first: 2000
-  last: 2016
+  first: 1999
+  last: 2018
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: joel shimon
   name: Joel Simon
@@ -17877,8 +17877,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2003
-  last: 2025
+  first: 1998
+  last: 2026
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: egami shusaku
   name: Shusaku Egami
@@ -18032,7 +18032,7 @@
   - sun-moon
   - lets-go
   first: 2004
-  last: 2016
+  last: 2018
 - key: aymeric forgit
   name: Aymeric Forgit
   variants:
@@ -18184,7 +18184,7 @@
   - pokopia
   - champions
   first: 2014
-  last: 2025
+  last: 2026
 - key: hideko russell
   name: Hideko Russell
   variants:
@@ -18322,7 +18322,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: gurrea parades virginia
   name: Virginia Paradés Gurrea
   variants:
@@ -18459,7 +18459,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2024
+  last: 2026
 - key: maya yoshida
   name: Maya Yoshida
   variants:
@@ -18583,7 +18583,7 @@
   - legends-za
   - pokopia
   first: 2012
-  last: 2023
+  last: 2026
 - key: kimiko nakamichi
   name: Kimiko Nakamichi
   variants:
@@ -18703,7 +18703,7 @@
   - x-y
   - oras
   first: 1998
-  last: 2010
+  last: 2014
 - key: hyokjin jung
   name: Hyokjin Jung
   variants:
@@ -18814,7 +18814,7 @@
   - area-zero
   - legends-za
   first: 2012
-  last: 2023
+  last: 2025
 - key: okata suirei
   name: Suirei Okata
   variants:
@@ -18912,7 +18912,7 @@
   - legends-za
   - pokopia
   first: 2013
-  last: 2023
+  last: 2026
 - key: omura yusuke
   name: Yusuke Ohmura
   variants:
@@ -19055,7 +19055,7 @@
   - area-zero
   - legends-za
   first: 2006
-  last: 2006
+  last: 2025
 - key: megumi mizutani
   name: Megumi Mizutani
   variants:
@@ -19169,7 +19169,7 @@
   - scarlet-violet
   - legends-za
   first: 2009
-  last: 2023
+  last: 2025
 - key: masao taya
   name: Masao Taya
   variants:
@@ -19987,7 +19987,7 @@
   - bdsp
   - pokopia
   first: 2010
-  last: 2025
+  last: 2026
 - key: cyril schultz
   name: Cyril Schultz
   variants:
@@ -20146,8 +20146,8 @@
   - scarlet-violet
   - legends-za
   - champions
-  first: 2013
-  last: 2023
+  first: 2009
+  last: 2026
 - key: kanayama misuzu
   name: Misuzu Kanayama
   variants:
@@ -20296,8 +20296,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2010
-  last: 2023
+  first: 1999
+  last: 2025
 - key: fuguenard kathy
   name: Kathy Huguenard
   variants:
@@ -20681,8 +20681,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
 - key: park yongjun
   name: Youngjun Park
   variants:
@@ -20811,8 +20811,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
 - key: jaiboem lim
   name: Jaiboem Lim
   variants:
@@ -20944,7 +20944,7 @@
   - legends-za
   - pokopia
   first: 2014
-  last: 2025
+  last: 2026
 - key: francesca serci
   name: Francesca Serci
   variants:
@@ -21068,7 +21068,7 @@
   - pokopia
   - champions
   first: 2016
-  last: 2024
+  last: 2026
 - key: christopher derbort
   name: Christopher Derbort
   variants:
@@ -21186,8 +21186,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2024
+  first: 2015
+  last: 2026
 - key: ireneusz radko
   name: Ireneusz Radko
   variants:
@@ -21316,8 +21316,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
 - key: canpa de diego la luque
   name: Diego Luque de la Campa
   variants:
@@ -21435,8 +21435,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
 - key: iwanaga shotaro
   name: Shotaro Iwanaga
   variants:
@@ -21551,8 +21551,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2025
+  first: 2013
+  last: 2026
 - key: khrissate lylia
   name: Lylia Khrissate
   variants:
@@ -21659,8 +21659,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2021
+  first: 2015
+  last: 2026
 - key: annarita spera
   name: Annarita Spera
   variants:
@@ -21762,7 +21762,7 @@
   - pokopia
   - champions
   first: 2014
-  last: 2024
+  last: 2026
 - key: ogawa yuta
   name: Yuta Ogawa
   variants:
@@ -21868,8 +21868,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2014
-  last: 2025
+  first: 2012
+  last: 2026
 - key: dongyeon kim
   name: Dongyeon Kim
   variants:
@@ -21966,7 +21966,7 @@
   - pokopia
   - champions
   first: 2016
-  last: 2025
+  last: 2026
 - key: eo kanako
   name: Kanako Eo
   variants:
@@ -22080,7 +22080,7 @@
   - sun-moon
   - sword-shield
   first: 2002
-  last: 2014
+  last: 2019
 - key: hisashi sogabe
   name: Hisashi Sogabe
   variants:
@@ -22199,7 +22199,7 @@
   - black2-white2
   - x-y
   first: 2000
-  last: 2006
+  last: 2013
 - key: eodo lee
   name: Eodo Lee
   variants:
@@ -22285,7 +22285,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2023
+  last: 2026
 - key: nakai yuta
   name: Yuta Nakai
   variants:
@@ -22395,7 +22395,7 @@
   - area-zero
   - legends-za
   first: 2012
-  last: 2018
+  last: 2025
 - key: uego yoriomi
   name: Yoriomi Uego
   variants:
@@ -22482,7 +22482,7 @@
   - legends-za
   - pokopia
   first: 2014
-  last: 2025
+  last: 2026
 - key: fuchino hiroki
   name: Hiroki Fuchino
   variants:
@@ -22587,7 +22587,7 @@
   - usum
   - lets-go
   first: 2004
-  last: 2006
+  last: 2018
 - key: akito mori
   name: Akito Mori
   variants:
@@ -23113,7 +23113,7 @@
   - x-y
   - oras
   - sun-moon
-  first: 2004
+  first: 1999
   last: 2016
 - key: egan sean
   name: Sean Egan
@@ -23256,8 +23256,8 @@
   - sword-shield
   - bdsp
   - legends-arceus
-  first: 2008
-  last: 2021
+  first: 2000
+  last: 2022
 - key: mikami tomoko
   name: Tomoko Mikami
   variants:
@@ -23406,8 +23406,8 @@
   - bdsp
   - legends-arceus
   - pokopia
-  first: 2008
-  last: 2025
+  first: 2005
+  last: 2026
 - key: anazawa masamichi
   name: Masamichi Anazawa
   variants:
@@ -23575,8 +23575,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2012
-  last: 2023
+  first: 2004
+  last: 2025
 - key: makiko szolas
   name: Makiko Szolas
   variants:
@@ -23713,7 +23713,7 @@
   - legends-za
   - champions
   first: 2008
-  last: 2025
+  last: 2026
 - key: owen preece
   name: Owen Preece
   variants:
@@ -23847,8 +23847,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2017
-  last: 2025
+  first: 2015
+  last: 2026
 - key: sowa takanori
   name: Takanori Sowa
   variants:
@@ -24000,8 +24000,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2017
-  last: 2025
+  first: 2015
+  last: 2026
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: fukushima keisuke
   name: Keisuke Fukushima
@@ -24241,7 +24241,7 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2006
+  first: 2003
   last: 2021
 - key: cuadra guchierrez jesus
   name: Jesús Gutiérrez Cuadra
@@ -24351,7 +24351,7 @@
   - area-zero
   - legends-za
   first: 2012
-  last: 2023
+  last: 2025
 - key: obora shoichi
   name: Shoichi Obora
   variants:
@@ -24468,8 +24468,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2016
-  last: 2025
+  first: 2011
+  last: 2026
 - key: chungte fuang
   name: Chungte Huang
   variants:
@@ -24578,7 +24578,7 @@
   - legends-za
   - pokopia
   first: 2016
-  last: 2024
+  last: 2026
 - key: altan covert
   name: Altan Couvert
   variants:
@@ -24680,8 +24680,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2017
-  last: 2025
+  first: 2016
+  last: 2026
 - key: payne rachel
   name: Rachel Payne
   variants:
@@ -24777,7 +24777,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2023
+  last: 2026
 - key: ota satoshi
   name: Satoshi Ohta
   variants:
@@ -24887,7 +24887,7 @@
   - platinum
   - heartgold-soulsilver
   first: 1996
-  last: 2006
+  last: 2009
 - key: nakagawa noriko
   name: Noriko Nakagawa
   variants:
@@ -24982,7 +24982,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: mary rayes
   name: Mary Rayes
   variants:
@@ -25070,7 +25070,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2023
+  last: 2026
 - key: dan stephens
   name: Dan Stephens
   variants:
@@ -25157,7 +25157,7 @@
   - legends-za
   - pokopia
   first: 2016
-  last: 2023
+  last: 2026
 - key: hiro nakamura
   name: Hiro Nakamura
   variants:
@@ -25254,7 +25254,7 @@
   - x-y
   - oras
   first: 2000
-  last: 2005
+  last: 2014
 - key: ming xu
   name: Ming Xu
   variants:
@@ -25340,7 +25340,7 @@
   - pokopia
   - champions
   first: 2016
-  last: 2025
+  last: 2026
 - key: soichi yamamoto
   name: Souichi Yamamoto
   variants:
@@ -25427,7 +25427,7 @@
   - lets-go
   - sword-shield
   first: 2002
-  last: 2017
+  last: 2019
 - key: katsumi ono
   name: Katsumi Ohno
   variants:
@@ -25534,7 +25534,7 @@
   - sword-shield
   - legends-arceus
   first: 2006
-  last: 2014
+  last: 2022
 - key: hyonjyon lee
   name: Lee HyunJung
   variants:
@@ -26396,8 +26396,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2023
+  first: 1998
+  last: 2025
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: claudia thon
   name: Claudia Thon
@@ -26535,7 +26535,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2013
-  last: 2021
+  last: 2022
 - key: arai kenichi
   name: Kenichi Arai
   variants:
@@ -26669,7 +26669,7 @@
   - sword-shield
   - legends-arceus
   - scarlet-violet
-  first: 2006
+  first: 2005
   last: 2023
 - key: coee franck
   name: Franck Couée
@@ -27039,8 +27039,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2018
-  last: 2025
+  first: 2016
+  last: 2026
 - key: inage toru
   name: Toru Inage
   variants:
@@ -27150,8 +27150,8 @@
   - scarlet-violet
   - legends-za
   - pokopia
-  first: 2008
-  last: 2020
+  first: 2005
+  last: 2026
 - key: oshu ritsuko
   name: Ritsuko Oshu
   variants:
@@ -27261,8 +27261,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2018
-  last: 2024
+  first: 2016
+  last: 2026
 - key: tanikawa yuki
   name: Yuki Tanikawa
   variants:
@@ -27465,7 +27465,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: alina linneweber
   name: Alina Linnenweber
   variants:
@@ -27560,7 +27560,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: genestar irene mascaro
   name: Irene Mascaró Genestar
   variants:
@@ -27654,7 +27654,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: menale valenchina
   name: Valentina Menale
   variants:
@@ -27747,7 +27747,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: nob ogasawara
   name: Nob Ogasawara
   variants:
@@ -27913,7 +27913,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: locatelli marco
   name: Marco Locatelli
   variants:
@@ -28001,7 +28001,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: marine vallee
   name: Marine Vallée
   variants:
@@ -28106,8 +28106,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2018
-  last: 2025
+  first: 2015
+  last: 2026
 - key: furukawa shuntaro
   name: Shuntaro Furukawa
   variants:
@@ -28198,7 +28198,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2025
+  last: 2026
 - key: giang violette
   name: Violette Giang
   variants:
@@ -28281,7 +28281,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2024
+  last: 2026
 - key: hirobe keita
   name: Keita Hirobe
   variants:
@@ -28369,8 +28369,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2017
-  last: 2024
+  first: 2016
+  last: 2026
 - key: takahashi yasuko
   name: Yasuko Takahashi
   variants:
@@ -28453,8 +28453,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2018
-  last: 2023
+  first: 2003
+  last: 2026
 - key: kenkichi toyama
   name: Kenkichi Toyama
   variants:
@@ -28720,8 +28720,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2017
-  last: 2023
+  first: 2016
+  last: 2026
 - key: makiko wakai
   name: Makiko Wakai
   variants:
@@ -28800,7 +28800,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2023
+  last: 2026
 - key: ota takenori
   name: Takenori Ohta
   variants:
@@ -28891,7 +28891,7 @@
   - emerald
   - diamond-pearl
   first: 1996
-  last: 1999
+  last: 2006
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: kengo nakahiro
   name: Kengo Nakahiro
@@ -28970,8 +28970,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2023
+  first: 2011
+  last: 2025
 - key: calvo gismero pablo
   name: Pablo Gismero Calvo
   variants:
@@ -29044,7 +29044,7 @@
   - pokopia
   - champions
   first: 2013
-  last: 2016
+  last: 2026
 - key: kyongim na
   name: Kyoungim Na
   variants:
@@ -29116,7 +29116,7 @@
   - pokopia
   - champions
   first: 2014
-  last: 2025
+  last: 2026
 - key: akihito tomisawa
   name: Akihito Tomisawa
   variants:
@@ -29823,7 +29823,7 @@
   - lets-go
   - scarlet-violet
   - area-zero
-  first: 2012
+  first: 2003
   last: 2024
 - key: hiroyuki uesugi
   name: Hiroyuki Uesugi
@@ -30079,7 +30079,7 @@
   - oras
   - sun-moon
   first: 2008
-  last: 2015
+  last: 2016
 - key: kentaro nishimura
   name: Kentaro Nishimura
   variants:
@@ -30187,7 +30187,7 @@
   - legends-arceus
   - scarlet-violet
   first: 1998
-  last: 2021
+  last: 2022
 - key: suenaga yasunori
   name: Yasunori Suenaga
   variants:
@@ -30296,8 +30296,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2018
-  last: 2025
+  first: 2011
+  last: 2026
 - key: hiro nakamura (NOA)
   name: Hiro Nakamura (NOA)
   variants:
@@ -30497,7 +30497,7 @@
   - black-white
   - black2-white2
   first: 2002
-  last: 2011
+  last: 2012
 - key: ben howardhale
   name: Ben Howard-Hale
   variants:
@@ -30696,7 +30696,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2016
+  first: 2015
   last: 2023
 - key: dongun pak
   name: Dongun Pak
@@ -30793,7 +30793,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2025
+  last: 2026
 - key: albrito daniele
   name: Daniele Albrito
   variants:
@@ -30874,8 +30874,8 @@
   - bdsp
   - area-zero
   - pokopia
-  first: 2012
-  last: 2023
+  first: 2011
+  last: 2026
 - key: bagley peter
   name: Peter Bagley
   variants:
@@ -30970,7 +30970,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2025
+  last: 2026
 - key: juterbock sophie
   name: Sophie Jüterbock
   variants:
@@ -31061,8 +31061,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2019
-  last: 2024
+  first: 2018
+  last: 2026
 - key: fujiwara hiroki
   name: Hiroki Fujiwara
   variants:
@@ -31157,8 +31157,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2015
+  first: 2008
+  last: 2025
 - key: ishizuka masaya
   name: Masaya Ishizuka
   variants:
@@ -31244,8 +31244,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2025
 - key: lado riomao ruben
   name: Rubén Lado Riomao
   variants:
@@ -31333,7 +31333,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: aota yoshiko
   name: Yoshiko Aota
   variants:
@@ -31421,7 +31421,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2025
+  last: 2026
 - key: kageyama shota
   name: Shota Kageyama
   variants:
@@ -31533,7 +31533,7 @@
   - bdsp
   - legends-za
   first: 2009
-  last: 2023
+  last: 2025
 - key: misawa takafumi
   name: Takafumi Misawa
   variants:
@@ -31616,8 +31616,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2023
 - key: hannah vassallo
   name: Hannah Vassallo
   variants:
@@ -31703,7 +31703,7 @@
   - legends-za
   - champions
   first: 2018
-  last: 2023
+  last: 2026
 - key: kyohei minato
   name: Kyohei Minato
   variants:
@@ -31785,8 +31785,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2018
-  last: 2025
+  first: 2014
+  last: 2026
 - key: bethencort matthieu
   name: Matthieu Béthencourt
   variants:
@@ -31870,8 +31870,8 @@
   - area-zero
   - legends-za
   - champions
-  first: 2018
-  last: 2024
+  first: 2015
+  last: 2026
 - key: nakazawa rei
   name: Rei Nakazawa
   variants:
@@ -31951,8 +31951,8 @@
   - area-zero
   - legends-za
   - champions
-  first: 2018
-  last: 2020
+  first: 2016
+  last: 2026
 - key: alicia iribarren mendoza
   name: Alicia Iribarren Mendoza
   variants:
@@ -32029,7 +32029,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: carolin maibach
   name: Carolin Maibach
   variants:
@@ -32108,7 +32108,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: jimenez jose juan leiva
   name: Juan José Leiva Jiménez
   variants:
@@ -32187,7 +32187,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: rena yoshikawa
   name: Rena Yoshikawa
   variants:
@@ -32267,7 +32267,7 @@
   - emerald
   - heartgold-soulsilver
   first: 1996
-  last: 2005
+  last: 2009
 - key: jacopo vanin
   name: Jacopo Vanin
   variants:
@@ -32340,7 +32340,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: bianchi sergio
   name: Sergio Bianchi
   variants:
@@ -32417,7 +32417,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: shira vaterhaus
   name: Sira Vaterhaus
   variants:
@@ -32494,7 +32494,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: gohara hiroaki
   name: Hiroaki Gohara
   variants:
@@ -32568,8 +32568,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2018
-  last: 2025
+  first: 2013
+  last: 2026
 - key: haberberg rei
   name: Rei Haberberg
   variants:
@@ -32642,7 +32642,7 @@
   - legends-za
   - champions
   first: 2018
-  last: 2023
+  last: 2026
 - key: iwasaki yuriko
   name: Yuriko Iwasaki
   variants:
@@ -32714,8 +32714,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2018
-  last: 2023
+  first: 2016
+  last: 2026
 - key: belarra edith lopez
   name: Edith Belarra López
   variants:
@@ -32784,7 +32784,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2021
+  last: 2026
 - key: elodie verport
   name: Elodie Verpoort
   variants:
@@ -32855,7 +32855,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: nicolas shindres
   name: Nicolas Sindres
   variants:
@@ -32923,7 +32923,7 @@
   - pokopia
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: mukai toshio
   name: Toshio Mukai
   variants:
@@ -32992,7 +32992,7 @@
   - sun-moon
   - usum
   first: 2008
-  last: 2010
+  last: 2017
 - key: rie tatsuno
   name: Rie Tatsuno
   variants:
@@ -33061,7 +33061,7 @@
   - area-zero
   - legends-za
   first: 2014
-  last: 2016
+  last: 2025
 - key: kim sonil
   name: Soonil Kim
   variants:
@@ -33192,7 +33192,7 @@
   - scarlet-violet
   - pokopia
   first: 2009
-  last: 2018
+  last: 2026
 - key: chisato fujita
   name: Chisato Fujita
   variants:
@@ -33254,8 +33254,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2025
 - key: sakuma tomomi
   name: Tomomi Sakuma
   variants:
@@ -33320,7 +33320,7 @@
   - area-zero
   - legends-za
   first: 2013
-  last: 2016
+  last: 2025
 - key: higa romanov
   name: Romanov Higa
   variants:
@@ -33394,7 +33394,7 @@
   - area-zero
   - legends-za
   first: 2016
-  last: 2021
+  last: 2025
 - key: ichikawa tsuyoshi
   name: Tsuyoshi Ichikawa
   variants:
@@ -33458,7 +33458,7 @@
   - area-zero
   - legends-za
   first: 2016
-  last: 2018
+  last: 2025
 - key: kagaya keita
   name: Keita Kagaya
   variants:
@@ -34571,7 +34571,7 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2012
+  first: 2009
   last: 2020
 - key: nobuhiro sawabe
   name: Nobuhiro Sawabe
@@ -34706,7 +34706,7 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2012
+  first: 2011
   last: 2020
 - key: itani kiyomi
   name: Kiyomi Itani
@@ -34828,7 +34828,7 @@
   - dream-radar
   - x-y
   - oras
-  first: 2008
+  first: 2003
   last: 2014
 - key: masayasu nakata
   name: Masayasu Nakata
@@ -35053,8 +35053,8 @@
   - oras
   - sun-moon
   - pokopia
-  first: 2004
-  last: 2025
+  first: 2003
+  last: 2026
 - key: hasegawa tadasu
   name: Tadasu Hasegawa
   variants:
@@ -35171,8 +35171,8 @@
   - bdsp
   - legends-arceus
   - scarlet-violet
-  first: 2016
-  last: 2021
+  first: 2013
+  last: 2022
 - key: fujiwara rie
   name: Rie Fujiwara
   variants:
@@ -35378,7 +35378,7 @@
   - lets-go
   - sword-shield
   - bdsp
-  first: 2013
+  first: 2003
   last: 2023
 - key: eva grana rodriguez
   name: Eva Rodríguez Graña
@@ -35475,8 +35475,8 @@
   - bdsp
   - legends-arceus
   - pokopia
-  first: 2016
-  last: 2024
+  first: 2015
+  last: 2026
 - key: sakuma takashi
   name: Takashi Sakuma
   variants:
@@ -35570,8 +35570,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2013
-  last: 2016
+  first: 1998
+  last: 2023
 - key: sho yoshimoto
   name: Sho Yoshimoto
   variants:
@@ -35664,7 +35664,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2017
+  first: 2015
   last: 2024
 - key: junko tamura
   name: Junko Tamura
@@ -35752,8 +35752,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2018
-  last: 2024
+  first: 2016
+  last: 2026
 - key: hertzog thomas
   name: Thomas Hertzog
   variants:
@@ -35996,7 +35996,7 @@
   - bdsp
   - legends-arceus
   first: 2013
-  last: 2021
+  last: 2022
 - key: masafumi sugiyama
   name: Masafumi Sugiyama
   variants:
@@ -36079,8 +36079,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2025
 - key: juliana niederwanger
   name: Juliana Niederwanger
   variants:
@@ -36151,7 +36151,7 @@
   - pokopia
   - champions
   first: 2018
-  last: 2025
+  last: 2026
 - key: han joyeon
   name: Jooyeon Han
   variants:
@@ -36227,7 +36227,7 @@
   - pokopia
   - champions
   first: 2021
-  last: 2025
+  last: 2026
 - key: hidaka hiromichi
   name: Hiromichi Hidaka
   variants:
@@ -36297,8 +36297,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2021
+  first: 2009
+  last: 2025
 - key: takahashi yosuke
   name: Yosuke Takahashi
   variants:
@@ -36369,8 +36369,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2021
+  first: 2009
+  last: 2025
 - key: julia ryer
   name: Julia Ryer
   variants:
@@ -36440,8 +36440,8 @@
   - area-zero
   - legends-za
   - champions
-  first: 2019
-  last: 2020
+  first: 2016
+  last: 2026
 - key: marushich yoriko
   name: Yoriko Marusich
   variants:
@@ -36513,7 +36513,7 @@
   - legends-za
   - champions
   first: 2019
-  last: 2023
+  last: 2026
 - key: endai liao
   name: Endai Liao
   variants:
@@ -36580,8 +36580,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2021
-  last: 2025
+  first: 2020
+  last: 2026
 - key: evans kendra
   name: Kendra Evans
   variants:
@@ -36655,8 +36655,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2021
-  last: 2024
+  first: 2020
+  last: 2026
 - key: nobuyuki ota
   name: Nobuyuki Ohta
   variants:
@@ -36731,8 +36731,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2021
-  last: 2024
+  first: 2020
+  last: 2026
 - key: nonaka toyokazu
   name: Toyokazu Nonaka
   variants:
@@ -36805,8 +36805,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2021
-  last: 2025
+  first: 2020
+  last: 2026
 - key: diego figaredo
   name: Diego Figaredo
   variants:
@@ -36876,7 +36876,7 @@
   - legends-za
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: wang yuwen
   name: Yuwen Wang
   variants:
@@ -36939,7 +36939,7 @@
   - legends-za
   - pokopia
   first: 2019
-  last: 2025
+  last: 2026
 - key: aurelie kryvinskyj
   name: Aurélie Kryvinskyj
   variants:
@@ -37002,8 +37002,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2021
-  last: 2024
+  first: 2020
+  last: 2026
 - key: matsumoto misa
   name: Misa Matsumoto
   variants:
@@ -37070,7 +37070,7 @@
   - pokopia
   - champions
   first: 2021
-  last: 2025
+  last: 2026
 - key: koichiro wakamatsu
   name: Koichiro Wakamatsu
   variants:
@@ -37133,7 +37133,7 @@
   - sword-shield
   - legends-arceus
   - scarlet-violet
-  first: 2013
+  first: 2012
   last: 2023
 - key: noritaka otsuka
   name: Noritaka Otsuka
@@ -37197,7 +37197,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2014
-  last: 2021
+  last: 2022
 - key: miki shinnosuke
   name: Shinnosuke Miki
   variants:
@@ -37323,8 +37323,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2016
-  last: 2016
+  first: 2015
+  last: 2023
 - key: ganbini leslie
   name: Leslie Gambini
   variants:
@@ -37382,7 +37382,7 @@
   - pokopia
   - champions
   first: 2021
-  last: 2024
+  last: 2026
 - key: asaoka yohei
   name: Yohei Asaoka
   variants:
@@ -37439,8 +37439,8 @@
   - sword-shield
   - scarlet-violet
   - area-zero
-  first: 2012
-  last: 2010
+  first: 2010
+  last: 2023
 - key: kazuki saita
   name: Kazuki Saita
   variants:
@@ -37502,7 +37502,7 @@
   - scarlet-violet
   - legends-za
   first: 2013
-  last: 2018
+  last: 2025
 - key: maeda sakiko
   name: Sakiko Maeda
   variants:
@@ -37586,8 +37586,8 @@
   - sword-shield
   - legends-arceus
   - scarlet-violet
-  first: 2014
-  last: 2011
+  first: 2011
+  last: 2022
 - key: kei setoguchi
   name: Kei Setoguchi
   variants:
@@ -37649,7 +37649,7 @@
   - area-zero
   - legends-za
   first: 2016
-  last: 2018
+  last: 2025
 - key: noemie pradier
   name: Noémie Pradier
   variants:
@@ -37703,7 +37703,7 @@
   - legends-za
   - pokopia
   first: 2019
-  last: 2021
+  last: 2026
 - key: garel thomas
   name: Thomas Garel
   variants:
@@ -37756,7 +37756,7 @@
   - pokopia
   - champions
   first: 2021
-  last: 2021
+  last: 2026
 - key: chen yijun
   name: Yijun Chen
   variants:
@@ -37811,7 +37811,7 @@
   - pokopia
   - champions
   first: 2021
-  last: 2023
+  last: 2026
 - key: ota tomomichi
   name: Tomomichi Ohta
   variants:
@@ -39414,7 +39414,7 @@
   - usum
   - pokopia
   first: 2008
-  last: 2025
+  last: 2026
 - key: sugiyama yasuko
   name: Yasuko Sugiyama
   variants:
@@ -39887,8 +39887,8 @@
   - sun-moon
   - usum
   - pokopia
-  first: 2012
-  last: 2018
+  first: 2011
+  last: 2026
 - key: furutani sho
   name: Sho Furutani
   variants:
@@ -39981,7 +39981,7 @@
   - area-zero
   - pokopia
   first: 2012
-  last: 2023
+  last: 2026
 - key: ayako kajiwara
   name: Ayako Kajiwara
   variants:
@@ -40061,7 +40061,7 @@
   - black2-white2
   - dream-radar
   - x-y
-  first: 2008
+  first: 2003
   last: 2017
 - key: laurence ulen
   name: Laurence Uhlen
@@ -40133,7 +40133,7 @@
   - sun-moon
   - usum
   - sword-shield
-  first: 2012
+  first: 2011
   last: 2025
 - key: chris franc
   name: Chris Franc
@@ -40213,8 +40213,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2017
-  last: 2023
+  first: 2016
+  last: 2026
 - key: hsu minyu
   name: Minyu Hsu
   variants:
@@ -40292,8 +40292,8 @@
   - bdsp
   - legends-arceus
   - pokopia
-  first: 2017
-  last: 2023
+  first: 2016
+  last: 2026
 - key: bales michael
   name: Michael Bales
   variants:
@@ -40371,8 +40371,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2019
-  last: 2023
+  first: 2015
+  last: 2025
 - key: araki hideaki
   name: Hideaki Araki
   variants:
@@ -40449,7 +40449,7 @@
   - dream-radar
   - legends-za
   first: 2008
-  last: 2013
+  last: 2025
 - key: hertzog tom
   name: Tom Hertzog
   variants:
@@ -40523,7 +40523,7 @@
   - usum
   - sword-shield
   - bdsp
-  first: 2009
+  first: 2000
   last: 2023
 - key: keiko mochida
   name: Keiko Mochida
@@ -40599,8 +40599,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2021
-  last: 2023
+  first: 2018
+  last: 2026
 - key: ahmed bonoar
   name: Ahmed Bounouar
   variants:
@@ -40664,7 +40664,7 @@
   - usum
   - bdsp
   - area-zero
-  first: 2013
+  first: 2009
   last: 2023
 - key: hata masataka
   name: Masataka Hata
@@ -40749,8 +40749,8 @@
   - usum
   - sword-shield
   - legends-arceus
-  first: 2013
-  last: 2016
+  first: 2011
+  last: 2022
 - key: bonnal olivia
   name: Olivia Bonnal
   variants:
@@ -40821,8 +40821,8 @@
   - bdsp
   - legends-arceus
   - scarlet-violet
-  first: 2017
-  last: 2021
+  first: 2015
+  last: 2022
 - key: pindaro vargasfarias
   name: Píndaro Vargas-Farías
   variants:
@@ -40893,7 +40893,7 @@
   - area-zero
   - legends-za
   first: 2018
-  last: 2024
+  last: 2025
 - key: ammerman lauren
   name: Lauren Ammerman
   variants:
@@ -40963,8 +40963,8 @@
   - area-zero
   - pokopia
   - champions
-  first: 2021
-  last: 2025
+  first: 2020
+  last: 2026
 - key: daniel schafers
   name: Daniel Schäfers
   variants:
@@ -41094,7 +41094,7 @@
   - emerald
   - heartgold-soulsilver
   first: 1999
-  last: 2005
+  last: 2009
 - key: ito nobue
   name: Nobue Ito
   variants:
@@ -41231,8 +41231,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2013
-  last: 2016
+  first: 2011
+  last: 2025
 - key: eunbi jo
   name: Eunbi Jo
   variants:
@@ -41297,7 +41297,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2017
+  first: 2015
   last: 2023
 - key: alison chyan
   name: Alison Chyan
@@ -41368,7 +41368,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: fuiying tsai
   name: Huiying Tsai
   variants:
@@ -41429,8 +41429,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2022
-  last: 2025
+  first: 2021
+  last: 2026
 - key: kaoru otawara
   name: Kaoru Otawara
   variants:
@@ -41500,7 +41500,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: andrea salvi
   name: Andrea Salvi
   variants:
@@ -41620,7 +41620,7 @@
   - black-white
   - black2-white2
   first: 2000
-  last: 2009
+  last: 2012
 - key: kazuki yoshihara
   name: Kazuki Yoshihara
   variants:
@@ -41688,7 +41688,7 @@
   - heartgold-soulsilver
   - black-white
   first: 2004
-  last: 2009
+  last: 2010
 - key: ryo yamaguchi
   name: Ryo Yamaguchi
   variants:
@@ -41750,7 +41750,7 @@
   - black2-white2
   - x-y
   first: 2006
-  last: 2009
+  last: 2013
 - key: toya yoneda
   name: Toya Yoneda
   variants:
@@ -41811,7 +41811,7 @@
   - oras
   - sun-moon
   first: 2009
-  last: 2012
+  last: 2016
 - key: kumasaka takahiro
   name: Takahiro Kumasaka
   variants:
@@ -41929,7 +41929,7 @@
   - sword-shield
   - scarlet-violet
   first: 2013
-  last: 2018
+  last: 2022
 - key: bryan olsson
   name: Bryan Olsson
   variants:
@@ -41994,7 +41994,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2014
-  last: 2018
+  last: 2022
 - key: hitomi suzuki
   name: Hitomi Suzuki
   variants:
@@ -42059,8 +42059,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2017
-  last: 2023
+  first: 2003
+  last: 2025
 - key: izumi watanabe
   name: Izumi Watanabe
   variants:
@@ -42124,7 +42124,7 @@
   - legends-za
   - champions
   first: 2019
-  last: 2024
+  last: 2026
 - key: jackson pietsch
   name: Jackson Pietsch
   variants:
@@ -42184,7 +42184,7 @@
   - legends-za
   - champions
   first: 2019
-  last: 2025
+  last: 2026
 - key: jacqueminguillaume olivier
   name: Olivier Jacquemin-Guillaume
   variants:
@@ -42240,8 +42240,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2019
-  last: 2023
+  first: 2015
+  last: 2026
 - key: kurosaki ryosuke
   name: Ryosuke Kurosaki
   variants:
@@ -42303,7 +42303,7 @@
   - legends-za
   - pokopia
   first: 2019
-  last: 2023
+  last: 2026
 - key: emmerich lina
   name: Lina Emmerich
   variants:
@@ -42364,8 +42364,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2022
-  last: 2024
+  first: 2020
+  last: 2026
 - key: asuka iwashita
   name: Asuka Iwashita
   variants:
@@ -42432,7 +42432,7 @@
   - emerald
   - heartgold-soulsilver
   first: 1999
-  last: 2005
+  last: 2009
 - key: jun okutani
   name: Jun Okutani
   variants:
@@ -42495,7 +42495,7 @@
   - emerald
   - heartgold-soulsilver
   first: 1999
-  last: 2005
+  last: 2009
 - key: nakao noriko
   name: Noriko Nakao
   variants:
@@ -42728,7 +42728,7 @@
   - bdsp
   - legends-arceus
   first: 2016
-  last: 2018
+  last: 2022
 - key: mark pedini
   name: Mark Pedini
   variants:
@@ -42782,7 +42782,7 @@
   - area-zero
   - legends-za
   first: 2018
-  last: 2023
+  last: 2025
 - key: junpei matsuzaki
   name: Junpei Matsuzaki
   variants:
@@ -42839,7 +42839,7 @@
   - legends-za
   - pokopia
   first: 2019
-  last: 2021
+  last: 2026
 - key: lin yencheng
   name: Yencheng Lin
   variants:
@@ -42893,8 +42893,8 @@
   - area-zero
   - legends-za
   - champions
-  first: 2021
-  last: 2024
+  first: 2019
+  last: 2026
 - key: caroline fest
   name: Caroline Fest
   variants:
@@ -42951,7 +42951,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2024
+  last: 2026
 - key: orikata takashi
   name: Takashi Orikata
   variants:
@@ -43004,7 +43004,7 @@
   - lets-go
   - sword-shield
   first: 2010
-  last: 2012
+  last: 2019
 - key: matsuzaki tsubasa
   name: Tsubasa Matsuzaki
   variants:
@@ -43062,7 +43062,7 @@
   - usum
   - sword-shield
   first: 2012
-  last: 2018
+  last: 2019
 - key: kosaka shin
   name: Shin Kohsaka
   variants:
@@ -43117,7 +43117,7 @@
   - sword-shield
   - scarlet-violet
   first: 2013
-  last: 2014
+  last: 2022
 - key: koch michaela
   name: Michaela Koch
   variants:
@@ -43164,8 +43164,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2018
-  last: 2016
+  first: 2016
+  last: 2026
 - key: bramer derk
   name: Derk Bramer
   variants:
@@ -43216,7 +43216,7 @@
   - legends-za
   - champions
   first: 2021
-  last: 2023
+  last: 2026
 - key: hamano sachiko
   name: Sachiko Hamano
   variants:
@@ -44678,7 +44678,7 @@
   - oras
   - sun-moon
   - usum
-  first: 2012
+  first: 2005
   last: 2024
 - key: hayakawa hirotaka
   name: Hirotaka Hayakawa
@@ -44791,8 +44791,8 @@
   - scarlet-violet
   - area-zero
   - pokopia
-  first: 2016
-  last: 2025
+  first: 2014
+  last: 2026
 - key: netley noriko
   name: Noriko Netley
   variants:
@@ -44890,7 +44890,7 @@
   - oras
   - sun-moon
   first: 2004
-  last: 2015
+  last: 2016
 - key: eric haddock
   name: Eric Haddock
   variants:
@@ -45061,7 +45061,7 @@
   - dream-radar
   - x-y
   - oras
-  first: 2008
+  first: 2003
   last: 2014
 - key: majima miku
   name: Miku Majima
@@ -45154,8 +45154,8 @@
   - sun-moon
   - usum
   - sword-shield
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2019
 - key: arai kensuke
   name: Kensuke Arai
   variants:
@@ -45232,8 +45232,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2022
-  last: 2025
+  first: 2016
+  last: 2026
 - key: akiko kasugayama
   name: Akiko Kasugayama
   variants:
@@ -45307,8 +45307,8 @@
   - sword-shield
   - bdsp
   - legends-arceus
-  first: 2017
-  last: 2021
+  first: 2015
+  last: 2022
 - key: shinichi yoshikawa
   name: Shinichi Yoshikawa
   variants:
@@ -45385,8 +45385,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2022
-  last: 2005
+  first: 1998
+  last: 2026
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: miyamoto shigeru
   name: Shigeru Miyamoto
@@ -45538,7 +45538,7 @@
   - ruby-sapphire
   - firered-leafgreen
   first: 1998
-  last: 2003
+  last: 2004
 - key: chimmerwilke kindra
   name: Kindra Timmerwilke
   variants:
@@ -45676,7 +45676,7 @@
   - sun-moon
   - champions
   first: 2012
-  last: 2024
+  last: 2026
 - key: andy gose
   name: Andy Gose
   variants:
@@ -45753,8 +45753,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2022
-  last: 2025
+  first: 2016
+  last: 2026
 - key: andy fey
   name: Andy Fey
   variants:
@@ -45814,7 +45814,7 @@
   - black2-white2
   - x-y
   first: 1998
-  last: 2012
+  last: 2013
 - key: joshua newman
   name: Joshua Newman
   variants:
@@ -45926,7 +45926,7 @@
   - x-y
   - oras
   first: 2008
-  last: 2011
+  last: 2014
 - key: tsumita yuichiro
   name: Yuichiro Tsumita
   variants:
@@ -46064,8 +46064,8 @@
   - lets-go
   - bdsp
   - legends-za
-  first: 2016
-  last: 2024
+  first: 2015
+  last: 2025
 - key: akiko soma
   name: Akiko Soma
   variants:
@@ -46141,8 +46141,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2017
-  last: 2016
+  first: 2014
+  last: 2023
 - key: jerome pechit
   name: Jérôme Petit
   variants:
@@ -46196,8 +46196,8 @@
   - scarlet-violet
   - area-zero
   - pokopia
-  first: 2012
-  last: 2020
+  first: 2011
+  last: 2026
 - key: edwin kirschenmann
   name: Edwin Kirschenmann
   variants:
@@ -46253,8 +46253,8 @@
   - bdsp
   - scarlet-violet
   - pokopia
-  first: 2016
-  last: 2023
+  first: 2015
+  last: 2026
 - key: ito jun
   name: Jun Ito
   variants:
@@ -46335,8 +46335,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2016
-  last: 2012
+  first: 2009
+  last: 2025
 - key: copeland kris
   name: Kris Copeland
   variants:
@@ -46452,8 +46452,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2022
-  last: 2025
+  first: 2020
+  last: 2026
 - key: amy ganster
   name: Amy Ganster
   variants:
@@ -46517,7 +46517,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: andy hartpence
   name: Andy Hartpence
   variants:
@@ -46581,7 +46581,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: bae byungfun
   name: Byunghun Bae
   variants:
@@ -46640,7 +46640,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: murphy peter
   name: Peter Murphy
   variants:
@@ -46704,7 +46704,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: long phaedra
   name: Phaedra Long
   variants:
@@ -46768,7 +46768,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: enchicknap richie
   name: Richie Enticknap
   variants:
@@ -46832,7 +46832,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: okiura taito
   name: Taito Okiura
   variants:
@@ -46896,7 +46896,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: kawaguchi takashi
   name: Takashi Kawaguchi
   variants:
@@ -47116,8 +47116,8 @@
   - lets-go
   - sword-shield
   - scarlet-violet
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2022
 - key: koyama takashi
   name: Takashi Koyama
   variants:
@@ -47172,7 +47172,7 @@
   - sword-shield
   - champions
   first: 2016
-  last: 2020
+  last: 2026
 - key: cashi veronica
   name: Veronica Casi
   variants:
@@ -47279,7 +47279,7 @@
   - legends-za
   - pokopia
   first: 2017
-  last: 2023
+  last: 2026
 - key: buchanan kirk
   name: Kirk Buchanan
   variants:
@@ -47335,7 +47335,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2018
-  last: 2021
+  last: 2022
 - key: eiju umemura
   name: Eiju Umemura
   variants:
@@ -47391,7 +47391,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2019
+  first: 2018
   last: 2023
 - key: naoko yanase
   name: Naoko Yanase
@@ -47600,7 +47600,7 @@
   - area-zero
   - legends-za
   first: 2019
-  last: 2021
+  last: 2025
 - key: pat wells
   name: Pat Wells
   variants:
@@ -47651,7 +47651,7 @@
   - area-zero
   - pokopia
   first: 2021
-  last: 2023
+  last: 2026
 - key: robert stiochis
   name: Robert Schiotis
   variants:
@@ -47700,8 +47700,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2022
-  last: 2023
+  first: 2021
+  last: 2026
 - key: matsunaga miyuki
   name: Miyuki Matsunaga
   variants:
@@ -47744,7 +47744,7 @@
   - area-zero
   - legends-za
   first: 2012
-  last: 2015
+  last: 2025
 - key: taniguchi teruo
   name: Teruo Taniguchi
   variants:
@@ -47796,7 +47796,7 @@
   - area-zero
   - legends-za
   first: 2012
-  last: 2018
+  last: 2025
 - key: jinyong sung
   name: Jinyoung Sung
   variants:
@@ -47842,8 +47842,8 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2019
 - key: inoe natsumi
   name: Natsumi Inoue
   variants:
@@ -47893,8 +47893,8 @@
   - sun-moon
   - lets-go
   - sword-shield
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2019
 - key: inseon song
   name: Inseon Song
   variants:
@@ -47937,7 +47937,7 @@
   - sword-shield
   - bdsp
   first: 2016
-  last: 2018
+  last: 2021
 - key: kazuto shimizu
   name: Kazuto Shimizu
   variants:
@@ -47982,8 +47982,8 @@
   - legends-arceus
   - scarlet-violet
   - legends-za
-  first: 2016
-  last: 2015
+  first: 2015
+  last: 2025
 - key: oto ryotaro
   name: Ryoutarou Ohto
   variants:
@@ -48030,8 +48030,8 @@
   - lets-go
   - scarlet-violet
   - area-zero
-  first: 2016
-  last: 2011
+  first: 2011
+  last: 2023
 - key: endo hayato
   name: Hayato Endo
   variants:
@@ -48076,8 +48076,8 @@
   - sword-shield
   - scarlet-violet
   - area-zero
-  first: 2017
-  last: 2015
+  first: 2015
+  last: 2023
 - key: ai matsumura
   name: Ai Matsumura
   variants:
@@ -48123,7 +48123,7 @@
   - area-zero
   - legends-za
   first: 2019
-  last: 2021
+  last: 2025
 - key: asuka yamato
   name: Asuka Yamato
   variants:
@@ -48169,7 +48169,7 @@
   - area-zero
   - legends-za
   first: 2019
-  last: 2021
+  last: 2025
 - key: maria yoda
   name: Maria Yoda
   variants:
@@ -48215,7 +48215,7 @@
   - area-zero
   - legends-za
   first: 2019
-  last: 2021
+  last: 2025
 - key: holzhausen mika
   name: Mika Holzhausen
   variants:
@@ -48261,7 +48261,7 @@
   - legends-za
   - pokopia
   first: 2021
-  last: 2023
+  last: 2026
 - key: mihashi terry
   name: Terry Mihashi
   variants:
@@ -48305,8 +48305,8 @@
   - area-zero
   - legends-za
   - champions
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2026
 - key: fukushima tomoki
   name: Tomoki Fukushima
   variants:
@@ -48351,7 +48351,7 @@
   - pokopia
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: akune hiroshi
   name: Hiroshi Akune
   variants:
@@ -50560,7 +50560,7 @@
   - dream-radar
   - x-y
   - oras
-  first: 2004
+  first: 2003
   last: 2016
 - key: norihide okamura
   name: Norihide Okamura
@@ -50662,7 +50662,7 @@
   - emerald
   - diamond-pearl
   - dream-radar
-  first: 2002
+  first: 2000
   last: 2023
 - key: kondo takanao
   name: Takanao Kondo
@@ -50753,7 +50753,7 @@
   - firered-leafgreen
   - emerald
   - diamond-pearl
-  first: 2002
+  first: 2000
   last: 2020
 - key: hanser seth
   name: Seth Hanser
@@ -51120,8 +51120,8 @@
   - x-y
   - oras
   - sun-moon
-  first: 2012
-  last: 2015
+  first: 2009
+  last: 2016
 - key: ben regal
   name: Ben Regal
   variants:
@@ -51259,7 +51259,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2009
-  last: 2020
+  last: 2022
 - key: dario de leo
   name: Dario De Leo
   variants:
@@ -51327,8 +51327,8 @@
   - sun-moon
   - area-zero
   - pokopia
-  first: 2014
-  last: 2023
+  first: 2013
+  last: 2026
 - key: kazuyoshi kojima
   name: Kazuyoshi Kojima
   variants:
@@ -51398,8 +51398,8 @@
   - bdsp
   - legends-arceus
   - area-zero
-  first: 2014
-  last: 2021
+  first: 2011
+  last: 2023
 - key: hishida tatsuya
   name: Tatsuya Hishida
   variants:
@@ -51520,7 +51520,7 @@
   - heartgold-soulsilver
   - black-white
   - x-y
-  first: 2008
+  first: 2000
   last: 2015
 - key: amoric clemence
   name: Clémence Amoric
@@ -51584,7 +51584,7 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2016
+  first: 2015
   last: 2020
 - key: chim hove
   name: Tim Hove
@@ -51634,8 +51634,8 @@
   - black2-white2
   - dream-radar
   - x-y
-  first: 2010
-  last: 2012
+  first: 2009
+  last: 2013
 - key: hoad sara
   name: Sara Hoad
   variants:
@@ -51688,7 +51688,7 @@
   - x-y
   - oras
   - area-zero
-  first: 2012
+  first: 2011
   last: 2023
 - key: hannah shiebert
   name: Hannah Siebert
@@ -51738,8 +51738,8 @@
   - oras
   - sun-moon
   - pokopia
-  first: 2013
-  last: 2015
+  first: 2011
+  last: 2026
 - key: shunsuke uematsu
   name: Shunsuke Uematsu
   variants:
@@ -51809,8 +51809,8 @@
   - oras
   - sun-moon
   - usum
-  first: 2013
-  last: 2016
+  first: 2009
+  last: 2017
 - key: dickhardt stefan
   name: Stefan Dickhardt
   variants:
@@ -51866,8 +51866,8 @@
   - oras
   - sun-moon
   - usum
-  first: 2013
-  last: 2016
+  first: 2011
+  last: 2017
 - key: emiko yoshino
   name: Emiko Yoshino
   variants:
@@ -51928,7 +51928,7 @@
   - lets-go
   - sword-shield
   first: 2014
-  last: 2018
+  last: 2019
 - key: akifumi shiobara
   name: Akifumi Shiobara
   variants:
@@ -51987,7 +51987,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2021
+  first: 2016
   last: 2023
 - key: kai zeh
   name: Kai Zeh
@@ -52098,7 +52098,7 @@
   - x-y
   - champions
   first: 2010
-  last: 2025
+  last: 2026
 - key: honda satomi
   name: Satomi Honda
   variants:
@@ -52145,8 +52145,8 @@
   - black2-white2
   - dream-radar
   - x-y
-  first: 2010
-  last: 2011
+  first: 2009
+  last: 2013
 - key: de gonzalez nicko sanchiago
   name: Nicko Gonzalez De Santiago
   variants:
@@ -52195,8 +52195,8 @@
   - x-y
   - oras
   - area-zero
-  first: 2012
-  last: 2015
+  first: 2011
+  last: 2023
 - key: brignoli fabio
   name: Fabio Brignoli
   variants:
@@ -52241,8 +52241,8 @@
   - oras
   - sword-shield
   - bdsp
-  first: 2013
-  last: 2013
+  first: 2011
+  last: 2021
 - key: dequina q
   name: Q Dequina
   variants:
@@ -52294,7 +52294,7 @@
   - lets-go
   - pokopia
   first: 2013
-  last: 2025
+  last: 2026
 - key: tomokazu yoshida
   name: Tomokazu Yoshida
   variants:
@@ -52346,8 +52346,8 @@
   - legends-arceus
   - scarlet-violet
   - legends-za
-  first: 2013
-  last: 2016
+  first: 2011
+  last: 2025
 - key: david marchin navarro
   name: David Martín Navarro
   variants:
@@ -52450,8 +52450,8 @@
   - sword-shield
   - bdsp
   - pokopia
-  first: 2016
-  last: 2021
+  first: 2015
+  last: 2026
 - key: tsuyoshi watanabe
   name: Tsuyoshi Watanabe
   variants:
@@ -52511,7 +52511,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2019
+  first: 1998
   last: 2024
 - key: bunching mark
   name: Mark Bunting
@@ -52580,7 +52580,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2025
+  last: 2026
 - key: ed ridgeway
   name: Ed Ridgeway
   variants:
@@ -52665,8 +52665,8 @@
   - box
   - firered-leafgreen
   - emerald
-  first: 2002
-  last: 2003
+  first: 2000
+  last: 2004
 - key: aguilargalindo marin sofia
   name: Sofía Marín Aguilar-Galindo
   variants:
@@ -52756,8 +52756,8 @@
   - oras
   - sun-moon
   - lets-go
-  first: 2013
-  last: 2015
+  first: 2011
+  last: 2018
 - key: sakamoto yasuhisa
   name: Yasuhisa Sakamoto
   variants:
@@ -52804,8 +52804,8 @@
   - oras
   - sword-shield
   - legends-za
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2025
 - key: chan claudia
   name: Claudia Chan
   variants:
@@ -52905,8 +52905,8 @@
   - sword-shield
   - legends-arceus
   - scarlet-violet
-  first: 2017
-  last: 2016
+  first: 2015
+  last: 2022
 - key: de de pognadoresse reiko sorbier
   name: Reiko de Sorbier de Pougnadoresse
   variants:
@@ -52957,7 +52957,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2025
+  last: 2026
 - key: kwon yojin
   name: Yoojin Kwon
   variants:
@@ -53006,7 +53006,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2025
+  last: 2026
 - key: bardakoff julien
   name: Julien Bardakoff
   variants:
@@ -53098,7 +53098,7 @@
   - emerald
   - heartgold-soulsilver
   first: 2002
-  last: 2005
+  last: 2009
 - key: christopher stewart
   name: Christopher Stewart
   variants:
@@ -53135,8 +53135,8 @@
   - x-y
   - oras
   - sun-moon
-  first: 2012
-  last: 2013
+  first: 2011
+  last: 2016
 - key: costa de emilien salles
   name: Emilien de Salles Costa
   variants:
@@ -53181,7 +53181,7 @@
   - scarlet-violet
   - legends-za
   first: 2016
-  last: 2018
+  last: 2025
 - key: diez ibon maeztsu
   name: Ibon Díez Maeztu
   variants:
@@ -53265,8 +53265,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2018
-  last: 2020
+  first: 2015
+  last: 2025
 - key: deschanps guillaume
   name: Guillaume Deschamps
   variants:
@@ -53308,8 +53308,8 @@
   - bdsp
   - scarlet-violet
   - area-zero
-  first: 2018
-  last: 2020
+  first: 2016
+  last: 2023
 - key: herrera jesshica sanchez
   name: Jessica Sánchez Herrera
   variants:
@@ -53350,8 +53350,8 @@
   - scarlet-violet
   - area-zero
   - pokopia
-  first: 2018
-  last: 2018
+  first: 2016
+  last: 2026
 - key: isaac nickerson
   name: Isaac Nickerson
   variants:
@@ -53395,7 +53395,7 @@
   - area-zero
   - pokopia
   first: 2019
-  last: 2024
+  last: 2026
 - key: biwer kristin
   name: Kristin Biwer
   variants:
@@ -53438,7 +53438,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2019
-  last: 2021
+  last: 2022
 - key: do suj
   name: Suzy Do
   variants:
@@ -53480,7 +53480,7 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2021
+  first: 2018
   last: 2023
 - key: chen weiming
   name: Chen Weiming
@@ -53527,7 +53527,7 @@
   - legends-za
   - pokopia
   first: 2022
-  last: 2025
+  last: 2026
 - key: qing yun
   name: Qing Yun
   variants:
@@ -53568,7 +53568,7 @@
   - legends-za
   - pokopia
   first: 2022
-  last: 2025
+  last: 2026
 - key: jochen kunzel
   name: Jochen Künzel
   variants:
@@ -53613,7 +53613,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2024
+  last: 2026
 - key: saito shinya
   name: Shinya Saito
   variants:
@@ -53661,7 +53661,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2025
+  last: 2026
 - key: aoki morikazu
   name: Morikazu Aoki
   variants:
@@ -53715,7 +53715,7 @@
   - ruby-sapphire
   - emerald
   first: 1999
-  last: 1999
+  last: 2004
 - key: keichi yoshikawa
   name: Keiichi Yoshikawa
   variants:
@@ -53793,8 +53793,8 @@
   - oras
   - sun-moon
   - sword-shield
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2019
 - key: jun yuan
   name: Jun Yuan
   variants:
@@ -53831,7 +53831,7 @@
   - lets-go
   - sword-shield
   first: 2016
-  last: 2016
+  last: 2019
 - key: nist sarah
   name: Sarah Nist
   variants:
@@ -53868,8 +53868,8 @@
   - sword-shield
   - bdsp
   - legends-za
-  first: 2018
-  last: 2016
+  first: 2016
+  last: 2025
 - key: sugiyama yohei
   name: Yohei Sugiyama
   variants:
@@ -53909,7 +53909,7 @@
   - bdsp
   - scarlet-violet
   first: 2018
-  last: 2021
+  last: 2022
 - key: takuya yamamoto
   name: Takuya Yamamoto
   variants:
@@ -53950,7 +53950,7 @@
   - scarlet-violet
   - legends-za
   first: 2019
-  last: 2021
+  last: 2025
 - key: nakajima tetsuya
   name: Tetsuya Nakajima
   variants:
@@ -53989,8 +53989,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2019
-  last: 2016
+  first: 2016
+  last: 2023
 - key: andrew hall
   name: Andrew Hall
   variants:
@@ -54027,7 +54027,7 @@
   - area-zero
   - pokopia
   first: 2021
-  last: 2023
+  last: 2026
 - key: arisa nakajima
   name: Arisa Nakajima
   variants:
@@ -54066,8 +54066,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2021
-  last: 2020
+  first: 2020
+  last: 2025
 - key: hayakawa kazuki
   name: Kazuki Hayakawa
   variants:
@@ -54106,7 +54106,7 @@
   - legends-za
   - champions
   first: 2021
-  last: 2021
+  last: 2026
 - key: masao takakusa
   name: Masao Takakusa
   variants:
@@ -54145,8 +54145,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2021
-  last: 2017
+  first: 2017
+  last: 2023
 - key: robert ward
   name: Robert Ward
   variants:
@@ -54227,7 +54227,7 @@
   - area-zero
   - legends-za
   first: 2021
-  last: 2023
+  last: 2025
 - key: takahashi yukihiro
   name: Yukihiro Takahashi
   variants:
@@ -54306,7 +54306,7 @@
   - legends-za
   - champions
   first: 2021
-  last: 2024
+  last: 2026
 - key: fuji fumio
   name: Fumio Fujii
   variants:
@@ -54345,8 +54345,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2025
 - key: keito kojima
   name: Keito Kojima
   variants:
@@ -54385,7 +54385,7 @@
   - legends-za
   - pokopia
   first: 2022
-  last: 2025
+  last: 2026
 - key: miki nagao
   name: Miki Nagao
   variants:
@@ -54424,8 +54424,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2025
 - key: dorschodt saskia
   name: Saskia Doorschodt
   variants:
@@ -54462,7 +54462,7 @@
   - legends-za
   - pokopia
   first: 2022
-  last: 2023
+  last: 2026
 - key: fujikawa yohei
   name: Yohei Fujikawa
   variants:
@@ -54501,8 +54501,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2022
-  last: 2010
+  first: 2010
+  last: 2025
 - key: matori yohei
   name: Yohei Matori
   variants:
@@ -54542,7 +54542,7 @@
   - legends-za
   - pokopia
   first: 2022
-  last: 2025
+  last: 2026
 - key: castillo daniela
   name: Daniela Castillo
   variants:
@@ -54582,7 +54582,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2024
+  last: 2026
 - key: diez jorge lasheras
   name: Jorge Diez Lasheras
   variants:
@@ -54622,7 +54622,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2024
+  last: 2026
 - key: erasmy sebastian vergara
   name: Sebastián Erasmy Vergara
   variants:
@@ -54662,7 +54662,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2024
+  last: 2026
 - key: feng yuying
   name: Yuying Feng
   variants:
@@ -54698,7 +54698,7 @@
   - pokopia
   - champions
   first: 2023
-  last: 2025
+  last: 2026
 - key: kawakami naoko
   name: Naoko Kawakami
   variants:
@@ -60171,7 +60171,7 @@
   - diamond-pearl
   - black-white
   - black2-white2
-  first: 2006
+  first: 2005
   last: 2020
 - key: nakano takao
   name: Takao Nakano
@@ -60408,7 +60408,7 @@
   - x-y
   - oras
   - sun-moon
-  first: 2013
+  first: 2011
   last: 2017
 - key: chiaki shinkai
   name: Chiaki Shinkai
@@ -60492,7 +60492,7 @@
   - emerald
   - sun-moon
   - usum
-  first: 2004
+  first: 2003
   last: 2019
 - key: chitose kawakami
   name: Chitose Kawakami
@@ -60575,7 +60575,7 @@
   - oras
   - champions
   first: 2013
-  last: 2025
+  last: 2026
 - key: ryo uchida
   name: Ryo Uchida
   variants:
@@ -60715,8 +60715,8 @@
   - sun-moon
   - usum
   - pokopia
-  first: 2016
-  last: 2025
+  first: 2011
+  last: 2026
 - key: deimel marchina
   name: Martina Deimel
   variants:
@@ -60783,7 +60783,7 @@
   - crystal
   - ruby-sapphire
   - emerald
-  first: 2000
+  first: 1998
   last: 2023
 - key: nobuhiro seya
   name: Nobuhiro Seya
@@ -61031,8 +61031,8 @@
   - dream-radar
   - oras
   - sun-moon
-  first: 2012
-  last: 2015
+  first: 2011
+  last: 2016
 - key: hidefumi ide
   name: Hidefumi Ide
   variants:
@@ -61098,7 +61098,7 @@
   - dream-radar
   - x-y
   - oras
-  first: 2012
+  first: 2008
   last: 2024
 - key: aki sakurai
   name: Aki Sakurai
@@ -61161,8 +61161,8 @@
   - oras
   - sun-moon
   - usum
-  first: 2014
-  last: 2015
+  first: 2005
+  last: 2017
 - key: masayuki wada
   name: Masayuki Wada
   variants:
@@ -61285,7 +61285,7 @@
   - ruby-sapphire
   - firered-leafgreen
   - emerald
-  first: 2002
+  first: 2000
   last: 2005
 - key: kurosawa mika
   name: Mika Kurosawa
@@ -61339,7 +61339,7 @@
   - firered-leafgreen
   - emerald
   - diamond-pearl
-  first: 2004
+  first: 2003
   last: 2006
 - key: fujishiro ikumi
   name: Ikumi Fujishiro
@@ -61453,7 +61453,7 @@
   - sun-moon
   - usum
   - lets-go
-  first: 2016
+  first: 2015
   last: 2018
 - key: hirata yuki
   name: Yuki Hirata
@@ -61511,7 +61511,7 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2017
+  first: 2015
   last: 2020
 - key: harada takahiro
   name: Takahiro Harada
@@ -61721,7 +61721,7 @@
   - black2-white2
   - dream-radar
   - x-y
-  first: 2012
+  first: 2011
   last: 2014
 - key: kaori manabe
   name: Kaori Manabe
@@ -61771,8 +61771,8 @@
   - dream-radar
   - oras
   - sun-moon
-  first: 2012
-  last: 2014
+  first: 2009
+  last: 2016
 - key: joe naha
   name: Joe Naha
   variants:
@@ -61825,7 +61825,7 @@
   - x-y
   - oras
   - sun-moon
-  first: 2013
+  first: 2009
   last: 2016
 - key: pablo reyes
   name: Pablo Reyes
@@ -61876,7 +61876,7 @@
   - sun-moon
   - usum
   - lets-go
-  first: 2016
+  first: 2015
   last: 2018
 - key: emanuel tsurchetta
   name: Emanuel Turchetta
@@ -61932,7 +61932,7 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2017
+  first: 2015
   last: 2019
 - key: nakagawa yuki
   name: Yuki Nakagawa
@@ -61989,8 +61989,8 @@
   - legends-arceus
   - area-zero
   - legends-za
-  first: 2022
-  last: 2024
+  first: 2016
+  last: 2025
 - key: antonio greppi
   name: Antonio Greppi
   variants:
@@ -62213,8 +62213,8 @@
   - dream-radar
   - x-y
   - oras
-  first: 2012
-  last: 2013
+  first: 2011
+  last: 2014
 - key: barry michael
   name: Michael Barry
   variants:
@@ -62303,7 +62303,7 @@
   - dream-radar
   - x-y
   - oras
-  first: 2012
+  first: 2011
   last: 2015
 - key: christina stoffel
   name: Christina Stoffel
@@ -62395,8 +62395,8 @@
   - x-y
   - sun-moon
   - sword-shield
-  first: 2013
-  last: 2016
+  first: 2010
+  last: 2019
 - key: michalke sascha
   name: Sascha Michalke
   variants:
@@ -62439,7 +62439,7 @@
   - x-y
   - sword-shield
   - bdsp
-  first: 2013
+  first: 2011
   last: 2023
 - key: mai ueda
   name: Mai Ueda
@@ -62500,8 +62500,8 @@
   - sun-moon
   - usum
   - sword-shield
-  first: 2016
-  last: 2016
+  first: 2014
+  last: 2019
 - key: kachia percca ragas
   name: Katia Percca Ragas
   variants:
@@ -62545,8 +62545,8 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2017
-  last: 2018
+  first: 2015
+  last: 2019
 - key: watanabe yoshiyuki
   name: Yoshiyuki Watanabe
   variants:
@@ -62597,8 +62597,8 @@
   - lets-go
   - bdsp
   - legends-za
-  first: 2018
-  last: 2023
+  first: 2015
+  last: 2025
 - key: chie shinno
   name: Chie Shinno
   variants:
@@ -62650,8 +62650,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2023
-  last: 2024
+  first: 2020
+  last: 2026
 - key: ishiyama tomo
   name: Tomo Ishiyama
   variants:
@@ -62700,8 +62700,8 @@
   - area-zero
   - legends-za
   - pokopia
-  first: 2023
-  last: 2025
+  first: 2020
+  last: 2026
 - key: nagai reina
   name: Reina Nagai
   variants:
@@ -62752,8 +62752,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2025
-  last: 2025
+  first: 2023
+  last: 2026
 - key: wataru yamaguchi
   name: Wataru Yamaguchi
   variants:
@@ -62842,7 +62842,7 @@
   - diamond-pearl
   - platinum
   first: 2002
-  last: 2006
+  last: 2008
 - key: goto hiroyuki
   name: Hiroyuki Goto
   variants:
@@ -62890,8 +62890,8 @@
   - diamond-pearl
   - platinum
   - heartgold-soulsilver
-  first: 2006
-  last: 2006
+  first: 1999
+  last: 2009
 - key: jones leland
   name: Leland Jones
   variants:
@@ -62927,7 +62927,7 @@
   - black-white
   - black2-white2
   first: 2006
-  last: 2010
+  last: 2012
 - key: aachish pattni
   name: Aatish Pattni
   variants:
@@ -62963,7 +62963,7 @@
   - black2-white2
   - x-y
   first: 2010
-  last: 2011
+  last: 2013
 - key: akiko ohashi
   name: Akiko Ohashi
   variants:
@@ -63043,8 +63043,8 @@
   - dream-radar
   - x-y
   - oras
-  first: 2012
-  last: 2013
+  first: 2011
+  last: 2014
 - key: kanako murata
   name: Kanako Murata
   variants:
@@ -63088,7 +63088,7 @@
   - x-y
   - pokopia
   first: 2012
-  last: 2017
+  last: 2026
 - key: ogura tomoka
   name: Tomoka Ogura
   variants:
@@ -63130,7 +63130,7 @@
   - x-y
   - oras
   - sun-moon
-  first: 2013
+  first: 2012
   last: 2016
 - key: akie fujimoto
   name: Akie Fujimoto
@@ -63174,7 +63174,7 @@
   - sun-moon
   - usum
   first: 2014
-  last: 2016
+  last: 2017
 - key: daiki nagao
   name: Daiki Nagao
   variants:
@@ -63218,7 +63218,7 @@
   - bdsp
   - legends-arceus
   first: 2014
-  last: 2020
+  last: 2022
 - key: nobuya sasaki
   name: Nobuya Sasaki
   variants:
@@ -63260,8 +63260,8 @@
   - sun-moon
   - usum
   - pokopia
-  first: 2016
-  last: 2025
+  first: 2015
+  last: 2026
 - key: julien veron
   name: Julien Veron
   variants:
@@ -63301,7 +63301,7 @@
   - lets-go
   - sword-shield
   - bdsp
-  first: 2018
+  first: 2016
   last: 2021
 - key: hirano nobuhira
   name: Nobuhira Hirano
@@ -63345,8 +63345,8 @@
   - lets-go
   - sword-shield
   - bdsp
-  first: 2018
-  last: 2011
+  first: 2003
+  last: 2021
 - key: eiselt peter
   name: Peter Eiselt
   variants:
@@ -63386,8 +63386,8 @@
   - lets-go
   - bdsp
   - pokopia
-  first: 2018
-  last: 2023
+  first: 2016
+  last: 2026
 - key: nashimoto ryoko
   name: Ryoko Nashimoto
   variants:
@@ -63430,8 +63430,8 @@
   - lets-go
   - sword-shield
   - bdsp
-  first: 2018
-  last: 2011
+  first: 2003
+  last: 2021
 - key: nishina takeshi
   name: Takeshi Nishina
   variants:
@@ -63474,8 +63474,8 @@
   - lets-go
   - sword-shield
   - bdsp
-  first: 2018
-  last: 2011
+  first: 2003
+  last: 2021
 - key: jihyuen yo
   name: Jihyuen Yoo
   variants:
@@ -63514,8 +63514,8 @@
   - bdsp
   - area-zero
   - champions
-  first: 2021
-  last: 2023
+  first: 2020
+  last: 2026
 - key: tsu yuching
   name: Yuting Tu
   variants:
@@ -63601,8 +63601,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2022
-  last: 2023
+  first: 2015
+  last: 2025
 - key: satomi shimomura
   name: Satomi Shimomura
   variants:
@@ -63644,8 +63644,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2022
-  last: 2019
+  first: 2013
+  last: 2023
 - key: dorrell torrie
   name: Torrie Dorrell
   variants:
@@ -63689,7 +63689,7 @@
   - area-zero
   - legends-za
   first: 2022
-  last: 2024
+  last: 2025
 - key: artfur blondel
   name: Arthur Blondel
   variants:
@@ -63730,7 +63730,7 @@
   - legends-za
   - pokopia
   first: 2023
-  last: 2025
+  last: 2026
 - key: sakai yasuhiro
   name: Yasuhiro Sakai
   variants:
@@ -63816,7 +63816,7 @@
   - crystal
   - x-y
   first: 1999
-  last: 2012
+  last: 2013
 - key: ai mashima
   name: Ai Mashima
   variants:
@@ -63863,7 +63863,7 @@
   - ruby-sapphire
   - bdsp
   first: 2000
-  last: 2000
+  last: 2021
 - key: lotz steffen
   name: Steffen Lotz
   variants:
@@ -63897,7 +63897,7 @@
   - legends-za
   - pokopia
   first: 2004
-  last: 2008
+  last: 2026
 - key: ben sotham
   name: Ben Southam
   variants:
@@ -63928,8 +63928,8 @@
   - black2-white2
   - x-y
   - oras
-  first: 2012
-  last: 2012
+  first: 2011
+  last: 2014
 - key: golbano luis
   name: Luis Golbano
   variants:
@@ -63960,7 +63960,7 @@
   - black2-white2
   - dream-radar
   - x-y
-  first: 2012
+  first: 2011
   last: 2013
 - key: chiharu unno
   name: Chiharu Unno
@@ -64001,7 +64001,7 @@
   - oras
   - usum
   first: 2013
-  last: 2014
+  last: 2017
 - key: koga minoru
   name: Minoru Koga
   variants:
@@ -64038,8 +64038,8 @@
   - x-y
   - sun-moon
   - sword-shield
-  first: 2013
-  last: 2012
+  first: 2010
+  last: 2019
 - key: hoshi yukari
   name: Yukari Hoshi
   variants:
@@ -64076,8 +64076,8 @@
   - oras
   - sun-moon
   - usum
-  first: 2014
-  last: 2012
+  first: 2011
+  last: 2017
 - key: angel calderon carnero miguel
   name: Miguel Ángel Carnero Calderón
   variants:
@@ -64111,8 +64111,8 @@
   - sun-moon
   - sword-shield
   - bdsp
-  first: 2016
-  last: 2016
+  first: 2015
+  last: 2021
 - key: xi zhang
   name: Xi Zhang
   variants:
@@ -64148,7 +64148,7 @@
   - usum
   - sword-shield
   first: 2016
-  last: 2018
+  last: 2019
 - key: gianluca miceli pasquale
   name: Pasquale Gianluca Miceli
   variants:
@@ -64184,8 +64184,8 @@
   - lets-go
   - scarlet-violet
   - area-zero
-  first: 2018
-  last: 2021
+  first: 2016
+  last: 2023
 - key: dillon james
   name: James Dillon
   variants:
@@ -64223,7 +64223,7 @@
   - bdsp
   - legends-arceus
   - legends-za
-  first: 2021
+  first: 2020
   last: 2025
 - key: bartholomew laura
   name: Laura Bartholomew
@@ -64262,7 +64262,7 @@
   - legends-za
   - pokopia
   first: 2021
-  last: 2023
+  last: 2026
 - key: manami tate
   name: Manami Tate
   variants:
@@ -64300,7 +64300,7 @@
   - bdsp
   - legends-arceus
   - area-zero
-  first: 2021
+  first: 2020
   last: 2023
 - key: kuji rieko
   name: Rieko Kuji
@@ -64341,8 +64341,8 @@
   - bdsp
   - legends-arceus
   - scarlet-violet
-  first: 2021
-  last: 2019
+  first: 2015
+  last: 2022
 - key: emily minakata
   name: Emily Minakata
   variants:
@@ -64419,8 +64419,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2022
-  last: 2023
+  first: 2020
+  last: 2025
 - key: jiang weihang
   name: Weihang Jiang
   variants:
@@ -64455,8 +64455,8 @@
   - scarlet-violet
   - area-zero
   - legends-za
-  first: 2022
-  last: 2023
+  first: 2020
+  last: 2025
 - key: yasuda yoshito
   name: Yoshito Yasuda
   variants:
@@ -64494,8 +64494,8 @@
   - scarlet-violet
   - legends-za
   - pokopia
-  first: 2022
-  last: 2011
+  first: 2003
+  last: 2026
 - key: diana saiz vazquez
   name: Diana Vázquez Saiz
   variants:
@@ -64535,7 +64535,7 @@
   - legends-za
   - champions
   first: 2023
-  last: 2025
+  last: 2026
 - key: kazuyuki yamamoto
   name: Kazuyuki Yamamoto
   variants:
@@ -64665,7 +64665,7 @@
   - crystal
   - ruby-sapphire
   first: 1999
-  last: 2000
+  last: 2002
 - key: kazuya suyama
   name: Kazuya Suyama
   variants:
@@ -64699,7 +64699,7 @@
   - firered-leafgreen
   - emerald
   first: 2002
-  last: 2003
+  last: 2004
 - key: emi yoshida
   name: Emi Yoshida
   variants:
@@ -64739,7 +64739,7 @@
   - platinum
   - heartgold-soulsilver
   first: 2006
-  last: 2006
+  last: 2009
 - key: hiroyuki yagi
   name: Hiroyuki Yagi
   variants:
@@ -64778,7 +64778,7 @@
   - platinum
   - heartgold-soulsilver
   first: 2006
-  last: 2006
+  last: 2009
 - key: allen perez
   name: Allen Perez
   variants:
@@ -64806,7 +64806,7 @@
   - heartgold-soulsilver
   - black2-white2
   first: 2008
-  last: 2009
+  last: 2012
 - key: perez rey
   name: Rey Perez
   variants:
@@ -64866,8 +64866,8 @@
   - x-y
   - oras
   - sword-shield
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2019
 - key: ballarin giovanni
   name: Giovanni Ballarin
   variants:
@@ -64900,7 +64900,7 @@
   - oras
   - sun-moon
   first: 2013
-  last: 2015
+  last: 2016
 - key: okamoto rina
   name: Rina Okamoto
   variants:
@@ -64934,7 +64934,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2013
-  last: 2020
+  last: 2022
 - key: deguang yan
   name: Deguang Yan
   variants:
@@ -64997,7 +64997,7 @@
   - usum
   - pokopia
   first: 2016
-  last: 2025
+  last: 2026
 - key: qiu xiaochun
   name: Xiaochun Qiu
   variants:
@@ -65028,7 +65028,7 @@
   - usum
   - sword-shield
   first: 2016
-  last: 2016
+  last: 2019
 - key: hayato yoshimura
   name: Hayato Yoshimura
   variants:
@@ -65062,7 +65062,7 @@
   - lets-go
   - sword-shield
   first: 2017
-  last: 2018
+  last: 2019
 - key: honda marie
   name: Marie Honda
   variants:
@@ -65096,7 +65096,7 @@
   - lets-go
   - sword-shield
   first: 2017
-  last: 2018
+  last: 2019
 - key: faustinelli marjia
   name: Marzia Faustinelli
   variants:
@@ -65127,8 +65127,8 @@
   - usum
   - lets-go
   - bdsp
-  first: 2017
-  last: 2016
+  first: 2016
+  last: 2021
 - key: masao yamabe
   name: Masao Yamabe
   variants:
@@ -65160,8 +65160,8 @@
   - usum
   - lets-go
   - sword-shield
-  first: 2017
-  last: 2015
+  first: 2015
+  last: 2019
 - key: maroto pulido sonia
   name: Sonia Pulido Maroto
   variants:
@@ -65192,8 +65192,8 @@
   - usum
   - scarlet-violet
   - pokopia
-  first: 2017
-  last: 2016
+  first: 2016
+  last: 2026
 - key: carrey yannick
   name: Yannick Carrey
   variants:
@@ -65223,8 +65223,8 @@
   - lets-go
   - sword-shield
   - bdsp
-  first: 2018
-  last: 2016
+  first: 2016
+  last: 2021
 - key: akinori asaba
   name: Akinori Asaba
   variants:
@@ -65257,8 +65257,8 @@
   - sword-shield
   - scarlet-violet
   - pokopia
-  first: 2019
-  last: 2018
+  first: 2018
+  last: 2026
 - key: jun kotono
   name: Jun Kotouno
   variants:
@@ -65293,7 +65293,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2019
-  last: 2021
+  last: 2022
 - key: asaba keisuke
   name: Keisuke Asaba
   variants:
@@ -65329,7 +65329,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2019
-  last: 2021
+  last: 2022
 - key: motohiro sasaki
   name: Sasaki Motohiro
   variants:
@@ -65364,7 +65364,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2019
-  last: 2021
+  last: 2022
 - key: igarashi tetta
   name: Tetta Igarashi
   variants:
@@ -65398,7 +65398,7 @@
   - scarlet-violet
   - area-zero
   first: 2019
-  last: 2020
+  last: 2023
 - key: aruku koshishi
   name: Aruku Koshiishi
   variants:
@@ -65431,7 +65431,7 @@
   - scarlet-violet
   - champions
   first: 2021
-  last: 2025
+  last: 2026
 - key: aya sasagawa
   name: Aya Sasagawa
   variants:
@@ -65465,7 +65465,7 @@
   - legends-arceus
   - scarlet-violet
   first: 2021
-  last: 2021
+  last: 2022
 - key: julio manzaneda medina
   name: Julio Manzaneda Medina
   variants:
@@ -65497,7 +65497,7 @@
   - area-zero
   - legends-za
   first: 2021
-  last: 2021
+  last: 2025
 - key: yonehara yoshinari
   name: Yoshinari Yonehara
   variants:
@@ -65568,7 +65568,7 @@
   - area-zero
   - legends-za
   first: 2022
-  last: 2024
+  last: 2025
 - key: ikeda isamu
   name: Isamu Ikeda
   variants:
@@ -65605,8 +65605,8 @@
   - legends-arceus
   - scarlet-violet
   - area-zero
-  first: 2022
-  last: 2016
+  first: 2016
+  last: 2023
 - key: kohei yamashita
   name: Kohei Yamashita
   variants:
@@ -65674,7 +65674,7 @@
   - area-zero
   - legends-za
   first: 2022
-  last: 2023
+  last: 2025
 - key: ogino takahiro
   name: Takahiro Ogino
   variants:
@@ -65708,7 +65708,7 @@
   - area-zero
   - legends-za
   first: 2022
-  last: 2023
+  last: 2025
 - key: ozeki takatoshi
   name: Takatoshi Ozeki
   variants:
@@ -65742,7 +65742,7 @@
   - area-zero
   - legends-za
   first: 2022
-  last: 2023
+  last: 2025
 - key: endo takuya
   name: Takuya Endo
   variants:
@@ -65849,7 +65849,7 @@
   - legends-za
   - pokopia
   first: 2023
-  last: 2024
+  last: 2026
 - key: banbach julia
   name: Julia Bambach
   variants:
@@ -65881,7 +65881,7 @@
   - legends-za
   - pokopia
   first: 2023
-  last: 2023
+  last: 2026
 - key: hosakagreen miki
   name: Miki Hosaka-Green
   variants:
@@ -65916,7 +65916,7 @@
   - legends-za
   - pokopia
   first: 2023
-  last: 2023
+  last: 2026
 - key: kawano mitsumasa
   name: Mitsumasa Kawano
   variants:
@@ -65949,7 +65949,7 @@
   - legends-za
   - champions
   first: 2023
-  last: 2023
+  last: 2026
 - key: hanru yang
   name: Hanru Yang
   variants:
@@ -65982,8 +65982,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2025
-  last: 2024
+  first: 2024
+  last: 2026
 - key: jennifer rose
   name: Jennifer Rose
   variants:
@@ -66017,7 +66017,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: julieta orchiz
   name: Julieta Ortiz
   variants:
@@ -66047,8 +66047,8 @@
   - legends-za
   - pokopia
   - champions
-  first: 2025
-  last: 2024
+  first: 2024
+  last: 2026
 - key: karen yuen
   name: Karen Yuen
   variants:
@@ -66081,7 +66081,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: davis nicole
   name: Nicole Davis
   variants:
@@ -66115,7 +66115,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: coney owen
   name: Owen Cooney
   variants:
@@ -66149,7 +66149,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: dey george rhiona
   name: Rhiona George Dey
   variants:
@@ -66181,7 +66181,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: roberts sean
   name: Sean Roberts
   variants:
@@ -66214,7 +66214,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: shide
   name: Side
   variants:
@@ -66251,7 +66251,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: takaaki ueno
   name: Takaaki Ueno
   variants:
@@ -66284,7 +66284,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: chingfui xia
   name: Tinghui Xia
   variants:
@@ -66315,7 +66315,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: arvisais tori
   name: Tori Arvisais
   variants:
@@ -66348,7 +66348,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: iwamoto yasuhiro
   name: Yasuhiro Iwamoto
   variants:
@@ -66381,7 +66381,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: khan zaher
   name: Zaher Khan
   variants:
@@ -66415,7 +66415,7 @@
   - pokopia
   - champions
   first: 2025
-  last: 2025
+  last: 2026
 - key: akiyoshi kakei
   name: Akiyoshi Kakei
   variants:
@@ -72272,7 +72272,7 @@
   core_games:
   - gold-silver
   - crystal
-  first: 1999
+  first: 1998
   last: 2023
 - key: itakura ryohei
   name: Ryohei Itakura
@@ -72386,7 +72386,7 @@
   core_games:
   - heartgold-soulsilver
   - x-y
-  first: 2009
+  first: 2003
   last: 2019
 - key: kamikawabata nobue
   name: Nobue Kamikawabata
@@ -72468,7 +72468,7 @@
   core_games:
   - dream-radar
   - x-y
-  first: 2012
+  first: 2006
   last: 2013
 - key: kitsuta takuto
   name: Takuto Kitsuta
@@ -72552,7 +72552,7 @@
   core_games:
   - heartgold-soulsilver
   - dream-radar
-  first: 2009
+  first: 2006
   last: 2024
 - key: patrick taylor
   name: Patrick Taylor
@@ -72611,7 +72611,7 @@
   core_games:
   - diamond-pearl
   - platinum
-  first: 2006
+  first: 2004
   last: 2015
 - key: kanagawa yukiko
   name: Yukiko Kanagawa
@@ -72682,8 +72682,8 @@
   core_games:
   - dream-radar
   - x-y
-  first: 2012
-  last: 2012
+  first: 2006
+  last: 2013
 - key: chika tanigaki
   name: Chika Tanigaki
   variants:
@@ -72756,8 +72756,8 @@
   core_games:
   - x-y
   - champions
-  first: 2013
-  last: 2025
+  first: 2009
+  last: 2026
 - key: tomita yusuke
   name: Yusuke Tomita
   variants:
@@ -72827,7 +72827,7 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
+  first: 2012
   last: 2020
 - key: hoshiba kei
   name: Kei Hoshiba
@@ -72887,8 +72887,8 @@
   core_games:
   - diamond-pearl
   - platinum
-  first: 2006
-  last: 2005
+  first: 1998
+  last: 2008
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: mori takemoto
   name: Takemoto Mori
@@ -72947,7 +72947,7 @@
   core_games:
   - x-y
   - oras
-  first: 2013
+  first: 2000
   last: 2014
 - key: fujiko nomura
   name: Fujiko Nomura
@@ -73047,7 +73047,7 @@
   core_games:
   - diamond-pearl
   - sword-shield
-  first: 2006
+  first: 2005
   last: 2020
 - key: g michael ryan
   name: Michael G. Ryan
@@ -73086,7 +73086,7 @@
   core_games:
   - platinum
   - black-white
-  first: 2008
+  first: 1998
   last: 2012
 - key: eoin sanders
   name: Eoin Sanders
@@ -73170,7 +73170,7 @@
   core_games:
   - black2-white2
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2015
 - key: fujita hidenori
   name: Hidenori Fujita
@@ -73230,7 +73230,7 @@
   core_games:
   - x-y
   - sword-shield
-  first: 2013
+  first: 2011
   last: 2023
 - key: maiko shindo
   name: Maiko Shindo
@@ -73284,7 +73284,7 @@
   core_games:
   - x-y
   - sword-shield
-  first: 2013
+  first: 2009
   last: 2023
 - key: schmelz shilvio
   name: Silvio Schmelz
@@ -73328,7 +73328,7 @@
   core_games:
   - x-y
   - oras
-  first: 2013
+  first: 2009
   last: 2014
 - key: noriaki teramoto
   name: Noriaki Teramoto
@@ -73370,7 +73370,7 @@
   - gold-silver
   - dream-radar
   first: 1999
-  last: 2011
+  last: 2012
 - key: giovanna prachi
   name: Giovanna Prati
   variants:
@@ -73440,7 +73440,7 @@
   core_games:
   - dream-radar
   - x-y
-  first: 2012
+  first: 2011
   last: 2023
 - key: kazuhisa nishimura
   name: Kazuhisa Nishimura
@@ -73481,8 +73481,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2014
 - key: ehret pascal
   name: Pascal Ehret
   variants:
@@ -73517,7 +73517,7 @@
   core_games:
   - x-y
   - oras
-  first: 2013
+  first: 2011
   last: 2014
 - key: fragomeli sergio
   name: Sergio Fragomeli
@@ -73552,8 +73552,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2011
+  last: 2014
 - key: seki takeshi
   name: Takeshi Seki
   variants:
@@ -73600,7 +73600,7 @@
   core_games:
   - sun-moon
   - usum
-  first: 2016
+  first: 2015
   last: 2019
 - key: kimishima tatsumi
   name: Tatsumi Kimishima
@@ -73642,7 +73642,7 @@
   core_games:
   - sun-moon
   - usum
-  first: 2016
+  first: 2005
   last: 2018
 - key: kato shinsuke
   name: Shinsuke Kato
@@ -73682,7 +73682,7 @@
   core_games:
   - usum
   - lets-go
-  first: 2017
+  first: 2016
   last: 2023
 - key: cuscino gabriele
   name: Gabriele Cuscino
@@ -73722,7 +73722,7 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
+  first: 2016
   last: 2021
 - key: masahiro shiotani
   name: Masahiro Shiotani
@@ -73764,8 +73764,8 @@
   core_games:
   - bdsp
   - pokopia
-  first: 2021
-  last: 2025
+  first: 2011
+  last: 2026
 - key: kai neumann
   name: Kai Neumann
   variants:
@@ -73886,7 +73886,7 @@
   core_games:
   - gold-silver
   - crystal
-  first: 1999
+  first: 1998
   last: 2019
 - key: baar tanja
   name: Tanja Baar
@@ -73951,8 +73951,8 @@
   core_games:
   - firered-leafgreen
   - sun-moon
-  first: 2004
-  last: 2010
+  first: 2003
+  last: 2016
 - key: daisuke nakamura
   name: Daisuke Nakamura
   variants:
@@ -74024,8 +74024,8 @@
   core_games:
   - diamond-pearl
   - platinum
-  first: 2006
-  last: 2006
+  first: 2005
+  last: 2008
 - key: saito yufuko
   name: Yufuko Saito
   variants:
@@ -74094,7 +74094,7 @@
   core_games:
   - dream-radar
   - x-y
-  first: 2012
+  first: 2011
   last: 2013
 - key: hiromatsu kotaro
   name: Kotaro Hiromatsu
@@ -74132,8 +74132,8 @@
   core_games:
   - black2-white2
   - x-y
-  first: 2012
-  last: 2012
+  first: 2011
+  last: 2013
 - key: china sorinephomy
   name: Tina Sourinephoumy
   variants:
@@ -74166,8 +74166,8 @@
   core_games:
   - black2-white2
   - x-y
-  first: 2012
-  last: 2011
+  first: 2009
+  last: 2013
 - key: isari yasunori
   name: Yasunori Isari
   variants:
@@ -74219,8 +74219,8 @@
   core_games:
   - black2-white2
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 2008
+  last: 2012
 - key: alessandro calemme
   name: Alessandro Calemme
   variants:
@@ -74250,8 +74250,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2011
+  last: 2014
 - key: david guchierrez varona
   name: David Gutiérrez Varona
   variants:
@@ -74282,7 +74282,7 @@
   core_games:
   - x-y
   - oras
-  first: 2013
+  first: 2011
   last: 2016
 - key: edoardo toniolatchi
   name: Edoardo Toniolatti
@@ -74313,8 +74313,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2011
+  last: 2014
 - key: mariececile zussol
   name: Marie-Cécile Dussol
   variants:
@@ -74344,8 +74344,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2011
+  last: 2014
 - key: matsunaga mitsunori
   name: Mitsunori Matsunaga
   variants:
@@ -74427,7 +74427,7 @@
   core_games:
   - x-y
   - sun-moon
-  first: 2013
+  first: 2012
   last: 2016
 - key: suga yuri
   name: Yuri Suga
@@ -74472,7 +74472,7 @@
   core_games:
   - x-y
   - oras
-  first: 2013
+  first: 2012
   last: 2016
 - key: chientcheu ludovic ponkin
   name: Ludovic Tientcheu Ponkin
@@ -74581,7 +74581,7 @@
   core_games:
   - usum
   - lets-go
-  first: 2017
+  first: 2015
   last: 2018
 - key: fernandez gabriel marchin san
   name: Gabriel San Martín Fernández
@@ -74651,8 +74651,8 @@
   core_games:
   - lets-go
   - bdsp
-  first: 2018
-  last: 2017
+  first: 2015
+  last: 2021
 - key: isabel manjavacas zarco
   name: Isabel Zarco Manjavacas
   variants:
@@ -74688,7 +74688,7 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
+  first: 2015
   last: 2020
 - key: ogawa satoshi
   name: Satoshi Ogawa
@@ -74725,7 +74725,7 @@
   core_games:
   - lets-go
   - area-zero
-  first: 2018
+  first: 2016
   last: 2023
 - key: castellino valeria
   name: Valeria Castellino
@@ -74760,7 +74760,7 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
+  first: 2016
   last: 2023
 - key: gardner paul
   name: Paul Gardner
@@ -74797,8 +74797,8 @@
   core_games:
   - sword-shield
   - scarlet-violet
-  first: 2019
-  last: 2020
+  first: 2015
+  last: 2022
 - key: harder swen
   name: Swen Harder
   variants:
@@ -74832,8 +74832,8 @@
   core_games:
   - bdsp
   - area-zero
-  first: 2021
-  last: 2021
+  first: 2016
+  last: 2023
 - key: montagnese stefania
   name: Stefania Montagnese
   variants:
@@ -74864,8 +74864,8 @@
   core_games:
   - legends-arceus
   - champions
-  first: 2022
-  last: 2011
+  first: 2004
+  last: 2026
 - key: kimoto yuki
   name: Yuki Kimoto
   variants:
@@ -74900,8 +74900,8 @@
   core_games:
   - area-zero
   - legends-za
-  first: 2023
-  last: 2020
+  first: 2016
+  last: 2025
 - key: lee steve
   name: Steve Lee
   variants:
@@ -74941,8 +74941,8 @@
   core_games:
   - legends-za
   - champions
-  first: 2025
-  last: 2025
+  first: 2023
+  last: 2026
 - key: claude m moyse
   name: Claude M. Moyse
   variants:
@@ -75022,7 +75022,7 @@
   core_games:
   - gold-silver
   - crystal
-  first: 1999
+  first: 1998
   last: 2000
 - key: kenji saiki
   name: Kenji Saiki
@@ -75179,7 +75179,7 @@
   core_games:
   - ruby-sapphire
   - platinum
-  first: 2002
+  first: 1999
   last: 2023
 - key: de moya palma rodriguez sanchez
   name: Palma Sánchez de Moya Rodríguez
@@ -75208,7 +75208,7 @@
   - ruby-sapphire
   - emerald
   first: 2002
-  last: 2003
+  last: 2004
 - key: bretant sabrina
   name: Sabrina Bretant
   variants:
@@ -75269,8 +75269,8 @@
   core_games:
   - firered-leafgreen
   - emerald
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
 - key: motoyasu tojima
   name: Motoyasu Tojima
   variants:
@@ -75298,7 +75298,7 @@
   core_games:
   - firered-leafgreen
   - emerald
-  first: 2004
+  first: 2003
   last: 2005
 - key: eschenbacher eve
   name: Eve Eschenbacher
@@ -75352,8 +75352,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2011
+  last: 2014
 - key: carolina cribero pacheco
   name: Carolina Pacheco Cribero
   variants:
@@ -75379,8 +75379,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2012
+  last: 2014
 - key: david higueras nafria
   name: David Higueras Nafría
   variants:
@@ -75406,8 +75406,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2012
+  last: 2014
 - key: kazuaki toya
   name: Kazuaki Toya
   variants:
@@ -75440,7 +75440,7 @@
   - x-y
   - scarlet-violet
   first: 2013
-  last: 2021
+  last: 2022
 - key: keichi nagao
   name: Keiichi Nagao
   variants:
@@ -75481,7 +75481,7 @@
   - x-y
   - sword-shield
   first: 2013
-  last: 2016
+  last: 2019
 - key: caballero fernandez laura
   name: Laura Fernández Caballero
   variants:
@@ -75507,8 +75507,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2013
+  first: 2012
+  last: 2014
 - key: blaeshing lubov
   name: Lubov Blaesing
   variants:
@@ -75574,7 +75574,7 @@
   - x-y
   - legends-za
   first: 2013
-  last: 2016
+  last: 2025
 - key: ignacio j leon lopez
   name: J. Ignacio León López
   variants:
@@ -75632,8 +75632,8 @@
   core_games:
   - sun-moon
   - usum
-  first: 2016
-  last: 2016
+  first: 2012
+  last: 2017
 - key: hiromi koda
   name: Hiromi Koda
   variants:
@@ -75664,8 +75664,8 @@
   core_games:
   - sun-moon
   - sword-shield
-  first: 2016
-  last: 2016
+  first: 2015
+  last: 2019
 - key: levitan madison
   name: Madison Levitan
   variants:
@@ -75694,8 +75694,8 @@
   core_games:
   - sun-moon
   - legends-arceus
-  first: 2016
-  last: 2015
+  first: 2015
+  last: 2022
 - key: mathieu springinsfeld
   name: Mathieu Springinsfeld
   variants:
@@ -75758,8 +75758,8 @@
   core_games:
   - lets-go
   - pokopia
-  first: 2018
-  last: 2023
+  first: 2016
+  last: 2026
 - key: hague olivier
   name: Olivier Hagué
   variants:
@@ -75787,7 +75787,7 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
+  first: 2016
   last: 2019
 - key: becker susanne
   name: Susanne Becker
@@ -75815,7 +75815,7 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
+  first: 2011
   last: 2019
 - key: gordo jesus marchin
   name: Jesús Gordo Martín
@@ -75845,7 +75845,7 @@
   core_games:
   - sword-shield
   - bdsp
-  first: 2019
+  first: 2016
   last: 2023
 - key: jia shuyang
   name: Shuyang Jia
@@ -75883,7 +75883,7 @@
   - bdsp
   - legends-za
   first: 2021
-  last: 2024
+  last: 2025
 - key: ueda yuichi
   name: Yuichi Ueda
   variants:
@@ -75915,7 +75915,7 @@
   - bdsp
   - champions
   first: 2021
-  last: 2025
+  last: 2026
 - key: inaba takeshi
   name: Takeshi Inaba
   variants:
@@ -75947,8 +75947,8 @@
   core_games:
   - scarlet-violet
   - area-zero
-  first: 2022
-  last: 2017
+  first: 2015
+  last: 2023
 - key: iwamoto yuya
   name: Yuya Iwamoto
   variants:
@@ -75977,8 +75977,8 @@
   core_games:
   - legends-arceus
   - champions
-  first: 2022
-  last: 2023
+  first: 2021
+  last: 2026
 - key: ryotaro ukai
   name: Ryotaro Ukai
   variants:
@@ -76011,7 +76011,7 @@
   - area-zero
   - pokopia
   first: 2023
-  last: 2025
+  last: 2026
 - key: amy morris
   name: Amy Morris
   variants:
@@ -76046,8 +76046,8 @@
   core_games:
   - legends-za
   - pokopia
-  first: 2025
-  last: 2025
+  first: 2024
+  last: 2026
 - key: benkwitt daniel
   name: Daniel Benkwitt
   variants:
@@ -76083,8 +76083,8 @@
   core_games:
   - legends-za
   - pokopia
-  first: 2025
-  last: 2025
+  first: 2024
+  last: 2026
 - key: dalgleish heather
   name: Heather Dalgleish
   variants:
@@ -76113,8 +76113,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2024
+  last: 2026
 - key: nao tajima
   name: Nao Tajima
   variants:
@@ -76149,8 +76149,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2024
+  last: 2026
 - key: alexander stu
   name: Stu Alexander
   variants:
@@ -76179,8 +76179,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2024
+  last: 2026
 - key: fleury jeanbapchiste
   name: Jean-Baptiste Fleury
   variants:
@@ -76275,7 +76275,7 @@
   - red-blue
   - gold-silver
   first: 1998
-  last: 1998
+  last: 1999
 - key: elenor isbidish
   name: Elenor Isbidish
   variants:
@@ -76321,7 +76321,7 @@
   - crystal
   - ruby-sapphire
   first: 2000
-  last: 2000
+  last: 2002
 - key: kayo sadahisa
   name: Kayo Sadahisa
   variants:
@@ -76376,7 +76376,7 @@
   - ruby-sapphire
   - firered-leafgreen
   first: 2002
-  last: 2003
+  last: 2004
 - key: daisuke hoshino
   name: Daisuke Hoshino
   variants:
@@ -76432,7 +76432,7 @@
   - heartgold-soulsilver
   - lets-go
   first: 2009
-  last: 2011
+  last: 2018
 - key: hitoshi nishizawa
   name: Hitoshi Nishizawa
   variants:
@@ -76460,7 +76460,7 @@
   - black-white
   - scarlet-violet
   first: 2010
-  last: 2012
+  last: 2022
 - key: hasegawa hirofumi
   name: Hirofumi Hasegawa
   variants:
@@ -76488,7 +76488,7 @@
   - dream-radar
   - sun-moon
   first: 2012
-  last: 2014
+  last: 2016
 - key: chris schepella
   name: Chris Schepella
   variants:
@@ -76511,7 +76511,7 @@
   - x-y
   - oras
   first: 2013
-  last: 2013
+  last: 2014
 - key: fred goard
   name: Fred Gouard
   variants:
@@ -76534,7 +76534,7 @@
   - x-y
   - oras
   first: 2013
-  last: 2013
+  last: 2014
 - key: ilho kim
   name: Ilho Kim
   variants:
@@ -76560,8 +76560,8 @@
   core_games:
   - x-y
   - oras
-  first: 2013
-  last: 2010
+  first: 2010
+  last: 2014
 - key: julio manzaneda
   name: Julio Manzaneda
   variants:
@@ -76585,8 +76585,8 @@
   core_games:
   - x-y
   - sun-moon
-  first: 2013
-  last: 2009
+  first: 2009
+  last: 2016
 - key: fujikawa koichi
   name: Koichi Fujikawa
   variants:
@@ -76722,7 +76722,7 @@
   - sun-moon
   - usum
   first: 2016
-  last: 2016
+  last: 2017
 - key: gang yan
   name: Gang Yan
   variants:
@@ -76774,7 +76774,7 @@
   - sun-moon
   - usum
   first: 2016
-  last: 2016
+  last: 2017
 - key: oto sayaka
   name: Sayaka Ohto
   variants:
@@ -76799,8 +76799,8 @@
   core_games:
   - sun-moon
   - usum
-  first: 2016
-  last: 2015
+  first: 2015
+  last: 2017
 - key: sasamoto shinichi
   name: Shin'ichi Sasamoto
   variants:
@@ -76827,7 +76827,7 @@
   - sun-moon
   - usum
   first: 2016
-  last: 2016
+  last: 2017
 - key: muratsubaki takuro
   name: Takuro Muratsubaki
   variants:
@@ -76856,8 +76856,8 @@
   core_games:
   - sun-moon
   - usum
-  first: 2016
-  last: 2009
+  first: 2009
+  last: 2017
 - key: takahashi tatsuro
   name: Tatsuro Takahashi
   variants:
@@ -76964,8 +76964,8 @@
   core_games:
   - usum
   - sword-shield
-  first: 2017
-  last: 2015
+  first: 2015
+  last: 2019
 - key: akira kojima
   name: Akira Kojima
   variants:
@@ -76992,8 +76992,8 @@
   core_games:
   - lets-go
   - sword-shield
-  first: 2018
-  last: 2017
+  first: 2017
+  last: 2019
 - key: hyesung yang
   name: Hyesung Yang
   variants:
@@ -77096,7 +77096,7 @@
   - lets-go
   - sword-shield
   first: 2018
-  last: 2018
+  last: 2019
 - key: atsushi imura
   name: Atsushi Imura
   variants:
@@ -77124,8 +77124,8 @@
   core_games:
   - sword-shield
   - scarlet-violet
-  first: 2019
-  last: 2014
+  first: 2014
+  last: 2022
 - key: ikeda masato
   name: Masato Ikeda
   variants:
@@ -77181,7 +77181,7 @@
   - sword-shield
   - legends-za
   first: 2019
-  last: 2021
+  last: 2025
 - key: stephane zussh
   name: Stéphane Zussy
   variants:
@@ -77234,7 +77234,7 @@
   - bdsp
   - legends-za
   first: 2021
-  last: 2021
+  last: 2025
 - key: atsushi numata
   name: Atsushi Numata
   variants:
@@ -77259,7 +77259,7 @@
   - bdsp
   - champions
   first: 2021
-  last: 2025
+  last: 2026
 - key: eriko fujiwara
   name: Eriko Fujiwara
   variants:
@@ -77284,7 +77284,7 @@
   - bdsp
   - champions
   first: 2021
-  last: 2025
+  last: 2026
 - key: jun taniguchi
   name: Jun Taniguchi
   variants:
@@ -77309,7 +77309,7 @@
   - bdsp
   - champions
   first: 2021
-  last: 2023
+  last: 2026
 - key: karen yu
   name: Karen Yu
   variants:
@@ -77360,7 +77360,7 @@
   - bdsp
   - champions
   first: 2021
-  last: 2023
+  last: 2026
 - key: kojima momoyo
   name: Momoyo Kojima
   variants:
@@ -77385,8 +77385,8 @@
   core_games:
   - bdsp
   - legends-arceus
-  first: 2021
-  last: 2020
+  first: 2020
+  last: 2022
 - key: eguchi ren
   name: Ren Eguchi
   variants:
@@ -77464,8 +77464,8 @@
   core_games:
   - scarlet-violet
   - pokopia
-  first: 2022
-  last: 2020
+  first: 2020
+  last: 2026
 - key: fumikazu tanaka
   name: Fumikazu Tanaka
   variants:
@@ -77492,7 +77492,7 @@
   - scarlet-violet
   - champions
   first: 2022
-  last: 2025
+  last: 2026
 - key: kawashima keisuke
   name: Keisuke Kawashima
   variants:
@@ -77573,8 +77573,8 @@
   core_games:
   - scarlet-violet
   - pokopia
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2026
 - key: natsumi tashiro
   name: Natsumi Tashiro
   variants:
@@ -77601,8 +77601,8 @@
   core_games:
   - legends-arceus
   - scarlet-violet
-  first: 2022
-  last: 2011
+  first: 2011
+  last: 2022
 - key: katsura ryo
   name: Ryo Katsura
   variants:
@@ -77629,8 +77629,8 @@
   core_games:
   - legends-arceus
   - legends-za
-  first: 2022
-  last: 2020
+  first: 2020
+  last: 2025
 - key: mukai shiori
   name: Shiori Mukai
   variants:
@@ -77685,8 +77685,8 @@
   core_games:
   - scarlet-violet
   - legends-za
-  first: 2022
-  last: 2020
+  first: 2020
+  last: 2025
 - key: takahiro tanaka
   name: Takahiro Tanaka
   variants:
@@ -77740,8 +77740,8 @@
   core_games:
   - scarlet-violet
   - champions
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2026
 - key: takahashi yuki
   name: Yuki Takahashi
   variants:
@@ -77768,8 +77768,8 @@
   core_games:
   - legends-arceus
   - scarlet-violet
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2022
 - key: terada yuki
   name: Yuki Terada
   variants:
@@ -77828,8 +77828,8 @@
   core_games:
   - scarlet-violet
   - area-zero
-  first: 2022
-  last: 2010
+  first: 2010
+  last: 2023
 - key: akiko tsuda
   name: Akiko Tsuda
   variants:
@@ -77857,7 +77857,7 @@
   - area-zero
   - legends-za
   first: 2023
-  last: 2023
+  last: 2025
 - key: masanari yogo
   name: Masanari Yogo
   variants:
@@ -77885,7 +77885,7 @@
   - area-zero
   - legends-za
   first: 2023
-  last: 2023
+  last: 2025
 - key: marras matteo
   name: Matteo Marras
   variants:
@@ -77911,7 +77911,7 @@
   - area-zero
   - legends-za
   first: 2023
-  last: 2023
+  last: 2025
 - key: mishima takeshi
   name: Takeshi Mishima
   variants:
@@ -77940,7 +77940,7 @@
   - area-zero
   - legends-za
   first: 2023
-  last: 2024
+  last: 2025
 - key: jingyi yu
   name: Jingyi Yu
   variants:
@@ -77970,8 +77970,8 @@
   core_games:
   - legends-za
   - champions
-  first: 2025
-  last: 2024
+  first: 2024
+  last: 2026
 - key: harada nana
   name: Nana Harada
   variants:
@@ -77998,8 +77998,8 @@
   core_games:
   - legends-za
   - pokopia
-  first: 2025
-  last: 2023
+  first: 2023
+  last: 2026
 - key: ben drillatwilson
   name: Ben Drillat-Wilson
   variants:
@@ -78023,8 +78023,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: debora terceros vargas yeshica
   name: Débora Yésica Terceros Vargas
   variants:
@@ -78047,8 +78047,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: bales mike
   name: Mike Bales
   variants:
@@ -78071,8 +78071,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: bohan peter
   name: Peter Bohan
   variants:
@@ -78098,8 +78098,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: phil rynda
   name: Phil Rynda
   variants:
@@ -78123,8 +78123,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: valenchina vignola
   name: Valentina Vignola
   variants:
@@ -78147,8 +78147,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: kong waihong
   name: Waihong Kong
   variants:
@@ -78171,8 +78171,8 @@
   core_games:
   - pokopia
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: elena fogazzaro
   name: Elena Fogazzaro
   variants:
@@ -85819,8 +85819,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2011
+  last: 2026
 - key: kazunori sugiura
   name: Kazunori Sugiura
   variants:
@@ -85907,8 +85907,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2015
+  last: 2026
 - key: irie katsuyoshi
   name: Katsuyoshi Irie
   variants:
@@ -85981,7 +85981,7 @@
   - detective-pikachu-returns
   core_games:
   - dream-radar
-  first: 2012
+  first: 1999
   last: 2023
 - key: hiroaki ito
   name: Hiroaki Ito
@@ -86064,7 +86064,7 @@
   - trading-card-game-pocket
   core_games:
   - x-y
-  first: 2013
+  first: 1998
   last: 2024
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: suma yosuke
@@ -86128,7 +86128,7 @@
   - rumble-blast
   core_games:
   - heartgold-soulsilver
-  first: 2009
+  first: 1998
   last: 2011
 - key: higeta kenichi
   name: Kenichi Higeta
@@ -86198,7 +86198,7 @@
   - detective-pikachu-returns
   core_games:
   - dream-radar
-  first: 2012
+  first: 2008
   last: 2023
 - key: oku yoshiyuki
   name: Yoshiyuki Oku
@@ -86282,7 +86282,7 @@
   - trading-card-game-pocket
   core_games:
   - legends-arceus
-  first: 2022
+  first: 1998
   last: 2024
 - key: yamamoto yohei
   name: Yohei Yamamoto
@@ -86352,8 +86352,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2015
+  last: 2026
 - key: osamu suzuki
   name: Osamu Suzuki
   variants:
@@ -86408,7 +86408,7 @@
   - rumble-blast
   core_games:
   - black-white
-  first: 2010
+  first: 2005
   last: 2011
 - key: okamoto shingo
   name: Shingo Okamoto
@@ -86463,7 +86463,7 @@
   - new-pokemon-snap
   core_games:
   - oras
-  first: 2014
+  first: 2000
   last: 2021
 - key: ichijo tatsuya
   name: Tatsuya Ichijo
@@ -86517,8 +86517,8 @@
   - goita-tutorial-app
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2016
+  last: 2026
 - key: seno yosuke
   name: Yosuke Senoo
   variants:
@@ -86582,8 +86582,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2015
+  last: 2026
 - key: anja weinbach
   name: Anja Weinbach
   variants:
@@ -86626,7 +86626,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2009
   last: 2024
 - key: ayumu ito
   name: Ayumu Ito
@@ -86683,7 +86683,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2010
   last: 2024
 - key: ito yasuhiro
   name: Yasuhiro Ito
@@ -86748,7 +86748,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2006
   last: 2024
 - key: kenji miki
   name: Kenji Miki
@@ -86797,7 +86797,7 @@
   - colosseum
   core_games:
   - box
-  first: 2003
+  first: 1998
   last: 2003
 - key: esther giraldez sanchez
   name: Esther Sánchez Giráldez
@@ -86840,7 +86840,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2009
   last: 2024
 - key: hiroshi igarashi
   name: Hiroshi Igarashi
@@ -86887,7 +86887,7 @@
   - detective-pikachu-returns
   core_games:
   - dream-radar
-  first: 2012
+  first: 2006
   last: 2023
 - key: hiroyuki ogasawara
   name: Hiroyuki Ogasawara
@@ -86938,7 +86938,7 @@
   - pokedex-3d-pro
   core_games:
   - dream-radar
-  first: 2012
+  first: 2006
   last: 2012
 - key: ishiyama wataru
   name: Wataru Ishiyama
@@ -86987,7 +86987,7 @@
   - detective-pikachu-returns
   core_games:
   - dream-radar
-  first: 2012
+  first: 2010
   last: 2023
 - key: tsukuda yoshiharu
   name: Yoshiharu Tsukuda
@@ -87050,8 +87050,8 @@
   - pokepark-2
   core_games:
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 2001
+  last: 2012
 - key: shinobu taylor
   name: Shinobu Taylor
   variants:
@@ -87097,7 +87097,7 @@
   - rumble-rush
   core_games:
   - sun-moon
-  first: 2016
+  first: 2015
   last: 2019
 - key: jeff miller
   name: Jeff Miller
@@ -87135,7 +87135,7 @@
   - rumble
   core_games:
   - platinum
-  first: 2008
+  first: 1998
   last: 2009
 - key: fukuda mike
   name: Mike Fukuda
@@ -87174,7 +87174,7 @@
   - art-academy
   core_games:
   - platinum
-  first: 2008
+  first: 2000
   last: 2014
 - key: katsunori orimoto
   name: Katsunori Orimoto
@@ -87220,7 +87220,7 @@
   - detective-pikachu-returns
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2023
 - key: lunt ralph
   name: Ralph Lunt
@@ -87255,7 +87255,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2024
 - key: alvarez cueto de sotomayor teresa
   name: Teresa Cueto Álvarez de Sotomayor
@@ -87294,7 +87294,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2024
 - key: tomohiro umeda
   name: Tomohiro Umeda
@@ -87336,7 +87336,7 @@
   - new-pokemon-snap
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2021
 - key: madoka nishizawa
   name: Madoka Nishizawa
@@ -87378,7 +87378,7 @@
   - friends
   core_games:
   - sun-moon
-  first: 2016
+  first: 2015
   last: 2025
 - key: nagaya satoru
   name: Satoru Nagaya
@@ -87422,7 +87422,7 @@
   - trading-card-game-pocket
   core_games:
   - usum
-  first: 2017
+  first: 2016
   last: 2024
 - key: masahiro okuda
   name: Masahiro Okuda
@@ -87464,7 +87464,7 @@
   - new-pokemon-snap
   core_games:
   - sword-shield
-  first: 2019
+  first: 2003
   last: 2021
 - key: satoshi yamato
   name: Satoshi Yamato
@@ -87501,7 +87501,7 @@
   - channel
   core_games:
   - crystal
-  first: 2000
+  first: 1998
   last: 2003
 - key: hironobu kakui
   name: Hironobu Kakui
@@ -87541,7 +87541,7 @@
   - channel
   core_games:
   - box
-  first: 2003
+  first: 1998
   last: 2003
 - key: kato keizo
   name: Keizo Kato
@@ -87583,7 +87583,7 @@
   - channel
   core_games:
   - box
-  first: 2003
+  first: 1998
   last: 2003
 - key: francesca gola
   name: Francesca Gola
@@ -87614,7 +87614,7 @@
   - detective-pikachu
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2016
 - key: de george gill gregorio
   name: Gill George De Gregorio
@@ -87644,7 +87644,7 @@
   - pokedex-3d-pro
   core_games:
   - dream-radar
-  first: 2012
+  first: 2009
   last: 2012
 - key: borrelli marco
   name: Marco Borrelli
@@ -87678,7 +87678,7 @@
   - trading-card-game-pocket
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2024
 - key: rie takeuchi
   name: Rie Takeuchi
@@ -87719,7 +87719,7 @@
   - pokedex-3d-pro
   core_games:
   - dream-radar
-  first: 2012
+  first: 2006
   last: 2012
 - key: hiroyuki takahashi
   name: Hiroyuki Takahashi
@@ -87758,7 +87758,7 @@
   - duel
   core_games:
   - x-y
-  first: 2013
+  first: 2006
   last: 2016
 - key: kato yuma
   name: Yuma Kato
@@ -87796,8 +87796,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2008
+  last: 2013
 - key: jaye roberts shannon
   name: Shannon Jaye Roberts
   variants:
@@ -87829,7 +87829,7 @@
   - rumble-world
   core_games:
   - oras
-  first: 2014
+  first: 2013
   last: 2015
 - key: nakazato norimasa
   name: Norimasa Nakazato
@@ -87864,7 +87864,7 @@
   - pokken-tournament-dx
   core_games:
   - usum
-  first: 2017
+  first: 2015
   last: 2017
 - key: galloway sebastian
   name: Sebastian Galloway
@@ -87898,7 +87898,7 @@
   - quest
   core_games:
   - usum
-  first: 2017
+  first: 2015
   last: 2018
 - key: deas satoko
   name: Satoko Deas
@@ -87937,7 +87937,7 @@
   - trading-card-game-pocket
   core_games:
   - bdsp
-  first: 2021
+  first: 2018
   last: 2024
 - key: ami shuman
   name: Ami Shuman
@@ -87971,8 +87971,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2020
+  last: 2026
 - key: chie stutzman
   name: Chie Stutzman
   variants:
@@ -88008,8 +88008,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2020
+  last: 2026
 - key: sano shinya
   name: Shinya Sano
   variants:
@@ -88067,7 +88067,7 @@
   - tetris
   core_games:
   - gold-silver
-  first: 1999
+  first: 1998
   last: 2002
 - key: hatao ogata
   name: Hatao Ogata
@@ -88131,7 +88131,7 @@
   - stadium-2
   core_games:
   - crystal
-  first: 2000
+  first: 1998
   last: 2000
 - key: osawa toru
   name: Toru Osawa
@@ -88215,8 +88215,8 @@
   - stadium-2
   core_games:
   - box
-  first: 2003
-  last: 2000
+  first: 1998
+  last: 2003
   flag: 多个汉字写法：可能是同罗马字的不同人
 - key: kitamura shunsaku
   name: Shunsaku Kitamura
@@ -88251,7 +88251,7 @@
   - colosseum
   core_games:
   - box
-  first: 2003
+  first: 1998
   last: 2003
 - key: kawaguchi yasuhiro
   name: Yasuhiro Kawaguchi
@@ -88285,7 +88285,7 @@
   - colosseum
   core_games:
   - box
-  first: 2003
+  first: 1998
   last: 2003
 - key: scjrba shilke
   name: Silke Sczyrba
@@ -88312,7 +88312,7 @@
   - my-pokemon-ranch
   core_games:
   - firered-leafgreen
-  first: 2004
+  first: 2003
   last: 2008
 - key: suzuki taeko
   name: Taeko Suzuki
@@ -88343,7 +88343,7 @@
   - pokepark-2
   core_games:
   - firered-leafgreen
-  first: 2004
+  first: 2003
   last: 2011
 - key: sayama toshifumi
   name: Toshifumi Sayama
@@ -88403,7 +88403,7 @@
   - battle-revolution
   core_games:
   - diamond-pearl
-  first: 2006
+  first: 2003
   last: 2006
 - key: keisuke tominaga
   name: Keisuke Tominaga
@@ -88429,7 +88429,7 @@
   - battle-revolution
   core_games:
   - diamond-pearl
-  first: 2006
+  first: 2005
   last: 2006
 - key: kiyomi oe
   name: Kiyomi Oe
@@ -88461,7 +88461,7 @@
   - ranger
   core_games:
   - diamond-pearl
-  first: 2006
+  first: 2005
   last: 2006
 - key: saigo takeshi
   name: Takeshi Saigo
@@ -88494,7 +88494,7 @@
   - detective-pikachu-birth-of-a-new-duo
   core_games:
   - diamond-pearl
-  first: 2006
+  first: 2005
   last: 2016
 - key: komura tsuyoshi
   name: Tsuyoshi Komura
@@ -88528,7 +88528,7 @@
   - pokken-tournament
   core_games:
   - platinum
-  first: 2008
+  first: 2005
   last: 2015
 - key: kenta nakanishi
   name: Kenta Nakanishi
@@ -88587,7 +88587,7 @@
   - pokepark-2
   core_games:
   - black-white
-  first: 2010
+  first: 2009
   last: 2011
 - key: becquereau florian
   name: Florian Becquereau
@@ -88613,7 +88613,7 @@
   - pokedex-3d-pro
   core_games:
   - dream-radar
-  first: 2012
+  first: 2011
   last: 2012
 - key: hitoshi matsui
   name: Hitoshi Matsui
@@ -88656,8 +88656,8 @@
   - pokepark-2
   core_games:
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 2008
+  last: 2012
 - key: kenichi tanaka
   name: Kenichi Tanaka
   variants:
@@ -88686,8 +88686,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2013
 - key: ando shoji
   name: Shoji Ando
   variants:
@@ -88718,8 +88718,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2013
 - key: kazunari suzuki
   name: Kazunari Suzuki
   variants:
@@ -88780,7 +88780,7 @@
   - quest
   core_games:
   - usum
-  first: 2017
+  first: 2015
   last: 2018
 - key: christopher hannah
   name: Christopher Hannah
@@ -88809,7 +88809,7 @@
   - cafe-remix
   core_games:
   - lets-go
-  first: 2018
+  first: 2015
   last: 2020
 - key: shindo takayuki
   name: Takayuki Shindo
@@ -88840,7 +88840,7 @@
   - detective-pikachu-returns
   core_games:
   - lets-go
-  first: 2018
+  first: 2015
   last: 2023
 - key: masayasu yokose
   name: Masayasu Yokose
@@ -88876,7 +88876,7 @@
   - detective-pikachu-returns
   core_games:
   - sword-shield
-  first: 2019
+  first: 2016
   last: 2023
 - key: hirano takayuki
   name: Takayuki Hirano
@@ -88908,7 +88908,7 @@
   - detective-pikachu-returns
   core_games:
   - sword-shield
-  first: 2019
+  first: 2016
   last: 2023
 - key: andrea marino
   name: Andrea Marino
@@ -88937,7 +88937,7 @@
   - new-pokemon-snap
   core_games:
   - bdsp
-  first: 2021
+  first: 2015
   last: 2021
 - key: yamada yuki
   name: Yuki Yamada
@@ -88971,7 +88971,7 @@
   - trading-card-game-pocket
   core_games:
   - bdsp
-  first: 2021
+  first: 2016
   last: 2024
 - key: david figlar
   name: David Figlar
@@ -89003,8 +89003,8 @@
   - cafe-remix
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2020
+  first: 2016
+  last: 2022
 - key: hakozaki hideaki
   name: Hideaki Hakozaki
   variants:
@@ -89037,8 +89037,8 @@
   - mystery-dungeon-rescue-team-dx
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2020
+  first: 2015
+  last: 2022
 - key: keichi wada
   name: Keiichi Wada
   variants:
@@ -89069,7 +89069,7 @@
   - detective-pikachu-returns
   core_games:
   - scarlet-violet
-  first: 2022
+  first: 2015
   last: 2023
 - key: morotsuki sahoko
   name: Sahoko Morotsuki
@@ -89100,7 +89100,7 @@
   - friends
   core_games:
   - scarlet-violet
-  first: 2022
+  first: 2011
   last: 2025
 - key: hosokawa tony
   name: Tony Hosokawa
@@ -89132,7 +89132,7 @@
   - detective-pikachu-returns
   core_games:
   - scarlet-violet
-  first: 2022
+  first: 2015
   last: 2023
 - key: atsushi nakano
   name: Atsushi Nakano
@@ -89164,8 +89164,8 @@
   - new-pokemon-snap
   core_games:
   - legends-za
-  first: 2025
-  last: 2021
+  first: 2015
+  last: 2025
 - key: akira vivienne
   name: Akira Vivienne
   variants:
@@ -89193,8 +89193,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2023
+  last: 2026
 - key: hoshino masaaki
   name: Masaaki Hoshino
   variants:
@@ -89227,8 +89227,8 @@
   - new-pokemon-snap
   core_games:
   - champions
-  first: 2026
-  last: 2021
+  first: 2015
+  last: 2026
 - key: nakatani sei
   name: Sei Nakatani
   variants:
@@ -89256,8 +89256,8 @@
   - new-pokemon-snap
   core_games:
   - champions
-  first: 2026
-  last: 2021
+  first: 2015
+  last: 2026
 - key: amagiri shu
   name: Shu Amagiri
   variants:
@@ -89288,8 +89288,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2023
+  last: 2026
 - key: hayashi yui
   name: Yui Hayashi
   variants:
@@ -89320,8 +89320,8 @@
   - sleep
   core_games:
   - champions
-  first: 2026
-  last: 2023
+  first: 2015
+  last: 2026
 - key: hara yuta
   name: Yuta Hara
   variants:
@@ -89353,8 +89353,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2023
+  last: 2026
 - key: daisuke miyao
   name: Daisuke Miyao
   variants:
@@ -89400,7 +89400,7 @@
   - puzzle-challenge
   core_games:
   - crystal
-  first: 2000
+  first: 1999
   last: 2000
 - key: hiroaki tamura
   name: Hiroaki Tamura
@@ -89464,7 +89464,7 @@
   - stadium-2
   core_games:
   - crystal
-  first: 2000
+  first: 1999
   last: 2000
 - key: nicolas robert
   name: Nicolas Robert
@@ -89566,7 +89566,7 @@
   - channel
   core_games:
   - box
-  first: 2003
+  first: 2002
   last: 2003
 - key: mari shirakawa
   name: Mari Shirakawa
@@ -89621,8 +89621,8 @@
   - stadium-2
   core_games:
   - box
-  first: 2003
-  last: 2000
+  first: 1999
+  last: 2003
 - key: kurome tomoaki
   name: Tomoaki Kuroume
   variants:
@@ -89648,7 +89648,7 @@
   - colosseum
   core_games:
   - box
-  first: 2003
+  first: 2000
   last: 2003
 - key: arrate ugarte
   name: Arrate Ugarte
@@ -89671,7 +89671,7 @@
   - dash
   core_games:
   - firered-leafgreen
-  first: 2004
+  first: 2003
   last: 2004
 - key: erkan kasap
   name: Erkan Kasap
@@ -89693,7 +89693,7 @@
   - battle-revolution
   core_games:
   - firered-leafgreen
-  first: 2004
+  first: 2003
   last: 2006
 - key: angel gago jesus rodriguez
   name: Jesús Ángel Rodríguez Gago
@@ -89740,8 +89740,8 @@
   - colosseum
   core_games:
   - firered-leafgreen
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
 - key: messerli zadia
   name: Zadia Messerli
   variants:
@@ -89762,7 +89762,7 @@
   - my-pokemon-ranch
   core_games:
   - firered-leafgreen
-  first: 2004
+  first: 2003
   last: 2008
 - key: hayashi yuki
   name: Yuki Hayashi
@@ -89868,7 +89868,7 @@
   - mystery-dungeon-explorers-of-sky
   core_games:
   - platinum
-  first: 2008
+  first: 2007
   last: 2009
 - key: hamaguchi ryuji
   name: Ryuji Hamaguchi
@@ -89917,8 +89917,8 @@
   - pokepark-2
   core_games:
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 1999
+  last: 2012
 - key: david higueras
   name: David Higueras
   variants:
@@ -89939,8 +89939,8 @@
   - pokepark-2
   core_games:
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 2011
+  last: 2012
 - key: inoe keiko
   name: Keiko Inoue
   variants:
@@ -89993,7 +89993,7 @@
   - quest
   core_games:
   - x-y
-  first: 2013
+  first: 2011
   last: 2018
 - key: kazuhiro suganuma
   name: Kazuhiro Suganuma
@@ -90019,8 +90019,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2009
+  last: 2013
 - key: arisaka koichi
   name: Koichi Arisaka
   variants:
@@ -90046,8 +90046,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2010
+  last: 2013
 - key: masashi nakata
   name: Masashi Nakata
   variants:
@@ -90100,8 +90100,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2006
+  last: 2013
 - key: ochiai takeshi
   name: Takeshi Ochiai
   variants:
@@ -90126,8 +90126,8 @@
   - pokedex-3d
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2009
+  last: 2013
 - key: takeshi tsuzaki
   name: Takeshi Tsuzaki
   variants:
@@ -90152,7 +90152,7 @@
   - detective-pikachu-returns
   core_games:
   - x-y
-  first: 2013
+  first: 2012
   last: 2023
 - key: chikamochi yamato
   name: Yamato Chikamochi
@@ -90208,8 +90208,8 @@
   - stadium-2
   core_games:
   - x-y
-  first: 2013
-  last: 2000
+  first: 2000
+  last: 2013
 - key: anzaghe zuber
   name: Zuber Anzaghe
   variants:
@@ -90233,8 +90233,8 @@
   - pokedex-3d
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2008
+  last: 2013
 - key: jahn robert
   name: Robert Jahn
   variants:
@@ -90257,7 +90257,7 @@
   - pokken-tournament
   core_games:
   - oras
-  first: 2014
+  first: 2012
   last: 2015
 - key: rosa tsukamoto
   name: Rosa Tsukamoto
@@ -90312,8 +90312,8 @@
   - conquest
   core_games:
   - oras
-  first: 2014
-  last: 2012
+  first: 2011
+  last: 2014
 - key: james michael
   name: James Michael
   variants:
@@ -90337,7 +90337,7 @@
   - detective-pikachu
   core_games:
   - sun-moon
-  first: 2016
+  first: 2015
   last: 2016
 - key: akiyama masaya
   name: Masaya Akiyama
@@ -90362,8 +90362,8 @@
   - xd
   core_games:
   - sun-moon
-  first: 2016
-  last: 2005
+  first: 2003
+  last: 2016
 - key: megumi shichida
   name: Megumi Shichida
   variants:
@@ -90389,8 +90389,8 @@
   - super-mystery-dungeon
   core_games:
   - sun-moon
-  first: 2016
-  last: 2015
+  first: 2015
+  last: 2016
 - key: wang yinjuan
   name: Yinjuan Wang
   variants:
@@ -90462,8 +90462,8 @@
   - rumble-blast
   core_games:
   - sun-moon
-  first: 2016
-  last: 2011
+  first: 2011
+  last: 2016
 - key: kaneko ron
   name: Ron Kaneko
   variants:
@@ -90487,8 +90487,8 @@
   - detective-pikachu-birth-of-a-new-duo
   core_games:
   - usum
-  first: 2017
-  last: 2016
+  first: 2016
+  last: 2017
 - key: tasevski zoran
   name: Zoran Tasevski
   variants:
@@ -90591,7 +90591,7 @@
   - mystery-dungeon-rescue-team-dx
   core_games:
   - lets-go
-  first: 2018
+  first: 2015
   last: 2020
 - key: shimonklein yannick
   name: Yannick Simonklein
@@ -90653,8 +90653,8 @@
   - pokepark-2
   core_games:
   - sword-shield
-  first: 2019
-  last: 2011
+  first: 2003
+  last: 2019
 - key: laura soto toral
   name: Laura Soto Toral
   variants:
@@ -90676,8 +90676,8 @@
   - detective-pikachu
   core_games:
   - sword-shield
-  first: 2019
-  last: 2016
+  first: 2015
+  last: 2019
 - key: sejima shoji
   name: Shoji Sejima
   variants:
@@ -90730,7 +90730,7 @@
   - new-pokemon-snap
   core_games:
   - sword-shield
-  first: 2019
+  first: 2006
   last: 2021
 - key: kawahara wataru
   name: Wataru Kawahara
@@ -90755,8 +90755,8 @@
   - pokedex-3d-pro
   core_games:
   - sword-shield
-  first: 2019
-  last: 2012
+  first: 2011
+  last: 2019
 - key: cai yiping
   name: Yiping Cai
   variants:
@@ -90806,7 +90806,7 @@
   - detective-pikachu-returns
   core_games:
   - sword-shield
-  first: 2019
+  first: 2016
   last: 2023
 - key: eriko suzuki
   name: Eriko Suzuki
@@ -90833,8 +90833,8 @@
   - super-mystery-dungeon
   core_games:
   - bdsp
-  first: 2021
-  last: 2015
+  first: 2015
+  last: 2021
 - key: fukuda jun
   name: Jun Fukuda
   variants:
@@ -90858,7 +90858,7 @@
   - sleep
   core_games:
   - bdsp
-  first: 2021
+  first: 2016
   last: 2023
 - key: sato sei
   name: Sei Sato
@@ -90882,8 +90882,8 @@
   - puzzle-league
   core_games:
   - bdsp
-  first: 2021
-  last: 2000
+  first: 1999
+  last: 2021
 - key: potzl sven
   name: Sven Pötzl
   variants:
@@ -90906,7 +90906,7 @@
   - detective-pikachu-returns
   core_games:
   - bdsp
-  first: 2021
+  first: 2008
   last: 2023
 - key: onuma yumiko
   name: Yumiko Ohnuma
@@ -90959,8 +90959,8 @@
   - pokken-tournament-dx
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2017
+  first: 2015
+  last: 2022
 - key: tamura yoshihiro
   name: Yoshihiro Tamura
   variants:
@@ -90986,8 +90986,8 @@
   - mystery-dungeon-rescue-team-dx
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2020
+  first: 2015
+  last: 2022
 - key: alex small
   name: Alex Small
   variants:
@@ -91015,8 +91015,8 @@
   - trading-card-game-pocket
   core_games:
   - pokopia
-  first: 2026
-  last: 2024
+  first: 2023
+  last: 2026
 - key: chris kuehnberger
   name: Chris Kuehnberger
   variants:
@@ -91039,8 +91039,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2015
+  last: 2026
 - key: daijiro imoto
   name: Daijiro Imoto
   variants:
@@ -91066,8 +91066,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2023
+  last: 2026
 - key: elin rummel
   name: Elin Rummel
   variants:
@@ -91090,8 +91090,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2023
+  last: 2026
 - key: fahreen merali
   name: Fahreen Merali
   variants:
@@ -91114,8 +91114,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2020
+  last: 2026
 - key: lu pellazar
   name: Lu Pellazar
   variants:
@@ -91138,8 +91138,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2024
+  last: 2026
 - key: miyamoto yohei
   name: Yohei Miyamoto
   variants:
@@ -91162,8 +91162,8 @@
   - new-pokemon-snap
   core_games:
   - champions
-  first: 2026
-  last: 2021
+  first: 2020
+  last: 2026
 - key: arita yuichi
   name: Yuichi Arita
   variants:
@@ -91188,8 +91188,8 @@
   - trading-card-game-pocket
   core_games:
   - pokopia
-  first: 2026
-  last: 2024
+  first: 2019
+  last: 2026
 - key: markus pfitzner
   name: Markus Pfitzner
   variants:
@@ -91373,8 +91373,8 @@
   - puzzle-league
   core_games:
   - box
-  first: 2003
-  last: 2000
+  first: 2000
+  last: 2003
 - key: chris strau
   name: Chris Strauß
   variants:
@@ -91391,8 +91391,8 @@
   - puzzle-league
   core_games:
   - firered-leafgreen
-  first: 2004
-  last: 2000
+  first: 2000
+  last: 2004
 - key: barsan daniel
   name: Daniel Barsan
   variants:
@@ -91428,8 +91428,8 @@
   - channel
   core_games:
   - firered-leafgreen
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
 - key: hidenori saeki
   name: Hidenori Saeki
   variants:
@@ -91448,8 +91448,8 @@
   - colosseum
   core_games:
   - emerald
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
 - key: hideyuki nakajima
   name: Hideyuki Nakajima
   variants:
@@ -91468,8 +91468,8 @@
   - colosseum
   core_games:
   - emerald
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
 - key: garrido gonzalez ivan
   name: Iván Garrido González
   variants:
@@ -91504,8 +91504,8 @@
   - puzzle-challenge
   core_games:
   - firered-leafgreen
-  first: 2004
-  last: 2000
+  first: 2000
+  last: 2004
 - key: dieshing pierre
   name: Pierre Diesing
   variants:
@@ -91523,8 +91523,8 @@
   - channel
   core_games:
   - firered-leafgreen
-  first: 2004
-  last: 2003
+  first: 2003
+  last: 2004
 - key: ronberg stefan
   name: Stefan Romberg
   variants:
@@ -91736,8 +91736,8 @@
   - tetris
   core_games:
   - heartgold-soulsilver
-  first: 2009
-  last: 2002
+  first: 2002
+  last: 2009
 - key: rosa wanpler
   name: Rosa Wampler
   variants:
@@ -91791,8 +91791,8 @@
   - pokepark-2
   core_games:
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 2011
+  last: 2012
 - key: josh newman
   name: Josh Newman
   variants:
@@ -91809,8 +91809,8 @@
   - pokepark-wii
   core_games:
   - dream-radar
-  first: 2012
-  last: 2009
+  first: 2009
+  last: 2012
 - key: rie seki
   name: Rie Seki
   variants:
@@ -91838,8 +91838,8 @@
   - pokepark-2
   core_games:
   - dream-radar
-  first: 2012
-  last: 2011
+  first: 2011
+  last: 2012
 - key: aaron canpion
   name: Aaron Campion
   variants:
@@ -91900,8 +91900,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2013
 - key: hirotake matsushita
   name: Hirotake Matsushita
   variants:
@@ -91962,8 +91962,8 @@
   - pokepark-wii
   core_games:
   - x-y
-  first: 2013
-  last: 2009
+  first: 2009
+  last: 2013
 - key: keisuke okubo
   name: Keisuke Okubo
   variants:
@@ -92005,8 +92005,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2013
 - key: ihara kunihito
   name: Kunihito Ihara
   variants:
@@ -92049,8 +92049,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2013
 - key: hiyoshi nahoko
   name: Nahoko Hiyoshi
   variants:
@@ -92091,8 +92091,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2013
 - key: ishi nozomi
   name: Nozomi Ishii
   variants:
@@ -92113,8 +92113,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2013
 - key: inomata ryo
   name: Ryo Inomata
   variants:
@@ -92134,8 +92134,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2013
 - key: hiranabe shino
   name: Shino Hiranabe
   variants:
@@ -92156,8 +92156,8 @@
   - pokepark-wii
   core_games:
   - x-y
-  first: 2013
-  last: 2009
+  first: 2009
+  last: 2013
 - key: kashiwano sunao
   name: Sunao Kashiwano
   variants:
@@ -92177,8 +92177,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2013
 - key: abe tadashi
   name: Tadashi Abe
   variants:
@@ -92199,8 +92199,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2013
 - key: hosoya takahiro
   name: Takahiro Hosoya
   variants:
@@ -92269,8 +92269,8 @@
   - learn-with-pokemon-typing-adventure
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2013
 - key: ngo vincent
   name: Vincent Ngo
   variants:
@@ -92288,8 +92288,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2013
 - key: iwata yoshihiro
   name: Yoshihiro Iwata
   variants:
@@ -92309,8 +92309,8 @@
   - pokedex-3d-pro
   core_games:
   - x-y
-  first: 2013
-  last: 2012
+  first: 2012
+  last: 2013
 - key: numoto yoshinori
   name: Yoshinori Numoto
   variants:
@@ -92331,8 +92331,8 @@
   - pokepark-2
   core_games:
   - x-y
-  first: 2013
-  last: 2011
+  first: 2011
+  last: 2013
 - key: ishikawa yuta
   name: Yuta Ishikawa
   variants:
@@ -92375,8 +92375,8 @@
   - rumble-u
   core_games:
   - oras
-  first: 2014
-  last: 2013
+  first: 2013
+  last: 2014
 - key: araiwa gyo
   name: Gyo Araiwa
   variants:
@@ -92397,8 +92397,8 @@
   - rumble-u
   core_games:
   - oras
-  first: 2014
-  last: 2013
+  first: 2013
+  last: 2014
 - key: pommer sandra
   name: Sandra Pommer
   variants:
@@ -92436,8 +92436,8 @@
   - pokken-tournament
   core_games:
   - sun-moon
-  first: 2016
-  last: 2015
+  first: 2015
+  last: 2016
 - key: elisa lapini
   name: Elisa Lapini
   variants:
@@ -92519,8 +92519,8 @@
   - ranger-guardian-signs
   core_games:
   - sun-moon
-  first: 2016
-  last: 2010
+  first: 2010
+  last: 2016
 - key: orie watanabe
   name: Orie Watanabe
   variants:
@@ -92621,8 +92621,8 @@
   - the-thieves-and-the-1000-pokemon
   core_games:
   - sun-moon
-  first: 2016
-  last: 2014
+  first: 2014
+  last: 2016
 - key: brigitte deisenhammer
   name: Brigitte Deisenhammer
   variants:
@@ -92641,8 +92641,8 @@
   - detective-pikachu
   core_games:
   - usum
-  first: 2017
-  last: 2016
+  first: 2016
+  last: 2017
 - key: hidenori kobayashi
   name: Hidenori Kobayashi
   variants:
@@ -92661,8 +92661,8 @@
   - detective-pikachu
   core_games:
   - usum
-  first: 2017
-  last: 2016
+  first: 2016
+  last: 2017
 - key: grenier jake
   name: Jake Grenier
   variants:
@@ -92701,8 +92701,8 @@
   - detective-pikachu
   core_games:
   - usum
-  first: 2017
-  last: 2016
+  first: 2016
+  last: 2017
 - key: ohinata shun
   name: Shun Ohinata
   variants:
@@ -92723,8 +92723,8 @@
   - picross
   core_games:
   - usum
-  first: 2017
-  last: 2015
+  first: 2015
+  last: 2017
 - key: dolera hernandez mercedes
   name: Mercedes Dólera Hernández
   variants:
@@ -92763,8 +92763,8 @@
   - detective-pikachu
   core_games:
   - lets-go
-  first: 2018
-  last: 2016
+  first: 2016
+  last: 2018
 - key: riyu tamura
   name: Riyu Tamura
   variants:
@@ -92782,8 +92782,8 @@
   - art-academy
   core_games:
   - lets-go
-  first: 2018
-  last: 2014
+  first: 2014
+  last: 2018
 - key: takahiro uchida
   name: Takahiro Uchida
   variants:
@@ -92803,8 +92803,8 @@
   - duel
   core_games:
   - lets-go
-  first: 2018
-  last: 2016
+  first: 2016
+  last: 2018
 - key: churchyard paul
   name: Paul Churchyard
   variants:
@@ -92845,8 +92845,8 @@
   - pokepark-2
   core_games:
   - sword-shield
-  first: 2019
-  last: 2011
+  first: 2011
+  last: 2019
 - key: izumi tatsuya
   name: Tatsuya Izumi
   variants:
@@ -92867,8 +92867,8 @@
   - detective-pikachu
   core_games:
   - sword-shield
-  first: 2019
-  last: 2016
+  first: 2016
+  last: 2019
 - key: tetsuya tochigi
   name: Tetsuya Tochigi
   variants:
@@ -92919,8 +92919,8 @@
   - detective-pikachu
   core_games:
   - sword-shield
-  first: 2019
-  last: 2016
+  first: 2016
+  last: 2019
 - key: gary meads
   name: Gary Meads
   variants:
@@ -92939,8 +92939,8 @@
   - mystery-dungeon-rescue-team-dx
   core_games:
   - bdsp
-  first: 2021
-  last: 2020
+  first: 2020
+  last: 2021
 - key: manabu nakamura
   name: Manabu Nakamura
   variants:
@@ -92963,8 +92963,8 @@
   - colosseum
   core_games:
   - bdsp
-  first: 2021
-  last: 2003
+  first: 2003
+  last: 2021
 - key: david jones matthew
   name: Matthew David Jones
   variants:
@@ -92982,8 +92982,8 @@
   - shuffle
   core_games:
   - bdsp
-  first: 2021
-  last: 2015
+  first: 2015
+  last: 2021
 - key: misao yoshida
   name: Misao Yoshida
   variants:
@@ -93002,8 +93002,8 @@
   - battle-trozei
   core_games:
   - bdsp
-  first: 2021
-  last: 2014
+  first: 2014
+  last: 2021
 - key: misato takahashi
   name: Misato Takahashi
   variants:
@@ -93042,8 +93042,8 @@
   - colosseum
   core_games:
   - bdsp
-  first: 2021
-  last: 2003
+  first: 2003
+  last: 2021
 - key: cruz tammy vince
   name: Tammy Vince Cruz
   variants:
@@ -93083,8 +93083,8 @@
   - mystery-dungeon-rescue-team-dx
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2020
+  first: 2020
+  last: 2022
 - key: hiroki izui
   name: Hiroki Izui
   variants:
@@ -93125,8 +93125,8 @@
   - battle-revolution
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2006
+  first: 2006
+  last: 2022
 - key: junichiro matsumoto
   name: Junichiro Matsumoto
   variants:
@@ -93170,8 +93170,8 @@
   - shuffle
   core_games:
   - scarlet-violet
-  first: 2022
-  last: 2015
+  first: 2015
+  last: 2022
 - key: mao yue
   name: Mao Yue
   variants:
@@ -93241,8 +93241,8 @@
   - shuffle
   core_games:
   - legends-arceus
-  first: 2022
-  last: 2015
+  first: 2015
+  last: 2022
 - key: okamura shingo
   name: Shingo Okamura
   variants:
@@ -93307,8 +93307,8 @@
   - detective-pikachu
   core_games:
   - legends-arceus
-  first: 2022
-  last: 2016
+  first: 2016
+  last: 2022
 - key: long wang zhong
   name: Zhong Long Wang
   variants:
@@ -93328,8 +93328,8 @@
   - new-pokemon-snap
   core_games:
   - legends-arceus
-  first: 2022
-  last: 2021
+  first: 2021
+  last: 2022
 - key: carolina quesada
   name: Carolina Quesada
   variants:
@@ -93414,8 +93414,8 @@
   - mystery-dungeon-rescue-team-dx
   core_games:
   - area-zero
-  first: 2023
-  last: 2020
+  first: 2020
+  last: 2023
 - key: jonatan marcos millan
   name: Jónatan Marcos Millán
   variants:
@@ -93477,8 +93477,8 @@
   - smile
   core_games:
   - legends-za
-  first: 2025
-  last: 2020
+  first: 2020
+  last: 2025
 - key: akihiro okada
   name: Akihiro Okada
   variants:
@@ -93503,8 +93503,8 @@
   - shuffle
   core_games:
   - legends-za
-  first: 2025
-  last: 2015
+  first: 2015
+  last: 2025
 - key: hayato kato
   name: Hayato Kato
   variants:
@@ -93525,8 +93525,8 @@
   - detective-pikachu-returns
   core_games:
   - legends-za
-  first: 2025
-  last: 2023
+  first: 2023
+  last: 2025
 - key: mariko watanabe
   name: Mariko Watanabe
   variants:
@@ -93547,8 +93547,8 @@
   - trading-card-game-pocket
   core_games:
   - legends-za
-  first: 2025
-  last: 2024
+  first: 2024
+  last: 2025
 - key: kamiya mitsuki
   name: Mitsuki Kamiya
   variants:
@@ -93569,8 +93569,8 @@
   - sleep
   core_games:
   - legends-za
-  first: 2025
-  last: 2023
+  first: 2023
+  last: 2025
 - key: ryo sasaki
   name: Ryo Sasaki
   variants:
@@ -93591,8 +93591,8 @@
   - trading-card-game-pocket
   core_games:
   - legends-za
-  first: 2025
-  last: 2024
+  first: 2024
+  last: 2025
 - key: hosoe shinji
   name: Shinji Hosoe
   variants:
@@ -93613,8 +93613,8 @@
   - quest
   core_games:
   - legends-za
-  first: 2025
-  last: 2018
+  first: 2018
+  last: 2025
 - key: okada shunya
   name: Shunya Okada
   variants:
@@ -93635,8 +93635,8 @@
   - sleep
   core_games:
   - legends-za
-  first: 2025
-  last: 2023
+  first: 2023
+  last: 2025
 - key: eguchi takahiro
   name: Takahiro Eguchi
   variants:
@@ -93657,8 +93657,8 @@
   - quest
   core_games:
   - legends-za
-  first: 2025
-  last: 2018
+  first: 2018
+  last: 2025
 - key: adrian wildandyawan
   name: Adrian Wildandyawan
   variants:
@@ -93677,8 +93677,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: asami yamamoto
   name: Asami Yamamoto
   variants:
@@ -93700,8 +93700,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: ayaka tori
   name: Ayaka Torii
   variants:
@@ -93719,8 +93719,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: chihiro ito
   name: Chihiro Ito
   variants:
@@ -93741,8 +93741,8 @@
   - sleep
   core_games:
   - pokopia
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: daniel lizarraga
   name: Daniel Lizarraga
   variants:
@@ -93760,8 +93760,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: emi takeyama
   name: Emi Takeyama
   variants:
@@ -93779,8 +93779,8 @@
   - battle-trozei
   core_games:
   - champions
-  first: 2026
-  last: 2014
+  first: 2014
+  last: 2026
 - key: endo misuzu
   name: Endo Misuzu
   variants:
@@ -93803,8 +93803,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: fumiya sugawara
   name: Fumiya Sugawara
   variants:
@@ -93822,8 +93822,8 @@
   - new-pokemon-snap
   core_games:
   - champions
-  first: 2026
-  last: 2021
+  first: 2021
+  last: 2026
 - key: hidetaka takeda
   name: Hidetaka Takeda
   variants:
@@ -93841,8 +93841,8 @@
   - sleep
   core_games:
   - champions
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: hisashi koinuma
   name: Hisashi Koinuma
   variants:
@@ -93871,8 +93871,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: haraldsson heinn
   name: Héðinn Haraldsson
   variants:
@@ -93890,8 +93890,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: isana kurokawa
   name: Isana Kurokawa
   variants:
@@ -93909,8 +93909,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: kaisei okuyama
   name: Kaisei Okuyama
   variants:
@@ -93931,8 +93931,8 @@
   - detective-pikachu-returns
   core_games:
   - pokopia
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: kaoru kikugawa
   name: Kaoru Kikugawa
   variants:
@@ -93954,8 +93954,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: keisuke matsumura
   name: Keisuke Matsumura
   variants:
@@ -93973,8 +93973,8 @@
   - pokken-tournament-dx
   core_games:
   - champions
-  first: 2026
-  last: 2017
+  first: 2017
+  last: 2026
 - key: keiya nakahara
   name: Keiya Nakahara
   variants:
@@ -93996,8 +93996,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: ken visudharomn
   name: Ken Visudharomn
   variants:
@@ -94015,8 +94015,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: kosuke nakajima
   name: Kosuke Nakajima
   variants:
@@ -94038,8 +94038,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: ariyoshi kotaro
   name: Kotaro Ariyoshi
   variants:
@@ -94057,8 +94057,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: fukazawa koichi
   name: Kouichi Fukazawa
   variants:
@@ -94076,8 +94076,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: ishida kyohei
   name: Kyouhei Ishida
   variants:
@@ -94096,8 +94096,8 @@
   - mystery-dungeon-red-rescue-team-and-blue-rescue-team
   core_games:
   - champions
-  first: 2026
-  last: 2005
+  first: 2005
+  last: 2026
 - key: kitajima masahiro
   name: Masahiro Kitajima
   variants:
@@ -94115,8 +94115,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: kitamura masato
   name: Masato Kitamura
   variants:
@@ -94140,8 +94140,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: hidaka michiko
   name: Michiko Hidaka
   variants:
@@ -94159,8 +94159,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: hirono miyuki
   name: Miyuki Hirono
   variants:
@@ -94178,8 +94178,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: mahan nick
   name: Nick Mahan
   variants:
@@ -94197,8 +94197,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: le randy
   name: Randy Le
   variants:
@@ -94217,8 +94217,8 @@
   - detective-pikachu-returns
   core_games:
   - pokopia
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: oshima reina
   name: Reina Ohshima
   variants:
@@ -94236,8 +94236,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: hirose rintaro
   name: Rintaro Hirose
   variants:
@@ -94255,8 +94255,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: ryoma tachimoto
   name: Ryoma Tachimoto
   variants:
@@ -94274,8 +94274,8 @@
   - sleep
   core_games:
   - champions
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: nakada ryuichi
   name: Ryuichi Nakada
   variants:
@@ -94295,8 +94295,8 @@
   - puzzle-challenge
   core_games:
   - pokopia
-  first: 2026
-  last: 2000
+  first: 2000
+  last: 2026
 - key: hiraoka satoru
   name: Satoru Hiraoka
   variants:
@@ -94314,8 +94314,8 @@
   - sleep
   core_games:
   - champions
-  first: 2026
-  last: 2023
+  first: 2023
+  last: 2026
 - key: sayaka takahashi
   name: Sayaka Takahashi
   variants:
@@ -94337,8 +94337,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: ka shin
   name: Shiin Ka
   variants:
@@ -94356,8 +94356,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: iguchi shinya
   name: Shinya Iguchi
   variants:
@@ -94375,8 +94375,8 @@
   - friends
   core_games:
   - champions
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: meyerink stephen
   name: Stephen Meyerink
   variants:
@@ -94398,8 +94398,8 @@
   - trading-card-game-pocket
   core_games:
   - pokopia
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: baker takashi
   name: Takashi Baker
   variants:
@@ -94418,8 +94418,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: arai tomohiro
   name: Tomohiro Arai
   variants:
@@ -94440,8 +94440,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: lung winston
   name: Winston Lung
   variants:
@@ -94463,8 +94463,8 @@
   - trading-card-game-pocket
   core_games:
   - champions
-  first: 2026
-  last: 2024
+  first: 2024
+  last: 2026
 - key: nagata yasuko
   name: Yasuko Nagata
   variants:
@@ -94486,8 +94486,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: ikeno yuki
   name: Yuki Ikeno
   variants:
@@ -94509,8 +94509,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: tabuchi yuki
   name: Yuki Tabuchi
   variants:
@@ -94531,8 +94531,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: park yunjin
   name: Yunjin Park
   variants:
@@ -94553,8 +94553,8 @@
   - friends
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: nishizaki yura
   name: Yura Nishizaki
   variants:
@@ -94577,8 +94577,8 @@
   - conquest
   core_games:
   - pokopia
-  first: 2026
-  last: 2012
+  first: 2012
+  last: 2026
 - key: kudo yusuke
   name: Yusuke Kudo
   variants:
@@ -94599,8 +94599,8 @@
   - new-pokemon-snap
   core_games:
   - pokopia
-  first: 2026
-  last: 2021
+  first: 2021
+  last: 2026
 - key: yu zhanghong
   name: Zhanghong Yu
   variants:
@@ -94618,8 +94618,8 @@
   - goita-tutorial-app
   core_games:
   - pokopia
-  first: 2026
-  last: 2025
+  first: 2025
+  last: 2026
 - key: f tappert
   name: F. Tappert
   variants:

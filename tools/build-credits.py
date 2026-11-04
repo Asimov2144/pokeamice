@@ -851,14 +851,17 @@ def cmd_index():
             p["name"] += " " + p["key"][p["key"].rindex("("):]
         p["games"] = sorted({c["game"] for c in p["credits"]}, key=order.get)
         p["core_games"] = [g for g in p["games"] if g in core]
-        p["first"] = p["credits"][0]["year"]
-        p["last"] = p["credits"][-1]["year"]
+        # credits 是核心作在前、外传在后，首行和末行不是最早和最晚
+        years = [c["year"] for c in p["credits"]]
+        p["first"] = min(years)
+        p["last"] = max(years)
         for fld in ("variants", "links", "kanji", "kana"):
             if not p[fld]:
                 del p[fld]
         if len(p.get("kanji", [])) > 1:
             p["flag"] = "多个汉字写法：可能是同罗马字的不同人"
-    rows = sorted(people.values(), key=lambda p: (-len(p["core_games"]), -len(p["games"]), p["first"], p["name"]))
+    # 排序的年份用首行（最早的核心作），不用 first：build-credits-site.py 按索引顺序先到先得地对登记表、分配 slug，顺序变了可能换人
+    rows = sorted(people.values(), key=lambda p: (-len(p["core_games"]), -len(p["games"]), p["credits"][0]["year"], p["name"]))
     with INDEX_FILE.open("w", encoding="utf-8") as fh:
         fh.write("# 由 tools/build-credits.py index 生成：历作 staff 每人一条（罗马字归一合并，variants / kanji 供核对同名异人）\n")
         yaml.safe_dump(rows, fh, allow_unicode=True, sort_keys=False, width=200)
