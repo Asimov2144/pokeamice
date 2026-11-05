@@ -83,6 +83,13 @@ def check_person_pages(site: Path) -> None:
     jumps = big.select("[data-person-jump] a")
     check(len(jumps) >= 3 and all(big.select_one(a.get("href")) is not None for a in jumps),
           f"person: the jump line on a long page lands ({[a.get('href') for a in jumps]})")
+    games = [a.get("href") for a in big.select(".person__credits-table tbody td:first-child a")]
+    credited = int(re.match(r"\d+", stats["署名"]).group())
+    check(len(games) == credited and len(set(games)) == credited,
+          f"person: the credits table is one row a game ({len(games)} rows, {credited} games)")
+    roles = big.select(".person__credit-line")
+    check(len(roles) > len(games) and big.select_one(".person__credits-sep") is not None,
+          f"person: {len(roles)} roles stay on those rows, and the spin-offs are marked")
     tiny = read(site / "people" / "lu-lai-dao-ying-jie" / "index.html")
     check(tiny is not None and tiny.select_one("[data-person-jump]") is None and len(tiny.select("#person-docs tbody tr")) > 0
           and tiny.select_one("#person-blogs") is None, "person: a short page has no jump line and no blog section")

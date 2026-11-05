@@ -696,6 +696,8 @@ body.theme-bg-black:not(.archive-reproduction-theme):not([data-era]) .person--pr
   }
 
   .person__pub-title, .person__credits-role { color: var(--pn-text); }
+  .person__credits .person__credits-sep th { background: none; color: var(--pn-text); small { color: var(--pn-mute); } }
+  .person__credits .is-spin td:first-child a { color: var(--pn-mute) !important; }
   .person__pub-works .is-work { color: #a9cc95; }
   .person__credits-role b { color: #d3b679; }
 
