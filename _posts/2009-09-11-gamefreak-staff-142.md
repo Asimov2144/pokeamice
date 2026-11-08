@@ -86,7 +86,7 @@ entities:
 
 聊了聊心金·魂银！<br>
 
-[http://touch-ds.jp/mfs/st112/interview1.html](http://touch-ds.jp/mfs/st112/interview1.html)
+[http://touch-ds.jp/mfs/st112/interview1.html](https://web.archive.org/web/20090908105856/http://touch-ds.jp/mfs/st112/interview1.html)
 
 今后，我们也计划请心金·魂银的<br>
 
@@ -128,7 +128,7 @@ entities:
 
 ハートゴールド・ソウルシルバーについて語ってきました！<br>
 
-[http://touch-ds.jp/mfs/st112/interview1.html](http://touch-ds.jp/mfs/st112/interview1.html)
+[http://touch-ds.jp/mfs/st112/interview1.html](https://web.archive.org/web/20090908105856/http://touch-ds.jp/mfs/st112/interview1.html)
 
 今後、このブログでもハートゴールド・ソウルシルバーの<br>
 

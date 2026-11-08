@@ -48,19 +48,19 @@ entities:
 
 欧洲终于要在3月4日发售了！
 
-[http://www.pokemonblackwhite.com/fr-fr/](http://www.pokemonblackwhite.com/fr-fr/)
+[http://www.pokemonblackwhite.com/fr-fr/](https://web.archive.org/web/20110210211023/http://www.pokemonblackwhite.com/fr-fr/)
 
-[http://www.pokemonblackwhite.com/es-es/](http://www.pokemonblackwhite.com/es-es/)
+[http://www.pokemonblackwhite.com/es-es/](https://web.archive.org/web/20110207221635/http://www.pokemonblackwhite.com/es-es/)
 
-[http://www.pokemonblackwhite.com/it-it/](http://www.pokemonblackwhite.com/it-it/)
+[http://www.pokemonblackwhite.com/it-it/](https://web.archive.org/web/20110215024525/http://www.pokemonblackwhite.com/it-it/)
 
-[http://www.pokemonblackwhite.com/de-de/](http://www.pokemonblackwhite.com/de-de/)
+[http://www.pokemonblackwhite.com/de-de/](https://web.archive.org/web/20110221131544/http://www.pokemonblackwhite.com/de-de/)
 
-[http://www.pokemonblackwhite.com/en-gb/](http://www.pokemonblackwhite.com/en-gb/)
+[http://www.pokemonblackwhite.com/en-gb/](https://web.archive.org/web/20110214012727/http://www.pokemonblackwhite.com/en-gb/)
 
 然后是3月6日！北美也要发售了！
 
-[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+[http://www.pokemonblackwhite.com/en-us/](https://web.archive.org/web/20101229121826/http://www.pokemonblackwhite.com/en-us/)
 
 终于要发售了！
 
@@ -89,19 +89,19 @@ entities:
 
 ついに、３月４日に欧州が！
 
-[http://www.pokemonblackwhite.com/fr-fr/](http://www.pokemonblackwhite.com/fr-fr/)
+[http://www.pokemonblackwhite.com/fr-fr/](https://web.archive.org/web/20110210211023/http://www.pokemonblackwhite.com/fr-fr/)
 
-[http://www.pokemonblackwhite.com/es-es/](http://www.pokemonblackwhite.com/es-es/)
+[http://www.pokemonblackwhite.com/es-es/](https://web.archive.org/web/20110207221635/http://www.pokemonblackwhite.com/es-es/)
 
-[http://www.pokemonblackwhite.com/it-it/](http://www.pokemonblackwhite.com/it-it/)
+[http://www.pokemonblackwhite.com/it-it/](https://web.archive.org/web/20110215024525/http://www.pokemonblackwhite.com/it-it/)
 
-[http://www.pokemonblackwhite.com/de-de/](http://www.pokemonblackwhite.com/de-de/)
+[http://www.pokemonblackwhite.com/de-de/](https://web.archive.org/web/20110221131544/http://www.pokemonblackwhite.com/de-de/)
 
-[http://www.pokemonblackwhite.com/en-gb/](http://www.pokemonblackwhite.com/en-gb/)
+[http://www.pokemonblackwhite.com/en-gb/](https://web.archive.org/web/20110214012727/http://www.pokemonblackwhite.com/en-gb/)
 
 そして３月６日！北米で！
 
-[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+[http://www.pokemonblackwhite.com/en-us/](https://web.archive.org/web/20101229121826/http://www.pokemonblackwhite.com/en-us/)
 
 ついに発売になります！
 
@@ -132,19 +132,19 @@ entities:
 
 Finally on this March 4th, in Europe!
 
-[http://www.pokemonblackwhite.com/fr-fr/](http://www.pokemonblackwhite.com/fr-fr/)
+[http://www.pokemonblackwhite.com/fr-fr/](https://web.archive.org/web/20110210211023/http://www.pokemonblackwhite.com/fr-fr/)
 
-[http://www.pokemonblackwhite.com/es-es/](http://www.pokemonblackwhite.com/es-es/)
+[http://www.pokemonblackwhite.com/es-es/](https://web.archive.org/web/20110207221635/http://www.pokemonblackwhite.com/es-es/)
 
-[http://www.pokemonblackwhite.com/it-it/](http://www.pokemonblackwhite.com/it-it/)
+[http://www.pokemonblackwhite.com/it-it/](https://web.archive.org/web/20110215024525/http://www.pokemonblackwhite.com/it-it/)
 
-[http://www.pokemonblackwhite.com/de-de/](http://www.pokemonblackwhite.com/de-de/)
+[http://www.pokemonblackwhite.com/de-de/](https://web.archive.org/web/20110221131544/http://www.pokemonblackwhite.com/de-de/)
 
-[http://www.pokemonblackwhite.com/en-gb/](http://www.pokemonblackwhite.com/en-gb/)
+[http://www.pokemonblackwhite.com/en-gb/](https://web.archive.org/web/20110214012727/http://www.pokemonblackwhite.com/en-gb/)
 
 And on March 6th, in North America!
 
-[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+[http://www.pokemonblackwhite.com/en-us/](https://web.archive.org/web/20101229121826/http://www.pokemonblackwhite.com/en-us/)
 
 Finally at last, the game will be launched!
 

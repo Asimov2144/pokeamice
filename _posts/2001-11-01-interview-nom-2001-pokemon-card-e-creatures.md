@@ -27,6 +27,7 @@ translation_lang: zh-CN
 source:
   title: 未来へ広がるポケモンワールド／ポケモンカードe・カードeリーダー開発者インタビュー｜Nintendo Online Magazine 2001年11月号
   url: https://www.nintendo.co.jp/nom/0111/01/page02.html
+  archive_url: https://web.archive.org/web/20021216111423/https://www.nintendo.co.jp/nom/0111/01/page02.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0111/01/page02.html

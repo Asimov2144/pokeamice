@@ -117,7 +117,7 @@ entities:
 
 如果你也想在这样氛围的公司里工作，<br>
 
-请务必去看看[中途招聘信息页面](http://www.gamefreak.co.jp/recruit/career.html)哦。
+请务必去看看[中途招聘信息页面](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)哦。
 
 期待有一天能迎来后辈！<br>
 
@@ -191,7 +191,7 @@ entities:
 
 こんな雰囲気の会社で働いてみたいと考えている方は、<br>
 
-ぜひ[中途採用情報ページ](http://www.gamefreak.co.jp/recruit/career.html)チェックしてみてくださいね。
+ぜひ[中途採用情報ページ](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)チェックしてみてくださいね。
 
 後輩ができる日を楽しみにしております！<br>
 

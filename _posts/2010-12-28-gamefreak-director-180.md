@@ -55,7 +55,7 @@ entities:
 
 [http://www.pokemon.com/us/](http://www.pokemon.com/us/)
 
-[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+[http://www.pokemonblackwhite.com/en-us/](https://web.archive.org/web/20101229121826/http://www.pokemonblackwhite.com/en-us/)
 
 这样一来，就能和北美的玩家交换宝可梦之类的了。
 
@@ -76,7 +76,7 @@ entities:
 
 [http://www.pokemon.com/us/](http://www.pokemon.com/us/)
 
-[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+[http://www.pokemonblackwhite.com/en-us/](https://web.archive.org/web/20101229121826/http://www.pokemonblackwhite.com/en-us/)
 
 これで、北米の人と交換などが楽しめますね。
 
@@ -103,7 +103,7 @@ Poke’mon Black and White.
 
 [http://www.pokemon.com/us/](http://www.pokemon.com/us/)
 
-[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+[http://www.pokemonblackwhite.com/en-us/](https://web.archive.org/web/20101229121826/http://www.pokemonblackwhite.com/en-us/)
 
 Finally, we could trade our Poke’mon
 

@@ -26,6 +26,7 @@ translation_lang: zh-CN
 source:
   title: 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号
   url: https://www.nintendo.co.jp/nom/0111/03/index.html
+  archive_url: https://web.archive.org/web/20021209233121/https://www.nintendo.co.jp/nom/0111/03/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0111/03/index.html

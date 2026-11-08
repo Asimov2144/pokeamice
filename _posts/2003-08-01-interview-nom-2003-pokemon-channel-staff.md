@@ -25,6 +25,7 @@ translation_lang: zh-CN
 source:
   title: 『ポケモンチャンネル』開発スタッフインタビュー｜Nintendo Online Magazine 2003年8月号
   url: https://www.nintendo.co.jp/nom/0308/p_inter/index.html
+  archive_url: https://web.archive.org/web/20030809030439/https://www.nintendo.co.jp/nom/0308/p_inter/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0308/p_inter/index.html

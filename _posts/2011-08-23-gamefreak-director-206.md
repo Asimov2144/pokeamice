@@ -61,7 +61,7 @@ entities:
 
 没错，东京塔！！
 
-现在，[宝可梦集换式卡牌游戏夏日嘉年华](http://www.pokemon-card.com/event/card-event/summer_carnival/)正在这里的东京塔举办。
+现在，[宝可梦集换式卡牌游戏夏日嘉年华](https://web.archive.org/web/20110819011706/http://www.pokemon-card.com/event/card-event/summer_carnival/)正在这里的东京塔举办。
 
 一直到8月28日（周日），每天都在举办中！
 
@@ -89,7 +89,7 @@ entities:
 
 所以……
 
-大家，请每周都看[宝可梦Smash](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)！！
+大家，请每周都看[宝可梦Smash](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)！！
 
 下回再见咯！
 
@@ -108,7 +108,7 @@ entities:
 
 そう、東京タワー！！
 
-いま、[ポケモンカードゲームのサマーカーニバル](http://www.pokemon-card.com/event/card-event/summer_carnival/)が、
+いま、[ポケモンカードゲームのサマーカーニバル](https://web.archive.org/web/20110819011706/http://www.pokemon-card.com/event/card-event/summer_carnival/)が、
 
 ここ東京タワーで開催中。
 
@@ -138,7 +138,7 @@ entities:
 
 ということで、、、
 
-みなさん、毎週[ポケモンスマッシュ](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)観て下さい！！
+みなさん、毎週[ポケモンスマッシュ](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)観て下さい！！
 
 チャオ！
 
@@ -167,7 +167,7 @@ Yes, it’s Tokyo Tower!!
 
 Here at Tokyo Tower,
 
-[Pokémon Card game’s summer carnival](http://www.pokemon-card.com/event/card-event/summer_carnival/) is
+[Pokémon Card game’s summer carnival](https://web.archive.org/web/20110819011706/http://www.pokemon-card.com/event/card-event/summer_carnival/) is
 
 currently taking place.
 
@@ -199,7 +199,7 @@ And… I forgot to ask the day of on air.
 
 Therefor…
 
-Everyone, please watch [“Pokémon Smash”](http://www.tv-tokyo.co.jp/anime/pokemon_smash/) every week!
+Everyone, please watch [“Pokémon Smash”](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/) every week!
 
 Ciao!
 

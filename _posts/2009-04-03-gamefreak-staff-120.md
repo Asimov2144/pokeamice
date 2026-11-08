@@ -57,7 +57,7 @@ entities:
 
 我也想了想，如果只能告诉十年前的自己三件事。<br>
 
-[（上一篇的スティック（斯蒂克）参考）](http://www.gamefreak.co.jp/blog/staff/?p=112)
+[（上一篇的スティック（斯蒂克）参考）](/gamefreak-staff/entry-112/)
 
 1.多关注各种各样的事物！
 
@@ -113,7 +113,7 @@ entities:
 
 私も『 10年前の自分に３つだけ伝えられたら』を考えてみました。<br>
 
-[（前回のスティック参考）](http://www.gamefreak.co.jp/blog/staff/?p=112)
+[（前回のスティック参考）](/gamefreak-staff/entry-112/)
 
 1.いろんなモノに目を向けろ！
 

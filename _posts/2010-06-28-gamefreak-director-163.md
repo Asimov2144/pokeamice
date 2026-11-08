@@ -68,7 +68,7 @@ entities:
 请大家期待吧！！
 
 下回再见噜！
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
@@ -95,7 +95,7 @@ entities:
 
 チャオ！
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 
 </details>
@@ -136,7 +136,7 @@ Please count on!!
 
 Ciao!
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 *Launch date of Pokemon Black/White is
 

@@ -91,7 +91,7 @@ entities:
 
 宝可梦官方网站：
 
-[http://www.pokemon.co.jp/ex/important_announce/](http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
+[http://www.pokemon.co.jp/ex/important_announce/](https://web.archive.org/web/20130108083237/http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
 
 任天堂主页：
 
@@ -156,7 +156,7 @@ entities:
 
 ポケットモンスターオフィシャルサイト：
 
-[http://www.pokemon.co.jp/ex/important_announce/](http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
+[http://www.pokemon.co.jp/ex/important_announce/](https://web.archive.org/web/20130108083237/http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
 
 任天堂ホームページ：
 
@@ -235,7 +235,7 @@ Pokémon Official Site:
 
 [http://www.pokemon.com/](http://www.pokemon.com/)
 
-[http://www.pokemon.co.jp/ex/important_announce/?a001=msign](http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
+[http://www.pokemon.co.jp/ex/important_announce/?a001=msign](https://web.archive.org/web/20130108083237/http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
 
 Nintendo Homepage:
 

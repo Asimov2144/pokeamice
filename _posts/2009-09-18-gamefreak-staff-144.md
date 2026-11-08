@@ -57,7 +57,7 @@ entities:
 
 我是策划员いわし（沙丁鱼）。
 
-之前在[スティック（斯蒂克）](http://www.gamefreak.co.jp/blog/staff/?p=92)和[ジョニー（乔尼）](http://www.gamefreak.co.jp/blog/staff/?p=39)的日记里也提到过，<br>
+之前在[スティック（斯蒂克）](/gamefreak-staff/entry-92/)和[ジョニー（乔尼）](/gamefreak-staff/entry-39/)的日记里也提到过，<br>
 
 GAME FREAK 有一个叫“活动委员会”的组织，<br>
 
@@ -161,7 +161,7 @@ GAME FREAK 有一个叫“活动委员会”的组织，<br>
 
 プランナーのいわしです。
 
-随分前に[スティック](http://www.gamefreak.co.jp/blog/staff/?p=92)や[ジョニー](http://www.gamefreak.co.jp/blog/staff/?p=39)の日記の中でも触れられていましたが、<br>
+随分前に[スティック](/gamefreak-staff/entry-92/)や[ジョニー](/gamefreak-staff/entry-39/)の日記の中でも触れられていましたが、<br>
 
 ゲームフリークには『イベント委員会』という<br>
 

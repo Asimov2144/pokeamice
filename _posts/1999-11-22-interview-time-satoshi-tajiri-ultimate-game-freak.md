@@ -30,6 +30,7 @@ archive_type: interview_translation
 source:
   title: 'The Ultimate Game Freak: An Interview with Satoshi Tajiri'
   url: http://content.time.com/time/magazine/article/0,9171,2040095,00.html
+  archive_url: https://web.archive.org/web/20140717091318/http://content.time.com/time/magazine/article/0,9171,2040095,00.html
   language: en
   source_type: magazine_interview
 original_link: http://content.time.com/time/magazine/article/0,9171,2040095,00.html

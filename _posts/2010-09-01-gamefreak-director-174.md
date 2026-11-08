@@ -161,7 +161,7 @@ WCS会场！巨型皮卡丘，飘在空中啾！
 
 详情请见这里！
 
-[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+[http://www.pokemonworldchampionships.com/2010/](https://web.archive.org/web/20100812205934/http://www.pokemonworldchampionships.com/2010/)
 
 看了视频（ViDeOS），多少也能感受到那股热度吧！？
 
@@ -326,7 +326,7 @@ WCS会場！でかピカチュウ、浮いてまチュウ！
 
 詳しくは、こちらから！
 
-[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+[http://www.pokemonworldchampionships.com/2010/](https://web.archive.org/web/20100812205934/http://www.pokemonworldchampionships.com/2010/)
 
 ビデオ（ViDeOS）観ると熱さが少し伝わるかな！？
 
@@ -523,7 +523,7 @@ In TCG(Trading Card Game), girl become a champ for the first time!
 
 Please check here for detail.
 
-[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+[http://www.pokemonworldchampionships.com/2010/](https://web.archive.org/web/20100812205934/http://www.pokemonworldchampionships.com/2010/)
 
 I hope you can feel the heat watching this video (ViDeOS).
 

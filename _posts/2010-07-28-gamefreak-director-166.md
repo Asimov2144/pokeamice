@@ -66,7 +66,7 @@ entities:
 
 没错，这就是合众图鉴编号000的幻之宝可梦“比克提尼”。
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 而且，并不是只要单纯领取就行。
 
@@ -105,7 +105,7 @@ entities:
 
 そう、それが、イッシュ図鑑番号０００幻のポケモン「ビクティニ」です。
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 しかも、ただ単にもらうだけではありません。
 
@@ -154,7 +154,7 @@ movie theater.
 
 Yes, that is Pokemon number 000, rare Pokemon “Victini”.
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 It’s not just receiving a Pokemon.
 

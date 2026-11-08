@@ -11912,7 +11912,7 @@ il·lusionats i compromesos amb el futur 朱紫 大森滋 增田顺一" style="-
 <h2 class="fr-month" data-m="2022-05"><span>2022</span>05</h2>
 <section class="fr-group" data-m="2022-05">
 <article class="fr fr-v-spread has-stk" id="f-4be24c18" data-d="2022-05-28" data-c="资料与扫描" data-r="3" data-i="1" data-k="w13 w5 w16" data-s="翻到2010年岩田社长主持的任天堂（股东）大会，彼时上周刚刚发售了黑白（奇怪的是竟然是在周六发售），于是开场的部分就顺带以此入手，以日本游戏历史上最大初动销量王炸一波，并给出了三张dp,hgss,bw的开档玩家年龄构成图（以nintendo club中注册的用户年龄统计为准），从图表上能看出，dp的年龄构成大头还是小学生，而到了hgss（复刻作品的发售），就吸引了大量的青年（主要为高中生和大学生人群）回坑，而到了bw就更加明显，各年龄段都近乎平均，被称作”ポケモン卒業世代の回帰現象“。
-[网页链接](https://www.nintendo.co.jp/event/conference2010/presentation/textj/index.html) 黑白初动销量及dp、hgss、bw玩家年龄构成统计图。 the pokémon company
+[网页链接](https://web.archive.org/web/20260913114224/https://www.nintendo.co.jp/event/conference2010/presentation/textj/index.html) 黑白初动销量及dp、hgss、bw玩家年龄构成统计图。 the pokémon company
 nintendo
 nintendo ds
 ポケットモンスター

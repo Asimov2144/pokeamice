@@ -95,11 +95,11 @@ RIKACO女士、三船女士和木佐女士作为宝可梦妈妈登上了舞台�
 
 [http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html](http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html)
 
-[http://www.famitsu.com/game/news/1238350_1124.html](http://www.famitsu.com/game/news/1238350_1124.html)
+[http://www.famitsu.com/game/news/1238350_1124.html](https://web.archive.org/web/20100803151418/http://www.famitsu.com/game/news/1238350_1124.html)
 
 啊，特别影片又增加了哦！
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 那么，回头见！
 
@@ -152,11 +152,11 @@ RIKACOさん、三船さん、木佐さんがポケママとして壇上へ。
 
 [http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html](http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html)
 
-[http://www.famitsu.com/game/news/1238350_1124.html](http://www.famitsu.com/game/news/1238350_1124.html)
+[http://www.famitsu.com/game/news/1238350_1124.html](https://web.archive.org/web/20100803151418/http://www.famitsu.com/game/news/1238350_1124.html)
 
 あ、スペシャルムービーが増えたよ！
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 では！
 
@@ -225,11 +225,11 @@ News of event.
 
 [http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html](http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html)
 
-[http://www.famitsu.com/game/news/1238350_1124.html](http://www.famitsu.com/game/news/1238350_1124.html)
+[http://www.famitsu.com/game/news/1238350_1124.html](https://web.archive.org/web/20100803151418/http://www.famitsu.com/game/news/1238350_1124.html)
 
 Here is a special movie!
 
-[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+[http://www.pokemon-sp.jp/series/bw/](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)
 
 See ya!
 

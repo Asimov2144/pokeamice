@@ -54,7 +54,7 @@ GAME FREAK 从明天开始放暑假。
 
 相关情况，应该可以从这里查看。
 
-[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+[http://www.pokemonworldchampionships.com/2010/](https://web.archive.org/web/20100812205934/http://www.pokemonworldchampionships.com/2010/)
 
 下回再见呀！
 
@@ -69,7 +69,7 @@ GAME FREAK 从明天开始放暑假。
 
 その模様は、こちらからチェックできると思います。
 
-[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+[http://www.pokemonworldchampionships.com/2010/](https://web.archive.org/web/20100812205934/http://www.pokemonworldchampionships.com/2010/)
 
 チャオ！
 
@@ -90,7 +90,7 @@ Which country will be the champ?
 
 You can check the contents from this site.
 
-[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+[http://www.pokemonworldchampionships.com/2010/](https://web.archive.org/web/20100812205934/http://www.pokemonworldchampionships.com/2010/)
 
 Ciao!
 

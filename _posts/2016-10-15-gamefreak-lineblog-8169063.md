@@ -77,7 +77,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://voice.pokemon.co.jp/stv/skytreetown/2016/10/post-8598.html" target="_blank" rel="noopener"><a class="gf-lineblog-source-link" href="http://voice.pokemon.co.jp/stv/skytreetown/2016/10/post-8598.html" target="_blank" rel="noopener">http://voice.pokemon.co.jp/stv/skytreetown/2016/10/post-8598.html</a></a>
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/09/160930_p04.html" target="_blank" rel="noopener">http://www.pokemon.co.jp/info/2016/09/160930_p04.html</a>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20161014175602/http://www.pokemon.co.jp/info/2016/09/160930_p04.html" target="_blank" rel="noopener">http://www.pokemon.co.jp/info/2016/09/160930_p04.html</a>
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
@@ -123,7 +123,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://voice.pokemon.co.jp/stv/skytreetown/2016/10/post-8598.html" target="_blank" rel="noopener"><a class="gf-lineblog-source-link" href="http://voice.pokemon.co.jp/stv/skytreetown/2016/10/post-8598.html" target="_blank" rel="noopener">http://voice.pokemon.co.jp/stv/skytreetown/2016/10/post-8598.html</a></a>
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/09/160930_p04.html" target="_blank" rel="noopener">http://www.pokemon.co.jp/info/2016/09/160930_p04.html</a>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20161014175602/http://www.pokemon.co.jp/info/2016/09/160930_p04.html" target="_blank" rel="noopener">http://www.pokemon.co.jp/info/2016/09/160930_p04.html</a>
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>

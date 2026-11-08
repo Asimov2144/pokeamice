@@ -644,7 +644,7 @@ entities:
 
 
 
-<a class="gf-lineblog-source-link" href="https://project-ican.com" target="_blank" rel="noopener">VR ZONE</a>
+<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160427123138/https://project-ican.com" target="_blank" rel="noopener">VR ZONE</a>
 
 ↑
 详情请看这里！</div>
@@ -1264,7 +1264,7 @@ entities:
 
 
 
-<a class="gf-lineblog-source-link" href="https://project-ican.com" target="_blank" rel="noopener">VR ZONE</a>
+<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160427123138/https://project-ican.com" target="_blank" rel="noopener">VR ZONE</a>
 
 ↑
 詳しくはこちらから！</div>

@@ -52,7 +52,7 @@ entities:
 
 大家，真的很抱歉！
 
-[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](https://web.archive.org/web/20120124024909/http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
 现场还会有提问环节，所以就算对签名不感兴趣……
 
@@ -73,7 +73,7 @@ entities:
 
 みなさん、ごめんなさい！
 
-[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](https://web.archive.org/web/20120124024909/http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
 質問コーナーもあるので、サインに興味がなくても、、
 
@@ -98,7 +98,7 @@ style of management have been changed.
 
 Sorry everybody!
 
-[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](https://web.archive.org/web/20120124024909/http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
 Even if you are not interested for
 

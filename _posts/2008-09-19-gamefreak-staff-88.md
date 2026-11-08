@@ -75,7 +75,7 @@ entities:
 
 我前往了佛罗里达州的奥兰多！！<br>
 
-[http://www.pokemon.co.jp/special/wcs0809/world0808/](http://www.pokemon.co.jp/special/wcs0809/world0808/)
+[http://www.pokemon.co.jp/special/wcs0809/world0808/](https://web.archive.org/web/20080913192004/http://www.pokemon.co.jp/special/wcs0809/world0808/)
 
 在大会上，我观看了许多人热火朝天的对战。<br>
 
@@ -157,7 +157,7 @@ entities:
 
 フロリダのオーランドへ、行って参りました！！<br>
 
-[http://www.pokemon.co.jp/special/wcs0809/world0808/](http://www.pokemon.co.jp/special/wcs0809/world0808/)
+[http://www.pokemon.co.jp/special/wcs0809/world0808/](https://web.archive.org/web/20080913192004/http://www.pokemon.co.jp/special/wcs0809/world0808/)
 
 大会では大勢の人の熱い戦いを観戦してきました。<br>
 

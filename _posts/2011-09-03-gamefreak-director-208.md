@@ -78,7 +78,7 @@ MTM将于4日（周日）16点在会场登场。
 
 [http://ustre.am/CGp6](http://ustre.am/CGp6)
 
-[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
+[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](https://web.archive.org/web/20110928075324/http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
 
 下回再见啦！
 
@@ -113,7 +113,7 @@ MTM、USTREAMで放送決定！！
 
 [http://ustre.am/CGp6](http://ustre.am/CGp6)
 
-[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
+[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](https://web.archive.org/web/20110928075324/http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
 
 チャオ！
 
@@ -160,11 +160,11 @@ On September 4th’s “Pokémon Smash!”, WCS at San Diego will be
 
 showed. Please check this out, too!
 
-[http://www.ustream.tv/recorded/17060704](http://www.ustream.tv/recorded/17060704)
+[http://www.ustream.tv/recorded/17060704](https://web.archive.org/web/20111005033418/http://www.ustream.tv/recorded/17060704)
 
 [http://ustre.am/CGp6](http://ustre.am/CGp6)
 
-[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
+[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](https://web.archive.org/web/20110928075324/http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
 
 Ciao!
 

@@ -69,11 +69,11 @@ GAME FREAK也从今天开始进行2011年度应届毕业生招聘！<br>
 
 招聘职位如下，共有3种。<br>
 
-・[程序员](http://www.gamefreak.co.jp/recruit/pro_about.html)<br>
+・[程序员](https://web.archive.org/web/20090131213005/http://www.gamefreak.co.jp/recruit/pro_about.html)<br>
 
-・[策划](http://www.gamefreak.co.jp/recruit/plan_about.html)<br>
+・[策划](https://web.archive.org/web/20090303153638/http://www.gamefreak.co.jp/recruit/plan_about.html)<br>
 
-・[美术设计师](http://www.gamefreak.co.jp/recruit/design_about.html)
+・[美术设计师](https://web.archive.org/web/20100201184814/http://www.gamefreak.co.jp/recruit/design_about.html)
 
 GAME FREAK期待愿意挑战新鲜事物、<br>
 
@@ -107,11 +107,11 @@ GAME FREAK期待愿意挑战新鲜事物、<br>
 
 募集職種は以下の通り３職種です。<br>
 
-・[プログラマー](http://www.gamefreak.co.jp/recruit/pro_about.html)<br>
+・[プログラマー](https://web.archive.org/web/20090131213005/http://www.gamefreak.co.jp/recruit/pro_about.html)<br>
 
-・[プランナー](http://www.gamefreak.co.jp/recruit/plan_about.html)<br>
+・[プランナー](https://web.archive.org/web/20090303153638/http://www.gamefreak.co.jp/recruit/plan_about.html)<br>
 
-・[グラフィックデザイナー](http://www.gamefreak.co.jp/recruit/design_about.html)
+・[グラフィックデザイナー](https://web.archive.org/web/20100201184814/http://www.gamefreak.co.jp/recruit/design_about.html)
 
 ゲームフリークは新しいこと、<br>
 

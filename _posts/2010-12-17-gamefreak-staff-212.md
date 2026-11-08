@@ -67,7 +67,7 @@ entities:
 
 我是なぎー（纳吉）。
 
-[之前也曾为大家介绍过](http://www.gamefreak.co.jp/blog/staff/?p=85)，在 GAME FREAK 公司内部，经常会举办<br>
+[之前也曾为大家介绍过](/gamefreak-staff/entry-85/)，在 GAME FREAK 公司内部，经常会举办<br>
 
 由志愿者组织的宝可梦卡牌游戏比赛。<br>
 
@@ -161,7 +161,7 @@ entities:
 
 ナギーです。
 
-[以前もご紹介しましたが](http://www.gamefreak.co.jp/blog/staff/?p=85)、ゲームフリーク社内では、有志による<br>
+[以前もご紹介しましたが](/gamefreak-staff/entry-85/)、ゲームフリーク社内では、有志による<br>
 
 ポケモンカードゲームの大会が、たびたび開かれています。<br>
 

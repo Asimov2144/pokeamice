@@ -59,7 +59,7 @@ entities:
 <div data-gf-language-panel="zh-CN">
 『宝可梦 心金·魂银』<br>
 
-我是导演[もりもと（森本）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)。
+我是导演[もりもと（森本）](https://web.archive.org/web/20081008122952/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)。
 
 大家好久不见！
 
@@ -71,7 +71,7 @@ entities:
 
 获得了优秀奖。
 
-[⇒电玩通奖颁奖典礼现场请点击这里！](http://www.famitsu.com/game/news/1234602_1124.html)<br>
+[⇒电玩通奖颁奖典礼现场请点击这里！](https://web.archive.org/web/20100517034805/http://www.famitsu.com/game/news/1234602_1124.html)<br>
 
 负责献上花束的孩子手里拿着宝可梦计步器，<br>
 
@@ -117,7 +117,7 @@ entities:
 <div data-gf-language-panel="ja" hidden>
 『ポケットモンスター ハートゴールド・ソウルシルバー』<br>
 
-ディレクターの[もりもと](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)です。
+ディレクターの[もりもと](https://web.archive.org/web/20081008122952/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)です。
 
 みなさんお久しぶりです！
 
@@ -131,7 +131,7 @@ entities:
 
 優秀賞を受賞することができました。
 
-[⇒ファミ通アワードの模様はこちらをクリック！](http://www.famitsu.com/game/news/1234602_1124.html)<br>
+[⇒ファミ通アワードの模様はこちらをクリック！](https://web.archive.org/web/20100517034805/http://www.famitsu.com/game/news/1234602_1124.html)<br>
 
 花束を贈呈してくれた子供がポケウォーカーを<br>
 

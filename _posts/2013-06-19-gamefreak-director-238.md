@@ -165,7 +165,7 @@ entities:
 
 公布发售日的6月11日任天堂直面会在这里。
 
-[http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
+[http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](https://web.archive.org/web/20130613002300/http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
 
 下回再见咯！
 
@@ -280,7 +280,7 @@ entities:
 
 発売日を発表した６月１１日のニンテンドーダイレクトはこちら。
 
-[http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
+[http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](https://web.archive.org/web/20130613002300/http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
 
 チャオ！
 
@@ -399,7 +399,7 @@ It’s about 5 minutes long.
 
 And here is the information from Nintendo Direct.
 
-[http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
+[http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](https://web.archive.org/web/20130613002300/http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
 
 Ciao!
 

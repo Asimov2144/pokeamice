@@ -87,7 +87,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/04/160422_p03.html" target="_blank" rel="noopener">宝可梦心动风格的增田卡片</a>好像会在</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160526182106/http://www.pokemon.co.jp/info/2016/04/160422_p03.html" target="_blank" rel="noopener">宝可梦心动风格的增田卡片</a>好像会在</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">签名会当天</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">于全国各地的宝可梦中心和商店</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">登场！</div>
@@ -107,7 +107,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">还有！</div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/02/160219_p01.html" target="_blank" rel="noopener">还能拿到增田的可达鸭</a>！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160519042255/http://www.pokemon.co.jp/info/2016/02/160219_p01.html" target="_blank" rel="noopener">还能拿到增田的可达鸭</a>！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
@@ -197,7 +197,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/04/160422_p03.html" target="_blank" rel="noopener">ポケキュンなマスダのカード</a>が</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160526182106/http://www.pokemon.co.jp/info/2016/04/160422_p03.html" target="_blank" rel="noopener">ポケキュンなマスダのカード</a>が</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">サイン会の日に</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">全国ポケモンセンターやストアに</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">あるみたい！</div>
@@ -217,7 +217,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">さらに！</div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/02/160219_p01.html" target="_blank" rel="noopener">マスダのコダックももらえる</a>！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160519042255/http://www.pokemon.co.jp/info/2016/02/160219_p01.html" target="_blank" rel="noopener">マスダのコダックももらえる</a>！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>

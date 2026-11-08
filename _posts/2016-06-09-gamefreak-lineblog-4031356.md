@@ -340,7 +340,7 @@ entities:
 
 ↓
 
-<a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/06/160609_e01.html" target="_blank" rel="noopener">皮卡丘大量出现2016</a>
+<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160612073458/http://www.pokemon.co.jp/info/2016/06/160609_e01.html" target="_blank" rel="noopener">皮卡丘大量出现2016</a>
 
 
 <br></div>
@@ -684,7 +684,7 @@ entities:
 
 ↓
 
-<a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/info/2016/06/160609_e01.html" target="_blank" rel="noopener">ピカチュウ大量発生チュウ2016</a>
+<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160612073458/http://www.pokemon.co.jp/info/2016/06/160609_e01.html" target="_blank" rel="noopener">ピカチュウ大量発生チュウ2016</a>
 
 
 <br></div>

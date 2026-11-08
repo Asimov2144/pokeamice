@@ -88,7 +88,7 @@ GAME FREAK 休息区里的自动贩卖机。
 
 光烦恼也不会自己得到答案，<br>
 
-所以我和上次一样，去网上查了查[前回に引き続き](http://www.gamefreak.co.jp/blog/staff/?p=81)，<br>
+所以我和上次一样，去网上查了查[前回に引き続き](/gamefreak-staff/entry-81/)，<br>
 
 看来所谓“杀菌乳酸菌”，<br>
 
@@ -172,7 +172,7 @@ GAME FREAK 休息区里的自动贩卖机。
 
 悩んで答えがわかるものでもないので、<br>
 
-[前回に引き続き](http://www.gamefreak.co.jp/blog/staff/?p=81)インターネットで調べてみると、<br>
+[前回に引き続き](/gamefreak-staff/entry-81/)インターネットで調べてみると、<br>
 
 どうやら「殺菌乳酸菌」とは本当に<br>
 

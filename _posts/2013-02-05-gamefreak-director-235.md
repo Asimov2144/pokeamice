@@ -105,11 +105,11 @@ entities:
 
 [http://www.pokemon.co.jp/ex/ar_searcher/](http://www.pokemon.co.jp/ex/ar_searcher/)
 
-[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
+[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](https://web.archive.org/web/20130209073118/http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
 
 [http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/](http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/)
 
-[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
+[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](https://web.archive.org/web/20130207033525/http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
 
 下回再见噜！
 
@@ -172,11 +172,11 @@ entities:
 
 [http://www.pokemon.co.jp/ex/ar_searcher/](http://www.pokemon.co.jp/ex/ar_searcher/)
 
-[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
+[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](https://web.archive.org/web/20130209073118/http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
 
 [http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/](http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/)
 
-[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
+[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](https://web.archive.org/web/20130207033525/http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
 
 チャオ！
 
@@ -259,11 +259,11 @@ please give it a go!
 
 [http://www.pokemon.co.jp/ex/ar_searcher/](http://www.pokemon.co.jp/ex/ar_searcher/)
 
-[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
+[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](https://web.archive.org/web/20130209073118/http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
 
 [http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/](http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/)
 
-[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
+[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](https://web.archive.org/web/20130207033525/http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
 
 Ciao!
 

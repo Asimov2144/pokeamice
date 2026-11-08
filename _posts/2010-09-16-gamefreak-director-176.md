@@ -82,13 +82,13 @@ entities:
 
 这当然得一大早去看看了！
 
-[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
+[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](https://web.archive.org/web/20100917151607/http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
 
 宝可梦中心东京好像也已经备齐新的小物件了！
 
 我要去领取预订好的ＢＷ了！
 
-[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
+[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](https://web.archive.org/web/20100902011332/http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
 
 ９月２３日（星期四）六本木新城举办活动！！
 
@@ -106,7 +106,7 @@ entities:
 
 特别影片正在公开！
 
-[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
+[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](https://web.archive.org/web/20100823072420/http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
 
 气氛越来越热烈了！！
 
@@ -147,13 +147,13 @@ entities:
 
 こりゃ縲怐A朝から観に行くでしょ！
 
-[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
+[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](https://web.archive.org/web/20100917151607/http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
 
 ポケモンセンタートウキョーに新しいグッズも揃っている模様！
 
 マスダは予約したＢＷを引き替えにいきます！
 
-[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
+[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](https://web.archive.org/web/20100902011332/http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
 
 ９月２３日（木）六本木ヒルズでイベント開催！！
 
@@ -171,7 +171,7 @@ entities:
 
 スペシャルムービー公開中！
 
-[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
+[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](https://web.archive.org/web/20100823072420/http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
 
 盛り上がってきました！！
 
@@ -226,7 +226,7 @@ Odaiba’s McDonald changes into
 
 I’m going to see this change first thing in the morning.
 
-[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
+[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](https://web.archive.org/web/20100917151607/http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
 
 *Odaiba is one of the major city in Tokyo.
 
@@ -234,7 +234,7 @@ In Pokemon Center Tokyo, new goods are available!
 
 I’ll go to Pokemon Center Tokyo for reserved my Black/White.
 
-[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
+[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](https://web.archive.org/web/20100902011332/http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
 
 On Thursday September 23rd, event will be held at
 
@@ -254,7 +254,7 @@ Whoever not experienced before, plase give it a try!
 
 Special movie playing!
 
-[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
+[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](https://web.archive.org/web/20100823072420/http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
 
 It’s getting exciting!!
 

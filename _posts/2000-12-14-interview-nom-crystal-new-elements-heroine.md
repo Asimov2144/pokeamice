@@ -32,6 +32,7 @@ interviewee: N.O.M 编辑长
 source:
   title: ■カラー写真入りギフトカタログ／ポケットモンスタークリスタルバージョン ＆ 編集長の『ポケットモンスター クリスタルバージョン』体験記
   url: https://www.nintendo.co.jp/nom/0012/catalog/crystal/index.html
+  archive_url: https://web.archive.org/web/20030322010408/https://www.nintendo.co.jp/nom/0012/catalog/crystal/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0012/catalog/crystal/index.html

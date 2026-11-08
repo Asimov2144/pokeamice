@@ -25,6 +25,7 @@ source_url: https://web.archive.org/web/20170212181502/https://www.gamefreak.co.
 source:
   title: 他業界出身の社員、活躍中！
   url: https://www.gamefreak.co.jp/recruit/interview_06.html
+  archive_url: https://web.archive.org/web/20170826153717/https://www.gamefreak.co.jp/recruit/interview_06.html
   language: ja
   source_type: official_interview
 author: Game Freak 採用チーム

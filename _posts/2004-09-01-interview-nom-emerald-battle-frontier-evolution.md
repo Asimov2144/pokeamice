@@ -39,6 +39,7 @@ interviewee: N.O.M 编辑长、コンドー（宝可梦研讨会顾问）
 source:
   title: ポケモン総力特集「ポケットモンスター エメラルド」＆ポケモンの歴史と最新情報を探る！｜Nintendo Online Magazine 2004年9月号
   url: https://www.nintendo.co.jp/nom/0409/index.html
+  archive_url: https://web.archive.org/web/20040902061649/https://www.nintendo.co.jp/nom/0409/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0409/index.html

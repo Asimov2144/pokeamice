@@ -20,6 +20,7 @@ source_name: Game Informer
 source:
   title: Pokémon's Burning Questions
   url: https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx
+  archive_url: https://web.archive.org/web/20121127174918/https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx
   language: en
 original_lang: en
 original_lang_name: 英語

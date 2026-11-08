@@ -25,6 +25,7 @@ source_url: https://web.archive.org/web/20151026024204/https://www.gamefreak.co.
 source:
   title: 私がゲームフリークに入った理由 グラフィックデザイナー編
   url: https://www.gamefreak.co.jp/recruit/interview_03.html
+  archive_url: https://web.archive.org/web/20170329213459/https://www.gamefreak.co.jp/recruit/interview_03.html
   language: ja
   source_type: official_interview
 author: Game Freak 採用チーム

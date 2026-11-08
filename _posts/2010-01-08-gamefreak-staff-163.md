@@ -65,7 +65,7 @@ entities:
 
 今后也请大家多多关照。<br>
 
-我于去年12月加入 GAME FREAK，这次将从[カニ子（蟹子）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)手里<br>
+我于去年12月加入 GAME FREAK，这次将从[カニ子（蟹子）](https://web.archive.org/web/20090415204114/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)手里<br>
 
 接任网站负责人。<br>
 
@@ -119,7 +119,7 @@ entities:
 
 今後とも、何卒宜しくお願いいたします。<br>
 
-昨年12月にゲームフリークに入社し、この度、[カニ子](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)から<br>
+昨年12月にゲームフリークに入社し、この度、[カニ子](https://web.archive.org/web/20090415204114/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)から<br>
 
 Web担当を引継ぐことになりました。<br>
 

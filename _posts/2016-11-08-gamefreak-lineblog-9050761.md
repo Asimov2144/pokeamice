@@ -292,7 +292,7 @@ entities:
 
 大家也一定要去！
 感动接连不断的
-<a class="gf-lineblog-source-link" href="http://www.kamogawa-seaworld.jp/smp/" target="_blank" rel="noopener">鸭川海洋世界！</a>
+<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20161121064042/http://www.kamogawa-seaworld.jp/smp/" target="_blank" rel="noopener">鸭川海洋世界！</a>
 
 
 <br>
@@ -581,7 +581,7 @@ entities:
 みなさんも
 是非！
 感動の連続
-<a class="gf-lineblog-source-link" href="http://www.kamogawa-seaworld.jp/smp/" target="_blank" rel="noopener">鴨川シーワールドへ！</a>
+<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20161121064042/http://www.kamogawa-seaworld.jp/smp/" target="_blank" rel="noopener">鴨川シーワールドへ！</a>
 
 
 <br>

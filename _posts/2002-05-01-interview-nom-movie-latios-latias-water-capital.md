@@ -33,6 +33,7 @@ interviewee: N.O.M 编辑部
 source:
   title: ４．今年も新たなる感動を！　2002年劇場版『ポケットモンスター』情報｜Nintendo Online Magazine 2002年5月号
   url: https://www.nintendo.co.jp/nom/0205/04/index.html
+  archive_url: https://web.archive.org/web/20021212121936/https://www.nintendo.co.jp/nom/0205/04/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0205/04/index.html

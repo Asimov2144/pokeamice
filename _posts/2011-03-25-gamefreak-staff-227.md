@@ -60,7 +60,7 @@ entities:
 
 这次要和大家聊聊2012年度应届毕业生招聘。<br>
 
-虽然我们已经通过[GAME FREAK应届招聘页面](http://www.gamefreak.co.jp/new_employ/index.html)和[Rikunavi 2012](http://job.rikunabi.com/2012/company/employ/r189900076/)发布了通知，<br>
+虽然我们已经通过[GAME FREAK应届招聘页面](https://web.archive.org/web/20101211025222/http://www.gamefreak.co.jp/new_employ/index.html)和[Rikunavi 2012](http://job.rikunabi.com/2012/company/employ/r189900076/)发布了通知，<br>
 
 居住在北海道、青森县、秋田县、岩手县、宫城县、山形县、福岛县、茨城县的<br>
 
@@ -94,7 +94,7 @@ entities:
 
 今回は2012年度新卒採用のお話しです。<br>
 
-既に[ゲームフリーク新卒ページ](http://www.gamefreak.co.jp/new_employ/index.html)や[リクナビ2012](http://job.rikunabi.com/2012/company/employ/r189900076/)でお知らせしていますが、<br>
+既に[ゲームフリーク新卒ページ](https://web.archive.org/web/20101211025222/http://www.gamefreak.co.jp/new_employ/index.html)や[リクナビ2012](http://job.rikunabi.com/2012/company/employ/r189900076/)でお知らせしていますが、<br>
 
 北海道、青森県、秋田県、岩手県、宮城県、山形県、福島県、茨城県に<br>
 

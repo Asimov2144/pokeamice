@@ -59,7 +59,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://ax-sp.android.tx-bb.com/ax/i/top/program/all/?id=203" target="_blank" rel="noopener">《宝可梦之家》</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160508155956/http://ax-sp.android.tx-bb.com/ax/i/top/program/all/?id=203" target="_blank" rel="noopener">《宝可梦之家》</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">将于</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">每周日
 
@@ -141,7 +141,7 @@ GAME FREAK 的秘密
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://ax-sp.android.tx-bb.com/ax/i/top/program/all/?id=203" target="_blank" rel="noopener">「ポケんち」</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160508155956/http://ax-sp.android.tx-bb.com/ax/i/top/program/all/?id=203" target="_blank" rel="noopener">「ポケんち」</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">は</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">毎週日曜日
 

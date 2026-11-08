@@ -58,7 +58,7 @@ entities:
 
 那么，从今天起，GAME FREAK 网站上<br>
 
-[中途招聘专题网站](http://www.gamefreak.co.jp/recruit/career.html)正式公开啦！
+[中途招聘专题网站](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)正式公开啦！
 
 作为专题网站，它营造了不同于应届毕业生招聘页面的氛围，<br>
 
@@ -88,7 +88,7 @@ entities:
 
 さて、本日からゲームフリークWebで<br>
 
-[中途採用特設サイト](http://www.gamefreak.co.jp/recruit/career.html)が公開されました！
+[中途採用特設サイト](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)が公開されました！
 
 特設サイトらしく新卒採用ページとは違った雰囲気で<br>
 

@@ -59,7 +59,7 @@ entities:
 
 我是负责招聘的さとう（佐藤）。
 
-前几天，我们在 GAME FREAK 的社会招聘页面上新增了[“员工介绍”](https://www.gamefreak.co.jp/career/person.html)！
+前几天，我们在 GAME FREAK 的社会招聘页面上新增了[“员工介绍”](https://web.archive.org/web/20110511124238/https://www.gamefreak.co.jp/career/person.html)！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" alt="クリックでジャンプ" loading="lazy"></a></figure>
 
@@ -79,9 +79,9 @@ entities:
 
 如果有人还不太了解 GAME FREAK，就觉得“这里和自己合不来……”的话，作为招聘负责人，我实在会觉得很不甘心。
 
-正因如此，我们还在[社会招聘页面首页](https://www.gamefreak.co.jp/career/index.html)醒目地放上了**“你是不是误解了？”**这句话。
+正因如此，我们还在[社会招聘页面首页](https://web.archive.org/web/20110711141921/https://www.gamefreak.co.jp/career/index.html)醒目地放上了**“你是不是误解了？”**这句话。
 
-首先，就请从[“员工介绍”](https://www.gamefreak.co.jp/career/person.html)开始，看看 GAME FREAK 都有哪些人在这里工作吧！
+首先，就请从[“员工介绍”](https://web.archive.org/web/20110511124238/https://www.gamefreak.co.jp/career/person.html)开始，看看 GAME FREAK 都有哪些人在这里工作吧！
 
 <br>
 </div>
@@ -91,7 +91,7 @@ entities:
 
 採用担当さとうです。
 
-先日、ゲームフリークの中途採用ページに[「社員紹介」](https://www.gamefreak.co.jp/career/person.html)を追加しました！
+先日、ゲームフリークの中途採用ページに[「社員紹介」](https://web.archive.org/web/20110511124238/https://www.gamefreak.co.jp/career/person.html)を追加しました！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" alt="クリックでジャンプ" loading="lazy"></a></figure>
 
@@ -119,13 +119,13 @@ entities:
 
 採用担当として悔しい限りです。
 
-だからこそ、[中途採用ページのトップ](https://www.gamefreak.co.jp/career/index.html)には、<br>
+だからこそ、[中途採用ページのトップ](https://web.archive.org/web/20110711141921/https://www.gamefreak.co.jp/career/index.html)には、<br>
 
 **「誤解してませんか？」**という言葉をどーんと載せています。
 
 まずは、ゲームフリークにはどんな人間が働いているのか、<br>
 
-[「社員紹介」](https://www.gamefreak.co.jp/career/person.html)からのぞいてみてください！
+[「社員紹介」](https://web.archive.org/web/20110511124238/https://www.gamefreak.co.jp/career/person.html)からのぞいてみてください！
 
 <br>
 </div>

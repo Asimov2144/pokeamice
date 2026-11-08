@@ -91,7 +91,7 @@ entities:
 
 感兴趣的话，请去确认一下经销店的信息吧！
 
-[http://www.pokemon.co.jp/ex/b2w2_reserve/](http://www.pokemon.co.jp/ex/b2w2_reserve/)
+[http://www.pokemon.co.jp/ex/b2w2_reserve/](https://web.archive.org/web/20120417214629/http://www.pokemon.co.jp/ex/b2w2_reserve/)
 
 啊，顺便一提，如果在宝可梦中心同时预订两款游戏，
 
@@ -149,7 +149,7 @@ entities:
 
 気になる方は取扱店をチェックしてくださいね！
 
-[http://www.pokemon.co.jp/ex/b2w2_reserve/](http://www.pokemon.co.jp/ex/b2w2_reserve/)
+[http://www.pokemon.co.jp/ex/b2w2_reserve/](https://web.archive.org/web/20120417214629/http://www.pokemon.co.jp/ex/b2w2_reserve/)
 
 あ、ちなみに、ポケモンセンターで２本同時に予約すると、
 
@@ -216,7 +216,7 @@ This time preorder rules are a bit different.
 
 So, if you are interested, please check out the following link:
 
-[http://www.pokemon.co.jp/ex/b2w2_reserve/](http://www.pokemon.co.jp/ex/b2w2_reserve/)
+[http://www.pokemon.co.jp/ex/b2w2_reserve/](https://web.archive.org/web/20120417214629/http://www.pokemon.co.jp/ex/b2w2_reserve/)
 
 When you preorder both Black2 and White2 versions at a Pokemon Center,
 

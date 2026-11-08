@@ -17,6 +17,7 @@ source_name: Pokemon.com
 source:
   title: Pokemon.com / PocketMonsters.net
   url: https://www.pokemon.com/us/pokemon-news/an-exclusive-interview-with-the-makers-of-pokemon-ultra-sun-and-pokemon-ultra-moon/
+  archive_url: https://web.archive.org/web/20180303181205/https://www.pokemon.com/us/pokemon-news/an-exclusive-interview-with-the-makers-of-pokemon-ultra-sun-and-pokemon-ultra-moon/
   language: en
 original_lang: en
 original_lang_name: 英語

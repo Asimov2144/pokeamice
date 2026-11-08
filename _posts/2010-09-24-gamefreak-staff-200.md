@@ -76,7 +76,7 @@ entities:
 
 目前，GAME FREAK 正在积极招聘程序员！<br>
 
-详情请参阅[这个页面](https://www.gamefreak.co.jp/career/news100917.html)。
+详情请参阅[这个页面](https://web.archive.org/web/20100929223630/https://www.gamefreak.co.jp/career/news100917.html)。
 
 在和许多应聘者以及正在考虑应聘的人见面时，我感受到的是，<br>
 
@@ -162,7 +162,7 @@ C：“因为我担心在 GAME FREAK 能不能提升技术。”
 
 現在、弊社ではプログラマーを積極採用しています！<br>
 
-詳しくは[こちらのページ](https://www.gamefreak.co.jp/career/news100917.html)をご覧ください。
+詳しくは[こちらのページ](https://web.archive.org/web/20100929223630/https://www.gamefreak.co.jp/career/news100917.html)をご覧ください。
 
 多くの応募者の方、応募を検討中の方とお会いしていて感じるのは<br>
 

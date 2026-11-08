@@ -65,7 +65,7 @@ entities:
 
 任天堂的宝可梦直面会！（可以了解宝可梦的历史！）
 
-[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
+[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](https://web.archive.org/web/20130123111046/http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
 
 海外地区的版本，请看这里！
 
@@ -164,7 +164,7 @@ GAME FREAK股份有限公司董事兼开发本部长
 
 任天堂さんのポケモンダイレクト！（ポケモンの歴史が分かります！）
 
-[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
+[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](https://web.archive.org/web/20130123111046/http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
 
 そして海外版は、こちらを！
 
@@ -273,7 +273,7 @@ And links for Japanese fans:
 
 [http://youtu.be/2MYbmIxzer8](http://youtu.be/2MYbmIxzer8)
 
-[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
+[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](https://web.archive.org/web/20130123111046/http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
 
 And here is the press release.
 

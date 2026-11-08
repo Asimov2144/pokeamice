@@ -94,7 +94,7 @@ GAME FREAK 现在应届毕业生招聘和中途招聘都在进行，<br>
 
 申请材料接收截止日期为2009年7月3日（星期五）。<br>
 
-详情请参阅[应届毕业生招聘页面](http://www.gamefreak.co.jp/recruit/index.html)。
+详情请参阅[应届毕业生招聘页面](https://web.archive.org/web/20071019020030/http://www.gamefreak.co.jp/recruit/index.html)。
 
 另外，中途招聘也在随时进行中！<br>
 
@@ -102,7 +102,7 @@ GAME FREAK 现在应届毕业生招聘和中途招聘都在进行，<br>
 
 声音创作者。<br>
 
-详情也请在[中途招聘页面](http://www.gamefreak.co.jp/recruit/career.html)确认。
+详情也请在[中途招聘页面](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)确认。
 
 GAME FREAK 是一家怎样的公司，自己和这里有没有缘分，<br>
 
@@ -162,7 +162,7 @@ GAME FREAK 是一家怎样的公司，自己和这里有没有缘分，<br>
 
 応募書類受付期間は2009年7月3日（金）迄。<br>
 
-詳しくは[新卒採用ページ](http://www.gamefreak.co.jp/recruit/index.html)をご覧下さい。
+詳しくは[新卒採用ページ](https://web.archive.org/web/20071019020030/http://www.gamefreak.co.jp/recruit/index.html)をご覧下さい。
 
 そして中途採用も随時募集を行っております！<br>
 
@@ -170,7 +170,7 @@ GAME FREAK 是一家怎样的公司，自己和这里有没有缘分，<br>
 
 サウンドクリエイターです。<br>
 
-こちらも詳細は[中途採用ページ](http://www.gamefreak.co.jp/recruit/career.html)にてご確認下さい。
+こちらも詳細は[中途採用ページ](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)にてご確認下さい。
 
 ゲームフリークがどんな会社なのか、自分と縁があるのかどうか、<br>
 

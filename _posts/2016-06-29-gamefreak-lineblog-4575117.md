@@ -188,7 +188,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center">才能入手哦Z！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/ex/volcanion/present/" target="_blank" rel="noopener">http://www.pokemon.co.jp/ex/volcanion/present/</a>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160620222616/http://www.pokemon.co.jp/ex/volcanion/present/" target="_blank" rel="noopener">http://www.pokemon.co.jp/ex/volcanion/present/</a>
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
@@ -349,7 +349,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center">手に入らないZ！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemon.co.jp/ex/volcanion/present/" target="_blank" rel="noopener">http://www.pokemon.co.jp/ex/volcanion/present/</a>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160620222616/http://www.pokemon.co.jp/ex/volcanion/present/" target="_blank" rel="noopener">http://www.pokemon.co.jp/ex/volcanion/present/</a>
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>

@@ -73,7 +73,7 @@ entities:
 
 我给花换了盆。<br>
 
-房间里到处都是常春藤，变得像 GAME FREAK 的[盖亚（会议室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)一样，让我觉得特别幸福。<br>
+房间里到处都是常春藤，变得像 GAME FREAK 的[盖亚（会议室）](https://web.archive.org/web/20080504100733/http://www.gamefreak.co.jp/recruit/rec_mtg.html)一样，让我觉得特别幸福。<br>
 
 另外，我还买了一个叫作迷你电磨的工具，做了些玻璃工艺品。（エノキ（榎木））
 
@@ -161,7 +161,7 @@ Web担当のカニ子です。先週はゴールデンウィークでした！<b
 
 お花の植え替えをしていました。<br>
 
-部屋中がアイビーだらけでゲームフリークの[ガイア（会議室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)みたいになって幸せです。<br>
+部屋中がアイビーだらけでゲームフリークの[ガイア（会議室）](https://web.archive.org/web/20080504100733/http://www.gamefreak.co.jp/recruit/rec_mtg.html)みたいになって幸せです。<br>
 
 あと、ミニルーターという工具を買ってグラス工作したりしました。（エノキ）
 

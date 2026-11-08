@@ -58,7 +58,7 @@ entities:
 
 我是负责网站工作的カニ子（蟹子）。
 
-从今天起，GAME FREAK[秘密基地](http://secretbase.gamefreak.co.jp/)公开了新内容[“文字脸”](http://secretbase.gamefreak.co.jp/mozi/)！
+从今天起，GAME FREAK[秘密基地](https://web.archive.org/web/20081015093724/http://secretbase.gamefreak.co.jp/)公开了新内容[“文字脸”](https://web.archive.org/web/20081201045140/http://secretbase.gamefreak.co.jp/mozi/)！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" alt="モジヅラサンプル" loading="lazy"></a></figure>
 
@@ -88,7 +88,7 @@ entities:
 
 Web担当のカニ子です。
 
-本日より[ゲームフリークひみつきち](http://secretbase.gamefreak.co.jp/)の新ネタ[「モジヅラ」](http://secretbase.gamefreak.co.jp/mozi/)を公開しました！
+本日より[ゲームフリークひみつきち](https://web.archive.org/web/20081015093724/http://secretbase.gamefreak.co.jp/)の新ネタ[「モジヅラ」](https://web.archive.org/web/20081201045140/http://secretbase.gamefreak.co.jp/mozi/)を公開しました！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" alt="モジヅラサンプル" loading="lazy"></a></figure>
 

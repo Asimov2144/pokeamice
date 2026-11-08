@@ -61,13 +61,13 @@ entities:
 
 “宝可梦公司 石原恒和先生”
 
-[http://awards.cesa.or.jp/prize/prize_04.html](http://awards.cesa.or.jp/prize/prize_04.html)
+[http://awards.cesa.or.jp/prize/prize_04.html](https://web.archive.org/web/20110909143913/http://awards.cesa.or.jp/prize/prize_04.html)
 
 ２）全球奖　日本作品部门
 
 “宝可梦 心金·魂银”
 
-[http://awards.cesa.or.jp/prize/year/14.html](http://awards.cesa.or.jp/prize/year/14.html)
+[http://awards.cesa.or.jp/prize/year/14.html](https://web.archive.org/web/20110927072451/http://awards.cesa.or.jp/prize/year/14.html)
 
 ３）最佳销售奖
 
@@ -75,7 +75,7 @@ entities:
 
 “宝可梦 黑·白”
 
-[http://awards.cesa.or.jp/prize/year/11.html](http://awards.cesa.or.jp/prize/year/11.html)
+[http://awards.cesa.or.jp/prize/year/11.html](https://web.archive.org/web/20110925035321/http://awards.cesa.or.jp/prize/year/11.html)
 
 哎呀，真让人高兴啊。
 
@@ -83,7 +83,7 @@ entities:
 
 其他获奖作品。
 
-[http://awards.cesa.or.jp/prize/prize_01.html](http://awards.cesa.or.jp/prize/prize_01.html)
+[http://awards.cesa.or.jp/prize/prize_01.html](https://web.archive.org/web/20110905011525/http://awards.cesa.or.jp/prize/prize_01.html)
 
 我从获选粉丝手中接过最佳销售奖。
 
@@ -126,13 +126,13 @@ entities:
 
 「（株）ポケモン　石原恒和さん」
 
-[http://awards.cesa.or.jp/prize/prize_04.html](http://awards.cesa.or.jp/prize/prize_04.html)
+[http://awards.cesa.or.jp/prize/prize_04.html](https://web.archive.org/web/20110909143913/http://awards.cesa.or.jp/prize/prize_04.html)
 
 ２）グローバル賞　日本作品部門
 
 「ポケットモンスター ハートゴールド・ソウルシルバー」
 
-[http://awards.cesa.or.jp/prize/year/14.html](http://awards.cesa.or.jp/prize/year/14.html)
+[http://awards.cesa.or.jp/prize/year/14.html](https://web.archive.org/web/20110927072451/http://awards.cesa.or.jp/prize/year/14.html)
 
 ３）ベストセールス賞
 
@@ -140,7 +140,7 @@ entities:
 
 「ポケットモンスターブラック・ホワイト」
 
-[http://awards.cesa.or.jp/prize/year/11.html](http://awards.cesa.or.jp/prize/year/11.html)
+[http://awards.cesa.or.jp/prize/year/11.html](https://web.archive.org/web/20110925035321/http://awards.cesa.or.jp/prize/year/11.html)
 
 いやー、嬉しいですねー。
 
@@ -148,7 +148,7 @@ entities:
 
 その他の受賞作品。
 
-[http://awards.cesa.or.jp/prize/prize_01.html](http://awards.cesa.or.jp/prize/prize_01.html)
+[http://awards.cesa.or.jp/prize/prize_01.html](https://web.archive.org/web/20110905011525/http://awards.cesa.or.jp/prize/prize_01.html)
 
 ベストセールス賞を、選ばれしファンの方にいただくマスダ。
 
@@ -195,13 +195,13 @@ Bravo!!
 
 The Pokémon Company’s “Mr. Tsunekazu Ishihara”
 
-[http://awards.cesa.or.jp/prize/prize_04.html](http://awards.cesa.or.jp/prize/prize_04.html)
+[http://awards.cesa.or.jp/prize/prize_04.html](https://web.archive.org/web/20110909143913/http://awards.cesa.or.jp/prize/prize_04.html)
 
 2)Global Award Japanese game section
 
 “Pocket monsters Heart Gold / Soul Silver”
 
-[http://awards.cesa.or.jp/prize/year/14.html](http://awards.cesa.or.jp/prize/year/14.html)
+[http://awards.cesa.or.jp/prize/year/14.html](https://web.archive.org/web/20110927072451/http://awards.cesa.or.jp/prize/year/14.html)
 
 3)Best Sales Award
 
@@ -209,7 +209,7 @@ The Pokémon Company’s “Mr. Tsunekazu Ishihara”
 
 “Pocket Monsters Black / White”
 
-[http://awards.cesa.or.jp/prize/year/11.html](http://awards.cesa.or.jp/prize/year/11.html)
+[http://awards.cesa.or.jp/prize/year/11.html](https://web.archive.org/web/20110925035321/http://awards.cesa.or.jp/prize/year/11.html)
 
 Well, I’m quite happy.
 
@@ -217,7 +217,7 @@ Thank you for the supporting fans.
 
 Other awarded video games.
 
-[http://awards.cesa.or.jp/prize/prize_01.html](http://awards.cesa.or.jp/prize/prize_01.html)
+[http://awards.cesa.or.jp/prize/prize_01.html](https://web.archive.org/web/20110905011525/http://awards.cesa.or.jp/prize/prize_01.html)
 
 Receiving “Best Sales Award” from
 

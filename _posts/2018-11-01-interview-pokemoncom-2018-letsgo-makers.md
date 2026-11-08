@@ -27,6 +27,7 @@ translation_lang: zh-CN
 source:
   title: 'Meet the Makers of Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!'
   url: https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/
+  archive_url: https://web.archive.org/web/20181102103824/https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/
   language: en
   source_type: official_web
 original_link: https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/

@@ -118,7 +118,7 @@ GAME FREAK 的全体员工，<br>
 
 开发员工们的声音。敬请期待！<br>
 
-[《宝可梦黑·白》官方网站](http://www.pokemon-sp.jp/series/bw/)<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" alt="ポケットモンスターブラック・ホワイト" loading="lazy"></a></figure>
+[《宝可梦黑·白》官方网站](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" alt="ポケットモンスターブラック・ホワイト" loading="lazy"></a></figure>
 
 <br>
 </div>
@@ -188,7 +188,7 @@ GAME FREAK 的全体员工，<br>
 
 開発スタッフの声をお届けします。どうぞお楽しみに！<br>
 
-[ポケットモンスターブラック・ホワイト公式サイト](http://www.pokemon-sp.jp/series/bw/)<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" alt="ポケットモンスターブラック・ホワイト" loading="lazy"></a></figure>
+[ポケットモンスターブラック・ホワイト公式サイト](https://web.archive.org/web/20100519111512/http://www.pokemon-sp.jp/series/bw/)<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/199/pokemon-sp-ba9916a2.gif" alt="ポケットモンスターブラック・ホワイト" loading="lazy"></a></figure>
 
 <br>
 </div>

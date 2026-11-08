@@ -113,7 +113,7 @@ entities:
 
 （宝可梦官方网站）：
 
-[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
+[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](https://web.archive.org/web/20130608024039/http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
 
 生物股长官方网站：
 
@@ -188,7 +188,7 @@ entities:
 
 (ポケモンオフィシャルサイト)：
 
-[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
+[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](https://web.archive.org/web/20130608024039/http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
 
 いきものがかりさん公式サイト：
 
@@ -269,7 +269,7 @@ The episode I was invited to.
 
 *Pokemon Official Site:
 
-[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
+[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](https://web.archive.org/web/20130608024039/http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
 
 Ikimono – gakari’s official sight:
 

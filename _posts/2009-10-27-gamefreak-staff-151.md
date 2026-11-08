@@ -257,7 +257,7 @@ HG・SS 就是一部塞进了许多这种无法用眼睛看见、<br>
 
 顺带一提，HG・SS 的原声带明天就要发售了！<br>
 
-HG・SS 官方网站上也有[原声带介绍页面](http://www.pokemon.co.jp/special/hgss/news/12.html)。
+HG・SS 官方网站上也有[原声带介绍页面](https://web.archive.org/web/20091018153945/http://www.pokemon.co.jp/special/hgss/news/12.html)。
 
 我是负责音效的一之濑。<br>
 
@@ -483,7 +483,7 @@ HG・SSのサウンドのアレンジについてお話しします。<br>
 
 ちなみにＨＧ・ＳＳのサントラは明日発売です！<br>
 
-ＨＧ・ＳＳ公式サイトに[サントラの紹介ページ](http://www.pokemon.co.jp/special/hgss/news/12.html)もあります。
+ＨＧ・ＳＳ公式サイトに[サントラの紹介ページ](https://web.archive.org/web/20091018153945/http://www.pokemon.co.jp/special/hgss/news/12.html)もあります。
 
 サウンドの一之瀬でした。<br>
 

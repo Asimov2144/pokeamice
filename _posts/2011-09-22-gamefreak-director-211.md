@@ -104,7 +104,7 @@ entities:
 
 >>PRESS START 2011
 
-[http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)
+[http://www.famitsu.com/famiweb/pressstart/](https://web.archive.org/web/20110923151902/http://www.famitsu.com/famiweb/pressstart/)
 
 下回再见噜！
 
@@ -161,7 +161,7 @@ entities:
 
 >>PRESS START 2011
 
-[http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)
+[http://www.famitsu.com/famiweb/pressstart/](https://web.archive.org/web/20110923151902/http://www.famitsu.com/famiweb/pressstart/)
 
 チャオ！
 
@@ -226,7 +226,7 @@ Me and Kage-yan(right).
 
 >>PRESS START 2011
 
-[http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)
+[http://www.famitsu.com/famiweb/pressstart/](https://web.archive.org/web/20110923151902/http://www.famitsu.com/famiweb/pressstart/)
 
 Ciao!
 

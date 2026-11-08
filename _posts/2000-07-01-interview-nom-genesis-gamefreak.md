@@ -203,6 +203,7 @@ interviewee: N.O.M采访者, 增田顺一, 杉森建, 森本茂树, 渡边哲也
 source:
   title: 『ポケットモンスター』を生んだ男たち（ゲームフリーク・インタビュー·初代篇）
   url: https://www.nintendo.co.jp/nom/0007/gfreak/index.html
+  archive_url: https://web.archive.org/web/20001018080057/https://www.nintendo.co.jp/nom/0007/gfreak/index.html
 entities:
   people:
   - "杉森建"

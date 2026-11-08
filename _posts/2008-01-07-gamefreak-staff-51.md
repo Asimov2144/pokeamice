@@ -71,7 +71,7 @@ entities:
 
 我们现已发布了可以将绘制好的点阵发送给 GAME FREAK 的功能。<br>
 
-关于报名方法，请详细参阅[报名须知](http://www.gamefreak.co.jp/information/news_080101.html)。
+关于报名方法，请详细参阅[报名须知](https://web.archive.org/web/20080108101328/http://www.gamefreak.co.jp/information/news_080101.html)。
 
 获奖者还将获得惊喜礼物，<br>
 
@@ -105,7 +105,7 @@ Web担当のカニ子です。
 
 打ったドットがゲームフリーク宛に送信できる機能をリリースしました。<br>
 
-応募方法については詳しくは[応募要項](http://www.gamefreak.co.jp/information/news_080101.html)をご覧下さい。
+応募方法については詳しくは[応募要項](https://web.archive.org/web/20080108101328/http://www.gamefreak.co.jp/information/news_080101.html)をご覧下さい。
 
 入賞者にはオタノシミプレゼントも用意しましたので、<br>
 

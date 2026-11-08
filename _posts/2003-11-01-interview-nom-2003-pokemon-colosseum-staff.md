@@ -25,6 +25,7 @@ translation_lang: zh-CN
 source:
   title: 『ポケモンコロシアム』開発スタッフインタビュー｜Nintendo Online Magazine 2003年11月号
   url: https://www.nintendo.co.jp/nom/0311/soft/interv.html
+  archive_url: https://web.archive.org/web/20031107030013/https://www.nintendo.co.jp/nom/0311/soft/interv.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0311/soft/interv.html

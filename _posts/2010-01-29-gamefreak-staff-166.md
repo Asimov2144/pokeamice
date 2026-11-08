@@ -81,7 +81,7 @@ entities:
 
 世界锦标赛和规则的相关信息请看这里↓<br>
 
-[http://www.pokemon.co.jp/special/wcs0910/](http://www.pokemon.co.jp/special/wcs0910/)
+[http://www.pokemon.co.jp/special/wcs0910/](https://web.archive.org/web/20100301121408/http://www.pokemon.co.jp/special/wcs0910/)
 
 首先，我们分成两个联盟进行了循环赛。<br>
 
@@ -125,7 +125,7 @@ entities:
 
 没错，决赛就是もりもと对カビ！！<br>
 
-不愧是永远的劲敌，他们在[社内ポケモンDPゲーム大会開催](http://www.gamefreak.co.jp/blog/staff/?p=56)时也是在决赛中一决胜负的对手。<br>
+不愧是永远的劲敌，他们在[社内ポケモンDPゲーム大会開催](/gamefreak-staff/entry-56/)时也是在决赛中一决胜负的对手。<br>
 
 もりもと的队伍是
 
@@ -211,7 +211,7 @@ entities:
 
 ワールドチャンピオンシップスやルールの情報はこちら↓<br>
 
-[http://www.pokemon.co.jp/special/wcs0910/](http://www.pokemon.co.jp/special/wcs0910/)
+[http://www.pokemon.co.jp/special/wcs0910/](https://web.archive.org/web/20100301121408/http://www.pokemon.co.jp/special/wcs0910/)
 
 まずは2つのリーグで総当たりを行いました。<br>
 
@@ -257,7 +257,7 @@ entities:
 
 そう、決勝はもりもと対カビです！！<br>
 
-さすが永遠のライバル同士、[社内ポケモンDPゲーム大会開催](http://www.gamefreak.co.jp/blog/staff/?p=56)のときも決勝で競い合った仲なのでした。<br>
+さすが永遠のライバル同士、[社内ポケモンDPゲーム大会開催](/gamefreak-staff/entry-56/)のときも決勝で競い合った仲なのでした。<br>
 
 もりもとのてもちは<br>
 

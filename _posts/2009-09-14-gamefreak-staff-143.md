@@ -59,7 +59,7 @@ entities:
 
 为了传达我们对新伙伴的热情，<br>
 
-前几天我们开通了[中途招聘特别网站](http://www.gamefreak.co.jp/recruit/career.html)！
+前几天我们开通了[中途招聘特别网站](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)！
 
 这是一个倾注了许多心意的网站，介绍了我们正在寻找什么样的伙伴，以及想和大家一起制作怎样的游戏。<br>
 
@@ -129,7 +129,7 @@ GAME FREAK 是否是一个能够发挥您过往职业经历的地方，<br>
 
 新しい仲間への情熱を伝えるべく、<br>
 
-先日[中途採用特設サイト](http://www.gamefreak.co.jp/recruit/career.html)をオープンしました！
+先日[中途採用特設サイト](https://web.archive.org/web/20090919061453/http://www.gamefreak.co.jp/recruit/career.html)をオープンしました！
 
 どんな仲間を探しているのか、一緒にどんな遊びを作っていきたいのか、<br>
 

@@ -94,7 +94,7 @@ GAME FREAK的作品能够参与其中，真的是一件无比光荣的事。
 
 这次的PRESS START上，有个人进行了人生中的第一次挑战。<br>
 
-他就是声音设计师[KAGE（影）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=kage)。
+他就是声音设计师[KAGE（影）](https://web.archive.org/web/20101019053809/http://www.gamefreak.co.jp/blog/staff/index.php?tag=kage)。
 
 这次演奏的“宝可梦特别组曲”，<br>
 
@@ -118,7 +118,7 @@ GAME FREAK的作品能够参与其中，真的是一件无比光荣的事。
 
 9月19日（周一，节假日）将在名古屋举办演出。<br>
 
-[http://www.famitsu.com/famiweb/pressstart/outline.html](http://www.famitsu.com/famiweb/pressstart/outline.html)
+[http://www.famitsu.com/famiweb/pressstart/outline.html](https://web.archive.org/web/20110902083322/http://www.famitsu.com/famiweb/pressstart/outline.html)
 
 感兴趣的朋友一定要去看看哦！
 
@@ -164,7 +164,7 @@ PRESS STARTで演奏されることになったんです。
 
 今回のPRESS STARTで、初めてのチャレンジをした人がいます。<br>
 
-サウンドデザイナーの[KAGE](http://www.gamefreak.co.jp/blog/staff/index.php?tag=kage)。
+サウンドデザイナーの[KAGE](https://web.archive.org/web/20101019053809/http://www.gamefreak.co.jp/blog/staff/index.php?tag=kage)。
 
 今回演奏された「ポケットモンスター スペシャルメドレー」、<br>
 
@@ -188,7 +188,7 @@ PRESS STARTで演奏されることになったんです。
 
 9月19日（月祝）には名古屋公演が開催されます。<br>
 
-[http://www.famitsu.com/famiweb/pressstart/outline.html](http://www.famitsu.com/famiweb/pressstart/outline.html)
+[http://www.famitsu.com/famiweb/pressstart/outline.html](https://web.archive.org/web/20110902083322/http://www.famitsu.com/famiweb/pressstart/outline.html)
 
 興味がある方はぜひ行ってみてくださいね！
 

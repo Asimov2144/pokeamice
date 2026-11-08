@@ -26,6 +26,7 @@ source_url: https://web.archive.org/web/20170329213109/https://www.gamefreak.co.
 source:
   title: ゲームフリーク、技術開発への挑戦
   url: https://www.gamefreak.co.jp/recruit/interview_02.html
+  archive_url: https://web.archive.org/web/20191019173830/https://www.gamefreak.co.jp/recruit/interview_02.html
   language: ja
   source_type: official_interview
 author: Game Freak 採用チーム

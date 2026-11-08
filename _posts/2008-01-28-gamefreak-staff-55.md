@@ -71,7 +71,7 @@ entities:
 
 还请大家期待公布结果。
 
-欢迎通过[首页](http://www.gamefreak.co.jp/index02.html)投稿。<br>
+欢迎通过[首页](https://web.archive.org/web/20080121040404/http://www.gamefreak.co.jp/index02.html)投稿。<br>
 
 最终会收到什么样的作品，我们也很期待。
 
@@ -99,7 +99,7 @@ entities:
 
 発表を楽しみにお待ちいただければと思います。
 
-ご応募は[トップページ](http://www.gamefreak.co.jp/index02.html)からどうぞ。<br>
+ご応募は[トップページ](https://web.archive.org/web/20080121040404/http://www.gamefreak.co.jp/index02.html)からどうぞ。<br>
 
 最終的にどんな作品が集まるのか我々も楽しみにしています。
 

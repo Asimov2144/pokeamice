@@ -88,7 +88,7 @@ entities:
 
 [http://blog.pokemon-movie.jp/](http://blog.pokemon-movie.jp/)
 
-[http://blog.pokemon-movie.jp/archives/2006/07/post_80.html](http://blog.pokemon-movie.jp/archives/2006/07/post_80.html)
+[http://blog.pokemon-movie.jp/archives/2006/07/post_80.html](https://web.archive.org/web/20061011022203/http://blog.pokemon-movie.jp/archives/2006/07/post_80.html)
 
 那么，再见！
 
@@ -135,7 +135,7 @@ DPをどうぞよろしくお願いします！
 
 [http://blog.pokemon-movie.jp/](http://blog.pokemon-movie.jp/)
 
-[http://blog.pokemon-movie.jp/archives/2006/07/post_80.html](http://blog.pokemon-movie.jp/archives/2006/07/post_80.html)
+[http://blog.pokemon-movie.jp/archives/2006/07/post_80.html](https://web.archive.org/web/20061011022203/http://blog.pokemon-movie.jp/archives/2006/07/post_80.html)
 
 では。
 

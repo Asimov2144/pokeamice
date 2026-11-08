@@ -76,7 +76,7 @@ entities:
 下回再见呀！
 附赠内容
 
-[http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)
+[http://www.famitsu.com/game/news/1229894_1124.html](https://web.archive.org/web/20091127124001/http://www.famitsu.com/game/news/1229894_1124.html)
 
 [http://news.dengeki.com/elem/000/000/214/214674/](http://news.dengeki.com/elem/000/000/214/214674/)
 
@@ -119,7 +119,7 @@ entities:
 
 おまけ
 
-[http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)
+[http://www.famitsu.com/game/news/1229894_1124.html](https://web.archive.org/web/20091127124001/http://www.famitsu.com/game/news/1229894_1124.html)
 
 [http://news.dengeki.com/elem/000/000/214/214674/](http://news.dengeki.com/elem/000/000/214/214674/)
 
@@ -176,7 +176,7 @@ Ciao!
 
 Here’s more.
 
-[http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)
+[http://www.famitsu.com/game/news/1229894_1124.html](https://web.archive.org/web/20091127124001/http://www.famitsu.com/game/news/1229894_1124.html)
 
 [http://news.dengeki.com/elem/000/000/214/214674/](http://news.dengeki.com/elem/000/000/214/214674/)
 

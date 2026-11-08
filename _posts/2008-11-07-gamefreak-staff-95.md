@@ -63,7 +63,7 @@ GAME FREAK 在上月底前后爆发了一场感冒潮，真是有那么一瞬间
 
 自从点阵分享公开以来，一直安静了一阵子的<br>
 
-[GAME FREAK 秘密基地](http://secretbase.gamefreak.co.jp/)，<br>
+[GAME FREAK 秘密基地](https://web.archive.org/web/20081015093724/http://secretbase.gamefreak.co.jp/)，<br>
 
 计划在星期一公开新内容。<br>
 
@@ -103,7 +103,7 @@ GAME FREAK 在上月底前后爆发了一场感冒潮，真是有那么一瞬间
 
 ドットシェアー公開以来しばらくおとなしくしていた<br>
 
-[ゲームフリークひみつきち](http://secretbase.gamefreak.co.jp/)ですが、<br>
+[ゲームフリークひみつきち](https://web.archive.org/web/20081015093724/http://secretbase.gamefreak.co.jp/)ですが、<br>
 
 月曜日に新コンテンツを公開予定です。<br>
 

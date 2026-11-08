@@ -50,7 +50,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">然后在 6 月 15 日太平洋时间上午 10 点／东部时间下午 1 点，我会参加 <em>宝可梦 GO</em> 开发者问答</div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
-<div class="gf-lineblog-line gf-lineblog-line--left">Treehouse：E3 现场直播将通过 <a class="gf-lineblog-source-link" href="http://www.youtube.com/nintendo" target="_blank" rel="noopener">YouTube</a>、<a class="gf-lineblog-source-link" href="http://twitch.tv/nintendo" target="_blank" rel="noopener">Twitch</a> 以及 <a class="gf-lineblog-source-link" href="http://e3.nintendo.com/" target="_blank" rel="noopener">任天堂的 E3 网站</a> 进行直播。
+<div class="gf-lineblog-line gf-lineblog-line--left">Treehouse：E3 现场直播将通过 <a class="gf-lineblog-source-link" href="http://www.youtube.com/nintendo" target="_blank" rel="noopener">YouTube</a>、<a class="gf-lineblog-source-link" href="http://twitch.tv/nintendo" target="_blank" rel="noopener">Twitch</a> 以及 <a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160614013056/http://e3.nintendo.com/" target="_blank" rel="noopener">任天堂的 E3 网站</a> 进行直播。
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">如果你也在 E3，欢迎来现场观看！</div>
@@ -75,7 +75,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--left">Treehouse: Live at E3 will be streamed via <a class="gf-lineblog-source-link" href="http://www.youtube.com/nintendo" target="_blank" rel="noopener">YouTube</a>
 , <a class="gf-lineblog-source-link" href="http://twitch.tv/nintendo" target="_blank" rel="noopener">Twitch</a>
 , and
- <a class="gf-lineblog-source-link" href="http://e3.nintendo.com/" target="_blank" rel="noopener">Nintendo’s E3 website</a>.
+ <a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160614013056/http://e3.nintendo.com/" target="_blank" rel="noopener">Nintendo’s E3 website</a>.
 <br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">If you are at E3 come watch it in person!</div>

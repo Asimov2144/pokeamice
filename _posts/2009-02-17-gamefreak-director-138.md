@@ -60,7 +60,7 @@ entities:
 
 2月4日和5日，我们举办了公司说明会！
 
-[https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://www.gamefreak.co.jp/recruit/rec_info090216.html)
+[https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://web.archive.org/web/20090222012901/https://www.gamefreak.co.jp/recruit/rec_info090216.html)
 
 我们把电视游戏拆分成游玩、操作、世界观、一起游玩的人这四个部分，
 
@@ -123,7 +123,7 @@ entities:
 
 ２月４日、５日に会社説明会を行ったんです！
 
-[https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://www.gamefreak.co.jp/recruit/rec_info090216.html)
+[https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://web.archive.org/web/20090222012901/https://www.gamefreak.co.jp/recruit/rec_info090216.html)
 
 テレビゲームを、遊び、操作、世界観、遊び相手、という４つに分解、
 

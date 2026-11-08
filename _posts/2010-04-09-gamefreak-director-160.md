@@ -74,7 +74,7 @@ entities:
 下回再见啦！
 [http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)
 
-[http://www.pokemon.co.jp/bw/index.html](http://www.pokemon.co.jp/bw/index.html)
+[http://www.pokemon.co.jp/bw/index.html](https://web.archive.org/web/20100410220140/http://www.pokemon.co.jp/bw/index.html)
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
@@ -109,7 +109,7 @@ entities:
 
 [http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)
 
-[http://www.pokemon.co.jp/bw/index.html](http://www.pokemon.co.jp/bw/index.html)
+[http://www.pokemon.co.jp/bw/index.html](https://web.archive.org/web/20100410220140/http://www.pokemon.co.jp/bw/index.html)
 
 
 </details>
@@ -150,7 +150,7 @@ Please wait.
 
 Ciao[http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)
 
-[http://www.pokemon.co.jp/bw/index.html](http://www.pokemon.co.jp/bw/index.html)
+[http://www.pokemon.co.jp/bw/index.html](https://web.archive.org/web/20100410220140/http://www.pokemon.co.jp/bw/index.html)
 
 
 </details>

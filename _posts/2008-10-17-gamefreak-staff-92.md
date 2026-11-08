@@ -60,7 +60,7 @@ entities:
 
 GAME FREAK里有负责筹办公司内部活动的工作人员，叫作“活动委员会”。<br>
 
-去年，ジョニー（乔尼）写过[关于秋季活动的文章](http://www.gamefreak.co.jp/blog/staff/?p=39)。
+去年，ジョニー（乔尼）写过[关于秋季活动的文章](/gamefreak-staff/entry-39/)。
 
 今年的活动是葡萄、梨采摘！<br>
 
@@ -112,7 +112,7 @@ GAME FREAK在可以尽情吃水果的果园里，感受了一番收获的秋天�
 
 取り仕切る役についているスタッフがいます。<br>
 
-昨年は[ジョニーが秋のイベントについて](http://www.gamefreak.co.jp/blog/staff/?p=39)書きました。
+昨年は[ジョニーが秋のイベントについて](/gamefreak-staff/entry-39/)書きました。
 
 今年のイベントはぶどう・なし狩り！<br>
 

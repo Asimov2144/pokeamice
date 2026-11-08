@@ -70,7 +70,7 @@ entities:
 大家敬请期待哦——！！！！！
 
 下回再见呀！
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
@@ -97,7 +97,7 @@ entities:
 
 チャオ！
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 
 </details>
@@ -128,7 +128,7 @@ Everyone, I hope you all enjoy the show!!
 
 Ciao!
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 *TV program “Pokémon Smash!” can be seen only in Japan.
 

@@ -81,7 +81,7 @@ entities:
 
 详情请访问新干线N700系的网站！
 
-[http://n700.jp/](http://n700.jp/)
+[http://n700.jp/](https://web.archive.org/web/20071224003014/http://n700.jp/)
 
 那么。
 
@@ -124,7 +124,7 @@ N700系に乗ることが出来るなんて！！夢のようです！
 
 詳しくは新幹線N700系のサイトをどうぞ！
 
-[http://n700.jp/](http://n700.jp/)
+[http://n700.jp/](https://web.archive.org/web/20071224003014/http://n700.jp/)
 
 では。
 
@@ -185,7 +185,7 @@ For more details, please check the following website
 
 about the bullet train “N700″!!
 
-[http://n700.jp/](http://n700.jp/)
+[http://n700.jp/](https://web.archive.org/web/20071224003014/http://n700.jp/)
 
 See ya.
 

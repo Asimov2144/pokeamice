@@ -65,7 +65,7 @@ GAME FREAK 已经开始招募本年度的中途入职员工啦！<br>
 
 招聘详情已刊登在中途招聘页面，<br>
 
-请查看[コチラ](https://www.gamefreak.co.jp/career/outline.html)。
+请查看[コチラ](https://web.archive.org/web/20100929162514/https://www.gamefreak.co.jp/career/outline.html)。
 
 另外，招聘职位还会随时增加或调整！<br>
 
@@ -127,7 +127,7 @@ GAME FREAK 已经开始招募本年度的中途入职员工啦！<br>
 
 応募要項は中途採用ページに掲載していますので、<br>
 
-[コチラ](https://www.gamefreak.co.jp/career/outline.html)をご覧くださいませ。
+[コチラ](https://web.archive.org/web/20100929162514/https://www.gamefreak.co.jp/career/outline.html)をご覧くださいませ。
 
 尚、募集職種は随時追加・変更していきます！<br>
 

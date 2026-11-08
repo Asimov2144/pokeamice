@@ -66,11 +66,11 @@ GAME FREAK已经开始进行2012年度应届生的第二次招聘。<br>
 
 详细信息请参阅各职位的招聘要求。<br>
 
-[策划](http://www.gamefreak.co.jp/new_employ/outline_pl.html)<br>
+[策划](https://web.archive.org/web/20110620070027/http://www.gamefreak.co.jp/new_employ/outline_pl.html)<br>
 
-[程序员](http://www.gamefreak.co.jp/new_employ/outline_pg.html)<br>
+[程序员](https://web.archive.org/web/20110620065757/http://www.gamefreak.co.jp/new_employ/outline_pg.html)<br>
 
-[平面设计师](http://www.gamefreak.co.jp/new_employ/outline.html)
+[平面设计师](https://web.archive.org/web/20110620061256/http://www.gamefreak.co.jp/new_employ/outline.html)
 
 对于希望应聘程序员职位的人，有一件事尤其需要注意，<br>
 
@@ -146,11 +146,11 @@ GAME FREAK已经开始进行2012年度应届生的第二次招聘。<br>
 
 詳しくは、各職種の募集要項をご覧ください。<br>
 
-[プランナー](http://www.gamefreak.co.jp/new_employ/outline_pl.html)<br>
+[プランナー](https://web.archive.org/web/20110620070027/http://www.gamefreak.co.jp/new_employ/outline_pl.html)<br>
 
-[プログラマー](http://www.gamefreak.co.jp/new_employ/outline_pg.html)<br>
+[プログラマー](https://web.archive.org/web/20110620065757/http://www.gamefreak.co.jp/new_employ/outline_pg.html)<br>
 
-[グラフィックデザイナー](http://www.gamefreak.co.jp/new_employ/outline.html)
+[グラフィックデザイナー](https://web.archive.org/web/20110620061256/http://www.gamefreak.co.jp/new_employ/outline.html)
 
 プログラマー志望の方は特に注意していただきたいことがありますので、<br>
 

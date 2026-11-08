@@ -65,7 +65,7 @@ entities:
 可能有些读者已经知道了，10月1日起，<br>
 2012年度应届毕业生招聘开始接受报名。
 
-[GAME FREAK 应届毕业生招聘页面](http://www.gamefreak.co.jp/new_employ/index.html)
+[GAME FREAK 应届毕业生招聘页面](https://web.archive.org/web/20101211025222/http://www.gamefreak.co.jp/new_employ/index.html)
 
 http://www.gamefreak.co.jp/new_employ/index.html
 
@@ -128,7 +128,7 @@ http://job.rikunabi.com/2012/company/top/r189900076/
 
 2012年度新卒採用のエントリーがスタートしました。
 
-[ゲームフリーク 新卒採用ページ](http://www.gamefreak.co.jp/new_employ/index.html)
+[ゲームフリーク 新卒採用ページ](https://web.archive.org/web/20101211025222/http://www.gamefreak.co.jp/new_employ/index.html)
 
 http://www.gamefreak.co.jp/new_employ/index.html
 

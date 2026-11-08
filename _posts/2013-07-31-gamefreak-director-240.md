@@ -74,7 +74,7 @@ GAME FREAK 首款自主发行的游戏正式发售了。
 
 官方网站：
 
-[https://www.gamefreak.co.jp/solitiba/index.html](https://www.gamefreak.co.jp/solitiba/index.html)
+[https://www.gamefreak.co.jp/solitiba/index.html](https://web.archive.org/web/20130727135320/https://www.gamefreak.co.jp/solitiba/index.html)
 
 宣传视频：
 
@@ -115,7 +115,7 @@ GAME FREAK 首款自主发行的游戏正式发售了。
 
 公式ＨＰ：
 
-[https://www.gamefreak.co.jp/solitiba/index.html](https://www.gamefreak.co.jp/solitiba/index.html)
+[https://www.gamefreak.co.jp/solitiba/index.html](https://web.archive.org/web/20130727135320/https://www.gamefreak.co.jp/solitiba/index.html)
 
 プロモーションビデオ：
 
@@ -152,7 +152,7 @@ Please give the game a try!
 
 Official Home Page:
 
-[https://www.gamefreak.co.jp/solitiba/index.html](https://www.gamefreak.co.jp/solitiba/index.html)
+[https://www.gamefreak.co.jp/solitiba/index.html](https://web.archive.org/web/20130727135320/https://www.gamefreak.co.jp/solitiba/index.html)
 
 Promotion Video:
 

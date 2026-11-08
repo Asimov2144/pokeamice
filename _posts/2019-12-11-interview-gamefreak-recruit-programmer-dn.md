@@ -18,6 +18,7 @@ source_url: https://web.archive.org/web/20191211213057/https://www.gamefreak.co.
 source:
   title: プログラマ社員紹介｜採用情報
   url: https://www.gamefreak.co.jp/recruit/interview-pg-dn/
+  archive_url: https://web.archive.org/web/20191211213057/https://www.gamefreak.co.jp/recruit/interview-pg-dn/
   language: ja
   source_type: official_interview
 author: Game Freak 官方

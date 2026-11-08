@@ -28,6 +28,7 @@ translation_lang: zh-CN
 source:
   title: ポケモンから広がる世界／「ポケモン大ヒットの秘密をさぐる」小学館 久保雅一さんインタビュー｜Nintendo Online Magazine 2000年6月号
   url: https://www.nintendo.co.jp/nom/0006/04/04c01.html
+  archive_url: https://web.archive.org/web/20021225173426/https://www.nintendo.co.jp/nom/0006/04/04c01.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0006/04/04c01.html

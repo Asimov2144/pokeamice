@@ -54,7 +54,7 @@ GAME FREAK 带来的爽快动作游戏
 
 《Screw Breaker》正式公布了！！
 
-[screwbreaker.com](http://www.screwbreaker.com/) 也已经开放，大家一定要去看看！
+[screwbreaker.com](https://web.archive.org/web/20050529003420/http://www.screwbreaker.com/) 也已经开放，大家一定要去看看！
 
 游戏发售后，这个网站也计划不断更新。
 
@@ -95,7 +95,7 @@ GAME FREAK 原本就很擅长开发《昆蒂》和《脉冲超人》等
 
 「スクリューブレイカー」が発表されました！！
 
-[screwbreaker.com](http://www.screwbreaker.com/) もオープンしていますので、ぜひ見て下さい！
+[screwbreaker.com](https://web.archive.org/web/20050529003420/http://www.screwbreaker.com/) もオープンしていますので、ぜひ見て下さい！
 
 発売後には、このサイトもどんどん更新する予定です。
 

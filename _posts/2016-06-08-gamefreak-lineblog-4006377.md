@@ -135,7 +135,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--left">东京都世田谷区太子堂4丁目1番1号 胡萝卜塔22层</div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">交通方式</div>
-<div class="gf-lineblog-line gf-lineblog-line--left">→<a class="gf-lineblog-source-link" href="http://www.gamefreak.co.jp/company/access.html" target="_blank" rel="noopener">http://www.gamefreak.co.jp/company/access.html</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--left">→<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20131031055126/http://www.gamefreak.co.jp/company/access.html" target="_blank" rel="noopener">http://www.gamefreak.co.jp/company/access.html</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">・报名受理时间</div>
@@ -266,7 +266,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--left">東京都世田谷区太子堂4丁目1番1号 キャロットタワー 22F</div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">アクセス</div>
-<div class="gf-lineblog-line gf-lineblog-line--left">→<a class="gf-lineblog-source-link" href="http://www.gamefreak.co.jp/company/access.html" target="_blank" rel="noopener">http://www.gamefreak.co.jp/company/access.html</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--left">→<a class="gf-lineblog-source-link" href="https://web.archive.org/web/20131031055126/http://www.gamefreak.co.jp/company/access.html" target="_blank" rel="noopener">http://www.gamefreak.co.jp/company/access.html</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--left">・応募受付期間</div>

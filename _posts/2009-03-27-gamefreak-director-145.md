@@ -75,11 +75,11 @@ entities:
 
 ・GamesRader
 
-[http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013](http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013)
+[http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013](https://web.archive.org/web/20110615194633/http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013)
 
 ・G4TV
 
-[http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda–Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html](http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html)
+[http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda–Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html](https://web.archive.org/web/20170911071722/http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html)
 
 ・1UP.com
 
@@ -122,11 +122,11 @@ entities:
 
 ・GamesRader
 
-[http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013](http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013)
+[http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013](https://web.archive.org/web/20110615194633/http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013)
 
 ・G4TV
 
-[http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda–Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html](http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html)
+[http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda–Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html](https://web.archive.org/web/20170911071722/http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html)
 
 ・1UP.com
 
@@ -175,11 +175,11 @@ IGN.com
 
 GamesRader
 
-[http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013](http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013)
+[http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013](https://web.archive.org/web/20110615194633/http://www.gamesradar.com/f/how-Pokemon-are-born/a-20090319112123306013)
 
 G4TV
 
-[http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda–Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html](http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html)
+[http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda–Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html](https://web.archive.org/web/20170911071722/http://g4tv.com/thefeed/blog/post/694081/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.html)
 
 1UP.com
 

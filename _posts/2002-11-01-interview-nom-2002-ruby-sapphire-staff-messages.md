@@ -29,6 +29,7 @@ translation_lang: zh-CN
 source:
   title: 『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）｜Nintendo Online Magazine 2002年11月号
   url: https://www.nintendo.co.jp/nom/0211/01/01_05/index.html
+  archive_url: https://web.archive.org/web/20030118224928/https://www.nintendo.co.jp/nom/0211/01/01_05/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0211/01/01_05/index.html

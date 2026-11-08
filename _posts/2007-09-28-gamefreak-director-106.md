@@ -77,7 +77,7 @@ entities:
 
 不过还是在这里介绍一下前几天面向全球同步公开的 GTS 网站。
 
-[http://www.pokemon-gts.net/](http://www.pokemon-gts.net/)
+[http://www.pokemon-gts.net/](https://web.archive.org/web/20070929194136/http://www.pokemon-gts.net/)
 
 很酷吧？
 
@@ -120,7 +120,7 @@ entities:
 
 先日、世界同時公開したＧＴＳサイトを紹介しておきます。
 
-[http://www.pokemon-gts.net/](http://www.pokemon-gts.net/)
+[http://www.pokemon-gts.net/](https://web.archive.org/web/20070929194136/http://www.pokemon-gts.net/)
 
 かっこいいでしょ？
 

@@ -380,6 +380,7 @@ interviewee: N.O.M采访者, 【章节导览】, 田尻智, 石原恒和
 source:
   title: 任天堂官网「N.O.M」(No.23)
   url: https://www.nintendo.co.jp/nom/0007/taidan1/index.html
+  archive_url: https://web.archive.org/web/20001019012436/https://www.nintendo.co.jp/nom/0007/taidan1/index.html
 original_lang: ja
 tags:
 - N.O.M

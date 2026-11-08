@@ -32,6 +32,7 @@ organization: 任天堂株式会社
 source:
   title: 『ポケットモンスター ダイヤモンド・パール』プレイレポート｜Nintendo Online Magazine 2006年10月号 No.99
   url: https://www.nintendo.co.jp/nom/0610/11/index.html
+  archive_url: https://web.archive.org/web/20061023040448/https://www.nintendo.co.jp/nom/0610/11/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0610/11/index.html

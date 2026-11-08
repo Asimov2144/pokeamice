@@ -55,7 +55,7 @@ entities:
 
 就是这个！
 
-[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)
+[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](https://web.archive.org/web/20100801150407/http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)
 
 我想要这个！
 
@@ -79,7 +79,7 @@ entities:
 
 附言：在我也是会员的宝可梦发烧友俱乐部里，还有这样的资讯！
 
-[http://www.pokemon.jp/portal/html/bw/index.cfm](http://www.pokemon.jp/portal/html/bw/index.cfm)。
+[http://www.pokemon.jp/portal/html/bw/index.cfm](https://web.archive.org/web/20100711050540/http://www.pokemon.jp/portal/html/bw/index.cfm)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
@@ -92,7 +92,7 @@ entities:
 
 これこれ！
 
-[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)
+[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](https://web.archive.org/web/20100801150407/http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)
 
 これが欲しい！
 
@@ -116,7 +116,7 @@ SOUND+DROP（音のしずくペンダント）ですかね？
 
 追伸：マスダも会員のポケモンだいすきクラブでは、こんな情報も！
 
-[http://www.pokemon.jp/portal/html/bw/index.cfm](http://www.pokemon.jp/portal/html/bw/index.cfm)
+[http://www.pokemon.jp/portal/html/bw/index.cfm](https://web.archive.org/web/20100711050540/http://www.pokemon.jp/portal/html/bw/index.cfm)
 
 
 </details>
@@ -135,7 +135,7 @@ tomorrow!
 
 Take a look at this!
 
-[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)
+[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](https://web.archive.org/web/20100801150407/http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)
 
 I want this!
 
@@ -165,7 +165,7 @@ Here is interesting news from Pokemon Daisuki Club!
 
 (I’m also a member of this club)
 
-[http://www.pokemon.jp/portal/html/bw/index.cfm](http://www.pokemon.jp/portal/html/bw/index.cfm)
+[http://www.pokemon.jp/portal/html/bw/index.cfm](https://web.archive.org/web/20100711050540/http://www.pokemon.jp/portal/html/bw/index.cfm)
 
 
 </details>

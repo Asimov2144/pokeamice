@@ -53,7 +53,7 @@ entities:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-之前在[黄金周的文章](http://www.gamefreak.co.jp/blog/staff/?p=69)里不经意间首次登场过的，<br>
+之前在[黄金周的文章](/gamefreak-staff/entry-69/)里不经意间首次登场过的，<br>
 
 我是入社第二年的程序员ほっしー（小星）。
 
@@ -159,7 +159,7 @@ entities:
 <div data-gf-language-panel="ja" hidden>
 どうも、こんにちわ！<br>
 
-さり気なく[ゴールデンウィークの記事](http://www.gamefreak.co.jp/blog/staff/?p=69)で初登場していた、<br>
+さり気なく[ゴールデンウィークの記事](/gamefreak-staff/entry-69/)で初登場していた、<br>
 
 入社二年目プログラマーのほっしーです。
 

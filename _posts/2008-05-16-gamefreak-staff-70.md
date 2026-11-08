@@ -77,7 +77,7 @@ entities:
 
 大家还记得我吗？<br>
 
-之前，我们举办过[公司内部宝可梦DP对战大会](http://www.gamefreak.co.jp/blog/staff/?p=56)。<br>
+之前，我们举办过[公司内部宝可梦DP对战大会](/gamefreak-staff/entry-56/)。<br>
 
 那场热烈而激烈的战斗，最终由もりもと（森本）夺得冠军，就此落下帷幕。
 
@@ -253,7 +253,7 @@ GAME FREAK 队的大家都在注视着カビ选手。
 
 みなさん、覚えていますか？<br>
 
-以前、[社内対抗ポケモンDPゲーム大会](http://www.gamefreak.co.jp/blog/staff/?p=56)を開催しました。<br>
+以前、[社内対抗ポケモンDPゲーム大会](/gamefreak-staff/entry-56/)を開催しました。<br>
 
 あの熱く激しい戦いの結果、もりもとが優勝し幕を閉じたのです。
 

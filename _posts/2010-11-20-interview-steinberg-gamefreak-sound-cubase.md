@@ -183,6 +183,7 @@ interviewee: Steinberg, Steinberg 編集部, 景山将太
 source:
   title: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
   url: https://japan.steinberg.net/jp/artists/steinberg_stories/gamefreak.html
+  archive_url: https://web.archive.org/web/20141101025118/https://japan.steinberg.net/jp/artists/steinberg_stories/gamefreak.html
 entities:
   people:
   - "景山将太"

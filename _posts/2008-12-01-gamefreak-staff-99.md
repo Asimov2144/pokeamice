@@ -98,7 +98,7 @@ entities:
 
 ↓世界大会及官方规则的相关信息请看这里↓<br>
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 对我来说，最值得关注的果然还是：面对那位曾让无数猛将挑战、<br>
 
@@ -190,7 +190,7 @@ entities:
 
 ↓世界大会や公式ルールの情報はこちら↓<br>
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 いわしにとっての見所はやはり、これまで幾度となく猛者たちが挑んでは<br>
 

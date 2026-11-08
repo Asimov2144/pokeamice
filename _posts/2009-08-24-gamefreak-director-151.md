@@ -84,7 +84,7 @@ entities:
 下回再见噜！
 附赠内容
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 [http://www.go-pokemon.com/worlds/2009/](http://www.go-pokemon.com/worlds/2009/)
 
@@ -167,7 +167,7 @@ entities:
 
 おまけ
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 [http://www.go-pokemon.com/worlds/2009/](http://www.go-pokemon.com/worlds/2009/)
 
@@ -270,7 +270,7 @@ which only aired in Japan.)
 
 Here’s little more.
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 [http://www.go-pokemon.com/worlds/2009/](http://www.go-pokemon.com/worlds/2009/)
 

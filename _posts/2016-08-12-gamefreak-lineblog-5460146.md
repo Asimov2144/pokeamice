@@ -144,7 +144,7 @@ Niantic, Inc.运营的
 <div class="gf-lineblog-line gf-lineblog-line--center">相关指南</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">请看这里</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">↓</div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemongo.jp/guideline/" target="_blank" rel="noopener">指南</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160812083509/http://www.pokemongo.jp/guideline/" target="_blank" rel="noopener">指南</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
@@ -152,7 +152,7 @@ Niantic, Inc.运营的
 <div class="gf-lineblog-line gf-lineblog-line--center">关于安全措施等内容</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">请从这里查看</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">↓</div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemongo.jp/faq/" target="_blank" rel="noopener">常见问题</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160818191800/http://www.pokemongo.jp/faq/" target="_blank" rel="noopener">常见问题</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">还请大家理解并予以协助</div>
@@ -256,7 +256,7 @@ Niantic, Inc.が運営する
 <div class="gf-lineblog-line gf-lineblog-line--center">ガイドラインは</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">こちら</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">↓</div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemongo.jp/guideline/" target="_blank" rel="noopener">ガイドライン</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160812083509/http://www.pokemongo.jp/guideline/" target="_blank" rel="noopener">ガイドライン</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
@@ -264,7 +264,7 @@ Niantic, Inc.が運営する
 <div class="gf-lineblog-line gf-lineblog-line--center">安全対策などについては</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">こちらから</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">↓</div>
-<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="http://www.pokemongo.jp/faq/" target="_blank" rel="noopener">よくあるご質問</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><a class="gf-lineblog-source-link" href="https://web.archive.org/web/20160818191800/http://www.pokemongo.jp/faq/" target="_blank" rel="noopener">よくあるご質問</a></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">ご理解ご協力のほど</div>

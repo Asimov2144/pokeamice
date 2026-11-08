@@ -268,4 +268,5 @@ interviewee: Pokemon.com, 【章节导览】, 大森滋, 岩尾和昌
 source:
   title: Pokemon.com / PocketMonsters.net
   url: https://www.pokemon.com/us/pokemon-news/an-exclusive-interview-with-the-makers-of-pokemon-ultra-sun-and-pokemon-ultra-moon/
+  archive_url: https://web.archive.org/web/20180303181205/https://www.pokemon.com/us/pokemon-news/an-exclusive-interview-with-the-makers-of-pokemon-ultra-sun-and-pokemon-ultra-moon/
 ---

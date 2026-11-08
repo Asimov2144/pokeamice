@@ -77,7 +77,7 @@ Twitter果然厉害（笑）
 
 即使不领取签名，也请过来看看、逛逛（笑）
 
-[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](https://web.archive.org/web/20120124024909/http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
 下回再见噜！
 
@@ -118,7 +118,7 @@ Twitter果然厉害（笑）
 
 サイン貰わなくても、覗きに遊びに来てください（笑）
 
-[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](https://web.archive.org/web/20120124024909/http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
 チャオ！
 
@@ -167,7 +167,7 @@ Even you don’t have a chance to get the
 
 autograph, please come and visit = )
 
-[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](https://web.archive.org/web/20120124024909/http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
 Ciao!
 

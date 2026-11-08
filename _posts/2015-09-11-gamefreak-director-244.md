@@ -121,7 +121,7 @@ entities:
 
 Niantic,Inc.
 
-[http://www.nianticlabs.com/index.html](http://www.nianticlabs.com/index.html)
+[http://www.nianticlabs.com/index.html](https://web.archive.org/web/20150914215209/http://www.nianticlabs.com/index.html)
 
 媒体报道
 
@@ -131,7 +131,7 @@ Niantic,Inc.
 
 [http://www.inside-games.jp/article/2015/09/10/91052.html](http://www.inside-games.jp/article/2015/09/10/91052.html)
 
-[http://bcnranking.jp/news/1509/150910_31462.html](http://bcnranking.jp/news/1509/150910_31462.html)
+[http://bcnranking.jp/news/1509/150910_31462.html](https://web.archive.org/web/20150912234811/http://bcnranking.jp/news/1509/150910_31462.html)
 
 [http://japan.cnet.com/entertainment/35070367/](http://japan.cnet.com/entertainment/35070367/)
 
@@ -212,7 +212,7 @@ Nianticと共に最高のものづくりをしていきます。
 
 Niantic,Inc.
 
-[http://www.nianticlabs.com/index.html](http://www.nianticlabs.com/index.html)
+[http://www.nianticlabs.com/index.html](https://web.archive.org/web/20150914215209/http://www.nianticlabs.com/index.html)
 
 メディア
 
@@ -222,7 +222,7 @@ Niantic,Inc.
 
 [http://www.inside-games.jp/article/2015/09/10/91052.html](http://www.inside-games.jp/article/2015/09/10/91052.html)
 
-[http://bcnranking.jp/news/1509/150910_31462.html](http://bcnranking.jp/news/1509/150910_31462.html)
+[http://bcnranking.jp/news/1509/150910_31462.html](https://web.archive.org/web/20150912234811/http://bcnranking.jp/news/1509/150910_31462.html)
 
 [http://japan.cnet.com/entertainment/35070367/](http://japan.cnet.com/entertainment/35070367/)
 
@@ -280,7 +280,7 @@ France
 [https://www.youtube.com/user/PokemonOfficielFR](https://www.youtube.com/user/PokemonOfficielFR)
 
 Niantic,Inc.
-[http://www.nianticlabs.com/index.html](http://www.nianticlabs.com/index.html)
+[http://www.nianticlabs.com/index.html](https://web.archive.org/web/20150914215209/http://www.nianticlabs.com/index.html)
 
 Media
 [http://www.gameinformer.com/b/news/archive/2015/09/10/reader-discussion-how-far-would-you-travel-to-catch-a-pokemon.aspx](http://www.gameinformer.com/b/news/archive/2015/09/10/reader-discussion-how-far-would-you-travel-to-catch-a-pokemon.aspx)

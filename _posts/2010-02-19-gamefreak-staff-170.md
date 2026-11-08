@@ -58,7 +58,7 @@ entities:
 
 GAME FREAK 里有把收集红白机游戏软件当成生命的[おにいさん（哥哥）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%8A%E3%81%に%E3%81%84%E3%81%95%E3%82%93)呀，<br>
 
-也有喜欢少女漫画的[ラッペン（拉彭）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%83%A9%E3%83%83%E3%83%9A%E3%83%B3)呀，公司里有很多兴趣各异的员工，<br>
+也有喜欢少女漫画的[ラッペン（拉彭）](https://web.archive.org/web/20101019053759/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%83%A9%E3%83%83%E3%83%9A%E3%83%B3)呀，公司里有很多兴趣各异的员工，<br>
 
 我さとう当然也有自己的兴趣。
 
@@ -124,9 +124,9 @@ GAME FREAK 里有把收集红白机游戏软件当成生命的[おにいさん�
 
 採用担当のさとうです。
 
-ゲームフリークにはファミコンソフト収集に命をかけている[おにいさん](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%8A%E3%81%AB%E3%81%84%E3%81%95%E3%82%93)や、<br>
+ゲームフリークにはファミコンソフト収集に命をかけている[おにいさん](https://web.archive.org/web/20101019053908/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%8A%E3%81%AB%E3%81%84%E3%81%95%E3%82%93)や、<br>
 
-少女漫画好きの[ラッペン](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%83%A9%E3%83%83%E3%83%9A%E3%83%B3)など様々な趣味を持った社員がたくさんいますが、<br>
+少女漫画好きの[ラッペン](https://web.archive.org/web/20101019053759/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%83%A9%E3%83%83%E3%83%9A%E3%83%B3)など様々な趣味を持った社員がたくさんいますが、<br>
 
 私さとうにも趣味がございます。
 

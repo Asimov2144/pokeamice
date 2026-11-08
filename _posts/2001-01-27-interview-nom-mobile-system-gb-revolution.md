@@ -31,6 +31,7 @@ interviewee: 任天堂 / N.O.M 编辑部
 source:
   title: 今月の特集：モバイルシステムGBで広がる遊び ＆ システム解説
   url: https://www.nintendo.co.jp/nom/0101/index.html
+  archive_url: https://web.archive.org/web/20030118101153/https://www.nintendo.co.jp/nom/0101/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0101/index.html

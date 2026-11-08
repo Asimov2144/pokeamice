@@ -86,17 +86,17 @@ MTM with 战斗女王M登场了！
 
 战斗基因M、MTM with 战斗女王M
 
-[http://ptcg.creatures.co.jp/column/6693](http://ptcg.creatures.co.jp/column/6693)
+[http://ptcg.creatures.co.jp/column/6693](https://web.archive.org/web/20120121005353/http://ptcg.creatures.co.jp/column/6693)
 
 ※内容来自 Creatures 公司的博客。
 
 《宝可梦大爆笑！》
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 《宝可梦大爆笑！》下集预告！
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](https://web.archive.org/web/20110802143506/http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
 
 美咲小姐的博客
 
@@ -141,17 +141,17 @@ MTM with バトルウーマンMが登場！
 
 バトル遺伝子M、MTM with バトルウーマンM
 
-[http://ptcg.creatures.co.jp/column/6693](http://ptcg.creatures.co.jp/column/6693)
+[http://ptcg.creatures.co.jp/column/6693](https://web.archive.org/web/20120121005353/http://ptcg.creatures.co.jp/column/6693)
 
 ※クリーチャーズさんのブログから。
 
 ポケモンスマッシュ！
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 ポケモンスマッシュ！次回予告！
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](https://web.archive.org/web/20110802143506/http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
 
 ミサッキーのブログ
 
@@ -208,17 +208,17 @@ you must see it!!
 
 Battle Gene M, MTM with Battle Woman M
 
-[http://ptcg.creatures.co.jp/column/6693](http://ptcg.creatures.co.jp/column/6693)
+[http://ptcg.creatures.co.jp/column/6693](https://web.archive.org/web/20120121005353/http://ptcg.creatures.co.jp/column/6693)
 
 ※Blog from Creatures.
 
 Pokémon Smash!
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 Pokémon Smash! Preview
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](https://web.archive.org/web/20110802143506/http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
 
 Misakky’s blog.
 

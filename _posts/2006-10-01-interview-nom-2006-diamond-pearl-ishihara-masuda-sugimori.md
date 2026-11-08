@@ -29,6 +29,7 @@ translation_lang: zh-CN
 source:
   title: 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号
   url: https://www.nintendo.co.jp/nom/0610/12/i01.html
+  archive_url: https://web.archive.org/web/20070824173600/https://www.nintendo.co.jp/nom/0610/12/i01.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0610/12/i01.html

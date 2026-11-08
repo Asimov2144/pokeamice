@@ -61,7 +61,7 @@ entities:
 
 还有机会抽中皮卡丘周边！！
 
-[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)。
+[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](https://web.archive.org/web/20111210174955/http://www.pokemon.co.jp/info/2011/11/111107_p01.html)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
@@ -82,7 +82,7 @@ entities:
 
 ピカチュウグッズが当たります！！
 
-[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
+[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](https://web.archive.org/web/20111210174955/http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
 
 
 </details>
@@ -107,7 +107,7 @@ Don’t forget to”Like” this on the official page!!
 
 You might win Pikachu goods!!
 
-[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
+[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](https://web.archive.org/web/20111210174955/http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
 
 
 </details>

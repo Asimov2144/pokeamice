@@ -110,7 +110,7 @@ entities:
 
 招聘专题网站也已经焕新，务必要来看看哦。
 
-[程序员招聘专题网站](https://www.gamefreak.co.jp/career/news100917.html)
+[程序员招聘专题网站](https://web.archive.org/web/20100929223630/https://www.gamefreak.co.jp/career/news100917.html)
 
 一般来说，春天被称为邂逅的季节，<br>
 
@@ -184,7 +184,7 @@ entities:
 
 特設サイトもリニューアルしておりますのでぜひともご覧ください。
 
-[プログラマー採用特設サイト](https://www.gamefreak.co.jp/career/news100917.html)
+[プログラマー採用特設サイト](https://web.archive.org/web/20100929223630/https://www.gamefreak.co.jp/career/news100917.html)
 
 出会いの季節は一般的に春ということになっていますが、<br>
 

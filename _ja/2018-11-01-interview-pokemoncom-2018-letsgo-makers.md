@@ -20,6 +20,7 @@ source_name: Pokemon.com
 source:
   title: 'Meet the Makers of Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!'
   url: https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/
+  archive_url: https://web.archive.org/web/20181102103824/https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/
   language: en
 original_lang: en
 original_lang_name: 英語

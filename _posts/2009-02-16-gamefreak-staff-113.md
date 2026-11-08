@@ -78,7 +78,7 @@ entities:
 
 所以也希望大家务必来应聘，让我们能够再次见面！
 
-这次说明会的现场情况已经刊登在[招聘页面](http://www.gamefreak.co.jp/recruit/index.html)上了。<br>
+这次说明会的现场情况已经刊登在[招聘页面](https://web.archive.org/web/20071019020030/http://www.gamefreak.co.jp/recruit/index.html)上了。<br>
 
 即使没能参加说明会，也希望能多少向大家介绍一下说明会的内容……！<br>
 
@@ -118,7 +118,7 @@ entities:
 
 是非応募していただいて、もう一度お会い出来ればと考えています！
 
-今回の説明会の様子を[採用ページ](http://www.gamefreak.co.jp/recruit/index.html)に掲載しています。<br>
+今回の説明会の様子を[採用ページ](https://web.archive.org/web/20071019020030/http://www.gamefreak.co.jp/recruit/index.html)に掲載しています。<br>
 
 参加することができなかった方々に少しでも説明会の内容をお伝えしたい…！と思っています。<br>
 

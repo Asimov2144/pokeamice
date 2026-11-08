@@ -18,6 +18,7 @@ source_url: https://web.archive.org/web/20220425080732/https://www.gamefreak.co.
 source:
   title: 新卒プログラマ対談｜採用情報
   url: https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/
+  archive_url: https://web.archive.org/web/20220425080732/https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/
   language: ja
   source_type: official_interview
 author: Game Freak 官方

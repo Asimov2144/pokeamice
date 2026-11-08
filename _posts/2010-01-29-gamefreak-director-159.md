@@ -49,7 +49,7 @@ entities:
 
 [http://www.pokemon.co.jp/index.html](http://www.pokemon.co.jp/index.html)
 
-[http://www.pokemon.co.jp/info/game/g100129_02.html](http://www.pokemon.co.jp/info/game/g100129_02.html)
+[http://www.pokemon.co.jp/info/game/g100129_02.html](https://web.archive.org/web/20100131071650/http://www.pokemon.co.jp/info/game/g100129_02.html)
 
 终于就在今天，顺利对外公布了！！
 
@@ -96,7 +96,7 @@ entities:
 
 [http://www.pokemon.co.jp/index.html](http://www.pokemon.co.jp/index.html)
 
-[http://www.pokemon.co.jp/info/game/g100129_02.html](http://www.pokemon.co.jp/info/game/g100129_02.html)
+[http://www.pokemon.co.jp/info/game/g100129_02.html](https://web.archive.org/web/20100131071650/http://www.pokemon.co.jp/info/game/g100129_02.html)
 
 ついに本日、無事に広報されました！！
 
@@ -147,7 +147,7 @@ for 2010 launch!
 
 [http://www.pokemon.co.jp/index.html](http://www.pokemon.co.jp/index.html)
 
-[http://www.pokemon.co.jp/info/game/g100129_02.html](http://www.pokemon.co.jp/info/game/g100129_02.html)
+[http://www.pokemon.co.jp/info/game/g100129_02.html](https://web.archive.org/web/20100131071650/http://www.pokemon.co.jp/info/game/g100129_02.html)
 
 Today, its finally announced!!
 

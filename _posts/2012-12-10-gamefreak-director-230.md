@@ -71,7 +71,7 @@ entities:
 
 详情请看这里！
 
-[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
+[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](https://web.archive.org/web/20121214094048/http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
 
 请注意训练家名（笑）！
 
@@ -104,7 +104,7 @@ entities:
 
 詳しくは、こちらから！
 
-[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
+[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](https://web.archive.org/web/20121214094048/http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
 
 親名に注目（笑）！
 
@@ -137,7 +137,7 @@ Pokémon “Deoxys” will be distributed during selected
 
 You can read about it in details here:
 
-[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
+[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](https://web.archive.org/web/20121214094048/http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
 
 Take a look at the name of “OT” (Original Trainer) =)
 

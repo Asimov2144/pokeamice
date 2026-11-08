@@ -32,6 +32,7 @@ translation_lang: zh-CN
 source:
   title: 研究開発部、始動！「“難しい”を解決し、“作り込みたい”を実現する」
   url: http://www.gamefreak.co.jp/recruit/interview_02.html
+  archive_url: https://web.archive.org/web/20151026024157/http://www.gamefreak.co.jp/recruit/interview_02.html
   language: ja
   source_type: media_interview
 original_link: http://www.gamefreak.co.jp/recruit/interview_02.html

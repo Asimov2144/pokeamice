@@ -92,7 +92,7 @@ entities:
 下回再见啦！
 [http://www.pokemon.co.jp/gp/pokecen/tokyo/](http://www.pokemon.co.jp/gp/pokecen/tokyo/)
 
-[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)。
+[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](https://web.archive.org/web/20100702205403/http://www.pokemon.co.jp/info/2010/06/p100625_01.html)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
@@ -139,7 +139,7 @@ entities:
 
 [http://www.pokemon.co.jp/gp/pokecen/tokyo/](http://www.pokemon.co.jp/gp/pokecen/tokyo/)
 
-[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
+[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](https://web.archive.org/web/20100702205403/http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
 
 
 </details>
@@ -208,7 +208,7 @@ Ciao!
 
 http://www.pokemon.co.jp/gp/pokecen/tokyo/
 
-[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
+[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](https://web.archive.org/web/20100702205403/http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
 
 *”Celebi campaign” is distributed only in Japan.
 

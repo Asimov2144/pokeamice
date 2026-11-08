@@ -1035,4 +1035,5 @@ interviewee: 【章节导览】, 增田顺一, 太田健典, 杉森建, 森本�
 source:
   title: GAME FREAK 官方网站 (web.archive.org)
   url: http://www.gamefreak.co.jp/POKEMON/INTER/INTER.HTM
+  archive_url: https://web.archive.org/web/19971016215524/http://www.gamefreak.co.jp/POKEMON/INTER/INTER.HTM
 ---

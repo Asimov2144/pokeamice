@@ -88,7 +88,7 @@ entities:
 
 [http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet](http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet)
 
-[http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)
+[http://www.famitsu.com/news/201105/31044403.html](https://web.archive.org/web/20110603184019/http://www.famitsu.com/news/201105/31044403.html)
 
 下回再见噜！
 
@@ -133,7 +133,7 @@ entities:
 
 [http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet](http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet)
 
-[http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)
+[http://www.famitsu.com/news/201105/31044403.html](https://web.archive.org/web/20110603184019/http://www.famitsu.com/news/201105/31044403.html)
 
 チャオ！
 
@@ -194,7 +194,7 @@ My eyes look scary…
 
 [http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet](http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet)
 
-[http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)
+[http://www.famitsu.com/news/201105/31044403.html](https://web.archive.org/web/20110603184019/http://www.famitsu.com/news/201105/31044403.html)
 
 Ciao!
 

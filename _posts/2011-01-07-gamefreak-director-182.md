@@ -55,7 +55,7 @@ entities:
 
 索罗亚克要来 GAME FREAK 了！
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 当然，我也会说话！
 
@@ -74,7 +74,7 @@ entities:
 
 ゾロアークがゲームフリークにやってきます！
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 もちろん、マスダもしゃべります！
 
@@ -97,7 +97,7 @@ Zoroark comes to Game Freak on TV program
 
 “Poke’mon Smash!”!
 
-[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](https://web.archive.org/web/20110102150215/http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 I’ll have a special appearance, too!
 

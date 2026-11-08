@@ -53,7 +53,7 @@ entities:
 <div data-gf-language-panel="zh-CN">
 你好，我是负责网站工作的カニ子（蟹子）。<br>
 
-从今天起，新增了名为[“GAME FREAK秘密基地”](http://secretbase.gamefreak.co.jp/)的<br>
+从今天起，新增了名为[“GAME FREAK秘密基地”](https://web.archive.org/web/20081015093724/http://secretbase.gamefreak.co.jp/)的<br>
 
 趣味内容！
 
@@ -61,7 +61,7 @@ GAME FREAK秘密基地是 GAME FREAK<br>
 
 将在网站上公开各种实验性内容的实验场。<br>
 
-作为第一弹实验内容，我们公开了名为[“点阵分享”](http://secretbase.gamefreak.co.jp/dot_share/dot_parts.php)的<br>
+作为第一弹实验内容，我们公开了名为[“点阵分享”](https://web.archive.org/web/20080620063116/http://secretbase.gamefreak.co.jp/dot_share/dot_parts.php)的<br>
 
 博客挂件。
 
@@ -99,7 +99,7 @@ GAME FREAK秘密基地是 GAME FREAK<br>
 <div data-gf-language-panel="ja" hidden>
 こんにちは、Web担当のカニ子です。<br>
 
-今日から[「ゲームフリークひみつきち」](http://secretbase.gamefreak.co.jp/)という<br>
+今日から[「ゲームフリークひみつきち」](https://web.archive.org/web/20081015093724/http://secretbase.gamefreak.co.jp/)という<br>
 
 オタノシミコンテンツが新たに追加されました！
 
@@ -107,7 +107,7 @@ GAME FREAK秘密基地是 GAME FREAK<br>
 
 Webでいろいろな実験コンテンツを公開していく実験場です。<br>
 
-実験コンテンツ第一弾として[「ドットシェアー」](http://secretbase.gamefreak.co.jp/dot_share/dot_parts.php)という<br>
+実験コンテンツ第一弾として[「ドットシェアー」](https://web.archive.org/web/20080620063116/http://secretbase.gamefreak.co.jp/dot_share/dot_parts.php)という<br>
 
 ブログパーツを公開しました。
 

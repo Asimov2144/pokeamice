@@ -65,7 +65,7 @@ GAME FREAK 的惯例活动<br>
 
 这次想为大家报道一下开幕式的情况！
 
-本次大会采用与[WCS2011](http://www.pokemon.co.jp/wcs/2011/)相同的规则。<br>
+本次大会采用与[WCS2011](https://web.archive.org/web/20110208145316/http://www.pokemon.co.jp/wcs/2011/)相同的规则。<br>
 
 由于不能使用合众地区以外的宝可梦参赛，<br>
 
@@ -125,7 +125,7 @@ GAME FREAK 的惯例活动<br>
 
 今回はその開会式の模様をレポートしたいと思います！
 
-今回の大会は[WCS2011](http://www.pokemon.co.jp/wcs/2011/)と同じルールで行っています。<br>
+今回の大会は[WCS2011](https://web.archive.org/web/20110208145316/http://www.pokemon.co.jp/wcs/2011/)と同じルールで行っています。<br>
 
 イッシュ地方以外のポケモンでは参加できないということで、<br>
 

@@ -52,7 +52,7 @@ entities:
 
 要出发去圣迭戈了。
 
-今年的[世界锦标赛](http://pokemonworlds2011.staging2.pop.us/2011/)会是怎样的一场比赛呢？
+今年的[世界锦标赛](https://web.archive.org/web/20110928025824/http://pokemonworlds2011.staging2.pop.us/2011/)会是怎样的一场比赛呢？
 
 由于地震灾害的影响，日本参赛者比较少，
 
@@ -81,7 +81,7 @@ entities:
 
 サンディエゴに出発です。
 
-今年の[ワールドチャンピオンシップス](http://pokemonworlds2011.staging2.pop.us/2011/)は、
+今年の[ワールドチャンピオンシップス](https://web.archive.org/web/20110928025824/http://pokemonworlds2011.staging2.pop.us/2011/)は、
 
 どんな大会になるのか？
 
@@ -114,7 +114,7 @@ This is Masuda at Narita airport.
 
 Departing to San Diego.
 
-How would this year’s [world championships](http://pokemonworlds2011.staging2.pop.us/2011/)
+How would this year’s [world championships](https://web.archive.org/web/20110928025824/http://pokemonworlds2011.staging2.pop.us/2011/)
 
 will be?
 

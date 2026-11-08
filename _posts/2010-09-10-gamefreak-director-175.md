@@ -51,7 +51,7 @@ entities:
 
 ## 中文译文
 
-今天，《[宝可梦ぴあ](http://piabook.com/shop/contents1/pokemon.aspx)》正式发售啦！！
+今天，《[宝可梦ぴあ](https://web.archive.org/web/20100829195057/http://piabook.com/shop/contents1/pokemon.aspx)》正式发售啦！！
 
 ・AKB48的指原小姐和北原小姐都有精彩亮相！
 
@@ -84,7 +84,7 @@ entities:
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
 
-本日、「[ポケモンぴあ](http://piabook.com/shop/contents1/pokemon.aspx)」が発売になりました！！
+本日、「[ポケモンぴあ](https://web.archive.org/web/20100829195057/http://piabook.com/shop/contents1/pokemon.aspx)」が発売になりました！！
 
 ・AKB４８の指原さんと北原さんがバッチリ出てます！
 

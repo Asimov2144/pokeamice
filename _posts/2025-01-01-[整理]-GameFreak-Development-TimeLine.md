@@ -82,7 +82,7 @@ Game Freak迁入新办公室\
 ### 2012年9月5日
 James Turnner负责的Gear Project项目リズムハンター ハーモナイト （节奏猎人 和声）发售\
 [wiki link jp](https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%BA%E3%83%A0%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC_%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8A%E3%82%A4%E3%83%88){:target="_blank"}\
-[nintendo web page](https://www.nintendo.co.jp/titles/50010000011773){:target="_blank"}
+[nintendo web page](https://web.archive.org/web/20241106190307/https://www.nintendo.co.jp/titles/50010000011773){:target="_blank"}
 ### 2012年11月21日 
 xy总监先辈找还在担任xy企划总监的大森商谈宝石复刻的事宜 立项并认命他为ORAS总监\
 [Interview Weibo Link](https://weibo.com/6306512172/LgybH06b2){:target="_blank"}
@@ -91,7 +91,7 @@ xy总监先辈找还在担任xy企划总监的大森商谈宝石复刻的事宜 
 [Wiki Link](https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E9%A6%AC){:target="_blank"}\
 [Offical Account](https://x.com/gf_solitiba){:target="_blank"}\
 [Denki Interview](https://news.denfaminicogamer.jp{:target="_blank"}/projectbook/dabisuta){:target="_blank"}\
-[Fans's Design Blog](https://www.amenasu.com/blog/index.php?e=1670){:target="_blank"}
+[Fans's Design Blog](https://web.archive.org/web/20250112215159/https://www.amenasu.com/blog/index.php?e=1670){:target="_blank"}
 
 ## 第六世代
 ### 2013年1月8日

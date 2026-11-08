@@ -67,9 +67,9 @@ entities:
 
 真想看看最后会拍成什么样。
 
-顺便一提，我还被刊登在那篇有名的[「しょこたんぶろぐ」](http://yaplog.jp/strawberry2/)里了哦。
+顺便一提，我还被刊登在那篇有名的[「しょこたんぶろぐ」](https://web.archive.org/web/20070210203747/http://yaplog.jp/strawberry2/)里了哦。
 
-[http://yaplog.jp/strawberry2/archive/10511](http://yaplog.jp/strawberry2/archive/10511)
+[http://yaplog.jp/strawberry2/archive/10511](https://web.archive.org/web/20070212180401/http://yaplog.jp/strawberry2/archive/10511)
 
 不过，能像这样持续更新，真是了不起的才能呢。
 
@@ -104,11 +104,11 @@ TVの撮影ってどうも目線がよく分からなくて、、、
 
 どうなっているか、楽しみなところ。
 
-ちなみに、有名な[「しょこたんぶろぐ」](http://yaplog.jp/strawberry2/)にも
+ちなみに、有名な[「しょこたんぶろぐ」](https://web.archive.org/web/20070210203747/http://yaplog.jp/strawberry2/)にも
 
 載っけてもらいましたよ。
 
-[http://yaplog.jp/strawberry2/archive/10511](http://yaplog.jp/strawberry2/archive/10511)
+[http://yaplog.jp/strawberry2/archive/10511](https://web.archive.org/web/20070212180401/http://yaplog.jp/strawberry2/archive/10511)
 
 しっかし、こんなに更新できるってすごい才能ですよね。
 

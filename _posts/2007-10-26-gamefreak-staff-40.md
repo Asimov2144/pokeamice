@@ -108,7 +108,7 @@ entities:
 
 一边想着“得收拾行李了啊……”今天也在犯懒的カニ子。
 
-啊，说起来，[应届毕业生招聘页面](http://www.gamefreak.co.jp/recruit/index.html)上的“GAME FREAK 员工的一天”<br>
+啊，说起来，[应届毕业生招聘页面](https://web.archive.org/web/20071019020030/http://www.gamefreak.co.jp/recruit/index.html)上的“GAME FREAK 员工的一天”<br>
 
 大家都看过了吗？<br>
 
@@ -180,7 +180,7 @@ entities:
 
 荷造りしなきゃなぁ…と今日もめんどくさがるカニ子でした。
 
-あ、そういえば[新卒採用ページ](http://www.gamefreak.co.jp/recruit/index.html)の「ゲームフリークのスタッフの一日」は<br>
+あ、そういえば[新卒採用ページ](https://web.archive.org/web/20071019020030/http://www.gamefreak.co.jp/recruit/index.html)の「ゲームフリークのスタッフの一日」は<br>
 
 皆様ご覧になって頂けたでしょうか？<br>
 

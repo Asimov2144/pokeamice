@@ -28,6 +28,7 @@ translation_lang: zh-CN
 source:
   title: 『ポケットモンスタールビー・サファイア』発売記念特集／対戦＆「ひみつきち」体験！ 株式会社ポケモン潜入取材｜Nintendo Online Magazine 2002年11月号
   url: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
+  archive_url: https://web.archive.org/web/20030118225806/https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html

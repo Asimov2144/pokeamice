@@ -93,7 +93,7 @@ entities:
 
 详情请见世界锦标赛页面！
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 下回再见噜！
 <img src="/assets/images/gamefreak-director/archive/131/multi/131a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/131/multi/131b.jpg" alt="" loading="lazy">
@@ -147,7 +147,7 @@ entities:
 
 詳しくはワールドチャンピオンシップス
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 まで！
 
@@ -224,7 +224,7 @@ And aim for the top of the world!!
 
 Please check following sight for details.
 
-[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+[http://www.pokemon.co.jp/special/wcs0809/](https://web.archive.org/web/20080918092534/http://www.pokemon.co.jp/special/wcs0809/)
 
 Ciao!
 

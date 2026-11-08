@@ -206,7 +206,7 @@ entities:
 
 —–<br>
 
-[⇒《宝可梦 黑／白》原声音乐光盘详情请点击这里](http://www.pokemon-sp.jp/special-sp/g_music/index.html)
+[⇒《宝可梦 黑／白》原声音乐光盘详情请点击这里](https://web.archive.org/web/20101012134501/http://www.pokemon-sp.jp/special-sp/g_music/index.html)
 
 <br>
 </div>
@@ -372,7 +372,7 @@ entities:
 
 —–<br>
 
-[⇒「ポケットモンスターブラック・ホワイト」サウンドトラックの詳細はコチラ](http://www.pokemon-sp.jp/special-sp/g_music/index.html)
+[⇒「ポケットモンスターブラック・ホワイト」サウンドトラックの詳細はコチラ](https://web.archive.org/web/20101012134501/http://www.pokemon-sp.jp/special-sp/g_music/index.html)
 
 <br>
 </div>

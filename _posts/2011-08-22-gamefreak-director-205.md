@@ -231,15 +231,15 @@ entities:
 
 WCS2011的网站在这里。
 
-[http://www.pokemonworldchampionships.com/2011/](http://www.pokemonworldchampionships.com/2011/)
+[http://www.pokemonworldchampionships.com/2011/](https://web.archive.org/web/20110822171029/http://www.pokemonworldchampionships.com/2011/)
 
 WCS的各种照片在这里。还能看到我和签名会的照片哦！
 
-[http://www.pokemonworldchampionships.com/2011/photosM](http://www.pokemonworldchampionships.com/2011/photos)
+[http://www.pokemonworldchampionships.com/2011/photosM](https://web.archive.org/web/20110831183034/http://www.pokemonworldchampionships.com/2011/photos)
 
 WCS的各种影像在这里。还有开幕宣传视频哦！
 
-[http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)
+[http://www.pokemonworldchampionships.com/2011/videos](https://web.archive.org/web/20110924041826/http://www.pokemonworldchampionships.com/2011/videos)
 
 下回再见呀！
 
@@ -430,15 +430,15 @@ WCS的各种影像在这里。还有开幕宣传视频哦！
 
 WCS2011のサイトはこちらから。
 
-[http://www.pokemonworldchampionships.com/2011/](http://www.pokemonworldchampionships.com/2011/)
+[http://www.pokemonworldchampionships.com/2011/](https://web.archive.org/web/20110822171029/http://www.pokemonworldchampionships.com/2011/)
 
 WCSの様々な写真はこちらから。MTMもサイン会も写っている！
 
-[http://www.pokemonworldchampionships.com/2011/photosM](http://www.pokemonworldchampionships.com/2011/photos)
+[http://www.pokemonworldchampionships.com/2011/photosM](https://web.archive.org/web/20110831183034/http://www.pokemonworldchampionships.com/2011/photos)
 
 WCSの様々な映像はこちらから。キックオフビデオもあるよ！
 
-[http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)
+[http://www.pokemonworldchampionships.com/2011/videos](https://web.archive.org/web/20110924041826/http://www.pokemonworldchampionships.com/2011/videos)
 
 チャオ！
 
@@ -675,19 +675,19 @@ Please do challenge next year’s WCS!
 
 Here is the sight of WCS2011.
 
-[http://www.pokemonworldchampionships.com/2011/](http://www.pokemonworldchampionships.com/2011/)
+[http://www.pokemonworldchampionships.com/2011/](https://web.archive.org/web/20110822171029/http://www.pokemonworldchampionships.com/2011/)
 
 A lot of photos from WCS. MTM and signing
 
 autographs are taken.
 
-[http://www.pokemonworldchampionships.com/2011/photosM](http://www.pokemonworldchampionships.com/2011/photos)
+[http://www.pokemonworldchampionships.com/2011/photosM](https://web.archive.org/web/20110831183034/http://www.pokemonworldchampionships.com/2011/photos)
 
 A lot of videos from WCS. Kick off video is
 
 also available!
 
-[http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)
+[http://www.pokemonworldchampionships.com/2011/videos](https://web.archive.org/web/20110924041826/http://www.pokemonworldchampionships.com/2011/videos)
 
 Ciao!
 

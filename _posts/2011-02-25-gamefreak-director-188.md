@@ -63,7 +63,7 @@ entities:
 
 “宝可梦舞台秀 in Landmark Plaza 2011”活动哦！
 
-[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
+[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](https://web.archive.org/web/20110311131345/http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
 
 而且！没想到！！！
 
@@ -98,7 +98,7 @@ entities:
 
 「ポケモンステージinランドマークプラザ2011」というイベントを開催しますよ！
 
-[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
+[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](https://web.archive.org/web/20110311131345/http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
 
 そして！なんと！！！
 
@@ -139,7 +139,7 @@ At Pokemon Center Yokohama, there will be an event
 
 called “Pokemon Stage in Landmark Plaza 2011″ will be held.
 
-[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
+[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](https://web.archive.org/web/20110311131345/http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
 
 Not only that!!!
 

@@ -58,7 +58,7 @@ entities:
 
 不过，难得是夏天嘛！所以我还是出门去玩了一趟。<br>
 
-为了和富士山狂热者[よちよち](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)一较高下，にょろリカ这次的目标是“大海”。
+为了和富士山狂热者[よちよち](https://web.archive.org/web/20101019053705/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)一较高下，にょろリカ这次的目标是“大海”。
 
 那么，来出一道题。<br>
 
@@ -170,7 +170,7 @@ Web担当のにょろリカです。
 
 せっかくの夏！ですからちょっとお出かけをしてきました。<br>
 
-富士山マニアの[よちよち](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)に対抗して、にょろリカは「海」を目指します。
+富士山マニアの[よちよち](https://web.archive.org/web/20101019053705/http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)に対抗して、にょろリカは「海」を目指します。
 
 というわけで、問題。<br>
 

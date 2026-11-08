@@ -18,6 +18,7 @@ source_url: https://web.archive.org/web/20090914063612/https://www.gamefreak.co.
 source:
   title: ゲームフリーク中途採用：応募者へのメッセージ
   url: https://www.gamefreak.co.jp/recruit/career/message_pr.html
+  archive_url: https://web.archive.org/web/20090914063612/https://www.gamefreak.co.jp/recruit/career/message_pr.html
   language: ja
   source_type: official_interview
 author: Game Freak 官方

@@ -38,6 +38,7 @@ organization: 株式会社ポケモン / 任天堂
 source:
   title: イベントと応援で燃えろ！パワーで押し切る今年の夏！『ポケモンフェスタ2005』＆『ポケモンＸＤ』大特集｜Nintendo Online Magazine 2005年8月号 No.85
   url: https://www.nintendo.co.jp/nom/0508/index.html
+  archive_url: https://web.archive.org/web/20050804012000/https://www.nintendo.co.jp/nom/0508/index.html
   language: ja
   source_type: official_web_magazine
 original_link: https://www.nintendo.co.jp/nom/0508/index.html
