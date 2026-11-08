@@ -10,6 +10,8 @@ tags:
 original_title: 【劇場版ポケットモンスター ココ】音楽プロデュースを務める岡崎体育さんインタビュー!! 「掟の歌」は○○モチーフ!? 楽曲制作の裏側を聞いた！
 subtitle: 从《奇妙奇妙的生物》父子视角到萨戮德哈卡战舞：全方位揭秘宝可梦电影首度音乐总监幕后
 date: '2020-12-25'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-corocoro-coco-okazaki-taiiku/
 era_skin: '2019'
 original_lang: ja
 interview_id: PKMN-0019

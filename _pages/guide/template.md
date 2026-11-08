@@ -117,7 +117,7 @@ chips:
 {% raw %}
 ```text
 {% include guide/shot.html
-   src="/assets/img/guide/home-desktop.webp"
+   src="/assets/img/guide/home-d.webp"
    alt="首页：上方是搜索条，下面是专题图块和文章卡片，右侧是维度面板"
    pins="9;19;搜索条：输入人名、作品名或关键词|14;33;专题图块：点一块直接筛出这个专题"
    caption="桌面宽度 1280。" %}

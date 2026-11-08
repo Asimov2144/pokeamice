@@ -4,6 +4,8 @@ layout: interview-editorial
 title: 任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）
 original_title: 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー
 date: '2006-10-01'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-nom-dp-ishihara-masuda-sugimori/
 author: 任天堂官方网络杂志 (Nintendo Online Magazine No.99)
 translator: Pokeamice Team
 outlet: Nintendo Online Magazine

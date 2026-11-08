@@ -5,6 +5,8 @@ title: 专访宝可梦系列的“灵魂”增田顺一：历时三年五百人�
 original_title: Entrevista con Junichi Masuda, el "alma" de Pokémon
 interview_id: PKMN-0031
 date: 2013-11-06
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-hobbyconsolas-xy-masuda/
 era_skin: '2013'
 original_lang: es
 source_name: Hobby Consolas（西班牙最大游戏媒体）

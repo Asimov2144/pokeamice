@@ -9,6 +9,8 @@ tags:
 - 'NicoNico'
 original_title: かつてファミコンソフトを自作した集団がいた――ゲームフリーク・増田順一氏が語ったゲーム制作の魅力
 date: '2014-08-22'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-niconico-gamefreak-origins-masuda/
 author: NicoNico 独立游戏祭采访组 (自作ゲームフェス / ゲームアツマール)
 translator: Pokeamice Team
 outlet: NicoNico Blomaga

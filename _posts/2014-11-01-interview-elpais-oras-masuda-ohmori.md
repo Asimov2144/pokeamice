@@ -5,6 +5,8 @@ title: “为全世界所有孩子创造喜爱的作品，让人既感动又心�
 original_title: “Crear algo que todos los niños aman, abruma”
 interview_id: PKMN-0002
 date: 2014-11-01
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-elpais-oras-masuda-ohmori/
 era_skin: '2013'
 original_lang: es
 source_name: El País（西班牙国家报）

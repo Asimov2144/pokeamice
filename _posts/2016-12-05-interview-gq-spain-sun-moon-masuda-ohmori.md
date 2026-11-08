@@ -5,6 +5,8 @@ title: 专访宝可梦领舵人：“20年前我们根本不敢想这样的游�
 original_title: 'Entrevistamos a los responsables de Pokémon: "No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo"'
 interview_id: PKMN-0022
 date: 2016-12-05
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-gq-spain-sun-moon-masuda-ohmori/
 era_skin: '2016'
 original_lang: es
 source_name: GQ España

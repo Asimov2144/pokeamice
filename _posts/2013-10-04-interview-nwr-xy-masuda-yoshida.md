@@ -5,6 +5,8 @@ title: Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全�
 original_title: Pokémon X and Y Interview with Game Freak
 interview_id: PKMN-0052
 date: 2013-10-04
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-nwr-xy-masuda-yoshida/
 era_skin: '2013'
 original_lang: en
 source_name: Nintendo World Report

@@ -5,6 +5,8 @@ title: MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Swit
 original_title: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
 interview_id: PKMN-0032
 date: 2016-12-12
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-meristation-sun-moon-switch-masuda-ohmori/
 era_skin: '2016'
 original_lang: es
 source_name: MeriStation（西班牙权威游戏媒体）

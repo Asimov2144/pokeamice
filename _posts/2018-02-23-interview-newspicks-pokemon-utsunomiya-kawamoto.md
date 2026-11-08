@@ -11,6 +11,8 @@ tags:
 original_title: 「ポケモンだから」面白い。ポケモンにすべてを懸ける2人の挑戦
 subtitle: 跨越商业逻辑与创作者感性：前波士顿咨询与强生跨界骨干解密宝可梦公司的组织哲学与永续闪耀机制
 date: '2018-02-23'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-newspicks-pokemon-utsunomiya-kawamoto/
 era_skin: '2017'
 original_lang: ja
 interview_id: PKMN-0009

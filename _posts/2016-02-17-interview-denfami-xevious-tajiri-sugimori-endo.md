@@ -10,6 +10,8 @@ tags:
 - '电玩迷电玩'
 subtitle: 从街机厅狂热、同人志《Game Freak》到创世巨作：解密《铁板阵》企划书原件与《宝可梦》谜题构想源流
 date: '2016-02-17'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-denfami-xevious-tajiri-sugimori-endo/
 era_skin: '2014'
 original_lang: ja
 source_name: 电ファミニコゲーマー

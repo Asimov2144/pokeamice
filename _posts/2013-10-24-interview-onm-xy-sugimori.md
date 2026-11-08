@@ -9,6 +9,8 @@ tags:
 - '任天堂官方杂志'
 original_title: Ken Sugimori got 'artist's block' during Pokemon X and Y development
 date: '2013-10-24'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-onm-xy-sugimori/
 author: Thomas East (Official Nintendo Magazine)
 translator: Pokeamice Team
 outlet: Official Nintendo Magazine

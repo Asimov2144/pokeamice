@@ -5,6 +5,8 @@ title: GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮�
 original_title: How Let's Go Pikachu / Eevee Update Pokemon Yellow For A New Generation
 subtitle: 对话增田顺一与名花健作：从关都3D重塑、劲敌性格变迁、移除携带道具，到幻之宝可梦美录坦与‘被废弃的哥罗丘’
 date: '2018-10-17'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-gamespot-lgpe-masuda/
 era_skin: '2017'
 original_lang: en
 interview_id: PKMN-0040

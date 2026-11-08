@@ -10,6 +10,8 @@ tags:
 - '宝可梦 心金·魂银'
 original_title: Go Behind the Scenes with the Pokémon Masters at GAME FREAK, inc.!
 date: '2010-03-31'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-pokemon-com-hgss-masuda-morimoto/
 author: Pokémon.com 官方特约
 translator: Pokeamice Team
 outlet: Pokémon.com Official

@@ -5,6 +5,8 @@ title: Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有
 original_title: 'Entrevista a Junichi Masuda: Lo raro sería encontrar "a quien no le guste ningún Pokémon"'
 interview_id: PKMN-0055
 date: 2013-11-04
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-eurogamer-spain-xy-masuda-yoshida/
 era_skin: '2013'
 original_lang: es
 source_name: Eurogamer.es

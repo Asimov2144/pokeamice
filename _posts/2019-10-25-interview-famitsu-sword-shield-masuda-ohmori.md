@@ -10,6 +10,8 @@ tags:
 original_title: 『ポケモン ソード・シールド』ポケモンの育成環境が大幅に変革！ オートセーブの仕様やワイルドエリアの裏話など増田順一氏＆大森滋氏インタビュー
 subtitle: 解密旷野地带网络底层攻坚、极巨化视听反馈与彻底降低培育门槛的时代转向
 date: '2019-10-25'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-famitsu-sword-shield-masuda-ohmori/
 era_skin: '2019'
 original_lang: ja
 interview_id: PKMN-0007

@@ -4,6 +4,8 @@ layout: interview-editorial
 title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
 original_title: 『ポケットモンスター』を生んだ男たち（ゲームフリーク・インタビュー）
 date: '2000-07-01'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-nom-genesis-gamefreak/
 author: 任天堂官方网络杂志 (Nintendo Online Magazine No.23)
 translator: Pokeamice Team
 outlet: Nintendo Online Magazine

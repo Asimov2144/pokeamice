@@ -4,6 +4,8 @@ layout: interview-editorial
 title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
 original_title: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!
 date: '2009-03-24'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-g4tv-platinum-masuda-kawachimaru/
 author: Raymond Padilla (G4TV)
 translator: Pokeamice Team
 outlet: G4TV

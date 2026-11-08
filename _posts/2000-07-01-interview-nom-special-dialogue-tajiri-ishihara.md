@@ -4,6 +4,8 @@ layout: interview-editorial
 title: N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）
 subtitle: 宝可梦之父与掌舵人亲述：六年濒临破产的坚持、跨越语言之壁的童年共鸣与真正的生物感
 date: '2000-07-01'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-nom-special-dialogue-tajiri-ishihara/
 era_skin: '1999'
 source_name: 任天堂官网「N.O.M」(No.23)
 source_url: https://web.archive.org/web/20221026124927/https://www.nintendo.co.jp/nom/0007/taidan1/index.html

@@ -11,6 +11,8 @@ tags:
 original_title: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート
 subtitle: 石原恒和、增田顺一、高桥伸也、大森滋齐聚东京：全面揭秘方块RPG、客厅体感革命与2019年完全正统续作规划
 date: '2018-05-30'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-gamer-pokemon-press-conference-2018/
 era_skin: '2017'
 original_lang: ja
 interviewee: 石原恒和、増田順一、高橋伸也、野村達雄

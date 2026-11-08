@@ -9,6 +9,8 @@ tags:
 - '宝可梦 究极之日·究极之月'
 subtitle: 从少年时代的初代玩家到制作人与总监：彩虹火箭队平行宇宙集结、究极异兽反常规设计与3DS终章哲学
 date: '2017-11-09'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-pokemon-com-usum-ohmori-iwao/
 era_skin: '2017'
 original_lang: en
 source_name: Pokemon.com / PocketMonsters.net

@@ -11,6 +11,8 @@ tags:
 - 'Game Freak'
 subtitle: 田尻智、杉森建、森本茂树、太田健程、增田顺一：五大核心主创全员大起底与《金·银》超前线绝密爆料
 date: '1997-10-16'
+categories: [访谈翻译, 翻译, 访谈整理]
+permalink: /interview-gamefreak-official-red-green-staff/
 era_skin: '1996'
 original_lang: ja
 source_name: GAME FREAK 官方网站 (web.archive.org)
