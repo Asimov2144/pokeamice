@@ -1,6 +1,7 @@
 # 原刊征集（/wanted/）：实体杂志里的宝可梦主创访谈——哪些本站已有原刊，哪些只有文字转录，哪些只知道存在。
 # 来源：design/wanted/ 下的 1996–2012 阶段整理、2013–2016 媒体巡回 v0.5、剑盾之后纸媒 v0.2。
-# 本轮更新：2026-10-29（补登记本站已有扫本的 19 期杂志，新增 2 期书目已识别的原刊）；上一轮 2026-10-17。网页自采／媒体活动记录只作研究背景，不列为原刊征集卡片。
+# 本轮更新：2026-11-09（先登记 Nintendo Power #240、#265 与ファミマガ64 #28 的原刊来源；不托管扫描）。
+# 上轮：2026-10-29，补登记本站已有扫本的 19 期杂志与 2 期书目。网页自采／媒体活动记录不列为原刊征集卡片。
 #
 # 每条：
 #   id          锚点（/wanted/#id），也是投稿邮件 / Issue 标题里的编号
@@ -19,7 +20,9 @@
 #   known       已经确认的事，一两句
 #   conflict    资料之间互相矛盾的地方（可选）
 #   post        本站对应的文章（_posts 文件名，不带 .md），有的话
-#   sources     [{label, url}] 外部线索
+#   sources     [{label, url}] 外部来源；本轮已核对的 found 条目首项为原刊阅读入口
+#   scan_credit 扫描托管与提供者说明，不把阅读平台当作原刊出版者
+#   verified    题名、页码与来源核对日期，不代表正文已按原刊校对
 
 eras:
   - key: early
@@ -130,12 +133,21 @@ items:
     pub: ファミマガ64
     issue: Issue 28
     date: "1998-01"
-    title: 田尻智 × 裕木奈江（接上期）
+    title: 田尻智さんと裕木奈江さんの ポケモン㊙インタビュー
+    title_note: 栏目为「裕木奈江プロジェクト番外編 その2」；不据此推定与第 26 期的连续关系。
     people: [田尻智, 裕木奈江]
-    status: known
-    priority: A
-    known: 上一期长访谈的续篇，内容只在二手整理里见过。
-    need: [访谈所在的每一页（带页码）, 标题与栏目名]
+    status: found
+    pages: "70"
+    pages_note: 印刷第 70 页，对应 Internet Archive 阅读器 n69；页码与题名已核对原页。
+    known: 原刊已可在 Internet Archive 阅读。本站现有的是 sunanohi 的跨期报道摘要，不是本页访谈的全文转录或原刊译本；本轮先登记出处，未托管该页扫描。
+    scan_credit: Internet Archive 收录，ozidual 上传；条目说明为 600dpi 扫描，出版者为徳間書店（Tokuma Shoten）。
+    verified: "2026-11-09"
+    post: 1997-05-23-interview-famimaga-tajiri-pokemon2-secret
+    sources:
+      - {label: "Internet Archive 原刊 · p.70（阅读器 n69）", url: "https://archive.org/details/famimaga-64-issue-28-january-1998-600dpi-ozidual/page/n69/mode/1up"}
+      - {label: "Internet Archive 期号与扫描说明", url: "https://archive.org/details/famimaga-64-issue-28-january-1998-600dpi-ozidual"}
+      - {label: "sunanohi 二手摘要（本站现有文字来源）", url: "http://sunanohi.web.fc2.com/pokemon/magazine/game.html#1"}
+
   - id: gs-guidebook-1999
     era: early
     pub: 任天堂公式ガイドブック ポケットモンスター 金・銀
@@ -297,17 +309,22 @@ items:
     pub: Nintendo Power
     issue: "#240"
     date: "2009-04"
-    title: Pokémon Goes Platinum
+    title: Talking Pokémon
+    title_note: 访谈正文题为「Talking Pokémon」；「Pokémon Goes Platinum」是所在专题的页眉，不作为访谈标题。
     people: [增田顺一, 河内丸武史]
-    status: text
-    priority: A
-    pages: 42–44
-    known: 期号与页码已确认（过去常被记成「#240/241」，#241 是评测，不是这篇）。本站译文来自 Dr. Lava 的转录，只有封面没有内页。
-    need: [pp.42–44 三页的扫描或照片]
+    status: found
+    pages: "42–44"
+    pages_note: 印刷第 42–44 页，对应 Reetroz 阅读器第 44–46 图；链接从访谈首页开始。
+    known: 原刊已可在 Reetroz 阅读，题名、受访者与页码已核对。本站现有译文仍来自 Dr. Lava 的转录与解说，本轮未按原刊逐段校对，也未托管这三页扫描。第 241 期的评测不是本篇访谈。
+    scan_credit: Reetroz 提供阅读入口，页面将来源标为 Video Game History Foundation Library；原扫描制作者未注明。
+    verified: "2026-11-09"
     post: 2009-04-01-interview-nintendo-power-masuda-gens-1-4
     sources:
+      - {label: "Reetroz 原刊 · pp.42–44（阅读器第 44–46 图）", url: "https://reetroz.com/issue/nintendo-power-240?p=44"}
+      - {label: "Lava Cut Content 转录与解说（本站现有文字来源）", url: "https://lavacutcontent.com/masuda-interview-pokemon-platinum/"}
       - {label: Retromags 目录, url: "https://www.retromags.com/magazines/usa/nintendo-power/nintendo-power-issue-240/"}
       - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power/Generation_IV"}
+
   - id: accion-199
     era: pt
     pub: Nintendo Acción
@@ -493,15 +510,18 @@ items:
     date: "2011-03"
     title: Breeding the Fifth
     people: [增田顺一, 杉森建]
-    status: text
-    priority: A
-    pages: 18–20
-    known: 期号、页码已确认，另有「The Birth of Game Freak」「A Visit to the Pokémon Center」两个侧栏。本站译文来自 Dr. Lava 的转录，只有封面没有内页。
-    need: [pp.18–20 三页的扫描或照片（含两个侧栏）]
+    status: found
+    pages: "18–20"
+    pages_note: 印刷第 18–20 页，对应 Reetroz 阅读器第 20–22 图；链接从访谈首页开始。
+    known: 原刊已可在 Reetroz 阅读，另有 p.19「The Birth of Game Freak」与 p.20「A Visit to the Pokémon Center」两个侧栏。本站现有译文仍来自 Dr. Lava 的转录与解说，本轮未按原刊逐段校对，也未托管这三页扫描。
+    scan_credit: Reetroz 提供阅读入口，页面将来源标为 Video Game History Foundation Library；原扫描制作者未注明。
+    verified: "2026-11-09"
     post: 2011-03-01-interview-nintendo-power-bw-masuda-sugimori
     sources:
-      - {label: Lava Cut Content 转录, url: "https://lavacutcontent.com/masuda-sugimori-gen-5/"}
+      - {label: "Reetroz 原刊 · pp.18–20（阅读器第 20–22 图）", url: "https://reetroz.com/issue/nintendo-power-265?p=20"}
+      - {label: "Lava Cut Content 转录与解说（本站现有文字来源）", url: "https://lavacutcontent.com/masuda-sugimori-gen-5/"}
       - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power"}
+
   - id: accion-220
     era: bw
     pub: Nintendo Acción

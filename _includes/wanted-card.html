@@ -27,7 +27,7 @@
 {%- assign wc_issue_item = wc_issue_item | url_encode | replace: "+", "%20" -%}
 <article class="wanted-card wst-{{ it.status }}{% if it.priority %} is-p{{ it.priority | downcase }}{% endif %}" id="{{ it.id }}">
   <header class="wanted-card__head">
-    <p class="wanted-card__stamp"><span>WANTED</span>{% if it.priority %}<b class="wanted-card__prio" title="{{ site.data.wanted_ui.priority[it.priority] }}">{{ it.priority }}</b>{% endif %}</p>
+    <p class="wanted-card__stamp"><span>{% if it.status == "found" %}SOURCE{% else %}WANTED{% endif %}</span>{% if it.priority %}<b class="wanted-card__prio" title="{{ site.data.wanted_ui.priority[it.priority] }}">{{ it.priority }}</b>{% endif %}</p>
     {%- comment -%} the photo of the poster: the cover of the issue when the archive has one (it.cover, a thumbnail of a cover page we hold or were sent), else an empty frame that says so {%- endcomment %}
     <div class="wanted-card__id">
       <figure class="wanted-cover{% unless it.cover %} is-empty{% endunless %}">
@@ -55,6 +55,8 @@
   <p class="wanted-card__status"><i class="wanted-dot"></i>{{ st.label }}{% if it.pages %}<span>页码 {{ it.pages }}</span>{% endif %}</p>
   {%- if it.pages_note %}<p class="wanted-card__note">{{ it.pages_note }}</p>{% endif %}
   {%- if it.known %}<p class="wanted-card__known">{{ it.known }}</p>{% endif %}
+  {%- if it.scan_credit %}<p class="wanted-card__note">来源说明：{{ it.scan_credit | escape }}</p>{% endif %}
+  {%- if it.verified %}<p class="wanted-card__note">书目核对：{{ it.verified }}（不代表正文已校对）</p>{% endif %}
   {%- if it.conflict %}<p class="wanted-card__conflict"><b>资料矛盾</b>{{ it.conflict }}</p>{% endif %}
   {%- if it.need %}
   <div class="wanted-card__need">
@@ -69,8 +71,8 @@
       {%- if wc_post %}<a class="wanted-card__post" href="{{ wc_post.url | relative_url }}">本站现有的{% if it.status == "scan" %}原刊与译文{% else %}文字版{% endif %} →</a>{% endif -%}
     {%- endif -%}
     {%- if it.sources %}
-    <details class="wanted-card__sources">
-      <summary>线索 {{ it.sources.size }}</summary>
+    <details class="wanted-card__sources"{% if it.status == "found" %} open{% endif %}>
+      <summary>{% if it.status == "found" %}来源{% else %}线索{% endif %} {{ it.sources.size }}</summary>
       <ul>{% for s in it.sources %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }} ↗</a></li>{% endfor %}</ul>
     </details>
     {%- endif %}

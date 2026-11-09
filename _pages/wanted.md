@@ -62,6 +62,17 @@ where the gap is. A post whose text came from a transcript points here (intervie
     {%- endfor %}
   </section>
 
+  {%- assign found_items = W.items | where: "status", "found" | where_exp: "item", "item.verified" -%}
+  {% if found_items.size > 0 %}
+  <section class="wanted-found" id="found" aria-labelledby="wanted-found-title">
+    <h2 class="wanted-h2" id="wanted-found-title">原刊已找到 · 来源登记</h2>
+    <p class="wanted-chain__lead">本轮登记的原刊可在外部网站阅读，不再征集。这里登记刊物、页码与扫描来源；“原刊已找到”不等于本站已托管页图，也不代表现有译文已按原刊校对。</p>
+    <div class="wanted-grid">
+      {% for it in found_items %}{% include wanted-card.html item=it %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <section class="wanted-chain" id="chain" aria-labelledby="wanted-chain-title">
     <h2 class="wanted-h2" id="wanted-chain-title">整条采访链</h2>
     <p class="wanted-chain__lead">1996 到 2026 年实体杂志与官方攻略本中的访谈线索，已经收录的也列在里面。2020 年之后的若干期号只确认有专题，仍按“待确认”列出；评测、试玩与技术演讲不当作杂志访谈。</p>
@@ -79,6 +90,7 @@ where the gap is. A post whose text came from a transcript points here (intervie
             {%- if wr_post and it.status == "scan" %}{% assign href = wr_post.url | relative_url %}{% endif -%}
           {%- endif -%}
           {%- if href == "" and UI.status[it.status].wanted %}{% capture href %}#{{ it.id }}{% endcapture %}{% endif -%}
+          {%- if href == "" and it.status == "found" and it.verified %}{% capture href %}#{{ it.id }}{% endcapture %}{% endif -%}
           {%- if href == "" and it.post and wr_post %}{% assign href = wr_post.url | relative_url %}{% endif -%}
           {%- if href == "" and it.sources %}{% assign href = it.sources[0].url %}{% endif %}
         <li class="wanted-row wst-{{ it.status }}{% if it.cover %} has-cover{% endif %}">

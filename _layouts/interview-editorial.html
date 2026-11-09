@@ -266,6 +266,18 @@ kept on the turns even though the presentation around them is new.
       {% if digest %}<aside class="ed-digest-note" role="note"><b>要点整理</b>本篇是玩家 wiki 对这篇杂志访谈的笔记式整理，条目和小标题沿用了 wiki 的写法，不是杂志原文的全文。要读原话，请以杂志为准。</aside>{% endif %}
       {%- comment -%} a magazine interview the archive only has from a transcript: ask for the page itself (_data/wanted.yml, /wanted/) {%- endcomment -%}
       {% unless ja %}{% assign wanted_hit = site.data.wanted.items | where: "post", post_stem | first %}{% if wanted_hit and wanted_hit.status == "text" %}<aside class="ed-digest-note ed-wanted-note" role="note"><b>原刊征集</b>本篇来自网上的转录或摘录，还缺《{{ wanted_hit.pub }}》{{ wanted_hit.issue }}的原刊页来核对。手上有这一期的话，<a href="{{ '/wanted/' | relative_url }}#{{ wanted_hit.id }}">看看缺哪几页 →</a></aside>{% endif %}{% endunless %}
+      {%- comment -%} Keep external scan discovery separate from the provenance of the existing text. One summary can refer to several issues. {%- endcomment -%}
+      {% unless ja %}
+        {% assign found_sources = site.data.wanted.items | where: "post", post_stem | where: "status", "found" | where_exp: "item", "item.verified" %}
+        {% for found_source in found_sources %}
+        <aside class="ed-digest-note ed-wanted-note" role="note">
+          <b>原刊来源 · 外部阅读</b>《{{ found_source.pub | escape }}》{{ found_source.issue | escape }}（{{ found_source.date | escape }}）「{{ found_source.title | escape }}」{% if found_source.pages %}，印刷页码 {{ found_source.pages | escape }}{% endif %}。
+          本页文字仍据网上转录或二手摘要整理，尚未按原刊逐段校对；原页未在本站托管。
+          {% if found_source.sources[0].url %}<a href="{{ found_source.sources[0].url | escape }}" target="_blank" rel="noopener">阅读外部原刊 ↗</a>{% endif %}
+          <a href="{{ '/wanted/' | relative_url }}#{{ found_source.id }}">页码与来源说明 →</a>
+        </aside>
+        {% endfor %}
+      {% endunless %}
       {%- comment -%} a GAME FREAK recruit page: which version of that address this is (_data/recruit_archive.yml) {%- endcomment -%}
       {% if page.recruit and ja == false %}{% include recruit-version.html %}{% endif %}
       {% unless ja %}{% if n_commentary > 0 %}<p class="ed-context-note">访谈原话与作者解说按原有顺序保留；标注“作者解说”的段落不属于受访者发言。</p>{% endif %}{% endunless %}

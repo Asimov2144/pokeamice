@@ -95,6 +95,48 @@ def check_person_pages(site: Path) -> None:
           and tiny.select_one("#person-blogs") is None, "person: a short page has no jump line and no blog section")
 
 
+
+def check_found_print_sources(site: Path) -> None:
+    """External scans stay distinct from hosted page images and existing transcripts."""
+    wanted = read(site / "wanted" / "index.html")
+    check(wanted is not None, "wanted: source registry is built")
+    if wanted is None:
+        return
+    cases = {
+        "np-265": ("interview-nintendo-power-bw-masuda-sugimori", "18–20", "https://reetroz.com/issue/nintendo-power-265?p=20"),
+        "np-240": ("interview-nintendo-power-masuda-gens-1-4", "42–44", "https://reetroz.com/issue/nintendo-power-240?p=44"),
+        "famimaga64-28": ("interview-famimaga-tajiri-pokemon2-secret", "70", "https://archive.org/details/famimaga-64-issue-28-january-1998-600dpi-ozidual/page/n69/mode/1up"),
+    }
+    for key, (slug, pages, url) in cases.items():
+        cards = wanted.select(f"article#{key}")
+        check(len(cards) == 1, f"wanted: {key} has one stable source anchor")
+        if not cards:
+            continue
+        card = cards[0]
+        text = card.get_text(" ", strip=True)
+        check("wst-found" in card.get("class", []) and "wst-scan" not in card.get("class", [])
+              and pages in text and "来源说明" in text,
+              f"wanted: {key} is external found, with printed pages and attribution")
+        check(any(a.get("href") == url for a in card.select("a"))
+              and card.select_one(".wanted-card__act") is None,
+              f"wanted: {key} links to the original reader and does not solicit another scan")
+        check(wanted.select_one(f"#board #{key}") is None
+              and any(a.get("href") == f"#{key}" for a in wanted.select("#chain a")),
+              f"wanted: {key} moved off the wanted board but remains reachable in the chain")
+        article_path = find_page(site, slug)
+        article = read(article_path) if article_path else None
+        notes = article.select(".ed-cover aside.ed-wanted-note") if article else []
+        matching = [n for n in notes if any(a.get("href") == url for a in n.select("a"))]
+        check(len(matching) == 1 and "尚未按原刊逐段校对" in matching[0].get_text()
+              and "原页未在本站托管" in matching[0].get_text(),
+              f"article: {key} visibly separates the scan from its existing text")
+        check(not any("原刊征集" in n.get_text() for n in notes),
+              f"article: {key} no longer claims the original pages are missing")
+    for key in ("famimaga64-26", "64dream-41", "accion-220", "ndream-235"):
+        check(wanted.select_one(f'#found [id="{key}"]') is None,
+              f"wanted: {key} is not silently given this batch's verification status")
+
+
 def main() -> int:
     site = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
     if not (site / "index.html").exists():
@@ -273,6 +315,8 @@ def main() -> int:
     if home:
         hrefs = {a.get("href") for a in home.select("a.front__tile")}
         check({"/media/", "/games/"} <= hrefs, "home: the shelf has the 媒体专访 and 按游戏读 tiles")
+
+    check_found_print_sources(site)
 
     # ---- nothing leaked -------------------------------------------------
     leaks = []
