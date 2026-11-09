@@ -123,8 +123,11 @@ def check_found_print_sources(site: Path) -> None:
         check(wanted.select_one(f"#board #{key}") is None
               and any(a.get("href") == f"#{key}" for a in wanted.select("#chain a")),
               f"wanted: {key} moved off the wanted board but remains reachable in the chain")
-        article_path = find_page(site, slug)
-        article = read(article_path) if article_path else None
+        # Japanese editions use the same tail; check the original Chinese route explicitly.
+        article_paths = [p for p in site.glob("**/index.html")
+                         if p.parent.name == slug and p.relative_to(site).parts[0] != "ja"]
+        check(len(article_paths) == 1, f"article: {key} has one primary-language page")
+        article = read(article_paths[0]) if article_paths else None
         notes = article.select(".ed-cover aside.ed-wanted-note") if article else []
         matching = [n for n in notes if any(a.get("href") == url for a in n.select("a"))]
         check(len(matching) == 1 and "尚未按原刊逐段校对" in matching[0].get_text()
