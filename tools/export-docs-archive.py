@@ -867,6 +867,10 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             "cover_kind": cover_kind,
             "size": size,
         }
+        # A bibliography/reading guide is not a hosted interview transcript.
+        # Keep this optional so existing App records retain their schema and counts.
+        if fm.get("source_record") is True:
+            summary_item["source_record"] = True
         #  索引里只放够挑选的那几样：图鉴号、对得上旅图的地点、有没有观察。完整的条目在 posts/<id>.json 的 lore 里
         lore = lore_by_id.get(slug)
         if lore:
@@ -1108,13 +1112,13 @@ def main() -> int:
 
     for it in index:
         for p in it["people"]:
-            if p["slug"] in people:
+            if p["slug"] in people and not it.get("source_record"):
                 people[p["slug"]]["interview_count"] += 1
         for s in it["mentions"]:
             if s in people:
                 people[s]["mention_count"] += 1
         for w in it["works"]:
-            if w["name"] in works:
+            if w["name"] in works and not it.get("source_record"):
                 works[w["name"]]["interview_count"] += 1
     for slug, items in speakers.items():
         if slug in people:

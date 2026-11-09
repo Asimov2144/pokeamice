@@ -140,6 +140,72 @@ def check_found_print_sources(site: Path) -> None:
               f"wanted: {key} is not silently given this batch's verification status")
 
 
+def check_interview_source_records(site: Path) -> None:
+    """A source guide is discoverable without being presented as a full translation."""
+    cases = {
+        "source-inside-jupiter-pokemon-pinball": ("2011-10-29", "https://www.inside-games.jp/article/2011/10/29/52426.html", ["中山誠"]),
+        "source-dengeki-pokemon-comaster-ai": ("2016-04-29", "https://dengekionline.com/elem/000/001/264/1264105/", ["三浦昌幸", "大山功一", "伊藤久史", "鈴木直樹"]),
+        "source-bunshun-new-pokemon-snap-suzaki": ("2021-05-05", "https://bunshun.jp/articles/-/45108", ["須崎春樹", "河村鳴紘"]),
+        "source-wonderfy-pokemon-friends-roundtable": ("2025-09-17", "https://blog.wonderfy.inc/wf20250917/", ["押野洋介", "川島慶", "中室牧子"]),
+    }
+    category = read(site / "categories" / "访谈资料" / "index.html")
+    check(category is not None, "source records: category is built")
+    index_path = site / "assets" / "data" / "app" / "index.json"
+    exported = json.loads(index_path.read_text(encoding="utf-8")).get("items", []) if index_path.exists() else []
+    for slug, (date, url, people) in cases.items():
+        path = site / "访谈资料" / "来源登记" / slug / "index.html"
+        article = read(path)
+        check(article is not None, f"source record: {slug} is built")
+        if article is None:
+            continue
+        body = article.select_one(".page__content-body")
+        note = article.select_one(".source-record-note")
+        check(note is not None and "不是全文翻译" in note.get_text(),
+              f"source record: {slug} declares its limited scope")
+        card = article.select_one(".resource-card")
+        check(card is not None and any(a.get("href") == url for a in card.select("a"))
+              and "访谈翻译" not in card.get_text(),
+              f"source record: {slug} has a primary source and no full-translation label")
+        check(body is not None and all(person in body.get_text() for person in people)
+              and any(t.get("datetime", "").startswith(date) for t in article.select("time")),
+              f"source record: {slug} preserves publication date and participant attribution")
+        check(body is not None and body.select_one("img") is None
+              and article.select_one(".parallel-text__block") is None,
+              f"source record: {slug} does not republish images or invent a parallel transcript")
+        check(category is not None and any(slug in a.get("href", "") for a in category.select("a")),
+              f"source record: {slug} is linked from its category")
+        rows = [row for row in exported if row.get("id") == slug]
+        check(len(rows) == 1 and rows[0].get("kind") == "article" and rows[0].get("source_record") is True,
+              f"source record: {slug} is exported once as an article, not a translation")
+        post_path = index_path.parent / "posts" / f"{slug}.json"
+        post = json.loads(post_path.read_text(encoding="utf-8")) if post_path.exists() else {}
+        markdown = (post.get("body") or {}).get("markdown_zh", "")
+        check("不是全文翻译" in markdown and "{%" not in markdown
+              and (post.get("source") or {}).get("url") == url,
+              f"source record: {slug} keeps attribution and usable links in the App export")
+        if slug == "source-bunshun-new-pokemon-snap-suzaki":
+            links = {a.get("href") for a in body.select("a")} if body else set()
+            check({url, *(f"{url}?page={n}" for n in range(2, 5))} <= links,
+                  "source record: New Snap retains all four original pages")
+        if slug == "source-wonderfy-pokemon-friends-roundtable":
+            text = body.get_text() if body else ""
+            check("Think!Think!" in text and "不是 Pokémon Friends" in text and "不另计一篇" in text,
+                  "source record: Friends separates study evidence and duplicate reposts")
+    # The App's legacy per-person/work interview_count must not grow for source-only records.
+    for filename, refs_key, id_key in (("people.json", "people", "slug"), ("works.json", "works", "name")):
+        path = index_path.parent / filename
+        entities = json.loads(path.read_text(encoding="utf-8")).get("items", []) if path.exists() else []
+        affected = {ref.get(id_key) for row in exported if row.get("id") in cases
+                    for ref in row.get(refs_key, []) if ref.get(id_key)}
+        counts = {row.get(id_key): row.get("interview_count") for row in entities}
+        # Unresolved references (for example a new work with no registry entry) have no counter.
+        for identity in affected & counts.keys():
+            expected = sum(ref.get(id_key) == identity for row in exported if not row.get("source_record")
+                           for ref in row.get(refs_key, []))
+            check(counts.get(identity) == expected,
+                  f"source record: {refs_key}/{identity} count excludes source-only records")
+
+
 def main() -> int:
     site = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
     if not (site / "index.html").exists():
@@ -320,6 +386,7 @@ def main() -> int:
         check({"/media/", "/games/"} <= hrefs, "home: the shelf has the 媒体专访 and 按游戏读 tiles")
 
     check_found_print_sources(site)
+    check_interview_source_records(site)
 
     # ---- nothing leaked -------------------------------------------------
     leaks = []
