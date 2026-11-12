@@ -10,15 +10,16 @@
  },
  "facets": {
   "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
+  "works": [],
   "people": [
+   {
+    "name": "寺田佑贵",
+    "slug": "si-tian-you-gui",
+    "role": "mentioned",
+    "seg": [
+     1
+    ]
+   },
    {
     "name": "坂上",
     "slug": null,
@@ -42,12 +43,6 @@
      17,
      21
     ]
-   },
-   {
-    "name": "寺田佑贵",
-    "slug": "si-tian-you-gui",
-    "role": "mentioned",
-    "seg": []
    }
   ],
   "places": [],
@@ -207,12 +202,12 @@
  "observations": [
   {
    "seg": 1,
-   "text": "寺田佑贵任开发本部App事业部总监，兼任数据团队核心成员",
+   "text": "寺田属于应用游戏部门，并以兼任形式参加经营企划部的数据团队。",
    "anchor": 4
   },
   {
    "seg": 10,
-   "text": "水口此前曾连续3年在影视企划部深耕历练",
+   "text": "水口参加数据项目时负责商品企划，此前曾在影视企划部工作约三年。",
    "anchor": 16
   }
  ],
@@ -222,7 +217,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

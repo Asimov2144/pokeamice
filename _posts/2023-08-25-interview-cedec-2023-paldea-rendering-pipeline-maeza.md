@@ -54,6 +54,9 @@ parallel_items:
 - original: 前澤圭一氏
   translation: 前泽圭一
   note: GAME FREAK的开发者，曾参与《宝可梦》系列的技术与图形相关工作。
+- type: image
+  image: /assets/img/interviews/2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza/source-001.jpg
+  alt: CEDEC 2023 讲演者前泽圭一
 - original: 2023年8月23日，ゲーム開発者向けカンファレンス「CEDEC 2023」にて，ゲームフリークの前澤圭一氏による講演「【ポケットモンスター スカーレット・バイオレット】 パルデア地方を描き出す――見た目の仕組みを徹底解説！」が行われた。
   translation: 2023年8月23日，在面向游戏开发者的会议“CEDEC 2023”上，GAME FREAK的前泽圭一进行了题为“【宝可梦 朱·紫】描绘帕底亚地区——彻底解说视觉外观的机制！”的演讲。
 - original: 本講演は，「絵を見ればどのタイトルかわかる」を前提に開発しているという「ポケットモンスター」シリーズ。本公演は，「ポケットモンスター スカーレット・バイオレット」（以下，ポケモンSV）を例に，ポケモン，主人公，世界のそれぞれについて，シェーダ処理からアセット構成まで徹底的に解説するというものだ。
@@ -247,8 +250,6 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza/052.jpg
   alt: 画像ギャラリー No.052のサムネイル画像 / ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート
-- original: 4Gamerの「CEDEC 2023」記事一覧
-  translation: 4Gamer的“CEDEC 2023”文章一览
 era: 2019–2026 · Expansion / 极巨化与开放世界
 toc: true
 toc_sticky: true

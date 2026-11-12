@@ -2,7 +2,7 @@
  "id": "scan-ndream-2010-04-pokemon-ranger-retrospective",
  "stem": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
  "rev": 1,
- "built": "2026-09-29",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -22,6 +22,18 @@
     "via": "body"
    },
    {
+    "name": "雷公",
+    "ndex": 243,
+    "seg": [
+     258,
+     259
+    ],
+    "as": [
+     "雷公"
+    ],
+    "via": "body"
+   },
+   {
     "name": "时拉比",
     "ndex": 251,
     "seg": [
@@ -37,7 +49,7 @@
     "ndex": 311,
     "seg": [
      99,
-     220,
+     217,
      246
     ],
     "as": [
@@ -77,17 +89,6 @@
      "盾甲龙"
     ],
     "via": "body"
-   },
-   {
-    "name": "雷公",
-    "ndex": 243,
-    "seg": [
-     258
-    ],
-    "as": [
-     "雷公"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
@@ -105,7 +106,7 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦巡护员 巴特那吉",
+    "name": "宝可梦巡护员 风涌篇",
     "slug": null,
     "seg": [
      64
@@ -113,7 +114,7 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦巡护员 光的轨迹",
+    "name": "宝可梦巡护员 光之轨迹",
     "slug": null,
     "seg": [
      204
@@ -426,7 +427,8 @@
     "name": "对手与反派",
     "facet": "story",
     "seg": [
-     86
+     86,
+     97
     ],
     "as": [
      "劲敌"
@@ -464,10 +466,10 @@
     "facet": "franchise",
     "seg": [
      214,
+     216,
      217,
-     219,
-     220,
-     230,
+     227,
+     231,
      237
     ],
     "as": [
@@ -476,11 +478,24 @@
     "via": "body"
    },
    {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     216
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
     "id": "main-story",
     "name": "主线流程",
     "facet": "system",
     "seg": [
-     216
+     230,
+     249
     ],
     "as": [
      "主线剧情"
@@ -492,34 +507,10 @@
     "name": "玩家的自由",
     "facet": "design",
     "seg": [
-     216
+     230
     ],
     "as": [
      "自由度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     219
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     249
-    ],
-    "as": [
-     "剧本"
     ],
     "via": "body"
    },
@@ -613,7 +604,7 @@
   },
   {
    "seg": 64,
-   "text": "《巴特那吉》2008年3月20日发售，4800日元（含税）"
+   "text": "《风涌篇》2008年3月20日发售，4800日元（含税）"
   }
  ],
  "relations": [
@@ -638,7 +629,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

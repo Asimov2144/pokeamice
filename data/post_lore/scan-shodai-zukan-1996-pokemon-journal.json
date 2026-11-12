@@ -2,7 +2,7 @@
  "id": "scan-shodai-zukan-1996-pokemon-journal",
  "stem": "1996-04-05-scan-shodai-zukan-1996-pokemon-journal",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -375,7 +375,7 @@
     "kind": "character"
    },
    {
-    "name": "曾崎正辉",
+    "name": "曾根崎正辉",
     "slug": null,
     "role": "mentioned",
     "seg": [
@@ -502,18 +502,6 @@
     "via": "body"
    },
    {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
     "id": "collection",
     "name": "收集与图鉴",
     "facet": "system",
@@ -620,23 +608,10 @@
     "name": "培育",
     "facet": "system",
     "seg": [
-     65,
-     68
+     65
     ],
     "as": [
      "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     69
-    ],
-    "as": [
-     "攻略"
     ],
     "via": "body"
    },
@@ -675,6 +650,16 @@
     "via": "tag"
    },
    {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [],
+    "as": [
+     "攻略本"
+    ],
+    "via": "tag"
+   },
+   {
     "id": "world-building",
     "name": "世界观设定",
     "facet": "design",
@@ -689,11 +674,11 @@
  "observations": [
   {
    "seg": 12,
-   "text": "1925年西之森教授弄错用药量，火暴猴钻进远视眼镜盒"
+   "text": "虚构的《宝可梦新闻》中，1925年西之森教授弄错用药量，火暴猴钻进老花眼镜盒"
   },
   {
    "seg": 27,
-   "text": "正辉称一个人冒险能收集到的极限约130种"
+   "text": "虚构的《宝可梦新闻》中，正辉称一个人冒险能收集到的极限约130种"
   }
  ],
  "relations": [],
@@ -702,7 +687,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

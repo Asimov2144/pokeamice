@@ -2,7 +2,7 @@
  "id": "scan-ndream-2012-10-pokemon-music-interview",
  "stem": "2012-08-21-scan-ndream-2012-10-pokemon-music-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -14,12 +14,12 @@
     "name": "帝牙卢卡",
     "ndex": 483,
     "seg": [
-     42,
+     38,
      45,
      47,
-     59,
-     61,
-     65
+     53,
+     75,
+     77
     ],
     "as": [
      "帝牙卢卡"
@@ -30,11 +30,11 @@
     "name": "帕路奇亚",
     "ndex": 484,
     "seg": [
-     42,
+     38,
      47,
-     59,
-     61,
-     65
+     53,
+     75,
+     77
     ],
     "as": [
      "帕路奇亚"
@@ -74,7 +74,7 @@
     "name": "宝可梦 钻石·珍珠",
     "slug": "diamond-pearl",
     "seg": [
-     60
+     76
     ],
     "via": "llm"
    },
@@ -82,7 +82,7 @@
     "name": "宝可梦 白金",
     "slug": "platinum",
     "seg": [
-     67
+     55
     ],
     "via": "llm"
    },
@@ -90,7 +90,7 @@
     "name": "宝可梦 绿宝石",
     "slug": "emerald",
     "seg": [
-     68
+     56
     ],
     "via": "llm"
    },
@@ -98,7 +98,7 @@
     "name": "宝可梦 金·银",
     "slug": "gold-silver",
     "seg": [
-     43
+     39
     ],
     "via": "llm"
    },
@@ -114,7 +114,7 @@
     "name": "宝可梦D・P",
     "slug": null,
     "seg": [
-     22
+     32
     ],
     "via": "llm"
    },
@@ -122,7 +122,7 @@
     "name": "宝可梦B2·W2",
     "slug": null,
     "seg": [
-     20
+     30
     ],
     "via": "llm"
    },
@@ -145,8 +145,8 @@
      11,
      13,
      16,
-     22,
-     42
+     32,
+     38
     ]
    },
    {
@@ -157,9 +157,9 @@
      12,
      15,
      17,
-     23,
-     43,
-     53
+     33,
+     39,
+     69
     ]
    },
    {
@@ -167,12 +167,12 @@
     "slug": "masuda-junichi",
     "role": "speaker",
     "seg": [
-     52,
-     55,
-     57,
-     59,
-     61,
-     66
+     68,
+     71,
+     73,
+     75,
+     77,
+     54
     ]
    },
    {
@@ -198,7 +198,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     78
+     66
     ],
     "via": "llm"
    }
@@ -212,7 +212,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     22
+     32
     ],
     "what": "可前往的设施",
     "via": "llm"
@@ -225,7 +225,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     22
+     32
     ],
     "what": "可前往的设施",
     "via": "llm"
@@ -238,7 +238,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     22
+     32
     ],
     "what": "山路镇旁宅邸",
     "via": "llm"
@@ -251,7 +251,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     22
+     32
     ],
     "what": "陌生人之家所在",
     "via": "llm"
@@ -264,7 +264,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     22
+     32
     ],
     "what": "钻石珍珠的洋馆",
     "via": "llm"
@@ -303,7 +303,7 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     78
+     66
     ],
     "what": "小蓟所在城市",
     "via": "llm"
@@ -316,16 +316,13 @@
     "facet": "audio",
     "seg": [
      3,
-     16,
-     17,
      19,
-     22,
-     73
+     32,
+     61
     ],
     "as": [
      "音效设计",
-     "音效",
-     "效果音"
+     "音效"
     ],
     "via": "body"
    },
@@ -337,9 +334,9 @@
      7,
      8,
      15,
-     32,
-     43,
-     55
+     28,
+     39,
+     52
     ],
     "as": [
      "作曲",
@@ -353,24 +350,11 @@
     "facet": "audio",
     "seg": [
      9,
-     36,
      50
     ],
     "as": [
      "主题曲",
      "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     11
-    ],
-    "as": [
-     "路线"
     ],
     "via": "body"
    },
@@ -391,9 +375,8 @@
     "name": "叫声",
     "facet": "design",
     "seg": [
-     12,
      13,
-     73
+     61
     ],
     "as": [
      "叫声"
@@ -401,15 +384,14 @@
     "via": "body"
    },
    {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
     "seg": [
-     23,
-     40
+     20
     ],
     "as": [
-     "劲敌"
+     "关卡"
     ],
     "via": "body"
    },
@@ -418,10 +400,35 @@
     "name": "数据与存档",
     "facet": "tech",
     "seg": [
-     30
+     26
     ],
     "as": [
      "存档"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     28
+    ],
+    "as": [
+     "界面"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "antagonist",
+    "name": "对手与反派",
+    "facet": "story",
+    "seg": [
+     33,
+     42
+    ],
+    "as": [
+     "劲敌"
     ],
     "via": "body"
    },
@@ -438,14 +445,14 @@
     "via": "body"
    },
    {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
+    "id": "balance",
+    "name": "平衡调整",
+    "facet": "system",
     "seg": [
-     75
+     61
     ],
     "as": [
-     "世界观"
+     "整体平衡"
     ],
     "via": "body"
    }
@@ -484,7 +491,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

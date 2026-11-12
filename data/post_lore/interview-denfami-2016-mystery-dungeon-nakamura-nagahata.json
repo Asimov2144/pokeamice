@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 319
+  "n": 307
  },
  "facets": {
   "pokemon": [],
@@ -101,22 +101,6 @@
      260
     ],
     "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     307
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "铁板阵",
-    "slug": null,
-    "seg": [
-     307
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -205,60 +189,6 @@
      182
     ],
     "via": "llm"
-   },
-   {
-    "name": "襟川阳一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     305
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "涩泽光",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     305
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "襟川惠子",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     305
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "远藤雅伸",
-    "slug": "endo-masanobu",
-    "role": "mentioned",
-    "seg": [
-     307
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     307
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": [
-     307
-    ],
-    "via": "llm"
    }
   ],
   "places": [
@@ -303,8 +233,7 @@
      0,
      40,
      89,
-     152,
-     307
+     152
     ],
     "as": [
      "企划书",
@@ -717,8 +646,7 @@
     "name": "联网服务",
     "facet": "tech",
     "seg": [
-     268,
-     316
+     268
     ],
     "as": [
      "联网",
@@ -768,7 +696,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

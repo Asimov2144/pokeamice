@@ -2,7 +2,7 @@
  "id": "scan-ndream-2008-10-tajiri-famicom-25th",
  "stem": "2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -98,17 +98,6 @@
     ],
     "as": [
      "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "霸王花",
-    "ndex": 45,
-    "seg": [
-     60
-    ],
-    "as": [
-     "霸王花"
     ],
     "via": "body"
    },
@@ -514,30 +503,59 @@
   ],
   "concepts": [
    {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
     "id": "social-impact",
     "name": "社会反响",
     "facet": "audience",
     "seg": [
+     6,
+     12,
      19,
      34,
      72,
      105
     ],
     "as": [
+     "风靡",
      "热潮",
      "社会现象"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     10
+    ],
+    "as": [
+     "第一次接触"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     16
+    ],
+    "as": [
+     "重做"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     16,
+     187
+    ],
+    "as": [
+     "代码",
+     "编写程序"
     ],
     "via": "body"
    },
@@ -580,7 +598,6 @@
     "facet": "system",
     "seg": [
      37,
-     129,
      164,
      169,
      177
@@ -662,10 +679,10 @@
     "seg": [
      55,
      132,
-     153,
      154,
-     155,
-     156
+     157,
+     158,
+     160
     ],
     "as": [
      "操作方式",
@@ -679,12 +696,10 @@
     "name": "自然与昆虫采集",
     "facet": "design",
     "seg": [
-     59,
      62,
      176
     ],
     "as": [
-     "生态",
      "昆虫"
     ],
     "via": "body"
@@ -710,8 +725,8 @@
      83,
      87,
      103,
-     115,
-     129
+     130,
+     169
     ],
     "as": [
      "关卡",
@@ -734,22 +749,8 @@
     "as": [
      "容量",
      "内存",
+     "卡带",
      "ROM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     83,
-     85,
-     158
-    ],
-    "as": [
-     "音效",
-     "效果音"
     ],
     "via": "body"
    },
@@ -759,7 +760,6 @@
     "facet": "tech",
     "seg": [
      87,
-     129,
      208
     ],
     "as": [
@@ -774,8 +774,7 @@
     "facet": "process",
     "seg": [
      93,
-     103,
-     150
+     103
     ],
     "as": [
      "分工",
@@ -801,18 +800,6 @@
     "via": "body"
    },
    {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     111
-    ],
-    "as": [
-     "主题是"
-    ],
-    "via": "body"
-   },
-   {
     "id": "bgm",
     "name": "背景音乐",
     "facet": "audio",
@@ -820,7 +807,7 @@
      115
     ],
     "as": [
-     "BGM"
+     "背景音乐"
     ],
     "via": "body"
    },
@@ -829,22 +816,24 @@
     "name": "完成度与打磨",
     "facet": "process",
     "seg": [
-     119
+     119,
+     129
     ],
     "as": [
-     "完成度"
+     "完成度",
+     "打磨"
     ],
     "via": "body"
    },
    {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
+    "id": "life-and-death",
+    "name": "生死的表述",
+    "facet": "design",
     "seg": [
-     131
+     124
     ],
     "as": [
-     "从零开始"
+     "死亡"
     ],
     "via": "body"
    },
@@ -853,9 +842,11 @@
     "name": "手绘与画材",
     "facet": "art",
     "seg": [
+     126,
      138
     ],
     "as": [
+     "草图",
      "手绘"
     ],
     "via": "body"
@@ -909,6 +900,18 @@
     "as": [
      "连接起来",
      "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sfx",
+    "name": "音效",
+    "facet": "audio",
+    "seg": [
+     158
+    ],
+    "as": [
+     "效果音"
     ],
     "via": "body"
    },
@@ -969,11 +972,13 @@
     "facet": "system",
     "seg": [
      182,
+     183,
      187,
      189
     ],
     "as": [
-     "交换宝可梦"
+     "交换宝可梦",
+     "与朋友交换"
     ],
     "via": "body"
    },
@@ -1020,18 +1025,6 @@
     "via": "body"
    },
    {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     187
-    ],
-    "as": [
-     "编写程序"
-    ],
-    "via": "body"
-   },
-   {
     "id": "cry-design",
     "name": "叫声",
     "facet": "design",
@@ -1052,30 +1045,6 @@
     ],
     "as": [
      "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     201
-    ],
-    "as": [
-     "设计宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     201
-    ],
-    "as": [
-     "公司内部"
     ],
     "via": "body"
    },
@@ -1197,7 +1166,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

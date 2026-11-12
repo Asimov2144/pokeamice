@@ -39,13 +39,14 @@ entities:
   people:
   - 增田顺一
   - 井部真那
-  - 田尻智
-  - 杉森建
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
   - 宝可梦 金·银
   - 宝可梦 心金·魂银
+mentions:
+  people:
+  - 田尻智
 topics:
 - 海外媒体专访
 parallel_items:

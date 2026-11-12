@@ -2,11 +2,11 @@
  "id": "scan-ndream-2014-01-xy-sound-team-interview",
  "stem": "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 260
+  "n": 259
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     222
+     254
     ],
     "as": [
      "皮卡丘"
@@ -22,25 +22,14 @@
     "via": "body"
    },
    {
-    "name": "大钳蟹",
-    "ndex": 98,
-    "seg": [
-     104
-    ],
-    "as": [
-     "大钳蟹"
-    ],
-    "via": "body"
-   },
-   {
     "name": "戴鲁比",
     "ndex": 228,
     "seg": [
-     167,
      168,
      169,
      170,
-     171
+     171,
+     172
     ],
     "as": [
      "戴鲁比"
@@ -53,12 +42,12 @@
     "name": "宝可梦 X·Y",
     "slug": "x-y",
     "seg": [
-     5,
-     8,
-     9,
-     217,
-     218,
-     220
+     12,
+     15,
+     16,
+     237,
+     238,
+     252
     ],
     "via": "entities"
    },
@@ -66,7 +55,7 @@
     "name": "宝可梦 黑2·白2",
     "slug": "black2-white2",
     "seg": [
-     7
+     14
     ],
     "via": "llm"
    },
@@ -74,7 +63,7 @@
     "name": "节奏猎人 和谐",
     "slug": null,
     "seg": [
-     7
+     14
     ],
     "via": "llm"
    },
@@ -82,7 +71,7 @@
     "name": "宝可梦 黑·白",
     "slug": "black-white",
     "seg": [
-     17
+     24
     ],
     "via": "llm"
    },
@@ -98,7 +87,7 @@
     "name": "宝可梦 钻石·珍珠",
     "slug": "diamond-pearl",
     "seg": [
-     154
+     155
     ],
     "via": "llm"
    }
@@ -109,12 +98,12 @@
     "slug": "kageyama-shota",
     "role": "speaker",
     "seg": [
-     6,
-     8,
-     10,
-     12,
-     14,
-     17
+     13,
+     15,
+     17,
+     19,
+     21,
+     24
     ]
    },
    {
@@ -122,7 +111,7 @@
     "slug": "sato-hitomi",
     "role": "speaker",
     "seg": [
-     23,
+     30,
      43,
      51,
      53,
@@ -135,7 +124,7 @@
     "slug": "adachi-minako",
     "role": "speaker",
     "seg": [
-     24,
+     31,
      64,
      78,
      80,
@@ -148,10 +137,10 @@
     "slug": null,
     "role": "speaker",
     "seg": [
-     25,
-     142,
-     148,
-     183
+     32,
+     143,
+     149,
+     184
     ]
    },
    {
@@ -159,7 +148,7 @@
     "slug": "masuda-junichi",
     "role": "mentioned",
     "seg": [
-     10
+     17
     ],
     "via": "llm"
    },
@@ -168,7 +157,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     130
+     131
     ],
     "via": "llm"
    }
@@ -182,7 +171,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     27
+     34
     ],
     "what": "景山喜欢的地区",
     "via": "llm"
@@ -195,7 +184,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     27
+     34
     ],
     "what": "法国南部港城",
     "via": "llm"
@@ -208,7 +197,7 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     21
+     28
     ],
     "what": "本作舞台",
     "via": "llm"
@@ -221,7 +210,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     21
+     28
     ],
     "what": "卡洛斯原型",
     "via": "llm"
@@ -234,7 +223,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     22
+     29
     ],
     "what": "取材地",
     "via": "llm"
@@ -273,7 +262,7 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     154
+     155
     ],
     "what": "佐藤选的曲子",
     "via": "llm"
@@ -285,7 +274,7 @@
     "name": "沿用与继承",
     "facet": "process",
     "seg": [
-     3
+     10
     ],
     "as": [
      "继承"
@@ -297,7 +286,7 @@
     "name": "开发周期",
     "facet": "process",
     "seg": [
-     6
+     13
     ],
     "as": [
      "开发周期"
@@ -309,7 +298,7 @@
     "name": "新硬件",
     "facet": "tech",
     "seg": [
-     10
+     17
     ],
     "as": [
      "新硬件"
@@ -321,7 +310,7 @@
     "name": "续作",
     "facet": "process",
     "seg": [
-     10
+     17
     ],
     "as": [
      "完全新作"
@@ -333,9 +322,9 @@
     "name": "原型与试作",
     "facet": "process",
     "seg": [
-     12,
-     21,
-     28
+     19,
+     28,
+     35
     ],
     "as": [
      "原型"
@@ -347,8 +336,8 @@
     "name": "舞台取材",
     "facet": "design",
     "seg": [
-     21,
-     28
+     28,
+     35
     ],
     "as": [
      "为原型"
@@ -419,9 +408,7 @@
     "seg": [
      53,
      64,
-     80,
-     215,
-     251
+     80
     ],
     "as": [
      "剧本"
@@ -434,8 +421,8 @@
     "facet": "design",
     "seg": [
      54,
-     140,
-     254
+     141,
+     235
     ],
     "as": [
      "超级进化"
@@ -515,13 +502,25 @@
     "facet": "audio",
     "seg": [
      86,
-     231,
-     232,
-     234
+     247,
+     248,
+     250
     ],
     "as": [
      "音效",
      "效果音"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     110
+    ],
+    "as": [
+     "分发"
     ],
     "via": "body"
    },
@@ -531,7 +530,7 @@
     "facet": "audio",
     "seg": [
      110,
-     137
+     138
     ],
     "as": [
      "音源"
@@ -544,7 +543,7 @@
     "facet": "process",
     "seg": [
      116,
-     134
+     135
     ],
     "as": [
      "打磨"
@@ -556,7 +555,7 @@
     "name": "台词",
     "facet": "story",
     "seg": [
-     152
+     153
     ],
     "as": [
      "台词"
@@ -568,10 +567,22 @@
     "name": "随机与运气",
     "facet": "system",
     "seg": [
-     162
+     163
     ],
     "as": [
      "概率"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "color-work",
+    "name": "配色",
+    "facet": "art",
+    "seg": [
+     215
+    ],
+    "as": [
+     "色彩"
     ],
     "via": "body"
    },
@@ -580,12 +591,24 @@
     "name": "对手与反派",
     "facet": "story",
     "seg": [
-     202,
-     204,
-     208
+     218,
+     220,
+     224
     ],
     "as": [
      "劲敌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
+    "seg": [
+     231
+    ],
+    "as": [
+     "背景音乐"
     ],
     "via": "body"
    },
@@ -594,8 +617,8 @@
     "name": "海外发行",
     "facet": "business",
     "seg": [
-     220,
-     222
+     252,
+     254
     ],
     "as": [
      "全球同步发售"
@@ -607,22 +630,10 @@
     "name": "叫声",
     "facet": "design",
     "seg": [
-     222
+     254
     ],
     "as": [
      "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     250
-    ],
-    "as": [
-     "色彩"
     ],
     "via": "body"
    }
@@ -630,11 +641,11 @@
  },
  "observations": [
   {
-   "seg": 10,
+   "seg": 17,
    "text": "增田顺一对景山说声音的一切都交给他"
   },
   {
-   "seg": 12,
+   "seg": 19,
    "text": "约1年反复制作原型并试错摸索表现"
   }
  ],
@@ -661,7 +672,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

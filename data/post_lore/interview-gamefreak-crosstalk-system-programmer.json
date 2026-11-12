@@ -47,6 +47,19 @@
     ]
    },
    {
+    "name": "H.T.（系统程序员对谈）",
+    "slug": "gf-ht-system-crosstalk",
+    "role": "speaker",
+    "seg": [
+     3,
+     6,
+     8,
+     13,
+     21,
+     24
+    ]
+   },
+   {
     "name": "J.I.",
     "slug": null,
     "role": "speaker",
@@ -56,19 +69,6 @@
      9,
      15,
      22
-    ]
-   },
-   {
-    "name": "H.T.",
-    "slug": "h-t",
-    "role": "speaker",
-    "seg": [
-     3,
-     6,
-     8,
-     13,
-     21,
-     24
     ]
    }
   ],
@@ -184,42 +184,43 @@
  "relations": [
   {
    "id": "interview-gamefreak-crosstalk-programmer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
    "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/",
-   "why": "同为2021-12-27 GAME FREAK程序员对谈，均分系统与游戏程序员"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   },
   {
    "id": "interview-gamefreak-crosstalk-game-programmer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "最重要的是否能把握住“玩法的本质”。",
    "url": "/interviews/interview-gamefreak-crosstalk-game-programmer/",
-   "why": "同日GAME FREAK程序员对谈，同属招聘特辑程序员篇"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   },
   {
    "id": "interview-gamefreak-crosstalk-designer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
    "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
-   "why": "同日GAME FREAK招聘特辑对谈，同属职能岗位系列"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   },
   {
    "id": "interview-gamefreak-crosstalk-new-graduate",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。",
    "url": "/interviews/interview-gamefreak-crosstalk-new-graduate/",
-   "why": "同日GAME FREAK招聘特辑对谈，同属岗位系列"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

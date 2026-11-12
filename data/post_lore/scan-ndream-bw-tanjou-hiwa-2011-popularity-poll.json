@@ -2,7 +2,7 @@
  "id": "scan-ndream-bw-tanjou-hiwa-2011-popularity-poll",
  "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-popularity-poll",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -29,8 +29,7 @@
      21,
      25,
      27,
-     87,
-     181
+     87
     ],
     "as": [
      "藤藤蛇"
@@ -156,7 +155,8 @@
     "name": "百合根娃娃",
     "ndex": 548,
     "seg": [
-     178
+     178,
+     181
     ],
     "as": [
      "百合根娃娃"
@@ -364,10 +364,10 @@
     "seg": [
      2,
      4,
+     59,
+     86,
+     87,
      132,
-     145,
-     149,
-     153,
      142
     ],
     "as": [
@@ -425,7 +425,9 @@
     "name": "三首恶龙",
     "ndex": 635,
     "seg": [
-     17
+     17,
+     86,
+     87
     ],
     "as": [
      "三首恶龙"
@@ -611,7 +613,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     114
+     116
     ],
     "via": "llm"
    },
@@ -620,7 +622,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     119
+     114
     ],
     "via": "llm"
    },
@@ -629,7 +631,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     120
+     118
     ],
     "via": "llm"
    },
@@ -638,7 +640,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     122
+     120
     ],
     "via": "llm"
    },
@@ -788,7 +790,7 @@
      98,
      107,
      109,
-     115
+     120
     ],
     "as": [
      "道馆",
@@ -1000,7 +1002,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

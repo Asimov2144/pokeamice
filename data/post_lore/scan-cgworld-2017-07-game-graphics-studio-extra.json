@@ -2,7 +2,7 @@
  "id": "scan-cgworld-2017-07-game-graphics-studio-extra",
  "stem": "2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra",
  "rev": 1,
- "built": "2026-09-29",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -16,7 +16,7 @@
     "seg": [
      8,
      10,
-     15
+     19
     ],
     "as": [
      "皮卡丘"
@@ -45,7 +45,7 @@
     "name": "宝可梦 X·Y",
     "slug": "x-y",
     "seg": [
-     34
+     36
     ],
     "via": "llm"
    },
@@ -77,7 +77,7 @@
     "name": "GIGA WRECKER",
     "slug": null,
     "seg": [
-     36
+     38
     ],
     "via": "llm"
    },
@@ -85,7 +85,7 @@
     "name": "接龙马",
     "slug": null,
     "seg": [
-     36
+     38
     ],
     "via": "llm"
    }
@@ -114,7 +114,7 @@
     "slug": "zhong-guang-jian-wu",
     "role": "mentioned",
     "seg": [
-     16
+     20
     ],
     "via": "llm"
    },
@@ -123,7 +123,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     19
+     23
     ],
     "via": "llm"
    },
@@ -185,7 +185,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     21
+     15
     ],
     "what": "Creatures所在地",
     "via": "llm"
@@ -211,8 +211,8 @@
     "facet": "team",
     "seg": [
      5,
-     20,
-     22,
+     14,
+     16,
      41
     ],
     "as": [
@@ -265,106 +265,11 @@
     "name": "外包与协力",
     "facet": "process",
     "seg": [
-     11
+     11,
+     19
     ],
     "as": [
      "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     11,
-     36,
-     38
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     14,
-     15,
-     16,
-     18,
-     22
-    ],
-    "as": [
-     "3D化",
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     15
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     15
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     15
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     18,
-     22,
-     41
-    ],
-    "as": [
-     "应届",
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     18,
-     37
-    ],
-    "as": [
-     "协作",
-     "分工"
     ],
     "via": "body"
    },
@@ -373,8 +278,8 @@
     "name": "教育与育儿",
     "facet": "audience",
     "seg": [
-     20,
-     38
+     14,
+     34
     ],
     "as": [
      "育儿"
@@ -386,12 +291,81 @@
     "name": "进公司之前",
     "facet": "team",
     "seg": [
-     20,
-     30
+     14,
+     19,
+     30,
+     33
     ],
     "as": [
      "职业生涯",
      "入职"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     16,
+     41
+    ],
+    "as": [
+     "招聘"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     16,
+     19,
+     20,
+     22,
+     33
+    ],
+    "as": [
+     "建模"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     18
+    ],
+    "as": [
+     "真实感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     18,
+     19
+    ],
+    "as": [
+     "设定图",
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "handheld",
+    "name": "掌机这件事",
+    "facet": "tech",
+    "seg": [
+     30
+    ],
+    "as": [
+     "掌机"
     ],
     "via": "body"
    },
@@ -401,10 +375,73 @@
     "facet": "business",
     "seg": [
      30,
-     34
+     36
     ],
     "as": [
      "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "distribution-gift",
+    "name": "配信与赠送",
+    "facet": "system",
+    "seg": [
+     33
+    ],
+    "as": [
+     "分发"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     33
+    ],
+    "as": [
+     "画面表现"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     33,
+     34
+    ],
+    "as": [
+     "分工",
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     34,
+     38
+    ],
+    "as": [
+     "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "team-size",
+    "name": "团队规模",
+    "facet": "process",
+    "seg": [
+     34
+    ],
+    "as": [
+     "全公司"
     ],
     "via": "body"
    },
@@ -413,7 +450,7 @@
     "name": "调试与除错",
     "facet": "tech",
     "seg": [
-     34
+     36
     ],
     "as": [
      "调试"
@@ -425,7 +462,7 @@
     "name": "海外发行",
     "facet": "business",
     "seg": [
-     34
+     36
     ],
     "as": [
      "全球同步发售"
@@ -437,7 +474,7 @@
     "name": "原型与试作",
     "facet": "process",
     "seg": [
-     36
+     38
     ],
     "as": [
      "原型"
@@ -445,38 +482,14 @@
     "via": "body"
    },
    {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
+    "id": "raising",
+    "name": "培育",
     "facet": "system",
-    "seg": [
-     37
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     37
-    ],
-    "as": [
-     "动作设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
     "seg": [
      38
     ],
     "as": [
-     "全公司"
+     "培育"
     ],
     "via": "body"
    },
@@ -510,7 +523,7 @@
    "text": "工作室所属3DCG美术师22名，希望数年翻倍"
   },
   {
-   "seg": 34,
+   "seg": 36,
    "text": "《太阳·月亮》全球销量1,544万份"
   }
  ],
@@ -519,7 +532,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

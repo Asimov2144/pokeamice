@@ -83,11 +83,13 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/002.jpg
   alt: 04_R
-  caption: 本当に目の前が見えなくなるほどの霧に覆われる。
+  caption: 浓雾笼罩，几乎连眼前也看不清。
+  caption_original: 本当に目の前が見えなくなるほどの霧に覆われる。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/003.jpg
   alt: 05_R
-  caption: 霧を抜けると突然知らない場所に出る、いかにもファンタジーな演出が現実に起こってドキドキする！
+  caption: 穿过雾气，突然来到陌生的地方——如同奇幻作品中的演出在现实里发生，让人心跳加速。
+  caption_original: 霧を抜けると突然知らない場所に出る、いかにもファンタジーな演出が現実に起こってドキドキする！
 - original: 霧を抜けた先で、ついにポケモン探しが始まる。ひとつのエリアごとに制限時間が決まっており、時間内により多くのポケモンを見つけることが目標となる。ネタバレになってしまうのであまり多くは語れないが、ポケモンファンなら手がかりの文章を見ただけである程度隠れているポケモンの種類や場所がなんとなく推測できるような内容だった。
   translation: 穿过浓雾之后，寻找宝可梦终于开始。每个区域都设有限时，目标是在时间内找到更多宝可梦。因为涉及剧透，不能讲太多，不过其内容对宝可梦粉丝来说，光是看线索文字，就能大致推测出隐藏的宝可梦种类和地点。
 - original: 調査隊が残した手がかりを見て、「これってもしやあのポケモンのことでは!?」とか、「このポケモンならこういうところにいそう！」といった推測をしながらポケモンを探すのは、控えめに言って最高に楽しすぎて帰りたくなかった。
@@ -95,39 +97,51 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/004.jpg
   alt: 08_R
-  caption: 共通エリアのワンダーフィールド。先行体験会ではあいにくの雨で見られなかったが、この日は快晴のため見せてもらえることに。
+  caption: 共用区域 Wonder Field。此前的体验会碰上下雨，未能参观；这天放晴，终于得以一看。
+  caption_original: 共通エリアのワンダーフィールド。先行体験会ではあいにくの雨で見られなかったが、この日は快晴のため見せてもらえることに。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/005.jpg
   alt: WA5_3261_R
-  caption: いかにも何かが飛び出してきそうなモンスターボール型の草むら。
+  caption: 精灵球形状的草丛，仿佛随时会有什么跳出来。
+  caption_original: いかにも何かが飛び出してきそうなモンスターボール型の草むら。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/006.jpg
   alt: WA5_3290_R
-  caption: テントの中には謎のどうぐがズラリ。何に使うのだろうか……。
+  caption: 帐篷里摆满了神秘道具，会用来做什么呢？
+  caption_original: テントの中には謎のどうぐがズラリ。何に使うのだろうか……。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/007.jpg
   alt: WA5_3307_R
-  caption: みずタイプのポケモンが隠れていそうな池を発見！　網が用意されていたので水中を探ってみると……？
+  caption: 发现了似乎藏着水属性宝可梦的池塘！现场备有网子，往水中探索会发现什么呢？
+  caption_original: みずタイプのポケモンが隠れていそうな池を発見！　網が用意されていたので水中を探ってみると……？
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/008.jpg
   alt: WA5_3338_R
-  caption: こんなところにもポケモンが隠れていた!?
+  caption: 连这样的地方也藏着宝可梦！？
+  caption_original: こんなところにもポケモンが隠れていた!?
+- type: image
+  image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/source-l_60f1dfcf485ff.jpg
+  alt: Pokémon WONDER 原文体验照片与开发者肖像
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/009.jpg
   alt: 09_R
-  caption: ワンダーフィールドの先へ進んでいくと、けっこうガッツリと森の中へ入っていく。
+  caption: 越过 Wonder Field 继续前进，便真正深入了森林。
+  caption_original: ワンダーフィールドの先へ進んでいくと、けっこうガッツリと森の中へ入っていく。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/010.jpg
   alt: 10_R
-  caption: 森の中にポツンと立っている小屋の中にも、ポケモンが隠れているらしい……。
+  caption: 森林中孤零零的小屋里，似乎也藏着宝可梦……
+  caption_original: 森の中にポツンと立っている小屋の中にも、ポケモンが隠れているらしい……。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/011.jpg
   alt: 11_R
-  caption: ささやきの竹林へ向かう道中で、またもや霧が立ち込めてきた！　スタート地点だけでなく、ここでもタイミング次第では霧が発生するようだ。
+  caption: 前往低语竹林的途中，又起雾了！看来不只起点，根据时机，这里也会被雾气笼罩。
+  caption_original: ささやきの竹林へ向かう道中で、またもや霧が立ち込めてきた！　スタート地点だけでなく、ここでもタイミング次第では霧が発生するようだ。
 - type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/012.jpg
   alt: 12_R
-  caption: ガチの自然なので、アップダウンが多くて移動するだけで割とハードな運動になる。
+  caption: 这里是真正的自然环境，地势起伏较大，光是走动就相当锻炼身体。
+  caption_original: ガチの自然なので、アップダウンが多くて移動するだけで割とハードな運動になる。
 - original: ネタバレに敏感なコンテンツであるため詳しく説明できないのが歯がゆいところだが、とにかく圧倒的に満足度が高かったことは間違いない。事前の打ち合わせではインタビューの前に軽く20分ほど現地を見て回る予定だったのが、結局1時間半くらいガッツリ歩き回っていたといえば、ハマり具合がわかってもらえるだろうか。
   translation: 由于这是对剧透敏感的内容，无法详细说明实在令人着急，但总之满意度极高这一点是毫无疑问的。事先商谈时原本预定在采访前花20分钟左右在现场转一转，结果最后足足走了1个半小时左右，这样说应该能让人明白我们有多着迷吧。
 - original: ポケモンとの出会いかた本当に多彩で、つぎはどんなところにどのポケモンが隠れているのか、まったく飽きずにワクワクし続けていた。記者はこのところ子どもを徒歩1分の保育園に送り届けて帰ってくる都合2分のウォーキング以外にまったく運動していなかった。そもそもバテて動けなくなったり翌日ひどい筋肉痛に悩まされたりを覚悟していたのだが、そのどちらもなかったのは、ひとえに楽しすぎてドーパミンがドバドバ出てハイになっていたからかもしれない……。
@@ -164,8 +178,14 @@ parallel_items:
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/013.jpg
   alt: 60dd4fe703928
 - type: image
+  image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/source-l_60ee7a306ea74.jpg
+  alt: Pokémon WONDER 原文体验照片与开发者肖像
+- type: image
   image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/014.jpg
   alt: 60dd4fe6e90d5
+- type: image
+  image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/source-l_60ee7a306ab47.jpg
+  alt: Pokémon WONDER 原文体验照片与开发者肖像
 - original: “ポケモンワンダー”の概要について改めて教えてください。
   role: question
   speaker: ファミ通
@@ -204,7 +224,7 @@ parallel_items:
 - original: 確かに、今回見させていただいただけでもポケモンの魅せかたに対するこだわりがひしひしと伝わってきました。ポケモンというコンテンツへの理解度、そして御社との信頼関係が為せる業だったということですね。
   role: question
   speaker: ファミ通
-  translation: 确实，仅从这次看到的内容，就能深切感受到对宝可梦呈现方式的讲究。这可以说是源于对宝可梦这一内容的理解，以及与贵公司的信任关系才得以实现的。
+  translation: 确实，光是这次看到的内容，就能感受到你们对怎样展现宝可梦下了很多功夫。也就是说，正因为对宝可梦有深入的理解，又与贵公司建立了信任，才实现了这些设计。
 - original: そう思います。RIDDLERさんも、藤本さんや社長の松丸亮吾さんを始めポケモンを深く理解してくださっている方ばかりです。そんな皆さんの愛と熱意に支えられなければ、“ポケモンワンダー”はここまでの完成度に至らなかっただろうと思っています。
   role: answer
   speaker: 津田明子
@@ -224,7 +244,7 @@ parallel_items:
 - original: 冒頭でも津田さんがおっしゃられていたように、本企画はセンス・オブ・ワンダーという概念がテーマになっています。センス・オブ・ワンダーというのは、アメリカの生物学者レイチェル・カーソンの著作『センス・オブ・ワンダー』に由来する、“自然の神秘や不思議に目を見張る感性”のことです。日々の生活で忘れていってしまうこの感受性を、ポケモンを通して取り戻してもらうことが本企画の大きな目標です。
   role: answer
   speaker: 本山敬一
-  translation: 正如津田先生在开头也提到的，本企划以“惊奇之心”这一概念为主题。所谓惊奇之心，源自美国生物学家蕾切尔·卡森的著作《惊奇之心》，指的是“对自然的神秘与不可思议睁大眼睛的感性”。让人们在日常生活中逐渐遗忘的这种感受性，通过宝可梦重新找回，是本企划的一大目标。
+  translation: 正如津田刚才所说，这个项目以“惊奇之心”（Sense of Wonder）为主题。这个概念来自美国生物学家蕾切尔·卡森的同名著作，指的是面对自然的神秘与奇妙，仍然能够感到惊叹的心。我们希望通过宝可梦，让大家重新找回这种在日常生活中逐渐淡去的感受，这是项目的一个重要目标。
 - original: それこそ、『ポケットモンスター』シリーズの原点でもある昆虫採集のようなワクワク感を思い出してもらおうということですね。
   role: question
   speaker: ファミ通
@@ -348,6 +368,9 @@ parallel_items:
   role: answer
   speaker: 本山敬一
   translation: 这也是我们的目标之一。比如寻找宝可梦时搬开岩石，结果发现里面有虫，吓一跳，这样的体验希望大家一定要试试。不过我家孩子肯定会吓得跑掉吧（笑）。
+- type: image
+  image: /assets/img/interviews/2021-07-17-interview-famitsu-2021-pokemon-wonder/source-y_60ee7602b9338.jpg
+  alt: Pokémon WONDER 原文体验照片与开发者肖像
 - original: RIDDLERさんはこれまでに自然の中でのアクティビティを手掛けたことはあったのですか？
   role: question
   speaker: ファミ通
@@ -417,19 +440,15 @@ parallel_items:
   speaker: 本山敬一
   translation: 我觉得宝可梦这一内容是一种非语言共通语言，相信它是能跨越国境、语言和世代的沟通工具。现在三十多岁、所谓宝可梦世代的人当中，应该也有人已经为人父母了。这样的人请务必亲子一起来玩。等孩子长大成人后，会回想起“那天真的很有趣”，我自认为打造出了这样一生难忘的体验。敬请期待。
 - original: 藤本氏がこう思ってほしいと最後にコメントしていた「自分が子どものころにこれがあったら絶対に行きたかった」という言葉は、記者が一字一句違わず胸に抱いた感想そのものだった。そのうえ体験後の道すがら、「あの茂みの中にポケモンいそうですよね（笑）」なんて妄想するどころか口に出しながら歩いていた。
-  role: answer
-  speaker: 本山敬一
+  role: commentary
+  speaker: 原文作者
   translation: 藤本先生在最后评论中希望人们这样想的那句“自己小时候如果有这个，绝对想去”，正是记者一字不差地抱有的感想。而且体验结束后走在路上时，记者不仅幻想“那片草丛里好像会有宝可梦呢（笑）”，甚至还说出了口。
 - original: 完全に思い通りになってしまっているが、何も悔しくないしむしろ感謝したいくらいだ。記者がいま抱いているネガティブな感情は、これを仕事で体験してしまったが故に、今後プライベートで100%楽しむことはできないことへの落胆だけだ。
-  role: answer
-  speaker: 本山敬一
+  role: commentary
+  speaker: 原文作者
   translation: 完全如其所愿了，但我一点也不懊恼，反而想表示感谢。记者现在抱有的负面情绪，只是因为以工作形式体验了它，导致今后私下无法100%享受的失落而已。
 - original: これまで仕事の都合で、ファンとしては知りたくなかった情報を事前に知ってしまうことは何度もあったが、これほどまでに仕事の記憶を消し去りたいと思ったことは初めてだ。あぁ……オーベムがいたら記憶を操作してもらえるのに……。
-  role: answer
-  speaker: 本山敬一
+  role: commentary
+  speaker: 原文作者
   translation: 以前因为工作关系，我多次在身为粉丝并不想知道的情况下提前得知了信息，但像这样强烈希望抹去工作记忆还是第一次。啊啊……要是大宇怪在的话，就能让它操纵记忆了……。
-- type: heading
-  level: 2
-  original: イベントの開催概要などはこちらの記事をチェック
-  translation: 活动举办概要等请查看这篇文章
 ---

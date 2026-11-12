@@ -65,8 +65,8 @@ parallel_items:
   alt: 石原恒和社长开场致辞
   caption: 株式会社宝可梦代表取缔役社长 石原恒和 开场致辞
 - type: narrative
-  original: 会の冒頭では、ポケモン 代表取締役社長の石原恒和氏が挨拶。「ポケットモンスター」シリーズのこれまでの歴史を振り返るとともに、現在もスマートフォン向けにサービス中の「Pokémon GO」の動向や、Nintendo Switch版「ポッ拳 POKKÉN TOURNAMENT DX」の好調ぶりをアピールした。
-  translation: 发布会伊始，株式会社宝可梦代表董事社长石原恒和登台致辞。他回顾了《宝可梦》系列的发展历程，同时介绍了目前仍在智能手机平台运营的《Pokémon GO》的动态，以及Nintendo Switch版《宝可梦拳 POKKÉN TOURNAMENT DX》的良好表现。
+  original: 会の冒頭では、ポケモン 代表取締役社長の石原恒和氏が挨拶。「ポケットモンスター」シリーズのこれまでの歴史を振り返るとともに、現在もスマートフォン向けにサービス中の「Pokémon GO」、プラットフォームとして大きなシェアを獲得している任天堂のNintendo Switchの話題に触れる。そして、今後の「ポケットモンスター」シリーズの展開について、Nintendo Switchならびにスマートフォン向けにさらなる進化を遂げると述べ、今回発表するタイトルのラインナップを以下のスライドにて紹介した。
+  translation: 发布会开场时，宝可梦公司代表董事社长石原恒和致辞。他回顾了《宝可梦》系列的发展历程，谈到当时仍在智能手机上运营的《Pokémon GO》，以及任天堂已获得较大市场份额的平台 Nintendo Switch。随后，他表示《宝可梦》系列将在 Nintendo Switch 和智能手机上进一步发展，并通过下方幻灯片介绍了本次发布的作品阵容。
 - type: image
   src: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/03_pokemon_history_slide.jpg
   alt: 宝可梦系列发展史回顾
@@ -93,8 +93,8 @@ parallel_items:
   image: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/002.jpg
   alt: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート_002
 - type: narrative
-  original: グラフィックデザイナー 松崎翼氏、プログラマー 斉田和生氏からはゲームを構成する要素が紹介された。物語の舞台となるのは、全部が“しかくい”世界に浮かぶカクコロ島。島に眠るお宝を見つけるため、プレイヤーはしかくいポケモン“ポクセル”たちとともに探検へと繰り出す。
-  translation: 图形设计师松崎翼与程序员齐田和生介绍了游戏的构成要素。故事舞台设定在一切皆“方形”的世界中漂浮的方可乐岛。为了寻找沉睡在岛上的宝藏，玩家将与方形宝可梦“方块宝可梦”一同踏上探险之旅。
+  original: グラフィックデザイナー 松崎翼氏、プログラマー 斉田和生氏からはゲームを構成する要素が紹介された。物語の舞台となるのは、全部が“しかくい”世界に浮かぶカクコロ島。探検の拠点であるベースキャンプでは、仲間になったポケモンをタップすることで鳴き声で応えて可愛く振り向いてくれるなどのコミュニケーションが楽しめるという。
+  translation: 图形设计师松崎翼和程序员齐田和生介绍了游戏的构成要素。故事发生在一切都是方形的世界里，舞台是其中的方可乐岛。在探险据点“大本营”，玩家可以点击成为伙伴的宝可梦，让它发出叫声、可爱地回过头来，享受这样的互动。
 - type: image
   image: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/003.jpg
   alt: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート_003
@@ -177,7 +177,7 @@ parallel_items:
   caption: GAME FREAK 增田顺一总监阐述将《Pokémon GO》投球体验与客厅同乐融入关都全新冒险
 - type: narrative
   original: まずは本作のディレクターを務める増田順一氏が、ボールを投げる遊びを取り入れた「Pokémon GO」の要素を、「ポケットモンスター」側に還元させるかたちで作ったと、「ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ」の開発経緯を語る。1998年にゲームボーイソフトとして発売された「ポケットモンスター ピカチュウ」に、「Pokémon GO」が持つ間口の広さ、そしてNintendo Switchならではの機能を活かすという新たな着想を得て作られたのが、本作というわけだ。
-  translation: 首先，担任本作总监的增田顺一讲述了《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的开发经过：本作是将《Pokémon GO》中投掷精灵球的玩法要素加以吸收，并回馈到《宝可梦》系列本身的形式制作而成。1998年作为Game Boy软件发售的《宝可梦 皮卡丘》，再加上《Pokémon GO》所具备的广泛受众基础，以及活用Nintendo Switch独有功能这一全新构想，最终促成了本作的诞生。
+  translation: 本作总监增田顺一首先介绍了《宝可梦 Let’s Go! 皮卡丘／Let’s Go! 伊布》的开发经过。他们把《Pokémon GO》中投球捕捉宝可梦的玩法带回《宝可梦》系列，以1998年在 Game Boy 发售的《宝可梦 皮卡丘》为基础，结合《Pokémon GO》容易上手的特点，再发挥 Nintendo Switch 的独有功能，由此制作出这款游戏。
 - type: image
   image: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/019.jpg
   alt: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート_019
@@ -227,8 +227,8 @@ parallel_items:
   translation: 此外，本作设定为仅使用单侧Joy-Con即可完成所有操作，通过分享手柄（Joy-Con“分享”游玩），两人能够一同在同一世界中冒险。不仅能在画面上看到两人共同行动的情景，捕捉宝可梦时，两人还能配合时机同时投掷精灵球，从而更易于捕捉宝可梦，也能协力挑战与训练家的对战。
 - type: image
   src: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/10_shinya_takahashi_pokeball_plus.jpg
-  alt: 任天堂高桥伸也介绍精灵魂＋
-  caption: 任天堂取缔役 常务执行役员 企划制作本部长 高桥伸也 登台介绍全新体感外设“精灵魂＋（Poké Ball Plus）”
+  alt: 任天堂高桥伸也介绍精灵球 Plus
+  caption: 任天堂取缔役 常务执行役员 企划制作本部长 高桥伸也 登台介绍全新体感外设“精灵球 Plus（Poké Ball Plus）”
 - type: image
   image: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/030.jpg
   alt: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート_030
@@ -270,8 +270,8 @@ parallel_items:
   original: そして3つ目の要素となる「Pokémon GO」との連動については、Nianticで同作のゲームディレクター/シニアプロダクトマネジャーを務める野村達雄氏から説明が行われた。
   translation: 接着，关于第三个要素——与《Pokémon GO》的联动，由在Niantic担任该游戏总监/高级产品经理的野村达雄进行了说明。
 - type: narrative
-  original: 今回の連動によってプラットフォームが異なるゲーム間の通信が実現するわけだが、現時点で明らかになったのは「Pokémon GO」で捕まえたカントー地方に登場するポケモンたちを「ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ」に連れてきて、一緒に冒険できるというもの。「Pokémon GO」の世界でも何かが起きる、さらなる連携機能も用意されているというだが、その詳細は続報にて明らかにしていくということだ。ジョン・ハンケ氏からのビデオメッセージも公開され、その中で今回の発表を記念して「ポケットモンスター サン・ムーン」からアローラナッシーが「Pokémon GO」に登場することも明らかにされた。
-  translation: 通过本次联动，不同平台间的游戏通信得以实现。目前已知的是，玩家可以将《Pokémon GO》中捕捉到的关都地区宝可梦带到《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》中，一同展开冒险。此外，据说《Pokémon GO》的世界中也将发生某些变化，更多联动功能正在筹备中，具体详情将在后续报道中揭晓。约翰·汉克也通过视频寄语公开了相关信息，其中宣布为纪念本次发布，阿罗拉椰蛋树将从《宝可梦 太阳·月亮》登场于《Pokémon GO》。
+  original: 今回の連動によってプラットフォームが異なるゲーム間の通信が実現するわけだが、現時点で明らかになったのは「Pokémon GO」で捕まえたカントー地方に登場するポケモンたちを「ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ」に連れてきて、一緒に冒険できるというもの。「Pokémon GO」の世界でも何かが起きる、さらなる連携機能も用意されているというだが、その詳細は続報にて明らかにしていくということだ。
+  translation: 此次联动实现了不同平台游戏之间的通信。当时已公布的是：玩家可以把在《Pokémon GO》中捕获的关都地区宝可梦带到《宝可梦 Let’s Go! 皮卡丘／Let’s Go! 伊布》中，一起冒险。此外，《Pokémon GO》的世界里也会发生一些事情，并准备了更多联动功能；详细内容将通过后续消息公布。
 - type: image
   image: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/038.jpg
   alt: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート_038

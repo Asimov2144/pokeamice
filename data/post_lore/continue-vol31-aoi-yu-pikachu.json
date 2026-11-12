@@ -2,7 +2,7 @@
  "id": "continue-vol31-aoi-yu-pikachu",
  "stem": "2006-11-01-continue-vol31-aoi-yu-pikachu",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -14,7 +14,7 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     3
+     5
     ],
     "as": [
      "妙蛙种子"
@@ -25,9 +25,9 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     0,
      2,
-     3
+     4,
+     5
     ],
     "as": [
      "皮卡丘"
@@ -35,26 +35,26 @@
     "via": "tag"
    },
    {
-    "name": "快龙",
-    "ndex": 149,
-    "seg": [
-     3
-    ],
-    "as": [
-     "快龙"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "伽勒尔喵喵",
+    "name": "喵喵",
     "ndex": 52,
     "seg": [
-     3
+     5
     ],
     "as": [
      "喵喵"
     ],
-    "via": "llm"
+    "via": "body"
+   },
+   {
+    "name": "快龙",
+    "ndex": 149,
+    "seg": [
+     5
+    ],
+    "as": [
+     "快龙"
+    ],
+    "via": "body"
    }
   ],
   "works": [
@@ -62,7 +62,7 @@
     "name": "宝可梦",
     "slug": null,
     "seg": [
-     3
+     5
     ],
     "via": "llm"
    },
@@ -70,7 +70,7 @@
     "name": "能说出宝可梦吗？",
     "slug": null,
     "seg": [
-     3
+     5
     ],
     "via": "llm"
    },
@@ -78,7 +78,7 @@
     "name": "宝可梦 钻石／珍珠",
     "slug": null,
     "seg": [
-     4
+     6
     ],
     "via": "llm"
    },
@@ -86,7 +86,7 @@
     "name": "蜂蜜与四叶草",
     "slug": null,
     "seg": [
-     4
+     6
     ],
     "via": "llm"
    },
@@ -94,7 +94,7 @@
     "name": "扶桑花女孩",
     "slug": null,
     "seg": [
-     4
+     6
     ],
     "via": "llm"
    },
@@ -102,7 +102,7 @@
     "name": "虫师",
     "slug": null,
     "seg": [
-     4
+     6
     ],
     "via": "llm"
    }
@@ -113,7 +113,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     0
+     2
     ],
     "via": "llm"
    },
@@ -122,7 +122,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     1
+     3
     ],
     "via": "llm"
    },
@@ -131,7 +131,7 @@
     "slug": "inuyama-inuko",
     "role": "mentioned",
     "seg": [
-     3
+     5
     ],
     "via": "llm"
    }
@@ -145,7 +145,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     4
+     6
     ],
     "what": "苍井优出生地",
     "via": "llm"
@@ -157,7 +157,7 @@
     "name": "测试与试玩",
     "facet": "process",
     "seg": [
-     3
+     5
     ],
     "as": [
      "试玩"
@@ -169,7 +169,7 @@
     "name": "配音",
     "facet": "audio",
     "seg": [
-     3
+     5
     ],
     "as": [
      "配音"
@@ -181,7 +181,7 @@
     "name": "宣传",
     "facet": "business",
     "seg": [
-     4
+     6
     ],
     "as": [
      "广告"
@@ -192,11 +192,11 @@
  },
  "observations": [
   {
-   "seg": 3,
+   "seg": 5,
    "text": "苍井优说哥哥以前玩得特别投入，还一直唱《能说出宝可梦吗？》"
   },
   {
-   "seg": 4,
+   "seg": 6,
    "text": "苍井优1985年8月17日出生，福冈县人，出演《宝可梦 钻石／珍珠》电视广告"
   }
  ],
@@ -206,7 +206,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

@@ -42,8 +42,8 @@
   ],
   "people": [
    {
-    "name": "T.K.",
-    "slug": "t-k",
+    "name": "T.K.（程序员特写）",
+    "slug": "gf-tk-programmer",
     "role": "speaker",
     "seg": [
      3,
@@ -278,7 +278,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

@@ -2,7 +2,7 @@
  "id": "scan-ndream-2010-04-creatures-ranger-interview",
  "stem": "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
  "rev": 1,
- "built": "2026-09-29",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -11,15 +11,18 @@
  "facets": {
   "pokemon": [
    {
-    "name": "ピチュー",
+    "name": "皮丘",
     "ndex": 172,
     "seg": [
      31,
      106,
-     108
+     107,
+     108,
+     110,
+     114
     ],
     "as": [
-     "ピチュー"
+     "皮丘"
     ],
     "via": "body"
    },
@@ -59,6 +62,19 @@
     "via": "body"
    },
    {
+    "name": "谢米",
+    "ndex": 492,
+    "seg": [
+     100,
+     210,
+     212
+    ],
+    "as": [
+     "谢米"
+    ],
+    "via": "body"
+   },
+   {
     "name": "轻飘飘",
     "ndex": 592,
     "seg": [
@@ -68,17 +84,6 @@
      "轻飘飘"
     ],
     "via": "body"
-   },
-   {
-    "name": "谢米",
-    "ndex": 492,
-    "seg": [
-     210
-    ],
-    "as": [
-     "谢米"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
@@ -99,7 +104,7 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦巡护员 巴特那吉",
+    "name": "宝可梦巡护员 风涌篇",
     "slug": null,
     "seg": [
      3
@@ -188,7 +193,7 @@
   ],
   "places": [
    {
-    "name": "奥布利比亚地区",
+    "name": "奥卜利比亚地区",
     "id": null,
     "entity": null,
     "category": null,
@@ -223,8 +228,7 @@
      6,
      21,
      54,
-     62,
-     76
+     62
     ],
     "as": [
      "世界观"
@@ -238,7 +242,7 @@
     "seg": [
      11,
      70,
-     216
+     217
     ],
     "as": [
      "监修"
@@ -252,7 +256,6 @@
     "seg": [
      21,
      45,
-     214,
      215
     ],
     "as": [
@@ -315,6 +318,18 @@
     "via": "body"
    },
    {
+    "id": "testing",
+    "name": "测试与试玩",
+    "facet": "process",
+    "seg": [
+     39
+    ],
+    "as": [
+     "试玩"
+    ],
+    "via": "body"
+   },
+   {
     "id": "difficulty",
     "name": "难易度",
     "facet": "system",
@@ -325,6 +340,18 @@
     ],
     "as": [
      "难度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     45
+    ],
+    "as": [
+     "推翻"
     ],
     "via": "body"
    },
@@ -341,6 +368,20 @@
     "via": "body"
    },
    {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     60,
+     214
+    ],
+    "as": [
+     "继承",
+     "前作的"
+    ],
+    "via": "body"
+   },
+   {
     "id": "scenario",
     "name": "剧本",
     "facet": "story",
@@ -348,11 +389,11 @@
      60,
      61,
      69,
-     85,
-     108
+     85
     ],
     "as": [
-     "剧本"
+     "剧本",
+     "编剧"
     ],
     "via": "body"
    },
@@ -361,6 +402,7 @@
     "name": "对手与反派",
     "facet": "story",
     "seg": [
+     79,
      80,
      82,
      83,
@@ -369,6 +411,18 @@
     ],
     "as": [
      "反派"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     84
+    ],
+    "as": [
+     "分工"
     ],
     "via": "body"
    },
@@ -433,21 +487,6 @@
     "via": "body"
    },
    {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     155,
-     179,
-     181,
-     210
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
     "id": "screen-look",
     "name": "画面表现",
     "facet": "art",
@@ -488,6 +527,20 @@
     "via": "body"
    },
    {
+    "id": "main-story",
+    "name": "主线流程",
+    "facet": "system",
+    "seg": [
+     179,
+     181,
+     210
+    ],
+    "as": [
+     "通关"
+    ],
+    "via": "body"
+   },
+   {
     "id": "team-size",
     "name": "团队规模",
     "facet": "process",
@@ -505,7 +558,7 @@
     "facet": "design",
     "seg": [
      180,
-     213
+     214
     ],
     "as": [
      "易上手"
@@ -541,6 +594,7 @@
     "name": "联动",
     "facet": "business",
     "seg": [
+     208,
      210
     ],
     "as": [
@@ -565,22 +619,10 @@
     "name": "通信线缆",
     "facet": "tech",
     "seg": [
-     213
+     214
     ],
     "as": [
      "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     213
-    ],
-    "as": [
-     "前作的"
     ],
     "via": "body"
    },
@@ -613,7 +655,7 @@
   },
   {
    "seg": 108,
-   "text": "《巴特那吉》有17种搭档宝可梦，可从中选一只同行"
+   "text": "《风涌篇》有17种搭档宝可梦，可从中选一只同行"
   }
  ],
  "relations": [],
@@ -621,7 +663,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

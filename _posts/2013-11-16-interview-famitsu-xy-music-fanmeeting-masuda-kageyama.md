@@ -57,22 +57,37 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/fami_xy_01.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_01
-  caption: ▲午前10時30分に抽選券が配布され、運がよかった計150名（各回50名）がファンミーティングに参加できた。
+  caption: 上午10点30分开始发放抽签券，150名幸运观众得以参加交流会，每场50人。
+  caption_original: ▲午前10時30分に抽選券が配布され、運がよかった計150名（各回50名）がファンミーティングに参加できた。
+- type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527c334c9.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/fami_xy_03.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_06
-  caption: ▲熱心なファンが会場に駆け付けた
+  caption: 热情的粉丝赶到会场。
+  caption_original: ▲熱心なファンが会場に駆け付けた
+- type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527cc8f42.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/fami_xy_05.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_03
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/001.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_18
-  caption: 増田順一氏（ゲームフリーク・ディレクター） 『ポケットモンスター Ｘ・Ｙ』ディレクター 株式会社ゲームフリーク創立メンバーの一員として、これまでの『ポケットモンスター』シリーズ全作品の開発に携わってきた。職務内容はディレクションを中心に、ゲームデザイン、作曲、シナリオ創作など、多岐に渡る。
+  caption: 增田顺一（GAME FREAK 总监）担任《宝可梦 X／Y》总监。作为 GAME FREAK 创立成员，他参与了此前全部《宝可梦》系列作品的开发，工作涵盖指导、游戏设计、作曲和剧情创作等。
+  caption_original: 増田順一氏（ゲームフリーク・ディレクター） 『ポケットモンスター Ｘ・Ｙ』ディレクター 株式会社ゲームフリーク創立メンバーの一員として、これまでの『ポケットモンスター』シリーズ全作品の開発に携わってきた。職務内容はディレクションを中心に、ゲームデザイン、作曲、シナリオ創作など、多岐に渡る。
+- type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527ca31cb.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
 - type: dialogue
   speaker: 增田顺一
   original: トークショウは、掲げられたテーマに沿って行われ、まずは『ポケットモンスター Ｘ・Ｙ』発売から1ヵ月経った心境やフェアリータイプが新たに加わったことの経緯などが明かされた。フェアリータイプが加わったことに関しては、これまで開催されたゲーム大会を見てきた増田氏が、バトルのバランスが崩れかけてきていると感じ、そのバランスを取る意味でフェアリータイプの追加を決断したという。結果はどうだったと言うと「来年の日本大会、そして世界大会の戦いを見て、そこでゲームバランスがうまく取れていたかどうかがわかると思いますので、楽しみにしています」（増田氏）。続いては今回のメインと言える音楽の話題に。ご存知の読者も多いだろうが、増田氏はいまでこそディレクターだが、『ポケモン』シリーズ初期からサウンド面を担当していた、いわば『ポケモン』音楽の生みの親。その増田氏は『ポケモン』サウンドでこだわっている点として、ある程度のわかりやすさ、たとえば、ゲーム序盤のフィールドに出たときのウキウキ感から後半のドキドキ感が感じられるような作りを心がけたという。また、ポケモンが出てこない町では明るめの音楽、フィールドでは勇ましい音楽、などという違いもハッキリ感じられる音楽も意識したとのこと。一方の景山氏は、口ずさめるような覚えやすいメロディーがこだわったポイント。
-  translation: 谈话秀按照既定主题展开，首先增田先生谈及了《宝可梦 Ｘ・Ｙ》发售一个月后的心境，以及新增妖精属性的来龙去脉。关于妖精属性的加入，增田先生表示，他在观看历届游戏大赛时，感觉到对战平衡性有失衡的倾向，为了调整平衡，他决定加入妖精属性。至于结果如何，增田先生说：“通过明年的日本大赛以及世界大赛的对战，我们就能看出游戏平衡是否调整得当，我对此充满期待。”接着，话题转向了本次活动的核心——音乐。想必许多读者都知道，增田先生如今虽身为董事，但从《宝可梦》系列初期起便负责音乐制作，可以说是《宝可梦》音乐的缔造者。增田先生表示，他在《宝可梦》音乐中注重的要点是“某种程度的易懂性”，例如，要让玩家在游戏初期踏上原野时感受到雀跃，而在后期则能体会到紧张感。此外，他还意识到要创作出能让人清晰分辨出“没有宝可梦出现的城镇用明快音乐，原野则用雄壮音乐”等差异的乐曲。另一方面，景山先生注重的则是“能让人随口哼唱、容易记住的旋律”。
+  translation: '座谈会围绕事先确定的主题展开，首先谈到《宝可梦 X／Y》发售一个月后的感受，以及为什么要加入妖精属性。增田表示，在观看此前的游戏比赛时，他觉得对战平衡逐渐出现了问题，因此决定加入妖精属性来调整。至于效果如何，他说：“等看到明年的日本大赛和世界大赛，就知道平衡调整得怎么样了。我很期待。”
+
+
+    接着，话题转向本次活动的重点——音乐。许多读者或许知道，增田如今虽然担任游戏总监，但从《宝可梦》系列初期就负责声音工作，可以说是系列音乐的开创者。他希望音乐能够清楚地传达感受，比如前期走上地图时的雀跃，以及后期冒险时的紧张。音乐也会随着场景变化：没有野生宝可梦出现的城镇用明快的曲调，野外则用更有气势的音乐，让玩家能够明确听出区别。景山则特别看重旋律是否好记，能否让人随口哼唱。'
   note: 妖精属性是第六世代新增属性，用于平衡龙、格斗等属性的强势。
   role: answer
 - type: dialogue
@@ -84,11 +99,19 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/002.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_10
-  caption: ▲会場に入りきれないファンも多数。
+  caption: 还有许多粉丝未能进入会场。
+  caption_original: ▲会場に入りきれないファンも多数。
+- type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527e07d3e.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/003.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_07
-  caption: ▲設定資料も公開された。ゲーム制作の場合、音楽作りの前にゲーム画面が完成していることはあまりなく、どんな音楽にしたらいいかイメージを膨らませられる設定資料は、かなり重要だという。
+  caption: 现场公开了设定资料。游戏画面往往尚未完成，音乐制作就已开始，因此这些帮助作曲者想象音乐风格的资料十分重要。
+  caption_original: ▲設定資料も公開された。ゲーム制作の場合、音楽作りの前にゲーム画面が完成していることはあまりなく、どんな音楽にしたらいいかイメージを膨らませられる設定資料は、かなり重要だという。
+- type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527d88bcd.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/004.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_09
@@ -96,8 +119,14 @@ parallel_items:
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/005.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_15
 - type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527ebf2bd.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
+- type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/006.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_16
+- type: image
+  image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/source-l_5287527f5a17a.jpg
+  alt: 《宝可梦 X／Y》音乐交流会现场及展示资料
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/007.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_19
@@ -118,5 +147,6 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/009.jpg
   alt: 『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催_13
-  caption: ▲知らない者どうしが、この時代に、このゲームのファンであることで、イベントに集まって出会えた奇跡を記念し、写真撮影。
+  caption: 为了纪念原本互不相识的人因为同一时代、同一款游戏相聚，现场拍摄了合照。
+  caption_original: ▲知らない者どうしが、この時代に、このゲームのファンであることで、イベントに集まって出会えた奇跡を記念し、写真撮影。
 ---

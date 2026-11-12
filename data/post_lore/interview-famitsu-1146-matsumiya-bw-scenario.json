@@ -31,21 +31,8 @@
   ],
   "people": [
    {
-    "name": "週刊ファミ通",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     1,
-     3,
-     5,
-     7,
-     9,
-     11
-    ]
-   },
-   {
     "name": "松宫稔展",
-    "slug": null,
+    "slug": "song-gong-ren-zhan",
     "role": "speaker",
     "seg": [
      2,
@@ -69,7 +56,11 @@
     "slug": "n",
     "role": "mentioned",
     "seg": [
-     3
+     3,
+     4,
+     5,
+     13,
+     14
     ],
     "via": "llm",
     "kind": "character"
@@ -191,27 +182,28 @@
  ],
  "relations": [
   {
-   "id": "interview-famitsu-1138-masuda-bw-secrets",
+   "id": "scan-famitsu-1138-bw-secrets-interview",
    "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "週刊Fami通 No.1138 独家专访总监增田顺一：“让大人重新体验‘踢罐子’的惊喜”——打破宝可梦毕业现象、156只全新精灵、与神秘少年N专属超高速台词系统",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1138-masuda-bw-secrets/",
-   "why": "增田谈N构想与BW主题，本篇松宫续谈N思想原点"
+   "label": "相关资料",
+   "title": "週刊ファミ通 2010：增田顺一谈《宝可梦 黑·白》开发秘话（前篇）",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1138-bw-secrets-interview/",
+   "why": "《Fami通》1138号增田顺一访谈，提供《黑·白》开发背景。"
   },
   {
-   "id": "interview-famitsu-1137-ishihara-masuda-bw-launch",
+   "id": "scan-famitsu-1137-bw-launch-interview",
    "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "週刊Fami通 No.1137 发售特别专访石原恒和 × 增田顺一：“为什么我们拒绝等待新掌机，而要在NDS上挑战开发极限”——《宝可梦 黑／白》156只全新宝可梦、PGL日常生态与合众网络战略",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1137-ishihara-masuda-bw-launch/",
-   "why": "石原增田谈BW完全新作与156只，本篇剧本访谈背景"
+   "label": "相关资料",
+   "title": "週刊ファミ通 2010：石原恒和谈《宝可梦 黑·白》",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1137-bw-launch-interview/",
+   "why": "《Fami通》1137号石原恒和访谈，提供《黑·白》发售背景。"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

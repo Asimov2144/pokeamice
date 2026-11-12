@@ -15,6 +15,8 @@ tags:
 publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pg-dn/
 source_url: https://web.archive.org/web/20191211213057/https://www.gamefreak.co.jp/recruit/interview-pg-dn/
+# Original endpoint returned 404 on 2026-11-11; this saved snapshot returned 200.
+preferred_source_url: https://web.archive.org/web/20191211213057/https://www.gamefreak.co.jp/recruit/interview-pg-dn/
 source:
   title: プログラマ社員紹介｜採用情報
   url: https://www.gamefreak.co.jp/recruit/interview-pg-dn/

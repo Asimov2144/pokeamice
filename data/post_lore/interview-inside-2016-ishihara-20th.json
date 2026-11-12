@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 81
+  "n": 79
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "妙蛙种子",
     "ndex": 1,
     "seg": [
-     41
+     40
     ],
     "as": [
      "妙蛙种子",
@@ -26,7 +26,7 @@
     "name": "小火龙",
     "ndex": 4,
     "seg": [
-     41
+     40
     ],
     "as": [
      "小火龙",
@@ -39,7 +39,7 @@
     "ndex": 6,
     "seg": [
      22,
-     65
+     63
     ],
     "as": [
      "喷火龙"
@@ -61,7 +61,7 @@
     "name": "阿柏蛇",
     "ndex": 23,
     "seg": [
-     41
+     40
     ],
     "as": [
      "阿柏蛇",
@@ -73,9 +73,9 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
+     39,
      40,
-     41,
-     43
+     42
     ],
     "as": [
      "皮卡丘"
@@ -86,7 +86,7 @@
     "name": "大葱鸭",
     "ndex": 83,
     "seg": [
-     57
+     55
     ],
     "as": [
      "大葱鸭"
@@ -97,7 +97,7 @@
     "name": "伽勒尔喵喵",
     "ndex": 52,
     "seg": [
-     57
+     55
     ],
     "as": [
      "喵喵"
@@ -126,7 +126,7 @@
      9,
      10,
      26,
-     30
+     29
     ],
     "via": "entities"
    },
@@ -154,7 +154,7 @@
     "name": "宝可梦 金·银",
     "slug": "gold-silver",
     "seg": [
-     30
+     29
     ],
     "via": "llm"
    },
@@ -162,7 +162,7 @@
     "name": "Pokemon GO",
     "slug": null,
     "seg": [
-     58
+     56
     ],
     "via": "llm"
    },
@@ -170,7 +170,7 @@
     "name": "宝可拳",
     "slug": null,
     "seg": [
-     53
+     51
     ],
     "via": "llm"
    },
@@ -178,7 +178,7 @@
     "name": "铁拳",
     "slug": null,
     "seg": [
-     53
+     51
     ],
     "via": "llm"
    },
@@ -259,7 +259,7 @@
     "slug": "yamauchi-hiroshi",
     "role": "mentioned",
     "seg": [
-     30
+     29
     ],
     "via": "llm",
     "kind": "staff"
@@ -269,7 +269,7 @@
     "slug": "iwata-satoru",
     "role": "mentioned",
     "seg": [
-     30
+     29
     ],
     "via": "llm"
    },
@@ -278,7 +278,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     64
+     62
     ],
     "via": "llm"
    },
@@ -287,7 +287,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     64
+     62
     ],
     "via": "llm"
    }
@@ -357,7 +357,7 @@
      0,
      18,
      24,
-     57
+     55
     ],
     "as": [
      "交换宝可梦",
@@ -408,7 +408,7 @@
     "facet": "franchise",
     "seg": [
      6,
-     45
+     44
     ],
     "as": [
      "卡牌游戏"
@@ -447,7 +447,7 @@
     "facet": "process",
     "seg": [
      19,
-     54
+     52
     ],
     "as": [
      "完成度",
@@ -473,7 +473,7 @@
     "facet": "business",
     "seg": [
      26,
-     52
+     50
     ],
     "as": [
      "玩具",
@@ -498,7 +498,7 @@
     "name": "本地化",
     "facet": "business",
     "seg": [
-     30
+     29
     ],
     "as": [
      "本地化"
@@ -510,7 +510,7 @@
     "name": "海外发行",
     "facet": "business",
     "seg": [
-     30
+     29
     ],
     "as": [
      "海外版"
@@ -522,7 +522,7 @@
     "name": "续作",
     "facet": "process",
     "seg": [
-     30
+     29
     ],
     "as": [
      "续作"
@@ -534,7 +534,7 @@
     "name": "命名",
     "facet": "design",
     "seg": [
-     39
+     38
     ],
     "as": [
      "命名"
@@ -546,7 +546,7 @@
     "name": "难易度",
     "facet": "system",
     "seg": [
-     42
+     41
     ],
     "as": [
      "难度"
@@ -558,7 +558,7 @@
     "name": "配音",
     "facet": "audio",
     "seg": [
-     42
+     41
     ],
     "as": [
      "配音"
@@ -570,7 +570,7 @@
     "name": "随机与运气",
     "facet": "system",
     "seg": [
-     45
+     44
     ],
     "as": [
      "运气"
@@ -582,7 +582,7 @@
     "name": "竞技与官方大赛",
     "facet": "system",
     "seg": [
-     46
+     45
     ],
     "as": [
      "世界锦标赛"
@@ -594,7 +594,7 @@
     "name": "自然与昆虫采集",
     "facet": "design",
     "seg": [
-     48
+     47
     ],
     "as": [
      "昆虫"
@@ -606,8 +606,8 @@
     "name": "人与人的连接",
     "facet": "design",
     "seg": [
-     57,
-     69
+     55,
+     67
     ],
     "as": [
      "连接起来"
@@ -619,7 +619,7 @@
     "name": "手机应用",
     "facet": "franchise",
     "seg": [
-     59
+     57
     ],
     "as": [
      "智能手机"
@@ -631,8 +631,8 @@
     "name": "宣传",
     "facet": "business",
     "seg": [
-     64,
-     67
+     62,
+     65
     ],
     "as": [
      "广告"
@@ -644,7 +644,7 @@
     "name": "怀旧",
     "facet": "audience",
     "seg": [
-     65
+     63
     ],
     "as": [
      "小时候玩"
@@ -656,7 +656,7 @@
     "name": "配色",
     "facet": "art",
     "seg": [
-     74
+     72
     ],
     "as": [
      "色彩"
@@ -700,7 +700,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

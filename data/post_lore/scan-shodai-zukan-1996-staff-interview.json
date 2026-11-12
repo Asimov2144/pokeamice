@@ -2,7 +2,7 @@
  "id": "scan-shodai-zukan-1996-staff-interview",
  "stem": "1996-04-05-scan-shodai-zukan-1996-staff-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -40,6 +40,17 @@
     ],
     "as": [
      "尼多兰"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "胖丁",
+    "ndex": 39,
+    "seg": [
+     83
+    ],
+    "as": [
+     "胖丁"
     ],
     "via": "body"
    },
@@ -119,17 +130,6 @@
      "卡比兽"
     ],
     "via": "body"
-   },
-   {
-    "name": "胖丁",
-    "ndex": 39,
-    "seg": [
-     83
-    ],
-    "as": [
-     "胖丁"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
@@ -305,6 +305,33 @@
     "via": "body"
    },
    {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     13
+    ],
+    "as": [
+     "美术设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     13,
+     20,
+     24,
+     46
+    ],
+    "as": [
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
     "id": "composing",
     "name": "作曲",
     "facet": "audio",
@@ -314,6 +341,20 @@
     ],
     "as": [
      "作曲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "data-management",
+    "name": "数据与存档",
+    "facet": "tech",
+    "seg": [
+     13,
+     55,
+     90
+    ],
+    "as": [
+     "数据管理"
     ],
     "via": "body"
    },
@@ -345,20 +386,6 @@
     "via": "body"
    },
    {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     20,
-     24,
-     46
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
     "id": "cry-design",
     "name": "叫声",
     "facet": "design",
@@ -381,6 +408,18 @@
     ],
     "as": [
      "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     23
+    ],
+    "as": [
+     "新鲜感"
     ],
     "via": "body"
    },
@@ -468,51 +507,11 @@
     "name": "程序实现",
     "facet": "tech",
     "seg": [
-     47
+     47,
+     49
     ],
     "as": [
      "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     55,
-     90
-    ],
-    "as": [
-     "数据管理"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     70
-    ],
-    "as": [
-     "通信线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     70,
-     72,
-     108,
-     111,
-     119
-    ],
-    "as": [
-     "培育"
     ],
     "via": "body"
    },
@@ -529,17 +528,28 @@
     "via": "body"
    },
    {
-    "id": "trade",
-    "name": "通信交换",
+    "id": "raising",
+    "name": "培育",
     "facet": "system",
     "seg": [
-     74,
-     77,
-     98
+     72,
+     111,
+     119
     ],
     "as": [
-     "交换宝可梦",
-     "通信交换"
+     "培育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     74
+    ],
+    "as": [
+     "开发初期"
     ],
     "via": "body"
    },
@@ -564,7 +574,45 @@
      77
     ],
     "as": [
-     "容易理解"
+     "简单易懂"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "theme",
+    "name": "作品主题",
+    "facet": "story",
+    "seg": [
+     77
+    ],
+    "as": [
+     "想表达"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     77,
+     98
+    ],
+    "as": [
+     "交换宝可梦",
+     "通信交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     80
+    ],
+    "as": [
+     "取名"
     ],
     "via": "body"
    },
@@ -588,7 +636,7 @@
      80
     ],
     "as": [
-     "测试"
+     "试玩"
     ],
     "via": "body"
    },
@@ -698,7 +746,8 @@
     "seg": [
      117,
      118,
-     121
+     121,
+     122
     ],
     "as": [
      "宝可梦图鉴",
@@ -719,6 +768,18 @@
     "via": "body"
    },
    {
+    "id": "mentoring",
+    "name": "带人与培养",
+    "facet": "team",
+    "seg": [
+     132
+    ],
+    "as": [
+     "指导"
+    ],
+    "via": "body"
+   },
+   {
     "id": "illustration",
     "name": "插画与设定图",
     "facet": "art",
@@ -730,6 +791,16 @@
      "插画"
     ],
     "via": "body"
+   },
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [],
+    "as": [
+     "通信功能"
+    ],
+    "via": "tag"
    },
    {
     "id": "guides",
@@ -776,7 +847,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

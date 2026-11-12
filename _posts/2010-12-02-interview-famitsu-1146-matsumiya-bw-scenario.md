@@ -34,9 +34,11 @@ original_link: https://w.atwiki.jp/bwhuman2/pages/16.html#id_88bbce1a
 entities:
   people:
   - 松宫稔展
-  - 增田顺一
   works:
   - 宝可梦 黑·白
+mentions:
+  people:
+  - 增田顺一
 summary: 《週刊Fami通》No.1146刊载的《宝可梦 黑／白》剧本负责人松宫稔展采访。松宫谈了“解放宝可梦”这一主题的由来、N的构想早于主题（由增田顺一提出）、“当两方的主张看起来都对的时候，人会相信什么”，以及黑连与白露这两位青梅竹马的作用。
 dek: Game Freak剧本负责人松宫稔展回答《Fami通》：为什么要做“解放宝可梦”，为什么不写善恶分明的故事。
 topics:

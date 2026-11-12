@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 73
+  "n": 75
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "阿柏蛇",
     "ndex": 23,
     "seg": [
-     68
+     70
     ],
     "as": [
      "阿柏蛇"
@@ -25,9 +25,9 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     16,
-     18,
-     28
+     29,
+     34,
+     44
     ],
     "as": [
      "皮卡丘"
@@ -38,7 +38,7 @@
     "name": "伦琴猫",
     "ndex": 405,
     "seg": [
-     68
+     70
     ],
     "as": [
      "伦琴猫"
@@ -49,7 +49,7 @@
     "name": "ミツハニー",
     "ndex": 415,
     "seg": [
-     21
+     37
     ],
     "as": [
      "ミツハニー"
@@ -60,7 +60,7 @@
     "name": "ミカルゲ",
     "ndex": 442,
     "seg": [
-     21
+     37
     ],
     "as": [
      "ミカルゲ"
@@ -71,12 +71,12 @@
     "name": "阿尔宙斯",
     "ndex": 493,
     "seg": [
-     1,
-     7,
-     10,
-     14,
-     18,
-     23
+     0,
+     6,
+     12,
+     25,
+     34,
+     39
     ],
     "as": [
      "阿尔宙斯"
@@ -87,7 +87,7 @@
     "name": "润水鸭",
     "ndex": 912,
     "seg": [
-     28
+     44
     ],
     "as": [
      "润水鸭"
@@ -98,7 +98,7 @@
     "name": "密勒顿",
     "ndex": 1008,
     "seg": [
-     28
+     44
     ],
     "as": [
      "密勒顿"
@@ -111,7 +111,7 @@
     "name": "宝可梦传说 阿尔宙斯",
     "slug": "legends-arceus",
     "seg": [
-     7
+     6
     ],
     "via": "entities"
    },
@@ -119,8 +119,7 @@
     "name": "宝可梦 朱·紫",
     "slug": "scarlet-violet",
     "seg": [
-     2,
-     7
+     6
     ],
     "via": "entities"
    },
@@ -136,92 +135,31 @@
     "name": "宝可梦 红·绿",
     "slug": "red-green",
     "seg": [
-     9
+     10
     ],
     "via": "llm"
    }
   ],
   "people": [
    {
-    "name": "解说",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     0,
-     1,
-     2,
-     5,
-     7,
-     8
-    ]
-   },
-   {
-    "name": "前座晃宏",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     4,
-     6
-    ]
-   },
-   {
     "name": "前泽圭一",
-    "slug": "maezawa-keiichi",
+    "slug": null,
     "role": "mentioned",
     "seg": [
-     6
+     2,
+     5
     ],
-    "via": "llm"
+    "via": "source"
    }
   ],
-  "places": [
-   {
-    "name": "帕鲁迪亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "《朱／紫》舞台",
-    "via": "llm"
-   },
-   {
-    "name": "帕底亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     2
-    ],
-    "what": "《朱·紫》舞台",
-    "via": "llm"
-   }
-  ],
+  "places": [],
   "concepts": [
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     0
-    ],
-    "as": [
-     "动作设计"
-    ],
-    "via": "body"
-   },
    {
     "id": "open-world",
     "name": "开放世界",
     "facet": "system",
     "seg": [
-     0,
-     10
+     12
     ],
     "as": [
      "开放世界"
@@ -233,8 +171,7 @@
     "name": "3D 与建模",
     "facet": "tech",
     "seg": [
-     0,
-     13
+     22
     ],
     "as": [
      "建模",
@@ -247,7 +184,7 @@
     "name": "世代与代际",
     "facet": "franchise",
     "seg": [
-     9
+     10
     ],
     "as": [
      "初代"
@@ -259,8 +196,8 @@
     "name": "美术风格",
     "facet": "art",
     "seg": [
-     10,
-     23
+     12,
+     39
     ],
     "as": [
      "画风"
@@ -272,7 +209,7 @@
     "name": "设定统一",
     "facet": "franchise",
     "seg": [
-     14
+     25
     ],
     "as": [
      "统一设定"
@@ -284,7 +221,7 @@
     "name": "世界观设定",
     "facet": "design",
     "seg": [
-     16
+     29
     ],
     "as": [
      "世界观"
@@ -296,9 +233,9 @@
     "name": "完成度与打磨",
     "facet": "process",
     "seg": [
-     17,
-     71,
-     72
+     30,
+     73,
+     74
     ],
     "as": [
      "品质"
@@ -310,8 +247,8 @@
     "name": "配色",
     "facet": "art",
     "seg": [
-     18,
-     23
+     34,
+     39
     ],
     "as": [
      "色彩"
@@ -322,14 +259,14 @@
  },
  "observations": [
   {
-   "seg": 9,
+   "seg": 10,
    "text": "从初代《红·绿》到《剑·盾》，宝可梦模型总数已超过1000种。",
-   "anchor": 10
+   "anchor": 11
   },
   {
-   "seg": 28,
+   "seg": 44,
    "text": "《朱／紫》后处理阶段，皮卡丘展现了宝可梦史上最蓬松的质感。",
-   "anchor": 29
+   "anchor": 45
   }
  ],
  "relations": [
@@ -355,7 +292,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

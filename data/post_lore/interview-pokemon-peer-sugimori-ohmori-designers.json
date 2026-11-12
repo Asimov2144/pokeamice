@@ -148,19 +148,6 @@
   ],
   "people": [
    {
-    "name": "提问",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     1,
-     9,
-     11,
-     14,
-     24,
-     32
-    ]
-   },
-   {
     "name": "杉森建",
     "slug": "sugimori-ken",
     "role": "speaker",
@@ -197,8 +184,8 @@
     ]
    },
    {
-    "name": "田上玲子",
-    "slug": null,
+    "name": "田上怜子",
+    "slug": "tian-shang-lian-zi",
     "role": "speaker",
     "seg": [
      8,
@@ -208,12 +195,6 @@
      30,
      34
     ]
-   },
-   {
-    "name": "田上怜子",
-    "slug": "tian-shang-lian-zi",
-    "role": "mentioned",
-    "seg": []
    },
    {
     "name": "增田顺一",
@@ -379,30 +360,6 @@
  ],
  "relations": [
   {
-   "id": "scan-ndream-2011-01-bw-design-secrets",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "宝可梦 黑·白 美术诞生秘闻",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/",
-   "why": "同为2010-11-20 Nintendo DREAM黑·白美术专访，均提17人"
-  },
-  {
-   "id": "interview-nintendodream-201-sugimori-bw-characters",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "杉森建谈《宝可梦 黑／白》角色设计",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/",
-   "why": "同为2010-11-20 Nintendo DREAM黑·白设计专访，杉森建谈设"
-  },
-  {
-   "id": "scan-ndream-2011-04-bw-design-secrets-part2",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦黑·白诞生秘话",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
-   "why": "Nintendo DREAM黑·白设计访谈续篇，同批人谈设计"
-  },
-  {
    "id": "interview-otonafami-sugimori-starters-victini",
    "kind": "background",
    "label": "为这篇提供背景",
@@ -416,7 +373,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

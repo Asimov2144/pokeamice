@@ -2,7 +2,7 @@
  "id": "scan-ndream-2008-12-game-freak-interview",
  "stem": "2008-10-21-scan-ndream-2008-12-game-freak-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -25,10 +25,22 @@
     "name": "超音蝠",
     "ndex": 41,
     "seg": [
-     106
+     95
     ],
     "as": [
      "超音蝠"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "伊布",
+    "ndex": 133,
+    "seg": [
+     12,
+     14
+    ],
+    "as": [
+     "伊布"
     ],
     "via": "body"
    },
@@ -47,8 +59,8 @@
     "name": "猫头夜鹰",
     "ndex": 164,
     "seg": [
-     107,
-     108
+     96,
+     97
     ],
     "as": [
      "猫头夜鹰"
@@ -82,9 +94,9 @@
     "name": "洛托姆",
     "ndex": 479,
     "seg": [
-     66,
+     65,
+     72,
      73,
-     74,
      84,
      85,
      86
@@ -99,10 +111,21 @@
     "name": "帝牙卢卡",
     "ndex": 483,
     "seg": [
-     62
+     60
     ],
     "as": [
      "帝牙卢卡"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "帕路奇亚",
+    "ndex": 484,
+    "seg": [
+     60
+    ],
+    "as": [
+     "帕路奇亚"
     ],
     "via": "body"
    },
@@ -112,8 +135,8 @@
     "seg": [
      52,
      53,
-     55,
-     58,
+     56,
+     57,
      59,
      61
     ],
@@ -123,26 +146,20 @@
     "via": "body"
    },
    {
-    "name": "伊布",
-    "ndex": 133,
-    "seg": [
-     12
-    ],
-    "as": [
-     "伊布"
-    ],
-    "via": "llm"
-   },
-   {
     "name": "谢米",
     "ndex": 492,
     "seg": [
-     54
+     54,
+     65,
+     66,
+     67,
+     69,
+     70
     ],
     "as": [
      "谢米"
     ],
-    "via": "llm"
+    "via": "body"
    }
   ],
   "works": [
@@ -213,8 +230,8 @@
      10,
      43,
      45,
-     62,
-     70
+     60,
+     69
     ]
    },
    {
@@ -317,7 +334,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     55
+     61
     ],
     "what": "骑拉帝纳栖息的世界",
     "via": "llm"
@@ -369,7 +386,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     91
+     98
     ],
     "what": "Wi-Fi游玩场所",
     "via": "llm"
@@ -382,7 +399,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     94
+     101
     ],
     "what": "展示数据的场所",
     "via": "llm"
@@ -461,7 +478,7 @@
      18
     ],
     "as": [
-     "集换式卡牌"
+     "宝可梦卡牌"
     ],
     "via": "body"
    },
@@ -507,23 +524,11 @@
     "facet": "design",
     "seg": [
      45,
-     92,
-     100
+     99,
+     107
     ],
     "as": [
      "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     46
-    ],
-    "as": [
-     "交流"
     ],
     "via": "body"
    },
@@ -536,6 +541,20 @@
     ],
     "as": [
      "道具"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
+    "seg": [
+     46,
+     99,
+     106
+    ],
+    "as": [
+     "一起玩"
     ],
     "via": "body"
    },
@@ -556,7 +575,8 @@
     "name": "通信交换",
     "facet": "system",
     "seg": [
-     48
+     48,
+     101
     ],
     "as": [
      "交换宝可梦"
@@ -580,22 +600,12 @@
     "name": "地图与关卡",
     "facet": "system",
     "seg": [
-     53
+     53,
+     67
     ],
     "as": [
-     "洞窟"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     54
-    ],
-    "as": [
-     "配信"
+     "洞窟",
+     "路线"
     ],
     "via": "body"
    },
@@ -604,9 +614,9 @@
     "name": "进化的设计",
     "facet": "design",
     "seg": [
-     66,
-     71,
-     73
+     65,
+     70,
+     72
     ],
     "as": [
      "形态变化"
@@ -618,7 +628,7 @@
     "name": "命名",
     "facet": "design",
     "seg": [
-     72
+     71
     ],
     "as": [
      "取名"
@@ -626,27 +636,14 @@
     "via": "body"
    },
    {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
     "seg": [
-     86
+     85
     ],
     "as": [
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     92,
-     99
-    ],
-    "as": [
-     "一起玩"
+     "美术设计"
     ],
     "via": "body"
    },
@@ -655,7 +652,7 @@
     "name": "宣传",
     "facet": "business",
     "seg": [
-     96
+     103
     ],
     "as": [
      "宣传"
@@ -667,7 +664,7 @@
     "name": "海外发行",
     "facet": "business",
     "seg": [
-     97
+     104
     ],
     "as": [
      "海外发售"
@@ -679,7 +676,7 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     98
+     105
     ],
     "as": [
      "剧本"
@@ -691,7 +688,7 @@
     "name": "无线与擦肩",
     "facet": "tech",
     "seg": [
-     99
+     106
     ],
     "as": [
      "无线通信"
@@ -741,7 +738,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

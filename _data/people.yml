@@ -734,6 +734,13 @@
   credits_key: shinichiro tomie
 - name: H.T.
   slug: h-t
+  kind: disambiguation
+  role: 来源限定身份索引；同一缩写不代表同一个人
+  disambiguation:
+  - gf-ht-planners-2015
+  - gf-ht-designer-2019
+  - gf-ht-programmer-2020
+  - gf-ht-system-crosstalk
 - name: 前泽圭一
   slug: maezawa-keiichi
   aliases:
@@ -1057,6 +1064,12 @@
   slug: k-m
 - name: T.K.
   slug: t-k
+  kind: disambiguation
+  role: 来源限定身份索引；同一缩写不代表同一个人
+  disambiguation:
+  - gf-tk-technical-artist
+  - gf-tk-programmer
+  - gf-tk-new-programmer-crosstalk
 - name: 北村一树
   slug: kitamura-kazuki
   aliases:
@@ -3471,7 +3484,6 @@
   aliases:
   - Haruka Tochigi
   - とちぎ はるか
-  - H.T.
   role: 《Pokémon LEGENDS Z-A》总监（原 CG 总监、3D 视觉部门总监）
   portraits:
   - image: /assets/img/people/tochigi-haruka-2021.jpg
@@ -5521,3 +5533,31 @@
   pinned: true
   aliases:
   - Jun Fukuda
+- name: H.T.（2015策划访谈）
+  slug: gf-ht-planners-2015
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2015-10-01-interview-gamefreak-recruit-planners
+- name: H.T.（2019设计师特写）
+  slug: gf-ht-designer-2019
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2021-12-27-interview-gamefreak-recruit-designer-ht
+- name: H.T.（2020程序员特写）
+  slug: gf-ht-programmer-2020
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2021-12-27-interview-gamefreak-recruit-programmer-ht
+- name: H.T.（系统程序员对谈）
+  slug: gf-ht-system-crosstalk
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
+- name: T.K.（技术美术特写）
+  slug: gf-tk-technical-artist
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2021-12-27-interview-gamefreak-recruit-ta-tk
+- name: T.K.（程序员特写）
+  slug: gf-tk-programmer
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2021-12-27-interview-gamefreak-recruit-programmer-tk
+- name: T.K.（新卒程序员对谈）
+  slug: gf-tk-new-programmer-crosstalk
+  role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
+  identity_scope: 2021-12-27-interview-gamefreak-crosstalk-new-programmer

@@ -316,6 +316,9 @@ parallel_items:
   role: question
   speaker: ファミ通
   translation: 本作则是从与这些要素完全不同的观点出发，思考“在人类消失后的世界里，如果长期悠闲地生活下去会变成什么样”，然后请GAME FREAK的设计师画了出来。
+- type: image
+  image: /assets/img/interviews/2026-02-16-interview-famitsu-2026-pokopia/source-a6f25826dca79aba240568053e57c48bf.jpg
+  alt: 《宝可梦 Pokopia》原文展示的宝可梦角色形象
 - original: モジャンボはずーっとひとりで考え事をしているうちに博士みたいになっていったんじゃないかなとか。ピカチュウはでんきを使い果たして色が薄くなってしまうかもしれないとか。これまでとはまったく異なる切り口でデザインを考えたことで、ポケモンの新たな可能性が広がったと感じています。
   role: answer
   speaker: 大森滋
@@ -585,7 +588,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 『ぽこ あ ポケモン』商品情報
-  translation: 《ぽこ あ ポケモン》商品信息
+  translation: 原文附记：商品信息
 - type: image
   image: /assets/img/interviews/2026-02-16-interview-famitsu-2026-pokopia/047-s.png
   alt: 【ぽこポケ】『ぽこ あ ポケモン』開発インタビュー。大森滋氏が『ポケットモンスター』開発時に“マップに草むらを置いた”経験から生まれた！ コーエーテクモゲームスと開発をともにした経緯、ボリューム、マルチプレイの仕様など超深堀り！
@@ -593,10 +596,4 @@ parallel_items:
   translation: 标题：《ぽこ あ ポケモン》
 - original: 企画開発 ：株式会社ポケモン、株式会社ゲームフリーク、株式会社コーエーテクモゲームス
   translation: 企划开发：株式会社宝可梦、株式会社GAME FREAK、株式会社光荣特库摩游戏
-- original: 『ぽこ あ ポケモン』を購入(Amazon)
-  translation: 购买《ぽこ あ ポケモン》（Amazon）
-- original: 『ぽこ あ ポケモン』を購入(楽天)
-  translation: 购买《ぽこ あ ポケモン》（乐天）
-- original: 前へ次へ
-  translation: 上一页 下一页
 ---

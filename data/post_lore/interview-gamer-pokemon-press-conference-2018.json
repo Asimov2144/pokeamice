@@ -30,7 +30,6 @@
     "name": "阿罗拉椰蛋树",
     "ndex": 103,
     "seg": [
-     67,
      77
     ],
     "as": [
@@ -59,7 +58,6 @@
      33,
      35,
      37,
-     67,
      73
     ],
     "via": "entities"
@@ -90,14 +88,6 @@
     "slug": "yellow",
     "seg": [],
     "via": "entities"
-   },
-   {
-    "name": "宝可梦拳 POKKÉN TOURNAMENT DX",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -173,14 +163,6 @@
      0,
      61,
      66
-    ]
-   },
-   {
-    "name": "约翰·汉克",
-    "slug": "john-hanke",
-    "role": "mentioned",
-    "seg": [
-     67
     ]
    }
   ],
@@ -274,18 +256,6 @@
     ],
     "as": [
      "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "舞台设定"
     ],
     "via": "body"
    },
@@ -507,7 +477,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

@@ -2,7 +2,7 @@
  "id": "scan-ndream-2009-11-sugimori-charakami-special",
  "stem": "2009-09-21-scan-ndream-2009-11-sugimori-charakami-special",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -39,6 +39,18 @@
     "via": "tag"
    },
    {
+    "name": "雷丘",
+    "ndex": 26,
+    "seg": [
+     15,
+     16
+    ],
+    "as": [
+     "雷丘"
+    ],
+    "via": "body"
+   },
+   {
     "name": "小磁怪",
     "ndex": 81,
     "seg": [
@@ -62,6 +74,18 @@
     "via": "body"
    },
    {
+    "name": "皮丘",
+    "ndex": 172,
+    "seg": [
+     15,
+     16
+    ],
+    "as": [
+     "皮丘"
+    ],
+    "via": "body"
+   },
+   {
     "name": "洛奇亚",
     "ndex": 249,
     "seg": [
@@ -69,6 +93,18 @@
     ],
     "as": [
      "洛奇亚"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "凤王",
+    "ndex": 250,
+    "seg": [
+     135,
+     137
+    ],
+    "as": [
+     "凤王"
     ],
     "via": "body"
    },
@@ -104,39 +140,6 @@
      "骑拉帝纳"
     ],
     "via": "body"
-   },
-   {
-    "name": "皮丘",
-    "ndex": 172,
-    "seg": [
-     15
-    ],
-    "as": [
-     "皮丘"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "阿罗拉雷丘",
-    "ndex": 26,
-    "seg": [
-     15
-    ],
-    "as": [
-     "雷丘"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "凤王",
-    "ndex": 250,
-    "seg": [
-     137
-    ],
-    "as": [
-     "凤王"
-    ],
-    "via": "llm"
    }
   ],
   "works": [
@@ -683,18 +686,6 @@
     "via": "body"
    },
    {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     64
-    ],
-    "as": [
-     "配信"
-    ],
-    "via": "body"
-   },
-   {
     "id": "multiplayer",
     "name": "多人同乐",
     "facet": "system",
@@ -803,6 +794,20 @@
     "via": "body"
    },
    {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     95,
+     103
+    ],
+    "as": [
+     "美术设计",
+     "画风"
+    ],
+    "via": "body"
+   },
+   {
     "id": "iteration",
     "name": "推翻重做",
     "facet": "process",
@@ -839,18 +844,6 @@
     ],
     "as": [
      "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     103
-    ],
-    "as": [
-     "画风"
     ],
     "via": "body"
    },
@@ -1005,7 +998,7 @@
  "observations": [
   {
    "seg": 15,
-   "text": "皮卡丘有皮丘和雷丘两种进化形，雄性尾巴末端呈棱角状，雌性带心形圆润感。"
+   "text": "皮卡丘的进化链包括皮丘和雷丘；雄性尾巴末端有棱角，雌性末端呈心形。"
   },
   {
    "seg": 100,
@@ -1035,7 +1028,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

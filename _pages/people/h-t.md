@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: person-disambiguation
 title: H.T.
 person: H.T.
 slug: h-t

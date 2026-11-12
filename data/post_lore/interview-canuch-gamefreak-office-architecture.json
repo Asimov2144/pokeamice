@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 51
+  "n": 53
  },
  "facets": {
   "pokemon": [],
@@ -15,7 +15,7 @@
     "name": "宝可梦 红·绿",
     "slug": "red-green",
     "seg": [
-     7
+     9
     ],
     "via": "entities"
    },
@@ -23,7 +23,7 @@
     "name": "宝可梦 红／绿",
     "slug": null,
     "seg": [
-     10
+     12
     ],
     "via": "llm"
    },
@@ -31,7 +31,7 @@
     "name": "宝可梦",
     "slug": null,
     "seg": [
-     3
+     5
     ],
     "via": "llm"
    }
@@ -42,47 +42,24 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     31
+     51
     ],
-    "via": "llm"
-   },
-   {
-    "name": "牧口英树",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     49
-    ],
-    "via": "llm"
+    "via": "source"
    }
   ],
   "places": [
    {
-    "name": "三轩茶屋",
-    "id": "carrot_tower",
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     1,
-     50
-    ],
-    "via": "extra",
-    "what": "GAME FREAK 胡萝卜塔所在"
-   },
-   {
-    "name": "Carrot Tower",
+    "name": "东京",
     "id": null,
     "entity": null,
     "category": null,
     "world": "real",
-    "scale": "spot",
+    "scale": "city",
     "seg": [
-     50
+     52
     ],
-    "what": "总部所在建筑",
-    "via": "llm"
+    "what": "项目所在地",
+    "via": "source"
    },
    {
     "name": "真新镇",
@@ -92,10 +69,10 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     4
+     12
     ],
-    "what": "大堂迎宾区主题",
-    "via": "llm"
+    "what": "白色会议室设计的例子",
+    "via": "source"
    },
    {
     "name": "常青森林",
@@ -105,59 +82,21 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     9
+     12
     ],
-    "what": "生机气息的参照地",
-    "via": "llm"
-   },
-   {
-    "name": "关都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     25
-    ],
-    "what": "会议室命名来源",
-    "via": "llm"
+    "what": "大堂设计主题",
+    "via": "source"
    }
   ],
   "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     1
-    ],
-    "as": [
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     1,
-     8
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
    {
     "id": "world-building",
     "name": "世界观设定",
     "facet": "design",
     "seg": [
-     2,
-     5,
-     29
+     4,
+     8,
+     31
     ],
     "as": [
      "世界观"
@@ -169,7 +108,7 @@
     "name": "手机应用",
     "facet": "franchise",
     "seg": [
-     3
+     5
     ],
     "as": [
      "智能手机"
@@ -181,25 +120,12 @@
     "name": "公司氛围",
     "facet": "team",
     "seg": [
-     3,
-     10,
-     29
+     5,
+     12,
+     31
     ],
     "as": [
      "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     4,
-     21
-    ],
-    "as": [
-     "初代"
     ],
     "via": "body"
    },
@@ -208,13 +134,12 @@
     "name": "配色",
     "facet": "art",
     "seg": [
-     10,
-     17,
-     21,
-     26
+     12,
+     23
     ],
     "as": [
-     "色彩"
+     "配色",
+     "颜色"
     ],
     "via": "body"
    },
@@ -223,7 +148,7 @@
     "name": "叫声",
     "facet": "design",
     "seg": [
-     10
+     12
     ],
     "as": [
      "叫声"
@@ -235,36 +160,10 @@
     "name": "命名",
     "facet": "design",
     "seg": [
-     10,
-     25
+     12
     ],
     "as": [
      "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     24,
-     27
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     24
-    ],
-    "as": [
-     "建模"
     ],
     "via": "body"
    }
@@ -272,14 +171,14 @@
  },
  "observations": [
   {
-   "seg": 3,
+   "seg": 5,
    "text": "迁址为满足高安全性、工位扩增与跨项目横向交流",
-   "anchor": 4
+   "anchor": 6
   },
   {
-   "seg": 15,
+   "seg": 17,
    "text": "访客区入内部办公区分为中庭与栖息地两区",
-   "anchor": 16
+   "anchor": 18
   }
  ],
  "relations": [],
@@ -288,7 +187,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

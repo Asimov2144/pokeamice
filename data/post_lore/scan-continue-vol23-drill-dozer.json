@@ -2,11 +2,11 @@
  "id": "scan-continue-vol23-drill-dozer",
  "stem": "2005-08-18-scan-continue-vol23-drill-dozer",
  "rev": 1,
- "built": "2026-09-29",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 56
+  "n": 53
  },
  "facets": {
   "pokemon": [],
@@ -21,7 +21,7 @@
     "name": "Quinty",
     "slug": null,
     "seg": [
-     10
+     11
     ],
     "via": "llm"
    },
@@ -29,7 +29,7 @@
     "name": "脉冲人",
     "slug": null,
     "seg": [
-     31
+     32
     ],
     "via": "llm"
    },
@@ -37,7 +37,7 @@
     "name": "钻头乐园",
     "slug": null,
     "seg": [
-     40
+     41
     ],
     "via": "llm"
    },
@@ -45,7 +45,7 @@
     "name": "泰姆波坎",
     "slug": null,
     "seg": [
-     45
+     46
     ],
     "via": "llm"
    },
@@ -53,7 +53,7 @@
     "name": "螺旋破坏者 轰振钻头乐园",
     "slug": null,
     "seg": [
-     47
+     48
     ],
     "via": "llm"
    }
@@ -67,9 +67,9 @@
      4,
      7,
      9,
-     10,
-     13,
-     15
+     11,
+     14,
+     16
     ]
    },
    {
@@ -78,9 +78,9 @@
     "role": "speaker",
     "seg": [
      5,
-     12,
-     16,
-     28,
+     13,
+     17,
+     29,
      34,
      36
     ]
@@ -99,7 +99,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     19
+     20
     ],
     "via": "llm"
    },
@@ -108,7 +108,7 @@
     "slug": "miyamoto-shigeru",
     "role": "mentioned",
     "seg": [
-     19
+     20
     ],
     "via": "llm"
    },
@@ -117,7 +117,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     46
+     47
     ],
     "via": "llm"
    }
@@ -131,7 +131,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     15
+     16
     ],
     "what": "任天堂所在地",
     "via": "llm"
@@ -144,7 +144,7 @@
     "facet": "process",
     "seg": [
      6,
-     19
+     20
     ],
     "as": [
      "试玩"
@@ -156,7 +156,7 @@
     "name": "进公司之前",
     "facet": "team",
     "seg": [
-     17
+     18
     ],
     "as": [
      "入职"
@@ -168,7 +168,7 @@
     "name": "企划",
     "facet": "process",
     "seg": [
-     21
+     22
     ],
     "as": [
      "企划书"
@@ -180,10 +180,34 @@
     "name": "公司氛围",
     "facet": "team",
     "seg": [
-     22
+     23
     ],
     "as": [
      "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     30
+    ],
+    "as": [
+     "手感"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     39
+    ],
+    "as": [
+     "打磨"
     ],
     "via": "body"
    },
@@ -192,7 +216,7 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     39
+     40
     ],
     "as": [
      "儿童"
@@ -204,23 +228,10 @@
     "name": "像素画",
     "facet": "tech",
     "seg": [
-     42,
      43
     ],
     "as": [
      "像素画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     54
-    ],
-    "as": [
-     "一起做"
     ],
     "via": "body"
    },
@@ -251,7 +262,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

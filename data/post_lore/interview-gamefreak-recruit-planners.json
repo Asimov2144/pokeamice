@@ -42,8 +42,8 @@
   ],
   "people": [
    {
-    "name": "H.T.",
-    "slug": "h-t",
+    "name": "H.T.（2015策划访谈）",
+    "slug": "gf-ht-planners-2015",
     "role": "speaker",
     "seg": [
      3,
@@ -248,26 +248,27 @@
  "relations": [
   {
    "id": "interview-gamefreak-recruit-programmers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
    "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
-   "why": "同日同专栏“我加入游戏狂想的理由”程序员篇"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   },
   {
    "id": "interview-gamefreak-recruit-designers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
    "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
-   "why": "同日同专栏“我加入游戏狂想的理由”设计师篇"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   }
  ],
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

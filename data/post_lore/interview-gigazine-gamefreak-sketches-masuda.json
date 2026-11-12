@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 71
+  "n": 63
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,6 @@
     "name": "雷吉洛克",
     "ndex": 377,
     "seg": [
-     16,
      17
     ],
     "as": [
@@ -26,7 +25,6 @@
     "name": "雷吉艾斯",
     "ndex": 378,
     "seg": [
-     16,
      17
     ],
     "as": [
@@ -38,7 +36,6 @@
     "name": "雷吉斯奇鲁",
     "ndex": 379,
     "seg": [
-     16,
      17
     ],
     "as": [
@@ -69,22 +66,6 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
     "name": "宝可梦 X·Y",
     "slug": "x-y",
     "seg": [
@@ -106,15 +87,6 @@
      49,
      53
     ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "mentioned",
-    "seg": [
-     31
-    ],
-    "via": "llm"
    }
   ],
   "places": [
@@ -151,9 +123,6 @@
     "facet": "art",
     "seg": [
      2,
-     21,
-     27,
-     33,
      34
     ],
     "as": [
@@ -193,11 +162,7 @@
     "name": "机能与容量",
     "facet": "tech",
     "seg": [
-     9,
-     11,
-     12,
-     42,
-     44
+     11
     ],
     "as": [
      "机能",
@@ -211,8 +176,6 @@
     "name": "程序实现",
     "facet": "tech",
     "seg": [
-     12,
-     40,
      41
     ],
     "as": [
@@ -235,42 +198,6 @@
     "via": "body"
    },
    {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     21
-    ],
-    "as": [
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     23
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     23
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
     "id": "illustration",
     "name": "插画与设定图",
     "facet": "art",
@@ -287,36 +214,10 @@
     "name": "动画的写法",
     "facet": "story",
     "seg": [
-     27,
-     33,
      34
     ],
     "as": [
      "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     33
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     33
-    ],
-    "as": [
-     "脚本"
     ],
     "via": "body"
    },
@@ -326,10 +227,8 @@
     "facet": "design",
     "seg": [
      39,
-     50,
      51,
      55,
-     58,
      59
     ],
     "as": [
@@ -338,37 +237,10 @@
     "via": "body"
    },
    {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     40,
-     44,
-     58
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     50
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
     "id": "sound-hardware",
     "name": "音源与机能",
     "facet": "audio",
     "seg": [
-     58,
      59
     ],
     "as": [
@@ -392,10 +264,6 @@
   {
    "seg": 9,
    "text": "柑果球设定手稿右上角盖有丸秘红色印章，记录各色球材质与捕获机能"
-  },
-  {
-   "seg": 14,
-   "text": "1990年代开发周报残卷写着电脑系统崩溃导致损失2天进度"
   }
  ],
  "relations": [
@@ -421,7 +289,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

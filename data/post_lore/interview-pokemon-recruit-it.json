@@ -10,14 +10,7 @@
  },
  "facets": {
   "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
+  "works": [],
   "people": [
    {
     "name": "铃木",
@@ -174,7 +167,7 @@
   },
   {
    "seg": 12,
-   "text": "中野称新官网上线需1至3个月推敲服务器架构与扩缩容策略",
+   "text": "中野介绍，建设新网站时会花约1至3个月确定服务器配置和规格。",
    "anchor": 19
   }
  ],
@@ -193,7 +186,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

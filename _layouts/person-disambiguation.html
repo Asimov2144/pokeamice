@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign entry = site.data.people | where: "slug", page.slug | first %}
+<div id="main" role="main">
+  <article class="archive">
+    <h1>{{ page.title | escape }}：来源限定身份索引</h1>
+    <p>下列来源使用相同的姓名缩写。现有资料不足以确认它们是否对应同一个人，因此分别索引，不把经历、作品或共同受访关系合并。此页保留旧链接，不代表一位已确认身份的人物。</p>
+    <ul>
+    {% for scoped_slug in entry.disambiguation %}
+      {% assign scoped = site.data.people | where: "slug", scoped_slug | first %}
+      {% if scoped %}<li><a href="{{ '/people/' | append: scoped.slug | append: '/' | relative_url }}">{{ scoped.name | escape }}</a></li>{% endif %}
+    {% endfor %}
+    </ul>
+  </article>
+</div>

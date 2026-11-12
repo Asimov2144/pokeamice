@@ -28,10 +28,11 @@
   var sections = Array.prototype.slice.call(text.querySelectorAll("[data-scan-page-section]"));
   var blocks = Array.prototype.slice.call(text.querySelectorAll("[data-scan-page-index]"));
   var strip = Array.prototype.slice.call(reader.querySelectorAll("[data-scan-strip] a"));
+  var pageOrder = plates.map(function (p) { return Number(p.dataset.scanPage); });
   var current = -1, zoom = 1, active = null, lastTurn = 0;
   var phone = window.matchMedia("(max-width: 900px)");
 
-  function plateOf(i) { return plates[i] || null; }
+  function plateOf(i) { return plates[pageOrder.indexOf(i)] || null; }
   function imgOf(i) { var p = plateOf(i); return p ? p.querySelector(".sc-plate__img") : null; }
   function svgOf(i) { var p = plateOf(i); return p ? p.querySelector("[data-scan-hotspots]") : null; }
 
@@ -57,17 +58,18 @@
   // ---- the page on the stage -----------------------------------------------
   function show(i, why) {
     if (!plates.length) return;
-    i = Math.max(0, Math.min(plates.length - 1, i));
+    if (pageOrder.indexOf(i) === -1) return;
     if (i === current) return;
     current = i;
-    plates.forEach(function (p, k) { p.hidden = k !== i; });
+    plates.forEach(function (p) { p.hidden = Number(p.dataset.scanPage) !== i; });
     strip.forEach(function (a) { a.classList.toggle("is-active", Number(a.dataset.scanGoto) === i); });
     var num = reader.querySelector("[data-scan-current]");
-    if (num) num.textContent = String(i + 1);
+    if (num) num.textContent = plateOf(i).dataset.scanLabel || String(i + 1);
     var open = reader.querySelector("[data-scan-open]"), img = load(i);
     if (open) { open.href = img ? (img.getAttribute("src") || img.dataset.src) : "#"; open.hidden = !img; }
     fitSvg(i);
-    load(i + 1); load(i - 1);
+    var position = pageOrder.indexOf(i);
+    load(pageOrder[position + 1]); load(pageOrder[position - 1]);
     if (why !== "scroll") view.scrollTop = 0;
     clearHighlight();
     cropsOf(i);
@@ -75,13 +77,18 @@
   function goTo(i, andScroll) {
     show(i, "nav");
     lastTurn = Date.now();
-    if (andScroll && sections[i]) {
-      var top = sections[i].getBoundingClientRect().top + window.pageYOffset - 72;
+    var section = sections.find(function (s) { return Number(s.dataset.scanPageSection) === i; });
+    if (andScroll && section) {
+      var top = section.getBoundingClientRect().top + window.pageYOffset - 72;
       window.scrollTo({ top: top, behavior: "smooth" });
     }
   }
-  reader.querySelectorAll("[data-scan-prev]").forEach(function (b) { b.addEventListener("click", function () { goTo(current - 1, true); }); });
-  reader.querySelectorAll("[data-scan-next]").forEach(function (b) { b.addEventListener("click", function () { goTo(current + 1, true); }); });
+  function turn(delta) {
+    var position = Math.max(0, Math.min(pageOrder.length - 1, pageOrder.indexOf(current) + delta));
+    goTo(pageOrder[position], true);
+  }
+  reader.querySelectorAll("[data-scan-prev]").forEach(function (b) { b.addEventListener("click", function () { turn(-1); }); });
+  reader.querySelectorAll("[data-scan-next]").forEach(function (b) { b.addEventListener("click", function () { turn(1); }); });
   reader.querySelectorAll("[data-scan-goto]").forEach(function (a) {
     a.addEventListener("click", function (e) { e.preventDefault(); goTo(Number(a.dataset.scanGoto), true); });
   });
@@ -89,8 +96,8 @@
     if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
     var t = e.target;
     if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
-    if (e.key === "ArrowLeft") { goTo(current - 1, true); e.preventDefault(); }
-    if (e.key === "ArrowRight") { goTo(current + 1, true); e.preventDefault(); }
+    if (e.key === "ArrowLeft") { turn(-1); e.preventDefault(); }
+    if (e.key === "ArrowRight") { turn(1); e.preventDefault(); }
   });
 
   // follow reading: the section under the middle of the window is the page
@@ -246,7 +253,7 @@
     big.alt = img.alt;
     holder.appendChild(big);
     var title = box.querySelector("[data-scan-lightbox-title]");
-    if (title) title.textContent = "第 " + (current + 1) + " / " + plates.length + " 页";
+    if (title) title.textContent = "第 " + (plateOf(current).dataset.scanLabel || current + 1) + " 页 · 共 " + plates.length + " 张";
     box.hidden = false;
     document.body.classList.add("sc-lightbox-open");
     var b = active && Number(active.dataset.scanPageIndex) === current ? boxesOf(active)[0] : null;
@@ -291,6 +298,6 @@
   }
   window.addEventListener("hashchange", byHash);
   setZoom(1);
-  show(0, "init");
+  show(pageOrder[0], "init");
   byHash();
 })();

@@ -1,12 +1,12 @@
 ---
 layout: interview-editorial
 archive_type: interview_translation
-title: IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发
+title: IMAGICA GEEQ（游戏行业求职平台）：Creatures设计负责人渡边敦谈宝可梦开发
 display_title: Creatures设计负责人谈宝可梦开发
 dek: Creatures设计负责人渡边敦讲述从派遣员工到正式入职的经历，以及建模、动作制作与团队管理的工作。
 original_title: 『ポケットモンスター』を支えるクリーチャーズとは？ 開発者インタビュー
-date: '2023-03-24'
-era_skin: '2026'
+date: '2019-09-11'
+era_skin: '2019'
 categories:
 - 访谈翻译
 - 翻译
@@ -19,7 +19,7 @@ tags:
 - 渡边敦
 - 动作组
 - 名侦探皮卡丘
-publication: IMAGICA GEEQ（游戏行业求职平台）（2023-03-24）
+publication: IMAGICA GEEQ（原站 CMS 记录日期：2019-09-11）
 source_kind: media_interview
 interviewer: GEEQ
 interviewee: 渡边敦
@@ -158,3 +158,6 @@ parallel_items:
 - original: 今後の仕事の目標は、リーダーとしてクリーチャーズの事業の特色や社風の良い面を残しながら、品質の高い製品づくりの体制をつくること。長い時間がかかりますが、ゲーム開発のノウハウを蓄積し、知識を資産として、ゲームも会社も一緒に育ててていきたいと思います。
   translation: 今后的工作目标是，作为领导者，在保留Creatures的事业特色和公司风气优点的同时，建立高品质产品制作的体制。虽然需要很长时间，但我希望积累游戏开发的诀窍，将知识作为资产，让游戏和公司一起成长。
 ---
+
+
+日期说明：本站采用[原站 CMS 公开记录](https://hr.geeq.co.jp/wp-json/wp/v2/interview/436)的发布日期 2019 年 9 月 11 日；这不是采访发生日期，也不单凭当前 CMS 记录断言不可变的历史首发时间。图片路径中的 2023/03/24 不作为文章发布日期。

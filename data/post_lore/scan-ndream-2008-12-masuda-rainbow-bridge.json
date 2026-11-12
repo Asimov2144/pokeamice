@@ -2,11 +2,11 @@
  "id": "scan-ndream-2008-12-masuda-rainbow-bridge",
  "stem": "2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 86
+  "n": 82
  },
  "facets": {
   "pokemon": [],
@@ -42,14 +42,6 @@
      28
     ],
     "via": "llm"
-   },
-   {
-    "name": "アルキメDS",
-    "slug": null,
-    "seg": [
-     83
-    ],
-    "via": "llm"
    }
   ],
   "people": [
@@ -78,15 +70,6 @@
      12,
      14
     ]
-   },
-   {
-    "name": "金谷",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     84
-    ],
-    "via": "llm"
    }
   ],
   "places": [
@@ -202,13 +185,25 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     53
+     56
     ],
     "what": "增田的老家",
     "via": "llm"
    }
   ],
   "concepts": [
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     6
+    ],
+    "as": [
+     "玩具"
+    ],
+    "via": "body"
+   },
    {
     "id": "bgm",
     "name": "背景音乐",
@@ -217,19 +212,19 @@
      28
     ],
     "as": [
-     "BGM"
+     "背景音乐"
     ],
     "via": "body"
    },
    {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
+    "id": "multiplayer",
+    "name": "多人同乐",
+    "facet": "system",
     "seg": [
-     28
+     31
     ],
     "as": [
-     "音效"
+     "一起玩"
     ],
     "via": "body"
    },
@@ -239,10 +234,34 @@
     "facet": "system",
     "seg": [
      50,
-     61
+     52
     ],
     "as": [
      "强度"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "community",
+    "name": "玩家社群",
+    "facet": "audience",
+    "seg": [
+     63
+    ],
+    "as": [
+     "玩家之间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "ui-operation",
+    "name": "界面与操作",
+    "facet": "system",
+    "seg": [
+     63
+    ],
+    "as": [
+     "手感"
     ],
     "via": "body"
    }
@@ -281,7 +300,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

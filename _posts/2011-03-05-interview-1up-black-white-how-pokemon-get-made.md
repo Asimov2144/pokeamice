@@ -1,12 +1,12 @@
 ---
 layout: interview-editorial
 archive_type: interview_translation
-title: 1UP.com 2011：Game Freak谈《黑／白》主角设计
+title: 1UP.com 2010：Game Freak谈《黑／白》主角设计
 display_title: 宝可梦如何诞生
 dek: Game Freak设计师谈《宝可梦 黑／白》的角色与怪物设计过程。
 original_title: 'How Pokemon Get Made: Game Freak''s designers discuss Black and White''s main characters'
-date: '2011-03-05'
-era_skin: '2011'
+date: '2010-11-03'
+era_skin: '2010'
 categories:
 - 访谈翻译
 - 翻译
@@ -23,9 +23,9 @@ tags:
 - 角色设计
 - 御三家
 - 传说宝可梦
-publication: 1UP.com（2011-03-05）
+publication: 1UP.com（2010-11-03；转述《Fami通》采访）
 source_kind: media_feature
-interviewer: 1UP
+interviewer: Fami通（由 Kevin Gifford 在 1UP.com 转述）
 interviewee: 井部真那、大村祐介、杉森建、海野隆雄
 translator: PokeAmice（DeepSeek 初译）
 original_lang: en
@@ -98,3 +98,6 @@ topics:
 - 传说宝可梦
 - 系统设计
 ---
+
+
+编辑说明：本篇为 1UP.com 转述《Fami通》采访的报道，并非 1UP 独家采访。报道日期依据[保存全文](https://pocketmonsters.net/content/Interview_How_Pokemon_Get_Made)所示 11/03/2010，按美式月／日记为 2010 年 11 月 3 日；[2010 年 11 月 4 日同期报道](https://www.engadget.com/2010-11-04-one-of-lifes-great-mysteries-revealed-how-pokemon-get-made.html)可作时间旁证。旧文件名和图片路径保留，以免改变既有引用。

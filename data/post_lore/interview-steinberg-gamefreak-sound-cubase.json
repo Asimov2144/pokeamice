@@ -344,19 +344,19 @@
  "relations": [
   {
    "id": "interview-bw-music-collection-liner-notes",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "增田顺一、景山将太等详谈合众动态音效与世界音乐构建",
    "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
-   "why": "同为2010年BW音频主创景山将太受访谈音乐"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   },
   {
    "id": "gamefreak-staff-203",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
+   "kind": "background",
+   "label": "相关资料",
    "title": "【工作日志】2010年宝可梦音乐开发",
    "url": "/gamefreak-staff/entry-203/",
-   "why": "景山将太同谈BW合众音乐与互动声音"
+   "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
   }
  ],
  "sources": {
@@ -364,7 +364,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
  },
- "edited": false
+ "edited": true
 }

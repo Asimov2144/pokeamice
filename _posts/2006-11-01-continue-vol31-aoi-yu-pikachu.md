@@ -21,7 +21,7 @@ workflow:
   preprocess: done
   ocr: done
   translation: draft
-  proofreading: pending
+  proofreading: "source-checked"
   published: draft
 original_lang: ja
 translation_lang: zh-CN
@@ -32,44 +32,79 @@ interviewee: 苍井优
 translator: Qwen-VL-OCR 识别 / DeepSeek 校对初译 / 待人工复核
 summary: 苍井优谈到童年时哥哥唱的宝可梦歌曲、自己的游戏习惯，以及在《Dr.科托诊疗所》外景期间学做饭的经历。
 title_ja: 蒼井優 ♥ ピカチュウ
-source_pages: 014-015
+source_pages: "P.14–15（照片页与访谈页）"
+pending_review_regions: 0
+review_scope: "2026-11-12 对照原刊页图复核正文、图注、附栏及阅读顺序；封面按图版保留。记录见 docs/maintenance/old-scan-translation-audit-2026-11-12.md。"
+scan_page_labels: ['14', '15']
+scan_pages: [/assets/images/scan-archive/continue-vol31-20260829/pages/p014_aoi_yu_portrait.jpg,
+  /assets/images/scan-archive/continue-vol31-20260829/pages/p015_aoi_yu_interview.jpg]
+scan_reading_order: "listed"
+scan_page_order: [0, 1]
 translation_segments:
-- speaker: body
+- speaker: caption
   type: paragraph
-  kind: text
-  region_type: body
-  region_id: qwen-r1
-  order: 1
+  kind: caption
+  region_type: caption
+  region_id: qwen-r8
+  order: 8
   scan_page: 0
-  scan_box: [281, 347, 1649, 521]
+  scan_box: null
   writing_direction: horizontal
   original: |-
-    蒼井 優
-    ピカチュウ
+    ©2006 Pokémon.
+    ©1995-2006 Nintendo/Creatures Inc./GAME FREAK inc.
   translation: |-
-    苍井优
-    皮卡丘
-  comment: 未发现明确 OCR 修正
+    ©2006 Pokémon.
+    ©1995-2006 Nintendo/Creatures Inc./GAME FREAK inc.
+  review_status: "verified"
+  comment: ""
+- speaker: note
+  type: paragraph
+  kind: text
+  region_type: note
+  region_id: qwen-r10
+  order: 10
+  scan_page: 0
+  scan_box: null
+  writing_direction: horizontal
+  original: '014'
+  translation: '014'
+  review_status: "verified"
+  comment: ""
+- speaker: ""
+  type: "heading"
+  kind: text
+  region_type: "heading"
+  region_id: qwen-r1
+  order: 1
+  scan_page: 1
+  scan_box: null
+  writing_direction: horizontal
+  original: "蒼井優 ♥ ピカチュウ"
+  translation: "苍井优 ♥ 皮卡丘"
+  review_status: "verified"
+  comment: ""
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: qwen-r2
   order: 2
-  scan_page: 0
-  scan_box: [2773, 447, 3123, 521]
+  scan_page: 1
+  scan_box: null
   writing_direction: horizontal
   original: 文＝志田英邦
   translation: 文＝志田英邦
-  comment: 未发现明确 OCR 修正
+  review_status: "verified"
+  comment: ""
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: qwen-r3
   order: 3
-  scan_page: 0
-  scan_box: [281, 620, 2422, 918]
+  scan_page: 1
+  scan_box: null
   writing_direction: horizontal
   original: |-
     ピカチュウの中に蒼井優さんの瞳が10万ボルト!
@@ -77,15 +112,16 @@ translation_segments:
   translation: |-
     置身皮卡丘之中的苍井优，双眸电力十万伏特！
     可爱×可爱，魅力大爆发！
-  comment: 未发现明确 OCR 修正
+  review_status: "verified"
+  comment: ""
 - speaker: body
   type: paragraph
   kind: text
   region_type: body
   region_id: qwen-r4
   order: 4
-  scan_page: 0
-  scan_box: [246, 1265, 1649, 4267]
+  scan_page: 1
+  scan_box: null
   writing_direction: horizontal
   original: |-
     ——今回の撮影はどうでしたか？ピカチュウがたくさんいましたが(笑)。
@@ -115,42 +151,17 @@ translation_segments:
     蒼井 あははは! 髪が増えそう。
     ――そういう島にいるときとかに、『ダイヤモンド・パール』を遊んでみてください!
     蒼井 ゲームにハマると抜けられなくなっちゃう性格なんですよね。しつこくやっちゃうので。長期休暇のときにぜひ!
-  translation: |-
-    ——这次拍摄感觉如何？现场有很多皮卡丘呢（笑）。
-    苍井：让我有了一次很宝贵的体验（笑）。
-    ——今年《宝可梦》已经十周年了，苍井小姐对《宝可梦》有什么回忆吗？
-    苍井：我哥哥以前玩得特别投入。还有一首歌呢。皮卡丘、快龙……妙蛙种子！
-    ——是《能说出宝可梦吗？》吧！
-    苍井：对！哥哥一直唱那首歌。我只记得歌词最后是妙蛙种子（笑）。还有，我知道喵喵是犬山犬子配音的。好可爱！
-    ——确实很可爱！
-    苍井：我以前上过《Oha Suta》，所以知道《宝可梦》当时有多受欢迎。那时山酱（山寺宏一）和雨后敢死队一起出演。
-    ——哦！Oha Girl 30号。那正好是2000年前后，也就是《金／银》的时期。
-    苍井：真是经久不衰呢。
-    ——哥哥很喜欢游戏吧。
-    苍井：玩得可多了！
-    ——苍井小姐呢？
-    苍井：我只玩一点。最近会在任天堂DS上玩《SUDOKU 数独》。
-    ——哦，喜欢数独吗？
-    苍井：我很擅长计算，最喜欢数学。还会用Game Boy Micro玩《超级马力欧兄弟》。不过要是接连失误，我就不玩了。呵呵（笑）。
-    ——你有任天堂DS和Micro啊。
-    苍井：我还有PSP。最近也用过任天堂DS的《会说话！DS料理导航》，不过里面都是常见菜，很多我本来就会做。
-    ——苍井小姐会自己做饭啊。
-    苍井：拍摄《Dr.科托诊疗所》时，我一直在岛上出外景，空闲时就一边看DVD一边做饭。倒不是多难的菜，就是想着怎样用有限的食材做出尽可能多的花样。
-    ——拿手菜是什么？
-    苍井：羊栖菜！虽然很简单，但我自己特别喜欢。
-    ——感觉是会让头发越来越黑的一道菜呢。
-    苍井：啊哈哈！好像头发也会变多。
-    ——下次在那样的岛上时，请试试玩《钻石／珍珠》吧！
-    苍井：我是一沉迷游戏就很难抽身的性格，会一直玩个不停。所以还是留到长假时吧！
-  comment: 修正了'知つてますよ'为'知ってますよ'，'ニヤース'为'ニャース'，'ゲームボーイミクロ'为'ゲームボーイミクロ'（保留原样），'抜けられなくなるっちゃう'为'抜けられなくなっちゃう'。
+  translation: "——这次拍摄感觉如何？现场有很多皮卡丘呢（笑）。\n苍井：让我有了一次很宝贵的体验（笑）。\n——今年《宝可梦》已经十周年了，苍井小姐对《宝可梦》有什么回忆吗？\n苍井：我哥哥以前玩得特别投入。还有一首歌呢。皮卡丘、快龙……妙蛙种子！\n——是《能说出宝可梦吗？》吧！\n苍井：对！哥哥一直唱那首歌。我只记得歌词最后是妙蛙种子（笑）。还有，我知道喵喵是犬山犬子配音的。好可爱！\n——确实很可爱！\n苍井：我以前上过《Oha Suta》，所以知道《宝可梦》当时有多受欢迎。那时山酱（山寺宏一）和雨后敢死队一起出演。\n——哦！Oha Girl 30号。那正好是2000年前后，也就是《金／银》的时期。\n苍井：真是经久不衰呢。\n——哥哥很喜欢游戏吧。\n苍井：玩得可多了！\n——苍井小姐呢？\n苍井：我只玩一点。最近会在任天堂DS上玩《SUDOKU 数独》。\n——哦，喜欢数独吗？\n苍井：我很擅长计算，最喜欢数学。还会用Game Boy Micro玩《超级马力欧兄弟》。不过要是接连失误，我就不玩了。呵呵（笑）。\n——你有任天堂DS和Micro啊。\n苍井：我还有PSP。最近也用过任天堂DS的《会说话！DS料理导航》，不过里面都是常见菜，很多我本来就会做。\n——苍井小姐会自己做饭啊。\n苍井：拍摄《Dr.コトー诊疗所》时，我一直在岛上出外景，空闲时就一边看DVD一边做饭。倒不是多难的菜，就是想着怎样用有限的食材做出尽可能多的花样。\n——拿手菜是什么？\n苍井：羊栖菜！虽然很简单，但我自己特别喜欢。\n——感觉是会让头发越来越黑的一道菜呢。\n苍井：啊哈哈！好像头发也会变多。\n——下次在那样的岛上时，请试试玩《钻石／珍珠》吧！\n苍井：我是一沉迷游戏就很难抽身的性格，会一直玩个不停。所以还是留到长假时吧！"
+  review_status: "verified"
+  comment: ""
 - speaker: caption
   type: paragraph
   kind: caption
   region_type: caption
   region_id: qwen-r7
   order: 7
-  scan_page: 0
-  scan_box: [1720, 3920, 3123, 4267]
+  scan_page: 1
+  scan_box: null
   writing_direction: horizontal
   original: |-
     蒼井優（あおい・ゆう）
@@ -160,31 +171,16 @@ translation_segments:
   translation: |-
     苍井优（Aoi Yu）
     1985年8月17日出生，福冈县人。出演了《宝可梦 钻石／珍珠》的电视广告。凭借《蜂蜜与四叶草》《扶桑花女孩》等作品，成为日本电影界备受期待的新星。还出演了2007年上映的《虫师》。
-  comment: 未发现明确OCR修正。
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: qwen-r8
-  order: 8
-  scan_page: 0
-  scan_box: [3615, 4143, 4738, 4267]
-  writing_direction: horizontal
-  original: |-
-    ©2006 Pokémon.
-    ©1995-2006 Nintendo/Creatures Inc./GAME FREAK inc.
-  translation: |-
-    ©2006 Pokémon.
-    ©1995-2006 Nintendo/Creatures Inc./GAME FREAK inc.
-  comment: 未发现明确 OCR 修正
+  review_status: "verified"
+  comment: ""
 - speaker: note
   type: paragraph
   kind: text
   region_type: note
   region_id: qwen-r9
   order: 9
-  scan_page: 0
-  scan_box: [246, 4540, 1088, 4615]
+  scan_page: 1
+  scan_box: null
   writing_direction: horizontal
   original: |-
     015
@@ -192,19 +188,8 @@ translation_segments:
   translation: |-
     015
     CONTINUE 2006 vol.31
-  comment: 未发现明确 OCR 修正
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: qwen-r10
-  order: 10
-  scan_page: 0
-  scan_box: [6387, 4540, 6528, 4615]
-  writing_direction: horizontal
-  original: '014'
-  translation: '014'
-  comment: OCR将页码'014'误识别为'0 1 4'，根据上下文修正为连续数字。
+  review_status: "verified"
+  comment: ""
 ---
 
 本页是纯文本档案版本，正文与主站图文版同源。原刊图片与完整阅读体验请见主站。
