@@ -3,7 +3,7 @@ archive_type: scan_translation
 layout: interview-editorial
 title: オトナファミ 2011：杉森建谈《宝可梦 黑·白》最初三只设计
 display_title: 最初三只的诞生
-title_ja: 増田順一インタビュー 大人のための『ポケットモンスター ブラック・ホワイト』
+title_ja: あなたはどの子を選ぶ？
 date: 2011-01-20
 era_skin: 2011
 categories:
@@ -15,7 +15,6 @@ tags:
   - '日中对照'
   - '宝可梦 黑·白'
   - '杉森建'
-  - '增田顺一'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: オトナファミ
 issue: 2011年3月号
@@ -24,9 +23,10 @@ interviewee: 杉森建
 interviewer: オトナファミ 編集部
 dek: 《宝可梦 黑·白》美术总监杉森建讲述全面替换宝可梦与最初三只的设计经过。
 summary: 《宝可梦 黑·白》首次全面替换宝可梦，美术总监杉森建回顾四年前的决定与约两年的制作，讲述藤藤蛇、暖暖猪、水水獭的原型选择、进化形态以武将为意象的设定，以及电影中比克提尼的由来。
-source_pages: P.1–P.1（1 页，另附封面/目次；2048px 页图）
+source_pages: P.12（1 个印刷页）
+source_leaf_range: [1, 1]
 source:
-  title: 増田順一インタビュー 大人のための『ポケットモンスター ブラック・ホワイト』
+  title: あなたはどの子を選ぶ？
   source_type: magazine_scan
   language: ja
   publication: オトナファミ

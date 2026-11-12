@@ -237,7 +237,7 @@ def main():
     if OUT.exists() and not force:
         existing = {r["slug"]: r for r in (yaml.safe_load(io.open(OUT, encoding="utf-8")) or []) if r.get("slug")}
     out, asked, t0 = [], 0, time.time()
-    people = [p for p in registry if p.get("kind") not in ("character", "figure") and p.get("slug")]
+    people = [p for p in registry if p.get("kind") not in ("character", "figure", "disambiguation") and p.get("slug")]
     for k, p in enumerate(people):
         if only and p["slug"] not in only:
             if p["slug"] in existing:

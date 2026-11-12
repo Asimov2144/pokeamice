@@ -20,11 +20,12 @@ kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2012年10月号（Vol.222）
 publisher: 徳間書店
-interviewee: 海野隆雄
+interviewee: 海野隆雄、增田顺一、一之濑刚、佐藤仁美
 interviewer: Nintendo DREAM 編集部
 dek: 收录传说宝可梦攻略、庆典任务与宝可梦好莱坞新要素，以及开发人员访谈第二弹。
 summary: 本期特辑汇总《宝可梦 黑2·白2》传说宝可梦的获取方法、隐藏特性宝可梦与钥匙系统，并深入介绍庆典任务与宝可梦好莱坞的玩法要点，同时刊出增田顺一、海野隆雄等开发人员关于新要素的访谈秘闻。
-source_pages: P.1–P.8（8 页，另附封面/目次；2048px 页图）
+source_pages: P.22–29（8 个印刷页）
+source_leaf_range: [1, 8]
 source:
   title: ポケットモンスター ブラック2・ホワイト2 開発者インタビュー（PWT・ポケウッド）
   source_type: magazine_scan
@@ -52,6 +53,9 @@ scan_set: ia-ndream-222
 entities:
   people:
     - 海野隆雄
+    - 增田顺一
+    - 一之濑刚
+    - 佐藤仁美
   works:
     - 宝可梦 黑2·白2
 topics:

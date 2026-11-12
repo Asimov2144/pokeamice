@@ -29,7 +29,7 @@ source:
   language: ja
   source_type: official_interview
 author: Game Freak 採用チーム
-interviewee: H.T.、R.M.
+interviewee: H.T.（2015策划访谈）、R.M.
 original_lang: ja
 translation_lang: zh-CN
 translator: PokeAmice（DeepSeek 初译）
@@ -37,7 +37,7 @@ summary: 两位年轻策划回顾入行契机：H.T.从程序员转岗策划，R
 dek: 2014、2015年度入职的年轻策划R.M.与H.T.，讲述各自转行进入GAME FREAK的经过与入职后的感受。
 entities:
   people:
-  - H.T.
+  - H.T.（2015策划访谈）
   - R.M.
   works:
   - 宝可梦 X·Y
@@ -64,7 +64,7 @@ parallel_items:
   original: 社員紹介
   translation: 员工介绍
 - type: profile
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   speaker_orig: H.T. プランナー
   role_ja: プランナー
   original: 'こんにちは、2014年度に入社し、現在マッププランニングを手掛けているH.T.です。
@@ -102,7 +102,7 @@ parallel_items:
   original: ゲーム業界に入った理由、きっかけはどんなものでしたか？
   translation: 进入游戏行业的理由、契机是什么样的？
 - type: text
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   speaker_orig: プランナー H.T.
   original: 小さい頃からゲームは大好きだったんですが、ゲームクリエイターになれるとは思っていませんでした。SE（システムエンジニア）になろうということで専門学校に入って、資格を取ったんですが、その途端、「本当にやりたいことってこれだったっけ？」という疑問が湧いてきて。専門学校の中で転属して、ゲーム業界を目指すことにしました。そこからはがむしゃらに勉強して、無事ゲーム会社に就職することができました。
   role: answer
@@ -135,7 +135,7 @@ parallel_items:
   role: answer
   translation: 上一份工作里，我做的多是面向成年人的游戏，但我本来就喜欢的游戏，是《宝可梦》系列、《马力欧》系列这类大人小孩都能一起玩的游戏。在之前的公司，某个游戏的开发工作告一段落，正处在下一个项目自己会不会被分配进去的时候，我想“想换个不太一样的环境做游戏试试”，这时得知一家做我最喜欢的《宝可梦》的公司，正在招有活动策划经验的人，而这正是我擅长的领域，就想着先试试看！于是投了简历。
 - type: text
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   speaker_orig: プランナー H.T.
   original: 私は、作ったものに対しフィードバックをもらい、それを活かして次のものを生み出すことを大事にしています。そこで、転職を考える時に、「日本で一番フィードバックをもらえるタイトルは何だろう？」と考えました。『ポケットモンスター』シリーズは、全世界の幅広い年齢層に遊ばれているゲームなので、フィードバックの質も量も幅の広さもピカイチだろうと。それで、ゲームフリークに応募することにしました。
   role: answer
@@ -145,7 +145,7 @@ parallel_items:
   original: ちなみにTさんはプログラマからプランナーに転じてもいますよね。職種を転換した理由は何ですか？
   translation: 顺便问一下，T先生也是从程序员转成了策划。转岗位的理由是什么？
 - type: text
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   speaker_orig: プランナー H.T.
   original: 前職で、対戦アクションゲームの見せ場となるようなシーンを、企画から開発まで任せてもらえる機会がありました。その時に、プログラムを書いている時より、ゲームの仕組みを考えている時のほうが、明らかに自分のモチベーションが高いと感じたんです。それで、自分はプランナーのほうが向いているんだろうと思いました。
   role: answer
@@ -159,7 +159,7 @@ parallel_items:
   original: 実際ゲームフリークに入社してみて如何ですか？
   translation: 实际进入GAME FREAK之后感觉怎么样？
 - type: text
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   speaker_orig: プランナー H.T.
   original: セーブデータ/エディタまわりの設計等、想像していたより、プランナーの仕事が幅広いですね。他社ではエンジニアが考えるようなところにも関わる機会があります。他社のプランナーだとできない経験ができて、技術のわかるプランナーになれそうです。プランナーに職種を転換しましたが、プランニングに活かせる知識として、プログラムも継続的に勉強していますよ。
   role: answer
@@ -175,7 +175,7 @@ parallel_items:
   original: どんな人が活躍できそうな組織だと思いますか？
   translation: 你觉得什么样的人能在这个组织里发挥得好？
 - type: text
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   speaker_orig: プランナー H.T.
   original: 熱意があることが大事だと思っています。熱意とは「このプロジェクトを成功させたい」という強い気持ちのことです。そういう人は仕事を自分からどんどん取っていって、周囲と積極的に接触するので、コミュニケーションエラーも防ぐことができます。
   role: answer

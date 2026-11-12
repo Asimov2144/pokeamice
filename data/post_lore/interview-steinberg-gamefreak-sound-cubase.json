@@ -1,370 +1,362 @@
 {
- "id": "interview-steinberg-gamefreak-sound-cubase",
- "stem": "2010-11-20-interview-steinberg-gamefreak-sound-cubase",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 41
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红／绿",
-    "slug": null,
-    "seg": [
-     1
+  "id": "interview-steinberg-gamefreak-sound-cubase",
+  "stem": "2010-11-20-interview-steinberg-gamefreak-sound-cubase",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 41
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红／绿",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑／白",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 心金／魂银",
+        "slug": null,
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Nintendo DS 宝可梦 心金＆魂银 Music Super Complete",
+        "slug": null,
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Nintendo DS 宝可梦 黑／白 Super Music Collection",
+        "slug": null,
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "伏尔塔瓦河",
+        "slug": null,
+        "seg": [
+          35
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑／白",
-    "slug": null,
-    "seg": [
-     1
+    "people": [
+      {
+        "name": "景山将太",
+        "slug": "kageyama-shota",
+        "role": "speaker",
+        "seg": [
+          4,
+          5,
+          7,
+          9,
+          12,
+          14
+        ]
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 心金／魂银",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Nintendo DS 宝可梦 心金＆魂银 Music Super Complete",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Nintendo DS 宝可梦 黑／白 Super Music Collection",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "伏尔塔瓦河",
-    "slug": null,
-    "seg": [
-     35
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "景山将太",
-    "slug": "kageyama-shota",
-    "role": "speaker",
-    "seg": [
-     4,
-     5,
-     7,
-     9,
-     12,
-     14
+    "places": [],
+    "concepts": [
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          8,
+          12,
+          15,
+          24,
+          35
+        ],
+        "as": [
+          "音源"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          9
+        ],
+        "as": [
+          "背景音乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          9,
+          14,
+          19,
+          24,
+          35,
+          39
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          12
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          12,
+          19,
+          39
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          15,
+          22
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          15
+        ],
+        "as": [
+          "设计宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          16,
+          27,
+          35,
+          36,
+          38
+        ],
+        "as": [
+          "编曲",
+          "作曲",
+          "音乐创作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          19
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          22
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          22
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          24,
+          29
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          27
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          29
+        ],
+        "as": [
+          "编辑器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          31
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          31
+        ],
+        "as": [
+          "界面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          35
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          39
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "Yamaha 青木讲师",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   }
+  },
+  "observations": [
+    {
+      "seg": 1,
+      "text": "GAME FREAK声音开发使用Cubase，采访2010年DS新作声音领队景山将太",
+      "anchor": 2
+    },
+    {
+      "seg": 9,
+      "text": "声音团队四人体制，成员既做BGM也做音效",
+      "anchor": 10
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     8,
-     12,
-     15,
-     24,
-     35
-    ],
-    "as": [
-     "音源"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     9
-    ],
-    "as": [
-     "背景音乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     9,
-     14,
-     19,
-     24,
-     35,
-     39
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     12
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     12,
-     19,
-     39
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     15,
-     22
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     15
-    ],
-    "as": [
-     "设计宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     16,
-     27,
-     35,
-     36,
-     38
-    ],
-    "as": [
-     "编曲",
-     "作曲",
-     "音乐创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     19
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     22
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     24,
-     29
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     27
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     29
-    ],
-    "as": [
-     "编辑器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     31
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     31
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     35
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     39
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "GAME FREAK声音开发使用Cubase，采访2010年DS新作声音领队景山将太",
-   "anchor": 2
+  "relations": [
+    {
+      "id": "interview-bw-music-collection-liner-notes",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "增田顺一、景山将太等详谈合众动态音效与世界音乐构建",
+      "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    },
+    {
+      "id": "gamefreak-staff-203",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "【工作日志】2010年宝可梦音乐开发",
+      "url": "/gamefreak-staff/entry-203/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
   },
-  {
-   "seg": 9,
-   "text": "声音团队四人体制，成员既做BGM也做音效",
-   "anchor": 10
-  }
- ],
- "relations": [
-  {
-   "id": "interview-bw-music-collection-liner-notes",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一、景山将太等详谈合众动态音效与世界音乐构建",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
-   "why": "同为2010年BW音频主创景山将太受访谈音乐"
-  },
-  {
-   "id": "gamefreak-staff-203",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "【工作日志】2010年宝可梦音乐开发",
-   "url": "/gamefreak-staff/entry-203/",
-   "why": "景山将太同谈BW合众音乐与互动声音"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": true
 }

@@ -23,7 +23,8 @@ interviewee: 增田顺一
 interviewer: 週刊ファミ通 編集部
 dek: GAME FREAK 总监增田顺一讲述《宝可梦 黑·白》如何打破固有观念、让大人与孩子同乐。
 summary: 增田顺一回顾《宝可梦 黑·白》开发理念：为让离开宝可梦的玩家回归，本作将舞台与宝可梦全部换新，让新老玩家站在同一起跑线；并谈及 N 的设定、主人公设计及剧情强化的用意。
-source_pages: P.1–P.2（2 页，另附封面/目次；2048px 页图）
+source_pages: P.114–115（2 个印刷页）
+source_leaf_range: [1, 2]
 source:
   title: ポケットモンスター ブラック・ホワイト 開発秘話インタビュー
   source_type: magazine_scan

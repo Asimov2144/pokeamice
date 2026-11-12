@@ -1,284 +1,285 @@
 {
- "id": "interview-gamefreak-recruit-programmer-tk",
- "stem": "2021-12-27-interview-gamefreak-recruit-programmer-tk",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 13
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "阿尔宙斯",
-    "ndex": 493,
-    "seg": [
-     5,
-     7
+  "id": "interview-gamefreak-recruit-programmer-tk",
+  "stem": "2021-12-27-interview-gamefreak-recruit-programmer-tk",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 13
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "阿尔宙斯",
+        "ndex": 493,
+        "seg": [
+          5,
+          7
+        ],
+        "as": [
+          "阿尔宙斯"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "阿尔宙斯"
+    "works": [
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦传说 阿尔宙斯",
+        "slug": "legends-arceus",
+        "seg": [
+          5,
+          7
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦传说 阿尔宙斯",
-    "slug": "legends-arceus",
-    "seg": [
-     5,
-     7
+    "people": [
+      {
+        "name": "T.K.（程序员特写）",
+        "slug": "gf-tk-programmer",
+        "role": "speaker",
+        "seg": [
+          3,
+          4,
+          7,
+          8,
+          11,
+          12
+        ]
+      }
     ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "T.K.",
-    "slug": "t-k",
-    "role": "speaker",
-    "seg": [
-     3,
-     4,
-     7,
-     8,
-     11,
-     12
+    "places": [],
+    "concepts": [
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          0
+        ],
+        "as": [
+          "主视觉"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          2
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          2,
+          4
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          3
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          4
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          4
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          4
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          4,
+          8,
+          11
+        ],
+        "as": [
+          "协作",
+          "一起做",
+          "分工"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          5,
+          7
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [
+          6
+        ],
+        "as": [
+          "动作设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          6
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          7
+        ],
+        "as": [
+          "沿用"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          8
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          8
+        ],
+        "as": [
+          "视觉效果"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [],
+        "as": [
+          "招聘"
+        ],
+        "via": "tag"
+      }
     ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "T.K.说加入GAME FREAK是因为对《宝可梦》系列的制作技术感兴趣",
+      "anchor": 4
+    },
+    {
+      "seg": 8,
+      "text": "为稳定处理物理行为和AI引入了Havok，最初完全无法控制",
+      "anchor": 9
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     0
-    ],
-    "as": [
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     2
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     2,
-     4
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     3
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     4
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     4
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     4
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     4,
-     8,
-     11
-    ],
-    "as": [
-     "协作",
-     "一起做",
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     5,
-     7
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     6
-    ],
-    "as": [
-     "动作设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     6
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "视觉效果"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "T.K.说加入GAME FREAK是因为对《宝可梦》系列的制作技术感兴趣",
-   "anchor": 4
+  "relations": [
+    {
+      "id": "interview-gamefreak-crosstalk-designer",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+      "why": "同涉《阿尔宙斯》开发，设计师篇讲机制提案"
+    },
+    {
+      "id": "interview-gamefreak-recruit-designer-ek",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "畅所欲言发表意见，随心所欲钻研学习。这是最让人开心的职场。",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/",
+      "why": "同为GAME FREAK採用情報一线员工特写系列"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
   },
-  {
-   "seg": 8,
-   "text": "为稳定处理物理行为和AI引入了Havok，最初完全无法控制",
-   "anchor": 9
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-crosstalk-designer",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
-   "why": "同涉《阿尔宙斯》开发，设计师篇讲机制提案"
-  },
-  {
-   "id": "interview-gamefreak-recruit-designer-ek",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "畅所欲言发表意见，随心所欲钻研学习。这是最让人开心的职场。",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/",
-   "why": "同为GAME FREAK採用情報一线员工特写系列"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": true
 }

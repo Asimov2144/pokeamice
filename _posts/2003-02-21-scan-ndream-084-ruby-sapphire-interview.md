@@ -24,7 +24,15 @@ interviewee: 增田顺一、杉森建
 interviewer: Nintendo DREAM 編集部
 dek: GAME FREAK的增田顺一与杉森建回顾《宝可梦 红宝石·蓝宝石》的开发，谈新宝可梦、丰缘地区与游戏平衡。
 summary: 《宝可梦 红宝石·蓝宝石》发售40天出货400万套。增田顺一与杉森建在访谈中谈及道馆馆主与四天王变强的用意、只放新宝可梦的序盘设计、以九州为原型的丰缘地区，以及四人通信与华丽大赛等新要素。
-source_pages: P.2–P.5（4 页，另附封面/目次；2048px 页图）
+source_pages: P.118–125（8 个印刷页；P.117 扉页已有扫描，尚未转录）
+scan_reading_order: listed
+scan_page_order: [2, 4, 3, 5]
+scan_page_labels:
+  2: '118–119'
+  4: '120–121'
+  3: '122–123'
+  5: '124–125'
+source_leaf_range: [2, 5]
 source:
   title: ポケットモンスター ルビー・サファイア 大ヒット記念 ロングインタビュー
   source_type: magazine_scan
@@ -902,6 +910,856 @@ translation_segments:
     review_status: review
     original: No.007 ミズゴロウ
     translation: No.007 水跃鱼
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r183
+    order: "178"
+    scan_page: 4
+    review_status: review
+    original: って、そのへんのバランス調整に関しては、『金・銀』のときよりも難しかったですね。
+    translation: 说到这方面，平衡调整比《金·银》的时候更难。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r184
+    order: "179"
+    scan_page: 4
+    review_status: review
+    original: 逆に、『金・銀』までのポケモンから使うことになって、新ポケモンのほうで調整をしたりというようなこともあったわけですか？
+    translation: 反过来说，也有让到《金·银》为止的宝可梦来使用、再在新宝可梦那边做调整这样的情况吗？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r185
+    order: "180"
+    scan_page: 4
+    review_status: review
+    original: そういうことも少しやりましたね。
+    translation: 这种情况也稍微做了一些。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r186
+    order: "181"
+    scan_page: 4
+    review_status: review
+    original: 杉森さんが描いたポケモンがすべて登場してるわけではないんですね。
+    translation: 也就是说，杉森先生画的宝可梦并不是全部都登场了。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r187
+    order: "182"
+    scan_page: 4
+    review_status: review
+    original: そりゃあもう、山のようにボツが（笑）。
+    translation: 那当然，被毙掉的像山一样多（笑）。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r188
+    order: "183"
+    scan_page: 4
+    review_status: review
+    original: 「これは絶対に入るだろう」と思ってたようなヤツもボツになったりしましたからね。
+    translation: 有些我们觉得“这个绝对会入选”的家伙也被毙掉了。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r189
+    order: "184"
+    scan_page: 4
+    review_status: review
+    original: 旧作の人気のポケモンは絶対に入れなきゃいけなかったりとか…？
+    translation: 旧作里受欢迎的宝可梦是不是必须得放进去之类的……？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r190
+    order: "185"
+    scan_page: 4
+    review_status: review
+    original: あまりそのような感情を入れていくのはよくないんじゃないかって。どんなポケモンもファンというか、好きな人が必ずいますからね。
+    translation: 我觉得带着那种感情去选不太好。因为不管哪只宝可梦，都一定有喜欢它的粉丝。
+  - type: heading
+    kind: text
+    region_type: heading
+    region_id: p004_leaf4-h191
+    order: '186'
+    scan_page: 4
+    heading_level: 3
+    review_status: review
+    original: ポケモンはどうやって生まれるか
+    translation: 宝可梦是如何诞生的
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r192
+    order: "187"
+    scan_page: 4
+    review_status: review
+    original: 新ポケモンで面白いと思ったのは、ナマケロからせっかくヤルキモノに進化して、その後にケッキング。また休むのかよみたいな（笑）。このあたりはモデルになった人がスタッフのなかにいたりしたんですか？
+    translation: 新宝可梦里我觉得有趣的是，懒人獭好不容易进化成过动猿，之后又变成请假王。又休息了啊（笑）。这附近是不是有以工作人员为原型的？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r193
+    order: "188"
+    scan_page: 4
+    review_status: review
+    original: スタッフがモデルになったのは、今回はいないですね。
+    translation: 这次没有以工作人员为原型的。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r194
+    order: "189"
+    scan_page: 4
+    review_status: review
+    original: カビゴンのモデルとして有名な西野〓二さんのような事はなかった…。
+    translation: 没有像以卡比兽原型而闻名的西野〓二先生那样的事……
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r195
+    order: "190"
+    scan_page: 4
+    review_status: review
+    original: そうですね。ナマケロに関しては、怠け者からヤル気になって、そこからさらにヤル気になってもあんまり面白くないなと思ったんで（笑）。
+    translation: 是啊。关于懒人獭，从懒汉变得有干劲，再从那里进一步变得有干劲就没什么意思了（笑）。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r196
+    order: "191"
+    scan_page: 4
+    review_status: review
+    original: ジグザグマからマッスグマというのも笑いましたけど（笑）。
+    translation: 蛇纹熊变成直冲熊这个也让人笑了（笑）。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r197
+    order: "192"
+    scan_page: 4
+    review_status: review
+    original: No.038 ケッキング
+    translation: No.038 请假王
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r198
+    order: "193"
+    scan_page: 4
+    review_status: review
+    original: ナマケロやジグザグマに関しては、デザイナーから案があがってきたときに、最初から名前がついてたんです。それで名前がすごくいいということで、ずかんのテキストを膨らませていって、あのようなキャラクターになったわけですね。そのようにデザイナーのほうで全部できあがっちゃってる場合もたまにあるんです。
+    translation: 关于懒人獭和蛇纹熊，设计师提出方案的时候，就已经从一开始起好名字了。因为名字起得非常好，我们就扩充了图鉴的文本，最终形成了那样的角色。像这样由设计师那边全部完成的情况，偶尔也是有的。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r199
+    order: "194"
+    scan_page: 4
+    review_status: review
+    original: No.012 ジグザグマ
+    translation: No.012 蛇纹熊
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r200
+    order: "195"
+    scan_page: 4
+    review_status: review
+    original: ポケモンは何人くらいのデザイナーでつくったんですか？
+    translation: 宝可梦是由几位设计师制作的呢？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r201
+    order: "196"
+    scan_page: 4
+    review_status: review
+    original: 今回は僕を入れて8人ですね。
+    translation: 这次包括我在内是8个人。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r202
+    order: "197"
+    scan_page: 4
+    review_status: review
+    original: いろんなケースがあるんでしょうけど、1匹のポケモンが誕生するまで、どんな課程があるんですか？
+    translation: 应该会有各种情况，不过一只宝可梦诞生之前，会经历怎样的过程呢？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r203
+    order: "198"
+    scan_page: 4
+    review_status: review
+    original: 8人のデザイナーが、それぞれ自分のインスピレーションに従ってラフを描いたり、企画サイドから「このようなタイプのポケモンがほしい」というような注文を受けて描くような場合もあります。そこであがったものをみんなで持ち寄って、「これはこうしたほうがいい」というような品評会みたいなことをして、それをもう一度集めてきて、僕が最終的に仕上げるようにしています。デザイナーによって描くテイストが違いますし、なかにはポケモンっぽくないのもあったりとか、少女マンガのようなものもいたりするので、テイストを統一して最終的なものにしてるんですね。
+    translation: 8位设计师会各自按照自己的灵感画草图，也有从企划那边接到“想要这种类型的宝可梦”的要求后再画的情况。把那里拿出来的东西大家凑到一起，进行类似“这个这样改比较好”的评鉴会，然后再重新收集起来，由我做最终的完成。不同设计师画出来的风格不一样，其中也有不太像宝可梦的，还有像少女漫画一样的，所以要统一风格，做成最终的样子。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r204
+    order: "199"
+    scan_page: 4
+    review_status: review
+    original: 今回、新ポケモンをつくるにあたって、意識したことはありますか？
+    translation: 这次制作新宝可梦的时候，有什么特别留意的地方吗？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r205
+    order: "200"
+    scan_page: 4
+    review_status: review
+    original: 今回はポケモンの幅がどこまで広いのか、どこまでが許されるのか試そうと考えてまして…。それで、いちばん最初にやったのがバシャーモだったんです。あのような、あからさまな人型のポケモンが許されるのかなと思って、あえて試してみたところがありましたね。
+    translation: 这次我想试试宝可梦的幅度到底能有多宽，到什么程度能被允许……所以，最先做的就是火焰鸡。我想看看那种明显是人型的宝可梦能不能被允许，就特意试了一下。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r206
+    order: "201"
+    scan_page: 4
+    review_status: review
+    original: なるほど。『金・銀』のときに登場した新ポケモンはかわいい系が多かったですけど、今回は…。
+    translation: 原来如此。《金·银》时登场的新宝可梦有很多可爱系的，但这次……
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r207
+    order: "202"
+    scan_page: 4
+    review_status: review
+    original: そうですね。かわいいものが多かったし、それで幼児化したようなことも言われたりもしましたんで、今作ではモンスターのかっこよさみたいな原点に戻るということを、テーマのひとつにしていました。怪獣型のグラードンに代表されるような、かっこよくて強そうなポケモンをどんどん入れていこうとしたんです。それに加えて、今までのカテゴリーにはないポケモンも新たに提案していこうということが2大テーマとしてあったわけです。
+    translation: 是啊。因为可爱的比较多，也被人说成是低龄化了，所以这次把回归怪兽帅气这样的原点作为主题之一。以怪兽型的固拉多为代表，不断加入又帅又强的宝可梦。再加上提出至今为止的类别中没有的宝可梦，这两点就是两大主题。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r208
+    order: "203"
+    scan_page: 4
+    review_status: review
+    original: No.006 バシャーモ
+    translation: No.006 火焰鸡
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r209
+    order: "204"
+    scan_page: 4
+    review_status: review
+    original: 確かに今作をプレイしていて、「原点に戻る」感というのが、すごく感じられるんです。開発中は「『ポケモン』とは何をや」ということを、すごく意識していたんじゃないですか？
+    translation: 确实在玩这次的作品时，能非常强烈地感受到“回归原点”的感觉。开发过程中，是不是非常意识到“宝可梦是什么”这个问题呢？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r210
+    order: "205"
+    scan_page: 4
+    review_status: review
+    original: そうですね。タイトルからそうなんですけど「ルビー」と「サファイア」って、赤と青ですよね。「初心に帰ろう」ということで、最初の色に戻ろうと。でも、ただ戻るだけではなく、GBアドバンスを使って一体どんな世界がつくれるのかというところに挑戦したわけです。グラフィックに関して言えば、『ポケモン』を知っててポケモンを描こうとすると、どんどんずれた方向に行ってしまうんです。でも、かつて『赤・緑』をつくったときは、怪獣みたいなものからポケモンをクリエイトしていくようなところがあったわけです。だから、パッケージのグラードンやカイオーガのような、恐竜や怪獣のようなおもしろさを、今作ではどんどん出していこうと意識していたんですね。
+    translation: 是啊。从标题开始就是这样，「红宝石」和「蓝宝石」就是红与蓝。我们想「回归初心」，回到最初的配色。不过并不是单纯回归，而是挑战用GBA能创造出怎样的世界。就画面而言，如果带着对「宝可梦」的既有认知去画宝可梦，就会越来越偏离方向。但当年制作《红·绿》时，是从类似怪兽的东西中创造出宝可梦的。所以像包装上的固拉多和盖欧卡那样，恐龙或怪兽般的有趣之处，在本作中我有意识地不断呈现出来。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r211
+    order: "206"
+    scan_page: 4
+    review_status: review
+    original: 前回の『金・銀』のインタビュー（2000年2月号）では、ポケモンをデザインするとき、グッズなどの商品化も意識しないといけないので、制約みたいなものがあったという話でしたが。
+    translation: 在之前《金·银》的采访（2000年2月号）中，您提到设计宝可梦时还必须考虑到周边商品化，所以会有一些制约。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r212
+    order: "207"
+    scan_page: 4
+    review_status: review
+    original: 制約というか、いろいろ気をつかってしまったんですね。「このようなキャラクターじゃないとアニメでは描きにくいだろう」みたいなことを前提にして描くわけです。だからアニメのスタッフや立体をやってる人には悪いんですけど、今作ではそのようなことをあんまり考えないでやろうと（笑）。
+    translation: 与其说是制约，不如说是顾虑太多。会以「不是这种角色的话动画里大概很难画」为前提来画。所以对动画工作人员和做立体造型的人来说很抱歉，但本作我们尽量不去考虑这些（笑）。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r213
+    order: "208"
+    scan_page: 4
+    review_status: review
+    original: そのへんの思いっきりのよさをすごく感じます（笑）。
+    translation: 这种果断的感觉非常明显（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r214
+    order: "209"
+    scan_page: 4
+    review_status: review
+    original: だから、グラードンなんかも線が多くて、アニメなんかではすごく描きにくいポケモンだと思うんですね。でもいいやと思って（笑）。かっこいいほうを優先させようと。そういう感じで今回を描いたところがありますね。
+    translation: 所以像固拉多这种线条很多的，我觉得在动画里是非常难画的宝可梦。但我想算了不管了（笑）。优先选择帅气。这次就是带着这种感觉画的。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r215
+    order: "210"
+    scan_page: 4
+    review_status: review
+    original: それでも、細かい線は少な目にしようとか。
+    translation: 不过还是会尽量减少细碎的线条。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r216
+    order: "211"
+    scan_page: 4
+    review_status: review
+    original: それは、商品化とかは別にして、単純に、ごちゃごちゃしてるとわかりにくくなって印象が弱くなるからというところはもちろん気をつけてました。でも、こう描いた方がアニメ的にはいいだろうということはあんまり意識しないで、まあ伸び伸びというと語弊がありますけど（笑）、その意味でも初心にかえって描いたところはありますね。
+    translation: 那一点跟商品化无关，单纯是因为太杂乱会难以辨认、印象变弱，所以当然会注意。但并没有太有意识地去想「这样画在动画里会更好」，怎么说呢，说自由舒展可能有点语病（笑），从这个意义上说，这次也是回归初心来画的。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r217
+    order: "212"
+    scan_page: 4
+    review_status: review
+    original: 「これ、どうやったら立体になるんだ？ やってみてよ！」くらいの勢いで（笑）。
+    translation: 带着「这个要怎么才能做成3D？你去做做看啊！」的势头（笑）。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r218
+    order: "213"
+    scan_page: 4
+    review_status: review
+    original: No.199 グラードン
+    translation: No.199 固拉多
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r219
+    order: "214"
+    scan_page: 4
+    review_status: review
+    original: それに今回は、これまでのポケモンらしくない、変なものも出てますので、どんな反応があるのか気になりましたね。
+    translation: 而且这次也出现了一些不像以往宝可梦的奇怪东西，我很在意会有什么反应。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r220
+    order: "215"
+    scan_page: 4
+    review_status: review
+    original: もともと『赤・緑』のときも変なポケモンが多かったですし、ピカチュウも最初はかわいいポケモンとして登場したわけではないんですよね。
+    translation: 原本《红·绿》的时候就有很多奇怪的宝可梦，皮卡丘最初也不是作为可爱宝可梦登场的。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r221
+    order: "216"
+    scan_page: 4
+    review_status: review
+    original: そうですね。ここ何年かの間でポケモンっぽいイメージができあがっちゃったので、そこからちょっとでもはずれると「これはポケモンじゃない」というような反発が強くなっていくような傾向があったと思うんです。
+    translation: 是啊。这几年间「像宝可梦」的印象已经固定下来了，所以只要稍微偏离一点，就会有人强烈反对说「这不是宝可梦」。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r222
+    order: "217"
+    scan_page: 4
+    review_status: review
+    original: でも、作り手としてはそうじゃないと。
+    translation: 不过，作为创作者来说，不这样就不行。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r223
+    order: "218"
+    scan_page: 4
+    review_status: review
+    original: 極端ないい方をすると、「ポケモン」に出ていればポケモンなんですよね（笑）。だから、「ぼくらが考えるポケモンはこれなんです」という感じです。
+    translation: 说得极端一点，只要在《宝可梦》里出场，那就是宝可梦了（笑）。所以感觉就是“我们认为是宝可梦的就是这个”。
+  - type: heading
+    kind: text
+    region_type: heading
+    region_id: p004_leaf4-h224
+    order: '219'
+    scan_page: 4
+    heading_level: 3
+    review_status: review
+    original: アチャモのモデルはカラーヒヨコ！
+    translation: 火稚鸡的原型是彩色小鸡！
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r225
+    order: "220"
+    scan_page: 4
+    review_status: review
+    original: 最初の3匹が進化すると「ええっ！ こうなっちゃうの！？」みたいな驚きがありますよね。だから小さな子どもはビックリするんじゃないかと（笑）。
+    translation: 最初的3只进化后，会有“哎！变成这样了！？”这样的惊讶。所以小孩子应该会吓一跳吧（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r226
+    order: "221"
+    scan_page: 4
+    review_status: review
+    original: （笑）。変化の激しさが進化の醍醐味だと思うんです。アチャモってそもそもはカラーヒヨコがモデルなんですよ。
+    translation: （笑）。变化的剧烈程度正是进化的妙趣所在。火稚鸡原本就是以彩色小鸡为原型的。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r227
+    order: "222"
+    scan_page: 4
+    review_status: review
+    original: ああ、昔夜店なんかで、いろんな色を塗られたヒヨコが売られてましたねえ（笑）。
+    translation: 啊，以前夜市之类的地方，会卖染成各种颜色的小鸡呢（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r228
+    order: "223"
+    scan_page: 4
+    review_status: review
+    original: 僕らの世代だと、子どもの頃に必ずカラーヒヨコを買ってるじゃないですか。だからオレンジ色にしてあるわけですけど、最初はかわいかったカラーヒヨコも、育てているうちに醜くなって凶暴な鳥になっていくわけです。そのような変化を表現したいと思って、アチャモ、ワカシャモ、バシャーモとなったわけです（笑）。
+    translation: 我们这一代人，小时候肯定都买过彩色小鸡吧。所以把它做成橙色的，但原本很可爱的彩色小鸡，养着养着就会变丑，变成凶暴的鸟。我们想表现这种变化，于是就有了火稚鸡、力壮鸡、火焰鸡（笑）。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r229
+    order: "224"
+    scan_page: 4
+    review_status: review
+    original: No.004 アチャモ
+    translation: No.004 火稚鸡
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r230
+    order: "225"
+    scan_page: 4
+    review_status: review
+    original: あのカラーヒヨコの感じはよく出てますね〜（笑）。カラーヒヨコが大きくなると、かわいくないので捨てる人が結構いたんですよね（笑）。
+    translation: 那种彩色小鸡的感觉表现得很好呢～（笑）。彩色小鸡长大后不可爱，所以有不少人会把它丢掉（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r231
+    order: "226"
+    scan_page: 4
+    review_status: review
+    original: まあ、あのように育ってしまってガッカリ感を味わいつつも、それが醜いツメを手に入れるための代償であったりするわけですね。
+    translation: 嗯，虽然会体会到它长成那样后的失望感，但那也是获得丑陋爪子的代价。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r232
+    order: "227"
+    scan_page: 4
+    review_status: review
+    original: それに、醜くなろうともずっと育ててると愛情も生まれてきて…。ところで、お二人にとってポケモンとは何ですか？
+    translation: 而且，就算变丑了，一直养下去也会产生感情……话说回来，对两位来说，宝可梦是什么？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r233
+    order: "228"
+    scan_page: 4
+    review_status: review
+    original: ……。
+    translation: ……。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r234
+    order: "229"
+    scan_page: 4
+    review_status: review
+    original: ……。
+    translation: ……。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r235
+    order: "230"
+    scan_page: 4
+    review_status: review
+    original: …なんでしょうね？
+    translation: ……是什么呢？
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r236
+    order: "231"
+    scan_page: 4
+    review_status: review
+    original: 後ほどまたお聞きします（笑）。それでは思い入れのあるポケモンは何ですか？
+    translation: 之后再问您吧（笑）。那么，您有感情投入的宝可梦是哪些呢？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r237
+    order: "232"
+    scan_page: 4
+    review_status: review
+    original: コダックとかがそうなんですけど、今回のポケモンだとアチャモとかハスボーとかホエルオーとか。基本的に「こんなのどう？」ってデザイナーに頼んだヤツはやっぱり好きになってますよね。
+    translation: 可达鸭之类的算是，这次的话就是火稚鸡、莲叶童子、吼鲸王这些。基本上，我拜托设计师「这个怎么样？」做出来的，果然都会喜欢上。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r238
+    order: "233"
+    scan_page: 4
+    review_status: review
+    original: No.100 ホエルオー
+    translation: No.100 吼鲸王
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r239
+    order: "234"
+    scan_page: 4
+    review_status: review
+    original: 増田さんも「こんなポケモンをつくって」という依頼をするわけですね。杉森さんは？
+    translation: 增田先生也会提出「做这样的宝可梦」这样的委托呢。杉森先生呢？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r240
+    order: "235"
+    scan_page: 4
+    review_status: review
+    original: 思い入れのあるポケモンは………（しばし熟考）。けっこう少ない線で斬新なデザインになったなあというのが気に入ってるんで、メタモンとか。
+    translation: 有感情投入的宝可梦是………（思考片刻）。我比较喜欢用相当少的线条做出崭新设计的，比如百变怪。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r241
+    order: "236"
+    scan_page: 4
+    review_status: review
+    original: ああ、なるほど。
+    translation: 啊，原来如此。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r242
+    order: "237"
+    scan_page: 4
+    review_status: review
+    original: あれって別にどうってことないカタチをしてるじゃないですか。でも、輪郭をグニャグニャにしてるだけで個性が出るものなんですよね。デザインのおもしろさみたいなものが、あれでわかったような気がしますね。
+    translation: 那个其实形状也没什么特别的吧。但是，只是把轮廓弄得歪歪扭扭，就能显出个性来。设计的趣味性，我觉得通过那个算是明白了。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r243
+    order: "238"
+    scan_page: 4
+    review_status: review
+    original: ところで、どうしてタイトルに『ルビー・サファイア』をつけたんですか？
+    translation: 话说回来，为什么标题要加上「红宝石·蓝宝石」呢？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r244
+    order: "239"
+    scan_page: 4
+    review_status: review
+    original: はい、これはですね…。
+    translation: 是的，这个嘛……。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r245
+    order: "240"
+    scan_page: 4
+    review_status: review
+    original: めちゃくちゃ悩んでいたよね。
+    translation: 当时纠结得不得了。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r246
+    order: "241"
+    scan_page: 4
+    review_status: review
+    original: ものすごく悩みましたね（笑）。去年の今頃（2002年1月）でもまだ決まってなくって、夏の映画の封切り前くらいに決まった感じだったんですよ。そのくらい悩んでまして、当初は違うタイトルもいくつか候補にあげていたんですけど、商標の問題なんかもあってクリアできなかったりしたんです。海外版で英語にしたときの感じも考慮にいれて、前作が『クリスタルバージョン』だったので、その次にくるものということで、新しくもあり、先が見えるものであったり、過去も見えるものということで、鉱物のなかから…。
+    translation: 真是伤透了脑筋（笑）。直到去年这个时候（2002年1月）都还没定下来，感觉是在夏天电影上映前才定下的。就是烦恼到这种程度，当初也提过几个别的标题候选，但因为商标之类的问题没能通过。也考虑了在海外版变成英语时的感觉，前作是《水晶版》，所以作为接在它后面的东西，既要新，又要能看见未来，也能看见过去，于是就从矿物之中……
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r247
+    order: "242"
+    scan_page: 4
+    review_status: review
+    original: それに2バージョンあるので、対になってないといけないわけです。
+    translation: 而且因为有两个版本，所以必须成对才行。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r248
+    order: "243"
+    scan_page: 4
+    review_status: review
+    original: 対になっていて、商標のチェックも通って、日本でも海外でも同じタイトルにしなきゃあという、とても狭い条件があったんですね。
+    translation: 既要成对，又要通过商标审查，无论在日本还是海外都必须用同一个标题，条件非常苛刻。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r249
+    order: "244"
+    scan_page: 4
+    review_status: review
+    original: ルビーとサファイアって、もともと同じ原石なんですよね。
+    translation: 红宝石和蓝宝石，原本是同一种原石吧。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r250
+    order: "245"
+    scan_page: 4
+    review_status: review
+    original: そうですね。コランダムという原石で。赤いものだけをルビーと言って、それ以外のものをサファイアと呼んでるんです。
+    translation: 是的。是一种叫刚玉的原石。只有红色的才叫红宝石，除此之外的都叫蓝宝石。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r251
+    order: "246"
+    scan_page: 4
+    review_status: review
+    original: それでブルーのサファイアがもっとも価値があると…。その同じ原石ということも意識したわけですか？
+    translation: 所以蓝色的蓝宝石才是最有价值的……。你们也意识到了是同一种原石这一点吗？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r252
+    order: "247"
+    scan_page: 4
+    review_status: review
+    original: ええ。基本は一緒。でも、見方が変わることで赤くもなり青くもなるというコンセプトなんです。
+    translation: 是的。基本是一样的。但这是一个通过改变看法，既能变红也能变蓝的概念。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r253
+    order: "248"
+    scan_page: 4
+    review_status: review
+    original: よくもまあ、キレイにはまりましたね（笑）。
+    translation: 还真是巧妙地契合上了呢（笑）。
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r254
+    order: "249"
+    scan_page: 4
+    review_status: review
+    original: わははは（笑）。
+    translation: 哇哈哈哈（笑）。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r255
+    order: "250"
+    scan_page: 4
+    review_status: review
+    original: そのコンセプトを導き出したとき、「これしかない！」って思いました？
+    translation: 想出这个概念的时候，你觉得“只能选这个了！”吗？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r256
+    order: "251"
+    scan_page: 4
+    review_status: review
+    original: そうですね。最初は「これだ！」と思ったんですけど、TPC（株式会社ポケモン）に投げたら、はねかえされました（笑）。
+    translation: 是啊。一开始我觉得“就是这个了！”，但提交给TPC（株式会社宝可梦）后，被驳回了（笑）。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r257
+    order: "252"
+    scan_page: 4
+    review_status: review
+    original: No.005 ワカシャモ
+    translation: No.005 力壮鸡
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r258
+    order: "253"
+    scan_page: 4
+    review_status: review
+    original: そうだったんですか？（笑）
+    translation: 是这样吗？（笑）
+  - speaker: 近藤
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r259
+    order: "254"
+    scan_page: 4
+    review_status: review
+    original: （小さい声で）すみません…。心機一転がテーマでしたから、最初は「前作『クリスタルバージョン』と同じ鉱物はどうなんだろう？」と思ったんです。でも、ゲームフリークさんの考えをよく伺ったら、「ああなるほど、これ以外にないな」ということで、その「ルビー・サファイア」に落ち着いたんです。いい名前ですね（笑）。
+    translation: （小声地）不好意思……。因为主题是焕然一新，所以一开始我想的是「和前作《水晶版》用同样的矿物怎么样？」。不过，仔细听了GAME FREAK的想法之后，觉得「啊，原来如此，非这个不可了」，于是就定在了「红宝石·蓝宝石」。真是个好名字呢（笑）。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r260
+    order: "255"
+    scan_page: 4
+    review_status: review
+    original: もともと『ポケモン』には、色へのこだわりがあったはずですけど、なぜ鉱物を選ぶようになったんですか？
+    translation: 原本《宝可梦》应该是对颜色有讲究的，为什么后来会选择矿物呢？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r261
+    order: "256"
+    scan_page: 4
+    review_status: review
+    original: 「クリスタルバージョン」自体が、電波発信機の水晶のクリスタルからとってるので、そこからゲームの中身に合わせたタイトルにしようと。
+    translation: 《水晶版》本身就是取自电波发射机的水晶（crystal），所以从那之后就想配合游戏内容来定标题。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r262
+    order: "257"
+    scan_page: 4
+    review_status: review
+    original: 「クリスタルバージョン」はモバイルGB対応になっていましたからね。
+    translation: 《水晶版》是支持移动GB的嘛。
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r263
+    order: "258"
+    scan_page: 4
+    review_status: review
+    original: ああ、なるほど！ 理にかなってますねえ（笑）。じゃあ、次のタイトルもすでに考えてるんじゃないですか？
+    translation: 啊，原来如此！很合理呢（笑）。那么，下一个标题是不是也已经想好了？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r264
+    order: "259"
+    scan_page: 4
+    review_status: review
+    original: それは…、ま、それなりにいろいろと（笑）。
+    translation: 那个嘛……，嗯，多多少少有一些（笑）。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p004_leaf4-r265
+    order: "260"
+    scan_page: 4
+    review_status: review
+    original: No.019 ハスボー
+    translation: No.019 莲叶童子
+  - speaker: ──
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r266
+    order: "261"
+    scan_page: 4
+    review_status: review
+    original: 楽しみにしています（笑）。今作は海と大地の戦いがテーマになっていますけど、そこで伝えたかったことはどんなことですか？
+    translation: 我很期待（笑）。本作以海与大地之争为主题，那么你们想通过它传达什么呢？
+  - speaker: 增田顺一
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p004_leaf4-r267
+    order: "262"
+    scan_page: 4
+    review_status: review
+    original: 最初に考えたのは、自然と人間とポケモンが、バランスのとれたいい環境にあって、そのような調和の世界をつくりたいなあっと。で、片方でマグマ団、もう一方でアクア団がいますけど、最初の段階では合体してるような感じで、分かれていなかったんです。とにかく、その世界では、自然を大切にする文化が息づいていているという感じで、ゲームをしてるとわかると思うんですけど、きれいな世界というか、「最終的に住みやすい世界はこんな感じなのかな」という世界を描きたいと思ったんです。そのあと、アクア団とマグマ団という組織が生まれて、去年の今頃だったと思うんですけど、「2つの集団が存在するんだったらバージョンでわけたほうが面白いのかも」と、ふと思うようになって、赤（ルビー）にマグマ団を、青（サファイア）にアクア団という振り分けをしてみたんです。ゲーム内では海と陸の対立の図式になってますけど、本来はアクアが自然を極端に大切にする集団で、マグマは文化や科学を極端に大切にする集団、そしてその中央を主人公が歩くという設定なんです。主人公はどちらの側にもついていない、いちばんまっすぐな世界なんです。
+    translation: 最初考虑的是，自然、人类与宝可梦处于平衡良好的环境中，想打造这样一个和谐的世界。然后，一边有熔岩队，另一边有海洋队，但在最初的阶段，感觉两者是合为一体的，并没有分开。总之，在那个世界里，有着珍视自然的文化在生生不息，玩过游戏就会明白，那是一个美丽的世界，或者说，我想描绘的是一个「最终宜居的世界大概就是这种感觉吧」的世界。之后，海洋队和熔岩队这两个组织诞生了，记得大概是去年这个时候，我忽然开始想「既然存在两个集团，按版本分开说不定会更有趣」，于是试着把熔岩队分给红（红宝石）、把海洋队分给蓝（蓝宝石）。在游戏里呈现为海与陆的对立格局，但本来海洋队是极端珍视自然的集团，熔岩队是极端珍视文化与科学的集团，而主角走在两者正中间，就是这样的设定。主角不偏向任何一方，是最为笔直的世界。
   - speaker: ──
     type: paragraph
     kind: text
@@ -1835,856 +2693,6 @@ translation_segments:
     review_status: review
     original: ホントに大変でしたね。
     translation: 真是辛苦啊。
-  - speaker: body
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r183
-    order: "178"
-    scan_page: 4
-    review_status: review
-    original: って、そのへんのバランス調整に関しては、『金・銀』のときよりも難しかったですね。
-    translation: 说到这方面，平衡调整比《金·银》的时候更难。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r184
-    order: "179"
-    scan_page: 4
-    review_status: review
-    original: 逆に、『金・銀』までのポケモンから使うことになって、新ポケモンのほうで調整をしたりというようなこともあったわけですか？
-    translation: 反过来说，也有让到《金·银》为止的宝可梦来使用、再在新宝可梦那边做调整这样的情况吗？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r185
-    order: "180"
-    scan_page: 4
-    review_status: review
-    original: そういうことも少しやりましたね。
-    translation: 这种情况也稍微做了一些。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r186
-    order: "181"
-    scan_page: 4
-    review_status: review
-    original: 杉森さんが描いたポケモンがすべて登場してるわけではないんですね。
-    translation: 也就是说，杉森先生画的宝可梦并不是全部都登场了。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r187
-    order: "182"
-    scan_page: 4
-    review_status: review
-    original: そりゃあもう、山のようにボツが（笑）。
-    translation: 那当然，被毙掉的像山一样多（笑）。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r188
-    order: "183"
-    scan_page: 4
-    review_status: review
-    original: 「これは絶対に入るだろう」と思ってたようなヤツもボツになったりしましたからね。
-    translation: 有些我们觉得“这个绝对会入选”的家伙也被毙掉了。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r189
-    order: "184"
-    scan_page: 4
-    review_status: review
-    original: 旧作の人気のポケモンは絶対に入れなきゃいけなかったりとか…？
-    translation: 旧作里受欢迎的宝可梦是不是必须得放进去之类的……？
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r190
-    order: "185"
-    scan_page: 4
-    review_status: review
-    original: あまりそのような感情を入れていくのはよくないんじゃないかって。どんなポケモンもファンというか、好きな人が必ずいますからね。
-    translation: 我觉得带着那种感情去选不太好。因为不管哪只宝可梦，都一定有喜欢它的粉丝。
-  - type: heading
-    kind: text
-    region_type: heading
-    region_id: p004_leaf4-h191
-    order: '186'
-    scan_page: 4
-    heading_level: 3
-    review_status: review
-    original: ポケモンはどうやって生まれるか
-    translation: 宝可梦是如何诞生的
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r192
-    order: "187"
-    scan_page: 4
-    review_status: review
-    original: 新ポケモンで面白いと思ったのは、ナマケロからせっかくヤルキモノに進化して、その後にケッキング。また休むのかよみたいな（笑）。このあたりはモデルになった人がスタッフのなかにいたりしたんですか？
-    translation: 新宝可梦里我觉得有趣的是，懒人獭好不容易进化成过动猿，之后又变成请假王。又休息了啊（笑）。这附近是不是有以工作人员为原型的？
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r193
-    order: "188"
-    scan_page: 4
-    review_status: review
-    original: スタッフがモデルになったのは、今回はいないですね。
-    translation: 这次没有以工作人员为原型的。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r194
-    order: "189"
-    scan_page: 4
-    review_status: review
-    original: カビゴンのモデルとして有名な西野〓二さんのような事はなかった…。
-    translation: 没有像以卡比兽原型而闻名的西野〓二先生那样的事……
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r195
-    order: "190"
-    scan_page: 4
-    review_status: review
-    original: そうですね。ナマケロに関しては、怠け者からヤル気になって、そこからさらにヤル気になってもあんまり面白くないなと思ったんで（笑）。
-    translation: 是啊。关于懒人獭，从懒汉变得有干劲，再从那里进一步变得有干劲就没什么意思了（笑）。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r196
-    order: "191"
-    scan_page: 4
-    review_status: review
-    original: ジグザグマからマッスグマというのも笑いましたけど（笑）。
-    translation: 蛇纹熊变成直冲熊这个也让人笑了（笑）。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r197
-    order: "192"
-    scan_page: 4
-    review_status: review
-    original: No.038 ケッキング
-    translation: No.038 请假王
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r198
-    order: "193"
-    scan_page: 4
-    review_status: review
-    original: ナマケロやジグザグマに関しては、デザイナーから案があがってきたときに、最初から名前がついてたんです。それで名前がすごくいいということで、ずかんのテキストを膨らませていって、あのようなキャラクターになったわけですね。そのようにデザイナーのほうで全部できあがっちゃってる場合もたまにあるんです。
-    translation: 关于懒人獭和蛇纹熊，设计师提出方案的时候，就已经从一开始起好名字了。因为名字起得非常好，我们就扩充了图鉴的文本，最终形成了那样的角色。像这样由设计师那边全部完成的情况，偶尔也是有的。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r199
-    order: "194"
-    scan_page: 4
-    review_status: review
-    original: No.012 ジグザグマ
-    translation: No.012 蛇纹熊
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r200
-    order: "195"
-    scan_page: 4
-    review_status: review
-    original: ポケモンは何人くらいのデザイナーでつくったんですか？
-    translation: 宝可梦是由几位设计师制作的呢？
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r201
-    order: "196"
-    scan_page: 4
-    review_status: review
-    original: 今回は僕を入れて8人ですね。
-    translation: 这次包括我在内是8个人。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r202
-    order: "197"
-    scan_page: 4
-    review_status: review
-    original: いろんなケースがあるんでしょうけど、1匹のポケモンが誕生するまで、どんな課程があるんですか？
-    translation: 应该会有各种情况，不过一只宝可梦诞生之前，会经历怎样的过程呢？
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r203
-    order: "198"
-    scan_page: 4
-    review_status: review
-    original: 8人のデザイナーが、それぞれ自分のインスピレーションに従ってラフを描いたり、企画サイドから「このようなタイプのポケモンがほしい」というような注文を受けて描くような場合もあります。そこであがったものをみんなで持ち寄って、「これはこうしたほうがいい」というような品評会みたいなことをして、それをもう一度集めてきて、僕が最終的に仕上げるようにしています。デザイナーによって描くテイストが違いますし、なかにはポケモンっぽくないのもあったりとか、少女マンガのようなものもいたりするので、テイストを統一して最終的なものにしてるんですね。
-    translation: 8位设计师会各自按照自己的灵感画草图，也有从企划那边接到“想要这种类型的宝可梦”的要求后再画的情况。把那里拿出来的东西大家凑到一起，进行类似“这个这样改比较好”的评鉴会，然后再重新收集起来，由我做最终的完成。不同设计师画出来的风格不一样，其中也有不太像宝可梦的，还有像少女漫画一样的，所以要统一风格，做成最终的样子。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r204
-    order: "199"
-    scan_page: 4
-    review_status: review
-    original: 今回、新ポケモンをつくるにあたって、意識したことはありますか？
-    translation: 这次制作新宝可梦的时候，有什么特别留意的地方吗？
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r205
-    order: "200"
-    scan_page: 4
-    review_status: review
-    original: 今回はポケモンの幅がどこまで広いのか、どこまでが許されるのか試そうと考えてまして…。それで、いちばん最初にやったのがバシャーモだったんです。あのような、あからさまな人型のポケモンが許されるのかなと思って、あえて試してみたところがありましたね。
-    translation: 这次我想试试宝可梦的幅度到底能有多宽，到什么程度能被允许……所以，最先做的就是火焰鸡。我想看看那种明显是人型的宝可梦能不能被允许，就特意试了一下。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r206
-    order: "201"
-    scan_page: 4
-    review_status: review
-    original: なるほど。『金・銀』のときに登場した新ポケモンはかわいい系が多かったですけど、今回は…。
-    translation: 原来如此。《金·银》时登场的新宝可梦有很多可爱系的，但这次……
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r207
-    order: "202"
-    scan_page: 4
-    review_status: review
-    original: そうですね。かわいいものが多かったし、それで幼児化したようなことも言われたりもしましたんで、今作ではモンスターのかっこよさみたいな原点に戻るということを、テーマのひとつにしていました。怪獣型のグラードンに代表されるような、かっこよくて強そうなポケモンをどんどん入れていこうとしたんです。それに加えて、今までのカテゴリーにはないポケモンも新たに提案していこうということが2大テーマとしてあったわけです。
-    translation: 是啊。因为可爱的比较多，也被人说成是低龄化了，所以这次把回归怪兽帅气这样的原点作为主题之一。以怪兽型的固拉多为代表，不断加入又帅又强的宝可梦。再加上提出至今为止的类别中没有的宝可梦，这两点就是两大主题。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r208
-    order: "203"
-    scan_page: 4
-    review_status: review
-    original: No.006 バシャーモ
-    translation: No.006 火焰鸡
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r209
-    order: "204"
-    scan_page: 4
-    review_status: review
-    original: 確かに今作をプレイしていて、「原点に戻る」感というのが、すごく感じられるんです。開発中は「『ポケモン』とは何をや」ということを、すごく意識していたんじゃないですか？
-    translation: 确实在玩这次的作品时，能非常强烈地感受到“回归原点”的感觉。开发过程中，是不是非常意识到“宝可梦是什么”这个问题呢？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r210
-    order: "205"
-    scan_page: 4
-    review_status: review
-    original: そうですね。タイトルからそうなんですけど「ルビー」と「サファイア」って、赤と青ですよね。「初心に帰ろう」ということで、最初の色に戻ろうと。でも、ただ戻るだけではなく、GBアドバンスを使って一体どんな世界がつくれるのかというところに挑戦したわけです。グラフィックに関して言えば、『ポケモン』を知っててポケモンを描こうとすると、どんどんずれた方向に行ってしまうんです。でも、かつて『赤・緑』をつくったときは、怪獣みたいなものからポケモンをクリエイトしていくようなところがあったわけです。だから、パッケージのグラードンやカイオーガのような、恐竜や怪獣のようなおもしろさを、今作ではどんどん出していこうと意識していたんですね。
-    translation: 是啊。从标题开始就是这样，「红宝石」和「蓝宝石」就是红与蓝。我们想「回归初心」，回到最初的配色。不过并不是单纯回归，而是挑战用GBA能创造出怎样的世界。就画面而言，如果带着对「宝可梦」的既有认知去画宝可梦，就会越来越偏离方向。但当年制作《红·绿》时，是从类似怪兽的东西中创造出宝可梦的。所以像包装上的固拉多和盖欧卡那样，恐龙或怪兽般的有趣之处，在本作中我有意识地不断呈现出来。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r211
-    order: "206"
-    scan_page: 4
-    review_status: review
-    original: 前回の『金・銀』のインタビュー（2000年2月号）では、ポケモンをデザインするとき、グッズなどの商品化も意識しないといけないので、制約みたいなものがあったという話でしたが。
-    translation: 在之前《金·银》的采访（2000年2月号）中，您提到设计宝可梦时还必须考虑到周边商品化，所以会有一些制约。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r212
-    order: "207"
-    scan_page: 4
-    review_status: review
-    original: 制約というか、いろいろ気をつかってしまったんですね。「このようなキャラクターじゃないとアニメでは描きにくいだろう」みたいなことを前提にして描くわけです。だからアニメのスタッフや立体をやってる人には悪いんですけど、今作ではそのようなことをあんまり考えないでやろうと（笑）。
-    translation: 与其说是制约，不如说是顾虑太多。会以「不是这种角色的话动画里大概很难画」为前提来画。所以对动画工作人员和做立体造型的人来说很抱歉，但本作我们尽量不去考虑这些（笑）。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r213
-    order: "208"
-    scan_page: 4
-    review_status: review
-    original: そのへんの思いっきりのよさをすごく感じます（笑）。
-    translation: 这种果断的感觉非常明显（笑）。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r214
-    order: "209"
-    scan_page: 4
-    review_status: review
-    original: だから、グラードンなんかも線が多くて、アニメなんかではすごく描きにくいポケモンだと思うんですね。でもいいやと思って（笑）。かっこいいほうを優先させようと。そういう感じで今回を描いたところがありますね。
-    translation: 所以像固拉多这种线条很多的，我觉得在动画里是非常难画的宝可梦。但我想算了不管了（笑）。优先选择帅气。这次就是带着这种感觉画的。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r215
-    order: "210"
-    scan_page: 4
-    review_status: review
-    original: それでも、細かい線は少な目にしようとか。
-    translation: 不过还是会尽量减少细碎的线条。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r216
-    order: "211"
-    scan_page: 4
-    review_status: review
-    original: それは、商品化とかは別にして、単純に、ごちゃごちゃしてるとわかりにくくなって印象が弱くなるからというところはもちろん気をつけてました。でも、こう描いた方がアニメ的にはいいだろうということはあんまり意識しないで、まあ伸び伸びというと語弊がありますけど（笑）、その意味でも初心にかえって描いたところはありますね。
-    translation: 那一点跟商品化无关，单纯是因为太杂乱会难以辨认、印象变弱，所以当然会注意。但并没有太有意识地去想「这样画在动画里会更好」，怎么说呢，说自由舒展可能有点语病（笑），从这个意义上说，这次也是回归初心来画的。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r217
-    order: "212"
-    scan_page: 4
-    review_status: review
-    original: 「これ、どうやったら立体になるんだ？ やってみてよ！」くらいの勢いで（笑）。
-    translation: 带着「这个要怎么才能做成3D？你去做做看啊！」的势头（笑）。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r218
-    order: "213"
-    scan_page: 4
-    review_status: review
-    original: No.199 グラードン
-    translation: No.199 固拉多
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r219
-    order: "214"
-    scan_page: 4
-    review_status: review
-    original: それに今回は、これまでのポケモンらしくない、変なものも出てますので、どんな反応があるのか気になりましたね。
-    translation: 而且这次也出现了一些不像以往宝可梦的奇怪东西，我很在意会有什么反应。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r220
-    order: "215"
-    scan_page: 4
-    review_status: review
-    original: もともと『赤・緑』のときも変なポケモンが多かったですし、ピカチュウも最初はかわいいポケモンとして登場したわけではないんですよね。
-    translation: 原本《红·绿》的时候就有很多奇怪的宝可梦，皮卡丘最初也不是作为可爱宝可梦登场的。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r221
-    order: "216"
-    scan_page: 4
-    review_status: review
-    original: そうですね。ここ何年かの間でポケモンっぽいイメージができあがっちゃったので、そこからちょっとでもはずれると「これはポケモンじゃない」というような反発が強くなっていくような傾向があったと思うんです。
-    translation: 是啊。这几年间「像宝可梦」的印象已经固定下来了，所以只要稍微偏离一点，就会有人强烈反对说「这不是宝可梦」。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r222
-    order: "217"
-    scan_page: 4
-    review_status: review
-    original: でも、作り手としてはそうじゃないと。
-    translation: 不过，作为创作者来说，不这样就不行。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r223
-    order: "218"
-    scan_page: 4
-    review_status: review
-    original: 極端ないい方をすると、「ポケモン」に出ていればポケモンなんですよね（笑）。だから、「ぼくらが考えるポケモンはこれなんです」という感じです。
-    translation: 说得极端一点，只要在《宝可梦》里出场，那就是宝可梦了（笑）。所以感觉就是“我们认为是宝可梦的就是这个”。
-  - type: heading
-    kind: text
-    region_type: heading
-    region_id: p004_leaf4-h224
-    order: '219'
-    scan_page: 4
-    heading_level: 3
-    review_status: review
-    original: アチャモのモデルはカラーヒヨコ！
-    translation: 火稚鸡的原型是彩色小鸡！
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r225
-    order: "220"
-    scan_page: 4
-    review_status: review
-    original: 最初の3匹が進化すると「ええっ！ こうなっちゃうの！？」みたいな驚きがありますよね。だから小さな子どもはビックリするんじゃないかと（笑）。
-    translation: 最初的3只进化后，会有“哎！变成这样了！？”这样的惊讶。所以小孩子应该会吓一跳吧（笑）。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r226
-    order: "221"
-    scan_page: 4
-    review_status: review
-    original: （笑）。変化の激しさが進化の醍醐味だと思うんです。アチャモってそもそもはカラーヒヨコがモデルなんですよ。
-    translation: （笑）。变化的剧烈程度正是进化的妙趣所在。火稚鸡原本就是以彩色小鸡为原型的。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r227
-    order: "222"
-    scan_page: 4
-    review_status: review
-    original: ああ、昔夜店なんかで、いろんな色を塗られたヒヨコが売られてましたねえ（笑）。
-    translation: 啊，以前夜市之类的地方，会卖染成各种颜色的小鸡呢（笑）。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r228
-    order: "223"
-    scan_page: 4
-    review_status: review
-    original: 僕らの世代だと、子どもの頃に必ずカラーヒヨコを買ってるじゃないですか。だからオレンジ色にしてあるわけですけど、最初はかわいかったカラーヒヨコも、育てているうちに醜くなって凶暴な鳥になっていくわけです。そのような変化を表現したいと思って、アチャモ、ワカシャモ、バシャーモとなったわけです（笑）。
-    translation: 我们这一代人，小时候肯定都买过彩色小鸡吧。所以把它做成橙色的，但原本很可爱的彩色小鸡，养着养着就会变丑，变成凶暴的鸟。我们想表现这种变化，于是就有了火稚鸡、力壮鸡、火焰鸡（笑）。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r229
-    order: "224"
-    scan_page: 4
-    review_status: review
-    original: No.004 アチャモ
-    translation: No.004 火稚鸡
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r230
-    order: "225"
-    scan_page: 4
-    review_status: review
-    original: あのカラーヒヨコの感じはよく出てますね〜（笑）。カラーヒヨコが大きくなると、かわいくないので捨てる人が結構いたんですよね（笑）。
-    translation: 那种彩色小鸡的感觉表现得很好呢～（笑）。彩色小鸡长大后不可爱，所以有不少人会把它丢掉（笑）。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r231
-    order: "226"
-    scan_page: 4
-    review_status: review
-    original: まあ、あのように育ってしまってガッカリ感を味わいつつも、それが醜いツメを手に入れるための代償であったりするわけですね。
-    translation: 嗯，虽然会体会到它长成那样后的失望感，但那也是获得丑陋爪子的代价。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r232
-    order: "227"
-    scan_page: 4
-    review_status: review
-    original: それに、醜くなろうともずっと育ててると愛情も生まれてきて…。ところで、お二人にとってポケモンとは何ですか？
-    translation: 而且，就算变丑了，一直养下去也会产生感情……话说回来，对两位来说，宝可梦是什么？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r233
-    order: "228"
-    scan_page: 4
-    review_status: review
-    original: ……。
-    translation: ……。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r234
-    order: "229"
-    scan_page: 4
-    review_status: review
-    original: ……。
-    translation: ……。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r235
-    order: "230"
-    scan_page: 4
-    review_status: review
-    original: …なんでしょうね？
-    translation: ……是什么呢？
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r236
-    order: "231"
-    scan_page: 4
-    review_status: review
-    original: 後ほどまたお聞きします（笑）。それでは思い入れのあるポケモンは何ですか？
-    translation: 之后再问您吧（笑）。那么，您有感情投入的宝可梦是哪些呢？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r237
-    order: "232"
-    scan_page: 4
-    review_status: review
-    original: コダックとかがそうなんですけど、今回のポケモンだとアチャモとかハスボーとかホエルオーとか。基本的に「こんなのどう？」ってデザイナーに頼んだヤツはやっぱり好きになってますよね。
-    translation: 可达鸭之类的算是，这次的话就是火稚鸡、莲叶童子、吼鲸王这些。基本上，我拜托设计师「这个怎么样？」做出来的，果然都会喜欢上。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r238
-    order: "233"
-    scan_page: 4
-    review_status: review
-    original: No.100 ホエルオー
-    translation: No.100 吼鲸王
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r239
-    order: "234"
-    scan_page: 4
-    review_status: review
-    original: 増田さんも「こんなポケモンをつくって」という依頼をするわけですね。杉森さんは？
-    translation: 增田先生也会提出「做这样的宝可梦」这样的委托呢。杉森先生呢？
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r240
-    order: "235"
-    scan_page: 4
-    review_status: review
-    original: 思い入れのあるポケモンは………（しばし熟考）。けっこう少ない線で斬新なデザインになったなあというのが気に入ってるんで、メタモンとか。
-    translation: 有感情投入的宝可梦是………（思考片刻）。我比较喜欢用相当少的线条做出崭新设计的，比如百变怪。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r241
-    order: "236"
-    scan_page: 4
-    review_status: review
-    original: ああ、なるほど。
-    translation: 啊，原来如此。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r242
-    order: "237"
-    scan_page: 4
-    review_status: review
-    original: あれって別にどうってことないカタチをしてるじゃないですか。でも、輪郭をグニャグニャにしてるだけで個性が出るものなんですよね。デザインのおもしろさみたいなものが、あれでわかったような気がしますね。
-    translation: 那个其实形状也没什么特别的吧。但是，只是把轮廓弄得歪歪扭扭，就能显出个性来。设计的趣味性，我觉得通过那个算是明白了。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r243
-    order: "238"
-    scan_page: 4
-    review_status: review
-    original: ところで、どうしてタイトルに『ルビー・サファイア』をつけたんですか？
-    translation: 话说回来，为什么标题要加上「红宝石·蓝宝石」呢？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r244
-    order: "239"
-    scan_page: 4
-    review_status: review
-    original: はい、これはですね…。
-    translation: 是的，这个嘛……。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r245
-    order: "240"
-    scan_page: 4
-    review_status: review
-    original: めちゃくちゃ悩んでいたよね。
-    translation: 当时纠结得不得了。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r246
-    order: "241"
-    scan_page: 4
-    review_status: review
-    original: ものすごく悩みましたね（笑）。去年の今頃（2002年1月）でもまだ決まってなくって、夏の映画の封切り前くらいに決まった感じだったんですよ。そのくらい悩んでまして、当初は違うタイトルもいくつか候補にあげていたんですけど、商標の問題なんかもあってクリアできなかったりしたんです。海外版で英語にしたときの感じも考慮にいれて、前作が『クリスタルバージョン』だったので、その次にくるものということで、新しくもあり、先が見えるものであったり、過去も見えるものということで、鉱物のなかから…。
-    translation: 真是伤透了脑筋（笑）。直到去年这个时候（2002年1月）都还没定下来，感觉是在夏天电影上映前才定下的。就是烦恼到这种程度，当初也提过几个别的标题候选，但因为商标之类的问题没能通过。也考虑了在海外版变成英语时的感觉，前作是《水晶版》，所以作为接在它后面的东西，既要新，又要能看见未来，也能看见过去，于是就从矿物之中……
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r247
-    order: "242"
-    scan_page: 4
-    review_status: review
-    original: それに2バージョンあるので、対になってないといけないわけです。
-    translation: 而且因为有两个版本，所以必须成对才行。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r248
-    order: "243"
-    scan_page: 4
-    review_status: review
-    original: 対になっていて、商標のチェックも通って、日本でも海外でも同じタイトルにしなきゃあという、とても狭い条件があったんですね。
-    translation: 既要成对，又要通过商标审查，无论在日本还是海外都必须用同一个标题，条件非常苛刻。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r249
-    order: "244"
-    scan_page: 4
-    review_status: review
-    original: ルビーとサファイアって、もともと同じ原石なんですよね。
-    translation: 红宝石和蓝宝石，原本是同一种原石吧。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r250
-    order: "245"
-    scan_page: 4
-    review_status: review
-    original: そうですね。コランダムという原石で。赤いものだけをルビーと言って、それ以外のものをサファイアと呼んでるんです。
-    translation: 是的。是一种叫刚玉的原石。只有红色的才叫红宝石，除此之外的都叫蓝宝石。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r251
-    order: "246"
-    scan_page: 4
-    review_status: review
-    original: それでブルーのサファイアがもっとも価値があると…。その同じ原石ということも意識したわけですか？
-    translation: 所以蓝色的蓝宝石才是最有价值的……。你们也意识到了是同一种原石这一点吗？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r252
-    order: "247"
-    scan_page: 4
-    review_status: review
-    original: ええ。基本は一緒。でも、見方が変わることで赤くもなり青くもなるというコンセプトなんです。
-    translation: 是的。基本是一样的。但这是一个通过改变看法，既能变红也能变蓝的概念。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r253
-    order: "248"
-    scan_page: 4
-    review_status: review
-    original: よくもまあ、キレイにはまりましたね（笑）。
-    translation: 还真是巧妙地契合上了呢（笑）。
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r254
-    order: "249"
-    scan_page: 4
-    review_status: review
-    original: わははは（笑）。
-    translation: 哇哈哈哈（笑）。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r255
-    order: "250"
-    scan_page: 4
-    review_status: review
-    original: そのコンセプトを導き出したとき、「これしかない！」って思いました？
-    translation: 想出这个概念的时候，你觉得“只能选这个了！”吗？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r256
-    order: "251"
-    scan_page: 4
-    review_status: review
-    original: そうですね。最初は「これだ！」と思ったんですけど、TPC（株式会社ポケモン）に投げたら、はねかえされました（笑）。
-    translation: 是啊。一开始我觉得“就是这个了！”，但提交给TPC（株式会社宝可梦）后，被驳回了（笑）。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r257
-    order: "252"
-    scan_page: 4
-    review_status: review
-    original: No.005 ワカシャモ
-    translation: No.005 力壮鸡
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r258
-    order: "253"
-    scan_page: 4
-    review_status: review
-    original: そうだったんですか？（笑）
-    translation: 是这样吗？（笑）
-  - speaker: 近藤
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r259
-    order: "254"
-    scan_page: 4
-    review_status: review
-    original: （小さい声で）すみません…。心機一転がテーマでしたから、最初は「前作『クリスタルバージョン』と同じ鉱物はどうなんだろう？」と思ったんです。でも、ゲームフリークさんの考えをよく伺ったら、「ああなるほど、これ以外にないな」ということで、その「ルビー・サファイア」に落ち着いたんです。いい名前ですね（笑）。
-    translation: （小声地）不好意思……。因为主题是焕然一新，所以一开始我想的是「和前作《水晶版》用同样的矿物怎么样？」。不过，仔细听了GAME FREAK的想法之后，觉得「啊，原来如此，非这个不可了」，于是就定在了「红宝石·蓝宝石」。真是个好名字呢（笑）。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r260
-    order: "255"
-    scan_page: 4
-    review_status: review
-    original: もともと『ポケモン』には、色へのこだわりがあったはずですけど、なぜ鉱物を選ぶようになったんですか？
-    translation: 原本《宝可梦》应该是对颜色有讲究的，为什么后来会选择矿物呢？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r261
-    order: "256"
-    scan_page: 4
-    review_status: review
-    original: 「クリスタルバージョン」自体が、電波発信機の水晶のクリスタルからとってるので、そこからゲームの中身に合わせたタイトルにしようと。
-    translation: 《水晶版》本身就是取自电波发射机的水晶（crystal），所以从那之后就想配合游戏内容来定标题。
-  - speaker: 杉森建
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r262
-    order: "257"
-    scan_page: 4
-    review_status: review
-    original: 「クリスタルバージョン」はモバイルGB対応になっていましたからね。
-    translation: 《水晶版》是支持移动GB的嘛。
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r263
-    order: "258"
-    scan_page: 4
-    review_status: review
-    original: ああ、なるほど！ 理にかなってますねえ（笑）。じゃあ、次のタイトルもすでに考えてるんじゃないですか？
-    translation: 啊，原来如此！很合理呢（笑）。那么，下一个标题是不是也已经想好了？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r264
-    order: "259"
-    scan_page: 4
-    review_status: review
-    original: それは…、ま、それなりにいろいろと（笑）。
-    translation: 那个嘛……，嗯，多多少少有一些（笑）。
-  - speaker: caption
-    type: paragraph
-    kind: text
-    region_type: caption
-    region_id: p004_leaf4-r265
-    order: "260"
-    scan_page: 4
-    review_status: review
-    original: No.019 ハスボー
-    translation: No.019 莲叶童子
-  - speaker: ──
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r266
-    order: "261"
-    scan_page: 4
-    review_status: review
-    original: 楽しみにしています（笑）。今作は海と大地の戦いがテーマになっていますけど、そこで伝えたかったことはどんなことですか？
-    translation: 我很期待（笑）。本作以海与大地之争为主题，那么你们想通过它传达什么呢？
-  - speaker: 增田顺一
-    type: paragraph
-    kind: text
-    region_type: body
-    region_id: p004_leaf4-r267
-    order: "262"
-    scan_page: 4
-    review_status: review
-    original: 最初に考えたのは、自然と人間とポケモンが、バランスのとれたいい環境にあって、そのような調和の世界をつくりたいなあっと。で、片方でマグマ団、もう一方でアクア団がいますけど、最初の段階では合体してるような感じで、分かれていなかったんです。とにかく、その世界では、自然を大切にする文化が息づいていているという感じで、ゲームをしてるとわかると思うんですけど、きれいな世界というか、「最終的に住みやすい世界はこんな感じなのかな」という世界を描きたいと思ったんです。そのあと、アクア団とマグマ団という組織が生まれて、去年の今頃だったと思うんですけど、「2つの集団が存在するんだったらバージョンでわけたほうが面白いのかも」と、ふと思うようになって、赤（ルビー）にマグマ団を、青（サファイア）にアクア団という振り分けをしてみたんです。ゲーム内では海と陸の対立の図式になってますけど、本来はアクアが自然を極端に大切にする集団で、マグマは文化や科学を極端に大切にする集団、そしてその中央を主人公が歩くという設定なんです。主人公はどちらの側にもついていない、いちばんまっすぐな世界なんです。
-    translation: 最初考虑的是，自然、人类与宝可梦处于平衡良好的环境中，想打造这样一个和谐的世界。然后，一边有熔岩队，另一边有海洋队，但在最初的阶段，感觉两者是合为一体的，并没有分开。总之，在那个世界里，有着珍视自然的文化在生生不息，玩过游戏就会明白，那是一个美丽的世界，或者说，我想描绘的是一个「最终宜居的世界大概就是这种感觉吧」的世界。之后，海洋队和熔岩队这两个组织诞生了，记得大概是去年这个时候，我忽然开始想「既然存在两个集团，按版本分开说不定会更有趣」，于是试着把熔岩队分给红（红宝石）、把海洋队分给蓝（蓝宝石）。在游戏里呈现为海与陆的对立格局，但本来海洋队是极端珍视自然的集团，熔岩队是极端珍视文化与科学的集团，而主角走在两者正中间，就是这样的设定。主角不偏向任何一方，是最为笔直的世界。
   - type: heading
     kind: text
     region_type: heading

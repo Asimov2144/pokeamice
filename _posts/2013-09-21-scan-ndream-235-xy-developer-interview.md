@@ -24,7 +24,8 @@ interviewee: 增田顺一、森本茂树
 interviewer: Nintendo DREAM 編集部
 dek: 《宝可梦 X・Y》发售前夕，GAME FREAK的增田顺一与森本茂树围绕超级进化、妖精属性等对战新要素接受专访。
 summary: 《宝可梦 X・Y》发售前专访。增田顺一与森本茂树围绕超级进化、妖精属性、属性相性调整及培养简化等对战新要素，讲述设计思路与平衡考量。
-source_pages: P.1–P.5（5 页，另附封面/目次；2048px 页图）
+source_pages: P.4–13（10 个印刷页，5 张跨页图）
+source_leaf_range: [1, 5]
 source:
   title: ポケットモンスター X・Y 増田順一＆森本茂樹インタビュー
   source_type: magazine_scan

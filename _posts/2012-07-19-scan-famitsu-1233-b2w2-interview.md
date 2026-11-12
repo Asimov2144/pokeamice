@@ -14,16 +14,17 @@ tags:
   - '扫描存档'
   - '日中对照'
   - '宝可梦 黑2·白2'
-  - '海野隆雄'
+  - '齐藤优史'
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: 週刊ファミ通
 issue: 2012年8月2日・9日合併号（No.1233）
 publisher: エンターブレイン
-interviewee: 海野隆雄、齐藤优史
+interviewee: 齐藤优史
 interviewer: 週刊ファミ通 編集部
 dek: 《宝可梦 黑2·白2》企划总监齐藤优史讲述汇合任务、汇合大道、钥匙系统与回忆连接等新要素的开发经过。
 summary: 《宝可梦 黑2·白2》发售约一个月，企划总监齐藤优史接受采访，讲述宝可梦世界锦标赛、汇合任务、汇合大道、钥匙系统、回忆连接与隐藏洞穴等新要素的企划由来，并谈及以“共鸣”为主题、把游戏作为交流工具的设计意图。
-source_pages: P.1–P.2（2 页，另附封面/目次；2048px 页图）
+source_pages: P.190–191（2 个印刷页）
+source_leaf_range: [1, 2]
 source:
   title: ポケットモンスター ブラック2・ホワイト2 開発者インタビュー
   source_type: magazine_scan
@@ -50,7 +51,6 @@ pending_review_regions: 44
 scan_set: ia-famitsu-1233
 entities:
   people:
-    - 海野隆雄
     - 齐藤优史
   works:
     - 宝可梦 黑2·白2

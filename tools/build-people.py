@@ -696,7 +696,7 @@ def cmd_pages():
     for e in entries:
         if e.get("kind") in ("character", "figure"):
             continue
-        fm = {"layout": "person", "title": e["name"], "person": e["name"], "slug": e["slug"], "permalink": f"/people/{e['slug']}/",
+        fm = {"layout": "person-disambiguation" if e.get("kind") == "disambiguation" else "person", "title": e["name"], "person": e["name"], "slug": e["slug"], "permalink": f"/people/{e['slug']}/",
               "aliases": e.get("aliases") or [], "avatar": e.get("avatar") or "", "avatar_source": e.get("avatar_source") or "",
               "search": False, "sitemap": True}
         text = "---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000) + "---\n"

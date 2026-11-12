@@ -20,11 +20,12 @@ kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2012年9月号（Vol.221）
 publisher: 徳間書店
-interviewee: 海野隆雄、增田顺一
+interviewee: 海野隆雄、增田顺一、一之濑刚、佐藤仁美
 interviewer: Nintendo DREAM 編集部
 dek: GAME FREAK 增田顺一、海野隆雄、一之濑刚、佐藤仁美谈《宝可梦 黑2·白2》的开发内幕。
 summary: 增田顺一、海野隆雄等四位 GAME FREAK 开发者回顾《宝可梦 黑2·白2》开发：为何选择 DS 与双版本、N 与等离子队的后续、酋雷姆吸收合体的设定，以及音乐制作理念。
-source_pages: P.2–P.5（4 页，另附封面/目次；2048px 页图）
+source_pages: P.13–16（4 个印刷页；本稿不含 P.12 导言）
+source_leaf_range: [2, 5]
 source:
   title: ポケットモンスター ブラック2・ホワイト2 開発者インタビュー
   source_type: magazine_scan
@@ -53,6 +54,8 @@ entities:
   people:
     - 海野隆雄
     - 增田顺一
+    - 一之濑刚
+    - 佐藤仁美
   works:
     - 宝可梦 黑2·白2
 topics:

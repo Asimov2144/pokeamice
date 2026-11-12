@@ -1,225 +1,214 @@
 {
- "id": "interview-gamefreak-crosstalk-system-programmer",
- "stem": "2021-12-27-interview-gamefreak-crosstalk-system-programmer",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 27
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦传说 阿尔宙斯",
-    "slug": "legends-arceus",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     20
+  "id": "interview-gamefreak-crosstalk-system-programmer",
+  "stem": "2021-12-27-interview-gamefreak-crosstalk-system-programmer",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 27
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦传说 阿尔宙斯",
+        "slug": "legends-arceus",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦",
+        "slug": null,
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   }
+    "people": [
+      {
+        "name": "K.M.",
+        "slug": "k-m",
+        "role": "speaker",
+        "seg": [
+          1,
+          5,
+          12,
+          14,
+          16,
+          20
+        ]
+      },
+      {
+        "name": "H.T.（系统程序员对谈）",
+        "slug": "gf-ht-system-crosstalk",
+        "role": "speaker",
+        "seg": [
+          3,
+          6,
+          8,
+          13,
+          21,
+          24
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          3
+        ],
+        "as": [
+          "手机游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          3,
+          25
+        ],
+        "as": [
+          "应届"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          4,
+          5,
+          7,
+          20
+        ],
+        "as": [
+          "开发环境",
+          "开发工具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          6,
+          11,
+          13,
+          25
+        ],
+        "as": [
+          "转职",
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          7
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          12
+        ],
+        "as": [
+          "全公司"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          15
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 9,
+      "text": "J.I.说作品开发以2到3年推进，研究开发部须以5到10年跨度思考",
+      "anchor": 10
+    },
+    {
+      "seg": 12,
+      "text": "需求由全公司跨部门与各项目总监开会决定优先级，此做法由J.I.提议",
+      "anchor": 13
+    }
   ],
-  "people": [
-   {
-    "name": "K.M.",
-    "slug": "k-m",
-    "role": "speaker",
-    "seg": [
-     1,
-     5,
-     12,
-     14,
-     16,
-     20
-    ]
-   },
-   {
-    "name": "J.I.",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     2,
-     7,
-     9,
-     15,
-     22
-    ]
-   },
-   {
-    "name": "H.T.",
-    "slug": "h-t",
-    "role": "speaker",
-    "seg": [
-     3,
-     6,
-     8,
-     13,
-     21,
-     24
-    ]
-   }
+  "relations": [
+    {
+      "id": "interview-gamefreak-crosstalk-programmer",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    },
+    {
+      "id": "interview-gamefreak-crosstalk-game-programmer",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "最重要的是否能把握住“玩法的本质”。",
+      "url": "/interviews/interview-gamefreak-crosstalk-game-programmer/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    },
+    {
+      "id": "interview-gamefreak-crosstalk-designer",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    },
+    {
+      "id": "interview-gamefreak-crosstalk-new-graduate",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。",
+      "url": "/interviews/interview-gamefreak-crosstalk-new-graduate/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     3
-    ],
-    "as": [
-     "手机游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     3,
-     25
-    ],
-    "as": [
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     4,
-     5,
-     7,
-     20
-    ],
-    "as": [
-     "开发环境",
-     "开发工具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     6,
-     11,
-     13,
-     25
-    ],
-    "as": [
-     "转职",
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     15
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 9,
-   "text": "J.I.说作品开发以2到3年推进，研究开发部须以5到10年跨度思考",
-   "anchor": 10
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
   },
-  {
-   "seg": 12,
-   "text": "需求由全公司跨部门与各项目总监开会决定优先级，此做法由J.I.提议",
-   "anchor": 13
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-crosstalk-programmer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/",
-   "why": "同为2021-12-27 GAME FREAK程序员对谈，均分系统与游戏程序员"
-  },
-  {
-   "id": "interview-gamefreak-crosstalk-game-programmer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "最重要的是否能把握住“玩法的本质”。",
-   "url": "/interviews/interview-gamefreak-crosstalk-game-programmer/",
-   "why": "同日GAME FREAK程序员对谈，同属招聘特辑程序员篇"
-  },
-  {
-   "id": "interview-gamefreak-crosstalk-designer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
-   "why": "同日GAME FREAK招聘特辑对谈，同属职能岗位系列"
-  },
-  {
-   "id": "interview-gamefreak-crosstalk-new-graduate",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。",
-   "url": "/interviews/interview-gamefreak-crosstalk-new-graduate/",
-   "why": "同日GAME FREAK招聘特辑对谈，同属岗位系列"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": true
 }

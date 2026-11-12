@@ -1,0 +1,17 @@
+{%- comment -%}
+  Shared source metadata for both interview layouts. Keep current precedence,
+  then accept the legacy outlet/original_url/outlet_url fields. A reviewed
+  preferred_source_url is an explicit per-post override; the presence of an
+  archive URL alone must not silently replace a live original.
+{%- endcomment -%}
+{% assign record_source_title = page.source.title | default: page.source.name | default: page.source_name | default: page.publication | default: page.outlet | default: "未标注来源" %}
+{% assign outlet = page.source_name | default: page.publication | default: page.source.title | default: page.source.name | default: page.outlet | default: "" %}
+{% assign source_url = page.preferred_source_url | default: page.original_link | default: page.source_url | default: page.source.url | default: page.original_url | default: page.outlet_url | default: "" %}
+{% if source_url == "" %}
+  {% assign source_scalar = page.source | append: "" %}
+  {% unless source_scalar contains "=>" %}
+    {% if source_scalar contains "://" %}{% assign source_url = source_scalar %}{% endif %}
+  {% endunless %}
+{% endif %}
+{% assign source_is_archive = false %}
+{% if source_url contains "://web.archive.org/" %}{% assign source_is_archive = true %}{% endif %}

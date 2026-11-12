@@ -1,273 +1,274 @@
 {
- "id": "interview-gamefreak-recruit-planners",
- "stem": "2015-10-01-interview-gamefreak-recruit-planners",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 25
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
-    "slug": "oras",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "马力欧",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "H.T.",
-    "slug": "h-t",
-    "role": "speaker",
-    "seg": [
-     3,
-     7,
-     14,
-     16,
-     19,
-     22
-    ]
-   },
-   {
-    "name": "R.M.",
-    "slug": "r-m",
-    "role": "speaker",
-    "seg": [
-     4,
-     8,
-     13,
-     20,
-     23
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "九州",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "上一份工作所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     1,
-     3,
-     4,
-     8
-    ],
-    "as": [
-     "入职",
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     4
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     8
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     8
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     14
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     19
-    ],
-    "as": [
-     "存档"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     19
-    ],
-    "as": [
-     "编辑器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "media-mix",
-    "name": "媒体展开",
-    "facet": "business",
-    "seg": [
-     20
-    ],
-    "as": [
-     "跨媒体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     20
-    ],
-    "as": [
-     "面向全球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     23
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "H.T.在九州一家游戏公司做了3年程序员，负责战斗和UI",
-   "anchor": 4
+  "id": "interview-gamefreak-recruit-planners",
+  "stem": "2015-10-01-interview-gamefreak-recruit-planners",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 25
   },
-  {
-   "seg": 4,
-   "text": "R.M.从2011年起4年参与一个动作冒险游戏系列，负责支线事件",
-   "anchor": 5
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-recruit-programmers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
-   "why": "同日同专栏“我加入游戏狂想的理由”程序员篇"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "马力欧",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "H.T.（2015策划访谈）",
+        "slug": "gf-ht-planners-2015",
+        "role": "speaker",
+        "seg": [
+          3,
+          7,
+          14,
+          16,
+          19,
+          22
+        ]
+      },
+      {
+        "name": "R.M.",
+        "slug": "r-m",
+        "role": "speaker",
+        "seg": [
+          4,
+          8,
+          13,
+          20,
+          23
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "九州",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          3
+        ],
+        "what": "上一份工作所在地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          1,
+          3,
+          4,
+          8
+        ],
+        "as": [
+          "入职",
+          "学生时代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          4
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          8
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          8
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          13
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          14
+        ],
+        "as": [
+          "年龄层"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          19
+        ],
+        "as": [
+          "存档"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          19
+        ],
+        "as": [
+          "编辑器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "media-mix",
+        "name": "媒体展开",
+        "facet": "business",
+        "seg": [
+          20
+        ],
+        "as": [
+          "跨媒体"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          20
+        ],
+        "as": [
+          "面向全球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          23
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-gamefreak-recruit-designers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
-   "why": "同日同专栏“我加入游戏狂想的理由”设计师篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 3,
+      "text": "H.T.在九州一家游戏公司做了3年程序员，负责战斗和UI",
+      "anchor": 4
+    },
+    {
+      "seg": 4,
+      "text": "R.M.从2011年起4年参与一个动作冒险游戏系列，负责支线事件",
+      "anchor": 5
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-gamefreak-recruit-programmers",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    },
+    {
+      "id": "interview-gamefreak-recruit-designers",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
+      "why": "同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  },
+  "edited": true
 }

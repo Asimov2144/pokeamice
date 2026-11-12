@@ -314,7 +314,7 @@ def load_posts() -> list[dict]:
             anchors = anchor_map(as_list(fm.get("parallel_items")))
             body_kind = "segments"
         elif fm.get("translation_segments"):
-            segs = xp.normalize_scan(fm["translation_segments"], {})
+            segs = xp.normalize_scan(fm["translation_segments"], {}, preserve_order=fm.get("scan_reading_order") == "listed")
             body_kind = "segments"
         else:
             zh = xp.split_blog(body_md)["markdown_zh"]

@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: person-disambiguation
 title: T.K.
 person: T.K.
 slug: t-k

@@ -24,7 +24,8 @@ interviewee: 石原恒和、增田顺一
 interviewer: 週刊ファミ通 編集部
 dek: 《宝可梦 黑·白》发售之际，石原恒和讲述完全新作的制作秘闻与系列构想。
 summary: 宝可梦公司社长石原恒和回顾《宝可梦 黑·白》开发，谈及面向所有世代的设计、与宝可梦全球连接的联动、同一硬件上首款完全新作的挑战，以及连入玩法和作品作为DS集大成的定位。
-source_pages: P.1–P.2（2 页，另附封面/目次；2048px 页图）
+source_pages: P.176–177（2 个印刷页）
+source_leaf_range: [1, 2]
 source:
   title: ポケットモンスター ブラック・ホワイト 発売記念インタビュー
   source_type: magazine_scan

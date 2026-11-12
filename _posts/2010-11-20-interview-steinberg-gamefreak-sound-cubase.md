@@ -2,8 +2,8 @@
 archive_type: interview_translation
 layout: interview-editorial
 title: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
-subtitle: 2010年Steinberg专访：景山将太详谈4人音频战队、全员Cubase统一化、软音源音色库揭秘与DS复音数极限博弈
-date: 2010-11-20 12:00:00 +0900
+subtitle: 2011年Steinberg专访：景山将太详谈4人音频战队、全员Cubase统一化、软音源音色库揭秘与DS复音数极限博弈
+date: '2011-02-21'
 author: Steinberg Japan 編集部
 source_url: https://japan.steinberg.net/jp/artists/steinberg_stories/gamefreak.html
 categories:
@@ -17,7 +17,7 @@ tags:
 - '宝可梦 黑·白'
 - '声音工程'
 - '音频制作'
-era_skin: '2010'
+era_skin: '2011'
 original_lang: ja
 interview_id: PKMN-0066
 parallel_items:
@@ -205,3 +205,6 @@ mentions:
   - "宝可梦 红·绿"
   - "宝可梦 心金·魂银"
 ---
+
+
+日期说明：依据[Steinberg 官方 2011 年新闻目录](https://japan.steinberg.net/jp/news_events/news_list/2011_news_log.html)及[景山将太官方作品目录](https://www.shotakageyama.net/works/works/genre/works-talkshow/page/3/)，本访谈发布日期为 2011 年 2 月 21 日。旧文件名和资源路径保留。

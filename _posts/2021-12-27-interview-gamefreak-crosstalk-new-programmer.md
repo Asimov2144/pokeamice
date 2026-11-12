@@ -15,6 +15,8 @@ tags:
 publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/
 source_url: https://web.archive.org/web/20220425080732/https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/
+# Original endpoint returned 404 on 2026-11-11; this saved snapshot returned 200.
+preferred_source_url: https://web.archive.org/web/20220425080732/https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/
 source:
   title: 新卒プログラマ対談｜採用情報
   url: https://www.gamefreak.co.jp/recruit/crosstalk-new-programmer/
@@ -22,7 +24,7 @@ source:
   language: ja
   source_type: official_interview
 author: Game Freak 官方
-interviewee: T.K.、R.H.
+interviewee: T.K.（新卒程序员对谈）、R.H.
 original_lang: ja
 translation_lang: zh-CN
 translator: PokeAmice（DeepSeek 初译）
@@ -30,7 +32,7 @@ summary: T.K.在《宝可梦 剑·盾》负责宝可梦露营小游戏，在《P
 dek: 有专才，也有通才。能最大化这种团队实力的工具环境是什么样的。
 entities:
   people:
-  - T.K.
+  - T.K.（新卒程序员对谈）
   - R.H.
   works:
   - 宝可梦 剑·盾
@@ -46,7 +48,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/gamefreak-crosstalk-new-programmer/mv.jpg
 - type: profile
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   role_ja: 2018年新卒入社
   original: 『ポケットモンスター ソード・シールド』で「ポケモンキャンプ」のミニゲーム開発を担当。『Pokémon LEGENDS アルセウス』ではプレイヤー挙動実装の主担当となる。
@@ -68,7 +70,7 @@ parallel_items:
   original: スペシャリストもいる。ジェネラリストもいる。そんなチーム力を最大化するツール環境とは。
   translation: 有专才，也有通才。能最大化这种团队实力的工具环境是什么样的。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 私がゲームフリークに入社したのは、技術的な視点で『ポケットモンスター』シリーズがどのように作られているのか興味があったからです。2-3年スパンで新作が発売され、世界中で評価され続けている。その技術や、開発方法を吸収したいと思いました。
   role: answer
@@ -80,7 +82,7 @@ parallel_items:
   role: answer
   translation: 我参加实习的时候，自己提了个小建议，程序员和策划们就回了大量的点子和意见，这让我印象很深，觉得这里能让人成长，就入职了。研究开发部里在专业领域技术上很尖的前辈很多，还有人简直像研究者。他们一直在跟进最新技术，所以总有可学的东西。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 研究開発部と比べると、タイトル開発側のプログラマはジェネラリストと言えるかもしれません。何かに特化しているというより、幅広く知識を備えてゲームを面白くするためには何でもやる人が多い。仕様策定に関わったり、企画書を書くプログラマもいますし、プロジェクトマネジメントまでやっている人もたくさんいます。
   role: answer
@@ -92,7 +94,7 @@ parallel_items:
   role: answer
   translation: 公司内部的沟通也很活跃。策划的咨询会通过做具体作品的程序员传过来，也会和设计师聊工具的事。一个人闷头干活只在最后阶段，其实这工作团队协作的部分很多。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 1人で作っていると何が正解なのか分からなくなることも多いので、やっぱり相談は大切ですよね。プロジェクト開始時にはキックオフMTGをしますし、動き出してからもプランナーやデザイナーと話し合って、仕様を調整していきます。ツールでいうと、会議はGoogleカレンダーで設定してGoogle Meetで。議事録や仕様書はConfluenceに集約して残しています。細かい相談事は、Slackもしくは口頭で随時やり取りしています。
   role: answer
@@ -110,7 +112,7 @@ parallel_items:
   original: ゼロからの挑戦の連続。アクション要素を取り入れた『Pokémon LEGENDS アルセウス』。
   translation: 从零开始的挑战接连不断。加入了动作要素的《Pokémon LEGENDS 阿尔宙斯》。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 『Pokémon LEGENDS アルセウス』は、これまでゲームフリークが培ってきた経験をそのまま転用することができず、ゼロから積み上げるような新しい挑戦の連続でした。フィールドの規模も大きくなったし、オブジェクトも増えた。物理挙動やAIを安定して処理するためにHavokを導入したのですが、使いこなしていくために研究開発部と協力して調査していきました。
   role: answer
@@ -125,7 +127,7 @@ parallel_items:
 - type: image
   src: /assets/img/interviews/gamefreak-crosstalk-new-programmer/img-02-01.jpg
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 私からR.H.さんに機能に関する要望を出したこともありましたね。システムのことだからと研究開発部に任せっきりにするのではなく、最後まで一緒に作り上げていったのが『Pokémon LEGENDS アルセウス』ならではの経験でした。大変なことが多かったですが、同時にこれまでにない大きなやりがいもありました。
   role: answer
@@ -137,7 +139,7 @@ parallel_items:
   role: answer
   translation: T.K.是玩家行为的主要负责人，我想他吃了不少苦。我因为只零散地开发工具和功能，没看游戏的整体，最后看到游戏里华丽的特效时，会暗自高兴地想“这核心部分是我做的啊”。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 最初期はHavokの物理を全く制御できず、キャラクターを坂に立たせたいのにどこまでも滑って飛んで行ってしまいました。そこから始まったことを考えると、本当に感動しますね。開発途中ではカクカクした動きに心配になったこともありましたが、最終的には処理負荷を抑えてきれいなビジュアルとアクションになりました。ブラッシュアップできる間にできることは全部やろう！と、後悔がないレベルに到達できました。ユーザーの方々に楽しんでもらえるクオリティになったと思います。
   role: answer
@@ -155,7 +157,7 @@ parallel_items:
   role: answer
   translation: 作为程序员，我重视的是不按需求直接实现。比如，图形设计师来商量“想要这样的功能”。这种情况下，我会深入挖掘为什么需要它。这样常常能提出和当初需求完全不同的解决方案。比起“实现”，我觉得“从根源解决问题”的意识很重要。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: 対話を何回も繰り返しながら作っていく感じですよね。開発初期にプランナーとプログラマとグラフィックデザイナーが集まって、実装キックオフMTGを開きます。プランナーの仕様書と企画意図を元に各職種の観点から、「それを実現したいなら、こういう実装にした方がいい」とアイデアを出して、実現するためにはどうすれば良いのか分担を決めていきます。仕様書も、内容によってはプログラマやグラフィックデザイナーが書く場合もあります。本当に職種の垣根なく相談ができる、フラットな環境です。
   role: answer
@@ -167,7 +169,7 @@ parallel_items:
   role: answer
   translation: 今后，我想成为在项目中出现想做的事时，能最先被咨询的程序员。为此，我想持续追踪最新技术，不断学习。遇到困难时和研究开发部的前辈商量，他们一定会给出某种解决方案。被拥有各种背景的优秀前辈包围，我觉得是非常幸运的环境。虽然不知道什么时候能到达前辈们的领域，但我也想继续以被依赖的存在为目标。
 - type: text
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   speaker_orig: T.K.
   original: やっぱり勉強熱心であることがプログラマの条件ですよね。今まで自分が身につけていない技術でも恐れず、学べる人がいい。私自身、「ゲームフリークの技術を業界の最先端と言われるレベルまで押し上げたい」という気持ちはすごく強いですね。ゲーム作りって、プログラマが「無理」と言ってしまうとどんな素晴らしいアイデアも無理になってしまうんです。だからこそ簡単に諦めずに、何とかできる方法を粘り強く考えて、勉強して。絶対に「無理」と言わないプログラマを目指したいですし、そういう人に入社してもらいたいですね。
   role: answer

@@ -20,11 +20,12 @@ kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2004年3月21日号（Vol.108）
 publisher: 毎日コミュニケーションズ
-interviewee: 增田顺一、渡边哲也、宇野隆雄、西野弘二
+interviewee: 增田顺一、渡边哲也、海野隆雄、西野弘二、近藤孝直
 interviewer: Nintendo DREAM 編集部
 dek: GAME FREAK 团队讲述《宝可梦 火红·叶绿》的开发秘闻，以及以「60岁也能游玩」为目标的制作理念。
 summary: Nintendo DREAM 2004年3月21日号刊载的《宝可梦 火红·叶绿》开发者长篇访谈。总监增田顺一、程序负责人渡边哲也、策划西野弘二、图形负责人海野隆雄及宝可梦宣传近藤孝直，讲述重制企划的由来、易懂性设计、梗概功能与无线适配器的加入经过。
-source_pages: P.2–P.9（8 页，另附封面/目次；2048px 页图）
+source_pages: P.88–95（8 个印刷页）
+source_leaf_range: [2, 9]
 source:
   title: ポケットモンスター ファイアレッド・リーフグリーン 開発者ロングインタビュー
   source_type: magazine_scan
@@ -53,8 +54,9 @@ entities:
   people:
     - 增田顺一
     - 渡边哲也
-    - 宇野隆雄
+    - 海野隆雄
     - 西野弘二
+    - 近藤孝直
   works:
     - 宝可梦 火红·叶绿
 topics:

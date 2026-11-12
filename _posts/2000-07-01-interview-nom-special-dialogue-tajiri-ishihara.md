@@ -9,6 +9,8 @@ permalink: /interview-nom-special-dialogue-tajiri-ishihara/
 era_skin: '1999'
 source_name: 任天堂官网「N.O.M」(No.23)
 source_url: https://web.archive.org/web/20221026124927/https://www.nintendo.co.jp/nom/0007/taidan1/index.html
+# Original endpoint returned 404 on 2026-11-11; this saved snapshot returned 200.
+preferred_source_url: https://web.archive.org/web/20221026124927/https://www.nintendo.co.jp/nom/0007/taidan1/index.html
 original_link: https://www.nintendo.co.jp/nom/0007/taidan1/index.html
 summary: 宝可梦开发史上最高价值的黄金对话！任天堂官方杂志《N.O.M》2000年7月号特邀‘宝可梦之父’田尻智（Game Freak社长）与‘总掌舵人’石原恒和（Creatures社长/宝可梦社社长）促膝长谈：从两人在爱普生时期的初次相识、见到Game Boy连接线时触电般的启示，到制作宝可梦之前田尻智对昆虫采集的热爱与创办《Game Freak》同人志的初心；详细披露了《赤·绿》历经整整六年艰苦漫长研发、资金几乎断绝濒临崩溃边缘却因深信其魅力而咬牙坚持的心酸内幕；深度剖析了为什么宝可梦能‘跨越语言与文化的隔阂’引发全球儿童的共鸣；以及石原恒和提出的核心美学信条——‘宝可梦绝不是冷冰冰的战斗机器，它们是具有自己生活习性、呼吸与温度的生命体’！
 entities:

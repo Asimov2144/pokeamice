@@ -1,425 +1,384 @@
 {
- "id": "interview-pokemon-recruit-engineering",
- "stem": "2022-10-15-interview-pokemon-recruit-engineering",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 22
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     2,
-     4,
-     7,
-     10,
-     11,
-     12
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon HOME",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon GO Plus",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Ingress",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "小川",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     4,
-     7,
-     10,
-     12,
-     15,
-     19
-    ]
-   },
-   {
-    "name": "太田",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     5,
-     8,
-     11,
-     13,
-     16,
-     18
-    ]
-   },
-   {
-    "name": "宇都宫崇人",
-    "slug": "utsunomiya-takato",
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "旧金山",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "Niantic总部所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     1,
-     5,
-     11,
-     18
-    ],
-    "as": [
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     1,
-     5
-    ],
-    "as": [
-     "服务器",
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     1,
-     5
-    ],
-    "as": [
-     "3D模型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     4,
-     7,
-     15,
-     19
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     5
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     5,
-     11
-    ],
-    "as": [
-     "正统续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     5,
-     15
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     7
-    ],
-    "as": [
-     "线下活动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     10,
-     19
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     10,
-     20,
-     21
-    ],
-    "as": [
-     "打磨",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     10,
-     20
-    ],
-    "as": [
-     "办公室",
-     "社内"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     11,
-     16
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     11
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     11
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     15
-    ],
-    "as": [
-     "推翻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     15
-    ],
-    "as": [
-     "路线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     16
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     19
-    ],
-    "as": [
-     "编辑器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     19
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     19
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 7,
-   "text": "小川2014年因收到《Pokémon GO》研发邀请而入职",
-   "anchor": 12
+  "id": "interview-pokemon-recruit-engineering",
+  "stem": "2022-10-15-interview-pokemon-recruit-engineering",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 22
   },
-  {
-   "seg": 7,
-   "text": "小川在《Ingress》线下活动上与COO宇都宫崇人邻座",
-   "anchor": 12
-  }
- ],
- "relations": [
-  {
-   "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/",
-   "why": "宇都宫崇人同为宝可梦COO，可补其背景"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon HOME",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon GO Plus",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦虚拟银行",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "宇都宫崇人",
+        "slug": "utsunomiya-takato",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [
+      {
+        "name": "旧金山",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "Niantic总部所在地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          1,
+          5,
+          11,
+          18
+        ],
+        "as": [
+          "版权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          1,
+          5
+        ],
+        "as": [
+          "服务器",
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          1,
+          5
+        ],
+        "as": [
+          "3D模型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          4,
+          7,
+          15,
+          19
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          5
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          5,
+          11
+        ],
+        "as": [
+          "正统续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          5,
+          15
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "live-events",
+        "name": "线下活动",
+        "facet": "business",
+        "seg": [
+          7
+        ],
+        "as": [
+          "线下活动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          10,
+          19
+        ],
+        "as": [
+          "代码"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          10,
+          20,
+          21
+        ],
+        "as": [
+          "打磨",
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          10,
+          20
+        ],
+        "as": [
+          "办公室",
+          "社内"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          11,
+          16
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          11
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          11
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          11
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          15
+        ],
+        "as": [
+          "推翻"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          15
+        ],
+        "as": [
+          "路线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          16
+        ],
+        "as": [
+          "通宵"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          19
+        ],
+        "as": [
+          "编辑器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          19
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          19
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [],
+        "as": [
+          "招聘"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "interview-nikkei-utsunomiya-pokemon-go",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
-   "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
-   "why": "宇都宫崇人谈Pokémon GO日美合作经过"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 7,
+      "text": "小川2014年因收到《Pokémon GO》研发邀请而入职",
+      "anchor": 12
+    },
+    {
+      "seg": 7,
+      "text": "小川在《Ingress》线下活动上与COO宇都宫崇人邻座",
+      "anchor": 12
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/",
+      "why": "宇都宫崇人同为宝可梦COO，可补其背景"
+    },
+    {
+      "id": "interview-nikkei-utsunomiya-pokemon-go",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+      "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
+      "why": "宇都宫崇人谈Pokémon GO日美合作经过"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  },
+  "edited": true
 }

@@ -637,10 +637,15 @@ def normalize_parallel(items: list, name_to_slug: dict) -> list[dict]:
     return out
 
 
-def normalize_scan(items: list, name_to_slug: dict) -> list[dict]:
+def normalize_scan(items: list, name_to_slug: dict, *, preserve_order: bool = False) -> list[dict]:
     """扫描件的 translation_segments → 统一的 segments，保留页号与区域 id 给页图高亮用。"""
     out = []
-    for raw in sorted((it for it in items if isinstance(it, dict)), key=lambda it: (it.get("scan_page") or 0, it.get("order") or 0)):
+    rows = [it for it in items if isinstance(it, dict)]
+    # Reviewed reading order may differ from the upload's leaf numbers. Keep
+    # scan_page/region_id intact: they locate the image, not the preceding text.
+    if not preserve_order:
+        rows.sort(key=lambda it: (it.get("scan_page") or 0, it.get("order") or 0))
+    for raw in rows:
         t = clean(raw.get("type"))
         kind = "image" if t == "image" else "heading" if t == "heading" else "paragraph"
         speaker = clean(raw.get("speaker"))
@@ -675,6 +680,19 @@ def normalize_scan(items: list, name_to_slug: dict) -> list[dict]:
             continue
         out.append(seg)
     return out
+
+
+def source_url(fm: dict) -> str | None:
+    """Use the same explicit override and legacy fallbacks as the web reader."""
+    source = fm.get("source")
+    mapping = source if isinstance(source, dict) else {}
+    for candidate in (fm.get("preferred_source_url"), fm.get("original_link"),
+                      fm.get("source_url"), mapping.get("url"),
+                      fm.get("original_url"), fm.get("outlet_url"),
+                      source if isinstance(source, str) and "://" in source else None):
+        if clean(candidate):
+            return clean(candidate)
+    return None
 
 
 def split_blog(body: str) -> dict:
@@ -785,7 +803,7 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
         if fm.get("parallel_items"):
             body = {"kind": "segments", "segments": normalize_parallel(as_list(fm.get("parallel_items")), people_by_name)}
         elif fm.get("translation_segments"):
-            body = {"kind": "segments", "segments": normalize_scan(as_list(fm.get("translation_segments")), people_by_name)}
+            body = {"kind": "segments", "segments": normalize_scan(as_list(fm.get("translation_segments")), people_by_name, preserve_order=fm.get("scan_reading_order") == "listed")}
         else:
             body = split_blog(body_md)
 
@@ -906,8 +924,8 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             "original_lang": clean(fm.get("original_lang")) or None,
             "translation_status": clean(fm.get("translation_status")) or None,
             "source": {
-                "title": clean(source.get("title")) or None,
-                "url": clean(source.get("url") or fm.get("original_link")) or None,
+                "title": clean(source.get("title") or source.get("name") or fm.get("source_name") or fm.get("publication") or fm.get("outlet")) or None,
+                "url": source_url(fm),
                 "archive_url": clean(source.get("archive_url")) or None,
                 "type": clean(source.get("source_type") or fm.get("source_kind")) or None,
             },

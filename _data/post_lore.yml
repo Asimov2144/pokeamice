@@ -1381,42 +1381,8 @@
     url: /developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/
     why: 同为2000年7月金·银主创圆桌访谈
 2000-07-01-interview-nom-special-dialogue-tajiri-ishihara:
+  id: interview-nom-special-dialogue-tajiri-ishihara
   facets:
-    people:
-    - name: N.O.M采访者
-      role: speaker
-    - name: 田尻智
-      role: speaker
-      slug: tajiri-satoshi
-    - name: 石原恒和
-      role: speaker
-      slug: ishihara-tsunekazu
-    - name: 岩井俊雄
-      role: mentioned
-    - name: 糸井重里
-      role: mentioned
-    - name: 大谷育江
-      role: mentioned
-      slug: otani-ikue
-    - name: 林原惠美
-      role: mentioned
-      slug: hayashibara-megumi
-    places:
-    - name: 町田
-      what: 田尻成长之地
-      world: real
-    - name: 加利福尼亚半岛
-      what: 石原比对的地形
-      world: real
-    - name: 佛罗里达半岛
-      what: 石原比对的地形
-      world: real
-    - name: 六本木
-      what: 二人相遇之地
-      world: real
-    - name: 关都地区
-      what: 宝可梦游戏舞台
-      world: game
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -1453,14 +1419,36 @@
       slug: null
     - name: GAME FREAK
       slug: null
-  id: interview-nom-special-dialogue-tajiri-ishihara
+    people:
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: speaker
+    - name: 石原恒和
+      slug: ishihara-tsunekazu
+      role: speaker
+    places:
+    - name: 町田
+      what: 田尻成长之地
+      world: real
+    - name: 加利福尼亚半岛
+      what: 石原比对的地形
+      world: real
+    - name: 佛罗里达半岛
+      what: 石原比对的地形
+      world: real
+    - name: 六本木
+      what: 二人相遇之地
+      world: real
+    - name: 关都地区
+      what: 宝可梦游戏舞台
+      world: game
   observations:
-  - anchor: 5
+  - text: 石原1980年代初期在六本木老式民宅的CG影像公司任职
+    anchor: 5
     seg: 4
-    text: 石原1980年代初期在六本木老式民宅的CG影像公司任职
-  - anchor: 15
+  - text: 田尻看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏
+    anchor: 15
     seg: 14
-    text: 田尻看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏
 2000-12-14-interview-nom-crystal-new-elements-heroine:
   facets:
     people: []
@@ -1825,51 +1813,8 @@
     seg: 8
     text: 杉森建称封面神兽背负「大地与海洋」碰撞的核心母题
 2003-02-21-scan-ndream-084-ruby-sapphire-interview:
+  id: scan-ndream-084-ruby-sapphire-interview
   facets:
-    people:
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 近藤
-      role: speaker
-    - name: 全体
-      role: speaker
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 小田部先生
-      role: mentioned
-    places:
-    - name: 下北泽
-      what: GAME FREAK 最初的开发基地
-      world: real
-    - name: 丰缘
-      what: 本作舞台
-      world: game
-    - name: 福冈县
-      what: 杉森建出生地
-      world: real
-    - name: 江之岛
-      what: 增田看海之处
-      world: real
-    - name: 九州
-      what: 丰缘地区原型
-      world: real
-    - name: 彩悠市
-      what: 有很多花的城市
-      world: game
-    - name: 横滨
-      what: 增田的老家
-      world: real
-    - name: 冲绳
-      what: 加入游戏的地域元素
-      world: real
-    - name: 北海道
-      what: 杉森提到会考虑的地区
-      world: real
     pokemon:
     - name: 妙蛙花
       ndex: 3
@@ -1960,12 +1905,48 @@
       slug: null
     - name: GAME FREAK
       slug: null
-  id: scan-ndream-084-ruby-sapphire-interview
+    people:
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    places:
+    - name: 下北泽
+      what: GAME FREAK 最初的开发基地
+      world: real
+    - name: 丰缘
+      what: 本作舞台
+      world: game
+    - name: 福冈县
+      what: 杉森建出生地
+      world: real
+    - name: 江之岛
+      what: 增田看海之处
+      world: real
+    - name: 九州
+      what: 丰缘地区原型
+      world: real
+    - name: 彩悠市
+      what: 有很多花的城市
+      world: game
+    - name: 横滨
+      what: 增田的老家
+      world: real
+    - name: 冲绳
+      what: 加入游戏的地域元素
+      world: real
+    - name: 北海道
+      what: 杉森提到会考虑的地区
+      world: real
   observations:
-  - seg: 23
-    text: 近藤说从《红》到《水晶版》约7361万份，加上《红宝石·蓝宝石》约8000万份
-  - seg: 97
-    text: 增田说用表示人与人联结的「缘」字，把地名定为「丰缘」
+  - text: 近藤说从《红》到《水晶版》约7361万份，加上《红宝石·蓝宝石》约8000万份
+    anchor: 30
+    seg: 29
+  - text: 增田说用表示人与人联结的「缘」字，把地名定为「丰缘」
+    anchor: 198
+    seg: 197
 2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto:
   facets:
     people:
@@ -22606,34 +22587,8 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence/
     why: 同为社长问黑·白系列，第4章在前
 2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers:
+  id: interview-pokemon-peer-sugimori-ohmori-designers
   facets:
-    people:
-    - name: 提问
-      role: speaker
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 大村祐介
-      role: speaker
-      slug: ohmura-yusuke
-    - name: 井部真那
-      role: speaker
-      slug: ibe-mana
-    - name: 田上玲子
-      role: speaker
-    - name: 田上怜子
-      role: mentioned
-      slug: tian-shang-lian-zi
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    places:
-    - name: 多摩动物园
-      what: 团队观察动物的动物园
-      world: real
-    - name: 冬宫博物馆
-      what: 田上玲子比喻的形象来源
-      world: real
     pokemon:
     - name: 波加曼
       ndex: 393
@@ -22660,39 +22615,43 @@
       slug: null
     - name: 凡尔赛玫瑰
       slug: null
-  id: interview-pokemon-peer-sugimori-ohmori-designers
+    people:
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: speaker
+    - name: 井部真那
+      slug: ibe-mana
+      role: speaker
+    - name: 田上怜子
+      slug: tian-shang-lian-zi
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    places:
+    - name: 多摩动物园
+      what: 团队观察动物的动物园
+      world: real
+    - name: 冬宫博物馆
+      what: 田上玲子比喻的形象来源
+      world: real
   observations:
-  - anchor: 11
+  - text: 杉森建说共有17位设计师，每人设计约10只宝可梦。
+    anchor: 11
     seg: 10
-    text: 杉森建说共有17位设计师，每人设计约10只宝可梦。
-  - anchor: 13
+  - text: 大村祐介说设计工作大约从2008年春天开始。
+    anchor: 13
     seg: 12
-    text: 大村祐介说设计工作大约从2008年春天开始。
   relations:
-  - id: scan-ndream-2011-01-bw-design-secrets
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 宝可梦 黑·白 美术诞生秘闻
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/
-    why: 同为2010-11-20 Nintendo DREAM黑·白美术专访，均提17人
-  - id: interview-nintendodream-201-sugimori-bw-characters
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 杉森建谈《宝可梦 黑／白》角色设计
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
-    why: 同为2010-11-20 Nintendo DREAM黑·白设计专访，杉森建谈设
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
-    kind: continues
-    label: 同一系列的前后篇
-    title: 宝可梦黑·白诞生秘话
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
-    why: Nintendo DREAM黑·白设计访谈续篇，同批人谈设计
-  - id: interview-otonafami-sugimori-starters-victini
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 杉森建谈宝可梦设计
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-otonafami-sugimori-starters-victini/
     why: 杉森建谈156只全新宝可梦的立项背景
+    id: interview-otonafami-sugimori-starters-victini
+    kind: background
 2010-09-13-interview-weekly-ascii-masuda-bw:
   facets:
     people:
@@ -24055,14 +24014,8 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/
     why: 同为黑白的社长问访谈，杉森建受访
 2010-11-20-interview-steinberg-gamefreak-sound-cubase:
+  id: interview-steinberg-gamefreak-sound-cubase
   facets:
-    people:
-    - name: 景山将太
-      role: speaker
-      slug: kageyama-shota
-    - name: Yamaha 青木讲师
-      role: mentioned
-    places: []
     pokemon: []
     works:
     - name: 宝可梦 黑·白
@@ -24079,27 +24032,31 @@
       slug: null
     - name: 伏尔塔瓦河
       slug: null
-  id: interview-steinberg-gamefreak-sound-cubase
+    people:
+    - name: 景山将太
+      slug: kageyama-shota
+      role: speaker
+    places: []
   observations:
-  - anchor: 2
+  - text: GAME FREAK声音开发使用Cubase，采访2010年DS新作声音领队景山将太
+    anchor: 2
     seg: 1
-    text: GAME FREAK声音开发使用Cubase，采访2010年DS新作声音领队景山将太
-  - anchor: 10
+  - text: 声音团队四人体制，成员既做BGM也做音效
+    anchor: 10
     seg: 9
-    text: 声音团队四人体制，成员既做BGM也做音效
   relations:
-  - id: interview-bw-music-collection-liner-notes
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 相关资料
     title: 增田顺一、景山将太等详谈合众动态音效与世界音乐构建
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
-    why: 同为2010年BW音频主创景山将太受访谈音乐
-  - id: gamefreak-staff-203
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-bw-music-collection-liner-notes
+    kind: background
+  - label: 相关资料
     title: 【工作日志】2010年宝可梦音乐开发
     url: /gamefreak-staff/entry-203/
-    why: 景山将太同谈BW合众音乐与互动声音
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: gamefreak-staff-203
+    kind: background
 2010-11-20-scan-ndream-2011-01-bw-design-secrets:
   facets:
     people:
@@ -24438,38 +24395,42 @@
   - seg: 3
     text: 10月1日起2012年度应届毕业生招聘开始接受报名
 2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario:
+  id: interview-famitsu-1146-matsumiya-bw-scenario
   facets:
-    people:
-    - name: 週刊ファミ通
-      role: speaker
-    - name: 松宫稔展
-      role: speaker
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - kind: character
-      name: N
-      role: mentioned
-      slug: n
-    - name: 黑连
-      role: mentioned
-    - name: 白露
-      role: mentioned
-    places: []
     pokemon: []
     works:
     - name: 宝可梦 黑·白
       slug: black-white
     - name: 宝可梦
       slug: null
-  id: interview-famitsu-1146-matsumiya-bw-scenario
+    people:
+    - name: 松宫稔展
+      slug: song-gong-ren-zhan
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    places: []
   observations:
-  - anchor: 3
+  - text: 松宫稔展说系列从第一部作品问世到现在已过14年
+    anchor: 3
     seg: 2
-    text: 松宫稔展说系列从第一部作品问世到现在已过14年
-  - anchor: 5
+  - text: 关于N，是增田顺一先于主题提出的建议
+    anchor: 5
     seg: 4
-    text: 关于N，是增田顺一先于主题提出的建议
+  relations:
+  - label: 为这篇提供背景
+    title: 週刊Fami通 No.1138 独家专访总监增田顺一：“让大人重新体验‘踢罐子’的惊喜”——打破宝可梦毕业现象、156只全新精灵、与神秘少年N专属超高速台词系统
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1138-masuda-bw-secrets/
+    why: 增田谈N构想与BW主题，本篇松宫续谈N思想原点
+    id: interview-famitsu-1138-masuda-bw-secrets
+    kind: background
+  - label: 为这篇提供背景
+    title: 週刊Fami通 No.1137 发售特别专访石原恒和 × 增田顺一：“为什么我们拒绝等待新掌机，而要在NDS上挑战开发极限”——《宝可梦 黑／白》156只全新宝可梦、PGL日常生态与合众网络战略
+    url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-famitsu-1137-ishihara-masuda-bw-launch/
+    why: 石原增田谈BW完全新作与156只，本篇剧本访谈背景
+    id: interview-famitsu-1137-ishihara-masuda-bw-launch
+    kind: background
 2010-12-03-gamefreak-staff-210:
   facets:
     people:
@@ -25989,31 +25950,8 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-bw-masuda-sugimori/
     why: 同为2011年3月黑·白海外发售期增田杉森专访
 2011-03-05-interview-1up-black-white-how-pokemon-get-made:
+  id: interview-1up-black-white-how-pokemon-get-made
   facets:
-    people:
-    - name: 井部真那
-      role: mentioned
-      slug: ibe-mana
-    - name: 大村祐介
-      role: mentioned
-      slug: ohmura-yusuke
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 海野隆雄
-      role: mentioned
-      slug: unno-takao
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 李贤贞
-      role: mentioned
-    - name: 田上玲子
-      role: mentioned
-    places:
-    - name: 池袋的阳光国际水族馆
-      what: 看海豹表演
-      world: real
     pokemon:
     - name: 藤藤蛇
       ndex: 495
@@ -26038,46 +25976,46 @@
       slug: null
     - name: 宝可梦集换式卡牌游戏
       slug: null
-  id: interview-1up-black-white-how-pokemon-get-made
+    people:
+    - name: 井部真那
+      slug: ibe-mana
+      role: mentioned
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: mentioned
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    - name: 海野隆雄
+      slug: unno-takao
+      role: mentioned
+    places:
+    - name: 池袋的阳光国际水族馆
+      what: 看海豹表演
+      world: real
   observations:
-  - anchor: 3
+  - text: 设计团队约17人，各自画宝可梦后在小组会议讨论
+    anchor: 3
     seg: 2
-    text: 设计团队约17人，各自画宝可梦后在小组会议讨论
-  - anchor: 5
+  - text: 莱希拉姆与捷克罗姆的尾巴基于电力涡轮机
+    anchor: 5
     seg: 4
-    text: 莱希拉姆与捷克罗姆的尾巴基于电力涡轮机
   relations:
-  - id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦诞生秘话 总集篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/
     why: 同为Nintendo DREAM黑·白诞生秘话总集篇，均述17人设计流程
-  - id: scan-ndream-2011-01-bw-design-secrets
+    id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦 黑·白 美术诞生秘闻
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/
     why: 同刊黑·白美术专题，均述17人分工设计宝可梦
+    id: scan-ndream-2011-01-bw-design-secrets
+    kind: same-occasion
 2011-03-07-interview-gameinformer-masuda-past-present-future:
+  id: interview-gameinformer-masuda-past-present-future
   facets:
-    people:
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 井部真那
-      role: speaker
-      slug: ibe-mana
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 宫本茂
-      role: mentioned
-      slug: miyamoto-shigeru
-    places: []
     pokemon: []
     works:
     - name: 宝可梦 黑·白
@@ -26092,27 +26030,37 @@
       slug: null
     - name: Mendel Palace
       slug: null
-  id: interview-gameinformer-masuda-past-present-future
+    people:
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    - name: 井部真那
+      slug: ibe-mana
+      role: speaker
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: mentioned
+    places: []
   observations:
-  - anchor: 2
+  - text: 《黑／白》于本周发售，为第五世代作品
+    anchor: 2
     seg: 1
-    text: 《黑／白》于本周发售，为第五世代作品
-  - anchor: 9
+  - text: 最初两款游戏开发历时六年
+    anchor: 9
     seg: 8
-    text: 最初两款游戏开发历时六年
   relations:
-  - id: interview-eurogamer-masuda-sugimori-black-white-brains
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/
     why: 同为2011年3月《黑·白》欧美发售前专访增田
-  - id: interview-game-informer-game-freak-origins-pre-pokemon
-    kind: background
-    label: 为这篇提供背景
+    id: interview-eurogamer-masuda-sugimori-black-white-brains
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: Game Freak’s Origins And Its Pre-Pokémon Games
     url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/
     why: 增田回顾Game Freak同人志与早期开发
+    id: interview-game-informer-game-freak-origins-pre-pokemon
+    kind: background
 2011-03-08-gamefreak-director-189:
   facets:
     people:
@@ -34845,18 +34793,8 @@
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/
     why: 前作3D化动作设计背景，A.I.任动作设计师
 2015-10-01-interview-gamefreak-recruit-planners:
+  id: interview-gamefreak-recruit-planners
   facets:
-    people:
-    - name: H.T.
-      role: speaker
-      slug: h-t
-    - name: R.M.
-      role: speaker
-      slug: r-m
-    places:
-    - name: 九州
-      what: 上一份工作所在地
-      world: real
     pokemon: []
     works:
     - name: 宝可梦 X·Y
@@ -34867,27 +34805,37 @@
       slug: null
     - name: 马力欧
       slug: null
-  id: interview-gamefreak-recruit-planners
+    people:
+    - name: H.T.（2015策划访谈）
+      slug: gf-ht-planners-2015
+      role: speaker
+    - name: R.M.
+      slug: r-m
+      role: speaker
+    places:
+    - name: 九州
+      what: 上一份工作所在地
+      world: real
   observations:
-  - anchor: 4
+  - text: H.T.在九州一家游戏公司做了3年程序员，负责战斗和UI
+    anchor: 4
     seg: 3
-    text: H.T.在九州一家游戏公司做了3年程序员，负责战斗和UI
-  - anchor: 5
+  - text: R.M.从2011年起4年参与一个动作冒险游戏系列，负责支线事件
+    anchor: 5
     seg: 4
-    text: R.M.从2011年起4年参与一个动作冒险游戏系列，负责支线事件
   relations:
-  - id: interview-gamefreak-recruit-programmers
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 相关资料
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/
-    why: 同日同专栏“我加入游戏狂想的理由”程序员篇
-  - id: interview-gamefreak-recruit-designers
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-gamefreak-recruit-programmers
+    kind: background
+  - label: 相关资料
     title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/
-    why: 同日同专栏“我加入游戏狂想的理由”设计师篇
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-gamefreak-recruit-designers
+    kind: background
 2015-10-01-interview-gamefreak-recruit-programmers:
   facets:
     people:
@@ -46944,11 +46892,16 @@
     seg: 5
     text: 研究开发部于2016年新设，被称作为此而设的战略组织
 2019-12-11-interview-gamefreak-recruit-programmer-dn:
+  id: interview-gamefreak-recruit-programmer-dn
   facets:
+    pokemon: []
+    works:
+    - name: 宝可梦
+      slug: null
     people:
     - name: D.N.
-      role: speaker
       slug: d-n
+      role: speaker
     places:
     - name: 上智大学
       what: D.N. 留学与再学一年的大学
@@ -46959,18 +46912,13 @@
     - name: HAL东京
       what: D.N. 学习编程的学校
       world: real
-    pokemon: []
-    works:
-    - name: 宝可梦
-      slug: null
-  id: interview-gamefreak-recruit-programmer-dn
   observations:
-  - anchor: 2
+  - text: D.N. 19岁第一次来日本，入职后担任场景程序员。
+    anchor: 2
     seg: 1
-    text: D.N. 19岁第一次来日本，入职后担任场景程序员。
-  - anchor: 4
+  - text: D.N. 19岁作为交换留学生来到上智大学。
+    anchor: 4
     seg: 3
-    text: D.N. 19岁作为交换留学生来到上智大学。
 2020-03-01-interview-tpc-business-professionals:
   facets:
     people:
@@ -47960,14 +47908,8 @@
     url: /interviews/interview-gamefreak-crosstalk-system-programmer/
     why: 同日GAME FREAK官方招聘特辑对谈系列
 2021-12-27-interview-gamefreak-crosstalk-new-programmer:
+  id: interview-gamefreak-crosstalk-new-programmer
   facets:
-    people:
-    - name: T.K.
-      role: speaker
-      slug: t-k
-    - name: R.H.
-      role: speaker
-    places: []
     pokemon:
     - name: 阿尔宙斯
       ndex: 493
@@ -47978,14 +47920,18 @@
       slug: legends-arceus
     - name: Pokémon LEGENDS 阿尔宙斯
       slug: null
-  id: interview-gamefreak-crosstalk-new-programmer
+    people:
+    - name: T.K.（新卒程序员对谈）
+      slug: gf-tk-new-programmer-crosstalk
+      role: speaker
+    places: []
   observations:
-  - anchor: 9
+  - text: 会议用Google日历安排，用Google Meet开
+    anchor: 9
     seg: 8
-    text: 会议用Google日历安排，用Google Meet开
-  - anchor: 10
+  - text: 进度管理用Jira，研究开发部每月都有发布
+    anchor: 10
     seg: 9
-    text: 进度管理用Jira，研究开发部每月都有发布
 2021-12-27-interview-gamefreak-crosstalk-planner:
   facets:
     people:
@@ -48129,17 +48075,8 @@
     url: /interviews/interview-gamefreak-crosstalk-system-programmer/
     why: 同日GAME FREAK对谈，K.M.任研究开发部副部长
 2021-12-27-interview-gamefreak-crosstalk-system-programmer:
+  id: interview-gamefreak-crosstalk-system-programmer
   facets:
-    people:
-    - name: K.M.
-      role: speaker
-      slug: k-m
-    - name: J.I.
-      role: speaker
-    - name: H.T.
-      role: speaker
-      slug: h-t
-    places: []
     pokemon: []
     works:
     - name: 宝可梦传说 阿尔宙斯
@@ -48148,39 +48085,46 @@
       slug: scarlet-violet
     - name: 宝可梦
       slug: null
-  id: interview-gamefreak-crosstalk-system-programmer
+    people:
+    - name: K.M.
+      slug: k-m
+      role: speaker
+    - name: H.T.（系统程序员对谈）
+      slug: gf-ht-system-crosstalk
+      role: speaker
+    places: []
   observations:
-  - anchor: 10
+  - text: J.I.说作品开发以2到3年推进，研究开发部须以5到10年跨度思考
+    anchor: 10
     seg: 9
-    text: J.I.说作品开发以2到3年推进，研究开发部须以5到10年跨度思考
-  - anchor: 13
+  - text: 需求由全公司跨部门与各项目总监开会决定优先级，此做法由J.I.提议
+    anchor: 13
     seg: 12
-    text: 需求由全公司跨部门与各项目总监开会决定优先级，此做法由J.I.提议
   relations:
-  - id: interview-gamefreak-crosstalk-programmer
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 相关资料
     title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/
-    why: 同为2021-12-27 GAME FREAK程序员对谈，均分系统与游戏程序员
-  - id: interview-gamefreak-crosstalk-game-programmer
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-gamefreak-crosstalk-programmer
+    kind: background
+  - label: 相关资料
     title: 最重要的是否能把握住“玩法的本质”。
     url: /interviews/interview-gamefreak-crosstalk-game-programmer/
-    why: 同日GAME FREAK程序员对谈，同属招聘特辑程序员篇
-  - id: interview-gamefreak-crosstalk-designer
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-gamefreak-crosstalk-game-programmer
+    kind: background
+  - label: 相关资料
     title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/
-    why: 同日GAME FREAK招聘特辑对谈，同属职能岗位系列
-  - id: interview-gamefreak-crosstalk-new-graduate
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-gamefreak-crosstalk-designer
+    kind: background
+  - label: 相关资料
     title: 入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。
     url: /interviews/interview-gamefreak-crosstalk-new-graduate/
-    why: 同日GAME FREAK招聘特辑对谈，同属岗位系列
+    why: 同主题或同栏目中的独立资料；没有证据表明来自同一场访谈。
+    id: interview-gamefreak-crosstalk-new-graduate
+    kind: background
 2021-12-27-interview-gamefreak-recruit-concept-artist-fk:
   facets:
     people:
@@ -48269,15 +48213,8 @@
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-ta-tk/
     why: 同系列设计师特写，均涉剑／盾制作环境与协作
 2021-12-27-interview-gamefreak-recruit-designer-ht:
+  id: interview-gamefreak-recruit-designer-ht
   facets:
-    people:
-    - name: H.T.
-      role: speaker
-      slug: h-t
-    places:
-    - name: E3
-      what: 游戏展会
-      world: real
     pokemon: []
     works:
     - name: 小镇英雄
@@ -48286,21 +48223,21 @@
       slug: sword-shield
     - name: 宝可梦
       slug: null
-  id: interview-gamefreak-recruit-designer-ht
+    people:
+    - name: H.T.（2019设计师特写）
+      slug: gf-ht-designer-2019
+      role: speaker
+    places:
+    - name: E3
+      what: 游戏展会
+      world: real
   observations:
-  - anchor: 4
+  - text: H.T.应届毕业后进入一家主机游戏开发公司担任背景设计师
+    anchor: 4
     seg: 3
-    text: H.T.应届毕业后进入一家主机游戏开发公司担任背景设计师
-  - anchor: 4
+  - text: H.T.因方案被采纳后交到策划手中而考虑跳槽
+    anchor: 4
     seg: 3
-    text: H.T.因方案被采纳后交到策划手中而考虑跳槽
-  relations:
-  - id: interview-gamefreak-crosstalk-designer
-    kind: background
-    label: 为这篇提供背景
-    title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
-    url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/
-    why: 同一H.T.，对谈补充其背景美术经历与设计理念
 2021-12-27-interview-gamefreak-recruit-designer-kn:
   facets:
     people:
@@ -48409,12 +48346,8 @@
     seg: 4
     text: R.M.入职后先参加新人研修，与同期制作小游戏
 2021-12-27-interview-gamefreak-recruit-programmer-ht:
+  id: interview-gamefreak-recruit-programmer-ht
   facets:
-    people:
-    - name: H.T.
-      role: speaker
-      slug: h-t
-    places: []
     pokemon: []
     works:
     - name: 宝可梦 剑·盾
@@ -48425,14 +48358,18 @@
       slug: null
     - name: 宝可梦
       slug: null
-  id: interview-gamefreak-recruit-programmer-ht
+    people:
+    - name: H.T.（2020程序员特写）
+      slug: gf-ht-programmer-2020
+      role: speaker
+    places: []
   observations:
-  - anchor: 4
+  - text: H.T. 从专科学校毕业后进入手机游戏初创公司。
+    anchor: 4
     seg: 3
-    text: H.T. 从专科学校毕业后进入手机游戏初创公司。
-  - anchor: 13
+  - text: H.T. 每周有 3 天远程办公，也能兼顾育儿。
+    anchor: 13
     seg: 12
-    text: H.T. 每周有 3 天远程办公，也能兼顾育儿。
 2021-12-27-interview-gamefreak-recruit-programmer-km:
   facets:
     people:
@@ -48499,12 +48436,8 @@
     seg: 4
     text: 入职后有3个月培训，他在培训中第一次接触游戏SDK
 2021-12-27-interview-gamefreak-recruit-programmer-tk:
+  id: interview-gamefreak-recruit-programmer-tk
   facets:
-    people:
-    - name: T.K.
-      role: speaker
-      slug: t-k
-    places: []
     pokemon:
     - name: 阿尔宙斯
       ndex: 493
@@ -48513,34 +48446,34 @@
       slug: sword-shield
     - name: 宝可梦传说 阿尔宙斯
       slug: legends-arceus
-  id: interview-gamefreak-recruit-programmer-tk
+    people:
+    - name: T.K.（程序员特写）
+      slug: gf-tk-programmer
+      role: speaker
+    places: []
   observations:
-  - anchor: 4
+  - text: T.K.说加入GAME FREAK是因为对《宝可梦》系列的制作技术感兴趣
+    anchor: 4
     seg: 3
-    text: T.K.说加入GAME FREAK是因为对《宝可梦》系列的制作技术感兴趣
-  - anchor: 9
+  - text: 为稳定处理物理行为和AI引入了Havok，最初完全无法控制
+    anchor: 9
     seg: 8
-    text: 为稳定处理物理行为和AI引入了Havok，最初完全无法控制
   relations:
-  - id: interview-gamefreak-crosstalk-designer
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/
     why: 同涉《阿尔宙斯》开发，设计师篇讲机制提案
-  - id: interview-gamefreak-recruit-designer-ek
+    id: interview-gamefreak-crosstalk-designer
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 畅所欲言发表意见，随心所欲钻研学习。这是最让人开心的职场。
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ek/
     why: 同为GAME FREAK採用情報一线员工特写系列
+    id: interview-gamefreak-recruit-designer-ek
+    kind: background
 2021-12-27-interview-gamefreak-recruit-ta-tk:
+  id: interview-gamefreak-recruit-ta-tk
   facets:
-    people:
-    - name: T.K.
-      role: speaker
-      slug: t-k
-    places: []
     pokemon:
     - name: 阿尔宙斯
       ndex: 493
@@ -48559,14 +48492,18 @@
       slug: null
     - name: 宝可梦
       slug: null
-  id: interview-gamefreak-recruit-ta-tk
+    people:
+    - name: T.K.（技术美术特写）
+      slug: gf-tk-technical-artist
+      role: speaker
+    places: []
   observations:
-  - anchor: 4
+  - text: T.K.在PC游戏开发公司工作10年后跳槽到影像公司
+    anchor: 4
     seg: 3
-    text: T.K.在PC游戏开发公司工作10年后跳槽到影像公司
-  - anchor: 8
+  - text: 《宝可梦 剑／盾》中他负责宝可梦模型制作环境整备，模型超1000只
+    anchor: 8
     seg: 7
-    text: 《宝可梦 剑／盾》中他负责宝可梦模型制作环境整备，模型超1000只
 2022-03-01-interview-tpc-recruit-new-generation:
   facets:
     people:
@@ -48967,19 +48904,8 @@
   - seg: 11
     text: 今年秋天『宝可梦 朱·紫』将发售，由GAME FREAK操刀
 2022-10-15-interview-pokemon-recruit-engineering:
+  id: interview-pokemon-recruit-engineering
   facets:
-    people:
-    - name: 小川
-      role: speaker
-    - name: 太田
-      role: speaker
-    - name: 宇都宫崇人
-      role: mentioned
-      slug: utsunomiya-takato
-    places:
-    - name: 旧金山
-      what: Niantic总部所在地
-      world: real
     pokemon: []
     works:
     - name: Pokémon GO
@@ -48988,29 +48914,36 @@
       slug: null
     - name: Pokémon GO Plus
       slug: null
-    - name: Ingress
+    - name: 宝可梦虚拟银行
       slug: null
-  id: interview-pokemon-recruit-engineering
+    people:
+    - name: 宇都宫崇人
+      slug: utsunomiya-takato
+      role: mentioned
+    places:
+    - name: 旧金山
+      what: Niantic总部所在地
+      world: real
   observations:
-  - anchor: 12
+  - text: 小川2014年因收到《Pokémon GO》研发邀请而入职
+    anchor: 12
     seg: 7
-    text: 小川2014年因收到《Pokémon GO》研发邀请而入职
-  - anchor: 12
+  - text: 小川在《Ingress》线下活动上与COO宇都宫崇人邻座
+    anchor: 12
     seg: 7
-    text: 小川在《Ingress》线下活动上与COO宇都宫崇人邻座
   relations:
-  - id: interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及
     url: /%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6sleep/%E7%94%9F%E6%B4%BB%E5%A8%B1%E4%B9%90%E5%8C%96/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/
     why: 宇都宫崇人同为宝可梦COO，可补其背景
-  - id: interview-nikkei-utsunomiya-pokemon-go
+    id: interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
     url: /developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/
     why: 宇都宫崇人谈Pokémon GO日美合作经过
+    id: interview-nikkei-utsunomiya-pokemon-go
+    kind: background
 2023-03-01-interview-pokemon-center-president-kamigo-yamaoka:
   facets:
     people:
@@ -49038,12 +48971,8 @@
     seg: 25
     text: 上乡赖臣称能直接交到顾客手中的地方以日本为主
 2023-03-24-interview-geeq-creatures-design-leader-watanabe:
+  id: interview-geeq-creatures-design-leader-watanabe
   facets:
-    people:
-    - name: 渡边敦
-      role: mentioned
-      slug: du-bian-dun
-    places: []
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -49080,21 +49009,25 @@
       slug: null
     - name: 名侦探皮卡丘 完全完结篇
       slug: null
-  id: interview-geeq-creatures-design-leader-watanabe
+    people:
+    - name: 渡边敦
+      slug: du-bian-dun
+      role: mentioned
+    places: []
   observations:
-  - anchor: 23
+  - text: 渡边敦2011年经IMAGICA DIGITALSCAPE介绍，作为派遣员工到GAME FREAK工作。
+    anchor: 23
     seg: 22
-    text: 渡边敦2011年经IMAGICA DIGITALSCAPE介绍，作为派遣员工到GAME FREAK工作。
-  - anchor: 35
+  - text: 数字开发本部有60多名员工，宝可梦CG工作室下设建模、动作和信息管理团队。
+    anchor: 35
     seg: 34
-    text: 数字开发本部有60多名员工，宝可梦CG工作室下设建模、动作和信息管理团队。
   relations:
-  - id: interview-cgworld-creatures-3d-character-life
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术
     url: /developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/
     why: 同属Creatures建模与动作团队专访，提供工作室与人员背景
+    id: interview-cgworld-creatures-3d-character-life
+    kind: background
 2023-04-19-interview-cgworld-2023-sv-making-1:
   facets:
     people:
@@ -49765,28 +49698,22 @@
     seg: 7
     text: K.K入职第1年被分配到宝可梦中心东京DX，第2年调到电商网站运营部门
 2023-09-10-interview-pokemon-recruit-data:
-  facets:
-    people:
-    - name: 坂上
-      role: speaker
-    - name: 水口
-      role: speaker
-    - name: 寺田佑贵
-      role: mentioned
-      slug: si-tian-you-gui
-    places: []
-    pokemon: []
-    works:
-    - name: 宝可梦 朱·紫
-      slug: scarlet-violet
   id: interview-pokemon-recruit-data
+  facets:
+    pokemon: []
+    works: []
+    people:
+    - name: 寺田佑贵
+      slug: si-tian-you-gui
+      role: mentioned
+    places: []
   observations:
-  - anchor: 4
+  - text: 寺田属于应用游戏部门，并以兼任形式参加经营企划部的数据团队。
+    anchor: 4
     seg: 1
-    text: 寺田佑贵任开发本部App事业部总监，兼任数据团队核心成员
-  - anchor: 16
+  - text: 水口参加数据项目时负责商品企划，此前曾在影视企划部工作约三年。
+    anchor: 16
     seg: 10
-    text: 水口此前曾连续3年在影视企划部深耕历练
 2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream:
   facets:
     people:
@@ -49973,36 +49900,26 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-oricon-2021-ishihara-25th/
     why: 石原恒和谈田尻智1990年提出建议的起点
 2023-11-20-interview-pokemon-recruit-it:
-  facets:
-    people:
-    - name: 铃木
-      role: speaker
-    - name: 新井
-      role: speaker
-    - name: 中野
-      role: speaker
-    - name: 柴山
-      role: speaker
-    places: []
-    pokemon: []
-    works:
-    - name: 宝可梦 朱·紫
-      slug: scarlet-violet
   id: interview-pokemon-recruit-it
+  facets:
+    pokemon: []
+    works: []
+    people: []
+    places: []
   observations:
-  - anchor: 5
+  - text: 铃木负责内部IT技术支持台，服务株式会社宝可梦及宝可梦中心全员
+    anchor: 5
     seg: 2
-    text: 铃木负责内部IT技术支持台，服务株式会社宝可梦及宝可梦中心全员
-  - anchor: 19
+  - text: 中野介绍，建设新网站时会花约1至3个月确定服务器配置和规格。
+    anchor: 19
     seg: 12
-    text: 中野称新官网上线需1至3个月推敲服务器架构与扩缩容策略
   relations:
-  - id: interview-pokemon-recruit-data
-    kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）
     url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-data/
     why: 同为2023年宝可梦公司官方专访系列，分数据篇与IT篇
+    id: interview-pokemon-recruit-data
+    kind: continues
 2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music:
   facets:
     people: []

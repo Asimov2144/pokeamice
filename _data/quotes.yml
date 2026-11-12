@@ -1064,7 +1064,7 @@ quotes:
   kind: quote
   hook: 石原：美国提案把皮卡丘画成虎斑猫
   zh: 确实，当我们最初在美国展示宝可梦时，他们评价说“Too Cute（太可爱了）”。当时美国方面的工作人员提出了一些角色设计方案，那些插图我一生都不会给别人看。它们就像是四季剧团的《猫》那样的感觉，比如皮卡丘被设计成了虎斑猫的样子，胸部变得很大。我问“这哪里像皮卡丘了？”，他们回答说“不，你看这个尾巴翘起来的地方……”就像在Comic Market上扮演皮卡丘的女孩子那样吗？（笑）
-  ja: やっぱりね、ポケモンを最初に向こうで見せたときには「Too Cute（可愛らしすぎる）」って言われたんですよ。そのときにアメリカ側のスタッフが出してきたキャラクター案というのがあって、それはもう生涯誰にも見せるわけにはいかないイラストなんだけど、劇団四季の「キャッツ」のような感じの、たとえばピカチュウだったらトラ猫のような形で、胸が大きいキャラクターに変わってるわけよ。「えっ？ これのどこがピカチュウなの！？」って言うと「いや、この尻尾があがってるところが」みたいなね。 コミケでピカチュウのコスプレしてる女の子みたいな感じですか(笑)。
+  ja: やっぱりね、ポケモンを最初に向こうで見せたときには「Too Cute（可愛らしすぎる）」って言われたんですよ。そのときにアメリカ側のスタッフが出してきたキャラクター案というのがあって、それはもう生涯誰にも見せるわけにはいかないイラストなんだけど、劇団四季の「キャッツ」のような感じの、たとえばピカチュウだったらトラ猫のような形で、胸が大きいキャラクターに変わってるわけよ。「えっ？　これのどこがピカチュウなの！？」って言うと「いや、この尻尾があがってるところが」みたいなね。 コミケでピカチュウのコスプレしてる女の子みたいな感じですか(笑)。
   lang: ja
   year: 2000
   date: '2000-07-01'
@@ -1133,10 +1133,7 @@ quotes:
   - 宝可梦 金·银
   - 宝可梦卡牌
   note: 石原恒和强调了声优的即兴发挥对动画角色的塑造作用，特别是林原惠美为火箭队创造的经典台词“好讨厌的感觉～！”，已成为宝可梦动画的标志性元素。
-  links:
-  - type: person
-    name: 大谷育江
-    slug: otani-ikue
+  links: []
 - id: 2000-12-14-interview-nom-crystal-new-elements-heroine#4
   post: 2000-12-14-interview-nom-crystal-new-elements-heroine
   segment: 4
@@ -1599,9 +1596,9 @@ quotes:
     name: 株式会社宝可梦
   - type: term
     name: 任天堂
-- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#90
+- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#175
   post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
-  segment: 90
+  segment: 175
   speaker: 增田顺一
   reported: false
   kind: quote
@@ -1615,16 +1612,16 @@ quotes:
   title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
   score: 5
   why: 披露《红宝石·蓝宝石》开发周期为两年，并说明最初的核心机关只是把熔岩与海洋字样互换。
-  more: 第93句提到双方基地位置不同，是互换之外刻意制造的差异。
+  more: 第178句提到双方基地位置不同，是互换之外刻意制造的差异。
   people:
   - 增田顺一
   - 杉森建
   works:
   - 宝可梦 红宝石·蓝宝石
   links: []
-- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#165
+- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#250
   post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
-  segment: 165
+  segment: 250
   speaker: 增田顺一
   reported: false
   kind: question
@@ -1648,9 +1645,9 @@ quotes:
   - type: person
     name: 杉森建
     slug: sugimori-ken
-- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#241
+- id: 2003-02-21-scan-ndream-084-ruby-sapphire-interview#148
   post: 2003-02-21-scan-ndream-084-ruby-sapphire-interview
-  segment: 241
+  segment: 148
   speaker: 增田顺一
   reported: false
   kind: quote
@@ -1664,7 +1661,7 @@ quotes:
   title: Nintendo DREAM 2003：增田顺一、杉森建谈《红宝石·蓝宝石》
   score: 5
   why: 披露标题直到2002年1月仍未确定，且曾有几个候选因商标问题未通过。
-  more: 第245、247句说明红宝石与蓝宝石同属刚玉原石，是同一原石改变看法后变红或变蓝的概念。
+  more: 第152、154句说明红宝石与蓝宝石同属刚玉原石，是同一原石改变看法后变红或变蓝的概念。
   people:
   - 增田顺一
   - 杉森建
@@ -1927,8 +1924,9 @@ quotes:
   people:
   - 增田顺一
   - 渡边哲也
-  - 宇野隆雄
+  - 海野隆雄
   - 西野弘二
+  - 近藤孝直
   works:
   - 宝可梦 火红·叶绿
   links: []
@@ -1952,8 +1950,9 @@ quotes:
   people:
   - 增田顺一
   - 渡边哲也
-  - 宇野隆雄
+  - 海野隆雄
   - 西野弘二
+  - 近藤孝直
   works:
   - 宝可梦 火红·叶绿
   links: []
@@ -1977,8 +1976,9 @@ quotes:
   people:
   - 增田顺一
   - 渡边哲也
-  - 宇野隆雄
+  - 海野隆雄
   - 西野弘二
+  - 近藤孝直
   works:
   - 宝可梦 火红·叶绿
   links: []
@@ -11016,13 +11016,13 @@ quotes:
   reported: false
   kind: quote
   hook: 杉森建：这次旧宝可梦不出现，我们从零设计老鼠和狗
-  zh: 我们是在开发《宝可梦 白金》和《宝可梦 心金/魂银》的同时进行开发的。在这款游戏中，由于旧宝可梦不会出现，舞台是一个新世界，我们需要为全新设计的宝可梦创造一个纯粹的生态系统。到目前为止，我们一直秉持着“已经有类似老鼠的宝可梦了，所以让我们制作其他宝可梦”的理念来设计——但这次它们全都是新的。所以，我们再次从零开始设计了类似老鼠的宝可梦、类似狗的宝可梦等等。
-  ja: We were developing it at the same time as Pocket Monsters Platinum and Pocket Monsters Heart Gold and Soul Silver. In this game, since old Pokemon do not appear, and a new world is the stage, we needed to create an ecosystem purely for the newly-designed Pokemon. Up until now, we designed with the philosophy that, “a mouse-like Pokemon already exists, so let’s make other Pokemon”—but this time the
+  zh: 我们是在开发《宝可梦 白金》和《宝可梦 心金·魂银》的同时开展这项工作的。这次以全新的世界为舞台，旧宝可梦不会登场，所以需要完全用新设计的宝可梦构建生态系统。过去会想：“已经有像老鼠的宝可梦了，那就设计别的吧。”但这次全部都是新的，因此又从头设计了像老鼠、像狗的宝可梦等。
+  ja: We were developing it at the same time as Pocket Monsters Platinum and Pocket Monsters Heart Gold and Soul Silver.  In this game, since old Pokemon do not appear, and a new world is the stage, we needed to create an ecosystem purely for the newly-designed Pokemon.  Up until now, we designed with the philosophy that, “a mouse-like Pokemon already exists, so let’s make other Pokemon”—but this time they were all new.  So, once again we designed a mouse-like Pokemon, a dog-like Pokemon, etc. from scratch.
   lang: ja
   year: 2010
   date: '2010-09-10'
   publication: Pokemon Peer (ポケモン ピア) / Pokebeach
-  title: Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛
+  title: Pokémon Pia 设计师访谈（据 PokeBeach 未完成英译转译）
   score: 5
   why: 《黑／白》首次让旧宝可梦完全不出现，需要为全新世界构建纯粹的生态系统，设计逻辑从「已有类似老鼠」转为重新设计。
   more: 同篇杉森建提到开发与《宝可梦 白金》《宝可梦 心金/魂银》同时进行。
@@ -11049,13 +11049,13 @@ quotes:
   reported: false
   kind: quote
   hook: 大村祐介：三只初始宝可梦分别代表日本、西方和中国
-  zh: 另外，这次我们想让三只初始宝可梦分别代表日本、西方和中国的意象。我们说藤藤蛇代表西方意象，暖暖猪代表中国，水水獭代表日本。我们讨论过：“海獭不能成为武士吗？”
+  zh: 另外，这次我们想让三只初始伙伴分别带有日本、西方和中国的意象。藤藤蛇是西方风格，暖暖猪是中国风格，水水獭是日本风格。我们还讨论过：“能不能让海獭成为武士？”
   ja: 'Also, this time we wanted the 3 starter Pokemon to be split into Japanese, Western, and Chinese imagery. We said Tsutaaja would represent Western imagery, Pokabu Chinese, and Mijumaru Japanese. We discussed it: "Couldn''t a sea otter be a samurai?"'
   lang: ja
   year: 2010
   date: '2010-09-10'
   publication: Pokemon Peer (ポケモン ピア) / Pokebeach
-  title: Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛
+  title: Pokémon Pia 设计师访谈（据 PokeBeach 未完成英译转译）
   score: 5
   why: 《黑／白》三只初始宝可梦被赋予地域意象：藤藤蛇代表西方、暖暖猪代表中国、水水獭代表日本。
   more: 同篇大村祐介提到海獭不能成为武士的讨论，以及去水族馆观察海獭。
@@ -11069,7 +11069,7 @@ quotes:
   - 宝可梦 黑·白
   - 宝可梦 白金
   - 宝可梦 心金·魂银
-  note: 藤藤蛇（Tsutaaja）的设计灵感可能来自西方骑士或蛇类，暖暖猪（Pokabu）可能参考了中国神话中的猪，水水獭（Mijumaru）则与日本武士文化相关。
+  note: 此处只说明日本、西方和中国的意象，没有指明具体神话人物或骑士原型。
   links:
   - type: person
     name: 大村祐介
@@ -11082,15 +11082,15 @@ quotes:
   kind: quote
   hook: 杉森建：开发初期整个团队去了多摩动物园观察动物
   zh: 在开发初期，整个团队去了动物园。这次我们去的是多摩动物园。我们各自分头去观察动物。鼹鼠展区非常有趣。管子连接在天花板上，鼹鼠在管子里以惊人的速度奔跑。我很震惊。
-  ja: At the beginning of development, the entire team went to the zoo. In this case it was the Tama Zoo that we visited. We each went our own way to watch the animals. The mole exhibit was really interesting. Tubes were connected through the ceiling, and the moles ran through them at incredible speeds. I was shocked.
+  ja: At the beginning of development, the entire team went to the zoo.  In this case it was the Tama Zoo that we visited. We each went our own way to watch the animals.  The mole exhibit was really interesting.  Tubes were connected through the ceiling, and the moles ran through them at incredible speeds.  I was shocked.
   lang: ja
   year: 2010
   date: '2010-09-10'
   publication: Pokemon Peer (ポケモン ピア) / Pokebeach
-  title: Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛
+  title: Pokémon Pia 设计师访谈（据 PokeBeach 未完成英译转译）
   score: 4
   why: 为设计宝可梦，团队集体去多摩动物园观察动物，杉森建对鼹鼠在管子里高速奔跑感到震惊。
-  more: 同篇井部真那也提到去动物园观察蛇，但蛇三十分钟不动。
+  more: 同篇田上提到曾在动物园观察蛇约30分钟，但蛇一动也不动。
   people:
   - 杉森建
   - 大村祐介
@@ -11595,8 +11595,8 @@ quotes:
   zh: 首先，我认为在这个领域，重要的是作品要具备个性，这样才能让人想到“这种风格就交给那个人吧”。同时，我认为至少会演奏一种乐器也很重要。是否有学过乐器、是否有乐队经验等，我认为都会反映在创作的作品中。听一个人创作的音乐，即便是打谱制作的音乐，如果能有仿佛正在现场演奏般良好的律动感，就能从中看出那个人的音乐经历。DAW 正变得越来越方便，但如果不只是依赖功能和工具、不依赖现成的东西，而是认真面对音乐本身，我认为作为作曲家是很难坚持40年、50年的（这也是对自己的告诫）。
   ja: まずは、このジャンルだとあの人に頼もうと思いついてもらえるように、作品に個性を持つことが大切だと思います。そして、ひとつでも楽器が弾けることも大事だと思います。楽器をやったことがあるか、バンド経験があるか等は、創る作品に反映されると思うんです。創った音楽を聞くと、打ち込みの音楽であっても、まるで演奏しているかのようないいグルーブ感が出ているとかそういうことでその人の音楽経験が見えてきます。DAW はどんどん便利になってきていますが、機能やツール、アリものだけに頼らずに、音楽そのものにしっかり向き合っていないと、40年50年作曲家としてつづけることは厳しいと思います（自戒の念もこめて）。
   lang: ja
-  year: 2010
-  date: '2010-11-20'
+  year: 2011
+  date: '2011-02-21'
   publication: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
   title: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
   score: 4
@@ -11773,7 +11773,6 @@ quotes:
   more: 增田顺一当时担任总监；N在《黑／白》中担任主角的对手角色。
   people:
   - 松宫稔展
-  - 增田顺一
   works:
   - 宝可梦 黑·白
   links:
@@ -11997,6 +11996,7 @@ quotes:
   why: 披露《黑·白》全面替换宝可梦的决定由增田提出，杉森曾反对，时间点在发售4年前，实际作业约2年。
   more: 同篇提到最初三只进化形态以武将为原型，水水獭对应日本侍。
   people:
+  - 杉森建
   - 增田顺一
   works:
   - 宝可梦 黑·白
@@ -12019,6 +12019,7 @@ quotes:
   why: 说明设计时刻意保留让人在意的细节，如水水獭脸上的疙瘩与毛孔，以制造感情投射。
   more: 同篇提到暖暖猪以张飞为意象，藤藤蛇以欧洲近卫队为意象。
   people:
+  - 杉森建
   - 增田顺一
   works:
   - 宝可梦 黑·白
@@ -12467,12 +12468,12 @@ quotes:
   kind: quote
   hook: 李贤贞：暖暖猪最初可爱到可以吃，最终会反过来吃掉你
   zh: 与此同时，《黑／白》中三只初始宝可梦的设计由GAME FREAK的年轻员工负责。上图中火属性的猪宝可梦暖暖猪，是由韩国平面设计师李贤贞构思的，她此前主要负责宝可梦集换式卡牌游戏的美术工作。李贤贞对《Fami通》说：“暖暖猪最初的想法是，一开始看起来‘可爱到可以吃’，但最终会进化到反过来吃掉你的程度。另外，我曾读到过猪在泥里打滚是因为不这样做就难以调节体温，所以我想如果它用鼻子喷火来调节体温会很有趣。”
-  ja: 'The designs for the three starter Pokemon in Black and White, meanwhile, were handled by younger staff at Game Freak. Pokabu, the Fire-type pig shown above, was conceived by Korean graphic designer Lee Hyun-Jung, who''s mostly handled art for the Pokemon Trading Card Game up to now. "The original idea with Pokabu was to have a Pokemon that figuratively looked ''cute enough to eat'' at the start, but '
+  ja: The designs for the three starter Pokemon in Black and White, meanwhile, were handled by younger staff at Game Freak. Pokabu, the Fire-type pig shown above, was conceived by Korean graphic designer Lee Hyun-Jung, who's mostly handled art for the Pokemon Trading Card Game up to now. "The original idea with Pokabu was to have a Pokemon that figuratively looked 'cute enough to eat' at the start, but would eventually evolve to the point where it'd wind up eating you instead," Lee told Famitsu. "Also, I read somewhere once that pigs wallow in mud because otherwise they have trouble regulating their body temperature, so I thought it'd be amusing if it shot fire out of its snout to do that instead."
   lang: en
-  year: 2011
-  date: '2011-03-05'
+  year: 2010
+  date: '2010-11-03'
   publication: 1UP.com
-  title: 1UP.com 2011：Game Freak谈《黑／白》主角设计
+  title: 1UP.com 2010：Game Freak谈《黑／白》主角设计
   score: 4
   why: 《黑／白》火属性初始宝可梦暖暖猪由韩国平面设计师李贤贞构思，她此前主要负责宝可梦集换式卡牌游戏的美术工作。
   more: 同篇提到三只初始宝可梦的角色定位：藤藤蛇是「酷」、水水獭是「可爱」、暖暖猪是「跟班」。
@@ -12493,12 +12494,12 @@ quotes:
   kind: quote
   hook: 大村祐介：大剑鬼的设计来自池袋水族馆的海豹表演
   zh: 至于水水獭及其进化型，设计师大村祐介决定让它成为照看另外两只初始宝可梦的‘保姆’角色。他说：“在我设计水水獭的进化型时，青藤蛇和炒炒猪（分别是藤藤蛇和暖暖猪的第一次进化）已经设计好了，所以我设想了一个能介入两者之间、在它们打架时阻止它们的形象。对于大剑鬼（水水獭的最终进化），我决定最好是完全改变外形。那段时间我在池袋的阳光国际水族馆看了一场训练海豹的表演，那些海豹的强壮令我印象深刻——它们看起来如此有力，尤其是它们跺地时发出的声音。我把这一点融入了设计，大剑鬼就是这样诞生的。”
-  ja: As for Mijumaru and his evolutions, designer Yusuke Ohmura decided to make him the 'den mother' figure looking over the other two starters. "Janobii and Chaoboo [Tsutaja and Pokabu's first evolutions, respectively] were already done up by the time I worked on Mijumaru's evolutions, so I envisioned something that could get in between those two and stop them whenever they got in a fight," he said. "
+  ja: As for Mijumaru and his evolutions, designer Yusuke Ohmura decided to make him the 'den mother' figure looking over the other two starters. "Janobii and Chaoboo [Tsutaja and Pokabu's first evolutions, respectively] were already done up by the time I worked on Mijumaru's evolutions, so I envisioned something that could get in between those two and stop them whenever they got in a fight," he said. "For Daikenki [Mijumaru's final evolution], I decided that a full-on change in shape would be the best. I caught a trained-seal show at the Sunshine International Aquarium in Ikebukuro around that time, and it really impressed me how strong those seals were -- they just seemed so powerful, especially the sound they made when they stamped on the ground. I worked that into the design, and Daikenki was the result."
   lang: en
-  year: 2011
-  date: '2011-03-05'
+  year: 2010
+  date: '2010-11-03'
   publication: 1UP.com
-  title: 1UP.com 2011：Game Freak谈《黑／白》主角设计
+  title: 1UP.com 2010：Game Freak谈《黑／白》主角设计
   score: 4
   why: 水水獭及其进化型由设计师大村祐介负责，他设想水水獭是照看另外两只初始宝可梦的「保姆」角色。
   more: 同篇提到水水獭的进化型要能介入青藤蛇和炒炒猪之间、在它们打架时阻止它们。
@@ -12519,12 +12520,12 @@ quotes:
   kind: quote
   hook: 海野隆雄：平面设计师还负责游戏内像素艺术和3D序列
   zh: 当被问及《黑／白》开发中最困难的部分时，海野和杉森都提到为每只宝可梦制作动画的工作量之大。海野说：“很多人以为我们的平面设计师只做基本的宝可梦肖像，但他们还负责游戏内的像素艺术和3D序列。由于宝可梦在战斗中不断移动，我们必须决定每只宝可梦在施展这个或那个招式时如何行动，或者它们陷入睡眠等状态时应该是什么样子。这比我预想的要多得多的工作。”
-  ja: 'When asked what the hardest part of Black/White development was, Unno and Sugimori being up the sheer amount of work animating each Pokemon proved to be. "A lot of people think that our graphic designers do nothing but the basic Pokemon portraits," Unno said, "but they''re also responsible for the in-game pixel art and 3D sequences. Since we have the Pokemon constantly moving during battle, we had '
+  ja: When asked what the hardest part of Black/White development was, Unno and Sugimori being up the sheer amount of work animating each Pokemon proved to be. "A lot of people think that our graphic designers do nothing but the basic Pokemon portraits," Unno said, "but they're also responsible for the in-game pixel art and 3D sequences. Since we have the Pokemon constantly moving during battle, we had to decide how each one would act when executing this or that move, or what they should look like when they were put to sleep or whatever. It was a lot more work than I ever imagined it'd be."
   lang: en
-  year: 2011
-  date: '2011-03-05'
+  year: 2010
+  date: '2010-11-03'
   publication: 1UP.com
-  title: 1UP.com 2011：Game Freak谈《黑／白》主角设计
+  title: 1UP.com 2010：Game Freak谈《黑／白》主角设计
   score: 4
   why: 被问及《黑／白》开发中最困难的部分时，海野和杉森都提到为每只宝可梦制作动画的工作量之大。
   more: 杉森建补充说，由于通关后可以带入以前的宝可梦，还必须为图鉴中所有宝可梦添加新的动画。
@@ -12559,8 +12560,6 @@ quotes:
   people:
   - 增田顺一
   - 井部真那
-  - 田尻智
-  - 杉森建
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
@@ -12587,8 +12586,6 @@ quotes:
   people:
   - 增田顺一
   - 井部真那
-  - 田尻智
-  - 杉森建
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
@@ -12603,7 +12600,7 @@ quotes:
   kind: question
   hook: 新宝可梦如何避免与旧设计重叠？
   zh: 在GAME FREAK，负责《黑／白》项目的设计师大约有17人。我们确保新宝可梦不与以往任何宝可梦过于重叠的方法之一是，对于新设计，我们会先制作其剪影，只保留轮廓，其余部分涂黑，确保其形状不与之前的宝可梦设计重叠，并确保它看起来仍然具有原创性。我们还会对配色方案和颜色组合进行同样的检查，确保旧游戏中的任何宝可梦都没有与新的宝可梦完全相同的配色。策划人员给我们的指导方向之一是不要被旧设计所限制或束缚，例如，仅仅因为旧游戏中存在某种类型的宝可梦，并不意味着你不能以不同的角度来制作类似类型的宝可梦。
-  ja: There were about 17 designers for Black and White project at Game Freak and one of the ways we make sure we don’t have too much overlap with any of the previous Pokémon is if we have a new design, we’ll take a silhouette of it, just the outline of it, and color the rest of it in black, and make sure the shape of it doesn’t overlap with previous Pokémon designs, and make sure it still looks origina
+  ja: There were about 17 designers for Black and White project at Game Freak and one of the ways we make sure we don’t have too much overlap with any of the previous Pokémon is if we have a new design, we’ll take a silhouette of it, just the outline of it, and color the rest of it in black, and make sure the shape of it doesn’t overlap with previous Pokémon designs, and make sure it still looks original. We also do that with the color palette, color combinations, and make sure that there aren’t any Pokémon in the older games that share that exact same color palette as the new ones. Some of the directions we got from planners was to not be restricted or bound by old designs, for example, just because there might be one type of Pokémon existing in the old games, doesn’t mean you can’t make a similar type of Pokémon in a different light.
   lang: ja
   year: 2011
   date: '2011-03-07'
@@ -12615,8 +12612,6 @@ quotes:
   people:
   - 增田顺一
   - 井部真那
-  - 田尻智
-  - 杉森建
   works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
@@ -14372,6 +14367,8 @@ quotes:
   people:
   - 海野隆雄
   - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
   works:
   - 宝可梦 黑2·白2
   links: []
@@ -14395,6 +14392,8 @@ quotes:
   people:
   - 海野隆雄
   - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
   works:
   - 宝可梦 黑2·白2
   links: []
@@ -14418,6 +14417,8 @@ quotes:
   people:
   - 海野隆雄
   - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
   works:
   - 宝可梦 黑2·白2
   links:
@@ -14701,6 +14702,9 @@ quotes:
   more: 同段提到希望在宝可梦电影上映影院或活动会场尝试100人规模。
   people:
   - 海野隆雄
+  - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
   works:
   - 宝可梦 黑2·白2
   links: []
@@ -14723,6 +14727,9 @@ quotes:
   more: 海野隆雄在190提到企划书封面是UFO袭击宝可梦，增田看后惊讶。
   people:
   - 海野隆雄
+  - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
   works:
   - 宝可梦 黑2·白2
   links:
@@ -14748,6 +14755,9 @@ quotes:
   more: 同段提到宣传语「你将会出现在游戏里！」，226进一步说做成锦标赛形式并让历代馆主、冠军登场。
   people:
   - 海野隆雄
+  - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
   works:
   - 宝可梦 黑2·白2
   links:
@@ -17859,8 +17869,14 @@ quotes:
   reported: false
   kind: quote
   hook: R.M.：4年只做支线事件、文本、镜头和小游戏
-  zh: 我是2015年入职、作为事件策划工作的R.M.。 上一份工作是从2011年起4年间，在一家大游戏公司一直参与一个动作冒险游戏系列。负责的是支线事件的策划、其文本撰写、镜头演出，还有小游戏规格设计等，故事主线以外的部分。
-  ja: 2015年に入社し、イベントプランナーとして就業しているR.M.です。 前職では2011年から4年間、大手ゲーム会社でアクションアドベンチャーゲームのシリーズにずっと携わっていました。担当はサブイベントのプランニング、そのテキスト作成、カメラ演出、あとはミニゲームの仕様設計など、ストーリーの本筋以外の部分でした。
+  zh: '我是2015年入职、作为事件策划工作的R.M.。
+
+
+    上一份工作是从2011年起4年间，在一家大游戏公司一直参与一个动作冒险游戏系列。负责的是支线事件的策划、其文本撰写、镜头演出，还有小游戏规格设计等，故事主线以外的部分。'
+  ja: '2015年に入社し、イベントプランナーとして就業しているR.M.です。
+
+
+    前職では2011年から4年間、大手ゲーム会社でアクションアドベンチャーゲームのシリーズにずっと携わっていました。担当はサブイベントのプランニング、そのテキスト作成、カメラ演出、あとはミニゲームの仕様設計など、ストーリーの本筋以外の部分でした。'
   lang: ja
   year: 2015
   date: '2015-10-21'
@@ -17870,15 +17886,15 @@ quotes:
   why: 具体交代了入职前的工作年限与职责范围，说明其经验集中在故事主线之外的部分。
   more: 同篇H.T.提到上一份工作是九州游戏公司3年程序员，负责战斗和UI。
   people:
-  - H.T.
+  - H.T.（2015策划访谈）
   - R.M.
   works:
   - 宝可梦 X·Y
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   links:
   - type: person
-    name: H.T.
-    slug: h-t
+    name: H.T.（2015策划访谈）
+    slug: gf-ht-planners-2015
   - type: term
     name: 程序员
 - id: 2015-10-01-interview-gamefreak-recruit-planners#9
@@ -17889,7 +17905,7 @@ quotes:
   kind: quote
   hook: R.M.：给朋友曲子填词拿特奖后决定进游戏行业
   zh: 我在大学专攻英国文学，模糊地想着以后当个英语老师。就在学生时代，我偶然遇到一个会作曲的朋友，有机会给他的曲子填词。结果，做出来的曲子在某个比赛中拿了特奖，投稿曲子的视频网站上也有很多反响。能得到很多人的反应让我很开心，从那以后我就定期发布作品。看到很多听歌的人因为自己写的歌词、世界观、故事而高兴，我就想：“啊，我竟然有这么大的让人开心的才能！不用这个才能太可惜了！”于是决定进入自己一直喜欢的游戏行业。
-  ja: 私は大学では英文学を専攻していまして、漠然と英語の先生になろうかなと思っていました。そんな学生時代にたまたま作曲できる友達と出会い、その友達の曲に歌詞をつける機会があったんですよね。そしたら、作った曲がとあるコンテストで特賞を取りまして、曲を投稿した動画サイトでも多くの反響をもらえたんです。大勢の人から反応をもらえることが楽しくて、それから定期的に作品を出すようになりました。曲を聴いてくれる多くの人達が、自分の考えた歌詞、世界観、ストーリーで喜んでくれるのを見て、「あぁ、自分にはこんなにも人を楽しませる才能があるんだ！ この才能を使わないのはもったいない！」と思い、昔から好きだったゲーム業界に入ることにしました。
+  ja: 私は大学では英文学を専攻していまして、漠然と英語の先生になろうかなと思っていました。そんな学生時代にたまたま作曲できる友達と出会い、その友達の曲に歌詞をつける機会があったんですよね。そしたら、作った曲がとあるコンテストで特賞を取りまして、曲を投稿した動画サイトでも多くの反響をもらえたんです。大勢の人から反応をもらえることが楽しくて、それから定期的に作品を出すようになりました。曲を聴いてくれる多くの人達が、自分の考えた歌詞、世界観、ストーリーで喜んでくれるのを見て、「あぁ、自分にはこんなにも人を楽しませる才能があるんだ！　この才能を使わないのはもったいない！」と思い、昔から好きだったゲーム業界に入ることにしました。
   lang: ja
   year: 2015
   date: '2015-10-21'
@@ -17899,7 +17915,7 @@ quotes:
   why: 用一次比赛特奖和视频网站反响，解释了从英国文学专业转向游戏行业的契机。
   more: 同篇R.M.提到上一份工作从2011年起4年参与一个动作冒险游戏系列。
   people:
-  - H.T.
+  - H.T.（2015策划访谈）
   - R.M.
   works:
   - 宝可梦 X·Y
@@ -17911,7 +17927,7 @@ quotes:
 - id: 2015-10-01-interview-gamefreak-recruit-planners#15
   post: 2015-10-01-interview-gamefreak-recruit-planners
   segment: 15
-  speaker: H.T.
+  speaker: H.T.（2015策划访谈）
   reported: false
   kind: question
   hook: H.T.为什么把《宝可梦》当作换工作的目标？
@@ -17926,15 +17942,15 @@ quotes:
   why: 把换工作的标准定为“能拿到最多反馈的作品”，并据此选择应聘GAME FREAK。
   more: 同篇H.T.提到上一份工作从策划到开发全程负责对战动作游戏的看点场景。
   people:
-  - H.T.
+  - H.T.（2015策划访谈）
   - R.M.
   works:
   - 宝可梦 X·Y
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   links:
   - type: person
-    name: H.T.
-    slug: h-t
+    name: H.T.（2015策划访谈）
+    slug: gf-ht-planners-2015
 - id: 2015-10-01-interview-gamefreak-recruit-programmers#19
   post: 2015-10-01-interview-gamefreak-recruit-programmers
   segment: 19
@@ -23311,7 +23327,7 @@ quotes:
 - id: 2021-12-27-interview-gamefreak-recruit-designer-ht#8
   post: 2021-12-27-interview-gamefreak-recruit-designer-ht
   segment: 8
-  speaker: H.T.
+  speaker: H.T.（2019设计师特写）
   reported: false
   kind: quote
   hook: H.T.：为与AAA大作并列时留下不同印象
@@ -23326,20 +23342,20 @@ quotes:
   why: 美术总监谈《小镇英雄》的差异化策略：着色像插画、色块更大、轮廓更醒目，在有限预算内下创意功夫。
   more: 《小镇英雄》是GEAR PROJECT的新作，H.T.在其中担任美术总监。
   people:
-  - H.T.
+  - H.T.（2019设计师特写）
   works:
   - 小镇英雄
   - 宝可梦 剑·盾
   links:
   - type: person
-    name: H.T.
-    slug: h-t
+    name: H.T.（2019设计师特写）
+    slug: gf-ht-designer-2019
   - type: term
     name: 美术总监
 - id: 2021-12-27-interview-gamefreak-recruit-designer-ht#9
   post: 2021-12-27-interview-gamefreak-recruit-designer-ht
   segment: 9
-  speaker: H.T.
+  speaker: H.T.（2019设计师特写）
   reported: false
   kind: quote
   hook: H.T.：GEAR PROJECT少数人制作，决策迅速
@@ -23354,7 +23370,7 @@ quotes:
   why: 说明GEAR PROJECT的运作方式：企划与系统由全体成员共同讨论决定，自己设计并参与到最后。
   more: GEAR PROJECT是GAME FREAK内部无论什么职位都能从零开始制作游戏的制度。
   people:
-  - H.T.
+  - H.T.（2019设计师特写）
   works:
   - 小镇英雄
   - 宝可梦 剑·盾
@@ -23745,7 +23761,7 @@ quotes:
 - id: 2021-12-27-interview-gamefreak-recruit-programmer-ht#12
   post: 2021-12-27-interview-gamefreak-recruit-programmer-ht
   segment: 12
-  speaker: H.T.
+  speaker: H.T.（2020程序员特写）
   reported: false
   kind: quote
   hook: H.T.：我的野心是将GAME FREAK开发环境全面云化
@@ -23760,7 +23776,7 @@ quotes:
   why: 这是访谈标题的核心主张，明确提出了全面云化的目标，并关联远程办公与外部协作。
   more: 文中提到GAME FREAK已在大量使用云服务，经营层秉持“创作者优先”的风气。
   people:
-  - H.T.
+  - H.T.（2020程序员特写）
   works:
   - 宝可梦 剑·盾
   - 开发环境全云端架构
@@ -24339,7 +24355,7 @@ quotes:
 - id: 2021-12-27-interview-gamefreak-crosstalk-new-programmer#13
   post: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
   segment: 13
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   reported: false
   kind: quote
   hook: T.K.：阿尔宙斯没法沿用以往经验，从零积累
@@ -24354,7 +24370,7 @@ quotes:
   why: 点出《宝可梦传说 阿尔宙斯》在GAME FREAK内部是脱离既有积累的项目，并提到引入Havok处理物理与AI。
   more: 同篇T.K.提到最初完全无法控制Havok的物理，角色站坡上会滑着飞出去。
   people:
-  - T.K.
+  - T.K.（新卒程序员对谈）
   - R.H.
   works:
   - 宝可梦 剑／盾
@@ -24362,12 +24378,12 @@ quotes:
   note: Havok是用于物理模拟和AI的中间件。
   links:
   - type: person
-    name: T.K.
-    slug: t-k
+    name: T.K.（新卒程序员对谈）
+    slug: gf-tk-new-programmer-crosstalk
 - id: 2021-12-27-interview-gamefreak-crosstalk-new-programmer#22
   post: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
   segment: 22
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   reported: false
   kind: quote
   hook: T.K.：比起实现，更重视从根源解决问题
@@ -24382,7 +24398,7 @@ quotes:
   why: 给出这位程序员的工作判断：不按需求直接实现，而是先挖掘需求背后的原因，常能提出不同方案。
   more: 同篇提到开发初期策划、程序员、图形设计师一起开实现启动会议，规格书有时由程序员或设计师来写。
   people:
-  - T.K.
+  - T.K.（新卒程序员对谈）
   - R.H.
   works:
   - 宝可梦 剑／盾
@@ -24395,7 +24411,7 @@ quotes:
 - id: 2021-12-27-interview-gamefreak-crosstalk-new-programmer#24
   post: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
   segment: 24
-  speaker: T.K.
+  speaker: T.K.（新卒程序员对谈）
   reported: false
   kind: quote
   hook: T.K.：想以绝对不说「做不到」的程序员为目标
@@ -24410,15 +24426,15 @@ quotes:
   why: 把「好学」列为程序员的条件，并说明程序员说做不到会让好点子变得不可能，是招人取向的直接表述。
   more: 同篇T.K.说遇到困难时和研究开发部的前辈商量，他们一定会给出某种解决方案。
   people:
-  - T.K.
+  - T.K.（新卒程序员对谈）
   - R.H.
   works:
   - 宝可梦 剑／盾
   - 宝可梦传说 阿尔宙斯
   links:
   - type: person
-    name: T.K.
-    slug: t-k
+    name: T.K.（新卒程序员对谈）
+    slug: gf-tk-new-programmer-crosstalk
 - id: 2021-12-27-interview-gamefreak-crosstalk-planner#9
   post: 2021-12-27-interview-gamefreak-crosstalk-planner
   segment: 9
@@ -24550,7 +24566,7 @@ quotes:
 - id: 2021-12-27-interview-gamefreak-recruit-ta-tk#8
   post: 2021-12-27-interview-gamefreak-recruit-ta-tk
   segment: 8
-  speaker: T.K.
+  speaker: T.K.（技术美术特写）
   reported: false
   kind: quote
   hook: T.K.：宝可梦剑／盾要做的模型超过1000只
@@ -24565,7 +24581,7 @@ quotes:
   why: 披露《宝可梦 剑／盾》宝可梦模型制作环境的规模与规则随点子不断更新的过程，并说明背景地图数据过重的难题如何被工具和制作方法化解。
   more: 这些经验后来被运用到《宝可梦传说 阿尔宙斯》的开发中。
   people:
-  - T.K.
+  - T.K.（技术美术特写）
   works:
   - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
@@ -24944,10 +24960,10 @@ quotes:
   zh: 在参与宝可梦游戏制作之前，我对工作的积极性曾经下降，但通过宝可梦的工作，我再次燃起了干劲。于是，我想从游戏开发的根基参与其中，抱着赌上设计师人生的打算表达了希望进入Creatures的意愿，结果在2017年作为正式员工入职。顺便一提，我在宝可梦方面一直负责建模，但本职是动作设计师，所以在Creatures隶属于动作团队。
   ja: ポケモンのゲーム制作に携わる前は仕事に対するモチベーションが下がっていたのですが、ポケモンの仕事を通してふたたび意欲がわいてきました。そして、ゲーム開発の根幹から関わりたいと思い、デザイナー人生を賭けるつもりでクリーチャーズへの入社の希望を伝えたところ、2017年に正社員として入社することになりました。 ちなみに、私はポケモンに関してはずっとモデリングを担当していましたが、本職はモーションデザイナーということもあり、クリーチャーズではモーションチームに所属しております。
   lang: ja
-  year: 2023
-  date: '2023-03-24'
+  year: 2019
+  date: '2019-09-11'
   publication: IMAGICA GEEQ
-  title: IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发
+  title: IMAGICA GEEQ（游戏行业求职平台）：Creatures设计负责人渡边敦谈宝可梦开发
   score: 4
   why: 说明他从派遣到正式员工的转折，以及本职是动作设计师、在Creatures隶属动作团队。
   more: 第28句简介与第37句动作团队分组可对照看。
@@ -24967,10 +24983,10 @@ quotes:
   zh: 作为领导者，工作的乐趣和成就感，说实话现在并没有。如今中途入职的员工越来越多。我认为，为了公司成长而打造良好的职场环境，以及建立能够回应市场需求的产品制作体制，花数年时间加以完善，是现在赋予我的职责。作为领导者的乐趣和成就感，或许要等到体制建立起来的时候才能获得吧。
   ja: リーダーの仕事のここが楽しい、やりがいを感じる、ということは、正直なところ今はありません。 中途で入社する社員が増える今日。会社を成長させるための良い職場づくりと、市場の要求に応える製品づくりの体制を数年かけて整えることが、今の私に求められる役割だと思っています。リーダーとしてのやりがいや達成感が得られるのは、体制を築くことができた時ではないでしょうか。
   lang: ja
-  year: 2023
-  date: '2023-03-24'
+  year: 2019
+  date: '2019-09-11'
   publication: IMAGICA GEEQ
-  title: IMAGICA GEEQ（游戏行业求职平台）2023：Creatures设计负责人渡边敦谈宝可梦开发
+  title: IMAGICA GEEQ（游戏行业求职平台）：Creatures设计负责人渡边敦谈宝可梦开发
   score: 4
   why: 新任设计负责人对管理岗位的反常识表态，理由是先要建体制、应对中途入职增多。
   more: 第36句提到他今年起离开建模现场、在《名侦探皮卡丘》完全完结篇项目任设计师领导者。
@@ -26101,7 +26117,7 @@ quotes:
   people:
   - K.M.
   - J.I.
-  - H.T.
+  - H.T.（系统程序员对谈）
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
@@ -26129,14 +26145,14 @@ quotes:
   people:
   - K.M.
   - J.I.
-  - H.T.
+  - H.T.（系统程序员对谈）
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
   links:
   - type: person
-    name: H.T.
-    slug: h-t
+    name: H.T.（系统程序员对谈）
+    slug: gf-ht-system-crosstalk
 - id: 2021-12-27-interview-gamefreak-crosstalk-system-programmer#26
   post: 2021-12-27-interview-gamefreak-crosstalk-system-programmer
   segment: 26
@@ -26157,7 +26173,7 @@ quotes:
   people:
   - K.M.
   - J.I.
-  - H.T.
+  - H.T.（系统程序员对谈）
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
@@ -27486,7 +27502,7 @@ quotes:
 - id: 2021-12-27-interview-gamefreak-recruit-programmer-tk#9
   post: 2021-12-27-interview-gamefreak-recruit-programmer-tk
   segment: 9
-  speaker: T.K.
+  speaker: T.K.（程序员特写）
   reported: false
   kind: quote
   hook: T.K.：最初完全无法控制Havok，角色在斜坡上一直滑出去飞走
@@ -27501,14 +27517,14 @@ quotes:
   why: 具体描述了引入Havok物理引擎初期的失控状态，以及研究开发部陪同调查的过程，是《宝可梦传说 阿尔宙斯》开发中的技术细节。
   more: 同篇第8句提到《宝可梦传说 阿尔宙斯》场景规模变大、对象增多，T.K.主要负责玩家行为。
   people:
-  - T.K.
+  - T.K.（程序员特写）
   works:
   - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
   links:
   - type: person
-    name: T.K.
-    slug: t-k
+    name: T.K.（程序员特写）
+    slug: gf-tk-programmer
   - type: work
     name: 宝可梦传说 阿尔宙斯
 - id: 2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience#4

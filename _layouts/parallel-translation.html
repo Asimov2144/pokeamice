@@ -8,10 +8,10 @@ layout: default
 {% assign default_view = page.parallel_view | default: "translation" %}
 {% assign lead_image_item = items | where: "type", "image" | first %}
 {% assign lead_image = page.header.image | default: page.source_image | default: lead_image_item.image | default: lead_image_item.src %}
-{% assign record_source_title = page.source.title | default: page.publication | default: "未标注来源" %}
+{% include interview-source.html %}
 {% assign record_people = page.interviewee | default: "未标注" %}
 {% assign record_work = page.entities.works | join: "、" | default: "未标注" %}
-{% assign record_pages = page.pages | default: page.page_range | default: page.page | default: "未标注" %}
+{% assign record_pages = page.source_pages | default: page.pages | default: page.page_range | default: page.page | default: "未标注" %}
 {% assign record_language = page.source.language | default: original_lang | default: "未标注" %}
 {% assign record_status = page.workflow.published | default: "published" %}
 {% assign source_kind = page.source.source_type | default: page.source_kind | default: "web_interview" %}
@@ -36,31 +36,10 @@ layout: default
           {% if page.date %}<span>{{ page.date | date: "%Y年%m月%d日" }}</span>{% endif %}
         </div>
         <div class="parallel-era-masthead__right">
-          {%- comment -%}
-            page.source is a scalar URL on some posts and a mapping on others.
-            Falling back to the mapping itself printed its Ruby inspect into the
-            href - and the quotes inside it closed the attribute early, so the
-            rest of the tag leaked out as visible text. Only take the fallback
-            when it actually looks like a URL.
-
-            Compared against "" rather than blank on purpose. Without ActiveSupport
-            loaded, nil does not respond to blank?, and Liquid's blank comparison
-            then yields nil - so 'u == blank' was never true and 'u != blank' was
-            always true. That combination skipped the fallback below and still
-            emitted the anchor, which is how a dead href="" reached the page.
-          {%- endcomment -%}
-          {% assign parallel_source_url = page.original_link | default: page.source.url | default: "" %}
-          {% if parallel_source_url == "" %}
-            {% assign source_scalar = page.source | append: "" %}
-            {% unless source_scalar contains "=>" %}
-              {% if source_scalar contains "://" %}
-                {% assign parallel_source_url = source_scalar %}
-              {% endif %}
-            {% endunless %}
-          {% endif %}
+          {% assign parallel_source_url = source_url %}
           {% if parallel_source_url != "" %}
             <a class="parallel-era-masthead__source" href="{{ parallel_source_url | escape }}" target="_blank" rel="noopener">
-              <i class="fas fa-external-link-alt"></i> 原始文献
+              <i class="fas fa-external-link-alt"></i> {% if source_is_archive %}原文存档{% else %}原始文献{% endif %}
             </a>
           {% endif %}
         </div>
@@ -373,7 +352,7 @@ layout: default
           </summary>
           <dl class="parallel-archive-record__grid">
             <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
-            <div><dt>Source</dt><dd>{{ record_source_title }}</dd></div>
+            <div><dt>Source</dt><dd>{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">{{ record_source_title }}</a>{% else %}{{ record_source_title }}{% endif %}</dd></div>
             <div><dt>People</dt><dd>{{ record_people }}</dd></div>
             <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
             <div><dt>Page</dt><dd>{{ record_pages }}</dd></div>

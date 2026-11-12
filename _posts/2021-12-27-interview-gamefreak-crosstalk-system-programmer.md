@@ -29,7 +29,7 @@ source:
   language: ja
   source_type: official_interview
 author: Game Freak 官方
-interviewee: K.M.、J.I.、H.T.
+interviewee: K.M.、J.I.、H.T.（系统程序员对谈）
 original_lang: ja
 translation_lang: zh-CN
 translator: PokeAmice（DeepSeek 初译）
@@ -39,7 +39,7 @@ entities:
   people:
   - K.M.
   - J.I.
-  - H.T.
+  - H.T.（系统程序员对谈）
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
@@ -71,7 +71,7 @@ parallel_items:
   role_zh: 2020年入职
   avatar: /assets/img/interviews/2021-gamefreak-crosstalk-system-programmer/member-ji.jpg
 - type: profile
-  speaker: H.T.
+  speaker: H.T.（系统程序员对谈）
   speaker_orig: H.T.
   role_ja: 2019年入社
   original: 新卒でゲーム会社に入社後、フリーランスとして独立して数社のモバイルゲーム開発を経験。AIスタートアップのCOOを経て、ゲームフリークへ。研究開発部 環境セクションのセクションディレクターを務める。
@@ -90,7 +90,7 @@ parallel_items:
   role: answer
   translation: 与其说是负责游戏作品本身的开发，不如说是为了制作前所未有的新游戏而进化开发环境。这就是我们系统程序员的使命。引进最先进的技术，自行开发新技术，并将其机制化以便应用于游戏开发。
 - type: text
-  speaker: H.T.
+  speaker: H.T.（系统程序员对谈）
   speaker_orig: H.T.
   original: ゲームプログラマには遊びについても考えるプランナー的な要素も求められますが、システムプログラマは必ずしもそうではありません。また、私も含め異業種からの転職者が多いのも特徴的です。AIや機械学習、クラウドなど、何かしらの専門分野で強みを持った人が活躍しているイメージですね。
   role: answer
@@ -103,7 +103,7 @@ parallel_items:
   removed_on: '2025-06-15'
   translation: 作为幕后支持者，支撑高品质的游戏制作，是我们的职责。尽可能准备高性能的PC，精心制作开发工具，对引擎进行极限优化。绝不允许有人说“如果开发环境或系统更好的话，就能做出更有趣的游戏了”这种借口。我们就是以这样的决心来面对的。
 - type: text
-  speaker: H.T.
+  speaker: H.T.（系统程序员对谈）
   speaker_orig: H.T.
   original: 一方で、縁の下で支えるだけではなく、タイトル開発を引っ張り、ドライブさせていく側面もありますよね。研究開発部だからといって、プロジェクトに関わらないわけではない。むしろ密接に関わって、一緒にタイトルを作り上げています。
   role: answer
@@ -129,7 +129,7 @@ parallel_items:
   removed_on: '2025-06-15'
   translation: “希望有这样的功能”这类需求，会由全公司跨部门与各项目的总监开会，决定优先级后再实现。实际使用功能的是项目，所以应该由当事者之间来协调需求，这是J.I.提议开始的。对于“这样试试看”的想法，如果有人赞同说“不错！”并积极行动，组织就会不断改变。
 - type: text
-  speaker: H.T.
+  speaker: H.T.（系统程序员对谈）
   speaker_orig: H.T.
   original: 「前の会社ではこうしたらうまくいったよ」という知見を持っている人に、ぜひ来てほしいですね。実際、中途入社の方のワークフローを取り入れて、あらゆる場所で改善が進んでいる。意思決定が早くて、即決・即実行するカルチャーがありますから。
   role: answer
@@ -169,7 +169,7 @@ parallel_items:
   role: answer
   translation: 与研发部诞生时相比，成员增加了，开发环境也完善了。我们专注于为《宝可梦》系列开发优化的独特举措。那些“其他公司不会做，但未来的GAME FREAK和《宝可梦》系列必定需要”的机制和技术。这正是面向2030年代的挑战。
 - type: text
-  speaker: H.T.
+  speaker: H.T.（系统程序员对谈）
   speaker_orig: H.T.
   original: 私のセクションはインフラと強い繋がりがあって、クラウドシフトを継続して進めています。今後はそれをさらに推進し、少ない人員でも効率的に各プロジェクトに環境提供できる体制を作りたいですね。最小効率で最大インパクトを出せるチームが理想です。
   role: answer
@@ -189,7 +189,7 @@ parallel_items:
   removed_on: '2025-06-15'
   translation: “一直做同样的事才安心”这种类型可能不适合。反倒是“那个去年做过了，算了”这样对新事物贪婪的人更好。而且，比起“进了厉害的公司，提升自己的技能”的人，更需要“靠自己的力量让公司变得更厉害”“这里还不成熟，我进来想办法解决”这种心态。
 - type: text
-  speaker: H.T.
+  speaker: H.T.（系统程序员对谈）
   speaker_orig: H.T.
   original: まさにそうですね。例えばいちメンバーであっても、「自分がマネージャーだったら、ディレクターだったらどう考えるか」と、問題意識を持って行動できる人が活躍しています。技術面でも、AIやWEB業界も急速に発展しているので、そうした技術をどんどん取り込んで会社への提案に結び付けていってほしいですね。
   role: answer

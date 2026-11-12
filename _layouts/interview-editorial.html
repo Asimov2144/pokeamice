@@ -59,19 +59,17 @@ kept on the turns even though the presentation around them is new.
     {% endif %}
   {% endfor %}
 {% endunless %}
-{% assign record_source_title = page.source.title | default: page.source_name | default: page.publication | default: "未标注来源" %}
+{% include interview-source.html %}
 {% assign record_people = page.interviewee | default: "未标注" %}
 {% assign record_work = page.entities.works | join: "、" | default: "未标注" %}
 {% assign record_language = original_lang %}
 {% assign record_status = page.workflow.published | default: "published" %}
 {% assign source_kind = page.source.source_type | default: page.source_kind | default: "web_interview" %}
-{% assign outlet = page.source_name | default: page.publication | default: page.source.title | default: "" %}
 {% assign outlet_short = outlet | split: "（" | first | split: "(" | first | strip %}
 {% assign reading_chars = items | map: "translation" | join: "" | size %}
 {% if items.size == 0 %}{% assign reading_chars = content | strip_html | size %}{% endif %}
 {% assign reading_minutes = reading_chars | divided_by: 400 %}
 {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
-{% assign source_url = page.original_link | default: page.source_url | default: page.source.url | default: "" %}
 {%- comment -%}
   Which body this page gets. A conference report is not an interview: nobody
   is asked anything, the reporter narrates and the presenter is quoted. The
@@ -259,7 +257,7 @@ kept on the turns even though the presentation around them is new.
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
         <span>{% if page.recruit.date_basis %}<a href="#recruit-version" data-tip="{{ page.recruit.date_basis | escape }}">约 {{ page.date | date: "%Y.%m" }}</a>{% else %}{{ page.date | date: "%Y.%m.%d" }}{% endif %}</span>
         <span data-tip="{{ ui.read_tip }}">{{ ui.read_a }}{{ reading_minutes }}{{ ui.read_b }}</span>
-        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener" data-tip="{{ ui.src_tip }}{% if record_language != "" %}（{{ record_language | upcase }}）{% endif %}">{{ ui.src_link }}</a>{% endif %}
+        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener" data-tip="{{ ui.src_tip }}{% if record_language != "" %}（{{ record_language | upcase }}）{% endif %}">{% if source_is_archive %}{% if ja %}原文のアーカイブ{% else %}原文存档{% endif %}{% else %}{{ ui.src_link }}{% endif %}</a>{% endif %}
         {% if ja %}<a class="ed-lang" href="{{ page.zh_url | relative_url }}" hreflang="zh-CN" lang="zh-CN" data-tip="同一篇的中文版">中文</a>{% elsif ja_url %}<a class="ed-lang" href="{{ ja_url | relative_url }}" hreflang="ja" lang="ja" data-tip="同一篇的日文版（AI 翻译）">日本語</a>{% endif %}
       </p>
       {% if ja %}<aside class="ed-digest-note ed-ai-note" role="note"><b>AI翻訳</b>この記事は、{{ outlet_short }}に{{ page.original_lang_name }}で掲載されたインタビューを、AI（機械翻訳）で日本語に訳したものです。人による校正は行っていません。発言は日本語で語られたものではなく、表現や細部が原文と異なる場合があります。正確な内容は{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">原文</a>{% else %}原文{% endif %}をご確認ください。</aside>{% endif %}
@@ -484,6 +482,7 @@ kept on the turns even though the presentation around them is new.
         <dl class="parallel-archive-record__grid">
           <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
           <div><dt>Source</dt><dd>{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">{{ record_source_title }}</a>{% else %}{{ record_source_title }}{% endif %}</dd></div>
+          {% if page.source_pages %}<div><dt>Page</dt><dd>{{ page.source_pages | escape }}</dd></div>{% endif %}
           <div><dt>People</dt><dd>{{ answerers | join: "、" | default: record_people }}</dd></div>
           {% unless ja %}<div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>{% endunless %}
           <div><dt>Language</dt><dd>{% if record_language != "" %}{{ record_language | upcase }} → {% endif %}{{ translation_lang }}</dd></div>

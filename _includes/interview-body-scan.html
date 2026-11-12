@@ -35,13 +35,19 @@ shown and the text reads as it always did.
   {% assign pn = s.scan_page | default: 0 | plus: 1 %}
   {% if pn > page_count %}{% assign page_count = pn %}{% endif %}
 {% endfor %}
+{% assign scan_order = page.scan_page_order | default: empty %}
+{% unless page.scan_page_order %}
+  {% assign scan_order = "" | split: "" %}
+  {% for i in (1..page_count) %}{% assign idx = i | minus: 1 %}{% assign scan_order = scan_order | push: idx %}{% endfor %}
+{% endunless %}
+{% assign page_total = scan_order | size %}
 {% assign pending = page.pending_review_regions | default: 0 %}
 {% assign review_count = 0 %}
 {% assign boxed_count = 0 %}
 {% for s in segs %}{% if s.review_status == "review" %}{% assign review_count = review_count | plus: 1 %}{% endif %}{% if s.scan_box %}{% assign boxed_count = boxed_count | plus: 1 %}{% endif %}{% endfor %}
 {% assign generic = "body,note,caption,image,heading,header,figure" | split: "," %}
 
-<div class="ed-body sc parallel-text parallel-text--web-article{% if boxed_count > 0 %} sc--boxed{% endif %}" id="parallel-reading" data-scan-reader data-page-count="{{ page_count }}">
+<div class="ed-body sc parallel-text parallel-text--web-article{% if boxed_count > 0 %} sc--boxed{% endif %}" id="parallel-reading" data-scan-reader data-page-count="{{ page_total }}">
 
   {%- comment -%} the two views, and the page strip for READ {%- endcomment -%}
   <div class="sc-bar" role="group" aria-label="视图">
@@ -50,10 +56,11 @@ shown and the text reads as it always did.
       <button type="button" class="sc-views__btn" data-scan-view-choice="archive" aria-pressed="false">档案</button>
     </div>
     <nav class="sc-pages" aria-label="页码" data-scan-strip>
-      {% for i in (1..page_count) %}
-        <a href="#scan-page-{{ i }}" data-scan-goto="{{ i | minus: 1 }}"{% if forloop.first %} class="is-active"{% endif %}>{{ i }}</a>
+      {% for idx in scan_order %}
+        {% assign i = idx | plus: 1 %}{% assign scan_label = page.scan_page_labels[idx] | default: i %}
+        <a href="#scan-page-{{ i }}" data-scan-goto="{{ idx }}"{% if forloop.first %} class="is-active"{% endif %}>{{ scan_label }}</a>
       {% endfor %}
-      <span class="sc-pages__total">共 {{ page_count }} 页</span>
+      <span class="sc-pages__total">共 {{ page_total }} 张</span>
     </nav>
   </div>
 
@@ -64,7 +71,7 @@ shown and the text reads as it always did.
     <aside class="sc-stage" data-scan-stage aria-label="页图">
       <div class="sc-stage__bar">
         <button type="button" class="sc-stage__btn" data-scan-prev aria-label="上一页">‹</button>
-        <span class="sc-stage__num">第 <b data-scan-current>1</b> / {{ page_count }} 页</span>
+        <span class="sc-stage__num">第 <b data-scan-current>1</b> 页 · 共 {{ page_total }} 张</span>
         <button type="button" class="sc-stage__btn" data-scan-next aria-label="下一页">›</button>
         <span class="sc-stage__zoom" role="group" aria-label="缩放">
           <button type="button" class="sc-stage__btn" data-scan-zoom-out aria-label="缩小">−</button>
@@ -75,15 +82,16 @@ shown and the text reads as it always did.
       </div>
       <div class="sc-stage__view" data-scan-viewport>
         <div class="sc-stage__canvas" data-scan-canvas>
-          {% for i in (1..page_count) %}
-            {% assign idx = i | minus: 1 %}
+          {% for idx in scan_order %}
+            {% assign i = idx | plus: 1 %}{% assign scan_label = page.scan_page_labels[idx] | default: i %}
             {% assign plate = nil %}
             {% for s in segs %}
               {% assign sp = s.scan_page | default: 0 %}
               {% if sp != idx or s.image == nil %}{% continue %}{% endif %}
               {% if s.image contains "/pages/" or s.region_id contains "fullpage" %}{% assign plate = s %}{% break %}{% endif %}
             {% endfor %}
-            <figure class="sc-plate{% unless plate %} sc-plate--crops{% endunless %}" data-scan-page="{{ idx }}"{% unless forloop.first %} hidden{% endunless %}>
+            {% unless plate %}{% assign plate = page.scan_pages | where: "leaf", idx | first %}{% endunless %}
+            <figure class="sc-plate{% unless plate %} sc-plate--crops{% endunless %}" data-scan-page="{{ idx }}" data-scan-label="{{ scan_label | escape }}"{% unless forloop.first %} hidden{% endunless %}>
               {% if plate %}
                 <img class="sc-plate__img" {% if forloop.first %}src{% else %}data-src{% endif %}="{{ plate.image | relative_url }}" alt="{{ plate.alt | default: page.title | escape }}"{% if plate.width %} width="{{ plate.width }}" height="{{ plate.height }}"{% endif %} decoding="async">
                 <svg class="sc-hotspots" data-scan-hotspots preserveAspectRatio="none"{% if plate.width %} viewBox="0 0 {{ plate.width }} {{ plate.height }}"{% endif %} aria-hidden="true">
@@ -115,13 +123,13 @@ shown and the text reads as it always did.
 
     {%- comment -%} the text, page by page, set by what each region was on the page {%- endcomment -%}
     <div class="sc-pane" data-scan-text>
-    {% for i in (1..page_count) %}
-      {% assign idx = i | minus: 1 %}
+    {% for idx in scan_order %}
+      {% assign i = idx | plus: 1 %}{% assign scan_label = page.scan_page_labels[idx] | default: i %}
       {% assign grp = "" %}
       <section class="sc-page" id="scan-page-{{ i }}" data-scan-page-section="{{ idx }}">
         <header class="sc-page__head">
-          <span class="sc-page__num">第 {{ i }} 页</span>
-          <span class="sc-page__of">/ {{ page_count }}</span>
+          <span class="sc-page__num">第 {{ scan_label }} 页</span>
+          <span class="sc-page__of">第 {{ forloop.index }} / {{ page_total }} 张</span>
         </header>
         {%- comment -%} a cover or a contents page: the picture is the record, there is no text to set {%- endcomment -%}
         {% assign has_text = false %}
@@ -306,9 +314,10 @@ shown and the text reads as it always did.
           {% endif %}
         {% endfor %}
         {% case grp %}{% when "title" %}</h2></header>{% when "captions" %}</ul>{% when "box" %}</aside>{% endcase %}
-        {% if i < page_count %}
-          <a class="sc-page__next" href="#scan-page-{{ i | plus: 1 }}" data-scan-goto="{{ i }}">下一页 →</a>
-        {% endif %}
+        {% unless forloop.last %}
+          {% assign next_idx = scan_order[forloop.index] %}
+          <a class="sc-page__next" href="#scan-page-{{ next_idx | plus: 1 }}" data-scan-goto="{{ next_idx }}">下一页 →</a>
+        {% endunless %}
       </section>
     {% endfor %}
     </div>
@@ -339,10 +348,10 @@ shown and the text reads as it always did.
       {% if page.review_scope %}<p class="sc-status__scope">{{ page.review_scope }}</p>{% endif %}
     </section>
 
-    {% for i in (1..page_count) %}
-      {% assign idx = i | minus: 1 %}
+    {% for idx in scan_order %}
+      {% assign i = idx | plus: 1 %}{% assign scan_label = page.scan_page_labels[idx] | default: i %}
       <section class="sc-apage" id="scan-archive-page-{{ i }}">
-        <h2 class="sc-apage__head">page {{ i }}</h2>
+        <h2 class="sc-apage__head">page {{ scan_label }}</h2>
         {% for s in segs %}
           {% assign sp = s.scan_page | default: 0 %}
           {% if sp != idx %}{% continue %}{% endif %}

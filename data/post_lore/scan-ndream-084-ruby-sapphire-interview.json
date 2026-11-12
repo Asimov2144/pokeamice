@@ -1,1234 +1,1196 @@
 {
- "id": "scan-ndream-084-ruby-sapphire-interview",
- "stem": "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 382
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙花",
-    "ndex": 3,
-    "seg": [
-     77
-    ],
-    "as": [
-     "妙蛙花"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "绿毛虫",
-    "ndex": 10,
-    "seg": [
-     68,
-     70
-    ],
-    "as": [
-     "绿毛虫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "铁甲蛹",
-    "ndex": 11,
-    "seg": [
-     2
-    ],
-    "as": [
-     "铁甲蛹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     214
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "可达鸭",
-    "ndex": 54,
-    "seg": [
-     33,
-     75,
-     231
-    ],
-    "as": [
-     "可达鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小拳石",
-    "ndex": 74,
-    "seg": [
-     72
-    ],
-    "as": [
-     "小拳石"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大钳蟹",
-    "ndex": 98,
-    "seg": [
-     81
-    ],
-    "as": [
-     "大钳蟹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "百变怪",
-    "ndex": 132,
-    "seg": [
-     234
-    ],
-    "as": [
-     "百变怪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     188
-    ],
-    "as": [
-     "卡比兽"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "果然翁",
-    "ndex": 202,
-    "seg": [
-     168
-    ],
-    "as": [
-     "果然翁"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "木守宫",
-    "ndex": 252,
-    "seg": [
-     27
-    ],
-    "as": [
-     "木守宫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "火稚鸡",
-    "ndex": 255,
-    "seg": [
-     218,
-     220,
-     222,
-     223,
-     231
-    ],
-    "as": [
-     "火稚鸡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "力壮鸡",
-    "ndex": 256,
-    "seg": [
-     222,
-     251
-    ],
-    "as": [
-     "力壮鸡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "火焰鸡",
-    "ndex": 257,
-    "seg": [
-     199,
-     202,
-     222
-    ],
-    "as": [
-     "火焰鸡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "水跃鱼",
-    "ndex": 258,
-    "seg": [
-     82
-    ],
-    "as": [
-     "水跃鱼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "沼跃鱼",
-    "ndex": 259,
-    "seg": [
-     375
-    ],
-    "as": [
-     "沼跃鱼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "蛇纹熊",
-    "ndex": 263,
-    "seg": [
-     190,
-     192,
-     193
-    ],
-    "as": [
-     "蛇纹熊"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "直冲熊",
-    "ndex": 264,
-    "seg": [
-     190
-    ],
-    "as": [
-     "直冲熊"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "刺尾虫",
-    "ndex": 265,
-    "seg": [
-     69,
-     70,
-     71
-    ],
-    "as": [
-     "刺尾虫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "莲叶童子",
-    "ndex": 270,
-    "seg": [
-     231,
-     259
-    ],
-    "as": [
-     "莲叶童子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "懒人獭",
-    "ndex": 287,
-    "seg": [
-     186,
-     189,
-     192,
-     348,
-     380
-    ],
-    "as": [
-     "懒人獭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "过动猿",
-    "ndex": 288,
-    "seg": [
-     186
-    ],
-    "as": [
-     "过动猿"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "请假王",
-    "ndex": 289,
-    "seg": [
-     186,
-     191,
-     347
-    ],
-    "as": [
-     "请假王"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "爆音怪",
-    "ndex": 295,
-    "seg": [
-     344,
-     379
-    ],
-    "as": [
-     "爆音怪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "露力丽",
-    "ndex": 298,
-    "seg": [
-     98
-    ],
-    "as": [
-     "露力丽"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "优雅猫",
-    "ndex": 301,
-    "seg": [
-     152
-    ],
-    "as": [
-     "优雅猫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "可多拉",
-    "ndex": 305,
-    "seg": [
-     139
-    ],
-    "as": [
-     "可多拉"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "吼鲸王",
-    "ndex": 321,
-    "seg": [
-     231,
-     232
-    ],
-    "as": [
-     "吼鲸王"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "呆火驼",
-    "ndex": 322,
-    "seg": [
-     378
-    ],
-    "as": [
-     "呆火驼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "猫鼬斩",
-    "ndex": 335,
-    "seg": [
-     153
-    ],
-    "as": [
-     "猫鼬斩"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "触手百合",
-    "ndex": 345,
-    "seg": [
-     376
-    ],
-    "as": [
-     "触手百合"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "变隐龙",
-    "ndex": 352,
-    "seg": [
-     377
-    ],
-    "as": [
-     "变隐龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "彷徨夜灵",
-    "ndex": 356,
-    "seg": [
-     115
-    ],
-    "as": [
-     "彷徨夜灵"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "盖欧卡",
-    "ndex": 382,
-    "seg": [
-     109,
-     204
-    ],
-    "as": [
-     "盖欧卡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "固拉多",
-    "ndex": 383,
-    "seg": [
-     201,
-     204,
-     208,
-     212
-    ],
-    "as": [
-     "固拉多"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     6,
-     70,
-     72,
-     262
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红",
-    "slug": null,
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 水晶版",
-    "slug": "crystal",
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     61
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     214
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "塞尔达",
-    "slug": null,
-    "seg": [
-     326
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "风之杖",
-    "slug": null,
-    "seg": [
-     327
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "银河战士",
-    "slug": null,
-    "seg": [
-     367
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "GAME FREAK",
-    "slug": null,
-    "seg": [
-     374
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     5,
-     13,
-     15,
-     17,
-     20,
-     25
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     7,
-     9,
-     12,
-     19,
-     73,
-     75
-    ]
-   },
-   {
-    "name": "近藤",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     23,
-     253,
-     278
-    ]
-   },
-   {
-    "name": "全体",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     76,
-     157,
-     273,
-     287,
-     323,
-     340
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     374
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小田部先生",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     351
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "下北泽",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2,
-     149
-    ],
-    "via": "extra",
-    "area": "shimokitazawa-gamefreak",
-    "what": "GAME FREAK 最初的开发基地"
-   },
-   {
-    "name": "丰缘",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     97
-    ],
-    "what": "本作舞台",
-    "via": "llm"
-   },
-   {
-    "name": "福冈县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     77
-    ],
-    "what": "杉森建出生地",
-    "via": "llm"
-   },
-   {
-    "name": "江之岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     91
-    ],
-    "what": "增田看海之处",
-    "via": "llm"
-   },
-   {
-    "name": "九州",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     172
-    ],
-    "what": "丰缘地区原型",
-    "via": "llm"
-   },
-   {
-    "name": "彩悠市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     93
-    ],
-    "what": "有很多花的城市",
-    "via": "llm"
-   },
-   {
-    "name": "横滨",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     91
-    ],
-    "what": "增田的老家",
-    "via": "llm"
-   },
-   {
-    "name": "冲绳",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     93
-    ],
-    "what": "加入游戏的地域元素",
-    "via": "llm"
-   },
-   {
-    "name": "北海道",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     108
-    ],
-    "what": "杉森提到会考虑的地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     3,
-     26,
-     35,
-     36,
-     37,
-     46
-    ],
-    "as": [
-     "道馆",
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     4,
-     381
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     4
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     8,
-     14,
-     21
-    ],
-    "as": [
-     "出货",
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     29,
-     37
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     29
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     36
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     56
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     57
-    ],
-    "as": [
-     "一起做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     73,
-     177
-    ],
-    "as": [
-     "平衡调整"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     92
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     101
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     108,
-     172,
-     174,
-     186,
-     187,
-     188
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     108,
-     172,
-     174,
-     186,
-     187,
-     220
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     111,
-     204
-    ],
-    "as": [
-     "色彩",
-     "配色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     114,
-     201,
-     253
-    ],
-    "as": [
-     "主题是",
-     "大主题"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     114
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     135
-    ],
-    "as": [
-     "发售延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     142,
-     160
-    ],
-    "as": [
-     "ROM",
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     145
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     147
-    ],
-    "as": [
-     "玩家群体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     147,
-     160
-    ],
-    "as": [
-     "前作的",
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     156
-    ],
-    "as": [
-     "重做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     160
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     166
-    ],
-    "as": [
-     "开发周期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     197
-    ],
-    "as": [
-     "草图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     197,
-     312,
-     313
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     205,
-     210,
-     356
-    ],
-    "as": [
-     "周边商品",
-     "商品化",
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     205
-    ],
-    "as": [
-     "设计宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     219
-    ],
-    "as": [
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     240,
-     282,
-     283
-    ],
-    "as": [
-     "海外版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "version-pair",
-    "name": "两个版本",
-    "facet": "system",
-    "seg": [
-     241
-    ],
-    "as": [
-     "两个版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     293
-    ],
-    "as": [
-     "企划阶段"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     313,
-     373
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     345
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     356
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     367
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     372
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     381
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     381
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 23,
-   "text": "近藤说从《红》到《水晶版》约7361万份，加上《红宝石·蓝宝石》约8000万份"
+  "id": "scan-ndream-084-ruby-sapphire-interview",
+  "stem": "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 382
   },
-  {
-   "seg": 97,
-   "text": "增田说用表示人与人联结的「缘」字，把地名定为「丰缘」"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙花",
+        "ndex": 3,
+        "seg": [
+          7
+        ],
+        "as": [
+          "妙蛙花"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "绿毛虫",
+        "ndex": 10,
+        "seg": [
+          70,
+          72
+        ],
+        "as": [
+          "绿毛虫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "铁甲蛹",
+        "ndex": 11,
+        "seg": [
+          10
+        ],
+        "as": [
+          "铁甲蛹"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          121
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "可达鸭",
+        "ndex": 54,
+        "seg": [
+          3,
+          77,
+          138
+        ],
+        "as": [
+          "可达鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小拳石",
+        "ndex": 74,
+        "seg": [
+          74
+        ],
+        "as": [
+          "小拳石"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大钳蟹",
+        "ndex": 98,
+        "seg": [
+          82
+        ],
+        "as": [
+          "大钳蟹"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "百变怪",
+        "ndex": 132,
+        "seg": [
+          141
+        ],
+        "as": [
+          "百变怪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          95
+        ],
+        "as": [
+          "卡比兽"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "果然翁",
+        "ndex": 202,
+        "seg": [
+          175
+        ],
+        "as": [
+          "果然翁"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "木守宫",
+        "ndex": 252,
+        "seg": [
+          33
+        ],
+        "as": [
+          "木守宫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "火稚鸡",
+        "ndex": 255,
+        "seg": [
+          125,
+          127,
+          129,
+          130,
+          138
+        ],
+        "as": [
+          "火稚鸡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "力壮鸡",
+        "ndex": 256,
+        "seg": [
+          129,
+          158
+        ],
+        "as": [
+          "力壮鸡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "火焰鸡",
+        "ndex": 257,
+        "seg": [
+          106,
+          109,
+          129
+        ],
+        "as": [
+          "火焰鸡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "水跃鱼",
+        "ndex": 258,
+        "seg": [
+          83
+        ],
+        "as": [
+          "水跃鱼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "沼跃鱼",
+        "ndex": 259,
+        "seg": [
+          375
+        ],
+        "as": [
+          "沼跃鱼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "蛇纹熊",
+        "ndex": 263,
+        "seg": [
+          97,
+          99,
+          100
+        ],
+        "as": [
+          "蛇纹熊"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "直冲熊",
+        "ndex": 264,
+        "seg": [
+          97
+        ],
+        "as": [
+          "直冲熊"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "刺尾虫",
+        "ndex": 265,
+        "seg": [
+          71,
+          72,
+          73
+        ],
+        "as": [
+          "刺尾虫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "莲叶童子",
+        "ndex": 270,
+        "seg": [
+          138,
+          166
+        ],
+        "as": [
+          "莲叶童子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "懒人獭",
+        "ndex": 287,
+        "seg": [
+          93,
+          96,
+          99,
+          348,
+          380
+        ],
+        "as": [
+          "懒人獭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "过动猿",
+        "ndex": 288,
+        "seg": [
+          93
+        ],
+        "as": [
+          "过动猿"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "请假王",
+        "ndex": 289,
+        "seg": [
+          93,
+          98,
+          347
+        ],
+        "as": [
+          "请假王"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "爆音怪",
+        "ndex": 295,
+        "seg": [
+          344,
+          379
+        ],
+        "as": [
+          "爆音怪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "露力丽",
+        "ndex": 298,
+        "seg": [
+          198
+        ],
+        "as": [
+          "露力丽"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "优雅猫",
+        "ndex": 301,
+        "seg": [
+          252
+        ],
+        "as": [
+          "优雅猫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "可多拉",
+        "ndex": 305,
+        "seg": [
+          239
+        ],
+        "as": [
+          "可多拉"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "吼鲸王",
+        "ndex": 321,
+        "seg": [
+          138,
+          139
+        ],
+        "as": [
+          "吼鲸王"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "呆火驼",
+        "ndex": 322,
+        "seg": [
+          378
+        ],
+        "as": [
+          "呆火驼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "猫鼬斩",
+        "ndex": 335,
+        "seg": [
+          253
+        ],
+        "as": [
+          "猫鼬斩"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "触手百合",
+        "ndex": 345,
+        "seg": [
+          376
+        ],
+        "as": [
+          "触手百合"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "变隐龙",
+        "ndex": 352,
+        "seg": [
+          377
+        ],
+        "as": [
+          "变隐龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "彷徨夜灵",
+        "ndex": 356,
+        "seg": [
+          215
+        ],
+        "as": [
+          "彷徨夜灵"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "盖欧卡",
+        "ndex": 382,
+        "seg": [
+          209,
+          111
+        ],
+        "as": [
+          "盖欧卡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "固拉多",
+        "ndex": 383,
+        "seg": [
+          108,
+          111,
+          115,
+          119
+        ],
+        "as": [
+          "固拉多"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          14,
+          72,
+          74,
+          262
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红",
+        "slug": null,
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 水晶版",
+        "slug": "crystal",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          64
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          121
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "塞尔达",
+        "slug": null,
+        "seg": [
+          326
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "风之杖",
+        "slug": null,
+        "seg": [
+          327
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "银河战士",
+        "slug": null,
+        "seg": [
+          367
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "GAME FREAK",
+        "slug": null,
+        "seg": [
+          374
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          13,
+          20,
+          22,
+          24,
+          27,
+          31
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          15,
+          17,
+          19,
+          26,
+          75,
+          77
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "下北泽",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          10,
+          249
+        ],
+        "via": "extra",
+        "area": "shimokitazawa-gamefreak",
+        "what": "GAME FREAK 最初的开发基地"
+      },
+      {
+        "name": "丰缘",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          197
+        ],
+        "what": "本作舞台",
+        "via": "llm"
+      },
+      {
+        "name": "福冈县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          7
+        ],
+        "what": "杉森建出生地",
+        "via": "llm"
+      },
+      {
+        "name": "江之岛",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          191
+        ],
+        "what": "增田看海之处",
+        "via": "llm"
+      },
+      {
+        "name": "九州",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          179
+        ],
+        "what": "丰缘地区原型",
+        "via": "llm"
+      },
+      {
+        "name": "彩悠市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          193
+        ],
+        "what": "有很多花的城市",
+        "via": "llm"
+      },
+      {
+        "name": "横滨",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          191
+        ],
+        "what": "增田的老家",
+        "via": "llm"
+      },
+      {
+        "name": "冲绳",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          193
+        ],
+        "what": "加入游戏的地域元素",
+        "via": "llm"
+      },
+      {
+        "name": "北海道",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          208
+        ],
+        "what": "杉森提到会考虑的地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          11,
+          32,
+          40,
+          41,
+          42,
+          50
+        ],
+        "as": [
+          "道馆",
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          12,
+          381
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          12
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          16,
+          21,
+          28
+        ],
+        "as": [
+          "出货",
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          35,
+          42
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          35
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          41
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          59
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          60
+        ],
+        "as": [
+          "一起做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          75,
+          84
+        ],
+        "as": [
+          "平衡调整"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          192
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          201
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          208,
+          179,
+          181,
+          93,
+          94,
+          95
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          208,
+          179,
+          181,
+          93,
+          94,
+          127
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          211,
+          111
+        ],
+        "as": [
+          "色彩",
+          "配色"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          214,
+          108,
+          160
+        ],
+        "as": [
+          "主题是",
+          "大主题"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          214
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          235
+        ],
+        "as": [
+          "发售延期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          242,
+          260
+        ],
+        "as": [
+          "ROM",
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          245
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          247
+        ],
+        "as": [
+          "玩家群体"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          247,
+          260
+        ],
+        "as": [
+          "前作的",
+          "继承"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          256
+        ],
+        "as": [
+          "重做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          260
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          173
+        ],
+        "as": [
+          "开发周期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          104
+        ],
+        "as": [
+          "草图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          104,
+          312,
+          313
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          112,
+          117,
+          356
+        ],
+        "as": [
+          "周边商品",
+          "商品化",
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          112
+        ],
+        "as": [
+          "设计宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          126
+        ],
+        "as": [
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          147,
+          282,
+          283
+        ],
+        "as": [
+          "海外版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "version-pair",
+        "name": "两个版本",
+        "facet": "system",
+        "seg": [
+          148
+        ],
+        "as": [
+          "两个版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          293
+        ],
+        "as": [
+          "企划阶段"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          313,
+          373
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          345
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          356
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          367
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          372
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          381
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          381
+        ],
+        "as": [
+          "监修"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 29,
+      "text": "近藤说从《红》到《水晶版》约7361万份，加上《红宝石·蓝宝石》约8000万份",
+      "anchor": 30
+    },
+    {
+      "seg": 197,
+      "text": "增田说用表示人与人联结的「缘」字，把地名定为「丰缘」",
+      "anchor": 198
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  },
+  "edited": true
 }

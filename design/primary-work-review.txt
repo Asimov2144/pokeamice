@@ -1,29 +1,38 @@
 # 主体作品审核清单（tools/export-docs-archive.py 生成）
-# 计数：none 851, strong 82, title 224, weak 26
+# 计数：none 885, strong 90, title 242, weak 31
 continue-vol32-scan-archive	选中 ≠ works[0]：宝可梦 钻石·珍珠（53） vs 宝可梦 红·绿	CONTINUE 2007：田尻智×中川翔子特别对谈
 interview-1up-why-gamers-still-play-pokemon-masuda	弱：宝可梦 白金（25）	1UP.com 2009：增田顺一与河内丸武史谈宝可梦为何仍被玩家喜爱
 interview-4gamer-pokken-tournament-harada-hoshino	弱：宝可拳 POKKÉN TOURNAMENT（26）	4Gamer.net 2015：宝可拳试玩与原田胜弘、星野正昭访谈
+interview-canuch-gamefreak-office-architecture	弱：宝可梦 红·绿（27）	Canuch 项目档案：GAME FREAK 东京办公室的空间设计
 interview-cd-anime-ost-miyazaki-soundteam	弱：宝可梦 红·绿（25）	动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂
 interview-cedec-2022-legends-arceus-scarlet-violet-pipeline	选中 ≠ works[0]：宝可梦 朱·紫（101） vs 宝可梦传说 阿尔宙斯	电Fami Nico Gamer 2022：GAME FREAK前泽圭一谈《阿尔宙斯》与《朱·紫》的宝可梦模型共通化
 interview-cgworld-creatures-3d-character-life	选中 ≠ works[0]：名侦探皮卡丘（29） vs 宝可梦集换式卡牌游戏	CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术
 interview-denfami-2026-cedec-pokerig	弱：Pokémon LEGENDS Z-A（27）	电Fami Nico Gamer 2026：GAME FREAK谈《宝可梦传说 Z-A》密阿雷市渲染技术
 interview-denfami-xevious-tajiri-sugimori-endo	选中 ≠ works[0]：铁板阵（85） vs 宝可梦 红·绿	电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈
-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority	弱：宝可梦 圆形竞技场（26）	Dr. Pez 2026：作曲家多和田吏访谈
+interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority	弱：宝可梦圆形竞技场（26）	Dr. Pez 2026：作曲家多和田吏访谈
+interview-famitsu-2023-wcs-utsunomiya-brown	弱：宝可梦世界锦标赛（27）	Fami通.com 2023：宝可梦WCS2023开幕式与宇都宫崇人、克丽丝·布朗访谈
 interview-famitsu-detective-pikachu-returns-ishihara-jinnai	选中 ≠ works[0]：名侦探皮卡丘（93） vs 宝可梦 红·绿	Famitsu 专访《名侦探皮卡丘 归来》：石原恒和×阵内弘之——大叔皮卡丘是“会说人类语言的宝可梦”的终点，兼谈《赤·
 interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos	弱：宝可梦 朱·紫（27）	Fami通.com 2024：PJCS2024 冠军ハラ ヒュウマ专访
-interview-famitsu-sv-arceus-cedec2022-shader-pipeline	选中 ≠ works[0]：宝可梦 朱·紫（103） vs 宝可梦传说 阿尔宙斯	Famitsu / CEDEC 2022 专访《宝可梦 朱／紫》：皮卡丘实现系列史上最佳蓬松毛发质感——与《传说 阿尔宙
-interview-gamefreak-recruit-concept-artist-fk	弱：宝可梦 究极之日·究极之月（28）	GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
+interview-famitsu-sv-arceus-cedec2022-shader-pipeline	选中 ≠ works[0]：宝可梦 朱·紫（49） vs 宝可梦传说 阿尔宙斯	Fami通 CEDEC 2022 报道：两款宝可梦作品并行开发的模型与动画制作流程
+interview-gamefreak-crosstalk-designer	选中 ≠ works[0]：宝可梦传说 阿尔宙斯（37） vs 宝可梦 剑·盾	GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
+interview-gamefreak-crosstalk-new-graduate	选中 ≠ works[0]：Gear Project（27） vs 宝可梦 朱·紫	GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声
+interview-gamefreak-crosstalk-scenario	选中 ≠ works[0]：宝可梦传说 阿尔宙斯（29） vs 宝可梦 剑·盾	GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
 interview-gamefreak-recruit-designer-ek	选中 ≠ works[0]：宝可梦 剑·盾（30） vs 宝可梦 太阳·月亮	GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验
 interview-gamefreak-recruit-designer-ht	弱：小镇英雄（28）	GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
-interview-gamefreak-recruit-designer-kn	弱：宝可梦 Let's Go！皮卡丘·Let's Go！伊布（25）	GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界
-interview-gamefreak-recruit-programmer-tk	选中 ≠ works[0]：宝可梦传说 阿尔宙斯（39） vs 宝可梦 剑·盾	GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影
-interview-gamefreak-rnd-ta-taya-kk	选中 ≠ works[0]：宝可梦 太阳·月亮（32） vs 宝可梦 X·Y	GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
+interview-gamefreak-recruit-designers	弱：宝可梦 X·Y（29）	GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
+interview-gamefreak-recruit-programmer-tk	选中 ≠ works[0]：宝可梦传说 阿尔宙斯（27） vs 宝可梦 剑·盾	GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影
+interview-gamefreak-rnd-ta-taya-kk	选中 ≠ works[0]：宝可梦 太阳·月亮（42） vs 宝可梦 X·Y	GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）
 interview-gameinformer-why-ruby-and-sapphire-were-most-challenging	选中 ≠ works[0]：宝可梦 红宝石·蓝宝石（85） vs 宝可梦 黑·白	Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘
 interview-gi-2017-spinoffs	弱：Pokémon GO（25）	Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品
 interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years	选中 ≠ works[0]：宝可梦 朱·紫（39） vs 宝可梦传说 阿尔宙斯	‘Our goal is to keep Pokémon alive for hundreds of years’: i
+interview-iwata-asks-gates-to-infinity-chapter-2-system-drama	选中 ≠ works[0]：宝可梦不可思议迷宫（75） vs 宝可梦不可思议迷宫 极大之门与无限迷宫	[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、A
+interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition	选中 ≠ works[0]：宝可梦不可思议迷宫（73） vs 宝可梦不可思议迷宫 极大之门与无限迷宫	[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第3章：“决定版”（单一包装的魄力、Chunsoft自DQ时
+interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers	选中 ≠ works[0]：宝可梦不可思议迷宫（73） vs 宝可梦不可思议迷宫 极大之门与无限迷宫	[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学
 interview-meristation-sun-moon-switch-masuda-ohmori	选中 ≠ works[0]：宝可梦 太阳·月亮（43） vs 宝可梦 钻石·珍珠	MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”
 interview-nom-special-dialogue-tajiri-ishihara	弱：宝可梦 红·绿（25）	N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）
 interview-pokemon-recruit-growth	弱：宝可梦 剑·盾（27）	宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 
+interview-sankei-ishihara-pokemon-30th	弱：宝可梦 红·绿（25）	产经新闻（産経ニュース） 2026：宝可梦30年 株式会社宝可梦社长石原恒和谈虚拟与现实融合
+interview-sankei-ishihara-pokemon-go-20th	选中 ≠ works[0]：Pokémon GO（79） vs 宝可梦 红·绿	产经新闻（産経ニュース） 2016：宝可梦社长石原恒和谈20年构想与宝可梦GO
 interview-takeshi-shudo-pokemon-memoir-ch156	选中 ≠ works[0]：宝可梦：超梦的逆袭（27） vs 宝可梦 动画系列	[访谈翻译] 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞
 interview-takeshi-shudo-pokemon-memoir-ch159	选中 ≠ works[0]：机动战舰抚子号（25） vs 宝可梦 动画系列	[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自
 interview-takeshi-shudo-pokemon-memoir-ch163	选中 ≠ works[0]：超梦的逆袭（27） vs 宝可梦 动画系列	[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越

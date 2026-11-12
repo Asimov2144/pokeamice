@@ -24,7 +24,8 @@ interviewee: 增田顺一
 interviewer: コロコロコミック 編集部
 dek: 杉森建、增田顺一、石原恒和三人受访，披露新作对应DS、可与GBA联动等情报。
 summary: 2005年杂志刊出的《宝可梦 钻石·珍珠》紧急对谈，杉森建、增田顺一、石原恒和回答新作标题、对应任天堂DS、与GBA系列联动、新宝可梦数量、属性维持17种、DS通信功能及《宝可梦巡护员》等新作计划。
-source_pages: P.1–P.1（2 页；2048px 页图）
+source_pages: P.25–28（4 个印刷页，2 张折页／跨页图）
+source_leaf_range: [0, 1]
 source:
   title: ポケットモンスター ダイヤモンド・パール 特報インタビュー
   source_type: magazine_scan
