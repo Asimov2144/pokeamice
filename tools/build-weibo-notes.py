@@ -10,9 +10,9 @@ Output: _pages/notes-weibo/index.md  -> /notes/weibo/   (noindex, not in navigat
 
 The long articles are not here: they are regular posts (tools/build-weibo-posts.py).
 An announcement post for one of them links to that post instead.
-Re-running rewrites the whole _pages/notes-weibo directory; do not hand-edit it.
+Re-running rewrites index.md and the covers data; other files are preserved.
 """
-import hashlib, html, importlib.util, json, re, shutil, sys
+import hashlib, html, importlib.util, json, re, sys
 from PIL import Image
 from collections import OrderedDict
 from pathlib import Path
@@ -61,6 +61,12 @@ def article_post_name(aid):
 
 
 LINK = re.compile(r"\[([^\]\n]+)\]\((https?://[^)\s]+)\)")
+# Retain the search-index link repaired in the 2026-11-08 site audit. The raw
+# historical dataset predates that repair; the visible, case-sensitive textJ link is intact.
+SEARCH_LINK_OVERRIDES = {
+    "https://www.nintendo.co.jp/event/conference2010/presentation/textj/index.html":
+    "https://web.archive.org/web/20260913114224/https://www.nintendo.co.jp/event/conference2010/presentation/textj/index.html",
+}
 
 
 def render_text(p):
@@ -204,11 +210,16 @@ def card(p):
     paper = int(hv(p["id"], "paper") * 4)
     stks, extra = stickers_for(ws, sp)
     inside, outside = place(p, stks, n > 0 and var not in ("mag", "spread"))
-    search = " ".join([p["text"], cap, ocr, " ".join(topics)])
+    search = " ".join([p["text"], cap, ocr, " ".join(topics)]).lower()
+    for old, repaired in SEARCH_LINK_OVERRIDES.items():
+        search = search.replace(f"({old})", f"({repaired})")
+    if p.get("source_html_hash"):
+        # Normalize only the search index of new captures, preserving source/body spacing.
+        search = " ".join(search.split())
     cls = f"fr fr-v-{var}" + (f" fr-p{paper}" if var == "note" else "") + (" has-stk" if stks else "")
     attrs = (f'class="{cls}" id="f-{p["id"]}" '
              f'data-d="{p["d"][:10]}" data-c="{cat}" data-r="{rs}" data-i="{1 if n else 0}" data-k="{ktok}" '
-             f'data-s="{esc_attr(search.lower())}" style="--c:{CATS.get(cat, "#999")};--rot:{rot:.2f}deg;--dy:{dy:.0f}px"')
+             f'data-s="{esc_attr(search)}" style="--c:{CATS.get(cat, "#999")};--rot:{rot:.2f}deg;--dy:{dy:.0f}px"')
     h = [f"<article {attrs}>"]
     meta = f'<time>{p["d"][5:16].replace("-", "·", 1)}</time>'
     if cat:
@@ -332,9 +343,7 @@ for ym, ps in months.items():
 body += ["</div>", '<p id="fr-empty" class="fr-empty" hidden>没有符合的碎片。</p>',
          '<script src="/assets/js/notes-fragments.js" defer></script>']
 
-if OUT.exists():
-    shutil.rmtree(OUT)
-OUT.mkdir(parents=True)
+OUT.mkdir(parents=True, exist_ok=True)
 front = """---
 layout: notes-archive
 title: "碎片 · 2144jx 的微博"
@@ -346,7 +355,9 @@ search: false
 hidden: true
 ---
 """
-(OUT / "index.md").write_text(front + "\n" + "\n".join(body) + "\n", encoding="utf-8", newline="\n")
+pending = OUT / "index.md.pending"
+pending.write_text(front + "\n" + "\n".join(body) + "\n", encoding="utf-8", newline="\n")
+pending.replace(OUT / "index.md")
 print(f"{len(posts)} fragments, {len(ana)} analysed, {len(months)} months -> {OUT / 'index.md'}")
 
 # the home page's 随手发的东西 card draws its covers from this page's stickers
