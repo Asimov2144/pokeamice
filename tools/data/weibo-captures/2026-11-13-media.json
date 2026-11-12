@@ -1,0 +1,375 @@
+{
+  "capture": "2026-11-13.json",
+  "cdn_prefix": "https://gallery.pokeamice.com/weibo-notes/",
+  "processing": "EXIF transpose; RGB JPEG; max 1600px; quality 82, progressive, optimize",
+  "media": [
+    {
+      "source_url": "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iiznt9e538j318g0p0kbl.jpg",
+      "filename": "006SNtUgly1iiznt9e538j318g0p0kbl.jpg",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "cdn_dimensions": [
+        1600,
+        900
+      ],
+      "source_bytes": 350070,
+      "cdn_bytes": 153585,
+      "source_sha256": "71cf51c2aaf2cc546eba4d309bc701d6e7e9f9279cdb55ffc0cb5f6245b256b3",
+      "cdn_sha256": "a6f2b76c4326beaa45ed4500657a0a9640211d3d5d50d207e4dabf817a983358"
+    },
+    {
+      "source_url": "https://wx4.sinaimg.cn/mw2000/006SNtUgly1iizp76t8ruj31uq162u0x.jpg",
+      "filename": "006SNtUgly1iizp76t8ruj31uq162u0x.jpg",
+      "source_dimensions": [
+        2000,
+        1261
+      ],
+      "cdn_dimensions": [
+        1600,
+        1009
+      ],
+      "source_bytes": 807604,
+      "cdn_bytes": 249701,
+      "source_sha256": "8b8149fed4f3c06ded73143b6cc8ebbdad3bf717c4775eac97cddab7af5a1f10",
+      "cdn_sha256": "eeb00908ef387a6a68cf10d635af2e1d9ab327acaafa00ac6d6c5d1f6faf8000"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iizoohas26j31fo0tyng7.jpg",
+      "filename": "006SNtUgly1iizoohas26j31fo0tyng7.jpg",
+      "source_dimensions": [
+        1860,
+        1078
+      ],
+      "cdn_dimensions": [
+        1600,
+        927
+      ],
+      "source_bytes": 348071,
+      "cdn_bytes": 133560,
+      "source_sha256": "d57932d13a4ae35acc50eac37972b1fe4a645a84e196ad1640c9e59a00c40898",
+      "cdn_sha256": "39079a50c6a6ab63875189a2d9106110686d7ed269b4c8184d771812b2aed6b2"
+    },
+    {
+      "source_url": "https://wx4.sinaimg.cn/mw2000/006SNtUgly1iiy22f3cd8j30zk0k07o9.jpg",
+      "filename": "006SNtUgly1iiy22f3cd8j30zk0k07o9.jpg",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "cdn_dimensions": [
+        1280,
+        720
+      ],
+      "source_bytes": 325259,
+      "cdn_bytes": 153547,
+      "source_sha256": "eaa042cbc4a85f071fcccdb8bfc6072c9c120748908eaae16c6617c07f7412c1",
+      "cdn_sha256": "fc4dacc33b34bb235adc7ff8ce8a8a1ceda5baee0799edf2a8efaf957c954f07"
+    },
+    {
+      "source_url": "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iiy23p8hwvj32dc17yqv5.jpg",
+      "filename": "006SNtUgly1iiy23p8hwvj32dc17yqv5.jpg",
+      "source_dimensions": [
+        2000,
+        1030
+      ],
+      "cdn_dimensions": [
+        1600,
+        824
+      ],
+      "source_bytes": 427855,
+      "cdn_bytes": 139711,
+      "source_sha256": "26f54ac791ba5285a5fecd3b72c9cdbb6dec83bac80a69e6e4480b8c0ab21a98",
+      "cdn_sha256": "4b766153002b6205dd5f2af83da7b097e6008c26aeae1ce1e65c287cd398d319"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iiyf6y7bw4j30zk0m5wiq.jpg",
+      "filename": "006SNtUgly1iiyf6y7bw4j30zk0m5wiq.jpg",
+      "source_dimensions": [
+        1280,
+        797
+      ],
+      "cdn_dimensions": [
+        1280,
+        797
+      ],
+      "source_bytes": 166837,
+      "cdn_bytes": 135420,
+      "source_sha256": "72beb9834a9b7dc56953b6c75ce7c37e13d542286b119145f7bdcbba85ce65d5",
+      "cdn_sha256": "7ed9408401cad439ce616953722b2775e26905dbae7d4e942a7c827fab7c0279"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iiycmudvzqj32da17ge82.jpg",
+      "filename": "006SNtUgly1iiycmudvzqj32da17ge82.jpg",
+      "source_dimensions": [
+        2000,
+        1019
+      ],
+      "cdn_dimensions": [
+        1600,
+        815
+      ],
+      "source_bytes": 622050,
+      "cdn_bytes": 207633,
+      "source_sha256": "ac84142ba26553ddef605d3281c16f67e4ab1e4020b12463d225afc88d4648a4",
+      "cdn_sha256": "6f777525eb134a4c7d7de08e8bdf63f7ee0e9a7b2bd135e6d2cf4512a0b219c6"
+    },
+    {
+      "source_url": "https://wx2.sinaimg.cn/mw2000/006SNtUgly1iiyckiprzrj314k0z8n8v.jpg",
+      "filename": "006SNtUgly1iiyckiprzrj314k0z8n8v.jpg",
+      "source_dimensions": [
+        1460,
+        1268
+      ],
+      "cdn_dimensions": [
+        1460,
+        1268
+      ],
+      "source_bytes": 250403,
+      "cdn_bytes": 111482,
+      "source_sha256": "dd5d402a2a572d46d0afab90f2adcb928846898b42ea85e3578710d5f3d4b486",
+      "cdn_sha256": "410dfc29238584b91de94fff455d81233cb0668b1b1d4372e7a5b10712362618"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iiy2u5k4aoj30zk0k01d5.jpg",
+      "filename": "006SNtUgly1iiy2u5k4aoj30zk0k01d5.jpg",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "cdn_dimensions": [
+        1280,
+        720
+      ],
+      "source_bytes": 334831,
+      "cdn_bytes": 156838,
+      "source_sha256": "6527dc41a7aecde66c27a0f436433ed35df688a91d885668fa3e757cda4627c9",
+      "cdn_sha256": "ce74d367359efd2a6dc346ae62b92aaa134a4d10814fc525e7bdb94855549542"
+    },
+    {
+      "source_url": "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iix9eubminj30h00osguz.jpg",
+      "filename": "006SNtUgly1iix9eubminj30h00osguz.jpg",
+      "source_dimensions": [
+        612,
+        892
+      ],
+      "cdn_dimensions": [
+        612,
+        892
+      ],
+      "source_bytes": 197777,
+      "cdn_bytes": 75208,
+      "source_sha256": "91a809236b41666b7f37953ee3b3ff3602ebb3d3c6dd875cf26e4e4fb0ad7fe5",
+      "cdn_sha256": "acbfa760f8af7d4f6f38a42566a3638058ae7dfe01091c4db51d69d4f54ca41c"
+    },
+    {
+      "source_url": "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iixfx4g1o8j30zk0m50vy.jpg",
+      "filename": "006SNtUgly1iixfx4g1o8j30zk0m50vy.jpg",
+      "source_dimensions": [
+        1280,
+        797
+      ],
+      "cdn_dimensions": [
+        1280,
+        797
+      ],
+      "source_bytes": 129032,
+      "cdn_bytes": 140701,
+      "source_sha256": "c684dc56ac2fbdea283fa3ee9c97f084b8f499f0979777e3bd2393e29dc4691f",
+      "cdn_sha256": "75ca7ce48d26d40ab86cd7d68df39bc8e53faf5f6bc654c94228aca254458415"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx0t2hcj635s1yw4qp08.jpg",
+      "filename": "006SNtUggy1iilvx0t2hcj635s1yw4qp08.jpg",
+      "source_dimensions": [
+        2000,
+        1246
+      ],
+      "cdn_dimensions": [
+        1600,
+        997
+      ],
+      "source_bytes": 346384,
+      "cdn_bytes": 206115,
+      "source_sha256": "ac9376e2425bd303bf8f0704336ce24027ac115da7d8aa7412159fdf5936c26f",
+      "cdn_sha256": "dd351430a392f8231d030b674883442318a91ff8ae16bf2596733f28c9b51d26"
+    },
+    {
+      "source_url": "https://wx2.sinaimg.cn/mw2000/006SNtUggy1iilvx24bfdj635s1yw1kx08.jpg",
+      "filename": "006SNtUggy1iilvx24bfdj635s1yw1kx08.jpg",
+      "source_dimensions": [
+        2000,
+        1246
+      ],
+      "cdn_dimensions": [
+        1600,
+        997
+      ],
+      "source_bytes": 320177,
+      "cdn_bytes": 194732,
+      "source_sha256": "e7ead1d6067621aeb1da31249725258d5963fc9ae19e52341746d4d48a3b2d11",
+      "cdn_sha256": "4c75c61f5a2f2d14ba2b7bde9d990ebe664f5f16eb49053c157e341f2eb9ac22"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx4kdnpj635s1ywe8108.jpg",
+      "filename": "006SNtUggy1iilvx4kdnpj635s1ywe8108.jpg",
+      "source_dimensions": [
+        2000,
+        1246
+      ],
+      "cdn_dimensions": [
+        1600,
+        997
+      ],
+      "source_bytes": 458622,
+      "cdn_bytes": 291668,
+      "source_sha256": "56ac883203699a57cff8a5ce3cd0970f817aac0acafe177d3cd50eedf6f281c5",
+      "cdn_sha256": "3e4e8938defa677fc8c626c57ca3111cc4c9aeee38ee7a73e20526575a321711"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx5i94sj61yw35s1b508.jpg",
+      "filename": "006SNtUggy1iilvx5i94sj61yw35s1b508.jpg",
+      "source_dimensions": [
+        2000,
+        3210
+      ],
+      "cdn_dimensions": [
+        997,
+        1600
+      ],
+      "source_bytes": 442246,
+      "cdn_bytes": 128176,
+      "source_sha256": "0eac17135e0347cb95591aa8369965ce3a24ef9425f00b26c622986afad85157",
+      "cdn_sha256": "44a88dcc3f5fe649723c493c4b963f2b23f4950caf43a705dc8736ad3ca687d1"
+    },
+    {
+      "source_url": "https://wx4.sinaimg.cn/mw2000/006SNtUggy1iilvx6zi0qj322w1o07wh.jpg",
+      "filename": "006SNtUggy1iilvx6zi0qj322w1o07wh.jpg",
+      "source_dimensions": [
+        2000,
+        1602
+      ],
+      "cdn_dimensions": [
+        1600,
+        1282
+      ],
+      "source_bytes": 763911,
+      "cdn_bytes": 268490,
+      "source_sha256": "8f8a23e14bcd8b7240b76df4dadec91074ab20e496cba7c8f3d18cf55ec75ce4",
+      "cdn_sha256": "bf1a72ca0c030b63b0a0dc047e5cdff432e6a08ad3eca2f9981799f1a657b918"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx8blllj635s1ywe8108.jpg",
+      "filename": "006SNtUggy1iilvx8blllj635s1ywe8108.jpg",
+      "source_dimensions": [
+        2000,
+        1246
+      ],
+      "cdn_dimensions": [
+        1600,
+        997
+      ],
+      "source_bytes": 457274,
+      "cdn_bytes": 286669,
+      "source_sha256": "1bff430323be92c4c427df020a0a0ef9a06f13d4289a5f49c70bb693f25bca29",
+      "cdn_sha256": "c88e84b0d554af34fd1f20c64daa76a996a3fea0edaed2456032324c00867777"
+    },
+    {
+      "source_url": "https://wx2.sinaimg.cn/orj480/006SNtUgly1iilsdcx7raj31c00u0tb3.jpg",
+      "filename": "006SNtUgly1iilsdcx7raj31c00u0tb3.jpg",
+      "source_dimensions": [
+        576,
+        360
+      ],
+      "cdn_dimensions": [
+        576,
+        360
+      ],
+      "source_bytes": 27429,
+      "cdn_bytes": 30381,
+      "source_sha256": "d070a81625269dcedd3f81a784acd9411efa2416b6703aa24d2267c046dc4b10",
+      "cdn_sha256": "c974ed5a59be09e7fcb629ae56db2b4c8006455488fbdf1ee206bac3acb46bd4"
+    },
+    {
+      "source_url": "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iihb71bohgj635s1ywb2908.jpg",
+      "filename": "006SNtUggy1iihb71bohgj635s1ywb2908.jpg",
+      "source_dimensions": [
+        2000,
+        1246
+      ],
+      "cdn_dimensions": [
+        1600,
+        997
+      ],
+      "source_bytes": 390494,
+      "cdn_bytes": 233067,
+      "source_sha256": "fc4b659b6b906c58a5cf86c70b0ebce491ad11fbd8ee30b62e2135a9a91680a7",
+      "cdn_sha256": "2c2c6ea2d21143bb72f0633c7a01ae044bdfe49b161b7a490f970d08843df466"
+    },
+    {
+      "source_url": "https://wx3.sinaimg.cn/mw2000/006SNtUggy1iihb7486gyj33322gskjx.jpg",
+      "filename": "006SNtUggy1iihb7486gyj33322gskjx.jpg",
+      "source_dimensions": [
+        2000,
+        1599
+      ],
+      "cdn_dimensions": [
+        1600,
+        1279
+      ],
+      "source_bytes": 1689376,
+      "cdn_bytes": 297463,
+      "source_sha256": "7d29191e91a5e7f77800de8dfe41385ddc23d3f362b3bac7ef92bf67d62149ef",
+      "cdn_sha256": "c347645bb76e20e9c43263cc84b2b7101759e76d8e61693e8b9af7b95222abc0"
+    },
+    {
+      "source_url": "https://wx4.sinaimg.cn/mw2000/006SNtUggy1iihb75eoixj635s1yw1kx08.jpg",
+      "filename": "006SNtUggy1iihb75eoixj635s1yw1kx08.jpg",
+      "source_dimensions": [
+        2000,
+        1246
+      ],
+      "cdn_dimensions": [
+        1600,
+        997
+      ],
+      "source_bytes": 330863,
+      "cdn_bytes": 201222,
+      "source_sha256": "beefe215c223cd4ed430a75b458d349758861eb0fb665bc0f3d507dd6717a4d8",
+      "cdn_sha256": "83ec6e4c974a59245739df7d9cd07a04ed646962c007040cf16dc516b95d9f53"
+    },
+    {
+      "source_url": "https://wx2.sinaimg.cn/mw2000/006SNtUggy1iihb75z8q2j30gc0c0gqt.jpg",
+      "filename": "006SNtUggy1iihb75z8q2j30gc0c0gqt.jpg",
+      "source_dimensions": [
+        588,
+        432
+      ],
+      "cdn_dimensions": [
+        588,
+        432
+      ],
+      "source_bytes": 85041,
+      "cdn_bytes": 39125,
+      "source_sha256": "de7fdc0e5c01e7b6b27e0a6913e477a798d670adc3b3d9b8d8aa9325d6bfe654",
+      "cdn_sha256": "72924a384b3e333d2d7a22e6dbce8b32ade79586f4de4c6d7371abdf8353fcc9"
+    },
+    {
+      "source_url": "https://wx3.sinaimg.cn/mw2000/006SNtUggy1iihbqd6p8tj626j1ywb2908.jpg",
+      "filename": "006SNtUggy1iihbqd6p8tj626j1ywb2908.jpg",
+      "source_dimensions": [
+        2000,
+        1805
+      ],
+      "cdn_dimensions": [
+        1600,
+        1444
+      ],
+      "source_bytes": 735083,
+      "cdn_bytes": 313911,
+      "source_sha256": "c835537fa25b6a2b4f7fc78236c9f3d14f11b2a9b131e0bc27ad06b04ac4bdfc",
+      "cdn_sha256": "cde4fac1328c0900a986cfc114055374ea71dc99f50ccaf0af9484aaf6bfe899"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "account": "2144jx",
+  "uid": "6306512172",
+  "captured_at": "2026-11-13",
+  "method": "Logged-in mobile Weibo DOM, full post bodies and image viewer; original posts only",
+  "display_timezone": "Asia/Tokyo",
+  "archive_timezone": "Asia/Shanghai",
+  "date_precision": "minute",
+  "full_text_verified": true,
+  "checkpoint_mid": "5352856770055429",
+  "checkpoint_archive_date": "2026-10-11 15:32:48",
+  "excluded": [{"mid": "5361956267495437", "reason": "retweeted_status"}],
+  "posts": [
+    {
+      "mid": "5364536561634283",
+      "url": "https://m.weibo.cn/status/5364536561634283",
+      "display_time": "昨天 22:04 来自 微博网页版",
+      "display_date": "2026-11-12 22:04",
+      "source_hash": "9335b8cc",
+      "reposts": 2, "comments": 2, "likes": 18,
+      "video": false, "edited": false,
+      "html": "Day 2:<br><br>本日的更新是关于网站首页的。20年暑假开始搭建的网站如今也有六年多了，最初的首页仅仅只有两本设定集的扫描连往下翻的内容都没有。逐渐填充内容增加特色后看起来像样了些许，也用php写了一个宝牌的随机展示，感觉时不时能骗到几个人刷新一下页面看宝牌增加点击量。但实际上内容还是很单薄，而因为内容单薄也打不起动力重新设计站点...<br><br>如此一直到了25年,毕业后继续去了日本留学。发现自己对于宝可梦内容的需求不再只是从前远观时的资料整理，资源收集，因为要经常出门赶活动，买周边，觉得需要有个地方整理宝可梦活动，去旅游打卡宝地，发现也很少有专门的打卡地图，也没有地方记录，以及昨天发布的截图站点，算是长年累月下来的检索需求在NS世代结束后，感觉是时候有个地方总结。<br><br>因此，在生活算是开启了全新的阶段后，也作了这样一个比较大的企划，也就是宝事日历，打卡旅图，截图站等子站点。这些都是我宝可梦生活的必需品，或许也能成为其他宝可梦玩家背包里的重要物品。<br><br>而新版的首页设计就是关于这些子站点的看板，方便查看的宝事，三个世代可以刷上万次不重复的截图，围绕宝可梦本身展开的每日推送和历史事件，最新收录的文档以及能够推荐附近宝地点随时展开冒险的旅图。这里的每个站点都有大量的内容还未正式介绍，也都会在接下来的日子里准...时!更新。<br><br>* 来自昨日反馈的更新，由于截图有时候会重复，现在的搜索会合并掉同一作品下重复的内容，并且标注是关键词命中还是 根据上下文进行的推荐（比如搜笨蛋会跳出来傻瓜的截图），请多多提问反馈！",
+      "image_urls": [
+        "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iiznt9e538j318g0p0kbl.jpg",
+        "https://wx4.sinaimg.cn/mw2000/006SNtUgly1iizp76t8ruj31uq162u0x.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iizoohas26j31fo0tyng7.jpg"
+      ]
+    },
+    {
+      "mid": "5364135358366378",
+      "url": "https://m.weibo.cn/status/5364135358366378",
+      "display_time": "11-11 19:29 来自 微博网页版",
+      "display_date": "2026-11-11 19:29",
+      "source_hash": "b76fa10c",
+      "reposts": 13, "comments": 2, "likes": 36,
+      "video": false, "edited": false,
+      "html": "宝可梦友会更新挑战 Day 1<br><br>『这是与所有宝可梦相遇的第一步。<br>作为纪念，我们来拍1张照片吧！！』<br><br>PokeAmice Snapshot站点公布！本站可以通过各个语言的台词，文本去搜索对应各个作品的截图，让剧情回顾，多语言台词对比，口癖分析变得更加简单。<br><br>这个项目源自于我本人玩宝时走两步路就截一张图的习惯，本意是想攒着图以便后续的回顾和考据。不过因为没太多业余时间写考据，逐渐越攒越多，最终变得难以翻看和检索，大概有5万张，打开文件夹电脑都会卡一下。于是一直存着等着低成本OCR的成熟，而到了今年，VLM模型的推出让OCR和图片元素识别变得低价，几万张的截图也能在百元之内全部处理完成，这个子站点也应运而生。<br><br>OCR后用于匹配的文本数据基于abcboy大佬的宝可语料库，我在此基础上做了微小的工作。截图库目前大部分由我本人提供，也有热心群友Mikaru帮忙补充了紫版本和一些ZA截图，万分感谢！<br><br>虽然可能因为数据完整性不够并不实用，但这个项目对于我本身有着不小的意义，这么多年来一直持续截图等到了技术成熟的那一天。尽管八月份就已经基本做完了，但一直在想如何进一步完善和公开比较合适。<br>如今感觉可用性方面已经成熟，但单靠我一个人是无论如何都无法把历代的数据库达到一个完美的收录情况，进一步完善有赖于社群的协力。<br>如果有大量本站未收录的截图攒着的话，可以考虑一下...投稿！<br>目前本站也开放了一个简易的标注平台（在『关于』栏里可以找到），通过几秒钟的判断可以帮助截图库的宝元素检索能力变得...更好！<br><br>『大家，拜托了！<br>预备……Action!』",
+      "image_urls": [
+        "https://wx4.sinaimg.cn/mw2000/006SNtUgly1iiy22f3cd8j30zk0k07o9.jpg",
+        "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iiy23p8hwvj32dc17yqv5.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iiyf6y7bw4j30zk0m5wiq.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iiycmudvzqj32da17ge82.jpg",
+        "https://wx2.sinaimg.cn/mw2000/006SNtUgly1iiyckiprzrj314k0z8n8v.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUgly1iiy2u5k4aoj30zk0k01d5.jpg"
+      ]
+    },
+    {
+      "mid": "5363841874791535",
+      "url": "https://m.weibo.cn/detail/5363841874791535",
+      "display_time": "11-11 00:03 来自 微博网页版",
+      "display_date": "2026-11-11 00:03",
+      "source_hash": "70be4c57",
+      "reposts": 1, "comments": 8, "likes": 44,
+      "video": false, "edited": false,
+      "html": "上个月底的凌晨 被黑客登陆了OpenAI账号开通了500刀的Pro会员 退款申请被硅基客服变着法子踢皮球拒绝<span class=\"url-icon\"><img alt=\"[柯基]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/05/2025_Corgi_mobile.png\" style=\"width:1em; height:1em;\"></span> 无奈接受现实 正好就利用这个无限开火的额度做一个直到月底的 宝可梦友会 各个站点的每日更新和反馈迭代挑战吧皮卡<span class=\"url-icon\"><img alt=\"[柯基]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/05/2025_Corgi_mobile.png\" style=\"width:1em; height:1em;\"></span> <br><br>本条由看起来会守时的站长皮卡丘发布 ",
+      "image_urls": [
+        "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iix9eubminj30h00osguz.jpg",
+        "https://wx3.sinaimg.cn/mw2000/006SNtUgly1iixfx4g1o8j30zk0m50vy.jpg"
+      ]
+    },
+    {
+      "mid": "5360202993894895",
+      "url": "https://m.weibo.cn/status/5360202993894895",
+      "display_time": "10-31 23:04 来自 生彩セイカHarmonyOS",
+      "display_date": "2026-10-31 23:04",
+      "source_hash": "17ad78de",
+      "reposts": 0, "comments": 0, "likes": 22,
+      "video": false, "edited": false,
+      "html": "出门的主线任务是买卡娜莉的玩偶 从ZA发售以来一直盼望的周边<span class=\"url-icon\"><img alt=\"[给你小心心]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/c8/qixi2018_xiaoxinxin_mobile.png\" style=\"width:1em; height:1em;\"></span> 没想到作为一周年和DLC同捆发售纪念推出了<br>总感觉和垂耳皮很搭 以后就是一家人了！<br><br>不过到了名古屋PC后发现 由于今天是万圣节 PC又追加安排了一天的万圣节皮见面会<br>其实上周抢圣诞节周边的时候已经参加过了 今天就在后排蹲着看小朋友们的表现 开始的场面在上一条微博里已经发布了 <a href=\"https://weibo.com/6306512172/5360172279272910\" data-hide=\"\"><span class=\"url-icon\"><img style=\"width: 1rem;height: 1rem\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"></span><span class=\"surl-text\">网页链接</span></a> 震耳欲聋的呼喊让人恍惚<br>上周的流程是问好之后开始答题，但今天的皮卡丘特意站在了屏幕前不肯走。直到主持小哥让它去找另一位staff玩才离开。 我想可能是这周的追加举办重新考虑了皮卡丘的捣蛋动作，让皮卡丘挡住屏幕提现调皮的性格和万圣节的捣蛋氛围。后面也果不其然反复挡住不然小朋友们看题，反响也相当热烈。<br><br>这次配合ZA DLC同捆发售举办的线上活动是送随机粉彩蛹进化的挑战，但到了PC结账才发现还塞一张粉蝶蛹立绘的纪念宣传纸进购物袋里。薄薄的一张，就像是溜进去的一样，和ZA的美术馆支线如出一辙。现场还补货了去年发售的粉彩蝶盲盒徽章，买到也是意外之喜。没有任何宣传，只有到了才能体验到的惊喜，确实让人忍不住写出来啊<span class=\"url-icon\"><img alt=\"[干饭人]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/3c/2022_Foodie_mobile.png\" style=\"width:1em; height:1em;\"></span>",
+      "image_urls": [
+        "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx0t2hcj635s1yw4qp08.jpg",
+        "https://wx2.sinaimg.cn/mw2000/006SNtUggy1iilvx24bfdj635s1yw1kx08.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx4kdnpj635s1ywe8108.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx5i94sj61yw35s1b508.jpg",
+        "https://wx4.sinaimg.cn/mw2000/006SNtUggy1iilvx6zi0qj322w1o07wh.jpg",
+        "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iilvx8blllj635s1ywe8108.jpg"
+      ]
+    },
+    {
+      "mid": "5360172279272910",
+      "url": "https://m.weibo.cn/detail/5360172279272910",
+      "display_time": "10-31 21:02 来自 生彩セイカHarmonyOS",
+      "display_date": "2026-10-31 21:02",
+      "source_hash": "76d644fd",
+      "reposts": 1, "comments": 2, "likes": 22,
+      "video": true, "edited": false,
+      "html": "去见面会的时候 总是会被小朋友们的热情吓一跳 可能只有真的相信皮卡丘存在的孩子们聚集起来才会呼喊出这个声量<span class=\"url-icon\"><img alt=\"[老师好]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/dd/2022_Teacher_mobile.png\" style=\"width:1em; height:1em;\"></span> <a href=\"https://video.weibo.com/show?fid=1034:5360171908530206\" data-hide=\"\"><span class=\"url-icon\"><img style=\"width: 1rem;height: 1rem\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_video_default.png\"></span><span class=\"surl-text\">2144jx的微博视频</span></a> ",
+      "image_urls": ["https://wx2.sinaimg.cn/orj480/006SNtUgly1iilsdcx7raj31c00u0tb3.jpg"]
+    },
+    {
+      "mid": "5358768718352565",
+      "url": "https://m.weibo.cn/detail/5358768718352565",
+      "display_time": "10-28 00:04 来自 生彩セイカHarmonyOS 已编辑",
+      "display_date": "2026-10-28 00:04",
+      "source_hash": "8f03ba57",
+      "reposts": 0, "comments": 3, "likes": 33,
+      "video": false, "edited": true,
+      "html": "PCO来的圣诞小老鼠集合<br>鸭子皮曾经也是PCO初代的吉祥物组合  时过境迁 就用雷丘还原一下同乘超载的造型<br>圣诞帽也很适合doll系列的挂件毛绒（阿罗雷耳朵有点大 显得脑袋尖尖的）<br><br>P5再补一下原版的组合<span class=\"url-icon\"><img alt=\"[yeah]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/56/2025_yeah_mobile.png\" style=\"width:1em; height:1em;\"></span> ",
+      "image_urls": [
+        "https://wx1.sinaimg.cn/mw2000/006SNtUggy1iihb71bohgj635s1ywb2908.jpg",
+        "https://wx3.sinaimg.cn/mw2000/006SNtUggy1iihb7486gyj33322gskjx.jpg",
+        "https://wx4.sinaimg.cn/mw2000/006SNtUggy1iihb75eoixj635s1yw1kx08.jpg",
+        "https://wx2.sinaimg.cn/mw2000/006SNtUggy1iihb75z8q2j30gc0c0gqt.jpg",
+        "https://wx3.sinaimg.cn/mw2000/006SNtUggy1iihbqd6p8tj626j1ywb2908.jpg"
+      ]
+    }
+  ]
+}
