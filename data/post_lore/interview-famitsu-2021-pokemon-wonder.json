@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 108
+  "n": 111
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "铁甲蛹",
     "ndex": 11,
     "seg": [
-     85
+     88
     ],
     "as": [
      "铁甲蛹"
@@ -25,7 +25,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     44
+     47
     ],
     "as": [
      "皮卡丘"
@@ -36,7 +36,7 @@
     "name": "走路草",
     "ndex": 43,
     "seg": [
-     92
+     96
     ],
     "as": [
      "走路草"
@@ -47,7 +47,7 @@
     "name": "大宇怪",
     "ndex": 606,
     "seg": [
-     106
+     110
     ],
     "as": [
      "大宇怪"
@@ -68,7 +68,7 @@
     "name": "宝可梦GO",
     "slug": null,
     "seg": [
-     35
+     36
     ],
     "via": "llm"
    },
@@ -76,7 +76,7 @@
     "name": "FGO",
     "slug": null,
     "seg": [
-     35
+     36
     ],
     "via": "llm"
    },
@@ -84,7 +84,7 @@
     "name": "尼尔",
     "slug": null,
     "seg": [
-     35
+     36
     ],
     "via": "llm"
    },
@@ -92,7 +92,7 @@
     "name": "宝可梦不可思议迷宫 救助队DX",
     "slug": null,
     "seg": [
-     37
+     38
     ],
     "via": "llm"
    },
@@ -100,7 +100,7 @@
     "name": "惊奇之心",
     "slug": null,
     "seg": [
-     55
+     58
     ],
     "via": "llm"
    }
@@ -111,12 +111,12 @@
     "slug": null,
     "role": "speaker",
     "seg": [
-     41,
-     43,
-     47,
+     44,
+     46,
      50,
-     52,
-     56
+     53,
+     55,
+     59
     ]
    },
    {
@@ -124,12 +124,12 @@
     "slug": "jin-tian-ming-zi",
     "role": "speaker",
     "seg": [
-     42,
-     44,
      45,
+     47,
      48,
-     49,
-     51
+     51,
+     52,
+     54
     ]
    },
    {
@@ -137,12 +137,12 @@
     "slug": "motoyama-keiichi",
     "role": "speaker",
     "seg": [
-     55,
-     57,
      58,
      60,
      61,
-     62
+     63,
+     64,
+     65
     ]
    },
    {
@@ -150,12 +150,12 @@
     "slug": "teng-ben-hai-you",
     "role": "speaker",
     "seg": [
-     64,
-     65,
-     66,
+     67,
+     68,
      69,
-     71,
-     72
+     72,
+     74,
+     75
     ]
    },
    {
@@ -163,7 +163,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     51
+     54
     ],
     "via": "llm"
    },
@@ -172,7 +172,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     55
+     58
     ],
     "via": "llm"
    },
@@ -181,7 +181,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     79
+     82
     ],
     "via": "llm"
    }
@@ -234,7 +234,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     44
+     47
     ],
     "what": "往届活动举办城市",
     "via": "llm"
@@ -247,7 +247,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     79
+     82
     ],
     "what": "中谷芙二子作品展出地",
     "via": "llm"
@@ -260,11 +260,11 @@
     "facet": "design",
     "seg": [
      0,
-     42,
-     44,
-     56,
-     85,
-     98
+     45,
+     47,
+     59,
+     88,
+     102
     ],
     "as": [
      "大自然",
@@ -301,8 +301,8 @@
     "name": "宣传",
     "facet": "business",
     "seg": [
-     33,
-     35
+     34,
+     36
     ],
     "as": [
      "宣传",
@@ -315,7 +315,7 @@
     "name": "音乐剧与演出",
     "facet": "franchise",
     "seg": [
-     35
+     36
     ],
     "as": [
      "演唱会"
@@ -327,8 +327,8 @@
     "name": "地图与关卡",
     "facet": "system",
     "seg": [
-     37,
-     88
+     38,
+     92
     ],
     "as": [
      "迷宫"
@@ -340,8 +340,8 @@
     "name": "集换式卡牌",
     "facet": "franchise",
     "seg": [
-     37,
-     88
+     38,
+     92
     ],
     "as": [
      "宝可梦卡牌"
@@ -353,7 +353,7 @@
     "name": "世界观设定",
     "facet": "design",
     "seg": [
-     37
+     38
     ],
     "as": [
      "世界观"
@@ -365,9 +365,9 @@
     "name": "完成度与打磨",
     "facet": "process",
     "seg": [
-     51,
-     76,
-     93
+     54,
+     79,
+     97
     ],
     "as": [
      "完成度",
@@ -380,8 +380,8 @@
     "name": "属性相性",
     "facet": "design",
     "seg": [
-     58,
-     59
+     61,
+     62
     ],
     "as": [
      "草属性",
@@ -394,8 +394,8 @@
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     60,
-     98
+     63,
+     102
     ],
     "as": [
      "孩子们",
@@ -408,8 +408,8 @@
     "name": "原型与试作",
     "facet": "process",
     "seg": [
-     60,
-     61
+     63,
+     64
     ],
     "as": [
      "试作"
@@ -421,10 +421,10 @@
     "name": "测试与试玩",
     "facet": "process",
     "seg": [
-     60,
-     82,
-     83,
-     92
+     63,
+     85,
+     86,
+     96
     ],
     "as": [
      "试玩",
@@ -437,7 +437,7 @@
     "name": "收集与图鉴",
     "facet": "system",
     "seg": [
-     75
+     78
     ],
     "as": [
      "宝可梦图鉴"
@@ -449,7 +449,7 @@
     "name": "人与人的连接",
     "facet": "design",
     "seg": [
-     103
+     107
     ],
     "as": [
      "沟通"
@@ -461,7 +461,7 @@
     "name": "家庭与亲子",
     "facet": "audience",
     "seg": [
-     103
+     107
     ],
     "as": [
      "亲子"
@@ -488,7 +488,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "concepts": "2026-09-26",
-  "relations_model": "deepseek-chat"
+  "relations_model": "deepseek-chat",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

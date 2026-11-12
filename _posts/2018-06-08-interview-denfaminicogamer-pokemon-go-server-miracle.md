@@ -760,151 +760,93 @@ parallel_items:
   image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle/025.jpg
   alt: 「あの瞬間」何が起きていたのか？ キーマンたちが初めて語るポケモン GOリリース直後の熱狂、その舞台裏【ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一】_059
 - original: 『ポケモン GO』とは一体、どんな風にして生みだされた企画なのか？
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 《宝可梦 GO》究竟是怎样诞生出来的企划？
 - original: この話を耳にしたとき、まずはその着想にワクワクすると同時に、その裏側に思いを馳せた人も多かったのではないだろうか。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 听到这件事时，首先会为这个构想感到兴奋，同时也有不少人会去想象其背后故事吧。
 - original: だが今回の取材で聞いてみれば、なんということはない。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 但在这次采访中问过之后，却发现并没有什么特别。
 - original: 『ポケモン』という作品シリーズをめぐる関係者の「愛」が、ただひたすらにドリブンしていった企画……としか言いようがないものだったように思う。その光景は、電ファミで聞いてきた数多の伝説的なゲーム開発の舞台裏と変わることがなかった。自分が「面白い」と信じるもののためなら、どんな苦労をもいとわない熱量に溢れた人々の奮闘によって、この世に生まれた作品であった。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 只能说，这是一个围绕《宝可梦》这一作品系列的相关人士的“爱”一味推动下去的企划……我觉得就是这样。那番景象，与电玩志听过的众多传说级游戏开发幕后并无不同。这是一部因那些只要是为了自己相信“有趣”的东西便不惜任何辛劳、充满热情的人们奋斗而诞生的作品。
 - original: 取材中、三人の話を聞きながら思ったのは、『ポケモン』と『Ingress』はきっと出会うべくして出会ったのだろう、ということだった。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 采访中，听着三人的讲述，我想到的是，《宝可梦》与《Ingress》一定是注定会相遇的吧。
   note: 《Ingress》是Niantic于2012年推出的位置信息类手机游戏。
 - original: すでに語られてきたように、『ポケモン』は株式会社ゲームフリークの田尻智氏が子ども時代の「虫取り遊び」をヒントにして生みだした作品である。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 正如已经谈到的那样，《宝可梦》是GAME FREAK的田尻智以孩童时代的“捉虫玩耍”为灵感创作出的作品。
 - original: その着想が、現実世界を舞台にしたゲームを遊ぶ体験へと繋がるものであることは、じつのところスマホすらない時代にプレイしていた私たち自身が、みな心のどこかで感じていたのではないか。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 这一构想会与在现实世界为舞台的游戏体验相连，实际上，连智能手机都没有的时代里玩着游戏的我们自身，或许每个人都在心底某处感受到了这一点。
 - original: その意味で、テクノロジーの機が熟したときに「オリジン」の持つ輝きが、遂に本来の姿へと近づく形で発動した結果が、あの世界的な熱狂だったのではないかと思う。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 在这个意义上，当技术时机成熟时，“原点”所具有的光辉终于以接近原本姿态的形式发动，其结果不就是那场世界性的狂热吗？
 - original: そして、今回の取材でもうひとつ見逃せないのが、株式会社ポケモンのCEO石原氏の豪腕ぶりである。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 而且，在这次采访中另一个不可忽视的，是株式会社宝可梦的CEO石原先生的手腕之强。
 - original: 既存のデジタルゲームに留まらないコンピュータ表現の可能性を、若き日にメディアアートの最先端でたっぷりと浴びたあとに、『ポケットモンスター』シリーズのプロデューサーとして百戦錬磨の経験を積んできた氏は、まさに今回の「リアルを舞台にしたゲーム」にうってつけの人材だったのではないか。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 在年轻时于媒体艺术最前沿充分沐浴了不局限于既有数字游戏的计算机表现的可能性之后，作为《宝可梦》系列的制作人积累了身经百战经验的他，不正是这次“以现实为舞台的游戏”再合适不过的人才吗？
 - original: あまり多くを語らない氏ではあるが、そのプロデューサーとしてのバランス感覚や判断力は、何度となく開発から運用に至るさまざまな場面で、『ポケモン GO』という特異なゲームを守ってきたことがうかがえた。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 他虽然话不多，但作为制作人的平衡感与判断力，在从开发到运营的种种场合中，多次守护了《宝可梦 GO》这款特殊的游戏，这一点可以看得出来。
 - original: 今回の取材では、ほかにもリリース後のゲームデザインの変更過程など、まだまだ訊きたいことはあったのだが、忙しい中で時間を割いていただいたこともあり、なかなかそこまでは踏み込めなかった。もしまた機会があれば、そうした「現実世界を舞台にした大規模ゲーム」におけるゲームデザインはどうあるべきかという、おそらくは彼らだけが先んじて直面している、未来のゲームデザインの巨大な問題についても聞ければ……と思う。
-  role: answer
-  speaker: 增田顺一
+  role: commentary
+  speaker: 原文作者
   translation: 在这次采访中，其他还有发布后游戏设计变更过程等许多想询问的事情，但由于是在百忙之中抽出的时间，很难深入到那一步。如果还有机会，希望能听听关于这种“以现实世界为舞台的大规模游戏”中游戏设计应当如何——这恐怕只有他们率先面临的、未来游戏设计的巨大问题。
 - original: さて、そんな『ポケモン GO』であるが、本記事リリース直前になって、今回の話題とも関わる大きなニュースが飛び込んできたので、最後にそれを紹介しておきたい。
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 那么，关于这样的《宝可梦 GO》，就在本文发布前夕，一条与本次话题相关的大新闻传了进来，最后想介绍一下。
 - original: さる2018年5月30日、ベルサール渋谷にて「ポケモン新作発表会」が開催され、今年～来年にかけての『ポケモンクエスト』などの大型リリースがいくつか発表された。
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 2018年5月30日，在Bellesalle涩谷举办了“宝可梦新作发表会”，发布了今年至明年期间《宝可梦探险寻宝》等几个大型作品。
 - original: ポケモンswitch版とスマホ版がくる！！！ pic.twitter.com/I8oJvfEyn4
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 宝可梦Switch版和手机版要来了！！！ pic.twitter.com/I8oJvfEyn4
 - original: 電ファミニコゲーマー (@denfaminicogame)
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 电玩志 (@denfaminicogame)
 - original: 中でも大きく目を引いたのは、ニンテンドースイッチ初の『ポケットモンスター』シリーズとなる、『ポケットモンスター Let’s Go! ピカチュウ』『ポケットモンスター Let’s Go! イーブイ』の発売において、『ポケモンGO』との連携が発表されたことだ。
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 其中尤其引人注目的是，在任天堂Switch首款《宝可梦》系列作品《宝可梦 Let's Go 皮卡丘》《宝可梦 Let's Go 伊布》发售之际，宣布了与《宝可梦GO》的联动。
 - original: ポケモンLet's GoピカチュウとポケモンLet's Goイーブイ#ポケモン新作 pic.twitter.com/p2Q7dxJXAk
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: '宝可梦Let''s Go皮卡丘与宝可梦Let''s Go伊布 #宝可梦新作 pic.twitter.com/p2Q7dxJXAk'
 - original: 電ファミニコゲーマー (@denfaminicogame)
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 电玩志 (@denfaminicogame)
 - original: 果たして、今後ポケモンシリーズ全体の中で『ポケモン GO』が、どんなポジションになっていくのか──両ゲームの発売日は、2018年11月16日。
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 那么，今后在整个宝可梦系列中，《宝可梦GO》将处于怎样的位置——两款游戏的发售日是2018年11月16日。
 - original: その「進化」の姿を、楽しみに待ちたいと思う。
-  role: question
-  speaker: 电玩志
+  role: commentary
+  speaker: 原文作者
   translation: 这种“进化”的姿态，值得期待。
 - original: ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
-  role: question
-  speaker: 电玩志
   translation: 宝可梦・Pokémon・Pokémon是任天堂、Creatures、GAME FREAK的注册商标。
-- original: 【ジョン・ハンケ氏自伝紹介】
-  quote: true
-  translation: 【约翰·汉克自传介绍】
-  note: 约翰·汉克是Niantic的CEO。
-- original: ジョン・ハンケ初の自伝『ジョン・ハンケ 世界をめぐる冒険 グーグルアースからイングレス、そしてポケモン GOへ』、星海社より発売中！
-  quote: true
-  translation: 约翰·汉克首部自传《约翰·汉克 环游世界的冒险 从谷歌地球到Ingress，再到宝可梦GO》，由星海社出版发行中！
-  note: Ingress是Niantic于2013年推出的一款位置信息类手机游戏。
-- original: 全世界に先駆け、この日本語版を原典としての刊行。どうぞご注目ください。
-  quote: true
-  translation: 先于全世界，以日语版作为原典出版。敬请关注。
-- type: image
-  image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle/026.jpg
-  alt: 「あの瞬間」何が起きていたのか？ キーマンたちが初めて語るポケモン GOリリース直後の熱狂、その舞台裏【ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一】_060
-- original: グーグルアースからイングレス、そしてポケモン GOへ──。
-  quote: true
-  translation: 从Google Earth到Ingress，再到宝可梦 GO——。
-- original: Googleを飛び出し、ナイアンティック社を創業したジョン・ハンケは、常に革命的なプロダクトを世界に送り出し、人々を熱狂させつづけてきた。
-  quote: true
-  translation: 离开Google、创立Niantic公司的约翰·汉克，不断向世界推出革命性的产品，持续让人们为之狂热。
-  note: 约翰·汉克是Niantic的创始人兼CEO，曾主导Google Earth和Google Maps的开发。
-- original: テキサスの田舎町を抜け出したかった幼少期、プログラミングにのめりこんだ学生時代。巨大企業Googleでの成功と葛藤。そして、ナイアンティックでの自由な挑戦へ──。
-  quote: true
-  translation: 幼年时想逃离得克萨斯乡下小镇，学生时代沉迷编程。在巨型企业Google的成功与纠葛。以及在Niantic的自由挑战——。
-- original: 世界が今もっとも注目する経営者にして哲学するプログラマーが、その半生と思想をしずかに語った、未来を生み出す偉人のはじめての自伝。 全世界に先駆け、日本の読者に向けて堂々の登場！
-  quote: true
-  translation: 当今世界最受瞩目的经营者兼哲学式程序员，静静讲述自己的半生与思想，这位创造未来的伟人首部自传。领先全世界，面向日本读者隆重登场！
-- original: 書籍購入はこちら（Amazon）
-  quote: true
-  translation: 书籍购买请点击此处（Amazon）
-- original: 【あわせて読みたい】
-  quote: true
-  translation: 【延伸阅读】
-- original: 『ポケットモンスター』を生み出した田尻智氏と杉森建氏と、『ゼビウス』開発者の遠藤雅伸氏の鼎談もあわせてご覧ください。ゲームセンターがたまり場だった頃の、貴重な証言となっています。
-  quote: true
-  translation: 也请一并阅读创作出《宝可梦》的田尻智与杉森建，以及《铁板阵》开发者远藤雅伸的鼎谈。这是街机厅还是聚集场所那个时代的珍贵证言。
-  note: 田尻智是宝可梦系列的原案者、GAME FREAK创始人；杉森建是宝可梦角色设计者之一。
-- original: 【新連載：新世代に訊く】 『ポケモン』新作は“攻略”を検索される前提？ ゲームフリークの伝説を受け継ぐ若きディレクター達 【大森 滋氏・尾上 将之氏インタビュー】
-  translation: 【新连载：询问新世代】《宝可梦》新作是以被搜索“攻略”为前提？继承GAME FREAK传说的年轻总监们 【大森滋、尾上将之采访】
-- original: なぜサトシは戦わないのか？ ポケモンがRPG史に成し遂げた達成：「なんでゲームは面白い？」第五回
-  translation: 为什么小智不战斗？宝可梦在RPG史上达成的成就：“游戏为什么有趣？”第五回
-- original: インタビュアー・著者
-  translation: 采访者·作者
-- original: 稲葉ほたて
-  translation: 稻叶帆立
-- original: 株式会社はてな、株式会社ドワンゴを経て、フリーランスのライター・編集者へ。お仕事は新書から別名義の漫画原作、批評系の書籍まで……なんか色々。電ファミニコゲーマーでは、主に「ゲームの企画書」などの長文記事の制作を担当。
-  translation: 曾任职于株式会社Hatena、株式会社Dwango，后成为自由撰稿人、编辑。工作范围从新书到以其他名义创作的漫画原作，再到评论类书籍……总之涉猎广泛。在电Fami Nico Gamer主要负责“游戏企划书”等长篇报道的制作。
-- original: Twitter：@jamais_vu
-  translation: Twitter：@jamais_vu
-- original: インタビュアー
-  translation: 采访者
-- original: 斉藤大地
-  translation: 齐藤大地
-- original: 電ファミニコゲーマー元副編集長。「ニコ」出身。
-  translation: 电Fami Nico Gamer前副主编。出身于“Nico”。
-- original: Twitter：@daichittax
-  translation: Twitter：@daichittax
+  type: note
 summary: 电玩志《Pokémon GO的奇迹》终篇：还原 2016 年 7 月上线那一刻震撼全球的惊涛骇浪。开服首日全球流量便冲破 Google 云计算工程团队预想极限的 50 倍，Niantic 与任天堂工程师日夜兼程加固架构；纽约中央公园深夜数千人狂奔捕获水伊布成为全球头条；石原恒和、川岛优志与增田顺一动情探讨了这款游戏如何打破宅家孤立、促使抑郁症患者走入阳光社区、连接跨世代家庭的真实情感力量。
 era: 2017–2021 · Switch Microsite 触控时代
 toc: true

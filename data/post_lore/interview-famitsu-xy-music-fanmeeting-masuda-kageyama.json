@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 18
+  "n": 25
  },
  "facets": {
   "pokemon": [],
@@ -22,7 +22,7 @@
     "slug": "red-green",
     "seg": [
      1,
-     7
+     10
     ],
     "via": "entities"
    }
@@ -33,9 +33,9 @@
     "slug": "masuda-junichi",
     "role": "speaker",
     "seg": [
-     6,
-     14,
-     15
+     9,
+     21,
+     22
     ]
    },
    {
@@ -43,7 +43,7 @@
     "slug": "kageyama-shota",
     "role": "speaker",
     "seg": [
-     7
+     10
     ]
    },
    {
@@ -87,10 +87,10 @@
     "facet": "audio",
     "seg": [
      1,
-     5,
      7,
-     14,
-     15
+     10,
+     21,
+     22
     ],
     "as": [
      "编曲",
@@ -129,7 +129,7 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     5
+     7
     ],
     "as": [
      "シナリオ"
@@ -141,7 +141,7 @@
     "name": "平衡调整",
     "facet": "system",
     "seg": [
-     6
+     9
     ],
     "as": [
      "平衡性"
@@ -153,7 +153,7 @@
     "name": "竞技与官方大赛",
     "facet": "system",
     "seg": [
-     6
+     9
     ],
     "as": [
      "世界大赛"
@@ -165,8 +165,8 @@
     "name": "音源与机能",
     "facet": "audio",
     "seg": [
-     7,
-     14
+     10,
+     21
     ],
     "as": [
      "音源",
@@ -179,7 +179,7 @@
     "name": "本地化",
     "facet": "business",
     "seg": [
-     15
+     22
     ],
     "as": [
      "翻译"
@@ -191,7 +191,7 @@
     "name": "海外发行",
     "facet": "business",
     "seg": [
-     15
+     22
     ],
     "as": [
      "海外版"
@@ -203,7 +203,7 @@
     "name": "线下活动",
     "facet": "business",
     "seg": [
-     17
+     24
     ],
     "as": [
      "イベント"
@@ -246,7 +246,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

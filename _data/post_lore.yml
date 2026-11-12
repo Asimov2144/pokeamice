@@ -32385,11 +32385,11 @@
       slug: null
   id: interview-4gamer-2013-solitiba
   observations:
-  - anchor: 111
-    seg: 110
+  - anchor: 113
+    seg: 112
     text: 正式开发始于2012年4月，企划提出约在半年前即2011年10月
-  - anchor: 97
-    seg: 96
+  - anchor: 98
+    seg: 97
     text: 一之濑从《宝可梦 红·绿》时期就在公司，约20年
 2013-10-10-interview-gamasutra-xy-monster-design:
   facets:
@@ -42862,11 +42862,11 @@
       slug: null
   id: interview-denfami-ohmori-onoue-gamefreak-heritage
   observations:
-  - anchor: 22
-    seg: 21
+  - anchor: 12
+    seg: 11
     text: 电玩志首先询问两位总监的年龄
-  - anchor: 25
-    seg: 24
+  - anchor: 15
+    seg: 14
     text: 电玩志问大森是否应届毕业生入职
 2017-07-09-gamefreak-lineblog-9287844:
   facets:
@@ -43631,9 +43631,6 @@
     - name: 增田顺一
       role: speaker
       slug: masuda-junichi
-    - name: 大森滋
-      role: mentioned
-      slug: ohmori-shigeru
     places:
     - name: 桧皮镇
       what: 钢铁先生所在城镇
@@ -43652,18 +43649,12 @@
       slug: sun-moon
     - name: 宝可梦 黑·白
       slug: black-white
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 宝可梦 红宝石·蓝宝石
-      slug: ruby-sapphire
     - name: 宝可梦 X·Y
       slug: x-y
   id: interview-gigazine-gamefreak-sketches-masuda
   observations:
   - seg: 9
     text: 柑果球设定手稿右上角盖有丸秘红色印章，记录各色球材质与捕获机能
-  - seg: 14
-    text: 1990年代开发周报残卷写着电脑系统崩溃导致损失2天进度
   relations:
   - id: interview-gameinformer-why-ruby-and-sapphire-were-most-challenging
     kind: background
@@ -44556,9 +44547,6 @@
     - name: 野村达雄
       role: mentioned
       slug: nomura-tatsuo
-    - name: 约翰·汉克
-      role: mentioned
-      slug: john-hanke
     places:
     - name: 东京Bellesalle涩谷First
       what: 发布会会场
@@ -44588,8 +44576,6 @@
       slug: red-green
     - name: 宝可梦 皮卡丘版
       slug: yellow
-    - name: 宝可梦拳 POKKÉN TOURNAMENT DX
-      slug: null
   id: interview-gamer-pokemon-press-conference-2018
   observations:
   - anchor: 29
@@ -47036,24 +47022,15 @@
     people:
     - name: Hideki Makiguchi
       role: mentioned
-    - name: 牧口英树
-      role: mentioned
     places:
-    - id: carrot_tower
-      name: 三轩茶屋
-      what: GAME FREAK 胡萝卜塔所在
-      world: real
-    - name: Carrot Tower
-      what: 总部所在建筑
+    - name: 东京
+      what: 项目所在地
       world: real
     - name: 真新镇
-      what: 大堂迎宾区主题
+      what: 白色会议室设计的例子
       world: game
     - name: 常青森林
-      what: 生机气息的参照地
-      world: game
-    - name: 关都地区
-      what: 会议室命名来源
+      what: 大堂设计主题
       world: game
     pokemon: []
     works:
@@ -47065,11 +47042,11 @@
       slug: null
   id: interview-canuch-gamefreak-office-architecture
   observations:
-  - anchor: 4
-    seg: 3
+  - anchor: 6
+    seg: 5
     text: 迁址为满足高安全性、工位扩增与跨项目横向交流
-  - anchor: 16
-    seg: 15
+  - anchor: 18
+    seg: 17
     text: 访客区入内部办公区分为中庭与栖息地两区
 2020-08-18-corporate-topic-01-pokefuta-manhole-travel:
   facets:
@@ -48914,20 +48891,9 @@
 2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline:
   facets:
     people:
-    - name: 解说
-      role: speaker
-    - name: 前座晃宏
-      role: speaker
     - name: 前泽圭一
       role: mentioned
-      slug: maezawa-keiichi
-    places:
-    - name: 帕鲁迪亚地区
-      what: 《朱／紫》舞台
-      world: game
-    - name: 帕底亚地区
-      what: 《朱·紫》舞台
-      world: game
+    places: []
     pokemon:
     - name: 阿柏蛇
       ndex: 23
@@ -48956,11 +48922,11 @@
       slug: red-green
   id: interview-famitsu-sv-arceus-cedec2022-shader-pipeline
   observations:
-  - anchor: 10
-    seg: 9
+  - anchor: 11
+    seg: 10
     text: 从初代《红·绿》到《剑·盾》，宝可梦模型总数已超过1000种。
-  - anchor: 29
-    seg: 28
+  - anchor: 45
+    seg: 44
     text: 《朱／紫》后处理阶段，皮卡丘展现了宝可梦史上最蓬松的质感。
   relations:
   - id: interview-cedec-2022-legends-arceus-scarlet-violet-pipeline
@@ -49680,11 +49646,11 @@
       slug: sword-shield
   id: interview-cedec-2023-paldea-rendering-pipeline-maeza
   observations:
-  - anchor: 2
-    seg: 1
+  - anchor: 3
+    seg: 2
     text: 演讲题为“【宝可梦 朱·紫】描绘帕底亚地区——彻底解说视觉外观的机制！”
-  - anchor: 6
-    seg: 5
+  - anchor: 7
+    seg: 6
     text: 宝可梦SV的视觉概念是“真实与变形”，背景质感与形状偏向真实
   relations:
   - id: interview-denfami-2023-cedec-visual

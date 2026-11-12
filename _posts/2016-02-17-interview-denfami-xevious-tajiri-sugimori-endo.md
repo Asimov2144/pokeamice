@@ -9,14 +9,14 @@ tags:
 - '远藤雅伸'
 - '电玩迷电玩'
 subtitle: 从街机厅狂热、同人志《Game Freak》到创世巨作：解密《铁板阵》企划书原件与《宝可梦》谜题构想源流
-date: '2016-02-17'
+date: '2016-02-08'
 categories: [访谈翻译, 翻译, 访谈整理]
 permalink: /interview-denfami-xevious-tajiri-sugimori-endo/
 era_skin: '2014'
 original_lang: ja
 source_name: 电ファミニコゲーマー
-source_url: https://news.denfaminicogamer.jp/project/kikakusyo1_xevious
-original_link: https://news.denfaminicogamer.jp/project/kikakusyo1_xevious
+source_url: https://news.denfaminicogamer.jp/projectbook/xevious
+original_link: https://news.denfaminicogamer.jp/projectbook/xevious
 summary: 日本游戏媒体‘电玩迷电玩’（Denfaminicogamer）极高声誉的深度历史连载‘游戏的企划书’第一回！邀请到日本游戏界的两代传奇巨匠——《铁板阵》《迷宫塔》之父远藤雅伸，与《宝可梦》之父田尻智、艺术总监杉森建面对面鼎谈：1. 披露远藤雅伸1982年手写《铁板阵》原始企划书与设定手稿，解密街机厅狂潮；2. 田尻智讲述1983年撰写并亲自油印发行传奇同人志《Game Freak：铁板阵1000万分解法》引发全日本轰动，甚至引得远藤雅伸亲自造访街机厅解围的神奇渊源；3. 杉森建展示当年珍贵的纯手绘插画与两人相遇缔造GAME FREAK的往事；4. 深入剖析街机游戏‘难度递增’并非本质，‘概念与动词先行’（如《麦森探险》的翻转地砖）才是游戏设计的核心灵魂；5. 惊天揭晓《宝可梦》如何完美继承《铁板阵》的‘信息交流与谜题共享’生态——没有《铁板阵》带来的玩家自发解密社群，就不会有后来风靡全球的《宝可梦》连接交换机制。
 entities:
   people:
@@ -1548,7 +1548,7 @@ parallel_items:
   original: 遠藤さんが部分的に保管していた、当時の『ゼビウス』の企画書を公開！(C)BANDAI NAMCO Entertainment Inc.
   translation: 远藤先生部分保存的当时《铁板阵》企划书公开！(C)BANDAI NAMCO Entertainment Inc.
   role: question
-interviewee: 【导语】, 【章节导览】, 一之濑刚, 全员, 杉森建, 田尻智, 电玩志, 远藤雅伸
+interviewee: 远藤雅伸、田尻智、杉森建、一之濑刚
 source:
   title: 电ファミニコゲーマー
   url: https://news.denfaminicogamer.jp/project/kikakusyo1_xevious

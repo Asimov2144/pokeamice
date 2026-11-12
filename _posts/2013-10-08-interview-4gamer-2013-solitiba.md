@@ -387,6 +387,9 @@ parallel_items:
   role: question
   speaker: 4Gamer
   translation: 听你们谈到《GEAR》时我有点在意，GAME FREAK内部是否另有培养后进或类似公司内教育的制度呢？
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-011.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: もちろん，社内に教育担当みたいな人間はいますし，何かしら次の世代に伝えようって動きはやってます。ただ，一口に教育といっても，担当する職務によっていろいろと変わって来ますから，会社全体で一貫性がある取り込みをやれているかっていうと，なかなか難しいですね。でも，ウチの古参の考え方というか，彼らの持つ“空気感”みたいなものは，一緒に仕事をしていくなかで受け継がれていると思いますよ。
   role: answer
   speaker: 渡边哲也
@@ -436,6 +439,9 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 是的。实际上，我们在《纸牌赛马》开发时几乎什么都没插手，全部交给他们，结果就做出了那样的作品。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-038.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: 彼らは，逆に「こんなことやっていいのか？」という心配をずっとしていたみたいだけどね。ゲームフリークって，割とゲームの世界観の“整合性”だったり，“理屈”みたいな部分を大事にしている会社なんですけど，「ソリティアをやると馬が走る……みたいなことをやっていいんでしょうか？」っていうのを，彼らはとても心配していた。まぁ僕的には，「劇中でちゃんと突っ込んでれば大丈夫だよ」って言って，背中を押していたぐらいだったんですけど。
   role: answer
   speaker: 杉森建
@@ -505,6 +511,9 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 随着智能手机的出现，接触到游戏市场、或者说接触到游戏的人绝对数量增加了，我觉得这本身是非常好的事。只要有活跃的地方，对创作者来说就是机会。只是……。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-009.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: ただ一方では，「ゲームを遊ぶ」って行為そのものの価値は失われないようにしないといけない，とも思っています。業界全体でそれなりのクオリティのものをちゃんと作って，お客さんに満足してもらうようにしていかないと。あんまり“焼き畑的”なものばかりが溢れちゃうのは，やっぱり心配なんです。その辺は，うまいこと業界のみんなでやっていきたいですよね。あ，僕らも頑張りますんで（笑）。
   role: answer
   speaker: 渡边哲也
@@ -547,6 +556,9 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 《龙之皇冠》也是一部像一团热量的作品。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-020.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - type: heading
   level: 2
   original: 「ゲームそのものの価値」への危惧
@@ -599,6 +611,9 @@ parallel_items:
   role: question
   speaker: 4Gamer
   translation: 不过，杉森先生和渡边先生所担忧的，说起来更偏向于“游戏本身价值的疲弊”这一方面吗？
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-015.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: そこは両方ですね。これは別にゲーム業界に限らないと思うんですけど，やっぱり自制心みたいなものって，僕は大事だと思うんです。えげつなかったり，それは不健康だろうっていうものに対しては，やっぱりどこかでブレーキをかけていかないといけない。
   role: answer
   speaker: 杉森建
@@ -652,6 +667,9 @@ parallel_items:
   role: question
   speaker: 4Gamer
   translation: 嗯，所谓前后一致，是什么意思？
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-019.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: ゲームの仕様でいえば，例えば「モンスターをボールに入れて持ち歩く」という設定がなぜ出来たかというと，自分のキャラクターの後ろに“モンスターをぞろぞろ歩かせる表現”が，ゲームボーイというハードウェアでは性能的に難しかったからなんですね。でも，何の理屈もなしに後ろに誰もいなかったら，それは変だろうってことで，じゃあ「ポケットに入ってるってことにしよう！」みたいな設定が生まれたわけです。ゲームの仕組みと世界観が密接に結びついてるのが，ウチのやり方といいますか。
   role: answer
   speaker: 杉森建
@@ -681,6 +699,9 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 作为想法我觉得非常有趣。把收费本身作为游玩内容来卖，这本身是非常好的尝试。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-018.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - type: heading
   level: 2
   original: 「ソリティ馬」はなかなか真似できないゲーム
@@ -723,6 +744,9 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 只是，该说是有些莫名地绷得太紧吗。感觉像既有作品的东西变多了，所以就以“淘汰淘汰淘汰！”的感觉给毙掉了。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-021.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: 内容そのものがまったく悪いわけじゃないんですけど，ちょっとこう，なんだろうな。それこそさっきお話した後追いに近いビジネスモデルの企画だったりすると，あえて僕らがチャレンジする必要があるのかなって思っちゃう。「GEAR」のコンセプトと照らし合わせると，どうしても優先度としては低めの企画になっちゃうんですよね。
   role: answer
   speaker: 渡边哲也
@@ -825,6 +849,9 @@ parallel_items:
   role: question
   speaker: 4Gamer
   translation: 是这样吗？
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-022.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: 当時は，画面がスクロールしていくゲームが一番はやっていて，最後に巨大なボスキャラが出る――みたいなものが主流だったんですけれど，仲間と集まっては「なんで，そうなんだろうね？」っていう話をよくしていたんですね。そして僕ら自身がゲームを作るときには，「じゃあもう，画面は固定にしよう！」とか「ボスキャラは大きくしない！」とか，全部その当時の逆張りでやろうと決めた。
   role: answer
   speaker: 杉森建
@@ -919,6 +946,9 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 当然，这也是因为《宝可梦》这部作品走红了才做得到的事。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-035.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - type: heading
   level: 2
   original: “ひねくれ者”ばかりの集団
@@ -935,6 +965,9 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 是啊。以前真的很松散，就是学生社团的那股劲头原封不动。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-014.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: 「赤・緑」を作っていたときなんかは，PCが足りないからっていって，一台のPCを僕ともう一人で使い回していたんですよ。彼が朝方から夕方まで使って，僕が夕方に出社してきて朝までやるみたいな，そんな仕事のしかたでしたからね。もう，労働基準法とかそういう体裁がまったくなくて，会社としてどうなんだって感じで。
   role: answer
   speaker: 渡边哲也
@@ -980,6 +1013,9 @@ parallel_items:
   role: question
   speaker: 4Gamer
   translation: 从这个意义上说，我觉得要真正做出有趣的游戏，那种类似文化祭前夜的热烈气氛，或者说热量，或许是必要的。也就是说，只在所谓公司式的会议中，有趣的东西真的能诞生吗？我对此抱有疑问。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-013.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: そうですねぇ。その意味で言うと，僕は今でも「良いアイデアの8割ぐらいはバカ話から生まれる」と思っているんですよ。だから，すごくクソ真面目に会議を仕切ったりするような人がいると，僕はちょっと「おい！」って言いたくなるっていうか（笑）。
   role: answer
   speaker: 杉森建
@@ -1029,6 +1065,9 @@ parallel_items:
   role: question
   speaker: 4Gamer
   translation: 话虽如此，制作某种新东西这件事，确实存在无法用单纯的生意来割舍的部分，至少我个人认为，这样的部分应该被重视下去。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-016.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: まぁ結局のところ，僕らは純粋にゲームが好きで，自分達が好きに作ったものをみんなに遊んでもらいたい――ということを，延々と学生のようにやっているに過ぎないのかもしれませんね。
   role: answer
   speaker: 渡边哲也
@@ -1057,23 +1096,24 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 嘛，反正我们是一群全是别扭家伙的集体。
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/source-036.jpg
+  alt: 《纸牌赛马》访谈原文配图
 - original: 「ソリティ馬」という作品，そして「GEAR」という取り組みについての話を切り口に，ゲームフリークという会社のあり方や考え方を探ってみた今回のインタビュー。「ポケットモンスター」という大ヒットシリーズを手がけながらも，彼らの考え方や方向性は，むしろインディーズにも似通っており，今なお衰えない反骨精神こそが“ゲームフリークらしさ”の原点なのかもしれない――そんな印象を受けた取材であった。
-  role: answer
-  speaker: 杉森建
+  role: commentary
+  speaker: 原文作者
   translation: 以《纸牌赛马》这部作品以及“GEAR”这一尝试为切入点，探寻GAME FREAK这家公司的存在方式和思考方式的本次采访。虽然他们打造了《宝可梦》这一大热系列，但他们的想法和方向性反而与独立游戏相似，至今不衰的反骨精神或许正是“GAME FREAK风格”的原点——这次采访给人留下了这样的印象。
   note: 《纸牌赛马》（ソリティ马）是GAME FREAK于2013年推出的3DS下载游戏，将纸牌接龙与赛马结合。
 - original: ゲームやゲーム開発に並々ならぬ情熱を注いできた彼らが，今のゲーム市場をどう捉え，何を見据えて活動しているのか。普段，なかなか聞くことができない話も多く，とても貴重な機会だったと思う。
-  role: answer
-  speaker: 杉森建
+  role: commentary
+  speaker: 原文作者
   translation: 对游戏和游戏开发倾注了非凡热情的他们，如何看待当今游戏市场，又着眼于什么开展活动。平时很难听到的许多内容，我觉得是非常宝贵的机会。
 - original: 熱量をもって生まれてきた会社（あるいは業界）が，大きくなる過程でその熱量を失っていくというのは，ゲーム業界に限らずよく聞く話である。担い手の高齢化や技術継承の問題，要するに作り手や作品そのものの世代交代/新陳代謝をどうするのかにつながっていくわけだが，ゲームフリークが行っている取り組みや方向性は，その意味でも注目したいところだろう。
-  role: answer
-  speaker: 杉森建
+  role: commentary
+  speaker: 原文作者
   translation: 带着热情诞生的公司（或行业），在成长过程中逐渐失去那份热情，这不仅是游戏行业，也是经常听到的说法。这关系到从业者高龄化和技术传承问题，总之就是如何实现创作者和作品本身的世代交替/新陈代谢，GAME FREAK所做的尝试和方向性，从这个意义上也值得关注。
 - original: 自らを「ひねくれ者ばかりの集団」だというゲームフリーク。ゲーム史上でも類を見ない大ヒット作を作り上げながらも，現状に甘んじることなく，常に新しい作品を生み出さんとする彼らの気概に，なんだか勇気づけられたような気がした次第。一業界人，あるいは一ファンとしては，彼らが「ポケットモンスター」に続く，世界的な大ヒット作を生み出していくことを期待してやまない。
-  role: answer
-  speaker: 杉森建
+  role: commentary
+  speaker: 原文作者
   translation: 自称“一群全是别扭家伙的集体”的GAME FREAK。虽然打造了游戏史上罕见的大热作品，却不满足于现状，始终试图创造新作品，他们的气概让人感到某种鼓舞。作为一名业界人士，或者作为一名粉丝，我不禁期待他们能创造出继《宝可梦》之后的世界级大热作品。
-- original: 500円でこんなに遊べちゃっていいの？ ゲームフリークが贈る新作「ソリティ馬」のファーストインプレッションを掲載
-  translation: 500日元就能玩到这么多？刊登GAME FREAK献上的新作《纸牌赛马》的第一印象
 ---

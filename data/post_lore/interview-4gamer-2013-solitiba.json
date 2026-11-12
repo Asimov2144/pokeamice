@@ -6,7 +6,7 @@
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 262
+  "n": 275
  },
  "facets": {
   "pokemon": [],
@@ -45,7 +45,7 @@
     "name": "宝可梦 红·绿",
     "slug": "red-green",
     "seg": [
-     96
+     97
     ],
     "via": "llm"
    },
@@ -53,7 +53,7 @@
     "name": "龙之皇冠",
     "slug": null,
     "seg": [
-     130
+     133
     ],
     "via": "llm"
    },
@@ -61,7 +61,7 @@
     "name": "Quinty",
     "slug": null,
     "seg": [
-     197
+     205
     ],
     "via": "llm"
    },
@@ -69,7 +69,7 @@
     "name": "新游戏设计",
     "slug": null,
     "seg": [
-     133
+     137
     ],
     "via": "llm"
    }
@@ -119,7 +119,7 @@
     "slug": "tajiri-satoshi",
     "role": "mentioned",
     "seg": [
-     98
+     99
     ],
     "via": "llm"
    },
@@ -128,7 +128,7 @@
     "slug": "taya-masao",
     "role": "mentioned",
     "seg": [
-     100
+     101
     ],
     "via": "llm"
    },
@@ -137,7 +137,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     96
+     97
     ],
     "via": "llm"
    },
@@ -146,7 +146,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     101
+     102
     ],
     "via": "llm"
    },
@@ -155,7 +155,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     130
+     133
     ],
     "via": "llm"
    }
@@ -193,10 +193,10 @@
     "seg": [
      4,
      17,
-     122,
-     185,
-     191,
-     193
+     125,
+     193,
+     199,
+     201
     ],
     "as": [
      "完成度",
@@ -213,7 +213,7 @@
      8,
      24,
      27,
-     110
+     112
     ],
     "as": [
      "公司内部"
@@ -238,8 +238,8 @@
     "facet": "process",
     "seg": [
      26,
-     107,
-     110
+     109,
+     112
     ],
     "as": [
      "试作",
@@ -363,7 +363,7 @@
     "facet": "audience",
     "seg": [
      92,
-     93
+     94
     ],
     "as": [
      "教育"
@@ -376,7 +376,7 @@
     "facet": "team",
     "seg": [
      92,
-     141
+     145
     ],
     "as": [
      "培养"
@@ -388,7 +388,7 @@
     "name": "沿用与继承",
     "facet": "process",
     "seg": [
-     93
+     94
     ],
     "as": [
      "继承"
@@ -400,7 +400,7 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     98
+     99
     ],
     "as": [
      "动画版"
@@ -412,11 +412,11 @@
     "name": "世界观设定",
     "facet": "design",
     "seg": [
-     105,
-     151,
-     155,
-     157,
-     177
+     107,
+     156,
+     160,
+     163,
+     185
     ],
     "as": [
      "世界观"
@@ -428,12 +428,12 @@
     "name": "手机应用",
     "facet": "franchise",
     "seg": [
-     121,
-     170,
-     176,
+     123,
      177,
-     207,
-     209
+     184,
+     185,
+     216,
+     218
     ],
     "as": [
      "智能手机"
@@ -445,7 +445,7 @@
     "name": "分工与协作",
     "facet": "process",
     "seg": [
-     122
+     125
     ],
     "as": [
      "一起做"
@@ -457,7 +457,7 @@
     "name": "周边商品",
     "facet": "business",
     "seg": [
-     151
+     156
     ],
     "as": [
      "商品化"
@@ -469,7 +469,7 @@
     "name": "开发工具与环境",
     "facet": "tech",
     "seg": [
-     196
+     204
     ],
     "as": [
      "开发环境"
@@ -481,7 +481,7 @@
     "name": "工作方式",
     "facet": "team",
     "seg": [
-     227
+     238
     ],
     "as": [
      "工作方式"
@@ -493,7 +493,7 @@
     "name": "家庭与亲子",
     "facet": "audience",
     "seg": [
-     232
+     243
     ],
     "as": [
      "家庭"
@@ -505,7 +505,7 @@
     "name": "世代与代际",
     "facet": "franchise",
     "seg": [
-     259
+     273
     ],
     "as": [
      "世代交替"
@@ -516,14 +516,14 @@
  },
  "observations": [
   {
-   "seg": 110,
+   "seg": 112,
    "text": "正式开发始于2012年4月，企划提出约在半年前即2011年10月",
-   "anchor": 111
+   "anchor": 113
   },
   {
-   "seg": 96,
+   "seg": 97,
    "text": "一之濑从《宝可梦 红·绿》时期就在公司，约20年",
-   "anchor": 97
+   "anchor": 98
   }
  ],
  "relations": [],
@@ -532,7 +532,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "segment_audit": "2026-11-12"
  },
  "edited": false
 }

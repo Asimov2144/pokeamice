@@ -58,7 +58,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/001.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: 画像左が増田さん、右が海野さん。
+  caption: 左为增田顺一，右为海野隆雄。
+  caption_original: 画像左が増田さん、右が海野さん。
 - type: heading
   level: 2
   original: ◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇
@@ -115,6 +116,12 @@ parallel_items:
   speaker: 电击Online
   translation: 不是“诘将棋”而是“诘宝可梦对战”，粉丝们反馈说很有趣的“宝可梦好莱坞”。请也告诉我们它的开发经过。
   note: 诘将棋是日本将棋的一种残局解谜玩法，这里借用来形容宝可梦对战的解谜式挑战。
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/source-c20120805_poke_004_cs1w1_143x.jpg
+  alt: 《黑2／白2》开发者交流活动现场展示
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/source-c20120805_poke_005_cs1w1_143x.jpg
+  alt: 《黑2／白2》开发者交流活动现场展示
 - original: 最初企画書を持っていった時、増田に「なんだ、これ？」と言われました（笑）。僕は（DS『ポケットモンスター ハートゴールド・ソウルシルバー』『ポケットモンスターブラック・ホワイト』で）アートディレクターをやっていたので、ポケモンにもっと幅広い表現をさせたいと考えていたんです。それで、映画ということにしてしまえば許してもらえるんじゃないかと思って（笑）。あと、タイプの相性などをもう少し初心者にわかりやすく伝えたいという考えもあり、“映画を撮りながらバトルも楽しめる”という“ポケウッド”ができました。
   role: answer
   speaker: 海野隆雄
@@ -149,28 +156,32 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/005.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: 今回初出しとなった開発時のイメージビジュアル。会場からも、大きなどよめきが起こった。まずは7賢人のビジュアル。
+  caption: 首次公开的开发阶段概念图，让现场观众发出惊叹。首先展示的是七贤人。
+  caption_original: 今回初出しとなった開発時のイメージビジュアル。会場からも、大きなどよめきが起こった。まずは7賢人のビジュアル。
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/006.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/007.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: こちらは7賢人をリアルに描いてもらったもの。
+  caption: 将七贤人画得更写实的版本。
+  caption_original: こちらは7賢人をリアルに描いてもらったもの。
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/008.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/009.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: Nの世話をする女神たち。ギリシアのような服装をしており、Nのお姉さんのようなイメージだそうだ。 ゲーチスのビジュアル。資料には“ゲーツィス”と書かれているが、発音しにくいという理由で今の“ゲーチス”になったのだとか。
+  caption: 照顾N的女神们，身穿希腊风格的服装，形象类似N的姐姐。另图为魁奇思的概念图：资料写作“ゲーツィス”，据说因为不好发音，后来改成了“ゲーチス”。
+  caption_original: Nの世話をする女神たち。ギリシアのような服装をしており、Nのお姉さんのようなイメージだそうだ。 ゲーチスのビジュアル。資料には“ゲーツィス”と書かれているが、発音しにくいという理由で今の“ゲーチス”になったのだとか。
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/010.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/011.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: ダークトリニティは、少しエネルギーが抜けた感じのイメージで作られたという。 Nのイメージビジュアル。さまざまなアイテムも一緒に描かれている。
+  caption: 暗黑三人组的设计给人一种略显无力的感觉。另图为N的概念图，身边还画有各种道具。
+  caption_original: ダークトリニティは、少しエネルギーが抜けた感じのイメージで作られたという。 Nのイメージビジュアル。さまざまなアイテムも一緒に描かれている。
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/012.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
@@ -180,7 +191,8 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/014.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: こちらは“怒ったN”のイメージビジュアル。普段怒らない人が怒ったらどういう顔になるのか、というイラストだそうだ。最後は上から目線のNと、腰かける優しい表情のNのビジュアルが公開された。
+  caption: “生气的N”概念图，描绘平时不生气的人动怒时会是什么表情。最后还展示了居高临下看人的N，以及坐着、表情温柔的N。
+  caption_original: こちらは“怒ったN”のイメージビジュアル。普段怒らない人が怒ったらどういう顔になるのか、というイラストだそうだ。最後は上から目線のNと、腰かける優しい表情のNのビジュアルが公開された。
 - original: あくまでイメージビジュアルなので、開発していく段階でいろいろ変わっていくこともあるんですが、せっかくなので用意してみました。
   role: answer
   speaker: 增田顺一
@@ -210,16 +222,16 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/017.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: このイベントのために用意された横断幕。記念写真は、後日ポケットモンスターオフシャルサイトに掲載されるそうなので、ぜひアクセスしてみよう。
+  caption: 为本次活动准备的横幅。原文提示，纪念合照将在稍后刊登于宝可梦官方网站。
+  caption_original: このイベントのために用意された横断幕。記念写真は、後日ポケットモンスターオフシャルサイトに掲載されるそうなので、ぜひアクセスしてみよう。
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/018.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
 - type: image
   image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/019.jpg
   alt: 『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター
-  caption: なお、本日ポケモンセンターヨコハマで買い物をした人には、ポストカードサイズのメモリアルシートが配られた。裏面には、増田さんと海野さんのサインが印刷されていた。
-- original: 関連サイト
-  translation: 相关网站
+  caption: 当天在宝可梦中心横滨购物的顾客获赠了明信片大小的纪念卡，背面印有增田和海野的签名。
+  caption_original: なお、本日ポケモンセンターヨコハマで買い物をした人には、ポストカードサイズのメモリアルシートが配られた。裏面には、増田さんと海野さんのサインが印刷されていた。
 dek: 增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻
 summary: 2012年8月5日，宝可梦公司在横滨地标大厦举办《宝可梦 黑2·白2》发售纪念粉丝见面会，200名抽选粉丝到场。GAME FREAK 制作人增田顺一与总监海野隆雄出席对谈，谈及开发启动时全员合影、以“共鸣”为主题、支持最多100人同乐的庆典任务、汇集历代馆主与冠军的宝可梦世界锦标赛（PWT）、黑色摩天楼与白色树洞、宝可坞，以及以“2年后”为舞台并更换主角的设定。增田还公开了《宝可梦 黑·白》初期记录魁奇思、N与暗爱三位一体的创意手记草图。
 topics:
