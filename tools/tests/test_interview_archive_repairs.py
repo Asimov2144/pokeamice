@@ -1,5 +1,6 @@
 """Regressions for reviewed scan order, anonymous speakers and source links."""
 import importlib.util
+import json
 from pathlib import Path
 import unittest
 import yaml
@@ -11,6 +12,54 @@ spec.loader.exec_module(archive)
 
 
 class InterviewArchiveRepairs(unittest.TestCase):
+    REVIEWED_SCANS = (
+        "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
+        "2004-03-21-scan-ndream-108-frlg-developer-interview",
+        "2005-07-15-scan-corocoro-200508-diamond-pearl-scoop",
+        "2010-09-16-scan-famitsu-1137-bw-launch-interview",
+        "2010-09-23-scan-famitsu-1138-bw-secrets-interview",
+        "2011-01-06-scan-davinci-201102-masuda-comment",
+        "2011-01-20-scan-otonafamily-201103-masuda-bw-adults",
+        "2012-07-19-scan-famitsu-1233-b2w2-interview",
+        "2012-07-21-scan-ndream-221-b2w2-developer-interview",
+        "2012-08-21-scan-ndream-222-b2w2-pwt-pokewood",
+        "2013-09-21-scan-ndream-235-xy-developer-interview",
+    )
+
+    def test_reviewed_scans_keep_reader_order_and_quote_targets(self):
+        quotes = yaml.safe_load((ROOT / "_data/quotes.yml").read_text(encoding="utf-8"))["quotes"]
+        for stem in self.REVIEWED_SCANS:
+            with self.subTest(stem=stem):
+                fm = yaml.safe_load((ROOT / "_posts" / f"{stem}.md").read_text(encoding="utf-8").split("---", 2)[1])
+                rows = fm["translation_segments"]
+                exported = archive.normalize_scan(rows, {}, preserve_order=fm.get("scan_reading_order") == "listed")
+                self.assertEqual([r["region_id"] for r in exported], [r["region_id"] for r in rows])
+                self.assertEqual(len({r["region_id"] for r in rows}), len(rows))
+                for row in rows:
+                    if row.get("type") == "table":
+                        for text_key, lang in (("original", "ja"), ("translation", "zh")):
+                            lines = row[text_key].splitlines()
+                            expected = [[cell.strip() for cell in line.split("|")] for line in lines if "|" in line]
+                            self.assertEqual(row[f"rows_{lang}"], expected)
+                            note = "\n".join(line for line in lines if line.strip() and "|" not in line)
+                            self.assertEqual(row.get(f"table_note_{lang}", ""), note)
+                for quote in (q for q in quotes if q.get("post") == stem):
+                    source = rows[quote["segment"] - 1]
+                    self.assertEqual(quote["ja"], source["original"])
+                    self.assertEqual(quote["zh"], source["translation"])
+                    self.assertEqual(quote["id"], f"{stem}#{quote['segment']}")
+
+    def test_nd84_pokemon_index_matches_corrected_text(self):
+        path = ROOT / "_posts/2003-02-21-scan-ndream-084-ruby-sapphire-interview.md"
+        fm = yaml.safe_load(path.read_text(encoding="utf-8").split("---", 2)[1])
+        rows = archive.normalize_scan(fm["translation_segments"], {}, preserve_order=True)
+        lore = json.loads((ROOT / "data/post_lore/scan-ndream-084-ruby-sapphire-interview.json").read_text(encoding="utf-8"))
+        self.assertEqual(lore["body"]["n"], len(rows))
+        for pokemon in lore["facets"]["pokemon"]:
+            for index in pokemon["seg"]:
+                with self.subTest(pokemon=pokemon["name"], index=index):
+                    self.assertIn(pokemon["name"], rows[index]["translation"])
+
     def test_nd84_export_matches_reviewed_transcript(self):
         path = ROOT / "_posts/2003-02-21-scan-ndream-084-ruby-sapphire-interview.md"
         fm = yaml.safe_load(path.read_text(encoding="utf-8").split("---", 2)[1])

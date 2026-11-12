@@ -234,6 +234,7 @@ shown and the text reads as it always did.
                   {% endfor %}
                 </table>
               </div>
+              {% if s.table_note_zh %}<p class="sc-table__note" lang="{{ translation_lang }}">{{ s.table_note_zh | escape | newline_to_br }}</p>{% endif %}
               <details class="sc-table__orig"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
                 <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这张表的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
                 <div class="sc-table__scroll">
@@ -244,6 +245,7 @@ shown and the text reads as it always did.
                     {% endfor %}
                   </table>
                 </div>
+                {% if s.table_note_ja %}<p class="sc-table__note">{{ s.table_note_ja | escape | newline_to_br }}</p>{% endif %}
               </details>
             </div>
           {% elsif g == "title" %}

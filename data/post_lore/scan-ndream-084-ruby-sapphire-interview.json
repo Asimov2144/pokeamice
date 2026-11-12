@@ -6,7 +6,7 @@
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 382
+  "n": 392
  },
  "facets": {
   "pokemon": [
@@ -189,7 +189,7 @@
     "name": "沼跃鱼",
     "ndex": 259,
     "seg": [
-     375
+     385
     ],
     "as": [
      "沼跃鱼"
@@ -252,8 +252,8 @@
      93,
      96,
      99,
-     348,
-     380
+     358,
+     390
     ],
     "as": [
      "懒人獭"
@@ -277,7 +277,7 @@
     "seg": [
      93,
      98,
-     347
+     357
     ],
     "as": [
      "请假王"
@@ -288,8 +288,8 @@
     "name": "爆音怪",
     "ndex": 295,
     "seg": [
-     344,
-     379
+     354,
+     389
     ],
     "as": [
      "爆音怪"
@@ -311,7 +311,7 @@
     "name": "优雅猫",
     "ndex": 301,
     "seg": [
-     252
+     260
     ],
     "as": [
      "优雅猫"
@@ -345,7 +345,7 @@
     "name": "呆火驼",
     "ndex": 322,
     "seg": [
-     378
+     388
     ],
     "as": [
      "呆火驼"
@@ -356,7 +356,7 @@
     "name": "猫鼬斩",
     "ndex": 335,
     "seg": [
-     253
+     261
     ],
     "as": [
      "猫鼬斩"
@@ -367,7 +367,7 @@
     "name": "触手百合",
     "ndex": 345,
     "seg": [
-     376
+     386
     ],
     "as": [
      "触手百合"
@@ -378,7 +378,7 @@
     "name": "变隐龙",
     "ndex": 352,
     "seg": [
-     377
+     387
     ],
     "as": [
      "变隐龙"
@@ -400,7 +400,6 @@
     "name": "盖欧卡",
     "ndex": 382,
     "seg": [
-     209,
      111
     ],
     "as": [
@@ -471,7 +470,7 @@
     "name": "塞尔达",
     "slug": null,
     "seg": [
-     326
+     336
     ],
     "via": "llm"
    },
@@ -479,7 +478,7 @@
     "name": "风之杖",
     "slug": null,
     "seg": [
-     327
+     337
     ],
     "via": "llm"
    },
@@ -487,7 +486,7 @@
     "name": "银河战士",
     "slug": null,
     "seg": [
-     367
+     377
     ],
     "via": "llm"
    },
@@ -495,7 +494,7 @@
     "name": "GAME FREAK",
     "slug": null,
     "seg": [
-     374
+     384
     ],
     "via": "llm"
    }
@@ -542,7 +541,7 @@
     "slug": "tajiri-satoshi",
     "role": "mentioned",
     "seg": [
-     374
+     384
     ],
     "via": "llm"
    },
@@ -551,9 +550,9 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     351,
-     352,
-     381
+     361,
+     362,
+     391
     ],
     "via": "llm"
    }
@@ -568,7 +567,7 @@
     "scale": "spot",
     "seg": [
      10,
-     249
+     257
     ],
     "via": "extra",
     "area": "shimokitazawa-gamefreak",
@@ -704,7 +703,7 @@
     "facet": "art",
     "seg": [
      12,
-     381
+     391
     ],
     "as": [
      "插画"
@@ -929,7 +928,7 @@
     "facet": "tech",
     "seg": [
      242,
-     260
+     253
     ],
     "as": [
      "ROM",
@@ -954,7 +953,7 @@
     "name": "老玩家与新玩家",
     "facet": "audience",
     "seg": [
-     247
+     255
     ],
     "as": [
      "玩家群体"
@@ -966,8 +965,8 @@
     "name": "沿用与继承",
     "facet": "process",
     "seg": [
-     247,
-     260
+     255,
+     253
     ],
     "as": [
      "前作的",
@@ -980,7 +979,7 @@
     "name": "推翻重做",
     "facet": "process",
     "seg": [
-     256
+     249
     ],
     "as": [
      "重做"
@@ -992,7 +991,7 @@
     "name": "续作",
     "facet": "process",
     "seg": [
-     260
+     253
     ],
     "as": [
      "续作"
@@ -1029,8 +1028,8 @@
     "facet": "franchise",
     "seg": [
      104,
-     312,
-     313
+     322,
+     323
     ],
     "as": [
      "漫画"
@@ -1044,7 +1043,7 @@
     "seg": [
      112,
      117,
-     356
+     366
     ],
     "as": [
      "周边商品",
@@ -1120,8 +1119,8 @@
     "name": "二创与同人",
     "facet": "audience",
     "seg": [
-     313,
-     373
+     323,
+     383
     ],
     "as": [
      "同人志"
@@ -1133,7 +1132,7 @@
     "name": "收集与图鉴",
     "facet": "system",
     "seg": [
-     345
+     355
     ],
     "as": [
      "宝可梦图鉴"
@@ -1145,7 +1144,7 @@
     "name": "多人同乐",
     "facet": "system",
     "seg": [
-     356
+     366
     ],
     "as": [
      "一起玩"
@@ -1157,7 +1156,7 @@
     "name": "世代与代际",
     "facet": "franchise",
     "seg": [
-     367
+     377
     ],
     "as": [
      "初代"
@@ -1169,7 +1168,7 @@
     "name": "界面与操作",
     "facet": "system",
     "seg": [
-     372
+     382
     ],
     "as": [
      "手感"
@@ -1181,7 +1180,7 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     381
+     391
     ],
     "as": [
      "电视动画"
@@ -1193,7 +1192,7 @@
     "name": "版权与监修",
     "facet": "business",
     "seg": [
-     381
+     391
     ],
     "as": [
      "监修"
@@ -1220,7 +1219,7 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "concepts": "2026-09-26",
-  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  "review": "2026-11-12 original-scan proofreading; region-id reference remap; removed false Kyogre match from カイパンやろう"
  },
  "edited": true
 }
