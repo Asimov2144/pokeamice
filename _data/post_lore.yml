@@ -1426,6 +1426,16 @@
     - name: 石原恒和
       slug: ishihara-tsunekazu
       role: speaker
+    - name: 岩井俊雄
+      role: mentioned
+    - name: 糸井重里
+      role: mentioned
+    - name: 大谷育江
+      slug: otani-ikue
+      role: mentioned
+    - name: 林原惠美
+      slug: hayashibara-megumi
+      role: mentioned
     places:
     - name: 町田
       what: 田尻成长之地
@@ -1912,6 +1922,13 @@
     - name: 增田顺一
       slug: masuda-junichi
       role: speaker
+    - name: 近藤
+      role: speaker
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: mentioned
+    - name: 小田部先生
+      role: mentioned
     places:
     - name: 下北泽
       what: GAME FREAK 最初的开发基地
@@ -24036,6 +24053,8 @@
     - name: 景山将太
       slug: kageyama-shota
       role: speaker
+    - name: Yamaha 青木讲师
+      role: mentioned
     places: []
   observations:
   - text: GAME FREAK声音开发使用Cubase，采访2010年DS新作声音领队景山将太
@@ -24409,6 +24428,14 @@
       role: speaker
     - name: 增田顺一
       slug: masuda-junichi
+      role: mentioned
+    - name: N
+      slug: n
+      role: mentioned
+      kind: character
+    - name: 黑连
+      role: mentioned
+    - name: 白露
       role: mentioned
     places: []
   observations:
@@ -25989,6 +26016,13 @@
     - name: 海野隆雄
       slug: unno-takao
       role: mentioned
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: mentioned
+    - name: 李贤贞
+      role: mentioned
+    - name: 田上玲子
+      role: mentioned
     places:
     - name: 池袋的阳光国际水族馆
       what: 看海豹表演
@@ -26039,6 +26073,9 @@
       role: speaker
     - name: 田尻智
       slug: tajiri-satoshi
+      role: mentioned
+    - name: 宫本茂
+      slug: miyamoto-shigeru
       role: mentioned
     places: []
   observations:
@@ -47924,6 +47961,8 @@
     - name: T.K.（新卒程序员对谈）
       slug: gf-tk-new-programmer-crosstalk
       role: speaker
+    - name: R.H.
+      role: speaker
     places: []
   observations:
   - text: 会议用Google日历安排，用Google Meet开
@@ -48091,6 +48130,8 @@
       role: speaker
     - name: H.T.（系统程序员对谈）
       slug: gf-ht-system-crosstalk
+      role: speaker
+    - name: J.I.
       role: speaker
     places: []
   observations:
@@ -48920,6 +48961,10 @@
     - name: 宇都宫崇人
       slug: utsunomiya-takato
       role: mentioned
+    - name: 小川
+      role: speaker
+    - name: 太田
+      role: speaker
     places:
     - name: 旧金山
       what: Niantic总部所在地
@@ -49706,6 +49751,10 @@
     - name: 寺田佑贵
       slug: si-tian-you-gui
       role: mentioned
+    - name: 坂上
+      role: speaker
+    - name: 水口
+      role: speaker
     places: []
   observations:
   - text: 寺田属于应用游戏部门，并以兼任形式参加经营企划部的数据团队。
@@ -49904,7 +49953,15 @@
   facets:
     pokemon: []
     works: []
-    people: []
+    people:
+    - name: 铃木
+      role: speaker
+    - name: 新井
+      role: speaker
+    - name: 中野
+      role: speaker
+    - name: 柴山
+      role: speaker
     places: []
   observations:
   - text: 铃木负责内部IT技术支持台，服务株式会社宝可梦及宝可梦中心全员

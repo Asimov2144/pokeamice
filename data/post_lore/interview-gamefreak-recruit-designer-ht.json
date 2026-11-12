@@ -1,265 +1,265 @@
 {
-  "id": "interview-gamefreak-recruit-designer-ht",
-  "stem": "2021-12-27-interview-gamefreak-recruit-designer-ht",
-  "rev": 1,
-  "built": "2026-09-25",
-  "kind": "interview",
-  "body": {
-    "kind": "segments",
-    "n": 13
-  },
-  "facets": {
-    "pokemon": [],
-    "works": [
-      {
-        "name": "小镇英雄",
-        "slug": null,
-        "seg": [
-          7
-        ],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦 剑·盾",
-        "slug": "sword-shield",
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦",
-        "slug": null,
-        "seg": [
-          4
-        ],
-        "via": "llm"
-      }
+ "id": "interview-gamefreak-recruit-designer-ht",
+ "stem": "2021-12-27-interview-gamefreak-recruit-designer-ht",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "小镇英雄",
+    "slug": null,
+    "seg": [
+     7
     ],
-    "people": [
-      {
-        "name": "H.T.（2019设计师特写）",
-        "slug": "gf-ht-designer-2019",
-        "role": "speaker",
-        "seg": [
-          3,
-          4,
-          7,
-          8,
-          11,
-          12
-        ]
-      }
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     4
     ],
-    "places": [
-      {
-        "name": "E3",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "spot",
-        "seg": [
-          7
-        ],
-        "what": "游戏展会",
-        "via": "llm"
-      }
-    ],
-    "concepts": [
-      {
-        "id": "illustration",
-        "name": "插画与设定图",
-        "facet": "art",
-        "seg": [
-          0,
-          7
-        ],
-        "as": [
-          "主视觉",
-          "插画"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "joining",
-        "name": "进公司之前",
-        "facet": "team",
-        "seg": [
-          1,
-          4,
-          12
-        ],
-        "as": [
-          "转职",
-          "入职"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "iteration",
-        "name": "推翻重做",
-        "facet": "process",
-        "seg": [
-          3
-        ],
-        "as": [
-          "从零开始"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "planning",
-        "name": "企划",
-        "facet": "process",
-        "seg": [
-          3
-        ],
-        "as": [
-          "企划书"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "recruiting",
-        "name": "招聘与新人",
-        "facet": "team",
-        "seg": [
-          3
-        ],
-        "as": [
-          "应届"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "three-d",
-        "name": "3D 与建模",
-        "facet": "tech",
-        "seg": [
-          3
-        ],
-        "as": [
-          "建模"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "easy-to-grasp",
-        "name": "易懂与门槛",
-        "facet": "design",
-        "seg": [
-          4
-        ],
-        "as": [
-          "一目了然"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "level-design",
-        "name": "地图与关卡",
-        "facet": "system",
-        "seg": [
-          4
-        ],
-        "as": [
-          "关卡"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "art-direction",
-        "name": "美术风格",
-        "facet": "art",
-        "seg": [
-          6
-        ],
-        "as": [
-          "美术风格"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "world-building",
-        "name": "世界观设定",
-        "facet": "design",
-        "seg": [
-          6
-        ],
-        "as": [
-          "世界观"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "character-design",
-        "name": "角色设计",
-        "facet": "design",
-        "seg": [
-          7
-        ],
-        "as": [
-          "角色设计"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "marketing",
-        "name": "宣传",
-        "facet": "business",
-        "seg": [
-          7
-        ],
-        "as": [
-          "宣传"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "quality",
-        "name": "完成度与打磨",
-        "facet": "process",
-        "seg": [
-          7
-        ],
-        "as": [
-          "品质"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "programming",
-        "name": "程序实现",
-        "facet": "tech",
-        "seg": [
-          8
-        ],
-        "as": [
-          "编程"
-        ],
-        "via": "body"
-      }
-    ]
-  },
-  "observations": [
-    {
-      "seg": 3,
-      "text": "H.T.应届毕业后进入一家主机游戏开发公司担任背景设计师",
-      "anchor": 4
-    },
-    {
-      "seg": 3,
-      "text": "H.T.因方案被采纳后交到策划手中而考虑跳槽",
-      "anchor": 4
-    }
+    "via": "llm"
+   }
   ],
-  "relations": [],
-  "sources": {
-    "pokemon_names": "2026-09-23",
-    "tour_places": "2026-09-23",
-    "model": "deepseek-chat",
-    "relations_model": "deepseek-chat",
-    "concepts": "2026-09-26",
-    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  "people": [
+   {
+    "name": "H.T.（2019设计师特写）",
+    "slug": "gf-ht-designer-2019",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "E3",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     7
+    ],
+    "what": "游戏展会",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     0,
+     7
+    ],
+    "as": [
+     "主视觉",
+     "插画"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     1,
+     4,
+     12
+    ],
+    "as": [
+     "转职",
+     "入职"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "从零开始"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     3
+    ],
+    "as": [
+     "企划书"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     3
+    ],
+    "as": [
+     "应届"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     3
+    ],
+    "as": [
+     "建模"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "easy-to-grasp",
+    "name": "易懂与门槛",
+    "facet": "design",
+    "seg": [
+     4
+    ],
+    "as": [
+     "一目了然"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     4
+    ],
+    "as": [
+     "关卡"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "art-direction",
+    "name": "美术风格",
+    "facet": "art",
+    "seg": [
+     6
+    ],
+    "as": [
+     "美术风格"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     6
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     7
+    ],
+    "as": [
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     7
+    ],
+    "as": [
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     7
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "programming",
+    "name": "程序实现",
+    "facet": "tech",
+    "seg": [
+     8
+    ],
+    "as": [
+     "编程"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "H.T.应届毕业后进入一家主机游戏开发公司担任背景设计师",
+   "anchor": 4
   },
-  "edited": true
+  {
+   "seg": 3,
+   "text": "H.T.因方案被采纳后交到策划手中而考虑跳槽",
+   "anchor": 4
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+ },
+ "edited": true
 }

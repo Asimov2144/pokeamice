@@ -1,697 +1,734 @@
 {
-  "id": "interview-nom-special-dialogue-tajiri-ishihara",
-  "stem": "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
-  "rev": 1,
-  "built": "2026-09-25",
-  "kind": "interview",
-  "body": {
-    "kind": "segments",
-    "n": 68
-  },
-  "facets": {
-    "pokemon": [
-      {
-        "name": "皮卡丘",
-        "ndex": 25,
-        "seg": [
-          25,
-          26,
-          54,
-          59,
-          65
-        ],
-        "as": [
-          "皮卡丘"
-        ],
-        "via": "body"
-      },
-      {
-        "name": "伽勒尔喵喵",
-        "ndex": 52,
-        "seg": [
-          56
-        ],
-        "as": [
-          "喵喵"
-        ],
-        "via": "llm"
-      }
+ "id": "interview-nom-special-dialogue-tajiri-ishihara",
+ "stem": "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 68
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "皮卡丘",
+    "ndex": 25,
+    "seg": [
+     25,
+     26,
+     54,
+     59,
+     65
     ],
-    "works": [
-      {
-        "name": "宝可梦 红·绿",
-        "slug": "red-green",
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦 金·银",
-        "slug": "gold-silver",
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦卡牌",
-        "slug": null,
-        "seg": [
-          60
-        ],
-        "via": "entities"
-      },
-      {
-        "name": "耀西的蛋",
-        "slug": null,
-        "seg": [
-          13
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "马里奥与瓦里奥",
-        "slug": null,
-        "seg": [
-          21
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "魔界塔士SaGa",
-        "slug": null,
-        "seg": [
-          14
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "铁板阵",
-        "slug": null,
-        "seg": [
-          5
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "打砖块",
-        "slug": null,
-        "seg": [
-          5
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "Mission X",
-        "slug": null,
-        "seg": [
-          9
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "Scramble",
-        "slug": null,
-        "seg": [
-          9
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "太空侵略者",
-        "slug": null,
-        "seg": [
-          32
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "银河战争",
-        "slug": null,
-        "seg": [
-          32
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "导弹指令",
-        "slug": null,
-        "seg": [
-          32
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "伴我同行",
-        "slug": null,
-        "seg": [
-          36
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "GAME FREAK",
-        "slug": null,
-        "seg": [
-          7
-        ],
-        "via": "llm"
-      }
+    "as": [
+     "皮卡丘"
     ],
-    "people": [
-      {
-        "name": "田尻智",
-        "slug": "tajiri-satoshi",
-        "role": "speaker",
-        "seg": [
-          2,
-          5,
-          7,
-          9,
-          11,
-          14
-        ]
-      },
-      {
-        "name": "石原恒和",
-        "slug": "ishihara-tsunekazu",
-        "role": "speaker",
-        "seg": [
-          4,
-          6,
-          8,
-          10,
-          17,
-          21
-        ]
-      }
+    "via": "body"
+   },
+   {
+    "name": "伽勒尔喵喵",
+    "ndex": 52,
+    "seg": [
+     56
     ],
-    "places": [
-      {
-        "name": "町田",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "spot",
-        "seg": [
-          30
-        ],
-        "what": "田尻成长之地",
-        "via": "llm"
-      },
-      {
-        "name": "加利福尼亚半岛",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "spot",
-        "seg": [
-          35
-        ],
-        "what": "石原比对的地形",
-        "via": "llm"
-      },
-      {
-        "name": "佛罗里达半岛",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "spot",
-        "seg": [
-          35
-        ],
-        "what": "石原比对的地形",
-        "via": "llm"
-      },
-      {
-        "name": "六本木",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "area",
-        "seg": [
-          2
-        ],
-        "what": "二人相遇之地",
-        "via": "llm"
-      },
-      {
-        "name": "关都地区",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "game",
-        "scale": "area",
-        "seg": [
-          35
-        ],
-        "what": "宝可梦游戏舞台",
-        "via": "llm"
-      }
+    "as": [
+     "喵喵"
     ],
-    "concepts": [
-      {
-        "id": "cable-link",
-        "name": "通信线缆",
-        "facet": "tech",
-        "seg": [
-          0
-        ],
-        "as": [
-          "通信线"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "collection",
-        "name": "收集与图鉴",
-        "facet": "system",
-        "seg": [
-          7
-        ],
-        "as": [
-          "集齐"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "fan-works",
-        "name": "二创与同人",
-        "facet": "audience",
-        "seg": [
-          7,
-          9,
-          12
-        ],
-        "as": [
-          "同人志"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "nature-and-bugs",
-        "name": "自然与昆虫采集",
-        "facet": "design",
-        "seg": [
-          12,
-          49
-        ],
-        "as": [
-          "昆虫",
-          "生态"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "teamwork",
-        "name": "分工与协作",
-        "facet": "process",
-        "seg": [
-          17,
-          59
-        ],
-        "as": [
-          "协作"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "connection",
-        "name": "人与人的连接",
-        "facet": "design",
-        "seg": [
-          19,
-          52
-        ],
-        "as": [
-          "连接起来",
-          "交流"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "children",
-        "name": "儿童玩家",
-        "facet": "audience",
-        "seg": [
-          21,
-          34,
-          51,
-          67
-        ],
-        "as": [
-          "小孩子",
-          "孩子们"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "text-volume",
-        "name": "文本量",
-        "facet": "story",
-        "seg": [
-          21
-        ],
-        "as": [
-          "文本量"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "localization",
-        "name": "本地化",
-        "facet": "business",
-        "seg": [
-          23,
-          66
-        ],
-        "as": [
-          "翻译"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "overseas",
-        "name": "海外发行",
-        "facet": "business",
-        "seg": [
-          23,
-          66
-        ],
-        "as": [
-          "海外版",
-          "全球同步发售"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "randomness",
-        "name": "随机与运气",
-        "facet": "system",
-        "seg": [
-          23
-        ],
-        "as": [
-          "概率"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "character-design",
-        "name": "角色设计",
-        "facet": "design",
-        "seg": [
-          25
-        ],
-        "as": [
-          "角色设计"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "nostalgia",
-        "name": "怀旧",
-        "facet": "audience",
-        "seg": [
-          27,
-          31
-        ],
-        "as": [
-          "童年"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "link-battle",
-        "name": "通信对战",
-        "facet": "system",
-        "seg": [
-          34,
-          52
-        ],
-        "as": [
-          "训练家对战"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "level-design",
-        "name": "地图与关卡",
-        "facet": "system",
-        "seg": [
-          36
-        ],
-        "as": [
-          "地图设计"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "world-building",
-        "name": "世界观设定",
-        "facet": "design",
-        "seg": [
-          36,
-          55
-        ],
-        "as": [
-          "世界观"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "quality",
-        "name": "完成度与打磨",
-        "facet": "process",
-        "seg": [
-          39
-        ],
-        "as": [
-          "品质"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "planning",
-        "name": "企划",
-        "facet": "process",
-        "seg": [
-          40
-        ],
-        "as": [
-          "企划书"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "dev-tools",
-        "name": "开发工具与环境",
-        "facet": "tech",
-        "seg": [
-          43
-        ],
-        "as": [
-          "开发环境"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "joining",
-        "name": "进公司之前",
-        "facet": "team",
-        "seg": [
-          45
-        ],
-        "as": [
-          "学生时代"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "trade",
-        "name": "通信交换",
-        "facet": "system",
-        "seg": [
-          52,
-          53,
-          54
-        ],
-        "as": [
-          "与朋友交换",
-          "通信交换"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "level-exp",
-        "name": "等级与经验",
-        "facet": "system",
-        "seg": [
-          53
-        ],
-        "as": [
-          "等级"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "sequel",
-        "name": "续作",
-        "facet": "process",
-        "seg": [
-          54,
-          62
-        ],
-        "as": [
-          "续作"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "collaboration",
-        "name": "联动",
-        "facet": "business",
-        "seg": [
-          55
-        ],
-        "as": [
-          "联动"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "media-mix",
-        "name": "媒体展开",
-        "facet": "business",
-        "seg": [
-          55
-        ],
-        "as": [
-          "多媒体"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "anime",
-        "name": "电视动画",
-        "facet": "franchise",
-        "seg": [
-          56,
-          57
-        ],
-        "as": [
-          "电视动画",
-          "动画化"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "cry-design",
-        "name": "叫声",
-        "facet": "design",
-        "seg": [
-          56
-        ],
-        "as": [
-          "叫声"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "scenario",
-        "name": "剧本",
-        "facet": "story",
-        "seg": [
-          59
-        ],
-        "as": [
-          "剧本"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "voice",
-        "name": "配音",
-        "facet": "audio",
-        "seg": [
-          59
-        ],
-        "as": [
-          "声优"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "tcg",
-        "name": "集换式卡牌",
-        "facet": "franchise",
-        "seg": [
-          60
-        ],
-        "as": [
-          "宝可梦卡牌"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "generations",
-        "name": "世代与代际",
-        "facet": "franchise",
-        "seg": [
-          64
-        ],
-        "as": [
-          "初代"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "naming",
-        "name": "命名",
-        "facet": "design",
-        "seg": [
-          64
-        ],
-        "as": [
-          "命名"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "reuse",
-        "name": "沿用与继承",
-        "facet": "process",
-        "seg": [
-          65
-        ],
-        "as": [
-          "前作的"
-        ],
-        "via": "body"
-      }
-    ]
-  },
-  "observations": [
-    {
-      "seg": 4,
-      "text": "石原1980年代初期在六本木老式民宅的CG影像公司任职",
-      "anchor": 5
-    },
-    {
-      "seg": 14,
-      "text": "田尻看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏",
-      "anchor": 15
-    }
+    "via": "llm"
+   }
   ],
-  "relations": [],
-  "sources": {
-    "pokemon_names": "2026-09-23",
-    "tour_places": "2026-09-23",
-    "model": "deepseek-chat",
-    "relations_model": "deepseek-chat",
-    "concepts": "2026-09-26",
-    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  "works": [
+   {
+    "name": "宝可梦 红·绿",
+    "slug": "red-green",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦卡牌",
+    "slug": null,
+    "seg": [
+     60
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "耀西的蛋",
+    "slug": null,
+    "seg": [
+     13
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "马里奥与瓦里奥",
+    "slug": null,
+    "seg": [
+     21
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "魔界塔士SaGa",
+    "slug": null,
+    "seg": [
+     14
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "铁板阵",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "打砖块",
+    "slug": null,
+    "seg": [
+     5
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Mission X",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "Scramble",
+    "slug": null,
+    "seg": [
+     9
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "太空侵略者",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "银河战争",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "导弹指令",
+    "slug": null,
+    "seg": [
+     32
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "伴我同行",
+    "slug": null,
+    "seg": [
+     36
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "GAME FREAK",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "田尻智",
+    "slug": "tajiri-satoshi",
+    "role": "speaker",
+    "seg": [
+     2,
+     5,
+     7,
+     9,
+     11,
+     14
+    ]
+   },
+   {
+    "name": "石原恒和",
+    "slug": "ishihara-tsunekazu",
+    "role": "speaker",
+    "seg": [
+     4,
+     6,
+     8,
+     10,
+     17,
+     21
+    ]
+   },
+   {
+    "name": "岩井俊雄",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     5,
+     6
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "糸井重里",
+    "slug": null,
+    "role": "mentioned",
+    "seg": [
+     39
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "大谷育江",
+    "slug": "otani-ikue",
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "林原惠美",
+    "slug": "hayashibara-megumi",
+    "role": "mentioned",
+    "seg": [
+     59
+    ],
+    "via": "llm"
+   }
+  ],
+  "places": [
+   {
+    "name": "町田",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     30
+    ],
+    "what": "田尻成长之地",
+    "via": "llm"
+   },
+   {
+    "name": "加利福尼亚半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "石原比对的地形",
+    "via": "llm"
+   },
+   {
+    "name": "佛罗里达半岛",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     35
+    ],
+    "what": "石原比对的地形",
+    "via": "llm"
+   },
+   {
+    "name": "六本木",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     2
+    ],
+    "what": "二人相遇之地",
+    "via": "llm"
+   },
+   {
+    "name": "关都地区",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "game",
+    "scale": "area",
+    "seg": [
+     35
+    ],
+    "what": "宝可梦游戏舞台",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "cable-link",
+    "name": "通信线缆",
+    "facet": "tech",
+    "seg": [
+     0
+    ],
+    "as": [
+     "通信线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collection",
+    "name": "收集与图鉴",
+    "facet": "system",
+    "seg": [
+     7
+    ],
+    "as": [
+     "集齐"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "fan-works",
+    "name": "二创与同人",
+    "facet": "audience",
+    "seg": [
+     7,
+     9,
+     12
+    ],
+    "as": [
+     "同人志"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     12,
+     49
+    ],
+    "as": [
+     "昆虫",
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     17,
+     59
+    ],
+    "as": [
+     "协作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     19,
+     52
+    ],
+    "as": [
+     "连接起来",
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "children",
+    "name": "儿童玩家",
+    "facet": "audience",
+    "seg": [
+     21,
+     34,
+     51,
+     67
+    ],
+    "as": [
+     "小孩子",
+     "孩子们"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "text-volume",
+    "name": "文本量",
+    "facet": "story",
+    "seg": [
+     21
+    ],
+    "as": [
+     "文本量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "localization",
+    "name": "本地化",
+    "facet": "business",
+    "seg": [
+     23,
+     66
+    ],
+    "as": [
+     "翻译"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "overseas",
+    "name": "海外发行",
+    "facet": "business",
+    "seg": [
+     23,
+     66
+    ],
+    "as": [
+     "海外版",
+     "全球同步发售"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "randomness",
+    "name": "随机与运气",
+    "facet": "system",
+    "seg": [
+     23
+    ],
+    "as": [
+     "概率"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
+    "seg": [
+     25
+    ],
+    "as": [
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     27,
+     31
+    ],
+    "as": [
+     "童年"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "link-battle",
+    "name": "通信对战",
+    "facet": "system",
+    "seg": [
+     34,
+     52
+    ],
+    "as": [
+     "训练家对战"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     36
+    ],
+    "as": [
+     "地图设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     36,
+     55
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     39
+    ],
+    "as": [
+     "品质"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     40
+    ],
+    "as": [
+     "企划书"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-tools",
+    "name": "开发工具与环境",
+    "facet": "tech",
+    "seg": [
+     43
+    ],
+    "as": [
+     "开发环境"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "joining",
+    "name": "进公司之前",
+    "facet": "team",
+    "seg": [
+     45
+    ],
+    "as": [
+     "学生时代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     52,
+     53,
+     54
+    ],
+    "as": [
+     "与朋友交换",
+     "通信交换"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     53
+    ],
+    "as": [
+     "等级"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
+    "seg": [
+     54,
+     62
+    ],
+    "as": [
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     55
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "media-mix",
+    "name": "媒体展开",
+    "facet": "business",
+    "seg": [
+     55
+    ],
+    "as": [
+     "多媒体"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     56,
+     57
+    ],
+    "as": [
+     "电视动画",
+     "动画化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "cry-design",
+    "name": "叫声",
+    "facet": "design",
+    "seg": [
+     56
+    ],
+    "as": [
+     "叫声"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "scenario",
+    "name": "剧本",
+    "facet": "story",
+    "seg": [
+     59
+    ],
+    "as": [
+     "剧本"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "voice",
+    "name": "配音",
+    "facet": "audio",
+    "seg": [
+     59
+    ],
+    "as": [
+     "声优"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     60
+    ],
+    "as": [
+     "宝可梦卡牌"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     64
+    ],
+    "as": [
+     "初代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     64
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "reuse",
+    "name": "沿用与继承",
+    "facet": "process",
+    "seg": [
+     65
+    ],
+    "as": [
+     "前作的"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 4,
+   "text": "石原1980年代初期在六本木老式民宅的CG影像公司任职",
+   "anchor": 5
   },
-  "edited": true
+  {
+   "seg": 14,
+   "text": "田尻看到《魔界塔士SaGa》后认为Game Boy上也能做非动作游戏",
+   "anchor": 15
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+ },
+ "edited": true
 }

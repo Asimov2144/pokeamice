@@ -1,237 +1,237 @@
 {
-  "id": "interview-gamefreak-recruit-ta-tk",
-  "stem": "2021-12-27-interview-gamefreak-recruit-ta-tk",
-  "rev": 1,
-  "built": "2026-09-25",
-  "kind": "interview",
-  "body": {
-    "kind": "segments",
-    "n": 13
-  },
-  "facets": {
-    "pokemon": [
-      {
-        "name": "阿尔宙斯",
-        "ndex": 493,
-        "seg": [
-          7
-        ],
-        "as": [
-          "阿尔宙斯"
-        ],
-        "via": "body"
-      }
+ "id": "interview-gamefreak-recruit-ta-tk",
+ "stem": "2021-12-27-interview-gamefreak-recruit-ta-tk",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 13
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "阿尔宙斯",
+    "ndex": 493,
+    "seg": [
+     7
     ],
-    "works": [
-      {
-        "name": "宝可梦 剑·盾",
-        "slug": "sword-shield",
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦传说 阿尔宙斯",
-        "slug": "legends-arceus",
-        "seg": [
-          7
-        ],
-        "via": "entities"
-      },
-      {
-        "name": "Houdini管线研发",
-        "slug": null,
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "动作捕捉系统",
-        "slug": null,
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "耀西的蛋",
-        "slug": null,
-        "seg": [
-          3
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "宝可梦 剑／盾",
-        "slug": null,
-        "seg": [
-          7
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "宝可梦",
-        "slug": null,
-        "seg": [
-          3
-        ],
-        "via": "llm"
-      }
+    "as": [
+     "阿尔宙斯"
     ],
-    "people": [
-      {
-        "name": "T.K.（技术美术特写）",
-        "slug": "gf-tk-technical-artist",
-        "role": "speaker",
-        "seg": [
-          3,
-          4,
-          7,
-          8,
-          11,
-          12
-        ]
-      }
-    ],
-    "places": [],
-    "concepts": [
-      {
-        "id": "illustration",
-        "name": "插画与设定图",
-        "facet": "art",
-        "seg": [
-          0
-        ],
-        "as": [
-          "主视觉"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "marketing",
-        "name": "宣传",
-        "facet": "business",
-        "seg": [
-          3
-        ],
-        "as": [
-          "广告"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "nostalgia",
-        "name": "怀旧",
-        "facet": "audience",
-        "seg": [
-          3
-        ],
-        "as": [
-          "小时候玩"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "quality",
-        "name": "完成度与打磨",
-        "facet": "process",
-        "seg": [
-          3,
-          8
-        ],
-        "as": [
-          "打磨"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "three-d",
-        "name": "3D 与建模",
-        "facet": "tech",
-        "seg": [
-          4
-        ],
-        "as": [
-          "3D模型"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "dev-tools",
-        "name": "开发工具与环境",
-        "facet": "tech",
-        "seg": [
-          10
-        ],
-        "as": [
-          "开发环境"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "planning",
-        "name": "企划",
-        "facet": "process",
-        "seg": [
-          11
-        ],
-        "as": [
-          "提案"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "screen-look",
-        "name": "画面表现",
-        "facet": "art",
-        "seg": [
-          11
-        ],
-        "as": [
-          "画面表现"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "studio-culture",
-        "name": "公司氛围",
-        "facet": "team",
-        "seg": [
-          11
-        ],
-        "as": [
-          "公司内部"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "recruiting",
-        "name": "招聘与新人",
-        "facet": "team",
-        "seg": [],
-        "as": [
-          "招聘"
-        ],
-        "via": "tag"
-      }
-    ]
-  },
-  "observations": [
-    {
-      "seg": 3,
-      "text": "T.K.在PC游戏开发公司工作10年后跳槽到影像公司",
-      "anchor": 4
-    },
-    {
-      "seg": 7,
-      "text": "《宝可梦 剑／盾》中他负责宝可梦模型制作环境整备，模型超1000只",
-      "anchor": 8
-    }
+    "via": "body"
+   }
   ],
-  "relations": [],
-  "sources": {
-    "pokemon_names": "2026-09-23",
-    "tour_places": "2026-09-23",
-    "model": "deepseek-chat",
-    "relations_model": "deepseek-chat",
-    "concepts": "2026-09-26",
-    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  "works": [
+   {
+    "name": "宝可梦 剑·盾",
+    "slug": "sword-shield",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦传说 阿尔宙斯",
+    "slug": "legends-arceus",
+    "seg": [
+     7
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "Houdini管线研发",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "动作捕捉系统",
+    "slug": null,
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "耀西的蛋",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦 剑／盾",
+    "slug": null,
+    "seg": [
+     7
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "T.K.（技术美术特写）",
+    "slug": "gf-tk-technical-artist",
+    "role": "speaker",
+    "seg": [
+     3,
+     4,
+     7,
+     8,
+     11,
+     12
+    ]
+   }
+  ],
+  "places": [],
+  "concepts": [
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     0
+    ],
+    "as": [
+     "主视觉"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     3
+    ],
+    "as": [
+     "广告"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nostalgia",
+    "name": "怀旧",
+    "facet": "audience",
+    "seg": [
+     3
+    ],
+    "as": [
+     "小时候玩"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     3,
+     8
+    ],
+    "as": [
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     4
+    ],
+    "as": [
+     "3D模型"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-tools",
+    "name": "开发工具与环境",
+    "facet": "tech",
+    "seg": [
+     10
+    ],
+    "as": [
+     "开发环境"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     11
+    ],
+    "as": [
+     "提案"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
+    "seg": [
+     11
+    ],
+    "as": [
+     "画面表现"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     11
+    ],
+    "as": [
+     "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 3,
+   "text": "T.K.在PC游戏开发公司工作10年后跳槽到影像公司",
+   "anchor": 4
   },
-  "edited": true
+  {
+   "seg": 7,
+   "text": "《宝可梦 剑／盾》中他负责宝可梦模型制作环境整备，模型超1000只",
+   "anchor": 8
+  }
+ ],
+ "relations": [],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+ },
+ "edited": true
 }

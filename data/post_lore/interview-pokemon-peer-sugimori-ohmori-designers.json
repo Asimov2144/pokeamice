@@ -1,380 +1,380 @@
 {
-  "id": "interview-pokemon-peer-sugimori-ohmori-designers",
-  "stem": "2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers",
-  "rev": 1,
-  "built": "2026-09-25",
-  "kind": "interview",
-  "body": {
-    "kind": "segments",
-    "n": 49
-  },
-  "facets": {
-    "pokemon": [
-      {
-        "name": "波加曼",
-        "ndex": 393,
-        "seg": [
-          19
-        ],
-        "as": [
-          "波加曼"
-        ],
-        "via": "body"
-      },
-      {
-        "name": "比克提尼",
-        "ndex": 494,
-        "seg": [
-          5,
-          6
-        ],
-        "as": [
-          "比克提尼",
-          "Victini"
-        ],
-        "via": "tag"
-      },
-      {
-        "name": "藤藤蛇",
-        "ndex": 495,
-        "seg": [
-          8,
-          20,
-          21,
-          24,
-          26,
-          30
-        ],
-        "as": [
-          "藤藤蛇",
-          "Snivy"
-        ],
-        "via": "tag"
-      },
-      {
-        "name": "暖暖猪",
-        "ndex": 498,
-        "seg": [
-          20,
-          22,
-          38
-        ],
-        "as": [
-          "暖暖猪",
-          "Tepig"
-        ],
-        "via": "body"
-      },
-      {
-        "name": "水水獭",
-        "ndex": 501,
-        "seg": [
-          3,
-          20,
-          23,
-          24,
-          36,
-          38
-        ],
-        "as": [
-          "水水獭",
-          "Oshawott"
-        ],
-        "via": "tag"
-      },
-      {
-        "name": "豆豆鸽",
-        "ndex": 519,
-        "seg": [
-          7,
-          8
-        ],
-        "as": [
-          "豆豆鸽",
-          "Pidove"
-        ],
-        "via": "body"
-      },
-      {
-        "name": "虫宝包",
-        "ndex": 540,
-        "seg": [
-          8
-        ],
-        "as": [
-          "虫宝包"
-        ],
-        "via": "body"
-      }
+ "id": "interview-pokemon-peer-sugimori-ohmori-designers",
+ "stem": "2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 49
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "波加曼",
+    "ndex": 393,
+    "seg": [
+     19
     ],
-    "works": [
-      {
-        "name": "宝可梦 黑·白",
-        "slug": "black-white",
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦 白金",
-        "slug": "platinum",
-        "seg": [
-          4,
-          13
-        ],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦 心金·魂银",
-        "slug": "heartgold-soulsilver",
-        "seg": [],
-        "via": "entities"
-      },
-      {
-        "name": "宝可梦 钻石／珍珠",
-        "slug": null,
-        "seg": [
-          3
-        ],
-        "via": "llm"
-      },
-      {
-        "name": "凡尔赛玫瑰",
-        "slug": null,
-        "seg": [
-          33
-        ],
-        "via": "llm"
-      }
+    "as": [
+     "波加曼"
     ],
-    "people": [
-      {
-        "name": "杉森建",
-        "slug": "sugimori-ken",
-        "role": "speaker",
-        "seg": [
-          2,
-          4,
-          10,
-          13,
-          15,
-          17
-        ]
-      },
-      {
-        "name": "大村祐介",
-        "slug": "ohmura-yusuke",
-        "role": "speaker",
-        "seg": [
-          3,
-          12,
-          19,
-          36,
-          38,
-          40
-        ]
-      },
-      {
-        "name": "井部真那",
-        "slug": "ibe-mana",
-        "role": "speaker",
-        "seg": [
-          6,
-          16,
-          44
-        ]
-      },
-      {
-        "name": "田上怜子",
-        "slug": "tian-shang-lian-zi",
-        "role": "speaker",
-        "seg": [
-          8,
-          18,
-          26,
-          28,
-          30,
-          34
-        ]
-      },
-      {
-        "name": "增田顺一",
-        "slug": "masuda-junichi",
-        "role": "mentioned",
-        "seg": []
-      }
+    "via": "body"
+   },
+   {
+    "name": "比克提尼",
+    "ndex": 494,
+    "seg": [
+     5,
+     6
     ],
-    "places": [
-      {
-        "name": "多摩动物园",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "spot",
-        "seg": [
-          42
-        ],
-        "what": "团队观察动物的动物园",
-        "via": "llm"
-      },
-      {
-        "name": "冬宫博物馆",
-        "id": null,
-        "entity": null,
-        "category": null,
-        "world": "real",
-        "scale": "spot",
-        "seg": [
-          34
-        ],
-        "what": "田上玲子比喻的形象来源",
-        "via": "llm"
-      }
+    "as": [
+     "比克提尼",
+     "Victini"
     ],
-    "concepts": [
-      {
-        "id": "nature-and-bugs",
-        "name": "自然与昆虫采集",
-        "facet": "design",
-        "seg": [
-          0,
-          13,
-          18
-        ],
-        "as": [
-          "生态",
-          "昆虫"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "pixel-art",
-        "name": "像素画",
-        "facet": "tech",
-        "seg": [
-          2
-        ],
-        "as": [
-          "点阵图"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "pokemon-design",
-        "name": "宝可梦设计",
-        "facet": "design",
-        "seg": [
-          2,
-          3,
-          17,
-          41
-        ],
-        "as": [
-          "宝可梦的设计",
-          "设计宝可梦"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "iteration",
-        "name": "推翻重做",
-        "facet": "process",
-        "seg": [
-          4,
-          13,
-          14
-        ],
-        "as": [
-          "从零开始"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "recruiting",
-        "name": "招聘与新人",
-        "facet": "team",
-        "seg": [
-          9
-        ],
-        "as": [
-          "新人"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "type-matchup",
-        "name": "属性相性",
-        "facet": "design",
-        "seg": [
-          19,
-          27,
-          32,
-          35,
-          36,
-          48
-        ],
-        "as": [
-          "水属性",
-          "草属性",
-          "火属性"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "evolution-design",
-        "name": "进化的设计",
-        "facet": "design",
-        "seg": [
-          37
-        ],
-        "as": [
-          "进化形态"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "dev-cycle",
-        "name": "开发周期",
-        "facet": "process",
-        "seg": [
-          42
-        ],
-        "as": [
-          "开发初期"
-        ],
-        "via": "body"
-      }
+    "via": "tag"
+   },
+   {
+    "name": "藤藤蛇",
+    "ndex": 495,
+    "seg": [
+     8,
+     20,
+     21,
+     24,
+     26,
+     30
+    ],
+    "as": [
+     "藤藤蛇",
+     "Snivy"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "暖暖猪",
+    "ndex": 498,
+    "seg": [
+     20,
+     22,
+     38
+    ],
+    "as": [
+     "暖暖猪",
+     "Tepig"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水水獭",
+    "ndex": 501,
+    "seg": [
+     3,
+     20,
+     23,
+     24,
+     36,
+     38
+    ],
+    "as": [
+     "水水獭",
+     "Oshawott"
+    ],
+    "via": "tag"
+   },
+   {
+    "name": "豆豆鸽",
+    "ndex": 519,
+    "seg": [
+     7,
+     8
+    ],
+    "as": [
+     "豆豆鸽",
+     "Pidove"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "虫宝包",
+    "ndex": 540,
+    "seg": [
+     8
+    ],
+    "as": [
+     "虫宝包"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可梦 黑·白",
+    "slug": "black-white",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 白金",
+    "slug": "platinum",
+    "seg": [
+     4,
+     13
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 心金·魂银",
+    "slug": "heartgold-soulsilver",
+    "seg": [],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 钻石／珍珠",
+    "slug": null,
+    "seg": [
+     3
+    ],
+    "via": "llm"
+   },
+   {
+    "name": "凡尔赛玫瑰",
+    "slug": null,
+    "seg": [
+     33
+    ],
+    "via": "llm"
+   }
+  ],
+  "people": [
+   {
+    "name": "杉森建",
+    "slug": "sugimori-ken",
+    "role": "speaker",
+    "seg": [
+     2,
+     4,
+     10,
+     13,
+     15,
+     17
     ]
-  },
-  "observations": [
-    {
-      "seg": 10,
-      "text": "杉森建说共有17位设计师，每人设计约10只宝可梦。",
-      "anchor": 11
-    },
-    {
-      "seg": 12,
-      "text": "大村祐介说设计工作大约从2008年春天开始。",
-      "anchor": 13
-    }
+   },
+   {
+    "name": "大村祐介",
+    "slug": "ohmura-yusuke",
+    "role": "speaker",
+    "seg": [
+     3,
+     12,
+     19,
+     36,
+     38,
+     40
+    ]
+   },
+   {
+    "name": "井部真那",
+    "slug": "ibe-mana",
+    "role": "speaker",
+    "seg": [
+     6,
+     16,
+     44
+    ]
+   },
+   {
+    "name": "田上怜子",
+    "slug": "tian-shang-lian-zi",
+    "role": "speaker",
+    "seg": [
+     8,
+     18,
+     26,
+     28,
+     30,
+     34
+    ]
+   },
+   {
+    "name": "增田顺一",
+    "slug": "masuda-junichi",
+    "role": "mentioned",
+    "seg": []
+   }
   ],
-  "relations": [
-    {
-      "id": "interview-otonafami-sugimori-starters-victini",
-      "kind": "background",
-      "label": "为这篇提供背景",
-      "title": "杉森建谈宝可梦设计",
-      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-otonafami-sugimori-starters-victini/",
-      "why": "杉森建谈156只全新宝可梦的立项背景"
-    }
+  "places": [
+   {
+    "name": "多摩动物园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     42
+    ],
+    "what": "团队观察动物的动物园",
+    "via": "llm"
+   },
+   {
+    "name": "冬宫博物馆",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     34
+    ],
+    "what": "田上玲子比喻的形象来源",
+    "via": "llm"
+   }
   ],
-  "sources": {
-    "pokemon_names": "2026-09-23",
-    "tour_places": "2026-09-23",
-    "model": "deepseek-chat",
-    "relations_model": "deepseek-chat",
-    "concepts": "2026-09-26",
-    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  "concepts": [
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     0,
+     13,
+     18
+    ],
+    "as": [
+     "生态",
+     "昆虫"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pixel-art",
+    "name": "像素画",
+    "facet": "tech",
+    "seg": [
+     2
+    ],
+    "as": [
+     "点阵图"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "pokemon-design",
+    "name": "宝可梦设计",
+    "facet": "design",
+    "seg": [
+     2,
+     3,
+     17,
+     41
+    ],
+    "as": [
+     "宝可梦的设计",
+     "设计宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "iteration",
+    "name": "推翻重做",
+    "facet": "process",
+    "seg": [
+     4,
+     13,
+     14
+    ],
+    "as": [
+     "从零开始"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [
+     9
+    ],
+    "as": [
+     "新人"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "type-matchup",
+    "name": "属性相性",
+    "facet": "design",
+    "seg": [
+     19,
+     27,
+     32,
+     35,
+     36,
+     48
+    ],
+    "as": [
+     "水属性",
+     "草属性",
+     "火属性"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
+    "seg": [
+     37
+    ],
+    "as": [
+     "进化形态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     42
+    ],
+    "as": [
+     "开发初期"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 10,
+   "text": "杉森建说共有17位设计师，每人设计约10只宝可梦。",
+   "anchor": 11
   },
-  "edited": true
+  {
+   "seg": 12,
+   "text": "大村祐介说设计工作大约从2008年春天开始。",
+   "anchor": 13
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-otonafami-sugimori-starters-victini",
+   "kind": "background",
+   "label": "为这篇提供背景",
+   "title": "杉森建谈宝可梦设计",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-otonafami-sugimori-starters-victini/",
+   "why": "杉森建谈156只全新宝可梦的立项背景"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+ },
+ "edited": true
 }

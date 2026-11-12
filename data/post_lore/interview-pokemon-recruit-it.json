@@ -1,156 +1,193 @@
 {
-  "id": "interview-pokemon-recruit-it",
-  "stem": "2023-11-20-interview-pokemon-recruit-it",
-  "rev": 1,
-  "built": "2026-09-25",
-  "kind": "interview",
-  "body": {
-    "kind": "segments",
-    "n": 20
-  },
-  "facets": {
-    "pokemon": [],
-    "works": [],
-    "people": [],
-    "places": [],
-    "concepts": [
-      {
-        "id": "accessibility",
-        "name": "无障碍",
-        "facet": "audience",
-        "seg": [
-          2
-        ],
-        "as": [
-          "无障碍"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "studio-culture",
-        "name": "公司氛围",
-        "facet": "team",
-        "seg": [
-          7
-        ],
-        "as": [
-          "社内"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "generations",
-        "name": "世代与代际",
-        "facet": "franchise",
-        "seg": [
-          12
-        ],
-        "as": [
-          "新世代"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "level-exp",
-        "name": "等级与经验",
-        "facet": "system",
-        "seg": [
-          12
-        ],
-        "as": [
-          "升级"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "online-service",
-        "name": "联网服务",
-        "facet": "tech",
-        "seg": [
-          12
-        ],
-        "as": [
-          "服务器"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "quality",
-        "name": "完成度与打磨",
-        "facet": "process",
-        "seg": [
-          14
-        ],
-        "as": [
-          "打磨"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "planning",
-        "name": "企划",
-        "facet": "process",
-        "seg": [
-          17
-        ],
-        "as": [
-          "提案"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "teamwork",
-        "name": "分工与协作",
-        "facet": "process",
-        "seg": [
-          17
-        ],
-        "as": [
-          "流水线"
-        ],
-        "via": "body"
-      },
-      {
-        "id": "recruiting",
-        "name": "招聘与新人",
-        "facet": "team",
-        "seg": [],
-        "as": [
-          "招聘"
-        ],
-        "via": "tag"
-      }
+ "id": "interview-pokemon-recruit-it",
+ "stem": "2023-11-20-interview-pokemon-recruit-it",
+ "rev": 1,
+ "built": "2026-09-25",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 20
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [],
+  "people": [
+   {
+    "name": "铃木",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     2,
+     4
     ]
-  },
-  "observations": [
-    {
-      "seg": 2,
-      "text": "铃木负责内部IT技术支持台，服务株式会社宝可梦及宝可梦中心全员",
-      "anchor": 5
-    },
-    {
-      "seg": 12,
-      "text": "中野介绍，建设新网站时会花约1至3个月确定服务器配置和规格。",
-      "anchor": 19
-    }
+   },
+   {
+    "name": "新井",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     7,
+     9
+    ]
+   },
+   {
+    "name": "中野",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     12,
+     14
+    ]
+   },
+   {
+    "name": "柴山",
+    "slug": null,
+    "role": "speaker",
+    "seg": [
+     17,
+     19
+    ]
+   }
   ],
-  "relations": [
-    {
-      "id": "interview-pokemon-recruit-data",
-      "kind": "continues",
-      "label": "同一系列的前后篇",
-      "title": "宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）",
-      "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-data/",
-      "why": "同为2023年宝可梦公司官方专访系列，分数据篇与IT篇"
-    }
-  ],
-  "sources": {
-    "pokemon_names": "2026-09-23",
-    "tour_places": "2026-09-23",
-    "model": "deepseek-chat",
-    "relations_model": "deepseek-chat",
-    "concepts": "2026-09-26",
-    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  "places": [],
+  "concepts": [
+   {
+    "id": "accessibility",
+    "name": "无障碍",
+    "facet": "audience",
+    "seg": [
+     2
+    ],
+    "as": [
+     "无障碍"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "studio-culture",
+    "name": "公司氛围",
+    "facet": "team",
+    "seg": [
+     7
+    ],
+    "as": [
+     "社内"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [
+     12
+    ],
+    "as": [
+     "新世代"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-exp",
+    "name": "等级与经验",
+    "facet": "system",
+    "seg": [
+     12
+    ],
+    "as": [
+     "升级"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "online-service",
+    "name": "联网服务",
+    "facet": "tech",
+    "seg": [
+     12
+    ],
+    "as": [
+     "服务器"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     14
+    ],
+    "as": [
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "planning",
+    "name": "企划",
+    "facet": "process",
+    "seg": [
+     17
+    ],
+    "as": [
+     "提案"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "teamwork",
+    "name": "分工与协作",
+    "facet": "process",
+    "seg": [
+     17
+    ],
+    "as": [
+     "流水线"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "recruiting",
+    "name": "招聘与新人",
+    "facet": "team",
+    "seg": [],
+    "as": [
+     "招聘"
+    ],
+    "via": "tag"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 2,
+   "text": "铃木负责内部IT技术支持台，服务株式会社宝可梦及宝可梦中心全员",
+   "anchor": 5
   },
-  "edited": true
+  {
+   "seg": 12,
+   "text": "中野介绍，建设新网站时会花约1至3个月确定服务器配置和规格。",
+   "anchor": 19
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-pokemon-recruit-data",
+   "kind": "continues",
+   "label": "同一系列的前后篇",
+   "title": "宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）",
+   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-data/",
+   "why": "同为2023年宝可梦公司官方专访系列，分数据篇与IT篇"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-09-23",
+  "tour_places": "2026-09-23",
+  "model": "deepseek-chat",
+  "relations_model": "deepseek-chat",
+  "concepts": "2026-09-26",
+  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+ },
+ "edited": true
 }
