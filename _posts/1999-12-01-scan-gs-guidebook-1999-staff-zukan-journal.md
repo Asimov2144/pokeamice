@@ -133,6 +133,7 @@ translation_segments:
       - 399
       - 459
       - 692
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -149,6 +150,7 @@ translation_segments:
       - 723
       - 486
       - 889
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -165,6 +167,7 @@ translation_segments:
       - 395
       - 850
       - 688
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -181,6 +184,7 @@ translation_segments:
       - 721
       - 880
       - 885
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -197,6 +201,7 @@ translation_segments:
       - 393
       - 1253
       - 686
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -213,6 +218,7 @@ translation_segments:
       - 719
       - 1282
       - 883
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -230,6 +236,7 @@ translation_segments:
       - 459
       - 1217
     comment: "ミカン为道馆馆主“阿蜜”；“ぷにちゃん”保留为原刊中的爱称。"
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -246,6 +253,7 @@ translation_segments:
       - 1249
       - 483
       - 1413
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -262,6 +270,7 @@ translation_segments:
       - 922
       - 853
       - 1212
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -278,6 +287,7 @@ translation_segments:
       - 1245
       - 880
       - 1409
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -294,6 +304,7 @@ translation_segments:
       - 920
       - 1253
       - 1210
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -310,6 +321,7 @@ translation_segments:
       - 1243
       - 1282
       - 1407
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -326,6 +338,7 @@ translation_segments:
       - 1448
       - 459
       - 1741
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -342,6 +355,7 @@ translation_segments:
       - 1772
       - 483
       - 1935
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -358,6 +372,7 @@ translation_segments:
       - 1444
       - 853
       - 1737
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -374,6 +389,7 @@ translation_segments:
       - 1767
       - 880
       - 1931
+    reading_page: 1
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -390,6 +406,7 @@ translation_segments:
       - 1442
       - 1253
       - 1735
+    reading_page: 1
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -406,6 +423,7 @@ translation_segments:
       - 1765
       - 1282
       - 1929
+    reading_page: 1
     writing_direction: horizontal
   - speaker: image
     type: image

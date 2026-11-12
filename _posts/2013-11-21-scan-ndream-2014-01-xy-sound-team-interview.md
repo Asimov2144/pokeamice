@@ -3630,6 +3630,7 @@ translation_segments:
         - 1413
         - 1128
         - 1479
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -3646,6 +3647,7 @@ translation_segments:
       - 1419
       - 397
       - 1479
+    reading_page: 7
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -3662,6 +3664,7 @@ translation_segments:
       - 1485
       - 397
       - 1530
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -3678,6 +3681,7 @@ translation_segments:
       - 1536
       - 397
       - 1702
+    reading_page: 7
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -3705,6 +3709,7 @@ translation_segments:
         - 1485
         - 547
         - 1507
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 佐藤仁美
     type: paragraph
@@ -3721,6 +3726,7 @@ translation_segments:
       - 1513
       - 767
       - 1634
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -3737,6 +3743,7 @@ translation_segments:
       - 1640
       - 767
       - 1686
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 佐藤仁美
     type: paragraph
@@ -3753,6 +3760,7 @@ translation_segments:
       - 1692
       - 767
       - 1751
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -3780,6 +3788,7 @@ translation_segments:
         - 1419
         - 1139
         - 1599
+    reading_page: 7
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -3796,6 +3805,7 @@ translation_segments:
       - 1606
       - 1094
       - 1628
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 佐藤仁美
     type: paragraph
@@ -3812,6 +3822,7 @@ translation_segments:
       - 1634
       - 1139
       - 1679
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -3828,6 +3839,7 @@ translation_segments:
       - 1686
       - 1139
       - 1731
+    reading_page: 7
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -3844,6 +3856,7 @@ translation_segments:
       - 1737
       - 1139
       - 1796
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 佐藤仁美
     type: paragraph
@@ -3860,6 +3873,7 @@ translation_segments:
       - 1802
       - 1139
       - 1878
+    reading_page: 7
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -3876,6 +3890,7 @@ translation_segments:
       - 1419
       - 1336
       - 1464
+    reading_page: 7
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -3892,6 +3907,7 @@ translation_segments:
       - 1470
       - 1511
       - 1878
+    reading_page: 7
     writing_direction: horizontal
   - speaker: image
     type: image

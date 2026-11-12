@@ -1323,6 +1323,7 @@ translation_segments:
       - 680
       - 408
       - 1044
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1350,6 +1351,7 @@ translation_segments:
         - 1225
         - 631
         - 1278
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1366,6 +1368,7 @@ translation_segments:
       - 1065
       - 898
       - 1090
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1382,6 +1385,7 @@ translation_segments:
       - 1065
       - 1535
       - 1114
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ""
     type: heading
@@ -1399,6 +1403,7 @@ translation_segments:
       - 1315
       - 747
       - 1438
+    reading_page: 3
     writing_direction: horizontal
   - speaker: note
     type: paragraph
@@ -1415,6 +1420,7 @@ translation_segments:
       - 1450
       - 317
       - 1524
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -1431,6 +1437,7 @@ translation_segments:
       - 1536
       - 424
       - 1778
+    reading_page: 3
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -1447,6 +1454,7 @@ translation_segments:
       - 1782
       - 424
       - 1962
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -1463,6 +1471,7 @@ translation_segments:
       - 1450
       - 794
       - 1548
+    reading_page: 3
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -1479,6 +1488,7 @@ translation_segments:
       - 1552
       - 794
       - 1778
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -1495,6 +1505,7 @@ translation_segments:
       - 1683
       - 961
       - 1708
+    reading_page: 3
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -1511,6 +1522,7 @@ translation_segments:
       - 1712
       - 1168
       - 1892
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -1527,6 +1539,7 @@ translation_segments:
       - 1896
       - 1039
       - 1921
+    reading_page: 3
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -1554,6 +1567,7 @@ translation_segments:
         - 1683
         - 1535
         - 1864
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -1570,6 +1584,7 @@ translation_segments:
       - 1868
       - 1535
       - 1917
+    reading_page: 3
     writing_direction: horizontal
   - speaker: 景山将太
     type: paragraph
@@ -1586,6 +1601,7 @@ translation_segments:
       - 1921
       - 1535
       - 1962
+    reading_page: 3
     writing_direction: horizontal
   - speaker: "景山将太"
     type: paragraph
@@ -1683,6 +1699,7 @@ translation_segments:
       - 1315
       - 1294
       - 1401
+    reading_page: 3
     writing_direction: horizontal
   - speaker: body
     type: paragraph
@@ -1699,6 +1716,7 @@ translation_segments:
       - 1405
       - 1168
       - 1606
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1715,6 +1733,7 @@ translation_segments:
       - 1315
       - 1535
       - 1389
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1731,6 +1750,7 @@ translation_segments:
       - 1556
       - 1325
       - 1606
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1758,6 +1778,7 @@ translation_segments:
         - 1585
         - 1473
         - 1606
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1785,6 +1806,7 @@ translation_segments:
         - 1778
         - 794
         - 1982
+    reading_page: 3
     writing_direction: horizontal
   - speaker: image
     type: image

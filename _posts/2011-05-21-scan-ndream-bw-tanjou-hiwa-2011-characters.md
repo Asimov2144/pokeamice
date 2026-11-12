@@ -170,6 +170,7 @@ translation_segments:
       - 1561
       - 1145
       - 1612
+    reading_page: 1
     writing_direction: horizontal
   - speaker: 大村祐介
     type: paragraph
@@ -186,6 +187,7 @@ translation_segments:
       - 1575
       - 812
       - 1888
+    reading_page: 1
     writing_direction: horizontal
   - speaker: "大村祐介"
     type: paragraph
@@ -202,6 +204,7 @@ translation_segments:
       - 1630
       - 1217
       - 1888
+    reading_page: 1
     writing_direction: horizontal
   - speaker: image
     type: image

@@ -139,6 +139,14 @@ class OldScanAudit(unittest.TestCase):
                 checked += 1
         self.assertEqual(checked, 66)
 
+    def test_web_page_groups_preserve_reviewed_reading_order(self):
+        for stem, fm in self.posts.items():
+            text_rows = [r for r in fm["translation_segments"] if r.get("original") or r.get("translation")]
+            grouped = [r for page in fm["scan_page_order"] for r in text_rows
+                       if r.get("reading_page", r["scan_page"]) == page]
+            with self.subTest(stem=stem):
+                self.assertEqual([r["region_id"] for r in grouped], [r["region_id"] for r in text_rows])
+
     def test_lore_indices_and_named_pokemon(self):
         for stem, fm in self.posts.items():
             rows = archive.normalize_scan(fm["translation_segments"], {}, preserve_order=True)

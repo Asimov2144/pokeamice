@@ -2523,6 +2523,7 @@ translation_segments:
       - 401
       - 290
       - 795
+    reading_page: 6
     writing_direction: vertical
   - speaker: ""
     type: heading
@@ -2540,6 +2541,7 @@ translation_segments:
       - 1368
       - 377
       - 1438
+    reading_page: 6
     writing_direction: horizontal
   - speaker: 中津井优
     type: paragraph
@@ -2556,6 +2558,7 @@ translation_segments:
       - 1448
       - 428
       - 1663
+    reading_page: 6
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -2572,6 +2575,7 @@ translation_segments:
       - 1671
       - 428
       - 1733
+    reading_page: 6
     writing_direction: horizontal
   - speaker: 杉森建
     type: paragraph
@@ -2588,6 +2592,7 @@ translation_segments:
       - 1741
       - 428
       - 1886
+    reading_page: 6
     writing_direction: horizontal
   - speaker: 中津井优
     type: paragraph
@@ -2615,6 +2620,7 @@ translation_segments:
         - 1362
         - 800
         - 1513
+    reading_page: 6
     writing_direction: horizontal
   - speaker: ──
     type: paragraph
@@ -2631,6 +2637,7 @@ translation_segments:
       - 1522
       - 800
       - 1614
+    reading_page: 6
     writing_direction: horizontal
   - speaker: 大村祐介
     type: paragraph
@@ -2647,6 +2654,7 @@ translation_segments:
       - 1622
       - 800
       - 1745
+    reading_page: 6
     writing_direction: horizontal
   - speaker: 杉森建
     type: paragraph
@@ -2663,6 +2671,7 @@ translation_segments:
       - 1753
       - 800
       - 1913
+    reading_page: 6
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -2679,6 +2688,7 @@ translation_segments:
       - 741
       - 869
       - 1118
+    reading_page: 6
     writing_direction: vertical
   - speaker: caption
     type: paragraph
@@ -2695,6 +2705,7 @@ translation_segments:
       - 1810
       - 1217
       - 1925
+    reading_page: 6
     writing_direction: horizontal
   - speaker: image
     type: image

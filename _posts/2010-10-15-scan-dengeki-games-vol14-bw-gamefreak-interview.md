@@ -955,6 +955,7 @@ translation_segments:
       - 109
       - 1450
       - 434
+    reading_page: 3
     writing_direction: vertical
   - speaker: 杉森建
     type: paragraph
@@ -983,6 +984,7 @@ translation_segments:
         - 109
         - 1404
         - 434
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -999,6 +1001,7 @@ translation_segments:
       - 109
       - 1223
       - 434
+    reading_page: 3
     writing_direction: vertical
   - speaker: 增田顺一
     type: paragraph
@@ -1046,6 +1049,7 @@ translation_segments:
         - 109
         - 961
         - 434
+    reading_page: 3
     writing_direction: vertical
   - speaker: caption
     type: paragraph
@@ -1062,6 +1066,7 @@ translation_segments:
       - 109
       - 524
       - 160
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1078,6 +1083,7 @@ translation_segments:
       - 195
       - 393
       - 246
+    reading_page: 3
     writing_direction: horizontal
   - speaker: caption
     type: paragraph
@@ -1094,6 +1100,7 @@ translation_segments:
       - 362
       - 688
       - 420
+    reading_page: 3
     writing_direction: horizontal
   - speaker: 杉森建
     type: paragraph
@@ -1141,6 +1148,7 @@ translation_segments:
         - 375
         - 285
         - 434
+    reading_page: 3
     writing_direction: vertical
   - speaker: ""
     type: heading
@@ -1158,6 +1166,7 @@ translation_segments:
       - 487
       - 1398
       - 938
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1174,6 +1183,7 @@ translation_segments:
       - 487
       - 1236
       - 731
+    reading_page: 3
     writing_direction: vertical
   - speaker: 增田顺一
     type: paragraph
@@ -1201,6 +1211,7 @@ translation_segments:
         - 487
         - 1190
         - 854
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1217,6 +1228,7 @@ translation_segments:
       - 487
       - 1054
       - 793
+    reading_page: 3
     writing_direction: vertical
   - speaker: 增田顺一
     type: paragraph
@@ -1259,6 +1271,7 @@ translation_segments:
         - 487
         - 1008
         - 854
+    reading_page: 3
     writing_direction: vertical
   - speaker: note
     type: paragraph
@@ -1275,6 +1288,7 @@ translation_segments:
       - 508
       - 729
       - 895
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1291,6 +1305,7 @@ translation_segments:
       - 487
       - 637
       - 854
+    reading_page: 3
     writing_direction: vertical
   - speaker: 太田哲司
     type: paragraph
@@ -1318,6 +1333,7 @@ translation_segments:
         - 487
         - 590
         - 854
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1334,6 +1350,7 @@ translation_segments:
       - 487
       - 455
       - 854
+    reading_page: 3
     writing_direction: vertical
   - speaker: 大森滋
     type: paragraph
@@ -1381,6 +1398,7 @@ translation_segments:
         - 487
         - 330
         - 854
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1397,6 +1415,7 @@ translation_segments:
       - 874
       - 1450
       - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 水口舞
     type: paragraph
@@ -1429,6 +1448,7 @@ translation_segments:
         - 874
         - 1404
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 杉森建
     type: paragraph
@@ -1445,6 +1465,7 @@ translation_segments:
       - 874
       - 1223
       - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1472,6 +1493,7 @@ translation_segments:
         - 874
         - 1176
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 杉森建
     type: paragraph
@@ -1499,6 +1521,7 @@ translation_segments:
         - 874
         - 1086
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1526,6 +1549,7 @@ translation_segments:
         - 874
         - 994
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 增田顺一
     type: paragraph
@@ -1558,6 +1582,7 @@ translation_segments:
         - 874
         - 902
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1574,6 +1599,7 @@ translation_segments:
       - 874
       - 721
       - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 增田顺一
     type: paragraph
@@ -1606,6 +1632,7 @@ translation_segments:
         - 874
         - 675
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: ──
     type: paragraph
@@ -1633,6 +1660,7 @@ translation_segments:
         - 874
         - 538
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 太田哲司
     type: paragraph
@@ -1665,6 +1693,7 @@ translation_segments:
         - 874
         - 447
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: 增田顺一
     type: paragraph
@@ -1712,6 +1741,7 @@ translation_segments:
         - 874
         - 285
         - 1180
+    reading_page: 3
     writing_direction: vertical
   - speaker: ""
     type: heading
@@ -1729,6 +1759,7 @@ translation_segments:
       - 1352
       - 1402
       - 1739
+    reading_page: 3
     writing_direction: vertical
   - speaker: body
     type: paragraph
@@ -1761,6 +1792,7 @@ translation_segments:
         - 1229
         - 1310
         - 1534
+    reading_page: 3
     writing_direction: vertical
   - speaker: ""
     type: heading
@@ -1778,6 +1810,7 @@ translation_segments:
       - 1229
       - 1146
       - 1473
+    reading_page: 3
     writing_direction: vertical
   - speaker: body
     type: paragraph
@@ -1815,6 +1848,7 @@ translation_segments:
         - 1229
         - 1084
         - 1534
+    reading_page: 3
     writing_direction: vertical
   - speaker: caption
     type: paragraph
@@ -1831,6 +1865,7 @@ translation_segments:
       - 1495
       - 1084
       - 1552
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ""
     type: heading
@@ -1848,6 +1883,7 @@ translation_segments:
       - 1616
       - 1146
       - 1860
+    reading_page: 3
     writing_direction: vertical
   - speaker: body
     type: paragraph
@@ -1885,6 +1921,7 @@ translation_segments:
         - 1616
         - 1084
         - 1921
+    reading_page: 3
     writing_direction: vertical
   - speaker: caption
     type: paragraph
@@ -1901,6 +1938,7 @@ translation_segments:
       - 1886
       - 1084
       - 1944
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ""
     type: heading
@@ -1918,6 +1956,7 @@ translation_segments:
       - 1229
       - 562
       - 1473
+    reading_page: 3
     writing_direction: vertical
   - speaker: body
     type: paragraph
@@ -1950,6 +1989,7 @@ translation_segments:
         - 1229
         - 500
         - 1534
+    reading_page: 3
     writing_direction: vertical
   - speaker: caption
     type: paragraph
@@ -1966,6 +2006,7 @@ translation_segments:
       - 1495
       - 500
       - 1552
+    reading_page: 3
     writing_direction: horizontal
   - speaker: ""
     type: heading
@@ -1983,6 +2024,7 @@ translation_segments:
       - 1616
       - 562
       - 1860
+    reading_page: 3
     writing_direction: vertical
   - speaker: body
     type: paragraph
@@ -2015,6 +2057,7 @@ translation_segments:
         - 1616
         - 500
         - 1921
+    reading_page: 3
     writing_direction: vertical
   - speaker: caption
     type: paragraph
@@ -2031,6 +2074,7 @@ translation_segments:
       - 1886
       - 500
       - 1944
+    reading_page: 3
     writing_direction: horizontal
   - speaker: image
     type: image

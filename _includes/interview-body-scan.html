@@ -133,12 +133,16 @@ shown and the text reads as it always did.
         </header>
         {%- comment -%} a cover or a contents page: the picture is the record, there is no text to set {%- endcomment -%}
         {% assign has_text = false %}
-        {% for s in segs %}{% assign sp = s.scan_page | default: 0 %}{% if sp == idx and s.image == nil %}{% assign has_text = true %}{% break %}{% endif %}{% endfor %}
+        {% for s in segs %}{% assign display_sp = s.reading_page | default: s.scan_page | default: 0 %}{% if display_sp == idx and s.image == nil %}{% assign has_text = true %}{% break %}{% endif %}{% endfor %}
         {% unless has_text %}<p class="sc-page__empty">这一页只有页图——封面、目次或整版图片，见页图。</p>{% endunless %}
         {% for s in segs %}
           {% assign seg_n = forloop.index %}
           {% assign sp = s.scan_page | default: 0 %}
-          {% if sp != idx %}{% continue %}{% endif %}
+          {%- comment -%}A reviewed cross-page passage may belong to a different
+          reading block. Keep scan_page for the original image and highlight;
+          reading_page only chooses where its text appears in the reader.{%- endcomment -%}
+          {% assign display_sp = s.reading_page | default: sp %}
+          {% if display_sp != idx %}{% continue %}{% endif %}
           {% assign kind = s.region_type | default: s.speaker | default: "body" %}
           {%- comment -%}
             Who is speaking, if anyone. The first pipeline wrote the region
