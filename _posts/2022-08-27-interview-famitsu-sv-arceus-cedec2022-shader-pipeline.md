@@ -34,21 +34,21 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 2022年8月23日～25日の期間に開催された、日本最大のコンピュータエンターテインメント開発者向けカンファレンス“CEDEC 2022”。本稿では、8月25日に行われたセッション“【アルセウス＋スカーレット・バイオレット】ポケモン2つを同時に作る、ポケモンモデル制作環境”の模様をお届け。
-  translation: 2022年8月23日至25日期间，日本最大的计算机娱乐开发者会议“CEDEC 2022”盛大召开。本文将为您报道8月25日举行的会议“【阿尔宙斯＋朱紫】同时制作两款宝可梦作品的宝可梦模型制作环境”的盛况。
+  translation: 日本规模最大的计算机娱乐开发者大会 CEDEC 2022 于8月23日至25日举行。本文介绍8月25日的讲演“【阿尔宙斯＋朱／紫】同时开发两款宝可梦游戏：宝可梦模型的制作环境”。
   role: commentary
 - type: heading
   level: 2
   original: 1年で2タイトルを制作するため、1000種類以上のポケモンモデルを共通化
-  translation: 为在一年内制作两款作品，将1000种以上的宝可梦模型共通化
+  translation: 为在一年内制作两款游戏，让一千多种宝可梦模型能够共用
 - type: paragraph
   speaker: 原文作者
   original: セッションではまず、ポケモンのモデルの制作体制について紹介。前澤氏の所属するR＆D（研究開発部）では、ゲームエンジンやグラフィックの表現を実現するためのシステムを開発し、各タイトルの開発チームに提供する。その際、ゲームフリーク内部や外部の協力会社にある納品チームのチェックが行われている。
-  translation: 会议伊始，首先介绍了宝可梦模型的制作体制。前泽先生所属的R&D（研究开发部）负责开发实现游戏引擎及图形表现的系统，并提供给各作品的开发团队。在此过程中，会由GAME FREAK内部及外部合作公司的交付团队进行检查。
+  translation: 讲演首先介绍了宝可梦模型的制作体制。前泽所在的研发部（R&D）负责开发游戏引擎、图形表现等所需的系统，提供给各作品的开发团队。在这一流程中，GAME FREAK 内部及外部合作公司的素材交付团队也会进行检查。
   role: commentary
 - type: paragraph
   speaker: 原文作者
   original: なお、R＆Dにはグラフィック、アニメーション関係のエンジニアが集約している。
-  translation: 此外，R&D汇集了图形、动画相关的工程师。
+  translation: 图形和动画方面的工程师也集中在研发部。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/001.jpg
@@ -58,12 +58,12 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 本セッションでは、『ポケットモンスター』シリーズを開発するゲームフリークの研究開発部 CGテクノロジーディレクターの前澤圭一氏が登壇。
-  translation: 本次会议中，开发《宝可梦》系列的GAME FREAK研究开发部CG技术总监前泽圭一先生登台演讲。
+  translation: 主讲人是《宝可梦》系列开发商 GAME FREAK 研发部的 CG 技术总监前泽圭一。
   role: commentary
 - type: paragraph
   speaker: 原文作者
   original: 2022年1月28日に発売された『Pokémon LEGENDS アルセウス』（以下、『アルセウス』）と、同じく2022年11月18日に発売予定の『ポケットモンスター スカーレット・バイオレット』（以下、『スカーレット・バイオレット』）、ゲーム性も見た目の方向性も異なるふたつのタイトルを同時に開発するにあたって行った“環境・フローの見直し”について解説された。
-  translation: 演讲针对2022年1月28日发售的《宝可梦传说 阿尔宙斯》（以下简称《阿尔宙斯》）与同样计划于2022年11月18日发售的《宝可梦 朱·紫》（以下简称《朱·紫》）这两款游戏性及视觉方向性各异的作品，讲解了同时开发时进行的“环境与流程的重新审视”。
+  translation: 《宝可梦传说 阿尔宙斯》（以下简称《阿尔宙斯》）已于2022年1月28日发售，《宝可梦 朱／紫》（以下简称《朱／紫》）则计划于同年11月18日发售。为了同时开发这两款玩法和视觉风格各不相同的作品，团队重新调整了制作环境与流程，本次讲演介绍的就是这些调整。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/002.jpg
@@ -71,7 +71,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 『ポケットモンスター ソード・シールド』（以下、『ソード・シールド』）までは、各タイトルごとの仕様・環境に合わせて、「どのような要素が必要か」、「どのような表現をするのか」という点をもとにシステムを開発し、提供していたという。
-  translation: 据称，在《宝可梦 剑·盾》（以下简称《剑·盾》）之前，都是根据各作品的规格与环境，基于“需要哪些要素”、“要做出怎样的表现”来开发并提供系统。
+  translation: 截至《宝可梦 剑／盾》（以下简称《剑／盾》），团队一直根据每款作品各自的规格和制作环境，先确定需要哪些要素、希望实现怎样的表现，再开发并提供相应的系统。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/003.jpg
@@ -79,7 +79,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: しかし、初代の『ポケットモンスター 赤・緑』から近年の『ソード・シールド』までのポケモンモデルの総数は1000種類を超えている。これを各タイトルごとに仕様から練り直して揃えていくのは、そろそろ厳しいものがあったという。それは、2018年ごろから感じていたそうだ。
-  translation: 然而，从初代《宝可梦 红·绿》到近年《剑·盾》的宝可梦模型总数已超过1000种。若每个作品都从规格开始重新梳理并备齐这些模型，已经逐渐变得困难。据说这种感觉从2018年左右就开始出现了。
+  translation: 然而，涵盖初代《宝可梦 红／绿》至《剑／盾》的宝可梦模型，已经超过一千种。如果每开发一款游戏，都重新考虑规格、准备整套模型，工作就越来越难以完成。据介绍，团队从2018年前后便开始感受到这一问题。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/004.jpg
@@ -87,7 +87,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 1タイトルでも厳しいというときに、版画テイストでアクション寄りの『アルセウス』と、リアルテイストでオープンワールド調の『スカーレット・バイオレット』、ルックの異なる2タイトルを同時制作するのは限界がある。そのため、環境・フローの見直しが行われた。
-  translation: 在单个作品都已感到吃力的情况下，同时制作版画风格偏动作的《阿尔宙斯》与写实风格开放世界调的《朱·紫》这两款视觉风格迥异的作品，更是极限。因此，进行了环境与流程的重新审视。
+  translation: 仅制作一款游戏就已吃力，还要同时开发两款风格迥异的作品，原有做法便难以为继：《阿尔宙斯》采用版画风格，玩法偏向动作；《朱／紫》则更写实，采用开放世界的形式。为此，团队重新调整了制作环境与流程。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/005.jpg
@@ -95,11 +95,11 @@ parallel_items:
 - type: heading
   level: 2
   original: 共通の環境・仕様を提供し、後工程でタイトルに合ったポケモンモデルに
-  translation: 提供共通的环境与规格，在后工序中调整为符合作品的宝可梦模型
+  translation: 统一制作环境与规格，再由各作品团队进行后续调整
 - type: paragraph
   speaker: 原文作者
   original: 環境・フローの見直しとして最初に行われたのは“納品仕様の共通化”。これまで各タイトルごとに環境・仕様を制作してきたところの共通化を図った。この共通環境・仕様に則り、アセット制作・納品の工程を経てそれぞれのタイトル開発チームへ提供を行う。納品時には、標準マテリアル・基本骨格が設定されたものが引き渡され、各チームの後工程でタイトルごとに調整される。
-  translation: 作为环境与流程重新审视的第一步，是“交付规格的共通化”。此前各作品分别制作的环境与规格被统一化。遵循这一共通环境与规格，经过资产制作与交付的工序，提供给各作品的开发团队。交付时，会移交设定了标准材质与基本骨骼的模型，再由各团队在后工序中根据作品进行调整。
+  translation: 第一步是统一素材的交付规范。过去各作品使用不同的环境与规格，现在改为共用一套标准。美术素材按照这套标准制作、交付，再提供给各作品的开发团队。交付时，模型已经设好标准材质和基础骨骼，之后由各团队根据作品需求进一步调整。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/006.jpg
@@ -122,7 +122,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 検品は、自動チェックと目視チェックによって、見た目や負荷に問題がないかをチェック。負荷については、首の付け根や耳の付け根などはポリゴンが重なり負荷が大きくなりやすいので、軽くするために削減しているという。
-  translation: 检查通过自动检查与目视检查，确认外观及负荷是否存在问题。关于负荷，颈部根部、耳根等部位多边形容易重叠导致负荷增大，因此进行了削减以减轻负担。
+  translation: 检查分为自动检查和人工目视检查，用来确认模型外观及性能开销是否存在问题。例如，颈部、耳根等位置的多边形容易重叠，增加性能负担，因此会适当减少这些部位的多边形数量。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/009.jpg
@@ -133,7 +133,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 続く後工程では、ポケモンのモデルに細かい調整が実施されるが、すべてのポケモンに一括して設定するものと、各ポケモンに個別で調整するものがある。たとえば『アルセウス』でいうと、後光の出かたや食事の際の食べ物の位置、ZLボタンを押して注目したときにどこを向くか、といったところはゲームのルールに紐づいているため、タイトル側で設定する。
-  translation: 在接下来的后工序中，会对宝可梦模型进行细致调整，其中既有对所有宝可梦统一设定的内容，也有针对各宝可梦个别调整的内容。例如在《阿尔宙斯》中，背光的表现方式、进食时食物的位置、按下ZL键锁定目标时朝向何处等，这些都与游戏规则相关联，因此由作品侧进行设定。
+  translation: 在后续制作阶段，团队会继续微调宝可梦模型。有些设定会统一应用到所有宝可梦，也有些需要逐只调整。例如在《阿尔宙斯》中，宝可梦周围光芒的表现、进食时食物摆放的位置，以及按下ZL键注视时的朝向，都与具体的游戏规则有关，因此由该作品的开发团队设定。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/011.jpg
@@ -141,7 +141,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: そのほかには、IK（インバース・キネマティクス）や視線制御などの動的処理もタイトル依存のものとして後付けしていく。
-  translation: 除此之外，IK（反向运动学）及视线控制等动态处理也作为作品依赖的内容进行追加。
+  translation: IK（反向运动学）、视线控制等动态处理，也会根据各作品的需要，在后续阶段加入。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/012.jpg
@@ -149,11 +149,11 @@ parallel_items:
 - type: heading
   level: 2
   original: 各タイトルの世界観に合ったグラフィックに調整。『スカーレット・バイオレット』のピカチュウは“『ポケモン』史上最高のふさふさ感”を表現
-  translation: 调整为符合各作品世界观的图形。《朱·紫》的皮卡丘表现出“《宝可梦》史上最强的毛茸茸感”
+  translation: 让画面适应各作品的世界观：《朱／紫》的皮卡丘呈现系列最蓬松的毛发质感
 - type: paragraph
   speaker: 原文作者
   original: 環境・フローの見直しとして、グラフィックスライブラリも一新。各タイトルの後工程によってルックの後付けなど加工を行い、グラフィックのさらなるクオリティーアップも図れるようになった。
-  translation: 作为环境与流程重新审视的一环，图形库也焕然一新。通过各作品的后工序进行视觉风格的追加与加工，得以进一步追求图形品质的提升。
+  translation: 作为此次流程调整的一部分，团队还更新了图形库。各作品可以在后续制作阶段添加、调整自己的视觉风格，进一步提升画面品质。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/013.jpg
@@ -167,7 +167,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 以下の画像では、左が納品環境のピカチュウで右は『アルセウス』のピカチュウ。納品データは共通のものだが、人物や背景などはタイトルに合わせて制作されているため、その間のイメージの差を埋めるべく、色合わせや質感の調整などが行われる。
-  translation: 在下图中，左侧为交付环境的皮卡丘，右侧为《阿尔宙斯》的皮卡丘。交付数据是共通的，但人物与背景等是符合作品制作的，因此为了弥补两者之间的印象差异，进行了色彩匹配与质感调整等。
+  translation: 下图左侧是交付环境中的皮卡丘，右侧是《阿尔宙斯》中的皮卡丘。虽然交付的基础数据相同，但人物和背景会按照各作品的风格制作，因此需要调整配色和材质质感，让宝可梦与周围画面协调一致。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/016.jpg
@@ -188,7 +188,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 各タイトルのコンセプトにあったグラフィックにするため、『アルセウス』では版画風のニュアンスを追加。また、空や水などをコンセプトに合わせた景観表現を行ったり、色調補正を行って淡い色調に加工したりしている。
-  translation: 为了呈现符合各作品概念的图形效果，《传说 阿尔宙斯》中加入了版画风格的韵味。此外，还根据概念对天空、水面等进行了景观表现，并通过色彩校正处理成淡雅的色调。
+  translation: 为了配合作品的视觉概念，《阿尔宙斯》加入了版画般的质感。天空、水面等景观也按照这一方向制作，并通过色调校正，形成较为淡雅的色彩。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/020.jpg
@@ -205,7 +205,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: セッションでは、『スカーレット・バイオレット』における後工程での調整についても紹介。たとえば、ピカチュウは“『ポケモン』史上最高のふさふさ感”を表現。新ポケモン・クワッサのジェル部位、ミライドンの発光粒子、新要素“テラスタル”の質感も演出。そのほか、空・海・街並みもリアル寄りの表現となっている。
-  translation: 在本次会议中，还介绍了《朱／紫》在后处理阶段的调整。例如，皮卡丘展现了“宝可梦史上最蓬松的质感”。新宝可梦润水鸭的凝胶部位、密勒顿的发光粒子、新要素“太晶化”的质感也进行了演绎。除此之外，天空、海洋、街景也采用了偏向写实的表现。
+  translation: 讲演还介绍了《朱／紫》在后续制作阶段的调整。比如，皮卡丘呈现出“《宝可梦》系列至今最蓬松的毛发质感”；润水鸭的凝胶状部位、密勒顿的发光粒子，以及新要素“太晶化”的质感，也都有相应的表现。天空、海洋和街景则采用了更偏写实的风格。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/024.jpg
@@ -225,16 +225,16 @@ parallel_items:
 - type: heading
   level: 2
   original: ポケモンたちの膨大なアニメーションは、“モーションコピーツール”で共通化。ときにはモーションキャプチャーも活用
-  translation: 宝可梦们庞大的动画通过“动作复制工具”实现共通化，有时也会活用动作捕捉
+  translation: 用“动作复制工具”共用大量动画，也会采用动作捕捉
 - type: paragraph
   speaker: 原文作者
   original: 『ポケモン』作品において、各ポケモンの特徴にあった動きというのも重要だが、それをひとつずつアニメーションで制作するとなると、膨大な物量となってくる。一方で、体形の似たポケモンも複数存在している。
-  translation: 在《宝可梦》作品中，符合每只宝可梦特征的动作固然重要，但如果逐一制作动画，工作量将极为庞大。另一方面，也存在多只体型相似的宝可梦。
+  translation: 让每只宝可梦的动作符合自身特点很重要，但如果逐只制作所有动画，工作量会非常庞大。而宝可梦之中，也有不少体形相似的种类。
   role: commentary
 - type: paragraph
   speaker: 原文作者
   original: であれば、「ベースとなる動きを共通化してから個性付けをしていけば開発の労力が減るのではないか？」という考えが生まれた。これをきっかけに、アニメーションの物量対策を実施することになる。
-  translation: 于是便产生了“如果先将基础动作共通化，再进行个性化调整，是否能减少开发工时？”的想法。以此为契机，开始实施针对动画工作量的对策。
+  translation: 于是团队想到，能不能先共用一套基础动作，再加入各自的特点，以减少开发工作？动画制作流程的调整就从这里开始。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/029.jpg
@@ -248,7 +248,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: まずはポケモンを人型、犬猫型、ヘビ型、ドラゴン型などで体型を分類。そこからモーションを共通化するための“モーションコピーツール”が開発された。
-  translation: 首先将宝可梦按人型、犬猫型、蛇型、龙型等体型进行分类。在此基础上，开发了用于共通化动作的“动作复制工具”。
+  translation: 团队先按照体形，把宝可梦分为人形、犬猫形、蛇形、龙形等类别，再开发“动作复制工具”，让它们能够共用动作。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/032.jpg
@@ -256,7 +256,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: “モーションコピーツール”では、基本的に骨と骨をマッピングして同じ部位に該当するものをコピー。大きさが違う場合にも補正をかけてコピーが可能。骨構造が異なる場合でも、手が2本、足が2本と構造が似ていれば、リターゲットによって対応できる。
-  translation: “动作复制工具”基本上是通过骨骼与骨骼的映射，将对应相同部位的部分进行复制。即使大小不同，也能通过校正进行复制。即便骨骼结构不同，只要手2条、腿2条等结构相似，就能通过重定向来应对。
+  translation: “动作复制工具”会先建立骨骼之间的对应关系，再复制相应部位的动作。即使体形大小不同，也可以先校正再复制。即便骨骼结构不完全相同，只要都具有两条手臂、两条腿等相似结构，也能通过动画重定向来处理。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/033.jpg
@@ -280,7 +280,7 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: コピーのもととなるポケモンがいない場合には、ゲームフリーク内部のモーションキャプチャーを導入。撮影したデータをそのままポケモンに流しこむことでイメージをつかむことができ、大幅な工数削減ができるそうだ。
-  translation: 当没有可作为复制来源的宝可梦时，则引入GAME FREAK内部的动作捕捉。将拍摄的数据直接导入宝可梦，即可掌握动作意象，据说能大幅削减工时。
+  translation: 如果没有合适的宝可梦可以作为动作来源，团队就会使用 GAME FREAK 内部的动作捕捉设备。把捕捉到的数据导入宝可梦模型，便能快速确认动作的大致效果，据介绍，这可以大幅减少制作工时。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/038.jpg
@@ -291,15 +291,18 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 一方、課題として、リガ―（※）が不足していることが挙げられるという。これについては、“ポケリグ”を開発して構造の標準化を行うことで、アニメーション制作の効率化を図ることができたそうだ。
-  translation: 另一方面，据说课题在于绑定师（※）不足。对此，通过开发“宝可梦绑定”并推进结构标准化，实现了动画制作的效率化。
+  translation: 另一个问题是骨骼绑定师【※】人手不足。对此，团队开发了名为“ポケリグ”的工具，将绑定结构标准化，从而提高动画制作效率。
   role: commentary
+- type: note
+  original: ※CGキャラクターにアニメーションを付けるための“リグ（動かす仕組み）”を設定する人。
+  translation: ※骨骼绑定师：为CG角色设置“绑定”，也就是用于控制角色动画的一套结构的人员。
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/040.jpg
   alt: PH43
 - type: paragraph
   speaker: 原文作者
   original: また、ランタイムでの動的制御を行う場合も。ポケモンの背骨をシミュレーションすることで、アーボのうねうねとした動きや、レントラーなどの四足歩行のポケモンの傾斜歩行を自然と行えるようにしている。
-  translation: 此外，还进行了运行时的动态控制。通过对宝可梦的脊椎进行模拟，使阿柏蛇蜿蜒蠕动的动作，以及伦琴猫等四足行走宝可梦的倾斜行走都能自然地实现。
+  translation: 有些动作还会在游戏运行时动态控制。例如，通过模拟宝可梦的脊柱，让阿柏蛇的蜿蜒扭动，以及伦琴猫等四足宝可梦在斜坡上行走的动作，看起来更自然。
   role: commentary
 - type: image
   image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/041.jpg
@@ -310,20 +313,20 @@ parallel_items:
 - type: paragraph
   speaker: 原文作者
   original: 共通の環境・仕様を用意することで各タイトルに合わせて制作する必要がなくなり、納品までの制作時間の短縮に成功。そして、後工程によってタイトルごとによる異なるルックとゲーム性を高い品質で実現。アニメーション制作の効率化も図られたことで、『アルセウス』と『スカーレット・バイオレット』の2タイトル同時制作が可能となった。
-  translation: 通过准备共通的环境与规格，无需针对各作品分别制作，成功缩短了交付前的制作时间。并且，通过后处理阶段以高品质实现了各作品不同的视觉风格与游戏性。动画制作的效率化也得以推进，从而使《传说 阿尔宙斯》与《朱／紫》两款作品的同步制作成为可能。
+  translation: 统一制作环境与规格之后，团队不必再为每款作品分别制作一套基础素材，交付前的制作时间因此缩短。随后，各作品团队再进行调整，以较高品质实现各自的视觉风格和玩法需求。再加上动画制作效率的提升，团队才得以同时开发《阿尔宙斯》和《朱／紫》。
   role: commentary
 - type: paragraph
   speaker: 原文作者
   original: 我々が大きな間を置かずに高品質なゲームを手にできるのは、こうした企業努力のおかげ。日々感謝しつつ楽しみたいところだ。
-  translation: 我们之所以能在不长的时间内获得高品质的游戏，正是得益于这样的企业努力。我们应当心怀感激，每日尽情享受。
+  translation: 我们能相隔不久就玩到高品质的游戏，背后离不开企业在这些环节上的努力。享受游戏时，也不妨记得这些付出。
   role: commentary
 entities:
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
 source_kind: technical_report
-summary: "CEDEC 2022 技术专场中，Game Freak 研究开发部 CG 技术总监前泽圭一介绍《宝可梦 传说 阿尔宙斯》与《宝可梦 朱·紫》同时制作的环境与流程调整。因宝可梦模型总数自《宝可梦 红·绿》至《宝可梦 剑·盾》已超 1000 种，团队自 2018 年左右起推进交付规格共通化，统一材质与骨骼后由各作品在后工序调整；并开发动作复制工具、引入内部动作捕捉与宝可梦绑定，实现动画共通化。"
-dek: "Game Freak 讲述两款宝可梦作品并行开发的模型与动画共通化。"
+summary: CEDEC 2022 讲演介绍《宝可梦传说 阿尔宙斯》与《宝可梦 朱／紫》同时开发时的制作流程：统一素材交付规范，再按各作品调整视觉风格，并利用动作复制、动作捕捉和绑定工具提高动画制作效率。
+dek: GAME FREAK 介绍两款宝可梦作品并行开发时，如何共用模型素材和动画。
 topics:
 - "开发流程"
 - "角色设计"

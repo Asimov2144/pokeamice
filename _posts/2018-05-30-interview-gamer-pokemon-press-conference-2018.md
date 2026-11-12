@@ -177,7 +177,7 @@ parallel_items:
   caption: GAME FREAK 增田顺一总监阐述将《Pokémon GO》投球体验与客厅同乐融入关都全新冒险
 - type: narrative
   original: まずは本作のディレクターを務める増田順一氏が、ボールを投げる遊びを取り入れた「Pokémon GO」の要素を、「ポケットモンスター」側に還元させるかたちで作ったと、「ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ」の開発経緯を語る。1998年にゲームボーイソフトとして発売された「ポケットモンスター ピカチュウ」に、「Pokémon GO」が持つ間口の広さ、そしてNintendo Switchならではの機能を活かすという新たな着想を得て作られたのが、本作というわけだ。
-  translation: 首先，担任本作总监的增田顺一讲述了《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的开发经过：本作是将《Pokémon GO》中投掷精灵球的玩法要素加以吸收，并回馈到《宝可梦》系列本身的形式制作而成。1998年作为Game Boy软件发售的《宝可梦 皮卡丘》，再加上《Pokémon GO》所具备的广泛受众基础，以及活用Nintendo Switch独有功能这一全新构想，最终促成了本作的诞生。
+  translation: 本作总监增田顺一首先介绍了《宝可梦 Let’s Go! 皮卡丘／Let’s Go! 伊布》的开发经过。他们把《Pokémon GO》中投球捕捉宝可梦的玩法带回《宝可梦》系列，以1998年在 Game Boy 发售的《宝可梦 皮卡丘》为基础，结合《Pokémon GO》容易上手的特点，再发挥 Nintendo Switch 的独有功能，由此制作出这款游戏。
 - type: image
   image: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/019.jpg
   alt: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート_019

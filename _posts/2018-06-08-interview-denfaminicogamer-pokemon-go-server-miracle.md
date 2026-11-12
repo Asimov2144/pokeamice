@@ -151,7 +151,7 @@ parallel_items:
 - original: ARがある現在なら、むしろその発想は大して難しくない気がしますが、当時としては異様な発想ですよね。
   role: question
   speaker: 电玩志
-  translation: 在如今有AR的时代，这种想法反而感觉并不太难，但在当时可以说是异样的构想。
+  translation: 现在有了AR技术，再想到这种玩法也许不算难，但放在当时，这个构想相当出人意料吧。
 - type: image
   image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle/013.jpg
   alt: 「あの瞬間」何が起きていたのか？ キーマンたちが初めて語るポケモン GOリリース直後の熱狂、その舞台裏【ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一】_040
@@ -541,7 +541,7 @@ parallel_items:
 - original: そのあたりは、『ポケモン』とARとの相性の良さもありそうですね。
   role: question
   speaker: 电玩志
-  translation: 这方面，看来也有《宝可梦》与AR相性良好的因素。
+  translation: 看来，这也和《宝可梦》特别适合与AR结合有关。
 - original: ええ、『Ingress』のXM（世界に浮かぶHPのような粒子）やポータルにもその要素はあるのですが、やはり『ポケモン』は世界中の人が信じられる力を持つ世界観ですよね。
   role: answer
   speaker: 川岛优志

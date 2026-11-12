@@ -125,7 +125,7 @@ parallel_items:
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s17.jpg
   alt: Game Informer 开发资料访谈视频截图
 - original: さらに、サン・ムーンで実装されたポケリフについてのアイデアメモ。ポケリフレを通してどうやってポケモンと仲良くなるのかのプロセスや、各動作に至るまで細かくアイデアがメモされています。
-  translation: 此外，还有一份关于《太阳／月亮》中实装的宝可清爽乐（Pokemon Refresh）的创意笔记。笔记中详细记录了如何通过宝可清爽乐与宝可梦变得亲密的过程，乃至每一个具体动作的细致构想。
+  translation: 此外，还有《太阳／月亮》中“宝可清爽乐”（Pokémon Refresh）的创意笔记。从怎样通过这一功能增进与宝可梦的感情，到具体的各个动作，都记下了细致的构想。
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s18.jpg
   alt: Game Informer 开发资料访谈视频截图
