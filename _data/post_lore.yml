@@ -32373,7 +32373,7 @@
       slug: null
     - name: 宝可梦
       slug: null
-    - name: 螺丝破坏者 轰振钻头
+    - name: Drill Dozer
       slug: null
     - name: 宝可梦 红·绿
       slug: red-green
@@ -44728,9 +44728,6 @@
     - name: 约翰·汉克
       role: mentioned
       slug: john-hanke
-    - name: 野村达雄
-      role: mentioned
-      slug: nomura-tatsuo
     - name: 田尻智
       role: mentioned
       slug: tajiri-satoshi
@@ -44752,6 +44749,8 @@
     - name: 稻叶帆立
       role: mentioned
     - name: 齐藤大地
+      role: mentioned
+    - name: 川上
       role: mentioned
     places:
     - name: 真新镇
@@ -44797,7 +44796,7 @@
       slug: null
     - name: MOTHER
       slug: null
-    - name: 奥特赛文
+    - name: 赛文奥特曼
       slug: null
     - name: 转转瓦力欧制造
       slug: null
