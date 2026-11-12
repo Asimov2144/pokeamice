@@ -279,6 +279,10 @@ def card(p):
         h.append('<p class="fr-topics">' + " ".join(f"#{html.escape(esc_liquid(t), quote=False)}" for t in topics) + "</p>")
     if p.get("video"):
         h.append('<p class="fr-vnote">（原帖含视频，存档未收录）</p>')
+    if n > len(shown):
+        # Inert until the reading view opens; keep every archived picture available
+        # without loading an entire album into the collage preview.
+        h.append('<template class="fr-extra-images">' + "".join(fig(r) for r in imgs[len(shown):]) + '</template>')
     link = f' · <a href="https://m.weibo.cn/detail/{mid}" rel="nofollow noopener" target="_blank">原微博</a>' if mid else ""
     ex = f' <span class="st-more">+{extra}</span>' if extra else ""
     h.append(f'<footer class="fr-foot">♥ {p["likes"]}{link}{ex}</footer>')

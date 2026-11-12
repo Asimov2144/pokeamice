@@ -7,3 +7,16 @@ layout: default
     {{ content }}
   </div>
 </div>
+<dialog id="fr-reader" class="fr-reader" aria-labelledby="fr-reader-title">
+  <header class="fr-reader-head">
+    <div>
+      <h2 id="fr-reader-title">微博全文</h2>
+      <p id="fr-reader-date"></p>
+    </div>
+    <button type="button" class="fr-reader-close" autofocus aria-label="关闭阅读窗口">关闭 ×</button>
+  </header>
+  <div id="fr-reader-content" class="fr-reader-content"></div>
+  <footer class="fr-reader-foot">
+    <a id="fr-reader-source" target="_blank" rel="nofollow noopener">查看原微博 ↗</a>
+  </footer>
+</dialog>
