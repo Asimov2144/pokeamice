@@ -2,11 +2,11 @@
  "id": "scan-ndream-2013-12-xy-character-design-interview",
  "stem": "2013-10-21-scan-ndream-2013-12-xy-character-design-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 171
+  "n": 167
  },
  "facets": {
   "pokemon": [
@@ -14,8 +14,8 @@
     "name": "哥德小姐",
     "ndex": 576,
     "seg": [
-     100,
-     101
+     98,
+     99
     ],
     "as": [
      "哥德小姐"
@@ -26,7 +26,7 @@
     "name": "迷你冰",
     "ndex": 582,
     "seg": [
-     106
+     104
     ],
     "as": [
      "迷你冰"
@@ -42,7 +42,7 @@
      2,
      3,
      7,
-     67
+     66
     ],
     "via": "entities"
    },
@@ -50,7 +50,7 @@
     "name": "宝可梦 超世代",
     "slug": null,
     "seg": [
-     118
+     116
     ],
     "via": "llm"
    },
@@ -58,7 +58,7 @@
     "name": "宝可梦 黑·白",
     "slug": "black-white",
     "seg": [
-     170
+     166
     ],
     "via": "llm"
    },
@@ -66,7 +66,7 @@
     "name": "宝可梦 钻石·珍珠",
     "slug": "diamond-pearl",
     "seg": [
-     170
+     166
     ],
     "via": "llm"
    }
@@ -80,9 +80,9 @@
      8,
      12,
      14,
-     26,
-     30,
-     32
+     25,
+     29,
+     31
     ]
    },
    {
@@ -91,11 +91,11 @@
     "role": "speaker",
     "seg": [
      9,
-     24,
-     43,
-     51,
-     58,
-     60
+     23,
+     42,
+     50,
+     57,
+     59
     ]
    },
    {
@@ -105,10 +105,10 @@
     "seg": [
      10,
      13,
-     25,
-     27,
-     29,
-     31
+     24,
+     26,
+     28,
+     30
     ]
    },
    {
@@ -116,7 +116,7 @@
     "slug": "masuda-junichi",
     "role": "mentioned",
     "seg": [
-     56
+     55
     ],
     "via": "llm"
    },
@@ -125,7 +125,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     145
+     149
     ],
     "via": "llm"
    }
@@ -139,7 +139,7 @@
     "world": "real",
     "scale": "spot",
     "seg": [
-     32
+     31
     ],
     "what": "取材地点",
     "via": "llm"
@@ -178,7 +178,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     29
+     28
     ],
     "what": "取材据点",
     "via": "llm"
@@ -191,7 +191,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     25
+     24
     ],
     "what": "取材经由地",
     "via": "llm"
@@ -204,7 +204,7 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     106
+     104
     ],
     "what": "T恤产地",
     "via": "llm"
@@ -217,7 +217,7 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     141
+     145
     ],
     "what": "紫罗兰任职地",
     "via": "llm"
@@ -230,7 +230,7 @@
     "world": "game",
     "scale": "area",
     "seg": [
-     163
+     159
     ],
     "what": "查克洛任职地",
     "via": "llm"
@@ -252,33 +252,31 @@
     "via": "body"
    },
    {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     9,
-     11,
-     14
-    ],
-    "as": [
-     "建模",
-     "3D化"
-    ],
-    "via": "body"
-   },
-   {
     "id": "character-design",
     "name": "角色设计",
     "facet": "design",
     "seg": [
      11,
      14,
-     63,
-     165
+     62,
+     161
     ],
     "as": [
      "人物设计",
      "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "three-d",
+    "name": "3D 与建模",
+    "facet": "tech",
+    "seg": [
+     11,
+     14
+    ],
+    "as": [
+     "3D化"
     ],
     "via": "body"
    },
@@ -300,9 +298,9 @@
     "facet": "process",
     "seg": [
      17,
-     56,
-     100,
-     101,
+     55,
+     98,
+     99,
      127
     ],
     "as": [
@@ -316,8 +314,8 @@
     "facet": "system",
     "seg": [
      21,
-     149,
-     152
+     128,
+     131
     ],
     "as": [
      "宝可梦对战"
@@ -365,7 +363,7 @@
     "name": "日程与期限",
     "facet": "process",
     "seg": [
-     30
+     29
     ],
     "as": [
      "日程"
@@ -377,7 +375,7 @@
     "name": "美术风格",
     "facet": "art",
     "seg": [
-     40
+     39
     ],
     "as": [
      "真实感"
@@ -389,9 +387,10 @@
     "name": "插画与设定图",
     "facet": "art",
     "seg": [
-     41,
-     48,
-     167
+     40,
+     47,
+     53,
+     163
     ],
     "as": [
      "插画"
@@ -403,7 +402,7 @@
     "name": "宣传",
     "facet": "business",
     "seg": [
-     49
+     48
     ],
     "as": [
      "宣传"
@@ -415,7 +414,7 @@
     "name": "像素画",
     "facet": "tech",
     "seg": [
-     49
+     48
     ],
     "as": [
      "像素图"
@@ -427,7 +426,7 @@
     "name": "台词",
     "facet": "story",
     "seg": [
-     52
+     51
     ],
     "as": [
      "台词"
@@ -439,12 +438,12 @@
     "name": "主线流程",
     "facet": "system",
     "seg": [
-     52,
-     141,
-     144,
+     51,
      145,
-     146,
-     147
+     148,
+     149,
+     150,
+     151
     ],
     "as": [
      "道馆"
@@ -456,8 +455,8 @@
     "name": "宝可梦设计",
     "facet": "design",
     "seg": [
-     64,
-     170
+     63,
+     166
     ],
     "as": [
      "宝可梦的设计"
@@ -469,7 +468,7 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     65
+     64
     ],
     "as": [
      "剧本"
@@ -481,7 +480,7 @@
     "name": "对手与反派",
     "facet": "story",
     "seg": [
-     89
+     87
     ],
     "as": [
      "劲敌"
@@ -493,7 +492,7 @@
     "name": "舞台取材",
     "facet": "design",
     "seg": [
-     101
+     99
     ],
     "as": [
      "为原型"
@@ -505,7 +504,7 @@
     "name": "电视动画",
     "facet": "franchise",
     "seg": [
-     118
+     116
     ],
     "as": [
      "电视动画"
@@ -517,7 +516,7 @@
     "name": "自然与昆虫采集",
     "facet": "design",
     "seg": [
-     134
+     138
     ],
     "as": [
      "生态"
@@ -529,7 +528,7 @@
     "name": "视角与镜头",
     "facet": "system",
     "seg": [
-     135
+     139
     ],
     "as": [
      "镜头"
@@ -541,7 +540,7 @@
     "name": "难易度",
     "facet": "system",
     "seg": [
-     160
+     156
     ],
     "as": [
      "高难度"
@@ -553,7 +552,7 @@
     "name": "道具与精灵球",
     "facet": "system",
     "seg": [
-     162
+     158
     ],
     "as": [
      "精灵球"
@@ -568,7 +567,7 @@
    "text": "杉森说配色和轮廓简洁、主题色明亮醒目，也有几个例外"
   },
   {
-   "seg": 25,
+   "seg": 24,
    "text": "大村说取材经由伦敦，在当地待了将近10天"
   }
  ],
@@ -578,7 +577,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

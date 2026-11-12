@@ -2,11 +2,11 @@
  "id": "scan-ndream-2014-01-lumiose-city-guide",
  "stem": "2013-11-21-scan-ndream-2014-01-lumiose-city-guide",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 215
+  "n": 216
  },
  "facets": {
   "pokemon": [
@@ -49,8 +49,8 @@
     "name": "多丽米亚",
     "ndex": 676,
     "seg": [
-     98,
-     162
+     99,
+     163
     ],
     "as": [
      "多丽米亚"
@@ -74,7 +74,7 @@
     "name": "宝可梦 X·Y",
     "slug": "x-y",
     "seg": [
-     164
+     165
     ],
     "via": "entities"
    },
@@ -134,7 +134,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     141
+     142
     ],
     "via": "llm"
    },
@@ -143,7 +143,7 @@
     "slug": "fu-la-da-li",
     "role": "mentioned",
     "seg": [
-     152
+     153
     ],
     "via": "llm",
     "kind": "character"
@@ -153,7 +153,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     173
+     170
     ],
     "via": "llm"
    },
@@ -162,7 +162,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     193
+     179
     ],
     "via": "llm"
    },
@@ -171,7 +171,7 @@
     "slug": "sha-na",
     "role": "mentioned",
     "seg": [
-     173
+     170
     ],
     "via": "llm",
     "kind": "character"
@@ -264,7 +264,7 @@
     "world": "game",
     "scale": "spot",
     "seg": [
-     151
+     152
     ],
     "what": "弗拉达利经营的咖啡馆",
     "via": "llm"
@@ -314,6 +314,22 @@
     "via": "body"
    },
    {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     23,
+     50,
+     108,
+     109
+    ],
+    "as": [
+     "精灵球",
+     "道具"
+    ],
+    "via": "body"
+   },
+   {
     "id": "battle-system",
     "name": "对战系统",
     "facet": "system",
@@ -339,21 +355,6 @@
     ],
     "as": [
      "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     50,
-     107,
-     108
-    ],
-    "as": [
-     "道具",
-     "精灵球"
     ],
     "via": "body"
    },
@@ -389,7 +390,7 @@
     "facet": "art",
     "seg": [
      65,
-     209
+     210
     ],
     "as": [
      "插画"
@@ -402,9 +403,9 @@
     "facet": "system",
     "seg": [
      67,
-     179,
-     186,
-     194
+     168,
+     176,
+     180
     ],
     "as": [
      "道馆"
@@ -417,7 +418,7 @@
     "facet": "design",
     "seg": [
      71,
-     100
+     101
     ],
     "as": [
      "门槛"
@@ -443,7 +444,7 @@
     "seg": [
      86,
      87,
-     89
+     90
     ],
     "as": [
      "音效",
@@ -456,7 +457,7 @@
     "name": "培育",
     "facet": "system",
     "seg": [
-     143
+     144
     ],
     "as": [
      "培育宝可梦"
@@ -470,7 +471,7 @@
     "seg": [
      174,
      175,
-     179
+     176
     ],
     "as": [
      "电属性"
@@ -515,7 +516,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

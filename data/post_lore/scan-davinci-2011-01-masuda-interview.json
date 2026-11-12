@@ -2,7 +2,7 @@
  "id": "scan-davinci-2011-01-masuda-interview",
  "stem": "2010-12-06-scan-davinci-2011-01-masuda-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -132,9 +132,9 @@
     "name": "宝可梦 黑·白",
     "slug": "black-white",
     "seg": [
-     5,
+     10,
+     11,
      6,
-     13,
      54,
      58,
      59
@@ -145,7 +145,7 @@
     "name": "宝可梦 红·绿",
     "slug": "red-green",
     "seg": [
-     5
+     10
     ],
     "via": "llm"
    },
@@ -153,7 +153,7 @@
     "name": "宝可梦 金·银",
     "slug": "gold-silver",
     "seg": [
-     5
+     10
     ],
     "via": "llm"
    },
@@ -161,7 +161,7 @@
     "name": "宝可梦 红宝石·蓝宝石",
     "slug": "ruby-sapphire",
     "seg": [
-     5
+     10
     ],
     "via": "llm"
    },
@@ -169,7 +169,7 @@
     "name": "宝可梦 钻石·珍珠",
     "slug": "diamond-pearl",
     "seg": [
-     5
+     10
     ],
     "via": "llm"
    },
@@ -260,7 +260,7 @@
     "slug": "masuda-junichi",
     "role": "mentioned",
     "seg": [
-     11,
+     4,
      54,
      55,
      58,
@@ -273,7 +273,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     10
+     3
     ],
     "via": "llm"
    },
@@ -515,106 +515,30 @@
   ],
   "concepts": [
    {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "动画化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     4
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     4,
-     51
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     7,
-     19,
-     58
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
     "id": "children",
     "name": "儿童玩家",
     "facet": "audience",
     "seg": [
-     8,
+     6,
      13
     ],
     "as": [
-     "小学生",
-     "儿童"
+     "儿童",
+     "小学生"
     ],
     "via": "body"
    },
    {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
     "seg": [
-     8
+     6,
+     47
     ],
     "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     9,
-     57
-    ],
-    "as": [
-     "开发初期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     9,
-     58
-    ],
-    "as": [
-     "反复推敲",
-     "从零开始"
+     "精灵球",
+     "道具"
     ],
     "via": "body"
    },
@@ -623,8 +547,7 @@
     "name": "续作",
     "facet": "process",
     "seg": [
-     12,
-     13,
+     6,
      15,
      51
     ],
@@ -635,25 +558,11 @@
     "via": "body"
    },
    {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     13,
-     47
-    ],
-    "as": [
-     "精灵球",
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
     "id": "battle-system",
     "name": "对战系统",
     "facet": "system",
     "seg": [
-     14,
+     7,
      32
     ],
     "as": [
@@ -667,12 +576,103 @@
     "name": "联动",
     "facet": "business",
     "seg": [
-     14,
+     7,
      16,
      28
     ],
     "as": [
      "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     7,
+     16,
+     58,
+     71
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "anime",
+    "name": "电视动画",
+    "facet": "franchise",
+    "seg": [
+     9
+    ],
+    "as": [
+     "动画化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     9
+    ],
+    "as": [
+     "周边商品"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "sales",
+    "name": "销量",
+    "facet": "business",
+    "seg": [
+     9,
+     51
+    ],
+    "as": [
+     "销量"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "trade",
+    "name": "通信交换",
+    "facet": "system",
+    "seg": [
+     12,
+     19,
+     58
+    ],
+    "as": [
+     "交换宝可梦"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "player-segments",
+    "name": "老玩家与新玩家",
+    "facet": "audience",
+    "seg": [
+     13
+    ],
+    "as": [
+     "年龄层"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     14,
+     58
+    ],
+    "as": [
+     "打磨"
     ],
     "via": "body"
    },
@@ -687,19 +687,6 @@
     ],
     "as": [
      "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     16,
-     58
-    ],
-    "as": [
-     "交流"
     ],
     "via": "body"
    },
@@ -809,6 +796,18 @@
     "via": "body"
    },
    {
+    "id": "hand-drawn",
+    "name": "手绘与画材",
+    "facet": "art",
+    "seg": [
+     42
+    ],
+    "as": [
+     "草图"
+    ],
+    "via": "body"
+   },
+   {
     "id": "illustration",
     "name": "插画与设定图",
     "facet": "art",
@@ -874,19 +873,6 @@
     "via": "body"
    },
    {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     57,
-     58
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
     "id": "easy-to-grasp",
     "name": "易懂与门槛",
     "facet": "design",
@@ -899,14 +885,14 @@
     "via": "body"
    },
    {
-    "id": "quality",
-    "name": "完成度与打磨",
+    "id": "iteration",
+    "name": "推翻重做",
     "facet": "process",
     "seg": [
      58
     ],
     "as": [
-     "打磨"
+     "从零开始"
     ],
     "via": "body"
    },
@@ -987,11 +973,11 @@
  },
  "observations": [
   {
-   "seg": 4,
+   "seg": 9,
    "text": "系列1996年诞生，截至2010年全球累计销量突破1亿5000万套"
   },
   {
-   "seg": 9,
+   "seg": 14,
    "text": "开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成"
   }
  ],
@@ -1034,7 +1020,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

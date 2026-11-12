@@ -2,11 +2,11 @@
  "id": "scan-continue-vol23-gamefreak-special",
  "stem": "2005-08-18-scan-continue-vol23-gamefreak-special",
  "rev": 1,
- "built": "2026-09-29",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
-  "n": 22
+  "n": 23
  },
  "facets": {
   "pokemon": [
@@ -14,7 +14,7 @@
     "name": "皮卡丘",
     "ndex": 25,
     "seg": [
-     18
+     19
     ],
     "as": [
      "皮卡丘"
@@ -30,10 +30,10 @@
     "via": "entities"
    },
    {
-    "name": "DOTZ",
+    "name": "Dots",
     "slug": null,
     "seg": [
-     10
+     11
     ],
     "via": "llm"
    },
@@ -41,7 +41,7 @@
     "name": "Quinty",
     "slug": null,
     "seg": [
-     19
+     20
     ],
     "via": "llm"
    },
@@ -49,7 +49,7 @@
     "name": "螺旋破坏者",
     "slug": null,
     "seg": [
-     16
+     17
     ],
     "via": "llm"
    }
@@ -60,7 +60,7 @@
     "slug": "tajiri-satoshi",
     "role": "mentioned",
     "seg": [
-     17
+     18
     ]
    },
    {
@@ -68,7 +68,7 @@
     "slug": "sugimori-ken",
     "role": "mentioned",
     "seg": [
-     19
+     20
     ]
    },
    {
@@ -82,7 +82,7 @@
     "slug": "unno-takao",
     "role": "mentioned",
     "seg": [
-     15
+     16
     ]
    },
    {
@@ -90,7 +90,7 @@
     "slug": "eo-kanako",
     "role": "mentioned",
     "seg": [
-     18
+     19
     ],
     "kind": "staff"
    },
@@ -99,7 +99,7 @@
     "slug": "yoshida-hironobu",
     "role": "mentioned",
     "seg": [
-     14
+     15
     ],
     "via": "llm"
    },
@@ -121,7 +121,7 @@
     "facet": "tech",
     "seg": [
      4,
-     17
+     18
     ],
     "as": [
      "字体"
@@ -133,7 +133,8 @@
     "name": "周边商品",
     "facet": "business",
     "seg": [
-     11
+     11,
+     12
     ],
     "as": [
      "玩具"
@@ -145,10 +146,10 @@
     "name": "二创与同人",
     "facet": "audience",
     "seg": [
-     17
+     18
     ],
     "as": [
-     "同人志"
+     "同人"
     ],
     "via": "body"
    },
@@ -157,7 +158,7 @@
     "name": "像素画",
     "facet": "tech",
     "seg": [
-     17
+     18
     ],
     "as": [
      "像素画"
@@ -178,11 +179,11 @@
  },
  "observations": [
   {
-   "seg": 17,
-   "text": "田尻智说这次接触《DOTZ》让他想起GAME FREAK还是同人志的时候。"
+   "seg": 18,
+   "text": "田尻智说这次接触《Dots》让他想起GAME FREAK还是同人志的时候。"
   },
   {
-   "seg": 19,
+   "seg": 20,
    "text": "杉森建做的是Quinty的主人公（卡顿），称是出道作品的回忆像素。"
   }
  ],
@@ -208,7 +209,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

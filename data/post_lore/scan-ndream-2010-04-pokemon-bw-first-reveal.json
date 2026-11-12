@@ -2,7 +2,7 @@
  "id": "scan-ndream-2010-04-pokemon-bw-first-reveal",
  "stem": "2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal",
  "rev": 1,
- "built": "2026-09-29",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -175,17 +175,16 @@
     "via": "body"
    },
    {
-    "name": "ゾロアーク",
+    "name": "索罗亚克",
     "ndex": 571,
     "seg": [
      15,
-     56,
      16,
      21,
+     56,
      58
     ],
     "as": [
-     "ゾロアーク",
      "索罗亚克"
     ],
     "via": "body"
@@ -422,23 +421,6 @@
   ],
   "concepts": [
    {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     3,
-     17,
-     18,
-     20,
-     21,
-     22
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
     "id": "type-matchup",
     "name": "属性相性",
     "facet": "design",
@@ -464,14 +446,19 @@
     "via": "body"
    },
    {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
     "seg": [
-     17
+     18,
+     22,
+     28,
+     29,
+     39,
+     41
     ],
     "as": [
-     "神秘的"
+     "完全新作"
     ],
     "via": "body"
    },
@@ -512,14 +499,14 @@
     "via": "body"
    },
    {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
+    "id": "evolution-design",
+    "name": "进化的设计",
+    "facet": "design",
     "seg": [
-     62
+     48
     ],
     "as": [
-     "交換"
+     "进化形态"
     ],
     "via": "body"
    }
@@ -540,7 +527,8 @@
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

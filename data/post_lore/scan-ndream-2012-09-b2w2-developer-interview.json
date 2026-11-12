@@ -2,7 +2,7 @@
  "id": "scan-ndream-2012-09-b2w2-developer-interview",
  "stem": "2012-07-21-scan-ndream-2012-09-b2w2-developer-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -312,28 +312,12 @@
     "seg": [
      16,
      38,
-     65,
-     66
+     65
     ],
     "as": [
      "开发初期",
      "开发阶段",
      "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     16,
-     17,
-     109
-    ],
-    "as": [
-     "音效设计",
-     "音效"
     ],
     "via": "body"
    },
@@ -346,18 +330,6 @@
     ],
     "as": [
      "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     25
-    ],
-    "as": [
-     "美术设计"
     ],
     "via": "body"
    },
@@ -414,10 +386,13 @@
      30,
      33,
      34,
-     36
+     36,
+     38
     ],
     "as": [
-     "两个版本"
+     "两个版本",
+     "双版本",
+     "两版"
     ],
     "via": "body"
    },
@@ -430,6 +405,20 @@
     ],
     "as": [
      "玩家之间"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     37,
+     66,
+     104
+    ],
+    "as": [
+     "命名"
     ],
     "via": "body"
    },
@@ -474,8 +463,7 @@
     "name": "剧本",
     "facet": "story",
     "seg": [
-     53,
-     63
+     53
     ],
     "as": [
      "剧本"
@@ -496,16 +484,28 @@
     "via": "body"
    },
    {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
+    "id": "sequel",
+    "name": "续作",
+    "facet": "process",
     "seg": [
-     63,
-     81
+     66
     ],
     "as": [
-     "角色设定",
-     "角色设计"
+     "续作"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "surprise",
+    "name": "惊喜与发现",
+    "facet": "design",
+    "seg": [
+     66,
+     131
+    ],
+    "as": [
+     "惊喜",
+     "新鲜感"
     ],
     "via": "body"
    },
@@ -534,14 +534,26 @@
     "via": "body"
    },
    {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
+    "id": "character-design",
+    "name": "角色设计",
+    "facet": "design",
     "seg": [
-     91
+     81
     ],
     "as": [
-     "续作"
+     "角色设计"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     81
+    ],
+    "as": [
+     "插画"
     ],
     "via": "body"
    },
@@ -551,11 +563,12 @@
     "facet": "process",
     "seg": [
      94,
-     102,
-     136
+     136,
+     171
     ],
     "as": [
-     "继承"
+     "继承",
+     "前作的"
     ],
     "via": "body"
    },
@@ -564,23 +577,10 @@
     "name": "配色",
     "facet": "art",
     "seg": [
-     100,
-     132
+     100
     ],
     "as": [
      "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     102
-    ],
-    "as": [
-     "重新制作"
     ],
     "via": "body"
    },
@@ -591,10 +591,10 @@
     "seg": [
      103,
      118,
+     120,
      122,
-     129,
-     135,
-     136
+     132,
+     135
     ],
     "as": [
      "作曲",
@@ -611,7 +611,7 @@
      104
     ],
     "as": [
-     "音源"
+     "和音"
     ],
     "via": "body"
    },
@@ -628,28 +628,29 @@
     "via": "body"
    },
    {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
+    "id": "screen-look",
+    "name": "画面表现",
+    "facet": "art",
     "seg": [
-     117
+     106
     ],
     "as": [
-     "门槛"
+     "画面上"
     ],
     "via": "body"
    },
    {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
+    "id": "difficulty",
+    "name": "难易度",
+    "facet": "system",
     "seg": [
-     137,
-     154
+     117,
+     179,
+     187
     ],
     "as": [
-     "主题曲",
-     "BGM"
+     "难度",
+     "高难度"
     ],
     "via": "body"
    },
@@ -658,8 +659,7 @@
     "name": "联动",
     "facet": "business",
     "seg": [
-     150,
-     171
+     150
     ],
     "as": [
      "联动"
@@ -691,14 +691,14 @@
     "via": "body"
    },
    {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
+    "id": "bgm",
+    "name": "背景音乐",
+    "facet": "audio",
     "seg": [
-     151
+     154
     ],
     "as": [
-     "主题是"
+     "背景音乐"
     ],
     "via": "body"
    },
@@ -711,20 +711,6 @@
     ],
     "as": [
      "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     179,
-     187
-    ],
-    "as": [
-     "难度",
-     "高难度"
     ],
     "via": "body"
    },
@@ -764,25 +750,13 @@
      "配信"
     ],
     "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     193
-    ],
-    "as": [
-     "训练家对战"
-    ],
-    "via": "body"
    }
   ]
  },
  "observations": [
   {
    "seg": 27,
-   "text": "增田顺一称加入能让100人同时游玩的新要素“联合任务”。"
+   "text": "增田顺一称加入能让100人同时游玩的新要素“合众任务”。"
   },
   {
    "seg": 29,
@@ -812,7 +786,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

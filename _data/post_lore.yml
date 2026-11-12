@@ -2,43 +2,8 @@
 # 由 tools/build-post-lore.py 生成（规则 + DeepSeek，data/post_lore/<id>.json 是单篇的原件，可手改）。
 # 表：宝可梦写法 2026-09-23 / 旅图地点 2026-09-23
 1996-04-05-scan-shodai-zukan-1996-pokemon-journal:
+  id: scan-shodai-zukan-1996-pokemon-journal
   facets:
-    people:
-    - kind: character
-      name: 大木博士
-      role: mentioned
-      slug: da-mu-bo-shi
-    - name: 大木雪成
-      role: mentioned
-    - name: 西之森教授
-      role: mentioned
-    - kind: character
-      name: 正辉
-      role: mentioned
-      slug: zheng-hui
-    - name: 曾崎正辉
-      role: mentioned
-    - name: 达尔文
-      role: mentioned
-    places:
-    - name: 东京塔
-      what: 多次办宝可梦活动
-      world: real
-    - name: 玉虹大学
-      what: 演讲主办地
-      world: game
-    - name: 5号道路
-      what: 培育屋报名处
-      world: game
-    - name: 玉虹市
-      what: 百货商店所在地
-      world: game
-    - name: 华蓝市
-      what: 正辉住处附近
-      world: game
-    - name: 京都
-      what: 朋友居住地
-      world: real
     pokemon:
     - name: 妙蛙草
       ndex: 2
@@ -99,48 +64,50 @@
     works:
     - name: 宝可梦 红·绿
       slug: red-green
-  id: scan-shodai-zukan-1996-pokemon-journal
-  observations:
-  - seg: 12
-    text: 1925年西之森教授弄错用药量，火暴猴钻进远视眼镜盒
-  - seg: 27
-    text: 正辉称一个人冒险能收集到的极限约130种
-1996-04-05-scan-shodai-zukan-1996-staff-interview:
-  facets:
     people:
-    - name: 田尻智
-      role: speaker
-      slug: tajiri-satoshi
-    - name: 森本茂树
-      role: speaker
-      slug: morimoto-shigeki
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 西野弘二
-      role: speaker
-      slug: nishino-koji
-    - name: 渡边哲也
-      role: speaker
-      slug: watanabe-tetsuya
-    - name: 太田健程
-      role: speaker
-      slug: ota-takenori
-    - name: 藤原
-      role: speaker
-      slug: fujiwara-motofumi
-    - name: 西田敦子
-      role: speaker
-      slug: nishida-atsuko
-    - name: 藤原基史
+    - name: 大木博士
+      slug: da-mu-bo-shi
       role: mentioned
-      slug: fujiwara-motofumi
-    - name: 宫本
+      kind: character
+    - name: 大木雪成
       role: mentioned
-    places: []
+    - name: 西之森教授
+      role: mentioned
+    - name: 正辉
+      slug: zheng-hui
+      role: mentioned
+      kind: character
+    - name: 曾根崎正辉
+      role: mentioned
+    - name: 达尔文
+      role: mentioned
+    places:
+    - name: 东京塔
+      what: 多次办宝可梦活动
+      world: real
+    - name: 玉虹大学
+      what: 演讲主办地
+      world: game
+    - name: 5号道路
+      what: 培育屋报名处
+      world: game
+    - name: 玉虹市
+      what: 百货商店所在地
+      world: game
+    - name: 华蓝市
+      what: 正辉住处附近
+      world: game
+    - name: 京都
+      what: 朋友居住地
+      world: real
+  observations:
+  - text: 虚构的《宝可梦新闻》中，1925年西之森教授弄错用药量，火暴猴钻进老花眼镜盒
+    seg: 12
+  - text: 虚构的《宝可梦新闻》中，正辉称一个人冒险能收集到的极限约130种
+    seg: 27
+1996-04-05-scan-shodai-zukan-1996-staff-interview:
+  id: scan-shodai-zukan-1996-staff-interview
+  facets:
     pokemon:
     - name: 小火龙
       ndex: 4
@@ -148,6 +115,8 @@
       ndex: 25
     - name: 尼多兰
       ndex: 29
+    - name: 胖丁
+      ndex: 39
     - name: 派拉斯特
       ndex: 47
     - name: 蚊香蝌蚪
@@ -162,8 +131,6 @@
       ndex: 132
     - name: 卡比兽
       ndex: 143
-    - name: 胖丁
-      ndex: 39
     works:
     - name: 宝可梦 红·绿
       slug: red-green
@@ -177,25 +144,58 @@
       slug: null
     - name: 艾斯奥特曼
       slug: null
-  id: scan-shodai-zukan-1996-staff-interview
+    people:
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: speaker
+    - name: 森本茂树
+      slug: morimoto-shigeki
+      role: speaker
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    - name: 西野弘二
+      slug: nishino-koji
+      role: speaker
+    - name: 渡边哲也
+      slug: watanabe-tetsuya
+      role: speaker
+    - name: 太田健程
+      slug: ota-takenori
+      role: speaker
+    - name: 藤原
+      slug: fujiwara-motofumi
+      role: speaker
+    - name: 西田敦子
+      slug: nishida-atsuko
+      role: speaker
+    - name: 藤原基史
+      slug: fujiwara-motofumi
+      role: mentioned
+    - name: 宫本
+      role: mentioned
+    places: []
   observations:
-  - seg: 10
-    text: 田尻智称企划到完成花6年，实际作业约第一年和最后3年
-  - seg: 12
-    text: 从最初到最后一直参与的只有田尻、增田、杉森3人
+  - text: 田尻智称企划到完成花6年，实际作业约第一年和最后3年
+    seg: 10
+  - text: 从最初到最后一直参与的只有田尻、增田、杉森3人
+    seg: 12
   relations:
-  - id: interview-nom-genesis-gamefreak
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）
     url: //interview-nom-genesis-gamefreak/
     why: 同为初代红绿开发访谈，可对照开发人数与设计细节
-  - id: interview-gameatsumaru-masuda-indie-gamefreak-origins
-    kind: responds
-    label: 后来回应了这篇
+    id: interview-nom-genesis-gamefreak
+    kind: background
+  - label: 后来回应了这篇
     title: 增田顺一谈宝可梦与游戏音乐
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/
     why: 增田顺一后谈红绿6年开发、核心9人，补充本篇说法
+    id: interview-gameatsumaru-masuda-indie-gamefreak-origins
+    kind: responds
 1997-05-23-interview-famimaga-tajiri-pokemon2-secret:
   facets:
     people:
@@ -678,24 +678,61 @@
     url: //interview-niconico-gamefreak-origins-masuda/
     why: 同为1990年立项、1996年发售的初代
 1999-12-01-scan-gs-guidebook-1999-developer-interview:
+  id: scan-gs-guidebook-1999-developer-interview
   facets:
+    pokemon:
+    - name: 烈雀
+      ndex: 21
+    - name: 皮卡丘
+      ndex: 25
+    - name: 皮皮
+      ndex: 35
+    - name: 暴鲤龙
+      ndex: 130
+    - name: 梦幻
+      ndex: 151
+    - name: 火球鼠
+      ndex: 155
+    - name: 未知图腾
+      ndex: 201
+    - name: 麒麟奇
+      ndex: 203
+    - name: 巨翅飞鱼
+      ndex: 226
+    - name: 雷公
+      ndex: 243
+    - name: 炎帝
+      ndex: 244
+    - name: 水君
+      ndex: 245
+    - name: 洛奇亚
+      ndex: 249
+    - name: 凤王
+      ndex: 250
+    works:
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 红·绿·蓝·皮卡丘版
+      slug: null
+    - name: 红·绿·蓝版
+      slug: null
     people:
     - name: 杉森建
-      role: speaker
       slug: sugimori-ken
+      role: speaker
     - name: 增田顺一
-      role: speaker
       slug: masuda-junichi
+      role: speaker
     - name: 森本茂树
-      role: speaker
       slug: morimoto-shigeki
-    - name: 西野弘二
       role: speaker
+    - name: 西野弘二
       slug: nishino-koji
-    - kind: character
-      name: 大木博士
-      role: mentioned
+      role: speaker
+    - name: 大木博士
       slug: da-mu-bo-shi
+      role: mentioned
+      kind: character
     places:
     - name: 栎树林
       what: 有神社的森林
@@ -706,136 +743,27 @@
     - name: 月见山
       what: 西野找皮皮处
       world: game
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 暴鲤龙
-      ndex: 130
-    - name: 火球鼠
-      ndex: 155
-    - name: 未知图腾
-      ndex: 201
-    - name: 麒麟奇
-      ndex: 203
-    - name: 巨翅飞鱼
-      ndex: 226
-    - name: 洛奇亚
-      ndex: 249
-    - name: 烈雀
-      ndex: 21
-    - name: 凤王
-      ndex: 250
-    - name: 梦幻
-      ndex: 151
-    - name: 炎帝
-      ndex: 244
-    - name: 水君
-      ndex: 245
-    - name: 雷公
-      ndex: 243
-    - name: 皮皮
-      ndex: 35
-    works:
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 红·绿·蓝·皮卡丘版
-      slug: null
-    - name: 红·绿·蓝版
-      slug: null
-  id: scan-gs-guidebook-1999-developer-interview
   observations:
-  - seg: 10
-    text: 森本称清除战斗招式bug花了一年半以上
-  - seg: 39
-    text: 「守住」第1次100%，第2次起成功率逐渐下降
+  - text: 森本称清除战斗招式bug花了半年多
+    seg: 10
+  - text: 「守住」第1次100%，第2次起成功率逐渐下降
+    seg: 39
   relations:
-  - id: interview-nom-gold-silver-gamefreak
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
     url: /developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/
     why: 同为金·银开发访谈，森本茂树等受访
-  - id: interview-nintendopower-gold-silver-roundtable
+    id: interview-nom-gold-silver-gamefreak
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
     url: /developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/
     why: 同为金·银开发访谈，森本茂树受访
+    id: interview-nintendopower-gold-silver-roundtable
+    kind: same-occasion
 1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal:
+  id: scan-gs-guidebook-1999-staff-zukan-journal
   facets:
-    people:
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 森本茂树
-      role: mentioned
-      slug: morimoto-shigeki
-    - name: 西野弘二
-      role: mentioned
-      slug: nishino-koji
-    - name: 太田健程
-      role: mentioned
-      slug: ota-takenori
-    - name: 藤原 基文
-      role: mentioned
-    - name: 松岛 贤二
-      role: mentioned
-    - name: 渡边 哲也
-      role: mentioned
-    - name: 玉田 宗介
-      role: mentioned
-    - name: 太田 哲司
-      role: mentioned
-    - name: 一之濑 刚
-      role: mentioned
-    - name: 关根 一仁
-      role: mentioned
-    - name: 太田 聪
-      role: mentioned
-    - name: 青木 守一
-      role: mentioned
-    - name: 吉田 宏信
-      role: mentioned
-    - name: 奥谷 淳
-      role: mentioned
-    - name: 松宫 敏信
-      role: mentioned
-    - name: 濑谷 伸宏
-      role: mentioned
-    - kind: character
-      name: 大木博士
-      role: mentioned
-      slug: da-mu-bo-shi
-    - name: 空木博士
-      role: mentioned
-    places:
-    - name: 下北泽
-      what: GAME FREAK 最初的开发基地
-      world: real
-    - name: 若叶镇
-      what: 空木博士所在
-      world: game
-    - name: 愤怒之湖
-      what: 发现异色暴鲤龙
-      world: game
-    - name: 满金市B1F
-      what: 关根一仁的分布
-      world: game
-    - name: 犬吠埼
-      what: 一之濑刚的分布
-      world: real
-    - name: 东京Joypolis
-      what: 一之濑刚的分布
-      world: real
-    - name: 新宿
-      what: 森本茂树的分布
-      world: real
-    - name: 涩谷
-      what: 森本茂树的分布
-      world: real
     pokemon:
     - name: 妙蛙种子
       ndex: 1
@@ -857,10 +785,16 @@
       ndex: 33
     - name: 走路草
       ndex: 43
+    - name: 霸王花
+      ndex: 45
     - name: 可达鸭
       ndex: 54
+    - name: 火暴猴
+      ndex: 57
     - name: 蚊香蝌蚪
       ndex: 60
+    - name: 小拳石
+      ndex: 74
     - name: 呆呆兽
       ndex: 79
     - name: 小磁怪
@@ -893,30 +827,106 @@
       ndex: 145
     - name: 波克比
       ndex: 175
+    - name: 树才怪
+      ndex: 185
     - name: 未知图腾
       ndex: 201
+    - name: 大奶罐
+      ndex: 241
     works:
     - name: 宝可梦 金·银
       slug: gold-silver
-  id: scan-gs-guidebook-1999-staff-zukan-journal
+    people:
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    - name: 森本茂树
+      slug: morimoto-shigeki
+      role: mentioned
+    - name: 西野弘二
+      slug: nishino-koji
+      role: mentioned
+    - name: 太田健程
+      slug: ota-takenori
+      role: mentioned
+    - name: 藤原 基文
+      role: mentioned
+    - name: 松岛 贤二
+      role: mentioned
+    - name: 渡边 哲也
+      role: mentioned
+    - name: 玉田 宗介
+      role: mentioned
+    - name: 太田 哲司
+      role: mentioned
+    - name: 一之濑 刚
+      role: mentioned
+    - name: 关根 一仁
+      role: mentioned
+    - name: 太田 聪
+      role: mentioned
+    - name: 青木 守一
+      role: mentioned
+    - name: 吉田 宏信
+      role: mentioned
+    - name: 奥谷 淳
+      role: mentioned
+    - name: 松宫 敏信
+      role: mentioned
+    - name: 濑谷 伸宏
+      role: mentioned
+    - name: 大木博士
+      slug: da-mu-bo-shi
+      role: mentioned
+      kind: character
+    - name: 空木博士
+      role: mentioned
+    places:
+    - name: 下北泽
+      what: GAME FREAK 最初的开发基地
+      world: real
+    - name: 若叶镇
+      what: 空木博士所在
+      world: game
+    - name: 愤怒之湖
+      what: 发现异色暴鲤龙
+      world: game
+    - name: 满金市B1F
+      what: 关根一仁的分布
+      world: game
+    - name: 犬吠埼
+      what: 一之濑刚的分布
+      world: real
+    - name: 东京Joypolis
+      what: 一之濑刚的分布
+      world: real
+    - name: 新宿
+      what: 森本茂树的分布
+      world: real
+    - name: 涩谷
+      what: 森本茂树的分布
+      world: real
   observations:
-  - seg: 4
-    text: 增田顺一的身高体重为1.72／62Kg，A型。
-  - seg: 26
-    text: 一之濑刚身高57m、体重550t，属性为娱乐型。
+  - text: 趣味“工作人员图鉴”中，增田顺一的身高体重为1.72／62Kg，A型。
+    seg: 5
+  - text: 趣味“工作人员图鉴”中，一之濑刚身高57m、体重550t，属性为娱乐型。
+    seg: 26
   relations:
-  - id: scan-gs-guidebook-1999-developer-interview
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 金·银开发访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-gs-guidebook-1999-developer-interview/
     why: 同为1999年小学馆金·银官方攻略本卷末特集
-  - id: interview-nintendopower-gold-silver-roundtable
-    kind: background
-    label: 为这篇提供背景
+    id: scan-gs-guidebook-1999-developer-interview
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
     url: /developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/
     why: 同列增田、杉森、森本、一之濑等金·银开发成员
+    id: interview-nintendopower-gold-silver-roundtable
+    kind: background
 2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi:
   facets:
     people:
@@ -4280,27 +4290,8 @@
   - seg: 12
     text: 加上角色性（或品牌性），会让人更想要
 2005-08-18-scan-continue-vol23-drill-dozer:
+  id: scan-continue-vol23-drill-dozer
   facets:
-    people:
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 吉田宏信
-      role: speaker
-      slug: yoshida-hironobu
-    - name: 宫昌太朗
-      role: mentioned
-    - name: 岩田社长
-      role: mentioned
-    - name: 宫本茂
-      role: mentioned
-      slug: miyamoto-shigeru
-    - name: 富野由悠季
-      role: mentioned
-    places:
-    - name: 京都
-      what: 任天堂所在地
-      world: real
     pokemon: []
     works:
     - name: 螺旋破碎机
@@ -4315,68 +4306,87 @@
       slug: null
     - name: 螺旋破坏者 轰振钻头乐园
       slug: null
-  id: scan-continue-vol23-drill-dozer
-  observations:
-  - seg: 4
-    text: 杉森建称本作大约两年前开始制作
-  - seg: 5
-    text: 吉田宏信称《红宝石》《蓝宝石》做完后马上开始
-2005-08-18-scan-continue-vol23-gamefreak-special:
-  facets:
     people:
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
     - name: 杉森建
-      role: mentioned
       slug: sugimori-ken
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 海野隆雄
-      role: mentioned
-      slug: unno-takao
-    - kind: staff
-      name: 江尾可奈子
-      role: mentioned
-      slug: eo-kanako
+      role: speaker
     - name: 吉田宏信
-      role: mentioned
       slug: yoshida-hironobu
-    - name: 松崎浩之
+      role: speaker
+    - name: 宫昌太朗
       role: mentioned
-    places: []
+    - name: 岩田社长
+      role: mentioned
+    - name: 宫本茂
+      slug: miyamoto-shigeru
+      role: mentioned
+    - name: 富野由悠季
+      role: mentioned
+    places:
+    - name: 京都
+      what: 任天堂所在地
+      world: real
+  observations:
+  - text: 杉森建称本作大约两年前开始制作
+    seg: 4
+  - text: 吉田宏信称《红宝石》《蓝宝石》做完后马上开始
+    seg: 5
+2005-08-18-scan-continue-vol23-gamefreak-special:
+  id: scan-continue-vol23-gamefreak-special
+  facets:
     pokemon:
     - name: 皮卡丘
       ndex: 25
     works:
     - name: 宝可梦
       slug: null
-    - name: DOTZ
+    - name: Dots
       slug: null
     - name: Quinty
       slug: null
     - name: 螺旋破坏者
       slug: null
-  id: scan-continue-vol23-gamefreak-special
+    people:
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: mentioned
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    - name: 海野隆雄
+      slug: unno-takao
+      role: mentioned
+    - name: 江尾可奈子
+      slug: eo-kanako
+      role: mentioned
+      kind: staff
+    - name: 吉田宏信
+      slug: yoshida-hironobu
+      role: mentioned
+    - name: 松崎浩之
+      role: mentioned
+    places: []
   observations:
-  - seg: 17
-    text: 田尻智说这次接触《DOTZ》让他想起GAME FREAK还是同人志的时候。
-  - seg: 19
-    text: 杉森建做的是Quinty的主人公（卡顿），称是出道作品的回忆像素。
+  - text: 田尻智说这次接触《Dots》让他想起GAME FREAK还是同人志的时候。
+    seg: 18
+  - text: 杉森建做的是Quinty的主人公（卡顿），称是出道作品的回忆像素。
+    seg: 20
   relations:
-  - id: gamefreak-director-038
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 第38回
     url: /gamefreak-director/entry-038/
     why: 同谈《螺旋破碎机》立项与杉森任总监、吉田负责角色
-  - id: gamefreak-director-031
+    id: gamefreak-director-038
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 第31回
     url: /gamefreak-director/entry-031/
     why: 同涉GAME FREAK首作《昆蒂》原点
+    id: gamefreak-director-031
+    kind: background
 2005-08-30-gamefreak-director-051:
   facets:
     people:
@@ -5015,28 +5025,17 @@
     url: //interview-nom-dp-ishihara-masuda-sugimori/
     why: 同为2006年NOM钻石珍珠主创专访
 2006-11-01-continue-vol31-aoi-yu-pikachu:
+  id: continue-vol31-aoi-yu-pikachu
   facets:
-    people:
-    - name: 苍井优
-      role: mentioned
-    - name: 志田英邦
-      role: mentioned
-    - name: 犬山犬子
-      role: mentioned
-      slug: inuyama-inuko
-    places:
-    - name: 福冈县
-      what: 苍井优出生地
-      world: real
     pokemon:
     - name: 妙蛙种子
       ndex: 1
     - name: 皮卡丘
       ndex: 25
+    - name: 喵喵
+      ndex: 52
     - name: 快龙
       ndex: 149
-    - name: 伽勒尔喵喵
-      ndex: 52
     works:
     - name: 宝可梦
       slug: null
@@ -5050,12 +5049,23 @@
       slug: null
     - name: 虫师
       slug: null
-  id: continue-vol31-aoi-yu-pikachu
+    people:
+    - name: 苍井优
+      role: mentioned
+    - name: 志田英邦
+      role: mentioned
+    - name: 犬山犬子
+      slug: inuyama-inuko
+      role: mentioned
+    places:
+    - name: 福冈县
+      what: 苍井优出生地
+      world: real
   observations:
-  - seg: 3
-    text: 苍井优说哥哥以前玩得特别投入，还一直唱《能说出宝可梦吗？》
-  - seg: 4
-    text: 苍井优1985年8月17日出生，福冈县人，出演《宝可梦 钻石／珍珠》电视广告
+  - text: 苍井优说哥哥以前玩得特别投入，还一直唱《能说出宝可梦吗？》
+    seg: 5
+  - text: 苍井优1985年8月17日出生，福冈县人，出演《宝可梦 钻石／珍珠》电视广告
+    seg: 6
 2006-11-14-gamefreak-director-061:
   facets:
     people:
@@ -9730,7 +9740,52 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch156/
     why: 第156回谈闪烁事件前的创作压力与心境
 2008-08-21-scan-ndream-2008-10-platinum-special:
+  id: scan-ndream-2008-10-platinum-special
   facets:
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 烈焰马
+      ndex: 78
+    - name: 暴鲤龙
+      ndex: 130
+    - name: 多边兽
+      ndex: 137
+    - name: 果然翁
+      ndex: 202
+    - name: 吞食兽
+      ndex: 317
+    - name: 夜巡灵
+      ndex: 355
+    - name: 草苗龟
+      ndex: 387
+    - name: 小火焰猴
+      ndex: 390
+    - name: 波加曼
+      ndex: 393
+    - name: 结草儿
+      ndex: 412
+    - name: 浮潜鼬
+      ndex: 419
+    - name: 铃铛响
+      ndex: 433
+    - name: 青铜钟
+      ndex: 437
+    - name: 魔尼尼
+      ndex: 439
+    - name: 自爆磁怪
+      ndex: 462
+    - name: 天蝎王
+      ndex: 472
+    - name: 骑拉帝纳
+      ndex: 487
+    - name: 谢米
+      ndex: 492
+    works:
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
     people:
     - name: 山梨博士
       role: mentioned
@@ -9781,100 +9836,27 @@
     - name: 对战开拓区
       what: 新增对战设施
       world: game
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 烈焰马
-      ndex: 78
-    - name: 暴鲤龙
-      ndex: 130
-    - name: 多边兽
-      ndex: 137
-    - name: 果然翁
-      ndex: 202
-    - name: 吞食兽
-      ndex: 317
-    - name: 夜巡灵
-      ndex: 355
-    - name: 草苗龟
-      ndex: 387
-    - name: 小火焰猴
-      ndex: 390
-    - name: 波加曼
-      ndex: 393
-    - name: 结草儿
-      ndex: 412
-    - name: 浮潜鼬
-      ndex: 419
-    - name: 铃铛响
-      ndex: 433
-    - name: 青铜钟
-      ndex: 437
-    - name: 魔尼尼
-      ndex: 439
-    - name: 自爆磁怪
-      ndex: 462
-    - name: 天蝎王
-      ndex: 472
-    - name: 骑拉帝纳
-      ndex: 487
-    - name: 谢米
-      ndex: 492
-    works:
-    - name: 宝可梦 白金
-      slug: platinum
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-  id: scan-ndream-2008-10-platinum-special
   observations:
-  - seg: 5
-    text: 《钻石·珍珠》中的骑拉帝纳是别种形态，《白金》中起源形态的身高、体重和特性也发生变化。
-  - seg: 18
-    text: 剪影2的真身无法在通常游玩中见到，需要某个道具，该道具配信期间为2008年9月28日至11月4日。
+  - text: 《钻石·珍珠》中的骑拉帝纳是别种形态，《白金》中起源形态的身高、体重和特性也发生变化。
+    seg: 5
+  - text: 剪影2的真身无法在通常游玩中见到，需要某个道具，该道具配信期间为2008年9月28日至11月4日。
+    seg: 18
   relations:
-  - id: scan-ndream-2008-12-game-freak-interview
-    kind: responds
-    label: 后来回应了这篇
+  - label: 后来回应了这篇
     title: GAME FREAK谈宝可梦白金
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/
     why: 同刊后续访谈补充起源形态与毁坏的世界
-  - id: scan-ndream-2008-12-platinum-battle-dojo
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    id: scan-ndream-2008-12-game-freak-interview
+    kind: responds
+  - label: 同一件事的另一种说法
     title: GAME FREAK对战专访
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-platinum-battle-dojo/
     why: 同刊同号《白金》特辑的对战报道
+    id: scan-ndream-2008-12-platinum-battle-dojo
+    kind: same-occasion
 2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th:
+  id: scan-ndream-2008-10-tajiri-famicom-25th
   facets:
-    people:
-    - name: 田尻智
-      role: speaker
-      slug: tajiri-satoshi
-    - name: 中村光一
-      role: mentioned
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 宫本茂
-      role: mentioned
-      slug: miyamoto-shigeru
-    - name: 高桥名人
-      role: mentioned
-    - name: 山本
-      role: mentioned
-    places:
-    - name: 新宿御苑
-      what: Fusion Product所在地
-      world: real
-    - name: 爱媛县
-      what: 游戏狂热者出身地
-      world: real
-    - name: 御茶之水游戏中心
-      what: 《Flicky》测试地点
-      world: real
-    - name: 世嘉大楼
-      what: 一层有展示厅
-      world: real
     pokemon:
     - name: 妙蛙种子
       ndex: 1
@@ -9892,8 +9874,6 @@
       ndex: 10
     - name: 皮卡丘
       ndex: 25
-    - name: 霸王花
-      ndex: 45
     - name: 独角犀牛
       ndex: 111
     - name: 钻角犀兽
@@ -9963,12 +9943,40 @@
       slug: null
     - name: 新游戏设计 电视游戏制作的想法
       slug: null
-  id: scan-ndream-2008-10-tajiri-famicom-25th
+    people:
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: speaker
+    - name: 中村光一
+      role: mentioned
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    - name: 宫本茂
+      slug: miyamoto-shigeru
+      role: mentioned
+    - name: 高桥名人
+      role: mentioned
+    - name: 山本
+      role: mentioned
+    places:
+    - name: 新宿御苑
+      what: Fusion Product所在地
+      world: real
+    - name: 爱媛县
+      what: 游戏狂热者出身地
+      world: real
+    - name: 御茶之水游戏中心
+      what: 《Flicky》测试地点
+      world: real
+    - name: 世嘉大楼
+      what: 一层有展示厅
+      world: real
   observations:
-  - seg: 40
-    text: 创刊号复印订册，20到30册一周左右卖光
-  - seg: 93
-    text: 他们到手工资约15万日元，田尻智提出由自己支付
+  - text: 创刊号复印订册，20到30册一周左右卖光
+    seg: 40
+  - text: 他们到手工资约15万日元，田尻智提出由自己支付
+    seg: 93
 2008-08-22-gamefreak-staff-84:
   facets:
     people:
@@ -10626,22 +10634,63 @@
   - seg: 8
     text: 听说葡萄表面颜色越深就越甜
 2008-10-21-scan-ndream-2008-12-game-freak-interview:
+  id: scan-ndream-2008-12-game-freak-interview
   facets:
+    pokemon:
+    - name: 阿柏怪
+      ndex: 24
+    - name: 超音蝠
+      ndex: 41
+    - name: 伊布
+      ndex: 133
+    - name: 卡比兽
+      ndex: 143
+    - name: 猫头夜鹰
+      ndex: 164
+    - name: 图图犬
+      ndex: 235
+    - name: 巨金怪
+      ndex: 376
+    - name: 洛托姆
+      ndex: 479
+    - name: 帝牙卢卡
+      ndex: 483
+    - name: 帕路奇亚
+      ndex: 484
+    - name: 骑拉帝纳
+      ndex: 487
+    - name: 谢米
+      ndex: 492
+    works:
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+    - name: 宝可梦集换式卡牌游戏
+      slug: null
+    - name: 宝可梦 绿宝石
+      slug: emerald
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 宝可梦 水晶
+      slug: null
     people:
     - name: 川内丸武史
       role: speaker
     - name: 太田哲司
-      role: speaker
       slug: ota-tetsuji
+      role: speaker
     - name: 中津井优
-      role: speaker
       slug: nakatsui-yu
+      role: speaker
     - name: 增田顺一
-      role: speaker
       slug: masuda-junichi
-    - name: 西野弘二
       role: speaker
+    - name: 西野弘二
       slug: nishino-koji
+      role: speaker
     - name: 森本
       role: mentioned
     places:
@@ -10675,79 +10724,49 @@
     - name: 对战开拓区
       what: 可双人挑战的设施
       world: game
-    pokemon:
-    - name: 阿柏怪
-      ndex: 24
-    - name: 超音蝠
-      ndex: 41
-    - name: 卡比兽
-      ndex: 143
-    - name: 猫头夜鹰
-      ndex: 164
-    - name: 图图犬
-      ndex: 235
-    - name: 巨金怪
-      ndex: 376
-    - name: 洛托姆
-      ndex: 479
-    - name: 帝牙卢卡
-      ndex: 483
-    - name: 骑拉帝纳
-      ndex: 487
-    - name: 伊布
-      ndex: 133
-    - name: 谢米
-      ndex: 492
+  observations:
+  - text: 《白金》把「催眠术」命中率从70降到60
+    seg: 29
+  - text: GB版《红·绿》因程序容量，招式只能记4个
+    seg: 32
+  relations:
+  - label: 同一件事的另一种说法
+    title: GAME FREAK对战专访
+    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-platinum-battle-dojo/
+    why: 同为2008-10-21 Nintendo DREAM《白金》特辑报道
+    id: scan-ndream-2008-12-platinum-battle-dojo
+    kind: same-occasion
+  - label: 同一件事的另一种说法
+    title: 增田顺一喜欢彩虹大桥
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-masuda-rainbow-bridge/
+    why: 同日Nintendo DREAM刊载的增田顺一访谈
+    id: scan-ndream-2008-12-masuda-rainbow-bridge
+    kind: same-occasion
+  - label: 为这篇提供背景
+    title: 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/
+    why: 同谈《白金》招式属性设计与破灭世界
+    id: interview-nintendo-power-masuda-gens-1-4
+    kind: background
+2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge:
+  id: scan-ndream-2008-12-masuda-rainbow-bridge
+  facets:
+    pokemon: []
     works:
     - name: 宝可梦 白金
       slug: platinum
     - name: 宝可梦 钻石·珍珠
       slug: diamond-pearl
-    - name: 宝可梦集换式卡牌游戏
+    - name: 昆迪
       slug: null
-    - name: 宝可梦 绿宝石
-      slug: emerald
     - name: 宝可梦 红·绿
       slug: red-green
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 宝可梦 水晶
-      slug: null
-  id: scan-ndream-2008-12-game-freak-interview
-  observations:
-  - seg: 29
-    text: 《白金》把「催眠术」命中率从70降到60
-  - seg: 32
-    text: GB版《红·绿》因程序容量，招式只能记4个
-  relations:
-  - id: scan-ndream-2008-12-platinum-battle-dojo
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: GAME FREAK对战专访
-    url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-platinum-battle-dojo/
-    why: 同为2008-10-21 Nintendo DREAM《白金》特辑报道
-  - id: scan-ndream-2008-12-masuda-rainbow-bridge
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 增田顺一喜欢彩虹大桥
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-masuda-rainbow-bridge/
-    why: 同日Nintendo DREAM刊载的增田顺一访谈
-  - id: interview-nintendo-power-masuda-gens-1-4
-    kind: background
-    label: 为这篇提供背景
-    title: 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/
-    why: 同谈《白金》招式属性设计与破灭世界
-2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge:
-  facets:
     people:
     - name: 長官
       role: speaker
     - name: 增田顺一
-      role: speaker
       slug: masuda-junichi
-    - name: 金谷
-      role: mentioned
+      role: speaker
     places:
     - name: 彩虹大桥
       what: 增田喜欢的桥
@@ -10776,57 +10795,27 @@
     - name: 横滨
       what: 增田的老家
       world: real
-    pokemon: []
-    works:
-    - name: 宝可梦 白金
-      slug: platinum
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-    - name: 昆迪
-      slug: null
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: アルキメDS
-      slug: null
-  id: scan-ndream-2008-12-masuda-rainbow-bridge
   observations:
-  - seg: 3
-    text: 長官说从早上数到现在约1万1000步，走了1.5公里
-  - seg: 6
-    text: 增田顺一在《宝可梦 钻石·珍珠》开发结束时从台场海滨公园看到彩虹大桥而迷上
+  - text: 長官说从早上数到现在约1万1000步，走了1.5公里
+    seg: 3
+  - text: 增田顺一在《宝可梦 钻石·珍珠》开发结束时从台场海滨公园看到彩虹大桥而迷上
+    seg: 6
   relations:
-  - id: scan-ndream-2008-10-platinum-special
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 宝可梦 白金 直前特报
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-10-platinum-special/
     why: 同为2008年《白金》发售前报道，提供游戏背景
-  - id: interview-nintendo-power-masuda-gens-1-4
+    id: scan-ndream-2008-10-platinum-special
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/
     why: 同为增田谈《白金》开发的访谈，提供背景
+    id: interview-nintendo-power-masuda-gens-1-4
+    kind: background
 2008-10-21-scan-ndream-2008-12-platinum-battle-dojo:
+  id: scan-ndream-2008-12-platinum-battle-dojo
   facets:
-    people:
-    - name: 対象大会
-      role: speaker
-    - name: 太田哲司
-      role: mentioned
-      slug: ota-tetsuji
-    - name: 中津井优
-      role: mentioned
-      slug: nakatsui-yu
-    - name: 西野弘二
-      role: mentioned
-      slug: nishino-koji
-    - name: 川内丸武史
-      role: mentioned
-    places:
-    - name: 祝庆市全球终端
-      what: 下载对战视频处
-      world: game
     pokemon:
     - name: 阿柏怪
       ndex: 24
@@ -10879,25 +10868,42 @@
     works:
     - name: 宝可梦 白金
       slug: platinum
-  id: scan-ndream-2008-12-platinum-battle-dojo
+    people:
+    - name: 対象大会
+      role: speaker
+    - name: 太田哲司
+      slug: ota-tetsuji
+      role: mentioned
+    - name: 中津井优
+      slug: nakatsui-yu
+      role: mentioned
+    - name: 西野弘二
+      slug: nishino-koji
+      role: mentioned
+    - name: 川内丸武史
+      role: mentioned
+    places:
+    - name: 祝庆市全球终端
+      what: 下载对战视频处
+      world: game
   observations:
-  - seg: 26
-    text: 对战在GAME FREAK公司内一间房间进行，画面投影到屏幕上
-  - seg: 28
-    text: 规则为宝可梦等级1~50、4只参赛的双打对战
+  - text: 对战在GAME FREAK公司内一间房间进行，画面投影到屏幕上
+    seg: 26
+  - text: 规则为宝可梦等级1~50、4只参赛的双打对战
+    seg: 28
   relations:
-  - id: scan-ndream-2008-12-game-freak-interview
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: GAME FREAK谈宝可梦白金
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-game-freak-interview/
     why: 同为2008-10-21 Nintendo DREAM的GAME FREAK对战
-  - id: scan-ndream-2008-12-masuda-rainbow-bridge
+    id: scan-ndream-2008-12-game-freak-interview
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 增田顺一喜欢彩虹大桥
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2008-12-masuda-rainbow-bridge/
     why: 同为2008-10-21 Nintendo DREAM的GAME FREAK专访
+    id: scan-ndream-2008-12-masuda-rainbow-bridge
+    kind: same-occasion
 2008-10-24-gamefreak-staff-93:
   facets:
     people:
@@ -16481,58 +16487,8 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/
     why: 森本谈《金·银》开发难产，本篇为重制访谈
 2009-09-21-scan-ndream-2009-11-hgss-developer-interview:
+  id: scan-ndream-2009-11-hgss-developer-interview
   facets:
-    people:
-    - name: 新版本
-      role: speaker
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 森本茂树
-      role: speaker
-      slug: morimoto-shigeki
-    - name: 松岛贤二
-      role: speaker
-      slug: matsushima-kenji
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - name: 森昭人
-      role: speaker
-      slug: sen-zhang-ren
-    - name: 全体
-      role: speaker
-    - name: 一之濑刚
-      role: speaker
-      slug: ichinose-go
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    places:
-    - name: 若叶镇
-      what: 冒险起点，风吹之镇
-      world: game
-    - name: 七之岛
-      what: 可前往的新土地
-      world: game
-    - name: 常青森林
-      what: 《金·银》中被砍掉
-      world: game
-    - name: 桔梗道馆
-      what: 最初的道馆
-      world: game
-    - name: 关都地区
-      what: 登入名人堂后可去
-      world: game
-    - name: 城都地区
-      what: 融入和风意象
-      world: game
-    - name: 神奥地区
-      what: 新冒险的舞台
-      world: game
-    - name: 缘朱市
-      what: 更有和风气息
-      world: game
     pokemon:
     - name: 水箭龟
       ndex: 9
@@ -16544,12 +16500,20 @@
       ndex: 152
     - name: 大尾立
       ndex: 162
+    - name: 皮丘
+      ndex: 172
     - name: 玛力露
       ndex: 183
     - name: 巨钳螳螂
       ndex: 212
+    - name: 壶壶
+      ndex: 213
+    - name: 水君
+      ndex: 245
     - name: 洛奇亚
       ndex: 249
+    - name: 凤王
+      ndex: 250
     - name: 蜥蜴王
       ndex: 254
     - name: 盖欧卡
@@ -16570,14 +16534,6 @@
       ndex: 484
     - name: 骑拉帝纳
       ndex: 487
-    - name: 皮丘
-      ndex: 172
-    - name: 壶壶
-      ndex: 213
-    - name: 水君
-      ndex: 245
-    - name: 凤王
-      ndex: 250
     works:
     - name: 宝可梦 心金·魂银
       slug: heartgold-soulsilver
@@ -16603,74 +16559,101 @@
       slug: null
     - name: 钻石·珍珠·白金
       slug: null
-  id: scan-ndream-2009-11-hgss-developer-interview
+    people:
+    - name: 新版本
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    - name: 森本茂树
+      slug: morimoto-shigeki
+      role: speaker
+    - name: 松岛贤二
+      slug: matsushima-kenji
+      role: speaker
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: 森昭人
+      slug: sen-zhang-ren
+      role: speaker
+    - name: 全体
+      role: speaker
+    - name: 一之濑刚
+      slug: ichinose-go
+      role: speaker
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    places:
+    - name: 若叶镇
+      what: 冒险起点，风吹之镇
+      world: game
+    - name: 七之岛
+      what: 可前往的新土地
+      world: game
+    - name: 常青森林
+      what: 《金·银》中被砍掉
+      world: game
+    - name: 桔梗道馆
+      what: 最初的道馆
+      world: game
+    - name: 关都地区
+      what: 登入名人堂后可去
+      world: game
+    - name: 城都地区
+      what: 融入和风意象
+      world: game
+    - name: 神奥地区
+      what: 新冒险的舞台
+      world: game
+    - name: 缘朱市
+      what: 更有和风气息
+      world: game
   observations:
-  - seg: 98
-    text: 增田说《金·银》1999年发售，模糊想着约10年后重制
-  - seg: 135
-    text: 增田称宝可梦计步器是与《HG·SS》一体的商品
+  - text: 增田说《金·银》1999年发售，模糊想着约10年后重制
+    seg: 98
+  - text: 增田称宝可梦计步器是与《HG·SS》一体的商品
+    seg: 135
   relations:
-  - id: interview-gameinformer-masuda-morimoto-hgss
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameinformer-masuda-morimoto-hgss/
     why: 同为《心金·魂银》重制访谈，森本谈十年重制时机
-  - id: interview-iwata-asks-hgss-chapter-4-pokewalker-493-following
+    id: interview-gameinformer-masuda-morimoto-hgss
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/
     why: 同为《心金·魂银》访谈，谈宝可梦计步器开发
+    id: interview-iwata-asks-hgss-chapter-4-pokewalker-493-following
+    kind: same-occasion
 2009-09-21-scan-ndream-2009-11-sugimori-charakami-special:
+  id: scan-ndream-2009-11-sugimori-charakami-special
   facets:
-    people:
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 田尻智
-      role: mentioned
-      slug: tajiri-satoshi
-    - name: 海野隆雄
-      role: mentioned
-      slug: unno-takao
-    - name: 石森章太郎
-      role: mentioned
-    - name: 松本零士
-      role: mentioned
-    - kind: figure
-      name: 手冢治虫
-      role: mentioned
-      slug: shou-zhong-zhi-chong
-    - name: 细野不二彦
-      role: mentioned
-    places:
-    - name: 福冈县
-      what: 杉森建出生地
-      world: real
     pokemon:
     - name: 喷火龙
       ndex: 6
     - name: 皮卡丘
       ndex: 25
+    - name: 雷丘
+      ndex: 26
     - name: 小磁怪
       ndex: 81
     - name: 百变怪
       ndex: 132
+    - name: 皮丘
+      ndex: 172
     - name: 洛奇亚
       ndex: 249
+    - name: 凤王
+      ndex: 250
     - name: 小卡比兽
       ndex: 446
     - name: 路卡利欧
       ndex: 448
     - name: 骑拉帝纳
       ndex: 487
-    - name: 皮丘
-      ndex: 172
-    - name: 阿罗拉雷丘
-      ndex: 26
-    - name: 凤王
-      ndex: 250
     works:
     - name: 宝可梦 心金·魂银
       slug: heartgold-soulsilver
@@ -16772,25 +16755,48 @@
       slug: null
     - name: Gu-Gu甘莫
       slug: null
-  id: scan-ndream-2009-11-sugimori-charakami-special
+    people:
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: mentioned
+    - name: 海野隆雄
+      slug: unno-takao
+      role: mentioned
+    - name: 石森章太郎
+      role: mentioned
+    - name: 松本零士
+      role: mentioned
+    - name: 手冢治虫
+      slug: shou-zhong-zhi-chong
+      role: mentioned
+      kind: figure
+    - name: 细野不二彦
+      role: mentioned
+    places:
+    - name: 福冈县
+      what: 杉森建出生地
+      world: real
   observations:
-  - seg: 15
-    text: 皮卡丘有皮丘和雷丘两种进化形，雄性尾巴末端呈棱角状，雌性带心形圆润感。
-  - seg: 100
-    text: 《心金·魂银》由美术总监海野先考虑设计，杉森监修并画成插画。
+  - text: 皮卡丘的进化链包括皮丘和雷丘；雄性尾巴末端有棱角，雌性末端呈心形。
+    seg: 15
+  - text: 《心金·魂银》由美术总监海野先考虑设计，杉森监修并画成插画。
+    seg: 100
   relations:
-  - id: scan-ndream-2009-11-hgss-developer-interview
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 心金·魂银开发访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/
     why: 同为Nintendo DREAM 2009-09-21《心金·魂银》特辑
-  - id: interview-iwata-asks-hgss-chapter-4-pokewalker-493-following
-    kind: background
-    label: 为这篇提供背景
+    id: scan-ndream-2009-11-hgss-developer-interview
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/
     why: 同涉《心金·魂银》开发与杉森建相关访谈背景
+    id: interview-iwata-asks-hgss-chapter-4-pokewalker-493-following
+    kind: background
 2009-09-25-gamefreak-staff-145:
   facets:
     people:
@@ -19307,11 +19313,36 @@
   - seg: 9
     text: 佐藤挑战过舞妓的穿法和十二单
 2010-02-20-scan-ndream-2010-04-creatures-ranger-interview:
+  id: scan-ndream-2010-04-creatures-ranger-interview
   facets:
+    pokemon:
+    - name: 皮丘
+      ndex: 172
+    - name: 代欧奇希斯
+      ndex: 386
+    - name: 席多蓝恩
+      ndex: 485
+    - name: 玛纳霏
+      ndex: 490
+    - name: 谢米
+      ndex: 492
+    - name: 轻飘飘
+      ndex: 592
+    works:
+    - name: 宝可梦巡护员 光之轨迹
+      slug: null
+    - name: 宝可梦巡护员
+      slug: null
+    - name: 宝可梦巡护员 风涌篇
+      slug: null
+    - name: MOTHER2
+      slug: null
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
     people:
     - name: 入江胜义
-      role: speaker
       slug: ru-jiang-sheng-yi
+      role: speaker
     - name: 五十岚宽
       role: speaker
     - name: 鸟居廉功
@@ -19321,72 +19352,20 @@
     - name: 一同
       role: speaker
     places:
-    - name: 奥布利比亚地区
+    - name: 奥卜利比亚地区
       what: 本作故事舞台
       world: game
     - name: 奥布利维亚地区
       what: 南方岛屿印象地区
       world: game
-    pokemon:
-    - name: ピチュー
-      ndex: 172
-    - name: 代欧奇希斯
-      ndex: 386
-    - name: 席多蓝恩
-      ndex: 485
-    - name: 玛纳霏
-      ndex: 490
-    - name: 轻飘飘
-      ndex: 592
-    - name: 谢米
-      ndex: 492
-    works:
-    - name: 宝可梦巡护员 光之轨迹
-      slug: null
-    - name: 宝可梦巡护员
-      slug: null
-    - name: 宝可梦巡护员 巴特那吉
-      slug: null
-    - name: MOTHER2
-      slug: null
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-  id: scan-ndream-2010-04-creatures-ranger-interview
   observations:
-  - seg: 21
-    text: 2004年DS发售时Creatures内部提出做拓展宝可梦世界观的作品
-  - seg: 108
-    text: 《巴特那吉》有17种搭档宝可梦，可从中选一只同行
+  - text: 2004年DS发售时Creatures内部提出做拓展宝可梦世界观的作品
+    seg: 21
+  - text: 《风涌篇》有17种搭档宝可梦，可从中选一只同行
+    seg: 108
 2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal:
+  id: scan-ndream-2010-04-pokemon-bw-first-reveal
   facets:
-    people:
-    - name: 予想
-      role: speaker
-    places:
-    - name: 伙伴公园
-      what: GBA向DS传送处
-      world: game
-    - name: 关都地区
-      what: 第一作舞台
-      world: game
-    - name: 城都地区
-      what: 金·银舞台
-      world: game
-    - name: 丰缘地区
-      what: 红宝石·蓝宝石舞台
-      world: game
-    - name: 神奥地区
-      what: 钻石·珍珠舞台
-      world: game
-    - name: 东北地区
-      what: 预测的新舞台
-      world: real
-    - name: 中国·四国地区
-      what: 预测的新舞台
-      world: real
-    - name: 九州地区
-      what: 丰缘地区形状参照
-      world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -19416,7 +19395,7 @@
       ndex: 469
     - name: 索罗亚
       ndex: 570
-    - name: ゾロアーク
+    - name: 索罗亚克
       ndex: 571
     works:
     - name: 宝可梦 黑·白
@@ -19447,14 +19426,66 @@
       slug: null
     - name: 剧场版宝可梦 钻石·珍珠 幻影的霸者 索罗亚克
       slug: null
-  id: scan-ndream-2010-04-pokemon-bw-first-reveal
+    people:
+    - name: 予想
+      role: speaker
+    places:
+    - name: 伙伴公园
+      what: GBA向DS传送处
+      world: game
+    - name: 关都地区
+      what: 第一作舞台
+      world: game
+    - name: 城都地区
+      what: 金·银舞台
+      world: game
+    - name: 丰缘地区
+      what: 红宝石·蓝宝石舞台
+      world: game
+    - name: 神奥地区
+      what: 钻石·珍珠舞台
+      world: game
+    - name: 东北地区
+      what: 预测的新舞台
+      world: real
+    - name: 中国·四国地区
+      what: 预测的新舞台
+      world: real
+    - name: 九州地区
+      what: 丰缘地区形状参照
+      world: real
   observations:
-  - seg: 4
-    text: 距《钻石·珍珠》4年之后，2010年始动
-  - seg: 23
-    text: 完全新作大约每3～4年推出一款，同一硬件上推出第二款完全新作是首次
+  - text: 距《钻石·珍珠》4年之后，2010年始动
+    seg: 4
+  - text: 完全新作大约每3～4年推出一款，同一硬件上推出第二款完全新作是首次
+    seg: 23
 2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective:
+  id: scan-ndream-2010-04-pokemon-ranger-retrospective
   facets:
+    pokemon:
+    - name: 黑鲁加
+      ndex: 229
+    - name: 雷公
+      ndex: 243
+    - name: 时拉比
+      ndex: 251
+    - name: 正电拍拍
+      ndex: 311
+    - name: 吼吼鲸
+      ndex: 320
+    - name: 圆法师
+      ndex: 401
+    - name: 盾甲龙
+      ndex: 410
+    works:
+    - name: 宝可梦巡护员
+      slug: null
+    - name: 宝可梦巡护员 风涌篇
+      slug: null
+    - name: 宝可梦巡护员 光之轨迹
+      slug: null
+    - name: 宝可梦
+      slug: null
     people:
     - name: 疾风
       role: mentioned
@@ -19519,49 +19550,24 @@
     - name: 福尔市
       what: 菲奥雷首屈一指都市
       world: game
-    pokemon:
-    - name: 黑鲁加
-      ndex: 229
-    - name: 时拉比
-      ndex: 251
-    - name: 正电拍拍
-      ndex: 311
-    - name: 吼吼鲸
-      ndex: 320
-    - name: 圆法师
-      ndex: 401
-    - name: 盾甲龙
-      ndex: 410
-    - name: 雷公
-      ndex: 243
-    works:
-    - name: 宝可梦巡护员
-      slug: null
-    - name: 宝可梦巡护员 巴特那吉
-      slug: null
-    - name: 宝可梦巡护员 光的轨迹
-      slug: null
-    - name: 宝可梦
-      slug: null
-  id: scan-ndream-2010-04-pokemon-ranger-retrospective
   observations:
-  - seg: 4
-    text: 《宝可梦巡护员》2006年3月23日发售，4800日元（含税）
-  - seg: 64
-    text: 《巴特那吉》2008年3月20日发售，4800日元（含税）
+  - text: 《宝可梦巡护员》2006年3月23日发售，4800日元（含税）
+    seg: 4
+  - text: 《风涌篇》2008年3月20日发售，4800日元（含税）
+    seg: 64
   relations:
-  - id: scan-ndream-2010-04-creatures-ranger-interview
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 直击Creatures：宝可梦巡护员全解
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-creatures-ranger-interview/
     why: 同为2010年4月号《巡护员》系列特辑报道
-  - id: scan-ndream-2010-04-pokemon-bw-first-reveal
+    id: scan-ndream-2010-04-creatures-ranger-interview
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 《宝可梦》完全新作始动
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
     why: 同刊2010年4月号卷头特辑
+    id: scan-ndream-2010-04-pokemon-bw-first-reveal
+    kind: same-occasion
 2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213:
   facets:
     people:
@@ -22982,11 +22988,72 @@
     url: /gamefreak-director/entry-170/
     why: 该篇谈全程新宝可梦设计，本篇为完成当天
 2010-09-21-scan-ndream-2010-11-five-regions-guide:
+  id: scan-ndream-2010-11-five-regions-guide
   facets:
+    pokemon:
+    - name: 皮皮
+      ndex: 35
+    - name: 喇叭芽
+      ndex: 69
+    - name: 呆呆兽
+      ndex: 79
+    - name: 鲤鱼王
+      ndex: 129
+    - name: 闪电鸟
+      ndex: 145
+    - name: 火焰鸟
+      ndex: 146
+    - name: 未知图腾
+      ndex: 201
+    - name: 大钢蛇
+      ndex: 208
+    - name: 铁炮鱼
+      ndex: 223
+    - name: 图图犬
+      ndex: 235
+    - name: 洛奇亚
+      ndex: 249
+    - name: 丑丑鱼
+      ndex: 349
+    - name: 盖欧卡
+      ndex: 382
+    - name: 帝牙卢卡
+      ndex: 483
+    - name: 帕路奇亚
+      ndex: 484
+    - name: 席多蓝恩
+      ndex: 485
+    - name: 骑拉帝纳
+      ndex: 487
+    - name: 食梦梦
+      ndex: 517
+    works:
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+    - name: 宝可梦 绿宝石
+      slug: emerald
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦FR・LG
+      slug: null
+    - name: 宝可梦HG・SS
+      slug: null
+    - name: 宝可梦 心金·魂银
+      slug: heartgold-soulsilver
+    - name: 宝可梦 火红·叶绿
+      slug: firered-leafgreen
     people:
     - name: 幻影之塔
       role: speaker
-    - name: 阿拉拉基
+    - name: 红豆杉
       role: mentioned
     - name: 黑连
       role: mentioned
@@ -22994,10 +23061,10 @@
       role: mentioned
     - name: 小菘
       role: mentioned
-    - kind: character
-      name: 小霞
-      role: mentioned
+    - name: 小霞
       slug: xiao-xia
+      role: mentioned
+      kind: character
     - name: 松叶
       role: mentioned
     - name: 源治
@@ -23043,87 +23110,30 @@
     - name: 缘朱市
       what: 流传凤王传说的古都
       world: game
-    pokemon:
-    - name: 喇叭芽
-      ndex: 69
-    - name: 呆呆兽
-      ndex: 79
-    - name: 鲤鱼王
-      ndex: 129
-    - name: 闪电鸟
-      ndex: 145
-    - name: 火焰鸟
-      ndex: 146
-    - name: 未知图腾
-      ndex: 201
-    - name: 大钢蛇
-      ndex: 208
-    - name: 铁炮鱼
-      ndex: 223
-    - name: 洛奇亚
-      ndex: 249
-    - name: 丑丑鱼
-      ndex: 349
-    - name: 盖欧卡
-      ndex: 382
-    - name: 帝牙卢卡
-      ndex: 483
-    - name: 帕路奇亚
-      ndex: 484
-    - name: 席多蓝恩
-      ndex: 485
-    - name: 骑拉帝纳
-      ndex: 487
-    - name: 皮皮
-      ndex: 35
-    works:
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 宝可梦 红宝石·蓝宝石
-      slug: ruby-sapphire
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-    - name: 宝可梦 绿宝石
-      slug: emerald
-    - name: 宝可梦 白金
-      slug: platinum
-    - name: 宝可梦FR・LG
-      slug: null
-    - name: 宝可梦HG・SS
-      slug: null
-    - name: 宝可梦 心金·魂银
-      slug: heartgold-soulsilver
-    - name: 宝可梦 火红·叶绿
-      slug: firered-leafgreen
-  id: scan-ndream-2010-11-five-regions-guide
   observations:
-  - seg: 19
-    text: 阿拉拉基研究合众地区宝可梦，会把宝可梦图鉴交给玩家
-  - seg: 22
-    text: 飞云市是合众地区也是历代所有地区中最大的城市
+  - text: 红豆杉研究合众地区宝可梦，会把宝可梦图鉴交给玩家
+    seg: 19
+  - text: 飞云市是合众地区也是历代所有地区中最大的城市
+    seg: 22
   relations:
-  - id: scan-ndream-2010-04-pokemon-bw-first-reveal
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 《宝可梦》完全新作始动
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
     why: 同刊报道《黑·白》新作与合众地区
-  - id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
+    id: scan-ndream-2010-04-pokemon-bw-first-reveal
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 宝可梦 黑·白 乐曲魂特别篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/
     why: 同刊《黑·白》专题，涉合众
-  - id: scan-ndream-2012-10-pokemon-music-interview
-    kind: continues
-    label: 同一系列的前后篇
+    id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
+    kind: background
+  - label: 同一系列的前后篇
     title: 宝可梦音乐以进化为目标
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-10-pokemon-music-interview/
     why: 同刊《黑·白》系列后续声音访谈
+    id: scan-ndream-2012-10-pokemon-music-interview
+    kind: continues
 2010-09-22-gamefreak-director-178:
   facets:
     people:
@@ -23387,48 +23397,8 @@
     url: /gamefreak-staff/entry-202/
     why: 同系列工作日志，前一篇讲剧本
 2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview:
+  id: scan-dengeki-games-vol14-bw-gamefreak-interview
   facets:
-    people:
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 太田哲司
-      role: speaker
-      slug: ota-tetsuji
-    - name: 大森滋
-      role: speaker
-      slug: ohmori-shigeru
-    - name: 水口舞
-      role: speaker
-      slug: mizuguchi-mai
-    places:
-    - entity: pokemon_center_tokyo
-      name: 宝可梦中心东京
-      world: real
-    - name: 白森林
-      what: 通关后可去
-      world: game
-    - name: 连入之树
-      what: 通往他人世界
-      world: game
-    - name: 鹿子镇
-      what: 野生宝可梦区域
-      world: game
-    - name: 合众地区
-      what: 本作舞台
-      world: game
-    - name: 纽约
-      what: 合众的原型
-      world: real
-    - name: 黑色市
-      what: 通关后可去
-      world: game
-    - name: 雷文市
-      what: 野生宝可梦区域
-      world: game
     pokemon:
     - name: 比克提尼
       ndex: 494
@@ -23517,31 +23487,71 @@
       slug: red-green
     - name: 宝可梦 钻石·珍珠
       slug: diamond-pearl
-  id: scan-dengeki-games-vol14-bw-gamefreak-interview
+    people:
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 太田哲司
+      slug: ota-tetsuji
+      role: speaker
+    - name: 大森滋
+      slug: ohmori-shigeru
+      role: speaker
+    - name: 水口舞
+      slug: mizuguchi-mai
+      role: speaker
+    places:
+    - name: 宝可梦中心东京
+      world: real
+      entity: pokemon_center_tokyo
+    - name: 白森林
+      what: 通关后可去
+      world: game
+    - name: 连入之树
+      what: 通往他人世界
+      world: game
+    - name: 鹿子镇
+      what: 野生宝可梦区域
+      world: game
+    - name: 合众地区
+      what: 本作舞台
+      world: game
+    - name: 纽约
+      what: 合众的原型
+      world: real
+    - name: 黑色市
+      what: 通关后可去
+      world: game
+    - name: 雷文市
+      what: 野生宝可梦区域
+      world: game
   observations:
-  - seg: 15
-    text: 增田说精灵球捕捉与草丛遭遇野生宝可梦不会变
-  - seg: 47
-    text: 包装做成白色配捷克罗姆、黑色配莱希拉姆以便显眼
+  - text: 增田说精灵球捕捉与草丛遭遇野生宝可梦不会变
+    seg: 30
+  - text: 包装做成白色配捷克罗姆、黑色配莱希拉姆以便显眼
+    seg: 64
   relations:
-  - id: interview-iwata-asks-bw-chapter-1-second-game-on-ds
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/
     why: 同为黑白发售前访谈，谈通关前只用新宝可梦
-  - id: interview-nintendo-joshi-daisei-bw-kiritani-masuda
+    id: interview-iwata-asks-bw-chapter-1-second-game-on-ds
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nintendo-joshi-daisei-bw-kiritani-masuda/
     why: 同为增田杉森谈黑白，涉莱希拉姆捷克罗姆命名
-  - id: interview-weekly-ascii-masuda-bw
+    id: interview-nintendo-joshi-daisei-bw-kiritani-masuda
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 周刊 ASCII 专访增田顺一：杂志未及详叙的《宝可梦 黑·白》开发秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-weekly-ascii-masuda-bw/
     why: 同为增田谈黑白，涉156只新宝可梦与二元论
+    id: interview-weekly-ascii-masuda-bw
+    kind: background
 2010-10-20-interview-bw-music-collection-liner-notes:
   facets:
     people:
@@ -24077,36 +24087,8 @@
     id: gamefreak-staff-203
     kind: background
 2010-11-20-scan-ndream-2011-01-bw-design-secrets:
+  id: scan-ndream-2011-01-bw-design-secrets
   facets:
-    people:
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - name: 大村祐介
-      role: speaker
-      slug: ohmura-yusuke
-    - kind: character
-      name: N
-      role: speaker
-      slug: n
-    - name: 增田
-      role: mentioned
-    - name: 西田
-      role: mentioned
-    - name: 魁奇思
-      role: mentioned
-    - name: 乔伊小姐
-      role: mentioned
-    places:
-    - name: 合众地区
-      what: 游戏舞台
-      world: game
-    - name: 三曜市
-      what: 道馆所在城市
-      world: game
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -24180,6 +24162,8 @@
       ndex: 533
     - name: 修建老匠
       ndex: 534
+    - name: 蓝蟾蜍
+      ndex: 536
     - name: 投摔鬼
       ndex: 538
     - name: 打击鬼
@@ -24225,93 +24209,62 @@
       slug: null
     - name: 宝可梦 钻石·珍珠
       slug: diamond-pearl
-  id: scan-ndream-2011-01-bw-design-secrets
-  observations:
-  - seg: 37
-    text: 宝可梦设计由17人分工完成，各自提交草图后集体选拔
-  - seg: 62
-    text: 重的宝可梦着地时加入扬尘演出，依据图鉴重量数值
-  relations:
-  - id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
-    kind: same-occasion
-    label: 同一件事的另一种说法
-    title: 宝可梦 黑·白 乐曲魂特别篇
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/
-    why: 同为2011年1月号黑·白专题访谈
-  - id: interview-pokemon-peer-sugimori-ohmori-designers
-    kind: responds
-    label: 后来回应了这篇
-    title: Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛
-    url: /developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/
-    why: 同提17人设计团队与御三家设计
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
-    kind: continues
-    label: 同一系列的前后篇
-    title: 宝可梦黑·白诞生秘话
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
-    why: 同为黑·白开发访谈续篇
-2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii:
-  facets:
     people:
-    - name: 景山将太
+    - name: 杉森建
+      slug: sugimori-ken
       role: speaker
-      slug: kageyama-shota
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: speaker
+    - name: N
+      slug: n
+      role: speaker
+      kind: character
     - name: 增田
       role: mentioned
-    - name: 一之濑
-      role: mentioned
-    - name: 佐藤
-      role: mentioned
-    - name: 足立
-      role: mentioned
-    - name: 渡边
-      role: mentioned
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 一之濑刚
-      role: mentioned
-      slug: ichinose-go
-    - name: 佐藤仁美
-      role: mentioned
-      slug: sato-hitomi
-    - name: 足立美奈子
-      role: mentioned
-      slug: adachi-minako
-    - name: 椙山浩一
-      role: mentioned
-    - name: 光田康典
-      role: mentioned
-    - name: 约翰·布格缪勒
+    - name: 西田
       role: mentioned
     - name: 魁奇思
       role: mentioned
-    - name: 阿戴克
+    - name: 乔伊小姐
       role: mentioned
-    - name: 黑连
-      role: mentioned
-    - name: 白露
-      role: mentioned
-    - kind: character
-      name: N
-      role: mentioned
-      slug: n
     places:
-    - name: 10号道路
-      what: 终盘阶段的道路
-      world: game
     - name: 合众地区
-      what: 多种价值观共存之地
+      what: 游戏舞台
       world: game
-    - name: 帆巴市
-      what: 合众地区的门户
+    - name: 三曜市
+      what: 道馆所在城市
       world: game
-    - name: 飞云市
-      what: 有GAME FREAK大楼
-      world: game
-    - name: 雷文市
-      what: 白露与父亲对话处
-      world: game
+  observations:
+  - text: 宝可梦设计由17人分工完成，各自提交草图后集体选拔
+    seg: 37
+  - text: 重的宝可梦着地时加入扬尘演出，依据图鉴重量数值
+    seg: 62
+  relations:
+  - label: 同一件事的另一种说法
+    title: 宝可梦 黑·白 乐曲魂特别篇
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/
+    why: 同为2011年1月号黑·白专题访谈
+    id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
+    kind: same-occasion
+  - label: 后来回应了这篇
+    title: Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛
+    url: /developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/
+    why: 同提17人设计团队与御三家设计
+    id: interview-pokemon-peer-sugimori-ohmori-designers
+    kind: responds
+  - label: 同一系列的前后篇
+    title: 宝可梦黑·白诞生秘话
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
+    why: 同为黑·白开发访谈续篇
+    id: scan-ndream-2011-04-bw-design-secrets-part2
+    kind: continues
+2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii:
+  id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
+  facets:
     pokemon: []
     works:
     - name: 宝可梦 黑·白
@@ -24332,25 +24285,84 @@
       slug: null
     - name: 宝可梦 黑·白 超级音乐收藏集
       slug: null
-  id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
+    people:
+    - name: 景山将太
+      slug: kageyama-shota
+      role: speaker
+    - name: 增田
+      role: mentioned
+    - name: 一之濑
+      role: mentioned
+    - name: 佐藤
+      role: mentioned
+    - name: 足立
+      role: mentioned
+    - name: 渡边
+      role: mentioned
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    - name: 一之濑刚
+      slug: ichinose-go
+      role: mentioned
+    - name: 佐藤仁美
+      slug: sato-hitomi
+      role: mentioned
+    - name: 足立美奈子
+      slug: adachi-minako
+      role: mentioned
+    - name: 椙山浩一
+      role: mentioned
+    - name: 光田康典
+      role: mentioned
+    - name: 约翰·布格缪勒
+      role: mentioned
+    - name: 魁奇思
+      role: mentioned
+    - name: 阿戴克
+      role: mentioned
+    - name: 黑连
+      role: mentioned
+    - name: 白露
+      role: mentioned
+    - name: N
+      slug: n
+      role: mentioned
+      kind: character
+    places:
+    - name: 10号道路
+      what: 终盘阶段的道路
+      world: game
+    - name: 合众地区
+      what: 多种价值观共存之地
+      world: game
+    - name: 帆巴市
+      what: 合众地区的门户
+      world: game
+    - name: 飞云市
+      what: 有GAME FREAK大楼
+      world: game
+    - name: 雷文市
+      what: 白露与父亲对话处
+      world: game
   observations:
-  - seg: 23
-    text: 《动摇不定的心》与《再见》的粗略草稿用YAMAHA S90 ES创作
-  - seg: 51
-    text: 《再见》与片尾曲等约花半天一口气写出
+  - text: 《坚定不移的心意》与《再见》的粗略草稿用YAMAHA S90 ES创作
+    seg: 23
+  - text: 《再见》与片尾曲等约花半天一口气写出
+    seg: 51
   relations:
-  - id: interview-bw-music-collection-liner-notes
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 增田顺一、景山将太等详谈合众动态音效与世界音乐构建
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/
     why: 同为黑·白声音主创访谈，景山谈声音主题
-  - id: scan-ndream-2014-01-xy-sound-team-interview
-    kind: continues
-    label: 同一系列的前后篇
+    id: interview-bw-music-collection-liner-notes
+    kind: same-occasion
+  - label: 同一系列的前后篇
     title: 宝可梦X·Y声音团队访谈
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2014-01-xy-sound-team-interview/
     why: 同为景山任声音总监的系列声音访谈
+    id: scan-ndream-2014-01-xy-sound-team-interview
+    kind: continues
 2010-11-22-gamefreak-staff-208:
   facets:
     people:
@@ -24500,70 +24512,8 @@
   - seg: 15
     text: 四天王的房间都有「螺旋」这一主题
 2010-12-06-scan-davinci-2011-01-masuda-interview:
+  id: scan-davinci-2011-01-masuda-interview
   facets:
-    people:
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 野本由起
-      role: mentioned
-    - name: 森荣喜
-      role: mentioned
-    - kind: character
-      name: 小智
-      role: mentioned
-      slug: xiao-zhi
-    - kind: character
-      name: N
-      role: mentioned
-      slug: n
-    - name: 魁奇思
-      role: mentioned
-    - name: 赫伊津哈
-      role: mentioned
-    - name: 高桥英夫
-      role: mentioned
-    - name: 罗歇·凯卢瓦
-      role: mentioned
-    - name: 多田道太郎
-      role: mentioned
-    - name: 冢崎干夫
-      role: mentioned
-    - name: 詹姆斯·C·柯林斯
-      role: mentioned
-    - name: 杰里·I·波拉斯
-      role: mentioned
-    - name: 山冈洋一
-      role: mentioned
-    - name: 小笹芳央
-      role: mentioned
-    - name: 杰弗里·S·扬
-      role: mentioned
-    - name: 威廉·L·西蒙
-      role: mentioned
-    - name: 井口耕二
-      role: mentioned
-    - name: 史蒂夫·乔布斯
-      role: mentioned
-    places:
-    - name: 鹿子镇
-      what: 冒险起点
-      world: game
-    - name: 冠军之路
-      what: 游戏关卡
-      world: game
-    - name: 宝可梦联盟
-      what: 游戏关卡
-      world: game
-    - name: 连入
-      what: 合众中心的岛屿
-      world: game
-    - name: 合众地区
-      what: 游戏新舞台
-      world: game
-    - name: 王冠市
-      what: 剧场版舞台
-      world: game
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -24616,37 +24566,99 @@
       slug: null
     - name: 史蒂夫·乔布斯 偶像复活
       slug: null
-  id: scan-davinci-2011-01-masuda-interview
+    people:
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    - name: 野本由起
+      role: mentioned
+    - name: 森荣喜
+      role: mentioned
+    - name: 小智
+      slug: xiao-zhi
+      role: mentioned
+      kind: character
+    - name: N
+      slug: n
+      role: mentioned
+      kind: character
+    - name: 魁奇思
+      role: mentioned
+    - name: 赫伊津哈
+      role: mentioned
+    - name: 高桥英夫
+      role: mentioned
+    - name: 罗歇·凯卢瓦
+      role: mentioned
+    - name: 多田道太郎
+      role: mentioned
+    - name: 冢崎干夫
+      role: mentioned
+    - name: 詹姆斯·C·柯林斯
+      role: mentioned
+    - name: 杰里·I·波拉斯
+      role: mentioned
+    - name: 山冈洋一
+      role: mentioned
+    - name: 小笹芳央
+      role: mentioned
+    - name: 杰弗里·S·扬
+      role: mentioned
+    - name: 威廉·L·西蒙
+      role: mentioned
+    - name: 井口耕二
+      role: mentioned
+    - name: 史蒂夫·乔布斯
+      role: mentioned
+    places:
+    - name: 鹿子镇
+      what: 冒险起点
+      world: game
+    - name: 冠军之路
+      what: 游戏关卡
+      world: game
+    - name: 宝可梦联盟
+      what: 游戏关卡
+      world: game
+    - name: 连入
+      what: 合众中心的岛屿
+      world: game
+    - name: 合众地区
+      what: 游戏新舞台
+      world: game
+    - name: 王冠市
+      what: 剧场版舞台
+      world: game
   observations:
-  - seg: 4
-    text: 系列1996年诞生，截至2010年全球累计销量突破1亿5000万套
-  - seg: 9
-    text: 开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成
+  - text: 系列1996年诞生，截至2010年全球累计销量突破1亿5000万套
+    seg: 9
+  - text: 开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成
+    seg: 14
   relations:
-  - id: scan-ndream-2010-04-pokemon-bw-first-reveal
-    kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 《宝可梦》完全新作始动
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/
     why: 同刊Nintendo DREAM报道第五世代新作公布，含系列销量回顾
-  - id: scan-ndream-2010-11-five-regions-guide
+    id: scan-ndream-2010-04-pokemon-bw-first-reveal
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 宝可梦五大地区观光指南
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-11-five-regions-guide/
     why: 同刊专题介绍合众地区，与黑·白特集同一舞台
-  - id: interview-nintendo-joshi-daisei-bw-kiritani-masuda
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    id: scan-ndream-2010-11-five-regions-guide
+    kind: background
+  - label: 同一件事的另一种说法
     title: 任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建
     url: /%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nintendo-joshi-daisei-bw-kiritani-masuda/
     why: 同为黑·白发售期增田顺一专访，谈开发4年
-  - id: gamefreak-staff-202
-    kind: background
-    label: 为这篇提供背景
+    id: interview-nintendo-joshi-daisei-bw-kiritani-masuda
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 【工作日志】2010年宝可梦剧本幕后
     url: /gamefreak-staff/entry-202/
     why: 同作黑·白剧本策划谈开发，可作背景
+    id: gamefreak-staff-202
+    kind: background
 2010-12-10-gamefreak-staff-211:
   facets:
     people:
@@ -25472,49 +25484,8 @@
     seg: 5
     text: 增田顺一称桥近在眼前却不能立刻渡过，故设计成要绕一大圈才能登桥
 2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2:
+  id: scan-ndream-2011-04-bw-design-secrets-part2
   facets:
-    people:
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 大村祐介
-      role: speaker
-      slug: ohmura-yusuke
-    - name: 增田顺一
-      role: mentioned
-      slug: masuda-junichi
-    - name: 西田敦子
-      role: mentioned
-      slug: nishida-atsuko
-    - name: 亚历山大·仲马
-      role: mentioned
-    - name: 冈本太郎
-      role: mentioned
-    - name: 阿戴克
-      role: mentioned
-    - name: 夏加
-      role: mentioned
-    - name: 艾莉丝
-      role: mentioned
-    - name: 哈奇库
-      role: mentioned
-    - name: 魁奇思
-      role: mentioned
-    - name: 嘉德丽雅
-      role: mentioned
-    places:
-    - name: 宝可梦联盟
-      what: 冠军所在之处
-      world: game
-    - name: 对战地铁
-      what: 地铁总管登场处
-      world: game
-    - name: 合众地区
-      what: 双斧战龙所属地区
-      world: game
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -25617,47 +25588,99 @@
       slug: null
     - name: 幻影侦探
       slug: null
-  id: scan-ndream-2011-04-bw-design-secrets-part2
+    people:
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: mentioned
+    - name: 西田敦子
+      slug: nishida-atsuko
+      role: mentioned
+    - name: 亚历山大·仲马
+      role: mentioned
+    - name: 冈本太郎
+      role: mentioned
+    - name: 阿戴克
+      role: mentioned
+    - name: 夏加
+      role: mentioned
+    - name: 艾莉丝
+      role: mentioned
+    - name: 哈奇库
+      role: mentioned
+    - name: 魁奇思
+      role: mentioned
+    - name: 嘉德丽雅
+      role: mentioned
+    places:
+    - name: 宝可梦联盟
+      what: 冠军所在之处
+      world: game
+    - name: 对战地铁
+      what: 地铁总管登场处
+      world: game
+    - name: 合众地区
+      what: 双斧战龙所属地区
+      world: game
   observations:
-  - seg: 22
-    text: 海野隆雄说三剑客对应勾帕路翁、代拉基翁、毕力吉翁
-  - seg: 42
-    text: 木棉球等4只由设计皮卡丘的西田敦子设计
+  - text: 海野隆雄说三剑客对应勾帕路翁、代拉基翁、毕力吉翁
+    seg: 22
+  - text: 木棉球等4只由设计皮卡丘的西田敦子设计
+    seg: 42
   relations:
-  - id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
-    kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦诞生秘话 总集篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/
     why: 同为黑·白诞生秘话，总集篇汇总前篇内容
-  - id: scan-ndream-2011-01-bw-design-secrets
+    id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
     kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦 黑·白 美术诞生秘闻
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-design-secrets/
     why: 同刊黑·白美术访谈，同批设计师谈设计流程
+    id: scan-ndream-2011-01-bw-design-secrets
+    kind: continues
 2011-02-21-scan-ndream-2011-04-masuda-bridges:
+  id: scan-ndream-2011-04-masuda-bridges
   facets:
+    pokemon:
+    - name: 喷火龙
+      ndex: 6
+    - name: 凯西
+      ndex: 63
+    works:
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 HG·SS
+      slug: null
     people:
     - name: 增田顺一
-      role: speaker
       slug: masuda-junichi
+      role: speaker
     - name: 桥本长官
       role: mentioned
     - name: 高迪
       role: mentioned
     - name: 岩田聪
-      role: mentioned
       slug: iwata-satoru
+      role: mentioned
     - name: 杉森建
-      role: mentioned
       slug: sugimori-ken
+      role: mentioned
     - name: 石原恒和
-      role: mentioned
       slug: ishihara-tsunekazu
-    - name: 一之濑刚
       role: mentioned
+    - name: 一之濑刚
       slug: ichinose-go
+      role: mentioned
     places:
     - name: 布鲁克林大桥
       what: 天箭桥参考原型
@@ -25683,41 +25706,30 @@
     - name: 合众地区
       what: 本作游戏舞台
       world: game
-    pokemon:
-    - name: 喷火龙
-      ndex: 6
-    - name: 凯西
-      ndex: 63
-    works:
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 HG·SS
-      slug: null
-  id: scan-ndream-2011-04-masuda-bridges
   observations:
-  - seg: 10
-    text: 增田称合众地区以纽约为原型，意象约2006年已有
-  - seg: 38
-    text: 天箭桥设计返工约3次，镜头角度调整到母盘完成前
+  - text: 增田称合众地区以纽约为原型，意象约2006年已有
+    seg: 10
+  - text: 天箭桥设计返工约3次，镜头角度调整到母盘完成前
+    seg: 38
   relations:
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦黑·白诞生秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
     why: 同为Nintendo DREAM 2011年4月号黑·白开发访谈
-  - id: interview-iwata-asks-bw-chapter-5-new-world-new-encounters
-    kind: background
-    label: 为这篇提供背景
+    id: scan-ndream-2011-04-bw-design-secrets-part2
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-5-new-world-new-encounters/
     why: 社长问第5章谈天箭大桥等桥梁3D视角
-  - id: interview-iwata-asks-bw-chapter-2-brand-new-world
+    id: interview-iwata-asks-bw-chapter-5-new-world-new-encounters
     kind: background
-    label: 为这篇提供背景
+  - label: 为这篇提供背景
     title: 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/
     why: 社长问第2章谈舞台搬到纽约曼哈顿
+    id: interview-iwata-asks-bw-chapter-2-brand-new-world
+    kind: background
 2011-02-24-gamefreak-director-187:
   facets:
     people:
@@ -26217,81 +26229,13 @@
     url: /developer-interviews/official-archives/interview-spong-bw-launch-masuda-sugimori/
     why: 同为2011年3月伦敦首发夜增田、杉森受访
 2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex:
+  id: scan-ndream-2011-05-bw-design-secrets-ex
   facets:
-    people:
-    - name: 大村祐介
-      role: speaker
-      slug: ohmura-yusuke
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - kind: character
-      name: N
-      role: speaker
-      slug: n
-    - name: 增田
-      role: mentioned
-    - name: 魁奇思
-      role: mentioned
-    - kind: character
-      name: 盖奇斯
-      role: mentioned
-      slug: gai-qi-si
-    - name: 阿戴克
-      role: mentioned
-    - name: 黑连
-      role: mentioned
-    - name: 白露
-      role: mentioned
-    - name: 嘉德丽雅
-      role: mentioned
-    - name: 婉龙
-      role: mentioned
-    - name: 越橘
-      role: mentioned
-    - name: 连武
-      role: mentioned
-    - name: 菊野
-      role: mentioned
-    - name: 紫檀
-      role: mentioned
-    - name: 石田纯一
-      role: mentioned
-    places:
-    - name: 对战城堡
-      what: 开拓区设施
-      world: game
-    - name: 冠军之路
-      what: 食蚁炉等出现地
-      world: game
-    - name: 电气石洞穴
-      what: 种子铁球出现地
-      world: game
-    - name: 14号道路
-      what: 杰洛潜伏处
-      world: game
-    - name: 梦境遗址
-      what: 阿斯拉所在处
-      world: game
-    - name: 古代城堡
-      what: 绿施所在处
-      world: game
-    - name: 合众地区
-      what: 游戏舞台
-      world: game
-    - name: 对战开拓区
-      what: 前作登场设施
-      world: game
     pokemon:
     - name: 三地鼠
       ndex: 51
-    - name: 自爆磁怪
-      ndex: 462
-    - name: 艾路雷朵
-      ndex: 475
+    - name: 三合一磁怪
+      ndex: 82
     - name: 比克提尼
       ndex: 494
     - name: 藤藤蛇
@@ -26370,6 +26314,8 @@
       ndex: 532
     - name: 铁骨土人
       ndex: 533
+    - name: 修建老匠
+      ndex: 534
     - name: 圆蝌蚪
       ndex: 535
     - name: 蓝蟾蜍
@@ -26424,6 +26370,8 @@
       ndex: 561
     - name: 哭哭面具
       ndex: 562
+    - name: 迭失棺
+      ndex: 563
     - name: 原盖海龟
       ndex: 564
     - name: 肋骨海龟
@@ -26587,52 +26535,106 @@
       slug: platinum
     - name: 宝可梦 心金·魂银
       slug: heartgold-soulsilver
-  id: scan-ndream-2011-05-bw-design-secrets-ex
+    people:
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: speaker
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: N
+      slug: n
+      role: speaker
+      kind: character
+    - name: 增田
+      role: mentioned
+    - name: 魁奇思
+      role: mentioned
+    - name: 盖奇斯
+      slug: gai-qi-si
+      role: mentioned
+      kind: character
+    - name: 阿戴克
+      role: mentioned
+    - name: 黑连
+      role: mentioned
+    - name: 白露
+      role: mentioned
+    - name: 嘉德丽雅
+      role: mentioned
+    - name: 婉龙
+      role: mentioned
+    - name: 越橘
+      role: mentioned
+    - name: 连武
+      role: mentioned
+    - name: 菊野
+      role: mentioned
+    - name: 紫檀
+      role: mentioned
+    - name: 石田纯一
+      role: mentioned
+    places:
+    - name: 对战城堡
+      what: 开拓区设施
+      world: game
+    - name: 冠军之路
+      what: 食蚁炉等出现地
+      world: game
+    - name: 电气石洞穴
+      what: 种子铁球出现地
+      world: game
+    - name: 14号道路
+      what: 杰洛潜伏处
+      world: game
+    - name: 梦境遗址
+      what: 阿斯拉所在处
+      world: game
+    - name: 古代城堡
+      what: 绿施所在处
+      world: game
+    - name: 合众地区
+      what: 游戏舞台
+      world: game
+    - name: 对战开拓区
+      what: 前作登场设施
+      world: game
   observations:
-  - seg: 20
-    text: 四天王配色原打算用黑与白统一，婉龙和越橘为黑，连武和嘉德丽雅为白
-  - seg: 35
-    text: 嘉德丽雅是《宝可梦 白金》《心金·魂银》对战开拓区登场人物长大后的样子
+  - text: 四天王配色原打算用黑与白统一，婉龙和越橘为黑，连武和嘉德丽雅为白
+    seg: 20
+  - text: 嘉德丽雅是《宝可梦 白金》《心金·魂银》对战开拓区登场人物长大后的样子
+    seg: 35
   relations:
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
-    kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦黑·白诞生秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
     why: 同为黑·白诞生秘话，前篇讲宝可梦，此篇讲四天王
-  - id: scan-ndream-2011-05-ohmura-character-making
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    id: scan-ndream-2011-04-bw-design-secrets-part2
+    kind: continues
+  - label: 同一件事的另一种说法
     title: 角色之神：大村祐介
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-ohmura-character-making/
     why: 同刊2011年5月号，同为大村祐介访谈
-  - id: scan-ndream-bw-tanjou-hiwa-2011-characters
-    kind: continues
-    label: 同一系列的前后篇
+    id: scan-ndream-2011-05-ohmura-character-making
+    kind: same-occasion
+  - label: 同一系列的前后篇
     title: 宝可梦诞生秘话 29个角色的幕后
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-characters/
     why: 同系列角色篇，延续四天王等角色设计话题
-  - id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
+    id: scan-ndream-bw-tanjou-hiwa-2011-characters
     kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦诞生秘话 总集篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/
     why: 总集篇汇总黑·白诞生秘话各篇内容
+    id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
+    kind: continues
 2011-03-21-scan-ndream-2011-05-ohmura-character-making:
+  id: scan-ndream-2011-05-ohmura-character-making
   facets:
-    people:
-    - name: 大村祐介
-      role: mentioned
-      slug: ohmura-yusuke
-    - name: 杉森建
-      role: mentioned
-      slug: sugimori-ken
-    - name: 市川春子
-      role: mentioned
-    places:
-    - name: 岐阜县
-      what: 大村祐介出身地
-      world: real
     pokemon:
     - name: 水水獭
       ndex: 501
@@ -26649,27 +26651,58 @@
       slug: null
     - name: 龙战士V 龙之战士
       slug: null
-  id: scan-ndream-2011-05-ohmura-character-making
+    people:
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: mentioned
+    - name: 杉森建
+      slug: sugimori-ken
+      role: mentioned
+    - name: 市川春子
+      role: mentioned
+    places:
+    - name: 岐阜县
+      what: 大村祐介出身地
+      world: real
   observations:
-  - seg: 2
-    text: 大村祐介于2005年入职GAME FREAK，1981年7月6日出生，岐阜县出身。
-  - seg: 15
-    text: 风露大腿上像袋子的东西在设定中用来装精灵球，取出一个下一个会升上来。
+  - text: 大村祐介于2005年入职GAME FREAK，1981年7月6日出生，岐阜县出身。
+    seg: 2
+  - text: 风露大腿上像袋子的东西在设定中用来装精灵球，取出一个下一个会升上来。
+    seg: 15
   relations:
-  - id: scan-ndream-2011-05-bw-design-secrets-ex
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦 黑·白 诞生秘话EX
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/
     why: 同为2011年5月号Nintendo DREAM黑·白访谈
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
-    kind: continues
-    label: 同一系列的前后篇
+    id: scan-ndream-2011-05-bw-design-secrets-ex
+    kind: same-occasion
+  - label: 同一系列的前后篇
     title: 宝可梦黑·白诞生秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
     why: 同为黑·白开发访谈，4月号与5月号前后篇
+    id: scan-ndream-2011-04-bw-design-secrets-part2
+    kind: continues
 2011-03-21-scan-ndream-2011-05-pokemon-typing-ds:
+  id: scan-ndream-2011-05-pokemon-typing-ds
   facets:
+    pokemon:
+    - name: 小火龙
+      ndex: 4
+    - name: 皮卡丘
+      ndex: 25
+    - name: 比克提尼
+      ndex: 494
+    - name: 裙儿小姐
+      ndex: 549
+    - name: 四季鹿
+      ndex: 585
+    - name: 电飞鼠
+      ndex: 587
+    - name: 捷克罗姆
+      ndex: 644
+    works:
+    - name: 宝可梦打字DS
+      slug: learn-with-pokemon-typing-adventure
     people:
     - name: 木内英二
       role: mentioned
@@ -26682,41 +26715,24 @@
     - name: 合众地区
       what: 宝可梦来源地区
       world: game
-    pokemon:
-    - name: 小火龙
-      ndex: 4
-    - name: 皮卡丘
-      ndex: 25
-    - name: 比克提尼
-      ndex: 494
-    - name: 四季鹿
-      ndex: 585
-    - name: 电飞鼠
-      ndex: 587
-    - name: 捷克罗姆
-      ndex: 644
-    works:
-    - name: 宝可梦打字DS
-      slug: learn-with-pokemon-typing-adventure
-  id: scan-ndream-2011-05-pokemon-typing-ds
   observations:
-  - seg: 3
-    text: DS 卡带附带任天堂无线键盘与 DS 紧凑支架，CERO 全年龄。
-  - seg: 12
-    text: 键盘宽 264mm、高 113mm、厚 20mm，重约 300g，键距 17mm。
+  - text: DS 卡带附带任天堂无线键盘与 DS 紧凑支架，CERO 全年龄。
+    seg: 3
+  - text: 键盘宽 264mm、高 113mm、厚 20mm，重约 300g，键距 17mm。
+    seg: 12
   relations:
-  - id: scan-ndream-2011-05-bw-design-secrets-ex
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦 黑·白 诞生秘话EX
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/
     why: 同为2011年5月号Nintendo DREAM的黑白报道
-  - id: scan-ndream-2011-05-ohmura-character-making
+    id: scan-ndream-2011-05-bw-design-secrets-ex
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 角色之神：大村祐介
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-ohmura-character-making/
     why: 同为2011年5月号Nintendo DREAM的报道
+    id: scan-ndream-2011-05-ohmura-character-making
+    kind: same-occasion
 2011-03-25-gamefreak-staff-227:
   facets:
     people:
@@ -26955,20 +26971,37 @@
   - seg: 76
     text: 有人从早上8点半开始排队等候
 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters:
+  id: scan-ndream-bw-tanjou-hiwa-2011-characters
   facets:
+    pokemon:
+    - name: 君主蛇
+      ndex: 497
+    works:
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 钻石・珍珠
+      slug: null
+    - name: 宝可梦 红宝石・蓝宝石
+      slug: null
+    - name: 宝可梦白金
+      slug: null
+    - name: 宝可梦心金·魂银
+      slug: null
+    - name: 幻影侦探
+      slug: null
     people:
     - name: 杉森建
-      role: speaker
       slug: sugimori-ken
+      role: speaker
     - name: 大村祐介
-      role: speaker
       slug: ohmura-yusuke
-    - name: 海野隆雄
       role: speaker
+    - name: 海野隆雄
       slug: unno-takao
+      role: speaker
     - name: 增田顺一
-      role: mentioned
       slug: masuda-junichi
+      role: mentioned
     - name: 真菰
       role: mentioned
     - name: 红豆杉
@@ -26977,10 +27010,10 @@
       role: mentioned
     - name: 白露
       role: mentioned
-    - kind: character
-      name: N
-      role: mentioned
+    - name: N
       slug: n
+      role: mentioned
+      kind: character
     - name: 魁奇思
       role: mentioned
     - name: 伯特
@@ -27048,91 +27081,39 @@
     - name: 双龙市
       what: 道馆所在地
       world: game
-    pokemon:
-    - name: 君主蛇
-      ndex: 497
-    works:
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 钻石・珍珠
-      slug: null
-    - name: 宝可梦 红宝石・蓝宝石
-      slug: null
-    - name: 宝可梦白金
-      slug: null
-    - name: 宝可梦心金·魂银
-      slug: null
-    - name: 幻影侦探
-      slug: null
-  id: scan-ndream-bw-tanjou-hiwa-2011-characters
   observations:
-  - seg: 2
-    text: 增田要求把主人公年龄提高，不再设定成10岁或11岁
-  - seg: 10
-    text: 博士到开发中期仍是男性，后由杉森提议改成女性
+  - text: 增田要求把主人公年龄提高，不再设定成10岁或11岁
+    seg: 3
+  - text: 博士到开发中期仍是男性，后由杉森提议改成女性
+    seg: 10
   relations:
-  - id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦诞生秘话 总集篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/
     why: 同为2011-05-21附录，总集篇与人物篇
-  - id: interview-nintendodream-201-sugimori-bw-characters
-    kind: background
-    label: 为这篇提供背景
+    id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 杉森建谈《宝可梦 黑／白》角色设计
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/
     why: 同述主角年龄上调与博士改女性
-  - id: scan-ndream-2011-05-bw-design-secrets-ex
-    kind: continues
-    label: 同一系列的前后篇
+    id: interview-nintendodream-201-sugimori-bw-characters
+    kind: background
+  - label: 同一系列的前后篇
     title: 宝可梦 黑·白 诞生秘话EX
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/
     why: 同系列诞生秘话，前篇讲四天王
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
+    id: scan-ndream-2011-05-bw-design-secrets-ex
     kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦黑·白诞生秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
     why: 同系列黑·白诞生秘话前篇
+    id: scan-ndream-2011-04-bw-design-secrets-part2
+    kind: continues
 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon:
+  id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
   facets:
-    people:
-    - name: 杉森建
-      role: speaker
-      slug: sugimori-ken
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - name: 大村祐介
-      role: speaker
-      slug: ohmura-yusuke
-    - name: 西田
-      role: mentioned
-    - name: 增田
-      role: mentioned
-    places:
-    - name: 电气石洞穴
-      what: 坚果哑铃出现地点
-      world: game
-    - name: 白森林
-      what: 单幅画画廊作品
-      world: game
-    - name: 对战地铁
-      what: 单幅画画廊作品
-      world: game
-    - name: 合众地区
-      what: 宝可梦黑·白的舞台
-      world: game
-    - name: 纽约
-      what: 合众地区的原型
-      world: real
-    - name: 黑色市
-      what: 单幅画画廊作品
-      world: game
-    - name: 飞云市
-      what: 单幅画画廊作品
-      world: game
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -27142,7 +27123,7 @@
       ndex: 51
     - name: 蚊香蝌蚪
       ndex: 60
-    - name: イシツブテ
+    - name: 小拳石
       ndex: 74
     - name: 三合一磁怪
       ndex: 82
@@ -27210,6 +27191,8 @@
       ndex: 532
     - name: 铁骨土人
       ndex: 533
+    - name: 修建老匠
+      ndex: 534
     - name: 圆蝌蚪
       ndex: 535
     - name: 蓝蟾蜍
@@ -27238,12 +27221,16 @@
       ndex: 557
     - name: 岩殿居蟹
       ndex: 558
+    - name: 滑滑小子
+      ndex: 559
     - name: 头巾混混
       ndex: 560
     - name: 象征鸟
       ndex: 561
     - name: 哭哭面具
       ndex: 562
+    - name: 迭失棺
+      ndex: 563
     - name: 破破袋
       ndex: 568
     - name: 灰尘山
@@ -27280,8 +27267,6 @@
       ndex: 592
     - name: 胖嘟嘟
       ndex: 593
-    - name: 电电虫
-      ndex: 595
     - name: 种子铁球
       ndex: 597
     - name: 坚果哑铃
@@ -27364,8 +27349,6 @@
       ndex: 644
     - name: 土地云
       ndex: 645
-    - name: 花洁夫人
-      ndex: 671
     works:
     - name: 宝可梦 黑·白
       slug: black-white
@@ -27379,104 +27362,75 @@
       slug: null
     - name: 魁奇思的演说
       slug: null
-  id: scan-ndream-bw-tanjou-hiwa-2011-pokemon
+    people:
+    - name: 杉森建
+      slug: sugimori-ken
+      role: speaker
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: 大村祐介
+      slug: ohmura-yusuke
+      role: speaker
+    - name: 西田
+      role: mentioned
+    - name: 增田
+      role: mentioned
+    places:
+    - name: 电气石洞穴
+      what: 坚果哑铃出现地点
+      world: game
+    - name: 白森林
+      what: 单幅画画廊作品
+      world: game
+    - name: 对战地铁
+      what: 单幅画画廊作品
+      world: game
+    - name: 合众地区
+      what: 宝可梦黑·白的舞台
+      world: game
+    - name: 纽约
+      what: 合众地区的原型
+      world: real
+    - name: 黑色市
+      what: 单幅画画廊作品
+      world: game
+    - name: 飞云市
+      what: 单幅画画廊作品
+      world: game
   observations:
-  - seg: 16
-    text: 海野隆雄说洞窟里以往多是石丸子，这次设计成滚滚石
-  - seg: 34
-    text: 海野隆雄称未被采用的创意数量是被采用者的好几倍
+  - text: 海野隆雄说，以往洞窟里常见小拳石，这次重新设计了石丸子。
+    seg: 17
+  - text: 海野隆雄称未被采用的创意数量是被采用者的好几倍
+    seg: 35
   relations:
-  - id: scan-ndream-2011-04-bw-design-secrets-part2
-    kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦黑·白诞生秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/
     why: 同刊黑·白诞生秘话前篇，同三人讲述设计
-  - id: scan-ndream-2011-05-bw-design-secrets-ex
+    id: scan-ndream-2011-04-bw-design-secrets-part2
     kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 宝可梦 黑·白 诞生秘话EX
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/
     why: 同刊诞生秘话系列第3回，同三人讲述
-  - id: scan-ndream-bw-tanjou-hiwa-2011-characters
-    kind: same-occasion
-    label: 同一件事的另一种说法
+    id: scan-ndream-2011-05-bw-design-secrets-ex
+    kind: continues
+  - label: 同一件事的另一种说法
     title: 宝可梦诞生秘话 29个角色的幕后
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-characters/
     why: 同属2011年7月号附录总集版，分角色篇
-  - id: interview-1up-black-white-how-pokemon-get-made
+    id: scan-ndream-bw-tanjou-hiwa-2011-characters
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦如何诞生
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-1up-black-white-how-pokemon-get-made/
     why: 同三人谈黑·白设计流程与17人团队
+    id: interview-1up-black-white-how-pokemon-get-made
+    kind: same-occasion
 2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-popularity-poll:
+  id: scan-ndream-bw-tanjou-hiwa-2011-popularity-poll
   facets:
-    people:
-    - name: 112票
-      role: speaker
-    - name: 西田敦子
-      role: mentioned
-      slug: nishida-atsuko
-    - kind: character
-      name: N
-      role: mentioned
-      slug: n
-    - name: 北尚
-      role: mentioned
-    - name: 南厦
-      role: mentioned
-    - name: 风露
-      role: mentioned
-    - name: 小菊儿
-      role: mentioned
-    - name: 黑连
-      role: mentioned
-    - name: 天桐
-      role: mentioned
-    - name: 贝尔
-      role: mentioned
-    - name: 嘉德丽雅
-      role: mentioned
-    - name: 菊野
-      role: mentioned
-    - name: 竹兰
-      role: mentioned
-    - name: 亚堤
-      role: mentioned
-    - name: 艾莉丝
-      role: mentioned
-    - name: 志米
-      role: mentioned
-    - kind: character
-      name: 盖奇斯
-      role: mentioned
-      slug: gai-qi-si
-    places:
-    - name: 天堂之塔
-      what: 获取烛光灵处
-      world: game
-    - name: 10号道路
-      what: 可获得暗之石
-      world: game
-    - name: 矢车森林
-      what: 木棉球出现地
-      world: game
-    - name: N之城
-      what: 捕获莱希拉姆处
-      world: game
-    - name: 对战地铁
-      what: 北尚南厦任职处
-      world: game
-    - name: 合众地区
-      what: 投票对象地区
-      world: game
-    - name: 七宝市
-      what: 交换木棉球处
-      world: game
-    - name: 雷文市
-      what: 与N同乘摩天轮
-      world: game
     pokemon:
     - name: 比克提尼
       ndex: 494
@@ -27561,25 +27515,89 @@
       slug: null
     - name: 宝可梦 白
       slug: null
-  id: scan-ndream-bw-tanjou-hiwa-2011-popularity-poll
+    people:
+    - name: 112票
+      role: speaker
+    - name: 西田敦子
+      slug: nishida-atsuko
+      role: mentioned
+    - name: N
+      slug: n
+      role: mentioned
+      kind: character
+    - name: 北尚
+      role: mentioned
+    - name: 南厦
+      role: mentioned
+    - name: 风露
+      role: mentioned
+    - name: 小菊儿
+      role: mentioned
+    - name: 黑连
+      role: mentioned
+    - name: 天桐
+      role: mentioned
+    - name: 贝尔
+      role: mentioned
+    - name: 嘉德丽雅
+      role: mentioned
+    - name: 菊野
+      role: mentioned
+    - name: 竹兰
+      role: mentioned
+    - name: 亚堤
+      role: mentioned
+    - name: 艾莉丝
+      role: mentioned
+    - name: 志米
+      role: mentioned
+    - name: 盖奇斯
+      slug: gai-qi-si
+      role: mentioned
+      kind: character
+    places:
+    - name: 天堂之塔
+      what: 获取烛光灵处
+      world: game
+    - name: 10号道路
+      what: 可获得暗之石
+      world: game
+    - name: 矢车森林
+      what: 木棉球出现地
+      world: game
+    - name: N之城
+      what: 捕获莱希拉姆处
+      world: game
+    - name: 对战地铁
+      what: 北尚南厦任职处
+      world: game
+    - name: 合众地区
+      what: 投票对象地区
+      world: game
+    - name: 七宝市
+      what: 交换木棉球处
+      world: game
+    - name: 雷文市
+      what: 与N同乘摩天轮
+      world: game
   observations:
-  - seg: 4
-    text: 水晶灯火灵以领先第2名100票以上的优势获第1名
-  - seg: 8
-    text: 投票可对合众地区152+1只宝可梦投3票、对31名角色投2票
+  - text: 水晶灯火灵以领先第2名100票以上的优势获第1名
+    seg: 4
+  - text: 投票可对合众地区152+1只宝可梦投3票、对31名角色投2票
+    seg: 8
   relations:
-  - id: scan-ndream-bw-tanjou-hiwa-2011-characters
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦诞生秘话 29个角色的幕后
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-characters/
     why: 同为Nintendo DREAM 2011年7月号附录
-  - id: scan-ndream-2011-05-bw-design-secrets-ex
-    kind: continues
-    label: 同一系列的前后篇
+    id: scan-ndream-bw-tanjou-hiwa-2011-characters
+    kind: same-occasion
+  - label: 同一系列的前后篇
     title: 宝可梦 黑·白 诞生秘话EX
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/
     why: 同刊《宝可梦诞生秘话》系列前后篇
+    id: scan-ndream-2011-05-bw-design-secrets-ex
+    kind: continues
 2011-05-29-gamefreak-director-193:
   facets:
     people:
@@ -30155,37 +30173,8 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2012-b2w2-sequel/
     why: 增田谈首款编号续作，与请缨当总监同题
 2012-07-21-scan-ndream-2012-09-b2w2-developer-interview:
+  id: scan-ndream-2012-09-b2w2-developer-interview
   facets:
-    people:
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 一之濑刚
-      role: speaker
-      slug: ichinose-go
-    - name: 佐藤仁美
-      role: speaker
-      slug: sato-hitomi
-    - name: 森本
-      role: mentioned
-    - name: 石原
-      role: mentioned
-    - name: 景山将太
-      role: mentioned
-      slug: kageyama-shota
-    places:
-    - name: 立涌市道馆
-      what: 游戏中的道馆
-      world: game
-    - name: 合众地区
-      what: 游戏中的地区
-      world: game
-    - name: 三曜市
-      what: 游戏中的城市
-      world: game
     pokemon:
     - name: 骑拉帝纳
       ndex: 487
@@ -30212,25 +30201,54 @@
       slug: platinum
     - name: 任天堂DS 宝可梦 黑2·白2 超级音乐全集
       slug: null
-  id: scan-ndream-2012-09-b2w2-developer-interview
+    people:
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    - name: 一之濑刚
+      slug: ichinose-go
+      role: speaker
+    - name: 佐藤仁美
+      slug: sato-hitomi
+      role: speaker
+    - name: 森本
+      role: mentioned
+    - name: 石原
+      role: mentioned
+    - name: 景山将太
+      slug: kageyama-shota
+      role: mentioned
+    places:
+    - name: 立涌市道馆
+      what: 游戏中的道馆
+      world: game
+    - name: 合众地区
+      what: 游戏中的地区
+      world: game
+    - name: 三曜市
+      what: 游戏中的城市
+      world: game
   observations:
-  - seg: 27
-    text: 增田顺一称加入能让100人同时游玩的新要素“联合任务”。
-  - seg: 29
-    text: 增田顺一称钥匙系统原本就想放进《宝可梦 黑·白》，因企划在开发后期而放弃。
+  - text: 增田顺一称加入能让100人同时游玩的新要素“合众任务”。
+    seg: 27
+  - text: 增田顺一称钥匙系统原本就想放进《宝可梦 黑·白》，因企划在开发后期而放弃。
+    seg: 29
   relations:
-  - id: scan-ndream-2012-10-b2w2-pickup-secrets
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 庆典任务与宝可坞秘闻
     url: /%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-10-b2w2-pickup-secrets/
     why: 同为2012年10月号黑2白2开发人员访谈
-  - id: interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later
-    kind: background
-    label: 为这篇提供背景
+    id: scan-ndream-2012-10-b2w2-pickup-secrets
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later/
     why: 社长问谈黑2白2续篇与未加入系统的由来
+    id: interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later
+    kind: background
 2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art:
   facets:
     people:
@@ -30435,45 +30453,8 @@
     url: /%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E9%BB%91%E7%99%BD2/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/
     why: 同为海野隆雄谈PWT设计哲学的访谈
 2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets:
+  id: scan-ndream-2012-10-b2w2-pickup-secrets
   facets:
-    people:
-    - name: 海野隆雄
-      role: speaker
-      slug: unno-takao
-    - name: 佐藤仁美
-      role: speaker
-      slug: sato-hitomi
-    - name: 增田顺一
-      role: speaker
-      slug: masuda-junichi
-    - name: 一之濑刚
-      role: speaker
-      slug: ichinose-go
-    places:
-    - name: 连入之树
-      what: 承接任务之处
-      world: game
-    - name: 宝可坞
-      what: 拍电影设施
-      world: game
-    - name: 龙螺旋之塔
-      what: 传说宝可梦出现地
-      world: game
-    - name: 巨人洞窟
-      what: 酋雷姆出现地
-      world: game
-    - name: 丰饶之祠
-      what: 获得现形镜处
-      world: game
-    - name: 汇合大道
-      what: 可开设店铺的街道
-      world: game
-    - name: 合众地区
-      what: 游戏冒险地区
-      world: game
-    - name: 帆巴市
-      what: PWT所在城市
-      world: game
     pokemon:
     - name: 大嘴蝠
       ndex: 42
@@ -30503,6 +30484,8 @@
       ndex: 447
     - name: 雷吉奇卡斯
       ndex: 486
+    - name: 青藤蛇
+      ndex: 496
     - name: 炒炒猪
       ndex: 499
     - name: 双刃丸
@@ -30531,8 +30514,6 @@
       ndex: 569
     - name: 奇诺栗鼠
       ndex: 573
-    - name: 四季鹿
-      ndex: 585
     - name: 电飞鼠
       ndex: 587
     - name: 骑士蜗牛
@@ -30572,46 +30553,112 @@
       slug: null
     - name: 宝可梦AR搜寻器
       slug: null
-  id: scan-ndream-2012-10-b2w2-pickup-secrets
+    people:
+    - name: 海野隆雄
+      slug: unno-takao
+      role: speaker
+    - name: 佐藤仁美
+      slug: sato-hitomi
+      role: speaker
+    - name: 增田顺一
+      slug: masuda-junichi
+      role: speaker
+    - name: 一之濑刚
+      slug: ichinose-go
+      role: speaker
+    places:
+    - name: 连入之树
+      what: 承接任务之处
+      world: game
+    - name: 宝可好莱坞
+      what: 拍电影设施
+      world: game
+    - name: 龙螺旋之塔
+      what: 传说宝可梦出现地
+      world: game
+    - name: 巨人洞窟
+      what: 酋雷姆出现地
+      world: game
+    - name: 丰饶之祠
+      what: 获得现形镜处
+      world: game
+    - name: 汇合大道
+      what: 可开设店铺的街道
+      world: game
+    - name: 合众地区
+      what: 游戏冒险地区
+      world: game
+    - name: 帆巴市
+      what: PWT所在城市
+      world: game
   observations:
-  - seg: 44
-    text: 海野隆雄说企划书写着「1人也行100人也行」
-  - seg: 48
-    text: GAME FREAK内部约50人一起玩过庆典任务
+  - text: 海野隆雄说企划书写着「1人也行100人也行」
+    seg: 105
+  - text: GAME FREAK内部约50人一起玩过合众任务
+    seg: 109
   relations:
-  - id: scan-ndream-2012-09-b2w2-developer-interview
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 只有《2》才能做到的冒险
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/
     why: 同为Nintendo DREAM 2012年10月号B2W2访谈
-  - id: scan-ndream-2012-10-pokemon-music-interview
+    id: scan-ndream-2012-09-b2w2-developer-interview
     kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 宝可梦音乐以进化为目标
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-10-pokemon-music-interview/
     why: 同为Nintendo DREAM 2012年10月号B2W2访谈
-  - id: interview-iwata-asks-b2w2-chapter-2-100-player-co-op
-    kind: background
-    label: 为这篇提供背景
+    id: scan-ndream-2012-10-pokemon-music-interview
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 社长问《宝可梦 黑2·白2》第2章：百人实时同屏的庆典任务与遗迹通信挑战
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-b2w2-chapter-2-100-player-co-op/
     why: 庆典任务百人同屏机制的另一处详述
+    id: interview-iwata-asks-b2w2-chapter-2-100-player-co-op
+    kind: background
 2012-08-21-scan-ndream-2012-10-pokemon-music-interview:
+  id: scan-ndream-2012-10-pokemon-music-interview
   facets:
+    pokemon:
+    - name: 帝牙卢卡
+      ndex: 483
+    - name: 帕路奇亚
+      ndex: 484
+    works:
+    - name: 宝可梦 黑2·白2
+      slug: black2-white2
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 红·绿
+      slug: red-green
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
+    - name: 宝可梦 白金
+      slug: platinum
+    - name: 宝可梦 绿宝石
+      slug: emerald
+    - name: 宝可梦 金·银
+      slug: gold-silver
+    - name: 脉冲人
+      slug: null
+    - name: 宝可梦D・P
+      slug: null
+    - name: 宝可梦B2·W2
+      slug: null
+    - name: 宝可梦E·Pt·B·W
+      slug: null
     people:
     - name: 佐藤仁美
-      role: speaker
       slug: sato-hitomi
+      role: speaker
     - name: 一之濑刚
-      role: speaker
       slug: ichinose-go
-    - name: 增田顺一
       role: speaker
+    - name: 增田顺一
       slug: masuda-junichi
+      role: speaker
     - name: 杉森建
-      role: mentioned
       slug: sugimori-ken
+      role: mentioned
     - name: 海野
       role: mentioned
     - name: 小蓟
@@ -30641,53 +30688,24 @@
     - name: 紫堇市
       what: 小蓟所在城市
       world: game
-    pokemon:
-    - name: 帝牙卢卡
-      ndex: 483
-    - name: 帕路奇亚
-      ndex: 484
-    works:
-    - name: 宝可梦 黑2·白2
-      slug: black2-white2
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 红·绿
-      slug: red-green
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-    - name: 宝可梦 白金
-      slug: platinum
-    - name: 宝可梦 绿宝石
-      slug: emerald
-    - name: 宝可梦 金·银
-      slug: gold-silver
-    - name: 脉冲人
-      slug: null
-    - name: 宝可梦D・P
-      slug: null
-    - name: 宝可梦B2·W2
-      slug: null
-    - name: 宝可梦E·Pt·B·W
-      slug: null
-  id: scan-ndream-2012-10-pokemon-music-interview
   observations:
-  - seg: 9
-    text: 佐藤仁美称阿克罗玛曲子把大调、小调、无调混杂
-  - seg: 13
-    text: 佐藤仁美说龙叫声响两次，与双龙市谐音
+  - text: 佐藤仁美称阿克罗玛曲子把大调、小调、无调混杂
+    seg: 9
+  - text: 佐藤仁美说龙叫声响两次，与双龙市谐音
+    seg: 13
   relations:
-  - id: scan-ndream-2012-09-b2w2-developer-interview
-    kind: continues
-    label: 同一系列的前后篇
+  - label: 同一系列的前后篇
     title: 只有《2》才能做到的冒险
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/
     why: 同为黑2·白2开发访谈，同一批受访者
-  - id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
-    kind: background
-    label: 为这篇提供背景
+    id: scan-ndream-2012-09-b2w2-developer-interview
+    kind: continues
+  - label: 为这篇提供背景
     title: 宝可梦 黑·白 乐曲魂特别篇
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/
     why: 同刊声音专题，讲黑·白音乐制作背景
+    id: scan-ndream-2011-01-bw-sound-gakkyoku-damashii
+    kind: background
 2012-08-28-gamefreak-director-226:
   facets:
     people:
@@ -32644,20 +32662,35 @@
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-xy-chapter-3-new-battles-fairy-type/
     why: 同为2013-10-10《X·Y》社长问，第3章
 2013-10-21-scan-ndream-2013-12-xy-character-design-interview:
+  id: scan-ndream-2013-12-xy-character-design-interview
   facets:
+    pokemon:
+    - name: 哥德小姐
+      ndex: 576
+    - name: 迷你冰
+      ndex: 582
+    works:
+    - name: 宝可梦 X·Y
+      slug: x-y
+    - name: 宝可梦 超世代
+      slug: null
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
     people:
     - name: 杉森建
-      role: speaker
       slug: sugimori-ken
+      role: speaker
     - name: 中津井优
-      role: speaker
       slug: nakatsui-yu
-    - name: 大村祐介
       role: speaker
+    - name: 大村祐介
       slug: ohmura-yusuke
+      role: speaker
     - name: 增田顺一
-      role: mentioned
       slug: masuda-junichi
+      role: mentioned
     - name: 水谷惠
       role: mentioned
     places:
@@ -32685,26 +32718,11 @@
     - name: 遥香市
       what: 查克洛任职地
       world: game
-    pokemon:
-    - name: 哥德小姐
-      ndex: 576
-    - name: 迷你冰
-      ndex: 582
-    works:
-    - name: 宝可梦 X·Y
-      slug: x-y
-    - name: 宝可梦 超世代
-      slug: null
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-  id: scan-ndream-2013-12-xy-character-design-interview
   observations:
-  - seg: 17
-    text: 杉森说配色和轮廓简洁、主题色明亮醒目，也有几个例外
-  - seg: 25
-    text: 大村说取材经由伦敦，在当地待了将近10天
+  - text: 杉森说配色和轮廓简洁、主题色明亮醒目，也有几个例外
+    seg: 17
+  - text: 大村说取材经由伦敦，在当地待了将近10天
+    seg: 24
 2013-10-24-interview-onm-xy-sugimori:
   facets:
     people:
@@ -33208,33 +33226,50 @@
     url: //interview-nwr-xy-masuda-yoshida/
     why: 该篇谈10月12日全球同步发售
 2013-11-21-scan-ndream-2014-01-lumiose-city-guide:
+  id: scan-ndream-2014-01-lumiose-city-guide
   facets:
+    pokemon:
+    - name: 双尾怪手
+      ndex: 424
+    - name: 电飞鼠
+      ndex: 587
+    - name: 坐骑山羊
+      ndex: 673
+    - name: 多丽米亚
+      ndex: 676
+    - name: 光电伞蜥
+      ndex: 695
+    works:
+    - name: 宝可梦 X·Y
+      slug: x-y
+    - name: 宝可梦 黑2·白2
+      slug: black2-white2
     people:
     - name: 佐藤仁美
-      role: speaker
       slug: sato-hitomi
+      role: speaker
     - name: 景山
       role: mentioned
     - name: 三色堇
       role: mentioned
-    - kind: character
-      name: 布拉塔诺博士
-      role: mentioned
+    - name: 布拉塔诺博士
       slug: bu-la-ta-nuo-bo-shi
+      role: mentioned
+      kind: character
     - name: 卡露妮
       role: mentioned
-    - kind: character
-      name: 弗拉达利
-      role: mentioned
+    - name: 弗拉达利
       slug: fu-la-da-li
+      role: mentioned
+      kind: character
     - name: 希特隆
       role: mentioned
     - name: 柚丽嘉
       role: mentioned
-    - kind: character
-      name: 莎娜
-      role: mentioned
+    - name: 莎娜
       slug: sha-na
+      role: mentioned
+      kind: character
     places:
     - name: 棱镜塔
       what: 密阿雷市象征
@@ -33260,101 +33295,25 @@
     - name: 密阿雷市
       what: 卡洛斯最大城市
       world: game
-    pokemon:
-    - name: 双尾怪手
-      ndex: 424
-    - name: 电飞鼠
-      ndex: 587
-    - name: 坐骑山羊
-      ndex: 673
-    - name: 多丽米亚
-      ndex: 676
-    - name: 光电伞蜥
-      ndex: 695
-    works:
-    - name: 宝可梦 X·Y
-      slug: x-y
-    - name: 宝可梦 黑2·白2
-      slug: black2-white2
-  id: scan-ndream-2014-01-lumiose-city-guide
   observations:
-  - seg: 7
-    text: 出租车起步价710日元，司机或许会给时尚的你优惠
-  - seg: 9
-    text: 坐骑山羊穿梭车只需200日元即可乘坐
+  - text: 出租车起步价710日元，司机或许会给时尚的你优惠
+    seg: 7
+  - text: 坐骑山羊穿梭车只需200日元即可乘坐
+    seg: 9
 2013-11-21-scan-ndream-2014-01-mega-evolution-special:
+  id: scan-ndream-2014-01-mega-evolution-special
   facets:
-    people:
-    - name: 流程攻略
-      role: speaker
-    - name: 出现宝可梦数据
-      role: speaker
-    - name: Mister M
-      role: mentioned
-    - name: Hiropon
-      role: mentioned
-    - name: Masato
-      role: mentioned
-    - name: 可尔妮
-      role: mentioned
-    - kind: character
-      name: 布拉塔诺博士
-      role: mentioned
-      slug: bu-la-ta-nuo-bo-shi
-    - name: 莎莉娜
-      role: mentioned
-    - name: 提耶鲁诺
-      role: mentioned
-    - name: 福爷
-      role: mentioned
-    - name: 希特隆
-      role: mentioned
-    - kind: character
-      name: 弗拉达利
-      role: mentioned
-      slug: fu-la-da-li
-    - name: 阿可碧
-      role: mentioned
-    - name: 瑟蕾娜
-      role: mentioned
-    places:
-    - name: 石香镇
-      what: 攻略途经城镇
-      world: game
-    - name: 精练之塔
-      what: 超级进化大叔所在
-      world: game
-    - name: 镜穴
-      what: 可获闪光学习器
-      world: game
-    - name: 卡洛斯发电厂
-      what: 闪焰队占据的设施
-      world: game
-    - name: 恐怖之家
-      what: 14号道路建筑
-      world: game
-    - name: 卡洛斯地区
-      what: 冒险的舞台
-      world: game
-    - name: 密阿雷市
-      what: 卡洛斯最大城市
-      world: game
-    - name: 遥香市
-      what: 道馆所在城镇
-      world: game
-    - name: 娑罗市
-      what: 精练之塔所在城市
-      world: game
-    - name: 比翼市
-      what: 道馆所在城市
-      world: game
     pokemon:
     - name: 喷火龙
       ndex: 6
     - name: 阿柏蛇
       ndex: 23
+    - name: 尼多兰
+      ndex: 29
     - name: 尼多娜
       ndex: 30
+    - name: 尼多朗
+      ndex: 32
     - name: 尼多力诺
       ndex: 33
     - name: 三地鼠
@@ -33373,6 +33332,8 @@
       ndex: 75
     - name: 呆呆兽
       ndex: 79
+    - name: 鬼斯通
+      ndex: 93
     - name: 魔墙人偶
       ndex: 122
     - name: 凯罗斯
@@ -33423,8 +33384,6 @@
       ndex: 328
     - name: 泥泥鳅
       ndex: 339
-    - name: 怨影娃娃
-      ndex: 353
     - name: 诅咒娃娃
       ndex: 354
     - name: 珍珠贝
@@ -33459,6 +33418,8 @@
       ndex: 460
     - name: 石丸子
       ndex: 524
+    - name: 投摔鬼
+      ndex: 538
     - name: 打击鬼
       ndex: 539
     - name: 石居蟹
@@ -33485,8 +33446,12 @@
       ndex: 686
     - name: 龟脚脚
       ndex: 688
+    - name: 光电伞蜥
+      ndex: 695
     - name: 摔角鹰人
       ndex: 701
+    - name: 咚咚鼠
+      ndex: 702
     - name: 小碎钻
       ndex: 703
     - name: 黏黏宝
@@ -33504,29 +33469,111 @@
       slug: null
     - name: 宝可梦 Y
       slug: null
-  id: scan-ndream-2014-01-mega-evolution-special
+    people:
+    - name: 流程攻略
+      role: speaker
+    - name: 出现宝可梦数据
+      role: speaker
+    - name: Mister M
+      role: mentioned
+    - name: Hiropon
+      role: mentioned
+    - name: Masato
+      role: mentioned
+    - name: 可尔妮
+      role: mentioned
+    - name: 布拉塔诺博士
+      slug: bu-la-ta-nuo-bo-shi
+      role: mentioned
+      kind: character
+    - name: 莎莉娜
+      role: mentioned
+    - name: 提耶鲁诺
+      role: mentioned
+    - name: 福爷
+      role: mentioned
+    - name: 希特隆
+      role: mentioned
+    - name: 弗拉达利
+      slug: fu-la-da-li
+      role: mentioned
+      kind: character
+    - name: 阿可碧
+      role: mentioned
+    - name: 瑟蕾娜
+      role: mentioned
+    places:
+    - name: 石香镇
+      what: 攻略途经城镇
+      world: game
+    - name: 精练之塔
+      what: 超级进化大叔所在
+      world: game
+    - name: 镜穴
+      what: 可获闪光学习器
+      world: game
+    - name: 卡洛斯发电厂
+      what: 闪焰队占据的设施
+      world: game
+    - name: 恐怖之家
+      what: 14号道路建筑
+      world: game
+    - name: 卡洛斯地区
+      what: 冒险的舞台
+      world: game
+    - name: 密阿雷市
+      what: 卡洛斯最大城市
+      world: game
+    - name: 遥香市
+      what: 道馆所在城镇
+      world: game
+    - name: 娑罗市
+      what: 精练之塔所在城市
+      world: game
+    - name: 比翼市
+      what: 道馆所在城市
+      world: game
   observations:
-  - seg: 3
-    text: 本次《宝可梦 X・Y》特辑共22页，用三大企划面向所有训练家。
-  - seg: 144
-    text: 雷电兽、凯罗斯的超级石在《宝可梦 X》，赫拉克罗斯、黑鲁加的在《宝可梦 Y》。
+  - text: 本次《宝可梦 X・Y》特辑共22页，用三大企划面向所有训练家。
+    seg: 3
+  - text: 雷电兽、凯罗斯的超级石在《宝可梦 X》，赫拉克罗斯、黑鲁加的在《宝可梦 Y》。
+    seg: 156
 2013-11-21-scan-ndream-2014-01-xy-sound-team-interview:
+  id: scan-ndream-2014-01-xy-sound-team-interview
   facets:
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 戴鲁比
+      ndex: 228
+    works:
+    - name: 宝可梦 X·Y
+      slug: x-y
+    - name: 宝可梦 黑2·白2
+      slug: black2-white2
+    - name: 节奏猎人 和谐
+      slug: null
+    - name: 宝可梦 黑·白
+      slug: black-white
+    - name: 宝可梦 心金·魂银
+      slug: heartgold-soulsilver
+    - name: 宝可梦 钻石·珍珠
+      slug: diamond-pearl
     people:
     - name: 景山将太
-      role: speaker
       slug: kageyama-shota
+      role: speaker
     - name: 佐藤仁美
-      role: speaker
       slug: sato-hitomi
-    - name: 足立美奈子
       role: speaker
+    - name: 足立美奈子
       slug: adachi-minako
+      role: speaker
     - name: 全体
       role: speaker
     - name: 增田顺一
-      role: mentioned
       slug: masuda-junichi
+      role: mentioned
     - name: 黑田
       role: mentioned
     places:
@@ -33554,45 +33601,24 @@
     - name: 祝庆市
       what: 佐藤选的曲子
       world: game
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 大钳蟹
-      ndex: 98
-    - name: 戴鲁比
-      ndex: 228
-    works:
-    - name: 宝可梦 X·Y
-      slug: x-y
-    - name: 宝可梦 黑2·白2
-      slug: black2-white2
-    - name: 节奏猎人 和谐
-      slug: null
-    - name: 宝可梦 黑·白
-      slug: black-white
-    - name: 宝可梦 心金·魂银
-      slug: heartgold-soulsilver
-    - name: 宝可梦 钻石·珍珠
-      slug: diamond-pearl
-  id: scan-ndream-2014-01-xy-sound-team-interview
   observations:
-  - seg: 10
-    text: 增田顺一对景山说声音的一切都交给他
-  - seg: 12
-    text: 约1年反复制作原型并试错摸索表现
+  - text: 增田顺一对景山说声音的一切都交给他
+    seg: 17
+  - text: 约1年反复制作原型并试错摸索表现
+    seg: 19
   relations:
-  - id: interview-dengeki-xy-masuda-kageyama-setting-art
-    kind: same-occasion
-    label: 同一件事的另一种说法
+  - label: 同一件事的另一种说法
     title: 电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典
     url: /%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-xy-masuda-kageyama-setting-art/
     why: 同为2013年11月增田与景山谈X·Y声音的场合
-  - id: scan-ndream-2013-12-xy-character-design-interview
-    kind: background
-    label: 为这篇提供背景
+    id: interview-dengeki-xy-masuda-kageyama-setting-art
+    kind: same-occasion
+  - label: 为这篇提供背景
     title: 卡洛斯人物开发秘话
     url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2013-12-xy-character-design-interview/
     why: 同为X·Y开发访谈，涉法国取材
+    id: scan-ndream-2013-12-xy-character-design-interview
+    kind: background
 2014-02-14-interview-gameinformer-masuda-afterwords-xy:
   facets:
     people:
@@ -34544,11 +34570,50 @@
     seg: 75
     text: 汤山说从最初想到主意算起已做了19(?)年
 2015-07-30-scan-pokemon-life-2015-07-ohmori-oras:
+  id: scan-pokemon-life-2015-07-ohmori-oras
   facets:
+    pokemon:
+    - name: 皮卡丘
+      ndex: 25
+    - name: 豪力
+      ndex: 67
+    - name: 黑暗鸦
+      ndex: 198
+    - name: 土狼犬
+      ndex: 261
+    - name: 拉鲁拉丝
+      ndex: 280
+    - name: 蘑蘑菇
+      ndex: 285
+    - name: 拉帝亚斯
+      ndex: 380
+    - name: 拉帝欧斯
+      ndex: 381
+    - name: 盖欧卡
+      ndex: 382
+    - name: 固拉多
+      ndex: 383
+    - name: 烈空坐
+      ndex: 384
+    - name: 代欧奇希斯
+      ndex: 386
+    - name: 飘飘球
+      ndex: 425
+    - name: 艾路雷朵
+      ndex: 475
+    - name: 勇士雄鹰
+      ndex: 628
+    works:
+    - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+      slug: oras
+    - name: 宝可梦 红宝石·蓝宝石
+      slug: ruby-sapphire
+    - name: 宝可梦 X·Y
+      slug: x-y
     people:
     - name: 大森滋
-      role: mentioned
       slug: ohmori-shigeru
+      role: mentioned
     - name: 小遥
       role: mentioned
     - name: 小悠
@@ -34588,50 +34653,11 @@
     - name: 紫堇市
       what: 铁旋任馆主的城市
       world: game
-    pokemon:
-    - name: 皮卡丘
-      ndex: 25
-    - name: 黑暗鸦
-      ndex: 198
-    - name: 土狼犬
-      ndex: 261
-    - name: 拉鲁拉丝
-      ndex: 280
-    - name: 蘑蘑菇
-      ndex: 285
-    - name: ラティアス
-      ndex: 380
-    - name: ラティオス
-      ndex: 381
-    - name: カイオーガ
-      ndex: 382
-    - name: グラードン
-      ndex: 383
-    - name: 烈空坐
-      ndex: 384
-    - name: 代欧奇希斯
-      ndex: 386
-    - name: 飘飘球
-      ndex: 425
-    - name: 艾路雷朵
-      ndex: 475
-    - name: 勇士雄鹰
-      ndex: 628
-    - name: 豪力
-      ndex: 67
-    works:
-    - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-      slug: oras
-    - name: 宝可梦 红宝石·蓝宝石
-      slug: ruby-sapphire
-    - name: 宝可梦 X·Y
-      slug: x-y
-  id: scan-pokemon-life-2015-07-ohmori-oras
   observations:
-  - seg: 7
-    text: 距《宝可梦 红宝石·蓝宝石》发售已过去约12年。
-  - seg: 38
-    text: 满充在对战度假地的对战屋达成50连胜后出现。
+  - text: 距《宝可梦 红宝石·蓝宝石》发售已过去约12年。
+    seg: 7
+  - text: 满充在对战度假地的对战屋达成50连胜后出现。
+    seg: 38
 2015-08-01-interview-gamefreak-gear-tembo-turner:
   facets:
     people:
@@ -42724,38 +42750,8 @@
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-cross-industry/
     why: S.A.隶属研究开发部，同部门背景
 2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra:
+  id: scan-cgworld-2017-07-game-graphics-studio-extra
   facets:
-    people:
-    - name: 海野隆雄
-      role: mentioned
-      slug: unno-takao
-    - name: 氏家淳子
-      role: mentioned
-      slug: shi-jia-chun-zi
-    - name: 中广健吾
-      role: mentioned
-      slug: zhong-guang-jian-wu
-    - name: 畠 祐贵
-      role: mentioned
-    - name: 石黑真照
-      role: mentioned
-    - name: 川野健太
-      role: mentioned
-    - name: 山本裕辉
-      role: mentioned
-    - name: 小野宪史
-      role: mentioned
-      slug: xiao-ye-xian-shi
-    places:
-    - id: carrot_tower
-      name: 胡萝卜塔
-      world: real
-    - name: 东京都千代田区富士见2-10-2 饭田桥Grand Bloom 23F
-      what: Creatures所在地
-      world: real
-    - name: 东京都世田谷区太子堂4-1-1 胡萝卜塔22F
-      what: GAME FREAK所在地
-      world: real
     pokemon:
     - name: 皮卡丘
       ndex: 25
@@ -42776,12 +42772,42 @@
       slug: null
     - name: 接龙马
       slug: null
-  id: scan-cgworld-2017-07-game-graphics-studio-extra
+    people:
+    - name: 海野隆雄
+      slug: unno-takao
+      role: mentioned
+    - name: 氏家淳子
+      slug: shi-jia-chun-zi
+      role: mentioned
+    - name: 中广健吾
+      slug: zhong-guang-jian-wu
+      role: mentioned
+    - name: 畠 祐贵
+      role: mentioned
+    - name: 石黑真照
+      role: mentioned
+    - name: 川野健太
+      role: mentioned
+    - name: 山本裕辉
+      role: mentioned
+    - name: 小野宪史
+      slug: xiao-ye-xian-shi
+      role: mentioned
+    places:
+    - name: 胡萝卜塔
+      world: real
+      id: carrot_tower
+    - name: 东京都千代田区富士见2-10-2 饭田桥Grand Bloom 23F
+      what: Creatures所在地
+      world: real
+    - name: 东京都世田谷区太子堂4-1-1 胡萝卜塔22F
+      what: GAME FREAK所在地
+      world: real
   observations:
-  - seg: 11
-    text: 工作室所属3DCG美术师22名，希望数年翻倍
-  - seg: 34
-    text: 《太阳·月亮》全球销量1,544万份
+  - text: 工作室所属3DCG美术师22名，希望数年翻倍
+    seg: 11
+  - text: 《太阳·月亮》全球销量1,544万份
+    seg: 36
 2017-06-10-scan-cgworld-2017-07-pokemon-3d-pipeline:
   facets:
     people: []
@@ -52865,34 +52891,8 @@
   - seg: 39
     text: 招式最多4个且使用次数固定，用尽后使出战
 2026-08-29-continue-vol32-scan-archive:
+  id: continue-vol32-scan-archive
   facets:
-    people:
-    - name: 田尻智
-      role: speaker
-      slug: tajiri-satoshi
-    - name: 中川翔子
-      role: speaker
-    - name: 全体
-      role: speaker
-    - name: 宫本茂
-      role: mentioned
-      slug: miyamoto-shigeru
-    - name: 志田英邦
-      role: mentioned
-    - name: 石原敦志
-      role: mentioned
-    - name: 阿弘
-      role: mentioned
-    places:
-    - name: 下北泽
-      what: GAME FREAK 最初的开发基地
-      world: real
-    - name: 町田
-      what: 田尻智少年居所
-      world: real
-    - name: 伙伴公园
-      what: 双插槽带入宝可梦处
-      world: game
     pokemon:
     - name: 妙蛙种子
       ndex: 1
@@ -52906,8 +52906,14 @@
       ndex: 22
     - name: 皮卡丘
       ndex: 25
+    - name: 雷丘
+      ndex: 26
     - name: 派拉斯特
       ndex: 47
+    - name: 喵喵
+      ndex: 52
+    - name: 胡地
+      ndex: 65
     - name: 大葱鸭
       ndex: 83
     - name: 卡比兽
@@ -52918,10 +52924,14 @@
       ndex: 166
     - name: 波克比
       ndex: 175
+    - name: 电龙
+      ndex: 181
     - name: 熔岩蜗牛
       ndex: 219
     - name: 盔甲鸟
       ndex: 227
+    - name: 凤王
+      ndex: 250
     - name: 刺尾虫
       ndex: 265
     - name: 脱壳忍者
@@ -52942,16 +52952,6 @@
       ndex: 484
     - name: 雷吉奇卡斯
       ndex: 486
-    - name: 凤王
-      ndex: 250
-    - name: 胡地
-      ndex: 65
-    - name: 阿罗拉雷丘
-      ndex: 26
-    - name: 电龙
-      ndex: 181
-    - name: 伽勒尔喵喵
-      ndex: 52
     works:
     - name: 宝可梦 红·绿
       slug: red-green
@@ -52979,12 +52979,38 @@
       slug: null
     - name: 帝牙卢卡VS帕路奇亚
       slug: null
-  id: continue-vol32-scan-archive
+    people:
+    - name: 田尻智
+      slug: tajiri-satoshi
+      role: speaker
+    - name: 中川翔子
+      role: speaker
+    - name: 全体
+      role: speaker
+    - name: 宫本茂
+      slug: miyamoto-shigeru
+      role: mentioned
+    - name: 志田英邦
+      role: mentioned
+    - name: 石原敦志
+      role: mentioned
+    - name: 阿弘
+      role: mentioned
+    places:
+    - name: 下北泽
+      what: GAME FREAK 最初的开发基地
+      world: real
+    - name: 町田
+      what: 田尻智少年居所
+      world: real
+    - name: 伙伴公园
+      what: 双插槽带入宝可梦处
+      world: game
   observations:
-  - seg: 14
-    text: 田尻智名片上画着凤王的插图
-  - seg: 21
-    text: 凤王持有的道具圣灰使用后可回复所有宝可梦
+  - text: 田尻智名片上画着凤王的插图
+    seg: 12
+  - text: 凤王持有的道具圣灰使用后可回复所有宝可梦
+    seg: 18
 2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival:
   facets:
     people: []

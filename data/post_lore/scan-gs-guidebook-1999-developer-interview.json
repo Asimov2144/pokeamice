@@ -2,7 +2,7 @@
  "id": "scan-gs-guidebook-1999-developer-interview",
  "stem": "1999-12-01-scan-gs-guidebook-1999-developer-interview",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -10,6 +10,17 @@
  },
  "facets": {
   "pokemon": [
+   {
+    "name": "烈雀",
+    "ndex": 21,
+    "seg": [
+     23
+    ],
+    "as": [
+     "烈雀"
+    ],
+    "via": "body"
+   },
    {
     "name": "皮卡丘",
     "ndex": 25,
@@ -24,6 +35,18 @@
     "via": "body"
    },
    {
+    "name": "皮皮",
+    "ndex": 35,
+    "seg": [
+     95,
+     96
+    ],
+    "as": [
+     "皮皮"
+    ],
+    "via": "body"
+   },
+   {
     "name": "暴鲤龙",
     "ndex": 130,
     "seg": [
@@ -31,6 +54,21 @@
     ],
     "as": [
      "暴鲤龙"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "梦幻",
+    "ndex": 151,
+    "seg": [
+     65,
+     66,
+     67,
+     69,
+     70
+    ],
+    "as": [
+     "梦幻"
     ],
     "via": "body"
    },
@@ -82,6 +120,41 @@
     "via": "body"
    },
    {
+    "name": "雷公",
+    "ndex": 243,
+    "seg": [
+     82,
+     90
+    ],
+    "as": [
+     "雷公"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "炎帝",
+    "ndex": 244,
+    "seg": [
+     82,
+     84
+    ],
+    "as": [
+     "炎帝"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "水君",
+    "ndex": 245,
+    "seg": [
+     82
+    ],
+    "as": [
+     "水君"
+    ],
+    "via": "body"
+   },
+   {
     "name": "洛奇亚",
     "ndex": 249,
     "seg": [
@@ -93,17 +166,6 @@
     "via": "body"
    },
    {
-    "name": "烈雀",
-    "ndex": 21,
-    "seg": [
-     23
-    ],
-    "as": [
-     "烈雀"
-    ],
-    "via": "llm"
-   },
-   {
     "name": "凤王",
     "ndex": 250,
     "seg": [
@@ -112,62 +174,7 @@
     "as": [
      "凤王"
     ],
-    "via": "llm"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     65
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "炎帝",
-    "ndex": 244,
-    "seg": [
-     82
-    ],
-    "as": [
-     "炎帝"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "水君",
-    "ndex": 245,
-    "seg": [
-     82
-    ],
-    "as": [
-     "水君"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "雷公",
-    "ndex": 243,
-    "seg": [
-     82
-    ],
-    "as": [
-     "雷公"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "皮皮",
-    "ndex": 35,
-    "seg": [
-     95
-    ],
-    "as": [
-     "皮皮"
-    ],
-    "via": "llm"
+    "via": "body"
    }
   ],
   "works": [
@@ -303,18 +310,6 @@
   ],
   "concepts": [
    {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     3
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
     "id": "character-design",
     "name": "角色设计",
     "facet": "design",
@@ -339,6 +334,18 @@
     "via": "body"
    },
    {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     10
+    ],
+    "as": [
+     "开发期间"
+    ],
+    "via": "body"
+   },
+   {
     "id": "new-hardware",
     "name": "新硬件",
     "facet": "tech",
@@ -347,19 +354,6 @@
     ],
     "as": [
      "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     10,
-     13
-    ],
-    "as": [
-     "红外线通信"
     ],
     "via": "body"
    },
@@ -402,12 +396,23 @@
     "via": "body"
    },
    {
+    "id": "motion",
+    "name": "动作设计",
+    "facet": "art",
+    "seg": [
+     33
+    ],
+    "as": [
+     "动画表现"
+    ],
+    "via": "body"
+   },
+   {
     "id": "programming",
     "name": "程序实现",
     "facet": "tech",
     "seg": [
-     36,
-     37
+     36
     ],
     "as": [
      "编写程序"
@@ -419,10 +424,12 @@
     "name": "惊喜与发现",
     "facet": "design",
     "seg": [
-     46
+     46,
+     59
     ],
     "as": [
-     "新鲜感"
+     "新鲜感",
+     "惊喜"
     ],
     "via": "body"
    },
@@ -432,6 +439,7 @@
     "facet": "system",
     "seg": [
      64,
+     93,
      100
     ],
     "as": [
@@ -464,6 +472,18 @@
     "via": "body"
    },
    {
+    "id": "mystery",
+    "name": "神秘感",
+    "facet": "design",
+    "seg": [
+     78
+    ],
+    "as": [
+     "神秘的"
+    ],
+    "via": "body"
+   },
+   {
     "id": "cable-link",
     "name": "通信线缆",
     "facet": "tech",
@@ -488,7 +508,7 @@
  "observations": [
   {
    "seg": 10,
-   "text": "森本称清除战斗招式bug花了一年半以上"
+   "text": "森本称清除战斗招式bug花了半年多"
   },
   {
    "seg": 39,
@@ -518,7 +538,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

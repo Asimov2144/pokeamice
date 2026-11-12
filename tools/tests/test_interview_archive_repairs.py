@@ -1,6 +1,7 @@
 """Regressions for reviewed scan order, anonymous speakers and source links."""
 import importlib.util
 import json
+import re
 from pathlib import Path
 import unittest
 import yaml
@@ -92,6 +93,95 @@ class InterviewArchiveRepairs(unittest.TestCase):
         self.assertIsNone(archive.source_url({"source": {"title": "no URL"}}))
         self.assertEqual(archive.source_url({"source": {"url": "https://example.org/original", "archive_url": "https://example.org/archive"}}), "https://example.org/original")
         self.assertEqual(archive.source_url({"original_link": "https://example.org/original", "preferred_source_url": "https://example.org/archive"}), "https://example.org/archive")
+
+
+class OldScanAudit(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        report = (ROOT / "docs/maintenance/old-scan-translation-audit-2026-11-12.md").read_text(encoding="utf-8")
+        cls.stems = re.findall(r"\(../../_posts/([^/)]+)\.md\)", report)
+        cls.posts = {}
+        for stem in cls.stems:
+            text = (ROOT / "_posts" / f"{stem}.md").read_text(encoding="utf-8")
+            front = re.search(r"(?ms)\A---\n(.*?)^---[ \t]*$", text).group(1)
+            cls.posts[stem] = yaml.load(front, Loader=yaml.CSafeLoader)
+
+    def test_source_locations_and_explicit_gaps(self):
+        self.assertEqual(len(self.posts), 40)
+        gaps = 0
+        for stem, fm in self.posts.items():
+            with self.subTest(stem=stem):
+                rows = fm["translation_segments"]
+                self.assertEqual(fm["scan_reading_order"], "listed")
+                self.assertEqual(len({r["region_id"] for r in rows}), len(rows))
+                pages = {r["scan_page"] for r in rows}
+                self.assertTrue(all(isinstance(p, int) and p >= 0 for p in pages))
+                self.assertEqual(set(fm["scan_page_order"]), pages)
+                self.assertEqual(len(fm["scan_page_order"]), len(pages))
+                pending = sum(r.get("review_status") in ("review", "pending", "needs-review") for r in rows)
+                self.assertEqual(fm["pending_review_regions"], pending)
+                gaps += pending
+                self.assertEqual(fm["workflow"]["proofreading"], "source-checked-with-gaps" if pending else "source-checked")
+        self.assertEqual(gaps, 11)
+
+    def test_quotes_still_match_source_regions(self):
+        quotes = yaml.load((ROOT / "_data/quotes.yml").read_text(encoding="utf-8"), Loader=yaml.CSafeLoader)["quotes"]
+        checked = 0
+        for q in quotes:
+            if q.get("post") not in self.posts:
+                continue
+            with self.subTest(quote=q["id"]):
+                row = self.posts[q["post"]]["translation_segments"][q["segment"] - 1]
+                self.assertEqual(q["id"], f"{q['post']}#{q['segment']}")
+                self.assertEqual(q["ja"], row["original"])
+                self.assertEqual(q["zh"], row["translation"])
+                self.assertEqual(q["speaker"], row["speaker"])
+                checked += 1
+        self.assertEqual(checked, 66)
+
+    def test_lore_indices_and_named_pokemon(self):
+        for stem, fm in self.posts.items():
+            rows = archive.normalize_scan(fm["translation_segments"], {}, preserve_order=True)
+            post_id = archive.jekyll_title_slug(archive.DATE_PREFIX.sub("", stem))
+            rec = json.loads((ROOT / "data/post_lore" / f"{post_id}.json").read_text(encoding="utf-8"))
+            with self.subTest(stem=stem):
+                self.assertEqual(rec["body"]["n"], len(rows))
+                for items in rec["facets"].values():
+                    for item in items:
+                        self.assertTrue(all(isinstance(n, int) and 0 <= n < len(rows) for n in item.get("seg", [])))
+                for item in rec["observations"]:
+                    self.assertTrue(0 <= item["seg"] < len(rows))
+                for pokemon in rec["facets"]["pokemon"]:
+                    aliases = pokemon.get("as", []) + [pokemon["name"]]
+                    for n in pokemon["seg"]:
+                        text = rows[n].get("translation") or rows[n].get("original", "")
+                        self.assertTrue(any(name in text for name in aliases), (pokemon["name"], n))
+
+    def test_table_cells_match_reviewed_transcript(self):
+        count = 0
+        for stem, fm in self.posts.items():
+            for row in fm["translation_segments"]:
+                if row.get("type") != "table":
+                    continue
+                count += 1
+                for text_key, lang in (("original", "ja"), ("translation", "zh")):
+                    expected = []
+                    notes = []
+                    lines = row[text_key].splitlines()
+                    outer_pipes = lines[0].strip().startswith("|") and lines[0].strip().endswith("|")
+                    for line in lines:
+                        if "|" in line:
+                            source = line.strip().strip("|") if outer_pipes else line
+                            cells = [c.strip() for c in source.split("|")]
+                            if not all(re.fullmatch(r"[-: ]+", c) for c in cells):
+                                expected.append(cells)
+                        elif line.strip():
+                            notes.append(line)
+                    with self.subTest(stem=stem, region=row["region_id"], lang=lang):
+                        self.assertEqual(row[f"rows_{lang}"], expected)
+                        self.assertEqual(len({len(cells) for cells in expected}), 1)
+                        self.assertEqual(row.get(f"table_note_{lang}", ""), "\n".join(notes))
+        self.assertEqual(count, 7)
 
 
 if __name__ == "__main__":

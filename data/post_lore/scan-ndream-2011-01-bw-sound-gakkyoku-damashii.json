@@ -2,7 +2,7 @@
  "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
  "stem": "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -36,7 +36,7 @@
     "name": "宝可梦 红·绿",
     "slug": "red-green",
     "seg": [
-     104
+     113
     ],
     "via": "llm"
    },
@@ -44,7 +44,7 @@
     "name": "宝可梦 金·银",
     "slug": "gold-silver",
     "seg": [
-     117
+     93
     ],
     "via": "llm"
    },
@@ -52,7 +52,7 @@
     "name": "宝可梦 钻石·珍珠",
     "slug": "diamond-pearl",
     "seg": [
-     113
+     74
     ],
     "via": "llm"
    },
@@ -216,7 +216,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     73
+     77
     ],
     "via": "llm"
    },
@@ -225,7 +225,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     74
+     78
     ],
     "via": "llm"
    },
@@ -234,7 +234,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     105
+     115
     ],
     "via": "llm"
    },
@@ -334,7 +334,6 @@
      4,
      9,
      10,
-     15,
      25,
      36
     ],
@@ -377,9 +376,9 @@
      19,
      51,
      69,
-     97,
-     107,
-     109
+     92,
+     106,
+     114
     ],
     "as": [
      "作曲",
@@ -421,8 +420,8 @@
     "facet": "audio",
     "seg": [
      47,
-     102,
-     149
+     108,
+     150
     ],
     "as": [
      "声音演出"
@@ -435,7 +434,7 @@
     "facet": "process",
     "seg": [
      51,
-     118
+     70
     ],
     "as": [
      "品质",
@@ -462,10 +461,22 @@
     "seg": [
      63,
      64,
-     71
+     75
     ],
     "as": [
      "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     73
+    ],
+    "as": [
+     "容量"
     ],
     "via": "body"
    },
@@ -474,8 +485,8 @@
     "name": "背景音乐",
     "facet": "audio",
     "seg": [
-     77,
-     88,
+     81,
+     97,
      122,
      145,
      158,
@@ -492,7 +503,7 @@
     "name": "台词",
     "facet": "story",
     "seg": [
-     82,
+     86,
      158,
      160
     ],
@@ -506,7 +517,7 @@
     "name": "易懂与门槛",
     "facet": "design",
     "seg": [
-     84,
+     88,
      189
     ],
     "as": [
@@ -516,41 +527,16 @@
     "via": "body"
    },
    {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     87,
-     88
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     92
-    ],
-    "as": [
-     "洞窟"
-    ],
-    "via": "body"
-   },
-   {
     "id": "sfx",
     "name": "音效",
     "facet": "audio",
     "seg": [
-     97,
-     102,
-     114,
-     116,
-     124,
-     127
+     92,
+     106,
+     108,
+     119,
+     130,
+     140
     ],
     "as": [
      "音效",
@@ -563,10 +549,36 @@
     "name": "推翻重做",
     "facet": "process",
     "seg": [
-     107
+     94,
+     114
     ],
     "as": [
      "反复推敲"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "collaboration",
+    "name": "联动",
+    "facet": "business",
+    "seg": [
+     96,
+     97
+    ],
+    "as": [
+     "联动"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "level-design",
+    "name": "地图与关卡",
+    "facet": "system",
+    "seg": [
+     101
+    ],
+    "as": [
+     "洞窟"
     ],
     "via": "body"
    },
@@ -575,48 +587,10 @@
     "name": "音源与机能",
     "facet": "audio",
     "seg": [
-     107
+     114
     ],
     "as": [
      "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     112
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     118,
-     133
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     127,
-     128
-    ],
-    "as": [
-     "提案"
     ],
     "via": "body"
    },
@@ -629,6 +603,18 @@
     ],
     "as": [
      "公司内部"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "prototype",
+    "name": "原型与试作",
+    "facet": "process",
+    "seg": [
+     133
+    ],
+    "as": [
+     "原型"
     ],
     "via": "body"
    },
@@ -678,7 +664,7 @@
     "facet": "system",
     "seg": [
      140,
-     149,
+     150,
      172
     ],
     "as": [
@@ -715,7 +701,7 @@
     "name": "对战系统",
     "facet": "system",
     "seg": [
-     149
+     150
     ],
     "as": [
      "宝可梦对战"
@@ -727,7 +713,7 @@
     "name": "培育",
     "facet": "system",
     "seg": [
-     149
+     150
     ],
     "as": [
      "培育宝可梦"
@@ -751,7 +737,7 @@
  "observations": [
   {
    "seg": 23,
-   "text": "《动摇不定的心》与《再见》的粗略草稿用YAMAHA S90 ES创作"
+   "text": "《坚定不移的心意》与《再见》的粗略草稿用YAMAHA S90 ES创作"
   },
   {
    "seg": 51,
@@ -781,7 +767,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

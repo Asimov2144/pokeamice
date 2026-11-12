@@ -2,7 +2,7 @@
  "id": "scan-gs-guidebook-1999-staff-zukan-journal",
  "stem": "1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -126,13 +126,35 @@
     "via": "body"
    },
    {
+    "name": "霸王花",
+    "ndex": 45,
+    "seg": [
+     18
+    ],
+    "as": [
+     "霸王花"
+    ],
+    "via": "body"
+   },
+   {
     "name": "可达鸭",
     "ndex": 54,
     "seg": [
-     4
+     5
     ],
     "as": [
      "可达鸭"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "火暴猴",
+    "ndex": 57,
+    "seg": [
+     31
+    ],
+    "as": [
+     "火暴猴"
     ],
     "via": "body"
    },
@@ -145,6 +167,17 @@
     ],
     "as": [
      "蚊香蝌蚪"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "小拳石",
+    "ndex": 74,
+    "seg": [
+     114
+    ],
+    "as": [
+     "小拳石"
     ],
     "via": "body"
    },
@@ -332,6 +365,17 @@
     "via": "body"
    },
    {
+    "name": "树才怪",
+    "ndex": 185,
+    "seg": [
+     108
+    ],
+    "as": [
+     "树才怪"
+    ],
+    "via": "body"
+   },
+   {
     "name": "未知图腾",
     "ndex": 201,
     "seg": [
@@ -339,6 +383,17 @@
     ],
     "as": [
      "未知图腾"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "大奶罐",
+    "ndex": 241,
+    "seg": [
+     47
+    ],
+    "as": [
+     "大奶罐"
     ],
     "via": "body"
    }
@@ -360,7 +415,7 @@
     "slug": "masuda-junichi",
     "role": "mentioned",
     "seg": [
-     4
+     5
     ],
     "via": "llm"
    },
@@ -369,7 +424,7 @@
     "slug": "sugimori-ken",
     "role": "mentioned",
     "seg": [
-     6
+     7
     ],
     "via": "llm"
    },
@@ -378,7 +433,7 @@
     "slug": "morimoto-shigeki",
     "role": "mentioned",
     "seg": [
-     8
+     9
     ],
     "via": "llm"
    },
@@ -387,7 +442,7 @@
     "slug": "nishino-koji",
     "role": "mentioned",
     "seg": [
-     10
+     11
     ],
     "via": "llm"
    },
@@ -396,7 +451,7 @@
     "slug": "ota-takenori",
     "role": "mentioned",
     "seg": [
-     12
+     13
     ],
     "via": "llm"
    },
@@ -405,7 +460,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     14
+     15
     ],
     "via": "llm"
    },
@@ -414,7 +469,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     16
+     17
     ],
     "via": "llm"
    },
@@ -423,7 +478,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     18
+     19
     ],
     "via": "llm"
    },
@@ -432,7 +487,7 @@
     "slug": null,
     "role": "mentioned",
     "seg": [
-     20
+     21
     ],
     "via": "llm"
    },
@@ -625,7 +680,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     8
+     9
     ],
     "what": "森本茂树的分布",
     "via": "llm"
@@ -638,7 +693,7 @@
     "world": "real",
     "scale": "area",
     "seg": [
-     8
+     9
     ],
     "what": "森本茂树的分布",
     "via": "llm"
@@ -650,7 +705,7 @@
     "name": "作曲",
     "facet": "audio",
     "seg": [
-     4,
+     5,
      26
     ],
     "as": [
@@ -663,7 +718,7 @@
     "name": "音效",
     "facet": "audio",
     "seg": [
-     4,
+     5,
      32
     ],
     "as": [
@@ -677,7 +732,7 @@
     "name": "角色设计",
     "facet": "design",
     "seg": [
-     6
+     7
     ],
     "as": [
      "角色设计"
@@ -689,7 +744,7 @@
     "name": "像素画",
     "facet": "tech",
     "seg": [
-     6
+     7
     ],
     "as": [
      "像素画"
@@ -701,7 +756,7 @@
     "name": "周边商品",
     "facet": "business",
     "seg": [
-     10,
+     11,
      24,
      30
     ],
@@ -715,7 +770,7 @@
     "name": "程序实现",
     "facet": "tech",
     "seg": [
-     20
+     21
     ],
     "as": [
      "代码"
@@ -813,20 +868,6 @@
     "via": "body"
    },
    {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     59,
-     106,
-     107
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
     "id": "joining",
     "name": "进公司之前",
     "facet": "team",
@@ -865,14 +906,15 @@
     "via": "body"
    },
    {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
     "seg": [
-     109
+     106,
+     107
     ],
     "as": [
-     "攻略"
+     "培育"
     ],
     "via": "body"
    },
@@ -881,6 +923,7 @@
     "name": "配信与赠送",
     "facet": "system",
     "seg": [
+     109,
      112,
      113
     ],
@@ -888,17 +931,27 @@
      "神秘礼物"
     ],
     "via": "body"
+   },
+   {
+    "id": "guides",
+    "name": "攻略文化",
+    "facet": "audience",
+    "seg": [],
+    "as": [
+     "攻略本"
+    ],
+    "via": "tag"
    }
   ]
  },
  "observations": [
   {
-   "seg": 4,
-   "text": "增田顺一的身高体重为1.72／62Kg，A型。"
+   "seg": 5,
+   "text": "趣味“工作人员图鉴”中，增田顺一的身高体重为1.72／62Kg，A型。"
   },
   {
    "seg": 26,
-   "text": "一之濑刚身高57m、体重550t，属性为娱乐型。"
+   "text": "趣味“工作人员图鉴”中，一之濑刚身高57m、体重550t，属性为娱乐型。"
   }
  ],
  "relations": [
@@ -924,7 +977,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

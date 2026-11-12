@@ -2,7 +2,7 @@
  "id": "scan-ndream-2011-05-pokemon-typing-ds",
  "stem": "2011-03-21-scan-ndream-2011-05-pokemon-typing-ds",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -42,6 +42,17 @@
     ],
     "as": [
      "比克提尼"
+    ],
+    "via": "body"
+   },
+   {
+    "name": "裙儿小姐",
+    "ndex": 549,
+    "seg": [
+     49
+    ],
+    "as": [
+     "裙儿小姐"
     ],
     "via": "body"
    },
@@ -154,14 +165,20 @@
     "via": "body"
    },
    {
-    "id": "collection",
-    "name": "收集与图鉴",
+    "id": "level-design",
+    "name": "地图与关卡",
     "facet": "system",
     "seg": [
-     7
+     7,
+     20,
+     33,
+     34,
+     40,
+     43
     ],
     "as": [
-     "收集宝可梦"
+     "关卡",
+     "路线"
     ],
     "via": "body"
    },
@@ -174,24 +191,6 @@
     ],
     "as": [
      "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     20,
-     33,
-     34,
-     40,
-     50,
-     52
-    ],
-    "as": [
-     "路线",
-     "关卡"
     ],
     "via": "body"
    },
@@ -212,22 +211,11 @@
     "name": "易懂与门槛",
     "facet": "design",
     "seg": [
-     52
-    ],
-    "as": [
-     "第一次接触"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
+     52,
      65
     ],
     "as": [
-     "漏洞"
+     "第一次接触"
     ],
     "via": "body"
    },
@@ -276,7 +264,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }

@@ -2,7 +2,7 @@
  "id": "scan-ndream-2011-04-masuda-bridges",
  "stem": "2011-02-21-scan-ndream-2011-04-masuda-bridges",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-12",
  "kind": "scan",
  "body": {
   "kind": "segments",
@@ -30,7 +30,7 @@
     "as": [
      "凯西"
     ],
-    "via": "llm"
+    "via": "body"
    }
   ],
   "works": [
@@ -493,7 +493,8 @@
   "tour_places": "2026-09-23",
   "model": "deepseek-chat",
   "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
+  "concepts": "2026-09-26",
+  "source_review": "2026-11-12 old scan audit"
  },
- "edited": false
+ "edited": true
 }
