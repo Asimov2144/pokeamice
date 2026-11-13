@@ -122,8 +122,8 @@
 .fr-text { max-height: 14em; }
 .fr-text:not(.open):not(.short)::after,
 .fr-v-note .fr-text:not(.open):not(.short)::after { background: linear-gradient(transparent, var(--paper-stock)); }
-.fr-cap { color: #6a5d4c; font-size: 12px; line-height: 1.65; opacity: 1; }
-.fr-ocr { color: #6c604e; font-size: 11px; opacity: 1; }
+/* Model image descriptions and OCR stay searchable without narrating the photos. */
+.fr-cap, .fr-ocr { display: none; }
 .fr-topics { margin-top: 8px; color: #685842; font-size: 11px; }
 .fr-vnote { color: #70634f; font-size: 11px; opacity: 1; }
 .fr-foot { margin-top: 11px; color: #685c49; font-size: 11px; line-height: 1.6; opacity: 1; }
@@ -191,7 +191,6 @@
 .fr-reader .fr-expanded .fr-flow { font-size: 18px; line-height: 1.85; }
 .fr-reader .fr-expanded .fr-text { max-height: none; }
 .fr-reader .fr-expanded .fr-meta { margin-bottom: 15px; font-size: 12px; }
-.fr-reader .fr-expanded .fr-cap { font-size: 14px; }
 .fr-reader .fr-expanded .fr-foot, .fr-reader .fr-expanded .fr-vnote, .fr-reader .fr-expanded .fr-topics { font-size: 12px; }
 .fr-reader .fr-expanded .st-lg img { width: 86px; height: 86px; }
 .fr-reader .fr-expanded .st-md img { width: 62px; height: 62px; }
