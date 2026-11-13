@@ -15,22 +15,32 @@
       onK[k] = !onK[k]; b.classList.toggle("on", !!onK[k]); apply();
     });
   });
+  // Mounting space belongs to the column flow, so cut-out stickers are not
+  // clipped at the top of a column and pins have actual room around the paper.
+  cards.forEach(function (card) {
+    var mount = document.createElement("div");
+    mount.className = "fr-mount" + (card.classList.contains("fr-v-spread") ? " fr-mount-spread" : "");
+    card.parentNode.insertBefore(mount, card);
+    mount.appendChild(card);
+  });
   var reader = document.getElementById("fr-reader");
   if (reader && typeof reader.showModal === "function") {
     var readerContent = document.getElementById("fr-reader-content");
-    var readerDate = document.getElementById("fr-reader-date");
-    var readerSource = document.getElementById("fr-reader-source");
     var opener;
-    wall.classList.add("fr-reader-ready");
     cards.forEach(function (c) {
+      c.classList.add("fr-can-open");
       var button = document.createElement("button");
       button.type = "button";
       button.className = "fr-read";
-      button.textContent = "展开阅读";
+      button.textContent = "展开 ↗";
       button.setAttribute("aria-label", c.getAttribute("data-d") + "的微博，展开阅读");
       button.setAttribute("aria-haspopup", "dialog");
       button.setAttribute("aria-controls", "fr-reader");
-      c.querySelector(".fr-meta").appendChild(button);
+      var action = document.createElement("span");
+      action.className = "fr-read-action";
+      action.appendChild(document.createTextNode(" · "));
+      action.appendChild(button);
+      c.querySelector(".fr-foot").appendChild(action);
     });
     // Measure only text near the viewport; off-screen months use content-visibility.
     var textObserver = new IntersectionObserver(function (entries) {
@@ -45,41 +55,37 @@
 
     function openReader(card, button) {
       readerContent.replaceChildren();
-      var body = card.querySelector(".fr-text, .fr-flow, .fr-mag, .fr-spread-body");
-      if (body) {
-        var text = body.cloneNode(true);
-        // The collage interleaves images automatically. Read the original text in
-        // one column, followed by the complete album in its original order.
-        text.querySelectorAll(".fr-imgs, .fr-figure, .fr-row, .stk").forEach(function (el) { el.remove(); });
-        text.className = "fr-reader-text";
-        readerContent.appendChild(text);
+      // Enlarge the actual designed card: keep its paper, inline colour/rotation,
+      // stickers, photo treatments, captions, and interleaved text/image layout.
+      var copy = card.cloneNode(true);
+      copy.removeAttribute("id");
+      copy.classList.remove("fr-can-open");
+      copy.classList.add("fr-expanded");
+      copy.querySelectorAll(".fr-read-action").forEach(function (el) { el.remove(); });
+      var extra = copy.querySelector("template.fr-extra-images");
+      if (extra) {
+        var layout = copy.querySelector(".fr-mag, .fr-spread-body, .im-mosaic");
+        var photos = Array.prototype.slice.call(extra.content.querySelectorAll("a.fr-ph"));
+        if (layout && layout.matches(".fr-mag, .fr-spread-body")) {
+          photos.forEach(function (photo, index) {
+            var figure = document.createElement("div");
+            figure.className = "fr-figure fr-fig-" + (index % 2);
+            figure.appendChild(photo.cloneNode(true));
+            layout.appendChild(figure);
+          });
+        } else if (layout) {
+          for (var i = 0; i < photos.length; i += 3) {
+            var row = document.createElement("div");
+            row.className = "fr-row";
+            photos.slice(i, i + 3).forEach(function (photo) { row.appendChild(photo.cloneNode(true)); });
+            layout.appendChild(row);
+          }
+        }
+        extra.remove();
+        copy.querySelectorAll(".fr-more").forEach(function (el) { el.remove(); });
       }
-      var photos = Array.prototype.slice.call(card.querySelectorAll("a.fr-ph"));
-      var extra = card.querySelector("template.fr-extra-images");
-      if (extra) photos = photos.concat(Array.prototype.slice.call(extra.content.querySelectorAll("a.fr-ph")));
-      if (photos.length) {
-        var heading = document.createElement("h3");
-        heading.className = "fr-reader-gallery-title";
-        heading.textContent = "配图 · " + photos.length + " 张";
-        readerContent.appendChild(heading);
-        var gallery = document.createElement("div");
-        gallery.className = "fr-reader-gallery";
-        photos.forEach(function (photo, index) {
-          var link = photo.cloneNode(true);
-          link.className = "fr-reader-photo";
-          link.removeAttribute("style");
-          link.setAttribute("aria-label", "查看第 " + (index + 1) + " 张配图");
-          link.querySelector("img").alt = "微博配图 " + (index + 1);
-          gallery.appendChild(link);
-        });
-        readerContent.appendChild(gallery);
-      }
-      var videoNote = card.querySelector(".fr-vnote");
-      if (videoNote) readerContent.appendChild(videoNote.cloneNode(true));
-      var source = card.querySelector(".fr-foot a");
-      readerSource.hidden = !source;
-      if (source) readerSource.href = source.href;
-      readerDate.textContent = card.getAttribute("data-d") + " " + card.querySelector("time").textContent.slice(-5);
+      readerContent.appendChild(copy);
+      reader.setAttribute("aria-label", card.getAttribute("data-d") + "的微博，放大阅读");
       opener = button;
       document.documentElement.classList.add("fr-reading");
       reader.showModal();
@@ -87,7 +93,16 @@
     }
     wall.addEventListener("click", function (e) {
       var button = e.target.closest(".fr-read");
-      if (button) openReader(button.closest(".fr"), button);
+      if (button) {
+        openReader(button.closest(".fr"), button);
+        return;
+      }
+      // Keep links and text selection working; the rest of the paper can open it.
+      if (e.target.closest("a, button, input, select, label")) return;
+      var selection = window.getSelection();
+      if (selection && !selection.isCollapsed) return;
+      var card = e.target.closest(".fr");
+      if (card) openReader(card, card.querySelector(".fr-read"));
     });
     reader.querySelector(".fr-reader-close").addEventListener("click", function () { reader.close(); });
     reader.addEventListener("click", function (e) {
@@ -131,6 +146,7 @@
         for (var i = 0; i < words.length; i++) if (s.indexOf(words[i]) < 0) { ok = false; break; }
       }
       c.hidden = !ok;
+      c.parentElement.hidden = !ok;
       if (ok) { shown++; seen[c.getAttribute("data-d").slice(0, 7)] = 1; }
     });
     months.forEach(function (m) { m.hidden = !seen[m.getAttribute("data-m")]; });

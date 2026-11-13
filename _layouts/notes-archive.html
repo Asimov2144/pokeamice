@@ -2,21 +2,15 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ '/assets/css/notes-archive.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/weibo-board.css' | relative_url }}">
 <div id="main" role="main">
   <div class="wbn-shell {{ page.shell_class }}">
     {{ content }}
   </div>
 </div>
-<dialog id="fr-reader" class="fr-reader" aria-labelledby="fr-reader-title">
+<dialog id="fr-reader" class="fr-reader" aria-label="微博卡片放大阅读">
   <header class="fr-reader-head">
-    <div>
-      <h2 id="fr-reader-title">微博全文</h2>
-      <p id="fr-reader-date"></p>
-    </div>
-    <button type="button" class="fr-reader-close" autofocus aria-label="关闭阅读窗口">关闭 ×</button>
+    <button type="button" class="fr-reader-close" autofocus aria-label="收起微博卡片">收起 ×</button>
   </header>
   <div id="fr-reader-content" class="fr-reader-content"></div>
-  <footer class="fr-reader-foot">
-    <a id="fr-reader-source" target="_blank" rel="nofollow noopener">查看原微博 ↗</a>
-  </footer>
 </dialog>
