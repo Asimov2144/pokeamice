@@ -15,6 +15,14 @@
       onK[k] = !onK[k]; b.classList.toggle("on", !!onK[k]); apply();
     });
   });
+  // Mounting space belongs to the column flow, so cut-out stickers are not
+  // clipped at the top of a column and pins have actual room around the paper.
+  cards.forEach(function (card) {
+    var mount = document.createElement("div");
+    mount.className = "fr-mount" + (card.classList.contains("fr-v-spread") ? " fr-mount-spread" : "");
+    card.parentNode.insertBefore(mount, card);
+    mount.appendChild(card);
+  });
   var reader = document.getElementById("fr-reader");
   if (reader && typeof reader.showModal === "function") {
     var readerContent = document.getElementById("fr-reader-content");
@@ -138,6 +146,7 @@
         for (var i = 0; i < words.length; i++) if (s.indexOf(words[i]) < 0) { ok = false; break; }
       }
       c.hidden = !ok;
+      c.parentElement.hidden = !ok;
       if (ok) { shown++; seen[c.getAttribute("data-d").slice(0, 7)] = 1; }
     });
     months.forEach(function (m) { m.hidden = !seen[m.getAttribute("data-m")]; });
