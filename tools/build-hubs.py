@@ -50,6 +50,7 @@ TAG = "海外媒体专访"
 
 # key, name on the page, region, pattern in publication / title / source
 OUTLETS = [
+    ("nblast", "Nintendo Blast", "葡萄牙语（巴西）", r"Nintendo Blast"),
     ("gi", "Game Informer", "美国", r"Game Informer"),
     ("np", "Nintendo Power", "美国", r"Nintendo Power|任天堂力量"),
     ("ign", "IGN", "美国", r"\bIGN\b"),
@@ -84,6 +85,7 @@ OUTLETS = [
     ("bahamut", "巴哈姆特 GNN", "中文（台湾）", r"巴哈姆特"),
 ]
 REGIONS = [
+    ("葡萄牙语（巴西）", "葡萄牙语媒体（巴西）", "巴西游戏媒体的开发者与运营团队访谈。"),
     ("美国", "美国的游戏媒体", "Game Informer 一家就占了大半，其余是任天堂的官方杂志和一批门户站。"),
     ("英国", "英国的游戏媒体", "多在欧洲发售前的伦敦、巴黎场合采访。"),
     ("西班牙语", "西班牙语媒体", "西班牙的杂志、报纸和游戏站；原文是西班牙语，本站译成中文。"),

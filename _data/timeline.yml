@@ -3,12 +3,12 @@ span:
 - 1996
 - 2026
 totals:
-  interview: 410
+  interview: 411
   scan: 51
   topic: 45
   article: 29
   stream: 709
-  docs: 535
+  docs: 536
   max_docs: 52
   max_stream: 213
 eras:
@@ -226,7 +226,7 @@ eras:
 - label: BDSP/PLA–SV
   from: 2021
   to: 2024
-  docs: 90
+  docs: 91
   stream: 0
   games:
   - slug: bdsp
@@ -4089,10 +4089,10 @@ years:
     url: /developer-interviews/pokemon-recruit/interview-pokemon-recruit-it/
     series: 宝可梦公司官方专访IT
 - year: 2024
-  docs: 33
+  docs: 34
   stream: 0
   kinds:
-    interview: 10
+    interview: 11
     scan: 0
     topic: 17
     article: 6
@@ -4175,6 +4175,12 @@ years:
     - 1600
     - 1031
   pool:
+  - title: Pokémon GO：让巴西的玩家一起出门
+    kind: interview
+    pub: Nintendo Blast（2024-07-08）
+    date: '2024-07-08'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendoblast-2024-pokemon-go-araki-wille/
+    series: NintendoBla
   - title: PJCS2024 冠军ハラ ヒュウマ专访
     kind: interview
     pub: Fami通.com（2024-07-10）
@@ -4239,16 +4245,6 @@ years:
     date: '2024-02-13'
     url: /developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/
     series: GAMEFREAK官方
-  - title: 宝可梦礼宾部幕后
-    kind: topic
-    pub: 株式会社ポケモン コーポレートサイト 注目の話題（Topics）
-    date: '2024-02-29'
-    url: /%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-13-pokemon-concierge-stop-motion-craft/
-    series: 株式会社ポケモンコーポ
-    cover: /assets/img/interviews/2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft/000.jpg
-    cover_size:
-    - 1080
-    - 608
 - year: 2025
   docs: 28
   stream: 0
