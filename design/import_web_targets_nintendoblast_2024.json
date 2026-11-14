@@ -1,0 +1,37 @@
+{
+  "note": "Nintendo Blast 2024 GO 的原文边界与署名许可，供复核；不授权重新下载图片或跳过翻译审核。",
+  "targets": [
+    {
+      "key": "nintendoblast-2024-pokemon-go",
+      "slug": "2024-07-08-interview-nintendoblast-2024-pokemon-go-araki-wille",
+      "post": "2024-07-08-interview-nintendoblast-2024-pokemon-go-araki-wille.md",
+      "url": "https://www.nintendoblast.com.br/2024/07/entrevista-gamescom-latam-2024-pokemon-go-mobile.html",
+      "lang": "pt",
+      "date": "2024-07-08",
+      "outlet": "Nintendo Blast",
+      "title": "gamescom latam 2024: Pokémon GO (Mobile) — confira o bate-papo com a Niantic",
+      "author": "Juliana Paiva Zapparoli",
+      "kind": "interview",
+      "asker": "Nintendo Blast",
+      "asker_aliases": [
+        "NB"
+      ],
+      "speakers": {
+        "EA": "Eric Araki",
+        "Eric Araki": "Eric Araki",
+        "LW": "Leonardo Wille",
+        "Leonardo Wille": "Leonardo Wille"
+      },
+      "works": [
+        "Pokémon GO"
+      ],
+      "container": "div.post-body.entry-content[itemprop=\"articleBody\"]",
+      "strip": [
+        "img"
+      ],
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br",
+      "note": "逐段复核的完整文字档；图片未清权，strip img 防止导入器复制图片。不要不经译校覆盖既有稿。正文109段/8问；原页articleBody之外的作者声明与许可另在成稿保留。"
+    }
+  ]
+}

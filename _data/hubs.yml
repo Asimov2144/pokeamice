@@ -1,6 +1,6 @@
 # 由 tools/build-hubs.py 生成：媒体专访（/media/）、海外媒体专访（/overseas/）和按游戏（/games/）几个横切专题页的数据。
 media:
-  total: 210
+  total: 211
   japan:
     n: 147
     from: 1999
@@ -1998,10 +1998,10 @@ media:
         - 339
         blurb: CONTINUE Vol.23 第 64 页的重新分区、Qwen-VL-OCR 重识别、日中对照与人工原图校对版。
   overseas:
-    n: 63
+    n: 64
     from: 1999
-    to: 2023
-    outlets: 32
+    to: 2024
+    outlets: 33
     boards:
     - key: gi
       name: Game Informer
@@ -2515,7 +2515,7 @@ media:
         - 325
         blurb: Game Freak 的增田顺一与菜花健作谈 Switch 新作《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的创作理念。
     rest:
-      n: 29
+      n: 30
       outlets:
       - key: 1up
         name: 1UP.com
@@ -2591,6 +2591,9 @@ media:
         n: 1
       - key: guardian
         name: The Guardian
+        n: 1
+      - key: nblast
+        name: Nintendo Blast
         n: 1
       items:
       - title: 究极的 Game Freak
@@ -2950,6 +2953,16 @@ media:
         - 1200
         - 720
         blurb: 株式会社宝可梦首席运营官宇都宫崇人谈品牌延续与全球扩张。
+      - title: Pokémon GO：让巴西的玩家一起出门
+        url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendoblast-2024-pokemon-go-araki-wille/
+        date: '2024-07-08'
+        outlet: nblast
+        outlet_name: Nintendo Blast
+        kind: interview
+        people:
+        - Eric Araki
+        - Leonardo Wille
+        blurb: gamescom latam 2024 完整八组问答及人物介绍，葡萄牙语原文与中文对照。
   by_stem:
     1999-02-10-interview-hobonichi-1999-ambrella-ozawa: hobonichi
     1999-05-13-interview-hobonichi-1999-jack-and-beans-snap: hobonichi
@@ -3146,6 +3159,7 @@ media:
     2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai: famitsu
     2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years: guardian
     2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv: famitsu
+    2024-07-08-interview-nintendoblast-2024-pokemon-go-araki-wille: nblast
     2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos: famitsu
     2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata: famitsu
     2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards: gamemakers
@@ -3194,6 +3208,7 @@ media:
     jv: jeuxvideo.com
     meri: MeriStation
     multi: Multiplayer.it
+    nblast: Nintendo Blast
     ndream: Nintendo DREAM
     newspicks: NewsPicks
     nlife: Nintendo Life
@@ -3214,9 +3229,9 @@ media:
     vg247: VG247
     vgc: VGC
 overseas:
-  total: 63
+  total: 64
   from: 1999
-  to: 2023
+  to: 2024
   outlets:
   - key: gi
     name: Game Informer
@@ -3314,6 +3329,9 @@ overseas:
   - key: guardian
     name: The Guardian
     n: 1
+  - key: nblast
+    name: Nintendo Blast
+    n: 1
   years:
   - year: 1999
     n: 1
@@ -3364,6 +3382,8 @@ overseas:
   - year: 2022
     n: 0
   - year: 2023
+    n: 1
+  - year: 2024
     n: 1
   max_year: 10
   people:
@@ -3419,10 +3439,34 @@ overseas:
   - name: 宝可梦 白金
     n: 5
     icon: /assets/img/works/bulba-platinum-icon.png
-  - name: 宝可梦 皮卡丘版
+  - name: Pokémon GO
     n: 5
-    icon: /assets/img/works/bulba-yellow-vc-jp-icon.png
+    icon: /assets/img/works/bulba-home-go-icon.png
   regions:
+  - key: 葡萄牙语（巴西）
+    label: 葡萄牙语媒体（巴西）
+    note: 巴西游戏媒体的开发者与运营团队访谈。
+    n: 1
+    from: 2024
+    to: 2024
+    outlets:
+    - key: nblast
+      name: Nintendo Blast
+      n: 1
+    items:
+    - title: Pokémon GO：让巴西的玩家一起出门
+      url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendoblast-2024-pokemon-go-araki-wille/
+      date: '2024-07-08'
+      outlet: nblast
+      outlet_name: Nintendo Blast
+      kind: interview
+      people:
+      - Eric Araki
+      - Leonardo Wille
+      works:
+      - name: Pokémon GO
+        icon: /assets/img/works/bulba-home-go-icon.png
+      blurb: gamescom latam 2024 完整八组问答及人物介绍，葡萄牙语原文与中文对照。
   - key: 美国
     label: 美国的游戏媒体
     note: Game Informer 一家就占了大半，其余是任天堂的官方杂志和一批门户站。
@@ -4615,7 +4659,7 @@ overseas:
       - 154
       blurb: Niantic与Pokémon圆桌会议谈《Pokémon GO》开发与未来
 games:
-  docs: 474
+  docs: 475
   n: 41
   top:
   - id: g1-1
@@ -5836,7 +5880,7 @@ games:
   - key: mobile
     label: 手机与卡牌
     sub: Pokémon GO、集换式卡牌、HOME
-    docs: 35
+    docs: 36
     from: null
     to: null
     people:
@@ -5900,10 +5944,10 @@ games:
       id: mobile-1
     - name: Pokémon GO
       aliases: []
-      docs: 20
+      docs: 21
       blogs: 7
       kinds:
-        interview: 20
+        interview: 21
         scan: 0
         topic: 0
         article: 0
