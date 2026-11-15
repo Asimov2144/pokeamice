@@ -1,0 +1,42 @@
+/* ==========================================================================
+   COMPOSERS - /credits/composers/ (_layouts/pokemon-composers.html):
+   same page frame and person cards as the designers page (_designers.scss,
+   .dz-*); this adds the by-game list and the method notes.
+   ========================================================================== */
+
+.layout--pokemon-composers #main { max-width: 100%; padding-left: 1.25rem; padding-right: 1.25rem; }
+.layout--pokemon-composers .archive.archive--credits {
+  float: none;
+  width: 100%;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* the filter hides cards with the hidden attribute; the theme's normalize sets article / section to display: block */
+.composers [hidden] { display: none !important; }
+
+.cp-person .dz-person__head { margin-bottom: 0; }
+
+/* ---- by game ---- */
+.cp-games { margin: 0; padding: 0; list-style: none; }
+.cp-game { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin: 0; padding: 6px 0; border-bottom: 1px solid mix(#fff, $border-color, 55%); font-size: 0.85rem; line-height: 1.6; }
+.cp-game > b { flex: 0 0 15em; max-width: 100%; a { color: inherit; } }
+.cp-game > small { flex: 0 0 3em; color: $muted-text-color; font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+.cp-names { flex: 1 1 16em; min-width: 0; }
+.cp-name a { color: $primary-color; text-decoration: none; &:hover { text-decoration: underline; } }
+.cp-none { flex: 1 1 16em; color: $muted-text-color; font-size: 0.78rem; }
+.cp-music { flex: 1 0 100%; padding-left: calc(15em + 3em + 20px); color: $muted-text-color; font-size: 0.74rem; }
+.cp-gen { margin: 0 0 6px; }
+
+/* ---- method ---- */
+.cp-method { margin: 0 0 16px 1.2em; padding: 0; font-size: 0.82rem; line-height: 1.7; li { margin: 0 0 4px; } code { font-size: 0.74rem; } }
+.cp-others { margin-top: 30px; }
+
+@media (max-width: $small) {
+  .layout--pokemon-composers #main { padding-left: 16px; padding-right: 16px; }
+  .cp-game > b { flex-basis: 100%; }
+  .cp-game > small { flex-basis: auto; }
+  .cp-music { padding-left: 0; }
+}

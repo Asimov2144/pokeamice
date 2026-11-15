@@ -304,7 +304,7 @@
    "definition_en": "Pages under /people/ not marked sitemap: false."
   },
   "sitemap_credits": {
-   "value": 96,
+   "value": 97,
    "label": "sitemap · 制作名单页",
    "label_en": "sitemap · credits pages",
    "group": "sitemap",
@@ -328,7 +328,7 @@
    "definition_en": "Japanese editions plus /ja/."
   },
   "sitemap_total": {
-   "value": 2178,
+   "value": 2179,
    "label": "sitemap 网址",
    "label_en": "sitemap URLs",
    "group": "sitemap",

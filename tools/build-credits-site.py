@@ -343,7 +343,7 @@ def main():
     # ---- 4. 每作名单页
     PAGES.mkdir(parents=True, exist_ok=True)
     for old in PAGES.glob("*.md"):
-        if old.name != "designers.md":  # 手写的入口页，不是这里生成的（数据在 _data/pokemon_designers.yml，tools/build-designers.py）
+        if old.name not in ("designers.md", "composers.md"):  # 手写的入口页，不是这里生成的（数据在 _data/pokemon_designers.yml / composers.yml，tools/build-designers.py / build-composers.py）
             old.unlink()
     name2slug = {}
     for p in people:
