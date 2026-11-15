@@ -428,7 +428,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Planning Section / </small>Sound Planning<span class="credits__zh-role">（音响企划）</span><span class="credits__ja-role">プランニングセクション / サウンド プランニング</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Keita Okamoto <small>おかもと けいた</small></li>
+<li class="credits__name"><a href="/people/okamoto-keita/">Keita Okamoto</a> <small>おかもと けいた</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Planning Section / </small>Planning Section Cooperative Companies<span class="credits__zh-role">（企划部协力公司）</span></h3>
@@ -442,8 +442,8 @@ sitemap: true
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>一之瀬剛 · いちのせ ごう</small></li>
 <li class="credits__name"><a href="/people/adachi-minako/">Minako Adachi</a> <small>足立美奈子 · あだち みなこ</small></li>
-<li class="credits__name">Keita Okamoto <small>おかもと けいた</small></li>
-<li class="credits__name">Toby Fox <small>トビー フォックス</small></li>
+<li class="credits__name"><a href="/people/okamoto-keita/">Keita Okamoto</a> <small>おかもと けいた</small></li>
+<li class="credits__name"><a href="/people/fox-toby/">Toby Fox</a> <small>トビー フォックス</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>ますだ じゅんいち</small></li>
 </ul></section>

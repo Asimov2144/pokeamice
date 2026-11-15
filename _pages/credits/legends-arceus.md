@@ -363,7 +363,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Planning Section / </small>Music Coordination<span class="credits__zh-role">（音乐协调）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hiromitsu Maeba</li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Planning Section / </small>Sound Programming<span class="credits__zh-role">（音响程序）</span></h3>
@@ -375,7 +375,7 @@ sitemap: true
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美</small></li>
-<li class="credits__name">Hiromitsu Maeba</li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Planning Section / </small>Sound Effects<span class="credits__zh-role">（音效）</span></h3>
@@ -388,7 +388,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Planning Section / </small>Mixing &amp; Mastering<span class="credits__zh-role">（混音与母带）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hiromitsu Maeba</li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Planning Section / </small>Voicework</h3>

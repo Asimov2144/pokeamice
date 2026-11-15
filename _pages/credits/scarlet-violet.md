@@ -717,7 +717,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Sound / </small>Sound Coordination<span class="credits__zh-role">（音响协调）</span><span class="credits__ja-role">サウンドコーディネート</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hiromitsu Maeba <small>まえば ひろみつ</small></li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a> <small>まえば ひろみつ</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound / </small>Sound Effects Coordination<span class="credits__zh-role">（音效协调）</span><span class="credits__ja-role">サウンドエフェクト コーディネート</span></h3>
@@ -744,10 +744,10 @@ sitemap: true
 <li class="credits__name"><a href="/people/adachi-minako/">Minako Adachi</a> <small>足立美奈子 · あだち みなこ</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>増田順一 · ますだ じゅんいち</small></li>
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>いちのせ ごう</small></li>
-<li class="credits__name">Hiromitsu Maeba <small>まえば ひろみつ</small></li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a> <small>まえば ひろみつ</small></li>
 <li class="credits__name"><a href="/people/taniguchi-teruo/">Teruo Taniguchi</a> <small>たにぐち てるお</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
-<li class="credits__name">Toby Fox <small>トビー フォックス</small></li>
+<li class="credits__name"><a href="/people/fox-toby/">Toby Fox</a> <small>トビー フォックス</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound / </small>Music Recording Engineer<span class="credits__zh-role">（音乐录音工程师）</span><span class="credits__ja-role">レコーディングエンジニア</span></h3>
@@ -782,7 +782,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Sound / </small>Sound Development Support<span class="credits__zh-role">（音响开发支持）</span><span class="credits__ja-role">サウンドかいはつサポート</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Haruka Soeda <small>そえだ はるか</small></li>
+<li class="credits__name"><a href="/people/soeda-haruka/">Haruka Soeda</a> <small>そえだ はるか</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound / </small>Sound Manager<span class="credits__zh-role">（音响经理）</span><span class="credits__ja-role">サウンドマネージャー</span></h3>
@@ -812,7 +812,7 @@ sitemap: true
 <section class="credits__section">
 <h3>Rumble Data Design<span class="credits__zh-role">（震动数据设计）</span><span class="credits__ja-role">しんどうデータせいさく</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Haruka Soeda <small>そえだ はるか</small></li>
+<li class="credits__name"><a href="/people/soeda-haruka/">Haruka Soeda</a> <small>そえだ はるか</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Supervisor<span class="credits__zh-role">（监修）</span><span class="credits__ja-role">コンセプト＆ビジュアルスタジオ / スーパーバイザー</span></h3>

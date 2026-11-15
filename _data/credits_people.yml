@@ -44167,6 +44167,59 @@ tachihara-haruki:
     role_zh: 环境开发部 / 部门总监
   latest_role: Environment Development Section / Section Director
   latest_game: legends-za
+maeba-hiromitsu:
+  name: Hiromitsu Maeba
+  kanji: null
+  kana: まえば ひろみつ
+  games: 4
+  core_games: 4
+  first: 2022
+  last: 2025
+  credits:
+  - game: legends-arceus
+    year: 2022
+    role: Planning Section / Music Coordination
+    role_zh: 企划部 / 音乐协调
+  - game: legends-arceus
+    year: 2022
+    role: Planning Section / Composers
+    role_zh: 企划部 / 作曲
+  - game: legends-arceus
+    year: 2022
+    role: Planning Section / Mixing & Mastering
+    role_zh: 企划部 / 混音与母带
+  - game: scarlet-violet
+    year: 2022
+    role: Sound / Sound Coordination
+    role_ja: サウンドコーディネート
+    role_zh: 音响 / 音响协调
+  - game: scarlet-violet
+    year: 2022
+    role: Sound / Composers
+    role_ja: おんがく
+    role_zh: 音响 / 作曲
+  - game: area-zero
+    year: 2023
+    role: Sound Team / Sound Coordination
+    role_ja: サウンドコーディネート
+    role_zh: 音响组 / 音响协调
+  - game: area-zero
+    year: 2023
+    role: Sound Team / Composers
+    role_ja: おんがく
+    role_zh: 音响组 / 作曲
+  - game: legends-za
+    year: 2025
+    role: Sound Coordination
+    role_ja: サウンドコーディネート
+    role_zh: 音响协调
+  - game: legends-za
+    year: 2025
+    role: Composers
+    role_ja: おんがく
+    role_zh: 作曲
+  latest_role: Sound Coordination
+  latest_game: legends-za
 koseki-masashi:
   name: Masashi Koseki
   kanji: null
@@ -44530,6 +44583,70 @@ ikeuchi-yuya:
     role_zh: 系统程序部 / 框架组
   latest_role: System Programming Section / Framework Team
   latest_game: legends-arceus
+okamoto-keita:
+  name: Keita Okamoto
+  kanji: null
+  kana: おかもと けいた
+  games: 3
+  core_games: 3
+  first: 2017
+  last: 2019
+  credits:
+  - game: usum
+    year: 2017
+    role: Field System Design
+    role_zh: 场景系统设计
+  - game: usum
+    year: 2017
+    role: Field Data Design
+    role_zh: 场景数据设计
+  - game: lets-go
+    year: 2018
+    role: Data Design
+    role_zh: 数据设计
+  - game: sword-shield
+    year: 2019
+    role: Planning Section / Sound Planning
+    role_ja: プランニングセクション / サウンド プランニング
+    role_zh: 企划部 / 音响企划
+  - game: sword-shield
+    year: 2019
+    role: Sound Section / Sound
+    role_ja: サウンドセクション / サウンド
+    role_zh: 音响部 / 音响
+  latest_role: Planning Section / Sound Planning
+  latest_game: sword-shield
+fox-toby:
+  name: Toby Fox
+  kanji: null
+  kana: トビー フォックス
+  games: 3
+  core_games: 3
+  first: 2019
+  last: 2023
+  credits:
+  - game: sword-shield
+    year: 2019
+    role: Sound Section / Sound
+    role_ja: サウンドセクション / サウンド
+    role_zh: 音响部 / 音响
+  - game: scarlet-violet
+    year: 2022
+    role: Sound / Composers
+    role_ja: おんがく
+    role_zh: 音响 / 作曲
+  - game: area-zero
+    year: 2023
+    role: Sound Team / Composers
+    role_ja: おんがく
+    role_zh: 音响组 / 作曲
+  - game: area-zero
+    year: 2023
+    role: Ending Theme
+    role_ja: エンディングテーマ
+    role_zh: 片尾曲
+  latest_role: Sound Team / Composers
+  latest_game: area-zero
 murase-yuichi:
   name: Yuichi Murase
   kanji: null
@@ -44560,6 +44677,47 @@ murase-yuichi:
     lead: Lead
     role_zh: 企划部 / 故事组
   latest_role: Planning Section / Story Team
+  latest_game: legends-za
+soeda-haruka:
+  name: Haruka Soeda
+  kanji: null
+  kana: そえだ はるか
+  games: 3
+  core_games: 3
+  first: 2022
+  last: 2025
+  credits:
+  - game: scarlet-violet
+    year: 2022
+    role: Sound / Sound Development Support
+    role_ja: サウンドかいはつサポート
+    role_zh: 音响 / 音响开发支持
+  - game: scarlet-violet
+    year: 2022
+    role: Rumble Data Design
+    role_ja: しんどうデータせいさく
+    role_zh: 震动数据设计
+  - game: area-zero
+    year: 2023
+    role: Sound Team / Composers
+    role_ja: おんがく
+    role_zh: 音响组 / 作曲
+  - game: area-zero
+    year: 2023
+    role: Sound Team / Sound Development Support
+    role_ja: サウンドかいはつサポート
+    role_zh: 音响组 / 音响开发支持
+  - game: area-zero
+    year: 2023
+    role: Sound Team / Rumble Data Design
+    role_ja: サウンドチーム きょうりょくがいしゃ
+    role_zh: 音响组 / 震动数据设计
+  - game: legends-za
+    year: 2025
+    role: Sound Effects
+    role_ja: サウンドエフェクト
+    role_zh: 音效
+  latest_role: Sound Effects
   latest_game: legends-za
 yamashita-kota:
   name: Kota Yamashita
@@ -45696,6 +45854,46 @@ oota-masahiko:
     role_zh: 特别感谢
   latest_role: Mechanical Director
   latest_game: heartgold-soulsilver
+hosoe-shinji:
+  name: Shinji Hosoe
+  kanji: null
+  kana: ほそえ しんじ
+  games: 2
+  core_games: 1
+  first: 2018
+  last: 2025
+  credits:
+  - game: legends-za
+    year: 2025
+    role: Composers
+    role_ja: おんがく
+    role_zh: 作曲
+  - game: quest
+    year: 2018
+    role: SuperSweep / Sound
+    role_zh: SuperSweep / 音响
+  latest_role: Composers
+  latest_game: legends-za
+eguchi-takahiro:
+  name: Takahiro Eguchi
+  kanji: null
+  kana: えぐち たかひろ
+  games: 2
+  core_games: 1
+  first: 2018
+  last: 2025
+  credits:
+  - game: legends-za
+    year: 2025
+    role: Composers
+    role_ja: おんがく
+    role_zh: 作曲
+  - game: quest
+    year: 2018
+    role: SuperSweep / Sound
+    role_zh: SuperSweep / 音响
+  latest_role: Composers
+  latest_game: legends-za
 kitamura-masato:
   name: Masato Kitamura
   kanji: null
@@ -45921,6 +46119,38 @@ suguru-kenta:
     role_zh: 项目管理 / 项目经理
   latest_role: Project Management / Project Managers
   latest_game: area-zero
+saso-ayako:
+  name: Ayako Saso
+  kanji: null
+  kana: さそう あやこ
+  games: 1
+  core_games: 1
+  first: 2025
+  last: 2025
+  credits:
+  - game: legends-za
+    year: 2025
+    role: Composers
+    role_ja: おんがく
+    role_zh: 作曲
+  latest_role: Composers
+  latest_game: legends-za
+eiene-carlos:
+  name: Carlos Eiene
+  kanji: null
+  kana: カルロス イーニ
+  games: 1
+  core_games: 1
+  first: 2025
+  last: 2025
+  credits:
+  - game: legends-za
+    year: 2025
+    role: Composers
+    role_ja: おんがく
+    role_zh: 作曲
+  latest_role: Composers
+  latest_game: legends-za
 makino-daisuke:
   name: Daisuke Makino
   kanji: null

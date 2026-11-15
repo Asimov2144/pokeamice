@@ -19019,3 +19019,181 @@
       games: 3
   expertise:
   - 音乐
+- name: 前馬宏充
+  slug: maeba-hiromitsu
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 4
+    core_games: 4
+    span: 2022–2025
+    line: 署名 4 作，2022–2025：音乐 4 作（2022–2025）、企划 1 作（2022）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 4
+    - cat: 企划
+      games: 1
+  expertise:
+  - 音乐
+- name: Toby Fox
+  slug: fox-toby
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 3
+    core_games: 3
+    span: 2019–2023
+    line: 署名 3 作，2019–2023：音乐 3 作（2019–2023）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 3
+    - cat: 其他
+      games: 1
+  expertise:
+  - 音乐
+- name: 細江慎治
+  slug: hosoe-shinji
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 2
+    core_games: 1
+    span: 2018–2025
+    line: 署名 2 作（核心 1 作），2018–2025：音乐 2 作（2018–2025）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 2
+  expertise:
+  - 音乐
+- name: 佐宗綾子
+  slug: saso-ayako
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 1
+    core_games: 1
+    span: '2025'
+    line: 署名 1 作，2025：音乐 1 作（2025）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 1
+  expertise:
+  - 音乐
+- name: 江口孝宏
+  slug: eguchi-takahiro
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 2
+    core_games: 1
+    span: 2018–2025
+    line: 署名 2 作（核心 1 作），2018–2025：音乐 2 作（2018–2025）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 2
+  expertise:
+  - 音乐
+- name: Carlos Eiene
+  slug: eiene-carlos
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 1
+    core_games: 1
+    span: '2025'
+    line: 署名 1 作，2025：音乐 1 作（2025）。
+    expertise:
+    - 音乐
+    categories:
+    - cat: 音乐
+      games: 1
+  expertise:
+  - 音乐
+- name: 岡本圭太
+  slug: okamoto-keita
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 3
+    core_games: 3
+    span: 2017–2019
+    line: 署名 3 作，2017–2019：企划 2 作（2017–2018）、音乐 1 作（2019）。
+    expertise:
+    - 企划
+    categories:
+    - cat: 企划
+      games: 2
+    - cat: 音乐
+      games: 1
+  expertise:
+  - 企划
+- name: 添田悠
+  slug: soeda-haruka
+  kind: staff
+  interviews:
+    entries: 0
+    spoken_in: 0
+    columns: 0
+    first: null
+    last: null
+  credits:
+    games: 3
+    core_games: 3
+    span: 2022–2025
+    line: 署名 3 作，2022–2025：音乐 3 作（2022–2025）、企划 2 作（2022–2023）。
+    expertise:
+    - 音乐
+    - 企划
+    categories:
+    - cat: 音乐
+      games: 3
+    - cat: 企划
+      games: 2
+  expertise:
+  - 音乐
+  - 企划

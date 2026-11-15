@@ -360,7 +360,7 @@ sitemap: true
 <section class="credits__section">
 <h3>Sound Coordination<span class="credits__zh-role">（音响协调）</span><span class="credits__ja-role">サウンドコーディネート</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hiromitsu Maeba <small>まえば ひろみつ</small></li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a> <small>まえば ひろみつ</small></li>
 </ul></section>
 <section class="credits__section">
 <h3>Sound Effects Coordination<span class="credits__zh-role">（音效协调）</span><span class="credits__ja-role">サウンドエフェクト コーディネート</span></h3>
@@ -378,7 +378,7 @@ sitemap: true
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/okamoto-hitoshi/">Hitoshi Okamoto</a> <small>おかもと ひとし</small></li>
 <li class="credits__name">Yuhki Kudo <small>くどう ゆうき</small></li>
-<li class="credits__name">Haruka Soeda <small>そえだ はるか</small></li>
+<li class="credits__name"><a href="/people/soeda-haruka/">Haruka Soeda</a> <small>そえだ はるか</small></li>
 <li class="credits__name"><a href="/people/mogami-hiroki/">Hiroki Mogami</a> <small>もがみ ひろき</small></li>
 <li class="credits__name">Wan Yalong <small>マン アリュウ</small></li>
 <li class="credits__name">Sayaka Yaegashi <small>やえがし さやか</small></li>
@@ -387,11 +387,11 @@ sitemap: true
 <h3>Composers<span class="credits__zh-role">（作曲）</span><span class="credits__ja-role">おんがく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/adachi-minako/">Minako Adachi</a> <small>足立美奈子 · あだち みなこ</small></li>
-<li class="credits__name">Hiromitsu Maeba <small>まえば ひろみつ</small></li>
-<li class="credits__name">Carlos Eiene <small>カルロス イーニ</small></li>
-<li class="credits__name">Shinji Hosoe <small>ほそえ しんじ</small></li>
-<li class="credits__name">Ayako Saso <small>さそう あやこ</small></li>
-<li class="credits__name">Takahiro Eguchi <small>えぐち たかひろ</small></li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a> <small>まえば ひろみつ</small></li>
+<li class="credits__name"><a href="/people/eiene-carlos/">Carlos Eiene</a> <small>カルロス イーニ</small></li>
+<li class="credits__name"><a href="/people/hosoe-shinji/">Shinji Hosoe</a> <small>ほそえ しんじ</small></li>
+<li class="credits__name"><a href="/people/saso-ayako/">Ayako Saso</a> <small>さそう あやこ</small></li>
+<li class="credits__name"><a href="/people/eguchi-takahiro/">Takahiro Eguchi</a> <small>えぐち たかひろ</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
 <li class="credits__name"><a href="/people/kageyama-shota/">Shota Kageyama</a> <small>景山将太 · かげやま しょうた</small></li>
 </ul></section>

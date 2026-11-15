@@ -48,7 +48,7 @@
  ],
  "metrics": {
   "total": {
-   "value": 1244,
+   "value": 1248,
    "label": "条目",
    "label_en": "records",
    "group": "total",
@@ -120,7 +120,7 @@
    "definition_en": "Site documents (category 文档)."
   },
   "kind_other": {
-   "value": 5,
+   "value": 9,
    "label": "其他文章",
    "label_en": "Other articles",
    "group": "kind",
@@ -160,7 +160,7 @@
    "definition_en": "Scans without a source_kind; scan types add up to all scans."
   },
   "lang_zh": {
-   "value": 1244,
+   "value": 1248,
    "label": "中文版",
    "label_en": "Chinese pages",
    "group": "lang",
@@ -216,7 +216,7 @@
    "definition_en": "Public records by source language; languages add up to all records."
   },
   "source_lang_ja": {
-   "value": 433,
+   "value": 437,
    "label": "原文日语",
    "label_en": "Japanese sources",
    "group": "source_lang",
@@ -240,7 +240,7 @@
    "definition_en": "Public records by source language; languages add up to all records."
   },
   "indexed": {
-   "value": 1241,
+   "value": 1245,
    "label": "提交收录",
    "label_en": "submitted to search engines",
    "group": "public",
@@ -256,7 +256,7 @@
    "definition_en": "Published posts left out of the sitemap (sitemap: false or category Sites)."
   },
   "people": {
-   "value": 193,
+   "value": 198,
    "label": "人物",
    "label_en": "people",
    "group": "entity",
@@ -288,7 +288,7 @@
    "definition_en": "The home page /."
   },
   "sitemap_posts": {
-   "value": 1241,
+   "value": 1245,
    "label": "sitemap · 帖子",
    "label_en": "sitemap · posts",
    "group": "sitemap",
@@ -296,7 +296,7 @@
    "definition_en": "Equals the posts submitted to search engines."
   },
   "sitemap_people": {
-   "value": 751,
+   "value": 766,
    "label": "sitemap · 人物页",
    "label_en": "sitemap · people pages",
    "group": "sitemap",
@@ -328,7 +328,7 @@
    "definition_en": "Japanese editions plus /ja/."
   },
   "sitemap_total": {
-   "value": 2159,
+   "value": 2178,
    "label": "sitemap 网址",
    "label_en": "sitemap URLs",
    "group": "sitemap",
@@ -965,6 +965,7 @@
   "_posts/2011-10-07-gamefreak-director-214.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2011},
   "_posts/2011-10-14-gamefreak-director-215.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2011},
   "_posts/2011-10-21-gamefreak-staff-236.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2011},
+  "_posts/2011-10-29-source-inside-jupiter-pokemon-pinball.md": {"kind": "other", "type_label": "文章", "listed": true, "indexed": true, "source_lang": "ja", "year": 2011},
   "_posts/2011-11-04-gamefreak-staff-237.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2011},
   "_posts/2011-11-25-gamefreak-staff-238.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2011},
   "_posts/2011-12-13-gamefreak-director-216.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2011},
@@ -1126,6 +1127,7 @@
   "_posts/2016-04-28-gamefreak-lineblog-3070457.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2016},
   "_posts/2016-04-29-gamefreak-lineblog-2777075.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2016},
   "_posts/2016-04-29-gamefreak-lineblog-3101639.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2016},
+  "_posts/2016-04-29-source-dengeki-pokemon-comaster-ai.md": {"kind": "other", "type_label": "文章", "listed": true, "indexed": true, "source_lang": "ja", "year": 2016},
   "_posts/2016-04-30-gamefreak-lineblog-3058571.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2016},
   "_posts/2016-04-30-gamefreak-lineblog-3120585.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2016},
   "_posts/2016-04-30-gamefreak-lineblog-3120877.md": {"kind": "blog", "type_label": "Game Freak 博客", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2016},
@@ -1429,6 +1431,7 @@
   "_posts/2021-02-27-interview-oricon-2021-ishihara-25th.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2021},
   "_posts/2021-02-28-pla-first-reveal-frame-notes.md": {"kind": "long", "type_label": "文章", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2021},
   "_posts/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2021},
+  "_posts/2021-05-05-source-bunshun-new-pokemon-snap-suzaki.md": {"kind": "other", "type_label": "文章", "listed": true, "indexed": true, "source_lang": "ja", "year": 2021},
   "_posts/2021-06-12-pla-first-reveal-analysis.md": {"kind": "long", "type_label": "文章", "listed": true, "indexed": true, "source_lang": "unknown", "year": 2021},
   "_posts/2021-07-17-interview-famitsu-2021-pokemon-wonder.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2021},
   "_posts/2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2021},
@@ -1542,6 +1545,7 @@
   "_posts/2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
   "_posts/2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
   "_posts/2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
+  "_posts/2025-09-17-source-wonderfy-pokemon-friends-roundtable.md": {"kind": "other", "type_label": "文章", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
   "_posts/2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
   "_posts/2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
   "_posts/2025-12-06-interview-creatures-recruit-card-management-cross-talk.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2025},
