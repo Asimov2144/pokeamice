@@ -63,7 +63,7 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦 走吧",
+    "name": "Pokémon GO",
     "slug": null,
     "seg": [
      57
@@ -232,5 +232,5 @@
   "relations_model": "deepseek-chat",
   "concepts": "2026-09-26"
  },
- "edited": false
+ "edited": true
 }

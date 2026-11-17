@@ -280,7 +280,7 @@ Japan Expo 2016</div>
 
 
 还聊了作曲的故事
-以及《宝可梦 走吧》！
+以及《Pokémon GO》！
 
 <br>
 
@@ -294,7 +294,7 @@ Japan Expo 2016</div>
 <br>
 
 
-播放《宝可梦 走吧》的
+播放《Pokémon GO》的
 音乐……
 
 <br>

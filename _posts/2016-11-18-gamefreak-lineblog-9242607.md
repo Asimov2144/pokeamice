@@ -62,7 +62,7 @@ entities:
 <div class="gf-lineblog-line gf-lineblog-line--center">今天一大早</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">就想和大家一起</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">热闹庆祝一番</div>
-<div class="gf-lineblog-line gf-lineblog-line--center">所以来到了宝可梦中心 东京巨蛋店！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">所以来到了宝可梦中心 Mega东京！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><figure class="gf-lineblog-image"><a href="/assets/images/gamefreak-lineblog/9242607/002-599a752446.webp" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-lineblog/9242607/002-599a752446.webp" alt="IMG_8021.JPG" loading="lazy" width="1600" height="1200"></a></figure><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">没想到入口处竟然有索尔迦雷欧和露奈雅拉！</div>
