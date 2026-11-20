@@ -174,7 +174,7 @@ parallel_items:
 - type: paragraph
   original: 'Revenons-en au voyage en lui-même. Tu sais ce qu''est l'' art pariétal ? C''est ce que ton ultra-grand-daron peignait ou sculptait sur les voûtes des grottes pour séduire ton ultra-grand-mère. Vu que tu lis ces lignes, faut croire que la technique a plutôt bien marché. Attention à ne pas confondre l''art pariétal avec l''art rupestre. Ce qui touche au pariétal, comme le mot l''indique, c''est ce qui se fait sur les parois des caves, grottes, etc. Le rupestre, c''est l''art qu''on trouve au-dehors. Bref. Voilà le cheminement de notre équipe de pokémaniaques lors de leur trip effréné :'
   translation: 回到旅程本身。你知道什么是洞穴壁画艺术吗？就是你的远古曾祖父为了取悦你的远古曾祖母，在洞穴穹顶上绘画或雕刻的那些东西。既然你能读到这些文字，说明这招还挺管用的。注意不要把洞穴壁画艺术（art pariétal）和岩石艺术（art rupestre）混淆。正如其名，pariétal 指的是在洞穴、岩洞等内壁上创作的艺术；而 rupestre 则是指户外的艺术。总之，这就是我们这群宝可梦狂热粉丝在疯狂之旅中的路线：
-  note: art pariétal 和 art rupestre 在中文中常统称为“洞穴壁画”或“岩画”，但此处为区分，分别译为“洞穴壁画艺术”和“岩石艺术”。
+  note: art pariétal（洞穴壁画艺术）与 art rupestre（岩石艺术）在中文里常统称“洞穴壁画”或“岩画”。
 - type: paragraph
   original: Lascaux 2 -> Grottes des Combarelles -> Lascaux 4 -> Grotte de Rouffignac -> Musée national de Préhistoire, Les Eyzies -> L'Abri Cro-Magnon -> Les Gabares de Dordogne -> Grotte Font de Gaume.
   translation: 拉斯科二号洞穴 -> 孔巴海尔洞穴 -> 拉斯科四号洞穴 -> 鲁菲尼亚克洞穴 -> 莱塞济国家史前博物馆 -> 克罗马农人岩棚 -> 多尔多涅加巴尔游船 -> 丰德戈姆洞穴。
@@ -421,7 +421,6 @@ parallel_items:
   original: Pride
   translation: Pride
   speaker: Pride
-  note: 此处为用户名，保留原文。
   role: answer
 - type: paragraph
   original: 'Yo d''habitude je ne commente jamais les news, mais là il fallait quand même que je le dise: cet article est surpuissant. T''es un tueur gars'
@@ -432,7 +431,6 @@ parallel_items:
   original: Alpha-Aquilae
   translation: Alpha-Aquilae
   speaker: Alpha-Aquilae
-  note: 此处为用户名，保留原文。
   role: answer
 - type: paragraph
   original: On voit que leur resto est un truc de riches, tout ce qu'il y a sur le menu a l'air dégueulasse. Même le fondant au chocolat est foiré avec cette super idée d'avoir foutu des carottes.
@@ -443,7 +441,6 @@ parallel_items:
   original: c0mpu73rguy
   translation: c0mpu73rguy
   speaker: c0mpu73rguy
-  note: 此处为用户名，保留原文。
   role: answer
 - type: paragraph
   original: Purée, on se refuse rien chez Game Freak ma parole! C'était un gastronomique ce resto. J'applaudis tout de même le travail de recherche, tu es allé loin. Même s'il y a beaucoup trop de suppositions là dedans, (mauvaise foi - ON) si ça se trouve ce sont juste les peintures qui les intéressait, pour les utiliser ailleurs. Genre dans les cavernes du remake de la 4G.
@@ -512,7 +509,6 @@ parallel_items:
   original: '+1130000'
   translation: '+1130000'
   speaker: '+1130000'
-  note: 可能是点赞数或用户ID，保留原文。
   role: answer
 - type: paragraph
   original: '+86600'

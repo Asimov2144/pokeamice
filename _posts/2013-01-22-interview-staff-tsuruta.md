@@ -127,7 +127,7 @@ parallel_items:
 - type: paragraph
   original: 同じポケモン３匹でポケスロンに挑戦したい、６匹で写真を撮りたい！…
   translation: 想用3只相同的宝可梦挑战宝可梦全能竞技赛，或者用6只一起拍照！……
-  note: ポケスロン是《心金/魂银》中的设施，官方译名为“宝可梦全能竞技赛”。
+  note: ポケスロン（Pokéathlon）即宝可梦全能竞技赛，是《心金／魂银》中的设施。
 - type: paragraph
   original: あれ？気付いたらHG・SSのボックスがいままでで一番充実してる！
   translation: 咦？回过神来，发现《心金/魂银》的盒子比以往任何时候都充实！

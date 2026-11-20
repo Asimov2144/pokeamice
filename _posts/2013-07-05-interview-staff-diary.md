@@ -62,7 +62,6 @@ parallel_items:
 - type: paragraph
   original: シリーズ最新作『ポケットモンスターブラック2・ホワイト2』が発売となりましたっ！！
   translation: 系列最新作《宝可梦 黑2·白2》终于发售了！！
-  note: 游戏名称官方译名为《宝可梦 黑2·白2》。
 - type: paragraph
   original: “共鳴”をテーマに様々な新要素を盛り込みつつ、
   translation: 以“共鸣”为主题，加入了各种新要素，
@@ -370,7 +369,6 @@ parallel_items:
 - type: paragraph
   original: いつの間にかコメットにはこんなに人だかりが！！
   translation: 不知不觉间，科美特（公司内）已经围了这么多人！！
-  note: 科美特（コメット）可能指GAME FREAK公司内的某个区域或会议室，此处保留音译。
 - type: paragraph
   original: …そしてついに！
   translation: ……然后，终于！
@@ -386,7 +384,6 @@ parallel_items:
 - type: paragraph
   original: バトル班の長、もりもと！！！
   translation: 对战班班长，森本！！！
-  note: もりもと（森本）为GAME FREAK员工，此处保留姓氏。
 - type: paragraph
   original: ゲーフリ最強の証としてトロフィーと豪華賞品が贈られます。
   translation: 作为GAME FREAK最强的证明，他获得了奖杯和豪华奖品。
@@ -426,7 +423,6 @@ parallel_items:
 - type: paragraph
   original: 祝☆500万本！?ケーキうまうま
   translation: 庆祝☆销量突破500万份！?蛋糕真好吃
-  note: 原文中的“うまうま”是日语中形容食物美味的拟声词，这里译为“真好吃”以保留口语化风格。
 - type: paragraph
   original: プランナーのカニ子です。
   translation: 我是策划卡妮子。
@@ -442,7 +438,7 @@ parallel_items:
   original: 先日の増田の 「めざめるパワー」 でも書かれていましたが、
   translation: 正如前几天增田在“觉醒力量”中提到的，
   speaker: 卡妮子
-  note: 增田：指增田顺一，宝可梦系列的游戏总监。『めざめるパワー』是GAME FREAK官方博客的栏目名，这里保留原文。
+  note: 增田：指增田顺一。「めざめるパワー」（觉醒力量）是GAME FREAK官方博客的栏目名。
   role: answer
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」の販売本数が500万本を突破しました！
@@ -515,7 +511,6 @@ parallel_items:
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト　社内バトル大会」が始まりました。
   translation: 《宝可梦 黑·白》社内对战大会开始了。
-  note: ポケットモンスター ブラック・ホワイト官方译名为《宝可梦 黑·白》。
 - type: paragraph
   original: 今回はその開会式の模様をレポートしたいと思います！
   translation: 这次我想为大家报道开幕式的盛况！
@@ -526,7 +521,6 @@ parallel_items:
 - type: paragraph
   original: イッシュ地方以外のポケモンでは参加できないということで、
   translation: 由于规定不能使用合众地区以外的宝可梦参赛，
-  note: イッシュ地方官方译名为合众地区。
 - type: paragraph
   original: お気に入りのポケモンの出場を泣く泣く断念するスタッフも……。
   translation: 也有员工忍痛放弃了自己喜欢的宝可梦出场……。
@@ -686,7 +680,6 @@ parallel_items:
 - type: paragraph
   original: 中でも一番盛り上がったのが、決勝戦のかつお対エノキの試合。
   translation: 其中气氛最热烈的是决赛中胜男对阵榎木的比赛。
-  note: かつお和エノキ可能是参赛者名字，此处音译为胜男和榎木。
 - type: paragraph
   original: この試合は本来やらなかったはずの試合です。
   translation: 这场比赛原本是不应该进行的。
@@ -704,7 +697,6 @@ parallel_items:
 - type: paragraph
   original: エノキのジャローダデッキVSかつおのダイケンキデッキ。
   translation: 榎木的君主蛇卡组VS胜男的大剑鬼卡组。
-  note: エノキ和かつお是玩家或角色名，保留原文风格。
 - type: paragraph
   original: 相性的にはジャローダの有利…と思いきや、実は、ダイケンキの
   translation: 本以为属性上君主蛇有利……但实际上，大剑鬼的
@@ -892,7 +884,6 @@ parallel_items:
 - type: paragraph
   original: ■グラフィックデザイナーのああああです。
   translation: ■我是图形设计师，啊啊啊。
-  note: 此处“ああああ”为化名或昵称，保留原文风格。
 - type: paragraph
   original: 3Dマップ作成を主に担当しました。
   translation: 主要负责3D地图的制作。
@@ -951,7 +942,6 @@ parallel_items:
 - type: paragraph
   original: ■プログラマーのトラッシュです。
   translation: ■我是程序员Trash。
-  note: Trash为程序员化名，可能取自“垃圾”之意，但此处保留原文音译。
 - type: paragraph
   original: 前作までは、ゲームの中の様々な表現や演出は、プログラマーが
   translation: 在之前的作品中，游戏中的各种表现和演出多由程序员
@@ -973,7 +963,6 @@ parallel_items:
 - type: paragraph
   original: ■プログラマーのアーリーです。
   translation: ■我是程序员Early。
-  note: Early为程序员化名，此处保留原文音译。
 - type: paragraph
   original: 「ライブキャスター」「ミュージカル」「ポケシフター」の
   translation: 我负责“即时通讯器”“音乐剧”“宝可梦传送”的

@@ -106,8 +106,8 @@ parallel_items:
   translation: 宝可梦的设计也并非凭空产生。游戏的性质决定了需要各种宝可梦“属性”——共有18种，其作用类似于其他RPG中的元素——来填充图鉴，并保证游戏的平衡性。
 - speaker: 吉田宏信
   original: '"Of course, we do a lot of free thinking on our own, but we also get orders from the planners, saying, ''We need this type of pokemon,'' or even from Mr. Masuda, the director. He''ll say that we need specific pokemon," Yoshida says.'
-  translation: “当然，我们也会进行很多自由构思，但也会接到策划的指令，比如‘我们需要这种属性的宝可梦’，甚至校长增田先生也会提出要求，说我们需要特定的宝可梦。”吉田说道。
-  note: 此处“Mr. Masuda”指增田顺一，宝可梦系列的游戏总监，中文官方译名为“增田顺一”，但此处根据上下文译为“校长”可能不准确，应为“增田先生”。
+  translation: “当然，我们也会进行很多自由构思，但也会接到策划的指令，比如‘我们需要这种属性的宝可梦’，甚至总监增田先生也会提出要求，说我们需要特定的宝可梦。”吉田说道。
+  note: “Mr. Masuda”指增田顺一，宝可梦系列的游戏总监。
   role: answer
 - speaker: 吉田宏信
   original: '"Really one of the good things about the company is that it''s really open for discussion," he adds. "We can talk with each other until both parties come to an agreement, I think."'

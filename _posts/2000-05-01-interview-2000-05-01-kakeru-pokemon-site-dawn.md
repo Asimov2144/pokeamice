@@ -198,7 +198,6 @@ parallel_items:
 - type: paragraph
   original: ・ ポケモンだいすきクラブ （ひめはじめ/ひめにゃーす）　http://pokemon-daisuki.com/
   translation: · 宝可梦发烧友俱乐部（ひめはじめ/ひめにゃーす）　http://pokemon-daisuki.com/
-  note: 网站管理员昵称“ひめはじめ”和“ひめにゃーす”可能为同一人或组合，保留原文。
 - type: paragraph
   original: Yahoo検索で「ポケモン」と入れると真っ先に出てきた、誰もが認める当時の最大手サイト「ポケモンだいすきクラブ」。
   translation: 在Yahoo搜索中输入“宝可梦”时最先出现的、公认的当时最大规模的网站“宝可梦发烧友俱乐部”。
@@ -275,7 +274,7 @@ parallel_items:
 - type: paragraph
   original: ・ ポケモン文化マラソン専門学校 （ストラタ・ストライク）　http://www.hcom.co.jp/~matsu/superpoke/illusthome.html
   translation: ・ 宝可梦文化马拉松专门学校 （斯特拉塔·飞天螳螂）　http://www.hcom.co.jp/~matsu/superpoke/illusthome.html
-  note: ストラタ・ストライク可能为网站名称或作者名，此处音译为斯特拉塔·飞天螳螂。
+  note: 原名：ストラタ・ストライク（站名或作者名，此处音译）。
 - type: paragraph
   original: 伝説的なポケモンサイト。当時は大人気だったようだが、活動期間が短かった上にろくにログも残っておらず、
   translation: 这是一个传说中的宝可梦网站。当时似乎非常受欢迎，但由于运营时间短且几乎没有留下任何日志，
@@ -443,7 +442,6 @@ parallel_items:
 - type: paragraph
   original: ・ 不思議なホームページ （ペコキチ）　http://hccweb1.bai.ne.jp/pekokichi/
   translation: ・ 不可思议的网页（佩科奇）　http://hccweb1.bai.ne.jp/pekokichi/
-  note: 网站名及作者名均为音译。
 - type: paragraph
   original: あくまで1コンテンツという扱いだが「 やるぜポケスタ 」と題したページがある。
   translation: 虽然只是作为其中一个内容，但该网站设有名为“来战宝可梦竞技场”的页面。
@@ -464,7 +462,7 @@ parallel_items:
 - type: paragraph
   original: ・ グリフィンアイランド （サトチ）　http://www2u.biglobe.ne.jp/~endo-c/
   translation: ・ 狮鹫岛（佐藤）　http://www2u.biglobe.ne.jp/~endo-c/
-  note: 网站名“グリフィンアイランド”意译为“狮鹫岛”，作者名“サトチ”音译为“佐藤”。
+  note: 原名：グリフィンアイランド（站名，意译为狮鹫岛）、サトチ（作者名，音译为佐藤）。
 - type: paragraph
   original: 1998年10月10日オープン。
   translation: 于1998年10月10日开放。
@@ -480,7 +478,6 @@ parallel_items:
 - type: paragraph
   original: ・ Ｗｉｎｄ Ｌｏａｄ （ゲイツ）　http://www.geocities.co.jp/HeartLand-Icho/4308/index.html
   translation: ・ Wind Load（盖茨）　http://www.geocities.co.jp/HeartLand-Icho/4308/index.html
-  note: 网站名“Wind Load”保留英文，作者名“ゲイツ”音译为“盖茨”。
 - type: paragraph
   original: 98カップの出場ポケモン33種類を3グループに分けた「マリオスタジアムルール」の解説をしていたサイト。
   translation: 该网站曾对“马里奥体育场规则”进行解说，该规则将98杯出场的33种宝可梦分为3个小组。
@@ -510,7 +507,7 @@ parallel_items:
 - type: paragraph
   original: 名物企画に「みないでピカチュウ」というものがあり、これはお手本を見せずにピカチュウの絵を描かせるというもの。
   translation: 该网站有一个著名企划叫“不看画皮卡丘”，即不展示范例，让参与者凭记忆画皮卡丘。
-  note: みないでピカチュウ：直译为“不看画皮卡丘”，类似“闭眼画”的挑战。
+  note: みないでピカチュウ（直译：不看画皮卡丘），类似“闭眼画”的挑战。
 - type: paragraph
   original: 漫画家やイラストレーターをはじめとする大物が名を連ねていたと記憶している。
   translation: 我记得漫画家、插画师等大人物都曾参与其中。
@@ -618,7 +615,6 @@ parallel_items:
 - type: paragraph
   original: ・ 翔のページ （かける）　http://www2u.biglobe.ne.jp/~kakeru/
   translation: · 翔的页面（翔） http://www2u.biglobe.ne.jp/~kakeru/
-  note: 翔（かける）为网站作者名，此处保留原文。
 - type: paragraph
   original: このコンテンツの製作者のサイト、すなわちここのトップページである。
   translation: 这是本内容的制作者的网站，即本站的首页。

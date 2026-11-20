@@ -133,7 +133,6 @@ parallel_items:
 - speaker: 时代周刊
   original: You liked bugs?
   translation: 你喜欢虫？
-  note: 此处“bug”按官方术语译为“虫”，指昆虫。
   role: question
 - speaker: 田尻智
   original: They fascinated me. For one thing, they kind of moved funny. They were odd. Every time I found a new insect, it was mysterious to me. And the more I searched for insects, the more I found. If I put my hand in the river, I would get a crayfish. If there was a stick over a hole, it would create an air bubble and I'd find insects there. I usually took them home. As I gathered more and more, I'd learn about them, like how some would feed on one another. So I stopped bringing them home. But I liked coming up with new ideas. Like how to catch beetles. In Japan, a lot of kids like to go out and catch beetles by putting honey on a piece of tree bark. My idea was to put a stone under a tree, because they slept during the day and like sleeping under stones. So in the morning I'd go pick up the stone and find them. Tiny discoveries like that made me excited.

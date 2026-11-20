@@ -109,7 +109,6 @@ parallel_items:
 - type: paragraph
   original: 読み物： 「インターネットにおけるポケモンサイト黎明期の記憶」 （かけるのページ）
   translation: 读物：《互联网上宝可梦网站黎明期的记忆》（出自“かける的页面”）
-  note: “かけるのページ”可能为个人网站名，保留原文。
 - type: heading
   level: 3
   original: 連載コラム「田村環のコンピュータゲーム内部事情」のメモ

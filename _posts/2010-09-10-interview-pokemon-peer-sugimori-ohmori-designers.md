@@ -129,7 +129,6 @@ parallel_items:
 - speaker: 田上怜子
   original: In my case, it’s bugs.  There really is an insect that wads up leaves, called an Otoshibumi.  I thought that behavior was fascinating, so I tried to design a Pokemon based on it.
   translation: "我喜欢的是虫子。现实中有一种叫作“Otoshibumi”的昆虫，会把叶片卷起来。我觉得这种行为很有趣，就试着以它为基础设计宝可梦。"
-  note: "Otoshibumi 为英译保留的日文名称（オトシブミ），此处保留其卷叶行为的描述，不另造中文译名。"
   role: answer
 - speaker: 大村祐介
   original: I looked at the lineup of Pokemon that everyone had submitted to me, and designed whatever was missing.  Piplup from Pocket Monsters Diamond and Pearl was embraced, and this time I was once again designing Water-type Pokemon.  Not to suggest that Water-types are my specialty.

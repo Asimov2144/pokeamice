@@ -348,7 +348,7 @@ parallel_items:
 - speaker: 西野弘二
   original: “In truth, I just loved Pikachu so much, I didn't want players to find it easily. So I made it difficult to find, placing it in the Viridian Forest with a low appearance rate.”
   translation: “说实话，我非常喜欢皮卡丘，不想让玩家轻易找到它。所以我把它放在常青森林，并降低了出现率，让它难以遇到。”
-  note: 常青森林：游戏中的地点，官方译名为“常青森林”。
+  note: 常青森林（トキワの森）：《宝可梦 红·绿》中的地点。
   role: answer
 - speaker: 杉森建
   original: “It was maybe being selfish about Pikachu. But instead it just made Pikachu more valuable.”
