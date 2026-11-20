@@ -234,7 +234,7 @@ parallel_items:
 - speaker: ''
   original: This website is about documenting lost Pokemon history, not badmouthing Game Freak developers… But with that said, I think it’s unfortunate that Game Freak forgot in 2019 what Masuda knew so well in 2010. The whole crapstorm could have been avoided.
   translation: 这个网站旨在记录失落的宝可梦历史，并非诋毁GAME FREAK的开发人员……但话虽如此，我认为遗憾的是，GAME FREAK在2019年忘记了增田顺一在2010年深谙的道理。那场轩然大波本可以避免。
-  note: 此处指2019年《宝可梦 剑/盾》的全国图鉴删除事件，增田顺一在2010年曾强调季节系统带来的持续发现感，而2019年的决定忽视了玩家的长期期待。
+  note: 此处指2019年《宝可梦 剑／盾》的全国图鉴缩减争议（并非所有宝可梦都能在游戏中使用）。
 - speaker: 提问
   original: After setting the previous games in a Japan-flavored world, why did you decide on a more Western setting for Pokemon Black Version and Pokemon White Version?
   translation: 在将前作设定于充满日本风情的世界之后，为什么决定在《宝可梦 黑/白》中采用更偏向西方的设定？
@@ -291,7 +291,7 @@ parallel_items:
 - speaker: ''
   original: And that wraps up this March 2011 interview. By the way, Drill Dozer was a GBA action platformer directed by Ken Sugimori and produced by Junichi Masuda. It released in 2005 and received an average review score of 8/10. If you’d like to read more Pokemon interviews, check out this website’s homepage.
   translation: 这样就结束了这次2011年3月的访谈。顺便提一下，《钻孔钻机》是一款GBA动作平台游戏，由杉森建执导，增田顺一制作。它于2005年发售，平均评测得分为8/10。如果你想阅读更多宝可梦访谈，请查看本网站首页。
-  note: Drill Dozer 是 GAME FREAK 开发的一款 GBA 游戏，官方译名可能为《钻孔钻机》或《钻头小精灵》，此处采用直译。
+  note: Drill Dozer（ドリルドーザー）即《螺丝破坏者 轰振钻头》，GAME FREAK 开发的 GBA 游戏；上文的《钻孔钻机》指的就是它。
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/012.jpg
   alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_012'

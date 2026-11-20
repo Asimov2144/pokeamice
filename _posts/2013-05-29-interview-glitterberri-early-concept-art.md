@@ -419,7 +419,7 @@ parallel_items:
   alt: Early Concept Art
 - original: Kabiin’s name is reminiscent of Snorlax’s Japanese name, Kabigon. They say that Kabigon is modeled on a Pokémon developer named Koji Nishino, who appears in the picture above. It seems like Snorlax’s Japanese name stems from the fact that it will eat anything, including things with mold (黴 “kabi”) growing on them. Thus, it may be that this joke Pokémon is a caricature of Nishino as well. What its battle commands mean, however, I haven’t the faintest idea.
   translation: Kabiin的名字让人联想到卡比兽的日文名Kabigon。据说Kabigon是以一位名叫西野浩二的宝可梦开发者为原型，他出现在上面的图片中。卡比兽的日文名似乎源于它会吃任何东西，包括长霉（黴“kabi”）的东西。因此，这个玩笑宝可梦可能也是对西野的讽刺画。不过，它的战斗指令是什么意思，我完全不知道。
-  note: 西野浩二是Game Freak的程序员，卡比兽的日文名Kabigon据传源自他的姓氏。
+  note: 据传卡比兽的日文名 Kabigon 与 GAME FREAK 一位西野姓员工有关（说法见正文）。
 - original: As you can see from the storyboards, the animations and sound-effects here are pretty much identical to those of the released game.
   translation: 从分镜图可以看出，这里的动画和音效与发售版游戏几乎完全相同。
 - type: heading

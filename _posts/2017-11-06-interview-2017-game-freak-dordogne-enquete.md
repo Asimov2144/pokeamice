@@ -288,8 +288,8 @@ parallel_items:
   note: 这里提到的研究员可能指今泉芳子（Yoshiko Imaizumi），她研究非洲，但此处提到明治时代圣地。普鲁斯特是法国作家，其作品描绘了美好时代。
 - type: paragraph
   original: À moins que l'on ne retourne au temps des cavernes . Après tout, Yoshiko Imaizumi a étudié l'Afrique. Vous commencez à voir les liens ? Et les Pokéballs, ça existait à cette période ? Ça me semble compliqué en terme de capture de pokémonstres, mais allez savoir, le concept serait ultra-intéressant.
-  translation: 除非我们回到洞穴时代。毕竟，今泉芳子研究过非洲。你们开始看到联系了吗？而且，精灵球在那个时代存在吗？就捕捉宝可梦而言，这似乎很复杂，但谁知道呢，这个概念会非常有趣。
-  note: 今泉芳子（Yoshiko Imaizumi）是 Game Freak 的员工，曾参与《宝可梦 太阳/月亮》的开发，研究非洲文化。
+  translation: 除非我们回到洞穴时代。毕竟，今泉宜子研究过非洲。你们开始看到联系了吗？而且，精灵球在那个时代存在吗？就捕捉宝可梦而言，这似乎很复杂，但谁知道呢，这个概念会非常有趣。
+  note: 今泉宜子（Yoshiko Imaizumi）是研究日本近代文化史的学者（见前文介绍），并非 Game Freak 员工。
 - type: paragraph
   original: Sur ce, je me barre. On se retrouve d'ici quelques mois pour parler de tout ça.
   translation: 就这样，我走了。几个月后再见，聊聊这些。
@@ -327,9 +327,9 @@ parallel_items:
   role: answer
 - type: paragraph
   original: misako c'est pas la mère de lloyd dans ninjago ?
-  translation: 美沙子不是忍者神龟里劳埃德的妈妈吗？
+  translation: 美沙子不是乐高幻影忍者里劳埃德的妈妈吗？
   speaker: Bafouillafripouille
-  note: 此处提到美沙子（Misako）可能是忍者神龟（Ninjago）中的角色，但原文为 ninjago，可能指乐高幻影忍者。
+  note: 劳埃德（Lloyd）和美沙子（Misako）是《乐高幻影忍者》（Ninjago）中的角色。
   role: answer
 - type: paragraph
   original: Si on reste dans le principe du voyage inter-dimensionnel je pencherai plus sur un jeu avec plusieurs régions. Et pourquoi pas une nouvelle génération sur une région existante ? Sinnoh par exemple et es nombreuses histoires anciennes nous emmèneraient voyager dans le temps à travers les époques (c'est lépop..... ) je vais trop loin xD Mais bon je délire un peu sur ce genre de scénario.

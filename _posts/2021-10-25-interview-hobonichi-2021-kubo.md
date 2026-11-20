@@ -96,7 +96,7 @@ parallel_items:
   role: question
   speaker: ほぼ日
   translation: 那就是《大宣言》。
-  note: 《ゴーマニズム宣言》是漫画家小林善范在《周刊SPA!》等连载的漫画专栏，中文常译《大宣言》。
+  note: 《ゴーマニズム宣言》是漫画家小林善纪在《周刊SPA!》等连载的漫画专栏，中文常译《大宣言》。
 - original: ああ、そうなんですか。
   role: answer
   speaker: 久保雅一
@@ -430,7 +430,7 @@ parallel_items:
   role: question
   speaker: ほぼ日
   translation: 原来是在深夜里诞生的啊，那个《富家少爷》的世界。
-  note: 《おぼっちゃまくん》是漫画家小林よしのり从1986年起在《周刊少年Sunday》连载的搞笑漫画，后改编为动画。
+  note: 《おぼっちゃまくん》（《富家少爷》）是漫画家小林よしのり（小林善纪）从1986年起在《月刊CoroCoro Comic》连载的搞笑漫画，后改编为动画。
 - original: そういう意味で、小林先生との時間は、本当に勉強になりました。
   role: answer
   speaker: 久保雅一
@@ -486,7 +486,7 @@ parallel_items:
   role: answer
   speaker: 久保雅一
   translation: 担任小林老师责编的那7年，真的很刺激，我一直拼命想跟上，但当被问到“这个段子有趣吗？”的时候，不能什么都阿谀奉承地说“老师，很有趣啊！”。
-  note: 小林老师指漫画家小林善范，久保雅一曾担任其责编。
+  note: 小林老师指漫画家小林善纪，久保雅一曾担任其责编。
 - original: なるほど。
   role: question
   speaker: ほぼ日
@@ -702,8 +702,8 @@ parallel_items:
 - original: 小林よしのり先生からの、あれだけの愛ある誌上いじりを見ても。
   role: question
   speaker: ほぼ日
-  translation: 从小林善范老师那样充满爱意的杂志上调侃来看。
-  note: 小林善范是日本漫画家，曾与久保雅一在《周刊Young Sunday》等杂志上有合作与互动。
+  translation: 从小林善纪老师那样充满爱意的杂志上调侃来看。
+  note: 小林善纪是日本漫画家，《富家少爷》的作者。
 - original: そうなのかなあ？（笑）
   role: answer
   speaker: 久保雅一
@@ -964,7 +964,7 @@ parallel_items:
   role: question
   speaker: ほぼ日
   translation: 久保先生您担任《富家少爷》第四代编辑长达7年，但上任时，作品本身已经成型了吧。
-  note: 《富家少爷》是漫画家小林善范的搞笑漫画，1985年至1994年在《周刊少年Sunday》连载。
+  note: 《富家少爷》是漫画家小林善纪的搞笑漫画，1986年至1994年在《月刊CoroCoro Comic》连载。
 - original: そうですね。
   role: answer
   speaker: 久保雅一
@@ -1736,7 +1736,7 @@ parallel_items:
   role: question
   speaker: ほぼ日
   translation: 顺便问一下，把话题往回倒一倒，在动画《富家少爷》的时候，久保先生您做的是制作人性质的工作吗？
-  note: 《富家少爷》是1989年至1992年在朝日电视台播出的动画，改编自小林善范的漫画。
+  note: 《富家少爷》是1989年至1992年在朝日电视台播出的动画，改编自小林善纪的漫画。
 - original: まだ、やってませんでしたね。
   role: answer
   speaker: 久保雅一

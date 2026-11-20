@@ -86,7 +86,7 @@ parallel_items:
   role: answer
   speaker: 吉田宏信
   translation: 每部作品我都有各自的感情，但其中记忆犹新的是《螺丝破坏者 轰振钻头》。因为这是我第一次担任主角设计，每天都充满了纠结。但也正因如此，完成时的喜悦格外特别。
-  note: 《螺丝破坏者 轰振钻头》是GAME FREAK于2005年发行的任天堂DS游戏。
+  note: 《螺丝破坏者 轰振钻头》是GAME FREAK于2005年发行的Game Boy Advance游戏。
 - original: それでは、自分がプレイしたことのあるゲームの中で、「名作」と呼ぶべきゲーム作品を1タイトル挙げるとすれば何ですか？
   role: question
   speaker: Gpara.com

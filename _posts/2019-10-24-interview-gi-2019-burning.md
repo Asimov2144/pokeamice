@@ -86,7 +86,7 @@ parallel_items:
   role: answer
   speaker: 增田顺一
   translation: "不是宝可梦，但卡比和宝可梦之间有一段你可能想不到的渊源。GAME FREAK的西野先生，就是卡比兽的灵感来源……卡比兽的日文名叫卡比兽（Kabigon）……总之，西野这个人总是吃很多、然后就去睡觉，长得也有点像卡比兽，但在开发时我们一直管他叫卡比（Kirby）。所以我们给他起了个绰号叫卡比，后来给卡比兽起名时，日文名就是Kabigon——卡比或者“cubby”……"
-  note: 西野弘一是Game Freak的程序员，卡比兽的日文名Kabigon据称源自他的绰号。
+  note: 据传卡比兽的日文名 Kabigon 与 GAME FREAK 一位西野姓员工有关（说法见正文）。
 - original: Speaking of which, the original naming inspiration for Kirby passed away. John Kirby.
   role: answer
   speaker: 增田顺一

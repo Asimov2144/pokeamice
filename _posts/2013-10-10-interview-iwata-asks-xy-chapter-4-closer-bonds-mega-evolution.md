@@ -58,7 +58,7 @@ parallel_items:
   speaker: 增田顺一
   original: 「パルレ」というのはフランス語で「おしゃべりをする」という意味です。
   translation: “友友乐”在法语中是“交谈、聊天”的意思。
-  note: 法语“parler”意为“说话”，此处与英语“pal”（朋友）结合，形成“宝可友友乐”的命名，体现与宝可梦对话、成为朋友的理念。
+  note: ポケパルレ（友友乐）取自法语 parler（说话、交谈），体现与宝可梦交流的理念。
   role: answer
 - type: dialogue
   speaker: 岩田聪

@@ -135,7 +135,7 @@ parallel_items:
   original: 'Ohmori : Por ejemplo, las Poké Monturas no es que las hayamos cogido de Pokémon Ranger sino que con el tema de poder hacer que los humanos y los Pokémon pudiesen convivir de la forma más estrecha y vinculada posible, nos planteamos cuál podría ser la manera de hacer que se ayudasen lo máximo posible mutuamente; es así como surgió la idea de las Poké Monturas. Otro ejemplo es el Poké Visor que hemos introducido en Pokémon Sol y Luna. Esta función la hemos tomado de Pokémon Snap , pensamos desde el primer momento en ese título por las posibilidades que podía tener esta función con las capacidades de 3DS. Es así como trabajamos a la hora de introducir nuevas funciones y mecánicas. Definitivamente no creo que se trate de imitar a los spin off, pero si tenemos que tomar algo prestado porque pensemos que va a aportar algo a la saga principal, lo haremos sin ninguna duda.'
   translation: 例如，宝可骑行并不是我们从《宝可梦巡护员》中直接拿来的，而是基于让人类和宝可梦能够尽可能紧密地共同生活、相互帮助的主题，我们思考了如何让他们最大限度地互相协助，由此诞生了宝可骑行的想法。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可梦图鉴相机。这个功能取自《宝可梦 随乐拍》，我们从一开始就考虑到这个功能在3DS上的可能性。我们就是这样引入新功能和机制的。我绝对不认为这是在模仿衍生作品，但如果我们认为某些东西能为正传系列带来价值，我们会毫不犹豫地借鉴。
   speaker: 大森滋
-  note: 宝可骑行（Poké Monturas）是《宝可梦 太阳／月亮》中的骑乘系统；宝可梦图鉴相机（Poké Visor）是游戏中的拍照功能，源自N64游戏《宝可梦 随乐拍》（Pokémon Snap）。
+  note: 宝可骑行（Poké Ride；原文为西班牙语 Poké Monturas）是《宝可梦 太阳／月亮》中的骑乘系统；宝可梦图鉴相机指游戏中的拍照功能，源自N64游戏《宝可梦 随乐拍》（Pokémon Snap）。
   role: answer
 - type: image
   image: /assets/img/interviews/2016-12-12-interview-reportajes/004.jpg

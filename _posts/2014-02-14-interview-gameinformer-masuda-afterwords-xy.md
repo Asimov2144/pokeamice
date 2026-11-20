@@ -215,7 +215,7 @@ parallel_items:
 - speaker: 增田顺一
   original: The base idea came from Ms. Ibe – one of our graphic designers. Since the Kalos region has a lot of history, we felt we could attach some story elements to a key design. The idea for Klefki came from thinking of old mansions and secret keys and such.
   translation: 基础想法来自井部女士——我们的一位图形设计师。由于卡洛斯地区历史悠久，我们觉得可以在钥匙设计上附加一些故事元素。钥圈儿的想法源于对古老宅邸和秘密钥匙等的思考。
-  note: 井部真那（井部真那）是Game Freak的图形设计师，负责宝可梦设计。
+  note: 井部女士：GAME FREAK 的图形设计师（原文如此介绍）。
   role: answer
 - speaker: 提问
   original: Historically, your trainer's father has been absent, but in Pokémon X&Y your father apparently purchased the computer that's in your room for you. What is your father up to? And where are the fathers of the previous games?

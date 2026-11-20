@@ -88,7 +88,7 @@ parallel_items:
 - type: paragraph
   original: さて、私「Ｙ」も発売日は各地へ足を運びましたので、
   translation: 那么，我“Y”在发售日也去了各地，
-  note: “Y”是作者或编辑的笔名，可能指代宝可梦系列中的某个角色或工作人员。
+  note: “Y”是该篇日志作者署名中的字母（笔名）。
 - type: paragraph
   original: その模様を簡単にレポートしたいと思います。
   translation: 想简单报告一下当时的情况。

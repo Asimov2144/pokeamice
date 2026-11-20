@@ -697,7 +697,7 @@ parallel_items:
   level: 2
   original: 「ソリティ馬」はなかなか真似できないゲーム
   translation: 《纸牌赛马》是一款不容易模仿的游戏
-  note: 《疾驰赛马》（ソリティ馬）是GAME FREAK于2013年推出的3DS下载游戏，将纸牌游戏与赛马结合。
+  note: 《纸牌赛马》（ソリティ馬）是GAME FREAK于2013年推出的3DS下载游戏，将纸牌游戏与赛马结合。
 - original: しかし，話を聞いていると，ゲームフリークさんはオリジナルである（最初に何かを生み出す）ってところに大きなこだわりがある会社なんですか？
   role: question
   speaker: 4Gamer

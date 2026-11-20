@@ -111,7 +111,7 @@ parallel_items:
 - speaker: 田尻智
   original: The biggest sales were for a special issue on the Zabius game. We sold 10,000 copies. It cost 300 yen each. So when I was 18 I already had a business going. At first I used a photocopy machine--more important than style was selling information. But when sales increased, it was difficult to do it by hand. So I took it to a printer.
   translation: 销量最高的是关于《扎比乌斯》游戏的特别版。我们卖出了一万份。每份售价300日元。所以当我18岁时，我已经有了自己的事业。起初我用复印机——比风格更重要的是销售信息。但随着销量增加，手工制作变得困难，于是我把印刷交给了印刷厂。
-  note: 《扎比乌斯》是1986年的一款街机射击游戏，由东映动画与Coreland开发。
+  note: 《扎比乌斯》（Zabius）即南梦宫1983年的街机射击游戏《ゼビウス》（Xevious，常译《铁板阵》）。
   role: answer
 - speaker: 时代周刊
   original: How did you move from publishing to designing games?
