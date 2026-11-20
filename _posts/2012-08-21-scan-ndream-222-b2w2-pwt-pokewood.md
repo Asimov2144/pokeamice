@@ -494,7 +494,7 @@ translation_segments:
     scan_page: 2
     review_status: "verified"
     original: アデク『おお！ バンジロウでは ないか！
-    translation: 阿戴克「哦哦！这不是巴吉罗吗！
+    translation: 阿戴克「哦哦！这不是巴吉罗吗！」
   - speaker: caption
     type: paragraph
     kind: text
