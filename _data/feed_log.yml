@@ -1,4 +1,10 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-20'
+  count: 1
+  types:
+    文章: 1
+  posts:
+  - 2008-07-09-source-jeuxvideo-pokemon-mystery-dungeon-explorers-kawamura-tomie
 - date: '2026-11-10'
   count: 4
   types:
