@@ -37,9 +37,9 @@ sitemap: true
 <h3><small>SuperSweep / </small>Sound<span class="credits__zh-role">（音响）</span><span class="credits__ja-role">SuperSweep / SOUND</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/taniguchi-teruo/">Teruo Taniguchi</a></li>
-<li class="credits__name">Takahiro Eguchi</li>
+<li class="credits__name"><a href="/people/eguchi-takahiro/">Takahiro Eguchi</a></li>
 <li class="credits__name">Fumihisa Tanaka</li>
-<li class="credits__name">Shinji Hosoe</li>
+<li class="credits__name"><a href="/people/hosoe-shinji/">Shinji Hosoe</a></li>
 </ul></section>
 <section class="credits__section">
 <h3>Project Manager<span class="credits__zh-role">（项目经理）</span></h3>

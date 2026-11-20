@@ -447,7 +447,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Sound Team / </small>Sound Coordination<span class="credits__zh-role">（音响协调）</span><span class="credits__ja-role">サウンドコーディネート</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Hiromitsu Maeba <small>まえば ひろみつ</small></li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a> <small>まえば ひろみつ</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound Team / </small>Sound Programming<span class="credits__zh-role">（音响程序）</span><span class="credits__ja-role">サウンドプログラミング</span></h3>
@@ -471,14 +471,14 @@ sitemap: true
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>いちのせ ごう</small></li>
 <li class="credits__name"><a href="/people/murayama-rei/">Rei Murayama</a> <small>むらやま れい</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
-<li class="credits__name">Hiromitsu Maeba <small>まえば ひろみつ</small></li>
-<li class="credits__name">Haruka Soeda <small>そえだ はるか</small></li>
-<li class="credits__name">Toby Fox <small>トビー フォックス</small></li>
+<li class="credits__name"><a href="/people/maeba-hiromitsu/">Hiromitsu Maeba</a> <small>まえば ひろみつ</small></li>
+<li class="credits__name"><a href="/people/soeda-haruka/">Haruka Soeda</a> <small>そえだ はるか</small></li>
+<li class="credits__name"><a href="/people/fox-toby/">Toby Fox</a> <small>トビー フォックス</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound Team / </small>Sound Development Support<span class="credits__zh-role">（音响开发支持）</span><span class="credits__ja-role">サウンドかいはつサポート</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Haruka Soeda <small>そえだ はるか</small></li>
+<li class="credits__name"><a href="/people/soeda-haruka/">Haruka Soeda</a> <small>そえだ はるか</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Sound Team / </small>Sound Team Partners<span class="credits__zh-role">（音响组合作方）</span></h3>
@@ -490,7 +490,7 @@ sitemap: true
 <section class="credits__section">
 <h3><small>Sound Team / </small>Rumble Data Design<span class="credits__zh-role">（震动数据设计）</span><span class="credits__ja-role">サウンドチーム きょうりょくがいしゃ</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Haruka Soeda <small>そえだ はるか</small></li>
+<li class="credits__name"><a href="/people/soeda-haruka/">Haruka Soeda</a> <small>そえだ はるか</small></li>
 </ul></section>
 <section class="credits__section">
 <h3><small>Concept &amp; Visual Studio / Design &amp; World Concept / </small>Supervisor<span class="credits__zh-role">（监修）</span><span class="credits__ja-role">コンセプト&amp;ビジュアルスタジオ / デザイン&amp;ワールドコンセプトセクション / スーパーバイザー</span></h3>
@@ -1213,7 +1213,7 @@ sitemap: true
 <h3>Ending Theme<span class="credits__zh-role">（片尾曲）</span><span class="credits__ja-role">エンディングテーマ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">&quot;Celestial&quot;</li>
-<li class="credits__name">Toby Fox</li>
+<li class="credits__name"><a href="/people/fox-toby/">Toby Fox</a></li>
 <li class="credits__name is-company">Original song written by: Ed Sheeran, Steve Mac and Johnny McDaid</li>
 <li class="credits__name">Original song performed by: Ed Sheeran</li>
 <li class="credits__name is-company">Ed Sheeran Ltd and Sony Music publishing, Rokstone Music Ltd under exclusive licence to Universal Music Publishing (UK) Ltd and Sony Music Publishing.</li>

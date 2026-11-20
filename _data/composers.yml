@@ -1,0 +1,4382 @@
+# 由 tools/build-composers.py 生成：作曲·编曲名单（只看 staff 名单里的职务字样）。不要手改。
+counts:
+  composers: 77
+  others: 66
+  games_with_a: 60
+  games_total: 93
+  linked: 22
+composers:
+- id: junichi-masuda
+  name: 增田顺一
+  en: Jun'ichi Masuda
+  credits_key: junichi masuda
+  games:
+  - game: blue-jp
+    title: 宝可梦 蓝
+    year: 1996
+    tier: A
+    role: Music
+    gen: 1
+    core: true
+  - game: red-green
+    title: 宝可梦 红·绿
+    year: 1996
+    tier: A
+    role: Music
+    gen: 1
+    core: true
+  - game: red-blue
+    title: 宝可梦 红·蓝（海外版）
+    year: 1998
+    tier: A
+    role: Music
+    gen: 1
+    core: true
+  - game: yellow
+    title: 宝可梦 皮卡丘版
+    year: 1998
+    tier: A
+    role: Music
+    gen: 1
+    core: true
+  - game: gold-silver
+    title: 宝可梦 金·银
+    year: 1999
+    tier: A
+    role: Music
+    gen: 2
+    core: true
+  - game: crystal
+    title: 宝可梦 水晶版
+    year: 2000
+    tier: A
+    role: Music
+    gen: 2
+    core: true
+  - game: ruby-sapphire
+    title: 宝可梦 红宝石·蓝宝石
+    year: 2002
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: emerald
+    title: 宝可梦 绿宝石
+    year: 2004
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: firered-leafgreen
+    title: 宝可梦 火红·叶绿
+    year: 2004
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: diamond-pearl
+    title: 宝可梦 钻石·珍珠
+    year: 2006
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: platinum
+    title: 宝可梦 白金
+    year: 2008
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: heartgold-soulsilver
+    title: 宝可梦 心金·魂银
+    year: 2009
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: black-white
+    title: 宝可梦 黑·白
+    year: 2010
+    tier: A
+    role: Music · All Battle Music
+    gen: 5
+    core: true
+  - game: black2-white2
+    title: 宝可梦 黑2·白2
+    year: 2012
+    tier: A
+    role: Pokémon Black and White Version Music
+    gen: 5
+    core: true
+  - game: x-y
+    title: 宝可梦 X·Y
+    year: 2013
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    tier: A
+    role: Original Music
+    gen: 7
+    core: true
+  - game: bdsp
+    title: 宝可梦 晶灿钻石·明亮珍珠
+    year: 2021
+    tier: A
+    role: Music
+    gen: 8
+    core: true
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  ja: 増田順一
+  person: masuda-junichi
+  avatar: /assets/img/people/masuda-junichi.jpg
+  tier: A
+  n: 19
+  first: 1996
+  last: 2022
+- id: go-ichinose
+  name: 一之濑刚
+  en: Gō Ichinose
+  credits_key: go ichinose
+  games:
+  - game: gold-silver
+    title: 宝可梦 金·银
+    year: 1999
+    tier: A
+    role: Music
+    gen: 2
+    core: true
+  - game: pinball
+    title: 宝可梦弹珠台
+    year: 1999
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: crystal
+    title: 宝可梦 水晶版
+    year: 2000
+    tier: A
+    role: Music
+    gen: 2
+    core: true
+  - game: ruby-sapphire
+    title: 宝可梦 红宝石·蓝宝石
+    year: 2002
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: emerald
+    title: 宝可梦 绿宝石
+    year: 2004
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: firered-leafgreen
+    title: 宝可梦 火红·叶绿
+    year: 2004
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: diamond-pearl
+    title: 宝可梦 钻石·珍珠
+    year: 2006
+    tier: A
+    role: Music Leader
+    gen: 4
+    core: true
+  - game: platinum
+    title: 宝可梦 白金
+    year: 2008
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: heartgold-soulsilver
+    title: 宝可梦 心金·魂银
+    year: 2009
+    tier: A
+    role: Music Leader · Music Composition
+    gen: 4
+    core: true
+  - game: black-white
+    title: 宝可梦 黑·白
+    year: 2010
+    tier: A
+    role: Music · Music--Opelucid City, Anville Town, Village Bridge, and More
+    gen: 5
+    core: true
+  - game: black2-white2
+    title: 宝可梦 黑2·白2
+    year: 2012
+    tier: A
+    role: Music · Music--Humilau City, Route 23 and more music
+    gen: 5
+    core: true
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  - game: legends-arceus
+    title: 宝可梦传说 阿尔宙斯
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 8
+    core: true
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  ja: 一之瀬剛
+  person: ichinose-go
+  avatar: /assets/img/people/ichinose-go.jpg
+  tier: A
+  n: 15
+  first: 1999
+  last: 2023
+- id: hitomi-sato
+  name: 佐藤仁美
+  en: Hitomi Satō
+  credits_key: hitomi sato
+  games:
+  - game: emerald
+    title: 宝可梦 绿宝石
+    year: 2004
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: diamond-pearl
+    title: 宝可梦 钻石·珍珠
+    year: 2006
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: platinum
+    title: 宝可梦 白金
+    year: 2008
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: heartgold-soulsilver
+    title: 宝可梦 心金·魂银
+    year: 2009
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: black-white
+    title: 宝可梦 黑·白
+    year: 2010
+    tier: A
+    role: Music · Music--Bicycle, Poké Transfer Lab, Lacunosa Town, and More
+    gen: 5
+    core: true
+  - game: black2-white2
+    title: 宝可梦 黑2·白2
+    year: 2012
+    tier: A
+    role: Music · Music--Route 19, Join Avenue and more music
+    gen: 5
+    core: true
+  - game: x-y
+    title: 宝可梦 X·Y
+    year: 2013
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  - game: legends-arceus
+    title: 宝可梦传说 阿尔宙斯
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 8
+    core: true
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  ja: 佐藤仁美
+  person: sato-hitomi
+  avatar: /assets/img/people/sato-hitomi.jpg
+  tier: A
+  n: 12
+  first: 2004
+  last: 2025
+- id: kageyama-shota
+  name: 景山将太
+  en: Shota Kageyama
+  credits_key: kageyama shota
+  games:
+  - game: heartgold-soulsilver
+    title: 宝可梦 心金·魂银
+    year: 2009
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: black-white
+    title: 宝可梦 黑·白
+    year: 2010
+    tier: A
+    role: Music · Music--Entralink, Route 10, Ending Theme, and More
+    gen: 5
+    core: true
+  - game: black2-white2
+    title: 宝可梦 黑2·白2
+    year: 2012
+    tier: A
+    role: Pokémon Black and White Version Music
+    gen: 5
+    core: true
+  - game: x-y
+    title: 宝可梦 X·Y
+    year: 2013
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: oras
+    title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+    year: 2014
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Guest Music Composer
+    gen: 99
+    core: false
+  - game: duel
+    title: 宝可梦战棋大师
+    year: 2016
+    tier: A
+    role: Music Composer
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Guest Music Compose
+    gen: 99
+    core: false
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  - game: bdsp
+    title: 宝可梦 晶灿钻石·明亮珍珠
+    year: 2021
+    tier: A
+    role: Music
+    gen: 8
+    core: true
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  ja: 景山将太
+  person: kageyama-shota
+  avatar: /assets/img/people/kageyama-shota.jpg
+  tier: A
+  n: 11
+  first: 2009
+  last: 2025
+- id: adachi-minako
+  name: 足立美奈子
+  en: Minako Adachi
+  credits_key: adachi minako
+  games:
+  - game: black-white
+    title: 宝可梦 黑·白
+    year: 2010
+    tier: A
+    role: Music
+    gen: 5
+    core: true
+  - game: black2-white2
+    title: 宝可梦 黑2·白2
+    year: 2012
+    tier: A
+    role: Pokémon Black and White Version Music
+    gen: 5
+    core: true
+  - game: x-y
+    title: 宝可梦 X·Y
+    year: 2013
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: oras
+    title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+    year: 2014
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  ja: 足立美奈子
+  person: adachi-minako
+  avatar: /assets/img/people/adachi-minako.jpg
+  tier: A
+  n: 8
+  first: 2010
+  last: 2025
+- id: kitsuta-takuto
+  name: 橘田拓人
+  en: Takuto Kitsuta
+  credits_key: kitsuta takuto
+  games:
+  - game: heartgold-soulsilver
+    title: 宝可梦 心金·魂银
+    year: 2009
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  - game: pokepark-2
+    title: 宝可公园2 ～Beyond the World～
+    year: 2011
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: detective-pikachu
+    title: 名侦探皮卡丘
+    year: 2016
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: detective-pikachu-birth-of-a-new-duo
+    title: 名侦探皮卡丘 ～新搭档诞生～
+    year: 2016
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: trading-card-game-pocket
+    title: 宝可梦集换式卡牌游戏 Pocket
+    year: 2024
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  ja: 橘田拓人
+  person: kitsuta-takuto
+  tier: A
+  n: 6
+  first: 2009
+  last: 2024
+- id: tawada-tsukasa
+  name: 多和田吏
+  en: Tsukasa Tawada
+  credits_key: tawada tsukasa
+  games:
+  - game: colosseum
+    title: 宝可梦圆形竞技场
+    year: 2003
+    tier: A
+    role: Music Director
+    gen: 99
+    core: false
+  - game: trozei
+    title: 宝可梦益智方块
+    year: 2005
+    tier: A
+    role: Music Director
+    gen: 99
+    core: false
+  - game: xd
+    title: 宝可梦XD 暗之旋风 黑暗洛奇亚
+    year: 2005
+    tier: A
+    role: Music Director
+    gen: 99
+    core: false
+  - game: battle-revolution
+    title: 宝可梦对战革命
+    year: 2006
+    tier: A
+    role: Music Director
+    gen: 99
+    core: false
+  - game: battle-trozei
+    title: 宝可梦战斗益智方块
+    year: 2014
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  person: tawada-tsukasa
+  avatar: /assets/img/people/tawada-tsukasa.jpg
+  tier: A
+  n: 5
+  first: 2003
+  last: 2014
+- id: ito-keisuke
+  name: Keisuke Ito
+  en: Keisuke Ito
+  credits_key: ito keisuke
+  games:
+  - game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+    title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+    year: 2007
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  - game: mystery-dungeon-explorers-of-sky
+    title: 宝可梦不可思议迷宫 空之探险队
+    year: 2009
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  - game: mystery-dungeon-gates-to-infinity
+    title: 宝可梦不可思议迷宫 极大之门与无限迷宫
+    year: 2012
+    tier: A
+    role: Music composition
+    gen: 99
+    core: false
+  - game: super-mystery-dungeon
+    title: 宝可梦超级不可思议迷宫
+    year: 2015
+    tier: A
+    role: Music Composition
+    gen: 99
+    core: false
+  - game: mystery-dungeon-rescue-team-dx
+    title: 宝可梦不可思议迷宫 救助队DX
+    year: 2020
+    tier: A
+    role: Music Arrangement & Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 5
+  first: 2007
+  last: 2020
+- id: arata-iyoshi
+  name: Arata Iiyoshi
+  en: Arata Iiyoshi
+  credits_key: arata iyoshi
+  games:
+  - game: mystery-dungeon-red-rescue-team-and-blue-rescue-team
+    title: 宝可梦不可思议迷宫
+    year: 2005
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+    title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+    year: 2007
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  - game: mystery-dungeon-explorers-of-sky
+    title: 宝可梦不可思议迷宫 空之探险队
+    year: 2009
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  - game: mystery-dungeon-rescue-team-dx
+    title: 宝可梦不可思议迷宫 救助队DX
+    year: 2020
+    tier: A
+    role: Original Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 4
+  first: 2005
+  last: 2020
+- id: hiromitsu-maeba
+  name: 前馬宏充
+  en: Hiromitsu Maeba
+  credits_key: hiromitsu maeba
+  games:
+  - game: legends-arceus
+    title: 宝可梦传说 阿尔宙斯
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 8
+    core: true
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: maeba-hiromitsu
+  tier: A
+  n: 4
+  first: 2022
+  last: 2025
+- id: kenta-nagata
+  name: Kenta Nagata
+  en: Kenta Nagata
+  credits_key: kenta nagata
+  games:
+  - game: stadium-japanese
+    title: 宝可梦竞技场（1998 日版）
+    year: 1998
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: stadium
+    title: 宝可梦竞技场
+    year: 1999
+    tier: A
+    role: Sound Composers
+    gen: 99
+    core: false
+  - game: box
+    title: 宝可梦盒子 红宝石·蓝宝石
+    year: 2003
+    tier: A
+    role: Sound Arrangement
+    gen: 3
+    core: true
+  ja: 峰岸透 / 永田権太
+  tier: A
+  n: 3
+  first: 1998
+  last: 2003
+- id: aoki-morikazu
+  name: 青木森一
+  en: Morikazu Aoki
+  credits_key: aoki morikazu
+  games:
+  - game: crystal
+    title: 宝可梦 水晶版
+    year: 2000
+    tier: A
+    role: Music
+    gen: 2
+    core: true
+  - game: ruby-sapphire
+    title: 宝可梦 红宝石·蓝宝石
+    year: 2002
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  - game: emerald
+    title: 宝可梦 绿宝石
+    year: 2004
+    tier: A
+    role: Music Composition
+    gen: 3
+    core: true
+  ja: 青木森一
+  person: aoki-morikazu
+  tier: A
+  n: 3
+  first: 2000
+  last: 2004
+- id: kenichi-koyano
+  name: Ken-ichi Koyano
+  en: Ken-ichi Koyano
+  credits_key: kenichi koyano
+  games:
+  - game: pokepark-wii
+    title: 宝可公园Wii 皮卡丘的大冒险
+    year: 2009
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: ranger-guardian-signs
+    title: 宝可梦巡护员 光的轨迹
+    year: 2010
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: pokepark-2
+    title: 宝可公园2 ～Beyond the World～
+    year: 2011
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 3
+  first: 2009
+  last: 2011
+- id: hashimoto-hiroki
+  name: Hiroki Hashimoto
+  en: Hiroki Hashimoto
+  credits_key: hashimoto hiroki
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Lead Music Composer
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Lead Music Compose
+    gen: 99
+    core: false
+  - game: new-pokemon-snap
+    title: New 宝可梦随乐拍
+    year: 2021
+    tier: A
+    role: Lead Music Composer
+    gen: 99
+    core: false
+  tier: A
+  n: 3
+  first: 2015
+  last: 2021
+- id: hirai-yoshinori
+  name: Yoshinori Hirai
+  en: Yoshinori Hirai
+  credits_key: hirai yoshinori
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  - game: new-pokemon-snap
+    title: New 宝可梦随乐拍
+    year: 2021
+    tier: A
+    role: Sound Design & Music Composers
+    gen: 99
+    core: false
+  tier: A
+  n: 3
+  first: 2015
+  last: 2021
+- id: ichiro-shimakura
+  name: 嶋倉一朗
+  en: Ichiro Shimakura
+  credits_key: ichiro shimakura
+  games:
+  - game: trading-card-game
+    title: 宝可梦卡牌GB
+    year: 1998
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: trading-card-game-2-the-invasion-of-team-gr
+    title: 宝可梦卡牌GB2 GR团登场！
+    year: 2001
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  ja: 嶋倉一朗
+  tier: A
+  n: 2
+  first: 1998
+  last: 2001
+- id: hajime-wakai
+  name: 若井淑
+  en: Hajime Wakai
+  credits_key: hajime wakai
+  games:
+  - game: stadium
+    title: 宝可梦竞技场
+    year: 1999
+    tier: A
+    role: Sound Composers
+    gen: 99
+    core: false
+  - game: stadium-2
+    title: 宝可梦竞技场 金银
+    year: 2000
+    tier: A
+    role: Sound Composer
+    gen: 99
+    core: false
+  ja: 若井淑
+  tier: A
+  n: 2
+  first: 1999
+  last: 2000
+- id: atsuhiro-ishizuna
+  name: Atsuhiro Ishizuna
+  en: Atsuhiro Ishizuna
+  credits_key: atsuhiro ishizuna
+  games:
+  - game: mystery-dungeon-red-rescue-team-and-blue-rescue-team
+    title: 宝可梦不可思议迷宫
+    year: 2005
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: mystery-dungeon-rescue-team-dx
+    title: 宝可梦不可思议迷宫 救助队DX
+    year: 2020
+    tier: A
+    role: Original Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2005
+  last: 2020
+- id: hideki-sakamoto
+  name: Hideki Sakamoto
+  en: Hideki Sakamoto
+  credits_key: hideki sakamoto
+  games:
+  - game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+    title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+    year: 2007
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  - game: mystery-dungeon-explorers-of-sky
+    title: 宝可梦不可思议迷宫 空之探险队
+    year: 2009
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2007
+  last: 2009
+- id: kenichi-saito
+  name: Ken-ichi Saito
+  en: Ken-ichi Saito
+  credits_key: kenichi saito
+  games:
+  - game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+    title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+    year: 2007
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  - game: mystery-dungeon-explorers-of-sky
+    title: 宝可梦不可思议迷宫 空之探险队
+    year: 2009
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2007
+  last: 2009
+- id: shigero
+  name: SIGERO
+  en: SIGERO
+  credits_key: shigero
+  games:
+  - game: pokepark-wii
+    title: 宝可公园Wii 皮卡丘的大冒险
+    year: 2009
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  - game: pokepark-2
+    title: 宝可公园2 ～Beyond the World～
+    year: 2011
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2009
+  last: 2011
+- id: kawagoe-yasuhiro
+  name: Yasuhiro Kawagoe
+  en: Yasuhiro Kawagoe
+  credits_key: kawagoe yasuhiro
+  games:
+  - game: mystery-dungeon-gates-to-infinity
+    title: 宝可梦不可思议迷宫 极大之门与无限迷宫
+    year: 2012
+    tier: A
+    role: Music composition
+    gen: 99
+    core: false
+  - game: super-mystery-dungeon
+    title: 宝可梦超级不可思议迷宫
+    year: 2015
+    tier: A
+    role: Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2012
+  last: 2015
+- id: hideaki-kuroda
+  name: 黒田英明
+  en: Hideaki Kuroda
+  credits_key: hideaki kuroda
+  games:
+  - game: oras
+    title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+    year: 2014
+    tier: A
+    role: Music
+    gen: 6
+    core: true
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  ja: 黒田英明
+  person: kuroda-hideaki
+  tier: A
+  n: 2
+  first: 2014
+  last: 2016
+- id: kitadani-mitsuhiro
+  name: Mitsuhiro Kitadani
+  en: Mitsuhiro Kitadani
+  credits_key: kitadani mitsuhiro
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2015
+  last: 2017
+- id: hamamoto-rio
+  name: Rio Hamamoto
+  en: Rio Hamamoto
+  credits_key: hamamoto rio
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2015
+  last: 2017
+- id: sato-takafumi
+  name: Takafumi Sato
+  en: Takafumi Sato
+  credits_key: sato takafumi
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2015
+  last: 2017
+- id: inoe-taku
+  name: Taku Inoue
+  en: Taku Inoue
+  credits_key: inoe taku
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2015
+  last: 2017
+- id: torine
+  name: Torine
+  en: Torine
+  credits_key: torine
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2015
+  last: 2017
+- id: sugimoto-yu
+  name: Yu Sugimoto
+  en: Yu Sugimoto
+  credits_key: sugimoto yu
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: A
+    role: Music Compose
+    gen: 99
+    core: false
+  tier: A
+  n: 2
+  first: 2015
+  last: 2017
+- id: fox-toby
+  name: Toby Fox
+  en: Toby Fox
+  credits_key: fox toby
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: fox-toby
+  tier: A
+  n: 2
+  first: 2022
+  last: 2023
+- id: hikino-mitsuhiro
+  name: Mitsuhiro Hikino
+  en: Mitsuhiro Hikino
+  credits_key: hikino mitsuhiro
+  games:
+  - game: stadium-japanese
+    title: 宝可梦竞技场（1998 日版）
+    year: 1998
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  ja: ひきのみつひろ / 疋野光啓
+  tier: A
+  n: 1
+  first: 1998
+  last: 1998
+- id: toshiyuki-ueno
+  name: Toshiyuki Ueno
+  en: Toshiyuki Ueno
+  credits_key: toshiyuki ueno
+  games:
+  - game: picross-gbc
+    title: 宝可梦绘图方块（GBC，未发售）
+    year: 1999
+    tier: A
+    role: Sound Composer
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 1999
+  last: 1999
+- id: brian-steckler
+  name: Brian Steckler
+  en: Brian Steckler
+  credits_key: brian steckler
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: jon-loeffler
+  name: John Loeffler
+  en: John Loeffler
+  credits_key: jon loeffler
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Music Producer
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: jon-shiegler
+  name: John Siegler
+  en: John Siegler
+  credits_key: jon shiegler
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: cumminos-ken
+  name: Ken Cumminos
+  en: Ken Cumminos
+  credits_key: cumminos ken
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: lawrence-schwedler
+  name: Lawrence Schwedler
+  en: Lawrence Schwedler
+  credits_key: lawrence schwedler
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: cortelezji-lois
+  name: Louis Cortelezzi
+  en: Louis Cortelezzi
+  credits_key: cortelezji lois
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: corallo-marry
+  name: Marry Corallo
+  en: Marry Corallo
+  credits_key: corallo marry
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: michael-whalen
+  name: Michael Whalen
+  en: Michael Whalen
+  credits_key: michael whalen
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: jason-neil
+  name: Neil Jason
+  en: Neil Jason
+  credits_key: jason neil
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: ralph-schuckechit
+  name: Ralph Schucketit
+  en: Ralph Schucketit
+  credits_key: ralph schuckechit
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: A
+    role: Original Musical Score
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2000
+  last: 2000
+- id: ayumi-sano
+  name: Ayumi Sano
+  en: Ayumi Sano
+  credits_key: ayumi sano
+  games:
+  - game: pinball-ruby-sapphire
+    title: 宝可梦弹珠台 红宝石·蓝宝石
+    year: 2003
+    tier: A
+    role: Sound Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2003
+  last: 2003
+- id: hirokazu-tanaka
+  name: 田中宏和
+  en: Hirokazu Tanaka
+  credits_key: hirokazu tanaka
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: A
+    role: Composed By · Music Producer
+    gen: 99
+    core: false
+  ja: 田中宏和
+  person: tanaka-hirokazu
+  avatar: /assets/img/people/tanaka-hirokazu.jpg
+  tier: A
+  n: 1
+  first: 2003
+  last: 2003
+- id: jun-umebori
+  name: Jun Umebori
+  en: Jun Umebori
+  credits_key: jun umebori
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2003
+  last: 2003
+- id: kazuya-suyama
+  name: Kazuya Suyama
+  en: Kazuya Suyama
+  credits_key: kazuya suyama
+  games:
+  - game: pinball-ruby-sapphire
+    title: 宝可梦弹珠台 红宝石·蓝宝石
+    year: 2003
+    tier: A
+    role: Sound Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2003
+  last: 2003
+- id: asakawa-toru
+  name: Toru Asakawa
+  en: Toru Asakawa
+  credits_key: asakawa toru
+  games:
+  - game: box
+    title: 宝可梦盒子 红宝石·蓝宝石
+    year: 2003
+    tier: A
+    role: Sound Arrangement
+    gen: 3
+    core: true
+  tier: A
+  n: 1
+  first: 2003
+  last: 2003
+- id: david-earl
+  name: David Earl
+  en: David Earl
+  credits_key: david earl
+  games:
+  - game: masters-arena
+    title: 宝可梦大师竞技场
+    year: 2004
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2004
+  last: 2004
+- id: nakamura-ryoma
+  name: Ryoma Nakamura
+  en: Ryoma Nakamura
+  credits_key: nakamura ryoma
+  games:
+  - game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+    title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+    year: 2007
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2007
+  last: 2007
+- id: nohara-satoshi
+  name: 野原悟史
+  en: Satoshi Nohara
+  credits_key: nohara satoshi
+  games:
+  - game: platinum
+    title: 宝可梦 白金
+    year: 2008
+    tier: A
+    role: Music Composition
+    gen: 4
+    core: true
+  ja: 野原悟史
+  person: nohara-satoshi
+  tier: A
+  n: 1
+  first: 2008
+  last: 2008
+- id: kiyota-manami
+  name: Manami Kiyota
+  en: Manami Kiyota
+  credits_key: kiyota manami
+  games:
+  - game: pokepark-wii
+    title: 宝可公园Wii 皮卡丘的大冒险
+    year: 2009
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2009
+  last: 2009
+- id: maeda-yoshihiro
+  name: Yoshihiro Maeda
+  en: Yoshihiro Maeda
+  credits_key: maeda yoshihiro
+  games:
+  - game: mystery-dungeon-explorers-of-sky
+    title: 宝可梦不可思议迷宫 空之探险队
+    year: 2009
+    tier: A
+    role: Composition & SE
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2009
+  last: 2009
+- id: keisuke-oku
+  name: Keisuke Oku
+  en: Keisuke Oku
+  credits_key: keisuke oku
+  games:
+  - game: ranger-guardian-signs
+    title: 宝可梦巡护员 光的轨迹
+    year: 2010
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2010
+  last: 2010
+- id: shigero-yoshida
+  name: Shigerou Yoshida
+  en: Shigerou Yoshida
+  credits_key: shigero yoshida
+  games:
+  - game: ranger-guardian-signs
+    title: 宝可梦巡护员 光的轨迹
+    year: 2010
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2010
+  last: 2010
+- id: azusa-chiba
+  name: Azusa Chiba
+  en: Azusa Chiba
+  credits_key: azusa chiba
+  games:
+  - game: learn-with-pokemon-typing-adventure
+    title: 宝可梦打字DS
+    year: 2011
+    tier: A
+    role: Music Director · Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2011
+  last: 2011
+- id: abe-kimihiro
+  name: Kimihiro Abe
+  en: Kimihiro Abe
+  credits_key: abe kimihiro
+  games:
+  - game: learn-with-pokemon-typing-adventure
+    title: 宝可梦打字DS
+    year: 2011
+    tier: A
+    role: Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2011
+  last: 2011
+- id: kiyoto-otani
+  name: Kiyoto Ohtani
+  en: Kiyoto Ohtani
+  credits_key: kiyoto otani
+  games:
+  - game: learn-with-pokemon-typing-adventure
+    title: 宝可梦打字DS
+    year: 2011
+    tier: A
+    role: Voice CompositionJP
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2011
+  last: 2011
+- id: iwata-masaharu
+  name: Masaharu Iwata
+  en: Masaharu Iwata
+  credits_key: iwata masaharu
+  games:
+  - game: learn-with-pokemon-typing-adventure
+    title: 宝可梦打字DS
+    year: 2011
+    tier: A
+    role: Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2011
+  last: 2011
+- id: masaru-tajima
+  name: Masaru Tajima
+  en: Masaru Tajima
+  credits_key: masaru tajima
+  games:
+  - game: art-academy
+    title: 宝可梦美术学院
+    year: 2014
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2014
+  last: 2014
+- id: hiroyuki-kawada
+  name: Hiroyuki Kawada
+  en: Hiroyuki Kawada
+  credits_key: hiroyuki kawada
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2015
+  last: 2015
+- id: jesahm
+  name: Jesahm
+  en: Jesahm
+  credits_key: jesahm
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: B
+    role: Flute, Fretless Bass, Gut Guitar
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: B
+    role: Flute, Fretless Bass, Gut Guitar
+    gen: 99
+    core: false
+  - game: new-pokemon-snap
+    title: New 宝可梦随乐拍
+    year: 2021
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2015
+  last: 2021
+- id: murakami-noriko
+  name: Noriko Murakami
+  en: Noriko Murakami
+  credits_key: murakami noriko
+  games:
+  - game: super-mystery-dungeon
+    title: 宝可梦超级不可思议迷宫
+    year: 2015
+    tier: A
+    role: Music Composition
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2015
+  last: 2015
+- id: oga-tomoaki
+  name: 大賀智章
+  en: Tomoaki Oga
+  credits_key: oga tomoaki
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: A
+    role: Music
+    gen: 7
+    core: true
+  - game: usum
+    title: 宝可梦 究极之日·究极之月
+    year: 2017
+    tier: B
+    role: Guitar
+    gen: 7
+    core: true
+  ja: 大賀智章
+  person: oga-tomoaki
+  tier: A
+  n: 1
+  first: 2016
+  last: 2017
+- id: junichi-nakatsuru
+  name: Junichi Nakatsuru
+  en: Junichi Nakatsuru
+  credits_key: junichi nakatsuru
+  games:
+  - game: new-pokemon-snap
+    title: New 宝可梦随乐拍
+    year: 2021
+    tier: A
+    role: Music Composers
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2021
+  last: 2021
+- id: lindaaicue
+  name: 石川哲彦
+  en: LindaAI-CUE
+  credits_key: lindaaicue
+  games:
+  - game: new-pokemon-snap
+    title: New 宝可梦随乐拍
+    year: 2021
+    tier: A
+    role: Sound Design & Music Composers
+    gen: 99
+    core: false
+  ja: 石川哲彦
+  tier: A
+  n: 1
+  first: 2021
+  last: 2021
+- id: taniguchi-teruo
+  name: 谷口輝雄
+  en: Teruo Taniguchi
+  credits_key: taniguchi teruo
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  ja: 谷口輝雄
+  person: taniguchi-teruo
+  tier: A
+  n: 1
+  first: 2022
+  last: 2022
+- id: habuka-yuri
+  name: Yuri Habuka
+  en: Yuri Habuka
+  credits_key: habuka yuri
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: A
+    role: Main Theme Arrangement
+    gen: 9
+    core: true
+  person: habuka-yuri
+  tier: A
+  n: 1
+  first: 2022
+  last: 2022
+- id: haruka-soeda
+  name: 添田悠
+  en: Haruka Soeda
+  credits_key: haruka soeda
+  games:
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: soeda-haruka
+  tier: A
+  n: 1
+  first: 2023
+  last: 2023
+- id: murayama-rei
+  name: Rei Murayama
+  en: Rei Murayama
+  credits_key: murayama rei
+  games:
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: murayama-rei
+  tier: A
+  n: 1
+  first: 2023
+  last: 2023
+- id: haruna-moriya
+  name: Haruna Moriya
+  en: Haruna Moriya
+  credits_key: haruna moriya
+  games:
+  - game: trading-card-game-pocket
+    title: 宝可梦集换式卡牌游戏 Pocket
+    year: 2024
+    tier: A
+    role: Music
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2024
+  last: 2024
+- id: dattxua
+  name: dattxua
+  en: dattxua
+  credits_key: dattxua
+  games:
+  - game: trading-card-game-pocket
+    title: 宝可梦集换式卡牌游戏 Pocket
+    year: 2024
+    tier: A
+    role: Composer/Sound Designer
+    gen: 99
+    core: false
+  tier: A
+  n: 1
+  first: 2024
+  last: 2024
+- id: ayako-saso
+  name: 佐宗綾子
+  en: Ayako Saso
+  credits_key: ayako saso
+  games:
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: saso-ayako
+  tier: A
+  n: 1
+  first: 2025
+  last: 2025
+- id: carlos-eiene
+  name: Carlos Eiene
+  en: Carlos Eiene
+  credits_key: carlos eiene
+  games:
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: eiene-carlos
+  tier: A
+  n: 1
+  first: 2025
+  last: 2025
+- id: hosoe-shinji
+  name: 細江慎治
+  en: Shinji Hosoe
+  credits_key: hosoe shinji
+  games:
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: hosoe-shinji
+  tier: A
+  n: 1
+  first: 2025
+  last: 2025
+- id: eguchi-takahiro
+  name: 江口孝宏
+  en: Takahiro Eguchi
+  credits_key: eguchi takahiro
+  games:
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: A
+    role: Composers
+    gen: 9
+    core: true
+  person: eguchi-takahiro
+  tier: A
+  n: 1
+  first: 2025
+  last: 2025
+- id: akaba-hiromu
+  name: Hiromu Akaba
+  en: Hiromu Akaba
+  credits_key: akaba hiromu
+  games:
+  - game: pokopia
+    title: Pokémon Pokopia
+    year: 2026
+    tier: A
+    role: Sound Director & Composer
+    gen: 9
+    core: true
+  tier: A
+  n: 1
+  first: 2026
+  last: 2026
+- id: jieun-kim
+  name: Jieun Kim
+  en: Jieun Kim
+  credits_key: jieun kim
+  games:
+  - game: pokopia
+    title: Pokémon Pokopia
+    year: 2026
+    tier: A
+    role: Sound Design & Composer
+    gen: 9
+    core: true
+  tier: A
+  n: 1
+  first: 2026
+  last: 2026
+others:
+- id: watanabe-yoshiyuki
+  name: Yoshiyuki Watanabe
+  en: Yoshiyuki Watanabe
+  credits_key: watanabe yoshiyuki
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: B
+    role: Mastering Engineer
+    gen: 99
+    core: false
+  - game: duel
+    title: 宝可梦战棋大师
+    year: 2016
+    tier: B
+    role: Mixing Engineer
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: B
+    role: Mastering Engineering
+    gen: 99
+    core: false
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    tier: B
+    role: Mixing Engineer
+    gen: 7
+    core: true
+  - game: bdsp
+    title: 宝可梦 晶灿钻石·明亮珍珠
+    year: 2021
+    tier: B
+    role: Mixing Engineer
+    gen: 8
+    core: true
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: B
+    role: ”Kiseki” Sound Recording Engineer
+    gen: 9
+    core: true
+  tier: B
+  n: 6
+  first: 2015
+  last: 2025
+- id: hiroaki-tsutsumi
+  name: Hiroaki Tsutsumi
+  en: Hiroaki Tsutsumi
+  credits_key: hiroaki tsutsumi
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: B
+    role: Acoustic & Electric Guitar, Mandolin
+    gen: 99
+    core: false
+  - game: duel
+    title: 宝可梦战棋大师
+    year: 2016
+    tier: B
+    role: Acoustic & Electric Guitar Player
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: B
+    role: Acoustic & Electric Guitar, Mandolin
+    gen: 99
+    core: false
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    tier: B
+    role: Guitar
+    gen: 7
+    core: true
+  - game: bdsp
+    title: 宝可梦 晶灿钻石·明亮珍珠
+    year: 2021
+    tier: B
+    role: Guitar
+    gen: 8
+    core: true
+  tier: B
+  n: 5
+  first: 2015
+  last: 2021
+- id: komatsu-tetsuya
+  name: Tetsuya Komatsu
+  en: Tetsuya Komatsu
+  credits_key: komatsu tetsuya
+  games:
+  - game: trading-card-game
+    title: 宝可梦卡牌GB
+    year: 1998
+    tier: B
+    role: Mastering
+    gen: 99
+    core: false
+  - game: trading-card-game-2-the-invasion-of-team-gr
+    title: 宝可梦卡牌GB2 GR团登场！
+    year: 2001
+    tier: B
+    role: Mastering
+    gen: 99
+    core: false
+  tier: B
+  n: 2
+  first: 1998
+  last: 2001
+- id: masafumi-mima
+  name: 三間雅文
+  en: Masafumi Mima
+  credits_key: masafumi mima
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Sound Recording Director
+    gen: 99
+    core: false
+  - game: detective-pikachu-birth-of-a-new-duo
+    title: 名侦探皮卡丘 ～新搭档诞生～
+    year: 2016
+    tier: B
+    role: Sound Recording Director
+    gen: 99
+    core: false
+  ja: 三間雅文
+  person: mima-masafumi
+  tier: B
+  n: 2
+  first: 2003
+  last: 2016
+- id: ito-yuma
+  name: Yuma Ito
+  en: Yuma Ito
+  credits_key: ito yuma
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: B
+    role: Violin
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: B
+    role: Violin
+    gen: 99
+    core: false
+  tier: B
+  n: 2
+  first: 2015
+  last: 2017
+- id: sukei
+  name: su-kei
+  en: su-kei
+  credits_key: sukei
+  games:
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    tier: B
+    role: Mastering Engineer
+    gen: 99
+    core: false
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    tier: B
+    role: Mastering Engineering
+    gen: 99
+    core: false
+  tier: B
+  n: 2
+  first: 2015
+  last: 2017
+- id: fujio-yamada
+  name: Fujio Yamada
+  en: Fujio Yamada
+  credits_key: fujio yamada
+  games:
+  - game: detective-pikachu
+    title: 名侦探皮卡丘
+    year: 2016
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  - game: detective-pikachu-birth-of-a-new-duo
+    title: 名侦探皮卡丘 ～新搭档诞生～
+    year: 2016
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 2
+  first: 2016
+  last: 2016
+- id: takahiro-uchida
+  name: Takahiro Uchida
+  en: Takahiro Uchida
+  credits_key: takahiro uchida
+  games:
+  - game: duel
+    title: 宝可梦战棋大师
+    year: 2016
+    tier: B
+    role: Mastering Engineer
+    gen: 99
+    core: false
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    tier: B
+    role: Mastering Engineer
+    gen: 7
+    core: true
+  tier: B
+  n: 2
+  first: 2016
+  last: 2018
+- id: oshima-takahiro
+  name: Takahiro Oshima
+  en: Takahiro Oshima
+  credits_key: oshima takahiro
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Recording & Mixing & Mastering
+    gen: 8
+    core: true
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: B
+    role: Music Recording Engineer
+    gen: 9
+    core: true
+  tier: B
+  n: 2
+  first: 2019
+  last: 2022
+- id: celestial
+  name: Celestial
+  en: Celestial
+  credits_key: celestial
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: B
+    role: Ending Theme
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: B
+    role: Ending Theme
+    gen: 9
+    core: true
+  tier: B
+  n: 2
+  first: 2022
+  last: 2023
+- id: ed-sheeran
+  name: Ed Sheeran
+  en: Ed Sheeran
+  credits_key: ed sheeran
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: B
+    role: Ending Theme
+    gen: 9
+    core: true
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    tier: B
+    role: Ending Theme
+    gen: 9
+    core: true
+  tier: B
+  n: 2
+  first: 2022
+  last: 2023
+- id: mori-sorao
+  name: Sorao Mori
+  en: Sorao Mori
+  credits_key: mori sorao
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: B
+    role: Musicians
+    gen: 9
+    core: true
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: B
+    role: Musicians
+    gen: 9
+    core: true
+  tier: B
+  n: 2
+  first: 2022
+  last: 2025
+- id: julian-schwars
+  name: Julian Schwars
+  en: Julian Schwars
+  credits_key: julian schwars
+  games:
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    tier: B
+    role: Music Production Coordinator
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2000
+  last: 2000
+- id: hoshi-keita
+  name: 星恵太
+  en: Keita Hoshi
+  credits_key: hoshi keita
+  games:
+  - game: trading-card-game-2-the-invasion-of-team-gr
+    title: 宝可梦卡牌GB2 GR团登场！
+    year: 2001
+    tier: B
+    role: Music Programmer
+    gen: 99
+    core: false
+  ja: 星恵太
+  tier: B
+  n: 1
+  first: 2001
+  last: 2001
+- id: akiko-nakamura
+  name: Akiko Nakamura
+  en: Akiko Nakamura
+  credits_key: akiko nakamura
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: catherine-conet
+  name: Catherine Conet
+  en: Catherine Conet
+  credits_key: catherine conet
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: French Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: conny-k-kinnen-rickie
+  name: Conny K. / Rickie kinnen
+  en: Conny K. / Rickie kinnen
+  credits_key: conny k kinnen rickie
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: German Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: blandino-daniele
+  name: Daniele Blandino
+  en: Daniele Blandino
+  credits_key: blandino daniele
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Italian Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: di-ecco-lorenzo
+  name: Ecco di Lorenzo
+  en: Ecco di Lorenzo
+  credits_key: di ecco lorenzo
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: German Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: acktsun-gerhard
+  name: Gerhard Acktun
+  en: Gerhard Acktun
+  credits_key: acktsun gerhard
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: German Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: calvetchi-giuseppe
+  name: Giuseppe Calvetti
+  en: Giuseppe Calvetti
+  credits_key: calvetchi giuseppe
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Italian Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: escobosa-jose
+  name: José Escobosa
+  en: José Escobosa
+  credits_key: escobosa jose
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Spanish Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: bodega-luisa
+  name: Luisa Bodega
+  en: Luisa Bodega
+  credits_key: bodega luisa
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Spanish Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: blaustein-maddie
+  name: Maddie Blaustein
+  en: Maddie Blaustein
+  credits_key: blaustein maddie
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: English Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: casachi-marco
+  name: Marco Casati
+  en: Marco Casati
+  credits_key: casachi marco
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Italian Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: leurini-marco
+  name: Marco Leurini
+  en: Marco Leurini
+  credits_key: leurini marco
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Italian Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: michiyoshi-minamisawa
+  name: Michiyoshi Minamisawa
+  en: Michiyoshi Minamisawa
+  credits_key: michiyoshi minamisawa
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Sound Recording Producer
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: guetat-nesshm
+  name: Nessym Guetat
+  en: Nessym Guetat
+  credits_key: guetat nesshm
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: French Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: peter-thom
+  name: Peter Thom
+  en: Peter Thom
+  credits_key: peter thom
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: English Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: bodson-pierre
+  name: Pierre Bodson
+  en: Pierre Bodson
+  credits_key: bodson pierre
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: French Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: lillis-rachael
+  name: Rachael Lillis
+  en: Rachael Lillis
+  credits_key: lillis rachael
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: English Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: nashimoto-ryoko
+  name: Ryoko Nashimoto
+  en: Ryoko Nashimoto
+  credits_key: nashimoto ryoko
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: clerici-serena
+  name: Serena Clerici
+  en: Serena Clerici
+  credits_key: clerici serena
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Italian Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: bodega-victoria
+  name: Victoria Bodega
+  en: Victoria Bodega
+  credits_key: bodega victoria
+  games:
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    tier: B
+    role: Spanish Vocals By
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2003
+  last: 2003
+- id: hitoshi-sakimoto
+  name: Hitoshi Sakimoto
+  en: Hitoshi Sakimoto
+  credits_key: hitoshi sakimoto
+  games:
+  - game: learn-with-pokemon-typing-adventure
+    title: 宝可梦打字DS
+    year: 2011
+    tier: B
+    role: Music Supervisor
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2011
+  last: 2011
+- id: kyotaro
+  name: KYOtaro
+  en: KYOtaro
+  credits_key: kyotaro
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: B
+    role: Vocal Recording
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2016
+  last: 2016
+- id: lisa-oki
+  name: Lisa Ooki
+  en: Lisa Ooki
+  credits_key: lisa oki
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: B
+    role: Vocal Recording
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2016
+  last: 2016
+- id: masayuki-okazaki
+  name: Masayuki Okazaki
+  en: Masayuki Okazaki
+  credits_key: masayuki okazaki
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: B
+    role: Vocal Recording
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2016
+  last: 2016
+- id: fuga-naoto
+  name: Naoto Fuga
+  en: Naoto Fuga
+  credits_key: fuga naoto
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: B
+    role: Vocal Recording
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2016
+  last: 2016
+- id: uchida-yoshinori
+  name: Yoshinori Uchida
+  en: Yoshinori Uchida
+  credits_key: uchida yoshinori
+  games:
+  - game: duel
+    title: 宝可梦战棋大师
+    year: 2016
+    tier: B
+    role: Acoustic & Electric Bass Player
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2016
+  last: 2016
+- id: uchida-yu
+  name: Yuu Uchida
+  en: Yuu Uchida
+  credits_key: uchida yu
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    tier: B
+    role: Vocal Recording
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2016
+  last: 2016
+- id: ichitani-keitaro
+  name: Keitaro Ichitani
+  en: Keitaro Ichitani
+  credits_key: ichitani keitaro
+  games:
+  - game: usum
+    title: 宝可梦 究极之日·究极之月
+    year: 2017
+    tier: B
+    role: Bass Trombone
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2017
+  last: 2017
+- id: kon-shirasu
+  name: Kon Shirasu
+  en: Kon Shirasu
+  credits_key: kon shirasu
+  games:
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    tier: B
+    role: Violin
+    gen: 7
+    core: true
+  tier: B
+  n: 1
+  first: 2018
+  last: 2018
+- id: chiemi-monguchi
+  name: Chiemi Monguchi
+  en: Chiemi Monguchi
+  credits_key: chiemi monguchi
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: daisuke-miyazaki
+  name: Daisuke Miyazaki
+  en: Daisuke Miyazaki
+  credits_key: daisuke miyazaki
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: anazawa-guts-hironori
+  name: Hironori "Guts" Anazawa
+  en: Hironori "Guts" Anazawa
+  credits_key: anazawa guts hironori
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Music Preparation
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: hirotake-homma
+  name: Hirotake Homma
+  en: Hirotake Homma
+  credits_key: hirotake homma
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: kano-kenichi
+  name: Ken-ichi Kanou
+  en: Ken-ichi Kanou
+  credits_key: kano kenichi
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: kuroda-masao
+  name: Masao Kuroda
+  en: Masao Kuroda
+  credits_key: kuroda masao
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: asaoka-shu
+  name: Shu Asaoka
+  en: Shu Asaoka
+  credits_key: asaoka shu
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: shunsuke-takeuchi
+  name: Shunsuke Takeuchi
+  en: Shunsuke Takeuchi
+  credits_key: shunsuke takeuchi
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: gosha-yoshiaki
+  name: Yoshiaki Gosha
+  en: Yoshiaki Gosha
+  credits_key: gosha yoshiaki
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: kiyono-yoshito
+  name: Yoshito Kiyono
+  en: Yoshito Kiyono
+  credits_key: kiyono yoshito
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: sugiyama-yuki
+  name: Yuki Sugiyama
+  en: Yuki Sugiyama
+  credits_key: sugiyama yuki
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    tier: B
+    role: Musician
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2019
+  last: 2019
+- id: shncstudio
+  name: Syncstudio
+  en: Syncstudio
+  credits_key: shncstudio
+  games:
+  - game: bdsp
+    title: 宝可梦 晶灿钻石·明亮珍珠
+    year: 2021
+    tier: B
+    role: Mixing Engineer
+    gen: 8
+    core: true
+  tier: B
+  n: 1
+  first: 2021
+  last: 2021
+- id: fujita-junnosuke
+  name: Junnosuke Fujita
+  en: Junnosuke Fujita
+  credits_key: fujita junnosuke
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: B
+    role: Musicians
+    gen: 9
+    core: true
+  tier: B
+  n: 1
+  first: 2022
+  last: 2022
+- id: shunsuke-tanaka
+  name: Shunsuke Tanaka
+  en: Shunsuke Tanaka
+  credits_key: shunsuke tanaka
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    tier: B
+    role: Main Theme Recording Engineer
+    gen: 9
+    core: true
+  person: tanaka-shunsuke
+  tier: B
+  n: 1
+  first: 2022
+  last: 2022
+- id: fuji-yamada
+  name: Fuji Yamada
+  en: Fuji Yamada
+  credits_key: fuji yamada
+  games:
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2023
+  last: 2023
+- id: hachisuka-hideyuki
+  name: Hideyuki Hachisuka
+  en: Hideyuki Hachisuka
+  credits_key: hachisuka hideyuki
+  games:
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2023
+  last: 2023
+- id: ninomiya-sayaka
+  name: Sayaka Ninomiya
+  en: Sayaka Ninomiya
+  credits_key: ninomiya sayaka
+  games:
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2023
+  last: 2023
+- id: kuriyama-wakaba
+  name: Wakaba Kuriyama
+  en: Wakaba Kuriyama
+  credits_key: kuriyama wakaba
+  games:
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2023
+  last: 2023
+- id: tagami-yuji
+  name: Yuji Tagami
+  en: Yuji Tagami
+  credits_key: tagami yuji
+  games:
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    tier: B
+    role: Sound Recording
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2023
+  last: 2023
+- id: nakajima-yas
+  name: yas nakajima
+  en: yas nakajima
+  credits_key: nakajima yas
+  games:
+  - game: sleep
+    title: Pokémon Sleep
+    year: 2023
+    tier: B
+    role: Musician
+    gen: 99
+    core: false
+  tier: B
+  n: 1
+  first: 2023
+  last: 2023
+- id: nakajima-yasu
+  name: Yasu Nakajima
+  en: Yasu Nakajima
+  credits_key: nakajima yasu
+  games:
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    tier: B
+    role: Musicians
+    gen: 9
+    core: true
+  tier: B
+  n: 1
+  first: 2025
+  last: 2025
+- id: saki-shimura
+  name: Saki Shimura
+  en: Saki Shimura
+  credits_key: saki shimura
+  games:
+  - game: pokopia
+    title: Pokémon Pokopia
+    year: 2026
+    tier: B
+    role: Flute, Recorder
+    gen: 9
+    core: true
+  tier: B
+  n: 1
+  first: 2026
+  last: 2026
+- id: umemura-yugen
+  name: Yugen Umemura
+  en: Yugen Umemura
+  credits_key: umemura yugen
+  games:
+  - game: pokopia
+    title: Pokémon Pokopia
+    year: 2026
+    tier: B
+    role: Guitar, Mandolin
+    gen: 9
+    core: true
+  tier: B
+  n: 1
+  first: 2026
+  last: 2026
+by_game:
+- gen: 1
+  label: 第一世代
+  games:
+  - game: blue-jp
+    title: 宝可梦 蓝
+    year: 1996
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    musicians: []
+  - game: red-green
+    title: 宝可梦 红·绿
+    year: 1996
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    musicians: []
+  - game: red-blue
+    title: 宝可梦 红·蓝（海外版）
+    year: 1998
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    musicians: []
+  - game: yellow
+    title: 宝可梦 皮卡丘版
+    year: 1998
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    musicians: []
+- gen: 2
+  label: 第二世代
+  games:
+  - game: gold-silver
+    title: 宝可梦 金·银
+    year: 1999
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music
+    musicians: []
+  - game: crystal
+    title: 宝可梦 水晶版
+    year: 2000
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music
+    - name: 青木森一
+      person: aoki-morikazu
+      role: Music
+    musicians: []
+- gen: 3
+  label: 第三世代
+  games:
+  - game: ruby-sapphire
+    title: 宝可梦 红宝石·蓝宝石
+    year: 2002
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music Composition
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music Composition
+    - name: 青木森一
+      person: aoki-morikazu
+      role: Music Composition
+    musicians: []
+  - game: box
+    title: 宝可梦盒子 红宝石·蓝宝石
+    year: 2003
+    composers:
+    - name: Kenta Nagata
+      person: ''
+      role: Sound Arrangement
+    - name: Toru Asakawa
+      person: ''
+      role: Sound Arrangement
+    musicians: []
+  - game: emerald
+    title: 宝可梦 绿宝石
+    year: 2004
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music Composition
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music Composition
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music Composition
+    - name: 青木森一
+      person: aoki-morikazu
+      role: Music Composition
+    musicians: []
+  - game: firered-leafgreen
+    title: 宝可梦 火红·叶绿
+    year: 2004
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music Composition
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music Composition
+    musicians: []
+- gen: 4
+  label: 第四世代
+  games:
+  - game: diamond-pearl
+    title: 宝可梦 钻石·珍珠
+    year: 2006
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music Composition
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music Composition
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music Leader
+    musicians: []
+  - game: platinum
+    title: 宝可梦 白金
+    year: 2008
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music Composition
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music Composition
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music Composition
+    - name: 野原悟史
+      person: nohara-satoshi
+      role: Music Composition
+    musicians: []
+  - game: heartgold-soulsilver
+    title: 宝可梦 心金·魂银
+    year: 2009
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music Composition
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music Composition
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music Leader · Music Composition
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music Composition
+    - name: 橘田拓人
+      person: kitsuta-takuto
+      role: Music Composition
+    musicians: []
+- gen: 5
+  label: 第五世代
+  games:
+  - game: black-white
+    title: 宝可梦 黑·白
+    year: 2010
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music · All Battle Music
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music · Music--Bicycle, Poké Transfer Lab, Lacunosa Town, and More
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music · Music--Opelucid City, Anville Town, Village Bridge, and More
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Music
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music · Music--Entralink, Route 10, Ending Theme, and More
+    musicians: []
+  - game: black2-white2
+    title: 宝可梦 黑2·白2
+    year: 2012
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Pokémon Black and White Version Music
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music · Music--Route 19, Join Avenue and more music
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music · Music--Humilau City, Route 23 and more music
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Pokémon Black and White Version Music
+    - name: 景山将太
+      person: kageyama-shota
+      role: Pokémon Black and White Version Music
+    musicians: []
+- gen: 6
+  label: 第六世代
+  games:
+  - game: x-y
+    title: 宝可梦 X·Y
+    year: 2013
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Music
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music
+    musicians: []
+  - game: oras
+    title: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+    year: 2014
+    composers:
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Music
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music
+    - name: 黒田英明
+      person: kuroda-hideaki
+      role: Music
+    musicians: []
+- gen: 7
+  label: 第七世代
+  games:
+  - game: sun-moon
+    title: 宝可梦 太阳·月亮
+    year: 2016
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Music
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Music
+    - name: 黒田英明
+      person: kuroda-hideaki
+      role: Music
+    - name: 大賀智章
+      person: oga-tomoaki
+      role: Music
+    musicians:
+    - name: KYOtaro
+      person: ''
+      role: Vocal Recording
+    - name: Lisa Ooki
+      person: ''
+      role: Vocal Recording
+    - name: Masayuki Okazaki
+      person: ''
+      role: Vocal Recording
+    - name: Naoto Fuga
+      person: ''
+      role: Vocal Recording
+    - name: Yuu Uchida
+      person: ''
+      role: Vocal Recording
+  - game: usum
+    title: 宝可梦 究极之日·究极之月
+    year: 2017
+    composers: []
+    musicians:
+    - name: 大賀智章
+      person: oga-tomoaki
+      role: Guitar
+    - name: Keitaro Ichitani
+      person: ''
+      role: Bass Trombone
+  - game: lets-go
+    title: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+    year: 2018
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Original Music
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music
+    musicians:
+    - name: Yoshiyuki Watanabe
+      person: ''
+      role: Mixing Engineer
+    - name: Hiroaki Tsutsumi
+      person: ''
+      role: Guitar
+    - name: Takahiro Uchida
+      person: ''
+      role: Mastering Engineer
+    - name: Kon Shirasu
+      person: ''
+      role: Violin
+- gen: 8
+  label: 第八世代
+  games:
+  - game: sword-shield
+    title: 宝可梦 剑·盾
+    year: 2019
+    composers: []
+    musicians:
+    - name: Takahiro Oshima
+      person: ''
+      role: Recording & Mixing & Mastering
+    - name: Hironori "Guts" Anazawa
+      person: ''
+      role: Music Preparation
+    - name: Chiemi Monguchi
+      person: ''
+      role: Musician
+    - name: Daisuke Miyazaki
+      person: ''
+      role: Musician
+    - name: Hirotake Homma
+      person: ''
+      role: Musician
+    - name: Ken-ichi Kanou
+      person: ''
+      role: Musician
+    - name: Masao Kuroda
+      person: ''
+      role: Musician
+    - name: Shu Asaoka
+      person: ''
+      role: Musician
+    - name: Shunsuke Takeuchi
+      person: ''
+      role: Musician
+    - name: Yoshiaki Gosha
+      person: ''
+      role: Musician
+    - name: Yoshito Kiyono
+      person: ''
+      role: Musician
+    - name: Yuki Sugiyama
+      person: ''
+      role: Musician
+  - game: bdsp
+    title: 宝可梦 晶灿钻石·明亮珍珠
+    year: 2021
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Music
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music
+    musicians:
+    - name: Yoshiyuki Watanabe
+      person: ''
+      role: Mixing Engineer
+    - name: Hiroaki Tsutsumi
+      person: ''
+      role: Guitar
+    - name: Syncstudio
+      person: ''
+      role: Mixing Engineer
+  - game: legends-arceus
+    title: 宝可梦传说 阿尔宙斯
+    year: 2022
+    composers:
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Composers
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Composers
+    - name: 前馬宏充
+      person: maeba-hiromitsu
+      role: Composers
+    musicians: []
+- gen: 9
+  label: 第九世代
+  games:
+  - game: scarlet-violet
+    title: 宝可梦 朱·紫
+    year: 2022
+    composers:
+    - name: 增田顺一
+      person: masuda-junichi
+      role: Composers
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Composers
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Composers
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Composers
+    - name: 谷口輝雄
+      person: taniguchi-teruo
+      role: Composers
+    - name: 前馬宏充
+      person: maeba-hiromitsu
+      role: Composers
+    - name: Toby Fox
+      person: fox-toby
+      role: Composers
+    - name: Yuri Habuka
+      person: habuka-yuri
+      role: Main Theme Arrangement
+    musicians:
+    - name: Takahiro Oshima
+      person: ''
+      role: Music Recording Engineer
+    - name: Celestial
+      person: ''
+      role: Ending Theme
+    - name: Sorao Mori
+      person: ''
+      role: Musicians
+    - name: Ed Sheeran
+      person: ''
+      role: Ending Theme
+    - name: Junnosuke Fujita
+      person: ''
+      role: Musicians
+    - name: Shunsuke Tanaka
+      person: tanaka-shunsuke
+      role: Main Theme Recording Engineer
+  - game: area-zero
+    title: 宝可梦 朱·紫 零之秘宝
+    year: 2023
+    composers:
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Composers
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Composers
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Composers
+    - name: Rei Murayama
+      person: murayama-rei
+      role: Composers
+    - name: 前馬宏充
+      person: maeba-hiromitsu
+      role: Composers
+    - name: Toby Fox
+      person: fox-toby
+      role: Composers
+    - name: 添田悠
+      person: soeda-haruka
+      role: Composers
+    musicians:
+    - name: Celestial
+      person: ''
+      role: Ending Theme
+    - name: Ed Sheeran
+      person: ''
+      role: Ending Theme
+  - game: legends-za
+    title: Pokémon LEGENDS Z-A
+    year: 2025
+    composers:
+    - name: 佐藤仁美
+      person: sato-hitomi
+      role: Composers
+    - name: 足立美奈子
+      person: adachi-minako
+      role: Composers
+    - name: 景山将太
+      person: kageyama-shota
+      role: Composers
+    - name: 前馬宏充
+      person: maeba-hiromitsu
+      role: Composers
+    - name: 細江慎治
+      person: hosoe-shinji
+      role: Composers
+    - name: 江口孝宏
+      person: eguchi-takahiro
+      role: Composers
+    - name: 佐宗綾子
+      person: saso-ayako
+      role: Composers
+    - name: Carlos Eiene
+      person: eiene-carlos
+      role: Composers
+    musicians:
+    - name: Yoshiyuki Watanabe
+      person: ''
+      role: ”Kiseki” Sound Recording Engineer
+    - name: Sorao Mori
+      person: ''
+      role: Musicians
+    - name: Yasu Nakajima
+      person: ''
+      role: Musicians
+  - game: pokopia
+    title: Pokémon Pokopia
+    year: 2026
+    composers:
+    - name: Hiromu Akaba
+      person: ''
+      role: Sound Director & Composer
+    - name: Jieun Kim
+      person: ''
+      role: Sound Design & Composer
+    musicians:
+    - name: Saki Shimura
+      person: ''
+      role: Flute, Recorder
+    - name: Yugen Umemura
+      person: ''
+      role: Guitar, Mandolin
+- gen: 99
+  label: 外传与其他
+  games:
+  - game: stadium-japanese
+    title: 宝可梦竞技场（1998 日版）
+    year: 1998
+    composers:
+    - name: Kenta Nagata
+      person: ''
+      role: Music
+    - name: Mitsuhiro Hikino
+      person: ''
+      role: Music
+    musicians: []
+  - game: trading-card-game
+    title: 宝可梦卡牌GB
+    year: 1998
+    composers:
+    - name: 嶋倉一朗
+      person: ''
+      role: Music
+    musicians:
+    - name: Tetsuya Komatsu
+      person: ''
+      role: Mastering
+  - game: picross-gbc
+    title: 宝可梦绘图方块（GBC，未发售）
+    year: 1999
+    composers:
+    - name: Toshiyuki Ueno
+      person: ''
+      role: Sound Composer
+    musicians: []
+  - game: pinball
+    title: 宝可梦弹珠台
+    year: 1999
+    composers:
+    - name: 一之濑刚
+      person: ichinose-go
+      role: Music
+    musicians: []
+  - game: stadium
+    title: 宝可梦竞技场
+    year: 1999
+    composers:
+    - name: Kenta Nagata
+      person: ''
+      role: Sound Composers
+    - name: 若井淑
+      person: ''
+      role: Sound Composers
+    musicians: []
+  - game: puzzle-league
+    title: 宝可梦拼图联盟
+    year: 2000
+    composers:
+    - name: Brian Steckler
+      person: ''
+      role: Original Musical Score
+    - name: John Loeffler
+      person: ''
+      role: Music Producer
+    - name: John Siegler
+      person: ''
+      role: Original Musical Score
+    - name: Ken Cumminos
+      person: ''
+      role: Original Musical Score
+    - name: Lawrence Schwedler
+      person: ''
+      role: Original Musical Score
+    - name: Louis Cortelezzi
+      person: ''
+      role: Original Musical Score
+    - name: Marry Corallo
+      person: ''
+      role: Original Musical Score
+    - name: Michael Whalen
+      person: ''
+      role: Original Musical Score
+    - name: Neil Jason
+      person: ''
+      role: Original Musical Score
+    - name: Ralph Schucketit
+      person: ''
+      role: Original Musical Score
+    musicians:
+    - name: Julian Schwars
+      person: ''
+      role: Music Production Coordinator
+  - game: stadium-2
+    title: 宝可梦竞技场 金银
+    year: 2000
+    composers:
+    - name: 若井淑
+      person: ''
+      role: Sound Composer
+    musicians: []
+  - game: trading-card-game-2-the-invasion-of-team-gr
+    title: 宝可梦卡牌GB2 GR团登场！
+    year: 2001
+    composers:
+    - name: 嶋倉一朗
+      person: ''
+      role: Music
+    musicians:
+    - name: Tetsuya Komatsu
+      person: ''
+      role: Mastering
+    - name: 星恵太
+      person: ''
+      role: Music Programmer
+  - game: channel
+    title: 宝可梦频道
+    year: 2003
+    composers:
+    - name: 田中宏和
+      person: tanaka-hirokazu
+      role: Composed By · Music Producer
+    - name: Jun Umebori
+      person: ''
+      role: Music
+    musicians:
+    - name: 三間雅文
+      person: mima-masafumi
+      role: Sound Recording Director
+    - name: Ryoko Nashimoto
+      person: ''
+      role: Sound Recording
+    - name: Akiko Nakamura
+      person: ''
+      role: Sound Recording
+    - name: Gerhard Acktun
+      person: ''
+      role: German Vocals By
+    - name: Catherine Conet
+      person: ''
+      role: French Vocals By
+    - name: Conny K. / Rickie kinnen
+      person: ''
+      role: German Vocals By
+    - name: Daniele Blandino
+      person: ''
+      role: Italian Vocals By
+    - name: Ecco di Lorenzo
+      person: ''
+      role: German Vocals By
+    - name: Giuseppe Calvetti
+      person: ''
+      role: Italian Vocals By
+    - name: José Escobosa
+      person: ''
+      role: Spanish Vocals By
+    - name: Luisa Bodega
+      person: ''
+      role: Spanish Vocals By
+    - name: Maddie Blaustein
+      person: ''
+      role: English Vocals By
+    - name: Marco Casati
+      person: ''
+      role: Italian Vocals By
+    - name: Marco Leurini
+      person: ''
+      role: Italian Vocals By
+    - name: Michiyoshi Minamisawa
+      person: ''
+      role: Sound Recording Producer
+    - name: Nessym Guetat
+      person: ''
+      role: French Vocals By
+    - name: Peter Thom
+      person: ''
+      role: English Vocals By
+    - name: Pierre Bodson
+      person: ''
+      role: French Vocals By
+    - name: Rachael Lillis
+      person: ''
+      role: English Vocals By
+    - name: Serena Clerici
+      person: ''
+      role: Italian Vocals By
+    - name: Victoria Bodega
+      person: ''
+      role: Spanish Vocals By
+  - game: colosseum
+    title: 宝可梦圆形竞技场
+    year: 2003
+    composers:
+    - name: 多和田吏
+      person: tawada-tsukasa
+      role: Music Director
+    musicians: []
+  - game: pinball-ruby-sapphire
+    title: 宝可梦弹珠台 红宝石·蓝宝石
+    year: 2003
+    composers:
+    - name: Kazuya Suyama
+      person: ''
+      role: Sound Composition
+    - name: Ayumi Sano
+      person: ''
+      role: Sound Composition
+    musicians: []
+  - game: masters-arena
+    title: 宝可梦大师竞技场
+    year: 2004
+    composers:
+    - name: David Earl
+      person: ''
+      role: Music
+    musicians: []
+  - game: mystery-dungeon-red-rescue-team-and-blue-rescue-team
+    title: 宝可梦不可思议迷宫
+    year: 2005
+    composers:
+    - name: Arata Iiyoshi
+      person: ''
+      role: Music
+    - name: Atsuhiro Ishizuna
+      person: ''
+      role: Music
+    musicians: []
+  - game: trozei
+    title: 宝可梦益智方块
+    year: 2005
+    composers:
+    - name: 多和田吏
+      person: tawada-tsukasa
+      role: Music Director
+    musicians: []
+  - game: xd
+    title: 宝可梦XD 暗之旋风 黑暗洛奇亚
+    year: 2005
+    composers:
+    - name: 多和田吏
+      person: tawada-tsukasa
+      role: Music Director
+    musicians: []
+  - game: battle-revolution
+    title: 宝可梦对战革命
+    year: 2006
+    composers:
+    - name: 多和田吏
+      person: tawada-tsukasa
+      role: Music Director
+    musicians: []
+  - game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+    title: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+    year: 2007
+    composers:
+    - name: Hideki Sakamoto
+      person: ''
+      role: Composition & SE
+    - name: Keisuke Ito
+      person: ''
+      role: Composition & SE
+    - name: Ryoma Nakamura
+      person: ''
+      role: Composition & SE
+    - name: Arata Iiyoshi
+      person: ''
+      role: Composition & SE
+    - name: Ken-ichi Saito
+      person: ''
+      role: Composition & SE
+    musicians: []
+  - game: mystery-dungeon-explorers-of-sky
+    title: 宝可梦不可思议迷宫 空之探险队
+    year: 2009
+    composers:
+    - name: Hideki Sakamoto
+      person: ''
+      role: Composition & SE
+    - name: Keisuke Ito
+      person: ''
+      role: Composition & SE
+    - name: Arata Iiyoshi
+      person: ''
+      role: Composition & SE
+    - name: Ken-ichi Saito
+      person: ''
+      role: Composition & SE
+    - name: Yoshihiro Maeda
+      person: ''
+      role: Composition & SE
+    musicians: []
+  - game: pokepark-wii
+    title: 宝可公园Wii 皮卡丘的大冒险
+    year: 2009
+    composers:
+    - name: Ken-ichi Koyano
+      person: ''
+      role: Music
+    - name: SIGERO
+      person: ''
+      role: Music
+    - name: Manami Kiyota
+      person: ''
+      role: Music
+    musicians: []
+  - game: ranger-guardian-signs
+    title: 宝可梦巡护员 光的轨迹
+    year: 2010
+    composers:
+    - name: Ken-ichi Koyano
+      person: ''
+      role: Music
+    - name: Keisuke Oku
+      person: ''
+      role: Music
+    - name: Shigerou Yoshida
+      person: ''
+      role: Music
+    musicians: []
+  - game: learn-with-pokemon-typing-adventure
+    title: 宝可梦打字DS
+    year: 2011
+    composers:
+    - name: Azusa Chiba
+      person: ''
+      role: Music Director · Music Composition
+    - name: Kimihiro Abe
+      person: ''
+      role: Music Composition
+    - name: Kiyoto Ohtani
+      person: ''
+      role: Voice CompositionJP
+    - name: Masaharu Iwata
+      person: ''
+      role: Music Composition
+    musicians:
+    - name: Hitoshi Sakimoto
+      person: ''
+      role: Music Supervisor
+  - game: pokepark-2
+    title: 宝可公园2 ～Beyond the World～
+    year: 2011
+    composers:
+    - name: 橘田拓人
+      person: kitsuta-takuto
+      role: Music
+    - name: Ken-ichi Koyano
+      person: ''
+      role: Music
+    - name: SIGERO
+      person: ''
+      role: Music
+    musicians: []
+  - game: mystery-dungeon-gates-to-infinity
+    title: 宝可梦不可思议迷宫 极大之门与无限迷宫
+    year: 2012
+    composers:
+    - name: Keisuke Ito
+      person: ''
+      role: Music composition
+    - name: Yasuhiro Kawagoe
+      person: ''
+      role: Music composition
+    musicians: []
+  - game: art-academy
+    title: 宝可梦美术学院
+    year: 2014
+    composers:
+    - name: Masaru Tajima
+      person: ''
+      role: Music
+    musicians: []
+  - game: battle-trozei
+    title: 宝可梦战斗益智方块
+    year: 2014
+    composers:
+    - name: 多和田吏
+      person: tawada-tsukasa
+      role: Music
+    musicians: []
+  - game: pokken-tournament
+    title: 宝可拳 POKKÉN TOURNAMENT
+    year: 2015
+    composers:
+    - name: 景山将太
+      person: kageyama-shota
+      role: Guest Music Composer
+    - name: Hiroki Hashimoto
+      person: ''
+      role: Lead Music Composer
+    - name: Rio Hamamoto
+      person: ''
+      role: Music Composers
+    - name: Yoshinori Hirai
+      person: ''
+      role: Music Composers
+    - name: Hiroyuki Kawada
+      person: ''
+      role: Music Composers
+    - name: Mitsuhiro Kitadani
+      person: ''
+      role: Music Composers
+    - name: Takafumi Sato
+      person: ''
+      role: Music Composers
+    - name: Taku Inoue
+      person: ''
+      role: Music Composers
+    - name: Torine
+      person: ''
+      role: Music Composers
+    - name: Yu Sugimoto
+      person: ''
+      role: Music Composers
+    musicians:
+    - name: Yoshiyuki Watanabe
+      person: ''
+      role: Mastering Engineer
+    - name: Hiroaki Tsutsumi
+      person: ''
+      role: Acoustic & Electric Guitar, Mandolin
+    - name: Jesahm
+      person: ''
+      role: Flute, Fretless Bass, Gut Guitar
+    - name: Yuma Ito
+      person: ''
+      role: Violin
+    - name: su-kei
+      person: ''
+      role: Mastering Engineer
+  - game: super-mystery-dungeon
+    title: 宝可梦超级不可思议迷宫
+    year: 2015
+    composers:
+    - name: Keisuke Ito
+      person: ''
+      role: Music Composition
+    - name: Yasuhiro Kawagoe
+      person: ''
+      role: Music Composition
+    - name: Noriko Murakami
+      person: ''
+      role: Music Composition
+    musicians: []
+  - game: detective-pikachu
+    title: 名侦探皮卡丘
+    year: 2016
+    composers:
+    - name: 橘田拓人
+      person: kitsuta-takuto
+      role: Music
+    musicians:
+    - name: Fujio Yamada
+      person: ''
+      role: Sound Recording
+  - game: detective-pikachu-birth-of-a-new-duo
+    title: 名侦探皮卡丘 ～新搭档诞生～
+    year: 2016
+    composers:
+    - name: 橘田拓人
+      person: kitsuta-takuto
+      role: Music
+    musicians:
+    - name: 三間雅文
+      person: mima-masafumi
+      role: Sound Recording Director
+    - name: Fujio Yamada
+      person: ''
+      role: Sound Recording
+  - game: duel
+    title: 宝可梦战棋大师
+    year: 2016
+    composers:
+    - name: 景山将太
+      person: kageyama-shota
+      role: Music Composer
+    musicians:
+    - name: Yoshiyuki Watanabe
+      person: ''
+      role: Mixing Engineer
+    - name: Hiroaki Tsutsumi
+      person: ''
+      role: Acoustic & Electric Guitar Player
+    - name: Takahiro Uchida
+      person: ''
+      role: Mastering Engineer
+    - name: Yoshinori Uchida
+      person: ''
+      role: Acoustic & Electric Bass Player
+  - game: pokken-tournament-dx
+    title: 宝可拳 POKKÉN TOURNAMENT DX
+    year: 2017
+    composers:
+    - name: 景山将太
+      person: kageyama-shota
+      role: Guest Music Compose
+    - name: Hiroki Hashimoto
+      person: ''
+      role: Lead Music Compose
+    - name: Rio Hamamoto
+      person: ''
+      role: Music Compose
+    - name: Yoshinori Hirai
+      person: ''
+      role: Music Compose
+    - name: Mitsuhiro Kitadani
+      person: ''
+      role: Music Compose
+    - name: Takafumi Sato
+      person: ''
+      role: Music Compose
+    - name: Taku Inoue
+      person: ''
+      role: Music Compose
+    - name: Torine
+      person: ''
+      role: Music Compose
+    - name: Yu Sugimoto
+      person: ''
+      role: Music Compose
+    musicians:
+    - name: Yoshiyuki Watanabe
+      person: ''
+      role: Mastering Engineering
+    - name: Hiroaki Tsutsumi
+      person: ''
+      role: Acoustic & Electric Guitar, Mandolin
+    - name: Jesahm
+      person: ''
+      role: Flute, Fretless Bass, Gut Guitar
+    - name: Yuma Ito
+      person: ''
+      role: Violin
+    - name: su-kei
+      person: ''
+      role: Mastering Engineering
+  - game: mystery-dungeon-rescue-team-dx
+    title: 宝可梦不可思议迷宫 救助队DX
+    year: 2020
+    composers:
+    - name: Keisuke Ito
+      person: ''
+      role: Music Arrangement & Composition
+    - name: Arata Iiyoshi
+      person: ''
+      role: Original Music Composition
+    - name: Atsuhiro Ishizuna
+      person: ''
+      role: Original Music Composition
+    musicians: []
+  - game: new-pokemon-snap
+    title: New 宝可梦随乐拍
+    year: 2021
+    composers:
+    - name: Hiroki Hashimoto
+      person: ''
+      role: Lead Music Composer
+    - name: Jesahm
+      person: ''
+      role: Music Composers
+    - name: 石川哲彦
+      person: ''
+      role: Sound Design & Music Composers
+    - name: Yoshinori Hirai
+      person: ''
+      role: Sound Design & Music Composers
+    - name: Junichi Nakatsuru
+      person: ''
+      role: Music Composers
+    musicians: []
+  - game: detective-pikachu-returns
+    title: 名侦探皮卡丘 闪电回归
+    year: 2023
+    composers:
+    - name: 橘田拓人
+      person: kitsuta-takuto
+      role: Music
+    musicians:
+    - name: Wakaba Kuriyama
+      person: ''
+      role: Sound Recording
+    - name: Hideyuki Hachisuka
+      person: ''
+      role: Sound Recording
+    - name: Yuji Tagami
+      person: ''
+      role: Sound Recording
+    - name: Sayaka Ninomiya
+      person: ''
+      role: Sound Recording
+    - name: Fuji Yamada
+      person: ''
+      role: Sound Recording
+  - game: sleep
+    title: Pokémon Sleep
+    year: 2023
+    composers: []
+    musicians:
+    - name: yas nakajima
+      person: ''
+      role: Musician
+  - game: trading-card-game-pocket
+    title: 宝可梦集换式卡牌游戏 Pocket
+    year: 2024
+    composers:
+    - name: 橘田拓人
+      person: kitsuta-takuto
+      role: Music
+    - name: Haruna Moriya
+      person: ''
+      role: Music
+    - name: dattxua
+      person: ''
+      role: Composer/Sound Designer
+    musicians: []

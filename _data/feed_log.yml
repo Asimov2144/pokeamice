@@ -1,4 +1,13 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-10'
+  count: 4
+  types:
+    文章: 4
+  posts:
+  - 2025-09-17-source-wonderfy-pokemon-friends-roundtable
+  - 2021-05-05-source-bunshun-new-pokemon-snap-suzaki
+  - 2016-04-29-source-dengeki-pokemon-comaster-ai
+  - 2011-10-29-source-inside-jupiter-pokemon-pinball
 - date: '2026-10-30'
   count: 1
   types:

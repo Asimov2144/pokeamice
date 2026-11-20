@@ -282,7 +282,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/koyama-takashi/">Takashi Koyama</a></li>
 <li class="credits__name"><a href="/people/nakajima-motoki/">Motoki Nakajima</a></li>
 <li class="credits__name">Takuma Nishimura</li>
-<li class="credits__name">Keita Okamoto</li>
+<li class="credits__name"><a href="/people/okamoto-keita/">Keita Okamoto</a></li>
 <li class="credits__name"><a href="/people/murayama-rei/">Rei Murayama</a></li>
 </ul></section>
 <section class="credits__section">

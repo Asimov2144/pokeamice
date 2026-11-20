@@ -38,6 +38,8 @@ search: false
 @import "minimal-mistakes/credits";
 /* 宝可梦设计者：/credits/designers/ 的世代表、设计者卡片与出处 */
 @import "minimal-mistakes/designers";
+/* 作曲家名单：/credits/composers/ 沿用设计者页的外框与人物卡，只补作品视图 */
+@import "minimal-mistakes/composers";
 @import "minimal-mistakes/atlas";
 /* the trail at the top of every page and the site-wide tooltip, last so the position rules win */
 @import "minimal-mistakes/crumbs";

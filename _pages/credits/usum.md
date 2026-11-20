@@ -182,7 +182,7 @@ sitemap: true
 <h3>Field System Design<span class="credits__zh-role">（场景系统设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-lead"><b>Lead</b> <a href="/people/gu-bo-xing/">Hiroyuki Tani</a></li>
-<li class="credits__name">Keita Okamoto</li>
+<li class="credits__name"><a href="/people/okamoto-keita/">Keita Okamoto</a></li>
 <li class="credits__name">Richard William VanDeventer</li>
 </ul></section>
 <section class="credits__section">
@@ -195,7 +195,7 @@ sitemap: true
 <h3>Field Data Design<span class="credits__zh-role">（场景数据设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/gu-bo-xing/">Hiroyuki Tani</a></li>
-<li class="credits__name">Keita Okamoto</li>
+<li class="credits__name"><a href="/people/okamoto-keita/">Keita Okamoto</a></li>
 <li class="credits__name"><a href="/people/muroi-kazuki/">Kazuki Muroi</a></li>
 <li class="credits__name">Richard William VanDeventer</li>
 <li class="credits__name">Kensaku Iwata</li>

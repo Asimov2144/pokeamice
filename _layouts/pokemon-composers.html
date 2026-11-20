@@ -1,0 +1,147 @@
+---
+layout: default
+---
+{%- comment -%}
+/credits/composers/: who composed or arranged the music of each game, by the credits
+alone. Data: _data/composers.yml (tools/build-composers.py), read from the staff rolls'
+job titles - Composer / Music / Arrangement count as composition (A); musicians,
+vocals and music recording count as performance (B). Plain "Sound" credits do not:
+in many rolls composers and sound-effects staff are listed together under that word.
+The by-person / by-game switch and the search box are the script at the bottom.
+{%- endcomment -%}
+{% assign C = site.data.composers %}
+
+<div id="main" role="main">
+  <div class="archive archive--person archive--credits archive--composers">
+    {% include crumbs.html %}
+    <section class="people credits composers">
+      <header class="people__head">
+        <p class="person__kicker">制作名单</p>
+        <h1 class="person__name">作曲家名单</h1>
+        <p class="people__lede">{{ C.counts.games_total }} 部作品的 <a href="{{ '/credits/' | relative_url }}">staff 名单</a>里，职务写着作曲、编曲、音乐的人：<b>{{ C.counts.composers }}</b> 位，覆盖 <b>{{ C.counts.games_with_a }}</b> 部作品；其中 {{ C.counts.linked }} 位有<a href="{{ '/people/' | relative_url }}">人物页</a>。另有 {{ C.counts.others }} 位只署了演奏、演唱或录音，列在<a href="#others">最后</a>。</p>
+        <p class="credits__help">只按名单上的职务字样判断，没有套用别处的作曲家名单。很多作品的名单只署「Sound」一个词（第四世代以后的核心作大多如此），作曲和音效没法在名单上分开，所以这类作品的作曲者<b>不在</b>这里——去各作名单的「Sound」栏看，或看下面的<a href="#method">方法说明</a>。</p>
+      </header>
+
+      <div class="dz-bar" id="list">
+        <div class="om-seg" role="group" aria-label="怎么排">
+          <button type="button" class="is-on" data-cp-view="person">按人</button><button type="button" data-cp-view="game">按作品</button>
+        </div>
+        <input type="search" id="cp-q" placeholder="搜人或作品：中 / 日 / 英名、作品名" autocomplete="off">
+        <span class="dz-count" id="cp-count"></span>
+      </div>
+
+      <div class="cp-view" data-cp-pane="person">
+        <p class="credits__help">按署名作品数排。蓝色是作曲·编曲署名，浅色是同一作里只署了演奏或录音；鼠标停在上面看原名单的职务，点进去是那部作品的完整名单。</p>
+        {% for d in C.composers %}
+          <article class="dz-person cp-person" id="c-{{ d.id }}" data-q="{{ d.name }} {{ d.ja }} {{ d.en | downcase }}{% for x in d.games %} {{ x.title }}{% endfor %}">
+            <header class="dz-person__head">
+              {% if d.avatar %}<img class="dz-person__avatar" src="{{ d.avatar | relative_url }}" alt="" width="52" height="52" loading="lazy">{% else %}<span class="dz-person__avatar is-blank" aria-hidden="true">{{ d.name | slice: 0, 1 }}</span>{% endif %}
+              <div class="dz-person__id">
+                <h3 class="dz-person__name">{% if d.person %}<a href="{{ '/people/' | append: d.person | append: '/' | relative_url }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}
+                  <small>{% if d.ja and d.ja != d.name %}<span lang="ja">{{ d.ja }}</span> · {% endif %}{% if d.en != d.name %}<span lang="en">{{ d.en }}</span> · {% endif %}{{ d.n }} 作 · {% if d.first == d.last %}{{ d.first }}{% else %}{{ d.first }}–{{ d.last }}{% endif %}</small></h3>
+                <p class="dz-person__credits">名单署名
+                  {%- for x in d.games -%}
+                    <a class="{% if x.tier == 'B' %}is-credits{% endif %}" href="{{ '/credits/' | append: x.game | append: '/' | relative_url }}" title="{{ x.title }} · {{ x.role }}">{{ x.title }}</a>
+                  {%- endfor -%}
+                </p>
+              </div>
+            </header>
+          </article>
+        {% endfor %}
+      </div>
+
+      <div class="cp-view" data-cp-pane="game" hidden>
+        <p class="credits__help">按作品看：每部作品名单里署了作曲·编曲的人。没有列出的作品，是名单上没有单独的作曲职务（多半只署「Sound」）。</p>
+        {% for grp in C.by_game %}
+          <section class="cp-gen" aria-labelledby="g-{{ grp.gen }}">
+            <h3 class="dz-sub" id="g-{{ grp.gen }}">{{ grp.label }} <small>{{ grp.games.size }} 部</small></h3>
+            <ul class="cp-games">
+              {% for g in grp.games %}
+                <li class="cp-game" data-q="{{ g.title }}{% for p in g.composers %} {{ p.name }}{% endfor %}{% for p in g.musicians %} {{ p.name }}{% endfor %}">
+                  <b><a href="{{ '/credits/' | append: g.game | append: '/' | relative_url }}">{{ g.title }}</a></b> <small>{{ g.year }}</small>
+                  {% if g.composers.size > 0 %}
+                    <span class="cp-names">{% for p in g.composers %}<span class="cp-name" title="{{ p.role }}">{% if p.person != '' %}<a href="{{ '/people/' | append: p.person | append: '/' | relative_url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</span>{% unless forloop.last %}、{% endunless %}{% endfor %}</span>
+                  {% else %}<span class="cp-none">名单上没有单独的作曲职务</span>{% endif %}
+                  {% if g.musicians.size > 0 %}<span class="cp-music" title="演奏、演唱、录音">演奏·录音：{% for p in g.musicians %}{{ p.name }}{% unless forloop.last %}、{% endunless %}{% endfor %}</span>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endfor %}
+      </div>
+      <p class="dz-empty" id="cp-empty" hidden>没有找到。名单上没有作曲职务的人不在这里。</p>
+
+      <section class="dz-genonly cp-others" id="others" aria-labelledby="others-h">
+        <h2 class="credits__h2" id="others-h">只署演奏、演唱或录音的人 <small>{{ C.others.size }}</small></h2>
+        <p class="credits__help">这些人的名单职务是乐器演奏、演唱、音乐录音或母带，没有作曲·编曲署名。</p>
+        <ul class="dz-genonly__list">
+          {% for d in C.others %}
+            <li id="c-{{ d.id }}" data-q="{{ d.name }} {{ d.ja }} {{ d.en | downcase }}">
+              <b>{% if d.person %}<a href="{{ '/people/' | append: d.person | append: '/' | relative_url }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}</b>
+              {% if d.en != d.name %}<small lang="en">{{ d.en }}</small>{% endif %}
+              <span class="dz-person__credits">
+                {%- for x in d.games -%}
+                  <a class="is-credits" href="{{ '/credits/' | append: x.game | append: '/' | relative_url }}" title="{{ x.title }} · {{ x.role }}">{{ x.title }}</a>
+                {%- endfor -%}
+              </span>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <h2 class="credits__h2" id="method">方法与局限</h2>
+      <ul class="cp-method">
+        <li><b>来源</b>：本站 <a href="{{ '/credits/' | relative_url }}">{{ C.counts.games_total }} 部作品的 staff 名单</a>（Bulbapedia 与日文 wiki 整理的各作名单），按职务字样判断，不引入别处的作曲家名单。</li>
+        <li><b>算作曲·编曲</b>：职务里有 Composer、Music、Music Composition、Arrangement、Original Music 一类字样，或日文写着作曲、編曲、音楽；音乐总监、Music Leader 也算在内。</li>
+        <li><b>算演奏·录音</b>：Musician、乐器名、Vocals、Ending Theme（片尾曲署名多是演唱者，不一定是作曲）、Music Recording、Music Preparation、Mastering 一类。职务只看最后一段，前面的部门名和公司名（如 Music &amp; Sound Effect / 某公司）不算人。</li>
+        <li><b>不算</b>：Sound、Sound Effects、Sound Director、Sound Programming、Voice 等音响职务。第四世代以后的核心作大多只写「Sound」，作曲和音效没法在名单上分开，所以那几作里的作曲者可能不在这里；官方原声专辑小册子（OST booklet）署了名而名单没有的人，也不在这里。</li>
+        <li><b>同一个人</b>：同名拼写不同已按名单合并；日文名单里一个罗马字名对着几个汉字写法的，页面不猜哪个对，把汉字都列出来。</li>
+        <li>数据由 <code>tools/build-composers.py</code> 生成，名单更新后重跑即可。</li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<script>
+(function () {
+  var q = document.getElementById("cp-q"), count = document.getElementById("cp-count"), empty = document.getElementById("cp-empty");
+  var panes = document.querySelectorAll("[data-cp-pane]"), buttons = document.querySelectorAll("[data-cp-view]");
+  var view = "person";
+  function apply() {
+    var term = q.value.trim().toLowerCase(), shown = 0;
+    document.querySelector('[data-cp-pane="' + view + '"]').querySelectorAll(view === "person" ? ".cp-person" : ".cp-game").forEach(function (el) {
+      var ok = !term || el.getAttribute("data-q").toLowerCase().indexOf(term) >= 0;
+      el.hidden = !ok; if (ok) shown++;
+    });
+    document.querySelectorAll('[data-cp-pane="game"] .cp-gen').forEach(function (s) { s.hidden = !s.querySelector(".cp-game:not([hidden])"); });
+    var others = document.querySelectorAll(".cp-others li"), othersShown = 0;
+    others.forEach(function (li) {
+      var ok = !term || li.getAttribute("data-q").toLowerCase().indexOf(term) >= 0;
+      li.hidden = !ok; if (ok) othersShown++;
+    });
+    count.textContent = term ? shown + " 条" + (othersShown ? " · 另 " + othersShown + " 位演奏/录音" : "") : "";
+    empty.hidden = !term || shown > 0 || othersShown > 0;
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      view = b.getAttribute("data-cp-view");
+      buttons.forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      panes.forEach(function (p) { p.hidden = p.getAttribute("data-cp-pane") !== view; });
+      apply();
+    });
+  });
+  q.addEventListener("input", apply);
+  // a link into a person (#c-…) shows the by-person view and clears a filter that hides the target
+  function reveal(id) {
+    var t = document.getElementById(id);
+    if (!t) return;
+    if (view !== "person" && t.closest('[data-cp-pane="person"]')) buttons[0].click();
+    if (t.closest("[hidden]")) { q.value = ""; apply(); }
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (a) reveal(decodeURIComponent(a.getAttribute("href").slice(1)));
+  }, true);
+  window.addEventListener("hashchange", function () { reveal(decodeURIComponent(location.hash.slice(1))); });
+})();
+</script>

@@ -5561,3 +5561,69 @@
   slug: gf-tk-new-programmer-crosstalk
   role: GAME FREAK 招聘访谈中的匿名受访者（仅限所列来源）
   identity_scope: 2021-12-27-interview-gamefreak-crosstalk-new-programmer
+- name: 前馬宏充
+  slug: maeba-hiromitsu
+  kind: staff
+  credits_key: hiromitsu maeba
+  pinned: true
+  aliases:
+  - Hiromitsu Maeba
+  - まえば ひろみつ
+  - 前马宏充
+- name: Toby Fox
+  slug: fox-toby
+  kind: staff
+  credits_key: fox toby
+  pinned: true
+  aliases:
+  - トビー フォックス
+- name: 細江慎治
+  slug: hosoe-shinji
+  kind: staff
+  credits_key: hosoe shinji
+  pinned: true
+  aliases:
+  - Shinji Hosoe
+  - ほそえ しんじ
+  - 细江慎治
+- name: 佐宗綾子
+  slug: saso-ayako
+  kind: staff
+  credits_key: ayako saso
+  pinned: true
+  aliases:
+  - Ayako Saso
+  - さそう あやこ
+  - 佐宗绫子
+- name: 江口孝宏
+  slug: eguchi-takahiro
+  kind: staff
+  credits_key: eguchi takahiro
+  pinned: true
+  aliases:
+  - Takahiro Eguchi
+  - えぐち たかひろ
+- name: Carlos Eiene
+  slug: eiene-carlos
+  kind: staff
+  credits_key: carlos eiene
+  pinned: true
+  aliases:
+  - カルロス イーニ
+- name: 岡本圭太
+  slug: okamoto-keita
+  kind: staff
+  credits_key: keita okamoto
+  pinned: true
+  aliases:
+  - Keita Okamoto
+  - おかもと けいた
+  - 冈本圭太
+- name: 添田悠
+  slug: soeda-haruka
+  kind: staff
+  credits_key: haruka soeda
+  pinned: true
+  aliases:
+  - Haruka Soeda
+  - そえだ はるか
