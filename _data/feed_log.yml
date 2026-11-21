@@ -1,4 +1,11 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-21'
+  count: 2
+  types:
+    文章: 2
+  posts:
+  - 2009-05-22-source-chunsoft-pmd-sky-perfect-guide
+  - 2007-11-15-source-chunsoft-pmd-time-darkness-perfect-guide
 - date: '2026-11-10'
   count: 4
   types:
