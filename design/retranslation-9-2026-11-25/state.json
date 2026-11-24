@@ -1,0 +1,90 @@
+{
+ "task": "Full faithful re-translation of nine embellished interview posts",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "pending",
+   "chars": 11483,
+   "posts": [
+    {
+     "stem": "2014-05-01-interview-tpc-youth-roundtable",
+     "rows": 53,
+     "chars": 5901,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2014-05-01-interview-tpc-youth-roundtable.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2014-05-01-interview-tpc-youth-roundtable.json"
+    },
+    {
+     "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+     "rows": 49,
+     "chars": 3109,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download.json"
+    },
+    {
+     "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+     "rows": 41,
+     "chars": 2473,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality.json"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "pending",
+   "chars": 11527,
+   "posts": [
+    {
+     "stem": "2017-05-10-interview-pokemon-recruit-passion",
+     "rows": 40,
+     "chars": 5523,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2017-05-10-interview-pokemon-recruit-passion.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2017-05-10-interview-pokemon-recruit-passion.json"
+    },
+    {
+     "stem": "2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets",
+     "rows": 29,
+     "chars": 3170,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets.json"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-crosstalk-programmer",
+     "rows": 25,
+     "chars": 2834,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2021-12-27-interview-gamefreak-crosstalk-programmer.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2021-12-27-interview-gamefreak-crosstalk-programmer.json"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "pending",
+   "chars": 10194,
+   "posts": [
+    {
+     "stem": "2021-12-27-interview-gamefreak-crosstalk-scenario",
+     "rows": 34,
+     "chars": 3741,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2021-12-27-interview-gamefreak-crosstalk-scenario.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2021-12-27-interview-gamefreak-crosstalk-scenario.json"
+    },
+    {
+     "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+     "rows": 58,
+     "chars": 3517,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife.json"
+    },
+    {
+     "stem": "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+     "rows": 26,
+     "chars": 2936,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\dump\\2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-9-2026-11-25\\out\\2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama.json"
+    }
+   ]
+  }
+ ]
+}
