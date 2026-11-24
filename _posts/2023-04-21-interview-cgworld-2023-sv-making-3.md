@@ -203,7 +203,7 @@ parallel_items:
 - original: ポケモン1匹あたりのモーション数と制作期間はどのくらいですか？
   role: question
   speaker: CGWORLD
-  translation: 每只宝可梦的動作數量和製作週期大概是多少？
+  translation: 每只宝可梦的动作数量和制作周期大概是多少？
 - original: 平均23モーション、最大で60モーション。新しく登場するポケモンの制作で、監修待ちの期間も含めると1.5〜2.5ヶ月くらいかけています。ポケモンの難度とモーション数によって、けっこう幅がありますね。
   role: answer
   speaker: 深谷卓

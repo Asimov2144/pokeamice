@@ -294,7 +294,7 @@ parallel_items:
   role: question
 - type: paragraph
   original: ネタ探しで外出することはあまりなくて、大抵は家の中にあるものからひらめくことが多いです。例えばドレディアは、家でユリの花を見ているときに思いついたんですよ。
-  translation: あつこ（以下、にしだ）我很少为了找灵感而外出，大多是从家里的东西中获得灵感的。比如罗丝雷朵，就是我在家里看着百合花时想到的。
+  translation: 我很少为了找灵感而外出，大多是从家里的东西中获得灵感的。比如罗丝雷朵，就是我在家里看着百合花时想到的。
   speaker: 西田敦子
   role: answer
 - type: paragraph
@@ -339,7 +339,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 可愛いヒトカゲから、カッコいいメガリザードンＸというギャップにはゾクゾクしました。
-  translation: 从可爱的火稚鸡到帅气的超级喷火龙Ｘ，这种反差让我兴奋不已。
+  translation: 从可爱的小火龙到帅气的超级喷火龙Ｘ，这种反差让我兴奋不已。
   speaker: 中川翔子
   role: question
 - type: paragraph
@@ -533,7 +533,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 我が家にいますので、いつでも遊びに来てください！（笑）そしていつかmmts（マミタス）で、にしださんの猫イラストとコラボさせてください。
-  translation: 我家就养着呢，随时欢迎来玩！（笑）然后希望有一天能在mmts（曼美塔斯）上，与西田先生的猫插画进行联动合作。
+  translation: 我家就养着呢，随时欢迎来玩！（笑）然后希望有一天能在mmts（マミタス）上，与西田先生的猫插画进行联动合作。
   speaker: 中川翔子
   role: question
 - type: paragraph

@@ -114,7 +114,7 @@ parallel_items:
 - type: heading
   level: 2
   original: ポケモンを楽しんでいただいているみなさまへ
-  translation: 第2章：献给老玩家的全新深度——物理特殊分家、地下世界与生态进化
+  translation: 献给一直喜爱宝可梦的各位
 - speaker: N.O.M采访者
   original: いままでの『ポケモン』を楽しんでいるファンにはどのようなところに注目してほしいですか？
   translation: "对于一直玩《宝可梦》玩到现在的玩家，您希望他们关注哪些地方？"
@@ -174,7 +174,7 @@ parallel_items:
 - type: heading
   level: 2
   original: これからポケモンを体験されるみなさまへ
-  translation: 第3章：献给新玩家的亲切设计——DS双屏操作与循序渐进的冒险
+  translation: 献给即将体验宝可梦的各位
 - speaker: N.O.M采访者
   original: 初めて『ポケモン』プレイする人、触れる人にアドバイスがありますか？
   translation: "对第一次玩《宝可梦》、第一次接触的人，您有什么建议吗？"
@@ -226,7 +226,7 @@ parallel_items:
 - type: heading
   level: 2
   original: Wi-Fiで変わるバトルの新しい遊び方
-  translation: 第4章：Wi-Fi网络彻底改写的对战与交换——跨越国界的即时联动
+  translation: Wi-Fi带来的对战新玩法
 - speaker: N.O.M采访者
   original: ニンテンドーWi-Fiコネクションに対応したのは多くのトレーナーがワクワクしていると思います。
   translation: "支持任天堂Wi-Fi连接，我想很多训练家都会很兴奋吧。"

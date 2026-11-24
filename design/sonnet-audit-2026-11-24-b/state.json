@@ -1,0 +1,300 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (next 45 highest-risk)",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed (agent report in shard-N.json; not yet verified/applied)",
+   "chars": 217169,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\shard-1.json",
+   "posts": [
+    {
+     "stem": "1999-05-13-interview-hobonichi-1999-jack-and-beans-snap",
+     "rows": 175,
+     "chars": 48484,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\1999-05-13-interview-hobonichi-1999-jack-and-beans-snap.txt"
+    },
+    {
+     "stem": "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+     "rows": 120,
+     "chars": 18471,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto.txt"
+    },
+    {
+     "stem": "2026-02-16-interview-famitsu-2026-pokopia",
+     "rows": 107,
+     "chars": 16994,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2026-02-16-interview-famitsu-2026-pokopia.txt"
+    },
+    {
+     "stem": "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
+     "rows": 148,
+     "chars": 15573,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205.txt"
+    },
+    {
+     "stem": "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras",
+     "rows": 100,
+     "chars": 15027,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras.txt"
+    },
+    {
+     "stem": "2016-02-27-interview-inside-2016-ishihara-20th",
+     "rows": 71,
+     "chars": 14257,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2016-02-27-interview-inside-2016-ishihara-20th.txt"
+    },
+    {
+     "stem": "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music",
+     "rows": 48,
+     "chars": 13711,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music.txt"
+    },
+    {
+     "stem": "2008-10-21-scan-ndream-2008-12-game-freak-interview",
+     "rows": 106,
+     "chars": 13163,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2008-10-21-scan-ndream-2008-12-game-freak-interview.txt"
+    },
+    {
+     "stem": "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+     "rows": 72,
+     "chars": 11658,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori.txt"
+    },
+    {
+     "stem": "1997-10-16-interview-gamefreak-official-red-green-staff",
+     "rows": 190,
+     "chars": 11516,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\1997-10-16-interview-gamefreak-official-red-green-staff.txt"
+    },
+    {
+     "stem": "1996-04-05-scan-shodai-zukan-1996-pokemon-journal",
+     "rows": 94,
+     "chars": 11133,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\1996-04-05-scan-shodai-zukan-1996-pokemon-journal.txt"
+    },
+    {
+     "stem": "2023-04-21-interview-cgworld-2023-sv-making-3",
+     "rows": 89,
+     "chars": 10948,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2023-04-21-interview-cgworld-2023-sv-making-3.txt"
+    },
+    {
+     "stem": "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art",
+     "rows": 66,
+     "chars": 8958,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art.txt"
+    },
+    {
+     "stem": "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit",
+     "rows": 40,
+     "chars": 7276,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed (agent report in shard-N.json; not yet verified/applied)",
+   "chars": 223555,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2015-07-14-interview-movie18-yuyama-hoopa-model-sheets",
+     "rows": 213,
+     "chars": 25910,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2015-07-14-interview-movie18-yuyama-hoopa-model-sheets.txt"
+    },
+    {
+     "stem": "2026-07-22-interview-cedec-2026-battle-system-deck",
+     "rows": 66,
+     "chars": 21328,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2026-07-22-interview-cedec-2026-battle-system-deck.txt"
+    },
+    {
+     "stem": "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest",
+     "rows": 111,
+     "chars": 18491,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest.txt"
+    },
+    {
+     "stem": "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard",
+     "rows": 134,
+     "chars": 17017,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol1-wireless-keyboard.txt"
+    },
+    {
+     "stem": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+     "rows": 94,
+     "chars": 16238,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata.txt"
+    },
+    {
+     "stem": "2015-05-20-interview-pokemon-recruit-business-anatomy",
+     "rows": 32,
+     "chars": 15264,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2015-05-20-interview-pokemon-recruit-business-anatomy.txt"
+    },
+    {
+     "stem": "2021-11-08-interview-creatures-history-special-ishihara-tanaka",
+     "rows": 54,
+     "chars": 14916,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2021-11-08-interview-creatures-history-special-ishihara-tanaka.txt"
+    },
+    {
+     "stem": "2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design",
+     "rows": 98,
+     "chars": 13480,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design.txt"
+    },
+    {
+     "stem": "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori",
+     "rows": 77,
+     "chars": 12634,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2006-10-01-interview-nom-dp-ishihara-masuda-sugimori.txt"
+    },
+    {
+     "stem": "2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184",
+     "rows": 120,
+     "chars": 12494,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184.txt"
+    },
+    {
+     "stem": "2012-06-15-interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures",
+     "rows": 85,
+     "chars": 11475,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2012-06-15-interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures.txt"
+    },
+    {
+     "stem": "2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino",
+     "rows": 71,
+     "chars": 11077,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2015-02-16-interview-4gamer-pokken-tournament-harada-hoshino.txt"
+    },
+    {
+     "stem": "2023-08-24-interview-denfami-2023-cedec-visual",
+     "rows": 81,
+     "chars": 10665,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2023-08-24-interview-denfami-2023-cedec-visual.txt"
+    },
+    {
+     "stem": "2023-04-19-interview-cgworld-2023-sv-making-1",
+     "rows": 65,
+     "chars": 7922,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2023-04-19-interview-cgworld-2023-sv-making-1.txt"
+    },
+    {
+     "stem": "2026-09-17-interview-cgworld-2026-cedec-pkmnza",
+     "rows": 40,
+     "chars": 7799,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2026-09-17-interview-cgworld-2026-cedec-pkmnza.txt"
+    },
+    {
+     "stem": "2023-04-20-interview-cgworld-2023-sv-making-2",
+     "rows": 56,
+     "chars": 6845,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2023-04-20-interview-cgworld-2023-sv-making-2.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed (agent report in shard-N.json; not yet verified/applied)",
+   "chars": 217750,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana",
+     "rows": 225,
+     "chars": 24736,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana.txt"
+    },
+    {
+     "stem": "2017-11-06-interview-2017-game-freak-dordogne-enquete",
+     "rows": 103,
+     "chars": 24503,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2017-11-06-interview-2017-game-freak-dordogne-enquete.txt"
+    },
+    {
+     "stem": "1996-04-05-scan-shodai-zukan-1996-staff-interview",
+     "rows": 151,
+     "chars": 17902,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\1996-04-05-scan-shodai-zukan-1996-staff-interview.txt"
+    },
+    {
+     "stem": "2016-05-12-interview-inside-pokken-tournament-developers",
+     "rows": 106,
+     "chars": 16531,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2016-05-12-interview-inside-pokken-tournament-developers.txt"
+    },
+    {
+     "stem": "2014-05-01-interview-tpc-leaders-challenge",
+     "rows": 64,
+     "chars": 15686,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2014-05-01-interview-tpc-leaders-challenge.txt"
+    },
+    {
+     "stem": "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita",
+     "rows": 87,
+     "chars": 15199,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita.txt"
+    },
+    {
+     "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+     "rows": 112,
+     "chars": 13905,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following.txt"
+    },
+    {
+     "stem": "2011-02-21-scan-ndream-2011-04-masuda-bridges",
+     "rows": 108,
+     "chars": 13801,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2011-02-21-scan-ndream-2011-04-masuda-bridges.txt"
+    },
+    {
+     "stem": "2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos",
+     "rows": 74,
+     "chars": 13384,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2024-07-10-interview-famitsu-pjcs2024-champion-hara-hyuma-terapagos.txt"
+    },
+    {
+     "stem": "2023-08-24-interview-famitsu-2023-cedec-sound",
+     "rows": 66,
+     "chars": 12329,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2023-08-24-interview-famitsu-2023-cedec-sound.txt"
+    },
+    {
+     "stem": "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
+     "rows": 61,
+     "chars": 11303,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai.txt"
+    },
+    {
+     "stem": "2004-09-01-interview-nom-emerald-battle-frontier-evolution",
+     "rows": 36,
+     "chars": 11057,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2004-09-01-interview-nom-emerald-battle-frontier-evolution.txt"
+    },
+    {
+     "stem": "2010-11-20-interview-steinberg-gamefreak-sound-cubase",
+     "rows": 32,
+     "chars": 10586,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2010-11-20-interview-steinberg-gamefreak-sound-cubase.txt"
+    },
+    {
+     "stem": "2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇",
+     "rows": 55,
+     "chars": 9561,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇.txt"
+    },
+    {
+     "stem": "2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation",
+     "rows": 45,
+     "chars": 7267,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-b\\dump\\2012-01-19-interview-gamewatch-2012-pokemon-nobunaga-presentation.txt"
+    }
+   ]
+  }
+ ]
+}

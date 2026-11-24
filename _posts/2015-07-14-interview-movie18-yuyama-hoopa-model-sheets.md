@@ -153,7 +153,7 @@ parallel_items:
 - original: The story is set in "Désser City", a city located in the middle of a desert.
   translation: 故事以位于沙漠正中央的城市“荒漠市”为舞台。
 - original: In the outskirts of the city stands "Désser Tower", a tower closely related to mythical Pokémon!
-  translation: 城市郊外矗立着“神石塔”，一座与幻之宝可梦密切相关的塔！
+  translation: 城市郊外矗立着“戴塞尔塔”，一座与幻之宝可梦密切相关的塔！
 - type: heading
   level: 2
   original: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
@@ -201,7 +201,7 @@ parallel_items:
 - original: This is Arkhē Valley, where Barza and Mary grew up together with Hoopa!
   translation: 这里就是阿尔凯谷，巴尔扎和玛丽与胡帕一同成长的地方！
 - original: It's a village rich in greenery that has a very different atmosphere from the desert metropolis Désser City
-  translation: 这是一个绿意盎然的村庄，与沙漠大都市德塞尔城的氛围截然不同。
+  translation: 这是一个绿意盎然的村庄，与沙漠大都市戴塞尔城的氛围截然不同。
 - type: heading
   level: 2
   original: The "Prison Bottle"'s Model Sheets Appear! (2015/6/12)

@@ -208,9 +208,9 @@ parallel_items:
   role: answer
 - type: paragraph
   original: "ã\x81\"ã\x81\"ã\x81¯ã\x81¨ã\x81¦ã''ç´ 晴ã'‰ã\x81-ã\x81\"ï1/4\x81 #Périgord #France pic.twitter.com/iZeY21Zgnr"
-  translation: '这里非常晴朗！#佩里戈尔 #法国 图片链接：twitter.com/iZeY21Zgnr'
+  translation: '这里非常美妙！#佩里戈尔 #法国 图片链接：twitter.com/iZeY21Zgnr'
   speaker: 增田顺一
-  note: 原文为乱码，根据上下文和标签推断为日语，意为“这里非常晴朗”。
+  note: 原文为乱码，根据上下文和标签推断为日语，意为“这里非常美妙”。
   role: answer
 - type: paragraph
   original: å¢-ç"°é †一@GAME FREAK inc. (@Junichi_Masuda) 28 octobre 2017
@@ -223,9 +223,9 @@ parallel_items:
   translation: 有一种似曾相识的感觉。
 - type: paragraph
   original: Dans un tweet daté du 31 octobre, Shigeru Ohmori résume bien l'objet de leur visite. " C'était un voyage centré sur l'art pariétal français. Nous avons découvert des fresques pariétales uniques dans des sites tels que Lascaux, Combarelles, Rouffignac, Font de Gaume. "
-  translation: 在10月31日的一条推文中，大森茂很好地总结了他们此行的目的：“这是一次以法国洞穴壁画艺术为中心的旅行。我们在拉斯科、孔巴海尔、鲁菲尼亚克、丰德戈姆等地发现了独特的洞穴壁画。”
+  translation: 在10月31日的一条推文中，大森滋很好地总结了他们此行的目的：“这是一次以法国洞穴壁画艺术为中心的旅行。我们在拉斯科、孔巴海尔、鲁菲尼亚克、丰德戈姆等地发现了独特的洞穴壁画。”
   speaker: 大森滋
-  note: 大森茂（Shigeru Ohmori）是 GAME FREAK 的游戏总监，曾担任《宝可梦 太阳／月亮》等作品的导演。
+  note: 大森滋（Shigeru Ohmori）是 GAME FREAK 的游戏总监，曾担任《宝可梦 太阳／月亮》等作品的导演。
   role: answer
 - type: heading
   level: 3
@@ -252,7 +252,7 @@ parallel_items:
   note: 拉斯科（Lascaux）指法国著名的拉斯科洞穴壁画遗址。
 - type: paragraph
   original: '" Junichi Masuda est venu nous rendre visite sur le site de Lascaux 2 le 26 octobre dernier. Il est en effet arrivé avec un petit groupe qui ne m''a pas été présenté. Ils ont pour leur part continué vers l''entrée du site afin de se présenter pour la visite programmée quelques minutes plus tard. Il [Junichi] m''a avoué aimer la Dordogne et vouloir visiter les sites de Lascaux depuis plusieurs années déjà. Ils ne nous ont précisé aucune demande, n''ont fait l''objet d''aucune faveur. La réservation a été faite par leur hôtel. "'
-  translation: “增田顺一先生于去年10月26日来到拉斯科二号遗址参观。他确实和一个小团队一起来，但没有人向我介绍他们。他们随后继续前往遗址入口，准备几分钟后开始的预定参观。他（增田）向我坦言喜欢多尔多涅地区，并且多年来一直想参观拉斯科遗址。他们没有提出任何要求，也没有得到任何特殊照顾。预订是由他们下榻的酒店完成的。”
+  translation: “增田顺一先生于上个月（10月）26日来到拉斯科二号遗址参观。他确实和一个小团队一起来，但没有人向我介绍他们。他们随后继续前往遗址入口，准备几分钟后开始的预定参观。他（增田）向我坦言喜欢多尔多涅地区，并且多年来一直想参观拉斯科遗址。他们没有提出任何要求，也没有得到任何特殊照顾。预订是由他们下榻的酒店完成的。”
   speaker: Mathieu
   note: 拉斯科二号（Lascaux 2）是拉斯科洞穴的复制品，供游客参观。多尔多涅（Dordogne）是法国的一个地区，以史前洞穴艺术闻名。
   role: answer
@@ -285,7 +285,7 @@ parallel_items:
 - type: paragraph
   original: Un retour dans le passé ? Et si le prochain jeu Pokémon se déroulait dans un passé proche ? Ce serait un essai audacieux et novateur. Game Freak a bien embarqué une chercheuse spécialiste des lieux sacrés de l' ère Meiji . L'idéalisation des Japonais pour la France, ça s'appuie sur quelle période, exactement ? Sur la belle époque. Sur la vision décrite par Proust, sur la fin du 19ème et le début du 20ème. Autrement dit, sur ce qui correspond à l'ère Meiji.
   translation: "回到过去？如果下一款宝可梦游戏设定在近代会怎样？这将是一次大胆而创新的尝试。GAME FREAK 确实聘请了一位专门研究明治时代圣地的研究员。日本人对法国的理想化，究竟基于哪个时期？基于美好时代，基于普鲁斯特所描绘的愿景，基于19世纪末20世纪初。换句话说，相当于日本的明治时代。"
-  note: 这里提到的研究员可能指今泉芳子（Yoshiko Imaizumi），她研究非洲，但此处提到明治时代圣地。普鲁斯特是法国作家，其作品描绘了美好时代。
+  note: 这里提到的研究员可能指今泉宜子（Yoshiko Imaizumi）。普鲁斯特是法国作家，其作品描绘了美好时代。
 - type: paragraph
   original: À moins que l'on ne retourne au temps des cavernes . Après tout, Yoshiko Imaizumi a étudié l'Afrique. Vous commencez à voir les liens ? Et les Pokéballs, ça existait à cette période ? Ça me semble compliqué en terme de capture de pokémonstres, mais allez savoir, le concept serait ultra-intéressant.
   translation: 除非我们回到洞穴时代。毕竟，今泉宜子研究过非洲。你们开始看到联系了吗？而且，精灵球在那个时代存在吗？就捕捉宝可梦而言，这似乎很复杂，但谁知道呢，这个概念会非常有趣。
@@ -356,7 +356,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: La signature sous celle de Masuda c'est bien Sawada Misako 沢田美沙子. Mais Kenji je le vois nulle part...
-  translation: 增田下面的签名确实是泽田美沙子（沢田美沙子）。但健二我哪里都没看到……
+  translation: 增田下面的签名确实是泽田美沙子（沢田美沙子）。但Kenji我哪里都没看到……
   speaker: Kazugaya
   note: 增田指增田顺一，宝可梦系列游戏制作人。
   role: answer

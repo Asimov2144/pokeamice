@@ -110,7 +110,7 @@ parallel_items:
   speaker: 皮卡丘（记者）
   original: これは、ガチャガチャのやつでぴね。ピカュウもスターミーのもってるでちゅよ。
   speaker_ja: ピカチュウ
-  translation: 那是扭蛋机里的那种吧皮卡。皮卡丘也有海星星的啾。
+  translation: 那是扭蛋机里的那种吧皮卡。皮卡丘也有宝石海星的啾。
   role: question
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -122,7 +122,7 @@ parallel_items:
   speaker: 田尻智
   original: ニョロモかな。子供の時に捕まえてたおたまじゃくしを思いだすからね（笑）。
   speaker_ja: 田尻智
-  translation: 蚊香蝌蚪吧。因为会让我想起小时候抓过的蝌蚪嘛（笑）。
+  translation: もんちゃん吧。因为会让我想起小时候抓过的蝌蚪嘛（笑）。
   role: answer
 - type: dialogue
   speaker: 皮卡丘（记者）
@@ -391,7 +391,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: 以前連載していたマンガ『クインティ』の連載途中から、女の子のおっぱいがおおきくなりましたが、あれはどうしてでちゅう？杉森さんの好みでちゅか？
-  translation: 以前连载的漫画《麦森探险》连载途中，女孩子的胸部变大了，那是怎么回事啾？是杉森先生的喜好吗？
+  translation: 以前连载的漫画《クインティ》连载途中，女孩子的胸部变大了，那是怎么回事啾？是杉森先生的喜好吗？
   role: question
 - type: dialogue
   speaker: 杉森建
@@ -495,7 +495,7 @@ parallel_items:
   role: question
 - type: heading
   original: 第3回：森本茂樹 バトルプログラマー編（ミュウ誕生の真実と通信対戦の苦闘）
-  translation: 第3回：森本茂树 战斗设计师篇（偷塞梦幻的始末、通信对战危机与健康恶魔）
+  translation: 第3回：森本茂树 战斗程序员篇（梦幻诞生的真相与通信对战的苦斗）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/05_morimoto.jpg
   alt: 森本茂树（GAME FREAK程序员 / 宝可梦设计师）
@@ -629,7 +629,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: では、もんちゃん自身の質問にもどるでちゅう。どこから洗うんでちゅか？
-  translation: 那么，回到蚊香蝌蚪自己的问题啾。先从哪儿开始洗呢？
+  translation: 那么，回到もんちゃん自己的问题啾。先从哪儿开始洗呢？
   role: question
 - type: dialogue
   speaker: 森本茂树
@@ -639,7 +639,7 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: つまんないでちゅう～。もんちゃんは髪の毛を触ると怒りますがどうしてでちゅう？何か秘密があるんでちゅか？
-  translation: 真无聊啾～。蚊香蝌蚪被摸头发会生气，这是为什么啾？有什么秘密吗？
+  translation: 真无聊啾～。もんちゃん被摸头发会生气，这是为什么啾？有什么秘密吗？
   role: question
 - type: dialogue
   speaker: 森本茂树
@@ -823,11 +823,11 @@ parallel_items:
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ぴひゃひゃ（笑）ありがとうございました～！ひゅうう・・・つかれるインタビューだったっちゃ。次はゲームフリークいち胸元のセクシーな人の登場でちゅ！せくし～っ
-  translation: 皮嘻嘻（笑）谢谢你啦～！呼啊……这次采访好累皮卡。接下来登场的是GAME FREAK中最有胸襟的性感人物！性感～
+  translation: 皮嘻嘻（笑）谢谢你啦～！呼啊……这次采访好累皮卡。接下来登场的是GAME FREAK里领口最性感的人！性感～
   role: question
 - type: heading
   original: 第5回：増田順一 サウンドディレクター編（シオンタウンの音階とコダックへの愛）
-  translation: 第5回：增田顺一 音乐总监篇（性感音乐家、宝可梦叫声体系与紫苑镇秘闻）
+  translation: 第5回：增田顺一 声音总监篇（紫苑镇的音阶与对可达鸭的爱）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/03_masuda.jpg
   alt: 增田顺一（GAME FREAK取缔役 / 音乐总监 / 作曲家）
@@ -938,10 +938,10 @@ parallel_items:
   translation: 不愧是音乐家式的理由皮卡！
   role: question
 - type: dialogue
-  speaker: 增田顺一
+  speaker: "皮卡丘（记者）"
   original: 増田せんせいの好きな音楽はなんでちゅう？
   translation: 增田老师喜欢的音乐是什么啾？
-  role: answer
+  role: "question"
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ハードコアテクノ、ノイズ音楽など。
@@ -963,10 +963,10 @@ parallel_items:
   translation: 嗯～真有音乐家的感觉～！古典乐～皮卡！
   role: question
 - type: dialogue
-  speaker: 增田顺一
+  speaker: "皮卡丘（记者）"
   original: ずばり！！　カラオケでの持ち歌はなんっちゃー？
   translation: 直说吧！！卡拉OK的拿手曲目是什么皮卡？
-  role: answer
+  role: "question"
 - type: dialogue
   speaker: 皮卡丘（记者）
   original: ＴＭネットワークの「ゲットワイルド」。

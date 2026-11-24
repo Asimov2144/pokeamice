@@ -293,7 +293,7 @@ parallel_items:
   translation: 用4个调试器与声音的分组管理实现效率化
 - original: 最後の項目である効率化・最適化のなかでは、開発で使用されたサウンドデバッガーが紹介された。岩本氏はWwiseProfilerを使ってデバッグ対応ができないかと考えたものの、これだけでは対応できない内容もあり、とくにゲーム画面内にデバッグ情報を表示するという作業の効率化を考えるうえでは重要な要素が足りなかったという。そこで起用されたのが、Gizmo、Objects、BGMManager、Historyの4つのデバッガーだ。
   translation: 在最后一项效率化与优化中，介绍了开发中使用的音效调试器。岩本先生曾考虑用WwiseProfiler进行调试应对，但其中也有仅靠它无法应对的内容，尤其在考虑将调试信息显示在游戏画面内这一作业的效率化时，缺少了重要要素。于是被起用的是Gizmo、Objects、BGMManager、History这4个调试器。
-  note: 岩本：指演讲者岩本翔，GAME FREAK的音效相关开发者。
+  note: 岩本：指演讲者岩本翔（自由职业者）。
 - type: image
   image: /assets/img/interviews/2023-08-24-interview-famitsu-2023-cedec-sound/038.jpg
   alt: 『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】

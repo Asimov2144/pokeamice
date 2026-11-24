@@ -711,7 +711,7 @@ translation_segments:
     scan_page: 6
     review_status: "verified"
     original: "太田 健程(おおたたけのり)メインプログラマー"
-    translation: 太田健程（おおたけのり）主程序员
+    translation: 太田健程（おおたたけのり）主程序员
     scan_box:
       - 389
       - 160
@@ -2390,7 +2390,7 @@ translation_segments:
     scan_page: 11
     review_status: "verified"
     original: 執筆 とみさわ昭仁川本ひろし
-    translation: "撰稿 富泽昭仁 川本浩"
+    translation: "撰稿 とみさわ昭仁 川本ひろし"
     scan_box:
       - 150
       - 1087
@@ -2513,7 +2513,7 @@ translation_segments:
     scan_page: 11
     review_status: "verified"
     original: 岨 ちあき（OVER the【eks】）
-    translation: "岨千明（OVER the【eks】）"
+    translation: "岨 ちあき（OVER the【eks】）"
     scan_box:
       - 305
       - 1442

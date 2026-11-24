@@ -457,7 +457,7 @@ parallel_items:
 - original: はい。ただ、普段からみんなタイピングができるんです。だから５階からスタートしても、みんな平気なんですよ。なので、キーボードを反対にしてやってもらっていました。
   role: answer
   speaker: 安藤
-  translation: "是的。不过，平时大家都会打字。所以就算从第5关开始，大家也都没问题。因此，就让他们把键盘反过来玩。"
+  translation: "是的。不过，平时大家都会打字。所以就算从5楼开始，大家也都没问题。因此，就让他们把键盘反过来玩。"
 - type: image
   image: /assets/img/interviews/2011-04-21-interview-iwata-asks-pokemon-typing-ds-vol2-genius-sonority-yamana/010.jpg
   alt: ''

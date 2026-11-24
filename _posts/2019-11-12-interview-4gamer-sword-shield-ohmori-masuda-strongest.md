@@ -123,7 +123,7 @@ parallel_items:
   image: /assets/img/interviews/2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest/003.jpg
   alt: Game Freak 制作人增田顺一
   caption: 《宝可梦 剑·盾》制作人 增田顺一（Junichi Masuda）
-- speaker: 大森滋
+- speaker: "增田顺一"
   original: 増田順一氏（以下，増田氏）：大型テレビにつないで迫力のある映像を楽しめるのもポイントですね。マックスレイドバトルで戦う時に，大きなテレビのあるお宅に集まってもらうような遊び方もできます。どんな風に遊んでもらえるかという光景がイメージできるのも，Nintendo Switchの魅力だと思っています。
   translation: 增田顺一先生（以下简称增田）：连接大屏幕电视欣赏震撼画面也是一大亮点。在极巨团体战时，大家可以聚到有电视的朋友家中一起游玩。能够想象出玩家们各种游玩场景，这也是Nintendo Switch的魅力所在。
   role: answer
