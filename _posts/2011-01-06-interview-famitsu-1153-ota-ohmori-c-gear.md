@@ -134,8 +134,7 @@ parallel_items:
 - type: paragraph
   original: 本作の通信機能は最初の企画していたものが全て入ってるそうですね。
   translation: 据说本作的通信功能，最初企划的内容全都收录进去了。
-  speaker: 太田哲司
-  role: answer
+  speaker: ──
 - type: paragraph
   original: 最初に企画したものから実装可能な機能以外を削ぎ落とすのが普通だと思うのですが、
   translation: 通常来说，会从最初企划的内容中剔除无法实现的功能，
@@ -174,52 +173,51 @@ parallel_items:
 - type: paragraph
   original: ずいぶん苦労させられたと思いますが？
   translation: 我想应该相当辛苦吧？
-  speaker: 太田哲司
-  role: answer
+  speaker: ──
 - type: paragraph
   original: 個人的には、ハイリンクですね。
   translation: 就我个人而言，是连入。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 企画段階では、”他のプレイヤーの世界に行く”しか決まってなくて、
   translation: 在企划阶段，只决定了“去其他玩家的世界”，
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: どうやったら面白くなるか悩みました。
   translation: 我烦恼过怎样才能让它变得有趣。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 通信協力と言うと、皆で何処かに集まって敵を倒したり、
   translation: 说到通信合作，就是大家聚集到某处一起打倒敌人，
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: ミッションに挑むのが普通ですよね。
   translation: 通常来说，都是去挑战任务吧。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: でも、  「ポケモン」というゲームは、遊ぶ人によって目的が違うのが大きな特徴で、
   translation: 但是，“宝可梦”这款游戏的一大特征，就是不同玩家的目的各不相同，
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: そういう目的を阻害するような遊びはちょっと違う と思いまして……。
   translation: 所以我觉得，那种会妨碍这些目的的玩法有点不太对……。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 他の人の冒険を、さりげなくサポートできるというのが、「ポケモン」らしいかな、と。
   translation: 能够不经意地支持他人的冒险，这或许才像“宝可梦”吧。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: ”他の人を助ける”というコンセプトから生まれたのが、ハイリンクという通信協力です。
   translation: 从“帮助他人”这一理念中诞生的，就是连入这种通信合作。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 誰かが自分の世界に入ってきたことをわざと分かりにくくしてあるんですよね。
@@ -239,12 +237,11 @@ parallel_items:
 - type: paragraph
   original: ちなみに、本作には、説明書にも書かれていない機能もたくさんありますよね？
   translation: 顺便一提，本作中还有很多连说明书里都没写的功能吧？
-  speaker: 太田哲司
-  role: answer
+  speaker: ──
 - type: paragraph
   original: はい。気付く人がいればいいと思って、あえて書いていない機能が随分あります。
   translation: 是的。我觉得有人能发现就好，所以特意没有写出来的功能相当多。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 最低限遊べる機能が解説されていて、後は触っているうちに理解してもらえればいい かなと。
@@ -264,17 +261,16 @@ parallel_items:
 - type: paragraph
   original: それでは、最後に読者にメッセージを。
   translation: 那么，最后请给读者说几句话。
-  speaker: 太田哲司
-  role: answer
+  speaker: ──
 - type: paragraph
   original: すれ違いを始め、  人が集まれば集まるほど面白さが広がる作品 だと思います。
   translation: 我认为这是一部以擦肩通信为首，人聚集得越多，乐趣就越会扩大的作品。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 是非とも  Cギアの電源を入れたまま、街に出て欲しい ですね。
   translation: 希望大家务必让C装置的电源开着，走到街上去。
-  speaker: 太田哲司
+  speaker: 大森滋
   role: answer
 - type: paragraph
   original: 実家に帰ったら、家族がIRでポケモン交換をしていて、通信の敷居はかなり下がっています。
