@@ -48,7 +48,7 @@ parallel_items:
 - type: header
   level: 3
   original: 4. ポケモンがより身近な存在に
-  translation: 4. 让宝可梦成为更亲近的存在：友友乐、超级进化与跨越时代的深厚羁绊
+  translation: "4. 宝可梦成为更亲近的存在"
 - type: dialogue
   speaker: 岩田聪
   original: ちなみに「ポケパルレ」の「パルレ」にはどんな意味があるのですか？

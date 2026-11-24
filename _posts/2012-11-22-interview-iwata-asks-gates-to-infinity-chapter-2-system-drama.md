@@ -180,7 +180,6 @@ parallel_items:
   role: answer
   speaker: 石原恒和
   translation: 是的。就像《宝可梦AR搜寻者》（※13）和《宝可梦立体图鉴BW》（※14）那样，这次也想做出通过AR读取某些东西、让迷宫性质发生改变的机制。比如，路边常见的井盖，就很有迷宫入口的感觉。于是我就想，能不能做出“那个井盖里的敌人很强哦！”这样的玩法。
-  note: 长畑：指长畑圭一，本作制作人之一。
 - type: image
   image: /assets/img/interviews/2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/003.jpg
   alt: 社長が訊く『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 2. システム自体がドラマになる

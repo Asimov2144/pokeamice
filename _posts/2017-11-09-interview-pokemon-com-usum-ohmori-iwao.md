@@ -45,7 +45,7 @@ parallel_items:
   role: question
 - type: heading
   original: First Experiences & Joining GAME FREAK
-  translation: 第1节：从初代小玩家到入职 GAME FREAK
+  translation: "第1节：最初的接触与加入 GAME FREAK"
 - type: dialogue
   speaker: Pokemon.com
   original: What were your first experiences with the Pokémon brand as players? How did you end up working at GAME FREAK?
@@ -168,7 +168,7 @@ parallel_items:
   role: answer
 - type: heading
   original: Ultra Beasts, Mantine Surf & Competitive Balance
-  translation: 第5节：究极异兽设计差异、巨翅飞鱼冲浪与对战环境平衡
+  translation: "第5节：究极异兽、巨翅飞鱼冲浪与对战平衡"
 - type: dialogue
   speaker: Pokemon.com
   original: Do you take a different approach when it comes to designing Ultra Beasts than you would with a new Pokémon?

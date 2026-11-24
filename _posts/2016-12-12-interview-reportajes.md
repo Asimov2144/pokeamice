@@ -119,7 +119,7 @@ parallel_items:
   alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_003'
 - type: paragraph
   original: 'Ohmori : En este caso quisimos hacer un guiño a aquellos jugadores que siguen la saga desde Pokémon Rojo y Pokémon Azul, por eso hemos usado tantas referencias. Y por ejemplo, en lo que preguntabas sobre las formas regionales, queríamos un poco que en cada isla se sorprendiese a los jugadores con nuevas formas o evoluciones de Pokémon antiguos que sorprendiesen a aquellos que conocían ya a esas especies pero con una forma diferente; un ejemplo es Exeggutor, que en una de las islas aparece con un cuello muy largo. En el futuro, si encontramos una razón para hacer todo esto, definitivamente seguiremos haciéndolo porque se trata de algo muy interesante y que a la gente le ha gustado mucho.'
-  translation: 大森滋：在这种情况下，我们想向那些从《宝可梦 红／绿》就开始玩这个系列的玩家致敬，所以我们使用了这么多引用。例如，关于你问的地区形态，我们希望在每座岛屿上都能让玩家看到旧宝可梦的新形态或进化，让那些已经熟悉这些物种的玩家感到惊喜，因为它们以不同的形态出现；一个例子是椰蛋树，在其中一座岛上，它的脖子变得很长。未来，如果我们找到这样做的理由，我们肯定会继续做下去，因为这非常有趣，而且人们非常喜欢。
+  translation: 大森滋：在这种情况下，我们想向那些从《宝可梦 红／蓝》就开始玩这个系列的玩家致敬，所以我们使用了这么多引用。例如，关于你问的地区形态，我们希望在每座岛屿上都能让玩家看到旧宝可梦的新形态或进化，让那些已经熟悉这些物种的玩家感到惊喜，因为它们以不同的形态出现；一个例子是椰蛋树，在其中一座岛上，它的脖子变得很长。未来，如果我们找到这样做的理由，我们肯定会继续做下去，因为这非常有趣，而且人们非常喜欢。
   speaker: 大森滋
   role: answer
 - type: heading

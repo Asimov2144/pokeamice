@@ -126,7 +126,7 @@ parallel_items:
 - original: The Pokédex entry does say it crushes trainer’s spines…
   role: question
   speaker: Game Informer
-  translation: 宝可梦图鉴 App 的条目确实说它会压碎训练家的脊椎……
+  translation: "宝可梦图鉴的条目确实说它会压碎训练家的脊椎……"
 - original: In Sword and Shield you’ll see Bewear walking around in the Wild Area and it can be kind of nerve wracking! [Laughs]
   role: answer
   speaker: 大森滋
