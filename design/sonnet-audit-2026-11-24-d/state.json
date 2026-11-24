@@ -1,0 +1,300 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (fourth)",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed (not yet applied)",
+   "chars": 128902,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\shard-1.json",
+   "posts": [
+    {
+     "stem": "2019-11-13-interview-gi-2019-going-big",
+     "rows": 87,
+     "chars": 44086,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2019-11-13-interview-gi-2019-going-big.txt"
+    },
+    {
+     "stem": "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori",
+     "rows": 47,
+     "chars": 14633,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2017-10-19-interview-pocketmonsters-usum-iwao-ohmori.txt"
+    },
+    {
+     "stem": "2020-12-25-interview-corocoro-coco-okazaki-taiiku",
+     "rows": 57,
+     "chars": 9889,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2020-12-25-interview-corocoro-coco-okazaki-taiiku.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-crosstalk-scenario",
+     "rows": 34,
+     "chars": 7258,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2021-12-27-interview-gamefreak-crosstalk-scenario.txt"
+    },
+    {
+     "stem": "2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto",
+     "rows": 53,
+     "chars": 6916,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-crosstalk-programmer",
+     "rows": 25,
+     "chars": 5716,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2021-12-27-interview-gamefreak-crosstalk-programmer.txt"
+    },
+    {
+     "stem": "2019-12-11-interview-gamefreak-projectstory-giga-wrecker",
+     "rows": 17,
+     "chars": 5367,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2019-12-11-interview-gamefreak-projectstory-giga-wrecker.txt"
+    },
+    {
+     "stem": "2014-05-01-interview-tpc-global-business-hirobe",
+     "rows": 17,
+     "chars": 5164,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2014-05-01-interview-tpc-global-business-hirobe.txt"
+    },
+    {
+     "stem": "2025-12-06-interview-creatures-recruit-director",
+     "rows": 25,
+     "chars": 4930,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2025-12-06-interview-creatures-recruit-director.txt"
+    },
+    {
+     "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew",
+     "rows": 48,
+     "chars": 4658,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew.txt"
+    },
+    {
+     "stem": "2017-09-05-interview-gigazine-gamefreak-sketches-masuda",
+     "rows": 28,
+     "chars": 4438,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2017-09-05-interview-gigazine-gamefreak-sketches-masuda.txt"
+    },
+    {
+     "stem": "2013-10-10-interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie",
+     "rows": 38,
+     "chars": 4238,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2013-10-10-interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie.txt"
+    },
+    {
+     "stem": "2019-12-11-interview-gamefreak-projectstory-sword-shield",
+     "rows": 16,
+     "chars": 4106,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2019-12-11-interview-gamefreak-projectstory-sword-shield.txt"
+    },
+    {
+     "stem": "2000-12-14-interview-nom-crystal-new-elements-heroine",
+     "rows": 16,
+     "chars": 3795,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2000-12-14-interview-nom-crystal-new-elements-heroine.txt"
+    },
+    {
+     "stem": "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza",
+     "rows": 21,
+     "chars": 3708,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed (not yet applied)",
+   "chars": 128819,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2018-08-07-research-helixchamber-satoshi-tajiri-manga",
+     "rows": 146,
+     "chars": 36508,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2018-08-07-research-helixchamber-satoshi-tajiri-manga.txt"
+    },
+    {
+     "stem": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
+     "rows": 94,
+     "chars": 20587,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak.txt"
+    },
+    {
+     "stem": "2017-05-10-interview-pokemon-recruit-passion",
+     "rows": 40,
+     "chars": 11289,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2017-05-10-interview-pokemon-recruit-passion.txt"
+    },
+    {
+     "stem": "2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge",
+     "rows": 80,
+     "chars": 7507,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2008-10-21-scan-ndream-2008-12-masuda-rainbow-bridge.txt"
+    },
+    {
+     "stem": "2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets",
+     "rows": 29,
+     "chars": 6051,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-crosstalk-new-graduate",
+     "rows": 25,
+     "chars": 5727,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2021-12-27-interview-gamefreak-crosstalk-new-graduate.txt"
+    },
+    {
+     "stem": "2000-07-01-interview-nom-genesis-gamefreak",
+     "rows": 41,
+     "chars": 5482,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2000-07-01-interview-nom-genesis-gamefreak.txt"
+    },
+    {
+     "stem": "2019-12-11-interview-gamefreak-crosstalk-designer-2019",
+     "rows": 19,
+     "chars": 5218,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2019-12-11-interview-gamefreak-crosstalk-designer-2019.txt"
+    },
+    {
+     "stem": "2017-10-19-interview-famitsu-usum-ohmori-iwao-director",
+     "rows": 31,
+     "chars": 4967,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2017-10-19-interview-famitsu-usum-ohmori-iwao-director.txt"
+    },
+    {
+     "stem": "2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
+     "rows": 28,
+     "chars": 4712,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art.txt"
+    },
+    {
+     "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+     "rows": 44,
+     "chars": 4602,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium.txt"
+    },
+    {
+     "stem": "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
+     "rows": 45,
+     "chars": 4305,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline.txt"
+    },
+    {
+     "stem": "2001-11-01-interview-nom-2001-pokemon-mini-developers",
+     "rows": 34,
+     "chars": 4164,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2001-11-01-interview-nom-2001-pokemon-mini-developers.txt"
+    },
+    {
+     "stem": "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later",
+     "rows": 31,
+     "chars": 3963,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later.txt"
+    },
+    {
+     "stem": "2006-10-01-interview-nom-dp-underground-fossil-battle-report",
+     "rows": 13,
+     "chars": 3737,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2006-10-01-interview-nom-dp-underground-fossil-battle-report.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed (not yet applied)",
+   "chars": 128722,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2009-04-01-interview-nintendo-power-masuda-gens-1-4",
+     "rows": 75,
+     "chars": 33988,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2009-04-01-interview-nintendo-power-masuda-gens-1-4.txt"
+    },
+    {
+     "stem": "2011-03-01-interview-nintendo-power-bw-masuda-sugimori",
+     "rows": 58,
+     "chars": 20766,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2011-03-01-interview-nintendo-power-bw-masuda-sugimori.txt"
+    },
+    {
+     "stem": "2014-05-01-interview-tpc-youth-roundtable",
+     "rows": 53,
+     "chars": 11394,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2014-05-01-interview-tpc-youth-roundtable.txt"
+    },
+    {
+     "stem": "2019-10-25-interview-famitsu-sword-shield-masuda-ohmori",
+     "rows": 37,
+     "chars": 7639,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2019-10-25-interview-famitsu-sword-shield-masuda-ohmori.txt"
+    },
+    {
+     "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+     "rows": 58,
+     "chars": 7046,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife.txt"
+    },
+    {
+     "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+     "rows": 49,
+     "chars": 6024,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download.txt"
+    },
+    {
+     "stem": "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+     "rows": 26,
+     "chars": 5675,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama.txt"
+    },
+    {
+     "stem": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+     "rows": 32,
+     "chars": 5267,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination.txt"
+    },
+    {
+     "stem": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+     "rows": 41,
+     "chars": 5134,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality.txt"
+    },
+    {
+     "stem": "2018-05-12-interview-4gamer-2018-usum-fanmeeting",
+     "rows": 29,
+     "chars": 4749,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2018-05-12-interview-4gamer-2018-usum-fanmeeting.txt"
+    },
+    {
+     "stem": "2011-03-21-scan-ndream-2011-05-pokemon-typing-ds",
+     "rows": 64,
+     "chars": 4618,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2011-03-21-scan-ndream-2011-05-pokemon-typing-ds.txt"
+    },
+    {
+     "stem": "2015-10-01-interview-gamefreak-recruit-designers",
+     "rows": 24,
+     "chars": 4410,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2015-10-01-interview-gamefreak-recruit-designers.txt"
+    },
+    {
+     "stem": "2012-06-15-interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy",
+     "rows": 37,
+     "chars": 4235,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2012-06-15-interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy.txt"
+    },
+    {
+     "stem": "2026-07-23-interview-denfami-2026-cedec-pokerig",
+     "rows": 36,
+     "chars": 4019,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2026-07-23-interview-denfami-2026-cedec-pokerig.txt"
+    },
+    {
+     "stem": "2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages",
+     "rows": 32,
+     "chars": 3758,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-d\\dump\\2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages.txt"
+    }
+   ]
+  }
+ ]
+}

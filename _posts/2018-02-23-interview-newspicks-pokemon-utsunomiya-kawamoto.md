@@ -324,7 +324,7 @@ parallel_items:
   role: answer
 - type: narrative
   original: （編集：大高志帆　構成：相川いずみ　撮影：露木聡子）
-  translation: （编辑：大高志帆　构成：相川泉　摄影：露木聪子）
+  translation: （编辑：大高志帆　构成：相川いずみ　摄影：露木聪子）
 interviewee: NewsPicks, 宇都宫崇人, 河本拓
 source:
   title: NewsPicks

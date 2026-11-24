@@ -110,7 +110,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 第2章：キャラクターが決まるまで――属性の誕生と最初のポケモン
-  translation: 第1章：角色诞生始末——属性机制的诞生与最初的宝可梦
+  translation: "第2章：角色诞生始末——属性机制的诞生与最初的宝可梦"
 - speaker: N.O.M采访者
   original: ポケモンにはみずポケモン、くさポケモンなどのタイプがありますよね。このアイデアは最初からあったんですか？
   translation: 宝可梦有水属性、草属性之类的属性划分对吧。这个点子是一开始就有的吗？
@@ -150,7 +150,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 第3章：何度も作り直されたポケモン――破壊と構築のゲームフリーク流
-  translation: "第2章：无数次推倒重来的宝可梦——破坏与重构的 GAME FREAK 研发法"
+  translation: "第3章：无数次推倒重来的宝可梦——破坏与重构的 GAME FREAK 研发法"
 - speaker: N.O.M采访者
   original: 細かい部分は最初から決めてあったんですか？　それとも、どんどん追加していったんですか？
   translation: 细节部分是一开始就定好的吗？还是后来不断追加的？

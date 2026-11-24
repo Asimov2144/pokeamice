@@ -416,7 +416,7 @@ parallel_items:
   original: The idea of “the next Pikachu” obviously continued into future generations — Plusle, Minun, Pachirisu, Emolga, etc. Interestingly, Game Freak almost made White Pichu a special event Pokemon for HeartGold & SoulSilver, but ended up replacing it with Spiky-eared Pichu. You can read that full story here .
   translation: “下一个皮卡丘”的想法显然延续到了未来的世代——正电拍拍、负电拍拍、帕奇利兹、电飞鼠等等。有趣的是，GAME FREAK 差点让白色皮丘成为《心金／魂银》的特殊活动宝可梦，但最终用刺刺耳皮丘取而代之。你可以在这里阅读完整故事。
   speaker: Dr. Lava
-  note: 此处提到的“White Pichu”可能指异色皮丘，但根据上下文，可能是指一种特殊的白色皮丘设计。
+  note: 此处提到的“White Pichu”原文只写作 White Pichu，未作进一步说明。
   role: answer
 - type: image
   image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/028.jpg

@@ -125,7 +125,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/010.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_010
 - original: 『Z-A』は街灯にもこだわり、灯りによって表現方法を変え、スポットライトが円錐モデルだと気づかせない様々な処理をしたと、スパダフィーナ氏は語った。
-  translation: "Spadafina女士表示，《Z-A》在路灯上也下了功夫，根据灯光改变表现方式，并进行了各种处理，让人察觉不到聚光灯是圆锥模型。"
+  translation: "Spadafina表示，《Z-A》在路灯上也下了功夫，根据灯光改变表现方式，并进行了各种处理，让人察觉不到聚光灯是圆锥模型。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/011.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_011
@@ -134,7 +134,7 @@ parallel_items:
   original: キャラクターの描画と「ポケリグ」
   translation: 角色的绘制与“宝可梦绑定”
 - original: 今作のキャラはディファードとフォワードを用いて時間帯ごとに表現し、メガシンカのエフェクトは、ポケモンのサイズごとに設定したとスパダフィーナ氏は語った。
-  translation: "Spadafina女士表示，本作的角色使用延迟渲染和前向渲染按时间段进行表现，超级进化的特效则根据宝可梦的尺寸分别设置。"
+  translation: "Spadafina表示，本作的角色使用延迟渲染和前向渲染按时间段进行表现，超级进化的特效则根据宝可梦的尺寸分别设置。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/012.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_012

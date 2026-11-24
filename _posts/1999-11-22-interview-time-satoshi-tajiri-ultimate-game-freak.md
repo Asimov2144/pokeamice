@@ -136,7 +136,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: They fascinated me. For one thing, they kind of moved funny. They were odd. Every time I found a new insect, it was mysterious to me. And the more I searched for insects, the more I found. If I put my hand in the river, I would get a crayfish. If there was a stick over a hole, it would create an air bubble and I'd find insects there. I usually took them home. As I gathered more and more, I'd learn about them, like how some would feed on one another. So I stopped bringing them home. But I liked coming up with new ideas. Like how to catch beetles. In Japan, a lot of kids like to go out and catch beetles by putting honey on a piece of tree bark. My idea was to put a stone under a tree, because they slept during the day and like sleeping under stones. So in the morning I'd go pick up the stone and find them. Tiny discoveries like that made me excited.
-  translation: 它们令我着迷。首先，它们行动起来很有趣，很奇特。每当我发现一种新的昆虫，它对我来说都是神秘的。而且我越是寻找昆虫，找到的就越多。如果我把手伸进河里，就能抓到一只小龙虾。如果洞口上有根棍子，它会产生气泡，我就能在那里找到昆虫。我通常会把它们带回家。随着我收集得越来越多，我会了解它们，比如有些会互相捕食。所以我就不再带它们回家了。但我喜欢想出新的点子，比如如何捕捉甲虫。在日本，很多孩子喜欢出去，通过在树皮上涂上甜甜蜜来捕捉甲虫。我的想法是在树下放一块石头，因为它们白天睡觉，喜欢睡在石头下面。所以早上我会去搬开石头，找到它们。像这样微小的发现让我兴奋不已。
+  translation: 它们令我着迷。首先，它们行动起来很有趣，很奇特。每当我发现一种新的昆虫，它对我来说都是神秘的。而且我越是寻找昆虫，找到的就越多。如果我把手伸进河里，就能抓到一只小龙虾。如果洞口上有根棍子，它会产生气泡，我就能在那里找到昆虫。我通常会把它们带回家。随着我收集得越来越多，我会了解它们，比如有些会互相捕食。所以我就不再带它们回家了。但我喜欢想出新的点子，比如如何捕捉甲虫。在日本，很多孩子喜欢出去，通过在树皮上涂上蜂蜜来捕捉甲虫。我的想法是在树下放一块石头，因为它们白天睡觉，喜欢睡在石头下面。所以早上我会去搬开石头，找到它们。像这样微小的发现让我兴奋不已。
   role: answer
 - speaker: 时代周刊
   original: Did you have friends who collected insects?
@@ -144,7 +144,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: Usually all the kids did it the same way, with the honey. N one of my friends would do what I did. I got more insects than anyone.
-  translation: 通常所有孩子都用同样的方法，就是用甜甜蜜。没有一个朋友会像我那样做。我抓到的昆虫比任何人都多。
+  translation: 通常所有孩子都用同样的方法，就是用蜂蜜。没有一个朋友会像我那样做。我抓到的昆虫比任何人都多。
   role: answer
 - type: heading
   level: 3
@@ -410,7 +410,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: I was really careful in making monsters faint rather than die. I think that young people playing games have an abnormal concept about dying. They start to lose and say, "I'm dying." It's not right for kids to think about a concept of death that way. They need to treat death with more respect.
-  translation: 我非常谨慎地让宝可梦“濒死”而不是“死亡”。我认为，玩游戏的年轻人对死亡有一种异常的概念。他们开始输的时候会说“我要死了”。让孩子们以那种方式思考死亡的概念是不对的。他们需要以更尊重的态度对待死亡。
+  translation: 我非常谨慎地让宝可梦“昏厥”而不是“死亡”。我认为，玩游戏的年轻人对死亡有一种异常的概念。他们开始输的时候会说“我要死了”。让孩子们以那种方式思考死亡的概念是不对的。他们需要以更尊重的态度对待死亡。
   note: 田尻智在此强调宝可梦系列中“濒死”状态的设计理念，体现其对儿童教育的关怀。
   role: answer
 - speaker: 时代周刊

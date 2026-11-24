@@ -51,7 +51,7 @@ parallel_items:
 - type: header
   level: 3
   original: 2. 生まれかわったポケモン
-  translation: 2. 焕然一新的宝可梦：全3D多边形与鲜活生命力
+  translation: "2. 焕然一新的宝可梦"
 - type: dialogue
   speaker: 岩田聪
   original: 石原さんは、３Ｄ化についてはどうみていましたか？

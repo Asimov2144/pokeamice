@@ -108,7 +108,7 @@ parallel_items:
   role: answer
 - speaker: 杉森建
   original: “This is the second generation of Pokemon games on the Nintendo DS hardware. So from the visual side, we were focusing on the issue of “how do we make a game feel fresh when it’s on familiar hardware?” One of the ways was to use entirely new Pokemon, instead of mixing new and [existing] Pokemon the way we did in previous installments. Creating an entirely new ecosystem of Pokemon allowed us to return to square one in terms of design. So we already have Pokemon based on dogs, and horses, and deer, for example. But now that we’ve discarded our past work, in a sense, we can go back to the animals that have inspired Pokemon and study them with fresh eyes, and create new and different things.”
-  translation: 这是任天堂DS硬件上的第二世代宝可梦游戏。所以从视觉方面，我们关注的问题是“在熟悉的硬件上如何让游戏感觉新鲜？”方法之一就是使用全新的宝可梦，而不是像前几作那样混合新旧宝可梦。创造全新的宝可梦生态系统让我们在设计上回到了原点。例如，我们已经有基于狗、马和鹿的宝可梦。但现在，从某种意义上说，我们已经抛弃了过去的工作，可以重新审视那些启发宝可梦的动物，用全新的眼光研究它们，创造出新的、不同的东西。
+  translation: 这是任天堂DS硬件上的第二批宝可梦游戏。所以从视觉方面，我们关注的问题是“在熟悉的硬件上如何让游戏感觉新鲜？”方法之一就是使用全新的宝可梦，而不是像前几作那样混合新旧宝可梦。创造全新的宝可梦生态系统让我们在设计上回到了原点。例如，我们已经有基于狗、马和鹿的宝可梦。但现在，从某种意义上说，我们已经抛弃了过去的工作，可以重新审视那些启发宝可梦的动物，用全新的眼光研究它们，创造出新的、不同的东西。
   role: answer
 - type: image
   image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/004.jpg
@@ -119,7 +119,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: “For Black and White in Japan, the majority of the players have been high-school and college students, but we expect the proportion of younger players to increase over the holidays.” [This interview took place just prior to the holidays. -Ed.] “Generally, the older players are more familiar with the series while the younger players are new to it. However, we believe most of the older players are “lapsed” Pokemon fans. Maybe they played Red and Blue Versions when they were younger, but have not necessarily been playing it consecutively since.”
-  translation: “在日本的《黑／白》玩家中，大多数是高中生和大学生，但我们预计在假期期间，更年轻玩家的比例会增加。”【本访谈在假期前进行。——编者注】“一般来说，年长玩家对系列更熟悉，而年轻玩家则是新接触。然而，我们认为大多数年长玩家是‘流失’的宝可梦粉丝。也许他们年轻时玩过《红／绿》，但之后并不一定持续游玩。”
+  translation: “在日本的《黑／白》玩家中，大多数是高中生和大学生，但我们预计在假期期间，更年轻玩家的比例会增加。”【本访谈在假期前进行。——编者注】“一般来说，年长玩家对系列更熟悉，而年轻玩家则是新接触。然而，我们认为大多数年长玩家是‘流失’的宝可梦粉丝。也许他们年轻时玩过《红／蓝》，但之后并不一定持续游玩。”
   note: 《红／绿》指宝可梦系列最初版本，在海外为《红／蓝》。
   role: answer
 - speaker: 提问

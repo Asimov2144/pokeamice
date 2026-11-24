@@ -32,7 +32,7 @@ parallel_items:
   level: 2
   translation: 开发资料与采访视频
 - original: シリーズ累計販売本数が2億本を突破したゲーム「ポケットモンスター」のゲーム音楽を作曲したりディレクターやプロデューサーを務めてきた増田順一さんに、ポケットモンスター 赤・緑やポケットモンスターブラック・ホワイト、ポケットモンスター サン・ムーンなどの開発秘話を聞いたり初期デザインやアイデアスケッチなどを見せてもらう、という貴重なムービーが公開されています。An Exclusive Look At Pokémon’s Early Design Documents - YouTube
-  translation: Game Informer探访GAME FREAK，增田顺一公开早期手稿与采访视频系列累计销量突破2亿份的游戏《宝可梦》系列中，曾担任游戏音乐作曲、总监及制作人的增田顺一先生，近日接受了一次珍贵采访，谈及《宝可梦 红／绿》《宝可梦 黑／白》《宝可梦 太阳／月亮》等作品的开发秘辛，并展示了早期设计稿与创意草图。这段珍贵影像现已公开。An Exclusive Look At Pokémon’s Early Design Documents - YouTube
+  translation: "曾为累计销量突破2亿份的游戏《宝可梦》系列作曲，并担任过总监和制作人的增田顺一先生，接受了采访，讲述了《宝可梦 红／绿》《黑／白》《太阳／月亮》等作品的开发秘闻，并展示了初期设计和创意草图，这段珍贵的视频已经公开。"
 - type: image
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/yt_thumb.jpg
   alt: 原文所介绍的宝可梦开发资料视频

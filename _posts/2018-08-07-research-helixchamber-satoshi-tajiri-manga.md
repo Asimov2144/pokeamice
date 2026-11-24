@@ -135,7 +135,7 @@ parallel_items:
   alt: No. 29 ゴースト GHOST - GASTLY NOT RANKED.
   caption: No. 29 ゴースト GHOST - GASTLY NOT RANKED.
 - original: It’s a bit difficult to make out, but Gastly does have a mouth here. Has Haunter’s Japanese name, ゴースト “Ghost” , while surprisingly in the 1990 Capsule Monsters pitch it used to be called  ゴース “Ghos”, which ended up being its final Japanese name.
-  translation: 有点难以辨认，但鬼斯在这里确实有一张嘴。拥有鬼斯的日文名ゴースト“Ghost”，而令人惊讶的是，在1990年胶囊怪兽提案中它曾被称为ゴース“Ghos”，最终成为了它的日文名。
+  translation: 有点难以辨认，但鬼斯在这里确实有一张嘴。拥有鬼斯通的日文名ゴースト“Ghost”，而令人惊讶的是，在1990年胶囊怪兽提案中它曾被称为ゴース“Ghos”，最终成为了它的日文名。
 - type: heading
   level: 4
   original: No. 8?  - GENGAR NOT RANKED.
@@ -205,7 +205,7 @@ parallel_items:
   alt: No. 18 ガガース GAGARS - RHYDON NOT RANKED.
   caption: No. 18 ガガース GAGARS - RHYDON NOT RANKED.
 - original: This same sprite of Rhydon without its drill-horn was seen in the 1990 Capumon image. Apart from the horn, it looks similar to its final sprite. The print does suggest, however, that the shading was changed a little for the final.
-  translation: 这个没有钻角犀兽的钻角点阵图出现在1990年的胶囊怪兽图像中。除了角，它看起来与最终点阵图相似。然而，印刷品确实表明，最终版的阴影略有改变。
+  translation: 这个没有钻角的钻角犀兽点阵图出现在1990年的胶囊怪兽图像中。除了角，它看起来与最终点阵图相似。然而，印刷品确实表明，最终版的阴影略有改变。
 - type: heading
   level: 4
   original: No. 13 ベロリンガ BERORINGA - LICKITUNG CIRCLED.
@@ -305,7 +305,7 @@ parallel_items:
 - type: heading
   level: 4
   original: No. 46 ファンガス FUNGUS - PARASECT CIRCLED.
-  translation: 第46号 派拉斯特 FUNGUS - PARASECT 被圈出。
+  translation: 第46号 ファンガス FUNGUS - PARASECT（派拉斯特） 被圈出。
 - type: image
   image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_27_bifrihrfcfkaokpzg.jpg
   alt: No. 46 ファンガス FUNGUS - PARASECT CIRCLED.
@@ -315,7 +315,7 @@ parallel_items:
 - type: heading
   level: 4
   original: No. 47 ダッキー DUCKY - PSYDUCK CIRCLED.
-  translation: 第47号 可达鸭 DUCKY - PSYDUCK 被圈出。
+  translation: 第47号 ダッキー DUCKY - PSYDUCK（可达鸭） 被圈出。
 - type: image
   image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_28_vkrp2sp1ty26m6qzg.jpg
   alt: No. 47 ダッキー DUCKY - PSYDUCK CIRCLED.
@@ -325,7 +325,7 @@ parallel_items:
 - type: heading
   level: 4
   original: No. 48 スリーパー SLEEPER - DROWZEE CIRCLED.
-  translation: 第48号 催眠貘 SLEEPER - DROWZEE 被圈出。
+  translation: "第48号 スリーパー SLEEPER - DROWZEE（催眠貘） 被圈出。"
 - type: image
   image: /assets/img/interviews/2018-08-07-research-helixchamber-satoshi-tajiri-manga/helix_tajiri_29_bb19fprpygoa39bzg.jpg
   alt: No. 48 スリーパー SLEEPER - DROWZEE CIRCLED.
@@ -365,7 +365,7 @@ parallel_items:
   original: Block 3
   translation: 区块 3
 - original: Block 3 is the most bountiful of the four we have. Several early designs, names, and cut Pokémon are on this one, and it was the first to be posted online in May 2018. Of note here are several sprites that are marked with the triangle △ – none of those Pokémon are in the final game (since it meant “needs improvement”) except for Seel, whose design was overhauled significantly.
-  translation: 区块 3 是我们所拥有的四个区块中最丰富的。其中包含若干早期设计、名称和被砍掉的宝可梦，它也是 2018 年 5 月最早被发布到网上的。值得注意的是，这里有几个点阵图被标记了三角形 △——除了白海狮（Seel）之外，这些宝可梦都没有出现在最终游戏中（因为 △ 意味着“需要改进”），而白海狮的设计则经历了重大修改。
+  translation: 区块 3 是我们所拥有的四个区块中最丰富的。其中包含若干早期设计、名称和被砍掉的宝可梦，它也是 2018 年 5 月最早被发布到网上的。值得注意的是，这里有几个点阵图被标记了三角形 △——除了小海狮（Seel）之外，这些宝可梦都没有出现在最终游戏中（因为 △ 意味着“需要改进”），而白海狮的设计则经历了重大修改。
 - type: heading
   level: 4
   original: No. 54 コイル COIL - MAGNETON CIRCLED.

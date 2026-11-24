@@ -100,7 +100,6 @@ parallel_items:
   original: 'Mr. Ohmori: I first worked as a game designer on the Pokémon Ruby and Pokémon Sapphire games. I worked primarily on the game environments and communication features. For the television connectivity features, I came up with the initial concepts and worked on them to completion.'
   translation: 大森滋先生：我最初以游戏设计师的身份参与了《宝可梦 红宝石／蓝宝石》的开发，主要负责游戏环境和通信功能。对于电视连接功能，我提出了初始概念并负责完成。
   speaker: 大森滋
-  note: 电视连接功能可能指当时与电视节目的联动功能，如《宝可梦》动画或特别节目。
   role: answer
 - type: heading
   level: 3
