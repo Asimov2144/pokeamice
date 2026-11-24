@@ -1,0 +1,2035 @@
+[
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 57,
+  "kind": "number",
+  "original": "この映画、前作は○○億をかせぎだしました。",
+  "current": "前作席卷了数十亿票房",
+  "suggested": "“这部电影，前作赚了○○亿。这次的主题是超过那笔收入。”",
+  "why": "O 的金额是空缺占位“○○億”，T 擅自写成“数十亿”，并添加“更丰厚的收益”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 65,
+  "kind": "addition",
+  "original": "しかも僕には、ポケモンの図柄とＣＧがマッチするか、疑問だった。",
+  "current": "宝可梦原本温润的手绘线条能否与冰冷的CG贴图相融合，始终是要打上问号的",
+  "suggested": "而且我也怀疑，宝可梦的形象和CG是否搭配。",
+  "why": "O 没有“温润的手绘线条”“冰冷的CG贴图”这些修饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 66,
+  "kind": "addition",
+  "original": "それでもＣＧをどうしても出したかったのか、題名タイトルにはしっかり登場させていた。",
+  "current": "但上层大概无论如何都想在片头显摆一番CG技术，于是在电影的片名标题登场时，结结实实地用上了大段CG动画。",
+  "suggested": "尽管如此，大概还是无论如何都想用上CG，他们在片名标题里确实安排了CG登场。",
+  "why": "O 只说标题处用了CG，没有“显摆”“大段CG动画”“片头”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 70,
+  "kind": "addition",
+  "original": "この問題はとても微妙で、このコラムで適当なことを書くと大変なことになりかねない。",
+  "current": "倘若在专栏里随口胡言，很容易招致灭顶之灾",
+  "suggested": "但这个问题非常微妙，要是在这个专栏里随便乱写，可能会闹出大事。",
+  "why": "“灭顶之灾”“随口胡言”夸大了“大変なことになりかねない / 適当なこと”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 78,
+  "kind": "addition",
+  "original": "その発砲事件は差別問題が引き起こしたものだった。",
+  "current": "那起枪击案的诱因，正是敏感的部落歧视矛盾。",
+  "suggested": "那起枪击事件是由歧视问题引发的。",
+  "why": "O 只说“差別問題”，T 凭空加入“部落歧视”；同行还添加了“恶性”“满城风雨”“翻遍全报”等。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 102,
+  "kind": "addition",
+  "original": "貧乏街に泊まっているお金を持っていない日本人の男は、彼らにとって屑である。",
+  "current": "在傲慢的高卢人眼中简直如同垃圾草芥",
+  "suggested": "住在贫民区、没有钱的日本男人，在他们眼里就是废物。同样是日本人，对女性不知是不是有什么心思，总之格外亲切，但对日本男人连话都不肯说。",
+  "why": "O 没有“傲慢的高卢人”“垃圾草芥”之类的渲染，“有话想说”等也被改写。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 111,
+  "kind": "addition",
+  "original": "僕はその町で、同じ日本人から受けた事もない歓待をされた。",
+  "current": "至尊礼遇",
+  "suggested": "黄种人里的其他东方人会怎样我不知道，但我在那个小镇受到的款待，连同为日本人的人都从未给过我。",
+  "why": "“至尊礼遇”是 O 没有的夸饰。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 118,
+  "kind": "addition",
+  "original": "最高の女性に巡り合えた気がした。",
+  "current": "我心头甚至涌起一种寻觅到了今生挚爱的悸动",
+  "suggested": "也许是因为一个人待在德国吧，但我觉得自己遇到了最棒的女性。",
+  "why": "“今生挚爱”“悸动”超出 O 的“最高の女性”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 120,
+  "kind": "addition",
+  "original": "ドイツ語を勉強して、ドイツの脚本家になってやろうかとさえ思った、",
+  "current": "我甚至痴心妄想着索性狠狠自学德语，留在德国当个编剧算了",
+  "suggested": "我们在镇上唯一一家简陋的电影院里看了一部完全听不懂的德国电影，当时德国电影的水平不高（也许只是那一部而已），我甚至想过要学德语、做德国的编剧。",
+  "why": "“痴心妄想”“狠狠自学”“不知所云”是添加的渲染。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 135,
+  "kind": "addition",
+  "original": "しかし、そこには確かに差別があった。",
+  "current": "然而，那里确实存在着一道冰冷刺骨、绝不容逾越的歧视铁壁。",
+  "suggested": "然而，那里确实存在着歧视。",
+  "why": "“冰冷刺骨、绝不容逾越的铁壁”是 O 没有的夸张。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 138,
+  "kind": "addition",
+  "original": "しかし、ドイツ、いやドイツだけでなくヨーロッパ諸国では、差別されている人たちなのだ。",
+  "current": "他们是被深深钉在社会底层、世代遭受无形歧视的流浪族群",
+  "suggested": "但在德国——不，不只是德国，在欧洲各国，他们是被歧视的人。",
+  "why": "“社会底层”“世代”“流浪族群”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 141,
+  "kind": "addition",
+  "original": "けれど、外国で予期しない時に突然現れた差別はショックだった。",
+  "current": "带给我的精神冲击是毁灭性的",
+  "suggested": "然而，在国外毫无防备时突然出现的歧视，让我受到了冲击。",
+  "why": "“毁灭性”“无形之墙”是夸张添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 142,
+  "kind": "addition",
+  "original": "ミュウツーが、自分が生み出したコピーポケモンと本物のポケモンの戦いの末に感じたものは、もっと大きかったかもしれない。",
+  "current": "其心头所撕裂开的空洞与绝望，或许远比我当年所感受到的，还要深邃浩瀚得多。",
+  "suggested": "超梦在自己创造出的复制宝可梦与真正的宝可梦战斗到最后所感受到的东西，也许要大得多。",
+  "why": "O 只说“感じたものはもっと大きかったかも”，没有“撕裂的空洞与绝望”“深邃浩瀚”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 22,
+  "kind": "addition",
+  "original": "彼自身が自分の内部にある殺意の根源を見つけ出し解決しなければならない問題なのである。",
+  "current": "予以平息的孤绝课题",
+  "suggested": "他内心对他人的杀意是他自己的东西，是必须由他自己找出自己内部杀意的根源并加以解决的问题。",
+  "why": "“解決”被改成“平息”，并添加“孤绝”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+  "row": 33,
+  "kind": "addition",
+  "original": "実は、この両作品とも、読んだ方から、かなり高い評価をいただいた。",
+  "current": "读过这两部剧本的前辈与同行",
+  "suggested": "其实这两部作品，读过的人都给了相当高的评价。",
+  "why": "O 只说“读过的人”，没有“前辈与同行”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 1,
+  "kind": "mistranslation",
+  "original": "シリーズ・コンストラクションを降ろしていただいた後の脚本は",
+  "current": "在被正式免去电视版《宝可梦》‘系列构成’（Series Construction）的总编剧重任之后",
+  "suggested": "在我卸下电视版《宝可梦》系列构成之后，我决定写的剧本尽量不以对战为看点，也就是写和《宝可梦》动画正在确立的那种固定套路不同的东西。",
+  "why": "“降ろしていただいた”是谦称的“让我卸任”，全文(row 42)也说是自己请辞，T 译成“被免去”与之矛盾；整行另有“刻板套路与固定公式”等渲染。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 8,
+  "kind": "number",
+  "original": "2001年の「テッポウウオのそら！」あたりから、「ポッポとデカポット！まだみぬそらへ！！」を経て、2002年の「ヤドンのさとり！サトシのさとり！」に至るまで",
+  "current": "第212集《铁炮鱼的天空！》（テッポウウオのそら！），到第244集《波波与特大波波！飞向未见之天！！》（ポッポとデカポット！まだみぬそらへ！！），再到2002年的第260集《呆呆兽的顿悟！小智的顿悟！》",
+  "suggested": "从2001年的《铁炮鱼的天空！》前后，经过《波波与特大波波！飞向未见之天！！》，直到2002年的《呆呆兽的顿悟！小智的顿悟！》，零星可见的我的剧本作品就是这些。",
+  "why": "集数“第212/244/260集”在 O 中不存在，且末句“正是这段挣扎岁月的产物”也是添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 6,
+  "kind": "addition",
+  "original": "映画版やシリーズ・コンストラクションを降りた僕に、気を遣ってくれたのかどうか",
+  "current": "对大病初愈、且已主动退下电影与系列构成一线的我的照顾与体谅",
+  "suggested": "参加剧本会议的各位，不知是不是顾及已经退出电影版和系列构成的我，我带去的情节大纲几乎都直接放行了。",
+  "why": "“大病初愈”“一路绿灯”等是 O 没有的内容。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 12,
+  "kind": "addition",
+  "original": "むしろ、シリーズ・コンストラクションをやっていた頃の初期の脚本作品の方が",
+  "current": "誓要让宝可梦动画一炮打响’的狂傲狠劲",
+  "suggested": "反倒是做系列构成时期的早期剧本，虽然看上去什么都没做，也许是因为当时绷紧神经要让《宝可梦》动画成功，从整个《宝可梦》动画来看反而更加异色，也留在我的记忆里。",
+  "why": "“狂傲狠劲”“离经叛道、光怪陆离”“深深烙印”均为添加的夸饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 13,
+  "kind": "addition",
+  "original": "つまり、シリーズ・コンストラクションを降りたからこそ",
+  "current": "我脑海中根本挤不出任何能担得起这份野心的绝妙点子",
+  "suggested": "也就是说，正因为卸下了系列构成，我本想写出无论剧本会议上出什么异议、结果都会让人觉得‘做了真好’的电视尺寸《宝可梦》剧本，可最关键的剧本，和电影版的剧本一样，我就是想不出来。",
+  "why": "“宝座”“狂风骤雨”“拍案叫绝”“传世”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 14,
+  "kind": "addition",
+  "original": "これには参った。",
+  "current": "这当真让我彻底举手投降、无地自容。",
+  "suggested": "这让我很头疼。",
+  "why": "O 仅一句“参った”，T 扩写为“彻底举手投降、无地自容”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 15,
+  "kind": "addition",
+  "original": "「ポケモンの首藤と言われるようになってください」",
+  "current": "希望首藤先生有朝一日能够成为世人交口称赞的“宝可梦之首藤”！",
+  "suggested": "而且，《宝可梦》动画刚开始时，某位制作人大概是出于鼓励，对我说过“请成为被人称作‘宝可梦的首藤’的人”，而我在退出系列构成时，以健康不佳为理由的同时，不小心回答了“我不想被叫作宝可梦的首藤……”。",
+  "why": "“交口称赞”“混账话”“从心底里”等是 O 没有的夸张添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 16,
+  "kind": "addition",
+  "original": "『ポケモン』のプロデューサーからすれば、こんなに失礼に聞こえる答えはないだろう。",
+  "current": "世间恐怕再也没有比这更加狂妄、失礼且不知好歹的恶劣答复了",
+  "suggested": "也就是说，这句话听起来像是：正因为健康不佳，所以想优先写《宝可梦》之外想写的东西——事实上我确实有非写不可的东西——但从《宝可梦》制作人的角度看，没有比这更失礼的回答了。",
+  "why": "“狂妄、不知好歹的恶劣”及“所剩无几的宝贵精力”“心血结晶”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 17,
+  "kind": "addition",
+  "original": "僕は、自分の言葉に自分で追いこまれた。",
+  "current": "我被自己说出口的狂言妄语，彻底逼入了退无可退的万丈绝壁。",
+  "suggested": "我被自己说的话逼进了死角。",
+  "why": "“狂言妄语”“万丈绝壁”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 19,
+  "kind": "addition",
+  "original": "「こんなもののために、『ポケモン』のシリーズ・コンストラクションを降りたのか？」と失笑されるだろう。",
+  "current": "难道你当年主动扔掉《宝可梦》总编剧的黄金王座，就为了憋出这么一堆上不得台面的破铜烂铁？",
+  "suggested": "更何况，如果我想优先完成的包括小说在内的几部作品做得很糟，人们会失笑：“为了这种东西，就退出了《宝可梦》的系列构成？”",
+  "why": "“黄金王座”“破铜烂铁”“指着脊梁骨”为添加的夸饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 20,
+  "kind": "addition",
+  "original": "「なぜ、この不況下であんなにヒットしている『ポケモン』を降りるのか？」",
+  "current": "在如今整个日本经济陷入漫长平成大萧条的苦日子里，放着如此如日中天、大赚特赚的全球大金矿《宝可梦》不干，你到底吃错了什么药？",
+  "suggested": "事实上，我说要退出《宝可梦》电影、退出系列构成（也就是《宝可梦》动画的主编剧）时，家人和熟人几乎都反对：“为什么在这个不景气的时候，要退出那么热卖的《宝可梦》？”最后甚至有人说：“你是不是疯了？”“不管别人说什么，你都应该抱住《宝可梦》不放。”我记得这些话。",
+  "why": "“平成大萧条”“全球大金矿”“指着鼻子厉声痛骂”“冷嘲热讽”等均为 O 没有的添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 22,
+  "kind": "addition",
+  "original": "体調、精神状況、ともに最悪だった。何かというとすぐ倒れ入院した。",
+  "current": "我的肉体状况与精神心境双双坠入了万劫不复的无底深渊。稍有风吹草动，我整个人就会轰然倒地，被紧急送医抢救。",
+  "suggested": "身体状况和精神状况都糟透了。动不动就倒下、住院。",
+  "why": "“万劫不复的无底深渊”“轰然倒地”“紧急抢救”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 24,
+  "kind": "addition",
+  "original": "ＴＢＳの特番「2001まんがはじめて物語」の制作決定……",
+  "current": "TBS电视台敲定了元旦特别企划《2001漫画日本物语》（2001まんがはじめて物語）",
+  "suggested": "TBS的特别节目《2001まんがはじめて物语》确定制作……作为其前身、持续了13年的《まんがはじめて物语》系列，剧本制作的责任主要在我。特别节目若成功，系列也有可能重启。其中几位工作人员甚至来到小田原的医院和我开会。其中一人因为太忙，癌症发现得太晚，年纪轻轻就去世了。我还以为要先死也该是我……播出结果因各种因素而不上不下。2010年的现在企划似乎仍在推进。最近前作系列的工作人员悄悄办了个同学会，非常开心。",
+  "why": "“元旦”“开创性”“心如刀绞”等是添加；“はじめて物語”被译成“日本物语”也与原题不符；整行大幅夸写。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 25,
+  "kind": "addition",
+  "original": "念のため書いておく。",
+  "current": "特此记下一笔以正视听",
+  "suggested": "除此之外，还有几部没定期限就答应下来的舞台音乐剧……其中一部在企划六年后实现，两年后还再演过。顺便一提，它和今年上演的类似魔法少女的音乐剧完全是两回事。为保险起见写一下。",
+  "why": "“严苛死线”“口头契约”“以正视听”等为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 37,
+  "kind": "addition",
+  "original": "ＧＯサインが出て、書いている途中に考え込みだし、それっきりになってしまった。",
+  "current": "当场顺利拿到了全票通过的制作绿灯",
+  "suggested": "于是，说好的每月一本的《宝可梦》电视剧本一拖再拖，一直给工作人员添麻烦……我写的《宝可梦》剧本本来就都是和节目进展无关的番外篇式情节，所以首藤先生的剧本不排进轮换，“写好了再交就行”，这反而更添压力。有一次剧本会议上，我提出了一个以谁都没碰过的宝可梦为主角的大纲，拿到了GO的指示，写到一半我开始纠结，就此搁下了。现在连那只宝可梦的名字都忘了。我记得大概是一个像非洲猫鼬（ミーアキャット）的宝可梦成群出现的大纲。",
+  "why": "“全票通过”“压得我粉身碎骨的无形重轭”“宽容地表示”等为添加；O 只有GO的指示。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 38,
+  "kind": "addition",
+  "original": "脚本会議とはぷっつり音信不通となって",
+  "current": "制作委员会那边大概也是认定‘看来首藤刚志终究是再也不想写《宝可梦》了啊’，一切就此划上了无声的句号。",
+  "suggested": "在写那篇的途中，我因为身体不适又住院了……和剧本会议彻底断了联系，大概被判断为首藤刚志不想写《宝可梦》了，就这样不了了之。",
+  "why": "O 是“脚本会議”，T 写成“制作委员会”，并加入“无声的句号”等渲染。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 41,
+  "kind": "addition",
+  "original": "『ポケモン』の脚本、そして、２作まで書いた小説の３作目の話は出ない。",
+  "current": "《宝可梦》官方官方原著小说",
+  "suggested": "此后，我和《宝可梦》的工作人员有时在意想不到的地方碰面，也因别的事通过电话，但不会谈到《宝可梦》的剧本，也不会谈到写了两部的小说的第三部。小说停在第二部，似乎也没有别的作者出续作。",
+  "why": "“官方官方原著”重复且是添加，“极具默契”“岁月的尘埃”等也是添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 42,
+  "kind": "addition",
+  "original": "脚本家としての首藤剛志は、脚本執筆途中でいつの間にかいなくなったのである。",
+  "current": "对于《宝可梦》这艘庞大的旗舰",
+  "suggested": "也就是说，关于《宝可梦》，电影和系列构成我是请求退出的，但作为编剧的首藤刚志，是在写剧本的途中不知不觉消失了。",
+  "why": "“庞大的旗舰”“人间蒸发”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 45,
+  "kind": "addition",
+  "original": "僕のやれることは、ぎりぎりまでやった気もしないではないからだ。",
+  "current": "已经毫无保留地燃烧到了生命的最后一滴灯油",
+  "suggested": "因为关于《宝可梦》动画，我觉得自己能做的已经做到极限了。",
+  "why": "“燃烧到生命的最后一滴灯油”为夸张添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 47,
+  "kind": "addition",
+  "original": "今も毎年、『ポケモン』グッズを送ってくださるプロデューサーがいる。",
+  "current": "每年雷打不动地给我寄来最新的《宝可梦》官方周边与特产",
+  "suggested": "直到今天，每年仍有制作人给我寄《宝可梦》周边。",
+  "why": "“特产”“最新”“雷打不动”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 48,
+  "kind": "addition",
+  "original": "小田原市立図書館に保存していただく際",
+  "current": "无偿捐赠给小田原市立图书馆永久典藏",
+  "suggested": "我参与《宝可梦》时期的那批剧本，在小田原市立图书馆保存时，也有制作人给予了关照。",
+  "why": "“无偿捐赠”“永久典藏”“原始手稿”在 O 中没有。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 49,
+  "kind": "note",
+  "original": "いわゆる御前様とも、ある方のお葬式で偶然お会いした。",
+  "current": "指小学馆或角川高层",
+  "suggested": "（删除该注释，或改为“御前样：原文用语，指某位高层人物，身份原文未明说”）",
+  "why": "O 和同篇其他行都没有说“御前様”是谁，注释凭空断言是小学馆或角川高层；T 另把“葬式”译成“业界的告别仪式”并加“最高决策层实权人物”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 53,
+  "kind": "addition",
+  "original": "「がんばっているな」と感心するし、これからも続いてほしいと願っている。",
+  "current": "虔诚祈愿这部伟大的作品能够长长久久地继续繁衍昌盛下去",
+  "suggested": "我佩服地觉得“他们很努力啊”，也希望今后继续下去。",
+  "why": "“伟大”“虔诚祈愿”“繁衍昌盛”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 54,
+  "kind": "addition",
+  "original": "なんにしろ、１作目の脚本を書いたのは、僕なのだから……。",
+  "current": "无论这世道如何变幻沧海桑田——亲手写下这部传奇第一集剧本的人，终究是我首藤刚志啊……",
+  "suggested": "无论如何，写第一部剧本的人是我啊……",
+  "why": "“沧海桑田”“传奇”“第一集”均为添加（O 为“１作目”，指第一作）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 55,
+  "kind": "addition",
+  "original": "病室で他の作品群のこととごっちゃになって悩んでいた。",
+  "current": "我终日蜷缩在白色的病房里，脑子被各种其他作品的企划纠缠成一团乱麻，痛苦不堪。",
+  "suggested": "话说回来，《宝可梦》剧本中断的那段时间的我，在病房里把其他作品的事搅在一起，烦恼不已。",
+  "why": "“终日蜷缩在白色病房”“痛苦不堪”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 56,
+  "kind": "addition",
+  "original": "発見者は海辺にいたホームレスの方だそうで、海から助け上げて警察に通報したようだ。",
+  "current": "正是他拼死将我从惊涛骇浪中拉扯上岸",
+  "suggested": "不过身体恢复了……我以为出院了，结果某天深夜从家里溜了出去，第二天好像漂在小田原的海里——而且是满是消波块的危险海域。发现者据说是海边的流浪汉，把我从海里救上来并报了警。那位先生连名字都没告诉警察，所以没法道谢。",
+  "why": "“拼死”“惊涛骇浪”“冰冷刺骨”“骇然发现”及“救命之恩”“拾荒”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 57,
+  "kind": "addition",
+  "original": "僕は車を持っているのにもかかわらず、歩いていったらしい。",
+  "current": "徒步跋涉了无数里路硬生生走到了海边",
+  "suggested": "那片海边离小田原市内相当远，我明明有车，却好像是走着去的。",
+  "why": "“无数里路”“神志迷乱”“硬生生”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 59,
+  "kind": "addition",
+  "original": "僕は頭を数針縫う傷を負っていたが命に別条なく",
+  "current": "我的头部被暗礁撞裂缝了数针，所幸侥幸捡回了一条贱命",
+  "suggested": "我头上受了要缝几针的伤，但没有生命危险，本人没有自觉，警方判断为自杀未遂，做了问询，但我好像回答得莫名其妙。",
+  "why": "“被暗礁撞裂”“捡回贱命”“现场惨状”为添加，O 未说明伤因。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 60,
+  "kind": "addition",
+  "original": "処置に困った警察は、僕をとりあえずもよりの精神病院に入れた。",
+  "current": "将我转送至就近的公立精神病院临时羁押收治",
+  "suggested": "警方不知如何处置，先把我送进了最近的精神病院。",
+  "why": "“公立”“临时羁押”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 63,
+  "kind": "addition",
+  "original": "「あらま、どこをふらついているかと思えば、そんなところにいるんですか？」",
+  "current": "我还以为他大半夜又在街头哪个角落瞎转悠，怎么竟跑到精神病院去了？！",
+  "suggested": "“哎呀，我还在想他在哪儿晃悠呢，原来在那种地方啊？”",
+  "why": "“大半夜”“街头哪个角落”“长叹”“我的天”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 67,
+  "kind": "addition",
+  "original": "僕にとっては、とても勉強になった。",
+  "current": "对我这样一个以写作为生的人而言，简直是获益匪浅、大开眼界的人性大课堂。",
+  "suggested": "在那里看到的、看上去普通却有点坏掉的人们的行为，怎么说呢，对我来说很有学习价值。",
+  "why": "“以写作为生的人”“人性大课堂”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 69,
+  "kind": "addition",
+  "original": "この事件を、僕は別に隠そうとは思わない。",
+  "current": "对于这段骇人听闻的溺海濒死往事，我从未打算刻意遮掩隐瞒。",
+  "suggested": "这件事我并不想隐瞒。",
+  "why": "“骇人听闻”“溺海濒死”为添加，且与 O“自杀未遂/本人无自觉”的措辞不符。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 70,
+  "kind": "addition",
+  "original": "考えごとに熱中している時、その手助けにしろ市販している薬やアルコールを飲むなという教訓である。",
+  "current": "这是血淋淋买来的沉痛教训：人在极度沉迷于剧本构思与精神内耗时，千千万万不要妄图借助市售的精神药物与烈性酒精来催化灵感或麻痹神经，否则大祸必至。",
+  "suggested": "教训是：专心思考的时候，即使是为了帮助思考，也不要吃市售的药或喝酒。",
+  "why": "“血淋淋”“精神药物”“烈性酒精”“大祸必至”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 71,
+  "kind": "addition",
+  "original": "ちょうどその年、プロ野球の阪神が優勝した。",
+  "current": "在时隔多年后奇迹般夺冠！欣喜若狂的大阪球迷们纷纷成群结队跃入道顿堀川狂欢庆祝。",
+  "suggested": "恰好那一年，职业棒球的阪神夺冠了。狂喜的大阪球迷好几个人跳进了道顿堀。",
+  "why": "“时隔多年”“奇迹般”“成群结队”“狂欢庆祝”为添加；O 是“何人も（好几个人）”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 72,
+  "kind": "addition",
+  "original": "僕は阪神ファンである。だから、この出来事、阪神が優勝して喜んだ僕が、道頓堀の代わりに小田原の海に飛び込んだという笑い話にしている。",
+  "current": "我后来在酒桌上总是戏谑地把它当成笑柄讲给旁人听",
+  "suggested": "我是阪神球迷。所以我把这件事当作笑话来讲：为阪神夺冠高兴的我，没跳道顿堀，而是跳进了小田原的海。",
+  "why": "“自幼”“狂热铁杆”“酒桌上”“惨剧”及编造的引语为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 75,
+  "kind": "addition",
+  "original": "だが、いいおじさんがじたばたする話は語るのも恥ずかしいし",
+  "current": "一个上了岁数的油腻糟老头子在生活的泥坑里垂死挣扎的糗事",
+  "suggested": "但是，一个上了年纪的大叔手忙脚乱的事，说起来也难为情，听的人也不会觉得潇洒。",
+  "why": "“油腻糟老头子”“垂死挣扎”“泥坑”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 79,
+  "kind": "number",
+  "original": "このコラム全体を終わらそうと思う。",
+  "current": "以此来为这整整五年的连载专栏拉上大幕",
+  "suggested": "以此结束整个专栏。",
+  "why": "O 没有“五年”，且 row 80 明确说连载了“４年”，T 自相矛盾。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 80,
+  "kind": "addition",
+  "original": "このコラム、僕が僕自身を見直すコラムでもあったのだが、４年も続けて分かったのは",
+  "current": "原本也是我用来审视与清算自己前半生创作生涯的忏悔录；然而在跌跌撞撞连载了四年有余之后我终于大彻大悟——频繁地去推开尘封着过去创伤的潘多拉之门",
+  "suggested": "这个专栏也是我重新审视自己的专栏，但连载了四年才明白：过多地打开过去的门，对我自己的精神健康不好，心情总会变得消极。正因如此，我希望能对大家有所帮助。对积极向前的大家……",
+  "why": "“忏悔录”“潘多拉之门”“毁灭性”“火光”等为添加；“４年”被改成“四年有余”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 87,
+  "kind": "addition",
+  "original": "ボケやスカ映画のあまりの多さに辟易するはずである。",
+  "current": "必定会被那如过江之鲫般泛滥成灾的装疯卖傻、空洞无物的劣质大烂片恶心到退避三舍、扼腕叹息。",
+  "suggested": "你一定会对“ボケ”“スカ”之类的电影数量之多感到厌烦。",
+  "why": "“恶心到退避三舍、扼腕叹息”“过江之鲫”等为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 94,
+  "kind": "addition",
+  "original": "優れた既視感は、どこかで見たようでいながら、しかし新しい何かを、あなたに感じさせてくれる。",
+  "current": "但下一秒却能电光石火般带给你前所未有的崭新视听震撼",
+  "suggested": "出色的既视感，虽然像是在哪里见过，却能让你感受到某种新的东西。",
+  "why": "“电光石火”“前所未有的崭新视听震撼”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 99,
+  "kind": "addition",
+  "original": "アニメを他の映像媒体に移し替えるのではなく、アニメ自体の中で新しい表現を模索している。",
+  "current": "在动画这一载体内部进行着彻彻底底的本体语言革命",
+  "suggested": "他们不是把动画挪到其他影像媒介上，而是在动画本身之中摸索新的表现。",
+  "why": "“本体语言革命”“生搬硬套皮毛”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+  "row": 104,
+  "kind": "addition",
+  "original": "過去の名作が血肉になっているあなたが、今のアニメに新しい何かを持ち込むことができないはずはないと思うのだが、いかがですか？",
+  "current": "又怎可能无法给当下的日本动画注入划时代的全新生命力呢",
+  "suggested": "抱着这样的想法去写动画剧本的话，过去的名作已成为你血肉的你，不可能无法给现在的动画带来某种新东西，你觉得呢？",
+  "why": "“划时代的全新生命力”“气魄”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 1,
+  "kind": "addition",
+  "original": "前回、突然の休載で申し訳ない……突然なんかじゃなくて、しょっちゅうではないかという突っ込みは、あえて受け止める。",
+  "current": "‘什么突然断更啊，你这老头子根本就是三天两头家常便饭吧！’面对这般尖锐吐槽，老夫也唯有坦然受着了。",
+  "suggested": "上一期突然休载，非常抱歉……有人吐槽说这哪是突然，不是经常的事吗？这个吐槽我就老实接受了。",
+  "why": "O 没有“老头子”“老夫”“尖锐吐槽”等语气，是添加的戏剧化。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 2,
+  "kind": "addition",
+  "original": "周辺で、ゴールデンウィークに上演されるらしい某舞台ミュージカル（僕は関わっていません）をふくめたごたごたのせい",
+  "current": "身边那帮跳梁小丑要在五一黄金周强行上马某部野鸡舞台音乐剧",
+  "suggested": "要说是因为周围包括据说会在黄金周上演的某部舞台音乐剧（我没有参与）在内的一堆麻烦，那一半是玩笑——不过也没法一笑了之——为了应对与之相关的种种事情，我伤透脑筋，睡不着、没食欲、身体垮了，即便如此还坐在电脑前，结果昏了过去，醒来时间感觉错乱，这个专栏的截稿时间就这么过去了。很抱歉。",
+  "why": "“跳梁小丑”“野鸡”“侵权破事”“休克昏厥”“九霄云外”都是 O 没有的添加（O 并未说侵权）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 4,
+  "kind": "addition",
+  "original": "自分でもしぶといなあと呆れる。",
+  "current": "连我自己都对自己这股打不死的蟑螂般顽强韧劲感到哭笑不得。",
+  "suggested": "我自己也对自己的顽强感到无语。",
+  "why": "“打不死的蟑螂”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 9,
+  "kind": "number",
+  "original": "僕の場合は「ジュラシック・パーク」ではなく、幼稚園の頃に読んだ山川惣治氏の絵物語「少年ケニヤ」に登場するティラノサウルス以来のファンだから年季が入っている。",
+  "current": "算起来骨灰粉资历可有大半个世纪了",
+  "suggested": "我想男孩子大概都是这样，在恐龙里不知为何喜欢暴龙（T·雷克斯）。我不是因为《侏罗纪公园》，而是从幼儿园时读的山川惣治先生的绘物语《少年肯尼亚》里出现的暴龙起就是粉丝，所以资历很深。",
+  "why": "O 只说“年季が入っている”，T 编造“大半个世纪”这一年数，并添加“凶暴无匹”“神魂颠倒”等。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 14,
+  "kind": "addition",
+  "original": "ダーウィンの進化論はある。動物と人間の進化の過程を説明している。しかし、実際のポケモン世界に動物は人間とポケモンしかいない。いわゆる本物の動物はいない。",
+  "current": "同样白纸黑字写在教科书里",
+  "suggested": "达尔文的进化论是存在的，它说明了动物和人类的进化过程。但实际的宝可梦世界里，动物只有人类和宝可梦，没有所谓真正的动物。",
+  "why": "O 没提教科书、“半只都不存在”等，是添加渲染。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 18,
+  "kind": "addition",
+  "original": "過去に多くの学者が、ポケモンについて研究しているが、ある時期になるとぴたりと研究を止め、田舎にひきこもり、それ以上の研究発表をしなくなる。オーキド博士もその例にもれない。",
+  "current": "所有人都会不约而同地戛然而止、彻底封口，随后默默隐退避世、躲进穷乡僻壤的偏远乡村",
+  "suggested": "过去有很多学者研究过宝可梦，但到了某个时期就突然停止研究，隐居乡下，不再发表研究。大木博士也不例外。",
+  "why": "“满怀理想”“神秘临界点”“诡异宿命最具代表性的标本”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 22,
+  "kind": "addition",
+  "original": "何かこの世界の存在自体に、大きな秘密があるのではないか？",
+  "current": "难道说……这个宇宙的存在本身，从根基上就死死掩埋着某种颠覆一切的弥天大谎与终极黑幕吗？！",
+  "suggested": "这个世界的存在本身，是不是有什么大秘密？",
+  "why": "“弥天大谎”“终极黑幕”为添加（row 19 同类）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 25,
+  "kind": "addition",
+  "original": "ティラノサウルスの化石の目の部分に青い光がともる。そして、動きだす。一直線に、どこかを目指し、進んでいく。",
+  "current": "那具深埋地底千万年的冰冷霸王龙骨架眼眶深处，陡然亮起了诡异幽邃的苍蓝凶光！",
+  "suggested": "暴龙化石的眼部亮起蓝光，然后动了起来，笔直地朝着某处前进。",
+  "why": "“千万年”“诡异凶光”“轰然拔地而起”“朝着地图上的神秘终点”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 27,
+  "kind": "addition",
+  "original": "川も海も一直線に越えていく。",
+  "current": "遇山开山，遇水断流，跨越大江大河与茫茫大洋，狂暴横渡！",
+  "suggested": "河流和大海也笔直越过。",
+  "why": "“遇山开山，遇水断流”为添加（O 没有山）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 33,
+  "kind": "addition",
+  "original": "オーキド博士は、研究所をめちゃめちゃに踏みつぶされても「いつかこんな時が来ると思っていた。なぜ、こうなるのか分からんけれど……」",
+  "current": "大木博士狼狈爬出废墟，却只是仰天长叹",
+  "suggested": "大木博士即使研究所被踩得稀烂，也只是说：“我早就觉得总有一天会这样。虽然不知道为什么会变成这样……”",
+  "why": "“狼狈爬出废墟”“仰天长叹”“老夫”均为添加；row 34 的“意味深长的谶语”也是添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 55,
+  "kind": "addition",
+  "original": "実際のプロットは、もっと簡単で、生物学会が大騒ぎするあたりや、ダーウィンの進化論云々は、大幅に削ってある。",
+  "current": "递交给委员会的正规提案大纲其实精炼得多",
+  "suggested": "实际的大纲要简单得多，生物学会大骚动的部分和达尔文进化论云云都大幅删掉了。",
+  "why": "“递交给委员会”“正片开局”“大刀阔斧斩断”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 73,
+  "kind": "addition",
+  "original": "ゲーム制作側と、映画制作側にどんな事情があったかしらないが、映画版３弾には映画専用のポケモンは出さないということになった。",
+  "current": "不知当年游戏开发团队与电影制作委员会之间究竟达成了怎样的权力妥协，最终的硬性决议是：第三部电影绝不再推出任何电影原创的专属新神兽！",
+  "suggested": "不知道游戏制作方和电影制作方有什么情况，总之决定电影第三部不出电影专用的宝可梦。",
+  "why": "“权力妥协”“电影制作委员会”“神兽”“硬性决议”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 84,
+  "kind": "mistranslation",
+  "original": "「シートン動物記」の狼王ロボ。",
+  "current": "西顿名著《野性之火》里的狼王罗伯",
+  "suggested": "《西顿动物记》里的狼王罗伯。",
+  "why": "「シートン動物記」是《西顿动物记》，T 误译为《野性之火》；并添加“宁死不屈的巍然傲骨”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 90,
+  "kind": "number",
+  "original": "僕も、そういうつもりで書いてしまっている。",
+  "current": "在过去百余集剧本里也是心照不宣按照这套拟人套路写下来的",
+  "suggested": "我自己也是抱着这个想法在写。",
+  "why": "O 没有“百余集”这个数字。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 91,
+  "kind": "addition",
+  "original": "アニメ『ポケモン』は、ポケモンと人間のいる世界とは言いながら、実は人間だけしかいない世界の話になってしまう。",
+  "current": "放眼天地全他娘的是人类、只有人类独自在玩弄拟人游戏’的死寂自嗨世界啊",
+  "suggested": "这样一来，动画《宝可梦》虽说是宝可梦与人类共存的世界，其实就变成了只有人类的世界的故事。",
+  "why": "“他娘的”“死寂自嗨”等是添加的粗口和渲染。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 102,
+  "kind": "addition",
+  "original": "ところが、僕としては予想もしなかった理由から、いわゆる御前様全体脚本会議で、一瞬のうちに却下されてしまったのである。",
+  "current": "因为一个荒唐滑稽到极致的奇葩由头，在短短弹指一瞬间被当场无情枪毙了",
+  "suggested": "然而，因为一个我完全没有预料到的理由，它在所谓的“御前样全体剧本会议”上一瞬间就被否决了。",
+  "why": "O 只说“没料到的理由”，T 加入“荒唐滑稽到极致的奇葩”“无情枪毙”“各路高层大佬”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 106,
+  "kind": "addition",
+  "original": "僕が以前、関わった『ミンキーモモ』というアニメと似たような名前の舞台ミュージカルらしきものとは……。",
+  "current": "顶着与我昔日经典《甜甜仙子》（魔法小天使）近乎雷同名号招摇撞骗的野鸡舞台音乐剧",
+  "suggested": "和我以前参与过的动画《甜甜仙子》名字相似的、似乎是舞台音乐剧的东西……",
+  "why": "“招摇撞骗”“野鸡”为添加，且“魔法小天使”这一括注 O 没有。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 108,
+  "kind": "addition",
+  "original": "けれど、「現状だと無理だ」と言い、わざわざ僕の関わった他のミュージカルのＤＶＤを渡し",
+  "current": "但当时我便斩钉截铁奉劝对方‘以你们当下的底子根本是痴人说梦’；为了让他们知难而退，我还特意自掏腰包找来我操刀的其他成熟音乐剧DVD塞给他们",
+  "suggested": "但我说了“以现状来说不可能”，还特意把我参与过的其他音乐剧的DVD给了他们，并说了筹备期间、预算、人才等各种做不成的理由。所以我以为这事会当作玩笑结束……",
+  "why": "“自掏腰包”“痴人说梦”“掰开了揉碎了”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 110,
+  "kind": "addition",
+  "original": "ディズニーのように、ブロードウェイの非難をものともせず、大金をかけて才能を集め、まさに社運をかける気分で作った「美女と野獣」のような舞台ミュージカルなら",
+  "current": "赌上整间公司的百年气运去孤注一掷打造《美女与野兽》这种划时代殿堂级巨制",
+  "suggested": "但是，要把动画变成现场舞台音乐剧很难，何况是魔法少女动画。像迪士尼那样，不顾百老汇的非难，花大钱聚集人才、真的抱着赌上公司命运的心情制作的《美女与野兽》那样的舞台音乐剧，也许才会诞生成功的奇迹。毕竟原作动画本身就好到史上首次入围奥斯卡最佳影片候选，歌曲也好。但《美女与野兽》严格说不算魔法题材。只要把规模控制在两幕内，是能做的题材。",
+  "why": "“百年气运”“全美最顶尖的艺术宗师”“封神传世”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 119,
+  "kind": "addition",
+  "original": "もちろん、僕が書いたものではない。",
+  "current": "废话！那堆垃圾从始至终压根就不是出自老夫的笔下！",
+  "suggested": "当然，不是我写的。",
+  "why": "“废话”“垃圾”“老夫”为添加的辱骂语气。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 124,
+  "kind": "addition",
+  "original": "プロデューサーが意見を聞きたいと言って渋谷まで来た。",
+  "current": "那个厚脸皮的制片人打着‘务必虚心聆听首藤大师指导’的旗号，屁颠屁颠大老远一路堵到了涩谷我的面前。",
+  "suggested": "制作人说想听听意见，来到了涩谷。",
+  "why": "“厚脸皮”“屁颠屁颠”“堵到”及编造的“首藤大师指导”台词均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 127,
+  "kind": "addition",
+  "original": "「来てよかった」と言って帰っていったけれど、その制作会社には、アニメを作ったスタッフがもうほとんどいないから、ピンとこなかったようだ。",
+  "current": "那家伙临走前千恩万谢连呼‘大师指点胜读十年书’；然而那家空壳公司里当年真正参与过动画老版的老班底早就死伤殆尽散伙了",
+  "suggested": "他说着“来对了”就回去了，但那家制作公司里做过动画的工作人员已经几乎没有了，所以他似乎没听懂。而且我觉得这位制作人不太擅长和编剧打交道。",
+  "why": "“大师指点胜读十年书”是编造的引语，“空壳公司”“死伤殆尽”“二把刀”“侍奉大编剧”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 128,
+  "kind": "addition",
+  "original": "その後、脚本家が意見を聞かないから、脚本のままやる、と聞いた。",
+  "current": "他们请的那个二把刀编剧仗着资方撑腰狂妄自大，坚决拒不接受老夫的修改意见",
+  "suggested": "后来听说，因为编剧不听意见，所以就按剧本原样做。",
+  "why": "“二把刀”“仗着资方撑腰狂妄自大”“烂剧本”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 129,
+  "kind": "addition",
+  "original": "「電話番号を知りません」……なわけないだろう。",
+  "current": "——去你娘的吧！制片人手里没有自家主笔编剧的电话号码，天底下哪有这等鬼话？！",
+  "suggested": "我说：“那我直接给编剧打电话谈谈？”对方说：“不知道电话号码”……怎么可能。",
+  "why": "“去你娘的”“扯谎”“私人手机号”为添加的粗口与细节。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 131,
+  "kind": "addition",
+  "original": "そんなわけで、僕は、このミュージカルには関わっていないことになる。関わっていると言われると困る。",
+  "current": "但凡有人胆敢造谣说我为这部剧背书，老夫绝不轻饶！",
+  "suggested": "所以，我和这部音乐剧没有关系。如果有人说我参与了，我会很为难。",
+  "why": "O 只说“会很困扰”，T 写成“绝不轻饶”的威胁。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 132,
+  "kind": "addition",
+  "original": "そのうち、オリジナルストーリーでオリジナルキャラクターによる「鏡の国のプリンセス ミュージカル ミンキーモモ」という題名になった。",
+  "current": "再后来，他们做贼心虚，偷偷把海报上的剧名爆改成了一串又臭又长的免责补丁",
+  "suggested": "后来，题目变成了原创故事、原创角色的《镜之国的公主 音乐剧 甜甜仙子》。",
+  "why": "“做贼心虚”“偷偷”“海报”“免责补丁”在 O 中没有。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 134,
+  "kind": "addition",
+  "original": "で、そこで終わればいいんだけど……まだまだ続く。",
+  "current": "然而更恶心下作的狗血反转还在后头！",
+  "suggested": "要是到此为止就好了……但还没完。",
+  "why": "“恶心下作的狗血反转”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 135,
+  "kind": "addition",
+  "original": "初代のミンキーモモは人間に生まれ変わって、今どこにいるか。答えはロンドン。",
+  "current": "当年在动画正片里遭遇车祸遇难、随后转世投胎为普通人类小女婴的初代甜甜仙子",
+  "suggested": "在此提一个问题：初代的甜甜仙子转生为人类，现在在哪里？答案是伦敦。",
+  "why": "“遭遇车祸遇难”“小女婴”“大洋彼岸”为 O 没有的添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "row": 136,
+  "kind": "addition",
+  "original": "オリジナルキャラクターの「ミュージカル ミンキーモモ」、鏡の国からロンドンの郊外の町に来るそうだ。",
+  "current": "然而那部打着‘纯原创角色’大旗的野鸡音乐剧，竟然恬不知耻地设定",
+  "suggested": "原创角色的《音乐剧 甜甜仙子》，据说是从镜之国来到伦敦郊外的小镇。",
+  "why": "“野鸡”“恬不知耻”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 1,
+  "kind": "addition",
+  "original": "現実に存在したティラノサウルスの化石など出せば、『ポケモン』の世界観を壊す。そういう意見が当然出てくるだろうと思っていた。",
+  "current": "势必会引来‘这简直是在悍然践踏并砸烂《宝可梦》既定世界观’的激烈反对",
+  "suggested": "如果把现实中存在过的暴龙化石拿出来，会破坏《宝可梦》的世界观。我想肯定会有这样的意见。",
+  "why": "“悍然践踏并砸烂”“激烈反对”“跳出来攻讦”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 4,
+  "kind": "addition",
+  "original": "実際に世界を一周して、元に戻っってきた人たちがいる。",
+  "current": "历史上麦哲伦的船队早已用白骨与罗盘完成了环球航行，活着绕回了原点。",
+  "suggested": "实际上有人绕世界一圈回到了原点。",
+  "why": "O 没有提麦哲伦、白骨与罗盘。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 7,
+  "kind": "addition",
+  "original": "実際、地球が丸いのを観た者は、20世紀に宇宙飛行士が現れるまでいなかった。",
+  "current": "直到二十世纪加加林等宇航员冲出大气层之前，全人类历史上其实从未有任何一个人曾用自己的肉眼真正亲睹过‘地球是圆的’这一壮丽事实！",
+  "suggested": "实际上，在20世纪出现宇航员之前，没有人亲眼见过地球是圆的。",
+  "why": "O 没有提加加林，也没有“壮丽事实”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 9,
+  "kind": "addition",
+  "original": "主に宗教上の理由で地球は平らだと思っている人が現在もいる。",
+  "current": "出于原教旨宗教偏见而死死坚信‘大地是一块平底锅’的地平论信徒",
+  "suggested": "题外话，即便如此，这个地球上至今仍有人主要出于宗教上的理由，认为地球不是圆的而是平的。",
+  "why": "“原教旨”“平底锅”“科学昌明”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 24,
+  "kind": "addition",
+  "original": "僕の子供の頃、恐竜は爬虫類だといわれていたが、その説が最近あやしくなっている。",
+  "current": "在我穿开裆裤的昭和时代，教科书口口声声咬定恐龙是冷血爬行动物",
+  "suggested": "我小时候，恐龙被说成是爬行类，但这个说法最近变得可疑了。也有学说认为，本该灭绝的恐龙进化后至今仍活着。",
+  "why": "“穿开裆裤的昭和时代”“教科书”“冷血”“陈腐教条”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 23,
+  "kind": "addition",
+  "original": "赤、黄色、緑、青、それが混ざり合った色かもしれない。",
+  "current": "它们在远古极有可能是猩红、金黄、翠绿、蔚蓝五彩斑斓交织而成的绚烂羽衣！",
+  "suggested": "也许是红、黄、绿、蓝，或者这些颜色混合而成的颜色。",
+  "why": "“羽衣”“绚烂”为添加，暗示有羽毛，O 没有。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 36,
+  "kind": "addition",
+  "original": "しかも、幻の映画第３弾では、「いったいあれはなんだったんだろう？」「そして我々の世界はどんな世界なのだろう？」でエンドマークが出る。",
+  "current": "全片将在小智一行人仰望苍穹、喃喃自语着",
+  "suggested": "而且，在幻之第三部电影里，是以“那到底是什么呢？”“我们的世界又是怎样的世界呢？”结束并出现片尾的。",
+  "why": "“小智一行人仰望苍穹、喃喃自语”是 O 没有的添加（O 没说是谁说的台词）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 38,
+  "kind": "addition",
+  "original": "その理由は、「『ポケモン』の世界観を壊す」でも「『ポケモン』に訳の分からない余計なものを出すな」でも「テーマに難がある」でもない。",
+  "current": "而委员会枪毙它的荒谬借口",
+  "suggested": "而驳回的理由，既不是“破坏《宝可梦》的世界观”，也不是“不要在《宝可梦》里放莫名其妙的多余东西”，也不是“主题有问题”。",
+  "why": "“委员会”“荒谬借口”“枪毙”均为添加；O 说的是“主题有问题”，T 译成“思想主旨过于晦涩沉重”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 40,
+  "kind": "addition",
+  "original": "御前様がプロデュースした『ポケモン』以前のアニメに、ミニ四駆とタイアップした作品があり、その映画化がヒットしなかったというのだ。",
+  "current": "那位权柄遮天的大制片人‘御前样’在操刀《宝可梦》之前，曾亲自操盘过某部与迷你四驱车玩具深度联动的商业大IP；据说当年那部四驱车动画推出的剧场版大电影，最终票房遭遇了极度惨烈的滑铁卢滑坡！",
+  "suggested": "据说，在《宝可梦》之前，御前样制作的动画里有一部和迷你四驱车联动的作品，它的电影化没有卖座。",
+  "why": "“权柄遮天”“商业大IP”“惨烈的滑铁卢”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 43,
+  "kind": "number",
+  "original": "劇場版『ポケモン』との比較ならば、ほとんどの映画がヒットしたことにならないだろう。",
+  "current": "若是拿动辄斩获数十亿乃至近百亿的怪物级《宝可梦》剧场版作为参照系，全日本九成九的院线电影恐怕统统都得被开除‘爆款’之列！",
+  "suggested": "如果和《宝可梦》剧场版比，大多数电影都算不上卖座吧。",
+  "why": "“数十亿乃至近百亿”“九成九”是 O 没有的数字。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 47,
+  "kind": "addition",
+  "original": "ともかく、作品内容やテーマで否定されるなら反論のしようもあるが、ヒットするかしないかといわれれば、分かりませんと答えるよりない。",
+  "current": "老夫尚且能同你大战三百回合；但你若是一口咬定‘这玩意在商业市场上卖不出去’，那我除了苦笑以对‘谁他娘能未卜先知’之外，便再也无话可说。",
+  "suggested": "总之，如果是从作品内容或主题上被否定，我还有办法反驳，但要是问会不会卖座，我只能回答不知道。",
+  "why": "“大战三百回合”“谁他娘能未卜先知”等粗口与夸张为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 48,
+  "kind": "mistranslation",
+  "original": "第２弾はその年の日本映画では大ヒット、世界でヒットした日本映画として２位のものである。",
+  "current": "同样问鼎了当年全日本本土院线第一卖座宝座",
+  "suggested": "第二部在那一年的日本电影中算是大卖，在全世界卖座的日本电影里排第二。第一名当然是《宝可梦》剧场版第一部。",
+  "why": "O 只说“大ヒット”，没说是当年第一；T 另添加“惊天狂澜”“滔天票房”“奇迹神话”等。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 57,
+  "kind": "addition",
+  "original": "だが僕は、ティラノサウルスの化石の登場する作品が絶対ヒットするか、と聞かれれば、そこまでの責任はとれない。",
+  "current": "可你若是把刀架在我首藤刚志脖子上逼问我",
+  "suggested": "但如果问我，登场暴龙化石的作品是否一定会卖座，我没法负那么大的责任。",
+  "why": "“把刀架在脖子上”“赌咒发誓”“穷酸编剧”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 60,
+  "kind": "addition",
+  "original": "けれど、『ポケモン』は、僕と監督が「すいません」と言っただけではすまない大プロジェクトになっている。",
+  "current": "早已异化成了一头哪怕我和总监督在地上跪地磕头赔罪也无法挽回局面的庞然资本巨兽",
+  "suggested": "但《宝可梦》已经成了一个不是我和监督说一句“对不起”就能了结的大项目。",
+  "why": "“跪地磕头赔罪”“资本巨兽”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 68,
+  "kind": "addition",
+  "original": "だが、正直、気分はどっちらけで、脱力感に打ちのめされていたことは確かである。",
+  "current": "宛如被当头泼下一盆刺骨冰水，被前所未有的巨大虚无与脱力感彻底击得粉碎",
+  "suggested": "但说实话，我心里很扫兴，确实被脱力感击垮了。",
+  "why": "“刺骨冰水”“前所未有的巨大虚无”“击得粉碎”均为夸饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 69,
+  "kind": "addition",
+  "original": "なにせ半年近く考え続けていた作品だったからだ。",
+  "current": "毕竟那可是我从病榻点滴架下一路死磕、苦苦煎熬思索了大半年的全部心血之火啊！",
+  "suggested": "因为这是一部我持续构思了将近半年的作品。",
+  "why": "O 是“半年近く”，T 写“大半年”，并添加“病榻点滴架下”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 70,
+  "kind": "addition",
+  "original": "小田原に帰って、あびるほど焼け酒を飲んだ。",
+  "current": "狼狈逃回小田原的老宅后，我把自己死死锁在屋里，宛如自绝般狂灌着苦涩滚烫的烧心闷酒。",
+  "suggested": "回到小田原，我喝了很多闷酒。",
+  "why": "“把自己锁在屋里”“宛如自绝般”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 73,
+  "kind": "number",
+  "original": "他のポケモンはまだ決まっていないが、この４種類をメインにして映画を作れないかという。",
+  "current": "至于其他数百只新精灵何时出炉依然遥遥无期；制作委员会急头白脸找上门来，质问我能不能仅凭这四只新怪，生生攒出一台长达一个半小时的院线大戏！",
+  "suggested": "其他宝可梦还没有决定，但他们问能不能以这四种为主来做电影。",
+  "why": "“数百只”“一个半小时”“制作委员会”均为 O 没有的数字和主体。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 74,
+  "kind": "addition",
+  "original": "映画の上映とゲームの発売時期をリンクさせたいという。",
+  "current": "因为资方无论如何都誓死要把电影院线公映的黄金档期，与游戏发售的收割节点死死捆绑在一起协同敛财！",
+  "suggested": "他们说想让电影的上映和游戏的发售时间挂钩。",
+  "why": "“誓死”“收割节点”“敛财”为添加的评价。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 83,
+  "kind": "name",
+  "original": "「ミューツーの誕生」のプロット段階では、アイの名はミーだった。",
+  "current": "本叫作‘美’（Mii）",
+  "suggested": "在《超梦的诞生》的大纲阶段，爱（アイ）的名字是ミー（Mii）。",
+  "why": "O 只有假名ミー，T 擅自写成汉字“美”；row 85/86/100 的“美/小美”同样是臆造汉字。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 86,
+  "kind": "addition",
+  "original": "実は、僕の娘の名前は三穂という。略称がミー。",
+  "current": "背后藏着一个绝不能言说的真正私密由头——我首藤刚志的亲生女儿，本名叫作‘三穗’（Miho）；在家里，我们一贯宠溺地唤她的乳名为‘小美’（Mii）！",
+  "suggested": "我觉得对于虚幻的克隆人女孩来说，爱比ミー更合适，所以改了，不过还有一个理由。其实我女儿的名字叫三穂，简称ミー。",
+  "why": "“绝不能言说的私密”“宠溺”“乳名”为添加，“小美”为臆造汉字；O 只说“略称”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 89,
+  "kind": "addition",
+  "original": "娘が多感な青春時代を迎える頃には、僕はもういいじいさんだ。もしかしたら死んでいるかもしれない。",
+  "current": "稍有不慎，甚至早已化作一抔黄土长眠于地下了！",
+  "suggested": "这意味着，等女儿迎来多愁善感的青春期时，我已经是个老头子了，说不定已经死了。",
+  "why": "“行将就木的垂暮老翁”“一抔黄土”为夸张添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 95,
+  "kind": "addition",
+  "original": "こちらから、「君のお父さんは？」と話題を振っても、「いるわ」とか父親の職業を答える程度である。",
+  "current": "哪怕我主动小心翼翼试探一句‘令尊近来可好’，对方也往往只是冷淡地敷衍一句‘还在喘气呢’，或者随口报个职业头衔便戛然而止。",
+  "suggested": "即使我主动问“你爸爸呢？”，她们也只是回答“在呢”，或者说一下父亲的职业而已。",
+  "why": "“令尊近来可好”“还在喘气呢”“冷淡敷衍”为 O 没有的添加（row 94 的“月下畅谈”同）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 99,
+  "kind": "addition",
+  "original": "ならば、この映画を僕からの娘へのささやかなプレゼントにしようと思った。",
+  "current": "留给我亲生女儿的一份微薄而永恒的私人赠礼！",
+  "suggested": "就我个人而言，作为靠不住的写作职业的父亲，老了以后，对成长起来的女儿什么也做不了——女儿大概也不会期望什么。那么，我就想把这部电影作为我送给女儿的小小礼物。",
+  "why": "“落魄文人”“世俗庇护与财富”“公诸于全世界千万人眼前”“永恒”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 100,
+  "kind": "name",
+  "original": "だから、『結晶塔の帝王』の主人公の女の子の名前はミーにした。",
+  "current": "那位孤独傲慢的女主角小女孩的名字，被我堂堂正正焊死为了——‘小美’（ミー / Mii）！",
+  "suggested": "所以，我把《结晶塔的帝王》的女主角的名字定为ミー。",
+  "why": "“孤独傲慢”“焊死”为添加，“小美”为臆造汉字。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 104,
+  "kind": "mistranslation",
+  "original": "「まんがはじめて物語」シリーズの同窓会が、ＴＢＳの関係者専用のレストランで、ささやかに開かれた",
+  "current": "《漫画发现之旅》（漫画日本史）老班底的同窗小聚",
+  "suggested": "前些日子，在联系得上的人当中，只有时间方便的几位聚在一起，在TBS相关人员专用的餐厅里，小小地办了「まんがはじめて物語」系列的同学会。",
+  "why": "系列名被译成《漫画发现之旅》（漫画日本史），与同作者其他篇的译名也不一致，且是臆造；“贵宾餐厅”是添加（O 为相关人员专用）。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 108,
+  "kind": "addition",
+  "original": "僕の関わった魔女っ子ものの30周年を記念すると称するミュージカルのほうは、大混乱である。",
+  "current": "野鸡商业音乐剧闹剧，眼下却已然彻底演变成了一场全行业侧目的大混乱！",
+  "suggested": "不过，另一边号称纪念我参与的魔法少女作品三十周年的音乐剧，却是一片大混乱。",
+  "why": "“野鸡”“全行业侧目”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 109,
+  "kind": "addition",
+  "original": "オリジナルストーリーでオリジナルキャラクターによる、とあわてて題名に付け足しているが、ミンキーモモという名前が付いているから、まぎらわしい。",
+  "current": "他们虽然做贼心虚在海报上慌忙贴上了‘纯原创故事与原创角色’的补丁字眼",
+  "suggested": "他们慌忙在题名上加了“原创故事、原创角色”，但因为带着甜甜仙子的名字，所以容易混淆。设定也相似，所以不了解情况的旧动画《魔法公主 甜甜仙子》的旧工作人员和声优里，也会有人以为是旧动画的舞台音乐剧化，更不用说，老粉丝大概会误会。",
+  "why": "“做贼心虚”“海报”“发来贺电”“下三滥骗局”“蒙蔽得团团转”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 110,
+  "kind": "addition",
+  "original": "いつの間にか、旧アニメの原作や原案の名前が消されて、そのミュージカルには原作者名が載っている。",
+  "current": "当年老动画版权页上原本由我首藤刚志统领的原作与原案署名被他们大笔一挥悄然抹杀",
+  "suggested": "不知不觉间，旧动画的原作和原案的署名被去掉了，那部音乐剧上登出了一个原作者的名字。",
+  "why": "O 没说被抹去的署名是首藤的，也没说“版权页”；其余为渲染。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 113,
+  "kind": "addition",
+  "original": "旧アニメに関わった脚本家（40名近くいる）は、著作権の関係もあり、「告訴しろ」の声も多い。",
+  "current": "强烈敦促我：“首藤！立刻上法庭起诉这帮盗版贼寇！”",
+  "suggested": "至少，参与过旧动画的编剧（近40人）因为著作权的关系，也有很多“提起诉讼”的声音。",
+  "why": "O 没有这句直接引语，“盗版贼寇”“义愤填膺纷纷串联”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 116,
+  "kind": "addition",
+  "original": "ただし、特殊な契約をしていないかぎり、キャラクターデザイン、脚本、監督によっては著作権があるはずである。",
+  "current": "除非当年签下了苛刻的买断卖身契，否则角色核心视觉设计、台词文学剧本、以及监督的导演构图，依法百分之百享有坚不可摧的法定著作权！",
+  "suggested": "但是，只要没有签特殊的合同，角色设计、剧本、监督方面应该是有著作权的。",
+  "why": "“苛刻的买断卖身契”“百分之百”“坚不可摧”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 118,
+  "kind": "addition",
+  "original": "旧アニメに関わったスタッフは、今回のミュージカルを作る会社に１人いるだけ、当時の社長である",
+  "current": "这帮寄生虫狂妄地将《甜甜仙子》视作自己的私产玩物",
+  "suggested": "也就是说，没有取得旧动画工作人员的同意（参与过旧动画的人在这次制作音乐剧的公司里只有一人，就是当时的社长），他们自以为《魔法公主 甜甜仙子》是自己的东西，不知道旧动画是怎么做的，就硬要去赚钱，所以才引起混乱。",
+  "why": "“挂羊头卖狗肉的空壳公司”“寄生虫”“臭不可闻的弥天大丑闻”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 122,
+  "kind": "name",
+  "original": "２代目ミンキーモモの「ええだば音頭」は、キングレコードで録音されたが、そのバックコーラスはスタッフの手弁当である。",
+  "current": "第二代主题狂欢曲《江田巴音头》",
+  "suggested": "第二代甜甜仙子的“ええだば音頭”是在King Records录制的，伴唱是工作人员自带便当参加的。",
+  "why": "“ええだば”只有假名，T 臆造汉字“江田巴”；另把“合唱シーン”译成“大结局全员声泪俱下的大合唱”“含泪唱响”，均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 129,
+  "kind": "addition",
+  "original": "安心してください。ちゃんと、僕の知っているところにある。",
+  "current": "所有珍贵底稿，眼下全都安然封存在老夫亲信的严密保险库之中！",
+  "suggested": "剩下的大纲怎么样了？这种情况下也许有人会担心。请放心，它们好好地放在我知道的地方。",
+  "why": "“亲信”“严密保险库”“奸商盗用”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 131,
+  "kind": "addition",
+  "original": "全部ゴミとして捨てて、後で続編を作りたいという時、僕のところに借りにきたことがある。",
+  "current": "因为当年他们曾经把老台本统统当做生活垃圾扫地出门扔进焚化炉，后来闹着想拍续集时，竟然又厚着脸皮低三下四跑到老夫家里来借底稿复印！",
+  "suggested": "他们把全部都当垃圾扔掉了，后来想做续集时，还到我这里来借过。",
+  "why": "“焚化炉”“厚着脸皮低三下四”“复印”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+  "row": 134,
+  "kind": "addition",
+  "original": "つまり、そういう体質の会社なのである。",
+  "current": "这就是这家流氓企业刻进骨髓里的卑劣劣根性！",
+  "suggested": "也就是说，这是那种体质的公司。",
+  "why": "“流氓企业”“卑劣劣根性”为添加的人身攻击式措辞。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 16,
+  "kind": "addition",
+  "original": "だから、自己存在を賭けた戦いが始まる。",
+  "current": "于是，一场赌上各自自我存在唯一性的惨烈死斗就此轰然爆发。",
+  "suggested": "于是，一场赌上自我存在的战斗开始了。",
+  "why": "“惨烈死斗”“轰然爆发”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 35,
+  "kind": "addition",
+  "original": "昔『ポケモン』アニメを書いているある脚本家から「僕たち、脚本家の勝ち組ですね」と言われたのはさすがにびっくりしたが……。",
+  "current": "曾得意洋洋地对我说：“首藤老师，我们如今也算得上是编剧圈里的‘人生赢家组’了吧！”",
+  "suggested": "顺带一提，以前有一位写《宝可梦》动画的编剧对我说“我们是编剧里的赢家组呢”，这让我着实吓了一跳……",
+  "why": "“得意洋洋”“首藤老师”“当年”均为 O 没有的添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 36,
+  "kind": "addition",
+  "original": "二次著作権収入が普通の脚本家以上であることを意味しているのだろうが",
+  "current": "随之而来的衍生著作权版税分成远非寻常清贫编剧所能企及",
+  "suggested": "大概是指《宝可梦》动画大受欢迎，二次著作权收入比一般编剧多，但是，包括剧本在内，对于人创作的作品，虽然有好坏之分，用胜负来评价，我很有违和感。",
+  "why": "“全球大爆”“清贫”“荒诞”“精神寄托”等为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 37,
+  "kind": "addition",
+  "original": "創作作品を、金銭的儲けで優劣をつけるのは、何となく気持ちが悪いのである。",
+  "current": "怎么想都透着一股令人作呕的恶心",
+  "suggested": "用赚了多少钱来给创作作品分优劣，总让我觉得不舒服。",
+  "why": "“何となく気持ちが悪い”被夸大为“令人作呕的恶心”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 52,
+  "kind": "addition",
+  "original": "国家のリスクのかかったゲーム、戦争には金がかかるし、なにより大量の死者がでる。もっとも、なんだかんだと理屈をつけて、所詮は金もうけのための戦争がほとんどだが……。",
+  "current": "押上整个国家命运的最高赌局——战争，耗资何其巨大，更必然伴随着成千上万生命的灰飞烟灭。尽管政客总能巧立各种冠冕堂皇的名目，但追根究底，绝大多数战争不过是为了争夺金钱与利益而设的掠夺赌局……",
+  "suggested": "这么说有语病，但押上国家风险的游戏——战争，要花钱，更重要的是会死很多人。不过，找各种理由，大多数战争说到底都是为了赚钱……",
+  "why": "“成千上万”“政客”“冠冕堂皇”“掠夺赌局”等为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 62,
+  "kind": "addition",
+  "original": "ゲームに詳しい人達に言わせれば、とてもよくできたゲームとして評価が高かった。",
+  "current": "它被公认为极其出类拔萃的殿堂级神作，享有极高赞誉",
+  "suggested": "据熟悉游戏的人说，它作为做得很好的游戏评价很高。",
+  "why": "“殿堂级神作”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 70,
+  "kind": "addition",
+  "original": "現代の複雑な子供の世界にあっても、自分の思いどおりに動いてくれる友人というのは、理想的な存在だろう。",
+  "current": "在当代错综复杂、充满霸凌与排挤的儿童现实世界里，一个百依百顺、完全按自己心意行动的伙伴，是何等具有致命吸引力的完美存在。",
+  "suggested": "即使在现代复杂的孩子的世界里，能按自己想法行动的朋友，也是理想的存在吧。",
+  "why": "“充满霸凌与排挤”“致命吸引力”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 71,
+  "kind": "addition",
+  "original": "しかもそれは、１人だけでできるゲームである。",
+  "current": "更重要的是，这是一个完全可以独自一人深锁闺房沉溺其中的封闭游戏。",
+  "suggested": "而且那是一个一个人就能玩的游戏。",
+  "why": "“深锁闺房沉溺其中的封闭”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 85,
+  "kind": "addition",
+  "original": "ただし最近の過激でリアルな表現のバトルゲームは、子供や幼い大人への影響が気になりはするが……。",
+  "current": "动辄断肢飙血的血腥写实游戏，对于三观尚未定型的青少年与心智低幼的成年人究竟会带来何等潜移默化的毒害，确实令人忧心忡忡",
+  "suggested": "不过，对于最近那些表现激烈又写实的战斗游戏，我有点担心它们对孩子和幼稚的大人的影响……",
+  "why": "“断肢飙血”“毒害”“忧心忡忡”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 91,
+  "kind": "addition",
+  "original": "『ミュウツーの逆襲』は、ミュウツーの「自分とは何か」の問いから始まり",
+  "current": "恰恰是从超梦那声石破天惊的自我拷问“我究竟为何物”起始，一路引爆了克隆与本物的残酷歧视",
+  "suggested": "《超梦的逆袭》从超梦的“我是什么”之问开始，追问复制体与本物的歧视——游戏里的宝可梦虽然各有能力差异，但宝可梦之间没有歧视意识——最终变成了宝可梦之间复制体与本物赌上自我存在的战斗。",
+  "why": "“石破天惊”“引爆”“残酷”“不可逆转”“生存尊严”等为添加；“种族值”“同类阶级”也是添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 97,
+  "kind": "addition",
+  "original": "いつもは、自分の手持ちのポケモンに戦いの指示は出すものの、表現は悪いが、ポケモンの戦いを高みの見物している連中だ。",
+  "current": "往日里，这群人类总是趾高气扬地向手头的宝可梦发号施令、指点江山，说句不中听的粗俗大实话，他们不过是一群置身事外、隔岸观火的看客罢了！",
+  "suggested": "他们平时虽然会给自己手里的宝可梦下达战斗指示，但说得难听一点，是一群在高处观战的人。",
+  "why": "“趾高气扬”“指点江山”“粗俗大实话”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 98,
+  "kind": "addition",
+  "original": "それが『ミュウツーの逆襲』では、自己存在のために戦うポケモンたちを見て、言葉も出ない。",
+  "current": "训练家们吓得面如土色，连半句指令都发不出来！",
+  "suggested": "但在《超梦的逆袭》里，他们看着为自我存在而战的宝可梦们，说不出话来。",
+  "why": "“吓得面如土色”“扑上去肉搏厮杀”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 103,
+  "kind": "addition",
+  "original": "『ミュウツーの逆襲』のプロット自体は簡単なもので",
+  "current": "最初提交给制作委员会的",
+  "suggested": "《超梦的逆袭》的大纲本身很简单，只写了宝可梦里最强的超梦与小智和皮卡丘战斗的故事……这种程度。",
+  "why": "“提交给制作委员会”在 O 中没有。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 104,
+  "kind": "addition",
+  "original": "詳しいストーリーは、まず、ミュウツーとはどんなポケモンなのかを考えつつ、脚本を書きながら考えたといっていい。",
+  "current": "至于后续那些波澜壮阔的厚重情节，全是我在键盘前一边深思超梦到底是一只怎样的生灵、一边即兴狂飙铺陈开来的。",
+  "suggested": "详细的故事，可以说是一边思考超梦是怎样的宝可梦，一边写剧本时想出来的。",
+  "why": "“波澜壮阔”“即兴狂飙”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 107,
+  "kind": "addition",
+  "original": "僕が参加する以前に、『ポケモン』をどうアニメ化するか、ああでもないこうでもないと様々な意見が出ていて、その議事録が文章化されていた。",
+  "current": "在力邀我加盟之前，制作团队内部关于究竟如何把《宝可梦》搬上电视屏幕，早已经过无数轮无休止的激烈争辩，各方方案的会议纪要厚厚一叠。",
+  "suggested": "以前这个专栏也写过，在我参加之前，关于如何把《宝可梦》动画化，有各种各样的意见，会议记录已经整理成文。",
+  "why": "“无数轮”“激烈争辩”“厚厚一叠”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 109,
+  "kind": "mistranslation",
+  "original": "そもそも、ゲームサイドには、アニメ化自体を懸念する声もあった。",
+  "current": "在任天堂与游戏主创阵营内部",
+  "suggested": "而且，游戏方面本来就有对动画化本身表示担忧的声音。",
+  "why": "O 只说“游戏方（ゲームサイド）”，T 擅自加入“任天堂”，并添加“深怀戒备与疑虑”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 111,
+  "kind": "addition",
+  "original": "そこに、ポケモンバトルを否定するようなストーリーを書いていいのか。",
+  "current": "我竟然在影史首部大电影里，公然写出否定宝可梦战斗的剧情，这真的能被允许吗？！",
+  "suggested": "在这种情况下，能写否定宝可梦对战的故事吗？",
+  "why": "“影史首部大电影”“公然”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 113,
+  "kind": "addition",
+  "original": "だが、逆に、アニメ化を企画し奔走した方は、不満もあったようだ。",
+  "current": "那些当年为促成动画化东奔西走、立下汗马功劳的某些企划元老，对我交出的答卷却隐隐存有不满。",
+  "suggested": "不过反过来，策划并奔走促成动画化的人，似乎有些不满。",
+  "why": "“立下汗马功劳”“企划元老”“交出的答卷”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 116,
+  "kind": "addition",
+  "original": "だから、せっかく得たゲームサイドの好感を『ミュウツーの逆襲』でぶち壊したら、プロデューサーサイドは、全部反対派になってしまう。",
+  "current": "整个制作委员会与制片团队顷刻间便会全员倒向我的对立面！",
+  "suggested": "所以，如果好不容易得到的游戏方的好感被《超梦的逆袭》毁掉，制作人方面就会全部变成反对派。",
+  "why": "“制作委员会”“顷刻间”“砸得粉碎”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 117,
+  "kind": "mistranslation",
+  "original": "おそらく企画時にあっただろうすったもんだのあげく、シリーズ構成に僕の名前を出したのは総監督だろう。",
+  "current": "毫无疑问正是汤山邦彦总监督",
+  "suggested": "大概是企划时经过了一番纠纷之后，把我的名字提出来做系列构成的，应该是总监督吧。",
+  "why": "O 是推测（おそらく…だろう），T 译成“毫无疑问”，并添加“力排众议”“向高层力荐”及总监督姓名。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 119,
+  "kind": "addition",
+  "original": "プロデューサーサイドに反感を買うような脚本を書けば、総監督にまで迷惑がかかる。",
+  "current": "倘若我写出一部激怒所有出品人与赞助商的灾难剧本，不仅我自身万劫不复，连带引荐我的汤山总监督亦将被推向万劫不复的背锅深渊！",
+  "suggested": "如果写出让制作人方面反感的剧本，会连累总监督。",
+  "why": "“赞助商”“灾难剧本”“万劫不复的背锅深渊”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 120,
+  "kind": "addition",
+  "original": "だが、クライマックスシーンの描き方次第で、ポケモンバトルの否定は回避できる。",
+  "current": "然而，只要能在最高潮的高光场面上找寻到精妙绝伦的破局呈现，全面否定宝可梦战斗的毁灭性危机，是完全可以被化解融通的！",
+  "suggested": "不过，根据高潮场景的写法，可以避免否定宝可梦对战。",
+  "why": "“精妙绝伦”“毁灭性危机”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 121,
+  "kind": "addition",
+  "original": "どうすべきか。僕としては珍しく、一日だけ、小田原の海を見つめながら考えた。",
+  "current": "独自一人静静枯坐在小田原冰冷的海滩前，凝视着眼前白浪翻滚的浩瀚大海，陷入了前所未有的漫长沉思。",
+  "suggested": "该怎么办呢？这在我身上很少见，我只用了一天，一边看着小田原的海一边思考。",
+  "why": "“冰冷的海滩”“白浪翻滚”“前所未有的漫长沉思”为添加，且与 O 的“一日だけ”相左。",
+  "confidence": "high"
+ },
+ {
+  "post": "2020-03-01-interview-tpc-business-professionals",
+  "row": 0,
+  "kind": "addition",
+  "original": "株式会社ポケモン 採用サイト Pokémon Business Professionals 特集インタビュー「リーダーが語る、仕事との向き合い方」",
+  "current": "宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学",
+  "suggested": "株式会社宝可梦 招聘网站 Pokémon Business Professionals 特辑访谈「领导者谈面对工作的方式」",
+  "why": "T 的标题凭空添加“千亿IP护城河”“全球化经营哲学”“业务专员”，O 标题只是招聘网站特辑访谈“リーダーが語る、仕事との向き合い方”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 2,
+  "kind": "addition",
+  "original": "ゲームのクリエーターが、どういうつもりでミュウツーを遺伝子ポケモンという名称で分類したのかは分からない。",
+  "current": "外人无从知晓。游戏里他明明被塑造成战力断层登顶的“最强宝可梦”，却偏偏非要与当时社会上闹得沸沸扬扬的尖端基因伦理扯上干系，主创团队自始至终也未曾给出一个令人信服的清晰逻辑。",
+  "suggested": "至于游戏创作者是出于什么打算把超梦归类为“基因宝可梦”，我不知道。他在游戏里被设定为最强的宝可梦，但为什么与当时成为话题的基因问题有关，没有明确的答案。",
+  "why": "“战力断层登顶”“基因伦理”“始终未曾给出令人信服的逻辑”均为添加；“基因碎片”“赝品”也是渲染。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 4,
+  "kind": "addition",
+  "original": "ところが、没にして消したつもりのミュウがゲームのプログラミングのバグ（製造上の間違い）として残り、修正しきれずゲームのプレーヤーの操作のやり方次第で、何かの拍子にゲームに姿を現すこともあるという。",
+  "current": "当玩家在游戏中进行某些极其刁钻的反常按键组合与内存溢出操作时",
+  "suggested": "然而，本以为已经删掉的梦幻，作为游戏程序的Bug（制作上的失误）残留了下来，没能完全修正，据说根据玩家的操作方式，有时会在某个时机出现在游戏里。但那是由Bug登场的宝可梦，是本以为修正后已经消失的宝可梦，所以通常不会出现。不过这反而在游戏粉丝间成了话题，梦幻于是真的成了字面意义上的“幻之宝可梦”。",
+  "why": "“卡带ROM”“内存底层”“内存溢出操作”“都市怪谈疯传炸裂”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 5,
+  "kind": "addition",
+  "original": "ファンが、大勢増えてくる結果になった。",
+  "current": "蜂拥购买卡带并日夜钻研，竟成了推动宝可梦销量爆发式裂变的神助攻！",
+  "suggested": "本来，Bug对游戏来说应该是缺陷，是创作者不希望被发现的东西。但是在《宝可梦》的情况下，具有讽刺意味的是，想找到成为传闻的幻之梦幻（也就是由Bug产生的宝可梦）的粉丝越来越多。不过，那原本是不该存在的宝可梦，不能加进已完成的游戏。于是维持“幻之宝可梦”这一梦幻的定位，把超梦设定为用梦幻的基因造出的宝可梦。",
+  "why": "“推动销量爆发式裂变”“在线热补丁”“倒推补丁设定”等均为 O 没有的添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 7,
+  "kind": "addition",
+  "original": "ゲーム上でミュウツーがミュウとどんな関係にあるかは、「ミュウがミュウツーを生んだ」程度のセリフがある程度で、はっきりとはしていない。",
+  "current": "至于游戏里红莲岛研究所日记留下的“梦幻生下了超梦”",
+  "suggested": "至于游戏中超梦与梦幻是什么关系，只有“梦幻生下了超梦”这种程度的台词，并不明确，说明有点像是事后附加的。",
+  "why": "“红莲岛研究所日记”在 O 中没有；“阴谋论式”“天才开发人员”“全流程剧本厚度堪比百科全书”也是添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 9,
+  "kind": "addition",
+  "original": "『ポケモン』の10年ほど前に、『まんがはじめて物語』シリーズで、遺伝子操作をテーマにした回があったが、その脚本を書いたのは僕である。",
+  "current": "在20世纪90年代末期，整个全球科技界与大众媒体最焦灼的热点，正是人类基因组测序的破译与基因重组编辑技术。其实早在《宝可梦》开播前大约十年，我在统筹撰写《漫画日本史（はじめ物語）》系列时",
+  "suggested": "确实，当时科学最大的话题是基因的阐明和基因操作。在《宝可梦》大约十年前，《まんがはじめて物語》系列里有一集以基因操作为主题，那一集的剧本是我写的。",
+  "why": "“20世纪90年代末期”“人类基因组测序”“全球科技界”为添加；系列名“漫画日本史”是臆译。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 12,
+  "kind": "addition",
+  "original": "映画『ミュウツーの逆襲』が作られた頃、世界初のクローン羊が生まれた。確か「ドリー」とかいう名前だった。",
+  "current": "大不列颠的研究所向全球投下了一枚震撼弹——人类历史上第一只体细胞克隆哺乳动物横空出世",
+  "suggested": "电影《超梦的逆袭》制作的时候，世界上第一只克隆羊诞生了。我记得名字好像叫“多莉”。",
+  "why": "“大不列颠的研究所”“体细胞克隆哺乳动物”“震撼弹”为添加；后文“灭顶之灾”“井喷之势”“你以为替你擦黑板写作业的忠诚奴仆”也是夸饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 14,
+  "kind": "addition",
+  "original": "ミュウツーの「自分とは何か？」は観る者からは分かりやすい。",
+  "current": "“我究竟比那具复制品高贵在哪里？我的‘自我存在’究竟立足于何处？”",
+  "suggested": "于是，复制品与自己的区别是什么变得重要……原件本身也不得不问自己“与复制品不同的我是什么”“自我存在”。由梦幻的基因制造出的超梦也为“自我存在”而烦恼。这个主题对人类来说是不变的，不过超梦的“我是什么”对观众来说容易理解，因为促使他思考“我是什么”的契机是“并非自己所愿被造出来，还是别的生物的复制品”。超梦的烦恼容易描写。",
+  "why": "引语“我究竟比那具复制品高贵在哪里”是编造的，“狂妄的人类粗暴捏造”“廉价仿制品”“存在主义危机”等也是添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 15,
+  "kind": "addition",
+  "original": "怪物はインテリであり、人間に作られた「自分の自己存在の意味」を問い続ける。",
+  "current": "谈吐优雅且情感充沛的知性生命，他在天地间颠沛流离",
+  "suggested": "比如，创造出人造人“弗兰肯斯坦”的人类和那个怪物，雪莱的原作不是恐怖小说。怪物是知识分子，不断追问被人类造出的“自己存在的意义”。顺带一提，这部作品也描写了制造出怪物的“弗兰肯斯坦博士”的心情。创造生命本该是神的事业，这是描写做了这件事的人类与被造出的人“自我存在”的纠葛的小说。最终主题是“我是什么？”。复制者一方的心情容易理解。",
+  "why": "“好莱坞所矮化”“谈吐优雅”“颠沛流离”“石破天惊的古老谶语”等均为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 17,
+  "kind": "addition",
+  "original": "さらに「あの人って首藤剛志みたい」と言われたら、「あいつは俺じゃない」と言うだろう。",
+  "current": "“那个人写戏的风格跟你首藤刚志一模一样”，我更会嗤之以鼻：“那个冒牌货绝不是我！”",
+  "suggested": "如果再被说“那个人像首藤刚志”，我大概会说“那家伙不是我”。也就是说，复制品因为自己是复制品而烦恼“我是什么”，而原件，复制品越多，也越会思考“我是什么”。",
+  "why": "“写戏的风格”“冒牌货”“嗤之以鼻”“老子”“暴怒”等为添加，改变了语气与内容。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 20,
+  "kind": "addition",
+  "original": "自分が人間の都合で生まれてきた道具だからだ。そして、本物のポケモン自体も、人間にゲットされれば、ポケモンバトルに使われる道具である。",
+  "current": "那些所谓的野生正宗宝可梦，一旦被训练家收进精灵球，同样也彻底沦为了任由人类驱使、在斗技场上替主人争夺虚荣的工具奴隶罢了！",
+  "suggested": "这里有对本物难以摆脱的自卑，因为自己是为人类的方便而生的工具。而本物宝可梦自己，一旦被人类抓到，也是用于宝可梦对战的工具。如果沦为人类工具的原件被复制品打败，那么即使自己是复制品，也是超越本物的存在。之前也写过，超梦没有征服世界的野心，也不打算成为最强的宝可梦大师。比本物优秀的复制品……会成为既非本物也非复制品的另一种存在。超梦认为，成为那样的存在是抓住“我是什么”答案的线索。",
+  "why": "“杀戮工具”“斗技场上争夺虚荣的工具奴隶”“开天辟地的全新图腾”“终极钥匙”等均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 21,
+  "kind": "addition",
+  "original": "ミュウツーは、優秀なポケモントレーナーを招待し、彼らの持つポケモンと彼らの持つポケモンのコピーでバトルを催す。",
+  "current": "超梦广发战书，将关都地区最顶尖的训练家诱骗至孤绝的新岛要塞，强行拉开了正统宝可梦与克隆宝可梦的血腥决斗。",
+  "suggested": "超梦招待优秀的宝可梦训练家，让他们的宝可梦和这些宝可梦的复制品对战。",
+  "why": "O 是“招待”，T 写成“广发战书”“诱骗”“新岛要塞”“血腥”；还把“出てくるはず”（应该会出来）写成“必将现身与他决一死战”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+  "row": 22,
+  "kind": "addition",
+  "original": "種類こそちがえ自分と同じ境遇のコピーポケモンを、作ってしまったのだ。",
+  "current": "超梦在不知不觉中，竟活成了自己曾经最痛恨的造物主的残忍模样……",
+  "suggested": "然而，想要展示复制品的优秀，超梦没有注意到自己做了矛盾的事。他的“我是什么”的疑问，原本就始于自己是梦幻的复制品。而这个超梦用复制机接连造出其他宝可梦的复制品，造出了种类虽不同但与自己境遇相同的复制宝可梦。（待续）",
+  "why": "“天理难容”“罪恶滔天”“最痛恨的造物主的残忍模样”等为 O 没有的添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 1,
+  "kind": "addition",
+  "original": "『ルギア爆誕』で、ロケット団トリオを際立たせるためには、出番の少ない他の登場人物もそれぞれの自分らしさをしっかり描かなければならない。",
+  "current": "为了让火箭队三人组能够鹤立鸡群、绽放光芒，就必须把出场镜头寥寥无几的其他配角各自独有的“自我本色”扎得坚如磐石。",
+  "suggested": "在《洛奇亚爆诞》中，为了突出火箭队三人组，出场少的其他登场人物也必须各自扎实地描写出各自的个性。",
+  "why": "“鹤立鸡群”“坚如磐石”为添加的夸饰。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 6,
+  "kind": "addition",
+  "original": "それは、僕がカスミの存在感を目立たせるために用意したフェイク（ひっかけ）シーンである。",
+  "current": "我必须毫不留情地在此戳破：那纯粹是我为了在银幕上强行抢回小霞的存在感，而精心设下的“障眼法伪戏（Fake Scene）”罢了！",
+  "suggested": "有些观众觉得“我正好想去的地方恰巧有小智在”这句台词背后，隐藏着连小霞自己都没察觉的对小智的恋爱感情，但那是我为了突出小霞的存在感而准备的假动作（噱头）场景。",
+  "why": "“善解人意”“一厢情愿”“毫不留情地戳破”“强行抢回”等为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 9,
+  "kind": "addition",
+  "original": "『ポケモン』の重要なテーマは、いわゆる「スタンド・バイ・ミー」にすることは、すでにこのコラムで述べた。",
+  "current": "《宝可梦》的骨髓，本质上就是那一曲名为《伴我同行》（Stand by Me）的残酷少年物语。",
+  "suggested": "《宝可梦》的重要主题是所谓的“Stand by Me（伴我同行）”，这在这个专栏里已经说过了。",
+  "why": "“残酷少年物语”“反复强调”“骨髓”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 10,
+  "kind": "addition",
+  "original": "僕自身『魔法のプリンセス　ミンキーモモ』のエピソードで、何度も取り上げている。",
+  "current": "我也曾无数次撕开这一道伤口去反复咏叹",
+  "suggested": "人类不管愿不愿意都会变老、长大，这是极其普遍的人类主题，我自己在《魔法公主 甜甜仙子》的各集里也多次取材。",
+  "why": "“撕开伤口反复咏叹”“剥夺童真”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 16,
+  "kind": "addition",
+  "original": "そもそも、カスミというキャラクターには、サトシに恋愛感情をいだく要素がない。",
+  "current": "在小霞这个人设的底层代码里，本就根本找不到哪怕一丝一毫会对小智产生异性恋慕的化学要素。",
+  "suggested": "本来，小霞这个角色就没有对小智怀有恋爱感情的要素。",
+  "why": "“底层代码”“化学要素”为添加的夸饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 20,
+  "kind": "mistranslation",
+  "original": "料理におけるパセリのような存在である。あってもなくてもいいが、あった方が見栄えがいい。",
+  "current": "欧芹（香菜）",
+  "suggested": "就像料理里的欧芹（荷兰芹）一样的存在。有没有都行，但有的话更好看。",
+  "why": "パセリ是欧芹/荷兰芹，不是香菜（芫荽）；T 另添加“昂贵西餐盘”“饱腹”“赏心悦目”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 22,
+  "kind": "addition",
+  "original": "おまけに僕がシリーズ構成をしていた初期の『ポケモン』の脚本家陣は、全員男性だったから、カスミのキャラクターが個性的に描けていない。",
+  "current": "宝可梦初期黄金编剧班底里，清一色全是不折不扣的糙老爷们！这帮大男人",
+  "suggested": "而且，我做系列构成的初期《宝可梦》编剧阵容全是男性，所以没能把小霞的个性写出来。",
+  "why": "“黄金班底”“糙老爷们”“灵魂个性雕琢”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 26,
+  "kind": "addition",
+  "original": "最初に僕が考えていた『ポケモン』アニメは、ロケット団トリオが、大人になるサトシを追い抜いて「ポケモン世界」の永遠の主役になるラストのつもりだった。",
+  "current": "超越逐渐蜕变成长为无趣大人的小智，永远加冕为这片生机盎然的“宝可梦乌托邦世界”的永恒主角！",
+  "suggested": "事实上，我最初构想的《宝可梦》动画，结尾打算是火箭队三人组超过长大成人的小智，成为“宝可梦世界”永远的主角。",
+  "why": "“无趣大人”“生机盎然的乌托邦”“加冕”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 33,
+  "kind": "addition",
+  "original": "『ポケモン』は、外国に東洋人の顔の細目は受けないだろうという理由で、主役級のタケシの交代劇を行ったアニメである。",
+  "current": "曾因为高层瞎操心“眯眯眼的东洋人面孔恐怕在欧美海外市场不讨喜”，而干脆利落地把核心常驻主角小刚中途撤换过。如大家所知，后来发现小刚在海外反而大受欢迎，制作组这才不得不又屁颠屁颠地把他请回了主力阵营。",
+  "suggested": "《宝可梦》曾因为觉得东方人的细眼睛在国外不会受欢迎，而对主角级的小刚进行过换角。结果发现小刚在国外也受欢迎，如大家所知，他又回到了动画里。",
+  "why": "“高层瞎操心”“欧美”“屁颠屁颠”均为添加（O 只说“外国”）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 35,
+  "kind": "addition",
+  "original": "主役級の交代となると、一番危険性の高いのが存在感の薄いカスミだった。",
+  "current": "而一旦高层祭起“主角轮换”的屠刀，整支队伍里处境最岌岌可危、最容易成为刀下亡魂的，正是存在感最为薄弱的小霞！",
+  "suggested": "一说到主角级换角，最危险的就是存在感薄弱的小霞。",
+  "why": "“屠刀”“刀下亡魂”为添加（row 34 的“痛下杀手”同）。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 42,
+  "kind": "addition",
+  "original": "ポケモンアニメ制作の上層クラス並びに脚本陣のほとんどが男性だったことである。",
+  "current": "当年宝可梦制作核心高层以及编剧班底，几乎全被男性垄断霸占。",
+  "suggested": "对小霞抱歉的是，我最重视火箭队三人组。还有，这也许只是我个人的偏见，宝可梦动画制作的上层和编剧阵容大部分是男性。",
+  "why": "“垄断霸占”“毫无保留”“最高优先级”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 43,
+  "kind": "addition",
+  "original": "この業界の男性は、女性の魅力に色々目移りしがちだが、女性の魅力を引き出すことが苦手である",
+  "current": "虽然对各种女性美色眼花缭乱、垂涎欲滴",
+  "suggested": "这个行业的男性容易对女性的各种魅力目移，但不擅长引出女性的魅力（这是我的独断与偏见）。实际上据我有限的经验，这个行业的很多人追求女性的水平差得让人吃惊。我的持论是：追女性的诀窍是引出对方的魅力并赞美它。",
+  "why": "“垂涎欲滴”“笨拙低劣得令人发指”“目瞪口呆”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 58,
+  "kind": "addition",
+  "original": "実はこのシーン、脚本でのカスミは、息をしていないサトシの胸を何度もぶんなぐるのである。",
+  "current": "在我亲笔写下的最初分镜剧本里，面对停止呼吸的小智，小霞是用尽浑身力气、目眦欲裂地发狂连续猛殴小智的胸口！",
+  "suggested": "银幕上最终是人工呼吸使小智复苏，但其实这一幕在剧本里，小霞是多次殴打没有呼吸的小智的胸口。",
+  "why": "“目眦欲裂”“发狂”“用尽浑身力气”“分镜”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 59,
+  "kind": "addition",
+  "original": "サトシに生きていてほしいという愛ではなく、サトシに死なれて、自分の存在がより希薄になることへの怒りがこもっている、というつもりだった。",
+  "current": "那绝非什么俗不可耐的“求求你活过来”的廉价圣母爱意，而是因小智一旦丧命、自己的存在必将彻底化为灰烬虚无所爆发出的、歇斯底里的狂怒与生存绝叫！",
+  "suggested": "“要是小智死了，我在《宝可梦》里的位置算什么啊”——我的意图是，这里面蕴含的不是希望小智活着的爱，而是小智死了、自己的存在会更稀薄的愤怒。",
+  "why": "“廉价圣母爱意”“歇斯底里的狂怒与生存绝叫”“灰烬虚无”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 60,
+  "kind": "addition",
+  "original": "このシーン、外国では暴力シーンに誤解される恐れがあるという上層部の考えで、ぶんなぐりは消されてしまった。",
+  "current": "因制作委员会高层所谓“在欧美海外上映恐被扣上宣扬暴力虐待儿童罪名”的荒谬考量",
+  "suggested": "这一幕，因为上层认为在国外有可能被误解为暴力场景，殴打被删掉了。",
+  "why": "“制作委员会”“欧美”“虐待儿童罪名”“荒谬”均为 O 没有的添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 62,
+  "kind": "addition",
+  "original": "個性的なキャラクターで埋め尽くそうとした『ルギア爆誕』のなかで、カスミはごく普通の女の子になってしまった。",
+  "current": "小霞终究被体制化剪刀残忍剥夺了棱角，变回了一个极其平庸普通的花瓶女孩。",
+  "suggested": "在想用个性鲜明的角色填满的《洛奇亚爆诞》里，小霞变成了一个很普通的女孩。",
+  "why": "“体制化剪刀残忍剥夺”“花瓶”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 66,
+  "kind": "name",
+  "original": "声優さんにも気の毒だったが、他の方たちから「首藤という脚本家は女の子を書くのがうまい」と言われていた僕だけに",
+  "current": "这对于全情倾注的声优饭冢雅弓小姐而言固然无比残酷抱歉",
+  "suggested": "对声优也很过意不去，而且我是被人称赞“首藤这位编剧擅长写女孩子”的人，所以《宝可梦》的小霞对我来说也是相当痛的存在。",
+  "why": "O 没有写出声优姓名，T 添加“饭冢雅弓”；“深刻骨”“巨大创口”也是添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 69,
+  "kind": "addition",
+  "original": "アニメスタイルの編集の方からも「早く『ルギア爆誕』の話の先にいきましょう」と言われているだけに申し訳ない。",
+  "current": "WEB Anime Style编辑部的主编也早就火急火燎地催促我“首藤老师，咱们赶快聊完《洛奇亚爆诞》往后推进吧”",
+  "suggested": "Animestyle的编辑也说“快点接着《洛奇亚爆诞》的话题往下讲吧”，所以很抱歉。",
+  "why": "“主编”“首藤老师”“火急火燎”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+  "row": 70,
+  "kind": "addition",
+  "original": "次回こそ『ルギア爆誕』におけるロケット団トリオの立ち位置と彼らの意識の話を書きますのでお許しください。",
+  "current": "下一回！我保证下一回定将毫无保留地全盘托出《洛奇亚爆诞》中火箭队三人组的真正灵魂站位与崇高自我意识！还望各位读者大人海涵见谅！",
+  "suggested": "下回一定写《洛奇亚爆诞》中火箭队三人组的位置和他们的意识，请原谅。",
+  "why": "“保证”“毫无保留全盘托出”“崇高”“读者大人”为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 8,
+  "kind": "addition",
+  "original": "聖書と違った新しい考え方は罰せられる。",
+  "current": "提出不同于圣经的新思潮更是要遭受异端审判的极刑之灾",
+  "suggested": "有《圣经》这样的教科书，违背它的人和有不同想法的人会被训斥，与圣经不同的新想法会被处罚。对想随心所欲生活的人来说，那是个很窒息的时代。这被称为中世纪的黑暗时代。",
+  "why": "O 只说“罰せられる”，T 添加“异端审判”“极刑之灾”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 14,
+  "kind": "name",
+  "original": "「美しき黄昏のパバーヌ」という「とんでも」（？）小説",
+  "current": "《美丽黄昏的孔雀舞》",
+  "suggested": "《美丽黄昏的帕凡舞》",
+  "why": "パバーヌ 是 pavane（帕凡舞），T 把词源意译成“孔雀舞”，与同一帖 row 10 相同；另 T 加入“堂堂正正”“绝对能在全球引发深刻共鸣”等 O 没有的夸饰。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 16,
+  "kind": "addition",
+  "original": "「所詮、おまえは、コピーにすぎない」といたぶるセリフがいっぱいあった。",
+  "current": "“你充其量不过是个见不得光的劣等克隆品罢了！”这番恶毒的言语疯狂挑动着超梦深埋骨髓的自卑与自我否定，使它对原生正统的宝可梦燃起了滔天的仇恨与敌意。",
+  "suggested": "但是，如果这样带有哲学味的主题赤裸裸地出现，大概会被制作方讨厌。剧本第1稿《超梦的逆袭》里，有很多原版梦幻折磨作为梦幻复制品的超梦的台词，说“你说到底不过是复制品”。这些台词触动超梦的自卑感，让他更加对原版宝可梦燃起敌意。也就是说，第1稿里梦幻有好几句台词。",
+  "why": "引语被加入“见不得光的劣等”，且“滔天仇恨”“弃如敝履”“制作委员会和商业制片方”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 21,
+  "kind": "addition",
+  "original": "無邪気に、ミュウツーの前を飛び回るだけで、ミュウツーの怒りを増長させる演出に自信があるのなら、ミュウとミュウツーが、べらべらしゃべりあうよりずっと効果がある。",
+  "current": "那效果绝对比让两只宝可梦像吵架一样滔滔不绝互喷台词高明上万倍。",
+  "suggested": "如果对“梦幻只是天真地在超梦面前飞来飞去，就能助长超梦的愤怒”这样的演出有自信，那比梦幻与超梦滔滔不绝地对话要有效得多。《超梦的逆袭》第2稿把梦幻的台词全部删掉，只让它偶尔嘟囔一句自己的名字“Myu”。",
+  "why": "“高明上万倍”“分镜与动作设计”“连根砍光”均为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 22,
+  "kind": "addition",
+  "original": "ミュウがなにもしゃべらないから、ここは、ミュウツーの声をやる方の独壇場の、聞かせどころになった。この方については、後で紹介する。",
+  "current": "成为了全片最震撼人心的灵魂倾诉。关于这位声优的传奇，我稍后再作详述。",
+  "suggested": "因为梦幻什么也不说，这里成了为超梦配音的人的独场，是听点。这位我之后再介绍。",
+  "why": "“全片最震撼人心”“传奇”为 O 没有的添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 27,
+  "kind": "addition",
+  "original": "この脚本は、賛否両論だったらしい。アクションが少ない。テーマが暗い。だが、この脚本会議に僕は出ていないので",
+  "current": "据说这份第2稿剧本在制作委员会内部掀起了轩然大波，赞否两极分化极其尖锐。",
+  "suggested": "这份剧本据说褒贬不一：动作戏少，主题阴暗。不过我没有出席这个剧本会议，所以不知道谁赞成谁反对。不知是不是那个结果，关于动作，监督追加了小智为了救皮卡丘而破坏宝可梦复制机的场面。他也许觉得，就算对我说，我也不会加。",
+  "why": "“制作委员会”“轩然大波”“用血肉之躯硬撼”“固执的我”“绝不肯妥协”等为添加；“会议施压”也非 O 内容。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 28,
+  "kind": "number",
+  "original": "『ポケモン』の映画版は関係者が多いし、第１作でもあるし、当然、脚本が多数印刷されるしで",
+  "current": "剧本定稿需要油印分发几百册传阅",
+  "suggested": "《宝可梦》电影版相关人员多，又是第一部，剧本当然会印很多份，所以监督不能在分镜里随意加这种场景，否则会有“和剧本不一样”的抱怨。",
+  "why": "“油印”“几百册”是 O 没有的数字与细节，“版权方与委员会高层”“严厉问责”也是添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 30,
+  "kind": "addition",
+  "original": "結果は「泣かせる名場面」という事になっているのだが、これでいのかなあという気もする。",
+  "current": "皮卡丘泪流满面不断释放十万伏特试图唤醒伙伴。然而于我而言，皮卡丘那疯狂倾泻的电击，我绝不希望被观众仅仅浅薄地理解为“为了伟大的友情”！尽管在世人评价中这一幕被奉为“影史最催泪的名场面”",
+  "suggested": "这部电影接近结尾处有一幕，皮卡丘用电击想让变成石头的小智复活，我不希望观众认为那电击只是为了“友情”。结果它成了“催泪的名场面”，但我也觉得这样好不好。基本上，这就是剧本第2稿的监督修订版。",
+  "why": "“泪流满面”“十万伏特”“影史最催泪”“浅薄”等为添加，“弃之可惜”式夸饰。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 33,
+  "kind": "note",
+  "original": "（……なお、これは、ＤＶＤやビデオになっている完全版とは違う。完全版には、ミュウツーの誕生までが、タイトル前に付け加えられている）",
+  "current": "完全版在片头前进一步追加了讲述小爱与超梦幼年克隆记忆的长篇序幕",
+  "suggested": "这与DVD和录像带版的完全版不同，完全版在片名前追加了直到超梦诞生为止的内容。",
+  "why": "O 只说追加了“直到超梦诞生”，注释擅自写成“小爱与超梦幼年克隆记忆的长篇序幕”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 34,
+  "kind": "addition",
+  "original": "監督がどこで、市村正親氏を知ったかは知らない。だが、僕はその名前も芝居も見ていた。",
+  "current": "剧团四季的泰斗巨擘、名满天下的舞台剧巨匠：市村正亲先生！我不知道监督是在哪部戏中捕捉到了市村先生的魔力，但我对这位莎剧大师的名字与台词功力如雷贯耳。",
+  "suggested": "我正为难，监督说有想让他配超梦的人，居然是市村正亲先生。我不知道监督是在哪里知道市村先生的，但我知道他的名字，也看过他的戏。听说监督提名市村先生做超梦候选时，我说“太好了！”。如果超梦是市村先生，“第一场戏”马上就能写出来了。（待续）",
+  "why": "“剧团四季”“莎剧大师”“名满天下”“如雷贯耳”“殿堂级”等均为 O 没有的添加，“一气呵成”也是夸张。",
+  "confidence": "high"
+ },
+ {
+  "post": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea",
+  "row": 49,
+  "kind": "note",
+  "original": "ミライドンやコライドンのカットシーンや，イベント中の鳴き声が専用で作られている。彼らがサンドイッチを食べるシーンの鳴き声は，北村氏が演技したニュアンスから作られているそうなので",
+  "current": "北村一树是GAME FREAK的音效设计师，负责宝可梦系列的音效制作。",
+  "suggested": "北村一树是Connecteco（コネクテコ）的代表董事。",
+  "why": "同一篇 row 4 的 O 和 N 写明北村一树是 Connecteco 代表董事，此注释称其为 GAME FREAK 音效设计师，自相矛盾，O 中亦无此说。",
+  "confidence": "high"
+ },
+ {
+  "post": "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
+  "row": 9,
+  "kind": "name",
+  "original": "そこで三浦がヒロモトさんに声をかけました。ヒロモト このお話を頂いた時から",
+  "current": "于是三浦去找了广本先生。广本：从接到这个委托的时候起",
+  "suggested": "于是三浦去找了ヒロモト先生。ヒロモト：从接到这个委托的时候起",
+  "why": "O 只有片假名“ヒロモト”，T 在 row 9、10、12 擅自写成汉字“广本”，在 row 14 又写回“ヒロモト”，同帖前后不一致且为臆造汉字。",
+  "confidence": "high"
+ },
+ {
+  "post": "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
+  "row": 18,
+  "kind": "note",
+  "original": "和田 まずイラストをCGにしていく作業から始まりました。",
+  "current": "和田、川本分别指和田拓也、川本浩一，均为本作开发人员。",
+  "suggested": "和田、川本：本作开发人员（原文仅有姓氏）。",
+  "why": "O 只有姓氏“和田”“川本”，注释凭空补出名字“拓也”“浩一”；row 21 注释“折尾指折尾一则”同理。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
+  "row": 21,
+  "kind": "note",
+  "original": "折尾 これまでポケモンをやっていた大人って",
+  "current": "折尾指折尾一则，为本作开发人员。",
+  "suggested": "折尾：本作开发人员（原文仅有姓氏）。",
+  "why": "O 只有姓氏“折尾”，“一则”是 N 补出的名字。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 1,
+  "kind": "addition",
+  "original": "「ポケモンひっしょうマニュアル」が、アニメ版ポケモンが10年以上も続いている今、どれだけの存在意義があったかは分からない。",
+  "current": "当年第9话《宝可梦必胜指南》究竟留下了多少存在意义",
+  "suggested": "在动画版《宝可梦》已经持续了十年以上的今天，《宝可梦必胜指南》有多少存在意义，我不知道。身为系列构成的我，并没有要求其他人写的剧本里也加入《宝可梦必胜指南》里那种哪怕只有一点点的现实感。不过，就关于宝可梦的学校而言，后来出现了宝可梦训练家资格考试所这样类似的一集……",
+  "why": "“第9话”在 O 中没有；“轰轰烈烈”“刺痛人心”“一丝一毫”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 2,
+  "kind": "addition",
+  "original": "『ポケモン』は大きなプロジェクトである。アニメは、その一部にすぎない。",
+  "current": "《宝可梦》是一艘体量浩瀚的庞大商业巨舰，动画仅仅是其中协同运转的一个齿轮罢了。若动画成品流于怪力乱神",
+  "suggested": "《宝可梦》是个大项目，动画只是其中一部分。如果动画做成了奇怪的作品，不管成功还是失败，都会招来各方更强的非议。把《宝可梦》动画化做成尽量不招来抱怨的正统作品比较稳妥。但光这样又没有魅力。",
+  "why": "“商业巨舰”“怪力乱神”“明哲保身”“摄人心魄”均为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 5,
+  "kind": "addition",
+  "original": "ロケット団が最後に登場するという脚本の基本パターンがあったとしても",
+  "current": "火箭队在末尾插科打诨并被打飞——即使存在这样一套坚不可摧的基础公式",
+  "suggested": "即使有“主人公们每次遇到新的宝可梦、有宝可梦对战、最后火箭队登场”这样的剧本基本模式，各位编剧的个性不同，也写出了在正统之中有变化的剧本。每位编剧都习惯写动画，而且是经过三到四次剧本会议才定稿的，所以没有水平差的。接着按照剧本的轮换顺序，轮到了我，那就是第13集《正辉的灯塔》。",
+  "why": "“插科打诨并被打飞”“坚不可摧”“严苛”“绝无粗制滥造”均为添加，O 仅说“火箭队最后登场”。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 6,
+  "kind": "mistranslation",
+  "original": "アニメでは、それをピカチュウにしたため、ゲームプレーヤーが不満に思わないように、アニメでは早めに登場させることになっていた。",
+  "current": "编剧团队特意安排御三家在最前期火速全员登场并加入队伍",
+  "suggested": "顺带一提，第10、11、12集是主人公们遇到妙蛙种子、小火龙、杰尼龟的故事。在游戏里，玩家出发时最先选择的宝可梦是这三只中的一只，而动画里这一位是皮卡丘，为了不让游戏玩家不满，动画里让它们早早登场。这些结束之后，就是住在灯塔里的名叫正辉的宝可梦研究家的故事。",
+  "why": "O 只说“早点登场”，T 写成“全员加入队伍”（事实上也不对）；“破天荒”“火速”“关键回目”等为添加。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 8,
+  "kind": "addition",
+  "original": "ゲームの中では、ポケモン研究家という事になっていて、部屋に引きこもり、それでいながら、ポケモンの気持ちを知りたいからというので、ポケモンの着ぐるみを着てポケモンの気分にひたろうという変な人物で",
+  "current": "他自闭在岬角的宅邸之中，号称为了探究宝可梦内心的真实感受，竟成天套着怪兽皮套沉浸在扮演宝可梦的狂热怪癖里",
+  "suggested": "正辉这位宝可梦研究家，是游戏里较早登场的人物。在游戏里设定是宝可梦研究家，闭门不出，却因为想知道宝可梦的心情，而穿上宝可梦的玩偶服沉浸在宝可梦的心情里，是个怪人，除此之外不太清楚。",
+  "why": "“岬角的宅邸”“极早现身的重要NPC”“成天”“狂热怪癖”“宿命”均为添加，O 说的是“部屋（房间）”。",
+  "confidence": "high"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 10,
+  "kind": "number",
+  "original": "サトシが、言葉の通じないポケモンの本当の気持ちを知りたいなどと思いだすと、それまで無邪気にポケモンを戦わせている自分に疑問を持ちかねない。",
+  "current": "一旦十岁的小智陷入这种形而上的哲学伦理困惑，整个冒险热血故事将彻底陷入泥潭、动弹不得！",
+  "suggested": "想知道宝可梦心情的话题也让人为难。如果小智开始想知道语言不通的宝可梦的真正心情，可能会对此前一直天真地让宝可梦战斗的自己产生疑问。如果小智一个个地烦恼“这只宝可梦想和其他宝可梦战斗吗？”故事就无法向前进了。",
+  "why": "“十岁”“致命动摇”“形而上”“Pandora盒子”均为 O 没有的添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 11,
+  "kind": "addition",
+  "original": "アニメ版『ポケモン』が何十年続いていようと、いや、続けば続くほど傑作と呼ばれる作品になるのじゃないかなと",
+  "current": "不论猴年马月，唯有在终局完结真正尘埃落定之时",
+  "suggested": "不仅如此，只要动画版《宝可梦》还在继续，我觉得最好不要轻易触碰这个主题。不知道会是什么时候，但如果最终回确定了，从前几集起认真地描写这个主题，那么无论动画版《宝可梦》持续了几十年，不，持续得越久，就越会成为被称作杰作的作品——作为做了序盘系列构成的我个人，虽然有点不负责任，但是这么觉得。总之，涉及宝可梦对人类是什么的故事，在第13集的时候想尽量避开。",
+  "why": "“猴年马月”“震古烁今的传世神作”“灵魂深处确信”为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 12,
+  "kind": "addition",
+  "original": "「追いかける者」小智と、「待ち続ける者」正輝",
+  "current": "隐蔽青年式的现代寓言",
+  "suggested": "“追逐者”小智与“持续等待者”正辉",
+  "why": "小标题后半“隐蔽青年式的现代寓言”在 O 中没有。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 16,
+  "kind": "addition",
+  "original": "その音を聞いて、近づいて来るだろう幻のポケモンをマサキは待っているのである。",
+  "current": "而正辉便年复一年在此静候它的现身",
+  "suggested": "正辉的宝可梦是世界上只有一只的幻之宝可梦，那只宝可梦在寻找同伴而徘徊。正辉灯塔在雾中发出警示危险的雾笛，听起来像那只幻之宝可梦的叫声。正辉在等待听到这个声音而靠近的幻之宝可梦。即使那只宝可梦出现，正辉也没打算做什么，只是在等待。把灯塔当作同伴叫声而来的宝可梦，在那里的是灯塔，不是宝可梦。世界上唯一一只幻之宝可梦的孤独没有改变。",
+  "why": "“年复一年”“破浪而来”“永世无法被救赎”“暗礁”等为添加。",
+  "confidence": "medium"
+ },
+ {
+  "post": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+  "row": 17,
+  "kind": "addition",
+  "original": "（中略）もうひとつは、ＳＦ作家レイ・ブラッドベリの有名な短編小説「霧笛」である。世界で１頭しか生き残っていない恐竜が、灯台の霧笛を仲間の声だと思い込んで現れる",
+  "current": "（这个意象曾想放在《魔法小仙女/甜甜仙子》里，但终因需要战争背景而搁置）",
+  "suggested": "我不知为何喜欢孤零零立在海角的灯塔。关于灯塔我有两个喜欢的故事。一是灯塔与战斗机的恋爱。战斗机说着“一定会回来”出击特攻。灯塔一直站着等战斗机，直到朽烂。（中略）另一个是科幻作家雷·布拉德伯里的著名短篇小说《雾笛》。世界上只活下来一只的恐龙，把灯塔的雾笛当成同伴的声音而出现，但发现那是灯塔，在悲伤与愤怒中把它毁掉了。",
+  "why": "括号内“想放进《魔法小仙女/甜甜仙子》却因战争背景搁置”是 O 完全没有的编造（O 此处为“（中略）”）；“蛇颈龙”“万米海底”“亿万年前”也不是 O 的“恐竜”。",
+  "confidence": "high"
+ },
+ {
+  "post": "__summary__",
+  "read": [
+   "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+   "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+   "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+   "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+   "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+   "2020-03-01-interview-tpc-business-professionals",
+   "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+   "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+   "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+   "2012-08-21-scan-ndream-2012-10-pokemon-music-interview",
+   "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea",
+   "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
+   "2005-08-01-interview-nom-xd-gale-of-darkness-pokemon-festa",
+   "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+   "2001-01-27-interview-nom-mobile-system-gb-revolution",
+   "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline"
+  ],
+  "unread": [],
+  "note": "Shudo memoir posts ch167/172/174/177/201/210/211/223/150 are systematically over-dramatized in T (nearly every row adds invented flourishes); only the most egregious rows are listed, recommend full re-translation of those posts. No findings in ndream, xd, mobile-system, shader-pipeline."
+ }
+]

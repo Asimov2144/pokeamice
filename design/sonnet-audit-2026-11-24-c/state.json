@@ -1,0 +1,300 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (third 45)",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed (not yet applied)",
+   "chars": 155936,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\shard-1.json",
+   "posts": [
+    {
+     "stem": "2013-05-29-interview-glitterberri-early-concept-art",
+     "rows": 149,
+     "chars": 31059,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2013-05-29-interview-glitterberri-early-concept-art.txt"
+    },
+    {
+     "stem": "2009-11-18-interview-takeshi-shudo-pokemon-memoir-ch202",
+     "rows": 128,
+     "chars": 13710,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-11-18-interview-takeshi-shudo-pokemon-memoir-ch202.txt"
+    },
+    {
+     "stem": "2010-05-12-interview-takeshi-shudo-pokemon-memoir-ch221",
+     "rows": 131,
+     "chars": 12928,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-05-12-interview-takeshi-shudo-pokemon-memoir-ch221.txt"
+    },
+    {
+     "stem": "2010-03-31-interview-takeshi-shudo-pokemon-memoir-ch218",
+     "rows": 139,
+     "chars": 12887,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-03-31-interview-takeshi-shudo-pokemon-memoir-ch218.txt"
+    },
+    {
+     "stem": "2026-07-28-interview-4gamer-2026-cedec-battle",
+     "rows": 55,
+     "chars": 11374,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2026-07-28-interview-4gamer-2026-cedec-battle.txt"
+    },
+    {
+     "stem": "2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179",
+     "rows": 104,
+     "chars": 10183,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179.txt"
+    },
+    {
+     "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+     "rows": 99,
+     "chars": 10080,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183.txt"
+    },
+    {
+     "stem": "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+     "rows": 42,
+     "chars": 9175,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world.txt"
+    },
+    {
+     "stem": "2024-02-15-interview-pokemon-recruit-designer",
+     "rows": 51,
+     "chars": 8292,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2024-02-15-interview-pokemon-recruit-designer.txt"
+    },
+    {
+     "stem": "2021-11-29-interview-newspicks-pokemon-job-rotation",
+     "rows": 58,
+     "chars": 7947,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2021-11-29-interview-newspicks-pokemon-job-rotation.txt"
+    },
+    {
+     "stem": "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world",
+     "rows": 71,
+     "chars": 7499,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world.txt"
+    },
+    {
+     "stem": "2010-09-10-interview-iwata-asks-bw-chapter-3-expanding-play-communication",
+     "rows": 49,
+     "chars": 7107,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-09-10-interview-iwata-asks-bw-chapter-3-expanding-play-communication.txt"
+    },
+    {
+     "stem": "2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+     "rows": 37,
+     "chars": 6953,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori.txt"
+    },
+    {
+     "stem": "2022-04-17-interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto",
+     "rows": 30,
+     "chars": 6742,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2022-04-17-interview-seafoam-gaming-pokemon-mystery-dungeon-tomie-yamamoto.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed (not yet applied)",
+   "chars": 160492,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+     "rows": 143,
+     "chars": 15923,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174.txt"
+    },
+    {
+     "stem": "2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223",
+     "rows": 107,
+     "chars": 14585,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223.txt"
+    },
+    {
+     "stem": "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+     "rows": 141,
+     "chars": 14203,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210.txt"
+    },
+    {
+     "stem": "2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211",
+     "rows": 139,
+     "chars": 13524,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211.txt"
+    },
+    {
+     "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+     "rows": 122,
+     "chars": 12053,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177.txt"
+    },
+    {
+     "stem": "2020-03-01-interview-tpc-business-professionals",
+     "rows": 44,
+     "chars": 11854,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2020-03-01-interview-tpc-business-professionals.txt"
+    },
+    {
+     "stem": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+     "rows": 23,
+     "chars": 10140,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172.txt"
+    },
+    {
+     "stem": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+     "rows": 71,
+     "chars": 9586,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201.txt"
+    },
+    {
+     "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+     "rows": 35,
+     "chars": 9393,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167.txt"
+    },
+    {
+     "stem": "2012-08-21-scan-ndream-2012-10-pokemon-music-interview",
+     "rows": 83,
+     "chars": 9105,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2012-08-21-scan-ndream-2012-10-pokemon-music-interview.txt"
+    },
+    {
+     "stem": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea",
+     "rows": 39,
+     "chars": 7789,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.txt"
+    },
+    {
+     "stem": "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
+     "rows": 39,
+     "chars": 7419,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2003-11-01-interview-nom-2003-pokemon-colosseum-staff.txt"
+    },
+    {
+     "stem": "2005-08-01-interview-nom-xd-gale-of-darkness-pokemon-festa",
+     "rows": 25,
+     "chars": 6994,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2005-08-01-interview-nom-xd-gale-of-darkness-pokemon-festa.txt"
+    },
+    {
+     "stem": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+     "rows": 19,
+     "chars": 6895,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150.txt"
+    },
+    {
+     "stem": "2001-01-27-interview-nom-mobile-system-gb-revolution",
+     "rows": 23,
+     "chars": 5915,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2001-01-27-interview-nom-mobile-system-gb-revolution.txt"
+    },
+    {
+     "stem": "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
+     "rows": 30,
+     "chars": 5114,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed (not yet applied)",
+   "chars": 155423,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2014-08-22-interview-niconico-gamefreak-origins-masuda",
+     "rows": 91,
+     "chars": 15866,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2014-08-22-interview-niconico-gamefreak-origins-masuda.txt"
+    },
+    {
+     "stem": "2022-04-10-interview-pokemon-recruit-growth",
+     "rows": 51,
+     "chars": 14868,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2022-04-10-interview-pokemon-recruit-growth.txt"
+    },
+    {
+     "stem": "2010-05-19-interview-takeshi-shudo-pokemon-memoir-ch222",
+     "rows": 112,
+     "chars": 13949,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-05-19-interview-takeshi-shudo-pokemon-memoir-ch222.txt"
+    },
+    {
+     "stem": "2010-01-20-interview-takeshi-shudo-pokemon-memoir-ch209",
+     "rows": 109,
+     "chars": 13534,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-01-20-interview-takeshi-shudo-pokemon-memoir-ch209.txt"
+    },
+    {
+     "stem": "2009-12-02-interview-takeshi-shudo-pokemon-memoir-ch204",
+     "rows": 120,
+     "chars": 12442,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2009-12-02-interview-takeshi-shudo-pokemon-memoir-ch204.txt"
+    },
+    {
+     "stem": "1999-12-01-scan-gs-guidebook-1999-developer-interview",
+     "rows": 105,
+     "chars": 10964,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\1999-12-01-scan-gs-guidebook-1999-developer-interview.txt"
+    },
+    {
+     "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+     "rows": 40,
+     "chars": 10547,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166.txt"
+    },
+    {
+     "stem": "2010-09-13-interview-weekly-ascii-masuda-bw",
+     "rows": 30,
+     "chars": 9890,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2010-09-13-interview-weekly-ascii-masuda-bw.txt"
+    },
+    {
+     "stem": "2001-11-01-interview-nom-2001-pokemon-card-e-creatures",
+     "rows": 60,
+     "chars": 9249,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2001-11-01-interview-nom-2001-pokemon-card-e-creatures.txt"
+    },
+    {
+     "stem": "2003-08-01-interview-nom-2003-pokemon-channel-staff",
+     "rows": 56,
+     "chars": 9063,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2003-08-01-interview-nom-2003-pokemon-channel-staff.txt"
+    },
+    {
+     "stem": "2019-10-25-interview-famitsu-2019-swsh-autosave",
+     "rows": 44,
+     "chars": 7660,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2019-10-25-interview-famitsu-2019-swsh-autosave.txt"
+    },
+    {
+     "stem": "2021-02-27-interview-oricon-2021-ishihara-25th",
+     "rows": 20,
+     "chars": 7425,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2021-02-27-interview-oricon-2021-ishihara-25th.txt"
+    },
+    {
+     "stem": "1997-05-23-interview-famimaga-tajiri-pokemon2-secret",
+     "rows": 64,
+     "chars": 7067,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\1997-05-23-interview-famimaga-tajiri-pokemon2-secret.txt"
+    },
+    {
+     "stem": "2026-07-22-interview-denfami-2026-cedec-battle",
+     "rows": 48,
+     "chars": 6906,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2026-07-22-interview-denfami-2026-cedec-battle.txt"
+    },
+    {
+     "stem": "2018-05-30-interview-gamer-pokemon-press-conference-2018",
+     "rows": 24,
+     "chars": 5993,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-c\\dump\\2018-05-30-interview-gamer-pokemon-press-conference-2018.txt"
+    }
+   ]
+  }
+ ]
+}
