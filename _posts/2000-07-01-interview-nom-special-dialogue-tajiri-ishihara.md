@@ -25,7 +25,7 @@ parallel_items:
 - type: heading
   level: 2
   original: スペシャル対談／前編１・二人の出会い
-  translation: 前篇第1节：二人的相遇（在爱普生与Game Boy通信线触电般的灵感）
+  translation: 前篇第1节：二人的相遇
 - type: dialogue
   speaker: N.O.M采访者
   original: まずは、お二人が最初に出会われたときのことから。
@@ -63,7 +63,7 @@ parallel_items:
   speaker: 田尻智
   original: その頃、僕はいまの会社の母体でもある「ゲームフリーク」というミニコミを作っていたし、個人的にもゲームセンター用のゲーム基板をコレクションしていて、'70年代の終わりから'80年代にかけてのゲームはほとんど網羅していましたから。
   translation: 那时候，我还在制作现在公司前身的同人志《GAME FREAK》，并且个人收藏街机基板，70年代末到80年代的游戏几乎都收集齐了。
-  note: GAME FREAK最初是田尻智在1982年创办的电子游戏同人志，后来成为游戏开发公司。
+  note: GAME FREAK最初是田尻智创办的电子游戏同人志，后来成为游戏开发公司。
   role: answer
 - type: dialogue
   speaker: 石原恒和
@@ -273,7 +273,7 @@ parallel_items:
 - type: dialogue
   speaker: 石原恒和
   original: 僕自身、自分の会社をはじめるタイミングだったし、会社経営ということでは田尻社長の方がはるかに先輩なわけで、むしろ僕は社長の先輩としての田尻社長に「会社ってどういう風に作るんだろう？」って相談する意味もあったわけですよ。
-  translation: 我自己也正好是开创自己公司的时机，而在公司经营方面，田尻社长要远远前辈得多，倒不如说我作为社长前辈，也有向田尻社长请教“公司是怎么创建的呢？”的意义。
+  translation: 我自己也正好是开创自己公司的时机，而在公司经营方面，田尻社长资历要深得多，倒不如说，我是想向身为社长前辈的田尻社长请教“公司是怎么创建的呢？”。
   role: answer
 - type: dialogue
   speaker: 田尻智

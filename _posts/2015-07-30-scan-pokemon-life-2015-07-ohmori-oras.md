@@ -1739,7 +1739,7 @@ translation_segments:
     scan_page: 5
     review_status: "verified"
     original: "2　グオォォォォーッ！ バシャー！ カメラを下から上へ。"
-    translation: "2：“呜嗷——！”“哗啦——！”镜头自下向上移动。“唔——”地低鸣，抬眼看去。"
+    translation: "2：“呜嗷——！”“哗啦——！”镜头自下向上移动。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1864,7 +1864,7 @@ translation_segments:
     scan_page: 6
     review_status: "verified"
     original: "2　グオォォォォーッ！ バシャー！ カメラを下から上へ。"
-    translation: "2：“呜嗷——！”“哗啦——！”镜头自下向上移动。随后切到头部特写。"
+    translation: "2：“呜嗷——！”“哗啦——！”镜头自下向上移动。"
   - speaker: caption
     type: paragraph
     kind: text

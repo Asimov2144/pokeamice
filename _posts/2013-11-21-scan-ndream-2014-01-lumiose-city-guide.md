@@ -418,7 +418,7 @@ translation_segments:
     scan_page: 0
     review_status: "verified"
     original: "サービス\n01 サウスサイドSt.\nポケモンセンター\n02 トレーナープロモ スタジオ\n03 ポケサロン グルーミング\n04 サロン・ド・ロージュ\n05 IDくじセンター\n06 ノースサイドSt.\nポケモンセンター\n07 グランドホテル\nシュールリッシュ\n08 ローズ広場前\nポケモンセンター"
-    translation: "服务\n01 南侧大道\n宝可梦中心\n02 训练家宣传片摄影棚\n03 宝可美容沙龙馆\n04 罗姿理发店\n05 ID抽奖中心\n06 北侧大道\n宝可梦中心\n07 舒适豪华大饭店\n08 粉色广场前\n宝可梦中心"
+    translation: "服务\n01 南侧大道\n宝可梦中心\n02 训练家宣传片摄影棚\n03 宝可美容沙龙馆\n04 罗姿理发店\n05 ID抽奖中心\n06 北侧大道\n宝可梦中心\n07 舒适豪华大饭店\n08 玫瑰广场前\n宝可梦中心"
     scan_box:
       - 88
       - 772
@@ -2692,7 +2692,7 @@ translation_segments:
     heading_level: 3
     review_status: "verified"
     original: 40 フラダリカフェ場所▶ローズ広場のそば
-    translation: 40 弗拉达利咖啡店 地点▶粉色广场旁
+    translation: 40 弗拉达利咖啡店 地点▶玫瑰广场旁
     scan_box:
       - 837
       - 1378

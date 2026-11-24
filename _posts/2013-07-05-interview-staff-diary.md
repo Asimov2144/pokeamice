@@ -229,7 +229,7 @@ parallel_items:
 - type: paragraph
   original: その楽譜は全てKAGEが作ったんです。
   translation: 那些乐谱全都是KAGE创作的。
-  note: KAGE是GAME FREAK的作曲家，负责了多款宝可梦游戏的音乐。
+  note: KAGE是GAME FREAK的音效设计师，负责宝可梦系列游戏的音效。
 - type: paragraph
   original: オーケストラの楽譜を作るのは、その道のプロにとっても、
   translation: 创作管弦乐乐谱，即便是该领域的专业人士，
@@ -242,7 +242,7 @@ parallel_items:
 - type: paragraph
   original: 楽譜を完成させ、夢だったPRESS STARTへの参加を実現させたKAGEの心意気には、
   translation: 最终完成了乐谱，实现了参加梦寐以求的PRESS START的愿望。KAGE的这种热忱，
-  note: PRESS START是GAME FREAK举办的交响音乐会系列。
+  note: PRESS START是日本的游戏音乐交响音乐会系列。
 - type: paragraph
   original: イチ同僚として頭が下がります。
   translation: 作为同事，我深感敬佩。
@@ -272,13 +272,13 @@ parallel_items:
   translation: 社内宝可梦对战大会 后续
 - type: paragraph
   original: みなさん、こんにちは！ほずです。
-  translation: 大家好！我是穗。
+  translation: 大家好！我是ほず。
   speaker: ほず
   note: ほず为GAME FREAK员工，可能是开发团队成员。
   role: answer
 - type: paragraph
   original: 今回は、 先日、めめたがご紹介した社内ポケモンバトル大会 の
-  translation: 这次，我想向大家汇报一下前几天梅梅特介绍过的社内宝可梦对战大会的
+  translation: 这次，我想向大家汇报一下前几天めめた介绍过的社内宝可梦对战大会的
   speaker: ほず
   note: めめた为GAME FREAK员工，可能是开发团队成员。
   role: answer
@@ -368,7 +368,7 @@ parallel_items:
   translation: 许多员工被高手的对战深深吸引，
 - type: paragraph
   original: いつの間にかコメットにはこんなに人だかりが！！
-  translation: 不知不觉间，科美特（公司内）已经围了这么多人！！
+  translation: 不知不觉间，彗星（公司内）已经围了这么多人！！
 - type: paragraph
   original: …そしてついに！
   translation: ……然后，终于！
@@ -602,7 +602,7 @@ parallel_items:
   translation: 大家好久不见。
 - type: paragraph
   original: ナギーです。
-  translation: 我是娜琪。
+  translation: 我是ナギー。
   speaker: ナギー
   note: ナギー是GAME FREAK的开发人员，此处为自我介绍。
   role: answer
@@ -679,7 +679,7 @@ parallel_items:
   translation: 气氛非常热烈！
 - type: paragraph
   original: 中でも一番盛り上がったのが、決勝戦のかつお対エノキの試合。
-  translation: 其中气氛最热烈的是决赛中胜男对阵榎木的比赛。
+  translation: 其中气氛最热烈的是决赛中かつお对阵エノキ的比赛。
 - type: paragraph
   original: この試合は本来やらなかったはずの試合です。
   translation: 这场比赛原本是不应该进行的。
@@ -689,14 +689,14 @@ parallel_items:
   note: 不戦敗指因对手缺席或弃权而自动判负。
 - type: paragraph
   original: かつおの優勝……としようとしたのですが、かつおの「受けて立つ！」
-  translation: 本打算判定胜男获胜……但胜男却说“我接受挑战！”，
-  note: 受けて立つ意为接受挑战，这里指胜男主动要求加赛。
+  translation: 本打算判定かつお获胜……但かつお却说“我接受挑战！”，
+  note: 受けて立つ意为接受挑战，这里指かつお主动要求加赛。
 - type: paragraph
   original: の一言で、二人は急遽戦うことになったのです。
   translation: 一言之下，两人便临时展开了对战。
 - type: paragraph
   original: エノキのジャローダデッキVSかつおのダイケンキデッキ。
-  translation: 榎木的君主蛇卡组VS胜男的大剑鬼卡组。
+  translation: 榎木的君主蛇卡组VSかつお的大剑鬼卡组。
 - type: paragraph
   original: 相性的にはジャローダの有利…と思いきや、実は、ダイケンキの
   translation: 本以为属性上君主蛇有利……但实际上，大剑鬼的
@@ -759,7 +759,7 @@ parallel_items:
   note: にょろリカ为作者笔名，可能为游戏媒体编辑。
 - type: paragraph
   original: 10月1日からスタートした「ポケットモンスターブラック・ホワイト」
-  translation: 自10月1日发售的《宝可梦 黑/白》
+  translation: 自10月1日开始的《宝可梦 黑/白》
 - type: paragraph
   original: 開発者インタビューも、今日で最終回となりました。
   translation: 开发者访谈也在今天迎来了最终回。
@@ -784,7 +784,7 @@ parallel_items:
 - type: paragraph
   original: ■プランナーのなかついです。
   translation: ■我是策划Nakatsui。
-  note: Nakatsui为开发者姓氏，可能为中津井。
+  note: Nakatsui为开发者姓氏。
 - type: paragraph
   original: 今回は「世界」（街や道路、ダンジョン）の設計を中心に、
   translation: 这次我主要负责“世界”（城镇、道路、迷宫）的设计，
@@ -864,8 +864,8 @@ parallel_items:
   translation: 【图形设计师篇】
 - type: paragraph
   original: ■グラフィックデザイナーのふじわらもとふみです。
-  translation: ■我是图形设计师藤原基文。
-  note: 藤原基文（ふじわらもとふみ）是GAME FREAK的图形设计师，曾参与多款宝可梦游戏的开发。
+  translation: ■我是图形设计师ふじわらもとふみ。
+  note: ふじわらもとふみ是GAME FREAK的图形设计师，曾参与多款宝可梦游戏的开发。
 - type: paragraph
   original: 今回はバトルのエフェクトをメインで担当しました。
   translation: 这次我主要负责对战特效。
@@ -1044,9 +1044,8 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 彼らの名前は、タンボ、ソン、ガッチー、れいぞうです。
-  translation: 他们的名字是坦波、索恩、加奇和冷藏。
+  translation: 他们的名字是タンボ、ソン、ガッチー、れいぞう。
   speaker: 一之濑刚
-  note: 这些名字可能源自日语中的拟声词或乐器相关词汇，具体含义不明。
   role: answer
 - type: paragraph
   original: 彼らを探して一緒に『タソガれ』て下さいね！
@@ -1267,8 +1266,8 @@ parallel_items:
   translation: 如果大家能仔细品味每一个细节，我们会非常高兴！
 - type: paragraph
   original: ユーリーでした！
-  translation: 我是尤莉！
-  note: ユーリー（尤莉）是本文作者或采访者使用的笔名或昵称。
+  translation: 我是ユーリー！
+  note: ユーリー是本文作者或采访者使用的笔名或昵称。
 - type: paragraph
   original: '12'
   translation: '12'

@@ -192,8 +192,8 @@ parallel_items:
   translation: （1）田尻智：GAME FREAK的代表董事社长。宝可梦之父。
   note: 田尻智是GAME FREAK的创始人，宝可梦系列最初作品《宝可梦 红·绿》的导演。
 - original: 司会 世界からの手ごたえが最初に来たのはいつ頃でしたか。
-  role: answer
-  speaker: 石原恒和
+  role: question
+  speaker: 主持人
   translation: 主持人 最初感受到来自世界的反响是什么时候？
 - original: 1998年にはもうすでに。そして99年には、世界中で爆発的な人気を博していました。
   role: answer

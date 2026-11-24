@@ -273,8 +273,8 @@ parallel_items:
   translation: 我本以为可以从那里找到宝可梦发烧友俱乐部的旧URL（进而找到其最古老的面貌），但沿着链接找下去，却无法确认任何像是旧URL的地址。
 - type: paragraph
   original: ・ ポケモン文化マラソン専門学校 （ストラタ・ストライク）　http://www.hcom.co.jp/~matsu/superpoke/illusthome.html
-  translation: ・ 宝可梦文化马拉松专门学校 （斯特拉塔·飞天螳螂）　http://www.hcom.co.jp/~matsu/superpoke/illusthome.html
-  note: 原名：ストラタ・ストライク（站名或作者名，此处音译）。
+  translation: ・ 宝可梦文化马拉松专门学校 （ストラタ・ストライク）　http://www.hcom.co.jp/~matsu/superpoke/illusthome.html
+  note: ストラタ・ストライク：站长网名，保留原名。
 - type: paragraph
   original: 伝説的なポケモンサイト。当時は大人気だったようだが、活動期間が短かった上にろくにログも残っておらず、
   translation: 这是一个传说中的宝可梦网站。当时似乎非常受欢迎，但由于运营时间短且几乎没有留下任何日志，
@@ -306,7 +306,7 @@ parallel_items:
   note: 任天堂太空世界97是1997年举办的任天堂展会，宝可梦金银版在此首次公开。
 - type: paragraph
   original: 後述する「おぶりー工房」の体験記とともに、製品版とは異なる旧バージョンを偲ぶ貴重な資料である。
-  translation: 与后述的“Oblivion工房”的试玩报告一样，是缅怀与正式版不同的旧版本的珍贵资料。
+  translation: 与后述的“奥布里工房”的试玩报告一样，是缅怀与正式版不同的旧版本的珍贵资料。
   note: 「おぶりー工房」是另一个宝可梦网站，其试玩报告同样具有史料价值。
 - type: paragraph
   original: ミュウの話をしたので念のため触れておくが、
@@ -332,7 +332,7 @@ parallel_items:
 - type: paragraph
   original: 少なくとも「ポケモンだいすきクラブ」に掲載されていたことはない模様である。
   translation: 至少它似乎从未被刊登在“宝可梦发烧友俱乐部”上。
-  note: 「ポケモンだいすきクラブ」是官方俱乐部，此处指其官方渠道。
+  note: 「ポケモンだいすきクラブ」：前文介绍的个人粉丝网站（站长ひめはじめ）。
 - type: paragraph
   original: この件に関しては ブログの記事 として別途まとめたので参考までに（情報提供歓迎）。
   translation: 关于这件事，我已在博客文章中另行整理，供参考（欢迎提供信息）。
@@ -461,8 +461,8 @@ parallel_items:
   translation: 顺便一提，该网站开设于97年，从某种角度看可以说是现存最古老的宝可梦网站。
 - type: paragraph
   original: ・ グリフィンアイランド （サトチ）　http://www2u.biglobe.ne.jp/~endo-c/
-  translation: ・ 狮鹫岛（佐藤）　http://www2u.biglobe.ne.jp/~endo-c/
-  note: 原名：グリフィンアイランド（站名，意译为狮鹫岛）、サトチ（作者名，音译为佐藤）。
+  translation: ・ 狮鹫岛（サトチ）　http://www2u.biglobe.ne.jp/~endo-c/
+  note: 原名：グリフィンアイランド（站名，意译为狮鹫岛）、サトチ（作者网名）。
 - type: paragraph
   original: 1998年10月10日オープン。
   translation: 于1998年10月10日开放。
@@ -481,7 +481,7 @@ parallel_items:
 - type: paragraph
   original: 98カップの出場ポケモン33種類を3グループに分けた「マリオスタジアムルール」の解説をしていたサイト。
   translation: 该网站曾对“马里奥体育场规则”进行解说，该规则将98杯出场的33种宝可梦分为3个小组。
-  note: 98カップ：指1998年举办的宝可梦比赛活动。マリオスタジアムルール：可能指类似《马里奥体育场》游戏中的分组对战规则。
+  note: 98カップ：指1998年举办的宝可梦比赛活动。
 - type: paragraph
   original: ルール自体も今となってはほとんど知られていないので、その解説というだけでも貴重である。
   translation: 如今该规则本身已鲜为人知，因此仅凭其解说内容就已十分珍贵。

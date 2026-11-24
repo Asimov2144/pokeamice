@@ -262,7 +262,7 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 所以对开发者来说，GEAR 最大的快乐，就是“能做自己想做的东西，还能自己把它卖出去”。当然，卖不出去的话，也没办法一直做下去。
-  note: GEAR是GAME FREAK于2013年启动的自社发行品牌，旨在发布原创下载游戏。
+  note: GEAR是GAME FREAK公司内部的企划提案制度（见前文说明）。
 - original: お金を無尽蔵につきこんでいいということでもないですからね。そこはちゃんと予算や期間を切って。
   role: answer
   speaker: 渡边哲也
@@ -291,7 +291,7 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 有啊。不过对我们来说，很多想法已经能在《宝可梦》中实现了。当然，还是有不少点子超出了它的范围，放不进《宝可梦》。我们希望 GEAR 能顺利运转，让这些想法也有实现的机会。
-  note: GEAR是GAME FREAK当时推进的一项尝试，用于承接宝可梦之外的自有企划。
+  note: GEAR是GAME FREAK公司内部的企划提案制度（见前文说明）。
 - original: 例えば「たくさんのプレイヤーがやりとりする遊び/仕組み」だとかは，むしろ，ポケモンという場で実施した方が，よっぽどしっかり動かせるというか，形にしやすいんですよ。
   role: answer
   speaker: 渡边哲也
@@ -742,7 +742,7 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 并不是企划本身一无是处。只是，如果连商业模式都和别人差不多，我就会想，我们真的有必要特地去做吗？按 GEAR 的目标来衡量，这类企划的优先级就会比较低。
-  note: GEAR是GAME FREAK当时提出的公司理念，指挑战新事物的姿态。
+  note: GEAR是GAME FREAK公司内部的企划提案制度（见前文说明）。
 - original: ふうむ。
   role: question
   speaker: 4Gamer
@@ -991,7 +991,7 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: GEAR 就是我们正在尝试的一个办法。看着他们凑在一起，埋头捣鼓些什么，会觉得“这一小片地方特别有干劲”。目前看来，这个办法挺有效。
-  note: GEAR是GAME FREAK内部的一个尝试性项目/团队。
+  note: GEAR是GAME FREAK公司内部的企划提案制度（见前文说明）。
 - original: 「GEAR」をやってる連中を見ていると，打ち合わせも密にやってて，昔のゲームフリークっぽい雰囲気が出ていますよね。そこはいいなぁと思いますよ。
   role: answer
   speaker: 杉森建

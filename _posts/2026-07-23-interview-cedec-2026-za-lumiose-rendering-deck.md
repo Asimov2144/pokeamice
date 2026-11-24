@@ -564,8 +564,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-42.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第42页
 - original: "- ロワイヤルナイト（夜）\n\n– メインライト（月）の方向と軌道が\n太陽と異なる\n– 昼間とテクスチャを分けてベイク\n– ロワイヤルナイトの出入りの演出で\n切り替えが見えない\n- プリズムタワーの影は除外\n– 大きすぎるため ／ ベイク影 ／ （昼用） ／ （夜用）"
-  translation: "- 皇家骑士（夜）\n\n– 主光源（月亮）的方向和轨道与太阳不同\n– 白天和夜晚的纹理分开烘焙\n– 皇家骑士出入的演出中看不到切换\n- 棱镜塔的阴影除外\n– 因为太大 ／ 烘焙阴影 ／ （白天用） ／ （夜晚用）"
-  note: 皇家骑士是密阿雷市的地标建筑，夜晚有灯光演出。
+  translation: "- ロワイヤルナイト（夜）\n\n– 主光源（月亮）的方向和轨道与太阳不同\n– 白天和夜晚的纹理分开烘焙\n– ロワイヤルナイト出入的演出中看不到切换\n- 棱镜塔的阴影除外\n– 因为太大 ／ 烘焙阴影 ／ （白天用） ／ （夜晚用）"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-43.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第43页
@@ -898,7 +897,7 @@ parallel_items:
     ⚫リグの構造に依らないモーションリターゲット
 
     今後の予定'
-  translation: '⚫所有宝可梦的宝可梦骨骼化
+  translation: '⚫所有宝可梦的ポケリグ化
 
     ⚫通过插入中间结构提高抽象度
 

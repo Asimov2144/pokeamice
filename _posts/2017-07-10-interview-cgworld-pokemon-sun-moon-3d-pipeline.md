@@ -178,7 +178,7 @@ parallel_items:
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_B01i.jpg)
   caption: ''
 - original: マッシブーンの例
-  translation: 穿着熊的例子
+  translation: 爆肌蚊的例子
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_B01j.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_B01j.jpg)
@@ -412,13 +412,13 @@ parallel_items:
 - original: 周囲がトーチカでおおわれ、防御に優れたドヒドイデ【画像左上】。待機ポーズ【画像下】では正面の2枚が開き、防御時には閉じるという、他に見られないギミックを有している。そのためジョイント【画像右上】も全周を傘のように覆う特殊な構造となった
   translation: 被碉堡覆盖、防御力优异的超坏星【图片左上】。在待机姿势【图片下】中，正面的两片会打开，防御时则会闭合，拥有其他宝可梦所没有的机关。因此，其关节【图片右上】也形成了如伞一般覆盖全周的特殊结构。
 - original: デカグースの「歩き」と「走り」
-  translation: 猫鼬少的「走路」与「奔跑」
+  translation: 猫鼬探长的「走路」与「奔跑」
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_D03a.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D03a.jpg)
   caption: ''
 - original: 待機時は上体を起こしているが、移動時は4つ足となるデカグース
-  translation: 待机时抬起上半身，但移动时变为四足行走的猫鼬少。
+  translation: 待机时抬起上半身，但移动时变为四足行走的猫鼬探长。
 - type: image
   image: /assets/img/interviews/2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline/cgworld_sm_pipeline_D03b.jpg
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D03b.jpg)
@@ -446,7 +446,7 @@ parallel_items:
   alt: CGWORLD 宝可梦日月 3D 管线技术图 (cgworld_sm_pipeline_D03g.jpg)
   caption: ''
 - original: 走行時はピョンピョンといった感じで移動する。ヤングースの進化形で、名前の通りマングースなどの小動物の動きが参考にされている
-  translation: 奔跑时以蹦蹦跳跳的感觉移动。作为猫鼬探长的进化前形态，正如其名，参考了猫鼬等小动物的动作。
+  translation: 奔跑时以蹦蹦跳跳的感觉移动。是猫鼬少的进化形（即猫鼬探长），正如其名，参考了猫鼬等小动物的动作。
 - original: ツツケラの「歩き」と「走り」
   translation: 小笃儿的「走路」与「奔跑」
 - type: image

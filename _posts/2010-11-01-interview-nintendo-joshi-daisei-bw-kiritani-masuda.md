@@ -220,7 +220,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 第4回：好きなポケモンは？
-  translation: 第4回：最喜欢的宝可梦是？——水水獭的武士道与可爱的真谛
+  translation: 第4回：最喜欢的宝可梦是？
 - type: image
   image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/oshawott.png
   caption: 桐谷美玲的最爱——水属性最初的伙伴“水水獭”（ミジュマル / Oshawott）
@@ -381,7 +381,7 @@ parallel_items:
 - speaker: 增田顺一
   original: イッシュ地方の右側のエリア （※5） は全部行きました？
   translation: 合众地区东半侧的区域（※5），你全都去过了吗？
-  note: ※5：右侧区域——指合众地区东侧（涟漪镇、笼目镇、巨人洞窟、奇幻桥等），通关一周目主线后方能首次涉足的高等级冒险舞台。
+  note: ※5：指合众地区东侧的区域。
 - speaker: 桐谷美玲
   original: 行きました。
   translation: 全都去过了！
@@ -396,7 +396,7 @@ parallel_items:
   translation: 你这当总监的怎么劝退玩家呢……（笑）。
 - speaker: 桐谷美玲
   original: 私、クリア後の殿堂入りをしたいんですけど、 レベルがどうしても上がらなくて・・・。
-  translation: 我还想在二周目正式挑战联盟并进入殿堂呢！可是队伍等级怎么也升不上去……
+  translation: 我想在通关后进入殿堂呢！可是队伍等级怎么也升不上去……
 - speaker: 杉森建
   original: 難しいですよね、みんな強くて。
   translation: 确实很难对吧，后期的NPC全都强得离谱。
@@ -470,7 +470,7 @@ parallel_items:
   translation: 寄托了深厚寓意的比如有哪些呢？像藤藤蛇（ツタージャ），是直接取自‘常春藤’（ツタ）吗？
 - speaker: 增田顺一
   original: ツタージャは、“ツタのようなヘビ”なので“ツタージャ”。 じつは、全体的にツタージャとツタージャの進化形は、 ヨーロピアンな感じの名前にしたかったんです。
-  translation: 藤藤蛇确实是‘像藤蔓一样的蛇’（Tsuta + Ja）。而且实际上，藤藤蛇及其整个进化链，我们都希望赋予它们浓郁的‘欧洲贵族风’命名。
+  translation: 藤藤蛇确实是‘像藤蔓一样的蛇’（Tsuta + Ja）。而且实际上，藤藤蛇及其整个进化链，我们都希望给它们取上带有欧洲风格的名字。
 - type: image
   image: /assets/img/interviews/2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda/snivy.png
   caption: 洋溢着欧洲贵族风骨的草属性最初伙伴“藤藤蛇”（Tsutarja / Snivy）
@@ -827,7 +827,7 @@ parallel_items:
   translation: 涂鸦？啊！我的脸上被画了什么东西……？！我也要画我也要画！是在哪里选笔刷？是这样对吧？哇，太好玩了！【桐谷美玲反客为主，在增田顺一的脸上疯狂涂鸦】
 - speaker: 桐谷美玲
   original: あ、落書きしているんだから、 動いちゃダメですよー（笑）。
-  translation: 啊，我正在给你画胡子呢，不许乱动哦！（笑）
+  translation: 啊，我正在涂鸦呢，不许乱动哦！（笑）
 - speaker: 增田顺一
   original: ライブキャスターの画面も止められますよ（笑）。 4人までできるので、友だちと遊んでみてくださいね。 最後に桐谷さん、今日は新しいことをたくさん 知ることできたと思うんですが、いかがでしたか？
   translation: 其实即时通画面还可以定格静止哦（笑）。这个功能最多支持4个人同时联机视频，请务必和朋友们玩玩看！最后，桐谷小姐，今天了解了这么多前所未闻的游戏内幕与新功能，感觉如何？

@@ -2140,7 +2140,7 @@ translation_segments:
     scan_page: 8
     review_status: "verified"
     original: ↓エンジュシティを中心としたジョウトのイメージイラスト。遠くに見えるのはカントーのシロガネやまだ→まいこはんたちが舞い踊る「かぶれんじょう」。和の魅力を満喫させてくれる、エンジュシティならではの場所だ
-    translation: "↓以圆朱市为中心的城都印象插画。远处能看到的是关都的白银山→舞姬们翩翩起舞的“歌舞练习场”。这里是能让人充分享受和风魅力的圆朱市独有之地"
+    translation: "↓以圆朱市为中心的城都印象插画。远处能看到的是关都的白银山→舞妓们翩翩起舞的“歌舞练习场”。这里是能让人充分享受和风魅力的圆朱市独有之地"
     scan_box:
       - 84
       - 604
@@ -2167,7 +2167,7 @@ translation_segments:
     scan_page: 8
     review_status: "verified"
     original: "まいこはん おどり だけでなく"
-    translation: "艺妓除了跳舞，"
+    translation: "舞妓除了跳舞，"
     scan_box:
       - 539
       - 735
@@ -7066,7 +7066,7 @@ translation_segments:
     scan_page: 17
     review_status: "verified"
     original: ソウボウさんの ポケモンが
-    translation: 宗保的宝可梦
+    translation: ソウボウ的宝可梦
     scan_box:
       - 1061
       - 1118

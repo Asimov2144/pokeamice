@@ -4765,7 +4765,7 @@ translation_segments:
     scan_page: 7
     review_status: "verified"
     original: "くじをする 最近 どう? 調子は どう? またね1等は なんと マスターボール! ラッキー★さやこへ ようこそ!"
-    translation: "要抽奖吗 最近怎么样？状态如何？回头见 1等奖竟然是 大师球！ 欢迎来到 幸运★沙耶子！"
+    translation: "要抽奖吗 最近怎么样？状态如何？回头见 1等奖竟然是 大师球！ 欢迎来到 幸运★さやこ！"
     scan_box:
       - 1394
       - 1200

@@ -1,0 +1,300 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (45 highest-risk)",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed (agent report in shard-N.json; not yet verified/applied)",
+   "chars": 378232,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\shard-1.json",
+   "posts": [
+    {
+     "stem": "2016-04-18-interview-denfami-sonobe-gamefreak-morimoto",
+     "rows": 371,
+     "chars": 53052,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2016-04-18-interview-denfami-sonobe-gamefreak-morimoto.txt"
+    },
+    {
+     "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon",
+     "rows": 262,
+     "chars": 38694,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon.txt"
+    },
+    {
+     "stem": "2026-08-29-continue-vol31-scan-archive",
+     "rows": 279,
+     "chars": 34188,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2026-08-29-continue-vol31-scan-archive.txt"
+    },
+    {
+     "stem": "2003-02-21-scan-ndream-084-ruby-sapphire-interview",
+     "rows": 392,
+     "chars": 32906,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2003-02-21-scan-ndream-084-ruby-sapphire-interview.txt"
+    },
+    {
+     "stem": "2010-05-12-interview-wedge-ishihara-pokemon-disney",
+     "rows": 232,
+     "chars": 27939,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-05-12-interview-wedge-ishihara-pokemon-disney.txt"
+    },
+    {
+     "stem": "2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex",
+     "rows": 146,
+     "chars": 27487,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex.txt"
+    },
+    {
+     "stem": "2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets",
+     "rows": 288,
+     "chars": 24419,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets.txt"
+    },
+    {
+     "stem": "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+     "rows": 251,
+     "chars": 22268,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda.txt"
+    },
+    {
+     "stem": "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
+     "rows": 187,
+     "chars": 22225,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle.txt"
+    },
+    {
+     "stem": "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
+     "rows": 68,
+     "chars": 18775,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2000-07-01-interview-nom-special-dialogue-tajiri-ishihara.txt"
+    },
+    {
+     "stem": "2026-08-29-continue-vol32-scan-archive",
+     "rows": 154,
+     "chars": 18009,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2026-08-29-continue-vol32-scan-archive.txt"
+    },
+    {
+     "stem": "2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2",
+     "rows": 109,
+     "chars": 16990,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2.txt"
+    },
+    {
+     "stem": "2009-09-18-interview-dengeki-hgss-shigeki-morimoto",
+     "rows": 125,
+     "chars": 15381,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2009-09-18-interview-dengeki-hgss-shigeki-morimoto.txt"
+    },
+    {
+     "stem": "2013-11-21-scan-ndream-2014-01-lumiose-city-guide",
+     "rows": 212,
+     "chars": 13725,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2013-11-21-scan-ndream-2014-01-lumiose-city-guide.txt"
+    },
+    {
+     "stem": "2010-12-06-scan-davinci-2011-01-masuda-interview",
+     "rows": 70,
+     "chars": 12174,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-12-06-scan-davinci-2011-01-masuda-interview.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed (agent report in shard-N.json; not yet verified/applied)",
+   "chars": 378002,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo",
+     "rows": 263,
+     "chars": 50821,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo.txt"
+    },
+    {
+     "stem": "2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th",
+     "rows": 227,
+     "chars": 39792,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th.txt"
+    },
+    {
+     "stem": "1999-02-10-interview-hobonichi-1999-ambrella-ozawa",
+     "rows": 113,
+     "chars": 36009,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\1999-02-10-interview-hobonichi-1999-ambrella-ozawa.txt"
+    },
+    {
+     "stem": "2009-09-21-scan-ndream-2009-11-hgss-developer-interview",
+     "rows": 311,
+     "chars": 32417,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2009-09-21-scan-ndream-2009-11-hgss-developer-interview.txt"
+    },
+    {
+     "stem": "2010-11-20-scan-ndream-2011-01-bw-design-secrets",
+     "rows": 178,
+     "chars": 27749,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-11-20-scan-ndream-2011-01-bw-design-secrets.txt"
+    },
+    {
+     "stem": "2010-09-21-scan-ndream-2010-11-five-regions-guide",
+     "rows": 408,
+     "chars": 26138,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-09-21-scan-ndream-2010-11-five-regions-guide.txt"
+    },
+    {
+     "stem": "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+     "rows": 186,
+     "chars": 25581,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii.txt"
+    },
+    {
+     "stem": "2012-07-21-scan-ndream-2012-09-b2w2-developer-interview",
+     "rows": 186,
+     "chars": 22977,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2012-07-21-scan-ndream-2012-09-b2w2-developer-interview.txt"
+    },
+    {
+     "stem": "2016-08-25-interview-nikkei-utsunomiya-pokemon-go",
+     "rows": 126,
+     "chars": 20798,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2016-08-25-interview-nikkei-utsunomiya-pokemon-go.txt"
+    },
+    {
+     "stem": "2013-11-21-scan-ndream-2014-01-mega-evolution-special",
+     "rows": 304,
+     "chars": 19522,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2013-11-21-scan-ndream-2014-01-mega-evolution-special.txt"
+    },
+    {
+     "stem": "1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal",
+     "rows": 107,
+     "chars": 18203,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal.txt"
+    },
+    {
+     "stem": "2013-10-21-scan-ndream-2013-12-xy-character-design-interview",
+     "rows": 160,
+     "chars": 16056,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2013-10-21-scan-ndream-2013-12-xy-character-design-interview.txt"
+    },
+    {
+     "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-popularity-poll",
+     "rows": 276,
+     "chars": 15880,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-popularity-poll.txt"
+    },
+    {
+     "stem": "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
+     "rows": 178,
+     "chars": 14614,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn.txt"
+    },
+    {
+     "stem": "2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline",
+     "rows": 96,
+     "chars": 11445,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed (agent report in shard-N.json; not yet verified/applied)",
+   "chars": 378039,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
+     "rows": 271,
+     "chars": 47005,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage.txt"
+    },
+    {
+     "stem": "2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
+     "rows": 285,
+     "chars": 40031,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata.txt"
+    },
+    {
+     "stem": "2021-10-25-interview-hobonichi-2021-kubo",
+     "rows": 567,
+     "chars": 37012,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2021-10-25-interview-hobonichi-2021-kubo.txt"
+    },
+    {
+     "stem": "2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview",
+     "rows": 217,
+     "chars": 33567,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview.txt"
+    },
+    {
+     "stem": "2013-10-08-interview-4gamer-2013-solitiba",
+     "rows": 238,
+     "chars": 30319,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2013-10-08-interview-4gamer-2013-solitiba.txt"
+    },
+    {
+     "stem": "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle",
+     "rows": 187,
+     "chars": 25757,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2018-06-08-interview-denfaminicogamer-pokemon-go-miracle.txt"
+    },
+    {
+     "stem": "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview",
+     "rows": 251,
+     "chars": 24872,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2013-11-21-scan-ndream-2014-01-xy-sound-team-interview.txt"
+    },
+    {
+     "stem": "2009-09-21-scan-ndream-2009-11-sugimori-charakami-special",
+     "rows": 151,
+     "chars": 22565,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2009-09-21-scan-ndream-2009-11-sugimori-charakami-special.txt"
+    },
+    {
+     "stem": "2013-07-05-interview-staff-diary",
+     "rows": 497,
+     "chars": 21501,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2013-07-05-interview-staff-diary.txt"
+    },
+    {
+     "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters",
+     "rows": 80,
+     "chars": 18926,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters.txt"
+    },
+    {
+     "stem": "2025-05-03-interview-shueisha-2025-fragment-university-thunderbolt",
+     "rows": 220,
+     "chars": 18373,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2025-05-03-interview-shueisha-2025-fragment-university-thunderbolt.txt"
+    },
+    {
+     "stem": "2015-07-30-scan-pokemon-life-2015-07-ohmori-oras",
+     "rows": 255,
+     "chars": 17215,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2015-07-30-scan-pokemon-life-2015-07-ohmori-oras.txt"
+    },
+    {
+     "stem": "2008-08-21-scan-ndream-2008-10-platinum-special",
+     "rows": 225,
+     "chars": 14872,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2008-08-21-scan-ndream-2008-10-platinum-special.txt"
+    },
+    {
+     "stem": "2008-10-21-scan-ndream-2008-12-platinum-battle-dojo",
+     "rows": 132,
+     "chars": 14452,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2008-10-21-scan-ndream-2008-12-platinum-battle-dojo.txt"
+    },
+    {
+     "stem": "2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck",
+     "rows": 80,
+     "chars": 11572,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24\\dump\\2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck.txt"
+    }
+   ]
+  }
+ ]
+}
