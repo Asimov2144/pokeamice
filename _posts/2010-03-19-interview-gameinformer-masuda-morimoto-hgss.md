@@ -56,7 +56,7 @@ parallel_items:
 - type: header
   level: 3
   original: 'Exclusive Interview: Game Freak on Pokémon HeartGold & SoulSilver'
-  translation: "独家专访：GAME FREAK 核心团队畅谈《宝可梦 心金·魂银》开发秘辛"
+  translation: "独家专访：GAME FREAK 谈《宝可梦 心金·魂银》"
 - type: dialogue
   speaker: Game Informer 编者按
   original: With the exciting release of Pokémon HeartGold and SoulSilver this week, we got a chance to interview members of the Game Freak team, who were part of the conception of the the video game series. Director Junichi Masuda, game director Shigeki Morimoto, art director Takao Unno, planner Kenji Matsushima, and programming lead Akito Mori tell us the development process behind creating and naming Pokémon, suprises you'll find in HeartGold and SoulSilver, the idea behind the Pokéwalker, and more.

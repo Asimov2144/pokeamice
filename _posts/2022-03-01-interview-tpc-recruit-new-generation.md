@@ -32,7 +32,7 @@ parallel_items:
   alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_002
 - type: heading
   original: Special Interview 「最初の１年を振り返る」
-  translation: 特别专访：回顾入职第一年——在数千亿级IP舞台上找寻角色定位与蜕变
+  translation: "特别专访「回顾最初的一年」"
   speaker: null
 - type: paragraph
   original: 株式会社ポケモンに入社して1年が経過した新卒社員たちが集結。なぜポケモンを選んだのか、どんな雰囲気の会社なのか、そして1年間でどのような成長を遂げたのかを語り合います。

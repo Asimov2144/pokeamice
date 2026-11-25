@@ -431,8 +431,8 @@ parallel_items:
   caption: A signed copy of Suite Ihatovo Monogatari for Piano Solo
 - original: 'T: For this game, I made the most of the Super Famicom’s 8-voice sound system to create music featuring emotional melodies played on acoustic instruments.'
   role: question
-  speaker: Dr. Pez
-  translation: "T：为这款游戏，我充分利用了超级任天堂的8通道发声系统，创作出以原声乐器演奏、旋律富有情感的音乐。"
+  speaker: "多和田吏"
+  translation: "T：为这款游戏，我充分利用了超级红白机的8通道发声系统，创作出以原声乐器演奏、旋律富有情感的音乐。"
 - original: That music was so well-received that Koichi Sugiyama, the composer for Dragon Quest, happened to hear it live at the Tokyo Game Show and invited me to work together on Dragon Quest—it was a pivotal title for me.
   role: answer
   speaker: 多和田吏
@@ -444,7 +444,7 @@ parallel_items:
 - original: Drawing on my experience as a pianist, I put extra care into packing as much musical expression as I could into the score, but also doing so in a way that ensured that expressive nuance wasn’t lost by the Super Famicom’s limited sound system. As such, I carefully crafted the instrument sounds so that they could stand up to that level of expressive performance.
   role: answer
   speaker: 多和田吏
-  translation: "我把自己当钢琴家的经验用上了，特别用心，尽量在配乐里塞进更多的音乐表现，同时又要保证这些表现上的细微差别不会因为超级任天堂发声系统有限而丢掉。所以，我仔细打磨乐器音色，让它们撑得住那种层次的表现力演奏。"
+  translation: "我把自己当钢琴家的经验用上了，特别用心，尽量在配乐里塞进更多的音乐表现，同时又要保证这些表现上的细微差别不会因为超级红白机发声系统有限而丢掉。所以，我仔细打磨乐器音色，让它们撑得住那种层次的表现力演奏。"
 - original: I think that element of expressiveness is what made the impression.
   role: answer
   speaker: 多和田吏

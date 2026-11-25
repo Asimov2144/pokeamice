@@ -1,0 +1,62 @@
+[
+  {
+    "post": "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority",
+    "row": 105,
+    "kind": "speaker",
+    "original": "T: For this game, I made the most of the Super Famicom’s 8-voice sound system",
+    "current": "<Dr. Pez> T：为这款游戏，我充分利用了超级任天堂的8通道发声系统",
+    "suggested": "T：为这款游戏，我充分利用了超级红白机的8声部发声系统，创作出以原声乐器演奏、旋律富有情感的音乐。（说话人应为多和田吏，而非Dr. Pez）",
+    "why": "O begins with the label \"T:\" (Tawada, per the \"J:\" label convention) and the line is the composer's reply about his own work, yet the row is attributed to Dr. Pez; also Super Famicom is rendered 超级任天堂 here but 超级红白机 in row 79.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority",
+    "row": 108,
+    "kind": "name",
+    "original": "the Super Famicom’s limited sound system",
+    "current": "超级任天堂发声系统有限",
+    "suggested": "超级红白机发声系统有限",
+    "why": "Super Famicom is rendered 超级红白机 in row 79 but 超级任天堂 here and in row 105; inconsistent within the post.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+    "row": 33,
+    "kind": "mistranslation",
+    "original": "ファミコン時代のゲームの難易度",
+    "current": "任天堂时代的游戏难度",
+    "suggested": "红白机时代的游戏难度",
+    "why": "ファミコン (Famicom) is rendered as 任天堂, which loses the console reference and changes the meaning.",
+    "confidence": "high"
+  },
+  {
+    "post": "2016-12-05-interview-25043",
+    "row": 2,
+    "kind": "note",
+    "original": "Junichi Masuda (que también es el responsable de la música desde los inicios...)",
+    "current": "增田顺一（Junichi Masuda）是Game Freak的创始人之一，长期担任制作人和作曲家",
+    "suggested": "增田顺一（Junichi Masuda）是Game Freak的资深制作人，从系列初期起负责音乐。",
+    "why": "O calls him only a veteran producer and the series' composer since the beginning; the note's claim that he co-founded Game Freak is not in O (and is not accurate).",
+    "confidence": "medium"
+  },
+  {
+    "post": "__summary__",
+    "read": [
+      "2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority",
+      "2014-05-14-interview-pokemoncom-2014-maestro",
+      "2016-12-05-interview-25043",
+      "2023-09-10-interview-pokemon-recruit-data",
+      "2021-12-27-interview-gamefreak-crosstalk-game-programmer",
+      "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+      "2015-09-01-interview-gamefreak-rnd-launch-taya-mi",
+      "2015-10-01-interview-gamefreak-recruit-programmers",
+      "2017-06-01-interview-gamefreak-rnd-ta-taya-kk",
+      "2021-12-27-interview-gamefreak-recruit-designer-kn",
+      "2021-12-27-interview-gamefreak-recruit-ta-tk",
+      "2019-12-11-interview-gamefreak-recruit-programmer-dn",
+      "2021-12-27-interview-gamefreak-recruit-designer-ht",
+      "2025-12-09-interview-creatures-recruit-card-illustration-production"
+    ],
+    "unread": []
+  }
+]

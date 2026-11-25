@@ -165,11 +165,11 @@ parallel_items:
 - type: heading
   level: 2
   original: ギアプロジェクトだからこそできる経験
-  translation: 只有齿轮项目才能获得的经验
+  translation: 只有Gear Project才能获得的经验
 - type: heading
   level: 3
   original: ギアプロジェクトに参加するおもしろみと難しさを教えてください。
-  translation: 请告诉我们参加齿轮项目的趣味和难点。
+  translation: 请告诉我们参加Gear Project的趣味和难点。
 - type: text
   speaker: M.O.
   speaker_orig: M.O

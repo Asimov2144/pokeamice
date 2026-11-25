@@ -76,7 +76,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 4. ビレッジブリッジ（村庄桥）――ヴェッキオ橋を思わせる歴史と生活の温もり
-  translation: 4. 村庄桥（Village Bridge）——宛如佛罗伦萨老桥般栖居着人间的百年石桥
+  translation: "令人想起韦基奥桥的历史与生活的温暖"
 - speaker: 增田顺一
   original: 橋の上に家が建っているイタリアあたりの古い橋（ヴェッキオ橋など）がモチーフになっています。
   translation: 意大利佛罗伦萨老桥（Ponte Vecchio）等古老桥梁，桥上建屋的独特景象，正是其设计灵感之源。
@@ -91,7 +91,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: 橋の東端にたたずむ、消えてしまう少女は、ケーシィの力で消えているだけかもしれないけど、たぶん７２％ぐらいの確率で幽霊です（笑）。
-  translation: 伫立于飞云大桥东端的那个消失少女，或许只是借助凯西的力量隐身罢了，但大概有72%左右的概率是幽灵吧（笑）。
+  translation: 伫立于桥东端的那个会消失的少女，或许只是借助凯西的力量隐身罢了，但大概有72%左右的概率是幽灵吧（笑）。
   role: answer
 - type: heading
   level: 2

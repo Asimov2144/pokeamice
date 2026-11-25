@@ -96,7 +96,6 @@ parallel_items:
 - speaker: 大森滋
   original: Another consideration for Sirfetch'd in particular is that, when you look at leeks in the UK, they're pretty big vegetables. They're pretty thick! In Japan they're much thinner, so when we saw that we thought, okay, with a leek this big, what Pokémon could carry that? And that's how the idea of using it as a lance or a spear, and making that a Farfetch'd evolution, came about.
   translation: 关于葱游兵，另一个考虑是：在英国，大葱是相当大的蔬菜，非常粗壮！而在日本，大葱要细得多。所以当我们看到英国的大葱时，就想：这么大的葱，什么宝可梦能拿得动呢？于是便萌生了把它当作长枪或长矛使用，并让大葱鸭进化的想法。
-  note: 译注：此处“大葱”指现实中的蔬菜，与宝可梦“大葱鸭”无关。
   role: answer
 - speaker: Eurogamer
   original: 'Okay last question about Sirfetch''d, I promise: are you going to have an equivalent that''s exclusive to Pokémon Shield like Sirfetch''d is for Sword?'
@@ -133,7 +132,7 @@ parallel_items:
 - speaker: 大森滋
   original: In Pokémon Sword and Shield there's no direct communication with Pokémon Go, but with Pokémon Home, which is launching in early 2020, you'll be able to bring Pokémon from Pokémon Go through Pokémon Home into Pokémon Sword and Shield, provided they are in the Galar regional Pokédex.
   translation: 在《宝可梦 剑／盾》中，没有与《Pokémon GO》的直接联动，但通过预定于2020年初推出的《Pokémon HOME》，只要宝可梦在伽勒尔地区图鉴中，就可以从《Pokémon GO》经由《Pokémon HOME》带入《宝可梦 剑／盾》。
-  note: 《Pokémon HOME》是云服务，支持跨平台传输宝可梦，但仅限图鉴收录的宝可梦。
+  note: 只有收录在伽勒尔地区图鉴中的宝可梦才能从Pokémon HOME带入《剑／盾》。
   role: answer
 - speaker: Eurogamer
   original: Along those lines, how do you manage the balancing of all the different fanbases of Pokémon? There are people who watch the anime, who got into Pokémon via Pokémon Go or mobile games like Masters, who first started years ago with Red and Blue, or who just started playing - are you still trying to cater to all of them in the main, handheld games Pokémon Sword and Shield, or are you now trying to separate them out?

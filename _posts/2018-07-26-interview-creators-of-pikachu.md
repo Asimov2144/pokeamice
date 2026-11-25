@@ -208,7 +208,7 @@ parallel_items:
 - speaker: 杉森建
   original: “I came up with the Pokémon Clefairy, but it is just one cute creature, and I was never really able to branch out from that.”
   translation: “我创作了宝可梦皮皮，但它只是一个可爱的生物，我从未真正能够从中拓展出更多。”
-  note: 皮皮是初代宝可梦之一，杉森建提到自己最初设计时局限于可爱风格。
+  note: 皮皮是初代宝可梦之一，杉森建说皮皮只是他设计出的一只可爱的宝可梦，此后他没能在这方面继续拓展。
   role: answer
 - speaker: 提问
   original: At the time, how many people were working on creating Pokémon?

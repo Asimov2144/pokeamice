@@ -3,7 +3,7 @@ archive_type: interview_translation
 layout: interview-editorial
 title: GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》
 original_title: How Let's Go Pikachu / Eevee Update Pokemon Yellow For A New Generation
-subtitle: 对话增田顺一与名花健作：从关都3D重塑、劲敌性格变迁、移除携带道具，到幻之宝可梦美录坦与‘被废弃的哥罗丘’
+subtitle: 对话增田顺一与菜花健作：从关都3D重塑、劲敌性格变迁、移除携带道具，到幻之宝可梦美录坦与‘被废弃的哥罗丘’
 date: '2018-10-17'
 categories: [访谈翻译, 翻译, 访谈整理]
 permalink: /interview-gamespot-lgpe-masuda/
@@ -13,7 +13,7 @@ interview_id: PKMN-0040
 source_name: GameSpot
 source_url: https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462580/
 original_link: https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462580/
-summary: 欧美权威游戏媒体 GameSpot 在《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》发售前夕专访总监增田顺一与环境概念设计师名花健作。访谈深入探讨了如何将1998年的经典Game Boy作品《宝可梦 黄》在Nintendo Switch上全面现代重塑：1. 为什么劲敌从初代脾气暴躁的青绿变成了友善的同伴？增田揭秘点阵时代与现代高清3D角色表情感染力的心理学差异；2. 为什么果断移除了携带道具与特性？为了让家庭玩家与新世代更加纯粹专注于探索与宝可梦本身；3. 名花健作阐释如何将充满童年回忆的2D关都（如紫苑镇、玉虹市）在高清3D中真实呈现野生宝可梦漫步的生态世界；4. 首次官方揭秘幻之宝可梦‘美录坦’与《Pokémon GO》的协同宣发秘密；5. 增田顺一正面回应皮卡丘被废弃的二段进化‘哥罗丘（Gorochu）’：宝可梦绝非纯粹的‘角色游戏’，所有中途被舍弃的废案设计都不会再面世。
+summary: 欧美权威游戏媒体 GameSpot 在《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》发售前夕专访总监增田顺一与环境概念设计师菜花健作。访谈深入探讨了如何将1998年的经典Game Boy作品《宝可梦 黄》在Nintendo Switch上全面现代重塑：1. 为什么劲敌从初代脾气暴躁的青绿变成了友善的同伴？增田揭秘点阵时代与现代高清3D角色表情感染力的心理学差异；2. 为什么果断移除了携带道具与特性？为了让家庭玩家与新世代更加纯粹专注于探索与宝可梦本身；3. 菜花健作阐释如何将充满童年回忆的2D关都（如紫苑镇、玉虹市）在高清3D中真实呈现野生宝可梦漫步的生态世界；4. 首次官方揭秘幻之宝可梦‘美录坦’与《Pokémon GO》的协同宣发秘密；5. 增田顺一正面回应皮卡丘被废弃的二段进化‘哥罗丘（Gorochu）’：宝可梦绝非纯粹的‘角色游戏’，所有中途被舍弃的废案设计都不会再面世。
 entities:
   people:
   - 增田顺一
@@ -30,7 +30,7 @@ speakers:
 - name: 增田顺一
   role: GAME FREAK 取缔役 / 游戏总监
   avatar: /assets/img/interviews/2018-05-30-interview-gamer-pokemon-press-conference-2018/08_masuda_director_presentation.jpg
-- name: 名花健作
+- name: 菜花健作
   role: GAME FREAK 概念与环境设计师
   avatar: /assets/img/interviews/2018-10-17-interview-gamespot-lgpe-masuda/03_meltan_and_joycon_play.jpg
 - name: GameSpot（提问）
@@ -48,7 +48,7 @@ parallel_items:
   translation: 《Let's Go》系列游戏在某些方面也大胆突破了传统，尤其体现在与《Pokémon GO》的联动上。你不仅能够将手机游戏中捕获的特定宝可梦传输至Switch作品中，这些游戏还采用了《Pokémon GO》的捕捉机制，这意味着你不再能与非玩家控制的野生宝可梦进行对战。
 - type: narrative
   original: 'GameSpot recently had an opportunity to sit down with Pokemon: Let’s Go director Junichi Masuda and lead game environment designer Kensaku Nabana. Through an interpreter, we discussed what it was like reimagining the traditionally 8-bit world of Kanto in 3D, what changes the development team made in bringing the games to Switch, and how the new Mythical Pokemon Meltan came to be.'
-  translation: GameSpot最近有幸采访了《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的总监增田顺一和首席游戏环境设计师名花健作。通过翻译，我们探讨了将传统的8位机关都地区以3D形式重新构想的过程，开发团队在为Switch平台打造这些游戏时所做的改变，以及新幻之宝可梦美录坦的诞生始末。
+  translation: GameSpot最近有幸采访了《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》的总监增田顺一和首席游戏环境设计师菜花健作。通过翻译，我们探讨了将传统的8位机关都地区以3D形式重新构想的过程，开发团队在为Switch平台打造这些游戏时所做的改变，以及新幻之宝可梦美录坦的诞生始末。
 - type: dialogue
   speaker: GameSpot
   original: Despite being inspired by Pokemon Yellow, Let’s Go Pikachu and Eevee seem to introduce a lot of new elements not found in previous Pokemon games. What new things should we expect?

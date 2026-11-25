@@ -52,7 +52,7 @@ parallel_items:
   role: question
 - speaker: 宫崎慎二
   original: No, I also listened to Kazuo Funaki-san and Sylvie Vartan’s “Search for the Idol” (Cherchez l’idole) and other things.
-  translation: 不，我也听了船木一夫先生和西尔维·瓦尔坦的《寻找偶像》（Cherchez l'idole）等作品。
+  translation: 不，我也听了舟木一夫先生和西尔维·瓦尔坦的《寻找偶像》（Cherchez l'idole）等作品。
   role: answer
 - speaker: 采访者（Media Factory）
   original: And what made you want to become a professional?
@@ -340,7 +340,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: Like Miyazaki-san, I think of the melody or the framework of a piece while taking a shower or something. The instance I’m freed after having been pressured by the deadline for my work is the best time for me to think of music pieces. Sorry if the story sounds hopeless (laughs).
-  translation: 和一之濑刚一样，我常在洗澡或做其他事情时思考旋律或乐曲的框架。当工作截止日期带来的压力终于卸下、获得解放的那一刻，正是我构思乐曲的最佳时机。如果这话听起来太没出息，还请见谅（笑）。
+  translation: 和宫崎先生一样，我常在洗澡或做其他事情时思考旋律或乐曲的框架。当工作截止日期带来的压力终于卸下、获得解放的那一刻，正是我构思乐曲的最佳时机。如果这话听起来太没出息，还请见谅（笑）。
   role: answer
 - speaker: 佐藤仁美
   original: I’m the opposite; if I don’t sit at a desk, nothing will come out. And when I think, “I have little time left. Just one more hour!” everything comes out at once.
