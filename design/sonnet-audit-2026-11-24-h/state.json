@@ -1,0 +1,84 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (eighth)",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed",
+   "chars": 23849,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\shard-1.json",
+   "posts": [
+    {
+     "stem": "2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida",
+     "rows": 28,
+     "chars": 14286,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida.txt"
+    },
+    {
+     "stem": "2013-11-06-interview-hobbyconsolas-xy-masuda",
+     "rows": 17,
+     "chars": 7023,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2013-11-06-interview-hobbyconsolas-xy-masuda.txt"
+    },
+    {
+     "stem": "2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance",
+     "rows": 8,
+     "chars": 2540,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed",
+   "chars": 23199,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2013-09-20-interview-multiplayer-2013-xy",
+     "rows": 28,
+     "chars": 11444,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2013-09-20-interview-multiplayer-2013-xy.txt"
+    },
+    {
+     "stem": "2012-09-17-interview-gi-2012-b2w2-sequel",
+     "rows": 14,
+     "chars": 9087,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2012-09-17-interview-gi-2012-b2w2-sequel.txt"
+    },
+    {
+     "stem": "2020-12-21-interview-nikkei-ishihara-go-boardgames",
+     "rows": 11,
+     "chars": 2668,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2020-12-21-interview-nikkei-ishihara-go-boardgames.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed",
+   "chars": 25984,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable",
+     "rows": 39,
+     "chars": 10992,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable.txt"
+    },
+    {
+     "stem": "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori",
+     "rows": 18,
+     "chars": 9218,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori.txt"
+    },
+    {
+     "stem": "2014-11-01-interview-elpais-oras-masuda-ohmori",
+     "rows": 13,
+     "chars": 5774,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-h\\dump\\2014-11-01-interview-elpais-oras-masuda-ohmori.txt"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+[
+  {"post": "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable", "row": 2, "kind": "speaker", "original": "本篇報導將會為大家介紹當天的狀況", "current": "<江上周作>", "suggested": "<GNN取材班>", "why": "O is the reporter's article lead-in (refers to 本篇報導 and describes 江上 in third person), not 江上周作's words.", "confidence": "high"},
+  {"post": "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable", "row": 18, "kind": "quote", "original": "「《精靈寶可夢 赤 ‧ 綠 」世代", "current": "野村表示自己是「《宝可梦 赤 ‧ 綠 」世代", "suggested": "野村表示自己是「《宝可梦 红‧绿》」世代", "why": "Book-title mark 《 is opened but never closed before 」.", "confidence": "medium"},
+  {"post": "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable", "row": 28, "kind": "name", "original": "誘餌組件（Lure Module）", "current": "诱饵模块（Lure Module）（Lure Module）", "suggested": "诱饵模块（Lure Module）", "why": "The English gloss is duplicated; O has it once.", "confidence": "high"},
+  {"post": "__summary__", "read": ["2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable", "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori", "2014-11-01-interview-elpais-oras-masuda-ohmori"], "unread": []}
+]

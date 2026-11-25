@@ -61,7 +61,7 @@ parallel_items:
 - original: 'Ogni capitolo della serie è sviluppato con in mente più temi principali, temi ai quali cerchiamo di collegare il titolo. Per Pokémon X e Y uno dei filoni conduttori è l''idea di trovare dei punti in comune tra persone diverse: come le braccia della X si trovano tutte al centro, così anche le diverse visioni si incontrano in un punto comune.'
   role: answer
   speaker: 增田顺一
-  translation: 系列的每一部作品在开发时都会设定几个核心主题，我们会尝试让标题与这些主题相关联。对于《宝可梦 X·Y》来说，其中一条主线是在不同的人之间寻找共同点：就像X的两条臂膀都汇聚于中心，不同的观点也会在某个共同点上相遇。
+  translation: 系列的每一部作品在开发时都会设定几个核心主题，我们会尝试让标题与这些主题相关联。对于《宝可梦 X·Y》来说，其中一条主线是在不同的人之间寻找共同点：就像X的各条臂膀都汇聚于中心，不同的观点也会在某个共同点上相遇。
 - type: image
   image: /assets/img/interviews/2013-09-20-interview-multiplayer-2013-xy/002.jpg
   alt: Quel mostro di Junichi Masuda
